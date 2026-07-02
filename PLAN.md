@@ -12,6 +12,13 @@ Per the Labs-vs-Press doctrine: the corpus is the **open layer** — free readin
 3. Preservation: **rescue Google-Books-only volumes now**; archive.org-hosted volumes fetched lazily as translation reaches them.
 4. PG: **translate from the Greek**, with Migne's parallel Latin column as inline verifier (the Zelzer pattern — crosscheck, never source).
 
+**Architecture decision (Wilson, 2026-07-02) — "the total Migne, complete map first":**
+The eventual goal is the total Migne easily accessible in English AND Latin. The bones must hold that from day one, and early translations must not feel dwarfed inside a centimillion-word corpus. Resolution: **ONE canonical structure, complete at the map level from launch** — not separate per-piece constructions.
+- **Every work is a page from day one**: Latin text (from the Corpus Corporum/Calfa harvests) readable and citable by `PL/PG vol + column` immediately; the site is a complete, navigable, free Migne before a single translation ships — already a contribution in itself.
+- **Every work carries an English slot with an explicit state**: `ours` (our translation) · `pd-ingested` (ANF/NPNF etc., hosted) · `elsewhere` (pointer to the copyrighted print translation — honest coverage, no redundant work) · `queued` / `untranslated`. The triage data (authors-status.json → per-work) IS this coverage map's seed.
+- **Dwarfing is solved by inversion**: the map is complete; translation lights up territory. Each untranslated-first piece is a *first-ever English translation* — an announceable, datable event ("first published English translation: Wroot Press, 2026"), not a percentage of 100M words.
+- **"Versions" are views, not constructions**: per-author spotlights, print editions, "recently Englished" — all generated from the one canonical work-keyed store (CPL/CPG + volume:column ref-keys, per the data-repository standard). Never two divergent structures.
+
 ## Research findings that shape the plan (verified 2026-07-02)
 
 - **patristica.net** (`www.patristica.net/latina/`, `/graeca/` — note: bare `latina.patristica.net` has a broken TLS cert; use the `www.patristica.net/<series>/` form) indexes every volume with per-volume Google Books (2–6 links), archive.org, and Gallica links. This is the enumeration source for the volume registry.
