@@ -1,0 +1,23 @@
+{
+ "note": "round-3 flags \u2014 resolve during per-work verification before queueing",
+ "items": [
+  {
+   "batch": 11,
+   "author": "Gualterus de Castellione",
+   "issue": "marked none but Alexandreis HAS English translations (Pritchard 1986, Townsend 1996); recheck non-Alexandreis works"
+  },
+  {
+   "batch": 14,
+   "author": "Braulio Caesaraugustanus",
+   "issue": "marked never-translated but his Letters are in FOTC 63 (Iberian Fathers vol 2, Barlow); recheck per-work"
+  },
+  {
+   "batch": 12,
+   "issue": "agent self-reported only 24 WebSearch queries for 40 authors \u2014 under mandate; unknown/minimal bucket (18) errs toward inclusion so queue-safe, but treat fully/mostly claims from this batch with lower prior"
+  },
+  {
+   "batch": 13,
+   "issue": "Greek fathers in PL (Basil, Athanasius, Eusebius) classified by underlying-work English coverage, which is the right lens for the queue \u2014 but their PL-specific Latin-version columns should be excluded from translation scope entirely at works.json level"
+  }
+ ]
+}

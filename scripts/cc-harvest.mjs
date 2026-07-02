@@ -38,25 +38,37 @@ async function crawlIndex() {
   const authors = blocks(rootXml, 'author').map((b) => ({ idno: attr(b, 'idno')[0], name: attr(b, 'name')[0] }));
   console.log(`${authors.length} authors`);
 
-  let done = 0;
+  let done = 0, skipped = 0;
   for (const a of authors) {
-    const authorFile = join(root, 'raw/cc-index/authors', `${a.idno}.xml`);
-    if (!existsSync(authorFile)) {
-      writeFileSync(authorFile, await fetchText(`${BASE}/navigate.php?load=/38/${a.idno}&group_by=`));
-      await sleep(DELAY_MS);
-    }
-    const works = blocks(readFileSync(authorFile, 'utf-8'), 'work');
-    for (const w of works) {
-      const widno = attr(w, 'idno')[0];
-      const workFile = join(root, 'raw/cc-index/works', `${widno}.xml`);
-      if (existsSync(workFile)) continue;
-      writeFileSync(workFile, await fetchText(`${BASE}/navigate.php?load=/38/${a.idno}/${widno}&group_by=`));
-      await sleep(DELAY_MS);
+    try {
+      const authorFile = join(root, 'raw/cc-index/authors', `${a.idno}.xml`);
+      if (!existsSync(authorFile)) {
+        writeFileSync(authorFile, await fetchText(`${BASE}/navigate.php?load=/38/${a.idno}&group_by=`));
+        await sleep(DELAY_MS);
+      }
+      const works = blocks(readFileSync(authorFile, 'utf-8'), 'work');
+      for (const w of works) {
+        const widno = attr(w, 'idno')[0];
+        const workFile = join(root, 'raw/cc-index/works', `${widno}.xml`);
+        if (existsSync(workFile)) continue;
+        try {
+          writeFileSync(workFile, await fetchText(`${BASE}/navigate.php?load=/38/${a.idno}/${widno}&group_by=`));
+        } catch (e) {
+          skipped++;
+          console.log(`SKIP work ${widno} (${a.name}): ${e.message}`);
+          await sleep(10000); // cool off after repeated failures
+        }
+        await sleep(DELAY_MS);
+      }
+    } catch (e) {
+      skipped++;
+      console.log(`SKIP author ${a.idno} (${a.name}): ${e.message}`);
+      await sleep(10000);
     }
     done++;
     if (done % 50 === 0) console.log(`${done}/${authors.length} authors crawled`);
   }
-  console.log('index crawl complete');
+  console.log(`index crawl complete; ${skipped} skipped (rerun to mop up)`);
 }
 
 function buildIndex() {
