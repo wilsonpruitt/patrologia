@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Migne — Patrologiæ Cursus Completus, open</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="bar">
+  <a class="wordmark" href="index.html">MIGNE<span class="tld">.APP</span></a>
+  <nav>
+    <a href="#" >Latina</a>
+    <a href="#">Græca</a>
+    <a href="#">Authors</a>
+    <a href="#">The Queue</a>
+    <a href="#">Migne</a>
+  </nav>
+</header>
+
+<section class="titlepage">
+  <hr class="rule-heavy">
+  <hr class="rule-light">
+  <h1>PATROLOGIÆ<br>CURSUS COMPLETUS</h1>
+  <p class="series">OMNIUM SS. PATRUM, DOCTORUM SCRIPTORUMQUE ECCLESIÆ</p>
+  <p class="fleuron">❦</p>
+  <p class="thesis">Every column of the Latin and Greek Fathers, readable and citable — and, work by work, <b>for the first time in English.</b></p>
+</section>
+
+<section class="resolver" aria-label="Citation resolver">
+  <form action="work.html">
+    <select aria-label="Series">
+      <option>PL</option>
+      <option>PG</option>
+    </select>
+    <input type="text" placeholder="139 : 473 A" aria-label="Volume and column">
+    <button type="submit">RESOLVE</button>
+  </form>
+  <p class="hint">Any Migne citation is an address here — <a href="work.html">PL 139, 473A → Abbo of Fleury, <i>Canones</i></a></p>
+</section>
+
+<section class="shelves" aria-label="The corpus, volume by volume">
+  <div class="shelf-head">
+    <h2>The Shelf</h2>
+    <span class="legend"><span class="gilt-dot"></span>gilt label — carries English &nbsp;·&nbsp; dashed — PG 162, burned 1868</span>
+  </div>
+  <div class="shelf">
+    <div class="shelf-inner" id="shelf-pl"><span class="shelf-label">PL&nbsp;1–221</span></div>
+  </div>
+  <div style="height:6px"></div>
+  <div class="shelf">
+    <div class="shelf-inner" id="shelf-pg"><span class="shelf-label">PG&nbsp;1–161</span></div>
+  </div>
+</section>
+
+<section class="ledger" aria-label="The corpus in figures">
+  <div class="entry">
+    <div class="figure">85,539,587</div>
+    <div class="gloss">Latin words in the Patrologia Latina — 2,614 authors, 297,567 double-column pages. All of it readable here, in Latin, from the start.</div>
+  </div>
+  <div class="entry">
+    <div class="figure">387 volumes</div>
+    <div class="gloss">PL 1–221 and PG 1–161, published 1844–1866 at Petit-Montrouge. Volume 162 of the Greek series burned before publication; its ghost keeps its place on the shelf.</div>
+  </div>
+  <div class="entry">
+    <div class="figure">73 authors</div>
+    <div class="gloss"><em>verified never translated</em> — millions of words with no English in 180 years. That is the queue this site exists to work through.</div>
+  </div>
+</section>
+
+<section class="recent" aria-label="Recently Englished">
+  <h2>Recently Englished</h2>
+  <ol>
+    <li>
+      <span class="work"><a href="work.html">Abbo of Fleury, <i>Canones</i></a><span class="first">First English translation</span></span>
+      <span class="cite">PL 139, 473–508</span>
+    </li>
+    <li>
+      <span class="work"><a href="#">Gerhoh of Reichersberg, <i>Commentary on the Psalms</i>, I</a><span class="first">First English translation</span></span>
+      <span class="cite">PL 193, 619–</span>
+    </li>
+    <li>
+      <span class="work"><a href="#">Peter Comestor, <i>Historia Scholastica: Genesis</i></a><span class="first">First English translation</span></span>
+      <span class="cite">PL 198, 1053–</span>
+    </li>
+  </ol>
+</section>
+
+<footer class="colophon">
+  <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
+  <p class="migne-line">“I confess to you in closing that my ambition is to die as the priest who will have been the most useful to the Church.” — J.-P. Migne to Dom Pitra, 1863 · <a href="#">read his life</a></p>
+  <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
+</footer>
+
+<script>
+/* sketch only: in production the shelf is server-rendered from the registry */
+function shelf(el, count, opts) {
+  const frag = document.createDocumentFragment();
+  for (let i = 1; i <= count; i++) {
+    const s = document.createElement(opts.ghost === i ? 'span' : 'a');
+    s.className = 'spine';
+    if (opts.ghost === i) { s.classList.add('ghost'); s.title = opts.series + ' ' + i + ' — destroyed in the fire of 1868'; }
+    else {
+      s.href = '#';
+      s.title = opts.series + ' ' + i;
+      if (opts.englished.includes(i)) s.classList.add('englished');
+      if (i % 9 === 0) s.classList.add('tall');
+    }
+    frag.appendChild(s);
+  }
+  el.appendChild(frag);
+}
+shelf(document.getElementById('shelf-pl'), 221, { series: 'PL', englished: [23,32,42,73,114,139,158,182,193,198,210], ghost: 0 });
+shelf(document.getElementById('shelf-pg'), 162, { series: 'PG', englished: [6,35,60,94,120], ghost: 162 });
+</script>
+
+</body>
+</html>
