@@ -267,7 +267,7 @@ a { color: inherit; }
 }
 .coltext p { margin-bottom: 1em; text-align: justify; hyphens: auto; }
 .coltext .praef { font-variant: small-caps; letter-spacing: .12em; }
-.coltext.latin { font-size: 1.02rem; }
+.coltext.latin { font-size: 1.02rem; font-feature-settings: "locl" 0; } /* modern u, as Migne printed */
 .coltext.english { font-size: 1.05rem; }
 .coltext .draft-note { font-size: .85rem; font-style: italic; color: var(--encre-douce); }
 
