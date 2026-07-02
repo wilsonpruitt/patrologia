@@ -1,0 +1,26 @@
+{
+ "generated": "2026-07-02",
+ "items": [
+  {
+   "path": "raw/mirrors/Patrologia_Latina_1-221.zip",
+   "sha256": "6a92ac2bda86e1315203d24b6330fe946d687b9a1e5969c7a08f24bb7e5d35fd",
+   "bytes": 351225256,
+   "source": "https://archive.org/download/patrologia-latina_1-221/Patrologia_Latina_1-221.zip",
+   "fetched": "2026-07-02",
+   "note": "all 221 PL volumes as text PDFs; corpus-level preservation mirror"
+  },
+  {
+   "path": "sources/pg/calfa/",
+   "source": "https://github.com/calfa-co/Patrologia-Graeca (depth-1 clone)",
+   "fetched": "2026-07-02",
+   "license": "CC-BY 4.0",
+   "note": "33 PG volumes, ~6M words, Greek-only OCR (CER 1.05%); Zenodo: tagged corpus 19915273, ground truth 20008699"
+  },
+  {
+   "path": "sources/pl/tei/",
+   "source": "https://mlat.uzh.ch php_modules/download.php?type=file-xml (Corpus Corporum, corpus 38)",
+   "fetched": "in progress",
+   "note": "5,277 texts / 85.5M words; TEI with <pb n=\"NNNNA\"/> column+section markers; CC text ultimately derives via Open Greek and Latin patrologia_latina-dev"
+  }
+ ]
+}
