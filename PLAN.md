@@ -29,7 +29,7 @@ The eventual goal is the total Migne easily accessible in English AND Latin. The
 ## Repo & naming
 
 - New repo `~/patrologia/` (private GitHub `wilsonpruitt/patrologia`, same pattern as acta-sanctorum/bonaventure-sentences). `raw/` (scans, PDFs) gitignored.
-- **Domain: `migne.app`** (Wilson, 2026-07-02 — verified available via RDAP; purchase pending, Cloudflare Registrar suggested). Rationale: the citation scheme becomes the URL scheme — `migne.app/pl/139/473a` resolves any Migne citation; covers PG+PL equally. .app is HTTPS-only (fine on Vercel). Wiring: Cloudflare DNS -> Vercel, per actasanctorum pattern.
+- **Domain: `migne.app`** (**PURCHASED by Wilson 2026-07-02**). Rationale: the citation scheme becomes the URL scheme — `migne.app/pl/139/473a` resolves any Migne citation; covers PG+PL equally. .app is HTTPS-only (fine on Vercel). Wiring: Cloudflare DNS -> Vercel, per actasanctorum pattern.
 - In-repo `CLAUDE.md` + `next-session-resume.md` as authoritative live state (Bonaventure convention) — memory file stays high-level.
 
 ## Phase 0 — Volume registry (the spine everything hangs on)
