@@ -29,7 +29,7 @@ The eventual goal is the total Migne easily accessible in English AND Latin. The
 ## Repo & naming
 
 - New repo `~/patrologia/` (private GitHub `wilsonpruitt/patrologia`, same pattern as acta-sanctorum/bonaventure-sentences). `raw/` (scans, PDFs) gitignored.
-- Site target (later phase): `patrologia.wrootpress.com` initially; own domain deferrable.
+- **Domain: `migne.app`** (Wilson, 2026-07-02 — verified available via RDAP; purchase pending, Cloudflare Registrar suggested). Rationale: the citation scheme becomes the URL scheme — `migne.app/pl/139/473a` resolves any Migne citation; covers PG+PL equally. .app is HTTPS-only (fine on Vercel). Wiring: Cloudflare DNS -> Vercel, per actasanctorum pattern.
 - In-repo `CLAUDE.md` + `next-session-resume.md` as authoritative live state (Bonaventure convention) — memory file stays high-level.
 
 ## Phase 0 — Volume registry (the spine everything hangs on)
@@ -85,7 +85,7 @@ Pick from the triage queue: **one untranslated PL work + one untranslated PG wor
 
 ## Phase 7 — Site + production cadence
 
-- Static site, Acta architecture (pure HTML+CSS, pagefind search, Vercel deploy with `--archive=tgz`), organized by author → work → columns, every page carrying its Migne citation (`PL/PG vol, col range`) and CPL/CPG number.
+- Static site at **migne.app**, Acta architecture (pure HTML+CSS, pagefind search, Vercel deploy with `--archive=tgz`), organized by author → work → columns, every page carrying its Migne citation (`PL/PG vol, col range`) and CPL/CPG number; URL scheme mirrors citations (`/pl/139/473a`).
 - Production runs as background cadence like Acta months: ship in author/work units, each unit = chunk → 6-agent rounds → scan → build → deploy.
 - **Scale honesty:** PL alone is ~100M+ Latin words; untranslated share still dwarfs all Acta done so far. This is a multi-year corpus that ships value continuously — untranslated-first means every shipped unit is a first-ever English translation.
 
@@ -101,4 +101,4 @@ Pick from the triage queue: **one untranslated PL work + one untranslated PG wor
 - Bilingual print promotions (per-work decisions, post-pilot).
 - Lectern/Catena/Dictionary wiring (connective-tissue layer, after corpus exists).
 - Full scan mirror to cloud storage (only Google-Books-only rescue now).
-- Domain purchase; jan-vol1-style retrofits — pipeline is being built right the first time instead.
+- jan-vol1-style retrofits — pipeline is being built right the first time instead.
