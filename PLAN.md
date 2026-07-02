@@ -42,7 +42,7 @@ Then build `data/works.json`: one record per **work**, keyed by **CPL / CPG numb
 
 **RESOLVED 2026-07-02 (Phase 0 finding): no Google Books rescue needed.** patristica.net's link lists are stale; current archive.org coverage is total — every PL and PG tome has at least one archive.org copy (see README.md: `patrologia-volumes` mega-item for PG, `PatrologiaLatina` + `patrologiaecur{NNN}mign` family for PL, plus the 351 MB `Patrologia_Latina_1-221.zip` corpus-level text mirror). Remaining Phase 1 items:
 
-1. **BLOCKED ON STORAGE:** local disk at 1.9 GB free (2026-07-02). Nothing downloaded yet. Wilson to decide external drive vs cloud before any fetching. The 351 MB PL text zip is the first grab once storage exists.
+1. ~~Blocked on storage~~ **RESOLVED later 2026-07-02**: 30 GB freed (deleted-but-open Photos WAL — see memory `reference_deleted-but-open-disk-space`). PL text zip downloaded + hashed (`raw/mirrors/`, provenance.json). Full scan mirrors (100+ GB) still want an external drive eventually.
 2. Verification flag: PG 075 candidate (`bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1859_75`) — confirm it's Series Graeca, not Latina, on download.
 3. Archive.org fetches: **always `{id}_jp2.zip` or direct PDF, never IIIF bursts** (aggressive rate-limiting — see `reference_archive-org-iiif`).
 
