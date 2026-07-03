@@ -39,3 +39,23 @@ numeral and `.-- ` punctuation.
   under the name of dowry, others by donation of inheritance, and others…"
 - **Worked instance:** Abbo *Canones* ch. VII (9741/0002, col 480C), flagged by
   Wilson 2026-07-03; corpus swept, no other instances.
+
+### 2. Attribution headnotes are citations, not prose
+
+Canon collections and florilegia open extracts with an attribution line
+(*Augustinus, de verbis Domini, homilia 19:* — there will be tens of thousands
+of these). Render them as citations:
+
+- **Work titles** italic and title-cased, in English — *On the Words of the
+  Lord*, not "on the words of the Lord" run into the sentence.
+- **Genre word + number** capitalized — Homily 19, Epistle 12, Book II —
+  wherever it functions as a locator, in headnotes or in prose references to a
+  numbered unit (*Gregorius in homilia 37 Evangeliorum* → "Gregory, in Homily
+  37 on the Gospels").
+- Descriptive prose stays lowercase — "in another epistle, after some other
+  matters" (*in alia epistola*) is narrative, not a locator.
+- `[n: …]` markers are unaffected (verbatim rule).
+
+**Worked instances:** Abbo *Canones* ch. XLIX and L (9741/0010, cols 505D,
+506A), flagged by Wilson 2026-07-03; corpus swept, one descriptive-prose case
+(9741/0003, col 485D) correctly left lowercase.
