@@ -1,8 +1,16 @@
 # Next session — resume note
 
-*Updated 2026-07-03 (diff-vs-scan session — both pilots).*
+*Updated 2026-07-03 (landing + resolver session).*
 
 ## State
+
+- **LANDING + RESOLVER BUILT 2026-07-03** (commit `8b7cf26`, per `site/landing-resolver-spec.md` — all deliverables + acceptance checklist run in browser).
+  - `scripts/build-landing.mjs` → `site/index.html` + `site/resolver-data.json` (13KB). Englished set scanned from built pages; ledger from registries (85,525,824 / 387 / 73); shelf server-rendered with PG 162 ghost; run it after every work ships. **New works must also be prepended to the `RECENT` list at the top of the script** (editorial, newest first — the build fails loudly if a built page is missing from it).
+  - `site/resolve/index.html`: path or query params (`s`/`v`/`c`, plus `vc` for the no-JS form), PL nearest-preceding anchor, PG pair normalization (223→#c224 verified), miss/ghost/invalid pages.
+  - **`vercel.json` lives in `site/`, NOT repo root** — deliberate deviation from the spec: the deploy root is `site/` (`cd site && npx vercel`) and Vercel reads rewrites from the deploy root only.
+  - Both work-page builders now emit the nearest-anchor hash fallback + the analytics snippet; pages rebuilt, verifiers clean. `volumes` map in resolver-data includes ALL volume numbers (scan-less ones as `{}`) so range validation works.
+  - **Rewrites don't exist on the local http.server** — citation paths 404 locally; test via `/resolve/?s=…&v=…&c=…`, and re-test path form after first deploy.
+  - Wilson has migne.app DNS already set at Cloudflare (A 76.76.21.21 + www CNAME, DNS-only — verified correct 2026-07-03). Remaining: create Vercel project `migne` (team wilson-pruitts-projects), deploy, add domain, toggle Web Analytics ON in dashboard — each a per-action OK.
 
 - **DIFF-VS-SCAN DONE FOR BOTH PILOTS 2026-07-03** (commits `3cf8f84` Joel, `c84cdd4` Abbo). This closes the pre-deploy verification debt from both pilot sessions.
   - **Joel: all 21 flagged cruces adjudicated against the plates** (verdict-by-verdict record appended to `src/english/joel-chronographia/cruces.md`; page rebuilt, verifier clean, re-indexed — 202 cruces).
@@ -18,7 +26,7 @@
 
 ## Next moves
 
-1. **BUILD LANDING + RESOLVER — SONNET SESSION, spec is written and final: `site/landing-resolver-spec.md`** (2026-07-03). All design decisions made (approved sketch, real-data substitutions, PG pair normalization, vercel.json rewrites, nearest-anchor fallback, acceptance checklist, hard stops). Execute it; don't re-decide. Wilson is wiring migne.app DNS himself (standard Vercel DNS); Vercel project creation + deploy remain per-action OKs.
+1. **DEPLOY** (per-action OKs from Wilson, in order): create Vercel project `migne` on team wilson-pruitts-projects → `cd site && npx vercel` preview → check citation-path rewrites live → prod → add migne.app domain → toggle Web Analytics ON in dashboard. DNS is already in place.
 2. **Wilson read-through of Joel** — register + column-pair alignment + the two Greek-vs-Latin divergence rulings (Joram, Michael VII).
 3. **Phase 3 OCR benchmark** (unchanged): ~25 TEI-covered columns vs scan crops, Haiku/Sonnet/Opus CER; Greek side vs Calfa Zenodo ground truth (record 20008699).
 4. **PG gap map**: Calfa 33 vols + First1KGreek inventory vs the PG registry → `data/gap-map.json`.
