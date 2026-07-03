@@ -23,9 +23,9 @@
 - **Domain migne.app PURCHASED** (not wired — no site yet). Architecture: complete-map-first (PLAN.md). Front-end sketch APPROVED (`sketch/`). Biography draft fact-checked (`content/migne-biography.md`) — awaiting Wilson read-through.
 - Deep-research + 6 dossiers behind the biography are in `data/migne-bio/`.
 
-## Next moves (pick one; no strict order)
+## Next moves
 
-1. **PG pilot (Phase 6, Greek half).** The Latin half is done; the untested gate question is the Greek-with-Latin-verifier workflow (Zelzer pattern). Pick an untranslated PG work with Calfa coverage, run the same chunk→translate→verify→render loop.
+1. **PG pilot (Phase 6, Greek half) — WILSON'S PICK for next session (2026-07-03).** The Latin half is done; the untested gate question is the Greek-with-Latin-verifier workflow (Zelzer pattern). Pick an untranslated PG work with Calfa coverage, run the same chunk→translate→verify→render loop. Reuse the Abbo pipeline scripts; Greek chunks land in `src/greek/`; translation prompts point at `translation-style.md` + a hand-done Greek anchor chunk.
 2. **Phase 3 OCR benchmark.** Ground truth now local: sample ~25 columns from TEI-covered volumes, pull matching scan pages (archive.org `_jp2.zip`, column-band crop per Ambrose recipe), score Haiku/Sonnet/Opus CER. Greek side vs Calfa Zenodo ground truth (record 20008699).
 3. **PG gap map.** Inventory Calfa (33 vols) + First1KGreek PG holdings vs the PG registry → `data/gap-map.json`. (First1KGreek not yet inventoried — that's the research bit.)
 4. **Per-work triage** of the `partial` (74 authors / 19.7M words) and `mixed-bucket` (31 / 9.5M) statuses — works lists now complete in `raw/cc-index/`; per-work triage can now write straight into works.json's `translation.workStatus`/`englishState` slots. Haiku agents WITH the telemetry gate; resolve round-flags while at it.
