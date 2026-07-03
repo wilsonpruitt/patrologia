@@ -616,3 +616,87 @@ the GREEK side patched to the print (see data/calfa-patches/, patches 6-9):
 - 0265/0268-0269 (chunk 0008): Phokas catchline reads "Μετὰ οὖν" (not δὲ);
   Justinian clause "Ἔστεψε δὲ Ἰουστινιανὸν υἱὸν αὐτοῦ συμβασιλεύειν" —
   both Greek-side patched from the plates.
+
+---
+
+## Diff-vs-scan pass — 2026-07-03 (all flagged cruces adjudicated)
+
+Plates read from `raw/scans/pg139/patrologiaecurs63migngoog.pdf` (renders at
+150/400/600dpi); left-margin clips on two leaves settled against a second
+copy, `patrologicursus73migngoog.pdf` (downloaded this pass, 86MB). Scan-page
+concordance: PDF page = Migne column pair; Greek side alternates and was read
+per leaf. **Text corrections were applied to src/greek + src/english chunks;
+new lacunae recorded as patches 10–12 in `data/calfa-patches/`.**
+
+- **0225 σωθήσεται** — plate prints σωτήσεται (τ certain at 600dpi against
+  the θ of πλινθίνη on the same line). A Migne misprint; emendation
+  σωθήσεται stands; patch 1 provenance updated.
+- **0229 μίαν** — plate prints μίαν verbatim. Migne's own text, not OCR;
+  rendering stands.
+- **0233 Samson interregnum** — stale crux: patch 5 already restores
+  Μετὰ δὲ Σαμψὼν ἐγένετο ἀναρχία ἔτη μʹ; plate confirms the patch verbatim
+  (isolated bottom line, the classic Calfa drop).
+- **0233 Eli** — plate prints ἐτῶν ϟʹ (koppa, 90); Calfa misread the koppa
+  as ἱ. "Ninety" upgraded from LXX conjecture to plate-verified. GREEK
+  CORRECTED.
+- **0236 Ozias** — plate prints ἔτη νβʹ (52), Latin *annis 52*. Calfa νθί
+  misread β as θ. **CORRECTED fifty-nine → fifty-two** (greek+english 0002).
+- **0240 Zambri** — plate prints ἔτη ιβʹ (12), Latin *anno regni 12* (crux
+  wrongly thought the Latin number lost). **CORRECTED eighteen → twelve**
+  (0003).
+- **0240 Ochozias** — full sentence on plate: πεσὼν ἐκ τοῦ ὑπερῴου τοῦ οἴκου
+  αὐτοῦ ἀπέθανεν. **NEW PATCH 10**; Greek restored (0003); English already
+  carried the sense from the Latin.
+- **0240 Joram (new, unflagged)** — plate prints ἔτη βʹ (two) against Latin
+  *annos duodecim* (and 4 Kgdms 3:1, twelve). Genuine Greek/Latin divergence
+  in Migne. Per Greek-primary/as-printed policy **English corrected
+  twelve → two** (0003).
+- **0249 ἀποκτονηθείς** — plate prints it; Migne's own anomaly. Interpretive
+  rendering per Latin stands.
+- **0249 θέόηλον** — plate prints βέβηλον (broken type on the second β
+  explains the OCR). **CORRECTED**: Greek βέβηλον, English "foul and
+  profane life" (0005). Latin *nefandam* agrees.
+- **0249/0248 Paul-sword seam** — patch 7 plate-confirmed verbatim (bottom
+  of col 248, in-column).
+- **0252 Δάδιος** — plate prints Δάδιος; Migne's reading, not OCR. English
+  "Didius" (per Latin, standard identification) stands.
+- **0253 Maximinus accession (patch 8)** — first copy clips the left margin
+  exactly at the numeral; second copy shows line 2 begins γʹ. Patch
+  plate-confirmed.
+- **0253 Συνέπων** — second copy shows initial Σ clearly. **CORRECTED**
+  Τυνέπων → Συνέπων in Greek (0005); English "Synepon" stands.
+- **0256 Nestorius parenthesis** — plate: ἑπόμενος (υἱὸς γὰρ ἦν τοῦ Κίλικος,
+  ἀπόγονος δὲ τοῦ Σαμοσατέως), — lost word is υἱὸς with an opening paren.
+  **NEW PATCH 11**; Greek restored (0005); English already right.
+- **0257 Maximinus death** — Calfa dropped the col-256 bottom line: δίκην
+  κηροῦ τακῆναι καὶ τὰ ὀστᾶ συμφρυγῆναι καὶ. **NEW PATCH 12**; Greek
+  restored + seam junk fixed per plate (ιὸν→τὸν, ἀφαΚνισθῆναι→ἀφανισθῆναι,
+  Κδνσωδίαν→δυσωδίαν); English gains "melted like wax … bones were scorched
+  up" (0006).
+- **0261 Seven Sleepers** — plate prints μετὰ ἔτη τβʹ AND the Latin prints
+  *post annos 302* (crux wrongly thought the Latin number lost). The ῤ=β
+  conjecture upgraded to plate-verified. (Theodosius λβʹ also confirmed
+  incidentally.)
+- **0264 Ὠάτον** — plate: ἐν ἑνὶ τῶν κοιτωνίσκων (Ὠατον δὲ ἐλέγετο)
+  κατέλαβεν. Diminutive κοιτωνίσκων, not κοιτώνων. **GREEK CORRECTED**
+  (0007); English "bedchambers" kept (diminutive nuance noted).
+- **0269 Justinian II** — plate prints ἔτη ιʹ (ten) at 600dpi; Calfa misread
+  ι as υ. NOTE: the Latin verifier genuinely prints *annum unum* — the
+  LATIN, not its OCR, is wrong here (history agrees with the Greek: ten).
+- **0273 Constantine VI** — plate prints ἔτη ιζʹ (seventeen); the correction
+  is plate-verified. (Constantine V's διὰ τὴν Θεοτόκον also confirmed
+  incidentally.)
+- **0280 Tzimiskes** — plate prints ἡμέρας λʹ (thirty), Latin *dies
+  triginta*. **GREEK CORRECTED** κʹ → λʹ (0010); English already "thirty."
+  The years glyph reads ζʹ on the plate (Latin *sex*; same ζ-for-ϛ zone as
+  0288) — English "six years" kept, per Latin and the historical span.
+- **0288 Michael VII** — plate prints χρόνους ζʹ clearly: a genuine
+  Greek/Latin divergence in Migne (Greek 7, Latin *sex*), NOT a Calfa slip.
+  Per Greek-primary/as-printed policy **English corrected six → seven**
+  (0011), Latin noted. (Παραπινάκης with iota also plate-confirmed.)
+
+**Tail-leaf finding (chunk 0011 flag resolved):** the column map's leaf
+values for Calfa pages 146–151 were +2 (the token verification had matched
+generic words); corrected in `data/pg-column-maps/pg139.json`. The three
+parity-inferred greekCols (284, 285, 288) were all CORRECT — chunk 0011's
+anchors stand as built.

@@ -4,7 +4,7 @@
  "formula": {
   "colOdd": "2*page + (-15)"
  },
- "note": "page = Calfa $8 PDF page; each page carries one Greek column pair (colOdd/colEven, Greek+Latin). verified = >=2 distinctive Greek tokens from the Calfa page found in the scan leaf carrying that column pair.",
+ "note": "page = Calfa $8 PDF page; each page carries one Greek column pair (colOdd/colEven, Greek+Latin). verified = >=2 distinctive Greek tokens from the Calfa page found in the scan leaf carrying that column pair. TAIL CAVEAT (2026-07-03): leaf values for pages 146-151 drifted +2 in the original build; corrected against plate renders. Scan-leaf != PDF-page-minus-1 cannot be assumed constant across a volume — verify with distinctive (not generic) tokens.",
  "pages": [
   {
    "page": 13,
@@ -1787,74 +1787,80 @@
    "colOdd": 277,
    "colEven": 278,
    "greekCol": 277,
-   "leaf": 138,
+   "leaf": 136,
    "verified": true,
    "tokenHits": 10,
    "sampleHits": [
     "χειροτονειται",
     "βασιλευς",
     "τελευτησαντος"
-   ]
+   ],
+   "note": "leaf corrected -2 at diff-vs-scan 2026-07-03 (earlier token-verify hit generic words two leaves off); greekCol plate-verified for 147/149/150/151"
   },
   {
    "page": 147,
    "colOdd": 279,
    "colEven": 280,
    "greekCol": 280,
-   "leaf": 139,
+   "leaf": 137,
    "verified": true,
    "tokenHits": 5,
    "sampleHits": [
     "πατριαρχου",
     "βασιλεως",
     "βασιλειας"
-   ]
+   ],
+   "note": "leaf corrected -2 at diff-vs-scan 2026-07-03 (earlier token-verify hit generic words two leaves off); greekCol plate-verified for 147/149/150/151"
   },
   {
    "page": 148,
    "colOdd": 281,
    "colEven": 282,
    "greekCol": 281,
-   "leaf": 140,
+   "leaf": 138,
    "verified": true,
    "tokenHits": 6,
    "sampleHits": [
     "πραγματων",
     "πατριαρχης",
     "βασιλευς"
-   ]
+   ],
+   "note": "leaf corrected -2 at diff-vs-scan 2026-07-03 (earlier token-verify hit generic words two leaves off); greekCol plate-verified for 147/149/150/151"
   },
   {
    "page": 149,
    "colOdd": 283,
    "colEven": 284,
    "greekCol": 284,
-   "leaf": 141,
-   "verified": false,
+   "leaf": 139,
+   "verified": true,
    "tokenHits": 1,
    "sampleHits": [
     "πατριαρχου"
-   ]
+   ],
+   "note": "leaf corrected -2 at diff-vs-scan 2026-07-03 (earlier token-verify hit generic words two leaves off); greekCol plate-verified for 147/149/150/151"
   },
   {
    "page": 150,
    "colOdd": 285,
    "colEven": 286,
-   "greekCol": null,
-   "leaf": 142,
-   "verified": false,
+   "greekCol": 285,
+   "leaf": 140,
+   "verified": true,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "note": "leaf corrected -2 at diff-vs-scan 2026-07-03 (earlier token-verify hit generic words two leaves off); greekCol plate-verified for 147/149/150/151"
   },
   {
    "page": 151,
    "colOdd": 287,
    "colEven": 288,
-   "greekCol": null,
-   "leaf": 143,
-   "verified": false,
+   "greekCol": 288,
+   "leaf": 141,
+   "verified": true,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "note": "leaf corrected -2 at diff-vs-scan 2026-07-03 (earlier token-verify hit generic words two leaves off); greekCol plate-verified for 147/149/150/151"
   },
   {
    "page": 167,
