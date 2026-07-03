@@ -28,6 +28,20 @@ Markers are sacred and pass through verbatim: `[0473A]` column anchors,
 untranslated, « » guillemets kept, *italics* kept. Heads keep their Roman
 numeral and `.-- ` punctuation.
 
+## Scripture (locked, Wilson 2026-07-03)
+
+**Translate the scripture Migne prints — never substitute a conventional
+English version.** Authors quote the Vulgate loosely, from memory, from Old
+Latin versions, or adapt wording deliberately, then build the argument on the
+wording quoted; a conventional translation silently corrects the quote out
+from under the argument (Abbo's Joel 1:4 runs *eruca → locusta → bruchus*,
+not the KJV's palmerworm → locust → cankerworm). Where the quoted Latin
+matches the standard text, the rendering may echo traditional wording ("Thou
+art Peter, and upon this rock I will build my Church"). Douay-Rheims-as-base
+was considered and rejected — the divergences are the scholarly payload. The
+reader-facing rationale (with what Migne himself did editorially) lives in
+`content/editorial-method.md`.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
