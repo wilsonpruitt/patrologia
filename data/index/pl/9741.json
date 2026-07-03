@@ -1,0 +1,662 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 4712,
+  "textIdno": 9741,
+  "title": "Canones",
+  "authors": [
+    "Abbo Floriacensis",
+    "Robertus Francorum"
+  ],
+  "series": "pl",
+  "volume": 139,
+  "colFirst": "473a",
+  "colLast": "508a",
+  "counts": {
+    "scripture": 21,
+    "fontes": 37,
+    "heads": 54,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.16.18",
+      "refDisplay": "Matth. XVI, 18",
+      "column": "476a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Joel.1.4",
+      "refDisplay": "Joel. I, 4",
+      "column": "477a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eccl.10.16",
+      "refDisplay": "Eccle. X, 16",
+      "column": "478a",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Pet.2.17",
+      "refDisplay": "I Petr. II, 17",
+      "column": "478a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.13.12",
+      "refDisplay": "Rom. XIII, 12",
+      "column": "478b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.104.15",
+      "refDisplay": "Psal. CIV, 15",
+      "column": "479a",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Sam.26.9",
+      "refDisplay": "I Reg. XXVI, 9",
+      "column": "479a",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.14.23",
+      "refDisplay": "Joan. XIV, 23",
+      "column": "480a",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Pet.5.3",
+      "refDisplay": "I Petr. V, 3",
+      "column": "491d",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.3.8",
+      "refDisplay": "I Cor. III, 8",
+      "column": "493a",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Pet.5.3",
+      "refDisplay": "I Petr. V, 3",
+      "column": "494d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Lev.19.2",
+      "refDisplay": "Lev. XIX, 2",
+      "column": "495d",
+      "chunk": 6
+    },
+    {
+      "refKey": "1Tim.6.8",
+      "refDisplay": "I Tim. VI, 8",
+      "column": "496d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Job.39.5",
+      "refDisplay": "Job. XXXIX, 5",
+      "column": "500b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Rom.7.23",
+      "refDisplay": "Rom. VII, 23",
+      "column": "501b",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.6.18",
+      "refDisplay": "I Cor. VI, 18",
+      "column": "501c",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.13.27",
+      "refDisplay": "Joan. XIII, 27",
+      "column": "501c",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.2.27",
+      "refDisplay": "I Cor. II, 27",
+      "column": "501d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Luke.3.14",
+      "refDisplay": "Luc. III, 14",
+      "column": "506b",
+      "chunk": 10
+    },
+    {
+      "refKey": "2Tim.2.4",
+      "refDisplay": "II Tim. II, 4",
+      "column": "506d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Luke.12.35",
+      "refDisplay": "Luc. XII, 35",
+      "column": "506d",
+      "chunk": 10
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "S. BENEDICT. Reg. cap. 52",
+      "column": "476a",
+      "chunk": 0
+    },
+    {
+      "raw": "Cod. Theod., lib. IX, tit. 45",
+      "column": "476a",
+      "chunk": 0
+    },
+    {
+      "raw": "Concil. Paris. VI",
+      "column": "477c",
+      "chunk": 1
+    },
+    {
+      "raw": "GREG. lib. VII, ep. 33, ind. 1",
+      "column": "479c",
+      "chunk": 1
+    },
+    {
+      "raw": "GREG. lib. III, epist. 20",
+      "column": "482a",
+      "chunk": 2
+    },
+    {
+      "raw": "lib. VII, epist. 82, ind. 2",
+      "column": "482b",
+      "chunk": 2
+    },
+    {
+      "raw": "CIC. lib. II, de Invent.",
+      "column": "482b",
+      "chunk": 2
+    },
+    {
+      "raw": "Greg. lib. VII, ep. 18, indict. 1",
+      "column": "484b",
+      "chunk": 3
+    },
+    {
+      "raw": "Lib. I, ep. 12",
+      "column": "486b",
+      "chunk": 3
+    },
+    {
+      "raw": "GREGOR., lib. II, epist. 12",
+      "column": "486c",
+      "chunk": 4
+    },
+    {
+      "raw": "Ex conc. Vernensi I, c. 5.",
+      "column": "487a",
+      "chunk": 4
+    },
+    {
+      "raw": "Ibid., c. 20",
+      "column": "487b",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG., lib. X, ep. 54",
+      "column": "487c",
+      "chunk": 4
+    },
+    {
+      "raw": "concil. Caesar., sub Damas.",
+      "column": "489b",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG. lib. VII, ep. 33, ind. 1.",
+      "column": "489c",
+      "chunk": 4
+    },
+    {
+      "raw": "Novell. 79, c. 1",
+      "column": "490b",
+      "chunk": 5
+    },
+    {
+      "raw": "conc. Aurel. I, cap. 15",
+      "column": "490c",
+      "chunk": 5
+    },
+    {
+      "raw": "conc. Afric., seu Carthag., c. 87, sub Bonif. I et Coelest. I",
+      "column": "490d",
+      "chunk": 5
+    },
+    {
+      "raw": "conc. Bracar. III, can. 2",
+      "column": "491c",
+      "chunk": 5
+    },
+    {
+      "raw": "Ibid.",
+      "column": "492b",
+      "chunk": 5
+    },
+    {
+      "raw": "conc. Tolet. IV",
+      "column": "492d",
+      "chunk": 5
+    },
+    {
+      "raw": "Ibid.",
+      "column": "493b",
+      "chunk": 6
+    },
+    {
+      "raw": "GREG. l. VII, ep. 8, ind. 1",
+      "column": "493c",
+      "chunk": 6
+    },
+    {
+      "raw": "Simpl. papae Decr. c. 2",
+      "column": "494a",
+      "chunk": 6
+    },
+    {
+      "raw": "synodus Rom.",
+      "column": "495a",
+      "chunk": 6
+    },
+    {
+      "raw": "SIRIC., Decret.",
+      "column": "495d",
+      "chunk": 6
+    },
+    {
+      "raw": "conc. Antioch. sub Julio P. I",
+      "column": "497a",
+      "chunk": 7
+    },
+    {
+      "raw": "GREGOR., lib. 9, ep. 41",
+      "column": "497b",
+      "chunk": 7
+    },
+    {
+      "raw": "auctor Dogmat. eccl.",
+      "column": "497c",
+      "chunk": 8
+    },
+    {
+      "raw": "GREG., in resp. X ad interrog. Augustini",
+      "column": "498a",
+      "chunk": 8
+    },
+    {
+      "raw": "resp. II",
+      "column": "499a",
+      "chunk": 8
+    },
+    {
+      "raw": "tract. 61 in Joan.",
+      "column": "501d",
+      "chunk": 8
+    },
+    {
+      "raw": "GREG., lib. II, ep. 52",
+      "column": "502a",
+      "chunk": 9
+    },
+    {
+      "raw": "lib. VIII, ep. 30",
+      "column": "502d",
+      "chunk": 9
+    },
+    {
+      "raw": "lib. II, ep. 13",
+      "column": "503d",
+      "chunk": 9
+    },
+    {
+      "raw": "lib. VII, ep. 81, ind. 2",
+      "column": "504a",
+      "chunk": 9
+    },
+    {
+      "raw": "lib. II, ep. 23",
+      "column": "504b",
+      "chunk": 9
+    }
+  ],
+  "heads": [
+    {
+      "la": "PRAEFATIO.",
+      "column": "473a",
+      "chunk": 0,
+      "en": "PREFACE."
+    },
+    {
+      "la": "CAPITULA.",
+      "column": "474a",
+      "chunk": 0,
+      "en": "CHAPTERS."
+    },
+    {
+      "la": "I.-- De honore ecclesiarum et monasteriorum.",
+      "column": "475d",
+      "chunk": 0,
+      "en": "I.-- On the honor of churches and monasteries."
+    },
+    {
+      "la": "II.-- De defensoribus ecclesiarum vel monasteriorum.",
+      "column": "476d",
+      "chunk": 0,
+      "en": "II.-- On the defenders of churches or monasteries."
+    },
+    {
+      "la": "III.-- De ministerio regis.",
+      "column": "477b",
+      "chunk": 1,
+      "en": "III.-- On the ministry of the king."
+    },
+    {
+      "la": "IV.-- De fidelitate regis.",
+      "column": "478a",
+      "chunk": 1,
+      "en": "IV.-- On fidelity to the king."
+    },
+    {
+      "la": "V.-- De privilegiis.",
+      "column": "479a",
+      "chunk": 1,
+      "en": "V.-- On privileges."
+    },
+    {
+      "la": "VI.-- De praeceptis regalibus vel imperialibus.",
+      "column": "480a",
+      "chunk": 2,
+      "en": "VI.-- On royal or imperial precepts."
+    },
+    {
+      "la": "VII.-- De differentia testamentorum et precariis.",
+      "column": "480c",
+      "chunk": 2,
+      "en": "VII.-- On the difference between testaments and precaria."
+    },
+    {
+      "la": "VIII.-- De eo quod necessitas excludit leges et canones.",
+      "column": "481b",
+      "chunk": 2,
+      "en": "VIII.-- On the fact that necessity excludes laws and canons."
+    },
+    {
+      "la": "IX.-- De differentia legis et consuetudinis.",
+      "column": "482b",
+      "chunk": 2,
+      "en": "IX.-- On the difference between law and custom."
+    },
+    {
+      "la": "X.-- De eo quod sacerdotes mandatum ad gentem extraneam non mittant.",
+      "column": "482c",
+      "chunk": 2,
+      "en": "X.-- On the fact that priests are not to send a mandate to a foreign people."
+    },
+    {
+      "la": "XI.-- De clericis electis ab aedificatoribus venerabilium locorum, vel haeredibus eorum.",
+      "column": "482d",
+      "chunk": 2,
+      "en": "XI.-- On clerics chosen by the builders of venerable places, or their heirs."
+    },
+    {
+      "la": "XII.-- De ordinatione vel degradatione presbyterorum.",
+      "column": "483a",
+      "chunk": 3,
+      "en": "XII.-- On the ordination or degradation of priests."
+    },
+    {
+      "la": "XIII.-- Ut nulla pecunia data episcopi ordinentur.",
+      "column": "483b",
+      "chunk": 3,
+      "en": "XIII.-- That bishops be ordained with no money given."
+    },
+    {
+      "la": "XIV.-- De electione abbatis.",
+      "column": "484a",
+      "chunk": 3,
+      "en": "XIV.-- On the election of an abbot."
+    },
+    {
+      "la": "XV.-- De abbatis ordinatione, et de accessu episcopi ad monasterium.",
+      "column": "484b",
+      "chunk": 3,
+      "en": "XV.-- On the ordination of an abbot, and on the bishop's access to the monastery."
+    },
+    {
+      "la": "XVI.-- De eo quod abbas sacerdos esse debet.",
+      "column": "486b",
+      "chunk": 4,
+      "en": "XVI.-- On the fact that the abbot ought to be a priest."
+    },
+    {
+      "la": "XVII.-- De accusato abbate quid sit agendum.",
+      "column": "486c",
+      "chunk": 4,
+      "en": "XVII.-- On what is to be done concerning an accused abbot."
+    },
+    {
+      "la": "XVIII.-- De monachis et sanctimonialibus, ut regulariter vivant.",
+      "column": "486d",
+      "chunk": 4,
+      "en": "XVIII.-- On monks and nuns, that they live according to rule."
+    },
+    {
+      "la": "XIX.-- De abbate ad regem pertinente.",
+      "column": "487a",
+      "chunk": 4,
+      "en": "XIX.-- On an abbot belonging to the king."
+    },
+    {
+      "la": "XX.-- De rectore Floriacensi.",
+      "column": "487b",
+      "chunk": 4,
+      "en": "XX.-- On the ruler of Fleury."
+    },
+    {
+      "la": "XXI.-- De sacerdotio monachi.",
+      "column": "487c",
+      "chunk": 4,
+      "en": "XXI.-- On the priesthood of a monk."
+    },
+    {
+      "la": "XXII.-- De monachis non servantibus propositum.",
+      "column": "488a",
+      "chunk": 4,
+      "en": "XXII.-- On monks who do not keep their profession."
+    },
+    {
+      "la": "XXIII.-- De clericis qui monachi volunt fieri, et de insolentia episcoporum in monachos.",
+      "column": "488c",
+      "chunk": 4,
+      "en": "XXIII.-- On clerics who wish to become monks, and on the insolence of bishops toward monks."
+    },
+    {
+      "la": "XXIV.-- De clericis qui propter vanitatem efficiuntur monachi.",
+      "column": "489b",
+      "chunk": 4,
+      "en": "XXIV.-- On clerics who become monks out of vanity."
+    },
+    {
+      "la": "XXV.-- De possessionibus ecclesiae.",
+      "column": "489c",
+      "chunk": 4,
+      "en": "XXV.-- On the possessions of the church."
+    },
+    {
+      "la": "XXVI.-- De monacho, vel sanctimoniali in jus vocata.",
+      "column": "490b",
+      "chunk": 5,
+      "en": "XXVI.-- On a monk, or a nun, summoned to court."
+    },
+    {
+      "la": "XXVII.-- De his quae a fidelibus in basilicis offeruntur.",
+      "column": "490c",
+      "chunk": 5,
+      "en": "XXVII.-- On the things that are offered by the faithful in basilicas."
+    },
+    {
+      "la": "XXVIII.-- De episcopis invasoribus praetermissa synodo.",
+      "column": "490d",
+      "chunk": 5,
+      "en": "XXVIII.-- On bishops who are intruders, a synod having been passed over."
+    },
+    {
+      "la": "XXIX.-- De tricennali praescriptione.",
+      "column": "491a",
+      "chunk": 5,
+      "en": "XXIX.-- On thirty-year prescription."
+    },
+    {
+      "la": "XXX.-- De dote ecclesiarum.",
+      "column": "491b",
+      "chunk": 5,
+      "en": "XXX.-- On the endowment of churches."
+    },
+    {
+      "la": "XXXI.-- De episcopo. Quid debeat habere de ecclesia.",
+      "column": "491c",
+      "chunk": 5,
+      "en": "XXXI.-- On the bishop. What he ought to have from the church."
+    },
+    {
+      "la": "XXXII.-- De rebus ecclesiae, et de proximis fundatorum ejus.",
+      "column": "491d",
+      "chunk": 5,
+      "en": "XXXII.-- On the property of the church, and on the kinsmen of its founders."
+    },
+    {
+      "la": "XXXIII.-- De provisione suffragii episcoporum.",
+      "column": "492d",
+      "chunk": 5,
+      "en": "XXXIII.-- On the provision of the bishops' support."
+    },
+    {
+      "la": "XXXIV.-- De indigentia eorum qui res suas contulerunt ecclesiae.",
+      "column": "493a",
+      "chunk": 5,
+      "en": "XXXIV.-- On the need of those who have bestowed their goods on the church."
+    },
+    {
+      "la": "XXXV.-- De avaritia sacerdotum.",
+      "column": "493b",
+      "chunk": 6,
+      "en": "XXXV.-- On the avarice of priests."
+    },
+    {
+      "la": "XXXVI.-- De injuste excommunicatis.",
+      "column": "494b",
+      "chunk": 6,
+      "en": "XXXVI.-- On those unjustly excommunicated."
+    },
+    {
+      "la": "XXXVII.-- De ecclesiis et earum presbyteris.",
+      "column": "494c",
+      "chunk": 6,
+      "en": "XXXVII.-- On churches and their presbyters."
+    },
+    {
+      "la": "XXXVIII.-- De eo quod episcopus habeat tertiam partem ecclesiae, et potest dare cui voluerit.",
+      "column": "495b",
+      "chunk": 6,
+      "en": "XXXVIII.-- On the fact that the bishop has a third part of the church, and can give it to whom he will."
+    },
+    {
+      "la": "XXXIX.-- De sanctitate vitae clericorum.",
+      "column": "495d",
+      "chunk": 6,
+      "en": "XXXIX.-- On holiness of life among clerics."
+    },
+    {
+      "la": "XL.-- De filiis presbyterorum, vel episcoporum, vel diaconorum.",
+      "column": "496b",
+      "chunk": 6,
+      "en": "XL.-- On the sons of presbyters, or of bishops, or of deacons."
+    },
+    {
+      "la": "XLI.-- De rebus ecclesiae dispensandis.",
+      "column": "496c",
+      "chunk": 7,
+      "en": "XLI.-- On the stewardship of the property of the church."
+    },
+    {
+      "la": "XLII.-- Ut nullus eligat sibi episcopum successorem.",
+      "column": "497a",
+      "chunk": 7,
+      "en": "XLII.-- That no one choose for himself a bishop as successor."
+    },
+    {
+      "la": "XLIII.-- De communione.",
+      "column": "497c",
+      "chunk": 8,
+      "en": "XLIII.-- On communion."
+    },
+    {
+      "la": "XLIV.-- Qualiter sacerdotum accusatores examinandi sint, vel si scriptis inter partes sententia recitata est.",
+      "column": "502a",
+      "chunk": 9,
+      "en": "XLIV.-- How the accusers of priests are to be examined, or whether the sentence has been read out in writing between the parties."
+    },
+    {
+      "la": "XLV.-- De episcopis in judicium testimonii causa evocatis.",
+      "column": "504d",
+      "chunk": 9,
+      "en": "XLV.-- On bishops called into court for the sake of testimony."
+    },
+    {
+      "la": "XLVI.-- De accusatis episcopis.",
+      "column": "504d",
+      "chunk": 9,
+      "en": "XLVI.-- On accused bishops."
+    },
+    {
+      "la": "XLVII.-- De his qui contra episcopum habent causam.",
+      "column": "505a",
+      "chunk": 10,
+      "en": "XLVII.-- On those who have a case against a bishop."
+    },
+    {
+      "la": "XLVIII.-- De testimoniis clericorum.",
+      "column": "505b",
+      "chunk": 10,
+      "en": "XLVIII.-- On the testimony of clerics."
+    },
+    {
+      "la": "XLIX.-- Quantum prosit frequens oblatio sacrificii.",
+      "column": "505c",
+      "chunk": 10,
+      "en": "XLIX.-- How much the frequent offering of the sacrifice profits."
+    },
+    {
+      "la": "L.-- De militantibus.",
+      "column": "506a",
+      "chunk": 10,
+      "en": "L.-- On soldiers."
+    },
+    {
+      "la": "LI.-- De stipendiis militum.",
+      "column": "506b",
+      "chunk": 10,
+      "en": "LI.-- On the pay of soldiers."
+    },
+    {
+      "la": "LII.-- De militantibus clericis, et eorum stipendiis.",
+      "column": "506c",
+      "chunk": 10,
+      "en": "LII.-- On clerics in military service, and their pay."
+    }
+  ],
+  "unparsed": []
+}

@@ -25,6 +25,7 @@ Wroot Press capstone: English translation of Migne's Patrologia Latina + Graeca.
 6. **archive.org: always `{id}_jp2.zip` or direct PDF, never IIIF bursts.** Corpus Corporum: 400ms between requests, resumable scripts, never pipe a long crawl through `tail` (you lose the crash log).
 7. Wilson's git rules apply: local commits to master freely; NO remote exists yet; pushing/remotes = ask first.
 8. Untranslated-first: nothing enters the translation queue without per-work verification of its "none" status.
+9. **Index from day one.** Every shipped work runs `node scripts/index-work.mjs <textIdno>` after verify — `data/index/<series>/<idno>.json` accretes the site-wide indexes (no retroactive passes). Tracked: **scripture** (Migne's `[n:]` citations, dual-keyed per `reference_data-repository-standard` — OSIS `refKey` + verbatim `refDisplay`, located by column), **fontes** (all other citations, raw verbatim — the controlled source-name vocab is derived later FROM the accumulated raws, never from memory), **heads** (la+en chapter titles + column → TOC/search), **unparsed** (alias-table gaps; never silently dropped). Deliberately NOT tracked yet: theme/topic tags (needs open-tag→consolidate→freeze on a corpus slice per `reference_tagging-philosophy`), entity extraction, source-name normalization.
 
 ## Session cadence
 
