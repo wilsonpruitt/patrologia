@@ -159,6 +159,9 @@ fs.writeFileSync(path.join(outDir, 'index.html'), html);
 let css = fs.readFileSync(path.join(ROOT, 'sketch/styles.css'), 'utf8');
 css += `
 /* ---------- work page: sections + note citations ---------- */
+/* modern u everywhere Latin appears (locked convention, commit 0c149a4) —
+   the sketch rule only covered .coltext.latin; heads are lang="la" too */
+[lang="la"] { font-feature-settings: "locl" 0; }
 .passage { border-top: 0; margin-bottom: .5rem; }
 .columns .passage:first-child { border-top: 2px solid var(--encre); }
 .canon-head {
