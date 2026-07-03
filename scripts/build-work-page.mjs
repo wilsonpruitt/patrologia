@@ -120,8 +120,8 @@ const html = `<!DOCTYPE html>
 <div class="work-head">
   <div class="vol-badge" aria-hidden="true">
     <span class="series-abbr">P·L</span>
-    <span class="num">${vol}</span>
     <span class="label">${esc(title.toUpperCase())}</span>
+    <span class="num">${vol}</span>
   </div>
   <div class="work-id">
     <p class="crumbs"><a href="#">Patrologia Latina</a> · <a href="#">Vol. ${vol}</a> · <a href="#">Abbo Floriacensis</a></p>
@@ -158,6 +158,37 @@ fs.writeFileSync(path.join(outDir, 'index.html'), html);
 // styles: sketch base + reading-page additions
 let css = fs.readFileSync(path.join(ROOT, 'sketch/styles.css'), 'utf8');
 css += `
+/* ---------- work page: volume badge as a true spine ---------- */
+/* one volume off the landing shelf: spine proportions, gilt head bands,
+   morocco label running down the spine, volume number gilt at the tail */
+.vol-badge {
+  flex: none; width: 40px; height: 178px;
+  display: flex; flex-direction: column; align-items: center;
+  padding: 9px 0 10px;
+  background: linear-gradient(90deg, #26543C 0%, var(--vert) 45%, #16301F 100%);
+  border-top: 3px solid var(--dorure); border-bottom: 5px solid #0B140E;
+  border-radius: 2px 2px 0 0;
+  box-shadow: 3px 4px 8px rgba(20, 37, 25, .3);
+  color: var(--dorure-pale); font-family: var(--didot);
+}
+.vol-badge .series-abbr {
+  font-size: .58rem; letter-spacing: .14em; color: var(--dorure);
+  padding-bottom: .3rem; border-bottom: 1px solid var(--dorure);
+  margin-top: 0;
+}
+.vol-badge .label {
+  flex: 1; display: flex; align-items: center; justify-content: center;
+  writing-mode: vertical-rl;
+  background: var(--maroquin); color: var(--dorure-pale);
+  font-size: .58rem; letter-spacing: .26em;
+  width: 28px; margin: .55rem 0 .5rem; padding: .4rem 0;
+  overflow: hidden;
+}
+.vol-badge .num {
+  display: block; font-size: .92rem; color: var(--dorure);
+  letter-spacing: .04em; margin-top: 0; background: none; padding: 0;
+}
+
 /* ---------- work page: sections + note citations ---------- */
 /* modern u everywhere Latin appears (locked convention, commit 0c149a4) —
    the sketch rule only covered .coltext.latin; heads are lang="la" too */
