@@ -173,6 +173,23 @@ css += `
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }
 .coltext li.colmark { list-style: none; }
+
+/* English column: anchors hang into the RIGHT page margin (outer edge),
+   mirroring the Latin side — never into the center gutter where the rule runs */
+.coltext.english .anchor {
+  float: right; margin: .1em -3.4rem 0 .5em;
+  border-right: 0; border-left: 2px solid var(--dorure);
+  padding-right: 0; padding-left: .35rem; text-align: left;
+}
+/* below ~1080px the right margin is too tight for a hanging anchor —
+   fall back to the inline treatment early (Latin's left hang just clips) */
+@media (max-width: 1080px) {
+  .coltext.english .anchor {
+    float: none; display: inline-block; margin: 0 .5em 0 0;
+    border-left: 0; border-bottom: 2px solid var(--dorure);
+    width: auto; padding: 0 .1rem;
+  }
+}
 `;
 fs.writeFileSync(path.join(ROOT, 'site/styles.css'), css);
 

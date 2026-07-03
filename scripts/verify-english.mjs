@@ -11,6 +11,9 @@
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
 //      more than once across all chunks (agents re-emitting boundary text).
+//      Downgraded to a warning when the LATIN also duplicates across the same
+//      chunks — canon collections legitimately quote the same authority twice
+//      (e.g. Abbo cites Leg. cap. 456 in both ch. XI and ch. XXV).
 // Exit non-zero on any failure.
 
 import fs from 'node:fs';
@@ -35,7 +38,9 @@ const parse = f => {
   return { fm: m[1], body: raw.slice(m[0].length) };
 };
 
-const paraSeen = new Map(); // normalized paragraph -> [chunk ids]
+const paraSeen = new Map(); // normalized English paragraph -> [chunk ids]
+const latDupPairs = new Set(); // "0002.md+0005.md" keys where the LATIN itself repeats
+const norm = p => p.replace(colRe, '').replace(/[^a-z0-9 ]/gi, '').replace(/\s+/g, ' ').trim().toLowerCase();
 
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
@@ -72,15 +77,37 @@ for (const c of manifest.chunks) {
   else if (ratio < 1.0) warns.push(`${name}: ratio ${ratio.toFixed(2)} — low for Tier-2, eyeball for compression`);
 
   for (const p of eng.body.split(/\n\n+/)) {
-    const norm = p.replace(colRe, '').replace(/[^a-z0-9 ]/gi, '').replace(/\s+/g, ' ').trim().toLowerCase();
-    if (words(norm) <= 15) continue;
-    if (!paraSeen.has(norm)) paraSeen.set(norm, []);
-    paraSeen.get(norm).push(name);
+    const n = norm(p);
+    if (words(n) <= 15) continue;
+    if (!paraSeen.has(n)) paraSeen.set(n, []);
+    paraSeen.get(n).push(name);
   }
 }
 
-for (const [p, locs] of paraSeen) if (locs.length > 1)
-  errs.push(`DUPLICATE paragraph in ${locs.join(' + ')}: "${p.slice(0, 70)}…"`);
+// map where the Latin source itself repeats a paragraph across chunks
+{
+  const latSeen = new Map();
+  for (const c of manifest.chunks) {
+    const name = `${String(c.chunk).padStart(4, '0')}.md`;
+    const lat = parse(path.join(latDir, name));
+    for (const p of lat.body.split(/\n\n+/)) {
+      const n = norm(p);
+      if (words(n) <= 15) continue;
+      if (!latSeen.has(n)) latSeen.set(n, []);
+      latSeen.get(n).push(name);
+    }
+  }
+  for (const locs of latSeen.values()) if (new Set(locs).size > 1)
+    latDupPairs.add([...new Set(locs)].sort().join('+'));
+}
+
+for (const [p, locs] of paraSeen) if (locs.length > 1) {
+  const key = [...new Set(locs)].sort().join('+');
+  if (latDupPairs.has(key))
+    warns.push(`duplicate paragraph in ${locs.join(' + ')} matches a Latin-side repetition (source quotes the authority twice) — OK`);
+  else
+    errs.push(`DUPLICATE paragraph in ${locs.join(' + ')}: "${p.slice(0, 70)}…"`);
+}
 
 warns.forEach(w => console.warn('warn: ' + w));
 if (errs.length) { console.error('VERIFY FAILED:'); errs.forEach(e => console.error(' - ' + e)); process.exit(1); }

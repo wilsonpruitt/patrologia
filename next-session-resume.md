@@ -1,8 +1,15 @@
 # Next session — resume note
 
-*Updated 2026-07-03 (works.json session).*
+*Updated 2026-07-03 (Abbo pilot session).*
 
 ## State
+
+- **Phase 6 PL PILOT DONE 2026-07-03: Abbo of Fleury, *Canones* (PL 139, 473A–508A) translated end-to-end** — first English translation (verified: no English exists; CNRS critical ed. is French; the one complete MS has 44 chapters vs Migne's 52 — apparatus says so honestly).
+  - Pipeline built + validated: `scripts/chunk-work.mjs` (11 chunks, column-anchor/note/word-conservation validators), `scripts/verify-english.mjs` (frontmatter/anchors/notes/sections/ratio + dedupe scan), `scripts/build-work-page.mjs` (approved design; parallel Latin|English; gilt anchors both margins).
+  - Translation: chunk 0000 hand-done as style anchor, chunks 1–10 via 2 strict-prompt agents (Acta prompt) — **zero self-throttle, all validators pass first try**. Agent crux logs preserved in session transcript; corrupt printed-Latin passages rendered literally per Tier-2.
+  - Page: `site/pl/139/canones/index.html` (54 sections, 132 anchors/side, ids follow citation scheme `#c473a`). Preview: `cd site && python3 -m http.server 8123`.
+  - **Gate answers:** (1) chunk metadata resolves citations — YES (colContext/colFirst/colLast + anchor ids; still need the site-level `/pl/139/473a` → work-page redirect layer). (2) throughput — YES, better than projected (5 chunks/agent, ~8–14 min, ~100–125K tokens, no relaunches). (3) English runs **~1.5× Latin words**, not the projected 1.1–1.2× — recalibrate cost/print estimates. (4) pipeline fix folded in: dedupe scan must whitelist Latin-side repetitions (canon collections quote the same authority twice).
+  - **Before any deploy:** diff-vs-scan spot verification of the CC transcription against the PL 139 plates (Ambrose pattern) not yet done; no landing page; no resolver; migne.app DNS unwired. Wilson read-through of the translation pending (esp. the corrupt-Latin cruxes).
 
 - **works.json DONE 2026-07-03.** `data/works.json` = the site's work-keyed spine: 5,204 unique works / 5,277 texts / 85.5M unique words, each with title, PL volume, column range (`colFirst`/`colLast`), triage status, TEI hash. Rebuild: `node scripts/build-works.mjs`. Findings baked into its `note` field:
   - The "100 duplicate texts" were NOT shared-across-works — Corpus Corporum cross-lists dubia/spuria under every candidate author (and collection pieces under both "Auctores varii" and the individual). Merged: one record per workIdno with an `attributions[]` array (94 multi-attribution works). True unique-word total is 85.5M, not 87.1M.
@@ -16,7 +23,7 @@
 
 ## Next moves (pick one; no strict order)
 
-1. **Abbo pilot (Phase 6, PL half).** Make the sketch's demo real: chunk `sources/pl/tei/9741.xml` (Canones, PL 139, 473–508, ~11K words) per Acta rules (column-anchor continuity validator), translate (strict-prompt agents; Tier-2 register), assemble + dedupe-scan, render as a static page in the approved design. Gate questions in PLAN.md Phase 6.
+1. **PG pilot (Phase 6, Greek half).** The Latin half is done; the untested gate question is the Greek-with-Latin-verifier workflow (Zelzer pattern). Pick an untranslated PG work with Calfa coverage, run the same chunk→translate→verify→render loop.
 2. **Phase 3 OCR benchmark.** Ground truth now local: sample ~25 columns from TEI-covered volumes, pull matching scan pages (archive.org `_jp2.zip`, column-band crop per Ambrose recipe), score Haiku/Sonnet/Opus CER. Greek side vs Calfa Zenodo ground truth (record 20008699).
 3. **PG gap map.** Inventory Calfa (33 vols) + First1KGreek PG holdings vs the PG registry → `data/gap-map.json`. (First1KGreek not yet inventoried — that's the research bit.)
 4. **Per-work triage** of the `partial` (74 authors / 19.7M words) and `mixed-bucket` (31 / 9.5M) statuses — works lists now complete in `raw/cc-index/`; per-work triage can now write straight into works.json's `translation.workStatus`/`englishState` slots. Haiku agents WITH the telemetry gate; resolve round-flags while at it.
