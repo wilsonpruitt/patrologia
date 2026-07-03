@@ -36,17 +36,32 @@ const xml = fs.readFileSync(path.join(scanDir, xmlFile), 'utf8');
 const objects = xml.split('<OBJECT').slice(1);
 const leafWords = objects.map(o => {
   const words = [];
-  const re = /<WORD[^>]*>([^<]*)<\/WORD>/g;
+  const re = /<WORD coords="(\d+),[^"]*"[^>]*>([^<]*)<\/WORD>/g;
   let m;
-  while ((m = re.exec(o))) words.push(m[1]);
+  while ((m = re.exec(o))) words.push({ x: Number(m[1]), w: m[2] });
   return words;
 });
 console.log(`scan leaves: ${leafWords.length}`);
 
+// which side (left/right) carries the Greek on each leaf — Migne alternates
+// Greek/Latin sides across the opening, and inserted leaves break parity,
+// so this must be read off the scan, not assumed.
+const isGreekWord = w => /[Ͱ-Ͽἀ-῿]{3,}/.test(w);
+const isLatinWord = w => /^[A-Za-z,.;:-]{4,}$/.test(w);
+function greekSide(words) {
+  const gx = words.filter(({ w }) => isGreekWord(w)).map(({ x }) => x).sort((a, b) => a - b);
+  const lx = words.filter(({ w }) => isLatinWord(w)).map(({ x }) => x).sort((a, b) => a - b);
+  if (gx.length < 15 || lx.length < 15) return null; // not a parallel-text page
+  const gm = gx[gx.length >> 1], lm = lx[lx.length >> 1];
+  if (Math.abs(gm - lm) < 400) return null; // columns not separable
+  return gm < lm ? 'left' : 'right';
+}
+const leafGreekSide = leafWords.map(greekSide);
+
 // running-head column pair: look in the first 12 words for two 1-4 digit numbers
 // that are ~1 apart (colL, colR) or a single number (other side lost to OCR)
 function headCols(words) {
-  const head = words.slice(0, 12).map(w => w.replace(/[^\d]/g, '')).filter(w => /^\d{1,4}$/.test(w)).map(Number);
+  const head = words.slice(0, 12).map(({ w }) => w.replace(/[^\d]/g, '')).filter(w => /^\d{1,4}$/.test(w)).map(Number);
   for (let i = 0; i < head.length - 1; i++) {
     for (let j = i + 1; j < head.length; j++) {
       const a = Math.min(head[i], head[j]), b = Math.max(head[i], head[j]);
@@ -96,7 +111,7 @@ function tokens(p) {
 const strip = s => s.normalize('NFD').replace(/[̀-ͯ͂̓̔ͅ]/g, '').toLowerCase();
 
 // fit offset K in colOdd = 2*page + K: try candidates, score token hits
-const leafGreek = leafWords.map(ws => new Set(ws.filter(w => /[Ͱ-Ͽἀ-῿]{4,}/.test(w)).map(strip)));
+const leafGreek = leafWords.map(ws => new Set(ws.filter(({ w }) => /[Ͱ-Ͽἀ-῿]{4,}/.test(w)).map(({ w }) => strip(w))));
 const colOddToLeaf = new Map();
 leafToColOdd.forEach((c, i) => { if (c !== null && !colOddToLeaf.has(c)) colOddToLeaf.set(c, i); });
 
@@ -123,10 +138,15 @@ console.log(`fitted offset K=${bestK} (colOdd = 2*page ${bestK >= 0 ? '+' : '-'}
 // emit per-page map with verification
 const out = pages.map(p => {
   const r = scorePage(p, bestK);
+  const colOdd = 2 * p.page + bestK, colEven = colOdd + 1;
+  const side = r.leaf !== undefined && r.leaf !== null ? leafGreekSide[r.leaf] : null;
+  // left column = colOdd, right = colEven (running heads print odd left, even right)
+  const greekCol = side === 'left' ? colOdd : side === 'right' ? colEven : null;
   return {
     page: p.page,
-    colOdd: 2 * p.page + bestK,
-    colEven: 2 * p.page + bestK + 1,
+    colOdd,
+    colEven,
+    greekCol,
     leaf: r.leaf ?? null,
     verified: r.hits >= 2,
     tokenHits: r.hits > 0 ? r.hits : 0,
