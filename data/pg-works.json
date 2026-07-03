@@ -1,0 +1,68 @@
+{
+  "note": "PG work registry, pilot-era seed. Grows toward parity with works.json (PL) as PG texts are acquired. pages = Calfa $8 PDF page span; greekCol* from data/pg-column-maps/. translationStatus per-work verified (rule 8) — evidence in the session verification report, 2026-07-03.",
+  "works": [
+    {
+      "key": "joel-chronographia",
+      "series": "pg",
+      "volume": 139,
+      "author": "Joel",
+      "authorNote": "13th-century Byzantine chronicler; nothing is known of him beyond this work.",
+      "title": "Chronographia compendiaria",
+      "titleEn": "Compendious Chronicle",
+      "pages": [119, 151],
+      "greekColFirst": 224,
+      "greekColLast": 288,
+      "citRange": "PG 139, 223–288",
+      "greekSource": "calfa",
+      "latinVerifier": "Leo Allatius's Latin version (1651), printed in Migne's parallel column; scan OCR in raw/scans/pg139/",
+      "editions": "F. Iadevaia, Ioel, Cronografia compendiaria (Messina 1979); PG text reprints Allatius",
+      "translationStatus": "none",
+      "translationStatusVerified": "2026-07-03",
+      "pilot": true
+    },
+    {
+      "key": "nicetas-maroneia-dialogi",
+      "series": "pg",
+      "volume": 139,
+      "author": "Nicetas of Maroneia",
+      "title": "Dialogi de processione Spiritus Sancti (dial. I + fragments II–VI)",
+      "pages": [92, 118],
+      "greekColFirst": 169,
+      "greekColLast": 221,
+      "citRange": "PG 139, 169–221",
+      "greekSource": "calfa",
+      "translationStatus": "none",
+      "translationStatusVerified": "2026-07-03",
+      "queueNote": "PG prints Hergenröther's fragments — 'not even a third' of the work. Full Greek-only critical ed.: Bucossi & D'Amelia, CCSG 92 (2021), no translation. Dialogue I is essentially whole in PG — strong first-English candidate; work page must state the fragment situation.",
+      "pilot": false
+    },
+    {
+      "key": "isidore-glabas-sermones",
+      "series": "pg",
+      "volume": 139,
+      "author": "Isidore of Thessalonica (Isidore Glabas)",
+      "title": "Sermones IV in B. Mariam Virginem",
+      "pages": [13, 89],
+      "greekColFirst": 11,
+      "greekColLast": 164,
+      "citRange": "PG 139, 11–164",
+      "greekSource": "calfa",
+      "translationStatus": "none",
+      "translationStatusVerified": "2026-07-03",
+      "queueNote": "Four Marian sermons (Nativity, Entry, Annunciation, Dormition). Not in Daley or Cunningham anthologies. Sermon-by-sermon publishable.",
+      "pilot": false
+    },
+    {
+      "key": "joannes-citri-responsa",
+      "series": "pg",
+      "volume": 119,
+      "author": "John of Citrus",
+      "title": "Responsa canonica ad Constantinum Cabasilam",
+      "citRange": "PG 119, 960–985",
+      "translationStatus": "none",
+      "translationStatusVerified": "2026-07-03",
+      "queueNote": "NOT printed in PG 139 (cols 221–222 are a cross-reference only). Text in PG 119; also Rhalles-Potles V, 403–420. Attribution debated — some responsa may be Demetrios Chomatenos. Flag before translating.",
+      "pilot": false
+    }
+  ]
+}
