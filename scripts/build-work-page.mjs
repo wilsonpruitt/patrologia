@@ -138,7 +138,7 @@ ${passages}
 <section class="apparatus">
   <div class="apparatus-inner">
     <h2>On this text</h2>
-    <p>Abbo, abbot of Fleury, addressed this collection of canons to Hugh Capet and his son Robert about 995–996 — a mirror of royal duty and a defense of the monastic order, stitched from councils, the Theodosian code, and the fathers. The Latin is Migne's printing (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), from the Corpus Corporum transcription; Migne's text descends from the early modern editions and prints fifty-two chapters, where the one complete manuscript carries forty-four. Parenthetical references in small type are Migne's own. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.</p>
+    <p>Abbo, abbot of Fleury, addressed this collection of canons to Hugh Capet and his son Robert about 995–996 — a mirror of royal duty and a defense of the monastic order, stitched from councils, the Theodosian code, and the fathers. The Latin is Migne's printing (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), from the Corpus Corporum transcription; Migne's text descends from the early modern editions and prints fifty-two chapters, where the one complete manuscript carries forty-four. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not Abbo's; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.</p>
   </div>
 </section>
 

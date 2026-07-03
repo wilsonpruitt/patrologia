@@ -17,6 +17,11 @@
 //                 raw verbatim + column. Controlled source-name vocab comes
 //                 later, derived from the accumulated raws — never from memory.
 //   heads[]     — chapter titles (la + en) with starting column → per-work TOC.
+//   headnotes[] — in-text attribution intros: the segment preceding every
+//                 « quotation (bounded by the prior », paragraph break, or
+//                 head), la + en raw, column-located. Catches citations Migne's
+//                 editors did NOT footnote ("Augustinus, de verbis Domini,
+//                 homilia 19:") — the cross-volume citation layer.
 //   unparsed[]  — scripture-shaped notes the alias table missed; each one is an
 //                 alias-table addition, not a silent drop.
 
@@ -109,6 +114,42 @@ for (const c of manifest.chunks) {
   }
 }
 
+// headnotes: for every « quotation, the attribution segment before it.
+// Bounded by the previous » / paragraph break / head line; column-located.
+function harvestHeadnotes(dir, colContextByChunk) {
+  const out = [];
+  for (const c of manifest.chunks) {
+    const name = `${String(c.chunk).padStart(4, '0')}.md`;
+    const body = fs.readFileSync(path.join(dir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+    for (const m of body.matchAll(/«/g)) {
+      const before = body.slice(0, m.index);
+      const bound = Math.max(before.lastIndexOf('»'), before.lastIndexOf('\n\n'), before.lastIndexOf('\n## '));
+      let seg = before.slice(bound + 1)
+        .replace(/^#+ /, '')
+        .replace(colRe, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .replace(/[:.]$/, '')
+        .trim();
+      if (seg.length > 200) seg = '…' + seg.slice(-200);
+      // column in effect at the « position
+      const colsBefore = [...before.matchAll(colRe)];
+      const col = colsBefore.length ? colsBefore.at(-1)[1] : c.colContext;
+      out.push({ seg, column: citeCol(col), chunk: c.chunk });
+    }
+  }
+  return out;
+}
+const hnLa = harvestHeadnotes(latDir);
+const hnEn = harvestHeadnotes(engDir);
+const headnotes = hnLa.map((h, i) => ({
+  la: h.seg,
+  en: hnEn[i] && hnEn[i].chunk === h.chunk ? hnEn[i].seg : null,
+  column: h.column, chunk: h.chunk,
+}));
+if (hnLa.length !== hnEn.length)
+  console.warn(`warn: quotation count differs la ${hnLa.length} vs en ${hnEn.length} — English pairing may misalign`);
+
 // English heads pair with Latin heads by order
 const headsEn = [];
 for (const c of manifest.chunks) {
@@ -128,11 +169,11 @@ const out = {
   title: manifest.title, authors: manifest.authors,
   series: manifest.series, volume: manifest.volume,
   colFirst: citeCol(manifest.colFirst), colLast: citeCol(manifest.colLast),
-  counts: { scripture: scripture.length, fontes: fontes.length, heads: heads.length, unparsed: unparsed.length },
-  scripture, fontes, heads, unparsed,
+  counts: { scripture: scripture.length, fontes: fontes.length, heads: heads.length, headnotes: headnotes.length, unparsed: unparsed.length },
+  scripture, fontes, heads, headnotes, unparsed,
 };
 const outDir = path.join(ROOT, 'data/index', manifest.series);
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, `${idno}.json`), JSON.stringify(out, null, 2));
-console.log(`data/index/${manifest.series}/${idno}.json — ${scripture.length} scripture, ${fontes.length} fontes, ${heads.length} heads, ${unparsed.length} unparsed`);
+console.log(`data/index/${manifest.series}/${idno}.json — ${scripture.length} scripture, ${fontes.length} fontes, ${heads.length} heads, ${headnotes.length} headnotes, ${unparsed.length} unparsed`);
 if (unparsed.length) unparsed.forEach(u => console.warn(`  unparsed (add alias?): ${u.raw} @ ${u.column}`));

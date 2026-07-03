@@ -43,7 +43,8 @@ Latin does match the standard text, our rendering is free to echo the
 traditional English ("Thou art Peter, and upon this rock I will build my
 Church"); where it diverges, the divergence is preserved, because the
 divergence is evidence — of the version the author read, the memory he
-quoted from, the point he was making. Migne's own parenthetical references
-(printed here in small type, exactly as he gave them) will take you to the
-verse in whatever Bible you trust; the English on this page tells you what
-the author actually wrote.
+quoted from, the point he was making. The parenthetical references in small
+type stand on Migne's page — editorial identifications, inherited from the
+edition he reprinted or supplied by his own shop, and reproduced here exactly
+as printed; they will take you to the verse in whatever Bible you trust. The
+English on this page tells you what the author actually wrote.
