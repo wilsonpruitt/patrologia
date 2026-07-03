@@ -1,0 +1,236 @@
+#!/usr/bin/env node
+// Build the migne.app landing page + resolver data from the registries.
+// Usage: node scripts/build-landing.mjs
+// Emits site/index.html and site/resolver-data.json.
+//
+// Productionizes the approved sketch (sketch/index.html, commit 0c149a4) per
+// site/landing-resolver-spec.md. The englished set is derived by scanning the
+// built work pages — never hardcoded — so a landing rebuild stays correct as
+// works ship.
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+const ROOT = path.join(import.meta.dirname, '..');
+const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
+
+// Recently Englished is editorial: newest first. Prepend when a work ships.
+const RECENT = ['pg/139/chronographia', 'pl/139/canones'];
+
+const fmt = n => n.toLocaleString('en-US');
+
+// ---------- scan built work pages: the englished set ----------
+
+// pair partner of a Migne PG column (Greek|Latin spread): 223|224, 287|288 …
+const partner = n => (n % 2 === 0 ? n - 1 : n + 1);
+
+const works = [];
+for (const series of ['pl', 'pg']) {
+  const seriesDir = path.join(ROOT, 'site', series);
+  if (!fs.existsSync(seriesDir)) continue;
+  for (const vol of fs.readdirSync(seriesDir)) {
+    if (!/^\d+$/.test(vol)) continue;
+    for (const slug of fs.readdirSync(path.join(seriesDir, vol))) {
+      const page = path.join(seriesDir, vol, slug, 'index.html');
+      if (!fs.existsSync(page)) continue;
+      const html = fs.readFileSync(page, 'utf8');
+      const t = html.match(/<title>(.*?), (.*?) — P[LG] \d+, \d+–\d+ · Migne<\/title>/);
+      if (!t) { console.error(`cannot parse <title> of ${page}`); process.exit(1); }
+      const anchors = [...new Set([...html.matchAll(/id="c(\d+[a-d]?)"/g)].map(m => m[1]))];
+      if (!anchors.length) { console.error(`no column anchors in ${page}`); process.exit(1); }
+      const nums = anchors.map(a => parseInt(a, 10));
+      let colFirst = Math.min(...nums), colLast = Math.max(...nums);
+      if (series === 'pg') {
+        // anchors are the Greek columns only; the citable range spans the pair
+        colFirst = Math.min(colFirst, partner(colFirst));
+        colLast = Math.max(colLast, partner(colLast));
+      }
+      works.push({
+        series, vol: parseInt(vol, 10), slug, path: `/${series}/${vol}/${slug}/`,
+        title: t[2], author: t[1], colFirst, colLast, anchors,
+      });
+    }
+  }
+}
+
+// ---------- registries: volumes, counts, queue ----------
+
+const volReg = JSON.parse(read('data/volumes.json'));
+const volumes = { pl: {}, pg: {} };
+for (const v of volReg.volumes) {
+  const series = v.series.toLowerCase();
+  const num = String(parseInt(v.tome, 10)); // split tomes (PG 7-1, 7-2 …) share a number
+  const arch = v.links.find(l => l.source === 'archive');
+  // every real volume gets an entry (the resolver validates ranges against
+  // this map); scan only where an archive.org copy exists
+  if (!volumes[series][num]) volumes[series][num] = arch ? { scan: arch.id } : {};
+  else if (arch && !volumes[series][num].scan) volumes[series][num].scan = arch.id;
+}
+volumes.pg['162'] = { ghost: true };
+const plCount = new Set(volReg.volumes.filter(v => v.series === 'PL').map(v => parseInt(v.tome, 10))).size;
+const pgCount = new Set(volReg.volumes.filter(v => v.series === 'PG').map(v => parseInt(v.tome, 10))).size;
+if (plCount !== 221 || pgCount !== 161) {
+  console.error(`unexpected shelf counts: PL ${plCount}, PG ${pgCount}`); process.exit(1);
+}
+
+const counts = JSON.parse(read('data/works.json')).counts;
+const authorsReg = JSON.parse(read('data/triage/authors-status.json'));
+const queueAuthors = authorsReg.authors.filter(a => a.status === 'none' && a.verified).length;
+
+// ---------- shelves, server-rendered ----------
+
+function shelfHtml(series, count, { ghost } = {}) {
+  const S = series.toUpperCase();
+  const spines = [];
+  for (let i = 1; i <= count; i++) {
+    const tall = i % 9 === 0 ? ' tall' : '';
+    const w = works.find(x => x.series === series && x.vol === i);
+    if (w) {
+      spines.push(`<a class="spine englished${tall}" href="${w.path}" title="${S} ${i} — ${w.author}, ${w.title}"></a>`);
+    } else {
+      spines.push(`<span class="spine${tall}" title="${S} ${i}"></span>`);
+    }
+  }
+  if (ghost) spines.push(`<span class="spine ghost" title="${S} ${ghost} — destroyed in the fire of 1868"></span>`);
+  return spines.join('');
+}
+
+// ---------- recently englished ----------
+
+const recent = RECENT.map(p => {
+  const w = works.find(x => x.path === `/${p}/`);
+  if (!w) { console.error(`RECENT lists ${p} but no built page found`); process.exit(1); }
+  return w;
+});
+for (const w of works) {
+  if (!RECENT.includes(w.path.slice(1, -1))) {
+    console.error(`built work ${w.path} is not in the RECENT list — add it (newest first)`);
+    process.exit(1);
+  }
+}
+const recentHtml = recent.map(w => `    <li>
+      <span class="work"><a href="${w.path}">${w.author}, <i>${w.title}</i></a><span class="first">First English translation</span></span>
+      <span class="cite">${w.series.toUpperCase()} ${w.vol}, ${w.colFirst}–${w.colLast}</span>
+    </li>`).join('\n');
+
+// ---------- the landing page ----------
+
+const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Migne — Patrologiæ Cursus Completus, open</title>
+<meta name="description" content="Every column of Migne's Patrologia Latina and Graeca, readable and citable — and, work by work, for the first time in English.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="bar">
+  <a class="wordmark" href="/">MIGNE<span class="tld">.APP</span></a>
+  <nav>
+    <a href="#shelf-pl-sec">Latina</a>
+    <a href="#shelf-pg-sec">Græca</a>
+    <a href="#recent">Recently Englished</a>
+  </nav>
+</header>
+
+<section class="titlepage">
+  <hr class="rule-heavy">
+  <hr class="rule-light">
+  <h1>PATROLOGIÆ<br>CURSUS COMPLETUS</h1>
+  <p class="series">OMNIUM SS. PATRUM, DOCTORUM SCRIPTORUMQUE ECCLESIÆ</p>
+  <p class="fleuron">❦</p>
+  <p class="thesis">Every column of the Latin and Greek Fathers, readable and citable — and, work by work, <b>for the first time in English.</b></p>
+</section>
+
+<section class="resolver" aria-label="Citation resolver">
+  <form action="/resolve/" method="get">
+    <select name="s" aria-label="Series">
+      <option value="pl">PL</option>
+      <option value="pg">PG</option>
+    </select>
+    <input type="text" name="vc" placeholder="139 : 473 A" aria-label="Volume and column">
+    <button type="submit">RESOLVE</button>
+  </form>
+  <p class="hint">Any Migne citation is an address here — <a href="/pl/139/473a">PL 139, 473A → Abbo of Fleury, <i>Canones</i></a></p>
+</section>
+
+<section class="shelves" aria-label="The corpus, volume by volume">
+  <div class="shelf-head">
+    <h2>The Shelf</h2>
+    <span class="legend"><span class="gilt-dot"></span>gilt label — carries English &nbsp;·&nbsp; dashed — PG 162, burned 1868</span>
+  </div>
+  <div class="shelf" id="shelf-pl-sec">
+    <div class="shelf-inner" id="shelf-pl"><span class="shelf-label">PL&nbsp;1–221</span>${shelfHtml('pl', 221)}</div>
+  </div>
+  <div style="height:6px"></div>
+  <div class="shelf" id="shelf-pg-sec">
+    <div class="shelf-inner" id="shelf-pg"><span class="shelf-label">PG&nbsp;1–161</span>${shelfHtml('pg', 161, { ghost: 162 })}</div>
+  </div>
+</section>
+
+<section class="ledger" aria-label="The corpus in figures">
+  <div class="entry">
+    <div class="figure">${fmt(counts.words)}</div>
+    <div class="gloss">Latin words in the Patrologia Latina — ${fmt(counts.works)} works across ${fmt(plCount)} volumes, every one mapped and citable here from the start.</div>
+  </div>
+  <div class="entry">
+    <div class="figure">387 volumes</div>
+    <div class="gloss">PL 1–221 and PG 1–161, published 1844–1866 at Petit-Montrouge. Volume 162 of the Greek series burned before publication; its ghost keeps its place on the shelf.</div>
+  </div>
+  <div class="entry">
+    <div class="figure">${fmt(queueAuthors)} authors</div>
+    <div class="gloss"><em>verified never translated</em> — millions of words with no English in 180 years. That is the queue this site exists to work through.</div>
+  </div>
+</section>
+
+<section class="recent" id="recent" aria-label="Recently Englished">
+  <h2>Recently Englished</h2>
+  <ol>
+${recentHtml}
+  </ol>
+</section>
+
+<footer class="colophon">
+  <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
+  <p class="migne-line">“I confess to you in closing that my ambition is to die as the priest who will have been the most useful to the Church.” — J.-P. Migne to Dom Pitra, 1863</p>
+  <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
+</footer>
+
+<script>
+/* The URL scheme IS the product: submit navigates to the citation address
+   itself; the form action stays as a no-JS fallback to /resolve/. */
+document.querySelector('.resolver form').addEventListener('submit', function (e) {
+  var m = this.vc.value.trim()
+    .match(/^(?:p\\.?\\s*[lg]\\.?\\s*)?(\\d{1,3})[\\s.:,;·]+(\\d{1,4})[\\s.]*([a-dA-D]?)\\.?$/);
+  if (!m) return;
+  e.preventDefault();
+  location.assign('/' + this.s.value + '/' + parseInt(m[1], 10) + '/' +
+    parseInt(m[2], 10) + (m[3] || '').toLowerCase());
+});
+</script>
+
+</body>
+</html>
+`;
+
+fs.writeFileSync(path.join(ROOT, 'site/index.html'), html);
+
+// ---------- resolver data ----------
+
+const resolverData = {
+  works: works.map(w => ({
+    series: w.series, vol: w.vol, slug: w.slug, path: w.path,
+    title: w.title, author: w.author,
+    colFirst: w.colFirst, colLast: w.colLast, anchors: w.anchors,
+  })),
+  volumes,
+};
+fs.writeFileSync(path.join(ROOT, 'site/resolver-data.json'), JSON.stringify(resolverData));
+
+console.log(`built site/index.html (${works.length} englished works, PL ${plCount} + PG ${pgCount}+ghost spines, queue ${queueAuthors}) + site/resolver-data.json (${Object.keys(volumes.pl).length} PL / ${Object.keys(volumes.pg).length} PG volume scans)`);

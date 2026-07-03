@@ -112,6 +112,7 @@ const html = `<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
@@ -155,6 +156,22 @@ ${passages}
   <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
   <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
 </footer>
+
+<script>
+/* nearest-anchor fallback: a deep link to a column mark this page doesn't
+   carry lands on the nearest preceding one instead of the page top */
+document.addEventListener('DOMContentLoaded', function () {
+  var m = location.hash.match(/^#c(\\d{1,4})([a-d])?$/);
+  if (!m || document.getElementById(location.hash.slice(1))) return;
+  for (var col = parseInt(m[1], 10); col >= ${parseInt(manifest.colFirst, 10)}; col--) {
+    var tries = ['', 'd', 'c', 'b', 'a'];
+    for (var i = 0; i < tries.length; i++) {
+      var el = document.getElementById('c' + col + tries[i]);
+      if (el) { el.scrollIntoView(); return; }
+    }
+  }
+});
+</script>
 
 </body>
 </html>
