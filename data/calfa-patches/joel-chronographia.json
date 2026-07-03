@@ -21,6 +21,54 @@
       "find": "Οὕτος οὖν ὁ Κωνσταντῖνος, μονοκρατήσας",
       "replace": "Οὗτος οὖν ὁ βασιλεὺς Κωνσταντῖνος, μονοκρατήσας",
       "provenance": "leaf 137 y~1597 overhang: print reads 'Οὗτος οὖν ὁ βασιλεὺς Κωνσταντῖνος' — Calfa dropped 'βασιλεὺς' and mis-accented Οὗτος. Same overhang also mangles 'χεὶρ τοῦ Προδρόμου' → 'χοὶρ τοῦ ίροδρόμου' (left for the translator crux protocol; word present)."
+    },
+    {
+      "page": 140,
+      "col": "0265",
+      "find": "εἰς τὰ βασίλεια. παδόκης",
+      "replace": "εἰς τὰ βασίλεια. Μετὰ οὖν Μαυρίκιον ἐβασίλευσε Φωκᾶς ὁ Καπ- παδόκης",
+      "provenance": "leaf 130 bottom: col 265 ends 'Μετὰ οὖν Μαυρίκιον ἐβασίλευσε Φωκᾶς ὁ Καπ-' directly above the volume signature line (PATROL. GR. CXXXIX / 9) — Calfa's crop drops the line above the signature. Verified on scan render 200dpi. NOTE: applied post-chunking directly to chunk 0008 as well; a re-chunk applies it at source and shifts boundaries — re-verify English after any re-chunk.",
+      "appliedPostChunking": true
+    },
+    {
+      "page": 141,
+      "col": "0268",
+      "find": "μὴ θέλοντος· αὐτῶ",
+      "replace": "μὴ θέλοντος· Ἔστεψε δὲ Ἰουστινιανὸν υἱὸν αὐτοῦ συμβασιλεύειν αὐτῶ",
+      "provenance": "leaf 131 bottom: col 268's last line 'Ἔστεψε δὲ Ἰουστινιανὸν υἱὸν αὐτοῦ συμβασιλεύειν' — same bottom-line crop failure. Verified on scan render 200dpi. Applied post-chunking to chunk 0008; see note above.",
+      "appliedPostChunking": true
+    },
+    {
+      "page": 123,
+      "col": "0232",
+      "find": "διαβόητος ἐγνωρίζετο.",
+      "replace": "διαβόητος ἐγνωρίζετο. Μετὰ δὲ Σαμψὼν ἐγένετο ἀναρχία ἔτη μʹ.",
+      "provenance": "leaf 113 bottom: standalone final line of col 232 'Μετὰ δὲ Σαμψὼν ἐγένετο ἀναρχία ἔτη μʹ.' (Latin: Post Sampsonem fuit interregnum annos quadraginta). Verified on scan 200dpi. Applied post-chunking to chunk 0001.",
+      "appliedPostChunking": true
+    },
+    {
+      "page": 124,
+      "col": "0236",
+      "find": "διέφθειρε. ΡἈτηοι. Ω. ΣΧΧΧΙΧ.",
+      "replace": "διέφθειρε.",
+      "provenance": "Running volume footer 'PATROL. GR. CXXXIX.' OCR'd into the text stream by Calfa — print artifact, not text. Removed. Applied post-chunking to chunk 0002.",
+      "appliedPostChunking": true
+    },
+    {
+      "page": 131,
+      "col": "0248",
+      "find": "τὸν διὰ ξίφους κραταιουμένης",
+      "replace": "τὸν διὰ ξίφους τοῦ μαρτυρίου στέφανον ἀνεδήσατο. Ὁ δέ γε Νέρων κραταιουμένης",
+      "provenance": "leaf 121 bottom: col 248's last line 'τοῦ μαρτυρίου στέφανον ἀνεδήσατο. Ὁ δέ γε Νέρων' — bottom-line crop failure. Verified on scan 200dpi. Applied post-chunking to chunk 0004 (anchor [0249] sits between Νέρων and κραταιουμένης).",
+      "appliedPostChunking": true
+    },
+    {
+      "page": 134,
+      "col": "0253",
+      "find": "μετέβαλε. ἄκαὶ ἐσφάγη",
+      "replace": "μετέβαλε. Μετὰ δὲ Ἀλέξανδρον ἐβασίλευσε Μαξιμῖνος ἔτη γʹ, καὶ ἐσφάγη",
+      "provenance": "leaf 124 top: col 253's first line 'Μετὰ δὲ Ἀλέξανδρον ἐβασίλευσε Μαξιμῖνος ἔτη γʹ' (numeral part-clipped at the A margin letter; Latin annos tres). Calfa's 'ἄ' debris removed. Applied post-chunking to chunk 0005.",
+      "appliedPostChunking": true
     }
   ]
 }
