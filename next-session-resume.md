@@ -18,8 +18,8 @@
 
 ## Next moves
 
-1. **Wilson read-through of Joel** — register + column-pair alignment + the two Greek-vs-Latin divergence rulings (Joram, Michael VII).
-2. **Landing page + citation resolver + migne.app DNS** — the remaining pre-deploy items, now common to both pilots. PG resolver must normalize either column of a pair to the same spread (Ordo rerum cites the LATIN column; scholars cite the Greek).
+1. **BUILD LANDING + RESOLVER — SONNET SESSION, spec is written and final: `site/landing-resolver-spec.md`** (2026-07-03). All design decisions made (approved sketch, real-data substitutions, PG pair normalization, vercel.json rewrites, nearest-anchor fallback, acceptance checklist, hard stops). Execute it; don't re-decide. Wilson is wiring migne.app DNS himself (standard Vercel DNS); Vercel project creation + deploy remain per-action OKs.
+2. **Wilson read-through of Joel** — register + column-pair alignment + the two Greek-vs-Latin divergence rulings (Joram, Michael VII).
 3. **Phase 3 OCR benchmark** (unchanged): ~25 TEI-covered columns vs scan crops, Haiku/Sonnet/Opus CER; Greek side vs Calfa Zenodo ground truth (record 20008699).
 4. **PG gap map**: Calfa 33 vols + First1KGreek inventory vs the PG registry → `data/gap-map.json`.
 5. **Per-work triage** of partial/mixed PL authors (unchanged) — can now write into works.json slots.
