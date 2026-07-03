@@ -1,31 +1,33 @@
 # Next session — resume note
 
-*Updated 2026-07-03 (PG pilot session — Joel).*
+*Updated 2026-07-03 (diff-vs-scan session — both pilots).*
 
 ## State
 
-- **Phase 6 PG PILOT DONE 2026-07-03: Joel, *Chronographia compendiaria* (PG 139, 223–288) translated end-to-end** — first English translation of a complete Byzantine world chronicle (verified untranslated by a 28-search telemetry-gated agent; the only English of anything in PG 139's untranslated works is one blog excerpt of Nicetas of Maroneia).
-  - **Page:** `site/pg/139/chronographia/index.html` — 33 column pairs, Greek in GFS Didot, English facing; anchors follow the citation scheme (`migne.app/pg/139/224` → `#c224`). Preview: `cd site && python3 -m http.server 8123`. Screenshot-checked (renders clean; favicon 404 is the only console noise). **Wilson read-through PENDING.** Rows cut at the sentence end nearest each anchor (anchors inline in the margins, Abbo treatment) — the raw column-break rows read badly and were reworked 2026-07-03 on Wilson's call.
-  - **Pipeline (all new, PG side):** `pg-page-column-map.mjs` (Calfa $8 pages → Migne columns, scan-verified; Greek/Latin swap sides per page so greekCol is read empirically per leaf) → `chunk-work-pg.mjs` (sentence-cut, column-anchored, applies lacuna patches NFC-normalized) → 2 strict-prompt agents + hand anchor chunk → `verify-english-pg.mjs` (frontmatter/anchors/ratio [1.1–2.0]/dedupe) → `build-work-page-pg.mjs` (column-pair layout) → `index-work-pg.mjs` (33 column incipits; scripture/fontes deferred — Calfa has no apparatus layer).
-  - **Gate answers (Greek half):** (1) Calfa quality — GOOD but has **systematic lacunae: bottom/overhang Greek lines dropped** (9 patches for Joel, all restored from scan renders at 200–260dpi and recorded with provenance in `data/calfa-patches/joel-chronographia.json`). Detection recipe: Greek tokens in the Latin-column x-range of scan OCR + agent sense-checks vs the Latin verifier; VERIFY candidates against NFC-normalized Calfa (naive greps gave 5 false positives). (2) Latin-verifier workflow (Zelzer) — WORKS: `extract-latin-verifier.mjs` pulls Allatius per column pair from the scan djvu.xml; agents adjudicated ~30 numerals/names against it. (3) EN/Greek ratio ≈ **1.2–1.35×** (chronicle Greek runs leaner than Abbo's 1.5× Latin) — recalibrate PG cost estimates DOWN. (4) Throughput: 2 agents × 5–6 chunks, no relaunches, all validators first-try.
-  - **Cruces:** 180 logged in `src/english/joel-chronographia/cruces.md` (NEW convention — per-work crux file, not session-transcript-only as in Abbo). ~8 flagged for diff-vs-scan (σωθήσεται θ/τ, Ozias νθʹ, Seven Sleepers τῤʹ→302-vs-372, Eli ϟʹ, Zambri ιηʹ, θέόηλον, Jacob's daughters μίαν, "Junor").
-  - **Before deploy:** same as Abbo — diff-vs-scan spot pass (start from the flagged cruces), landing page, resolver, migne.app DNS. Also: PG resolver must normalize either column of a pair to the same spread (Ordo rerum cites the LATIN column; scholars cite the Greek).
-- **PG 139 intelligence** (in `data/pg-works.json`): Nicetas of Maroneia = Dialogue I + fragments only (full work = CCSG 92 2021, Greek-only, untranslated — strong next candidate; page must state the fragment situation). Isidore Glabas's 4 Marian sermons untranslated, sermon-by-sermon publishable. **John of Citrus is NOT in PG 139** (cross-ref only; text = PG 119, 960–985; attribution partly Chomatenos — flag before translating).
-- **Abbo (PL half)** unchanged: read-through approved; diff-vs-scan before deploy still open.
-- Earlier state (works.json, TEI corpus, triage, biography, sketch) — see git log and prior resume-note versions.
+- **DIFF-VS-SCAN DONE FOR BOTH PILOTS 2026-07-03** (commits `3cf8f84` Joel, `c84cdd4` Abbo). This closes the pre-deploy verification debt from both pilot sessions.
+  - **Joel: all 21 flagged cruces adjudicated against the plates** (verdict-by-verdict record appended to `src/english/joel-chronographia/cruces.md`; page rebuilt, verifier clean, re-indexed — 202 cruces).
+    - **Real corrections landed:** Ozias 52 (was 59 — Calfa νθί = νβʹ), Zambri 12 (was 18 — ιᾔʹ = ιβʹ), Eli's ϟʹ=90 plate-verified (koppa misread as ἱ), βέβηλον (was θέόηλον — broken type), Συνέπων (was Τυνέπων), κοιτωνίσκων (was κοιτώνων), Tzimiskes ἡμέρας λʹ, Seven Sleepers τβʹ=302 plate-verified on BOTH columns.
+    - **Two Greek/Latin divergences in Migne himself** (not OCR): Joram ἔτη βʹ vs Latin *duodecim*; Michael VII χρόνους ζʹ vs Latin *sex*. Per the Greek-primary/as-printed policy the English now follows the printed Greek (two / seven) with the Latin noted — **flag these two for Wilson's read-through; if he prefers Latin-side readings the policy needs a stated exception.**
+    - **Three NEW lacuna patches (10–12,** all appliedPostChunking): Ochozias's upper-story clause (0240), Nestorius's `(υἱὸς` (0256), Maximinus's wax/bones line (0256→0257 seam). 13 patches total; patches 5/6/7/8 plate-confirmed verbatim en route.
+    - **Scan-copy gotcha:** `patrologiaecurs63migngoog` clips line-initial characters on some left margins; a second copy (`patrologicursus73migngoog`, 86MB, now in `raw/scans/pg139/`, offset +4 pp, full margins) settled the two clipped readings (Maximinus γʹ, Συνέπων Σ).
+    - **Column-map tail fixed:** leaf values for Calfa pages 146–151 were +2 (token verification had matched generic words — lesson: verify with distinctive tokens only); corrected in `data/pg-column-maps/pg139.json`. The three parity-inferred greekCols (284/285/288) were all CORRECT — chunk 0011's anchors stand.
+  - **Abbo: spot check PASS** (`src/english/9741/diff-vs-scan.md`): 3 sample pages, 28 phrases, anchor-placement check — TEI faithful to plates. Known TEI boundary: æ→ae normalization + **Mabillon's footnotes absent** (deliberate; would need OCR from plates if the site ever wants Migne's full apparatus). PL 139 scan in `raw/scans/pl139/` (57MB, gitignored).
+- **Joel read-through by Wilson still PENDING** — now with the two Greek-vs-Latin policy flags above plus register/alignment as before. Page: `site/pg/139/chronographia/` (preview: `cd site && python3 -m http.server 8123`).
+- **Abbo read-through was already APPROVED**; with diff-vs-scan done, Abbo's remaining pre-deploy items are site-wide, not work-level.
+- Pipeline/state detail from the pilot sessions: see the 2026-07-03 pilot entries in git log and `patrologia.md` memory; earlier state (works.json, TEI corpus, triage, biography, sketch) in prior resume-note versions.
 
 ## Next moves
 
-1. **Wilson read-through of Joel** (register + the 8 flagged cruces + column-pair alignment polish). New construction classes → translation-style.md per rule 5.
-2. **Diff-vs-scan pass** for BOTH pilots (Abbo + Joel) — Joel's flagged cruces give the starting list; the Ambrose column-band recipe applies. This also decides whether Calfa pages need a systematic bottom-line/overhang sweep per volume (detector exists in the column-map script lineage).
+1. **Wilson read-through of Joel** — register + column-pair alignment + the two Greek-vs-Latin divergence rulings (Joram, Michael VII).
+2. **Landing page + citation resolver + migne.app DNS** — the remaining pre-deploy items, now common to both pilots. PG resolver must normalize either column of a pair to the same spread (Ordo rerum cites the LATIN column; scholars cite the Greek).
 3. **Phase 3 OCR benchmark** (unchanged): ~25 TEI-covered columns vs scan crops, Haiku/Sonnet/Opus CER; Greek side vs Calfa Zenodo ground truth (record 20008699).
 4. **PG gap map**: Calfa 33 vols + First1KGreek inventory vs the PG registry → `data/gap-map.json`.
 5. **Per-work triage** of partial/mixed PL authors (unchanged) — can now write into works.json slots.
 
 ## Open flags / small debts
 
-- Joel: 3 tail pages' greekCol parity-inferred (149–151) — confirm at diff-vs-scan (chunk 0011 flagged).
-- calfa-patches: 4 of 9 patches are `appliedPostChunking` (edited into chunks 0001/0002/0004/0005/0008 directly) — **a re-chunk re-applies them at source and SHIFTS chunk boundaries; re-verify English after any re-chunk.**
-- PG 075 scan series check; author-tail triage; biography read-through; migne.app DNS — all unchanged.
-- Scan artifacts for PG 139 live in `raw/scans/pg139/` (~120MB, gitignored, re-downloadable from archive.org `patrologiaecurs63migngoog`).
+- Consider a **systematic bottom-line/overhang sweep per Calfa volume** before future PG works: Joel yielded 13 patches, 3 of them found only at diff-vs-scan. The detector (Greek tokens in Latin-column x-range) plus a last-line-of-column check would catch most up front.
+- Scan-leaf ≠ PDF-page−1 cannot be assumed constant within a volume (PG 139 drifts by 2 in the tail); column-map verification must use distinctive tokens.
+- PG 075 scan series check; author-tail triage; biography read-through — all unchanged.
+- Scan artifacts: `raw/scans/pg139/` (~210MB, two copies) + `raw/scans/pl139/` (57MB), all gitignored, re-downloadable.
 - No git remote (ask Wilson before creating).
