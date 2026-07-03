@@ -26,44 +26,74 @@ const joined = dir => manifest.chunks
   .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))
   .join('\n\n');
 
-const colRe = /\[(\d{4})\]/;
-// split a full text into column blocks: [{col, text}], text keeps paragraph breaks
-function columnBlocks(text) {
-  const parts = text.split(/\[(\d{4})\]\s*/);
-  const out = [];
-  // parts[0] = preamble before first anchor (should be empty for grc; eng may open mid-flow)
-  if (parts[0].trim()) out.push({ col: null, text: parts[0].trim() });
-  for (let i = 1; i < parts.length; i += 2) out.push({ col: parts[i], text: (parts[i + 1] || '').trim() });
-  return out;
+// Rows pair Greek|English per column anchor, but CUT at the sentence end
+// nearest BEFORE each anchor, not at the raw column break — Migne's columns
+// break mid-sentence, and a row ending on a dangling article reads badly
+// (Wilson, 2026-07-03). The anchor itself renders inline at its exact plate
+// position, hanging into the margin (the Abbo treatment); no words move.
+const anchorRe = /\[(\d{4})\]/g;
+function sentenceRows(text, terminalRe) {
+  const anchors = [...text.matchAll(anchorRe)];
+  const cuts = anchors.map((m, i) => {
+    if (i === 0) return 0;
+    let last = m.index, mm;
+    terminalRe.lastIndex = 0;
+    while ((mm = terminalRe.exec(text.slice(0, m.index)))) last = mm.index + mm[0].length;
+    return last;
+  });
+  return anchors.map((m, i) => ({
+    col: m[1],
+    text: text.slice(cuts[i], i + 1 < cuts.length ? cuts[i + 1] : text.length).trim(),
+  }));
 }
+// sentence terminal + space, followed by a capital or a column anchor.
+// Greek: '.' and ';' (erotimatiko) end sentences — the ano teleia does NOT.
+const GRC_TERM = /[.;][)\]»]*\s+(?=[A-ZΑ-ΩἈ-ᾯὉ-Ὗ«]|\[\d{4}\])/g;
+const ENG_TERM = /[.!?][)\]»”"']*\s+(?=[A-ZΑ-Ω«“"]|\[\d{4}\])/g;
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const colId = c => 'c' + String(parseInt(c, 10));
 const colDisp = c => String(parseInt(c, 10));
 
-function paras(text, lang) {
-  return text.split(/\n\n+/).map(p => `<p>${esc(p.replace(/\n/g, ' ')).replace(/\*([^*]+)\*/g, '<i>$1</i>')}</p>`).join('\n');
+function paras(text, { anchorIds }) {
+  return text.split(/\n\n+/).map(p => {
+    const inline = esc(p.replace(/\n/g, ' '))
+      .replace(/\[(\d{4})\]\s*/g, (_, c) =>
+        `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
+      .replace(/\*([^*]+)\*/g, '<i>$1</i>');
+    return `<p>${inline}</p>`;
+  }).join('\n');
 }
 
-const grcBlocks = columnBlocks(joined(grcDir));
-const engBlocks = columnBlocks(joined(engDir));
+const grcText = joined(grcDir);
+const engText = joined(engDir);
+const grcBlocks = sentenceRows(grcText, GRC_TERM);
+const engBlocks = sentenceRows(engText, ENG_TERM);
 if (grcBlocks.length !== engBlocks.length || grcBlocks.some((b, i) => b.col !== engBlocks[i].col)) {
-  console.error('column-block mismatch — run verify-english-pg.mjs first');
+  console.error('row mismatch — run verify-english-pg.mjs first');
   process.exit(1);
+}
+// no words lost or duplicated by the row cuts
+const words = s => s.replace(anchorRe, '').split(/\s+/).filter(Boolean).length;
+for (const [blocks, full, name] of [[grcBlocks, grcText, 'grc'], [engBlocks, engText, 'eng']]) {
+  const rowWords = blocks.reduce((a, b) => a + words(b.text), 0);
+  if (rowWords !== words(full)) { console.error(`${name}: row cut lost/duplicated words (${rowWords} vs ${words(full)})`); process.exit(1); }
+  for (const b of blocks) {
+    const inRow = [...b.text.matchAll(anchorRe)].map(m => m[1]);
+    if (inRow.length !== 1 || inRow[0] !== b.col) { console.error(`${name}: row ${b.col} carries anchors [${inRow}]`); process.exit(1); }
+  }
 }
 
 const passages = grcBlocks.map((gb, i) => `
-<div class="col-rules passage colpair" id="${gb.col ? colId(gb.col) : ''}">
+<div class="col-rules passage colpair">
   <div>
-    <div class="colhead"><a class="anchor" href="#${colId(gb.col)}">${colDisp(gb.col)}</a></div>
     <div class="coltext greek" lang="grc">
-${paras(gb.text, 'grc')}
+${paras(gb.text, { anchorIds: true })}
     </div>
   </div>
   <div>
-    <div class="colhead colhead-en"><a class="anchor" href="#${colId(gb.col)}">${colDisp(gb.col)}</a></div>
     <div class="coltext english" lang="en">
-${paras(engBlocks[i].text, 'en')}
+${paras(engBlocks[i].text, { anchorIds: false })}
     </div>
   </div>
 </div>`).join('\n');
@@ -137,23 +167,17 @@ fs.writeFileSync(path.join(outDir, 'index.html'), html);
 // append PG-specific styles to site/styles.css once
 const cssPath = path.join(ROOT, 'site/styles.css');
 let css = fs.readFileSync(cssPath, 'utf8');
-if (!css.includes('/* ---------- PG work page ---------- */')) {
-  css += `
+// strip any previous PG block, then append the current one (idempotent rebuild)
+css = css.replace(/\n\/\* ---------- PG work page ---------- \*\/[\s\S]*?(?=\n\/\* ----------|$)/, '');
+css += `
 /* ---------- PG work page ---------- */
-/* Greek body in GFS Didot — the face Migne's Greek type descends from */
+/* Greek body in GFS Didot — the face Migne's Greek type descends from.
+   Rows cut at sentence ends near each column anchor; anchors inline,
+   hanging into the outer margins per the base .anchor rules. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
-.colpair { border-top: 0; }
-.columns .colpair:first-child { border-top: 2px solid var(--encre); }
-.colhead { margin: 1.4rem 0 .6rem; }
-.colhead .anchor {
-  float: none; display: inline-block; margin: 0;
-  border-left: 2px solid var(--dorure); border-bottom: 0; border-right: 0;
-  padding: 0 0 0 .35rem; width: auto; text-align: left;
-}
-.colhead-en { visibility: hidden; }
-@media (max-width: 860px) { .colhead-en { visibility: visible; } }
+.colpair { border-top: 0; padding-top: .4rem; }
+.columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }
 `;
-  fs.writeFileSync(cssPath, css);
-}
+fs.writeFileSync(cssPath, css);
 
 console.log(`built site/pg/${vol}/${slug}/index.html (${grcBlocks.length} column blocks)`);

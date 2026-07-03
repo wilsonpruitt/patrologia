@@ -370,15 +370,9 @@ a { color: inherit; }
 }
 
 /* ---------- PG work page ---------- */
-/* Greek body in GFS Didot — the face Migne's Greek type descends from */
+/* Greek body in GFS Didot — the face Migne's Greek type descends from.
+   Rows cut at sentence ends near each column anchor; anchors inline,
+   hanging into the outer margins per the base .anchor rules. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
-.colpair { border-top: 0; }
-.columns .colpair:first-child { border-top: 2px solid var(--encre); }
-.colhead { margin: 1.4rem 0 .6rem; }
-.colhead .anchor {
-  float: none; display: inline-block; margin: 0;
-  border-left: 2px solid var(--dorure); border-bottom: 0; border-right: 0;
-  padding: 0 0 0 .35rem; width: auto; text-align: left;
-}
-.colhead-en { visibility: hidden; }
-@media (max-width: 860px) { .colhead-en { visibility: visible; } }
+.colpair { border-top: 0; padding-top: .4rem; }
+.columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }
