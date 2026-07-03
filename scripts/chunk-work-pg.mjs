@@ -72,13 +72,27 @@ for (let i = 1; i < span.length; i++)
 const pad4 = n => String(n).padStart(4, '0');
 const words = s => s.split(/\s+/).filter(Boolean).length;
 
-// ---- assemble anchored stream ----
+// ---- assemble anchored stream (NFC-normalized: Calfa mixes forms) ----
 // Each page contributes "[NNNN] <flowed column text>". Print lines flow into
 // one stream; sentences run across columns freely.
 const srcColSeq = span.map(p => pad4(greekCol.get(p.page)));
-const stream = span
+let stream = span
   .map(p => `[${pad4(greekCol.get(p.page))}] ` + p.lines.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim())
-  .join(' ');
+  .join(' ')
+  .normalize('NFC');
+
+// ---- apply scan-verified lacuna patches (data/calfa-patches/<key>.json) ----
+const patchPath = path.join(ROOT, 'data/calfa-patches', `${work.key}.json`);
+if (fs.existsSync(patchPath)) {
+  const { patches } = JSON.parse(fs.readFileSync(patchPath, 'utf8'));
+  for (const p of patches) {
+    const find = p.find.normalize('NFC');
+    const n = stream.split(find).length - 1;
+    if (n !== 1) { console.error(`patch failed (${n} matches, need exactly 1): ${p.find.slice(0, 50)}…`); process.exit(1); }
+    stream = stream.replace(find, p.replace.normalize('NFC'));
+  }
+  console.log(`applied ${patches.length} lacuna patches`);
+}
 const srcWords = words(stream.replace(/\[\d{4}\]/g, ''));
 
 // ---- cut at sentence boundaries nearest each TARGET of words ----

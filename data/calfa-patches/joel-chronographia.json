@@ -1,0 +1,26 @@
+{
+  "note": "Restorations of Calfa OCR lacunae, verified against the PG 139 scan (archive.org patrologiaecurs63migngoog, leaves rendered and read at 260dpi, 2026-07-03). Cause: Migne's compositor let paragraph-final Greek lines overhang into the Latin column; Calfa's column crop drops or mangles them. Detection: Greek tokens found in the Latin column x-range of the scan OCR, filtered against the Calfa text (NFC-normalized — early greps without NFC produced false positives). find/replace are applied NFC-normalized to the assembled page stream by chunk-work-pg.mjs.",
+  "patches": [
+    {
+      "page": 120,
+      "col": "0225",
+      "find": "εἰ δὲ διὰ πυρὸς, ἀρχὰς ἀπὸ Νεβρώδ",
+      "replace": "εἰ δὲ διὰ πυρὸς, ἡ πλινθίνη σωθήσεται. Ἀπὸ Μαγουσαίων δὲ ἤτοι Περσῶν ἤρξατο ἀστρολογία καὶ μαγεία, λαβόντων ἀρχὰς ἀπὸ Νεβρώδ",
+      "provenance": "leaf 110 y~1500: in-column line 'ἡ πλινθίνη σωτήσεται. Ἀπὸ Μαγουσαίων δὲ ἤτοι Περσῶν' + overhang 'ἤρξατο ἀστρολογία καὶ μαγεία, λαβόντων ἀρχὰς ἀπὸ.' (stray point after ἀπὸ as printed; dropped here). Print θ/τ ambiguous in σωθήσεται/σωτήσεται at 260dpi — σωθήσεται adopted as the only viable word; flag for diff-vs-scan."
+    },
+    {
+      "page": 120,
+      "col": "0225",
+      "find": "Φοίνικι, ὃς καὶ μᾶλλον αὐτὸν φορέσαι ἱμάτιον ἐκ πορφύρας",
+      "replace": "Φοίνικι, ὃς καὶ μᾶλλον ἐκπλαγεὶς ἐκέλευσεν ἀπὸ κογχύλης ἔριον βαφῆναι καὶ γενέσθαι αὐτῷ περιβόλαιον, καὶ οὕτω πρῶτον αὐτὸν φορέσαι ἱμάτιον ἐκ πορφύρας",
+      "provenance": "leaf 110 y~3195: in-column line 'ἐκπλαγεὶς ἐκέλευσεν ἀπὸ κογχύλης ἔριον βαφῆναι καὶ' + overhang 'γενέσθαι αὐτῷ περιβόλαιον, καὶ οὕτω πρῶτον αὐτὸν φο-' both dropped by Calfa (hyphen carries to in-column 'ρέσαι')."
+    },
+    {
+      "page": 147,
+      "col": "0278",
+      "find": "Οὕτος οὖν ὁ Κωνσταντῖνος, μονοκρατήσας",
+      "replace": "Οὗτος οὖν ὁ βασιλεὺς Κωνσταντῖνος, μονοκρατήσας",
+      "provenance": "leaf 137 y~1597 overhang: print reads 'Οὗτος οὖν ὁ βασιλεὺς Κωνσταντῖνος' — Calfa dropped 'βασιλεὺς' and mis-accented Οὗτος. Same overhang also mangles 'χεὶρ τοῦ Προδρόμου' → 'χοὶρ τοῦ ίροδρόμου' (left for the translator crux protocol; word present)."
+    }
+  ]
+}
