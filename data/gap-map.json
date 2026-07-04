@@ -1,0 +1,1097 @@
+{
+  "generated": "build-gap-map.mjs",
+  "source": {
+    "registry": "data/volumes.json (PG series, 167 tomes incl. sub-parts)",
+    "calfa": "sources/pg/calfa/README.md (33 vols table)"
+  },
+  "totals": {
+    "registryTomes": 167,
+    "calfaCoveredTomes": 33,
+    "gapTomes": 134,
+    "calfaWords": 5605015
+  },
+  "firstOneKCandidateAuthors": {
+    "note": "Verified present in First1KGreek/canonical-greekLit repos (2026-07-04 research pass) but NOT mapped to specific PG tome numbers here — data/volumes.json has no per-tome author metadata to match against. Follow-up: build a real PG tome->author index (analogous to data/cc-pl-index.json for PL) before applying this list.",
+    "authors": [
+      "Origen",
+      "Eusebius of Caesarea",
+      "Epiphanius of Salamis",
+      "Hippolytus",
+      "Methodius of Olympus",
+      "Theodoret of Cyrus",
+      "Gregory of Nazianzus",
+      "John Zonaras (already Calfa-covered, PG 134)",
+      "Anna Comnena (PG volume unconfirmed)"
+    ]
+  },
+  "volumes": [
+    {
+      "tome": "001",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "002",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "003",
+      "status": "calfa",
+      "author": "Dionysius the Areopagite (vol. 1)",
+      "era": "Pre-Nicaean",
+      "words": 134866,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "004",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "005",
+      "status": "calfa",
+      "author": "Ignatius, Polycarp, Popes of 2nd c., Melito, others",
+      "era": "Pre-Nicaean",
+      "words": 46164,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "006",
+      "status": "calfa",
+      "author": "Justin, Tatian, Athenagoras, Theophilus, Hermias",
+      "era": "Pre-Nicaean",
+      "words": 170482,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "007-1",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "007-2",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "008",
+      "status": "calfa",
+      "author": "Clement of Alexandria (vol. 1); Cohortatio, Paedagogus, Stromata",
+      "era": "Pre-Nicaean",
+      "words": 168277,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "009",
+      "status": "calfa",
+      "author": "Clement of Alexandria (vol. 2); Stromata, Quis dives, Excerpta, Eclogae, old scholia, diss. by Le Nourry",
+      "era": "Pre-Nicaean",
+      "words": 82135,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "010",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "011",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "012",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "013",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "014",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "015",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "016-1",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "016-2",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "016-3",
+      "status": "calfa",
+      "author": "Origen (vol. 6.3); Hexapla (contd); Hippolytus, Philosophumena",
+      "era": "Pre-Nicaean",
+      "words": 60921,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "017",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "018",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "019",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "020",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "021",
+      "status": "calfa",
+      "author": "Eusebius (vol. 3); Praeparatio Evangelica",
+      "era": "4th century",
+      "words": 236625,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "022",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "023",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "024",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "025",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "026",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "027",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "028",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "029",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "030",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "031",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "032",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "033",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "034",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "035",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "036",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "037",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "038",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "039",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "040",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "041",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "042",
+      "status": "calfa",
+      "author": "Epiphanius (vol. 2); Panarion (contd), Expositio fidei, Anacephalaeosis; Appendix: dissertations",
+      "era": "4th century",
+      "words": 161237,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "043",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "044",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "045",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "046",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "047",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "048",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "049",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "050",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "051",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "052",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "053",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "054",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "055",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "056",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "057",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "058",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "059",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "060",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "061",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "062",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "063",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "064",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "065",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "066",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "067",
+      "status": "calfa",
+      "author": "Socrates, *Historia Ecclesiastica*; Sozomen, *Historia Ecclesiastica*",
+      "era": "5th century",
+      "words": 170445,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "068",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "069",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "070",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "071",
+      "status": "calfa",
+      "author": "Cyril of Alexandria (vol. 4): Commentaries on Hosea, Joel, Amos, Jonah, Abdiah, Micaiah, Nahum, Habakuk, Haggai, etc.",
+      "era": "5th century",
+      "words": 210957,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "072",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "073",
+      "status": "calfa",
+      "author": "Cyril of Alexandria (vol. 6): Commentary on John",
+      "era": "5th century",
+      "words": 191303,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "074",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "075",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "076",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "077",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "078",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "079",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "080",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "081",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "082",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "083",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "084",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "085",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "086-1",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "086-2",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "087-1",
+      "status": "calfa",
+      "author": "Procopius of Gaza (vol. 1), Vetus Testamentum commentaries",
+      "era": "7th century",
+      "words": 151167,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "087-2",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "087-3",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "088",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "089",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "090",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "091",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "092",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "093",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "094",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "095",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "096",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "097",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "098",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "099",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "100",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "101",
+      "status": "calfa",
+      "author": "Photius (vol. 1): Exegetica: Quaestiones Amphilochiana, Commentary on Novum Testamentum",
+      "era": "9th century",
+      "words": 178850,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "102",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "103",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "104",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "105",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "106",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "107",
+      "status": "calfa",
+      "author": "Leo the Emperor: Theologica: 19 homilies and panegyrics, Letter to Omar, king of the Saracens, Juridical and canonical works; Poems, Apologia, Epigrams, Tactica sive de re militaria, oracula",
+      "era": "10th century",
+      "words": 196727,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "108",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "109",
+      "status": "calfa",
+      "author": "Historical works: continuation of Theophanes; Constantine Porphyrogenitus, *De vita Basilii Macedonis*; John Cameniates, *Narratio de excidio Thessalonicae*; Symeon Magister et Logothetes, *Annales*; Josephus Genesius, *History of Constantinople*; and others",
+      "era": "10th century",
+      "words": 148584,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "110",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "111",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "112",
+      "status": "calfa",
+      "author": "Constantine Porphyrogenitus (vol. 1): *De ceremoniis*",
+      "era": "10th century",
+      "words": 129556,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "113",
+      "status": "calfa",
+      "author": "Constantine Porphyrogenitus (vol. 2): *De thematibus*, *De administrando imperio*, *Vita Basilii Macedonis*; Theodosius Diaconus, *De expugnatione Cretae*; and others",
+      "era": "10th century",
+      "words": 104371,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "114",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "115",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "116",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "117",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "118",
+      "status": "calfa",
+      "author": "Oecumenius (vol. 1): Commentary on Acts, Commentary on Paul's letters, Commentary on the Catholic letters",
+      "era": "10th century",
+      "words": 208448,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "119",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "120",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "121",
+      "status": "calfa",
+      "author": "George Cedrenus (vol. 1): *Compendium Historiarum*",
+      "era": "11th century",
+      "words": 160853,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "122",
+      "status": "calfa",
+      "author": "George Cedrenus (vol. 2): *Compendium Historiarum* (contd); John Scylitzes, *Breviarium historicum*; Michael Psellus, many works",
+      "era": "11th century",
+      "words": 150647,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "123",
+      "status": "calfa",
+      "author": "Theophylact of Bulgaria (vol. 1): *Ennaratio in Evangelium Matthaei / Marci / Lucae / Joannis*",
+      "era": "11th century",
+      "words": 208024,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "124",
+      "status": "calfa",
+      "author": "Theophylact of Bulgaria (vol. 2): *Commentarius in Joannis Evangelium* (contd); Commentary on Paul's letters",
+      "era": "11th century",
+      "words": 210302,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "125",
+      "status": "calfa",
+      "author": "Theophylact of Bulgaria (vol. 3): Commentary on Paul's letters (contd); 1 and 2 Peter; alternative versions of commentaries",
+      "era": "11th century",
+      "words": 172696,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "126",
+      "status": "calfa",
+      "author": "Theophylact of Bulgaria (vol. 4): More Novum Testamentum commentaries; Orations, Letters, Commentaries on minor prophets",
+      "era": "11th century",
+      "words": 164706,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "127",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "128",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "129",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "130",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "131",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "132",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "133",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "134",
+      "status": "calfa",
+      "author": "John Zonaras (vol. 1): *Annales*",
+      "era": "12th century",
+      "words": 196859,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "135",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "136",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "137",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "138",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "139",
+      "status": "calfa",
+      "author": "Isidore of Thessalonica, Sermons; Nicetas Maroneae; John of Citrus; Joel Chronographus, *Chronologia compendiaria*; Nicetas Choniates, *Historia Byzantina* (from John Comnenus to 1204), *Thesaurus* (books 1–5)",
+      "era": "13th century",
+      "words": 134703,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "140",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "141",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "142",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "143",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "144",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "145",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "146",
+      "status": "calfa",
+      "author": "Nicephorus Callistus (vol. 2): *Ecclesiastical History*, books 8–14",
+      "era": "14th century",
+      "words": 156848,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "147",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "148",
+      "status": "calfa",
+      "author": "Nicephorus Gregoras (vol. 1): *Historia Byzantina*, books 1–24",
+      "era": "14th century",
+      "words": 234855,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "149",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "150",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "151",
+      "status": "calfa",
+      "author": "Gregory Palamas (vol. 2); Gregory Acindynus, Barlaam",
+      "era": "14th century",
+      "words": 399518,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "152",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "153",
+      "status": "calfa",
+      "author": "John Cantacuzene (vol. 1): *Historia Byzantina* in 4 books (events from 1320–1354)",
+      "era": "14th century",
+      "words": 230239,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "154",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "155",
+      "status": "calfa",
+      "author": "Simeon of Thessalonica (1430 AD)",
+      "era": "15th century",
+      "words": 175482,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "156",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "157",
+      "status": "calfa",
+      "author": "George Codinus (1400–1462): works about Constantinople, *De sepulchris imperatorem*; Ducas, *Historia Byzantina* 1341–1462, *Chronicon breve* (contd to 1523)",
+      "era": "15th century",
+      "words": 95020,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "158",
+      "status": "calfa",
+      "author": "Michael Glyca (1448–1453): *Annals*, Letters; Others",
+      "era": "15th century",
+      "words": 163148,
+      "confidence": "high — sourced from sources/pg/calfa/README.md"
+    },
+    {
+      "tome": "159",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "160",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    },
+    {
+      "tome": "161",
+      "status": "gap",
+      "author": null,
+      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+    }
+  ]
+}
