@@ -1,9 +1,11 @@
 # Next session — resume note
 
-*Updated 2026-07-04 (Stripe + OG + Phase 3 prep session).*
+*Updated 2026-07-04 (Phase 3 OCR benchmark session, commit `df6a7ec`).*
 
-## → NEXT SESSION: Phase 3 OCR benchmark (clear + switch to Sonnet)
-**Start here.** Read `benchmark/SESSION-BRIEF.md` — the grounded, both-arms handoff (commit `3d8153c`). Run it on **Sonnet** (Phase 3 = Sonnet mechanics). Key facts already scouted: Latin ground truth is local (`sources/pl/tei/`, 5,276 TEI); **Greek ground truth is NOT downloaded — fetch Zenodo record `20008699`** first (PLAN.md's `7296539` is stale). Deliverable: `benchmark/RESULTS.md` (CER/WER × model × cost, both arms) + the decision-rule recommendation. Still-open decisions (Wilson): Joel read-through (two Greek-vs-Latin rulings) + Migne biography read-through — independent of Phase 3.
+## → NEXT SESSION: PG gap map (Phase 3 done — see benchmark/RESULTS.md)
+**Phase 3 OCR benchmark is DONE.** `benchmark/RESULTS.md` has the full table + decision rule. Bottom line: **Sonnet 5 for Latin bulk gap-OCR** (1.48% mean CER vs Corpus Corporum TEI, n=13 PL139 columns; Opus 1.54% — no gain; Haiku 32.98%, doesn't recover even pre-cropped). **Greek: do NOT vision-OCR at bulk scale** — Sonnet 8.59% mean (8 of 9 Zenodo pages, one dropped for bad ground truth) doesn't clear the ~2% bar against Calfa's own 1.05% baseline; route Greek gaps through the Calfa pipeline instead.
+Scope note: benchmark ran 13 Latin columns (single volume, PL139) not ~25 across volumes, and skipped Opus on the Greek arm — both logged as deliberate calls in RESULTS.md, not silent shrinkage.
+**Next up:** Phase 2's PG gap map (Calfa 33 vols + First1KGreek inventory vs the PG registry → `data/gap-map.json`), or per-work triage of partial/mixed PL authors. Still-open decisions (Wilson): Joel read-through (two Greek-vs-Latin rulings) + Migne biography read-through — independent of Phase 3/gap-map work.
 
 ## Done 2026-07-04 (this session)
 - **Support tiers now Migne-native Stripe links** (commit `b764b0f`, deployed): were reusing Acta products; created live Wroot Labs products/prices/links — $10 column / $300 work / $10-mo patron, each tagged metadata `project=migne`+`tier`. Old Acta links untouched.
