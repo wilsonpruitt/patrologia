@@ -692,6 +692,8 @@ new lacunae recorded as patches 10–12 in `data/calfa-patches/`.**
   0288) — English "six years" kept, per Latin and the historical span.
 - **0288 Michael VII** — plate prints χρόνους ζʹ clearly: a genuine
   Greek/Latin divergence in Migne (Greek 7, Latin *sex*), NOT a Calfa slip.
+  **RATIFIED by Wilson 2026-07-04: Greek stands (both this and Joram βʹ
+  above), per the Greek-primary/as-printed policy — no exception needed.**
   Per Greek-primary/as-printed policy **English corrected six → seven**
   (0011), Latin noted. (Παραπινάκης with iota also plate-confirmed.)
 
