@@ -21,6 +21,17 @@
 //     Migne's boilerplate and of one known mismatched link (PG 105/Origen).
 //     Confidence is 'medium' — a single archive.org/Google catalog title,
 //     same tier as the shared-blurb span match.
+//  4. archive.org's own `creator` metadata field, when it names an actual
+//     patristic author rather than the boilerplate (Migne as compiler, "PG",
+//     "Google Books", "Various") that fills this field on ~127 of the 132
+//     matched items. Checked BEFORE the swept-away tomes below get an
+//     'unresolved-but-rich-description' write-off: of the 75 matched tomes
+//     whose description exceeds 150 chars but carries no per-volume/TOC
+//     signal, 74 turned out to be the same whole-series library-catalog
+//     blurb (162-vol collation note, subtitle variants, microfiche info) —
+//     genuinely no author signal, not a parser gap. Only tome 111's
+//     `creator` ("Nikolaos I, Mystikos, Saint, Patriarch of Constantinople,
+//     852-925") was real and new.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -77,6 +88,23 @@ function parseVolTitleAuthor(title) {
   return m ? m[1].trim() : null;
 }
 
+const CREATOR_BOILERPLATE = new Set([
+  'PG',
+  'Google Books',
+  'Various',
+  'Migne, J.-P. (Jacques-Paul), 1800-1875',
+  'Migne, J.-P. (Jacques-Paul), 1800-1875, compiler',
+  'Jacques Paul Migne',
+  'Jacques-Paul Migne',
+]);
+
+function parseCreator(creatorField) {
+  const creator = Array.isArray(creatorField) ? creatorField.join('; ') : (creatorField || '');
+  const trimmed = creator.trim();
+  if (!trimmed || CREATOR_BOILERPLATE.has(trimmed)) return null;
+  return trimmed;
+}
+
 const results = [];
 for (const t of idx.tomes) {
   if (t.status !== 'matched') {
@@ -123,11 +151,23 @@ for (const t of idx.tomes) {
     continue;
   }
 
+  // Signal 4: archive.org's own creator field, once boilerplate is filtered
+  const creatorAuthor = parseCreator(t.creator);
+  if (creatorAuthor) {
+    results.push({
+      tome: t.tome,
+      author: creatorAuthor,
+      confidence: 'medium',
+      evidence: `archive.org creator field "${creatorAuthor}" (${t.archiveId})`,
+    });
+    continue;
+  }
+
   results.push({
     tome: t.tome,
     author: null,
     confidence: 'none',
-    evidence: `matched ${t.archiveId} but no author signal in its title/description`,
+    evidence: `matched ${t.archiveId} but no author signal in its title/description/creator`,
   });
 }
 

@@ -9,7 +9,7 @@
     "calfaCoveredTomes": 33,
     "gapTomes": 134,
     "calfaWords": 5605015,
-    "gapTomesWithAuthor": 48
+    "gapTomesWithAuthor": 49
   },
   "firstOneKCandidateAuthors": {
     "note": "Checklist authors verified present in First1KGreek/canonical-greekLit (2026-07-04 research pass). confirmedTomes below is computed from data/pg-tome-authors.json (archive.org catalog descriptions, per-tome — not memory, not scraped). stillUnconfirmed authors have no tome match yet; do not apply First1KGreek to them without a dedicated search pass.",
@@ -794,8 +794,8 @@
     {
       "tome": "111",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Nikolaos I, Mystikos, Saint, Patriarch of Constantinople, 852-925",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (archive.org creator field \"Nikolaos I, Mystikos, Saint, Patriarch of Constantinople, 852-925\" (epistolai00eutygoog))"
     },
     {
       "tome": "112",

@@ -1,18 +1,20 @@
 # Next session — resume note
 
-*Updated 2026-07-04 (PG Google Books gap-fill + resolver-merge session).*
+*Updated 2026-07-04 (creator-field signal session — closes out the regex-widening lead).*
 
-## → NEXT SESSION: widen resolve-pg-authors.mjs's description-parser regex
-**Start here.** Google Books titles are now folded into the resolver and re-run end to end:
+## → NEXT SESSION: the regex-widening lead is closed; author-resolution is likely near its ceiling from archive.org/Google metadata alone
+**Start here.** Checked what last session flagged as the highest-value remaining lever — it wasn't:
 
-- **Archive.org re-query was a dead end** (tried this session, see history below) — don't re-try without a new signal.
-- **Google Books titles → resolver, Signal 3.** `scripts/gapfill-pg-googlebooks.mjs` produces `data/pg-tome-googlebooks.json` (26/35 no-candidate tomes get a real title); `resolve-pg-authors.mjs` now reads it as a third evidence tier for any tome archive.org couldn't match, keeping ALL distinct authors per tome (not just the majority — PG 131 genuinely bundles Euthymius Zigabenus + a fragment of Anna Comnena's *Alexias*, both are kept). Known-bad link `ovIUAAAAQAAJ` (Origen mismatched onto PG 105) is excluded structurally in `gapfill-pg-googlebooks.mjs`'s `EXCLUDE_IDS`, not just flagged.
-- **Re-ran the full chain**: `resolve-pg-authors.mjs` → **56/167 tomes with an author signal** (up from 30: 20 high + 36 medium); `build-gap-map.mjs` → **48 gap tomes with author** (up from 25). `firstOneKCandidateAuthors`: **Anna Comnena now confirmed at tome 131** (renamed off "(PG volume unconfirmed)" in `CHECKLIST_AUTHORS`). Still unconfirmed: Epiphanius of Salamis, Methodius of Olympus, Theodoret of Cyrus, John Zonaras (already Calfa-covered, PG 134, so low-priority).
-- Still bare (no author signal at all, any source): **069, 071, 072, 073, 097, 110, 125, 126, 150** (9 tomes) plus whichever archive.org-matched tomes had no description signal.
+- **The 75 "rich" (>150 char) unresolved descriptions are NOT a parser gap.** Inspected all of them: 74/75 are the identical whole-series library-catalog blurb (161-vols-in-166/167 collation note, subtitle variants, microfiche info) — genuinely no per-volume author signal to parse, no matter how the regex is widened. Only 1 (tome 111) had real signal, and it wasn't in the description at all.
+- **New Signal 4 added instead: archive.org's own `creator` metadata field** (`resolve-pg-authors.mjs`), filtered against a boilerplate set (`"PG"`, `"Google Books"`, `"Various"`, Migne-as-compiler variants — 127/132 matched tomes carry one of these, not a real author). One genuine hit: **tome 111 → Nikolaos I Mystikos, Patriarch of Constantinople** (`creator` field on `epistolai00eutygoog`; title was just "Epistolai," which the existing regexes couldn't have caught either way).
+- **Re-ran the full chain**: `resolve-pg-authors.mjs` → **57/167 tomes with an author signal** (up from 56: 20 high + 37 medium); `build-gap-map.mjs` → **49 gap tomes with author** (up from 48).
+- Checked for other unmined archive.org fields on these records — `title`, `volume`, `description`, `creator`, `date`, `error` is the complete set (no subject/contributor field exists in the cached metadata). So Signal 4 was the last archive.org-native lever available; further gains need a different source entirely.
+- Still bare (no author signal at all, any source): **069, 071, 072, 073, 097, 110, 125, 126, 150** (9 tomes) — unchanged, still needs patristica.net blurb-mining or manual lookup.
+- Still unconfirmed against `CHECKLIST_AUTHORS`: Epiphanius of Salamis, Methodius of Olympus, Theodoret of Cyrus, John Zonaras (already Calfa-covered, PG 134, so low-priority).
 
 Concrete remainder:
-1. **95/132 archive.org-matched tomes have a "rich" description** (>150 chars) but the resolver only trusts two evidence shapes from them (per-volume `vol_NNN - Author` titles, and "t. N-M. Author" spans inside a shared multi-volume TOC blurb) — widen the parser's regex coverage against the unresolved-but-rich descriptions before writing them off. This is now the highest-value remaining lever (bigger pool than the 9 still-bare tomes).
-2. The 9 fully-bare tomes (069, 071–073, 097, 110, 125, 126, 150) have no archive.org item AND no usable Google Books title — would need a different signal entirely (e.g. patristica.net's own per-volume blurb text, not yet mined for author names) or manual lookup; low priority, small tome count.
+1. **Author-resolution via archive.org/Google Books metadata is likely tapped out** at 57/167 (110 tomes with `author: null`). Next lever, if this thread continues, is a genuinely different source — patristica.net's own per-volume blurb text (not yet mined for author names) — rather than another pass over the same two APIs.
+2. The 9 fully-bare tomes (069, 071–073, 097, 110, 125, 126, 150) — same as before, low priority, small tome count.
 3. Epiphanius/Methodius/Theodoret/Zonaras: dedicated search pass needed (First1KGreek confirms they're transcribed somewhere; they just aren't pinned to a PG tome number yet).
 
 **Only after that:** Phase 3 OCR benchmark is done (`benchmark/RESULTS.md`) — Sonnet 5 for Latin bulk gap-OCR (1.48% mean CER), Greek stays on Calfa's pipeline. Per-work triage of partial/mixed PL authors is a separate, unrelated Phase 4 thread.
