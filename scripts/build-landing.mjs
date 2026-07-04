@@ -122,6 +122,22 @@ const html = `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Migne — Patrologiæ Cursus Completus, open</title>
 <meta name="description" content="Every column of Migne's Patrologia Latina and Graeca, readable and citable — and, work by work, for the first time in English.">
+<link rel="canonical" href="https://migne.app/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Migne">
+<meta property="og:title" content="Migne — Patrologiæ Cursus Completus, open">
+<meta property="og:description" content="Every column of Migne's Patrologia Latina and Graeca, readable and citable — and, work by work, for the first time in English.">
+<meta property="og:url" content="https://migne.app/">
+<meta property="og:image" content="https://migne.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Migne — a shelf of Patrologia volumes in vert-empire green and gilt, with PG 162 shown as a ghost.">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Migne — Patrologiæ Cursus Completus, open">
+<meta name="twitter:description" content="Every column of Migne's Patrologia Latina and Graeca, readable and citable — and, work by work, for the first time in English.">
+<meta name="twitter:image" content="https://migne.app/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
