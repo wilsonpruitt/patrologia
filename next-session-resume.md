@@ -1,11 +1,15 @@
 # Next session — resume note
 
-*Updated 2026-07-04 (Phase 3 OCR benchmark session, commit `df6a7ec`).*
+*Updated 2026-07-04 (PG gap map session, commit `f5b3b69`).*
 
-## → NEXT SESSION: PG gap map (Phase 3 done — see benchmark/RESULTS.md)
-**Phase 3 OCR benchmark is DONE.** `benchmark/RESULTS.md` has the full table + decision rule. Bottom line: **Sonnet 5 for Latin bulk gap-OCR** (1.48% mean CER vs Corpus Corporum TEI, n=13 PL139 columns; Opus 1.54% — no gain; Haiku 32.98%, doesn't recover even pre-cropped). **Greek: do NOT vision-OCR at bulk scale** — Sonnet 8.59% mean (8 of 9 Zenodo pages, one dropped for bad ground truth) doesn't clear the ~2% bar against Calfa's own 1.05% baseline; route Greek gaps through the Calfa pipeline instead.
-Scope note: benchmark ran 13 Latin columns (single volume, PL139) not ~25 across volumes, and skipped Opus on the Greek arm — both logged as deliberate calls in RESULTS.md, not silent shrinkage.
-**Next up:** Phase 2's PG gap map (Calfa 33 vols + First1KGreek inventory vs the PG registry → `data/gap-map.json`), or per-work triage of partial/mixed PL authors. Still-open decisions (Wilson): Joel read-through (two Greek-vs-Latin rulings) + Migne biography read-through — independent of Phase 3/gap-map work.
+## → NEXT SESSION: PG tome→author index, then per-work triage
+**Phase 2 gap map is DONE** (`data/gap-map.json`, commit `f5b3b69`): 33/167 PG tomes are Calfa-covered (5.6M words, real author/word data from `sources/pg/calfa/README.md`); the other 134 default to `status: "gap"` — no known machine-readable transcription, i.e. the legitimate vision-OCR target list.
+**What it deliberately does NOT do:** claim First1KGreek/OGL coverage for specific PG tomes. Research (2026-07-04) confirmed First1KGreek has real transcribed text for Origen, Eusebius, Epiphanius, Hippolytus, Methodius, Theodoret, Gregory of Nazianzus (+ Zonaras/Anna Comnena as later exceptions) — but `data/volumes.json` has **no per-tome author metadata** to match names against (unlike PL, which has `data/cc-pl-index.json`). Carried as `firstOneKCandidateAuthors` checklist in the gap-map, not applied to any tome — didn't want to hand-guess volume ranges from memory into a file future sessions will trust as verified.
+**Next up (pick one):**
+1. **Build a real PG tome→author index** (the PG-side equivalent of `cc-pl-index.json`) — needed before the First1KGreek checklist can actually close any of the 134 gap tomes, and useful for triage generally. Would need a verified source (not memory) — Calfa's own README table + archive.org scan title pages got partial confirmation this session; a fuller pass would need a real per-volume TOC source.
+2. Phase 3 OCR benchmark is done (`benchmark/RESULTS.md`) — Sonnet 5 for Latin bulk gap-OCR (1.48% mean CER), Greek stays on the Calfa pipeline (no Claude model clears ~2% CER).
+3. Per-work triage of partial/mixed PL authors (Phase 4 continuation, unrelated to PG gap map).
+Still-open decisions (Wilson): Joel read-through (two Greek-vs-Latin rulings) + Migne biography read-through — independent of the above.
 
 ## Done 2026-07-04 (this session)
 - **Support tiers now Migne-native Stripe links** (commit `b764b0f`, deployed): were reusing Acta products; created live Wroot Labs products/prices/links — $10 column / $300 work / $10-mo patron, each tagged metadata `project=migne`+`tier`. Old Acta links untouched.
