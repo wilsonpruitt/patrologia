@@ -1,0 +1,2544 @@
+{
+  "generated": "build-pg-tome-index.mjs",
+  "source": {
+    "registry": "data/volumes.json (PG series, 167 tomes)",
+    "search": "data/cache/ia-search-pg.json (archive.org advancedsearch, title:(patrologiae cursus completus graeca), 246 docs)"
+  },
+  "note": "archiveId is the best-matched archive.org item for this tome; description is that item's own catalog description (NOT ours, NOT scraped from third-party sites) — the verified author/content field. creator is always Migne and should not be read as author.",
+  "totals": {
+    "total": 167,
+    "matched": 132,
+    "noCandidate": 35,
+    "metadataFetched": 132,
+    "metadataFailed": 0
+  },
+  "tomes": [
+    {
+      "tome": "001",
+      "status": "matched",
+      "archiveId": "Patrologia_Graeca_vol_001",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologia Graeca vol. 1",
+      "volume": null,
+      "description": "Patrologia Graeca\na Jacques Paul Migne\n1856-1866\nvolumen 1",
+      "creator": "PG",
+      "date": "2009-01-30 08:30:51",
+      "error": null
+    },
+    {
+      "tome": "002",
+      "status": "matched",
+      "archiveId": "Patrologia_Graeca_vol_002",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologia Graeca vol. 2",
+      "volume": null,
+      "description": "Patrologia Graeca\na Jacques Paul Migne\n1856-1866\nvolumen 2",
+      "creator": "PG",
+      "date": "2009-01-31 12:02:15",
+      "error": null
+    },
+    {
+      "tome": "003",
+      "status": "matched",
+      "archiveId": "Patrologia_Graeca_vol_003",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologia Graeca vol. 3",
+      "volume": null,
+      "description": "Patrologia Graeca\na Jacques Paul Migne\n1856-1866\nvolumen 3",
+      "creator": "PG",
+      "date": "2009-01-31 16:20:44",
+      "error": null
+    },
+    {
+      "tome": "004",
+      "status": "matched",
+      "archiveId": "patrologiaecursu04mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "4",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "005",
+      "status": "matched",
+      "archiveId": "patrologiaecurs92migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "5",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "006",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_006_justin_et_al_version1",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_006_justin_et_al_version1\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 6 - Justin and others",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 6, Justin and others, Google Books id iQURAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "007-1",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 7 - Irenaeus - Tomus Unicus",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 7, Irenaeus, Tomus Unicus, Google Books id JwYRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "007-2",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 7 - Irenaeus - Tomus Unicus",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 7, Irenaeus, Tomus Unicus, Google Books id JwYRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "008",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_008_clemens_alexandrinus_1",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_008_clemens_alexandrinus_1\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 8 - Clemens Alexandrinus - Tomus Prior",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 8, Clemens Alexandrinus, Tomus Prior, Google Books id BwcRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "009",
+      "status": "matched",
+      "archiveId": "patrologiaecurs59hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"9\"",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": "9",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "010",
+      "status": "matched",
+      "archiveId": "patrologiaecursu10mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "10",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "011",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_011",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_011\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 11 - Origen 1",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 11, Google Books id qAkRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "012",
+      "status": "matched",
+      "archiveId": "patrologiaecurs11hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"12\"",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": "12",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "013",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_013",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_013\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 13 - Origen 3",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 13, Google Books id LAoRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "014",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_014",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_014\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 14 - Origen 4",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 14, Google Books id hgoRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "015",
+      "status": "matched",
+      "archiveId": "patrologiaecursu15mign",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"15\"",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "15",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "45 52"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "016-1",
+      "status": "matched",
+      "archiveId": "patrologiaecursu161mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "16, Pt. 1",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "016-2",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_016b",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_016b\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 16b - Origen 6b",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 16, Pars Secunda, Google Books id TK6cL2JeCsY",
+      "creator": "Google Books",
+      "date": "1863",
+      "error": null
+    },
+    {
+      "tome": "016-3",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_016c",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_016c\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 16c - Origen 6c",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 16, Pars Tertia, Google Books id mAsRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1860",
+      "error": null
+    },
+    {
+      "tome": "017",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_017",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_017\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 17 - Origen 7",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 17, Google Books id 9wsRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "018",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_018",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_018\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 18",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 18, Google Books id BfMUAAAAQAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "019",
+      "status": "matched",
+      "archiveId": "patrologicursus04migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"19\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "19",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "020",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_020",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_020\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 20 - Eusebius 2",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 20, Google Books id kgwRAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "021",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_021",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_021\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 21 - Eusebius 3",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 21, Google Books id N3jYAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "022",
+      "status": "matched",
+      "archiveId": "patrologicursus48migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"22\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "22",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "023",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_023",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_023\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 23 - Eusebius 5",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 23, Google Books id nnTYAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "024",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_024",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_024\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 24 - Eusebius 6",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 24, Google Books id CbHUAAAAMAAJ<br /><br />",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "025",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_025",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_025\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 25 - Athanasius 1",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 25, Google Books id _A0RAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "026",
+      "status": "matched",
+      "archiveId": "patrologicursus88migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "027",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_027",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_027\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 27 - Athanasius 3",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 27, Google Books id aBJKAAAAcAAJ",
+      "creator": "Google Books",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "028",
+      "status": "matched",
+      "archiveId": "patrologiaecurs130migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "28",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "029",
+      "status": "matched",
+      "archiveId": "patrologicursus22migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"29\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "29",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "030",
+      "status": "matched",
+      "archiveId": "patrologicursus45migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "30",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "031",
+      "status": "matched",
+      "archiveId": "patrologiaecurs37migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "31",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "032",
+      "status": "matched",
+      "archiveId": "patrologicursus52migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"32\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "32",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "033",
+      "status": "matched",
+      "archiveId": "patrologiagraeca33",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae Cursus Completus. Series Graeca. (Volume 33)",
+      "volume": null,
+      "description": "Patrologiae Cursus Completus. Series Graeca. Volume 33. (Migne, Paris: 1886), author of volume: Cyril of Jerusalem",
+      "creator": "Jacques-Paul Migne",
+      "date": null,
+      "error": null
+    },
+    {
+      "tome": "034",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_034",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_034\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 34",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 34, Google Books id cxNKAAAAcAAJ",
+      "creator": "Google Books",
+      "date": "1860",
+      "error": null
+    },
+    {
+      "tome": "035",
+      "status": "matched",
+      "archiveId": "patrologicursus05migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"35\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "35",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "036",
+      "status": "matched",
+      "archiveId": "patrologiaecursu36mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "36",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "037",
+      "status": "matched",
+      "archiveId": "patrologiaecursu37mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"37\"",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "37",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "038",
+      "status": "matched",
+      "archiveId": "patrologiaecursu38mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "38",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "039",
+      "status": "matched",
+      "archiveId": "patrologicursus114migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"39\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "39",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques-Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "040",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_040",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_040\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 40",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 40, Google Books id CG7hFvYTkcgC",
+      "creator": "Google Books",
+      "date": "1858",
+      "error": null
+    },
+    {
+      "tome": "041",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_041",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_041\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 41",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 41, Google Books id bnXTDGK6vgwC",
+      "creator": "Google Books",
+      "date": "1863",
+      "error": null
+    },
+    {
+      "tome": "042",
+      "status": "matched",
+      "archiveId": "patrologicursus101migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"42\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "42",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "043",
+      "status": "matched",
+      "archiveId": "patrologicursus96migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"43\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "43",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "044",
+      "status": "matched",
+      "archiveId": "patrologicursus72migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"44\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "44",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "045",
+      "status": "matched",
+      "archiveId": "patrologiaecursu45mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"45\"",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "45",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "046",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_046",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_046\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 46",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 46, Google Books id lITYAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1863",
+      "error": null
+    },
+    {
+      "tome": "047",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_047",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_047\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 47",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 47, Google Books id I4XYAAAAMAAJ<br />",
+      "creator": "Google Books",
+      "date": "1863",
+      "error": null
+    },
+    {
+      "tome": "048",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_048",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_048\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 48",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 48, Google Books id yofYAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1842",
+      "error": null
+    },
+    {
+      "tome": "049",
+      "status": "matched",
+      "archiveId": "patrologicursus15migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"49\"",
+      "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum, doctorum, scriptorumque ...",
+      "volume": "49",
+      "description": "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+      "creator": "Jacques Paul Migne",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "050",
+      "status": "matched",
+      "archiveId": "patrologicursusc0050unse",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"50\"",
+      "title": "Patrologiæ cursus completus Series Græca omnium ss. patrum doctorum scriptorumque 1905 Volume 50 1862 [Hardcover]",
+      "volume": "50",
+      "description": null,
+      "creator": "Various",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "051",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_051",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_051\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 51",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 51, Google Books id lbnUAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "052",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_052",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_052\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 52",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 52, Google Books id ZxTRFqx9Y3sC",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "053",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_053",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_053\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 53",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 53, Google Books id 0E8wAAAAYAAJ",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "054",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_054",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_054\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 54",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 54, Google Books id JdFWyt_VZYQC",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "055",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_055",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_055\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 55",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 55, Google Books id q4rYAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "056",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_056",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_056\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 56",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 56, Google Books id WrrUAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1859",
+      "error": null
+    },
+    {
+      "tome": "057",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_057_chrysostom_matthew",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_057_chrysostom_matthew\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 57 - Chrysostom on Matthew (1)",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 57, John Chrysostom Homilies on Matthew (1), Google Books id gGlWx999VswC",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "058",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_058_chrysostom_matthew_homilies_2",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_058_chrysostom_matthew_homilies_2\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 58 - Chrysostom on Matthew (2)",
+      "volume": null,
+      "description": [
+        "<span class=\"x-archive-meta-description editable_autogrow\">Migne, Patrologiae Cursus Completus, Series Graeca, Volume 58, John Chrysostom Homilies on Matthew (2), Google Books id 9DW_5WWF0osC<br /></span>",
+        "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 58, John Chrysostom Homilies on Matthew (2), Google Books id 9DW_5WWF0osC"
+      ],
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "059",
+      "status": "matched",
+      "archiveId": "patrologicursus67migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"59\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "59",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "060",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_060",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_060\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 60",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 60, Google Books id lHsQYhPAYZgC",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "061",
+      "status": "matched",
+      "archiveId": "patrologicursus28migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"61\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "61",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "062",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_062",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_062\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 62",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 62, Google Books id pBFKAAAAcAAJ",
+      "creator": "Google Books",
+      "date": "1860",
+      "error": null
+    },
+    {
+      "tome": "063",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_063",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_063\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 63",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 63, Google Books id Zga4BQtGhXkC",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "064",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_064",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_064\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 64",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 64, Google Books id u2GX4XY6nZMC",
+      "creator": "Google Books",
+      "date": "1862",
+      "error": null
+    },
+    {
+      "tome": "065",
+      "status": "matched",
+      "archiveId": "patrologicursus49migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"65\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "65",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "066",
+      "status": "matched",
+      "archiveId": "patrologiaecursu66mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"66\"",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "66",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "067",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "068",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "069",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "070",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_070",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_070\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 70",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 70, Google Books id qBJKAAAAcAAJ<br />",
+      "creator": "Google Books",
+      "date": "1859",
+      "error": null
+    },
+    {
+      "tome": "071",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "072",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "073",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "074",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "075",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "076",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "077",
+      "status": "matched",
+      "archiveId": "patrologicursus08migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"77\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "77",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "078",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "079",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "080",
+      "status": "matched",
+      "archiveId": "patrologiaecurs143unkngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"80\"",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": "80",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "081",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_081",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_081\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 81",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 81, Google Books id RJHYAAAAMAAJ",
+      "creator": "Google Books",
+      "date": "1864",
+      "error": null
+    },
+    {
+      "tome": "082",
+      "status": "matched",
+      "archiveId": "patrologiaecurs46migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": null,
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "083",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_083",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_083\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 83",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 83, Google Books id 6xBKAAAAcAAJ",
+      "creator": "Google Books",
+      "date": "1859",
+      "error": null
+    },
+    {
+      "tome": "084",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_084",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_084\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 84",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 84, Google Books id JRFKAAAAcAAJ",
+      "creator": "Google Books",
+      "date": "1860",
+      "error": null
+    },
+    {
+      "tome": "085",
+      "status": "matched",
+      "archiveId": "patrologicursus79migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"85\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "85",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques-Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "086-1",
+      "status": "matched",
+      "archiveId": "patrologiaecurs129unkngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"86\"",
+      "title": "Patrologiae cursus completus, sive bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum qui ab aevo apostolico ad aetatem Innocentii III (Ann. 1216) pro Latinis et ad Photii tempora (Ann. 863) pro graecis floruerunt ... Series Graeca, in qua prodeunt patres, doctores scriptoresque ecclesiae Graecae A.S. Barnaba ad Photium",
+      "volume": "86",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875, compiler",
+      "date": "[197-?]",
+      "error": null
+    },
+    {
+      "tome": "086-2",
+      "status": "matched",
+      "archiveId": "patrologiaecurs129unkngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"86\"",
+      "title": "Patrologiae cursus completus, sive bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum qui ab aevo apostolico ad aetatem Innocentii III (Ann. 1216) pro Latinis et ad Photii tempora (Ann. 863) pro graecis floruerunt ... Series Graeca, in qua prodeunt patres, doctores scriptoresque ecclesiae Graecae A.S. Barnaba ad Photium",
+      "volume": "86",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875, compiler",
+      "date": "[197-?]",
+      "error": null
+    },
+    {
+      "tome": "087-1",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_087_1",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_087_1\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 87 - Part 1",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 87 part 1, Google Books id CMcUAAAAQAAJ",
+      "creator": "Google Books",
+      "date": "1860",
+      "error": null
+    },
+    {
+      "tome": "087-2",
+      "status": "matched",
+      "archiveId": "patrologiae_cursus_completus_gr_vol_087_1",
+      "matchConfidence": "high",
+      "matchSignal": "identifier \"patrologiae_cursus_completus_gr_vol_087_1\"",
+      "title": "Patrologiae Cursus Completus - Series Graeca - Volume 87 - Part 1",
+      "volume": null,
+      "description": "Migne, Patrologiae Cursus Completus, Series Graeca, Volume 87 part 1, Google Books id CMcUAAAAQAAJ",
+      "creator": "Google Books",
+      "date": "1860",
+      "error": null
+    },
+    {
+      "tome": "087-3",
+      "status": "matched",
+      "archiveId": "patrologicursus97migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"87, pt. 3\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "87, pt. 3",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "088",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "089",
+      "status": "matched",
+      "archiveId": "patrologicursus105migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"89\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "89",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "090",
+      "status": "matched",
+      "archiveId": "patrologicursus55migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "091",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "092",
+      "status": "matched",
+      "archiveId": "patrologiaecurs266unkngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"92\"",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": "92",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "093",
+      "status": "matched",
+      "archiveId": "patrologiaecursu93mignuoft",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"93\"",
+      "title": "Patrologiae cursus completus... Series graeca... Accurante J.P. Migne",
+      "volume": "93",
+      "description": [
+        "t. 3-4. S. Dionysius Areopagita.--t. 6. S. Justinus philosophus et martyr, Tatianus, Athenagoras Atheniensis, S. Theophilus Antiochenus, Hermias.--t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii.--t. 15. Origenis.--t. 16. Origenis (3 pts).--t. 35-38. S. Gregorius Nazianzenus.--t. 44-46. S. Gregorius Nyssenus.--t. 65. S. Proclus, S. Atticus, S. Flavianus Cp., Severianus Gabalitanus, Theophilus Alexandrinus; alii.--t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius.--t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus",
+        "26"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "094",
+      "status": "matched",
+      "archiveId": "patrologiaecurs62migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": null,
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "095",
+      "status": "matched",
+      "archiveId": "patrologicursus50migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "096",
+      "status": "matched",
+      "archiveId": "patrologicursus54migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"96\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "96",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "097",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "098",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "099",
+      "status": "matched",
+      "archiveId": "patrologicursus60migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "100",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "101",
+      "status": "matched",
+      "archiveId": "patrologicursus29migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"101\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "101",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "102",
+      "status": "matched",
+      "archiveId": "patrologiaecurs11migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": null,
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "103",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "104",
+      "status": "matched",
+      "archiveId": "patrologiaecurs128migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": "104",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "105",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "106",
+      "status": "matched",
+      "archiveId": "patrologiaecurs67migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "106",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "107",
+      "status": "matched",
+      "archiveId": "patrologicursus16migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"107\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "107",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "108",
+      "status": "matched",
+      "archiveId": "patrologicursus56migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"108\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "108",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "109",
+      "status": "matched",
+      "archiveId": "patrologicursus12migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "109",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "110",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "111",
+      "status": "matched",
+      "archiveId": "epistolai00eutygoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Epistolai",
+      "volume": "111",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "1236 columns ; 28 cm",
+        "At head of title: Traditio Catholica, sæculum X, anni 925-956",
+        "Greek and Latin",
+        "Includes bibliographical references and indexes"
+      ],
+      "creator": "Nikolaos I, Mystikos, Saint, Patriarch of Constantinople, 852-925",
+      "date": "1863",
+      "error": null
+    },
+    {
+      "tome": "112",
+      "status": "matched",
+      "archiveId": "patrologiaecurs82migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "112",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "113",
+      "status": "matched",
+      "archiveId": "patrologiaecurs70migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": null,
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "114",
+      "status": "matched",
+      "archiveId": "patrologiaecurs125migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "114",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "115",
+      "status": "matched",
+      "archiveId": "patrologiaecurs49migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "115",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "116",
+      "status": "matched",
+      "archiveId": "patrologicursus06migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "116",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "117",
+      "status": "matched",
+      "archiveId": "patrologicursus80migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "118",
+      "status": "matched",
+      "archiveId": "patrologiaecurs14migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "118",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "119",
+      "status": "matched",
+      "archiveId": "patrologiaecurs106migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "119",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "120",
+      "status": "matched",
+      "archiveId": "patrologicursus17migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"120\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "120",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "121",
+      "status": "matched",
+      "archiveId": "patrologiaecurs15migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "121",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "122",
+      "status": "matched",
+      "archiveId": "patrologiaecurs61migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "122",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "123",
+      "status": "matched",
+      "archiveId": "patrologicursus03migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"123\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "123",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "124",
+      "status": "matched",
+      "archiveId": "patrologicursus37migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"124\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "124",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "125",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "126",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "127",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "128",
+      "status": "matched",
+      "archiveId": "patrologiaecurs261unkngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "t.128",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "129",
+      "status": "matched",
+      "archiveId": "patrologicursus62migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "129",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "130",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "131",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "132",
+      "status": "matched",
+      "archiveId": "patrologicursus40migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"132\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "132",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "133",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "134",
+      "status": "matched",
+      "archiveId": "patrologicursus68migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"134\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "134",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "135",
+      "status": "matched",
+      "archiveId": "patrologiaecurs26migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "135",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "136",
+      "status": "matched",
+      "archiveId": "patrologiaecurs26hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "136",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "137",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "138",
+      "status": "matched",
+      "archiveId": "patrologiaecurs31hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "138",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "139",
+      "status": "matched",
+      "archiveId": "patrologiaecurs63migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "139",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "140",
+      "status": "matched",
+      "archiveId": "patrologiaecurs90migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "140",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "141",
+      "status": "matched",
+      "archiveId": "patrologiaecurs45hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "141",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "142",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "143",
+      "status": "matched",
+      "archiveId": "patrologiaecurs14hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "143",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "144",
+      "status": "matched",
+      "archiveId": "patrologiaecurs123unkngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"144\"",
+      "title": "Patrologiae cursus completus, sive bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum qui ab aevo apostolico ad aetatem Innocentii III (Ann. 1216) pro Latinis et ad Photii tempora (Ann. 863) pro graecis floruerunt ... Series Graeca, in qua prodeunt patres, doctores scriptoresque ecclesiae Graecae A.S. Barnaba ad Photium",
+      "volume": "144",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875, compiler",
+      "date": "[197-?]",
+      "error": null
+    },
+    {
+      "tome": "145",
+      "status": "matched",
+      "archiveId": "patrologicursus11migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "146",
+      "status": "matched",
+      "archiveId": "patrologicursus71migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"146\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "146",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "147",
+      "status": "matched",
+      "archiveId": "patrologicursus46migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"147\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "147",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "148",
+      "status": "matched",
+      "archiveId": "patrologicursus35migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"148\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "148",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "149",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "150",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "151",
+      "status": "matched",
+      "archiveId": "patrologiaecurs45migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": null,
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "152",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "153",
+      "status": "matched",
+      "archiveId": "patrologiaecurs36hopfgoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"153\"",
+      "title": "Patrologiae cursus completus : seu bibliotheca universalis, integra, uniformis, commoda, oeconomica, omnium SS. Patrum, doctorum scriptorumque ecclesiasticorum, sive latinorum, sive graecorum, qui ab aevo apostolico ad tempora Innocentii III (anno 1216) pro latinis et ad concilii Florentini tempora (ann. 1439) pro graecis floruerunt. Series graeca, in quo prodeunt patres, doctores scriptoresque ecclesiae graecae a S. Barnaba ad Bessarionem",
+      "volume": "153",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "Subtitle varies slightly",
+        "Greek and Latin in alternate columns",
+        "Mode of access: Internet"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "154",
+      "status": "matched",
+      "archiveId": "patrologicursus14migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": null,
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "155",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "156",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "157",
+      "status": "matched",
+      "archiveId": "patrologicursus98migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volume field \"157\"",
+      "title": "Patrologiæ cursus completus [Series Græca] : ... omnium ss. patrum, doctorum, scriptorumque ecclasiasticorum sive Latinorum sive Græcorum ...",
+      "volume": "157",
+      "description": [
+        "Book digitized by Google and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 167 ; 28 cm",
+        "Each vol. has also special t.p",
+        "Some vols. have subtitle: Series Latina [i.e. Græca] (v.9), Series Græca prior, or Series Græca posterior",
+        "Some vols. have additional subtitle: Patrologiæ Græcæ (v.8 : Patrologiæ Latinæ [i.e. Græcæ] or Patrologiæ Græco-Latinæ",
+        "Includes various printings, some by other publishers, chiefly J.-P. Migne, Paris",
+        "Greek and Latin in opposite columns",
+        "Vol. 161 with: Indices / digessit Fernandus Cavallera. -- 1912. 218 columns"
+      ],
+      "creator": "Jacques Paul Migne",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "158",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "159",
+      "status": "matched",
+      "archiveId": "patrologiaecurs86migngoog",
+      "matchConfidence": "high",
+      "matchSignal": "volumes.json registry link",
+      "title": "Patrologiae cursus completus ; omnium SS patrum, doctorum scriptorumque ecclesiasticorum",
+      "volume": "159",
+      "description": [
+        "Book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by user tpb.",
+        "161 volumes in 166. 28 cm",
+        "Greek and Latin in alternate columns",
+        "Each vol. also has special t.p",
+        "Includes index edited by Theodor Hopfner",
+        "Microfiche. Washington, Microcard Foundation, 2594 sheets. 8 x 13 cm",
+        "s 1961 n"
+      ],
+      "creator": "Migne, J.-P. (Jacques-Paul), 1800-1875",
+      "date": "1857",
+      "error": null
+    },
+    {
+      "tome": "160",
+      "status": "no-candidate",
+      "archiveId": null
+    },
+    {
+      "tome": "161",
+      "status": "no-candidate",
+      "archiveId": null
+    }
+  ]
+}

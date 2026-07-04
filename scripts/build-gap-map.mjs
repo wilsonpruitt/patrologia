@@ -12,16 +12,16 @@
 //   gap      — no known machine-readable transcription. DEFAULT for anything
 //              not in the calfa list.
 //
-// What this does NOT do (see RESULTS/summary for why): claim specific
-// First1KGreek/OGL volume matches. First1KGreek was verified (2026-07-04
-// research pass) to hold real transcribed text for Origen, Eusebius,
-// Epiphanius, Hippolytus, Methodius, Theodoret, and Gregory of Nazianzus
-// among early authors, plus Zonaras and Anna Comnena as later exceptions —
-// but data/volumes.json carries NO per-volume author metadata (unlike PL's
-// cc-pl-index.json), so mapping those author names to exact PG tome numbers
-// without fabricating a lookup table needs a dedicated verification pass,
-// not done here. `firstOneKCandidateAuthors` is carried as a checklist for
-// that follow-up, not applied to any volume.
+// First1KGreek/OGL checklist: verified (2026-07-04 research pass) to hold
+// real transcribed text for Origen, Eusebius, Epiphanius, Hippolytus,
+// Methodius, Theodoret, and Gregory of Nazianzus among early authors, plus
+// Zonaras and Anna Comnena as later exceptions. As of the 2026-07-04 tome-
+// author index (data/pg-tome-authors.json, built from archive.org's own
+// per-item catalog descriptions — see scripts/build-pg-tome-index.mjs +
+// resolve-pg-authors.mjs), this is now cross-checked against REAL tome
+// numbers where the archive.org record resolves cleanly; authors not found
+// below still need a dedicated search pass before being applied to any
+// tome (see firstOneKCandidateAuthors.stillUnconfirmed).
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -30,6 +30,12 @@ const root = path.join(import.meta.dirname, '..');
 
 const volumes = JSON.parse(fs.readFileSync(path.join(root, 'data/volumes.json'), 'utf8'));
 const pgTomes = volumes.volumes.filter(v => v.series === 'PG').map(v => v.tome);
+
+const pgAuthorsPath = path.join(root, 'data/pg-tome-authors.json');
+const pgAuthors = fs.existsSync(pgAuthorsPath)
+  ? JSON.parse(fs.readFileSync(pgAuthorsPath, 'utf8'))
+  : null;
+const pgAuthorByTome = new Map((pgAuthors?.tomes || []).filter(t => t.author).map(t => [t.tome, t]));
 
 const readme = fs.readFileSync(path.join(root, 'sources/pg/calfa/README.md'), 'utf8');
 const calfaRows = [...readme.matchAll(/^\|\s*([\d.]+)\s*\|\s*([^|]+)\|\s*([^|]+)\|\s*\[[^\]]+\]\(([^)]+)\)\s*\|\s*([\d,]+)\s*\|$/gm)]
@@ -63,13 +69,35 @@ const gapMap = {
     registry: 'data/volumes.json (PG series, 167 tomes incl. sub-parts)',
     calfa: 'sources/pg/calfa/README.md (33 vols table)',
   },
-  totals: { registryTomes: pgTomes.length, calfaCoveredTomes: 0, gapTomes: 0, calfaWords: 0 },
+  totals: { registryTomes: pgTomes.length, calfaCoveredTomes: 0, gapTomes: 0, calfaWords: 0, gapTomesWithAuthor: 0 },
   firstOneKCandidateAuthors: {
-    note: 'Verified present in First1KGreek/canonical-greekLit repos (2026-07-04 research pass) but NOT mapped to specific PG tome numbers here — data/volumes.json has no per-tome author metadata to match against. Follow-up: build a real PG tome->author index (analogous to data/cc-pl-index.json for PL) before applying this list.',
-    authors: ['Origen', 'Eusebius of Caesarea', 'Epiphanius of Salamis', 'Hippolytus', 'Methodius of Olympus', 'Theodoret of Cyrus', 'Gregory of Nazianzus', 'John Zonaras (already Calfa-covered, PG 134)', 'Anna Comnena (PG volume unconfirmed)'],
+    note: 'Checklist authors verified present in First1KGreek/canonical-greekLit (2026-07-04 research pass). confirmedTomes below is computed from data/pg-tome-authors.json (archive.org catalog descriptions, per-tome — not memory, not scraped). stillUnconfirmed authors have no tome match yet; do not apply First1KGreek to them without a dedicated search pass.',
+    authors: [],
+    stillUnconfirmed: [],
   },
   volumes: [],
 };
+
+const CHECKLIST_AUTHORS = [
+  { name: 'Origen', match: /origen/i },
+  { name: 'Eusebius of Caesarea', match: /eusebius/i },
+  { name: 'Epiphanius of Salamis', match: /epiphanius/i },
+  { name: 'Hippolytus', match: /hippolytus/i },
+  { name: 'Methodius of Olympus', match: /methodius/i },
+  { name: 'Theodoret of Cyrus', match: /theodoret/i },
+  { name: 'Gregory of Nazianzus', match: /gregori?us nazianz/i },
+  { name: 'John Zonaras (already Calfa-covered, PG 134)', match: /zonaras/i },
+  { name: 'Anna Comnena (PG volume unconfirmed)', match: /comnena/i },
+];
+
+for (const { name, match } of CHECKLIST_AUTHORS) {
+  const tomes = [...pgAuthorByTome.entries()].filter(([, v]) => match.test(v.author)).map(([t]) => t);
+  if (tomes.length) {
+    gapMap.firstOneKCandidateAuthors.authors.push({ name, confirmedTomes: tomes });
+  } else {
+    gapMap.firstOneKCandidateAuthors.stillUnconfirmed.push(name);
+  }
+}
 
 for (const tome of pgTomes) {
   const calfa = calfaByTome.get(tome);
@@ -85,13 +113,17 @@ for (const tome of pgTomes) {
     gapMap.totals.calfaCoveredTomes++;
     gapMap.totals.calfaWords += calfa.words;
   } else {
+    const authorHit = pgAuthorByTome.get(tome);
     gapMap.volumes.push({
       tome,
       status: 'gap',
-      author: null,
-      confidence: 'default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)',
+      author: authorHit?.author || null,
+      confidence: authorHit
+        ? `${authorHit.confidence} — sourced from data/pg-tome-authors.json (${authorHit.evidence})`
+        : 'default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)',
     });
     gapMap.totals.gapTomes++;
+    if (authorHit) gapMap.totals.gapTomesWithAuthor++;
     unmatched++;
   }
 }

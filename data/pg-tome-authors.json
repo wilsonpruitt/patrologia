@@ -1,0 +1,1015 @@
+{
+  "generated": "resolve-pg-authors.mjs",
+  "source": "data/pg-tome-index.json",
+  "totals": {
+    "total": 167,
+    "withAuthor": 30,
+    "highConfidence": 20,
+    "mediumConfidence": 10,
+    "none": 137
+  },
+  "tomes": [
+    {
+      "tome": "001",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched Patrologia_Graeca_vol_001 but no author signal in its title/description"
+    },
+    {
+      "tome": "002",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched Patrologia_Graeca_vol_002 but no author signal in its title/description"
+    },
+    {
+      "tome": "003",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched Patrologia_Graeca_vol_003 but no author signal in its title/description"
+    },
+    {
+      "tome": "004",
+      "author": "S. Dionysius Areopagita",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 3-4. S. Dionysius Areopagita\" in patrologiaecursu04mignuoft's description"
+    },
+    {
+      "tome": "005",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs92migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "006",
+      "author": "Justin and others",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 6 - Justin and others\" (patrologiae_cursus_completus_gr_vol_006_justin_et_al_version1)"
+    },
+    {
+      "tome": "007-1",
+      "author": "Irenaeus - Tomus Unicus",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 7 - Irenaeus - Tomus Unicus\" (patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus)"
+    },
+    {
+      "tome": "007-2",
+      "author": "Irenaeus - Tomus Unicus",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 7 - Irenaeus - Tomus Unicus\" (patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus)"
+    },
+    {
+      "tome": "008",
+      "author": "Clemens Alexandrinus - Tomus Prior",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 8 - Clemens Alexandrinus - Tomus Prior\" (patrologiae_cursus_completus_gr_vol_008_clemens_alexandrinus_1)"
+    },
+    {
+      "tome": "009",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs59hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "010",
+      "author": "Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii\" in patrologiaecursu10mignuoft's description"
+    },
+    {
+      "tome": "011",
+      "author": "Origen 1",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 11 - Origen 1\" (patrologiae_cursus_completus_gr_vol_011)"
+    },
+    {
+      "tome": "012",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs11hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "013",
+      "author": "Origen 3",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 13 - Origen 3\" (patrologiae_cursus_completus_gr_vol_013)"
+    },
+    {
+      "tome": "014",
+      "author": "Origen 4",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 14 - Origen 4\" (patrologiae_cursus_completus_gr_vol_014)"
+    },
+    {
+      "tome": "015",
+      "author": "Origenis",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 15. Origenis\" in patrologiaecursu15mign's description"
+    },
+    {
+      "tome": "016-1",
+      "author": "Origenis (3 pts)",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 16. Origenis (3 pts)\" in patrologiaecursu161mignuoft's description"
+    },
+    {
+      "tome": "016-2",
+      "author": "Origen 6b",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 16b - Origen 6b\" (patrologiae_cursus_completus_gr_vol_016b)"
+    },
+    {
+      "tome": "016-3",
+      "author": "Origen 6c",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 16c - Origen 6c\" (patrologiae_cursus_completus_gr_vol_016c)"
+    },
+    {
+      "tome": "017",
+      "author": "Origen 7",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 17 - Origen 7\" (patrologiae_cursus_completus_gr_vol_017)"
+    },
+    {
+      "tome": "018",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_018 but no author signal in its title/description"
+    },
+    {
+      "tome": "019",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus04migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "020",
+      "author": "Eusebius 2",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 20 - Eusebius 2\" (patrologiae_cursus_completus_gr_vol_020)"
+    },
+    {
+      "tome": "021",
+      "author": "Eusebius 3",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 21 - Eusebius 3\" (patrologiae_cursus_completus_gr_vol_021)"
+    },
+    {
+      "tome": "022",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus48migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "023",
+      "author": "Eusebius 5",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 23 - Eusebius 5\" (patrologiae_cursus_completus_gr_vol_023)"
+    },
+    {
+      "tome": "024",
+      "author": "Eusebius 6",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 24 - Eusebius 6\" (patrologiae_cursus_completus_gr_vol_024)"
+    },
+    {
+      "tome": "025",
+      "author": "Athanasius 1",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 25 - Athanasius 1\" (patrologiae_cursus_completus_gr_vol_025)"
+    },
+    {
+      "tome": "026",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus88migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "027",
+      "author": "Athanasius 3",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 27 - Athanasius 3\" (patrologiae_cursus_completus_gr_vol_027)"
+    },
+    {
+      "tome": "028",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs130migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "029",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus22migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "030",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus45migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "031",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs37migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "032",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus52migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "033",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiagraeca33 but no author signal in its title/description"
+    },
+    {
+      "tome": "034",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_034 but no author signal in its title/description"
+    },
+    {
+      "tome": "035",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus05migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "036",
+      "author": "S. Gregorius Nazianzenus",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 35-38. S. Gregorius Nazianzenus\" in patrologiaecursu36mignuoft's description"
+    },
+    {
+      "tome": "037",
+      "author": "S. Gregorius Nazianzenus",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 35-38. S. Gregorius Nazianzenus\" in patrologiaecursu37mignuoft's description"
+    },
+    {
+      "tome": "038",
+      "author": "S. Gregorius Nazianzenus",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 35-38. S. Gregorius Nazianzenus\" in patrologiaecursu38mignuoft's description"
+    },
+    {
+      "tome": "039",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus114migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "040",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_040 but no author signal in its title/description"
+    },
+    {
+      "tome": "041",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_041 but no author signal in its title/description"
+    },
+    {
+      "tome": "042",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus101migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "043",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus96migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "044",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus72migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "045",
+      "author": "S. Gregorius Nyssenus",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 44-46. S. Gregorius Nyssenus\" in patrologiaecursu45mignuoft's description"
+    },
+    {
+      "tome": "046",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_046 but no author signal in its title/description"
+    },
+    {
+      "tome": "047",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_047 but no author signal in its title/description"
+    },
+    {
+      "tome": "048",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_048 but no author signal in its title/description"
+    },
+    {
+      "tome": "049",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus15migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "050",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursusc0050unse but no author signal in its title/description"
+    },
+    {
+      "tome": "051",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_051 but no author signal in its title/description"
+    },
+    {
+      "tome": "052",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_052 but no author signal in its title/description"
+    },
+    {
+      "tome": "053",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_053 but no author signal in its title/description"
+    },
+    {
+      "tome": "054",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_054 but no author signal in its title/description"
+    },
+    {
+      "tome": "055",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_055 but no author signal in its title/description"
+    },
+    {
+      "tome": "056",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_056 but no author signal in its title/description"
+    },
+    {
+      "tome": "057",
+      "author": "Chrysostom on Matthew (1)",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 57 - Chrysostom on Matthew (1)\" (patrologiae_cursus_completus_gr_vol_057_chrysostom_matthew)"
+    },
+    {
+      "tome": "058",
+      "author": "Chrysostom on Matthew (2)",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 58 - Chrysostom on Matthew (2)\" (patrologiae_cursus_completus_gr_vol_058_chrysostom_matthew_homilies_2)"
+    },
+    {
+      "tome": "059",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus67migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "060",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_060 but no author signal in its title/description"
+    },
+    {
+      "tome": "061",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus28migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "062",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_062 but no author signal in its title/description"
+    },
+    {
+      "tome": "063",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_063 but no author signal in its title/description"
+    },
+    {
+      "tome": "064",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_064 but no author signal in its title/description"
+    },
+    {
+      "tome": "065",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus49migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "066",
+      "author": "Synesius episc., Theodorus Mopsuestenus, S. Arsenius",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius\" in patrologiaecursu66mignuoft's description"
+    },
+    {
+      "tome": "067",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "068",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "069",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "070",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_070 but no author signal in its title/description"
+    },
+    {
+      "tome": "071",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "072",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "073",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "074",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "075",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "076",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "077",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus08migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "078",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "079",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "080",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs143unkngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "081",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_081 but no author signal in its title/description"
+    },
+    {
+      "tome": "082",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs46migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "083",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_083 but no author signal in its title/description"
+    },
+    {
+      "tome": "084",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiae_cursus_completus_gr_vol_084 but no author signal in its title/description"
+    },
+    {
+      "tome": "085",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus79migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "086-1",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs129unkngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "086-2",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs129unkngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "087-1",
+      "author": "Part 1",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 87 - Part 1\" (patrologiae_cursus_completus_gr_vol_087_1)"
+    },
+    {
+      "tome": "087-2",
+      "author": "Part 1",
+      "confidence": "high",
+      "evidence": "archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 87 - Part 1\" (patrologiae_cursus_completus_gr_vol_087_1)"
+    },
+    {
+      "tome": "087-3",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus97migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "088",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "089",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus105migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "090",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus55migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "091",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "092",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs266unkngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "093",
+      "author": "Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus 26",
+      "confidence": "medium",
+      "evidence": "catalog TOC note \"t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus 26\" in patrologiaecursu93mignuoft's description"
+    },
+    {
+      "tome": "094",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs62migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "095",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus50migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "096",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus54migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "097",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "098",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "099",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus60migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "100",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "101",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus29migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "102",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs11migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "103",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "104",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs128migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "105",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "106",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs67migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "107",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus16migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "108",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus56migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "109",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus12migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "110",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "111",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched epistolai00eutygoog but no author signal in its title/description"
+    },
+    {
+      "tome": "112",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs82migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "113",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs70migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "114",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs125migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "115",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs49migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "116",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus06migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "117",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus80migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "118",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs14migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "119",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs106migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "120",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus17migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "121",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs15migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "122",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs61migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "123",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus03migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "124",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus37migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "125",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "126",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "127",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "128",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs261unkngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "129",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus62migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "130",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "131",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "132",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus40migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "133",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "134",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus68migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "135",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs26migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "136",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs26hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "137",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "138",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs31hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "139",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs63migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "140",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs90migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "141",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs45hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "142",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "143",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs14hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "144",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs123unkngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "145",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus11migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "146",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus71migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "147",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus46migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "148",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus35migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "149",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "150",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "151",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs45migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "152",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "153",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs36hopfgoog but no author signal in its title/description"
+    },
+    {
+      "tome": "154",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus14migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "155",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "156",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "157",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologicursus98migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "158",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "159",
+      "author": null,
+      "confidence": "none",
+      "evidence": "matched patrologiaecurs86migngoog but no author signal in its title/description"
+    },
+    {
+      "tome": "160",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    },
+    {
+      "tome": "161",
+      "author": null,
+      "confidence": "none",
+      "evidence": "no archive.org candidate matched"
+    }
+  ]
+}

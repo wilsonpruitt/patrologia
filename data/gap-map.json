@@ -8,18 +8,53 @@
     "registryTomes": 167,
     "calfaCoveredTomes": 33,
     "gapTomes": 134,
-    "calfaWords": 5605015
+    "calfaWords": 5605015,
+    "gapTomesWithAuthor": 25
   },
   "firstOneKCandidateAuthors": {
-    "note": "Verified present in First1KGreek/canonical-greekLit repos (2026-07-04 research pass) but NOT mapped to specific PG tome numbers here — data/volumes.json has no per-tome author metadata to match against. Follow-up: build a real PG tome->author index (analogous to data/cc-pl-index.json for PL) before applying this list.",
+    "note": "Checklist authors verified present in First1KGreek/canonical-greekLit (2026-07-04 research pass). confirmedTomes below is computed from data/pg-tome-authors.json (archive.org catalog descriptions, per-tome — not memory, not scraped). stillUnconfirmed authors have no tome match yet; do not apply First1KGreek to them without a dedicated search pass.",
     "authors": [
-      "Origen",
-      "Eusebius of Caesarea",
+      {
+        "name": "Origen",
+        "confirmedTomes": [
+          "011",
+          "013",
+          "014",
+          "015",
+          "016-1",
+          "016-2",
+          "016-3",
+          "017"
+        ]
+      },
+      {
+        "name": "Eusebius of Caesarea",
+        "confirmedTomes": [
+          "020",
+          "021",
+          "023",
+          "024"
+        ]
+      },
+      {
+        "name": "Hippolytus",
+        "confirmedTomes": [
+          "010"
+        ]
+      },
+      {
+        "name": "Gregory of Nazianzus",
+        "confirmedTomes": [
+          "036",
+          "037",
+          "038"
+        ]
+      }
+    ],
+    "stillUnconfirmed": [
       "Epiphanius of Salamis",
-      "Hippolytus",
       "Methodius of Olympus",
       "Theodoret of Cyrus",
-      "Gregory of Nazianzus",
       "John Zonaras (already Calfa-covered, PG 134)",
       "Anna Comnena (PG volume unconfirmed)"
     ]
@@ -29,13 +64,13 @@
       "tome": "001",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "002",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "003",
@@ -48,8 +83,8 @@
     {
       "tome": "004",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "S. Dionysius Areopagita",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 3-4. S. Dionysius Areopagita\" in patrologiaecursu04mignuoft's description)"
     },
     {
       "tome": "005",
@@ -70,14 +105,14 @@
     {
       "tome": "007-1",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Irenaeus - Tomus Unicus",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 7 - Irenaeus - Tomus Unicus\" (patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus))"
     },
     {
       "tome": "007-2",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Irenaeus - Tomus Unicus",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 7 - Irenaeus - Tomus Unicus\" (patrologiae_cursus_completus_gr_vol_007_irenaeus_tomus_unicus))"
     },
     {
       "tome": "008",
@@ -98,50 +133,50 @@
     {
       "tome": "010",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 10. Romani pontifices saeculi iv ineuntis, S. Gregorius Thaumaturgus, S. Hippolytus Portuensis, Dionysius Alexandrinus, Julius Africanus, alii\" in patrologiaecursu10mignuoft's description)"
     },
     {
       "tome": "011",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origen 1",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 11 - Origen 1\" (patrologiae_cursus_completus_gr_vol_011))"
     },
     {
       "tome": "012",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "013",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origen 3",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 13 - Origen 3\" (patrologiae_cursus_completus_gr_vol_013))"
     },
     {
       "tome": "014",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origen 4",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 14 - Origen 4\" (patrologiae_cursus_completus_gr_vol_014))"
     },
     {
       "tome": "015",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origenis",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 15. Origenis\" in patrologiaecursu15mign's description)"
     },
     {
       "tome": "016-1",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origenis (3 pts)",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 16. Origenis (3 pts)\" in patrologiaecursu161mignuoft's description)"
     },
     {
       "tome": "016-2",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origen 6b",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 16b - Origen 6b\" (patrologiae_cursus_completus_gr_vol_016b))"
     },
     {
       "tome": "016-3",
@@ -154,26 +189,26 @@
     {
       "tome": "017",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Origen 7",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 17 - Origen 7\" (patrologiae_cursus_completus_gr_vol_017))"
     },
     {
       "tome": "018",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "019",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "020",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Eusebius 2",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 20 - Eusebius 2\" (patrologiae_cursus_completus_gr_vol_020))"
     },
     {
       "tome": "021",
@@ -187,121 +222,121 @@
       "tome": "022",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "023",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Eusebius 5",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 23 - Eusebius 5\" (patrologiae_cursus_completus_gr_vol_023))"
     },
     {
       "tome": "024",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Eusebius 6",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 24 - Eusebius 6\" (patrologiae_cursus_completus_gr_vol_024))"
     },
     {
       "tome": "025",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Athanasius 1",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 25 - Athanasius 1\" (patrologiae_cursus_completus_gr_vol_025))"
     },
     {
       "tome": "026",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "027",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Athanasius 3",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 27 - Athanasius 3\" (patrologiae_cursus_completus_gr_vol_027))"
     },
     {
       "tome": "028",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "029",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "030",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "031",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "032",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "033",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "034",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "035",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "036",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "S. Gregorius Nazianzenus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 35-38. S. Gregorius Nazianzenus\" in patrologiaecursu36mignuoft's description)"
     },
     {
       "tome": "037",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "S. Gregorius Nazianzenus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 35-38. S. Gregorius Nazianzenus\" in patrologiaecursu37mignuoft's description)"
     },
     {
       "tome": "038",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "S. Gregorius Nazianzenus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 35-38. S. Gregorius Nazianzenus\" in patrologiaecursu38mignuoft's description)"
     },
     {
       "tome": "039",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "040",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "041",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "042",
@@ -315,145 +350,145 @@
       "tome": "043",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "044",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "045",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "S. Gregorius Nyssenus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 44-46. S. Gregorius Nyssenus\" in patrologiaecursu45mignuoft's description)"
     },
     {
       "tome": "046",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "047",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "048",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "049",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "050",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "051",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "052",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "053",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "054",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "055",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "056",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "057",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Chrysostom on Matthew (1)",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 57 - Chrysostom on Matthew (1)\" (patrologiae_cursus_completus_gr_vol_057_chrysostom_matthew))"
     },
     {
       "tome": "058",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Chrysostom on Matthew (2)",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 58 - Chrysostom on Matthew (2)\" (patrologiae_cursus_completus_gr_vol_058_chrysostom_matthew_homilies_2))"
     },
     {
       "tome": "059",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "060",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "061",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "062",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "063",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "064",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "065",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "066",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Synesius episc., Theodorus Mopsuestenus, S. Arsenius",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 66. Synesius episc., Theodorus Mopsuestenus, S. Arsenius\" in patrologiaecursu66mignuoft's description)"
     },
     {
       "tome": "067",
@@ -467,19 +502,19 @@
       "tome": "068",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "069",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "070",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "071",
@@ -493,7 +528,7 @@
       "tome": "072",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "073",
@@ -507,85 +542,85 @@
       "tome": "074",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "075",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "076",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "077",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "078",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "079",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "080",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "081",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "082",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "083",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "084",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "085",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "086-1",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "086-2",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "087-1",
@@ -598,92 +633,92 @@
     {
       "tome": "087-2",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Part 1",
+      "confidence": "high — sourced from data/pg-tome-authors.json (archive.org item title \"Patrologiae Cursus Completus - Series Graeca - Volume 87 - Part 1\" (patrologiae_cursus_completus_gr_vol_087_1))"
     },
     {
       "tome": "087-3",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "088",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "089",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "090",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "091",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "092",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "093",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "author": "Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus 26",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (catalog TOC note \"t. 93. Olympiodorus diaconus, alexandrinus, Hesychius, presbyter hierosolymitanus, Leontius, Neapoleos in Cypro episcopus 26\" in patrologiaecursu93mignuoft's description)"
     },
     {
       "tome": "094",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "095",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "096",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "097",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "098",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "099",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "100",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "101",
@@ -697,31 +732,31 @@
       "tome": "102",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "103",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "104",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "105",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "106",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "107",
@@ -735,7 +770,7 @@
       "tome": "108",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "109",
@@ -749,13 +784,13 @@
       "tome": "110",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "111",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "112",
@@ -777,25 +812,25 @@
       "tome": "114",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "115",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "116",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "117",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "118",
@@ -809,13 +844,13 @@
       "tome": "119",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "120",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "121",
@@ -869,43 +904,43 @@
       "tome": "127",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "128",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "129",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "130",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "131",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "132",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "133",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "134",
@@ -919,25 +954,25 @@
       "tome": "135",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "136",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "137",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "138",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "139",
@@ -951,37 +986,37 @@
       "tome": "140",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "141",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "142",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "143",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "144",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "145",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "146",
@@ -995,7 +1030,7 @@
       "tome": "147",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "148",
@@ -1009,13 +1044,13 @@
       "tome": "149",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "150",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "151",
@@ -1029,7 +1064,7 @@
       "tome": "152",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "153",
@@ -1043,7 +1078,7 @@
       "tome": "154",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "155",
@@ -1057,7 +1092,7 @@
       "tome": "156",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "157",
@@ -1079,19 +1114,19 @@
       "tome": "159",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "160",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     },
     {
       "tome": "161",
       "status": "gap",
       "author": null,
-      "confidence": "default — no known machine-readable transcription; not yet checked against First1KGreek/OGL author-by-author (see firstOneKCandidateAuthors)"
+      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
     }
   ]
 }
