@@ -9,7 +9,7 @@
     "calfaCoveredTomes": 33,
     "gapTomes": 134,
     "calfaWords": 5605015,
-    "gapTomesWithAuthor": 49
+    "gapTomesWithAuthor": 134
   },
   "firstOneKCandidateAuthors": {
     "note": "Checklist authors verified present in First1KGreek/canonical-greekLit (2026-07-04 research pass). confirmedTomes below is computed from data/pg-tome-authors.json (archive.org catalog descriptions, per-tome — not memory, not scraped). stillUnconfirmed authors have no tome match yet; do not apply First1KGreek to them without a dedicated search pass.",
@@ -18,6 +18,7 @@
         "name": "Origen",
         "confirmedTomes": [
           "011",
+          "012",
           "013",
           "014",
           "015",
@@ -30,16 +31,42 @@
       {
         "name": "Eusebius of Caesarea",
         "confirmedTomes": [
+          "019",
           "020",
           "021",
+          "022",
           "023",
           "024"
+        ]
+      },
+      {
+        "name": "Epiphanius of Salamis",
+        "confirmedTomes": [
+          "041",
+          "042",
+          "043"
         ]
       },
       {
         "name": "Hippolytus",
         "confirmedTomes": [
           "010"
+        ]
+      },
+      {
+        "name": "Methodius of Olympus",
+        "confirmedTomes": [
+          "018"
+        ]
+      },
+      {
+        "name": "Theodoret of Cyrus",
+        "confirmedTomes": [
+          "080",
+          "081",
+          "082",
+          "083",
+          "084"
         ]
       },
       {
@@ -51,31 +78,33 @@
         ]
       },
       {
+        "name": "John Zonaras (already Calfa-covered, PG 134)",
+        "confirmedTomes": [
+          "134",
+          "135"
+        ]
+      },
+      {
         "name": "Anna Comnena",
         "confirmedTomes": [
           "131"
         ]
       }
     ],
-    "stillUnconfirmed": [
-      "Epiphanius of Salamis",
-      "Methodius of Olympus",
-      "Theodoret of Cyrus",
-      "John Zonaras (already Calfa-covered, PG 134)"
-    ]
+    "stillUnconfirmed": []
   },
   "volumes": [
     {
       "tome": "001",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Clement of Rome",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Clement of Rome, pt. 1\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "002",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Clement of Rome; Epistle of Barnabas; Shepherd of Hermas; Epistle to Diognetus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Clement of Rome, pt. 2, with Epistle of Barnabas, Shepherd of Hermas, Epistle to Diognetus, etc.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "003",
@@ -150,8 +179,8 @@
     {
       "tome": "012",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Origen",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Origen\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "013",
@@ -200,14 +229,14 @@
     {
       "tome": "018",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Methodius of Olympius; Alexander of Lycopolitanus; Peter of Alexandria; Theodore of Mopsuestia",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Methodius of Olympius, with Alexander of Lycopolitanus, Peter of Alexandria, Theodore of Mopsuestia, etc.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "019",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Eusebius of Caesarea",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Eusebius of Caesarea\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "020",
@@ -226,8 +255,8 @@
     {
       "tome": "022",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Eusebius of Caesarea",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Eusebius of Caesarea\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "023",
@@ -250,8 +279,8 @@
     {
       "tome": "026",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Athanasius",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Athanasius\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "027",
@@ -262,50 +291,50 @@
     {
       "tome": "028",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Athanasius",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Athanasius\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "029",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Basil the Great",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "030",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Basil the Great",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "031",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Basil the Great",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "032",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Basil the Great",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "033",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Cyril of Jerusalem; Apollinaris of Laodicea; Diodorus of Tarsus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Cyril of Jerusalem, with Apollinaris of Laodicea, Diodorus of Tarsus, etc.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "034",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Macarius of Egypt; Macarius of Alexandria",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Macarius of Egypt and Macarius of Alexandria\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "035",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Gregory of Nazianzus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Gregory of Nazianzus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "036",
@@ -328,20 +357,20 @@
     {
       "tome": "039",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Didymus the Blind; Amphilochius Iconiensis; Nectarius",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Didymus the Blind, Amphilochius Iconiensis, and Nectarius\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "040",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Egyptian Fathers: Anthony the Great; Pachomius; Serapion",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Egyptian Fathers: Anthony the Great, Pachomius, Serapion, etc.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "041",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Epiphanius",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Epiphanius\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "042",
@@ -354,14 +383,14 @@
     {
       "tome": "043",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Epiphanius; Nonnus of Panopolitanus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Epiphanius, with Nonnus of Panopolitanus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "044",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Gregory of Nyssa",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Gregory of Nyssa\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "045",
@@ -372,68 +401,68 @@
     {
       "tome": "046",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Gregory of Nyssa",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Gregory of Nyssa\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "047",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "048",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "049",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "050",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "051",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "052",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "053",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "054",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "055",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "056",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "057",
@@ -450,44 +479,44 @@
     {
       "tome": "059",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "060",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "061",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "062",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "063",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "064",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Chrysostom",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "065",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Severianus; Theophilus; Palladius; Philostrogius; Atticus; Proclus; Flavianus; Marcus Eremita; Marcus Diadochus; Marcus Diaconus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Severianus, Theophilus, Palladius, Philostrogius, Atticus, Proclus, Flavianus, Marcus Eremita, Marcus Diadochus, and Marcus Diaconus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "066",
@@ -512,14 +541,14 @@
     {
       "tome": "069",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Cyril of Alexandria\" (no archive.org item; data/pg-tome-reltech.json))"
     },
     {
       "tome": "070",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Cyril of Alexandria\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "071",
@@ -532,8 +561,8 @@
     {
       "tome": "072",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Cyril of Alexandria\" (no archive.org item; data/pg-tome-reltech.json))"
     },
     {
       "tome": "073",
@@ -564,8 +593,8 @@
     {
       "tome": "077",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Cyril of Alexandria; Theodotus of Ancyranus; Paul of Emesenus; Acacius of Berrhoeensis; John of Antioch; Memon of Ephesus; Acacus of Melito; Rabbulus of Edesse; Firmus of Caesaria; Amphilochius of Sidon",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Cyril of Alexandria, Theodotus of Ancyranus, Paul of Emesenus, Acacius of Berrhoeensis, John of Antioch, Memon of Ephesus, Acacus of Melito, Rabbulus of Edesse, Firmus of Caesaria, and Amphilochius of Sidon\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "078",
@@ -582,50 +611,50 @@
     {
       "tome": "080",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "081",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "082",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "083",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "084",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "085",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Basil of Seleucia; Euthalius Deacon of Alexandria; John of Carpathios; aeneas Gazaeos; Zacharias Mitylenes Gelasius of Cyzicus; Theotimus; Ammonius; Andreas of Samosatus; Gennadius of Constantinople; Candidus; Antipater of Bostros; Dalmatius; Timothy; Eustathius.",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Basil of Seleucia; Euthalius Deacon of Alexandria, John of Carpathios, aeneas Gazaeos, Zacharias Mitylenes Gelasius of Cyzicus, Theotimus, Ammonius, Andreas of Samosatus, Gennadius of Constantinople, Candidus, Antipater of Bostros, Dalmatius, Timothy, and Eustathius.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "086-1",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Timothy of Constantinople; Theodorus; Procopius Deacon of Tyre; Theodorus Bishop of Scythopolitanus; Timothy of Hierosolymitanus; Timothy III of Alexandria; Theodosius of Alexandria; Eusebius of Alexandria; Eusebius of Emesenus; Gregentius of Tapharensis; Epiphanius of Contstantinople; Isaac of Ninivitanus; Barsanuphius of Palestine; Eustathius; Justinian; Agapetus; Leontius Byzantinus.",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Timothy of Constantinople, Theodorus, Procopius Deacon of Tyre, Theodorus Bishop of Scythopolitanus, Timothy of Hierosolymitanus, Timothy III of Alexandria, Theodosius of Alexandria, Eusebius of Alexandria, Eusebius of Emesenus, Gregentius of Tapharensis, Epiphanius of Contstantinople, Isaac of Ninivitanus, Barsanuphius of Palestine, Eustathius, Justinian, Agapetus, and Leontius Byzantinus.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "086-2",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Leontius Byzantinus (continuation); Ephraimus of Antioch; Paulus Silentiarus; Eutrychius of Constantinople; Evagrius the scholar; Eulogius of Alexandria; Simeon Stylita Junior; Zacharias of Heirosolymitanus; Modesta of Hierosolymitanus; Jobius; Erechtius of Antioch; Peter of Laodocia.",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Leontius Byzantinus (continuation), Ephraimus of Antioch, Paulus Silentiarus, Eutrychius of Constantinople, Evagrius the scholar, Eulogius of Alexandria, Simeon Stylita Junior, Zacharias of Heirosolymitanus, Modesta of Hierosolymitanus, Jobius, Erechtius of Antioch and Peter of Laodocia.\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "087-1",
@@ -644,8 +673,8 @@
     {
       "tome": "087-3",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Procopius of Gaza; Joannes Moschus; Sophronius; Alexander Monachus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Procopius of Gaza, Joannes Moschus, Sophronius, and Alexander Monachus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "088",
@@ -656,14 +685,14 @@
     {
       "tome": "089",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Anastasius of Sinai; Anastasius of Antioch; Anastisius Abbot of Euthymius; Anastasius IV Patriarch of Antioch; Antiochus of Sabe",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Anastasius of Sinai, Anastasius of Antioch, Anastisius Abbot of Euthymius, Anastasius IV Patriarch of Antioch, and Antiochus of Sabe\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "090",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Maximus the Abbot",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Maximus the Abbot\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "091",
@@ -674,8 +703,8 @@
     {
       "tome": "092",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Paschal Chronicle",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Paschal Chronicle\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "093",
@@ -686,26 +715,26 @@
     {
       "tome": "094",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John of Damascus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John of Damascus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "095",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John of Damascus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John of Damascus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "096",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John of Damascus with John of Nicaea; John the Patriarch of Constantinople; Joannes Euboeensis",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John of Damascus with John of Nicaea, John the Patriarch of Constantinople, and Joannes Euboeensis\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "097",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "John Malalas; Andreas of Jerusalem; Elias of Crete; Theordore Abucara",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"John Malalas, Andreas of Jerusalem, Elias of Crete and Theordore Abucara\" (no archive.org item; data/pg-tome-reltech.json))"
     },
     {
       "tome": "098",
@@ -716,8 +745,8 @@
     {
       "tome": "099",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodori Studitae",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodori Studitae\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "100",
@@ -736,8 +765,8 @@
     {
       "tome": "102",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Photius of Constantinople",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Photius of Constantinople\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "103",
@@ -748,8 +777,8 @@
     {
       "tome": "104",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Photius of Constantinople; Petrus Siculus; Peter bishop of Argos; Bartholomew of Edessa",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Photius of Constantinople, Petrus Siculus, Peter bishop of Argos, and Bartholomew of Edessa\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "105",
@@ -760,8 +789,8 @@
     {
       "tome": "106",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Joseppus; Nicephorus the Philosopher; Andreas archbishop of Caesarea in Capadoccia; Arethas Bishop of Caesarea in Cappadocia; Joannes Geometra; Cosmas Vestitor; Leo Patricius; Athanasius Bishop of Corinth; other Greek works",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Joseppus, Nicephorus the Philosopher, Andreas archbishop of Caesarea in Capadoccia, Arethas Bishop of Caesarea in Cappadocia, Joannes Geometra, Cosmas Vestitor, Leo Patricius, and Athanasius Bishop of Corinth, with other Greek works\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "107",
@@ -774,8 +803,8 @@
     {
       "tome": "108",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theophanes Abbot; Confessor; Unknown Author; Leo Grammaticus; Anastasii History; Church Librarian",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theophanes Abbot and Confessor, Unknown Author, Leo Grammaticus, and Anastasii History and Church Librarian\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "109",
@@ -788,8 +817,8 @@
     {
       "tome": "110",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Georgius Monachus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Georgius Monachus\" (no archive.org item; data/pg-tome-reltech.json))"
     },
     {
       "tome": "111",
@@ -816,26 +845,26 @@
     {
       "tome": "114",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Symeon Metaphrastes",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Symeon Metaphrastes\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "115",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Symeon Metaphrastes",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Symeon Metaphrastes\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "116",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Symeon Metaphrastes",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Symeon Metaphrastes\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "117",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Leonis Diaconi with Hyppolitus Thebanus; Georgides Monachus; Ignatius Diaconus; Nilus; Christophus Protoasecretis; Michael Hamartolus; Anonymus; Suidas",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Leonis Diaconi with Hyppolitus Thebanus, Georgides Monachus, Ignatius Diaconus, Nilus, Christophus Protoasecretis, Michael Hamartolus, Anonymus, and Suidas\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "118",
@@ -848,14 +877,14 @@
     {
       "tome": "119",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "oecumenius Bishop of Trikka",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"oecumenius Bishop of Trikka\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "120",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Anonymous; Theodorus Iconii Episcopus; Leo Presbyter; Leo Grammaticus; Joannis Presbyter; Epiphanius Monachus Hierosolymitanus; Alexius Patriarch of Constantinople; Demetrius Syncellus Cyzicenus Metropolita; Nicetas Chartophylax Nicaenus; Michael Cerularius Patriarch of Constantinople; Samonas Gaxensis Episcopus; Leo Achridanus Bulgarorum Archiepiscopus; Nicetas Pectoratus Presbyter et Monasterii Studiensis Monachus; Joannes Euchaitarum MetropolitaJoannis Xiphilini Archbishop of Constantinople; Joannes Deacon of Constantinople; Symeonis Junioris",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Anonymous, Theodorus Iconii Episcopus, Leo Presbyter, Leo Grammaticus, Joannis Presbyter, Epiphanius Monachus Hierosolymitanus, Alexius Patriarch of Constantinople, Demetrius Syncellus Cyzicenus Metropolita, Nicetas Chartophylax Nicaenus, Michael Cerularius Patriarch of Constantinople, Samonas Gaxensis Episcopus, Leo Achridanus Bulgarorum Archiepiscopus, Nicetas Pectoratus Presbyter et Monasterii Studiensis Monachus, Joannes Euchaitarum MetropolitaJoannis Xiphilini Archbishop of Constantinople, Joannes Deacon of Constantinople, and Symeonis Junioris\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "121",
@@ -914,14 +943,14 @@
     {
       "tome": "128",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Euthymius Zigabeno",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Euthymius Zigabeno\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "129",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Euthymius Zigabeno",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Euthymius Zigabeno\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "130",
@@ -938,8 +967,8 @@
     {
       "tome": "132",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theophanes Kerameus; Nilus Doxapatrius; John Bishop of Antioch; Joannes Comnenus; Isaacus Magnae Armeniae Catholicus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theophanes Kerameus, Nilus Doxapatrius, John Bishop of Antioch, Joannes Comnenus, Isaacus Magnae Armeniae Catholicus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "133",
@@ -958,14 +987,14 @@
     {
       "tome": "135",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Joannis Zonarae Georgius Xiphilinus; Isaacius Angleus; Neophytus; Joannes Chilas; Nicolaus Methonensis in Peloponneso Metropolita; Eustathius Thessalonicensis Metropolita",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Joannis Zonarae Georgius Xiphilinus, Isaacius Angleus, Neophytus, Joannes Chilas, Nicolaus Methonensis in Peloponneso Metropolita, and Eustathius Thessalonicensis Metropolita\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "136",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Eustathius of Thessalonica with Antonius Melissa",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Eustathius of Thessalonica with Antonius Melissa\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "137",
@@ -976,8 +1005,8 @@
     {
       "tome": "138",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Theodori Balsamonis",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Theodori Balsamonis\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "139",
@@ -990,14 +1019,14 @@
     {
       "tome": "140",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Nicetas Choniata; Anonymi Graeci; Michael Acominatus Choniata Archbishop of Athens; Theodorus Alanicus; Theordous Andidensis Episcopus; Manuel Magnus Rhetor Constantinople; Pantaleo; Manuel Charitopulus; Germanus II; Michael Chumnus; Theodorus Ducas Lascaris; Methodius; Nicephorus II; Constantinus Acropolita; Arsenius Autorianus; Georgius Acropolita; Nicephorus Chumnus; Alexander IV; Sixtus IV",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Nicetas Choniata, Anonymi Graeci, Michael Acominatus Choniata Archbishop of Athens, Theodorus Alanicus, Theordous Andidensis Episcopus, Manuel Magnus Rhetor Constantinople, Pantaleo, Manuel Charitopulus, Germanus II, Michael Chumnus, Theodorus Ducas Lascaris, Methodius, Nicephorus II, Constantinus Acropolita, Arsenius Autorianus, Georgius Acropolita, Nicephorus Chumnus, Alexander IV, and Sixtus IV\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "141",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Joannes Veccus; Constantinus Meliteniota; Georgius Metochita",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Joannes Veccus, Constantinus Meliteniota, and Georgius Metochita\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "142",
@@ -1008,20 +1037,20 @@
     {
       "tome": "143",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Ephraemius Chronographus; Theoleptus Philadelphiensium Metropolita; Georgius Pachymeres",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Ephraemius Chronographus, Theoleptus Philadelphiensium Metropolita, and Georgius Pachymeres\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "144",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Georgius Pachymeres; Theodorus Metochita Magnus Logtheta; Matthaeus Blastares Hieromonachus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Georgius Pachymeres, Theodorus Metochita Magnus Logtheta, and Matthaeus Blastares Hieromonachus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "145",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Matthaeus Blastares Hieromonachus; Theodulus Monachus; Alias Thomas Magister; Nicephorus Callistus Xanthopulus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Matthaeus Blastares Hieromonachus, Theodulus Monachus, Alias Thomas Magister, Nicephorus Callistus Xanthopulus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "146",
@@ -1034,8 +1063,8 @@
     {
       "tome": "147",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Nicephorus Callistus Xanthopulus; Callistus et Ignatius Xanthopuli Monachi; Callistus Patriarcha Constantinopuli Monachi; Callistus Telicoudes; Callistus Cataphugiota; Nicepphorus Monachus; Maximus Planudes Cpolitanus Monachus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Nicephorus Callistus Xanthopulus, Callistus et Ignatius Xanthopuli Monachi, Callistus Patriarcha Constantinopuli Monachi, Callistus Telicoudes, Callistus Cataphugiota, Nicepphorus Monachus, Maximus Planudes Cpolitanus Monachus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "148",
@@ -1054,8 +1083,8 @@
     {
       "tome": "150",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Constantinus Harmenopulus; Macarius Chrysocephalus Philadelphiensis Metropolita; Joannes Caleca Cpolitanus Patriarcha; Theophanes Nicaenus Archiepiscopus; Nicolaus Cabasila Thessalonicensis Metropolita; Gregorius Palamas Thessalonicensis Metropolita",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Constantinus Harmenopulus, Macarius Chrysocephalus Philadelphiensis Metropolita, Joannes Caleca Cpolitanus Patriarcha, Theophanes Nicaenus Archiepiscopus, Nicolaus Cabasila Thessalonicensis Metropolita, Gregorius Palamas Thessalonicensis Metropolita\" (no archive.org item; data/pg-tome-reltech.json))"
     },
     {
       "tome": "151",
@@ -1082,8 +1111,8 @@
     {
       "tome": "154",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Joannes Cantacuzenus Imp. CP; Philotheus Cpolitanus Patriarcha; Demetrius Cydonius; Maximus Chrysoberga Monachus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Joannes Cantacuzenus Imp. CP, Philotheus Cpolitanus Patriarcha, Demetrius Cydonius, Maximus Chrysoberga Monachus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "155",
@@ -1118,8 +1147,8 @@
     {
       "tome": "159",
       "status": "gap",
-      "author": null,
-      "confidence": "default — no known machine-readable transcription; no author signal yet (see firstOneKCandidateAuthors)"
+      "author": "Laonicus Chalcocondyla Atheniensis; Leonardus Chiensis Mitlyenaeus Archiepiscopus; Isidorus S.R.E. Cardinalis Ruthenorum Episcopus; Josephus Methonensis Episcopus",
+      "confidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG volume list entry \"Laonicus Chalcocondyla Atheniensis, Leonardus Chiensis Mitlyenaeus Archiepiscopus, Isidorus S.R.E. Cardinalis Ruthenorum Episcopus, Josephus Methonensis Episcopus\" (data/pg-tome-reltech.json))"
     },
     {
       "tome": "160",

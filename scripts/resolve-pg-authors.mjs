@@ -33,6 +33,15 @@
 //     `creator` ("Nikolaos I, Mystikos, Saint, Patriarch of Constantinople,
 //     852-925") was real and new.
 
+//  5. RelTech's Electronic PG volume list (data/pg-tome-reltech.json, built by
+//     scripts/gapfill-pg-reltech.mjs) — a genuinely independent third catalog
+//     source covering all 161 tomes, not another archive.org/Google Books
+//     pass. Used ONLY as a fallback for tomes signals 1-4 left at 'none';
+//     cross-checked against several already-resolved tomes before trusting it
+//     (068/074-076 "Cyril of Alexandria" matches its own 069-073 entries;
+//     134 "Joannis Zonarae" confirms the already-known Zonaras pin; 111
+//     matches our archive.org creator-field hit almost verbatim).
+
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -43,6 +52,12 @@ const gbByTome = new Map();
 if (fs.existsSync(gbPath)) {
   const gb = JSON.parse(fs.readFileSync(gbPath, 'utf8'));
   for (const t of gb.tomes) if (t.specificTitles.length) gbByTome.set(t.tome, t.specificTitles);
+}
+const reltechPath = path.join(root, 'data/pg-tome-reltech.json');
+const reltechByTome = new Map();
+if (fs.existsSync(reltechPath)) {
+  const rt = JSON.parse(fs.readFileSync(reltechPath, 'utf8'));
+  for (const t of rt.tomes) reltechByTome.set(t.tome, t.text);
 }
 
 // "Socratis Scholastici, Hermiae Sozomeni Historia ecclesiastica - Socrates
@@ -105,6 +120,33 @@ function parseCreator(creatorField) {
   return trimmed;
 }
 
+// "John Malalas, Andreas of Jerusalem, Elias of Crete and Theordore Abucara"
+// -> "John Malalas; Andreas of Jerusalem; Elias of Crete; Theordore Abucara".
+// Drops non-name fragments ("pt. 2", "etc", "with" left dangling after a
+// comma split) rather than keeping them as bogus authors.
+function parseReltechAuthors(text) {
+  const fragments = text
+    .split(',')
+    .flatMap((seg) => seg.split(/\s+and\s+/i))
+    .map((f) => f.replace(/^\s*with\s+/i, '').trim())
+    .filter((f) => f && !/^(etc\.?|with)$/i.test(f) && !/^pt\.\s*\d+/i.test(f));
+  const seen = [];
+  for (const f of fragments) if (!seen.includes(f)) seen.push(f);
+  return seen;
+}
+
+// Reltech splits some tomes into a/b parts our registry keeps whole (025,
+// 029 are single tomes for us but "25a"/"25b" for reltech) — fall back to
+// the first part sharing this tome's base number if the exact key misses.
+function reltechLookup(tome) {
+  if (reltechByTome.has(tome)) return reltechByTome.get(tome);
+  const base = tome.split('-')[0];
+  for (const [key, text] of reltechByTome) {
+    if (key.split('-')[0] === base) return text;
+  }
+  return null;
+}
+
 const results = [];
 for (const t of idx.tomes) {
   if (t.status !== 'matched') {
@@ -117,9 +159,20 @@ for (const t of idx.tomes) {
         confidence: 'medium',
         evidence: `Google Books title(s) ${JSON.stringify(gbTitles)} (no archive.org item; data/pg-tome-googlebooks.json)`,
       });
-    } else {
-      results.push({ tome: t.tome, author: null, confidence: 'none', evidence: 'no archive.org candidate matched, no Google Books title signal' });
+      continue;
     }
+    const reltechText = reltechLookup(t.tome);
+    const reltechAuthors = reltechText ? parseReltechAuthors(reltechText) : [];
+    if (reltechAuthors.length) {
+      results.push({
+        tome: t.tome,
+        author: reltechAuthors.join('; '),
+        confidence: 'medium',
+        evidence: `RelTech PG volume list entry "${reltechText}" (no archive.org item; data/pg-tome-reltech.json)`,
+      });
+      continue;
+    }
+    results.push({ tome: t.tome, author: null, confidence: 'none', evidence: 'no archive.org candidate matched, no Google Books or RelTech title signal' });
     continue;
   }
   const num = tomeNum(t.tome);
@@ -163,11 +216,26 @@ for (const t of idx.tomes) {
     continue;
   }
 
+  // Signal 5: RelTech's independent PG volume list
+  const reltechText = reltechLookup(t.tome);
+  if (reltechText) {
+    const authors = parseReltechAuthors(reltechText);
+    if (authors.length) {
+      results.push({
+        tome: t.tome,
+        author: authors.join('; '),
+        confidence: 'medium',
+        evidence: `RelTech PG volume list entry "${reltechText}" (data/pg-tome-reltech.json)`,
+      });
+      continue;
+    }
+  }
+
   results.push({
     tome: t.tome,
     author: null,
     confidence: 'none',
-    evidence: `matched ${t.archiveId} but no author signal in its title/description/creator`,
+    evidence: `matched ${t.archiveId} but no author signal in its title/description/creator, nor RelTech`,
   });
 }
 

@@ -78,20 +78,32 @@ const gapMap = {
   volumes: [],
 };
 
+// Match against DISCRETE '; '-split author fragments, not the whole joined
+// string — reltech's richer combined-author tomes (data/pg-tome-reltech.json)
+// surfaced real same-surname/same-forename collisions a loose whole-string
+// regex would silently miscredit: "Epiphanius of Constantinople" (6th-c.
+// monk, tome 086-1) and "Epiphanius Monachus Hierosolymitanus" (tome 120)
+// both contain "epiphanius" but are NOT Epiphanius of Salamis; "Eusebius of
+// Alexandria"/"Eusebius of Emesenus" (tome 086-1) are not Eusebius of
+// Caesarea; the 13th-c. Patriarch "Methodius" bundled into tome 140 is not
+// Methodius of Olympus. Each pattern below is checked against one fragment
+// at a time and must match the FULL fragment (^...$), not a substring.
 const CHECKLIST_AUTHORS = [
-  { name: 'Origen', match: /origen/i },
-  { name: 'Eusebius of Caesarea', match: /eusebius/i },
-  { name: 'Epiphanius of Salamis', match: /epiphanius/i },
+  { name: 'Origen', match: /^origen/i },
+  { name: 'Eusebius of Caesarea', match: /^eusebius(\s+\d+[a-c]?)?$|^eusebius of caesarea$/i },
+  { name: 'Epiphanius of Salamis', match: /^epiphanius$/i },
   { name: 'Hippolytus', match: /hippolytus/i },
-  { name: 'Methodius of Olympus', match: /methodius/i },
+  { name: 'Methodius of Olympus', match: /^methodius of olymp/i },
   { name: 'Theodoret of Cyrus', match: /theodoret/i },
   { name: 'Gregory of Nazianzus', match: /gregori?us nazianz/i },
-  { name: 'John Zonaras (already Calfa-covered, PG 134)', match: /zonaras/i },
+  { name: 'John Zonaras (already Calfa-covered, PG 134)', match: /zonar/i },
   { name: 'Anna Comnena', match: /comnena/i },
 ];
 
 for (const { name, match } of CHECKLIST_AUTHORS) {
-  const tomes = [...pgAuthorByTome.entries()].filter(([, v]) => match.test(v.author)).map(([t]) => t);
+  const tomes = [...pgAuthorByTome.entries()]
+    .filter(([, v]) => v.author.split(/;\s*/).some((fragment) => match.test(fragment.trim())))
+    .map(([t]) => t);
   if (tomes.length) {
     gapMap.firstOneKCandidateAuthors.authors.push({ name, confirmedTomes: tomes });
   } else {

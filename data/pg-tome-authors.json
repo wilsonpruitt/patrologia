@@ -3,29 +3,29 @@
   "source": "data/pg-tome-index.json",
   "totals": {
     "total": 167,
-    "withAuthor": 57,
+    "withAuthor": 167,
     "highConfidence": 20,
-    "mediumConfidence": 37,
-    "none": 110
+    "mediumConfidence": 147,
+    "none": 0
   },
   "tomes": [
     {
       "tome": "001",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched Patrologia_Graeca_vol_001 but no author signal in its title/description/creator"
+      "author": "Clement of Rome",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Clement of Rome, pt. 1\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "002",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched Patrologia_Graeca_vol_002 but no author signal in its title/description/creator"
+      "author": "Clement of Rome; Epistle of Barnabas; Shepherd of Hermas; Epistle to Diognetus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Clement of Rome, pt. 2, with Epistle of Barnabas, Shepherd of Hermas, Epistle to Diognetus, etc.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "003",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched Patrologia_Graeca_vol_003 but no author signal in its title/description/creator"
+      "author": "Dionysius the Areopagite",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Dionysius the Areopagite, pt. 1\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "004",
@@ -35,9 +35,9 @@
     },
     {
       "tome": "005",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs92migngoog but no author signal in its title/description/creator"
+      "author": "Ignatius of Antioch; Polycarp; Melito of Sardis; Papias; Apollonius of Ephesus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Ignatius of Antioch, with Polycarp, Melito of Sardis, Papias, Apollonius of Ephesus, etc.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "006",
@@ -65,9 +65,9 @@
     },
     {
       "tome": "009",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs59hopfgoog but no author signal in its title/description/creator"
+      "author": "Clement of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Clement of Alexandria\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "010",
@@ -83,9 +83,9 @@
     },
     {
       "tome": "012",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs11hopfgoog but no author signal in its title/description/creator"
+      "author": "Origen",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Origen\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "013",
@@ -131,15 +131,15 @@
     },
     {
       "tome": "018",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_018 but no author signal in its title/description/creator"
+      "author": "Methodius of Olympius; Alexander of Lycopolitanus; Peter of Alexandria; Theodore of Mopsuestia",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Methodius of Olympius, with Alexander of Lycopolitanus, Peter of Alexandria, Theodore of Mopsuestia, etc.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "019",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus04migngoog but no author signal in its title/description/creator"
+      "author": "Eusebius of Caesarea",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Eusebius of Caesarea\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "020",
@@ -155,9 +155,9 @@
     },
     {
       "tome": "022",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus48migngoog but no author signal in its title/description/creator"
+      "author": "Eusebius of Caesarea",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Eusebius of Caesarea\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "023",
@@ -179,9 +179,9 @@
     },
     {
       "tome": "026",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus88migngoog but no author signal in its title/description/creator"
+      "author": "Athanasius",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Athanasius\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "027",
@@ -191,51 +191,51 @@
     },
     {
       "tome": "028",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs130migngoog but no author signal in its title/description/creator"
+      "author": "Athanasius",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Athanasius\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "029",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus22migngoog but no author signal in its title/description/creator"
+      "author": "Basil the Great",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "030",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus45migngoog but no author signal in its title/description/creator"
+      "author": "Basil the Great",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "031",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs37migngoog but no author signal in its title/description/creator"
+      "author": "Basil the Great",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "032",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus52migngoog but no author signal in its title/description/creator"
+      "author": "Basil the Great",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Basil the Great\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "033",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiagraeca33 but no author signal in its title/description/creator"
+      "author": "Cyril of Jerusalem; Apollinaris of Laodicea; Diodorus of Tarsus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Jerusalem, with Apollinaris of Laodicea, Diodorus of Tarsus, etc.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "034",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_034 but no author signal in its title/description/creator"
+      "author": "Macarius of Egypt; Macarius of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Macarius of Egypt and Macarius of Alexandria\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "035",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus05migngoog but no author signal in its title/description/creator"
+      "author": "Gregory of Nazianzus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Gregory of Nazianzus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "036",
@@ -257,39 +257,39 @@
     },
     {
       "tome": "039",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus114migngoog but no author signal in its title/description/creator"
+      "author": "Didymus the Blind; Amphilochius Iconiensis; Nectarius",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Didymus the Blind, Amphilochius Iconiensis, and Nectarius\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "040",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_040 but no author signal in its title/description/creator"
+      "author": "Egyptian Fathers: Anthony the Great; Pachomius; Serapion",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Egyptian Fathers: Anthony the Great, Pachomius, Serapion, etc.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "041",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_041 but no author signal in its title/description/creator"
+      "author": "Epiphanius",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Epiphanius\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "042",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus101migngoog but no author signal in its title/description/creator"
+      "author": "Epiphanius",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Epiphanius\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "043",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus96migngoog but no author signal in its title/description/creator"
+      "author": "Epiphanius; Nonnus of Panopolitanus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Epiphanius, with Nonnus of Panopolitanus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "044",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus72migngoog but no author signal in its title/description/creator"
+      "author": "Gregory of Nyssa",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Gregory of Nyssa\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "045",
@@ -299,69 +299,69 @@
     },
     {
       "tome": "046",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_046 but no author signal in its title/description/creator"
+      "author": "Gregory of Nyssa",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Gregory of Nyssa\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "047",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_047 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "048",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_048 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "049",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus15migngoog but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "050",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursusc0050unse but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "051",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_051 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "052",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_052 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "053",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_053 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "054",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_054 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "055",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_055 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "056",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_056 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "057",
@@ -377,45 +377,45 @@
     },
     {
       "tome": "059",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus67migngoog but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "060",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_060 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "061",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus28migngoog but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "062",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_062 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "063",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_063 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "064",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_064 but no author signal in its title/description/creator"
+      "author": "John Chrysostom",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Chrysostom\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "065",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus49migngoog but no author signal in its title/description/creator"
+      "author": "Severianus; Theophilus; Palladius; Philostrogius; Atticus; Proclus; Flavianus; Marcus Eremita; Marcus Diadochus; Marcus Diaconus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Severianus, Theophilus, Palladius, Philostrogius, Atticus, Proclus, Flavianus, Marcus Eremita, Marcus Diadochus, and Marcus Diaconus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "066",
@@ -437,33 +437,33 @@
     },
     {
       "tome": "069",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Alexandria\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "070",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_070 but no author signal in its title/description/creator"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Alexandria\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "071",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Alexandria\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "072",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Alexandria\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "073",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Cyril of Alexandria",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Alexandria\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "074",
@@ -485,9 +485,9 @@
     },
     {
       "tome": "077",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus08migngoog but no author signal in its title/description/creator"
+      "author": "Cyril of Alexandria; Theodotus of Ancyranus; Paul of Emesenus; Acacius of Berrhoeensis; John of Antioch; Memon of Ephesus; Acacus of Melito; Rabbulus of Edesse; Firmus of Caesaria; Amphilochius of Sidon",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Cyril of Alexandria, Theodotus of Ancyranus, Paul of Emesenus, Acacius of Berrhoeensis, John of Antioch, Memon of Ephesus, Acacus of Melito, Rabbulus of Edesse, Firmus of Caesaria, and Amphilochius of Sidon\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "078",
@@ -503,51 +503,51 @@
     },
     {
       "tome": "080",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs143unkngoog but no author signal in its title/description/creator"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "081",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_081 but no author signal in its title/description/creator"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "082",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs46migngoog but no author signal in its title/description/creator"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "083",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_083 but no author signal in its title/description/creator"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "084",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiae_cursus_completus_gr_vol_084 but no author signal in its title/description/creator"
+      "author": "Theodoretus of Cyrrhus (Cyrus)",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodoretus of Cyrrhus (Cyrus)\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "085",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus79migngoog but no author signal in its title/description/creator"
+      "author": "Basil of Seleucia; Euthalius Deacon of Alexandria; John of Carpathios; aeneas Gazaeos; Zacharias Mitylenes Gelasius of Cyzicus; Theotimus; Ammonius; Andreas of Samosatus; Gennadius of Constantinople; Candidus; Antipater of Bostros; Dalmatius; Timothy; Eustathius.",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Basil of Seleucia; Euthalius Deacon of Alexandria, John of Carpathios, aeneas Gazaeos, Zacharias Mitylenes Gelasius of Cyzicus, Theotimus, Ammonius, Andreas of Samosatus, Gennadius of Constantinople, Candidus, Antipater of Bostros, Dalmatius, Timothy, and Eustathius.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "086-1",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs129unkngoog but no author signal in its title/description/creator"
+      "author": "Timothy of Constantinople; Theodorus; Procopius Deacon of Tyre; Theodorus Bishop of Scythopolitanus; Timothy of Hierosolymitanus; Timothy III of Alexandria; Theodosius of Alexandria; Eusebius of Alexandria; Eusebius of Emesenus; Gregentius of Tapharensis; Epiphanius of Contstantinople; Isaac of Ninivitanus; Barsanuphius of Palestine; Eustathius; Justinian; Agapetus; Leontius Byzantinus.",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Timothy of Constantinople, Theodorus, Procopius Deacon of Tyre, Theodorus Bishop of Scythopolitanus, Timothy of Hierosolymitanus, Timothy III of Alexandria, Theodosius of Alexandria, Eusebius of Alexandria, Eusebius of Emesenus, Gregentius of Tapharensis, Epiphanius of Contstantinople, Isaac of Ninivitanus, Barsanuphius of Palestine, Eustathius, Justinian, Agapetus, and Leontius Byzantinus.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "086-2",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs129unkngoog but no author signal in its title/description/creator"
+      "author": "Leontius Byzantinus (continuation); Ephraimus of Antioch; Paulus Silentiarus; Eutrychius of Constantinople; Evagrius the scholar; Eulogius of Alexandria; Simeon Stylita Junior; Zacharias of Heirosolymitanus; Modesta of Hierosolymitanus; Jobius; Erechtius of Antioch; Peter of Laodocia.",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Leontius Byzantinus (continuation), Ephraimus of Antioch, Paulus Silentiarus, Eutrychius of Constantinople, Evagrius the scholar, Eulogius of Alexandria, Simeon Stylita Junior, Zacharias of Heirosolymitanus, Modesta of Hierosolymitanus, Jobius, Erechtius of Antioch and Peter of Laodocia.\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "087-1",
@@ -563,9 +563,9 @@
     },
     {
       "tome": "087-3",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus97migngoog but no author signal in its title/description/creator"
+      "author": "Procopius of Gaza; Joannes Moschus; Sophronius; Alexander Monachus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Procopius of Gaza, Joannes Moschus, Sophronius, and Alexander Monachus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "088",
@@ -575,15 +575,15 @@
     },
     {
       "tome": "089",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus105migngoog but no author signal in its title/description/creator"
+      "author": "Anastasius of Sinai; Anastasius of Antioch; Anastisius Abbot of Euthymius; Anastasius IV Patriarch of Antioch; Antiochus of Sabe",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Anastasius of Sinai, Anastasius of Antioch, Anastisius Abbot of Euthymius, Anastasius IV Patriarch of Antioch, and Antiochus of Sabe\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "090",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus55migngoog but no author signal in its title/description/creator"
+      "author": "Maximus the Abbot",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Maximus the Abbot\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "091",
@@ -593,9 +593,9 @@
     },
     {
       "tome": "092",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs266unkngoog but no author signal in its title/description/creator"
+      "author": "Paschal Chronicle",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Paschal Chronicle\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "093",
@@ -605,27 +605,27 @@
     },
     {
       "tome": "094",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs62migngoog but no author signal in its title/description/creator"
+      "author": "John of Damascus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John of Damascus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "095",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus50migngoog but no author signal in its title/description/creator"
+      "author": "John of Damascus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John of Damascus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "096",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus54migngoog but no author signal in its title/description/creator"
+      "author": "John of Damascus with John of Nicaea; John the Patriarch of Constantinople; Joannes Euboeensis",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John of Damascus with John of Nicaea, John the Patriarch of Constantinople, and Joannes Euboeensis\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "097",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "John Malalas; Andreas of Jerusalem; Elias of Crete; Theordore Abucara",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"John Malalas, Andreas of Jerusalem, Elias of Crete and Theordore Abucara\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "098",
@@ -635,9 +635,9 @@
     },
     {
       "tome": "099",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus60migngoog but no author signal in its title/description/creator"
+      "author": "Theodori Studitae",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodori Studitae\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "100",
@@ -647,15 +647,15 @@
     },
     {
       "tome": "101",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus29migngoog but no author signal in its title/description/creator"
+      "author": "Photius of Constantinople",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Photius of Constantinople\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "102",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs11migngoog but no author signal in its title/description/creator"
+      "author": "Photius of Constantinople",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Photius of Constantinople\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "103",
@@ -665,9 +665,9 @@
     },
     {
       "tome": "104",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs128migngoog but no author signal in its title/description/creator"
+      "author": "Photius of Constantinople; Petrus Siculus; Peter bishop of Argos; Bartholomew of Edessa",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Photius of Constantinople, Petrus Siculus, Peter bishop of Argos, and Bartholomew of Edessa\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "105",
@@ -677,33 +677,33 @@
     },
     {
       "tome": "106",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs67migngoog but no author signal in its title/description/creator"
+      "author": "Joseppus; Nicephorus the Philosopher; Andreas archbishop of Caesarea in Capadoccia; Arethas Bishop of Caesarea in Cappadocia; Joannes Geometra; Cosmas Vestitor; Leo Patricius; Athanasius Bishop of Corinth; other Greek works",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Joseppus, Nicephorus the Philosopher, Andreas archbishop of Caesarea in Capadoccia, Arethas Bishop of Caesarea in Cappadocia, Joannes Geometra, Cosmas Vestitor, Leo Patricius, and Athanasius Bishop of Corinth, with other Greek works\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "107",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus16migngoog but no author signal in its title/description/creator"
+      "author": "Leo VI Roman Emperor",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Leo VI Roman Emperor\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "108",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus56migngoog but no author signal in its title/description/creator"
+      "author": "Theophanes Abbot; Confessor; Unknown Author; Leo Grammaticus; Anastasii History; Church Librarian",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theophanes Abbot and Confessor, Unknown Author, Leo Grammaticus, and Anastasii History and Church Librarian\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "109",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus12migngoog but no author signal in its title/description/creator"
+      "author": "Scriptores post Theophanem ex edit. Fr. Combefisii",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Scriptores post Theophanem ex edit. Fr. Combefisii\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "110",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Georgius Monachus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Georgius Monachus\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "111",
@@ -713,93 +713,93 @@
     },
     {
       "tome": "112",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs82migngoog but no author signal in its title/description/creator"
+      "author": "Constantine Porphyrogenitus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Constantine Porphyrogenitus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "113",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs70migngoog but no author signal in its title/description/creator"
+      "author": "Constantine Porphyrogenitus; Nicon the Monk in Crete; Theodosius the Deacon",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Constantine Porphyrogenitus, Nicon the Monk in Crete, and Theodosius the Deacon\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "114",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs125migngoog but no author signal in its title/description/creator"
+      "author": "Symeon Metaphrastes",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Symeon Metaphrastes\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "115",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs49migngoog but no author signal in its title/description/creator"
+      "author": "Symeon Metaphrastes",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Symeon Metaphrastes\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "116",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus06migngoog but no author signal in its title/description/creator"
+      "author": "Symeon Metaphrastes",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Symeon Metaphrastes\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "117",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus80migngoog but no author signal in its title/description/creator"
+      "author": "Leonis Diaconi with Hyppolitus Thebanus; Georgides Monachus; Ignatius Diaconus; Nilus; Christophus Protoasecretis; Michael Hamartolus; Anonymus; Suidas",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Leonis Diaconi with Hyppolitus Thebanus, Georgides Monachus, Ignatius Diaconus, Nilus, Christophus Protoasecretis, Michael Hamartolus, Anonymus, and Suidas\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "118",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs14migngoog but no author signal in its title/description/creator"
+      "author": "oecumenius Bishop of Trikka",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"oecumenius Bishop of Trikka\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "119",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs106migngoog but no author signal in its title/description/creator"
+      "author": "oecumenius Bishop of Trikka",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"oecumenius Bishop of Trikka\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "120",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus17migngoog but no author signal in its title/description/creator"
+      "author": "Anonymous; Theodorus Iconii Episcopus; Leo Presbyter; Leo Grammaticus; Joannis Presbyter; Epiphanius Monachus Hierosolymitanus; Alexius Patriarch of Constantinople; Demetrius Syncellus Cyzicenus Metropolita; Nicetas Chartophylax Nicaenus; Michael Cerularius Patriarch of Constantinople; Samonas Gaxensis Episcopus; Leo Achridanus Bulgarorum Archiepiscopus; Nicetas Pectoratus Presbyter et Monasterii Studiensis Monachus; Joannes Euchaitarum MetropolitaJoannis Xiphilini Archbishop of Constantinople; Joannes Deacon of Constantinople; Symeonis Junioris",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Anonymous, Theodorus Iconii Episcopus, Leo Presbyter, Leo Grammaticus, Joannis Presbyter, Epiphanius Monachus Hierosolymitanus, Alexius Patriarch of Constantinople, Demetrius Syncellus Cyzicenus Metropolita, Nicetas Chartophylax Nicaenus, Michael Cerularius Patriarch of Constantinople, Samonas Gaxensis Episcopus, Leo Achridanus Bulgarorum Archiepiscopus, Nicetas Pectoratus Presbyter et Monasterii Studiensis Monachus, Joannes Euchaitarum MetropolitaJoannis Xiphilini Archbishop of Constantinople, Joannes Deacon of Constantinople, and Symeonis Junioris\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "121",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs15migngoog but no author signal in its title/description/creator"
+      "author": "Georgii Cedreni",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Georgii Cedreni\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "122",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs61migngoog but no author signal in its title/description/creator"
+      "author": "Georgii Cedreni",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Georgii Cedreni\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "123",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus03migngoog but no author signal in its title/description/creator"
+      "author": "Theophylactus Bulgariae Archiepiscopus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theophylactus Bulgariae Archiepiscopus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "124",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus37migngoog but no author signal in its title/description/creator"
+      "author": "Theophylactus Bulgariae Archiepiscopus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theophylactus Bulgariae Archiepiscopus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "125",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Theophylactus Bulgariae Archiepiscopus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theophylactus Bulgariae Archiepiscopus\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "126",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Theophylactus Bulgariae Archiepiscopus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theophylactus Bulgariae Archiepiscopus\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "127",
@@ -809,15 +809,15 @@
     },
     {
       "tome": "128",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs261unkngoog but no author signal in its title/description/creator"
+      "author": "Euthymius Zigabeno",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Euthymius Zigabeno\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "129",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus62migngoog but no author signal in its title/description/creator"
+      "author": "Euthymius Zigabeno",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Euthymius Zigabeno\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "130",
@@ -833,9 +833,9 @@
     },
     {
       "tome": "132",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus40migngoog but no author signal in its title/description/creator"
+      "author": "Theophanes Kerameus; Nilus Doxapatrius; John Bishop of Antioch; Joannes Comnenus; Isaacus Magnae Armeniae Catholicus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theophanes Kerameus, Nilus Doxapatrius, John Bishop of Antioch, Joannes Comnenus, Isaacus Magnae Armeniae Catholicus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "133",
@@ -845,21 +845,21 @@
     },
     {
       "tome": "134",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus68migngoog but no author signal in its title/description/creator"
+      "author": "Joannis Zonarae",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Joannis Zonarae\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "135",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs26migngoog but no author signal in its title/description/creator"
+      "author": "Joannis Zonarae Georgius Xiphilinus; Isaacius Angleus; Neophytus; Joannes Chilas; Nicolaus Methonensis in Peloponneso Metropolita; Eustathius Thessalonicensis Metropolita",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Joannis Zonarae Georgius Xiphilinus, Isaacius Angleus, Neophytus, Joannes Chilas, Nicolaus Methonensis in Peloponneso Metropolita, and Eustathius Thessalonicensis Metropolita\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "136",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs26hopfgoog but no author signal in its title/description/creator"
+      "author": "Eustathius of Thessalonica with Antonius Melissa",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Eustathius of Thessalonica with Antonius Melissa\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "137",
@@ -869,27 +869,27 @@
     },
     {
       "tome": "138",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs31hopfgoog but no author signal in its title/description/creator"
+      "author": "Theodori Balsamonis",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Theodori Balsamonis\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "139",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs63migngoog but no author signal in its title/description/creator"
+      "author": "Isidorus Thessalonicensis Metropolita; Nicetas Maroneae Thessalonicensis Metropolita; Joannes Citri Episcopus; Marcus Alexandrinus Byzantinus; Nicetas Choniata",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Isidorus Thessalonicensis Metropolita, Nicetas Maroneae Thessalonicensis Metropolita, Joannes Citri Episcopus, Marcus Alexandrinus Byzantinus, Nicetas Choniata\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "140",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs90migngoog but no author signal in its title/description/creator"
+      "author": "Nicetas Choniata; Anonymi Graeci; Michael Acominatus Choniata Archbishop of Athens; Theodorus Alanicus; Theordous Andidensis Episcopus; Manuel Magnus Rhetor Constantinople; Pantaleo; Manuel Charitopulus; Germanus II; Michael Chumnus; Theodorus Ducas Lascaris; Methodius; Nicephorus II; Constantinus Acropolita; Arsenius Autorianus; Georgius Acropolita; Nicephorus Chumnus; Alexander IV; Sixtus IV",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Nicetas Choniata, Anonymi Graeci, Michael Acominatus Choniata Archbishop of Athens, Theodorus Alanicus, Theordous Andidensis Episcopus, Manuel Magnus Rhetor Constantinople, Pantaleo, Manuel Charitopulus, Germanus II, Michael Chumnus, Theodorus Ducas Lascaris, Methodius, Nicephorus II, Constantinus Acropolita, Arsenius Autorianus, Georgius Acropolita, Nicephorus Chumnus, Alexander IV, and Sixtus IV\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "141",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs45hopfgoog but no author signal in its title/description/creator"
+      "author": "Joannes Veccus; Constantinus Meliteniota; Georgius Metochita",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Joannes Veccus, Constantinus Meliteniota, and Georgius Metochita\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "142",
@@ -899,39 +899,39 @@
     },
     {
       "tome": "143",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs14hopfgoog but no author signal in its title/description/creator"
+      "author": "Ephraemius Chronographus; Theoleptus Philadelphiensium Metropolita; Georgius Pachymeres",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Ephraemius Chronographus, Theoleptus Philadelphiensium Metropolita, and Georgius Pachymeres\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "144",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs123unkngoog but no author signal in its title/description/creator"
+      "author": "Georgius Pachymeres; Theodorus Metochita Magnus Logtheta; Matthaeus Blastares Hieromonachus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Georgius Pachymeres, Theodorus Metochita Magnus Logtheta, and Matthaeus Blastares Hieromonachus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "145",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus11migngoog but no author signal in its title/description/creator"
+      "author": "Matthaeus Blastares Hieromonachus; Theodulus Monachus; Alias Thomas Magister; Nicephorus Callistus Xanthopulus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Matthaeus Blastares Hieromonachus, Theodulus Monachus, Alias Thomas Magister, Nicephorus Callistus Xanthopulus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "146",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus71migngoog but no author signal in its title/description/creator"
+      "author": "Nicephorus Callistus Xanthopulus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Nicephorus Callistus Xanthopulus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "147",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus46migngoog but no author signal in its title/description/creator"
+      "author": "Nicephorus Callistus Xanthopulus; Callistus et Ignatius Xanthopuli Monachi; Callistus Patriarcha Constantinopuli Monachi; Callistus Telicoudes; Callistus Cataphugiota; Nicepphorus Monachus; Maximus Planudes Cpolitanus Monachus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Nicephorus Callistus Xanthopulus, Callistus et Ignatius Xanthopuli Monachi, Callistus Patriarcha Constantinopuli Monachi, Callistus Telicoudes, Callistus Cataphugiota, Nicepphorus Monachus, Maximus Planudes Cpolitanus Monachus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "148",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus35migngoog but no author signal in its title/description/creator"
+      "author": "Nicephorus Gregoras",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Nicephorus Gregoras\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "149",
@@ -941,15 +941,15 @@
     },
     {
       "tome": "150",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched, no Google Books title signal"
+      "author": "Constantinus Harmenopulus; Macarius Chrysocephalus Philadelphiensis Metropolita; Joannes Caleca Cpolitanus Patriarcha; Theophanes Nicaenus Archiepiscopus; Nicolaus Cabasila Thessalonicensis Metropolita; Gregorius Palamas Thessalonicensis Metropolita",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Constantinus Harmenopulus, Macarius Chrysocephalus Philadelphiensis Metropolita, Joannes Caleca Cpolitanus Patriarcha, Theophanes Nicaenus Archiepiscopus, Nicolaus Cabasila Thessalonicensis Metropolita, Gregorius Palamas Thessalonicensis Metropolita\" (no archive.org item; data/pg-tome-reltech.json)"
     },
     {
       "tome": "151",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs45migngoog but no author signal in its title/description/creator"
+      "author": "Gregorius Palamas Thessalonicensis Metropolita; Gregorius Acindynus Monachus et Theologus; Barlaamus de Seminaria; Gyracensis Episcopus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Gregorius Palamas Thessalonicensis Metropolita, Gregorius Acindynus Monachus et Theologus, Barlaamus de Seminaria, Gyracensis Episcopus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "152",
@@ -959,15 +959,15 @@
     },
     {
       "tome": "153",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs36hopfgoog but no author signal in its title/description/creator"
+      "author": "Joannes Cantacuzenus Imp. CP",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Joannes Cantacuzenus Imp. CP\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "154",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus14migngoog but no author signal in its title/description/creator"
+      "author": "Joannes Cantacuzenus Imp. CP; Philotheus Cpolitanus Patriarcha; Demetrius Cydonius; Maximus Chrysoberga Monachus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Joannes Cantacuzenus Imp. CP, Philotheus Cpolitanus Patriarcha, Demetrius Cydonius, Maximus Chrysoberga Monachus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "155",
@@ -983,9 +983,9 @@
     },
     {
       "tome": "157",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologicursus98migngoog but no author signal in its title/description/creator"
+      "author": "Georgius Codinus Curopalata; Ducas",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Georgius Codinus Curopalata and Ducas\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "158",
@@ -995,9 +995,9 @@
     },
     {
       "tome": "159",
-      "author": null,
-      "confidence": "none",
-      "evidence": "matched patrologiaecurs86migngoog but no author signal in its title/description/creator"
+      "author": "Laonicus Chalcocondyla Atheniensis; Leonardus Chiensis Mitlyenaeus Archiepiscopus; Isidorus S.R.E. Cardinalis Ruthenorum Episcopus; Josephus Methonensis Episcopus",
+      "confidence": "medium",
+      "evidence": "RelTech PG volume list entry \"Laonicus Chalcocondyla Atheniensis, Leonardus Chiensis Mitlyenaeus Archiepiscopus, Isidorus S.R.E. Cardinalis Ruthenorum Episcopus, Josephus Methonensis Episcopus\" (data/pg-tome-reltech.json)"
     },
     {
       "tome": "160",
