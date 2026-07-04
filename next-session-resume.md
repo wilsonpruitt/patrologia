@@ -1,6 +1,13 @@
 # Next session — resume note
 
-*Updated 2026-07-03 (landing + resolver session).*
+*Updated 2026-07-04 (Stripe + OG + Phase 3 prep session).*
+
+## → NEXT SESSION: Phase 3 OCR benchmark (clear + switch to Sonnet)
+**Start here.** Read `benchmark/SESSION-BRIEF.md` — the grounded, both-arms handoff (commit `3d8153c`). Run it on **Sonnet** (Phase 3 = Sonnet mechanics). Key facts already scouted: Latin ground truth is local (`sources/pl/tei/`, 5,276 TEI); **Greek ground truth is NOT downloaded — fetch Zenodo record `20008699`** first (PLAN.md's `7296539` is stale). Deliverable: `benchmark/RESULTS.md` (CER/WER × model × cost, both arms) + the decision-rule recommendation. Still-open decisions (Wilson): Joel read-through (two Greek-vs-Latin rulings) + Migne biography read-through — independent of Phase 3.
+
+## Done 2026-07-04 (this session)
+- **Support tiers now Migne-native Stripe links** (commit `b764b0f`, deployed): were reusing Acta products; created live Wroot Labs products/prices/links — $10 column / $300 work / $10-mo patron, each tagged metadata `project=migne`+`tier`. Old Acta links untouched.
+- **OG image + social meta** (commit `e9d5ea7`, deployed, verified live): `site/og.png` (1200×630, shelf + PG 162 ghost); `site/og.html` = regen source; OG/Twitter tags added to `site/index.html` AND `scripts/build-landing.mjs` so rebuilds keep them.
 
 ## State
 
