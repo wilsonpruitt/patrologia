@@ -87,7 +87,7 @@ const CHECKLIST_AUTHORS = [
   { name: 'Theodoret of Cyrus', match: /theodoret/i },
   { name: 'Gregory of Nazianzus', match: /gregori?us nazianz/i },
   { name: 'John Zonaras (already Calfa-covered, PG 134)', match: /zonaras/i },
-  { name: 'Anna Comnena (PG volume unconfirmed)', match: /comnena/i },
+  { name: 'Anna Comnena', match: /comnena/i },
 ];
 
 for (const { name, match } of CHECKLIST_AUTHORS) {

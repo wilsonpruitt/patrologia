@@ -15,12 +15,42 @@
 //     contains THIS tome's number is real evidence for THIS tome — crediting
 //     every author named anywhere in the blurb to every tome that shares it
 //     is the bug this script exists to avoid.
+//  3. Google Books title, for tomes with NO archive.org item at all (see
+//     data/pg-tome-googlebooks.json / scripts/gapfill-pg-googlebooks.mjs).
+//     "Title - Author" plain-HTML <title> tags, already filtered clear of
+//     Migne's boilerplate and of one known mismatched link (PG 105/Origen).
+//     Confidence is 'medium' — a single archive.org/Google catalog title,
+//     same tier as the shared-blurb span match.
 
 import fs from 'node:fs';
 import path from 'node:path';
 
 const root = path.join(import.meta.dirname, '..');
 const idx = JSON.parse(fs.readFileSync(path.join(root, 'data/pg-tome-index.json'), 'utf8'));
+const gbPath = path.join(root, 'data/pg-tome-googlebooks.json');
+const gbByTome = new Map();
+if (fs.existsSync(gbPath)) {
+  const gb = JSON.parse(fs.readFileSync(gbPath, 'utf8'));
+  for (const t of gb.tomes) if (t.specificTitles.length) gbByTome.set(t.tome, t.specificTitles);
+}
+
+// "Socratis Scholastici, Hermiae Sozomeni Historia ecclesiastica - Socrates
+// (Scholasticus)" -> "Socrates (Scholasticus)". Multiple specificTitles for
+// one tome are sometimes language/transliteration variants of the SAME work
+// (dedupe those) and sometimes genuinely DIFFERENT bundled authors (e.g. PG
+// 131 = Euthymius Zigabenus + a fragment of Anna Comnena's Alexias) — keep
+// every distinct author rather than collapsing to the majority, so a search
+// for any one of them still finds the tome.
+function parseGoogleBooksAuthors(titles) {
+  const seen = [];
+  for (const title of titles) {
+    const m = title.match(/-\s*([^-]+)$/);
+    if (!m) continue;
+    const author = m[1].trim();
+    if (!seen.includes(author)) seen.push(author);
+  }
+  return seen;
+}
 
 function tomeNum(tome) {
   return parseInt(tome.split('-')[0], 10);
@@ -50,7 +80,18 @@ function parseVolTitleAuthor(title) {
 const results = [];
 for (const t of idx.tomes) {
   if (t.status !== 'matched') {
-    results.push({ tome: t.tome, author: null, confidence: 'none', evidence: 'no archive.org candidate matched' });
+    const gbTitles = gbByTome.get(t.tome);
+    const gbAuthors = gbTitles ? parseGoogleBooksAuthors(gbTitles) : [];
+    if (gbAuthors.length) {
+      results.push({
+        tome: t.tome,
+        author: gbAuthors.join('; '),
+        confidence: 'medium',
+        evidence: `Google Books title(s) ${JSON.stringify(gbTitles)} (no archive.org item; data/pg-tome-googlebooks.json)`,
+      });
+    } else {
+      results.push({ tome: t.tome, author: null, confidence: 'none', evidence: 'no archive.org candidate matched, no Google Books title signal' });
+    }
     continue;
   }
   const num = tomeNum(t.tome);

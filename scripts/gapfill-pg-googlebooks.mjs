@@ -25,6 +25,12 @@ const gapTomes = new Set(tomeIndex.tomes.filter(t => t.status === 'no-candidate'
 
 const GENERIC_RE = /^patrologi[aæ]e?\s+cursus\s+completus\b/i;
 
+// ovIUAAAAQAAJ ("Origenous ta euriskomena panta - Origen") is linked to PG 105
+// in volumes.json but 105's other 2 candidates both point to Nicetas of
+// Paphlagonia/Byzantium — this looks like a mismatched googlebooks link, not
+// a real signal. Excluded so it can't be credited to 105 downstream.
+const EXCLUDE_IDS = new Set(['ovIUAAAAQAAJ']);
+
 function isGeneric(title) {
   if (!title) return true;
   const stripped = title.replace(/\s*-\s*Google Books\s*$/i, '').trim();
@@ -70,7 +76,7 @@ for (const v of volumes.volumes) {
     await sleep(800); // polite spacing, no established Google Books convention yet
     perTome.candidates.push({ id, title, generic: title ? isGeneric(title) : null, error });
   }
-  const specific = perTome.candidates.filter(c => c.title && !c.generic);
+  const specific = perTome.candidates.filter(c => c.title && !c.generic && !EXCLUDE_IDS.has(c.id));
   perTome.specificTitles = specific.map(c => c.title);
   results.push(perTome);
   console.log(`${v.tome}: ${perTome.candidates.length} ids, ${specific.length} specific title(s)`);

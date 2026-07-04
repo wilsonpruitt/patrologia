@@ -3,10 +3,10 @@
   "source": "data/pg-tome-index.json",
   "totals": {
     "total": 167,
-    "withAuthor": 30,
+    "withAuthor": 56,
     "highConfidence": 20,
-    "mediumConfidence": 10,
-    "none": 137
+    "mediumConfidence": 36,
+    "none": 111
   },
   "tomes": [
     {
@@ -425,21 +425,21 @@
     },
     {
       "tome": "067",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Socrates (Scholasticus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Socratis Scholastici, Hermiae Sozomeni Historia ecclesiastica - Socrates (Scholasticus)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "068",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Saint Cyril (Patriarch of Alexandria)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"S.P.N. Cyrilli Alexandriae Archiepiscopi opera quae reperiri potuerunt omnia - Saint Cyril (Patriarch of Alexandria)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "069",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "070",
@@ -451,37 +451,37 @@
       "tome": "071",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "072",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "073",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "074",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Cyrillus (Alexandrinus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Tou en Hagiois Patros Hēmōn Kyrillou Archiepiskopou Alexandreias ta ... - Cyrillus (Alexandrinus)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "075",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Cyrillus (Alexandrinus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Tu en hagiois hēmōn Kyrillu archiespiskopu Alexandreias ta heuriskomena panta: 8 - Cyrillus (Alexandrinus)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "076",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Saint Cyril (Patriarch of Alexandria)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Ta heuriskomena panta - Saint Cyril (Patriarch of Alexandria)\",\"S.P.N. Cyrilli Alexandriae Archiepiscopi opera quae reperiri potuerunt omnia - Saint Cyril (Patriarch of Alexandria)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "077",
@@ -491,15 +491,15 @@
     },
     {
       "tome": "078",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Isidorus (Pelusiota); Isidore (st, of Pelusium.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Epistolae - Isidorus (Pelusiota)\",\"Tou en hagiois patros hēmōn Isidōrou, tou Pēlousiōtou, epistolōn biblia ... - Isidore (st, of Pelusium.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "079",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Nilus (Ancyranus); Saint Nilus (of Ancyra)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Tou en Hagiois Patros Hēmōn Neilou Abba ta heuriskomena panta - Nilus (Ancyranus)\",\"Ta heuriskomena panta - Saint Nilus (of Ancyra)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "080",
@@ -569,9 +569,9 @@
     },
     {
       "tome": "088",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Saint John (Climacus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου σχολαστικοῦ ... ἅπαντα - Saint John (Climacus)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "089",
@@ -587,9 +587,9 @@
     },
     {
       "tome": "091",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Saint Maximus (Confessor)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Sancti Patris Nostri Maximi Confessoris, opera omnia - Saint Maximus (Confessor)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "092",
@@ -625,13 +625,13 @@
       "tome": "097",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "098",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Saint Germanus I (Patriarch of Constantinople); Germanus (Constantinopolitanus.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Tou en Hagiois Patros Hēmōn Germanou Archiepiskopou Kōnstantinoupoleōs ta ... - Saint Germanus I (Patriarch of Constantinople)\",\"Ta heuriskomena panta - Saint Germanus I (Patriarch of Constantinople)\",\"Heuriskomena panta - Germanus (Constantinopolitanus.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "099",
@@ -641,9 +641,9 @@
     },
     {
       "tome": "100",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Saint Nicephorus (Patriarch of Constantinople.); Nicephorus (Constantinopolitanus, I.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Ta heuriskomena panta - Saint Nicephorus (Patriarch of Constantinople.)\",\"Sancti Patris Nostri Nicephori Archiepiscopi Constantinopolitani opera quae ... - Saint Nicephorus (Patriarch of Constantinople.)\",\"Heuriskomena panta - Nicephorus (Constantinopolitanus, I.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "101",
@@ -659,9 +659,9 @@
     },
     {
       "tome": "103",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Photius (patriarch of Constantinople.); Patriarch Photios I. (Konstantinopel, Heiliger)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Phōtiou ... ta heuriskomena panta. Photii ... opera omnia, recogn. J.-P. Migne - Photius (patriarch of Constantinople.)\",\"Phōtiou ... ta heuriskomena panta. Photii ... opera omnia, recogn. J.-P. Migne - Photius (patriarch of Constantinople.)\",\"Photiu, patriarchu Kōnstantinupoleōs, ta heuriskomena panta: in classes ... - Patriarch Photios I. (Konstantinopel, Heiliger)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "104",
@@ -671,9 +671,9 @@
     },
     {
       "tome": "105",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Nicetas (Byzantinus); Nicetas (David), Nicetas (Byzantinus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Νικήτα τοῦ Παφλαγόνος, τοῦ καὶ Δαβίδ, Νικήτα Βυζαντίου τὰ εὑρισκόμενα πάντα - Nicetas (Byzantinus)\",\"Heuriskomena panta - Nicetas (David), Nicetas (Byzantinus)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "106",
@@ -703,7 +703,7 @@
       "tome": "110",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "111",
@@ -793,19 +793,19 @@
       "tome": "125",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "126",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "127",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Nicephorus Bryennius",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Nicephori Bryennii Historiarum libri IV - Nicephorus Bryennius\",\"Nicephori Bryennii historiarum libri IV: Caroli Dufresnii Du Cangii notis ... - Nicephorus Bryennius\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "128",
@@ -821,15 +821,15 @@
     },
     {
       "tome": "130",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Euthymios Zigavēnos; Euthymius (Zigabenus); Euthymius (Zigabenus.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Opera quae reperiri potuerunt omnia - Euthymios Zigavēnos\",\"Euthymiu tu Zigabēnu ta heuriskomena panta: Iuxta varias ed. Lipsiensem ... - Euthymius (Zigabenus)\",\"Euthumiou ... ta heuriskomena panta. Euthymii ... opera quæ reperire ... - Euthymius (Zigabenus.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "131",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Euthymius (Zigabenus); Anna Comnena (daughter of Alexius I, emperor of Constantinople.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Euthymiu tu Zigabēnu ta heuriskomena panta: Iuxta varias ed. Lipsiensem ... - Euthymius (Zigabenus)\",\"Annēs tēs Komnēnēs ... Alexias, a P. Possino Lat. interpretatione, glossario ... - Anna Comnena (daughter of Alexius I, emperor of Constantinople.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "132",
@@ -839,9 +839,9 @@
     },
     {
       "tome": "133",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Johannes (Cinnamus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Historiae - Johannes (Cinnamus)\",\"Historiae - Johannes (Cinnamus)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "134",
@@ -863,9 +863,9 @@
     },
     {
       "tome": "137",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Theodoros Balsamon (patriarch of Antioch.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Theodōrou tou Balsamōn ... ta heuriskomena panta. Theodori Balsamonis ... - Theodoros Balsamon (patriarch of Antioch.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "138",
@@ -893,9 +893,9 @@
     },
     {
       "tome": "142",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Nicephorus (Blemmydes); Nicephorus (Blemmyda.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Nicephori Blemmidae opera omnia - Nicephorus (Blemmydes)\",\"Heuriskomena panta - Nicephorus (Blemmyda.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "143",
@@ -935,15 +935,15 @@
     },
     {
       "tome": "149",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Nicephorus (Gregoras)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"He rōmaikē historia: 2 - Nicephorus (Gregoras)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "150",
       "author": null,
       "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "evidence": "no archive.org candidate matched, no Google Books title signal"
     },
     {
       "tome": "151",
@@ -953,9 +953,9 @@
     },
     {
       "tome": "152",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Manuel (Caleca); Manuel Calécas",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"C[onstantino]politanorum patriarcharum diplomata, synodicae constitutiones ... - Manuel (Caleca)\",\"Manuelis Calecae ... opera omnia. Accedunt Joannis Cyparissiotae, Matthaei ... - Manuel Calécas\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "153",
@@ -971,15 +971,15 @@
     },
     {
       "tome": "155",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike); Simeon (Novus Theologus)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike)\",\"Heuriskomena panta - Simeon (Novus Theologus)\",\"Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "156",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Manuel II Palaeologus (Emperor of the East); Imperator Manuel (Imperium Byzantinum, II.)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East)\",\"Manuelis Palaeologi Opera omnia, theologica, polemica, panegyrica ... - Manuel II Palaeologus (Emperor of the East)\",\"Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East)\",\"Heuriskomena panta - Imperator Manuel (Imperium Byzantinum, II.)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "157",
@@ -989,9 +989,9 @@
     },
     {
       "tome": "158",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Michael (Glycas)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Heuriskomena panta - Michael (Glycas)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "159",
@@ -1001,15 +1001,15 @@
     },
     {
       "tome": "160",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Gennadius II (Patriarch of Constantinople)",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"Gennadii, Constaninopolitani Patriarchae, qui et Georgius Scholarius, opera ... - Gennadius II (Patriarch of Constantinople)\",\"Gennadii, Constantinopolitani Patriarchæ, qui et Georgius Scholarius, Opera ... - Gennadius II (Patriarch of Constantinople)\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     },
     {
       "tome": "161",
-      "author": null,
-      "confidence": "none",
-      "evidence": "no archive.org candidate matched"
+      "author": "Cardinal Bēssariōn",
+      "confidence": "medium",
+      "evidence": "Google Books title(s) [\"˜Τοῦœ σοφωτάτου καρδινάλεως Βησσαρίωνος τὰ εὑρισκόμενα πάντα - Cardinal Bēssariōn\"] (no archive.org item; data/pg-tome-googlebooks.json)"
     }
   ]
 }

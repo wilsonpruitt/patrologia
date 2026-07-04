@@ -1,6 +1,6 @@
 {
   "generated": "gapfill-pg-googlebooks.mjs",
-  "note": "Google Books plain-HTML <title> tag for each PG registry googlebooks link, for the 35 tomes with no archive.org item match. \"generic\" titles are Migne's own boilerplate (\"Patrologiae cursus completus...\") and carry no author signal; specificTitles are the non-generic survivors, which are the closest thing to a verified author/content field for these tomes. Titles are still archive.org/Google catalog text, not scraped from third-party sites or memory. Reprocessed with a tighter generic-title filter (also excludes \"Patrologiae Graecae - Jacques-Paul Migne\" boilerplate).",
+  "note": "Google Books plain-HTML <title> tag for each PG registry googlebooks link, for the 35 tomes with no archive.org item match. \"generic\" titles are Migne's own boilerplate (\"Patrologiae cursus completus...\") and carry no author signal; specificTitles are the non-generic survivors, which are the closest thing to a verified author/content field for these tomes. Titles are still archive.org/Google catalog text, not scraped from third-party sites or memory. The ovIUAAAAQAAJ mismatched-link exclusion (PG 105 vs Origen) is now handled structurally in gapfill-pg-googlebooks.mjs (EXCLUDE_IDS), not as a loose flag.",
   "totals": {
     "tomes": 35,
     "fetched": 162,
@@ -683,8 +683,7 @@
       ],
       "specificTitles": [
         "Νικήτα τοῦ Παφλαγόνος, τοῦ καὶ Δαβίδ, Νικήτα Βυζαντίου τὰ εὑρισκόμενα πάντα - Nicetas (Byzantinus)",
-        "Heuriskomena panta - Nicetas (David), Nicetas (Byzantinus)",
-        "Origenous ta euriskomena panta - Origen"
+        "Heuriskomena panta - Nicetas (David), Nicetas (Byzantinus)"
       ]
     },
     {
@@ -1266,8 +1265,5 @@
         "˜Τοῦœ σοφωτάτου καρδινάλεως Βησσαρίωνος τὰ εὑρισκόμενα πάντα - Cardinal Bēssariōn"
       ]
     }
-  ],
-  "flags": [
-    "Tome 105 candidate ovIUAAAAQAAJ (\"Origenous ta euriskomena panta - Origen\") looks like a mismatched googlebooks link in volumes.json, not a real signal for PG 105 (PG 105 is Nicetas of Paphlagonia/Byzantium territory per its other 2 candidates) — do not credit Origen to 105 without checking the link."
   ]
 }
