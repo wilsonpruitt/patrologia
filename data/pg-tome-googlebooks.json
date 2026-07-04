@@ -1,0 +1,1273 @@
+{
+  "generated": "gapfill-pg-googlebooks.mjs",
+  "note": "Google Books plain-HTML <title> tag for each PG registry googlebooks link, for the 35 tomes with no archive.org item match. \"generic\" titles are Migne's own boilerplate (\"Patrologiae cursus completus...\") and carry no author signal; specificTitles are the non-generic survivors, which are the closest thing to a verified author/content field for these tomes. Titles are still archive.org/Google catalog text, not scraped from third-party sites or memory. Reprocessed with a tighter generic-title filter (also excludes \"Patrologiae Graecae - Jacques-Paul Migne\" boilerplate).",
+  "totals": {
+    "tomes": 35,
+    "fetched": 162,
+    "failed": 0,
+    "tomesWithSpecificTitle": 26
+  },
+  "tomes": [
+    {
+      "tome": "067",
+      "candidates": [
+        {
+          "id": "WivbHxo0L-sC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "qIfYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "ZuhUfIczEzoC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "fvYUAAAAQAAJ",
+          "title": "Socratis Scholastici, Hermiae Sozomeni Historia ecclesiastica - Socrates (Scholasticus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "t3gL4OcwbuEC",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "ZpdBAAAAcAAJ",
+          "title": "Patrologiae cursus completus seu Bibliotheca universalis, integra, uniformis ...",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Socratis Scholastici, Hermiae Sozomeni Historia ecclesiastica - Socrates (Scholasticus)"
+      ]
+    },
+    {
+      "tome": "068",
+      "candidates": [
+        {
+          "id": "5hrvsqzMt3oC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "xGInMesDJhEC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "xx8RAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "hrvUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "YIjYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "2vYUAAAAQAAJ",
+          "title": "S.P.N. Cyrilli Alexandriae Archiepiscopi opera quae reperiri potuerunt omnia - Saint Cyril (Patriarch of Alexandria)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "S.P.N. Cyrilli Alexandriae Archiepiscopi opera quae reperiri potuerunt omnia - Saint Cyril (Patriarch of Alexandria)"
+      ]
+    },
+    {
+      "tome": "069",
+      "candidates": [
+        {
+          "id": "uZJBAAAAcAAJ",
+          "title": "Patrologiae cursus completus seu Bibliotheca universalis, integra, uniformis ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "BwYoxjSPV1kC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "bQMd3AVODNMC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "LInYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "071",
+      "candidates": [
+        {
+          "id": "mleGEXfmC7UC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "w0P9Ah8AZBMC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "LRURAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "GbzUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "worYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "072",
+      "candidates": [
+        {
+          "id": "1W2B6-N_yv0C",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "zXxgqcH8TFgC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "bRURAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "PLzUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "aIvYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "073",
+      "candidates": [
+        {
+          "id": "ywsNQz1fTewC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "0RURAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "EozYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "CKJob2RCl70C",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "oiVKAAAAcAAJ",
+          "title": "Patrologiae cursus completus: seu Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "074",
+      "candidates": [
+        {
+          "id": "g9FrjeaPlNUC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "Azz1CPuHtXQC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "HBYRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "z7zUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "sozYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "iPcUAAAAQAAJ",
+          "title": "Tou en Hagiois Patros Hēmōn Kyrillou Archiepiskopou Alexandreias ta ... - Cyrillus (Alexandrinus)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Tou en Hagiois Patros Hēmōn Kyrillou Archiepiskopou Alexandreias ta ... - Cyrillus (Alexandrinus)"
+      ]
+    },
+    {
+      "tome": "075",
+      "candidates": [
+        {
+          "id": "WdkAawkOcAgC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "MGTsxMNY76cC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "tBYRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "T73UAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "fI3YAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "c1owAAAAYAAJ",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "_yJJAAAAcAAJ",
+          "title": "Tu en hagiois hēmōn Kyrillu archiespiskopu Alexandreias ta heuriskomena panta: 8 - Cyrillus (Alexandrinus)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Tu en hagiois hēmōn Kyrillu archiespiskopu Alexandreias ta heuriskomena panta: 8 - Cyrillus (Alexandrinus)"
+      ]
+    },
+    {
+      "tome": "076",
+      "candidates": [
+        {
+          "id": "7yMMAAAAIAAJ",
+          "title": "Ta heuriskomena panta - Saint Cyril (Patriarch of Alexandria)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "kQAr7bJzeYUC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "PBcRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "sIvYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series latina",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "No7YAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "ofDBwLB9iAQC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "1FowAAAAYAAJ",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "1vcUAAAAQAAJ",
+          "title": "S.P.N. Cyrilli Alexandriae Archiepiscopi opera quae reperiri potuerunt omnia - Saint Cyril (Patriarch of Alexandria)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Ta heuriskomena panta - Saint Cyril (Patriarch of Alexandria)",
+        "S.P.N. Cyrilli Alexandriae Archiepiscopi opera quae reperiri potuerunt omnia - Saint Cyril (Patriarch of Alexandria)"
+      ]
+    },
+    {
+      "tome": "078",
+      "candidates": [
+        {
+          "id": "EbPW-lk3pfMC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "WY_YAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "BSNJAAAAcAAJ",
+          "title": "Epistolae - Isidorus (Pelusiota)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "574UAAAAQAAJ",
+          "title": "Tou en hagiois patros hēmōn Isidōrou, tou Pēlousiōtou, epistolōn biblia ... - Isidore (st, of Pelusium.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Epistolae - Isidorus (Pelusiota)",
+        "Tou en hagiois patros hēmōn Isidōrou, tou Pēlousiōtou, epistolōn biblia ... - Isidore (st, of Pelusium.)"
+      ]
+    },
+    {
+      "tome": "079",
+      "candidates": [
+        {
+          "id": "w4_YAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "HPgUAAAAQAAJ",
+          "title": "Tou en Hagiois Patros Hēmōn Neilou Abba ta heuriskomena panta - Nilus (Ancyranus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "9MDsPFDODzYC",
+          "title": "Ta heuriskomena panta - Saint Nilus (of Ancyra)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Tou en Hagiois Patros Hēmōn Neilou Abba ta heuriskomena panta - Nilus (Ancyranus)",
+        "Ta heuriskomena panta - Saint Nilus (of Ancyra)"
+      ]
+    },
+    {
+      "tome": "088",
+      "candidates": [
+        {
+          "id": "55TYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "jh1BAQAAIAAJ",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "M8cUAAAAQAAJ",
+          "title": "Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου σχολαστικοῦ ... ἅπαντα - Saint John (Climacus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "mvy9-yVmQ4kC",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Ἰωάννου σχολαστικοῦ ... ἅπαντα - Saint John (Climacus)"
+      ]
+    },
+    {
+      "tome": "091",
+      "candidates": [
+        {
+          "id": "NsPUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "lk_GcK0lXLIC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "0PIUAAAAQAAJ",
+          "title": "Sancti Patris Nostri Maximi Confessoris, opera omnia - Saint Maximus (Confessor)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Sancti Patris Nostri Maximi Confessoris, opera omnia - Saint Maximus (Confessor)"
+      ]
+    },
+    {
+      "tome": "097",
+      "candidates": [
+        {
+          "id": "qiERAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "uZbYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "098",
+      "candidates": [
+        {
+          "id": "4LO33nBPHLkC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "6ZbYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "DMgUAAAAQAAJ",
+          "title": "Tou en Hagiois Patros Hēmōn Germanou Archiepiskopou Kōnstantinoupoleōs ta ... - Saint Germanus I (Patriarch of Constantinople)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "epNBAAAAcAAJ",
+          "title": "Patrologiae cursus completus seu Bibliotheca universalis, integra, uniformis ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "2X8gsKpRhvIC",
+          "title": "Ta heuriskomena panta - Saint Germanus I (Patriarch of Constantinople)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "kxJKAAAAcAAJ",
+          "title": "Heuriskomena panta - Germanus (Constantinopolitanus.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Tou en Hagiois Patros Hēmōn Germanou Archiepiskopou Kōnstantinoupoleōs ta ... - Saint Germanus I (Patriarch of Constantinople)",
+        "Ta heuriskomena panta - Saint Germanus I (Patriarch of Constantinople)",
+        "Heuriskomena panta - Germanus (Constantinopolitanus.)"
+      ]
+    },
+    {
+      "tome": "100",
+      "candidates": [
+        {
+          "id": "ThZjmEY33xUC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "OZfYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "3t0XcwKkcyMC",
+          "title": "Ta heuriskomena panta - Saint Nicephorus (Patriarch of Constantinople.)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "VfMUAAAAQAAJ",
+          "title": "Sancti Patris Nostri Nicephori Archiepiscopi Constantinopolitani opera quae ... - Saint Nicephorus (Patriarch of Constantinople.)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "lRJKAAAAcAAJ",
+          "title": "Heuriskomena panta - Nicephorus (Constantinopolitanus, I.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Ta heuriskomena panta - Saint Nicephorus (Patriarch of Constantinople.)",
+        "Sancti Patris Nostri Nicephori Archiepiscopi Constantinopolitani opera quae ... - Saint Nicephorus (Patriarch of Constantinople.)",
+        "Heuriskomena panta - Nicephorus (Constantinopolitanus, I.)"
+      ]
+    },
+    {
+      "tome": "103",
+      "candidates": [
+        {
+          "id": "uDERAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "RMEUAAAAQAAJ",
+          "title": "Phōtiou ... ta heuriskomena panta. Photii ... opera omnia, recogn. J.-P. Migne - Photius (patriarch of Constantinople.)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "E8cUAAAAQAAJ",
+          "title": "Phōtiou ... ta heuriskomena panta. Photii ... opera omnia, recogn. J.-P. Migne - Photius (patriarch of Constantinople.)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "cZfYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "zSFKAAAAcAAJ",
+          "title": "Photiu, patriarchu Kōnstantinupoleōs, ta heuriskomena panta: in classes ... - Patriarch Photios I. (Konstantinopel, Heiliger)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Phōtiou ... ta heuriskomena panta. Photii ... opera omnia, recogn. J.-P. Migne - Photius (patriarch of Constantinople.)",
+        "Phōtiou ... ta heuriskomena panta. Photii ... opera omnia, recogn. J.-P. Migne - Photius (patriarch of Constantinople.)",
+        "Photiu, patriarchu Kōnstantinupoleōs, ta heuriskomena panta: in classes ... - Patriarch Photios I. (Konstantinopel, Heiliger)"
+      ]
+    },
+    {
+      "tome": "105",
+      "candidates": [
+        {
+          "id": "h_MUAAAAQAAJ",
+          "title": "Νικήτα τοῦ Παφλαγόνος, τοῦ καὶ Δαβίδ, Νικήτα Βυζαντίου τὰ εὑρισκόμενα πάντα - Nicetas (Byzantinus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "nI-oKpsirHMC",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "oSFKAAAAcAAJ",
+          "title": "Heuriskomena panta - Nicetas (David), Nicetas (Byzantinus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "ovIUAAAAQAAJ",
+          "title": "Origenous ta euriskomena panta - Origen",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "KDMRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Νικήτα τοῦ Παφλαγόνος, τοῦ καὶ Δαβίδ, Νικήτα Βυζαντίου τὰ εὑρισκόμενα πάντα - Nicetas (Byzantinus)",
+        "Heuriskomena panta - Nicetas (David), Nicetas (Byzantinus)",
+        "Origenous ta euriskomena panta - Origen"
+      ]
+    },
+    {
+      "tome": "110",
+      "candidates": [
+        {
+          "id": "0PbQWfqUXfYC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "b7rUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "koDYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "125",
+      "candidates": [
+        {
+          "id": "9TURAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "CfHmwfUC1bcC",
+          "title": "Patrologiae Graecae - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "Z7_UAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "-JDYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "126",
+      "candidates": [
+        {
+          "id": "eTYRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "127",
+      "candidates": [
+        {
+          "id": "mJHYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "GPUUAAAAQAAJ",
+          "title": "Nicephori Bryennii Historiarum libri IV - Nicephorus Bryennius",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "dI0yAQAAMAAJ",
+          "title": "Nicephori Bryennii historiarum libri IV: Caroli Dufresnii Du Cangii notis ... - Nicephorus Bryennius",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Nicephori Bryennii Historiarum libri IV - Nicephorus Bryennius",
+        "Nicephori Bryennii historiarum libri IV: Caroli Dufresnii Du Cangii notis ... - Nicephorus Bryennius"
+      ]
+    },
+    {
+      "tome": "130",
+      "candidates": [
+        {
+          "id": "25RBAAAAcAAJ",
+          "title": "Patrologiae cursus completus seu Bibliotheca universalis, integra, uniformis ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "3u0GAAAAQAAJ",
+          "title": "Opera quae reperiri potuerunt omnia - Euthymios Zigavēnos",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "YzcRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "6I4L15GomoAC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "H5PYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "qyVKAAAAcAAJ",
+          "title": "Euthymiu tu Zigabēnu ta heuriskomena panta: Iuxta varias ed. Lipsiensem ... - Euthymius (Zigabenus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "LfQUAAAAQAAJ",
+          "title": "Euthumiou ... ta heuriskomena panta. Euthymii ... opera quæ reperire ... - Euthymius (Zigabenus.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Opera quae reperiri potuerunt omnia - Euthymios Zigavēnos",
+        "Euthymiu tu Zigabēnu ta heuriskomena panta: Iuxta varias ed. Lipsiensem ... - Euthymius (Zigabenus)",
+        "Euthumiou ... ta heuriskomena panta. Euthymii ... opera quæ reperire ... - Euthymius (Zigabenus.)"
+      ]
+    },
+    {
+      "tome": "131",
+      "candidates": [
+        {
+          "id": "sDcRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "QPPvyWhc4a0C",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "A3zYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "59DmDxaG9XEC",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "zpJBAAAAcAAJ",
+          "title": "Patrologiae cursus completus seu Bibliotheca universalis, integra, uniformis ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "zCVKAAAAcAAJ",
+          "title": "Euthymiu tu Zigabēnu ta heuriskomena panta: Iuxta varias ed. Lipsiensem ... - Euthymius (Zigabenus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "NL8UAAAAQAAJ",
+          "title": "Annēs tēs Komnēnēs ... Alexias, a P. Possino Lat. interpretatione, glossario ... - Anna Comnena (daughter of Alexius I, emperor of Constantinople.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Euthymiu tu Zigabēnu ta heuriskomena panta: Iuxta varias ed. Lipsiensem ... - Euthymius (Zigabenus)",
+        "Annēs tēs Komnēnēs ... Alexias, a P. Possino Lat. interpretatione, glossario ... - Anna Comnena (daughter of Alexius I, emperor of Constantinople.)"
+      ]
+    },
+    {
+      "tome": "133",
+      "candidates": [
+        {
+          "id": "wLrUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "WL8UAAAAQAAJ",
+          "title": "Historiae - Johannes (Cinnamus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "GccUAAAAQAAJ",
+          "title": "Historiae - Johannes (Cinnamus)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Historiae - Johannes (Cinnamus)",
+        "Historiae - Johannes (Cinnamus)"
+      ]
+    },
+    {
+      "tome": "137",
+      "candidates": [
+        {
+          "id": "YTkRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "JwcsOR8kd8IC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "2b8UAAAAQAAJ",
+          "title": "Theodōrou tou Balsamōn ... ta heuriskomena panta. Theodori Balsamonis ... - Theodoros Balsamon (patriarch of Antioch.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Theodōrou tou Balsamōn ... ta heuriskomena panta. Theodori Balsamonis ... - Theodoros Balsamon (patriarch of Antioch.)"
+      ]
+    },
+    {
+      "tome": "142",
+      "candidates": [
+        {
+          "id": "yfQUAAAAQAAJ",
+          "title": "Nicephori Blemmidae opera omnia - Nicephorus (Blemmydes)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "mSJKAAAAcAAJ",
+          "title": "Heuriskomena panta - Nicephorus (Blemmyda.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Nicephori Blemmidae opera omnia - Nicephorus (Blemmydes)",
+        "Heuriskomena panta - Nicephorus (Blemmyda.)"
+      ]
+    },
+    {
+      "tome": "149",
+      "candidates": [
+        {
+          "id": "r9Y-w2AkEmAC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "6jwRAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "or_UAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "6YfYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "QSJJAAAAcAAJ",
+          "title": "He rōmaikē historia: 2 - Nicephorus (Gregoras)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "yyCnJ7P8V-kC",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "He rōmaikē historia: 2 - Nicephorus (Gregoras)"
+      ]
+    },
+    {
+      "tome": "150",
+      "candidates": [
+        {
+          "id": "9Nw-ZMIR5NUC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "6L_UAAAAMAAJ",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "24jYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        }
+      ],
+      "specificTitles": []
+    },
+    {
+      "tome": "152",
+      "candidates": [
+        {
+          "id": "CD0RAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "2FD7xkRj-XwC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "tYnYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "TyNKAAAAcAAJ",
+          "title": "C[onstantino]politanorum patriarcharum diplomata, synodicae constitutiones ... - Manuel (Caleca)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "CJG_GHtj31cC",
+          "title": "Patrologiae cursus completus, seu bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "wcAUAAAAQAAJ",
+          "title": "Manuelis Calecae ... opera omnia. Accedunt Joannis Cyparissiotae, Matthaei ... - Manuel Calécas",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "C[onstantino]politanorum patriarcharum diplomata, synodicae constitutiones ... - Manuel (Caleca)",
+        "Manuelis Calecae ... opera omnia. Accedunt Joannis Cyparissiotae, Matthaei ... - Manuel Calécas"
+      ]
+    },
+    {
+      "tome": "155",
+      "candidates": [
+        {
+          "id": "esHUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "_McUAAAAQAAJ",
+          "title": "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "jCBJAAAAcAAJ",
+          "title": "Heuriskomena panta - Simeon (Novus Theologus)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "Vs4UAAAAQAAJ",
+          "title": "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike)",
+        "Heuriskomena panta - Simeon (Novus Theologus)",
+        "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East), Symeon (Archbishop of Thessalonike)"
+      ]
+    },
+    {
+      "tome": "156",
+      "candidates": [
+        {
+          "id": "Ax8RAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "6WAkXO8Go5cC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "Z4zYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "a84UAAAAQAAJ",
+          "title": "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "7Ak9AAAAYAAJ",
+          "title": "Manuelis Palaeologi Opera omnia, theologica, polemica, panegyrica ... - Manuel II Palaeologus (Emperor of the East)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "C8gUAAAAQAAJ",
+          "title": "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "jSNKAAAAcAAJ",
+          "title": "Heuriskomena panta - Imperator Manuel (Imperium Byzantinum, II.)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East)",
+        "Manuelis Palaeologi Opera omnia, theologica, polemica, panegyrica ... - Manuel II Palaeologus (Emperor of the East)",
+        "Piissimi et Sapientissimi Imperatoris Manuelis Palaeologi opera omnia - Manuel II Palaeologus (Emperor of the East)",
+        "Heuriskomena panta - Imperator Manuel (Imperium Byzantinum, II.)"
+      ]
+    },
+    {
+      "tome": "158",
+      "candidates": [
+        {
+          "id": "hBIT95lCqEsC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "InfYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "rCNKAAAAcAAJ",
+          "title": "Heuriskomena panta - Michael (Glycas)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Heuriskomena panta - Michael (Glycas)"
+      ]
+    },
+    {
+      "tome": "160",
+      "candidates": [
+        {
+          "id": "_qtZdqVuYNEC",
+          "title": "Patrologiæ cursus completus [Series Græca]: ... omnium ss. patrum ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "xR8RAAAAYAAJ",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "oehsS7bQMTsC",
+          "title": "Patrologiae cursus completus, series graeca - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "8XjYAAAAMAAJ",
+          "title": "Patrologiae cursus completus ...: Series graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "ofUUAAAAQAAJ",
+          "title": "Gennadii, Constaninopolitani Patriarchae, qui et Georgius Scholarius, opera ... - Gennadius II (Patriarch of Constantinople)",
+          "generic": false,
+          "error": null
+        },
+        {
+          "id": "pwk9AAAAYAAJ",
+          "title": "Gennadii, Constantinopolitani Patriarchæ, qui et Georgius Scholarius, Opera ... - Gennadius II (Patriarch of Constantinople)",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "Gennadii, Constaninopolitani Patriarchae, qui et Georgius Scholarius, opera ... - Gennadius II (Patriarch of Constantinople)",
+        "Gennadii, Constantinopolitani Patriarchæ, qui et Georgius Scholarius, Opera ... - Gennadius II (Patriarch of Constantinople)"
+      ]
+    },
+    {
+      "tome": "161",
+      "candidates": [
+        {
+          "id": "VtbqwqLKlAIC",
+          "title": "Patrologiae Graecae - Jacques-Paul Migne",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "NcLUAAAAMAAJ",
+          "title": "Patrologiæ cursus completus: seu, Bibliotheca universalis, integra ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "23nYAAAAMAAJ",
+          "title": "Patrologiae cursus completus: Series Graeca",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "G5VBAAAAcAAJ",
+          "title": "Patrologiae cursus completus seu Bibliotheca universalis, integra, uniformis ...",
+          "generic": true,
+          "error": null
+        },
+        {
+          "id": "HMgUAAAAQAAJ",
+          "title": "˜Τοῦœ σοφωτάτου καρδινάλεως Βησσαρίωνος τὰ εὑρισκόμενα πάντα - Cardinal Bēssariōn",
+          "generic": false,
+          "error": null
+        }
+      ],
+      "specificTitles": [
+        "˜Τοῦœ σοφωτάτου καρδινάλεως Βησσαρίωνος τὰ εὑρισκόμενα πάντα - Cardinal Bēssariōn"
+      ]
+    }
+  ],
+  "flags": [
+    "Tome 105 candidate ovIUAAAAQAAJ (\"Origenous ta euriskomena panta - Origen\") looks like a mismatched googlebooks link in volumes.json, not a real signal for PG 105 (PG 105 is Nicetas of Paphlagonia/Byzantium territory per its other 2 candidates) — do not credit Origen to 105 without checking the link."
+  ]
+}
