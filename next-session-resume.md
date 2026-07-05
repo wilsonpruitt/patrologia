@@ -1,6 +1,35 @@
 # Next session — resume note
 
-*Updated 2026-07-04 (per-work triage session — PL partial/mixed-bucket authors now DONE, 1889/1889).*
+*Updated 2026-07-04, end of evening session (Song of Songs pilot on Robert of Tombelaine — IN PROGRESS, paused mid-pipeline at Wilson's request).*
+
+## → NEXT SESSION FIRST: finish the Robert of Tombelaine pilot (textIdno 10379)
+
+**Where this stopped:** chunk 0000 is done (translated, trimmed to pass the word-ratio verifier, clean). Chunks 0001/0002 had a stale translation (done against Latin that still had a chunker bug's literal `<emph>` markup leaking through) and a re-translation agent was dispatched to redo them against the corrected Latin — **check whether that agent finished** (it was launched right before the stop request; look for its result, or just relaunch the same prompt if nothing landed). Once 0001/0002 are in:
+1. `node scripts/verify-english.mjs 10379` — must pass clean (word ratio, markers, sections).
+2. `node scripts/build-work-page.mjs 10379` — rebuilds `site/pl/150/commentaria-in-cantica-canticorum/`.
+3. Preview locally, confirm no leftover `<emph>`/raw-tag artifacts anywhere in the rendered HTML (this bit us once already — check the whole page, not just the chunks you touched).
+4. This is Wilson's to read through before it's committed/deployed — flag for his approval same as Joel/Abbo.
+
+**Two real chunker bugs found and FIXED this session** (both committed, both verified against Abbo/9741 for no regression):
+- `7707391` / `dc35bff`: `<p>`/`<div1>` tags with XML attributes (`<p processing="manual">`, `<div1 id="...">`) were silently dropping their entire contents — affects 442 TEI files corpus-wide for the `<p>` case (3 files for `<div1>`). Also `<emph>` tags were leaking as literal text, or (in an intermediate fix) double-wrapping already-italicized `<hi>`/`<note>` content into broken nested asterisks. **This means it's worth a quick sanity pass on Abbo's already-shipped, already-approved page** — it re-chunks byte-identical today, so it wasn't affected, but any FUTURE PL work should be watched for the same class of bug (chunker now warns on any tag it doesn't recognize — watch the console output).
+
+**`build-work-page.mjs` was also generalized** (`4cd8eb8`): it had never been de-Abbo'd after the pilot — every work page it built would've shown "Abbo of Fleury" and Abbo's specific bio paragraph regardless of the real author. Fixed to pull `manifest.authors` and use a generic "On this text" paragraph. **Deliberately did NOT rebuild Abbo's own live page** — doing so would (a) replace its specific, well-researched apparatus paragraph with the new generic one, a real downgrade, and (b) surface a pre-existing data quirk (see below) on a page Wilson already approved. Two open questions before Abbo's page is ever rebuilt:
+1. Should per-work bespoke "On this text" paragraphs be preserved via some override file, rather than forcing everything through one generic template? (Robert of Tombelaine's page currently uses the generic one since no bespoke content existed for it.)
+2. **Attribution data quirk**: `data/works.json` credits Abbo's *Canones* (workIdno 4712) to BOTH "Abbo Floriacensis" and "Robertus Francorum" — the latter is actually King Robert II, the work's royal *dedicatee*, not a co-author. This is Corpus Corporum's own attribution list, not something introduced tonight — it was just invisible before because the old hardcoded page ignored the authors array entirely. Needs a decision: filter dedicatees out of author-credit fields generally, or leave as-is with a note.
+
+**Also found: `sketch/styles.css` has drifted from the deployed `site/styles.css`.** The PG-specific Greek-column CSS (`.coltext.greek`, `.colpair` rules, needed for Joel's live page) exists only in the deployed file, not in `sketch/`, the supposed source of truth. `build-work-page.mjs` copies `sketch/styles.css` → `site/styles.css` on every run — so running it again tonight would have silently deleted Joel's Greek-page styling from the live site if I hadn't caught the diff and reverted it. **Fix needed: fold the PG-specific CSS block back into `sketch/styles.css`** so it's not an landmine for the next PL-side rebuild. Nothing shipped broken — caught and reverted before commit — but this needs a real fix, not just vigilance.
+
+## New feature request from Wilson (not started): author "about" info
+
+*"As we build translations, we should build modest about pages for each author, or at least a popup."* Scoped this partway before the stop: no existing author-bio content anywhere in the repo (`data/` has attribution/triage data, nothing narrative). Proposed approach (not yet built): a lightweight click-to-open popup (not full routed pages — matches "modest," avoids a site-wide routing addition) sourced from a new small `data/author-bios.json` keyed by author name string (matching `manifest.authors` entries), populated incrementally per author as their first work ships — not a bulk backfill project. Already have verified facts in hand for the two authors shipped so far:
+- **Abbo of Fleury** (c. 945 – 13 Nov. 1004): monk/abbot of Fleury (Saint-Benoît-sur-Loire), educated Paris/Reims, spent 985–987 at Ramsey Abbey assisting Archbishop Oswald of York's monastic reforms, returned to Fleury as abbot 988. Wrote on computus, logic, canon law, hagiography. Killed at La Réole (Gascony) in 1004, speared while trying to quell a fight between two factions of monks; died in the arms of his disciple Aimoin, who later wrote his life.
+- **Robert of Tombelaine** (c. 1010 – after 1084): monk of Mont-Saint-Michel, later abbot of Saint-Vigor of Bayeux (1066–1084). Wrote a two-book commentary on the Song of Songs (the work being translated now) at the request of a fellow monk, Anastasius, addressed in a covering letter to a monk named Ansfrid.
+
+Next session: decide popup vs. page, build `data/author-bios.json` + the minimal JS/CSS, wire into `build-work-page.mjs`.
+
+---
+
+*Prior update, 2026-07-04 (per-work triage session — PL partial/mixed-bucket authors now DONE, 1889/1889).*
 
 ## → NEXT SESSION: per-work triage of partial/mixed-bucket PL authors is DONE. Move to queue-building or Wilson's pending read-throughs.
 **Per-work triage thread is closed out — don't re-open it without a new reason.**
@@ -73,12 +102,13 @@ Migne biography read-through: APPROVED by Wilson 2026-07-04 — no open decision
 - **Results, patched into `data/works.json`, provenance in `data/triage/cantica-secondtier.json`**: 3 pd-ingested (Jerome/Origen homilies — NPNF; Bernard's Sermones — Eales 1893 PD, not the paywalled Cistercian one), 8 copyrighted (Anselm of Laon/Glossa – Dove; Gregory I – DelCogliano; William's two genuine translated texts – Hart/DelCogliano; Rupert of Deutz – brand-new 2024 CUA Press/FOTC; Bede – Paulist Press; Gilbert of Hoyland – Braceland/Cistercian), 2 unclear (Richard of St. Victor and Honorius of Autun — both have only a translated prologue, need a closer look before queuing), 9 confirmed **none** (genuinely untranslated, safe to queue): Robert of Tombelaine (2.9K words), William's "ex Bernardo contexta" (11.6K), Bruno of Segni (17.2K), Haimo of Auxerre (25.9K), Angelomus of Luxeuil (31.1K), Philip of Harvengt's *Moralitates* (38.3K) and *Commentaria* (123.6K), Gilbert Foliot (65.7K), Wolbero of St. Pantaleon (105.8K), **Thomas the Cistercian (314.4K — bigger than any single work translated so far)**.
 - **Combined Song-of-Songs untranslated-first queue is now 17 works** (8 from the original tier + 9 from tonight), smallest-first from Anon. *Expositio cantici Magnificat* (2,071 words) up to Thomas the Cistercian (314,396 words). Not yet built into a formal ranked queue file — just verified and ready.
 
-## Next moves
+## Next moves (superseded by the top-of-file section — that one is current)
 
-1. **Build the Song-of-Songs translation queue** from the 17 confirmed works above — pick a starting work (or a short PG/PL pairing) and begin a translation pilot the same way Joel/Abbo were run.
+1. ~~Build the Song-of-Songs translation queue~~ — STARTED: Robert of Tombelaine (10379) is the first pilot, see top of file for exact resume point.
 2. **Phase 3 OCR benchmark** (unchanged, already done — see `benchmark/RESULTS.md`): Sonnet 5 wins Latin bulk gap-OCR.
 3. **PG gap map** (unchanged, already done — `data/gap-map.json`, 167/167 tomes with an author).
 4. Optional, no signal yet needed: closer look at the 2 "unclear" Cantica works (Richard of St. Victor, Honorius of Autun) and the 167 unclear works from the earlier per-work triage batch.
+5. After Robert of Tombelaine ships: the next 16 confirmed Song-of-Songs works are still queued (see the 2026-07-04 evening section further down), smallest-next is Bruno of Segni (17.2K words) or Haimo of Auxerre (25.9K) depending on whether Alcuin/Anselm/etc. from the original tier-1 list are picked first.
 
 ## Open flags / small debts
 
