@@ -1,0 +1,4 @@
+# Cruces — 7383 Expositio cantici Magnificat, chunk 0000
+
+- **col 1139** — printed `qu a` (space-split). Read as `quae` ("who," resuming *beata Virgo qu a singulariter se electam videbat*). Rendered "who saw herself singularly chosen." Broken-type, not an emendation of sense.
+- **col ~1140** — `Omne quod praevidit se facturum, facit; nec aliquid quod non praevidit fieri non dubium, sed fieri necesse est.` The clause `nec aliquid quod non praevidit fieri non dubium` is syntactically defective (dangling double negative, no clean main verb). Rendered literally: "nor is there anything which he did not foresee to come about — it is not doubtful, but it is necessary that it come about." Intended sense appears to be "nothing comes to pass that he did not foresee; rather it necessarily comes to pass." Left literal per register rule; flagged as likely corruption in the printed Latin.
