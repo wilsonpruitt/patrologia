@@ -52,5 +52,10 @@
     "latin": "Justus Urgellensis",
     "dates": "fl. 527–546",
     "bio": "First bishop of Urgell in the Pyrenees (in present-day Catalonia), a signatory of the Second Council of Toledo (527) and the First Council of Lérida (546). His Explanatio in Cantica canticorum — which Migne prints as Explicatio — is dedicated to Sergius, archbishop of Tarragona, and is the earliest surviving Latin commentary on the Song of Songs."
+  },
+  "Auctor incertus": {
+    "displayName": "Anonymous",
+    "latin": "Auctor incertus",
+    "_note": "Generic label for works of uncertain authorship (Corpus Corporum / Migne 'Auctor incertus'). Renders as a plain 'Anonymous' byline with no popover; per-work provenance goes in work-about.json, not here, since this key is shared across many anonymous works."
   }
 }
