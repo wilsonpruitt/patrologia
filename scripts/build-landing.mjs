@@ -15,7 +15,18 @@ const ROOT = path.join(import.meta.dirname, '..');
 const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
-const RECENT = ['pg/139/chronographia', 'pl/139/canones'];
+const RECENT = [
+  'pl/67/explicatio-in-cantica-canticorum',                     // Justus of Urgell — earliest Latin Song commentary
+  'pl/100/in-cantica-canticorum',                               // Alcuin
+  'pl/184/commentatio-in-cantica-canticorum-ex-bernardo-contexta', // William of St-Thierry
+  'pl/175/explanatio-in-canticum-b-mariae',                     // Hugh of St Victor — Magnificat
+  'pl/40/expositio-cantici-magnificat',                         // Anonymous (ps.-Augustine) — Magnificat
+  'pl/150/commentaria-in-cantica-canticorum',                   // Robert of Tombelaine
+  'pl/162/enarrationes-in-cantica-canticorum',                  // Anselm of Laon
+  'pl/117/commentarium-in-cantica-canticorum',                  // Haimo
+  'pg/139/chronographia',                                       // Joel (live)
+  'pl/139/canones',                                             // Abbo (live)
+];
 
 const fmt = n => n.toLocaleString('en-US');
 
