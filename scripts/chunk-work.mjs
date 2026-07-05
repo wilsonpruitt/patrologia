@@ -60,14 +60,14 @@ function inline(s) {
 
 // Parse div1 units in order.
 const divs = [];
-const divRe = /<div1>([\s\S]*?)<\/div1>/g;
+const divRe = /<div1(?:\s[^>]*)?>([\s\S]*?)<\/div1>/g;
 for (const m of body.matchAll(divRe)) {
   const raw = m[1];
   const head = inline((raw.match(/<head>([\s\S]*?)<\/head>/) || [, ''])[1]);
   const inner = raw.replace(/<head>[\s\S]*?<\/head>/, '');
   const blocks = [];
   // paragraphs and lists in document order
-  const blockRe = /<p>([\s\S]*?)<\/p>|<list>([\s\S]*?)<\/list>|<pb n="([^"]+)"\s*\/>/g;
+  const blockRe = /<p(?:\s[^>]*)?>([\s\S]*?)<\/p>|<list(?:\s[^>]*)?>([\s\S]*?)<\/list>|<pb n="([^"]+)"\s*\/>/g;
   let consumed = 0;
   for (const b of inner.matchAll(blockRe)) {
     // pb between blocks (not inside p/list) must not be dropped
