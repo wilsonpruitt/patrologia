@@ -92,13 +92,18 @@ const vol = manifest.volume;
 const title = manifest.title;
 const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.colLast);
+const authorList = manifest.authors ?? [];
+const authorNames = authorList.length ? authorList.join(' and ') : 'Anonymous';
+const authorLinks = authorList.length
+  ? authorList.map(a => `<a href="#">${esc(a)}</a>`).join(' &amp; ')
+  : '<a href="#">Anonymous</a>';
 
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Abbo of Fleury, ${title} — PL ${vol}, ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} · Migne</title>
+<title>${esc(authorNames)}, ${title} — PL ${vol}, ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} · Migne</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -125,9 +130,9 @@ const html = `<!DOCTYPE html>
     <span class="num">${vol}</span>
   </div>
   <div class="work-id">
-    <p class="crumbs"><a href="#">Patrologia Latina</a> · <a href="#">Vol. ${vol}</a> · <a href="#">Abbo Floriacensis</a></p>
+    <p class="crumbs"><a href="#">Patrologia Latina</a> · <a href="#">Vol. ${vol}</a> · ${authorLinks}</p>
     <h1>${esc(title.toUpperCase())}</h1>
-    <p class="byline">Abbo of Fleury <span style="font-style:normal">(† 1004)</span></p>
+    <p class="byline">${esc(authorNames)}</p>
     <p class="meta">PL ${vol}, coll. ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>
   </div>
 </div>
@@ -139,7 +144,7 @@ ${passages}
 <section class="apparatus">
   <div class="apparatus-inner">
     <h2>On this text</h2>
-    <p>Abbo, abbot of Fleury, addressed this collection of canons to Hugh Capet and his son Robert about 995–996 — a mirror of royal duty and a defense of the monastic order, stitched from councils, the Theodosian code, and the fathers. The Latin is Migne's printing (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), from the Corpus Corporum transcription; Migne's text descends from the early modern editions and prints fifty-two chapters, where the one complete manuscript carries forty-four. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not Abbo's; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.</p>
+    <p>The Latin is Migne's printing of <i>${esc(title)}</i> (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), by ${esc(authorNames)}, from the Corpus Corporum transcription. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not necessarily the author's own; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.</p>
   </div>
 </section>
 
