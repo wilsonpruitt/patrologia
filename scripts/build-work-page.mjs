@@ -98,6 +98,10 @@ const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.
 // (royal/patron names Corpus Corporum lists in the author array but who did not
 // write the work) are filtered out of author credit.
 const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
+// Curated "On this text" paragraphs (data/work-about.json, keyed by textIdno).
+// Curated prose must live in data, never only in generated HTML — a rebuild
+// with no entry falls back to the generic paragraph.
+const workAbout = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/work-about.json'), 'utf8'));
 const bioOf = a => bios[a];
 const credited = (manifest.authors ?? []).filter(a => !bioOf(a)?.dedicatee);
 const displayName = a => bioOf(a)?.displayName ?? a;
@@ -170,7 +174,7 @@ ${passages}
 <section class="apparatus">
   <div class="apparatus-inner">
     <h2>On this text</h2>
-    <p>The Latin is Migne's printing of <i>${esc(title)}</i> (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), by ${esc(authorNames)}, from the Corpus Corporum transcription. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not necessarily the author's own; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.</p>
+    <p>${workAbout[String(idno)] ?? `The Latin is Migne's printing of <i>${esc(title)}</i> (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), by ${esc(authorNames)}, from the Corpus Corporum transcription. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not necessarily the author's own; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.`}</p>
   </div>
 </section>
 
