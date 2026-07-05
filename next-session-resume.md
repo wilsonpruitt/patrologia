@@ -1,6 +1,15 @@
 # Next session — resume note
 
-*Updated 2026-07-05 (chunker rewrite session, commit `5ccf4c0`): **the chunker is now corpus-ready — 99.09% of the entire PL (5,228/5,276 texts) chunks clean.** Prior update 2026-07-04 overnight (Robert pilot finished; byline/popup; 2 new Song-of-Songs works). **Nothing deployed** — all staged for Wilson's read-through.*
+*Updated 2026-07-05 (chunker rewrite session): chunker corpus-ready (99.09%), div2 works repaired, **translation runs set up — next session translates**. Nothing deployed; all staged for Wilson's read-through.*
+
+## → NEXT SESSION: run translations per `translation-runbook.md` (Opus session)
+
+Everything is pre-staged — the session should be pure execution:
+- **All 15 Song-of-Songs queue works are chunked + validated in `src/latin/`** (~879K Latin words / 730 chunks total). Full table with per-work burn estimates in the runbook.
+- **`translation-runbook.md` (repo root) is the score:** model policy, hard-stop ritual (state burn, ask "which model, and go?" before EVERY launch), per-work pipeline (translate → verify → bios → build → index → stage), and the strict agent prompt template with all the Acta anti-self-throttle lessons baked in.
+- **Suggested first run: the five smallest** — 7383 Magnificat (2ch) + 11062 Hugh of St Victor (6ch) + 21413 Alcuin (10ch) + 11321 William/Bernard (12ch) + 7871 Justus of Urgell (12ch) = 42 chunks ≈ **0.85M tokens Opus**. Or Gilbert 11613 (53ch ≈ 1.1M) if Wilson prefers one big one. Wilson picks at the hard stop.
+- New authors need `data/author-bios.json` entries before deploy (byline falls back to Latin form until then) — Hugh of St Victor, Alcuin, William of St-Thierry, Justus of Urgell, etc.
+- Wilson read-throughs still pending: Abbo cruces, Joel, Robert/Anselm/Haimo (now with chapter heads).
 
 ## ✅ DONE 2026-07-05: chunker rewritten as partition-based core — scalable, corpus-validated
 
