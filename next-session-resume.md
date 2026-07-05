@@ -1,8 +1,10 @@
 # Next session — resume note
 
-*Updated 2026-07-05 (translation session): **five-smallest Song-of-Songs works translated end-to-end (Opus, commit `43aee86`), all staged.** Nothing deployed; all await Wilson's read-through.*
+*Updated 2026-07-05 (translation + deploy session): **five-smallest Song-of-Songs works translated end-to-end (Opus, commit `43aee86`) AND DEPLOYED. 8 works now live on migne.app** (the 5 new + the 3 prior staged: Robert/Anselm/Haimo). Wilson deployed `cd ~/patrologia/site && npx vercel --prod`; all live smoke tests passed (band-less `/pl/40/1137` resolves, landing shows 10 englished). Read-throughs now happen ON THE LIVE SITE — Wilson chose to publish ahead of read-through.*
 
-## → NEXT SESSION: Wilson read-through of the 5 new works, then a deploy session (or translate the next queue works)
+## → NEXT SESSION: Wilson read-throughs (on live pages), or translate the next queue works
+
+**LIVE on migne.app as of 2026-07-05** (10 englished works total, landing RECENT leads with Justus): the 5 new below + Robert (pl/150), Anselm (pl/162), Haimo (pl/117), Joel (pg/139), Abbo (pl/139).
 
 **DONE this session — 5 works translated + staged (commit `43aee86`), 42 chunks / ~0.85M Opus tokens:**
 | idno | author | work | chunks | notes for read-through |
@@ -18,13 +20,11 @@
 - **`author-bios.json` entries added** for all four named authors + a reusable `Auctor incertus → Anonymous` entry; `work-about.json` blurb for 7383.
 - Wilson read-throughs still pending from before: Abbo cruces, Joel, Robert/Anselm/Haimo.
 
-## → Pre-DEPLOY for these 5 (Wilson's gated deploy session)
-1. **Read-through** each (cruces per work; see table above for the specific flags).
-2. **Landing RECENT list** in `scripts/build-landing.mjs` — prepend 7871, 11321, 21413, 11062, 7383, then rebuild `site/index.html` (build fails loudly if a built page is missing from RECENT).
-3. **7383 uses bare-column anchors** (`[1137]`, no A–D band) — confirm the site resolver accepts band-less anchors before deploy.
-4. **`Cantic. → Song` alias gap:** these Song commentaries throw many `unparsed` scripture citations because the alias table doesn't map `Cantic.` (11321 alone had 23). Tracked-not-dropped, non-blocking, but a worthwhile one-time alias add before the queue grows.
-5. **u/v modern-letterform fix** (see below) — still deferred; decide before/with deploy.
-6. Deploy: `cd site && npx vercel --prod` (Wilson per-action OK — hard stop).
+## → Post-deploy open items (NOT blocking; all 8 are already live)
+1. **Read-throughs still owed** — now done on the live pages. Per-work flags: 7383 (2 cruces), 11062 (16 cruces; `[respicit Dominus]` left untranslated — confirm), 21413 (10 cruces; index warned EN 9 quotations vs LA 8 — eyeball one italic), 11321 (3 cruces; stale chunker `noteCount:17` on 0003), 7871 (15 cruces). Plus the older Robert/Anselm/Haimo + Abbo/Joel read-throughs.
+2. ~~Landing RECENT + resolver band-less check~~ **DONE** (commit `801ac66`; landing rebuilt, resolver verified for `/pl/40/1137`).
+3. **`Cantic. → Song` alias gap:** these Song commentaries throw many `unparsed` scripture citations because the alias table doesn't map `Cantic.` (11321 alone had 23). Tracked-not-dropped, non-blocking, but a worthwhile one-time alias add before the queue grows.
+4. **u/v modern-letterform fix** — still deferred, now shipping live as-is (Wilson's call). Decide when convenient; fix = stop emitting `lang="la"` on rendered Latin (details in the deferred section below).
 
 ## Queue remaining (per runbook table)
 10 Song-of-Songs works left, smallest-next = 10804 Bruno of Segni (17ch) → 7914 Ps.-Cassiodorus (23ch) → … up to 11703 Thomas the Cistercian (259ch, a multi-run campaign). Gilbert 11613 (53ch) is chunked and ready whenever a session can supervise a bigger one.
