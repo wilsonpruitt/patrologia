@@ -65,12 +65,20 @@ Migne biography read-through: APPROVED by Wilson 2026-07-04 — no open decision
 - **Abbo read-through was already APPROVED**; with diff-vs-scan done, Abbo's remaining pre-deploy items are site-wide, not work-level.
 - Pipeline/state detail from the pilot sessions: see the 2026-07-03 pilot entries in git log and `patrologia.md` memory; earlier state (works.json, TEI corpus, triage, biography, sketch) in prior resume-note versions.
 
+## Done 2026-07-04 (Song of Songs per-work triage, evening session)
+
+- Wilson asked to prioritize Song of Songs (Cantica canticorum) commentaries as the next translation queue, smaller works first. First pass over `works.json` surfaced 8 already-verified-`none` works from the existing author-level triage (Alcuin, Ambrose, Anselm of Laon, Anon. Magnificat/Cantica, Cassiodorus?, Rabanus Maurus) — none of these needed re-checking.
+- A second tier of 22 more Cantica works had never been individually verified (their authors weren't in the 118-author partial/mixed pool the Phase-4 batches covered) — includes several famous names (Bernard of Clairvaux, Bede, Gregory the Great, Rupert of Deutz, Gilbert of Hoyland) where a translation was plausible. Ran 5 telemetry-gated Haiku agents (~5 works each) to verify each individually.
+- **Caught and fixed a real cross-batch error**: two agents in different batches both credited M. Columba Hart's 1970 Cistercian Fathers translation to *different* William of Saint-Thierry texts (PL 184 "ex Bernardo contexta" vs PL 180 "Expositio altera"). Resolved with a direct follow-up search: Hart's translation is of "Expositio super Cantica canticorum" = PL 180 cols 473-546, matching workIdno 6126 exactly. Corrected workIdno 6278 (PL 184) back to `none` — it has no known translation.
+- **Results, patched into `data/works.json`, provenance in `data/triage/cantica-secondtier.json`**: 3 pd-ingested (Jerome/Origen homilies — NPNF; Bernard's Sermones — Eales 1893 PD, not the paywalled Cistercian one), 8 copyrighted (Anselm of Laon/Glossa – Dove; Gregory I – DelCogliano; William's two genuine translated texts – Hart/DelCogliano; Rupert of Deutz – brand-new 2024 CUA Press/FOTC; Bede – Paulist Press; Gilbert of Hoyland – Braceland/Cistercian), 2 unclear (Richard of St. Victor and Honorius of Autun — both have only a translated prologue, need a closer look before queuing), 9 confirmed **none** (genuinely untranslated, safe to queue): Robert of Tombelaine (2.9K words), William's "ex Bernardo contexta" (11.6K), Bruno of Segni (17.2K), Haimo of Auxerre (25.9K), Angelomus of Luxeuil (31.1K), Philip of Harvengt's *Moralitates* (38.3K) and *Commentaria* (123.6K), Gilbert Foliot (65.7K), Wolbero of St. Pantaleon (105.8K), **Thomas the Cistercian (314.4K — bigger than any single work translated so far)**.
+- **Combined Song-of-Songs untranslated-first queue is now 17 works** (8 from the original tier + 9 from tonight), smallest-first from Anon. *Expositio cantici Magnificat* (2,071 words) up to Thomas the Cistercian (314,396 words). Not yet built into a formal ranked queue file — just verified and ready.
+
 ## Next moves
 
-1. **Wilson read-through of Joel** — register + column-pair alignment + the two Greek-vs-Latin divergence rulings (Joram, Michael VII).
-2. **Phase 3 OCR benchmark** (unchanged): ~25 TEI-covered columns vs scan crops, Haiku/Sonnet/Opus CER; Greek side vs Calfa Zenodo ground truth (record 20008699).
-3. **PG gap map**: Calfa 33 vols + First1KGreek inventory vs the PG registry → `data/gap-map.json`.
-4. **Per-work triage** of partial/mixed PL authors (unchanged) — can now write into works.json slots.
+1. **Build the Song-of-Songs translation queue** from the 17 confirmed works above — pick a starting work (or a short PG/PL pairing) and begin a translation pilot the same way Joel/Abbo were run.
+2. **Phase 3 OCR benchmark** (unchanged, already done — see `benchmark/RESULTS.md`): Sonnet 5 wins Latin bulk gap-OCR.
+3. **PG gap map** (unchanged, already done — `data/gap-map.json`, 167/167 tomes with an author).
+4. Optional, no signal yet needed: closer look at the 2 "unclear" Cantica works (Richard of St. Victor, Honorius of Autun) and the 167 unclear works from the earlier per-work triage batch.
 
 ## Open flags / small debts
 
