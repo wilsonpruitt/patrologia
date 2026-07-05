@@ -25,7 +25,7 @@
 1. Phase 3 OCR benchmark is done (`benchmark/RESULTS.md`) — Sonnet 5 for Latin bulk gap-OCR (1.48% mean CER), Greek stays on Calfa's pipeline. Per-work triage of partial/mixed PL authors is a separate, unrelated Phase 4 thread — can now write into works.json slots using the completed tome→author map.
 2. If a genuine reason arises to keep polishing PG author data: the RelTech text field itself is still a raw, un-normalized string (mixed Latin/English forms, occasional missing-comma artifacts like PG 135) — a future pass could normalize it into a controlled author-name vocabulary, but there's no signal that's needed yet; don't do it speculatively.
 
-Still-open decisions (Wilson): Migne biography read-through — independent of the above. (Joel read-through + both Greek-vs-Latin rulings: RATIFIED 2026-07-04, see above.)
+Migne biography read-through: APPROVED by Wilson 2026-07-04 — no open decisions remaining from the 2026-07-03/04 pilot+bio thread. (Joel read-through + both Greek-vs-Latin rulings: RATIFIED 2026-07-04, see above.)
 
 ## Done 2026-07-04 (PG Google Books gap-fill session, history)
 - **Archive.org re-query dead end**: tried `title:(patrologiae graeca)` (247 docs) and `description:("series graeca")` (215 docs), merged with the original 246 to 275 unique items, re-ran the same volume/identifier/title matching against all 35 gap tomes — 0 new matches. These tomes have no individually-cataloged archive.org item, only the `patrologia-volumes` mega-item (no per-file metadata).
