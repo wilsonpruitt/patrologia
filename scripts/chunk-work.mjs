@@ -49,11 +49,19 @@ const srcWords = body
 // ---- transform TEI → markdown ----
 const words = s => s.split(/\s+/).filter(Boolean).length;
 
+const unknownTagsSeen = new Set();
 function inline(s) {
   return s
+    // <emph> is usually a bare-content italic wrapper, but sometimes wraps a
+    // <hi> or <note> that will format itself below — in that case strip the
+    // emph tags as a no-op rather than double-wrap in asterisks.
+    .replace(/<emph>([\s\S]*?)<\/emph>/g, (_, h) => /<hi>|<note/.test(h) ? h : `*${h.replace(/\s+/g, ' ').trim()}*`)
     .replace(/<note[^>]*>([\s\S]*?)<\/note>/g, (_, n) => `[n: ${n.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()}]`)
     .replace(/<hi>([\s\S]*?)<\/hi>/g, (_, h) => `*${h.replace(/\s+/g, ' ').trim()}*`)
     .replace(/<pb n="([^"]+)"\s*\/>/g, '[$1]')
+    // safety net: any other tag we haven't explicitly handled — strip it rather
+    // than leak it as literal text, but log it so a future run can add real handling.
+    .replace(/<\/?([a-zA-Z][\w-]*)\b[^>]*>/g, (m, tag) => { unknownTagsSeen.add(tag); return ' '; })
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -183,3 +191,4 @@ console.log(`${chunks.length} chunks → ${outDir}`);
 manifest.forEach(m => console.log(`  ${String(m.chunk).padStart(4, '0')}  ${String(m.words).padStart(5)}w  ${m.colFirst}–${m.colLast}  ${m.heads[0] ?? '(cont.)'}${m.heads.length > 1 ? ` … ${m.heads.at(-1)}` : ''}`));
 if (errs.length) { console.error('\nVALIDATION FAILED:'); errs.forEach(e => console.error(' - ' + e)); process.exit(1); }
 console.log(`\nvalidation OK: ${srcPbSeq.length} column marks, ${srcNoteCount} notes, ${srcWords} words conserved`);
+if (unknownTagsSeen.size) console.warn(`\n⚠ unrecognized tags stripped (no data lost, but consider explicit handling): ${[...unknownTagsSeen].join(', ')}`);
