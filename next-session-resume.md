@@ -1,15 +1,33 @@
 # Next session — resume note
 
-*Updated 2026-07-05 (chunker rewrite session): chunker corpus-ready (99.09%), div2 works repaired, **translation runs set up — next session translates**. Nothing deployed; all staged for Wilson's read-through.*
+*Updated 2026-07-05 (translation session): **five-smallest Song-of-Songs works translated end-to-end (Opus, commit `43aee86`), all staged.** Nothing deployed; all await Wilson's read-through.*
 
-## → NEXT SESSION: run translations per `translation-runbook.md` (Opus session)
+## → NEXT SESSION: Wilson read-through of the 5 new works, then a deploy session (or translate the next queue works)
 
-Everything is pre-staged — the session should be pure execution:
-- **All 15 Song-of-Songs queue works are chunked + validated in `src/latin/`** (~879K Latin words / 730 chunks total). Full table with per-work burn estimates in the runbook.
-- **`translation-runbook.md` (repo root) is the score:** model policy, hard-stop ritual (state burn, ask "which model, and go?" before EVERY launch), per-work pipeline (translate → verify → bios → build → index → stage), and the strict agent prompt template with all the Acta anti-self-throttle lessons baked in.
-- **Suggested first run: the five smallest** — 7383 Magnificat (2ch) + 11062 Hugh of St Victor (6ch) + 21413 Alcuin (10ch) + 11321 William/Bernard (12ch) + 7871 Justus of Urgell (12ch) = 42 chunks ≈ **0.85M tokens Opus**. Or Gilbert 11613 (53ch ≈ 1.1M) if Wilson prefers one big one. Wilson picks at the hard stop.
-- New authors need `data/author-bios.json` entries before deploy (byline falls back to Latin form until then) — Hugh of St Victor, Alcuin, William of St-Thierry, Justus of Urgell, etc.
-- Wilson read-throughs still pending: Abbo cruces, Joel, Robert/Anselm/Haimo (now with chapter heads).
+**DONE this session — 5 works translated + staged (commit `43aee86`), 42 chunks / ~0.85M Opus tokens:**
+| idno | author | work | chunks | notes for read-through |
+|---|---|---|---|---|
+| 7383 | Anonymous (ps.-Aug.) | Expositio cantici Magnificat (PL 40) | 2 | bare-column anchors `[1137]`; 2 cruces; "Anonymous" byline (no popover); work-about blurb written |
+| 11062 | Hugh of St Victor | Explanatio in Canticum B. Mariae (PL 175) | 6 | 16 cruces; `[respicit Dominus]` left untranslated as a variant reading (agent's call — confirm) |
+| 21413 | Alcuin | In Cantica canticorum (PL 100) | 10 | 10 cruces; **index warned EN 9 quotations vs LA 8** — one italic passage to eyeball |
+| 11321 | William of St-Thierry | Commentatio ex Bernardo contexta (PL 184) | 12 | 3 cruces; chunker frontmatter `noteCount:17` on 0003 was stale (real 18, EN carries all 18) |
+| 7871 | Justus of Urgell | Explicatio in Cantica canticorum (PL 67) | 12 | 15 cruces; earliest surviving Latin Song commentary — the marquee "first" of this batch |
+
+- Pipeline ran clean per `translation-runbook.md`: verify-english / build-work-page / index-work all pass; marker fidelity script-verified every chunk; cruces in each `src/english/<id>/cruces.md`.
+- **Assembly gotchas that recurred (fold into runbook if they keep happening):** (1) agents sometimes reorder a frontmatter field (`noteCount` after `incipit`) → verify fails "frontmatter differs"; fix = re-splice the Latin twin's frontmatter onto the EN body (safe, it must be verbatim anyway). (2) Migne inline page-numbers must be **italic** `*392*` (9741 anchor convention) — two agents emitted bare numbers, fixed by resuming them.
+- **`author-bios.json` entries added** for all four named authors + a reusable `Auctor incertus → Anonymous` entry; `work-about.json` blurb for 7383.
+- Wilson read-throughs still pending from before: Abbo cruces, Joel, Robert/Anselm/Haimo.
+
+## → Pre-DEPLOY for these 5 (Wilson's gated deploy session)
+1. **Read-through** each (cruces per work; see table above for the specific flags).
+2. **Landing RECENT list** in `scripts/build-landing.mjs` — prepend 7871, 11321, 21413, 11062, 7383, then rebuild `site/index.html` (build fails loudly if a built page is missing from RECENT).
+3. **7383 uses bare-column anchors** (`[1137]`, no A–D band) — confirm the site resolver accepts band-less anchors before deploy.
+4. **`Cantic. → Song` alias gap:** these Song commentaries throw many `unparsed` scripture citations because the alias table doesn't map `Cantic.` (11321 alone had 23). Tracked-not-dropped, non-blocking, but a worthwhile one-time alias add before the queue grows.
+5. **u/v modern-letterform fix** (see below) — still deferred; decide before/with deploy.
+6. Deploy: `cd site && npx vercel --prod` (Wilson per-action OK — hard stop).
+
+## Queue remaining (per runbook table)
+10 Song-of-Songs works left, smallest-next = 10804 Bruno of Segni (17ch) → 7914 Ps.-Cassiodorus (23ch) → … up to 11703 Thomas the Cistercian (259ch, a multi-run campaign). Gilbert 11613 (53ch) is chunked and ready whenever a session can supervise a bigger one.
 
 ## ✅ DONE 2026-07-05: chunker rewritten as partition-based core — scalable, corpus-validated
 
