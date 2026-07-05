@@ -38,12 +38,13 @@ function sections(text) {
 }
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const colId = c => 'c' + String(parseInt(c.slice(0, 4), 10)) + c.slice(4).toLowerCase();
-const colDisp = c => String(parseInt(c.slice(0, 4), 10)) + c.slice(4);
+const colParts = c => c.match(/^0*([0-9]+)([A-D]?)$/) ?? [c, c, ''];
+const colId = c => { const [, n, b] = colParts(c); return 'c' + n + b.toLowerCase(); };
+const colDisp = c => { const [, n, b] = colParts(c); return n + b; };
 
 function inlineHtml(s, { anchorIds }) {
   return esc(s)
-    .replace(/\[([0-9]{4}[A-D])\]\s*/g, (_, c) =>
+    .replace(/\[([0-9]{3,5}[A-D]?)\]\s*/g, (_, c) =>
       `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
     .replace(/\[n: ([^\]]*)\]/g, (_, n) => `<span class="notecite">${n}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>');
@@ -54,7 +55,7 @@ function blockHtml(text, opts) {
   const html = [];
   for (const b of blocks) {
     const lines = b.split('\n');
-    if (lines.every(l => l.startsWith('- ') || /^\[[0-9]{4}[A-D]\]$/.test(l.trim()))) {
+    if (lines.every(l => l.startsWith('- ') || /^\[[0-9]{3,5}[A-D]?\]$/.test(l.trim()))) {
       html.push('<ul>' + lines.map(l =>
         l.startsWith('- ') ? `<li>${inlineHtml(l.slice(2), opts)}</li>` : `<li class="colmark">${inlineHtml(l.trim(), opts)}</li>`
       ).join('') + '</ul>');

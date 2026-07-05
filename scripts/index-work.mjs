@@ -89,8 +89,8 @@ function parseScripture(raw) {
   return { refKey };
 }
 
-const colRe = /\[([0-9]{4}[A-D])\]/g;
-const citeCol = c => String(parseInt(c.slice(0, 4), 10)) + c.slice(4).toLowerCase();
+const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with scripts/lib/chunk-core.mjs COL_RE_SRC (banded 0473A + bare 1137)
+const citeCol = c => { const m = c.match(/^0*([0-9]+)([A-D]?)$/); return m ? m[1] + m[2].toLowerCase() : c.toLowerCase(); };
 
 // walk Latin chunks: track current column; collect notes + heads with position
 const scripture = [], fontes = [], unparsed = [], headsLa = [];
@@ -98,7 +98,7 @@ for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
   const body = fs.readFileSync(path.join(latDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
   let col = c.colContext;
-  const tokenRe = /\[([0-9]{4}[A-D])\]|\[n: ([^\]]*)\]|^## (.*)$/gm;
+  const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[n: ([^\]]*)\]|^## (.*)$/gm;
   for (const t of body.matchAll(tokenRe)) {
     if (t[1]) { col = t[1]; continue; }
     if (t[3] !== undefined) { headsLa.push({ la: t[3].replace(/\*/g, '').trim(), column: citeCol(col), chunk: c.chunk }); continue; }

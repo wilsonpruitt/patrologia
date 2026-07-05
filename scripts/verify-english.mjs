@@ -28,7 +28,7 @@ const engDir = path.join(ROOT, 'src/english', String(idno));
 const manifest = JSON.parse(fs.readFileSync(path.join(latDir, 'manifest.json'), 'utf8'));
 const errs = [];
 const warns = [];
-const colRe = /\[([0-9]{4}[A-D])\]/g;
+const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with scripts/lib/chunk-core.mjs COL_RE_SRC (banded 0473A + bare 1137)
 const noteRe = /\[n: ([^\]]*)\]/g;
 const words = s => s.split(/\s+/).filter(Boolean).length;
 const parse = f => {
