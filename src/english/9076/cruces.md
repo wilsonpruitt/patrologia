@@ -1,3 +1,5 @@
+> Chunk numbers below predate the 2026-07-05 re-chunk (chapter heads recovered; boundaries shifted). Locate cruces by column mark, not chunk.
+
 # Cruces — 9076 (Haymo, Commentarium in Cantica canticorum)
 
 Corrupt/garbled printed Latin rendered literally (not emended); logged here per translation protocol.

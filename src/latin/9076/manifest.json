@@ -12,7 +12,7 @@
   "sourceWords": 27114,
   "sourceNotes": 0,
   "sourcePbMarks": 256,
-  "chunkCount": 19,
+  "chunkCount": 23,
   "chunks": [
     {
       "workIdno": 4053,
@@ -24,14 +24,14 @@
       "series": "pl",
       "volume": 117,
       "chunk": 0,
-      "chunkCount": 19,
+      "chunkCount": 23,
       "colContext": "0295A",
       "colFirst": "0295A",
-      "colLast": "0298D",
+      "colLast": "0295A",
       "heads": [
         "Commentarium in Cantica canticorum"
       ],
-      "words": 1589,
+      "words": 77,
       "noteCount": 0,
       "incipit": "Salomon, inspiratus divino Spiritu, composuit hunc libellum de"
     },
@@ -45,14 +45,35 @@
       "series": "pl",
       "volume": 117,
       "chunk": 1,
-      "chunkCount": 19,
+      "chunkCount": 23,
+      "colContext": "0295A",
+      "colFirst": "0295B",
+      "colLast": "0298D",
+      "heads": [
+        "CAPUT PRIMUM."
+      ],
+      "words": 1515,
+      "noteCount": 0,
+      "incipit": "« Osculetur me osculo oris sui. » Desiderantis"
+    },
+    {
+      "workIdno": 4053,
+      "textIdno": 9076,
+      "work": "Commentarium in Cantica canticorum",
+      "authors": [
+        "Haymo Halberstatensis"
+      ],
+      "series": "pl",
+      "volume": 117,
+      "chunk": 2,
+      "chunkCount": 23,
       "colContext": "0298D",
       "colFirst": "0299A",
-      "colLast": "0302C",
+      "colLast": "0301C",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT PRIMUM. (cont.)"
       ],
-      "words": 1549,
+      "words": 1157,
       "noteCount": 0,
       "incipit": "« Pulchrae sunt genae tuae sicut turturis. »"
     },
@@ -65,38 +86,17 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 2,
-      "chunkCount": 19,
-      "colContext": "0302C",
-      "colFirst": "0302D",
-      "colLast": "0306A",
-      "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
-      ],
-      "words": 1590,
-      "noteCount": 0,
-      "incipit": "« Sicut malus inter ligna silvarum, sic dilectus"
-    },
-    {
-      "workIdno": 4053,
-      "textIdno": 9076,
-      "work": "Commentarium in Cantica canticorum",
-      "authors": [
-        "Haymo Halberstatensis"
-      ],
-      "series": "pl",
-      "volume": 117,
       "chunk": 3,
-      "chunkCount": 19,
-      "colContext": "0306A",
-      "colFirst": "0306B",
-      "colLast": "0309C",
+      "chunkCount": 23,
+      "colContext": "0301C",
+      "colFirst": "0301D",
+      "colLast": "0304D",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT II."
       ],
-      "words": 1527,
+      "words": 1371,
       "noteCount": 0,
-      "incipit": "« Flores apparuerunt in terra nostra, tempus putationis"
+      "incipit": "« Ego flos campi et lilium convallium. »"
     },
     {
       "workIdno": 4053,
@@ -108,16 +108,16 @@
       "series": "pl",
       "volume": 117,
       "chunk": 4,
-      "chunkCount": 19,
-      "colContext": "0309C",
-      "colFirst": "0309D",
-      "colLast": "0313A",
+      "chunkCount": 23,
+      "colContext": "0304D",
+      "colFirst": "0305A",
+      "colLast": "0308A",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT II. (cont.)"
       ],
-      "words": 1467,
+      "words": 1391,
       "noteCount": 0,
-      "incipit": "« Paululum cum pertransissem eos, inveni quem diligit"
+      "incipit": "« Similis est dilectus meus capreae hinnuloque cervorum."
     },
     {
       "workIdno": 4053,
@@ -129,16 +129,16 @@
       "series": "pl",
       "volume": 117,
       "chunk": 5,
-      "chunkCount": 19,
-      "colContext": "0313A",
-      "colFirst": "0313B",
-      "colLast": "0316B",
+      "chunkCount": 23,
+      "colContext": "0308A",
+      "colFirst": "0308B",
+      "colLast": "0309A",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT II. (cont.)"
       ],
-      "words": 1344,
+      "words": 465,
       "noteCount": 0,
-      "incipit": "« Columnas ejus fecit argenteas. » Per columnas"
+      "incipit": "« Dilectus meus mihi, et ego illi, qui"
     },
     {
       "workIdno": 4053,
@@ -150,16 +150,16 @@
       "series": "pl",
       "volume": 117,
       "chunk": 6,
-      "chunkCount": 19,
-      "colContext": "0316B",
-      "colFirst": "0316C",
-      "colLast": "0319B",
+      "chunkCount": 23,
+      "colContext": "0309A",
+      "colFirst": "0309B",
+      "colLast": "0311D",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT III."
       ],
-      "words": 1362,
+      "words": 1218,
       "noteCount": 0,
-      "incipit": "« Sicut vitta coccinea labia tua, et eloquium"
+      "incipit": "« In lectulo meo per noctes quaesivi quem"
     },
     {
       "workIdno": 4053,
@@ -171,16 +171,16 @@
       "series": "pl",
       "volume": 117,
       "chunk": 7,
-      "chunkCount": 19,
-      "colContext": "0319B",
-      "colFirst": "0319C",
-      "colLast": "0323A",
+      "chunkCount": 23,
+      "colContext": "0311D",
+      "colFirst": "0312A",
+      "colLast": "0314D",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT III. (cont.)"
       ],
-      "words": 1499,
+      "words": 1235,
       "noteCount": 0,
-      "incipit": "« Veni de Libano, sponsa mea, veni de"
+      "incipit": "« En lectulum Salomonis, sexaginta fortes ambiunt ex"
     },
     {
       "workIdno": 4053,
@@ -192,16 +192,16 @@
       "series": "pl",
       "volume": 117,
       "chunk": 8,
-      "chunkCount": 19,
-      "colContext": "0323A",
-      "colFirst": "0323B",
-      "colLast": "0325C",
+      "chunkCount": 23,
+      "colContext": "0314D",
+      "colFirst": "0315A",
+      "colLast": "0318B",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT IV."
       ],
-      "words": 1112,
+      "words": 1514,
       "noteCount": 0,
-      "incipit": "« Cypri cum nardo, nardus et crocus, fistula"
+      "incipit": "« Quam pulchra es, amica mea, quam pulchra"
     },
     {
       "workIdno": 4053,
@@ -213,14 +213,77 @@
       "series": "pl",
       "volume": 117,
       "chunk": 9,
-      "chunkCount": 19,
+      "chunkCount": 23,
+      "colContext": "0318B",
+      "colFirst": "0318C",
+      "colLast": "0321B",
+      "heads": [
+        "CAPUT IV. (cont.)"
+      ],
+      "words": 1299,
+      "noteCount": 0,
+      "incipit": "« Donec aspiret dies, » hoc est, dies"
+    },
+    {
+      "workIdno": 4053,
+      "textIdno": 9076,
+      "work": "Commentarium in Cantica canticorum",
+      "authors": [
+        "Haymo Halberstatensis"
+      ],
+      "series": "pl",
+      "volume": 117,
+      "chunk": 10,
+      "chunkCount": 23,
+      "colContext": "0321B",
+      "colFirst": "0321C",
+      "colLast": "0325A",
+      "heads": [
+        "CAPUT IV. (cont.)"
+      ],
+      "words": 1565,
+      "noteCount": 0,
+      "incipit": "« Favus distillans labia tua, sponsa. » Favus"
+    },
+    {
+      "workIdno": 4053,
+      "textIdno": 9076,
+      "work": "Commentarium in Cantica canticorum",
+      "authors": [
+        "Haymo Halberstatensis"
+      ],
+      "series": "pl",
+      "volume": 117,
+      "chunk": 11,
+      "chunkCount": 23,
+      "colContext": "0325A",
+      "colFirst": "0325B",
+      "colLast": "0325C",
+      "heads": [
+        "CAPUT IV. (cont.)"
+      ],
+      "words": 224,
+      "noteCount": 0,
+      "incipit": "« Surge, Aquilo, et veni, Auster, perfla hortum"
+    },
+    {
+      "workIdno": 4053,
+      "textIdno": 9076,
+      "work": "Commentarium in Cantica canticorum",
+      "authors": [
+        "Haymo Halberstatensis"
+      ],
+      "series": "pl",
+      "volume": 117,
+      "chunk": 12,
+      "chunkCount": 23,
       "colContext": "0325C",
       "colFirst": "0325D",
       "colLast": "0329A",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT V."
       ],
-      "words": 1557,
+      "words": 1554,
       "noteCount": 0,
       "incipit": "« Veniat dilectus meus in hortum suum, ut"
     },
@@ -233,15 +296,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 10,
-      "chunkCount": 19,
+      "chunk": 13,
+      "chunkCount": 23,
       "colContext": "0329A",
       "colFirst": "0329B",
       "colLast": "0332B",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT V. (cont.)"
       ],
-      "words": 1402,
+      "words": 1400,
       "noteCount": 0,
       "incipit": "« Pessulum ostii mei aperui dilecto meo, at"
     },
@@ -254,15 +317,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 11,
-      "chunkCount": 19,
+      "chunk": 14,
+      "chunkCount": 23,
       "colContext": "0332B",
       "colFirst": "0332C",
-      "colLast": "0336A",
+      "colLast": "0335D",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT V. (cont.)"
       ],
-      "words": 1512,
+      "words": 1510,
       "noteCount": 0,
       "incipit": "« Oculi ejus sicut columbae super rivulos aquarum,"
     },
@@ -275,15 +338,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 12,
-      "chunkCount": 19,
-      "colContext": "0336A",
-      "colFirst": "0336B",
+      "chunk": 15,
+      "chunkCount": 23,
+      "colContext": "0335D",
+      "colFirst": "0336A",
       "colLast": "0339C",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VI."
       ],
-      "words": 1548,
+      "words": 1545,
       "noteCount": 0,
       "incipit": "« Dilectus meus descendit in hortum suum ad"
     },
@@ -296,15 +359,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 13,
-      "chunkCount": 19,
+      "chunk": 16,
+      "chunkCount": 23,
       "colContext": "0339C",
       "colFirst": "0339D",
-      "colLast": "0342D",
+      "colLast": "0341C",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VI. (cont.)"
       ],
-      "words": 1462,
+      "words": 855,
       "noteCount": 0,
       "incipit": "« Una est columba mea, perfecta mea, »"
     },
@@ -317,17 +380,17 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 14,
-      "chunkCount": 19,
-      "colContext": "0342D",
-      "colFirst": "0343A",
-      "colLast": "0346C",
+      "chunk": 17,
+      "chunkCount": 23,
+      "colContext": "0341C",
+      "colFirst": "0341D",
+      "colLast": "0345B",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VII."
       ],
-      "words": 1492,
+      "words": 1587,
       "noteCount": 0,
-      "incipit": "« Venter tuus sicut acervus tritici vallatus liliis."
+      "incipit": "« Quid videbis in Sunamite nisi choros castrorum?"
     },
     {
       "workIdno": 4053,
@@ -338,17 +401,38 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 15,
-      "chunkCount": 19,
-      "colContext": "0346C",
-      "colFirst": "0346D",
+      "chunk": 18,
+      "chunkCount": 23,
+      "colContext": "0345B",
+      "colFirst": "0345C",
+      "colLast": "0348D",
+      "heads": [
+        "CAPUT VII. (cont.)"
+      ],
+      "words": 1494,
+      "noteCount": 0,
+      "incipit": "« Et comae capitis tui ut purpura regis"
+    },
+    {
+      "workIdno": 4053,
+      "textIdno": 9076,
+      "work": "Commentarium in Cantica canticorum",
+      "authors": [
+        "Haymo Halberstatensis"
+      ],
+      "series": "pl",
+      "volume": 117,
+      "chunk": 19,
+      "chunkCount": 23,
+      "colContext": "0348D",
+      "colFirst": "0349A",
       "colLast": "0350A",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VII. (cont.)"
       ],
-      "words": 1561,
+      "words": 576,
       "noteCount": 0,
-      "incipit": "« Dixi, ascendam in palmam, apprehendam fructus ejus."
+      "incipit": "« Mane surgamus ad vineas. » Mane exortus"
     },
     {
       "workIdno": 4053,
@@ -359,15 +443,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 16,
-      "chunkCount": 19,
+      "chunk": 20,
+      "chunkCount": 23,
       "colContext": "0350A",
       "colFirst": "0350B",
       "colLast": "0353B",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VIII."
       ],
-      "words": 1401,
+      "words": 1398,
       "noteCount": 0,
       "incipit": "« Quis mihi det te fratrem meum sugentem"
     },
@@ -380,15 +464,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 17,
-      "chunkCount": 19,
+      "chunk": 21,
+      "chunkCount": 23,
       "colContext": "0353B",
       "colFirst": "0353C",
       "colLast": "0356D",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VIII. (cont.)"
       ],
-      "words": 1466,
+      "words": 1464,
       "noteCount": 0,
       "incipit": "« Pone me ut signaculum super cor tuum,"
     },
@@ -401,15 +485,15 @@
       ],
       "series": "pl",
       "volume": 117,
-      "chunk": 18,
-      "chunkCount": 19,
+      "chunk": 22,
+      "chunkCount": 23,
       "colContext": "0356D",
       "colFirst": "0357A",
       "colLast": "0358D",
       "heads": [
-        "Commentarium in Cantica canticorum (cont.)"
+        "CAPUT VIII. (cont.)"
       ],
-      "words": 767,
+      "words": 765,
       "noteCount": 0,
       "incipit": "« Vinea mea coram me est. » Vox"
     }

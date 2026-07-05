@@ -16,7 +16,7 @@
   "counts": {
     "scripture": 6,
     "fontes": 21,
-    "heads": 3,
+    "heads": 25,
     "headnotes": 0,
     "unparsed": 0
   },
@@ -37,42 +37,42 @@
       "refKey": "Eph.2.14",
       "refDisplay": "Ephes. II, 14",
       "column": "1364c",
-      "chunk": 1
+      "chunk": 0
     },
     {
       "refKey": "John.14.27",
       "refDisplay": "Joan. XIV, 27",
       "column": "1364c",
-      "chunk": 1
+      "chunk": 0
     },
     {
       "refKey": "Matt.3.17",
       "refDisplay": "Matth. III, 17",
       "column": "1364c",
-      "chunk": 1
+      "chunk": 0
     },
     {
       "refKey": "Sir.19.2",
       "refDisplay": "Eccli. XIX, 2",
       "column": "1365b",
-      "chunk": 1
+      "chunk": 0
     }
   ],
   "fontes": [
     {
       "raw": "CAP. I. Osculum oris, inspiratio Sponsi.",
       "column": "1364c",
-      "chunk": 1
+      "chunk": 0
     },
     {
       "raw": "Ubera sponsi, dilectio Dei et proximi.",
       "column": "1365a",
-      "chunk": 1
+      "chunk": 0
     },
     {
       "raw": "Oleum effusum Christi nomen est.",
       "column": "1365c",
-      "chunk": 1
+      "chunk": 0
     },
     {
       "raw": "Adolescentulae, sanctae animae.",
@@ -122,7 +122,7 @@
     {
       "raw": "Ne vaga sit post greges passionum.",
       "column": "1368a",
-      "chunk": 2
+      "chunk": 1
     },
     {
       "raw": "Pugnandum est contra tentationes.",
@@ -175,14 +175,146 @@
     {
       "la": "PROLOGUS AUCTORIS.",
       "column": "1364a",
-      "chunk": 1,
+      "chunk": 0,
       "en": "THE AUTHOR'S PROLOGUE."
     },
     {
-      "la": "PROLOGUS AUCTORIS. (cont.)",
+      "la": "CAPUT PRIMUM.",
+      "column": "1364c",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "1.",
+      "column": "1364c",
+      "chunk": 0,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1365a",
+      "chunk": 0,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1365c",
+      "chunk": 1,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1365c",
+      "chunk": 1,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1366a",
+      "chunk": 1,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1366b",
+      "chunk": 1,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1366c",
+      "chunk": 1,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1366d",
+      "chunk": 1,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1367a",
+      "chunk": 1,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1367b",
+      "chunk": 1,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1367c",
+      "chunk": 1,
+      "en": "11."
+    },
+    {
+      "la": "12.",
       "column": "1367d",
+      "chunk": 1,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1367d",
+      "chunk": 1,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1368a",
       "chunk": 2,
-      "en": "THE AUTHOR'S PROLOGUE. (cont.)"
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1368c",
+      "chunk": 2,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1368d",
+      "chunk": 2,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1369a",
+      "chunk": 2,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1369b",
+      "chunk": 2,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1369c",
+      "chunk": 2,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1370a",
+      "chunk": 2,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1370b",
+      "chunk": 2,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1370c",
+      "chunk": 2,
+      "en": "22."
     }
   ],
   "headnotes": [],

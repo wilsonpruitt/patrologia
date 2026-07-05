@@ -1,3 +1,5 @@
+> Chunk numbers below predate the 2026-07-05 re-chunk (chapter heads recovered; boundaries shifted). Locate cruces by column mark, not chunk.
+
 # Cruces — 10725 (Anselm of Laon, Enarrationes in Cantica canticorum)
 
 Printed-Latin problems rendered literally (not emended). Chunk / column / Latin as printed / problem.
