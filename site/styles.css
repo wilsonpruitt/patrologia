@@ -393,10 +393,34 @@ a { color: inherit; }
   }
 }
 
+/* ---------- author popover (native Popover API, no JS) ---------- */
+/* the byline / crumbs author name is a button that opens a modest bio card;
+   authors without a bio render as plain text (no button) */
+.author-pop {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0;
+  cursor: pointer; text-decoration: underline; text-decoration-color: var(--dorure);
+  text-underline-offset: .18em; text-decoration-thickness: 1px;
+}
+.author-pop:hover { color: var(--maroquin); text-decoration-color: var(--maroquin); }
+.crumbs .author-pop { text-decoration: none; }
+.crumbs .author-pop:hover { text-decoration: underline; }
+.author-card {
+  max-width: 26rem; padding: 1.2rem 1.4rem; border: 0;
+  background: var(--papier); color: var(--encre);
+  border-top: 3px solid var(--dorure);
+  box-shadow: 0 8px 30px rgba(20, 37, 25, .28);
+}
+.author-card h3 { font-family: var(--didot); font-weight: 400; font-size: 1.2rem; margin: 0 0 .1rem; }
+.author-card .latin-name { font-style: italic; color: var(--encre-douce); font-size: .92rem; margin: 0 0 .1rem; }
+.author-card .dates { font-size: .82rem; letter-spacing: .04em; color: var(--dorure); margin: 0 0 .7rem; text-transform: uppercase; }
+.author-card .bio { font-size: .92rem; line-height: 1.6; margin: 0; }
+.author-card::backdrop { background: rgba(20, 37, 25, .35); }
+
 /* ---------- PG work page ---------- */
-/* Greek body in GFS Didot — the face Migne's Greek type descends from.
-   Rows cut at sentence ends near each column anchor; anchors inline,
-   hanging into the outer margins per the base .anchor rules. */
+/* Emitted here too (identical to build-work-page-pg.mjs) so a PL rebuild,
+   which fully rewrites site/styles.css, never drops the Greek-column rules
+   a live PG page depends on. The PG builder strips+re-adds this same block
+   by its comment header, so there is never a duplicate. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }

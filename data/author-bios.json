@@ -1,0 +1,32 @@
+{
+  "_README": "Author display + modest bio, keyed by the exact Latin author-name string as it appears in a work's manifest.authors (and data/works.json). Populated incrementally as each author's first work ships — not a bulk backfill. Fields: displayName (English, used for bylines/crumbs/index; falls back to the Latin key when absent) · latin (the printed Latin form, shown in the author popup and carried in the index to disambiguate same-named authors) · dates · bio (modest, popup-length prose) · dedicatee (true = a royal/patron dedicatee Corpus Corporum lists in the author array but who did NOT write the work; filtered out of author credit). See translation-style.md and CLAUDE.md rule on English-first display.",
+  "Robertus de Tumbalena": {
+    "displayName": "Robert of Tombelaine",
+    "latin": "Robertus de Tumbalena",
+    "dates": "c. 1010 – after 1084",
+    "bio": "Monk of Mont-Saint-Michel, later abbot of Saint-Vigor of Bayeux (1066–1084). He wrote this two-book commentary on the Song of Songs at the request of a fellow monk, Anastasius, prefacing it with a covering letter to a monk named Ansfrid."
+  },
+  "Abbo Floriacensis": {
+    "displayName": "Abbo of Fleury",
+    "latin": "Abbo Floriacensis",
+    "dates": "c. 945 – 13 November 1004",
+    "bio": "Monk and abbot of Fleury (Saint-Benoît-sur-Loire), educated at Paris and Reims. He spent 985–987 at Ramsey Abbey assisting Archbishop Oswald of York's monastic reforms, then returned to Fleury as abbot in 988, writing on computus, logic, canon law, and hagiography. He was killed at La Réole in Gascony in 1004, speared while trying to quell a fight between two factions of monks, and died in the arms of his disciple Aimoin, who later wrote his life."
+  },
+  "Anselmus Laudunensis": {
+    "displayName": "Anselm of Laon",
+    "latin": "Anselmus Laudunensis",
+    "dates": "c. 1050 – 1117",
+    "bio": "Theologian and master of the cathedral school of Laon, whose teaching on the sacraments and on the ordered reading of Scripture shaped the twelfth-century schools. He and his circle are traditionally associated with the origins of the Glossa ordinaria on the Bible."
+  },
+  "Haymo Halberstatensis": {
+    "displayName": "Haimo of Halberstadt",
+    "latin": "Haymo Halberstatensis",
+    "note": "Migne prints this commentary under 'Haymo Halberstatensis' (Haimo, bishop of Halberstadt, d. 853). Much modern scholarship reassigns the Carolingian exegetical corpus printed under his name to Haimo of Auxerre; the attribution is unsettled — flagged for Wilson."
+  },
+  "Robertus Francorum": {
+    "displayName": "Robert II of France",
+    "latin": "Robertus Francorum",
+    "dedicatee": true,
+    "bio": "King Robert II 'the Pious' of France (972–1031), the royal dedicatee of Abbo's Canones — not its author. Corpus Corporum lists him in the work's author array; he is filtered from author credit."
+  }
+}

@@ -73,3 +73,20 @@ of these). Render them as citations:
 **Worked instances:** Abbo *Canones* ch. XLIX and L (9741/0010, cols 505D,
 506A), flagged by Wilson 2026-07-03; corpus swept, one descriptive-prose case
 (9741/0003, col 485D) correctly left lowercase.
+
+### 3. "Holy Scripture" — capitalize both words (the Bible as a whole)
+
+The standing English name for the Bible as a body is **Holy Scripture** (also
+**the Scriptures**, **Holy Writ**) — both words capitalized — wherever the
+Latin is *sacra / sancta Scriptura*, *Scriptura sancta*, *divina Scriptura*, or
+*Scripturae* meaning the canon. Capital *S* alone is not enough: it is *Holy
+Scripture*, not "holy Scripture."
+
+- This is a fixed proper name, **not** the general pattern "*holy* + noun." So
+  *sancta Ecclesia* stays "holy Church," *sancta praedicatio* stays "holy
+  preaching," *sancta anima* "holy soul" — only *Scriptura* as the canon is
+  promoted.
+- **Worked instance:** Robert of Tombelaine *Commentaria in Cantica* (10379/0001
+  col 1366C; 10379/0002 col 1370A, *Murenulae aureae, sacra Scriptura*), flagged
+  by Wilson 2026-07-04. Corpus swept: 4 instances in Robert corrected; Abbo and
+  Joel had none.

@@ -92,11 +92,35 @@ const vol = manifest.volume;
 const title = manifest.title;
 const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.colLast);
-const authorList = manifest.authors ?? [];
-const authorNames = authorList.length ? authorList.join(' and ') : 'Anonymous';
-const authorLinks = authorList.length
-  ? authorList.map(a => `<a href="#">${esc(a)}</a>`).join(' &amp; ')
-  : '<a href="#">Anonymous</a>';
+// Author display: English-first byline from data/author-bios.json, with the
+// Latin form carried into the popup (and the index) to disambiguate. Dedicatees
+// (royal/patron names Corpus Corporum lists in the author array but who did not
+// write the work) are filtered out of author credit.
+const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
+const bioOf = a => bios[a];
+const credited = (manifest.authors ?? []).filter(a => !bioOf(a)?.dedicatee);
+const displayName = a => bioOf(a)?.displayName ?? a;
+const authorNames = credited.length ? credited.map(displayName).join(' and ') : 'Anonymous';
+
+// each credited author with a bio becomes a native-popover trigger (no JS);
+// authors without a bio render as plain text and fall back to the Latin form.
+const authorCards = [];
+const authorNode = (a, i) => {
+  const b = bioOf(a), name = esc(displayName(a));
+  if (!b?.bio) return name;
+  const pid = `author-${i}`;
+  const latinLine = b.latin && b.latin !== displayName(a)
+    ? `\n  <p class="latin-name" lang="la">${esc(b.latin)}</p>` : '';
+  const datesLine = b.dates ? `\n  <p class="dates">${esc(b.dates)}</p>` : '';
+  authorCards.push(`<div id="${pid}" popover class="author-card">
+  <h3>${name}</h3>${latinLine}${datesLine}
+  <p class="bio">${esc(b.bio)}</p>
+</div>`);
+  return `<button type="button" class="author-pop" popovertarget="${pid}">${name}</button>`;
+};
+const authorNodes = credited.length ? credited.map(authorNode) : ['Anonymous'];
+const authorLinks = authorNodes.join(' &amp; ');
+const authorByline = authorNodes.join(' and ');
 
 const html = `<!DOCTYPE html>
 <html lang="en">
@@ -132,10 +156,11 @@ const html = `<!DOCTYPE html>
   <div class="work-id">
     <p class="crumbs"><a href="#">Patrologia Latina</a> · <a href="#">Vol. ${vol}</a> · ${authorLinks}</p>
     <h1>${esc(title.toUpperCase())}</h1>
-    <p class="byline">${esc(authorNames)}</p>
+    <p class="byline">${authorByline}</p>
     <p class="meta">PL ${vol}, coll. ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>
   </div>
 </div>
+${authorCards.join('\n')}
 
 <main class="columns">
 ${passages}
@@ -246,6 +271,38 @@ css += `
     width: auto; padding: 0 .1rem;
   }
 }
+
+/* ---------- author popover (native Popover API, no JS) ---------- */
+/* the byline / crumbs author name is a button that opens a modest bio card;
+   authors without a bio render as plain text (no button) */
+.author-pop {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0;
+  cursor: pointer; text-decoration: underline; text-decoration-color: var(--dorure);
+  text-underline-offset: .18em; text-decoration-thickness: 1px;
+}
+.author-pop:hover { color: var(--maroquin); text-decoration-color: var(--maroquin); }
+.crumbs .author-pop { text-decoration: none; }
+.crumbs .author-pop:hover { text-decoration: underline; }
+.author-card {
+  max-width: 26rem; padding: 1.2rem 1.4rem; border: 0;
+  background: var(--papier); color: var(--encre);
+  border-top: 3px solid var(--dorure);
+  box-shadow: 0 8px 30px rgba(20, 37, 25, .28);
+}
+.author-card h3 { font-family: var(--didot); font-weight: 400; font-size: 1.2rem; margin: 0 0 .1rem; }
+.author-card .latin-name { font-style: italic; color: var(--encre-douce); font-size: .92rem; margin: 0 0 .1rem; }
+.author-card .dates { font-size: .82rem; letter-spacing: .04em; color: var(--dorure); margin: 0 0 .7rem; text-transform: uppercase; }
+.author-card .bio { font-size: .92rem; line-height: 1.6; margin: 0; }
+.author-card::backdrop { background: rgba(20, 37, 25, .35); }
+
+/* ---------- PG work page ---------- */
+/* Emitted here too (identical to build-work-page-pg.mjs) so a PL rebuild,
+   which fully rewrites site/styles.css, never drops the Greek-column rules
+   a live PG page depends on. The PG builder strips+re-adds this same block
+   by its comment header, so there is never a duplicate. */
+.coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
+.colpair { border-top: 0; padding-top: .4rem; }
+.columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }
 `;
 fs.writeFileSync(path.join(ROOT, 'site/styles.css'), css);
 

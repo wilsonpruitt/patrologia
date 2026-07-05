@@ -163,10 +163,16 @@ if (headsEn.length !== headsLa.length) {
 }
 const heads = headsLa.map((h, i) => ({ ...h, en: headsEn[i] }));
 
+// authors: keep the printed Latin form (disambiguates same-English-name authors)
+// and add the English display name for author browse/search, from author-bios.json
+let authorBios = {};
+try { authorBios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8')); } catch {}
+const authorsDisplay = (manifest.authors ?? []).map(a => authorBios[a]?.displayName ?? a);
+
 const out = {
   generated: 'scripts/index-work.mjs',
   workIdno: manifest.workIdno, textIdno: manifest.textIdno,
-  title: manifest.title, authors: manifest.authors,
+  title: manifest.title, authors: manifest.authors, authorsDisplay,
   series: manifest.series, volume: manifest.volume,
   colFirst: citeCol(manifest.colFirst), colLast: citeCol(manifest.colLast),
   counts: { scripture: scripture.length, fontes: fontes.length, heads: heads.length, headnotes: headnotes.length, unparsed: unparsed.length },
