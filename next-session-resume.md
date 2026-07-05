@@ -1,15 +1,22 @@
 # Next session — resume note
 
-*Updated 2026-07-04, overnight session (Robert pilot FINISHED; byline/popup + Holy Scripture + CSS-landmine done; 2 new Song-of-Songs works translated autonomously while Wilson slept). **Nothing deployed** — all staged for Wilson's read-through.*
+*Updated 2026-07-05 (chunker rewrite session, commit `5ccf4c0`): **the chunker is now corpus-ready — 99.09% of the entire PL (5,228/5,276 texts) chunks clean.** Prior update 2026-07-04 overnight (Robert pilot finished; byline/popup; 2 new Song-of-Songs works). **Nothing deployed** — all staged for Wilson's read-through.*
 
-## → NEXT SESSION FIRST: the chunker is NOT corpus-ready — fix it before any more bulk PL translation
+## ✅ DONE 2026-07-05: chunker rewritten as partition-based core — scalable, corpus-validated
 
-Tonight's headline. Trying to translate the 5 smallest Song-of-Songs queue works exposed that **14 of 18 queue works fail chunking** (`scripts/chunk-work.mjs`). Two failure classes, both in the *sacred* anchor/note extraction:
-- **Off-by-one (most fails):** the chunker only parses content inside `<div1>` units, but `srcPbSeq`/`srcNoteCount` (validation truth) count the whole `<body>`. Any `<pb>` or `<note>` sitting *between* div1 units, *before* the first, or *after* the last is counted but never emitted → "source N marks, chunks N-1, first divergence at index 0/…". 21413 also drops 2 real notes this way (content loss, not just position).
-- **Total failure (0 extracted):** 7383 (PL 40) and 7871 (PL 67) don't use `<div1>` at all → `divRe` matches nothing → 0 marks/notes/words. These also have *bare* column numbers ("1137", no A–D band) unlike the usual "1361B".
-- **A real fix** must (a) capture pb/notes outside div1, (b) handle non-div1 TEI structures, (c) handle bare (bandless) column numbers, and (d) **re-chunk Abbo/9741 + Robert/10379 + the 4 clean works below byte-identically** (the validator IS the regression test — it refuses invalid output, so translation literally can't start on a bad chunk). This is judgment-dense work on the sacred component — **Wilson's call, not an overnight hack.** I did NOT touch the chunker.
+The 2026-07-04 "NOT corpus-ready" blocker is closed. `scripts/lib/chunk-core.mjs` (new) partitions the whole `<body>` at div boundaries — every byte lands in exactly one unit, so pb/notes/heads can't be silently dropped by construction. `chunk-work.mjs` = thin CLI (same usage, new `--out` flag for scratch runs); `chunk-scan.mjs` (new) = corpus-wide dry-run → `data/chunk-scan.json`.
 
-**Queue chunk-status (tested tonight):** PASS = 8229, 10725✅done, 9076✅done, 11613 (Gilbert Foliot, ready, deferred — 47 chunks, too big to run unsupervised). FAIL = 7383, 11062, 21413, 11321, 7871, 10804, 7914, 9033, 8930, 11638, 6963, 11512, 11632, 11703. **8229 was PASS but EXCLUDED** — its "Cantica" title is a collection of *biblical canticles* (Song of Moses/Isaiah — raw Vulgate scripture), not a commentary; violates untranslated-first + scripture policy.
+- **All 14 previously-failing queue works now PASS** (7383, 11062, 21413, 11321, 7871, 10804, 7914, 9033, 8930, 11638, 6963, 11512, 11632, 11703). The whole Song-of-Songs queue is chunkable.
+- **Corpus scan: 5,228/5,276 pass (99.09%).** The 48 fails are table/calendar layouts (chronological tables à la 21340 Chronicon; 0.51% of corpus by words) that fail LOUDLY on word-drift — per-work handling if they ever enter the queue, never silent mangling.
+- **Regression gate: Abbo 9741 re-chunks byte-identically.** Corpus cases the old extractor couldn't touch, now handled: div2-only/no-div works, structural `<note>` wrapping monita (436 files — transparent translatable content), nested notes (flattened to sibling `[n:]`), pb inside notes/heads/tables (pulled out as sibling markers), bare column numbers ("1137"), literal `[ ]` in prose/notes, verse `<l>` lines (258K were being dropped corpus-wide), multi-head divs. Nonstandard pb values (Roman numerals, OCR typos — 631 marks corpus-wide) chunk verbatim + warn: patch with provenance before translating those works.
+- **Downstream colRe extended** (`verify-english` / `index-work` / `build-work-page`, now `[0-9]{3,5}[A-D]?` + generic band parsing) — verified no-op on translated works (verify OK on 9741/10725/10379/9076). Bare-column works can flow the whole pipeline; check the site resolver handles band-less anchors at deploy time.
+
+## → WILSON DECISIONS pending from the chunker rewrite
+
+1. **The 4 div2 works chunked under the OLD chunker are missing their chapter headings.** The old extractor could not see `<head>` inside `<div2>` — the staged Robert (10379), Anselm (10725), Haimo (9076) translations and the chunked-ready Gilbert (11613) silently lack `## CAPUT PRIMUM.`-style heads (10379 also lost 2 marginal-summary notes; the 2% word tolerance hid all of it). Their `src/latin/` chunks were NOT overwritten — staged English still aligns chunk-for-chunk. Options: (a) re-chunk + patch translated heads into the English before deploy (small agent job, but chunk boundaries shift → verify+rebuild each), or (b) ship as-is, repair later. Wilson's call at read-through.
+2. **`build-work-page.mjs` will CLOBBER Abbo's curated about-paragraph on rebuild.** The hand-written Hugh Capet blurb on `site/pl/139/canones/` exists only in the committed HTML — the builder has no per-work about mechanism and emits a generic paragraph (discovered by test-rebuilding; reverted). Needs an `about` field (author-bios.json pattern) before any batch rebuild. Note the same rebuild would also apply the new byline/popover to Abbo's page — currently it predates that feature.
+
+**Queue status:** 8229 remains EXCLUDED — its "Cantica" is raw Vulgate biblical canticles, not a commentary (violates untranslated-first + scripture policy).
 
 ## → DEFERRED at Wilson's request: the u/v modern-letterform fix
 
