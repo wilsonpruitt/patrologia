@@ -150965,10 +150965,10 @@
       "colLast": "432B",
       "cpl": null,
       "translation": {
-        "workStatus": "none",
-        "englishState": "untranslated",
-        "note": "Explanatio in Canticum B. Mariae — no English translation found. Magnificat commentary exists in Latin (PL 175.413–432) but no published English version located.",
-        "confidence": "medium",
+        "workStatus": "ours",
+        "englishState": "ours",
+        "note": "Explanatio in Canticum B. Mariae — translated by us (Opus, 2026-07-05 Song-of-Songs queue session), live at migne.app/pl/175/explanatio-in-canticum-b-mariae/. Superseded the earlier 'none' triage finding (batch 33) once we shipped it ourselves.",
+        "confidence": "high",
         "triageBatch": "33"
       },
       "texts": [

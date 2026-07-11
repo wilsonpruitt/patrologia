@@ -16,9 +16,11 @@
 - **Bug fixed in `scripts/index-work.mjs`**: `citeCol()` crashed on a null column (the very first head of a work, before any `[pb]` anchor, has `colContext: null`) — now returns `null` gracefully instead of throwing.
 - **Deploy checklist locked into `translation-runbook.md` step 8**: landing RECENT update is now a mandatory pre-deploy step (was missed once this session, caught and fixed same-session).
 
-### Victorine queue — ALL 39 REMAINING WORKS ALREADY CHUNKED (`src/latin/<idno>/`, validated clean), smallest-first
+### Victorine queue — 38 REMAINING WORKS ALREADY CHUNKED (`src/latin/<idno>/`, validated clean), smallest-first
 
-No `chunk-work.mjs` step needed — every work below is ready for step 2 of the runbook (launch translation agents) straight away. `workStatus: "unclear"` rows have partial/uncertain existing coverage (blog excerpts, disputed scope) — treat as untranslated-first candidates same as "none" unless Wilson says otherwise. Total: 384 chunks, ~7.7M tokens at the ~20K/chunk rule of thumb — this is a multi-session campaign, not one run. **Hard-stop ritual applies before every launch** (state chunk count + burn estimate, ask "which model, and go?").
+No `chunk-work.mjs` step needed — every work below is ready for step 2 of the runbook (launch translation agents) straight away. `workStatus: "unclear"` rows have partial/uncertain existing coverage (blog excerpts, disputed scope) — treat as untranslated-first candidates same as "none" unless Wilson says otherwise. Total: 378 chunks, ~7.6M tokens at the ~20K/chunk rule of thumb — this is a multi-session campaign, not one run. **Hard-stop ritual applies before every launch** (state chunk count + burn estimate, ask "which model, and go?").
+
+**Gotcha caught 2026-07-10:** 11062 (*Explanatio in Canticum B. Mariae*) was in the original 39-work list from the batch-33 triage ("none" status) but was actually already translated in the 2026-07-05 Song-of-Songs session and is live at `migne.app/pl/175/explanatio-in-canticum-b-mariae/` — Wilson caught it on the landing page. Removed from the table below; `data/works.json` workIdno 6022 updated to `workStatus: "ours"` so this can't recur. **Lesson: cross-check any triage-derived queue against the live site / `site/index.html` RECENT list before trusting "none" status — triage snapshots go stale the moment we ship a work ourselves and the field doesn't auto-update.**
 
 | idno | author | work | chunks | words | status |
 |---|---|---|---|---|---|
@@ -47,7 +49,6 @@ No `chunk-work.mjs` step needed — every work below is ready for step 2 of the 
 | 11534 | Richard | De differentia sacrificii Abrahae a sacrificio B. Mariae Virginis | 5 | 6,529 | none |
 | 11061 | Hugh | De scripturis et scriptoribus sacris | 6 | 6,922 | unclear |
 | 11055 | Hugh | Adnotationes in libros Regum | 8 | 7,096 | none |
-| 11062 | Hugh | Explanatio in Canticum B. Mariae | 6 | 7,487 | none *(also on the older Song-of-Songs queue table below — same work, don't double-translate)* |
 | 11549 | Richard | Explicatio aliquorum passuum difficilium Apostoli | 6 | 7,704 | none |
 | 11085 | Hugh | De virginitate B. Mariae | 7 | 8,288 | none |
 | 11081 | Hugh | De sacramentis legis naturalis et scriptae | 9 | 10,035 | none |
