@@ -43,8 +43,17 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    `node scripts/index-work.mjs <idno>`. Curated "On this text" prose goes in
    `data/work-about.json` (NEVER edited into generated HTML) — optional pre-deploy,
    generic fallback is acceptable at stage time.
-7. **Stage only.** Landing RECENT update + deploy belong to Wilson's deploy session
-   (per-action OK). Wilson's read-through gates every work.
+7. **Stage only.** Deploy belongs to Wilson's deploy session (per-action OK).
+   Wilson's read-through gates every work.
+8. **Deploy checklist — every time, no skipping:** when Wilson gives the OK to deploy,
+   (a) prepend each newly-shipped work to `RECENT` in `scripts/build-landing.mjs`
+   (newest first, one-line comment naming the author/work), (b) run
+   `node scripts/build-landing.mjs` to rebuild `site/index.html` + resolver data,
+   (c) `cd site && npx vercel --prod`, (d) smoke-test the new work URLs (`curl -o
+   /dev/null -w '%{http_code}\n'`) and confirm the landing page lists them. The
+   landing rebuild is NOT optional at deploy time — a work that's live but missing
+   from RECENT is a real gap (2026-07-10: two Victorine works were deployed before
+   this step was locked in, requiring a follow-up landing rebuild + redeploy).
 
 ## Agent prompt template (strict — every element earns its place)
 

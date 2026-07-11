@@ -16,6 +16,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  'pl/175/quaestiones-in-epistolas-pauli',                      // Hugh of St Victor (Victorine school) — Pauline questions
+  'pl/175/expositio-in-hierarchiam-coelestem-s-dionysii',       // Hugh of St Victor (Victorine school) — Ps.-Dionysius commentary
   'pl/67/explicatio-in-cantica-canticorum',                     // Justus of Urgell — earliest Latin Song commentary
   'pl/100/in-cantica-canticorum',                               // Alcuin
   'pl/184/commentatio-in-cantica-canticorum-ex-bernardo-contexta', // William of St-Thierry
