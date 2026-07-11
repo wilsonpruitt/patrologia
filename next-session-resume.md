@@ -1,8 +1,23 @@
 # Next session — resume note
 
-*Updated 2026-07-05 (translation + deploy session): **five-smallest Song-of-Songs works translated end-to-end (Opus, commit `43aee86`) AND DEPLOYED. 8 works now live on migne.app** (the 5 new + the 3 prior staged: Robert/Anselm/Haimo). Wilson deployed `cd ~/patrologia/site && npx vercel --prod`; all live smoke tests passed (band-less `/pl/40/1137` resolves, landing shows 10 englished). Read-throughs now happen ON THE LIVE SITE — Wilson chose to publish ahead of read-through.*
+*Updated 2026-07-10 (Victorine translation session, off-queue): **two Hugh-of-St-Victor-attributed Victorine works translated end-to-end (Opus), STAGED not deployed.** Wilson has a personal stake in Victorine thought — ran a per-work triage (65 works across Hugh + Richard of St Victor) to find the largest genuinely-untranslated pieces, then translated the top two.*
 
-## → NEXT SESSION: Wilson read-throughs (on live pages), or translate the next queue works
+## → NEXT SESSION (Victorine thread): Wilson read-through + deploy decision, or continue the Victorine queue
+
+**STAGED, not yet deployed (2026-07-10):**
+| idno | author | work | chunks | notes for read-through |
+|---|---|---|---|---|
+| 11064 | Hugo de S. Victore (attribution: Victorine school, not Hugh personally) | Expositio in Hierarchiam Coelestem S. Dionysii (PL 175.923–1154) | 80 | first-ever English of Hugh's commentary on Ps.-Dionysius's Celestial Hierarchy; ~30 cruces across the run (garbled type, editorial-variant brackets); one running-head wording drift caught and normalized post-hoc ("set forth above" / "whose text has been set out above" → unified to "the text of which has been set out above") |
+| 11066 | Hugo de S. Victore (attribution: pseudo-Hugonian, later Victorine-school author) | Quaestiones in Epistolas Pauli (PL 175.431–634) | 61 | first-ever English of this Pauline question-commentary, full run Romans→Hebrews; house terms locked (QUESTION/Solution/Response/"It is asked"); **off-by-one caught**: chunker produced 61 chunks not 60, chunk 0060 was missed by initial batch planning and translated separately — verify-english now passes clean |
+
+- Both works: `verify-english.mjs` passes clean, `build-work-page.mjs` + `index-work.mjs` run (site pages + `data/index/pl/{11064,11066}.json` built). **Not added to `data/works.json` translation.workStatus** — consistent with how the Abbo pilot (4712) was left, that field tracks pre-translation triage only, not post-translation completion.
+- **Bug fixed in `scripts/index-work.mjs`**: `citeCol()` crashed on a null column (the very first head of a work, before any `[pb]` anchor, has `colContext: null`) — now returns `null` gracefully instead of throwing. Pre-existing edge case, unrelated to this session's chunks; will recur on any work whose opening head precedes its first column mark.
+- Per-work triage research for the wider Hugh/Richard queue is NOT saved to `data/triage/` yet — it lived in agent transcripts this session. If continuing the Victorine thread, the findings (which Hugh/Richard works are confirmed untranslated vs. covered by VTT/CWS/Selected Spiritual Writings) should be written to a persistent file before the next session, or re-run.
+- Read-through still owed on 11064 + 11066 before deploy (Wilson's gate, per standing convention).
+
+## → Prior thread: Wilson read-throughs (on live pages), or translate the next Song-of-Songs queue works
+
+*Prior update, 2026-07-05 (translation + deploy session): **five-smallest Song-of-Songs works translated end-to-end (Opus, commit `43aee86`) AND DEPLOYED. 8 works now live on migne.app** (the 5 new + the 3 prior staged: Robert/Anselm/Haimo). Wilson deployed `cd ~/patrologia/site && npx vercel --prod`; all live smoke tests passed (band-less `/pl/40/1137` resolves, landing shows 10 englished). Read-throughs now happen ON THE LIVE SITE — Wilson chose to publish ahead of read-through.*
 
 **LIVE on migne.app as of 2026-07-05** (10 englished works total, landing RECENT leads with Justus): the 5 new below + Robert (pl/150), Anselm (pl/162), Haimo (pl/117), Joel (pg/139), Abbo (pl/139).
 

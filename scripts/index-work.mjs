@@ -90,7 +90,7 @@ function parseScripture(raw) {
 }
 
 const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with scripts/lib/chunk-core.mjs COL_RE_SRC (banded 0473A + bare 1137)
-const citeCol = c => { const m = c.match(/^0*([0-9]+)([A-D]?)$/); return m ? m[1] + m[2].toLowerCase() : c.toLowerCase(); };
+const citeCol = c => { if (!c) return null; const m = c.match(/^0*([0-9]+)([A-D]?)$/); return m ? m[1] + m[2].toLowerCase() : c.toLowerCase(); };
 
 // walk Latin chunks: track current column; collect notes + heads with position
 const scripture = [], fontes = [], unparsed = [], headsLa = [];
