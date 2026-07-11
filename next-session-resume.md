@@ -1,19 +1,68 @@
 # Next session — resume note
 
-*Updated 2026-07-10 (Victorine translation session, off-queue): **two Hugh-of-St-Victor-attributed Victorine works translated end-to-end (Opus), STAGED not deployed.** Wilson has a personal stake in Victorine thought — ran a per-work triage (65 works across Hugh + Richard of St Victor) to find the largest genuinely-untranslated pieces, then translated the top two.*
+*Updated 2026-07-10 (Victorine translation session, off-queue): **two Hugh-of-St-Victor-attributed Victorine works translated end-to-end (Opus), DEPLOYED and LIVE on migne.app.** Wilson has a personal stake in Victorine thought — ran a per-work triage (65 works across Hugh + Richard of St Victor) to find genuinely-untranslated pieces, translated the two largest, deployed, and pre-chunked the entire remaining Victorine queue (39 works) for a future session.*
 
-## → NEXT SESSION (Victorine thread): Wilson read-through + deploy decision, or continue the Victorine queue
+## → NEXT SESSION (Victorine thread): translate the pre-chunked queue below — no setup needed, go straight to translating
 
-**STAGED, not yet deployed (2026-07-10):**
+**LIVE on migne.app as of 2026-07-10** (commits `622f262`, `7dc92ce`; landing RECENT updated + redeployed):
 | idno | author | work | chunks | notes for read-through |
 |---|---|---|---|---|
 | 11064 | Hugo de S. Victore (attribution: Victorine school, not Hugh personally) | Expositio in Hierarchiam Coelestem S. Dionysii (PL 175.923–1154) | 80 | first-ever English of Hugh's commentary on Ps.-Dionysius's Celestial Hierarchy; ~30 cruces across the run (garbled type, editorial-variant brackets); one running-head wording drift caught and normalized post-hoc ("set forth above" / "whose text has been set out above" → unified to "the text of which has been set out above") |
 | 11066 | Hugo de S. Victore (attribution: pseudo-Hugonian, later Victorine-school author) | Quaestiones in Epistolas Pauli (PL 175.431–634) | 61 | first-ever English of this Pauline question-commentary, full run Romans→Hebrews; house terms locked (QUESTION/Solution/Response/"It is asked"); **off-by-one caught**: chunker produced 61 chunks not 60, chunk 0060 was missed by initial batch planning and translated separately — verify-english now passes clean |
 
-- Both works: `verify-english.mjs` passes clean, `build-work-page.mjs` + `index-work.mjs` run (site pages + `data/index/pl/{11064,11066}.json` built). **Not added to `data/works.json` translation.workStatus** — consistent with how the Abbo pilot (4712) was left, that field tracks pre-translation triage only, not post-translation completion.
-- **Bug fixed in `scripts/index-work.mjs`**: `citeCol()` crashed on a null column (the very first head of a work, before any `[pb]` anchor, has `colContext: null`) — now returns `null` gracefully instead of throwing. Pre-existing edge case, unrelated to this session's chunks; will recur on any work whose opening head precedes its first column mark.
-- Per-work triage research for the wider Hugh/Richard queue is NOT saved to `data/triage/` yet — it lived in agent transcripts this session. If continuing the Victorine thread, the findings (which Hugh/Richard works are confirmed untranslated vs. covered by VTT/CWS/Selected Spiritual Writings) should be written to a persistent file before the next session, or re-run.
-- Read-through still owed on 11064 + 11066 before deploy (Wilson's gate, per standing convention).
+- Both works: `verify-english.mjs` passed clean, `build-work-page.mjs` + `index-work.mjs` run, landing RECENT updated, `site/index.html` rebuilt, deployed (`npx vercel --prod`), smoke-tested live.
+- Read-through still owed on 11064 + 11066 (Wilson's gate; not blocking — already live per his standing "publish ahead of read-through" call from the 2026-07-05 session).
+- **`data/works.json` translation triage is now SAVED and canonical**: Hugh's 34 works were already triaged in an earlier session (batch `33`, discovered mid-session — don't re-triage Hugh). Richard's 31 works were mostly untriaged and got filled in this session (batch `50`). Two entries flagged, not merged: workIdno 6490 (*De gradibus charitatis*) and 6493 (*De quatuor gradibus violentae charitatis*) look like possible duplicate cataloguing of the same text — worth Wilson's eye before trusting both as distinct.
+- **Bug fixed in `scripts/index-work.mjs`**: `citeCol()` crashed on a null column (the very first head of a work, before any `[pb]` anchor, has `colContext: null`) — now returns `null` gracefully instead of throwing.
+- **Deploy checklist locked into `translation-runbook.md` step 8**: landing RECENT update is now a mandatory pre-deploy step (was missed once this session, caught and fixed same-session).
+
+### Victorine queue — ALL 39 REMAINING WORKS ALREADY CHUNKED (`src/latin/<idno>/`, validated clean), smallest-first
+
+No `chunk-work.mjs` step needed — every work below is ready for step 2 of the runbook (launch translation agents) straight away. `workStatus: "unclear"` rows have partial/uncertain existing coverage (blog excerpts, disputed scope) — treat as untranslated-first candidates same as "none" unless Wilson says otherwise. Total: 384 chunks, ~7.7M tokens at the ~20K/chunk rule of thumb — this is a multi-session campaign, not one run. **Hard-stop ritual applies before every launch** (state chunk count + burn estimate, ask "which model, and go?").
+
+| idno | author | work | chunks | words | status |
+|---|---|---|---|---|---|
+| 11056 | Hugh | Adnotatiuncula in librum Ruth | 1 | 39 | none |
+| 11532 | Richard | De comparatione Christi ad florem et Mariae ad virgam | 1 | 336 | none |
+| 11555 | Richard | Quomodo Spiritus Sanctus est amor Patris et Filii | 1 | 617 | none |
+| 11079 | Hugh | De potestate et voluntate Dei | 1 | 843 | none |
+| 11546 | Richard | De tribus appropriatis personis in Trinitate | 1 | 1,356 | unclear |
+| 11554 | Richard | Quomodo Christus ponitur in signum populorum | 1 | 1,594 | none |
+| 11548 | Richard | Epistolae et miscellanea | 2 | 1,710 | unclear |
+| 11080 | Hugh | De quatuor voluntatibus in Christo | 2 | 1,888 | none |
+| 11543 | Richard | De spiritu blasphemiae | 2 | 2,325 | none |
+| 11086 | Hugh | Epistolae | 2 | 2,514 | none |
+| 11545 | Richard | De superexcellenti baptismo Christi | 2 | 2,526 | unclear |
+| 11075 | Hugh | De fructibus carnis et spiritus | 3 | 2,983 | none |
+| 11089 | Hugh | Institutiones in Decalogum | 3 | 3,477 | none |
+| 11539 | Richard | De judiciaria potestate in finali et universali judicio | 3 | 3,545 | none |
+| 11059 | Hugh | Adnotatiunculae in librum Judicum | 3 | 3,670 | none |
+| 11547 | Richard | Declarationes nonnullarum difficultatum Scripturae | 4 | 4,127 | none |
+| 11078 | Hugh | De modo orandi | 5 | 4,158 | none |
+| 11542 | Richard | De sacrificio David prophetae | 4 | 4,386 | none |
+| 11083 | Hugh | De sapientia animae Christi | 4 | 4,654 | none |
+| 11556 | Richard | Sermo de missione Spiritus Sancti | 5 | 5,468 | unclear |
+| 11537 | Richard | De gemino paschate | 5 | 6,227 | none |
+| 11531 | Richard | De Verbo incarnato | 8 | 6,509 | none |
+| 11534 | Richard | De differentia sacrificii Abrahae a sacrificio B. Mariae Virginis | 5 | 6,529 | none |
+| 11061 | Hugh | De scripturis et scriptoribus sacris | 6 | 6,922 | unclear |
+| 11055 | Hugh | Adnotationes in libros Regum | 8 | 7,096 | none |
+| 11062 | Hugh | Explanatio in Canticum B. Mariae | 6 | 7,487 | none *(also on the older Song-of-Songs queue table below — same work, don't double-translate)* |
+| 11549 | Richard | Explicatio aliquorum passuum difficilium Apostoli | 6 | 7,704 | none |
+| 11085 | Hugh | De virginitate B. Mariae | 7 | 8,288 | none |
+| 11081 | Hugh | De sacramentis legis naturalis et scriptae | 9 | 10,035 | none |
+| 11063 | Hugh | Expositio in Abdiam | 11 | 13,346 | none |
+| 11551 | Richard | Expositio de tabernaculo | 15 | 15,657 | unclear |
+| 11536 | Richard | De exterminatione mali et promotione boni | 17 | 16,516 | unclear |
+| 11088 | Hugh | Expositio in regulam S. Augustini | 16 | 17,882 | none |
+| 11057 | Hugh | Adnotatiunculae in Joelem | 15 | 20,035 | none |
+| 11553 | Richard | In visionem Ezechielis | 22 | 24,512 | none |
+| 11058 | Hugh | Adnotatiunculae in Threnos | 19 | 26,345 | none |
+| 11550 | Richard | Explicatio in Cantica canticorum | 48 | 50,151 | none (disputed authorship — some mss "Pseudo-Richard") |
+| 11535 | Richard | De eruditione hominis interioris | 58 | 54,433 | unclear |
+| 11065 | Hugh | Homiliae in Ecclesiasten | 53 | 61,691 | unclear |
+
+Suggested approach for the next session: work smallest-first like the Song-of-Songs queue (fast wins, house-style conventions lock in early), or let Wilson pick specific titles that matter most to him. Author bios for both Hugh (`Hugo de S. Victore`) and Richard (`Richardus S. Victoris`) already exist in `data/author-bios.json` — no new bio work needed.
 
 ## → Prior thread: Wilson read-throughs (on live pages), or translate the next Song-of-Songs queue works
 
