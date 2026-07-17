@@ -11,6 +11,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { nav } from './lib/chrome.mjs';
 
 const key = process.argv[2];
 if (!key) { console.error('usage: node scripts/build-work-page-pg.mjs <workKey>'); process.exit(1); }
@@ -118,13 +119,7 @@ const html = `<!DOCTYPE html>
 
 <header class="bar">
   <a class="wordmark" href="/">MIGNE<span class="tld">.APP</span></a>
-  <nav>
-    <a href="#">Latina</a>
-    <a href="#" aria-current="page">Græca</a>
-    <a href="#">Authors</a>
-    <a href="#">The Queue</a>
-    <a href="#">Migne</a>
-  </nav>
+${nav('graeca')}
 </header>
 
 <div class="work-head">
@@ -134,7 +129,7 @@ const html = `<!DOCTYPE html>
     <span class="num">${vol}</span>
   </div>
   <div class="work-id">
-    <p class="crumbs"><a href="#">Patrologia Græca</a> · <a href="#">Vol. ${vol}</a> · <a href="#">${esc(work.author)}</a></p>
+    <p class="crumbs"><a href="/#shelf-pg-sec">Patrologia Græca</a> · <span>Vol. ${vol}</span> · <span>${esc(work.author)}</span></p>
     <h1>${esc(work.title.toUpperCase())}</h1>
     <p class="byline">${esc(work.author)} <span style="font-style:normal">(13th century)</span> · ${esc(work.titleEn)}</p>
     <p class="meta">PG ${vol}, coll. ${colFirst}–${colLast} &nbsp;·&nbsp; Greek from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates; Greek and Latin swap sides page by page, so the Greek runs in the columns marked</p>

@@ -10,6 +10,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { nav } from './lib/chrome.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
@@ -197,11 +198,7 @@ const html = `<!DOCTYPE html>
 
 <header class="bar">
   <a class="wordmark" href="/">MIGNE<span class="tld">.APP</span></a>
-  <nav>
-    <a href="#shelf-pl-sec">Latina</a>
-    <a href="#shelf-pg-sec">Græca</a>
-    <a href="#recent">Recently Englished</a>
-  </nav>
+${nav()}
 </header>
 
 <section class="titlepage">

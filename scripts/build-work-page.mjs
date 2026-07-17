@@ -11,6 +11,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { nav } from './lib/chrome.mjs';
 
 const idno = process.argv[2];
 if (!idno) { console.error('usage: node scripts/build-work-page.mjs <textIdno>'); process.exit(1); }
@@ -143,13 +144,7 @@ const html = `<!DOCTYPE html>
 
 <header class="bar">
   <a class="wordmark" href="/">MIGNE<span class="tld">.APP</span></a>
-  <nav>
-    <a href="#" aria-current="page">Latina</a>
-    <a href="#">Græca</a>
-    <a href="#">Authors</a>
-    <a href="#">The Queue</a>
-    <a href="#">Migne</a>
-  </nav>
+${nav('latina')}
 </header>
 
 <div class="work-head">
@@ -159,7 +154,7 @@ const html = `<!DOCTYPE html>
     <span class="num">${vol}</span>
   </div>
   <div class="work-id">
-    <p class="crumbs"><a href="#">Patrologia Latina</a> · <a href="#">Vol. ${vol}</a> · ${authorLinks}</p>
+    <p class="crumbs"><a href="/#shelf-pl-sec">Patrologia Latina</a> · <span>Vol. ${vol}</span> · ${authorLinks}</p>
     <h1>${esc(title.toUpperCase())}</h1>
     <p class="byline">${authorByline}</p>
     <p class="meta">PL ${vol}, coll. ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>

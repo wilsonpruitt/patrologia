@@ -326,3 +326,98 @@ a { color: inherit; }
   .anchor { float: none; display: inline-block; margin: 0 .5em 0 0; border-right: 0; border-bottom: 2px solid var(--dorure); width: auto; padding: 0 .1rem; }
   .work-head { flex-direction: row; }
 }
+
+/* ============================================================
+   Secondary pages: volume indexes, authors, queue, Migne essay
+   ============================================================ */
+
+.vol-index, .authors-index, .queue, .essay {
+  max-width: 60rem; margin: 0 auto; padding: 3rem 2rem 3.5rem;
+}
+
+/* shared page head */
+.vi-head, .essay-head { text-align: center; margin-bottom: 2.6rem; }
+.kicker {
+  font-family: var(--didot); font-size: .82rem; letter-spacing: .28em;
+  text-transform: uppercase; color: var(--maroquin); margin: 0 0 .5rem;
+}
+.vi-head h1, .essay-head h1 {
+  font-family: var(--didot); font-weight: 400; font-size: 2.4rem;
+  color: var(--vert); margin: 0 0 .9rem; line-height: 1.1;
+}
+.vi-head .lede {
+  font-size: 1.05rem; max-width: 42em; margin: 0 auto 1rem; color: var(--encre-douce);
+}
+.vi-head .legend { font-size: .9rem; color: var(--encre-douce); }
+.gilt-dot {
+  display: inline-block; width: .6em; height: .6em; margin-right: .35em;
+  background: var(--dorure); border-radius: 50%; vertical-align: middle;
+}
+
+/* ---- volume indexes ---- */
+.vol-index h2 {
+  font-family: var(--didot); font-weight: 400; font-size: 1.15rem; letter-spacing: .14em;
+  color: var(--vert); margin: 2.4rem 0 .8rem; padding-bottom: .3rem;
+  border-bottom: 1px solid var(--rule);
+}
+.vols { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 2.4rem; }
+@media (max-width: 40rem) { .vols { columns: 1; } }
+.vrow { break-inside: avoid; padding: .28rem 0; font-size: .98rem; line-height: 1.4; }
+.vnum {
+  font-family: var(--didot); color: var(--encre-douce); font-size: .9rem;
+  letter-spacing: .04em; margin-right: .5em; white-space: nowrap;
+}
+.vrow.has-en .vnum { color: var(--dorure); font-weight: 600; }
+.vrow.has-en .vnum::before {
+  content: ""; display: inline-block; width: .5em; height: .5em; margin-right: .4em;
+  background: var(--dorure); border-radius: 50%; vertical-align: middle;
+}
+.vlabel { color: var(--encre); }
+.vlabel .anon, .vlabel .etal { color: var(--encre-douce); font-style: italic; font-size: .92em; }
+.ven { display: block; margin: .1rem 0 .2rem 2.6em; font-style: italic; }
+.ven a { color: var(--maroquin); text-decoration: none; }
+.ven a:hover { text-decoration: underline; }
+.vrow.ghost { color: var(--encre-douce); }
+.vrow.ghost .vnum { border-bottom: 1px dashed var(--rule); }
+.ghost-note { font-style: italic; font-size: .9em; }
+
+/* ---- authors ---- */
+.author { border-top: 1px solid var(--rule); padding: 1.6rem 0; max-width: 42rem; margin: 0 auto; }
+.author h2 { font-family: var(--didot); font-weight: 400; font-size: 1.5rem; color: var(--vert); margin: 0 0 .3rem; }
+.a-meta { margin: 0 0 .6rem; font-size: .95rem; color: var(--encre-douce); }
+.a-latin { font-style: italic; margin-right: .8em; }
+.a-dates::before { content: "· "; }
+.author .a-bio { margin: 0 0 .8rem; color: var(--encre); max-width: 38em; }
+.a-works { list-style: none; margin: 0; padding: 0; }
+.a-works li { padding: .2rem 0; }
+.a-works a { color: var(--maroquin); text-decoration: none; }
+.a-works a:hover { text-decoration: underline; }
+.a-cite { font-family: var(--didot); font-size: .82rem; color: var(--encre-douce); margin-left: .5em; }
+
+/* ---- queue ---- */
+.qlist { list-style: none; margin: 2rem auto 0; padding: 0; max-width: 44rem; }
+.qrow {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  padding: .6rem 0; border-bottom: 1px dotted var(--rule);
+}
+.qwork { color: var(--encre); }
+.qmeta { display: flex; gap: 1rem; white-space: nowrap; font-size: .85rem; color: var(--encre-douce); }
+.qcite { font-family: var(--didot); color: var(--dorure); }
+.queue .q-foot { max-width: 42em; margin: 2rem auto 0; font-style: italic; color: var(--encre-douce); text-align: center; }
+
+/* ---- Migne essay ---- */
+.essay-sub { font-family: var(--didot); font-style: italic; color: var(--encre-douce); font-size: 1.05rem; margin: 0; }
+.essay-body { max-width: 37rem; margin: 0 auto; font-size: 1.08rem; line-height: 1.62; }
+.essay-body h2 {
+  font-family: var(--didot); font-weight: 400; font-size: 1.5rem; color: var(--vert);
+  margin: 2.4rem 0 .8rem;
+}
+.essay-body p { margin: 0 0 1.1rem; }
+.essay-body .fnref { font-size: .7em; vertical-align: super; line-height: 0; }
+.essay-body .fnref a { color: var(--dorure); text-decoration: none; padding: 0 .1em; }
+.footnotes { margin-top: 2.4rem; font-size: .9rem; color: var(--encre-douce); }
+.footnotes h2 { font-family: var(--didot); font-weight: 400; font-size: 1.1rem; letter-spacing: .1em; color: var(--vert); }
+.footnotes ol { padding-left: 1.4rem; }
+.footnotes li { margin-bottom: .6rem; line-height: 1.5; }
+.footnotes li em { font-style: italic; }
+.fnback { color: var(--dorure); text-decoration: none; margin-left: .3em; }
