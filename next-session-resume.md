@@ -1,5 +1,19 @@
 # Next session — resume note
 
+## 2026-07-17 — Vincent of Lérins *Commonitorium* translated + staged (FIRST deliberate untranslated-first departure)
+
+**Doctrine broadened (Wilson, 2026-07-17):** the untranslated-first rule is no longer absolute. The goal is a *complete and accessible Migne* in the next year or two; as verified-untranslated works run dry, **foundational / poignant texts become worth translating afresh even where English already exists** — starting here. The *Commonitorium* is a source-text for the tradition's self-understanding, so it earns a fresh Wroot Press rendering. **When we translate an already-translated work: acknowledge the existing versions openly** (about-blurb names them; never pretend to a "first"). This is a real policy shift — fold into PLAN.md locked decisions when convenient; queue-building can now include high-value translated classics, not only `none`-status works.
+
+**DONE this session (Opus, 3 agents, ~300K subagent tokens — STAGED, NOT DEPLOYED):**
+- **Vincent of Lérins (`Vincentius Lirinensis`, authorIdno 1073), *Commonitoria*, textIdno 7561, PL 50 coll. 637C–686B, 12.6K words → 13 chunks.** Commonitorium Primum (I–XXVIII) + Recapitulatio (XXIX–XXXIII, the digest of the lost second book). Page: `site/pl/50/commonitoria/`.
+- Pipeline clean: `chunk-work` (validator green, 55 marks), 3 Opus agents (0000–04 / 05–08 / 09–12), `verify-english` **OK**, `build-work-page` + `index-work` run. Index: 0 scripture / 0 fontes — **this printing carries scripture refs inline in the prose, not as `[n:]` notes** (only 1 note, Baluze's editorial line), same as Haimo 9076.
+- `author-bios.json`: Vincent entry added (Peregrinus / Lérins / c.434). `work-about.json` 7561: blurb states the canon + **openly acknowledges Heurtley (NPNF) and Morris (FOTC)**. `works.json` 2575: `workStatus: pd-ingested`, `englishState: ours`, with a `note` recording the departure.
+- **8 cruces** logged (`src/english/7561/cruces.md`) — printer's garbles rendered per intended reading + noted: `modio/medio` (0664), `conscripsi/conscripsit` (0663), `Scirdentem/Scindentem` (0666), `provincio lae/provinciae` (0645), dropped `non` (0648), `afirmari` (0650), `Apollmaris` (0655), `Xis tus/Xystus`=Sixtus III (0684). Also: Greek christological terms (*Theotocon*/*Christotocon*/*theotocos*) kept in italic Latin per the technical-term convention — **worth Wilson's eye at read-through** (confirm we want them transliterated-Latin, not "God-bearer"). Out-of-numeric-order column back-references in the Recapitulatio (0678 before 0677) preserved verbatim as Migne prints them.
+
+**→ NEXT for this thread:** Wilson read-through of 7561 (esp. the *Theotocon* transliteration call), then it joins the next deploy batch. Deploy steps unchanged (runbook step 8: prepend to `RECENT` in `build-landing.mjs` — note this is a PL 50 work, first in vol 50 — rebuild landing, `cd site && npx vercel --prod`, smoke-test `/pl/50/637`). **band-less anchors** present (`0644` etc.) — resolver already handles them (7383 precedent), but smoke-test `/pl/50/637` after deploy.
+
+---
+
 *Updated 2026-07-10 (Victorine translation session, off-queue): **two Hugh-of-St-Victor-attributed Victorine works translated end-to-end (Opus), DEPLOYED and LIVE on migne.app.** Wilson has a personal stake in Victorine thought — ran a per-work triage (65 works across Hugh + Richard of St Victor) to find genuinely-untranslated pieces, translated the two largest, deployed, and pre-chunked the entire remaining Victorine queue (39 works) for a future session.*
 
 ## → NEXT SESSION (Victorine thread): translate the pre-chunked queue below — no setup needed, go straight to translating
