@@ -87,7 +87,37 @@ if (plCount !== 221 || pgCount !== 161) {
   console.error(`unexpected shelf counts: PL ${plCount}, PG ${pgCount}`); process.exit(1);
 }
 
-const counts = JSON.parse(read('data/works.json')).counts;
+const worksData = JSON.parse(read('data/works.json'));
+const counts = worksData.counts;
+
+// translation status per work, keyed by volume + numeric first column (e.g. "50/637").
+// Used to decide the RECENT badge: a work with a prior English (workStatus
+// pd-ingested/copyrighted — a DELIBERATE re-translation) must NOT claim "First English
+// translation". Genuine untranslated-first works (workStatus none, or ours-from-none)
+// keep the "first" claim.
+const PRIOR_ENGLISH = new Set(['pd-ingested', 'copyrighted', 'elsewhere']);
+const transByKey = new Map();
+for (const wk of (worksData.works || worksData)) {
+  for (const t of (wk.texts || [])) {
+    const key = `${t.volume}/${parseInt(t.colFirst, 10)}`;
+    if (transByKey.has(key) && transByKey.get(key) !== wk.translation) {
+      // vol+colFirst collision across series — refine by hand if this ever fires
+      transByKey.set(key, { workStatus: '__ambiguous__' });
+    } else {
+      transByKey.set(key, wk.translation || {});
+    }
+  }
+}
+const isFirstEnglish = w => {
+  // PG pilot works (Joel, etc.) aren't in the PL-derived works.json; they are all
+  // genuine firsts. Default a missing lookup to first, but warn so an unexpected
+  // PL miss surfaces rather than silently claiming "first".
+  const tr = transByKey.get(`${w.vol}/${parseInt(w.colFirst, 10)}`);
+  if (!tr) { console.warn(`  (no works.json status for ${w.path} — defaulting to first-English)`); return true; }
+  if (tr.workStatus === '__ambiguous__') { console.error(`ambiguous vol/col key for ${w.path} — cannot determine first-English status`); process.exit(1); }
+  return !PRIOR_ENGLISH.has(tr.workStatus);
+};
+
 const authorsReg = JSON.parse(read('data/triage/authors-status.json'));
 const queueAuthors = authorsReg.authors.filter(a => a.status === 'none' && a.verified).length;
 
@@ -122,10 +152,15 @@ for (const w of works) {
     process.exit(1);
   }
 }
-const recentHtml = recent.map(w => `    <li>
-      <span class="work"><a href="${w.path}">${w.author}, <i>${w.title}</i></a><span class="first">First English translation</span></span>
+const recentHtml = recent.map(w => {
+  const badge = isFirstEnglish(w)
+    ? '<span class="first">First English translation</span>'
+    : '<span class="first fresh">New English translation</span>';
+  return `    <li>
+      <span class="work"><a href="${w.path}">${w.author}, <i>${w.title}</i></a>${badge}</span>
       <span class="cite">${w.series.toUpperCase()} ${w.vol}, ${w.colFirst}–${w.colLast}</span>
-    </li>`).join('\n');
+    </li>`;
+}).join('\n');
 
 // ---------- the landing page ----------
 
