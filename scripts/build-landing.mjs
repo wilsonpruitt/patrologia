@@ -16,6 +16,7 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  'pl/50/commonitoria',                                         // Vincent of Lérins — Commonitorium (fresh rendering of a translated classic)
   'pl/175/quaestiones-in-epistolas-pauli',                      // Hugh of St Victor (Victorine school) — Pauline questions
   'pl/175/expositio-in-hierarchiam-coelestem-s-dionysii',       // Hugh of St Victor (Victorine school) — Ps.-Dionysius commentary
   'pl/67/explicatio-in-cantica-canticorum',                     // Justus of Urgell — earliest Latin Song commentary
