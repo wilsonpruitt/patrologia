@@ -17,6 +17,14 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  'pl/196/declarationes-nonnullarum-difficultatum-scripturae',  // Richard of St Victor — resolving scriptural difficulties
+  'pl/175/adnotatiunculae-in-librum-judicum',                   // Hugh of St Victor — notes on Judges
+  'pl/196/de-judiciaria-potestate-in-finali-et-universali-judicio', // Richard of St Victor — judiciary power at the last judgment
+  'pl/176/institutiones-in-decalogum',                          // Hugh of St Victor — instruction on the Decalogue
+  'pl/176/de-fructibus-carnis-et-spiritus',                     // Hugh of St Victor — the fruits of flesh and spirit
+  'pl/196/de-superexcellenti-baptismo-christi',                 // Richard of St Victor — the surpassing baptism of Christ
+  'pl/176/epistolae',                                           // Hugh of St Victor — letters
+  'pl/196/de-spiritu-blasphemiae',                              // Richard of St Victor — the spirit of blasphemy
   'pl/176/de-quatuor-voluntatibus-in-christo',                  // Hugh of St Victor — the four wills in Christ
   'pl/196/epistolae-et-miscellanea',                            // Richard of St Victor — letters & miscellany
   'pl/196/quomodo-christus-ponitur-in-signum-populorum',        // Richard of St Victor — Christ set as a sign
