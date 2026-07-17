@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hugh of Saint Victor, Adnotatiuncula in librum Ruth — PL 175, 96–96 · Migne</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="bar">
+  <a class="wordmark" href="/">MIGNE<span class="tld">.APP</span></a>
+  <nav>
+    <a href="/latina/" aria-current="page">Latina</a>
+    <a href="/graeca/">Græca</a>
+    <a href="/authors/">Authors</a>
+    <a href="/queue/">The Queue</a>
+    <a href="/migne/">Migne</a>
+  </nav>
+</header>
+
+<div class="work-head">
+  <div class="vol-badge" aria-hidden="true">
+    <span class="series-abbr">P·L</span>
+    <span class="label">ADNOTATIUNCULA IN LIBRUM RUTH</span>
+    <span class="num">175</span>
+  </div>
+  <div class="work-id">
+    <p class="crumbs"><a href="/#shelf-pl-sec">Patrologia Latina</a> · <span>Vol. 175</span> · <button type="button" class="author-pop" popovertarget="author-0">Hugh of Saint Victor</button></p>
+    <h1>ADNOTATIUNCULA IN LIBRUM RUTH</h1>
+    <p class="byline"><button type="button" class="author-pop" popovertarget="author-0">Hugh of Saint Victor</button></p>
+    <p class="meta">PL 175, coll. 96–96 &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>
+  </div>
+</div>
+<div id="author-0" popover class="author-card">
+  <h3>Hugh of Saint Victor</h3>
+  <p class="latin-name" lang="la">Hugo de S. Victore</p>
+  <p class="dates">c. 1096 – 11 February 1141</p>
+  <p class="bio">Theologian and head of the school of the abbey of Saint-Victor in Paris, and the founding master of the Victorine tradition of learning and contemplation. His work ranges across the liberal arts (the Didascalicon), sacramental theology (De sacramentis christianae fidei), and mystical writing. The present piece is a short exposition of the Magnificat, the canticle of the Blessed Virgin Mary.</p>
+</div>
+
+<main class="columns">
+
+<div class="col-rules passage">
+  <div>
+    <h2 class="canon-head" lang="la">Adnotatiuncula in librum Ruth</h2>
+    <div class="coltext latin" lang="la">
+<p><i><span class="notecite">(RUTH. IV.)</span> Solvebat homo calceamentum.</i> Ille homo, qui suo jure cedebat proximo, solvebat calceamentum <i>suum, et dabat proximo suo</i> cui cedebat. <a class="anchor" href="#c96c" id="c96c">96C</a><i>Hic Booz ergo qui propinquus erat, dixit alteri qui ei cedebat: Tolle calceamentum,</i> etc.</p>
+    </div>
+  </div>
+  <div>
+    <h2 class="canon-head">A Little Annotation on the Book of Ruth</h2>
+    <div class="coltext english" lang="en">
+<p><i><span class="notecite">(RUTH. IV.)</span> A man was loosing his sandal.</i> That man, who was yielding his right to his neighbor, was loosing his sandal <i>— his own, and was giving it to his neighbor —</i> to whom he was yielding. <a class="anchor" href="#c96c">96C</a><i>This Boaz, then, who was the near kinsman, said to the other who was yielding to him: Take the sandal,</i> etc.</p>
+    </div>
+  </div>
+</div>
+</main>
+
+<section class="apparatus">
+  <div class="apparatus-inner">
+    <h2>On this text</h2>
+    <p>The Latin is Migne's printing of <i>Adnotatiuncula in librum Ruth</i> (PL 175, coll. 96C–96C), by Hugh of Saint Victor, from the Corpus Corporum transcription. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not necessarily the author's own; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/175/96c</b> resolves to the first.</p>
+  </div>
+</section>
+
+<footer class="colophon">
+  <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
+  <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
+</footer>
+
+<script>
+/* nearest-anchor fallback: a deep link to a column mark this page doesn't
+   carry lands on the nearest preceding one instead of the page top */
+document.addEventListener('DOMContentLoaded', function () {
+  var m = location.hash.match(/^#c(\d{1,4})([a-d])?$/);
+  if (!m || document.getElementById(location.hash.slice(1))) return;
+  for (var col = parseInt(m[1], 10); col >= 96; col--) {
+    var tries = ['', 'd', 'c', 'b', 'a'];
+    for (var i = 0; i < tries.length; i++) {
+      var el = document.getElementById('c' + col + tries[i]);
+      if (el) { el.scrollIntoView(); return; }
+    }
+  }
+});
+</script>
+
+</body>
+</html>

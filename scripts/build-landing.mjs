@@ -17,6 +17,14 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  'pl/176/de-quatuor-voluntatibus-in-christo',                  // Hugh of St Victor — the four wills in Christ
+  'pl/196/epistolae-et-miscellanea',                            // Richard of St Victor — letters & miscellany
+  'pl/196/quomodo-christus-ponitur-in-signum-populorum',        // Richard of St Victor — Christ set as a sign
+  'pl/196/de-tribus-appropriatis-personis-in-trinitate',        // Richard of St Victor — the three appropriations in the Trinity
+  'pl/176/de-potestate-et-voluntate-dei',                       // Hugh of St Victor — the power and will of God
+  'pl/196/quomodo-spiritus-sanctus-est-amor-patris-et-filii',   // Richard of St Victor — the Spirit as love of Father and Son
+  'pl/196/de-comparatione-christi-ad-florem-et-mariae-ad-virgam', // Richard of St Victor — Christ the flower, Mary the rod
+  'pl/175/adnotatiuncula-in-librum-ruth',                       // Hugh of St Victor — note on Ruth
   'pl/50/commonitoria',                                         // Vincent of Lérins — Commonitorium (fresh rendering of a translated classic)
   'pl/175/quaestiones-in-epistolas-pauli',                      // Hugh of St Victor (Victorine school) — Pauline questions
   'pl/175/expositio-in-hierarchiam-coelestem-s-dionysii',       // Hugh of St Victor (Victorine school) — Ps.-Dionysius commentary
@@ -97,25 +105,17 @@ const counts = worksData.counts;
 // translation". Genuine untranslated-first works (workStatus none, or ours-from-none)
 // keep the "first" claim.
 const PRIOR_ENGLISH = new Set(['pd-ingested', 'copyrighted', 'elsewhere']);
-const transByKey = new Map();
+const normTitle = s => String(s).toLowerCase().replace(/\s+/g, ' ').trim();
+const transByTitle = new Map(); // `${vol}/${normTitle}` -> translation (volume+title is unique; vol+colFirst is not — packed short works share a column)
 for (const wk of (worksData.works || worksData)) {
-  for (const t of (wk.texts || [])) {
-    const key = `${t.volume}/${parseInt(t.colFirst, 10)}`;
-    if (transByKey.has(key) && transByKey.get(key) !== wk.translation) {
-      // vol+colFirst collision across series — refine by hand if this ever fires
-      transByKey.set(key, { workStatus: '__ambiguous__' });
-    } else {
-      transByKey.set(key, wk.translation || {});
-    }
-  }
+  for (const t of (wk.texts || [])) transByTitle.set(`${t.volume}/${normTitle(t.title)}`, wk.translation || {});
 }
 const isFirstEnglish = w => {
   // PG pilot works (Joel, etc.) aren't in the PL-derived works.json; they are all
   // genuine firsts. Default a missing lookup to first, but warn so an unexpected
   // PL miss surfaces rather than silently claiming "first".
-  const tr = transByKey.get(`${w.vol}/${parseInt(w.colFirst, 10)}`);
+  const tr = transByTitle.get(`${w.vol}/${normTitle(w.title)}`);
   if (!tr) { console.warn(`  (no works.json status for ${w.path} — defaulting to first-English)`); return true; }
-  if (tr.workStatus === '__ambiguous__') { console.error(`ambiguous vol/col key for ${w.path} — cannot determine first-English status`); process.exit(1); }
   return !PRIOR_ENGLISH.has(tr.workStatus);
 };
 
