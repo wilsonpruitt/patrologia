@@ -1,5 +1,20 @@
 # Next session — resume note
 
+## 2026-07-17 (later) — Navbar restored + five new site pages built & DEPLOYED
+
+Bug: work-page navbar links were all `href="#"` placeholders (dead in every browser) and the destination pages never existed. Fixed by building them and centralizing the nav.
+
+- **`scripts/lib/chrome.mjs` = single source of truth** for nav/head/footer. `NAV_ITEMS` defined once; landing + both work-page builders now `import { nav }` — no more per-file nav drift (that duplication caused the bug). Nav is 5 links site-wide: Latina · Græca · Authors · The Queue · Migne.
+- **Five new generated pages (each has its own `build-*.mjs`, run after shipping a work so they stay current):**
+  - `/latina/` + `/graeca/` — `build-volume-indexes.mjs`: bare browsable indexes, PL 1–221 & PG 1–161 (+ ghost 162). PL labels = principal author by word-share from works.json; PG labels = `pg-tome-authors.json`. Englished volumes gilt-marked + work linked inline.
+  - `/authors/` — `build-authors-index.mjs`: authors with a live English work (scans built pages → groups by author → bio from `author-bios.json`). 11 now.
+  - `/queue/` — `build-queue.mjs`: works chunked in `src/latin/` but not yet Englished, smallest-first (48 now), + the verified-none frontier count (computed live from works.json, 1,387).
+  - `/migne/` — `build-migne-essay.mjs`: renders `content/migne-biography.md` (tailored md renderer: frontmatter, #/## heads, *italic*, 64 `[^n]` footnotes; no lists/links/blockquotes in source).
+- **Secondary-page CSS** appended to `sketch/styles.css` (regenerated into `site/styles.css` by any work-page rebuild). Added **Richard of Saint Victor** author bio (was missing — queue had shown raw Latin).
+- **Rebuild order that works:** work pages first (regenerates `site/styles.css` from sketch + applies nav) → the 4 new-page scripts → `build-landing.mjs`. All 200 live; citation resolver unaffected.
+- **DEPLOYED + pushed** (commits `78cd589` badge fix, `905a494` nav/pages; `cd site && npx vercel --prod`). Also this session: landing badge now reads **"New English translation"** (green) for re-translated classics vs. "First English translation" — keyed off `works.json` `workStatus` (pd-ingested/copyrighted → not a first); self-corrects for future classics.
+- **Open polish (non-blocking):** the Queue lists not-yet-shipped Song-of-Songs authors by their Latin catalog name (Ambrosius Mediolanensis, Rabanus Maurus, Bruno Astensis, Gilbertus Foliot, Philippus de Harveng, Angelomus Luxovensis, Thomas Cisterciensis, Wolbero, Ps.-Cassiodorus). Per runbook, bios are added when a work ships — so this is by-convention, but Wilson may want them Anglicized now (a `build-queue.mjs` name-map or bio stubs). Landing thesis line still says "for the first time in English" (general banner; flagged, left as-is).
+
 ## 2026-07-17 — Vincent of Lérins *Commonitorium* translated + staged (FIRST deliberate untranslated-first departure)
 
 **Doctrine broadened (Wilson, 2026-07-17):** the untranslated-first rule is no longer absolute. The goal is a *complete and accessible Migne* in the next year or two; as verified-untranslated works run dry, **foundational / poignant texts become worth translating afresh even where English already exists** — starting here. The *Commonitorium* is a source-text for the tradition's self-understanding, so it earns a fresh Wroot Press rendering. **When we translate an already-translated work: acknowledge the existing versions openly** (about-blurb names them; never pretend to a "first"). This is a real policy shift — fold into PLAN.md locked decisions when convenient; queue-building can now include high-value translated classics, not only `none`-status works.
