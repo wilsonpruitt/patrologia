@@ -61,7 +61,8 @@ function paras(text, { anchorIds }) {
     const inline = esc(p.replace(/\n/g, ' '))
       .replace(/\[(\d{4})\]\s*/g, (_, c) =>
         `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
-      .replace(/\*([^*]+)\*/g, '<i>$1</i>');
+      .replace(/\*([^*]+)\*/g, '<i>$1</i>')
+      .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
     return `<p>${inline}</p>`;
   }).join('\n');
 }
@@ -111,7 +112,7 @@ const html = `<!DOCTYPE html>
 <title>${esc(work.author)}, ${esc(work.title)} — PG ${vol}, ${colFirst}–${colLast} · Migne</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 <script defer src="/_vercel/insights/script.js"></script>
 </head>

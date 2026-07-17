@@ -421,3 +421,10 @@ a { color: inherit; }
 .footnotes li { margin-bottom: .6rem; line-height: 1.5; }
 .footnotes li em { font-style: italic; }
 .fnback { color: var(--dorure); text-decoration: none; margin-left: .3em; }
+
+/* Hebrew (recovered from Migne's plates; see hebrew-recovery.md) */
+.hebrew {
+  font-family: "Frank Ruhl Libre", "Times New Roman", serif;
+  direction: rtl; unicode-bidi: isolate;
+  font-size: 1.08em; letter-spacing: 0;
+}

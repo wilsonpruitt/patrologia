@@ -1,0 +1,53 @@
+{
+  "textIdno": "11059",
+  "work": "Adnotatiunculae in librum Judicum",
+  "author": "Hugo de S. Victore",
+  "volume": 175,
+  "issue": "Corpus Corporum's TEI transcription dropped the Hebrew type Migne set inline (Hebrew followed by a Latin transliteration), leaving a stray space or doubled comma. Recovered from the plates and re-inserted into both Latin and English twins. See hebrew-recovery.md for the method.",
+  "source": {
+    "repository": "Gallica (BnF)",
+    "ark": "ark:/12148/bpt6k55331558",
+    "iiif": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k55331558/f{folio}/{region}/full/0/native.jpg",
+    "note": "IIIF image API works though info.json/viewer 403. Native scan ~1860px/page. Front-matter Roman cols end ~f70; Arabic col C ≈ f70 + (C-9)/2."
+  },
+  "patches": [
+    {
+      "chunk": "0001",
+      "column": "0091A",
+      "verse": "Judg 5:15b",
+      "hebrew": "בפלגות ראובן גדלים חקקי־לב",
+      "folio": "f126",
+      "pointed": false,
+      "verifiedAgainstMT": true,
+      "note": "Consonantal, unpointed as Migne set it. Reading matches Migne's own transliteration (Biflagoth ruben ... helchiche lem) and the Masoretic text of Judg 5:15b. The Gallica scan is low-res and the type imperfect, leaving ל/ר (first word) and ה/ח (last word) indistinct at pixel level; read per MT + transliteration. A sharper copy (Google Books JoXYAAAAMAAJ) could confirm the two glyphs if ever needed."
+    },
+    {
+      "chunk": "0002",
+      "column": "0094B",
+      "verse": "Judg 15:8",
+      "hebrew": "עַל־יָרֵךְ",
+      "folio": "f127",
+      "pointed": true,
+      "verifiedAgainstMT": true,
+      "note": "Pointed, legible; matches MT (šôq) ʿal-yārēk — Migne prints only the 'upon the thigh' portion. Was the doubled-comma lacuna."
+    },
+    {
+      "chunk": "0002",
+      "column": "0094C",
+      "verse": "Judg 15:16",
+      "hebrew": "הַחֲמֹר חֲמוֹר",
+      "folio": "f127",
+      "pointed": true,
+      "verifiedAgainstMT": true,
+      "note": "Migne's doublet on the root ḥ-m-r (ass / heap), glossed 'cumulum de cumulis'. MT of the verse reads ḥămôr ḥămōrātayim; Hugh/Migne give the shortened doublet as printed."
+    }
+  ],
+  "notLacuna": [
+    {
+      "column": "0091D",
+      "verse": "Judg 5:18 (Romae Zachae)",
+      "folio": "f126",
+      "finding": "NO Hebrew type on the plate — 'In Hebraeo habetur: Romae Zachae ...' runs straight into the transliteration. The translation agent inferred a dropped lacuna here, but the scan shows the transliteration is complete. No patch; crux note corrected. Lesson: the scan is the arbiter — not every 'In Hebraeo' spot carries Hebrew type."
+    }
+  ]
+}
