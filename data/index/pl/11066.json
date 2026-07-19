@@ -14,11 +14,11 @@
   "colFirst": "431c",
   "colLast": "634a",
   "counts": {
-    "scripture": 380,
+    "scripture": 381,
     "fontes": 36,
     "heads": 62,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -1207,6 +1207,15 @@
       "refKey": "John.14",
       "refDisplay": "Joan. XIV",
       "column": "548b",
+      "chunk": 34
+    },
+    {
+      "refKey": "2Cor.6",
+      "refDisplay": "III Cor. VI",
+      "refKeyPrinted": null,
+      "corrected": true,
+      "correctionNote": "There is no Third Corinthians. The lemma is 2 Cor. 6:2; the chapter numeral is right and only the book ordinal is misprinted, so the key stays chapter-level as Migne cites it.",
+      "column": "548d",
       "chunk": 34
     },
     {
@@ -2859,12 +2868,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(III Cor. VI)",
-      "reason": "unknown-book",
-      "column": "548d",
-      "chunk": 34
-    }
-  ]
+  "unparsed": []
 }

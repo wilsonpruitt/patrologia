@@ -165,6 +165,14 @@ for (const c of manifest.chunks) {
       else
         for (const r of s.refs) scripture.push({ refKey: r.refKey, refDisplay: inner, ...loc });
     }
+    // A correction can also rescue a ref that does not parse at all — e.g. Migne's
+    // "III Cor. VI", where the book ordinal is a misprint so no book name resolves.
+    // refDisplay still shows what Migne printed; refKeyPrinted is null because there
+    // was no derivable key to record.
+    else if (CORRECTIONS.has(`${loc.column}|${inner}`)) {
+      const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
+      scripture.push({ refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc });
+    }
     else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(inner) &&
              !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
       unparsed.push({ raw, reason: s.reason, ...loc });

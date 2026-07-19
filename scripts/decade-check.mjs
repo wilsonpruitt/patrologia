@@ -46,14 +46,18 @@ const section = (arr, title, items, hint) => {
 // Alias gaps are a one-line fix. Structural forms (chapter-only, compound refs,
 // "et" connectors) need a parser decision — don't conflate them.
 {
-  const aliasGap = [], structural = [];
+  const aliasGap = [], structural = [], anaphoric = [];
   for (const series of fs.readdirSync(p('data/index')).filter(d => fs.statSync(p('data/index', d)).isDirectory())) {
     for (const f of fs.readdirSync(p('data/index', series)).filter(x => x.endsWith('.json'))) {
       const j = jread(p('data/index', series, f));
       for (const u of j.unparsed || []) {
         const line = `${j.textIdno} @ ${u.column}: ${u.raw}`;
-        (/[;]|\bet\b|,\s*c\.|^\([^,]*[IVXLCDM]+\)$|[A-Z][a-z]+\.\s+[IVXLCDM]+\s*\)/.test(u.raw)
-          ? structural : aliasGap).push(line);
+        // Anaphoric refs (Id./Ibid.) have no book name by nature — they are neither an
+        // alias gap nor a parser-shape problem, so classifying them as either sends
+        // you looking for a fix that does not exist. They need chain resolution.
+        if (/^\(?\s*(Id|Ibid|Idem)\b/i.test(u.raw)) { anaphoric.push(line); continue; }
+        // index-work records WHY it failed; trust that over re-guessing from the string
+        (u.reason === 'unknown-book' ? aliasGap : structural).push(line);
       }
     }
   }
@@ -61,18 +65,38 @@ const section = (arr, title, items, hint) => {
     'Add the abbreviation to BOOKS in scripts/index-work.mjs, re-index.');
   section(advisory, 'Unparsed citations — STRUCTURAL (parser decision)', structural,
     'Chapter-only refs, compound refs, "et" connectors. Logged not dropped; decide as a batch.');
+  section(advisory, 'Unparsed citations — ANAPHORIC (Id./Ibid., needs chain resolution)', anaphoric,
+    'No book name by nature. CLAUDE.md rule 9 mandates resolution for inline [f: ] locators; ' +
+    'the [n: ] note path does not resolve them yet — see the open flag in next-session-resume.md.');
 }
 
 // ─── 3. Pattern-4 conformance (translation-style.md rule 4) ───────────────────
 // "A florilegium whose index reports 0 fontes is a pipeline failure."
 {
   const bad = [];
-  const locator = /\*[^*]{2,60}\*/g;
-  const locatorish = /\b(lib|cap|c|num|n|serm|epist|ep|tract|tr|hom)\.\s*[0-9IVXLCDM]|ibid/i;
+  // Italics must be PAIRED, not pattern-matched. A regex like /\*[^*]{2,60}\*/ has no
+  // way to know whether it started on an opening or a closing asterisk, so it happily
+  // returns the GAP between two italic runs — which is how "CAP. II." and "Num. 3."
+  // (both plain running text between two italicized titles) were read as locator tails
+  // and produced a 4/4 false-positive rate. Split per line and take odd segments.
+  const italics = text => text.split('\n').flatMap(line => {
+    const parts = line.split('*');
+    return parts.length % 2 === 1 ? parts.filter((_, i) => i % 2 === 1) : []; // unbalanced line: skip
+  }).filter(s => s.length >= 2 && s.length <= 60);
+  // Tightened 2026-07-19 after a 4/4 false-positive rate. The old test allowed bare
+  // `c.` and `n.`, which match inside [n: (...)] markers and inside ordinary words,
+  // so every lemma-and-gloss commentary looked like a florilegium. Require a
+  // multi-letter locator abbreviation followed by a numeral; `n./c.` only count when
+  // preceded by a work-title abbreviation (e.g. "De consid., c. 3").
+  const locatorish = /\b(lib|cap|num|serm|epist|tract|hom|tom)\.\s*[0-9IVXLCDM]|\b[a-z]{3,}\.,?\s+[nc]\.\s*[0-9]|\bibid\b/i;
   for (const id of shipped) {
     const latin = fs.readdirSync(p('src/latin', id)).filter(x => /^\d+\.md$/.test(x))
-      .map(f => read(p('src/latin', id, f))).join('\n');
-    const tails = (latin.match(locator) || []).filter(s => locatorish.test(s));
+      // strip [n: ...] notes: a citation already IN the note pipeline is not an
+      // untagged inline tail, and counting it is what produced the false positives.
+      .map(f => read(p('src/latin', id, f))
+        .replace(/^---\n[\s\S]*?\n---\n/, '')   // frontmatter: heads[] holds Latin titles
+        .replace(/\[n: [^\]]*\]/g, '')).join('\n');
+    const tails = italics(latin).filter(s => locatorish.test(s));
     if (tails.length < 5) continue; // below this it isn't a florilegium
     const idxPath = p('data/index/pl', `${id}.json`);
     if (!fs.existsSync(idxPath)) continue;
