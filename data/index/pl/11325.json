@@ -14,13 +14,20 @@
   "colFirst": "1049b",
   "colLast": "1056a",
   "counts": {
-    "scripture": 18,
+    "scripture": 19,
     "fontes": 1,
     "heads": 13,
     "headnotes": 2,
     "unparsed": 0
   },
   "scripture": [
+    {
+      "refKey": "Rom.10.10",
+      "refDisplay": "Rom. X, 10",
+      "column": "1049b",
+      "chunk": 0,
+      "inHead": true
+    },
     {
       "refKey": "Prov.8.30",
       "refDisplay": "Prov. VIII, 30",
@@ -139,7 +146,7 @@
   ],
   "heads": [
     {
-      "la": "Corde creditur ad justitiam, ore autem fit confessio ad salutem [n: (Rom. X, 10)].",
+      "la": "Corde creditur ad justitiam, ore autem fit confessio ad salutem.",
       "column": "1049b",
       "chunk": 0,
       "en": "With the heart it is believed unto justice, but with the mouth confession is made unto salvation [n: (Rom. X, 10)]."

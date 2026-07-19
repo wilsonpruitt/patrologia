@@ -156,6 +156,38 @@ const isAnaphoric = s => /^\(?\s*(ibid|idem|id)\b/i.test(s);
 // scripture[]/fontes[] are split out of it afterwards, preserving that order.
 const ordered = [];
 const scripture = [], fontes = [], unparsed = [], headsLa = [];
+
+// One note -> its index record(s). Factored out so head-borne notes go through exactly
+// the same classification as body notes, AT THEIR POSITION in document order (anaphora
+// resolve backwards through `ordered`, so appending them later would mis-resolve).
+function handleNote(raw, col, chunk, inHead = false) {
+  const inner = raw.replace(/^\(|\)$/g, '').trim();
+  const s = parseScripture(inner);
+  const loc = { column: citeCol(col), chunk, ...(inHead ? { inHead: true } : {}) };
+  // anaphoric notes are parked in document order and resolved after the walk
+  if (isAnaphoric(inner)) { ordered.push({ kind: 'anaphor', raw, inner, loc }); return; }
+  if (s.refs.length) {
+    const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
+    // a correction targets a single-reference note; compound notes pass through
+    if (fix && s.refs.length === 1)
+      ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
+    else
+      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: inner, ...loc } });
+  }
+  // A correction can also rescue a ref that does not parse at all — e.g. Migne's
+  // "III Cor. VI", where the book ordinal is a misprint so no book name resolves.
+  // refDisplay still shows what Migne printed; refKeyPrinted is null because there
+  // was no derivable key to record.
+  else if (CORRECTIONS.has(`${loc.column}|${inner}`)) {
+    const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
+    ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
+  }
+  else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(inner) &&
+           !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
+    unparsed.push({ raw, reason: s.reason, ...loc });
+  else ordered.push({ kind: 'fontes', rec: { raw: inner, ...loc } });
+}
+
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
   const body = fs.readFileSync(path.join(latDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
@@ -163,33 +195,20 @@ for (const c of manifest.chunks) {
   const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[n: ([^\]]*)\]|^## (.*)$/gm;
   for (const t of body.matchAll(tokenRe)) {
     if (t[1]) { col = t[1]; continue; }
-    if (t[3] !== undefined) { headsLa.push({ la: t[3].replace(/\*/g, '').trim(), column: citeCol(col), chunk: c.chunk }); continue; }
-    const raw = t[2].replace(/\s+/g, ' ').trim();
-    const inner = raw.replace(/^\(|\)$/g, '').trim();
-    const s = parseScripture(inner);
-    const loc = { column: citeCol(col), chunk: c.chunk };
-    // anaphoric notes are parked in document order and resolved after the walk
-    if (isAnaphoric(inner)) { ordered.push({ kind: 'anaphor', raw, inner, loc }); continue; }
-    if (s.refs.length) {
-      const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
-      // a correction targets a single-reference note; compound notes pass through
-      if (fix && s.refs.length === 1)
-        ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
-      else
-        for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: inner, ...loc } });
+    if (t[3] !== undefined) {
+      // `^## (.*)$` is greedy to end-of-line, so a [n: ] note INSIDE a head is consumed
+      // here and never reaches the citation branch. Sermons routinely put their
+      // governing verse in the head (11325: Rom. X, 10 — the theme of the whole
+      // sermon), so that citation was being dropped from the scripture index entirely.
+      // Harvest head-borne notes in place, then strip them from the recorded head text.
+      for (const hn of t[3].matchAll(/\[n: ([^\]]*)\]/g))
+        handleNote(hn[1].replace(/\s+/g, ' ').trim(), col, c.chunk, true);
+      headsLa.push({ la: t[3].replace(/\[n: [^\]]*\]/g, '').replace(/\*/g, '')
+        .replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim(), // removing the note leaves "salutem ."
+        column: citeCol(col), chunk: c.chunk });
+      continue;
     }
-    // A correction can also rescue a ref that does not parse at all — e.g. Migne's
-    // "III Cor. VI", where the book ordinal is a misprint so no book name resolves.
-    // refDisplay still shows what Migne printed; refKeyPrinted is null because there
-    // was no derivable key to record.
-    else if (CORRECTIONS.has(`${loc.column}|${inner}`)) {
-      const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
-      ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
-    }
-    else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(inner) &&
-             !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
-      unparsed.push({ raw, reason: s.reason, ...loc });
-    else ordered.push({ kind: 'fontes', rec: { raw: inner, ...loc } });
+    handleNote(t[2].replace(/\s+/g, ' ').trim(), col, c.chunk);
   }
 }
 

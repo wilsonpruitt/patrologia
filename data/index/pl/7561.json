@@ -15,16 +15,23 @@
   "colLast": "686b",
   "counts": {
     "scripture": 0,
-    "fontes": 0,
+    "fontes": 1,
     "heads": 35,
     "headnotes": 2,
     "unparsed": 0
   },
   "scripture": [],
-  "fontes": [],
+  "fontes": [
+    {
+      "raw": "Ex editione Baluziana.",
+      "column": "637c",
+      "chunk": 0,
+      "inHead": true
+    }
+  ],
   "heads": [
     {
-      "la": "S. VINCENTII LIRINENSIS COMMONITORIUM PRIMUM.[n: (Ex editione Baluziana.)]",
+      "la": "S. VINCENTII LIRINENSIS COMMONITORIUM PRIMUM.",
       "column": "637c",
       "chunk": 0,
       "en": "THE FIRST COMMONITORY OF ST. VINCENT OF LÉRINS.[n: (Ex editione Baluziana.)]"

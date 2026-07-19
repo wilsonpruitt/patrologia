@@ -14,13 +14,20 @@
   "colFirst": "1043b",
   "colLast": "1050a",
   "counts": {
-    "scripture": 31,
+    "scripture": 32,
     "fontes": 1,
     "heads": 10,
     "headnotes": 3,
     "unparsed": 0
   },
   "scripture": [
+    {
+      "refKey": "Matt.25.1-Matt.25.13",
+      "refDisplay": "Matth. XXV, 1-13.",
+      "column": "1043b",
+      "chunk": 0,
+      "inHead": true
+    },
     {
       "refKey": "2Cor.11.2",
       "refDisplay": "II Cor. XI, 2",
@@ -217,7 +224,7 @@
   ],
   "heads": [
     {
-      "la": "[1043B] Simile est regnum coelorum decem virginibus, etc. [n: (Matth. XXV, 1-13.)]",
+      "la": "[1043B] Simile est regnum coelorum decem virginibus, etc.",
       "column": "1043b",
       "chunk": 0,
       "en": "[1043B] The kingdom of heaven is like unto ten virgins, etc. [n: (Matth. XXV, 1-13.)]"

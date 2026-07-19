@@ -158,6 +158,27 @@ const section = (arr, title, items, hint) => {
     'Almost certainly benign. Tracked so a sudden jump in the count is visible.');
 }
 
+// ─── 3c. Frontmatter noteCount vs the actual notes in the chunk ───────────────
+// Translation agents are told "your frontmatter noteCount tells you what to expect"
+// and count markers against it, so a wrong count actively misleads them. Cheap to
+// verify, and a mismatch means either a stale chunk or a live chunker bug.
+{
+  const bad = [];
+  for (const id of shipped) {
+    for (const f of fs.readdirSync(p('src/latin', id)).filter(x => /^\d+\.md$/.test(x))) {
+      const raw = read(p('src/latin', id, f));
+      const declared = raw.match(/^noteCount: (\d+)$/m);
+      if (!declared) continue;
+      const actual = (raw.replace(/^---\n[\s\S]*?\n---\n/, '').match(/\[n: /g) || []).length;
+      if (Number(declared[1]) !== actual) bad.push(`${id}/${f}: declared ${declared[1]}, actual ${actual}`);
+    }
+  }
+  section(advisory, 'Frontmatter noteCount disagrees with the chunk body', bad,
+    'Agents are told to count markers against this. Re-chunking fixes it, but re-chunking a ' +
+    'TRANSLATED work changes its Latin frontmatter and breaks the English twin\'s verify — ' +
+    'so fix the chunker for future works and leave shipped pairs internally consistent.');
+}
+
 // ─── 4. Shipped works missing an author bio ───────────────────────────────────
 // Without one the byline falls back to the Latin form — fine at stage, not at deploy.
 {
