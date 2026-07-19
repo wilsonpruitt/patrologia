@@ -123,12 +123,17 @@ const section = (arr, title, items, hint) => {
     'Tag with [f: ] per translation-style.md pattern 4, then re-index.');
 }
 
-// ─── 3b. Column-band gaps — possible MISSING TEXT, not just missing markers ───
-// Migne numbers each column and subdivides it A–D. A break in that run means the
-// source we ingested (CC's TEI, or Calfa for PG) skipped a band. Some are benign —
-// a chapter ending can leave a column short. But a gap that lands MID-SENTENCE means
-// text was dropped upstream and we are publishing an incomplete work, which is the
-// serious case (cf. Joel/Calfa line-dropping, Odo 1127B->1128A mid-sentence).
+// ─── 3b. Column-band continuity ───────────────────────────────────────────────
+// RESOLVED 2026-07-19 — band "gaps" are NOT text loss, and this check no longer
+// claims they are. Evidence: all 49 of the 3+ band gaps were same-letter (D->D,
+// C->C, B->B) with ZERO changing letter, which is not what random loss looks like;
+// the Latin reads continuously across every junction sampled ("Sacramentis ‖
+// baptismi", "ad evidentiam ‖ elicitur"); and a per-column band census showed 784
+// columns recording all four quarter-marks but exactly 49 recording only one — the
+// same 49. Migne's A–D marks are positional quarter-guides transcribed where they
+// appear, not a guaranteed four-per-column, so arithmetic over them manufactures
+// phantom gaps. What IS worth watching is a junction where the text breaks mid-word,
+// which would indicate a genuinely dropped line (cf. Joel/Calfa line-dropping).
 {
   const B = 'ABCD';
   const key = c => { const m = c.match(/^0*(\d+)([A-D])?$/); return m ? [+m[1], m[2] ? B.indexOf(m[2]) : -1] : null; };
@@ -142,20 +147,25 @@ const section = (arr, title, items, hint) => {
       if (!a || !b || a[1] < 0 || b[1] < 0) continue;
       const an = a[0] * 4 + a[1], bn = b[0] * 4 + b[1];
       if (bn <= an + 1) continue;
-      // Size is the only honest signal here. A mid-sentence landing proves nothing:
-      // Migne's column breaks fall mid-sentence as a matter of course. A single
-      // missing band is usually just an unprinted quarter-mark (D is absent ~2x as
-      // often as any other band, consistent with a typographic convention rather
-      // than loss). A gap of 3+ is a whole column's worth of text unaccounted for.
+      // The signal is TEXT CONTINUITY, not band arithmetic. A junction where the
+      // preceding text ends mid-word means a line was dropped upstream; a junction
+      // that resumes cleanly is just an untranscribed quarter-mark.
+      const before = body.slice(0, marks[i].index).trimEnd();
       const line = `${id}: ${marks[i - 1][1]} -> ${marks[i][1]} (${bn - an - 1} band(s))`;
-      (bn - an - 1 >= 3 ? midSentence : benign).push(line);
+      // ends mid-word: last token is a bare word fragment with no closing punctuation
+      // AND the resuming text starts lowercase without a space-separated boundary
+      const after = body.slice(marks[i].index).replace(/^\[\d{3,5}[A-D]?\]/, '');
+      if (/[a-z]-$/.test(before) || (/[a-zA-Z]$/.test(before) && /^[a-z]/.test(after) && !/\s$/.test(before) && !/^\s/.test(after)))
+        midSentence.push(line);
+      else benign.push(line);
     }
   }
-  section(advisory, 'Column-band gaps of 3+ bands — a full column unaccounted for', midSentence,
-    'NOT established as text loss — verifying needs the plate (archive.org scan). Worth a spot-check ' +
-    'each decade; if the plate has text we lack, patch with provenance like data/calfa-patches/.');
-  section(advisory, 'Column-band gaps of 1-2 bands (likely unprinted quarter-marks)', benign,
-    'Almost certainly benign. Tracked so a sudden jump in the count is visible.');
+  section(blocking, 'Column junction breaks MID-WORD — a line was dropped upstream', midSentence,
+    'This is the real text-loss signature. Check the plate (archive.org scan) and patch with ' +
+    'provenance like data/calfa-patches/.');
+  section(advisory, 'Column-band gaps (untranscribed quarter-marks, text continuous)', benign,
+    'Migne\'s A-D marks are positional guides transcribed where they appear, NOT four per column ' +
+    '— see the note above. Tracked only so a sudden jump in the count is visible.');
 }
 
 // ─── 3c. Frontmatter noteCount vs the actual notes in the chunk ───────────────
