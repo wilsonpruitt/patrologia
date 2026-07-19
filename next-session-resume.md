@@ -1,5 +1,46 @@
 # Next session — resume note
 
+## 2026-07-18/19 — 19 works translated + DEPLOYED; decade blocker built; Pattern 4 executed; citation layer overhauled
+
+**LIVE on migne.app** (commits `df3ff68` → `e58de2f`, two prod deploys, all smoke-tested).
+Site now: **48 englished works**, 21 authors, 25 englished PL volumes + 1 PG, queue 53 prepared works.
+
+### The 19 new works (smallest-first across the whole verified-none frontier, not one campaign)
+Avitus of Vienne *Sermo in rogationibus* · Hincmar ×2 (*Quae exsequi debeat episcopus*, *Instructio ad Ludovicum Balbum*) · Peter Damian ×3 (*De castitate*, *Passio SS. Florae et Lucillae*, *Vita S. Mauri*) · Lanfranc *De celanda confessione* · Alcuin *Vita S. Martini* · Rabanus *De passione Domini* · Agobard *De modo regiminis ecclesiastici* · Peter of Blois *De divisione* · Anselm of Laon *Epistola* · Odo of Cambrai *Homilia de villico iniquitatis* · Nicholas of Clairvaux *In festo S. Andreae* · ps.-Bernard *Flores seu sententiae* · + 4 anonymous (*De unitate sanctae Trinitatis*, *In parabolam de decem virginibus*, *De primordiis … Hierosolymorum*, *Exhortatio ad monachos*).
+Bios added for all new authors. **Queue was deepened first**: 40 substantial verified-none prose works chunked (validator green 40/40), deliberately excluding verse/liturgical/tabular (those need a Fable mini-pilot per the runbook) and sub-1K-word scraps.
+
+### Pattern 4 EXECUTED (the Fable checklist below is now DONE)
+`[f: …]` harvesting in `index-work.mjs` (validates each tag as a verbatim substring of the Latin twin — **hard error**), wrapper stripped in `build-work-page.mjs` (`.fonscite`), Ibid. chains resolved. **11208 tagged: 167 locators** (not the estimated ~207 — the work has 171 sentence paragraphs, four sharing a citation; **the ~207 figure in `translation-style.md` is an over-estimate and should be corrected**). 1197B swallowed sentence fixed; full sweep found no other instance.
+**Checklist item 4 confirmed empirically**: two agent sweeps examined 7871 / 11064 / 11066 / 11075 and pattern 4 applies to NONE — they are lemma-and-gloss commentaries, not florilegia. **Do not re-flag them.**
+
+### Citation layer — this is the big change
+- **`data/citation-corrections.json` is new.** Policy (Wilson, 2026-07-18): *the text and `refDisplay` keep what Migne prints; `refKey` resolves to the TRUE reference.* `refKeyPrinted` retains the bad key so every correction is auditable. **14 corrections** entered, each verified against the quoted Latin first — 5 in 10703/10727, 8 in 7020, 1 in 11066 (`III Cor. VI`, a book that does not exist). Corrections also rescue refs that do not parse at all.
+- **Parser overhauled: unparsed 163 → 2.** Most were never alias gaps — they were CHAPTER-ONLY refs (`I Cor. XV`) failing a regex that demanded a verse. Now handles chapter-only, semicolon-compound (one note → several refs), multi-chapter lists, arabic chapters, ` et ` separators, `c.`/`v.` prefixes. Corpus scripture refs: **1,349**.
+- **Anaphora (`Ibid.`/`Id.`) resolved on BOTH paths**, 78 corpus-wide. An Ibid. inherits its antecedent's BUCKET — scripture Ibid.s were previously stranded in `fontes[]`. Chained Ibid.s walk back to the nearest NON-Ibid. **No text is rewritten**; resolution lives in `antecedent`/`antecedentColumn`.
+- **Citations inside `## ` heads are now indexed** (10 recovered across 5 works). `^## (.*)$` is greedy to end-of-line and was swallowing them — 11325 had lost Rom. X, 10, *the theme of the whole sermon*. Records carry `inHead: true`.
+
+### `scripts/decade-check.mjs` — NEW, run after every 10 shipped works
+Bonaventure / Christian-Library cadence. Collects mechanically because flags scroll past in agent reports. Blocking = data-layer debt (exits non-zero); advisory = decisions to batch. **First run found decade-1 debt worse than the per-set flags**: 45 shipped works still carried `englishState: untranslated` — the 2026-07-10 gotcha Wilson caught by eye, shown to be systemic, now cleared.
+
+**Two of my own detectors were wrong and are documented in-code so nobody re-derives them:**
+1. **Pattern-4 detector: 4/4 false positives.** Three bugs — italics were pattern-matched rather than PAIRED (a regex cannot tell an opening `*` from a closing one, so it returned the GAP between two italic runs, reading `CAP. II.` and `Num. 3.` as locator tails); frontmatter was not stripped (`heads[]` holds Latin titles); bare `c.`/`n.` matched inside `[n: ]` markers. Validated after fixing: 11208 = 110 runs, all four false positives = 0.
+2. **Column-band gaps are NOT text loss — RESOLVED, do not reopen.** All 49 "3+ band" gaps were same-letter (D→D, C→C), zero changed letter; the Latin reads continuously across every junction (`Sacramentis ‖ baptismi`); band census shows 784 columns with all four marks and exactly 49 with only one — the same 49. **Migne's A–D marks are positional quarter-guides transcribed where they appear, not four per column**; arithmetic over them manufactures phantom gaps. The check now tests TEXT CONTINUITY (mid-word break = real dropped line, blocks). Corpus: 163 gaps, 0 mid-word breaks.
+
+### → NEXT SESSION
+1. **Resume the two-set rotation** — ~53 works pre-chunked in `src/latin/`, smallest-first, no setup needed. Hard-stop ritual before each launch. Stage only; Wilson deploys.
+2. **Run `node scripts/decade-check.mjs` at the next decade** (57 works) before translating further.
+3. **Read-through backlog is 38 works and growing faster than it shrinks** — includes 11064 (~84 cruces) and 11066 (~65) inherited from July. Everything is live under the standing publish-ahead-of-read-through call, but this is the one number trending the wrong way.
+
+### Open flags (none blocking)
+- `translation-style.md` says 11208 has ~207 locators; the true count is **167**. Correct when convenient.
+- **`(Genes. XXI; Galat. IV)` at 7020/71c deliberately NOT corrected** — placement-irregular rather than wrong; the compound ref plausibly describes the Ishmael/Isaac material following. Correcting it would be guesswork.
+- 2 unparsed remain corpus-wide, both correctly classified: `(Id. VI, 24)` anaphoric-with-no-antecedent-shape, and one structural.
+- **7020/0074D**: a Luke citation printed as a bare inline parenthesis *split by a column anchor* — invisible to a `[n:]`-only indexer. Only 1 such case corpus-wide, so no harvester was built; the decade blocker counts them, and the fix is the same shape as the `[f:]` harvest if it clusters.
+- 11325 chunk 2 declares `colContext: 1055A` but `colFirst: 1056A`; the TEI itself lacks 1050A and 1055B–D. Upstream (Corpus Corporum), not our chunker.
+- The reported "11325 noteCount 6 but body has 7" was a **false alarm** — the 7th was the frontmatter `heads[]` duplicate. Corpus-wide: 0 noteCount mismatches.
+
+---
+
 ## 2026-07-18 — Florilegium citation policy DECIDED (Fable brief executed) — Opus execution owed
 
 `~/patrologia/fable-brief-florilegium.md` executed. The convention is written; nothing was translated or re-indexed yet. **Deliverables landed:**
