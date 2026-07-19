@@ -7,7 +7,7 @@
 //   2. Column-marker sequence identical (order + count) — anchors are sacred.
 //   3. [n: ...] note markers: same count, same content, same order.
 //   4. Section (## head) count identical.
-//   5. English/Latin word ratio in [0.85, 1.6] (Tier-2 runs ~1.1–1.2×).
+//   5. English/Latin word ratio in [0.85, 1.75] (pilots: EN ≈ 1.5× Latin; 1.6+ warns).
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
 //      more than once across all chunks (agents re-emitting boundary text).
@@ -73,7 +73,14 @@ for (const c of manifest.chunks) {
 
   const lw = words(lat.body.replace(colRe, '')), ew = words(eng.body.replace(colRe, ''));
   const ratio = ew / lw;
-  if (ratio < 0.85 || ratio > 1.6) errs.push(`${name}: word ratio ${ratio.toFixed(2)} (${ew}/${lw}) outside [0.85, 1.6] — possible skip or padding`);
+  // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the
+  // 1.1–1.2× originally assumed), so a 1.6 hard fail sat only 7% above the true mean
+  // and misfired on dense synthetic Latin — ablative absolutes and participle stacks
+  // ("ignorantiae tenebris effugatis" → "the darkness of ignorance being put to
+  // flight") legitimately run 2×+. Hard fail moved to 1.75; 1.6–1.75 now WARNS so
+  // these still get an eyeball instead of passing silently.
+  if (ratio < 0.85 || ratio > 1.75) errs.push(`${name}: word ratio ${ratio.toFixed(2)} (${ew}/${lw}) outside [0.85, 1.75] — possible skip or padding`);
+  else if (ratio > 1.6) warns.push(`${name}: ratio ${ratio.toFixed(2)} — high; confirm expansion is synthetic-Latin unpacking, not padding`);
   else if (ratio < 1.0) warns.push(`${name}: ratio ${ratio.toFixed(2)} — low for Tier-2, eyeball for compression`);
 
   for (const p of eng.body.split(/\n\n+/)) {
