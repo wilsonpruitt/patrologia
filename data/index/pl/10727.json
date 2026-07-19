@@ -14,8 +14,8 @@
   "colFirst": "1587a",
   "colLast": "1592c",
   "counts": {
-    "scripture": 6,
-    "fontes": 1,
+    "scripture": 7,
+    "fontes": 0,
     "heads": 2,
     "headnotes": 1,
     "unparsed": 0
@@ -24,6 +24,15 @@
     {
       "refKey": "1Cor.14.20",
       "refDisplay": "I Cor. XIV, 20",
+      "column": "1587a",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.14.20",
+      "refDisplay": "ibid.",
+      "antecedent": "I Cor. XIV, 20",
+      "antecedentColumn": "1587a",
+      "ibidResolved": true,
       "column": "1587a",
       "chunk": 0
     },
@@ -64,13 +73,7 @@
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "ibid.",
-      "column": "1587a",
-      "chunk": 0
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Epistola",

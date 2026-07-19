@@ -14,8 +14,8 @@
   "colFirst": "255a",
   "colLast": "266c",
   "counts": {
-    "scripture": 19,
-    "fontes": 3,
+    "scripture": 21,
+    "fontes": 1,
     "heads": 5,
     "headnotes": 0,
     "unparsed": 0
@@ -118,6 +118,24 @@
       "chunk": 2
     },
     {
+      "refKey": "John.6",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. VI",
+      "antecedentColumn": "264b",
+      "ibidResolved": true,
+      "column": "264b",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. VI",
+      "antecedentColumn": "264b",
+      "ibidResolved": true,
+      "column": "264b",
+      "chunk": 2
+    },
+    {
       "refKey": "Isa.7",
       "refDisplay": "Isa. VII",
       "column": "266b",
@@ -140,16 +158,6 @@
     {
       "raw": "lib. VII Confessionum D. August., cap. 10",
       "column": "262c",
-      "chunk": 2
-    },
-    {
-      "raw": "ibid.",
-      "column": "264b",
-      "chunk": 2
-    },
-    {
-      "raw": "ibid.",
-      "column": "264b",
       "chunk": 2
     }
   ],

@@ -14,8 +14,8 @@
   "colFirst": "71a",
   "colLast": "78a",
   "counts": {
-    "scripture": 30,
-    "fontes": 1,
+    "scripture": 31,
+    "fontes": 0,
     "heads": 5,
     "headnotes": 0,
     "unparsed": 0
@@ -103,6 +103,15 @@
       "refKey": "1Cor.12.26",
       "refDisplay": "I Cor. XII, 26",
       "column": "74b",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.12.26",
+      "refDisplay": "Ibid., 11",
+      "antecedent": "I Cor. XII, 26",
+      "antecedentColumn": "74b",
+      "ibidResolved": true,
+      "column": "74c",
       "chunk": 1
     },
     {
@@ -202,13 +211,7 @@
       "chunk": 2
     }
   ],
-  "fontes": [
-    {
-      "raw": "Ibid., 11",
-      "column": "74c",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Exhortatio ad monachos",

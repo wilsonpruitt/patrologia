@@ -14,8 +14,8 @@
   "colFirst": "1121d",
   "colLast": "1128b",
   "counts": {
-    "scripture": 21,
-    "fontes": 3,
+    "scripture": 23,
+    "fontes": 1,
     "heads": 2,
     "headnotes": 0,
     "unparsed": 0
@@ -112,6 +112,15 @@
       "chunk": 0
     },
     {
+      "refKey": "Matt.25.9",
+      "refDisplay": "ibid., 8",
+      "antecedent": "Matth. XXV, 9",
+      "antecedentColumn": "1124a",
+      "ibidResolved": true,
+      "column": "1124a",
+      "chunk": 0
+    },
+    {
       "refKey": "Matt.22.37-Matt.22.39",
       "refDisplay": "Matth. XXII, 37-39",
       "column": "1125b",
@@ -155,6 +164,15 @@
       "refDisplay": "Eccli. XXXIV, 21",
       "column": "1126d",
       "chunk": 1
+    },
+    {
+      "refKey": "Sir.34.21",
+      "refDisplay": "ibid., 24",
+      "antecedent": "Eccli. XXXIV, 21",
+      "antecedentColumn": "1126d",
+      "ibidResolved": true,
+      "column": "1126d",
+      "chunk": 1
     }
   ],
   "fontes": [
@@ -162,16 +180,6 @@
       "raw": "HORATIUS in Arte poet. 359",
       "column": "1123a",
       "chunk": 0
-    },
-    {
-      "raw": "ibid., 8",
-      "column": "1124a",
-      "chunk": 0
-    },
-    {
-      "raw": "ibid., 24",
-      "column": "1126d",
-      "chunk": 1
     }
   ],
   "heads": [

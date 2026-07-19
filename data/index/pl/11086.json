@@ -14,8 +14,8 @@
   "colFirst": "1011a",
   "colLast": "1018a",
   "counts": {
-    "scripture": 29,
-    "fontes": 2,
+    "scripture": 31,
+    "fontes": 0,
     "heads": 3,
     "headnotes": 0,
     "unparsed": 0
@@ -124,6 +124,15 @@
       "chunk": 1
     },
     {
+      "refKey": "John.10",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. X",
+      "antecedentColumn": "1015b",
+      "ibidResolved": true,
+      "column": "1015c",
+      "chunk": 1
+    },
+    {
       "refKey": "Mark.8",
       "refDisplay": "Marc. VIII",
       "column": "1016a",
@@ -184,6 +193,15 @@
       "chunk": 1
     },
     {
+      "refKey": "John.21",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. XXI.",
+      "antecedentColumn": "1016c",
+      "ibidResolved": true,
+      "column": "1016d",
+      "chunk": 1
+    },
+    {
       "refKey": "Rom.8",
       "refDisplay": "Rom. VIII",
       "column": "1016d",
@@ -196,18 +214,7 @@
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "ibid.",
-      "column": "1015c",
-      "chunk": 1
-    },
-    {
-      "raw": "ibid.",
-      "column": "1016d",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "EPISTOLA PRIMA. AD RANULPHUM DE MAURIACO. Quod charitas nunquam excidit.",

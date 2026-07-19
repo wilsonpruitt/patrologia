@@ -14,8 +14,8 @@
   "colFirst": "923b",
   "colLast": "1154c",
   "counts": {
-    "scripture": 186,
-    "fontes": 8,
+    "scripture": 194,
+    "fontes": 0,
     "heads": 112,
     "headnotes": 1462,
     "unparsed": 0
@@ -30,6 +30,15 @@
     {
       "refKey": "John.9",
       "refDisplay": "Joan. IX",
+      "column": "926c",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.9",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. IX",
+      "antecedentColumn": "926c",
+      "ibidResolved": true,
       "column": "926c",
       "chunk": 1
     },
@@ -108,6 +117,15 @@
     {
       "refKey": "John.6",
       "refDisplay": "Joan. VI",
+      "column": "953b",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. VI",
+      "antecedentColumn": "953b",
+      "ibidResolved": true,
       "column": "953b",
       "chunk": 11
     },
@@ -322,6 +340,15 @@
       "chunk": 17
     },
     {
+      "refKey": "Matt.7",
+      "refDisplay": "ibid.",
+      "antecedent": "Matth. VII",
+      "antecedentColumn": "970d",
+      "ibidResolved": true,
+      "column": "970d",
+      "chunk": 17
+    },
+    {
       "refKey": "2Thess.3",
       "refDisplay": "II Thess. III",
       "column": "970d",
@@ -486,6 +513,15 @@
     {
       "refKey": "Luke.1",
       "refDisplay": "Luc. I",
+      "column": "1005a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Luke.1",
+      "refDisplay": "ibid.",
+      "antecedent": "Luc. I",
+      "antecedentColumn": "1005a",
+      "ibidResolved": true,
       "column": "1005a",
       "chunk": 29
     },
@@ -670,6 +706,15 @@
       "chunk": 39
     },
     {
+      "refKey": "Luke.24",
+      "refDisplay": "ibid.",
+      "antecedent": "Luc. XXIV.",
+      "antecedentColumn": "1037b",
+      "ibidResolved": true,
+      "column": "1037c",
+      "chunk": 39
+    },
+    {
       "refKey": "Ezek.1",
       "refDisplay": "Ezech. I",
       "column": "1038a",
@@ -721,6 +766,24 @@
       "refKey": "Isa.63",
       "refDisplay": "Isai. LXIII.",
       "column": "1058b",
+      "chunk": 46
+    },
+    {
+      "refKey": "Isa.63",
+      "refDisplay": "ibid.",
+      "antecedent": "Isai. LXIII.",
+      "antecedentColumn": "1058b",
+      "ibidResolved": true,
+      "column": "1058c",
+      "chunk": 46
+    },
+    {
+      "refKey": "Isa.63",
+      "refDisplay": "ibid.",
+      "antecedent": "Isai. LXIII.",
+      "antecedentColumn": "1058b",
+      "ibidResolved": true,
+      "column": "1058c",
       "chunk": 46
     },
     {
@@ -958,6 +1021,15 @@
       "chunk": 66
     },
     {
+      "refKey": "Isa.6",
+      "refDisplay": "ibid.",
+      "antecedent": "Isai. VI",
+      "antecedentColumn": "1111b",
+      "ibidResolved": true,
+      "column": "1113a",
+      "chunk": 66
+    },
+    {
       "refKey": "Isa.7",
       "refDisplay": "Isa. VII",
       "column": "1114d",
@@ -1138,48 +1210,7 @@
       "chunk": 77
     }
   ],
-  "fontes": [
-    {
-      "raw": "ibid.",
-      "column": "926c",
-      "chunk": 1
-    },
-    {
-      "raw": "ibid.",
-      "column": "953b",
-      "chunk": 11
-    },
-    {
-      "raw": "ibid.",
-      "column": "970d",
-      "chunk": 17
-    },
-    {
-      "raw": "ibid.",
-      "column": "1005a",
-      "chunk": 29
-    },
-    {
-      "raw": "ibid.",
-      "column": "1037c",
-      "chunk": 39
-    },
-    {
-      "raw": "ibid.",
-      "column": "1058c",
-      "chunk": 46
-    },
-    {
-      "raw": "ibid.",
-      "column": "1058c",
-      "chunk": 46
-    },
-    {
-      "raw": "ibid.",
-      "column": "1113a",
-      "chunk": 66
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "LIBER PRIMUS.",

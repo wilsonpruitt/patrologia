@@ -14,8 +14,8 @@
   "colFirst": "841b",
   "colLast": "846c",
   "counts": {
-    "scripture": 12,
-    "fontes": 4,
+    "scripture": 16,
+    "fontes": 0,
     "heads": 2,
     "headnotes": 0,
     "unparsed": 0
@@ -28,9 +28,27 @@
       "chunk": 0
     },
     {
+      "refKey": "Luke.5",
+      "refDisplay": "ibid.",
+      "antecedent": "Luc. V",
+      "antecedentColumn": "841c",
+      "ibidResolved": true,
+      "column": "841c",
+      "chunk": 0
+    },
+    {
       "refKey": "Matt.26",
       "refDisplay": "Matth. XXVI",
       "column": "841c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "ibid.",
+      "antecedent": "Matth. XXVI",
+      "antecedentColumn": "841c",
+      "ibidResolved": true,
+      "column": "841d",
       "chunk": 0
     },
     {
@@ -52,6 +70,15 @@
       "chunk": 0
     },
     {
+      "refKey": "Luke.16",
+      "refDisplay": "ibid.",
+      "antecedent": "Luc. XVI",
+      "antecedentColumn": "843c",
+      "ibidResolved": true,
+      "column": "843d",
+      "chunk": 0
+    },
+    {
       "refKey": "Ps.70",
       "refDisplay": "Psal. LXX",
       "column": "843d",
@@ -66,6 +93,15 @@
     {
       "refKey": "John.11",
       "refDisplay": "Joan. XI",
+      "column": "845b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.11",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. XI",
+      "antecedentColumn": "845b",
+      "ibidResolved": true,
       "column": "845b",
       "chunk": 1
     },
@@ -94,28 +130,7 @@
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "ibid.",
-      "column": "841c",
-      "chunk": 0
-    },
-    {
-      "raw": "ibid.",
-      "column": "841d",
-      "chunk": 0
-    },
-    {
-      "raw": "ibid.",
-      "column": "843d",
-      "chunk": 0
-    },
-    {
-      "raw": "ibid.",
-      "column": "845b",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "De quatuor voluntatibus in Christo",

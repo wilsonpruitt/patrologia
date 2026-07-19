@@ -14,8 +14,8 @@
   "colFirst": "391b",
   "colLast": "398c",
   "counts": {
-    "scripture": 12,
-    "fontes": 3,
+    "scripture": 15,
+    "fontes": 0,
     "heads": 1,
     "headnotes": 0,
     "unparsed": 0
@@ -34,9 +34,27 @@
       "chunk": 0
     },
     {
+      "refKey": "Acts.10.15",
+      "refDisplay": "Ibid., 34",
+      "antecedent": "Act. X, 15",
+      "antecedentColumn": "393a",
+      "ibidResolved": true,
+      "column": "393a",
+      "chunk": 0
+    },
+    {
       "refKey": "Amos.3.3",
       "refDisplay": "Amos III, 3",
       "column": "393a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Amos.3.3",
+      "refDisplay": "Ibid.",
+      "antecedent": "Amos III, 3",
+      "antecedentColumn": "393a",
+      "ibidResolved": true,
+      "column": "393c",
       "chunk": 0
     },
     {
@@ -82,6 +100,15 @@
       "chunk": 0
     },
     {
+      "refKey": "1Cor.7.38",
+      "refDisplay": "Ibid.",
+      "antecedent": "I Cor. VII, 38",
+      "antecedentColumn": "396a",
+      "ibidResolved": true,
+      "column": "396c",
+      "chunk": 0
+    },
+    {
       "refKey": "Ps.41.3",
       "refDisplay": "Psal. XLI, 3",
       "column": "397b",
@@ -94,23 +121,7 @@
       "chunk": 0
     }
   ],
-  "fontes": [
-    {
-      "raw": "Ibid., 34",
-      "column": "393a",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid.",
-      "column": "393c",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid.",
-      "column": "396c",
-      "chunk": 0
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Sermo in rogationibus",

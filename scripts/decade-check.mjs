@@ -65,9 +65,24 @@ const section = (arr, title, items, hint) => {
     'Add the abbreviation to BOOKS in scripts/index-work.mjs, re-index.');
   section(advisory, 'Unparsed citations — STRUCTURAL (parser decision)', structural,
     'Chapter-only refs, compound refs, "et" connectors. Logged not dropped; decide as a batch.');
-  section(advisory, 'Unparsed citations — ANAPHORIC (Id./Ibid., needs chain resolution)', anaphoric,
-    'No book name by nature. CLAUDE.md rule 9 mandates resolution for inline [f: ] locators; ' +
-    'the [n: ] note path does not resolve them yet — see the open flag in next-session-resume.md.');
+  section(blocking, 'Unparsed citations — ANAPHORIC (Id./Ibid.) not resolved', anaphoric,
+    'Both the [n: ] and [f: ] paths resolve these at index time now. Anything landing here ' +
+    'escaped isAnaphoric() in scripts/index-work.mjs — widen that test, do not hand-patch.');
+
+  // Anaphora that reached the resolver but had nothing to point at (an Ibid. as the
+  // first citation in a work). Rule 9's guarantee cannot hold for these.
+  {
+    const rows = [];
+    for (const series of fs.readdirSync(p('data/index')).filter(d => fs.statSync(p('data/index', d)).isDirectory()))
+      for (const f of fs.readdirSync(p('data/index', series)).filter(x => x.endsWith('.json'))) {
+        const j = jread(p('data/index', series, f));
+        for (const x of [...(j.scripture || []), ...(j.fontes || [])])
+          if (x.unresolvedAnaphor) rows.push(`${j.textIdno} @ ${x.column}: ${x.raw ?? x.refDisplay} (no preceding citation)`);
+      }
+    section(blocking, 'Anaphoric refs with NO antecedent — resolution impossible', rows,
+      'An Ibid. with nothing before it usually means the work starts mid-text, or a preceding ' +
+      'note was dropped upstream. Check the plate before accepting it.');
+  }
 }
 
 // ─── 3. Pattern-4 conformance (translation-style.md rule 4) ───────────────────

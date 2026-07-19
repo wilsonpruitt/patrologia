@@ -14,8 +14,8 @@
   "colFirst": "709d",
   "colLast": "716c",
   "counts": {
-    "scripture": 3,
-    "fontes": 2,
+    "scripture": 4,
+    "fontes": 1,
     "heads": 8,
     "headnotes": 4,
     "unparsed": 0
@@ -24,6 +24,15 @@
     {
       "refKey": "1Tim.4",
       "refDisplay": "I Tim. IV",
+      "column": "711a",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Tim.4",
+      "refDisplay": "Ibid.",
+      "antecedent": "I Tim. IV",
+      "antecedentColumn": "711a",
+      "ibidResolved": true,
       "column": "711a",
       "chunk": 0
     },
@@ -41,11 +50,6 @@
     }
   ],
   "fontes": [
-    {
-      "raw": "Ibid.",
-      "column": "711a",
-      "chunk": 0
-    },
     {
       "raw": "suppl. responsum vel quid simile",
       "column": "713b",

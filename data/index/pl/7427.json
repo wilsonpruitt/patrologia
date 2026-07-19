@@ -14,11 +14,11 @@
   "colFirst": "1207",
   "colLast": "1212",
   "counts": {
-    "scripture": 14,
+    "scripture": 15,
     "fontes": 0,
     "heads": 1,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -54,6 +54,15 @@
     {
       "refKey": "Matt.28.19",
       "refDisplay": "Matth. XXVIII, 19",
+      "column": "1208",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.28.19",
+      "refDisplay": "Id. VI, 24",
+      "antecedent": "Matth. XXVIII, 19",
+      "antecedentColumn": "1208",
+      "ibidResolved": true,
       "column": "1208",
       "chunk": 0
     },
@@ -116,12 +125,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(Id. VI, 24)",
-      "reason": "unknown-book",
-      "column": "1208",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }

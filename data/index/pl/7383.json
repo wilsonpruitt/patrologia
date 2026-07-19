@@ -14,8 +14,8 @@
   "colFirst": "1137",
   "colLast": "1142",
   "counts": {
-    "scripture": 9,
-    "fontes": 7,
+    "scripture": 16,
+    "fontes": 0,
     "heads": 2,
     "headnotes": 0,
     "unparsed": 0
@@ -24,6 +24,33 @@
     {
       "refKey": "Luke.1.28-Luke.1.38",
       "refDisplay": "Luc. I, 28 et 38",
+      "column": "1137",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.1.28-Luke.1.38",
+      "refDisplay": "Ibid., 43",
+      "antecedent": "Luc. I, 28 et 38",
+      "antecedentColumn": "1137",
+      "ibidResolved": true,
+      "column": "1137",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.1.28-Luke.1.38",
+      "refDisplay": "Ibid., 46",
+      "antecedent": "Luc. I, 28 et 38",
+      "antecedentColumn": "1137",
+      "ibidResolved": true,
+      "column": "1137",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.1.28-Luke.1.38",
+      "refDisplay": "Ibid., 47",
+      "antecedent": "Luc. I, 28 et 38",
+      "antecedentColumn": "1137",
+      "ibidResolved": true,
       "column": "1137",
       "chunk": 0
     },
@@ -58,6 +85,24 @@
       "chunk": 0
     },
     {
+      "refKey": "Luke.1.49",
+      "refDisplay": "Ibid., 50",
+      "antecedent": "Luc. I, 49",
+      "antecedentColumn": "1140",
+      "ibidResolved": true,
+      "column": "1140",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.1.49",
+      "refDisplay": "Ibid., 51",
+      "antecedent": "Luc. I, 49",
+      "antecedentColumn": "1140",
+      "ibidResolved": true,
+      "column": "1140",
+      "chunk": 0
+    },
+    {
       "refKey": "Luke.1.52",
       "refDisplay": "Luc. I, 52",
       "column": "1141",
@@ -70,49 +115,31 @@
       "chunk": 1
     },
     {
+      "refKey": "Luke.1.53",
+      "refDisplay": "Ibid., 54",
+      "antecedent": "Luc. I, 53",
+      "antecedentColumn": "1142",
+      "ibidResolved": true,
+      "column": "1142",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.1.53",
+      "refDisplay": "Ibid., 55",
+      "antecedent": "Luc. I, 53",
+      "antecedentColumn": "1142",
+      "ibidResolved": true,
+      "column": "1142",
+      "chunk": 1
+    },
+    {
       "refKey": "Prov.2.14",
       "refDisplay": "Prov. II, 14",
       "column": "1142",
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "Ibid., 43",
-      "column": "1137",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid., 46",
-      "column": "1137",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid., 47",
-      "column": "1137",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid., 50",
-      "column": "1140",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid., 51",
-      "column": "1140",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid., 54",
-      "column": "1142",
-      "chunk": 1
-    },
-    {
-      "raw": "Ibid., 55",
-      "column": "1142",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Expositio cantici Magnificat",

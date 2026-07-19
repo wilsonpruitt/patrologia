@@ -143,7 +143,18 @@ const CORRECTIONS = (() => {
 const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with scripts/lib/chunk-core.mjs COL_RE_SRC (banded 0473A + bare 1137)
 const citeCol = c => { if (!c) return null; const m = c.match(/^0*([0-9]+)([A-D]?)$/); return m ? m[1] + m[2].toLowerCase() : c.toLowerCase(); };
 
+// Anaphoric notes: "(Ibid.)", "(Ibid., 33)", "(Id. VI, 24)", "(Idem)". They carry no
+// book name by nature, so they can only be resolved from the PRINTED SEQUENCE — which
+// is possible at index time and impossible afterwards from the display string alone
+// (CLAUDE.md rule 9). Resolution is deterministic, so this is a script, not a judgment.
+// The TEXT is never rewritten: refDisplay/raw keep Migne's "Ibid." verbatim per the
+// sacred-marker rule; the antecedent lives in its own field.
+const isAnaphoric = s => /^\(?\s*(ibid|idem|id)\b/i.test(s);
+
 // walk Latin chunks: track current column; collect notes + heads with position
+// `ordered` holds every citation in document order so anaphora can look backwards;
+// scripture[]/fontes[] are split out of it afterwards, preserving that order.
+const ordered = [];
 const scripture = [], fontes = [], unparsed = [], headsLa = [];
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
@@ -157,13 +168,15 @@ for (const c of manifest.chunks) {
     const inner = raw.replace(/^\(|\)$/g, '').trim();
     const s = parseScripture(inner);
     const loc = { column: citeCol(col), chunk: c.chunk };
+    // anaphoric notes are parked in document order and resolved after the walk
+    if (isAnaphoric(inner)) { ordered.push({ kind: 'anaphor', raw, inner, loc }); continue; }
     if (s.refs.length) {
       const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
       // a correction targets a single-reference note; compound notes pass through
       if (fix && s.refs.length === 1)
-        scripture.push({ refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc });
+        ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
       else
-        for (const r of s.refs) scripture.push({ refKey: r.refKey, refDisplay: inner, ...loc });
+        for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: inner, ...loc } });
     }
     // A correction can also rescue a ref that does not parse at all — e.g. Migne's
     // "III Cor. VI", where the book ordinal is a misprint so no book name resolves.
@@ -171,14 +184,45 @@ for (const c of manifest.chunks) {
     // was no derivable key to record.
     else if (CORRECTIONS.has(`${loc.column}|${inner}`)) {
       const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
-      scripture.push({ refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc });
+      ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
     }
     else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(inner) &&
              !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
       unparsed.push({ raw, reason: s.reason, ...loc });
-    else fontes.push({ raw: inner, ...loc });
+    else ordered.push({ kind: 'fontes', rec: { raw: inner, ...loc } });
   }
 }
+
+// Resolve [n: ] anaphora against the printed sequence, then split `ordered` into the
+// scripture/fontes buckets preserving document order. An Ibid. inherits the BUCKET of
+// its antecedent — a scripture Ibid. belongs in scripture[], not stranded in fontes[]
+// where it was landing merely because "Ibid." has no parseable book name.
+let unresolvedAnaphora = 0;
+for (let i = 0; i < ordered.length; i++) {
+  const e = ordered[i];
+  if (e.kind !== 'anaphor') continue;
+  let ant = null;
+  // Skip ALREADY-RESOLVED anaphors too: entries before i have been rewritten in place,
+  // so a naive "kind !== anaphor" test finds a resolved Ibid. and chains onto it.
+  // Rule 9 says resolve to the nearest preceding NON-Ibid. locator — walk past them.
+  for (let j = i - 1; j >= 0; j--)
+    if (ordered[j].kind !== 'anaphor' && !ordered[j].rec?.ibidResolved) { ant = ordered[j]; break; }
+  if (!ant) { // first citation in the work is an Ibid. — nothing to point at
+    unresolvedAnaphora++;
+    ordered[i] = { kind: 'fontes', rec: { raw: e.inner, unresolvedAnaphor: true, ...e.loc } };
+    continue;
+  }
+  const antDisplay = ant.kind === 'scripture' ? ant.rec.refDisplay : ant.rec.raw;
+  const common = { refDisplayOrRaw: e.inner, antecedent: antDisplay, antecedentColumn: ant.rec.column, ibidResolved: true };
+  ordered[i] = ant.kind === 'scripture'
+    // refKey inherited from the antecedent so the Ibid. is findable in the scripture
+    // index; refDisplay still shows Migne's "Ibid.", and ibidResolved marks the key as
+    // INFERRED rather than printed — this is an inference, not a correction, so it
+    // never enters citation-corrections.json.
+    ? { kind: 'scripture', rec: { refKey: ant.rec.refKey, refDisplay: e.inner, antecedent: antDisplay, antecedentColumn: ant.rec.column, ibidResolved: true, ...e.loc } }
+    : { kind: 'fontes', rec: { raw: e.inner, antecedent: antDisplay, antecedentColumn: ant.rec.column, ibidResolved: true, ...e.loc } };
+}
+for (const e of ordered) (e.kind === 'scripture' ? scripture : fontes).push(e.rec);
 
 // Inline citation tails (translation-style.md pattern 4): [f: ...] locators tagged
 // in the ENGLISH chunks (their content is verbatim Latin). Harvested here per

@@ -16,8 +16,8 @@
   "colFirst": "473a",
   "colLast": "508a",
   "counts": {
-    "scripture": 21,
-    "fontes": 37,
+    "scripture": 23,
+    "fontes": 35,
     "heads": 54,
     "headnotes": 89,
     "unparsed": 0
@@ -78,10 +78,28 @@
       "chunk": 5
     },
     {
+      "refKey": "1Pet.5.3",
+      "refDisplay": "Ibid.",
+      "antecedent": "I Petr. V, 3",
+      "antecedentColumn": "491d",
+      "ibidResolved": true,
+      "column": "492b",
+      "chunk": 5
+    },
+    {
       "refKey": "1Cor.3.8",
       "refDisplay": "I Cor. III, 8",
       "column": "493a",
       "chunk": 5
+    },
+    {
+      "refKey": "1Cor.3.8",
+      "refDisplay": "Ibid.",
+      "antecedent": "I Cor. III, 8",
+      "antecedentColumn": "493a",
+      "ibidResolved": true,
+      "column": "493b",
+      "chunk": 6
     },
     {
       "refKey": "1Pet.5.3",
@@ -208,6 +226,9 @@
     },
     {
       "raw": "Ibid., c. 20",
+      "antecedent": "Ex conc. Vernensi I, c. 5.",
+      "antecedentColumn": "487a",
+      "ibidResolved": true,
       "column": "487b",
       "chunk": 4
     },
@@ -247,19 +268,9 @@
       "chunk": 5
     },
     {
-      "raw": "Ibid.",
-      "column": "492b",
-      "chunk": 5
-    },
-    {
       "raw": "conc. Tolet. IV",
       "column": "492d",
       "chunk": 5
-    },
-    {
-      "raw": "Ibid.",
-      "column": "493b",
-      "chunk": 6
     },
     {
       "raw": "GREG. l. VII, ep. 8, ind. 1",

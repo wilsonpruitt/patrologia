@@ -14,8 +14,8 @@
   "colFirst": "963a",
   "colLast": "994b",
   "counts": {
-    "scripture": 185,
-    "fontes": 3,
+    "scripture": 188,
+    "fontes": 0,
     "heads": 12,
     "headnotes": 0,
     "unparsed": 0
@@ -150,6 +150,15 @@
     {
       "refKey": "Gal.5",
       "refDisplay": "Gal. V",
+      "column": "965d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Ibid.",
+      "antecedent": "Gal. V",
+      "antecedentColumn": "965d",
+      "ibidResolved": true,
       "column": "965d",
       "chunk": 0
     },
@@ -481,6 +490,24 @@
       "refKey": "1Cor.1",
       "refDisplay": "I Cor. I",
       "column": "974b",
+      "chunk": 4
+    },
+    {
+      "refKey": "1Cor.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "I Cor. I",
+      "antecedentColumn": "974b",
+      "ibidResolved": true,
+      "column": "974c",
+      "chunk": 4
+    },
+    {
+      "refKey": "1Cor.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "I Cor. I",
+      "antecedentColumn": "974b",
+      "ibidResolved": true,
+      "column": "974c",
       "chunk": 4
     },
     {
@@ -1132,23 +1159,7 @@
       "chunk": 11
     }
   ],
-  "fontes": [
-    {
-      "raw": "Ibid.",
-      "column": "965d",
-      "chunk": 0
-    },
-    {
-      "raw": "Ibid.",
-      "column": "974c",
-      "chunk": 4
-    },
-    {
-      "raw": "Ibid.",
-      "column": "974c",
-      "chunk": 4
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "CAPUT PRIMUM.",

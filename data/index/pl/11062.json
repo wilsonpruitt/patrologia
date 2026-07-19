@@ -14,8 +14,8 @@
   "colFirst": "413b",
   "colLast": "432b",
   "counts": {
-    "scripture": 21,
-    "fontes": 1,
+    "scripture": 22,
+    "fontes": 0,
     "heads": 6,
     "headnotes": 0,
     "unparsed": 0
@@ -146,15 +146,18 @@
       "refDisplay": "Psal. LXVIII",
       "column": "430c",
       "chunk": 5
-    }
-  ],
-  "fontes": [
+    },
     {
-      "raw": "Ibid.",
+      "refKey": "Ps.68",
+      "refDisplay": "Ibid.",
+      "antecedent": "Psal. LXVIII",
+      "antecedentColumn": "430c",
+      "ibidResolved": true,
       "column": "430c",
       "chunk": 5
     }
   ],
+  "fontes": [],
   "heads": [
     {
       "la": "PROLOGUS.",

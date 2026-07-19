@@ -14,8 +14,8 @@
   "colFirst": "9a",
   "colLast": "18b",
   "counts": {
-    "scripture": 9,
-    "fontes": 4,
+    "scripture": 13,
+    "fontes": 0,
     "heads": 6,
     "headnotes": 0,
     "unparsed": 0
@@ -74,30 +74,45 @@
       "refDisplay": "Deut. V",
       "column": "13c",
       "chunk": 1
-    }
-  ],
-  "fontes": [
+    },
     {
-      "raw": "ibid.",
+      "refKey": "Deut.5",
+      "refDisplay": "ibid.",
+      "antecedent": "Deut. V",
+      "antecedentColumn": "13c",
+      "ibidResolved": true,
       "column": "13d",
       "chunk": 1
     },
     {
-      "raw": "ibid.",
+      "refKey": "Deut.5",
+      "refDisplay": "ibid.",
+      "antecedent": "Deut. V",
+      "antecedentColumn": "13c",
+      "ibidResolved": true,
       "column": "13d",
       "chunk": 1
     },
     {
-      "raw": "ibid.",
+      "refKey": "Deut.5",
+      "refDisplay": "ibid.",
+      "antecedent": "Deut. V",
+      "antecedentColumn": "13c",
+      "ibidResolved": true,
       "column": "14a",
       "chunk": 1
     },
     {
-      "raw": "ibid.",
+      "refKey": "Deut.5",
+      "refDisplay": "ibid.",
+      "antecedent": "Deut. V",
+      "antecedentColumn": "13c",
+      "ibidResolved": true,
       "column": "14a",
       "chunk": 1
     }
   ],
+  "fontes": [],
   "heads": [
     {
       "la": "Quarum haec sunt capita:",

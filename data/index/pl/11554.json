@@ -14,8 +14,8 @@
   "colFirst": "523b",
   "colLast": "528a",
   "counts": {
-    "scripture": 24,
-    "fontes": 1,
+    "scripture": 25,
+    "fontes": 0,
     "heads": 1,
     "headnotes": 0,
     "unparsed": 0
@@ -130,6 +130,15 @@
       "chunk": 0
     },
     {
+      "refKey": "Isa.7",
+      "refDisplay": "ibid.",
+      "antecedent": "Isa. VII",
+      "antecedentColumn": "525a",
+      "ibidResolved": true,
+      "column": "525b",
+      "chunk": 0
+    },
+    {
       "refKey": "Acts.7",
       "refDisplay": "Act. VII",
       "column": "525c",
@@ -166,13 +175,7 @@
       "chunk": 0
     }
   ],
-  "fontes": [
-    {
-      "raw": "ibid.",
-      "column": "525b",
-      "chunk": 0
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Quomodo Christus ponitur in signum populorum",

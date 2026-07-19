@@ -14,8 +14,8 @@
   "colFirst": "1011d",
   "colLast": "1018c",
   "counts": {
-    "scripture": 25,
-    "fontes": 1,
+    "scripture": 26,
+    "fontes": 0,
     "heads": 2,
     "headnotes": 0,
     "unparsed": 0
@@ -61,6 +61,15 @@
       "refKey": "Eph.4",
       "refDisplay": "Ephes. IV",
       "column": "1014b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eph.4",
+      "refDisplay": "ibid.",
+      "antecedent": "Ephes. IV",
+      "antecedentColumn": "1014b",
+      "ibidResolved": true,
+      "column": "1014c",
       "chunk": 0
     },
     {
@@ -172,13 +181,7 @@
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "ibid.",
-      "column": "1014c",
-      "chunk": 0
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "De superexcellenti baptismo Christi",
