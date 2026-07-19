@@ -1,5 +1,24 @@
 # Next session — resume note
 
+## 2026-07-18 — Florilegium citation policy DECIDED (Fable brief executed) — Opus execution owed
+
+`~/patrologia/fable-brief-florilegium.md` executed. The convention is written; nothing was translated or re-indexed yet. **Deliverables landed:**
+- **`translation-style.md` Pattern 4** — inline citation tails: locators stay verbatim Latin wrapped in a new `[f: …]` marker (English chunks only), editorial comments translated outside the tag, `Ibid.` tagged as printed and resolved by the indexer, segmentation guard (finite verb / >~8 words in a tail = split; catches the 1197B swallowed-sentence defect). Trigger is typographic (citations in running text, not `[n:]`), not the genre label. Pattern 2 vs 4 line: attribution *opening* an extract = prose (translate); citation *following* its unit = apparatus (Latin).
+- **CLAUDE.md rule 9 amended** — fontes now come from both `[n:]` notes and `[f:]` tags; `inline: true`; *Ibid.* resolved at index time to `antecedent`+`antecedentColumn` (inference, not a correction — no citation-corrections entry); **no `fonsKey` minted yet** — inline locators join the accumulated-raws pool from which the controlled vocab is derived later, unchanged.
+- **Ruling on the ~207 opaque Latin tails:** defensible interim — they are citations on the same footing as `[n:]` contents, and the third layer (hover/popover English expansion, generated from the index like the author-byline popover, never edited into HTML) is ratified as the *destination* but blocked on the fonsKey vocab derivation. Verbatim in text → resolved raw in index → expanded on demand in display.
+
+**→ Opus execution checklist (one session, ~11208-sized):**
+1. Tag both `src/english/11208/` chunks with `[f: …]` per Pattern 4; fix the 1197B defect (locator tag ends at *c. 3.*; *Hence habit is conquered by habit.* stays translated italic outside it); update the cruces.md "Editorial decision" section to point at Pattern 4 instead of calling itself reversible.
+2. Extend `scripts/index-work.mjs`: harvest `[f:]` from English chunks (column-tracked like `[n:]`), validate each tag content as substring of the Latin twin (strip `*`, normalize whitespace; mismatch = exit 1), emit fontes records `{raw, column, chunk, inline: true}`, resolve *Ibid.* chains across chunk boundaries (`antecedent`, `antecedentColumn`; first-locator-is-Ibid. = error). Make renderers (`build-work-page.mjs`) strip the `[f: `/`]` wrapper; verify-english must treat `[f:]` as a sacred marker (count parity la-side n/a — English-only marker, so verify tags against Latin substring instead).
+3. Re-run verify → build → `index-work.mjs 11208` — expect ~207 fontes (22 *Ibid.*-resolved), 0 unparsed regressions; rebuild page, confirm rendering unchanged except wrapper removal.
+4. Sweep: no other shipped work has inline tails (Haimo 9076 / Vincent 7561 carry inline *scripture* in prose — NOT this pattern; do not tag those).
+
+**Deliberately deferred (do not do speculatively):** `fonsKey` + English work-title vocabulary (derive from accumulated raws once several tail-citing works have shipped; Bernard's SBO numbering is the candidate external anchor at that point, verified not recalled); the popover display layer (blocked on that vocab); Latin-page popover attachment (index has column+raw — attachable later without re-editing chunks); locator-level printer's-error corrections (would go through `citation-corrections.json` at the fonsKey stage if ever needed).
+
+**What would reopen the decision:** Wilson wanting English expansions in the page text itself (violates the verbatim rule — needs his explicit override); the vocab-derivation pass finding accumulated raws too thin to resolve (would force earlier external anchoring); the Latin site layer needing interactive citations before the vocab exists.
+
+---
+
 ## 2026-07-17 (later) — Navbar restored + five new site pages built & DEPLOYED
 
 Bug: work-page navbar links were all `href="#"` placeholders (dead in every browser) and the destination pages never existed. Fixed by building them and centralizing the nav.

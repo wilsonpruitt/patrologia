@@ -90,3 +90,67 @@ Scripture*, not "holy Scripture."
   col 1366C; 10379/0002 col 1370A, *Murenulae aureae, sacra Scriptura*), flagged
   by Wilson 2026-07-04. Corpus swept: 4 instances in Robert corrected; Abbo and
   Joel had none.
+
+### 4. Inline citation tails (florilegia) — locators tagged `[f: …]`, comments translated
+
+**Trigger:** the work cites its sources as inline italic tails *following* each
+sentence or extract, instead of `[n: …]` notes. Florilegia and *sententiae* /
+*flores* / *excerpta* collections are the usual carriers, but the typography is
+the test, not the genre label: if source citations survive into the chunk body
+as running text, this pattern applies. Distinguish from Pattern 2 by position
+and function — an attribution that *opens* an extract is prose (Pattern 2:
+translated, title-cased); a citation that *follows* its unit is apparatus
+(this pattern: verbatim Latin).
+
+Each tail splits into at most two parts:
+
+- **Locator** — the pointer into the source corpus (*De convers. ad cler.,
+  num.* 37; IV, *De consid., c.* 3; *Ibid.,* 33). Kept verbatim Latin,
+  unanglicized (same footing as `[n: …]` contents — expanding *De consid.* into
+  an English title would invent text Migne does not print), and wrapped in an
+  **`[f: …]` marker** in the English chunk: `[f: *De convers. ad cler., num.* 37]`.
+  Tag content is exactly what Migne prints: internal italics asterisks kept,
+  book numerals inside or outside the italics as printed, addressees kept
+  (*Epist. 27 ad Ardut.*), the locator's own terminal punctuation included.
+  One source cited eight ways in one work is evidence of Migne's citing
+  practice — preserve the variance per occurrence; the controlled source-name
+  vocabulary is derived later from the accumulated raws (CLAUDE.md rule 9),
+  never normalized in the prose, never expanded from memory.
+- **Editorial comment** — Migne's prose in the same tail (*Nam vitia identidem
+  repullulant*; *Nempe amorem comparis*; cross-references like *Vid. notas,
+  ibid.* or *nunc tomo V*). Translated, italic structure kept, left OUTSIDE
+  the `[f: …]` marker. When locator and comment share one italic run, close
+  the tag after the locator and rebalance the asterisks:
+  `[f: *Epist. 126:*] *For it turns to violent means.*`
+
+Rules:
+
+1. **`[f: …]` goes in the English chunks only** — the Latin chunks stay the
+   faithful TEI transform, untouched. Renderers strip the wrapper and render
+   the content as ordinary markdown, so the page shows exactly what Migne
+   prints. The indexer harvests every tag and validates its content (asterisks
+   stripped, whitespace normalized) as a verbatim substring of the Latin twin
+   chunk — a mismatch is an error, not a warning.
+2. **`Ibid.` is a locator.** Tag it as printed (`[f: *Ibid.*]`,
+   `[f: *Ibid.,* 33]`); never expand it in the text. The indexer resolves the
+   chain (CLAUDE.md rule 9) — resolution is mandatory at index time, because
+   it is deterministic there and impossible later from the display string
+   alone.
+3. **Segmentation guard.** A tag may contain only locator matter: work-title
+   abbreviations, *lib./cap./c./num./n./serm./epist./ep./tract./tr./hom.*
+   tokens, numerals, *Ibid.*, *ad* + addressee. An italic run containing a
+   finite verb, or more than ~8 words, is not all locator — split it: locator
+   into the tag; the remainder is either editorial comment (translate) or a
+   sentence of real content Migne's italic run has swallowed (translate — it
+   is text, not apparatus; 11208 at 1197B traps *Hinc consuetudo consuetudine
+   vincitur* after *De consid., c. 3*). Keep the printed italics either way;
+   log the comment-vs-content judgment in `cruces.md` when uncertain.
+4. **The gate:** these locators MUST land in the index as fontes. A
+   florilegium whose index reports 0 fontes is a pipeline failure, not a
+   verbatim-policy outcome.
+
+**Worked instance:** 11208 *Flores seu sententiae ex S. Bernardo* (PL 183,
+~207 locators, 22 bare *Ibid.*), translated 2026-07-18 with the
+locator/comment distinction drawn but untagged; convention set by the
+2026-07-18 Fable session. Sweep = tag both chunks, fix the 1197B swallowed
+sentence, extend `index-work.mjs` per rule 9, re-index (expect ~207 fontes).

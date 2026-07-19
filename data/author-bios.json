@@ -22,6 +22,12 @@
     "latin": "Auctor incertus",
     "_note": "Generic label for works of uncertain authorship (Corpus Corporum / Migne 'Auctor incertus'). Renders as a plain 'Anonymous' byline with no popover; per-work provenance goes in work-about.json, not here, since this key is shared across many anonymous works."
   },
+  "Avitus Viennensis": {
+    "displayName": "Avitus of Vienne",
+    "latin": "Alcimus Ecdicius Avitus Viennensis",
+    "dates": "c. 460 – c. 518",
+    "bio": "Bishop of Vienne in Burgundy, from a Gallo-Roman senatorial family, who worked to draw the Arian Burgundian kings toward Catholic Christianity. He left letters, homilies, and a biblical epic in verse on the events of Genesis and Exodus."
+  },
   "Guillelmus abbas": {
     "displayName": "William of Saint-Thierry",
     "latin": "Guillelmus abbas",
@@ -51,6 +57,12 @@
     "dates": "fl. 527–546",
     "bio": "First bishop of Urgell in the Pyrenees (in present-day Catalonia), a signatory of the Second Council of Toledo (527) and the First Council of Lérida (546). His Explanatio in Cantica canticorum — which Migne prints as Explicatio — is dedicated to Sergius, archbishop of Tarragona, and is the earliest surviving Latin commentary on the Song of Songs."
   },
+  "Lanfrancus Cantuariensis": {
+    "displayName": "Lanfranc of Canterbury",
+    "latin": "Lanfrancus Cantuariensis",
+    "dates": "c. 1010 – 1089",
+    "bio": "Lombard jurist turned monk, prior of Bec and abbot of Caen before William the Conqueror made him archbishop of Canterbury. He argued the eucharistic case against Berengar of Tours and reorganised the English church, its councils, and its monastic observance."
+  },
   "Odo Cameracensis": {
     "displayName": "Odo of Cambrai",
     "latin": "Odo Cameracensis",
@@ -62,6 +74,12 @@
     "latin": "Petrus Blesensis",
     "dates": "c. 1130 – c. 1211",
     "bio": "Letter-writer, poet and administrator, trained at Bologna and Paris, who served as secretary to the archbishops of Canterbury and archdeacon of Bath and London. His large and much-copied correspondence made him one of the most widely read prose stylists of the later twelfth century."
+  },
+  "Petrus Damianus": {
+    "displayName": "Peter Damian",
+    "latin": "Petrus Damianus",
+    "dates": "c. 1007 – 1072",
+    "bio": "Hermit of Fonte Avellana, cardinal-bishop of Ostia, and the fiercest voice of the eleventh-century reform against simony and clerical marriage. His letters and short treatises are vehement, concrete, and often mordantly funny; Dante set him in the highest sphere of contemplatives."
   },
   "Rabanus Maurus": {
     "displayName": "Rabanus Maurus",
