@@ -48,6 +48,9 @@ function inlineHtml(s, { anchorIds }) {
     .replace(/\[([0-9]{3,5}[A-D]?)\]\s*/g, (_, c) =>
       `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
     .replace(/\[n: ([^\]]*)\]/g, (_, n) => `<span class="notecite">${n}</span>`)
+    // pattern-4 inline locators: strip the wrapper, render the content as printed
+    // (the tag is an index handle, not display markup — translation-style.md rule 1)
+    .replace(/\[f: ([^\]]*)\]/g, (_, f) => `<span class="fonscite">${f}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -252,6 +255,11 @@ css += `
 .notecite {
   font-size: .78em; color: var(--encre-douce); letter-spacing: .02em;
   white-space: nowrap;
+}
+/* pattern-4 inline locator tails: apparatus, so quieter than body text, but they
+   sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
+.fonscite {
+  font-size: .82em; color: var(--encre-douce); letter-spacing: .02em;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }

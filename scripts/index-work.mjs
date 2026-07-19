@@ -135,6 +135,53 @@ for (const c of manifest.chunks) {
   }
 }
 
+// Inline citation tails (translation-style.md pattern 4): [f: ...] locators tagged
+// in the ENGLISH chunks (their content is verbatim Latin). Harvested here per
+// CLAUDE.md rule 9 — a florilegium indexing 0 fontes is a pipeline failure.
+// Each tag's content must be a verbatim substring of the Latin twin (asterisks
+// stripped, whitespace normalized); a mismatch is a HARD ERROR, not a warning.
+const fRe = /\[f: ([^\]]*)\]/g;
+const stripF = s => s.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+function harvestInlineFontes() {
+  const out = [], bad = [];
+  for (const c of manifest.chunks) {
+    const name = `${String(c.chunk).padStart(4, '0')}.md`;
+    const engPath = path.join(engDir, name);
+    if (!fs.existsSync(engPath)) continue;
+    const eng = fs.readFileSync(engPath, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+    const latFlat = stripF(fs.readFileSync(path.join(latDir, name), 'utf8')
+      .replace(/^---\n[\s\S]*?\n---\n/, ''));
+    let col = c.colContext;
+    const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[f: ([^\]]*)\]/g;
+    for (const t of eng.matchAll(tokenRe)) {
+      if (t[1]) { col = t[1]; continue; }
+      const raw = t[2].replace(/\s+/g, ' ').trim();
+      const flat = stripF(raw);
+      if (!latFlat.includes(flat)) bad.push(`${name}: [f: ${raw}] not found verbatim in Latin twin`);
+      out.push({ raw, column: citeCol(col), chunk: c.chunk, inline: true });
+    }
+  }
+  if (bad.length) {
+    console.error('INDEX FAILED: [f: ...] content must be verbatim Latin from the twin chunk');
+    bad.forEach(b => console.error(' - ' + b));
+    process.exit(1);
+  }
+  return out;
+}
+
+// Resolve Ibid. chains: a bare or partial *Ibid.* points at the nearest preceding
+// non-Ibid. locator. Deterministic inference from the printed sequence — NOT a
+// correction, so `raw` keeps the printed Ibid. and no corrections entry is made.
+function resolveIbid(list) {
+  let last = null, lastCol = null;
+  for (const f of list) {
+    if (/^ibid/i.test(stripF(f.raw))) {
+      if (last) { f.antecedent = last; f.antecedentColumn = lastCol; }
+    } else { last = f.raw; lastCol = f.column; }
+  }
+  return list;
+}
+
 // headnotes: for every « quotation, the attribution segment before it.
 // Bounded by the previous » / paragraph break / head line; column-located.
 function harvestHeadnotes(dir, colContextByChunk) {
@@ -189,6 +236,9 @@ const heads = headsLa.map((h, i) => ({ ...h, en: headsEn[i] }));
 let authorBios = {};
 try { authorBios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8')); } catch {}
 const authorsDisplay = (manifest.authors ?? []).map(a => authorBios[a]?.displayName ?? a);
+
+// pattern-4 inline locators join the same fontes pool as [n:] citations
+fontes.push(...resolveIbid(harvestInlineFontes()));
 
 const out = {
   generated: 'scripts/index-work.mjs',
