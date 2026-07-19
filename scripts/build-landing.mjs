@@ -17,6 +17,26 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-18/19 session: 19 works, smallest-first across the whole frontier —
+  'pl/18/exhortatio-ad-monachos',                               // Anonymous — exhortation to monks
+  'pl/184/in-festo-s-andreae',                                  // Nicholas of Clairvaux — for the feast of St Andrew
+  'pl/144/vita-s-mauri',                                        // Peter Damian — life of St Maurus
+  'pl/144/passio-ss-florae-et-lucillae',                        // Peter Damian — passion of SS. Flora and Lucilla
+  'pl/104/de-modo-regiminis-ecclesiastici',                     // Agobard of Lyon — on the manner of church governance
+  'pl/150/de-celanda-confessione',                              // Lanfranc of Canterbury — on keeping confession secret
+  'pl/145/de-castitate-et-mediis-eam-tuendi',                   // Peter Damian — chastity and the means of guarding it
+  'pl/125/quae-exsequi-debeat-episcopus',                       // Hincmar of Reims — what a bishop must carry out
+  'pl/59/sermo-in-rogationibus',                                // Avitus of Vienne — sermon for the Rogations
+  'pl/42/de-unitate-sanctae-trinitatis',                        // Anonymous — the unity of the Holy Trinity
+  'pl/184/in-parabolam-de-decem-virginibus',                    // Anonymous — the parable of the ten virgins
+  'pl/125/instructio-ad-ludovicum-balbum',                      // Hincmar of Reims — instruction to Louis the Stammerer
+  'pl/112/de-passione-domini',                                  // Rabanus Maurus — on the Lord's passion
+  'pl/101/vita-s-martini-turonensis',                           // Alcuin — life of St Martin of Tours
+  'pl/207/de-divisione-et-scriptoribus-sacrorum-librorum',      // Peter of Blois — division and authors of the sacred books
+  'pl/183/flores-seu-sententiae-ex-s-bernardo',                 // Anonymous — florilegium of Bernard
+  'pl/162/epistola',                                            // Anselm of Laon — letter
+  'pl/160/homilia-de-villico-iniquitatis',                      // Odo of Cambrai — homily on the unjust steward
+  'pl/155/de-primordiis-et-inventione-sacrae-religionis-hierosolymorum', // Anonymous — origins of the Hospitallers
   'pl/196/declarationes-nonnullarum-difficultatum-scripturae',  // Richard of St Victor — resolving scriptural difficulties
   'pl/175/adnotatiunculae-in-librum-judicum',                   // Hugh of St Victor — notes on Judges
   'pl/196/de-judiciaria-potestate-in-finali-et-universali-judicio', // Richard of St Victor — judiciary power at the last judgment
