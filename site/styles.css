@@ -475,6 +475,11 @@ a { color: inherit; }
   font-size: .78em; color: var(--encre-douce); letter-spacing: .02em;
   white-space: nowrap;
 }
+/* pattern-4 inline locator tails: apparatus, so quieter than body text, but they
+   sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
+.fonscite {
+  font-size: .82em; color: var(--encre-douce); letter-spacing: .02em;
+}
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }
 .coltext li.colmark { list-style: none; }

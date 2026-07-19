@@ -36,3 +36,67 @@ applied to the locators as well.
 - **1203C → 1204A** — Anchor sequence gap: column 1203D is not marked, the text running from [1203C] straight to [1204A]. Reproduced as printed; worth a check against the plate for dropped sentences, since this is a list where a dropped item would leave no syntactic trace.
 - **1204B** — *In circuitu impii ambulant* echoes Psalm 11:9 (Vulg.); translated from the Latin as printed, not from a conventional English version.
 - **1203C** — *nunc tomo V* ("now in volume V") is Migne's own editorial cross-reference, printed outside the italics; translated as such.
+
+## Inline citation tails — `[f: …]` tagging pass (2026-07-18)
+
+The standing editorial decision above was superseded in its mechanics (not its
+principle) by `translation-style.md` **pattern 4**: the locators are now wrapped in
+`[f: …]` markers so the indexer harvests them as *fontes*. 167 locators tagged
+(114 in chunk 0, 53 in chunk 1); 26 bare *Ibid.*, 48 members of the *Ibid.* family
+resolved by the indexer. Four paragraphs carry no locator at all and are correctly
+untagged: the three *Sunt qui scire volunt* clauses at 1199D–1200A (they share the
+citation printed after the fourth) and *Sapiens est, cui quaeque res sapiunt* at 1201B.
+
+### Swallowed-sentence fix (segmentation guard, rule 3)
+
+- **1197B** — *Nil tam durum, quod duriori non cedat.* IV, *De consid., c. 3. Hinc
+  consuetudo consuetudine vincitur.* Migne's italic run runs past the locator and
+  swallows an independent Bernardine adage. Split: the tag takes only
+  `IV, *De consid., c.* 3.`, and *Hinc consuetudo consuetudine vincitur* is now
+  ordinary translated body text ("Hence habit is conquered by habit."), roman, outside
+  the marker. This is the **only** swallowed-content fix made; the full sweep of both
+  chunks turned up one further candidate, logged immediately below.
+
+### Comment-vs-content judgment calls
+
+Migne's glosses in this work almost all carry an explicit gloss marker — *Nam*,
+*Nempe*, *Adeo*, *id est*, *Sicut*, *Proverb.* — which is the test used throughout.
+Marker-bearing runs were read as editorial comment: translated, kept italic, left
+outside the tag (1198C *Nam. vitia idemtidem repullulant*; 1198C *Nempe amorem
+comparis*; 1198D *Nam ad violenta media convertitur*; 1199A *Sicut Graece loquentem
+non intelligit…*; 1199A *Nam optimum cibi condimentum fames*; 1199B *Nempe erga Deum*;
+1199B *Adeo jam palam et sine pudore peccatur*; 1200D *id est, Non prius effundes…*;
+1201A *Nempe ne majoris ingratitudinis rei fiant*; 1201D *Nam peccata populi comedis*;
+1202D *Proverb. vulgare*; 1204B *Nam si impliceris infimis, non pervenies*).
+Migne's cross-references *--Vid. notas, ibid.* (1200B) and *nunc tomo V* (1203C) are
+likewise comment, not locator, and are untagged.
+
+- **1200B — FLAG FOR HUMAN REVIEW.** *Melius est, ut pereat unus quam unitas.* Epist.
+  102. *Ejiciendus qui turbat concordiam.* The trailing clause carries **no** gloss
+  marker, so by the marker test it looks like a second swallowed adage on the 1197B
+  model. It has been kept as editorial comment (italic, outside the tag) on the ground
+  that it is applicative — it prescribes what follows *from* the preceding maxim rather
+  than standing free of it, unlike *Hinc consuetudo consuetudine vincitur*, which is an
+  independent sentence. Either reading splits it out of the locator, so the index is
+  unaffected; only the italics differ. Reverse if a human prefers the content reading.
+
+### Column anchors trapped inside a locator — partial tags
+
+`scripts/index-work.mjs` matches `[f: ([^\]]*)]`, so a `[f: …]` tag cannot contain a
+column anchor, and the tag content must survive as a verbatim substring of the Latin
+twin — which still prints the anchor mid-locator. Four locators are split by an anchor
+in the plate. In each, the tag takes the longest anchor-free stretch that still
+identifies the source; the remainder stays as printed italics outside the marker. The
+anchors themselves are untouched and in order. These four index as partial raws:
+
+- **1199B/C** — *Epist. 27 ad [1199C] Ardut.* → tagged `*Epist. 27 ad*` (drops the
+  addressee *Ardut.*).
+- **1200B** — *Epist. [1200B] 102.* → tagged `*Epist.*` only (drops the number). The
+  weakest of the four; a bare number would have been no better as a source name.
+- **1201C** — *Tract. de cont. mun. ad [1201C] cler., n. 21.* → tagged
+  `*Tract. de cont. mun. ad*` (drops *cler., n. 21*).
+- **1203C** — *Serm. [1203C] de S. Magdal., n. 1* → tagged `*de S. Magdal., n.* 1,`
+  (drops the leading *Serm.*, which alone would identify nothing).
+
+If the indexer is ever taught to skip anchors inside `[f: …]`, these four should be
+re-tagged whole.

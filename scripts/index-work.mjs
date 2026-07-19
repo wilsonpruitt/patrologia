@@ -140,8 +140,13 @@ for (const c of manifest.chunks) {
 // CLAUDE.md rule 9 — a florilegium indexing 0 fontes is a pipeline failure.
 // Each tag's content must be a verbatim substring of the Latin twin (asterisks
 // stripped, whitespace normalized); a mismatch is a HARD ERROR, not a warning.
-const fRe = /\[f: ([^\]]*)\]/g;
-const stripF = s => s.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+// A locator can be SPLIT BY A COLUMN ANCHOR in the plate (Migne breaks the line
+// mid-citation), so the tag body must be able to contain [0473A] marks — hence the
+// alternation rather than [^\]]*. Anchors are stripped for validation (the Latin twin
+// prints them mid-locator too) but kept in `raw`, and still advance column tracking.
+const F_BODY = '(?:[^\\]]|\\[[0-9]{3,5}[A-D]?\\])*';
+const fRe = new RegExp(`\\[f: (${F_BODY})\\]`, 'g');
+const stripF = s => s.replace(/\[[0-9]{3,5}[A-D]?\]/g, '').replace(/\*/g, '').replace(/\s+/g, ' ').trim();
 function harvestInlineFontes() {
   const out = [], bad = [];
   for (const c of manifest.chunks) {
@@ -152,13 +157,18 @@ function harvestInlineFontes() {
     const latFlat = stripF(fs.readFileSync(path.join(latDir, name), 'utf8')
       .replace(/^---\n[\s\S]*?\n---\n/, ''));
     let col = c.colContext;
-    const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[f: ([^\]]*)\]/g;
+    // f-tag alternative FIRST: a tag may contain an anchor, and the anchor branch
+    // would otherwise match inside it and shred the locator.
+    const tokenRe = new RegExp(`\\[f: (${F_BODY})\\]|\\[([0-9]{3,5}[A-D]?)\\]`, 'g');
     for (const t of eng.matchAll(tokenRe)) {
-      if (t[1]) { col = t[1]; continue; }
-      const raw = t[2].replace(/\s+/g, ' ').trim();
+      if (t[2]) { col = t[2]; continue; }
+      const raw = t[1].replace(/\s+/g, ' ').trim();
       const flat = stripF(raw);
       if (!latFlat.includes(flat)) bad.push(`${name}: [f: ${raw}] not found verbatim in Latin twin`);
       out.push({ raw, column: citeCol(col), chunk: c.chunk, inline: true });
+      // an anchor inside the tag still advances the running column
+      const inner = [...raw.matchAll(/\[([0-9]{3,5}[A-D]?)\]/g)];
+      if (inner.length) col = inner.at(-1)[1];
     }
   }
   if (bad.length) {

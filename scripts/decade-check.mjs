@@ -84,6 +84,41 @@ const section = (arr, title, items, hint) => {
     'Tag with [f: ] per translation-style.md pattern 4, then re-index.');
 }
 
+// ─── 3b. Column-band gaps — possible MISSING TEXT, not just missing markers ───
+// Migne numbers each column and subdivides it A–D. A break in that run means the
+// source we ingested (CC's TEI, or Calfa for PG) skipped a band. Some are benign —
+// a chapter ending can leave a column short. But a gap that lands MID-SENTENCE means
+// text was dropped upstream and we are publishing an incomplete work, which is the
+// serious case (cf. Joel/Calfa line-dropping, Odo 1127B->1128A mid-sentence).
+{
+  const B = 'ABCD';
+  const key = c => { const m = c.match(/^0*(\d+)([A-D])?$/); return m ? [+m[1], m[2] ? B.indexOf(m[2]) : -1] : null; };
+  const midSentence = [], benign = [];
+  for (const id of shipped) {
+    const files = fs.readdirSync(p('src/latin', id)).filter(x => /^\d+\.md$/.test(x)).sort();
+    const body = files.map(f => read(p('src/latin', id, f)).replace(/^---\n[\s\S]*?\n---\n/, '')).join('\n');
+    const marks = [...body.matchAll(/\[(\d{3,5}[A-D]?)\]/g)];
+    for (let i = 1; i < marks.length; i++) {
+      const a = key(marks[i - 1][1]), b = key(marks[i][1]);
+      if (!a || !b || a[1] < 0 || b[1] < 0) continue;
+      const an = a[0] * 4 + a[1], bn = b[0] * 4 + b[1];
+      if (bn <= an + 1) continue;
+      // Size is the only honest signal here. A mid-sentence landing proves nothing:
+      // Migne's column breaks fall mid-sentence as a matter of course. A single
+      // missing band is usually just an unprinted quarter-mark (D is absent ~2x as
+      // often as any other band, consistent with a typographic convention rather
+      // than loss). A gap of 3+ is a whole column's worth of text unaccounted for.
+      const line = `${id}: ${marks[i - 1][1]} -> ${marks[i][1]} (${bn - an - 1} band(s))`;
+      (bn - an - 1 >= 3 ? midSentence : benign).push(line);
+    }
+  }
+  section(advisory, 'Column-band gaps of 3+ bands — a full column unaccounted for', midSentence,
+    'NOT established as text loss — verifying needs the plate (archive.org scan). Worth a spot-check ' +
+    'each decade; if the plate has text we lack, patch with provenance like data/calfa-patches/.');
+  section(advisory, 'Column-band gaps of 1-2 bands (likely unprinted quarter-marks)', benign,
+    'Almost certainly benign. Tracked so a sudden jump in the count is visible.');
+}
+
 // ─── 4. Shipped works missing an author bio ───────────────────────────────────
 // Without one the byline falls back to the Latin form — fine at stage, not at deploy.
 {

@@ -1,0 +1,70 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 5015,
+  "textIdno": 10047,
+  "title": "Passio SS. Florae et Lucillae",
+  "authors": [
+    "Petrus Damianus"
+  ],
+  "authorsDisplay": [
+    "Peter Damian"
+  ],
+  "series": "pl",
+  "volume": 144,
+  "colFirst": "1025a",
+  "colLast": "1032b",
+  "counts": {
+    "scripture": 0,
+    "fontes": 2,
+    "heads": 4,
+    "headnotes": 0,
+    "unparsed": 1
+  },
+  "scripture": [],
+  "fontes": [
+    {
+      "raw": "Psal. LXVII",
+      "column": "1025a",
+      "chunk": 0
+    },
+    {
+      "raw": "Psal. LXVII",
+      "column": "1029c",
+      "chunk": 1
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS.",
+      "column": "1025a",
+      "chunk": 0,
+      "en": "PROLOGUE."
+    },
+    {
+      "la": "CAPUT PRIMUM. Harum sanctarum virginum pietas, captivitas et in captivitate libertas.",
+      "column": "1026a",
+      "chunk": 0,
+      "en": "CHAPTER ONE. The devotion of these holy virgins, their captivity, and their freedom in captivity."
+    },
+    {
+      "la": "CAPUT II. Virginum e captivitate liberatio, reditus ad Romam et martyrium una cum suo raptore.",
+      "column": "1028b",
+      "chunk": 1,
+      "en": "CHAPTER II. The virgins' deliverance from captivity, their return to Rome, and their martyrdom together with the man who carried them off."
+    },
+    {
+      "la": "CAPUT III. Sanctorum corporum sepultura et translatio.",
+      "column": "1030c",
+      "chunk": 2,
+      "en": "CHAPTER III. The burial and translation of the holy bodies."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [
+    {
+      "raw": "(I Cor. III, VI)",
+      "column": "1027c",
+      "chunk": 0
+    }
+  ]
+}

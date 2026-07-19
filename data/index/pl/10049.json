@@ -1,0 +1,104 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 5017,
+  "textIdno": 10049,
+  "title": "Vita S. Mauri",
+  "authors": [
+    "Petrus Damianus"
+  ],
+  "authorsDisplay": [
+    "Peter Damian"
+  ],
+  "series": "pl",
+  "volume": 144,
+  "colFirst": "945a",
+  "colLast": "952c",
+  "counts": {
+    "scripture": 3,
+    "fontes": 4,
+    "heads": 4,
+    "headnotes": 0,
+    "unparsed": 2
+  },
+  "scripture": [
+    {
+      "refKey": "Ps.41.7",
+      "refDisplay": "Psal. XLI, 7",
+      "column": "948a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Acts.15.9",
+      "refDisplay": "Act. XV, 9",
+      "column": "951b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.110.6-Ps.110.7",
+      "refDisplay": "Psal. CX, 6, 7",
+      "column": "952c",
+      "chunk": 2
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Psal. V",
+      "column": "945b",
+      "chunk": 0
+    },
+    {
+      "raw": "Jer. IX",
+      "column": "945c",
+      "chunk": 0
+    },
+    {
+      "raw": "Gal. I",
+      "column": "946c",
+      "chunk": 0
+    },
+    {
+      "raw": "Luc. XXI",
+      "column": "947d",
+      "chunk": 0
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS.",
+      "column": "945a",
+      "chunk": 0,
+      "en": "PROLOGUE."
+    },
+    {
+      "la": "CAPUT PRIMUM. S. Mauri episcopatus. In eo gesta.",
+      "column": "946a",
+      "chunk": 0,
+      "en": "CHAPTER ONE. The episcopate of St. Maurus. His deeds in it."
+    },
+    {
+      "la": "CAPUT II. Translatio corporis; miracula.",
+      "column": "948c",
+      "chunk": 1,
+      "en": "CHAPTER II. The translation of the body; miracles."
+    },
+    {
+      "la": "CAPUT III. Varia ad reliquias miracula.",
+      "column": "950b",
+      "chunk": 2,
+      "en": "CHAPTER III. Various miracles at the relics."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [
+    {
+      "raw": "(I Cor. III)",
+      "column": "945b",
+      "chunk": 0
+    },
+    {
+      "raw": "(II Machab. II)",
+      "column": "945c",
+      "chunk": 0
+    }
+  ]
+}
