@@ -44,8 +44,11 @@ const BOOKS = {
   'I Reg': '1Sam', 'II Reg': '2Sam', 'III Reg': '1Kgs', 'IV Reg': '2Kgs',
   'I Par': '1Chr', 'II Par': '2Chr', 'I Esdr': 'Ezra', 'II Esdr': 'Neh',
   'Tob': 'Tob', 'Judith': 'Jdt', 'Esth': 'Esth', 'Job': 'Job',
-  'Psal': 'Ps', 'Prov': 'Prov', 'Eccle': 'Eccl', 'Cant': 'Song',
-  'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Jer': 'Jer',
+  'Psal': 'Ps', 'Ps': 'Ps', 'Prov': 'Prov', 'Cant': 'Song', 'Cantic': 'Song',
+  // Ecclesiastes: Migne writes Eccle/Eccles/Eccl. Ecclesiasticus (Sirach) is Eccli —
+  // keep them distinct, the one-letter difference is the whole distinction.
+  'Eccle': 'Eccl', 'Eccles': 'Eccl', 'Eccl': 'Eccl',
+  'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Jer': 'Jer',
   'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   'Os': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
   'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Soph': 'Zeph', 'Agg': 'Hag',
@@ -53,9 +56,9 @@ const BOOKS = {
   'I Mach': '1Macc', 'II Mach': '2Macc',
   'Matth': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John', 'Act': 'Acts',
   'Rom': 'Rom', 'I Cor': '1Cor', 'II Cor': '2Cor', 'Galat': 'Gal', 'Gal': 'Gal',
-  'Ephes': 'Eph', 'Philipp': 'Phil', 'Coloss': 'Col',
+  'Ephes': 'Eph', 'Philipp': 'Phil', 'Coloss': 'Col', 'Col': 'Col',
   'I Thess': '1Thess', 'II Thess': '2Thess', 'I Tim': '1Tim', 'II Tim': '2Tim',
-  'Tit': 'Titus', 'Philem': 'Phlm', 'Hebr': 'Heb', 'Jac': 'Jas',
+  'Tit': 'Titus', 'Philem': 'Phlm', 'Hebr': 'Heb', 'Jac': 'Jas', 'Jacob': 'Jas',
   'I Petr': '1Pet', 'II Petr': '2Pet',
   'I Joan': '1John', 'II Joan': '2John', 'III Joan': '3John',
   'Jud': 'Jude', 'Apoc': 'Rev',
@@ -73,7 +76,8 @@ function romanToInt(s) {
 }
 
 // "(Matth. XVI, 18)" / "(Joel. I, 4)" / "(I Petr. V, 3)" / "(Rom. XIII, 1, 2)"
-const scripRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+)\s*,\s*([0-9]+(?:\s*,\s*[0-9]+)*)\s*\.?\)?$/;
+// verses: "20" | "1, 2" | "37-39" (Migne uses both comma-lists and hyphen ranges)
+const scripRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+)\s*,\s*([0-9]+(?:\s*[,-]\s*[0-9]+)*)\s*\.?\)?$/;
 function parseScripture(raw) {
   const m = raw.trim().match(scripRe);
   if (!m) return null;
@@ -82,12 +86,24 @@ function parseScripture(raw) {
   if (!osis) return null;
   const ch = romanToInt(m[3]);
   if (!ch) return null;
-  const verses = m[4].split(/\s*,\s*/).map(Number);
+  const verses = m[4].split(/\s*[,-]\s*/).map(Number);
   const refKey = verses.length > 1
     ? `${osis}.${ch}.${verses[0]}-${osis}.${ch}.${verses.at(-1)}`
     : `${osis}.${ch}.${verses[0]}`;
   return { refKey };
 }
+
+// Printer's-error corrections: refDisplay stays verbatim, refKey resolves to the
+// TRUE reference so the index never propagates Migne's bad numbers. The key derived
+// from the printed form is kept as refKeyPrinted (auditable + reversible).
+const CORRECTIONS = (() => {
+  const p = path.join(ROOT, 'data/citation-corrections.json');
+  if (!fs.existsSync(p)) return new Map();
+  const { corrections } = JSON.parse(fs.readFileSync(p, 'utf8'));
+  return new Map(corrections
+    .filter(c => String(c.idno) === String(idno))
+    .map(c => [`${c.column}|${c.refDisplay}`, c]));
+})();
 
 const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with scripts/lib/chunk-core.mjs COL_RE_SRC (banded 0473A + bare 1137)
 const citeCol = c => { if (!c) return null; const m = c.match(/^0*([0-9]+)([A-D]?)$/); return m ? m[1] + m[2].toLowerCase() : c.toLowerCase(); };
@@ -106,7 +122,12 @@ for (const c of manifest.chunks) {
     const inner = raw.replace(/^\(|\)$/g, '').trim();
     const s = parseScripture(inner);
     const loc = { column: citeCol(col), chunk: c.chunk };
-    if (s) scripture.push({ refKey: s.refKey, refDisplay: inner, ...loc });
+    if (s) {
+      const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
+      scripture.push(fix
+        ? { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refKey, corrected: true, correctionNote: fix.note, ...loc }
+        : { refKey: s.refKey, refDisplay: inner, ...loc });
+    }
     else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+,/.test(inner) &&
              !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
       unparsed.push({ raw, ...loc });

@@ -1,0 +1,46 @@
+{
+  "note": "Migne misprints a scripture reference. Policy (Wilson, 2026-07-18): the TEXT keeps what Migne prints (sacred-marker rule) and refDisplay stays verbatim, but refKey resolves to the CORRECT reference — the index must not propagate bad numbers. The key derived from Migne's printed form is retained as refKeyPrinted so every correction is auditable and reversible.",
+  "standard": "OSIS book codes; chapter/verse follow the CITED (Vulgate) numbering, per scripts/index-work.mjs. Corrections here fix printer's errors ONLY — they never silently convert Vulgate versification to modern versification, which is a systematic divergence, not an error.",
+  "corrections": [
+    {
+      "idno": "10727",
+      "column": "1592a",
+      "refDisplay": "Isa. II, 1",
+      "refKey": "Isa.11.1",
+      "quote": "Exiet Virga de radice Jesse, et flos de radice ejus ascendet",
+      "note": "Migne prints II for XI."
+    },
+    {
+      "idno": "10727",
+      "column": "1592b",
+      "refDisplay": "Matth. XI, 20",
+      "refKey": "Matt.11.30",
+      "quote": "Jugum enim meum suave est, et onus meum leve",
+      "note": "Chapter correct, verse wrong: 20 for 30."
+    },
+    {
+      "idno": "10703",
+      "column": "1126d",
+      "refDisplay": "Prov. II, 2",
+      "refKey": "Prov.21.27",
+      "quote": "Hostiae impiorum abominabiles",
+      "note": "Migne prints II, 2 for XXI, 27."
+    },
+    {
+      "idno": "10703",
+      "column": "1123d",
+      "refDisplay": "Eccl. XVII, 9",
+      "refKey": "Eccl.7.9",
+      "quote": "melior est finis orationis quam principium",
+      "note": "Migne prints XVII for VII. The same verse is cited correctly as 'Eccles. VII, 9' at 1126c in this same work — internal evidence for the correction."
+    },
+    {
+      "idno": "10703",
+      "column": "1123b",
+      "refDisplay": "I Joan. I, 3",
+      "refKey": "1John.1.8",
+      "quote": "Si dixerimus quia peccatum non habemus, nos ipsos seducimus",
+      "note": "Migne prints I, 3 for I, 8."
+    }
+  ]
+}

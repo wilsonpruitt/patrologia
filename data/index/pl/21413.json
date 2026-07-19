@@ -14,11 +14,11 @@
   "colFirst": "639a",
   "colLast": "666d",
   "counts": {
-    "scripture": 16,
+    "scripture": 17,
     "fontes": 0,
     "heads": 13,
     "headnotes": 8,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -85,6 +85,12 @@
       "refKey": "Jer.48.28",
       "refDisplay": "Jer. XLVIII, 28",
       "column": "647d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.5.1-Isa.5.2",
+      "refDisplay": "Isai. V, 1, 2",
+      "column": "648a",
       "chunk": 2
     },
     {
@@ -249,11 +255,5 @@
       "chunk": 0
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Isai. V, 1, 2)",
-      "column": "648a",
-      "chunk": 2
-    }
-  ]
+  "unparsed": []
 }
