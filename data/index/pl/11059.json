@@ -14,13 +14,26 @@
   "colFirst": "87a",
   "colLast": "96b",
   "counts": {
-    "scripture": 0,
-    "fontes": 20,
+    "scripture": 2,
+    "fontes": 18,
     "heads": 3,
     "headnotes": 0,
     "unparsed": 0
   },
-  "scripture": [],
+  "scripture": [
+    {
+      "refKey": "Heb.11",
+      "refDisplay": "Hebr. XI",
+      "column": "92d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Gen.22",
+      "refDisplay": "Gen. XXII",
+      "column": "94d",
+      "chunk": 2
+    }
+  ],
   "fontes": [
     {
       "raw": "JUD. I.",
@@ -68,11 +81,6 @@
       "chunk": 2
     },
     {
-      "raw": "Hebr. XI",
-      "column": "92d",
-      "chunk": 2
-    },
-    {
       "raw": "JUD. XII.",
       "column": "92d",
       "chunk": 2
@@ -90,11 +98,6 @@
     {
       "raw": "JUD. XV.",
       "column": "94a",
-      "chunk": 2
-    },
-    {
-      "raw": "Gen. XXII",
-      "column": "94d",
       "chunk": 2
     },
     {

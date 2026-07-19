@@ -14,114 +14,141 @@
   "colFirst": "413b",
   "colLast": "432b",
   "counts": {
-    "scripture": 0,
-    "fontes": 21,
+    "scripture": 21,
+    "fontes": 1,
     "heads": 6,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Luc. I",
+      "refKey": "Luke.1",
+      "refDisplay": "Luc. I",
       "column": "415a",
       "chunk": 1
     },
     {
-      "raw": "Joan. III",
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
       "column": "415d",
       "chunk": 1
     },
     {
-      "raw": "Act. I",
+      "refKey": "Acts.1",
+      "refDisplay": "Act. I",
       "column": "416a",
       "chunk": 1
     },
     {
-      "raw": "Luc. III",
+      "refKey": "Luke.3",
+      "refDisplay": "Luc. III",
       "column": "416c",
       "chunk": 1
     },
     {
-      "raw": "Psal. XXIV",
+      "refKey": "Ps.24",
+      "refDisplay": "Psal. XXIV",
       "column": "418a",
       "chunk": 1
     },
     {
-      "raw": "Exod. XXI",
+      "refKey": "Exod.21",
+      "refDisplay": "Exod. XXI",
       "column": "418d",
       "chunk": 2
     },
     {
-      "raw": "Matth. X",
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X",
       "column": "420b",
       "chunk": 2
     },
     {
-      "raw": "Matth. XXII",
+      "refKey": "Matt.22",
+      "refDisplay": "Matth. XXII",
       "column": "421c",
       "chunk": 2
     },
     {
-      "raw": "Prov. II",
+      "refKey": "Prov.2",
+      "refDisplay": "Prov. II",
       "column": "422a",
       "chunk": 3
     },
     {
-      "raw": "Hebr. IV",
+      "refKey": "Heb.4",
+      "refDisplay": "Hebr. IV",
       "column": "422c",
       "chunk": 3
     },
     {
-      "raw": "Psal. XXXIII",
+      "refKey": "Ps.33",
+      "refDisplay": "Psal. XXXIII",
       "column": "422d",
       "chunk": 3
     },
     {
-      "raw": "Matth. XXV",
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
       "column": "422d",
       "chunk": 3
     },
     {
-      "raw": "Prov. XV",
+      "refKey": "Prov.15",
+      "refDisplay": "Prov. XV",
       "column": "422d",
       "chunk": 3
     },
     {
-      "raw": "Prov. V",
+      "refKey": "Prov.5",
+      "refDisplay": "Prov. V",
       "column": "422d",
       "chunk": 3
     },
     {
-      "raw": "Rom. II",
+      "refKey": "Rom.2",
+      "refDisplay": "Rom. II",
       "column": "427c",
       "chunk": 4
     },
     {
-      "raw": "Joan. XVII",
+      "refKey": "John.17",
+      "refDisplay": "Joan. XVII",
       "column": "427c",
       "chunk": 4
     },
     {
-      "raw": "Rom. XVI",
+      "refKey": "Rom.16",
+      "refDisplay": "Rom. XVI",
       "column": "429b",
       "chunk": 5
     },
     {
-      "raw": "Isa. XIX",
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "429b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Isa.19",
+      "refDisplay": "Isa. XIX",
       "column": "429c",
       "chunk": 5
     },
     {
-      "raw": "Rom. XI.",
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI.",
       "column": "430b",
       "chunk": 5
     },
     {
-      "raw": "Psal. LXVIII",
+      "refKey": "Ps.68",
+      "refDisplay": "Psal. LXVIII",
       "column": "430c",
       "chunk": 5
-    },
+    }
+  ],
+  "fontes": [
     {
       "raw": "Ibid.",
       "column": "430c",
@@ -167,11 +194,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. II)",
-      "column": "429b",
-      "chunk": 5
-    }
-  ]
+  "unparsed": []
 }

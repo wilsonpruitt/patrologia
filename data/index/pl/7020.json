@@ -14,17 +14,23 @@
   "colFirst": "71a",
   "colLast": "78a",
   "counts": {
-    "scripture": 28,
-    "fontes": 2,
+    "scripture": 30,
+    "fontes": 1,
     "heads": 5,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
       "refKey": "Rom.7.6",
       "refDisplay": "Rom. VII, 6",
       "column": "71b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.4",
+      "refDisplay": "Genes. XXI; Galat. IV",
+      "column": "71c",
       "chunk": 0
     },
     {
@@ -73,6 +79,12 @@
       "refKey": "Col.5.16",
       "refDisplay": "Coloss. V, 16",
       "column": "73b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.1.1",
+      "refDisplay": "Psalm. I, 1",
+      "column": "73c",
       "chunk": 0
     },
     {
@@ -192,11 +204,6 @@
   ],
   "fontes": [
     {
-      "raw": "Genes. XXI; Galat. IV",
-      "column": "71c",
-      "chunk": 0
-    },
-    {
       "raw": "Ibid., 11",
       "column": "74c",
       "chunk": 1
@@ -235,11 +242,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(Psalm. I, 1)",
-      "column": "73c",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }

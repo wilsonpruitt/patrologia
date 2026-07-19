@@ -14,138 +14,169 @@
   "colFirst": "1011d",
   "colLast": "1018c",
   "counts": {
-    "scripture": 0,
-    "fontes": 25,
+    "scripture": 25,
+    "fontes": 1,
     "heads": 2,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Luc. II",
+      "refKey": "Luke.2",
+      "refDisplay": "Luc. II",
       "column": "1011d",
       "chunk": 0
     },
     {
-      "raw": "Psal. CXVIII",
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
       "column": "1013a",
       "chunk": 0
     },
     {
-      "raw": "Joan. I",
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
       "column": "1013a",
       "chunk": 0
     },
     {
-      "raw": "Joan. XVI",
+      "refKey": "John.16",
+      "refDisplay": "Joan. XVI",
       "column": "1013b",
       "chunk": 0
     },
     {
-      "raw": "Matth. III",
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
       "column": "1014a",
       "chunk": 0
     },
     {
-      "raw": "Cant. VI",
+      "refKey": "Song.6",
+      "refDisplay": "Cant. VI",
       "column": "1014b",
       "chunk": 0
     },
     {
-      "raw": "Ephes. IV",
+      "refKey": "Eph.4",
+      "refDisplay": "Ephes. IV",
       "column": "1014b",
       "chunk": 0
     },
     {
-      "raw": "ibid.",
-      "column": "1014c",
-      "chunk": 0
-    },
-    {
-      "raw": "Matth. XVI",
+      "refKey": "Matt.16",
+      "refDisplay": "Matth. XVI",
       "column": "1015b",
       "chunk": 1
     },
     {
-      "raw": "Joan. X",
+      "refKey": "John.10",
+      "refDisplay": "Joan. X",
       "column": "1015b",
       "chunk": 1
     },
     {
-      "raw": "Joan. I",
+      "refKey": "2Tim.2",
+      "refDisplay": "II Tim. II",
+      "column": "1015b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
       "column": "1015d",
       "chunk": 1
     },
     {
-      "raw": "Joan. XXI",
+      "refKey": "John.21",
+      "refDisplay": "Joan. XXI",
       "column": "1015d",
       "chunk": 1
     },
     {
-      "raw": "Joan. X",
+      "refKey": "John.10",
+      "refDisplay": "Joan. X",
       "column": "1015d",
       "chunk": 1
     },
     {
-      "raw": "Exod. XXIX",
+      "refKey": "Exod.29",
+      "refDisplay": "Exod. XXIX",
       "column": "1015d",
       "chunk": 1
     },
     {
-      "raw": "Isai. VIII",
+      "refKey": "Isa.8",
+      "refDisplay": "Isai. VIII",
       "column": "1015d",
       "chunk": 1
     },
     {
-      "raw": "Marc. X",
+      "refKey": "Mark.10",
+      "refDisplay": "Marc. X",
       "column": "1016a",
       "chunk": 1
     },
     {
-      "raw": "Matth. XVIII",
+      "refKey": "Matt.18",
+      "refDisplay": "Matth. XVIII",
       "column": "1016a",
       "chunk": 1
     },
     {
-      "raw": "Eccle. II",
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccle. II",
       "column": "1016a",
       "chunk": 1
     },
     {
-      "raw": "Ephes. III",
+      "refKey": "Eph.3",
+      "refDisplay": "Ephes. III",
       "column": "1016b",
       "chunk": 1
     },
     {
-      "raw": "Ephes. V",
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
       "column": "1016d",
       "chunk": 1
     },
     {
-      "raw": "Psal. CXIX",
+      "refKey": "Ps.119",
+      "refDisplay": "Psal. CXIX",
       "column": "1018a",
       "chunk": 1
     },
     {
-      "raw": "Psal. XL",
+      "refKey": "Ps.40",
+      "refDisplay": "Psal. XL",
       "column": "1018a",
       "chunk": 1
     },
     {
-      "raw": "Philip. I",
+      "refKey": "Phil.1",
+      "refDisplay": "Philip. I",
       "column": "1018a",
       "chunk": 1
     },
     {
-      "raw": "Psal. LXXIX",
+      "refKey": "Ps.79",
+      "refDisplay": "Psal. LXXIX",
       "column": "1018a",
       "chunk": 1
     },
     {
-      "raw": "Psal. LXXVI",
+      "refKey": "Ps.76",
+      "refDisplay": "Psal. LXXVI",
       "column": "1018b",
       "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ibid.",
+      "column": "1014c",
+      "chunk": 0
     }
   ],
   "heads": [
@@ -163,11 +194,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(II Tim. II)",
-      "column": "1015b",
-      "chunk": 1
-    }
-  ]
+  "unparsed": []
 }

@@ -14,13 +14,19 @@
   "colFirst": "1137",
   "colLast": "1142",
   "counts": {
-    "scripture": 8,
+    "scripture": 9,
     "fontes": 7,
     "heads": 2,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
+    {
+      "refKey": "Luke.1.28-Luke.1.38",
+      "refDisplay": "Luc. I, 28 et 38",
+      "column": "1137",
+      "chunk": 0
+    },
     {
       "refKey": "Luke.1.48",
       "refDisplay": "Luc. I, 48",
@@ -122,11 +128,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(Luc. I, 28 et 38)",
-      "column": "1137",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }

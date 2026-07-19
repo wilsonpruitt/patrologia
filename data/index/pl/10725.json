@@ -14,11 +14,11 @@
   "colFirst": "1187a",
   "colLast": "1228b",
   "counts": {
-    "scripture": 1,
-    "fontes": 5,
+    "scripture": 12,
+    "fontes": 0,
     "heads": 22,
     "headnotes": 49,
-    "unparsed": 5
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -26,35 +26,75 @@
       "refDisplay": "Eccle. I, 2",
       "column": "1187c",
       "chunk": 0
-    }
-  ],
-  "fontes": [
+    },
     {
-      "raw": "Matth. XVII",
+      "refKey": "Matt.17",
+      "refDisplay": "Matth. XVII",
       "column": "1188b",
       "chunk": 0
     },
     {
-      "raw": "Rom. VIII; Gal. IV.",
+      "refKey": "1John.4",
+      "refDisplay": "I Joan. IV.",
+      "column": "1197d",
+      "chunk": 4
+    },
+    {
+      "refKey": "1Kgs.10",
+      "refDisplay": "III Reg. X",
+      "column": "1203d",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1204d",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.3",
+      "refDisplay": "I Cor. III",
+      "column": "1205a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII; Gal. IV.",
       "column": "1208b",
       "chunk": 9
     },
     {
-      "raw": "Psal. LXXX",
+      "refKey": "Gal.4",
+      "refDisplay": "Rom. VIII; Gal. IV.",
+      "column": "1208b",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Cor.7",
+      "refDisplay": "I Cor. VII",
+      "column": "1215c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.80",
+      "refDisplay": "Psal. LXXX",
       "column": "1223c",
       "chunk": 15
     },
     {
-      "raw": "Joan. XIX",
+      "refKey": "John.19",
+      "refDisplay": "Joan. XIX",
       "column": "1223c",
       "chunk": 15
     },
     {
-      "raw": "Rom. VIII",
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
       "column": "1225a",
       "chunk": 15
     }
   ],
+  "fontes": [],
   "heads": [
     {
       "la": "Enarrationes in Cantica canticorum",
@@ -485,31 +525,5 @@
       "chunk": 16
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(I Joan. IV.)",
-      "column": "1197d",
-      "chunk": 4
-    },
-    {
-      "raw": "(III Reg. X)",
-      "column": "1203d",
-      "chunk": 7
-    },
-    {
-      "raw": "(I Cor. XIII)",
-      "column": "1204d",
-      "chunk": 7
-    },
-    {
-      "raw": "(I Cor. III)",
-      "column": "1205a",
-      "chunk": 7
-    },
-    {
-      "raw": "(I Cor. VII)",
-      "column": "1215c",
-      "chunk": 11
-    }
-  ]
+  "unparsed": []
 }

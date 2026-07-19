@@ -14,137 +14,162 @@
   "colFirst": "523b",
   "colLast": "528a",
   "counts": {
-    "scripture": 0,
-    "fontes": 25,
+    "scripture": 24,
+    "fontes": 1,
     "heads": 1,
     "headnotes": 0,
     "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Isa. XI",
+      "refKey": "Isa.11",
+      "refDisplay": "Isa. XI",
       "column": "523b",
       "chunk": 0
     },
     {
-      "raw": "Luc. XXIV",
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
       "column": "523b",
       "chunk": 0
     },
     {
-      "raw": "Rom. VI",
+      "refKey": "Rom.6",
+      "refDisplay": "Rom. VI",
       "column": "523b",
       "chunk": 0
     },
     {
-      "raw": "Psal. LXXI",
+      "refKey": "Ps.71",
+      "refDisplay": "Psal. LXXI",
       "column": "523c",
       "chunk": 0
     },
     {
-      "raw": "Apoc. XVI.",
+      "refKey": "Rev.16",
+      "refDisplay": "Apoc. XVI.",
       "column": "523c",
       "chunk": 0
     },
     {
-      "raw": "Matth. XXVIII",
+      "refKey": "Matt.28",
+      "refDisplay": "Matth. XXVIII",
       "column": "523c",
       "chunk": 0
     },
     {
-      "raw": "Philip. II",
+      "refKey": "Phil.2",
+      "refDisplay": "Philip. II",
       "column": "523c",
       "chunk": 0
     },
     {
-      "raw": "Luc. II.",
+      "refKey": "Luke.2",
+      "refDisplay": "Luc. II.",
       "column": "523c",
       "chunk": 0
     },
     {
-      "raw": "Isa. XI",
+      "refKey": "Isa.11",
+      "refDisplay": "Isa. XI",
       "column": "523c",
       "chunk": 0
     },
     {
-      "raw": "Joan. III",
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
       "column": "523d",
       "chunk": 0
     },
     {
-      "raw": "Psal. XXIII.",
+      "refKey": "Ps.23",
+      "refDisplay": "Psal. XXIII.",
       "column": "524c",
       "chunk": 0
     },
     {
-      "raw": "Joan VIII.",
+      "refKey": "John.8",
+      "refDisplay": "Joan VIII.",
       "column": "524d",
       "chunk": 0
     },
     {
-      "raw": "Isa. IX",
+      "refKey": "Isa.9",
+      "refDisplay": "Isa. IX",
       "column": "524d",
       "chunk": 0
     },
     {
-      "raw": "Ose. XIII.",
+      "refKey": "Hos.13",
+      "refDisplay": "Ose. XIII.",
       "column": "525a",
       "chunk": 0
     },
     {
-      "raw": "Psal. CXI",
+      "refKey": "Ps.111",
+      "refDisplay": "Psal. CXI",
       "column": "525a",
       "chunk": 0
     },
     {
-      "raw": "Psal. LXXXIV",
+      "refKey": "Ps.84",
+      "refDisplay": "Psal. LXXXIV",
       "column": "525a",
       "chunk": 0
     },
     {
-      "raw": "Gen. III",
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
       "column": "525a",
       "chunk": 0
     },
     {
-      "raw": "Isa. VII",
+      "refKey": "Isa.7",
+      "refDisplay": "Isa. VII",
       "column": "525a",
       "chunk": 0
     },
     {
-      "raw": "ibid.",
-      "column": "525b",
-      "chunk": 0
-    },
-    {
-      "raw": "Act. VII",
+      "refKey": "Acts.7",
+      "refDisplay": "Act. VII",
       "column": "525c",
       "chunk": 0
     },
     {
-      "raw": "Isa VI",
+      "refKey": "Isa.6",
+      "refDisplay": "Isa VI",
       "column": "525c",
       "chunk": 0
     },
     {
-      "raw": "Matth. XXII",
+      "refKey": "Matt.22",
+      "refDisplay": "Matth. XXII",
       "column": "525d",
       "chunk": 0
     },
     {
-      "raw": "Gen. III",
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
       "column": "526a",
       "chunk": 0
     },
     {
-      "raw": "Isa. VI",
+      "refKey": "Isa.6",
+      "refDisplay": "Isa. VI",
       "column": "526a",
       "chunk": 0
     },
     {
-      "raw": "Matth. X",
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X",
       "column": "526b",
+      "chunk": 0
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ibid.",
+      "column": "525b",
       "chunk": 0
     }
   ],

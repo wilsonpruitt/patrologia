@@ -14,11 +14,11 @@
   "colFirst": "407",
   "colLast": "436a",
   "counts": {
-    "scripture": 89,
+    "scripture": 94,
     "fontes": 2,
     "heads": 35,
     "headnotes": 4,
-    "unparsed": 3
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -250,6 +250,18 @@
       "chunk": 3
     },
     {
+      "refKey": "Luke.7.37-Luke.7.38",
+      "refDisplay": "Luc. VII, 37, 38; Joan. XII, 3",
+      "column": "415b",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.12.3",
+      "refDisplay": "Luc. VII, 37, 38; Joan. XII, 3",
+      "column": "415b",
+      "chunk": 3
+    },
+    {
       "refKey": "Mark.14.3",
       "refDisplay": "Marc. XIV, 3",
       "column": "415b",
@@ -478,6 +490,12 @@
       "chunk": 8
     },
     {
+      "refKey": "Song.1.12",
+      "refDisplay": "Cant. I, 12; II, 2",
+      "column": "431a",
+      "chunk": 9
+    },
+    {
       "refKey": "Sir.7.26",
       "refDisplay": "Eccli. VII, 26",
       "column": "431a",
@@ -504,6 +522,18 @@
     {
       "refKey": "Matt.5.38-Matt.5.39",
       "refDisplay": "Matth. V, 38, 39",
+      "column": "432a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.25.46",
+      "refDisplay": "Matth. XXV, 46; Joan. V, 29",
+      "column": "432a",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.5.29",
+      "refDisplay": "Matth. XXV, 46; Joan. V, 29",
       "column": "432a",
       "chunk": 10
     },
@@ -806,21 +836,5 @@
       "chunk": 7
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Luc. VII, 37, 38; Joan. XII, 3)",
-      "column": "415b",
-      "chunk": 3
-    },
-    {
-      "raw": "(Cant. I, 12; II, 2)",
-      "column": "431a",
-      "chunk": 9
-    },
-    {
-      "raw": "(Matth. XXV, 46; Joan. V, 29)",
-      "column": "432a",
-      "chunk": 10
-    }
-  ]
+  "unparsed": []
 }

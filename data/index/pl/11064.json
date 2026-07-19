@@ -14,313 +14,1150 @@
   "colFirst": "923b",
   "colLast": "1154c",
   "counts": {
-    "scripture": 0,
-    "fontes": 121,
+    "scripture": 186,
+    "fontes": 8,
     "heads": 112,
     "headnotes": 1462,
-    "unparsed": 19
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Joan. IX",
+      "refKey": "1Cor.1",
+      "refDisplay": "I Cor. I",
+      "column": "923b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.9",
+      "refDisplay": "Joan. IX",
       "column": "926c",
       "chunk": 1
     },
     {
-      "raw": "ibid.",
-      "column": "926c",
+      "refKey": "1Cor.1",
+      "refDisplay": "I Cor. I",
+      "column": "928b",
       "chunk": 1
     },
     {
-      "raw": "Ephes. III",
+      "refKey": "Eph.3",
+      "refDisplay": "Ephes. III",
       "column": "928c",
       "chunk": 2
     },
     {
-      "raw": "Jac. I",
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I",
       "column": "933b",
       "chunk": 4
     },
     {
-      "raw": "Rom. XI",
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI",
       "column": "933b",
       "chunk": 4
     },
     {
-      "raw": "Joan. I",
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
       "column": "933b",
       "chunk": 4
     },
     {
-      "raw": "Ephes. II",
+      "refKey": "Eph.2",
+      "refDisplay": "Ephes. II",
       "column": "933b",
       "chunk": 4
     },
     {
-      "raw": "Rom. XI",
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI",
       "column": "938d",
       "chunk": 5
     },
     {
-      "raw": "Joan. I",
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
       "column": "938d",
       "chunk": 6
     },
     {
-      "raw": "Isa. LIII",
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "950d",
+      "chunk": 10
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
       "column": "952a",
       "chunk": 11
     },
     {
-      "raw": "Joan. VI",
+      "refKey": "1Pet.2",
+      "refDisplay": "I Petr. II",
+      "column": "952a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Isa.53",
+      "refDisplay": "Isa. LIII",
+      "column": "952a",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "Joan. VI",
       "column": "953b",
       "chunk": 11
     },
     {
-      "raw": "ibid.",
-      "column": "953b",
-      "chunk": 11
-    },
-    {
-      "raw": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
       "column": "957a",
       "chunk": 13
     },
     {
-      "raw": "Ezech. XXVIII; Job. XXXVIII",
+      "refKey": "Rev.4",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Zech.1",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Rev.6",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ezek.23",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Job.16",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Wis.5",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "2Macc.3",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ezek.28",
+      "refDisplay": "Ezech. XXVIII; Job. XXXVIII",
       "column": "957c",
       "chunk": 13
     },
     {
-      "raw": "Matth. VII; I Cor. II",
+      "refKey": "Job.38",
+      "refDisplay": "Ezech. XXVIII; Job. XXXVIII",
+      "column": "957c",
+      "chunk": 13
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII; I Cor. II",
       "column": "957d",
       "chunk": 13
     },
     {
-      "raw": "Rom. XI; I Tim. VI; Psalm. CXL",
+      "refKey": "1Cor.2",
+      "refDisplay": "Matth. VII; I Cor. II",
+      "column": "957d",
+      "chunk": 13
+    },
+    {
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI; I Tim. VI; Psalm. CXL",
       "column": "958b",
       "chunk": 13
     },
     {
-      "raw": "Gen. I",
+      "refKey": "1Tim.6",
+      "refDisplay": "Rom. XI; I Tim. VI; Psalm. CXL",
+      "column": "958b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.140",
+      "refDisplay": "Rom. XI; I Tim. VI; Psalm. CXL",
+      "column": "958b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Gen.1",
+      "refDisplay": "Gen. I",
       "column": "958d",
       "chunk": 13
     },
     {
-      "raw": "Malach. I; Apoc. II",
+      "refKey": "Mal.1",
+      "refDisplay": "Malach. I; Apoc. II",
       "column": "959d",
       "chunk": 13
     },
     {
-      "raw": "Exod. III; Joan. I",
+      "refKey": "Rev.2",
+      "refDisplay": "Malach. I; Apoc. II",
       "column": "959d",
       "chunk": 13
     },
     {
-      "raw": "Cant. II; Isa, XXVIII; Osee V",
+      "refKey": "Exod.3",
+      "refDisplay": "Exod. III; Joan. I",
+      "column": "959d",
+      "chunk": 13
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Exod. III; Joan. I",
+      "column": "959d",
+      "chunk": 13
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Cant. II; Isa, XXVIII; Osee V",
       "column": "960a",
       "chunk": 13
     },
     {
-      "raw": "Psal. XXI",
+      "refKey": "Ps.21",
+      "refDisplay": "Psal. XXI",
       "column": "960a",
       "chunk": 13
     },
     {
-      "raw": "Matth. VII",
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
       "column": "960c",
       "chunk": 13
     },
     {
-      "raw": "Ezech. I",
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "963b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I",
       "column": "964d",
       "chunk": 15
     },
     {
-      "raw": "Isa. VI",
+      "refKey": "Isa.6",
+      "refDisplay": "Isa. VI",
       "column": "965b",
       "chunk": 15
     },
     {
-      "raw": "Ezech. I",
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I",
       "column": "965b",
       "chunk": 15
     },
     {
-      "raw": "Dan. VII",
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
       "column": "965c",
       "chunk": 15
     },
     {
-      "raw": "Isa. VI",
+      "refKey": "Isa.6",
+      "refDisplay": "Isa. VI",
       "column": "965c",
       "chunk": 15
     },
     {
-      "raw": "Zach. VI",
+      "refKey": "Zech.6",
+      "refDisplay": "Zach. VI",
       "column": "965c",
       "chunk": 15
     },
     {
-      "raw": "Apoc. VI",
+      "refKey": "Rev.6",
+      "refDisplay": "Apoc. VI",
       "column": "965c",
       "chunk": 15
     },
     {
-      "raw": "Matth. VII",
+      "refKey": "2Kgs.6",
+      "refDisplay": "IV Reg. VI",
+      "column": "965c",
+      "chunk": 15
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
       "column": "970d",
       "chunk": 17
     },
     {
-      "raw": "ibid.",
+      "refKey": "2Thess.3",
+      "refDisplay": "II Thess. III",
       "column": "970d",
       "chunk": 17
     },
     {
-      "raw": "Gen. I",
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "976a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Gen.1",
+      "refDisplay": "Gen. I",
       "column": "980b",
       "chunk": 20
     },
     {
-      "raw": "Psal. XXI",
+      "refKey": "Ps.21",
+      "refDisplay": "Psal. XXI",
       "column": "986d",
       "chunk": 22
     },
     {
-      "raw": "Rom. XIII",
+      "refKey": "1Cor.3",
+      "refDisplay": "I Cor. III; III Joan. I; Matth. V",
+      "column": "991b",
+      "chunk": 24
+    },
+    {
+      "refKey": "3John.1",
+      "refDisplay": "I Cor. III; III Joan. I; Matth. V",
+      "column": "991b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "I Cor. III; III Joan. I; Matth. V",
+      "column": "991b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Rom.13",
+      "refDisplay": "Rom. XIII",
       "column": "992c",
       "chunk": 25
     },
     {
-      "raw": "Joan. XV",
+      "refKey": "1Pet.4",
+      "refDisplay": "I Petr. IV",
+      "column": "996a",
+      "chunk": 26
+    },
+    {
+      "refKey": "1Cor.12",
+      "refDisplay": "I Cor. XII.",
+      "column": "996b",
+      "chunk": 26
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
       "column": "1002a",
       "chunk": 28
     },
     {
-      "raw": "Luc. X",
+      "refKey": "Luke.10",
+      "refDisplay": "Luc. X",
       "column": "1002a",
       "chunk": 28
     },
     {
-      "raw": "Joan. XIV",
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
       "column": "1002b",
       "chunk": 28
     },
     {
-      "raw": "Num. XII; I Tim. VI",
+      "refKey": "Gen.19",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Gen.22",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Gen.31",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Jdt.6",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Matt.2",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Acts.10",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Rev.4",
+      "refDisplay": "Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV",
+      "column": "1004b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Num.12",
+      "refDisplay": "Num. XII; I Tim. VI",
       "column": "1004c",
       "chunk": 29
     },
     {
-      "raw": "Deut. IX.",
+      "refKey": "1Tim.6",
+      "refDisplay": "Num. XII; I Tim. VI",
+      "column": "1004c",
+      "chunk": 29
+    },
+    {
+      "refKey": "Deut.9",
+      "refDisplay": "Deut. IX.",
       "column": "1004d",
       "chunk": 29
     },
     {
-      "raw": "Matth. I; Luc. I, II",
+      "refKey": "Matt.1",
+      "refDisplay": "Matth. I; Luc. I, II",
       "column": "1005a",
       "chunk": 29
     },
     {
-      "raw": "Luc. I",
+      "refKey": "Luke.1",
+      "refDisplay": "Matth. I; Luc. I, II",
       "column": "1005a",
       "chunk": 29
+    },
+    {
+      "refKey": "Luke.2",
+      "refDisplay": "Matth. I; Luc. I, II",
+      "column": "1005a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Luke.1",
+      "refDisplay": "Luc. I",
+      "column": "1005a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Matt.1",
+      "refDisplay": "Matth. I; Luc. II",
+      "column": "1005a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Luke.2",
+      "refDisplay": "Matth. I; Luc. II",
+      "column": "1005a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Matt.2",
+      "refDisplay": "Matth. II",
+      "column": "1005b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Luke.22",
+      "refDisplay": "Luc. XXII",
+      "column": "1005b",
+      "chunk": 29
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV; Isai. IX",
+      "column": "1005c",
+      "chunk": 29
+    },
+    {
+      "refKey": "Isa.9",
+      "refDisplay": "Joan. XV; Isai. IX",
+      "column": "1005c",
+      "chunk": 29
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Isai. VI",
+      "column": "1012d",
+      "chunk": 32
+    },
+    {
+      "refKey": "Exod.26",
+      "refDisplay": "Exod. XXVI",
+      "column": "1013d",
+      "chunk": 32
+    },
+    {
+      "refKey": "Heb.1",
+      "refDisplay": "Hebr. I",
+      "column": "1018d",
+      "chunk": 33
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1019b",
+      "chunk": 34
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Isa. VI",
+      "column": "1019c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Heb.1",
+      "refDisplay": "Hebr. I",
+      "column": "1019c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.103",
+      "refDisplay": "Psal. CIII",
+      "column": "1020c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Col.1",
+      "refDisplay": "Colos. I",
+      "column": "1027c",
+      "chunk": 36
+    },
+    {
+      "refKey": "Eph.3",
+      "refDisplay": "Ephes. III; Coloss. I",
+      "column": "1027c",
+      "chunk": 36
+    },
+    {
+      "refKey": "Col.1",
+      "refDisplay": "Ephes. III; Coloss. I",
+      "column": "1027c",
+      "chunk": 36
+    },
+    {
+      "refKey": "1Thess.4",
+      "refDisplay": "I Thess. IV",
+      "column": "1027d",
+      "chunk": 36
+    },
+    {
+      "refKey": "Ps.23",
+      "refDisplay": "Psal. XXIII",
+      "column": "1033a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Isa.63",
+      "refDisplay": "Isa. LXIII",
+      "column": "1033a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I; Ezech. III; Isa. VI; Apoc. IV",
+      "column": "1034a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ezek.3",
+      "refDisplay": "Ezech. I; Ezech. III; Isa. VI; Apoc. IV",
+      "column": "1034a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Ezech. I; Ezech. III; Isa. VI; Apoc. IV",
+      "column": "1034a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Rev.4",
+      "refDisplay": "Ezech. I; Ezech. III; Isa. VI; Apoc. IV",
+      "column": "1034a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.9",
+      "refDisplay": "Psal. IX, XLVI, LXXIX; Isa. LXVI",
+      "column": "1034b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.46",
+      "refDisplay": "Psal. IX, XLVI, LXXIX; Isa. LXVI",
+      "column": "1034b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.79",
+      "refDisplay": "Psal. IX, XLVI, LXXIX; Isa. LXVI",
+      "column": "1034b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Isa.66",
+      "refDisplay": "Psal. IX, XLVI, LXXIX; Isa. LXVI",
+      "column": "1034b",
+      "chunk": 38
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "1037a",
+      "chunk": 39
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1037a",
+      "chunk": 39
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV.",
+      "column": "1037b",
+      "chunk": 39
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I",
+      "column": "1038a",
+      "chunk": 40
+    },
+    {
+      "refKey": "Song.3",
+      "refDisplay": "Cant. III",
+      "column": "1038a",
+      "chunk": 40
+    },
+    {
+      "refKey": "Song.5",
+      "refDisplay": "Cant. V",
+      "column": "1038b",
+      "chunk": 40
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1039a",
+      "chunk": 40
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "1040b",
+      "chunk": 40
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "1045c",
+      "chunk": 43
+    },
+    {
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I",
+      "column": "1052d",
+      "chunk": 45
+    },
+    {
+      "refKey": "Ps.23",
+      "refDisplay": "Psal. XXIII.",
+      "column": "1058a",
+      "chunk": 46
+    },
+    {
+      "refKey": "Isa.63",
+      "refDisplay": "Isai. LXIII.",
+      "column": "1058b",
+      "chunk": 46
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "1061a",
+      "chunk": 47
+    },
+    {
+      "refKey": "Ps.33",
+      "refDisplay": "Psal. XXXIII",
+      "column": "1065b",
+      "chunk": 49
+    },
+    {
+      "refKey": "Ps.16",
+      "refDisplay": "Psal. XVI",
+      "column": "1066a",
+      "chunk": 50
+    },
+    {
+      "refKey": "Wis.15",
+      "refDisplay": "Sap. XV",
+      "column": "1066c",
+      "chunk": 50
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "1066d",
+      "chunk": 50
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Isa. VI",
+      "column": "1067c",
+      "chunk": 50
+    },
+    {
+      "refKey": "Ps.75",
+      "refDisplay": "Psal. LXXV",
+      "column": "1070a",
+      "chunk": 51
+    },
+    {
+      "refKey": "Zech.1",
+      "refDisplay": "Zach. I",
+      "column": "1073a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ezek.8",
+      "refDisplay": "Ezech. VIII",
+      "column": "1073a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ezek.10",
+      "refDisplay": "Ezech. X",
+      "column": "1073b",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ezek.9",
+      "refDisplay": "Ezech. IX",
+      "column": "1073b",
+      "chunk": 52
+    },
+    {
+      "refKey": "Dan.9",
+      "refDisplay": "Dan. IX",
+      "column": "1073b",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ezek.10",
+      "refDisplay": "Ezech. X",
+      "column": "1073c",
+      "chunk": 52
+    },
+    {
+      "refKey": "Zech.1",
+      "refDisplay": "Zach. I",
+      "column": "1073c",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ps.51",
+      "refDisplay": "Psal. LI",
+      "column": "1074c",
+      "chunk": 53
+    },
+    {
+      "refKey": "Dan.10",
+      "refDisplay": "Dan. X",
+      "column": "1085d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "1085d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Hos.4",
+      "refDisplay": "Ose. IV; Jer. II",
+      "column": "1086a",
+      "chunk": 57
+    },
+    {
+      "refKey": "Jer.2",
+      "refDisplay": "Ose. IV; Jer. II",
+      "column": "1086a",
+      "chunk": 57
+    },
+    {
+      "refKey": "Gen.14",
+      "refDisplay": "Gen. XIV",
+      "column": "1086b",
+      "chunk": 57
+    },
+    {
+      "refKey": "Gen.41",
+      "refDisplay": "Gen. XLI",
+      "column": "1086c",
+      "chunk": 57
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1086c",
+      "chunk": 57
+    },
+    {
+      "refKey": "Ps.134",
+      "refDisplay": "Psal. CXXXIV; Deut. XXXII; Isa. XIX",
+      "column": "1086d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Psal. CXXXIV; Deut. XXXII; Isa. XIX",
+      "column": "1086d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Isa.19",
+      "refDisplay": "Psal. CXXXIV; Deut. XXXII; Isa. XIX",
+      "column": "1086d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Dan.10",
+      "refDisplay": "Dan. X",
+      "column": "1086d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Dan.10",
+      "refDisplay": "Dan. X",
+      "column": "1091c",
+      "chunk": 59
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "1092b",
+      "chunk": 59
+    },
+    {
+      "refKey": "Isa.40",
+      "refDisplay": "Isa. XL",
+      "column": "1094d",
+      "chunk": 60
+    },
+    {
+      "refKey": "Gen.14",
+      "refDisplay": "Gen. XIV",
+      "column": "1095a",
+      "chunk": 60
+    },
+    {
+      "refKey": "Gen.41",
+      "refDisplay": "Gen. XLI",
+      "column": "1096c",
+      "chunk": 60
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1096c",
+      "chunk": 60
+    },
+    {
+      "refKey": "Isa.14",
+      "refDisplay": "Isa. XIV",
+      "column": "1097a",
+      "chunk": 61
+    },
+    {
+      "refKey": "Isa.4",
+      "refDisplay": "Isai. IV",
+      "column": "1099c",
+      "chunk": 61
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Isai. VI",
+      "column": "1102d",
+      "chunk": 62
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "Psal. LXXXIII",
+      "column": "1104a",
+      "chunk": 63
+    },
+    {
+      "refKey": "Mal.2",
+      "refDisplay": "Malach. II; Apoc. II.",
+      "column": "1107b",
+      "chunk": 64
+    },
+    {
+      "refKey": "Rev.2",
+      "refDisplay": "Malach. II; Apoc. II.",
+      "column": "1107b",
+      "chunk": 64
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Isai. VI",
+      "column": "1111b",
+      "chunk": 66
+    },
+    {
+      "refKey": "Isa.7",
+      "refDisplay": "Isa. VII",
+      "column": "1114d",
+      "chunk": 67
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1129c",
+      "chunk": 72
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I; Dan. VII; IV Reg. II",
+      "column": "1132c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Ezech. I; Dan. VII; IV Reg. II",
+      "column": "1132c",
+      "chunk": 73
+    },
+    {
+      "refKey": "2Kgs.2",
+      "refDisplay": "Ezech. I; Dan. VII; IV Reg. II",
+      "column": "1132c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Heb.10",
+      "refDisplay": "Hebr. X",
+      "column": "1132d",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "Ezech. I",
+      "column": "1134a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Gen.18",
+      "refDisplay": "Gen. XVIII, XIX",
+      "column": "1134a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Gen.19",
+      "refDisplay": "Gen. XVIII, XIX",
+      "column": "1134a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Rev.1",
+      "refDisplay": "Apoc. I",
+      "column": "1134b",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.10",
+      "refDisplay": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
+      "column": "1134c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Judg.6",
+      "refDisplay": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
+      "column": "1134c",
+      "chunk": 73
+    },
+    {
+      "refKey": "2Macc.5",
+      "refDisplay": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
+      "column": "1134c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.31",
+      "refDisplay": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
+      "column": "1134c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Rev.3",
+      "refDisplay": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
+      "column": "1134c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Zech.8",
+      "refDisplay": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
+      "column": "1134c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Gen.28",
+      "refDisplay": "Gen. XXVIII; Joan. I",
+      "column": "1134d",
+      "chunk": 73
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Gen. XXVIII; Joan. I",
+      "column": "1134d",
+      "chunk": 73
+    },
+    {
+      "refKey": "Isa.35",
+      "refDisplay": "Isai. XXXV; Apoc. I; Dan. II",
+      "column": "1135a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Rev.1",
+      "refDisplay": "Isai. XXXV; Apoc. I; Dan. II",
+      "column": "1135a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Isai. XXXV; Apoc. I; Dan. II",
+      "column": "1135a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII; Ezech. I, X",
+      "column": "1136a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "Dan. VII; Ezech. I, X",
+      "column": "1136a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.10",
+      "refDisplay": "Dan. VII; Ezech. I, X",
+      "column": "1136a",
+      "chunk": 73
+    },
+    {
+      "refKey": "2Kgs.1",
+      "refDisplay": "IV Reg. I; Ezech. I",
+      "column": "1136a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.1",
+      "refDisplay": "IV Reg. I; Ezech. I",
+      "column": "1136a",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ezek.10",
+      "refDisplay": "Ezech. X",
+      "column": "1136b",
+      "chunk": 73
+    },
+    {
+      "refKey": "Luke.16",
+      "refDisplay": "Luc. XVI",
+      "column": "1136b",
+      "chunk": 73
+    },
+    {
+      "refKey": "Job.12",
+      "refDisplay": "Job XII",
+      "column": "1136c",
+      "chunk": 73
+    },
+    {
+      "refKey": "Ps.134",
+      "refDisplay": "Psal. CXXXIV",
+      "column": "1147d",
+      "chunk": 77
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ibid.",
+      "column": "926c",
+      "chunk": 1
+    },
+    {
+      "raw": "ibid.",
+      "column": "953b",
+      "chunk": 11
+    },
+    {
+      "raw": "ibid.",
+      "column": "970d",
+      "chunk": 17
     },
     {
       "raw": "ibid.",
       "column": "1005a",
       "chunk": 29
-    },
-    {
-      "raw": "Matth. I; Luc. II",
-      "column": "1005a",
-      "chunk": 29
-    },
-    {
-      "raw": "Matth. II",
-      "column": "1005b",
-      "chunk": 29
-    },
-    {
-      "raw": "Luc. XXII",
-      "column": "1005b",
-      "chunk": 29
-    },
-    {
-      "raw": "Joan. XV; Isai. IX",
-      "column": "1005c",
-      "chunk": 29
-    },
-    {
-      "raw": "Isai. VI",
-      "column": "1012d",
-      "chunk": 32
-    },
-    {
-      "raw": "Exod. XXVI",
-      "column": "1013d",
-      "chunk": 32
-    },
-    {
-      "raw": "Hebr. I",
-      "column": "1018d",
-      "chunk": 33
-    },
-    {
-      "raw": "Dan. VII",
-      "column": "1019b",
-      "chunk": 34
-    },
-    {
-      "raw": "Isa. VI",
-      "column": "1019c",
-      "chunk": 34
-    },
-    {
-      "raw": "Hebr. I",
-      "column": "1019c",
-      "chunk": 34
-    },
-    {
-      "raw": "Psal. CIII",
-      "column": "1020c",
-      "chunk": 34
-    },
-    {
-      "raw": "Colos. I",
-      "column": "1027c",
-      "chunk": 36
-    },
-    {
-      "raw": "Ephes. III; Coloss. I",
-      "column": "1027c",
-      "chunk": 36
-    },
-    {
-      "raw": "Psal. XXIII",
-      "column": "1033a",
-      "chunk": 38
-    },
-    {
-      "raw": "Isa. LXIII",
-      "column": "1033a",
-      "chunk": 38
-    },
-    {
-      "raw": "Ezech. I; Ezech. III; Isa. VI; Apoc. IV",
-      "column": "1034a",
-      "chunk": 38
-    },
-    {
-      "raw": "Joan. I",
-      "column": "1037a",
-      "chunk": 39
-    },
-    {
-      "raw": "Luc. XXIV.",
-      "column": "1037b",
-      "chunk": 39
     },
     {
       "raw": "ibid.",
@@ -328,46 +1165,6 @@
       "chunk": 39
     },
     {
-      "raw": "Ezech. I",
-      "column": "1038a",
-      "chunk": 40
-    },
-    {
-      "raw": "Cant. III",
-      "column": "1038a",
-      "chunk": 40
-    },
-    {
-      "raw": "Cant. V",
-      "column": "1038b",
-      "chunk": 40
-    },
-    {
-      "raw": "Rom. VIII",
-      "column": "1039a",
-      "chunk": 40
-    },
-    {
-      "raw": "Rom. I",
-      "column": "1040b",
-      "chunk": 40
-    },
-    {
-      "raw": "Jac. I",
-      "column": "1052d",
-      "chunk": 45
-    },
-    {
-      "raw": "Psal. XXIII.",
-      "column": "1058a",
-      "chunk": 46
-    },
-    {
-      "raw": "Isai. LXIII.",
-      "column": "1058b",
-      "chunk": 46
-    },
-    {
       "raw": "ibid.",
       "column": "1058c",
       "chunk": 46
@@ -376,256 +1173,11 @@
       "raw": "ibid.",
       "column": "1058c",
       "chunk": 46
-    },
-    {
-      "raw": "Matth. V",
-      "column": "1061a",
-      "chunk": 47
-    },
-    {
-      "raw": "Psal. XXXIII",
-      "column": "1065b",
-      "chunk": 49
-    },
-    {
-      "raw": "Psal. XVI",
-      "column": "1066a",
-      "chunk": 50
-    },
-    {
-      "raw": "Sap. XV",
-      "column": "1066c",
-      "chunk": 50
-    },
-    {
-      "raw": "Joan. XIV",
-      "column": "1066d",
-      "chunk": 50
-    },
-    {
-      "raw": "Isa. VI",
-      "column": "1067c",
-      "chunk": 50
-    },
-    {
-      "raw": "Psal. LXXV",
-      "column": "1070a",
-      "chunk": 51
-    },
-    {
-      "raw": "Zach. I",
-      "column": "1073a",
-      "chunk": 52
-    },
-    {
-      "raw": "Ezech. VIII",
-      "column": "1073a",
-      "chunk": 52
-    },
-    {
-      "raw": "Ezech. X",
-      "column": "1073b",
-      "chunk": 52
-    },
-    {
-      "raw": "Ezech. IX",
-      "column": "1073b",
-      "chunk": 52
-    },
-    {
-      "raw": "Dan. IX",
-      "column": "1073b",
-      "chunk": 52
-    },
-    {
-      "raw": "Ezech. X",
-      "column": "1073c",
-      "chunk": 52
-    },
-    {
-      "raw": "Zach. I",
-      "column": "1073c",
-      "chunk": 52
-    },
-    {
-      "raw": "Psal. LI",
-      "column": "1074c",
-      "chunk": 53
-    },
-    {
-      "raw": "Dan. X",
-      "column": "1085d",
-      "chunk": 57
-    },
-    {
-      "raw": "Deut. XXXII",
-      "column": "1085d",
-      "chunk": 57
-    },
-    {
-      "raw": "Ose. IV; Jer. II",
-      "column": "1086a",
-      "chunk": 57
-    },
-    {
-      "raw": "Gen. XIV",
-      "column": "1086b",
-      "chunk": 57
-    },
-    {
-      "raw": "Gen. XLI",
-      "column": "1086c",
-      "chunk": 57
-    },
-    {
-      "raw": "Dan. II",
-      "column": "1086c",
-      "chunk": 57
-    },
-    {
-      "raw": "Psal. CXXXIV; Deut. XXXII; Isa. XIX",
-      "column": "1086d",
-      "chunk": 57
-    },
-    {
-      "raw": "Dan. X",
-      "column": "1086d",
-      "chunk": 57
-    },
-    {
-      "raw": "Dan. X",
-      "column": "1091c",
-      "chunk": 59
-    },
-    {
-      "raw": "Rom. I",
-      "column": "1092b",
-      "chunk": 59
-    },
-    {
-      "raw": "Isa. XL",
-      "column": "1094d",
-      "chunk": 60
-    },
-    {
-      "raw": "Gen. XIV",
-      "column": "1095a",
-      "chunk": 60
-    },
-    {
-      "raw": "Gen. XLI",
-      "column": "1096c",
-      "chunk": 60
-    },
-    {
-      "raw": "Dan. II",
-      "column": "1096c",
-      "chunk": 60
-    },
-    {
-      "raw": "Isa. XIV",
-      "column": "1097a",
-      "chunk": 61
-    },
-    {
-      "raw": "Isai. IV",
-      "column": "1099c",
-      "chunk": 61
-    },
-    {
-      "raw": "Isai. VI",
-      "column": "1102d",
-      "chunk": 62
-    },
-    {
-      "raw": "Psal. LXXXIII",
-      "column": "1104a",
-      "chunk": 63
-    },
-    {
-      "raw": "Malach. II; Apoc. II.",
-      "column": "1107b",
-      "chunk": 64
-    },
-    {
-      "raw": "Isai. VI",
-      "column": "1111b",
-      "chunk": 66
     },
     {
       "raw": "ibid.",
       "column": "1113a",
       "chunk": 66
-    },
-    {
-      "raw": "Isa. VII",
-      "column": "1114d",
-      "chunk": 67
-    },
-    {
-      "raw": "Dan. VII",
-      "column": "1129c",
-      "chunk": 72
-    },
-    {
-      "raw": "Ezech. I; Dan. VII; IV Reg. II",
-      "column": "1132c",
-      "chunk": 73
-    },
-    {
-      "raw": "Hebr. X",
-      "column": "1132d",
-      "chunk": 73
-    },
-    {
-      "raw": "Ezech. I",
-      "column": "1134a",
-      "chunk": 73
-    },
-    {
-      "raw": "Apoc. I",
-      "column": "1134b",
-      "chunk": 73
-    },
-    {
-      "raw": "Ezech. X; Judic. VI; II Machab. V; Ezech. XXXI; Apoc. III; Zach. VIII",
-      "column": "1134c",
-      "chunk": 73
-    },
-    {
-      "raw": "Gen. XXVIII; Joan. I",
-      "column": "1134d",
-      "chunk": 73
-    },
-    {
-      "raw": "Isai. XXXV; Apoc. I; Dan. II",
-      "column": "1135a",
-      "chunk": 73
-    },
-    {
-      "raw": "Dan. VII; Ezech. I, X",
-      "column": "1136a",
-      "chunk": 73
-    },
-    {
-      "raw": "Ezech. X",
-      "column": "1136b",
-      "chunk": 73
-    },
-    {
-      "raw": "Luc. XVI",
-      "column": "1136b",
-      "chunk": 73
-    },
-    {
-      "raw": "Job XII",
-      "column": "1136c",
-      "chunk": 73
-    },
-    {
-      "raw": "Psal. CXXXIV",
-      "column": "1147d",
-      "chunk": 77
     }
   ],
   "heads": [
@@ -10076,101 +10628,5 @@
       "chunk": 79
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(I Cor. I)",
-      "column": "923b",
-      "chunk": 1
-    },
-    {
-      "raw": "(I Cor. I)",
-      "column": "928b",
-      "chunk": 1
-    },
-    {
-      "raw": "(I Cor. XIII)",
-      "column": "950d",
-      "chunk": 10
-    },
-    {
-      "raw": "(I Cor. XV)",
-      "column": "952a",
-      "chunk": 11
-    },
-    {
-      "raw": "(I Petr. II)",
-      "column": "952a",
-      "chunk": 11
-    },
-    {
-      "raw": "(I Cor. XV)",
-      "column": "963b",
-      "chunk": 14
-    },
-    {
-      "raw": "(IV Reg. VI)",
-      "column": "965c",
-      "chunk": 15
-    },
-    {
-      "raw": "(II Thess. III)",
-      "column": "970d",
-      "chunk": 17
-    },
-    {
-      "raw": "(I Cor. II)",
-      "column": "976a",
-      "chunk": 19
-    },
-    {
-      "raw": "(I Cor. III; III Joan. I; Matth. V)",
-      "column": "991b",
-      "chunk": 24
-    },
-    {
-      "raw": "(I Petr. IV)",
-      "column": "996a",
-      "chunk": 26
-    },
-    {
-      "raw": "(I Cor. XII.)",
-      "column": "996b",
-      "chunk": 26
-    },
-    {
-      "raw": "(Gen. XIX, XXII, XXXI; Judith. VI; Dan. VII; Matth. II; Act. X; Apoc. IV)",
-      "column": "1004b",
-      "chunk": 29
-    },
-    {
-      "raw": "(I Thess. IV)",
-      "column": "1027d",
-      "chunk": 36
-    },
-    {
-      "raw": "(Psal. IX, XLVI, LXXIX; Isa. LXVI)",
-      "column": "1034b",
-      "chunk": 38
-    },
-    {
-      "raw": "(I Cor. XIII)",
-      "column": "1037a",
-      "chunk": 39
-    },
-    {
-      "raw": "(I Cor. IV)",
-      "column": "1045c",
-      "chunk": 43
-    },
-    {
-      "raw": "(Gen. XVIII, XIX)",
-      "column": "1134a",
-      "chunk": 73
-    },
-    {
-      "raw": "(IV Reg. I; Ezech. I)",
-      "column": "1136a",
-      "chunk": 73
-    }
-  ]
+  "unparsed": []
 }

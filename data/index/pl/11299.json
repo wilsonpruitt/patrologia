@@ -14,11 +14,11 @@
   "colFirst": "1043b",
   "colLast": "1050a",
   "counts": {
-    "scripture": 24,
-    "fontes": 5,
+    "scripture": 31,
+    "fontes": 1,
     "heads": 10,
     "headnotes": 3,
-    "unparsed": 2
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -58,6 +58,12 @@
       "chunk": 0
     },
     {
+      "refKey": "Judg.7",
+      "refDisplay": "Judic. VII",
+      "column": "1045a",
+      "chunk": 0
+    },
+    {
       "refKey": "Matt.6.10",
       "refDisplay": "Matth. VI, 10",
       "column": "1045c",
@@ -66,6 +72,12 @@
     {
       "refKey": "Ps.5.5",
       "refDisplay": "Psal. V, 5",
+      "column": "1046a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Isa.51",
+      "refDisplay": "Isa. LI.",
       "column": "1046a",
       "chunk": 0
     },
@@ -106,6 +118,12 @@
       "chunk": 1
     },
     {
+      "refKey": "Ezek.37",
+      "refDisplay": "Ezech. XXXVII",
+      "column": "1047a",
+      "chunk": 1
+    },
+    {
       "refKey": "1Cor.15.44",
       "refDisplay": "I Cor. XV, 44",
       "column": "1047a",
@@ -115,6 +133,30 @@
       "refKey": "Luke.23.30",
       "refDisplay": "Luc. XXIII, 30",
       "column": "1047a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Zeph.1.15",
+      "refDisplay": "Sophon. I, 15",
+      "column": "1047b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.96.3",
+      "refDisplay": "Psal. XCVI, 3; Luc. XII, 49",
+      "column": "1047b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.12.49",
+      "refDisplay": "Psal. XCVI, 3; Luc. XII, 49",
+      "column": "1047b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Dan.3",
+      "refDisplay": "Dan. III",
+      "column": "1047c",
       "chunk": 1
     },
     {
@@ -171,26 +213,6 @@
       "raw": "In Officio S. Agnetis",
       "column": "1044b",
       "chunk": 0
-    },
-    {
-      "raw": "Judic. VII",
-      "column": "1045a",
-      "chunk": 0
-    },
-    {
-      "raw": "Isa. LI.",
-      "column": "1046a",
-      "chunk": 0
-    },
-    {
-      "raw": "Ezech. XXXVII",
-      "column": "1047a",
-      "chunk": 1
-    },
-    {
-      "raw": "Dan. III",
-      "column": "1047c",
-      "chunk": 1
     }
   ],
   "heads": [
@@ -275,16 +297,5 @@
       "chunk": 0
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Sophon. I, 15)",
-      "column": "1047b",
-      "chunk": 1
-    },
-    {
-      "raw": "(Psal. XCVI, 3; Luc. XII, 49)",
-      "column": "1047b",
-      "chunk": 1
-    }
-  ]
+  "unparsed": []
 }

@@ -14,8 +14,8 @@
   "colFirst": "1121d",
   "colLast": "1128b",
   "counts": {
-    "scripture": 20,
-    "fontes": 4,
+    "scripture": 21,
+    "fontes": 3,
     "heads": 2,
     "headnotes": 0,
     "unparsed": 0
@@ -54,6 +54,12 @@
     {
       "refKey": "John.1.5",
       "refDisplay": "Joan. I, 5",
+      "column": "1123a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.138",
+      "refDisplay": "Psal. CXXXVIII",
       "column": "1123a",
       "chunk": 0
     },
@@ -152,11 +158,6 @@
     }
   ],
   "fontes": [
-    {
-      "raw": "Psal. CXXXVIII",
-      "column": "1123a",
-      "chunk": 0
-    },
     {
       "raw": "HORATIUS in Arte poet. 359",
       "column": "1123a",

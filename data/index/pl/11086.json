@@ -14,137 +14,197 @@
   "colFirst": "1011a",
   "colLast": "1018a",
   "counts": {
-    "scripture": 0,
-    "fontes": 25,
+    "scripture": 29,
+    "fontes": 2,
     "heads": 3,
     "headnotes": 0,
-    "unparsed": 4
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Matth. XIX",
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1011a",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Kgs.15",
+      "refDisplay": "III Reg. XV",
+      "column": "1012b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.19",
+      "refDisplay": "Matth. XIX",
       "column": "1013a",
       "chunk": 0
     },
     {
-      "raw": "Matth. V",
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
       "column": "1013a",
       "chunk": 0
     },
     {
-      "raw": "Hebr. VI",
+      "refKey": "Heb.6",
+      "refDisplay": "Hebr. VI",
       "column": "1013b",
       "chunk": 0
     },
     {
-      "raw": "Psal. LXXVII.",
+      "refKey": "Ps.77",
+      "refDisplay": "Psal. LXXVII.",
       "column": "1013c",
       "chunk": 0
     },
     {
-      "raw": "Hebr. X",
+      "refKey": "Heb.10",
+      "refDisplay": "Hebr. X",
       "column": "1014a",
       "chunk": 0
     },
     {
-      "raw": "Rom. VIII",
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
       "column": "1014a",
       "chunk": 0
     },
     {
-      "raw": "Job II",
+      "refKey": "Job.2",
+      "refDisplay": "Job II",
       "column": "1014b",
       "chunk": 1
     },
     {
-      "raw": "Rom. XVI",
+      "refKey": "Rom.16",
+      "refDisplay": "Rom. XVI",
       "column": "1014d",
       "chunk": 1
     },
     {
-      "raw": "Rom. VIII",
+      "refKey": "1Cor.12",
+      "refDisplay": "I Cor. XII.",
+      "column": "1014d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
       "column": "1015a",
       "chunk": 1
     },
     {
-      "raw": "Luc. IX",
+      "refKey": "Luke.9",
+      "refDisplay": "Luc. IX",
       "column": "1015a",
       "chunk": 1
     },
     {
-      "raw": "Ephes. V",
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
       "column": "1015a",
       "chunk": 1
     },
     {
-      "raw": "Luc. XIV",
+      "refKey": "Luke.14",
+      "refDisplay": "Luc. XIV",
       "column": "1015b",
       "chunk": 1
     },
     {
-      "raw": "Matth. X",
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X",
       "column": "1015b",
       "chunk": 1
     },
     {
-      "raw": "Joan. X",
+      "refKey": "John.10",
+      "refDisplay": "Joan. X",
       "column": "1015b",
       "chunk": 1
     },
+    {
+      "refKey": "Mark.8",
+      "refDisplay": "Marc. VIII",
+      "column": "1016a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.21",
+      "refDisplay": "Luc. XXI",
+      "column": "1016a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.35",
+      "refDisplay": "Psal. XXXV",
+      "column": "1016b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX; Exod. XXXIII; Rom. IX",
+      "column": "1016b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Exod.33",
+      "refDisplay": "Rom. IX; Exod. XXXIII; Rom. IX",
+      "column": "1016b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX; Exod. XXXIII; Rom. IX",
+      "column": "1016b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Job.9",
+      "refDisplay": "Job IX",
+      "column": "1016b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.11",
+      "refDisplay": "Joan. XI",
+      "column": "1016c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.11",
+      "refDisplay": "I Cor. XI",
+      "column": "1016c",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.21",
+      "refDisplay": "Joan. XXI.",
+      "column": "1016c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1016d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Jer.2",
+      "refDisplay": "Jer. II",
+      "column": "1017a",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
     {
       "raw": "ibid.",
       "column": "1015c",
       "chunk": 1
     },
     {
-      "raw": "Marc. VIII",
-      "column": "1016a",
-      "chunk": 1
-    },
-    {
-      "raw": "Luc. XXI",
-      "column": "1016a",
-      "chunk": 1
-    },
-    {
-      "raw": "Psal. XXXV",
-      "column": "1016b",
-      "chunk": 1
-    },
-    {
-      "raw": "Rom. IX; Exod. XXXIII; Rom. IX",
-      "column": "1016b",
-      "chunk": 1
-    },
-    {
-      "raw": "Job IX",
-      "column": "1016b",
-      "chunk": 1
-    },
-    {
-      "raw": "Joan. XI",
-      "column": "1016c",
-      "chunk": 1
-    },
-    {
-      "raw": "Joan. XXI.",
-      "column": "1016c",
-      "chunk": 1
-    },
-    {
       "raw": "ibid.",
       "column": "1016d",
-      "chunk": 1
-    },
-    {
-      "raw": "Rom. VIII",
-      "column": "1016d",
-      "chunk": 1
-    },
-    {
-      "raw": "Jer. II",
-      "column": "1017a",
       "chunk": 1
     }
   ],
@@ -169,26 +229,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. XIII)",
-      "column": "1011a",
-      "chunk": 0
-    },
-    {
-      "raw": "(III Reg. XV)",
-      "column": "1012b",
-      "chunk": 0
-    },
-    {
-      "raw": "(I Cor. XII.)",
-      "column": "1014d",
-      "chunk": 1
-    },
-    {
-      "raw": "(I Cor. XI)",
-      "column": "1016c",
-      "chunk": 1
-    }
-  ]
+  "unparsed": []
 }

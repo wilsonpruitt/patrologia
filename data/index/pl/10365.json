@@ -14,13 +14,19 @@
   "colFirst": "625c",
   "colLast": "632c",
   "counts": {
-    "scripture": 17,
+    "scripture": 20,
     "fontes": 11,
     "heads": 2,
     "headnotes": 15,
-    "unparsed": 3
+    "unparsed": 0
   },
   "scripture": [
+    {
+      "refKey": "Matt.17.6",
+      "refDisplay": "Math. XVII, 6",
+      "column": "627a",
+      "chunk": 0
+    },
     {
       "refKey": "John.1.33",
       "refDisplay": "Joan. I, 33",
@@ -42,6 +48,12 @@
     {
       "refKey": "Mark.14.44",
       "refDisplay": "Marc. XIV, 44",
+      "column": "627c",
+      "chunk": 0
+    },
+    {
+      "refKey": "1John.3.8",
+      "refDisplay": "I Joan. III, V. 8",
       "column": "627c",
       "chunk": 0
     },
@@ -103,6 +115,12 @@
       "refKey": "Matt.25.4",
       "refDisplay": "Matth. XXV, 4",
       "column": "629c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Num.19.14-Num.19.19",
+      "refDisplay": "Num. XIX, c. 14-19",
+      "column": "630a",
       "chunk": 1
     },
     {
@@ -287,21 +305,5 @@
       "chunk": 1
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Math. XVII, 6)",
-      "column": "627a",
-      "chunk": 0
-    },
-    {
-      "raw": "(I Joan. III, V. 8)",
-      "column": "627c",
-      "chunk": 0
-    },
-    {
-      "raw": "(Num. XIX, c. 14-19)",
-      "column": "630a",
-      "chunk": 1
-    }
-  ]
+  "unparsed": []
 }

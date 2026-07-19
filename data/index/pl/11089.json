@@ -14,54 +14,69 @@
   "colFirst": "9a",
   "colLast": "18b",
   "counts": {
-    "scripture": 0,
-    "fontes": 12,
+    "scripture": 9,
+    "fontes": 4,
     "heads": 6,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Deut. VI",
+      "refKey": "Deut.6",
+      "refDisplay": "Deut. VI",
       "column": "9a",
       "chunk": 0
     },
     {
-      "raw": "Isa. XLII",
+      "refKey": "Isa.42",
+      "refDisplay": "Isa. XLII",
       "column": "10b",
       "chunk": 0
     },
     {
-      "raw": "Matth. XV",
+      "refKey": "Matt.15",
+      "refDisplay": "Matth. XV",
       "column": "11a",
       "chunk": 0
     },
     {
-      "raw": "Exod. XX",
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "11a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Exod.20",
+      "refDisplay": "Exod. XX",
       "column": "11b",
       "chunk": 0
     },
     {
-      "raw": "Joan. XIV",
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
       "column": "11d",
       "chunk": 0
     },
     {
-      "raw": "Deut. V",
+      "refKey": "Deut.5",
+      "refDisplay": "Deut. V",
       "column": "11d",
       "chunk": 0
     },
     {
-      "raw": "Deut. V",
+      "refKey": "Deut.5",
+      "refDisplay": "Deut. V",
       "column": "12d",
       "chunk": 1
     },
     {
-      "raw": "Deut. V",
+      "refKey": "Deut.5",
+      "refDisplay": "Deut. V",
       "column": "13c",
       "chunk": 1
-    },
+    }
+  ],
+  "fontes": [
     {
       "raw": "ibid.",
       "column": "13d",
@@ -122,11 +137,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. II)",
-      "column": "11a",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }

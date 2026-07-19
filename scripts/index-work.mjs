@@ -44,22 +44,22 @@ const BOOKS = {
   'I Reg': '1Sam', 'II Reg': '2Sam', 'III Reg': '1Kgs', 'IV Reg': '2Kgs',
   'I Par': '1Chr', 'II Par': '2Chr', 'I Esdr': 'Ezra', 'II Esdr': 'Neh',
   'Tob': 'Tob', 'Judith': 'Jdt', 'Esth': 'Esth', 'Job': 'Job',
-  'Psal': 'Ps', 'Ps': 'Ps', 'Prov': 'Prov', 'Cant': 'Song', 'Cantic': 'Song',
+  'Psal': 'Ps', 'Ps': 'Ps', 'Psalm': 'Ps', 'Prov': 'Prov', 'Cant': 'Song', 'Cantic': 'Song',
   // Ecclesiastes: Migne writes Eccle/Eccles/Eccl. Ecclesiasticus (Sirach) is Eccli —
   // keep them distinct, the one-letter difference is the whole distinction.
   'Eccle': 'Eccl', 'Eccles': 'Eccl', 'Eccl': 'Eccl',
   'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Jer': 'Jer',
-  'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
-  'Os': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
-  'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Soph': 'Zeph', 'Agg': 'Hag',
+  'Jerem': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
+  'Os': 'Hos', 'Ose': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
+  'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Abac': 'Hab', 'Soph': 'Zeph', 'Sophon': 'Zeph', 'Agg': 'Hag',
   'Zach': 'Zech', 'Malach': 'Mal', 'Mal': 'Mal',
-  'I Mach': '1Macc', 'II Mach': '2Macc',
-  'Matth': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John', 'Act': 'Acts',
+  'I Mach': '1Macc', 'II Mach': '2Macc', 'I Machab': '1Macc', 'II Machab': '2Macc',
+  'Matth': 'Matt', 'Math': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John', 'Act': 'Acts',
   'Rom': 'Rom', 'I Cor': '1Cor', 'II Cor': '2Cor', 'Galat': 'Gal', 'Gal': 'Gal',
-  'Ephes': 'Eph', 'Philipp': 'Phil', 'Coloss': 'Col', 'Col': 'Col',
+  'Ephes': 'Eph', 'Philipp': 'Phil', 'Philip': 'Phil', 'Coloss': 'Col', 'Col': 'Col', 'Colos': 'Col',
   'I Thess': '1Thess', 'II Thess': '2Thess', 'I Tim': '1Tim', 'II Tim': '2Tim',
   'Tit': 'Titus', 'Philem': 'Phlm', 'Hebr': 'Heb', 'Jac': 'Jas', 'Jacob': 'Jas',
-  'I Petr': '1Pet', 'II Petr': '2Pet',
+  'I Petr': '1Pet', 'II Petr': '2Pet', 'I Pet': '1Pet', 'II Pet': '2Pet',
   'I Joan': '1John', 'II Joan': '2John', 'III Joan': '3John',
   'Jud': 'Jude', 'Apoc': 'Rev',
 };
@@ -75,22 +75,57 @@ function romanToInt(s) {
   return n;
 }
 
-// "(Matth. XVI, 18)" / "(Joel. I, 4)" / "(I Petr. V, 3)" / "(Rom. XIII, 1, 2)"
-// verses: "20" | "1, 2" | "37-39" (Migne uses both comma-lists and hyphen ranges)
-const scripRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+)\s*,\s*([0-9]+(?:\s*[,-]\s*[0-9]+)*)\s*\.?\)?$/;
+// One note can carry several references, semicolon-separated:
+//   "(Matth. XVI, 18)"                    → one, with verse
+//   "(I Cor. XV)"                         → CHAPTER-ONLY (very common; Migne cites a
+//                                            whole chapter). OSIS chapter key.
+//   "(Gen. XVIII, XIX)"                   → two chapters of one book
+//   "(I Cor. III; III Joan. I; Matth. V)" → three separate references
+//   "(Rom. XIII, 1, 2)" / "(Matth. XXII, 37-39)" → verse list / range
+// Chapter is EITHER a roman list (Gen. XVIII, XIX) OR a single arabic (II Cor. 12).
+// Roman is tried first, so "Rom. XIII, 1, 2" still reads 1,2 as verses, not chapters.
+const segRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+(?:\s*,\s*[IVXLCDM]+)*|[0-9]+)(?:\s*,\s*([0-9]+(?:\s*[,-]\s*[0-9]+)*))?\s*\.?\)?$/;
+
+// Migne's spelling variants, normalized before matching:
+//   " et " joins chapters or verses exactly like a comma (Act. XI et XXII)
+//   "c." / "v." prefix a numeral (Num. XIX, c. 14-19 ; I Joan. III, V. 8) — only
+//   stripped when a digit follows, so a roman chapter "III, V" is left alone
+//   "Book., XII" — stray comma after the abbreviation
+const normSeg = s => s
+  .replace(/\s+et\s+/gi, ', ')
+  .replace(/\b[vVcC]\.\s*(?=\d)/g, '')
+  .replace(/\.\s*,/g, '.');
+
+// Returns { refs: [{refKey}], reason } — reason names WHY nothing parsed, so the
+// decade blocker can separate a one-line alias fix from a parser-shape decision.
 function parseScripture(raw) {
-  const m = raw.trim().match(scripRe);
-  if (!m) return null;
-  const bookLat = (m[1] ? m[1].trim() + ' ' : '') + m[2];
-  const osis = BOOKS[bookLat];
-  if (!osis) return null;
-  const ch = romanToInt(m[3]);
-  if (!ch) return null;
-  const verses = m[4].split(/\s*[,-]\s*/).map(Number);
-  const refKey = verses.length > 1
-    ? `${osis}.${ch}.${verses[0]}-${osis}.${ch}.${verses.at(-1)}`
-    : `${osis}.${ch}.${verses[0]}`;
-  return { refKey };
+  const segs = raw.trim().replace(/^\(|\)$/g, '').split(/\s*;\s*/).filter(Boolean);
+  const refs = [];
+  let sawUnknownBook = false, sawBadShape = false;
+  for (const seg of segs) {
+    const m = normSeg(seg).trim().match(segRe);
+    if (!m) { sawBadShape = true; continue; }
+    const bookLat = (m[1] ? m[1].trim() + ' ' : '') + m[2];
+    const osis = BOOKS[bookLat];
+    if (!osis) { sawUnknownBook = true; continue; }
+    // chapter may be roman (XIII) or arabic (II Cor. 12) — romanToInt returns null on digits
+    const toInt = t => (/^\d+$/.test(t) ? Number(t) : romanToInt(t));
+    const chapters = m[3].split(/\s*,\s*/).map(toInt).filter(Boolean);
+    if (!chapters.length) { sawBadShape = true; continue; }
+    if (m[4]) {
+      // verses attach to the FIRST chapter only (Migne never lists verses across chapters)
+      const verses = m[4].split(/\s*[,-]\s*/).map(Number);
+      const ch = chapters[0];
+      refs.push({ refKey: verses.length > 1
+        ? `${osis}.${ch}.${verses[0]}-${osis}.${ch}.${verses.at(-1)}`
+        : `${osis}.${ch}.${verses[0]}` });
+      for (const ch2 of chapters.slice(1)) refs.push({ refKey: `${osis}.${ch2}` });
+    } else {
+      for (const ch of chapters) refs.push({ refKey: `${osis}.${ch}` }); // chapter-level
+    }
+  }
+  if (!refs.length) return { refs: [], reason: sawUnknownBook ? 'unknown-book' : 'unparsed-shape' };
+  return { refs };
 }
 
 // Printer's-error corrections: refDisplay stays verbatim, refKey resolves to the
@@ -122,15 +157,17 @@ for (const c of manifest.chunks) {
     const inner = raw.replace(/^\(|\)$/g, '').trim();
     const s = parseScripture(inner);
     const loc = { column: citeCol(col), chunk: c.chunk };
-    if (s) {
+    if (s.refs.length) {
       const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
-      scripture.push(fix
-        ? { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refKey, corrected: true, correctionNote: fix.note, ...loc }
-        : { refKey: s.refKey, refDisplay: inner, ...loc });
+      // a correction targets a single-reference note; compound notes pass through
+      if (fix && s.refs.length === 1)
+        scripture.push({ refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc });
+      else
+        for (const r of s.refs) scripture.push({ refKey: r.refKey, refDisplay: inner, ...loc });
     }
-    else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+,/.test(inner) &&
+    else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(inner) &&
              !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
-      unparsed.push({ raw, ...loc });
+      unparsed.push({ raw, reason: s.reason, ...loc });
     else fontes.push({ raw: inner, ...loc });
   }
 }

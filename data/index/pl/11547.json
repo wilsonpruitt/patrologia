@@ -14,65 +14,135 @@
   "colFirst": "255a",
   "colLast": "266c",
   "counts": {
-    "scripture": 0,
-    "fontes": 15,
+    "scripture": 19,
+    "fontes": 3,
     "heads": 5,
     "headnotes": 0,
-    "unparsed": 7
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Sap. I",
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V",
+      "column": "257a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Wis.1",
+      "refDisplay": "Sap. I",
       "column": "257b",
       "chunk": 0
     },
     {
-      "raw": "Eccli. XIX",
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V.",
+      "column": "258d",
+      "chunk": 1
+    },
+    {
+      "refKey": "1John.3",
+      "refDisplay": "I Joan. III",
+      "column": "259a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Sir.19",
+      "refDisplay": "Eccli. XIX",
       "column": "259b",
       "chunk": 1
     },
     {
-      "raw": "Psal. IV",
+      "refKey": "Ps.4",
+      "refDisplay": "Psal. IV",
       "column": "259d",
       "chunk": 1
     },
     {
-      "raw": "Jac. V",
+      "refKey": "Jas.5",
+      "refDisplay": "Jac. V",
       "column": "259d",
       "chunk": 1
     },
     {
-      "raw": "Luc. III",
+      "refKey": "Luke.3",
+      "refDisplay": "Luc. III",
       "column": "259d",
       "chunk": 1
     },
     {
-      "raw": "Rom. XIII",
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V.",
+      "column": "261c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.13",
+      "refDisplay": "Rom. XIII",
       "column": "262b",
       "chunk": 2
     },
     {
-      "raw": "Joan. VI",
+      "refKey": "John.6",
+      "refDisplay": "Joan. VI",
       "column": "262c",
       "chunk": 2
     },
+    {
+      "refKey": "2Cor.15",
+      "refDisplay": "II Cor. XV",
+      "column": "263a",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V",
+      "column": "263b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Prov.4",
+      "refDisplay": "Prov. IV",
+      "column": "263d",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V",
+      "column": "264b",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "Joan. VI",
+      "column": "264b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.7",
+      "refDisplay": "Isa. VII",
+      "column": "266b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Sir.7",
+      "refDisplay": "Eccli. VII",
+      "column": "266b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "266c",
+      "chunk": 3
+    }
+  ],
+  "fontes": [
     {
       "raw": "lib. VII Confessionum D. August., cap. 10",
       "column": "262c",
       "chunk": 2
     },
     {
-      "raw": "Prov. IV",
-      "column": "263d",
-      "chunk": 2
-    },
-    {
-      "raw": "Joan. VI",
-      "column": "264b",
-      "chunk": 2
-    },
-    {
       "raw": "ibid.",
       "column": "264b",
       "chunk": 2
@@ -81,21 +151,6 @@
       "raw": "ibid.",
       "column": "264b",
       "chunk": 2
-    },
-    {
-      "raw": "Isa. VII",
-      "column": "266b",
-      "chunk": 3
-    },
-    {
-      "raw": "Eccli. VII",
-      "column": "266b",
-      "chunk": 3
-    },
-    {
-      "raw": "Psal. CXVIII",
-      "column": "266c",
-      "chunk": 3
     }
   ],
   "heads": [
@@ -131,41 +186,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. V)",
-      "column": "257a",
-      "chunk": 0
-    },
-    {
-      "raw": "(I Cor. V.)",
-      "column": "258d",
-      "chunk": 1
-    },
-    {
-      "raw": "(I Joan. III)",
-      "column": "259a",
-      "chunk": 1
-    },
-    {
-      "raw": "(I Cor. V.)",
-      "column": "261c",
-      "chunk": 1
-    },
-    {
-      "raw": "(II Cor. XV)",
-      "column": "263a",
-      "chunk": 2
-    },
-    {
-      "raw": "(I Cor. V)",
-      "column": "263b",
-      "chunk": 2
-    },
-    {
-      "raw": "(I Cor. V)",
-      "column": "264b",
-      "chunk": 2
-    }
-  ]
+  "unparsed": []
 }

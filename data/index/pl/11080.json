@@ -14,26 +14,89 @@
   "colFirst": "841b",
   "colLast": "846c",
   "counts": {
-    "scripture": 0,
-    "fontes": 12,
+    "scripture": 12,
+    "fontes": 4,
     "heads": 2,
     "headnotes": 0,
-    "unparsed": 4
+    "unparsed": 0
   },
-  "scripture": [],
+  "scripture": [
+    {
+      "refKey": "Luke.5",
+      "refDisplay": "Luc. V",
+      "column": "841c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI",
+      "column": "841c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.19",
+      "refDisplay": "Luc. XIX",
+      "column": "842b",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "843a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.16",
+      "refDisplay": "Luc. XVI",
+      "column": "843c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.70",
+      "refDisplay": "Psal. LXX",
+      "column": "843d",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Sam.12",
+      "refDisplay": "II Reg. XII",
+      "column": "844c",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.11",
+      "refDisplay": "Joan. XI",
+      "column": "845b",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "846b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.101",
+      "refDisplay": "Psal. CI",
+      "column": "846b",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "846b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.6",
+      "refDisplay": "Rom. VI",
+      "column": "846c",
+      "chunk": 1
+    }
+  ],
   "fontes": [
     {
-      "raw": "Luc. V",
-      "column": "841c",
-      "chunk": 0
-    },
-    {
       "raw": "ibid.",
-      "column": "841c",
-      "chunk": 0
-    },
-    {
-      "raw": "Matth. XXVI",
       "column": "841c",
       "chunk": 0
     },
@@ -43,43 +106,13 @@
       "chunk": 0
     },
     {
-      "raw": "Luc. XIX",
-      "column": "842b",
-      "chunk": 0
-    },
-    {
-      "raw": "Luc. XVI",
-      "column": "843c",
-      "chunk": 0
-    },
-    {
       "raw": "ibid.",
       "column": "843d",
       "chunk": 0
     },
     {
-      "raw": "Psal. LXX",
-      "column": "843d",
-      "chunk": 0
-    },
-    {
-      "raw": "Joan. XI",
-      "column": "845b",
-      "chunk": 1
-    },
-    {
       "raw": "ibid.",
       "column": "845b",
-      "chunk": 1
-    },
-    {
-      "raw": "Psal. CI",
-      "column": "846b",
-      "chunk": 1
-    },
-    {
-      "raw": "Rom. VI",
-      "column": "846c",
       "chunk": 1
     }
   ],
@@ -98,26 +131,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. XV)",
-      "column": "843a",
-      "chunk": 0
-    },
-    {
-      "raw": "(II Reg. XII)",
-      "column": "844c",
-      "chunk": 1
-    },
-    {
-      "raw": "(II Cor. V)",
-      "column": "846b",
-      "chunk": 1
-    },
-    {
-      "raw": "(II Cor. V)",
-      "column": "846b",
-      "chunk": 1
-    }
-  ]
+  "unparsed": []
 }

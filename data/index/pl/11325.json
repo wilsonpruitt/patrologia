@@ -14,8 +14,8 @@
   "colFirst": "1049b",
   "colLast": "1056a",
   "counts": {
-    "scripture": 15,
-    "fontes": 4,
+    "scripture": 18,
+    "fontes": 1,
     "heads": 13,
     "headnotes": 2,
     "unparsed": 0
@@ -76,6 +76,12 @@
       "chunk": 1
     },
     {
+      "refKey": "Matt.27",
+      "refDisplay": "Matth. XXVII",
+      "column": "1053c",
+      "chunk": 1
+    },
+    {
       "refKey": "Gen.4.13",
       "refDisplay": "Gen. IV, 13",
       "column": "1053c",
@@ -88,6 +94,12 @@
       "chunk": 1
     },
     {
+      "refKey": "Heb.6",
+      "refDisplay": "Hebr. VI",
+      "column": "1054a",
+      "chunk": 1
+    },
+    {
       "refKey": "1Cor.2.14",
       "refDisplay": "I Cor. II, 14",
       "column": "1054a",
@@ -97,6 +109,12 @@
       "refKey": "Ps.9.5",
       "refDisplay": "Psal. IX, 5",
       "column": "1054b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Eccl.4",
+      "refDisplay": "Eccle. IV",
+      "column": "1054c",
       "chunk": 1
     },
     {
@@ -116,21 +134,6 @@
     {
       "raw": "SENEC. in Epist.",
       "column": "1052b",
-      "chunk": 1
-    },
-    {
-      "raw": "Matth. XXVII",
-      "column": "1053c",
-      "chunk": 1
-    },
-    {
-      "raw": "Hebr. VI",
-      "column": "1054a",
-      "chunk": 1
-    },
-    {
-      "raw": "Eccle. IV",
-      "column": "1054c",
       "chunk": 1
     }
   ],

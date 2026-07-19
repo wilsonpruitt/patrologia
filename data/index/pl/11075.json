@@ -14,35 +14,39 @@
   "colFirst": "997b",
   "colLast": "1009",
   "counts": {
-    "scripture": 0,
-    "fontes": 4,
+    "scripture": 4,
+    "fontes": 0,
     "heads": 21,
     "headnotes": 0,
     "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Luc. XIV",
+      "refKey": "Luke.14",
+      "refDisplay": "Luc. XIV",
       "column": "998b",
       "chunk": 0
     },
     {
-      "raw": "Matth. V",
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
       "column": "998b",
       "chunk": 0
     },
     {
-      "raw": "Hebr. XI",
+      "refKey": "Heb.11",
+      "refDisplay": "Hebr. XI",
       "column": "998b",
       "chunk": 0
     },
     {
-      "raw": "Rom. V",
+      "refKey": "Rom.5",
+      "refDisplay": "Rom. V",
       "column": "998b",
       "chunk": 0
     }
   ],
+  "fontes": [],
   "heads": [
     {
       "la": "CAP. I.",

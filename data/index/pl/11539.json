@@ -14,72 +14,96 @@
   "colFirst": "1177c",
   "colLast": "1186d",
   "counts": {
-    "scripture": 0,
-    "fontes": 12,
+    "scripture": 13,
+    "fontes": 1,
     "heads": 3,
     "headnotes": 1,
-    "unparsed": 2
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Matth. XIX",
+      "refKey": "Matt.19",
+      "refDisplay": "Matth. XIX",
       "column": "1177c",
       "chunk": 0
     },
     {
-      "raw": "Joan. III",
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
       "column": "1177c",
       "chunk": 0
     },
     {
-      "raw": "Apoc. XX",
+      "refKey": "Rev.20",
+      "refDisplay": "Apoc. XX",
       "column": "1179a",
       "chunk": 0
     },
     {
-      "raw": "Sap. V",
+      "refKey": "1Cor.6",
+      "refDisplay": "I Cor. VI.",
       "column": "1179a",
       "chunk": 0
     },
     {
-      "raw": "Rom. II.",
+      "refKey": "Wis.5",
+      "refDisplay": "Sap. V",
+      "column": "1179a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rom.2",
+      "refDisplay": "Rom. II.",
       "column": "1179c",
       "chunk": 0
     },
     {
-      "raw": "Sap. III",
+      "refKey": "Wis.3",
+      "refDisplay": "Sap. III",
       "column": "1181d",
       "chunk": 1
     },
     {
-      "raw": "Apoc. XX",
+      "refKey": "Rev.20",
+      "refDisplay": "Apoc. XX",
       "column": "1181d",
       "chunk": 1
     },
     {
-      "raw": "Matth. XII",
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
       "column": "1183d",
       "chunk": 1
     },
     {
-      "raw": "Soph. I",
+      "refKey": "Zeph.1",
+      "refDisplay": "Soph. I",
       "column": "1184b",
       "chunk": 2
     },
     {
-      "raw": "Psal. LXXV",
+      "refKey": "Ps.75",
+      "refDisplay": "Psal. LXXV",
       "column": "1185a",
       "chunk": 2
     },
     {
-      "raw": "lib. II Dialog., cap. 35",
-      "column": "1185b",
+      "refKey": "Matt.24",
+      "refDisplay": "Matth. XXIV.",
+      "column": "1186a",
       "chunk": 2
     },
     {
-      "raw": "Matth. XXIV.",
-      "column": "1186a",
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "1186b",
+      "chunk": 2
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "lib. II Dialog., cap. 35",
+      "column": "1185b",
       "chunk": 2
     }
   ],
@@ -111,16 +135,5 @@
       "chunk": 2
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(I Cor. VI.)",
-      "column": "1179a",
-      "chunk": 0
-    },
-    {
-      "raw": "(I Cor. XV)",
-      "column": "1186b",
-      "chunk": 2
-    }
-  ]
+  "unparsed": []
 }

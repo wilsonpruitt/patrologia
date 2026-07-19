@@ -14,11 +14,11 @@
   "colFirst": "983d",
   "colLast": "990b",
   "counts": {
-    "scripture": 7,
+    "scripture": 8,
     "fontes": 0,
     "heads": 11,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -26,6 +26,12 @@
       "refDisplay": "Rom. XV, 4",
       "column": "984d",
       "chunk": 0
+    },
+    {
+      "refKey": "Prov.1.5",
+      "refDisplay": "Prov. I, 5; XII, 2",
+      "column": "988b",
+      "chunk": 1
     },
     {
       "refKey": "Jas.1.5",
@@ -134,11 +140,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(Prov. I, 5; XII, 2)",
-      "column": "988b",
-      "chunk": 1
-    }
-  ]
+  "unparsed": []
 }

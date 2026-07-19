@@ -14,13 +14,49 @@
   "colFirst": "945a",
   "colLast": "952c",
   "counts": {
-    "scripture": 3,
-    "fontes": 4,
+    "scripture": 9,
+    "fontes": 0,
     "heads": 4,
     "headnotes": 0,
-    "unparsed": 2
+    "unparsed": 0
   },
   "scripture": [
+    {
+      "refKey": "1Cor.3",
+      "refDisplay": "I Cor. III",
+      "column": "945b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.5",
+      "refDisplay": "Psal. V",
+      "column": "945b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Jer.9",
+      "refDisplay": "Jer. IX",
+      "column": "945c",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Macc.2",
+      "refDisplay": "II Machab. II",
+      "column": "945c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.1",
+      "refDisplay": "Gal. I",
+      "column": "946c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.21",
+      "refDisplay": "Luc. XXI",
+      "column": "947d",
+      "chunk": 0
+    },
     {
       "refKey": "Ps.41.7",
       "refDisplay": "Psal. XLI, 7",
@@ -40,28 +76,7 @@
       "chunk": 2
     }
   ],
-  "fontes": [
-    {
-      "raw": "Psal. V",
-      "column": "945b",
-      "chunk": 0
-    },
-    {
-      "raw": "Jer. IX",
-      "column": "945c",
-      "chunk": 0
-    },
-    {
-      "raw": "Gal. I",
-      "column": "946c",
-      "chunk": 0
-    },
-    {
-      "raw": "Luc. XXI",
-      "column": "947d",
-      "chunk": 0
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "PROLOGUS.",
@@ -89,16 +104,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. III)",
-      "column": "945b",
-      "chunk": 0
-    },
-    {
-      "raw": "(II Machab. II)",
-      "column": "945c",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }

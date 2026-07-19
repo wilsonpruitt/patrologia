@@ -14,13 +14,32 @@
   "colFirst": "709d",
   "colLast": "716c",
   "counts": {
-    "scripture": 0,
-    "fontes": 4,
+    "scripture": 3,
+    "fontes": 2,
     "heads": 8,
     "headnotes": 4,
-    "unparsed": 1
+    "unparsed": 0
   },
-  "scripture": [],
+  "scripture": [
+    {
+      "refKey": "1Tim.4",
+      "refDisplay": "I Tim. IV",
+      "column": "711a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
+      "column": "714a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Cant. II",
+      "column": "716c",
+      "chunk": 1
+    }
+  ],
   "fontes": [
     {
       "raw": "Ibid.",
@@ -31,16 +50,6 @@
       "raw": "suppl. responsum vel quid simile",
       "column": "713b",
       "chunk": 0
-    },
-    {
-      "raw": "Psal. LXVII",
-      "column": "714a",
-      "chunk": 1
-    },
-    {
-      "raw": "Cant. II",
-      "column": "716c",
-      "chunk": 1
     }
   ],
   "heads": [
@@ -119,11 +128,5 @@
       "chunk": 1
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(I Tim. IV)",
-      "column": "711a",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }

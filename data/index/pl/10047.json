@@ -14,25 +14,39 @@
   "colFirst": "1025a",
   "colLast": "1032b",
   "counts": {
-    "scripture": 0,
-    "fontes": 2,
+    "scripture": 4,
+    "fontes": 0,
     "heads": 4,
     "headnotes": 0,
-    "unparsed": 1
+    "unparsed": 0
   },
-  "scripture": [],
-  "fontes": [
+  "scripture": [
     {
-      "raw": "Psal. LXVII",
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
       "column": "1025a",
       "chunk": 0
     },
     {
-      "raw": "Psal. LXVII",
+      "refKey": "1Cor.3",
+      "refDisplay": "I Cor. III, VI",
+      "column": "1027c",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.6",
+      "refDisplay": "I Cor. III, VI",
+      "column": "1027c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
       "column": "1029c",
       "chunk": 1
     }
   ],
+  "fontes": [],
   "heads": [
     {
       "la": "PROLOGUS.",
@@ -60,11 +74,5 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(I Cor. III, VI)",
-      "column": "1027c",
-      "chunk": 0
-    }
-  ]
+  "unparsed": []
 }
