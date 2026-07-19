@@ -1,0 +1,91 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 5689,
+  "textIdno": 10727,
+  "title": "Epistola",
+  "authors": [
+    "Anselmus Laudunensis"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon"
+  ],
+  "series": "pl",
+  "volume": 162,
+  "colFirst": "1587a",
+  "colLast": "1592c",
+  "counts": {
+    "scripture": 6,
+    "fontes": 1,
+    "heads": 2,
+    "headnotes": 1,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "1Cor.14.20",
+      "refDisplay": "I Cor. XIV, 20",
+      "column": "1587a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.24.11",
+      "refDisplay": "Psal. XXIV, 11",
+      "column": "1587c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rom.9.18",
+      "refDisplay": "Rom. IX, 18",
+      "column": "1588a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rom.1.26",
+      "refDisplay": "Rom. I, 26",
+      "column": "1588a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Isa.2.1",
+      "refDisplay": "Isa. II, 1",
+      "column": "1592a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.11.20",
+      "refDisplay": "Matth. XI, 20",
+      "column": "1592b",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ibid.",
+      "column": "1587a",
+      "chunk": 0
+    }
+  ],
+  "heads": [
+    {
+      "la": "Epistola",
+      "column": "1587a",
+      "chunk": 0,
+      "en": "Epistle"
+    },
+    {
+      "la": "Epistola (cont.)",
+      "column": "1590d",
+      "chunk": 1,
+      "en": "Epistle (cont.)"
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "AUGUSTINUS",
+      "en": "AUGUSTINE",
+      "column": "1592a",
+      "chunk": 1
+    }
+  ],
+  "unparsed": []
+}

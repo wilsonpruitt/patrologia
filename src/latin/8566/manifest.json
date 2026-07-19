@@ -1,0 +1,60 @@
+{
+  "workIdno": 3548,
+  "textIdno": 8566,
+  "title": "Tractatus",
+  "authors": [
+    "Auctor incertus"
+  ],
+  "series": "pl",
+  "volume": 96,
+  "colFirst": "1379B",
+  "colLast": "1386B",
+  "sourceWords": 2312,
+  "sourceNotes": 20,
+  "sourcePbMarks": 26,
+  "chunkCount": 2,
+  "chunks": [
+    {
+      "workIdno": 3548,
+      "textIdno": 8566,
+      "work": "Tractatus",
+      "authors": [
+        "Auctor incertus"
+      ],
+      "series": "pl",
+      "volume": 96,
+      "chunk": 0,
+      "chunkCount": 2,
+      "colContext": "1379B",
+      "colFirst": "1379B",
+      "colLast": "1383B",
+      "heads": [
+        "Tractatus"
+      ],
+      "words": 1445,
+      "noteCount": 15,
+      "incipit": "Serpens ille veternosus, qui dudum contra catholicam fidem"
+    },
+    {
+      "workIdno": 3548,
+      "textIdno": 8566,
+      "work": "Tractatus",
+      "authors": [
+        "Auctor incertus"
+      ],
+      "series": "pl",
+      "volume": 96,
+      "chunk": 1,
+      "chunkCount": 2,
+      "colContext": "1383B",
+      "colFirst": "1383C",
+      "colLast": "1386B",
+      "heads": [
+        "Tractatus (cont.)"
+      ],
+      "words": 876,
+      "noteCount": 5,
+      "incipit": "Ergo quod de lacu dicitur, quia non est"
+    }
+  ]
+}

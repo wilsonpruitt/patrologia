@@ -1,39 +1,9 @@
 {
-  "_README": "Author display + modest bio, keyed by the exact Latin author-name string as it appears in a work's manifest.authors (and data/works.json). Populated incrementally as each author's first work ships — not a bulk backfill. Fields: displayName (English, used for bylines/crumbs/index; falls back to the Latin key when absent) · latin (the printed Latin form, shown in the author popup and carried in the index to disambiguate same-named authors) · dates · bio (modest, popup-length prose) · dedicatee (true = a royal/patron dedicatee Corpus Corporum lists in the author array but who did NOT write the work; filtered out of author credit). See translation-style.md and CLAUDE.md rule on English-first display.",
-  "Robertus de Tumbalena": {
-    "displayName": "Robert of Tombelaine",
-    "latin": "Robertus de Tumbalena",
-    "dates": "c. 1010 – after 1084",
-    "bio": "Monk of Mont-Saint-Michel, later abbot of Saint-Vigor of Bayeux (1066–1084). He wrote this two-book commentary on the Song of Songs at the request of a fellow monk, Anastasius, prefacing it with a covering letter to a monk named Ansfrid."
-  },
   "Abbo Floriacensis": {
     "displayName": "Abbo of Fleury",
     "latin": "Abbo Floriacensis",
     "dates": "c. 945 – 13 November 1004",
     "bio": "Monk and abbot of Fleury (Saint-Benoît-sur-Loire), educated at Paris and Reims. He spent 985–987 at Ramsey Abbey assisting Archbishop Oswald of York's monastic reforms, then returned to Fleury as abbot in 988, writing on computus, logic, canon law, and hagiography. He was killed at La Réole in Gascony in 1004, speared while trying to quell a fight between two factions of monks, and died in the arms of his disciple Aimoin, who later wrote his life."
-  },
-  "Anselmus Laudunensis": {
-    "displayName": "Anselm of Laon",
-    "latin": "Anselmus Laudunensis",
-    "dates": "c. 1050 – 1117",
-    "bio": "Theologian and master of the cathedral school of Laon, whose teaching on the sacraments and on the ordered reading of Scripture shaped the twelfth-century schools. He and his circle are traditionally associated with the origins of the Glossa ordinaria on the Bible."
-  },
-  "Haymo Halberstatensis": {
-    "displayName": "Haimo of Halberstadt",
-    "latin": "Haymo Halberstatensis",
-    "note": "Migne prints this commentary under 'Haymo Halberstatensis' (Haimo, bishop of Halberstadt, d. 853). Much modern scholarship reassigns the Carolingian exegetical corpus printed under his name to Haimo of Auxerre; the attribution is unsettled — flagged for Wilson."
-  },
-  "Robertus Francorum": {
-    "displayName": "Robert II of France",
-    "latin": "Robertus Francorum",
-    "dedicatee": true,
-    "bio": "King Robert II 'the Pious' of France (972–1031), the royal dedicatee of Abbo's Canones — not its author. Corpus Corporum lists him in the work's author array; he is filtered from author credit."
-  },
-  "Hugo de S. Victore": {
-    "displayName": "Hugh of Saint Victor",
-    "latin": "Hugo de S. Victore",
-    "dates": "c. 1096 – 11 February 1141",
-    "bio": "Theologian and head of the school of the abbey of Saint-Victor in Paris, and the founding master of the Victorine tradition of learning and contemplation. His work ranges across the liberal arts (the Didascalicon), sacramental theology (De sacramentis christianae fidei), and mystical writing. The present piece is a short exposition of the Magnificat, the canticle of the Blessed Virgin Mary."
   },
   "Alcuinus": {
     "displayName": "Alcuin of York",
@@ -41,11 +11,33 @@
     "dates": "c. 735 – 19 May 804",
     "bio": "Northumbrian deacon, poet, and master of the cathedral school of York, whom Charlemagne drew to the Continent around 782 to lead the palace school at Aachen and direct the Carolingian revival of learning. He spent his last years as abbot of Saint-Martin of Tours. This compendious commentary on the Song of Songs is among his biblical works."
   },
+  "Anselmus Laudunensis": {
+    "displayName": "Anselm of Laon",
+    "latin": "Anselmus Laudunensis",
+    "dates": "c. 1050 – 1117",
+    "bio": "Theologian and master of the cathedral school of Laon, whose teaching on the sacraments and on the ordered reading of Scripture shaped the twelfth-century schools. He and his circle are traditionally associated with the origins of the Glossa ordinaria on the Bible."
+  },
+  "Auctor incertus": {
+    "displayName": "Anonymous",
+    "latin": "Auctor incertus",
+    "_note": "Generic label for works of uncertain authorship (Corpus Corporum / Migne 'Auctor incertus'). Renders as a plain 'Anonymous' byline with no popover; per-work provenance goes in work-about.json, not here, since this key is shared across many anonymous works."
+  },
   "Guillelmus abbas": {
     "displayName": "William of Saint-Thierry",
     "latin": "Guillelmus abbas",
     "dates": "c. 1085 – 1148",
     "bio": "Benedictine abbot of Saint-Thierry near Reims, who later laid down his abbacy to become a Cistercian monk at Signy; a close friend of Bernard of Clairvaux and the author of the first book of his life. He wrote his own exposition of the Song of Songs; the present work is an anthology he wove together from Bernard's sermons on the same book — hence 'ex Bernardo contexta,' compiled out of Bernard."
+  },
+  "Haymo Halberstatensis": {
+    "displayName": "Haimo of Halberstadt",
+    "latin": "Haymo Halberstatensis",
+    "note": "Migne prints this commentary under 'Haymo Halberstatensis' (Haimo, bishop of Halberstadt, d. 853). Much modern scholarship reassigns the Carolingian exegetical corpus printed under his name to Haimo of Auxerre; the attribution is unsettled — flagged for Wilson."
+  },
+  "Hugo de S. Victore": {
+    "displayName": "Hugh of Saint Victor",
+    "latin": "Hugo de S. Victore",
+    "dates": "c. 1096 – 11 February 1141",
+    "bio": "Theologian and head of the school of the abbey of Saint-Victor in Paris, and the founding master of the Victorine tradition of learning and contemplation. His work ranges across the liberal arts (the Didascalicon), sacramental theology (De sacramentis christianae fidei), and mystical writing. The present piece is a short exposition of the Magnificat, the canticle of the Blessed Virgin Mary."
   },
   "Justus Urgellensis": {
     "displayName": "Justus of Urgell",
@@ -53,11 +45,29 @@
     "dates": "fl. 527–546",
     "bio": "First bishop of Urgell in the Pyrenees (in present-day Catalonia), a signatory of the Second Council of Toledo (527) and the First Council of Lérida (546). His Explanatio in Cantica canticorum — which Migne prints as Explicatio — is dedicated to Sergius, archbishop of Tarragona, and is the earliest surviving Latin commentary on the Song of Songs."
   },
+  "Odo Cameracensis": {
+    "displayName": "Odo of Cambrai",
+    "latin": "Odo Cameracensis",
+    "dates": "c. 1050 – 1113",
+    "bio": "Master of the cathedral school of Tournai, later abbot of the monastery he founded there and bishop of Cambrai. A realist logician and biblical expositor, he wrote on original sin and on the canon of the Mass, and ended his episcopate in exile over the investiture struggle."
+  },
   "Richardus S. Victoris": {
     "displayName": "Richard of Saint Victor",
     "latin": "Richardus S. Victoris",
     "dates": "d. 1173",
     "bio": "Canon regular of the Abbey of Saint Victor in Paris — of British, probably Scottish, origin — and its prior from 1162. After Hugh, whose pupil he was, he was the leading theologian of the Victorine school: his De Trinitate reasoned toward the persons of God from the nature of perfect love, and his Benjamin minor and Benjamin major mapped the ascent to contemplation for generations of later readers."
+  },
+  "Robertus Francorum": {
+    "displayName": "Robert II of France",
+    "latin": "Robertus Francorum",
+    "dedicatee": true,
+    "bio": "King Robert II 'the Pious' of France (972–1031), the royal dedicatee of Abbo's Canones — not its author. Corpus Corporum lists him in the work's author array; he is filtered from author credit."
+  },
+  "Robertus de Tumbalena": {
+    "displayName": "Robert of Tombelaine",
+    "latin": "Robertus de Tumbalena",
+    "dates": "c. 1010 – after 1084",
+    "bio": "Monk of Mont-Saint-Michel, later abbot of Saint-Vigor of Bayeux (1066–1084). He wrote this two-book commentary on the Song of Songs at the request of a fellow monk, Anastasius, prefacing it with a covering letter to a monk named Ansfrid."
   },
   "Vincentius Lirinensis": {
     "displayName": "Vincent of Lérins",
@@ -65,9 +75,5 @@
     "dates": "d. before 450",
     "bio": "Monk of the island monastery of Lérins, off the coast of Provence, and one of the sharpest Latin minds of the semi-Pelagian milieu of southern Gaul. Around 434, three years after the Council of Ephesus, he composed the Commonitorium under the pen-name Peregrinus, 'the Pilgrim' — a handbook for telling catholic truth from heresy by the test of what has been believed everywhere, always, and by all. Migne prints the surviving first book together with the recapitulation that is all that remains of the lost second."
   },
-  "Auctor incertus": {
-    "displayName": "Anonymous",
-    "latin": "Auctor incertus",
-    "_note": "Generic label for works of uncertain authorship (Corpus Corporum / Migne 'Auctor incertus'). Renders as a plain 'Anonymous' byline with no popover; per-work provenance goes in work-about.json, not here, since this key is shared across many anonymous works."
-  }
+  "_README": "Author display + modest bio, keyed by the exact Latin author-name string as it appears in a work's manifest.authors (and data/works.json). Populated incrementally as each author's first work ships — not a bulk backfill. Fields: displayName (English, used for bylines/crumbs/index; falls back to the Latin key when absent) · latin (the printed Latin form, shown in the author popup and carried in the index to disambiguate same-named authors) · dates · bio (modest, popup-length prose) · dedicatee (true = a royal/patron dedicatee Corpus Corporum lists in the author array but who did NOT write the work; filtered out of author credit). See translation-style.md and CLAUDE.md rule on English-first display."
 }
