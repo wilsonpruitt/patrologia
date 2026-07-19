@@ -22,8 +22,11 @@
   },
   "scripture": [
     {
-      "refKey": "Rom.7.6",
+      "refKey": "1Tim.2.4",
       "refDisplay": "Rom. VII, 6",
+      "refKeyPrinted": "Rom.7.6",
+      "corrected": true,
+      "correctionNote": "Not Romans at all — the quotation is 1 Tim. 2:4.",
       "column": "71b",
       "chunk": 0
     },
@@ -46,26 +49,38 @@
       "chunk": 0
     },
     {
-      "refKey": "1Cor.7.37",
+      "refKey": "1Cor.7.38",
       "refDisplay": "I Cor. VII, 37",
+      "refKeyPrinted": "1Cor.7.37",
+      "corrected": true,
+      "correctionNote": "The bene/melius comparison is v. 38, not v. 37. The wording is a compressed recast rather than the Vulgate text, but the verse is unambiguous.",
       "column": "72b",
       "chunk": 0
     },
     {
-      "refKey": "Matt.7.18",
+      "refKey": "Col.4.2",
       "refDisplay": "Matth. VII, 18",
+      "refKeyPrinted": "Matt.7.18",
+      "corrected": true,
+      "correctionNote": "Col. 4:2, not Matthew. Appears to be half of a transposition with the note following it.",
       "column": "73a",
       "chunk": 0
     },
     {
-      "refKey": "Matt.6.19",
+      "refKey": "Matt.7.7",
       "refDisplay": "Matth. VI, 19",
+      "refKeyPrinted": "Matt.6.19",
+      "corrected": true,
+      "correctionNote": "Matt. 7:7. Book right, chapter and verse displaced — the other half of the 73a transposition.",
       "column": "73a",
       "chunk": 0
     },
     {
-      "refKey": "1Pet.3.16",
+      "refKey": "1Pet.3.15",
       "refDisplay": "I Petr. III, 16",
+      "refKeyPrinted": "1Pet.3.16",
+      "corrected": true,
+      "correctionNote": "Verse 15, not 16.",
       "column": "73b",
       "chunk": 0
     },
@@ -76,8 +91,11 @@
       "chunk": 0
     },
     {
-      "refKey": "Col.5.16",
+      "refKey": "Col.3.16",
       "refDisplay": "Coloss. V, 16",
+      "refKeyPrinted": "Col.5.16",
+      "corrected": true,
+      "correctionNote": "Colossians has only four chapters, so chapter V cannot exist. The quotation is Col. 3:16.",
       "column": "73b",
       "chunk": 0
     },
@@ -193,14 +211,20 @@
       "chunk": 2
     },
     {
-      "refKey": "Matt.19.20",
+      "refKey": "Matt.6.19-Matt.6.20",
       "refDisplay": "Matth. XIX, 20",
+      "refKeyPrinted": "Matt.19.20",
+      "corrected": true,
+      "correctionNote": "Matt. 6:19-20. The printed XIX, 20 looks like the chapter and verse have been transposed.",
       "column": "76c",
       "chunk": 2
     },
     {
-      "refKey": "Matt.10.27",
+      "refKey": "Matt.10.37",
       "refDisplay": "Matth. X, 27",
+      "refKeyPrinted": "Matt.10.27",
+      "corrected": true,
+      "correctionNote": "Chapter right, verse wrong: 27 for 37. NB the quotation itself is corrupt (fecerit for a verb of loving; house and wife for father and mother) — the ENGLISH renders the corrupt line as printed and must NOT be conformed to Matt. 10:37.",
       "column": "76d",
       "chunk": 2
     },
