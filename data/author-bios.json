@@ -123,5 +123,22 @@
     "dates": "d. before 450",
     "bio": "Monk of the island monastery of Lérins, off the coast of Provence, and one of the sharpest Latin minds of the semi-Pelagian milieu of southern Gaul. Around 434, three years after the Council of Ephesus, he composed the Commonitorium under the pen-name Peregrinus, 'the Pilgrim' — a handbook for telling catholic truth from heresy by the test of what has been believed everywhere, always, and by all. Migne prints the surviving first book together with the recapitulation that is all that remains of the lost second."
   },
-  "_README": "Author display + modest bio, keyed by the exact Latin author-name string as it appears in a work's manifest.authors (and data/works.json). Populated incrementally as each author's first work ships — not a bulk backfill. Fields: displayName (English, used for bylines/crumbs/index; falls back to the Latin key when absent) · latin (the printed Latin form, shown in the author popup and carried in the index to disambiguate same-named authors) · dates · bio (modest, popup-length prose) · dedicatee (true = a royal/patron dedicatee Corpus Corporum lists in the author array but who did NOT write the work; filtered out of author credit). See translation-style.md and CLAUDE.md rule on English-first display."
+  "_README": "Author display + modest bio, keyed by the exact Latin author-name string as it appears in a work's manifest.authors (and data/works.json). Populated incrementally as each author's first work ships — not a bulk backfill. Fields: displayName (English, used for bylines/crumbs/index; falls back to the Latin key when absent) · latin (the printed Latin form, shown in the author popup and carried in the index to disambiguate same-named authors) · dates · bio (modest, popup-length prose) · dedicatee (true = a royal/patron dedicatee Corpus Corporum lists in the author array but who did NOT write the work; filtered out of author credit). See translation-style.md and CLAUDE.md rule on English-first display.",
+  "Auctores varii": {
+    "displayName": "Various Authors",
+    "latin": "Auctores varii",
+    "_note": "Generic label for composite pieces gathering texts by several hands (Corpus Corporum / Migne 'Auctores varii'). Renders as a plain byline with no popover; per-work provenance goes in work-about.json, not here, since this key is shared across many works."
+  },
+  "Auctor incertus (Beda?)": {
+    "displayName": "Anonymous",
+    "latin": "Auctor incertus (Beda?)",
+    "attributionFlag": "Migne prints this among the Bedan dubia; the attribution to Bede is the edition's own conjecture and is not accepted by modern scholarship.",
+    "_note": "Shared anonymous key with a Bede attribution flag. No popover; per-work provenance goes in work-about.json."
+  },
+  "Atto Vercellensis": {
+    "displayName": "Atto of Vercelli",
+    "latin": "Atto Vercellensis",
+    "dates": "c. 885 – 961",
+    "bio": "Lombard bishop of Vercelli from 924 until his death, and one of the more independent-minded canonists of tenth-century Italy. He served as grand chancellor to Hugh of Provence and to Lothar II as kings of Italy. His writings include the Polypticum, a bleak survey of the morals of his age; De pressuris ecclesiasticis, on the pressures brought to bear on ecclesiastical authority by lay power; and a Capitulare gathering the canon law of his province, drawing on the False Decretals and enlarged with provisions of his own."
+  }
 }

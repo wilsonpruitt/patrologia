@@ -149,8 +149,10 @@ Rules:
    florilegium whose index reports 0 fontes is a pipeline failure, not a
    verbatim-policy outcome.
 
-**Worked instance:** 11208 *Flores seu sententiae ex S. Bernardo* (PL 183,
-~207 locators, 22 bare *Ibid.*), translated 2026-07-18 with the
-locator/comment distinction drawn but untagged; convention set by the
-2026-07-18 Fable session. Sweep = tag both chunks, fix the 1197B swallowed
-sentence, extend `index-work.mjs` per rule 9, re-index (expect ~207 fontes).
+**Worked instance:** 11208 *Flores seu sententiae ex S. Bernardo* (PL 183),
+translated 2026-07-18, convention set by the 2026-07-18 Fable session,
+sweep EXECUTED 2026-07-19: both chunks tagged, the 1197B swallowed sentence
+fixed, `index-work.mjs` extended per rule 9. **Indexed result: 167 inline
+locators, 48 resolved *Ibid.*** — an earlier draft of this file estimated
+~207, which was an over-count (the work has 171 sentence paragraphs, four of
+them sharing a citation). 167 is the verified figure; do not re-derive it.

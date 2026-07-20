@@ -1,0 +1,54 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 4407,
+  "textIdno": 9436,
+  "title": "Testamentum",
+  "authors": [
+    "Atto Vercellensis",
+    "Auctores varii"
+  ],
+  "authorsDisplay": [
+    "Atto of Vercelli",
+    "Various Authors"
+  ],
+  "series": "pl",
+  "volume": 134,
+  "colFirst": "893c",
+  "colLast": "900b",
+  "counts": {
+    "scripture": 0,
+    "fontes": 2,
+    "heads": 2,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [],
+  "fontes": [
+    {
+      "raw": "ita cod.",
+      "column": "899a",
+      "chunk": 1
+    },
+    {
+      "raw": "ita cod.",
+      "column": "899a",
+      "chunk": 1
+    }
+  ],
+  "heads": [
+    {
+      "la": "Testamentum",
+      "column": "893c",
+      "chunk": 0,
+      "en": "Testament"
+    },
+    {
+      "la": "Testamentum (cont.)",
+      "column": "898b",
+      "chunk": 1,
+      "en": "Testament (cont.)"
+    }
+  ],
+  "headnotes": [],
+  "unparsed": []
+}

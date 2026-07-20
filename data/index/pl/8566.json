@@ -1,0 +1,199 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3548,
+  "textIdno": 8566,
+  "title": "Tractatus",
+  "authors": [
+    "Auctor incertus"
+  ],
+  "authorsDisplay": [
+    "Anonymous"
+  ],
+  "series": "pl",
+  "volume": 96,
+  "colFirst": "1379b",
+  "colLast": "1386b",
+  "counts": {
+    "scripture": 19,
+    "fontes": 2,
+    "heads": 2,
+    "headnotes": 4,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Ps.48.15",
+      "refDisplay": "Psal. XLVIII, 15",
+      "column": "1380d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Wis.5.14",
+      "refDisplay": "Sap. V, 14",
+      "column": "1380d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gen.37.35",
+      "refDisplay": "Gen. XXXVII, 35",
+      "column": "1381a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Job.17.16",
+      "refDisplay": "Job XVII, 16",
+      "column": "1381a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Job.17.16",
+      "refDisplay": "Ibid., vers. 13",
+      "antecedent": "Job XVII, 16",
+      "antecedentColumn": "1381a",
+      "ibidResolved": true,
+      "column": "1381a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Job.14.13",
+      "refDisplay": "Job XIV, 13.",
+      "column": "1381a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.88.49",
+      "refDisplay": "Psal. LXXXVIII, 49.",
+      "column": "1381b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.7.19",
+      "refDisplay": "Luc. VII, 19.",
+      "column": "1381b",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.1.34",
+      "refDisplay": "Joan. I, 34",
+      "column": "1381c",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.1.34",
+      "refDisplay": "Ibid., vers. 36",
+      "antecedent": "Joan. I, 34",
+      "antecedentColumn": "1381c",
+      "ibidResolved": true,
+      "column": "1381c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Zech.9.11",
+      "refDisplay": "Zach. IX, 11",
+      "column": "1381d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Acts.2.24",
+      "refDisplay": "Act. II, 24",
+      "column": "1382c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.87.5",
+      "refDisplay": "Psal. LXXXVII, 5",
+      "column": "1382c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.7.19",
+      "refDisplay": "Luc. VII, 19",
+      "column": "1383a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.16.24",
+      "refDisplay": "Luc. XVI, 24",
+      "column": "1383b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Hos.13.14",
+      "refDisplay": "Ose., XIII, 14",
+      "column": "1383c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.11.12",
+      "refDisplay": "Matth. XI, 12",
+      "column": "1384a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.27.37",
+      "refDisplay": "Luc. XXVII, 37",
+      "column": "1384c",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.5.1",
+      "refDisplay": "II Cor. V, 1.",
+      "column": "1384d",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Job, XXVII, 16.",
+      "column": "1382b",
+      "chunk": 0
+    },
+    {
+      "raw": "(Job, X, 20-22)",
+      "column": "1382a",
+      "chunk": 0,
+      "inline": true
+    }
+  ],
+  "heads": [
+    {
+      "la": "Tractatus",
+      "column": "1379b",
+      "chunk": 0,
+      "en": "Treatise"
+    },
+    {
+      "la": "Tractatus (cont.)",
+      "column": "1383b",
+      "chunk": 1,
+      "en": "Treatise (cont.)"
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "…ate, quod distinctis sententiis uno volumine comprehenditur, quodque per universum orbem a cunctis recipitur, ab omnibus defenditur, summaque laude celebratur, titulo quadragesimo quinto ita scribitur",
+      "en": "… in one volume by distinct sentences, and which is received throughout the whole world by all, defended by all, and celebrated with the highest praise, it is thus written under the forty-fifth heading",
+      "column": "1384b",
+      "chunk": 1
+    },
+    {
+      "la": "In sequenti quoque titulo, hoc est quadragesimo sexto, talis auctoritas continetur, ut dicatur",
+      "en": "In the following heading also, that is the forty-sixth, such an authority is contained, as to say",
+      "column": "1384b",
+      "chunk": 1
+    },
+    {
+      "la": "…cordans beatus Gregorius papa Romanus praesul apostolicae sedis, tractatorum quidem ultimus, sed pene omnium egregius, in quarto Dialogorum libro ad inquisitionem collocutoris sui ita respondit dicens",
+      "en": "…, prelate of the apostolic see, the last indeed of the expounders but almost the most outstanding of all, answered thus in the fourth book of the *Dialogues* to the inquiry of his interlocutor, saying",
+      "column": "1384c",
+      "chunk": 1
+    },
+    {
+      "la": "Haec ille de justis atque perfectis. Quid vero de iniquis?",
+      "en": "These things he said of the just and the perfect. But what of the wicked?",
+      "column": "1385a",
+      "chunk": 1
+    }
+  ],
+  "unparsed": []
+}
