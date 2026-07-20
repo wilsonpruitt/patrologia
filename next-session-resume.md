@@ -1,5 +1,24 @@
 # Next session — resume note
 
+## 2026-07-20 — Set A (10 verified-none works, 2-chunk tier) translated + STAGED
+
+**NOT deployed** (commit `3a28abd`, staged for Wilson's deploy session). Site was 48 englished; now **58 english pages built** (57 in works.json — the 58th is the PG Joel work, which lives outside PL-only works.json). Queue: 43 works still pre-chunked in `src/latin/`.
+
+### The 10 new works — smallest-first across the verified-none frontier, all Opus (4 agents, ~475K subagent tokens)
+7017 PL 17 *Philosophorum aliquot epistolae* (Seven Sages letters) · 8253 PL 87 *Analecta* · 8407 PL 90 *De computo* (ps.-Bede numeral dialogue) · 8505 PL 94 *Chronicon breve* · 8566 PL 96 *Tractatus* (descent-to-hell) · 8625 PL 98 *Appendix ad epistolas* · 9436 PL 134 *Testamentum* (Atto of Vercelli et al.) · 9519 PL 137 *Appendix ad transl. corporis S. Hunegundis* · 9604 PL 138 *De prandio monachorum* · 9852 PL 141 *De monasterio Fructuariensi*.
+- **verify-english OK on all 10**; build + index run; **0 unparsed corpus-wide**. Roman numerals kept verbatim in *De computo* / *Chronicon breve* (the argument is about the notation); cruces logged per work (garbles rendered literally). Two high-ratio verify warnings (7017 1.61, 9519 1.72) eyeballed = genuine Latin-unpacking, not padding.
+- **works.json**: 10 flipped `englishState` untranslated → ours (prior triage note kept as `priorTriageNote`) BEFORE running decade-check, so the untranslated-leak debt did not recur.
+- **author-bios.json**: added Atto of Vercelli (verified dates c.885–961, bp. 924) + shared-key `Auctores varii` / `Auctor incertus (Beda?)` (latter carries an attributionFlag — the "Beda?" is Migne's conjecture).
+- **`decade-check.mjs` (57 shipped): nothing blocking.** New genre screen held: excluded 9637 *Ordo ad regem benedicendum* (pure liturgical ordo → needs the Fable mini-pilot per runbook, do NOT send to Opus).
+- **translation-style.md**: 11208 locator count corrected to the verified **167** (was ~207); sweep marked EXECUTED.
+
+### → NEXT SESSION
+1. **Resume smallest-first** — 43 works still pre-chunked in `src/latin/`. Next tier up = the 3-chunk works (10103 Peter Damian *De picturis*, 11031 Petrus diaconus *Epistolae*, 11436 *Vita S. Thomae Cant.*, 11648 *Annales*, 21425 Berno, 6912 *Addenda*, 7508 ps.-Aug. *Sermones*, 8195 *Norma vivendi*, 8715 ps.-Alcuin *Dubia alia*) then the 4+ Victorine/Damian works. Hard-stop ritual before each launch. Stage only.
+2. **`9637 Ordo ad regem benedicendum` is a Fable mini-pilot, not an Opus batch** — first liturgical-ordo genre; extend translation-style.md before translating it or any other ordo/liturgical text.
+3. Run `decade-check.mjs` at the next decade boundary (67 works).
+
+---
+
 ## 2026-07-18/19 — 19 works translated + DEPLOYED; decade blocker built; Pattern 4 executed; citation layer overhauled
 
 **LIVE on migne.app** (commits `df3ff68` → `e58de2f`, two prod deploys, all smoke-tested).
@@ -29,7 +48,7 @@ Bonaventure / Christian-Library cadence. Collects mechanically because flags scr
 ### → NEXT SESSION
 1. **Resume the two-set rotation** — ~53 works pre-chunked in `src/latin/`, smallest-first, no setup needed. Hard-stop ritual before each launch. Stage only; Wilson deploys.
 2. **Run `node scripts/decade-check.mjs` at the next decade** (57 works) before translating further.
-3. **Read-through backlog is 38 works and growing faster than it shrinks** — includes 11064 (~84 cruces) and 11066 (~65) inherited from July. Everything is live under the standing publish-ahead-of-read-through call, but this is the one number trending the wrong way.
+   *(Read-through backlog: no longer tracked — Wilson, 2026-07-20. Publish-ahead-of-read-through stands; cruces stay logged per work, but the count is not a metric to surface.)*
 
 ### Open flags (none blocking)
 - `translation-style.md` says 11208 has ~207 locators; the true count is **167**. Correct when convenient.
