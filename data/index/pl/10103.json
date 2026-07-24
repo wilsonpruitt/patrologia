@@ -1,0 +1,367 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 5071,
+  "textIdno": 10103,
+  "title": "De picturis principum apostolorum",
+  "authors": [
+    "Petrus Damianus"
+  ],
+  "authorsDisplay": [
+    "Peter Damian"
+  ],
+  "series": "pl",
+  "volume": 145,
+  "colFirst": "589b",
+  "colLast": "596b",
+  "counts": {
+    "scripture": 25,
+    "fontes": 4,
+    "heads": 7,
+    "headnotes": 20,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Gen.35",
+      "refDisplay": "Gen. XXXV",
+      "column": "590c",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "590c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Acts.8",
+      "refDisplay": "Act. VIII",
+      "column": "591a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.2",
+      "refDisplay": "Gal. II",
+      "column": "591b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eph.6",
+      "refDisplay": "Ephes. VI",
+      "column": "591b",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.9",
+      "refDisplay": "I Cor. IX.",
+      "column": "591c",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Cor.12",
+      "refDisplay": "II Cor. XII",
+      "column": "591c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Cant. II.",
+      "column": "591c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "592a",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.22",
+      "refDisplay": "II Cor. XXII",
+      "column": "592a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gal.4",
+      "refDisplay": "Gal. IV",
+      "column": "592a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Phil.2",
+      "refDisplay": "Philip. II",
+      "column": "592b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Col.2",
+      "refDisplay": "Coloss. II",
+      "column": "592b",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.16",
+      "refDisplay": "I Cor. XVI",
+      "column": "592c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Acts.9",
+      "refDisplay": "Act. IX",
+      "column": "592d",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.13",
+      "refDisplay": "II Cor. XIII.",
+      "column": "592d",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Pet.3",
+      "refDisplay": "II Petr. III",
+      "column": "593a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gal.1",
+      "refDisplay": "Gal. I",
+      "column": "593b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gal.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "Gal. I",
+      "antecedentColumn": "593b",
+      "ibidResolved": true,
+      "column": "593b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.20",
+      "refDisplay": "Joan. XX",
+      "column": "593d",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.13",
+      "refDisplay": "Joan. XIII",
+      "column": "593d",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "594b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.15",
+      "refDisplay": "Rom. XV; Isa. LII",
+      "column": "594c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.52",
+      "refDisplay": "Rom. XV; Isa. LII",
+      "column": "594c",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.11",
+      "refDisplay": "II Cor. XI",
+      "column": "595b",
+      "chunk": 2
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Vide scholia ad calcem opusculi.",
+      "column": "594a",
+      "chunk": 2
+    },
+    {
+      "raw": "epist. ad Anast. Thess.",
+      "column": "596a",
+      "chunk": 2
+    },
+    {
+      "raw": "hom. 87 in Joan.",
+      "column": "596a",
+      "chunk": 2
+    },
+    {
+      "raw": "GREG. in lib. I Reg., cap. 4",
+      "column": "596a",
+      "chunk": 2
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "589b",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "DE PICTURIS PRINCIPUM APOSTLORUM.",
+      "column": "589b",
+      "chunk": 0,
+      "en": "ON THE PAINTINGS OF THE CHIEF APOSTLES."
+    },
+    {
+      "la": "CAPUT PRIMUM. Cur Petrus ad sinistram, et Paulus ad dextram in picturis collocentur.",
+      "column": "589b",
+      "chunk": 0,
+      "en": "CHAPTER ONE. Why Peter is placed at the left, and Paul at the right, in paintings."
+    },
+    {
+      "la": "CAPUT II. Pauli praerogativae enarrantur.",
+      "column": "591c",
+      "chunk": 1,
+      "en": "CHAPTER II. The prerogatives of Paul are related."
+    },
+    {
+      "la": "CAPUT III. Paulus prae caeteris omnibus privilegio admirabili est insignitus.",
+      "column": "592d",
+      "chunk": 1,
+      "en": "CHAPTER III. Paul was marked out before all others by a wonderful privilege."
+    },
+    {
+      "la": "CAPUT IV. Cur B. Paulus propriam non habeat cathedram.",
+      "column": "594a",
+      "chunk": 2,
+      "en": "CHAPTER IV. Why blessed Paul has no chair of his own."
+    },
+    {
+      "la": "611 SCHOLIA.",
+      "column": "595a",
+      "chunk": 2,
+      "en": "611 SCHOLIA."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "…d ergo mirum est, si ad dexteram constituitur, qui vocabulum dexterae ex paterno jure sortitur? Enim vero, ut vetus illa beato Paulo liquido congruere videatur historia, non sine causa Scriptura dicit",
+      "en": "…f he is placed at the right who draws the name of the right hand from his father's right? Indeed, that the ancient history may be seen to fit blessed Paul clearly, not without cause does Scripture say",
+      "column": "590c",
+      "chunk": 0
+    },
+    {
+      "la": "…non immerito designatur. Quae nimirum et ad instar ovis innocenter vivit, et per studium contemplationis ad videndam Redemptoris suis speciem medullitus inardescit. Qui de se requirentibus Judaeis ait",
+      "en": "…ied. She indeed both lives innocently after the likeness of a sheep, and, through the pursuit of contemplation, burns inwardly to see the beauty of her Redeemer, who says to the Jews who ask about him",
+      "column": "590c",
+      "chunk": 0
+    },
+    {
+      "la": "Benjamin igitur nascente, Rachel mater emoritur; dum appropinquante ad lucem novae regenerationis Saulo, persecutionibus Ecclesia per eum crudeliter impugnatur, Sicut Lucas in Actibus apostolorum",
+      "en": "…therefore, is born, his mother Rachel dies: while, as Saul draws near to the light of the new regeneration, the Church is cruelly assailed by him with persecutions. So Luke in the Acts of the Apostles",
+      "column": "590d",
+      "chunk": 0
+    },
+    {
+      "la": "… dexteram dimicavit, verborum jacula valenter intorsit, salubres cordium plagas intulit, et per eum devictis atque prostratis hostibus, cum gloria triumphavit. Hinc est quod idem Paulus ad Galatas ait",
+      "en": "…e javelins of words with power, inflicted healing wounds upon hearts, and, the enemy being through him overcome and laid low, triumphed with glory. Hence it is that the same Paul says to the Galatians",
+      "column": "591a",
+      "chunk": 0
+    },
+    {
+      "la": "… Paulus dextri juxta Redemptorem lateris obtinet dignitatem, qui divinae dexterae non ambigitur exercere virtutem. An non quodammodo dextera Dei adversus diabolum dimicantem se fatetur esse, cum dicit",
+      "en": "… beside the Redeemer, who is not doubted to exercise the power of the divine right hand. Or does he not in a manner confess himself to be the right hand of God fighting against the devil, when he says",
+      "column": "591b",
+      "chunk": 0
+    },
+    {
+      "la": "… Cor. XII)], ubi etiam arcana verba, quae hominibus loqui non licet, audivit. Quis autem nesciat, quia vita terrena dicit sinistram, coelestis autem significat dexteram, sicut sponsa dicit in Canticis",
+      "en": "…o heard secret words which it is not lawful for men to speak. And who does not know that the earthly life bespeaks the left, while the heavenly signifies the right — as the bride says in the Canticles",
+      "column": "591c",
+      "chunk": 1
+    },
+    {
+      "la": "…e flagrat, tam nimia ex locis ad loca se vagatione permutat. *608* Transire ad alia ex aliis appetit, quia ipsius eum, quem implet, stimulus charitatis impellit. Longe namque a Romanis positus scribit",
+      "en": "… does he shift himself from place to place. *608* He longs to pass to some men from others, because the goad of that very charity which fills him drives him on. For, set far from the Romans, he writes",
+      "column": "592a",
+      "chunk": 1
+    },
+    {
+      "la": "Retentus Ephesi, Corinthiis scribit",
+      "en": "Detained at Ephesus, he writes to the Corinthians",
+      "column": "592a",
+      "chunk": 1
+    },
+    {
+      "la": "Rursum Ephesi commorans, Galatis loquitur, dicens",
+      "en": "Again, staying at Ephesus, he speaks to the Galatians, saying",
+      "column": "592a",
+      "chunk": 1
+    },
+    {
+      "la": "Romae quoque custodia carceris clausus, quia ire per semetipsum ad Philippenses non permittitur, transmittere se discipulum pollicetur, dicens",
+      "en": "Shut up too at Rome in the keeping of a prison, because he is not permitted to go to the Philippians in his own person, he promises to send a disciple across, saying",
+      "column": "592b",
+      "chunk": 1
+    },
+    {
+      "la": "Constrictus etiam vinculis atque Ephesi retentus, Colossensibus scribit",
+      "en": "Bound also with chains and held at Ephesus, he writes to the Colossians",
+      "column": "592b",
+      "chunk": 1
+    },
+    {
+      "la": "…audientibus exprimit vota. Efficaciter praesens eis, cum quibus non erat: nec tamen illis absens, cum quibus erat. Cujus amorem melius cognoscimus, si ejus adhuc ad Corinthios verba pensamus. Ait enim",
+      "en": "…is prayers. He is effectively present to those with whom he was not, and yet not absent from those with whom he was. We know his love better if we still weigh his words to the Corinthians. For he says",
+      "column": "592b",
+      "chunk": 1
+    },
+    {
+      "la": "… cum fons vitae qui eum vas electionis appellat [n: (Act. IX)], in eum se decreverit abundanter influere, eumque dignatus sit sacramentorum suorum fluentis incomparabiliter irrigare. Hinc est quod ait",
+      "en": "…ain of life who calls him a vessel of election [n: (Act. IX)] determined to flow abundantly into him, and deigned to water him incomparably with the streams of his sacraments. Hence it is that he says",
+      "column": "592d",
+      "chunk": 1
+    },
+    {
+      "la": "…modo praecessorum suorum magisterio nullatenus indigeret, sed eos insuper omnis coelestis sapientiae profunditate praecelleret. Unde et ipse primus apostolorum Petrus ejus admiratur sapientiam, dicens",
+      "en": "…no way stand in need of the teaching of his predecessors, but he even surpassed them in the depth of all heavenly wisdom. Whence Peter himself, the first of the apostles, marvels at his wisdom, saying",
+      "column": "593a",
+      "chunk": 1
+    },
+    {
+      "la": "…tem in discendis evangelicae doctrinae mysteriis non magistrum quemlibet hominem, sed Deum specialiter habuerit praeceptorem, testatur ipse, qui in principio Epistolae suae ad Galatas loquitur, dicens",
+      "en": "…he mysteries of the evangelical doctrine he had no man whatever for master, but God specially for his teacher, he himself testifies, who speaks at the beginning of his Epistle to the Galatians, saying",
+      "column": "593b",
+      "chunk": 1
+    },
+    {
+      "la": "Fons enim aeternae vitae velut immensus torrens totum se simul in vas suae electionis immersit, qui in caeteros apostolos per longa temporum intervalla, sapientiae suae fluenta profudit. Et paulo post",
+      "en": "…f wholly and all at once into the vessel of its own election — that fountain which poured out the streams of its wisdom upon the rest of the apostles through long intervals of time. And a little after",
+      "column": "593b",
+      "chunk": 1
+    },
+    {
+      "la": "…sculi. )] Plane quia ipse toto terrarum orbe universalem fundavit Ecclesiam, dignum est, ut sicut in omnibus fidei semen sparsit, sic etiam in omnibus jus teneat praesidentis. Dicit enim ad Corinthios",
+      "en": "…ersal Church over the whole globe of lands, it is fitting that, as he scattered the seed of faith among all, so also he should hold among all the right of one presiding. For he says to the Corinthians",
+      "column": "594b",
+      "chunk": 2
+    },
+    {
+      "la": "Ad Romanos autem",
+      "en": "And to the Romans",
+      "column": "594b",
+      "chunk": 2
+    },
+    {
+      "la": "…en caute intelligenda; quoniam totius orbis pastor, et princeps Petrus duntaxat est, non Paulus. Quamobrem verum quidem est elogium, quod ipsi Ecclesia tribuit, dum ait: praedicator in universo mundo;",
+      "en": "… caution, since the shepherd and prince of the whole world is Peter only, not Paul. Wherefore the eulogy is indeed true which the Church attributes to him when she says: a preacher in the whole world;",
+      "column": "595b",
+      "chunk": 2
+    },
+    {
+      "la": "Sed tamen illum tantum bonorem, quem prima specie cardinalis Damianus sancto Paulo defert, sancto Petro magis congruere *612* certissimum est, de quo Magnus Leo [n: ( epist. ad Anast. Thess. )]",
+      "en": "…t certain that that great honor which, at first appearance, Cardinal Damian pays to Saint Paul belongs more fittingly to Saint Peter *612* — of whom Leo the Great [n: ( epist. ad Anast. Thess. )] says",
+      "column": "596a",
+      "chunk": 2
+    }
+  ],
+  "unparsed": []
+}

@@ -1,0 +1,79 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 2523,
+  "textIdno": 7508,
+  "title": "Sermones",
+  "authors": [
+    "Auctor incertus (Augustinus Hipponensis?)"
+  ],
+  "authorsDisplay": [
+    "Anonymous"
+  ],
+  "series": "pl",
+  "volume": 47,
+  "colFirst": "1151a",
+  "colLast": "1156d",
+  "counts": {
+    "scripture": 2,
+    "fontes": 1,
+    "heads": 4,
+    "headnotes": 1,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Col.3.1",
+      "refDisplay": "Coloss. III, 1",
+      "column": "1151a",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.5.7",
+      "refDisplay": "I Cor. V, 7",
+      "column": "1152c",
+      "chunk": 0
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Leg. voraginis?",
+      "column": "1155a",
+      "chunk": 1
+    }
+  ],
+  "heads": [
+    {
+      "la": "I.",
+      "column": "1151a",
+      "chunk": 0,
+      "en": "I."
+    },
+    {
+      "la": "II.",
+      "column": "1152c",
+      "chunk": 0,
+      "en": "II."
+    },
+    {
+      "la": "III.",
+      "column": "1153c",
+      "chunk": 1,
+      "en": "III."
+    },
+    {
+      "la": "IV. Sermo inlustrissimi doctoris sancti Augustini, de resurrectione Domini nostri Jhesu Christi dedicatus.",
+      "column": "1155a",
+      "chunk": 2,
+      "en": "IV. A sermon of the most illustrious doctor Saint Augustine, dedicated to the resurrection of our Lord Jesus Christ."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "… *Ut in nomine Domini omne genu flectatur coelestium et terrestrium et infernorum.* Mox ergo captivae animae, de custodiis relaxatae tartareis, proruunt, regi saeculorum moesta supplicatione deplorant",
+      "en": "…ings on earth and things beneath the earth.* Soon, then, the captive souls, released from their Tartarean prisons, rush forth, and with sorrowful supplication make their lament to the King of the ages",
+      "column": "1154d",
+      "chunk": 1
+    }
+  ],
+  "unparsed": []
+}

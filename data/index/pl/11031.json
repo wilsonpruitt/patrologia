@@ -1,0 +1,66 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 5992,
+  "textIdno": 11031,
+  "title": "Epistolae",
+  "authors": [
+    "Petrus diaconus"
+  ],
+  "authorsDisplay": [
+    "Peter the Deacon"
+  ],
+  "series": "pl",
+  "volume": 173,
+  "colFirst": "1137b",
+  "colLast": "1144a",
+  "counts": {
+    "scripture": 0,
+    "fontes": 3,
+    "heads": 3,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [],
+  "fontes": [
+    {
+      "raw": "Anno 1139.",
+      "column": "1137b",
+      "chunk": 0,
+      "inHead": true
+    },
+    {
+      "raw": "Anno eod.",
+      "column": "1139c",
+      "chunk": 1,
+      "inHead": true
+    },
+    {
+      "raw": "Anno eod.",
+      "column": "1141c",
+      "chunk": 2,
+      "inHead": true
+    }
+  ],
+  "heads": [
+    {
+      "la": "I. Ad Richizam Romanorum imperatricem.--Consolatoria de morte Lotharii imperatoris et Henrici ducis Bavariae ejus generi.",
+      "column": "1137b",
+      "chunk": 0,
+      "en": "I. To Richenza, empress of the Romans.--A letter of consolation on the death of the emperor Lothar and of Henry, duke of Bavaria, her son-in-law. [n: (Anno 1139.)]"
+    },
+    {
+      "la": "II. Ad eamdem.--Ejusdem argumenti.",
+      "column": "1139c",
+      "chunk": 1,
+      "en": "II. To the same.--On the same subject. [n: (Anno eod.)]"
+    },
+    {
+      "la": "III. Ad Conradum imperatorem II.--Congratulatur ei de sua in imperatorem electione, hortaturque ut strenue et christiane Romanum regat imperium, atque Casinense monasterium protegat.",
+      "column": "1141c",
+      "chunk": 2,
+      "en": "III. To the emperor Conrad II.--He congratulates him on his election as emperor, and exhorts him to rule the Roman empire vigorously and in a Christian manner, and to protect the monastery of Cassino. [n: (Anno eod.)]"
+    }
+  ],
+  "headnotes": [],
+  "unparsed": []
+}
