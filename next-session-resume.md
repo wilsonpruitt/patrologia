@@ -1,5 +1,35 @@
 # Next session — resume note
 
+## 2026-07-24 — 3-chunk tier (9 works) translated + STAGED
+
+**NOT deployed** (commit `97f71c2`). Site now **67 english pages built** (66 in works.json + the PG Joel work). Queue: 34 works still pre-chunked in `src/latin/`.
+
+### The 9 new works — smallest-first, 3-chunk tier, all Opus (3 agents, ~366K subagent tokens)
+10103 PL 145 Peter Damian *De picturis principum apostolorum* · 11031 PL 173 Peter the Deacon *Epistolae* · 11436 PL 190 *Vita et passio S. Thomae Cantuariensis* · 11648 PL 204 *Annales* · 21425 PL 150 Berno *Liber qualiter adventus Domini celebretur* · 6912 PL 13 *Addenda* · 7508 PL 47 ps.-Augustine *Sermones* · 8195 PL 83 *Norma vivendi* · 8715 PL 101 ps.-Alcuin *Dubia alia*.
+- **verify-english OK on all 9**; build + index run; **0 unparsed corpus-wide**. `decade-check.mjs` at 66 shipped: **nothing blocking**. works.json flipped to `ours` BEFORE decade-check (untranslated-leak did not recur).
+- **author-bios.json**: Peter the Deacon (c.1110–after 1159, with the forger caveat), Berno of Reichenau (d. 1048), plus attribution-flag entries for `Auctor incertus (Augustinus Hipponensis?)` and `Auctor incertus (Alcuinus?)`.
+- **`index-work.mjs` alias fix**: bare `Phil.` → Philippians (Migne prints `Philem.` for Philemon; confirmed against the quoted Latin at 8715/1170a, *Optabam dissolvi*). This closed the one unparsed ref.
+- **Guillemet discipline enforced post-hoc**: five English quotations had been broken around "he says" where Migne keeps *inquit* inside the quote (10103 ×3, 11436 ×2) — rejoined 1:1, which also cleared both index "quotation count differs" warnings. 10103's Romans quotation at 0594B–C is **unclosed in Migne**; the supplied `»` was removed so the English mirrors the plate, and it is logged as a crux. **This is a recurring class — worth a line in `translation-style.md`** (Pattern: *inquit*/*inquam* interruptions stay inside the guillemets; never re-punctuate to English convention).
+- Remaining ratio warnings (21425/0000 1.66, 7508/0002 1.64) spot-checked = genuine Latin unpacking, not padding.
+
+### Open flags for Wilson (none blocking, all pre-deploy decisions)
+1. **8715 badge**: set `workStatus: pd-ingested` deliberately, so the landing badge reads "New English translation" rather than claiming a first — the dossier's poem IV is Alcuin's well-known *O mea cella*, which has prior English versions. **work-about.json blurb for 8715 not written**: it should acknowledge the prior versions per the 7561 precedent, but the framing is Wilson's call.
+2. **First vernacular-quotation case in the corpus**: 6912 quotes Beuter (0420D) and Flórez (0421A) in **Castilian**, not Latin. The agent translated them to English. `translation-style.md` has NO rule for vernacular quotations — whatever is decided here becomes the convention. (The Saturninus inscription at 0422A–B was correctly left verbatim: which letters are on the stone vs. supplied *is* the argument.)
+3. **11436 bracket form**: chapters I and III are stubs (incipit + explicit + a pointer to Edward Grim's *Vita*) in a bracket form that is neither `[n: …]` nor `[ *al.,* …]`. Editorial comment translated, locator kept in locator form. Will recur across Migne's compilation texts — confirm before it hardens into precedent.
+4. **11031 rubric**: Migne heads Ep. III "Ad Conradum imperatorem **II**"; it must be Conrad III (Conrad II d. 1039). Migne's rubric, not the letter's text — decide whether it earns a `citation-corrections.json` entry. Also Ep. III's date (*Anno eod.* 1139) is likely a year late: Conrad III was elected March 1138.
+5. **8715 citation flag** (not corrected in text): at 1170B Migne cites the cave episode as *I Reg. XXVI, 11*, but *Saul … ventrem purgare* is 1 Sam. 24, not 26.
+6. **21425 load-bearing crux**: at 1080C the *Comes* list prints `Dominica quarta` twice where the argument requires *quinta* first. Rendered as printed. Berno's whole five-vs-four-Sundays case rides on it — worth collating against another witness.
+7. **Attributions found from internal evidence, left as Migne prints them**: 11436 is the **first *Quadrilogus*** (conventionally Elias of Evesham, c.1198–1200 — the prologue names its four sources); 11648 is the **annals of Saint-Vanne at Verdun** (96–1481, successive hands); 6912 is Migne's editor's addendum reporting Terribilini, containing the Évora Breviary lessons by André de Resende. All logged in cruces, none written into frontmatter.
+8. **11031 has no `[n:]` apparatus at all** — its scripture (1 Thess. 4:14, Matt. 11:28, etc.) will never reach the index by the `[n:]` route, and Epp. I–II are heavily centonized from **Seneca's consolations** with no marks. Indexes 0 scripture / 3 fontes despite being full of borrowings. If classical borrowings are ever to be captured, this is the test case.
+
+### → NEXT SESSION
+1. **Resume smallest-first** — 34 works still pre-chunked in `src/latin/`. Next tier = the 4-chunk works (10083, 11083, 11542), then the 5-chunk band (11078, 11534, 11537, 11556). Hard-stop ritual before each launch. Stage only.
+2. **`9637 Ordo ad regem benedicendum` is still a Fable mini-pilot, not an Opus batch** — first liturgical-ordo genre; extend translation-style.md before translating it or any other ordo.
+3. Add the *inquit*-inside-guillemets rule to `translation-style.md` and sweep existing English for the class.
+4. Run `decade-check.mjs` at the next decade boundary (76 works).
+
+---
+
 ## 2026-07-20 — Set A (10 verified-none works, 2-chunk tier) translated + STAGED
 
 **NOT deployed** (commit `3a28abd`, staged for Wilson's deploy session). Site was 48 englished; now **58 english pages built** (57 in works.json — the 58th is the PG Joel work, which lives outside PL-only works.json). Queue: 43 works still pre-chunked in `src/latin/`.
