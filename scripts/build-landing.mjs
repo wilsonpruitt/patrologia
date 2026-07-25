@@ -17,6 +17,27 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-24 session: 9 works, 3-chunk tier, smallest-first —
+  'pl/145/de-picturis-principum-apostolorum',                  // Peter Damian — on the pictures of the chief apostles
+  'pl/173/epistolae',                                          // Peter the Deacon — letters
+  'pl/190/vita-et-passio-s-thomae-cantuariensis',              // (Elias of Evesham?) — life & passion of Thomas of Canterbury
+  'pl/204/annales',                                            // Annals of Saint-Vanne, Verdun
+  'pl/150/liber-qualiter-adventus-domini-celebretur',          // Berno of Reichenau — how Advent is to be celebrated
+  'pl/13/addenda',                                             // Various — addenda to the Damasus volume
+  'pl/47/sermones',                                            // ps.-Augustine — sermons
+  'pl/83/norma-vivendi',                                       // Anonymous — a rule of living
+  'pl/101/dubia-alia',                                         // ps.-Alcuin — miscellaneous dubia
+  // — 2026-07-20 session (Set A): 10 works, 2-chunk tier —
+  'pl/17/philosophorum-aliquot-epistolae',                     // Various — letters of the Seven Sages
+  'pl/87/analecta',                                            // Various — analecta
+  'pl/90/de-computo',                                          // (Bede?) — on the computus (numeral dialogue)
+  'pl/94/chronicon-breve',                                     // Anonymous — a short chronicle
+  'pl/96/tractatus',                                           // Anonymous — tractate on the descent to hell
+  'pl/98/appendix-ad-epistolas',                               // Various — appendix to the letters
+  'pl/134/testamentum',                                        // Atto of Vercelli et al. — testament
+  'pl/137/appendix-ad-translationem-corporis-s-hunegundis',    // Anonymous — appendix to the translation of St Hunegund
+  'pl/138/de-prandio-monachorum',                              // Anonymous — on the monks' meal
+  'pl/141/de-monasterio-fructuariensi',                        // Anonymous — on the monastery of Fruttuaria
   // — 2026-07-18/19 session: 19 works, smallest-first across the whole frontier —
   'pl/18/exhortatio-ad-monachos',                               // Anonymous — exhortation to monks
   'pl/184/in-festo-s-andreae',                                  // Nicholas of Clairvaux — for the feast of St Andrew
