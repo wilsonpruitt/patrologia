@@ -322,6 +322,7 @@ ${recentHtml}
   <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
   <p class="migne-line">“I confess to you in closing that my ambition is to die as the priest who will have been the most useful to the Church.” — J.-P. Migne to Dom Pitra, 1863</p>
   <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
+  <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>
 </footer>
 
 <script>

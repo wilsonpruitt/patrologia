@@ -57,9 +57,16 @@ export function head({ title, description, path }) {
 <body>`;
 }
 
+// The rights line runs in every footer. Migne's Latin and Greek are public
+// domain and stay that way; what is licensed is our English, our apparatus,
+// and our encoding. Keep this in sync with LICENSE and /rights/.
+export const rightsLine = () =>
+  `  <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>`;
+
 export const footer = () => `<footer class="colophon">
   <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
   <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
+${rightsLine()}
 </footer>
 
 </body>
