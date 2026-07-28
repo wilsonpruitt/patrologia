@@ -262,9 +262,16 @@ What to do instead, always:
 3. Never silently smooth. If a sentence is unconstruable, say so in the crux and
    render it as closely as the printed words allow.
 
-**Open carve-out (Wilson's ruling owed):** type that is not a word at all —
-`bonorem` for *honorem*, `clastibus` for *classibus*, `vul` for *vult*,
-`Canetenim` for *canet enim*. These cannot be "rendered literally" because there
-is nothing to render; the options are the obvious intended word, or carrying the
-printed non-word into the English untranslated in italics with a crux. Until this
-is ruled, do NOT extend the pattern-7 sweep to this class.
+**The non-word class — RULED (Wilson, 2026-07-28): carry it through.** Type that
+is not a word at all (`bonorem` for *honorem*, `clastibus` for *classibus*, `vul`
+for *vult*, `Canetenim` for *canet enim*) cannot be rendered literally, because
+there is nothing to render. It is **carried into the English untranslated, in
+italics, with a crux** — "that great *bonorem*" — exactly as untranslatable
+technical Latin is already handled. Reading the typo was considered and rejected:
+it is the same silent correction this pattern exists to forbid, merely applied to
+a smaller class, and it leaves the reader no way to know the plate is defective.
+
+The page will occasionally look strange. That is the intended cost: a reader who
+meets *bonorem* in italics learns something true about Migne's plate, and the
+conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
+no exceptions.
