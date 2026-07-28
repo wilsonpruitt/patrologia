@@ -164,5 +164,19 @@
     "latin": "Auctor incertus (Alcuinus?)",
     "attributionFlag": "Migne gathers these pieces among Alcuin's dubia. The ascription holds for some of them — several name their author as Albinus, Alcuin's own byname — and is doubtful for others; the dossier is not the work of a single hand.",
     "_note": "Shared anonymous key with an Alcuinian attribution flag. No popover; per-work provenance goes in work-about.json."
+  },
+  "Gualterus S. Victoris Parisiensis": {
+    "displayName": "Walter of Saint Victor",
+    "latin": "Gualterus S. Victoris Parisiensis",
+    "dates": "d. c. 1180",
+    "bio": "Canon regular of the Abbey of Saint Victor in Paris, subprior under Richard and his successor as prior from 1173; his death is placed variously between 1179 and 1190. He is remembered almost entirely for the Contra quatuor labyrinthos Franciae, an unmeasured attack on Abelard, Gilbert de la Porrée, Peter Lombard and Peter of Poitiers for handling the Trinity and the Incarnation with what he called scholastic levity. Some thirty of his sermons also survive.",
+    "_note": "Filed 2026-07-28, not yet a live byline target. Migne's own form, taken from the corpus rather than guessed: cc-pl-index authorIdno 2357, and the headnote in sources/pl/tei/11577.xml reads 'codex manuscriptus M. Gualteri de S. Victore' — NOT 'Galterus'. The death date is deliberately hedged: Catholic Encyclopedia c.1180, New Catholic Encyclopedia c.1190, Migne's own PL 199 headnote 'circa annum 1180'. He has one work in the corpus: idno 11577, Excerpta ex libris contra IV labyrinthos Franciae, PL 199 1129A-1172A, 17,454 words."
+  },
+  "Joel": {
+    "displayName": "Joel",
+    "latin": "Joel",
+    "dates": "",
+    "bio": "13th-century Byzantine chronicler; nothing is known of him beyond this work.",
+    "_note": "Migrated 2026-07-28 from pg-works.json authorNote, which no script read — Joel's PG page had no bio card at all. Keep bios HERE; pg-works.json is a queue register, not a display source."
   }
 }

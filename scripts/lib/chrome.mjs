@@ -9,6 +9,8 @@ export const NAV_ITEMS = [
   { key: 'graeca', href: '/graeca/', label: 'Græca' },
   { key: 'authors', href: '/authors/', label: 'Authors' },
   { key: 'queue', href: '/queue/', label: 'The Queue' },
+  { key: 'scripture', href: '/scripture/', label: 'Scripture' },
+  { key: 'sources', href: '/sources/', label: 'Sources' },
   { key: 'migne', href: '/migne/', label: 'Migne' },
 ];
 

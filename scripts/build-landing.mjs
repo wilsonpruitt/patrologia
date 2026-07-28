@@ -170,11 +170,22 @@ for (const wk of (worksData.works || worksData)) {
 // plus anything unrecognized, gets the weak claim.
 const NOT_VERIFIED_NONE = new Set(['unclear', 'partial', 'mixed', 'minimal', null, undefined]);
 
-// PG works live outside the PL-derived works.json, so they cannot be looked up.
-// Listed explicitly rather than defaulted, so a PL lookup miss can never inherit
-// a "first" claim by accident. Joel's Chronographia is a verified first — the
-// first complete Byzantine world chronicle in English (Phase 6 PG pilot).
-const PG_FIRSTS = new Set(['/pg/139/chronographia/']);
+// PG works live outside the PL-derived works.json, so they are looked up in their
+// own register. This READS data/pg-works.json rather than hardcoding a list: that
+// file already carried `translationStatus` + `translationStatusVerified` per work
+// and no script read either field, so the status was being maintained by hand and
+// then ignored (2026-07-28). A PG work claims "first" only on an explicit verified
+// none — never by defaulting, so a lookup miss cannot inherit the claim.
+const PG_FIRSTS = (() => {
+  const p = path.join(ROOT, 'data/pg-works.json');
+  if (!fs.existsSync(p)) return new Set();
+  const out = new Set();
+  for (const w of (JSON.parse(fs.readFileSync(p, 'utf8')).works ?? [])) {
+    if (w.translationStatus === 'none' && w.translationStatusVerified)
+      out.add(`/${w.series}/${w.volume}/${w.slug}/`);
+  }
+  return out;
+})();
 
 const isFirstEnglish = w => {
   // FAIL SAFE (CLAUDE.md rule 8, 2026-07-28). "First English translation" is a
