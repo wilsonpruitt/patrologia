@@ -442,6 +442,21 @@ though the reading is Migne's. Only carried, untranslated type is marked. (This
 boundary is worth watching — 11081 col. 0030B, where the literal rendering is
 actively misleading, is the case that would reopen it.)
 
+**Where Migne prints his own *sic*, do not add ours.** 10517 col. 1099B prints
+*De hoc loco acenti ( sic )* — the nineteenth-century editor had already caught
+it and said so. His `( sic )` is reproduced verbatim like any other printed
+matter, and it does the job our marker would do; adding `[sic: …]` on top would
+tell the reader twice and blur whose observation it was. Ours marks defects
+Migne passed over, not defects he flagged.
+
+**The operational test, found during the sweep and worth stating plainly:** read
+the crux's own verb. A crux that says the reading was *"rendered as printed"* or
+*"rendered literally"* means the word on the page is **English, and ours** — no
+marker. A crux that says the run was *"carried into the English untranslated, in
+italics"* means the word on the page is **Latin, and Migne's** — marker. The
+question is never how wrong the Latin looks; it is whether what the reader sees
+is our translation or his type.
+
 **Scope at adoption (2026-07-28):** ~73 instances across 30 works, swept from
 each work's `cruces.md` rather than by pattern-matching the prose — per the
 method warning of 2026-07-28, a phrase-matching sweep reports itself complete

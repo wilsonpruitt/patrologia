@@ -497,6 +497,18 @@ a { color: inherit; }
   text-decoration-skip-ink: none;
   cursor: help;
 }
+/* pattern-13 [ed: …]: the edition's own voice. Deliberately the ONLY thing on the
+   page that does not look like the text — smaller, spaced, in the gilt, so it reads
+   as a label rather than as something Migne printed. */
+.ednote {
+  display: inline-block;
+  font-family: var(--didot);
+  font-size: .82rem;
+  letter-spacing: .03em;
+  color: var(--dorure);
+  font-style: normal;
+  margin: .15em 0;
+}
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }
 .coltext li.colmark { list-style: none; }
