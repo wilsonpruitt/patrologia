@@ -1,5 +1,9 @@
 # Next session — resume note
 
+> **Open item (2026-07-28):** `/method` is strong but has **no "why translate this way"
+> argument** — it defends the procedure and never the project — and it does not link the
+> sibling corpora. One section to add; details in **`NOTES-method-page.md`** at the repo root.
+
 ## 2026-07-28 (later) — Patterns 7–11, corpus-wide literal sweep, badge fail-safe
 
 **DEPLOYED** (through `a02ea40` + the badge fix). Everything below is live on migne.app.
