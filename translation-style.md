@@ -185,3 +185,35 @@ principum apostolorum*) ×3 and 11436 (*Vita et passio S. Thomae Cantuariensis*)
 ×2. All rejoined 1:1, which also cleared both index parity warnings. 10103's
 Romans quotation at 0594B–C is **unclosed in Migne**; the supplied `»` was
 removed so the English mirrors the plate, and it is logged as a crux there.
+
+### 6. Which quotation mark: « » is Migne's, " " is ours
+
+Wilson's ruling, 2026-07-28: *consistency is the requirement.* The corpus already
+had two quotation marks in play; this fixes which does what, and the division is
+**provenance**, not taste:
+
+- **« »** — reproduces a quotation mark **Migne prints**. Placed 1:1 with the
+  Latin twin, per Pattern 5. Never supplied where the plate has none, never
+  omitted where it has one.
+- **" "** — a quotation mark **we supply** because English needs one and Migne
+  marks the quotation some other way (italics, a bare *inquit*, or nothing at
+  all). Legitimate and common: 219 chunks carry these.
+
+The payoff is that a reader can tell the plate from the edition by eye, with no
+apparatus — the same instinct as `refDisplay` keeping what Migne prints while
+`refKey` resolves the truth. It also makes the rule mechanically checkable:
+**guillemet counts must equal the Latin twin's** (`verify-english.mjs` check 7),
+while straight quotes are free.
+
+Corollary for lemma-and-gloss commentary (the hard case): where the commentator
+quotes a lemma and then glosses it, only the lemma marks Migne actually prints
+become « ». A gloss-internal quotation the translator adds for readability takes
+" ". Do not "tidy" a commentary into uniform guillemets — that erases the
+distinction the rule exists to preserve.
+
+**State at adoption (2026-07-28):** 275 chunks already match the Latin twin
+exactly; 94 drift, concentrated in 11064 Hugh of St Victor *In hierarchiam
+coelestem* (55 chunks, 99 marks) and 9076 Haimo (20 chunks, 26 marks), with a
+short tail in 10725, 9741, 11299, 8566, 11325, 21413. The drift is drift, not a
+competing convention — reconciling it is a scoped repair pass, tracked in
+`next-session-resume.md`.
