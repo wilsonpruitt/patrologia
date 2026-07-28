@@ -1,0 +1,28 @@
+{
+  "idno": "11549",
+  "chunksRead": 6,
+  "candidates": [
+    {
+      "chunk": "0001",
+      "column": "0671D",
+      "printedLatin": "Negat autem Apostolus quod ex sola cognitione sive doctrina perficiendi; negat, inquam, et merito, hominem non posse vivificari.",
+      "englishAsRendered": "But the Apostle denies that from knowledge alone, or the teaching, of what is to be accomplished; he denies, I say, and rightly, that a man cannot be given life.",
+      "defectType": "added-negative",
+      "conjecture": "hominem posse vivificari (the non is intrusive)",
+      "whyContradiction": "As printed, the Apostle is made to deny that a man CANNOT be given life by knowledge alone — i.e. to assert that bare knowledge CAN vivify. This is the opposite of the whole surrounding argument (repeated across this chunk and the next), which is that the law's teaching gives knowledge only, never fulfillment or life, and that 'what the Apostle denies of the knowledge of the commandment alone, the Lord affirms of the fulfilling of it' — a contrast that only makes sense if the Apostle denies that bare knowledge CAN vivify.",
+      "confidence": "high",
+      "alreadyLogged": true
+    },
+    {
+      "chunk": "0002",
+      "column": "0673A",
+      "printedLatin": "Sed quomodo in ejus nomine petimus si in ipsum credimus?",
+      "englishAsRendered": "But how do we ask in his name if we believe in him?",
+      "defectType": "dropped-nisi",
+      "conjecture": "si for nisi — 'nisi in ipsum credimus' (a dropped ni)",
+      "whyContradiction": "As printed the question answers itself: believing in Christ is presented as the OBSTACLE to asking in his name, which contradicts the entire surrounding argument that belief in Christ is the precondition for prayer in his name. The very next sentence supplies the resolution by quoting John 14:1, 'You believe in God, believe also in me,' and the paragraph concludes 'let him believe in Christ, and in Christ ask the Father' — both requiring the reading 'unless we believe in him.'",
+      "confidence": "high",
+      "alreadyLogged": true
+    }
+  ]
+}

@@ -276,6 +276,53 @@ meets *bonorem* in italics learns something true about Migne's plate, and the
 conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
 no exceptions.
 
+#### 7a. The silent repair — the failure mode this rule actually has
+
+Pattern 7 is broken far more often by **quiet repair than by open emendation**,
+and quiet repair is the more dangerous of the two because nothing on the page
+looks wrong afterward. An open emendation at least announces itself; a repair
+made *inside the translation* leaves a smooth English sentence, a clean
+`verify-english` run, and no trace that the plate was ever defective.
+
+**The worked case (found by the PL 196 polarity sweep, 2026-07-28):** at
+11547 col. 0260D Migne prints
+
+> *Utrobique **nolebat** eos **azyma** habere, utrobique sine corruptione esse.*
+
+His own preceding sentence supplies the right verb — *eos fieri **volebat**
+conspersionem absque fermento* — so `nolebat` is a plate defect. Faced with a
+sentence that now said the Apostle did not want them to have *unleavened bread*,
+the translator rendered *azyma* as "**leaven**": the opposite word, chosen so the
+English would make sense. The defect was not corrected, it was **concealed**, and
+it survived a verifier pass and a corpus-wide emendation sweep because that sweep
+read `cruces.md` files and this repair had never been logged as a crux.
+
+**The rule that follows:**
+- **A word may not be translated as its opposite, or as anything other than what
+  it means, in order to rescue a sentence.** If the printed sentence is
+  self-contradictory, the English is self-contradictory, and the crux explains
+  why.
+- **Every negation the Latin prints appears in the English, and no negation
+  appears that the Latin does not print.** `non`, `nec`, `neque`, `nisi`, `haud`,
+  `nunquam`, `nullus`, `nihil` — carry each one, including when carrying it makes
+  the sentence contradict itself. (At 11536 col. 1085D a printed `haud` was simply
+  dropped, so our English asserted that the Dead Sea *is* worthily so called, in a
+  sentence whose next clause denies it.)
+- **A repair is not made honest by a crux that describes it.** Several cruces have
+  correctly identified a defect and then under-rendered it anyway. The crux
+  records; the text reproduces. Both, or the entry is incomplete.
+- **If you cannot make the printed reading say anything at all**, render it as
+  closely as the words allow and say so in the crux — never substitute a word that
+  works.
+
+**Why no mechanical check catches this.** Counting negation particles across the
+Latin/English pair was tried and fails in both directions: it flags faithful
+paragraphs (Latin `nisi` → English "save"; `non moritur` → "dies no more") and it
+missed the confirmed 11536 case outright, because other negations in the paragraph
+balanced the count. There is no substitute for reading the pair. That is why the
+polarity check is a pipeline step (`translation-runbook.md` step 4a) and not a
+verifier rule.
+
 ### 8. Punctuation follows the plate too — preserve, never supply, never delete
 
 **Wilson, 2026-07-28.** Pattern 7's worked examples are all word-level, which left

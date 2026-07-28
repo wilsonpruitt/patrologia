@@ -1,0 +1,28 @@
+{
+  "agent": "recall-A",
+  "chunksRead": 12,
+  "findings": [
+    {
+      "idno": "11547",
+      "chunk": "0000",
+      "column": "0256B",
+      "printedLatin": "Nam quod azyma apud Graecos, hoc idem sonat fermentum apud nos, azyma vero idem quod absque fermento.",
+      "englishAsRendered": "For what *azyma* [is] among the Greeks, that same thing our word \"leaven\" (*fermentum*) expresses among us; but *azyma* [means] the same as \"without leaven.\"",
+      "defectType": "added-negative",
+      "conjecture": "Nam quod ZYMA apud Graecos, hoc idem sonat fermentum apud nos, azyma vero idem quod absque fermento. The first word has acquired an intrusive alpha-privative; Greek zyma = leaven, azyma = unleavened.",
+      "whyContradiction": "The second half of the same sentence denies the first: 'azyma vero idem quod absque fermento.' As printed, azyma is glossed both as fermentum and as absque fermento in a single breath. The whole treatise then rests on the second gloss ('Si ergo absque fermento non sunt, quomodo azyma dici possunt? Vel si omni fermento carent, quomodo purgare valent quod omnino non habent?'), which is unintelligible unless the Greek pair zyma/azyma has just been correctly distinguished. The clause exists only to supply that distinction and, as printed, destroys it.",
+      "confidence": "high"
+    },
+    {
+      "idno": "11547",
+      "chunk": "0001",
+      "column": "0260C",
+      "printedLatin": "Utrobique nolebat eos azyma habere, utrobique sine corruptione esse.",
+      "englishAsRendered": "In both cases he did not wish them to have leaven; in both, to be without corruption.",
+      "defectType": "added-negative",
+      "conjecture": "Utrobique VOLEBAT eos azyma habere, utrobique sine corruptione esse. (noluit/voluit class; the alternative repair, nolebat eos FERMENTUM habere, mends only the first limb and leaves the second stranded.)",
+      "whyContradiction": "One verb governs both infinitives, so as printed the Apostle also 'did not wish them to be without corruption' (utrobique sine corruptione esse) — the exact opposite of the argument. The immediately preceding sentence supplies the true verb and the true object: 'sic juxta aliquid eos fieri VOLEBAT conspersionem absque fermento.' Note also that the English twin silently repairs the object (azyma rendered as 'leaven') while leaving the second limb dangling, i.e. the translator felt the reversal and patched around it.",
+      "confidence": "medium"
+    }
+  ]
+}

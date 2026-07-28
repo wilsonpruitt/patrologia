@@ -1,0 +1,47 @@
+{
+  "agent": "opus-11536b",
+  "idno": "11536",
+  "chunksRead": 8,
+  "findings": [
+    {
+      "chunk": "0009",
+      "column": "1097D",
+      "printedLatin": "Ipsum cui noluit hoc opus ascribere, maluit designare ex descriptione.",
+      "englishAsRendered": "The very one to whom he was unwilling to ascribe this work, he preferred to designate by a description.",
+      "defectType": "added-negative",
+      "conjecture": "voluit for noluit — \"Ipsum cui voluit hoc opus ascribere, maluit designare ex descriptione\"",
+      "whyContradiction": "The whole point of the paragraph is that the psalmist ascribes the work to God and not to himself: 'Sed, ne quis eum vel hoc ipsum boni exordium sibi ascribere credat, audiat quid huic sententiae adnectat haec mutatio dexterae Excelsi. Non sibi sufficere potuit ut diceret haec mutatio Dei, nisi diceret haec mutatio dexterae Excelsi.' He was not unwilling to ascribe the work to God — he was unwilling to ascribe it to himself. The following clause supplies the correct sense: 'Excelsum dicit qui hoc fecit, et dexteram nominavit. Ac si aperte dicat: Ille hoc fortiter fecit qui fortia potenter efficere consuevit.' The one to whom he DID wish to ascribe it he chose to name descriptively ('the right hand of the Most High') rather than by the bare name 'Dei'. As printed, 'noluit' makes the descriptive naming pointless and denies the ascription the sentence's own sequel affirms.",
+      "confidence": "high"
+    },
+    {
+      "chunk": "0012",
+      "column": "1106D",
+      "printedLatin": "Horum autem rationem hoc loco ostendere jam volumus, de quibus quod nobis rectius videbatur alias jam diximus.",
+      "englishAsRendered": "But the reason of these we now wish to set forth in this place, concerning which we have already said elsewhere what seemed to us more correct.",
+      "defectType": "dropped-non",
+      "conjecture": "nolumus (or non ... volumus) for volumus — \"Horum autem rationem hoc loco ostendere jam nolumus, de quibus quod nobis rectius videbatur alias jam diximus.\"",
+      "whyContradiction": "Its own relative clause gives the reason for declining, not for undertaking: 'de quibus quod nobis rectius videbatur alias jam diximus' ('concerning which we have already said elsewhere what seemed to us more correct'), and two sentences earlier he has already said the same: 'Quid autem de duodecim filiis Jacob sentiamus, ex quibus originem trahunt hae duodecim tribus, alio loco jam diximus.' As printed, the sentence announces an exposition that the sentence itself declares superfluous — and that Richard then does not give: he passes straight to 'Sed qui ex tali sobole semen suum in duodecim tribubus multiplicatum esse confidit discat quales lapides...' The bare list of tribe-virtues that precedes is given without any 'ratio' at all.",
+      "confidence": "high"
+    },
+    {
+      "chunk": "0014",
+      "column": "1111C",
+      "printedLatin": "Scala usque in coelum porrecta, ante ejus oculos erigitur, Dominusque innixus scalae conspicitur, ut per invisibilem formam, invisibiliumque figuram, in intellectibilium intelligentiam, speculantis animus sublevetur.",
+      "englishAsRendered": "A ladder reaching up to heaven is raised before his eyes, and the Lord is seen leaning upon the ladder, so that through invisible form and the figure of invisible things the mind of the beholder may be lifted up into the understanding of intelligible things.",
+      "defectType": "added-negative",
+      "conjecture": "visibilem for invisibilem — \"ut per visibilem formam, invisibiliumque figuram, in intellectibilium intelligentiam, speculantis animus sublevetur\"",
+      "whyContradiction": "The gloss in the very next sentence supplies the right word: 'Felix cui visibilium scientia fit scala ad invisibilia cognoscenda' ('Happy the man for whom the knowledge of VISIBLE things becomes a ladder for knowing invisible things'). The ladder is Richard's standard anagogic device — a seen form carrying the mind to the unseen — and the paired member 'invisibiliumque figuram' already supplies the invisible term, so 'invisibilem formam' collapses the antithesis and makes the ascent start from what it is supposed to reach. The chapter repeats the point twice more: 'nec eget in illa subtilitatis suae ascensione sustentari alicujus corporeae similitudinis adumbratione' and 'Felices quibus exteriorum scientia fit scala ascensionis, non ruina dejectionis.'",
+      "confidence": "high"
+    },
+    {
+      "chunk": "0016",
+      "column": "1114A",
+      "printedLatin": "Jacet hic corpus sine sensu et motu in hoc Dominico monumento; nihil sensualitas, nihil agit imaginatio, et omnis inferior vis animae proprio interim induitur officio.",
+      "englishAsRendered": "Here the body lies without sense and motion in this monument of the Lord; sensuality does nothing, imagination does nothing, and every lower power of the soul is meanwhile clothed with its own office.",
+      "defectType": "letter-inversion",
+      "conjecture": "exuitur for induitur — \"omnis inferior vis animae proprio interim exuitur officio\" (is meanwhile stripped of its own office)",
+      "whyContradiction": "The two clauses immediately preceding it in the same sentence assert the exact opposite of what 'induitur' claims: 'Jacet hic corpus sine sensu et motu ... nihil sensualitas, nihil agit imaginatio.' The body lies senseless and motionless, sensuality does nothing, imagination does nothing — so the lower powers are precisely NOT discharging their offices. The clause is the summary of that suspension, and the whole burial-in-the-stone figure requires divestiture ('nec recipit corpus nisi mortificatum', 'omnem sensum humanum funditus absorbeat'). As printed the summary reinstates the very faculties its own protasis has just shut down.",
+      "confidence": "high"
+    }
+  ]
+}

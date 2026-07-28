@@ -1,0 +1,17 @@
+{
+  "idno": "11531",
+  "chunksRead": 8,
+  "candidates": [
+    {
+      "chunk": "0002",
+      "column": "1000D",
+      "printedLatin": "Solus autem Spiritus sanctus in Trinitate non per semetipsum custodit: nam nulla in Trinitate persona ab ipso accipit ut aliquid faciat vel facere possit.",
+      "englishAsRendered": "But the Holy Spirit alone in the Trinity does not keep through himself: for no person in the Trinity receives from him that he should do anything or be able to do anything.",
+      "defectType": "dropped-non",
+      "conjecture": "non nisi per semetipsum (a dropped nisi)",
+      "whyContradiction": "Richard's three-term descending scheme has the Father keeping through the Son, through the Holy Spirit, and through himself; the Son keeping through himself and through the Holy Spirit but not through the Father. The series, and the causal nam-clause itself ('no person in the Trinity receives from him that he should do anything'), require that the Holy Spirit keep ONLY through himself, not that he fail to keep through himself at all. The printed negative breaks the descending pattern and is contradicted by its own nam-clause.",
+      "confidence": "high",
+      "alreadyLogged": true
+    }
+  ]
+}

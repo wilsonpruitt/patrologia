@@ -1,0 +1,28 @@
+{
+  "idno": "11534",
+  "chunksRead": 5,
+  "candidates": [
+    {
+      "chunk": "0001",
+      "column": "1046D",
+      "printedLatin": "saepe non novelli eorum qui ejusmodi sunt",
+      "englishAsRendered": "But often not the young ones of those who are of this sort, on account of the dread of falling and the labor of suffering, desire to die quickly, that they may thereafter be secure from every suspicion of peril.",
+      "defectType": "added-negative",
+      "conjecture": "saepe nonnulli eorum qui ejusmodi sunt (\"often SOME of those who are of this sort...\") — a mis-divided/misspelled nonnulli read as the negating non + novelli.",
+      "whyContradiction": "As printed, the sentence denies that the young of this class desire to die from dread of falling — but the whole surrounding passage is precisely enumerating the class of people (those secure in the twofold liberty) who DO desire an early death from such dread; a flat negation here reverses the point the sentence exists to make. The same paragraph uses nonnullius twice (nonnullius impatientiae, nonnullius diffidentiae), showing the word is live in context.",
+      "confidence": "high",
+      "alreadyLogged": true
+    },
+    {
+      "chunk": "0003",
+      "column": "1054A",
+      "printedLatin": "et semel dejectum ad status rectitudinem propria virtute roboratur",
+      "englishAsRendered": "and once cast down, he is strengthened to the uprightness of his state by his own power.",
+      "defectType": "dropped-non",
+      "conjecture": "et semel dejectus ad status rectitudinem propria virtute [non] roboratur — a negative (nec/nunquam) has dropped, and dejectum should be nominative dejectus.",
+      "whyContradiction": "The paragraph's whole argument is that fallen man CANNOT rise by his own strength — this sentence immediately follows the claim that man is cast down at the enemy's suggestion into whatever evil, and the parallel sentence just below makes the identical point about the soul being unable to nourish or sustain any good \"by any richness of their own.\" Asserting that man rises again \"by his own power\" is the exact reverse of the argument's conclusion.",
+      "confidence": "high",
+      "alreadyLogged": true
+    }
+  ]
+}

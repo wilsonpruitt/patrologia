@@ -1,0 +1,28 @@
+{
+  "idno": "11537",
+  "chunksRead": 5,
+  "candidates": [
+    {
+      "chunk": "0001",
+      "column": "1063C-D",
+      "printedLatin": "Sed si non oculis hominum se humiliare vel contemptibile apparere erubescit, matrem quidem praesentem habet, sed usque adhuc pulli praesentia caruit.",
+      "englishAsRendered": "But if he does not blush to humble himself before the eyes of men, or to appear contemptible, he has the mother present indeed, but has thus far lacked the colt's presence.",
+      "defectType": "added-negative",
+      "conjecture": "Sed si oculis hominum se humiliare vel contemptibile apparere erubescit [omit non] — the man who DOES blush to be humbled is the one who lacks the colt (true humiliation); the intrusive non makes the sentence assert the opposite of its own conclusion.",
+      "whyContradiction": "The next sentence sets up the reverse case explicitly: \"Si te exterius humilias, sed magnum aliquid de te existimas, pullum habes, sed matrem non habes\" (\"If you humble yourself outwardly, but esteem yourself something great, you have the colt, but you do not have the mother\") — this only makes sense as the mirror-image of a first case where NOT blushing (i.e., the *non* is intrusive) leaves the man with the mother but not the colt.",
+      "confidence": "high",
+      "alreadyLogged": true
+    },
+    {
+      "chunk": "0003",
+      "column": "1069D",
+      "printedLatin": "Unde sancti jam mortem timent, sed cupiunt dissolvi et esse cum Christo.",
+      "englishAsRendered": "Whence the saints now fear death, but desire to be dissolved and to be with Christ.",
+      "defectType": "dropped-non",
+      "conjecture": "Unde sancti jam non timent mortem, sed cupiunt dissolvi et esse cum Christo.",
+      "whyContradiction": "Directly contradicts the immediately preceding argument that the Savior \"per fear of death\" freed men — \"the Savior took death upon himself willingly, and by dying destroyed death, and so snatched men away from the fear of death\" — and the adversative sed (\"but desire to be dissolved\") only makes sense as a contrast to NOT fearing death.",
+      "confidence": "high",
+      "alreadyLogged": true
+    }
+  ]
+}

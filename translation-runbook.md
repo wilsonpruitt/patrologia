@@ -48,6 +48,28 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    `ALLEGORICALLY.`/`ALLEGORICAL.` for the same `ALLEGORICE.`). Head the merged
    file with a **work-wide conventions section** recording what was fixed and why,
    so a later sweep does not churn it.
+4a. **Polarity check — REQUIRED, and it must be a READING pass.** After verify,
+   read the English against the Latin twin hunting one thing: **a sentence that
+   contradicts its own immediate neighbour.** Two directions, both real:
+   - **Migne's defects** — a dropped or intrusive `non`/`nisi`/`haud`, or a
+     sense-reversing letter (`noluit`/`voluit`, `Illic`/`Hic`, `Nec`/`Nam`,
+     `induitur`/`exuitur`, `veritatem`/`unitatem`, `azyma`/`zyma`,
+     `pater`/`filius`). Render literally, log the crux.
+   - **OUR defects** — a negation the Latin prints and the English drops, or a
+     word translated as its opposite to make a broken sentence read. See
+     `translation-style.md` 7a. These are the serious ones: they leave no trace.
+
+   **Do not try to automate it.** Counting negation particles across the pair was
+   tried and fails both ways — it flags faithful paragraphs and misses real
+   omissions (the 11536/1085D case scored clean). `verify-english` cannot see this
+   class at all.
+
+   **Do not let the checker read `cruces.md` first.** In the 2026-07-28 sweep every
+   agent given the cruces file returned "all already logged" and found nothing new;
+   blind readers on the same works found four live defects the first pass had
+   missed. The cruces file becomes an answer key and caps recall at what is already
+   known. Check against it *after* forming findings, not before.
+
 5. **Author bio:** new author → add `data/author-bios.json` entry (`displayName`,
    `latin`, `dates`, `bio`; `dedicatee:true` for patron names in the author array).
    Without one the byline falls back to the Latin form — fine temporarily, not for deploy.
@@ -102,6 +124,17 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 > Scripture policy: translate what Migne prints, never substitute a conventional
 > version. Garbled type: render literally, log in `src/english/<idno>/cruces.md`
 > (column + reading + your note).
+>
+> **Negation fidelity — read `translation-style.md` 7a before you start.** Every
+> `non`, `nec`, `neque`, `nisi`, `haud`, `nunquam`, `nullus`, `nihil` the Latin
+> prints appears in your English, and none appears that the Latin does not print —
+> **including when carrying it makes the sentence contradict itself.** That
+> contradiction is usually a defect in Migne's plate and is exactly what the
+> edition exists to show. **Never translate a word as its opposite, or as anything
+> other than what it means, to rescue a sentence that will not construe.** If it
+> will not construe, render it as closely as the printed words allow and log the
+> crux. A repair hidden inside the translation leaves no trace, passes every
+> automated check, and is the one error class nobody downstream can find.
 >
 > **Known false positives — do NOT report these.** Each has been investigated and
 > settled; re-raising one costs a session's time and, when acted on, has twice
