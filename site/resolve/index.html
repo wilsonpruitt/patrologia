@@ -94,13 +94,22 @@
   var volEntry = data.volumes[cite.s][String(cite.v)];
   var disp = cite.s.toUpperCase() + ' ' + cite.v + ', col. ' + cite.c + cite.letter.toUpperCase();
 
-  var work = null;
+  // Collect EVERY work whose range covers the column, not just the first.
+  // Migne packs short works, so a boundary column genuinely holds the end of one
+  // work and the start of the next — 17 columns across 9 pairs do this among the
+  // works published so far (PL 196 1059 is the end of De differentia and the
+  // start of De gemino paschate). This used to `break` on the first match and
+  // silently resolve to one of them, arbitrarily and wrong about half the time.
+  // A shared column is a fact about the plate, not an error, so the honest
+  // behaviour is to offer both rather than guess.
+  var matches = [];
   for (var i = 0; i < data.works.length; i++) {
     var w = data.works[i];
-    if (w.series === cite.s && w.vol === cite.v && cite.c >= w.colFirst && cite.c <= w.colLast) { work = w; break; }
+    if (w.series === cite.s && w.vol === cite.v && cite.c >= w.colFirst && cite.c <= w.colLast) matches.push(w);
   }
+  var work = matches.length ? matches[0] : null;
 
-  if (work) {
+  function anchorFor(work) {
     var anchors = work.anchors;
     var anchor = null;
     if (cite.s === 'pl') {
@@ -133,6 +142,26 @@
         }
       }
     }
+    return anchor;
+  }
+
+  if (matches.length > 1) {
+    var opts = matches.map(function (m) {
+      var a = anchorFor(m);
+      return '<li><a href="' + m.path + (a ? '#c' + a : '') + '">' +
+        m.author + ', <i>' + m.title + '</i></a> ' +
+        '<span class="cite-range">cols. ' + m.colFirst + '–' + m.colLast + '</span></li>';
+    }).join('');
+    return render('TWO WORKS SHARE THIS COLUMN',
+      '<p class="cite-line">' + disp + '</p>' +
+      '<p class="word">Migne sets more than one work in this column — the end of one and the ' +
+      'beginning of the next share the page. Both are Englished here:</p>' +
+      '<ul class="choices">' + opts + '</ul>' +
+      '<p class="links"><a href="/">← back to the shelf</a></p>');
+  }
+
+  if (work) {
+    var anchor = anchorFor(work);
     location.replace(work.path + (anchor ? '#c' + anchor : ''));
     return;
   }

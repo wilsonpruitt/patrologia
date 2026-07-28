@@ -580,6 +580,11 @@ a { color: inherit; }
   color: var(--dorure); cursor: help;
 }
 
+/* ---------- resolver: shared-column disambiguation ---------- */
+.choices { list-style: none; margin: 1rem 0; padding: 0; }
+.choices li { margin: .5rem 0; line-height: 1.5; }
+.choices .cite-range { font-size: .8em; color: var(--encre-douce); letter-spacing: .02em; }
+
 /* ---------- sources page (/sources/) ---------- */
 .src { margin: 1.4rem 0; padding-left: .9rem; border-left: 2px solid var(--dorure); }
 .src h3 { font-family: var(--didot); font-weight: 400; font-size: 1.05rem; margin: 0 0 .2rem; }
