@@ -94473,7 +94473,8 @@
       "cpl": null,
       "translation": {
         "workStatus": "none",
-        "englishState": "untranslated"
+        "englishState": "ours",
+        "priorTriageNote": "englishState was \"untranslated\" at triage"
       },
       "texts": [
         {
@@ -151957,10 +151958,11 @@
       "cpl": null,
       "translation": {
         "workStatus": "none",
-        "englishState": "untranslated",
+        "englishState": "ours",
         "note": "Expositio in regulam S. Augustini — now attributed to Victorine school (not Hugh himself). Very old printed Latin edition (Bruges, 1697) exists; no modern English translation found.",
         "confidence": "medium",
-        "triageBatch": "33"
+        "triageBatch": "33",
+        "priorTriageNote": "englishState was \"untranslated\" at triage"
       },
       "texts": [
         {
@@ -201078,10 +201080,11 @@
       "cpl": null,
       "translation": {
         "workStatus": "unclear",
-        "englishState": "unclear",
+        "englishState": "ours",
         "note": "De exterminatione mali et promotione boni — not included in any VTT volume checked (confirmed absent from VTT 2 'On Love' contents). The Christian Platonism blog provides only the final chapter plus chapter subtitles, plus references an unofficial draft translation at john-uebersax.com.",
         "confidence": "medium",
-        "triageBatch": "50"
+        "triageBatch": "50",
+        "priorTriageNote": "englishState was \"unclear\" at triage"
       },
       "texts": [
         {

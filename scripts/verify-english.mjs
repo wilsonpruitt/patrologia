@@ -216,7 +216,17 @@ const LAT_DUP_MIN_WORDS = 8;
       latSeen.get(n).push(name);
     }
   }
-  for (const locs of latSeen.values()) if (new Set(locs).size > 1)
+  //   (c) A Latin repetition INSIDE ONE CHUNK must count too (2026-07-28, found by
+  //       11088/0002, where Migne quotes the Rule clause `Omnes ergo unanimiter et
+  //       concorditer vivite…` three times — full, fragment, full — and the English
+  //       mirrored it 1:1 and was failed for it). This test used `new Set(locs).size
+  //       > 1`, so a paragraph repeated twice in the SAME file collapsed to size 1
+  //       and never entered latDupPairs, while the English side counts raw
+  //       occurrences and does flag it. Net effect: cross-chunk repetitions were
+  //       excused and within-chunk ones could never be — and within-chunk is the
+  //       normal shape of a lemma-and-gloss commentary, which is most of the queue.
+  //       Counting occurrences makes the key match the English side's for both cases.
+  for (const locs of latSeen.values()) if (locs.length > 1)
     latDupPairs.add([...new Set(locs)].sort().join('+'));
 }
 

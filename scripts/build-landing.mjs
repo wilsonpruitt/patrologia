@@ -17,6 +17,10 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-28 session (fifth): 3 works, 16- and 17-chunk tier —
+  'pl/164/expositio-in-cantica-canticorum',                      // Bruno of Segni — on the Song of Songs (first of the Song commentaries)
+  'pl/196/de-exterminatione-mali-et-promotione-boni',            // Richard of St Victor — the driving out of evil and the advancement of good
+  'pl/176/expositio-in-regulam-s-augustini',                     // Hugh of St Victor — on the Rule of Augustine
   // — 2026-07-28 session (fourth): 4 works, 5- to 15-chunk tiers, smallest-first —
   'pl/175/adnotatiunculae-in-joelem',                            // Hugh of St Victor — brief notes on Joel
   'pl/196/expositio-de-tabernaculo',                             // Richard of St Victor — on the tabernacle, with the concordance of regnal years

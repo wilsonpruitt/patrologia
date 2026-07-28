@@ -1,0 +1,3965 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 5766,
+  "textIdno": 10804,
+  "title": "Expositio in Cantica canticorum",
+  "authors": [
+    "Bruno Astensis"
+  ],
+  "authorsDisplay": [
+    "Bruno of Segni"
+  ],
+  "series": "pl",
+  "volume": 164,
+  "colFirst": "1233",
+  "colLast": "1288b",
+  "counts": {
+    "scripture": 145,
+    "fontes": 1,
+    "heads": 9,
+    "headnotes": 498,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "John.7.10",
+      "refDisplay": "Joan. VII, 10",
+      "column": "1235b",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Cor.2.15",
+      "refDisplay": "II Cor. II, 15.",
+      "column": "1235c",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.3.13",
+      "refDisplay": "Joan. III, 13",
+      "column": "1236a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.3.13",
+      "refDisplay": "ibid. XII, 32",
+      "antecedent": "Joan. III, 13",
+      "antecedentColumn": "1236a",
+      "ibidResolved": true,
+      "column": "1236a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.35.9",
+      "refDisplay": "Psal. XXXV, 9",
+      "column": "1236b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eph.5.8",
+      "refDisplay": "Ephes. V, 8",
+      "column": "1237a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rom.10.15",
+      "refDisplay": "Rom. X, 15",
+      "column": "1237b",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.1.5",
+      "refDisplay": "Joan. I, 5",
+      "column": "1237c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.44.3",
+      "refDisplay": "Psal. XLIV, 3",
+      "column": "1237c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.1.15",
+      "refDisplay": "Galat. I, 15",
+      "column": "1238a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.50.7",
+      "refDisplay": "Ps. L, 7",
+      "column": "1238b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.106.37",
+      "refDisplay": "Ps. CVI, 37",
+      "column": "1238b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Acts.13.46",
+      "refDisplay": "Act. XIII, 46",
+      "column": "1238c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.3.16",
+      "refDisplay": "Cor. III, 16.",
+      "refKeyPrinted": null,
+      "corrected": true,
+      "correctionNote": "Migne prints the book without its numeral, so the reference does not parse at all. The quoted Latin is 1 Cor. 3:16 verbatim; II Cor. has no such verse.",
+      "column": "1239b",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.2.15",
+      "refDisplay": "II Cor. II, 15",
+      "column": "1241c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.140",
+      "refDisplay": "Ps. CXL",
+      "column": "1241c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rev.5.8",
+      "refDisplay": "Apoc. V, 8",
+      "column": "1241c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.26.38",
+      "refDisplay": "Matth. XXVI, 38.",
+      "column": "1242a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.29.6",
+      "refDisplay": "Psal. XXIX, 6",
+      "column": "1242b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.15.13",
+      "refDisplay": "Joan. XV, 13",
+      "column": "1242c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.11.5",
+      "refDisplay": "Psal. XI, 5",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.65.7",
+      "refDisplay": "Psal. LXV, 7",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Isa.11.1",
+      "refDisplay": "Isa. XI, 1",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.11.29",
+      "refDisplay": "Matth. XI, 29",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.140.2",
+      "refDisplay": "Psal. CXL, 2",
+      "column": "1244a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.1.3",
+      "refDisplay": "Psal. I, 3",
+      "column": "1244b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Luke.23.31",
+      "refDisplay": "Luc. XXIII, 31.",
+      "column": "1244c",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.15.16",
+      "refDisplay": "Joan. XV, 16",
+      "column": "1244c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.118.103",
+      "refDisplay": "Psal. CXVIII, 103",
+      "column": "1244d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.74.9",
+      "refDisplay": "Psal. LXXIV, 9",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Cor.2.6",
+      "refDisplay": "I Cor. II, 6",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.22.5",
+      "refDisplay": "Psal. XXII, 5.",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.22.37",
+      "refDisplay": "Matth. XXII, 37",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.22.37",
+      "refDisplay": "ibid., 39",
+      "antecedent": "Matth. XXII, 37",
+      "antecedentColumn": "1245a",
+      "ibidResolved": true,
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.5.43",
+      "refDisplay": "Matth. V, 43",
+      "column": "1245b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.5.43",
+      "refDisplay": "ibid., 44",
+      "antecedent": "Matth. V, 43",
+      "antecedentColumn": "1245b",
+      "ibidResolved": true,
+      "column": "1245b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.88",
+      "refDisplay": "Psal. LXXXVIII.",
+      "column": "1247b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.17.30",
+      "refDisplay": "Psal. XVII, 30",
+      "column": "1247b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.28.10",
+      "refDisplay": "Isa. XXVIII, 10",
+      "column": "1247c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.10.16",
+      "refDisplay": "Matth. X, 16",
+      "column": "1247d",
+      "chunk": 4
+    },
+    {
+      "refKey": "2Cor.6.2",
+      "refDisplay": "II Cor. VI, 2",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Rom.13.12",
+      "refDisplay": "Rom. XIII, 12",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.4.35",
+      "refDisplay": "Joan. IV, 35",
+      "column": "1248b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.23.1",
+      "refDisplay": "Psal. XXIII, 1",
+      "column": "1248b",
+      "chunk": 4
+    },
+    {
+      "refKey": "2Cor.2.16",
+      "refDisplay": "II Cor. II, 16",
+      "column": "1248c",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.20.28",
+      "refDisplay": "Joan. XX, 28",
+      "column": "1249a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Exod.33.15",
+      "refDisplay": "Exod. XXXIII, 15",
+      "column": "1249b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.136.9",
+      "refDisplay": "Psal. CXXXVI, 9",
+      "column": "1249c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.28.20",
+      "refDisplay": "Matth. XXVIII, 20",
+      "column": "1250a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.83.10",
+      "refDisplay": "Psal. LXXXIII, 10",
+      "column": "1250a",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.19.37",
+      "refDisplay": "Joan. XIX, 37",
+      "column": "1250b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.11.25",
+      "refDisplay": "Matth. XI, 25",
+      "column": "1251a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.62.1",
+      "refDisplay": "Psal. LXII, 1",
+      "column": "1251a",
+      "chunk": 5
+    },
+    {
+      "refKey": "2Cor.6.16",
+      "refDisplay": "II Cor. VI, 16",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.23.38",
+      "refDisplay": "Matth. XXIII, 38",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Rom.15.25",
+      "refDisplay": "Rom. XV, 25",
+      "column": "1251d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Eph.2.14",
+      "refDisplay": "Ephes. II, 14",
+      "column": "1253a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.131.14",
+      "refDisplay": "Psal. CXXXI, 14",
+      "column": "1253a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.149.6",
+      "refDisplay": "Psal. CXLIX, 6",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Eph.6.17",
+      "refDisplay": "Ephes. VI, 17",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.143.1",
+      "refDisplay": "Psal. CXLIII, 1",
+      "column": "1253c",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.9.27",
+      "refDisplay": "I Cor. IX, 27",
+      "column": "1253c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.22.2",
+      "refDisplay": "Psal. XXII, 2",
+      "column": "1254a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.74.4",
+      "refDisplay": "Psal. LXXIV, 4",
+      "column": "1254a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.22.5",
+      "refDisplay": "Psal. XXII, 5",
+      "column": "1254b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.68.22",
+      "refDisplay": "Psal. LXVIII, 22",
+      "column": "1254b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Gen.9.7",
+      "refDisplay": "Gen. IX, 7",
+      "column": "1256a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.118.103",
+      "refDisplay": "Psal. CXVIII, 103",
+      "column": "1256d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.83.10",
+      "refDisplay": "Psal. LXXXIII, 10",
+      "column": "1257d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.15.10",
+      "refDisplay": "Psal. XV, 10",
+      "column": "1258a",
+      "chunk": 7
+    },
+    {
+      "refKey": "2Tim.2.5",
+      "refDisplay": "II Tim. II, 5",
+      "column": "1258c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Rom.8.17",
+      "refDisplay": "Rom. VIII, 17",
+      "column": "1258d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Rom.11.25",
+      "refDisplay": "Rom. XI, 25",
+      "column": "1259a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.68.13",
+      "refDisplay": "Psal. LXVIII, 13",
+      "column": "1259b",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.2.6",
+      "refDisplay": "I Cor. II, 6",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.3.2",
+      "refDisplay": "I Cor. III, 2",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.41.3",
+      "refDisplay": "Psal. XLI, 3",
+      "column": "1260a",
+      "chunk": 8
+    },
+    {
+      "refKey": "2Cor.2.15",
+      "refDisplay": "II Cor. II, 15",
+      "column": "1261a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.71.9",
+      "refDisplay": "Psal. LXXI, 9",
+      "column": "1261d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Phil.1.23",
+      "refDisplay": "Philip. I, 23",
+      "column": "1262d",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.6.54",
+      "refDisplay": "Joan. VI, 54",
+      "column": "1263a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Rev.3",
+      "refDisplay": "Apoc. III",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.15.7",
+      "refDisplay": "Psal. XV, 7",
+      "column": "1263d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.132.2",
+      "refDisplay": "Psal. CXXXII, 2",
+      "column": "1264a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.143.5",
+      "refDisplay": "Psal. CXLIII, 5",
+      "column": "1264b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.17.45",
+      "refDisplay": "Psal. 17, 45",
+      "column": "1264c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Isa.64.1",
+      "refDisplay": "Isa. LXIV, 1.",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Phil.1.23",
+      "refDisplay": "Philip. I, 23",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Heb.4.12",
+      "refDisplay": "Hebr. IV, 12",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Isa.63.1",
+      "refDisplay": "Isa. LXIII, 1.",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.88.7",
+      "refDisplay": "Psal. LXXXVIII, 7.",
+      "column": "1266d",
+      "chunk": 10
+    },
+    {
+      "refKey": "1Cor.11.3",
+      "refDisplay": "I Cor. XI, 3",
+      "column": "1266d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.91.13",
+      "refDisplay": "Psal. XCI, 13",
+      "column": "1267a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Rev.5.6",
+      "refDisplay": "Apoc. V, 6",
+      "column": "1267b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.5.14",
+      "refDisplay": "Matth. V, 14",
+      "column": "1267b",
+      "chunk": 10
+    },
+    {
+      "refKey": "2Cor.2.14",
+      "refDisplay": "II Cor. II, 14",
+      "column": "1267c",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.3.7",
+      "refDisplay": "Joan. III, 7",
+      "column": "1267c",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.3.7",
+      "refDisplay": "ibid., 5",
+      "antecedent": "Joan. III, 7",
+      "antecedentColumn": "1267c",
+      "ibidResolved": true,
+      "column": "1267d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.10.8",
+      "refDisplay": "Matth. X, 8",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.5.10",
+      "refDisplay": "Matth. V, 10",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.15.20",
+      "refDisplay": "Joan. XV, 20",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.16.24",
+      "refDisplay": "Matth. XVI, 24",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Rom.1.20",
+      "refDisplay": "Rom. I, 20",
+      "column": "1268b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.6.29",
+      "refDisplay": "Matth. VI, 29",
+      "column": "1268b",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.19.11",
+      "refDisplay": "Joan. XIX, 11",
+      "column": "1269a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Rev.3.20",
+      "refDisplay": "Apoc. III, 20",
+      "column": "1271a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.75.3",
+      "refDisplay": "Psal. LXXV, 3",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Gal.4.26",
+      "refDisplay": "Galat. IV, 26",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Rom.12.3",
+      "refDisplay": "Rom. XII, 3",
+      "column": "1271d",
+      "chunk": 11
+    },
+    {
+      "refKey": "Jas.1.17",
+      "refDisplay": "Jac. I, 17",
+      "column": "1272b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Exod.33.20",
+      "refDisplay": "Exod. XXXIII, 20",
+      "column": "1272c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Matt.23.4",
+      "refDisplay": "Matth. XXIII, 4",
+      "column": "1273a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Rom.14.10",
+      "refDisplay": "Rom. XIV, 10",
+      "column": "1273a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.48.6",
+      "refDisplay": "Psal. XLVIII, 6",
+      "column": "1273a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Matt.25.41",
+      "refDisplay": "Matth. XXV, 41",
+      "column": "1273b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.102.5",
+      "refDisplay": "Psal. CII, 5",
+      "column": "1273b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Prov.31.28",
+      "refDisplay": "Prov. XXXI, 28",
+      "column": "1274a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.17.17",
+      "refDisplay": "Psal. XVII, 17",
+      "column": "1274d",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.17.40",
+      "refDisplay": "Psal. XVII, 40",
+      "column": "1275a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Luke.3.5",
+      "refDisplay": "Luc. III, 5",
+      "column": "1275b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Hab.3.8",
+      "refDisplay": "Habac. III, 8",
+      "column": "1275d",
+      "chunk": 12
+    },
+    {
+      "refKey": "1Cor.1.23",
+      "refDisplay": "I Cor. I, 23",
+      "column": "1276a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Rom.13.13",
+      "refDisplay": "Rom. XIII, 13",
+      "column": "1276c",
+      "chunk": 13
+    },
+    {
+      "refKey": "Sir.15.5",
+      "refDisplay": "Eccli. XV, 5",
+      "column": "1277b",
+      "chunk": 13
+    },
+    {
+      "refKey": "John.12.24",
+      "refDisplay": "Joan. XII, 24",
+      "column": "1277c",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.60.4",
+      "refDisplay": "Psal. LX, 4",
+      "column": "1278a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Deut.19.21",
+      "refDisplay": "Deut. XIX, 21",
+      "column": "1280b",
+      "chunk": 14
+    },
+    {
+      "refKey": "1Thess.5.17",
+      "refDisplay": "I Thess. V, 17",
+      "column": "1280c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.54.8",
+      "refDisplay": "Psal. LIV, 8",
+      "column": "1281a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Rom.13.12",
+      "refDisplay": "Rom. XIII, 12",
+      "column": "1281a",
+      "chunk": 14
+    },
+    {
+      "refKey": "2Cor.2.16",
+      "refDisplay": "II Cor. II, 16",
+      "column": "1281c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.21.23",
+      "refDisplay": "Psal. XXI, 23",
+      "column": "1282a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Luke.2.52",
+      "refDisplay": "Luc. II, 52",
+      "column": "1282a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.13.1",
+      "refDisplay": "Psal. XIII, 1",
+      "column": "1284b",
+      "chunk": 15
+    },
+    {
+      "refKey": "John.4.17",
+      "refDisplay": "Joan. IV, 17",
+      "column": "1284c",
+      "chunk": 15
+    },
+    {
+      "refKey": "Rom.8.32",
+      "refDisplay": "Rom. VIII, 32",
+      "column": "1284d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.66.10",
+      "refDisplay": "Psal. LXVI, 10",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "refKey": "2Cor.11.2",
+      "refDisplay": "II Cor. XI, 2",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Luke.12.49",
+      "refDisplay": "Luc. XII, 49",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Rom.8.35",
+      "refDisplay": "Rom. VIII, 35",
+      "column": "1285b",
+      "chunk": 15
+    },
+    {
+      "refKey": "John.15.13",
+      "refDisplay": "Joan. XV, 13",
+      "column": "1285c",
+      "chunk": 15
+    },
+    {
+      "refKey": "Luke.2.14",
+      "refDisplay": "Luc. II, 14",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Isa.5.7",
+      "refDisplay": "Isa. V, 7",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Eph.2.14",
+      "refDisplay": "Ephes. II, 14",
+      "column": "1287a",
+      "chunk": 16
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Isa, LVI, 2.",
+      "column": "1239b",
+      "chunk": 1
+    }
+  ],
+  "heads": [
+    {
+      "la": "Expositio in Cantica canticorum",
+      "column": "1233",
+      "chunk": 0,
+      "en": "Exposition on the Song of Songs"
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "1233",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "1243b",
+      "chunk": 3,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "1250c",
+      "chunk": 5,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "1255b",
+      "chunk": 7,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "1262b",
+      "chunk": 9,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "1270b",
+      "chunk": 11,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "1276b",
+      "chunk": 13,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII",
+      "column": "1282a",
+      "chunk": 15,
+      "en": "CHAPTER VIII"
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "",
+      "en": "",
+      "column": "1233c",
+      "chunk": 0
+    },
+    {
+      "la": "…a sum, cessent legati; jam ipse veniat, manifestetur, figat oscula, det amplexus, proprioque ore mihi loquatur. Apostropha. Te, inquit, diligo, et desidero, te audire, te videre concupisco. Quare hoc?",
+      "en": "… manifest, let him fasten kisses upon me, let him give embraces, and let him speak to me with his own mouth. Apostrophe. Thee, she says, I love, and I desire; I long to hear thee, to see thee. Why so?",
+      "column": "1235a",
+      "chunk": 0
+    },
+    {
+      "la": "…o, et exponendo, lacteam, dulcemque suavitatem retraxit. Quos enim lex occidere videbat, ipse misericorditer sanabat. Mulierem namque in adulterio deprehensam Judaei lapidare volebant, Christus autem,",
+      "en": "…by teaching and expounding, drew back a milky and sweet suavity. For those whom the law looked to slay, he mercifully healed. For the Jews wished to stone the woman taken in adultery, but Christ said,",
+      "column": "1235b",
+      "chunk": 0
+    },
+    {
+      "la": "inquit. Sunt autem haec verba vino meliora",
+      "en": "And these words are better than wine",
+      "column": "1235b",
+      "chunk": 0
+    },
+    {
+      "la": "…ti? His autem fragrant, splendent, et redolent et novum et vetus testamentum. Hunc odorem Christi praedicatio inferebat; quoniam alios sapientes, alios intelligentes, alios fortes, alios pios faciebat",
+      "en": "…New and the Old Testament are fragrant, and shine, and give forth their scent. This odor the preaching of Christ brought in, since it made some wise, others understanding, others strong, others devout",
+      "column": "1235b",
+      "chunk": 0
+    },
+    {
+      "la": "Per aromata quidem quascunque res odoriferas intelligimus. Sed quid tanti odoris, tantaeque suavitatis, ut ipse spiritus esse possit, quo Apostolus repletus dicebat",
+      "en": "By the spices we understand whatever things are odor-bearing. But what could be of so great an odor and so great a sweetness that it might be the Spirit himself, filled with whom the Apostle said",
+      "column": "1235c",
+      "chunk": 0
+    },
+    {
+      "la": "[n: (II Cor. II, 15.)] Vox Ecclesiae ad Christum",
+      "en": "[n: (II Cor. II, 15.)] The voice of the Church to Christ",
+      "column": "1235c",
+      "chunk": 0
+    },
+    {
+      "la": "…s praebuit sanitatem. Christus namque a chrismate dicitur, in quo nomine baptismatis aqua mundati omnes Christiani vocamur. Hoc igitur nomen super electos diffusum Spiritus sancti gratia eos conjunxit",
+      "en": "…from the chrism, in which name we are all called Christians, cleansed by the water of baptism. This name, therefore, poured out over the elect, has joined them together by the grace of the Holy Spirit",
+      "column": "1235c",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1236a",
+      "chunk": 0
+    },
+    {
+      "la": "Post se namque Christus eos trahit, quicunque eum imitantur, ut qui ipsius imperio super coelos exaltantur",
+      "en": "For Christ draws after himself whoever imitate him, so that they who are exalted above the heavens by his own command",
+      "column": "1236a",
+      "chunk": 0
+    },
+    {
+      "la": "Ipse quidem per se ascendit, qui et perfectus *606* Deus est, et perfectus homo. Caeteri autem, quoniam per se ascendere nequeunt, ut trahantur, necesse est. Trahuntur igitur, sicut ipse Dominus ait",
+      "en": "…ndeed ascended by himself, who is both perfect *606* God and perfect man. But the rest, since they cannot ascend by themselves, must needs be drawn. They are drawn, therefore, as the Lord himself says",
+      "column": "1236a",
+      "chunk": 0
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1236a",
+      "chunk": 0
+    },
+    {
+      "la": "…atiarum. In istarum namque odorem currunt, qui earum suavitate et dulcedine capti incessanter bona operantur. Qui enim vitiis foetent, eis quidem haec omnia non redolent. Vox sponsae ad adolescentulas",
+      "en": "…ivated by their sweetness and delight, work good things without ceasing. But those who stink with vices — to them indeed all these things give no fragrance. The voice of the bride to the young maidens",
+      "column": "1236b",
+      "chunk": 0
+    },
+    {
+      "la": "… in aeterna tabernacula fide et spe me Rex regum introduxit. Possumus etiam per cellaria singulos prophetarum libros intelligere, in quos Ecclesia introducta spirituali vino inebriatur. Unde Psalmista",
+      "en": "…nto the eternal tabernacles. We may also understand by the storerooms the several books of the prophets, into which the Church, being brought in, is made drunk with spiritual wine. Whence the Psalmist",
+      "column": "1236b",
+      "chunk": 0
+    },
+    {
+      "la": "Apostropha",
+      "en": "Apostrophe",
+      "column": "1236b",
+      "chunk": 0
+    },
+    {
+      "la": "…voluminibus ecclesiastici viri reperiunt, in tanto talique viro exsultant, et laetantur. Denique cum ad summam illam beatitudinem pervenerunt, summis et aeternis bonis receptis, in eo solo exsultabunt",
+      "en": "…ed volumes, they exult and rejoice in so great and such a man. And at last, when they have come to that highest blessedness, having received the highest and eternal goods, they will exult in him alone",
+      "column": "1236c",
+      "chunk": 0
+    },
+    {
+      "la": "…super vinum, venit Novum Testamentum super Vetus; temperatum est vinum, dulcis, mitis, et intelligibilis facta est lex. Consummatum est igitur super domum Israel, et super domum Juda Testamentum Novum",
+      "en": "…stament came above the Old; the wine was tempered, and the law was made sweet, mild, and intelligible. The New Testament, therefore, was consummated over the house of Israel and over the house of Juda",
+      "column": "1236c",
+      "chunk": 0
+    },
+    {
+      "la": "…ur. Reges enim sunt apostoli, episcopi, et sacerdotes. Apostoli autem nisi Christum diligerent, pro eo quidem non morerentur. Diligunt igitur reges et recti, a quo fiunt reges, et recti. Vox synagogae",
+      "en": "…kings. And unless the apostles had loved Christ, they would not indeed have died for him. Therefore kings and upright men love him from whom they are made kings and upright. The voice of the synagogue",
+      "column": "1237a",
+      "chunk": 0
+    },
+    {
+      "la": "…it. Vos, inquit, filiae Jerusalem, filiae Libani, filiae candidationis estis. Ego autem filia Cedar, filia tenebrarum, filia cervorum fui. Ego populus, qui sedebat in tenebris. Ego sum, cui dictum est",
+      "en": "…alem, daughters of Libanus, daughters of whitening. But I was the daughter of Cedar, the daughter of darkness, the daughter of stags. I am the people that sat in darkness. I am she to whom it was said",
+      "column": "1237a",
+      "chunk": 0
+    },
+    {
+      "la": "Consentio igitur, quia nigra sum, quoniam in peccatis nata sum: secundum creationem, pristinamque vitam nigra; secundum regenerationem autem super nivem dealbata",
+      "en": "I grant, therefore, that I am black, since I was born in sins: black according to my creation and my former life, but according to my regeneration made whiter than snow",
+      "column": "1237a",
+      "chunk": 0
+    },
+    {
+      "la": "…a? In oculis, in auribus, omnibusque membris. Deformes enim oculi sunt, quod deformia et turpia videre concupiscunt; deformes aures, quod vaniloquia, et scurrilitatem audire delectantur. E contra vero",
+      "en": "…n my ears, and in all my members. For eyes are uncomely in that they long to see uncomely and base things; ears are uncomely in that they delight to hear vain talk and buffoonery. But on the contrary,",
+      "column": "1237b",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1237b",
+      "chunk": 0
+    },
+    {
+      "la": "Cedar *tenebrae* interpretatur. Tenebrarum vero nigredo sola luce fugatur. Erat igitur Ecclesia nigra sicut tabernacula Cedar, quae a sole justitiae illuminata candida facta est. Unde Evangelista",
+      "en": "… the blackness of darkness is put to flight by light alone. The Church, then, was black as the tabernacles of Cedar, and being illumined by the sun of justice she was made white. Whence the Evangelist",
+      "column": "1237b",
+      "chunk": 0
+    },
+    {
+      "la": "Cedar quidem tabernacula sunt, in quibus tenebrarum principes inhabitant. Denique secundum carnem non majoris pulchritudinis sunt justi quam injusti",
+      "en": "The tabernacles of Cedar are indeed those in which the princes of darkness dwell. And in short, according to the flesh the just are of no greater beauty than the unjust",
+      "column": "1237c",
+      "chunk": 0
+    },
+    {
+      "la": "…a vero sicut pelles Salomonis. Non me igitur despiciat Salomon; si quidem mea pellis pelli suae convenit. Est igitur Ecclesia inter mulieres speciosa, atque formosa, quoniam quidem praedictus Salomon,",
+      "en": "…edar, but comely as the skins of Solomon. Let not Solomon therefore despise me, since my skin agrees with his skin. The Church, then, is fair and comely among women, since indeed the aforesaid Solomon",
+      "column": "1237c",
+      "chunk": 0
+    },
+    {
+      "la": "Vox Ecclesiae",
+      "en": "The voice of the Church",
+      "column": "1237c",
+      "chunk": 0
+    },
+    {
+      "la": "…mbra quievi, non in lecto me otio dedi. Quid igitur? In vinea laboravi, agrum excolui, vigilavi, jejunavi, sole insuper multas adversitates perpessa decolorata sum, et fusca. Quid mirum? Vox Synagogae",
+      "en": "… the vineyard, I tilled the field, I kept watch, I fasted; and moreover, having endured many adversities under the sun, I have been discolored and made swarthy. What wonder? The voice of the Synagogue",
+      "column": "1238a",
+      "chunk": 0
+    },
+    {
+      "la": "…tris meae mihi bellum inferebant. Foris igitur pugnae, intus timores, hinc tyrannorum gladius, hinc Judaeorum, et haereticorum disputatio. Matrem suam Judaeam, vel synagogam intelligas. Unde Apostolus",
+      "en": "…e fightings; within, fears; on this side the sword of tyrants, on that the disputation of the Jews and of the heretics. You may understand her mother to be Judaea, or the synagogue. Whence the Apostle",
+      "column": "1238a",
+      "chunk": 0
+    },
+    {
+      "la": "etc. Possumus autem per hanc matrem, iniquitatem intelligere. Unde Psalmista",
+      "en": "etc. But we may also understand by this mother iniquity. Whence the Psalmist",
+      "column": "1238b",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1238b",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1238b",
+      "chunk": 1
+    },
+    {
+      "la": "Quis igitur, nisi pro arcendis furibus ponit in vineis custodes? Unam Deus vineam plantavit, quae quoniam in amaritudinem conversa est, multae aliae vineae plantatae sunt. Unde et illud",
+      "en": "Who, then, sets keepers in the vineyards, except to ward off thieves? God planted one vineyard, and because it was turned into bitterness, many other vineyards were planted. Whence also that saying",
+      "column": "1238b",
+      "chunk": 1
+    },
+    {
+      "la": "In his apostoli positi sunt custodes, ne eam vindemiarent omnes qui praetergrediuntur viam",
+      "en": "In these the apostles were set as keepers, lest all they that pass by the way should gather her vintage",
+      "column": "1238b",
+      "chunk": 1
+    },
+    {
+      "la": "Vineam, inquit, unam reliqui, vineas autem multas custodivi. Multae autem vineae multae sunt Ecclesiae. Una vero synagoga est. Hanc autem reliquerunt apostoli, sicut scriptum est",
+      "en": "One vineyard, she says, I have left, but many vineyards I have kept. And the many vineyards are the many churches. But the synagogue is one. And the apostles left her, as it is written",
+      "column": "1238c",
+      "chunk": 1
+    },
+    {
+      "la": "… una est. Hanc autem custodierunt apostoli et doctores, ne Arius, Sabellius, caeterique fures aliquem dolose racemum subriperent, neve quemque fidelem ab Ecclesia separarent. Vox Ecclesiae ad Christum",
+      "en": "…ostles and the doctors kept it, lest Arius, Sabellius, and the other thieves should craftily steal away some cluster, or separate any of the faithful from the Church. The voice of the Church to Christ",
+      "column": "1238d",
+      "chunk": 1
+    },
+    {
+      "la": "…nutrias. Dei namque oves in conventu praedicationis, et sacris voluminibus pascuntur. Illis autem episcopis etiam indicatum est, qui canes muti non latrare valentes, Dei animalia fame perire patiuntur",
+      "en": "… God's sheep are fed in the assembly of preaching and in the sacred volumes. And this has been shown also to those bishops who, being dumb dogs unable to bark, suffer God's animals to perish of hunger",
+      "column": "1239a",
+      "chunk": 1
+    },
+    {
+      "la": "…aniantur? Nonne tu es ille qui, ut bonus pastor, animam pro ovibus ponis? Gravis est aestus, sitiunt oves, uruntur calore. Duc ad portum, duc ad umbram. Scio; dices: In te sum, in te cubo et requiesco",
+      "en": "…e for the sheep? The heat is heavy, the sheep thirst, they are burned with the warmth. Lead them to the harbor, lead them to the shade. I know; thou wilt say: I am in thee, in thee I lie down and rest",
+      "column": "1239a",
+      "chunk": 1
+    },
+    {
+      "la": "[n: (Isa, LVI, 2.)] Itemque",
+      "en": "[n: (Isa, LVI, 2.)] And likewise",
+      "column": "1239b",
+      "chunk": 1
+    },
+    {
+      "la": "…ltas tribulationes oportet nos intrare in regna coelorum. Vera est responsio; jam nihil timeo; siquidem tantus hospes civitatem custodit. Aestum non perhorresco, quoniam fons vivus mecum est. Sequitur",
+      "en": "…ust enter into the kingdoms of heaven. The answer is true; now I fear nothing, since so great a guest guards the city. I do not shudder at the heat, since the living fountain is with me. There follows",
+      "column": "1239b",
+      "chunk": 1
+    },
+    {
+      "la": "Vox Christi ad Ecclesiam",
+      "en": "The voice of Christ to the Church",
+      "column": "1239c",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1240a",
+      "chunk": 1
+    },
+    {
+      "la": "…que hircos convertimus. Hi autem haedi juxta pastorum tabernacula, et haereticorum conventicula, suavi Scripturarum cibo fastidito, venenosa pascuntur herba, id est prava dogmata hauriunt. Vox Christi",
+      "en": "…les of the shepherds and the conventicles of the heretics, having scorned the sweet food of the Scriptures, are fed with poisonous grass, that is, they drink in depraved teachings. The voice of Christ",
+      "column": "1240a",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1240b",
+      "chunk": 1
+    },
+    {
+      "la": "His autem quasi exprobrationis verbis auditis, propter verba superius dicta, verecundiae sibi attraxit ruborem. Dixerat enim",
+      "en": "But when she had heard these words, as it were of rebuke, on account of the words spoken above, she drew upon herself the blush of shame. For she had said,",
+      "column": "1240b",
+      "chunk": 1
+    },
+    {
+      "la": "Vagari namque meretricum est. Hujus igitur verbi hujusque temeritatis recordata erubuit. Sponsus autem, haec ut vidit, virginalem verecundiam laudavit. Ait enim",
+      "en": "For wandering belongs to harlots. Recalling therefore this word and this rashness, she blushed. But the Bridegroom, when he saw this, praised her virginal modesty. For he says",
+      "column": "1240c",
+      "chunk": 1
+    },
+    {
+      "la": "… ex illis non es, quae a crimine vires sumunt. Sed quomodo pulchrae? Sicut turturis, sicut virginis, sicut magnae castitatis et conjugalis fidei observatricis. Non enim nisi uni Ecclesia servit marito",
+      "en": "…f those women who take their strength from crime. But how beautiful? As the turtledove's, as a virgin's, as of one who keeps great chastity and conjugal faith. For the Church serves no husband but one",
+      "column": "1240c",
+      "chunk": 1
+    },
+    {
+      "la": "…bus immittitur, de quo et verba exeunt. Ecclesia vero a doctoribus nutritur et eruditur. Colli igitur officium a doctoribus expletur. Praeterea colli infirmitas totius corporis est ruina. Vox amicorum",
+      "en": "…h is nourished and instructed by the doctors. The office of the neck, therefore, is fulfilled by the doctors. Moreover, the weakness of the neck is the ruin of the whole body. The voice of the friends",
+      "column": "1240c",
+      "chunk": 1
+    },
+    {
+      "la": "…uncupatae. Significant autem sermones prophetarum prolixos, et dictinctos, et laudabiles. Murenulas nobis Moyses, Isaias, Jeremias, David, et hic quidem, qui haec scripsit Ecclesiastes, nobis fecerunt",
+      "en": "…e discourses of the prophets, lengthy, and [sic: *dictinctos*], and praiseworthy. *Murenulae* were made for us by Moses, Isaias, Jeremias, David, and by him indeed who wrote these things, Ecclesiastes",
+      "column": "1241a",
+      "chunk": 1
+    },
+    {
+      "la": "Vox sponsae",
+      "en": "The voice of the bride",
+      "column": "1241b",
+      "chunk": 1
+    },
+    {
+      "la": "Cum, inquit, rex meus, sponsus meus, dilectus meus esset in accubitu, in lectulo carnis, in humanitate, quam ex virginali utero assumpsit,",
+      "en": "While my king, she says, my bridegroom, my beloved, was at his repose, upon the little bed of the flesh, in the humanity which he took from a virginal womb,",
+      "column": "1241b",
+      "chunk": 1
+    },
+    {
+      "la": "…ucorum virtutes, et orationes Domino placebant. Postquam autem in carnem venit, et tanquam sponsus de thalamo suo Dominus processit, mox sanctorum virtutes et orationes odorem dederunt. Unde Apostolus",
+      "en": "…ing to the Lord. But after he came in the flesh, and the Lord went forth as a bridegroom out of his chamber, straightway the virtues and prayers of the saints gave forth their odor. Whence the Apostle",
+      "column": "1241c",
+      "chunk": 1
+    },
+    {
+      "la": "Et Psalmista",
+      "en": "And the Psalmist",
+      "column": "1241c",
+      "chunk": 1
+    },
+    {
+      "la": "…oannes phialas aureas odoramentorum plenas vidit [n: (Apoc. V, 8)]. Post Christi namque incarnationem, et virtus sanctorum, et numerus crevit. Dedit igitur *609* nardus odorem Christo Domino incarnato",
+      "en": "… [n: (Apoc. V, 8)]. For after the incarnation of Christ both the virtue of the saints and their number increased. The nard therefore gave *609* forth its odor to Christ the Lord when he was made flesh",
+      "column": "1241c",
+      "chunk": 1
+    },
+    {
+      "la": "…tus Ecclesiae myrrhae fasciculus; et quidem magni doloris, magnaeque amaritudinis collectio. Quomodo enim nisi in dolore et amaritudine esse poterat, tanto talique viduata viro? Sic quoque dici potest",
+      "en": "… bundle of myrrh, and indeed a gathering of great grief and great bitterness. For how could she be otherwise than in grief and bitterness, widowed of so great and such a husband? So too it can be said",
+      "column": "1241d",
+      "chunk": 1
+    },
+    {
+      "la": "Propter me, meique ad utilitatem fasciculus myrrhae factus est, quoniam morti et passionis amaritudini sese pro me subdidit. Nonne myrrhae et amaritudinis portabat fasciculum, cum diceret",
+      "en": "…e and for my profit was he made a bundle of myrrh, since he submitted himself for me to death and to the bitterness of the passion. Was he not carrying a bundle of myrrh and of bitterness when he said",
+      "column": "1242a",
+      "chunk": 1
+    },
+    {
+      "la": "…tem fasciculus myrrhae factus est, quoniam morti et passionis amaritudini sese pro me subdidit. Nonne myrrhae et amaritudinis portabat fasciculum, cum diceret: « Tristis est anima mea usque ad mortem?",
+      "en": "…of myrrh, since he submitted himself for me to death and to the bitterness of the passion. Was he not carrying a bundle of myrrh and of bitterness when he said: « My soul is sorrowful even unto death?",
+      "column": "1242a",
+      "chunk": 1
+    },
+    {
+      "la": "…nima mea usque ad mortem? « [n: (Matth. XXVI, 38.)] Fuit equidem fasciculus, quia et multos ad se traxit, et multos secum occidit. Omnes enim martyres pro morte ipsius, quasi uno fasciculo colliguntur",
+      "en": "…to death? « [n: (Matth. XXVI, 38.)] He was indeed a bundle, because he both drew many to himself and slew many with himself. For all the martyrs are gathered, as it were into one bundle, for his death",
+      "column": "1242a",
+      "chunk": 1
+    },
+    {
+      "la": "…r ubera commoratur, siquidem in corde jacet, memoriam fugere nequit. Felix illa anima, nimiumque felix, cujus inter ubera Christus commoratur, cujus in corde jacet, et quae ipsius nunquam obliviscitur",
+      "en": "…een the breasts, since he lies in the heart, cannot escape the memory. Happy is that soul, and exceedingly happy, between whose breasts Christ abides, in whose heart he lies, and who never forgets him",
+      "column": "1242a",
+      "chunk": 1
+    },
+    {
+      "la": "…is suis botrus Cypri, quoniam ejus sanguinis haustu laetificantur. Denique si vinum laetitiam significat, merito qui fuerat fasciculus myrrhae moriendo, botrus Cypri dicitur resurgendo. Unde Psalmista",
+      "en": "…ddened by the draught of his blood. And in short, if wine signifies gladness, then he who had been a bundle of myrrh in dying is rightly called a cluster of Cyprus in rising again. Whence the Psalmist",
+      "column": "1242b",
+      "chunk": 1
+    },
+    {
+      "la": "Est igitur botrus Cypri. Ubi? Sequitur",
+      "en": "He is therefore a cluster of Cyprus. Where? There follows",
+      "column": "1242b",
+      "chunk": 1
+    },
+    {
+      "la": "Vox Christi",
+      "en": "The voice of Christ",
+      "column": "1242c",
+      "chunk": 2
+    },
+    {
+      "la": "Confirmatio",
+      "en": "Confirmation",
+      "column": "1242c",
+      "chunk": 2
+    },
+    {
+      "la": "Pulchra, inquit, es, sine macula es, interius exteriusque casta es. Magnae enim inter Christum et Ecclesiam sunt amicitiae; cum et Christus pro Ecelesia, et Ecclesia pro Christo mori non dubitaret",
+      "en": "…ut spot, thou art chaste within and without. For great is the friendship between Christ and the Church, since both Christ would not hesitate to die for the [sic: *Ecelesia*], and the Church for Christ",
+      "column": "1242c",
+      "chunk": 2
+    },
+    {
+      "la": "Vox Ecclesiae",
+      "en": "The voice of the Church",
+      "column": "1242d",
+      "chunk": 2
+    },
+    {
+      "la": "Oculi, inquit, tui, memoria, et intellectus, et ratio columbarum sunt, id est casti et simplices. Nullatenus enim de intellectu vel sapientiae superbis. Tu enim ex illis non es, qui dicunt",
+      "en": "… he says — thy memory, thy understanding, and thy reason — are those of doves, that is, chaste and simple. For in no way art thou proud of understanding or of wisdom. For thou art not of those who say",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "la": "Vox Ecclesiae, vel Christi",
+      "en": "The voice of the Church, or of Christ",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "la": "In hoc enim maxima utriusque concordia comprobatur, quod utique utrumque de pulchritudine laudat. Hujus decor et pulchritudo nec dici quidem, nec cogitari potest",
+      "en": "For in this the greatest concord of them both is proved, that each of the two indeed praises the other for beauty. His comeliness and beauty can neither be spoken nor even conceived",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "la": "Quid per lectulum, nisi cor? Unde ipse Dominus ait",
+      "en": "What is meant by the little bed, if not the heart? Whence the Lord himself says",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "la": "…idus est, virtutibus et conscientiae puritate. Possumus autem et per hunc lectulum illam sanctorum beatitudinem intelligere, in qua in perpetua quiete, et otio quiescentes, sicut palma justi florebunt",
+      "en": "…and with purity of conscience. And we may understand by this little bed also that blessedness of the saints, in which, resting in perpetual quiet and repose, the just shall flourish like the palm tree",
+      "column": "1243a",
+      "chunk": 2
+    },
+    {
+      "la": "Vox Christi",
+      "en": "The voice of Christ",
+      "column": "1243b",
+      "chunk": 3
+    },
+    {
+      "la": "…rum esse, et decorum negat, quin imo totius mundi florem, et pulchritudinem, et honorem esse confirmat. Est praeterea flos campi, id est illius virginis, et inaratae terrae filius, de qua scriptum est",
+      "en": "… rather affirms that he is the flower and the beauty and the honor of the whole world. He is moreover the flower of the field, that is, the son of that virgin and unplowed earth of which it is written",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "la": "Unde Isaias",
+      "en": "Whence Isaias",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "la": "Hoc enim lilium non montium, sed convallium est; quoniam non superbos, sed humiles Dominus diligit. Sicut ipse ait",
+      "en": "For this lily is not of the mountains but of the valleys, since the Lord loves not the proud but the humble. As he himself says",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "la": "In convalle nascitur lilium, in humilium corde habitat Salvator",
+      "en": "The lily is born in the valley; the Savior dwells in the heart of the humble",
+      "column": "1243c",
+      "chunk": 3
+    },
+    {
+      "la": "… a Judaeis autem affligitur, vulneratur et crucifigitur Christus. Inter spinas lilium crescit, quoniam a ligno Christus regnat. Hoc autem lilium in cruce suavissimum Patri dedit odorem. Unde Psalmista",
+      "en": "…hrist is afflicted, wounded, and crucified. Among thorns the lily grows, since Christ reigns from the tree. And this lily upon the cross gave forth a most sweet odor to the Father. Whence the Psalmist",
+      "column": "1244a",
+      "chunk": 3
+    },
+    {
+      "la": "Vox Ecclesiae",
+      "en": "The voice of the Church",
+      "column": "1244b",
+      "chunk": 3
+    },
+    {
+      "la": "Sicut enim malum inter ligna infructuosa fructuosum est; ita et Christus inter Judaeos, aliquando et apostolos fuit. Hoc est enim illud lignum, de quo dicitur quod",
+      "en": "For as the apple tree is fruitful among unfruitful trees, so was Christ among the Jews, and once among the apostles too. For this is that tree of which it is said that",
+      "column": "1244b",
+      "chunk": 3
+    },
+    {
+      "la": "Erant enim tunc temporis apostoli sine fructu, cum multos in Judaea Christus daret fructus. Ad ejus autem comparationem non solum sine fructu, verum etiam sicci videbantur. Unde ipse ait",
+      "en": "For at that time the apostles were without fruit, while Christ was yielding many fruits in Judaea. And in comparison with him they seemed not only without fruit, but even dry. Whence he himself says",
+      "column": "1244c",
+      "chunk": 3
+    },
+    {
+      "la": "… XXIII, 31.)] Hi autem qui prius aridi et infructuosi erant, hujus ligni pomis degustatis, sanctoque Spiritu accepto, quanta fertilitate fructificarent, ab ipsius Salvatoris verbis percipitur, qui ait",
+      "en": "…ertility these men, who before were dry and unfruitful, would bear once they had tasted the apples of this tree and received the Holy Spirit, is gathered from the words of the Savior himself, who says",
+      "column": "1244c",
+      "chunk": 3
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1244c",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1244c",
+      "chunk": 3
+    },
+    {
+      "la": "Sub umbra, inquit, sedi, de fructibus arboris hujus cognovi, ejusque in contemplatione sum refecta, dulcibus et eloquiis satiata. De his enim fructibus, et alibi Ecclesia dicit",
+      "en": "…shadow, she says, I sat down, I came to know the fruits of this tree, and I was refreshed in the contemplation of him, and filled with sweet sayings. For of these fruits the Church says also elsewhere",
+      "column": "1244d",
+      "chunk": 3
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1244d",
+      "chunk": 3
+    },
+    {
+      "la": "Quid per cellam vinariam, nisi Novi Veterisque Testamenti doctrina? De hac enim cella dicitur",
+      "en": "What is meant by the wine cellar, if not the teaching of the New and Old Testament? For of this cellar it is said",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "la": "De hujus namque cellae vino Apostolus ebrius dicebat",
+      "en": "For drunk with the wine of this cellar the Apostle said",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "la": "Et Psalmista",
+      "en": "And the Psalmist",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "la": "[n: (Psal. XXII, 5.)] Hanc autem in cellam Ecclesia introducta, superni vini dulcedine inebriatur",
+      "en": "[n: (Psal. XXII, 5.)] And the Church, brought into this cellar, is made drunk with the sweetness of the wine from on high",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "la": "Quomodo in hac cella charitas ordinatur? Vis audire?",
+      "en": "How is charity set in order in this cellar? Wilt thou hear?",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "la": "Quid ultra?",
+      "en": "What further?",
+      "column": "1245a",
+      "chunk": 3
+    },
+    {
+      "la": "Hic est ordo, et vera regula charitatis, ut et Deum super omnia, et proximum sicut nos ipsos, diligamus. Ordinavit in prima cella; ordinavit et in secunda. In prima autem *611* quomodo?",
+      "en": "… true rule of charity, that we love both God above all things, and our neighbor as ourselves. He set it in order in the first cellar; he set it in order in the second also. And in the first *611* how?",
+      "column": "1245b",
+      "chunk": 3
+    },
+    {
+      "la": "Quid dicitur in secunda?",
+      "en": "What is said in the second?",
+      "column": "1245b",
+      "chunk": 3
+    },
+    {
+      "la": "…veniens; alioquin ordo non esset. Quod enim in primo de vitio, in secundo de natura intelligitur, ut sic dicatur: inimicum odio habebis; vitium, non naturam. Diliges inimicum tuum, naturam, non vitium",
+      "en": "… first is understood of vice, in the second is understood of nature, so that it is said thus: Thou shalt hate thy enemy — the vice, not the nature. Thou shalt love thy enemy — the nature, not the vice",
+      "column": "1245b",
+      "chunk": 3
+    },
+    {
+      "la": "…ala, credentes intelligimus. Possumus etiam per flores operis initium, per mala vero perfectionem intelligere. Flores enim poma fiunt, cum auditores sententiis credunt, et quae credunt, opere complent",
+      "en": "…ay also understand by the flowers the beginning of a work, and by the apples its perfection. For the flowers become fruits when the hearers believe the sentences, and fulfill in deed what they believe",
+      "column": "1245c",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1246b",
+      "chunk": 3
+    },
+    {
+      "la": "…llam introduxit, et vinum bibere jussit. Dedit mihi charitatem, virtutum omnium matrem. Laeva caput sublevatur, dextera caput amplexatur. Ad hoc nisi me amaret, quis pro eo me adjuraret? Vox Ecclesiae",
+      "en": "…e mother of all the virtues. By his left hand the head is lifted up, by his right hand the head is embraced. Besides this, unless he loved me, who would adjure me for his sake? The voice of the Church",
+      "column": "1246c",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1246c",
+      "chunk": 3
+    },
+    {
+      "la": "Sed quomodo veniet?",
+      "en": "But how shall he come?",
+      "column": "1246c",
+      "chunk": 3
+    },
+    {
+      "la": "…quos Christus saliens habitavit. Sed si tu, o homo, mons fieri cupis, erige mentem, ut a terrenis cupiditatibus *612* spes, et cor tuum exaltetur. Mox enim in te saliet, qui in montibus salire dicitur",
+      "en": "…u, O man, desirest to become a mountain, lift up thy mind, that from earthly desires thy hope *612* and thy heart may be exalted. For soon he will leap into thee who is said to leap upon the mountains",
+      "column": "1247a",
+      "chunk": 3
+    },
+    {
+      "la": "Vere utique colles transiliens, quoniam et sanctos sanctitate, et potentes omnes potentia transcendit",
+      "en": "Truly indeed skipping over the hills, since he surpasses both the saints in sanctity and all the mighty in power",
+      "column": "1247a",
+      "chunk": 3
+    },
+    {
+      "la": "[n: (Psal. LXXXVIII.)] --",
+      "en": "[n: (Psal. LXXXVIII.)] --",
+      "column": "1247b",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1247b",
+      "chunk": 4
+    },
+    {
+      "la": "Quid vero per parietem, nisi peccatum? Hoc enim interposito, Deo conjungi non possumus. Noster autem dicitur paries, quoniam nos ipsi eum fabricavimus. De hoc autem, et per Psalmistam dicitur",
+      "en": "…hat is meant by the wall, if not sin? For when this is set between, we cannot be joined to God. And it is called our wall, since we ourselves built it. And of this it is said also through the Psalmist",
+      "column": "1247b",
+      "chunk": 4
+    },
+    {
+      "la": "…t per cancellos, quoniam nullus in choro cantat, cujus non videat voluntatem. Videt monachum, videt episcopum, videt qui ore, qui corde psallat. Cognoscit enim qui pro amore, vel qui pro favore cantat",
+      "en": "…e no one sings in the choir whose will he does not see. He sees the monk, he sees the bishop, he sees who sings with the mouth and who with the heart. For he knows who sings for love and who for favor",
+      "column": "1247c",
+      "chunk": 4
+    },
+    {
+      "la": "Unde Isaias",
+      "en": "Whence Isaias",
+      "column": "1247c",
+      "chunk": 4
+    },
+    {
+      "la": "inquit. Surgite apostoli, praedicate doctores, nuntiate Evangelium. Columba mea sine felle, absque amaritudine, innocens et simplex. Unde ipse ait",
+      "en": "he says. Arise, ye apostles; preach, ye doctors; announce the Gospel. My dove, without gall, without bitterness, innocent and simple. Whence he himself says",
+      "column": "1247d",
+      "chunk": 4
+    },
+    {
+      "la": "Formosa mea super nivem dealbata, sine macula et ruga. Surge, inquit, fac quod factura es, et ad me tandem post malitiam, et peracto officio veni",
+      "en": "My comely one, made whiter than snow, without spot or wrinkle. Arise, he says, do what thou art to do, and come to me at last, after the malice, and when thine office is fulfilled",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "la": "Transiit, inquit, hiems et imber, transiit tempus nebulosum, asperum et grave",
+      "en": "The winter and the rain are past, he says; the cloudy, harsh, and heavy season is past",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "la": "omnia jam clara, omnia jam nuda et manifesta sunt",
+      "en": "all things are now bright, all things now bare and manifest",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "la": "Hoc autem est, quod Dominus in Evangelio discipulis ait",
+      "en": "And this is what the Lord says in the Gospel to his disciples",
+      "column": "1248a",
+      "chunk": 4
+    },
+    {
+      "la": "Nunc tempus metendi, nunc tempus in unam fidem gentes colligendi, tempus est vitia resecandi. Amputate vineas, ut oriantur uvae; amputate vitia, ut oriantur virtutes",
+      "en": "… the time of reaping, now the time of gathering the nations into one faith; it is the time of cutting away vices. Prune the vines, that grapes may spring up; cut away vices, that virtues may spring up",
+      "column": "1248b",
+      "chunk": 4
+    },
+    {
+      "la": "Vox, inquit, turturis vox casta, vox apostolica audita est in terra nostra",
+      "en": "The voice of the turtledove, he says — the chaste voice, the apostolic voice — is heard in our land",
+      "column": "1248b",
+      "chunk": 4
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1248b",
+      "chunk": 4
+    },
+    {
+      "la": "Quid per ficum nisi Synagoga? Haec autem protulit grossos suos; dedit primitias ficus, patriarchas videlicet et prophetas",
+      "en": "What is meant by the fig tree, if not the Synagogue? And she has put forth her green figs; she has given the first fruits of the fig, namely the patriarchs and the prophets",
+      "column": "1248b",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1248d",
+      "chunk": 4
+    },
+    {
+      "la": "Ne dormias, inquit, sed surge, et per fidem et dilectionem bonum operare",
+      "en": "Sleep not, he says, but arise, and work good through faith and love",
+      "column": "1248d",
+      "chunk": 4
+    },
+    {
+      "la": "cui tantae dilectionis amore conjunctus sum, ut tuam pro te carnem sumere dignarer",
+      "en": "to whom I am joined with the love of so great an affection that I deigned to take thy flesh for thee",
+      "column": "1249a",
+      "chunk": 4
+    },
+    {
+      "la": "Columba, inquit, mea, felle, omnique amaritudine carens, veni post me, sequere me, ducem non habeas nisi me",
+      "en": "My dove, he says, lacking gall and all bitterness, come after me, follow me, have no leader but me",
+      "column": "1249a",
+      "chunk": 4
+    },
+    {
+      "la": "…meae carnis vulneribus delectare; tuaeque salutis haec vulnera fuisse causam agnoscas. Moram *613* namque fecerat Thomas, nec credere volebat; qui postea in hujus lapidis vulneribus delectatus, inquit",
+      "en": "… wounds of my flesh, and acknowledge that these wounds were the cause of thy salvation. For Thomas had delayed *613* and would not believe, who afterwards, delighting in the wounds of this stone, said",
+      "column": "1249a",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1249a",
+      "chunk": 4
+    },
+    {
+      "la": "…us etiam per maceriae cavernam, doctorum et angelorum custodiam intelligere, ut nunc quasi infra macerias posita eorum munimine tueatur; quae prius palam, et sine munitione vitiorum impetu quatiebatur",
+      "en": "…octors and of the angels, so that now, set as it were within enclosure walls, she may be protected by their defense — she who before was shaken openly and without fortification by the assault of vices",
+      "column": "1249b",
+      "chunk": 4
+    },
+    {
+      "la": "Probetur qualis sit innovatio, et pulchritudo tua, doce alios ut te; nullum timeas praeter me",
+      "en": "Let it be proved of what sort thy renewal and thy beauty are; teach others as thyself; fear no one but me",
+      "column": "1249b",
+      "chunk": 4
+    },
+    {
+      "la": "Me, inquit, praedica et confitere, ut a te et ab aliis per te laus mihi, et honor debitus reddatur",
+      "en": "Preach me, he says, and confess me, that by thee and by others through thee the praise and honor due to me may be rendered",
+      "column": "1249b",
+      "chunk": 4
+    },
+    {
+      "la": "Quam audire volo,",
+      "en": "which I wish to hear,",
+      "column": "1249b",
+      "chunk": 4
+    },
+    {
+      "la": "quam videre cupio. Praeparet se sponsa, et vestibus ornet, quae a tanto talique sponso est conspicienda. Loquatur non fictitia, vel inhonesta, imo dulcia et suavia verba. Vox adversus haereses",
+      "en": "… adorn herself with garments, she who is to be looked upon by so great and such a bridegroom. Let her speak words not feigned or dishonorable, but rather sweet and pleasant. The voice against heresies",
+      "column": "1249b",
+      "chunk": 4
+    },
+    {
+      "la": "Quid per vulpes, nisi haereticos, vitia et malignos spiritus? Haec autem dum parva sunt, et in ipso suae originis principio capienda, tenenda et destruenda sunt. Unde Psalmista",
+      "en": "… by the foxes, if not heretics, vices, and malignant spirits? And these, while they are small and in the very beginning of their origin, are to be caught, held fast, and destroyed. Whence the Psalmist",
+      "column": "1249c",
+      "chunk": 4
+    },
+    {
+      "la": "Nam vinea",
+      "en": "For the vine",
+      "column": "1249c",
+      "chunk": 4
+    },
+    {
+      "la": "Vox Ecclesiae sic",
+      "en": "The voice of the Church thus",
+      "column": "1249d",
+      "chunk": 4
+    },
+    {
+      "la": "Dilectus, inquit, meus mihi auxilium praestat, et virtutem. Ego autem illi servio, et per omnia obedio",
+      "en": "My beloved, she says, furnishes me help and strength. And I serve him, and in all things obey him",
+      "column": "1250a",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1250a",
+      "chunk": 4
+    },
+    {
+      "la": "Unde ipse ait",
+      "en": "Whence he himself says",
+      "column": "1250a",
+      "chunk": 4
+    },
+    {
+      "la": "Dies enim tunc aspirabit, quando sol justitiae orietur sanctis, et illa incipiet, quae nunquam finem habebit. De qua dicitur",
+      "en": "For the day will then breathe when the sun of justice shall rise upon the saints, and that day will begin which shall never have an end. Of which it is said",
+      "column": "1250a",
+      "chunk": 4
+    },
+    {
+      "la": "Umbrae vero inclinabuntur; quia vitae hujus cessantibus adversis, cum satellitibus suis tenebrarum princeps in infernum praecipitabitur",
+      "en": "And the shadows shall decline, because, when the adversities of this life cease, the prince of darkness with his satellites shall be cast headlong into hell",
+      "column": "1250b",
+      "chunk": 4
+    },
+    {
+      "la": "Coelos, inquit, ascendisti, praelioque peracto ad Patrem rediisti. Sed revertere inspice terras, tuorumque preces exaudi",
+      "en": "Thou hast ascended, she says, into the heavens, and, the battle being finished, thou hast returned to the Father. But return, look upon the earth, and hear the prayers of thine own",
+      "column": "1250b",
+      "chunk": 4
+    },
+    {
+      "la": "quae super montes appetit,",
+      "en": "which makes for the mountains,",
+      "column": "1250b",
+      "chunk": 4
+    },
+    {
+      "la": "…milis igitur est capreae coelos ascendens; hinnulo vero matrem revisitans in sanctis, qui vitiorum aestu minime exuruntur; habitans, atque iterum in secundo adventu Judaeorum sese oculis repraesentans",
+      "en": "…the heavens; but like the fawn revisiting its mother, dwelling in the saints, who are in no way scorched by the heat of vices, and again presenting himself in his second coming to the eyes of the Jews",
+      "column": "1250b",
+      "chunk": 4
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1250b",
+      "chunk": 4
+    },
+    {
+      "la": "Vox Ecclesiae",
+      "en": "The voice of the Church",
+      "column": "1250c",
+      "chunk": 5
+    },
+    {
+      "la": "…n humana sapientia, mentis caecitate. Ideoque non inveni. Hoc enim haeretici, hoc philosophi quaesierunt; sed in nocte quaerentes suaque in sapientia confidentes, non invenerunt. Unde ipse Dominus ait",
+      "en": "…ness of mind. And therefore I found him not. For this the heretics, this the philosophers sought; but seeking by night and trusting in their own wisdom they found him not. Whence the Lord himself says",
+      "column": "1250d",
+      "chunk": 5
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1251a",
+      "chunk": 5
+    },
+    {
+      "la": "Surgam, inquit Ecclesia. Sed quae Ecclesia? Ecclesia gentium, populus qui sedebat in tenebris, somnoque deditus, qui nondum dixerat",
+      "en": "I will rise, says the Church. But what Church? The Church of the Gentiles, the people that sat in darkness and was given over to sleep, which had not yet said",
+      "column": "1251a",
+      "chunk": 5
+    },
+    {
+      "la": "Surgam, inquit, non amplius dormiam, *614* circuibo civitatem, id est sanctorum, apostolorumque congregationem; ut me de Deo ea doceant quae per me scire nequivi",
+      "en": "…, I will sleep no more; *614* I will go about the city, that is, the congregation of the saints and of the apostles, that they may teach me concerning God those things which I could not know by myself",
+      "column": "1251a",
+      "chunk": 5
+    },
+    {
+      "la": "Hoc autem per noctem, hoc in lectulo meo. Quaeram igitur in die, quatenus eum inveniam",
+      "en": "But this was by night, this in my little bed. I will seek him therefore by day, that I may find him",
+      "column": "1251a",
+      "chunk": 5
+    },
+    {
+      "la": "…inveniunt, qui Deum fide et baptismate quaerunt. In hoc enim custodum cura circumdatur, quae non ipsa eos. verum etiam ipsi eam invenisse dicuntur. His autem inventis, dixi (Ecclesia de Christo dicit)",
+      "en": "…aith and by baptism. For in this the care of the guardians is set about her, who not she them. but they also are said to have found her. And when these were found, I said (the Church speaks of Christ)",
+      "column": "1251b",
+      "chunk": 5
+    },
+    {
+      "la": "Hoc autem tale est ac si diceret: Vos qui Dei cognitionem habetis, Deum ipsum, veritatisque viam mihi monstrate",
+      "en": "And this is as if she should say: You who have the knowledge of God, show me God himself and the way of truth",
+      "column": "1251b",
+      "chunk": 5
+    },
+    {
+      "la": "…telligendo eos pertransissem, cumque eorum monita et praedicationem transcurrerem (hoc enim locutionis modo, transcurro librum, dicere solemus), inveni per eorum demonstrationem quem diligit anima mea",
+      "en": "…passed by them, and when I ran through their admonitions and their preaching (for by this manner of speech we are wont to say, I run through a book), I found, by their showing, him whom my soul loveth",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "Inveni, inquit, et dulciter eum amplexata sum",
+      "en": "I found him, she says, and sweetly embraced him",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "Quomodo? mente, et operatione, et fide perfecta",
+      "en": "How? In mind, and in work, and in perfect faith",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "sed ardentissimo amore ei inhaerebo",
+      "en": "but with most burning love I will cleave to him",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "id est in hujus fictilis vasis habitaculum, quod ipse manibus suis, genitrice terra, plasmavit. Sancti enim Dei sunt habitaculum. Unde ipse ait",
+      "en": "that is, into the dwelling of this earthen vessel, which he himself formed with his own hands, the earth being its parent. For the saints are the dwelling of God. Whence he himself says",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "Id est in secretarium cordis mei. Possumus autem et per hanc matrem Synagogam intelligere, a cujus domo Christus exivit, ex quo dixit",
+      "en": "That is, into the secret place of my heart. And we may understand by this mother also the Synagogue, from whose house Christ went out, from the time when he said",
+      "column": "1251c",
+      "chunk": 5
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1251d",
+      "chunk": 5
+    },
+    {
+      "la": "tunc in suae genitricis domum Ecclesiam introducet",
+      "en": "then will he bring the Church into the house of her that bore her",
+      "column": "1251d",
+      "chunk": 5
+    },
+    {
+      "la": "Sponsus ad fideles animas",
+      "en": "The Bridegroom to faithful souls",
+      "column": "1252a",
+      "chunk": 5
+    },
+    {
+      "la": "…re magnum est peccatum. Diversae namque sunt gratiae, diversae sunt voluntates, diversae sunt et operationes quibus Domino servire possumus. Unusquisque ergo in suo sensu abundet. Synagoga de Ecclesia",
+      "en": "…in. For the graces are diverse, the wills are diverse, and diverse too are the works by which we can serve the Lord. Let each one therefore abound in his own sense. The Synagogue concerning the Church",
+      "column": "1252b",
+      "chunk": 5
+    },
+    {
+      "la": "…t per hujus saeculi adversa, non latronum insidias, non tyrannorum gladios, non leonum dentes, non Judaeorum et haereticorum sophismata timens, ad Dominum Ecclesia pertransivit. Sed quomodo transivit?",
+      "en": "…s of this world the Church passed over to the Lord, fearing not the ambushes of robbers, nor the swords of tyrants, nor the teeth of lions, nor the sophisms of Jews and heretics. But how did she pass?",
+      "column": "1252c",
+      "chunk": 5
+    },
+    {
+      "la": "Vox Ecclesiae",
+      "en": "The voice of the Church",
+      "column": "1252d",
+      "chunk": 5
+    },
+    {
+      "la": "Salomon namque *pacificus* interpretatur",
+      "en": "For Solomon is interpreted *peaceable*",
+      "column": "1253a",
+      "chunk": 5
+    },
+    {
+      "la": "Lectulum igitur Salomonis *615* Ecclesiam intelligimus, quam sibi pio amore Christus sociavit, non habentem maculam neque rugam. De qua per Prophetam ait",
+      "en": "By the little bed of Solomon, therefore, we understand *615* the Church, whom Christ has joined to himself with devoted love, not having spot or wrinkle. Of whom he says through the Prophet",
+      "column": "1253a",
+      "chunk": 5
+    },
+    {
+      "la": "…i, et legis documentis, et institutionibus sapientes esse debent. Hi autem non solum fortes, verum etiam ex fortissimis Israel esse dicuntur, quoniam Ecclesiae doctores caeteris fortiores esse oportet",
+      "en": "…orks and wise in the teachings and institutions of the law. And these are said to be not only valiant, but of the most valiant of Israel, since the doctors of the Church must be stronger than the rest",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "la": "Unde et Psalmista",
+      "en": "Whence also the Psalmist",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "la": "Et Apostolus",
+      "en": "And the Apostle",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "la": "Teneant igitur episcopi gladios, quibus et vitia destruant, et Ecclesiam defendant",
+      "en": "Let the bishops therefore hold swords, with which they may both destroy vices and defend the Church",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "la": "Unde est illud",
+      "en": "Whence is that saying",
+      "column": "1253b",
+      "chunk": 5
+    },
+    {
+      "la": "Doctissimi namque in praelio sunt, quoniam patiendo, non se ipsos defendendo, in humilitate et patientia vicerunt",
+      "en": "For they are most expert in battle, since by suffering, not by defending themselves, they conquered in humility and patience",
+      "column": "1253c",
+      "chunk": 5
+    },
+    {
+      "la": "Super femur namque enses habent, qui impetus libidinis castitatis freno repellunt. Unde Apostolus",
+      "en": "For they have swords upon their thigh who drive back the assaults of lust with the bridle of chastity. Whence the Apostle",
+      "column": "1253c",
+      "chunk": 5
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1253c",
+      "chunk": 5
+    },
+    {
+      "la": "Armati, inquit, sunt doctores, et gladiis accincti, ne haeretici et maligni spiritus in nocte dolo et occulte Salomonis lectum invadant, id est sanctam Ecclesiam. Ecclesia",
+      "en": "The doctors, he says, are armed and girt with swords, lest the heretics and the malignant spirits should by night, by guile and in secret, invade the bed of Solomon, that is, holy Church. The Church",
+      "column": "1253c",
+      "chunk": 5
+    },
+    {
+      "la": "…onis domum de lignis Libani fecit Dominus, quoniam nullus in Ecclesia habitat, qui baptismatis aqua non sit candidatus. Libanus enim *candidatio* interpretatur. De hoc autem ferculo in Psalmis dicitur",
+      "en": "… of the woods of Libanus, since no one dwells in the Church who has not been made white by the water of baptism. For Libanus is interpreted *whitening*. And of this *ferculum* it is said in the Psalms",
+      "column": "1253d",
+      "chunk": 5
+    },
+    {
+      "la": "… manducandum Christus apposuit. Hic panem vivum, hic agnum praefiguratum, taurumque saginatum comedimus, hic calicem Novi Testamenti potamus, hic divino et dulcissimo vino inebriamur. De Christo dicit",
+      "en": "…re we eat the living bread, here the prefigured lamb and the fatted bull; here we drink the chalice of the New Testament, here we are made drunk with the divine and most sweet wine. She says of Christ",
+      "column": "1254a",
+      "chunk": 5
+    },
+    {
+      "la": "Quid per columnas nisi apostolos et doctores; sed quare columnae, nisi quia totius Ecclesiae sunt sustentamenta? De his in Psalmis dicitur",
+      "en": "What is meant by the pillars, if not the apostles and the doctors? And why pillars, if not because they are the supports of the whole Church? Of these it is said in the Psalms",
+      "column": "1254a",
+      "chunk": 5
+    },
+    {
+      "la": "Cur autem argenteae, nisi quia simplicitatis, modestiae, et sobrietatis affectione pallent? Hi sunt illae pennae columnae, quae deargentatae esse dicuntur",
+      "en": "And why of silver, if not because they are pale with the affection of simplicity, modesty, and sobriety? These are those feathers of the pillar which are said to be silvered over",
+      "column": "1254a",
+      "chunk": 5
+    },
+    {
+      "la": "Mensam, inquit, et reclinatorium aureum fecit, quoniam Novum et Vetus Testamentum sapientiae luce praefulgent. De hac autem mensa dicitur",
+      "en": "He made, she says, a table and a resting-place of gold, since the New and the Old Testament shine forth with the light of wisdom. And of this table it is said",
+      "column": "1254b",
+      "chunk": 5
+    },
+    {
+      "la": "Accedamus igitur ad hanc auream mensam, ut divinis et spiritualibus dapibus reficiamur",
+      "en": "Let us draw near, therefore, to this golden table, that we may be refreshed with divine and spiritual feasts",
+      "column": "1254b",
+      "chunk": 5
+    },
+    {
+      "la": "Accedamus igitur ad hanc auream mensam, ut divinis et spiritualibus dapibus reficiamur. « Ascensum purpureum",
+      "en": "Let us draw near, therefore, to this golden table, that we may be refreshed with divine and spiritual feasts. « An ascent of purple",
+      "column": "1254b",
+      "chunk": 5
+    },
+    {
+      "la": "…iamur. « Ascensum purpureum. « Nullus enim hujus mensae cibos comedit, nisi per purpuream viam ascendat. Non enim Judaei hujus cibum capiunt, quoniam ascensum purpureum non noverunt. De quibus dicitur",
+      "en": "…An ascent of purple. « For no one eats the food of this table unless he ascend by the purple way. For the Jews do not take this food, since they have not known the ascent of purple. Of whom it is said",
+      "column": "1254b",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1254c",
+      "chunk": 6
+    },
+    {
+      "la": "…er animas simplices, quae in infernales tenebras mergebantur. Constravit et media charitate, quia pro universali salute crucifixus, salutem in medio terrae operatus est. Vox Ecclesiae de Christo dicit",
+      "en": "…rkness of hell. And he paved it with charity in the midst, because, crucified for the salvation of all, he wrought salvation in the midst of the earth. The voice of the Church speaks concerning Christ",
+      "column": "1254c",
+      "chunk": 6
+    },
+    {
+      "la": "Egredimini, inquit, filiae Sion, extra portam; exite, filiae Jerusalem, et videte regem vestrum, videte Salomonem, videte Christum vere pacificum",
+      "en": "Go forth, she says, ye daughters of Sion, outside the gate; come out, ye daughters of Jerusalem, and see your King, see Solomon, see Christ the truly peaceable",
+      "column": "1254d",
+      "chunk": 6
+    },
+    {
+      "la": "…nagoga intelligitur, quoniam ex Judaica *616* gente secundum carnem natus est Dominus. Haec autem filium suum, dominum suum, regem suum coronavit, spineamque coronam super caput ejus imposuit. Quando?",
+      "en": "…s understood to be the Synagogue, since according to the flesh the Lord was born of the Jewish *616* nation. And she crowned her son, her lord, her king, and set a crown of thorns upon his head. When?",
+      "column": "1255a",
+      "chunk": 6
+    },
+    {
+      "la": "…sponsavit, ipsiusque de latere dormientis conjugem fabricavit. Namque sicut de dormiente Adam, una costa subtracta, facta est Eva, ita de Christo dormiente, latere lancea perforato, facta est Ecclesia",
+      "en": "…and from the side of him as he slept fashioned a spouse. For as from Adam sleeping, one rib being drawn out, Eve was made, so from Christ sleeping, his side pierced with the lance, the Church was made",
+      "column": "1255a",
+      "chunk": 6
+    },
+    {
+      "la": "Vox Christi",
+      "en": "The voice of Christ",
+      "column": "1255b",
+      "chunk": 7
+    },
+    {
+      "la": "Cur autem bis dixit quam pulchra es, nisi quia in opere et sermone, interius et exterius, in anima et corpore pulchra est?",
+      "en": "And why did he say twice, how beautiful art thou, if not because she is beautiful in work and in speech, within and without, in soul and in body?",
+      "column": "1255c",
+      "chunk": 7
+    },
+    {
+      "la": "id est intellectus, ratio, intuitus tuus simplex est et acutus, non ira confusus, non furoris sanguine perturbatus, non in superbiam elatus",
+      "en": "that is, thy understanding, thy reason, thy gaze is simple and keen, not confounded by anger, not disturbed by the blood of rage, not lifted up into pride",
+      "column": "1255c",
+      "chunk": 7
+    },
+    {
+      "la": "… maxima spes. Possumus etiam et per oculos prophetas intelligere, qui ea quae futura erant multo ante praeviderant. Hi columbae dicuntur, quoniam in humilitate et simplicitate cordis Domino servierunt",
+      "en": "… hope. We may also understand by the eyes the prophets, who long beforehand foresaw the things that were to come. These are called doves, since they served the Lord in humility and simplicity of heart",
+      "column": "1255d",
+      "chunk": 7
+    },
+    {
+      "la": "…; siquidem secundum tempus totius Ecclesiae sunt superiores. Sed quare gregi caprarum assimilantur, nisi quia carnaliter vivebant, et luxuriae carnisque voluptatibus serviebant? His enim dictum fuerat",
+      "en": "… they are higher than the whole Church. But why are they likened to a flock of goats, if not because they lived carnally, and served luxury and the pleasures of the flesh? For to them it had been said",
+      "column": "1256a",
+      "chunk": 7
+    },
+    {
+      "la": "Ex talibus autem David et Salomon fuisse probantur, quorum concubinarum non erat numerus. Sola igitur fide isti salvantur. Hi sunt, qui per fidem vicerunt regna",
+      "en": "And of such sort David and Solomon are proved to have been, of whose concubines there was no number. By faith alone therefore are these saved. These are they who by faith conquered kingdoms",
+      "column": "1256a",
+      "chunk": 7
+    },
+    {
+      "la": "Galaad namque *acervus testimonii* interpretatur. Ascenderunt igitur de monte Galaad, quia legis et prophetarum testimonia observantes coelorum regna scandere meruerunt",
+      "en": "… Galaad is interpreted *a heap of testimony*. They came up therefore from mount Galaad, because, observing the testimonies of the law and of the prophets, they deserved to climb the kingdoms of heaven",
+      "column": "1256a",
+      "chunk": 7
+    },
+    {
+      "la": "…pascunt et nutriunt? Cur autem greges tonsarum ovium, nisi quia saecularibus omnibus venditis, et pauperibus attributis, nudi, tonsi, vitiis exspoliati in innocentia et simplicitate Domino servierunt?",
+      "en": "…urch? And why flocks of shorn sheep, if not because, when all worldly things had been sold and given to the poor, they served the Lord naked, shorn, and stripped of vices, in innocence and simplicity?",
+      "column": "1256b",
+      "chunk": 7
+    },
+    {
+      "la": "De lavacro quidem ascenderunt, quoniam baptismatis aqua mundati, vitiisque omnibus expulsis, ad summum fidei et doctrinae, et ad coelos sublimati sunt",
+      "en": "From the washing indeed they came up, since, cleansed by the water of baptism and with all vices driven out, they were raised to the summit of faith and doctrine, and to the heavens",
+      "column": "1256b",
+      "chunk": 7
+    },
+    {
+      "la": "…eros dormientes Novum et Vetus praedicant Testamentum. Possumus autem et per gemellos fetus doctrinam et operationem intelligere, sive etiam carnis et animae castitatem, vel Dei et proximi dilectionem",
+      "en": "…st of the lots, they preach the New and the Old Testament. And we may understand by the twin young also teaching and work, or else the chastity of flesh and of soul, or the love of God and of neighbor",
+      "column": "1256b",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1256c",
+      "chunk": 7
+    },
+    {
+      "la": "…tationes comprimunt, ne vento vanitatis per inania rapiantur. Cur autem coccineae? Quia et igne sancti Spiritus accensi sunt, et Christi praedicant passionem. Coccus ignis, vel sanguinis speciem habet",
+      "en": "…h empty things by the wind of vanity. And why scarlet? Because they are both kindled with the fire of the Holy Spirit, and preach the passion of Christ. Scarlet has the appearance of fire, or of blood",
+      "column": "1256c",
+      "chunk": 7
+    },
+    {
+      "la": "Dulcia quidem sunt sanctorum eloquia, et auditu suavia. Unde et illud",
+      "en": "Sweet indeed are the sayings of the saints, and pleasant to hear. Whence also that word",
+      "column": "1256d",
+      "chunk": 7
+    },
+    {
+      "la": "[n: (Psal. CXVIII, 103)] --",
+      "en": "[n: (Psal. CXVIII, 103)] --",
+      "column": "1256d",
+      "chunk": 7
+    },
+    {
+      "la": "…oprio sanguine cruentati sunt. Genae igitur dicuntur, quia et de peccatis erubescunt; fragmen autem, quoniam pro Christi nomine trucidantur et franguntur; mali vero punici propter sanguinis effusionem",
+      "en": "…d. They are called cheeks, then, because they also blush for their sins; a piece, because they are slaughtered and broken for the name of Christ; and of a pomegranate, because of the shedding of blood",
+      "column": "1257a",
+      "chunk": 7
+    },
+    {
+      "la": "Pulchrae, inquit, sunt genae, rosea est facies, virginalis et pudicus est vultus; multo tamen laudabiliora sunt, quae nondum apparent, quae in corde latent, quae in coelesti thesauro tibi reservantur",
+      "en": "…rosy is thy face, virginal and chaste is thy countenance; yet far more praiseworthy are the things which do not yet appear, which lie hid in the heart, which are kept for thee in the heavenly treasury",
+      "column": "1257a",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1257b",
+      "chunk": 7
+    },
+    {
+      "la": "Sic autem et doctores propugnacula habent, sapientiam videlicet et virtutem, quae nulla possunt machina expugnari, nullisque inimicorum instrumentis destrui",
+      "en": "And so the doctors too have bulwarks, namely wisdom and virtue, which can be stormed by no engine, nor destroyed by any instruments of the enemy",
+      "column": "1257b",
+      "chunk": 7
+    },
+    {
+      "la": "Mille namque clypei pendent a doctoribus, quoniam per innumerabiles sententias et argumentationes ab eis defluentes, Ecclesiam protegunt",
+      "en": "For a thousand shields hang from the doctors, since by innumerable sentences and arguments flowing down from them they protect the Church",
+      "column": "1257c",
+      "chunk": 7
+    },
+    {
+      "la": "Nihil enim in ea vinci, vel frangi potest",
+      "en": "For nothing in her can be conquered or broken",
+      "column": "1257c",
+      "chunk": 7
+    },
+    {
+      "la": "…melli. Duo namque ubera duo Testamenta sunt. Duo vero gemelli duos populos designant: Judaicum videlicet et gentilem. Hi autem gemelli dicuntur, quoniam et gemini sunt, et geminam charitatem observant",
+      "en": "…two breasts are the two Testaments. And the two twins designate two peoples, namely the Jewish and the Gentile. And these are called twins, since they are both born together and keep a twofold charity",
+      "column": "1257c",
+      "chunk": 7
+    },
+    {
+      "la": "In liliis quidem pascuntur, qui in suavibus et odoriferis Scripturarum sententiis delectantur",
+      "en": "They feed indeed among the lilies who take delight in the sweet and fragrant sentences of the Scriptures",
+      "column": "1257c",
+      "chunk": 7
+    },
+    {
+      "la": "illa scilicet de qua dicitur: Quia",
+      "en": "that day, namely, of which it is said: For",
+      "column": "1257d",
+      "chunk": 7
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1257d",
+      "chunk": 7
+    },
+    {
+      "la": "fugiatque caligo, et tenebrarum omnium princeps cum tota militia sua in infernum praecipitetur. Sponsus de sponsa dicit",
+      "en": "and let the gloom flee, and let the prince of all darkness with his whole army be cast headlong into hell. The Bridegroom says concerning the bride",
+      "column": "1258a",
+      "chunk": 7
+    },
+    {
+      "la": "…nem suscipiam. Mons namque myrrhae caro est, quam assumpsit. Hic autem est ille mons, qui tantum crevit, ut totam terram compleret. Myrrhae autem ideo dicitur, quia corruptionem non vidit; juxta illud",
+      "en": "…h is the flesh which he took. And this is that mountain which grew so great that it filled the whole earth. And it is called of myrrh for this reason, that it saw no corruption; according to that word",
+      "column": "1258a",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1258a",
+      "chunk": 7
+    },
+    {
+      "la": "id est ad eos, quorum orationes me oblectant, sicut suavis odor thuris",
+      "en": "that is, to those whose prayers delight me as the sweet odor of frankincense",
+      "column": "1258a",
+      "chunk": 7
+    },
+    {
+      "la": "Tota namque pulchra est, quia neque maculam, neque rugam habet. Sponsus ad sponsam",
+      "en": "For she is all beautiful, because she has neither spot nor wrinkle. The Bridegroom to the bride",
+      "column": "1258b",
+      "chunk": 7
+    },
+    {
+      "la": "…te nites; nihil tenebrosum, nihil nigrum, nihil obscurum in te esse conspicitur. Veni igitur ad me, et quae semper pulchritudinem dilexisti, sicut sol in regno meo fulgeas in aeternum. Ter autem dixit",
+      "en": "…tity of flowers; nothing dark, nothing black, nothing obscure is seen to be in thee. Come therefore to me, and thou who hast always loved beauty, shine like the sun in my kingdom for ever. And he said",
+      "column": "1258b",
+      "chunk": 7
+    },
+    {
+      "la": "quia tria sunt, sine quibus non ad eum venitur; id est fides, spes, et charitas; *618* sive quia cogitatione, locutione, operatione Domino servit. Cur autem sponsa vocetur, superius dictum est",
+      "en": "…ithout which one does not come to him — that is, faith, hope, and charity; *618* or else because she serves the Lord in thought, in speech, and in work. And why she is called bride has been said above",
+      "column": "1258b",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1258b",
+      "chunk": 7
+    },
+    {
+      "la": "Hi autem montes in Judaea sunt. In his autem leones et pardi habitant, sicut sequentia manifestant",
+      "en": "And these mountains are in Judaea. And in them lions and leopards dwell, as what follows makes plain",
+      "column": "1258c",
+      "chunk": 7
+    },
+    {
+      "la": "Per hos autem montes, illos intelligimus, in quibus vitiorum exercitus, leones, et pardi, et ipsi maligni spiritus inhabitant. His autem devictis et expulsis, coronatur Ecclesia",
+      "en": "…by these mountains we understand those men in whom the army of vices, lions and leopards, and the malignant spirits themselves, dwell. And when these are overcome and driven out, the Church is crowned",
+      "column": "1258c",
+      "chunk": 7
+    },
+    {
+      "la": "Coronatur igitur de supradictorum montium capite, quia diabolo devicto, qui illorum caput et dominus est, pro tanto certamine praemium suscipit, et coronam",
+      "en": "She is crowned, therefore, from the head of the aforesaid mountains, because, the devil being overcome, who is their head and lord, she receives the prize and the crown for so great a struggle",
+      "column": "1258c",
+      "chunk": 7
+    },
+    {
+      "la": "Soror quidem, quia ejusdem patris filia est. Unde Apostolus ait",
+      "en": "Sister indeed, because she is the daughter of the same Father. Whence the Apostle says",
+      "column": "1258c",
+      "chunk": 7
+    },
+    {
+      "la": "Sponsa vero, quia carnem nostram sumens de virginali utero Christus processit. Haec autem soror et conjux sponsi sui cor vulneravit, amore scilicet, mortisque timore",
+      "en": "And spouse, because, taking our flesh, Christ came forth from a virginal womb. And this sister and wife wounded the heart of her bridegroom, namely with love and with the fear of death",
+      "column": "1258d",
+      "chunk": 7
+    },
+    {
+      "la": "…insidias; unum tantum oculum splendidissimum habet; una Trinitatis fide illuminatur, sine qua Deo nullus placebit. Hunc autem oculum qui non habent, caeci sunt, et in tenebris ambulant. Unde Apostolus",
+      "en": "…eye that is most shining; she is enlightened by the one faith of the Trinity, without which no one shall please God. And those who have not this eye are blind, and walk in darkness. Whence the Apostle",
+      "column": "1259a",
+      "chunk": 7
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1259a",
+      "chunk": 7
+    },
+    {
+      "la": "…utem crinis, una est sententia, quae apud omnes eadem est, in qua Christianorum nullus dissidet, quam apostoli praedicaverunt, et pro qua martyres sanguinem fuderunt, quam sancti Patres confirmaverunt",
+      "en": "…d the one hair is the one sentence which is the same among all, in which no Christian differs, which the apostles preached, and for which the martyrs shed their blood, which the holy Fathers confirmed",
+      "column": "1259b",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1259b",
+      "chunk": 8
+    },
+    {
+      "la": "…idius et suavius est. Natos suos lactat Ecclesia, adulterinos suos inebriat Synagoga. Hi autem sapienter educati, celeriter crescunt; illi vero sicut ebrii, sensum amittunt. De quibus ipse Dominus ait",
+      "en": "…ives her own children milk; the Synagogue makes her adulterous ones drunk. And these, being wisely brought up, grow quickly; but those, like drunkards, lose their senses. Of whom the Lord himself says",
+      "column": "1259b",
+      "chunk": 8
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1259b",
+      "chunk": 8
+    },
+    {
+      "la": "id est virtutum, sermonum et gratiarum. Haec enim omnia unguentum dicuntur, quia et suavia sunt, et omnium infirmitatum languores sanant",
+      "en": "that is, of thy virtues, thy discourses, and thy graces. For all these are called ointment, because they are both sweet, and heal the languors of all infirmities",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "la": "id est prae cunctis Judaeorum sacrificiis",
+      "en": "that is, before all the sacrifices of the Jews",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "la": "Favus enim mel est in cera, per quem spiritualis intelligentia significatur in littera. Favum distillant labia Ecclesiae, id est dulcia et suavia verba",
+      "en": "For a honeycomb is honey in wax, by which the spiritual understanding within the letter is signified. The lips of the Church drop a honeycomb, that is, sweet and pleasant words",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "la": "Quibus omne genus hominum delectatur. Possumus autem et per mel, quod de rore coeli conficitur, spiritualem et altiorem doctrinam intelligere; de qua Apostolus ait",
+      "en": "With which every kind of men is delighted. And we may also understand by honey, which is made from the dew of heaven, the spiritual and higher teaching, of which the Apostle says",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "la": "per lac vero mediocrem; unde ipse ait",
+      "en": "and by milk the middling teaching, whence he himself says",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1259c",
+      "chunk": 8
+    },
+    {
+      "la": "…xuit manibus; virtutibus enim virtutes conjungens, operibusque bonis bona opera connectens, admirabilem sibi composuit vestem; in qua non minus delectatur sponsus quam in multo suavissimo thuris odore",
+      "en": "…tues to virtues, and knitting good works to good works, she has fashioned for herself a wondrous robe, in which the Bridegroom delights no less than in the abundant and most sweet odor of frankincense",
+      "column": "1259d",
+      "chunk": 8
+    },
+    {
+      "la": "…ores et martyres, virgines et viduae. Conclusus autem, quoniam virtutum et angelorum munita praesidiis. Nulla vitiis patet porta, per quam latrones, et hostes subintrent, qui furentur, et rapiant bona",
+      "en": "…closed, since she is fortified with the garrisons of the virtues and of the angels. No gate lies open to vices, through which robbers and enemies might steal in, to thieve and to snatch away her goods",
+      "column": "1260a",
+      "chunk": 8
+    },
+    {
+      "la": "…tis est in Ecclesia, quo et vitiorum sordes auferuntur, et animae et corporis maculae purgantur. Est autem fons vivus in horto isto, cujus aquam qui bibit, non sitiet ultra. De hoc autem fonte dicitur",
+      "en": "…ilth of vices is taken away and the stains of soul and body are cleansed. And there is a living fountain in this garden, whose water he who drinks shall thirst no more. And of this fountain it is said",
+      "column": "1260a",
+      "chunk": 8
+    },
+    {
+      "la": "…r? Signatus est fons, cognoscitur aqua, ad hanc sancti currunt, hanc et vitia, et maligni spiritus fugiunt. Hoc enim signo fons iste ab aliis discernitur, quoniam quae iste fecit, alii facere nequeunt",
+      "en": "…the water is known, to it the saints run, and from it both vices and malignant spirits flee. For by this sign this fountain is distinguished from others, since what this one has done, others cannot do",
+      "column": "1260b",
+      "chunk": 8
+    },
+    {
+      "la": "…quos hic hortus malorum punicorum fructus Domino mittit? Mala, inquit, punica mittit, multosque martyres Domino mandat. Mala namque punica vos estis apostoli, qui pro Christi nomine sanguinem fudistis",
+      "en": "…anates which this garden sends to the Lord? She sends pomegranates, he says, and commends many martyrs to the Lord. For the pomegranates are you, O apostles, who shed your blood for the name of Christ",
+      "column": "1260c",
+      "chunk": 8
+    },
+    {
+      "la": "non solum, inquit, martyres mittit, sed cum aliorum pomorum fructibus, cum virginibus et confessoribus mala punica praesentat",
+      "en": "she sends not only martyrs, he says, but with the fruits of the other trees she presents the pomegranates together with virgins and confessors",
+      "column": "1260c",
+      "chunk": 8
+    },
+    {
+      "la": "…intelligi possunt, quae et suavitate et odore omnibus praeferuntur. Cyprus namque cum nardo ponitur, quoniam qui divino et regio unguento unguntur, magnus et suavissimus odor Deo sunt. Unde Apostolus,",
+      "en": "…ll things both in sweetness and in odor. For the cyprus is set with the nard, since those who are anointed with the divine and royal ointment are a great and most sweet odor to God. Whence the Apostle",
+      "column": "1261a",
+      "chunk": 8
+    },
+    {
+      "la": "…unt, nec altius crescunt, simplices et humiles intelligimus, quos, quamvis vulgo homines non venerentur, magnae tamen virtutis et sanctitatis sunt. In his autem persona est humilis, sed virtus excelsa",
+      "en": "…not grow higher, we understand the simple and the humble, who, although men commonly do not venerate them, are yet of great virtue and holiness. And in these the person is humble, but the virtue lofty",
+      "column": "1261a",
+      "chunk": 8
+    },
+    {
+      "la": "…ligna Libani magnae sunt altitudinis. Myrrha vero et aloe, quae putredini, vermibusque resistunt, castitatem et alias virtutes significant, quae a vitiorum contactu et animam et corpus servant illaesa",
+      "en": "…s of Libanus are of great height. And the myrrh and the aloes, which resist rottenness and worms, signify chastity and the other virtues, which keep both soul and body unharmed from the touch of vices",
+      "column": "1261a",
+      "chunk": 8
+    },
+    {
+      "la": "et maximis",
+      "en": "and greatest",
+      "column": "1261b",
+      "chunk": 8
+    },
+    {
+      "la": "per quae fides, spes et charitas designari possunt, quae in saecula saeculorum detinent principatum",
+      "en": "by which faith, hope, and charity can be designated, which hold the primacy for ever and ever",
+      "column": "1261b",
+      "chunk": 8
+    },
+    {
+      "la": "…qui bibunt, vivere nequeunt. Illi tamen de fonte bibunt, qui Scripturarum superficiem summis tenus labiis delibant. De puteo non sumunt profundiores aquas, id est difficiliores sententias non hauriunt",
+      "en": "…ose drink from the fountain who sip the surface of the Scriptures with the tips of their lips alone. From the well they do not take the deeper waters, that is, they do not draw up the harder sentences",
+      "column": "1261b",
+      "chunk": 8
+    },
+    {
+      "la": "…constantia, virtute, et affluentia hae aquae fluunt. Sed unde fluunt? de impetu, de Libano, de monte candidato. Libanus enim, ut dictum saepe est, *candidatio* interpretatur. Christus gratias convocat",
+      "en": "… these waters flow. But whence do they flow? From the force, from Libanus, from the whitened mountain. For Libanus, as has often been said, is interpreted *whitening*. Christ calls together the graces",
+      "column": "1261c",
+      "chunk": 8
+    },
+    {
+      "la": "…ectum ferebatur. Possumus tamen per aquilonem, qui asper ventus et frigidus est, tyrannorum crudelitatem intelligere. Per austrum vero, qui serenus est, fallaciae blandimenta designantur; unde dicitur",
+      "en": "…rd. Yet we may understand by the north wind, which is a harsh and cold wind, the cruelty of tyrants. And by the south wind, which is calm, the blandishments of deceit are designated; whence it is said",
+      "column": "1261d",
+      "chunk": 8
+    },
+    {
+      "la": "Ecclesia de Christo dicit",
+      "en": "The Church says of Christ",
+      "column": "1262b",
+      "chunk": 9
+    },
+    {
+      "la": "Veniat, inquit, dilectus meus, sponsus meus, amicus meus in hortum suum, in Ecclesiam suam, in sanctorum congregationem. Ad quid?",
+      "en": "Let him come, she says, my beloved, my Bridegroom, my friend, into his garden, into his Church, into the congregation of the saints. To what end?",
+      "column": "1262b",
+      "chunk": 9
+    },
+    {
+      "la": "…sequium, et bona opera sanctorum. Mitia sunt poma, quatiuntur arbores, occiduntur martyres. Jubeat igitur Dominus, ut eorum animae in coelesti thesauro, et in sinu Abrahae congregentur. Christus dicit",
+      "en": "…saints. The apples are mellow, the trees are shaken, the martyrs are slain. Let the Lord therefore command that their souls be gathered into the heavenly treasury and into Abraham's bosom. Christ says",
+      "column": "1262c",
+      "chunk": 9
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1262c",
+      "chunk": 9
+    },
+    {
+      "la": "…us, quando concupiscentiis carnis devictis, cum solis virtutibus homo conversatur. Tunc incorrupta est caro, tunc virtutes redolent, tunc ad se sanctos venire Dominus jubet. Cum enim Apostolus diceret",
+      "en": "…flesh being overcome, a man lives with the virtues alone. Then the flesh is incorrupt, then the virtues give forth their fragrance, then the Lord bids the saints come to him. For when the Apostle said",
+      "column": "1262d",
+      "chunk": 9
+    },
+    {
+      "la": "nonne ut sua meteretur myrrha desiderabat?",
+      "en": "was he not longing that his own myrrh should be gathered?",
+      "column": "1262d",
+      "chunk": 9
+    },
+    {
+      "la": "Quanta dulcedine et delectatione sanctos suos Deus recipiat, in his verbis declaratur",
+      "en": "With what sweetness and delight God receives his saints is declared in these words",
+      "column": "1262d",
+      "chunk": 9
+    },
+    {
+      "la": "recepi amorem meum, suscepi dulcissimos, nimisque dilectos amicos meos. Confirmatio",
+      "en": "— I have received my love, I have taken up my sweetest and exceedingly beloved friends. Confirmation",
+      "column": "1262d",
+      "chunk": 9
+    },
+    {
+      "la": "…cta scientia ornantur. Venit igitur Christus in hortum suum, et myrrham, quam ventus perflaverat, sanctos scilicet, quos tyrannus contristaverat, nimio secum amore devexit. Christus ad apostolos dicit",
+      "en": "…refore came into his garden, and carried away with him, with exceeding love, the myrrh which the wind had blown through — that is, the saints whom the tyrant had afflicted. Christ says to the apostles",
+      "column": "1263a",
+      "chunk": 9
+    },
+    {
+      "la": "Apostropha ad apostolos. Vos, inquit, amici mei estis; vos doctrinam fidei, et carnem meam comedite, vos sanguinem meum bibite",
+      "en": "Apostrophe to the apostles. You, he says, are my friends; do you eat the doctrine of the faith and my flesh, do you drink my blood",
+      "column": "1263a",
+      "chunk": 9
+    },
+    {
+      "la": "Comedite igitur panem vivum; bibite calicem novi testamenti",
+      "en": "Eat therefore the living bread; drink the cup of the new testament",
+      "column": "1263a",
+      "chunk": 9
+    },
+    {
+      "la": "Qui enim hoc calice inebriatur, vera scientia inebriatur. Qui enim divitias spernit, mortem desiderat, sui obliviscitur, negligit quae videt, credit quae non videt, nonne is ebrius esse videtur?",
+      "en": "…ebriated with this cup is inebriated with true knowledge. For he who spurns riches, desires death, forgets himself, neglects what he sees, believes what he does not see — does he not seem to be drunk?",
+      "column": "1263b",
+      "chunk": 9
+    },
+    {
+      "la": "…or autem vigilat, anima scilicet quae in bonis operibus perseverat. Possumus autem per cor, Christi apostolos intelligere. Isti autem vigilant, isti sanctam Ecclesiam die noctuque custodiunt. Ecclesia",
+      "en": "…e heart watches — that is, the soul, which perseveres in good works. And we may understand by the heart the apostles of Christ. These watch, these guard the holy Church by day and by night. The Church",
+      "column": "1263b",
+      "chunk": 9
+    },
+    {
+      "la": "Audio, inquit, vocem Domini mei; pulsat enim sanctos suos, ne dormiant, hortatur ut vigilent. Stat enim ad ostium, et pulsat. Si quis aperuerit, intrabit, et coenabit cum illo",
+      "en": "…ays, the voice of my Lord; for he knocks at his saints, that they may not sleep, and exhorts them to watch. For he stands at the door and knocks. If any man open, he will come in and will sup with him",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "Soror quidem, quia ejusdem patris et sponsus et sponsa, filii sunt. Ille naturaliter, ista vero adoptione",
+      "en": "Sister indeed, because both Bridegroom and bride are children of the same Father — he by nature, but she by adoption",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "pro qua mori non dubitavi, qua major dilectio nulla est",
+      "en": "for whom I did not hesitate to die, than which love there is none greater",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "felle, et amaritudine carens",
+      "en": "lacking gall and bitterness",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "quae vitiis omnibus emundata sine macula es atque ruga. Aperi, inquit, mihi cor tuum, aperi mihi portam, qua et tuas, et aliorum ingrediar conscientias",
+      "en": "who, cleansed from all vices, art without spot or wrinkle. Open to me, he says, thy heart; open to me the gate by which I may enter both thy conscience and the consciences of others",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "Confirmatio",
+      "en": "Confirmation",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "Tota, inquit, nocte cucurri, pro tuo amore vigilavi",
+      "en": "All the night, he says, I have run; for love of thee I have kept watch",
+      "column": "1263c",
+      "chunk": 9
+    },
+    {
+      "la": "Aperi mihi, soror mea. In multis quidem adversis, in nocte, et in ipsa morte pro hujus dilectione fuit Christus. Unde et illud",
+      "en": "Open to me, my sister. Christ indeed was in many adversities, in the night, and in death itself, for love of her. Whence also that word",
+      "column": "1263d",
+      "chunk": 9
+    },
+    {
+      "la": "… igitur huic non aperire, et in cordis thalamum tantum sponsum non accipere. Spiritualiter autem ros in capite, et coelestis benedictio, et Spiritus sancti gratia in eo intelligitur. De quo dictum est",
+      "en": "…eat a Bridegroom into the bridal chamber of the heart. But spiritually the dew upon the head is understood both of the heavenly blessing and of the grace of the Holy Spirit in him. Of which it is said",
+      "column": "1264a",
+      "chunk": 9
+    },
+    {
+      "la": "Vox fidelis animae. Sponsa ad seipsam",
+      "en": "The voice of the faithful soul. The bride to herself",
+      "column": "1264a",
+      "chunk": 9
+    },
+    {
+      "la": "…nvoluta et irretita eram. Immaculata sum, et te novo homine induta, in novitate vitae ambulabo, et non amplius praedicta tunica induar, non ad saecularia revertar; sed quae incoepi, instanter operabor",
+      "en": "…hed with thee, the new man, I shall walk in newness of life, and I shall no more put on the aforesaid tunic, nor shall I return to secular things; but what I have begun I shall work at without ceasing",
+      "column": "1264a",
+      "chunk": 9
+    },
+    {
+      "la": "…a terrae propior est, saepius coinquinatur. Sunt enim quaedam peccata, sine quibus vix aliquis immunis erit, Ut elatio mentis, vana gloria, verba otiosa et vanae cogitationes. Vox Ecclesiae de Christo",
+      "en": "…th, is more often defiled. For there are certain sins from which scarcely anyone will be immune, as elation of mind, vainglory, idle words, and vain thoughts. The voice of the Church concerning Christ",
+      "column": "1264b",
+      "chunk": 9
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1264b",
+      "chunk": 9
+    },
+    {
+      "la": "Quis enim est, quem Dominus tetigit, sanctoque Spiritu inspiravit; quis ipsius passionem commemorans non contremiscat? Unde est illud",
+      "en": "For who is there whom the Lord has touched and inspired with the Holy Spirit — who, calling his passion to mind, would not tremble? Whence is that word",
+      "column": "1264b",
+      "chunk": 9
+    },
+    {
+      "la": "Mittit igitur Dominus manum per foramen, tangit cor nostrum; recordatur passionis, stringitur admiratione et timore cum Dominus pro servis, justus pro injustis, creator pro creatura, talia pateretur",
+      "en": "…ning, he touches our heart; it remembers the passion, it is gripped with wonder and fear that the Lord should suffer such things for his servants, the just for the unjust, the creator for the creature",
+      "column": "1264c",
+      "chunk": 9
+    },
+    {
+      "la": "…meae delectationis, surrexi, et saeculi blandimenta dereliqui. Aperui dilecto, credidi sermonibus, cor meum vitiis et errore mundavi, in quo tantus hospes habitaturus erat. Unde per Psalmistam dicitur",
+      "en": "… the blandishments of the world. I opened to my beloved, I believed his words, I cleansed of vices and of error my heart, in which so great a guest was to dwell. Whence it is said through the Psalmist",
+      "column": "1264c",
+      "chunk": 9
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1264c",
+      "chunk": 9
+    },
+    {
+      "la": "Quid per manus nisi opera? Quid vero per myrrham, nisi incorruptionem? Distillant igitur manus myrrham, quoniam et corpus, et animam bona opera incorruptam faciunt",
+      "en": "What by the hands but works? And what by the myrrh but incorruption? The hands therefore drop myrrh, since good works make both body and soul incorrupt",
+      "column": "1264c",
+      "chunk": 9
+    },
+    {
+      "la": "…vigilare, orare, jejunare, et similia. Haec autem non immerito probatissima myrrha plena esse dicuntur; quoniam et carnem non sine magna retributione mortificant, et aeternam praeparant incorruptionem",
+      "en": "…d the like. And these are not undeservedly said to be full of the most approved myrrh, since they both mortify the flesh — and that not without a great recompense — and prepare an eternal incorruption",
+      "column": "1265a",
+      "chunk": 9
+    },
+    {
+      "la": "…movi, quibus quasi pessulo cor meum erat clausum. Aperui quidem, ut eum reciperem, et quis, et qualis, et quomodo sit verissime, perfecte et rationabiliter intelligerem. Sed frustra. Ut quid? Sequitur",
+      "en": "…hut as by a bolt. I opened indeed, that I might receive him, and might understand most truly, perfectly, and reasonably who he is, and of what sort, and in what manner. But in vain. Why so? It follows",
+      "column": "1265a",
+      "chunk": 9
+    },
+    {
+      "la": "Cum enim ea quae Dei sunt, homines perscrutari praesumunt, ipse quidem ab eis declinat atque transit; quoniam qualiter sit, nullo modo comprehendi potest. Unde est illud",
+      "en": "For when men presume to search out the things that are God's, he indeed turns aside from them and passes on, since in what manner he is can in no way be comprehended. Whence is that word",
+      "column": "1265a",
+      "chunk": 9
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1265b",
+      "chunk": 9
+    },
+    {
+      "la": "…m liquefactam tunc habemus. Judaeorum autem animae liquefactae non sunt; quoniam eorum corda nimium indurata stilo spiritus inscribi nequeunt. Quod quidem lex eorum significavit in lapidibus deformata",
+      "en": "…d. But the souls of the Jews have not melted, since their hearts, hardened beyond measure, cannot be inscribed with the stylus of the spirit. Which indeed their law signified, being shaped upon stones",
+      "column": "1265b",
+      "chunk": 9
+    },
+    {
+      "la": "Quaerunt namque multi Dominum, quoniam et mundum relinquere, et de necessitatibus liberari, et cum eo esse desiderant. Unde quidam ait",
+      "en": "For many seek the Lord, since they desire both to leave the world, and to be freed from necessities, and to be with him. Whence one says",
+      "column": "1265b",
+      "chunk": 9
+    },
+    {
+      "la": "[n: (Isa. LXIV, 1.)] Et Apostolus",
+      "en": "[n: (Isa. LXIV, 1.)] And the Apostle",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "la": "Quidam tamen quaerunt, et non statim inveniunt",
+      "en": "Yet some seek, and do not at once find",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "la": "Vocant enim et clamant, rogant ut de hac carne liberentur, et non exaudit eos Dominus",
+      "en": "For they call and cry out, they beg to be freed from this flesh, and the Lord does not hear them",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "la": "Civitas Ecclesia, custodes apostoli; custodes, inquam, apostoli et doctores, qui circum Ecclesiam vadunt, qui eam ab inimicis defendunt,",
+      "en": "The city is the Church, the keepers the apostles; the keepers, I say, the apostles and doctors, who go about the Church, who defend her from her enemies,",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "la": "videlicet gladio spiritus",
+      "en": "namely with the sword of the spirit",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1265c",
+      "chunk": 9
+    },
+    {
+      "la": "timore videlicet compunctionis, et amoris, et sententiis Scripturarum, quae quasi sagittae acutissimae inimicorum fugant exercitum",
+      "en": "namely with the fear of compunction and of love, and with the sayings of the Scriptures, which like the sharpest arrows put the army of the enemies to flight",
+      "column": "1265d",
+      "chunk": 9
+    },
+    {
+      "la": "… inquit, pallium, pravam voluntatem et vitiorum multitudinem, qua involuta et cooperta eram, apostoli et doctores mihi tulerunt, et vestimento fidei, veste candida et nuptiali me induerunt. Apostropha",
+      "en": "…depraved will and the multitude of vices in which I was wrapped and covered — the apostles and doctors took from me, and clothed me with the garment of faith, with a white and nuptial robe. Apostrophe",
+      "column": "1265d",
+      "chunk": 9
+    },
+    {
+      "la": "Vox Synagogae",
+      "en": "The voice of the Synagogue",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "la": "Nobilior nobilium, fortior fortium, sapientior sapientium. Qualis, inquam, est, dic qualis est,",
+      "en": "More noble than the noble, stronger than the strong, wiser than the wise. What manner of one, I say, is he? Say what manner of one he is,",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "la": "ut tuum ei amorem nuntiaremus. Vox Ecclesiae",
+      "en": "— that we might announce thy love to him. The voice of the Church",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "la": "Candidus quidem, quia nulla vitiorum macula eum decoloravit. Rubicundus autem, quia proprio sanguine cruentatus est. Juxta illud",
+      "en": "White indeed, because no stain of vices has discoloured him; but ruddy, because he was made bloody with his own blood. According to that word",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "la": "[n: (Isa. LXIII, 1.)]",
+      "en": "[n: (Isa. LXIII, 1.)]",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "la": "id est ex omni multitudine angelorum et hominum",
+      "en": "that is, out of the whole multitude of angels and of men",
+      "column": "1266c",
+      "chunk": 10
+    },
+    {
+      "la": "[n: (Psal. LXXXVIII, 7.)]",
+      "en": "[n: (Psal. LXXXVIII, 7.)]",
+      "column": "1266d",
+      "chunk": 10
+    },
+    {
+      "la": "Quid per caput, nisi divinitas? Unde Apostolus",
+      "en": "What by the head, but the divinity? Whence the Apostle",
+      "column": "1266d",
+      "chunk": 10
+    },
+    {
+      "la": "…bus omnibus praefertur. Non enim factura factori, creatura Creatori aequiparari potest. Duae namque naturae sunt in Christo, quarum altera est aurum, altera vero terra; divinitas scilicet et humanitas",
+      "en": "… thing made cannot be made equal to its maker, nor the creature to the Creator. For there are two natures in Christ, of which the one is gold and the other earth: namely, the divinity and the humanity",
+      "column": "1266d",
+      "chunk": 10
+    },
+    {
+      "la": "…lium multitudines elatae palmarum, quoniam semper ad altiora festinant, viriditatem non amittunt, siccari et mori non possunt, et de virtute in virtutem crescentes, coelos ascendunt. De quibus dicitur",
+      "en": "… the high boughs of palms, since they always hasten to higher things, do not lose their greenness, cannot be dried up or die, and, growing from virtue to virtue, ascend the heavens. Of whom it is said",
+      "column": "1267a",
+      "chunk": 10
+    },
+    {
+      "la": "Hi autem Christi comae dicuntur, quoniam ejus fidei, quae omnium virorum caput est, firmiter inhaerent",
+      "en": "And these are called Christ's locks, since they cleave firmly to his faith, which is the head of all men",
+      "column": "1267a",
+      "chunk": 10
+    },
+    {
+      "la": "Quare nigrae? Quia macerantur, tribulantur, aestum et multas adversitates patiuntur. Unde superius dixit",
+      "en": "Why black? Because they are worn down, they are afflicted, they suffer the heat and many adversities. Whence she said above",
+      "column": "1267a",
+      "chunk": 10
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1267a",
+      "chunk": 10
+    },
+    {
+      "la": "id est casti et simplices, non elati, non ira confusi. Per oculos autem Spiritus sancti gratias intelligimus, quibus sancti illuminantur. Unde est illud",
+      "en": "that is, chaste and simple, not lifted up, not confounded with anger. And by the eyes we understand the graces of the Holy Spirit, by which the saints are enlightened. Whence is that word",
+      "column": "1267b",
+      "chunk": 10
+    },
+    {
+      "la": "Possumus autem et per oculos patriarchas et prophetas intelligere, quibus ipse Dominus ait",
+      "en": "And we may also understand by the eyes the patriarchs and prophets, to whom the Lord himself says",
+      "column": "1267b",
+      "chunk": 10
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1267b",
+      "chunk": 10
+    },
+    {
+      "la": "subauditur, existentes. Sunt namque apostoli et doctores super aquarum rivos, quando in Scripturarum voluminibus exercentur",
+      "en": "— understand: being there. For the apostles and doctors are upon the rivers of waters when they are exercised in the volumes of the Scriptures",
+      "column": "1267b",
+      "chunk": 10
+    },
+    {
+      "la": "Aliter enim simplices et parvuli eas bibere non possunt. Ergo quia lacte sunt lotae, et sapientes, et insipientes eis utuntur, quoniam omnis scientiae in se continent principatum",
+      "en": "…le and the little ones cannot drink them. Therefore, because they are washed with milk, both the wise and the unwise make use of them, since they contain in themselves the sovereignty of all knowledge",
+      "column": "1267c",
+      "chunk": 10
+    },
+    {
+      "la": "Genae, inquit, illius odoriferae sunt, et ad videndum suaves. Sed quid per genas, nisi eam, quam de Christo habemus, notitiam, intelligimus? Unde Apostolus ait",
+      "en": "His cheeks, she says, are odoriferous and pleasant to look upon. But what do we understand by the cheeks, save that knowledge which we have concerning Christ? Whence the Apostle says",
+      "column": "1267c",
+      "chunk": 10
+    },
+    {
+      "la": "…otitiam habere? Sunt igitur genae Christi cognitiones, eae scilicet quae de ipso apparent, et videri et intelligi possunt; quasi aromatum collectiones, quae a pigmentariis compositae et ordinatae sunt",
+      "en": "…ist, therefore, are cognitions — namely, those which appear concerning him and can be both seen and understood — like collections of spices which have been compounded and set in order by the perfumers",
+      "column": "1267c",
+      "chunk": 10
+    },
+    {
+      "la": "Labia quidem erant labia Christi, quando baptismum praedicando dicebat",
+      "en": "They were indeed the lips of Christ when, preaching baptism, he said",
+      "column": "1267c",
+      "chunk": 10
+    },
+    {
+      "la": "Itemque",
+      "en": "And likewise",
+      "column": "1267d",
+      "chunk": 10
+    },
+    {
+      "la": "…lchritudinem dabant. Myrrham autem, carnis mortificationem et totius hominis incorruptionem ejus labia *623* distillabant tunc, quando discipulos, ut fortes essent et nihil timerent, admonebat, dicens",
+      "en": "…d beauty. But his lips *623* dropped myrrh — the mortification of the flesh and the incorruption of the whole man — then, when he was admonishing his disciples to be strong and to fear nothing, saying",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "la": "Et",
+      "en": "And",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "la": "Et",
+      "en": "And",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "la": "Itemque",
+      "en": "And likewise",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1268a",
+      "chunk": 10
+    },
+    {
+      "la": "…esse dicuntur? Hyacinthus namque lapis est aerei coloris, sive etiam flos purpuream speciem habens. Manus igitur Domini plenae sunt hyacinthis; sive quia ipsius operatio nos excitat ad regna coelestia",
+      "en": "…h is a stone of the colour of air, or also a flower having a purple appearance. The hands of the Lord, therefore, are full of hyacinths — whether because his working rouses us to the heavenly kingdoms",
+      "column": "1268b",
+      "chunk": 10
+    },
+    {
+      "la": "…e etiam propter clavorum sanguinem. Sanguis enim et purpura ejusdem coloris sunt. Sunt etiam manus Domini plenae hyacinthis, quia omnia ejus opera admirabili distinctione fiunt. Unde ipse ait: Quoniam",
+      "en": "…of the nails. For blood and purple are of the same colour. The hands of the Lord are also full of hyacinths, because all his works are done with an admirable distinction. Whence he himself says — that",
+      "column": "1268b",
+      "chunk": 10
+    },
+    {
+      "la": "cum de liliis loqueretur",
+      "en": "— when he was speaking of the lilies",
+      "column": "1268b",
+      "chunk": 10
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1268c",
+      "chunk": 10
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1268d",
+      "chunk": 10
+    },
+    {
+      "la": "…o vento agitata; imo columnae. Sed quae columnae? Marmoreae utique, quae frangi quidem, flecti autem non possunt. Christus namque occidi potuit, a proposita vero voluntate detorqueri non fuit facultas",
+      "en": "…nd; rather, pillars. But what pillars? Of marble, assuredly, which can indeed be broken , but cannot be bent. For Christ could be slain, but there was no power to turn him aside from his purposed will",
+      "column": "1269a",
+      "chunk": 10
+    },
+    {
+      "la": "…t ascensionem denotare. Quae ideo super aureas bases fundata dicuntur, quia in providentia et consilio Patris (quod nimirum aureum fundamentum est) ante mundi constitutionem inhaeserant. Unde ipse ait",
+      "en": "…n bases of gold for this reason, that they had inhered, before the foundation of the world, in the providence and counsel of the Father — which is assuredly a golden foundation. Whence he himself says",
+      "column": "1269a",
+      "chunk": 10
+    },
+    {
+      "la": "Hoc autem tale est ac si diceret: Firmissimum mihi est fundamentum, quod nisi se volente me occidi non patietur",
+      "en": "And this is just as if he were to say: I have a most firm foundation, which will not suffer me to be slain unless it so wills",
+      "column": "1269b",
+      "chunk": 10
+    },
+    {
+      "la": "…mnia complet et continet. Denique Libanus candidatio dicitur, Christus autem prae filiis hominum forma est speciosior. Est igitur species ejus ut Libani, alta, et pulchra, et prae omnibus excellentior",
+      "en": "…and contains all things. In short, Libanus is called whitening, and Christ is fairer in form than the sons of men. His beauty, therefore, is as of Libanus: lofty, and fair, and more excellent than all",
+      "column": "1269b",
+      "chunk": 10
+    },
+    {
+      "la": "Cedrus namque arbor est quae excelsa, odorifera, speciosa, imputribilis naturae esse perhibetur. Haec autem omnia Christo conveniunt",
+      "en": "For the cedar is a tree which is reported to be lofty, odoriferous, fair, and of a nature that does not rot. And all these things befit Christ",
+      "column": "1269b",
+      "chunk": 10
+    },
+    {
+      "la": "id est, verba quae ab ejus ore prodeunt jucunda et suavia sunt, omnique melle dulciora. Sed quid in singulis moror?",
+      "en": "that is, the words which come forth from his mouth are pleasant and sweet, and sweeter than any honey. But why do I linger over particulars?",
+      "column": "1269b",
+      "chunk": 10
+    },
+    {
+      "la": "…m, et breviter omnia dicam. Quid dicam? Totus amicus meus est desiderabilis, totus est amabilis. Diligamus igitur eum non verbis, sed opere, et veritate, toto corde, tota mente, tota cordis intentione",
+      "en": "…end is altogether desirable, he is altogether lovable. Let us therefore love him not in word, but in deed and in truth, with the whole heart, with the whole mind, with the whole intention of the heart",
+      "column": "1269c",
+      "chunk": 10
+    },
+    {
+      "la": "cui fideli annulo desponsata sum, nimioque amore et dilectione conjuncta;",
+      "en": "to whom I have been betrothed with a faithful ring, and joined with exceeding love and affection;",
+      "column": "1269c",
+      "chunk": 10
+    },
+    {
+      "la": "et non alius, non Judaeus, non haereticus,",
+      "en": "and not another — not a Jew, not a heretic —",
+      "column": "1269c",
+      "chunk": 10
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1270b",
+      "chunk": 11
+    },
+    {
+      "la": "Imperfecti sunt enim qui hic loquuntur: idcirco ubi Deus sit, quo declinaverit, et quo in loco moreretur, quasi ignorantes inquirunt",
+      "en": "For those who speak here are imperfect: therefore they inquire, as though they knew not, where God may be, whither he has turned aside, and in what place he might die",
+      "column": "1270c",
+      "chunk": 11
+    },
+    {
+      "la": "…cum, si vis ascendere mecum. Non habeo dicis; nec mecum longius ibis. Vigila igitur accensis lampadibus, quatenus ei venienti laetus occurras. Cur autem Ecclesia hortus vocetur jam superius dictum est",
+      "en": "…then neither wilt thou go further with me. Watch therefore with lamps lighted, that thou mayest go joyfully to meet him when he comes. But why the Church is called a garden has already been said above",
+      "column": "1270c",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1270c",
+      "chunk": 11
+    },
+    {
+      "la": "…or tuum, aufer spinas et tribulos; fac ut floreat anima tua; fac ut liliis et rosis, castitate et simplicitate, caeterisque virtutibus virescat. Tunc pascetur in horto tuo, tunc veniet ille, qui dixit",
+      "en": "… briers; see that thy soul flowers; see that it grows green with lilies and roses, with chastity and simplicity, and with the other virtues. Then will he feed in thy garden, then will he come who said",
+      "column": "1271a",
+      "chunk": 11
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1271a",
+      "chunk": 11
+    },
+    {
+      "la": "…e quo Deus lilia colligit. Vovisti Deo servire, promisisti Deo servire in castitate et humilitate, patientia et sobrietate; haec sunt lilia, quae Deo praesentas; haec sunt lilia, quae Dominus colligit",
+      "en": "…t vowed to serve God, thou hast promised to serve God in chastity and humility, in patience and sobriety; these are the lilies which thou presentest to God; these are the lilies which the Lord gathers",
+      "column": "1271a",
+      "chunk": 11
+    },
+    {
+      "la": "Ego, inquit, dilecto meo servio, et per omnia obedio, suaeque in me habitationis praeparo locum. Et dilectus meus mihi auxiliatur, servitutis merita tribuit, et seipsum in me hospitem infert",
+      "en": "… she says, serve my beloved and obey him in all things, and prepare in myself a place for his dwelling. And my beloved helps me, bestows the merits of my service, and brings himself into me as a guest",
+      "column": "1271a",
+      "chunk": 11
+    },
+    {
+      "la": "id est in virtutum odore et animarum pulchritudine delectatur. Vox sponsi",
+      "en": "that is, he delights in the odour of the virtues and in the beauty of souls. The voice of the Bridegroom",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "la": "Pulchra quidem, quoniam baptizata es",
+      "en": "Beautiful indeed, since thou hast been baptized",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "la": "Jerusalem namque *visio pacis* interpretatur. Merito igitur sicut Jerusalem suavis Ecclesia dicitur, siquidem pacem cognoscit et videt, pacem sequitur, et in pacem credit. Unde scriptum est",
+      "en": "…or Jerusalem is interpreted *vision of peace*. Rightly, therefore, is the Church called sweet as Jerusalem, since she knows and sees peace, follows peace, and believes unto peace. Whence it is written",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "la": "Quoniam autem superna Jerusalem filia est, idcirco ejus pulchritudinem et decorem habere perhibetur; de qua Apostolus",
+      "en": "And because she is the daughter of the Jerusalem above, therefore she is said to have its beauty and comeliness; of which the Apostle",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1271b",
+      "chunk": 11
+    },
+    {
+      "la": "…piat oves. *625* Sed quid multa? Unusquisque in suo ordine pugnat. Pugnant doctores, pugnant continentes, pugnant et conjugati. Docti sunt in praelio, vitia destruunt, et malignos spiritus supplantant",
+      "en": "…625* But why say much? Each one fights in his own order. The doctors fight, the continent fight, the married fight also. They are skilled in battle; they destroy vices and overthrow the malign spirits",
+      "column": "1271d",
+      "chunk": 11
+    },
+    {
+      "la": "Nam quoniam superius sui ostii pessulum Ecclesia aperiens, et Christum in se recipere voluit, ejusque divinitatis secreta nimium rimari coepit; idcirco hic dicitur",
+      "en": "For since above, opening the bolt of her door, the Church both willed to receive Christ into herself and began to pry too far into the secrets of his divinity, therefore it is here said",
+      "column": "1271d",
+      "chunk": 11
+    },
+    {
+      "la": "Unde et Apostolus",
+      "en": "Whence the Apostle also gave this precept",
+      "column": "1271d",
+      "chunk": 11
+    },
+    {
+      "la": "praecepit. Avertamus igitur oculos nostros; et qui de terra est, de terra loquatur: nemo quod incomprehensibile est, comprehendere conetur",
+      "en": "Let us therefore turn away our eyes; and let him who is of the earth speak of the earth: let no one try to comprehend what is incomprehensible",
+      "column": "1272a",
+      "chunk": 11
+    },
+    {
+      "la": "…, fugit Sabellium, fugit et multos alios haereticos, quoniam obliquis oculis eum inspiciebant, et carnali intuitu, humanaque ratione de his disputabant, quae nisi divina inspiratione scire non possunt",
+      "en": "… he fled many other heretics, since they looked upon him with crooked eyes, and disputed with a carnal gaze and by human reason concerning those things which cannot be known save by divine inspiration",
+      "column": "1272a",
+      "chunk": 11
+    },
+    {
+      "la": "Capilli, inquit, tui, sententiae, et cogitationes, fidelium multitudines, sicut caprarum greges, semper altiora petunt, coelesti cibo saturari cupiunt. Et",
+      "en": "Thy hair, he says — thy sayings and thoughts, the multitudes of the faithful — like flocks of goats, ever seek higher things and desire to be filled with heavenly food. And",
+      "column": "1272a",
+      "chunk": 11
+    },
+    {
+      "la": "terrenum victum fastidientes, de coelo sibi venientem cibum exspectant; denique et seipsos Domino sacrificant",
+      "en": "loathing earthly sustenance, they await the food that comes to them from heaven; and finally they sacrifice their very selves to the Lord",
+      "column": "1272b",
+      "chunk": 11
+    },
+    {
+      "la": "Dentes tui sunt greges",
+      "en": "Thy teeth are flocks",
+      "column": "1272b",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1272c",
+      "chunk": 11
+    },
+    {
+      "la": "Non me quasi localem, quasi mensuralem, quasi alicujus formae statuam intuearis. Aeternus sum, immensus, incomprehensibilis",
+      "en": "Do not gaze upon me as though I were bound to a place, as though measurable, as though a statue of some shape. I am eternal, immeasurable, incomprehensible",
+      "column": "1272c",
+      "chunk": 11
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1272c",
+      "chunk": 11
+    },
+    {
+      "la": "…ecem autem, legalia decem praecepta signamus. Sic igitur Christi reginae sexaginta sunt; quoniam in Ecclesia rectores, et in operibus quidem perfecti, et in legis institutionibus sapientes inveniuntur",
+      "en": "…n we signify the ten precepts of the law. Thus, therefore, the queens of Christ are threescore, since in the Church there are found rulers both perfect in works and wise in the institutions of the law",
+      "column": "1272d",
+      "chunk": 11
+    },
+    {
+      "la": "…ecem: octo, enim decem, vel decies octo, octoginta faciunt. Praedicant igitur et isti, legalia decem praecepta, sed non ex charitate, ut non ea quae praedicant faciant. Hi enim sunt, de quibus dicitur",
+      "en": "…n times eight, make eighty. These too, therefore, preach the ten precepts of the law, but not out of charity, so that they do not do the things which they preach. For these are they of whom it is said",
+      "column": "1273a",
+      "chunk": 11
+    },
+    {
+      "la": "… inveniuntur, quoniam otio dediti in bonis operibus non exercentur. At vero nec sabbatismum, nec requiem habebunt, siquidem diem septimum transierunt. Venient autem ad octavum, in quo fiet resurrectio",
+      "en": "…ot exercised in good works. Yet neither will they have a sabbath-rest nor repose, since they have passed by the seventh day. But they will come to the eighth, on which the resurrection will take place",
+      "column": "1273a",
+      "chunk": 11
+    },
+    {
+      "la": "De hac autem octava dicitur",
+      "en": "And of this eighth it is said",
+      "column": "1273a",
+      "chunk": 11
+    },
+    {
+      "la": "… praedicant, qui octava die in judicio damnabuntur. Damnabuntur igitur multi monachi et episcopi, qui ex labiis oreque bona defluentes, interius vitia reservantes damnabuntur, in judicio ita audientes",
+      "en": "…udgment. Many monks and bishops, therefore, shall be damned, who, letting good things flow from their lips and mouth while inwardly reserving their vices, shall be damned, hearing thus in the judgment",
+      "column": "1273b",
+      "chunk": 11
+    },
+    {
+      "la": "Hoc etiam monachis dicitur verbum, qui soli manentes, hoc quod habent, non recte impendentes, absque dubio in aeternum peribunt",
+      "en": "This word is said also to monks who, dwelling alone and not rightly expending what they have, shall without doubt perish forever",
+      "column": "1273b",
+      "chunk": 11
+    },
+    {
+      "la": "Quid per adolescentulas, nisi quoscunque fideles baptismatis aqua regeneratos? De quibus dicitur",
+      "en": "What by the young maidens, but whatever faithful have been regenerated by the water of baptism? Of whom it is said",
+      "column": "1273b",
+      "chunk": 11
+    },
+    {
+      "la": "Horum autem numerum solus ille cognovit, qui numerat stellas",
+      "en": "And their number he alone has known who numbers the stars",
+      "column": "1273c",
+      "chunk": 11
+    },
+    {
+      "la": "…st cor, eademque anima. Haec autem vere columba dicitur, quia simplex est, spiritualis, humilis et mansueta. Perfecta mea, cui senarius numerus certissime convenit; siquidem a meis operibus non cessat",
+      "en": "…l is the same. And she is truly called a dove, because she is simple, spiritual, humble, and meek. My perfect one, to whom the number six most certainly belongs, since she does not cease from my works",
+      "column": "1273c",
+      "chunk": 11
+    },
+    {
+      "la": "id est unica et singularis filia supernae Jerusalem",
+      "en": "that is, the only and singular daughter of the Jerusalem above",
+      "column": "1273c",
+      "chunk": 11
+    },
+    {
+      "la": "…patria eam diligit. Sumus igitur filii terrae secundum carnem; sumus autem et filii coeli secundum animam. Haec enim terrena, illa vero coelestis est. Serviamus igitur non terrenae matri, imo coelesti",
+      "en": "…ording to the flesh; but we are also children of heaven according to the soul. For the one is earthly, but the other is heavenly. Let us therefore serve not the earthly mother, but rather the heavenly",
+      "column": "1273d",
+      "chunk": 11
+    },
+    {
+      "la": "id est praedictae adolescentulae",
+      "en": "that is, the aforesaid young maidens",
+      "column": "1274a",
+      "chunk": 11
+    },
+    {
+      "la": "Quis enim prophetarum, vel apostolorum, doctorumve Ecclesiae beatitudinem non praedicavit? Quis sanctorum felicitatem non narravit? Subauditur nullus",
+      "en": "For which of the prophets, or of the apostles, or of the doctors has not proclaimed the blessedness of the Church? Which of the saints has not told of her happiness? Understand: none",
+      "column": "1274a",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1274b",
+      "chunk": 12
+    },
+    {
+      "la": "…uae, inquit, qualis, quam pulchra est ista quae progreditur, non otio moratur, sed ad me de virtute in virtutem transeundo conscendit, suaque magnitudine mundum replet, et ubique terrarum diffunditur?",
+      "en": "… how beautiful is she who goes forth, who does not linger in idleness, but climbs up to me by passing from virtue to virtue, and fills the world with her greatness, and is spread abroad in every land?",
+      "column": "1274c",
+      "chunk": 12
+    },
+    {
+      "la": "virtutibus fulgens, serenitate nitens, verum et summum diem cunctis gentibus denuntians",
+      "en": "shining with virtues, gleaming with serenity, announcing the true and highest day to all nations",
+      "column": "1274c",
+      "chunk": 12
+    },
+    {
+      "la": "quoniam solius fratris, et sponsi lumine illuminatur",
+      "en": "since she is illumined by the light of her brother and Bridegroom alone",
+      "column": "1274c",
+      "chunk": 12
+    },
+    {
+      "la": "…tur. Denique cum Christus sol, luna autem Ecclesia dicatur, non immerito dicitur electa ut sol. Sicut enim Ecclesia solem, ita et sol justitiae Christus Dominus noster Ecclesiam elegit. Unde est illud",
+      "en": "…d the sun and the Church the moon, not undeservedly is she called chosen as the sun. For as the Church chose the sun, so also the sun of justice, Christ our Lord, chose the Church. Whence is that word",
+      "column": "1274d",
+      "chunk": 12
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1274d",
+      "chunk": 12
+    },
+    {
+      "la": "Quare terribilis? Quia prudens, quia fortis, quia sapiens, quia",
+      "en": "Why terrible? Because she is prudent, because strong, because wise, because she is",
+      "column": "1274d",
+      "chunk": 12
+    },
+    {
+      "la": "est. Semper vigilans, semper armata, nunquam incauta est. Dicit ergo",
+      "en": "Ever watchful, ever armed, she is never off her guard. She says therefore",
+      "column": "1275a",
+      "chunk": 12
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1275a",
+      "chunk": 12
+    },
+    {
+      "la": "…e bonis bona opera connectens, admirabilem sibi composuit vestem; qua induta, inimicorum spernit sagittas. Sub hac autem tegitur anima, mira dulcedine et suavitate, fellis omnisque amaritudinis expers",
+      "en": "…erself an admirable robe; clothed with which, she scorns the arrows of her enemies. And beneath this is covered the soul, of wondrous sweetness and pleasantness, free from gall and from all bitterness",
+      "column": "1275b",
+      "chunk": 12
+    },
+    {
+      "la": "In hunc hortum descendit Christus. Sed quare descendit? Ut convallium poma videret, id est humilitatem et patientiam fidelium. De hac autem valle dicitur",
+      "en": "Into this garden Christ went down. But why did he go down? That he might see the fruits of the valleys, that is, the humility and patience of the faithful. And of this valley it is said",
+      "column": "1275b",
+      "chunk": 12
+    },
+    {
+      "la": "Descendit in hortum, vidit vallem, cognovit et elegit humiles",
+      "en": "He went down into the garden, he saw the valley, he knew and chose the humble",
+      "column": "1275b",
+      "chunk": 12
+    },
+    {
+      "la": "Floret enim vinea Dei, quando ad bonum opus se praeparant sancti",
+      "en": "For the vineyard of God flourishes when the saints prepare themselves for good work",
+      "column": "1275b",
+      "chunk": 12
+    },
+    {
+      "la": "… sunt martyres, mala punica sunt virgines, mala punica sunt omnes, qui peccatis suis erubescunt. Hi *627* autem semper germinant, hi non spinas et tribulos, imo flores et virtutes generant et nutriunt",
+      "en": "…pomegranates are the virgins, the pomegranates are all who blush for their sins. And these *627* are always budding; these bring forth and nourish not thorns and briers, but rather flowers and virtues",
+      "column": "1275c",
+      "chunk": 12
+    },
+    {
+      "la": "Vox Synagogae: Tu, inquit, in hortum venisti. Ego autem nescivi, tuum adventum ignoravi. Quare hoc? Quoniam",
+      "en": "The voice of the Synagogue: Thou, she says, camest into the garden. But I knew not; I was ignorant of thy coming. Why so? Because",
+      "column": "1275c",
+      "chunk": 12
+    },
+    {
+      "la": "hoc autem",
+      "en": "and this",
+      "column": "1275c",
+      "chunk": 12
+    },
+    {
+      "la": "…a. Vidit Mariam, quae in utero et in manibus eum bajulavit. Vidit et carnem ipsam in qua Dominus latebat. Vidit et apostolos, quos Christus regebat, et ut bonus auriga dirigebat. Hinc est quod dicitur",
+      "en": "…re him in her womb and in her hands. She saw also the very flesh in which the Lord lay hidden. She saw also the apostles, whom Christ ruled and guided as a good charioteer. Hence it is that it is said",
+      "column": "1275d",
+      "chunk": 12
+    },
+    {
+      "la": "…turbata est et propter carnem, quoniam nec hominem esse, nec matrem habere posse Deum dicebat. Audivit et apostolos praedicare: conturbata est, quoniam contra legem loqui videbantur. Praedicabant enim",
+      "en": "…t of the flesh, since she said that God could neither be a man nor have a mother. She heard the apostles also preaching: she was troubled, since they seemed to speak against the law. For they preached",
+      "column": "1276a",
+      "chunk": 12
+    },
+    {
+      "la": "Vox consolatoria Ecclesiae",
+      "en": "The consoling voice of the Church",
+      "column": "1276a",
+      "chunk": 12
+    },
+    {
+      "la": "…especta* interpretatur. Ecclesia vero prius despecta, nunc a viro electa est. Quod quidem Rachel significavit. Est autem captiva, quoniam in praelio capta, malignis spiritibus ablata est. Quater autem",
+      "en": "…r *despised*. But the Church, formerly despised, is now chosen by a husband. Which indeed Rachel signified. And she is a captive, since, taken in battle, she was carried off by the malign spirits. And",
+      "column": "1276b",
+      "chunk": 12
+    },
+    {
+      "la": "dicitur, quoniam quatuor sunt Evangelia, quae",
+      "en": "is said four times, since there are four Gospels, which do not cease to say",
+      "column": "1276b",
+      "chunk": 12
+    },
+    {
+      "la": "dicere non cessant. Semper enim ut revertamur, poenitentiam agamus, ad Dominum revertamur, nos admonent",
+      "en": "For they always admonish us to return, to do penance, to return to the Lord",
+      "column": "1276b",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1276b",
+      "chunk": 13
+    },
+    {
+      "la": "…ationis et confessionis resonat; caroque equus animae intelligitur, virtutibus ornatur, arma et Scripturarum sententiae declarantur. alterque alterum ad Dei servitium excitat. Vox Christi ad Ecclesiam",
+      "en": "…ood as the horse of the soul, it is adorned with virtues, and arms and the sayings of the Scriptures are declared. and the one rouses the other to the service of God. The voice of Christ to the Church",
+      "column": "1276c",
+      "chunk": 13
+    },
+    {
+      "la": "Pulchri sunt gressus, pulcher est incessus, pulchra est et operatio. Unde Apostolus ait",
+      "en": "Beautiful are the steps, beautiful is the gait, and beautiful too is the working. Whence the Apostle says",
+      "column": "1276c",
+      "chunk": 13
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1276c",
+      "chunk": 13
+    },
+    {
+      "la": "Calceata, inquit, es, ad iter agendum parata es. Dixisti superius,",
+      "en": "Thou art shod, he says; thou art made ready for the journey. Thou saidst above,",
+      "column": "1276c",
+      "chunk": 13
+    },
+    {
+      "la": "…m innocentum fundere non dubitavit, et non modo patitur. Possumus, et per calceamenta, prophetarum qui mortui sunt exempla intelligere. Sic autem regis filia, haec filia aeterni principis calceata est",
+      "en": "…od of the innocent, and does not only suffer. We may also understand by the shoes the examples of the prophets who have died. And thus the king's daughter, this daughter of the eternal prince, is shod",
+      "column": "1276d",
+      "chunk": 13
+    },
+    {
+      "la": "… nullisque monilibus plus decoratur, quam filiis, si eos bene morigeratos habuerit. Tantoque in his major gloria habenda est, quanto superioris artificis manu dignior et pulchrior operatio instituitur",
+      "en": "…re adorned than by children, if she has them well-mannered. And so much the greater glory is to be had in these, as the workmanship established by the hand of a higher craftsman is worthier and fairer",
+      "column": "1277a",
+      "chunk": 13
+    },
+    {
+      "la": "Quid per umbilicum nisi apostolos? Sed *628* quare umbilicus? Sicut enim umbilicus in medio ventris, ita et apostoli in medio Ecclesiae continent locum. Juxta illud",
+      "en": "…y the navel but the apostles? But *628* why the navel? For as the navel holds its place in the middle of the belly, so also the apostles hold theirs in the middle of the Church. According to that word",
+      "column": "1277b",
+      "chunk": 13
+    },
+    {
+      "la": "…lam et ordinem non omittit. Sunt igitur apostoli tornatiles; quoniam veritatis regulam semper observant, rotundi sunt, solidi sunt, non scrupulum, non dignae offensionis obstaculum in eis est reperire",
+      "en": "…der. The apostles, therefore, are turned on the lathe, since they always observe the rule of truth; they are round, they are solid; no rough stone, no obstacle of worthy offence is to be found in them",
+      "column": "1277b",
+      "chunk": 13
+    },
+    {
+      "la": "quoniam semper plenus est, semper inundat, semperque salutis poculum sitientibus propinat",
+      "en": "since it is always full, always overflows, and always offers the cup of salvation to the thirsty",
+      "column": "1277b",
+      "chunk": 13
+    },
+    {
+      "la": "…unt, et illuminant. Venter igitur imperfecti dicuntur, quoniam molliores, et imperfectiores sunt. Hi autem acervo tritici comparantur; quia et multi sunt, et ab uno processerunt. Unde ipse Dominus ait",
+      "en": "…erefore, are called the belly, since they are softer and more imperfect. And these are compared to a heap of wheat, because they are both many and have proceeded from one. Whence the Lord himself says",
+      "column": "1277c",
+      "chunk": 13
+    },
+    {
+      "la": "Cecidit igitur in terram, venit in Mariam hoc frumenti granum, ex quo illa fidelium exorta est multitudo, quae acervus tritici hoc in loco vocatur",
+      "en": "This grain of wheat, therefore, fell into the ground, came into Mary, from which arose that multitude of the faithful which in this place is called a heap of wheat",
+      "column": "1277c",
+      "chunk": 13
+    },
+    {
+      "la": "circumdatus virtutibus et doctorum orationibus",
+      "en": "encompassed with virtues and with the prayers of the doctors",
+      "column": "1277d",
+      "chunk": 13
+    },
+    {
+      "la": "…una est Ecclesia, quae semper altiora petit, et supernum de coelestibus cibum exspectat. Duo autem hinnuli duo sunt populi, Judaicus videlicet et Gentilis. Quot igitur ubera, tot et filii. Vox Christi",
+      "en": "…r things and awaits the food from above out of the heavens. And the two fawns are the two peoples, namely the Jewish and the Gentile. As many breasts, therefore, so many sons also. The voice of Christ",
+      "column": "1278a",
+      "chunk": 13
+    },
+    {
+      "la": "…odorem, et pravae doctrinae haereticorum, vitiorumque fetorem cognoscunt. Collum igitur Ecclesiae, id est quilibet praedicator, turris esse debet, refugium caeterorum, et alta defensio. Unde est illud",
+      "en": "…ench of the depraved doctrine of heretics and of vices. The neck of the Church, therefore — that is, any preacher — ought to be a tower, a refuge for the rest, and a lofty defence. Whence is that word",
+      "column": "1278a",
+      "chunk": 13
+    },
+    {
+      "la": "Sit autem et eburnea, id est casta, candida et fortis",
+      "en": "And let it be of ivory too, that is, chaste, white, and strong",
+      "column": "1278a",
+      "chunk": 13
+    },
+    {
+      "la": "…raedicatores, et clari, et lucidi sicut piscinae in Hesebon; praesertim cum eorum praedicationes animarum purgatio sint. Quae enim semel in baptismate purgantur, multoties a doctoribus purgari oportet",
+      "en": "…h clear and shining like the fishpools in Hesebon, especially since their preachings are the purgation of souls. For the souls which are once purged in baptism must be purged many times by the doctors",
+      "column": "1278b",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1278c",
+      "chunk": 13
+    },
+    {
+      "la": "…e et episcopi vocantur, quasi supra videntes. Alta est ergo turris, altum est et fundamentum. Non fetorem timet, non aeris perturbationem pertimescit. Coelestia petit, non in vitiorum volutabris jacet",
+      "en": "…e, is the tower, and lofty also is the foundation. It does not fear the stench, it does not dread the disturbance of the air. It seeks heavenly things; it does not lie in the wallowing-places of vices",
+      "column": "1278c",
+      "chunk": 13
+    },
+    {
+      "la": "… *sanguinis potus* interpretatur. Turris igitur Dei respiciat contra Damascum, id est contra eos, qui sanctorum sanguinem sitiunt. Ea enim ex parte, qua magis timetur, plures ponendi sunt speculatores",
+      "en": "…of blood*. Let the tower of God, therefore, look toward Damascus, that is, against those who thirst for the blood of the saints. For on that side from which more is feared, more watchmen are to be set",
+      "column": "1278d",
+      "chunk": 13
+    },
+    {
+      "la": "…us; magnus est, altus est, non humilia, non carnalia, imo coelestia et spiritualia novit. Non litteram quae occidit, sed spiritum qui vivificat, sequitur; non carnis, sed cordis circumcisionem didicit",
+      "en": "…s, not carnal things, but rather heavenly and spiritual ones. It follows not the letter which kills, but the spirit which gives life; it has learned the circumcision not of the flesh, but of the heart",
+      "column": "1279a",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1279b",
+      "chunk": 13
+    },
+    {
+      "la": "Quibus deliciis? Spiritualis gratiae, id est divinae sapientiae coelestium gaudiorum",
+      "en": "In what delights? In those of spiritual grace, that is, of the divine wisdom of the heavenly joys",
+      "column": "1279b",
+      "chunk": 13
+    },
+    {
+      "la": "id est perfecta et alta stabilitas,",
+      "en": "that is, thy perfect and lofty stability,",
+      "column": "1279b",
+      "chunk": 13
+    },
+    {
+      "la": "quia firma et recta stat, et nunquam a ventis detorquetur, ejus rami proceri, hujus fructus suavis, hujus viriditas aeterna. Palma victoribus convenit, victoria ab Ecclesia non recedit",
+      "en": "because it stands firm and upright and is never bent aside by the winds; its branches are tall, its fruit sweet, its greenness eternal. The palm befits victors; victory does not depart from the Church",
+      "column": "1279b",
+      "chunk": 13
+    },
+    {
+      "la": "Christus vel Ecclesia",
+      "en": "Christ, or the Church",
+      "column": "1279d",
+      "chunk": 14
+    },
+    {
+      "la": "…, in crucem ascensurus erat. Palma est Maria, quia semper viridis et virgo. Palma est crux, quia victoriae instrumentum. Semper crescit, semper viret, hujus laus aeterna, hujus virtus nunquam senescit",
+      "en": "… is the palm, because she is ever green and a virgin. The cross is the palm, because it is the instrument of victory. It always grows, always is green; its praise is eternal, its power never grows old",
+      "column": "1280a",
+      "chunk": 14
+    },
+    {
+      "la": "…fructus estis, apostoli, martyres et confessores. O palma! O victrix et admirabilis arbor, quae tantis fructibus decoraris! Ascendit Christus in palmam, apprehendit fructus, quoniam omnia ad se traxit",
+      "en": "…martyrs, and confessors. O palm! O victorious and admirable tree, that art adorned with such great fruits! Christ went up into the palm, he took hold of the fruits, since he drew all things to himself",
+      "column": "1280a",
+      "chunk": 14
+    },
+    {
+      "la": "…riunt simplices, vino inebriant sapientes. Hoc lacte suos filios Ecclesia nutrit, hoc vino et mentes et corda laetificat. Hoc vinum dat sapientiam, hi fecundi calices infantium linguas fecere disertas",
+      "en": "…ebriate the wise. With this milk the Church nourishes her sons; with this wine she gladdens both minds and hearts. This wine gives wisdom; these fruitful cups have made the tongues of infants eloquent",
+      "column": "1280b",
+      "chunk": 14
+    },
+    {
+      "la": "id est grati et suaves. Gratus est odor, jucunda sunt poma. Dulces et graves sunt sententiae. Vox Ecclesiae",
+      "en": "that is, pleasing and sweet. The odour is pleasing, the fruits are delightful. The sayings are sweet and weighty. The voice of the Church",
+      "column": "1280b",
+      "chunk": 14
+    },
+    {
+      "la": "…unt, sed optimum, quoniam et si profunda sint, dulcedinem tamen et laetitiam denuntiant, non mortem, sed vitam praedicant. Tu enim non vis mortem peccatoris, sed vitam. Vinum namque Moyses dabat, cum,",
+      "en": "…the best, since even if they be deep, yet they announce sweetness and gladness; they preach not death, but life. For thou willest not the death of the sinner, but life. For Moses was giving wine when,",
+      "column": "1280b",
+      "chunk": 14
+    },
+    {
+      "la": "dicebat. Hoc autem vinum grave videtur, et ad bibendum asperum",
+      "en": "he said. But this wine seems heavy, and harsh to drink",
+      "column": "1280b",
+      "chunk": 14
+    },
+    {
+      "la": "…hoc enim gutture, de hoc vase pretioso vinum illud exivit, quo Ecclesia inebriatur. Gustavit vinum, laudat et pincernam et vinum. Et quasi interrogata an bonum esset vinum, regis esse dignum respondit",
+      "en": "…ine with which the Church is inebriated. She has tasted the wine; she praises both the cupbearer and the wine. And as though asked whether the wine were good, she answered that it was worthy of a king",
+      "column": "1280c",
+      "chunk": 14
+    },
+    {
+      "la": "…sunt qui praedictum vinum et bibunt, et ruminant. Hi sunt qui divina secreta subtiliter perquirunt. Vinum namque ruminare est Dei testimonia semper et in labiis et in corde volvere. Unde Apostolus ait",
+      "en": "…e aforesaid wine. These are they who subtly search out the divine secrets. For to ruminate wine is to turn over the testimonies of God always both on the lips and in the heart. Whence the Apostle says",
+      "column": "1280c",
+      "chunk": 14
+    },
+    {
+      "la": "Sponsa de sponso",
+      "en": "The bride concerning the Bridegroom",
+      "column": "1280d",
+      "chunk": 14
+    },
+    {
+      "la": "Ego, inquit, dilecto meo loquor, measque ei voluntates confiteor; ipse autem ad me convertitur, mihi respondet, et me exaudit",
+      "en": "I, she says, speak to my beloved, and confess my wishes to him; and he turns to me, answers me, and hears me",
+      "column": "1280d",
+      "chunk": 14
+    },
+    {
+      "la": "*630* Haec autem vox prophetarum est, omniumque illorum qui Christi adventum exspectabant",
+      "en": "*630* And this is the voice of the prophets, and of all those who were awaiting the coming of Christ",
+      "column": "1280d",
+      "chunk": 14
+    },
+    {
+      "la": "inspice terras, sume carnem",
+      "en": "look upon the lands, take flesh",
+      "column": "1280d",
+      "chunk": 14
+    },
+    {
+      "la": "ut inde spinas et tribulos eradicemus. Colamus agrum, praedicemus gentes, exeat jar qui seminat seminare semen suum",
+      "en": "that we may root out from it the thorns and briers. Let us till the field, let us preach to the nations, let him go forth [sic: *jar*] that sows, to sow his seed",
+      "column": "1281a",
+      "chunk": 14
+    },
+    {
+      "la": "id est habitemus in gentibus. Rustici enim eramus et indocti. Non legem, non judices, non de judiciis noveramus. Veniens autem Dei Flius in mundum reliquit civitates, reliquit Jerusalem. Unde ipse ait",
+      "en": "…re country folk and unlearned. We knew not the law, nor judges, nor anything of judgments. But the [sic: *Flius*] of God, coming into the world, left the cities, left Jerusalem. Whence he himself says",
+      "column": "1281a",
+      "chunk": 14
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1281a",
+      "chunk": 14
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1281a",
+      "chunk": 14
+    },
+    {
+      "la": "…nt doctores, quia dies est, ne dormiant, quia nox praecessit. Surge tu, Paule, qui caeteros vigilare admones, amputa Dei vineam, praepara, et munda tuam plantationem. Tu enim plantasti, Apollo rigavit",
+      "en": "…em not sleep, because the night has passed. Rise thou, O Paul, who admonishest the rest to watch; prune the vineyard of God; prepare and cleanse thy planting. For thou hast planted, Apollo has watered",
+      "column": "1281b",
+      "chunk": 14
+    },
+    {
+      "la": "id est si jam fidem et doctorum suscepit documenta. Hoc enim ille videbat, hos flores ille desiderabat, cui erat sollicitudo omnium Ecclesiarum",
+      "en": "that is, whether it has already received the faith and the teachings of the doctors. For this he saw, these flowers he desired, upon whom was the solicitude of all the Churches",
+      "column": "1281b",
+      "chunk": 14
+    },
+    {
+      "la": "Flores namque fructus parturiunt, cum bona perveniunt ad effectum. Sive cum ea bona, quae incoepimus, ad finem usque perducimus",
+      "en": "For the flowers bring forth fruits when good things come to their effect. Or when we carry through to the very end those good things which we have begun",
+      "column": "1281b",
+      "chunk": 14
+    },
+    {
+      "la": "id est si adhuc martyres pro Christo mori non dubitant. Florent denique mala punica, quando humiles et pauperes virtutibus et sanctitate refulgent. Est enim arbor mali punici brevis atque deformis",
+      "en": "…he martyrs still do not hesitate to die for Christ. In short, the pomegranates flourish when the humble and the poor shine with virtues and with holiness. For the pomegranate tree is low and unshapely",
+      "column": "1281b",
+      "chunk": 14
+    },
+    {
+      "la": "Ubi? In vineis, tibi mea ubera dabo, tibi meam castitatem servabo, ad tuam laudem et honorem filios lactabo. Fugiant Judaei, fugiant et haeretici, quibus nec tangere haec ubera licet",
+      "en": "…my breasts, for thee I will keep my chastity, to thy praise and honour I will suckle my children. Let the Jews flee, and let the heretics flee too, to whom it is not lawful even to touch these breasts",
+      "column": "1281c",
+      "chunk": 14
+    },
+    {
+      "la": "…autem et aeternae vitae quietem cunctis praestant, et eos, qui saeculi sollicitudine vexabantur, omnium terrenorum saepissime oblivisci faciunt. Dant somnum et quietem, dant pristinae vitae oblivionem",
+      "en": "…all the rest of eternal life, and very often make those who were harassed by the solicitude of the world forget all earthly things. They give sleep and rest, they give forgetfulness of the former life",
+      "column": "1281d",
+      "chunk": 14
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1282a",
+      "chunk": 15
+    },
+    {
+      "la": "Quis, inquit, hoc mihi det, quis hunc honorem, hanc dignitatem, hanc beatitudinem mihi tribuat, ut tu summi regis Filius carnem sumens homo fias, et meus frater appelleris, ipseque proprio ore dicas",
+      "en": "…ll bestow on me this honour, this dignity, this blessedness, that thou, the Son of the most high King, taking flesh, shouldst become man and be called my brother, and shouldst say with thine own mouth",
+      "column": "1282a",
+      "chunk": 15
+    },
+    {
+      "la": "Matris autem Synagogae ubera elicuit Christus, quoniam legis et prophetarum mandata ipse adimplevit; sive etiam quia secundum carnem, sicut scriptum est, et",
+      "en": "And Christ drew out the breasts of his mother the Synagogue, since he himself fulfilled the commandments of the law and of the prophets; or also because, according to the flesh, as it is written, he",
+      "column": "1282a",
+      "chunk": 15
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "inquit, ideo dixit, te foris inveniam, te in homine videam, a Patre procedas, in mundum venias, et gentibus manifesteris",
+      "en": "she says — for this reason she said it — that I may find thee without, that I may see thee in a man, that thou mayest proceed from the Father, come into the world, and be made manifest to the nations",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "Hoc autem est quod in capite hujus libri scriptum est",
+      "en": "And this is what is written at the head of this book",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "Tu me, inquit, dilexisti, pro me carnem assumpsisti, nemo me despiciat; quandoquidem tanto viro sum desponsata",
+      "en": "Thou hast loved me, she says; for me thou hast assumed flesh; let no man despise me, since I am betrothed to so great a husband",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "Confirmatio",
+      "en": "Confirmation",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "… pio amore ei inhaeret. Duxit autem in domum matris suae, in carnem videlicet, quae de terra universali matre facta est. Pro Ecclesiae namque dilectione *631* Christus Dominus noster homo fieri voluit",
+      "en": "…out love. And she led him into her mother's house, namely into the flesh, which was made from the earth, the universal mother. For out of love for the Church *631* Christ our Lord willed to become man",
+      "column": "1282b",
+      "chunk": 15
+    },
+    {
+      "la": "…is, me docebis, per quam viam et doctrinam ad te venire valeam. Merito autem Christi humanitas cubiculum dicitur; siquidem ibi dormire visus est, quod secundum divinitatem nec dormire, nec mori potest",
+      "en": "…by what way and doctrine I may be able to come to thee. And rightly is the humanity of Christ called a chamber, since there he was seen to sleep who according to the divinity can neither sleep nor die",
+      "column": "1282c",
+      "chunk": 15
+    },
+    {
+      "la": "…igmentato quis delectatur, ita in ipsius sana doctrina suavique praedicatione delectabatur Christus. Vinum namque conditum dabat, quando ad Dei laudem et honorem inter perfectos sapientiam praedicabat",
+      "en": "…e as one delights in spiced wine, so in his sound doctrine and sweet preaching Christ was delighted. For he gave spiced wine when, to the praise and honour of God, he preached wisdom among the perfect",
+      "column": "1282d",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1283c",
+      "chunk": 15
+    },
+    {
+      "la": "Vox Christi",
+      "en": "The voice of Christ",
+      "column": "1283c",
+      "chunk": 15
+    },
+    {
+      "la": "…s, et fidem, et bonam operationem, quibus ad promissum bravium curritis, et serpentum venena superatis. Haec autem, quia superius exposita sunt, ulterius expositione non indigent. Synagoga de Ecclesia",
+      "en": "… working, whereby you run to the promised prize and overcome the venom of serpents. And these things, because they were expounded above, need no further exposition. The Synagogue concerning the Church",
+      "column": "1283d",
+      "chunk": 15
+    },
+    {
+      "la": "Quae, inquit, qualis, quam pulchra, quam fortis est ista, quae semper ascendit, semper ad altiora festinat, nunquam descendit, sed virtutum gradibus coelestia petit? Sed unde venit?",
+      "en": "…and of what sort, how beautiful, how strong is she who always ascends, always hastens to higher things, never descends, but by the steps of the virtues seeks heavenly things? But whence does she come?",
+      "column": "1284a",
+      "chunk": 15
+    },
+    {
+      "la": "de terra invia et inaquosa, et quondam a Deo derelicta. Sed quomodo venit?",
+      "en": "from a land pathless and waterless, and once forsaken by God. But how does she come?",
+      "column": "1284a",
+      "chunk": 15
+    },
+    {
+      "la": "copiosa virtutibus, cum plenis lampadibus. Quis eam portat? Sequitur",
+      "en": "abounding in virtues, with full lamps. Who carries her? It follows",
+      "column": "1284a",
+      "chunk": 15
+    },
+    {
+      "la": "ei conjuncta, ei adhaerens, quem tota mente, cunctisque viribus dilexit, quique post se eam trahere promisit. Vox sponsi ad sponsam",
+      "en": "joined to him, cleaving to him whom she has loved with her whole mind and with all her strength, and who promised to draw her after him. The voice of the Bridegroom to the bride",
+      "column": "1284a",
+      "chunk": 15
+    },
+    {
+      "la": "Mortua, inquit, eras, in peccatis jacebas; sed ego carnem sumens sub arbore mali resuscitavi. De hoc autem malo superius dicitur",
+      "en": "Thou wast dead, he says, thou wast lying in sins; but I, taking flesh, raised up again under the apple tree. And of this apple it is said above",
+      "column": "1284b",
+      "chunk": 15
+    },
+    {
+      "la": "Haec autem arbor, haec caro nostri Salvatoris eos obumbrat, quos suscitavit. Potest autem et de cruce hoc intelligi, quae ob Christi sanguinem hujus pomi colorem et speciem habuit",
+      "en": "…is tree, this flesh of our Saviour, overshadows those whom he raised up. And this may also be understood of the cross, which by reason of Christ's blood had the colour and the appearance of this fruit",
+      "column": "1284b",
+      "chunk": 15
+    },
+    {
+      "la": "Synagoga videlicet, quae Christum Dominum crucifixit: secundum illud",
+      "en": "namely the Synagogue, which crucified Christ the Lord: according to that word",
+      "column": "1284b",
+      "chunk": 15
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1284b",
+      "chunk": 15
+    },
+    {
+      "la": "quia legitimum sponsum dereliquit. Ecclesia ad Christum dicit",
+      "en": "because she forsook her lawful Bridegroom. The Church says to Christ",
+      "column": "1284b",
+      "chunk": 15
+    },
+    {
+      "la": "…gnaculum est in manu, quoniam et in cogitationibus, et in operibus semper Christi memores sunt sancti. Sit igitur Christus nostri cordis signum et doctor, ut ejus signo, et admonitioni facile credamus",
+      "en": "…the saints are mindful of Christ always both in their thoughts and in their works. Let Christ therefore be the sign and the doctor of our heart, that we may readily believe his sign and his admonition",
+      "column": "1284c",
+      "chunk": 15
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1284c",
+      "chunk": 15
+    },
+    {
+      "la": "…i discipuli mortem, quoniam eorum dilectio fortis est ut mors. Cum morte pugnant, morti occurrunt. Recordantur enim, et signaculum habent, quoniam Domini dilectio super eos firmissima fuit. Pater enim",
+      "en": "…fear death, since their love is strong as death. They fight with death, they run to meet death. For they remember, and they have the seal, since the Lord's love over them was most firm. For the Father",
+      "column": "1284d",
+      "chunk": 15
+    },
+    {
+      "la": "Filius autem per Prophetam dicit",
+      "en": "And the Son says through the Prophet",
+      "column": "1284d",
+      "chunk": 15
+    },
+    {
+      "la": "Confirmatio",
+      "en": "Confirmation",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "la": "De hac aemulatione Apostolus ait",
+      "en": "Of this jealousy the Apostle says",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "la": "Infernus omnia domat, charitas omnia superat. Non timet charitas infernum, non timet ejus principes et habitatores. Metonymia est",
+      "en": "Hell subdues all things, charity overcomes all things. Charity does not fear hell, it does not fear its princes and its inhabitants. It is a metonymy",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "la": "Semper enim infernus igne ardet inexstinguibili. Semper charitas igne accenditur insuperabili. De hoc autem igne Dominus ait",
+      "en": "For hell always burns with an inextinguishable fire. Charity is always kindled with an unconquerable fire. And of this fire the Lord says",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "la": "Hic autem ignis vitia exurit, et corda illuminat",
+      "en": "And this fire burns up vices and enlightens hearts",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "la": "Merito igitur inferno charitas assimilatur; siquidem ejus ignis, sicut illius inexstinguibilis est",
+      "en": "Rightly, therefore, is charity likened to hell, since its fire, like that one's, is inextinguishable",
+      "column": "1285a",
+      "chunk": 15
+    },
+    {
+      "la": "Nam sicut Apostolus ait [n: (Rom. VIII, 35)], nec tribulatio, nec augustia, nec mors, nec vita, neque ulla persecutio a charitate, quae est in Christo Jesu, sanctos separare poterit",
+      "en": "…e Apostle says [n: (Rom. VIII, 35)], neither tribulation, nor [sic: *augustia*], nor death, nor life, nor any persecution shall be able to separate the saints from the charity which is in Christ Jesus",
+      "column": "1285b",
+      "chunk": 15
+    },
+    {
+      "la": "…, remanent amici, fortuna te fallit, amici pro te moriuntur. Quaeramus igitur illum amicum qui nunquam moritur, nunquam amicos deserit, nunquam mentitur, omnibus abundat; qui amicitiam laudans, inquit",
+      "en": "…nds remain; fortune deceives thee, friends die for thee. Let us therefore seek that friend who never dies, never forsakes his friends, never lies, abounds in all things; who, praising friendship, says",
+      "column": "1285c",
+      "chunk": 15
+    },
+    {
+      "la": "Christus ad Synagogam de Ecclesia",
+      "en": "Christ to the Synagogue concerning the Church",
+      "column": "1286a",
+      "chunk": 16
+    },
+    {
+      "la": "…ra parva est, nuper genita, insipiens et indocta. Ubera non habet: Testamenta non videt, nondum parere, nondum filios enutrire potest, virum nescit. Alloquenda est igitur, et de nuptiis admonenda. Sed",
+      "en": "…She has no breasts: she does not see the Testaments; she cannot yet bear, nor yet nourish children; she knows not a husband. She must therefore be spoken to and admonished concerning the marriage. But",
+      "column": "1286b",
+      "chunk": 16
+    },
+    {
+      "la": "Quibus verbis, quibusve promissis ejus animum temperabimus. Sequitur",
+      "en": "With what words, or with what promises, shall we temper her mind. It follows",
+      "column": "1286b",
+      "chunk": 16
+    },
+    {
+      "la": "…ae propugnacula sunt; quoniam his defendimur, his vitia superamus, his haereticis resistimus. Haec *633* autem argentea dicuntur, quoniam nihil plumbi, vel aeris, nihilque falsitatis in eis reperitur,",
+      "en": "… by these we are defended, by these we overcome vices, by these we withstand heretics. And these *633* are called silver, since nothing of lead or of brass, and nothing of falsehood, is found in them,",
+      "column": "1286b",
+      "chunk": 16
+    },
+    {
+      "la": "…gamus et claudamus, ut undique portae compactae nulla ex parte vitia ingredi possint. Haec autem cedrinis tabulis, exemplis propheticis, immarcessibilibus, aliisque sententiis muniantur. Vox Ecclesiae",
+      "en": "…fastened on every side, vices may be able to enter from no quarter. And let these be fortified with boards of cedar — with prophetic examples, unfading, and with other sayings. The voice of the Church",
+      "column": "1286c",
+      "chunk": 16
+    },
+    {
+      "la": "Ego, inquit, murus sum, fortis sum, constans sum, vitiis resisto, inimicos expugno",
+      "en": "I, she says, am a wall; I am strong, I am constant; I resist vices, I storm my enemies",
+      "column": "1286c",
+      "chunk": 16
+    },
+    {
+      "la": "…ta, bene armata, non haereticorum, non philosophorum sophismata timens. Haec enim ubera filios nutriunt et defendunt. Unde et turris et ubera vocantur. Sed ex quo tempore talis est fortitudo? Sequitur",
+      "en": "…ophisms of heretics nor those of philosophers. For these breasts nourish and defend her children. Whence they are called both a tower and breasts. But from what time is such fortitude hers? It follows",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "la": "id est ex quo Christus me dilexit, Patrique reconciliavit; ex quo angelica tuba cecinit;",
+      "en": "that is, since Christ loved me and reconciled me to the Father; since the angelic trumpet sounded;",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "la": "Synagoga Ecclesiae dicit",
+      "en": "The Synagogue says to the Church",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "la": "Per vineam Ecclesiam; pro pacifico vero Christum intelligas",
+      "en": "By the vineyard understand the Church; and for the peaceable one, Christ",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "la": "--",
+      "en": "--",
+      "column": "1286d",
+      "chunk": 16
+    },
+    {
+      "la": "Haec autem vinea populos habet, quia Judaeos et gentiles, Graecos et barbaros omnesque nationes in unum colligit",
+      "en": "And this vineyard has peoples, because it gathers into one Jews and Gentiles, Greeks and barbarians, and all nations",
+      "column": "1287a",
+      "chunk": 16
+    },
+    {
+      "la": "id est apostolis et doctoribus, qui eam colerent, et amputarent, et a furibus custodirent",
+      "en": "that is, to the apostles and doctors, that they might cultivate it, and prune it, and guard it from thieves",
+      "column": "1287a",
+      "chunk": 16
+    },
+    {
+      "la": "…erus pro summa perfectione et plenitudine ponitur. Et tale est ac si diceret: Vir sanctus et catholicus ut hujus vineae fruatur merito et beatitudine, omnia tribuit quaecunque possidet. Christus dicit",
+      "en": "…n and fullness. And it is just as if he were to say: The holy and catholic man, that he may enjoy the merit and blessedness of this vineyard, gives away all things whatsoever he possesses. Christ says",
+      "column": "1287a",
+      "chunk": 16
+    },
+    {
+      "la": "Vinea, inquit, mea, haereditas, vel Ecclesia mea coram me est, mihique servit, et quamvis custodibus eam tradidissem, semper tamen praesens adsum, qui eam munio, praeparo, et custodio",
+      "en": "My vineyard, he says — my inheritance, or my Church — is before me and serves me; and although I had delivered it to keepers, yet I am always present to fortify, prepare, and guard it",
+      "column": "1287b",
+      "chunk": 16
+    },
+    {
+      "la": "…cificos? Quoniam Deo nos conciliant, ejus inimicitiam, iram et indignationem mitigant, nobisque pacem praeparant, et in pacem nos inducunt. Hi autem Ecclesiae reservantur, eique multiplicati reddentur",
+      "en": "…concile us to God, they soften his enmity, wrath, and indignation, and prepare peace for us, and lead us into peace. And these are reserved for the Church, and shall be rendered back to her multiplied",
+      "column": "1287b",
+      "chunk": 16
+    },
+    {
+      "la": "…ficorum servantur apostolis et doctoribus. His enim sicuti regibus et magistris duplex honor est habendus; siquidem caeteros custodiunt, et pro caeteris vigilant et moriuntur. Christus Ecclesiae dicit",
+      "en": "…es are kept for the apostles and doctors. For to these, as to kings and masters, a double honour is to be had, since they guard the rest, and for the rest they watch and die. Christ says to the Church",
+      "column": "1288a",
+      "chunk": 16
+    },
+    {
+      "la": "Tu, inquit, Ecclesia in hortis habitas, in liliis delectaris, inter rosas et violas jaces, undique flores, undique virtutes, undique doctorum sententiae sunt",
+      "en": "…e says, O Church, dwellest in the gardens, thou delightest in the lilies, thou liest among roses and violets; on every side are flowers, on every side virtues, on every side the sayings of the doctors",
+      "column": "1288a",
+      "chunk": 16
+    },
+    {
+      "la": "dixisti; completa est petitio tua. Te mei amici, videlicet angeli et apostoli, auscultant, quid credas, quam spem habeas, ad quem finem tendas audire desiderant",
+      "en": "thou saidst; thy petition is fulfilled. My friends — namely, the angels and the apostles — hearken to thee; they desire to hear what thou believest, what hope thou hast, to what end thou tendest",
+      "column": "1288a",
+      "chunk": 16
+    },
+    {
+      "la": "laudem scilicet, jubilationem, canticum laudis et confessionis. Vox Ecclesiae ad Christum",
+      "en": "namely, praise, jubilation, a canticle of praise and of confession. The voice of the Church to Christ",
+      "column": "1288a",
+      "chunk": 16
+    },
+    {
+      "la": "…verum Deum esse credant. Propter me venisti, domum meam intrasti; jam me osculatus es; tibi sum conjuncta, tibi desponsata. Revertere igitur, trahe me post te, redde vicem, in domum tuam me introducas",
+      "en": "…y sake thou camest, thou enteredst my house; already thou hast kissed me; to thee I am joined, to thee betrothed. Return therefore, draw me after thee, render me a like return, bring me into thy house",
+      "column": "1288b",
+      "chunk": 16
+    },
+    {
+      "la": "pete montes, pete coelos, pete superiora;",
+      "en": "seek the mountains, seek the heavens, seek the things above;",
+      "column": "1288b",
+      "chunk": 16
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}
