@@ -11,6 +11,7 @@ export const NAV_ITEMS = [
   { key: 'queue', href: '/queue/', label: 'The Queue' },
   { key: 'scripture', href: '/scripture/', label: 'Scripture' },
   { key: 'sources', href: '/sources/', label: 'Sources' },
+  { key: 'method', href: '/method/', label: 'Method' },
   { key: 'migne', href: '/migne/', label: 'Migne' },
 ];
 
