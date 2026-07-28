@@ -71,6 +71,12 @@ function inlineHtml(s, { anchorIds }) {
     // pattern-4 inline locators: strip the wrapper, render the content as printed
     // (the tag is an index handle, not display markup — translation-style.md rule 1)
     .replace(/\[f: ([^\]]*)\]/g, (_, f) => `<span class="fonscite">${f}</span>`)
+    // pattern-11 dittography: the repeated run is REAL TEXT (Pattern 7 — we render
+    // what the plate prints), so it renders normally and is only marked, never
+    // hidden or deduplicated. The marker exists so the repetition reads as Migne's
+    // and not as ours.
+    .replace(/\[d: ([^\]]*)\]/g, (_, d) =>
+      `<span class="dittog" title="Repeated in Migne's plate">${d}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -281,6 +287,14 @@ css += `
    sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
 .fonscite {
   font-size: .82em; color: var(--encre-douce); letter-spacing: .02em;
+}
+/* pattern-11 dittography: Migne prints the run twice and we print it twice. The
+   text is NOT dimmed or shrunk — it is the author's words, not apparatus — but a
+   dotted underline plus the title attribute tell a reader the repetition is on the
+   plate. Without this the page reads as though WE duplicated the words. */
+.dittog {
+  border-bottom: 1px dotted var(--encre-douce);
+  cursor: help;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }

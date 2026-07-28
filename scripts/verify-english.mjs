@@ -9,6 +9,7 @@
 //   4. Section (## head) count identical.
 //   5. English/Latin word ratio in [0.85, 1.75] (pilots: EN ≈ 1.5× Latin; 1.6+ warns).
 //   7. Guillemet parity vs the Latin twin — a total drop errors, a delta warns.
+//   8. Pattern-11 [d: …] dittography markers: English-only, never empty.
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
 //      more than once across all chunks (agents re-emitting boundary text).
@@ -89,7 +90,23 @@ for (const c of manifest.chunks) {
   const engHeads = (eng.body.match(/^## /gm) || []).length;
   if (latHeads !== engHeads) errs.push(`${name}: section heads — Latin ${latHeads}, English ${engHeads}`);
 
-  const lw = words(lat.body.replace(colRe, '')), ew = words(eng.body.replace(colRe, ''));
+  // 8. Pattern-11 dittography markers are ENGLISH-ONLY (like [f: …]): the Latin
+  // chunk is the faithful TEI transform and carries Migne's repetition unmarked.
+  // A [d: …] on the Latin side means someone edited the Latin — a hard error.
+  // The wrapper is stripped before the word-ratio count so marking a repetition
+  // never moves the ratio; the repeated WORDS still count on both sides, which is
+  // correct — they are printed twice in both.
+  const dittoRe = /\[d: ([^\]]*)\]/g;
+  const engDitto = [...eng.body.matchAll(dittoRe)];
+  if (dittoRe.test(lat.body))
+    errs.push(`${name}: [d: …] marker found in the LATIN chunk — the Latin is never marked up`);
+  for (const m of engDitto) {
+    const run = m[1].replace(/\s+/g, ' ').trim();
+    if (!run) errs.push(`${name}: empty [d: ] marker`);
+  }
+
+  const strip = s => s.replace(colRe, '').replace(dittoRe, '$1');
+  const lw = words(strip(lat.body)), ew = words(strip(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the
   // 1.1–1.2× originally assumed), so a 1.6 hard fail sat only 7% above the true mean

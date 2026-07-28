@@ -480,6 +480,14 @@ a { color: inherit; }
 .fonscite {
   font-size: .82em; color: var(--encre-douce); letter-spacing: .02em;
 }
+/* pattern-11 dittography: Migne prints the run twice and we print it twice. The
+   text is NOT dimmed or shrunk — it is the author's words, not apparatus — but a
+   dotted underline plus the title attribute tell a reader the repetition is on the
+   plate. Without this the page reads as though WE duplicated the words. */
+.dittog {
+  border-bottom: 1px dotted var(--encre-douce);
+  cursor: help;
+}
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }
 .coltext li.colmark { list-style: none; }

@@ -348,3 +348,39 @@ boundary between real words and non-words does NOT apply — the unit is the run
 Where a broken run sits inside an already-italic scripture lemma it takes no
 second italic marker (nested italics are not expressible), same as every other
 carried non-word. Say so in the crux.
+
+### 11. Dittography — print it twice, mark it `[d: …]`
+
+**Wilson, 2026-07-28.** Migne's plate sometimes sets the same run twice
+(*puro pura* at 11064 col. 0941D; `potentiores` twice at 11542 col. 1042B;
+*juxta … juxta* at 11534 col. 1051B). Pattern 7 governs: **both occurrences are
+rendered.** But an unmarked repetition in the English reads as OUR error, not
+Migne's — "by pure by pure and naked revelation" looks like a build defect on a
+reading page, and invites a correction we would have to decline.
+
+So the repetition is **printed and marked**:
+
+`by pure [d: by pure] and naked revelation`
+
+- The marker wraps **the repeated occurrence only**, not the original.
+- It renders as ordinary text with a dotted underline and the tooltip "Repeated
+  in Migne's plate" (`.dittog`). The words are **not** dimmed, shrunk, bracketed
+  or set as apparatus — they are the author's text, printed twice because the
+  plate prints them twice. Only their *provenance* is annotated.
+- Like `[f: …]`, the marker is **English-only**. The Latin chunk stays the
+  faithful TEI transform and carries the repetition unmarked; a `[d: …]` in a
+  Latin chunk is a hard verifier error (check 8).
+- Log the crux as always: column, the repeated run, and whether it looks like a
+  compositor's doubling or a genuine textual doubling.
+
+**Why not brackets.** Square brackets were the obvious candidate and are already
+overloaded in this corpus: they carry BOTH Migne's own bracketed matter
+(`[ *al.,* hujus]`, `[securitas]`, `[charta]` — his, untranslated) AND our
+supplied English words (`[it]`, `[them]`, `[and]` — ~95 instances). A third
+meaning would have made an ambiguous convention worse. The `[x: …]` marker family
+is unambiguously ours and already understood by the pipeline.
+
+*(Open, related: the bracket overload above is itself worth resolving — a reader
+cannot currently tell Migne's brackets from our supplied words. Not urgent, but
+it is the same "reader must tell plate from edition" principle that Patterns 6
+and 7 exist to serve.)*
