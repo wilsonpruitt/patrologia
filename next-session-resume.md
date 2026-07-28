@@ -1,5 +1,55 @@
 # Next session — resume note
 
+## 2026-07-28 (fourth) — queue reconciled; 4 works (46 chunks) translated + STAGED; `[nt:]` + tei-patches enter the rulebook
+
+**NOT deployed** (commits `52b29b3`, `c4e8da7`). Site now **83 english pages**. Queue: **18 works** still pre-chunked in `src/latin/`.
+
+### The queue was audited against what has shipped — it is NOT stale
+`build-queue.mjs` derives its list from `src/latin/` minus `src/english/` at build time, so it cannot drift from reality: 22 rows on the page, 22 works on disk, and **no mismatch anywhere** between `works.json` `englishState` and the actual English chunks (checked both directions). The 2026-07-10 "triage snapshot goes stale" trap has not recurred. **Two things that WERE stale, both fixed:**
+1. This file's standing instruction to *"verify 11556's none-status before it re-enters the queue"* — dead since CLAUDE.md rule 8 was rewritten later that same day. Verification gates the BADGE, not the queue. 11556 was translated this session and correctly badges "New" (its `workStatus` is `unclear`).
+2. `translation-runbook.md`'s Song-of-Songs table still listed 7383, 11062, 21413, 11321, 7871 as pending; **all five had shipped.** Trimmed, with a line stating that `/queue/` is the live list and that table is not.
+
+### The 4 new works — smallest-first, all Opus (7 agents, 46 chunks, ~1.27M subagent tokens)
+11556 PL 196 Richard *Sermo de missione Spiritus Sancti* (5) · 11063 PL 175 Hugh *Expositio in Abdiam* (11) · 11551 PL 196 Richard *Expositio de tabernaculo* (15) · 11057 PL 175 Hugh *Adnotatiunculae in Joelem* (15).
+- **verify-english OK on all 4**; built + indexed; **0 unparsed corpus-wide**. works.json flipped to `ours` BEFORE the page builds. decade-check at 83: **nothing blocking**. Badges verified per work on the built landing: 11057 + 11063 "First" (verified `none`), 11551 + 11556 "New" (`unclear`, fail-safe working).
+- Aliases added to `index-work.mjs`: **I/II Paral. + I/II Paralip.** (Chronicles — 11551 alone uses two of the three forms), **II Thes.** (single s), **Osee / Oseae** (the genitive Migne prints for Hosea).
+
+### Two conventions entered `translation-style.md` — they had lived only in this file
+**Pattern 14 `[nt: …]`** (a note that is prose is translated; a citation stays `[n:]`; judge by content, not length) and a new **Source patches** section for `data/tei-patches/` (corrects the MARKUP, never the words; prove it before patching; patches fail loudly; a defect in *Migne* is Pattern 7's business and is never patched). Also: the runbook's sacred-marker list had never learned `[d:]`, `[sic:]`, `[ed:]` or `[nt:]` — every agent prompt was silently a rulebook behind. Fixed; this batch was the first to inherit them.
+
+### Splitting a work across two agents produces convention drift — check it at merge, every time
+Three of the four works came back from two agents each. **Two disagreed, one materially:**
+1. **11551 — the tail anglicized the column's members** to "epistyle"/"shaft" while the first half kept ***stylus* / *epistylium*** in italic Latin. Richard argues that vocabulary *etymologically* at 0233A — *epistylium dici non solet nisi quod stylo inhaeret* — and an English pair sharing no root makes the sentence explaining the name stop explaining anything. **22 instances converted to Latin at merge.** Related distinctions confirmed and documented: *capitellum* → "capital" (standard English, no etymological load), and "shaft" reserved for the LAMPSTAND's shaft in chunk 0000, a different object.
+2. **11063 — `ALLEGORICALLY.` vs `ALLEGORICAL.`** for the same `ALLEGORICE.`; unified to the adjective so the three sense labels read as one series.
+3. **11057 keeps ADVERB labels** (ALLEGORICALLY. / HISTORICALLY. / MORALLY.) because *its* plate prints adverbs throughout. Each work is faithful to its own plate, which is what Pattern 9 intends — **but two adjacent Hugh commentaries now label their senses differently on the site. Wilson's call whether that is fidelity or noise.** Recorded at the head of both cruces files rather than silently harmonized.
+
+All three merged `cruces.md` files open with a **work-wide conventions section** stating the fixed terminology, so a later sweep does not churn them.
+
+### The band-arithmetic false alarm is these agents' most common error — 3 of 4 works produced one
+Agents reported "column band skipped / anchor out of band" and proposed plate checks, `tei-patches` entries, and a Pattern 13 `[ed:]` — **11556 ×2 (1018D, 1031A→1032A), 11063 ×1 (0405A→0406A)**. All overruled as the documented do-not-reopen class (Migne's A–D marks are positional quarter-guides transcribed where they appear, NOT four per column; the column number is what increments). Text continuity was checked in each case — e.g. *quae hominem illecebris captum in [0406A] servitutem redigit*, continuous. All struck through in the cruces files with DO-NOT-FIX and the reasoning.
+- **A do-not-report paragraph for this class was added to the launch prompts mid-session** and the two agents that got it produced zero false alarms. **Fold it into the runbook's permanent prompt template.**
+- **One anchor anomaly is REAL and was confirmed against the Latin:** 11551's chunk 0010 runs `0240D → 0241A → 0242A`, then 0011 opens `0241 → 0241B → 0241C → 0241D → 0242B`. **Column 241 genuinely recurs** — a table set across the tops of both columns with the prose resuming below. Nothing reordered.
+
+### Open flags for Wilson (none blocking)
+1. **A fourth dropped negative in this stretch of PL 196** — 11551 @0230A (a probable dropped `non`, making Richard call superfluous a specification he immediately builds on), after 11534 @1054A, 11537 @1069D, 11531 @1000D. **Four in one stretch of one volume is no longer coincidence** — it may be a property of this printing and may deserve a targeted sweep rather than catching them one work at a time.
+2. **11551 @0221B `Nec arula … inferebatur`** — as printed Richard denies what he concludes eight lines later; likely *Nam* for *Nec*. Rendered literally, so the page states the opposite of his argument. Highest-stakes single word in the batch.
+3. **11063 @0376D `vanitatem` for `unitatem`** — "I do not confound the *emptiness* of nature" in a sentence warning against dividing the unity of the divine essence. A Trinitarian claim inverted by one letter.
+4. **The inline-citation class is now 4 corpus-wide and clustering** — `(Job X)` @11057/0345C, `(Luc. XXII)` @0353D, `(Apoc. XXI)` @0370B (in two of these the column anchor falls *inside* the citation), plus the old 7020/0074D. Migne prints them in running text with no `[n:]` wrapper, so they reach no index. Three in ONE work changes the arithmetic that said "only 1 case, don't build a harvester." **The fix is the same shape as the `[f:]` harvest.**
+5. **Sentence-initial lowercase carried literally** — 11057 `tuere` @0330D, `illyricum` @0341C. Pattern 7 governs by the agent's reasoning (English *does* have capitals, so Pattern 9's "no English exponent" exemption fails), but Pattern 8 already puts *punctuation* under "follows the plate" and capitalization is arguably the same species. Reads as our typo. Same family as the `munde`/`mundo` complaint. If normalized, both sweep together.
+6. **11551 is overwhelmingly numerical damage** — Jehu "ten and eight years" against his own table's `xxviii` at 0247; `Joas filius Jehu` where the next two sentences say *Joachas*, making Joas his own father; `Achab filius Joathan` ×7 for Achaz. All as printed, which is also the most defensible call: the disagreements ARE the evidence.
+7. **11056 `[sic: *amplectanda*]`** — flagged by its own agent: an a/e swap in a gerundive stem may be an attested variant (Pattern 9) rather than broken type. The one marker in that batch worth confirming. *(Recorded on 11057 @0349B.)*
+8. **11063 @0396B `Achartumnam`** — a non-word where Jerome on Obad. 19 has the *Daroma*. If recoverable from Jerome, it is a `tei-patches/11063.json` case, not a crux.
+9. **11556 @1024B/1024C — a clean citation TRANSPOSITION**: `(Psal. CXVIII)` sits on Ps. 84:9 and `(Psal. XCIII)` on Ps. 118:103. The two notes appear swapped rather than independently wrong. A `citation-corrections.json` candidate — but correcting a *pair* is a different act from correcting one bad key, so it is left for a ruling.
+10. **11063's opening anchors run backward** — chunk 0000 `0371C → 0372C`, chunk 0001 `0371 → 0371D → 0372D`. Compounding it, **Joel (11057) ends at 0372B while Abdias (11063) opens at 0371C**, so the two works overlap in the plate. Either Migne genuinely interleaves them or one work's Corpus Corporum anchors are wrong. **The resolver now offers both works on a shared column rather than guessing, so smoke-test `/pl/175/371c` at deploy.**
+11. **Bracket overload still unresolved** (carried forward): a reader cannot tell Migne's brackets from our supplied words.
+
+### → NEXT SESSION
+1. **Resume smallest-first** — 18 works still pre-chunked. Next tier: 11088 (16 ch), 11536 (17), 10804 (17), 11058 (19), 11553 (22). Hard-stop ritual before each launch. Stage only.
+2. **`9637 Ordo ad regem benedicendum` is STILL a Fable mini-pilot, not an Opus batch** — first liturgical-ordo genre; extend `translation-style.md` before translating it or any ordo. It is now the SMALLEST thing in the queue (2 chunks), so it will keep surfacing as "next" — it is deliberately skipped, not overlooked.
+3. **Fold the band-arithmetic do-not-report paragraph into the runbook's permanent prompt template** (it worked; it is currently only in this session's ad-hoc prompts).
+4. Run `decade-check.mjs` at the next decade boundary (89 works).
+5. **Link migne.app back from the Acta methodology page** (carried, still owed).
+
 > **~~Open item (2026-07-28):~~ CLOSED same day.** `/method` now has its *Why translate
 > this way* section (nobody was doing this · unlock the language gate, not perfection ·
 > the clerk carrying his exemplar's mistake forward) and links **actasanctorum.org** and
