@@ -13,6 +13,8 @@
 //   8. Pattern-11 [d: …] dittography markers: English-only, never empty.
 //   9. Pattern-12 [sic: …] plate-defect markers: English-only, never empty, and
 //      content must be VERBATIM in the Latin twin (it is carried type, not translation).
+//  10. Pattern-13 [ed: …] editorial-voice notes: English-only, never empty, and content
+//      must NOT be verbatim Latin (it is ours, not Migne's).
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
 //      more than once across all chunks (agents re-emitting boundary text).
@@ -148,7 +150,23 @@ for (const c of manifest.chunks) {
       errs.push(`${name}: [sic: ${m[1]}] is not verbatim in the Latin twin — a sic marker may only wrap type carried from the plate`);
   }
 
-  const strip = s => s.replace(colRe, '').replace(dittoRe, '$1').replace(sicRe, '$1');
+  // 10. Pattern-13 [ed: …] — the EDITION's own voice, used where the digitization
+  // has lost text the plate carries. English-only, never empty, and its content must
+  // NOT be verbatim Latin from the twin: that would mean someone wrapped Migne's own
+  // words in a marker reserved for ours, which is the mirror of the [sic:] error.
+  // Stripped from the ratio count — our note is not the author's word count.
+  const edRe = /\[ed: ([^\]]*)\]/g;
+  if (edRe.test(lat.body))
+    errs.push(`${name}: [ed: …] marker found in the LATIN chunk — the Latin is never marked up`);
+  for (const m of [...eng.body.matchAll(edRe)]) {
+    const run = flat(m[1]);
+    if (!run) { errs.push(`${name}: empty [ed: ] marker`); continue; }
+    if (latFlat.includes(run))
+      errs.push(`${name}: [ed: ${m[1]}] appears verbatim in the Latin twin — [ed: ] is the edition's own voice, not Migne's text`);
+  }
+
+  const strip = s => s.replace(colRe, '')
+    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '');
   const lw = words(strip(lat.body)), ew = words(strip(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the

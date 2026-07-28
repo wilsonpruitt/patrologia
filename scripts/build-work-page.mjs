@@ -136,6 +136,13 @@ function inlineHtml(s, { anchorIds, state }) {
     // is annotated, same principle as .dittog.
     .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
       `<span class="sic" title="As Migne's plate prints it — see the notes on this work">${s}</span>`)
+    // pattern-13 [ed: …]: the EDITION speaking in its own voice, not the author and
+    // not Migne — used where the digitized source has lost text that the plate has,
+    // so the page would otherwise show a hole that reads as our error. Unlike every
+    // other marker this content is OURS, so it is set apart visually rather than
+    // woven into the text: a reader must never mistake it for something Migne printed.
+    .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
+      `<span class="ednote">[${e}]</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -377,6 +384,18 @@ css += `
   border-bottom: 1px wavy var(--dorure);
   text-decoration-skip-ink: none;
   cursor: help;
+}
+/* pattern-13 [ed: …]: the edition's own voice. Deliberately the ONLY thing on the
+   page that does not look like the text — smaller, spaced, in the gilt, so it reads
+   as a label rather than as something Migne printed. */
+.ednote {
+  display: inline-block;
+  font-family: var(--didot);
+  font-size: .82rem;
+  letter-spacing: .03em;
+  color: var(--dorure);
+  font-style: normal;
+  margin: .15em 0;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }

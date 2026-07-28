@@ -446,3 +446,41 @@ actively misleading, is the case that would reopen it.)
 each work's `cruces.md` rather than by pattern-matching the prose — per the
 method warning of 2026-07-28, a phrase-matching sweep reports itself complete
 while leaving half the instances in place.
+
+### 13. `[ed: …]` — the edition's own voice, for holes in the digitization
+
+Pattern 12 marks a defect the plate *has*. This marks text the plate has and our
+**source** has lost — a different thing, and it cannot wear the same mark,
+because there is nothing there to call *sic*.
+
+The case that forced it: **11055** at cols 0104B–0105A, Hugh's catalogue of
+David's mighty men. Corpus Corporum's TEI transcribed the tally column and
+dropped every name, as literal empty `<item/>` elements (entries 27–31 survive
+only because they happened to be marked up as a `<table>` rather than a `<list>`
+— which is itself the evidence that this is a markup artifact, not Migne).
+Rendered faithfully, the page shows a numbered list with no names: a hole that
+reads as *our* bug to anyone who does not open the notes. Silence was the wrong
+answer to that, and so was inventing the names.
+
+**The rule:** where the digitized source has demonstrably lost text the plate
+carries, say so on the page, in our own voice, in a `[ed: …]` marker.
+
+- Content is **ours** — English, plain, factual. Name what is missing, whose
+  loss it is, and what recovery would require. Never speculate about the content
+  of the lost text and never supply it from elsewhere.
+- Renders set apart from the text (`.ednote` — smaller, gilt, letter-spaced), so
+  that it cannot be mistaken for something Migne printed. This is the **only**
+  thing on a reading page that is neither the author's words nor Migne's.
+- **English-only**, and the verifier enforces the mirror of the `[sic: …]` test:
+  an `[ed: …]` whose content appears verbatim in the Latin twin is a hard error,
+  because that would mean Migne's words had been dressed as ours.
+- Stripped from the word-ratio count — our note is not the author's word count.
+- Use it **sparingly**. It is for demonstrated source loss, not for uncertainty,
+  not for commentary, and not for anything a crux can carry. A page thick with
+  editorial asides has stopped being an edition of Migne. When in doubt, the
+  crux is the right home.
+
+Where the loss is later recovered from the plate, the fix belongs in
+`data/tei-patches/<idno>.json` with provenance (the 11085 precedent), and the
+`[ed: …]` marker is removed in the same commit — the note exists only for as
+long as the hole does.
