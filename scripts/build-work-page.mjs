@@ -63,11 +63,57 @@ const colParts = c => c.match(/^0*([0-9]+)([A-D]?)$/) ?? [c, c, ''];
 const colId = c => { const [, n, b] = colParts(c); return 'c' + n + b.toLowerCase(); };
 const colDisp = c => { const [, n, b] = colParts(c); return n + b; };
 
-function inlineHtml(s, { anchorIds }) {
+// Citation corrections (data/citation-corrections.json), keyed idno + column.
+// Policy (Wilson, 2026-07-18): the TEXT keeps what Migne prints and refDisplay
+// stays verbatim, while refKey resolves to the TRUE reference. Until 2026-07-28
+// that resolution was written to data/index/ and read by nothing but a QA script,
+// so a reader saw only Migne's wrong number and our correct one was unreachable.
+// The printed form is still what appears on the page — the correction is attached
+// to it, never substituted for it.
+const corrections = (() => {
+  const p = path.join(ROOT, 'data/citation-corrections.json');
+  if (!fs.existsSync(p)) return new Map();
+  const all = JSON.parse(fs.readFileSync(p, 'utf8')).corrections ?? [];
+  const m = new Map(); // "column" -> [entry]
+  for (const c of all) {
+    if (String(c.idno) !== String(idno)) continue;
+    const k = String(c.column).toLowerCase();
+    if (!m.has(k)) m.set(k, []);
+    m.get(k).push(c);
+  }
+  return m;
+})();
+// "Isa.11.1" -> "Isa 11:1"; "Eccl.7" -> "Eccl 7"
+const prettyKey = k => {
+  const [book, ch, v] = String(k).split('.');
+  return v ? `${book} ${ch}:${v}` : `${book} ${ch}`;
+};
+const correctionFor = (noteContent, col) => {
+  for (const c of corrections.get(String(col).toLowerCase()) ?? []) {
+    if (noteContent.includes(c.refDisplay)) return c;
+  }
+  return null;
+};
+
+// `state` carries the current column while rendering ONE side of the parallel
+// page. Latin and English are rendered in interleaved order (lat sec 0, eng sec 0,
+// lat sec 1 …), so a single shared tracker would drift across the seam — each side
+// gets its own, seeded from the work's first column.
+function inlineHtml(s, { anchorIds, state }) {
   return esc(s)
-    .replace(/\[([0-9]{3,5}[A-D]?)\]\s*/g, (_, c) =>
-      `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
-    .replace(/\[n: ([^\]]*)\]/g, (_, n) => `<span class="notecite">${n}</span>`)
+    // anchors and notes are matched in ONE alternation so they are replaced in
+    // document order; two sequential .replace passes would finish every anchor
+    // before the first note and leave the column tracker useless.
+    .replace(/\[([0-9]{3,5}[A-D]?)\]\s*|\[n: ([^\]]*)\]/g, (m0, c, n) => {
+      if (c !== undefined) {
+        if (state) state.col = colDisp(c).toLowerCase();
+        return `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`;
+      }
+      const fix = state ? correctionFor(n, state.col) : null;
+      if (!fix) return `<span class="notecite">${n}</span>`;
+      const why = fix.note ? ` — ${fix.note}` : '';
+      return `<span class="notecite corrected" title="${esc(`Migne prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${n}</span>`;
+    })
     // pattern-4 inline locators: strip the wrapper, render the content as printed
     // (the tag is an index handle, not display markup — translation-style.md rule 1)
     .replace(/\[f: ([^\]]*)\]/g, (_, f) => `<span class="fonscite">${f}</span>`)
@@ -105,18 +151,23 @@ if (latSecs.length !== engSecs.length) {
   process.exit(1);
 }
 
+// one column-tracker per side (see inlineHtml): both sides carry the same [n: ]
+// markers, so a correction surfaces in the Latin and the English alike.
+const latState = { col: String(manifest.colFirst ?? '').toLowerCase() };
+const engState = { col: String(manifest.colFirst ?? '').toLowerCase() };
+
 const passages = latSecs.map((ls, i) => `
 <div class="col-rules passage">
   <div>
-    <h2 class="canon-head" lang="la">${inlineHtml(ls.head, { anchorIds: false })}</h2>
+    <h2 class="canon-head" lang="la">${inlineHtml(ls.head, { anchorIds: false, state: latState })}</h2>
     <div class="coltext latin" lang="la">
-${blockHtml(ls.text, { anchorIds: true })}
+${blockHtml(ls.text, { anchorIds: true, state: latState })}
     </div>
   </div>
   <div>
-    <h2 class="canon-head">${inlineHtml(engSecs[i].head, { anchorIds: false })}</h2>
+    <h2 class="canon-head">${inlineHtml(engSecs[i].head, { anchorIds: false, state: engState })}</h2>
     <div class="coltext english" lang="en">
-${blockHtml(engSecs[i].text, { anchorIds: false })}
+${blockHtml(engSecs[i].text, { anchorIds: false, state: engState })}
     </div>
   </div>
 </div>`).join('\n');
@@ -354,6 +405,13 @@ css += `
   font-size: .88rem; line-height: 1.55; margin: .8rem 0 0; padding-top: .7rem;
   border-top: 1px solid rgba(126, 45, 38, .35);
   color: var(--encre-douce);
+}
+/* A citation Migne misprints. The printed form still reads exactly as he set it —
+   only a maroquin dotted rule marks it, with the resolved reference on hover. The
+   correction is ATTACHED to the printed number, never substituted for it. */
+.notecite.corrected {
+  border-bottom: 1px dotted var(--maroquin, #7E2D26);
+  cursor: help;
 }
 .author-card::backdrop { background: rgba(20, 37, 25, .35); }
 

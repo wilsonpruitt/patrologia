@@ -538,6 +538,13 @@ a { color: inherit; }
   border-top: 1px solid rgba(126, 45, 38, .35);
   color: var(--encre-douce);
 }
+/* A citation Migne misprints. The printed form still reads exactly as he set it —
+   only a maroquin dotted rule marks it, with the resolved reference on hover. The
+   correction is ATTACHED to the printed number, never substituted for it. */
+.notecite.corrected {
+  border-bottom: 1px dotted var(--maroquin, #7E2D26);
+  cursor: help;
+}
 .author-card::backdrop { background: rgba(20, 37, 25, .35); }
 
 /* ---------- PG work page ---------- */
