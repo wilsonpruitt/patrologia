@@ -1,5 +1,42 @@
 # Next session — resume note
 
+## 2026-07-28 (fifth) — 3 works (50 chunks) translated + STAGED; false-positive block added to the prompt; verify-english dedupe bug fixed
+
+**NOT deployed** (commits `951dcbf`, `89a6b13`). Site now **86 english pages**. Queue: **15 works** still pre-chunked. decade-check at 86: **nothing blocking**.
+
+### The 3 new works — all Opus, 6 agents, 50 chunks (~1.24M subagent tokens)
+11088 PL 176 Hugh *Expositio in regulam S. Augustini* (16) · 11536 PL 196 Richard *De exterminatione mali et promotione boni* (17) · 10804 PL 164 Bruno of Segni *Expositio in Cantica canticorum* (17). Badges: 11088 + 10804 "First" (verified `none`), 11536 "New" (`unclear`). **Bruno of Segni bio added** — c. 1045–1123, dates verified against two independent sources.
+
+### The known-false-positives block WORKS — put it in every prompt from now on
+`translation-runbook.md`'s prompt template now carries a **"Known false positives — do NOT report these"** block (7 settled classes). Result this batch, against three band-arithmetic false alarms in the previous one: **zero false alarms in six agents.** Two agents explicitly closed with "investigated and left alone" lists naming anchor recursions they correctly did not report. And the escape hatch worked as intended — the 11088 agent flagged a **genuine** mid-construction break AS an exception with the required evidence (0883A, verified at merge), rather than suppressing it.
+
+### Splitting a work across agents drifted terminology in ALL THREE works
+Every one of the three needed a merge-time reconciliation. This is now a required pipeline step (runbook step 4), not a tidy-up:
+1. **11088 — *praepositus*: "superior" vs "prior".** Unified to **prior**. Hugh closes ch. XI with *qui inter vos quanto in loco superiori, tanto in majori periculo versatur* (0922D), where an office called "superior" collides with "the higher place" in its own clause; two further ordinary comparatives sit nearby.
+2. **10804 — *amica mea*: "my beloved" vs "my friend".** Unified to **friend**. Bruno lists *dilectus meus, sponsus meus, amicus meus* in one phrase, and *dilecta* (13×) owns "beloved"; at 1269C the Song's word is masculine *amicus*, glossed with John 15:13. 11 instances converted per-instance (most "my beloved" in the work correctly render *dilectus* and had to be left).
+3. **11536 — *turba*: "crowd" vs "throng".** Unified to **throng**, 13 instances.
+**Gotcha for future sweeps:** a substring grep for `turba` in 11536 reports 31 hits in chunks 0000–0005 and **every one is a false positive** — they are the verb *turbare* / noun *turbatio*. Match `\bturb(a|am|ae|is|as)\b`. I got this wrong first pass and reported four-way drift that did not exist.
+
+### `verify-english.mjs` dedupe bug — FIXED, and it was silently mis-shaped
+The Latin-side dup map keyed on `new Set(locs).size > 1`, i.e. the set of FILENAMES. A Latin paragraph repeated twice **inside one chunk** collapses to size 1 and never entered `latDupPairs` — while the English side counts raw occurrences and does flag it. Net: cross-chunk repetitions were excused, **within-chunk ones could never be** — and within-chunk is the normal shape of a lemma-and-gloss commentary, which is most of the remaining queue. Found by 11088/0002, where Migne quotes the Rule clause *Omnes ergo unanimiter et concorditer vivite…* three times (full, fragment, full) and the English mirrored it 1:1. Now counts occurrences; regression-checked against 11063/11551/11057/7561.
+
+### Open flags for Wilson
+1. **THE SONG-OF-SONGS CONVENTION — needs a ruling before the next Song work.** Bruno keeps ***murenulae*** in italic Latin (he glosses it etymologically from the fish *murena*); 10379 Robert of Tombelaine, already LIVE, renders the same lemma "chains of gold". Fifteen more Song commentaries follow. Settled already: where the printed Latin DIFFERS the English must differ (scripture policy), and where a gloss depends on the word the Latin stands (the *stylus*/*epistylium* precedent). **Undecided: where the printed Latin is identical and no gloss depends on it** — harmonize across commentaries, or let each stand? Deliberately NOT harmonized in either direction pending your call. Full statement at the head of `src/english/10804/cruces.md`.
+2. **The PL 196 negation defect is now SIX instances across five works, running BOTH directions** — 11536 @1106D (dropped `non`) and @1097D (`noluit` for `voluit`), after 11534 @1054A, 11537 @1069D, 11531 @1000D, 11551 @0230A. Every one inverts a doctrinal or argumentative claim. It looks like a property of how PL 196 was set. **Worth a targeted sweep** (mechanically findable: a clause whose *nam*/*sed*/*quia* neighbour contradicts its polarity) rather than catching them one work at a time.
+3. **11088 @0883A — a genuine displaced line of type, and a strong `tei-patches/11088.json` candidate.** `Sunt quidam in congregatione [0883A] beamus. Et ideo praecipit ut unanimes habitemus obstinati in suo sensu…` — a line sits wedged inside the sentence about the obstinate. It falls **exactly at a column head**, which is characteristic of TRANSCRIPTION line-order error rather than Migne's compositor (the 11085 shape). Needs the PL 176 plate; scan-reading deliberately not attempted per the 11055 precedent. Literal rendering is correct either way.
+4. **The inline-citation class keeps growing — now ~6 corpus-wide.** 10804 @1265A–B sets a Psalm citation as inline italic running text with a column anchor *inside* it (`*(Psal. [1265B] LXIII, 7)*`), plus the three in 11057 and the old 7020. They reach no index. The fix is the same shape as the `[f:]` harvest.
+5. **10804's type-damage cluster** — *Eeclesia*, *Ecelesia*, *beatitudiuem*, *Sio* (cols 1240–1255) and *augustia* for *angustia* (1285B): five inverted-sort errors that look like ONE damaged case used through the gathering, not five independent slips. Worth a plate check if one is ever made.
+6. **10804 @1260B — *lignum vetitum*** ("the forbidden tree, that is, Christ") where the argument requires *lignum vitae*; **@1268A** the lemma drops *aureae* while the gloss *Cur autem aureae* depends on it. Both read as our errors.
+7. **`headnotes[]` carries empty entries corpus-wide** — 36 of 10804's 498, 143 of 9076's 598. Pre-existing, not new, and the bucket feeds `build-rights.mjs`; noted only so it is not rediscovered as a fresh bug. NOT investigated.
+8. **Bruno's Song commentary is not named in the standard surveys of his exegetical work** (they list Pentateuch, Job, Psalms, Gospels, Apocalypse). No scholarship found either affirming or questioning this attribution; per rule 8 no hunt was opened. We print the byline Migne prints.
+9. **Bracket overload still unresolved** (carried forward).
+
+### → NEXT SESSION
+1. **Resume smallest-first** — 15 works left. Next: 11058 Hugh *Adnotatiunculae in Threnos* (19 ch), 11553 Richard *In visionem Ezechielis* (22), 7914 ps.-Cassiodorus *In Cantica* (23), 9033 Angelomus (27), 8930 Rabanus (27). **Settle flag 1 before the next Song work (7914).**
+2. **`9637 Ordo ad regem benedicendum` — still a Fable mini-pilot, not an Opus batch.** Now the smallest thing in the queue (2 ch), so it will keep surfacing as "next"; deliberately skipped, not overlooked.
+3. Run `decade-check.mjs` at the next decade boundary (89 works — 3 away).
+4. **Link migne.app back from the Acta methodology page** (carried, still owed).
+
 ## 2026-07-28 (fourth) — queue reconciled; 4 works (46 chunks) translated + STAGED; `[nt:]` + tei-patches enter the rulebook
 
 **NOT deployed** (commits `52b29b3`, `c4e8da7`). Site now **83 english pages**. Queue: **18 works** still pre-chunked in `src/latin/`.
