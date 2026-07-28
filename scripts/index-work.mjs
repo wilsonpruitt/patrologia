@@ -39,7 +39,7 @@ const manifest = JSON.parse(fs.readFileSync(path.join(latDir, 'manifest.json'), 
 // Vulgate psalm/kingdom numbering differs; refKey follows the CITED numbering —
 // Psal. keys as-printed, I-IV Reg. map to 1Sam/2Sam/1Kgs/2Kgs).
 const BOOKS = {
-  'Gen': 'Gen', 'Exod': 'Exod', 'Lev': 'Lev', 'Num': 'Num', 'Deut': 'Deut',
+  'Gen': 'Gen', 'Exod': 'Exod', 'Lev': 'Lev', 'Levit': 'Lev', 'Num': 'Num', 'Deut': 'Deut',
   'Jos': 'Josh', 'Judic': 'Judg', 'Ruth': 'Ruth',
   'I Reg': '1Sam', 'II Reg': '2Sam', 'III Reg': '1Kgs', 'IV Reg': '2Kgs',
   'I Par': '1Chr', 'II Par': '2Chr', 'I Esdr': 'Ezra', 'II Esdr': 'Neh',

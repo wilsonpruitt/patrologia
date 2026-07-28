@@ -1,0 +1,237 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 6038,
+  "textIdno": 11078,
+  "title": "De modo orandi",
+  "authors": [
+    "Hugo de S. Victore"
+  ],
+  "authorsDisplay": [
+    "Hugh of Saint Victor"
+  ],
+  "series": "pl",
+  "volume": 176,
+  "colFirst": "977a",
+  "colLast": "988a",
+  "counts": {
+    "scripture": 24,
+    "fontes": 0,
+    "heads": 9,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "978b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.143",
+      "refDisplay": "Psal. CXLIII",
+      "column": "980b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.5",
+      "refDisplay": "Psal. V",
+      "column": "980c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "980d",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.11",
+      "refDisplay": "Joan. XI",
+      "column": "981a",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.2",
+      "refDisplay": "Joan. II",
+      "column": "981b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.2",
+      "refDisplay": "Ibid.",
+      "antecedent": "Joan. II",
+      "antecedentColumn": "981b",
+      "ibidResolved": true,
+      "column": "981c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.2",
+      "refDisplay": "Psal. II",
+      "column": "982a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.77",
+      "refDisplay": "Psal. LXXVII",
+      "column": "982a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.8",
+      "refDisplay": "Psal. VIII",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.46",
+      "refDisplay": "Psal. XLVI",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.12",
+      "refDisplay": "Psal. XII.",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.6",
+      "refDisplay": "Psal. VI",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.51",
+      "refDisplay": "Psal. LI",
+      "column": "986a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.93",
+      "refDisplay": "Psal. XCIII",
+      "column": "986b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.25",
+      "refDisplay": "Psal. XXV",
+      "column": "986b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.1",
+      "refDisplay": "Psal. I",
+      "column": "986c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.108",
+      "refDisplay": "Psal. CVIII",
+      "column": "986d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.2",
+      "refDisplay": "Psal. II",
+      "column": "986d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.3",
+      "refDisplay": "Psal. III",
+      "column": "988a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.3",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. III",
+      "antecedentColumn": "988a",
+      "ibidResolved": true,
+      "column": "988a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.3",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. III",
+      "antecedentColumn": "988a",
+      "ibidResolved": true,
+      "column": "988a",
+      "chunk": 4
+    }
+  ],
+  "fontes": [],
+  "heads": [
+    {
+      "la": "PROLOGUS.",
+      "column": "977a",
+      "chunk": 0,
+      "en": "PROLOGUE."
+    },
+    {
+      "la": "CAP. I. Quod ex propriae miseriae et divinae misericordiae consideratione ad orandum Deum incitari debemus.",
+      "column": "977b",
+      "chunk": 0,
+      "en": "CHAP. I. That from the consideration of our own misery and of the divine mercy we ought to be stirred up to pray to God."
+    },
+    {
+      "la": "CAP. II. De tribus speciebus orationis et generibus supplicationis.",
+      "column": "979b",
+      "chunk": 1,
+      "en": "CHAP. II. On the three kinds of prayer, and on the sorts of supplication."
+    },
+    {
+      "la": "CAP. III. Quid postulatio et quid insinuatio.",
+      "column": "980d",
+      "chunk": 1,
+      "en": "CHAP. III. What postulation is, and what intimation."
+    },
+    {
+      "la": "CAP. IV. Cur orantes legimus interdum ea, in quibus nullae petitionis exprimuntur verba.",
+      "column": "981d",
+      "chunk": 2,
+      "en": "CHAP. IV. Why in praying we sometimes read those things in which no words of petition are expressed."
+    },
+    {
+      "la": "CAP. V. Tribus potissimum modis orantium affectus in Deum excitari.",
+      "column": "983a",
+      "chunk": 2,
+      "en": "CHAP. V. That the affection of those who pray is stirred up toward God chiefly in three ways."
+    },
+    {
+      "la": "CAP. VI. Quantum gratus sit Deo fervens orantis affectus.",
+      "column": "984a",
+      "chunk": 3,
+      "en": "CHAP. VI. How pleasing to God is the fervent affection of one who prays."
+    },
+    {
+      "la": "CAP. VII. De diversis affectuum modis, et quibus psalmis quisque adaptetur.",
+      "column": "985b",
+      "chunk": 3,
+      "en": "CHAP. VII. On the diverse modes of the affections, and to what psalms each is fitted."
+    },
+    {
+      "la": "CAP. VIII. Quod in eodem psalmo saepius ab uno affectu in alium fiat transitus.",
+      "column": "986b",
+      "chunk": 4,
+      "en": "CHAP. VIII. That in the same psalm a transition is often made from one affection to another."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": []
+}
