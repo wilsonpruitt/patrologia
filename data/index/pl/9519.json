@@ -15,7 +15,7 @@
   "colLast": "76d",
   "counts": {
     "scripture": 6,
-    "fontes": 1,
+    "fontes": 0,
     "heads": 8,
     "headnotes": 0,
     "unparsed": 0
@@ -58,13 +58,7 @@
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "Epileptiam autem Graeci vocant appensionem mentis et corporis, quae passio, spasmos, id est contractiones membrorum generat, fit autem morbus iste ex melancholico humore, id est ex abundantia fellis fusi per membra, contingit autem per phantasiam.",
-      "column": "74d",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Appendix ad translationem corporis S. Hunegundis",
@@ -116,5 +110,12 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": [
+    {
+      "raw": "(Epileptiam autem Graeci vocant appensionem mentis et corporis, quae passio, spasmos, id est contractiones membrorum generat, fit autem morbus iste ex melancholico humore, id est ex abundantia fellis fusi per membra, contingit autem per phantasiam.)",
+      "column": "74d",
+      "chunk": 1
+    }
+  ]
 }

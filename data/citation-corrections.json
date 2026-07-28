@@ -1,118 +1,126 @@
 {
-  "note": "Migne misprints a scripture reference. Policy (Wilson, 2026-07-18): the TEXT keeps what Migne prints (sacred-marker rule) and refDisplay stays verbatim, but refKey resolves to the CORRECT reference — the index must not propagate bad numbers. The key derived from Migne's printed form is retained as refKeyPrinted so every correction is auditable and reversible.",
-  "standard": "OSIS book codes; chapter/verse follow the CITED (Vulgate) numbering, per scripts/index-work.mjs. Corrections here fix printer's errors ONLY — they never silently convert Vulgate versification to modern versification, which is a systematic divergence, not an error.",
-  "corrections": [
-    {
-      "idno": "10727",
-      "column": "1592a",
-      "refDisplay": "Isa. II, 1",
-      "refKey": "Isa.11.1",
-      "quote": "Exiet Virga de radice Jesse, et flos de radice ejus ascendet",
-      "note": "Migne prints II for XI."
-    },
-    {
-      "idno": "10727",
-      "column": "1592b",
-      "refDisplay": "Matth. XI, 20",
-      "refKey": "Matt.11.30",
-      "quote": "Jugum enim meum suave est, et onus meum leve",
-      "note": "Chapter correct, verse wrong: 20 for 30."
-    },
-    {
-      "idno": "10703",
-      "column": "1126d",
-      "refDisplay": "Prov. II, 2",
-      "refKey": "Prov.21.27",
-      "quote": "Hostiae impiorum abominabiles",
-      "note": "Migne prints II, 2 for XXI, 27."
-    },
-    {
-      "idno": "10703",
-      "column": "1123d",
-      "refDisplay": "Eccl. XVII, 9",
-      "refKey": "Eccl.7.9",
-      "quote": "melior est finis orationis quam principium",
-      "note": "Migne prints XVII for VII. The same verse is cited correctly as 'Eccles. VII, 9' at 1126c in this same work — internal evidence for the correction."
-    },
-    {
-      "idno": "7020",
-      "column": "71b",
-      "refDisplay": "Rom. VII, 6",
-      "refKey": "1Tim.2.4",
-      "quote": "omnes velit salvos fieri et ad agnitionem veritatis venire",
-      "note": "Not Romans at all — the quotation is 1 Tim. 2:4."
-    },
-    {
-      "idno": "7020",
-      "column": "72b",
-      "refDisplay": "I Cor. VII, 37",
-      "refKey": "1Cor.7.38",
-      "quote": "Bonum est nubere, melius est non nubere",
-      "note": "The bene/melius comparison is v. 38, not v. 37. The wording is a compressed recast rather than the Vulgate text, but the verse is unambiguous."
-    },
-    {
-      "idno": "7020",
-      "column": "73a",
-      "refDisplay": "Matth. VII, 18",
-      "refKey": "Col.4.2",
-      "quote": "Orationibus instate, vigilantes in illis",
-      "note": "Col. 4:2, not Matthew. Appears to be half of a transposition with the note following it."
-    },
-    {
-      "idno": "7020",
-      "column": "73a",
-      "refDisplay": "Matth. VI, 19",
-      "refKey": "Matt.7.7",
-      "quote": "Quaerite, et invenietis; pulsate, et aperietur vobis",
-      "note": "Matt. 7:7. Book right, chapter and verse displaced — the other half of the 73a transposition."
-    },
-    {
-      "idno": "7020",
-      "column": "73b",
-      "refDisplay": "I Petr. III, 16",
-      "refKey": "1Pet.3.15",
-      "quote": "Parati semper estote ad rationem reddendam",
-      "note": "Verse 15, not 16."
-    },
-    {
-      "idno": "7020",
-      "column": "73b",
-      "refDisplay": "Coloss. V, 16",
-      "refKey": "Col.3.16",
-      "quote": "Verbum Christi habitet in vobis abundanter in omni sapientia",
-      "note": "Colossians has only four chapters, so chapter V cannot exist. The quotation is Col. 3:16."
-    },
-    {
-      "idno": "7020",
-      "column": "76c",
-      "refDisplay": "Matth. XIX, 20",
-      "refKey": "Matt.6.19-Matt.6.20",
-      "quote": "Nolite thesaurizare vobis thesauros in terra ... Thesaurizate autem vobis thesauros in coelo",
-      "note": "Matt. 6:19-20. The printed XIX, 20 looks like the chapter and verse have been transposed."
-    },
-    {
-      "idno": "7020",
-      "column": "76d",
-      "refDisplay": "Matth. X, 27",
-      "refKey": "Matt.10.37",
-      "quote": "Quicunque plus me fecerit domum, aut uxorem, aut filios, non est me dignus",
-      "note": "Chapter right, verse wrong: 27 for 37. NB the quotation itself is corrupt (fecerit for a verb of loving; house and wife for father and mother) — the ENGLISH renders the corrupt line as printed and must NOT be conformed to Matt. 10:37."
-    },
-    {
-      "idno": "11066",
-      "column": "548d",
-      "refDisplay": "III Cor. VI",
-      "refKey": "2Cor.6",
-      "quote": "Ecce nunc dies salutis",
-      "note": "There is no Third Corinthians. The lemma is 2 Cor. 6:2; the chapter numeral is right and only the book ordinal is misprinted, so the key stays chapter-level as Migne cites it."
-    },
-    {
-      "idno": "10703",
-      "column": "1123b",
-      "refDisplay": "I Joan. I, 3",
-      "refKey": "1John.1.8",
-      "quote": "Si dixerimus quia peccatum non habemus, nos ipsos seducimus",
-      "note": "Migne prints I, 3 for I, 8."
-    }
-  ]
+ "note": "Migne misprints a scripture reference. Policy (Wilson, 2026-07-18): the TEXT keeps what Migne prints (sacred-marker rule) and refDisplay stays verbatim, but refKey resolves to the CORRECT reference — the index must not propagate bad numbers. The key derived from Migne's printed form is retained as refKeyPrinted so every correction is auditable and reversible.",
+ "standard": "OSIS book codes; chapter/verse follow the CITED (Vulgate) numbering, per scripts/index-work.mjs. Corrections here fix printer's errors ONLY — they never silently convert Vulgate versification to modern versification, which is a systematic divergence, not an error.",
+ "corrections": [
+  {
+   "idno": "10727",
+   "column": "1592a",
+   "refDisplay": "Isa. II, 1",
+   "refKey": "Isa.11.1",
+   "quote": "Exiet Virga de radice Jesse, et flos de radice ejus ascendet",
+   "note": "Migne prints II for XI."
+  },
+  {
+   "idno": "10727",
+   "column": "1592b",
+   "refDisplay": "Matth. XI, 20",
+   "refKey": "Matt.11.30",
+   "quote": "Jugum enim meum suave est, et onus meum leve",
+   "note": "Chapter correct, verse wrong: 20 for 30."
+  },
+  {
+   "idno": "10703",
+   "column": "1126d",
+   "refDisplay": "Prov. II, 2",
+   "refKey": "Prov.21.27",
+   "quote": "Hostiae impiorum abominabiles",
+   "note": "Migne prints II, 2 for XXI, 27."
+  },
+  {
+   "idno": "10703",
+   "column": "1123d",
+   "refDisplay": "Eccl. XVII, 9",
+   "refKey": "Eccl.7.9",
+   "quote": "melior est finis orationis quam principium",
+   "note": "Migne prints XVII for VII. The same verse is cited correctly as 'Eccles. VII, 9' at 1126c in this same work — internal evidence for the correction."
+  },
+  {
+   "idno": "7020",
+   "column": "71b",
+   "refDisplay": "Rom. VII, 6",
+   "refKey": "1Tim.2.4",
+   "quote": "omnes velit salvos fieri et ad agnitionem veritatis venire",
+   "note": "Not Romans at all — the quotation is 1 Tim. 2:4."
+  },
+  {
+   "idno": "7020",
+   "column": "72b",
+   "refDisplay": "I Cor. VII, 37",
+   "refKey": "1Cor.7.38",
+   "quote": "Bonum est nubere, melius est non nubere",
+   "note": "The bene/melius comparison is v. 38, not v. 37. The wording is a compressed recast rather than the Vulgate text, but the verse is unambiguous."
+  },
+  {
+   "idno": "7020",
+   "column": "73a",
+   "refDisplay": "Matth. VII, 18",
+   "refKey": "Col.4.2",
+   "quote": "Orationibus instate, vigilantes in illis",
+   "note": "Col. 4:2, not Matthew. Appears to be half of a transposition with the note following it."
+  },
+  {
+   "idno": "7020",
+   "column": "73a",
+   "refDisplay": "Matth. VI, 19",
+   "refKey": "Matt.7.7",
+   "quote": "Quaerite, et invenietis; pulsate, et aperietur vobis",
+   "note": "Matt. 7:7. Book right, chapter and verse displaced — the other half of the 73a transposition."
+  },
+  {
+   "idno": "7020",
+   "column": "73b",
+   "refDisplay": "I Petr. III, 16",
+   "refKey": "1Pet.3.15",
+   "quote": "Parati semper estote ad rationem reddendam",
+   "note": "Verse 15, not 16."
+  },
+  {
+   "idno": "7020",
+   "column": "73b",
+   "refDisplay": "Coloss. V, 16",
+   "refKey": "Col.3.16",
+   "quote": "Verbum Christi habitet in vobis abundanter in omni sapientia",
+   "note": "Colossians has only four chapters, so chapter V cannot exist. The quotation is Col. 3:16."
+  },
+  {
+   "idno": "7020",
+   "column": "76c",
+   "refDisplay": "Matth. XIX, 20",
+   "refKey": "Matt.6.19-Matt.6.20",
+   "quote": "Nolite thesaurizare vobis thesauros in terra ... Thesaurizate autem vobis thesauros in coelo",
+   "note": "Matt. 6:19-20. The printed XIX, 20 looks like the chapter and verse have been transposed."
+  },
+  {
+   "idno": "7020",
+   "column": "76d",
+   "refDisplay": "Matth. X, 27",
+   "refKey": "Matt.10.37",
+   "quote": "Quicunque plus me fecerit domum, aut uxorem, aut filios, non est me dignus",
+   "note": "Chapter right, verse wrong: 27 for 37. NB the quotation itself is corrupt (fecerit for a verb of loving; house and wife for father and mother) — the ENGLISH renders the corrupt line as printed and must NOT be conformed to Matt. 10:37."
+  },
+  {
+   "idno": "11066",
+   "column": "548d",
+   "refDisplay": "III Cor. VI",
+   "refKey": "2Cor.6",
+   "quote": "Ecce nunc dies salutis",
+   "note": "There is no Third Corinthians. The lemma is 2 Cor. 6:2; the chapter numeral is right and only the book ordinal is misprinted, so the key stays chapter-level as Migne cites it."
+  },
+  {
+   "idno": "10703",
+   "column": "1123b",
+   "refDisplay": "I Joan. I, 3",
+   "refKey": "1John.1.8",
+   "quote": "Si dixerimus quia peccatum non habemus, nos ipsos seducimus",
+   "note": "Migne prints I, 3 for I, 8."
+  },
+  {
+   "idno": "11061",
+   "column": "18b",
+   "refDisplay": "Ezeeh. I",
+   "refKey": "Ezek.1",
+   "quote": "quatuor animalium in Ezechiele",
+   "note": "Migne prints Ezeeh. for Ezech. (broken c). The host sentence names Ezekiel outright and the four living creatures are Ezek. 1, so the reference is not in doubt."
+  }
+ ]
 }

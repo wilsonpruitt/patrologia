@@ -5,7 +5,8 @@
 // Per chunk, against its Latin twin:
 //   1. Frontmatter identical (verbatim copy rule).
 //   2. Column-marker sequence identical (order + count) — anchors are sacred.
-//   3. [n: ...] note markers: same count, same content, same order.
+//   3. Note markers: same count and order. [n: ...] citations must match the Latin
+//      verbatim; [nt: ...] prose notes are translated, so only non-emptiness is checked.
 //   4. Section (## head) count identical.
 //   5. English/Latin word ratio in [0.85, 1.75] (pilots: EN ≈ 1.5× Latin; 1.6+ warns).
 //   7. Guillemet parity vs the Latin twin — a total drop errors, a delta warns.
@@ -61,12 +62,34 @@ for (const c of manifest.chunks) {
     errs.push(`${name}: column markers differ — Latin ${latCols.length}, English ${engCols.length}` +
       (latCols.length === engCols.length ? `; first divergence ${engCols.find((x, i) => x !== latCols[i])}` : ''));
 
-  const latNotes = [...lat.body.matchAll(noteRe)].map(m => m[1].replace(/\s+/g, ' ').trim());
-  const engNotes = [...eng.body.matchAll(noteRe)].map(m => m[1].replace(/\s+/g, ' ').trim());
+  // Notes come in two kinds on the ENGLISH side (Wilson, 2026-07-28), and the
+  // distinction is the same one Pattern 4 already draws for [f: …] tails:
+  //   [n:  …] — a CITATION. Verbatim Latin, contents must equal the Latin twin's.
+  //   [nt: …] — a note that is editorial PROSE, not a locator (8407's 64-word
+  //             explanation of numeral subtraction, 9519's scholion on epilepsy).
+  //             Contents are TRANSLATED, so they cannot be compared to the Latin.
+  // The Latin twin always writes [n: …] — it stays the faithful TEI transform, so
+  // the kinds are matched POSITIONALLY: same total count, same order, and only the
+  // [n:]-marked positions are content-checked. An [nt:] position is free but must
+  // be non-empty (an empty one is how a translated note silently vanishes).
+  const anyNoteRe = /\[(n|nt): ([^\]]*)\]/g;
+  const latNotes = [...lat.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() }));
+  const engNotes = [...eng.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() }));
+
+  const latTranslated = latNotes.filter(n => n.kind === 'nt');
+  if (latTranslated.length)
+    errs.push(`${name}: [nt: …] found in the LATIN chunk (${latTranslated.length}) — it is an English-only marker, like [f:] and [d:]`);
+
   if (latNotes.length !== engNotes.length)
     errs.push(`${name}: note markers — Latin ${latNotes.length}, English ${engNotes.length}`);
   else latNotes.forEach((n, i) => {
-    if (n !== engNotes[i]) errs.push(`${name}: note ${i} differs — Latin "[n: ${n}]" vs English "[n: ${engNotes[i]}]"`);
+    const e = engNotes[i];
+    if (e.kind === 'nt') {
+      if (!e.text) errs.push(`${name}: note ${i} is an empty [nt: ] — a translated note must carry its text`);
+    } else if (n.text !== e.text) {
+      errs.push(`${name}: note ${i} differs — Latin "[n: ${n.text}]" vs English "[n: ${e.text}]"` +
+        ` (if this note is editorial prose rather than a citation, it should be [nt: …])`);
+    }
   });
 
   // 7. Guillemet parity (added 2026-07-28). « » are sacred markers per

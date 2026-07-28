@@ -244,6 +244,43 @@ illegible, or absent from the digitization, the gap is recorded as a gap.
 Nothing is supplied from a modern translation or from general knowledge to
 paper over it.
 
+## Why translate this way
+
+Everything above defends the procedure. It does not yet answer the prior
+question, which a reader may fairly still be holding: granting every safeguard,
+why should this be done by machine at all?
+
+Because nobody was doing it. There is no complete English Migne. There is no
+English *Acta Sanctorum*, and no complete English Bonaventure. These are not
+gaps waiting on a translator who is nearly finished — they are gaps that have
+not moved since the nineteenth century, because the cost of closing them is
+measured in human lifetimes. Two hundred and twenty-one volumes of Latin and a
+hundred and sixty-one of Greek stood no closer to being read in English this
+year than they would a thousand years from now. A corpus of this size is not
+translated slowly. It is not translated at all.
+
+The aim is therefore not a perfect translation. It is to unlock the language
+gate to the tradition.
+
+There will be errors, including serious ones — as there are in Migne, and in
+the Maurists he reprinted, and in every edition of this kind ever assembled.
+The model carries a fault forward, a line or a spacing or an artifact of the
+transcription, much as a clerk copying his exemplar carried forward the mistake
+set in front of him. Working this way has made me feel nearer to the medieval
+copyists than to a modern translator.
+
+That is not an excuse offered in advance. It is the reason the rest of this
+page exists: if the errors are inevitable, then what matters is whether they
+are *findable* — which is why the Latin sits beside the English, why every
+judgment is logged as a crux, why the column anchors resolve, and why the
+licence lets you publish a correction without asking.
+
+Two companion projects work the same way and under the same rules: the *Acta
+Sanctorum* at [actasanctorum.org](https://actasanctorum.org) and Bonaventure's
+*Opera Omnia* at
+[bonaventure.wrootpress.com](https://bonaventure.wrootpress.com). Three
+corpora, one method, each vouching for the others.
+
 ## How to check us
 
 The site is built to make this easy rather than to ask for trust.

@@ -52,7 +52,7 @@ const BOOKS = {
   'Jerem': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   'Os': 'Hos', 'Ose': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
   'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Abac': 'Hab', 'Soph': 'Zeph', 'Sophon': 'Zeph', 'Agg': 'Hag',
-  'Zach': 'Zech', 'Malach': 'Mal', 'Mal': 'Mal',
+  'Zach': 'Zech', 'Malach': 'Mal', 'Malac': 'Mal', 'Mal': 'Mal',
   'I Mach': '1Macc', 'II Mach': '2Macc', 'I Machab': '1Macc', 'II Machab': '2Macc',
   'Matth': 'Matt', 'Math': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John', 'Act': 'Acts',
   'Rom': 'Rom', 'I Cor': '1Cor', 'II Cor': '2Cor', 'Galat': 'Gal', 'Gal': 'Gal',
@@ -195,10 +195,37 @@ function handleNote(raw, col, chunk, inHead = false) {
   else ordered.push({ kind: 'fontes', rec: { raw: inner, ...loc } });
 }
 
+// Which note positions are editorial PROSE rather than citations (Wilson,
+// 2026-07-28). The Latin twin writes [n: …] for every note — it stays the faithful
+// TEI transform — so the English side is what distinguishes them: a note the
+// translator marked [nt: …] is prose and must NOT be parsed as a citation. Without
+// this, 8407's 64-word explanation of numeral subtraction and 9519's scholion on
+// epilepsy both landed in fontes[] as if they were sources.
+// Positional, per chunk: verify-english.mjs check 3 has already guaranteed that the
+// two sides carry the same number of notes in the same order, so index i on the
+// Latin side is index i on the English side.
+const proseNotePositions = new Map(); // chunk -> Set of note indices
+for (const c of manifest.chunks) {
+  const f = path.join(engDir, `${String(c.chunk).padStart(4, '0')}.md`);
+  if (!fs.existsSync(f)) continue;
+  const body = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const set = new Set();
+  [...body.matchAll(/\[(n|nt): ([^\]]*)\]/g)].forEach((m, i) => { if (m[1] === 'nt') set.add(i); });
+  if (set.size) proseNotePositions.set(c.chunk, set);
+}
+const proseNotes = [];
+
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
   const body = fs.readFileSync(path.join(latDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
   let col = c.colContext;
+  const prose = proseNotePositions.get(c.chunk) || new Set();
+  let noteIdx = 0; // document-order note counter, shared by the head and body branches
+  const routeNote = (raw, column, chunk, inHead) => {
+    const isProse = prose.has(noteIdx++);
+    if (isProse) proseNotes.push({ raw, column: citeCol(column), chunk, ...(inHead ? { inHead: true } : {}) });
+    else handleNote(raw, column, chunk, inHead);
+  };
   const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[n: ([^\]]*)\]|^## (.*)$/gm;
   for (const t of body.matchAll(tokenRe)) {
     if (t[1]) { col = t[1]; continue; }
@@ -209,7 +236,7 @@ for (const c of manifest.chunks) {
       // sermon), so that citation was being dropped from the scripture index entirely.
       // Harvest head-borne notes in place, then strip them from the recorded head text.
       for (const hn of t[3].matchAll(/\[n: ([^\]]*)\]/g))
-        handleNote(hn[1].replace(/\s+/g, ' ').trim(), col, c.chunk, true);
+        routeNote(hn[1].replace(/\s+/g, ' ').trim(), col, c.chunk, true);
       // A "(cont.)" head is the chunker re-emitting a section head on the next chunk
       // it spans (see build-work-page.mjs sections()). It is our apparatus, not a
       // title Migne prints, and a TOC entry must point at the section's true start —
@@ -222,7 +249,7 @@ for (const c of manifest.chunks) {
         column: citeCol(col), chunk: c.chunk });
       continue;
     }
-    handleNote(t[2].replace(/\s+/g, ' ').trim(), col, c.chunk);
+    routeNote(t[2].replace(/\s+/g, ' ').trim(), col, c.chunk);
   }
 }
 
@@ -384,9 +411,13 @@ const out = {
   colFirst: citeCol(manifest.colFirst), colLast: citeCol(manifest.colLast),
   counts: { scripture: scripture.length, fontes: fontes.length, heads: heads.length, headnotes: headnotes.length, unparsed: unparsed.length },
   scripture, fontes, heads, headnotes, unparsed,
+  // Notes that are editorial PROSE, not citations (marked [nt: …] in the English).
+  // Recorded so they are not lost, but deliberately kept OUT of fontes[] — a
+  // scholion on epilepsy is not a source Migne is citing.
+  proseNotes,
 };
 const outDir = path.join(ROOT, 'data/index', manifest.series);
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, `${idno}.json`), JSON.stringify(out, null, 2));
-console.log(`data/index/${manifest.series}/${idno}.json — ${scripture.length} scripture, ${fontes.length} fontes, ${heads.length} heads, ${headnotes.length} headnotes, ${unparsed.length} unparsed`);
+console.log(`data/index/${manifest.series}/${idno}.json — ${scripture.length} scripture, ${fontes.length} fontes, ${heads.length} heads, ${headnotes.length} headnotes, ${unparsed.length} unparsed` + (proseNotes.length ? `, ${proseNotes.length} prose notes` : ''));
 if (unparsed.length) unparsed.forEach(u => console.warn(`  unparsed (add alias?): ${u.raw} @ ${u.column}`));

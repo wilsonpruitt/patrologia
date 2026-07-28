@@ -1,0 +1,12 @@
+{
+  "note": "Corrections to the Corpus Corporum TEI for PL works, applied to the XML stream by chunk-work.mjs BEFORE the transform, so a re-harvest + re-chunk reproduces them. Same mechanism and discipline as data/calfa-patches/ on the PG side: a patch names what the source gets wrong, what the plate actually shows, and the evidence. These are corrections to a DIGITIZATION, never to Migne — a defect in Migne's own plate is rendered literally and logged as a crux (translation-style.md Pattern 7). Patches are applied literally and idempotently; a find string that does not match, or matches more than once, is a hard error.",
+  "patches": [
+    {
+      "work": "11085 Hugh of St Victor, De virginitate B. Mariae (PL 176)",
+      "col": "0874A",
+      "find": "<note>(si assensum coitus in conjugii pactione\nnecessarium omnino non esse volumus quemadmodum\nista societas, quae in nostra definitione\nsignata est, in eodem sexu sanciri non posse, demonstremus.\nAd quod cum id solum sufficere posset,\nquod divina institutio hanc ad utrumque sexum foederandum\nordinavit, proptereaque in eodem sexu\n(ut si fiat)</note>",
+      "replace": "(si assensum coitus in conjugii pactione\nnecessarium omnino non esse volumus quemadmodum\nista societas, quae in nostra definitione\nsignata est, in eodem sexu sanciri non posse, demonstremus.\nAd quod cum id solum sufficere posset,\nquod divina institutio hanc ad utrumque sexum foederandum\nordinavit, proptereaque in eodem sexu\n(ut si fiat)",
+      "provenance": "The <note> wrapper is a Corpus Corporum markup error, not a note Migne prints, and the evidence is internal and decisive. (1) The host sentence does not construe without it: 'Cogunt igitur, ut nos … ita a conjugii sacramento foret aliena' leaves the 'ut' clause with no verb — and the verb it needs, 'demonstremus', is INSIDE the supposed note. Apparatus cannot supply the main clause of the text it annotates. (2) The parentheses do not balance: the run opens '(si assensum' and closes '(ut si fiat)', so the marked span begins and ends mid-construction. (3) The content is Hugh's own argument in his own voice, continuous with the sentences on both sides, and carries none of the marks of Migne's editorial notes in this work (which are short parenthetical locators, e.g. '(Gen. II)' two lines later). Unwrapping restores ~60 words of running text that the marker rule would otherwise have left untranslated and unreadable. Migne's plate is NOT emended: not one word is added, removed, or changed — only the spurious <note> element is dropped."
+    }
+  ]
+}

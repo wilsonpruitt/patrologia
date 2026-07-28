@@ -15,19 +15,13 @@
   "colLast": "652d",
   "counts": {
     "scripture": 0,
-    "fontes": 1,
+    "fontes": 0,
     "heads": 1,
     "headnotes": 0,
     "unparsed": 0
   },
   "scripture": [],
-  "fontes": [
-    {
-      "raw": "Omnis enim littera numeralis minus significans, si praecedit, tantum demit de sequenti, quantum in se habet; velut I, II, III, IV pro IIII, V, VI, VII, VIII, VIIII pro IX, X, XX, XXX, XL pro XXXX, ut quidam volunt, L, LX, LXX, LXXX, LXL vel XC pro LXXXX, C, CC, CCC, CD, pro CCCC, D pro CCCCC, DC, DCC, DCCC, CM pro DCCCC, M.",
-      "column": "652b",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "De computo",
@@ -37,5 +31,12 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": [
+    {
+      "raw": "(Omnis enim littera numeralis minus significans, si praecedit, tantum demit de sequenti, quantum in se habet; velut I, II, III, IV pro IIII, V, VI, VII, VIII, VIIII pro IX, X, XX, XXX, XL pro XXXX, ut quidam volunt, L, LX, LXX, LXXX, LXL vel XC pro LXXXX, C, CC, CCC, CD, pro CCCC, D pro CCCCC, DC, DCC, DCCC, CM pro DCCCC, M.)",
+      "column": "652b",
+      "chunk": 1
+    }
+  ]
 }

@@ -10,8 +10,8 @@
 //
 // Tailored markdown renderer for THIS document's features only: YAML-ish
 // leading italic note, # / ## headings, blank-line paragraphs, *italic*,
-// **bold**, `code`, "- " bullet lists and "1. " ordered lists.
-// (No footnotes or links appear in the source — verified.)
+// **bold**, `code`, [text](url) links, "- " bullet lists and "1. " ordered lists.
+// (No footnotes appear in the source — verified.)
 //
 // Usage: node scripts/build-method.mjs
 
@@ -29,6 +29,11 @@ function inline(md) {
   s = s.replace(/`([^`]+)`/g, '<code>$1</code>');
   s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  // [text](url) — the sibling-corpus links in "Why translate this way". Only
+  // absolute https: URLs are accepted; anything else is left as literal text
+  // rather than emitted as a link, so a typo cannot become a broken <a>.
+  s = s.replace(/\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g,
+    (m, text, url) => `<a href="${url}" target="_blank" rel="noopener">${text}</a>`);
   return s;
 }
 

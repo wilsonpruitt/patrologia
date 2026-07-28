@@ -17,6 +17,13 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-28 session (later): 6 works, 6- to 9-chunk tiers, smallest-first —
+  'pl/176/de-sacramentis-legis-naturalis-et-scriptae',          // Hugh of St Victor — on the sacraments of the natural and written law
+  'pl/196/de-verbo-incarnato',                                  // Richard of St Victor — on the Word incarnate
+  'pl/175/adnotationes-in-libros-regum',                        // Hugh of St Victor — notes on the books of Kings
+  'pl/176/de-virginitate-b-mariae',                             // Hugh of St Victor — on the virginity of the Blessed Mary
+  'pl/196/explicatio-aliquorum-passuum-difficilium-apostoli',   // Richard of St Victor — some difficult passages of the Apostle explained
+  'pl/175/de-scripturis-et-scriptoribus-sacris',                // Hugh of St Victor — on the sacred writings and their writers
   // — 2026-07-28 session: 6 works, 4- and 5-chunk tiers, smallest-first —
   'pl/196/de-gemino-paschate',                                 // Richard of St Victor — on the twofold Passover
   'pl/196/de-differentia-sacrificii-abrahae-a-sacrificio-b-mariae-virginis', // Richard of St Victor — Abraham's sacrifice vs. the Virgin's

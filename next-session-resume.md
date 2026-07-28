@@ -1,8 +1,60 @@
 # Next session — resume note
 
-> **Open item (2026-07-28):** `/method` is strong but has **no "why translate this way"
-> argument** — it defends the procedure and never the project — and it does not link the
-> sibling corpora. One section to add; details in **`NOTES-method-page.md`** at the repo root.
+> **~~Open item (2026-07-28):~~ CLOSED same day.** `/method` now has its *Why translate
+> this way* section (nobody was doing this · unlock the language gate, not perfection ·
+> the clerk carrying his exemplar's mistake forward) and links **actasanctorum.org** and
+> **bonaventure.wrootpress.com**. See `NOTES-method-page.md`. **Still owed: link migne.app
+> back from Acta's page** (`~/acta-sanctorum/NOTES-methodology-page.md`).
+
+## 2026-07-28 (third) — 6–9-chunk tier (6 works) translated + STAGED; /method/ published; two source defects fixed
+
+**NOT deployed.** Site now **79 english pages**. Queue: 22 works still pre-chunked in `src/latin/`.
+
+### The 6 new works — smallest-first, all Opus (6 agents, 44 chunks, ~934K subagent tokens)
+11061 PL 175 Hugh *De scripturis et scriptoribus sacris* (6) · 11549 PL 196 Richard *Explicatio aliquorum passuum difficilium Apostoli* (6) · 11085 PL 176 Hugh *De virginitate B. Mariae* (7) · 11055 PL 175 Hugh *Adnotationes in libros Regum* (8) · 11531 PL 196 Richard *De Verbo incarnato* (8) · 11081 PL 176 Hugh *De sacramentis legis naturalis et scriptae* (9).
+- **verify-english OK on all 6**; built + indexed; **0 unparsed corpus-wide**. works.json flipped to `ours` BEFORE decade-check. decade-check at 79: **nothing blocking**. ~216 cruces logged across the six.
+- **Badges correct without any hunting:** five read "First" (verified `none`); 11061 reads **"New"** — its `workStatus` is `unclear` because a machine-assisted blog translation exists (threepillarsblog.org, 2023). The fail-safe worked exactly as rule 8 intends.
+- One alias + one correction closed the last 2 unparsed refs corpus-wide: `Malac` → Mal added to the book table; `(Ezeeh. I)` @ 11061/18b entered in `citation-corrections.json` (→ Ezek.1; the host sentence names Ezekiel and the four living creatures are Ezek. 1). **15 corrections** now.
+
+### `/method/` — the editorial-method page is built and in the nav
+`content/editorial-method.md` had two sections and was built into no page at all. It is now **eleven sections**, built by `scripts/build-method.mjs`; nav is 8 items (`chrome.mjs` `NAV_ITEMS`).
+- **It states plainly that the English is drafted by large language models under a fixed rulebook and then verified** (Wilson's call: disclose rather than let a reader discover it), then answers paraphrase / theological smoothing / invention with mechanisms — Pattern 7 and why a dropped negative stays dropped, scripture from the plate, the 8 verifier checks, the published cruces, the badge rule including the four works *downgraded* rather than defended.
+- Closes with *Why translate this way* + sibling links (see the note at the top of this file).
+- Every figure was recomputed against the repo, not lifted from these notes. **If a convention changes in `translation-style.md`, this page must change with it — same policy, differently addressed.**
+
+### Two SOURCE defects found and fixed — both upstream, neither ours
+1. **11085 @ 0874A — Corpus Corporum wrapped ~60 words of Hugh's running argument in a `<note>`.** Not a note Migne prints: the host sentence does not construe without it (the `ut` clause's verb, *demonstremus*, is *inside* the marker) and the parens do not balance. **New mechanism: `data/tei-patches/<idno>.json`**, applied to the XML by `chunk-work.mjs` before the transform, so a re-harvest reproduces it — the PL analogue of `data/calfa-patches/`. The patch drops the spurious element only; **not one word of Migne is changed**. Re-chunked: boundaries identical, `noteCount` 7→6. The 60 words are now translated, and a phantom `fontes` record disappeared with them. **A find string matching ≠1 times is a hard error** — patches fail loudly.
+2. **11055 @ 0104B–0105A — the names of the mighty men are GONE at Corpus Corporum, and are NOT recoverable from our source.** The TEI reads literally `<item/>` — empty elements; only the tally column was transcribed. Entries 27–31 survive because they were marked up as a `<table>` rather than a `<list>`, which is itself the evidence that this is a markup artifact. **Recovery needs the PL 175 scan** and would land as `tei-patches/11055.json`. Deliberately NOT attempted (scan-reading, not translation); recorded as a gap per the method page. **Open decision: the page shows a bare tally, which reads as our defect and is not — does it want a visible reader note before deploy?**
+
+### New convention: `[nt: …]` — a note that is PROSE, not a citation (Wilson, this session)
+"`[n:]` contents untranslated" was written for `(Gen. II)`. Applied to a 64-word explanation of numeral subtraction it left an English reader a Latin paragraph. Pattern 4 already drew this line for `[f:]` tails; it now holds for notes.
+- `[n: …]` = citation, verbatim Latin, content-checked against the twin. `[nt: …]` = editorial prose, **translated**, English-only.
+- **Only 6 notes in the whole chunked corpus exceed 20 words**, so the class is tiny and now fully handled: 8407 (numeral subtraction), 9519 (scholion on epilepsy), 11436 (the *quadrilogus* note) converted and re-verified; 11064's 23-word citation list correctly stays `[n:]`; 11085 was the mis-scoped one above; **11613 Gilbert Foliot is not yet translated and will be born correct.**
+- Wired through `verify-english.mjs` (positional matching; `[nt:]` in a *Latin* chunk is a hard error), `build-work-page.mjs` (`.notecite.prose`), and `index-work.mjs`, which now keeps prose notes **out of `fontes[]`** in a new `proseNotes[]` bucket. **This removed two bogus "sources": 8407 and 9519 each had their scholion indexed as a citation.**
+
+### Agent reports were wrong twice — verify flags before acting on them
+Both were confidently argued; both would have caused harm if believed.
+1. **11549 "column loss at 0683A→0684A" — FALSE ALARM**, the documented do-not-reopen class. Migne's A–D marks are positional quarter-guides, not four per column; text continuity passes (`Sed a divina excellentia [0684A] omnino alienum est`, continuous mid-sentence). The agent's supporting claim that only one of two announced modes is given is also wrong — the second is the `Item amor gratuitus…` clause right after the anchor.
+2. **11549 "the *Ibid.* will resolve to the wrong antecedent" — BACKWARDS, and the proposed fix would have broken it.** Anaphora resolves against the PRINTED sequence, so `(ibid.)` inherits `(Rom. II)` and indexes `Rom.2` — the *true* reference for the quotation it sits on. A corrections entry against `(Rom. II)` is applied *upstream* of anaphora resolution, so the *Ibid.* would inherit the corrected key and resolve **wrong**. **No correction filed; none should be.** Both cruces amended in place with DO-NOT-FIX markers.
+
+### Open flags for Wilson (none blocking)
+1. **11055's lost catalogue** — decide whether it wants a reader-visible note.
+2. **11531 @ 1000D HIGH-STAKES dropped `nisi`** — as printed the Holy Spirit alone does *not* keep through himself, reversing Richard's descending scheme and contradicted by its own *nam* clause. Rendered literally. **Third instance of this exact failure mode in this stretch of PL 196** (11534 @1054A, 11537 @1069D) — the clustering is itself worth noting.
+3. **11531 renders Isa. 21:11 as "keeper", not "Watchman"** — deliberate: Richard hangs the whole tropological chapter on *Samaritanus namque custos interpretatur* and ~40 *custodire* plays around it. The one place this English visibly departs from every familiar version.
+4. **11085 @ 0865A — a dropped `non` (twice)** reverses Hugh's own thesis on the conjugal office. Rendered literally.
+5. **11081 @ 0030B `munde` for `mundo`** — Pattern 7 forces "the angels announce peace *purely*" where Migne means "to the world". Sharpest case yet of the rule producing English that reads as our error; may deserve a convention for real-word typos whose literal sense actively misleads.
+6. **11061's plate has two structural defects a reader will notice** — CAP. XIV announces *septem circumstantiis* and lists six; the six ages at 0024B are enumerated as five. Both rendered as printed.
+7. **11531 @ 1007A `veri dici mane`** — translated normally rather than carried through as non-word type (single vowel inside an inflection). Logged so it can be flipped.
+8. **Bracket overload still unresolved** (carried forward): a reader cannot tell Migne's brackets from our supplied words.
+
+### → NEXT SESSION
+1. **Resume smallest-first** — 22 works still pre-chunked. Hard-stop ritual before each launch. Stage only.
+2. **`9637 Ordo ad regem benedicendum` is STILL a Fable mini-pilot, not an Opus batch** — first liturgical-ordo genre; extend `translation-style.md` before translating it or any ordo.
+3. Run `decade-check.mjs` at the next decade boundary (89 works).
+4. **Add `[nt:]` and the `tei-patches` mechanism to `translation-style.md`** — both are conventions now and neither is in the rulebook yet; they live only here and in code comments.
+5. **Link migne.app back from the Acta methodology page.**
+
+---
 
 ## 2026-07-28 (later) — Patterns 7–11, corpus-wide literal sweep, badge fail-safe
 

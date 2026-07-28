@@ -1,5 +1,19 @@
 # Note — the `/method` page, measured against Bonaventure's
 
+> **✅ EXECUTED 2026-07-28.** Both gaps are closed. *Why translate this way* now sits
+> between *What this method refuses to do* and *How to check us*, exactly as suggested
+> below, carrying Wilson's framing (nobody was doing this · the aim is to unlock the
+> language gate, not perfection · the clerk carrying his exemplar's mistake forward) with
+> the corpus figures made Migne's own — 221 Latin volumes and 161 Greek. One paragraph was
+> added beyond the brief, turning the admission into the page's own justification: if the
+> errors are inevitable, what matters is that they are *findable*, which is why the Latin
+> sits beside the English and the licence permits correction. Cross-links to
+> **actasanctorum.org** and **bonaventure.wrootpress.com** are in the closing paragraph of
+> that section; `build-method.mjs` gained `[text](url)` support (https-only, else rendered
+> as literal text). Everything before the new section is untouched, as instructed.
+> **Still owed:** link migne.app back from Acta's page — see `~/acta-sanctorum/NOTES-methodology-page.md`.
+> **Not deployed** — outward-facing, needs Wilson's per-action OK.
+
 **Written 2026-07-28,** after the Bonaventure About page was rewritten with a full
 methodology section. Wilson asked whether Migne's is as deep. Mostly it is. One thing is
 missing, and it is the thing that answers the actual objection.

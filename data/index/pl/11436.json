@@ -15,7 +15,7 @@
   "colLast": "352b",
   "counts": {
     "scripture": 0,
-    "fontes": 2,
+    "fontes": 1,
     "heads": 5,
     "headnotes": 8,
     "unparsed": 0
@@ -26,11 +26,6 @@
       "raw": "Vide Vitam S. Thomae auctore Edwardo Grim, col. 1 usque ad Pie igitur etc. col., 2.",
       "column": "345a",
       "chunk": 0
-    },
-    {
-      "raw": "Post haec quadrilogus iste prior fere ad verbum concordat cum secundo quadrilogo, de quo posthac dicturi sumus. At pro tribus quinque libros complectitur; quorum quartus De Gestis post martyrium est; quintus epistolas quasdam circiter 70 continet. Quod dixisse sufficiat de hac compilatione. Liber ipse, quo continentur haec, jam rarus factus, satis magni pretii aestimatur et venditur. Est in bibliotheca Sancti Audomari liber ms. de Vita S. Thomae, qui idem fere est cum primo quadrilogo edito, et praeter ea paucula de obsidione Tolosae ex opere Willelmi filii Stephani excerpta habet.",
-      "column": "352b",
-      "chunk": 2
     }
   ],
   "heads": [
@@ -115,5 +110,12 @@
       "chunk": 2
     }
   ],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": [
+    {
+      "raw": "( Post haec quadrilogus iste prior fere ad verbum concordat cum secundo quadrilogo, de quo posthac dicturi sumus. At pro tribus quinque libros complectitur; quorum quartus De Gestis post martyrium est; quintus epistolas quasdam circiter 70 continet. Quod dixisse sufficiat de hac compilatione. Liber ipse, quo continentur haec, jam rarus factus, satis magni pretii aestimatur et venditur. Est in bibliotheca Sancti Audomari liber ms. de Vita S. Thomae, qui idem fere est cum primo quadrilogo edito, et praeter ea paucula de obsidione Tolosae ex opere Willelmi filii Stephani excerpta habet. )",
+      "column": "352b",
+      "chunk": 2
+    }
+  ]
 }

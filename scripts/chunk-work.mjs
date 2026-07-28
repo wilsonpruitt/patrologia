@@ -32,7 +32,28 @@ const work = works.works.find(w => w.texts?.some(t => String(t.idno) === String(
 if (!work) { console.error(`text idno ${idno} not found in works.json`); process.exit(1); }
 const textRec = work.texts.find(t => String(t.idno) === String(idno));
 
-const xml = fs.readFileSync(teiPath, 'utf8');
+// TEI patches (data/tei-patches/<idno>.json) are applied to the XML BEFORE the
+// transform, so a re-harvest + re-chunk reproduces them — same discipline as
+// data/calfa-patches/ on the PG side. These correct the DIGITIZATION only; a
+// defect in Migne's own plate is rendered literally and logged as a crux
+// (translation-style.md Pattern 7), never patched here.
+// Fail loudly: a find string that matches zero times or more than once means the
+// source moved under the patch, and silently skipping it would quietly restore
+// the defect the patch exists to fix.
+let xml = fs.readFileSync(teiPath, 'utf8');
+const patchPath = path.join(ROOT, 'data/tei-patches', `${idno}.json`);
+if (fs.existsSync(patchPath)) {
+  const { patches } = JSON.parse(fs.readFileSync(patchPath, 'utf8'));
+  for (const p of patches) {
+    const n = xml.split(p.find).length - 1;
+    if (n !== 1) {
+      console.error(`TEI patch (${p.col}) matched ${n} times, expected exactly 1 — source has moved; fix the patch before chunking.`);
+      process.exit(1);
+    }
+    xml = xml.replace(p.find, p.replace);
+  }
+  console.log(`applied ${patches.length} TEI patch(es) from data/tei-patches/${idno}.json`);
+}
 const { errors, warnings, chunks, manifest } = chunkWork({ xml, work, textRec, idno, target: TARGET, max: MAX });
 
 if (!manifest) { console.error('FAILED:'); errors.forEach(e => console.error(' - ' + e)); process.exit(1); }

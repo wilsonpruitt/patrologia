@@ -104,11 +104,16 @@ function inlineHtml(s, { anchorIds, state }) {
     // anchors and notes are matched in ONE alternation so they are replaced in
     // document order; two sequential .replace passes would finish every anchor
     // before the first note and leave the column tracker useless.
-    .replace(/\[([0-9]{3,5}[A-D]?)\]\s*|\[n: ([^\]]*)\]/g, (m0, c, n) => {
+    .replace(/\[([0-9]{3,5}[A-D]?)\]\s*|\[nt: ([^\]]*)\]|\[n: ([^\]]*)\]/g, (m0, c, nt, n) => {
       if (c !== undefined) {
         if (state) state.col = colDisp(c).toLowerCase();
         return `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`;
       }
+      // [nt: …] — a note that is editorial PROSE rather than a locator, translated
+      // per Wilson's 2026-07-28 ruling. It is Migne's note either way, so it takes
+      // the same .notecite treatment; it just never carries a citation correction,
+      // because there is no reference in it to correct.
+      if (nt !== undefined) return `<span class="notecite prose">${nt}</span>`;
       const fix = state ? correctionFor(n, state.col) : null;
       if (!fix) return `<span class="notecite">${n}</span>`;
       const why = fix.note ? ` — ${fix.note}` : '';
