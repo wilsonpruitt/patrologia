@@ -47,10 +47,15 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    Wilson's read-through gates every work.
 8. **Deploy checklist — every time, no skipping:** when Wilson gives the OK to deploy,
    (a) prepend each newly-shipped work to `RECENT` in `scripts/build-landing.mjs`
-   (newest first, one-line comment naming the author/work), (b) run
-   `node scripts/build-landing.mjs` to rebuild `site/index.html` + resolver data,
-   (c) `cd site && npx vercel --prod`, (d) smoke-test the new work URLs (`curl -o
-   /dev/null -w '%{http_code}\n'`) and confirm the landing page lists them. The
+   (newest first, one-line comment naming the author/work), (b) rebuild the
+   generated pages — `build-scripture-index.mjs`, `build-sources.mjs`,
+   `build-authors-index.mjs`, `build-queue.mjs`, `build-volume-indexes.mjs` —
+   then `node scripts/build-landing.mjs` to rebuild `site/index.html` + resolver
+   data, (c) `cd site && npx vercel --prod`, (d) smoke-test the new work URLs
+   (`curl -o /dev/null -w '%{http_code}\n'`) and confirm the landing page lists
+   them. **The scripture index is not optional either** — it accretes from
+   `data/index/`, so a work shipped without rerunning it has invisible citations
+   (that index reached no reader at all until 2026-07-28). The
    landing rebuild is NOT optional at deploy time — a work that's live but missing
    from RECENT is a real gap (2026-07-10: two Victorine works were deployed before
    this step was locked in, requiring a follow-up landing rebuild + redeploy).
