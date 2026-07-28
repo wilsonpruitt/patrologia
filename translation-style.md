@@ -211,9 +211,23 @@ become « ». A gloss-internal quotation the translator adds for readability tak
 " ". Do not "tidy" a commentary into uniform guillemets — that erases the
 distinction the rule exists to preserve.
 
-**State at adoption (2026-07-28):** 275 chunks already match the Latin twin
-exactly; 94 drift, concentrated in 11064 Hugh of St Victor *In hierarchiam
-coelestem* (55 chunks, 99 marks) and 9076 Haimo (20 chunks, 26 marks), with a
-short tail in 10725, 9741, 11299, 8566, 11325, 21413. The drift is drift, not a
-competing convention — reconciling it is a scoped repair pass, tracked in
-`next-session-resume.md`.
+**State at adoption (2026-07-28):** 42 chunks drifted from the Latin twin, 65
+instances in all once each mismatch is localized to its column-anchored segment
+(column anchors are verified 1:1 between the twins, so they partition both texts
+identically — that localization is what makes this checkable at all).
+
+15 of the 65 were mechanical and were fixed the same day by script, behind a gate
+asserting that nothing but quotation characters changed: 2 where the English had
+supplied marks Migne prints nowhere (demoted to " "), and 13 Pattern 5 breaks
+where an isolated *inquit* interruption had been lifted out of the quotation.
+
+**50 instances remain, in 29 chunks of 3 works** — 11064 Hugh of St Victor *In
+hierarchiam coelestem* (22 chunks), 9076 Haimo (6), 21413 Alcuin (1). They split
+34 "English carries marks Migne does not" and 16 "English is missing marks Migne
+prints," and each needs its Latin segment read, so they are judgment, not script
+work. Tracked in `next-session-resume.md`.
+
+*Correction of record:* an earlier draft of this paragraph said 94 chunks. That
+figure came from a scan comparing the Latin's whole FILE against the English
+BODY — and Latin frontmatter carries guillemets in its `incipit:` field, which
+inflated every Latin count. Compare body to body.
