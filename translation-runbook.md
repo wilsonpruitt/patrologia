@@ -36,6 +36,18 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    downstream. Repair by RESUMING the same agent (SendMessage) with the gap named.
 4. **Cruces:** agents log to `src/english/<idno>/cruces.md` (garbled type rendered
    literally + noted; scripture translated as Migne prints it, never substituted).
+   **A work split across two agents: each writes `cruces-<firstChunk>.md`, and the
+   merge is a REQUIRED step, not a tidy-up.** Concatenating is the easy half; the
+   real work is reconciling convention drift, because two agents WILL diverge on
+   terminology and neither can see the other. Diff the halves for the work's
+   load-bearing vocabulary before merging (2026-07-28: 11551's tail anglicized the
+   column's members to "epistyle"/"shaft" while its first half kept
+   *stylus*/*epistylium* — which would have shipped a page where Richard's own
+   etymological argument at 0233A, *epistylium dici non solet nisi quod stylo
+   inhaeret*, explains nothing, since the English pair shares no root; 11063 split
+   `ALLEGORICALLY.`/`ALLEGORICAL.` for the same `ALLEGORICE.`). Head the merged
+   file with a **work-wide conventions section** recording what was fixed and why,
+   so a later sweep does not churn it.
 5. **Author bio:** new author → add `data/author-bios.json` entry (`displayName`,
    `latin`, `dates`, `bio`; `dedicatee:true` for patron names in the author array).
    Without one the byline falls back to the Latin form — fine temporarily, not for deploy.
@@ -90,6 +102,41 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 > Scripture policy: translate what Migne prints, never substitute a conventional
 > version. Garbled type: render literally, log in `src/english/<idno>/cruces.md`
 > (column + reading + your note).
+>
+> **Known false positives — do NOT report these.** Each has been investigated and
+> settled; re-raising one costs a session's time and, when acted on, has twice
+> nearly broken working data. If you believe you have found a genuine exception,
+> say so explicitly as an exception and give the evidence named below — never
+> report it as a fresh discovery.
+> 1. **Column-band arithmetic.** Migne's A–D marks are positional quarter-guides
+>    transcribed where they appear in the plate — **NOT four per column**. So
+>    `0350A → 0351A` "missing B–D", or a D-band mark followed by an A-band mark in
+>    the next column, is normal, and a column number that recurs (`0241A → 0242A`
+>    … `0241 → 0241B`) is normal too — two works can even interleave by band
+>    within the same columns. Arithmetic over band letters manufactures phantom
+>    gaps; 49 were examined corpus-wide and none was real. **The only real signal
+>    is text broken mid-word or mid-construction across an anchor.** Report that,
+>    and nothing else in this class. No `[ed:]`, no tei-patch, no plate check.
+> 2. **An `Ibid.` resolving to the "wrong" antecedent.** Anaphora resolves against
+>    the PRINTED sequence at index time, and a `citation-corrections.json` entry is
+>    applied UPSTREAM of it — so "fixing" the antecedent makes the *Ibid.* inherit
+>    the corrected key and resolve **wrong**. Never propose a correction to a
+>    reference that a following *Ibid.* depends on.
+> 3. **`noteCount` off by one against the body.** The frontmatter `heads[]` can hold
+>    a duplicate; corpus-wide there are 0 real mismatches. Count `[n:]` in the body
+>    only.
+> 4. **Inline citation tails / Pattern 4 `[f:]` in a lemma-and-gloss commentary.**
+>    Pattern 4's trigger is a work whose citing PRACTICE is inline tails
+>    (florilegia, *sententiae*). Commentaries that quote a lemma and expound it are
+>    not that, however much inline scripture they carry. 7871, 11064, 11066 and
+>    11075 were each checked and none qualifies — do not tag them.
+> 5. **Migne's own `( sic )`.** Where he has already flagged the type, reproduce his
+>    mark verbatim and do NOT stack a `[sic: …]` of ours on top (10517 col. 1099B).
+> 6. **Pattern 9 items are not defects**: attested medieval spellings, gender
+>    mismatches with no English exponent, and section labels. Read Pattern 9 before
+>    marking any of them.
+> 7. **`(cont.)` on a repeated `## ` head.** Chunk boundaries are OUR division; the
+>    builder merges these at assembly. Not a defect, and never translate the marker.
 >
 > Do not stop early. Your batch is N chunks; peer agents complete 5-chunk batches at
 > full fidelity routinely. If you find yourself writing "context budget" at chunk 2,

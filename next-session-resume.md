@@ -46,7 +46,7 @@ Agents reported "column band skipped / anchor out of band" and proposed plate ch
 ### → NEXT SESSION
 1. **Resume smallest-first** — 18 works still pre-chunked. Next tier: 11088 (16 ch), 11536 (17), 10804 (17), 11058 (19), 11553 (22). Hard-stop ritual before each launch. Stage only.
 2. **`9637 Ordo ad regem benedicendum` is STILL a Fable mini-pilot, not an Opus batch** — first liturgical-ordo genre; extend `translation-style.md` before translating it or any ordo. It is now the SMALLEST thing in the queue (2 chunks), so it will keep surfacing as "next" — it is deliberately skipped, not overlooked.
-3. **Fold the band-arithmetic do-not-report paragraph into the runbook's permanent prompt template** (it worked; it is currently only in this session's ad-hoc prompts).
+3. ~~Fold the band-arithmetic do-not-report paragraph into the runbook's permanent prompt template~~ **DONE 2026-07-28.** Generalized while there: the template now carries a **"Known false positives — do NOT report these"** block covering all seven settled classes (band arithmetic · *Ibid.* antecedents, where the "fix" would break resolution · `noteCount` off-by-one from the `heads[]` duplicate · Pattern 4 `[f:]` in lemma-and-gloss commentaries · Migne's own `( sic )` · Pattern 9 non-defects · `(cont.)` heads). Pipeline step 4 also now makes **cruces merging a required reconciliation step**, not a tidy-up, with the 11551 *stylus/epistylium* case as the worked example.
 4. Run `decade-check.mjs` at the next decade boundary (89 works).
 5. **Link migne.app back from the Acta methodology page** (carried, still owed).
 
