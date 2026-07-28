@@ -6,7 +6,7 @@
 
 ## Col 0941D (chunk 0006)
 - **Reading (as printed):** `Cum vero puro pura et nuda revelatione ostenditur`
-- **Note:** `puro` immediately before `pura` reads as a dittography/corruption (no governing noun for a masc./neut. `puro`). It is a real Latin word, so per Pattern 7 it is translated rather than dropped or carried through in italics, and no mark is supplied to smooth it (Pattern 8): "But when it is shown by pure by pure and naked revelation." Latin gender has no English exponent (Pattern 9), so the masc./neut. ending cannot be shown. The intended reading is *pura et nuda revelatione*. An earlier draft deleted the printed `puro` outright; that has been withdrawn.
+- **Note:** `puro` immediately before `pura` reads as a dittography/corruption (no governing noun for a masc./neut. `puro`). It is a real Latin word, so per Pattern 7 it is translated rather than dropped or carried through in italics, and no mark is supplied to smooth it (Pattern 8): "But when it is shown by pure by pure and naked revelation." Latin gender has no English exponent (Pattern 9), so the masc./neut. ending cannot be shown. The intended reading is *pura et nuda revelatione*. An earlier draft deleted the printed `puro` outright; that has been withdrawn. Per Pattern 11, the repeated occurrence is now marked: "by pure [d: by pure] and naked revelation."
 
 ## Col 0945B (chunk 0008)
 - **Reading (as printed):** `ut alii plus, alii miuus accipiant`

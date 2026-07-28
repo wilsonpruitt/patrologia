@@ -103,7 +103,8 @@ from the plate on 2026-07-28.)
   "not only those more powerful or equally powerful, but even the more powerful,"
   which destroys the climax. The first member must be the weaker one (*minus
   potentes* / *inferiores*) for *sed etiam potentiores* to mean anything; that is
-  the intended reading.
+  the intended reading. Per Pattern 11, the repeated occurrence is now marked:
+  "but even [d: the more powerful]."
 
 ## Citation anomalies — passed through verbatim, flagged for a human
 

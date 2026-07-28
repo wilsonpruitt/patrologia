@@ -69,6 +69,8 @@ flagged here only.
   Rendered literally, stumble and all; a human read-through may want to record
   the intended sense ("who … long lived after the exemplar of Abraham, but at
   length falls, after the manner of David, into some outrage") in an apparatus.
+  Per Pattern 11, the repeated occurrence is now marked: "long according to the
+  exemplar of Abraham, [d: according] at length at some time falls…"
 
 - **col. 1051C (chunk 0002), note** — `[n: (Luc. XI)]` on the Pharisee's *Non
   sum sicut caeteri hominum* = Luke **18**:11. Verbatim; flagged.

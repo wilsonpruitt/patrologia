@@ -56,7 +56,10 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
   `Omnes thesauri sapientiae et scientiae ibi sunt; sed` twice, once immediately
   before the 0852C anchor and once immediately after it — a compositor's repeat
   across the column break. Reproduced verbatim in both Latin and English; not
-  silently collapsed.
+  silently collapsed. Per Pattern 11, the repeated occurrence (which falls
+  entirely after the anchor, not straddling it) is now marked: "…are there;
+  but [0852C] [d: All the treasures of wisdom and knowledge are there; but]
+  they are hidden."
 
 - **col. 0853A (chunk 0002)** — `Vidit ergo in divinitate, vidit et in
   humanitate, tamen ex divinitate sunt? et illi quae audierunt non nisi ex

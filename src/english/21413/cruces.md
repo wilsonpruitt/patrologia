@@ -16,7 +16,7 @@ Uncertain/garbled printed readings rendered literally in the English, logged her
 
 ## Chunk 0004 (Caput IV)
 
-- **col 0652A (VERS. 6)** — Dittography in the source: `Duo ubera duo sunt sunt populi` — the word `sunt` is printed twice. Rendered once ("The two breasts are the two peoples...") to avoid nonsensical English. Reading: `sunt sunt` → *sunt* (single).
+- **col 0652A (VERS. 6)** — Dittography in the source: `Duo ubera duo sunt sunt populi` — the word `sunt` is printed twice. **CORRECTED 2026-07-28 (Pattern 7 + Pattern 11).** The earlier rendering collapsed the doubling to a single "are" — a silent emendation, the very thing Pattern 7 forbids; "to avoid nonsensical English" is not a ground for correcting the plate. Both printed *sunt* are now rendered and the repeat is marked: "The two breasts are [d: are] the two peoples..." Conjecture (NOT applied): a single *sunt*.
 - **col ~0653A (VERS. 12)** — Source prints `spiritualium eperum germina`; `eperum` is a printer's error for `operum` ("of works"). Rendered "of spiritual works." Reading: `eperum` → *operum*.
 
 # Cruces — Alcuin, *In Cantica canticorum* (21413), chunks 0005–0009
