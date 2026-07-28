@@ -77,9 +77,15 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 >   place. Your chunk's frontmatter `colContext`/`noteCount` tell you what to expect —
 >   count your markers before writing each file.
 > - Notes `[n: ...]`: reproduce verbatim (contents untranslated — they are Migne's
->   citations). Same count, same order.
+>   citations). Same count, same order. **Exception — pattern 14:** a note whose
+>   content is editorial PROSE rather than a citation is translated and re-marked
+>   `[nt: ...]` at the same position. Judge by content, not length.
 > - `## ` heads: translate the head text, keep the `## ` line structure 1:1.
 > - Italics `*...*` and list `- ` lines: preserve structure.
+> - Defect markers, English-only, per patterns 11–13: `[d: ...]` a repetition Migne's
+>   plate prints twice; `[sic: ...]` carried type that is the plate's own defect;
+>   `[ed: ...]` our own voice, sparingly, only where the DIGITIZATION has lost text
+>   the plate carries. Read those patterns before using any of them.
 >
 > Scripture policy: translate what Migne prints, never substitute a conventional
 > version. Garbled type: render literally, log in `src/english/<idno>/cruces.md`
@@ -96,13 +102,13 @@ self-throttles, relaunch WITH the failure named verbatim in the prompt (this con
 
 ## The Song-of-Songs queue (all pre-chunked, verified-none, EN ≈ 1.5× Latin words)
 
+**Shipped as of 2026-07-28** — 7383 (Expositio cantici Magnificat), 11062 (Hugh,
+*Explanatio in Canticum B. Mariae*), 21413 (Alcuin), 11321 (William), 7871 (Justus
+of Urgell). Ten remain, below. This table does not update itself: **`/queue/` is
+the live list**, derived from `src/latin/` minus `src/english/` at build time.
+
 | idno | PL | author | work | Latin words | chunks | est. burn |
 |---|---|---|---|---|---|---|
-| 7383 | 40 | Auctor incertus | Expositio cantici Magnificat | 2,131 | 2 | ~40K |
-| 11062 | 175 | Hugh of St Victor | Explanatio in Canticum B. Mariae | 7,487 | 6 | ~120K |
-| 21413 | 100 | Alcuin | In Cantica canticorum | 10,581 | 10 | ~200K |
-| 11321 | 184 | William (of St-Thierry) | Commentatio ex Bernardo contexta | 12,070 | 12 | ~240K |
-| 7871 | 67 | Justus of Urgell | Explicatio in Cantica canticorum | 12,931 | 12 | ~240K |
 | 10804 | 164 | Bruno of Segni | Expositio in Cantica canticorum | 19,037 | 17 | ~340K |
 | 7914 | 70 | Ps.-Cassiodorus | Expositio in Cantica canticorum | 27,573 | 23 | ~460K |
 | 9033 | 115 | Angelomus of Luxeuil | Enarrationes in Cantica canticorum | 32,713 | 27 | ~540K |

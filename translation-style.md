@@ -496,6 +496,66 @@ carries, say so on the page, in our own voice, in a `[ed: …]` marker.
   crux is the right home.
 
 Where the loss is later recovered from the plate, the fix belongs in
-`data/tei-patches/<idno>.json` with provenance (the 11085 precedent), and the
-`[ed: …]` marker is removed in the same commit — the note exists only for as
+`data/tei-patches/<idno>.json` with provenance (the 11085 precedent, below), and
+the `[ed: …]` marker is removed in the same commit — the note exists only for as
 long as the hole does.
+
+### 14. `[nt: …]` — a note that is PROSE, not a citation, and is translated
+
+`[n: …]` contents stay verbatim Latin because they are Migne's *citations* —
+`(Gen. II)`, *De consid.* l. 3, c. 3. That rule was written for locators, and
+applied to a note that is an argument it does something it was never meant to
+do: it leaves an English reader a Latin paragraph in the middle of the page.
+Pattern 4 already drew exactly this line for `[f:]` tails (locator verbatim,
+editorial comment translated); it holds for notes too.
+
+- **`[n: …]` = citation.** Verbatim Latin, unanglicized, content-checked against
+  the Latin twin. Unchanged.
+- **`[nt: …]` = editorial prose.** A note whose content is a *statement* —
+  explanation, scholion, editorial comment — is **translated**, and appears in
+  the English chunk only.
+- **Decide by content, not by length.** A 23-item citation list is still a
+  citation (11064's stays `[n:]`); a 64-word explanation of how Roman numeral
+  subtraction works is prose (8407). Length is only a hint: in the whole chunked
+  corpus **just six notes exceed 20 words**, so the class is small and each case
+  can be judged on its own.
+- The Latin twin keeps `[n: …]` where Migne prints the note. **`[nt: …]` in a
+  Latin chunk is a hard verifier error** — the marker exists to say "this one was
+  turned into English," which is only ever true on our side. Marker positions are
+  matched positionally across the pair, so an `[n:]` may become an `[nt:]` at the
+  same index but may not move.
+- Renders as `.notecite.prose` — a note, visibly, but readable.
+- **Prose notes are NOT sources.** `index-work.mjs` keeps them out of `fontes[]`
+  in a separate `proseNotes[]` bucket. This mattered: 8407 and 9519 had each been
+  indexing a scholion as though it were a cited work.
+
+**Worked instances (Wilson, 2026-07-28):** 8407 (numeral subtraction), 9519
+(scholion on epilepsy), 11436 (the *quadrilogus* note) converted and re-verified;
+11064's citation list correctly stays `[n:]`.
+
+## Source patches — `data/tei-patches/<idno>.json`
+
+Our Latin is Corpus Corporum's TEI, not the plate. Where the *transcription* is
+demonstrably wrong about what Migne prints — not where Migne is wrong, which is
+Pattern 7's business — the fix is a patch file applied to the XML by
+`chunk-work.mjs` **before** the transform, so that a re-harvest reproduces it
+instead of silently reverting. This is the PL analogue of `data/calfa-patches/`
+on the Greek side.
+
+- **A patch corrects the markup, never the words.** The 11085 precedent: Corpus
+  Corporum had wrapped ~60 words of Hugh's running argument inside a `<note>`
+  element. It is not a note Migne prints — the host sentence does not construe
+  without it (the verb of the `ut` clause, *demonstremus*, sits inside the
+  marker) and the parentheses do not balance. The patch drops the spurious
+  element. **Not one word of Migne changed**; `noteCount` went 7→6 and the sixty
+  words became translatable.
+- **Prove it before patching.** Grammar that does not construe, unbalanced
+  punctuation, or empty elements where the plate has text (11055). A reading you
+  merely dislike is not a defect, and a defect in *Migne* is rendered literally
+  under Pattern 7 — never patched.
+- **Patches fail loudly.** A find string matching anything other than exactly
+  once is a hard error, not a silent no-op.
+- Re-chunk after patching and confirm chunk boundaries are unchanged; record the
+  reasoning in the work's `cruces.md`.
+- Where the plate's text is lost and *not* recoverable from our source, do not
+  patch — mark it `[ed: …]` (Pattern 13) and say what recovery would require.
