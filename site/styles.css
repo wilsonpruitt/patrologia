@@ -530,6 +530,14 @@ a { color: inherit; }
 .author-card .latin-name { font-style: italic; color: var(--encre-douce); font-size: .92rem; margin: 0 0 .1rem; }
 .author-card .dates { font-size: .82rem; letter-spacing: .04em; color: var(--dorure); margin: 0 0 .7rem; text-transform: uppercase; }
 .author-card .bio { font-size: .92rem; line-height: 1.6; margin: 0; }
+/* Attribution caveat: set apart from the bio by a rule and the maroquin accent,
+   because it says something ABOUT the ascription rather than about the person —
+   a reader must not mistake it for biography. */
+.author-card .attrib-flag {
+  font-size: .88rem; line-height: 1.55; margin: .8rem 0 0; padding-top: .7rem;
+  border-top: 1px solid rgba(126, 45, 38, .35);
+  color: var(--encre-douce);
+}
 .author-card::backdrop { background: rgba(20, 37, 25, .35); }
 
 /* ---------- PG work page ---------- */

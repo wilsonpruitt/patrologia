@@ -144,14 +144,23 @@ const authorNames = credited.length ? credited.map(displayName).join(' and ') : 
 const authorCards = [];
 const authorNode = (a, i) => {
   const b = bioOf(a), name = esc(displayName(a));
-  if (!b?.bio) return name;
+  // A card is warranted by a bio OR an attribution caveat. Previously only `bio`
+  // opened one, which meant every `attributionFlag` in author-bios.json was dead
+  // data — recorded for three shared "Auctor incertus (X?)" keys and rendered
+  // nowhere, so no reader ever saw that Migne's ascription was the edition's own
+  // conjecture. Those keys deliberately carry no bio (they are shared across many
+  // works), so keying the card on `bio` alone hid exactly the entries that most
+  // needed saying out loud.
+  if (!b?.bio && !b?.attributionFlag) return name;
   const pid = `author-${i}`;
   const latinLine = b.latin && b.latin !== displayName(a)
     ? `\n  <p class="latin-name" lang="la">${esc(b.latin)}</p>` : '';
   const datesLine = b.dates ? `\n  <p class="dates">${esc(b.dates)}</p>` : '';
+  const bioLine = b.bio ? `\n  <p class="bio">${esc(b.bio)}</p>` : '';
+  const flagLine = b.attributionFlag
+    ? `\n  <p class="attrib-flag">${esc(b.attributionFlag)}</p>` : '';
   authorCards.push(`<div id="${pid}" popover class="author-card">
-  <h3>${name}</h3>${latinLine}${datesLine}
-  <p class="bio">${esc(b.bio)}</p>
+  <h3>${name}</h3>${latinLine}${datesLine}${bioLine}${flagLine}
 </div>`);
   return `<button type="button" class="author-pop" popovertarget="${pid}">${name}</button>`;
 };
@@ -338,6 +347,14 @@ css += `
 .author-card .latin-name { font-style: italic; color: var(--encre-douce); font-size: .92rem; margin: 0 0 .1rem; }
 .author-card .dates { font-size: .82rem; letter-spacing: .04em; color: var(--dorure); margin: 0 0 .7rem; text-transform: uppercase; }
 .author-card .bio { font-size: .92rem; line-height: 1.6; margin: 0; }
+/* Attribution caveat: set apart from the bio by a rule and the maroquin accent,
+   because it says something ABOUT the ascription rather than about the person —
+   a reader must not mistake it for biography. */
+.author-card .attrib-flag {
+  font-size: .88rem; line-height: 1.55; margin: .8rem 0 0; padding-top: .7rem;
+  border-top: 1px solid rgba(126, 45, 38, .35);
+  color: var(--encre-douce);
+}
 .author-card::backdrop { background: rgba(20, 37, 25, .35); }
 
 /* ---------- PG work page ---------- */
