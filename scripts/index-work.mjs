@@ -158,6 +158,10 @@ const isAnaphoric = s => /^\(?\s*(ibid|idem|id)\b/i.test(s);
 // `ordered` holds every citation in document order so anaphora can look backwards;
 // scripture[]/fontes[] are split out of it afterwards, preserving that order.
 const ordered = [];
+// The chunker's continuation marker. "(continued)" is accepted too: 7383 shipped
+// with an agent having translated the marker, which slipped every literal-string
+// scan. Matching both keeps the la/en head lists paired no matter which appears.
+const CONT_HEAD = /\((?:cont\.|continued)\)$/;
 const scripture = [], fontes = [], unparsed = [], headsLa = [];
 
 // One note -> its index record(s). Factored out so head-borne notes go through exactly
@@ -206,6 +210,13 @@ for (const c of manifest.chunks) {
       // Harvest head-borne notes in place, then strip them from the recorded head text.
       for (const hn of t[3].matchAll(/\[n: ([^\]]*)\]/g))
         handleNote(hn[1].replace(/\s+/g, ' ').trim(), col, c.chunk, true);
+      // A "(cont.)" head is the chunker re-emitting a section head on the next chunk
+      // it spans (see build-work-page.mjs sections()). It is our apparatus, not a
+      // title Migne prints, and a TOC entry must point at the section's true start —
+      // so it is not recorded as a head. Head-borne notes are still harvested above,
+      // because chunk-core deliberately strips markers from the repeated head only
+      // when re-emitting, and a real citation must never be lost to this branch.
+      if (CONT_HEAD.test(t[3].trim())) continue;
       headsLa.push({ la: t[3].replace(/\[n: [^\]]*\]/g, '').replace(/\*/g, '')
         .replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim(), // removing the note leaves "salutem ."
         column: citeCol(col), chunk: c.chunk });
@@ -344,7 +355,11 @@ const headsEn = [];
 for (const c of manifest.chunks) {
   const name = `${String(c.chunk).padStart(4, '0')}.md`;
   const body = fs.readFileSync(path.join(engDir, name), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
-  for (const m of body.matchAll(/^## (.*)$/gm)) headsEn.push(m[1].replace(/\*/g, '').trim());
+  // skip "(cont.)" heads in step with the Latin side above, so the two lists pair
+  for (const m of body.matchAll(/^## (.*)$/gm)) {
+    if (CONT_HEAD.test(m[1].trim())) continue;
+    headsEn.push(m[1].replace(/\*/g, '').trim());
+  }
 }
 if (headsEn.length !== headsLa.length) {
   console.error(`head count mismatch la ${headsLa.length} vs en ${headsEn.length}`);

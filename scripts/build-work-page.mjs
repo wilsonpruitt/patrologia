@@ -28,12 +28,32 @@ const joined = dir => manifest.chunks
   .map(c => body(path.join(dir, `${String(c.chunk).padStart(4, '0')}.md`)))
   .join('\n\n');
 
+// "(cont.)" is the chunker's marker and must pass through translation untouched,
+// but 7383 shipped with an agent having helpfully rendered it "(continued)" — which
+// slipped every scan keyed to the literal string. Both spellings are accepted here
+// so a stray translation degrades to a cosmetic issue, never a mispaired head.
+const CONT_HEAD = /\((?:cont\.|continued)\)$/;
+
 // split a full text into sections at ## heads
+//
+// "(cont.)" heads are REJOINED, not rendered (2026-07-28). The chunker re-emits a
+// section's head with a "(cont.)" suffix on every chunk that section spans, so the
+// chunk files stay independently readable. Chunk boundaries are OUR division and
+// are invisible on the assembled work page — leaving those heads in made the page
+// print "CHAPTER ONE." and then "CHAPTER ONE. (cont.)" a few paragraphs later, an
+// artifact Migne prints nowhere (293 such heads were live site-wide when this was
+// found). Merging restores the section to one head with continuous text.
+// Latin and English chunk at identical boundaries, so both sides merge in step and
+// the parallel columns stay aligned.
 function sections(text) {
   const out = [];
   for (const part of ('\n' + text).split(/\n## /).slice(1)) {
     const nl = part.indexOf('\n');
-    out.push({ head: part.slice(0, nl).trim(), text: part.slice(nl).trim() });
+    const head = part.slice(0, nl).trim();
+    const body = part.slice(nl).trim();
+    const prev = out[out.length - 1];
+    if (CONT_HEAD.test(head) && prev) { prev.text += '\n\n' + body; continue; }
+    out.push({ head, text: body });
   }
   return out;
 }

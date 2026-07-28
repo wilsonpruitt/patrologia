@@ -102,6 +102,7 @@ for (const c of manifest.chunks) {
   else if (ratio < 1.0) warns.push(`${name}: ratio ${ratio.toFixed(2)} — low for Tier-2, eyeball for compression`);
 
   for (const p of eng.body.split(/\n\n+/)) {
+    if (/^## /.test(p.trim())) continue; // see HEAD_EXEMPT note below
     const n = norm(p);
     if (words(n) <= 15) continue;
     if (!paraSeen.has(n)) paraSeen.set(n, []);
@@ -109,7 +110,22 @@ for (const c of manifest.chunks) {
   }
 }
 
-// map where the Latin source itself repeats a paragraph across chunks
+// map where the Latin source itself repeats a paragraph across chunks.
+//
+// HEAD_EXEMPT / THRESHOLD note (2026-07-28): two bugs lived here, both found by
+// 11083 chunks 0002+0003 failing on a paragraph that was never a defect.
+//   (a) `## ` continuation heads are exempt from the dedupe scan entirely. The
+//       CHUNKER repeats the section head with a "(cont.)" suffix on every chunk a
+//       section spans — that is our apparatus, deliberately duplicated, and it is
+//       not an agent re-emitting boundary text.
+//   (b) The Latin side must use a LOWER word threshold than the English side.
+//       Both sides used >15 words, but English runs ~1.5x Latin — so any repeated
+//       Latin unit of roughly 11-15 words expands past 15 in English, registers as
+//       an English duplicate, and finds no Latin twin to excuse it. 11083's head is
+//       13 Latin words / 22 English. Anything the Latin repeats at all is a valid
+//       explanation for an English repetition, so the floor here only needs to be
+//       high enough to ignore noise.
+const LAT_DUP_MIN_WORDS = 8;
 {
   const latSeen = new Map();
   for (const c of manifest.chunks) {
@@ -117,7 +133,7 @@ for (const c of manifest.chunks) {
     const lat = parse(path.join(latDir, name));
     for (const p of lat.body.split(/\n\n+/)) {
       const n = norm(p);
-      if (words(n) <= 15) continue;
+      if (words(n) <= LAT_DUP_MIN_WORDS) continue;
       if (!latSeen.has(n)) latSeen.set(n, []);
       latSeen.get(n).push(name);
     }
