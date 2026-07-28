@@ -1,5 +1,43 @@
 # Next session — resume note
 
+## 2026-07-28 — 4+5-chunk tiers (6 works) translated + STAGED; quotation layer overhauled
+
+**NOT deployed** (commit `f776cdc`). Site now **73 english pages** (72 in works.json + the PG Joel work). Queue: **28 works** still pre-chunked in `src/latin/`.
+
+### The 6 new works — smallest-first, all Opus (3 agents, 27 chunks, ~571K subagent tokens)
+10083 PL 145 Peter Damian *De dignitate sacerdotii* · 11083 PL 176 Hugh of St Victor *De sapientia animae Christi* · 11078 PL 176 Hugh *De modo orandi* · 11542 PL 196 Richard of St Victor *De sacrificio David prophetae* · 11534 PL 196 Richard *De differentia sacrificii Abrahae…* · 11537 PL 196 Richard *De gemino paschate*.
+- **verify-english OK on all 6**; built + indexed; **0 unparsed corpus-wide**. works.json flipped to `ours` BEFORE decade-check. All three authors already had bios. decade-check at 72 shipped: **nothing blocking**.
+- **`11556 Sermo de missione Spiritus Sancti` was HELD BACK** — its works.json `englishState` is `unclear`, not `untranslated`, and rule 8 admits nothing to the queue without a verified none-status. **Verify it before translating.**
+- `index-work.mjs`: `Levit` added to the book-alias table (Migne prints both `Lev.` and `Levit.`; only the short form was mapped, stranding 4 refs in 10083).
+
+### The quotation layer — this is the session's real change
+- **Pattern 5** written into `translation-style.md`: guillemets open and close exactly where Migne does, 1:1; an interrupting *inquit* stays INSIDE the quotation; an unclosed « stays unclosed and is logged as a crux.
+- **Pattern 6 (Wilson's ruling 2026-07-28)** — quotation-mark **provenance**: « » reproduce marks Migne prints; " " are marks WE supply where English needs one and the plate has none. A reader can then tell plate from edition by eye, and the rule is mechanically checkable.
+- **`verify-english.mjs` check 7: guillemet parity** against the Latin twin. It had NO quotation check at all, which is how 9852 shipped with all 10 of its charter quotations rendered as straight quotes (repaired, cruces logged).
+- **15 of 65 drift instances fixed by script** behind a gate asserting only quotation characters changed. **50 judgment instances remain in 29 chunks of 3 works** (11064 ×22, 9076 ×6, 21413 ×1) — a Sonnet pass was launched against a localized packet; check its result before assuming it is closed.
+
+### Two verifier bugs fixed (both would have kept firing)
+1. Dedupe scan flagged `## ` continuation heads as duplicated English. Heads are now exempt, and the **Latin-side dup map uses a lower word floor than the English side** — both were >15 words, but English runs ~1.5× Latin, so any Latin unit of ~11–15 words crossed the threshold on the English side alone with no Latin twin to excuse it.
+2. **`(cont.)` heads were leaking onto published pages — 293 of them, live.** The chunker re-emits a section head on every chunk the section spans; chunk boundaries are OUR division and invisible on the assembled page, so readers saw "CHAPTER ONE." then "CHAPTER ONE. (cont.)". Now merged back into one section (`build-work-page.mjs`) and dropped from `heads[]` (`index-work.mjs`); 22 works rebuilt. Both accept `(continued)` too — 7383 had an agent *translate* the marker, slipping every literal-string scan.
+
+### Open flags for Wilson (none blocking)
+1. **11537 is two sermons, not one treatise** — Migne heads it `SERMO IN RAMIS PALMARUM` (1059A–1067B) and `SERMO IN DIE PASCHAE` (1067C–1074B). Translated 1:1, `work:` left alone; the TOC will show one work with two sermon heads. Deliberate call owed.
+2. **11534 and 11537 overlap in the plate** — 11534's last anchors are 1059A/1060A; 11537 opens at 1059A. A resolver keyed on `pl/196/1059a` will hit two works.
+3. **Emend-vs-render policy is inconsistent corpus-wide.** The prompt says render corrupt type literally; `10103/cruces.md` set a precedent of rendering the *intended* reading for pure orthographic slips. The 11534/11537 agent followed the repo precedent and said so atop both cruces files. **This is the place to set one rule.**
+4. **Two dropped negatives are the highest-stakes cruces of the batch** — 11534 @1054A and 11537 @1069D. As printed, both sentences assert the doctrinal opposite of their context. 11537's was emended (the *sed* clause is unambiguous), 11534's left literal. Worth a second reader.
+5. **11542 cites the same verse two ways**: `Psal. LXX` at the incipit and `Psal. LXV` at 1041D for identical Latin. LXV is right — a `citation-corrections.json` candidate.
+6. **10083 @0494D**: Migne's guillemets around a Colossians quotation swallow a clause of Damian's own that is not in Colossians. Left inside the quote, since the guillemets are Migne's.
+7. **Inline scripture locators outside `[n:]`** — 11542 prints `(Luc. [1034C] XII.)` with a column anchor *inside* the citation. Not `[f:]`-tagged (pattern 4 feeds fontes, these are scripture, and a tag cannot contain an anchor). They reach neither index. Worth deciding whether they want a marker of their own.
+8. **10083 chunk 0000 ends with a head and no body** (`DE DIGNITATE SACERDOTII.`) — confirm it is Migne's running title, not a chunker artifact.
+
+### → NEXT SESSION
+1. **Resume smallest-first** — 28 works still pre-chunked. Next tier = the 6-chunk band (11061, 11549), then 7 (11085), 8 (11055, 11531), 9 (11081). Hard-stop ritual before each launch. Stage only.
+2. **`9637 Ordo ad regem benedicendum` is still a Fable mini-pilot, not an Opus batch** — first liturgical-ordo genre; extend translation-style.md before translating it or any other ordo.
+3. **Verify 11556's none-status** before it re-enters the queue.
+4. Run `decade-check.mjs` at the next decade boundary (76 works).
+
+---
+
 ## 2026-07-24 — 3-chunk tier (9 works) translated + STAGED
 
 **NOT deployed** (commit `97f71c2`). Site now **67 english pages built** (66 in works.json + the PG Joel work). Queue: 34 works still pre-chunked in `src/latin/`.
