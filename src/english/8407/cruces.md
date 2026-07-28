@@ -4,19 +4,24 @@
 
 **Printed:** `*Et factum est ves ere et mane dies unus.*`
 
-Broken type for *vespere* ("evening"; Gen. 1:5, *factum est vespere et mane
-dies unus*). The word is split across a space with the `p` dropped. Rendered
-per the intended reading, "And there was evening and morning, one day," rather
-than emended in place.
+Neither *ves* nor *ere* is a Latin word: this is broken type for *vespere*
+("evening"; Gen. 1:5, *factum est vespere et mane dies unus*), split across a
+space with the `p` dropped. Bede's own gloss two clauses later reads *quando
+dixit vespere*, printed correctly, which settles the intended reading. Per
+Pattern 7 the non-word is carried into the English untranslated — "And there
+was ves ere and morning, one day" — inside the italic run Migne already gives
+the lemma.
 
 ## Col. 0651A — `quiquaginta` (number list)
 
 **Printed:** `quinquaginta unum, quiquaginta duo, quinquaginta tria`
 
-Broken type for *quinquaginta* ("fifty") in the running count — the second
-*n* has dropped, giving *quiquaginta* for "fifty-two." Neighboring entries in
-the same series print *quinquaginta* correctly. Rendered per intended reading
-("fifty-two"); logged rather than silently emended.
+*quiquaginta* is not a word: broken type for *quinquaginta* ("fifty") in the
+running count, the second *n* dropped. Every neighboring entry in the series
+prints *quinquaginta* correctly, so the intended reading ("fifty-two") is
+certain. Per Pattern 7 the non-word is carried into the English untranslated
+and in italics, the construable *duo* rendered normally: "fifty-one,
+*quiquaginta* two, fifty-three."
 
 ## Note on Roman numerals / letter-names
 

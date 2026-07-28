@@ -30,35 +30,57 @@ Garbled or corrupt printed readings, rendered literally in the English and logge
   down repeatedly. Two places especially: the opening address has no finite verb until
   *deposcimus*, so the singular *ille vilissimus … servus* is left grammatically stranded
   (rendered with a dash, preserving the anacoluthon); and *quasi coram sanctissimis
-  pedibus vestris humano* is unconstruable, Migne suggesting *[ Forte, humi prostratus]*.
-  Rendered on the plain sense of the printed *humano* being an error, without importing
-  Migne's conjecture into the English.
-- **1161B** — *pia oscula ejus ostias salutare*, with Migne's *[ F., pio osculo . . .
-  ostia]*. As printed, "to greet his doors with devout kisses" requires reading *ostia*
-  for *ostias*; rendered on Migne's suggestion, his bracket kept in place.
-- **1161B** — *huc ita, ut dispositum die pro consule habuimus.* Corrupt beyond repair:
-  *ita* is stranded and *die pro consule* has no clear sense (possibly a garbled
-  *die proposito*). Rendered on the least violent reading ("on the day on which we had
-  resolved to attend"), and flagged here as a genuine crux a human should check against
-  another witness.
+  pedibus vestris humano* is unconstruable. *humano* is a real word (abl. sg. of
+  *humanus*) with nothing to agree with, and an earlier draft simply dropped it from
+  the English; it is now rendered as printed — "as though before your most holy feet
+  **in human fashion**." Migne's conjecture *[ Forte, humi prostratus]* ("prostrate on
+  the ground") is kept in place as his bracket and is **not** imported into the English.
+- **1161B** — **Printed:** *pia oscula ejus ostias salutare*, with Migne's *[ F., pio
+  osculo . . . ostia]*. *ostias* is a real word — the h-less spelling of *hostias*
+  ("victims, sacrifices"), routine in this rustic letter — so it is rendered as printed:
+  "to greet his **victims** with devout kisses." The intended reading is Migne's
+  *ostia* ("doors"), which the pilgrimage context wants (kisses on Peter's doors and
+  pavement); his fuller conjecture also makes *pia oscula* the ablative singular *pio
+  osculo*, and the printed accusative plural is likewise left standing. An earlier draft
+  rendered "doors"; that has been withdrawn. Bracket kept in place.
+- **1161B** — **Printed:** *huc ita, ut dispositum [habemus] die pro consule habuimus,
+  occurrere minime valuimus.* Every word is a real Latin form, so all are rendered as
+  printed — "we have by no means been able to come here in this way, as we have it
+  arranged [habemus], we had it on the day for the consul" — including *pro consule*,
+  which an earlier draft simply dropped. The clause is not construable: *ita* is
+  stranded, *habuimus* has no object, and *die pro consule* has no sense the letter
+  supports. The intended reading may be *die proposito* ("on the appointed day"), but
+  this is a guess, not a conjecture with evidence behind it; a genuine crux a human
+  should check against another witness. Migne's supplied *[habemus]* is kept in place.
 - **1161B** — *veniam delictorum [praeteritorum] indulgentiam rogare.* The doubled
   *veniam … indulgentiam* is either a variant pair or a broken construction; both nouns
   are rendered.
 - **1162B, poem II, line 9** — *In traject. mel, compultimque buturque ministrat.* Migne
   prints the abbreviation *In traject.* unresolved (Trajectum = Utrecht); the abbreviation
-  is kept as printed rather than silently expanded. *compultim* (for *pultem*) and *butur*
-  (for *butyrum*) are rendered on their obvious sense, "porridge" and "butter."
+  is kept as printed rather than silently expanded. Neither *compultim* nor *butur*
+  is a Latin word; the intended readings are *pultem* ("porridge") and *butyrum*
+  ("butter"), which the list of Frisian fare requires. Per Pattern 7 both non-words are
+  carried into the English untranslated and in italics: "honey, and *compultim*, and
+  *butur*." An earlier draft rendered the conjectures; that has been withdrawn.
 - **1163A ff., poem II** — Personal names are kept in the form Migne prints them where
   they have no settled English form (Hrotberct, Raefgot, Rado, Bassinus, Fulcrad,
   Dorsdrada); where a standard English form exists it is used (Albric, Willibrord,
   Ricwulf, Lull, Cologne, Mainz, Speyer, Moselle).
 - **1163A, line 22** — *Remigio postquam spatium sulcaveris amnem.* *spatium* and *amnem*
   cannot both be direct objects; rendered "have furrowed the river's stretch with rowing."
-- **1164A, line 61** — *sine tempora serva* with Migne's *[ F., sacra]*. Rendered on
-  *sacra* ("consecrated brows"), the bracket kept.
-- **1164A, line 64** — *Eja, age, casta [charta] cito navem conscende.* *casta* is a
-  misprint for *charta*, which Migne supplies; the addressee of the whole poem is the
-  letter/paper itself. Rendered on the corrected reading.
+- **1164A, line 61** — **Printed:** *sine tempora serva* with Migne's *[ F., sacra]*.
+  *serva* is a real word (imperative of *servo*, "preserve"; or the feminine of
+  *servus*), so it is rendered as printed — "allow this ivy to creep about your brows,
+  **preserve**" — where it agrees with nothing and hangs stranded, exactly as in the
+  Latin. The intended reading is Migne's *sacra*, the neuter plural adjective agreeing
+  with *tempora* ("consecrated brows"). An earlier draft rendered the conjecture; that
+  has been withdrawn. Bracket kept.
+- **1164A, line 64** — **Printed:** *Eja, age, casta [charta] cito navem conscende
+  paratam.* *casta* is a real word (feminine vocative/nominative of *castus*, "chaste"),
+  so it is rendered as printed: "Come, on with it, O **chaste one**, board the ready
+  ship at once." The intended reading is *charta*, which Migne supplies in his own
+  bracket and which the poem requires — its addressee throughout is the letter/paper
+  itself. An earlier draft rendered the conjecture; that has been withdrawn.
 - **1164B, line 77** — *Et cum vere rubrae . . . . . de cortice gemmae.* Migne prints a
   lacuna of five points; the missing word is a verb or adjective. The lacuna is reproduced
   as printed.
@@ -103,9 +125,12 @@ Garbled or corrupt printed readings, rendered literally in the English and logge
   hell") rather than smoothed to "despoiled."
 - **1169B** — *Exsurge, Domine, tu et arca sanctificationis tuae* is cited as *Psal.
   CXXXI, 8* (Vulgate numbering); left exactly as Migne cites it.
-- **1170B** — *Absit, ut mittam manum meum in unctum Domini.* *manum meum* for *manum
-  meam*; rendered on the intended reading. Note also that Migne's *mittam manum in* is
-  translated "put my hand upon," matching what the Latin prints.
+- **1170B** — *Absit, ut mittam manum meum in unctum Domini.* Migne prints the masculine
+  /neuter *meum* against the feminine *manum* (*meam* expected, as the Vulgate has).
+  **No emendation was made and none is possible:** English possessives carry no gender,
+  so "my hand" renders the printed *meum* exactly and would render *meam* identically.
+  The mismatch survives only in the Latin twin. Note also that Migne's *mittam manum in*
+  is translated "put my hand upon," matching what the Latin prints.
 - **1170B** — *quando Saul in speluncam introivit ventrem purgare.* The episode is
   I Samuel (I Reg.) 24, not 26 as Migne's note gives; the citation is reproduced exactly
   as printed and NOT corrected — flagging it here for the citation-corrections pass.

@@ -1,6 +1,12 @@
 # Cruces — 8195, *Norma vivendi* (PL 83)
 
-Garbled or corrupt printed readings, rendered literally in the English and logged here.
+Garbled or corrupt printed readings, logged here. **Governed by
+`translation-style.md` Pattern 7:** the English renders what the plate PRINTS, never
+the conjectured reading; type that is not a word at all is carried into the English
+untranslated, in italics. Three entries below previously applied their conjecture to
+the running text (the withdrawn 10103 precedent) and have been restored to the
+printed readings; the rest already rendered the corruption literally and are
+unchanged.
 
 The work is a chain of asyndetic imperatives in the manner of Isidore's *Synonyma*
 (Migne's single note, at 1247B, points the reader to *Isidoriana*, cap. 82). Many
@@ -29,8 +35,11 @@ sense or grammar are listed.
   *offensam / offensionem* looks like a variant that has crept into the text; both are
   rendered ("the brotherly offense, or the taking of offense").
 - **1248C, §7** — *Quibus vero prodest, si malus, si bonus praediceris.* *praediceris*
-  ("you are foretold") for *praedicaris* ("you are proclaimed"); rendered on the
-  intended reading.
+  ("you are foretold") stands for *praedicaris* ("you are proclaimed"). *praediceris*
+  is a Latin word — second singular present passive of *praedico, -ere* — so it is
+  **rendered as printed**: "to whom is it any profit if you are foretold bad, or
+  good?" Intended reading *praedicaris*, from the parallel *laudaris* two clauses
+  later. (Earlier: "if you are proclaimed bad, or good.")
 - **1249C, §13** — *occulta virtutes pro elatione; absconde bona facta pro arrogantia.*
   *pro* + accusative of the vice = "on account of / for fear of" pride. Rendered "on
   account of pride" — the sense is that the virtues are hidden lest pride follow.
@@ -44,9 +53,15 @@ sense or grammar are listed.
 - **1250B, §18** — *Malum visus facere, non consuescas, nec adhuc si poenae immineant,
   peccanti cuiquam non aquiescas.* Doubly broken: *visus* for *visum* (or for *visus
   es*), and a double negative *nec … non aquiescas* where a single negation is meant.
-  Rendered on the intended reading ("do not grow accustomed to doing an evil that has
-  been seen, nor … give consent"), with *aquiescas* (for *acquiescas*) silently
-  regularized.
+  Both printed readings are now **rendered as printed**: *malum visus* taken as the
+  genitive it can only be, "the evil of sight," and the double negative kept — "nor,
+  even if punishments hang over you, do not give consent to anyone who is sinning."
+  Intended reading: *malum visum facere* ("to do an evil that has been seen") and a
+  single negation. (Earlier the English read "an evil that has been seen, nor …
+  give consent," i.e. both conjectures applied silently.) *aquiescas* for
+  *acquiescas* is a standard late-Latin assimilation, an orthographic convention of
+  this witness rather than a corruption, and is translated like the rest of its
+  spelling.
 - **1250C, §19** — *ubi timor audet, eum sequitur robur; ubi timor, audentia sequitur.*
   Two versions of the same sentence stand side by side — almost certainly a variant
   admitted into the text. Both are translated as printed rather than one being suppressed.
@@ -60,7 +75,10 @@ sense or grammar are listed.
   for *a munere* (following the preceding clause about gifts). Rendered as printed.
 - **1251A, §23** — *sed emendare potius quam corrigere.* *emendare* and *corrigere* are
   near-synonyms, so the antithesis collapses; the sense wanted is "amend rather than
-  punish." Rendered on that sense, with the crux noted here.
+  punish." Both are ordinary Latin words, so the printed pair is **rendered as
+  printed** — "do not love to condemn, but rather to amend than to correct" — and the
+  collapsed antithesis is Migne's. The likely intended second verb is a word of
+  punishment (*castigare*, *punire*). (Earlier: "rather to amend than to punish.")
 - **1251B, §24** — *Quamvis enim non credenda sunt, ideo tamen dimittentur, nisi quae
   certis indiciis approbantur, et non quae manifesto examini committuntur, et non quae
   ordine judiciario comprobantur.* The most corrupt sentence in the work: the *nisi*

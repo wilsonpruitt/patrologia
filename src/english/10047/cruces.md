@@ -20,10 +20,14 @@ the English per the register rules, and logged here.
 
 - **Printed:** *inito cum suis consilio, jumentum abire sinunt, pro certo
   sciens eum locum a sanctis electum*
-- **Note:** *sinunt* (plural) followed by *sciens* (singular participle). Migne
-  prints the mismatch; sense requires the bishop and his men together.
-  Rendered with a plural ("they let the beast go, knowing for certain"),
-  which is the intended reading; no emendation made to the Latin.
+- **Note:** *sinunt* (plural) followed by *sciens* (singular participle). Both
+  are real Latin forms, so both are rendered as printed and the mismatch is
+  carried into the English: "they let the beast go, **he** knowing for certain."
+  The intended reading is presumably the plural *scientes*, since the subject of
+  *sinunt* is the bishop together with his men (*inito cum suis consilio*); but
+  the singular may equally be an author's slip back to *antistes* alone, and
+  either way the printed mismatch stands. An earlier draft smoothed this by
+  rendering the participle as a plural; that emendation has been withdrawn.
 
 ## 1027A–1027B (chunk 0) — proper name, flagged for the read-through
 

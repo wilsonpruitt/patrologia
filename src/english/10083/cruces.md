@@ -28,8 +28,11 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
   their own.
 
 - **col. 0494B (chunk 0001)** — `per morum spritiualium honestatem`.
-  *spritiualium* is a transposition for *spiritualium*. The Latin keeps the
-  printed form; the English renders the intended reading, "spiritual character."
+  **Printed:** *spritiualium*. This is not a Latin word — a transposition of
+  *spiritualium*, which is the near-certain intended reading (the same treatise
+  prints *spiritualis* correctly at 0491C and 0492B). Per Pattern 7 the non-word
+  is carried into the English untranslated and in italics: "by the
+  honorableness of *spritiualium* character." Not emended in either twin.
 
 - **col. 0497D–0498A (chunk 0003)** — `merito jam, e in alios adhibita manus
   impositione transfundit`. The bare **e** between two commas is broken type;

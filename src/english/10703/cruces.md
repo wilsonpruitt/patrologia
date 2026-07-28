@@ -10,6 +10,6 @@ Garbled or corrupt printed readings, rendered literally in the English and logge
 
 ## Chunk 1
 
-- **1126B** — *Oro iniquitate vidi tentoria Aethiopiae*. *Oro* is a misprint for *Pro*: Odo's own exposition in the next clause reads *pro divitiis captandis*, and he repeats the lemma correctly at 1126C as *pro iniquitate tentoria Aethiopiae*. Rendered with the intended reading ("for iniquity").
+- **1126B** — **Printed:** *Oro iniquitate vidi tentoria Aethiopiae*. *Oro* is a real Latin word ("I pray"), so it is rendered as printed: "I pray, by iniquity I saw the tents of Ethiopia," the bare ablative *iniquitate* left to stand without the preposition. The intended reading is certainly *Pro iniquitate* ("for iniquity") — the *P* has dropped to *O*: Odo's own exposition in the very next clause reads *pro divitiis captandis*, and he repeats the lemma correctly at 1126C as *pro iniquitate tentoria Aethiopiae*, where the English does give "for iniquity." An earlier draft rendered the conjecture here; that has been withdrawn.
 - **1126D** — *Hostiae impiorum abominabiles [n: (Prov. II, 2)]*. The verse is Proverbs 21:27; the printed citation *Prov. II, 2* is wrong. Citation passes through verbatim per the marker rule.
 - **1127B → 1128A** — Anchor sequence gap: columns 1127C and 1127D are not marked, the text running straight from [1127B] to [1128A] mid-sentence. Reproduced as printed; worth a check against the plate for dropped text.

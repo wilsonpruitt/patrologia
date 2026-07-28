@@ -1,10 +1,13 @@
 # Cruces — 7427, *De unitate sanctae Trinitatis* (Auctor incertus)
 
-- **col 1209** — printed *in relativis naturaei vocabulis*. *naturaei* is not a Latin
-  form; intended reading is the genitive *naturae* ("in the relative terms of
-  nature"), rendered so. Possible misprint for *naturalibus*, which would give "in
-  the relative natural terms" — but *naturae* is the lighter emendation and fits
-  the parallel *non naturae, quia una est* just above.
+- **col 1209** — **Printed:** *in relativis naturaei vocabulis*. *naturaei* is not a
+  Latin form at all, so per Pattern 7 it is carried into the English untranslated
+  and in italics: "in the relative *naturaei* terms." The intended reading is
+  most likely the genitive *naturae* ("in the relative terms of nature"), which
+  fits the parallel *non naturae, quia una est* just above; *naturalibus* ("in
+  the relative natural terms") is the alternative, but *naturae* is the lighter
+  conjecture. An earlier draft rendered *naturae* in the running text; that has
+  been withdrawn.
 
 - **col 1210** — printed *Abstulisti grandem macheriam*. *macheria* = *maceria*,
   "a wall, a dry-stone enclosure" (the *-ch-* spelling is common in late Latin

@@ -39,12 +39,19 @@ imprint are kept as Migne sets them.
 
 ## 0419D–0420A — `de rebus Hisqaniae`
 
-The incipit and body print `Hisqaniae` for *Hispaniae*. Obvious broken type;
-translated per the intended reading (*On the Affairs of Spain*).
+The incipit and body print `Hisqaniae`, which is not a word: broken type for
+*Hispaniae* (Marineus Siculus' *De rebus Hispaniae* is a known title, and the
+dossier's argument is about Spanish birthplaces throughout). Per Pattern 7 the
+non-word is carried into the English untranslated, inside the italic title:
+*On the Affairs of Hisqaniae*. An earlier draft translated the conjecture
+(*On the Affairs of Spain*); that has been withdrawn.
 
 ## 0420A — `turres … octo et vigniti supra centum`
 
-`vigniti` for *viginti*. Read as "one hundred and twenty-eight towers."
+`vigniti` is not a word: transposed type for *viginti* ("twenty"), giving
+Marineus' count of 128 towers. Per Pattern 7 the non-word is carried into the
+English untranslated and in italics, the rest of the additive formula rendered
+in the printed order: "we counted towers, eight and *vigniti* above a hundred."
 
 ## 0420A–0421A — vernacular quotations
 

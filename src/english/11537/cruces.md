@@ -1,10 +1,14 @@
 # Cruces — 11537, Richard of St Victor, *De gemino paschate* (PL 196)
 
-Garbled, doubtful, or impossible readings in Migne's plate, logged here. Where
-the printed reading is intelligible as it stands it has been rendered literally;
-where it is a pure orthographic or compositorial slip that yields no Latin at
-all, the intended reading has been rendered and the printed form recorded here
-(the convention followed in `src/english/10103/cruces.md`). Note contents
+Garbled, doubtful, or impossible readings in Migne's plate, logged here. The
+English renders **what the plate prints**, per `translation-style.md` **Pattern
+7**: a printed reading that is construable is rendered literally even where it is
+odd or says the opposite of what the argument requires, and type that is not a
+word at all is carried into the English untranslated, in italics. The conjectured
+reading is recorded here and only here; it is never applied to the running text.
+(This replaces the earlier `src/english/10103/cruces.md` convention of rendering
+"the intended reading," under which parts of this work were first translated;
+those places were re-rendered from the plate on 2026-07-28.) Note contents
 (`[n: …]`) and bare parenthetical citations always pass through verbatim and
 untranslated, so citation errors are flagged here only.
 
@@ -28,8 +32,11 @@ untranslated, so citation errors are flagged here only.
 
 ## Chunk 0000 (Palm Sunday sermon)
 
-- **col. 1059B** — `Vinae florentes odorem dederunt` for *Vineae* (Cant. 2:13);
-  rendered per the intended reading, "the flowering vines."
+- **col. 1059B** — `Vinae florentes odorem dederunt` (Cant. 2:13). *Vinae* is not
+  a Latin word; the intended reading is *Vineae* ("vines"), which the Vulgate has.
+  Carried through untranslated per Pattern 7: "the flowering Vinae have given
+  their odor." (The clause sits inside an italicized scripture quotation, so the
+  carried form takes no further italic marker.)
 
 - **col. 1060A** — `(Num. [1060A] XXIII)` — a bare parenthetical citation, not
   an `[n: …]` note, with a column anchor falling inside it. Both kept exactly as
@@ -49,18 +56,25 @@ untranslated, so citation errors are flagged here only.
   ex operum ejus recordatione, vel imitatione processit.` The sentence is broken:
   no punctuation after *praecessit*, a subjunctive *sit* where *fit* is required,
   and *processit* apparently duplicating *praecessit*. Rendered as literally as
-  the printed words allow; a human read-through may want an apparatus note.
+  the printed words allow, *sit* included: "which generally may be out of the
+  remembrance or the imitation of his works, proceeded." (An earlier draft
+  rendered *sit* as *fit*, "which arises generally out of…"; corrected 2026-07-28
+  under Pattern 7.) A human read-through may want an apparatus note.
 
 - **col. 1061C** — `Servate, fratres, unitatem **fidei** in vinculo pacis` for
   Eph. 4:3, *unitatem Spiritus*. Rendered as printed, "the unity of faith."
 
-- **col. 1061C** — `Denique **quintum** in nobis est, habeamus pacem cum omnibus`
-  — *quintum* ("fifth") is impossible; read *quantum* ("as far as in us lies,"
-  cf. Rom. 12:18). Rendered per the intended reading.
+- **col. 1061C** — `Denique **quintum** in nobis est, habeamus pacem cum omnibus`.
+  *quintum* is a real word ("fifth") and is rendered as printed — "a fifth thing
+  is in us" — though nothing in the sermon numbers a fifth of anything. The
+  intended reading is certainly *quantum* ("as far as in us lies," cf. Rom.
+  12:18), which the following *habeamus pacem cum omnibus* echoes verbatim.
 
-- **col. 1062A** — `illos **perfecit** electio humana` — read *praefecit* ("set
-  them over"), which the parallel *istos extulit ordinatio divina* requires.
-  Rendered per the intended reading.
+- **col. 1062A** — `illos **perfecit** electio humana`. Rendered as printed,
+  "Human election perfected the former." The intended reading is *praefecit*
+  ("set them over"): the parallel member is *istos extulit ordinatio divina*, and
+  the surrounding argument is about who is set over whom, not about perfection —
+  which human election conspicuously does not confer.
 
 - **col. 1062B** — `Nam et **ὄλεον** apud Graecos *misericordiam* sonat`. The
   Greek for "mercy" is ἔλεος; Migne prints ὄλεον (assimilated to *oleum*, which
@@ -71,21 +85,28 @@ untranslated, so citation errors are flagged here only.
 
 - **col. 1063C–D** — `Sed si **non** oculis hominum se humiliare vel
   contemptibile apparere erubescit, matrem quidem praesentem habet, sed usque
-  adhuc pulli praesentia caruit.` With *non* the sentence asserts the opposite of
-  its own conclusion (and of the next sentence, *Si te exterius humilias, sed
-  magnum aliquid de te existimas, pullum habes, sed matrem non habes*). The *non*
-  is intrusive. Rendered without it, per the intended reading.
+  adhuc pulli praesentia caruit.` **Rendered as printed, *non* and all**: "But if
+  he does not blush to humble himself before the eyes of men…" — which asserts
+  the opposite of the sentence's own conclusion, since the man who does not blush
+  to be humbled is precisely the one who *has* the colt. The *non* is intrusive
+  and the intended reading omits it; the evidence is the next sentence, *Si te
+  exterius humilias, sed magnum aliquid de te existimas, pullum habes, sed matrem
+  non habes*, which sets up the reverse case.
 
 - **col. 1063D** — `Alioquin si te ficte humilias, et fraudulenter incedis,
-  **eum**, secundum prophetae sententiam…` *eum* is unconstruable; read *tum*
-  ("then"). Rendered per the intended reading.
+  **eum**, secundum prophetae sententiam…` *eum* is a word (accusative "him") but
+  has no construction here — the apodosis is a scripture quotation with no verb to
+  govern it. Rendered as printed, "him," which leaves the English as stranded as
+  the Latin. The intended reading is *tum* ("then"), a single-letter slip.
 
 - **col. 1063D–1064A** — `Constat namque quia inter pares maxime nasci solet
   invidia, et ex invidia discordia?` Migne closes a statement with a question
   mark. Reproduced as printed.
 
-- **col. 1064B** — `**humilationis** suae materiam` for *humiliationis* (dropped
-  syllable). Rendered per the intended reading.
+- **col. 1064B** — `**humilationis** suae materiam`. *humilationis* is not a
+  word (a dropped syllable in *humiliationis*, which the same paragraph prints
+  correctly). Carried through untranslated per Pattern 7: "the matter of their
+  *humilationis*."
 
 - **col. 1064C** — `(Job XXVII)` — bare parenthetical citation, not an `[n: …]`
   note; kept verbatim and untranslated. Likewise `(Rom. [1066A] V)` at 1066A,
@@ -94,8 +115,10 @@ untranslated, so citation errors are flagged here only.
 ## Chunk 0002 (Palm Sunday sermon, cont.)
 
 - **col. 1066B** — `libenter, ut arbitror, nos humiliamus, **sive** verae
-  humiliationis fructum attendimus` — read *si* ("if"). Rendered per the intended
-  reading.
+  humiliationis fructum attendimus`. Rendered as printed, "or if we consider the
+  fruit of true humiliation" — a disjunction the sentence has no second member
+  for. The intended reading is *si* ("if"): the clause states the condition on
+  which we humble ourselves gladly.
 
 - **col. 1067A, note** — `[n: (Matth. XI)]` on *Non veni mittere pacem in terram,
   sed gladium* = Matt. **10**:34. Verbatim; flagged.
@@ -105,8 +128,10 @@ untranslated, so citation errors are flagged here only.
   `(Joan. XIV)` a few lines earlier at 1066D. Verbatim; flagged.
 
 - **col. 1067B** — `**Quid** de secunda ad tertiam, secundum jam transitum
-  fecit` — read *Qui* (with a verb of passing understood): "He who [passes] from
-  the second to the third…". Rendered per the intended reading.
+  fecit`. Rendered as printed, "What from the second to the third, he has now made
+  the second passage…," which is not a sentence. The intended reading is *Qui*
+  (with a verb of passing understood), matching the three preceding sentences,
+  each of which opens *Qui…*.
 
 - **col. 1067B** — `Ecce de floribus, ecce de fructibus **tentamus**: istos
   desideremus, illos, **ut in aeternum fuit**, mereamur`. Both italicized
@@ -124,14 +149,19 @@ untranslated, so citation errors are flagged here only.
   the *an* (Migne's second member is *de fontibus Salvatoris*). Rendered as
   printed.
 
-- **col. 1068A** — `non solum majoris vel **partis**, sed etiam inferioris` —
-  read *paris* ("an equal"), which the sequence greater / equal / inferior
-  requires. Rendered per the intended reading.
+- **col. 1068A** — `non solum majoris vel **partis**, sed etiam inferioris`.
+  *partis* is construable ("of a part") and is rendered as printed, "not only that
+  of a greater or of a part, but even of an inferior," which breaks the series.
+  The intended reading is *paris* ("an equal"): the greater / equal / inferior
+  triad is Richard's standing formula in this work (cf. 1061D, *alios superiores,
+  alios inferiores, alios autem pares*).
 
 - **col. 1069D** — `Unde sancti **jam** mortem timent, sed cupiunt dissolvi et
-  esse cum Christo.` A negative has dropped out: the sense (and *sed*) requires
-  *jam non timent*. Rendered per the intended reading, "now no longer fear
-  death."
+  esse cum Christo.` Rendered as printed: "Whence the saints now fear death, but
+  desire to be dissolved and to be with Christ" — the exact opposite of the
+  argument, which has just said that the Savior *homines a timore mortis eripuit*.
+  A negative has dropped out; the intended reading is *jam non timent*, which the
+  adversative *sed* and the whole preceding paragraph require.
 
 ## Chunk 0004 (Easter sermon, cont.)
 
@@ -154,20 +184,35 @@ untranslated, so citation errors are flagged here only.
   Verbatim; flagged.
 
 - **col. 1071D** — `psalterium vero sonat a superiori, et ideo **signifiat**
-  bonorum operum exhibitionem` for *significat*. Rendered per the intended
-  reading.
+  bonorum operum exhibitionem`. *signifiat* is not a word; the intended reading is
+  *significat*, which the immediately preceding parallel clause (*et ideo
+  significat vitiorum mortificationem*) prints correctly. Carried through
+  untranslated per Pattern 7: "and therefore *signifiat* the showing forth of good
+  works."
 
 - **col. 1072B** — `Reus peccati est aliquis, id est, **dignius** ut pro peccato
-  puniatur` for *dignus* (the parallel clause two lines later prints *dignus*
-  correctly). Rendered per the intended reading.
+  puniatur`. *dignius* is a real form (comparative, neuter/adverbial) and is
+  rendered as printed, "more deserving that he be punished for the sin," though
+  nothing here is being compared. The intended reading is *dignus*, which the
+  answering clause two lines later prints correctly (*dignus ut caput
+  amittat*).
 
 - **col. 1072C** — `**Iste** igitur tres auctoritates … intelligendae sunt` for
-  *Istae* (feminine plural, agreeing with *auctoritates*). Rendered per the
-  intended reading.
+  *Istae* (feminine plural, agreeing with *auctoritates*; the participle
+  *intelligendae* is feminine, so the slip is confined to the demonstrative).
+  **Not an emendation in the English**: the demonstrative has no gender exponent
+  in English, so "These three authorities" renders *Iste* and *Istae* alike.
+  Logged for the Latin record only.
 
 - **col. 1072D** — `Panis azymus absque fermento est, **si gignat**
-  sinceritatem` — read *significat*, which the parallel next sentence (*designat
-  veritatem*) requires. Rendered per the intended reading.
+  sinceritatem`. *si gignat* is construable ("if it begets") and is rendered as
+  printed: "Unleavened bread is without leaven, if it begets sincerity." The
+  intended reading is *significat*, wrongly divided by the compositor — the
+  answering sentence (*Per hoc autem quod est solidus, designat veritatem*) has
+  the same shape, and the bread signifies rather than begets.
 
-- **col. 1072D** — `Sinceritas **partim** ad citharam, veritas ad psalterium` —
-  read *pertinet*. Rendered per the intended reading.
+- **col. 1072D** — `Sinceritas **partim** ad citharam, veritas ad psalterium`.
+  *partim* ("partly") is a real word and is rendered as printed, "Sincerity partly
+  to the cithara, truth to the psaltery," leaving the sentence without a verb. The
+  intended reading is *pertinet* ("pertains"), which the parallel member
+  (*veritas ad psalterium*, verb understood) supplies.

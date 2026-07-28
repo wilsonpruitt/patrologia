@@ -1,12 +1,24 @@
 # Cruces — 10103, Peter Damian, *De picturis principum apostolorum* (PL 145)
 
-Garbled or doubtful type in Migne's plate, rendered literally per the intended
-reading and logged here.
+Garbled or doubtful type in Migne's plate, logged here. **Governed by
+`translation-style.md` Pattern 7:** the English renders what the plate PRINTS,
+not what it ought to have printed; where the plate prints type that is not a word
+at all, the non-word is carried into the English untranslated, in italics.
+Conjecture lives in this file and never in the running text.
+
+*Precedent withdrawn (2026-07-28).* An earlier version of this preamble read
+"rendered literally per the intended reading," and this work's entries claimed to
+have applied the conjectures below to the English. That precedent — set here and
+followed by several later works — is superseded by Pattern 7. The English has
+been brought back to the printed readings; the entries now record the conjectures
+instead of asserting them.
 
 - **col. 0589B (chunk 0000), head** — `DE PICTURIS PRINCIPUM APOSTLORUM.` The
-  head as printed reads *APOSTLORUM* for *APOSTOLORUM* (dropped **O**). The
-  Latin head is preserved verbatim in `heads:`; the English head is translated
-  from the intended reading, "ON THE PAINTINGS OF THE CHIEF APOSTLES."
+  head as printed reads *APOSTLORUM* for *APOSTOLORUM* (dropped **O**), a
+  compositor's slip in display capitals with no competing construal. The Latin
+  head is preserved verbatim in `heads:`; the English head renders the title,
+  "ON THE PAINTINGS OF THE CHIEF APOSTLES," and the printed defect is recorded
+  here rather than carried into an English head.
 
 - **col. 0589B (chunk 0000)** — `sanctae conversionis [conversationis] abbati`.
   Migne prints the variant in square brackets in the text. *conversatio* (monastic
@@ -26,12 +38,20 @@ reading and logged here.
   real locus.
 
 - **col. 0593C (chunk 0001)** — `remotis clientium clastibus`. *clastibus* is
-  not a Latin word; the intended reading is *classibus* ("the throngs/companies
-  of dependents being removed") or possibly *catervis*. Rendered per the intended
-  reading, "the crowds of dependents being removed."
+  not a Latin word, so there is nothing to render; per Pattern 7's non-word
+  ruling it is **carried through untranslated in italics** — "the *clastibus* of
+  dependents being removed." The reading intended is almost certainly *classibus*
+  ("the throngs/companies of dependents"), the ablative of an ablative absolute
+  with *remotis*; *catervis* is a distant second. Evidence: *cl-* is preserved,
+  the sense demands a plural body of retainers, and *classis* in the sense
+  "company, division" is at home in this register. (Earlier the English read "the
+  crowds of dependents being removed," i.e. the conjecture applied silently.)
 
-- **col. 0595B (chunk 0002), Scholia** — `illum tantum bonorem` for *honorem*
-  (dropped **h**). Rendered per the intended reading, "that great honor."
+- **col. 0595B (chunk 0002), Scholia** — `illum tantum bonorem`. *bonorem* is not
+  a Latin word; **carried through untranslated in italics** — "that great
+  *bonorem*." The intended reading is *honorem* (dropped **h**), near-certain: the
+  Leo quotation two lines later has *in similitudine honoris* on the same point.
+  (Earlier the English read "that great honor.")
 
 - **col. 0595B (chunk 0002), Scholia** — punctuation is broken around the 2 Cor.
   XI quotation: Migne opens `« verum est quod idem affirmat: (Instantia mea

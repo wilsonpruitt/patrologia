@@ -13,10 +13,13 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
   one relates his own dreams"). Rendered literally as "their five dreams."
 
 - **col. 0846D (chunk 0000)** — `jam non solum secundum morituram, sed exortam
-  quoque a se sapientiam putant`. The allusion is Job XII, 2 (*vobiscum
-  morietur sapientia*), so *secundum* stands for *secum*. Rendered from the
-  sense ("will die with them"); the printed *secundum* is not emended in the
-  Latin.
+  quoque a se sapientiam putant`. *secundum* is a real word (the preposition
+  "according to"), so it is rendered as printed: "they now think that wisdom not
+  only will die **according to** them, but has also arisen from them" — where it
+  is left with no object, as in the Latin. The intended reading is *secum*
+  ("with them"), since the allusion is Job XII, 2, *vobiscum morietur sapientia*.
+  An earlier draft rendered the conjecture; that has been withdrawn. Not emended
+  in the Latin either.
 
 - **col. 0847A (chunk 0000)** — `In nobis quippe quod de rerum cognitione
   percipimus, et eo modo, cordis intellectus de iis quae extra sunt ad veritatem
@@ -39,7 +42,10 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
   literally, "Where there is no 'how much,' what can be said to be 'so much'?"
 
 - **col. 0848B (chunk 0001)** — `Nullus tamen sine sapentia sapiens esse potest`.
-  *sapentia* for *sapientia*. The English renders the intended word.
+  *sapentia* is not a word — dropped *i* for *sapientia*, which the same
+  sentence prints correctly twice in the two clauses immediately before it. Per
+  Pattern 7 the non-word is carried into the English untranslated and in
+  italics: "Yet no one can be wise without *sapentia*."
 
 - **col. 0849A (chunk 0001)** — `Lux lucet, et per se sciamus quod per se lucet`
   and, two lines later, `Nam ut erat, inquit, lux vera`. Both are suspect
@@ -60,11 +66,21 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
   literally; the incoherence is Migne's.
 
 - **col. 0854A (chunk 0003)** — `Sicut non potest creatura aequali Creatori`.
-  *aequali* for the infinitive *aequari*. Rendered from the intended reading
-  ("cannot be made equal to").
+  **Printed:** *aequali*, a real word (dat./abl. sg. of *aequalis*, "equal"),
+  agreeing as printed with *Creatori*. It is therefore rendered as printed — "As
+  a creature cannot to an equal Creator, so neither the good of the one to the
+  good of the other" — which leaves *potest* without an infinitive and the
+  clause unconstruable. The intended reading is the passive infinitive *aequari*
+  ("cannot be made equal to the Creator"), which supplies the missing infinitive
+  and matches the comparison the argument is drawing; the English's gapped first
+  clause now mirrors the gapped second clause of the printed Latin. An earlier
+  draft rendered the conjecture; that has been withdrawn.
 
 - **col. 0855A (chunk 0003)** — `et quae termimum habet immensitatem`.
-  *termimum* for *terminum*. English renders the intended word.
+  *termimum* is not a word — foul-case *m* for *n* in *terminum* ("an end"),
+  which the antithesis with *immensitatem* requires. Per Pattern 7 the non-word
+  is carried into the English untranslated and in italics: "and — which has
+  *termimum* — immensity."
 
 - **col. 0855A (chunk 0003)** — `Quibus verbis (fere) adjungendum esse putatis`.
   The parenthetical *(fere)* is Migne's, sitting oddly mid-clause; kept in the
@@ -72,8 +88,10 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
 
 - **col. 0856B (chunk 0003)** — `Noluit igitur ille unionem solvere, ne nos
   praesumatur unitati comparare.` The impersonal passive *praesumatur* with an
-  accusative-and-infinitive is irregular (expected *praesumamus*). Rendered "lest
-  anyone presume to compare us to that unity."
+  accusative-and-infinitive is irregular (expected the active *praesumamus*).
+  Rendered as printed, passive and impersonal: "lest **it be presumed** to compare
+  us to that unity." An earlier draft turned the passive into an active with a
+  supplied subject ("lest anyone presume"); that smoothing has been withdrawn.
 
 - **col. 0856D (chunk 0003)** — `Hoc credenti qui non credit, non bene credit.`
   The dative *credenti* forces "he who does not believe one who believes this,"

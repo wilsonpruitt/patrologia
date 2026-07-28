@@ -1,11 +1,16 @@
 # Cruces — 11534, Richard of St Victor, *De differentia sacrificii Abrahae a sacrificio B. Mariae Virginis* (PL 196)
 
-Garbled, doubtful, or impossible readings in Migne's plate, logged here. Where
-the printed reading is intelligible as it stands it has been rendered literally;
-where it is a pure orthographic slip that yields no Latin at all, the intended
-reading has been rendered and the printed form recorded here (the convention
-followed in `src/english/10103/cruces.md`). Note contents (`[n: …]`) always pass
-through verbatim and untranslated, so citation errors are flagged here only.
+Garbled, doubtful, or impossible readings in Migne's plate, logged here. The
+English renders **what the plate prints**, per `translation-style.md` **Pattern
+7**: a printed reading that is construable is rendered literally even where it is
+odd or says the opposite of what the argument requires, and type that is not a
+word at all is carried into the English untranslated, in italics. The conjectured
+reading is recorded here and only here; it is never applied to the running text.
+(This replaces the earlier `src/english/10103/cruces.md` convention of rendering
+"the intended reading," under which parts of this work were first translated;
+those places were re-rendered from the plate on 2026-07-28.) Note contents
+(`[n: …]`) always pass through verbatim and untranslated, so citation errors are
+flagged here only.
 
 - **col. 1046B (chunk 0000)** — `quid aliud in Dei auribus quam mors pullorum
   de nido turturum clamitat?` The parallel sentence immediately following reads
@@ -16,17 +21,24 @@ through verbatim and untranslated, so citation errors are flagged here only.
   parallel demands is "the manner of nestlings."
 
 - **col. 1047A (chunk 0001)** — `non patietur nos tentari supra id quod possumus
-  **ferro**`. *ferro* ("with iron/the sword") is impossible here; the reading is
-  *ferre* ("to bear"), as I Cor. 10:13 requires. Rendered per the intended
-  reading, "above that which we are able to bear."
+  **ferro**`. *ferro* is construable — the ablative of *ferrum*, "with iron" / "with
+  the sword" — and is so rendered: "above that which we are able with iron." The
+  intended reading is *ferre* ("to bear"), the complementary infinitive I Cor.
+  10:13 requires and which the rest of the quotation (*ut possimus sustinere*)
+  echoes; nothing in the context concerns iron or the sword.
 
 - **col. 1046D (chunk 0001)** — `saepe **non novelli** eorum qui ejusmodi sunt`.
-  Almost certainly *nonnulli* ("some") wrongly divided into *non novelli*.
-  Rendered per the intended reading, "some of those who are of this sort."
+  Both printed words are Latin, so the phrase is rendered as printed: "not the
+  young ones of those who are of this sort," which negates the subject and leaves
+  the sentence saying nearly the reverse of what follows. The intended reading is
+  *nonnulli* ("some"), wrongly divided and misspelled by the compositor; the same
+  paragraph twice uses *nonnullius* (*nonnullius impatientiae*, *nonnullius
+  diffidentiae*), so the word is live in the immediate context.
 
 - **col. 1047B (chunk 0001)** — `illud pertinet ad par turturum, istud ad pullos
-  **corum**` for *eorum* (dropped **e**); the very next sentence prints *eorum*
-  correctly. Rendered per the intended reading, "their young."
+  **corum**`. *corum* is not a word (a dropped **e** in *eorum*, which the very
+  next sentence prints correctly). Carried through untranslated per Pattern 7:
+  "the latter to the young of *corum*."
 
 - **col. 1046D–1047A (chunk 0001)** — `…ultra modum trepidare Certum namque…`
   Migne prints no full stop after *trepidare*; sentence division supplied in the
@@ -91,8 +103,11 @@ through verbatim and untranslated, so citation errors are flagged here only.
   where a nominative is required. Rendered literally as printed.
 
 - **col. 1055A (chunk 0003)** — `et velut per speculum et in **aenigmat
-  evidere**` — the word division has slipped: read *in aenigmate videre*
-  (I Cor. 13:12). Rendered per the intended reading.
+  evidere**`. Neither printed form is a word: the division has slipped by one
+  letter from *in aenigmate videre* (I Cor. 13:12), which the answering clause
+  (*veritatem absque involucro, et quasi facie ad faciem videre*) confirms. Both
+  are carried through untranslated per Pattern 7: "and to *evidere* them as
+  through a mirror and in *aenigmat*."
 
 - **col. 1055A (chunk 0003)** — `a mundanis **insuper mundana** transiens`;
   read probably *ad supermundana* ("passing from worldly things to things above
@@ -100,14 +115,19 @@ through verbatim and untranslated, so citation errors are flagged here only.
   and above worldly things").
 
 - **col. 1055C (chunk 0003)** — `sed paulatim **invalescere** prava consuetudine
-  ad hoc usque perducitur` — an infinitive where an ablative absolute
-  (*invalescente prava consuetudine*) is required. Rendered per the intended
-  construction.
+  ad hoc usque perducitur`. *invalescere* is a real infinitive and is rendered as
+  printed, stranded: "but gradually it is brought, to grow strong by depraved
+  custom, so far that it ceases to kick against its exactors." The intended
+  reading is the ablative absolute *invalescente prava consuetudine* ("as depraved
+  custom grows strong"), which the ablative *prava consuetudine* standing beside
+  it already presupposes.
 
 - **col. 1057B–C (chunk 0004)** — `et charitas … quantumcunque profecerit bene
-  **examinatus** diligenter **inspectus**` — masculine participles agreeing with
-  the feminine *charitas*. Rendered per the sense ("when well examined and
-  carefully inspected").
+  **examinatus** diligenter **inspectus**` — masculine participles where the
+  feminine *charitas* requires *examinata*, *inspecta*. **Not an emendation in the
+  English**: participles carry no gender exponent in English, so "when well
+  examined and carefully inspected" renders the printed masculine and the expected
+  feminine alike. Logged for the Latin record only.
 
 - **col. 1056A (chunk 0004)** — `Jucunditas [securitas] securae conscientiae`.
   Migne prints the variant in square brackets inside the text. Passed through

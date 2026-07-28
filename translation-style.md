@@ -275,3 +275,50 @@ The page will occasionally look strange. That is the intended cost: a reader who
 meets *bonorem* in italics learns something true about Migne's plate, and the
 conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
 no exceptions.
+
+### 8. Punctuation follows the plate too — preserve, never supply, never delete
+
+**Wilson, 2026-07-28.** Pattern 7's worked examples are all word-level, which left
+punctuation as a second silent-correction channel. It is closed: **the printed
+marks are carried through exactly as the printed words are.**
+
+- **Preserve** what Migne prints, however wrong: a `!` closing a question (11537
+  col. 1060C), a `?` closing a statement (11537 1063D–1064A), a full stop breaking
+  a conditional in the middle of a scripture quotation (11534 1050D).
+- **Never supply** a mark the plate lacks — including a terminal stop. A sentence
+  that simply stops (11542 col. 1036D) stops in the English too.
+- **Never delete** a mark the plate prints. This was the live defect: 11542
+  col. 1041D (`juxta superiorem modum. quaeritur cur…`) and 11436 col. 0349A had
+  been silently merged into single sentences.
+
+Migne's punctuation is his 19th-century editors' work, not the medieval author's —
+that is an argument for recording it faithfully, not for feeling free to improve
+it. Where a printed mark makes the English genuinely unreadable, render it as
+printed and log a crux; do not adjudicate in the text.
+
+### 9. What is NOT a Pattern 7 defect
+
+Two classes look like corruptions and are not. Both were being "fixed" by agents.
+
+**Attested medieval spellings are correct Latin** (Wilson, 2026-07-28). The test is
+whether the form is attested in medieval Latin lexica, not whether it is classical.
+*aquiescas* for *acquiescas* (8195 col. 1248C) and 7508's Merovingian orthography
+are conventions of their period: translate them normally, no italics, no crux.
+Carrying every non-classical spelling through would italicize a large share of the
+corpus and bury the real defects in noise. Reserve carry-through for forms unique
+to this plate.
+
+**Latin grammatical gender has no English exponent.** A gender mismatch (9436 col.
+0899A *vocati*/*sacri*; 8715 col. 1170B *manum meum*; 11436 col. 0351B *futurus*)
+cannot be rendered either way in English — participles, adjectives and possessives
+carry no gender. There is no emendation to undo and none to make. Log it as a
+crux, leave the English alone, and mark the entry so a later sweep does not churn
+it.
+
+**Section labels normalize in English** (Wilson, 2026-07-28). 11066 prints its
+label four ways (`QUAESTIP`, `QUESTIO`, `QAEESTIO`, `QUAESTIO.`); the English head
+reads QUESTION throughout. The English head translates a structural label and
+there is no English exponent for a Latin typo — and the Latin side of the parallel
+page preserves the misprint verbatim, so nothing is concealed from the reader.
+This is the one place normalization is right, and it is right *because* the defect
+stays visible in the facing column.

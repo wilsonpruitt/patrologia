@@ -1,17 +1,24 @@
 # Cruces — 11436, *Vita et passio S. Thomae Cantuariensis* (PL 190)
 
-Garbled or doubtful type in Migne's plate, rendered literally per the intended
-reading and logged here.
+Garbled or doubtful type in Migne's plate, logged here. The English renders
+**what the plate prints**, per `translation-style.md` **Pattern 7**: a printed
+reading that is construable is rendered literally even where it is odd or says
+the opposite of what the argument requires, and type that is not a word at all is
+carried into the English untranslated, in italics. The conjectured reading is
+recorded here and only here; it is never applied to the running text. (Parts of
+this work were first translated under the withdrawn "intended reading" convention
+of `src/english/10103/cruces.md`; those places were re-rendered from the plate on
+2026-07-28.)
 
 ## Prologue and chap. I (chunk 0000)
 
 - **col. 0345C** — `brevitate competenti studuimus consulere deficatis`.
-  *deficatis* is not a Latin word. The sense of the sentence (brevity for one
-  class of reader, *veritas plena* for the *studiosi*) requires a dative plural
-  naming the impatient reader: *delicatis* ("the fastidious") is the likeliest
-  reading, *fatigatis* / *defessis* ("the weary") possible. Rendered per the
-  likeliest intended reading, "for those who are fastidious"; the parallel at
-  0346A (*taediosis tollat fastidium*) supports it.
+  *deficatis* is not a Latin word. Carried through untranslated per Pattern 7:
+  "with fitting brevity for the *deficatis*." The sense of the sentence (brevity
+  for one class of reader, *veritas plena* for the *studiosi*) requires a dative
+  plural naming the impatient reader: *delicatis* ("the fastidious") is the
+  likeliest intended reading, supported by the parallel at 0346A (*taediosis
+  tollat fastidium*); *fatigatis* / *defessis* ("the weary") are possible.
 
 - **cols. 0345A, 0346A–B** — this text is a *quadrilogus* whose editor prints only
   the incipit and explicit of passages he takes over verbatim from Edward Grim
@@ -31,12 +38,18 @@ reading and logged here.
   *Saracenorum*. Rendered literally as printed ("in the captivity of the
   Slavs") per the corrupt-Latin rule; flagged here rather than emended.
 
-- **col. 0347A** — `consequenter et ipsa ab eo scistitavit` — *scistitavit* for
-  *sciscitata est* / *sciscitavit*. Rendered per the intended reading.
+- **col. 0347A** — `consequenter et ipsa ab eo scistitavit`. *scistitavit* is not
+  a word (a dropped syllable in *sciscitavit*; the deponent *sciscitata est* is the
+  classical form). Carried through untranslated per Pattern 7: "she thereupon
+  *scistitavit* of him, saying."
 
-- **col. 0347B** — `quasi verbi ex virtute tota mutata`: the word order is
-  disturbed (*quasi ex virtute verbi*). Rendered per the intended reading, "as
-  it were wholly changed by the power of the word."
+- **col. 0347B** — `quasi verbi ex virtute tota mutata`. **Not an emendation, and
+  on review not a corruption either**: the genitive *verbi* standing before the
+  preposition that governs its head noun is ordinary Latin hyperbaton, not
+  disturbed type, and it construes exactly as *quasi ex virtute verbi*. The
+  English ("as it were wholly changed by the power of the word") is already the
+  literal rendering of what is printed; left as it stands. Logged only because an
+  earlier draft of this file wrongly listed it as an emendation.
 
 - **col. 0349A** — `Cumque interrogaretur … si vellet baptizari, respondit:` The
   sentence has a stray comma-for-period after *baptizari,* in the printed line
@@ -46,8 +59,10 @@ reading and logged here.
 
 ## Chaps. III–IV (chunk 0002)
 
-- **col. 0350D** — `didicit a matre timorem Dimini` for *Domini*. Rendered per
-  the intended reading, "the fear of the Lord."
+- **col. 0350D** — `didicit a matre timorem Dimini`. *Dimini* is not a word; the
+  intended reading is *Domini* ("of the Lord"), a single-letter compositorial slip
+  in a formula the work prints correctly elsewhere. Carried through untranslated
+  per Pattern 7: "he learned from his mother the fear of *Dimini*."
 
 - **col. 0351A** — `motam de flumine anam accipiter insequeretur`. *anam* is an
   unclassical accusative of *anas* (for *anatem*); the sense ("duck") is not in

@@ -1,7 +1,12 @@
 # Cruces — 11648, *Annales* (PL 204, cols 987–996)
 
-Verdun annals (Saint-Vanne). Corrupt or lacunose printed readings rendered
-literally per `translation-style.md`; nothing emended in the text.
+Verdun annals (Saint-Vanne). Corrupt or lacunose printed readings logged here.
+**Governed by `translation-style.md` Pattern 7:** the English renders what the plate
+PRINTS, never the conjectured reading; type that is not a word at all is carried into
+the English untranslated, in italics. Six entries below previously applied their
+conjecture to the running text (the withdrawn 10103 precedent) and have been restored
+to the printed readings; the rest already rendered the corruption literally and are
+unchanged.
 
 ## 0988C (s.a. 915)
 
@@ -30,8 +35,11 @@ resignation. Rendered literally, "is brought to an end by his own free will."
 
 **Printed:** `Obiit Arnoldus episcopus Virdunensis is sagitta in capite
 percussus`. The bare *is* is corrupt — most likely *ictu* (sagittae ictu) or a
-dittography of the preceding syllable. Rendered per the intended reading
-("struck by an arrow in the head") without the stray word.
+dittography of the preceding syllable. *is* is a Latin word (the pronoun), so it is
+**rendered as printed** — "Arnold, bishop of Verdun, died, he struck by an arrow in
+the head" — leaving the intrusive pronoun standing. Intended reading most likely
+*ictu* (*sagittae ictu*). (Earlier the stray word was dropped: "died, struck by an
+arrow in the head.")
 
 ## 0991D–0992A (s.a. 1197) — italic fragments
 
@@ -50,7 +58,9 @@ depositus *est reg* ia dignitate, et *sublimatus* est imperio Frede *ricus dux
 Ap* ulie.`
 The plate is damaged: dot-lacunae kept verbatim with the same dot counts, and
 the orphan letter-strings (`i`, `dis`) kept as printed rather than restored.
-*quid* is corrupt for *qui*, rendered "and … he". The mid-word italic breaks
+*quid* is corrupt for *qui*, but it is a Latin word and is **rendered as printed**,
+"what after he *was consecrated* …" — the dangling interrogative is Migne's.
+(Earlier: "and … he.") The mid-word italic breaks
 (`est int|erfectus`, `co|mes`, `conse|cratus`, `man|datis`, `pape im|perans`,
 `est reg|ia`, `Frede|ricus dux Ap|ulie`) are moved to sense-unit boundaries per
 the 1197 note.
@@ -97,28 +107,39 @@ word). Reproduced verbatim.
 
 ## 0994D (s.a. 1314, 1316)
 
-`imperarator` for *imperator*; `maximo mortalitas` for *maxima mortalitas*.
-Obvious compositor's slips, translated per the intended reading, not emended in
-any apparatus.
+`imperarator` for *imperator*: not a Latin word, so **carried through untranslated
+in italics** — "Henry of Luxembourg, *imperarator*, died." (Earlier: "emperor.")
+`maximo mortalitas` for *maxima mortalitas* is a concord slip in the ablative/
+nominative ending only; English marks no case, so there is nothing in the printed
+defect for the English to carry, and "a very great mortality of men" stands. Both are
+compositor's slips, not emended in any apparatus.
 
 ## 0995A (s.a. 1353)
 
 `Qui bona monasterii Marie dissipavit` — *Marie* is unexpected (the house is
 Saint-Vanne; possibly the Sainte-Marie church of the same annal, or a stray).
-Left as "the monastery of Mary." Closing sentence `Qui omnia parcat sibi Deus et
-indulgeat` is corrupt for *Quae omnia* — rendered per the intended reading,
-"All which may God spare him and forgive."
+Left as "the monastery of Mary." The closing sentence `Qui omnia parcat sibi Deus et
+indulgeat` prints masculine *Qui* where the sense wants neuter plural *Quae omnia*.
+*Qui* is a Latin word, so it is **rendered as printed**: "Who all things, may God
+spare him and forgive." Intended reading *Quae omnia*. (Earlier: "All which may God
+spare him and forgive.")
 
 ## 0996A (s.a. 1431)
 
 `cum suis verevis volturis et coopertura decenti` — *verevis* is not a Latin
 word; likely *vitreis* (glass windows) or a Romance form for window-frames.
-Left untranslated in italics; *volturis* taken as *volturae*, vaults.
+Left untranslated in italics. *volturis* is likewise **carried through untranslated
+in italics** — "with its *verevis*, its *volturis*, and a fitting covering." As
+printed it can only be the genitive singular of *vultur* ("of a vulture"), which the
+context excludes; the intended reading is a form of *voltura/volta*, "vaults."
+(Earlier it was rendered "its vaults," i.e. the conjecture applied silently.)
 
 ## 0995C (s.a. 1420)
 
-`episcopum Portunensem` — for *Portuensem* (Porto). Translated per the intended
-reading.
+`episcopum Portunensem` — for *Portuensem* (Porto). *Portunensem* is not a Latin
+word, so it is **carried through untranslated in italics**: "cardinal, bishop
+*Portunensem*, duke of Bar." Intended reading *Portuensem*, certain (Louis of Bar was
+cardinal-bishop of Porto). (Earlier: "bishop of Porto.")
 
 ## Chronology to check (not typographic)
 

@@ -1,7 +1,12 @@
 # Cruces — 11208, *Flores seu sententiae ex S. Bernardo*
 
-Garbled or corrupt printed readings, rendered literally in the English and logged here.
-Also records the one standing editorial decision taken for this work.
+Garbled or corrupt printed readings, logged here. **Governed by
+`translation-style.md` Pattern 7:** the English renders what the plate PRINTS, never
+the conjectured reading; type that is not a word at all is carried into the English
+untranslated, in italics. Three entries below previously applied their conjecture to
+the running text (the withdrawn 10103 precedent) and have been restored to the
+printed readings. Also records the one standing editorial decision taken for this
+work.
 
 ## Editorial decision (applies to both chunks)
 
@@ -22,16 +27,16 @@ applied to the locators as well.
 
 ## Chunk 0
 
-- **1198C** — *Parum est semel putasse … Nam. vitia idemtidem repullulant.* Two typographic slips in the gloss: *Nam.* with a stray point, and *idemtidem* for *identidem*. Translated with the intended reading. Note also that *putare* here is "to prune," not "to think" — the surrounding sentences about pruning cupidity fix the sense.
+- **1198C** — *Parum est semel putasse … Nam. vitia idemtidem repullulant.* Two typographic slips in the gloss: *Nam.* with a stray point, and *idemtidem* for *identidem*. *idemtidem* is not a Latin word, so it is **carried through untranslated in italics** — "*For the vices idemtidem sprout.*" Intended reading *identidem* ("again and again"), certain. (Earlier: "sprout again and again.") The stray point after *Nam.* is a printing artifact with no counterpart in English word order and is not reproduced. Note also that *putare* here is "to prune," not "to think" — the surrounding sentences about pruning cupidity fix the sense.
 - **1199B** — *Utinam relinquant nobis moderni Noe, unde a nobis possint operiri.* Compressed to the point of obscurity; the allusion is to Genesis 9:23 (the sons covering Noah's nakedness), and the sense wanted is that today's "Noahs" should leave us some covering for their shame. Rendered literally.
 - **1201B** — *Non est laus calami laudabilis pictura, sive scriptura.* Word order makes the subject ambiguous; rendered "A praiseworthy painting, or writing, is not the praise of the pen."
-- **1201D** — *mors in ollis earnium*. *earnium* is a misprint for *carnium* (cf. the fleshpots of Egypt, Exodus 16:3). Rendered with the intended reading ("the pots of flesh").
+- **1201D** — *mors in ollis earnium*. *earnium* is not a Latin word, so it is **carried through untranslated in italics** — "death is in the pots *earnium*." Intended reading *carnium*, near-certain (cf. the fleshpots of Egypt, Exodus 16:3, and *Nam peccata populi comedis* in the gloss). (Earlier: "the pots of flesh.")
 - **1197B–1202A** — The inline section numbers *1569*, *1570*, *1571*, *1572* are Migne's running numeration and are kept italic per the marker rule, never bare.
 
 ## Chunk 1
 
 - **1202D** — *Ambitio ambientium crux, omnes torquens omnibus placet.* Elliptical; *crux* stands in apposition without a verb. Rendered "Ambition, the cross of the ambitious, tormenting all, pleases all."
-- **1203B** — *Ille convenientior babitus*. *babitus* is a misprint for *habitus*. Rendered with the intended reading ("bearing").
+- **1203B** — *Ille convenientior babitus*. *babitus* is not a Latin word (b for h), so it is **carried through untranslated in italics** — "That *babitus* is more fitting." Intended reading *habitus* ("bearing"), certain from the following *si actu … severus sis*. (Earlier: "That bearing is more fitting.")
 - **1203A** — *Hippocrates docet animas salvas facere in hoc mundo, Christus perdere.* *animas* is being used in the double sense "lives/souls" that the antithesis with Matthew 16:25 depends on. Rendered "souls" to keep the antithesis; a human may prefer "lives."
 - **1203C → 1204A** — Anchor sequence gap: column 1203D is not marked, the text running from [1203C] straight to [1204A]. Reproduced as printed; worth a check against the plate for dropped sentences, since this is a list where a dropped item would leave no syntactic trace.
 - **1204B** — *In circuitu impii ambulant* echoes Psalm 11:9 (Vulg.); translated from the Latin as printed, not from a conventional English version.

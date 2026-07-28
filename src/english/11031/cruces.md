@@ -1,7 +1,12 @@
 # Cruces — 11031, Petrus diaconus, *Epistolae* (PL 173)
 
-Garbled or doubtful type in Migne's plate, rendered literally per the intended
-reading and logged here.
+Garbled or doubtful type in Migne's plate, logged here. **Governed by
+`translation-style.md` Pattern 7:** the English renders what the plate PRINTS,
+never the conjectured reading; type that is not a word at all is carried into the
+English untranslated, in italics. Four entries below previously claimed to have
+applied their conjecture to the running text (the withdrawn 10103 precedent);
+the English has been restored to the printed readings and the entries now record
+the conjectures instead.
 
 ## Epistle I (chunk 0000)
 
@@ -14,13 +19,24 @@ reading and logged here.
 
 - **col. 1138C** — `nec autem summam rupit, sed pectus, fateor, et viscera ipsa
   divisit`. The noun governed by *summam* has dropped out; the source phrase
-  (Seneca, *Ad Polybium*) reads *summam cutem*, "the outermost skin." Rendered
-  per the intended reading, "it did not break the surface."
+  (Seneca, *Ad Polybium*) reads *summam cutem*, "the outermost skin," which is
+  near-certainly what the plate has lost. As printed, *summam* is still
+  construable as a substantive ("the sum, the whole"), so it is **rendered
+  literally** — "it did not break the sum" — and the conjecture *summam [cutem]*
+  is recorded here. (Earlier the English read "it did not break the surface,"
+  i.e. the conjecture applied silently.)
 
 - **col. 1138C** — `quemadmodum tirones leviter sauciati, tamen vociferantur, ut
   veterani quamvis confossi patienter ... curari se patiuntur`. Printed *ut*
   where the antithesis requires *at* ("whereas"); as printed the sentence has no
-  main clause structure. Rendered per the intended reading with "whereas."
+  main clause, since both limbs become subordinate comparatives. *ut* is a Latin
+  word and construable with the indicative *patiuntur*, so it is **rendered as
+  printed** — "but just as raw recruits … cry out, as veterans … suffer
+  themselves to be treated patiently" — and the resulting suspended syntax is
+  Migne's, not ours. Evidence for *at*: the Senecan source antithesis
+  (*tirones … at veteres*) and the sense, which needs the veterans opposed to the
+  recruits, not likened to them. (Earlier the English read "but whereas raw
+  recruits … veterans … suffer," i.e. *at* silently substituted.)
 
 - **col. 1138D** — the 1 Thess. 4:14 quotation (*Si enim credimus quod Jesus
   mortuus est et resurrexit…*) is set in italics but carries **no** `[n: …]`
@@ -33,7 +49,11 @@ reading and logged here.
 
 - **col. 1141A** — `Posquam` for *Postquam* (dropped **t**), in the first of the
   five parallel *postquam* clauses; the remaining four are spelled correctly.
-  Rendered per the intended reading.
+  *Posquam* is not a Latin word, so per Pattern 7's non-word ruling it is
+  **carried through untranslated in italics** — "For *Posquam* he had made our
+  littleness a disciple of Bertulf the chancellor; after he had rewarded me…" The
+  intended reading is *postquam*, certain from the four parallel clauses that
+  follow. (Earlier the English read "For after he had made…")
 
 ## Epistle III (chunk 0002)
 
@@ -53,11 +73,16 @@ reading and logged here.
   the plural verbs stand as "may perceive … may rejoice."
 
 - **col. 1142C** — `Nunquam tantum vobis opos alicujus placeant`. *opos* is not
-  Latin; the plural verb *placeant* requires *opes* ("wealth, resources").
-  Rendered per the intended reading, "Let no man's wealth ever so please you."
+  Latin, so there is nothing to render; **carried through untranslated in
+  italics** — "Let no man's *opos* ever so please you." The intended reading is
+  *opes* ("wealth, resources"): the plural verb *placeant* demands a plural
+  subject, and the following clause opposes wealth to justice. (Earlier the
+  English read "Let no man's wealth ever so please you.")
 
-- **col. 1142D** — `omnipontentis` for *omnipotentis*. Rendered per the intended
-  reading.
+- **col. 1142D** — `omnipontentis`, not a Latin word; **carried through
+  untranslated in italics** — "the grace of *omnipontentis* God." The intended
+  reading is *omnipotentis*, certain: the same phrase is spelled correctly
+  elsewhere in this letter. (Earlier the English read "of almighty God.")
 
 - **cols. 1143A → 1144A** — the column sequence skips from 1143A straight to
   1144A; there are no 1143B–D anchors in the TEI, and the sentence runs across
