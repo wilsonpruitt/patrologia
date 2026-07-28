@@ -231,3 +231,40 @@ work. Tracked in `next-session-resume.md`.
 figure came from a scan comparing the Latin's whole FILE against the English
 BODY — and Latin frontmatter carries guillemets in its `incipit:` field, which
 inflated every Latin count. Compare body to body.
+
+### 7. Render the printed Latin literally — the hardest rule
+
+**Wilson, 2026-07-28: "render Latin literally. that is the hardest rule of all."**
+This **supersedes** the precedent set in `src/english/10103/cruces.md` and followed
+by several later works, which rendered "the intended reading" wherever a printed
+form looked like a slip. That precedent is withdrawn.
+
+The rule: **the English renders what Migne's plate prints, not what it ought to
+have printed.** This holds even when the printed reading is odd, ungrammatical,
+or says the opposite of what the argument requires. Conjecture belongs in
+`cruces.md`, never in the running text.
+
+Why it is the hardest rule and not merely a strict one: the corruptions are
+frequently the most interesting thing on the page, and every silent correction
+destroys evidence a later scholar cannot recover from our English. A dropped
+negative that makes Richard of St Victor assert the opposite of his own argument
+(11534 col. 1054A; 11537 col. 1069D) is exactly the kind of thing an edition
+exists to expose. Emending it produces smooth prose and a worthless witness. The
+same logic already governs scripture (translate Migne's quoted wording, never a
+conventional version) and citations (`refDisplay` keeps the printed reference
+while `refKey` resolves the true one) — this pattern simply says the principle
+has no exception for the body text.
+
+What to do instead, always:
+1. Render the printed reading as literally as it can be put into English.
+2. Log the crux: column, printed form, the reading you believe was intended, and
+   the evidence for it.
+3. Never silently smooth. If a sentence is unconstruable, say so in the crux and
+   render it as closely as the printed words allow.
+
+**Open carve-out (Wilson's ruling owed):** type that is not a word at all —
+`bonorem` for *honorem*, `clastibus` for *classibus*, `vul` for *vult*,
+`Canetenim` for *canet enim*. These cannot be "rendered literally" because there
+is nothing to render; the options are the obvious intended word, or carrying the
+printed non-word into the English untranslated in italics with a crux. Until this
+is ruled, do NOT extend the pattern-7 sweep to this class.
