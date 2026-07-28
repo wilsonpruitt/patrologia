@@ -384,3 +384,65 @@ is unambiguously ours and already understood by the pipeline.
 cannot currently tell Migne's brackets from our supplied words. Not urgent, but
 it is the same "reader must tell plate from edition" principle that Patterns 6
 and 7 exist to serve.)*
+
+### 12. Carried type is marked `[sic: …]` — the defect is Migne's, say so
+
+**Wilson, 2026-07-28: "put notes for defects that aren't ours, like sic."**
+
+Pattern 7 settled *what* to do with broken type: carry it through untranslated,
+in italics. It did not settle how the reader is meant to know. And italic Latin
+in the English already means something else entirely — a technical term with no
+clean English equivalent, deliberately left in Latin (*precaria*, *emphyteusis*,
+*archisterium*, register section above). So the page gives one signal for two
+opposite situations:
+
+- *precaria* — correct Latin, our editorial choice, nothing wrong with it;
+- *bonorem* — Migne's broken type, carried because there is nothing to render.
+
+A reader meeting either one sees the same italics and cannot tell an editorial
+decision from a printer's error. That is the exact failure Pattern 6 was written
+to prevent for quotation marks and Pattern 11 for dittography; this closes it for
+carried type.
+
+**The rule:** type carried through under Pattern 7 or Pattern 10 is wrapped in a
+`[sic: …]` marker.
+
+`that great [sic: *bonorem*]` · `the [sic: *ur sam*] which came` · `[sic: *Ad dam*]`
+
+- The marker wraps **only** the carried run — the whole broken run per Pattern 10,
+  including a fragment that is a real word (`Ad` stays inside `Ad dam`).
+- It renders as the words themselves under a wavy gilt rule, with the tooltip
+  *"As Migne's plate prints it — see the notes on this work"* (`.sic`). The words
+  are **not** dimmed, bracketed, shrunk, or set as apparatus. Only their
+  **provenance** is annotated — the same principle as `.dittog`, and distinguished
+  from it by rule shape so a doubled run and broken type are tellable apart
+  without hovering.
+- **English-only**, like `[f: …]`, `[d: …]` and `[nt: …]`. The Latin chunk stays
+  the faithful TEI transform and carries the defect unmarked; a `[sic: …]` in a
+  Latin chunk is a hard verifier error.
+- **Content must be verbatim in the Latin twin** — checked as a substring
+  (asterisks stripped, whitespace normalized), exactly as `[f: …]` is. This is
+  what makes the convention safe rather than merely tidy: a `[sic: …]` can never
+  be wrapped round *English* words, which would silently blame Migne for our
+  prose. A mismatch is an error, not a warning.
+- The crux is still required, and is still where the conjecture lives. The marker
+  says *this is the plate's*; the crux says *and here is what it was probably
+  meant to be.* Neither replaces the other.
+
+**What does NOT take a `[sic: …]`:** everything Pattern 9 exempts. Attested
+medieval spellings are correct Latin for their period (*aquiescas*), gender
+mismatches have no English exponent, and normalized section labels are already
+handled by the facing Latin column. Marking those would bury the real defects in
+noise — which is the same argument Pattern 9 makes for not italicizing them.
+
+Nor does it apply to a **real word that is merely wrong** (`fuges` for `sugas`,
+`munde` for `mundo`): those are rendered as ordinary English under Pattern 7,
+because they *can* be rendered, and the English word on the page is ours even
+though the reading is Migne's. Only carried, untranslated type is marked. (This
+boundary is worth watching — 11081 col. 0030B, where the literal rendering is
+actively misleading, is the case that would reopen it.)
+
+**Scope at adoption (2026-07-28):** ~73 instances across 30 works, swept from
+each work's `cruces.md` rather than by pattern-matching the prose — per the
+method warning of 2026-07-28, a phrase-matching sweep reports itself complete
+while leaving half the instances in place.

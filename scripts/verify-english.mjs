@@ -11,6 +11,8 @@
 //   5. English/Latin word ratio in [0.85, 1.75] (pilots: EN ≈ 1.5× Latin; 1.6+ warns).
 //   7. Guillemet parity vs the Latin twin — a total drop errors, a delta warns.
 //   8. Pattern-11 [d: …] dittography markers: English-only, never empty.
+//   9. Pattern-12 [sic: …] plate-defect markers: English-only, never empty, and
+//      content must be VERBATIM in the Latin twin (it is carried type, not translation).
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
 //      more than once across all chunks (agents re-emitting boundary text).
@@ -128,7 +130,25 @@ for (const c of manifest.chunks) {
     if (!run) errs.push(`${name}: empty [d: ] marker`);
   }
 
-  const strip = s => s.replace(colRe, '').replace(dittoRe, '$1');
+  // 9. Pattern-12 [sic: …] — type carried through from a defective plate. Like
+  // [d: …] it is ENGLISH-ONLY. What makes this one strongly checkable is that its
+  // content is by definition VERBATIM Migne: a carried non-word is not translated,
+  // so it must appear in the Latin twin exactly as it appears here. That is the
+  // same substring test [f: …] uses, and it means a [sic: …] can never be put
+  // round English words — which would silently claim our prose was Migne's defect.
+  const sicRe = /\[sic: ([^\]]*)\]/g;
+  if (sicRe.test(lat.body))
+    errs.push(`${name}: [sic: …] marker found in the LATIN chunk — the Latin is never marked up`);
+  const flat = s => s.replace(/\*/g, '').replace(/\s+/g, ' ').trim();
+  const latFlat = flat(lat.body);
+  for (const m of [...eng.body.matchAll(sicRe)]) {
+    const run = flat(m[1]);
+    if (!run) { errs.push(`${name}: empty [sic: ] marker`); continue; }
+    if (!latFlat.includes(run))
+      errs.push(`${name}: [sic: ${m[1]}] is not verbatim in the Latin twin — a sic marker may only wrap type carried from the plate`);
+  }
+
+  const strip = s => s.replace(colRe, '').replace(dittoRe, '$1').replace(sicRe, '$1');
   const lw = words(strip(lat.body)), ew = words(strip(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the

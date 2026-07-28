@@ -128,6 +128,14 @@ function inlineHtml(s, { anchorIds, state }) {
     // and not as ours.
     .replace(/\[d: ([^\]]*)\]/g, (_, d) =>
       `<span class="dittog" title="Repeated in Migne's plate">${d}</span>`)
+    // pattern-12 [sic: …]: type carried through from a defective plate. Without it
+    // italic Latin in the English is ambiguous — *precaria* (a technical term we
+    // deliberately leave in Latin) and *bonorem* (Migne's broken type) look identical,
+    // so a reader cannot tell our editorial choice from the plate's defect. This marks
+    // the second kind only. The words render exactly as printed; only their PROVENANCE
+    // is annotated, same principle as .dittog.
+    .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
+      `<span class="sic" title="As Migne's plate prints it — see the notes on this work">${s}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -359,6 +367,15 @@ css += `
    plate. Without this the page reads as though WE duplicated the words. */
 .dittog {
   border-bottom: 1px dotted var(--encre-douce);
+  cursor: help;
+}
+/* pattern-12 [sic: …]: type carried verbatim from a defective plate. Distinguished
+   from .dittog by a wavy rule — both say "this oddity is Migne's, not ours", but a
+   reader should be able to tell a doubled run from broken type without hovering.
+   Deliberately NOT dimmed or shrunk: it is the author's text, printed as it stands. */
+.sic {
+  border-bottom: 1px wavy var(--dorure);
+  text-decoration-skip-ink: none;
   cursor: help;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
