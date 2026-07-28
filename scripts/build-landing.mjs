@@ -17,6 +17,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-28 session (fourth): 4 works, 5- to 15-chunk tiers, smallest-first —
+  'pl/175/adnotatiunculae-in-joelem',                            // Hugh of St Victor — brief notes on Joel
+  'pl/196/expositio-de-tabernaculo',                             // Richard of St Victor — on the tabernacle, with the concordance of regnal years
+  'pl/175/expositio-in-abdiam',                                  // Hugh of St Victor — on Obadiah
+  'pl/196/sermo-de-missione-spiritus-sancti',                    // Richard of St Victor — on the sending of the Holy Spirit
   // — 2026-07-28 session (later): 6 works, 6- to 9-chunk tiers, smallest-first —
   'pl/176/de-sacramentis-legis-naturalis-et-scriptae',          // Hugh of St Victor — on the sacraments of the natural and written law
   'pl/196/de-verbo-incarnato',                                  // Richard of St Victor — on the Word incarnate

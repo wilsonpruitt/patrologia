@@ -150764,10 +150764,11 @@
       "cpl": null,
       "translation": {
         "workStatus": "none",
-        "englishState": "untranslated",
+        "englishState": "ours",
         "note": "Adnotatiunculae in Joelem — no English translation found despite search. Work in PL 175.321–372 remains in Latin only.",
         "confidence": "high",
-        "triageBatch": "33"
+        "triageBatch": "33",
+        "priorTriageNote": "englishState was \"untranslated\" at triage"
       },
       "texts": [
         {
@@ -151029,10 +151030,11 @@
       "cpl": null,
       "translation": {
         "workStatus": "none",
-        "englishState": "untranslated",
+        "englishState": "ours",
         "note": "Expositio in Abdiam — no English translation found. Commentary on Obadiah (PL 175.371–406) remains in Latin only.",
         "confidence": "high",
-        "triageBatch": "33"
+        "triageBatch": "33",
+        "priorTriageNote": "englishState was \"untranslated\" at triage"
       },
       "texts": [
         {
@@ -201737,10 +201739,11 @@
       "cpl": null,
       "translation": {
         "workStatus": "unclear",
-        "englishState": "unclear",
+        "englishState": "ours",
         "note": "Expositio de tabernaculo — no complete published translation located. The Christian Platonism blog quotes/translates a passage on the tabernacle-as-allegory-for-perfection, but this is not a full published translation.",
         "confidence": "medium",
-        "triageBatch": "50"
+        "triageBatch": "50",
+        "priorTriageNote": "englishState was \"unclear\" at triage"
       },
       "texts": [
         {
@@ -201957,12 +201960,13 @@
       "cpl": null,
       "translation": {
         "workStatus": "unclear",
-        "englishState": "unclear",
+        "englishState": "ours",
         "note": "Sermo de missione Spiritus Sancti — PL 196.1017–32; appears in a Gallica manuscript description alongside other Richard opuscula. Could not confirm in VTT 4 or VTT 8 tables of contents checked. | 2026-07-28: attribution confirmed (see attributionBasis). The does-English-exist check was DELIBERATELY SKIPPED (Wilson) — consistent with the 2026-07-17 untranslated-first relaxation, under which prior English is not disqualifying so long as it is acknowledged openly. englishState therefore stays \"unclear\" and is honest: we do not know.",
         "confidence": "medium",
         "triageBatch": "50",
         "attribution": "Richard of St Victor — CONFIRMED 2026-07-28",
-        "attributionBasis": "Medieval MS transmission in a homogeneous Richard codex (BnF btv1b10721469k, s. XIII 1/4, ff. 105v-111v, alongside De eruditione interioris hominis, De exterminatione mali, De Emmanuele); listed without a doubtful-attribution asterisk in Feiss, Victorine Texts in Translation 4 abbreviations (\"Missione: De missione Spiritus sancti sermo, PL 196.1017-32\"); no dissent found in 13 searches. Corpus-wide grep of all 5,276 PL TEI files: six distinctive phrases occur ONLY in 11556.xml, so the sermon is not double-printed under Hugh, Achard, Walter or anonymously — the commonest PL 196 failure mode is absent. NOT a Liber exceptionum extract: the LE sermons were mis-shelved into Hugh's PL 177.901-1210, the opposite direction, and 11556 has no counterpart there. Richard has exactly one sermo in the Corpus Corporum PL index — this one — so there is no block of sermones for a stray piece to have been swept into. NOT closed: Goy's MS repertory (Bibl. Victorina 18), Chatillon's LE intro (TPMA 5) and Ribaillier (TPMA 15) are all paywalled and would settle it. No critical edition of this sermon exists; the attribution has not had a dedicated critical examination. Confidence ~80%."
+        "attributionBasis": "Medieval MS transmission in a homogeneous Richard codex (BnF btv1b10721469k, s. XIII 1/4, ff. 105v-111v, alongside De eruditione interioris hominis, De exterminatione mali, De Emmanuele); listed without a doubtful-attribution asterisk in Feiss, Victorine Texts in Translation 4 abbreviations (\"Missione: De missione Spiritus sancti sermo, PL 196.1017-32\"); no dissent found in 13 searches. Corpus-wide grep of all 5,276 PL TEI files: six distinctive phrases occur ONLY in 11556.xml, so the sermon is not double-printed under Hugh, Achard, Walter or anonymously — the commonest PL 196 failure mode is absent. NOT a Liber exceptionum extract: the LE sermons were mis-shelved into Hugh's PL 177.901-1210, the opposite direction, and 11556 has no counterpart there. Richard has exactly one sermo in the Corpus Corporum PL index — this one — so there is no block of sermones for a stray piece to have been swept into. NOT closed: Goy's MS repertory (Bibl. Victorina 18), Chatillon's LE intro (TPMA 5) and Ribaillier (TPMA 15) are all paywalled and would settle it. No critical edition of this sermon exists; the attribution has not had a dedicated critical examination. Confidence ~80%.",
+        "priorTriageNote": "englishState was \"unclear\" at triage"
       },
       "texts": [
         {

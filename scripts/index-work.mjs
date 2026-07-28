@@ -43,6 +43,9 @@ const BOOKS = {
   'Jos': 'Josh', 'Judic': 'Judg', 'Ruth': 'Ruth',
   'I Reg': '1Sam', 'II Reg': '2Sam', 'III Reg': '1Kgs', 'IV Reg': '2Kgs',
   'I Par': '1Chr', 'II Par': '2Chr', 'I Esdr': 'Ezra', 'II Esdr': 'Neh',
+  // Chronicles = Paralipomenon; Migne prints Par./Paral./Paralip. interchangeably —
+  // 11551 alone uses two of the three (234b, 236b vs 237b).
+  'I Paral': '1Chr', 'II Paral': '2Chr', 'I Paralip': '1Chr', 'II Paralip': '2Chr',
   'Tob': 'Tob', 'Judith': 'Jdt', 'Esth': 'Esth', 'Job': 'Job',
   'Psal': 'Ps', 'Ps': 'Ps', 'Psalm': 'Ps', 'Prov': 'Prov', 'Cant': 'Song', 'Cantic': 'Song',
   // Ecclesiastes: Migne writes Eccle/Eccles/Eccl. Ecclesiasticus (Sirach) is Eccli —
@@ -50,7 +53,8 @@ const BOOKS = {
   'Eccle': 'Eccl', 'Eccles': 'Eccl', 'Eccl': 'Eccl',
   'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Jer': 'Jer',
   'Jerem': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
-  'Os': 'Hos', 'Ose': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
+  // 'Oseae' is the genitive Migne prints when the citation reads "of Hosea" (11057/340a).
+  'Os': 'Hos', 'Ose': 'Hos', 'Osee': 'Hos', 'Oseae': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
   'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Abac': 'Hab', 'Soph': 'Zeph', 'Sophon': 'Zeph', 'Agg': 'Hag',
   'Zach': 'Zech', 'Malach': 'Mal', 'Malac': 'Mal', 'Mal': 'Mal',
   'I Mach': '1Macc', 'II Mach': '2Macc', 'I Machab': '1Macc', 'II Machab': '2Macc',
@@ -61,6 +65,8 @@ const BOOKS = {
   // (8715/1170a, Optabam dissolvi = Phil. 1:23, confirmed against the quoted Latin).
   'Phil': 'Phil',
   'I Thess': '1Thess', 'II Thess': '2Thess', 'I Tim': '1Tim', 'II Tim': '2Tim',
+  // Single-s form: Migne prints 'II Thes.' at 11057/324c.
+  'I Thes': '1Thess', 'II Thes': '2Thess',
   'Tit': 'Titus', 'Philem': 'Phlm', 'Hebr': 'Heb', 'Jac': 'Jas', 'Jacob': 'Jas',
   'I Petr': '1Pet', 'II Petr': '2Pet', 'I Pet': '1Pet', 'II Pet': '2Pet',
   'I Joan': '1John', 'II Joan': '2John', 'III Joan': '3John',

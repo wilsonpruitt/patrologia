@@ -1,0 +1,891 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 6023,
+  "textIdno": 11063,
+  "title": "Expositio in Abdiam",
+  "authors": [
+    "Hugo de S. Victore"
+  ],
+  "authorsDisplay": [
+    "Hugh of Saint Victor"
+  ],
+  "series": "pl",
+  "volume": 175,
+  "colFirst": "371c",
+  "colLast": "406a",
+  "counts": {
+    "scripture": 133,
+    "fontes": 2,
+    "heads": 2,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Eccl.20",
+      "refDisplay": "Eccle. XX",
+      "column": "371c",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "372c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Isa.41",
+      "refDisplay": "Isa. XLI",
+      "column": "371d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.49",
+      "refDisplay": "Isa. XLIX",
+      "column": "372d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.43",
+      "refDisplay": "Isa. XLIII",
+      "column": "372d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.39",
+      "refDisplay": "Psal. XXXIX",
+      "column": "373a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.39",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. XXXIX",
+      "antecedentColumn": "373a",
+      "ibidResolved": true,
+      "column": "373a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.52",
+      "refDisplay": "Isa. LII",
+      "column": "373a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.32",
+      "refDisplay": "Psal. XXXII",
+      "column": "373b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.22",
+      "refDisplay": "Luc. XXII",
+      "column": "373c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Song.5",
+      "refDisplay": "Cant. V",
+      "column": "373c",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "373d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gen.27",
+      "refDisplay": "Gen. XXVII",
+      "column": "374a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.116",
+      "refDisplay": "Psal. CXVI",
+      "column": "374b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "374b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Cant. II",
+      "column": "374c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Sam.2",
+      "refDisplay": "I Reg. II",
+      "column": "374c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Hag.2",
+      "refDisplay": "Agg. II",
+      "column": "374c",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.8",
+      "refDisplay": "II Cor. VIII",
+      "column": "374c",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "374d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Deut.18",
+      "refDisplay": "Deut. XVIII",
+      "column": "375a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.24",
+      "refDisplay": "Isa. XXIV",
+      "column": "375a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gen.37",
+      "refDisplay": "Gen. XXXVII",
+      "column": "375c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gen.37",
+      "refDisplay": "ibid.",
+      "antecedent": "Gen. XXXVII",
+      "antecedentColumn": "375c",
+      "ibidResolved": true,
+      "column": "375c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.18",
+      "refDisplay": "Isa. XVIII",
+      "column": "376b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.10",
+      "refDisplay": "Isa. X",
+      "column": "376b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.107",
+      "refDisplay": "Psal. CVII",
+      "column": "376b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.12",
+      "refDisplay": "Isa. XII",
+      "column": "376b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.2",
+      "refDisplay": "Isa. II",
+      "column": "376b",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "376c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Wis.1",
+      "refDisplay": "Sap. I",
+      "column": "376c",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "376d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.93",
+      "refDisplay": "Psal. XCIII",
+      "column": "377d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "378a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "378b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.76",
+      "refDisplay": "Psal. LXXVI",
+      "column": "378c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Wis.6",
+      "refDisplay": "Sap. VI",
+      "column": "378c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "378c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Job.9",
+      "refDisplay": "Job IX",
+      "column": "378d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Prov.9",
+      "refDisplay": "Prov. IX",
+      "column": "378d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Job.26",
+      "refDisplay": "Job XXVI",
+      "column": "378d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "379a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "379a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Heb.12",
+      "refDisplay": "Hebr. XII",
+      "column": "379a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.31",
+      "refDisplay": "Isa. XXXI",
+      "column": "379a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.12",
+      "refDisplay": "Rom. XII",
+      "column": "379b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.14",
+      "refDisplay": "Rom. XIV",
+      "column": "379b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.47",
+      "refDisplay": "Psal. XLVII",
+      "column": "379c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Job.14",
+      "refDisplay": "Job. XIV.",
+      "column": "380a",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Cor.1",
+      "refDisplay": "I Cor. I",
+      "column": "380b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Prov.9",
+      "refDisplay": "Prov. IX",
+      "column": "380b",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "380b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Job.40",
+      "refDisplay": "Job. XL",
+      "column": "380c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Prov.31",
+      "refDisplay": "Prov. XXXI",
+      "column": "380d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.63",
+      "refDisplay": "Psal. LXIII",
+      "column": "381c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Isa.66",
+      "refDisplay": "Isa. LXVI.",
+      "column": "382b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.35",
+      "refDisplay": "Psal. XXXV",
+      "column": "382b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.106",
+      "refDisplay": "Psal. CVI",
+      "column": "382c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rom.7",
+      "refDisplay": "Rom. VII",
+      "column": "383b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "383b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Gal. V",
+      "column": "384c",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
+      "column": "384c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Gal.6",
+      "refDisplay": "Gal. VI",
+      "column": "384d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Mark.14",
+      "refDisplay": "Marc. XIV",
+      "column": "384d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.14",
+      "refDisplay": "Psal. XIV",
+      "column": "384d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccle. II",
+      "column": "384d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Cant. II",
+      "column": "384d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Job.28",
+      "refDisplay": "Job. XXVIII",
+      "column": "384d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Lam.4",
+      "refDisplay": "Thren. IV",
+      "column": "385a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Exod.5",
+      "refDisplay": "Exod. V",
+      "column": "385d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Job.21",
+      "refDisplay": "Job XXI.",
+      "column": "385d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Job.21",
+      "refDisplay": "Ibid.",
+      "antecedent": "Job XXI.",
+      "antecedentColumn": "385d",
+      "ibidResolved": true,
+      "column": "385d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Wis.2",
+      "refDisplay": "Sap. II; Isa. XXII",
+      "column": "386a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.22",
+      "refDisplay": "Sap. II; Isa. XXII",
+      "column": "386a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.14",
+      "refDisplay": "Isa. XIV",
+      "column": "386b",
+      "chunk": 4
+    },
+    {
+      "refKey": "1Cor.6",
+      "refDisplay": "I Cor. VI",
+      "column": "386b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Rev.18",
+      "refDisplay": "Apoc. XVIII",
+      "column": "386b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Rev.18",
+      "refDisplay": "ibid.",
+      "antecedent": "Apoc. XVIII",
+      "antecedentColumn": "386b",
+      "ibidResolved": true,
+      "column": "386b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Job.13",
+      "refDisplay": "Job XIII.",
+      "column": "387a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Job.31",
+      "refDisplay": "Job XXXI",
+      "column": "387a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.43",
+      "refDisplay": "Psal. XLIII",
+      "column": "387b",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Tim.6",
+      "refDisplay": "I Tim. VI",
+      "column": "387b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.138",
+      "refDisplay": "Psal. CXXXVIII",
+      "column": "387b",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Kgs.21",
+      "refDisplay": "III Reg. XXI",
+      "column": "387c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "387d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.136",
+      "refDisplay": "Psal. CXXXVI",
+      "column": "390a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.136",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. CXXXVI",
+      "antecedentColumn": "390a",
+      "ibidResolved": true,
+      "column": "390a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Hab.2",
+      "refDisplay": "Habac. II",
+      "column": "390b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Exod.3",
+      "refDisplay": "Exod. III",
+      "column": "390c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Esth.14",
+      "refDisplay": "Esth. XIV",
+      "column": "390c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Isa.40",
+      "refDisplay": "Isa. XL",
+      "column": "390c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Rev.18",
+      "refDisplay": "Apoc. XVIII",
+      "column": "390d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Rev.18",
+      "refDisplay": "ibid.",
+      "antecedent": "Apoc. XVIII",
+      "antecedentColumn": "390d",
+      "ibidResolved": true,
+      "column": "390d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.136",
+      "refDisplay": "Psal. CXXXVI",
+      "column": "390d",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "391b",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.17",
+      "refDisplay": "Joan. XVII",
+      "column": "391c",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.17",
+      "refDisplay": "ibid.",
+      "antecedent": "Joan. XVII",
+      "antecedentColumn": "391c",
+      "ibidResolved": true,
+      "column": "391c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Rom.7",
+      "refDisplay": "Rom. VII",
+      "column": "391d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Rom.7",
+      "refDisplay": "ibid.",
+      "antecedent": "Rom. VII",
+      "antecedentColumn": "391d",
+      "ibidResolved": true,
+      "column": "392a",
+      "chunk": 6
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "392a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "Psal. XXXVII",
+      "column": "392a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. XXXVII",
+      "antecedentColumn": "392a",
+      "ibidResolved": true,
+      "column": "392a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. XXXVII",
+      "antecedentColumn": "392a",
+      "ibidResolved": true,
+      "column": "392a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Heb.3",
+      "refDisplay": "Hebr. III",
+      "column": "392c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.101",
+      "refDisplay": "Psal. CI",
+      "column": "392d",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.12",
+      "refDisplay": "Joan. XII",
+      "column": "392d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.65",
+      "refDisplay": "Psal. LXV",
+      "column": "393a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Gen.49",
+      "refDisplay": "Gen. XLIX",
+      "column": "393a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "393a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Isa.43",
+      "refDisplay": "Isai. XLIII",
+      "column": "393a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Isa.63",
+      "refDisplay": "Isai. LXIII",
+      "column": "393b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.14",
+      "refDisplay": "Matth. XIV",
+      "column": "393c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.14",
+      "refDisplay": "Ibid.",
+      "antecedent": "Matth. XIV",
+      "antecedentColumn": "393c",
+      "ibidResolved": true,
+      "column": "393c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Luke.22",
+      "refDisplay": "Luc. XXII",
+      "column": "393c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.6",
+      "refDisplay": "Cant. VI.",
+      "column": "393d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.7",
+      "refDisplay": "Cant. VII",
+      "column": "393d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.8",
+      "refDisplay": "Cant. VIII.",
+      "column": "393d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.3",
+      "refDisplay": "Cant. III.",
+      "column": "393d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.5",
+      "refDisplay": "Cant. V",
+      "column": "395b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.4",
+      "refDisplay": "Cant. IV",
+      "column": "395b",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.6",
+      "refDisplay": "I Cor., VI",
+      "column": "395b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.135",
+      "refDisplay": "Psal. CXXXV",
+      "column": "397d",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.12",
+      "refDisplay": "I Cor. XII",
+      "column": "397d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Judg.3",
+      "refDisplay": "Judic. III",
+      "column": "399a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Judg.1",
+      "refDisplay": "Judic. I",
+      "column": "399a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Judg.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "Judic. I",
+      "antecedentColumn": "399a",
+      "ibidResolved": true,
+      "column": "399a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ezek.48",
+      "refDisplay": "Ezech. XLVIII",
+      "column": "399b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ezek.48",
+      "refDisplay": "Ibid.",
+      "antecedent": "Ezech. XLVIII",
+      "antecedentColumn": "399b",
+      "ibidResolved": true,
+      "column": "400a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "400b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.136",
+      "refDisplay": "Psal. CXXXVI",
+      "column": "401b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.68",
+      "refDisplay": "Psal. LXVIII",
+      "column": "403a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.39",
+      "refDisplay": "Psal. XXXIX",
+      "column": "403a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.4",
+      "refDisplay": "Matth. IV",
+      "column": "404d",
+      "chunk": 10
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ABDIAS I.",
+      "column": "371d",
+      "chunk": 1
+    },
+    {
+      "raw": "Nahum III",
+      "column": "390d",
+      "chunk": 6
+    }
+  ],
+  "heads": [
+    {
+      "la": "PRAEFATIO.",
+      "column": "371c",
+      "chunk": 0,
+      "en": "PREFACE."
+    },
+    {
+      "la": "INCIPIT EXPOSITIO.",
+      "column": "372c",
+      "chunk": 1,
+      "en": "HERE BEGINS THE EXPOSITION."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
