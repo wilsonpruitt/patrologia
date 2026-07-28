@@ -54,7 +54,7 @@
 
 ## Col 0960A (chunk 0013)
 - **Reading (as printed):** `... et pardalineam vestiunt, et ur sam saevientem [n: (Cant. II; Isa, XXVIII; Osee V)]. ... Ad dam vero, et quod omnium vilius esse ...`
-- **Note:** Two adjacent broken forms in this dissimilar-symbols catalogue. `ur sam` is `ursam` ("she-bear") split by a stray space (line-break artifact); rendered "a raging she-bear." `Ad dam` appears to be `ad dam(m)am` ("to a doe/deer") likewise split; rendered "But to a doe." Both rendered per sense; the source spacing is not otherwise reproducible in running prose.
+- **Note:** Two adjacent broken forms in this dissimilar-symbols catalogue, both defects of word division. **Split type is non-word type** (ruled 2026-07-28): a defect of word division is carried through untranslated in italics whichever direction it runs, exactly as the run-together `Canetenim` is under Pattern 7. The WHOLE broken run is carried, spacing included, and is not split into a translated half and a carried half — the defect is the run, not either fragment. So `ur sam` (for *ursam*, "she-bear") is rendered "and a raging ur sam," and `Ad dam` (for *ad dam[m]am*, "to a doe/deer") is rendered "Ad dam indeed," with `Ad` carried along with the rest even though it is a real word on its own. Both sit inside an already-italicized lemma run, so neither takes a second italic marker (as with the other carried non-words in this work). The conjectured readings are *ursam* and *ad damam*; the earlier per-sense renderings ("a raging she-bear," "But to a doe") and the note that the spacing was "not otherwise reproducible in running prose" are both withdrawn — it is reproducible. Note that the gloss at col. 0968D (chunk 0022) prints `ursam` correctly three times and is translated "she-bear" there; only the lemma is defective.
 
 ## Col 0956C / 0959A / 0960A (chunk 0013) — bracketed editorial variants
 - **Readings (as printed):** `pecudalitatem [pecuinitatem]`; `immanem [immanentem]`; `divina sapientes [divinam sapientiam]`.
@@ -98,7 +98,7 @@
 
 ## Col 1120B (chunk 0068) — split word (line-break artifact)
 - **Reading (as printed):** `etiam ipsa supernatur alis ordinatio`
-- **Note:** `supernatur alis` is *supernaturalis* ("supernatural") split by a stray space at a line break (cf. the `ur sam` / `Ad dam` splits logged at col 0960A). Rendered as the intended single word ("the supernatural ordination itself also"); source spacing not otherwise reproducible in running prose.
+- **Note:** `supernatur alis` is *supernaturalis* ("supernatural") split by a stray space at a line break (cf. the `ur sam` / `Ad dam` splits logged at col 0960A). **Split type is non-word type** (ruled 2026-07-28), so the whole broken run is carried through untranslated in italics per Pattern 7: "« the *supernatur alis* ordination itself also, »" Here the run is not inside an italic lemma — it sits inside guillemets — so it takes its own italic marker. The intended reading is *supernaturalis*. The earlier per-sense rendering, and the note that the spacing was "not otherwise reproducible in running prose," are withdrawn — it is reproducible. The word prints correctly as `supernaturalis` in the LITTERA at col. 1117D (chunk 0066) and again later in this same chunk (*illa, inquam, supernaturalis ordinatio*), and is translated normally in both places; only this one occurrence is broken.
 
 ## Col 1122B (chunk 0069) — garbled type
 - **Reading (as printed):** `ipsam excelsissimam coelestium animorum dispositionem, principium post Deus, secundum quod consequens est`
