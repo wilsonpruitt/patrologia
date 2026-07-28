@@ -322,3 +322,29 @@ there is no English exponent for a Latin typo — and the Latin side of the para
 page preserves the misprint verbatim, so nothing is concealed from the reader.
 This is the one place normalization is right, and it is right *because* the defect
 stays visible in the facing column.
+
+### 10. Split type is non-word type — carry the whole broken run
+
+Migne's word-division defects run both ways, and both are the same defect:
+
+- **Run together** — `Canetenim` for *canet enim*, `sedet` for *sed et*,
+  `vitulaeaspersus`, `diligitamicum`, `quidemcarnis`.
+- **Split apart** — `ur sam` for *ursam*, `Ad dam` for *ad damam*,
+  `supernatur alis` for *supernaturalis*, `ves ere` for *vespere*,
+  `provincio lae`, `Xis tus`, `I otetur`.
+
+Both are carried through untranslated in italics under Pattern 7, **spacing
+included**: `*ur sam*`, `*supernatur alis*`. An earlier draft in 11064's cruces
+justified rendering the split cases by sense on the ground that "the source
+spacing is not otherwise reproducible in running prose." That is not true — it
+reproduces exactly.
+
+**Carry the WHOLE broken run, even when one fragment is a real word.** `Ad dam`
+keeps `Ad` inside the carried run: the defect is the division, not either
+fragment, and rendering half of it ("But to *dam*") would misrepresent the plate
+while looking like a considered reading. This is the one place the Pattern 7
+boundary between real words and non-words does NOT apply — the unit is the run.
+
+Where a broken run sits inside an already-italic scripture lemma it takes no
+second italic marker (nested italics are not expressible), same as every other
+carried non-word. Say so in the crux.

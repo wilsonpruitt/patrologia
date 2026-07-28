@@ -54,8 +54,8 @@ of `src/english/10103/cruces.md`; those places were re-rendered from the plate o
 - **col. 0349A** — `Cumque interrogaretur … si vellet baptizari, respondit:` The
   sentence has a stray comma-for-period after *baptizari,* in the printed line
   (`in quo debuerat baptizari, Cumque interrogaretur`) with a capital following.
-  Sentence division taken per the capital; noted only so no one reads it as a
-  dropped clause.
+  Rendered as printed per Pattern 8: the comma stands, followed by the capitalized
+  continuation. The intended reading is a full stop; the comma is a plate defect.
 
 ## Chaps. III–IV (chunk 0002)
 

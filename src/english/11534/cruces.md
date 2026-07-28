@@ -41,8 +41,10 @@ flagged here only.
   "the latter to the young of *corum*."
 
 - **col. 1046D–1047A (chunk 0001)** — `…ultra modum trepidare Certum namque…`
-  Migne prints no full stop after *trepidare*; sentence division supplied in the
-  English, none in the Latin.
+  Migne prints no full stop after *trepidare*, only the capital `Certum`. Per
+  Pattern 8 no mark is supplied in the English either: the clause runs on
+  unpunctuated into "For it ought to be certain…". The intended reading is a full
+  stop, which the capital implies; the plate omits it.
 
 - **col. 1048B (chunk 0001), note** — `[n: (Sap. VIII)]` on *Corpus enim quod
   corrumpitur aggravat animam…* = Wisdom **9**:15, not 8. Note passes through

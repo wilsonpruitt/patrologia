@@ -95,7 +95,9 @@ from the plate on 2026-07-28.)
 
 - **Col 1041D** — `Sed merito et hoc in loco, juxta superiorem modum. quaeritur cur
   ab Abraham…`. A full stop is printed mid-sentence after `modum`, before the
-  lower-case `quaeritur`. Rendered as one sentence; the stop is a plate defect.
+  lower-case `quaeritur`. Rendered as printed per Pattern 8: the stop stands and
+  the continuation stays lower-case. The stop is a plate defect; the intended
+  reading is a comma (or no mark), with `quaeritur` continuing the sentence.
 - **Col 1042B** — `qui non solum in potentiores vel aeque potentes, sed etiam
   potentiores … impugnat`. Rendered as printed, with `potentiores` **twice**:
   "not only those more powerful or equally powerful, but even the more powerful,"

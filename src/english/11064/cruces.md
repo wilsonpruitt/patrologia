@@ -6,11 +6,11 @@
 
 ## Col 0941D (chunk 0006)
 - **Reading (as printed):** `Cum vero puro pura et nuda revelatione ostenditur`
-- **Note:** `puro` immediately before `pura` reads as a dittography/corruption (no governing noun for a masc./neut. `puro`). Rendered as if the phrase were *pura et nuda revelatione*: "But when it is shown by pure and naked revelation."
+- **Note:** `puro` immediately before `pura` reads as a dittography/corruption (no governing noun for a masc./neut. `puro`). It is a real Latin word, so per Pattern 7 it is translated rather than dropped or carried through in italics, and no mark is supplied to smooth it (Pattern 8): "But when it is shown by pure by pure and naked revelation." Latin gender has no English exponent (Pattern 9), so the masc./neut. ending cannot be shown. The intended reading is *pura et nuda revelatione*. An earlier draft deleted the printed `puro` outright; that has been withdrawn.
 
 ## Col 0945B (chunk 0008)
 - **Reading (as printed):** `ut alii plus, alii miuus accipiant`
-- **Note:** `miuus` is a plain typographical error for *minus* (u/n inversion). Rendered "less."
+- **Note:** `miuus` is not a word — a u/n inversion of *minus*. Per Pattern 7 the non-word is carried into the English untranslated and in italics: "so that some receive more, others *miuus*." An earlier draft read the typo as "less"; that has been withdrawn.
 
 ## Col 0946A (chunk 0008)
 - **Reading (as printed):** `nisi varietate sacrorum vel animum anagogice circumvelatum` (the Dionysian lemma)
@@ -22,7 +22,7 @@
 
 ## Col 1013A (chunk 0032)
 - **Reading (as printed):** `... theopbanias, id est divinas apparitiones vocare consuevit`
-- **Note:** Printed `theopbanias` (b for h) for `theophanias`. Rendered as "theophanies" — the word is glossed in situ ("divinas apparitiones"), so the intended reading is unambiguous.
+- **Note:** Printed `theopbanias` (b for h) for `theophanias`. `theopbanias` is not a word, so per Pattern 7 it is carried into the English untranslated and in italics: "…to call those manifestations … *theopbanias*, that is, divine apparitions." The intended reading is unambiguous — the word is glossed in situ (*divinas apparitiones*) — but the conjecture belongs here, not in the running text. An earlier draft rendered "theophanies"; that has been withdrawn. (The correctly spelled *theophaniae* elsewhere in the work is translated normally.)
 
 ## Col 1012B (chunk 0031)
 - **Reading (as printed):** `Theophaniae autem sanctis factae sunt [sed] secundum decentes Deum`
@@ -30,11 +30,11 @@
 
 ## Col 1016A (chunk 0032)
 - **Reading (as printed):** `prae caeteris omnibus apparitionibus eloquiorom`
-- **Note:** Printed `eloquiorom` (o for u) for `eloquiorum`. Rendered "of the words" (same phrase spelled correctly two words earlier in the sentence).
+- **Note:** Printed `eloquiorom` (o for u) for `eloquiorum`. Not a word; carried through untranslated in italics per Pattern 7 — "beyond all the other apparitions *eloquiorom*." The same phrase is spelled correctly later in the chunk (col. 1016B, `apparitionibus eloquiorum`) and is translated there. An earlier draft rendered both "of the words"; that has been withdrawn.
 
 ## Col 1017D — TITULUS CAPITULI V (chunk 0033)
 - **Reading (as printed):** `... praeterquam primi et ecundi ordinum habent agnominationes`
-- **Note:** Printed `ecundi` for `secundi` in the chapter title. Rendered "second".
+- **Note:** Printed `ecundi` for `secundi` in the chapter title. Not a word, but it stands inside the `heads:` structure (`## TITLE OF CHAPTER V …`), where Pattern 9's section-label rule applies: the English head normalizes, because the Latin side of the parallel page preserves the misprint verbatim and nothing is concealed. Rendered "second"; left as an explicit exception to the Pattern 7 carry-through, not an oversight.
 
 ## Col 1018D (chunk 0033, LITTERA)
 - **Reading (as printed):** `sic et ipsum ante se essentiarum [adhuc immundae] omnino sacrae virtutes reducunt`
@@ -42,15 +42,15 @@
 
 ## Col 1019A/B (chunk 0034)
 - **Reading (as printed):** `coelestium spirituum quidam Deo sempe assistere`
-- **Note:** Printed `sempe` for `semper`. Rendered "always".
+- **Note:** Printed `sempe` for `semper`. Not a word (final r lost); carried through untranslated in italics per Pattern 7 — "certain of the heavenly spirits are declared *sempe* to stand by God and always to see his face," where the second, correctly printed `semper` is translated. An earlier draft rendered both "always"; that has been withdrawn.
 
 ## Col 1021A (chunk 0034)
 - **Reading (as printed):** `interni praeceptoris nuntia foras ad hominum cognitionem efferte`
-- **Note:** Printed `efferte` where infinitive `efferre` is expected by the syntax. Rendered as the infinitive "to carry ... forth".
+- **Note:** Printed `efferte` where the infinitive `efferre` is expected by the syntax. `efferte` is a real Latin word (2nd pl. imperative of *effero*), so per Pattern 7 it is rendered as printed — "that is, carry ye the messages of the interior teacher outward to the knowledge of men" — which leaves an imperative standing where the sentence needs a subject infinitive. The intended reading is *efferre*. An earlier draft supplied the infinitive; that has been withdrawn.
 
 ## Col 0957A (chunk 0013)
 - **Reading (as printed):** `per incomprehensibilia divina aenigmat occultare`
-- **Note:** `aenigmat` is a truncated/garbled form of `aenigmata` (accusative plural, "enigmas"), the object of `occultare`. Rendered per sense ("to conceal by incomprehensible divine enigmas"); no emendation to the Latin.
+- **Note:** `aenigmat` is a truncated/garbled form of `aenigmata` (accusative plural, "enigmas"), the object of `occultare`. It is not a word, so per Pattern 7 it is carried through untranslated in italics: "to conceal by incomprehensible divine *aenigmat*." An earlier draft rendered it "enigmas"; that has been withdrawn.
 
 ## Col 0960A (chunk 0013)
 - **Reading (as printed):** `... et pardalineam vestiunt, et ur sam saevientem [n: (Cant. II; Isa, XXVIII; Osee V)]. ... Ad dam vero, et quod omnium vilius esse ...`
@@ -66,7 +66,7 @@
 
 ## Col 0934C–0935A (chunk 0004) — garbled type
 - **Reading (as printed):** `Propter quoae et sanctissimam nostram hierarchiam ...`
-- **Note:** `quoae` is not a Latin word; evident misprint for `quae` (relative, "on account of which"). Rendered per intended sense ("On account of which"); the Latin itself is not emended.
+- **Note:** `quoae` is not a Latin word; evident misprint for `quae` (relative, "on account of which"). Per Pattern 7 the non-word is carried through untranslated in italics: "On account of *quoae*, judging our most holy hierarchy…" An earlier draft rendered the intended sense; that has been withdrawn.
 
 ## Col 0983C (chunk 0021) — garbled type
 - **Reading (as printed):** `Irrationabilitas enim, quae significat excelsum rationis; et insensualitas, quae excessum sensibilitatis demonstrat`
@@ -86,11 +86,11 @@
 
 ## Col 1034A (chunk 0038) — garbled type
 - **Reading (as printed):** `quod theologicam seientiam ipsa prima dispositio, quantum fas, illuminata est a divina bonitate`
-- **Note:** `seientiam` is a plain typographical error for *scientiam* ("knowledge"), the object of the illumination clause. Rendered per intended sense ("was illuminated in the theological knowledge"); the Latin itself is not emended.
+- **Note:** `seientiam` is not a word — a typographical error for *scientiam* ("knowledge"), the object of the illumination clause. Carried through untranslated in italics per Pattern 7: "was illuminated in the theological *seientiam*." An earlier draft rendered the intended sense; that has been withdrawn.
 
 ## Col 1036B (chunk 0039) — garbled type
 - **Reading (as printed):** `sed iis, qui foris erant, dic non debuerunt`
-- **Note:** `dic` is a truncated misprint for *dici* ("to be spoken") — the passive infinitive required by `non debuerunt`, and exactly parallel to the identical `dici non debuerunt` a few clauses earlier ("they ought not to have been spoken"). Rendered per sense ("but to those who were outside they ought not to have been spoken"); the Latin is not emended.
+- **Note:** `dic` is a real Latin word (2nd sg. imperative of *dico*, "say"), not broken type, so per Pattern 7 it is rendered as printed: "but to those who were outside they ought not say" — an active imperative form standing where a passive infinitive is required, which does not construe. The intended reading is *dici* ("to be spoken"), exactly parallel to the correctly printed `dici non debuerunt` a few clauses earlier, which is translated normally. An earlier draft supplied the passive infinitive here too; that has been withdrawn.
 
 ## Col 1112A (chunk 0066) — LITTERA/gloss divergence
 - **Reading (as printed):** in the LITTERA (Dionysian lemma), `... ex illuminandarum materiarum ad illuminationis distributivum habitum in opportunitate`; the EXPOSITIO gloss (chunk 0067, col 1117C) quotes and glosses the same clause as `ex inopportunitate illuminandarum materiarum`.
@@ -102,19 +102,19 @@
 
 ## Col 1122B (chunk 0069) — garbled type
 - **Reading (as printed):** `ipsam excelsissimam coelestium animorum dispositionem, principium post Deus, secundum quod consequens est`
-- **Note:** `post Deus` requires the accusative *post Deum* ("after God"); `Deus` (nominative) is a plain case misprint. Rendered per sense ("the principle after God"); the Latin is not emended. The same phrase recurs correctly as `post Deum` in Hugh's following gloss.
+- **Note:** `post Deus` requires the accusative *post Deum* ("after God"); `Deus` (nominative) is a plain case misprint. **Not a Pattern 7 defect to undo:** Latin case has no English exponent (Pattern 9), so "God" is the only possible rendering either way. Rendered "the principle after God"; nothing to emend and nothing to carry through. Marked so a later sweep does not churn it. The same phrase recurs correctly as `post Deum` in Hugh's following gloss.
 
 ## Col 1064A (chunk 0049) — case-agreement misprint
 - **Reading (as printed):** `Et omnia haec per sapientia Dei facta sunt`
-- **Note:** `sapientia` (ablative) stands where `per` requires the accusative *sapientiam*. A plain case-ending misprint; the sense is unambiguous (the identical phrase *sapientia Dei* recurs correctly nearby). Rendered per intended sense ("were made through the wisdom of God"); the Latin is not emended.
+- **Note:** `sapientia` (ablative) stands where `per` requires the accusative *sapientiam*. A plain case-ending misprint. **Not a Pattern 7 defect to undo:** Latin case has no English exponent (Pattern 9), so "the wisdom of God" is the only possible rendering either way. Rendered "were made through the wisdom of God"; nothing to emend and nothing to carry through. Marked so a later sweep does not churn it.
 
 ## Col 1064B (chunk 0049) — case-agreement misprint
 - **Reading (as printed):** `Quando mundum istum vides, quanta in ipsos vides?`
-- **Note:** `ipsos` (masc. acc. pl.) has no plural antecedent; the referent is singular `mundum`, so the intended reading is *in ipso* ("in it"). A misprint of the case/number ending. Rendered "how many things do you see in it?"; the Latin is not emended.
+- **Note:** `ipsos` (masc. acc. pl.) has no plural antecedent; the referent is singular `mundum`. `ipsos` is a real Latin word, and unlike a bare case ending its NUMBER does have an English exponent, so per Pattern 7 it is rendered as printed: "how many things do you see in them?" — a plural pronoun with only a singular antecedent to refer to. The intended reading is *in ipso* ("in it"). An earlier draft rendered "in it"; that has been withdrawn.
 
 ## Col 1072C (chunk 0052, LITTERA) — garbled type
 - **Reading (as printed):** `Poc enim est omnino divina ordinatione divinitus promulgatum`
-- **Note:** `Poc` is a plain misprint for *Hoc* ("This") — confirmed by Hugh's own exposition of the same lemma clause at 1080B (chunk 0054), which quotes it correctly as *Hoc enim est omnino divina ordinatione divinitus promulgatum*. Rendered per intended sense ("For this has been divinely promulgated..."); the Latin is not emended.
+- **Note:** `Poc` is not a word — a misprint for *Hoc* ("This"), confirmed by Hugh's own exposition of the same lemma clause at 1080B (chunk 0054), which quotes it correctly as *Hoc enim est omnino divina ordinatione divinitus promulgatum*. Carried through untranslated in italics per Pattern 7: "For *Poc* has been divinely promulgated altogether by the divine ordination." The correctly printed *Hoc* at 1080B is translated normally. An earlier draft rendered the intended sense; that has been withdrawn.
 
 ## Col 1071C (chunk 0052, LITTERA) vs 1075A/1076A (chunk 0053) — variant reading
 - **Reading (as printed):** lemma at 1071C reads `ad nullum una videntium`; the same lemma clause requoted in the exposition (1075A, and glossed at 1076A) reads `ad nullum vana videntium`.
@@ -122,15 +122,15 @@
 
 ## Col 1078B (chunk 0054) — garbled type
 - **Reading (as printed):** `Sicut enim ipsa meditantibus superioribus ad similitudinem Dei convertitur`
-- **Note:** `meditantibus` is a misprint for *mediantibus* ("mediating") — required by the parallel clause immediately following, *ita mediante ipsa quae inferiora sunt ... revocantur* ("so, with it mediating, the lower things are called back"). Rendered per sense ("by the superiors mediating"); the Latin is not emended.
+- **Note:** `meditantibus` is a real Latin word ("meditating", abl. pl. participle of *meditor*), so per Pattern 7 it is rendered as printed: "just as it itself is turned to the likeness of God by the superiors meditating, so, with it mediating, the things that are lower are called back." The intended reading is *mediantibus* ("mediating"), required by the parallel clause immediately following, *ita mediante ipsa quae inferiora sunt … revocantur*, which prints correctly and is translated so. An earlier draft read the intended word in both places; that has been withdrawn.
 
 ## Col 1066B (chunk 0050) — garbled type (minor)
 - **Reading (as printed):** `Propterea non atttendas ad numerum`
-- **Note:** `atttendas` (triple t) is a plain typographical error for *attendas* ("attend, regard"). Rendered "attend"; noted for completeness. (Also in this vicinity `ocultum` at 1068C for *occultum*, and `hierachia`/`hierachiae` for *hierarchia* recur throughout chunks 0052–0053 — all trivial compositor slips, rendered per the correct word without emending the Latin.)
+- **Note:** `atttendas` (triple t) is not a word — a typographical error for *attendas* ("attend, regard"). Carried through untranslated in italics per Pattern 7: "Therefore do not *atttendas* to the number, but seek the fruit." An earlier draft rendered "attend"; that has been withdrawn. (Distinguish `ocultum` at 1068C for *occultum* and `hierachia`/`hierachiae` for *hierarchia*, which recur throughout chunks 0052–0053: consonant simplification and the loss of medial *r* in *hierarchia* are attested medieval spellings, so per Pattern 9 they are translated normally, with no italics and no carry-through. `atttendas` is unique to this plate and so falls the other way.)
 
 ## Col 1090B (chunk 0058) — garbled type
 - **Reading (as printed):** `et idcirco apud non aptius angeli nominati sunt magis quam priores`
-- **Note:** `apud non` is a plain typo for *apud nos* ("among us"): the same sentence a few clauses earlier reads correctly `et magis apud nos angeli, quam priores aptius nominati`, and the sense requires "among us." Rendered per sense ("they are named angels more fittingly among us than the prior ones"); the Latin itself not emended.
+- **Note:** `apud non` — `non` is a real Latin word ("not"), not broken type, so per Pattern 7 it is rendered as printed: "therefore they are named angels more fittingly among not than the prior or superior ones," which does not construe. The intended reading is *apud nos* ("among us"): the LITTERA a few clauses earlier prints `et magis apud nos angeli, quam priores aptius nominati` correctly, and that occurrence is translated "among us." An earlier draft read the intended word in both places; that has been withdrawn.
 
 ## Col 1092C–1092D (chunk 0059) — unbalanced guillemet in the lemma
 - **Reading (as printed):** `Sequitur: « Hoc perhibetur et ipse Hebraeorum populus perpessus esse, hoc scilicet, quod a cultu Dei recessit ... Ait enim divina vox ipsi [1092D] Israel. « Cognitionem Dei repulisti: et post cor tuum existi. »`
@@ -142,23 +142,23 @@
 
 ## Col 1141B (chunk 0075) — garbled type
 - **Reading (as printed):** `« Sursum ferens, » quia pondere carons summa petit`
-- **Note:** `carons` is a plain typographical error for *carens* ("lacking"), governing the ablative *pondere* ("weight") — the sense requires "lacking weight, it seeks the highest." Rendered per sense ("because, lacking weight, it seeks the highest things"); the Latin itself not emended.
+- **Note:** `carons` is not a word — a typographical error for *carens* ("lacking"), governing the ablative *pondere* ("weight"). Carried through untranslated in italics per Pattern 7: "because, *carons* weight, it seeks the highest things." An earlier draft rendered "lacking"; that has been withdrawn.
 
 ## Col 1142D (chunk 0075) — garbled type
 - **Reading (as printed):** `propter « luculentum, » id est clarum et evidens, sine insigne ipsius figurae humanae`
-- **Note:** `sine insigne` is ungrammatical (neither *sine* + ablative *insigni* nor a clean phrase); read as *sive insigne* ("or the distinguishing mark") — the gloss series is a string of *sive/vel* alternatives (*clarum et evidens, sive insigne*). Rendered "or the distinguishing mark, of the human figure itself." Minor: the same sentence's `si cum recipitur non minoratur` prints `si` for *sic* ("so"), the correlative of the preceding `sicut cum effunditur non augetur`; rendered "so."
+- **Note:** `sine insigne` is ungrammatical (*sine* takes the ablative *insigni*), but both words are real Latin words, so per Pattern 7 they are rendered as printed: "that is, the clear and evident, without the distinguishing mark of the human figure itself" — which negates what the gloss is asserting. The intended reading is *sive insigne* ("or the distinguishing mark"), the gloss series being a string of *sive/vel* alternatives. Case has no English exponent (Pattern 9), so the *insigne*/*insigni* mismatch cannot be shown. Likewise the same sentence's `si cum recipitur non minoratur` prints `si` ("if") for *sic* ("so"), the correlative of the preceding `sicut cum effunditur non augetur`; both are real words, so it is rendered "if when it is received it is not diminished." An earlier draft read the intended words in both spots; that has been withdrawn.
 
 ## Col 1150A (chunk 0078) — garbled type
 - **Reading (as printed):** `deleta ab animo omnium imagitionum cogitatione in incircumpscritum lumen contemplandum mente proficisci`
-- **Note:** Two plain misprints in one clause: `imagitionum` for *imaginationum* ("of imaginations") and `incircumpscritum` for *incircumscriptum* ("uncircumscribed"). Rendered per sense ("the thought of all imaginations being wiped from the mind, to set forth with the mind to contemplate the uncircumscribed light"); the Latin itself not emended.
+- **Note:** Two plain misprints in one clause: `imagitionum` for *imaginationum* ("of imaginations") and `incircumpscritum` for *incircumscriptum* ("uncircumscribed"). Neither is a word, so both are carried through untranslated in italics per Pattern 7: "the thought of all *imagitionum* being wiped from the mind, to set forth with the mind to contemplate the *incircumpscritum* light." An earlier draft rendered both per sense; that has been withdrawn.
 
 ## Col 1154C (chunk 0079) — person slip in the closing sentence
 - **Reading (as printed):** `Mihi autem solatium affert, quod illius quem exponendum suscepit, in quo sapientia transcendit sanctitas condescendit.`
-- **Note:** `suscepit` (3rd sing., "he undertook") sits awkwardly in a first-person frame (*Mihi ... affert*, "it brings solace to me"); the sense requires *suscepi* ("[whom] I undertook to expound"). Rendered first-person per sense ("that of him whom I undertook to expound"), consistent with the corpus practice for morphological slips (cf. *efferte*→infinitive, *sempe*→"always"); the Latin itself not emended.
+- **Note:** `suscepit` (3rd sing., "he undertook") sits awkwardly in a first-person frame (*Mihi … affert*, "it brings solace to me"); the sense requires *suscepi* ("[whom] I undertook to expound"). It is a real Latin word, so per Pattern 7 it is rendered as printed: "that of him whom he undertook to expound," leaving an unidentified third-person subject in a first-person sentence. An earlier draft rendered it first-person, citing a corpus practice for morphological slips that has since been withdrawn along with the rest of that precedent.
 
 ## Col 1125A (chunk 0070) — garbled type / likely misprint
 - **Reading (as printed):** `Quia seraphim *ardens,* vel *succedens* interpretatur, et significat ignitum`
-- **Note:** In the etymological gloss of *seraphim*, *succedens* ("succeeding") stands beside *ardens* ("burning") and is itself glossed as *ignitum* ("fiery") — a sense *succedens* cannot bear. Almost certainly a misprint for *succendens* ("kindling / setting afire"), a standard companion gloss of *seraphim* alongside *ardens*. Rendered per intended sense ("burning, or kindling"); the Latin itself is not emended.
+- **Note:** In the etymological gloss of *seraphim*, *succedens* ("succeeding") stands beside *ardens* ("burning") and is itself glossed as *ignitum* ("fiery") — a sense *succedens* cannot bear. Almost certainly a misprint for *succendens* ("kindling / setting afire"), a standard companion gloss of *seraphim* alongside *ardens*. But *succedens* is a real Latin word, so per Pattern 7 it is rendered as printed — "seraphim is interpreted *burning,* or *succeeding,*" — leaving a gloss that the following *significat ignitum* contradicts. (The italics here are Migne's, which sets both etymological glosses in italic; they are not a Pattern 7 carry-through marker.) An earlier draft rendered "kindling"; that has been withdrawn.
 
 ## Col 1135C (chunk 0073, LITTERA) — bracketed editorial variant
 - **Reading (as printed):** `intellectuales sulcos revocans [renovans] in susceptionem coelestium`

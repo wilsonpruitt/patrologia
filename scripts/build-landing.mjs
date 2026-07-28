@@ -17,6 +17,13 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-28 session: 6 works, 4- and 5-chunk tiers, smallest-first —
+  'pl/196/de-gemino-paschate',                                 // Richard of St Victor — on the twofold Passover
+  'pl/196/de-differentia-sacrificii-abrahae-a-sacrificio-b-mariae-virginis', // Richard of St Victor — Abraham's sacrifice vs. the Virgin's
+  'pl/196/de-sacrificio-david-prophetae',                      // Richard of St Victor — on the sacrifice of David the prophet
+  'pl/176/de-modo-orandi',                                     // Hugh of St Victor — on the manner of praying
+  'pl/176/de-sapientia-animae-christi',                        // Hugh of St Victor — on the wisdom of Christ's soul
+  'pl/145/de-dignitate-sacerdotii',                            // Peter Damian — on the dignity of the priesthood
   // — 2026-07-24 session: 9 works, 3-chunk tier, smallest-first —
   'pl/145/de-picturis-principum-apostolorum',                  // Peter Damian — on the pictures of the chief apostles
   'pl/173/epistolae',                                          // Peter the Deacon — letters
