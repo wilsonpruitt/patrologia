@@ -241,13 +241,6 @@ a { color: inherit; }
 .colophon .motto .free { color: var(--dorure); }
 .colophon .migne-line { font-style: italic; max-width: 38em; margin: 1.1rem auto 0; font-size: .95rem; opacity: .85; }
 .colophon .fine { font-size: .8rem; margin-top: 1.6rem; letter-spacing: .08em; opacity: .6; }
-/* The rights line is a sentence, not a device line — pull the tracking back in
-   and hold it to a readable measure. */
-.colophon .rights {
-  max-width: 46em; margin: .7rem auto 0;
-  font-size: .76rem; letter-spacing: .01em; line-height: 1.65; opacity: .55;
-}
-.colophon .rights a { text-decoration: underline; text-underline-offset: .18em; }
 .colophon a { color: var(--dorure-pale); }
 
 /* ================= reading page ================= */

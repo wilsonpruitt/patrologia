@@ -8,6 +8,7 @@
 //   3. [n: ...] note markers: same count, same content, same order.
 //   4. Section (## head) count identical.
 //   5. English/Latin word ratio in [0.85, 1.75] (pilots: EN ≈ 1.5× Latin; 1.6+ warns).
+//   7. Guillemet parity vs the Latin twin — a total drop errors, a delta warns.
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
 //      more than once across all chunks (agents re-emitting boundary text).
@@ -66,6 +67,23 @@ for (const c of manifest.chunks) {
   else latNotes.forEach((n, i) => {
     if (n !== engNotes[i]) errs.push(`${name}: note ${i} differs — Latin "[n: ${n}]" vs English "[n: ${engNotes[i]}]"`);
   });
+
+  // 7. Guillemet parity (added 2026-07-28). « » are sacred markers per
+  // translation-style.md (register section + Pattern 5): the English opens and
+  // closes exactly where Migne does, 1:1. Parity against the LATIN TWIN is the
+  // right test rather than internal balance, because Migne himself leaves
+  // quotations unclosed (10103 at 0594B–C) and we mirror the plate.
+  // A total drop is an ERROR — 9852 shipped 2026-07-20 with all 10 of its
+  // charter quotations unmarked and no check caught it. Small deltas WARN:
+  // they are usually Pattern 5 violations (a quote broken around "he says",
+  // which ADDS a pair) but in lemma-and-gloss commentary they can be a
+  // defensible marking choice, so they need an eyeball, not a hard block.
+  const latQ = [lat.body.split('«').length - 1, lat.body.split('»').length - 1];
+  const engQ = [eng.body.split('«').length - 1, eng.body.split('»').length - 1];
+  if (latQ[0] + latQ[1] > 0 && engQ[0] + engQ[1] === 0)
+    errs.push(`${name}: guillemets DROPPED — Latin has «${latQ[0]} »${latQ[1]}, English has none (quotation marks are sacred markers)`);
+  else if (latQ[0] !== engQ[0] || latQ[1] !== engQ[1])
+    warns.push(`${name}: guillemet counts differ — Latin «${latQ[0]} »${latQ[1]} vs English «${engQ[0]} »${engQ[1]}; check translation-style.md Pattern 5 (inquit stays INSIDE the quote — do not break it around "he says")`);
 
   const latHeads = (lat.body.match(/^## /gm) || []).length;
   const engHeads = (eng.body.match(/^## /gm) || []).length;

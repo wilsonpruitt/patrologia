@@ -156,3 +156,32 @@ fixed, `index-work.mjs` extended per rule 9. **Indexed result: 167 inline
 locators, 48 resolved *Ibid.*** — an earlier draft of this file estimated
 ~207, which was an over-count (the work has 171 sentence paragraphs, four of
 them sharing a citation). 167 is the verified figure; do not re-derive it.
+
+### 5. *Inquit* interruptions stay INSIDE the guillemets
+
+**Trigger:** Migne prints a quotation whose attribution verb (*inquit*, *inquam*,
+*ait*, *dicit*) sits *inside* the quotation marks, interrupting the quoted words:
+`« Ego sum, inquit, via et veritas. »` English convention would break the quote
+around the speech tag (`"I am," he says, "the way…"`). **Do not re-punctuate.**
+
+Rule: **guillemets open and close exactly where Migne opens and closes them,
+1:1.** The interrupting verb is translated in place and stays within the quote:
+`« I am, he says, the way and the truth. »` Never split one printed quotation
+into two, never insert a closing-then-reopening pair the plate does not have.
+The quotation is a typographic fact of the page, on the same footing as a column
+anchor; English comma habits do not outrank it.
+
+Corollary — **unclosed quotations stay unclosed.** Migne sometimes opens `«`
+and never closes it. Mirror the plate: do not supply the missing `»`. Log it as
+a crux (column + reading) so the defect is attributed to Migne, not to us.
+
+Mechanical consequence: the indexer's quotation-count parity check (la vs en)
+only holds if this rule holds — "quotation count differs" warnings are almost
+always this pattern, not a real omission.
+
+**Worked instance:** found by post-hoc sweep 2026-07-24 — five English
+quotations had been broken around "he says": 10103 (Peter Damian, *De picturis
+principum apostolorum*) ×3 and 11436 (*Vita et passio S. Thomae Cantuariensis*)
+×2. All rejoined 1:1, which also cleared both index parity warnings. 10103's
+Romans quotation at 0594B–C is **unclosed in Migne**; the supplied `»` was
+removed so the English mirrors the plate, and it is logged as a crux there.
