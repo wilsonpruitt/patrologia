@@ -166,12 +166,44 @@ const transByTitle = new Map(); // `${vol}/${normTitle}` -> translation (volume+
 for (const wk of (worksData.works || worksData)) {
   for (const t of (wk.texts || [])) transByTitle.set(`${t.volume}/${normTitle(t.title)}`, wk.translation || {});
 }
+// A status that does NOT affirmatively establish a verified none. Anything here,
+// plus anything unrecognized, gets the weak claim.
+const NOT_VERIFIED_NONE = new Set(['unclear', 'partial', 'mixed', 'minimal', null, undefined]);
+
+// PG works live outside the PL-derived works.json, so they cannot be looked up.
+// Listed explicitly rather than defaulted, so a PL lookup miss can never inherit
+// a "first" claim by accident. Joel's Chronographia is a verified first — the
+// first complete Byzantine world chronicle in English (Phase 6 PG pilot).
+const PG_FIRSTS = new Set(['/pg/139/chronographia/']);
+
 const isFirstEnglish = w => {
-  // PG pilot works (Joel, etc.) aren't in the PL-derived works.json; they are all
-  // genuine firsts. Default a missing lookup to first, but warn so an unexpected
-  // PL miss surfaces rather than silently claiming "first".
+  // FAIL SAFE (CLAUDE.md rule 8, 2026-07-28). "First English translation" is a
+  // public assertion of scholarly priority and the one claim on this site a reader
+  // cannot check. Absence of evidence is NOT evidence of a first, so a missing,
+  // unclear, or unrecognized status renders "New English translation".
+  //
+  // This previously defaulted the OTHER way — a missing lookup claimed "first" —
+  // and `unclear` fell through the prior-English set entirely. Three works shipped
+  // a false "First" badge as a result (11545, 11546, 11548), two of them with
+  // triage notes explicitly recording an unconfirmed claim that a VTT translation
+  // exists. The weak claim is always true of our work, so this default costs
+  // nothing; the strong one, wrongly made, is not recoverable.
+  //
+  // Do NOT resolve an unknown by going to verify it — rule 8 is explicit that the
+  // badge never justifies a research task. Take the weak claim and move on.
   const tr = transByTitle.get(`${w.vol}/${normTitle(w.title)}`);
-  if (!tr) { console.warn(`  (no works.json status for ${w.path} — defaulting to first-English)`); return true; }
+  if (!tr) {
+    // PG pilot works (Joel etc.) aren't in the PL-derived works.json. They are in
+    // fact genuine firsts, but they are hand-listed in PG_FIRSTS rather than
+    // trusted by default, so a PL miss can never silently inherit the claim.
+    if (PG_FIRSTS.has(w.path)) return true;
+    console.warn(`  (no works.json status for ${w.path} — using "New English translation")`);
+    return false;
+  }
+  if (NOT_VERIFIED_NONE.has(tr.workStatus)) {
+    console.warn(`  (${w.path}: workStatus "${tr.workStatus}" is not a verified none — using "New English translation")`);
+    return false;
+  }
   return !PRIOR_ENGLISH.has(tr.workStatus);
 };
 

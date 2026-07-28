@@ -1,5 +1,39 @@
 # Next session — resume note
 
+## 2026-07-28 (later) — Patterns 7–11, corpus-wide literal sweep, badge fail-safe
+
+**DEPLOYED** (through `a02ea40` + the badge fix). Everything below is live on migne.app.
+
+### Rulings written into `translation-style.md` (Wilson, this session)
+- **Pattern 7 — render the printed Latin literally.** Supersedes the 10103 "intended reading" precedent, which had spread to 26 works. ~120 emendations undone corpus-wide.
+- **Pattern 7 carve-out RULED** — type that is not a word at all is carried into the English untranslated in italics (*bonorem*, *Canetenim*), including inside scripture lemmas.
+- **Pattern 8 — punctuation follows the plate.** Preserve, never supply, never delete.
+- **Pattern 9 — what is NOT a defect:** attested medieval spellings, gender mismatches with no English exponent, section labels (which normalize in English *because* the Latin column preserves the misprint).
+- **Pattern 10 — split type is non-word type** (`ur sam`, `supernatur alis`); carry the whole broken run, even when one fragment is a real word.
+- **Pattern 11 — dittography**: print it twice, mark the repeat `[d: …]`, renders with a dotted underline + "Repeated in Migne's plate". Brackets were rejected as the carrier because square brackets are ALREADY overloaded (Migne's own `[securitas]` vs our supplied `[it]`/`[them]`, ~95 instances). **That overload is unresolved and is the next convention worth settling.**
+
+### CLAUDE.md rule 8 REWRITTEN — verification gates the CLAIM, not the QUEUE
+The queue is now explicitly flexible (anything may be translated; the goal is completing Migne). The gate moved to the landing badge, and **Wilson's emphasis: do NOT go hunting to earn the strong claim — the text is the product, the badge is garnish.** `build-landing.mjs` now FAILS SAFE: missing/`unclear`/unrecognized status renders "New English translation", never "First".
+- **This was a live defect.** The old logic defaulted a missing lookup to "first" and let `unclear` fall through entirely. **Four works were publicly claiming "First English translation" without evidence** — 11545, 11546, 11548 (two with triage notes recording an *unconfirmed* claim that a VTT translation exists) and 11078 `pl/173/epistolae` (`workStatus: null`). All four now read "New". Fixed by downgrading the badge, NOT by researching.
+- PG works are hand-listed in `PG_FIRSTS` rather than defaulted, so a PL lookup miss can never inherit the claim.
+
+### Verifier gained three checks (it had none of them)
+7. **Guillemet parity** vs the Latin twin — 9852 had shipped with all 10 of its charter quotations silently converted to straight quotes and nothing caught it.
+8. **`[d: …]` markers** English-only, never empty, stripped before the word-ratio count.
+Plus two dedupe false-positive bugs fixed: `## ` heads exempt, and the Latin-side dup map now uses a lower word floor than the English (both were >15 words, but English runs ~1.5× Latin, so any Latin unit of 11–15 words tripped it one-sidedly).
+
+### `(cont.)` heads were leaking onto published pages — 293 of them, live
+The chunker re-emits a section head on every chunk a section spans; chunk boundaries are OUR division and invisible on the assembled page. Readers saw "CHAPTER ONE." then "CHAPTER ONE. (cont.)". Now merged in `build-work-page.mjs`, dropped from `heads[]` in `index-work.mjs`, both accepting `(continued)` too (7383 had an agent *translate* the marker).
+
+### METHOD WARNING — do not phrase-match cruces
+The emendation packet keyed on "rendered per the intended reading" and **undercounted by roughly half**: several cruces PREAMBLES declared the old policy as house convention, after which entries applied it silently. True vs briefed: 11066 **33** (5), 11064 **21** (2), 11542 **9** (2), 7561 **7** (1), 8715 **6** (1). Agents were re-scoped mid-flight to read EVERY entry. A sweep that phrase-matches will report itself complete while leaving half the instances in place — worse than not running.
+
+### Also worth knowing
+- **The collapse failure mode runs both ways.** 21413 and 11062 had *deleted* a printed dittography (rendering it once), 21413's crux justifying it as avoiding "nonsensical English". Restored. Neither would have been caught by an emendation sweep, because both cruces described the defect accurately and then under-rendered it.
+- **11556 attribution CONFIRMED as Richard's** (~80%): MS transmission in a homogeneous Richard codex, no doubtful-attribution asterisk in Feiss/VTT 4, and a corpus-wide grep of all 5,276 PL TEI files showing six distinctive phrases occur only there. NOT a *Liber exceptionum* extract — those were mis-shelved into Hugh's PL 177, the opposite direction. The does-English-exist check was deliberately SKIPPED per rule 8; `englishState` stays `unclear` and honest.
+- **11545 has an attribution defect in the TEXT, not the badge**: only the prologue is Richard's, the body is Walter of St Victor's, and the byline says Richard. Unlike a badge, that is part of the edition. Not yet fixed.
+- 3 guillemet instances in 11064 remain unresolved and documented rather than guessed (each would require reordering or duplicating English words).
+
 ## 2026-07-28 — 4+5-chunk tiers (6 works) translated + STAGED; quotation layer overhauled
 
 **NOT deployed** (commit `f776cdc`). Site now **73 english pages** (72 in works.json + the PG Joel work). Queue: **28 works** still pre-chunked in `src/latin/`.
