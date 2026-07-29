@@ -1,5 +1,112 @@
 # Next session — resume note
 
+## 2026-07-29 (eighth) — 2 works (41 ch); Knox on "Englishing"; the [sic:] claim softened; badge-integrity defect found and fixed
+
+### → START HERE: the polarity read is OWED on 11058 and 11553
+`polarity-record.mjs --gate` is **RED** for both, and they were **DEPLOYED ANYWAY**
+on Wilson's explicit call (deploy now, blind read in a fresh session). Per runbook
+step 8(0) that is permitted only if said plainly, so: **two works are live that have
+not had the step-4a blind polarity read.** Do this first.
+
+- 41 chunks, ~0.5M tokens, Opus, **hard-stop applies** — get "which model, and go?"
+- Coverage is NOT zero but it is NOT the step-4a read either. Each translation agent
+  checked negation fidelity **on its own output**, which is the weakest form of the
+  check (the runbook's own rule: a prior pass does not cover this class). The ONE
+  range with a genuine independent read is **11553 0010–0013**, audited blind after
+  its agent stalled — no silent repair found, negation ledger recorded. Treat
+  0010–0013 as done-but-unrecorded and everything else as unread.
+- Expect yield: 11058 is lemma-and-gloss (the richest genre in the sweep's data),
+  11553 is measurement-dense exposition in **PL 196, the dropped-negative volume**.
+
+### What shipped
+**11058** Hugh, *Adnotatiunculae in Threnos* (PL 175, 19 ch) · **11553** Richard,
+*In visionem Ezechielis* (PL 196, 22 ch). 9 Opus agents. verify-english OK on both.
+Site now **88 english pages**. Both earn **"First English translation"** honestly
+(verified `none`, no hunting).
+
+Defects rendered literally, not smoothed: **11058 @0317B** dropped negation (virgins
+*because they corrupt* the faith); **11553 @0553A–B** dropped `non` — **7th of the
+PL 196 cluster**; **11553 @0591B** `Nondum` for `Notandum`; **11553 @0559A + @0560B**
+`quadraginta` for `sexaginta` — **the corruption PROPAGATES across two adjacent
+columns**, so suspect a corrupt exemplar behind that stint, not one slip.
+
+### THE BADGE DEFECT — read this before touching works.json
+Shipping used to flip `workStatus` to `ours` as well as `englishState`, and
+`build-landing` read `ours` as a First claim. So **the routine act of shipping
+overwrote the evidence field rule 8's fail-safe reads, routing around the fail-safe.**
+Rule 8 was written against *absence* of evidence; it had no answer to evidence being
+*destroyed*, because a destroyed value does not look absent — it looks affirmative.
+
+Audited all 78 First claims against git history (15 commits of works.json) + the
+independent `data/triage/perwork/result-*.json` records: **77 earned it, 0 had prior
+English, 1 did not** — **Abbo's *Canones* (4712/9741), the pilot work and style
+anchor**, `workStatus: null` through six commits then flipped straight to `ours`,
+while the author register carries Abbo as `minimal`/unverified. **It was live claiming
+priority.** Now reads "New", downgraded by restoring the null per rule 8 (never by
+researching); a `badgeNote` says why — **do not tidy that null into a `none`.**
+All 49 ever-flipped works restored (48 `none`, 1 null); `ours` added to
+`NOT_VERIFIED_NONE`. Verified per-work, not by counts: exactly one already-live badge
+moved. Convention now in **CLAUDE.md rule 8** and **runbook step 7a**.
+
+### The `[sic:]` attribution, softened (Wilson's ruling)
+Our PL is a **2019 Corpus Corporum transcription**, our PG the Calfa corpus — both
+OCR-derived. Measured across all 5,276 PL files: ~95 n/u confusions (`qnod`, `euim`,
+`Domiuus`, `antem`) plus 19 that only optics explain (`Eeclesia`, `seeundum`, `cst`,
+`aulem`, `esi`). **`Domiuus` is no compositor's sort and no typist's slip; it is a
+scanner's.** So a defect in our files cannot be attributed to Migne's plate — the PL
+analogue of the standing PG rule. 375 `[sic:]` markers across 36 works were claiming
+it. Pattern 12 retitled *"the defect is not ours"*; tooltips now say **"Printed thus
+in the source text."** `/method` gained the disclosure that we work from a
+transcription, the commitment to re-verify against page images as machine reading
+gets cheaper, and Wilson's close: *there will be errors here that are neither ours
+nor Migne's, and that is the journey of transcription and translation.*
+**The marker's meaning and usage did NOT change — only the provenance claim. Nothing
+needs re-marking.**
+
+### Also done
+- **Knox on "Englishing"** — `/method` has a section on the word (MED *englishen*,
+  15c; Knox, *On Englishing the Bible*, 1949) and, better, Knox's **Acts xvii.6
+  `urbem`/`orbem`** case as a precedent for Pattern 7: he knew the true reading,
+  printed it at the foot of the page, and translated the corrupt one — *"it is no
+  part of the translator's business to alter, on however good grounds, his
+  original."* Scan read locally, not committed (Zelzer).
+- **`[nt: …]` is Pattern 15**, not a second Pattern 14 (`[var: …]` keeps 14 — 6
+  references, 4 of them in code).
+- Merge reconciliation: 11058 sense labels → adjective series; **11553 chapter heads
+  swept `CAPUT` → `CHAPTER`** across 13 chunks (drift the pre-set vocabulary could
+  not pre-empt); *peribolus* → "enclosure", *cathetus* unified.
+- **Pre-setting vocabulary WORKS.** Fixing 11553's architectural terms in the launch
+  prompts meant five agents produced one consistent building — zero post-hoc
+  reconciliation, against 3-of-3 works needing it last week. **Do this every time.**
+- Resolver handles **band-less anchors** (`[0533]`); PL 100 col 663 is the shipped
+  precedent. Question closed, do not reopen.
+- **Two agents died on infrastructure** (API connection drop; 600s watchdog stall) and
+  both were recovered by **resuming from transcript with the failure named** — no
+  re-translation. The runbook's recovery note only covers *self-throttling*; worth
+  generalizing.
+
+### → NEXT
+1. **Polarity read on 11058 + 11553** (above). Then `polarity-record.mjs` per work.
+2. **Then change tracks: PG PAIRED PILOT — Fable.** Confirmed against the rubric
+   (Q1 conventions-govern-future-sessions; Q4 pilot-before-volume; tier map "Press
+   pilots… applies to Patrologia"; and it is item 3 on the front-load list).
+   **Fable does:** how Greek+Latin ingest as a mutually-confirming pair, the verifier
+   contract, what a Greek/Latin divergence note looks like on the page (PLAN.md rule
+   6's "scholarly gold" — we can currently produce none), a Greek register section for
+   `translation-style.md`, and which works to pilot. **Fable does NOT do:** harvesters,
+   column-mapping code, ingest runs, translation batches — all Opus or cheaper, off a
+   written spec. **Ordering note for Wilson:** "add PG texts to the queue" must be an
+   OUTPUT of the pilot, not an input — only Joel is in hand, there is no Latin twin for
+   anything, and chunking Greek-only texts now is exactly the build-against-assumptions
+   his 07-29 ruling forbids.
+3. `9637 Ordo` — still a Fable mini-pilot, still deliberately skipped, now the 2nd
+   Fable-shaped item queued.
+4. Translation queue **13 works**; next tier 7914 (23 ch) — **settle the
+   Song-of-Songs lemma-harmonization question first**, still undecided.
+5. Wilson still owes: the **real-word-typo convention** (11553 @0540B `Ei` for `Et`;
+   11081 @0030B `munde` for `mundo`) — Pattern 7 keeps producing English that reads
+   as our error in the one case Pattern 12 does not cover.
+
 ## 2026-07-28 (seventh) — CORPUS POLARITY SWEEP COMPLETE: 89 units, 178 sites, 24 of our own fixed
 
 **NOT deployed.** Commit `54567ed`. **Deploy is owed and needs Wilson's OK** — it must
