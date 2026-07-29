@@ -78,9 +78,25 @@ agent 11208).
      pair. (The two known PG 139 divergences from the 2026-07-03 pilot — Joram βʹ vs
      *duodecim*, Michael VII ζʹ vs *sex* — were found against a SCAN, not a harvested
      column, and still await Wilson's ratification.)
-   Scans exist (`data/volumes.json` covers 162 PG volume scans); `scripts/pg-page-column-map.mjs`
-   and the two `gapfill-pg-*.mjs` harvesters are the starting points. **PG 139 first** —
-   it is the only PG tome with English on the site.
+   **Wilson's call, 2026-07-29 — the order is PILOT, THEN BACKFILL.** Do **not** start by
+   backfilling Latin onto the Greek already in hand. **Pilot a few more PG works with
+   Greek and Latin ingested TOGETHER, so the two columns confirm each other**, and let
+   those pilots surface the problems we cannot predict yet — tooling built now would be
+   built against assumptions. Joel/PG 139 gets its Latin backfilled *after* the paired
+   pilots, not before; its two provisional findings simply wait.
+
+   Why paired beats backfill: a backfill can only check a corpus already committed to.
+   Ingesting both columns makes them mutually corroborating from the start — Calfa's
+   OCR damage is caught by the Latin, and a real plate defect surfaces as a Greek/Latin
+   **divergence** (the "scholarly gold" of PLAN.md rule 6) rather than an
+   unfalsifiable suspicion about our own source file.
+
+   Starting points when it begins: 162 PG volume scans are registered in
+   `data/volumes.json`; `scripts/pg-page-column-map.mjs` plus the two `gapfill-pg-*.mjs`
+   harvesters exist. Known gotchas from the 2026-07-03 pilot, all still live: Calfa `$8`
+   = PDF page not column; Greek and Latin swap sides every page; scan-leaf↔PDF-page
+   offset DRIFTS within a volume (PG 139 tail +2), so column-map verification must use
+   distinctive tokens.
 1. **Deploy** (needs Wilson's OK): 14 works fixed here + 11536/11547 from last session.
 2. Decide 10083 and 9604 above.
 3. `data/sweeps/corpus-polarity/OUT-OF-SCOPE-NOTES.md` holds real defects outside this

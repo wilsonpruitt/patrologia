@@ -19,9 +19,19 @@ Per the Labs-vs-Press doctrine: the corpus is the **open layer** — free readin
    > Joel had to read Greek against English blind, and its plate-side findings are
    > therefore **provisional**. The Calfa transcription is heavily OCR-damaged (`Κφιε`
    > for `Κύριε`, mangled numerals), so a bad Greek reading is evidence about our source
-   > file before it is evidence about Migne's plate. **Harvest the column into the repo
-   > so the verifier persists past the translating session.** Until then no PG finding
-   > may be attributed to Migne on our side of the page alone.
+   > file before it is evidence about Migne's plate.
+   >
+   > **DECISION (Wilson, 2026-07-29) — do NOT backfill Latin onto the existing Greek.
+   > Pilot a few more PG works first, ingesting Greek and Latin TOGETHER so the two
+   > columns confirm each other at ingest time.** Rationale: a backfill can only ever
+   > check a corpus we already committed to; paired ingest makes the columns mutually
+   > corroborating from the start — Calfa's OCR damage is caught by the Latin, and a
+   > genuine plate defect surfaces as a Greek/Latin *divergence* (rule 6's "scholarly
+   > gold") instead of an unfalsifiable suspicion. More pilots will also surface
+   > problems we cannot predict yet, and tooling built now would be built against
+   > assumptions. **Backfill of PG 139/Joel comes after the paired-ingest pilots, not
+   > before.** Until then no PG finding may be attributed to Migne on our side of the
+   > page alone.
 
 **Architecture decision (Wilson, 2026-07-02) — "the total Migne, complete map first":**
 The eventual goal is the total Migne easily accessible in English AND Latin. The bones must hold that from day one, and early translations must not feel dwarfed inside a centimillion-word corpus. Resolution: **ONE canonical structure, complete at the map level from launch** — not separate per-piece constructions.
