@@ -29,6 +29,26 @@ since has managed to be. Second, column numbers here follow the original
 Migne plates; the Garnier reprints made after the 1868 fire were reset with
 different column breaks, so citations against a Garnier printing may drift.
 
+## A note on the word *Englished*
+
+This site says that a work has been *Englished*, lists its authors as *the
+Englished*, and tells you of a work it has not reached that it is *not yet
+Englished*. On a page that also discloses that the drafting is done by machine,
+the word can look like something a machine coined. It is a good deal older than
+that. *To English* is a medieval English verb — the *Middle English Dictionary*
+gives *englishen*, "to put into English: to paraphrase or translate a foreign
+text," with citations from the fifteenth century — and it stayed in ordinary
+use for the five hundred years after. Ronald Knox, who translated the whole
+Vulgate single-handed at the commission of the bishops of England and Wales
+(the New Testament published in 1945, the Old in 1949), called his account of
+that work *On Englishing the Bible* (London: Burns, Oates & Washbourne, 1949).
+
+It is used here for the reason it has always been used: it names the act
+without claiming the honours of authorship. A text that has been Englished has
+been carried over into the language and can now be read by someone who has no
+Latin. It has not thereby been given its definitive English version, and this
+edition does not pretend to have made one.
+
 ## How the translation is made
 
 The English on this site is drafted by large language models working under a
@@ -88,6 +108,17 @@ Richard of St Victor assert the contrary of his own argument — there are two
 such places in the works translated so far, at PL 196 col. 1054A and col.
 1069D — is exactly the kind of thing an edition exists to expose. Emend it and
 you have produced smooth prose and a worthless witness.
+
+The rule is not this project's invention, and it is not an artifact of
+translating by machine. Ronald Knox met exactly this case while Englishing the
+Vulgate. At Acts xvii. 6 the Clementine text reads *urbem*, the city, because a
+copyist had written it for *orbem*, the world; Knox knew which reading was
+right and said so in print — and then translated the corrupt one anyway, "who
+turn the state upside down," on the ground that "it is no part of the
+translator's business to alter, on however good grounds, his original." The
+true reading went to the foot of the page and the text kept what the page
+printed. That is the division of labour here, with the cruces doing the work
+Knox's footnotes did.
 
 In practice:
 
