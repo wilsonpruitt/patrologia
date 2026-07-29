@@ -218,6 +218,29 @@ First agent of a fresh session additionally gets the permission test (Write
 self-throttles, relaunch WITH the failure named verbatim in the prompt (this converts
 ~30% throttle rate to ~0 — Acta data).
 
+**Agents also die of TRANSPORT, which is a different thing from self-throttling and is
+recovered the same way.** Three modes hit in one session (2026-07-29): an API connection
+closed mid-response, a 600s watchdog stall with no progress, and `529 Overloaded` at
+launch. None is a judgment failure and none should be treated as one.
+
+- **Recover by RESUMING the agent (SendMessage), never by relaunching a fresh one.** The
+  original brief is still in its transcript, so the message need only (a) name the
+  failure, (b) state that it was transport and **not** a limit it hit, so it must not
+  shorten its work, and (c) list what is already on disk vs still missing. A long
+  re-statement of the brief wastes tokens and risks drifting from what it was actually
+  given. Both mid-run failures this way finished their batches with nothing re-done.
+- **Check disk before resuming.** A stalled agent may have written some files and no
+  apparatus (one wrote all four chunks and no `cruces` file, and `verify-english`
+  passed, so the gap was invisible to the verifier — the cruces hole was found by
+  eye). Tell the resumed agent exactly which files exist and to re-check the last one
+  for truncation.
+- **529 at launch means the API is saturated: back off, do not hammer.** Six launches
+  and one post-backoff resume all failed instantly. Retrying into it produces more
+  instant deaths and no information. Wait, then resume a SMALLER wave than the cap so
+  there is room. If it persists, stop and defer the run — a check that keeps getting
+  interrupted yields a thin "nothing new" that looks like a pass, which is worse than
+  not running it.
+
 ## The Song-of-Songs queue (all pre-chunked, verified-none, EN ≈ 1.5× Latin words)
 
 **Shipped as of 2026-07-28** — 7383 (Expositio cantici Magnificat), 11062 (Hugh,

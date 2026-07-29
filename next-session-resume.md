@@ -2,19 +2,34 @@
 
 ## 2026-07-29 (eighth) — 2 works (41 ch); Knox on "Englishing"; the [sic:] claim softened; badge-integrity defect found and fixed
 
-### → START HERE: the polarity read is OWED on 11058 and 11553
+### → START HERE: the polarity read is OWED on 11058 and 11553 — ATTEMPTED AND DID NOT RUN
 `polarity-record.mjs --gate` is **RED** for both, and they were **DEPLOYED ANYWAY**
-on Wilson's explicit call (deploy now, blind read in a fresh session). Per runbook
-step 8(0) that is permitted only if said plainly, so: **two works are live that have
-not had the step-4a blind polarity read.** Do this first.
+on Wilson's explicit call (deploy now, blind read later). Per runbook step 8(0) that is
+permitted only if said plainly, so: **two works are live that have not had the step-4a
+blind polarity read.**
 
-- 41 chunks, ~0.5M tokens, Opus, **hard-stop applies** — get "which model, and go?"
+**It was attempted 2026-07-29 and never got off the ground: eight units designed, six
+launched, and every launch — plus one resume after a 150s backoff — died instantly on
+`API 529 Overloaded`. Seven consecutive failures, no agent read a line, nothing partial.
+Wilson stopped the launching.** Three resumed units were still in flight at that moment;
+**check `data/sweeps/polarity-11058-11553/` for JSON before relaunching anything** — any
+unit file present is done, the rest are not.
+
+**Everything needed to run it is written down:**
+`data/sweeps/polarity-11058-11553/README.md` — unit table (8 units), what coverage
+already exists and must NOT be mistaken for this read, the known sites to use as
+controls, and expected yield by genre.
+`data/sweeps/polarity-11058-11553/PROMPT.md` — the complete reusable agent prompt.
+**Do not rebuild either. Change only the unit assignment and output path.**
+
+- 41 chunks, ~0.5M tokens, Opus, ≤6 parallel, **hard-stop applies** — get "which model,
+  and go?"
 - Coverage is NOT zero but it is NOT the step-4a read either. Each translation agent
-  checked negation fidelity **on its own output**, which is the weakest form of the
-  check (the runbook's own rule: a prior pass does not cover this class). The ONE
-  range with a genuine independent read is **11553 0010–0013**, audited blind after
-  its agent stalled — no silent repair found, negation ledger recorded. Treat
-  0010–0013 as done-but-unrecorded and everything else as unread.
+  checked negation fidelity **on its own output**, the weakest form of the check (the
+  runbook's own rule: a prior pass does not cover this class). The ONE range with a
+  genuine independent read is **11553 0010–0013**, audited after its agent stalled —
+  no silent repair found, negation ledger recorded. Treat 0010–0013 as
+  done-but-unrecorded and everything else as unread.
 - Expect yield: 11058 is lemma-and-gloss (the richest genre in the sweep's data),
   11553 is measurement-dense exposition in **PL 196, the dropped-negative volume**.
 
