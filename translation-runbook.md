@@ -141,7 +141,7 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 >   place. Your chunk's frontmatter `colContext`/`noteCount` tell you what to expect —
 >   count your markers before writing each file.
 > - Notes `[n: ...]`: reproduce verbatim (contents untranslated — they are Migne's
->   citations). Same count, same order. **Exception — pattern 14:** a note whose
+>   citations). Same count, same order. **Exception — pattern 15:** a note whose
 >   content is editorial PROSE rather than a citation is translated and re-marked
 >   `[nt: ...]` at the same position. Judge by content, not length.
 > - `## ` heads: translate the head text, keep the `## ` line structure 1:1.

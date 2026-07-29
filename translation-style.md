@@ -637,7 +637,7 @@ divergence was on that sweep's do-not-report list. Assume unmarked divergences r
 in the 86 shipped works; mark them as they are found, and do not read the absence of a
 `[var: …]` as evidence that a citation agrees with the Vulgate.
 
-### 14. `[nt: …]` — a note that is PROSE, not a citation, and is translated
+### 15. `[nt: …]` — a note that is PROSE, not a citation, and is translated
 
 `[n: …]` contents stay verbatim Latin because they are Migne's *citations* —
 `(Gen. II)`, *De consid.* l. 3, c. 3. That rule was written for locators, and
