@@ -185,3 +185,20 @@ Hugh of St Victor, PL 175. Agent stint covering chunks 0015, 0016, 0017, 0018
   Not reported as a defect: band marks are positional quarter-guides, and no text
   is broken across the anchor (a sentence closes at *Recte ergo dicitur.* before
   it). Logged only so a later reader does not re-open it.
+
+## Polarity read, 2026-07-29 — one accuracy fix (OURS)
+
+- **@0316A `instantia mala` — "present" → "impending". FIXED in `0017.md`.** Hugh sets
+  prudence against *instantia mala prospiciendo* and devotion against *mala praeterita
+  supplicando*, then names the pair himself three lines later: *praeteritorum malorum
+  memoria, et futurorum cautela* (0316B). The antithesis is past against **future**, so
+  *instantia* here is *impending*, not *present* — and "foreseeing present evils" does
+  not cohere on its own terms either. Not a polarity defect (it flattens an antithesis
+  rather than reversing a claim), which is why the blind reader correctly declined to
+  report it as one and passed it on as an accuracy nit. Recorded here because a rejected
+  candidate that is nonetheless a real error is exactly the kind of finding that
+  otherwise evaporates.
+- Blind polarity read of chunks 0015–0018 otherwise found **1 site, 0 new** (@0317B, the
+  dropped `non` already logged above). Chunks 0015, 0016, 0018 read clean; 0017 clean
+  apart from @0317B. Six further candidates examined and rejected with reasons — see
+  `data/sweeps/polarity-11058-11553/11058-u4.json` and the agent report.

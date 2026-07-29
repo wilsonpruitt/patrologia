@@ -86,9 +86,16 @@ the affirmative**.
 
 Write `data/sweeps/<SWEEP>/<IDNO>-uN.json`:
 
+**⚠ Use a PLACEHOLDER column in the schema example, never a real one.** On 2026-07-29
+two unit prompts illustrated the schema with the actual column of a known defect —
+`0317B` for 11058-u4 and `0540B` for 11553-u1 — which told those agents where to look
+and silently broke the blindness the rest of the prompt exists to protect. The 11058-u4
+agent then "independently" rediscovered 0317B, and that rediscovery is worth much less
+as evidence than it appears. Keep the example abstract:
+
 ```json
 {"agent":"<IDNO>-uN","idno":"<IDNO>","chunks":"NNNN-MMMM","chunksRead":N,
- "findings":[{"chunk":"0002","column":"0263A","side":"migne",
+ "findings":[{"chunk":"NNNN","column":"<COLUMN>","side":"migne",
    "printedLatin":"...","englishAsRendered":"...",
    "defectType":"dropped-non|intrusive-negative|sense-reversing-letter|dropped-word|inversion|misplaced-negative|opposite-word|connective-smoothed|comparative-reversed|reference-misbound",
    "conjecture":"...","whyContradiction":"quote the neighbour that makes the printed reading impossible",
