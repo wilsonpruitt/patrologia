@@ -1,5 +1,76 @@
 # Next session — resume note
 
+## 2026-07-28 (seventh) — CORPUS POLARITY SWEEP COMPLETE: 89 units, 178 sites, 24 of our own fixed
+
+**NOT deployed.** Commit `54567ed`. **Deploy is owed and needs Wilson's OK** — it must
+carry the 14 works fixed here AND 11536 + 11547 from the sixth session, which were
+fixed/rebuilt then and never shipped.
+
+### What ran
+Every unit of `data/sweeps/NEXT-SESSION-BRIEF.md`, blind, Opus throughout, 6 agents per
+round. **68 works · 454 chunks · 178 sites.** Nothing skipped, sampled, or truncated.
+Full write-up: `data/sweeps/corpus-polarity/REPORT.md` and `PROGRESS.md`.
+
+- side: **Migne 152 · ours 26** · confidence: high 55 / medium 92 / low 31
+- types: sense-reversing-letter 76 · dropped-word 38 · dropped-non 31 · added-negative 30
+- **18 works completely clean**
+
+### The finding is the DISTRIBUTION, not the average
+**11064 alone = 41 sites (23% of the total). 11064 + 11066 = 36% of all sites and 10 of
+the 26 ours.** Everything else runs 0–9. The brief's hypothesis is confirmed: the
+earliest, largest translations done under the withdrawn "intended reading" precedent
+carry the damage. **Do not plan future work off the corpus average.**
+
+### The silent repair is a CLASS, not a lapse — 8625 is the proof
+**8625 @0940B**: Migne prints `fuscatur` ("is darkened"); our English read "**is
+cleansed**." The exact opposite verb, chosen because baptism is the subject. Different
+volume, century, and translator's stint from 11547's `azyma`→"leaven". It is what
+happens whenever a translator meets a defective plate with no rule to stop and log it.
+Now restored to the literal reading + crux. **Undoing a silent repair is a fix.**
+
+Five distinct mechanisms by which OUR English inverts sense, all found blind:
+opposite word substituted · printed negation dropped · **connective smoothed** (a second
+`sed` rendered "yet", 8777 @0191B — leaves no lexical trace, ungreppable) · comparative
+reversed · reference/agency mis-bound (`qui`/`cui` 8708, pronoun binding 11086, ablative
+agent 11208).
+
+### TWO of the 26 deliberately NOT edited — need Wilson's call
+- **10083 @0493D** — our English is already literal to the plate (`requiescere faciam`).
+  Changing it to Hosea's `quiescere` sense would be a silent emendation. Crux logged.
+- **9604 @1347D** — the printed Latin is itself corrupt and construes neither way.
+  Emend openly or mark `[sic]`?
+
+### Method findings — reusable
+1. **Blind works.** 178 sites where PL 196's cruces-first stage-1 returned "nothing new"
+   for 17 straight works.
+2. **False-positive discipline held across 89 units.** Agents rejected authorial chiasms,
+   an attested `nullus`-for-`ullus` idiom, `lux` = "this present life", a passage
+   treating BOTH arrangements of Peter and Paul, and a suspected dropped `non` that
+   grammar refuted (concessive `sed` needs an affirmative). **Findings not made are as
+   much the result as findings made.**
+3. **Genre predicts yield.** Lemma-and-gloss commentaries are richest (author quotes his
+   lemma twice, so the plate supplies its own contradicting neighbour). Terse aphorism
+   collections next — 8195 gave 7 sites in 3 chunks; a maxim missing its `non` still
+   sounds like a maxim. Annals/charters/regnal lists are nearly immune.
+4. Schema: agents independently needed `inversion` and `misplaced-negative` beyond the
+   four original types. Apparatus-supported defects (21413 @0666B, Migne's own `F.` reads
+   correctly against his text) deserve their own tier — that is better evidence than a
+   conjecture, and it was scored *down* for it.
+5. `scripts/build-polarity-report.mjs` is idempotent; `--cruces` refreshes rather than
+   stacks. Re-run it after any further fixes.
+
+### → NEXT SESSION
+1. **Deploy** (needs Wilson's OK): 14 works fixed here + 11536/11547 from last session.
+2. Decide 10083 and 9604 above.
+3. `data/sweeps/corpus-polarity/OUT-OF-SCOPE-NOTES.md` holds real defects outside this
+   sweep's class — 11088's bad plate throughout chunks 0000–0007, a "Conrad II" for
+   Conrad III heading, `claritatis` for `charitatis`, our own `secus` (= "sex") read as
+   an adverb. None fixed; none are polarity.
+4. Translation queue untouched at **15 works**; next tier 11058 (19 ch), 11553 (22),
+   7914 (23). **Settle the Song-of-Songs lemma-harmonization question before 7914** —
+   and note 10379's own prologue defect found here (@1362B `nomine` for `nemine`).
+5. `9637 Ordo` still a Fable mini-pilot, not an Opus batch.
+
 ## 2026-07-28 (sixth) — PL 196 polarity sweep: 29 sites, TWO of them ours; corpus sweep set up for next session
 
 **NOT deployed.** Commits `162fb80` (rules), `d2a4c7c` (sweep). Site still 86 english pages — but **two published pages changed**, so this needs a deploy.
