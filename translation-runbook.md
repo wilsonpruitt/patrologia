@@ -104,6 +104,14 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    generic fallback is acceptable at stage time.
 7. **Stage only.** Deploy belongs to Wilson's deploy session (per-action OK).
    Wilson's read-through gates every work.
+7a. **Marking a work shipped:** set `translation.englishState = "ours"` in
+   `data/works.json` and **leave `translation.workStatus` exactly as triage left
+   it** — including `null`. `workStatus` is the evidence the landing badge reads;
+   overwriting it with `ours` is what put a false "First English translation" on
+   Abbo's *Canones* (CLAUDE.md rule 8, fixed 2026-07-29). `ours` is now in the
+   builder's `NOT_VERIFIED_NONE` set, so a re-introduced flip fails safe to the
+   weak claim rather than lying — but it still destroys the triage record.
+
 8. **Deploy checklist — every time, no skipping:** when Wilson gives the OK to deploy,
    **(0) run `node scripts/polarity-record.mjs --gate` first — it exits nonzero if any
    englished work has never had the step-4a read. It caught the site's only PG work

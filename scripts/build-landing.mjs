@@ -17,6 +17,9 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-29 session: 2 works, the 19- and 22-chunk tier —
+  'pl/196/in-visionem-ezechielis',                               // Richard of St Victor — on Ezekiel's vision of the temple
+  'pl/175/adnotatiunculae-in-threnos',                           // Hugh of St Victor — brief notes on Lamentations
   // — 2026-07-28 session (fifth): 3 works, 16- and 17-chunk tier —
   'pl/164/expositio-in-cantica-canticorum',                      // Bruno of Segni — on the Song of Songs (first of the Song commentaries)
   'pl/196/de-exterminatione-mali-et-promotione-boni',            // Richard of St Victor — the driving out of evil and the advancement of good
@@ -174,8 +177,9 @@ const counts = worksData.counts;
 // translation status per work, keyed by volume + numeric first column (e.g. "50/637").
 // Used to decide the RECENT badge: a work with a prior English (workStatus
 // pd-ingested/copyrighted — a DELIBERATE re-translation) must NOT claim "First English
-// translation". Genuine untranslated-first works (workStatus none, or ours-from-none)
-// keep the "first" claim.
+// translation". Only a work whose TRIAGE verdict is a verified none keeps the "first"
+// claim. "ours-from-none" used to qualify and no longer does: 'ours' cannot be told
+// apart from 'ours-from-anything' once written, which is precisely how it failed.
 const PRIOR_ENGLISH = new Set(['pd-ingested', 'copyrighted', 'elsewhere']);
 const normTitle = s => String(s).toLowerCase().replace(/\s+/g, ' ').trim();
 const transByTitle = new Map(); // `${vol}/${normTitle}` -> translation (volume+title is unique; vol+colFirst is not — packed short works share a column)
@@ -184,7 +188,18 @@ for (const wk of (worksData.works || worksData)) {
 }
 // A status that does NOT affirmatively establish a verified none. Anything here,
 // plus anything unrecognized, gets the weak claim.
-const NOT_VERIFIED_NONE = new Set(['unclear', 'partial', 'mixed', 'minimal', null, undefined]);
+//
+// 'ours' is in this set (2026-07-29) and that is the point. Shipping a work used
+// to overwrite workStatus with 'ours', which the old logic read as a First claim —
+// so the routine act of shipping silently destroyed the evidence field this
+// fail-safe reads, and routed around the fail-safe itself. Absence of evidence was
+// handled; OVERWRITING of evidence was not. Abbo's Canones (workIdno 4712) went
+// live claiming priority on exactly that path: its workStatus was null, was never
+// triaged at work level, and the author register has Abbo as 'minimal', unverified.
+// All 49 flipped works have been restored from git history (48 were 'none', 1 null).
+// workStatus now holds the TRIAGE verdict permanently; englishState: 'ours' is what
+// records that we shipped it. Never conflate the two again.
+const NOT_VERIFIED_NONE = new Set(['unclear', 'partial', 'mixed', 'minimal', 'ours', null, undefined]);
 
 // PG works live outside the PL-derived works.json, so they are looked up in their
 // own register. This READS data/pg-works.json rather than hardcoding a list: that

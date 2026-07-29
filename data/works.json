@@ -1656,8 +1656,9 @@
       "colLast": "508A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
-        "englishState": "ours"
+        "workStatus": null,
+        "englishState": "ours",
+        "badgeNote": "never triaged at work level; workStatus was null and was overwritten by the shipping flip. Restored 2026-07-29. Renders 'New English translation' by the rule-8 fail-safe. Do NOT set this to 'none' without per-work evidence — the author register has Abbo Floriacensis as 'minimal', unverified."
       },
       "texts": [
         {
@@ -6997,7 +6998,7 @@
       "colLast": "200A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De modo regiminis ecclesiastici: no English translation found in searches of Fordham Medieval Sourcebook, Academia.edu, or academic databases.",
         "confidence": "high",
@@ -10805,7 +10806,7 @@
       "colLast": "664C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Vita S. Martini Turonensis - Life of Saint Martin of Tours; no direct English translation identified. (Note: Alcuin is credited with revising an earlier vita; Peter Godman's 'Bishops, Kings, and Saints of York' is a different work.)",
         "confidence": "medium",
@@ -10981,7 +10982,7 @@
       "colLast": "666D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "In Cantica canticorum - Commentary on Song of Songs; no English translation found.",
         "confidence": "high",
@@ -19636,7 +19637,7 @@
       "colLast": "1228B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Anselmus Laudunensis - Enarrationes in Cantica canticorum - Biblical commentary (17,578 words); no English translation found despite searches of patristic translation series.",
         "confidence": "high",
@@ -19724,7 +19725,7 @@
       "colLast": "1592C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Anselmus Laudunensis - Epistola - Brief letter (2,029 words); no English translation found.",
         "confidence": "medium",
@@ -27183,7 +27184,7 @@
       "colLast": "78A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Exhortatio ad monachos (anonymous) - monastic exhortation; appears in Migne's Patrologia Latina Database but no English translation identified.",
         "confidence": "medium",
@@ -29066,7 +29067,7 @@
       "colLast": "1142",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Expositio cantici Magnificat: No specific English translation found; compilation volumes of medieval Magnificat commentaries exist but not this work alone.",
         "confidence": "high",
@@ -29381,7 +29382,7 @@
       "colLast": "1212",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De unitate sanctae Trinitatis: No specific English translation found despite searches for medieval Trinity treatises.",
         "confidence": "medium",
@@ -46481,7 +46482,7 @@
       "colLast": "1104C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De primordiis et inventione sacrae religionis Hierosolymorum: No English translation found for this medieval text on the origins and founding of Jerusalem monasticism.",
         "confidence": "high",
@@ -48065,7 +48066,7 @@
       "colLast": "1204C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Flores seu sententiae ex S. Bernardo (Auctor incertus, PL 183). Excerpts/maxims from Bernard of Clairvaux, compiled by anonymous editor; no English translation found for this compilation, though Bernard's original works are translated.",
         "confidence": "high",
@@ -49033,7 +49034,7 @@
       "colLast": "1050A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "In parabolam de decem virginibus (commentary on ten virgins parable): No English translation of this specific Migne text located despite searches.",
         "confidence": "high",
@@ -81981,7 +81982,7 @@
       "colLast": "398C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "No English translation found. This sermon on Rogation Days is available only in Latin.",
         "confidence": "medium",
@@ -131139,7 +131140,7 @@
       "colLast": "436A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours"
       },
       "texts": [
@@ -132655,7 +132656,7 @@
       "colLast": "358D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours"
       },
       "texts": [
@@ -145460,7 +145461,7 @@
       "colLast": "990B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Instructio ad Ludovicum Balbum — pre-coronation instruction to Louis the Stammerer (2,170 words); no English translation found despite searches of royal advice literature.",
         "confidence": "high",
@@ -145636,7 +145637,7 @@
       "colLast": "1094A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Quae exsequi debeat episcopus — episcopal duties text (2,366 words); no English translation identified.",
         "confidence": "high",
@@ -150720,7 +150721,7 @@
       "colLast": "96C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Adnotatiuncula in librum Ruth — no English translation found. This brief annotation on Ruth (37 words) appears not to have been translated.",
         "confidence": "high",
@@ -150853,7 +150854,7 @@
       "colLast": "96B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Adnotatiunculae in librum Judicum — no English translation found despite search. Brief annotation on Judges (3,623 words) remains untranslated.",
         "confidence": "high",
@@ -150986,7 +150987,7 @@
       "colLast": "432B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Explanatio in Canticum B. Mariae — translated by us (Opus, 2026-07-05 Song-of-Songs queue session), live at migne.app/pl/175/explanatio-in-canticum-b-mariae/. Superseded the earlier 'none' triage finding (batch 33) once we shipped it ourselves.",
         "confidence": "high",
@@ -151075,7 +151076,7 @@
       "colLast": "1154C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Expositio in Hierarchiam Coelestem S. Dionysii — no English translation found despite extensive search. Major commentary on Pseudo-Dionysius (89,106 words; PL 175.923–1154) remains untranslated.",
         "confidence": "high",
@@ -151163,7 +151164,7 @@
       "colLast": "634A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Quaestiones in Epistolas Pauli — attributed to pseudo-Hugonian (later Victorine author, not Hugh himself per scholarly consensus). No English translation found for this work.",
         "confidence": "high",
@@ -151383,7 +151384,7 @@
       "colLast": "1009",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De fructibus carnis et spiritus — no English translation found despite search. Small treatise (2,971 words) remains in Latin only.",
         "confidence": "high",
@@ -151515,7 +151516,7 @@
       "colLast": "988A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "confidence": "medium",
         "triageBatch": "33",
@@ -151559,7 +151560,7 @@
       "colLast": "842A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De potestate et voluntate Dei — no English translation found. Very brief treatise (841 words) on divine power and will remains untranslated.",
         "confidence": "high",
@@ -151603,7 +151604,7 @@
       "colLast": "846C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De quatuor voluntatibus in Christo — no English translation found despite search. Treatise on Christ's four wills (1,840 words) remains in Latin only.",
         "confidence": "high",
@@ -151736,7 +151737,7 @@
       "colLast": "856D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "confidence": "high",
         "triageBatch": "33",
@@ -151869,7 +151870,7 @@
       "colLast": "1018A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Epistolae — no complete English translation found. Hugh's letters (2,417 words total) remain in Patrologia Latina only; individual letters may appear in scholarly articles.",
         "confidence": "high",
@@ -152002,7 +152003,7 @@
       "colLast": "18B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Institutiones in Decalogum — no English translation found despite search. Brief treatise on the Ten Commandments (3,441 words) remains untranslated.",
         "confidence": "high",
@@ -161299,7 +161300,7 @@
       "colLast": "994B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours"
       },
       "texts": [
@@ -162412,7 +162413,7 @@
       "colLast": "632C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De celanda confessione: Brief work described as address on primatical authority; no English translation found.",
         "confidence": "high",
@@ -173883,7 +173884,7 @@
       "colLast": "1056A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Sermon on feast of St. Andrew by Nicholas of Clairvaux. No English translation located.",
         "confidence": "high",
@@ -176169,7 +176170,7 @@
       "colLast": "1128B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Homilia de villico iniquitatis: Homily; no English translation found.",
         "confidence": "high",
@@ -184127,7 +184128,7 @@
       "colLast": "1056D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De divisione et scriptoribus sacrorum librorum (On the Division and Writers of Sacred Books). Biblical introductory work. No English translation located despite searches.",
         "confidence": "high",
@@ -185935,7 +185936,7 @@
       "colLast": "1032B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Passio SS. Florae et Lucillae — no English translation found despite searches in hagiography databases and medieval studies resources.",
         "confidence": "high",
@@ -186023,7 +186024,7 @@
       "colLast": "952C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Vita S. Mauri — no English translation located in FOTC, hagiography anthologies, or academic sources.",
         "confidence": "high",
@@ -187079,7 +187080,7 @@
       "colLast": "716C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De castitate et mediis eam tuendi — no English translation located in moral or spiritual theology sources.",
         "confidence": "high",
@@ -187211,7 +187212,7 @@
       "colLast": "498A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "confidence": "high",
         "triageBatch": "23",
@@ -196297,7 +196298,7 @@
       "colLast": "1430D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De passione Domini: No English translation found for this treatise on the Passion of Christ.",
         "confidence": "high",
@@ -200903,7 +200904,7 @@
       "colLast": "1032C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De comparatione Christi ad florem et Mariae ad virgam — no English translation found. Very brief opusculum (336 words, PL 196.1031–32); not present in any VTT volume checked.",
         "confidence": "medium",
@@ -200991,7 +200992,7 @@
       "colLast": "1060A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "confidence": "medium",
         "triageBatch": "50",
@@ -201124,7 +201125,7 @@
       "colLast": "1074B",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "confidence": "medium",
         "triageBatch": "50",
@@ -201212,7 +201213,7 @@
       "colLast": "1186D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De judiciaria potestate in finali et universali judicio — no English translation found. Historically published together with De potestate ligandi et solvendi (which IS translated in VTT 10), but this Last-Judgment treatise itself was not located in translation anywhere.",
         "confidence": "medium",
@@ -201344,7 +201345,7 @@
       "colLast": "1042D",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "confidence": "medium",
         "triageBatch": "50",
@@ -201388,7 +201389,7 @@
       "colLast": "1192C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "De spiritu blasphemiae — no English translation found. An Italian translation exists (Sulla blasfemia, trans. Manlio Della Serra), confirming no English version has superseded it.",
         "confidence": "medium",
@@ -201564,7 +201565,7 @@
       "colLast": "266C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Declarationes nonnullarum difficultatum Scripturae — no English translation found. PL 196:266B. Only the Ribaillier Latin critical edition documented.",
         "confidence": "medium",
@@ -201874,7 +201875,7 @@
       "colLast": "528A",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Quomodo Christus ponitur in signum populorum — no English translation found. PL 196.523–28; discussed in a 2017 French journal article (Cairn.info) but not translated there or elsewhere.",
         "confidence": "medium",
@@ -201918,7 +201919,7 @@
       "colLast": "1012C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours",
         "note": "Quomodo Spiritus Sanctus est amor Patris et Filii — no English translation found. Confirmed as a genuine short opusculum in Ribaillier's edition; no English translation located in any VTT volume.",
         "confidence": "medium",
@@ -202832,7 +202833,7 @@
       "colLast": "1370C",
       "cpl": null,
       "translation": {
-        "workStatus": "ours",
+        "workStatus": "none",
         "englishState": "ours"
       },
       "texts": [
