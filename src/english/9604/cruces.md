@@ -38,3 +38,20 @@ Conjecture: **a beati Petri apostoli successoribus suis directos — 'directed b
 
 The English makes 'successoribus suis' the recipients of the mission, so the western saints are sent 'to his successors' and simultaneously 'into this western land' — but the successors of Peter are at Rome, not in the West, and the passage's own next clause says these same men had to travel there: 'sciamus, frequenter eos Romam ambulasse, et apud beatos Papatus... colloquium habuisse' ('we know [them] to have walked often to Rome, and to have held conference with the blessed popes'). The whole argument is that the Roman see is the SENDER whose authority these Gallic saints never left ('qui in nullo a sca sede Romana... deviarint'); rendering the successors as the destination reverses the direction of mission on which the argument rests. Migne's 'apostolum' for 'apostoli' is what invites the reversal.
 
+
+### 1347D — corrupt clause, OPENLY EMENDED (2026-07-29)
+Printed: *quos scimus de sca sede Romana a beato Petro **apostolum** successoribus
+suis directos in terra ista occidentali*.
+
+`apostolum` is accusative and governs nothing; the clause cannot be construed as it
+stands. Emendation adopted: ***a beati Petri apostoli successoribus*** — "directed
+from the holy Roman see **by the successors** of blessed Peter the apostle into this
+western land," i.e. sent west by the popes. Supported by *de sancta sede Romana* in
+the same clause and by the sense of the passage (missionaries despatched westward).
+
+**Ruling (Wilson, 2026-07-29): emend openly, show Migne's text inline.** The English
+now reads the conjecture with `[Migne: *a beato Petro apostolum successoribus suis*]`
+beside it. The prior English ("by blessed Peter the apostle, **to** his successors")
+was a *silent* reconstruction of a broken clause — neither literal nor the likely
+sense — which is the exact pattern `translation-style.md` 7a exists to prevent. An
+open emendation announces itself; that is the difference.

@@ -109,3 +109,28 @@ Conjecture: **Hosea 1:4 reads 'et quiescere faciam regnum domus Israel' — 'I w
 
 Damian cites this verse for one purpose only, stated in the sentence immediately before it: 'Quod utique nomen, quamvis prosperum significare videatur ... hic tamen vindictam Dei et furorem sonat' — 'although it seems to signify something prosperous ... here nevertheless it sounds the vengeance of God and fury.' A clause promising Israel's kingdom rest is the opposite of vindicta and furor, and it also contradicts the clauses flanking it inside the same quotation ('I will visit the blood of Jezrahel upon the house of Jehu', 'I will break the bow of Israel'). The paragraph after it repeats the point: 'Quod autem hic per Jezrahel, non salus, sive prosperitas, sed Dei potius ira signatur.'
 
+
+### 0493D — sense-reversing letter (Migne's plate; resolved 2026-07-29)
+Printed: *et **requiescere** faciam regnum **domum** Israel* (Hosea 1:4).
+
+Conjecture: **quiescere faciam regnum domus Israel** — "I will cause the kingdom
+of the house of Israel **to cease**" (Vulg./Douay).
+
+Damian adduces the verse to prove that *Jezrahel* here sounds *vindictam Dei et
+furorem*, introducing it with *cum protinus subinfertur*. As printed, the oracle
+promises **rest**, so the proof-text contradicts the reading it is cited for.
+
+**Ruling (Wilson, 2026-07-29): render literally, mark inline.** The scripture policy
+is locked — translate what Migne prints, never substitute a conventional version —
+so "to rest" stands, and the page now carries `[sic: *requiescere*]` so the reader
+meets the defect there rather than only here.
+
+**The Vulgate gloss did NOT go on the page, and that is a limitation, not a choice.**
+Pattern 12 forbids it: a `[sic: …]` may only wrap type carried verbatim from the
+plate, and `verify-english` enforces it — my first attempt bundled *"Vulg.*
+quiescere*, 'cause to cease'"* inside the marker and was correctly rejected.
+Pattern 13's `[ed: …]` is scoped to text our *source* has lost, which this is not.
+**So there is currently no marker for "the plate's reading diverges from the
+received text of a scripture citation" — the divergence lives only in this file.**
+Worth a decision if it recurs; with 5,000+ works of scripture-quoting commentary
+ahead, it will.

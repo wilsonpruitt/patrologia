@@ -14,8 +14,8 @@
   "colFirst": "491a",
   "colLast": "498a",
   "counts": {
-    "scripture": 29,
-    "fontes": 1,
+    "scripture": 30,
+    "fontes": 0,
     "heads": 5,
     "headnotes": 31,
     "unparsed": 0
@@ -79,6 +79,12 @@
       "refKey": "Phil.3",
       "refDisplay": "Philip. III",
       "column": "493b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Hos.1",
+      "refDisplay": "Osee I",
+      "column": "493c",
       "chunk": 1
     },
     {
@@ -196,13 +202,7 @@
       "chunk": 3
     }
   ],
-  "fontes": [
-    {
-      "raw": "Osee I",
-      "column": "493c",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "ARGUMENTUM.",
@@ -423,5 +423,6 @@
       "chunk": 3
     }
   ],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }
