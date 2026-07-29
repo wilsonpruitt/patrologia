@@ -14,6 +14,8 @@
 //   9. Pattern-12 [sic: …] plate-defect markers: English-only, never empty, and
 //      content must be VERBATIM in the Latin twin (it is carried type, not translation).
 //  10. Pattern-13 [ed: …] editorial-voice notes: English-only, never empty, and content
+//  11. Pattern-14 [var: …] scripture-divergence notes: English-only, never empty, must
+//      name the witness (Vulg./LXX/Gk/Heb./Douay/Vet. Lat.).
 //      must NOT be verbatim Latin (it is ours, not Migne's).
 // Whole work:
 //   6. Dedupe scan — any English paragraph (>15 words, normalized) appearing
@@ -165,8 +167,26 @@ for (const c of manifest.chunks) {
       errs.push(`${name}: [ed: ${m[1]}] appears verbatim in the Latin twin — [ed: ] is the edition's own voice, not Migne's text`);
   }
 
+  // 11. Pattern-14 [var: …] — Migne's text DIVERGES FROM THE RECEIVED TEXT of a
+  // scripture citation. Distinct from [sic:] (which marks defective type, and may only
+  // wrap words carried verbatim from the plate) and from [ed:] (which reports text our
+  // SOURCE has lost). Here the plate is perfectly legible and nothing is missing — the
+  // quotation simply does not agree with the Vulgate/LXX/Greek NT. The content is OURS,
+  // so it obeys the [ed:] rules: English-only, never empty, never verbatim Latin.
+  const varRe = /\[var: ([^\]]*)\]/g;
+  if (varRe.test(lat.body))
+    errs.push(`${name}: [var: …] marker found in the LATIN chunk — the Latin is never marked up`);
+  for (const m of [...eng.body.matchAll(varRe)]) {
+    const run = flat(m[1]);
+    if (!run) { errs.push(`${name}: empty [var: ] marker`); continue; }
+    if (latFlat.includes(run))
+      errs.push(`${name}: [var: ${m[1]}] appears verbatim in the Latin twin — [var: ] is our note on the received text, not Migne's words`);
+    if (!/^(Vulg\.|LXX|Gk|Heb\.|Douay|Vet\. Lat\.)/.test(m[1].trim()))
+      errs.push(`${name}: [var: ${m[1]}] must open by naming the witness it is comparing against (Vulg. | LXX | Gk | Heb. | Douay | Vet. Lat.)`);
+  }
+
   const strip = s => s.replace(colRe, '')
-    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '');
+    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '').replace(varRe, '');
   const lw = words(strip(lat.body)), ew = words(strip(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the

@@ -586,6 +586,57 @@ Where the loss is later recovered from the plate, the fix belongs in
 the `[ed: …]` marker is removed in the same commit — the note exists only for as
 long as the hole does.
 
+
+### 14. `[var: …]` — Migne's scripture citation diverges from the received text
+
+Pattern 12 marks type the plate got **wrong**. Pattern 13 marks text our **source**
+lost. This marks a third thing that is neither: the plate is perfectly legible,
+nothing is missing, and the quotation simply **does not agree with the Vulgate**.
+
+The case that forced it: **10083** at col. 0493D. Peter Damian argues that
+*Jezrahel* here sounds *vindictam Dei et furorem*, and introduces Hosea 1:4 as
+proof — but Migne prints *et **requiescere** faciam regnum **domum** Israel* where
+the Vulgate has *quiescere faciam regnum domus Israel*, "I will cause the kingdom of
+the house of Israel **to cease**." Rendered faithfully — and the scripture policy
+requires it to be rendered faithfully — the proof-text promises **rest** in a
+passage arguing for vengeance, and Damian appears to argue badly.
+
+Neither existing marker could carry it. A `[sic: …]` may only wrap words carried
+**verbatim from the plate**, so the comparison could not go inside it (the verifier
+correctly rejected the attempt); and `[ed: …]` is reserved for what the digitization
+has lost. The divergence therefore had nowhere to live but `cruces.md`, which no
+reader opens.
+
+**The rule:** where Migne's printed scripture differs from the received text in a way
+that changes the sense, render Migne — always — and note the received reading in a
+`[var: …]` marker.
+
+- **Render what Migne prints. This pattern never licenses substitution.** The
+  scripture policy is unchanged and unconditional; `[var: …]` is a note *beside* the
+  faithful rendering, never a replacement for it.
+- Content is **ours**: English, plain, factual. **Open by naming the witness** —
+  `Vulg.` · `LXX` · `Gk` · `Heb.` · `Douay` · `Vet. Lat.` — then give the received
+  reading and, if the sense turns on it, a two-or-three-word gloss.
+  `[var: Vulg. *quiescere*, "cause to cease"]`
+- **Never speculate about why they differ.** A divergence may be Migne's compositor,
+  his copy-text, an Old Latin reading, or the author quoting from memory — and
+  telling those apart is a research question, not a translation one. State the two
+  readings; let the crux argue.
+- **English-only, never empty**, and the verifier enforces the `[ed: …]` mirror test:
+  the content may not appear verbatim in the Latin twin, because that would mean our
+  own note had been filled with Migne's words. Stripped from the ratio count.
+- Renders as `.varnote` — small, roman, in the maroquin rather than the gilt, so it
+  cannot be mistaken for `[ed: …]`. One annotates the text; the other confesses a
+  hole in it.
+- **It may sit beside a `[sic: …]`** when the plate is both divergent *and* broken.
+  They answer different questions and neither subsumes the other.
+
+**Not retroactive.** Introduced 2026-07-29 and applied to 10083 only. The corpus has
+not been swept for this class, and the polarity sweep did not hunt it — scripture
+divergence was on that sweep's do-not-report list. Assume unmarked divergences remain
+in the 86 shipped works; mark them as they are found, and do not read the absence of a
+`[var: …]` as evidence that a citation agrees with the Vulgate.
+
 ### 14. `[nt: …]` — a note that is PROSE, not a citation, and is translated
 
 `[n: …]` contents stay verbatim Latin because they are Migne's *citations* —

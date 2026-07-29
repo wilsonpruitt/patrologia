@@ -125,12 +125,14 @@ is locked — translate what Migne prints, never substitute a conventional versi
 so "to rest" stands, and the page now carries `[sic: *requiescere*]` so the reader
 meets the defect there rather than only here.
 
-**The Vulgate gloss did NOT go on the page, and that is a limitation, not a choice.**
-Pattern 12 forbids it: a `[sic: …]` may only wrap type carried verbatim from the
-plate, and `verify-english` enforces it — my first attempt bundled *"Vulg.*
-quiescere*, 'cause to cease'"* inside the marker and was correctly rejected.
-Pattern 13's `[ed: …]` is scoped to text our *source* has lost, which this is not.
-**So there is currently no marker for "the plate's reading diverges from the
-received text of a scripture citation" — the divergence lives only in this file.**
-Worth a decision if it recurs; with 5,000+ works of scripture-quoting commentary
-ahead, it will.
+**Resolved 2026-07-29 — `[var: …]` (Pattern 14) was added for exactly this.** The page
+now reads *"to rest `[sic: requiescere]` `[var: Vulg. quiescere, "cause to cease"]`"* —
+Migne rendered faithfully, the received reading noted beside it. The two markers answer
+different questions and both are needed here: `[sic:]` says the type is the plate's,
+`[var:]` says the quotation disagrees with the Vulgate.
+
+The gap that forced the new pattern is worth keeping on record: `[sic: …]` may only wrap
+type carried **verbatim from the plate**, so the gloss could not go inside it (the
+verifier rejected the attempt, correctly), and `[ed: …]` is reserved for text our
+*source* has lost. Scripture divergence was neither, and had nowhere to live but this
+file — which no reader opens.

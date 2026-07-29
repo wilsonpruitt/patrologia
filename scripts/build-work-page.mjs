@@ -143,6 +143,13 @@ function inlineHtml(s, { anchorIds, state }) {
     // woven into the text: a reader must never mistake it for something Migne printed.
     .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
       `<span class="ednote">[${e}]</span>`)
+    // pattern-14 [var: …]: Migne's scripture citation diverges from the received text.
+    // Neither a defect in the type ([sic:]) nor a hole in our source ([ed:]) — the plate
+    // is legible and complete, the quotation just does not agree with the Vulgate. Ours,
+    // so it is set apart; but quieter than .ednote, because it annotates the text rather
+    // than confessing a gap in it.
+    .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
+      `<span class="varnote" title="Migne's text diverges from the received text here">[${v}]</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -396,6 +403,16 @@ css += `
   color: var(--dorure);
   font-style: normal;
   margin: .15em 0;
+}
+/* pattern-14 [var: …]: the plate's scripture reading against the received text. In the
+   maroquin rather than the gilt, and unspaced — it is a scholarly aside about the
+   quotation, not the edition confessing a hole, and the two must not read alike. */
+.varnote {
+  font-family: var(--didot);
+  font-size: .8rem;
+  color: var(--maroquin);
+  font-style: normal;
+  cursor: help;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }

@@ -61,6 +61,18 @@ agent 11208).
 
 ### → NEXT SESSION
 
+0b. **`[var: …]` (Pattern 14) is NEW and NOT retroactive.** Added 2026-07-29 for
+   scripture citations where Migne's text diverges from the received text — the
+   category that had no marker (10083 @0493D forced it: `requiescere` for Hosea 1:4's
+   `quiescere`, turning a vengeance oracle into a promise of rest inside an argument
+   about *vindictam Dei et furorem*). **Applied to 10083 only.** The corpus has NOT
+   been swept for the class, and the polarity sweep deliberately excluded scripture
+   divergence, so **assume unmarked divergences remain across all 86 shipped works** —
+   and never read the absence of a `[var: …]` as evidence that a citation agrees with
+   the Vulgate. Wilson's call 2026-07-29: add the category now, do not re-run the
+   corpus. A sweep is available whenever wanted; the scripture index (`data/index/`)
+   is the obvious feeder, since every `[n: …]` is already keyed by book/chapter.
+
 0. **HARVEST MIGNE'S LATIN COLUMN FOR PG — blocks all further PG work.** `sources/pg/`
    holds only the Calfa Greek corpus; there is no Latin twin for any PG work, so the
    Zelzer inline verifier that PLAN.md rules 4 and 6 both require **does not persist in
