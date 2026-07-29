@@ -1,5 +1,41 @@
 # Next session — resume note
 
+## 2026-07-28 (sixth) — PL 196 polarity sweep: 29 sites, TWO of them ours; corpus sweep set up for next session
+
+**NOT deployed.** Commits `162fb80` (rules), `d2a4c7c` (sweep). Site still 86 english pages — but **two published pages changed**, so this needs a deploy.
+
+### → START HERE NEXT SESSION: `data/sweeps/NEXT-SESSION-BRIEF.md`
+Wilson approved the **full corpus polarity sweep, Opus throughout**: 68 works, 454 chunks, ~510K Latin words, **89 agent units, ~15 rounds of 6, ~5.4M subagent tokens**. The brief has the complete unit table, the prompt to reuse, and the rules. **Start with PL 175/176** — largest and earliest-translated, done under the withdrawn "intended reading" precedent. **Fix policy (Wilson): our errors are FIXED in place; Migne's are REPORTED and rendered literally.**
+
+### What the PL 196 sweep found — 29 sites across 12 of 17 works (5 clean)
+Full inventory: `data/sweeps/pl196-polarity/REPORT.md`; per-work sections appended to 11 `cruces.md` files (11545's was created). Types: dropped `non`/`nisi` 7 · intrusive negative 8 · sense-reversing letter 12 · dropped word 2. **The class runs BOTH directions**, so the negation-only framing I started with would have caught about half. 11536 and 11551 hold 7 sites each — half the volume between them.
+
+### The two that were OURS, not Migne's — both live, both fixed
+1. **11536 @1085D** — Migne prints *haud digne tali nomine censetur*; our English read "**is** worthily reckoned by such a name". The `haud` was simply dropped, inverting a sentence whose own next clause denies it.
+2. **11547 @0260D** — Migne prints `nolebat` where his own previous clause has `volebat`. Faced with "he did not wish them to have *unleavened bread*", the translator rendered *azyma* as "**leaven**" — the opposite word — and the sentence read smoothly. **The plate defect was concealed, not corrected.**
+
+**#2 is the important one.** An open emendation announces itself; a repair made inside the translation leaves a clean page, a passing `verify-english`, and no trace. It survived the 2026-07-28 corpus-wide emendation sweep because that sweep read `cruces.md` files and this repair had never been logged as a crux. **This is why the corpus sweep is worth 5.4M tokens.**
+
+### Rules locked in (commit `162fb80`) — the durable part
+- **`translation-style.md` 7a — "The silent repair"**: a word may not be translated as its opposite to rescue a sentence; every printed negation appears in the English and none that is not printed; a crux does not license an under-rendering; both worked cases written up.
+- **`translation-runbook.md` step 4a** — polarity check is a REQUIRED reading pass, with the do-not-read-cruces-first rule.
+- **Agent prompt template** — negation-fidelity clause.
+
+### Two method findings — do not re-derive them
+1. **Two-tier (cheap finder → expensive verifier) FAILED for defect hunting.** Sonnet swept all 82 chunks and returned "all already logged, nothing new" for every work. A blind Opus control on four works it had cleared found **4 live defects**; the full Opus re-read found **11 sites Sonnet missed (38%)**. Cheap-wide-net assumes the cheap tier over-reports and the expensive tier filters — here the failure mode was false negatives, and a verifier can only adjudicate what it is handed.
+2. **A checker that reads `cruces.md` first returns only what is already logged.** Every stage-1 agent did; every one found nothing new. Blind readers on the same works did. **Form findings first, reconcile after.**
+3. **Mechanical detection does not work.** Counting negation particles across the pair flags faithful paragraphs (*nisi* → "save", *non moritur* → "dies no more") AND scored the confirmed 11536/1085D case **clean**. Do not build it again.
+
+### Also
+- **11543 @1188D is NOT a defect** — `homo [non] possit` is Migne's own bracketed supplement, carried faithfully as `[not]`. Recorded so the next sweep does not re-raise it. It is also evidence *for* the pattern: the 19th-century editors were patching dropped negatives in this volume themselves.
+- **Deploy owed**: 11536 and 11547 rebuilt + reindexed; their published pages changed.
+
+### → NEXT SESSION
+1. **Run the corpus sweep** — `data/sweeps/NEXT-SESSION-BRIEF.md`. Hard-stop already cleared by Wilson for the full Opus run.
+2. **Deploy** the two corrected works (and anything the sweep fixes).
+3. Translation queue is untouched at **15 works**; next tier 11058 (19 ch), 11553 (22), 7914 (23). **Settle the Song-of-Songs lemma-harmonization question before 7914.**
+4. `9637 Ordo` still a Fable mini-pilot, not an Opus batch.
+
 ## 2026-07-28 (fifth) — 3 works (50 chunks) translated + STAGED; false-positive block added to the prompt; verify-english dedupe bug fixed
 
 **NOT deployed** (commits `951dcbf`, `89a6b13`). Site now **86 english pages**. Queue: **15 works** still pre-chunked. decade-check at 86: **nothing blocking**.
