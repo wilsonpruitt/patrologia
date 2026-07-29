@@ -70,6 +70,31 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    missed. The cruces file becomes an answer key and caps recall at what is already
    known. Check against it *after* forming findings, not before.
 
+   **Name the chunks you read and found clean.** A report that lists only findings
+   cannot be told apart from a report by a checker that never read. Every good unit
+   in the corpus sweep closed by naming its clean chunks and its rejected candidates
+   with reasons; the bad stage-1 pass of PL 196 closed with a tidy "nothing new".
+
+   **A prior verification pass does not cover this class.** 11057 had all 21 of its
+   cruces adjudicated in the 2026-07-03 diff-vs-scan pass and still gave up two new
+   sites on a blind polarity read. Different check, different defect.
+
+   **Record the result — `node scripts/polarity-record.mjs <idno> --chunks N --sites N
+   [--ours N]`.** A work that was never checked must not be indistinguishable from a
+   work that was checked and came back clean; that ambiguity is exactly what let
+   11064's 41 sites survive two earlier passes. **`sites: 0` is a real result and the
+   record is how it counts.** `node scripts/polarity-record.mjs --gate` lists every
+   englished work with no record and exits nonzero — run it before any deploy.
+
+   **Expect yield to track genre, and budget units accordingly.** Lemma-and-gloss
+   commentaries are the richest by far: the author quotes his lemma twice (LITTERA,
+   then again in the EXPOSITIO with a gloss), so the plate hands you its own
+   contradicting neighbour — 11064 gave 41 sites in 80 chunks. Terse aphorism
+   collections are next and punch above their length (8195: 7 sites in 3 chunks) —
+   a maxim missing its `non` still sounds like a maxim. Annals, charters, regnal
+   lists and calendars are nearly immune: independent list items, no neighbour to
+   contradict. Do not read a cartulary as slowly as a Victorine commentary.
+
 5. **Author bio:** new author → add `data/author-bios.json` entry (`displayName`,
    `latin`, `dates`, `bio`; `dedicatee:true` for patron names in the author array).
    Without one the byline falls back to the Latin form — fine temporarily, not for deploy.
@@ -80,6 +105,11 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 7. **Stage only.** Deploy belongs to Wilson's deploy session (per-action OK).
    Wilson's read-through gates every work.
 8. **Deploy checklist — every time, no skipping:** when Wilson gives the OK to deploy,
+   **(0) run `node scripts/polarity-record.mjs --gate` first — it exits nonzero if any
+   englished work has never had the step-4a read. It caught the site's only PG work
+   (`joel-chronographia`) sitting unchecked because both 2026-07-28 sweeps were
+   PL-only. Do not ship over a red gate; either read the work or say plainly that it
+   ships unchecked.**
    (a) prepend each newly-shipped work to `RECENT` in `scripts/build-landing.mjs`
    (newest first, one-line comment naming the author/work), (b) rebuild the
    generated pages — `build-scripture-index.mjs`, `build-sources.mjs`,

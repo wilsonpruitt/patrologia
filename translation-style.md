@@ -315,6 +315,45 @@ read `cruces.md` files and this repair had never been logged as a crux.
   closely as the words allow and say so in the crux — never substitute a word that
   works.
 
+**The corpus sweep of 2026-07-28 confirmed this is a CLASS, not a lapse — and that
+it has five mechanisms, only two of which the rule above described.** 68 works,
+454 chunks, 178 sites; 26 were our own. The purest specimen is **8625 col. 0940B**:
+Migne prints *ibi homo Adae de peccato **fuscatur*** — "is darkened" — and our
+English read "**is cleansed**." The exact opposite verb, chosen because baptism is
+the subject and *ex baptismo remissio peccatorum largitur* follows a few lines
+later. Different volume, different century, different translator's stint from the
+11547 case above. It now reads "is darkened from sin," with the crux carrying the
+conjecture.
+
+**Watch for all five. Only the first two leave a word you could search for:**
+1. **Opposite word substituted** to rescue a broken sentence (8625, 11547).
+2. **Printed negation dropped** (11536 @1085D).
+3. **Connective smoothed** — 8777 @0191B, where a dropped negative was papered over
+   by rendering the second `sed` as "yet". *No lexical trace at all.* Nothing to
+   grep, nothing that looks wrong in the English.
+4. **Comparative reversed** — 11083 @0855A; 11088 @0896C turned *minus egere*
+   ("to need less") into "to lack more", flipping the one word the maxim turns on.
+5. **Reference or agency mis-bound** — the Latin's morphology fixes who does what
+   to whom and English word order has to reconstruct it. `qui`/`cui` (8708 @0659D,
+   reversing who is salvation to whom); a pronoun binding a negation to the wrong
+   subject (11086 @1016A); an ablative agent inverted so that we are covered by the
+   Noahs instead of they by us (11208 @1199B). These are not negation errors at
+   all, and no negation-aware check will ever see them.
+
+**Undoing a silent repair is a fix, not a regression.** When a sweep finds one, the
+English goes back to the printed reading and the crux carries the conjecture. The
+plate's contradiction is the edition's evidence; concealing it is the only way to
+actually lose it.
+
+**Two boundaries the same sweep drew, both worth keeping:**
+- **Already-literal is not an error.** At 10083 @0493D Migne prints *requiescere
+  faciam* where Hosea 1:4 has *quiescere*. Our "make to rest" is the faithful
+  rendering of what is printed; changing it to "cause to cease" would be a silent
+  emendation — the very thing this rule forbids. Crux, no edit.
+- **When the plate is corrupt past construing**, neither our reading nor the
+  conjecture is defensible (9604 @1347D). Do not quietly pick one. Mark it and
+  escalate.
+
 **Why no mechanical check catches this.** Counting negation particles across the
 Latin/English pair was tried and fails in both directions: it flags faithful
 paragraphs (Latin `nisi` → English "save"; `non moritur` → "dies no more") and it
