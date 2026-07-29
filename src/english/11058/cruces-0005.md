@@ -189,3 +189,26 @@ Hugh of St Victor, PL 175. Agent stint covering chunks 0005, 0006, 0007, 0008,
   bosom, when…".
 - **0290B → 0290C** is the chunk's last anchor pair and is continuous; the chunk ends
   mid-argument at 0290C, which is our chunk boundary, not a defect.
+
+## Polarity read, 2026-07-29 — ONE NEW SITE (Migne's)
+
+- **@0275D `legali` for `regali` — NEW, found on a blind read; not previously logged.**
+  Printed: *His duabus personis regebatur populus ille, **legali** scilicet et
+  sacerdotali.* Rendered literally as "namely the legal and the priestly," which is
+  correct under Pattern 7 — **no change to the text.** But the pair is wrong by one
+  letter: the lemma being glossed is *regem et sacerdotem*, and the very next sentence
+  names them, *Honor ad regem, devotio pertinet ad sacerdotem*. The moral sense repeats
+  the pair (*Anima nostra et rex debet esse et sacerdos*). A *persona legalis* appears
+  nowhere in the exposition. Conjecture: *regali scilicet et sacerdotali*.
+  Confidence medium (the conjecture is near-certain; the classification as plate rather
+  than transcription cannot be settled from our files — see CLAUDE.md rule 6/§sources).
+  **This is the only site in chunks 0005–0009 that changes *who* the sentence is about**,
+  and the blind reader found it in a file that otherwise catalogues single-letter
+  real-word errors thoroughly — so it reads as a genuine miss by the translation pass,
+  which is exactly what the blind read exists to catch.
+- Otherwise: chunks 0005–0009 read clean on **both** sides, and **zero** silent repairs
+  of any of the five mechanisms. Where the plate is defective the English consistently
+  carries it (*offunditur*, *fiendi*, *aut*, *permissionis*, the unconstruable 0285B
+  clause left unconstruable) rather than rescuing it. Sixteen candidates were examined
+  and rejected; every one was already logged in this file, and the rejections agree with
+  its dispositions. Detail: `data/sweeps/polarity-11058-11553/11058-u2.json`.

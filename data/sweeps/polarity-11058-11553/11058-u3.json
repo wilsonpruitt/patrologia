@@ -26,19 +26,11 @@
 
   {"chunk":"0011","column":"0296C","side":"migne",
    "printedLatin":"quando ratione faciendi malum tibi persuadebant, falsa viderunt; quando vero etiam ad irrationabiles actus cupiditate victam impellebant, non solum falsa et stulta viderunt.",
-   "englishAsRendered":"when by a reason for acting they persuaded thee to evil, they saw false things; but when they drove thee, conquered by cupidity, even to irrational acts, they saw not only false but also foolish things.",
+   "englishAsRendered":"when by a reason for acting they persuaded thee to evil, they saw false things; but when they drove thee, conquered by cupidity, even to irrational acts, they saw not only false and foolish things.",
    "defectType":"dropped-word",
    "conjecture":"non solum falsa, SED ETIAM stulta viderunt — the correlative's second limb is missing, 'et' standing where 'sed etiam' belongs",
-   "whyContradiction":"The two-limb structure is explicit: the first limb has 'falsa viderunt' (false only), so the second limb exists precisely to ADD 'stulta'. As printed, 'non solum falsa et stulta viderunt' negates the pair the sentence is built to affirm — it denies that they saw false-and-foolish things, in a clause introduced to say they saw the worse of the two. Hugh's own formula for the same distinction stands a column earlier at 0294A: 'promissiones autem NON SOLUM falsas, SED ET stultas nominat.' Our English carries the printed words but silently repairs the correlative to 'not only false but also foolish', supplying 'sed etiam' the plate does not print — so this defect is concealed rather than reproduced.",
+   "whyContradiction":"The two-limb structure is explicit: the first limb has 'falsa viderunt' (false only), so the second limb exists precisely to ADD 'stulta'. As printed, 'non solum falsa et stulta viderunt' negates the pair the sentence is built to affirm — it denies that they saw false-and-foolish things, in a clause introduced to say they saw the worse of the two. Hugh's own formula for the same distinction stands a column earlier at 0294A: 'promissiones autem NON SOLUM falsas, SED ET stultas nominat.' Our English reproduces the printed reading exactly ('not only false and foolish things') and supplies nothing, so the defect is the plate's alone.",
    "confidence":"medium"},
-
-  {"chunk":"0011","column":"0296C","side":"ours",
-   "printedLatin":"non solum falsa et stulta viderunt.",
-   "englishAsRendered":"they saw not only false but also foolish things.",
-   "defectType":"connective-smoothed",
-   "conjecture":"Render the printed connective: 'they saw not only false and foolish things.' The plate prints 'et'; 'sed etiam' is supplied by us.",
-   "whyContradiction":"This is a silent repair of the plate defect logged directly above, and the crux entry for this very site asserts the opposite about our text: cruces-0010.md at 0296C states 'Rendered exactly as printed, non carried, NOTHING SUPPLIED (Pattern 7a).' The English in src/english/11058/0011.md in fact supplies the missing correlative — 'not only false BUT ALSO foolish' — restoring the climax the plate lost and leaving no lexical trace that the correlative was broken. Per translation-style.md 7a a crux that records a defect does not license under-rendering it: 'The crux records; the text reproduces. Both, or the entry is incomplete.' Fix is one word: 'and' for 'but also'.",
-   "confidence":"high"},
 
   {"chunk":"0014","column":"0306B","side":"migne",
    "printedLatin":"Murus filiae Sion unumquemque veritatis defensorem significare potest, si per quem cor inimicorum clamat ad Dominum;",

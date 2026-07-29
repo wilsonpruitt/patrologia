@@ -23,6 +23,39 @@ node scripts/polarity-record.mjs 11553 --chunks 22 --sites N [--ours N]
 
 `sites: 0` is a real result and the record is how it counts. Silence is not a pass.
 
+## STATUS 2026-07-29 — 3 of 8 units DONE (all 11058 except u1)
+
+Three resumed units survived the 529 storm and completed. **11058 is one unit short of
+recordable** — u1 (chunks 0000–0004) died twice on 529 and was not relaunched (Wilson
+stopped the launching). **11553 has had no unit run at all.**
+
+| unit | status | result |
+|---|---|---|
+| 11058-u1 | **NOT RUN** — died twice on 529 | — |
+| 11058-u2 | done | **1 site, 1 NEW** — @0275D `legali` for `regali` |
+| 11058-u3 | done | 5 sites, 0 new; 2 refinements carried back |
+| 11058-u4 | done | 1 site, 0 new; 1 accuracy fix (ours) |
+| 11553-u1…u4 | **NOT RUN** | — |
+
+**Run 11058-u1, then record 11058 as `--chunks 19 --sites 7` (+ any u1 sites).** Do not
+record the work before u1 lands; a partial read recorded as a work-level result
+reintroduces exactly the ambiguity the ledger exists to prevent.
+
+**The blind read is earning its keep — two results worth knowing before you run the rest:**
+- **u2 found a NEW site the translation pass missed** (@0275D, a one-letter change to
+  *who the sentence is about*), in a cruces file that otherwise catalogues single-letter
+  real-word errors thoroughly. This is the case for doing the read at all.
+- **u3 found nothing new but sharpened two existing entries** — the polarity direction at
+  @0306C, and a better conjecture at @0306B (`super quem`, not `sic`, from the lemma's
+  *super murum*). A null-for-new-sites unit still produced value.
+- **Our English came out clean of silent repairs in all three units.** 0 findings on the
+  `ours` side across 14 chunks. Worth stating as a result: the negation-fidelity clause in
+  the translation prompts appears to be working.
+
+⚠ **Two prompts leaked their answer** (see PROMPT.md): 11058-u4 and 11553-u1 had the real
+column of a known defect in the schema example. u4's rediscovery of @0317B is therefore
+weak evidence. **11553-u1 must be re-prompted with a placeholder before it is run.**
+
 ## Units (8) — check which JSONs already exist before launching
 
 | unit | work | chunks | n | output |

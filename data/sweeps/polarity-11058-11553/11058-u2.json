@@ -1,0 +1,10 @@
+{"agent":"11058-u2","idno":"11058","chunks":"0005-0009","chunksRead":5,
+ "findings":[
+  {"chunk":"0005","column":"0275D","side":"migne",
+   "printedLatin":"His duabus personis regebatur populus ille, legali scilicet et sacerdotali.",
+   "englishAsRendered":"By these two persons was that people governed, namely the legal and the priestly.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"regali scilicet et sacerdotali — l for r, i.e. *legali* for *regali*",
+   "whyContradiction":"The lemma being glossed is *In opprobrium et indignationem furoris sui regem et sacerdotem* — king and priest — and Hugh's very next sentence names the same two persons by those titles: 'Et convenientia sunt verba: Honor ad regem, devotio pertinet ad sacerdotem; nunc autem contra honorem opprobrium, contra devotionem indignatio ponitur.' The pair of adjectives has to be regalis/sacerdotalis; a *persona legalis* is nowhere in the exposition, which returns to *rex* in the moral sense too ('Anima nostra et rex debet esse et sacerdos'). Our English carries the printed reading literally, which is correct under pattern 7 — the defect is Migne's plate, and it is logged, not emended.",
+   "confidence":"medium"}
+ ]}

@@ -227,3 +227,34 @@ Hugh of St Victor, PL 175. Agent stint covering chunks 0010, 0011, 0012, 0013,
   rest are bare scripture locators, so no `[nt: …]` conversion was warranted.
 - No `[f: …]` tagging: this is a lemma-and-gloss commentary, not a florilegium
   (Pattern 4 does not apply).
+
+## Polarity read, 2026-07-29 — 5 sites, 0 new; two refinements to entries above
+
+Blind read of chunks 0010–0014 reproduced all five polarity sites already logged here
+(@0306D `clausit` for `clamavit`; @0306C `prohiberi`; @0301D/0302A *oris tui*; @0296C the
+lost `sed etiam` limb; @0306B `si per quem`) and found **nothing new** — independent
+confirmation that this range's apparatus is complete. Chunks 0010 and 0012 clean on both
+sides; 0011 and 0013 one plate site each; 0014 three. Eight candidates examined and
+rejected with reasons (detail: `data/sweeps/polarity-11058-11553/11058-u3.json`), the
+strongest being @0305B *comminatio mea vitari potest; praeceptum autem meum cassari non
+potest*, which is coherent as printed because the sentence defines its own terms —
+*praeceptum* is the standing statute, *comminatio* the avoidable threat.
+
+Two refinements to the entries above, worth carrying because the blind reader saw further
+than the original note did:
+
+1. **@0306C — the polarity direction is forced, and should be stated.** The entry above
+   records only that `eum prohiberi` "does not construe." The neighbour settles which way
+   it fails: the charge laid is *divinae potentiae **derogant***, which requires the
+   ACTIVE — they think *he* cannot prevent it. The printed passive asserts the opposite of
+   the charge. Also noted on **our** side: the English drops `eum` and makes `hoc` the
+   subject, which smooths the agency question away rather than leaving it visible. Not
+   rewritten here — the reference/agency binding in a clause the plate has already broken
+   is a judgment call, and it is logged so it can be ruled on rather than silently
+   adjusted.
+2. **@0306B — better conjecture than the one above.** The entry conjectures `sic` for
+   `si`. The lemma is *clamavit … **super murum** filiae Sion*, which argues for
+   **`super quem`**: that fixes the syntax and the reference binding in one stroke,
+   making the defender the thing cried *over* rather than the instrument of the crying.
+   `sic` fixes neither. Our English leaves "if through whom" as untagged nonsense with no
+   `[sic:]` — a candidate for the marker if the run is judged non-word.
