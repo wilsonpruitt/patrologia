@@ -29,6 +29,26 @@ since has managed to be. Second, column numbers here follow the original
 Migne plates; the Garnier reprints made after the 1868 fire were reset with
 different column breaks, so citations against a Garnier printing may drift.
 
+There is a third consequence, and it is the one this edition is least able to
+see around. What we work from is not Migne's paper but a digital transcription
+of it: the Latin comes from the *Corpus Corporum* project at the University of
+Zurich, encoded in 2019, and the Greek from the Calfa corpus. A transcription
+of a printed page is produced by machine and corrected by hand, and it
+contributes errors of its own — readings like *Domiuus* for *Dominus*, or
+*Eeclesia* for *Ecclesia*, are optical confusions, the signature of a scanner
+rather than of a compositor. **So when this edition marks a defective reading,
+it is telling you what stands in the source text it was made from. It is not
+telling you that Migne's compositor set it that way.** From our files those two
+cannot be told apart, and we would rather say so than quietly claim the
+stronger thing. Where a reading matters enough to settle, it takes a look at
+the plate itself; and as reliable machine reading of page images grows cheaper,
+we intend to re-verify this corpus against good photographs of the volumes.
+
+There will accordingly be errors here that are neither ours nor Migne's. That
+is the journey of transcription and translation — a text copied, set, reset,
+photographed, and read by machine on its way to you — and it is the reason
+every defect on these pages is marked rather than mended.
+
 ## A note on the word *Englished*
 
 This site says that a work has been *Englished*, lists its authors as *the
@@ -96,8 +116,8 @@ impression of the work.
 ## What happens when the page is defective
 
 This is where a translation is most tempted to improve on its original, and it
-is the rule this project is strictest about. **The English renders what
-Migne's plate prints, not what it ought to have printed.** That holds when the
+is the rule this project is strictest about. **The English renders what the
+page in front of us prints, not what it ought to have printed.** That holds when the
 printed reading is odd, when it is ungrammatical, and when it says the
 opposite of what the argument plainly requires.
 
@@ -128,7 +148,7 @@ In practice:
   *ursam*) cannot be rendered, because there is nothing there to render. It is
   carried into the English untranslated, in italics, with a note. The page
   occasionally looks strange; that is the intended cost. A reader who meets
-  *bonorem* in italics has learned something true about the plate.
+  *bonorem* in italics has learned something true about the text we received.
 - Punctuation follows the plate as the words do. A printed mark is never
   deleted and a missing one is never supplied: a sentence that simply stops in
   Migne stops in the English.

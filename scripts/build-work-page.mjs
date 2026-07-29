@@ -117,25 +117,26 @@ function inlineHtml(s, { anchorIds, state }) {
       const fix = state ? correctionFor(n, state.col) : null;
       if (!fix) return `<span class="notecite">${n}</span>`;
       const why = fix.note ? ` — ${fix.note}` : '';
-      return `<span class="notecite corrected" title="${esc(`Migne prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${n}</span>`;
+      return `<span class="notecite corrected" title="${esc(`The source prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${n}</span>`;
     })
     // pattern-4 inline locators: strip the wrapper, render the content as printed
     // (the tag is an index handle, not display markup — translation-style.md rule 1)
     .replace(/\[f: ([^\]]*)\]/g, (_, f) => `<span class="fonscite">${f}</span>`)
     // pattern-11 dittography: the repeated run is REAL TEXT (Pattern 7 — we render
     // what the plate prints), so it renders normally and is only marked, never
-    // hidden or deduplicated. The marker exists so the repetition reads as Migne's
-    // and not as ours.
+    // hidden or deduplicated. The marker exists so the repetition reads as the source
+    // text's and not as ours. Whether the doubling is Migne's compositor or the
+    // transcription of him, our files cannot say; the marker no longer claims to.
     .replace(/\[d: ([^\]]*)\]/g, (_, d) =>
-      `<span class="dittog" title="Repeated in Migne's plate">${d}</span>`)
-    // pattern-12 [sic: …]: type carried through from a defective plate. Without it
+      `<span class="dittog" title="Repeated thus in the source text">${d}</span>`)
+    // pattern-12 [sic: …]: type carried through as the source text prints it. Without it
     // italic Latin in the English is ambiguous — *precaria* (a technical term we
-    // deliberately leave in Latin) and *bonorem* (Migne's broken type) look identical,
-    // so a reader cannot tell our editorial choice from the plate's defect. This marks
+    // deliberately leave in Latin) and *bonorem* (broken type in the source) look identical,
+    // so a reader cannot tell our editorial choice from a defect we inherited. This marks
     // the second kind only. The words render exactly as printed; only their PROVENANCE
     // is annotated, same principle as .dittog.
     .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
-      `<span class="sic" title="As Migne's plate prints it — see the notes on this work">${s}</span>`)
+      `<span class="sic" title="Printed thus in the source text — see the notes on this work">${s}</span>`)
     // pattern-13 [ed: …]: the EDITION speaking in its own voice, not the author and
     // not Migne — used where the digitized source has lost text that the plate has,
     // so the page would otherwise show a hole that reads as our error. Unlike every
@@ -143,13 +144,13 @@ function inlineHtml(s, { anchorIds, state }) {
     // woven into the text: a reader must never mistake it for something Migne printed.
     .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
       `<span class="ednote">[${e}]</span>`)
-    // pattern-14 [var: …]: Migne's scripture citation diverges from the received text.
-    // Neither a defect in the type ([sic:]) nor a hole in our source ([ed:]) — the plate
-    // is legible and complete, the quotation just does not agree with the Vulgate. Ours,
+    // pattern-14 [var: …]: the source text's scripture citation diverges from the received
+    // text. Neither a defect in the type ([sic:]) nor a hole in our source ([ed:]) — the
+    // reading is legible and complete, the quotation just does not agree with the Vulgate. Ours,
     // so it is set apart; but quieter than .ednote, because it annotates the text rather
     // than confessing a gap in it.
     .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
-      `<span class="varnote" title="Migne's text diverges from the received text here">[${v}]</span>`)
+      `<span class="varnote" title="The source text diverges from the received text here">[${v}]</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);

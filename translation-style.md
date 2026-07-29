@@ -471,7 +471,7 @@ cannot currently tell Migne's brackets from our supplied words. Not urgent, but
 it is the same "reader must tell plate from edition" principle that Patterns 6
 and 7 exist to serve.)*
 
-### 12. Carried type is marked `[sic: …]` — the defect is Migne's, say so
+### 12. Carried type is marked `[sic: …]` — the defect is not ours, say so
 
 **Wilson, 2026-07-28: "put notes for defects that aren't ours, like sic."**
 
@@ -498,7 +498,7 @@ carried type.
 - The marker wraps **only** the carried run — the whole broken run per Pattern 10,
   including a fragment that is a real word (`Ad` stays inside `Ad dam`).
 - It renders as the words themselves under a wavy gilt rule, with the tooltip
-  *"As Migne's plate prints it — see the notes on this work"* (`.sic`). The words
+  *"Printed thus in the source text — see the notes on this work"* (`.sic`). The words
   are **not** dimmed, bracketed, shrunk, or set as apparatus. Only their
   **provenance** is annotated — the same principle as `.dittog`, and distinguished
   from it by rule shape so a doubled run and broken type are tellable apart
@@ -509,10 +509,10 @@ carried type.
 - **Content must be verbatim in the Latin twin** — checked as a substring
   (asterisks stripped, whitespace normalized), exactly as `[f: …]` is. This is
   what makes the convention safe rather than merely tidy: a `[sic: …]` can never
-  be wrapped round *English* words, which would silently blame Migne for our
+  be wrapped round *English* words, which would silently blame the source for our
   prose. A mismatch is an error, not a warning.
 - The crux is still required, and is still where the conjecture lives. The marker
-  says *this is the plate's*; the crux says *and here is what it was probably
+  says *this is not ours*; the crux says *and here is what it was probably
   meant to be.* Neither replaces the other.
 
 **What does NOT take a `[sic: …]`:** everything Pattern 9 exempts. Attested
