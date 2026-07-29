@@ -517,3 +517,62 @@ three in the English, even where the columns are plainly out of register.
   dicitur regnare ejusdem Achab anno duodecimo?`) — the table records the same
   double accession Richard is trying to explain. Not a defect; noted because it
   looks like one.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 0211D — letter-inversion (high confidence)
+Printed: *Sed qui assidue producit novos fructus ad recreationem hominis exterioris, nunquam credendus est nullos de caetero scientiae profectus impertiri, ad innovandos sensus hominis interioris?*
+
+Conjecture: **nunquid credendus est nullos ... impertiri?**
+
+Printed as a question with 'nunquam' plus 'nullos' the sentence double-negates into incoherence and, taken at face value, denies the very progress Richard is defending. The following sentence answers the rhetorical question as if it had been 'nunquid': 'Ubi ergo illud est, quaeso, pertransibunt plurimi, et abundabit scientia?' The whole paragraph is written against 'illos qui nil acceptant nisi quod ab antiquissimis patribus acceperunt'; the argument requires 'Is he to be believed to impart NO further advances of knowledge?' expecting the answer no. 'nunquam' for 'nunquid' is a confirmed defect class.
+
+### 0212B — added-negative (medium confidence)
+Printed: *nunquam credendus est nullos de caetero scientiae profectus impertiri, ad innovandos sensus hominis interioris?*
+
+Conjecture: **nunquam → nunquid (a double negative, nunquam + nullos, stacks to assert the opposite of the prologue's whole thesis that God still grants new understanding)**
+
+The entire prologue argues FOR fresh understanding beyond the Fathers ('Non est ergo magnum, vel mirum si in uno aliquo aliquid possumus addere'); as printed, the rhetorical question doubly negates itself into a flat denial that any new advance is ever to be believed, contradicting the very case Richard is making in the sentences immediately before and after.
+
+### 0214D — letter-inversion (medium confidence)
+Printed: *Ecce dicitur quod ansulas habeant in omni parte; nec tamen dicitur quod sint in summitatibus, sed tantum quod habeant in utroque latere.*
+
+Conjecture: **nec tamen dicitur quot sint in summitatibus, sed tantum quot habeant in utroque latere**
+
+The lemma Richard has just quoted one line above says precisely that the loops ARE on the tops: 'Ansulas hyacinthinas in lateribus, ac summitatibus facies cortinarum.' The printed gloss denies what its own quoted plate asserts. The missing datum is the NUMBER, and the gloss immediately supplies it for the sides only: 'Quinquagenas, inquit, ansulas cortina habebit in utraque parte.' Richard's conclusion also depends on the tops being conceded and only their measure left silent: 'Sed tacendo de uno, quod determinat, de alio dat auctor intelligere, ut secundum modum laterum fiant et ansulae summitatum.'
+
+### 0221B — letter-inversion (high confidence)
+Printed: *Nec arula per aditum dictorum ostiorum inferebatur, et super craticulae bases, et super ostium limen imponebatur; terra tamen prius tota illa altaris inferior medietas usque ad situm craticulae implebatur.*
+
+Conjecture: **Nam arula per aditum dictorum ostiorum inferebatur**
+
+The very next sentence presupposes the approach was just affirmed as the way things were brought in: 'Per hunc aditum ligna ingerebantur, unde ignis nutriebatur, per eumdem aditum cineres extrahebantur.' The concessive 'terra tamen prius ... implebatur' ('yet first the lower half was filled with earth') only works after an affirmative statement that the hearth WAS brought in and laid down. And at 0222A Richard argues the arula did rest on the bases: 'Recte ergo de arula dicitur, quod subter craticulam esset, quamvis super bases jaceret.' The printed 'Nec' denies exactly what he goes on to prove.
+
+### 0229B — dropped-non (high confidence)
+Printed: *Ex his facile est perpendere, quod oportuit esse, quod vectes exciperet ab interiori parte. Sed quantum quomodo id fieri potuit facile perpenditur, legentium conjecturae relinquitur.*
+
+Conjecture: **Sed quantum [ad hoc] quomodo id fieri potuit, non facile perpenditur, legentium conjecturae relinquitur.**
+
+The sentence contradicts itself and its own neighbour: something 'easily weighed' would not be 'left to the conjecture of readers' (legentium conjecturae relinquitur). The adversative 'Sed' is set against the immediately preceding 'Ex his facile est perpendere' — the contrast requires that this second point be NOT easily weighed. Without 'non' the 'Sed' cancels itself.
+
+### 0230A — dropped-non (high confidence)
+Printed: *Superfluum vero videtur quod expressio materiae reperitur.*
+
+Conjecture: **Non superfluum ("it does not seem superfluous")**
+
+Richard immediately goes on to build an argument out of exactly this specification — the material named twice, olive wood at the oracle against fir at the temple entrance — treating it as significant, not superfluous; as printed he first dismisses as pointless the very detail he then argues from.
+
+### 0244D — letter-inversion (high confidence)
+Printed: *Non enim viginti annis pater regnare potuit, si filius ejus qui regnavit pro eo octavo patris sui anno, vel modico post, ab Jehu occisus fuit.*
+
+Conjecture: **filius for pater — "Non enim viginti annis FILIUS regnare potuit"**
+
+The opinion being refuted is stated in the immediately preceding clause as a claim about the SON, not the father: "quam falsa sit quorumdam opinio ... qui ... dicunt FILIUM JOSAPHAT viginti annis regnasse." Richard's refutation must therefore deny twenty years to the son. Printed as "pater," the sentence denies twenty years to Josaphat — whom Richard himself has just credited with twenty-five, at 0244A: "Josaphat qui viginti quinque annis regnavit." So the plate makes Richard assert the opposite of what he wrote a column earlier. The conditional clause requires "filius" as its subject too: "filius ejus qui regnavit pro eo ... ab Jehu occisus" is Ahazias, son of Joram of Juda, and "octavo patris sui anno" is Joram's eighth year — exactly what the next paragraph states, 0244C: "idem annus Joram regi Judae fuit octavus" and "Ahazias et rex Israel ab Jehu interfectus est." With "pater" as subject the possessive chain collapses; with "filius" it is exact. The gloss supplies the right word one clause earlier.
+

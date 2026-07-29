@@ -277,3 +277,27 @@ foot of this file.
 | *restauratio* | restoration | |
 | *praevaricatio* | transgression | *praesumptio* → "presumption" |
 | *custos* / *custodire* / *custodia* | keeper / to keep / keeping | see the 1008C entry above — the etymology requires it |
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 0999A — letter-inversion (medium confidence)
+Printed: *In nocte itaque, ut dictum est, supplicator jam dictus erat, et idem desiderabat, sed prae nimia confusione et humilitate petere non praesumebat.*
+
+Conjecture: **diem desiderabat (diem > idem)**
+
+'Idem' can only take up 'in nocte' — he was in the night and desired the same, i.e. the night. The immediately following sentence supplies the right word and denies it: 'Cur enim illi respondetur a Domino, venit mane nisi quia verus cordium inspector noverat eum DIEM desiderare?' The suppliant desires the day (the promised 'venit mane'), not the night he is enduring.
+
+### 1000D — dropped-non (high confidence)
+Printed: *Solus autem Spiritus sanctus in Trinitate non per semetipsum custodit: nam nulla in Trinitate persona ab ipso accipit ut aliquid faciat vel facere possit.*
+
+Conjecture: **non NISI per semetipsum custodit — "the Holy Spirit alone in the Trinity keeps only through himself" (dropped nisi; equivalently solum/nonnisi)**
+
+The whole chapter is a counting scheme: the Father keeps three ways ('Pater ergo custodit per Filium, custodit per Spiritum sanctum, custodit per semetipsum'), the Son two ('Nam Filius quidem custodit per seipsum, custodit per Spiritum sanctum, non autem per Patrem suum'), the Holy Spirit one — which is why the DOUBLED invocation excludes him: 'Cum ergo custodiae geminatio sit in invocatione de Spiritu sancto non possumus hoc recte intelligere.' As printed the Spirit keeps in no way at all, which (i) does not follow from its own 'nam' clause — that no person receives FROM him bars his keeping through ANOTHER, not through himself — (ii) destroys the 3/2/1 scheme the exclusion argument depends on, and (iii) flatly contradicts the preceding chapter at 1000A, 'Custos itaque est Dei Filius, custos est Spiritus sanctus… bonitas quae nos custodit inter nocturnos algores,' and 'Filius… custodit per Spiritum sanctum' in the very next-but-one clause.
+

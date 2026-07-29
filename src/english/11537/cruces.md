@@ -216,3 +216,27 @@ untranslated, so citation errors are flagged here only.
   to the cithara, truth to the psaltery," leaving the sentence without a verb. The
   intended reading is *pertinet* ("pertains"), which the parallel member
   (*veritas ad psalterium*, verb understood) supplies.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 1063C — added-negative (high confidence)
+Printed: *Sed si non oculis hominum se humiliare vel contemptibile apparere erubescit, matrem quidem praesentem habet, sed usque adhuc pulli praesentia caruit.*
+
+Conjecture: **Sed si oculis hominum se humiliare vel contemptibilis apparere erubescit (delete non)**
+
+The scheme is a fixed pair: 'Duo sunt, humilitas et humiliatio: humilitas in asina, humiliatio designatur in pullo' — she-ass = inward humility, colt = outward humiliation. The man who does NOT blush to humble himself outwardly is exactly the man who HAS the colt. The very next sentence states the converse member and fixes the polarity: 'Si te exterius humilias, sed magnum aliquid de te existimas, pullum habes, sed matrem non habes.' Mother-without-colt therefore requires the man who DOES blush at outward humiliation; the printed 'non' inverts the member and collapses the pair into a self-contradiction.
+
+### 1069D — dropped-non (high confidence)
+Printed: *Unde sancti jam mortem timent, sed cupiunt dissolvi et esse cum Christo.*
+
+Conjecture: **Unde sancti jam mortem non timent**
+
+The 'Unde' draws its conclusion from the immediately preceding clause: 'Salvator vero voluntarie mortem suscepit, et moriendo mortem destruxit, et sic homines a timore mortis eripuit' — Christ snatched men away from the FEAR of death; the inference cannot be that the saints now fear it. The adversative 'sed cupiunt dissolvi et esse cum Christo' (Phil. 1:23) makes no contrast with 'timent' and demands a negated first member. Contrast also the state before the remedy, stated just above: 'homines timore obnoxii erant... et quaelibet patiebantur ne morerentur.'
+

@@ -124,3 +124,27 @@ numbers, not ours:
 - **Col 1040A `[n: (ibid.)]`** (Rebecca's counsel) resolves to Gen. XXVII, the
   immediately preceding non-*ibid.* locator; left as printed for the indexer to
   resolve.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 1035B — dropped-word (high confidence)
+Printed: *Sed coelum illud quod intra non est, cur non habeat sui generis terram, quemadmodum et illud quod cernitur habet terram suam?*
+
+Conjecture: **quod intra nos est**
+
+The sentence immediately before it establishes the premise: 'De regno coelorum catholica fides certissime agnovit quod intra nos sit.' The sentence immediately after it draws the inference from that same premise: 'Si intra nos est regnum coelorum, cur non et intra nos sit terra viventium?' The argument is a contrast between the inward heaven and the visible one ('illud quod cernitur'), so the subject here must be the heaven that IS within; as printed, 'quod intra non est' makes the subject the heaven that is not within — i.e. the visible heaven — which destroys the contrast the same clause goes on to draw and contradicts both neighbours.
+
+### 1036D — letter-inversion (medium confidence)
+Printed: *In melle accipe quidquid glorificae jucunditatis in corporeis sensibus incorporea substantia distillat*
+
+Conjecture: **incorporeis sensibus (word-division: 'in corporeis' for 'incorporeis')**
+
+This is the second limb of a strict two-term antithesis whose first limb is printed one clause earlier: 'In lacte ergo intellige quidquid beatificae dulcedinis corporeis sensibus corporea substantia subministrat.' Milk = corporeal substance to corporeal senses; honey must therefore be incorporeal substance to incorporeal senses. The distinction was set out just above in the same column: 'Pertinet ad beatitudinem hominis exterioris exterioribus oculis videre in Deo naturam humanam. Pertinet vero ad beatitudinem hominis interioris interioribus oculis videre in homine naturam divinam.' As printed, the honey-clause assigns the inner man's beatitude to the bodily senses, collapsing the antithesis into its opposite.
+

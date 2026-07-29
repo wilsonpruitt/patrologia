@@ -41,3 +41,20 @@ nothing to tell them which is the plate's.
 Not corrected in the text. No `citation-corrections.json` entry: the reference
 (*Ephes. IV*) is correct and resolves correctly — it is the quoted WORDS that are
 defective, which that mechanism does not cover.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 1014B — letter-inversion (high confidence)
+Printed: *Solliciti estote servare veritatem spiritus in vinculo pacis*
+
+Conjecture: **unitatem spiritus (Eph. IV, 3: 'solliciti servare unitatem Spiritus in vinculo pacis')**
+
+The very next sentence glosses the word just quoted as unitas, four times over: 'Unitatem vocat spiritus, illam unitatem quam facit spiritus in corpore Christi, quod est Ecclesia, cujus unitatis vinculum est pax ad quam unitatem nos invitat' — and the whole following paragraph ('Ideo unitatem spiritus servare debemus quia sumus unum corpus, et unus spiritus') hangs on unitas, never on veritas. The lemma denies the word its own exposition assumes.
+

@@ -11,3 +11,20 @@
 ## Col 1228D (chunk 0000) — minor typographical slip
 - **Reading (as printed):** `latori praesentium corum quae penes nos habentur notulas compendiosas tradidimus`
 - **Note:** `corum` is a plain misprint for *eorum* ("of those") — the genitive governing *quae penes nos habentur* ("those things which are in our possession"). Rendered per sense ("brief notes of those things which are in our possession"); the Latin itself is not emended. Noted for completeness.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 1225B — letter-inversion (medium confidence)
+Printed: *Nam, ut aiunt illi, confirmaverunt vos divitiae, quas in schola et frequenti verborum commercio consuevistis canigenas appellare.*
+
+Conjecture: **infirmaverunt vos divitiae**
+
+The sentence is introduced by 'Nam' as the ground of the clause immediately before it — 'ut sic erigeretur spiritus vester, qui divitiarum pondere dicitur opprimi, et amore episcopandi, et deliciarum affluentia INFIRMARI' — and 'ut aiunt illi' points back to those same reporters. What they say is that riches crush and weaken him; 'confirmaverunt vos divitiae' asserts the opposite of the infirmari it is offered as proof of, and the letter's whole burden is that wealth has undone the addressee.
+

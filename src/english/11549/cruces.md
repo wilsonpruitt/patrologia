@@ -105,3 +105,27 @@ The supporting argument above is also wrong: the second of the two announced mod
 **Pattern 4 (`[f: …]`) deliberately not applied.** This is lemma-and-gloss commentary on Paul, not a florilegium: there are no inline citation tails, and all source references are Migne's `[n: …]` notes. Confirmed against the prompt's genre ruling.
 
 **Head text.** The single running head, "Explicatio aliquorum passuum difficilium Apostoli," is rendered "An Explanation of Certain Difficult Passages of the Apostle" throughout, with the chunker's `(cont.)` reproduced verbatim in that exact English form on chunks 0001–0005.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 0671D — added-negative (high confidence)
+Printed: *Negat autem Apostolus quod ex sola cognitione sive doctrina perficiendi; negat, inquam, et merito, hominem non posse vivificari.*
+
+Conjecture: **hominem posse vivificari (delete non)**
+
+The printed text makes the Apostle deny that a man CANNOT be given life, i.e. assert that knowledge alone does give life — the opposite of the whole argument. The very next sentence draws the contrast the other way: 'Sed quod Apostolus negat de sola mandati cognitione, Dominus affirmat de mandati impletione: Hoc, inquit, fac, et vives... Non dicit, si hoc scis, vives: sed, hoc fac, et vives.' And a few lines above: 'Vides quia secundum Apostolum lex nec vivificare, nec justificare potest.' What the Apostle denies is precisely that knowing vivifies; only 'hominem posse vivificari' makes the following 'Quod igitur Dominus affirmat, Apostolus non negat' coherent.
+
+### 0673A — dropped-non (high confidence)
+Printed: *Sed quomodo in ejus nomine petimus si in ipsum credimus?*
+
+Conjecture: **nisi in ipsum credimus**
+
+As printed, faith is made the obstacle to asking in Christ's name, whereas the gloss immediately supplies the right word: 'Hoc est quod te docere voluit, cum dicit: Creditis in Deum, et in me credite' — belief is the precondition, not the bar. The sequel confirms it: 'Qui igitur quod debet implere non potest, in Christum credat, in Christo petat Patrem qui omnia potest.' Required sense: 'how do we ask in his name UNLESS we believe in him?' (nisi for si).
+

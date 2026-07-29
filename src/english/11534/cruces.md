@@ -142,3 +142,34 @@ flagged here only.
   straight to 1060A; there are no 1059B–D anchors in the TEI, and the work's
   last sentence straddles the jump. Reproduced as printed; not an error on our
   side.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 1046D — added-negative (high confidence)
+Printed: *Sed saepe non novelli eorum qui ejusmodi sunt, propter metum cadendi, et laborem patiendi, desiderant cito mori, ut ab omni periculi suspicione de caetero possint esse securi.*
+
+Conjecture: **nonnulli (word-division defect: nonnulli split as 'non novelli')**
+
+The very next sentence is a rebuke aimed at exactly the people this sentence is supposed to be describing: 'Sed attende ne forte videatur esse signum nonnullius impatientiae laborum certamina subterfugere vel signum similiter nonnullius diffidentiae sub cadendi metu ultra modum trepidare.' The warning has no subject unless the preceding clause has just asserted that SOME of them do long for a quick death out of fear of falling. As printed, the clause denies that anyone of that description exists, and the reproof that follows strikes at nobody; note also that 'nonnullius' appears twice in that very rebuke.
+
+### 1054A — dropped-non (high confidence)
+Printed: *Subtracta namque gratia et protectione divina, homo ad inimici suggestionem in quodcunque malum dejicitur, et semel dejectum ad status rectitudinem propria virtute roboratur.*
+
+Conjecture: **nec semel dejectum ad status rectitudinem propria virtute roboratur (or ... propria virtute non roboratur)**
+
+The sentence is the prose gloss on the dust-image printed immediately before it at the end of the previous paragraph: 'Pulvis ad omnem flatum de suo loco excutitur, et quocunque dejectus, nunquam nisi alieno impulsu levatur' — dust, once cast down, is NEVER lifted except by an impulse from outside. The same chapter's four-degree scheme (1052A) states the doctrine flatly: 'secundo ut sciamus a nullo malo post lapsum nostra virtute posse resurgere.' As printed the clause asserts the exact contrary, that fallen man IS strengthened back to uprightness by his own power, and it is offered as an illustration of 'forma defectus humani.' The parallel ashes-clause that follows keeps its negative ('per semetipsum omnino non poterit sine ejus cooperatione custodire'), so the dust-clause is the odd one out.
+
+### 1055A — added-negative (medium confidence)
+Printed: *oportet illum oculos illos claudere, quos in primis parentibus legimus apertos fuisse, et oblectamenta sensuum non attendere, nec avertere.*
+
+Conjecture: **sed avertere (or nec advertere)**
+
+The governing clause is 'Qui vult ergo huic mundo mortuus esse, oportet illum oculos illos claudere' — the man dead to the world must SHUT his eyes; and the whole burial figure that follows turns on 'Sepultus vero desinit videre, simul et videri.' A prescription to close the eyes and yet not to turn away from the delights of the senses cancels itself; the printed 'nec avertere' forbids the very aversion the image demands.
+

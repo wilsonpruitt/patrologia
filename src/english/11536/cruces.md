@@ -540,3 +540,62 @@ resolution chain may depend on them:
 - **`peccatum meum contra me est semper`** (1105B) rendered "my sin is always
   **against** me," not the conventional "before me." Migne prints *contra*;
   scripture policy forbids substituting the received English.
+
+---
+
+## PL 196 polarity sweep (2026-07-28)
+
+Sites found by the volume-wide sweep for sense-reversing defects (dropped or
+intrusive negations, and single letters that invert a claim). **All are Migne's;
+all are rendered literally per Pattern 7.** Entries already discussed above are
+repeated here so the class can be read in one place.
+
+### 1079C — letter-inversion (high confidence)
+Printed: *Moeror pro nobis aeternis, mare est a dextris; moeror pro malis aeternis, mare est a sinistris.*
+
+Conjecture: **bonis (for nobis)**
+
+The sentence is built as a paired scheme — sorrow for eternal GOODS on the right vs. sorrow for eternal EVILS on the left — matching the chapter head 'De gemina cordis compunctione' and echoed two sentences later, 'ut... mala diluamus aeterna et... bona mercemur aeterna.' Printed 'nobis' ('for us') breaks the good/evil antithesis the passage otherwise sustains; 'bonis' is one letter away.
+
+### 1094B — letter-inversion (medium confidence)
+Printed: *Non potest, ut arbitror, ad perfectum exteriorum bonorum fastigium pertingere, qui interiorum bonorum dulcedinem nondum meruit gustando sentire.*
+
+Conjecture: **ad perfectum exteriorum bonorum FASTIDIUM pertingere**
+
+The gloss supplies the right word one clause earlier: the men who can do this are defined as 'qui jam ea quae sursum sunt sapiunt, qui coelestium dulcedinem jam degustaverunt, QUI TERRENA FASTIDIUNT' — loathing of earthly goods, not attainment of a 'summit' of them, is the disposition under discussion. The sentence that immediately follows proves the same point from a text of refusal, not of attainment: 'Puto quia Propheta nisi prius gustasset quam suavis est Dominus... illud omnino ex sententia dicere non posset: Renuit consolari anima mea.' Tasting inward sweetness is what makes a man REFUSE outward consolation; as printed, the sentence makes the inward taste a precondition for reaching the peak of outward goods, the opposite of the argument it introduces and of the whole treatise's contemptus mundi.
+
+### 1095A — letter-inversion (high confidence)
+Printed: *Illic ergo praecedat, ut viam ostendat.*
+
+Conjecture: **Hic ergo praecedat, ut viam ostendat.**
+
+The whole chapter is built on a Hic/Illic antithesis in which the ark does the OPPOSITE thing on each side of the Jordan: 'In loco horroris et vastae solitudinis turbam praecedat, in terram promissionis ingredienti turbae succedat. Praecedat ad nostra, subsequatur ad divina. Citra Jordanem, quae pertinent ad nos; ultra Jordanem, quae sunt supra nos. Hic jubemur discutere et approbare... Illic praecipimur credere.' The sentence immediately before the defect states the rule for illic explicitly: 'Sed ad illa quae ultra Jordanem sunt... eo quod jubemur turbam NON ARCAM praemittere' — beyond the Jordan the ark must NOT go first. 'Illic ergo praecedat' asserts precisely what its own neighbouring clause has just denied; the concluding maxim belongs to the near side (hic), where the ark goes before to show the way, per 'Praecedat ad nostra' and 'arcam nostram ante nos praemittere... quo debeat virtutum familia... tendere' and the Prov. IV proof-text 'palpebrae tuae praecedant gressus tuos.'
+
+### 1097D — added-negative (high confidence)
+Printed: *Ipsum cui noluit hoc opus ascribere, maluit designare ex descriptione.*
+
+Conjecture: **voluit for noluit — "Ipsum cui voluit hoc opus ascribere, maluit designare ex descriptione"**
+
+The whole point of the paragraph is that the psalmist ascribes the work to God and not to himself: 'Sed, ne quis eum vel hoc ipsum boni exordium sibi ascribere credat, audiat quid huic sententiae adnectat haec mutatio dexterae Excelsi. Non sibi sufficere potuit ut diceret haec mutatio Dei, nisi diceret haec mutatio dexterae Excelsi.' He was not unwilling to ascribe the work to God — he was unwilling to ascribe it to himself. The following clause supplies the correct sense: 'Excelsum dicit qui hoc fecit, et dexteram nominavit. Ac si aperte dicat: Ille hoc fortiter fecit qui fortia potenter efficere consuevit.' The one to whom he DID wish to ascribe it he chose to name descriptively ('the right hand of the Most High') rather than by the bare name 'Dei'. As printed, 'noluit' makes the descriptive naming pointless and denies the ascription the sentence's own sequel affirms.
+
+### 1106D — dropped-non (high confidence)
+Printed: *Horum autem rationem hoc loco ostendere jam volumus, de quibus quod nobis rectius videbatur alias jam diximus.*
+
+Conjecture: **nolumus (or non ... volumus) for volumus — "Horum autem rationem hoc loco ostendere jam nolumus, de quibus quod nobis rectius videbatur alias jam diximus."**
+
+Its own relative clause gives the reason for declining, not for undertaking: 'de quibus quod nobis rectius videbatur alias jam diximus' ('concerning which we have already said elsewhere what seemed to us more correct'), and two sentences earlier he has already said the same: 'Quid autem de duodecim filiis Jacob sentiamus, ex quibus originem trahunt hae duodecim tribus, alio loco jam diximus.' As printed, the sentence announces an exposition that the sentence itself declares superfluous — and that Richard then does not give: he passes straight to 'Sed qui ex tali sobole semen suum in duodecim tribubus multiplicatum esse confidit discat quales lapides...' The bare list of tribe-virtues that precedes is given without any 'ratio' at all.
+
+### 1111C — added-negative (high confidence)
+Printed: *Scala usque in coelum porrecta, ante ejus oculos erigitur, Dominusque innixus scalae conspicitur, ut per invisibilem formam, invisibiliumque figuram, in intellectibilium intelligentiam, speculantis animus sublevetur.*
+
+Conjecture: **visibilem for invisibilem — "ut per visibilem formam, invisibiliumque figuram, in intellectibilium intelligentiam, speculantis animus sublevetur"**
+
+The gloss in the very next sentence supplies the right word: 'Felix cui visibilium scientia fit scala ad invisibilia cognoscenda' ('Happy the man for whom the knowledge of VISIBLE things becomes a ladder for knowing invisible things'). The ladder is Richard's standard anagogic device — a seen form carrying the mind to the unseen — and the paired member 'invisibiliumque figuram' already supplies the invisible term, so 'invisibilem formam' collapses the antithesis and makes the ascent start from what it is supposed to reach. The chapter repeats the point twice more: 'nec eget in illa subtilitatis suae ascensione sustentari alicujus corporeae similitudinis adumbratione' and 'Felices quibus exteriorum scientia fit scala ascensionis, non ruina dejectionis.'
+
+### 1114A — letter-inversion (high confidence)
+Printed: *Jacet hic corpus sine sensu et motu in hoc Dominico monumento; nihil sensualitas, nihil agit imaginatio, et omnis inferior vis animae proprio interim induitur officio.*
+
+Conjecture: **exuitur for induitur — "omnis inferior vis animae proprio interim exuitur officio" (is meanwhile stripped of its own office)**
+
+The two clauses immediately preceding it in the same sentence assert the exact opposite of what 'induitur' claims: 'Jacet hic corpus sine sensu et motu ... nihil sensualitas, nihil agit imaginatio.' The body lies senseless and motionless, sensuality does nothing, imagination does nothing — so the lower powers are precisely NOT discharging their offices. The clause is the summary of that suspension, and the whole burial-in-the-stone figure requires divestiture ('nec recipit corpus nisi mortificatum', 'omnem sensum humanum funditus absorbeat'). As printed the summary reinstates the very faculties its own protasis has just shut down.
+
