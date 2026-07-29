@@ -1,0 +1,570 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 6018,
+  "textIdno": 11058,
+  "title": "Adnotatiunculae in Threnos",
+  "authors": [
+    "Hugo de S. Victore"
+  ],
+  "authorsDisplay": [
+    "Hugh of Saint Victor"
+  ],
+  "series": "pl",
+  "volume": 175,
+  "colFirst": "255d",
+  "colLast": "322b",
+  "counts": {
+    "scripture": 85,
+    "fontes": 2,
+    "heads": 1,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Mark.5",
+      "refDisplay": "Marc. V.",
+      "column": "257c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccles. I",
+      "column": "260b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.26",
+      "refDisplay": "Psal. XXVI",
+      "column": "261a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X.",
+      "column": "261c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "Luc. VIII",
+      "column": "262b",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.9",
+      "refDisplay": "I Cor. IX",
+      "column": "263a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccle. II",
+      "column": "263a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI",
+      "column": "263b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Eccl.21",
+      "refDisplay": "Eccle. XXI",
+      "column": "263b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Lam.2",
+      "refDisplay": "Thren. II",
+      "column": "264d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Lam.2",
+      "refDisplay": "Ibid.",
+      "antecedent": "Thren. II",
+      "antecedentColumn": "264d",
+      "ibidResolved": true,
+      "column": "264d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Lam.2",
+      "refDisplay": "Ibid.",
+      "antecedent": "Thren. II",
+      "antecedentColumn": "264d",
+      "ibidResolved": true,
+      "column": "264d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Lam.2",
+      "refDisplay": "Ibid.",
+      "antecedent": "Thren. II",
+      "antecedentColumn": "264d",
+      "ibidResolved": true,
+      "column": "264d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Gen.6",
+      "refDisplay": "Gen. VI",
+      "column": "267a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Isa.1",
+      "refDisplay": "Isa. I",
+      "column": "268b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ezek.38",
+      "refDisplay": "Ezech. XXXVIII",
+      "column": "269d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Gen.2",
+      "refDisplay": "Gen. II",
+      "column": "270b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.59",
+      "refDisplay": "Psal. LIX",
+      "column": "273b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.21",
+      "refDisplay": "Matth. XXI",
+      "column": "275b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Song.4",
+      "refDisplay": "Cant. IV",
+      "column": "275c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Isa.1",
+      "refDisplay": "Isa. I.",
+      "column": "275d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.49",
+      "refDisplay": "Psal. XLIX",
+      "column": "276a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.117",
+      "refDisplay": "Psal. CXVII",
+      "column": "276a",
+      "chunk": 5
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "277c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.27",
+      "refDisplay": "Matth. XXVII",
+      "column": "277c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "278c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Isa.9",
+      "refDisplay": "Isa. IX",
+      "column": "278c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Isa.26",
+      "refDisplay": "Isa. XXVI",
+      "column": "278d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.117",
+      "refDisplay": "Psal. CXVII",
+      "column": "279a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Luke.19",
+      "refDisplay": "Luc. XIX",
+      "column": "279b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Isa.56",
+      "refDisplay": "Isa. LVI.",
+      "column": "281a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ezek.13",
+      "refDisplay": "Ezech. XIII",
+      "column": "281a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Luke.11",
+      "refDisplay": "Luc. XI",
+      "column": "281b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.1",
+      "refDisplay": "Psal. I",
+      "column": "284d",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.40",
+      "refDisplay": "I Cor. XL",
+      "column": "285d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.106",
+      "refDisplay": "Psal. CVI",
+      "column": "286a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Isa.56",
+      "refDisplay": "Isai. LVI",
+      "column": "288d",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "Joan. VI",
+      "column": "289a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.15",
+      "refDisplay": "Matth. XV",
+      "column": "289a",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.2",
+      "refDisplay": "Joan. II",
+      "column": "289a",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.12",
+      "refDisplay": "Joan. XII",
+      "column": "289b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Philip. III",
+      "column": "289b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Exod.12",
+      "refDisplay": "Exod. XII",
+      "column": "289d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "290d",
+      "chunk": 10
+    },
+    {
+      "refKey": "1John.5",
+      "refDisplay": "I Joan. V",
+      "column": "293a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Luke.10",
+      "refDisplay": "Luc. X",
+      "column": "295a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII",
+      "column": "297d",
+      "chunk": 12
+    },
+    {
+      "refKey": "Sir.24",
+      "refDisplay": "Eccli. XXIV",
+      "column": "298a",
+      "chunk": 12
+    },
+    {
+      "refKey": "2Cor.11",
+      "refDisplay": "II Cor. XI",
+      "column": "298a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Philip. III",
+      "column": "298a",
+      "chunk": 12
+    },
+    {
+      "refKey": "2Tim.4",
+      "refDisplay": "II Tim. IV",
+      "column": "298a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Exod.3",
+      "refDisplay": "Exod. III",
+      "column": "298a",
+      "chunk": 12
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "298b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "298b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "298b",
+      "chunk": 12
+    },
+    {
+      "refKey": "1Sam.6",
+      "refDisplay": "I Reg. VI",
+      "column": "299a",
+      "chunk": 12
+    },
+    {
+      "refKey": "1Sam.6",
+      "refDisplay": "ibid.",
+      "antecedent": "I Reg. VI",
+      "antecedentColumn": "299a",
+      "ibidResolved": true,
+      "column": "299a",
+      "chunk": 12
+    },
+    {
+      "refKey": "1Cor.11",
+      "refDisplay": "I Cor. XI",
+      "column": "300b",
+      "chunk": 12
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "300b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Gal.4",
+      "refDisplay": "Galat. IV",
+      "column": "300b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Rev.12",
+      "refDisplay": "Apoc. XII",
+      "column": "304d",
+      "chunk": 13
+    },
+    {
+      "refKey": "Isa.10",
+      "refDisplay": "Isa. X",
+      "column": "306a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.75",
+      "refDisplay": "Psal. LXXV",
+      "column": "306d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Gen.18",
+      "refDisplay": "Gen. XVIII",
+      "column": "307a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Exod.3",
+      "refDisplay": "Exod. III",
+      "column": "307b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.64",
+      "refDisplay": "Psal. LXIV",
+      "column": "307b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "307b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.1",
+      "refDisplay": "Psal. I",
+      "column": "309a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "310d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.136",
+      "refDisplay": "Psal. CXXXVI",
+      "column": "311a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
+      "column": "311a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "311b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Sir.15",
+      "refDisplay": "Eccli. XV",
+      "column": "311d",
+      "chunk": 16
+    },
+    {
+      "refKey": "2Chr.26",
+      "refDisplay": "II Par. XXVI",
+      "column": "314a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Matt.20",
+      "refDisplay": "Matth. XX",
+      "column": "314b",
+      "chunk": 16
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "315a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "317a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.56",
+      "refDisplay": "Psal. LVI",
+      "column": "317b",
+      "chunk": 17
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "317b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.75",
+      "refDisplay": "Psal. LXXV",
+      "column": "320b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "320d",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "Psal. XXXVII",
+      "column": "320d",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ps.49",
+      "refDisplay": "Psal. XLIX",
+      "column": "320d",
+      "chunk": 18
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "322b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ps.45",
+      "refDisplay": "Psal. XLV",
+      "column": "322b",
+      "chunk": 18
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "THREN. I.",
+      "column": "255d",
+      "chunk": 0
+    },
+    {
+      "raw": "THREN. II.",
+      "column": "265a",
+      "chunk": 2
+    }
+  ],
+  "heads": [
+    {
+      "la": "Adnotatiunculae in Threnos",
+      "column": "255d",
+      "chunk": 0,
+      "en": "Little Notes on Lamentations"
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
