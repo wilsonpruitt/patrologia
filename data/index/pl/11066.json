@@ -14,8 +14,8 @@
   "colFirst": "431c",
   "colLast": "634a",
   "counts": {
-    "scripture": 411,
-    "fontes": 6,
+    "scripture": 412,
+    "fontes": 5,
     "heads": 14,
     "headnotes": 0,
     "unparsed": 0
@@ -914,6 +914,12 @@
       "refDisplay": "Joan. VI",
       "column": "511c",
       "chunk": 22
+    },
+    {
+      "refKey": "Hos.2",
+      "refDisplay": "Osee II",
+      "column": "511d",
+      "chunk": 23
     },
     {
       "refKey": "Rom.15",
@@ -2593,11 +2599,6 @@
       "chunk": 3
     },
     {
-      "raw": "Osee II",
-      "column": "511d",
-      "chunk": 23
-    },
-    {
       "raw": "I COR. V",
       "column": "521c",
       "chunk": 26
@@ -2700,5 +2701,6 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

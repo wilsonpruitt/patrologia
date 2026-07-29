@@ -145,3 +145,28 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
 
 - **addressee** — the preface is directed only to `G.`; the initial is not
   expanded here.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 2 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0846C — dropped-non (migne, medium confidence)
+
+Printed: *Nunquid nomina est veritas? Ecce (ut interim de Deo taceamus) quid est quod dialectica tot diversas et tam adversas, ne dicam perversas habet sententias? Nunquid omnes noverunt unum id quod est, sed amore fallendi diversa finxerunt?*
+
+Conjecture: **Nunquid non una est veritas? — the plate's `nomina` is a word-division/haplography of `non una`; as printed, plural `nomina` with singular `est` is ungrammatical, which is the giveaway that the reading is corrupt.**
+
+The clause is the hinge of Hugh's argument that diversity of opinion comes from us, not from truth: the immediately preceding sentence asks 'quid est quod de rerum veritate tam diversa sentire solent homines?' and the immediately following one asks 'Nunquid omnes noverunt UNUM ID QUOD EST, sed amore fallendi diversa finxerunt?' — i.e. the unity of the thing known against the multiplicity of opinions. 'Is truth one?' is what both neighbours require; 'Is truth names?' introduces a nominalist question the passage never raises again. Our English smoothed the broken Latin into a plausible-sounding question rather than flagging it.
+
+### 0855A — dropped-word (migne, medium confidence)
+
+Printed: *Sed haec determinatio, quamvis non omnino refutanda videatur, est tamen multo competentior et commodior expositio ad quam sententia haec accommodari possit.*
+
+Conjecture: **est tamen ALIA multo competentior et commodior expositio ad quam sententia haec accommodari possit — 'yet there is ANOTHER far more fitting and convenient exposition to which this opinion can be accommodated.' The plate as printed makes 'haec determinatio' itself the more fitting exposition, i.e. the opposite of what Hugh goes on to do.**
+
+Two neighbours contradict the printed reading. (1) The concessive immediately before it — 'quamvis non omnino refutanda videatur' ('although it does not seem wholly to be rejected') — is a demurral, and is pointless if Hugh is about to call the same determination much more fitting. (2) The sentence immediately after it drops the correspondent's determination and substitutes Hugh's own: 'Anima namque Christi idcirco omnia habere dicitur per gratiam, quae Deus habet per naturam, quia plenitudo deitatis in Verbo ei unita est...' — the alternative exposition the missing 'alia' announces. Our English is a silent repair (translation-style 7a): it recovers the true sense by reversing the comparative onto 'haec determinatio' ('far less suitable than the more convenient exposition'), so the printed defect leaves no trace for the reader.
+

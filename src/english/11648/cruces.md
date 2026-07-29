@@ -149,3 +149,28 @@ cardinal-bishop of Porto). (Earlier: "bishop of Porto.")
 - s.a. 1200: the capture of Constantinople (1204) is entered under 1200.
 - s.a. 1272 / 1276: papal successions are compressed and partly wrong
   (Gregory X d. 1276; Innocent V, Adrian V, John XXI all 1276).
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 2 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0992A — dropped-non (migne, low confidence)
+
+Printed: *quid postquam conse *cratus est man* datis Innocencii *pape im* perans excommunicatus . . . . . . dis depositus *est reg* ia dignitate*
+
+Conjecture: **the plate has lost a negative or a verb of defiance governing 'mandatis' — e.g. 'mandatis Innocentii papae [non parens]' / '[contemnens]'; the English then had to render the surviving 'imperans' as compliance ('ruling by the mandates')**
+
+The same sentence goes on 'excommunicatus . . . depositus *est reg* ia dignitate' — Otto is excommunicated and deposed by Innocent in the very next clause. A man who governs *by* Innocent's mandates is not excommunicated and deposed by Innocent; the clause must originally have said he defied them.
+
+### 0992C — dropped-word (migne, low confidence)
+
+Printed: *Gregorius papa Fredericum imperatorem monuit, ut cum exercitu suo, qui jam pridem cruce signatus erat, ad exterminandos fidei christiane inimicos Jerosolimis proficisceretur.*
+
+Conjecture: **'Gregorius' stands where the annal requires 'Honorius' — the reigning pope in 1224, and the pope who in fact pressed Frederick II on the crusade vow**
+
+The annal is entered under 1224, but the annalist's own next entry, at 1226, reads 'Obiit Honorius IX, papa; succedit Gregorius' ('Honorius IX, pope, died; Gregory succeeds'). By the text's own reckoning Gregory is not yet pope in 1224 and cannot be admonishing the emperor as such.
+

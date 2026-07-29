@@ -64,3 +64,20 @@
 - **col 0396B** — *In omnibus plateis et viis sit planctus (Amos V, 16)* carries
   its citation as bare parenthetical text **inside** the italics rather than as an
   `[n:]` marker. Reproduced as printed; this is why noteCount is 15, not 16.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0395A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Auris ergo nostra est obedientia nostra: nam cum precamur et resipiscimus, primam istius auris partem leo devorat, novissimam pastor solvat.*
+
+Conjecture: **cum peccamus et resipiscimus ("when we sin and repent") — peccamus corrupted to precamur**
+
+The allegory assigns the devoured first part to sin and the rescued last part to repentance, so praying cannot be what makes the lion devour. The very next sentences say so: 'Prima pars auriculae est *Non concupiscas.* Ista jam deglutita est, quia cogitatio concupivit' — the first part is swallowed because the thought coveted (a sin, not a prayer) — and the rescue of the last part is answered 'Quomodo? Utique per poenitentiam et correctionem.' The printed 'precamur' makes prayer the cause of the lion's bite, the opposite of the sentence's own gloss; and 'resipiscimus' ('come to ourselves again', i.e. repent) presupposes a preceding lapse, not a preceding prayer.
+

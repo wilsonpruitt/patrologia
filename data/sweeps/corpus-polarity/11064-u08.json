@@ -1,0 +1,33 @@
+{"agent":"11064-u08","idno":"11064","chunks":"0063-0071","chunksRead":9,"findings":[
+  {"chunk":"0064","column":"1106A","side":"ours",
+   "printedLatin":"Hoc est, quod dicit: « Extremae enim, » subauditur essentiae, ut sunt angeli, « participatae sunt ab excelsissimis virtutibus » in omnibus proprietatibus suis; sed non enim diverso, superiorum proprietates ad inferiorum participationem universaliter veniunt.",
+   "englishAsRendered":"This is what he says: « For the extremes, » understand: essences, such as are the angels, « are partaken of by the most excellent virtues » in all their properties; but not otherwise, the properties of the higher come universally to the participation of the lower.",
+   "defectType":"dropped-non",
+   "conjecture":"Migne's « sed non enim diverso » is « sed non e diverso » (e > enim), i.e. 'but not conversely'; the negation governs the verb: '...but not conversely do the properties of the higher come universally to the participation of the lower.' Our English detaches 'not otherwise' from 'veniunt' and so asserts the very thing the clause denies.",
+   "whyContradiction":"The sentence immediately before it states the one-way rule — « quod angeli nominantur, mirum non est quia angeli ultimi sunt, et eorum proprietas a superioribus participatur universaliter » ('their property is universally partaken by the higher') — and the sentence immediately after draws the opposite conclusion from the reverse direction: « Propterea mirum est quomodo angeli, et qui ante angelos sunt... nomen virtutum assumant, cum non participent proprietatem » ('Therefore it is a wonder how the angels... assume the name of virtues, since they do not partake the property'). The lemma being expounded says the same at 1105B: « ultimae vero majorum superpositas universitates non habent. » The English as it stands makes the lower partake the higher's properties universally, which would remove the wonder Hugh is about to insist on.",
+   "confidence":"high"},
+
+  {"chunk":"0070","column":"1124B","side":"migne",
+   "printedLatin":"Et videt etiam ipse Isaias summitatem sublimiorem « omnibus ipsis, » scilicet excelsissimis spirituum beatorum essentiis; « etiam superarcane, » id est, excellentissimo modo: « summitatem, » dico, « super principalem, » id est Deum, qui summus et principalis omnium est, supercollocatam « in medio superfirmatarum virtutum. »",
+   "englishAsRendered":"And Isaiah himself sees also a summit more sublime than « all these, » ... « the summit, » I say, « above the principal, » that is, God, who is the highest and principal of all, superplaced « in the midst of the superfirmed virtues. »",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"Word-division defect: read « superprincipalem » as one word (so Migne himself prints it in the LITTERA at 1113A: « sublimiorem superprincipalem summitatem in medio superfirmatarum virtutum supercollocatam »). Hugh's gloss then identifies the summit with God — 'the superprincipal summit, that is, God, who is the highest and principal of all' — not something set above a 'principal' who is God.",
+   "whyContradiction":"As divided, 'id est Deum' attaches to 'principalem', so the summit stands ABOVE God; the very next sentence identifies the summit as God himself: « In medio enim virtutum... ipse Deus summus, et principalis sedens videtur in solio excelso et elevato » ('God himself, the highest and principal, is seen sitting upon a throne lofty and elevated'). Migne's own lemma two columns earlier prints the compound « superprincipalem summitatem » undivided.",
+   "confidence":"medium"},
+
+  {"chunk":"0063","column":"1104C","side":"migne",
+   "printedLatin":"Sequitur: « Etenim nihil per se perfectum indigens universalis perfectionis, nisi vere perfectissimum, et ante perfectum. » ... quia nihil est per se perfectum, et nihil quod non sit per se imperfectum, et quod non sit indigens per se invisibilis, vel omnis perfectionis, nisi illud bonum summum.",
+   "englishAsRendered":"...and there is nothing which is not through itself imperfect, and which is not through itself needy of the invisible, or of every perfection, save that highest good.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"« invisibilis » is a misprint for « universalis »; read 'indigens per se universalis, vel omnis perfectionis' — 'needy of the universal, that is, of every perfection.'",
+   "whyContradiction":"The lemma Hugh is glossing stands three lines above in the same paragraph and prints the word correctly: « nihil per se perfectum indigens universalis perfectionis. » Hugh's own explanatory doublet — « vel omnis perfectionis » ('or of every perfection') — is the standing gloss of universalis, not of invisibilis; the sentence as printed makes the glossator explain 'invisible' by 'every', which the immediate context forbids.",
+   "confidence":"medium"},
+
+  {"chunk":"0070","column":"1124D","side":"migne",
+   "printedLatin":"« Sed adhuc, » sive insuper etiam hoc didicit ipsum « esse omnium principium, » quia ab eo sunt omnia; et causam sanctificam, quia per eum subsistunt universa; et immutabile fundamentum eorum, quae sunt, secreta singularitate...",
+   "englishAsRendered":"...that it « is the principle of all, » because from it are all things; and the sanctifying cause, because through it all things subsist; and the immutable foundation of those things which are, by a secret singularity...",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"« sanctificam » for « substantificam » — 'the substance-making cause, because through it all things subsist.'",
+   "whyContradiction":"Hugh's own causal clause attached to the word states the ground of SUBSISTENCE, not of sanctification: « quia per eum subsistunt universa », and it stands in a series whose members are all being-terms ('principle of all... immutable foundation of the things that are... from which both being and well-being is'). The lemma he is expounding, printed by Migne at 1113B, reads « et causam substantificam esse ». Our English carried the plate's word through unaltered.",
+   "confidence":"low"}
+]}

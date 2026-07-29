@@ -1,0 +1,33 @@
+{"agent":"7871-u31","idno":"7871","chunks":"0000-0011","chunksRead":12,"findings":[
+  {"chunk":"0007","column":"0983B","side":"migne",
+   "printedLatin":"Omnes sancti qui suavissimum odorem ex bona conversatione dederunt, et in corruptionis integritate perdurant, Deo auctore, tantorum bonorum gratiam perceperunt.",
+   "englishAsRendered":"All the saints who have given a most sweet odor from good manner of life, and endure in the integrity of incorruption, have received, God being the author, the grace of such great goods.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"incorruptionis integritate (word-division defect: incorruptionis set as in corruptionis, so the printed text says 'in the integrity of corruption')",
+   "whyContradiction":"The lemma being glossed is 'Species ejus ut Libani, electus ut cedri' — cedar, and the same commentary at Num. 24 (col. 0969A) makes the pairing explicit: 'Tecta autem et laquearia domorum istarum cedrina et cypressina, quae INCORRUPTIBILIA et ODORIFERA dignoscuntur'. The same sentence's own first half, 'suavissimum odorem ex bona conversatione dederunt', is the other half of that odour+incorruption pair; 'integritas corruptionis' asserts the opposite of what the cedar figure requires. Our English silently repairs the plate to 'incorruption'.",
+   "confidence":"high"},
+
+  {"chunk":"0010","column":"0992C","side":"migne",
+   "printedLatin":"Ad quam, sub nomine Jerusalem, dicit Dominus per prophetam: *Super te et super muros tuos posui custodes tuos, tota die et nocte, usque in finem contacebunt [n: (Isai. VIII)]*.",
+   "englishAsRendered":"To whom, under the name of Jerusalem, the Lord says through the prophet: *Upon thee and upon thy walls I have set thy keepers; all the day and night, unto the end they shall keep silence [n: (Isai. VIII)]*.",
+   "defectType":"dropped-non",
+   "conjecture":"non tacebunt (Isa. LXII, 6) — 'contacebunt' is a word-division/letter defect for 'non tacebunt'",
+   "whyContradiction":"This work quotes the identical verse correctly earlier, at Num. 63, col. 0975B: 'Super muros tuos, Jerusalem, custodes constitui; tota die et nocte perpetuo NON TACEBUNT. Omnes tenentes gladios, ad bella doctissimi.' Here the immediate neighbour is 'Tradidit eam custodibus. Commisit eam regendam apostolis vel successoribus eorum episcopis' — watchmen handed the Church to guard; watchmen who 'shall keep silence unto the end' is the opposite of the point being proved. Our English renders the defective plate as printed.",
+   "confidence":"high"},
+
+  {"chunk":"0011","column":"0994A","side":"migne",
+   "printedLatin":"Sicque ascendens in excelsis, qui nunc appares obtutibus carnis, adesto semper oculis cordis ut te in fide retineamus quem aspectu non cernimus.",
+   "englishAsRendered":"And thus ascending on high, thou who now appearest to the gazes of the flesh, be ever present to the eyes of the heart, that we may hold thee in faith whom we do not discern by sight.",
+   "defectType":"dropped-non",
+   "conjecture":"qui non appares (or non iam appares) obtutibus carnis",
+   "whyContradiction":"The same sentence ends 'ut te in fide retineamus QUEM ASPECTU NON CERNIMUS' — we hold in faith the one we do not see; and the sentence before it is 'Qui conversatus es nobiscum in terris, pronus regredere ad superna' (the Ascension is already past). 'Now thou appearest to the gaze of the flesh' asserts the opposite of its own clause. Marked low because 'nunc' can be strained into a dramatic present at the moment of ascending.",
+   "confidence":"low"},
+
+  {"chunk":"0000","column":"0966C","side":"ours",
+   "printedLatin":"Sodales quippe Christi ex quadam parte haeredici appellentur, quia nativitatem, passionem, et resurrectionem ipsius profitentur; sed quia de ipsis Apostolus ait: *Habentes formam pietatis et virtutes ejus abnegantes*, *non* jam sodales, sed adversarii comprobantur.",
+   "englishAsRendered":"For the companions of Christ may in a certain part be called heretics, because they profess his nativity, passion, and resurrection; but because concerning them the Apostle says: *Having the form of piety but denying the power thereof*, they are proved to be *no longer* companions but adversaries.",
+   "defectType":"reversed-predication",
+   "conjecture":"'Heretics may in a certain respect be called companions (sodales) of Christ' — the English has inverted subject and predicate nominative, so the title being granted becomes 'heretics' instead of 'companions'.",
+   "whyContradiction":"The clause the sentence ends on, 'NON JAM SODALES, sed adversarii comprobantur', can only follow if the title provisionally granted was 'sodales'; and the lemma under discussion is 'per greges sodalium tuorum: id est per congregationes haereticorum' — heretics are the ones being called Christ's companions, not the reverse. Out-of-enum defectType: a converse inversion rather than a negation.",
+   "confidence":"medium"}
+]}

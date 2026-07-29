@@ -12,3 +12,20 @@ Garbled or corrupt printed readings rendered literally per the translation regis
 Variant readings in square brackets are editorial, not corruption, and are kept verbatim/untranslated per the register: **[Merome ]** (col 0091C, for *Romae*), **[Meros seu Merotz]** (col 0091D, for *Meroth*), **[Ozri ]** (col 0092B, for *Ezri*), **[ardorem]** (col 0094C, for *odorem*).
 
 Column anchors reproduced exactly as printed; the print skips col 0095D (text runs 0095C → 0096A).
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0087C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Intelligitur ergo, quod filii Benjamin, quorum possessio tribui Juda cuncta erat, et Hierusalem contingebat: postquam filii Juda civitatem ceperant atque vastaverant, in eadem habitare coeperunt*
+
+Conjecture: **juncta erat (c for j): "quorum possessio tribui Juda juncta erat, et Hierusalem contingebat" — "whose possession was joined to the tribe of Judah and touched Jerusalem." juncta … contingebat is the natural pair, and the English's "lay wholly next to" is a silent repair that quietly supplies the "next to" the printed cuncta does not contain.**
+
+As printed, cuncta erat asserts that Benjamin's possession belonged entirely to the tribe of Judah. That is the opposite of what the whole sentence is doing, which is explaining why BENJAMIN, not Judah, came to occupy Jerusalem: "filii Benjamin ... in eadem habitare coeperunt, ipsumque Jebusaeum habitatorem loci a filiis Juda subactum secum habitare passi sunt." The neighbouring clause "et Hierusalem contingebat" ("and touched Jerusalem") is a statement of adjacency and requires a possession Benjamin actually holds; if that possession were wholly Judah's there would be nothing of Benjamin's to touch Jerusalem, and the entire explanation of Benjamin's presence in the city collapses.
+

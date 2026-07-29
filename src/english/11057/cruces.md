@@ -444,3 +444,52 @@ page is ours even though the reading is Migne's.
 
 5. **0010, 0361A — the `*dic*` marker.** See section A. The only place in my half
    where I put a `[sic: …]` around a form that is technically a real Latin word.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 5 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0327B — added-negative (migne, medium confidence)
+
+Printed: *Rami sunt animae desideria, per quae extenditur usque ad [0327B] opera: qui albi facti sunt, quando nativum virtutis colorem non amittunt.*
+
+Conjecture: **quando nativum virtutis colorem amittunt (delete non)**
+
+The lemma being glossed is a devastation image, and Hugh has just glossed the whole clause negatively in the two sentences immediately preceding: 'Sed hanc gens praefata decorticavit, nudavit, projecit. Decorticavit actu, nudavit sensu, projecit affectu. Actu probitatis, sensu honestatis, affectu bonitatis.' The branches are whitened (barked bare) precisely BY the enemy's stripping, i.e. when the desires lose the native green of virtue; as printed the gloss makes whitening the mark of virtue retained. Compare the parallel gloss on the same lemma at 0325A: 'quia persecutione ingravescente tepuerunt exercitia religionis, siluerunt verba praedicationis, virtutum merita attenuata sunt in multis.'
+
+### 0339B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Nonnulli in divinitate Deitatis unitatem, sed disparem potestatem in aequalem dignitatem.*
+
+Conjecture: **sed disparem potestatem, inaequalem dignitatem (word-division: inaequalem set as 'in aequalem')**
+
+The clause pairs 'disparem potestatem' (unlike power) with 'aequalem dignitatem' (equal dignity) in the same breath, and the very next sentence sets the opposite party against it: 'Plerique omnium aequalitatem, sed naturae negaverunt unitatem' — the group that granted EQUALITY is the other one, which denied unity of nature. The subordinationist group here must deny both equal power and equal dignity while holding the unity of Deity; 'in aequalem' is 'inaequalem' broken across a word division.
+
+### 0341D — dropped-word (migne, medium confidence)
+
+Printed: *Sic cadendo non demoliuntur, sed potius eriguntur et consolidantur, juxta illud: *Omnis qui se exaltat, humiliabitur [n: (Luc. XIV)]*.*
+
+Conjecture: **juxta illud: et qui se humiliat, exaltabitur (Luc. XIV, 11b) — the second half of the verse, dropped or displaced by the first**
+
+The proof-text is adduced to support the immediately preceding clause 'sed potius eriguntur et consolidantur' — men who fall down (humble themselves) are raised up. As printed, the verse-half quoted asserts the reverse movement (the self-exalter is humbled), which supports nothing in the sentence it is attached to; the required half is 'qui se humiliat, exaltabitur'. The whole surrounding passage is about apostolic men who 'devota horum consideratione, Creatori sese humiliter prosternunt' and are thereby 'not broken'.
+
+### 0352D — sense-reversing-letter (migne, high confidence)
+
+Printed: *Torcularia, ipsa sunt corda inter spem et timorem posita, constantiam inferius, patientiam superius habentia; constantiam in tentatione, patientiam in tribulatione…*
+
+Conjecture: **constantiam SUPERIUS, patientiam INFERIUS habentia — the two adverbs are transposed in Migne's plate**
+
+The very next sentences state the opposite arrangement and are internally consistent with the wine-press image: 'Constantia siquidem premit, et DESUPER arcet; patientia INFERIUS jacet et pondus sustinet' ('For constancy presses down and holds off from above; patience lies beneath and bears the weight'). Constancy cannot be 'below' in one clause and press 'from above' two clauses later; in a torcular the upper beam presses and the lower part bears the weight.
+
+### 0369A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *quando per apostolos et eorum successores evangelica doctrina gentilem populum ad finem initiavit, ad credulitatem convertit, ad baptismi gratiam perduxit*
+
+Conjecture: **ad FIDEM initiavit (one letter: fidem → finem)**
+
+'initiavit' means to begin/initiate, so 'ad finem initiavit' asserts an initiation unto the END — the reverse of what the verb requires; and the two parallel members that follow both name the entry-stages of conversion, 'ad credulitatem convertit, ad baptismi gratiam perduxit' (converted to belief, led to the grace of baptism). The triad is fides → credulitas → baptismus, not 'end'.
+

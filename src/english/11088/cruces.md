@@ -350,3 +350,52 @@ No `[d: …]`: no dittography found. The single guillemet pair in these chunks
 (0906C, the *charitas non quaerit quae sua sunt* lemma inside a lemma) is
 reproduced 1:1; every other quotation in the eight chunks is marked by Migne
 with italics alone and is left so.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 5 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0896C — sense-reversing-letter (ours, medium confidence)
+
+Printed: *Melius est minus egere quam plus habere.*
+
+Conjecture: **minus egere = "to need LESS"; render "It is better to need less than to have more." The comparative in the English has been flipped from minus to "more," which is the one word the sentence turns on.**
+
+The gloss Hugh immediately attaches reads the lemma as a counsel of wanting less, not of wanting more: "Servus ergo Dei ut voluntatem atque appetitum carnis possit reprimere, semper debet ad MINUS tendere ut ipsorum alimentorum et vestimentorum MINUS velit habere" — "ought always to tend toward the less, so that he may wish to have less." As printed in English the maxim also compares "more" with "more," which is no comparison at all; the Latin minus/plus antithesis is what makes it one.
+
+### 0900D — sense-reversing-letter (migne, low confidence)
+
+Printed: *Ille ergo vir sanctus timeat displicere, ne velit feminae malae placere. Illum cogitet omnia videre, ne velit feminae male videri.*
+
+Conjecture: **feminae MALE placere (adverb), not feminae MALAE placere — "lest he wish to please a woman wickedly." One added letter turns a blanket prohibition into a conditional one about a particular (evil) woman.**
+
+The twin clause printed in the very next breath keeps the adverb — "ne velit feminae MALE videri" — so the two halves of the same balanced sentence do not agree; and the rule this comments on forbids fixing on ANY woman, not on wicked ones only: "Oculi vestri, etsi jaciantur in aliquam feminarum, in NULLA figantur" (0899-lemma, same chapter). As Migne prints it, pleasing a woman who is not "mala" would fall outside the precept, which the chapter explicitly denies.
+
+### 0914B — dropped-non (migne, high confidence)
+
+Printed: *Quotidie dicimus Deo: Dimitte nobis debita nostra sicut et nos dimittimus debitoribus nostris, quod si debitoribus nostris, id est eis qui in nos peccant nos dimittimus, cum dicimus Deo: Dimitte nobis debita nostra, sicut et nos dimittimus, ipsa nostra oratione inculpamur, et Deum adversum nos ad iracundiam incitamus, et ipsi super nos inducimus maledictionem potius quam benedictionem.*
+
+Conjecture: **Read 'id est eis qui in nos peccant NON dimittimus' — Migne's 'nos' is a one-letter corruption of 'non' (the preceding 'nos' in 'sicut et nos dimittimus' invited the assimilation). Sense: 'but if we do NOT forgive our debtors ... we are accused by our own prayer.'**
+
+As printed, forgiving one's debtors is what makes the Lord's Prayer an accusation and a curse — the exact reverse of the argument. The next sentence says so: 'Sicque fit ut oratio quae debebat nobis esse salubris, sit noxia, et peccata nostra quae debuimus minuere, orando augeamus' — the prayer is harmful only when the petitioner has NOT forgiven. Same paragraph, just above: 'si hoc quod in nobis delinquitur ex corde non dimittimus, et illud rursum exigitur quod nobis jam per poenitentiam dimissum fuisse gaudebamus'; and below at 0915B: 'Quisquis autem roganti et peccata sua poenitenti ex corde non dimittit, nullo modo existimet a Domino peccata sua dimitti.'
+
+### 0920A — dropped-word (migne, medium confidence)
+
+Printed: *Sed quia nonnunquam nec jubentur adversa, sciendum summopere est quod obedientia aliquando si de suo habeat aliquid, nulla est, aliquando autem si de suo non habeat aliquid, minima est.*
+
+Conjecture: **Gregory's antecedent (Moral. XXXV) distinguishes what is commanded in prosperity from what is commanded in adversity; read 'quia nonnunquam prospera, nonnunquam vero jubentur adversa'. Migne's 'nec' stands where the prosperity member has fallen out, and negates the adversity member instead.**
+
+Two sentences later the same paragraph states that adverse things ARE commanded, and builds the whole distinction on it: 'Rursum cum mundi despectus praecipitur, cum probra et contumeliae adipisci jubentur' — and then 'Debet ergo et obedientia in adversis aliquid ex suo habere.' If adversity were never commanded there would be no 'in adversis' case to discuss.
+
+### 0923A — dropped-word (migne, high confidence)
+
+Printed: *Quod cum faciunt non sui, sed etiam ipsius magis obediendo miserentur. Sui videlicet; quia animas suas salvant.*
+
+Conjecture: **Read 'non SOLUM sui, sed etiam ipsius ... miserentur' — 'solum' has dropped out, turning 'not only ... but also' into a flat denial.**
+
+The very next clause asserts what the sentence has just denied: 'Sui videlicet; quia animas suas salvant' ('On themselves, namely, because they save their own souls'). The lemma being expounded, printed two paragraphs earlier at 0922C-D, also has the 'solum': 'Unde vos magis obediendo non solum vestri, sed etiam ipsius miseremini.'
+

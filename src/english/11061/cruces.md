@@ -332,3 +332,28 @@ orders that I be killed." The chunk's guillemet count is 0 in both twins.
 `secretum aperit … jubet` (0027A), `corripit … ostendit` (0027B), `jubet utrosque occidi` (0027B)
 sit inside otherwise past-tense narration. The shifts are reproduced rather than levelled to a
 uniform past.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 2 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0015A — sense-reversing-letter (migne, high confidence)
+
+Printed: *Lege ergo Scripturam, et disce primum diligenter quae corporaliter narrat. Si enim formam horum secundum seriem narrationis propositae studiose animo impresseris, quasi ex favo quodam postmodum meditando spiritualis intelligentiae dulcedinem fuges.*
+
+Conjecture: **fuges is a corruption of sugas (Didascalicon VI.3: 'quasi ex favo quodam postmodum meditando spiritualis intelligentiae dulcedinem exsugas'): 'you may SUCK OUT the sweetness of spiritual understanding, as from a honeycomb.'**
+
+The clause is the reward-clause of the whole chapter's exhortation, and its own image is a honeycomb — a thing one draws sweetness OUT of, not drives sweetness away from. The immediately preceding sentences promise gain, not loss: 'Lege ergo Scripturam, et disce primum diligenter quae corporaliter narrat' and, just above, 'Primum igitur illarum rerum quas tibi sacrum eloquium proponit, ad mysticam significationem stude legendo comparare notitiam, ut ex iis specie cognitis, postmodum meditando colligas' — meditation COLLECTS. A promise that diligent literal study will make you drive the sweetness of spiritual understanding away is the exact opposite of the argument against the self-styled allegory-teachers that the chapter is prosecuting.
+
+### 0025A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Quemadmodum hoc quod in libro Judith legitur, Arfaxat rex Judaeorum multas gentes suo imperio subjugasse, ac contra Nabuchodonosor regem Assyriorum pugnasse*
+
+Conjecture: **Judaeorum for Medorum (Judith 1:1, 'Arphaxad itaque rex Medorum'); the English follows the plate and so repeats the reversal.**
+
+Within the same sentence the Jews are the besieged subject people, not an empire subjugating many nations: 'Judaeos rebellare conantes in Bethulia obsedit, atque, Achior principe filiorum Amon narrante, didicit ipsum esse populum qui, nuper a captivitate reversus, eadem montana possedit.' A people that has only just come back from captivity and holds a few hill-towns cannot at the same moment be the power that 'multas gentes suo imperio subjugavit' and takes the field against Assyria; and the chronological puzzle Hugh then poses ('quo tempore haec gesta sint, vel quis fuerit Nabuchodonosor iste') turns entirely on the return from captivity, which presupposes the Jews as the subject party.
+

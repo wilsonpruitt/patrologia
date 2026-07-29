@@ -100,3 +100,68 @@ sense or grammar are listed.
 - **1252B, §28** — *dispositionis qualis esse debeas, descripsi.* The genitive
   *dispositionis* hangs loose from *descripsi*; rendered "what manner of ordering you
   ought to have."
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 7 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1248B — added-negative (migne, medium confidence)
+
+Printed: *peccanti juste non dimittas, sed culpam sciturus, quia in te est venturum judicium; non habebis indulgentiam, nisi dederis.*
+
+Conjecture: **peccanti juste dimittas (the intrusive non should fall; cf. the whole section's command to forgive)**
+
+The very next clause in the same sentence makes forgiving obligatory — 'non habebis indulgentiam, nisi dederis' ('you will not have indulgence unless you have given it') — and the sentence after it repeats the command: 'tu tamen ex corde relaxa, veniam quoque propria voluntate concede' ('do you nevertheless release it from the heart, and grant pardon of your own will'). As printed the sentence forbids the forgiveness its own apodosis requires.
+
+### 1249B — dropped-non (migne, medium confidence)
+
+Printed: *quando poteris facere, non pollicearis facere. Multum Deo reus eris, si non reddideris quod voves;*
+
+Conjecture: **quando non poteris facere, non pollicearis facere ('do not promise what you will not be able to do')**
+
+The clause immediately following gives the reason — 'Multum Deo reus eris, si non reddideris quod voves' ('you will be greatly guilty before God if you do not render what you vow') — which only supports a warning against promising the UNdoable; and the same section opens 'Fac bonum quod spopondisti' ('do the good you have promised'). As printed it forbids promising precisely what one is able to perform.
+
+### 1250A — dropped-word (migne, medium confidence)
+
+Printed: *Committe omnibus secreta professionis tuae, loquere aperte. Cunctis operta paucis annuntia;*
+
+Conjecture: **Committe paucis secreta professionis tuae ('paucis' for 'omnibus'); the following maxim is then intact in form 'cunctis aperta, paucis operta annuntia'**
+
+The next sentence restricts hidden matter to the few — 'paucis annuntia' — so entrusting 'omnibus secreta professionis tuae' contradicts it directly; the same section also warns 'Nulla sit tibi curiositas sciendi latentia' ('let there be in you no curiosity to know hidden things').
+
+### 1250C — added-negative (migne, low confidence)
+
+Printed: *nec adhuc si poenae immineant, peccanti cuiquam non aquiescas; melius namque est pati mortem quam perniciosa mala adimplere.*
+
+Conjecture: **nec ... peccanti cuiquam acquiescas (the second negative is intrusive)**
+
+The reason clause attached to it — 'melius namque est pati mortem quam perniciosa mala adimplere' ('it is better to suffer death than to carry out ruinous evils') — and 'Similis est qui obtemperat malo ei qui facit malum' require a flat prohibition of consent; 'nec ... non acquiescas' as printed cancels itself, and the English reproduces the doubled negative rather than resolving it.
+
+### 1250D — dropped-word (migne, low confidence)
+
+Printed: *tunc minime consuetudinem serva et legem, usus auctoritati cedat, pravum usum lex et ratio vincant.*
+
+Conjecture: **tunc minime consuetudinem serva, sed legem ('sed' for 'et')**
+
+The two clauses that follow put law on the winning side against custom — 'usus auctoritati cedat, pravum usum lex et ratio vincant' ('let practice yield to authority, let law and reason conquer bad practice') — so the printed text, which tells the reader to disregard the law along with custom, asserts the opposite of its own continuation.
+
+### 1251A — added-negative (migne, medium confidence)
+
+Printed: *Excute manus tuas ab omni munere, si in coelis velis habitare; in judicio quoque sine misericordia sedeas. Custodi justitiam discretionis, et noli plus justus esse quam oportet.*
+
+Conjecture: **in judicio quoque cum misericordia sedeas (or 'sine acceptione personarum'); 'sine misericordia' cannot stand as an imperative here**
+
+The next sentence caps strict justice — 'noli plus justus esse quam oportet. Omne enim quod nimium est vitium est' — and the section that follows opens 'Impia justitia est fragilitati humanae non ignoscere ... judicii examen sequatur pietas, disciplinae rigorem temperet indulgentia' ('it is an impious justice not to pardon human frailty ... let mercy follow upon the scrutiny of judgment'). A command to sit in judgment WITHOUT mercy is the reverse of what stands on either side of it.
+
+### 1251B — added-negative (migne, medium confidence)
+
+Printed: *Quamvis enim non credenda sunt, ideo tamen dimittentur, nisi quae certis indiciis approbantur, et non quae manifesto examini committuntur, et non quae ordine judiciario comprobantur.*
+
+Conjecture: **... nisi quae certis indiciis approbantur, et quae manifesto examini committuntur, et quae ordine judiciario comprobantur (both intrusive 'non' to fall)**
+
+The exception clause it belongs to already admits cases 'quae certis indiciis approbantur' ('proved by sure evidences') as judgeable, and the section's rule is 'ante proba, tunc judica' ('first prove, then judge'). The two following members, coordinated to that same exception, must likewise be positive; with 'non' they exclude open scrutiny and regular judicial process from what may be judged — the opposite of 'ante proba, tunc judica'.
+

@@ -53,3 +53,20 @@ in the English, per the variant rule:
 Migne's running page numbers *743*, *744* (chunk 0) and *745*, *746*, *747*, *748*
 (chunk 1) are set in italics in the Latin and are reproduced in italics, in place,
 in the English. None are bare.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0714D — dropped-non (migne, high confidence)
+
+Printed: *Quod comes penitus abnegat, et hanc se ferre posse stomachatur injuriam.*
+
+Conjecture: **et hanc se ferre NON posse stomachatur injuriam**
+
+The immediate neighbour on either side requires refusal, not capacity. Before: « Quod comes penitus abnegat » — the companion UTTERLY REFUSES; a man who has just utterly refused cannot in the same breath be indignant that he IS able to bear the indignity. After, the lord answers him: « Ego, inquit, si tu fastidis, solus utramque levabo, et hanc quam dicis injuriam alacriter sustinebo » — 'if YOU disdain it, I alone will lift them both and will cheerfully BEAR this indignity, as you call it.' The lord's 'I will bear it' is meaningful only as the antithesis of the companion's 'I cannot bear it'; with the printed 'posse' the two men assert the same thing and the whole contrast collapses. Our English silently repairs the plate ('protests that he CANNOT bear'), so the defect is invisible in translation — the classic silent repair of translation-style.md 7a.
+

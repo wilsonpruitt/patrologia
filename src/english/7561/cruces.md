@@ -27,3 +27,36 @@ Garbled/broken printed Latin rendered literally per policy, with editorial notes
 ## Chunk 0012 (cols 0681–0686B)
 
 - **col 0684 (ch. XXXII)** — **Printed:** `Ait itaque sanctus Papa Xis tus in Epistola...`. Neither *Xis* nor *tus* is a word: broken type for *Xystus* (= Pope Sixtus III), split by a stray internal space. Per Pattern 7 the non-word is carried into the English untranslated and in italics at this one place: "So then Saint Pope *Xis tus* says." Elsewhere the pope's name is set intact — *Sixti* at col 0683 (ch. XXXII opening), *Xysti* at col 0685 (ch. XXXIII) — and those are rendered "Sixtus" as ordinary name-translation; the Sixtus/Xystus variation is Vincent's/Migne's own and is not a crux.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 3 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0645 — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Cùm ergo undique ad novitatem rei cuncti reclamarent, atque omnes quaquaversum sacerdotes pro suo quisque studio retinerentur, tunc beatae memoriae Papa Stephanus apostolicae Sedis antistes ... restitit*
+
+Conjecture: **reniterentur ('strove against it', 'pushed back') for retinerentur; the passive 'were held back' inverts an active universal resistance into passivity.**
+
+Its own immediate neighbour in the same sentence says the exact opposite: 'undique ad novitatem rei cuncti reclamarent' — 'all cried out on every side against the novelty of the thing' — and the sentence closes with Stephen who 'cum caeteris quidem collegis suis, sed tamen prae caeteris restitit' (resisted 'together with his colleagues, but more than the rest'), which presupposes that the other priests were themselves resisting, not being held back. 'pro suo quisque studio' ('each according to his own zeal') is also incoherent with passive restraint: zeal drives the striving, not the holding back. Our English followed the printed defect rather than repairing it.
+
+### 0648 — dropped-non (migne, high confidence)
+
+Printed: *Magno [0648] igitur metu nobis immutatae fidei ac temeratae religionis piaculum pertimescendum est; a quo nos solum constitutionis Ecclesiasticae disciplina, sed etiam censura Apostolicae deterret auctoritatis.*
+
+Conjecture: **a quo nos NON solum constitutionis Ecclesiasticae disciplina, sed etiam censura Apostolicae deterret auctoritatis — 'from which not only the discipline of ecclesiastical ordinance, but also the censure of apostolic authority deters us.'**
+
+The correlative 'sed etiam' in the same clause requires 'non solum' as its first member: 'sed etiam censura Apostolicae deterret auctoritatis.' As printed, 'solum ... sed etiam' asserts that ecclesiastical discipline ALONE deters us and then immediately adds a second deterrent, contradicting itself inside one sentence. The whole following section (the 'censura Apostolicae auctoritatis' — 'Scitum enim cunctis est quam graviter, quam severe, quam vehementer invehatur in quosdam beatus Apostolus Paulus') exists precisely to develop that second member, so the sentence cannot mean 'only the discipline.' Our English reproduced the defect literally ('from which only the discipline ... but also the censure ... deters us') rather than repairing it, so the defect is Migne's.
+
+### 0675 — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Caeterum dilatatae et inveteratae haereses nequaquam hac via adgrediendae sunt, eo quod prolixo temporum tractu longa iis fruendae veritatis patuerit occasio.*
+
+Conjecture: **furandae ("of stealing/falsifying the truth") for printed fruendae ("of enjoying the truth") — a single-letter transposition that reverses the clause from an accusation into a concession.**
+
+The reason clause has to explain why the patristic-consensus method fails against OLD heresies, and the immediately preceding sentence supplies it: new heresies must be attacked at once, 'ante quam infalsare vetustae fidei regulas ipsius temporis vetantur angustiis, ac priusquam manante latius veneno, majorum volumina vitiare conentur' — before the shortness of time stops them falsifying the rules of the ancient faith and before they can corrupt the volumes of the elders. Old heresies are exempt from that method precisely because they HAVE had long occasion to falsify/steal the truth; 'a long occasion of ENJOYING the truth' would make time an advantage to truth and would give no reason at all for the exemption, and the very next sentence ('nullo modo nos oportet nisi aut sola ... Scripturarum auctoritate convincere') presupposes the fathers' texts are no longer safe evidence against them. Our English silently repairs the defect — it renders 'fruendae' as 'assailing the truth', i.e. it translates the conjectured furandae and not the printed word, so the reversal is invisible to an English-only reader.
+

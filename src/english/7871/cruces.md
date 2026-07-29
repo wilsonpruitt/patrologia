@@ -41,3 +41,44 @@ Garbled/uncertain printed readings encountered in this batch. Each rendered lite
 - **col 0990C (Num. 179)** — printed *idem dilectus dicti* ("ad ipsam per prophetam idem dilectus dicti"); evidently *dicit* (or *dixit*). Rendered "the same beloved says."
 - **col 0991A (Num. 185)** — printed *castistas* ("Vasa in quibus castistas habitat"); evidently *castitas* ("chastity"). Rendered "chastity."
 - **col 0992C (Num. 194)** — printed *contacebunt* ("usque in finem contacebunt [n: (Isai. VIII)]"). The source (Isa 62:6) reads *non tacebunt* ("they shall not be silent"), the opposite sense; *contacebunt* as printed would mean "they shall keep silence / fall silent." Rendered literally per the printed reading, "they shall keep silence." Note also the citation numeral: Migne prints "Isai. VIII" though the quotation is Isa 62:6 — left verbatim per marker rule.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 4 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0966C — reversed-predication (ours, medium confidence)
+
+Printed: *Sodales quippe Christi ex quadam parte haeredici appellentur, quia nativitatem, passionem, et resurrectionem ipsius profitentur; sed quia de ipsis Apostolus ait: *Habentes formam pietatis et virtutes ejus abnegantes*, *non* jam sodales, sed adversarii comprobantur.*
+
+Conjecture: **'Heretics may in a certain respect be called companions (sodales) of Christ' — the English has inverted subject and predicate nominative, so the title being granted becomes 'heretics' instead of 'companions'.**
+
+The clause the sentence ends on, 'NON JAM SODALES, sed adversarii comprobantur', can only follow if the title provisionally granted was 'sodales'; and the lemma under discussion is 'per greges sodalium tuorum: id est per congregationes haereticorum' — heretics are the ones being called Christ's companions, not the reverse. Out-of-enum defectType: a converse inversion rather than a negation.
+
+### 0983B — sense-reversing-letter (migne, high confidence)
+
+Printed: *Omnes sancti qui suavissimum odorem ex bona conversatione dederunt, et in corruptionis integritate perdurant, Deo auctore, tantorum bonorum gratiam perceperunt.*
+
+Conjecture: **incorruptionis integritate (word-division defect: incorruptionis set as in corruptionis, so the printed text says 'in the integrity of corruption')**
+
+The lemma being glossed is 'Species ejus ut Libani, electus ut cedri' — cedar, and the same commentary at Num. 24 (col. 0969A) makes the pairing explicit: 'Tecta autem et laquearia domorum istarum cedrina et cypressina, quae INCORRUPTIBILIA et ODORIFERA dignoscuntur'. The same sentence's own first half, 'suavissimum odorem ex bona conversatione dederunt', is the other half of that odour+incorruption pair; 'integritas corruptionis' asserts the opposite of what the cedar figure requires. Our English silently repairs the plate to 'incorruption'.
+
+### 0992C — dropped-non (migne, high confidence)
+
+Printed: *Ad quam, sub nomine Jerusalem, dicit Dominus per prophetam: *Super te et super muros tuos posui custodes tuos, tota die et nocte, usque in finem contacebunt [n: (Isai. VIII)]*.*
+
+Conjecture: **non tacebunt (Isa. LXII, 6) — 'contacebunt' is a word-division/letter defect for 'non tacebunt'**
+
+This work quotes the identical verse correctly earlier, at Num. 63, col. 0975B: 'Super muros tuos, Jerusalem, custodes constitui; tota die et nocte perpetuo NON TACEBUNT. Omnes tenentes gladios, ad bella doctissimi.' Here the immediate neighbour is 'Tradidit eam custodibus. Commisit eam regendam apostolis vel successoribus eorum episcopis' — watchmen handed the Church to guard; watchmen who 'shall keep silence unto the end' is the opposite of the point being proved. Our English renders the defective plate as printed.
+
+### 0994A — dropped-non (migne, low confidence)
+
+Printed: *Sicque ascendens in excelsis, qui nunc appares obtutibus carnis, adesto semper oculis cordis ut te in fide retineamus quem aspectu non cernimus.*
+
+Conjecture: **qui non appares (or non iam appares) obtutibus carnis**
+
+The same sentence ends 'ut te in fide retineamus QUEM ASPECTU NON CERNIMUS' — we hold in faith the one we do not see; and the sentence before it is 'Qui conversatus es nobiscum in terris, pronus regredere ad superna' (the Ascension is already past). 'Now thou appearest to the gaze of the flesh' asserts the opposite of its own clause. Marked low because 'nunc' can be strained into a dramatic present at the moment of ascending.
+

@@ -1,0 +1,16 @@
+{"agent":"11064-u06","idno":"11064","chunks":"0045-0053","chunksRead":9,"findings":[
+  {"chunk":"0052","column":"1072C","side":"ours",
+   "printedLatin":"Sic existimo et angelicorum ordinum immediatam participationem primo in Deum extentorum perfectorem esse per medietatem perfectorum.",
+   "englishAsRendered":"So too I judge that the immediate participation of the angelic orders first extended into God is more perfect through the mediation of the perfected.",
+   "defectType":"dropped-word",
+   "conjecture":"The bare 'per' here is the comparative second term (Greek genitive of comparison: τελεωτέραν εἶναι τῆς διὰ μεσότητος ἀποτελουμένης) and should read 'is more perfect THAN [that accomplished] through the mediation of the perfected' — the English dropped the comparative 'than' and turned the compared term into an instrument.",
+   "whyContradiction":"The immediately preceding sentence in the same paragraph renders the identical construction correctly and asserts the opposite ranking: « Nam sapientes circa sacras nostras immolationes aiunt, per seipsas lucentes divinorum plenitudines per alias contemplativarum participationum esse perfectiores » — English: 'the plenitudes of the divine things, shining through themselves, are more perfect than [those] through other contemplative participations.' As rendered, the next sentence says mediated participation is what makes the immediate participation more perfect, i.e. the reverse of its own premise and of the whole surrounding argument (chunks 0046-0048: the first orders are illumined 'non per alias sanctas essentias, sed ab ipsa Divinitate').",
+   "confidence":"medium"},
+  {"chunk":"0052","column":"1071C","side":"migne",
+   "printedLatin":"ad nullum una videntium, sed ad proprie ὄν universale conversam",
+   "englishAsRendered":"turned toward none of the things seen as one, but toward the properly ὄν universal",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"'una' is a misprint for 'vana' — read 'ad nullum vana videntium', 'turned toward none of the things that seem vain'.",
+   "whyContradiction":"Migne reprints the same lemma two columns later at 1075A with the correct word — « ad nullum vana videntium, sed ad proprie ὄν on universale conversam » — and Hugh's own gloss at 1076A fixes the sense beyond doubt: 'Existimo declarare conversam non ad aliquid eorum quae vana videntur, id est quae per se considerata ima apparent, et transitoria.' With 'una' the clause denies that the dominations turn toward what is seen as one, while the second half of the very same clause says they are turned to the one universal ὄν, and 1076B glosses that ὄν as 'universale, quia omnibus esse tribuit'.",
+   "confidence":"medium"}
+]}

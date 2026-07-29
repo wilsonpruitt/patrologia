@@ -77,3 +77,20 @@ italic in place.
 At 1049C Migne's *ludus / luditur / illuditur* wordplay ("a game… the play is
 ours, the mockery yours") cannot be carried by one English root; rendered with
 "game / play / mockery" and flagged for the read-through.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1053A — dropped-word (ours, low confidence)
+
+Printed: *Haec pure facienda est: quia non est pars una peccatorum dicenda, et altera reticenda; neque levia confitenda, et gravia diffitenda.*
+
+Conjecture: **The Latin negation governs the whole pair (non [una dicenda et altera reticenda]); English needs the scope carried explicitly, e.g. "because it is not the case that one part of one's sins should be told and another kept silent" or "because one part of one's sins is not to be told while another is kept silent".**
+
+As rendered, the clause most naturally reads as prescribing that one part is NOT to be told and another is to be kept silent — i.e. partial concealment — which is the opposite of its own governing sentence "Haec pure facienda est" / "This must be made purely," and of the immediately following "Nec alter accusandus et ipse excusandus" ("Nor is another to be accused and oneself excused"), the whole point of which is that nothing be held back.
+

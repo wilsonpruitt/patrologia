@@ -92,3 +92,20 @@ per the marker rule. None were corrected in the text.
 
 - **attribution** — the addressee is given only as `Domno A. Venerabili
   archiepiscopo`. The initial is not expanded here.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0493D — sense-reversing-letter (ours, medium confidence)
+
+Printed: *Quoniam adhuc modicum, [0493D] et visitabo sanguinem Jezrahel super domum Jehu, et requiescere faciam regnum domum Israel, et in illa die conteram arcum Israel, in valle Jezrahel*
+
+Conjecture: **Hosea 1:4 reads 'et quiescere faciam regnum domus Israel' — 'I will cause the kingdom of the house of Israel to CEASE' (Douay). Migne's plate prints 'requiescere' (extra re-, plus 'domum' for 'domus'), and the English has followed the printed form lexically as 'make ... to rest', turning a sentence of destruction into a promise of repose. Render 'and I will bring the kingdom of the house of Israel to an end'.**
+
+Damian cites this verse for one purpose only, stated in the sentence immediately before it: 'Quod utique nomen, quamvis prosperum significare videatur ... hic tamen vindictam Dei et furorem sonat' — 'although it seems to signify something prosperous ... here nevertheless it sounds the vengeance of God and fury.' A clause promising Israel's kingdom rest is the opposite of vindicta and furor, and it also contradicts the clauses flanking it inside the same quotation ('I will visit the blood of Jezrahel upon the house of Jehu', 'I will break the bow of Israel'). The paragraph after it repeats the point: 'Quod autem hic per Jezrahel, non salus, sive prosperitas, sed Dei potius ira signatur.'
+

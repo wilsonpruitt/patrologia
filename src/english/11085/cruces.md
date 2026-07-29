@@ -141,3 +141,44 @@
 
 ## Whole work — quotation marks
 - **Note:** Migne prints exactly one guillemet pair in 11085 (col 0867C, the Law's curse of barrenness), reproduced 1:1. Everywhere else — and this work is almost entirely quotation and re-quotation of Gen. 2:24, Luke 1, Ps. 48, Ps. 72 and the Song — Migne marks quotation by italics or by nothing at all, most often by nothing: the Genesis lemma *Relinquet homo patrem suum…* is italicized on first citation (0861C) and then repeated more than twenty times in plain type as Hugh dissects it. Per Pattern 6 no guillemets were supplied for any of these; the plain-type repetitions are left plain, and straight quotes were used sparingly and only where English genuinely needs a mark the plate does not print — six instances in all: col 0858A (the maxim *matrimonium non facit coitus, sed consensus*), cols 0862A–0862B (the phrase *propter hoc* twice, and the clauses *adhaerebit uxori suae* / *erunt duo in carne una* once each, where Hugh is naming them as phrases rather than quoting them), and col 0866D (the word *desponsatio* named as a word). Guillemet counts match the Latin twin 1:1 in all seven chunks.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 4 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0864B — added-negative (migne, medium confidence)
+
+Printed: *ut in eo quod adhaeret uxori suae sacramentum sit invisibilis societatis, quae in [0864B] spiritu facienda est inter Deum et animam; in eo autem quod duo sunt in carne una, sacramentum sit invisibilis participationis quae in carne facta est inter Christum et Ecclesiam.*
+
+Conjecture: **the second invisibilis should be visibilis: 'sacramentum sit visibilis participationis quae in carne facta est inter Christum et Ecclesiam'**
+
+The clause negates itself: the participation is called invisibilis and in the same breath 'quae IN CARNE FACTA EST' — a thing accomplished in flesh. The whole sentence is built on a two-term antithesis whose first limb is explicit: 'invisibilis societatis, quae in SPIRITU FACIENDA est inter Deum et animam' (invisible / spirit / still to be made) against 'participationis quae in CARNE FACTA est inter Christum et Ecclesiam' (flesh / already made). With invisibilis in both limbs the antithesis collapses and the qualifier 'in carne' is left contradicting its own adjective. The parallel restatement of the same doctrine in chunk 0006 at 0874D carries no 'invisibilis' at all on the flesh side: 'Commistio carnis in conjugibus sacramentum est illius participationis, quae est in carne inter Christum et Ecclesiam.'
+
+### 0864D — dropped-word (migne, low confidence)
+
+Printed: *ut eadem carnis commistio, quae ibi inter virum et mulierem futura praedicitur, hic foedere dilectionis (quae est in spiritu) nihil prodesse demonstretur.*
+
+Conjecture: **'hic SINE foedere dilectionis ... nihil prodesse demonstretur'**
+
+Without 'sine' the plate says the mingling of flesh profits nothing BY the covenant of love — the reverse of the gloss Hugh gives in the very next sentence: 'non imperantis dissidium, sed docentis, quod SINE DILECTIONIS FOEDERE cassa sit, et virtute carens, etiamsi permaneat societas carnis.' Our English silently supplies the missing 'without' (translation-style 7a silent repair), so the printed defect is invisible to an English-only reader.
+
+### 0865A — dropped-non (migne, medium confidence)
+
+Printed: *Nequaquam ergo ex eo pensandum est conjugii sacramentum, in quo tunc sanctificaretur, sed exerceretur conjugalis castitas; et nunc sanctificaretur conjugium, sed excipitur conjugatorum infirmitas.*
+
+Conjecture: **'in quo tunc NON sanctificaretur, sed exerceretur conjugalis castitas; et nunc NON sanctificaretur conjugium, sed excipitur conjugatorum infirmitas' — the adversative 'sed' in each limb requires the negative it answers**
+
+As printed, the carnal office IS what sanctifies chastity and marriage — the exact thesis Hugh has just denied in the immediately preceding sentence: 'Non ergo virtus sacramenti conjugalis in carne est, sed in mente, nec ille consensus ad sanctitatem perficiendam requiritur.' The sentence is also self-cancelling: 'sanctificaretur, SED exerceretur' and 'sanctificaretur, SED excipitur' set two positives in adversative opposition, which is not Latin; 'sed' is answering a 'non' that is no longer on the plate. The English reproduces the incoherence verbatim ('would be sanctified, but exercised').
+
+### 0876C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Casta enim dilectio non ex tali sexu aliter afficitur, sed in tali sexu ex tali natura. Propterea quod extra talem sexum taliter affici non potest, quia extra talem sexum non invenitur talis natura.*
+
+Conjecture: **'non ex tali sexu TALITER afficitur, sed in tali sexu ex tali natura' — aliter for taliter**
+
+The sentence exists to deny that the SEX is what affects love, and to assign the effect to nature; 'aliter' makes it deny instead that love is affected OTHERWISE by such a sex, i.e. it concedes the point being denied. The immediately following sentence prints the word the antithesis requires: 'extra talem sexum TALITER affici non potest' — 'taliter', not 'aliter', is the operative adverb. The same denial is stated two sentences earlier: 'amor conjugalis non propter sexum dissimilem sacramentum est, sed propter naturam differentem.'
+

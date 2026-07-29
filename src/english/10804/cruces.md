@@ -904,3 +904,84 @@ For each of 0009–0016, body-to-body against the Latin twin, by script:
    these eight pages and it is entirely Migne's.
 7. **§9 — the inline italic citation at 1265A–B** is a fons set as running text
    rather than as a `[n: …]` note; the indexer will miss it unless told.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 9 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1238A — dropped-non (migne, high confidence)
+
+Printed: *Vox Synagogae: « Filii namque matris meae pugnaverunt contra me. » Mihi, inquit, quietudinis fuit facultas, quoniam necessaria parare, et *607* contra hostes pugnare necesse erat.*
+
+Conjecture: **Mihi, inquit, NULLA quietudinis fuit facultas (or non fuit facultas) — 'I had no opportunity of rest, since I had to prepare necessities and fight against enemies.'**
+
+The causal clause in the same sentence gives the reason for the OPPOSITE of what is asserted: 'quoniam necessaria parare, et contra hostes pugnare necesse erat' — a necessity of provisioning and fighting is a reason for having no leisure, not for having it. The immediately preceding sentences say the same in the bride's own voice: « Non in umbra quievi, non in lecto me otio dedi... In vinea laboravi, agrum excolui, vigilavi, jejunavi » ('I have not rested in the shade, I have not given myself over to idleness upon a bed'), and the next sentence continues 'Foris igitur pugnae, intus timores' ('Without, therefore, were fightings; within, fears'). Our English reproduced the defective plate literally, so the English asserts leisure in a paragraph whose whole burden is unrelieved toil and war.
+
+### 1248A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Formosa mea super [1248A] nivem dealbata, sine macula et ruga. Surge, inquit, fac quod factura es, et ad me tandem post malitiam, et peracto officio veni.*
+
+Conjecture: **post MILITIAM ('after thy warfare/service'), not post malitiam — paired with 'peracto officio', i.e. come to me when thy campaign is over and thy office discharged.**
+
+The immediately preceding clause describes this same bride as 'Formosa mea super nivem dealbata, sine macula et ruga' ('made whiter than snow, without spot or wrinkle'), and the parallel member of the very sentence is 'peracto officio' — a discharged duty, not a sin. As printed, the summons imputes malice to the spotless bride at the moment she is being called; 'militia' restores the pairing warfare/office that the sentence's own structure demands. Our English carried the defect through literally ('after the malice').
+
+### 1260B — sense-reversing-letter (migne, high confidence)
+
+Printed: *Hic enim est lignum scientiae boni et mali, Novum videlicet et Vetus Testamentum, quae et mala devitare, et bona nos facere docent. Habemus et lignum vetitum; id est Christum, qui est panis vivus, qui de coelo descendit.*
+
+Conjecture: **lignum VITAE ('the tree of life'), not lignum vetitum. The paradise topos pairs the lignum scientiae boni et mali with the lignum vitae; 'vetitum' is a plate corruption of 'vitae' (assisted by the Genesis phrase 'lignum vetitum').**
+
+The apposition in the very same clause identifies this tree as Christ, 'qui est panis vivus, qui de coelo descendit' — the living bread given to be eaten. A tree that is FORBIDDEN is the exact opposite of the bread we are commanded to eat. The frame two sentences earlier makes it worse: 'Vocatur igitur Ecclesia paradisus, quoniam omnium deliciarum copiis repleta est' — the point of the paradise figure is that everything in this garden is available delight; a prohibition has no place in it. Our English rendered the defect literally ('the forbidden tree, that is, Christ'), producing the reverse of Bruno's sacramental point.
+
+### 1270C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Imperfecti sunt enim qui hic loquuntur: idcirco ubi Deus sit, quo declinaverit, et quo in loco moreretur, quasi ignorantes inquirunt.*
+
+Conjecture: **moraretur (from moror, 'to abide') for moreretur (from morior, 'to die')**
+
+The answer Bruno immediately supplies is about DWELLING, not dying: « mecum est et mecum habitat. Ad Patrem ivit, me non reliquit; coelos ascendit, me non deseruit. » The three indirect questions track the lemma « quo abiit ... quo declinavit » plus 'where he stays'; 'in what place he might die' asserts of the risen Christ the one thing this passage denies of him.
+
+### 1276B — dropped-word (migne, low confidence)
+
+Printed: *Sulamitis autem *captiva* vel *despecta* interpretatur. Ecclesia vero prius despecta, nunc a viro electa est. Quod quidem Rachel significavit.*
+
+Conjecture: **Lia for Rachel — Leah is the wife Scripture calls despised (Gen. XXIX, 31: « videns autem Dominus quod despiceret Liam »)**
+
+The type is fixed by the sentence it is attached to: « prius despecta, nunc a viro electa ». Of the two sisters it is Rachel who was loved from the first and Leah who was the despised one afterwards blessed — so naming Rachel makes the type say the reverse of the gloss it illustrates, and of the interpretation « Sulamitis ... despecta » two lines above.
+
+### 1276D — sense-reversing-letter (migne, medium confidence)
+
+Printed: *nunc autem calceata es, ne inquinentur. Patientia namque pedes nostros calceat, quoniam sanguinem innocentum fundere non dubitavit, et non modo patitur.*
+
+Conjecture: **sanguinem innocentum fundi non dubitavit (passive) — patience did not shrink from having innocent blood POURED OUT, i.e. its own; cf. the same idiom used of Christ at 1275C, « pro nobis sanguinem proprium fundere non dubitavit »**
+
+As printed, the virtue of patience is the AGENT that sheds innocent blood — the opposite of patience, and the opposite of the sentence it explains: the feet are shod « ne inquinentur », lest they be defiled. The following gloss confirms the passive sense: « Possumus et per calceamenta, prophetarum qui mortui sunt exempla intelligere » — the shoes are the prophets who DIED, not who killed.
+
+### 1283A — added-negative (migne, medium confidence)
+
+Printed: *Mustum enim novum esse vinum nemo dubitat; quod quidem ebullire non cessat, donec totum purgatum fuerit. ... Horum autem mustum, horum novum canticum fervere distulit, donec et haereticorum error, et paganorum infidelitas cessavit.*
+
+Conjecture: **fervere non destitit (or: fervere distulit ← non distulit) — the martyrs' must did NOT cease boiling until heresy and paganism ceased**
+
+Bruno has just laid down the simile in his own words two sentences earlier: « quod quidem ebullire non cessat, donec totum purgatum fuerit » — must does not stop fermenting until it is purged. The application must therefore say the martyrs' new song never stopped boiling until error ceased; 'distulit' says it postponed boiling until then, the exact reverse of the figure he built.
+
+### 1284B — sense-reversing-letter (migne, low confidence)
+
+Printed: *Christus enim et signaculum, et clavis, firmumque sigillum est cordis sanctorum. Non possunt sanctorum corpora frangi, non possunt eorum secreta violari, tanto et tam munita sigillo.*
+
+Conjecture: **corda for corpora — 'the HEARTS of the saints cannot be broken'**
+
+The sealed thing has just been named as the heart — « firmumque sigillum est cordis sanctorum » — and is named again three lines later, « Signaculum est in corde, signaculum est in manu ». The saints' BODIES are precisely what this commentary says can be broken: « quatiuntur arbores, occiduntur martyres » (1262C), and at 1269A Christ himself « occidi potuit ». Only 'corda' preserves the seal-of-the-heart argument.
+
+### 1284C — sense-reversing-letter (migne, high confidence)
+
+Printed: *« Quia fortis est ut mors dilectio. » -- « Perfecta namque charitas foras mittit timorem. » Non timet dilectio mortem, non superatur amore. Fortis est mors, fortis est dilectio.*
+
+Conjecture: **non superatur a morte — the plate has run 'a morte' together as 'amore', making love the thing that overcomes love**
+
+The clause as printed says love 'is not overcome by love', which is empty; the whole paragraph is about love versus DEATH — the very next words are « Fortis est mors, fortis est dilectio », and then « Non timent Christi discipuli mortem, quoniam eorum dilectio fortis est ut mors. Cum morte pugnant, morti occurrunt. » The pair 'non timet ... mortem / non superatur a morte' is the required parallel.
+

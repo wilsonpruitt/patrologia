@@ -59,3 +59,20 @@
   their foreheads" — the sacrament of confirmation, but the physical sense is
   load-bearing in the sentence about the bishop's circuit.
 - *chorepiscopi* rendered "chorbishops."
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1088C — added-negative (migne, medium confidence)
+
+Printed: *Tamen ut ab ecclesiasticis de non dividendis rebus Ecclesiae suspicionem dudum conceptam penitus amoveremus, statuimus ut neque nostris, neque filiorum et Deo dispensante successorum nostrorum temporibus, qui nostram vel progenitorum nostrorum voluntatem, vel exemplum imitari voluerint, ullam penitus divisionem aut jacturam patiatur.*
+
+Conjecture: **de dividendis rebus Ecclesiae suspicionem dudum conceptam — the suspicion the clergy had conceived was of the DIVISION of church property; the intrusive 'non' (assimilated from the chapter rubric 'de non dividendis rebus ecclesiasticis', printed twice at 1090D) makes the emperors say the clergy suspected them of NOT dividing it.**
+
+The remedy decreed in the same sentence is precisely non-division: 'statuimus ut ... ullam penitus divisionem aut jacturam patiatur' ('we have decreed that ... shall it suffer any division or loss whatsoever'), and the preceding clause promises increase, not loss: 'cuique non solum habita conservare, verum etiam multa, Deo opitulante, conferre optamus'. A guarantee of non-division can only REMOVE a suspicion of division; as printed, the decree confirms the very suspicion it claims to dispel. The same clause recurs at 1091A ('de non dividendis rebus illius'), where the English again reproduces the printed negative ('concerning the non-division of its goods') rather than repairing it.
+

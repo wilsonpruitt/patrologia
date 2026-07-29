@@ -37,3 +37,28 @@ Rendered by the evident intended word; printed form recorded here.
 
 - **col 0666B** — "Hi sua in **perfectione** [ F., imperfectione] octogenario numero comparantur": the printed running text reads *perfectione*, which contradicts the sense (the eighty/concubines signify imperfection). Migne's own apparatus flags the correction (*F., imperfectione*). Printed reading retained in translation ("in their perfection") with the [ F., imperfectione] apparatus preserved verbatim, per the render-as-printed rule.
 - **col 0666D** — "ut tibi sint **mercis** non periturae divitiae" [ Ms., sit merces]: *mercis* is an ungrammatical form (for *merces*, "reward"); Migne notes the Ms. reading *sit merces*. Rendered loosely "that there may be to thee, as reward, riches that shall not perish," with the [ Ms., sit merces] apparatus preserved.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 2 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0666B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Hi sua in perfectione [ F., imperfectione] octogenario numero comparantur: illi perfecta beatitudine sexagenario designantur*
+
+Conjecture: **sua imperfectione (word-division defect: imperfectione set as in perfectione)**
+
+The immediately preceding paragraph has just proved eighty deficient: 'Poteris et per te ipsum, juxta eamdem regulam, octogenarii explorare diminutionem... quae simul ducta septuaginta faciunt non octoginta' — 'explore the deficiency of eighty... make seventy, not eighty.' And the men so numbered are the ones who 'terrena sequentes commoda... terreni lucri gratia desudant in docendo.' The eighty is the imperfect number and these are the defective teachers; 'in their perfection' asserts the reverse, and also destroys the antithesis with 'illi perfecta beatitudine sexagenario' in the same clause. Migne's own F. apparatus reads imperfectione; the printed lemma and our English both carry the reversed sense.
+
+### 0666C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *illi perfecta beatitudine sexagenario designantur, ut reginarum nomine digni efficiantur, quia spiritualem sobolem propter amorem solummodo Sponsi... generare non desistunt. Illi vero concubinarum nomine denotantur, quia saeculi ambitione, vel temporalis honoris gratia, praedicando seu baptizando nobiles quidem generant saepe filios*
+
+Conjecture: **Hi vero concubinarum nomine denotantur**
+
+The contradicting neighbour is the immediately preceding clause about the very same 'illi': 'ut reginarum nomine digni efficiantur' — 'so that they are made worthy of the name of queens.' The printed text then makes those same 'illi' the ones 'denoted by the name of concubines.' The pronoun must switch back to the 'Hi' of the octogenary group ('Hi sua in[im]perfectione octogenario numero comparantur'), who teach 'saeculi ambitione, vel temporalis honoris gratia.' Note that our English silently repairs the defect by rendering the second Illi as 'The former' (i.e. the eighty), which yields the right sense but does not match the printed Illi.
+

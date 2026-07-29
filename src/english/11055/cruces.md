@@ -401,3 +401,36 @@ in the lemmata and glosses are not normalized to the biblical spelling.
 **Note:** Columns 0113C and 0113D are absent from the transmitted text — the
 sequence jumps a full page-column pair mid-work. Reproduced as given; not
 interpolated. **Worth Wilson's eye** if a continuity check flags it.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 3 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0096D — dropped-word (migne, medium confidence)
+
+Printed: *Postea sequitur, *et lucerna Dei exstingueretur. Samuel [0096D] autem dormiebat in templo Domini**
+
+Conjecture: **antequam lucerna Dei exstingueretur (Vulg. I Reg. iii, 3 'lucerna Dei antequam extingueretur'); Migne's plate has lost 'antequam' in the re-quoted lemma**
+
+The very next clause of the same note reverses it: 'et hoc antequam lucerna Dei exstingueretur' ('and this before the lamp of God went out'), and the note then explicitly re-cites the phrase as 'Quod autem dictum est *antequam lucerna exstingueretur*'. Hugh's second explanation depends on the lamp still burning — 'lucerna lucente, nullum alium in templo praeter Heli esse videret' ('while the lamp was shining, he could see no one else in the temple except Heli'), which is impossible if the lamp was going out.
+
+### 0099A — sense-reversing-letter (migne, high confidence)
+
+Printed: *quod Deus qui est triumphator in Israel, quia per eum Israel triumphat et vincit; sine virtutis Israel, id est dans virtutem et fortitudinem Israel; ipse non mentietur*
+
+Conjecture: **sive virtus Israel — 'or the strength of Israel'; the printed 'sine' is 'sive' with n for v, and 'virtutis' follows the corrupted preposition into the genitive**
+
+The gloss attached to the very phrase says the opposite of 'without': 'id est dans virtutem et fortitudinem Israel' ('that is, giving strength and fortitude to Israel'). The clause exists to pair the two renderings just quoted — the Latin lemma 'triumphator in Israel' and the Hebrew 'virtus Israel' — so it must be the disjunctive 'sive'. Hugh uses exactly that construction a few lines later on the same lemma, where Migne prints it correctly: 'sed ad effectum perducet verbum suum, sive non parcet quasi miseratione aliqua mutatus'.
+
+### 0099B — sense-reversing-letter (migne, high confidence)
+
+Printed: **Nam coram Domino est Christus ejus?* Id est nunquid iste qui tibi nunc praesentatus est, et coram adductus, provisus est a te, ut sit Christus tuus?*
+
+Conjecture: **Num coram Domino est christus ejus? (Vulg. I Reg. xvi, 6); Migne's 'Nam' is 'Num' with a for u**
+
+Hugh's own gloss on the lemma renders it as a question expecting the answer 'no': 'Id est nunquid iste ... provisus est a te, ut sit Christus tuus?' — 'nunquid' is precisely the equivalent of 'num', and Migne himself prints the lemma with a question mark. 'Nam' ('for') turns Samuel's doubting question into a flat assertion that this man IS the Lord's anointed, which the whole note then goes on to deny (the note concludes 'et verum est, quod de reliquis nullum elegit Dominus'). Our English preserved the defect, producing 'For before the Lord is his Christ?' — an assertion punctuated as a question.
+

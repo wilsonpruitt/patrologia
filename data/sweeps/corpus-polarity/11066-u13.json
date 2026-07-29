@@ -1,0 +1,23 @@
+{"agent":"11066-u13","idno":"11066","chunks":"0027-0035","chunksRead":9,"findings":[
+  {"chunk":"0030","column":"0535A","side":"migne",
+   "printedLatin":"QUAESTIO CXVI. *Si habuero omnem fidem, charitatem autem,* etc. Hic Apostolus manifeste ostendit quod fides, et caetera dona non possunt haberi sine charitate.",
+   "englishAsRendered":"QUESTION CXVI. *If I should have all faith, but charity,* etc. Here the Apostle manifestly shows that faith, and the other gifts, cannot be had without charity.",
+   "defectType":"added-negative",
+   "conjecture":"Read \"quod fides et caetera dona possunt haberi sine charitate\" (or \"nihil prosunt sine charitate\"); the printed \"non\" is intrusive.",
+   "whyContradiction":"The next sentences of the same quaestio argue the exact opposite and treat it as established: \"ergo de fide catholica hic agit: unde constat, quod ipsa potest haberi sine charitate, et sic a malis potest haberi, quod multi negant.\" QUAESTIO CXXI (col. 0537A) makes the refutation explicit against the very position the opening sentence as printed asserts: \"Dicunt tamen quidam ... quod fides sine charitate esse non potest: quorum error hic destruitur ... innuit manifeste, quod fides etiam perfecta potest haberi sine charitate.\" As printed, the heading sentence states the error the quaestio exists to destroy.",
+   "confidence":"high"},
+  {"chunk":"0029","column":"0534D","side":"migne",
+   "printedLatin":"Item Joannes evangelista cum videret quemdam, qui non sequebatur Dominum, ejicere daemonia in nomine Christi, voluit prohibere; cui Dominus ait: *Noli prohibere, qui non est mecum contra me est [n: (Marc. IX)]*.",
+   "englishAsRendered":"Likewise John the evangelist, when he saw a certain man, who did not follow the Lord, casting out devils in the name of Christ, wished to forbid him; to whom the Lord said: *Forbid not; he that is not with me is against me [n: (Marc. IX)]*.",
+   "defectType":"dropped-word",
+   "conjecture":"The lemma should be Mark 9:39-40 as cited: \"Nolite prohibere ... qui enim non est adversum vos, pro vobis est.\" The plate has substituted the contrary logion (Matt. XII, 30), reversing the sense of the Lord's reason.",
+   "whyContradiction":"The clause is offered as the ground of the command it immediately follows — \"Noli prohibere\" — yet as printed it supplies a reason for forbidding: a man who does not follow Christ would, on this saying, be \"against me.\" The note itself points to Marc. IX, where the verse reads the other way. Hugh's argument also needs the tolerant form: the point being proved is that \"et mali his donis saepe utuntur,\" i.e. that the non-follower's exorcisms were genuine gifts, not diabolical opposition.",
+   "confidence":"high"},
+  {"chunk":"0033","column":"0546A","side":"migne",
+   "printedLatin":"Item si dicatur littera ideo occidere, quia non possunt omnia ad litteram ibi observari: non pereat, qui ea observaverit. eodem modo dici potest de Evangelio.",
+   "englishAsRendered":"Likewise, if it be said that the letter kills for this reason, that not all things can be observed there according to the letter: let him not perish who has observed them. In the same way it can be said of the Gospel.",
+   "defectType":"added-negative",
+   "conjecture":"Read \"nonne pereat (or perit) qui ea observaverit?\" — the objection requires that the literal observer does perish; \"non\" appears to be \"nonne\" truncated, or an intrusion.",
+   "whyContradiction":"The sentence immediately following spells out the parallel it is supposed to license, and it turns on the literal observer being destroyed: \"Nam si hoc, *nisi manducaveritis carnem Filii hominis, et biberitis ejus sanguinem*, ... ad litteram observatur ... hic, sicut alibi, stultum et damnabile est.\" A clause saying the literal observer does NOT perish removes the very ground of the objection (that the letter kills) and leaves \"eodem modo dici potest de Evangelio\" with nothing to transfer.",
+   "confidence":"medium"}
+]}

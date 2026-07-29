@@ -109,3 +109,20 @@ displaced one. Reproduced as printed.
 The work is transmitted in PL 18 among Sulpicius Severus material and is given
 to *Auctor incertus*; the frontmatter is copied verbatim and no authorial
 claim is made or implied in the English.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0075A — added-negative (migne, low confidence)
+
+Printed: *sed ut ex abundanti sic omne quod fingi potest, tanquam possit et credi caveamus, ne [0075B] in nullo famae nostrae vulnere serpat nata ab occasione suspicio.*
+
+Conjecture: **ne in ullo famae nostrae vulnere serpat — Migne's nullo for ullo; the English silently repairs it to "any" (translation-style.md 7a).**
+
+Taken literally, ne ... in nullo ... serpat says the suspicion is to creep into NO wound, i.e. it may creep into some — the reverse of what the whole sentence and its immediate neighbour demand. The very next sentence is "Ipsa famae semina, priusquam linguis nutriantur, intereant" ("Let the very seeds of rumor perish before they are nourished by tongues"), and the clause it depends on is "omne quod fingi potest ... caveamus" ("let us guard against everything that can be feigned"). The same author writes the correct form a few lines later at 0075D-0076A: "ultra supradictos victus ab ullo quippiam praesumatis".
+

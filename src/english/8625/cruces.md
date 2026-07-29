@@ -43,3 +43,20 @@ Noted for consistency, not an error.
 Editorial note in italics closing the chunk ("Many things are wanting here"),
 i.e. the text breaks off. Translated as an editorial note, italics preserved —
 it is Migne's apparatus, not the author's prose.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0940B — dropped-word (ours, high confidence)
+
+Printed: *Baptismum Graece, Latine tinctio dicitur. Et ob hoc tinctio nominatur quia ibi homo Adae de peccato fuscatur.*
+
+Conjecture: **Migne's plate prints fuscatur ('is darkened/blackened'), which asserts the opposite of what baptism does; the underlying sense requires a verb of cleansing (mundatur / purgatur / abluitur, or a lost clause of the type 'a peccato Adae, quo fuscatur, mundatur'). Our English silently repaired the plate by rendering fuscatur as 'is cleansed' — the translation now says the right thing while concealing that the printed Latin says the wrong thing. This is the 'silent repair' pattern of translation-style.md 7a.**
+
+The same chapter, a few lines later, states the opposite of 'is darkened': 'Nam sicut ex baptismo remissio peccatorum largitur, ita per unctionem sanctificatio sancti Spiritus adhibet' — 'For as from baptism the remission of sins is bestowed...'. The preceding chunk likewise defines baptism as the point at which 'infans ... salutaris ablutione lavacri peccatorum suorum purgationem adipiscatur' ('an infant ... obtains through the saving washing of the laver the purgation of its sins'). Baptism cannot both blacken a man with sin and remit his sins in the same paragraph; and the English, by writing 'cleansed', leaves no trace that the printed word was fuscatur.
+

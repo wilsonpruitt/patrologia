@@ -508,3 +508,196 @@ printed form is logged in the entry.
   fathers quidemcarnis of ours as instructors*." Intended reading *quidem carnis*.
   (Earlier the lemma read "fathers of our flesh as instructors"; the prose
   occurrence, printed correctly, is untouched.)
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 23 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0433B — added-negative (ours, high confidence)
+
+Printed: *QUAESTIO VI. Quid non sit in substantia hominis, quod in substantiis Christi. Solutio. Quia nec caro est anima, nec anima est caro; nec homo est caro, vel anima, sicut Deus est homo, et homo est Deus, et Christus est utrumque.*
+
+Conjecture: **"What is NOT in the substance of man, that IS in the substances of Christ?" — the negation belongs to the first clause (substantia hominis), not to the second (substantiis Christi); the English has transposed it and so asks the opposite question.**
+
+The immediately preceding sentence, closing Quaestio III, states the reciprocal predication of Christ and then says 'quod in substantiis hominis non contingit' — 'which does not happen in the substances of man.' Quaestio VI's own solution then lists what fails in man (nec caro est anima, nec homo est caro vel anima) over against what holds in Christ (sicut Deus est homo, et homo est Deus, et Christus est utrumque), and closes 'major est unio inter Deum et hominem quam inter carnem et animam.' The lack is in man, the possession in Christ; the English question asserts the reverse.
+
+### 0458A — dropped-non (migne, high confidence)
+
+Printed: *Solutio. Omnia dimissa peccata erant eis per fidem et dilectionem, sed omnimodum effectum remissionis consecuti sunt. Duplex est remissionis effectus, scilicet, carere poena, et frui gloria, alterum tantum ante mortem Christi habebant: [0458B] quia poenam actualem non sentiebant, alterum nondum acceperant, quia non videbant Deum.*
+
+Conjecture: **sed NON omnimodum effectum remissionis consecuti sunt — 'but they did not obtain the full effect of remission.' Migne's plate has lost the negation; our English renders the defective Latin as printed and so asserts the opposite of what the passage is proving.**
+
+The very next sentences deny precisely what this one now grants: 'Duplex est remissionis effectus... alterum tantum ante mortem Christi habebant... alterum nondum acceperant, quia non videbant Deum' — they had only one of the two effects, and had not yet received the other. The question being answered is why, if their sins were remitted, they were still 'in inferno tenebantur'; a full effect of remission would leave the question unanswered. Cf. also the following solution: 'nec etiam eorum peccata dimissa simpliciter, nisi sub quadam exspectatione et sponsione futuri, qui pro eis satisfaceret.'
+
+### 0477C — dropped-non (ours, high confidence)
+
+Printed: *Homo ante peccatum per nullam culpam infirmus vel impotens effectus est; ideo facile poterat reddere quod Deus poterat exigere*
+
+Conjecture: **The Latin denies the predicate — 'by no fault was man, before sin, made weak or impotent' (i.e. he was NOT made weak). English 'was made weak or impotent through no fault' asserts that he WAS weak and merely excuses the cause; read 'Man before sin was not made weak or impotent by any fault'.**
+
+The immediately following clause draws the opposite consequence from the sentence as rendered: 'ideo facile poterat reddere quod Deus poterat exigere' ('therefore he could easily render what God could exact'), and the contrast that follows is explicit — 'post peccatum, et per peccatum talis effectus est, quod non valet solvere omne debitum' ('after sin, and through sin, he was made such that he cannot pay every debt'). Weakness is the post-lapsarian state; an English sentence that grants man weakness before sin cannot ground 'therefore he could easily render.'
+
+### 0490D — added-negative (migne, medium confidence)
+
+Printed: *Videtur enim non esse mihi imputandum si non facio quod sine gratia non possum facere, cum gratia non sit collata mihi, sed magis illi qui non confert mihi necessariam gratiam, cum non possit sine detrimento suo.*
+
+Conjecture: **Intrusive 'non': read 'cum possit sine detrimento suo' — 'since he could [confer it] without any loss to himself.' Our English follows the printed plate faithfully.**
+
+The clause is the causal support for the objection's own charge, which is stated in the same sentence: blame falls 'magis illi qui non confert mihi necessariam gratiam' ('rather on him who does not confer on me the necessary grace'). A reason that God 'cannot [confer it] without harm to himself' exculpates the very party the sentence is accusing, destroying the objection the whole quaestio is raised to answer. The printed 'non possit' is further contradicted by the answer developed in this same discussion (and at 0489C in the preceding chunk), where withholding grace costs God nothing and wrongs no one: 'Nulla autem est iniquitas vel injustitia, si Deus non det aliquid illi, cui nil debet.'
+
+### 0495B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *potest enim fieri, ut sicut Judaeis ad litteram illud peccatum est, ita in eo figuraliter nobis sit praeceptum, ne nos quaeramus. Quis ascendit, etc.*
+
+Conjecture: **illud praeceptum est (praeceptum corrupted to peccatum)**
+
+The immediately preceding sentence of the same quaestio states what the words were to the Jews: 'prohibebat enim Judaeis ne dicerent, Quis ascendit in coelum' — Moses' words were a PROHIBITION laid on the Jews, not a sin committed by them; and the correlative clause 'ita in eo figuraliter nobis sit PRAECEPTUM' requires 'praeceptum' in the sicut-limb for the ad litteram / figuraliter parallel to stand.
+
+### 0496C — dropped-non (migne, high confidence)
+
+Printed: *Quaeritur quomodo Judaei non credendo in Christum peccaverunt, cum scriptum sit: *Propterea poterant credere* non quia *dixit Isaias: Deus excaecavit oculos eorum, et induravit cor**
+
+Conjecture: **Propterea non poterant credere, quia dixit Isaias (the negative belongs to poterant, not to quia)**
+
+Two lines later the same quaestio quotes the identical text correctly against itself: 'quomodo hoc verum est. Propterea non poterant credere quia Deus excaecavit, etc.' and again 'dicens: Propterea non poterant, quia dixit Isaias'; and the Solutio opens 'Verum est quod non poterant credere, sicut dicit Evangelium.' As printed the lemma asserts the opposite of the very text the question is built on (Joan. XII, 39).
+
+### 0499B — added-negative (migne, high confidence)
+
+Printed: *Solutio. De sanctitate, qua intelligitur inconstantia fidei agit Apostolus; non de habilitate, quam haberent ad sanctitatem.*
+
+Conjecture: **qua intelligitur constantia fidei**
+
+The immediately preceding quaestio (CCLXXI, same column band) ends: 'et illi pauci, qui conversi sunt ad fidem, si ita constantes fuerunt; patet quod illi qui in fine convertentur, erunt constantes.' Constancy of faith is the sense of 'naturaliter sancta' being defended; sanctity glossed as INconstancy of faith reverses the answer to the question just asked ('quomodo hic dicitur naturaliter sancta, quasi habens habilitatem sanctitatis?').
+
+### 0502B — added-negative (migne, high confidence)
+
+Printed: *Sicut enim semetipsum pro nobis sanctificavit et non tradidit, sic et semetipsum misit, id est suam missionem vel incarnationem (quod idem est operatus est).*
+
+Conjecture: **semetipsum pro nobis sanctificavit et tradidit**
+
+The whole point of the sicut...sic clause is that the Son does to himself what is elsewhere said to be done to him, so as to license 'semetipsum misit'; a denial in the sicut-limb destroys the argument it is supporting, and the sentence before it has just conceded the parallel case for the Spirit ('temporaliter etiam a seipso procedit'). It also contradicts the standard text the clause is built on ('tradidit semetipsum pro nobis', Eph. V; Gal. II).
+
+### 0507C — dropped-non (migne, medium confidence)
+
+Printed: *A quibusdam etiam abstinemus, quia non est necesse eis uti, ut a carne equina, non quia aeque bona esset ad vescendum, ut bovina; sed quia opus non est.*
+
+Conjecture: **non quia non aeque bona esset ad vescendum ut bovina**
+
+The clause names the REJECTED reason for abstaining, and the sed-clause names the real one: 'sed quia opus non est', matching the frame set two words earlier, 'quia non est necesse eis uti'. As printed the rejected reason is that horse-flesh IS as good as beef — which was never a reason to abstain; the sentence only works if the rejected reason is inferiority of the food.
+
+### 0511D — dropped-non (migne, high confidence)
+
+Printed: *Sed nonne promissio facta est gentibus, cum Dominus dicat in Osee: *Vocabo plebem meam non plebem meam**
+
+Conjecture: **Vocabo non plebem meam, plebem meam (the non belongs to the first member)**
+
+The citation is adduced as proof that a promise WAS made to the gentiles, and it is chained with two further texts of gentile inclusion ('Laetamini gentes cum plebe ejus'; 'Laetare sterilis, quae non paris'). As printed the transposed 'non' makes God name his own people 'not my people' — the reverse of the inclusion the objection needs, and the reverse of the text at Osee II / Rom. IX, 25.
+
+### 0516B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Vel mundus, id est sapientes mundi, et si Deum cognovissent secundum opera restaurationis, in potentia, non in pietate; in majestate, non in humilitate.*
+
+Conjecture: **secundum opera creationis (or conditionis)**
+
+The two appositions in the same sentence deny to the philosophers precisely what the works of restoration are — 'non in pietate ... non in humilitate' names the incarnation/redemption as what they did NOT know; and the next sentence supplies the channel by which they did know: 'Notandum esse theophanias in creaturis, id est divinas apparitiones, ut in mundo, cujus magnitudo summam Dei potentiam demonstrat.' Knowledge 'in potentia' is knowledge from the works of creation, not of restoration.
+
+### 0534D — dropped-word (migne, high confidence)
+
+Printed: *Item Joannes evangelista cum videret quemdam, qui non sequebatur Dominum, ejicere daemonia in nomine Christi, voluit prohibere; cui Dominus ait: *Noli prohibere, qui non est mecum contra me est [n: (Marc. IX)]*.*
+
+Conjecture: **The lemma should be Mark 9:39-40 as cited: "Nolite prohibere ... qui enim non est adversum vos, pro vobis est." The plate has substituted the contrary logion (Matt. XII, 30), reversing the sense of the Lord's reason.**
+
+The clause is offered as the ground of the command it immediately follows — "Noli prohibere" — yet as printed it supplies a reason for forbidding: a man who does not follow Christ would, on this saying, be "against me." The note itself points to Marc. IX, where the verse reads the other way. Hugh's argument also needs the tolerant form: the point being proved is that "et mali his donis saepe utuntur," i.e. that the non-follower's exorcisms were genuine gifts, not diabolical opposition.
+
+### 0535A — added-negative (migne, high confidence)
+
+Printed: *QUAESTIO CXVI. *Si habuero omnem fidem, charitatem autem,* etc. Hic Apostolus manifeste ostendit quod fides, et caetera dona non possunt haberi sine charitate.*
+
+Conjecture: **Read "quod fides et caetera dona possunt haberi sine charitate" (or "nihil prosunt sine charitate"); the printed "non" is intrusive.**
+
+The next sentences of the same quaestio argue the exact opposite and treat it as established: "ergo de fide catholica hic agit: unde constat, quod ipsa potest haberi sine charitate, et sic a malis potest haberi, quod multi negant." QUAESTIO CXXI (col. 0537A) makes the refutation explicit against the very position the opening sentence as printed asserts: "Dicunt tamen quidam ... quod fides sine charitate esse non potest: quorum error hic destruitur ... innuit manifeste, quod fides etiam perfecta potest haberi sine charitate." As printed, the heading sentence states the error the quaestio exists to destroy.
+
+### 0546A — added-negative (migne, medium confidence)
+
+Printed: *Item si dicatur littera ideo occidere, quia non possunt omnia ad litteram ibi observari: non pereat, qui ea observaverit. eodem modo dici potest de Evangelio.*
+
+Conjecture: **Read "nonne pereat (or perit) qui ea observaverit?" — the objection requires that the literal observer does perish; "non" appears to be "nonne" truncated, or an intrusion.**
+
+The sentence immediately following spells out the parallel it is supposed to license, and it turns on the literal observer being destroyed: "Nam si hoc, *nisi manducaveritis carnem Filii hominis, et biberitis ejus sanguinem*, ... ad litteram observatur ... hic, sicut alibi, stultum et damnabile est." A clause saying the literal observer does NOT perish removes the very ground of the objection (that the letter kills) and leaves "eodem modo dici potest de Evangelio" with nothing to transfer.
+
+### 0556D — dropped-non (ours, high confidence)
+
+Printed: *Non tamen ita quod lex post Christi adventum per nullum temporis curriculum licite a quoquam fieret.*
+
+Conjecture: **The Latin has a double negative — non ... per NULLUM temporis curriculum — i.e. 'Yet not in such a way that through NO interval of time could the law lawfully be kept by anyone after Christ's coming' (= there was an interval in which it could). The English collapses 'per nullum' into 'through any', turning the concession into a flat denial.**
+
+Hugh has just declared for Augustine against Jerome two sentences earlier: 'Augustinus dicit quod licuit Judaeis tunc in primitiva Ecclesia eas observare' / 'Augustine says that it was permitted the Jews then, in the primitive Church, to observe them', and 'Salva reverentia secretorum, B. Augustini sententiam praeferimus sententiae B. Hieronymi'. He then presses Jerome directly: 'Sed nonne Christus etiam post Joannem legem servavit, vetus pascha celebrando? Nunquid Christus fecit quod non decuit?' The English sentence asserts precisely Jerome's position, which this whole paragraph is written to refute.
+
+### 0570D — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Natura tribus modis accipitur in sacra Scriptura, scilicet pro illo integro et interrupto bono, in quo conditus est homo*
+
+Conjecture: **incorrupto for interrupto — 'that whole and UNcorrupted good in which man was created'.**
+
+'interrupto' cancels its own paired adjective 'integro' ('whole') in the same phrase, and cancels the sense of the first of the three acceptations, whose proof-text follows immediately: 'secundum quam acceptionem dicitur quod omnis creatura Dei bona est'. The contrast is drawn explicitly against the second and third acceptations — 'natura corruptio peccati' and 'reliquiis illius boni naturalis, quae remanserunt in nobis post peccatum' — so the good of man's creation is precisely the one that is NOT yet broken. The English reproduces the printed reading literally.
+
+### 0573C — added-negative (migne, medium confidence)
+
+Printed: *QUAESTIO XXV. In virum perfectum, etc. Quaeritur qua perfectione. Solutio. Nec perfectio potest intelligi vel de toto Christo, id est corpore et capite, vel de singulis membris.*
+
+Conjecture: **Haec (or Talis) perfectio potest intelligi vel de toto Christo ... vel de singulis membris — 'This perfection can be understood either of the whole Christ ... or of the individual members'; Migne's Nec for Haec.**
+
+The solution then develops BOTH branches affirmatively, each with its own explanatory particle: 'Christus ENIM in se consummatus, in aliis crescit et proficit, sed in futuro tandem perficietur' (the whole Christ, head and body) and 'Unusquisque ETIAM tunc erit vir perfectus, tam virtutum consummatione quam corporis statura' (the individual members). A denial that the perfection can be understood of either is contradicted by the two explanations that immediately follow it; the disjunctive 'vel ... vel' after 'Nec' is also ungrammatical for a double negation (nec ... nec).
+
+### 0587A — dropped-word (migne, medium confidence)
+
+Printed: *qua praemissa de bonis eorum gratias agit, commemorans non fidem et opera, sed etiam conversionis modum et malorum sustinentiam ut ad perseverandum provocet*
+
+Conjecture: **non SOLUM fidem et opera, sed etiam — Migne's plate has lost 'solum', so the printed clause asserts that the Apostle does NOT recount their faith and works; our English silently repairs it by inserting 'only'**
+
+The same sentence's own main clause says 'de bonis eorum gratias agit' (he gives thanks for their good things), and the correlative 'sed etiam' is unusable without 'non solum'. The chunk opens by saying these Thessalonians 'nec per tribulationes, nec per pseudopraedicatores potuerunt moveri a fidei veritate' and 'Hos collaudat Apostolus' — their faith and works are precisely what he does commemorate.
+
+### 0591D — dropped-non (migne, medium confidence)
+
+Printed: *ideo dictus est diabolus operari occulte in Nerone, non quia manifesta esset illa persecutio, sed quia illa est umbra, et figura, et imago quaedam illius, quae fiet per Antichristum*
+
+Conjecture: **non quia manifesta NON esset illa persecutio — a 'non' has dropped out of the causal clause; the English silently supplies it**
+
+The objection two lines earlier is 'Nonne Nero Christum negavit, et aperte eos, qui Christum praedicabant, persecutus est?' — the persecution WAS open, and the whole point of the second solution is that 'occulte' is not said because the persecution lacked manifestness but because it is a figure of Antichrist's. As printed ('not because that persecution was manifest') the clause denies the very fact the objection has just established.
+
+### 0593A — added-negative (migne, medium confidence)
+
+Printed: *Si enim ei non divinum cultum exhibebunt, cum conscientia eorum dictet eis, ipsum tanquam Deum adorandum, ad mortem peccabunt, et ita videntur inexcusabiles esse*
+
+Conjecture: **et ita videntur EXCUSABILES esse — the objection argues that they have an excuse; Migne's 'in-' reverses the objection into the solution's own position**
+
+The question is 'an habeant aliquam excusationem?' and the premise given (refusing worship against a binding conscience is itself mortal sin) is an argument FOR excuse, not against it. The Solutio then rebuts: 'ubi satis docet quod propter praecedentia peccata NON habebunt excusationem, etsi arbitrentur se obsequium praestare Christo' — a rebuttal that has nothing to rebut if the objection already concluded they were inexcusable.
+
+### 0597C — dropped-non (migne, high confidence)
+
+Printed: *Cui solutioni sic objicitur: Adam est seductus, quia non credidit verum esse, quod hostis persuasit; mulier vero est seducta credens verum esse, quod serpens dicebat*
+
+Conjecture: **Adam NON est seductus, quia non credidit verum esse, quod hostis persuasit**
+
+The lemma being commented on, printed three lines above, is 'Adam non est seductus, sed mulier'; the clause's own causal ground ('because he did not believe what the enemy urged') is the reason he was NOT seduced; the contrasting 'mulier VERO est seducta credens verum esse' has no contrast left if Adam too was seduced; and the very next question opens 'Quaeritur quomodo verum sit, quod non est seductus?'
+
+### 0611D — dropped-non (migne, medium confidence)
+
+Printed: *unde dicit genui, ne nova intelligatur: hodie enim de praeterita; et sic innuitur esse aeterna: in qua nil est praeteritum, quasi esse desierit; nec futurum, quasi nondum sit.*
+
+Conjecture: **hodie [autem] ne praeterita — i.e. the pair 'genui, ne nova ... hodie, ne praeterita'; Migne's 'enim de' has swallowed the negative 'ne', reversing the clause**
+
+The very next clause says the generation 'is eternal, IN WHICH NOTHING IS PAST, as though it had ceased to be' (in qua nil est praeteritum, quasi esse desierit). A 'hodie' that is said 'de praeterita' asserts exactly what the following words deny; the whole point of the two-word gloss is that 'genui' rules out newness and 'hodie' rules out pastness.
+
+### 0626D — dropped-non (migne, high confidence)
+
+Printed: *Cum ergo aliquid legitur, quod a nobis non observatur, quaerendum est tantum quid significet, non reprehendendum; quia eo ipso, quod jam observatur, non damnatum, sed impletum probatur.*
+
+Conjecture: **quod jam NON observatur**
+
+The subject of the sentence is fixed by its own opening clause: 'aliquid ... quod a nobis NON observatur' — a thing we do NOT observe. The causal clause then has to be 'because by the very fact that it is now not observed it is proved fulfilled, not condemned'; as printed ('quod jam observatur') it says the opposite of the case under discussion and destroys the argument. Note our English already reads 'is now not observed', i.e. the translation silently repairs the printed Latin — the pair is out of register at this word.
+

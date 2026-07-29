@@ -35,3 +35,20 @@ Chunk 1's anchor run is 0192B, 0193A, 0194A, 0195A, 0195B, 0195C, 0196A, 0196B,
 largely occupied by the editor's notes. Reproduced verbatim in order; no
 anchors invented to fill the gaps. Same for chunk 2, where 0199A is followed
 directly by 0200A.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0191B — dropped-non (migne, high confidence)
+
+Printed: *sed de illis locis ubi in illam ordinatam narrationem gestorum Scritura exsequitur, sed tantum diversis hujusmodi nominibus Christum et Ecclesiam indicat*
+
+Conjecture: **ubi non ordinatam narrationem gestorum Scriptura exsequitur, sed tantum diversis hujusmodi nominibus Christum et Ecclesiam indicat (a negative — nihil / non — lost before the first clause; the correlative 'sed tantum' requires it)**
+
+The whole sentence is a three-member exclusion: 'Haec multiplicia nomina sponsi et sponsae, Christi et Ecclesiae, NON de aliquibus gestis historicis (sicut est, cum Scriptura de Sara, Rebecca, Rachel loquitur) ... NEC de eo locutionis genere ... assumpta sunt; sed de illis locis ubi ...'. The third member must name places where Scripture is NOT pursuing a narrative of deeds at all but only naming Christ and the Church — as printed it says the names come from where Scripture DOES carry through the ordered narration of deeds, i.e. exactly the historical-deeds source the same sentence has just excluded. The adversative 'sed tantum ... indicat' is unintelligible without a preceding negative. Our English silently repairs the broken pair by translating the second 'sed' as 'yet' ('carries through ... yet indicates'), producing a smooth sentence that still asserts the opposite of the sentence's own premise.
+

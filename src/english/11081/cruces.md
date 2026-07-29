@@ -150,3 +150,28 @@
 ## Col 0042A (chunk 0008)
 - **Reading (as printed):** `de quo dicit Apostolus: *Petra autem erat Christus [n: (I Cor. X)]*, *qui tollit peccata mundi [n: (Joan. I)]*`
 - **Note:** Migne runs two texts together under one attribution to "the Apostle": 1 Cor. 10:4 followed, without a new attribution, by John 1:29 (the Baptist's words, not Paul's). Both italic runs and both notes are reproduced verbatim and in order; the misattribution of the second clause is Migne's and is not corrected in the text.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 2 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0027A — dropped-non (migne, medium confidence)
+
+Printed: *Itaque prudentia carnis tam labor quam oblectamentum et exercitatio futura foret si homo justitiam tenuisset.*
+
+Conjecture: **Itaque providentia carnis NON TAM labor quam oblectamentum et exercitatio futura foret — 'the care of the flesh would have been not so much a labor as a delight and an exercise'.**
+
+The immediately preceding sentence excludes labor by name: 'Rursum ne vel in illis quaerendis LABOR esset, vel in sumendis periculum, indigentiam simul et appetitum carnalem certa mensura temperavit; quatenus ei ad fomentum et pauca sufficere possent' ('Again, lest either there should be labor in seeking those things, or peril in taking them, he tempered by a fixed measure both the need and the carnal appetite'). God's tempering was precisely so that provisioning the body would NOT be labor; the printed 'tam labor quam oblectamentum' asserts the opposite of the clause it is drawn from. The whole point of the paragraph is that toil in feeding the body arrived only as the penalty of sin ('idcirco meruit ut jam subtus per infinitos labores dissipatus'), i.e. exactly when man did NOT keep justice.
+
+### 0039D — added-negative (migne, high confidence)
+
+Printed: *D. Quare de non faciendis unum tantum praeceptum datum est, et de faciendis plura?*
+
+Conjecture: **Quare de faciendis unum tantum praeceptum datum est, et de non faciendis plura? — the 'non' belongs on the second member, not the first.**
+
+The sentence immediately before it has just counted them the other way: 'Primum erat: Honora patrem tuum et matrem tuam ... secundum: Non occides; tertium: Non maechaberis ... Primum secundum praeceptionem factum est; SEX ALIA secundum prohibitionem' — one positive precept (things to be done), six prohibitions (things not to be done). The Master's answer then confirms the same distribution: 'ideo in malis cavendis ... SINGULATIM instruendus erat, ad bona vero agenda ad obedientiam SOLUMMODO revocandus' ('therefore in guarding against evils he had to be instructed one by one, but for doing good things he had only to be recalled to obedience'). As printed the question asks the reverse of both its neighbours.
+

@@ -14,7 +14,7 @@
   "colFirst": "923b",
   "colLast": "1154c",
   "counts": {
-    "scripture": 194,
+    "scripture": 195,
     "fontes": 0,
     "heads": 60,
     "headnotes": 1462,
@@ -263,6 +263,12 @@
     },
     {
       "refKey": "Song.2",
+      "refDisplay": "Cant. II; Isa, XXVIII; Osee V",
+      "column": "960a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Hos.5",
       "refDisplay": "Cant. II; Isa, XXVIII; Osee V",
       "column": "960a",
       "chunk": 13
@@ -8278,7 +8284,7 @@
     },
     {
       "la": "Propterea sequitur",
-      "en": "because, *carons* weight, it seeks the highest things,",
+      "en": "because, [sic: *carons*] weight, it seeks the highest things,",
       "column": "1141b",
       "chunk": 75
     },
@@ -10347,5 +10353,6 @@
       "chunk": 79
     }
   ],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

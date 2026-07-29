@@ -167,3 +167,340 @@
 ## Col 1139A (chunk 0074) — bracketed editorial variant
 - **Reading (as printed):** `« Sursum conversibiliter [ *convertibiliter* ] extendi, »`
 - **Note:** The edition's own bracketed alternative reading (here italicized in the source), not garbled type. Primary reading `conversibiliter` ("convertibly") is translated; the bracketed italic Latin alternate `[ *convertibiliter* ]` is preserved verbatim and untranslated in place. Rendered "To be extended upward convertibly [ *convertibiliter* ]."
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 41 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0937D — dropped-word (migne, medium confidence)
+
+Printed: *Omnis scilicet ista processio manifestationis luminum in nos proveniens hoc operatur, videlicet quod replet nos, non utique alio quam seipsa ex eo quod replet, iterum restituens reparando, sicut poenis constituit creando, restituit scilicet utpote unifica virtus, quae dispersa colligit*
+
+Conjecture: **sicut prius constituit creando ("as it first established us in creating") — the sentence needs an adverb balancing restituens/reparando against constituit/creando, not the ablative plural poenis; Migne's poenis makes creation an act of punishment.**
+
+The immediately preceding sentences deny any harshness in the movement of the Father: « Motus Patris, affectus est paternae benignitatis; sola enim benignitate et pietate sola Pater movetur, ut lumina sua effundat super nos. Movetur non conturbatione sui, sed miseratione nostri. » A creation by poenae is the opposite of what its own neighbour asserts, and the rest of the chunk keeps the same key (« data optima ... dum conderetur », « Hoc enim bonum nihil a se conditum alienum relinquit a se »).
+
+### 0938C — dropped-word (migne, low confidence)
+
+Printed: *et moveri videtur ipsum lumen, cum potius illius tenebrae solae moveantur, et fugiant praesentiam luminis coruscantis. Et videtur motus luminis hic esse, cum sit tenebrarum fugientium lumen*
+
+Conjecture: **cum sit tenebrarum fugientium MOTUS — Migne's lumen (caught from luminis two words earlier) displaces the noun the antithesis requires: the motion only seems to be the light's, whereas it is the motion of the fleeing darkness.**
+
+The contradicting neighbour is the clause immediately before it: « cum potius illius tenebrae solae moveantur ». As printed, the motion is re-attributed to the light (a 'light of the fleeing darkness'), which is exactly what the preceding clause denies; the whole paragraph exists to argue that the light is unmoved and only the mind's darkness moves.
+
+### 0946A — dropped-word (migne, high confidence)
+
+Printed: *Etenim neque possibile est aliter nobis lucere divinum radium, nisi varietate sacrorum vel animum anagogice circumvelatum, et iis, quae secundum nos sunt, providentia paterna connaturaliter, et proprie praeparatum.*
+
+Conjecture: **sacrorum VELAMINUM — a word-division defect: velaminum has been set as 'vel animum', turning the genitive plural into a stray 'vel' + accusative 'animum'. The English then had to render the broken text as 'sacred things, or the mind'.**
+
+The same Dionysian lemma is printed correctly twice in the immediate neighbourhood: at 0934C in the LITTERA (chunk 0004) « nisi varietate sacrorum velaminum anagogice circumvelatum », and in Hugh's own paraphrase eleven lines below the defect at 0946B « nisi varietate sacrorum velaminum circumvelatum et praeparatum providentia paterna connaturaliter et proprie ». The intervening exposition is entirely about the velamina (« Sacra velamina, in quibus nobis radius divinus lucet, sunt mysticae in sacro eloquio descriptiones ... Quibus videlicet velaminibus ipse radius divinus anagogice circumvelatur »), so 'vel animum' has no possible referent.
+
+### 0959A — sense-reversing-letter (migne, high confidence)
+
+Printed: *Eodem modo concupiscentiam quidem esse dicimus in irrationabilibus inconsultam quamdam, et materialem ex naturali motu, aut consuetudine in mutabilibus incontinenter ingenitam impassibilitatem, et irrationabilem corporalis voluptatis continuitatem*
+
+Conjecture: **passibilitatem (or empassibilitatem/passionem) for impassibilitatem — the intrusive im- inverts the term**
+
+The same sentence defines this thing as 'an irrational continuity of bodily pleasure' (irrationabilem corporalis voluptatis continuitatem), and the immediately preceding sentence grounds the whole class in passion: 'Etenim furor in irrationabilibus quidem ex passibili motu est' — 'For fury indeed in irrational things is from a passible motion.' The contrast is completed a few lines later, where the intellectual counterpart alone is the impassible one: 'superessentialiter castae, et impassibilis contemplationis.' An impassibility that consists in continuous bodily pleasure is the opposite of what the passage is building.
+
+### 0959B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *simul omne animal [0959B] compellentis secundum sensum inconcupiscibile*
+
+Conjecture: **concupiscibile for inconcupiscibile (Greek τὸ κατ' αἴσθησιν ἐπιθυμητόν, 'the sensibly desirable')**
+
+The clause is the closing term of the definition of concupiscentia in irrational animals — 'irrationabilem corporalis voluptatis continuitatem ... compellentis' ('an irrational continuity of bodily pleasure ... compelling'). Desire compelling every animal toward what is NOT to be desired reverses the very faculty being defined; the next sentence's contrast is not between desirable and undesirable but between sensible desire and 'amorem divinum.'
+
+### 0960B — added-negative (ours, high confidence)
+
+Printed: *non sinens nostrum animum remanere in dissimilibus formarum facturis, sed reluctantem negare materiales passibilitates, et assuescentem pure extendere per visibilia in supermundanas altitudines*
+
+Conjecture: **'but making it struggle to deny (reluctantem negare = resisting, so as to refuse) the material passibilities' — reluctantem qualifies the mind's recoil FROM matter, not a reluctance to reject it**
+
+The same sentence's two flanking members require rejection of matter: 'non sinens nostrum animum remanere in dissimilibus formarum facturis' ('not suffering our mind to remain in the dissimilar makings of forms') and 'assuescentem pure extendere per visibilia in supermundanas altitudines' ('accustoming it to extend itself purely ... into the supramundane heights'). A mind made reluctant to deny material passibilities is the opposite of a mind not allowed to remain in them.
+
+### 0964C — added-negative (ours, high confidence)
+
+Printed: *coelestes et deiformes animos, id est spiritus invisibiles, incorporeos, et Dei non corporum similitudinem ac formam habentes*
+
+Conjecture: **'having the likeness and form of God, not of bodies' — 'non' negates 'corporum' only, not 'Dei'**
+
+The clause is Hugh's gloss on the lemma word it stands next to: 'coelestes et DEIFORMES animos' — deiform minds. To gloss 'deiform' as 'not having the likeness and form of God' contradicts the word being glossed; and the parallel term 'incorporeos' shows what the 'non' is doing (denying bodily, not divine, likeness).
+
+### 0965D — dropped-word (migne, low confidence)
+
+Printed: *atque illis spiritibus coelestibus ad ea, quae ipsis invisibilia sunt, significanda attributa*
+
+Conjecture: **quae IN ipsis invisibilia sunt (or quae ipsis NOBIS invisibilia sunt) — 'those things which in them are invisible [to us]'**
+
+The second half of the very same sentence states the case correctly: 'sed per haec alia, quae in ipsis, nobis sunt invisibilia, visibiliter proposita perpendere studeamus' — 'but that through these things we may study to weigh other things, which are IN THEM and are invisible TO US.' The signs exist because the spirits' properties are invisible to us, not to the spirits.
+
+### 0966D — sense-reversing-letter (migne, medium confidence)
+
+Printed: *inquantum ipsa theologia ad significationem visibilium pulchras et decentes ab iis quae nostra sunt, formationes assumpsit*
+
+Conjecture: **invisibilium for visibilium**
+
+The formations taken from 'those things which are ours' ARE the visible things; they cannot be taken to signify themselves. The same paragraph states the purpose twice the other way: 'ut nostrum animum ad invisibilium cognitionem per haec visibilia et nota revelarent' ('that they might illuminate our mind unto the knowledge of INVISIBLE things through these visible and known things'), and the answering clause of this very sentence, 'theologiam non solum similes, sed etiam dissimiles in demonstrationem DIVINORUM formas assumpsisse.'
+
+### 0967C — sense-reversing-letter (migne, high confidence)
+
+Printed: *propriis et cognatis figurationibus, id est inconvenientibus et similibus figurationibus [0967D] sumptis apud nos*
+
+Conjecture: **convenientibus for inconvenientibus**
+
+The gloss contradicts the lemma it is glossing in the same breath: Hugh is explaining 'propriis et cognatis figurationibus' ('proper and cognate figurations'), and his own second gloss-word is 'similibus' ('like'). 'Unfitting' cannot gloss 'proper and cognate,' and the objector whose position this reports is precisely the one demanding fitting images drawn 'ex pretiosissimis apud nos.'
+
+### 0968B — added-negative (migne, high confidence)
+
+Printed: *ut ex utraque parte rationabile fieret: ut per hoc, quod nostrum esset, id est familiare et cognitum nobis, erudire non posset; et per hoc, quod sublimius et dignius esset, spiritualium excellentiae et dignitati congrueret*
+
+Conjecture: **erudire posset — the 'non' is intrusive**
+
+The clause the sentence opens with requires both members to be positive: 'ut ex utraque parte rationabile fieret' ('so that on either part it would become reasonable'), and the coordinate member is affirmative ('congrueret'). Familiarity is offered as the ground of instruction, not as its obstacle. Note our English silently repairs this — it drops the printed 'non' without a marker, so the defect is invisible to a reader of the translation alone.
+
+### 0971C — dropped-word (migne, high confidence)
+
+Printed: *A corporalibus, sicut cum eam rationem et intellectum; a corporalibus, quemadmodum cum eam lumen et [0971D] splendorem nominant*
+
+Conjecture: **Ab INcorporalibus, sicut cum eam rationem et intellectum [nominant]; a corporalibus, quemadmodum ...**
+
+The sentence immediately before announces the two members: 'Per similes quidem aliquando a corporalibus sumptas, aliquando AB INCORPORALIBUS' — and the matching pair a few lines later keeps them distinct: 'AB INCORPORALIBUS quidem, ut cum ei iram, zelum, poenitentiam attribuunt; A CORPORALIBUS vero, quando illi formas, vel figuras bestiarum ... apponunt.' Reason and intellect are the incorporeal member; Migne prints 'a corporalibus' twice, collapsing the distinction the whole passage rests on. Our English silently repairs it to 'From incorporeal things.'
+
+### 0982A — added-negative (migne, high confidence)
+
+Printed: *« Cum vero dissimiles similitudines non intellectualibus, et spiritualibus circumponentes, » vel vestientes: « circumformatus, » id est adaptamus « eis concupiscentiam; » tunc ipsam concupiscentiam, non qualem prius, sed amorem potius divinum intelligere oportet*
+
+Conjecture: **Read « Cum vero dissimiles similitudines intellectualibus et spiritualibus circumponentes » (or « in intellectualibus »); the printed non is intrusive.**
+
+The apodosis of this very sentence requires that the likenesses ARE being put about intellectual/spiritual beings: "tunc ipsam concupiscentiam, non qualem prius, sed amorem potius divinum intelligere oportet, et desiderium immaterialitatis, sive incorporalitatis, et divinitatis super rationem, et intellectum existens." The lemma introducing the whole passage says the same: "Postquam demonstravit quid significet furor sensibilibus et materialibus attributus, quid item immaterialibus et invisibilibus naturis coaptatus; nunc consequenter differentiam concupiscentiae ostendit." As printed, the protasis would be about non-intellectual beings, i.e. the opposite class. Our English silently drops the non and renders the intended sense.
+
+### 0984A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *et excellentes sensum animi nostri materialem et alienatum in corporalibus hoc est, ad materialia tantum vigentem; et per materialia et corporalia ab immaterialibus, et incorporalibus alienatum, eadem percipere non valentem.*
+
+Conjecture: **Word-division defect: "alienatum in corporalibus" should be "alienatum incorporalibus" (estranged FROM incorporeal things), as the lemma prints it.**
+
+The lemma being glossed, quoted a few lines above in the same chunk, reads "...et alienatum incorporalibus animi sensum excellentes"; and the gloss's own continuation flatly states the contrary of the split reading: "et per materialia et corporalia ab immaterialibus, et incorporalibus alienatum." The sense is estranged from the incorporeal, not estranged among the corporeal — corporeal things are precisely where it is at home ("ad materialia tantum vigentem"). Our English follows the split reading.
+
+### 0984D — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Sed tamen compacte, id est convenienter, et apte, et pulchre, id est decenter subauditur definitis eisdem proprietatibus, utrobique videlicet et intellectualibus et insensibilibus.*
+
+Conjecture: **et intellectualibus et SENSIBILIBUS — the in- is intrusive.**
+
+This clause glosses the lemma printed a few lines earlier in the same chunk: "compacte autem, et pulchre intellectualibusque, et sensibilibus proprietatibus definitis." The word utrobique ("on both sides") demands the two poles of the running antithesis, intellectual and sensible; "intellectual and insensible" names one pole twice and destroys the pairing. Our English follows Migne with "insensible."
+
+### 0987A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Cum enim nihil verme vilius et humilius esse videatur, quis summam majestatem in hanc adjectionem [0987A] deducere praesumeret, nisi ipsa se prius propria dispensatione tali specie significando circumformaretur.*
+
+Conjecture: **in hanc ABJECTIONEM deducere — ad- for ab-, reversing the direction (increase vs. casting down).**
+
+The Psalm verse quoted immediately above supplies the word: "Ego sum vermis, et non homo; opprobrium hominum, et abjectio plebis (Psal. XXI)"; and the clause itself turns on descent — "nihil verme vilius et humilius esse videatur... summam majestatem... deducere." One cannot "bring down the highest majesty into an addition/increase." Our English silently prints "abasement," repairing the plate without a note.
+
+### 0992B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Hactenus quae universaliter dicenda erant introducendis in hierarchiarum cognitionem pro ratione demonstrationum visibilium in significationem visibilium propositarum theologus disseruit.*
+
+Conjecture: **in significationem INvisibilium propositarum — the prefix in- has dropped, collapsing the visible/invisible antithesis on which the whole preceding book turns.**
+
+As printed, visible demonstrations are set forth to signify visible things, which is vacuous and contradicts the argument this sentence is summing up. Immediately preceding, at 0987A (chunk 0022): "Ii omnes cum per visibiles species et visibilium rerum proprietates invisibilia designare volunt, distinguunt..."; and at 0985A (chunk 0021): "Similitudinem dicit, quando per extrinsecas formas vel figuras, vel qualitates descriptiones invisibilium a visibilibus sumuntur." Our English reproduces Migne's reading and so inherits the reversal.
+
+### 1004A — dropped-word (migne, medium confidence)
+
+Printed: *Extra unitatem nullus illam accipere potest, et in unitate alteri data nulli sufficere potest.*
+
+Conjecture: **et in unitate alteri data nulli deesse potest (or: nulli non sufficere potest) — 'and, given to another within unity, it can be lacking to none / cannot fail to suffice for anyone'**
+
+The immediately preceding clause is the premise the sentence exists to unpack: « quia gratia ad universos effunditur et in singulis operatur » — 'because grace is poured out upon all and works in individuals' — and the sentence before that says the goods are manifested « non singulis quibusque, sed hierarchiae, id est universitati » (not to single individuals but to the whole). Hugh's antithesis needs a negative first limb (outside unity, no one receives) answered by a positive second limb (inside unity, it fails no one). As printed, both limbs are negative, so unity confers nothing, which denies the very premise ('poured out upon ALL') and the conclusion drawn one clause later, that the goods are manifested to the hierarchy precisely so that imitation becomes possible for all.
+
+### 1013A — added-negative (ours, medium confidence)
+
+Printed: *quoniam, etsi natura Deus non est, quod cernitur, secundum demonstrationem est, quia tamen per ipsum, et in ipso Deus manifestatur.*
+
+Conjecture: **'because, although what is discerned is not God by nature, according to demonstration it IS [God], since through it and in it God is manifested.' The printed Latin has two clauses — a concessive negative (natura ... non est) and a main affirmative (secundum demonstrationem est) — and the English has pulled 'secundum demonstrationem' inside the negation and dropped the affirmative 'est' altogether.**
+
+The clause the English keeps is the reason-clause that the suppressed affirmation governs: « quia tamen per ipsum, et in ipso Deus manifestatur » — 'because through it and in it God is manifested.' A 'quia' can only explain an assertion, and once the assertion has been turned negative it explains nothing; the English has to weaken 'quia' to 'yet' to make the sentence run. The whole sentence exists to license the immediately preceding statement that « divina Scriptura manifestationes illas ... theophanias, id est divinas apparitiones vocare consuevit » — Scripture is accustomed to call these manifestations divine apparitions. Denying that the discerned thing is God 'according to demonstration' removes the only ground on which that naming is defended.
+
+### 1032B — dropped-non (migne, low confidence)
+
+Printed: *Puras igitur eas esse existimandum, non ut immundis maculis et inquinationibus liberatas: neque ut materialium receptivas phantasiarum, sed ut omni diminutione mundas, et altiores…*
+
+Conjecture: **neque ut materialium *in*receptivas (Eriugena-type *inacceptibiles* / Gr. ἀνεπιδέκτους) phantasiarum — the privative prefix has dropped, so the rejected description has become its own opposite**
+
+The frame is 'non ut X … neque ut Y … sed ut Z', where X is itself a privative ('non ut immundis maculis … liberatas'). With the privative gone, Y is no longer a mode of purity at all, and the same sentence's positive limb asserts the contrary: 'sed ut omni diminutione mundas, et altiores, et … secundum excelsissimam castitatem … supercollocatas' (English: 'but as clean by every diminishment, and higher, and … according to the most exalted chastity, super-placed'). A purity that is denied to consist in NOT receiving material phantasies leaves the angels receiving them, against 'most exalted chastity' in the next clause.
+
+### 1037C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Propterea non dilexit acutum et calidum, sed calidum et acutum: quemadmodum prius mobile, postea incessabile…*
+
+Conjecture: **non *dixit* acutum et calidum, sed calidum et acutum ('he did not SAY "sharp and hot" but "hot and sharp"') — *dixit* has been expanded to *dilexit* under the pull of the surrounding *dilectio* vocabulary**
+
+The sentence is about the ORDER OF DIONYSIUS' WORDS, not about an object of love: immediately before, 'Quia tamen prius dilexerunt postea cognoverunt, ut acutum in dilectione esset sicut et calidum. Prius calidum, postea acutum'; immediately after, 'quemadmodum prius mobile, postea incessabile, ut mobile ad inquisitionem excitet'. Read as printed, Hugh says the author 'did not love the sharp and the hot' — flatly against the whole passage, where the author is the one who 'tam multa de dilectione dixit' and 'Non autem iste parvam dilectionem dicere voluit'.
+
+### 1037D — sense-reversing-letter (migne, high confidence)
+
+Printed: *Si enim in dilectum non vadis, adhuc foris amas, neque acutum habes dilectionis. Sed habes, et torpens divisus manes, et extra illum, ut unum non efficiaris.*
+
+Conjecture: **Sed *hebes* et torpens divisus manes ('but dull and numb you remain divided') — *hebes* has been read as *habes***
+
+The immediately preceding clause is 'neque acutum habes dilectionis' — 'nor do you HAVE the sharpness of love'. 'Sed habes' therefore asserts possession one half-line after possession was denied, and it is left with no object at all. Hugh's own vocabulary supplies the true word a few lines earlier at 1037C: 'Ergo hebetes fuerunt, et tardi ad cognoscendum', paired there as here with torpor ('sed non tepidi, aut pigri'). Our English half-repairs the defect with a bracketed supply '[only warmth]' that has no warrant in the printed Latin.
+
+### 1044C — sense-reversing-letter (ours, high confidence)
+
+Printed: *Quae in terra erant, purganda erant a corruptione; quae autem in coelo, purganda erant ab imperfectione. Illa, quia in prima conditione non erant perfecta; ista, quia post primam conditionem erant corrupta. Illa purgata sunt ab imperfectione… ista purgata sunt a corruptione… Illorum ergo purgatio non erat mali emendatio, quod non habebant…*
+
+Conjecture: **Hugh's *illa* here = the heavenly, *ista* = the earthly (the pairing is fixed by 'Illa purgata sunt ab imperfectione … ista … a corruptione'). Render them by their referents — 'the heavenly ones, because in their first condition they were not perfect; the earthly, because after their first condition they had been corrupted' — not by 'the former/the latter', which the English's own preceding sentence maps the other way round.**
+
+Our English has just written, one clause earlier, 'Those which were on earth were to be purged from CORRUPTION; those which were in heaven were to be purged from IMPERFECTION.' Its 'the former' therefore denotes the earthly — and it then says 'The former, because in their first condition they were not perfect', and 'The former have been purged from imperfection', and 'Of the former, therefore, the purgation was not the amendment of an evil which they did not have.' Each is the exact opposite of the sentence it follows, and the last one attributes sinlessness to the earthly, against the same paragraph's 'the latter have been purged from corruption, when they are freed from sin' and against 1044D 'because they were always clean' (said of the angels).
+
+### 1048C — sense-reversing-letter (migne, high confidence)
+
+Printed: *Ubi majestas est, thronus est; ubi incommutabilitas est, sedes est. Thronus significat incommutabilitatem. Ergo in ipsa aeternitate, in ipsa incommutabilitate sedes Dei collocatae sunt.*
+
+Conjecture: ***Sedes* significat incommutabilitatem (or 'Thronus significat majestatem') — the subject of the definition has been swapped for its opposite member**
+
+The clause immediately before assigns the two terms explicitly and in the other direction: 'Ubi majestas est, THRONUS est; ubi incommutabilitas est, SEDES est.' The clause immediately after draws the conclusion from the seat, not the throne: 'Ergo in ipsa … incommutabilitate SEDES Dei collocatae sunt.' The same division governs the surrounding exposition (1047B–C: 'altissimas, propter dignitatem; compactas, propter veritatem'; 1049A: thrones = raised by dignity, seats = placed by stability). Our English reproduces the reversal verbatim.
+
+### 1071C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *ad nullum una videntium, sed ad proprie ὄν universale conversam*
+
+Conjecture: **'una' is a misprint for 'vana' — read 'ad nullum vana videntium', 'turned toward none of the things that seem vain'.**
+
+Migne reprints the same lemma two columns later at 1075A with the correct word — « ad nullum vana videntium, sed ad proprie ὄν on universale conversam » — and Hugh's own gloss at 1076A fixes the sense beyond doubt: 'Existimo declarare conversam non ad aliquid eorum quae vana videntur, id est quae per se considerata ima apparent, et transitoria.' With 'una' the clause denies that the dominations turn toward what is seen as one, while the second half of the very same clause says they are turned to the one universal ὄν, and 1076B glosses that ὄν as 'universale, quia omnibus esse tribuit'.
+
+### 1072C — dropped-word (ours, medium confidence)
+
+Printed: *Sic existimo et angelicorum ordinum immediatam participationem primo in Deum extentorum perfectorem esse per medietatem perfectorum.*
+
+Conjecture: **The bare 'per' here is the comparative second term (Greek genitive of comparison: τελεωτέραν εἶναι τῆς διὰ μεσότητος ἀποτελουμένης) and should read 'is more perfect THAN [that accomplished] through the mediation of the perfected' — the English dropped the comparative 'than' and turned the compared term into an instrument.**
+
+The immediately preceding sentence in the same paragraph renders the identical construction correctly and asserts the opposite ranking: « Nam sapientes circa sacras nostras immolationes aiunt, per seipsas lucentes divinorum plenitudines per alias contemplativarum participationum esse perfectiores » — English: 'the plenitudes of the divine things, shining through themselves, are more perfect than [those] through other contemplative participations.' As rendered, the next sentence says mediated participation is what makes the immediate participation more perfect, i.e. the reverse of its own premise and of the whole surrounding argument (chunks 0046-0048: the first orders are illumined 'non per alias sanctas essentias, sed ab ipsa Divinitate').
+
+### 1085A — added-negative (migne, high confidence)
+
+Printed: *Et primo quidem [1085A] dicere necessarium existimo, secundum quod mihi impossibile, sacrarum earum cognominationum manifestationes.*
+
+Conjecture: **possibile (the LITTERA has picked up an intrusive im-)**
+
+Hugh re-quotes this very clause at the head of his EXPOSITIO (chunk 0058, 1087B) as « Et primo quidem dicere necessarium existimo secundum quod mihi possibile » — 'according to what is possible for me'. As printed in the LITTERA the sentence has Dionysius judging it necessary to say what is impossible for him to say. The same formula recurs unnegated three times within the same LITTERA column band: 'et ad ipsum, ut possibile, reformatur' (1085B), 'ad illud ipsum, quantum possibile, formari' (1085A), 'assimilata, secundum quod possibile est'.
+
+### 1086D — sense-reversing-letter (migne, high confidence)
+
+Printed: *solo fere ultra omnes Israel in viri Dei illuminationem, et cognitionem converso.*
+
+Conjecture: **veri Dei (i for e)**
+
+Hugh re-quotes and glosses the identical clause in chunk 0061 at 1098A: 'et solo Israel converso in illuminationem et cognitionem veri Dei fere ultra omnes gentes' — and the very next sentence of the LITTERA itself reads 'ipsum possedisse Israel in veri Dei famulatum'. The whole argument is that Israel alone turned to the TRUE God while the nations erred 'in non existentes deos'; 'the man of God' asserts the contrary of the point being made.
+
+### 1090B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *et idcirco apud non aptius angeli nominati sunt magis quam priores sive superiores*
+
+Conjecture: **apud nos (n for s)**
+
+The lemma Hugh is glossing, printed in chunk 0057 at 1085C, reads 'et magis apud nos angeli, quam priores aptius nominati'; and his own gloss in the same sentence-run says 'eorum proprium est nobis divina secreta nuntiare... eorum proprium est nuntios esse nobis'. 'apud non' negates precisely the 'among us' on which the whole explanation turns, and the English carries the broken 'among not' through to the reader.
+
+### 1095A — dropped-word (migne, high confidence)
+
+Printed: *Etenim sic simpliciter Melchisedech ipsi theosophi non amicum Dei, sed et sacerdotem vocaverunt.*
+
+Conjecture: **non amicum Dei TANTUM, sed et sacerdotem**
+
+Hugh's gloss on this very lemma, in the next sentence, restores the word: 'theosophi... non sic simpliciter amicum tantummodo Dei, sed etiam sacerdotem vocaverunt'. The LITTERA of the same passage at 1086B likewise prints 'non amicum Dei tantum, sed et sacerdotem vocaverunt'. As printed at 1095A the sentence denies that Melchizedek was called God's friend at all, whereas the entire argument (Gen. XIV, 'erat enim sacerdos Dei altissimi') rests on his being called both.
+
+### 1097A — reversed-subject-object (ours, medium confidence)
+
+Printed: *nullo modo existimandum Judaeos quidem pleniter duxisse divinitatem: angelos autem specialiter... imperare aliis gentibus. — glossed: nullo modo existimandum est divinitatem duxisse Judaeos, hoc est, ducatum praebuisse Judaeis pleniter, vel absolute, hoc est, per semetipsam, scilicet sine mediante angelorum ministerio*
+
+Conjecture: **the lemma should read 'that the divinity led the Jews fully' — the accusative-plus-infinitive is ambiguous, and Hugh resolves it in the very next clause; note also outside this defect that the LITTERA at 1086C prints 'dixisse' where the EXPOSITIO lemma has 'duxisse', and our English there ('spoke of the divinity fully', chunk 0057) follows the plate**
+
+Our English lemma at 1096C-1097A says the Jews led the divinity; Hugh's gloss on that same lemma, three words later on the same line, says 'divinitatem duxisse Judaeos, hoc est, ducatum praebuisse Judaeis' — the divinity led the Jews. The whole chapter argues that God governs some nations directly and others through angels, so only the gloss's direction is possible. (defectType lies outside the four listed values; flagging it as such.)
+
+### 1099D — dropped-non (migne, medium confidence)
+
+Printed: *Etenim nihil per se perfectum indigens universalis perfectionis, nisi vere perfectissimum et ante perfectum.*
+
+Conjecture: **nihil per se perfectum et NON indigens universalis perfectionis (Gr. οὐδὲν αὐτοτελὲς ἢ ἀπροσδεές)**
+
+The exception clause in the same sentence names 'vere perfectissimum et ante perfectum', and the clause immediately before it speaks of 'anteperfectae perfectionis' — the fore-perfect is by definition what needs nothing. As printed, the sentence makes the truly most perfect the one thing that DOES need the universal perfection, which is the opposite of what the exception is for.
+
+### 1100C — sense-reversing-letter (migne, high confidence)
+
+Printed: *« Occultior quidem tanquam invisibilior, et magis simplificata et vivificata. »*
+
+Conjecture: **unificata**
+
+Hugh's gloss two sentences later restores the word twice: 'Occultior, inquit, est in eo quod invisibilior est, et magis simplificata, et unificata. In eo occultior est quod... propinquior simplicitati, et unitati Deitatis.' The LITTERA of the same lemma in chunk 0061 at 1099B also prints 'magis simplificata et unificata'. 'vivificata' substitutes life for the unity that is the whole point of the pairing with 'simplificata'.
+
+### 1104C — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Sequitur: « Etenim nihil per se perfectum indigens universalis perfectionis, nisi vere perfectissimum, et ante perfectum. » ... quia nihil est per se perfectum, et nihil quod non sit per se imperfectum, et quod non sit indigens per se invisibilis, vel omnis perfectionis, nisi illud bonum summum.*
+
+Conjecture: **« invisibilis » is a misprint for « universalis »; read 'indigens per se universalis, vel omnis perfectionis' — 'needy of the universal, that is, of every perfection.'**
+
+The lemma Hugh is glossing stands three lines above in the same paragraph and prints the word correctly: « nihil per se perfectum indigens universalis perfectionis. » Hugh's own explanatory doublet — « vel omnis perfectionis » ('or of every perfection') — is the standing gloss of universalis, not of invisibilis; the sentence as printed makes the glossator explain 'invisible' by 'every', which the immediate context forbids.
+
+### 1106A — dropped-non (ours, high confidence)
+
+Printed: *Hoc est, quod dicit: « Extremae enim, » subauditur essentiae, ut sunt angeli, « participatae sunt ab excelsissimis virtutibus » in omnibus proprietatibus suis; sed non enim diverso, superiorum proprietates ad inferiorum participationem universaliter veniunt.*
+
+Conjecture: **Migne's « sed non enim diverso » is « sed non e diverso » (e > enim), i.e. 'but not conversely'; the negation governs the verb: '...but not conversely do the properties of the higher come universally to the participation of the lower.' Our English detaches 'not otherwise' from 'veniunt' and so asserts the very thing the clause denies.**
+
+The sentence immediately before it states the one-way rule — « quod angeli nominantur, mirum non est quia angeli ultimi sunt, et eorum proprietas a superioribus participatur universaliter » ('their property is universally partaken by the higher') — and the sentence immediately after draws the opposite conclusion from the reverse direction: « Propterea mirum est quomodo angeli, et qui ante angelos sunt... nomen virtutum assumant, cum non participent proprietatem » ('Therefore it is a wonder how the angels... assume the name of virtues, since they do not partake the property'). The lemma being expounded says the same at 1105B: « ultimae vero majorum superpositas universitates non habent. » The English as it stands makes the lower partake the higher's properties universally, which would remove the wonder Hugh is about to insist on.
+
+### 1124B — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Et videt etiam ipse Isaias summitatem sublimiorem « omnibus ipsis, » scilicet excelsissimis spirituum beatorum essentiis; « etiam superarcane, » id est, excellentissimo modo: « summitatem, » dico, « super principalem, » id est Deum, qui summus et principalis omnium est, supercollocatam « in medio superfirmatarum virtutum. »*
+
+Conjecture: **Word-division defect: read « superprincipalem » as one word (so Migne himself prints it in the LITTERA at 1113A: « sublimiorem superprincipalem summitatem in medio superfirmatarum virtutum supercollocatam »). Hugh's gloss then identifies the summit with God — 'the superprincipal summit, that is, God, who is the highest and principal of all' — not something set above a 'principal' who is God.**
+
+As divided, 'id est Deum' attaches to 'principalem', so the summit stands ABOVE God; the very next sentence identifies the summit as God himself: « In medio enim virtutum... ipse Deus summus, et principalis sedens videtur in solio excelso et elevato » ('God himself, the highest and principal, is seen sitting upon a throne lofty and elevated'). Migne's own lemma two columns earlier prints the compound « superprincipalem summitatem » undivided.
+
+### 1124D — sense-reversing-letter (migne, low confidence)
+
+Printed: *« Sed adhuc, » sive insuper etiam hoc didicit ipsum « esse omnium principium, » quia ab eo sunt omnia; et causam sanctificam, quia per eum subsistunt universa; et immutabile fundamentum eorum, quae sunt, secreta singularitate...*
+
+Conjecture: **« sanctificam » for « substantificam » — 'the substance-making cause, because through it all things subsist.'**
+
+Hugh's own causal clause attached to the word states the ground of SUBSISTENCE, not of sanctification: « quia per eum subsistunt universa », and it stands in a series whose members are all being-terms ('principle of all... immutable foundation of the things that are... from which both being and well-being is'). The lemma he is expounding, printed by Migne at 1113B, reads « et causam substantificam esse ». Our English carried the plate's word through unaltered.
+
+### 1131D — sense-reversing-letter (migne, high confidence)
+
+Printed: *Si vero easdem et ordinare, et ordinari dicimus, non autem earumdem, aut ab eisdem, sed eas singulas ordinari quidem a prioribus, ordinari autem novissimas: non inconsequenter fortassis quis dixerit…*
+
+Conjecture: **ordinare autem novissimas (for printed 'ordinari autem novissimas')**
+
+The clause is the distributive resolution of 'easdem et ordinare, et ordinari dicimus' — one member must be active, one passive; printed 'ordinari … ordinari' makes both passive and destroys the very distinction being drawn. Hugh's own exposition of this same lemma, printed at 1138D in chunk 0074, quotes it correctly: « ordinari quidem a prioribus, ordinare autem novissimas, » nullum inconveniens est — rendered there 'are indeed ordained by the prior ones, but ordain the last ones.' The littera and its own lemma-quotation disagree by one letter.
+
+### 1137B — sense-reversing-letter (migne, high confidence)
+
+Printed: *« in simplicitatem animorum coelestium: tanquam » per se « in consequentibus, » id est inconvenientibus.*
+
+Conjecture: **tanquam per se inconsequentibus (word-division: 'inconsequentibus' set as 'in consequentibus')**
+
+Hugh's gloss attached to the very word reverses it: 'id est inconvenientibus' — 'consequent' cannot mean 'unfitting'. Two sentences later he restates the point with both words in their negative form: 'Alioquin visibilis formatio inconsequens, et inconveniens esset.' And the littera being glossed reads, in chunk 0073 at 1131C-D, 'descendentes iterum ipsis, tanquam inconsequentibus, in simplicitatem coelestium animorum analytice reflexis' — undivided. The English follows the split plate and prints 'in things consequent, that is, in things unfitting,' a self-contradiction on the page.
+
+### 1142A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *quod apparet ex eo quod aliquando offensione et concursu corporum sine attritione inde etiam excutitur ubi non esse videbatur.*
+
+Conjecture: **sive attritione (for printed 'sine attritione')**
+
+The next sentence makes attrition the sole cause of the striking-out: '« Neglectus » quidem, et non motus … « non esse putatur; attritu autem » sive attritione, provocatus, et commotus « quasi quadam vindicta subito relucet »' — 'but by attrition or rubbing, provoked and set in motion … it suddenly shines forth.' 'Offensio et concursus corporum' IS attrition; the printed 'sine' denies the mechanism the immediately following clause asserts. Migne's own 'attritu autem sive attritione' shows the sive/sine confusion is live in this column.
+
+### 1142D — sense-reversing-letter (migne, high confidence)
+
+Printed: *« et » propter « luculentum, » id est clarum et evidens, sine insigne ipsius figurae humanae; quia ex ipsa erectione sua magis evidentem praestat, et venustiorem aspectum;*
+
+Conjecture: **sive insigne (for printed 'sine insigne')**
+
+The causal clause immediately following asserts the opposite of the printed phrase: the human figure's erectness 'affords a more evident and more comely aspect' — i.e. the figure precisely HAS the distinguishing mark, which is why 'luculentum' is predicated of it. 'Sive insigne' completes the standard gloss-triplet ('clarum et evidens, sive insigne') that Hugh uses throughout this passage. Grammar corroborates: 'insigne' is neuter nominative/accusative and cannot govern 'sine', which requires the ablative 'insigni'.
+

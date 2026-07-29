@@ -13,3 +13,20 @@ Garbled or corrupt printed readings, rendered literally in the English and logge
 - **1126B** — **Printed:** *Oro iniquitate vidi tentoria Aethiopiae*. *Oro* is a real Latin word ("I pray"), so it is rendered as printed: "I pray, by iniquity I saw the tents of Ethiopia," the bare ablative *iniquitate* left to stand without the preposition. The intended reading is certainly *Pro iniquitate* ("for iniquity") — the *P* has dropped to *O*: Odo's own exposition in the very next clause reads *pro divitiis captandis*, and he repeats the lemma correctly at 1126C as *pro iniquitate tentoria Aethiopiae*, where the English does give "for iniquity." An earlier draft rendered the conjecture here; that has been withdrawn.
 - **1126D** — *Hostiae impiorum abominabiles [n: (Prov. II, 2)]*. The verse is Proverbs 21:27; the printed citation *Prov. II, 2* is wrong. Citation passes through verbatim per the marker rule.
 - **1127B → 1128A** — Anchor sequence gap: columns 1127C and 1127D are not marked, the text running straight from [1127B] to [1128A] mid-sentence. Reproduced as printed; worth a check against the plate for dropped text.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1126B — sense-reversing-letter (migne, low confidence)
+
+Printed: *Unde scriptum est: *Oro iniquitate vidi tentoria Aethiopiae [n: (Habac. III, 7)]*, id est pro divitiis captandis vidi homines factos tabernacula nigredinis*
+
+Conjecture: ***Pro* iniquitate vidi tentoria Aethiopiae (Vulg. Habac. III, 7); Migne's plate sets O for P, and the English then reads the corrupt word as the verb *oro*, 'I pray', producing a clause the Latin never asserts and dissolving the causal 'for the sake of' the whole gloss depends on.**
+
+Odo re-quotes the same verse eleven lines later with the preposition intact — 'Hi fiunt *pro iniquitate tentoria Aethiopiae*' — and his own gloss on the first quotation glosses the missing preposition as causal: 'id est *pro* divitiis captandis'. The immediate neighbour therefore requires 'pro iniquitate', not a verb of praying.
+

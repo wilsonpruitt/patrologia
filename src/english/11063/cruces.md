@@ -455,3 +455,60 @@ continuous: *quae hominem illecebris captum in [0406A] servitutem redigit*.
   five chunks is a supplied `" "` under Pattern 6 — there are four pairs, all
   glosses: "holy" (0391A, *dic sanctum absolute*), "holy" and "without earth"
   (0391D, the *agios* etymology), "seeing" (0397B, Jerome on *Sapharat*).
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 6 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0376D — sense-reversing-letter (migne, high confidence)
+
+Printed: *Per haec enim, quae distinguo, personarum proprietatem ostendo, non naturae vanitatem confundo.*
+
+Conjecture: **non naturae UNITATEM confundo — "I do not confound the unity of nature"**
+
+The immediately preceding sentence states the very rule being applied: "Caveat lector, ne personarum confundat trinitatem, nec divinae essentiae dividat unitatem"; the next sentence continues "sicut Trinitas natura vel essentia UNA." Hugh repeats the same formula verbatim at 0392B with the right word: "Haec dicens non divinae essentiae unitatem divido, nec propria personarum confundo." "Vanitas naturae" (emptiness of nature) is not a Trinitarian category at all and asserts the opposite of the unity he is defending.
+
+### 0377D — sense-reversing-letter (migne, low confidence)
+
+Printed: *Tumor praecedit superbiae, tenebrae sequuntur ignorantiae, infidelitas succedit idololatriae.*
+
+Conjecture: **infidelitatI succedit idololatriA — idolatry succeeds unbelief (case endings transposed)**
+
+The very next sentence gives the sequence in fixed order and puts unbelief BEFORE idolatry: "per petram, infidelitas ignorantiae; per scissuras, schismata idololatriae; per habitantem, consensum immunditiae." As printed, the order of the fall is reversed against its own immediately following exposition.
+
+### 0382A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *Superbia expellit te, habitantem in scissuris petrae; qui dicis in corde tuo: Quis me deducet in terram?*
+
+Conjecture: **Superbia [cordis tui] EXTULIT te — "the pride of thy heart hath lifted thee up" (Obad. 3, as printed twice elsewhere in this same work)**
+
+The lemma is quoted correctly twice in the same commentary — at 0377A/0377C ("Superbia cordis tui extulit te, habitantem in scissuris petrarum, exaltantem solium tuum") and again at 0385C. And the exposition attached to THIS occurrence expounds elevation, not expulsion: "Solium, est haeretica doctrina. Solii exaltatio, perversae doctrinae dilatatio," and the answering divine word two lines later is "Si exaltatus fueris ut aquila ... inde detraham te" — a threat that presupposes pride has raised him up, not driven him out.
+
+### 0385D — dropped-word (migne, low confidence)
+
+Printed: *Hic est decalogus inobedientiae, quem in monte Sinai, quod interpretatur humilitas, Dominus dedit Moysi.*
+
+Conjecture: **a lost antithetical particle, e.g. "decalogus inobedientiae, CONTRA [eum] quem in monte Sinai ... Dominus dedit Moysi"**
+
+The ten items just enumerated are "contemptum Dei ... praedicationem peccati ... odium boni ... amorem mali ... oblivionem Dei" — which God manifestly did not give on Sinai — and the very next sentence names its keepers as Pharaoh and the reprobate: "Hunc Decalogum impleverat, qui dicebat: Nescio Dominum; et Israelem non dimittam." As printed, the sentence makes the Lord the giver of the decalogue of disobedience, the opposite of what the surrounding argument requires.
+
+### 0389A — dropped-word (migne, high confidence)
+
+Printed: *Historialiter ostendit in humanitatem Idumaeorum, et crudelitatem eorum adversus populum Israeliticum*
+
+Conjecture: **INHUMANITATEM Idumaeorum — the word-division defect splits inhumanitas into in + humanitas**
+
+The coordinate noun in the same clause is "et crudelitatem eorum adversus populum Israeliticum," and what follows is the charge that they "not only failed him with help in the time of his distress, but even joined themselves to the fellowship of his enemies." The printed division makes the sentence say the prophet displays the Idumaeans' HUMANITY, the exact opposite of the cruelty it is coupled with. (Cf. the same accusation at 0388C: "adversus populum Israeliticum inique egit.")
+
+### 0403A — dropped-word (migne, medium confidence)
+
+Printed: *Cumque huic limo profundi animus fuerit infixus et luto coinquinationis et immunditiae involutus, evelli nequaquam potest, ad illum clamet, et auxilium ejus postulet, de quo Psalmista loquitur*
+
+Conjecture: **evelli nequaquam potest, NISI ad illum clamet et auxilium ejus postulet — "it can by no means be plucked out unless it cry to him and beg his help"**
+
+The Psalm verse quoted in the same sentence asserts precisely that the extraction does happen on such a cry: "Exspectans exspectavi Dominum, et intendit mihi, et exaudivit preces meas, et eduxit me de lacu miseriae, et de luto faecis." With nisi dropped, the clause flatly denies the rescue that the quotation it introduces affirms, and the two hortatory subjunctives (clamet, postulet) are left hanging with no conjunction — the mark of the lost particle.
+

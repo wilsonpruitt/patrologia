@@ -88,3 +88,28 @@ the conjectures instead.
   1144A; there are no 1143B–D anchors in the TEI, and the sentence runs across
   the jump without a break in sense. Reproduced as printed. (Migne's cols.
   1143B–D carry an interposed editorial block, not text of the letter.)
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 2 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1141D — sense-reversing-letter (migne, low confidence)
+
+Printed: *Per vos Romani imperii dignitas reparatur, sublimatur, et in antiquum consulum Pompeii, Scipionis, Julii, Octaviani atque [1142A] Trajani dominationis vix attollitur statum.*
+
+Conjecture: ***vix* is intrusive or corrupt for an affirmative (e.g. *jam* / *denuo*, or simply *attollitur statum* without it)**
+
+The two verbs immediately preceding in the same clause chain are unqualified praise — *dignitas reparatur, sublimatur* ("is repaired, is lifted up") — and the whole paragraph is panegyric on Conrad's election (*de recenti vestra electione vetera Romano imperio renovat gaudia*; *Per vos quippe aeternae urbis decus honorque ad solis ortum usque protenditur, dilatatur*). To say in the third member that the empire is *scarcely* raised to its ancient state retracts the two members before it. Flagged low because *vix* can bear a "only just / at last" force that is not fatal to the sentence.
+
+### 1144A — sense-reversing-letter (migne, medium confidence)
+
+Printed: *utriusque substantiae hostibus separatis, cum palma certaminis ad se revertentibus, coelestis vitae vobis januas aperiat*
+
+Conjecture: **read *superatis* for *separatis* — "the enemies of both substances having been overcome"**
+
+The clause it governs is a victory clause: *cum palma certaminis ad se revertentibus* ("as you return to him with the palm of the contest") — a palm is awarded for conquering an enemy, not for being parted from one. The letter's own salutation states the same wish in unambiguous terms: *ejus victrici dextera de spiritualibus ac corporalibus hostibus perpetuo triumphare* ("may triumph perpetually by his conquering right hand over enemies both spiritual and bodily"), which is exactly *utriusque substantiae hostibus* (spiritual + bodily = both substances). Migne's *separatis* substitutes mere separation for the conquest the sentence and its frame both require; our English reproduces the defect faithfully rather than repairing it.
+

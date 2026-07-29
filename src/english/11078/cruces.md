@@ -102,3 +102,20 @@ work check out against the Vulgate psalter (Psal. CXLIII, V, L, II, LXXVII, XVII
 VIII, XLVI, XXX, XII, VI, LI, XCIII, XXV, I, CVIII, III) and against John 11 and
 John 2. The two `[n: (Ibid.)]` / `[n: (ibid.)]` chains resolve to (Joan. II) at 0981C
 and to (Psal. III) at 0988A respectively.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0980B — sense-reversing-letter (migne, low confidence)
+
+Printed: *Hoc genus orandi in forma est, et quam prae caeteris omnibus unicum, tam est apud Deum prae caeteris omnibus pretiosum.*
+
+Conjecture: **Read *informe est* ("is formless") for the plate's word-divided *in forma est*; the privative in- has been split off and the claim inverted from "has no form" to "has form."**
+
+Pure prayer is defined immediately before as the prayer that loses its own content: "prae amoris ejus magnitudine etiam petitionis suae obliviscatur ... ejus etiam, pro quo venit, curam libenter postponat" — it forgets even its own petition and sets aside the very business it came for. A few lines later the same chapter makes the outward formlessness explicit and grades it as the mark of the highest devotion: "quod per sola nomina fit, quo magis est foris significatione imperfectum, tanto magis intus est abundantia dilectionis plenum ... quanto major et ferventior intus est, tanto minus foris per vocem explicari potest", and "Illud igitur, quod solis nominibus fit, ad puram orationem pertinere videtur." Pure prayer is precisely the species with the least outward form, so "in forma est" asserts the opposite of what its own neighbours require. The English "in a form of its own" is a silent repair that smooths the defective plate rather than translating it.
+

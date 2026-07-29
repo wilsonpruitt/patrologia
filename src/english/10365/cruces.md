@@ -69,3 +69,20 @@
   "sacred things / holy realities" rather than sacraments in the later technical
   sense (the three being a figure, a union of consciences, and a joint judgment).
   Rendered "three sacred things in confession" there alone.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0631C — dropped-word (ours, medium confidence)
+
+Printed: *Novit enim nescio quem [0631C] homicidam episcopus, et alius nemo illum novit. Ego publice corripere, at tu quaeris inscribere: prorsus nec prodo, nec negligo. Corripio in secreto, pono ante oculos Dei judicium, terreo cruentam conscientiam, persuadeo poenitentiam.*
+
+Conjecture: **The printed Latin has no finite verb of willing: 'Ego publice corripere' is an elliptical indignant question or refusal ('I, rebuke publicly? — no, it is you who seek to register a charge'), i.e. the speaker denies that he rebukes publicly. Our English supplied 'I would' and turned the refusal into an assertion, reversing it. Render e.g. 'Am I to rebuke him publicly? — it is you who seek to indict him.' (Alternative, if the defect is Migne's: a dropped 'nolo'/'non possum' after 'publice'.)**
+
+The very next clause denies it — 'prorsus nec prodo, nec negligo. Corripio in secreto' ('I neither betray him at all, nor neglect him. I rebuke IN SECRET') — and the immediately preceding sentence of the same Augustine excerpt states the rule the speaker is illustrating: 'In secreto debemus corripere, in secreto arguere, ne, volentes publice arguere, prodamus hominem' ('In secret we ought to rebuke... lest, wishing to reprove publicly, we betray the man'). Rebuking a murderer publicly is precisely the betrayal the passage forbids, so 'I would rebuke him publicly' asserts the opposite of what its own neighbours require.
+

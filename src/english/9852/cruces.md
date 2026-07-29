@@ -23,3 +23,20 @@ convention. Both were repaired 2026-07-28 under `translation-style.md` Pattern 5
 
 No wording was changed; this is a marker repair only. `verify-english.mjs` gained
 a guillemet-parity check the same day so the class cannot ship unseen again.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 0839B — sense-reversing-letter (migne, low confidence)
+
+Printed: *Rex Ardoinus sceptri moderamine fissus / Regnat in Hesperia, tendit in Ausoniam.*
+
+Conjecture: **fissus > fisus ("relying on / confident in the governance of the scepter"); the doubled -ss- turns a participle of confidence into one of being split or broken.**
+
+The next line of the same distich asserts the opposite of a broken rule: "Regnat in Hesperia, tendit in Ausoniam" — Arduin is reigning and extending his reach, in the dating formula whose whole function is to fix the year 1003 by naming the king then securely on the throne. A king "split by the governance of the scepter" contradicts the very clause it introduces. Our English silently repairs it as "upheld by," which is fisus, not fissus — the printed defect is not visible to an English reader.
+

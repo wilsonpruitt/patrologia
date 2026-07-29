@@ -105,3 +105,20 @@ anchors themselves are untouched and in order. These four index as partial raws:
 
 If the indexer is ever taught to skip anchors inside `[f: …]`, these four should be
 re-tagged whole.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1199B — dropped-word (ours, medium confidence)
+
+Printed: *Utinam relinquant nobis moderni Noe, unde a nobis possint operiri. *Ibid., n. 19, cap. 8. Adeo jam palam et sine pudore peccatur.**
+
+Conjecture: **"Would that the Noahs of our day would leave us something whereby THEY might be covered BY US" — `a nobis possint operiri` has *moderni Noe* as subject of the passive `operiri` and *a nobis* as the agent; the English inverts both, making us the covered and them the coverers.**
+
+The inline gloss printed with the sentence is the contradicting neighbour: *Adeo jam palam et sine pudore peccatur* — "So openly and shamelessly is sin now committed." The allusion is Gen. 9:23, Shem and Japheth covering the drunken Noah's nakedness: the complaint is that modern prelates sin so nakedly that they leave their subordinates nothing with which to cover THEM. If, as the English has it, we were to be covered by them, the gloss about shameless, open sinning would have nothing to attach to; and the two sentences that bracket it (*Multi non tanta alacritate currerent ad honores* / *In alto positum, non altum sapere, difficile*) are both indictments of prelates, not of us.
+

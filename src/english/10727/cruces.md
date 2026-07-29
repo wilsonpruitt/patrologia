@@ -20,3 +20,20 @@ Garbled or corrupt printed readings, rendered literally in the English and logge
 - **1592B** — The Colossians quotation is printed **without** an `[n: …]` wrapper and with an unclosed parenthesis and a stray asterisk: `(Colos. I, 20*.` Reproduced exactly as printed; this is a typesetting failure, not an authorial variant, and does not count toward `noteCount` (2).
 - **1592B** — *Jugum enim meum suave est… [n: (Matth. XI, 20)]*. The verse is Matthew 11:30; the printed citation is wrong. Passes through verbatim.
 - **1592C** — **Printed:** *colabilis sit*. *sit* is a real word (present subjunctive of *sum*), so it is rendered as printed: "may be able to be strained down." The intended reading is almost certainly the indicative *fit* ("becomes"), which the three parallel similes in the same sentence-chain use (*avolat*, *trahit*); a subjunctive has nothing to depend on here.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Corpus polarity sweep — 2026-07-28
+
+Blind Opus read of the Latin/English pair for sense-reversing defects (one word or
+one letter asserting the opposite of what the context requires). 1 site(s).
+Migne's defects are recorded here and rendered literally in the English; our own
+errors were fixed in place. Full context: `data/sweeps/corpus-polarity/REPORT.md`.
+
+### 1590C — sense-reversing-letter (migne, high confidence)
+
+Printed: *Virtutes vocantur arma lucis; arma, quia praecidunt contraria; lucis, quia pulsis tenebris faciunt lumen menti. Continentia praecedit luxuriam, humilitas superbiam, sic et in caeteris.*
+
+Conjecture: **Continentia praecidit luxuriam (praecidit, not praecedit) — 'continence cuts off lust', matching praecidunt in the sentence before**
+
+The contradicting neighbour is the clause immediately preceding, which defines the whole figure: 'arma, quia praecidunt contraria' — the virtues are ARMS precisely because they CUT DOWN their contraries. The examples that follow are supposed to instance that cutting down; 'praecedit' instead makes continence merely go BEFORE lust in sequence, which would make the virtues antecedents of the vices rather than their destroyers, and leaves 'arma' and 'praecidunt' with nothing to illustrate them. The same paragraph continues in the same key ('Clavis virtutum pelluntur clavi vitiorum' — the nails of the virtues DRIVE OUT the nails of the vices), confirming that expulsion, not precedence, is the sense required.
+

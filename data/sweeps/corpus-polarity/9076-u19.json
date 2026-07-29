@@ -1,0 +1,25 @@
+{"agent":"9076-u19","idno":"9076","chunks":"0016-0022","chunksRead":7,"findings":[
+  {"chunk":"0017","column":"0344C","side":"migne",
+   "printedLatin":"Ipsi enim sagaciter discernere noverunt inter fragilitatem catholicae fidei doctrinam et letiferum haeretici corporis fetorem.",
+   "englishAsRendered":"For they themselves have known how sagaciously to discern between the doctrine of the frailty of the Catholic faith and the death-bearing stench of the heretical body.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"fragrantiam catholicae fidei doctrinae — 'the fragrance of the doctrine of the Catholic faith'; Migne's fragilitatem turns the good odour into a weakness, and the English carried the defect through as an ungrammatical genitive chain (fragilitatem … doctrinam, two accusatives, is itself unconstruable).",
+   "whyContradiction":"The sentence immediately before states the terms of the antithesis: « Quia naso fetores et bonos odores discernimus, recte per nasum Ecclesiae iidem sancti doctores intelliguntur. » The nose discerns STENCHES and GOOD ODOURS; the second limb duly supplies the stench (« letiferum haeretici corporis fetorem »), so the first limb must supply the good odour of Catholic doctrine, not its 'frailty'. Nothing in the passage ascribes frailty to the Catholic faith — the same paragraph calls the teachers those who 'hold the highest place in the Church' and 'defend the Church'.",
+   "confidence":"high"},
+
+  {"chunk":"0020","column":"0353B","side":"migne",
+   "printedLatin":"Matrem et genitricem Synagogae, majorem et principaliorem Judaicae plebis patrem dicit, quales erant Scribae et Pharisaei…",
+   "englishAsRendered":"By the mother and her that bore the Synagogue he means the greater and more principal fathers of the Jewish people, such as were the Scribes and Pharisees…",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"partem for patrem — 'the greater and more principal PART of the Jewish people'. The English silently repaired the singular patrem into a plural 'fathers' to make the sentence run.",
+   "whyContradiction":"The gloss is explaining 'mother' and 'she that bore thee', and the very next clause keeps the maternal figure: « qui reliquam plebem tanquam mater et genitrix regere debebant et erudire. » 'reliquam plebem' (the REST of the people) presupposes that the referent is a part of that people, not a father of it; and defining matrem et genitricem as a patrem contradicts the lemma it is glossing («Ibi corrupta est mater tua, ibi violata est genitrix tua»).",
+   "confidence":"medium"},
+
+  {"chunk":"0018","column":"0345D","side":"migne",
+   "printedLatin":"Neque enim ad vitia incurvatur, sed recta et immobilis persistit. Unde Psalmista exspectantium voce dicebat: « Incurvatus sum et humiliatus usquequaque. »",
+   "englishAsRendered":"For she is not bent toward vices, but stands upright and unmoved. Whence the Psalmist said, in the voice of those who wait: « I am bowed down and humbled exceedingly. »",
+   "defectType":"dropped-word",
+   "conjecture":"peccantium (or poenitentium) voce — 'in the voice of sinners'; exspectantium assigns the bowing to the waiting faithful, i.e. to the very party the sentence has just declared unbendable.",
+   "whyContradiction":"The clause it is adduced to illustrate is « Neque enim ad vitia incurvatur, sed recta et immobilis persistit », and the parallel citation that follows keeps the speaker a sinner: « propheta sub specie Hierusalem PECCANTI ANIMAE de malignis spiritibus dicit: Quia humiliaverunt te… Incurvare ut transeamus », capped by « At contra sancta Ecclesia recta stat, nec unquam incurvari consentit. » As printed, the bent speaker and the unbent Church are the same party.",
+   "confidence":"low"}
+]}
