@@ -60,6 +60,27 @@ agent 11208).
    stacks. Re-run it after any further fixes.
 
 ### → NEXT SESSION
+
+0. **HARVEST MIGNE'S LATIN COLUMN FOR PG — blocks all further PG work.** `sources/pg/`
+   holds only the Calfa Greek corpus; there is no Latin twin for any PG work, so the
+   Zelzer inline verifier that PLAN.md rules 4 and 6 both require **does not persist in
+   this repo**. The 2026-07-03 pilot read it ad-hoc off the scan `djvu.xml` (Allatius)
+   — that worked, but left nothing behind, so the 2026-07-28 polarity sweep of Joel had
+   no verifier at all and read Greek against English blind. Two consequences, both live:
+   - **No PG finding can be attributed to Migne's plate.** Joel's 0272 (`δυσσεβῆ` for
+     `εὐσεβῆ`) and 0236 (`τὸ πονηρόν` for `τὸ εὐθές`) are recorded as provisional; the
+     Calfa transcription is heavily OCR-damaged (`Κφιε` for `Κύριε`, `ἐβασθευσε`,
+     mangled numerals), so a bad Greek reading is evidence about **our source file**
+     first. One look at the Latin column would settle both.
+   - **PG translation must not scale until this is fixed** — every future Greek-side
+     crux inherits the same provisional attribution, and the Greek-vs-Latin divergence
+     notes PLAN.md rule 6 calls "scholarly gold" cannot be produced at all without the
+     pair. (The two known PG 139 divergences from the 2026-07-03 pilot — Joram βʹ vs
+     *duodecim*, Michael VII ζʹ vs *sex* — were found against a SCAN, not a harvested
+     column, and still await Wilson's ratification.)
+   Scans exist (`data/volumes.json` covers 162 PG volume scans); `scripts/pg-page-column-map.mjs`
+   and the two `gapfill-pg-*.mjs` harvesters are the starting points. **PG 139 first** —
+   it is the only PG tome with English on the site.
 1. **Deploy** (needs Wilson's OK): 14 works fixed here + 11536/11547 from last session.
 2. Decide 10083 and 9604 above.
 3. `data/sweeps/corpus-polarity/OUT-OF-SCOPE-NOTES.md` holds real defects outside this

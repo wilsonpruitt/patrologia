@@ -11,6 +11,17 @@ Per the Labs-vs-Press doctrine: the corpus is the **open layer** — free readin
 2. **Untranslated-first** prioritization — skip works with existing public-domain English; translate the never-translated majority.
 3. Preservation: **rescue Google-Books-only volumes now**; archive.org-hosted volumes fetched lazily as translation reaches them.
 4. PG: **translate from the Greek**, with Migne's parallel Latin column as inline verifier (the Zelzer pattern — crosscheck, never source).
+   > ⚠️ **PARTLY UNMET AS OF 2026-07-28 — the Latin column is not HARVESTED.** `sources/pg/`
+   > holds only the Calfa **Greek** corpus; there is no persistent `src/latin/` twin for
+   > any PG work. The 2026-07-03 Joel pilot *did* use a Latin verifier, read ad-hoc off
+   > the scan's `djvu.xml` (Allatius) — that worked, but it left nothing behind. So any
+   > later pass over a PG work has no verifier at all: the 2026-07-28 polarity sweep of
+   > Joel had to read Greek against English blind, and its plate-side findings are
+   > therefore **provisional**. The Calfa transcription is heavily OCR-damaged (`Κφιε`
+   > for `Κύριε`, mangled numerals), so a bad Greek reading is evidence about our source
+   > file before it is evidence about Migne's plate. **Harvest the column into the repo
+   > so the verifier persists past the translating session.** Until then no PG finding
+   > may be attributed to Migne on our side of the page alone.
 
 **Architecture decision (Wilson, 2026-07-02) — "the total Migne, complete map first":**
 The eventual goal is the total Migne easily accessible in English AND Latin. The bones must hold that from day one, and early translations must not feel dwarfed inside a centimillion-word corpus. Resolution: **ONE canonical structure, complete at the map level from launch** — not separate per-piece constructions.
@@ -77,7 +88,7 @@ Chunker: `scripts/chunk-work.mjs` operating per-work (not per-volume), emitting 
 3. **Inline footnote markers preserved in the translation prompt from day 1** — bracketed `[letter]` markers carried Latin→English (retroactive insertion on Acta cost ~6 agent rounds).
 4. **Dedupe safety net at assembly** (Acta `dedupeBlocks()` pattern) + run a `scan-duplicate-translations.mjs` equivalent after every shipped unit — translation agents re-emitting chunks at boundaries is a known failure mode, self-heal don't trust.
 5. **Agent economics (Acta-May actuals):** 50–79 chunks per agent, **6-agent cap per round**, strict prompt (permission test + explicit floor + anti-self-throttle + style anchor + verbatim frontmatter — reuse `feedback_acta-agent-prompt`). Errored agents flush partial work; re-tally on disk each round, mop tails next round.
-6. **PG translation recipe:** English from the Greek chunk; Migne's Latin column read inline as verifier per batch (the Zelzer pattern — divergences fixed immediately, no deferred backlog); flag where Migne's Latin materially diverges from his Greek (these notes are scholarly gold).
+6. **PG translation recipe** *(blocked — see the warning under rule 4: the Latin column is not harvested)*: English from the Greek chunk; Migne's Latin column read inline as verifier per batch (the Zelzer pattern — divergences fixed immediately, no deferred backlog); flag where Migne's Latin materially diverges from his Greek (these notes are scholarly gold).
 
 ## Phase 6 — Pilot (gate before scale)
 
