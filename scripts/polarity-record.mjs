@@ -85,7 +85,11 @@ if (flag('--gate')) {
   process.exit(missing.length ? 1 : 0)
 }
 
-const idno = argv.find(a => /^\d+$/.test(a))
+// The positional arg is whatever is neither a --flag nor a --flag's value.
+// (Matching on /^\d+$/ grabbed the "12" out of `--chunks 12` and wrote data/polarity/12.json.
+// Work ids are not all numeric — joel-chronographia is foldered by slug.)
+const positional = argv.filter((a, i) => !a.startsWith('--') && !(i > 0 && argv[i - 1].startsWith('--')))
+const idno = positional[0]
 if (!idno) {
   console.error('usage: polarity-record.mjs <idno> --chunks N --sites N [--note "..."] | --gate | --import <dir>')
   process.exit(2)

@@ -702,3 +702,47 @@ values for Calfa pages 146–151 were +2 (the token verification had matched
 generic words); corrected in `data/pg-column-maps/pg139.json`. The three
 parity-inferred greekCols (284, 285, 288) were all CORRECT — chunk 0011's
 anchors stand as built.
+
+<!-- corpus-polarity-sweep 2026-07-28 -->
+## Polarity sweep — 2026-07-28 (PG addendum)
+
+Blind Opus read of the Greek/English pair, 12 chunks. This work was missed by both
+2026-07-28 sweeps because both were PL-only; the `polarity-record --gate` caught it.
+3 sites. Our own error was fixed in place; the rest are recorded, not repaired.
+
+**Standing caveat for every entry below — read it before citing any of them.**
+Two conditions weaken attribution here in a way they do not for the PL works:
+
+1. **Migne's parallel Latin column is not in this repository.** Only `src/greek/` and
+   `src/english/` exist for this work. The Zelzer-pattern inline verifier — the thing
+   that settles a doubtful Greek reading in one look — was unavailable to the reader,
+   and both plate-side findings are exactly the kind it would settle. Nothing below
+   was checked against the Latin.
+2. **The Greek transcription is heavily OCR-damaged** (`Κφιε` for `Κύριε`,
+   `ἐβασθευσε`, mangled numerals throughout). A bad reading here is evidence about
+   **our source file**, not necessarily about Migne's plate. Do not cite these as
+   Migne's defects until the Latin column is harvested and the Greek re-checked
+   against a scan.
+
+### 0276 — agent-reversal (OURS — fixed)
+Printed: *Αὐτὸς δὲ στέφει τὸν υἱὸν αὐτοῦ Μιχαὴλ ἐν τῇ Μεγάλῃ ἐκκλησίᾳ, οὗ δυσεντερικῇ
+νόσῳ, ὡς εἴρηται, κακῶς καὶ ἀθλίως τὴν ψυχὴν ἀποῤῥήξαντος…*
+
+Our English let "when he … had burst forth his soul" attach to the newly crowned
+**Michael**. The genitive absolute *οὗ … ἀποῤῥήξαντος* is **Theophilos**, and the tag
+*ὡς εἴρηται* points back to *ἔτη ιβʹ καὶ μῆνας γʹ καὶ ἀπέθανε δυσεντερικῶς*, said of
+Theophilos a few lines above. The next sentence refutes the old rendering outright:
+"After Theophilos reigned Michael his son … fourteen years." Fixed by naming the
+subject. Same class as 8708 (`qui`/`cui`) and 11208 (ablative agent) — reference
+mis-bound, not a negation error, and invisible to any negation-aware check.
+
+### 0272 — sense-reversing (plate or OCR — NOT fixed)
+Theodosios III is called *ἄνδρα δυσσεβῆ καὶ ἀπράγμονα* ("impious and retiring");
+conjecture *εὐσεβῆ*. The same chunk has him abdicate under a pledge of immunity,
+become a cleric with his son, and be made bishop of Ephesus. Rendered literally.
+
+### 0236 — LEAD, NOT A DEFECT (low)
+Asa given *τὸ πονηρόν* where the chronicle's own formula and its source (3 Kgdms
+15:11) require *τὸ εὐθές*. **Logged explicitly as failing the contradicting-neighbour
+test** — the chronicle never mentions Asa again, so there is no neighbour to
+contradict. Recorded so a later pass does not re-raise it as though it were settled.
