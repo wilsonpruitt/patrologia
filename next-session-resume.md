@@ -44,9 +44,12 @@ The format is the precedent for the twin files; the location was the bug. Memory
 and CLAUDE.md's "Greek only" note updated accordingly.
 
 ### → NEXT (order matters)
-1. **Polarity read on 11058 + 11553 — STILL OWED** (see the eighth session's
-   START HERE; everything prewritten in `data/sweeps/polarity-11058-11553/`;
-   check for partial unit JSON before relaunching; Opus, ~0.5M, hard-stop).
+1. **Polarity read on 11058 + 11553 — PARTIALLY RUN, 3 of 8 units done**
+   (`11058-u2/u3/u4.json` on disk; commits `46724da`/`0f48659` — one NEW site
+   found blind, @0275D legali/regali, proving the read earns its cost). The
+   eighth session's "did not run" is superseded. Remaining: 11058 u1 + all four
+   11553 units (0010–0013 = done-but-unrecorded per the eighth note); Opus,
+   hard-stop for the remainder; then `polarity-record.mjs` per work.
 2. **Sonnet: execute `pg-paired-pilot.md` §2–3** — harvest PG 139 (Maroneia +
    Glabas ranges) and PG 118 (locate the Jude unit, build its column map +
    registry entry), commit twins. Cheap, no hard-stop; report harvest stats.
