@@ -13,11 +13,14 @@ Wroot Press capstone: English translation of Migne's Patrologia Latina + Graeca.
 - `sources/pl/tei/` — the full Latin PL, 5,276 TEI files, 87M words (GITIGNORED, re-downloadable via `node scripts/cc-harvest.mjs texts`)
 - `sources/pg/calfa/` — Calfa PG corpus clone (33 vols, CC-BY 4.0). **Greek only —
   Migne's parallel LATIN column is not harvested for any PG work.** The 2026-07-03 Joel
-  pilot read the Latin verifier ad-hoc off the scan `djvu.xml`, which worked but
-  persisted nothing, so every LATER pass over a PG work runs blind (the 2026-07-28
-  polarity sweep did). Combined with heavy OCR damage in the Calfa text, that means
-  **no PG finding may be attributed to Migne's plate from our files alone** — it is
-  evidence about our source first. Harvest before scaling PG (`next-session-resume.md`).
+  pilot's Latin verifier survives at `raw/verifier/joel-chronographia-latin.txt` but is
+  gitignored, invisible, and not chunk-aligned — so every later pass over a PG work ran
+  blind (the 2026-07-28 polarity sweep did). Combined with heavy OCR damage in the
+  Calfa text, that means **no PG finding may be attributed to Migne's plate from our
+  files alone** — it is evidence about our source first. **The fix is specced:
+  `pg-paired-pilot.md` (2026-07-30) governs all PG work** — committed chunk-aligned
+  Latin twins at `src/pg-latin/<workKey>/`, the attribution ladder, Pattern 16
+  `[lat:]`, and the pilot slate. No twin, no translation.
 - `raw/` — gitignored except `raw/html/`; Bloch + Hamman PDFs/extracts live here under Zelzer rules
 - `sketch/` — APPROVED front-end design (see previews); vert `#1E3B2C`, dorure `#C3A343`, maroquin `#7E2D26`, papier `#F2EAD8`; GFS Didot + EB Garamond (modern u: `locl` off for Latin)
 

@@ -42,6 +42,49 @@ was considered and rejected — the divergences are the scholarly payload. The
 reader-facing rationale (with what Migne himself did editorially) lives in
 `content/editorial-method.md`.
 
+## Register (PG / Greek) — pilot-era, calibrating
+
+Codified 2026-07-30 from the Joel pilot (chronicle prose, the only shipped PG
+work); the paired-pilot `0000` anchors (dialogue, homily, lemma-and-gloss —
+see `pg-paired-pilot.md`) extend it. Everything in the Latin register that is
+not Latin-specific carries over: Tier-2 literalism, every clause rendered,
+markers sacred, corrupt print rendered literally and logged.
+
+- **Translate the Greek; the Latin column is a verifier, never a source**
+  (PLAN.md rule 4). Allatius's phrasing must not leak into the English — he is
+  a witness to the sense, not a model for the sentence. Consulting him leaves a
+  trace: a crux line quoting the Latin with its column.
+- **Expect EN ≈ 1.25× the Greek words** (chronicle actual; per-genre ratios are
+  a pilot output — do not quote 1.25× for a homily).
+- **Names:** established English forms where they exist (Cyrus, Nebuchadnezzar,
+  Alexander); otherwise transliterate what the Greek prints, keeping Byzantine
+  forms as printed (Azoura, Thyrras, Tharra — never normalized to their
+  biblical/classical shapes; the deviation is data). Greek divine names stay
+  Greek (Kronos, Zeus, Ares — not Saturn, Jupiter, Mars), even where the Latin
+  column latinizes them.
+- **Greek letter-numerals** (λβʹ) render as English words ("thirty-two") — Joel
+  precedent. They are the most OCR-fragile class in Calfa AND the commonest
+  real Greek-vs-Latin divergence class: never smooth a numeral in either
+  direction; a suspected divergence needs the Greek plate-verified before a
+  `[lat: …]` (Pattern 16).
+- **Scripture: translate what Migne's Greek prints** — LXX and NT quotations as
+  printed, however loose, conflated, or non-standard (Joel's Isaiah 45
+  conflation ships as printed). Familiar-verse echo allowed where the Greek
+  matches the traditional text. Never substitute a conventional English
+  version; the LXX's own forms and names stand as printed.
+- **Particles** (μὲν…δέ, καί-paratax, γάρ, οὖν): render by English connective
+  weight, not by formula — no mechanical "on the one hand." Byzantine paratax
+  may keep its "And…" chains where the genre is annalistic (Joel precedent).
+- **Calfa OCR damage** is far denser than PL transcription damage and is
+  handled differently: a certain correction (from context, the Latin twin, or
+  a scriptural parallel) is made **silently in the English and logged in
+  `cruces.md`** — itemized inline it would drown the text. Pattern 12
+  `[sic: …]` is reserved for plate-verified carried type only; **a defect in
+  our files is never attributed to Migne's plate** (the standing PG rule — see
+  the attribution ladder, `pg-paired-pilot.md` §4).
+- **Inline edition apparatus** the plate prints — Paris-edition page markers
+  (`[P. 150]`), marginal years — kept verbatim in the English (Joel precedent).
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
@@ -669,6 +712,41 @@ editorial comment translated); it holds for notes too.
 **Worked instances (Wilson, 2026-07-28):** 8407 (numeral subtraction), 9519
 (scholion on epilepsy), 11436 (the *quadrilogus* note) converted and re-verified;
 11064's citation list correctly stays `[n:]`.
+
+### 16. `[lat: …]` — Migne's Latin column diverges from his Greek text (PG only)
+
+PG prints two parallel witnesses of every work: the Greek text and a Latin
+translation (Allatius, etc.). Where they **assert different facts**, PLAN.md
+rule 6 calls the divergence "scholarly gold" — it is evidence about the
+transmission that neither column carries alone. The English follows the printed
+Greek (rule 4); the marker records what the Latin column says instead.
+
+- **Form:** `[lat: …]` in the English only, at the point of divergence, quoting
+  the Latin verbatim (italic) with a literal gloss —
+  `reigned two years [lat: the Latin gives *duodecim*, twelve]`.
+- **Fires on MATERIAL divergence only:** a different number, name, negation or
+  polarity, an added or missing clause, a different fact — the test is whether
+  a reader of the Latin column would take away something a reader of the Greek
+  would not. **Allatius translates freely; looseness, compression, and
+  paraphrase are his norm and are NOT divergences.** A marker that fired on
+  free rendering would be spam on every page.
+- **Numerals need the plate first.** Greek letter-numerals are Calfa's most
+  mangled class, so a numeral "divergence" is a Calfa artifact until the Greek
+  is verified against a leaf render. Both worked cases are numerals found
+  against the scan in the 2026-07-03 pilot: Joram βʹ vs *duodecim* (PG 139) and
+  Michael VII ζʹ vs *sex*.
+- **Not a defect marker.** `[sic:]`/`[d:]` say the plate is damaged; `[lat:]`
+  says the two columns disagree — often neither is "wrong," they descend from
+  different exemplars. Where the Greek is *also* suspect, that is the
+  attribution ladder's business (`pg-paired-pilot.md` §4), not this marker's.
+- Every `[lat:]` gets a `cruces.md` line citing the Latin column number, so the
+  claim is checkable against the committed twin (`src/pg-latin/<workKey>/`).
+- Renders like `[var:]`: a visible note whose tooltip reads "Migne's parallel
+  Latin column diverges from his Greek text."
+- **NOT retroactive.** Applied from the paired pilots forward. Joel's two known
+  divergences receive their markers when its Latin twin is backfilled — which
+  Wilson has ordered AFTER the pilots, not before. Until then, absence of a
+  `[lat:]` in Joel is not evidence the columns agree.
 
 ## Source patches — `data/tei-patches/<idno>.json`
 

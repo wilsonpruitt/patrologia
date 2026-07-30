@@ -3,7 +3,9 @@
 The operational score for translation sessions. Written 2026-07-05 (Fable, post-pilot);
 execute on **Opus**. Read alongside `CLAUDE.md` (hard rules) and `translation-style.md`
 (the frozen register rulebook). `next-session-resume.md` says what's next; this file
-says how any run works.
+says how any run works. **PG works additionally follow `pg-paired-pilot.md`** (verifier
+twins, attribution ladder, prompt addendum) — it diffs against this pipeline and merges
+back in after the pilots validate it.
 
 ## Model policy
 

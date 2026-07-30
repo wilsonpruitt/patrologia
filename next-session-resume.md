@@ -1,5 +1,65 @@
 # Next session — resume note
 
+## 2026-07-30 (ninth, Fable) — PG PAIRED PILOT DESIGNED: `pg-paired-pilot.md` is the score
+
+**No code, no ingest, no translation ran — by design.** This was the Fable-shaped
+item 2 from the eighth session: the spec is written and cheaper sessions execute it.
+Committed local. Nothing deployed, nothing on the site changed.
+
+### What was written
+1. **`pg-paired-pilot.md`** — the complete spec: verifier artifact
+   (`src/pg-latin/<workKey>/`, committed, chunk-aligned 1:1 with the Greek — NOT
+   `raw/`, NOT sibling files, for reasons stated in the file), harvest spec with
+   sanity gates, **the attribution ladder** (§4 — when a finding is Calfa damage vs
+   Greek/Latin divergence vs attributable-to-the-plate-pair; Greek+Latin concurrence
+   now counts as two witnesses), pipeline diff vs the runbook, PG agent-prompt
+   addendum, pilot slate, and the §8 gate questions that must be answered before
+   Joel's backfill or any PG scale.
+2. **`translation-style.md`** gained the **"Register (PG / Greek)"** section
+   (codified from the Joel English, not invented — names, letter-numerals, LXX
+   scripture policy, particles, silent-correction rule for Calfa damage) and
+   **Pattern 16 `[lat: …]`** — the Greek/Latin divergence marker (material
+   divergence only; Allatius's free rendering is NOT a divergence; numerals need
+   the plate first; NOT retroactive — Joel gets its two markers at backfill).
+
+### The pilot slate (three works, three genres, two volumes)
+- **P1 Nicetas of Maroneia, Dial. I** + fragments (PG 139, 169–221) — dialogue/
+  polemic, negation-dense, and a Filioque dialogue as the first paired work is the
+  site's story writing itself. Verified `none` → can earn "First"; page must state
+  the fragment situation.
+- **P2 Isidore Glabas, Sermon I only** of the four Marian sermons (PG 139) —
+  high-style homily. Verified `none`.
+- **P3 one short lemma-and-gloss unit from PG 118** (Oecumenius corpus — Jude, or
+  2–3 John if oversized) — the genre that dominates the future PG queue AND a
+  second volume to prove the harvest generalizes. Unverified → badge "New", no
+  hunting.
+- Joel backfill + further queue additions stay **outputs** of the pilot (Wilson's
+  07-29 ordering), gated on §8.
+
+### Correction to the record — the Joel verifier EXISTS
+`raw/verifier/joel-chronographia-latin.txt` (90KB, per-column-pair sections with
+leaf + token hits) has been on disk since 2026-07-03. "Persisted nothing" was
+wrong: it persisted **in gitignored `raw/`**, invisible and not chunk-aligned.
+The format is the precedent for the twin files; the location was the bug. Memory
+and CLAUDE.md's "Greek only" note updated accordingly.
+
+### → NEXT (order matters)
+1. **Polarity read on 11058 + 11553 — STILL OWED** (see the eighth session's
+   START HERE; everything prewritten in `data/sweeps/polarity-11058-11553/`;
+   check for partial unit JSON before relaunching; Opus, ~0.5M, hard-stop).
+2. **Sonnet: execute `pg-paired-pilot.md` §2–3** — harvest PG 139 (Maroneia +
+   Glabas ranges) and PG 118 (locate the Jude unit, build its column map +
+   registry entry), commit twins. Cheap, no hard-stop; report harvest stats.
+3. **Fable: chunk `0000` of each pilot work** (three new genres → three style
+   anchors, runbook model policy) — then **Opus takes the remainders**, per-launch
+   hard-stops with real numbers computed from the harvest.
+4. **Fable reads the pilots' findings against §8**, then: Joel backfill spec, PG
+   queue additions, runbook merge.
+5. Unchanged from the eighth session: 10083/9604 decisions, Joel's English fix
+   built-not-deployed, translation queue at 13 PL works (7914 waits on the
+   Song-of-Songs lemma ruling), `9637 Ordo` Fable mini-pilot, real-word-typo
+   convention owed by Wilson.
+
 ## 2026-07-29 (eighth) — 2 works (41 ch); Knox on "Englishing"; the [sic:] claim softened; badge-integrity defect found and fixed
 
 ### → START HERE: the polarity read is OWED on 11058 and 11553 — ATTEMPTED AND DID NOT RUN
