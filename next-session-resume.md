@@ -1,5 +1,58 @@
 # Next session — resume note
 
+## 2026-07-30 (tenth, Opus) — POLARITY READ COMPLETE: gate GREEN 88/88; one live defect fixed
+
+**All 8 units of `data/sweeps/polarity-11058-11553/` ran blind on Opus.** 41/41 chunks.
+11058: 19 chunks, 9 sites, 1 ours. 11553: 22 chunks, 5 sites, 1 ours. Both works
+recorded; `polarity-record.mjs --gate` now exits 0 at **88/88 — every englished work
+on the site has been read for this class**, the first time that has ever been true.
+Commit `55337ca`.
+
+### → DEPLOY IS OWED (needs Wilson's OK)
+**11058's live page currently carries a defect that is fixed on disk.** `site/pl/175/
+adnotatiunculae-in-threnos/index.html` was rebuilt + reindexed; migne.app still serves
+the old text. Deploy per runbook step 8 — the gate (0) is green, so nothing blocks it
+but the OK. Also still unshipped from the ninth session: **Joel's English fix**.
+
+### The one live defect — 11058 @0270C, and why it matters more than its size
+Migne prints *Quomodo obtexit, texitne superiora, hoc est coelestia videre posset.*
+`ne` + subjunctive *posset* is a **negative purpose clause**. Our English quarantined
+the garbled run as `[sic: *texitne*]` and then translated everything it governs
+**affirmatively** — "it might be able to see" — so the page asserted that the covering
+was so the soul MIGHT see the heavenly things, against Hugh's own preceding clause
+(*lumen rationis … obscuratum est, non ablatum*) and the frame (*in tenebris
+ignorantiae reliquit*). Now: "…[sic: *texitne*] lest it should be able to see…".
+
+**The column was ALREADY logged as a crux.** Its justification — "the negative is
+visibly present in the carried Latin" — was false: only the two letters *ne* were
+inside the marker. **A crux that describes a repair does not make the repair honest,
+and a logged column can look handled while the defect is live.** This is the subtlest
+Pattern 7a case found so far and belongs in the rulebook's worked examples.
+
+### Controls — why the two null units are trustworthy
+- **11553-u2 found the planted @0553A–B unaided**, as its first flag in the chunk.
+- **11553-u4 was deliberately left BLIND** although its range contains the known
+  @0591B — an unannounced second control — and rediscovered it with **better evidence
+  than the 07-29 leaked-prompt run could offer** (`Notandum` 24× across the work,
+  `Nondum` exactly once, here; the *quia* clause has nothing to attach to).
+- **11553-u1 and u3 returned `findings: []`** and proved they read by closing the
+  work's arithmetic (25+10+25=60 vs *implebant cubitos sexaginta*; 3×8+5+5=34 vs the
+  25-cubit breadth; 145+70=215; the 3-4-5 demonstration at 0574–0576).
+
+### Two items RECORDED, deliberately NOT fixed — Wilson's call
+1. **11553 @0551A** — our English makes the measuring-order what Scripture hints and
+   the location the reason; the argument seems to want the reverse (*quod* clause =
+   content of *innuit*), and Richard states the location as settled at 0551C. **Left
+   as printed:** *Quam* is unaccounted for on either parse and `cruces-0014.md` has a
+   comparable unresolvable *Quam autem …* at 0571D, so re-binding would assert a
+   reading of a sentence that does not construe. **It inverts an inference, not a
+   claim** — not a polarity defect. Logged in `cruces-0005.md`.
+2. **11553 @0536D** — *totum hoc* made a co-subject rather than the object of
+   *habere*. Same claim either way; a real mis-parse, in no cruces file before now.
+
+⚠ The ledger's `ours` counter counts sites **found**, and the gate prints "found and
+fixed" — 11553's 1 is found-not-fixed. Said so in that work's record note.
+
 ## 2026-07-30 (ninth, Fable) — PG PAIRED PILOT DESIGNED: `pg-paired-pilot.md` is the score
 
 **No code, no ingest, no translation ran — by design.** This was the Fable-shaped

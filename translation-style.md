@@ -319,6 +319,38 @@ meets *bonorem* in italics learns something true about Migne's plate, and the
 conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
 no exceptions.
 
+#### 7a′. A crux that DESCRIBES a repair does not make the repair honest
+
+Worked case, found 2026-07-30 by a blind polarity read — the subtlest instance of
+7a so far, and the one an audit is least likely to catch. 11058 @0270C prints
+*Quomodo obtexit, texitne superiora, hoc est coelestia videre posset.* The run
+*texitne* is garbled, but `ne` + subjunctive *posset* is a **negative purpose
+clause**. The English put *texitne* inside a `[sic:]` marker and then translated
+everything it governs **affirmatively**: "…the higher things, that is, the
+heavenly, it might be able to see." Hugh's own preceding clause says the light of
+reason was *darkened by sin, not taken away*, and the frame leaves man *in the
+darkness of ignorance*. The page stated the opposite of his argument.
+
+**The column was already logged as a crux**, and the crux even conjectured the
+right reading — then justified the affirmative English on the ground that "the
+negative is visibly present in the carried Latin." It was not: only two letters
+were inside the marker, and a reader meets the translated clause, not the marked
+fragment.
+
+Two rules follow, both general:
+1. **Quarantining a fragment does not quarantine what it governs.** If a marked
+   run carries a negation, particle, or conjunction that governs translated text,
+   the translated text must carry its force. Otherwise the marker becomes a place
+   to hide a repair.
+2. **A logged column is not a checked column.** A crux file records what a
+   translator noticed, not that the rendering is right — so a defect-hunt must
+   form findings blind and reconcile after (the rule already in the runbook's
+   step 4a), and an entry defending an unusual rendering deserves *more* scrutiny
+   than an unlogged passage, not less.
+
+Supplying the negative here is not an emendation. It renders the `ne` Migne
+prints, which was being dropped.
+
 #### 7a. The silent repair — the failure mode this rule actually has
 
 Pattern 7 is broken far more often by **quiet repair than by open emendation**,
