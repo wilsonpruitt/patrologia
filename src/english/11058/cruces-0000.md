@@ -30,10 +30,24 @@ second italic marker: printed `[sic: fiammae]` without asterisks.
 superiora, hoc est coelestia videre posset.* The sentence does not construe as
 printed. Conjecture: *texit ne superiora, hoc est coelestia, videre posset* —
 "he covered, that it might not be able to see the higher things, that is, the
-heavenly." Carried as a whole run, which means the negative *ne* is carried
-inside the marker and does NOT appear as an English "not." That is deliberate:
-supplying the negative in the English would be exactly the silent repair
-Pattern 7a forbids, and the negative is visibly present in the carried Latin.
+heavenly." The garbled run *texitne* is carried inside a `[sic:]` marker; the
+clause it governs is translated, and **translated negatively**, because `ne`
+with the subjunctive *posset* is a negative purpose clause.
+
+**CORRECTED 2026-07-30 (blind polarity read, unit 11058-u1).** Until now the
+English read "…[sic: *texitne*] the higher things, that is, the heavenly, **it
+might be able to see**" — an affirmative purpose clause — and this entry
+defended it on the ground that "the negative is visibly present in the carried
+Latin." **That defence does not hold.** Only the two letters *ne* sit inside the
+marker; everything they govern was translated, and translated affirmatively, so
+what the reader met was the affirmative claim. The page therefore said that the
+covering was so that the soul *might* see the heavenly things — the opposite of
+Hugh's argument in the immediately preceding clause (*lumen rationis per peccatum
+in homine obscuratum est, non ablatum*) and of the frame (*in tenebris ignorantiae
+reliquit*). This is Pattern 7a's own case, in its subtlest form: **a crux that
+describes a repair does not make the repair honest**, and a logged column can
+look handled while the defect is live. Supplying the negative here is not a
+silent emendation — it is rendering the printed *ne* that was being dropped.
 
 ## Printed readings rendered literally (Pattern 7 — no marker, English is ours)
 

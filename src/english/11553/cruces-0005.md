@@ -138,3 +138,39 @@ Rendered as printed ("only the length … for its length will appear better"). N
 **0008** (cols 0554C–0557B) is clean apart from the missing terminal stop at 0556D — all its
 figures (25 + 25 + 10 = 60; 15 + 15 = 30 chambers; 100 cubits gate to gate) agree with the
 rest of the work.
+
+## Blind polarity read, 2026-07-30 (unit 11553-u2) — one item left UNRESOLVED
+
+**0551A — *Quam autem vir ille … metitur … Scriptura innuit quod …*: our clause
+binding may invert Richard's inference. NOT changed; recorded for a ruling.**
+
+Migne prints *Quam autem vir ille qui portam ingreditur hoc limen primo loco, et
+ante thalamos metitur, patenter, ut arbitror, Scriptura innuit quod in primo
+praedictorum VII vestibulorum invenitur.*
+
+Our English makes the **measuring-order** the thing Scripture hints, and the
+**location** the reason for it ("…Scripture hints that that man … measures this
+threshold in the first place, and before the little chambers, *in that it is
+found in the first* of the aforesaid VII porches").
+
+The reading the argument seems to want is the reverse: *because* he measures it
+first and before the chambers, Scripture plainly hints **that it is found in the
+first porch** — i.e. the `quod` clause is the content of *innuit*, not a causal
+tail. Two things support that: the location is what this stretch is out to
+establish, and Richard states it as settled at 0551C (*Primo de limine dicit
+quod erat in primo vestibulo*).
+
+**Left as printed, deliberately.** *Quam* is unaccounted for on either parse,
+and `cruces-0014.md` records a comparable unresolvable *Quam autem …* at 0571D
+where the English supplies a bracketed word — so this is likely the same
+defective construction rather than a mis-parse of a sound one. Re-binding the
+clause would assert a reading of a sentence that does not fully construe, which
+is the emendation Pattern 7 forbids. **No claim is reversed to its opposite** —
+both propositions are Richard's — so this is not a polarity defect; it inverts
+the direction of an inference. Flagged for Wilson.
+
+**0536D — *oportet totum hoc et australem plagam habere vestibulum*** (chunk
+0002, found by unit 11553-u1). Our English makes *totum hoc* a co-subject rather
+than the object of *habere*. The resulting claim is the same (the south side has
+all of this too), so it is not a polarity defect and was not changed — recorded
+because it is a genuine mis-parse and was in no cruces file before.

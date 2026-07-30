@@ -1,0 +1,24 @@
+{"agent":"11058-u1","idno":"11058","chunks":"0000-0004","chunksRead":5,
+ "findings":[
+  {"chunk":"0003","column":"0270C","side":"ours",
+   "printedLatin":"Quomodo obtexit, texitne superiora, hoc est coelestia videre posset.",
+   "englishAsRendered":"How hath he covered, [sic: *texitne*] the higher things, that is, the heavenly, it might be able to see.",
+   "defectType":"dropped-non",
+   "conjecture":"The printed *texitne* carries the negative purpose particle (read *texit, ne superiora, hoc est coelestia, videre posset* = 'he covered [him], that he might NOT be able to see the things above, that is, the heavenly'). The `ne` is the only conjunction in the clause and it governs the subjunctive *posset*; our English supplied an affirmative purpose clause ('it might be able to see') and dropped the negation entirely, leaving a positive assertion the Latin nowhere makes.",
+   "whyContradiction":"The immediately preceding sentence in the same gloss: 'Quomodo obtexit, inquit, quod tegitur, absconditur quidem, non aufertur; quia lumen rationis per peccatum in homine obscuratum est, non ablatum' — 'what is covered is indeed hidden, not taken away; because the light of reason in man was darkened by sin, not taken away.' The whole lemma is being expounded as the darkening of the mind ('hominem ... peccantem deserens, in tenebris ignorantiae reliquit' — 'he left him in the darkness of ignorance'). A covering whose purpose is that he MIGHT see the heavenly things is the opposite of the point Hugh has just made twice.",
+   "confidence":"high"},
+  {"chunk":"0001","column":"0260C","side":"migne",
+   "printedLatin":"Quos hic amicos Ecclesiae dicit, nisi potentes hujus saeculi, qui nonnunquam dum temporaliter sublimatam vident, honorant, et se diligere fingunt, sed dum in pressuris constitutam conspiciunt, persequuntur et spernuntur?",
+   "englishAsRendered":"Whom does he here call friends of the Church, save the powerful of this world, who sometimes, while they see her exalted in temporal things, honor her and feign to love her, but when they behold her set in distresses, persecute her and are despised?",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"*spernuntur* for *spernunt*: the passive reverses the agency — the printed text makes the powerful the ones despised, where the sense requires that they despise her. Our English carried the printed passive literally (correctly, per the no-silent-repair rule); the defect is in the source text, not in the rendering.",
+   "whyContradiction":"The lemma this sentence exists to gloss, quoted immediately before it in the same paragraph and again immediately after it: 'Omnes amici ejus spreverunt eam' — 'ALL HER FRIENDS HAVE DESPISED HER,' active, with the Church as object. The paired verb in the same clause, *persequuntur*, is active with her as object; a passive *spernuntur* alongside it makes the friends the sufferers of the very contempt the lemma attributes to them.",
+   "confidence":"medium"}
+ ],
+ "reconciliation":{
+  "crucesReadAfterFindingsFormed":true,
+  "crucesFile":"src/english/11058/cruces-0000.md",
+  "0270C-texitne":"ALREADY LOGGED, but the crux's justification does not hold and the defect is live. The crux states that because *texitne* is carried whole inside the marker, 'the negative *ne* is carried inside the marker and does NOT appear as an English not... the negative is visibly present in the carried Latin.' But only the two-letter run *texitne* is carried; the rest of the clause (*superiora, hoc est coelestia, videre posset*) IS translated, and it is translated as an AFFIRMATIVE purpose clause, 'it might be able to see.' The English reader is therefore given a positive assertion, not a gap. Pattern 7a's own rule applies: 'A repair is not made honest by a crux that describes it.' Minimal fix consistent with Pattern 10: leave the carried run but render the translated remainder negatively, or mark the clause as unconstruable rather than supplying an affirmative.",
+  "0260C-spernuntur":"ALREADY LOGGED and correctly handled — the crux records the printed passive and states it was rendered as printed. Reported here only because the blind read reached it independently; no action needed.",
+  "newDefectsNotInCruces":0
+ }}

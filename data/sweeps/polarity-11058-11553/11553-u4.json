@@ -1,0 +1,18 @@
+{"agent":"11553-u4","idno":"11553","chunks":"0017-0021","chunksRead":5,
+ "findings":[
+  {"chunk":"0018","column":"0591B","side":"migne",
+   "printedLatin":"Ostium unum ad Aquilonem. Nondum sane, quia quod prius quasi singulariter posuit, postea pluraliter designavit.",
+   "englishAsRendered":"\"One door toward the north.\" Not yet indeed, because what he first set down as if in the singular, he afterward marked out in the plural.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"Notandum sane, quia quod prius quasi singulariter posuit, postea pluraliter designavit — \"It must indeed be noted that what he first set down as if in the singular he afterward marked out in the plural.\" Richard's fixed formula Notandum sane / Notandum autem / Notandum quod occurs 24 times in this work (0000, 0001, 0002, 0003, 0004, 0007, 0008, 0009, 0013, 0014, 0016, 0018 @0588A, 0019 @0594B); Nondum occurs exactly once in the whole work, here. Notandum -> Nondum is the loss of -ta-, and it turns a gerundive announcement into a temporal denial.",
+   "whyContradiction":"The causal quia has nothing to attach to: \"Not yet indeed, BECAUSE what he first set down in the singular he afterward designated in the plural\" denies or defers a claim that has not been made, and then gives a reason for it. The very next sentences supply the proof of the note rather than any deferral — \"Et induxit me, inquit, in gazophylacium, et in sequentibus, et ante gazophylacia deambulatio decem cubitorum\" — the singular gazophylacium followed by the plural gazophylacia, i.e. exactly the singular-to-plural shift the clause says was made. Cf. the identical formula two columns earlier, 0588A: \"Notandum sane quod latitudo illa centum cubitorum ... possit dici latitudo, et longitudo\", and 0594B \"Notandum sane quod non dicit porticum ipsam ...\"",
+   "confidence":"high"},
+  {"chunk":"0019","column":"0591D","side":"migne",
+   "printedLatin":"Inferior porticus de interioribus aedificii eminebat, quia supra gazophylacia sita erat, quae inferioribus aedificiis respondebant.",
+   "englishAsRendered":"The lower portico projected from the inner parts of the building, because it was situated above the chambers, which answered to the lower parts of the buildings.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"Inferior porticus de INFERIORIBUS aedificii eminebat (interioribus / inferioribus, one letter). The scriptural formula Richard is glossing is fixed throughout the work: \"eminebant de inferioribus et de mediis aedificii\" (quoted at 0591C incipit, at 0592C, and again at 0013 @twice, 0014, 0020).",
+   "whyContradiction":"The causal clause in the same sentence gives the reason as the chambers \"quae INFERIORIBUS aedificiis respondebant\" — the lower parts, not the inner — and the immediately following sentence runs the parallel with the second term intact: \"Superior porticus de MEDIIS aedificii eminebat, quia supra primam porticum sita erat, quae MEDIIS aedificii respondebat.\" The pair is lower:lower :: middle:middle; \"interioribus\" breaks the correspondence the sentence is built to state, and substitutes an inside/outside relation for the up/down relation the whole passage measures. Our English is faithful to what is printed.",
+   "confidence":"medium"}
+ ],
+ "reconciliation":"Both findings were formed blind, then checked against src/english/11553/cruces-0018.md at the very end. Both were ALREADY LOGGED there (0591B Nondum sane; 0591D-0592A de interioribus). Nothing NEW was found in chunks 0017-0021; no ours-side defect was found in any of the five chunks."}

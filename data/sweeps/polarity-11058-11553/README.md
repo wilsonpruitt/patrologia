@@ -1,4 +1,28 @@
-# Polarity read — 11058 + 11553 (SET UP 2026-07-29, NOT COMPLETED)
+# Polarity read — 11058 + 11553 — ✅ COMPLETE 2026-07-30
+
+**All 8 units run; both works recorded; `--gate` is GREEN at 88/88.** 41/41 chunks read
+(11058: 19 chunks, 9 sites, 1 ours · 11553: 22 chunks, 5 sites, 1 ours).
+
+**Both controls came back clean, which is what makes the two null units trustworthy:**
+11553-u2 found the planted @0553A–B unaided, as its first flag. **11553-u4 was
+deliberately left BLIND despite its range containing the known @0591B** — an
+unannounced second control — and rediscovered it, with better evidence than the
+2026-07-29 leaked-prompt attempt could offer (`Notandum` 24× in the work vs `Nondum`
+exactly once, here). 11553-u1 and u3 returned `findings: []` and both proved the read
+by closing the work's arithmetic chains.
+
+**One live defect found and FIXED: 11058 @0270C** (ours) — a `ne … posset` negative
+purpose clause rendered affirmatively while only the two letters *ne* sat inside a
+`[sic:]` marker. **Its column was already logged as a crux**, whose justification
+("the negative is visibly present in the carried Latin") did not hold. The lesson is
+sharper than the fix: *a logged crux can make a live defect look handled.*
+
+One item RECORDED BUT NOT FIXED: 11553 @0551A (clause binding, inverts an inference
+rather than a claim; the Latin does not fully construe) — Wilson's call.
+
+The historical note below is kept for the record.
+
+## (historical — as written 2026-07-29, before the read completed)
 
 **Status: the read did not run.** Eight units were designed and six launched; every
 launch died instantly on **API 529 Overloaded**, including one resume after a

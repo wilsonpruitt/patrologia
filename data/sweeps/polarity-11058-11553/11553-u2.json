@@ -1,0 +1,27 @@
+{"agent":"11553-u2","idno":"11553","chunks":"0006-0011","chunksRead":6,
+ "controlFound":true,
+ "findings":[
+  {"chunk":"0007","column":"0553A-B","side":"migne",
+   "printedLatin":"Ecce limen hoc ut superiora portae limen dicitur, et tamen hic, ut in superioribus, nihil determinationis [0553B] adjungitur, et ex eo ipso innuitur quod vere et proprie portae dicatur.",
+   "englishAsRendered":"Behold, this threshold, like the foregoing ones, is called the threshold of the gate, and yet here, as in the foregoing, nothing of determination is added; and from that very fact it is hinted that it is truly and properly called the gate's.",
+   "defectType":"dropped-non",
+   "conjecture":"nihil determinationis adjungitur stands in contrast, not in parallel, with the earlier thresholds: read *non ut in superioribus* (or *ut in superioribus non*), i.e. 'here, NOT as in the foregoing, nothing of determination is added'. The adversative *et tamen* and the inference *ex eo ipso* both require the contrast.",
+   "whyContradiction":"Two columns earlier, of the earlier threshold, Richard says the opposite of 'ut in superioribus': 'Notandum sane quod postquam hoc limen ... portae limen nominavit, statim per subjunctam determinationem ostendit quod portae limen proprie dictum non sit. Si enim hoc limen esse portae limen proprie dictum fuisset, procul dubio ubi esset per determinationem subjungere non oporteret' (0551D-0552A). In the foregoing a determination WAS added, and that added determination is precisely what proved those thresholds improper. If nothing of determination were added there either, the inference drawn here ('ex eo ipso innuitur quod vere et proprie portae dicatur') would prove the earlier thresholds proper too, destroying the whole argument of chapters VI-VII.",
+   "confidence":"high"},
+
+  {"chunk":"0009","column":"0559C","side":"migne",
+   "printedLatin":"Notandum quod porticum per portam intelligit, et quod pavimenti solam longitudinem describit: nam ejus longitudo ex alio melius patebit.",
+   "englishAsRendered":"It must be noted that he understands the portico by the gate, and that he describes only the length of the pavement: for its length will appear better from another place.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"nam ejus LATITUDO ex alio melius patebit. The second *longitudo* should be *latitudo*.",
+   "whyContradiction":"The first half of the same sentence says he describes ONLY the length (*solam longitudinem describit*) — so the length is exactly what does not need another place; it is the breadth that is left over. The parallel note one column earlier, on the identical lemma at the northern gate, prints the word correctly: 'Notandum quod solam longitudinem centum cubitorum describit. Nam LATITUDO pavimenti quanta fuerit, vel quid de ea sentiendum sit, melius ex sequentibus patebit' (0558B-C).",
+   "confidence":"high"},
+
+  {"chunk":"0007","column":"0551A","side":"ours",
+   "printedLatin":"Quam autem vir ille qui portam ingreditur hoc limen primo loco, et ante thalamos metitur, [0551A] patenter, ut arbitror, Scriptura innuit quod in primo praedictorum VII vestibulorum invenitur.",
+   "englishAsRendered":"But how plainly, as I judge, Scripture hints that that man who enters the gate measures this threshold in the first place, and before the little chambers, [0551A] in that it is found in the first of the aforesaid VII porches.",
+   "defectType":"reference-misbound",
+   "conjecture":"The object of *innuit* is the *quod*-clause: 'But since (Quam = Quia/Cum) that man who enters the gate measures this threshold in the first place and before the little chambers, Scripture hints plainly enough, as I judge, THAT IT IS FOUND IN THE FIRST of the aforesaid seven porches.' Our English took the indicative clause *metitur* as the content of the hint and turned the *quod*-clause into a causal ('in that it is found'), reversing premise and conclusion.",
+   "whyContradiction":"The threshold's location in the first porch is the thing being established here and in the sentences that follow (the whole of ch. VII argues from the ORDER of measurement to position: 'Attende nunc quam competenti ordine incedit ... Primo de limine dicit quod erat in primo vestibulo, postea de mensura thalami qui erat in secundo', 0551C). As rendered, the location is assumed as the reason and the order of measurement — which is simply printed in the lemma and needs no hinting — becomes the hidden thing Scripture hints at. The printed *Quam* is itself suspect; the English smooths it by re-binding the clauses rather than reporting it. Caveat noted after the blind read: `cruces-0014.md` logs a comparable unresolvable *Quam autem …, Scriptura … determinat* at 0571D, so this may be a recurring construction of the transcription rather than a defect here — hence the low confidence.",
+   "confidence":"low"}
+ ]}
