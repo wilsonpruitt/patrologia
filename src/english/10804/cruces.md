@@ -26,18 +26,26 @@ the choices recorded here are precedent for all of them.**
   aemulatio=jealousy vs zelus=zeal · charitas=charity, dilectio/amor=love ·
   mala punica = mala granata = pomegranates. Full tables below.
 
-## OPEN — a convention question for the whole Song campaign (Wilson)
+## ✅ SETTLED 2026-07-30 (Wilson) — each commentary stands on its own
 
 ***murenulae* is a KNOWING divergence from 10379** (Robert of Tombelaine, already
 live), which renders the same lemma "chains of gold". Sixteen commentaries on one
-book will keep colliding this way, so the rule is worth settling once:
+book will keep colliding this way, so the rule was settled once:
 - Where the printed Latin DIFFERS between commentaries, the English must differ —
   scripture policy is locked (translate what Migne prints, never substitute).
 - Where a commentator GLOSSES the word, the Latin stands and the divergence is
   noted — already settled by the *stylus*/*epistylium* precedent.
-- **Undecided: where the printed Latin is identical and no gloss depends on it.**
-  Harmonizing makes the sixteen read as one edition; not harmonizing makes a
-  reader comparing two commentaries on one verse see two different Songs.
+- **Where the printed Latin is identical and no gloss depends on it: LET EACH
+  COMMENTARY STAND ON ITS OWN. Do NOT harmonize across works.** Wilson's reason:
+  harmonizing would be *"editorializing Migne too much."* Imposing one English on
+  sixteen commentaries would be our editorial hand laid across sixteen separate
+  acts of transmission, presenting as one edition what Migne prints as sixteen.
+
+**This divergence is therefore CORRECT AS IT STANDS.** *murenulae* (10804) and
+"chains of gold" (10379) both stay. Nothing is swept, nothing is re-rendered, and
+a future sweep must not "fix" either one. Full statement of the rule and its
+boundary: `translation-style.md`, "The Song of Songs — each commentary stands on
+its own."
 Flagged, deliberately NOT harmonized in either direction pending a ruling.
 
 Agent A batch: `src/english/10804/0000.md` … `0008.md` (cols 1233–1262B).

@@ -85,6 +85,47 @@ markers sacred, corrupt print rendered literally and logged.
 - **Inline edition apparatus** the plate prints — Paris-edition page markers
   (`[P. 150]`), marginal years — kept verbatim in the English (Joel precedent).
 
+## The Song of Songs — each commentary stands on its own (locked, Wilson 2026-07-30)
+
+Sixteen PL commentaries expound the same book, quoting the same lemmata. When two
+of them print the *same* Latin and neither glosses the word, do the two Englishes
+have to agree?
+
+**No. Each commentary stands on its own. Do NOT harmonize a lemma across works.**
+
+Wilson's reason, and the whole of it: harmonizing would be **"editorializing Migne
+too much."** Sixteen commentaries are sixteen separate acts of transmission, and
+one English imposed across them is our editorial hand pretending they are one
+edition. The divergence a reader meets is real — it is what the corpus actually
+contains — and a smoothed corpus would be telling him something untrue about it.
+
+This is not a new principle. It is the same one Pattern 9 already applies inside a
+volume: **each work is faithful to its own plate.** 11057 keeps adverbial sense
+labels (ALLEGORICALLY.) because *its* plate prints adverbs, while 11063 uses the
+adjective, and the two shipped that way deliberately.
+
+The complete rule, three cases:
+1. **Printed Latin DIFFERS** → the Englishes must differ. Scripture policy, locked:
+   translate what Migne prints, never substitute.
+2. **A gloss depends on the word** → the Latin stands in italic, divergence noted.
+   The *stylus*/*epistylium* precedent (11551) and *murenulae*/*ferculum* (10804):
+   where the gloss IS the etymology, an English word sharing no root makes the
+   gloss explain nothing.
+3. **Printed Latin identical, no gloss depends on it** → **each stands.** No
+   cross-work harmonization, no sweep, no reconciliation pass between commentaries.
+
+**⚠ THE BOUNDARY — this ruling is about ACROSS works, never WITHIN one.**
+Merge-time reconciliation inside a single work remains a **required** pipeline step
+(runbook step 4), not a tidy-up. A work split across agents that renders one term
+two ways is incoherent on its own page — that is drift, and it has needed fixing in
+every multi-agent work so far (11551's *stylus*, 11063's sense labels, 10804's
+*amica mea*, 11536's *turba*). Do not read "let each stand" as licence to skip it.
+Within a work: one voice. Across works: as many voices as Migne printed.
+
+**Worked instance, and it needs no action:** 10804 keeps *murenulae* in italic
+Latin; 10379 (Robert of Tombelaine, live since earlier) renders the same lemma
+"chains of gold". **Both are correct as they stand.** Neither is swept.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"

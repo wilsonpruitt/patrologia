@@ -245,6 +245,15 @@ launch. None is a judgment failure and none should be treated as one.
 
 ## The Song-of-Songs queue (all pre-chunked, verified-none, EN ≈ 1.5× Latin words)
 
+**✅ UNBLOCKED 2026-07-30.** The lemma-harmonization question that gated this whole
+tier is answered: **each commentary stands on its own — do NOT harmonize a lemma
+across works** (Wilson: harmonizing would be "editorializing Migne too much"). Full
+rule, its three cases, and the within-vs-across boundary: `translation-style.md`,
+"The Song of Songs — each commentary stands on its own." **Nothing below waits on a
+ruling any more.** Note the boundary before launching: merge-time reconciliation
+*inside* a single work is still required (step 4) — one voice per work, as many
+voices across works as Migne printed.
+
 **Shipped as of 2026-07-28** — 7383 (Expositio cantici Magnificat), 11062 (Hugh,
 *Explanatio in Canticum B. Mariae*), 21413 (Alcuin), 11321 (William), 7871 (Justus
 of Urgell). Ten remain, below. This table does not update itself: **`/queue/` is

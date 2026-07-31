@@ -1,5 +1,58 @@
 # Next session — resume note
 
+## 2026-07-30 (eleventh, Opus) — PUSHED + DEPLOYED; Song-of-Songs question RULED; 11065 launched
+
+### Shipped
+**Pushed** through `bf3d9e4` (origin/master) and **DEPLOYED** — `dpl_BjtEEvJFPZt3gcDZ5562x5yUDPxc`,
+aliased to migne.app. Smoke-tested: landing, both PL 175/196 works, Joel, /scripture/,
+/queue/ all 200; **the 11058 @0270C correction is live and the old affirmative text is
+gone** (grep-verified both directions). Joel's pending English fix shipped in the same
+deploy. Polarity gate green 88/88 at deploy time.
+
+### ✅ THE SONG-OF-SONGS RULING (Wilson, 2026-07-30) — the queue's biggest blocker
+**Each commentary stands on its own. Do NOT harmonize a lemma across works.**
+Wilson's reason: harmonizing would be **"editorializing Migne too much"** — sixteen
+commentaries are sixteen acts of transmission, and one English imposed across them is
+our hand pretending they are one edition.
+
+Recorded in `translation-style.md` ("The Song of Songs — each commentary stands on its
+own"), the runbook's Song-queue section, and 10804's cruces head (question closed).
+Consequences, all already applied:
+- **Nothing is swept.** 10804's *murenulae* and 10379's "chains of gold" are **both
+  correct as they stand**. A future sweep must not "fix" either.
+- **It is not a new principle** — Pattern 9 already says each work is faithful to its
+  own plate (11057 adverbial sense labels vs 11063 adjectival, shipped that way
+  deliberately).
+- ⚠ **BOUNDARY, written into all three files:** this is ACROSS works only. Merge-time
+  reconciliation WITHIN a work stays a required step (runbook 4) — one voice per work.
+  Every multi-agent work so far has needed it (11551 *stylus*, 11063 labels, 10804
+  *amica mea*, 11536 *turba*). Do not read "let each stand" as licence to skip it.
+- **Unblocks the whole small tier**: 7914, 8930, 9033, 11638, 6963 + the big ones.
+
+### 11065 LAUNCHED (in flight at session end — check `src/english/11065/`)
+Hugh of St Victor, *Homiliae in Ecclesiasten* (PL 175, 113C–256C). **53 chunks,
+62,318 Latin words, 127 notes, 20 units (preface + 19 homilies), 6 Opus agents**
+split on homily boundaries and balanced by words: 0000–0008 / 0009–0018 / 0019–0027 /
+0028–0036 / 0037–0044 / 0045–0052. ~1.05M tokens. Largest single work the project has
+attempted (~93K English words). Badge = **"New"** (`workStatus: unclear`; partial
+English exists — 1962 *Selected Spiritual Writings*, VTT selections). Cruces go to
+`cruces-0000/0009/0019/0028/0037/0045.md`.
+
+**⚠ THIS WORK'S DEFINING HAZARD, pre-set into every prompt:** Hugh quotes a verse in
+one Latin version, then a **second different** version, and builds the exposition on
+the difference — `aliam translationem` ×11, `nostra habet` ×11, `aliam
+interpretationem` ×5, `Hebraeus` ×12, `LXX` ×3. Homily XII exists to expound *Oculi
+stultorum in finibus terrae* against *nostra habet: Stultus in tenebris ambulat*. A
+familiar English Ecclesiastes would collapse two versions into one wording and make
+whole homilies incoherent. Also pre-set: *vanitas*→"vanity" (387×, the work's spine),
+*Ecclesiastes* kept as the name (never "the Preacher"), *occupatio pessima*,
+*distendi*→"distended", the sense-vocabulary. **This work prints NO ALLEGORICE./
+MORALITER. labels** — checked; that convention question does not arise here.
+
+**On completion:** merge + reconcile the 6 cruces files (required), `verify-english`,
+step-4a polarity read, bio (Hugh exists), build + index, `polarity-record.mjs`, then
+deploy needs its own OK.
+
 ## 2026-07-30 (tenth, Opus) — POLARITY READ COMPLETE: gate GREEN 88/88; one live defect fixed
 
 **All 8 units of `data/sweeps/polarity-11058-11553/` ran blind on Opus.** 41/41 chunks.
