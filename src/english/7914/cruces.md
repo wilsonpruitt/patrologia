@@ -882,3 +882,70 @@ Rendered literally; no explanatory word added to the text.
 The relative *quas* is feminine while its antecedent *canales* is masculine. Pattern 9:
 Latin gender has no English exponent, nothing to emend, nothing rendered differently.
 Logged only so a later sweep does not churn it.
+
+---
+
+# Blind polarity read (step 4a) — 2026-07-30
+
+Four Opus units, blind, 23/23 chunks, no sampling. **14 sites: 7 source-side, 7 ours.**
+Units in `data/sweeps/polarity-7914/`. Unit boundaries deliberately STRADDLED the
+translation batches, so every batch seam fell inside some reader's range.
+
+## The finding that matters beyond this work
+
+**All seven ours-side defects were lemma conformations (5) or mis-bound references (2).
+Not one was a dropped negation.** The same day's read of 11065, a homily collection,
+gave the opposite profile. **The genre predicts the failure mode.** In a verse-by-verse
+commentary the risk is not losing a `non`; it is the familiar English of a known verse
+arriving before the printed Latin is read. Written up as `translation-style.md` **7a″**,
+with these cases as the worked examples.
+
+## Fixed (ours)
+
+- **@1079C — Heb 12:14.** Migne prints *et **castimoniam**, sine qua nemo videbit Deum*;
+  we gave the Vulgate's "holiness" (*sanctimoniam*). Nine words earlier our own English
+  renders *castimonia* as "chastity", and the text is adduced **precisely for chastity
+  of the flesh** — the argument's keyword had vanished from its own proof-text. → "and
+  chastity".
+- **@1094A — Heb 11:10.** Printed *Exspectabat enim **manentem** civitatem*; we gave "a
+  city that hath **foundations**", importing a word the printed text does not contain.
+  → "an abiding city".
+- **@1103A — Matt 7:25.** Printed *fuit enim **aedificata** supra petram*; we gave
+  "**founded**", six words after rendering *aedificavit* as "built". → "built".
+- **@1071D — Heb 2:9.** Printed perfect *Vidimus*; we restored the Vulgate present
+  "We see". → "We saw".
+- **@1079B — Gen 18:27.** Printed *cinis et pulvis*; we gave Douay's "dust and ashes",
+  reversing an order the gloss turns on (cinnamon's *cinericeum colorem*). → "ashes
+  and dust".
+- **@1102A — speaker.** *Et bene arborem mali **dicit*** rendered "does **she** say".
+  The speaker of the lemma *Sub arbore malo suscitavi te* is the bridegroom (*ipsius
+  sponsus et dilectus*), and our own next paragraph renders the following *dicit* as
+  "he means". The subject does shift to the bride at *comparavit* — *dilectus **meus***
+  is hers — but that shift is the author's and belongs to the second verb only. → "does
+  he say".
+- **@1095D — *contra* smoothed.** *Contra Damascum ergo est haec turris: quia … semper
+  … resistit* rendered "is **toward** Damascus", so our own "because … always resists"
+  no longer followed. → "is **against** Damascus". **The lemma at 7:4 keeps "which looks
+  toward Damascus"** — *respicit contra* is idiomatic facing; the author's gloss exploits
+  the adversative sense, and flattening the two would destroy the point he is making.
+
+## Controls — both found blind
+
+- **@1069B was NOT named in any prompt** and u2 found it anyway: the dropped first *nec*
+  in *quae circumcisione mundata, nec adhuc baptismo sanctificata*, which leaves the
+  Church of the Gentiles cleansed by circumcision against this work's own argument.
+- **@1082D** (u3) was the one declared control and was found from the *libero* /
+  *occupationibus* contradiction on the reading itself, before any cruces file was opened.
+- **@1097A** (singular *statura*, plural *assimilantur*) was unannounced and u4 confirmed
+  it had been carried correctly rather than reporting it as a defect — the right result.
+
+## Source-side, rendered literally (new, previously unlogged)
+**@1082C** ×2 — *nunquam* where the lemma *Lavi pedes meos, quomodo inquinabo illos?*
+requires *quondam*; and *exui* for *exuta*, which makes the Church fear both the
+stripping she boasts of and the reclothing. **@1084A** — a dropped *non* against 1083C's
+*nemo eum in praesenti vita, sicuti est, comprehendere potest*.
+
+## A structural gap worth naming
+The per-batch negation audits in this file cover chunks 0007–0012 only; **0013–0017 had
+no negation audit at all**, and that is exactly where three of the new source-side
+findings sit. A per-batch audit is not a work-wide one.

@@ -1,0 +1,42 @@
+{"agent":"7914-u2","idno":"7914","chunks":"0006-0011","chunksRead":6,
+ "findings":[
+  {"chunk":"0006","column":"1069B","side":"migne",
+   "printedLatin":"Quanta laude et admiratione digna, quae circumcisione mundata, nec adhuc baptismo sanctificata jam currit ad Deum?",
+   "englishAsRendered":"How worthy of praise and admiration, who, cleansed by circumcision, and not yet sanctified by baptism, already runs to God?",
+   "defectType":"dropped-non",
+   "conjecture":"quae NEC circumcisione mundata, nec adhuc baptismo sanctificata jam currit ad Deum — the first member of the correlative nec…nec pair has dropped, so the plate asserts the Gentile Church WAS cleansed by circumcision. Read with the first nec: 'who, neither cleansed by circumcision nor yet sanctified by baptism, already runs to God' — the marvel the daughters of Jerusalem express.",
+   "whyContradiction":"The subject is fixed two lines above: 'Vox filiarum Jerusalem, id est sanctorum primitivae Ecclesiae, admirantium pulchritudinem Ecclesiae DE GENTIBUS congregatae.' A Church gathered from the Gentiles is by definition uncircumcised, and the author has just drawn the very distinction he would be collapsing: 'una enim eademque cura est Deo de sanctis, qui vel IN CIRCUMCISIONE, vel etiam tempore baptismatis … illi placuerunt' (1068D), where circumcision belongs to the OTHER Church, 'Ecclesiam primitivam de Judaeis collectam.' The whole verse then figures her as still on the way — 'ascendit per desertum,' out of Egypt but not yet in the land of promise — i.e. cleansed by neither rite, and running to God all the same. Our English renders the printed reading literally, which is correct; the defect is in the source.",
+   "confidence":"high"},
+
+  {"chunk":"0010","column":"1079C","side":"ours",
+   "printedLatin":"audientes ab Apostolo: *Pacem sectamini cum omnibus, et castimoniam, sine qua nemo videbit Deum* [n: (Hebr. XII, 14)]",
+   "englishAsRendered":"hearing from the Apostle: *Follow peace with all men, and holiness, without which no man shall see God*",
+   "defectType":"lemma-conformed",
+   "conjecture":"Migne prints *castimoniam* — 'chastity'. The Vulgate reads *sanctimoniam*, and Douay 'holiness'; our English silently supplies the familiar Vulgate word. It should read 'and chastity, without which no man shall see God,' with the divergence from the Vulgate noted.",
+   "whyContradiction":"The contradicting neighbour is in the same sentence-pair: the gloss adduces this quotation precisely to prove *castimonia*, and our own English translates the word correctly nine words earlier — 'Per has ergo arbores designatur carnis continentia et CASTIMONIA' = 'By these trees is designated the continence and CHASTITY of the flesh.' The proof text is then made to say 'holiness,' so on our page the Apostle no longer supplies the term the argument rests on, and the same Latin word is rendered two different ways within one paragraph. The surrounding exegesis (myrrh and aloes preserving from putrefaction, *putredo luxuriam solet designare*) is about sexual continence throughout.",
+   "confidence":"high"},
+
+  {"chunk":"0008","column":"1074D","side":"migne",
+   "printedLatin":"Et apte *duo ubera,* sicut duo hinnuli gemelli capreas esse dicuntur, qui videlicet fetus sunt et filii Salvatoris nostri Jesu Christi qui superius per capreas designatus est",
+   "englishAsRendered":"And fitly the *two breasts*, just as two twin fawns are said to be roes, who namely are the offspring and sons of our Savior Jesus Christ, who above was designated by the roes",
+   "defectType":"reference-misbound",
+   "conjecture":"*capreae* (genitive, as in the lemma *duo hinnuli capreae gemelli*) for printed *capreas*: 'as two twin fawns are said to be OF A ROE.'",
+   "whyContradiction":"The printed accusative makes the fawns identical with the roe; the relative clause immediately following denies it — 'qui videlicet fetus sunt et filii Salvatoris nostri Jesu Christi QUI SUPERIUS PER CAPREAS DESIGNATUS EST': the fawns are the offspring and sons of the one who is the roe, not roes themselves. The lemma four lines above prints the genitive, *duo hinnuli capreae gemelli*, which our English itself renders 'two twin fawns of a roe.' Our rendering follows the printed accusative literally, which is right; the reading is the source's.",
+   "confidence":"low"},
+
+  {"chunk":"0007","column":"1071D","side":"ours",
+   "printedLatin":"De hoc diademate Apostolus ait: *Vidimus Jesum per passionem gloria et honore coronatum* [n: (Hebr. II, 9)]",
+   "englishAsRendered":"Of this diadem the Apostle says: *We see Jesus crowned with glory and honor through his passion*",
+   "defectType":"lemma-conformed",
+   "conjecture":"*Vidimus* is perfect: 'We have seen Jesus crowned…'. The present 'We see' is the Vulgate/Douay wording (*videmus Iesum*), quietly restored over the printed perfect.",
+   "whyContradiction":"Not a reversal of sense, but the mechanism the brief names as highest-risk here: where Migne's printed Latin departs from the familiar Vulgate, the English must depart too, and here the one letter that marks the departure is the only thing the reader could have noticed. Flagged low precisely because the sense is unaffected.",
+   "confidence":"low"},
+
+  {"chunk":"0010","column":"1079B","side":"ours",
+   "printedLatin":"dicentes cum Abraham: *Loquar ad Dominum meum quamvis sim cinis et pulvis* [n: (Gen. XVIII, 27)]",
+   "englishAsRendered":"saying with Abraham: *I will speak to my Lord, although I am dust and ashes*",
+   "defectType":"lemma-conformed",
+   "conjecture":"Migne prints *cinis et pulvis* — 'ashes and dust', the reverse of the Vulgate's *cum sim pulvis et cinis*. Our English restores the familiar Douay order 'dust and ashes'.",
+   "whyContradiction":"Again no reversal of sense, but a silent conformation of a printed lemma to the remembered English, and the printed order is not accidental: the gloss it serves is about *cinericeum colorem*, the ash colour of cinnamon, so *cinis* standing first is the word the exposition is reaching for. Low confidence because the difference is order only.",
+   "confidence":"low"}
+ ]}

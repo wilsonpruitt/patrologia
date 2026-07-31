@@ -360,6 +360,47 @@ meets *bonorem* in italics learns something true about Migne's plate, and the
 conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
 no exceptions.
 
+#### 7a″. The lemma quietly conformed — the dominant failure in SCRIPTURE COMMENTARY
+
+Measured, 2026-07-30. The blind polarity read of 7914 (ps.-Cassiodorus on the Song
+of Songs, a verse-by-verse commentary) returned **seven defects on our side, and not
+one was a dropped negation**: five were lemmata conformed to familiar English and two
+were mis-bound references. The same day's read of 11065, a homily collection, produced
+the opposite profile — negations and scope errors, no conformations. **The genre
+predicts the failure mode, and prompts should say so.**
+
+The mechanism: a commentary quotes a verse and then expounds *the words it quoted*.
+The translator meets a verse he knows, and the remembered English arrives before the
+printed Latin is read. Nothing looks wrong afterwards — the sentence is smooth, the
+citation is right, `verify-english` passes — but **the exposition now rests on a word
+that is no longer on the page.**
+
+Worked cases, all found blind and all fixed:
+- **7914 @1079C** — Migne prints Heb 12:14 as *et **castimoniam**, sine qua nemo
+  videbit Deum*; our English gave the Vulgate's "holiness" (*sanctimoniam*). Nine
+  words earlier our own English rendered *castimonia* correctly as "chastity", and
+  the proof-text is adduced **precisely for chastity of the flesh**. The argument's
+  keyword had vanished from its own proof-text.
+- **7914 @1094A** — Heb 11:10 printed *Exspectabat enim **manentem** civitatem*; our
+  English gave "a city that hath **foundations**" (*fundamenta habentem*), importing
+  a word the printed text does not contain at all.
+- **7914 @1103A** — Matt 7:25 printed *fuit enim **aedificata** supra petram*; our
+  English gave "**founded**" (*fundata*), six words after correctly rendering
+  *aedificavit* as "built".
+- **7914 @1071D** *Vidimus* → "We see" (Vulgate present restored over Migne's
+  perfect) · **@1079B** *cinis et pulvis* → "dust and ashes", reversing the printed
+  order in a gloss that turns on ashes (*cinericeum colorem*).
+
+**How to catch it.** For every scripture lemma, read the printed Latin word by word
+against the English *before* trusting either. The tell is a familiar cadence: if the
+English sounds like the verse you already know, that is the moment to check the plate,
+not the moment to relax. Where Migne's wording diverges, the English must diverge too,
+and the divergence gets a `[var: …]` (Pattern 14) when it is material.
+
+**Never conform a lemma to make it recognizable.** Recognizability is precisely the
+loss: the reader who spots the familiar verse learns nothing, while the reader who
+meets *castimoniam* learns what this author was actually arguing from.
+
 #### 7a′. A crux that DESCRIBES a repair does not make the repair honest
 
 Worked case, found 2026-07-30 by a blind polarity read — the subtlest instance of
