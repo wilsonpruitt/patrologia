@@ -1,0 +1,17 @@
+{"agent":"7914-u4","idno":"7914","chunks":"0018-0022","chunksRead":5,
+ "findings":[
+  {"chunk":"0020","column":"1102A","side":"ours",
+   "printedLatin":"Sed ita miranti respondet Synagogae ipsius sponsus et dilectus quod sequitur. *Sub arbore malo suscitavi te.* … Et bene arborem mali dicit; nam et supra dilectum huic arbori Christum comparavit, dicens: *Sicut malum inter ligna silvarum, sic dilectus meus inter filios.*",
+   "englishAsRendered":"But to the Synagogue thus marvelling her own bridegroom and beloved answers what follows. *Under the apple tree I raised thee up.* … And fittingly does she say the apple tree; for above also she compared her beloved Christ to this tree, saying: *As the apple tree among the trees of the woods, so is my beloved among the sons.*",
+   "defectType":"reference-misbound",
+   "conjecture":"*dicit* here glosses the word-choice of the lemma *Sub arbore malo suscitavi te*, whose speaker the author has just named as the bridegroom; render 'And fittingly does he say the apple tree' (the shift of subject to the bride at *comparavit*, whose quoted words are hers, is the author's own).",
+   "whyContradiction":"Its own immediate neighbour two sentences earlier: *ipsius sponsus et dilectus* — 'her own bridegroom and beloved answers what follows' — and the next chunk resumes the same speech as masculine, 'Quia (inquit) sub arbore malo suscitavi te' rendered 'Because, he says'. The English also renders the very next *dicit* (1102A, 'Matrem et genitricem Synagogae … dicit') as 'he means', so the page attributes one continuous speech to two different speakers.",
+   "confidence":"medium"},
+  {"chunk":"0021","column":"1103A","side":"ours",
+   "printedLatin":"de viro qui **aedificavit** domum suam supra petram: *Venerunt flumina, flaverunt venti, et impegerunt in domum illam, et non cecidit; fuit enim **aedificata** supra petram*",
+   "englishAsRendered":"concerning the man who **built** his house upon a rock: *The floods came, the winds blew, and they beat upon that house, and it fell not; for it was **founded** upon a rock*",
+   "defectType":"lemma-conformed",
+   "conjecture":"Migne prints *aedificata*, not the Vulgate's *fundata* (Matt. VII, 25 reads 'fundata enim erat supra petram'). Render 'for it was built upon a rock', keeping the printed divergence visible.",
+   "whyContradiction":"The same verb-stem in the same sentence, six words earlier, is rendered 'built' (*aedificavit* → 'built'); and the English reserves 'founded' for *fundata* elsewhere in the unit (1104A, 'ego super firmam petram fundata sum' → 'I am founded upon the firm rock'). The reader therefore cannot see that Migne's citation departs from the Vulgate here, which is the one thing a lemma rendering must not hide.",
+   "confidence":"low"}
+ ]}

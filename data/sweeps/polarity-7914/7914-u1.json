@@ -1,0 +1,11 @@
+{"agent":"7914-u1","idno":"7914","chunks":"0000-0005","chunksRead":6,
+ "findings":[
+  {"chunk":"0003","column":"1062B","side":"migne",
+   "printedLatin":"Videns sponsam suam ad requiem festinare, et labores aeternos fugere, ac per quietem praesentis temporis ad aeternam beatitudinem tendere, monet eam tali comparatione et praedicatione, ut norit se per pressuras et labores hujus saeculi illuc pervenire debere.",
+   "englishAsRendered":"Seeing his bride hasten to rest and flee eternal labours, and through the quiet of the present time strive toward eternal blessedness, he admonishes her by such a comparison and declaration, that she may know she must come thither through the afflictions and labours of this world.",
+   "defectType":"opposite-word",
+   "conjecture":"labores TEMPORALES (or externos) fugere — the labours she flees are the labours of this present world, not eternal ones; aeternos looks caught from the aeternam beatitudinem three words later.",
+   "whyContradiction":"The correcting clause in the same sentence names the labours at issue as temporal: 'ut norit se per pressuras et LABORES HUJUS SAECULI illuc pervenire debere.' What she wrongly flees must be the same labours he tells her she must pass through; 'labores aeternos' also makes her fault the avoidance of something no one is asked to embrace, and collides with the sentence's own contrast, present quiet (quietem praesentis temporis) vs. eternal beatitude.",
+   "confidence":"low"}
+ ],
+ "reconciliation":"Findings formed blind, then checked against src/english/7914/cruces.md. The single finding is ALREADY LOGGED there as crux 6 (`labores aeternos`, 0003 col. 1062B), with the same contradiction argument and a better conjecture (*externos*, 'outward labours', matching 1065A *de secreto quietis egredere ad publicam actionem*). NEW findings from this unit: zero. Independently examined and rejected candidates that the cruces file also logs: crux 9 (`qui sodales Christi sunt`), crux 8 (`sexcenta et sex millia`), crux 10 (`Aemulantur vos non bene`), crux 1 (`disperi`), crux 2 (`il est`). 7a′ applied to both `[sic:]` markers in this unit (0001 `disperi`, 0004 `il est`): neither carries a negation, particle or conjunction governing translated text, so no marker-hidden repair."}
