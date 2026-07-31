@@ -43,9 +43,13 @@ English.** Song of Songs alone has **33** (7 English); Psalms 28; Apocalypse and
   as commentaries.
 - Canonical book order extracted to `scripts/lib/bible-books.mjs`, shared with
   `build-scripture-index.mjs`; refactor **proven byte-neutral**.
-- Open (Wilson): whether multi-book works should ALSO decompose into their members —
-  currently a Pauline commentary appears only under the group, so a reader on Romans
-  does not see it.
+- ✅ **RULED (Wilson, 2026-07-30): a multi-book work goes in its AREA of the Bible,
+  immediately before its first member — NOT decomposed, NOT in an appendix.** Pauline
+  collections before Romans, Kings/Samuel before I Kings, gospel harmonies before
+  Matthew. So the page reads in canonical order the whole way down and a reader going
+  to Romans passes the whole-corpus commentaries on the way in. Implemented as an
+  anchor book per group + `rankOf()` (anchor rank − ½) in `lib/bible-books.mjs`;
+  groups render with `.cm-group`. Commit `512fece`. Nothing open here.
 
 ## 2026-07-30 (eleventh, Opus) — PUSHED + DEPLOYED; Song-of-Songs question RULED; 11065 launched
 
