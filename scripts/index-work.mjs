@@ -60,7 +60,7 @@ const BOOKS = {
   'I Mach': '1Macc', 'II Mach': '2Macc', 'I Machab': '1Macc', 'II Machab': '2Macc',
   'Matth': 'Matt', 'Math': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John', 'Act': 'Acts',
   'Rom': 'Rom', 'I Cor': '1Cor', 'II Cor': '2Cor', 'Galat': 'Gal', 'Gal': 'Gal',
-  'Ephes': 'Eph', 'Philipp': 'Phil', 'Philip': 'Phil', 'Coloss': 'Col', 'Col': 'Col', 'Colos': 'Col',
+  'Ephes': 'Eph', 'Eph': 'Eph', 'Philipp': 'Phil', 'Philip': 'Phil', 'Coloss': 'Col', 'Col': 'Col', 'Colos': 'Col',
   // Bare 'Phil.' = Philippians, not Philemon: Migne consistently prints 'Philem.' for Philemon
   // (8715/1170a, Optabam dissolvi = Phil. 1:23, confirmed against the quoted Latin).
   'Phil': 'Phil',

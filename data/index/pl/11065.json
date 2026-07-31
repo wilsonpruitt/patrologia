@@ -1,0 +1,975 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 6025,
+  "textIdno": 11065,
+  "title": "Homiliae in Ecclesiasten",
+  "authors": [
+    "Hugo de S. Victore"
+  ],
+  "authorsDisplay": [
+    "Hugh of Saint Victor"
+  ],
+  "series": "pl",
+  "volume": 175,
+  "colFirst": "113c",
+  "colLast": "256c",
+  "counts": {
+    "scripture": 121,
+    "fontes": 3,
+    "heads": 21,
+    "headnotes": 7,
+    "unparsed": 1
+  },
+  "scripture": [
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "119d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.48",
+      "refDisplay": "Psal. XLVIII",
+      "column": "119d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Num.24",
+      "refDisplay": "Num. XXIV",
+      "column": "122c",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.21",
+      "refDisplay": "Joan. XXI",
+      "column": "122c",
+      "chunk": 3
+    },
+    {
+      "refKey": "2Cor.12",
+      "refDisplay": "II Cor. XII",
+      "column": "122c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "Psal. XXXVIII",
+      "column": "123b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Gen.1",
+      "refDisplay": "Gen. I",
+      "column": "124c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "Psal. XXXVIII",
+      "column": "125c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "125c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "125d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Ibid.",
+      "antecedent": "Matth. VI",
+      "antecedentColumn": "125d",
+      "ibidResolved": true,
+      "column": "125d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Jas.5",
+      "refDisplay": "Jac. V",
+      "column": "125d",
+      "chunk": 4
+    },
+    {
+      "refKey": "2Tim.2",
+      "refDisplay": "II Tim. II",
+      "column": "125d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.4",
+      "refDisplay": "Psal. IV.",
+      "column": "125d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.127",
+      "refDisplay": "Psal. CXXVII",
+      "column": "125d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.93",
+      "refDisplay": "Psal. XCIII",
+      "column": "127a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.103",
+      "refDisplay": "Psal. CIII",
+      "column": "128a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Gen.8",
+      "refDisplay": "Gen. VIII",
+      "column": "128a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "Psal. XXXVIII",
+      "column": "130c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "131c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Gen.4",
+      "refDisplay": "Gen. IV",
+      "column": "131c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III.",
+      "column": "131c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.103",
+      "refDisplay": "Psal. CIII",
+      "column": "138c",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.91",
+      "refDisplay": "Psal. XCI",
+      "column": "138d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.11",
+      "refDisplay": "Psal. XI",
+      "column": "139a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.139",
+      "refDisplay": "Psal. CXXXIX",
+      "column": "139a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.82",
+      "refDisplay": "Psal. LXXXII",
+      "column": "139a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Job.1",
+      "refDisplay": "Job I",
+      "column": "139a",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Pet.5",
+      "refDisplay": "I Petr. V",
+      "column": "139a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.27",
+      "refDisplay": "Psal. XXVII",
+      "column": "139b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "139b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Isa.26",
+      "refDisplay": "Isai. XXVI",
+      "column": "139b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Wis.5",
+      "refDisplay": "Sap. V",
+      "column": "139b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Jer.2",
+      "refDisplay": "Jer. II",
+      "column": "143c",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "147a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Matt.13",
+      "refDisplay": "Matth. XIII",
+      "column": "149d",
+      "chunk": 13
+    },
+    {
+      "refKey": "Matt.8",
+      "refDisplay": "Matth. VIII",
+      "column": "151b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Gen.4",
+      "refDisplay": "Gen. IV",
+      "column": "156d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "157c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI.",
+      "column": "158a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "158b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "Eccle. I",
+      "antecedentColumn": "158b",
+      "ibidResolved": true,
+      "column": "158b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Isa.5",
+      "refDisplay": "Isa. V",
+      "column": "159c",
+      "chunk": 18
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "165d",
+      "chunk": 21
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "166d",
+      "chunk": 21
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III.",
+      "column": "167b",
+      "chunk": 21
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "ibid.",
+      "antecedent": "Gen. III.",
+      "antecedentColumn": "167b",
+      "ibidResolved": true,
+      "column": "167d",
+      "chunk": 21
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "ibid.",
+      "antecedent": "Gen. III.",
+      "antecedentColumn": "167b",
+      "ibidResolved": true,
+      "column": "168b",
+      "chunk": 21
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "168c",
+      "chunk": 21
+    },
+    {
+      "refKey": "Hag.1",
+      "refDisplay": "Agg. I",
+      "column": "169a",
+      "chunk": 21
+    },
+    {
+      "refKey": "Luke.16",
+      "refDisplay": "Luc. XVI",
+      "column": "172a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Rom.10",
+      "refDisplay": "Rom. X",
+      "column": "174b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Exod.3",
+      "refDisplay": "Exod. III",
+      "column": "175a",
+      "chunk": 24
+    },
+    {
+      "refKey": "Gen.32",
+      "refDisplay": "Gen. XXXII",
+      "column": "176d",
+      "chunk": 24
+    },
+    {
+      "refKey": "Matt.13",
+      "refDisplay": "Matth. XIII",
+      "column": "177a",
+      "chunk": 24
+    },
+    {
+      "refKey": "Sir.24",
+      "refDisplay": "Eccli. XXIV",
+      "column": "179c",
+      "chunk": 25
+    },
+    {
+      "refKey": "Ps.58",
+      "refDisplay": "Psal. LVIII.",
+      "column": "180c",
+      "chunk": 25
+    },
+    {
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI.",
+      "column": "180c",
+      "chunk": 25
+    },
+    {
+      "refKey": "2Cor.4",
+      "refDisplay": "II Cor. IV.",
+      "column": "180c",
+      "chunk": 25
+    },
+    {
+      "refKey": "1Pet.2",
+      "refDisplay": "I Petr. II",
+      "column": "181b",
+      "chunk": 25
+    },
+    {
+      "refKey": "Sir.24",
+      "refDisplay": "Eccli. XXIV",
+      "column": "182c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Wis.8",
+      "refDisplay": "Sap. VIII",
+      "column": "182c",
+      "chunk": 26
+    },
+    {
+      "refKey": "1Kgs.10",
+      "refDisplay": "III Reg. X",
+      "column": "182d",
+      "chunk": 26
+    },
+    {
+      "refKey": "Wis.8",
+      "refDisplay": "Sap. VIII",
+      "column": "183b",
+      "chunk": 27
+    },
+    {
+      "refKey": "Ps.138",
+      "refDisplay": "Psal. CXXXVIII",
+      "column": "183c",
+      "chunk": 27
+    },
+    {
+      "refKey": "2Cor.12",
+      "refDisplay": "II Cor. XII",
+      "column": "184c",
+      "chunk": 27
+    },
+    {
+      "refKey": "Ps.106",
+      "refDisplay": "Psal. CVI",
+      "column": "187a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Galat. V",
+      "column": "192b",
+      "chunk": 30
+    },
+    {
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I",
+      "column": "192c",
+      "chunk": 30
+    },
+    {
+      "refKey": "Ps.7",
+      "refDisplay": "Psal. VII",
+      "column": "192c",
+      "chunk": 30
+    },
+    {
+      "refKey": "Sir.7",
+      "refDisplay": "Eccli. VII",
+      "column": "193a",
+      "chunk": 30
+    },
+    {
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I",
+      "column": "193c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Matt.24",
+      "refDisplay": "Matth. XXIV",
+      "column": "193c",
+      "chunk": 31
+    },
+    {
+      "refKey": "1Cor.11",
+      "refDisplay": "I Cor. XI",
+      "column": "194d",
+      "chunk": 31
+    },
+    {
+      "refKey": "Song.5",
+      "refDisplay": "Cant. V",
+      "column": "194d",
+      "chunk": 31
+    },
+    {
+      "refKey": "1Cor.11",
+      "refDisplay": "I Cor. XI",
+      "column": "195a",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.20",
+      "refDisplay": "Joan. XX",
+      "column": "195a",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "195b",
+      "chunk": 31
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "Coloss. III",
+      "column": "195b",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "195d",
+      "chunk": 31
+    },
+    {
+      "refKey": "Ps.48",
+      "refDisplay": "Psal. XLVIII",
+      "column": "195d",
+      "chunk": 31
+    },
+    {
+      "refKey": "Isa.5",
+      "refDisplay": "Isa. V",
+      "column": "202a",
+      "chunk": 33
+    },
+    {
+      "refKey": "Ps.51",
+      "refDisplay": "Psal. LI.",
+      "column": "202c",
+      "chunk": 33
+    },
+    {
+      "refKey": "Sir.39",
+      "refDisplay": "Eccli. XXXIX",
+      "column": "202d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.84",
+      "refDisplay": "Psal. LXXXIV.",
+      "column": "202d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII.",
+      "column": "202d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.35",
+      "refDisplay": "Psal. XXXV.",
+      "column": "202d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V.",
+      "column": "202d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Sir.27",
+      "refDisplay": "Eccli. XXVII.",
+      "column": "202d",
+      "chunk": 34
+    },
+    {
+      "refKey": "2Tim.3",
+      "refDisplay": "II Tim. III",
+      "column": "203a",
+      "chunk": 34
+    },
+    {
+      "refKey": "Heb.11",
+      "refDisplay": "Hebr. XI",
+      "column": "203a",
+      "chunk": 34
+    },
+    {
+      "refKey": "2Cor.11",
+      "refDisplay": "II Cor. XI.",
+      "column": "203a",
+      "chunk": 34
+    },
+    {
+      "refKey": "Eccl.7",
+      "refDisplay": "Eccle. VII",
+      "column": "203c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Prov.2",
+      "refDisplay": "Prov. II",
+      "column": "203c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.20",
+      "refDisplay": "Psal. XX",
+      "column": "203d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
+      "column": "203d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.105",
+      "refDisplay": "Psal. CV",
+      "column": "203d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "Psal. XV",
+      "column": "203d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "204b",
+      "chunk": 34
+    },
+    {
+      "refKey": "Job.2",
+      "refDisplay": "Job II",
+      "column": "207b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Job.2",
+      "refDisplay": "Ibid.",
+      "antecedent": "Job II",
+      "antecedentColumn": "207b",
+      "ibidResolved": true,
+      "column": "207b",
+      "chunk": 35
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "210a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.24",
+      "refDisplay": "Psal. XXIV",
+      "column": "210a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.35",
+      "refDisplay": "Psal. XXXV",
+      "column": "210a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.144",
+      "refDisplay": "Psal. CXLIV",
+      "column": "210a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.84",
+      "refDisplay": "Psal. LXXXIV",
+      "column": "210b",
+      "chunk": 37
+    },
+    {
+      "refKey": "1Pet.4",
+      "refDisplay": "I Petr. IV",
+      "column": "219b",
+      "chunk": 40
+    },
+    {
+      "refKey": "Lam.4",
+      "refDisplay": "Thren. IV",
+      "column": "219c",
+      "chunk": 40
+    },
+    {
+      "refKey": "Isa.54",
+      "refDisplay": "Isa. LIV",
+      "column": "219c",
+      "chunk": 40
+    },
+    {
+      "refKey": "Rev.22",
+      "refDisplay": "Apoc. XXII",
+      "column": "234a",
+      "chunk": 45
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
+      "column": "234c",
+      "chunk": 45
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "235a",
+      "chunk": 45
+    },
+    {
+      "refKey": "Rom.13",
+      "refDisplay": "Rom. XIII",
+      "column": "235a",
+      "chunk": 45
+    },
+    {
+      "refKey": "Eph.6",
+      "refDisplay": "Eph. VI",
+      "column": "235b",
+      "chunk": 45
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "235c",
+      "chunk": 45
+    },
+    {
+      "refKey": "1Cor.9",
+      "refDisplay": "I Cor. IX",
+      "column": "235c",
+      "chunk": 45
+    },
+    {
+      "refKey": "Ps.63",
+      "refDisplay": "Psal. LXIII",
+      "column": "239c",
+      "chunk": 47
+    },
+    {
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V",
+      "column": "239c",
+      "chunk": 47
+    },
+    {
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "241b",
+      "chunk": 47
+    },
+    {
+      "refKey": "Eccl.4",
+      "refDisplay": "Eccles. IV",
+      "column": "252d",
+      "chunk": 51
+    },
+    {
+      "refKey": "1Kgs.17",
+      "refDisplay": "III Reg. XVII",
+      "column": "255b",
+      "chunk": 52
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ECCLE. I.",
+      "column": "115c",
+      "chunk": 1
+    },
+    {
+      "raw": "ECCLES. II.",
+      "column": "164c",
+      "chunk": 20
+    },
+    {
+      "raw": "ECCLE. V.",
+      "column": "206a",
+      "chunk": 35
+    }
+  ],
+  "heads": [
+    {
+      "la": "QUARUM HAEC SUNT ARGUMENTA:",
+      "column": "113c",
+      "chunk": 0,
+      "en": "OF WHICH THESE ARE THE ARGUMENTS:"
+    },
+    {
+      "la": "PRAEFATIO. De varia sacrae Scripturae expositione, et de Salomonis intentione.",
+      "column": "113c",
+      "chunk": 0,
+      "en": "PREFACE. On the varied exposition of Holy Scripture, and on Solomon's intention."
+    },
+    {
+      "la": "HOMILIA PRIMA. De titulo operis, Salomonis nominibus, et libris, et principiis hujus operis, de vanitatum explanatione.",
+      "column": "115c",
+      "chunk": 1,
+      "en": "HOMILY THE FIRST. On the title of the work, on Solomon's names, and books, and on the beginnings of this work, on the explanation of the vanities."
+    },
+    {
+      "la": "HOMILIA II. De probatione vanitatis omnium sub coelo: per elementorum corruptionem, per rerum generationem, successionem, et eorum, quae fuerunt oblivionem.",
+      "column": "133b",
+      "chunk": 7,
+      "en": "HOMILY II. On the proof of the vanity of all things under heaven: through the corruption of the elements, through the generation of things, the succession, and the forgetting of those things which have been."
+    },
+    {
+      "la": "HOMILIA III. Quomodo Ecclesiastes probet per sua opera omnia hominum opera vana, cum praedictorum epilogo.",
+      "column": "149d",
+      "chunk": 13,
+      "en": "HOMILY III. How Ecclesiastes proves through his own works that all the works of men are vain, with an epilogue of the things aforesaid."
+    },
+    {
+      "la": "HOMILIA IV. De rerum vanitate, et hominum occupatione pessima.",
+      "column": "151c",
+      "chunk": 14,
+      "en": "HOMILY IV. On the vanity of things, and the worst occupation of men."
+    },
+    {
+      "la": "HOMILIA V. De dictorum verborum Ecclesiastae litterali et morali expositione.",
+      "column": "153c",
+      "chunk": 15,
+      "en": "HOMILY V. On the literal and moral exposition of the words of Ecclesiastes already spoken."
+    },
+    {
+      "la": "HOMILIA VI. Quid sit distendi in occupatione pessima.",
+      "column": "157c",
+      "chunk": 17,
+      "en": "HOMILY VI. What it is to be distended in the worst occupation."
+    },
+    {
+      "la": "HOMILIA VII. Quod perversi difficile corrigantur, etc.",
+      "column": "159b",
+      "chunk": 18,
+      "en": "HOMILY VII. That the perverse are corrected with difficulty, etc."
+    },
+    {
+      "la": "HOMILIA VIII. Quod homo a veritate aufugit: ut Adam in paradiso fugit, et abscondit se.",
+      "column": "164c",
+      "chunk": 20,
+      "en": "HOMILY VIII. That man flees away from the truth: as Adam in paradise fled, and hid himself."
+    },
+    {
+      "la": "HOMILIA IX. De diversis vanis Ecclesiastae conatibus.",
+      "column": "169d",
+      "chunk": 22,
+      "en": "HOMILY IX. On the various vain endeavors of Ecclesiastes."
+    },
+    {
+      "la": "HOMILIA X. De reliquis vanitatibus usque in eum locum: « Stultus in tenebris ambulat. »",
+      "column": "172b",
+      "chunk": 23,
+      "en": "HOMILY X. On the remaining vanities, as far as that place: « The fool walketh in darkness. »"
+    },
+    {
+      "la": "HOMILIA XI. Qui sint fines terrae in quibus sunt oculi stultorum: et quomodo sapientia attingit a fine usque ad finem fortiter, etc.",
+      "column": "182d",
+      "chunk": 27,
+      "en": "HOMILY XI. What the ends of the earth are in which the eyes of fools are: and how wisdom reacheth from end to end mightily, etc."
+    },
+    {
+      "la": "HOMILIA XII. In illud, secundum aliam translationem: Oculi stultorum in finibus terrae; ubi nostra habet: Stultus in tenebris ambulat, et in reliqua capitis secundi.",
+      "column": "190b",
+      "chunk": 30,
+      "en": "HOMILY XII. On that passage, according to another translation: The eyes of fools are in the ends of the earth; where our copy has: The fool walketh in darkness, and on the remainder of the second chapter."
+    },
+    {
+      "la": "HOMILIA XIII. Quomodo omnia tempus suum habeant.",
+      "column": "204d",
+      "chunk": 35,
+      "en": "HOMILY XIII. How all things have their own time."
+    },
+    {
+      "la": "HOMILIA XIV. Reliquorum quae tempus suum habent declaratio et dictorum repetitio.",
+      "column": "215a",
+      "chunk": 39,
+      "en": "HOMILY XIV. A declaration of the remaining things that have their own time, and a repetition of what has been said."
+    },
+    {
+      "la": "HOMILIA XV. De tempore et tempori subjectis per aliam interpretationem.",
+      "column": "219d",
+      "chunk": 41,
+      "en": "HOMILY XV. On time and on the things subject to time, according to another interpretation."
+    },
+    {
+      "la": "HOMILIA XVI. De spirituali intelligentia eorum quae de tempore dicta sunt.",
+      "column": "225d",
+      "chunk": 43,
+      "en": "HOMILY XVI. On the spiritual understanding of those things which have been said concerning time."
+    },
+    {
+      "la": "HOMILIA XVII. De animorum confusione ex temporum transitu.",
+      "column": "236c",
+      "chunk": 46,
+      "en": "HOMILY XVII. On the confusion of minds arising from the passing of times."
+    },
+    {
+      "la": "HOMILIA XVIII. De perversis hominum moribus: et quid ex eis censuerit Ecclesiastes.",
+      "column": "243d",
+      "chunk": 49,
+      "en": "HOMILY XVIII. On the perverse morals of men: and what Ecclesiastes judged concerning them."
+    },
+    {
+      "la": "HOMILIA XIX. De innocentium oppressione, et derelictione: et vario ac stulto impiorum de hac vita judicio.",
+      "column": "252d",
+      "chunk": 52,
+      "en": "HOMILY XIX. On the oppression and abandonment of the innocent: and on the various and foolish judgment of the impious concerning this life."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "…tur,* etc. *Hom. VII.* - *Quod homo a veritate aufugit: ut Adam in paradiso fugit, et abscondit se. Hom. VIII.* - *De diversis Ecclesiastae vanis conatibus. Hom. IX.* - *De reliquis usque in eum locum",
+      "en": "…*That man flees away from the truth: as Adam fled in paradise, and hid himself. Hom. VIII.* - *On the various vain endeavors of Ecclesiastes. Hom. IX.* - *On the remaining matters as far as that place",
+      "column": "113c",
+      "chunk": 0
+    },
+    {
+      "la": "Hom. X.* - *Quomodo sapientia attigit a fine usque ad finem fortiter,* etc. *Hom. XI.* - *In illud secundum aliam translationem,",
+      "en": "Hom. X.* - *How wisdom reacheth from end to end mightily,* etc. *Hom. XI.* - *On that passage according to another translation,",
+      "column": "113c",
+      "chunk": 0
+    },
+    {
+      "la": "ubi nostra habet",
+      "en": "where our copy has",
+      "column": "113c",
+      "chunk": 0
+    },
+    {
+      "la": "HOMILIA X. *De reliquis vanitatibus usque in eum locum",
+      "en": "HOMILY X. *On the remaining vanities, as far as that place",
+      "column": "172b",
+      "chunk": 23
+    },
+    {
+      "la": "HOMILIA X. *De reliquis vanitatibus usque in eum locum",
+      "en": "HOMILY X. *On the remaining vanities, as far as that place",
+      "column": "174a",
+      "chunk": 24
+    },
+    {
+      "la": "HOMILIA X. *De reliquis vanitatibus usque in eum locum",
+      "en": "HOMILY X. *On the remaining vanities, as far as that place",
+      "column": "178c",
+      "chunk": 25
+    },
+    {
+      "la": "HOMILIA X. *De reliquis vanitatibus usque in eum locum",
+      "en": "HOMILY X. *On the remaining vanities, as far as that place",
+      "column": "182a",
+      "chunk": 26
+    }
+  ],
+  "unparsed": [
+    {
+      "raw": "(Aeneid. VI, 688.)",
+      "reason": "unknown-book",
+      "column": "136d",
+      "chunk": 8
+    }
+  ],
+  "proseNotes": [
+    {
+      "raw": "(Subauditur praeter vanitatem.)",
+      "column": "126c",
+      "chunk": 4
+    },
+    {
+      "raw": "(subauditur praeter vanitatem.)",
+      "column": "129c",
+      "chunk": 5
+    }
+  ]
+}
