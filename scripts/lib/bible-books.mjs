@@ -39,17 +39,34 @@ export const BOOK_ORDER = new Map(BOOKS.map(([k], i) => [k, i]));
 export const BOOK_NAME = new Map(BOOKS);
 
 // GROUPS are keys the commentary map uses that are NOT single OSIS books: a work
-// may expound a whole collection (the four gospels, the Pauline corpus, the twelve
-// prophets) and Migne prints it as one work. They sort after the canonical books
-// and are rendered in their own section rather than filed under a member book —
-// silently picking one member would misdescribe the work.
+// may expound a whole collection (the four gospels, the Pauline corpus, I–IV Regum)
+// and Migne prints it as one work. Silently filing it under one member would
+// misdescribe it, so each collection keeps its own section.
+//
+// WHERE THEY SIT (Wilson, 2026-07-30): **in their area of the Bible, immediately
+// before their first member** — the Pauline collections before Romans, Kings/Samuel
+// before I Kings, the gospel harmonies before Matthew. Not gathered in an appendix
+// at the end. The page then reads in canonical order the whole way down, and a
+// reader going to Romans passes the commentaries on the whole corpus on his way in,
+// which is very often what he actually wanted.
+//
+// Third element is the ANCHOR book: the group sorts just ahead of it.
 export const GROUPS = [
-  ['Gosp', 'The Gospels (as a group)'],
-  ['Paul', 'The Pauline Epistles (as a group)'],
-  ['Cath', 'The Catholic Epistles (as a group)'],
-  ['Proph', 'The Prophets (as a group)'],
-  ['Kgs', 'Kings / Samuel (I–IV Regum)'],
-  ['Cor', 'Corinthians (I–II)'], ['Thess', 'Thessalonians (I–II)'],
-  ['Tim', 'Timothy (I–II)'], ['Pet', 'Peter (I–II)'], ['Macc', 'Machabees (I–II)'],
+  ['Kgs', 'Kings / Samuel (I–IV Regum, as a group)', '1Sam'],
+  ['Proph', 'The Prophets (as a group)', 'Isa'],
+  ['Gosp', 'The Gospels (as a group)', 'Matt'],
+  ['Paul', 'The Pauline Epistles (as a group)', 'Rom'],
+  ['Cor', 'Corinthians (I–II)', '1Cor'],
+  ['Thess', 'Thessalonians (I–II)', '1Thess'],
+  ['Tim', 'Timothy (I–II)', '1Tim'],
+  ['Cath', 'The Catholic Epistles (as a group)', 'Jas'],
+  ['Pet', 'Peter (I–II)', '1Pet'],
+  ['Macc', 'Machabees (I–II)', '1Macc'],
 ];
-export const GROUP_NAME = new Map(GROUPS);
+export const GROUP_NAME = new Map(GROUPS.map(([k, n]) => [k, n]));
+
+// Sort rank for any key, book or group. A group takes its anchor's rank minus a
+// half-step, which places it immediately before that book and nowhere else.
+export const rankOf = key =>
+  BOOK_ORDER.has(key) ? BOOK_ORDER.get(key)
+    : (g => g ? BOOK_ORDER.get(g[2]) - 0.5 : 9999)(GROUPS.find(g => g[0] === key));

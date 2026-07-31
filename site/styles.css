@@ -608,6 +608,11 @@ a { color: inherit; }
   align-items: baseline; gap: 1rem; flex-wrap: wrap;
 }
 .cm-count { font-family: var(--body); font-size: .78rem; color: var(--encre-douce); letter-spacing: .03em; }
+/* A collection heads its part of Scripture (Wilson, 2026-07-30): it sits just before
+   its first member, so it needs to read as the head of an area and not as one more
+   book. Italic title + a gilt rule down the side, no extra chrome. */
+.cm-group > h2 { font-style: italic; border-bottom-style: dotted; }
+.cm-group { border-left: 2px solid var(--dorure); padding-left: 1rem; margin-left: -1rem; }
 .cm-list { list-style: none; padding: 0; margin: 0; }
 .cm-list li {
   display: grid; grid-template-columns: 5.6rem 1fr; gap: .1rem .8rem;

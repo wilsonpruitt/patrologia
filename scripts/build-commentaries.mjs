@@ -31,7 +31,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { head, header, footer } from './lib/chrome.mjs';
-import { BOOKS, BOOK_ORDER, BOOK_NAME, GROUPS, GROUP_NAME } from './lib/bible-books.mjs';
+import { BOOK_ORDER, BOOK_NAME, GROUPS, GROUP_NAME, rankOf } from './lib/bible-books.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -134,9 +134,11 @@ for (const w of works) {
   }
 }
 
-const rank = b => BOOK_ORDER.has(b) ? BOOK_ORDER.get(b) : 1000 + GROUPS.findIndex(g => g[0] === b);
 const nameOf = b => BOOK_NAME.get(b) || GROUP_NAME.get(b) || b;
-const ordered = [...byBook.entries()].sort((a, b) => rank(a[0]) - rank(b[0]));
+const isGroup = b => !BOOK_ORDER.has(b);
+// Groups sort a half-step ahead of their anchor book, so a collection sits at the
+// head of its own area rather than in an appendix (Wilson, 2026-07-30).
+const ordered = [...byBook.entries()].sort((a, b) => rankOf(a[0]) - rankOf(b[0]));
 
 // English pages are keyed by idno in works.json's translation record; the site path
 // is built the same way build-landing does, so a shipped work links to its page.
@@ -167,7 +169,7 @@ const sections = ordered.map(([book, recs]) => {
       `<span class="cm-a">${esc(r.author)}</span>` +
       `<span class="cm-c">${esc(cite)} · ${r.words.toLocaleString()} words</span></li>`;
   }).join('\n');
-  return `<section class="cm-book" id="b-${slug(book)}">
+  return `<section class="cm-book${isGroup(book) ? ' cm-group' : ''}" id="b-${slug(book)}">
 <h2>${esc(nameOf(book))} <span class="cm-count">${n} commentar${n === 1 ? 'y' : 'ies'}${en ? ` · ${en} in English` : ''}</span></h2>
 <ul class="cm-list">
 ${rows}
@@ -195,8 +197,10 @@ index</a>, which records every verse Migne's authors <em>quote</em>, located by 
 Here a work appears under the book it <em>is about</em>. Membership is derived from each
 work's title as Migne prints it and then corrected by hand, so it is a good guide and not
 an authority: a commentary whose title names no book is missing until someone adds it.
-Works that expound a whole collection — the Pauline epistles, the four gospels — are
-listed under that collection rather than filed under one member.</p>
+Works that expound a whole collection — the Pauline epistles, the four gospels, I–IV
+Regum — keep their own heading and sit at the head of that part of Scripture, just
+before its first book, rather than being filed under one member they do not confine
+themselves to.</p>
 <nav class="cm-toc">${toc}</nav>
 ${sections}
 </main>
