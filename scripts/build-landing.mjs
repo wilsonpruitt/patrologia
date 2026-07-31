@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-30 session: the 53-chunk tier, largest single work in the corpus —
+  'pl/175/homiliae-in-ecclesiasten',                             // Hugh of St Victor — nineteen homilies on Ecclesiastes
   // — 2026-07-29 session: 2 works, the 19- and 22-chunk tier —
   'pl/196/in-visionem-ezechielis',                               // Richard of St Victor — on Ezekiel's vision of the temple
   'pl/175/adnotatiunculae-in-threnos',                           // Hugh of St Victor — brief notes on Lamentations
