@@ -1,22 +1,40 @@
 # Next session — resume note
 
-## ▶ QUEUED FOR SONNET — execute the inline-citation spec
+## ▶ SPEC EXECUTED 2026-07-31 (Sonnet, `f89d1b4`, pushed) — ONE deploy still owed
 
-**The Fable session ran 2026-07-31 and ruled. Execute `data/inline-citations/SPEC.md`
-top to bottom — every judgment call is made; do not re-open the rulings.** Headlines:
-harvest at index time from the Latin twin (NO new marker, NO prompt/style-file change);
-records land in `scripture[]` with `inline: true`; one printed citation may emit
-multiple records (full verbatim `refDisplay` on each — never sliced); anchor-inside
-citations belong to the column where the paren OPENS (internal anchors still advance
-the tracker, `[f:]` precedent); `Aeneid` joins the known-fontes routing list (its 11065
-specimen is a `[n:]` NOTE, not inline — the brief mislisted it); retroactive re-index of
-all 15 shipped works, one batch, **one deploy needing Wilson's OK**.
+**`data/inline-citations/SPEC.md` is fully implemented and committed. All that's left
+is the production deploy, which needs Wilson's per-action OK** (`cd site && npx vercel
+--prod --archive=tgz`). Nothing else is open on this thread.
 
-Two measurement corrections found en route (recorded in the spec): the scanner's 69
-includes **3 prose false positives** (no numeral) — real class 66 across 23 works, 30
-shipped; and the harvest regex therefore REQUIRES a numeral. Expected retro delta:
-**+31 scripture / +1 fontes / −1 unparsed.** The scan script becomes a post-rollout
-audit (subtract harvested, expect zero remainder on shipped works).
+What shipped in the commit: `index-work.mjs` now derives inline (running-text,
+un-noted) scripture citations from the Latin twin at index time — no new agent marker,
+no prompt/style-file change. BOOKS gained `Exodi`/`Josue`/`Aggaei`/`Heb`; `Aeneid`
+joined the known-fontes routing list (11065's specimen turned out to be a `[n:]` NOTE,
+not inline — the brief mislisted it); `normSeg` gained comma-after-book normalization;
+`parseScripture` gained book-boundary segmentation (one parenthesis, two books — both
+11064's inline case and 8930's well-formed-note case now emit two records each) and
+roman chapter-range support. The candidate detector is gated on a book-shaped head AND
+an actual numeral TOKEN (not a bare letter — verified "Christo"'s capital C never trips
+it); anchor-inside citations key on the OPENING column, matching the `[f:]` precedent.
+A dedup step was added and needed: 8566 had a pre-existing Pattern-4 `[f:]` tag on this
+exact citation, which would have double-counted against the new harvest.
+
+**Re-indexed all 15 shipped works + 8930** (shipped the same day, so folded into the
+same batch). Every new record was hand-verified against the Latin source, including
+several the brief's own measurement script had missed entirely (ordinal-prefixed books
+like "II Tim." and short aliases like "Philip" aren't in that script's simpler regex —
+found 36 inline citations total across the 16 works, more than the brief's ~31
+estimate, all confirmed genuine). Authored the 8930 correction (`Psal. II` → `Ps.23.2`,
+verified against the quoted Latin, the SPEC's worked example 4). Rebuilt
+`site/scripture/index.html` (3,289 citations now, up from 3,033). Ran the post-rollout
+audit (`scan-inline-citations.mjs`, now rewritten to subtract already-harvested
+records) — **zero unharvested inline citations remain on any shipped work.** No chunk
+file, Latin or English, was touched anywhere in this session.
+
+Noted in passing, out of scope: `decade-check.mjs`'s Pattern-4 gate flags 11065 for
+"untagged locator tails" — pre-existing false positive (it's matching the work's own
+homily chapter titles, "Hom. VI." etc.), unrelated to this session's changes and not
+touched.
 
 8930 (mid-run) needs nothing special — its 4 inline citations + the `(Psal. II)`
 correction + the `(Phil. II, Heb. II)` two-book note are all covered by the spec's
