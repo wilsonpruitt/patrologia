@@ -1,5 +1,62 @@
 # Next session — resume note
 
+## 2026-07-30 (thirteenth, Opus) — 7914 SHIPPED + DEPLOYED; gate green 90/90; rulebook gained 7a″
+
+**LIVE**: pushed through `d9f19e1`, deployed, smoke-tested. **90 english works.** All
+seven polarity fixes verified in the served HTML. `--gate` green **90/90**.
+
+### 7914 ps.-Cassiodorus, *Expositio in Cantica canticorum* (PL 70) — FIRST English
+23 chunks / 27,638 Latin words / 4 Opus agents / badge **"First English translation"**
+(`workStatus: none`, verified, preserved). Song of Songs on the commentary map is now
+**33 commentaries, 8 in English**.
+
+### ⚑ THE DURABLE FINDING — `translation-style.md` **7a″**, genre predicts failure mode
+7914's blind read: **all 7 ours-side defects were lemma-conformations (5) or mis-bound
+references (2). NOT ONE dropped negation.** The same day's 11065 (homilies) gave the
+opposite: negations and scope errors, zero conformations. **In a verse-by-verse
+commentary the risk is not losing a `non` — it is the familiar English of a known verse
+arriving before the printed Latin is read.** Nothing looks wrong afterwards: smooth
+sentence, correct citation, `verify-english` passes — but the exposition now rests on a
+word that is not on the page. **The mechanism was in these prompts only because it was
+added for this genre, and it found five.** Put it in every commentary prompt.
+Worked case: **@1079C** Migne prints Heb 12:14 as *castimoniam*; we gave the Vulgate's
+"holiness" — while our own English rendered *castimonia* "chastity" nine words earlier,
+and the text is adduced *precisely for chastity of the flesh*. The argument's keyword
+had vanished from its own proof-text.
+
+### The ruling proved itself a principle, not a lookup table
+Case 2 ("a gloss depends on the word → Latin stands") was applied **four times by agents
+to words nobody pre-set**, each from this plate: *vermiculatas*, *elatae palmarum*,
+*malum granatum/punicum*, alongside pre-set *murenulae*. And ***ferculum* → "litter"**
+here vs Bruno's "banqueting table" in 10804 — **both right on their own plates, recorded
+as not-to-be-reconciled.**
+**Boundary recorded: site furniture is NOT a lemma.** `Vers.` → "Verse N." unified
+(apparatus, like `CAPUT` → `CHAPTER`). The ruling governs Scripture's words only.
+**Deliberate asymmetry kept:** the 7:4 lemma reads "looks **toward** Damascus" while the
+gloss reads "**against**" — *respicit contra* is idiomatic facing and the author's gloss
+exploits the adversative sense. Do not flatten.
+
+### Also
+- **Attribution flag corrected from evidence in hand** — the polarity read surfaced
+  Migne's own *Monitum*: *Mihi tamen Cassiodori non esse certissimum videtur*. **The
+  edition denies its own attribution in print.** Now quoted on the page. No research
+  opened (rule 8).
+- Citation correction filed: `(Psal. XV II, 6)` — a space split XVIII; the indexer could
+  not parse it at all, so this was the difference between the citation reaching the
+  scripture index and vanishing.
+- ⚠ **Structural gap named in 7914's cruces:** its per-batch negation audits covered
+  chunks 0007–0012 only, and three new source-side findings sat in the unaudited range.
+  **A per-batch audit is not a work-wide one.**
+
+### → NEXT
+1. **Song queue, now unblocked and smallest-first:** 8930 Rabanus (27 ch) · 9033
+   Angelomus (27) · 11638 Philip of Harvengt (35) · 6963 ps.-Ambrose (40) · 11613
+   Gilbert Foliot (53) · then the campaign tier — 11512 Wolbero (81), 11632 Philip
+   (126), 11703 Thomas the Cistercian (259, a campaign not a session).
+   **Every commentary prompt gets 7a″.**
+2. **PG paired pilot** — spec written (`pg-paired-pilot.md`), Sonnet executes §2–3.
+3. 7914 @0249D-analogue items and the two logged-not-fixed carried forward below.
+
 ## 2026-07-30 (twelfth, Opus) — 11065 SHIPPED (53 ch); THE COMMENTARY MAP built
 
 ### 11065 done — largest work in the corpus
