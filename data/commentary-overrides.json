@@ -1,0 +1,25 @@
+{
+  "note": "Hand curation for scripts/build-commentaries.mjs. The deriver reads TITLES, which is a heuristic, not evidence — this file is where its mistakes are corrected and never re-derived. Edit freely; the deriver never writes here.",
+  "rule": "A work enters the map when its title names a biblical book AND the title either carries a commentary-genre word or governs the book with in/super. The biblical texts THEMSELVES (Liber Genesis, Evangelium secundum Joannem, Psalterium) satisfy neither and are excluded by the rule, not by this list.",
+  "reject": {
+    "550": "Epistola ad Joannem — letter to a person named John, not the Gospel/Epistles",
+    "2529": "Epistola ad Joannem Hierosolymorum — letter to John of Jerusalem",
+    "4995": "Epistola ad Joannem — letter to a person",
+    "5002": "Epistola ad Joannem Dolensem — letter to a person",
+    "6573": "Epistola ad Joannem Saresberiensem — letter to John of Salisbury",
+    "596": "Contra Joannem Hierosolymitanum — polemic against a person",
+    "21535": "Liber adversus Joannem Scotum — polemic against John Scotus Eriugena",
+    "6345": "Epistola ad Matthaeum de variis quaestionibus — letter to a person named Matthew",
+    "4070": "Epistola ad imperatricem Judith — letter to the empress Judith, not the book",
+    "2549": "Versus in natali Machabaeorum martyrum — verses for the martyrs' feast, not on 1-2 Maccabees",
+    "6269": "In verba Evangelii — on unspecified gospel words; names no book",
+    "774": "De opere Augustini in Psalmos — about Augustine's Enarrationes, not on the Psalms"
+  },
+  "kind": {
+    "_note": "Works that are apparatus TO a commentary rather than commentary on the book. Shown, but labelled, so the page does not present a preface as an exposition.",
+    "preface": []
+  },
+  "addBooks": {
+    "_note": "workIdno -> [OSIS] for works whose title does not name the book but which ARE commentaries on it. None yet; add as they surface."
+  }
+}

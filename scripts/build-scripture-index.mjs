@@ -28,35 +28,9 @@ import { head, header, footer, esc as chromeEsc } from './lib/chrome.mjs';
 const ROOT = path.join(import.meta.dirname, '..');
 const esc = chromeEsc ?? (s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'));
 
-// Canonical order + display names. OSIS codes as index-work.mjs emits them.
-// Vulgate order (Migne's), so a reader of this corpus finds books where they
-// expect them: the deuterocanon sits interleaved, not appended.
-const BOOKS = [
-  ['Gen', 'Genesis'], ['Exod', 'Exodus'], ['Lev', 'Leviticus'], ['Num', 'Numbers'],
-  ['Deut', 'Deuteronomy'], ['Josh', 'Joshua'], ['Judg', 'Judges'], ['Ruth', 'Ruth'],
-  ['1Sam', 'I Kings (1 Samuel)'], ['2Sam', 'II Kings (2 Samuel)'],
-  ['1Kgs', 'III Kings (1 Kings)'], ['2Kgs', 'IV Kings (2 Kings)'],
-  ['1Chr', 'I Paralipomenon'], ['2Chr', 'II Paralipomenon'],
-  ['Ezra', 'I Esdras'], ['Neh', 'II Esdras (Nehemiah)'], ['Tob', 'Tobit'],
-  ['Jdt', 'Judith'], ['Esth', 'Esther'], ['Job', 'Job'], ['Ps', 'Psalms'],
-  ['Prov', 'Proverbs'], ['Eccl', 'Ecclesiastes'], ['Song', 'Song of Songs'],
-  ['Wis', 'Wisdom'], ['Sir', 'Ecclesiasticus'], ['Isa', 'Isaiah'], ['Jer', 'Jeremiah'],
-  ['Lam', 'Lamentations'], ['Bar', 'Baruch'], ['Ezek', 'Ezekiel'], ['Dan', 'Daniel'],
-  ['Hos', 'Hosea'], ['Joel', 'Joel'], ['Amos', 'Amos'], ['Obad', 'Obadiah'],
-  ['Jonah', 'Jonah'], ['Mic', 'Micah'], ['Nah', 'Nahum'], ['Hab', 'Habakkuk'],
-  ['Zeph', 'Zephaniah'], ['Hag', 'Haggai'], ['Zech', 'Zechariah'], ['Mal', 'Malachi'],
-  ['1Macc', 'I Machabees'], ['2Macc', 'II Machabees'],
-  ['Matt', 'Matthew'], ['Mark', 'Mark'], ['Luke', 'Luke'], ['John', 'John'],
-  ['Acts', 'Acts'], ['Rom', 'Romans'], ['1Cor', 'I Corinthians'], ['2Cor', 'II Corinthians'],
-  ['Gal', 'Galatians'], ['Eph', 'Ephesians'], ['Phil', 'Philippians'], ['Col', 'Colossians'],
-  ['1Thess', 'I Thessalonians'], ['2Thess', 'II Thessalonians'],
-  ['1Tim', 'I Timothy'], ['2Tim', 'II Timothy'], ['Titus', 'Titus'], ['Phlm', 'Philemon'],
-  ['Heb', 'Hebrews'], ['Jas', 'James'], ['1Pet', 'I Peter'], ['2Pet', 'II Peter'],
-  ['1John', 'I John'], ['2John', 'II John'], ['3John', 'III John'], ['Jude', 'Jude'],
-  ['Rev', 'Apocalypse'],
-];
-const BOOK_ORDER = new Map(BOOKS.map(([k], i) => [k, i]));
-const BOOK_NAME = new Map(BOOKS);
+// Canonical order + display names now live in lib/bible-books.mjs, shared with
+// /scripture/commentaries/ — two copies of a 73-row ordering drift silently.
+import { BOOKS, BOOK_ORDER, BOOK_NAME } from './lib/bible-books.mjs';
 
 // slug must match build-work-page.mjs exactly or every link 404s
 const slugOf = title => title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -147,6 +121,9 @@ ${header('scripture')}
   <p class="idx-note">References appear as Migne cites them, in the Vulgate's numbering.
   Where he misprints one, it is filed under its true place and his printed form is shown
   beside it — the text itself always keeps what he set.</p>
+  <p class="idx-note idx-sibling">Looking for who <em>wrote on</em> a book rather than who
+  quoted it? See <a href="/scripture/commentaries/">the commentary map</a> — every
+  commentary in the Patrologia Latina, grouped by the book it expounds.</p>
   <nav class="jump">${jump}</nav>
 ${sectionsHtml}
 </main>

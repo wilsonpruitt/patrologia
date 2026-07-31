@@ -586,6 +586,50 @@ a { color: inherit; }
 .jump a { color: var(--encre-douce); text-decoration: none; border-bottom: 1px solid transparent; }
 .jump a:hover { border-bottom-color: var(--dorure); }
 .idx-note { font-size: .9rem; color: var(--encre-douce); max-width: 42rem; }
+.idx-sibling { border-left: 2px solid var(--dorure); padding-left: .8rem; }
+
+/* ---------- commentary map: /scripture/commentaries/ ---------- */
+/* Emitted here because this file fully rewrites site/styles.css; kept next to the
+   scripture-index rules its page is a sibling of. */
+.commentaries .lede { max-width: 44rem; }
+.commentaries .note { font-size: .9rem; color: var(--encre-douce); max-width: 44rem; }
+.cm-toc { margin: 1.6rem 0 2.4rem; line-height: 2.1; font-size: .88rem; }
+.cm-toc a {
+  color: var(--encre-douce); text-decoration: none; white-space: nowrap;
+  border-bottom: 1px solid transparent; margin-right: .9rem;
+}
+.cm-toc a:hover { border-bottom-color: var(--dorure); }
+.cm-toc a span { color: var(--dorure); font-size: .8rem; }
+.cm-book { margin: 2.4rem 0 0; scroll-margin-top: 5rem; }
+.cm-book > h2 {
+  font-family: var(--didot); font-weight: 400; font-size: 1.5rem;
+  border-bottom: 1px solid var(--dorure); padding-bottom: .3rem;
+  margin-bottom: .5rem; display: flex; justify-content: space-between;
+  align-items: baseline; gap: 1rem; flex-wrap: wrap;
+}
+.cm-count { font-family: var(--body); font-size: .78rem; color: var(--encre-douce); letter-spacing: .03em; }
+.cm-list { list-style: none; padding: 0; margin: 0; }
+.cm-list li {
+  display: grid; grid-template-columns: 5.6rem 1fr; gap: .1rem .8rem;
+  padding: .5rem 0; border-bottom: 1px solid rgba(0,0,0,.06); align-items: baseline;
+}
+.cm-en, .cm-no, .cm-app {
+  font-size: .68rem; letter-spacing: .06em; text-transform: uppercase;
+  text-align: center; padding: .12rem .3rem; border-radius: 2px; align-self: start;
+}
+.cm-en { background: var(--vert); color: var(--papier); }
+.cm-no { color: var(--encre-douce); border: 1px solid rgba(0,0,0,.18); }
+.cm-app { grid-column: 1; font-size: .6rem; color: var(--maroquin); border: 0; }
+.cm-t { font-size: 1rem; }
+.cm-t a { color: var(--encre); text-decoration: none; border-bottom: 1px solid var(--dorure); }
+.cm-t a:hover { background: rgba(195,163,67,.16); }
+.cm-a, .cm-c { grid-column: 2; font-size: .82rem; color: var(--encre-douce); }
+.cm-c { font-size: .76rem; }
+@media (max-width: 34rem) {
+  .cm-list li { grid-template-columns: 1fr; }
+  .cm-a, .cm-c { grid-column: 1; }
+}
+
 .book { margin: 2.6rem 0 0; scroll-margin-top: 5rem; }
 .book > h2 {
   font-family: var(--didot); font-weight: 400; font-size: 1.5rem;
