@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶ 9033 Angelomus SHIPPED 2026-07-31 (Sonnet, `8ea92da`, pushed) — staged, not deployed
+## ▶ 9033 Angelomus SHIPPED + DEPLOYED 2026-07-31 (Sonnet, `8ea92da`→`9a9ab99`, pushed) — LIVE, verified
 
 **First English translation** of Angelomus of Luxeuil's *Enarrationes in Cantica
 canticorum* (PL 115, 27 chunks, 31,140 words) — the smallest queue-ready work after
@@ -17,11 +17,14 @@ Pattern 7, not touched. `polarity-record.mjs --gate` green **92/92**. Author bio
 "ours"` set, `workStatus` left untouched at `none` per rule 8. Scripture index,
 sources, authors, queue, volume indexes, commentaries map all rebuilt and staged.
 
-**NOT deployed** — landing `RECENT` entry + `build-landing.mjs` + `npx vercel --prod`
-are the deploy step (runbook step 8), owed whenever Wilson gives the OK. Next in the
-translation queue after this (smallest-first, still respecting the 9637 skip): check
+**DEPLOYED 2026-07-31** (`dpl_H6HAL27pJCuzzkuv8vdQnsDABaEm`) — RECENT prepended,
+landing + resolver rebuilt, live and smoke-tested: `/pl/115/enarrationes-in-cantica-canticorum/`
+200, landing lists it with "First English translation", scripture index at
+**3,464 citations**. Nothing owed on this thread. Next in the translation queue
+(smallest-first, still respecting the 9637 *Ordo* skip — it needs its own Fable
+mini-pilot for the liturgical genre before any Opus batch): re-run
 `node scripts/build-queue.mjs` fresh, since 9033 dropping off the "prepared" list
-shifts the ranking.
+shifts the ranking. Hard-stop ritual before the next launch.
 
 ## ▶ SPEC EXECUTED 2026-07-31 (Sonnet, `f89d1b4`, pushed) — ONE deploy still owed
 
