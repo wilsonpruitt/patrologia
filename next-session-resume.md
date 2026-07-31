@@ -16,12 +16,28 @@ would invent punctuation), *universa vanitas* vs *omnia vanitas*, and Migne's ow
 repeated lemmata printed differently. Also fixed: `index-work.mjs` had no bare `Eph`
 alias (affects queue works 11512, 9033).
 
-### ▶ OWED ON 11065 — the polarity read, then deploy
-`--gate` is RED on 11065 alone. Step-4a blind read not yet run: **53 chunks, ~6 units,
-~0.7M tokens, Opus, hard-stop applies.** The translation agents already carried several
-printed negations against the argument (0132C, 0150A, 0152A, 0155D, 0175C, 0198C, 0222D,
-0245B), so those are known sites a blind reader should rediscover — good controls.
-**Do not deploy over the red gate without saying so plainly.**
+### ✅ 11065 POLARITY READ DONE — gate GREEN 89/89 (`ed4a7e6`)
+Six blind Opus units, 53/53 chunks. **20 sites: 13 source, 7 ours.** Full write-up at the
+end of `src/english/11065/cruces.md`; units in `data/sweeps/polarity-11065/`.
+**Six ours-side defects fixed** (@0136C litotes · @0171C *Nec possis* · @0200D *male
+secura* · @0211C negation scope · @0241B scope of *male* · @0253A *minus* distributing).
+**Every genuinely new finding was ours-side, and three sat in columns already logged for
+something else** — the "a logged column is not a checked column" shape. One logged-not-
+changed: @0249D (*qui*/*cui* silent normalization, low confidence) — **still owed a
+reading; it should not stay silent.**
+
+**Two durable findings, do not re-derive:**
+1. **Recall was measured.** Only u3's control was named; u1/u2/u4 rediscovered their
+   known sites blind. That is why the clean chunks here can be trusted.
+2. **Migne's question marks in THIS work are reliable evidence** — 403 of them, every
+   `Nunquid…?` pointed. So @0150A's declarative period is deliberate, the flat English
+   stands, and the contradiction is the source's (probably a dropped `nec`). Two agents
+   pressed to re-mood it; both were overruled on that measurement. **Do not re-litigate.**
+
+### ▶ DEPLOY OWED (needs Wilson's OK)
+Would ship **11065** (89 english pages) **and the commentary map** together. Gate is
+green, so nothing blocks it. Remember `build-commentaries.mjs` is now in the step-8
+rebuild list. Also still unpushed: everything since `bf3d9e4`.
 
 ### ✅ THE COMMENTARY MAP — `/scripture/commentaries/` (built, NOT deployed)
 Wilson's call: **a separate page linked off /scripture/, never a section inside it** —
