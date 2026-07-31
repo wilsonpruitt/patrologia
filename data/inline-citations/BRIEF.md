@@ -90,6 +90,13 @@ ruling was "only 1 case, don't build a harvester" (7020, 2026-07-10). It is now 
 - **Some are wrong as printed.** 8930's `(Psal. II)` is Ps. 23:2. If these are harvested
   they enter the same world as `citation-corrections.json`, and that file's policy
   applies: `refDisplay` verbatim, `refKey` corrected, `refKeyPrinted` retained.
+- **The two-book citation is a SEPARATE problem that this decision will meet.** A single
+  parenthesis naming two books — `(Joan. III [1135A] Isai. V)` inline in 11064, and
+  `(Phil. II, Heb. II)` **inside a proper `[n: …]` note** in 8930 @1113c — defeats the
+  indexer either way. The second specimen proves the class is **independent of** the
+  inline question: it occurs in well-formed notes too, and today it lands in `unparsed`.
+  Decide whether one citation may emit two index records, because the answer governs both.
+
 - **Migne's own inconsistency is the underlying fact.** He notes most references and
   inlines a few, with no discernible rule. Whatever we build should not imply he had one.
 

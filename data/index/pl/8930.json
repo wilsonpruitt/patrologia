@@ -1,0 +1,4806 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3907,
+  "textIdno": 8930,
+  "title": "Commentaria in Cantica",
+  "authors": [
+    "Rabanus Maurus"
+  ],
+  "authorsDisplay": [
+    "Rabanus Maurus"
+  ],
+  "series": "pl",
+  "volume": 112,
+  "colFirst": "1089",
+  "colLast": "1166a",
+  "counts": {
+    "scripture": 204,
+    "fontes": 0,
+    "heads": 11,
+    "headnotes": 578,
+    "unparsed": 1
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
+      "column": "1089c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Acts.15",
+      "refDisplay": "Act. XV",
+      "column": "1090c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eph.2",
+      "refDisplay": "Ephes. II",
+      "column": "1092a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.7",
+      "refDisplay": "Rom VII",
+      "column": "1092a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Col.1",
+      "refDisplay": "Col. I",
+      "column": "1092b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.117",
+      "refDisplay": "Psal. CXVII",
+      "column": "1092b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.1",
+      "refDisplay": "Matth. I",
+      "column": "1092d",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.7",
+      "refDisplay": "Joan. VII",
+      "column": "1093a",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "1093a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Phil.2",
+      "refDisplay": "Phil. II",
+      "column": "1093c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.6",
+      "refDisplay": "Luc. VI.",
+      "column": "1093d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
+      "column": "1093d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.38",
+      "refDisplay": "Isa. XXXVIII",
+      "column": "1094c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.9",
+      "refDisplay": "Psal. IX",
+      "column": "1094d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.54",
+      "refDisplay": "Psal. LIV",
+      "column": "1095a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.114",
+      "refDisplay": "Psal. CXIV",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.55",
+      "refDisplay": "Psal. LV",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.22",
+      "refDisplay": "Matth. XXII",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "1095c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Job.14",
+      "refDisplay": "Job. XIV",
+      "column": "1095c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX",
+      "column": "1096c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX",
+      "column": "1097b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI",
+      "column": "1097b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "1097c",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Thess.5",
+      "refDisplay": "I Thess. V",
+      "column": "1098b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.140",
+      "refDisplay": "Psal. CXL",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Phil.4",
+      "refDisplay": "Phil. IV",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.70",
+      "refDisplay": "Psal. LXX",
+      "column": "1098d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Luke.2",
+      "refDisplay": "Luc. II",
+      "column": "1099a",
+      "chunk": 3
+    },
+    {
+      "refKey": "2Cor.6",
+      "refDisplay": "II Cor. VI",
+      "column": "1099a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Exod.3",
+      "refDisplay": "Exod. III",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Sir.3",
+      "refDisplay": "Eccli. III",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Eccl.5",
+      "refDisplay": "Eccle. V",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Eph.4",
+      "refDisplay": "Ephes. IV",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rom.10",
+      "refDisplay": "Rom. X",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX",
+      "column": "1100a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Prov.9",
+      "refDisplay": "Prov. IX",
+      "column": "1100c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rom.6",
+      "refDisplay": "Rom. VI",
+      "column": "1100d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "Psal. XV",
+      "column": "1101a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Jas.4",
+      "refDisplay": "Jac. IV",
+      "column": "1101b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Phil. III",
+      "column": "1101c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.19",
+      "refDisplay": "Matth. XIX",
+      "column": "1101c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.71",
+      "refDisplay": "Psal. LXXI",
+      "column": "1101d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Eph.4",
+      "refDisplay": "Ephes. IV",
+      "column": "1102b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.5",
+      "refDisplay": "Isa. V",
+      "column": "1103b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
+      "column": "1103b",
+      "chunk": 5
+    },
+    {
+      "refKey": "John.16",
+      "refDisplay": "Joan. XVI",
+      "column": "1104a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Exod.14",
+      "refDisplay": "Exod. XIV",
+      "column": "1104c",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.10",
+      "refDisplay": "I Cor. X",
+      "column": "1104d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Job.41",
+      "refDisplay": "Job XLI",
+      "column": "1105c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.117",
+      "refDisplay": "Psal. CXVII",
+      "column": "1105d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "1106a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Exod.8",
+      "refDisplay": "Exod. VIII",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Gen.1",
+      "refDisplay": "Gen. I",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1107a",
+      "chunk": 6
+    },
+    {
+      "refKey": "2Cor.3",
+      "refDisplay": "II Cor. III",
+      "column": "1107a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Zech.5",
+      "refDisplay": "Zach. V",
+      "column": "1107b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.14",
+      "refDisplay": "Matth. XIV.",
+      "column": "1107c",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.10",
+      "refDisplay": "Joan. X",
+      "column": "1108a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.148",
+      "refDisplay": "Psal. CXLVIII",
+      "column": "1108b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Rom.10",
+      "refDisplay": "Rom. X",
+      "column": "1109c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Gal.6",
+      "refDisplay": "Gal. VI",
+      "column": "1109d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.79",
+      "refDisplay": "Psal. LXXIX",
+      "column": "1110b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "1110d",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "1110d",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.3",
+      "refDisplay": "I Cor. III.",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Prov.9",
+      "refDisplay": "Prov. IX",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Exod.15",
+      "refDisplay": "Exod. XV",
+      "column": "1111d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Hab.1",
+      "refDisplay": "Habac. I",
+      "column": "1112b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Hab.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "Habac. I",
+      "antecedentColumn": "1112b",
+      "ibidResolved": true,
+      "column": "1112b",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "1113b",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "1113b",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
+      "column": "1113b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "1114a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Gal.4",
+      "refDisplay": "Gal. IV",
+      "column": "1114b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "1115a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Zech.11",
+      "refDisplay": "Zach. XI",
+      "column": "1115c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Isa.2",
+      "refDisplay": "Isa. II",
+      "column": "1115d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Luke.2",
+      "refDisplay": "Luc. II",
+      "column": "1116a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Luke.1",
+      "refDisplay": "Luc. I",
+      "column": "1116a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "1116b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Luke.2",
+      "refDisplay": "Luc. II",
+      "column": "1116c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Phil.2",
+      "refDisplay": "Phil. II",
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI",
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Ibid.",
+      "antecedent": "Matth. XXVI",
+      "antecedentColumn": "1117a",
+      "ibidResolved": true,
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Tim.6",
+      "refDisplay": "I Tim. VI",
+      "column": "1117b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "1118a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.120",
+      "refDisplay": "Psal. CXX",
+      "column": "1118d",
+      "chunk": 10
+    },
+    {
+      "refKey": "John.17",
+      "refDisplay": "Joan. XVII",
+      "column": "1120a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.73",
+      "refDisplay": "Psal. LXXIII",
+      "column": "1120b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.45",
+      "refDisplay": "Psal. XLV",
+      "column": "1121b",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.7",
+      "refDisplay": "Joan. VII",
+      "column": "1121b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.103",
+      "refDisplay": "Psal. CIII",
+      "column": "1121c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "1121c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.72",
+      "refDisplay": "Psal. LXXII",
+      "column": "1121d",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.121",
+      "refDisplay": "Psal. CXXI",
+      "column": "1122a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Matt.21",
+      "refDisplay": "Matth. XXI",
+      "column": "1122c",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "1123a",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.7",
+      "refDisplay": "Joan. VII",
+      "column": "1123b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Prov.18",
+      "refDisplay": "Prov. XVIII",
+      "column": "1124c",
+      "chunk": 12
+    },
+    {
+      "refKey": "Luke.12",
+      "refDisplay": "Luc. XII",
+      "column": "1125b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.104",
+      "refDisplay": "Psal. CIV",
+      "column": "1126a",
+      "chunk": 12
+    },
+    {
+      "refKey": "1John.2",
+      "refDisplay": "I Joan. II",
+      "column": "1126a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Acts.5",
+      "refDisplay": "Act. V",
+      "column": "1126c",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.128",
+      "refDisplay": "Psal. CXXVIII",
+      "column": "1126c",
+      "chunk": 12
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "Joan. VI",
+      "column": "1127d",
+      "chunk": 12
+    },
+    {
+      "refKey": "Acts.3",
+      "refDisplay": "Act. III",
+      "column": "1127d",
+      "chunk": 12
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1129b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Rom.10",
+      "refDisplay": "Rom. X",
+      "column": "1129b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX",
+      "column": "1130a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.22",
+      "refDisplay": "Psal. XXII",
+      "column": "1130c",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.51",
+      "refDisplay": "Psal. LI",
+      "column": "1130d",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.108",
+      "refDisplay": "Psal. CVIII",
+      "column": "1130d",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.28",
+      "refDisplay": "Psal. XXVIII",
+      "column": "1131c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1132a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Matt.19",
+      "refDisplay": "Matth. XIX",
+      "column": "1132d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Isa.1",
+      "refDisplay": "Isa. I",
+      "column": "1133a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Isa.55",
+      "refDisplay": "Isa. LV",
+      "column": "1133c",
+      "chunk": 15
+    },
+    {
+      "refKey": "Luke.1",
+      "refDisplay": "Luc. I",
+      "column": "1133d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Gen.2",
+      "refDisplay": "Gen. II",
+      "column": "1133d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Ibid.",
+      "antecedent": "Psal. XVIII",
+      "antecedentColumn": "1134a",
+      "ibidResolved": true,
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "1134b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Jer.14",
+      "refDisplay": "Jerem. XIV",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.40",
+      "refDisplay": "Psal. XL",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "refKey": "1Sam.2",
+      "refDisplay": "I Reg. II",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Gen.20",
+      "refDisplay": "Gen. XX",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1135a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.40",
+      "refDisplay": "Psal. XL",
+      "column": "1135a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "1135b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Exod.12",
+      "refDisplay": "Exod. XII",
+      "column": "1136a",
+      "chunk": 16
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "1136b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Heb.12",
+      "refDisplay": "Hebr. XII",
+      "column": "1136c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Deut.7",
+      "refDisplay": "Deut. VII",
+      "column": "1136d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "1137b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "Psal. XV",
+      "column": "1137c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII",
+      "column": "1138c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Luke.17",
+      "refDisplay": "Luc. XVII",
+      "column": "1138d",
+      "chunk": 17
+    },
+    {
+      "refKey": "John.12",
+      "refDisplay": "Joan. XII",
+      "column": "1139a",
+      "chunk": 17
+    },
+    {
+      "refKey": "1Cor.10",
+      "refDisplay": "I Cor. X",
+      "column": "1140a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Isa.10",
+      "refDisplay": "Isa. X",
+      "column": "1140b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1141a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1142b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Job.13",
+      "refDisplay": "Job XIII",
+      "column": "1142b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Jer.5",
+      "refDisplay": "Jer. V",
+      "column": "1142d",
+      "chunk": 18
+    },
+    {
+      "refKey": "Deut.32",
+      "refDisplay": "Deut. XXXII",
+      "column": "1143a",
+      "chunk": 18
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Gal. V",
+      "column": "1143d",
+      "chunk": 18
+    },
+    {
+      "refKey": "Mark.9",
+      "refDisplay": "Marc. IX",
+      "column": "1144b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ps.51",
+      "refDisplay": "Psal. LI",
+      "column": "1144c",
+      "chunk": 18
+    },
+    {
+      "refKey": "Rom.2",
+      "refDisplay": "Rom. II",
+      "column": "1145b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Prov.1",
+      "refDisplay": "Prov. I",
+      "column": "1145c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Lam.1",
+      "refDisplay": "Thren. I",
+      "column": "1146a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Isa.1",
+      "refDisplay": "Isa. I",
+      "column": "1146b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Ps.94",
+      "refDisplay": "Psal. XCIV",
+      "column": "1147b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Prov.19",
+      "refDisplay": "Prov. XIX",
+      "column": "1147c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Ps.42",
+      "refDisplay": "Psal. XLII",
+      "column": "1148a",
+      "chunk": 20
+    },
+    {
+      "refKey": "Ps.34",
+      "refDisplay": "Psal. XXXIV",
+      "column": "1148a",
+      "chunk": 20
+    },
+    {
+      "refKey": "Wis.12",
+      "refDisplay": "Sap. XII",
+      "column": "1148b",
+      "chunk": 20
+    },
+    {
+      "refKey": "Eccl.9",
+      "refDisplay": "Eccle. IX",
+      "column": "1148d",
+      "chunk": 20
+    },
+    {
+      "refKey": "Rom.2",
+      "refDisplay": "Rom. II",
+      "column": "1150a",
+      "chunk": 20
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "1150a",
+      "chunk": 20
+    },
+    {
+      "refKey": "Rev.14",
+      "refDisplay": "Apoc. XIV",
+      "column": "1150c",
+      "chunk": 20
+    },
+    {
+      "refKey": "Ezek.35",
+      "refDisplay": "Ezech. XXXV",
+      "column": "1150c",
+      "chunk": 20
+    },
+    {
+      "refKey": "Heb.1",
+      "refDisplay": "Hebr. I",
+      "column": "1150d",
+      "chunk": 20
+    },
+    {
+      "refKey": "Rom.15",
+      "refDisplay": "Rom. XV",
+      "column": "1150d",
+      "chunk": 20
+    },
+    {
+      "refKey": "2Sam.22",
+      "refDisplay": "II Reg. XXII",
+      "column": "1151a",
+      "chunk": 20
+    },
+    {
+      "refKey": "Rom.15",
+      "refDisplay": "Rom. XV",
+      "column": "1151a",
+      "chunk": 20
+    },
+    {
+      "refKey": "Wis.5",
+      "refDisplay": "Sap. V.",
+      "column": "1151c",
+      "chunk": 21
+    },
+    {
+      "refKey": "Gen.1",
+      "refDisplay": "Gen. I",
+      "column": "1153d",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII",
+      "column": "1154a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.148",
+      "refDisplay": "Psal. CXLVIII",
+      "column": "1154b",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.150",
+      "refDisplay": "Psal. CL",
+      "column": "1154d",
+      "chunk": 22
+    },
+    {
+      "refKey": "2Cor.12",
+      "refDisplay": "II Cor. XII",
+      "column": "1155b",
+      "chunk": 22
+    },
+    {
+      "refKey": "2Cor.4",
+      "refDisplay": "II Cor. IV",
+      "column": "1155b",
+      "chunk": 22
+    },
+    {
+      "refKey": "Sir.3",
+      "refDisplay": "Eccli. III",
+      "column": "1155c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.148",
+      "refDisplay": "Psal. CXLVIII",
+      "column": "1155c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "1155d",
+      "chunk": 23
+    },
+    {
+      "refKey": "Ps.23",
+      "refDisplay": "Psal. XXIII",
+      "column": "1156a",
+      "chunk": 23
+    },
+    {
+      "refKey": "Ps.148",
+      "refDisplay": "Psal. CXLVIII",
+      "column": "1156b",
+      "chunk": 23
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "1156c",
+      "chunk": 23
+    },
+    {
+      "refKey": "Zech.12",
+      "refDisplay": "Zach. XII",
+      "column": "1156c",
+      "chunk": 23
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "1156d",
+      "chunk": 23
+    },
+    {
+      "refKey": "Gen.1",
+      "refDisplay": "Gen. I.",
+      "column": "1157a",
+      "chunk": 23
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "1157a",
+      "chunk": 23
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "1157a",
+      "chunk": 23
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI",
+      "column": "1158b",
+      "chunk": 23
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "1159d",
+      "chunk": 24
+    },
+    {
+      "refKey": "1Chr.17",
+      "refDisplay": "I Par. XVII",
+      "column": "1160c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.86",
+      "refDisplay": "Psal. LXXXVI",
+      "column": "1161a",
+      "chunk": 24
+    },
+    {
+      "refKey": "Zech.6",
+      "refDisplay": "Zach. VI",
+      "column": "1161c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "1161c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.33",
+      "refDisplay": "Psal. XXXIII",
+      "column": "1161d",
+      "chunk": 24
+    },
+    {
+      "refKey": "Sir.3",
+      "refDisplay": "Eccli. III",
+      "column": "1162a",
+      "chunk": 25
+    },
+    {
+      "refKey": "1Pet.1",
+      "refDisplay": "I Pet. I",
+      "column": "1163a",
+      "chunk": 25
+    },
+    {
+      "refKey": "Matt.23",
+      "refDisplay": "Matth. XXIII",
+      "column": "1163c",
+      "chunk": 25
+    },
+    {
+      "refKey": "Hos.11",
+      "refDisplay": "Ose. XI",
+      "column": "1163d",
+      "chunk": 25
+    },
+    {
+      "refKey": "Ps.53",
+      "refDisplay": "Psal. LIII",
+      "column": "1163d",
+      "chunk": 25
+    },
+    {
+      "refKey": "Matt.18",
+      "refDisplay": "Matth. XVIII",
+      "column": "1163d",
+      "chunk": 25
+    },
+    {
+      "refKey": "Gal.3",
+      "refDisplay": "Galat. III",
+      "column": "1164a",
+      "chunk": 25
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "Psal. XXXVIII",
+      "column": "1164d",
+      "chunk": 26
+    },
+    {
+      "refKey": "Ps.97",
+      "refDisplay": "Psal. XCVII",
+      "column": "1166a",
+      "chunk": 26
+    }
+  ],
+  "fontes": [],
+  "heads": [
+    {
+      "la": "Commentaria in Cantica",
+      "column": "1089",
+      "chunk": 0,
+      "en": "Commentaries on the Canticles"
+    },
+    {
+      "la": "INCIPIT CANTICUM ISALAE PROPHETAE.",
+      "column": "1091b",
+      "chunk": 1,
+      "en": "HERE BEGINS THE CANTICLE OF [sic: ISALAE] THE PROPHET."
+    },
+    {
+      "la": "INCIPIT CANTICUM EZECHIAE Regis Judae.",
+      "column": "1094b",
+      "chunk": 2,
+      "en": "HERE BEGINS THE CANTICLE OF HEZEKIAH King of Judah."
+    },
+    {
+      "la": "INCIPIT CANTICUM ANNAE, Matris Samuelis prophetae.",
+      "column": "1098a",
+      "chunk": 3,
+      "en": "HERE BEGINS THE CANTICLE OF ANNA, Mother of Samuel the prophet."
+    },
+    {
+      "la": "INCIPIT CANTICUM EXODI.",
+      "column": "1102d",
+      "chunk": 5,
+      "en": "HERE BEGINS THE CANTICLE OF EXODUS."
+    },
+    {
+      "la": "INCIPIT CANTICUM HABACUC PROPHETAE.",
+      "column": "1111d",
+      "chunk": 8,
+      "en": "HERE BEGINS THE CANTICLE OF HABAKKUK THE PROPHET."
+    },
+    {
+      "la": "INCIPIT CANTICUM LIBRI DEUTERONOMII.",
+      "column": "1132b",
+      "chunk": 15,
+      "en": "HERE BEGINS THE CANTICLE OF THE BOOK OF DEUTERONOMY."
+    },
+    {
+      "la": "INCIPIT HYMNUS TRIUM PUERORUM.",
+      "column": "1151d",
+      "chunk": 22,
+      "en": "HERE BEGINS THE HYMN OF THE THREE CHILDREN."
+    },
+    {
+      "la": "INCIPIT CANTICUM ZACHARIAE Patris B. Joannis Baptistae.",
+      "column": "1159a",
+      "chunk": 24,
+      "en": "HERE BEGINS THE CANTICLE OF ZECHARIAH Father of the Blessed John the Baptist."
+    },
+    {
+      "la": "INCIPIT CANTICUM MARIAE Matris Domini.",
+      "column": "1161d",
+      "chunk": 25,
+      "en": "HERE BEGINS THE CANTICLE OF MARY Mother of the Lord."
+    },
+    {
+      "la": "INCIPIT BENEDICTIO SIMEONIS PROPHETAE.",
+      "column": "1164a",
+      "chunk": 26,
+      "en": "HERE BEGINS THE BLESSING OF SIMEON THE PROPHET."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "",
+      "en": "",
+      "column": "1091c",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1092a",
+      "chunk": 1
+    },
+    {
+      "la": "…t salutis causa in incarnatione Jesu Christi Domini nostri consistit, quia non est aliud nomen super terram datum hominibus, testante Petro apostolo, in quo oporteat salvos fieri, de quo et Paulus ait",
+      "en": "… in the incarnation of Jesus Christ our Lord, since there is no other name given to men upon the earth — Peter the apostle bearing witness — in which it behooves us to be saved; of whom Paul also says",
+      "column": "1092a",
+      "chunk": 1
+    },
+    {
+      "la": "Et item",
+      "en": "And again",
+      "column": "1092a",
+      "chunk": 1
+    },
+    {
+      "la": "De quo rursum ait",
+      "en": "Of whom again he says",
+      "column": "1092a",
+      "chunk": 1
+    },
+    {
+      "la": "… eo, sciens quia ipse potens est liberare et defendere eos qui in ejus protectione veraciter confidunt, et ob hoc non timet adversarium, quia nocere illi non potest, nisi permissus. Unde Psalmista ait",
+      "en": "…himself is able to deliver and defend those who truly trust in his protection; and on this account he does not fear the adversary, because he cannot harm him unless permitted. Whence the Psalmist says",
+      "column": "1092b",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1092c",
+      "chunk": 1
+    },
+    {
+      "la": "Non potest impulsus cadere, cui auxilium Domini videtur fortitudo praestare; sed ne putaretur sola pericula declinare quem Domini dona servabant, adjecit,",
+      "en": "He who is struck cannot fall, to whom the help of the Lord is seen to furnish strength; but lest he whom the Lord's gifts preserved should be thought only to escape dangers, he added,",
+      "column": "1092c",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1092d",
+      "chunk": 1
+    },
+    {
+      "la": "Quem supra Emmanuel, et Accelera spolia detrahere, Festina praedari, et reliquis appellaret nominibus, ne videretur alter esse praeter eum quem Gabriel Virgini nuntiavit dicens",
+      "en": "… had called Emmanuel, and Hasten to take away the spoils, Make speed to take prey, and by the remaining names, lest he should seem to be another beside him whom Gabriel announced to the Virgin, saying",
+      "column": "1092d",
+      "chunk": 1
+    },
+    {
+      "la": "…endas, nequaquam de aquis fluminis Aegypti, quae percussae sunt, neque de aquis fluminis Rasni, sed de fontibus Jesu. Hoc enim Hebraeorum lingua Salvator exprimitur. Unde et ipse clamabat in Evangelio",
+      "en": "…hich were smitten, nor from the waters of the river of Rasni, but from the fountains of Jesus. For in the tongue of the Hebrews this expresses \"Saviour.\" Whence he himself also cried out in the Gospel",
+      "column": "1093a",
+      "chunk": 1
+    },
+    {
+      "la": "inquit Evangelista,",
+      "en": "says the Evangelist,",
+      "column": "1093a",
+      "chunk": 1
+    },
+    {
+      "la": "Et in alio ipse loquitur Evangelio",
+      "en": "And in another Gospel he himself speaks",
+      "column": "1093a",
+      "chunk": 1
+    },
+    {
+      "la": "Fontes Salvatoris doctrinam intelligamus evangelicam, de qua in septuagesimo septimo psalmo legimus",
+      "en": "Let us understand the fountains of the Saviour to be the evangelical doctrine, of which we read in the seventy-seventh psalm",
+      "column": "1093a",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1093b",
+      "chunk": 1
+    },
+    {
+      "la": "…ael his, qui de gentibus crediderunt, ut soli confiteantur Domino et, idolis derelictis, invocent nomen ejus, et cuncta ejus opera praedicent infidelibus, ut sciant quoniam ipse solus excelsus est, et",
+      "en": "… Gentiles: that they should confess to the Lord alone and, with idols forsaken, call upon his name, and proclaim all his works to the unbelieving, that they may know that he alone is exalted, and that",
+      "column": "1093b",
+      "chunk": 1
+    },
+    {
+      "la": "cui cantandum est, quod magnifice fecerit, et in omni orbe illius misericordia praedicetur. Huic etiam loco concordat initium centesimi quarti psalmi, ubi ita scriptum est,",
+      "en": "… must be sung that he hath done magnificently, and in the whole world his mercy is to be proclaimed. With this place also agrees the beginning of the hundred and fourth psalm, where it is thus written",
+      "column": "1093c",
+      "chunk": 1
+    },
+    {
+      "la": "In hoc ergo tribus constat partibus ordo dictorum. Primo dicit",
+      "en": "In this, therefore, the order of the sayings consists of three parts. First he says",
+      "column": "1093c",
+      "chunk": 1
+    },
+    {
+      "la": "…ut post ministerium sanctissimae laudis grates ei dignas solvamus. Ipse enim rite invocat Deum, qui magis actu quam voce clamat ad Deum. Unde Salvator in Evangelio ad superbos et inobedientes sibi ait",
+      "en": "…ost holy praise we may pay him worthy thanks. For he duly calls upon God who cries to God more by deed than by voice. Whence the Saviour says in the Gospel to the proud and to those disobedient to him",
+      "column": "1093d",
+      "chunk": 1
+    },
+    {
+      "la": "[n: (Luc. VI.)] Et alibi",
+      "en": "[n: (Luc. VI.)] And elsewhere",
+      "column": "1093d",
+      "chunk": 1
+    },
+    {
+      "la": "Tertio dicit",
+      "en": "Thirdly he says",
+      "column": "1093d",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1094a",
+      "chunk": 1
+    },
+    {
+      "la": "…ii per apostolos, qui ex Judaeis erant, processit a fontibus Israel, melius autem est, ut Sion, id est speculam in sublimibus collocatam interpretemur Ecclesiam, de qua et quinquagesimus psalmus canit",
+      "en": "…gh the apostles who were of the Jews, from the fountains of Israel. But it is better that we interpret Sion, that is, a watchtower placed on high, as the Church, of which the fiftieth psalm also sings",
+      "column": "1094b",
+      "chunk": 1
+    },
+    {
+      "la": "…chiae nomine praenotatur, quod aliqui interpretum scripturam, alii orationem nominant, videtur mihi melius gratiarum actionis vocabulo praenotari. Sic enim scriptum est in propheta [n: (Isa. XXXVIII)]",
+      "en": "…e name of Hezekiah, which some of the interpreters call a writing and others a prayer, seems to me better entitled by the word \"thanksgiving.\" For thus it is written in the prophet [n: (Isa. XXXVIII)]",
+      "column": "1094c",
+      "chunk": 2
+    },
+    {
+      "la": "Septuaginta vero ita posuerunt",
+      "en": "But the Seventy set it down thus",
+      "column": "1094c",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1094c",
+      "chunk": 2
+    },
+    {
+      "la": "Narrat quid tempore prementis angustiae imminentisque languoris tacitus cogitarit",
+      "en": "He tells what he had silently thought in the time of the pressing anguish and the impending sickness",
+      "column": "1094d",
+      "chunk": 2
+    },
+    {
+      "la": "sive, ut alii interpretati sunt, in infirmitate et silentio dierum meorum, sive in sanguine dierum meorum, quando meus cruor meusque spectabatur interitus. Itaque in desperatione dixi",
+      "en": "— or, as others have translated, in the infirmity and silence of my days, or in the blood of my days, when my own gore and my own destruction were being looked upon. And so in despair I said",
+      "column": "1094d",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1095a",
+      "chunk": 2
+    },
+    {
+      "la": "Non me putans ultra esse victurum, dixi,",
+      "en": "Not thinking that I should live any longer, I said,",
+      "column": "1095a",
+      "chunk": 2
+    },
+    {
+      "la": "Pro Domino et Deo hic in Hebraico ponitur, Ia, quod in extrema syllaba alleluia sonat, pro quo Septuaginta transtulerunt,",
+      "en": "For \"Lord\" and \"God\" there is here set in the Hebrew *Ia*, which sounds in the last syllable of *alleluia*; for which the Seventy translated,",
+      "column": "1095a",
+      "chunk": 2
+    },
+    {
+      "la": "de qua et in alio loco scriptum est",
+      "en": "; concerning which it is also written in another place",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "la": "et rursum",
+      "en": "and again",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "la": "Regio ergo sanctorum ipsa est, quae appellatur lux viventium",
+      "en": "That, therefore, is the region of the saints which is called the light of the living",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1095b",
+      "chunk": 2
+    },
+    {
+      "la": "… dissolvatur, ne in telae similitudinem in ipso lucis exordio praecidatur, et nequaquam de semine ejus Christus oriatur. Quod autem corpus nostrum appelletur tabernaculum, et Apostolus instruit dicens",
+      "en": "…e likeness of a web it should be cut off at the very beginning of the light, and lest Christ should by no means arise from his seed. But that our body is called a tent, the Apostle too teaches, saying",
+      "column": "1095c",
+      "chunk": 2
+    },
+    {
+      "la": "Vita ergo humana non Parcarum filis secundum gentilium fabulas orditur, sed dispositione Dei ordinatur. Unde Job ad Dominum ait",
+      "en": "Human life, therefore, is not begun upon the threads of the Fates, according to the fables of the heathen, but is ordered by the disposition of God. Whence Job says to the Lord",
+      "column": "1095c",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1096a",
+      "chunk": 2
+    },
+    {
+      "la": "Quod sic juxta aliam editionem legitur",
+      "en": "Which according to the other edition is read thus",
+      "column": "1096a",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1096b",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1096b",
+      "chunk": 2
+    },
+    {
+      "la": "… Deo solo, qui poterat subvenire, elevatis in altum oculis, auxilium praestolabar, dicebamque ad eum: Plus patior, quam mea poscunt merita; sed et si quid erravi, convertar ad melius, tu sponde pro me",
+      "en": "…waited help from God alone, who was able to succour, and I said to him: I suffer more than my deserts demand; but even if I have erred in anything, I will turn to what is better; be thou surety for me",
+      "column": "1096c",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1096d",
+      "chunk": 2
+    },
+    {
+      "la": "…ias reputare se dicit omnes annos regni sui, et praeteritae, ut putabat, beatitudinis in praesenti amaritudine: et quia jam securus est, nec patitur quae refert de humano statu, philosophatur et dicit",
+      "en": "…his past blessedness, as he thought it, in his present bitterness; and because he is now safe, and does not suffer the things which he relates concerning the human condition, he philosophizes and says",
+      "column": "1097a",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1097a",
+      "chunk": 2
+    },
+    {
+      "la": "…ecisti, inquit, post tergum omnia peccata mea, ne illa tristis aspicerem, sed tuam misericordiam contemplarer: infernus enim et mors non confitebuntur neque laudabunt te, juxta illud quod scriptum est",
+      "en": "…says, behind thy back all my sins, that I might not look upon them in sadness, but might contemplate thy mercy; for hell and death shall not confess nor praise thee, according to that which is written",
+      "column": "1097b",
+      "chunk": 2
+    },
+    {
+      "la": "Confessioque quae in hoc loco non pro poenitentia, sed pro gloria et laude accipitur, sicut et in Evangelio legimus",
+      "en": "And confession, which in this place is taken not for penance but for glory and praise, as we read also in the Gospel",
+      "column": "1097b",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1097b",
+      "chunk": 2
+    },
+    {
+      "la": "… legimus, non exspectabunt, qui descendunt in lacum, misericordiam tuam; maxime, cum Salvator ad infernum descenderit, ut vinctos de inferis liberaret. Pro lacu manifestius iidem inferos transtulerunt",
+      "en": "…ll not look for thy mercy — especially since the Saviour descended to hell, that he might free the bound from the powers below. For \"pit\" the same translators rendered more plainly \"the powers below.\"",
+      "column": "1097b",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1097c",
+      "chunk": 2
+    },
+    {
+      "la": "Pater filiis notam faciet veritatem tuam. Hoc significat, quod et in Deuteronomio dicitur",
+      "en": "The father shall make thy truth known to his children. This signifies what is also said in Deuteronomy",
+      "column": "1097c",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1098b",
+      "chunk": 3
+    },
+    {
+      "la": "Non enim invenitur orare in hoc cantico, nisi per duo verba tantum, ut dicit",
+      "en": "For she is not found to pray in this canticle except by two phrases only, when she says",
+      "column": "1098b",
+      "chunk": 3
+    },
+    {
+      "la": "et aliud est,",
+      "en": "and the other,",
+      "column": "1098b",
+      "chunk": 3
+    },
+    {
+      "la": "Apostolus autem dicit",
+      "en": "But the Apostle says",
+      "column": "1098b",
+      "chunk": 3
+    },
+    {
+      "la": "…in divino versatur officio, omnia gesta ejus, dictaque pro oratione reputantur; quia justus cum sine intermissione, quae justa sunt, agit, per hoc sine intermissione justus orabit. Et in Psalmis dicit",
+      "en": "…ll his deeds and sayings are reckoned for prayer; because when the just man does without ceasing the things that are just, by this he will pray without ceasing as a just man. And in the Psalms he says",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "la": "… elevante manus, vincebat Israel, dimittente vero, vincebat Amalech; quia donec famulus Dei elevat actus suos ad Dominum, vincit plebs Dei, cum autem dimiserit actus suos, vincit Amalech, inimicus Dei",
+      "en": "… let them down, Amalec conquered: because so long as the servant of God lifts up his acts to the Lord, the people of God conquers; but when he has let down his acts, Amalec, the enemy of God, conquers",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "la": "inquit Anna,",
+      "en": "says Anna,",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "la": "et necessarie addidit,",
+      "en": "and she necessarily added,",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "la": "ut Paulus dixit",
+      "en": "as Paul said",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "la": "quia potest quis gaudere in carnalibus. Cum me homines laudant, non in Domino gaudeo, sed gaudeo in vanitate: hinc compungar propter verbum Dei, cum dicit",
+      "en": "because one can rejoice in carnal things. When men praise me, I do not rejoice in the Lord, but I rejoice in vanity: hence let me be pricked to the heart because of the word of God, when it says",
+      "column": "1098c",
+      "chunk": 3
+    },
+    {
+      "la": "Dicat ergo Anna, quae interpretatur gratia, Ecclesia videlicet Christi, civitas regis magni, gratia plena, prole fecunda, dicat, quod tanto ante de se prophetatum per os hujus piae matris agnoscit",
+      "en": "… the Church of Christ, the city of the great king, full of grace, fruitful in offspring, let her say that she recognizes what was prophesied of her so long before through the mouth of this holy mother",
+      "column": "1098d",
+      "chunk": 3
+    },
+    {
+      "la": "Vere exsultavit cor, quia in Domino, et vere exaltatum cornu, quia non ex se, sed in Domino Deo suo exaltatum est. Et in alio loco dicit",
+      "en": "Truly the heart rejoiced, because in the Lord; and truly the horn is exalted, because not of itself, but in the Lord its God is it exalted. And in another place he says",
+      "column": "1098d",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1098d",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099a",
+      "chunk": 3
+    },
+    {
+      "la": "Salutaris iste Dominus est Christus Jesus, quem Simon, sicut in Evangelio legitur [n: (Luc. II)], senex amplectens parvum, agnoscens magnum",
+      "en": "That salvation is the Lord Christ Jesus, whom Simon, as is read in the Gospel [n: (Luc. II)], an old man embracing the little one, recognizing the great one, [said]",
+      "column": "1099a",
+      "chunk": 3
+    },
+    {
+      "la": "Si laetatus fuero in salutari Domini, tunc dilatatum est os meum, per meditationem utique verbi Dei ad elevationem cordis veniemus. Unde Apostolus dicit",
+      "en": "If I shall have rejoiced in the salvation of the Lord, then is my mouth enlarged; by the meditation of the word of God we shall assuredly come to the lifting up of the heart. Whence the Apostle says",
+      "column": "1099a",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099a",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "la": "…er te, Domine, quia nemo fit, nisi abs te, etsi sunt, qui dicuntur dii multi, et domini multi, nullus tamen eorum naturaliter est id quod Deus est, quia ipse solus est, qui dixit ad Moysen servum suum",
+      "en": "… one becomes so save from thee; and although there are those who are called many gods and many lords, yet none of them is by nature that which God is, because he alone is who said to Moses his servant",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "la": "Et Salomon dicit",
+      "en": "And Solomon says",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "la": "Et alibi",
+      "en": "And elsewhere",
+      "column": "1099b",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "la": "Hoc est, magniloquium non exeat de ore vestro",
+      "en": "That is, let no great-speaking go forth out of your mouth",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "la": "dicit Apostolus [n: (Ephes. IV)],",
+      "en": "says the Apostle [n: (Ephes. IV)],",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "la": "…m pertinentibus, de sua virtute praesumentibus, in se, non in Domino gloriantibus, ex quibus sunt etiam carnales Israelitae terrenae Jerusalem, cives terrigenae, qui, ut dicit Apostolus [n: (Rom. X)],",
+      "en": "…me upon their own strength, glorying in themselves and not in the Lord; among whom are also the carnal Israelites of the earthly Jerusalem, earth-born citizens, who, as the Apostle says [n: (Rom. X)],",
+      "column": "1099c",
+      "chunk": 3
+    },
+    {
+      "la": "id est, quam dat homini Deus, qui solus est justus atque justificans,",
+      "en": "that is, that which God gives to man, who alone is just and justifying,",
+      "column": "1099d",
+      "chunk": 3
+    },
+    {
+      "la": "id est, velut a se sibi paratam, non ab illo impartitam,",
+      "en": "that is, as though prepared for themselves by themselves, not imparted by him,",
+      "column": "1099d",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1099d",
+      "chunk": 3
+    },
+    {
+      "la": "…ne Dei dono atque adjutorio humana sufficientia divina possint implere mandata, et infirmi accincti sunt robore, qui tantum in Dei pietate confidunt, et ab illo solatia quaerunt, dicentes cum Propheta",
+      "en": "…'s gift and help human sufficiency can fulfil the divine commandments; and the weak are girded with strength, who trust only in the mercy of God and seek consolations from him, saying with the Prophet",
+      "column": "1100a",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1100a",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1100b",
+      "chunk": 3
+    },
+    {
+      "la": "…ersa Ecclesiae significata protectio, propter quod Joannes apostolus ad septem scribit Ecclesias, eo modo se ostendens ad unius plenitudinem scribere: et in Proverbiis Salomonis hoc antea praefigurans",
+      "en": "…ch is signified — on account of which John the apostle writes to seven Churches, showing in that manner that he writes to the fulness of one: and prefiguring this beforehand in the Proverbs of Solomon",
+      "column": "1100c",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1100d",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1100d",
+      "chunk": 3
+    },
+    {
+      "la": "Quibus enim dicit Apostolus",
+      "en": "For those to whom the Apostle says",
+      "column": "1100d",
+      "chunk": 3
+    },
+    {
+      "la": "salubriter mortificantur utique a Domino: quibus adjungit,",
+      "en": "are assuredly killed wholesomely by the Lord; to whom he adds,",
+      "column": "1100d",
+      "chunk": 3
+    },
+    {
+      "la": "…Nam qui proprio filio non pepercit, sed pro nobis omnibus tradidit eum, iste modo utique mortificat, et quia resuscitavit a mortuis, eumdem rursus vivificavit. Et quia in prophetia vox ejus agnoscitur",
+      "en": "…wn Son, but delivered him up for us all, he assuredly in this manner killeth; and because he raised him from the dead, he again made the same alive. And because in the prophecy his voice is recognized",
+      "column": "1101a",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101a",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101b",
+      "chunk": 3
+    },
+    {
+      "la": "Utique superbos humiliat et humiles exaltat; quod enim alibi legitur",
+      "en": "Assuredly he humbleth the proud and exalteth the humble; for that which is read elsewhere",
+      "column": "1101b",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101b",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101b",
+      "chunk": 3
+    },
+    {
+      "la": "Inops quippe idem qui pauper; stercus vero, unde erectus est, rectissime intelliguntur persecutores Judaei: in quorum numero, cum se dixisset Apostolus Ecclesiam persecutum",
+      "en": "…e as the needy; but the dunghill, out of which he was lifted up, are most rightly understood to be the persecuting Jews: among whose number, when the Apostle had said that he had persecuted the Church",
+      "column": "1101c",
+      "chunk": 3
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101c",
+      "chunk": 4
+    },
+    {
+      "la": "Quibus ait",
+      "en": "To whom he says",
+      "column": "1101c",
+      "chunk": 4
+    },
+    {
+      "la": "et sedem gloriae haereditatem dans eis",
+      "en": "and giving them the seat of glory as an inheritance",
+      "column": "1101c",
+      "chunk": 4
+    },
+    {
+      "la": "Quia ipse dominatur a mari usque ad mare, et a flumine usque ad terminos orbis terrae [n: (Psal. LXXI)]",
+      "en": "Because he himself hath dominion from sea to sea, and from the river unto the ends of the world of the earth [n: (Psal. LXXI)]",
+      "column": "1101d",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101d",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101d",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101d",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1101d",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1102b",
+      "chunk": 4
+    },
+    {
+      "la": "…judicabit extremum terrae, quia justus est, prorsus ordinem tenuit confessionis fidelium haec prophetissa, ascendit enim in coelum Dominus Christus, et inde venturus est ad judicandum vivos et mortuos",
+      "en": "…th, because he is just. This prophetess held throughout the order of the confession of the faithful; for the Lord Christ ascended into heaven, and thence he is to come to judge the living and the dead",
+      "column": "1102b",
+      "chunk": 4
+    },
+    {
+      "la": "sicut dicit Apostolus [n: (Ephes. IV)],",
+      "en": "as the Apostle says [n: (Ephes. IV)],",
+      "column": "1102b",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1102c",
+      "chunk": 4
+    },
+    {
+      "la": "Ac si diceretur Dominus judicabit extrema hominis: quoniam non judicabuntur, quae in melius, vel in deterius medio tempore commutantur, sed in quibus extremis inventus fuerat qui judicabitur",
+      "en": "… last things of a man: since those things will not be judged which are changed in the meantime for the better or for the worse, but the last state in which he shall have been found who is to be judged",
+      "column": "1102c",
+      "chunk": 4
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1102d",
+      "chunk": 5
+    },
+    {
+      "la": "…tu ergo si mare Rubrum transieris, si Aegyptios submergi videris, et exstingui Pharaonem, atque in abyssi profundum praecipitari, potes hymnum cantare Deo, potes vocem gratulationis emittere et dicere",
+      "en": "…if thou shalt have seen the Egyptians drowned, and Pharaoh extinguished and hurled headlong into the depth of the abyss, thou canst sing a hymn to God, thou canst utter a voice of thanksgiving and say",
+      "column": "1103a",
+      "chunk": 5
+    },
+    {
+      "la": "…s haec dicis, si habueris tympanum in manu tua, id est, si carnem tuam crucifixeris cum vitiis et concupiscentiis, et si mortificaveris membra tua, quae sunt supra terram, et tamen videamus quid dicit",
+      "en": "…l in thy hand, that is, if thou shalt have crucified thy flesh with its vices and concupiscences, and if thou shalt have mortified thy members which are upon the earth. And yet let us see what he says",
+      "column": "1103a",
+      "chunk": 5
+    },
+    {
+      "la": "…am Dominus meus Jesus Christus, cum carnem ex Virgine pro salute nostra suscepit, glorificatus est quidem, quia venit quaerere quod perierat, non tamen gloriose glorificatus est, dicitur enim de ipso,",
+      "en": "…d Jesus Christ, when he took flesh from the Virgin for our salvation, was indeed glorified, because he came to seek that which had perished, yet he was not gloriously glorified; for it is said of him,",
+      "column": "1103b",
+      "chunk": 5
+    },
+    {
+      "la": "et cum ad crucem venit et pertulit mortem; sed, ut ita dicam, humiliter, non gloriose glorificatus est. Verum quia",
+      "en": "and when he came to the cross and endured death — but, so to speak, humbly, not gloriously, was he glorified. But because",
+      "column": "1103b",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1103c",
+      "chunk": 5
+    },
+    {
+      "la": "…uuntur equi sunt, et ut ita dicam, omnes, qui in carne nati sunt, figuraliter equi sunt: sed qui habent ascensores suos, sunt equi, quos Dominus ascendit, et circumeunt omnem terram, de quibus dicitur",
+      "en": "…, so to speak, all who are born in the flesh are figuratively horses. But those which have their own riders are the horses which the Lord mounts, and they go about the whole earth, of which it is said",
+      "column": "1103c",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1103d",
+      "chunk": 5
+    },
+    {
+      "la": "Alia autem editio habet",
+      "en": "But another edition has",
+      "column": "1104a",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1104a",
+      "chunk": 5
+    },
+    {
+      "la": "Hic ergo et meus est Deus et Patris mei. Pater noster, qui nos fecit et genuit, Christus est. Et ipse dicit",
+      "en": "He, therefore, is both my God and my Father's. Our Father, who made us and begot us, is Christ. And he himself says",
+      "column": "1104a",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1104b",
+      "chunk": 5
+    },
+    {
+      "la": "Vel juxta aliam editionem",
+      "en": "Or according to another edition",
+      "column": "1104b",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1104b",
+      "chunk": 5
+    },
+    {
+      "la": "Simul ergo praelati et subditi currus, equites et pedites, et omnis exercitus Pharaonis submersi sunt in Rubro mari, de quo scriptum est,",
+      "en": "Together, therefore, prelates and subjects, chariots, horsemen and footmen, and the whole army of Pharaoh were drowned in the Red Sea, of which it is written,",
+      "column": "1104c",
+      "chunk": 5
+    },
+    {
+      "la": "…ntati ejus obtemperes, si legem ejus sequaris, ipsa tibi elementa etiam contra sui naturam servire compellit. Apostolus ergo, quid significet transitus filiorum Israel per mare Rubrum, ostendit dicens",
+      "en": "…thou follow his law, he compels the very elements to serve thee even against their own nature. The Apostle, then, shows what the passage of the children of Israel through the Red Sea signifies, saying",
+      "column": "1104d",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1105c",
+      "chunk": 5
+    },
+    {
+      "la": "Abyssi utique illi de quibus in Job, ubi de Leviathan narratur, scriptum est",
+      "en": "Those depths, assuredly, of which it is written in Job, where it is told of Leviathan",
+      "column": "1105c",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1105d",
+      "chunk": 5
+    },
+    {
+      "la": "Quae est ista dextera, nisi illa de qua in psalmo scriptum est",
+      "en": "What is that right hand, save that of which it is written in the psalm",
+      "column": "1105d",
+      "chunk": 5
+    },
+    {
+      "la": "… aliam editionem, glorificata est, quando antiquum hostem et inimicum verum per crucis mysterium confregit atque interfecit, et per mortem destruxit eum, qui habebat mortis imperium, id est, diabolum,",
+      "en": "… glorified in strength, when through the mystery of the cross it shattered and slew the ancient foe and the true enemy, and through death destroyed him who had the empire of death, that is, the devil,",
+      "column": "1106a",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1106a",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1106a",
+      "chunk": 5
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1106b",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1106b",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "Ecce jam quinto commemoratur spiritus Dei, ut in hoc numero accipiamus et quod dictum est",
+      "en": "Behold, now for the fifth time the spirit of God is commemorated, so that in this number we may take also what was said",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "Primo, ubi scriptum est",
+      "en": "First, where it is written",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "Secundo ubi dicitur",
+      "en": "Secondly, where it is said",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "Tertio, ubi Pharao dicit ad Joseph",
+      "en": "Thirdly, where Pharaoh says to Joseph",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "Quarto, ubi incantatores Aegyptiorum dicunt",
+      "en": "Fourthly, where the enchanters of the Egyptians say",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "Quinto in hoc cantico",
+      "en": "Fifthly, in this canticle",
+      "column": "1106c",
+      "chunk": 6
+    },
+    {
+      "la": "…Dei dissimiliter appellari, cum sit unus atque idem, ille duntaxat, qui etiam sanctus Spiritus in unitate Trinitatis accipitur. Proinde non arbitror alium, quam eumdem significari, ubi dicit Apostolus",
+      "en": "…hough he is one and the same, that one at least who is also received as the Holy Spirit in the unity of the Trinity. Accordingly I judge that no other than the same is signified where the Apostle says",
+      "column": "1106d",
+      "chunk": 6
+    },
+    {
+      "la": "… perducerentur ad gratiam, quae est in fide Jesu Christi. De hoc autem spiritu adoptionis et gratiae, id est, de hoc opere spiritus Dei, quo impertitur gratia et regeneratio in vitam aeternam, dicitur",
+      "en": "…hich is in the faith of Jesus Christ. But of this spirit of adoption and of grace, that is, of this work of the spirit of God by which grace and regeneration unto eternal life are imparted, it is said",
+      "column": "1107a",
+      "chunk": 6
+    },
+    {
+      "la": "cum supra diceretur,",
+      "en": "whereas above it was said,",
+      "column": "1107a",
+      "chunk": 6
+    },
+    {
+      "la": "…ine adjutorio gratiae. Demersi sunt, inquit, tanquam plumbum in aquam validissimam; peccatores graves sunt, denique et iniquitas super talentum plumbi sedere monstratur, sicut Zacharias propheta dicit",
+      "en": "…y, without the help of grace. They were sunk, he says, like lead in the mightiest water; sinners are heavy, and indeed iniquity too is shown to sit upon a talent of lead, as Zachariah the prophet says",
+      "column": "1107b",
+      "chunk": 6
+    },
+    {
+      "la": "… et discipulus ejus Petrus, licet paululum trepidaverit: non enim tantus erat et talis, qui nihil omnino de specie plumbi in se haberet admistum. Habuit, licet parum, propter quod dicit ad eum Dominus",
+      "en": "…ough he trembled a little: for he was not so great and such a one as to have nothing at all of the nature of lead mingled in himself. He had it, though little, on account of which the Lord says to him",
+      "column": "1107b",
+      "chunk": 6
+    },
+    {
+      "la": "…qui plus illuc plumbi detulerit, plus exuritur, ut amplius decoquatur, ut si parum aliquid auri purgati tamen resideat; quod si aliquis illuc totus plumbeus venerit, fiet de illo hoc quod scriptum est",
+      "en": "…burned more, that he may be melted down further, so that at least some little of purified gold may nevertheless remain; but if anyone comes thither wholly leaden, there will befall him what is written",
+      "column": "1107d",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1107d",
+      "chunk": 6
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1107d",
+      "chunk": 6
+    },
+    {
+      "la": "Quod dicit",
+      "en": "As to what he says,",
+      "column": "1107d",
+      "chunk": 6
+    },
+    {
+      "la": "… comparat Deum, nec daemonibus, qui sibi falso deorum sive fortium nomen usurpant; sed deos illos dicit, qui per generationem et participationem Dei appellantur dii, de quibus et alibi Scriptura dicit",
+      "en": "… demons, who falsely usurp to themselves the name of gods or of the strong; but he calls those gods who by generation and by participation of God are called gods, of whom Scripture also says elsewhere",
+      "column": "1107d",
+      "chunk": 6
+    },
+    {
+      "la": "Et iterum",
+      "en": "And again",
+      "column": "1108a",
+      "chunk": 6
+    },
+    {
+      "la": "Sed hi, quamvis capaces sint Dei, et hoc nomine donari per gratiam videantur, nullus tamen Deo similis invenitur, vel in potentia, vel in natura; et licet Joannes apostolus dicat",
+      "en": "But these, although they are capable of God, and seem to be endowed with this name through grace, yet none is found like to God, either in power or in nature; and though John the apostle says",
+      "column": "1108a",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1108b",
+      "chunk": 6
+    },
+    {
+      "la": "…a, tota quippe pars ista extrema, vel infirma mundi terrae nomine censetur, secundum id quod saepe dicitur, Deus, qui fecit coelum et terram. Et in illius psalmi distributione commemoratis coelestibus",
+      "en": "…eakest, is reckoned by the name of earth, according to that which is often said, God, who made heaven and earth. And in the distribution of that psalm, when the heavenly things have been commemorated,",
+      "column": "1108b",
+      "chunk": 6
+    },
+    {
+      "la": "…d et si quem videris luxuriae carnis et voluptatibus corporis deditum, in quo animus nihil valet, sed totum libido carnis obtinuit, dicito et de hoc, quia devoravit eum terra. Adhuc me movet, quod ait",
+      "en": "…he pleasures of the body, in whom the mind avails nothing, but the lust of the flesh has taken possession of the whole, say of him also that the earth hath devoured him. Still it moves me that he says",
+      "column": "1108c",
+      "chunk": 6
+    },
+    {
+      "la": "… extendit Dominus dexteram suam: si consideres, quomodo Dominus exaltatus in cruce tota die extendit manus suas ad populum non credentem et contradicentem, et qualiter infidelem populum, qui clamavit,",
+      "en": "…e Lord, lifted up on the cross, all the day stretched forth his hands to a people not believing and contradicting, and how death for the crime committed crushed the unbelieving people which cried out,",
+      "column": "1108d",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1108d",
+      "chunk": 6
+    },
+    {
+      "la": "Pro quo juxta aliam editionem legitur",
+      "en": "For which, according to another edition, it is read",
+      "column": "1108d",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1109a",
+      "chunk": 6
+    },
+    {
+      "la": "Alia autem editio sic habet",
+      "en": "But another edition has it thus",
+      "column": "1109a",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1109c",
+      "chunk": 6
+    },
+    {
+      "la": "… principatus eorum et potestates. Timor ergo et tremor cadet super eos, cum signum in nobis crucis viderint fideliter fixum, et magnitudinem brachii illius, quod Dominus expandit in cruce, sicut dicit",
+      "en": "…ear, therefore, and trembling shall fall upon them, when they shall see the sign of the cross faithfully fixed in us, and the greatness of that arm which the Lord spread out upon the cross, as he says",
+      "column": "1109c",
+      "chunk": 6
+    },
+    {
+      "la": "Non te ergo aliter timebunt, nec aliter tremor tuus veniet super eos, nisi videant in te crucem Christi, nisi et tu poteris dicere",
+      "en": "They will not, therefore, fear thee otherwise, nor will thy trembling come upon them otherwise, unless they see in thee the cross of Christ, unless thou too shalt be able to say",
+      "column": "1109c",
+      "chunk": 6
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1109d",
+      "chunk": 7
+    },
+    {
+      "la": "…pides. Hi ergo priusquam blasphement, considerent summa libratione, quae scripta sunt. Non enim dixit, fiant tanquam lapis, et tacuit, sed tempus statuit et mensuram condemnationis decernit: ait enim,",
+      "en": "… the utmost weighing the things that are written. For he did not say, Let them become as a stone, and then keep silence, but he appointed a time and decreed a measure of the condemnation; for he says,",
+      "column": "1109d",
+      "chunk": 7
+    },
+    {
+      "la": "…srael illo secundum carnem, donec plenitudo gentium subintroierit; tunc etiam omnis Israel, qui per incredulitatis duritiam factus fuerat, sicut lapis salvabitur. Et vis videre tu, quomodo salvabitur?",
+      "en": "…sh, until the fulness of the Gentiles should come in; then also all Israel, which through the hardness of unbelief had been made as a stone, shall be saved. And wouldst thou see how it shall be saved?",
+      "column": "1110a",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1110b",
+      "chunk": 7
+    },
+    {
+      "la": "Non vult nos Deus in Aegypto plantare, nec in dejectis et humilibus locis, sed in monte haereditatis suae vult plantare, quos plantat. Propheta dicit",
+      "en": "God does not wish to plant us in Egypt, nor in cast-down and lowly places, but he wishes to plant in the mountain of his inheritance those whom he plants. The Prophet says",
+      "column": "1110b",
+      "chunk": 7
+    },
+    {
+      "la": "…ypto transtulit Deus, et per ramos eorum nostri palmites diffundantur, atque in ipsis innisi traduces quaedam efficiamur charitatis ad invicem vinculis nexi, fructum sine dubio plurimum afferimus. Nam",
+      "en": "…be spread abroad through their branches, and if, leaning upon them, we be made certain layerings bound to one another with the bonds of charity, we shall without doubt bring forth very much fruit. For",
+      "column": "1110c",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1110d",
+      "chunk": 7
+    },
+    {
+      "la": "Vide clementis Domini bonitatem: non vult te inducere ad laborem, non vult ut ipse tibi facias habitaculum, jam te ad praeparatam deducit habitationem. Audi Dominum in Evangelio dicentem",
+      "en": "…ciful Lord: he does not wish to lead thee to labour, he does not wish that thou shouldst make a habitation for thyself; already he leads thee to a dwelling prepared. Hear the Lord saying in the Gospel",
+      "column": "1110d",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1110d",
+      "chunk": 7
+    },
+    {
+      "la": "…at accedentes, hoc non dicit manu hominis factum, sed manu Dei. Qui ergo propter te Deus et plantat, et aedificat, agricola efficitur, structor efficitur, ne tibi ali quid desit. Audi et Paulum dicere",
+      "en": "… not by the hand of man, but by the hand of God. He, therefore, who for thy sake both plants and builds, becomes a husbandman, becomes a builder, that nothing be lacking to thee. Hear Paul also saying",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "la": "Quod ergo istud est sanctimonium, quod non manu hominum factum est, sed manibus Dei paratum, audi Sapientiam dicentem, quia",
+      "en": "What, then, is that holy place which was made not by the hand of men but prepared by the hands of God? Hear Wisdom saying that",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "la": "…o autem hoc de incarnatione Domini rectius intelligendum puto; non enim manu hominum factum est, id est, non opere humano templum carnis aedificatur in virgine, sed sicut supra scriptum est in Daniele",
+      "en": "… be understood of the incarnation of the Lord; for it was not made by the hand of men — that is, not by human work is the temple of the flesh built in the Virgin — but as it is written above in Daniel",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1111a",
+      "chunk": 7
+    },
+    {
+      "la": "Alia autem editio sic habet",
+      "en": "But another edition has it thus",
+      "column": "1111b",
+      "chunk": 7
+    },
+    {
+      "la": "… sine dubio longior quidem, tamen potitur finis, et quoties saecula saeculorum nominantur, fortasse, licet ignotus nobis, tamen a Deo statutus aliquis terminus indicatur; quod vero addidit in hoc loco",
+      "en": "…nevertheless takes hold; and as often as \"ages of ages\" are named, perhaps some limit is indicated which, though unknown to us, is nevertheless appointed by God. But as to what he added in this place,",
+      "column": "1111b",
+      "chunk": 7
+    },
+    {
+      "la": "sive, et adhuc, nullum sensum termini alicujus aut finis reliquit. Quodcunque enim illud cogitaveris, in quo finem putes posse consistere, semper tibi dicit sermo propheticus,",
+      "en": "or, and yet further, it left no sense of any limit or end. For whatever thou shalt have conceived in which thou thinkest an end can stand, the prophetic word always says to thee,",
+      "column": "1111b",
+      "chunk": 7
+    },
+    {
+      "la": "…si loquatur ad te et dicat: Putas in saeculum saeculi Dominum regnaturum, et adhuc putas in saecula saeculorum, et adhuc, et quodcunque illud dixeris de regni ejus spatiis, semper tibi dicit Propheta,",
+      "en": "… unto the age of the age, and yet further; thou thinkest unto the ages of ages, and yet further; and whatever thou shalt have said concerning the spans of his kingdom, the Prophet always says to thee,",
+      "column": "1111c",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1111c",
+      "chunk": 7
+    },
+    {
+      "la": "…t, aquae ei murus fiunt dextera laevaque: ipse autem media via incedit per siccum, non declinat ad dexteram, neque ad sinistram, usquequo exeat ad libertatem et hymnum victoriae Domino concinat dicens",
+      "en": "…he himself goes forward by the middle way through the dry, and turns aside neither to the right nor to the left, until he goes out into liberty and sings together to the Lord a hymn of victory, saying",
+      "column": "1111d",
+      "chunk": 7
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1111d",
+      "chunk": 8
+    },
+    {
+      "la": "LXX",
+      "en": "LXX",
+      "column": "1111d",
+      "chunk": 8
+    },
+    {
+      "la": "Legimus in sexto decimo psalmo",
+      "en": "We read in the sixteenth psalm",
+      "column": "1111d",
+      "chunk": 8
+    },
+    {
+      "la": "et in octogesimo nono",
+      "en": "and in the eighty-ninth",
+      "column": "1111d",
+      "chunk": 8
+    },
+    {
+      "la": "et in centesimo primo",
+      "en": "and in the hundred and first",
+      "column": "1112a",
+      "chunk": 8
+    },
+    {
+      "la": "…iae cunctorum auxilio destitutos; sciensque, quod haec et innumera nequaquam absque divina provisione potuissent accidere, turbabatur animo, et intimo ex corde graviter suspirans exclamavit ad Dominum",
+      "en": "…ing that these things and things beyond number could by no means have come to pass without divine provision, he was troubled in mind, and sighing heavily from his inmost heart he cried out to the Lord",
+      "column": "1112b",
+      "chunk": 8
+    },
+    {
+      "la": "et iterum",
+      "en": "And again",
+      "column": "1112b",
+      "chunk": 8
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1112c",
+      "chunk": 8
+    },
+    {
+      "la": "…di tacenti, et sicut timore perterritus, quod draco magnus tantis vulneribus confodiendus est: sic deprecor, Domine, ut quod promisisti expleas, et finito tempore reddas Christum tuum. Tu enim dixisti",
+      "en": "…use the great dragon is to be pierced through with such wounds, so do I beseech thee, O Lord, that thou fulfil what thou hast promised, and, the time being ended, render thy Christ. For thou hast said",
+      "column": "1113a",
+      "chunk": 8
+    },
+    {
+      "la": "…pere compleatur: quod quidem juxta nos et de resurrectione Salvatoris intelligi potest, ut ille, qui pro nobis mortuus est, consurgat a mortuis, et vivificetur. Juxta LXX autem multo aliter est sensus",
+      "en": "…cording to us, can also be understood of the resurrection of the Saviour: that he who died for us should rise again from the dead and be made alive. But according to the LXX the sense is far otherwise",
+      "column": "1113a",
+      "chunk": 8
+    },
+    {
+      "la": "…mors nostra morte illius destrueretur, resurgens a mortuis ascenderet in coelos, ac, misso desuper Spiritu, mundum gratia veritatis illustraret. Cujus auditus ipse saepius in Evangelio meminit, dicens",
+      "en": "… dead he should ascend into the heavens, and, the Spirit being sent from above, should enlighten the world with the grace of truth. Of which report he himself makes mention often in the Gospel, saying",
+      "column": "1113b",
+      "chunk": 8
+    },
+    {
+      "la": "Et iterum",
+      "en": "And again",
+      "column": "1113b",
+      "chunk": 8
+    },
+    {
+      "la": "de quo et Joannes Baptista",
+      "en": "of whom John the Baptist also says",
+      "column": "1113b",
+      "chunk": 8
+    },
+    {
+      "la": "…salutis et vitae exitus essent mortis de mundo. Timuit, quia de tribulationibus sanctorum querimoniam fecerit, qui non solum de tribulationibus eruendi a Domino, sed perpetuo sunt coronandi cum Domino",
+      "en": "…eath. He was afraid because he had made complaint concerning the tribulations of the saints, who are not only to be plucked out of tribulations by the Lord, but to be crowned perpetually with the Lord",
+      "column": "1113c",
+      "chunk": 8
+    },
+    {
+      "la": "illa nimirum opera, quibus mundum redemit,",
+      "en": "— those works, namely, by which he redeemed the world,",
+      "column": "1113c",
+      "chunk": 8
+    },
+    {
+      "la": "sicut iterum dicit Apostolus,",
+      "en": "as the Apostle says again,",
+      "column": "1113c",
+      "chunk": 8
+    },
+    {
+      "la": "id est, diabolum, quae videlicet opera, quanto quis intentius considerat, tanto de operibus suae fragilitatis amplius contremiscit. Quod vero juxta LXX legitur",
+      "en": "that is, the devil: which works, indeed, the more intently a man considers them, so much the more does he tremble concerning the works of his own frailty. But as to what is read according to the LXX,",
+      "column": "1113c",
+      "chunk": 8
+    },
+    {
+      "la": "… esset, et immortalis futurus, clarificato vultu ejus instar solis et vestimentis ejus nitentibus in similitudinem nivis. Ibi innotescebat, quia Filius Dei erat, dicente ad eum de coelis voce paterna,",
+      "en": "…ance being made bright after the fashion of the sun and his garments shining in the likeness of snow. There he was made known to be the Son of God, when the paternal voice said to him from the heavens",
+      "column": "1114a",
+      "chunk": 8
+    },
+    {
+      "la": "…et innotescebat, quo etiam exemplo Propheta, qui haec providebat in spiritu, admonebatur non solum patienter pressuras ferre malorum, sed et eis persequentibus gratiam suae benignitatis impendere. LXX",
+      "en": "…ophet, who foresaw these things in the spirit, was admonished not only to bear patiently the oppressions of the wicked, but even to bestow the grace of his kindness upon those who persecuted them. LXX",
+      "column": "1114b",
+      "chunk": 8
+    },
+    {
+      "la": "…atio, et in extrema hora ad destruenda peccata venerit Filius tuus, manifestius cognosceris. Aliter juxta historiam anni et tempus possunt illam plenitudinem temporis designare, de qua dicit Apostolus",
+      "en": "…r thy Son shall have come to destroy sins, thou shalt be more manifestly known. Otherwise, according to the history, the years and the time can designate that fulness of time of which the Apostle says",
+      "column": "1114b",
+      "chunk": 8
+    },
+    {
+      "la": "…annos longe adhuc vidit esse, atque a longe salutavit Propheta: quia dum appropiarent anni, dumque adveniret tempus, ostenderetur et cognosceretur Dominus. Nam et superius audivit, dicente sibi Domino",
+      "en": "…o be as yet far off, and saluted from afar; because while the years were drawing near, and while the time was coming, the Lord would be shown and known. For above also he heard, the Lord saying to him",
+      "column": "1114c",
+      "chunk": 8
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1114c",
+      "chunk": 8
+    },
+    {
+      "la": "… Hebraicum: Cum iratus fueris, misericordiae recordaberis, non debemus putare oblivisci Deum, et post iram suae misericordiae recordari, sed quod nos eum in poena positi putemus oblivisci, juxta illud",
+      "en": "…thou shalt be angry, thou wilt remember mercy, we must not think that God forgets and after wrath remembers his own mercy, but that we, set in punishment, think that he forgets, according to that word",
+      "column": "1114d",
+      "chunk": 8
+    },
+    {
+      "la": "…lementiam: non dixit, cum intuleris supplicia, misericordiae recordaberis, sed cum iratus fueris: qui autem irascitur, interdum non percutit, sed tantummodo comminatur, quod et Apostolus sentiens, ait",
+      "en": "…u shalt have inflicted punishments, thou wilt remember mercy, but, When thou shalt be angry; and he that is angry sometimes does not strike, but only threatens — which the Apostle also perceiving says",
+      "column": "1115a",
+      "chunk": 8
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1115a",
+      "chunk": 9
+    },
+    {
+      "la": "LXX",
+      "en": "LXX",
+      "column": "1115a",
+      "chunk": 9
+    },
+    {
+      "la": "…raesentibus et futuris, auctor est et largitor. Interpretatur autem Pharan os videntis, et significat quod de sermone eruditi viri venit notitia Filii Dei. Quod autem in quibusdam exemplaribus legitur",
+      "en": "…e bestower. Now Pharan is interpreted \"the mouth of one seeing,\" and signifies that the knowledge of the Son of God comes from the discourse of a learned man. But that which is read in certain copies,",
+      "column": "1115c",
+      "chunk": 9
+    },
+    {
+      "la": "…n Hierosolymis factum Scriptura testatur. Unde solet in Scripturis nonnunquam ipsum quoque templum Libani vocabulo designari. Hinc est enim illud Zachariae de venturo adversus eum exercitu Chaldaeorum",
+      "en": "…in the Scriptures the temple itself also is sometimes wont to be designated by the name of Libanus. For hence is that word of Zacharias concerning the army of the Chaldeans that was to come against it",
+      "column": "1115c",
+      "chunk": 9
+    },
+    {
+      "la": "Deus ergo a Libano venit, quia Dominus in carne apparens in ipso templo prima Evangelii semina aspersit, atque exinde orbem totum germine suae fidei et veritatis implevit. Unde dicit Isaias",
+      "en": "…s, because the Lord, appearing in the flesh, sprinkled in that very temple the first seeds of the Gospel, and thereafter filled the whole world with the germ of his faith and truth. Whence Isaias says",
+      "column": "1115d",
+      "chunk": 9
+    },
+    {
+      "la": "…bat eos, quasi homo parvulae aetatis; sed respondebat docentibus, quasi Deus aeternae majestatis. Ubi quaesitus et inventus a parentibus, etiam ipse per se, quod Deus ac Dei Filius esset insinuans ait",
+      "en": "…m as a man of tender age, but answered those who taught as God of eternal majesty. Where, being sought and found by his parents, he also of himself, intimating that he was God and the Son of God, said",
+      "column": "1116a",
+      "chunk": 9
+    },
+    {
+      "la": "Sanctus, inquit, de monte umbroso et condenso. Sanctus idem mediator Dei et hominum, qui supra manifeste dicitur Deus, de quo Virgini matri evangelizans Gabriel ait",
+      "en": "… he says, from the shady and thick mountain. The Holy One is the same mediator of God and men, who above is manifestly called God, of whom Gabriel, bringing the good tidings to the Virgin mother, says",
+      "column": "1116a",
+      "chunk": 9
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1116b",
+      "chunk": 9
+    },
+    {
+      "la": "LXX",
+      "en": "LXX",
+      "column": "1116b",
+      "chunk": 9
+    },
+    {
+      "la": "Descripta dispensatione Dominicae incarnationis, mox arcanum ascensionis, qua eadem humanitas erat clarificanda subjunxit, juxta illud Psalmistae",
+      "en": "…spensation of the Lord's incarnation having been described, he straightway subjoined the secret of the ascension, by which the same humanity was to be glorified, according to that word of the Psalmist",
+      "column": "1116b",
+      "chunk": 9
+    },
+    {
+      "la": "…m coeli virtutibus veraciter scientibus: quia ipse erat creator terrae, sicut et totius creaturae per divinitatem, qui tunc per humanitatem morabatur et videbatur in terra. Unde et eo nato concinebant",
+      "en": "…that he himself was the creator of the earth, as of every creature, through his divinity, who then through his humanity tarried and was seen upon the earth. Whence also at his birth they sang together",
+      "column": "1116c",
+      "chunk": 9
+    },
+    {
+      "la": "… fidemque mundo resurgendi donaret, splendor quoque ejus quasi sol justitiae clara luce radiavit, et cornua in manu ejus, vexilla et trophaea crucis, et in ipsis cornibus abscondita est fortitudo ejus",
+      "en": "…sing again, his splendour also shone forth with clear light as the sun of justice; and the horns in his hand are the standards and trophies of the cross, and in those very horns his strength is hidden",
+      "column": "1116d",
+      "chunk": 9
+    },
+    {
+      "la": "In cruce ergo paulisper abscondita est fortitudo ejus, quando dicebat ad Patrem",
+      "en": "On the cross, therefore, his strength was hidden for a little while, when he said to the Father",
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "la": "et",
+      "en": "and",
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "la": "et in ipsa cruce",
+      "en": "and on the cross itself",
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "la": "Juxta aliam autem editionem hoc in loco legitur",
+      "en": "But according to another edition it is read in this place",
+      "column": "1117a",
+      "chunk": 9
+    },
+    {
+      "la": "…orde propulsari. Possunt in cornibus more prophetarum regna hujus mundi insinuari: potest sublimitas humanae mentis sive bona seu reproba cornuum vocabulo designari; et cornua sunt in manibus Christi,",
+      "en": "… of the prophets, the kingdoms of this world can be intimated; the loftiness of the human mind, whether good or reprobate, can be designated by the name of horns; and horns are in the hands of Christ,",
+      "column": "1117b",
+      "chunk": 9
+    },
+    {
+      "la": "…rum, quibus inaniter extolluntur, confringat. Et exaltentur cornua justi, desideria videlicet Deo devota, quibus impiorum vitiorumque certamina cuncta superare contendunt. Quod autem juxta LXX legimus",
+      "en": "…t the horns of the just be exalted — namely, the desires devoted to God, by which they strive to overcome all the contests of the impious and of the vices. But as to what we read according to the LXX,",
+      "column": "1117c",
+      "chunk": 9
+    },
+    {
+      "la": "…lectione virtutis diligere vitia, et non leviter, sed fortiter, ita ut de nobis possit dici: et posuit diabolus dilectionem fortem vitiorum suorum; sed et hoc quod juxta quaedam exemplaria ita legitur",
+      "en": "…irtue to love vices, and that not lightly but strongly, so that it may be said of us: And the devil set the strong love of his own vices. But this also, which is read according to certain copies thus,",
+      "column": "1117d",
+      "chunk": 9
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1117d",
+      "chunk": 9
+    },
+    {
+      "la": "… est, accepisse nomen: siquidem Reseph reptans ventre interpretatur. Hoc est ergo, quod dicitur, statim ut venerit Dominus, et Jordane fuerit baptizatus, et ad columbae descensum vox patris intonuerit",
+      "en": "… the belly.\" This, therefore, is what is said: as soon as the Lord shall have come, and shall have been baptized in Jordan, and at the descent of the dove the voice of the Father shall have thundered,",
+      "column": "1118a",
+      "chunk": 9
+    },
+    {
+      "la": "exeunti de aquis occurret diabolus, et ante pedes illius stabit mors, ut coluber antiquus, quadraginta diebus tentabit eum in solitudine. Si autem juxta LXX legimus",
+      "en": "…evil shall meet him as he comes out of the waters, and death shall stand before his feet, and as the ancient snake he shall tempt him forty days in the wilderness. But if we read according to the LXX,",
+      "column": "1118b",
+      "chunk": 9
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1118c",
+      "chunk": 10
+    },
+    {
+      "la": "…nt montes hujus saeculi, et incurvati sunt colles hujus mundi. Sunt enim et alii montes et colles, quos salit et transilit sponsus in Cantico canticorum, de quibus et in secundo graduum psalmo dicitur",
+      "en": "…ld were bowed down. For there are also other mountains and hills, which the bridegroom leaps upon and leaps over in the Canticle of Canticles, of which it is said also in the second psalm of the steps",
+      "column": "1118c",
+      "chunk": 10
+    },
+    {
+      "la": "Montes autem saeculi ipsi sunt, qui et montes tenebrosi, de quibus Jeremias praecepit, ne impingantur pedes nostri super eos",
+      "en": "But the mountains of the world are those same which are also the dark mountains, concerning which Jeremias gave commandment that our feet be not dashed upon them",
+      "column": "1118d",
+      "chunk": 10
+    },
+    {
+      "la": "…aeculi altitudines ad nihilum deducentur, et omnis haereticorum scientia, quae primum tumebat ad Dei sermonis adventum, humiliatur, conteritur atque consumitur. Juxta aliam autem editionem ita legitur",
+      "en": "…ht to nothing, and all the knowledge of the heretics, which at first swelled up, is at the coming of the word of God humbled, ground down and consumed. But according to another edition it is read thus",
+      "column": "1119a",
+      "chunk": 10
+    },
+    {
+      "la": "… salubriter inclinandi, ut a Domino mereantur erigi, qui recte colles aeternales vocantur, quia dum temporaliter humiliati a superbiae tumore defluunt, in aeternum glorificati eriguntur ab eo, qui ait",
+      "en": "…ed up by the Lord — who are rightly called everlasting hills, because while, humbled for a time, they flow away from the swelling of pride, they are raised up, glorified unto eternity, by him who says",
+      "column": "1119d",
+      "chunk": 10
+    },
+    {
+      "la": "Sequitur in eadem editione",
+      "en": "There follows in the same edition",
+      "column": "1119d",
+      "chunk": 10
+    },
+    {
+      "la": "…bus relicto corporaliter mundo rediit ad Patrem, cum quo aeternaliter mansit etiam, cum temporaliter conversaretur in mundo: quae nimirum itinera desideravit ipse cum appropians passioni dicebat Patri",
+      "en": "…returned to the Father, with whom he remained eternally even while he tarried temporally in the world: which journeys indeed he himself desired when, drawing near to the passion, he said to the Father",
+      "column": "1120a",
+      "chunk": 10
+    },
+    {
+      "la": "Haec de itineribus assumptae temporalitatis, statimque de itineribus aeternitatis adjunxit",
+      "en": "These things he said of the journeys of the temporality he had assumed; and straightway he added of the journeys of eternity",
+      "column": "1120a",
+      "chunk": 10
+    },
+    {
+      "la": "Haec autem itinera aeternitatis propheta prae laboribus vidit, incarnationis videlicet et passionis; de quibus supra dictum est",
+      "en": "But these journeys of eternity the prophet saw by reason of the labours, namely of the incarnation and of the passion; of which it was said above",
+      "column": "1120a",
+      "chunk": 10
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1120a",
+      "chunk": 10
+    },
+    {
+      "la": "LXX",
+      "en": "LXX",
+      "column": "1120a",
+      "chunk": 10
+    },
+    {
+      "la": "Aethiopes tetri et amantes tenebras et ab omni luce alieni, qui draconis carne vescuntur, de quo scriptum est",
+      "en": "The Ethiopians — foul, and lovers of darkness, and strangers to all light, who feed upon the flesh of the dragon, of whom it is written",
+      "column": "1120b",
+      "chunk": 10
+    },
+    {
+      "la": "…vandae. Quod autem non ait: Aethiopes et Madianitae expavescent, sed: tabernacula Aethiopum expavescent, inquit, et tabernacula terrae Madian, illo locutionis genere dicit, quo in Evangelio dictum est",
+      "en": "… shall be terrified, but, The tabernacles of the Ethiopians shall be terrified, he says, and the tabernacles of the land of Madian, he speaks by that manner of speech by which it is said in the Gospel",
+      "column": "1120d",
+      "chunk": 10
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1120d",
+      "chunk": 11
+    },
+    {
+      "la": "LXX",
+      "en": "LXX",
+      "column": "1121a",
+      "chunk": 11
+    },
+    {
+      "la": "…rahere potuerunt: ita nunc quadrigas conscendens tuas, arcumque corripiens, salutem dabis populo tuo, et juramenta, quae jurasti patribus nostris et tribubus, explebis in sempiternum. Quod autem dicit",
+      "en": "…ting thy chariots and seizing thy bow, thou wilt give salvation to thy people, and the oaths which thou didst swear to our fathers and to the tribes thou wilt fulfil for evermore. But in that he says,",
+      "column": "1121a",
+      "chunk": 11
+    },
+    {
+      "la": "dicit ambigue et tam interrogantis eloquio, quam probantis: sunt enim et bona flumina, sunt et mala: est mare pessimum, et est mare optimum. Bonorum fluminum illud exemplum est",
+      "en": "…sly, and in the language as much of one questioning as of one approving; for there are both good rivers and evil ones; there is a worst sea, and there is a best sea. Of good rivers this is the example",
+      "column": "1121b",
+      "chunk": 11
+    },
+    {
+      "la": "et, quod",
+      "en": "and that",
+      "column": "1121b",
+      "chunk": 11
+    },
+    {
+      "la": "malorum illud, quod Pharao loquitur in Ezechiel",
+      "en": "of evil ones, that which Pharao speaks in Ezechiel",
+      "column": "1121b",
+      "chunk": 11
+    },
+    {
+      "la": "in quibus draco habitat, et multa his similia. Similiter et mare in bonam partem accipitur, ut est illud quod Psalmista dicit de Ecclesia",
+      "en": "in which the dragon dwells, and many things like to these. Likewise the sea also is taken in a good part, as is that which the Psalmist says of the Church",
+      "column": "1121b",
+      "chunk": 11
+    },
+    {
+      "la": "Item in malam, ut est illud",
+      "en": "Likewise in a bad part, as is that",
+      "column": "1121c",
+      "chunk": 11
+    },
+    {
+      "la": "et caetera. Quod si bona sunt flumina et bonum mare, super quas Jesus Ecclesiam suam collocat ac praeparat, etsi in malam partem accipitur, illud mare et flumina, de quibus scriptum est",
+      "en": "and the rest. But if the rivers are good and the sea good, upon which Jesus sets and prepares his Church, even though that sea and those rivers are taken in a bad part of which it is written",
+      "column": "1121c",
+      "chunk": 11
+    },
+    {
+      "la": "…am locis, et in quibusdam malas positas intelligere possumus. Nam currus et quadrigas Pharaonis, in Exodo maris fluctibus demersos legimus; et econtrario sponsus ad sponsam in Cantico canticorum dicit",
+      "en": "…in others. For we read that the chariots and four-horse cars of Pharao were drowned in the waves of the sea in Exodus; and on the contrary the bridegroom says to the bride in the Canticle of Canticles",
+      "column": "1121c",
+      "chunk": 11
+    },
+    {
+      "la": "…am sponsam suam vocat, quadrigis comparet Pharaonis, sed quo omnis anima, quamvis sancta sit atque perfecta, ad Deum comparata, quasi currus Pharaonis sit, et jumentum. Unde et Moyses loquitur ad Deum",
+      "en": "… bride, to the four-horse cars of Pharao, but that every soul, however holy and perfect it be, compared to God is as it were a chariot of Pharao, and a beast of burden. Whence Moses also speaks to God",
+      "column": "1121d",
+      "chunk": 11
+    },
+    {
+      "la": "…Pharaonis, sed quo omnis anima, quamvis sancta sit atque perfecta, ad Deum comparata, quasi currus Pharaonis sit, et jumentum. Unde et Moyses loquitur ad Deum: « Ego autem sum irrationabilis; et David",
+      "en": "…harao, but that every soul, however holy and perfect it be, compared to God is as it were a chariot of Pharao, and a beast of burden. Whence Moses also speaks to God: « But I am unreasoning; and David",
+      "column": "1121d",
+      "chunk": 11
+    },
+    {
+      "la": "non quo absolute jumentum sit, sed quo apud Deum jumentum sit",
+      "en": "not that he is a beast of burden absolutely, but that before God he is a beast of burden",
+      "column": "1121d",
+      "chunk": 11
+    },
+    {
+      "la": "…bus spicula testimoniorum divinorum emittuntur, et compleat juramenta tribubus Domini, quae locutus est patribus eorum. Illis videlicet tribubus, de quibus Psalmista de Jerusalem mystica disputans ait",
+      "en": "…testimonies are sent forth, and fulfils the oaths to the tribes of the Lord which he spoke to their fathers: to those tribes, namely, of which the Psalmist, discoursing of the mystical Jerusalem, says",
+      "column": "1122a",
+      "chunk": 11
+    },
+    {
+      "la": "Potest autem in hoc, quod juxta editionem LXX interpretum legitur",
+      "en": "And in this which is read according to the edition of the LXX interpreters,",
+      "column": "1122a",
+      "chunk": 11
+    },
+    {
+      "la": "…ratiam tuae pietatis impendis. Nam cerno quidem te apostolos ad praedicandam gentibus gloriam tuam esse missurum, sed qui sunt credituri, tuae est, non humanae cogitationis. Hoc est enim quod sequitur",
+      "en": "…grievously? For I do indeed perceive that thou wilt send apostles to preach thy glory to the nations; but who they are that shall believe belongs to thy thought, not to man's. For this is what follows",
+      "column": "1122b",
+      "chunk": 11
+    },
+    {
+      "la": "…cent. Cujus equitatus figura etiam juxta litteram in Domino monstrata est, cum Hierosolymam tendens sedebat asino concinentibus turbis, quae antecedebant, et quae sequebantur, et quae obviam veniebant",
+      "en": "…igure was shown in the Lord even according to the letter, when, journeying to Jerusalem, he sat upon an ass, while the crowds that went before and that followed and that came to meet him sang together",
+      "column": "1122c",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1122c",
+      "chunk": 11
+    },
+    {
+      "la": "…sceptra, id est, regna mundi examinanda esse praevidit. Insinuans ergo Propheta, quid Dominus noster equos ascendens, id est, apostolos et eorum successores gratia sua implens ac regens agat in illis,",
+      "en": "…to be examined. The Prophet, therefore, intimating what our Lord does in them when he ascends upon his horses — that is, when he fills and rules with his grace the apostles and their successors — says",
+      "column": "1122d",
+      "chunk": 11
+    },
+    {
+      "la": "…ad comminationem irae quasi ad extentum arcum territus fuerit, et pietati tuae supplicare curaverit, emissionem sagittarum, id est, comminationem non sentiat perennium poenarum. Quod autem praemittens",
+      "en": "…t a stretched bow, and shall have taken care to entreat thy mercy, may not feel the sending forth of the arrows, that is, the threatening of everlasting punishments. But in that, having set down first",
+      "column": "1122d",
+      "chunk": 11
+    },
+    {
+      "la": "addidit,",
+      "en": "he added",
+      "column": "1122d",
+      "chunk": 11
+    },
+    {
+      "la": "Deum Patrem significat, de quo ipse Filius",
+      "en": "he signifies God the Father, of whom the Son himself says",
+      "column": "1123a",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1123a",
+      "chunk": 11
+    },
+    {
+      "la": "…t non fluere; cum autem ad praedicationem sermonis Dei concussa fuerit, et de priori statu mota, tunc erumpere, quod latebat et in refectione potantium fluere. Quod autem juxta aliam editionem legitur",
+      "en": "…hing of the word of God, and moved from its former state, then that which lay hidden bursts forth and flows for the refreshment of those who drink. But as to what is read according to another edition,",
+      "column": "1123b",
+      "chunk": 11
+    },
+    {
+      "la": "Flumina hoc loco non eadem, quibus supra iram Domini, furoremque timebat, sed illa potius dicit, de quibus ipse in Evangelio",
+      "en": ": by rivers in this place he does not mean the same ones concerning which above he feared the wrath and the fury of the Lord, but rather those of which he himself says in the Gospel",
+      "column": "1123b",
+      "chunk": 11
+    },
+    {
+      "la": "Et exponens evangelista",
+      "en": "And the evangelist expounding it",
+      "column": "1123b",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1123c",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1124b",
+      "chunk": 11
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1124b",
+      "chunk": 12
+    },
+    {
+      "la": "…ctionis, qua duritiam terrenae mentis ad agendam pro erratibus suis poenitentiam rescindunt. Abyssus vero recte vocantur ab altitudine scientiae, qua ipsi intus implentur, Salomone attestante, qui ait",
+      "en": "…ess of the earthly mind to do penance for its errors. But they are rightly called a deep from the height of the knowledge wherewith they themselves are filled within, Solomon bearing witness, who says",
+      "column": "1124c",
+      "chunk": 12
+    },
+    {
+      "la": "…um fonte sapientiae procedit, quo intus ipsi mirabilius contemplatis coelestibus gaudiis illustrantur. An non abyssus magna dedit vocem suam ab altitudine phantasiae suae, cum diceret Paulus apostolus",
+      "en": "… they themselves within are more marvellously enlightened by the contemplation of heavenly joys. Or did not the great deep give its voice from the height of its imagination, when Paul the apostle said",
+      "column": "1124d",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1125a",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1125b",
+      "chunk": 12
+    },
+    {
+      "la": "…ma fidelis dicere, vulnerata charitate ego sum, quae videlicet jacula in lumine eunt, quia ministerio doctorum veritatis verba mundo palam innotuerunt, juxta quod ipsa Veritas eisdem praecipit, dicens",
+      "en": "…: which darts, namely, go in the light, because through the ministry of the doctors the words of truth became openly known to the world, according to that which the Truth itself commanded them, saying",
+      "column": "1125b",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1125c",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1125d",
+      "chunk": 12
+    },
+    {
+      "la": "…it, quia ab unctione gratiae spiritalis rectissime hoc vocabulo nuncupantur. Unde est illud Psalmistae de his qui sanctis nocere volentes, divina sunt prohibitione coerciti. Et corripuit pro eis reges",
+      "en": "…re most rightly named by this word. Whence is that word of the Psalmist concerning those who, wishing to hurt the saints, were restrained by a divine prohibition. And he reproved kings for their sakes",
+      "column": "1126a",
+      "chunk": 12
+    },
+    {
+      "la": "… non quos christos invenit, sed quos egrediendo a Patre et in carne apparendo per adoptionis Spiritum christos, id est, unctos suos fecit. De qua unctione monens suos auditores Joannes apostolus dicit",
+      "en": "…by going forth from the Father and appearing in the flesh, he made christs, that is, his anointed ones, through the Spirit of adoption. Of which unction John the apostle, admonishing his hearers, says",
+      "column": "1126a",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1126a",
+      "chunk": 12
+    },
+    {
+      "la": "…venientibus annis, ingruente Romano exercitu, exceptis solum eis qui in fidem se Evangelicae gratiae secreverant, enormi est clade damnata, et ipsa insuper regno ac patria privata. Et hoc est quod ait",
+      "en": "…ed who had separated themselves unto the faith of the evangelical grace — it was condemned with a monstrous slaughter, and was moreover itself deprived of kingdom and country. And this is what he says",
+      "column": "1126c",
+      "chunk": 12
+    },
+    {
+      "la": "cervicem videlicet regni, quo contra Dominum fuerant erecti, de quo dicit eisdem in se etiam furentibus beatissimus protomartyr Stephanus",
+      "en": "— the neck, namely, of the kingdom, wherewith they had been raised up against the Lord; of which the most blessed protomartyr Stephen says to those same men, raging even against himself",
+      "column": "1126c",
+      "chunk": 12
+    },
+    {
+      "la": "Sed ad hanc usque cervicem vincula Dominus excitavit, cum ad eversionem superbae gentis hostilem misit exercitum. Unde scriptum est",
+      "en": "But even unto this neck did the Lord stir up the bonds, when he sent a hostile army for the overthrow of that proud nation. Whence it is written",
+      "column": "1126c",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1126c",
+      "chunk": 12
+    },
+    {
+      "la": "…mmittens in aquas, hoc est, in gentes multas, fecisti eis viam in luto aquarum multarum, id est, ut conculces eos, et quasi lutum equorum tuorum, et currum ungula et rota conteras. Quod autem sequitur",
+      "en": "… madest them a way in the mire of many waters, that is, that thou mightest trample them down and grind them like mire with the hoof and the wheel of thy horses and thy chariot. But as to what follows,",
+      "column": "1127a",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1127c",
+      "chunk": 12
+    },
+    {
+      "la": "Pro alienatione in Graeco scriptum est",
+      "en": "For \"alienation\" it is written in the Greek",
+      "column": "1127c",
+      "chunk": 12
+    },
+    {
+      "la": "quod quidam",
+      "en": "which some have interpreted",
+      "column": "1127c",
+      "chunk": 12
+    },
+    {
+      "la": "alii",
+      "en": "others",
+      "column": "1127c",
+      "chunk": 12
+    },
+    {
+      "la": "…aculo turbatus ac stupefactus a sensu suae mentis redditur alienus, quod accidisse Judaeis crebra Evangelii prodit historia dicens: Quod stuperent et mirarentur in doctrina ac virtutibus Jesu dicentes",
+      "en": "…the sense of his own mind. And that this befell the Jews the frequent history of the Gospel declares, saying that they were stupefied and wondered at the doctrine and the mighty works of Jesus, saying",
+      "column": "1127d",
+      "chunk": 12
+    },
+    {
+      "la": "Et in Actibus apostolorum curato per Petrum et Joannem claudo ad ostium templi",
+      "en": "And in the Acts of the apostles, when the lame man at the gate of the temple had been healed by Peter and John",
+      "column": "1127d",
+      "chunk": 12
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1128a",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1128a",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1128c",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1128d",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1129a",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1129b",
+      "chunk": 13
+    },
+    {
+      "la": "Requiescit enim in die non solum retributionis, sed et tribulationis, quia per afflictiones temporales aeterna se gaudia aucturum esse non dubitat juxta illud Apostoli",
+      "en": "…r he rests in the day not only of retribution but also of tribulation, because he doubts not that through temporal afflictions he shall increase his eternal joys, according to that word of the Apostle",
+      "column": "1129b",
+      "chunk": 13
+    },
+    {
+      "la": "Et iterum",
+      "en": "And again",
+      "column": "1129b",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1129c",
+      "chunk": 13
+    },
+    {
+      "la": "LXX",
+      "en": "LXX",
+      "column": "1129d",
+      "chunk": 13
+    },
+    {
+      "la": "…populi prioris, et derelicta fuerit filia Sion, sicut tabernaculum in vinea, et sicut casula in cucumerario, et sicut civitas, quae expugnatur, eo quidem pereunte electus sum populo, de quo dictum est",
+      "en": "…l have been left as a tabernacle in a vineyard, and as a lodge in a cucumber field, and as a city that is stormed — while that one indeed perishes I have been chosen for the people of which it is said",
+      "column": "1130a",
+      "chunk": 13
+    },
+    {
+      "la": "…sque spiritaliter viventibus, spiritales faciebant escas campi Scripturarum divinarum latissimi, quorum pabulo delectabatur ille, qui ut jumentum factus erat apud Deum et semper illi adhaerebat dicens",
+      "en": "…living spiritually, the most broad fields of the divine Scriptures made spiritual meats, in whose pasture he delighted who had been made as a beast of burden before God and always clung to him, saying",
+      "column": "1130c",
+      "chunk": 13
+    },
+    {
+      "la": "…suavitatem in se quaerenti vitiorum acredinem proferebant, mentiebatur opus olivae, cum eadem plebs oleo adolationis impinguaret capita miserorum, ductaque prophetae veracia falso ore resonaret dicens",
+      "en": "…ices. The work of the olive lied, when that same people fattened the heads of wretched men with the oil of flattery, and re-echoed with a false mouth the truthful things drawn from the prophet, saying",
+      "column": "1130c",
+      "chunk": 13
+    },
+    {
+      "la": "… quia quibus internae refectio dulcedinis abest, unde innocentia vitae simplicis proveniat, non est. Sic autem dictum est defecerunt ab esca oves, id est, quia esca deerat, sicut et in psalmo Propheta",
+      "en": "…bsent, there is nothing whence the innocence of a simple life may come forth. And thus it is said, the sheep have failed from meat, that is, because meat was lacking — as also the Prophet in the psalm",
+      "column": "1130d",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1131a",
+      "chunk": 13
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1131a",
+      "chunk": 13
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1131b",
+      "chunk": 14
+    },
+    {
+      "la": "…eae aut hinnulo cervorum, et quia ipse est cervus, mihi quoque donavit, ut cervus essem sublimis cornibus findens ungulas, cibos ruminans, et ad odorem meum serpentes fugiant, de quo dicitur in psalmo",
+      "en": "…he himself is a hart, he granted to me also that I should be a hart, lofty in horns, dividing the hoof, chewing the cud, and that at my scent the serpents should flee: of which it is said in the psalm",
+      "column": "1131c",
+      "chunk": 14
+    },
+    {
+      "la": "Et rursus",
+      "en": "And again",
+      "column": "1131c",
+      "chunk": 14
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1131c",
+      "chunk": 14
+    },
+    {
+      "la": "…uid boni ago, merito enim adjuvantur a Domino, ut victis tentationibus probati ad palmam supernae vocationis perveniant, qui totam victoriae suae causam ad ejus laudem referunt. Quidam codices habent,",
+      "en": "…ey helped by the Lord, so that, temptations being conquered, they may come approved to the palm of the heavenly calling, who refer the whole cause of their victory to his praise. Certain codices have,",
+      "column": "1132a",
+      "chunk": 14
+    },
+    {
+      "la": "quod ad unum eumdemque sensum respicit. Vincit enim in Cantico Domini, quisquis in cunctis, quas patitur, tribulationibus, illi gratias ex corde agere novit, sciens quoniam",
+      "en": "which looks to one and the same sense. For he conquers in the Canticle of the Lord whosoever, in all the tribulations which he suffers, knows how to give him thanks from the heart, knowing that",
+      "column": "1132a",
+      "chunk": 14
+    },
+    {
+      "la": "…iam talis esse sensus, ac si ipse diceret: Ego vincam in carmine, et manus meae component cytharam et psalterium et omne organi genus, scribamque panegyricum triumphanti, et qui principio locutus sum,",
+      "en": "…aid: I shall conquer in song, and my hands shall compose the cithara and the psaltery and every kind of instrument, and I shall write a panegyric to him that triumphs; and I who at the beginning said,",
+      "column": "1132a",
+      "chunk": 14
+    },
+    {
+      "la": "…nis et ad finem usque complesse, si forte hoc admoneat, ut qui ore Deum laudare studeat, operibus non contradicat: non est enim pulchra laudatio in ore peccatoris. Ideo ipse Dominus in Evangelio ait -",
+      "en": "…onishes us that he who is zealous to praise God with his mouth should not contradict it by his works: for praise is not comely in the mouth of a sinner. Therefore the Lord himself says in the Gospel -",
+      "column": "1132d",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1133a",
+      "chunk": 15
+    },
+    {
+      "la": "Juxta primordium Isaiae prophetae ita scriptum est",
+      "en": "According to the opening of the prophet Isaiah it is thus written",
+      "column": "1133a",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1133b",
+      "chunk": 15
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1133b",
+      "chunk": 15
+    },
+    {
+      "la": "…spiritualium fructuum a fidelium cordibus expetit, ipsa enim sunt vinea Domini, unde ille fructum sibi amabilem, hoc est, bonorum operum quaerit. Huic similem comparationem in Isaia propheta invenimus",
+      "en": "…ts of spiritual fruits; for these are the vineyard of the Lord, from which he seeks a fruit lovely to himself, that is, the fruit of good works. A comparison like to this we find in the prophet Isaiah",
+      "column": "1133b",
+      "chunk": 15
+    },
+    {
+      "la": "Verum quia Moyses doctrinam suam in pluviam concrescere dixit, ut patenter, quae haec pluvia esset, demonstraret, subjunxit dicens,",
+      "en": "But because Moses said that his doctrine gathers thick into rain, in order that he might plainly show what this rain was, he subjoined, saying,",
+      "column": "1133c",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1133c",
+      "chunk": 15
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1133c",
+      "chunk": 15
+    },
+    {
+      "la": "Magnificare Dominum est majestatem Salvatoris corde credulo, ore pio simul cum bonis actibus praedicare. Unde Maria mater Domini in cantico Evangelii ait",
+      "en": "To magnify the Lord is to preach the majesty of the Saviour with a believing heart and a devout mouth, together with good deeds. Whence Mary the mother of the Lord says in the canticle of the Gospel",
+      "column": "1133d",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1133d",
+      "chunk": 15
+    },
+    {
+      "la": "Quae ergo illa sunt? audi Moysen in Geneseos dicentem",
+      "en": "Which then are these? Hear Moses saying in Genesis",
+      "column": "1133d",
+      "chunk": 15
+    },
+    {
+      "la": "Opus ergo Dei est redemptio humani generis, quam quando perfecit, Sabbatum spirituale in sepulcro requiescens nobis ostendit",
+      "en": "The work of God, therefore, is the redemption of the human race; and when he had perfected it, resting in the sepulchre he showed us the spiritual Sabbath",
+      "column": "1133d",
+      "chunk": 15
+    },
+    {
+      "la": "quia omnia mandata ejus vera. Unde Psalmista ait",
+      "en": "because all his commandments are true. Whence the Psalmist says",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "la": "Et item",
+      "en": "And likewise",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "la": "Et alibi",
+      "en": "And elsewhere",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1134a",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1134b",
+      "chunk": 15
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1134b",
+      "chunk": 15
+    },
+    {
+      "la": "Quomodo non filii Dei, nisi quia non ex fide",
+      "en": "How are they not sons of God, save because they are not of faith",
+      "column": "1134b",
+      "chunk": 15
+    },
+    {
+      "la": "Unde Dominus Judaeis fidem ejus recipere nolentibus et doctrinam illius spernentibus, ait",
+      "en": "Whence the Lord says to the Jews, who would not receive faith in him and who spurned his teaching",
+      "column": "1134b",
+      "chunk": 15
+    },
+    {
+      "la": "Et Stephanus ad eosdem Judaeos ait",
+      "en": "And Stephen says to the same Jews",
+      "column": "1134c",
+      "chunk": 15
+    },
+    {
+      "la": "Qui ergo incorrigibiliter peccat, filium Dei se non esse probat. Illa autem editio, quam septuaginta interpretes ediderunt, ita habet",
+      "en": "He therefore who sins incorrigibly proves himself not to be a son of God. But that edition which the seventy interpreters published has it thus",
+      "column": "1134c",
+      "chunk": 15
+    },
+    {
+      "la": "…d merito ad quaerendum movet, si generaliter dictum est, peccaverunt non ei filii, quoniam qui peccat, non Deo peccat, id est, non Deo nocet, sed sibi. Quomodo intelligendum sit quod in psalmo legitur",
+      "en": "… generally, they have sinned not against him, the sons — since he who sins does not sin against God, that is, does not harm God, but himself — how then is it to be understood that is read in the psalm",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "la": "Et in Jeremia",
+      "en": "And in Jeremiah",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "la": "Et iterum in psalmo",
+      "en": "And again in the psalm",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "la": "Et utrum hoc sit peccare Deo, quod peccare in Deum, unde et Heli sacerdos ait",
+      "en": "And whether it is the same thing to sin *to* God as to sin *against* God — whence also Heli the priest says",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "la": "… et Heli sacerdos ait: « Si in Deum peccaverit, quis orabit pro eo [n: (I Reg. II)]. Peccare in Deum est in his peccare, quae ad Dei cultum pertinent, nam hoc Deus legitur dixisse ad Abimelech de Sara",
+      "en": "…n against God, who shall pray for him [n: (I Reg. II)]. To sin against God is to sin in those things which pertain to the worship of God; for God is read to have said this to Abimelech concerning Sara",
+      "column": "1134d",
+      "chunk": 15
+    },
+    {
+      "la": "…iptum occurrat, quod huic sensui resistat, hi mihi videntur non immerito dici, qui condignam poenitentiam peccati sui non agunt, ut glorificetur Deus ignoscens, causam quippe reddens David cur dixerit",
+      "en": "…ense — those men seem to me to be so called not undeservedly who do not perform worthy penance for their sin, so that God may be glorified in pardoning; for David, rendering the reason why he had said",
+      "column": "1135a",
+      "chunk": 15
+    },
+    {
+      "la": "Subjecit et dicit",
+      "en": "subjoined and says",
+      "column": "1135a",
+      "chunk": 15
+    },
+    {
+      "la": "quia cunctis recte sentientibus, liquido apparet, quod Dominus est justus in omnibus viis suis, et sanctus in omnibus operibus suis",
+      "en": "because to all who think rightly it plainly appears that the Lord is just in all his ways and holy in all his works",
+      "column": "1135a",
+      "chunk": 15
+    },
+    {
+      "la": "Similiter et quod a David dictum est",
+      "en": "Likewise also as to what was said by David",
+      "column": "1135a",
+      "chunk": 15
+    },
+    {
+      "la": "…praevidebat Propheta futuros quosdam, qui sic fuerunt peccaturi, Deum offendendo magnis iniquitatibus suis, ut nec poenitentiam agere vellent, et ad Deum redire, ut sanarentur; de quibus etiam dicitur",
+      "en": "…d be certain men who were so to sin, offending God by their great iniquities, that they would not even be willing to do penance and to return to God, that they might be healed; of whom also it is said",
+      "column": "1135b",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1135b",
+      "chunk": 15
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1135b",
+      "chunk": 15
+    },
+    {
+      "la": "Simili elogio eorum perfidiam Salvator in Evangelio denotavit, qui tentantibus et signum a se quaerentibus respondit dicens",
+      "en": "With a like description did the Saviour brand their treachery in the Gospel, when he answered those who tempted him and sought a sign from him, saying",
+      "column": "1135b",
+      "chunk": 15
+    },
+    {
+      "la": "Sic et Joannes Baptista turbis Judaeorum ad se venientibus ait",
+      "en": "So too John the Baptist says to the crowds of the Jews who came to him",
+      "column": "1135b",
+      "chunk": 15
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1135c",
+      "chunk": 16
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1135c",
+      "chunk": 16
+    },
+    {
+      "la": "…sed haec generatio prava et perversa pro tantis bonis non condignas grates Domino suo rependit: quin potius idola sibi fabricavit, atque illis divinum honorem et sacrificia stultissime impendit dicens",
+      "en": "…nd perverse generation repaid to its Lord no worthy thanks for so many good things: nay rather it fashioned idols for itself, and most foolishly bestowed upon them divine honour and sacrifices, saying",
+      "column": "1136a",
+      "chunk": 16
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1136a",
+      "chunk": 16
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1136a",
+      "chunk": 16
+    },
+    {
+      "la": "…stulti, sed doctores legis et praedicatores Evangelii mystice intelligendi sunt, quorum doctrinis et exemplis potest homo ad intelligentiam divinam proficere, unde Apostolus ad Corinthios scribens ait",
+      "en": "…ns whatever, but the doctors of the law and the preachers of the Gospel, by whose teachings and examples a man can advance to divine understanding; whence the Apostle, writing to the Corinthians, says",
+      "column": "1136b",
+      "chunk": 16
+    },
+    {
+      "la": "Et ad Hebraeos",
+      "en": "And to the Hebrews",
+      "column": "1136b",
+      "chunk": 16
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1136c",
+      "chunk": 16
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1136c",
+      "chunk": 16
+    },
+    {
+      "la": "…men suum et potentiam suam notam faceret et voluntatis suae secreta per legis judicia et prophetarum scripta manifestaret, sicut superius in praesenti libro Moyses testatus est dicens [n: (Deut. VII)]",
+      "en": "…wn his name and his power, and manifest the secrets of his will through the judgments of the law and the writings of the prophets, as above in the present book Moses testified, saying [n: (Deut. VII)]",
+      "column": "1136d",
+      "chunk": 16
+    },
+    {
+      "la": "…gimine atque defensione humana natura juxta dispensationem omnipotentis Dei custodiatur atque ab inimicis tueatur. Unde Dominus in Evangelio de parvulis non scandalizandis docens, mox subjunxit dicens",
+      "en": "…kept according to the dispensation of almighty God, and be protected from its enemies. Whence the Lord in the Gospel, teaching that little ones are not to be scandalized, straightway subjoined, saying",
+      "column": "1137b",
+      "chunk": 16
+    },
+    {
+      "la": "Quia enim superna illa civitas ex angelis et hominibus constat, ad quam tantos credimus ex hominum genere conscendere, quantos illic contigit electos angelos remansisse sicut scriptum est,",
+      "en": "For since that supernal city consists of angels and men, to which we believe that as many ascend from the race of men as it befell that elect angels remained there — as it is written,",
+      "column": "1137b",
+      "chunk": 16
+    },
+    {
+      "la": "…m per conversationis similitudinem deputantur. Pars autem Domini populus est Jacob spiritualis, et funiculus haereditatis ejus Israel verus, Ecclesia videlicet Catholica, de qua per Psalmistam dicitur",
+      "en": "…manner of life. But the portion of the Lord is the people, the spiritual Jacob; and the cord of his inheritance is the true Israel, namely the Catholic Church, of which it is said through the Psalmist",
+      "column": "1137c",
+      "chunk": 16
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1137c",
+      "chunk": 16
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1137d",
+      "chunk": 16
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1138a",
+      "chunk": 17
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1138b",
+      "chunk": 17
+    },
+    {
+      "la": "…inde viderit sibi periculum imminere, obtundit rostrum in petra durissima, donec iterum in pristinum usum revertatur. Et inde mystico sermone in psalmo scriptum est, dicente Propheta ad animam fidelem",
+      "en": "…tens it from thence, it blunts its beak upon a very hard rock, until it returns again to its former use. And thence it is written in the psalm in mystic speech, the Prophet saying to the faithful soul",
+      "column": "1138c",
+      "chunk": 17
+    },
+    {
+      "la": "…i generis redemptione suscepit, ad alta coelorum provexit, nos dictis atque exemplis exhortans, quatenus illuc sequamur fide, tendamusque devotione, ubi ipse ascendit corpore, unde et in Evangelio ait",
+      "en": "…ption of the human race, exhorting us by words and by examples that we should follow thither by faith, and reach out by devotion, whither he himself ascended in body; whence also he says in the Gospel",
+      "column": "1138d",
+      "chunk": 17
+    },
+    {
+      "la": "… sublatus, in pelago tamen istius mundi majestatis suae intuitu videt, quos per praedam salutiferam cruat, atque ad littus aeternae beatitudinis amoris sui fune attrahat. Unde et ipse in Evangelio ait",
+      "en": "…ld, by the gaze of his majesty, those whom he may [sic: *cruat*] by the saving prey, and may draw to the shore of eternal blessedness by the cord of his love. Whence he himself also says in the Gospel",
+      "column": "1139a",
+      "chunk": 17
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1139c",
+      "chunk": 17
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1139c",
+      "chunk": 17
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1139d",
+      "chunk": 17
+    },
+    {
+      "la": "Alia edito",
+      "en": "Another [sic: *edito*]",
+      "column": "1139d",
+      "chunk": 17
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1140a",
+      "chunk": 17
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1140a",
+      "chunk": 17
+    },
+    {
+      "la": "…quam tale aliquid juxta historiam legitur, si tota Testamenti Veteris recenseatur, nusquam de petra mel, nusquam oleum de firma petra, vel saxo durissimo populus ille suxit: sed quia juxta Pauli vocem",
+      "en": "…ory, if the whole of the Old Testament be reviewed: nowhere did that people suck honey out of a rock, nowhere oil out of a firm rock or out of the hardest stone. But because, according to Paul's word,",
+      "column": "1140a",
+      "chunk": 17
+    },
+    {
+      "la": "…cipulis ostendit. Sed firma petra oleum fudit, quia post Resurrectionem suam factus jam impassibilis per afflationem Spiritus donum sanctae unctionis emanavit. De hoc quoque oleo per prophetam dicitur",
+      "en": "…k poured out oil, because after his Resurrection, being now made impassible, he sent forth the gift of holy unction through the breathing of the Spirit. Of this oil also it is said through the prophet",
+      "column": "1140b",
+      "chunk": 17
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1140b",
+      "chunk": 17
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1140b",
+      "chunk": 17
+    },
+    {
+      "la": "…, quos ipsi ad fidem imbuerant, ad refectionem mentis suae perceperunt; arietum enim nomine apostoli et apostolicae dignitatis viri designantur, quia ipsi duces sunt gregis Dei. Unde dicitur in psalmo",
+      "en": "… refreshment of their mind. For by the name of rams are signified the apostles and men of apostolic dignity, because they themselves are the leaders of the flock of God. Whence it is said in the psalm",
+      "column": "1140c",
+      "chunk": 17
+    },
+    {
+      "la": "Quod autem subjungitur,",
+      "en": "But that which is subjoined,",
+      "column": "1140d",
+      "chunk": 17
+    },
+    {
+      "la": "…edo interpretatur, filii enim pinguedinis sunt, qui disciplinis Novi Testamenti instituti sunt, ubi scientiae multitudo et virtutum magnitudo consistit. Potest et illud, quod in alia editione legitur,",
+      "en": "…re sons of fatness who have been instructed in the disciplines of the New Testament, wherein consists a multitude of knowledge and a greatness of virtues. That also which is read in the other edition,",
+      "column": "1140d",
+      "chunk": 17
+    },
+    {
+      "la": "…itentiam agant pro suis excessibus, unde ille, qui rex simul et propheta fuit, et cui de incarnatione Christi promissum est, quod ex ejus semine nasceretur, pro suis delictis Dominum deprecatur dicens",
+      "en": "…essions. Whence he who was at once king and prophet, and to whom it was promised concerning the incarnation of Christ that he should be born of his seed, entreats the Lord for his own offences, saying",
+      "column": "1141a",
+      "chunk": 17
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1141b",
+      "chunk": 17
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1141b",
+      "chunk": 17
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1141c",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1141c",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1141d",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1142a",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1142a",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1142a",
+      "chunk": 18
+    },
+    {
+      "la": "Nihil gravius est in poenis, quam praesentia et visione Dei privari. Inde Psalmista Dominum deprecatur dicens",
+      "en": "Nothing is heavier among punishments than to be deprived of the presence and the vision of God. Thence the Psalmist entreats the Lord, saying",
+      "column": "1142b",
+      "chunk": 18
+    },
+    {
+      "la": "Nihil gravius est in poenis, quam praesentia et visione Dei privari. Inde Psalmista Dominum deprecatur dicens: « Ne projicias me a facie tua [n: (Psal. L)]",
+      "en": "Nothing is heavier among punishments than to be deprived of the presence and the vision of God. Thence the Psalmist entreats the Lord, saying: « Cast me not away from thy face [n: (Psal. L)]",
+      "column": "1142b",
+      "chunk": 18
+    },
+    {
+      "la": "Hinc et Job ad Dominum loquitur dicens",
+      "en": "Hence Job also speaks to the Lord, saying",
+      "column": "1142b",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1142c",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1142c",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1142d",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1142d",
+      "chunk": 18
+    },
+    {
+      "la": "De his quos damnant flagella, et non liberant scriptum est",
+      "en": "Of those whom the scourges condemn and do not deliver it is written",
+      "column": "1142d",
+      "chunk": 18
+    },
+    {
+      "la": "His flagella ab hac vita inchoant, et in aeterna percussione perdurant. Unde quoque per Moysen Dominus dicit",
+      "en": "For these, the scourges begin from this life and endure in the eternal striking. Whence also the Lord says through Moses",
+      "column": "1143a",
+      "chunk": 18
+    },
+    {
+      "la": "Quantum ad praesentem etenim percussionem spectat, recte dicitur",
+      "en": "For as far as concerns the present striking, it is rightly said",
+      "column": "1143a",
+      "chunk": 18
+    },
+    {
+      "la": "Quantum vero ad aeternam damnationem, apte hoc subditur, et ardebit usque ad inferos deorsum, licet a quibusdam dici soleat illud quod scriptum est",
+      "en": "But as far as concerns eternal damnation, this is aptly subjoined, and it shall burn even to the lower regions beneath — although by some there is wont to be alleged that which is written",
+      "column": "1143a",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1143b",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1143c",
+      "chunk": 18
+    },
+    {
+      "la": "…scentia ejus: terram tunc comedit et nascentia ejus, cum carnem peccatricem propter opera libidinis flamma aeternae ultionis comburet. Nascentia enim carnis proprie opera sunt concupiscentiae carnalis",
+      "en": "…he earth and its growth, when the flame of eternal vengeance shall burn up the sinful flesh on account of the works of lust. For the growths of the flesh are properly the works of carnal concupiscence",
+      "column": "1143c",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1143d",
+      "chunk": 18
+    },
+    {
+      "la": "…unt, ut crucient, foris vastabit impios gladius, et intus pavor; quando in extrema ultione undique corpus ignis aeterni torquet exustio, et intus mentem angustiae opprimit magnitudo, unde scriptum est",
+      "en": "…e the impious, and within, dread; when in the final vengeance the burning of eternal fire tortures the body on every side, and within, the greatness of anguish oppresses the mind; whence it is written",
+      "column": "1144b",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1144b",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1144b",
+      "chunk": 18
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1144b",
+      "chunk": 18
+    },
+    {
+      "la": "…, et memoria eorum in coetu electorum non numeretur. Unde per Psalmistam capiti omnium iniquorum simul cum toto corpore poena praedicitur futura, cum supputatis singulis speciebus vitiorum subinfertur",
+      "en": "…lect. Whence through the Psalmist a punishment to come is foretold to the head of all the wicked together with the whole body, when, the several kinds of vices having been reckoned up, it is subjoined",
+      "column": "1144c",
+      "chunk": 18
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1144d",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1144d",
+      "chunk": 19
+    },
+    {
+      "la": "…s saepe peccantem populum diu tolerando sustinuit, ne gentes eis confines nomen et potentiam ejus blasphemarent. Unde et Moyses ad Dominum pro peccato Israel indignantem et eas disperdere volentem ait",
+      "en": "…, long enduring them, lest the nations bordering on them should blaspheme his name and his power. Whence Moses also says to the Lord, who was indignant for the sin of Israel and willed to destroy them",
+      "column": "1144d",
+      "chunk": 19
+    },
+    {
+      "la": "… propter magnam patientiam suam et longanimitatem sustinet nolens perire quemquam, sed omnes salvos fieri et ad agnitionem veritatis pervenire, juxta illud Pauli apostoli, quod ad Romanos scribens ait",
+      "en": "…e and long-suffering, willing that no one perish, but that all be made safe and come to the acknowledging of the truth, according to that word of Paul the apostle which, writing to the Romans, he says",
+      "column": "1145a",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1145b",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1145b",
+      "chunk": 19
+    },
+    {
+      "la": "…infernalium poenarum aeternum effugiant tormentum, et quoniam disciplinabiliter vivere negligunt, tribulationem et angustiam in futuro sustinebunt, juxta illud, quod de eis scriptum est [n: (Prov. I)]",
+      "en": "…t of the infernal punishments; and since they neglect to live under discipline, they shall endure tribulation and anguish in the time to come, according to that which is written of them [n: (Prov. I)]",
+      "column": "1145c",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1145c",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1145d",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1145d",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1145d",
+      "chunk": 19
+    },
+    {
+      "la": "…verum etiam nostrorum approbant adversarii. Unde saepius legitur, quod hostibus Judaei traditi pro infidelitate atque injustitia sua merito ab eis arguerentur, sicut Jeremias in lamentatione sua dicit",
+      "en": "…f our own, approve. Whence it is often read that the Jews, being delivered to their enemies, were deservedly rebuked by them for their unfaithfulness and injustice, as Jeremiah says in his lamentation",
+      "column": "1146a",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1146a",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1146b",
+      "chunk": 19
+    },
+    {
+      "la": "…Scripturis sacris synagoga vel Hierusalem Sodomae et Gomorrhae comparantur, quia sicut illae male abusi sunt donis Dei; sic et istae beneficiis Dei semper exstiterunt ingrati. Unde Isaias de illis ait",
+      "en": "…or Jerusalem are compared to Sodom and Gomorrha, because as those abused the gifts of God wickedly, so these too always showed themselves ungrateful for the benefits of God. Whence Isaias says of them",
+      "column": "1146b",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1146c",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1146c",
+      "chunk": 19
+    },
+    {
+      "la": "…inem et venenum in se occultant, quatenus incautos improvise laedant, sic et Judaei atque haeretici malitiam suam dolo et fraudibus velant, quatenus imprudentes facilius exstinguant. Bene ergo dicitur",
+      "en": "…n themselves, that they may wound the unwary unawares, so also Jews and heretics veil their malice with guile and frauds, that they may the more easily destroy the imprudent. Well therefore is it said",
+      "column": "1146d",
+      "chunk": 19
+    },
+    {
+      "la": "quia haereticorum error quemcunque invaserit, nisi se inde liberaverit, sine dubio in aeternum perimit. Quod autem juxta aliam editionem legitur",
+      "en": "because whomsoever the error of heretics has invaded, unless he free himself therefrom, it without doubt destroys him for ever. But that which is read according to the other edition,",
+      "column": "1146d",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1147a",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1147a",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1147b",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1147b",
+      "chunk": 19
+    },
+    {
+      "la": "Certa sunt apud Dominum et tempus et modus vindictae, quo peccatores, si se a peccatis non correxerint, torquendi sunt. Sed quia multae miserationes ejus sunt,",
+      "en": "Both the time and the manner of the vengeance by which sinners, if they do not correct themselves from their sins, are to be tormented, are certain with the Lord. But because his mercies are many,",
+      "column": "1147b",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1147b",
+      "chunk": 19
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1147c",
+      "chunk": 19
+    },
+    {
+      "la": "…diuturnum esse potest, quod aliquando finitur. Quidquid enim temporale est, ut est hominis aetas, cursus praesentis vitae, si ad aeternitatem comparatur, parvum fit in ejus comparatione, ideo dicitur,",
+      "en": "…t some time comes to an end. For whatever is temporal — as is the age of man, the course of the present life — if it be compared to eternity, becomes small in comparison with it. Therefore it is said,",
+      "column": "1147c",
+      "chunk": 19
+    },
+    {
+      "la": "quia cito finiuntur temporalia, et parata iniquis adveniunt tormenta, juxta id, quod scriptum est",
+      "en": "because temporal things are quickly ended, and the torments prepared come upon the wicked, according to that which is written",
+      "column": "1147c",
+      "chunk": 19
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1147d",
+      "chunk": 20
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1147d",
+      "chunk": 20
+    },
+    {
+      "la": "Judicabit ergo Dominus populum suum, quando electos suos a reprobis secernit, nam aliquando judicare pro discernere; aliquando vero pro damnare accipitur, unde in psalmo Propheta ad Dominum dixit",
+      "en": "…ll judge his people when he separates his elect from the reprobate; for sometimes \"to judge\" is taken for \"to discern,\" but sometimes for \"to condemn.\" Whence in the psalm the Prophet said to the Lord",
+      "column": "1147d",
+      "chunk": 20
+    },
+    {
+      "la": "Hic judicare pro discretione ponitur; alibi autem idem propheta ad Dominum clamans ait",
+      "en": "Here \"to judge\" is set for discernment; but elsewhere the same prophet, crying to the Lord, says",
+      "column": "1148a",
+      "chunk": 20
+    },
+    {
+      "la": "…t, ut damnationem certam cum diabolo et angelis ejus in inferno recipiant, et ibunt hi in supplicium aeternum: justi autem in vitam aeternam, tuncque perfecte erit, quod in praedicto versu subsequitur",
+      "en": "…th the devil and his angels in hell; and these shall go into everlasting punishment, but the just into life everlasting. And then shall that be perfectly fulfilled which follows in the aforesaid verse",
+      "column": "1148a",
+      "chunk": 20
+    },
+    {
+      "la": "…ymice dictum est, ubi per id quod efficitur, id quod efficit demonstratur, nam Dominus juxta naturam semper laetus et tranquillus est, nec unquam in tristitiae moerorem commutatur, de quo scriptum est",
+      "en": "… where by that which is effected is shown that which effects; for the Lord according to his nature is always glad and tranquil, nor is he ever changed into the sorrow of sadness; of whom it is written",
+      "column": "1148b",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1148c",
+      "chunk": 20
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1148c",
+      "chunk": 20
+    },
+    {
+      "la": "…m daemonum traditi ultra non praevalebunt, residuique consumpti sunt, quia ab hac vita exeuntes, non habebunt ulterius potestatem atque facultatem aliquid faciendi. Idcirco in Ecclesiaste scriptum est",
+      "en": "…no longer prevail. And the remnant have been consumed, because, departing out of this life, they shall no longer have the power and the means of doing anything. Therefore it is written in Ecclesiastes",
+      "column": "1148d",
+      "chunk": 20
+    },
+    {
+      "la": "Quod autem subjungitur",
+      "en": "But that which is subjoined",
+      "column": "1148d",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1149a",
+      "chunk": 20
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1149a",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1149b",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1149b",
+      "chunk": 20
+    },
+    {
+      "la": "…ndo enim carnem percutit, et mentis duritia in suo pavore tabescit, vulnerando ergo ad salutem revocat, cum electos suos affligit exterius, et interius vivificat. Recte ergo per Moysen loquitur dicens",
+      "en": "…wastes away in its own dread. By wounding, therefore, he calls back to salvation, when he afflicts his elect outwardly and quickens them inwardly. Rightly therefore does he speak through Moses, saying",
+      "column": "1149b",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1149c",
+      "chunk": 20
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1149c",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1149d",
+      "chunk": 20
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1149d",
+      "chunk": 20
+    },
+    {
+      "la": "…re, ut fulgur gladium Dei, est, repentinam vindictam in hostibus exercere: et arripere judicium manui divinae est, per justam retributionem singulis secundum propria merita reddere, sicut scriptum est",
+      "en": "…e lightning is to exercise sudden vengeance upon his enemies; and for the divine hand to lay hold on judgment is to render to each one by just retribution according to his own merits, as it is written",
+      "column": "1150a",
+      "chunk": 20
+    },
+    {
+      "la": "Et Apostolus",
+      "en": "And the Apostle",
+      "column": "1150a",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1150a",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1150b",
+      "chunk": 20
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1150b",
+      "chunk": 20
+    },
+    {
+      "la": "Ad hoc, quod dicit, de cruore inimicorum subauditur illud, quod praemissum est",
+      "en": "To this which he says, from the blood of the enemies, there is understood that which went before",
+      "column": "1150b",
+      "chunk": 20
+    },
+    {
+      "la": "…nt, possunt et capita iniquorum magistri accipi errantium, in quos ultio novissima redundat, quia qui fuerunt causa peccatorum, sentient damna in retributione poenarum. Unde in Apocalypsi scriptum est",
+      "en": "…sters of them that err, upon whom the final vengeance overflows, because they who were the cause of sins shall feel the losses in the retribution of punishments. Whence it is written in the Apocalypse",
+      "column": "1150c",
+      "chunk": 20
+    },
+    {
+      "la": "hoc est, processit ultio tormentorum usque ad rectores populorum, usque enim ad diabolum et ejus angelos novissimo certamine exiit ultio sanguinis sanctorum effusi, sicut scriptum est",
+      "en": "… of torments went forth even to the rulers of the peoples; for the vengeance for the blood of the saints that was shed went forth in the last contest even to the devil and his angels, as it is written",
+      "column": "1150c",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1150c",
+      "chunk": 20
+    },
+    {
+      "la": "…r. Nam in Epistola, quae ad Hebraeos ab ipso scripta est, nec non et in illa quae ad Romanos similiter ab eo directa est, inde testimonia assumpsisse invenitur. Denique ad Hebraeos scribens sic infert",
+      "en": "…ritten by him to the Hebrews, and also in that which was likewise directed by him to the Romans, he is found to have taken testimonies thence. Accordingly, writing to the Hebrews, he brings it in thus",
+      "column": "1150d",
+      "chunk": 20
+    },
+    {
+      "la": "Ad Romanos vero de gentium convocatione et satietate Judaicae plebis disputans sic ait",
+      "en": "But to the Romans, disputing concerning the calling of the Gentiles and the fullness of the Jewish people, he says thus",
+      "column": "1150d",
+      "chunk": 20
+    },
+    {
+      "la": "Gentes autem super misericordia honorare Deum, sicut scriptum est",
+      "en": "But that the Gentiles are to honour God for his mercy, as it is written",
+      "column": "1151a",
+      "chunk": 20
+    },
+    {
+      "la": "Et iterum dicit",
+      "en": "And again he says",
+      "column": "1151a",
+      "chunk": 20
+    },
+    {
+      "la": "…ebraica veritate est, nec non et illam quae ex LXX interpretibus, aequaliter probaverunt, cum ex utraque testimonia sumpserunt. Illud vero, quod ad supernam creaturam quasi exhortando loquitur dicens,",
+      "en": "…on which is from the Hebrew verity and that which is from the LXX interpreters, since they took testimonies from both. But that which he speaks to the supernal creature as though exhorting it, saying,",
+      "column": "1151a",
+      "chunk": 20
+    },
+    {
+      "la": "…damnantur, coelestes et terrestres creaturae simul in laudem sui coadunantur Conditoris, et regem Christum super omnia regnantem atque dominantem adorant et venerantur in aeternum. Quod autem sequitur",
+      "en": "…ly and the earthly creatures are gathered together alike into the praise of their Founder, and adore and venerate Christ the king, reigning and ruling over all things, for ever. But that which follows",
+      "column": "1151b",
+      "chunk": 20
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1151b",
+      "chunk": 21
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1151b",
+      "chunk": 21
+    },
+    {
+      "la": "…d vident laudabunt, quia praemium placet, quod habebunt, et impii in poenis constituti, licet sero, pro malo quod gesserunt poenitebunt, cum viderint gloriam sanctorum clarescere, quam non speraverunt",
+      "en": "…is pleasing; and the impious, set in punishments, shall repent, though late, of the evil which they wrought, when they shall have seen the glory of the saints grow bright, which they had not hoped for",
+      "column": "1151c",
+      "chunk": 21
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1151d",
+      "chunk": 21
+    },
+    {
+      "la": "Alia editio",
+      "en": "Another edition",
+      "column": "1151d",
+      "chunk": 21
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1152b",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1152c",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1152c",
+      "chunk": 22
+    },
+    {
+      "la": "…ue laudabilis exstat, ita et mysterii ejus sensus spiritalis singulis speciebus convenienter aptetur. Dicit enim David juxta finem centesimi et secundi Psalmi, quem ad benedicendum Deum composuit, ita",
+      "en": "… also the spiritual sense of its mystery should be fittingly adapted to each several kind. For David says, near the end of the hundred and second Psalm, which he composed for the blessing of God, thus",
+      "column": "1153a",
+      "chunk": 22
+    },
+    {
+      "la": "…uum benedicere Creatorem, et in omni loco dominationis ejus, quia sicut nulla creatura a laudibus Domini jubetur excipi, ita nec locus quisquam relinquitur, qui tali munere segregetur. Nam cum dicitur",
+      "en": "…of his dominion, because just as no creature is bidden to be excepted from the praises of the Lord, so neither is any place left over that should be set apart from such an office. For when it is said,",
+      "column": "1153a",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1153b",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1153b",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1153d",
+      "chunk": 22
+    },
+    {
+      "la": "Aquas vero super coelos esse Genesis refert; ait enim",
+      "en": "That there are waters above the heavens Genesis relates; for it says",
+      "column": "1153d",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1154a",
+      "chunk": 22
+    },
+    {
+      "la": "De virtutibus Dei dicitur in psalmo",
+      "en": "Of the powers of God it is said in the psalm",
+      "column": "1154a",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1154b",
+      "chunk": 22
+    },
+    {
+      "la": "De quo et Psalmista dicit",
+      "en": "Of which the Psalmist also says",
+      "column": "1154b",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1154c",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1154d",
+      "chunk": 22
+    },
+    {
+      "la": "Hoc est quod in Psalterio novissime scriptum",
+      "en": "This is what is written last in the Psalter",
+      "column": "1154d",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1154d",
+      "chunk": 22
+    },
+    {
+      "la": "…persecutionis exprimit. Sed haec benedicunt Dominum, quando homines faciunt benedicere Creatorem suum, quia sancti viri et in prosperis et in adversis semper laudant Dominum. Unde Apostolus exhortatur",
+      "en": "…igne prints *aestas*, \"summer\"] But these bless the Lord when they make men bless their Creator, because holy men both in prosperity and in adversity always praise the Lord. Whence the Apostle exhorts",
+      "column": "1155a",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1155a",
+      "chunk": 22
+    },
+    {
+      "la": "…oraliter vivunt ad benedicendum Deum, debitores fiunt, quia creator omnium, sic temperat electis suis praesentia, ut ipsi perpetualiter praeconia non taceant divina, unde Paulus ait [n: (II Cor. XII)]",
+      "en": "…the blessing of God; because the creator of all things so tempers things present for his elect that they themselves may never be silent of the divine proclamations. Whence Paul says [n: (II Cor. XII)]",
+      "column": "1155b",
+      "chunk": 22
+    },
+    {
+      "la": "Et item: [n: (II Cor. IV)]",
+      "en": "And again [n: (II Cor. IV)]",
+      "column": "1155b",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1155b",
+      "chunk": 22
+    },
+    {
+      "la": "« Benedicite, gelu et frigus, Dominum. Benedicite, glacies et nives, Dominum",
+      "en": "« Bless ye the Lord, O frost and cold. Bless ye the Lord, O ice and snows",
+      "column": "1155b",
+      "chunk": 22
+    },
+    {
+      "la": "Et in psalmo",
+      "en": "And in the psalm",
+      "column": "1155c",
+      "chunk": 22
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1155d",
+      "chunk": 23
+    },
+    {
+      "la": "Quid ergo per nubes, nisi Evangelii praedicatores, et quid per fulgura, nisi coruscationes miraculorum nobis demonstrantur? de quibus per Psalmistam dicitur",
+      "en": "What, then, is shown us by the clouds but the preachers of the Gospel, and what by the lightnings but the flashings of miracles? Of which it is said through the Psalmist",
+      "column": "1155d",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1155d",
+      "chunk": 23
+    },
+    {
+      "la": "Hic ergo terra sanctam Ecclesiam significat, de qua in Psalmo scriptum est",
+      "en": "[var: Vulg. *laudet et superexaltet*, \"let it praise and exalt him\"] Here, then, the earth signifies the holy Church, of which it is written in the Psalm",
+      "column": "1155d",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1156a",
+      "chunk": 23
+    },
+    {
+      "la": "Hinc etiam Psalmista, ubi omnes creaturas ad laudandum Dominum provocat, inter caetera ait",
+      "en": "Hence also the Psalmist, where he calls forth all creatures to praise the Lord, says among the rest",
+      "column": "1156b",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1156c",
+      "chunk": 23
+    },
+    {
+      "la": "…quatuor flumina procedebant, hoc est, quatuor Evangelia de fonte salutaris procedentia ad irrigationem generis humani. Item fons Spiritus sancti gratiam designat in eo, quod Dominus dicit in Evangelio",
+      "en": "…t is, the four Gospels proceeding from the fountain of salvation for the watering of the human race. Again, a fountain designates the grace of the Holy Spirit in that which the Lord says in the Gospel",
+      "column": "1156c",
+      "chunk": 23
+    },
+    {
+      "la": "Baptismi vero sacramentum ostendit illud Zachariae, quo ait",
+      "en": "[var: Vulg. *fons aquae salientis*, without *vivae*, \"living\"] But the sacrament of baptism is shown by that of Zacharias, where he says",
+      "column": "1156c",
+      "chunk": 23
+    },
+    {
+      "la": "…scamur in Christo et non aqua baptismatis nostra nobis peccata donentur. Sed hic fontes possumus testimonia sacrarum Scripturarum per ora praedicatorum prolata intelligere. Unde in psalmo scriptum est",
+      "en": "…en us by the water of baptism. But here we can understand by the fountains the testimonies of the sacred Scriptures brought forth through the mouths of the preachers. Whence it is written in the psalm",
+      "column": "1156d",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1156d",
+      "chunk": 23
+    },
+    {
+      "la": "Quando dicit maria, generaliter omnes aquarum collectiones, sive salsae sint, sive dulces simul comprehendit juxta illud, quod scriptum est",
+      "en": "When he says \"seas,\" he generally comprehends together all gatherings of waters, whether they be salt or fresh, according to that which is written",
+      "column": "1156d",
+      "chunk": 23
+    },
+    {
+      "la": "a quibus flumina procedunt, ut est illud",
+      "en": "from which the rivers proceed, as is that saying",
+      "column": "1157a",
+      "chunk": 23
+    },
+    {
+      "la": "…dine non impletur. Benedicere ergo jubentur homines Dominum, hoc est, auctorem suum cognoscere, illumque fide et bonis operibus colere, quia ab ipso creati sunt, et ad ejus judicium omnes revertuntur,",
+      "en": "…de. Men are bidden, therefore, to bless the Lord — that is, to acknowledge their author, and to worship him by faith and by good works, because they were created by him and all return to his judgment,",
+      "column": "1157a",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1157a",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1157b",
+      "chunk": 23
+    },
+    {
+      "la": "…ad custodiam hominum in mundum a Deo mittuntur, ut eorum curam gerant, et contra spiritales nequitias illos defendant, quia aequum est ut omnes praelati simul et subditi omnium dominatorem benedicant,",
+      "en": "…he keeping of men, that they may have care of them and defend them against the spiritual wickednesses; because it is right that all prelates together with their subjects should bless the ruler of all,",
+      "column": "1157c",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1157c",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1157d",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1157d",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1158a",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1158b",
+      "chunk": 23
+    },
+    {
+      "la": "Humilitatem cordis habere et praesens versiculus docet, et illud, quod in Evangelio legitur",
+      "en": "That we should have humility of heart both this present little verse teaches, and that which is read in the Gospel",
+      "column": "1158b",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1158b",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1158c",
+      "chunk": 23
+    },
+    {
+      "la": "…frui desiderant in regno coelesti. Hoc autem quod sequitur in hoc Cantico ante praelatum est in libro prophetico, ubi priusquam provocarentur opera Domini ad benedicendum Dominum, ita scriptum legitur",
+      "en": "… in the heavenly kingdom. But that which follows in this Canticle was set before in the prophetic book, where, before the works of the Lord were called forth to bless the Lord, it is read written thus",
+      "column": "1158d",
+      "chunk": 23
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1159b",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1159c",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1159c",
+      "chunk": 24
+    },
+    {
+      "la": "…us adventu manifeste sunt locuti; verum ipse pater Adam, Abel et Enoch, et caeteri Patrum factis quique suis ejus dispensationi testimonium reddunt. Unde Dominus ipse Judaeorum duritiam redarguens ait",
+      "en": "…ng; but father Adam himself, and Abel and Enoch, and the rest of the Fathers each by his own deeds give testimony to his dispensation. Whence the Lord himself, reproving the hardness of the Jews, says",
+      "column": "1159d",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1159d",
+      "chunk": 24
+    },
+    {
+      "la": "Jungendum est a superiori versiculo, Erexit nobis, id est, erexit nobis salutem ex inimicis nostris, cum enim primo breviter praemisisset",
+      "en": "It is to be joined with the verse above, He hath raised up for us — that is, he hath raised up for us salvation from our enemies; for when he had first briefly premised,",
+      "column": "1160a",
+      "chunk": 24
+    },
+    {
+      "la": "continuo quasi apertius quid erexit explanans",
+      "en": "he immediately explains, as it were more openly, what he raised up",
+      "column": "1160a",
+      "chunk": 24
+    },
+    {
+      "la": "…utem qui oderunt nos, vel homines perversos, vel immundos spiritus significat, de quorum manu et interim spe salvi facti sumus, et in futuro reipsa salvandi. Quod autem in quibusdam Ecclesiis canitur,",
+      "en": "…ies either perverse men or unclean spirits, from whose hand we have both meanwhile been made safe in hope, and are in time to come to be saved in very deed. And as to what is sung in certain Churches,",
+      "column": "1160a",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1160b",
+      "chunk": 24
+    },
+    {
+      "la": "…licet his praecipue patriarchis de suo semine vel congregatio gentium, vel Christi est incarnatio promissa, quod Matthaeus quoque breviter intimare voluit, qui Evangelii sui principium hoc modo caepit",
+      "en": "…ly there was promised, of their seed, either the gathering of the nations or the incarnation of Christ; which Matthew too wished briefly to intimate, who began the opening of his Gospel in this manner",
+      "column": "1160b",
+      "chunk": 24
+    },
+    {
+      "la": "…. Abrahae namque qui adhuc in praeputio positus propria dereliquit, Deum cognovit, fidei testimonium meruit, fides tantum gentium et sacrosanctus Ecclesiae coetus est promissus, dicente ad eum Domino,",
+      "en": "…circumcision, forsook his own goods, knew God, and deserved the testimony of faith, there was promised only the faith of the nations and the most sacred assembly of the Church, the Lord saying to him,",
+      "column": "1160c",
+      "chunk": 24
+    },
+    {
+      "la": "David autem oraculo sublimiore, quod ex ipso Christus secundum carnem nasciturus esset audivit",
+      "en": "but David heard by a loftier oracle that Christ was to be born of him according to the flesh",
+      "column": "1160c",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1160c",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1160d",
+      "chunk": 24
+    },
+    {
+      "la": "…i et erubescant, audiant mansueti et laetentur, quod Christum Dominum, quem Joannes prophetando praeibat, altissimum vocat, juxta quod Psalmista Deum hominemque perfectum in una persona collaudans ait",
+      "en": "…et the meek hear and rejoice, that he calls Christ the Lord, whom John by prophesying went before, the Most High, according to that which the Psalmist, praising God and perfect man in one person, says",
+      "column": "1161a",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1161b",
+      "chunk": 24
+    },
+    {
+      "la": "…e desiderans, salutis mentionem frequentat, cum cornu salutis erigendum, salutem ex inimicis futuram, scientiam salutis plebi dandam commemorat; sed ne temporalem carnalemque promitti salutem putares,",
+      "en": "… is to be raised up, that salvation from our enemies is to come, that knowledge of salvation is to be given to the people; but lest thou shouldst think a temporal and fleshly salvation to be promised,",
+      "column": "1161b",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1161b",
+      "chunk": 24
+    },
+    {
+      "la": "Et propheta de Domino loquens",
+      "en": "And the prophet, speaking of the Lord",
+      "column": "1161c",
+      "chunk": 24
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1161c",
+      "chunk": 24
+    },
+    {
+      "la": "…ibus quippe in tenebris et umbra mortis Domino illuminare, est his qui in peccatis et ignorantiae caecitate vixerint agnitionis amorisque sui radios infundere, qualibus dicit Apostolus [n: (Ephes. V)]",
+      "en": "…rkness and the shadow of death is to pour into those who have lived in sins and in the blindness of ignorance the rays of his own knowledge and love — to such as these the Apostle says [n: (Ephes. V)]",
+      "column": "1161c",
+      "chunk": 24
+    },
+    {
+      "la": "…is illuminatorisque nostri gratiae concordat; congruo sane ordine primo illuminanda corda et post opera dirigenda testatur, quia nemo, quam non ante didicerit pacem valet operari. Unde recte Psalmista",
+      "en": "…ing order indeed he testifies that hearts are first to be enlightened and afterwards works to be directed, because no one can work the peace which he has not first learned. Whence rightly the Psalmist",
+      "column": "1161d",
+      "chunk": 24
+    },
+    {
+      "la": "…, nequaquam se de donis coelestibus, quasi a se haec essent, extulit; sed ut magis magisque donis esset apta divinis, in custodiam humilitatis mentis suae gressum fixit, memor Scripturae praecipientis",
+      "en": "…ts as though these were from herself; but that she might be more and more fitted for the divine gifts, she fixed the step of her mind in the keeping of humility, mindful of the Scripture which enjoins",
+      "column": "1162a",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1162b",
+      "chunk": 25
+    },
+    {
+      "la": "…sentio, discerno, gratulanter impendo, quia et ejusdem Jesu, id est, salutaris, spiritus meus aeterna divinitate laetatur, cujus me caro temporali conceptione laetatur; cui simile est illud Psalmistae",
+      "en": "…o end, because my spirit is glad also in the eternal divinity of the same Jesus, that is, of the saviour, whose flesh rejoices me by a temporal conception; to which is like that saying of the Psalmist",
+      "column": "1162b",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1162c",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1162c",
+      "chunk": 25
+    },
+    {
+      "la": "Ad initium carminis respicit, ubi dictum est",
+      "en": "He looks back to the beginning of the song, where it was said,",
+      "column": "1162c",
+      "chunk": 25
+    },
+    {
+      "la": "sola quippe anima illa, cui Dominus magna facere dignatur, dignis eum praeconiis magnificare, et ad consortes ejusdem voti ac propositi potest cohortando dicere",
+      "en": ": for that soul alone, to which the Lord vouchsafes to do great things, can magnify him with worthy proclamations, and can say by way of exhortation to the sharers of the same vow and purpose",
+      "column": "1162d",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1163a",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1163a",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1163c",
+      "chunk": 25
+    },
+    {
+      "la": "In brachio ergo suo Dominus per omnes saeculi generationes potentes, hoc est, superbos de sede jactantiae suae deponit, et exaltat humiles, qui non sua potentia, sed in Dei bonitate confidunt,",
+      "en": "…ughout all the generations of the world puts down the mighty — that is, the proud — from the seat of their boasting, and exalts the humble, who trust not in their own power but in the goodness of God,",
+      "column": "1163c",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1163c",
+      "chunk": 25
+    },
+    {
+      "la": "Pulchre Israel puerum Domini appellat, qui ab eo sit ad salvandum susceptus, obedientem videlicet et humilem, juxta Oseae dictum",
+      "en": "Beautifully he calls Israel the servant of the Lord, as one taken up by him to be saved — obedient, that is, and humble, according to the saying of Osee",
+      "column": "1163d",
+      "chunk": 25
+    },
+    {
+      "la": "nam qui contemnit humiliari, non potest utique salvari, nec dicere cum Propheta",
+      "en": "for he who scorns to be humbled cannot at all be saved, nor say with the Prophet",
+      "column": "1163d",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1163d",
+      "chunk": 25
+    },
+    {
+      "la": "…usque populi pater fieret per fidem, juxta quod Apostolus ad Romanos plenissime disseruit. Adventus ergo Salvatoris, Abrahae et semini ejus in saecula promissus est filiis promissionis, quibus dicitur",
+      "en": "… to what the Apostle most fully set forth to the Romans. The coming, therefore, of the Saviour, promised to Abraham and to his seed for ever, is promised to the sons of the promise, to whom it is said",
+      "column": "1164a",
+      "chunk": 25
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1164c",
+      "chunk": 26
+    },
+    {
+      "la": "…oc est, transiliator cupidita tum saecularium, postquam multa diu tacitus mundi mala contemplatus interna secum cordis meditatione concaluit, tandem locutus in lingua sua, et quae intus egerit promens",
+      "en": "…g in silence contemplated the many evils of the world and had grown warm within himself by the inward meditation of his heart, spoke at last in his own tongue and brought forth what he had done within",
+      "column": "1164d",
+      "chunk": 26
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1165a",
+      "chunk": 26
+    },
+    {
+      "la": "Beati oculi qui vident quae Simeon vidit",
+      "en": "Blessed are the eyes that see what Simeon saw",
+      "column": "1165a",
+      "chunk": 26
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "1165a",
+      "chunk": 26
+    },
+    {
+      "la": "…culos profunda jam caecitate demersos, neque ulla spe adventus Dominici erectos ipse visitare pariter revelare atque illustrare dignatus est. Et bene revelatio gentium Israelis gloriae praefertur, qui",
+      "en": "… by no hope of the Lord's coming, he himself vouchsafed to visit and likewise to reveal himself to and to enlighten. And rightly is the revelation of the Gentiles set before the glory of Israel, since",
+      "column": "1166a",
+      "chunk": 26
+    },
+    {
+      "la": "quomodo et Psalmista cum diceret",
+      "en": "just as the Psalmist also, when he had said,",
+      "column": "1166a",
+      "chunk": 26
+    },
+    {
+      "la": "subjunxit, atque ait,",
+      "en": "subjoined and said,",
+      "column": "1166a",
+      "chunk": 26
+    }
+  ],
+  "unparsed": [
+    {
+      "raw": "(Phil. II, Heb. II)",
+      "reason": "unparsed-shape",
+      "column": "1113c",
+      "chunk": 8
+    }
+  ],
+  "proseNotes": []
+}
