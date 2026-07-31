@@ -71,7 +71,19 @@ const BOOKS = {
   'I Petr': '1Pet', 'II Petr': '2Pet', 'I Pet': '1Pet', 'II Pet': '2Pet',
   'I Joan': '1John', 'II Joan': '2John', 'III Joan': '3John',
   'Jud': 'Jude', 'Apoc': 'Rev',
+  // Attested only in inline (running-text) citations, added per the 2026-07-31
+  // Fable inline-citation ruling (SPEC.md): 'Exodi' (10365/0001, 6963/0034),
+  // 'Josue' (11065/0045, 11536/0004), 'Aggaei' (7914/0021), 'Heb' short form
+  // (11613/0027) — grown by attestation like every other alias here.
+  'Exodi': 'Exod', 'Josue': 'Josh', 'Aggaei': 'Hag', 'Heb': 'Heb',
 };
+
+// Evidence-grown known-fontes routing list (SPEC.md ruling 4): a citation whose shape
+// looks like scripture (roman+book or book+roman) but whose book token is one of these
+// is a KNOWN non-scripture fons, not an alias gap — route to fontes[], not unparsed[].
+// Grown by attestation only, same discipline as BOOKS: 'Aeneid' added 2026-07-31 for
+// 11065's '(Aeneid. VI, 688.)' (a [n:] note, confirmed NOT inline on inspection).
+const KNOWN_FONTES = /^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom|Aeneid)\./i;
 
 const ROMAN = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
 function romanToInt(s) {
@@ -100,10 +112,41 @@ const segRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+(?:\s*,
 //   "c." / "v." prefix a numeral (Num. XIX, c. 14-19 ; I Joan. III, V. 8) — only
 //   stripped when a digit follows, so a roman chapter "III, V" is left alone
 //   "Book., XII" — stray comma after the abbreviation
+//   "Book, XII" — comma IN PLACE of the abbreviating period (Levit, XIII; Job, X;
+//   Dan, II; Eccles, IV) — attested only in inline citations (2026-07-31 SPEC),
+//   normalized at the START of the segment only (a mid-segment comma is a real
+//   list separator and must not be touched).
 const normSeg = s => s
   .replace(/\s+et\s+/gi, ', ')
   .replace(/\b[vVcC]\.\s*(?=\d)/g, '')
-  .replace(/\.\s*,/g, '.');
+  .replace(/\.\s*,/g, '.')
+  .replace(/^((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+),/, '$1$2.');
+
+// A single printed parenthesis can name TWO (or more) books with no semicolon
+// between them (2026-07-31 SPEC ruling 6): "(Joan. III [1135A] Isai. V)" inline,
+// "(Phil. II, Heb. II)" inside a well-formed [n:] note. Neither has a `;`, so the
+// existing semicolon split never sees them. Detect a SECOND (or later) book token
+// mid-segment and split there — this is a shape-boundary decision, not a lookup:
+// built directly from BOOKS' own keys (so "I Cor", "II Reg" etc. match as compound
+// tokens, longest-key-first so "I Cor" wins over a bare partial), and gated on a
+// following numeral so a verse LIST inside one citation never gets split (a
+// mid-list comma is not a book boundary).
+const BOOK_TOKENS = Object.keys(BOOKS).sort((a, b) => b.length - a.length).map(k => k.replace(/\s+/g, '\\s+'));
+const BOOK_BOUNDARY = new RegExp(`\\b(?:${BOOK_TOKENS.join('|')})\\.?\\s+(?=[IVXLCDM0-9])`, 'g');
+function splitBookBoundaries(seg) {
+  const starts = [...seg.matchAll(BOOK_BOUNDARY)].map(m => m.index);
+  if (starts.length <= 1) return [seg]; // 0 or 1 book token: nothing to split
+  const pieces = [];
+  let prev = 0;
+  for (let i = 1; i < starts.length; i++) { pieces.push(seg.slice(prev, starts[i])); prev = starts[i]; }
+  pieces.push(seg.slice(prev));
+  return pieces;
+}
+
+// A roman CHAPTER RANGE, "(Exod. VII-XIV)" — ONE record spanning the range, not a
+// list of two chapters (which is what the comma form "Gen. XVIII, XIX" means).
+// Tried before segRe, which has no dash-range shape for chapters (only for verses).
+const rangeRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+)\s*-\s*([IVXLCDM]+)\s*\.?\)?$/;
 
 // Returns { refs: [{refKey}], reason } — reason names WHY nothing parsed, so the
 // decade blocker can separate a one-line alias fix from a parser-shape decision.
@@ -111,8 +154,19 @@ function parseScripture(raw) {
   const segs = raw.trim().replace(/^\(|\)$/g, '').split(/\s*;\s*/).filter(Boolean);
   const refs = [];
   let sawUnknownBook = false, sawBadShape = false;
-  for (const seg of segs) {
-    const m = normSeg(seg).trim().match(segRe);
+  for (const seg of segs) for (const piece0 of splitBookBoundaries(seg)) {
+    const piece = piece0.replace(/^\s*[,;]\s*|\s*[,;]\s*$/g, '').trim();
+    if (!piece) continue;
+    const normed = normSeg(piece).trim();
+    const rm = normed.match(rangeRe);
+    if (rm) {
+      const bookLat = (rm[1] ? rm[1].trim() + ' ' : '') + rm[2];
+      const osis = BOOKS[bookLat];
+      if (!osis) { sawUnknownBook = true; continue; }
+      const c1 = romanToInt(rm[3]), c2 = romanToInt(rm[4]);
+      if (c1 && c2) { refs.push({ refKey: `${osis}.${c1}-${osis}.${c2}` }); continue; }
+    }
+    const m = normed.match(segRe);
     if (!m) { sawBadShape = true; continue; }
     const bookLat = (m[1] ? m[1].trim() + ' ' : '') + m[2];
     const osis = BOOKS[bookLat];
@@ -151,6 +205,13 @@ const CORRECTIONS = (() => {
 
 const colRe = /\[([0-9]{3,5}[A-D]?)\]/g; // keep in sync with scripts/lib/chunk-core.mjs COL_RE_SRC (banded 0473A + bare 1137)
 const citeCol = c => { if (!c) return null; const m = c.match(/^0*([0-9]+)([A-D]?)$/); return m ? m[1] + m[2].toLowerCase() : c.toLowerCase(); };
+
+// Strip column anchors + italic asterisks + collapse whitespace. Shared by [f:]
+// locator validation (Pattern 4) and, per the 2026-07-31 inline-citation SPEC, by
+// inline scripture-candidate detection below — the Latin twin sets these citations
+// in italics too, so an anchor or asterisk can fall INSIDE the parenthesis
+// ("(Job [0159C] XXX)") and must be stripped before parseScripture ever sees it.
+const stripF = s => s.replace(/\[[0-9]{3,5}[A-D]?\]/g, '').replace(/\*/g, '').replace(/\s+/g, ' ').trim();
 
 // Anaphoric notes: "(Ibid.)", "(Ibid., 33)", "(Id. VI, 24)", "(Idem)". They carry no
 // book name by nature, so they can only be resolved from the PRINTED SEQUENCE — which
@@ -196,9 +257,52 @@ function handleNote(raw, col, chunk, inHead = false) {
     ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
   }
   else if (/^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(inner) &&
-           !/^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom)\./i.test(inner))
+           !KNOWN_FONTES.test(inner))
     unparsed.push({ raw, reason: s.reason, ...loc });
   else ordered.push({ kind: 'fontes', rec: { raw: inner, ...loc } });
+}
+
+// Inline (running-text) scripture citations — Migne sometimes sets a reference as
+// running text in italic parentheses instead of a [n: …] note (2026-07-31 SPEC,
+// data/inline-citations/SPEC.md — read it before touching this function). Harvested
+// here, at index time, from the LATIN twin — NOT via a translation-agent marker: a
+// marker would cost prompt budget on every one of 5,204 works forever and could
+// never be applied to already-shipped English. `raw` may still carry a column
+// anchor and/or italic asterisks (the twin sets these citations in italics too,
+// and Migne breaks the line mid-citation) — both are stripped via `stripF` (the
+// same helper Pattern 4 [f:] locators use) before the shape/parse test; the caller
+// is responsible for advancing the running column past any anchor inside `raw`.
+//
+// Gate, so ordinary prose parentheses ("ut ita dicam") are never even considered:
+// the stripped text must OPEN with an optional ordinal + Capitalized-word head
+// (book-shaped), AND contain a numeral TOKEN somewhere (a whole word of only roman
+// letters, or digits — not a bare letter inside an unrelated word: "Christo" must
+// never trip this on its capital C). Both gates measured zero false positives
+// across the 24 scanned works once the numeral-token form was required (the
+// brief's 69 held 3 prose false positives — "(Ecclesia de Christo dicit)" etc. —
+// none of which contain a numeral token).
+const CANDIDATE_HEAD_RE = /^((?:I{1,3}V?|IV)\s+)?[A-Z][a-z]+[.,]?\s/;
+const NUMERAL_TOKEN_RE = /\b(?:[IVXLCDM]+|[0-9]+)\b/;
+function handleInlineCandidate(raw, col, chunk, inHead = false) {
+  const stripped = stripF(raw);
+  if (!CANDIDATE_HEAD_RE.test(stripped) || !NUMERAL_TOKEN_RE.test(stripped)) return; // not a candidate — silent
+  const loc = { column: citeCol(col), chunk, inline: true, ...(inHead ? { inHead: true } : {}) };
+  const s = parseScripture(stripped);
+  if (s.refs.length) {
+    const fix = CORRECTIONS.get(`${loc.column}|${stripped}`);
+    if (fix && s.refs.length === 1)
+      ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: stripped, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
+    else
+      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: stripped, ...loc } });
+    return;
+  }
+  if (CORRECTIONS.has(`${loc.column}|${stripped}`)) {
+    const fix = CORRECTIONS.get(`${loc.column}|${stripped}`);
+    ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: stripped, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
+    return;
+  }
+  if (KNOWN_FONTES.test(stripped)) { ordered.push({ kind: 'fontes', rec: { raw: stripped, ...loc } }); return; }
+  unparsed.push({ raw, reason: s.reason, ...loc });
 }
 
 // Which note positions are editorial PROSE rather than citations (Wilson,
@@ -232,7 +336,14 @@ for (const c of manifest.chunks) {
     if (isProse) proseNotes.push({ raw, column: citeCol(column), chunk, ...(inHead ? { inHead: true } : {}) });
     else handleNote(raw, column, chunk, inHead);
   };
-  const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[n: ([^\]]*)\]|^## (.*)$/gm;
+  // 4th alternative: a bare parenthetical, candidate for an inline (running-text)
+  // citation (2026-07-31 SPEC). Left-to-right non-overlapping matchAll means a
+  // `[n: (Isai. V)]` note is always consumed whole by the `[n: …]` alternative
+  // FIRST (matching starts at the `[`, before the inner paren is ever reached), so
+  // this can never double-count a note's own parenthetical. `[^()]{2,60}` excludes
+  // nested parens and caps length — ordinary prose in parens is common and this
+  // gate is cheap; `handleInlineCandidate` does the real shape/numeral filtering.
+  const tokenRe = /\[([0-9]{3,5}[A-D]?)\]|\[n: ([^\]]*)\]|^## (.*)$|\(([^()]{2,60})\)/gm;
   for (const t of body.matchAll(tokenRe)) {
     if (t[1]) { col = t[1]; continue; }
     if (t[3] !== undefined) {
@@ -243,6 +354,12 @@ for (const c of manifest.chunks) {
       // Harvest head-borne notes in place, then strip them from the recorded head text.
       for (const hn of t[3].matchAll(/\[n: ([^\]]*)\]/g))
         routeNote(hn[1].replace(/\s+/g, ' ').trim(), col, c.chunk, true);
+      // A head-borne INLINE candidate (rare — heads are usually a bare title, but the
+      // class is defined by shape, not position). Masked against already-harvested
+      // [n: …] notes first so their internal parens are never double-scanned.
+      const headMasked = t[3].replace(/\[n: [^\]]*\]/g, '');
+      for (const hc of headMasked.matchAll(/\(([^()]{2,60})\)/g))
+        handleInlineCandidate(hc[1], col, c.chunk, true);
       // A "(cont.)" head is the chunker re-emitting a section head on the next chunk
       // it spans (see build-work-page.mjs sections()). It is our apparatus, not a
       // title Migne prints, and a TOC entry must point at the section's true start —
@@ -253,6 +370,15 @@ for (const c of manifest.chunks) {
       headsLa.push({ la: t[3].replace(/\[n: [^\]]*\]/g, '').replace(/\*/g, '')
         .replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim(), // removing the note leaves "salutem ."
         column: citeCol(col), chunk: c.chunk });
+      continue;
+    }
+    if (t[4] !== undefined) {
+      handleInlineCandidate(t[4], col, c.chunk, false);
+      // an anchor inside the candidate still advances the running column, even when
+      // the candidate turns out not to be a citation at all (SPEC ruling 7 / the
+      // [f:] precedent) — column tracking is a fact about the plate, not the parse.
+      const innerAnchors = [...t[4].matchAll(/\[([0-9]{3,5}[A-D]?)\]/g)];
+      if (innerAnchors.length) col = innerAnchors.at(-1)[1];
       continue;
     }
     routeNote(t[2].replace(/\s+/g, ' ').trim(), col, c.chunk);
@@ -301,7 +427,6 @@ for (const e of ordered) (e.kind === 'scripture' ? scripture : fontes).push(e.re
 // prints them mid-locator too) but kept in `raw`, and still advance column tracking.
 const F_BODY = '(?:[^\\]]|\\[[0-9]{3,5}[A-D]?\\])*';
 const fRe = new RegExp(`\\[f: (${F_BODY})\\]`, 'g');
-const stripF = s => s.replace(/\[[0-9]{3,5}[A-D]?\]/g, '').replace(/\*/g, '').replace(/\s+/g, ' ').trim();
 function harvestInlineFontes() {
   const out = [], bad = [];
   for (const c of manifest.chunks) {
@@ -408,6 +533,20 @@ const authorsDisplay = (manifest.authors ?? []).map(a => authorBios[a]?.displayN
 
 // pattern-4 inline locators join the same fontes pool as [n:] citations
 fontes.push(...resolveIbid(harvestInlineFontes()));
+
+// A pre-existing Pattern-4 [f:] tag can name the SAME citation the new Latin-side
+// inline-scripture harvester (2026-07-31 SPEC) now catches independently — 8566's
+// "(Job, X, 20-22)" is the attested case (see its cruces.md: the one deliberate
+// [f:] judgment call in that work, made before this ruling existed). The tag stays
+// in the English text untouched (Pattern 4 is still valid style; this is an INDEX
+// question, not a text one), but a raw fontes record that merely restates an
+// inline scripture hit at the same column is a duplicate of the same fact and is
+// dropped here so the citation is not double-indexed.
+const inlineScriptureAt = new Set(scripture.filter(r => r.inline).map(r => `${r.column}|${r.refDisplay}`));
+for (let i = fontes.length - 1; i >= 0; i--) {
+  const key = `${fontes[i].column}|${fontes[i].raw.replace(/^\(|\)$/g, '')}`;
+  if (inlineScriptureAt.has(key)) fontes.splice(i, 1);
+}
 
 const out = {
   generated: 'scripts/index-work.mjs',

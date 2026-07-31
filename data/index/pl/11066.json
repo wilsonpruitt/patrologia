@@ -14,7 +14,7 @@
   "colFirst": "431c",
   "colLast": "634a",
   "counts": {
-    "scripture": 412,
+    "scripture": 414,
     "fontes": 5,
     "heads": 14,
     "headnotes": 0,
@@ -334,10 +334,17 @@
       "chunk": 6
     },
     {
-      "refKey": "Rom.5",
+      "refKey": "Rom.3",
+      "refDisplay": "Rom III",
+      "column": "454c",
+      "chunk": 6,
+      "inline": true
+    },
+    {
+      "refKey": "Rom.3",
       "refDisplay": "ibid.",
-      "antecedent": "Rom. V",
-      "antecedentColumn": "454a",
+      "antecedent": "Rom III",
+      "antecedentColumn": "454c",
       "ibidResolved": true,
       "column": "454c",
       "chunk": 6
@@ -1763,6 +1770,13 @@
       "refDisplay": "Joan. I",
       "column": "570c",
       "chunk": 40
+    },
+    {
+      "refKey": "Eph.2",
+      "refDisplay": "Ephes. II",
+      "column": "570c",
+      "chunk": 40,
+      "inline": true
     },
     {
       "refKey": "Rom.2",

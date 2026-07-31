@@ -14,7 +14,7 @@
   "colFirst": "321c",
   "colLast": "372b",
   "counts": {
-    "scripture": 175,
+    "scripture": 178,
     "fontes": 2,
     "heads": 1,
     "headnotes": 1,
@@ -541,6 +541,13 @@
       "chunk": 6
     },
     {
+      "refKey": "Job.10",
+      "refDisplay": "Job X",
+      "column": "345c",
+      "chunk": 6,
+      "inline": true
+    },
+    {
       "refKey": "Job.33",
       "refDisplay": "Job XXXIII",
       "column": "345c",
@@ -695,6 +702,13 @@
       "refDisplay": "Sap. VIII",
       "column": "353c",
       "chunk": 8
+    },
+    {
+      "refKey": "Luke.22",
+      "refDisplay": "Luc. XXII",
+      "column": "353c",
+      "chunk": 8,
+      "inline": true
     },
     {
       "refKey": "Gen.2",
@@ -1070,6 +1084,13 @@
       "refDisplay": "Joan. XVII",
       "column": "370a",
       "chunk": 13
+    },
+    {
+      "refKey": "Rev.21",
+      "refDisplay": "Apoc. XXI",
+      "column": "370a",
+      "chunk": 13,
+      "inline": true
     },
     {
       "refKey": "Isa.52",

@@ -14,7 +14,7 @@
   "colFirst": "391b",
   "colLast": "398c",
   "counts": {
-    "scripture": 15,
+    "scripture": 16,
     "fontes": 0,
     "heads": 1,
     "headnotes": 0,
@@ -100,10 +100,17 @@
       "chunk": 0
     },
     {
-      "refKey": "1Cor.7.38",
+      "refKey": "Amos.5.16",
+      "refDisplay": "Amos V, 16",
+      "column": "396b",
+      "chunk": 0,
+      "inline": true
+    },
+    {
+      "refKey": "Amos.5.16",
       "refDisplay": "Ibid.",
-      "antecedent": "I Cor. VII, 38",
-      "antecedentColumn": "396a",
+      "antecedent": "Amos V, 16",
+      "antecedentColumn": "396b",
       "ibidResolved": true,
       "column": "396c",
       "chunk": 0
@@ -131,5 +138,6 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

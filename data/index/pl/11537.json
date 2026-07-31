@@ -14,7 +14,7 @@
   "colFirst": "1059a",
   "colLast": "1074b",
   "counts": {
-    "scripture": 50,
+    "scripture": 53,
     "fontes": 0,
     "heads": 2,
     "headnotes": 0,
@@ -32,6 +32,13 @@
       "refDisplay": "II Cor. VI.",
       "column": "1059b",
       "chunk": 0
+    },
+    {
+      "refKey": "Num.23",
+      "refDisplay": "Num. XXIII",
+      "column": "1059d",
+      "chunk": 0,
+      "inline": true
     },
     {
       "refKey": "John.16",
@@ -88,6 +95,13 @@
       "chunk": 1
     },
     {
+      "refKey": "Job.27",
+      "refDisplay": "Job XXVII",
+      "column": "1064c",
+      "chunk": 1,
+      "inline": true
+    },
+    {
       "refKey": "Rom.12",
       "refDisplay": "Rom. XII",
       "column": "1064d",
@@ -128,6 +142,13 @@
       "refDisplay": "Ose. I",
       "column": "1065d",
       "chunk": 1
+    },
+    {
+      "refKey": "Rom.5",
+      "refDisplay": "Rom. V",
+      "column": "1065d",
+      "chunk": 1,
+      "inline": true
     },
     {
       "refKey": "Matt.5",
@@ -341,5 +362,6 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

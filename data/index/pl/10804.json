@@ -14,8 +14,8 @@
   "colFirst": "1233",
   "colLast": "1288b",
   "counts": {
-    "scripture": 145,
-    "fontes": 1,
+    "scripture": 147,
+    "fontes": 0,
     "heads": 9,
     "headnotes": 498,
     "unparsed": 0
@@ -100,6 +100,12 @@
       "refKey": "Acts.13.46",
       "refDisplay": "Act. XIII, 46",
       "column": "1238c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.56.2",
+      "refDisplay": "Isa, LVI, 2.",
+      "column": "1239b",
       "chunk": 1
     },
     {
@@ -556,6 +562,13 @@
       "chunk": 9
     },
     {
+      "refKey": "Ps.63.7",
+      "refDisplay": "Psal. LXIII, 7",
+      "column": "1265a",
+      "chunk": 9,
+      "inline": true
+    },
+    {
       "refKey": "Isa.64.1",
       "refDisplay": "Isa. LXIV, 1.",
       "column": "1265c",
@@ -907,13 +920,7 @@
       "chunk": 16
     }
   ],
-  "fontes": [
-    {
-      "raw": "Isa, LVI, 2.",
-      "column": "1239b",
-      "chunk": 1
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Expositio in Cantica canticorum",

@@ -14,7 +14,7 @@
   "colFirst": "71a",
   "colLast": "78a",
   "counts": {
-    "scripture": 31,
+    "scripture": 32,
     "fontes": 0,
     "heads": 5,
     "headnotes": 0,
@@ -131,6 +131,13 @@
       "ibidResolved": true,
       "column": "74c",
       "chunk": 1
+    },
+    {
+      "refKey": "Luke.6.37",
+      "refDisplay": "Luc. VI, 37",
+      "column": "74c",
+      "chunk": 1,
+      "inline": true
     },
     {
       "refKey": "Rom.14.4",
@@ -269,5 +276,6 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

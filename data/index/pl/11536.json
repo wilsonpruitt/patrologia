@@ -14,8 +14,8 @@
   "colFirst": "1073c",
   "colLast": "1116c",
   "counts": {
-    "scripture": 86,
-    "fontes": 6,
+    "scripture": 95,
+    "fontes": 0,
     "heads": 55,
     "headnotes": 0,
     "unparsed": 0
@@ -70,6 +70,13 @@
       "chunk": 0
     },
     {
+      "refKey": "Eccl.24",
+      "refDisplay": "Eccle. XXIV",
+      "column": "1077a",
+      "chunk": 1,
+      "inline": true
+    },
+    {
       "refKey": "Ps.54",
       "refDisplay": "Psal. LIV",
       "column": "1077d",
@@ -97,6 +104,12 @@
       "refKey": "Ps.26",
       "refDisplay": "Psal. XXVI",
       "column": "1081c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Josh.8",
+      "refDisplay": "Josue VIII",
+      "column": "1082b",
       "chunk": 2
     },
     {
@@ -169,10 +182,29 @@
       "chunk": 3
     },
     {
+      "refKey": "Josh.3",
+      "refDisplay": "Josue III.",
+      "column": "1084b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Josh.3",
+      "refDisplay": "Josue III",
+      "column": "1085a",
+      "chunk": 4
+    },
+    {
       "refKey": "Jas.4",
       "refDisplay": "Jac. IV",
       "column": "1085a",
       "chunk": 4
+    },
+    {
+      "refKey": "Josh.3",
+      "refDisplay": "Josue III",
+      "column": "1085d",
+      "chunk": 4,
+      "inline": true
     },
     {
       "refKey": "John.15",
@@ -184,6 +216,12 @@
       "refKey": "Ps.72",
       "refDisplay": "Psal. LXXII.",
       "column": "1089b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Josh.3",
+      "refDisplay": "Josue III",
+      "column": "1089d",
       "chunk": 5
     },
     {
@@ -268,6 +306,12 @@
       "refKey": "Isa.7",
       "refDisplay": "Isa. VII",
       "column": "1094d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Josh.3",
+      "refDisplay": "Josue III",
+      "column": "1095a",
       "chunk": 7
     },
     {
@@ -364,6 +408,12 @@
       "refKey": "Ps.36",
       "refDisplay": "Psal. XXXVI",
       "column": "1101c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Josh.2",
+      "refDisplay": "Josue II",
+      "column": "1101d",
       "chunk": 11
     },
     {
@@ -505,6 +555,13 @@
       "chunk": 14
     },
     {
+      "refKey": "1Cor.7",
+      "refDisplay": "I Cor. VII",
+      "column": "1112c",
+      "chunk": 15,
+      "inline": true
+    },
+    {
       "refKey": "1Cor.40",
       "refDisplay": "I Cor. XL",
       "column": "1112d",
@@ -547,38 +604,7 @@
       "chunk": 16
     }
   ],
-  "fontes": [
-    {
-      "raw": "Josue VIII",
-      "column": "1082b",
-      "chunk": 2
-    },
-    {
-      "raw": "Josue III.",
-      "column": "1084b",
-      "chunk": 3
-    },
-    {
-      "raw": "Josue III",
-      "column": "1085a",
-      "chunk": 4
-    },
-    {
-      "raw": "Josue III",
-      "column": "1089d",
-      "chunk": 5
-    },
-    {
-      "raw": "Josue III",
-      "column": "1095a",
-      "chunk": 7
-    },
-    {
-      "raw": "Josue II",
-      "column": "1101d",
-      "chunk": 11
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "TRACTATUS PRIMUS.",

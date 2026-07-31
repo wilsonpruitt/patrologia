@@ -14,11 +14,11 @@
   "colFirst": "1089",
   "colLast": "1166a",
   "counts": {
-    "scripture": 204,
+    "scripture": 210,
     "fontes": 0,
     "heads": 11,
     "headnotes": 578,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -469,6 +469,18 @@
       "chunk": 8
     },
     {
+      "refKey": "Phil.2",
+      "refDisplay": "Phil. II, Heb. II",
+      "column": "1113c",
+      "chunk": 8
+    },
+    {
+      "refKey": "Heb.2",
+      "refDisplay": "Phil. II, Heb. II",
+      "column": "1113c",
+      "chunk": 8
+    },
+    {
       "refKey": "Matt.3",
       "refDisplay": "Matth. III",
       "column": "1114a",
@@ -586,6 +598,16 @@
       "chunk": 11
     },
     {
+      "refKey": "Ps.23.2",
+      "refDisplay": "Psal. II",
+      "refKeyPrinted": "Ps.2",
+      "corrected": true,
+      "correctionNote": "This is an INLINE (running-text) citation, column keyed on the OPENING paren per the 2026-07-31 inline-citation SPEC (the anchor 1121C falls inside it: '(Psal. [1121C] II)'). Migne prints II for the correct chapter; the quoted Latin — 'He founded it upon the seas, and prepared it upon the floods' — is Ps. 23:2 in the CITED Vulgate numbering (Ps. 24:2 modern), which has nothing in common with Ps. 2. Worked example 4 in data/inline-citations/SPEC.md.",
+      "column": "1121b",
+      "chunk": 11,
+      "inline": true
+    },
+    {
       "refKey": "Ps.103",
       "refDisplay": "Psal. CIII",
       "column": "1121c",
@@ -596,6 +618,13 @@
       "refDisplay": "Psal. CXIII",
       "column": "1121c",
       "chunk": 11
+    },
+    {
+      "refKey": "Song.1",
+      "refDisplay": "Cant. I",
+      "column": "1121c",
+      "chunk": 11,
+      "inline": true
     },
     {
       "refKey": "Ps.72",
@@ -893,6 +922,13 @@
       "refDisplay": "Isa. X",
       "column": "1140b",
       "chunk": 17
+    },
+    {
+      "refKey": "Ps.28",
+      "refDisplay": "Psal. XXVIII",
+      "column": "1140c",
+      "chunk": 17,
+      "inline": true
     },
     {
       "refKey": "Ps.50",
@@ -1205,6 +1241,13 @@
       "refDisplay": "Eccli. III",
       "column": "1162a",
       "chunk": 25
+    },
+    {
+      "refKey": "Ps.34",
+      "refDisplay": "Psal. XXXIV",
+      "column": "1162b",
+      "chunk": 25,
+      "inline": true
     },
     {
       "refKey": "1Pet.1",
@@ -4794,13 +4837,6 @@
       "chunk": 26
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Phil. II, Heb. II)",
-      "reason": "unparsed-shape",
-      "column": "1113c",
-      "chunk": 8
-    }
-  ],
+  "unparsed": [],
   "proseNotes": []
 }

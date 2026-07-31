@@ -14,7 +14,7 @@
   "colFirst": "923b",
   "colLast": "1154c",
   "counts": {
-    "scripture": 195,
+    "scripture": 199,
     "fontes": 0,
     "heads": 60,
     "headnotes": 1462,
@@ -184,6 +184,12 @@
       "chunk": 13
     },
     {
+      "refKey": "Josh.5",
+      "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
+      "column": "957a",
+      "chunk": 13
+    },
+    {
       "refKey": "2Macc.3",
       "refDisplay": "Ezech. I; Apoc. IV; Isa. VI; Dan. VII; Zach. I; Apoc. VI; Ezech. XXIII; Job. XVI; Sap. V; Josue V; II Machab. III",
       "column": "957a",
@@ -263,6 +269,12 @@
     },
     {
       "refKey": "Song.2",
+      "refDisplay": "Cant. II; Isa, XXVIII; Osee V",
+      "column": "960a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Isa.28",
       "refDisplay": "Cant. II; Isa, XXVIII; Osee V",
       "column": "960a",
       "chunk": 13
@@ -1142,6 +1154,20 @@
       "refDisplay": "Gen. XXVIII; Joan. I",
       "column": "1134d",
       "chunk": 73
+    },
+    {
+      "refKey": "John.3",
+      "refDisplay": "Joan. III Isai. V",
+      "column": "1134d",
+      "chunk": 73,
+      "inline": true
+    },
+    {
+      "refKey": "Isa.5",
+      "refDisplay": "Joan. III Isai. V",
+      "column": "1134d",
+      "chunk": 73,
+      "inline": true
     },
     {
       "refKey": "Isa.35",

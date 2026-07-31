@@ -14,7 +14,7 @@
   "colFirst": "1031c",
   "colLast": "1042d",
   "counts": {
-    "scripture": 22,
+    "scripture": 24,
     "fontes": 0,
     "heads": 1,
     "headnotes": 0,
@@ -58,6 +58,13 @@
       "chunk": 0
     },
     {
+      "refKey": "Luke.12",
+      "refDisplay": "Luc. XII.",
+      "column": "1034b",
+      "chunk": 0,
+      "inline": true
+    },
+    {
       "refKey": "Rom.5",
       "refDisplay": "Rom. V",
       "column": "1034d",
@@ -86,6 +93,13 @@
       "refDisplay": "Prov. XVIII",
       "column": "1035d",
       "chunk": 1
+    },
+    {
+      "refKey": "Ps.32",
+      "refDisplay": "Psal. XXXII",
+      "column": "1036a",
+      "chunk": 1,
+      "inline": true
     },
     {
       "refKey": "2Cor.1",
@@ -167,5 +181,6 @@
     }
   ],
   "headnotes": [],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

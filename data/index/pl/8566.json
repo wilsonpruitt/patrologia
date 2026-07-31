@@ -14,8 +14,8 @@
   "colFirst": "1379b",
   "colLast": "1386b",
   "counts": {
-    "scripture": 19,
-    "fontes": 2,
+    "scripture": 21,
+    "fontes": 0,
     "heads": 1,
     "headnotes": 4,
     "unparsed": 0
@@ -94,6 +94,19 @@
       "chunk": 0
     },
     {
+      "refKey": "Job.10.20-Job.10.22",
+      "refDisplay": "Job, X, 20-22",
+      "column": "1382a",
+      "chunk": 0,
+      "inline": true
+    },
+    {
+      "refKey": "Job.27.16",
+      "refDisplay": "Job, XXVII, 16.",
+      "column": "1382b",
+      "chunk": 0
+    },
+    {
       "refKey": "Acts.2.24",
       "refDisplay": "Act. II, 24",
       "column": "1382c",
@@ -142,19 +155,7 @@
       "chunk": 1
     }
   ],
-  "fontes": [
-    {
-      "raw": "Job, XXVII, 16.",
-      "column": "1382b",
-      "chunk": 0
-    },
-    {
-      "raw": "(Job, X, 20-22)",
-      "column": "1382a",
-      "chunk": 0,
-      "inline": true
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "Tractatus",
@@ -189,5 +190,6 @@
       "chunk": 1
     }
   ],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

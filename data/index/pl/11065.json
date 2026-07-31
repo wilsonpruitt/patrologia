@@ -14,11 +14,11 @@
   "colFirst": "113c",
   "colLast": "256c",
   "counts": {
-    "scripture": 121,
-    "fontes": 3,
+    "scripture": 126,
+    "fontes": 4,
     "heads": 21,
     "headnotes": 7,
-    "unparsed": 1
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -280,6 +280,13 @@
       "chunk": 17
     },
     {
+      "refKey": "Job.30",
+      "refDisplay": "Job XXX",
+      "column": "159b",
+      "chunk": 18,
+      "inline": true
+    },
+    {
       "refKey": "Isa.5",
       "refDisplay": "Isa. V",
       "column": "159c",
@@ -454,6 +461,13 @@
       "chunk": 30
     },
     {
+      "refKey": "Eccl.7",
+      "refDisplay": "Eccle. VII",
+      "column": "192d",
+      "chunk": 30,
+      "inline": true
+    },
+    {
       "refKey": "Sir.7",
       "refDisplay": "Eccli. VII",
       "column": "193a",
@@ -530,6 +544,13 @@
       "refDisplay": "Psal. LI.",
       "column": "202c",
       "chunk": 33
+    },
+    {
+      "refKey": "Ps.26",
+      "refDisplay": "Psal. XXVI",
+      "column": "202c",
+      "chunk": 34,
+      "inline": true
     },
     {
       "refKey": "Sir.39",
@@ -691,6 +712,13 @@
       "chunk": 40
     },
     {
+      "refKey": "Josh.15",
+      "refDisplay": "Josue, XV",
+      "column": "233d",
+      "chunk": 45,
+      "inline": true
+    },
+    {
       "refKey": "Rev.22",
       "refDisplay": "Apoc. XXII",
       "column": "234a",
@@ -757,6 +785,13 @@
       "chunk": 51
     },
     {
+      "refKey": "Eccl.4",
+      "refDisplay": "Eccles, IV",
+      "column": "252d",
+      "chunk": 52,
+      "inline": true
+    },
+    {
       "refKey": "1Kgs.17",
       "refDisplay": "III Reg. XVII",
       "column": "255b",
@@ -768,6 +803,11 @@
       "raw": "ECCLE. I.",
       "column": "115c",
       "chunk": 1
+    },
+    {
+      "raw": "Aeneid. VI, 688.",
+      "column": "136d",
+      "chunk": 8
     },
     {
       "raw": "ECCLES. II.",
@@ -952,14 +992,7 @@
       "chunk": 26
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Aeneid. VI, 688.)",
-      "reason": "unknown-book",
-      "column": "136d",
-      "chunk": 8
-    }
-  ],
+  "unparsed": [],
   "proseNotes": [
     {
       "raw": "(Subauditur praeter vanitatem.)",
