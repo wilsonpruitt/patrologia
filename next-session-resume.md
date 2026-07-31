@@ -1,22 +1,27 @@
 # Next session — resume note
 
-## ▶ QUEUED FOR FABLE — the inline-citation decision (Wilson, 2026-07-31)
+## ▶ QUEUED FOR SONNET — execute the inline-citation spec
 
-**Start at `data/inline-citations/FABLE-SESSION.md`.** Brief + measured evidence in
-`data/inline-citations/BRIEF.md`; numbers reproducible via
-`node scripts/scan-inline-citations.mjs`. Output is ONE artifact,
-`data/inline-citations/SPEC.md`, that a Sonnet session executes.
+**The Fable session ran 2026-07-31 and ruled. Execute `data/inline-citations/SPEC.md`
+top to bottom — every judgment call is made; do not re-open the rulings.** Headlines:
+harvest at index time from the Latin twin (NO new marker, NO prompt/style-file change);
+records land in `scripture[]` with `inline: true`; one printed citation may emit
+multiple records (full verbatim `refDisplay` on each — never sliced); anchor-inside
+citations belong to the column where the paren OPENS (internal anchors still advance
+the tracker, `[f:]` precedent); `Aeneid` joins the known-fontes routing list (its 11065
+specimen is a `[n:]` NOTE, not inline — the brief mislisted it); retroactive re-index of
+all 15 shipped works, one batch, **one deploy needing Wilson's OK**.
 
-Why it is Fable's: it governs the index contract for 5,204 works and the prompt of every
-future translation agent. **69 inline scripture parentheticals across 24 works; 41 have a
-column anchor INSIDE the citation; 31 are in SHIPPED works and invisible to the live
-index now** (1.02% of its 3,033 citations); 38 more are queued. The standing ruling was
-"only 1 case, don't build a harvester" (7020, 2026-07-10) — correct at n=1, and the count
-is what changed, not the class.
+Two measurement corrections found en route (recorded in the spec): the scanner's 69
+includes **3 prose false positives** (no numeral) — real class 66 across 23 works, 30
+shipped; and the harvest regex therefore REQUIRES a numeral. Expected retro delta:
+**+31 scripture / +1 fontes / −1 unparsed.** The scan script becomes a post-rollout
+audit (subtract harvested, expect zero remainder on shipped works).
 
-Also folded in: the **two-book citation** problem (`(Joan. III … Isai. V)` inline in
-11064; `(Phil. II, Heb. II)` inside a well-formed `[n:]` note in 8930 @1113c), which is
-**independent** of the inline question and defeats the indexer either way.
+8930 (mid-run) needs nothing special — its 4 inline citations + the `(Psal. II)`
+correction + the `(Phil. II, Heb. II)` two-book note are all covered by the spec's
+worked examples; the corrections entry is authored during that session, keyed on the
+OPENING column.
 
 
 ## 2026-07-30 (thirteenth, Opus) — 7914 SHIPPED + DEPLOYED; gate green 90/90; rulebook gained 7a″
