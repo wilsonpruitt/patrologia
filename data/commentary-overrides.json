@@ -20,6 +20,31 @@
     "preface": []
   },
   "addBooks": {
-    "_note": "workIdno -> [OSIS] for works whose title does not name the book but which ARE commentaries on it. None yet; add as they surface."
+    "_note": "workIdno -> [OSIS] for works the title heuristic gets WRONG or cannot see. Entries here override derivation entirely.",
+    "3907": [
+      "Isa",
+      "1Sam",
+      "Exod",
+      "Hab",
+      "Deut",
+      "Dan",
+      "Luke"
+    ]
+  },
+  "addBooksNotes": {
+    "3907": "Rabanus Maurus, 'Commentaria in Cantica' (PL 112, idno 8930) — NOT the Song of Songs. It expounds the CANTICLES SUNG AT LAUDS, dedicated to King Louis: Isaiah 12, Hezekiah's prayer (Isa 38), Hannah (1 Sam 2), the Song of the Sea (Exod 15), Habakkuk 3, Deuteronomy 32, the Three Children (Dan 3), the Benedictus, the Magnificat and the Nunc dimittis (Luke 1-2). The bare title 'in Cantica' makes the derivation file it under Song of Songs; its own heads name all ten. Found 2026-07-30 when its lemma vocabulary came back almost empty of Song terms and full of Theman, Edom and Anna. THE LESSON: 'Cantica' in a TITLE is not evidence of the Song of Songs — check the heads."
+  },
+  "bareCanticaWatch": {
+    "_note": "Titles with a BARE 'Cantica/Canticum' (not the doubled 'Cantica canticorum'). The bare form is NOT evidence of the Song of Songs — 8930 Rabanus turned out to expound the ten canticles of Lauds. But it is not always wrong either, so these are not auto-rejected: VERIFY AGAINST THE WORK'S OWN HEADS before translating or trusting the map's placement.",
+    "works": [
+      "3223 (idno 8229) Auctor incertus — Cantica",
+      "6227 (idno 11268) Auctor incertus (Bernardus Claraevallensis?) — In Canticum B. Virginis Mariae",
+      "578 (idno 7134) Auctor incertus (Hieronymus Stridonensis?) — Commentarius in Canticum Debborae",
+      "3439 (idno 8456) Beda — Allegorica expositio in Canticum Habacuc",
+      "4905 (idno 9937) Bruno Herbipolensis — Commentarius in Cantica",
+      "4048 (idno 9071) Haymo Halberstatensis — Commentaria in Cantica",
+      "6022 (idno 11062) Hugo de S. Victore — Explanatio in Canticum B. Mariae",
+      "3907 (idno 8930) Rabanus Maurus — Commentaria in Cantica"
+    ]
   }
 }

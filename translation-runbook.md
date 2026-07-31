@@ -265,13 +265,21 @@ the live list**, derived from `src/latin/` minus `src/english/` at build time.
 | 10804 | 164 | Bruno of Segni | Expositio in Cantica canticorum | 19,037 | 17 | ~340K |
 | 7914 | 70 | Ps.-Cassiodorus | Expositio in Cantica canticorum | 27,573 | 23 | ~460K |
 | 9033 | 115 | Angelomus of Luxeuil | Enarrationes in Cantica canticorum | 32,713 | 27 | ~540K |
-| 8930 | 112 | Rabanus Maurus | Commentaria in Cantica | 32,975 | 27 | ~540K |
 | 11638 | 203 | Philip of Harvengt | Moralitates in Cantica canticorum | 40,356 | 35 | ~700K |
 | 6963 | 15 | (Ps.-)Ambrose | Commentarius in Cantica canticorum | 44,936 | 40 | ~800K |
 | 11613 | 202 | Gilbert Foliot | Expositio in Cantica canticorum | 66,117 | 53 | ~1.1M |
 | 11512 | 195 | Wolbero of St Pantaleon | Commentaria in Canticum canticorum | 109,419 | 81 | ~1.6M |
 | 11632 | 203 | Philip of Harvengt | Commentaria in Cantica canticorum | 126,797 | 126 | ~2.5M |
 | 11703 | 206 | Thomas the Cistercian | Commentaria in Cantica canticorum | 333,776 | 259 | ~5.2M |
+
+**⚠ 8930 Rabanus was REMOVED from this table 2026-07-30 — it is NOT a Song of Songs
+commentary.** Its title is the bare *Commentaria in Cantica*, but its own heads name the
+ten **canticles sung at Lauds** (Isaiah 12, Hezekiah, Hannah, the Song of the Sea,
+Habakkuk 3, Deuteronomy 32, the Three Children, Benedictus, Magnificat, Nunc dimittis),
+dedicated to King Louis. **The doubled form *Cantica canticorum* is the reliable signal;
+the bare form is not** — and it is not always wrong either (Haymo's genuine Song
+commentary carries it), so it must be VERIFIED AGAINST THE WORK'S OWN HEADS. Watch list
+of every bare-*Cantica* title in the corpus: `data/commentary-overrides.json`.
 
 ~879K Latin words / 730 chunks / ~14.5M tokens for the whole set — that is MANY
 sessions, each with its own hard-stop. Suggested cadence: smallest-first (each finished
