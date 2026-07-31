@@ -1,5 +1,28 @@
 # Next session — resume note
 
+## ▶ 9033 Angelomus SHIPPED 2026-07-31 (Sonnet, `8ea92da`, pushed) — staged, not deployed
+
+**First English translation** of Angelomus of Luxeuil's *Enarrationes in Cantica
+canticorum* (PL 115, 27 chunks, 31,140 words) — the smallest queue-ready work after
+9637 (still a Fable mini-pilot, see below) was correctly skipped. Full pipeline run:
+6 Opus agents (chunks 0-4/5-9/10-14/15-18/19-22/23-26), verify-english clean, all six
+agents' cruces merged into one file with a work-wide conventions section (nard→
+spikenard standardized across 3 drifting chunks; one `[var:]` marker's format fixed).
+**Required blind polarity read done** (runbook 4a): 30 sites, 22 already caught by the
+translating agents' own lemma-vs-Vulgate collation, 8 new — 3 were genuine errors and
+are FIXED in the text (0591B verb/noun crossing, 0569C–D same-phrase-opposite-senses,
+0580A mistranslated causative idiom), 5 are Migne's own plate defects logged per
+Pattern 7, not touched. `polarity-record.mjs --gate` green **92/92**. Author bio added
+(Angelomus had none). Two new BOOKS aliases surfaced (`Joann`→John). `englishState:
+"ours"` set, `workStatus` left untouched at `none` per rule 8. Scripture index,
+sources, authors, queue, volume indexes, commentaries map all rebuilt and staged.
+
+**NOT deployed** — landing `RECENT` entry + `build-landing.mjs` + `npx vercel --prod`
+are the deploy step (runbook step 8), owed whenever Wilson gives the OK. Next in the
+translation queue after this (smallest-first, still respecting the 9637 skip): check
+`node scripts/build-queue.mjs` fresh, since 9033 dropping off the "prepared" list
+shifts the ranking.
+
 ## ▶ SPEC EXECUTED 2026-07-31 (Sonnet, `f89d1b4`, pushed) — ONE deploy still owed
 
 **`data/inline-citations/SPEC.md` is fully implemented and committed. All that's left
