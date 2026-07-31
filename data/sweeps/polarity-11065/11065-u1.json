@@ -1,0 +1,34 @@
+{"agent":"11065-u1","idno":"11065","chunks":"0000-0008","chunksRead":9,
+ "findings":[
+  {"chunk":"0001","column":"0117D","side":"migne",
+   "printedLatin":"Primum ergo visus est ignis cum flamma, et fumo, deinde ignis cum flamma sive fumo, postremo ignis purus sine flamma, et fumo.",
+   "englishAsRendered":"First therefore fire was seen with flame and smoke, then fire with flame or smoke, last of all pure fire without flame and smoke.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"ignis cum flamma SINE fumo (printed sive for sine)",
+   "whyContradiction":"Hugh applies the same three stages a few lines later and there prints the negative: 'quasi in principio contemplationis flamma SINE fumo est' (stage two), between stage one 'in meditatione fumus cum flamma est' and stage three 'in solo amoris igne'. The graded series smoke+flame -> flame-without-smoke -> pure fire is destroyed by 'cum flamma sive fumo', which merely repeats stage one; and the immediately preceding narrative has the smoke already scattered ('caligine disjecta, splendor serenus appareat') before the flame stage. Our English renders the printed 'sive' literally, which is correct under Pattern 7; the defect is in the source.",
+   "confidence":"high"},
+
+  {"chunk":"0006","column":"0132C","side":"migne",
+   "printedLatin":"extra terminos naturae suae transire non habet de eo quod est in id, quod non est: et idcirco, terra in aeternum stat in eo quod non est.",
+   "englishAsRendered":"it has not to pass over beyond the bounds of its own nature out of that which it is into that which it is not: and for that reason, the earth standeth for ever in that which it is not.",
+   "defectType":"intrusive-negative",
+   "conjecture":"terra in aeternum stat in eo QUOD EST (intrusive non in the second clause)",
+   "whyContradiction":"The idcirco-clause is the conclusion drawn from the clause immediately before it, which says the earth CANNOT pass 'de eo quod est in id, quod non est' — so what it stands in for ever is precisely 'quod est'. The next sentence repeats the point without the negative: 'Quare igitur, et tu non stetisti in eo, quod factus es super terram, sicut et terra stat in eo, quod facta est?' — and the whole surrounding exposition of 'stat' is 'Perseverat in eo quod facta est... quod accepit, hoc retinet incorruptum... nunquam aliud est quam quod est.' Standing for ever in what it is NOT is the opposite of every neighbouring statement. English renders the printed reading literally (correct); the defect is in the source.",
+   "confidence":"high"},
+
+  {"chunk":"0008","column":"0136C","side":"ours",
+   "printedLatin":"spiritum nunc non incovenienter accipere possumus igneam vim quae ab ipso sole procedens, per cuncta se diffundit",
+   "englishAsRendered":"we can now not [sic: *incovenienter*] take the spirit to be that fiery power which, proceeding from the sun itself, pours itself out through all things",
+   "defectType":"marker-hidden-repair",
+   "conjecture":"The garbled word is inconvenienter; 'non inconvenienter' is a litotes = 'not unfittingly / quite fittingly'. The negation inside the quarantined run governs the translated clause, so the English must carry it — e.g. 'not un-[sic: *incovenienter*]-fittingly', or a rendering that keeps the double negative visible. As it stands the surviving 'not' reads as a plain negative and the page says the opposite of Hugh.",
+   "whyContradiction":"Hugh immediately adopts exactly this identification: 'Hic ergo spiritus, id est, occulta naturae vis omnia lustrat', and before that 'nos sano intellectu spiritum pergentem in omnia ... occultam naturae vim accipere possumus'. He cannot be saying we may NOT take the spirit as this power in the very sentence that introduces it. Compare his own uncorrupted use of the same idiom at 0124D, 'Potest etiam non incongrue trina haec vanitatis repetitio ... referri', rendered there correctly as 'can also not incongruously'. This is Pattern 7a' exactly: the marker quarantines the word but not the force of the negative prefix it carries.",
+   "confidence":"medium"},
+
+  {"chunk":"0008","column":"0136D","side":"migne",
+   "printedLatin":"quae rebus omnibus incrementum subjicit, et invisibili eas nutrimento alens ac fovens, ad invisibilem tandem producit substantiam.",
+   "englishAsRendered":"which supplies increase to all things, and, feeding and cherishing them with an invisible nourishment, brings them at length to an invisible substance.",
+   "defectType":"intrusive-negative",
+   "conjecture":"ad VISIBILEM tandem producit substantiam (in- carried over from the preceding 'invisibili ... nutrimento')",
+   "whyContradiction":"The sentence's whole point is the passage from hidden cause to manifest effect: the same power is introduced two lines above as 'Ignem artificem procedentem in RES SENSIBILES procreandas', and the clause itself contrasts the invisible nourishment with what the nourishment at length produces. If the term of the process were also invisible the adversative structure and the word 'tandem' have nothing to do. Our English renders the printed reading literally (correct); the defect is in the source. Rated medium because the printed text is construable if 'substantiam' is read as the inner substance rather than the visible body.",
+   "confidence":"medium"}
+ ]}

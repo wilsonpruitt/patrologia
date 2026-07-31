@@ -1599,3 +1599,76 @@ Hugh's re-quotation inverts the word order of the lemma he printed at 0244A / 02
 ### 0239C — *stultam fecit Deus sapientiam mundi [n: (I Cor. V)]*
 Migne's note points to I Cor. V; the quotation is 1 Cor. 1:20. Note reproduced
 verbatim per the verbatim rule — not corrected, not commented on in the text.
+
+---
+
+# Blind polarity read (step 4a) — 2026-07-30
+
+Six Opus units, blind, 53/53 chunks, no sampling. **20 sites: 13 source-side, 7 ours.**
+Unit JSONs in `data/sweeps/polarity-11065/`.
+
+**Recall was measured, not assumed.** Every defect the translation pass had logged sat
+in a range whose polarity agent was forbidden to read this file, so each was a live
+recall test. Only u3's @0175C was named in its prompt; the rest were blind and were
+found anyway (u1 @0117D + @0132C, u2 all four of its range, u4 four of five). The
+clean chunks can therefore be trusted.
+
+**Every genuinely NEW finding was on our side, and all seven are the same failure:** a
+negation or a word rendered as its opposite, reading smoothly, passing `verify-english`,
+leaving no trace. Three sat in columns this file had ALREADY logged for something else —
+the "a logged column is not a checked column" shape that `translation-style.md` 7a′ was
+written for this same morning.
+
+## Fixed in the English (ours — Wilson's standing policy: our errors are fixed in place)
+
+- **@0136C — `non incovenienter` is a LITOTES.** Was "we can now **not** [sic:
+  *incovenienter*] take the spirit…", a flat denial of what Hugh immediately goes on to
+  argue (*Hic ergo spiritus… omnia lustrat*). The negative prefix had been quarantined
+  inside the marker while `non` survived outside it. Now "not incongruously [sic:
+  *incovenienter*]", matching his same idiom rendered correctly at 0127B. **Textbook 7a′.**
+- **@0171C — `Nec possis … clare discernere`.** Was "And lest thou be able… to discern
+  clearly" — warning the reader against seeing clearly. Hugh warns of LOSING sight
+  (*incipias pati caliginem*), and the causal clause he attaches (*quia imago quae
+  apparet umbra, sola est, non veritas*) is a reason one CANNOT discern. Migne prints a
+  full stop before *Nec*. Now "Nor canst thou, set in the shadow, discern clearly".
+- **@0200D — `male secura mens`.** Was "a mind **ill at ease**" — anxious, the opposite.
+  *secura* = free from care; the passage is vain anxiety swapped for complacent idleness
+  (*vanitas mutata est, non dimissa*), and the mind then *per torporem, et otium… ad
+  turpitudinem relaxetur*. Now "a mind harmfully free of care".
+- **@0211C — negation scope.** Was "many… do not die **by will**". The negation falls on
+  *quando tempus est*, not on *voluntate*. Decisive: *Etiam ii, qui ante tempus nascuntur,
+  nascuntur quando tempus est* — EVERY birth is timely, so the parallel is timeliness,
+  and *tempus moriendi aliquando eligit prava voluntas* says deaths ARE willed. Now "by
+  will die not when the time is".
+- **@0241B — scope of `male`.** Was "which he himself does not **evilly will**", i.e. his
+  willing was not evil. *male* modifies the not-willing: he wickedly does not want it.
+  The next clause prints *et ipse male velit*. Now "which he himself evilly does not will".
+  **This column was logged and the entry DEFENDED the rendering** — but it defended
+  retaining `non`, which was never the question.
+- **@0253A — `minus` distributes over three verbs.** *et minus gemant, et suspirent, et
+  desiderent ejus consolationem.* Was "and groan less, and sigh, and desire his
+  consolation", leaving the last two standing under *ne* — so the page had God leaving
+  them helpless LEST they desire his consolation, against *quia illis alibi reservat
+  consolationes suas*. Now "and less groan, and sigh, and desire…".
+
+## Logged, NOT changed
+
+- **@0249D — `exire ab eo qui perverse inhaeserat`** (u6, low confidence). Our English
+  renders the *cui* sense ("from that to which he had perversely clung"); Migne prints
+  *qui*, which inverts who clings to whom. Flagged as a silent normalization of the named
+  `qui`/`cui` mechanism. Left pending a reading, but it should not stay silent: either
+  render the printed *qui* or say plainly why not.
+
+## @0150A — the crux STANDS, and here is the evidence that settles it
+
+Two agents pressed the flat declarative *Ergo non meditabimur… et requiescere poterit cor
+nostrum* as an under-rendering, since the next three sentences all exhort to seek. The
+remedy proposed was to read it as a rhetorical question. **Rejected, on measurement:
+Migne uses 403 question marks in this work and points rhetorical questions reliably —
+every `Nunquid…?` carries one.** So the period here is his considered pointing, not
+carelessness, and re-mooding the English would emend his punctuation (Pattern 8). The
+contradiction is real and is the SOURCE's — most likely a dropped `nec` before
+*requiescere*. Rendered as printed, logged, not repaired.
+
+**Keep this finding: Migne's question marks in this work are reliable evidence.** Where
+his pointing is declarative, that is a positive signal, not a shrug — do not re-litigate.

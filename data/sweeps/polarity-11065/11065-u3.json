@@ -1,0 +1,18 @@
+{"agent":"11065-u3","idno":"11065","chunks":"0018-0026","chunksRead":9,
+ "controlFound":true,
+ "findings":[
+  {"chunk":"0022","column":"0171C","side":"ours",
+   "printedLatin":"Cave ergo ne et tu dum sub umbra, foliorum requiem quaeris, incipias pati caliginem. Nec possis in umbra positus clare discernere; quia imago quae apparet umbra, sola est, non veritas.",
+   "englishAsRendered":"Beware therefore lest thou too, while under the shadow, thou seekest the rest of leaves, begin to suffer gloom. And lest thou be able, set in the shadow, to discern clearly; because the image which appears is shadow alone, not truth.",
+   "defectType":"misplaced-negative",
+   "conjecture":"`Nec possis` continues the `ne`-clause as `et non possis` — 'and be not able, set in the shadow, to discern clearly.' The English absorbed the negation of `nec` into the word 'lest' and then translated `possis` affirmatively, so the warning is now against being ABLE to discern clearly. Render: 'nor mayest thou be able, set in the shadow, to discern clearly'.",
+   "whyContradiction":"The causal clause attached to it — *quia imago quae apparet umbra, sola est, non veritas*, 'because the image which appears is shadow alone, not truth' — is a reason one CANNOT discern clearly; it cannot be a reason to fear that one can. The preceding clause it continues, *incipias pati caliginem* ('begin to suffer gloom'), names the same danger: loss of clear sight, not its acquisition.",
+   "confidence":"high"},
+  {"chunk":"0024","column":"0175C","side":"migne",
+   "printedLatin":"Hujus non enim Sunamitis, id est sapientiae, amorem significabat ignis ille quo rubus ardebat et non comburebatur",
+   "englishAsRendered":"For that fire, by which the bush was burning and was not burned up, did not signify the love of this Shunamite, that is, of wisdom",
+   "defectType":"intrusive-negative",
+   "conjecture":"Delete the intrusive `non` (or read `Hujus nonne enim Sunamitis … significabat … ?` as a rhetorical question). The clause must be affirmative: the burning bush DID signify the love of this Shunammite, i.e. of wisdom. The word order *Hujus non enim* — with `non` wedged between the demonstrative and the postpositive `enim` — is itself the mark of the intrusion. Our English renders the printed text literally, which is correct policy; the defect is in the source and needs a crux, not an emendation.",
+   "whyContradiction":"The sentence immediately before defines the Shunammite as the one *quae senes calefacit et juvenes non urit* — she warms without burning — which is precisely the bush that *ardebat et non comburebatur*; and the clause immediately after draws the consequence from the identification: *et ideo Moyses, postquam transivit ad videndam visionem, ac sentire coepit quam suaviter arderet flamma ejus, non amplius teneri potuit Aethiopissae uxoris amore*. The whole paragraph has already said *Amor vero sapientiae lumen habet; sed consumptionem non habet*. A denial that the fire signified wisdom's love destroys the argument it introduces with *et ideo*.",
+   "confidence":"high"}
+ ]}

@@ -1,0 +1,42 @@
+{"agent":"11065-u4","idno":"11065","chunks":"0027-0035","chunksRead":9,
+ "findings":[
+  {"chunk":"0028","column":"0187B","side":"migne",
+   "printedLatin":"et ascendunt usque ad coelos, et descendunt usque ab abyssos, anima illorum tabescente in incerto malorum suorum",
+   "englishAsRendered":"and they ascend even to the heavens, and they descend even from the depths, their soul wasting away in the uncertainty of its own evils",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"usque ad abyssos (ad, not ab) — render literally, do not emend; the English carries the printed ab as “from”, which reverses the direction of the descent",
+   "whyContradiction":"Hugh has just quoted the same verse verbatim eight lines earlier in the SAME chunk with the right preposition — *ascendunt usque ad coelos, et descendunt usque ad abyssos* [n: (Psal. CVI)] — and the frame is a descent: *Venit spiritus malus, et impellit deorsum*. One cannot descend *from* the depths.",
+   "confidence":"medium"},
+
+  {"chunk":"0030","column":"0191D","side":"migne",
+   "printedLatin":"Ergo invisibilia supra sunt, visibilia subtus; et invisibilia supra coelum nostrum, invisibilia sub terra nostra.",
+   "englishAsRendered":"Therefore invisible things are above, visible things beneath; and invisible things are above our heaven, invisible things beneath our earth.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"visibilia sub terra nostra (the second invisibilia should be visibilia); render literally and log — no emendation",
+   "whyContradiction":"The immediately preceding clause of the same sentence states the distribution: *Invisibilia intus sunt, visibilia foris sunt. Ergo invisibilia supra sunt, visibilia subtus.* And the very next sentence applies it: *Omnia terrena sub terra nostra sunt, quia ad ejus servitutem facta sunt* — earthly (visible) things are what lies beneath our earth. As printed the sentence puts invisible things on both sides of the division it was drawn to make.",
+   "confidence":"high"},
+
+  {"chunk":"0032","column":"0198C","side":"migne",
+   "printedLatin":"Propterea sapientis memoria non in perpetuum non erit similiter ut stulti, et futura tempora non operient cuncta oblivione",
+   "englishAsRendered":"Therefore the memory of the wise man shall not for ever not be in like manner as that of the fool, and future times shall not cover all things with oblivion",
+   "defectType":"intrusive-negative",
+   "conjecture":"one non is intrusive: *sapientis memoria non erit similiter ut stulti in perpetuum*, exactly as the lemma is printed a few lines above. The English carries the doubled negation literally and unmarked, so a reader meets a double negative that asserts the memories WILL be alike.",
+   "whyContradiction":"The lemma Hugh is recapitulating prints one negation only — *Non enim erit memoria sapientis similiter, ut stulti in perpetuum* — and his own gloss two sentences earlier says *in futura tamen vita similis memoria non erit*, with *dissimilis pro meritis suis retributio separabit*. The doubled negative makes the recap assert the opposite of the verse it is recapping.",
+   "confidence":"high"},
+
+  {"chunk":"0033","column":"0200D","side":"ours",
+   "printedLatin":"Vena [Vana] sollicitudo reprehenditur, ut male secura mens per torporem, et otium, et incontinentiam ad turpitudinem relaxetur.",
+   "englishAsRendered":"[sic: *Vena*] carefulness is rebuked, so that a mind ill at ease may be loosed through torpor and idleness and incontinence into baseness.",
+   "defectType":"opposite-word",
+   "conjecture":"secura = free from care, complacent; *male secura* = wrongly carefree / ill-securely at ease. English “ill at ease” means anxious, which is the state being rebuked, not the state produced. Read: “so that a mind carefree to its own harm may be loosed …”",
+   "whyContradiction":"The result clause names the symptoms of the opposite disposition: *per torporem, et otium, et incontinentiam ad turpitudinem relaxetur* — torpor, idleness and unbridled relaxation are what a complacent mind falls into, not an uneasy one. And the governing sentence two clauses earlier states the exchange: *vanitas mutata est, non dimissa, et alia alii vanitas successit* — anxious toil is swapped for secure indulgence. An “ill at ease” mind would be the first vanity over again, not the second.",
+   "confidence":"medium"},
+
+  {"chunk":"0035","column":"0206C","side":"migne",
+   "printedLatin":"et tamen universa quae mutabilitati subjacent, licet in miseria qualemcunque consolationem praebeant, facilitatem tamen conferre non possunt",
+   "englishAsRendered":"and yet all things whatsoever that lie subject to changeableness, although in misery they afford some sort of consolation, cannot nevertheless confer ease",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"felicitatem, not facilitatem — “cannot confer happiness”; render literally and log",
+   "whyContradiction":"As printed the concessive eats itself: things that *do* afford consolation in misery are said to be unable to confer “ease”, which is what consolation is. Hugh's own sentence earlier in this same chunk supplies the word: *nec ipsa prospera veram felicitatem conferre possunt* — the contrast is consolation-yes / happiness-no.",
+   "confidence":"medium"}
+ ]}

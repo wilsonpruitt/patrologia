@@ -1,0 +1,10 @@
+{"agent":"11065-u5","idno":"11065","chunks":"0036-0044","chunksRead":9,
+ "findings":[
+  {"chunk":"0037","column":"0211C","side":"ours",
+   "printedLatin":"Et tamen multi cum moriuntur, voluntate non moriuntur, quando tempus est, et multi qui necessitate nascuntur, nascuntur quando tempus est.",
+   "englishAsRendered":"And yet many, when they die, do not die by will, when the time is; and many who are born by necessity are born when the time is.",
+   "defectType":"misplaced-negative",
+   "conjecture":"The negation governs 'quando tempus est', not 'voluntate': 'And yet many, when they die, die by will and do not die when the time is; and many who are born by necessity are born when the time is.' In Latin `non` takes as its focus what follows it (moriuntur quando tempus est); `voluntate`, standing before `non`, is the contrasted instrumental — parallel to `necessitate` in the answering clause.",
+   "whyContradiction":"The sentence Hugh writes three lines later states the opposite of the English: 'quia tempus nascendi confert necessitas, tempus moriendi aliquando eligit prava voluntas' — 'necessity confers the time of being born, while a depraved will sometimes chooses the time of dying' — and he draws the conclusion 'Ideo nemo cum nascitur offendit in tempore; et multi offendunt in tempore cum moriuntur.' If many did NOT die by will, no one could offend in the time of his dying, and the whole birth(necessity, always at the right time) / death(will, often at the wrong time) contrast on which the paragraph turns collapses. Our English, with 'by will' inside the negation, makes the printed clause assert what the argument denies.",
+   "confidence":"medium"}
+ ]}

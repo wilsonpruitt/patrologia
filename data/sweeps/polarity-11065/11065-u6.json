@@ -1,0 +1,34 @@
+{"agent":"11065-u6","idno":"11065","chunks":"0045-0052","chunksRead":8,
+ "findings":[
+  {"chunk":"0052","column":"0255B","side":"migne",
+   "printedLatin":"Sed tamen caro ejus quantum in utili vacatione pascitur, tantum subsequenti inedia maceratur.",
+   "englishAsRendered":"But nevertheless his flesh, as much as it is fed in profitable leisure, so much is it wasted by the hunger that follows.",
+   "defectType":"sense-reversing-letter",
+   "conjecture":"in inutili vacatione (the negative prefix in- has dropped, or inutili has been split as in utili). Our English is correctly literal on the printed word; the defect is in the source and needs a crux, not an edit.",
+   "whyContradiction":"The whole paragraph condemns this leisure: two lines earlier *inde caro ejus egestate consumitur, unde otio nutritur* (his flesh is consumed by want from the very idleness that feeds it), and a few lines later Hugh names the same state *otium hoc importunum* and *requies inconsulta* — 'this importunate idleness', 'ill-advised rest'. The subject is the *stultus* who folds his hands. Leisure called *utilis*, 'profitable', is the opposite of what the sentence and its neighbours assert.",
+   "confidence":"high"},
+
+  {"chunk":"0047","column":"0241B","side":"ours",
+   "printedLatin":"et cum fit quod male ipse non vult, dicit male fieri; cum bene fiat, et ipse male velit.",
+   "englishAsRendered":"and when that comes to pass which he himself does not evilly will, he says that it is ill done; whereas it is well done, and he himself evilly wills.",
+   "defectType":"reference-misbound",
+   "conjecture":"male governs non vult, not the man's willing as a whole: 'and when that comes to pass which he, wickedly, does not want, he says it is ill done; whereas it is done well, and it is he who wills ill.' The English scopes the negation over 'evilly will' and so denies of him the very evil willing the clause is about.",
+   "whyContradiction":"The second half of the same sentence, four words later, asserts *et ipse male velit* — 'and he himself evilly wills'. The English cannot say in one breath that he 'does not evilly will' the thing and 'evilly wills'. The paragraph's thesis is *solus homo malus … mala voluntate a bonitate discordat*: the evil is located precisely in his willing.",
+   "confidence":"medium"},
+
+  {"chunk":"0052","column":"0253A","side":"ours",
+   "printedLatin":"et nunc interim cunctorum auxilio destitutos relinquit, ne in alieno auxilio consolentur, quod suum non habent, et minus gemant, et suspirent, et desiderent ejus consolationem, quam nondum habent.",
+   "englishAsRendered":"and now meanwhile leaves them destitute of the help of all, lest they be consoled in another's help, which they do not have as their own, and groan less, and sigh, and desire his consolation, which they do not yet have.",
+   "defectType":"misplaced-negative",
+   "conjecture":"minus governs all three coordinated subjunctives ('lest they groan, and sigh, and desire his consolation the less'), or else suspirent/desiderent resume the positive purpose of relinquit. Either way the English must not leave 'sigh' and 'desire' standing under 'lest'.",
+   "whyContradiction":"The immediately preceding clause gives God's reason: *quia illis alibi reservat consolationes suas* — he withholds present comfort because he is keeping his own for them elsewhere. As rendered, the English says he leaves them helpless LEST they sigh and desire his consolation, i.e. exactly the opposite of the purpose the sentence has just stated, and of the closing *quam nondum habent*.",
+   "confidence":"medium"},
+
+  {"chunk":"0050","column":"0249D","side":"migne",
+   "printedLatin":"dum cogitur speciem vanam relinquere, et exire ab eo qui perverse inhaeserat.",
+   "englishAsRendered":"while he is compelled to leave the vain appearance, and to go out from that to which he had perversely clung.",
+   "defectType":"reference-misbound",
+   "conjecture":"cui for qui. Our English silently renders the cui-sense; the printed qui makes the vain appearance the clinger rather than the man, inverting the agency. The rendering is right in substance but is an unlogged silent repair of a one-letter source defect — crux it, or carry the printed binding.",
+   "whyContradiction":"The clause it parallels, *speciem vanam relinquere*, makes man the agent throughout, and the earlier narrative has the soul doing the clinging (*coepit fornicari ad illecebras corporales*). With printed *qui* the appearance clings to him; the English asserts the reverse without marking it.",
+   "confidence":"low"}
+ ]}
