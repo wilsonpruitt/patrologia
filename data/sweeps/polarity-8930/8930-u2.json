@@ -1,0 +1,34 @@
+{
+  "agent": "8930-u2",
+  "idno": "8930",
+  "chunks": "0007-0013",
+  "chunksRead": 7,
+  "controlFound": false,
+  "controlNote": "Column 1109C is NOT in chunks 0007-0013. Chunk 0007 opens at colContext 1109D / colFirst 1110A; all of 1109A-1109D sits inside chunk 0006, which belongs to another unit. I therefore could not have met the control on my own reading of my assigned range. After forming findings I checked 0006 and confirmed the site: the lemma at 1109C prints 'Irruat super eos FORTITUDO et pavor in magnitudine brachii tui' (Exod. 15:16, where the sense and the Vulgate have *formido*), and the exposition built on it is entirely about fear -- 'Quid timent daemones, quid tremunt? ... Timor ergo et tremor cadet super eos.' Note that my own finding at 1120C is the SAME substitution (fortitudine for formidine) in the same work, found blind.",
+  "findings": [
+    {
+      "chunk": "0010",
+      "column": "1120C",
+      "side": "migne",
+      "printedLatin": "Madian autem in lingua nostra sonat ex judicio, id est, in condemnationem, et ostenditur, quod metu judicii aeternarumque poenarum semper in fortitudine sint, et cruciatus, quos se sciunt quotidiano pavore sustinere.",
+      "englishAsRendered": "Now Madian in our tongue sounds \"from judgment,\" that is, \"unto condemnation\"; and it is shown that from fear of the judgment and of the eternal punishments they are always in strength, and the torments which they know themselves to endure with daily dread.",
+      "defectType": "opposite-word",
+      "conjecture": "in formidine (dread) for in fortitudine (strength); formido > fortitudo is a single-word substitution the plate makes elsewhere in this same work",
+      "whyContradiction": "The clause's own subject is 'metu judicii aeternarumque poenarum' and its own continuation is 'cruciatus, quos se sciunt quotidiano PAVORE sustinere' -- the whole sentence explains why the tabernacles of Madian are TERRIFIED ('turbabuntur pelles terrae Madian ... expavescent'). Demons kept in perpetual dread by fear of judgment cannot be 'always in strength'; fear is the entire point of the etymology 'ex judicio, id est, in condemnationem'.",
+      "confidence": "high",
+      "oursSideNote": "Our English renders the printed word literally ('in strength'), which is correct under Pattern 7. The defect is the plate's; it needs a crux, not an emendation."
+    },
+    {
+      "chunk": "0009",
+      "column": "1117C",
+      "side": "migne",
+      "printedLatin": "quod Deus Pater idcirco aperuit caelos virtute sua, et terram repleverit laude et splendorem suum fecerit esse, ut lumen et regnum posuerit in manu Filii sui",
+      "englishAsRendered": "that God the Father therefore opened the heavens by his power, and filled the earth with praise, and made his splendour to be, in order that he might set light and a kingdom in the hand of his Son",
+      "defectType": "sense-reversing-letter",
+      "conjecture": "operuit caelos virtute sua (a > o); operire and aperire are antonyms and the sentence is a verbatim recapitulation of the lemma",
+      "whyContradiction": "The lemma this sentence recapitulates is printed two paragraphs above at 1116B and expounded at 1116C: 'LXX: Operuit coelos virtus ejus, et laude ejus plena est terra' and 'Operuit, inquit, coelos gloria ejus, sive virtus ejus, seu majestas ejus.' The recap keeps every other element of that verse in order (virtute sua / terram repleverit laude / splendorem suum) but flips the verb from 'covered' to 'opened'. The exposition hanging on it is about the assumed humanity OVERTOPPING the heavenly powers, not about heaven being opened.",
+      "confidence": "medium",
+      "oursSideNote": "Our English renders the printed 'aperuit' literally as 'opened', which is correct under Pattern 7. The defect is the plate's; it needs a crux."
+    }
+  ]
+}

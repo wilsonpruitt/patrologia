@@ -1405,3 +1405,86 @@ Interrupting `inquit` kept inside the quotation at every occurrence (1155B, 1160
   No note in this range is editorial prose, so no `[nt: …]` conversion (Pattern 15).
 - **No `[ed: …]`** — nothing in this range is lost from the digitization.
 - Word ratio EN:LA ≈ 1.49 / 1.52 / 1.59 / 1.55 / 1.63, within the expected ~1.5×.
+
+---
+
+# Blind polarity read (step 4a) — 2026-07-31
+
+Four Opus units, blind, 27/27 chunks. **11 sites: 4 source-side, 7 ours.** Units in
+`data/sweeps/polarity-8930/`. Boundaries straddled the canticle batches.
+
+## ⚑ THE PROMPT-DESIGN FINDING — all 7 ours-side defects fell in ONE unit
+
+| translation range | 7a″ instruction it was given | `[var:]` produced | defects the blind read then found |
+|---|---|---|---|
+| 0022–0026 (Benedictus, Magnificat, Nunc dimittis) | `⚠⚠⚠` **naming the specific words** to check, and "**treat the divergence list as the most valuable thing you produce**" | **11** | **0** |
+| 0000–0007 (Isaiah, Hezekiah, Anna, Exodus) | strong but generic: "read every lemma word by word" | 1 | **7** |
+
+Same rule, same model, same work, comparable familiarity of text. **Naming the words and
+making the divergence list an explicit deliverable is what moved 7 → 0.** A general
+instruction to be careful did not. Fold the stronger form into the runbook's prompt
+template for every commentary range, not only the ones that look risky.
+
+## Fixed (ours)
+
+- **@1098B — two printed readings levelled into one.** Migne prints the verse TWICE:
+  *« Laetata sum in salutari **meo** »* and, further down, *« Quia laetata sum in
+  salutari **tuo** »*. Our English gave "**thy**" both times. The passage is Rabanus
+  sorting which words of the canticle are actually *prayer* — the first-person *salutari
+  meo* against the second-person *quia non est Deus praeter **te*** — so the English
+  pre-supplied the very person the argument is testing for and the distinction collapsed.
+  Now "in **my** salvation" / "in **thy** salvation".
+- **@1100C — Prov. 9:1 conformed.** Migne prints *et **suffulsit** columnas septem*
+  ("propped up"); we gave the Douay's "hath **hewn out**" (*excidit*), a word not on the
+  plate, in the proof-text adduced for the septenary. Now "hath propped up".
+- **@1106D — the English construction inverted the expected answer.** Printed *filiis
+  vero Israel, quibus profuit… **non** fuit ille spiritus irae Dei?* was rendered "**was
+  that not** the spirit of God's wrath?" — which in English idiomatically expects *yes*,
+  asserting the spirit WAS wrath toward Israel. Rabanus's next clause (*spiritum Dei
+  **dissimiliter** appellari, cum sit unus atque idem*) requires the opposite: wrath to
+  the Egyptians, not-wrath to Israel, which is what makes the naming dissimilar. Now
+  "— that was not the spirit of God's wrath?", which keeps Migne's question mark
+  (Pattern 8) and the negation without supplying the wrong expectation.
+  ⚠ **This column had a crux that actively DEFENDED the old rendering** ("carried as a
+  question, negative intact"). Presence of the negative was never the issue; the English
+  *construction* was. Third instance of "a defended entry deserves more scrutiny".
+
+## Recorded, NOT fixed — flagged for a reading
+
+- **@1101B** *Suscitat a terra pauperem / de stercore erigit inopem* — our lemma reverses
+  the pairing against the plate. Rabanus himself then says *the poor man is the same as
+  the needy*, so no sense is reversed and the fix is fidelity, not meaning. Left pending.
+- **@1094B** Ps. 50:20 rendered "Deal kindly, **O Sion**" — *Sion* is accusative and the
+  continuation *ut acceptabile fiat **in ea*** treats her as the place acted on. **The
+  crux logs this column but only notes the dropped *Domine* and says "rendered as
+  printed" — it is not.** Another logged-but-unaudited column.
+- **@1100C** the Hebrew/LXX variant *multa in filiis infirmata est* rendered with the
+  Vulgate lemma's "had many children", levelling the columns; our own English renders
+  *multa in filiis* correctly in three other places.
+- **@1101D** lemma prints *non in fortitudine roborabitur vir* with no *sua*; English adds
+  "by **his own** strength", so Rabanus's gloss *hoc est, non in fortitudine **propria***
+  explains a word he is in fact supplying.
+
+## Source-side, new
+- **@1117C** — *quod Deus Pater idcirco **aperuit** caelos* recapping a lemma printed a
+  column earlier as ***Operuit** coelos virtus ejus*. **Antonyms.** Every other element of
+  the verse survives in order; only the verb flips. Rendered literally, correct — the
+  column needed a crux and now has one.
+- **@1120C** — ***in fortitudine*** where the subject is *metu judicii* and the
+  continuation *quotidiano **pavore** sustinere*; conjecture *in formidine*. **This is the
+  SAME substitution as the already-marked @1109C** (*fortitudo* for *formido*, Exod.
+  15:16). Twice in one work looks like a habit of the setting, not a slip.
+
+## Controls
+@1109C was planted in the WRONG UNIT (it lies in chunk 0006 = u1, not u2). The u2 agent
+reported `controlFound: false` **honestly** and said why, then found the identical
+substitution mechanism at @1120C in its own range unprompted — better evidence than the
+control would have given. @1136C, @1156D and @1092A were blind and all were confirmed.
+
+## Also worth a house-style ruling
+**@1160D** *coram **homnibus** tantum, et non etiam coram Domino* → the `[sic: *homnibus*]`
+marker passes 7a′ (the negation keeps its force) but **"men" disappears entirely**,
+leaving "before ___ only, and not also before the Lord." A marked word whose own meaning
+is load-bearing is quarantined out of existence — a different problem from 7a′, and a
+fourth specimen for the real-word-typo convention Wilson owes (with 11553 @0540B, 11081
+@0030B, and 8930 @1092A).

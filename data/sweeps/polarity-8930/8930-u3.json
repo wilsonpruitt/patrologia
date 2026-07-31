@@ -1,0 +1,14 @@
+{"agent":"8930-u3","idno":"8930","chunks":"0014-0020","chunksRead":7,
+ "findings":[
+   {"chunk":"0016","column":"1136C","side":"migne",
+    "printedLatin":"Et ad Hebraeos: « Patres, inquit, quidem carnis nostrae habuimus eruditores et reverebamur eos: non multo magis obtemperabimus patri Spirituum et vivemus et illi quidem in tempore paucorum dierum, secundum voluntatem suam erudiebant nos: hic autem ad id, quod utile est in recipiendo sanctificationem ejus.",
+    "englishAsRendered":"And to the Hebrews: « We have had, he says, indeed the fathers of our flesh as instructors, and we reverenced them: we shall not much more obey the Father of spirits, and we shall live; and they indeed for a time of few days instructed us according to their own will; but he unto that which is useful, in the receiving of his sanctification.",
+    "defectType":"connective-smoothed",
+    "conjecture":"Heb 12:9 is a rhetorical question (*non multo magis obtemperabimus … et vivemus?*, a fortiori). Migne prints the received words exactly but points the clause with a colon and no interrogative mark; rendered flat, the printed `non` becomes a flat denial. Conjecture: Migne's colon stands for a lost question mark.",
+    "whyContradiction":"Rabanus adduces the verse to establish that 'fathers' means teachers who must be heeded — his own frame a few lines earlier reads *doctores legis et praedicatores Evangelii … quorum doctrinis et exemplis potest homo ad intelligentiam divinam proficere*, and the paired 1 Cor 4:15 citation makes the same point. An assertion that 'we shall not much more obey the Father of spirits' supports nothing in the argument, and its own trailing clause *et vivemus* is incoherent as the consequence of not obeying.",
+    "confidence":"medium",
+    "alreadyLogged":true,
+    "reconciliation":"Found blind, then matched to cruces.md @1136C ('Heb. 12:9, and it needs Wilson') and the 'Cruces of construction' entry. Already escalated: Pattern 8 keeps the flat rendering, the crux tested question-mark density in this work empirically, and an OPEN question for Wilson proposes marking such lapses on the page. No new action from this sweep — confirms the class independently."}
+ ],
+ "newFindings":0,
+ "cleanChunks":["0014","0015","0016","0017","0018","0019","0020"]}

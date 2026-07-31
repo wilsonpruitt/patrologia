@@ -1,0 +1,11 @@
+{"agent":"8930-u4","idno":"8930","chunks":"0021-0026","chunksRead":6,
+ "findings":[
+  {"chunk":"0023","column":"1156D","side":"migne",
+   "printedLatin":"nam hic fons de domo Dei egrediens fertur ad Ecclesiam, et ad scientiam Scripturarum, ut omnes renascamur in Christo et non aqua baptismatis nostra nobis peccata donentur.",
+   "englishAsRendered":"for this fountain, going forth from the house of God, is borne to the Church and to the knowledge of the Scriptures, that we may all be born again in Christ and that our sins be not forgiven us by the water of baptism.",
+   "defectType":"intrusive-negative",
+   "conjecture":"Printed 'non' stands where the sense requires the preposition 'in' (or nothing): 'ut omnes renascamur in Christo et in aqua baptismatis nostra nobis peccata donentur' — 'that we may all be born again in Christ and that our sins be forgiven us in the water of baptism.' 'non'/'in' is an easy compositor's substitution. Rendered literally by the English, as required, but unflagged.",
+   "whyContradiction":"The sentence is the conclusion of the paragraph that has just adduced Zacharias as the proof-text FOR baptism: « Baptismi vero sacramentum ostendit illud Zachariae, quo ait: In die illa erit fons patens domui David et habitantibus Hierusalem IN ABLUTIONEM PECCATORIS et menstruatae. » A fountain expressly opened 'for the washing of the sinner' cannot be the ground for saying that our sins are NOT forgiven by the water of baptism; and the coordinate clause 'ut omnes renascamur in Christo' is itself the baptismal rebirth.",
+   "confidence":"high",
+   "priorStatus":"ALREADY KNOWN — reconciled after the blind read against src/english/8930/cruces.md, where it is logged at lines 81-83 and 1276-1284. Independent blind confirmation, not a new defect."}
+ ]}

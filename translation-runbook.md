@@ -212,6 +212,15 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 > 7. **`(cont.)` on a repeated `## ` head.** Chunk boundaries are OUR division; the
 >    builder merges these at assembly. Not a defect, and never translate the marker.
 >
+> **⚠ For any work that QUOTES SCRIPTURE (commentary, homily, canticle exposition), the
+> 7a″ clause must NAME THE WORDS and MAKE THE DIVERGENCE LIST A DELIVERABLE.** Measured
+> on 8930, 2026-07-31, within one work: the range whose prompt named the specific lemma
+> words to check and said "treat the list of Vulgate divergences as the most valuable
+> thing you produce" returned **11 `[var:]` markers and the later blind read found ZERO
+> defects in it**. The range given a strong but generic "read every lemma word by word"
+> returned 1 marker and the blind read found **SEVEN**. Same rule, same model, same work.
+> A general instruction to be careful does not work; naming the words does.
+>
 > Do not stop early. Your batch is N chunks; peer agents complete 5-chunk batches at
 > full fidelity routinely. If you find yourself writing "context budget" at chunk 2,
 > you are repeating a documented failure pattern — push through your full batch.
