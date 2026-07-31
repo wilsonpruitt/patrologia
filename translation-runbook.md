@@ -123,7 +123,8 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    (a) prepend each newly-shipped work to `RECENT` in `scripts/build-landing.mjs`
    (newest first, one-line comment naming the author/work), (b) rebuild the
    generated pages — `build-scripture-index.mjs`, `build-sources.mjs`,
-   `build-authors-index.mjs`, `build-queue.mjs`, `build-volume-indexes.mjs` —
+   `build-authors-index.mjs`, `build-queue.mjs`, `build-volume-indexes.mjs`,
+   `build-commentaries.mjs` —
    then `node scripts/build-landing.mjs` to rebuild `site/index.html` + resolver
    data, (c) `cd site && npx vercel --prod`, (d) smoke-test the new work URLs
    (`curl -o /dev/null -w '%{http_code}\n'`) and confirm the landing page lists

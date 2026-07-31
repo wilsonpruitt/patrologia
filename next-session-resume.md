@@ -1,5 +1,52 @@
 # Next session — resume note
 
+## 2026-07-30 (twelfth, Opus) — 11065 SHIPPED (53 ch); THE COMMENTARY MAP built
+
+### 11065 done — largest work in the corpus
+Hugh, *Homiliae in Ecclesiasten*: 53 chunks / 62,318 Latin words / 6 Opus agents.
+verify-english OK, merged, built, indexed, `englishState: ours` (workStatus `unclear`
+preserved → badge "New"). Commit `336fc64`. **Site now 89 english pages.**
+Merge found two real drifts (both fixed, both checked per instance against the Latin):
+*Stultus in tenebris ambulat* split walketh/walks across agents — load-bearing because
+0000's argument list forward-references Homily XII, which is BUILT on that reading; and
+*arguere*→"reprove" vs *convincere*→"convict" conflated at 4 sites. **Three things that
+looked like drift and were left alone** are written into `cruces.md`: the guillemets on
+that lemma (Migne prints them in two places and omits them in the third — normalizing
+would invent punctuation), *universa vanitas* vs *omnia vanitas*, and Migne's own
+repeated lemmata printed differently. Also fixed: `index-work.mjs` had no bare `Eph`
+alias (affects queue works 11512, 9033).
+
+### ▶ OWED ON 11065 — the polarity read, then deploy
+`--gate` is RED on 11065 alone. Step-4a blind read not yet run: **53 chunks, ~6 units,
+~0.7M tokens, Opus, hard-stop applies.** The translation agents already carried several
+printed negations against the argument (0132C, 0150A, 0152A, 0155D, 0175C, 0198C, 0222D,
+0245B), so those are known sites a blind reader should rediscover — good controls.
+**Do not deploy over the red gate without saying so plainly.**
+
+### ✅ THE COMMENTARY MAP — `/scripture/commentaries/` (built, NOT deployed)
+Wilson's call: **a separate page linked off /scripture/, never a section inside it** —
+"the scripture page is one of the greatest resources of this project and shouldn't be
+muddied," but "seeing the commentaries next to each other would be something special."
+Commit `cdc5371`. **239 commentaries · 55 books/groups · 15.5M Latin words · 17 in
+English.** Song of Songs alone has **33** (7 English); Psalms 28; Apocalypse and Genesis
+12 each. Shows the whole corpus translated or not, per PLAN.md's complete-map principle.
+- `scripts/build-commentaries.mjs` + `data/commentary-overrides.json` (hand curation,
+  reason recorded per rejected work). **Add it to the deploy rebuild list.**
+- Rule: title names a book AND (genre word OR governed by in/super). That excludes the
+  biblical TEXTS themselves without a reject list.
+- **Traps already paid for — do not re-derive:** `liber` must NOT be a genre word (it
+  promoted every biblical text); named canticles must route BEFORE the generic *Cantica*
+  pattern (*Canticum Habacuc*→Hab, *Debborae*→Judg, ***B. Mariae*→Luke — Hugh's
+  Magnificat was being filed under the Song of Songs**); person-names collide constantly
+  (John, Matthew, Peter, an empress Judith) and are rejected by hand; Hebrews and the
+  Catholic epistles are absent CORRECTLY — PL carries them only as biblical texts, not
+  as commentaries.
+- Canonical book order extracted to `scripts/lib/bible-books.mjs`, shared with
+  `build-scripture-index.mjs`; refactor **proven byte-neutral**.
+- Open (Wilson): whether multi-book works should ALSO decompose into their members —
+  currently a Pauline commentary appears only under the group, so a reader on Romans
+  does not see it.
+
 ## 2026-07-30 (eleventh, Opus) — PUSHED + DEPLOYED; Song-of-Songs question RULED; 11065 launched
 
 ### Shipped
