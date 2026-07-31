@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-07-31 session (later) —
+  'pl/115/enarrationes-in-cantica-canticorum',                   // Angelomus of Luxeuil — on the Song of Songs, dedicated to Emperor Lothair I
   // — 2026-07-31 session —
   'pl/112/commentaria-in-cantica',                               // Rabanus Maurus — on the ten canticles sung at Lauds
   // — 2026-07-30 session: the 53-chunk tier, largest single work in the corpus —
