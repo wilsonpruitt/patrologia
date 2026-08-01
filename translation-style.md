@@ -85,6 +85,68 @@ markers sacred, corrupt print rendered literally and logged.
 - **Inline edition apparatus** the plate prints — Paris-edition page markers
   (`[P. 150]`), marginal years — kept verbatim in the English (Joel precedent).
 
+### Dialogue (from the Nicetas anchor, 2026-07-31 — Fable)
+
+Extends the section above for the dialogue/polemic genre; calibrated on
+`nicetas-maroneia-dialogi` 0000 (the anchor pair — read it with these rules).
+
+- **Speaker sigla as printed:** ΓΡ. → GR., ΛΑΤ. → LAT.; every turn is its own
+  paragraph, however short (stichomythia stays stichomythia).
+- **Section letter-numerals** used as section MARKS (αʹ, βʹ before a speaker
+  tag) render as arabic numerals with a period ("1.", "2."), matching the
+  plate's own Latin column. In-prose letter-numerals remain English words
+  (Joel rule, unchanged).
+- **Fixed technical equivalences, never varied within a work:** οὐσία =
+  essence · φύσις = nature · ὑπόστασις = hypostasis · πρόσωπον = person ·
+  ἐκπόρευσις = procession. In a doctrinal dialogue the argument IS these
+  distinctions; elegant variation is a doctrinal error, the dialogue analogue
+  of 7a″'s lemma-conformation.
+- **Dionysian ὑπερ- compounds take "super-"** (super-divine, super-existence),
+  after the traditional English "superessential."
+- **Mention vs use:** where the text discusses a particle or word AS a word
+  (τῆς ἐξ προθέσεως… καὶ τῆς διά), keep it in Greek script as printed; a quoted
+  credal CLAUSE is translated inside quotation marks ("from the Son"). Never
+  silently English a mentioned particle into "from"/"through" — the dispute is
+  about the particles.
+- **A heading the plate carries but Calfa drops** is restored as an inline
+  `[ed: …]` quoting the plate (ΛΟΓΟΣ ΠΡΩΤΟΣ case, col 0173) — never as a
+  `## ` head the Greek chunk lacks (marker parity).
+- **The plate's own apparatus can settle a would-be `[lat:]`.** Where the Latin
+  column diverges but a Migne note on that column corrects Allatius (note (c)
+  at 0171: *concordassent*), the divergence is already adjudicated on the page:
+  log the crux, fire no marker. (Pilot §8 Q3 calibration datum.)
+
+### High rhetorical homily (from the Glabas anchor, 2026-07-31 — Fable)
+
+Calibrated on `isidore-glabas-sermo-1` 0000 (the anchor pair). The ornate pole
+of the Byzantine register — the opposite of chronicle paratax.
+
+- **Epithet fidelity is this genre's lemma rule.** A panegyric builds on the
+  DIFFERENCES between near-synonymous epithets; fix one English equivalent per
+  Greek epithet at first occurrence and never interchange them (the anchor's
+  cruces file carries the work's Marian table: πάναγνος = all-pure ·
+  Πανάχραντος = All-immaculate · Πάντιμος = All-honored, etc.). Same for the
+  maker-words: Κτίστης = Creator · Δημιουργός = Maker · πλάστης = Fashioner.
+  Collapsing two epithets into one English word is the homily analogue of
+  7a″'s lemma-conformation.
+- **Bold coinages render boldly.** Late-Byzantine homilists coin compounds
+  (ταφόζωος, βρεφουργέω, ἔξαλμα); render them as the coinages they are
+  (tomb-bound, wrought as babes, outleaping), never normalized to plain prose.
+  **Allatius flattens these routinely — his paraphrase is not a license.**
+- **Rhetorical structure is content:** doublets/triplets 1:1, exclamations
+  kept, rhetorical questions stay questions, the long periodic sentence stays
+  one sentence where English can bear it (em-dashes are the pressure valve).
+- **ΛΟΓΟΣ as division-head** renders by the work's established English term
+  (here "Sermon," after the registry and the plate's SERMO), fixed per work.
+- **Liturgical formulas** render by their received English (Εὐλόγησον, Πάτερ =
+  "Give the blessing, Father").
+- **Scripture arrives woven, not quoted:** the homilist adapts LXX word order
+  and case to his sentence (Ἀόρατος ἦν ἡ γῆ… ἐν ἀρχῇ); translate the weave as
+  printed (Joel scripture rule, unchanged) — the familiar English verse is
+  exactly the pressure to resist.
+- **Expect EN high:** the anchor ran 1.49× (vs chronicle 1.25×, dialogue
+  1.37×) — genre ratios are a pilot output, per-genre.
+
 ## The Song of Songs — each commentary stands on its own (locked, Wilson 2026-07-30)
 
 Sixteen PL commentaries expound the same book, quoting the same lemmata. When two
