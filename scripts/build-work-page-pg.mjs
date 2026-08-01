@@ -64,6 +64,22 @@ function paras(text, { anchorIds }) {
     const inline = esc(p.replace(/\n/g, ' '))
       .replace(/\[(\d{4})\]\s*/g, (_, c) =>
         `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
+      // Inline markers. These MUST be transformed here or they reach the reader as
+      // raw bracket text: this builder shipped the PG pilot without them, and 47
+      // markers across the four PG works (17 [ed:], 17 [lat:], 13 [var:]) rendered
+      // literally on migne.app until 2026-08-01. Kept byte-identical in behaviour to
+      // build-work-page.mjs so the two builders cannot drift on the same pattern.
+      .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
+        `<span class="sic" title="Printed thus in the source text — see the notes on this work">${s}</span>`)
+      .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
+        `<span class="ednote">[${e}]</span>`)
+      .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
+        `<span class="varnote" title="The source text diverges from the received text here">[${v}]</span>`)
+      // pattern-16 [lat: …], PG only: the parallel Latin column asserts a different
+      // fact than the Greek. English follows the Greek; this records what Migne's
+      // Latin says instead.
+      .replace(/\[lat: ([^\]]*)\]/g, (_, l) =>
+        `<span class="latnote" title="Migne's parallel Latin column diverges from his Greek text">[${l}]</span>`)
       .replace(/\*([^*]+)\*/g, '<i>$1</i>')
       .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
     return `<p>${inline}</p>`;

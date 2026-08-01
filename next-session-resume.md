@@ -48,9 +48,32 @@ verifier drops the number," but the twin prints *annorum 90* (the claim was true
 of the old `raw/verifier/` OCR, not of Migne); and Achab `κθʹ`→`κβʹ`, which rested
 on the Latin alone, is now **verified** by the third witness reading `κβ`.
 
+### ⚠ LIVE DEFECT FOUND AND FIXED WHILE DEPLOYING — every PG marker rendered raw
+
+Placing the three `[lat:]` markers surfaced a defect that had shipped with the PG
+pilot itself: **`build-work-page-pg.mjs`'s `paras()` had no marker transforms at
+all.** The PL builder has had them since Pattern 13; the PG builder — generalized
+2026-08-01 for bios/badges/about-prose — was never given them. So **all 47 inline
+markers across the four PG works were live on migne.app as raw bracket text**
+(17 `[ed:]`, 17 `[lat:]`, 13 `[var:]`), e.g. a literal
+`[lat: the Latin gives <i>invitus est incarnatus</i>, "unwillingly"]` in
+Oecumenius's running English.
+
+Fixed: `paras()` now carries `[sic:]`/`[ed:]`/`[var:]`/`[lat:]`, byte-identical in
+behaviour to `build-work-page.mjs` so the two builders cannot drift on the same
+pattern, plus a `.latnote` CSS rule grouped with `.varnote` (Pattern 16: "renders
+like `[var:]`"). All four PG pages rebuilt; 47/47 markers now render, 0 raw.
+
+⚑ **The lesson generalizes past this bug:** the PG builder was generalized on the
+axes the pilot happened to exercise (bios, badge, about-prose) and silently
+inherited nothing on the axis it did not. **`[lat:]` was specced, verified, logged
+in cruces, and gate-green — and still reached the reader as literal brackets,
+because no check anywhere looks at rendered output.** Same shape as the
+`build-commentaries.mjs` omission and the Joel-hardcoding: **a PG builder is not
+the PL builder minus Latin — assume nothing carried over, diff the two.**
+
 **⛔ OWED: deploy** (Wilson's per-action OK) — `cd site && npx vercel --prod
---archive=tgz`, project `migne`, root `site/`. The three markers are reader-facing
-and rebuild Joel's work page. Commits are local; **nothing pushed.**
+--archive=tgz`, project `migne`, root `site/`.
 
 **NEXT after that: §8a.C queue additions** — Glabas Sermons II–IV (PG 139, from
 col 40; the Marian epithet table travels with them), then a second Oecumenius unit

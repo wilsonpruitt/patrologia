@@ -512,7 +512,12 @@ a { color: inherit; }
 /* pattern-14 [var: …]: the plate's scripture reading against the received text. In the
    maroquin rather than the gilt, and unspaced — it is a scholarly aside about the
    quotation, not the edition confessing a hole, and the two must not read alike. */
-.varnote {
+/* pattern-16 [lat: …] (PG only): Migne's parallel LATIN column asserting a different
+   fact than his Greek text. Same family as .varnote and deliberately so — both are
+   scholarly asides about a divergence between witnesses, not the edition confessing
+   a hole ([ed:]) nor broken type ([sic:]). */
+.varnote,
+.latnote {
   font-family: var(--didot);
   font-size: .8rem;
   color: var(--maroquin);
