@@ -1,5 +1,72 @@
 # Next session — resume note
 
+## ▶▶ 2026-08-01 (Opus, cont.): §8a.C started — Glabas Sermon II HARVESTED + GATED. Translation not launched.
+
+`isidore-glabas-sermo-2` (the Entry sermon, PG 139 cols 40–72, 17 Calfa pages,
+**5 chunks / 4,464 Greek words**) is chunked, twinned, third-witnessed and
+gate-green. **It is ready to translate and has NOT been translated** — that
+launch needs its own hard stop (chunks + burn + "which model, and go?").
+
+Sermon boundaries taken from the Calfa headings: ΛΟΓΟΣ Αʹ p13 · **Βʹ p27** ·
+**Γʹ p43** · Δʹ p66 (the last OCR'd `ΚΟΙΟΣ Δʹ`) · set ends p89. So the remaining
+two are **Sermon III (Annunciation) pages 43–66** and **Sermon IV (Dormition)
+pages 66–89**, both with full leaf coverage — same recipe, no new tooling.
+
+**Gate:** every chunk non-empty ✓ · **aggregate ratio 1.291**, inside the
+0.85–1.6 band ✓ · `greekPlateAbsentPages: [29,30]`. One per-chunk flag (0001 at
+1.701) is the known chunk-vs-page artifact — chunk boundaries are not page
+boundaries, and the aggregate is the gate stat. Third witness: 5 chunks, no
+chunk anomalous after the fix below.
+
+### ⚠⚠ THREE REAL DEFECTS FOUND BY THE GATE — none of them was a crop artifact
+
+The three out-of-band ratios on the first harvest were all genuine. **The band
+did its job by being followed rather than explained away.**
+
+1. **⛔ THE COLUMN MAP WAS SILENTLY DUPLICATING PAGES.** Pages 28/29/30 were
+   `verified:false` with **parity-filled leaves 18/19/20 — which are pages
+   26/27's own leaves.** Both crop scripts have no duplicate check, so they
+   cropped a *different page's* columns and emitted them as these pages'
+   verifier: twin cols 0039 and 0043 came out **byte-identical**. Re-probed all
+   leaves 15–29 with 25 distinctive 9+-char tokens per page (the method
+   reproduces every *verified* leaf in the span exactly, so it is trustworthy):
+   **page 28's true leaf is 20** (16/25 hits, now verified); **pages 29 and 30
+   have no leaf in this scan at all** (1–2 hits = noise) and are now `null`.
+   ⚑ **A declared gap is safe; a duplicate is not** — the gap is visible as a
+   gap, the duplicate reads as healthy verifier text. **Never parity-fill a
+   leaf; prefer `null`.** Caveat written into the map's own note.
+2. **The Latin twin had no way to cut its HEAD.** `pg-latin-twin.mjs` supported
+   only `cutBefore` (keep the head) — all a *first* work needs. Sermon II sits
+   in the middle of a set and shares a printed column at **both** ends, so its
+   twin opened with Sermon I's Latin (chunk 0000 ratio 2.227). Added
+   **`keepFrom`** (drop the previous work); patch file has both directions.
+   Chunk 0000 → 1.043, chunk 0004 → 1.056.
+3. **The third witness had no truncation mechanism at all**, so it appended the
+   neighbour's Greek. Worse here than on the Latin side: **that file exists to be
+   grepped as independent evidence about the plate, so foreign Greek in it reads
+   as a genuine plate reading.** Added the same `keepFrom`/`cutBefore` support +
+   `data/pg-greek-scan-patches/`. ⚑ **This was live on the shipped pilot too** —
+   `sermo-1`'s third witness carried ~Sermon II's opening; patched retroactively
+   and re-harvested (its chunk 0003 no longer contains Sermon II's text).
+   ⚑ **Markers here match ROUGH SCAN OCR, not clean text:** the plate's
+   `ΛΟΓΟΣ Γʹ.` arrives as `Bl,` and `ΛΟΓΟΣ Βʹ.` as `ΑΟΓΟΣ B.`, so a heading is
+   useless. Pick a distinctive *content* word from the neighbour's opening
+   (`Εὐαγγελισμ`, `ΟΓΟΣ B`) and confirm it occurs exactly once. A miss warns.
+
+### ⚑ And one trap that costs nothing to avoid
+**The Calfa source is not NFC-normalized** — it uses legacy *oxia* codepoints
+(ή = U+1F75, not U+03AE). Hand-typed Greek in a patch `find` field looks
+identical on screen and **silently fails to match**. Every find string in
+`data/calfa-patches/isidore-glabas-sermo-2.json` was extracted programmatically
+from the source. Never hand-type one.
+
+**NEXT:** the Sermon II translation launch (hard stop first — 5 chunks, the
+Marian epithet table and Sermon I's conventions govern it, `translation-style.md`
+Register PG/Greek → high rhetorical homily). Then Sermons III and IV by the same
+recipe, then the second Oecumenius unit (Gal or Eph, **not** Jude/Colossians).
+
+---
+
 ## ▶▶ 2026-08-01 (Opus): §8a.B step 2 **DONE** — Joel's backfill is closed. Deploy owed.
 
 The retroactive twin pass over all 12 Joel chunks is complete. Full write-up at

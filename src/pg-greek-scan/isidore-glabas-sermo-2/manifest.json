@@ -1,0 +1,107 @@
+{
+  "workKey": "isidore-glabas-sermo-2",
+  "scanItem": "patrologiaecurs63migngoog",
+  "volume": 139,
+  "extracted": "2026-08-01",
+  "greekPlateAbsentPages": [
+    29,
+    30
+  ],
+  "gate": {
+    "aEveryChunkNonEmptyWhereLeafPresent": true,
+    "bWorkAggregateRatio": 1.252,
+    "bNote": "This is a rough-OCR third witness, not a translation source — the ratio is diagnostic (wrong-column detector), never a quality gate on its own. greekPlateAbsentPages marks pages where no third-witness check is possible at all."
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "calfaWords": 1024,
+      "scanWords": 1233,
+      "ratio": 1.204,
+      "pages": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "gapPages": [
+        29,
+        30
+      ],
+      "leaves": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "chunk": 1,
+      "calfaWords": 1011,
+      "scanWords": 1535,
+      "ratio": 1.518,
+      "pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "gapPages": [],
+      "leaves": [
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "chunk": 2,
+      "calfaWords": 1022,
+      "scanWords": 1245,
+      "ratio": 1.218,
+      "pages": [
+        36,
+        37,
+        38
+      ],
+      "gapPages": [],
+      "leaves": [
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "chunk": 3,
+      "calfaWords": 1015,
+      "scanWords": 1194,
+      "ratio": 1.176,
+      "pages": [
+        39,
+        40,
+        41
+      ],
+      "gapPages": [],
+      "leaves": [
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "chunk": 4,
+      "calfaWords": 392,
+      "scanWords": 384,
+      "ratio": 0.98,
+      "pages": [
+        42,
+        43
+      ],
+      "gapPages": [],
+      "leaves": [
+        32,
+        33
+      ]
+    }
+  ]
+}

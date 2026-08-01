@@ -1,0 +1,6 @@
+{
+ "note": "Third-witness boundary truncation for Sermon I, the mirror of isidore-glabas-sermo-2's. Calfa page 27 / greekCol 40 carries Sermon I's closing doxology AND Sermon II's heading and opening in the same printed column, so the scan crop appended Sermon II's Greek to this work's last chunk (found 2026-08-01, retrospectively — the twin had been patched on the Latin side since 2026-07-31, but the third witness had no patch mechanism at all until now). MARKER: the plate's heading is OCR'd on leaf 19 as 'ΑΟΓΟΣ B.' (Α for Λ), so 'ΟΓΟΣ B' is the stable substring; it occurs exactly once across this work's four scan chunks. Verified 2026-08-01.",
+ "patches": [
+  { "page": 27, "cutBefore": "ΟΓΟΣ B" }
+ ]
+}

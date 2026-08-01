@@ -78,6 +78,17 @@ function greekSideAndSplit(words) {
 // inventory since this script already walks every page in the span.
 const greekByPage = new Map(); // page -> { text, leaf, greekCol, gap }
 const greekPlateAbsentPages = [];
+
+// Boundary truncation for works sharing a printed column with a neighbour.
+// data/pg-greek-scan-patches/<key>.json, same shape as data/pg-latin-patches/:
+//   { patches: [ { page, keepFrom?, cutBefore? } ] }
+const greekPatchPath = path.join(ROOT, 'data/pg-greek-scan-patches', `${key}.json`);
+const greekCuts = new Map();
+if (fs.existsSync(greekPatchPath)) {
+  const { patches } = JSON.parse(fs.readFileSync(greekPatchPath, 'utf8'));
+  for (const q of patches) greekCuts.set(q.page, { cutBefore: q.cutBefore, keepFrom: q.keepFrom });
+  console.log(`applied ${patches.length} scan-Greek truncation patch(es)`);
+}
 for (let p = work.pages[0]; p <= work.pages[1]; p++) {
   const rec = pageRec.get(p);
   if (!rec) continue;
@@ -94,7 +105,29 @@ for (let p = work.pages[0]; p <= work.pages[1]; p++) {
     continue;
   }
   const greekWords = words.filter(({ x }) => (side === 'left' ? x < split : x >= split)).map(w => w.w);
-  const text = greekWords.join(' ').replace(/\s+/g, ' ').trim();
+  let text = greekWords.join(' ').replace(/\s+/g, ' ').trim();
+  // Same boundary truncation as pg-latin-twin.mjs (added 2026-08-01). A work that
+  // shares a printed column with its neighbours — every sermon in a set — otherwise
+  // gets the neighbour's Greek appended to its third witness, which is worse here
+  // than elsewhere: this file exists to be grepped as independent evidence about
+  // the plate, so foreign text in it reads as a genuine plate reading.
+  // NOTE the markers are matched against ROUGH SCAN OCR, not clean text: the plate's
+  // "ΛΟΓΟΣ Γʹ." comes through as "Bl," in PG 139 leaf 33, so a heading is useless as
+  // a marker. Pick a distinctive CONTENT word from the neighbour's opening instead,
+  // and confirm it occurs exactly once. A miss warns loudly rather than cutting wrong.
+  if (greekCuts.has(p)) {
+    const { cutBefore, keepFrom } = greekCuts.get(p);
+    if (keepFrom) {
+      const idx = text.indexOf(keepFrom);
+      if (idx === -1) console.warn(`WARNING: greek-scan-patch keepFrom "${keepFrom}" not found on page ${p} — truncation NOT applied, check manually`);
+      else text = text.slice(idx).trim();
+    }
+    if (cutBefore) {
+      const idx = text.indexOf(cutBefore);
+      if (idx === -1) console.warn(`WARNING: greek-scan-patch cutBefore "${cutBefore}" not found on page ${p} — truncation NOT applied, check manually`);
+      else text = text.slice(0, idx).trim();
+    }
+  }
   greekByPage.set(p, { text, leaf: rec.leaf, greekCol: rec.greekCol, gap: false });
 }
 

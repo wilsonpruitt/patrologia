@@ -10,7 +10,7 @@
   ],
   "gate": {
     "aEveryChunkNonEmptyWhereLeafPresent": true,
-    "bWorkAggregateRatio": 1.225,
+    "bWorkAggregateRatio": 1.177,
     "bNote": "This is a rough-OCR third witness, not a translation source — the ratio is diagnostic (wrong-column detector), never a quality gate on its own. greekPlateAbsentPages marks pages where no third-witness check is possible at all."
   },
   "chunks": [
@@ -74,8 +74,8 @@
     {
       "chunk": 3,
       "calfaWords": 1060,
-      "scanWords": 1645,
-      "ratio": 1.552,
+      "scanWords": 1450,
+      "ratio": 1.368,
       "pages": [
         24,
         25,

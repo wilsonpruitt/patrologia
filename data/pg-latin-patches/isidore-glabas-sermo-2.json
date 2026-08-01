@@ -1,0 +1,7 @@
+{
+ "note": "Latin-side sermon-boundary truncation at BOTH ends, mirroring data/calfa-patches/isidore-glabas-sermo-2.json on the Greek side. This work sits in the MIDDLE of Glabas's four-sermon set, so unlike sermo-1 it needs both directions: Migne printed no column break between Sermon I and Sermon II (shared printed column, Calfa page 27 / Latin col 39) nor between Sermon II and Sermon III (Calfa page 43 / Latin col 71). `keepFrom` drops the PREVIOUS sermon's Latin, `cutBefore` drops the NEXT one's. The keepFrom direction was added to pg-latin-twin.mjs 2026-08-01 for exactly this case — the script previously supported cutBefore only, which is all a FIRST work needs.",
+ "patches": [
+  { "page": 27, "keepFrom": "SERMO II." },
+  { "page": 43, "cutBefore": "SERMO III." }
+ ]
+}

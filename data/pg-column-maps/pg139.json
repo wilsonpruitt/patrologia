@@ -4,7 +4,7 @@
  "formula": {
   "colOdd": "2*page + (-15)"
  },
- "note": "page = Calfa $8 PDF page; each page carries one Greek column pair (colOdd/colEven, Greek+Latin). verified = >=2 distinctive Greek tokens from the Calfa page found in the scan leaf carrying that column pair. TAIL CAVEAT (2026-07-03): leaf values for pages 146-151 drifted +2 in the original build; corrected against plate renders. Scan-leaf != PDF-page-minus-1 cannot be assumed constant across a volume — verify with distinctive (not generic) tokens.",
+ "note": "page = Calfa $8 PDF page; each page carries one Greek column pair (colOdd/colEven, Greek+Latin). verified = >=2 distinctive Greek tokens from the Calfa page found in the scan leaf carrying that column pair. TAIL CAVEAT (2026-07-03): leaf values for pages 146-151 drifted +2 in the original build; corrected against plate renders. Scan-leaf != PDF-page-minus-1 cannot be assumed constant across a volume — verify with distinctive (not generic) tokens. LEAF-COLLISION CAVEAT (2026-08-01, found harvesting isidore-glabas-sermo-2): parity-filling an UNVERIFIED page's leaf can assign a leaf that already belongs to another page, and the crop scripts have no duplicate check -- pages 28/29/30 were filled to 18/19/20 and reproduced pages 26/27's columns verbatim. Prefer leaf:null (a declared gap) over a parity guess. Pages 28-30 re-probed and fixed.",
  "pages": [
   {
    "page": 13,
@@ -212,30 +212,40 @@
    "colOdd": 41,
    "colEven": 42,
    "greekCol": 41,
-   "leaf": 18,
-   "verified": false,
-   "tokenHits": 0,
-   "sampleHits": []
+   "leaf": 20,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "λογιστέον",
+    "εἴργασται",
+    "παραδόξων",
+    "ἀποφερώμεθα",
+    "ἐντίθησιν",
+    "ἁγιαστικὴν"
+   ],
+   "gapNote": "CORRECTED 2026-08-01: leaf was parity-filled to 18, which is page 26's leaf (duplicate crop). True leaf is 20, token-verified with 16/25 distinctive tokens."
   },
   {
    "page": 29,
    "colOdd": 43,
    "colEven": 44,
    "greekCol": 44,
-   "leaf": 19,
+   "leaf": null,
    "verified": false,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in patrologiaecurs63migngoog (2026-08-01: probed all leaves 15-29 with 25 distinctive 9+ char tokens from this Calfa page; best score was 1-2 hits, i.e. noise, against 10-16 for every page that does have a leaf). The PREVIOUS value here was a parity fill that COLLIDED with a neighbouring page's leaf (28->18 = page 26's leaf, 29->19 = page 27's, 30->20), so pg-latin-twin.mjs and pg-greek-column.mjs silently cropped a DIFFERENT page's columns and emitted them as this page's verifier -- byte-identical duplicate text presented as an independent witness. A declared gap is safe; a duplicate is not. Set to null 2026-08-01."
   },
   {
    "page": 30,
    "colOdd": 45,
    "colEven": 46,
    "greekCol": 45,
-   "leaf": 20,
+   "leaf": null,
    "verified": false,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in patrologiaecurs63migngoog (2026-08-01: probed all leaves 15-29 with 25 distinctive 9+ char tokens from this Calfa page; best score was 1-2 hits, i.e. noise, against 10-16 for every page that does have a leaf). The PREVIOUS value here was a parity fill that COLLIDED with a neighbouring page's leaf (28->18 = page 26's leaf, 29->19 = page 27's, 30->20), so pg-latin-twin.mjs and pg-greek-column.mjs silently cropped a DIFFERENT page's columns and emitted them as this page's verifier -- byte-identical duplicate text presented as an independent witness. A declared gap is safe; a duplicate is not. Set to null 2026-08-01."
   },
   {
    "page": 31,

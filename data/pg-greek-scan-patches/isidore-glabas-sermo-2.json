@@ -1,0 +1,6 @@
+{
+ "note": "Third-witness boundary truncation, mirroring data/pg-latin-patches/isidore-glabas-sermo-2.json. Sermon II shares its last printed column (Calfa page 43 / greekCol 72) with Sermon III, so the scan crop otherwise appends ~2,200 words of Sermon III's Greek to this work's final chunk. That matters more here than on the Latin side: this file exists to be grepped as INDEPENDENT evidence about the plate, so foreign Greek inside it reads as a genuine plate reading of this work. The head boundary (page 27, shared with Sermon I) needs no patch: greekCol 40's crop begins at Sermon II's own opening. MARKER CHOICE: the plate's heading ΛΟΓΟΣ Γʹ. is OCR'd as 'Bl,' on leaf 33 and is useless as a marker; 'Εὐαγγελισμ' (the Annunciation, Sermon III's subject) survives the OCR cleanly and occurs exactly once across this work's five scan chunks. Verified 2026-08-01.",
+ "patches": [
+  { "page": 43, "cutBefore": "Εὐαγγελισμ" }
+ ]
+}

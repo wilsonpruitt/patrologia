@@ -85,11 +85,18 @@ function greekSideAndSplit(words) {
 // replace, but that only edits the Greek stream. If a work's last (or any)
 // page shares a printed column with the NEXT work (as isidore-glabas-sermo-1
 // does at page 27), the Latin crop must be told where to stop too.
+//
+// Two directions, because a work in the MIDDLE of a set needs both (added
+// 2026-08-01 for isidore-glabas-sermo-2, which shares its first printed column
+// with Sermon I and its last with Sermon III):
+//   cutBefore: <str>  keep the text BEFORE the marker  (drop the NEXT work)
+//   keepFrom:  <str>  keep the text FROM the marker on (drop the PREVIOUS work)
+// Both may appear on the same page entry; keepFrom is applied first.
 const latinPatchPath = path.join(ROOT, 'data/pg-latin-patches', `${key}.json`);
-const latinCuts = new Map(); // page -> cutBefore substring
+const latinCuts = new Map(); // page -> { cutBefore?, keepFrom? }
 if (fs.existsSync(latinPatchPath)) {
   const { patches } = JSON.parse(fs.readFileSync(latinPatchPath, 'utf8'));
-  for (const p of patches) latinCuts.set(p.page, p.cutBefore);
+  for (const p of patches) latinCuts.set(p.page, { cutBefore: p.cutBefore, keepFrom: p.keepFrom });
   console.log(`applied ${patches.length} Latin-side truncation patch(es)`);
 }
 
@@ -140,10 +147,18 @@ for (let p = work.pages[0]; p <= work.pages[1]; p++) {
   const latinWords = words.filter(({ x }) => (latinSide === 'left' ? x < split : x >= split)).map(w => w.w);
   let text = latinWords.join(' ').replace(/\s+/g, ' ').trim();
   if (latinCuts.has(p)) {
-    const cutBefore = latinCuts.get(p);
-    const idx = text.indexOf(cutBefore);
-    if (idx === -1) console.warn(`WARNING: latin-patch cutBefore "${cutBefore}" not found on page ${p} — truncation NOT applied, check manually`);
-    else text = text.slice(0, idx).trim();
+    const { cutBefore, keepFrom } = latinCuts.get(p);
+    // keepFrom first: drop everything up to the marker (the PREVIOUS work's Latin).
+    if (keepFrom) {
+      const idx = text.indexOf(keepFrom);
+      if (idx === -1) console.warn(`WARNING: latin-patch keepFrom "${keepFrom}" not found on page ${p} — truncation NOT applied, check manually`);
+      else text = text.slice(idx).trim();
+    }
+    if (cutBefore) {
+      const idx = text.indexOf(cutBefore);
+      if (idx === -1) console.warn(`WARNING: latin-patch cutBefore "${cutBefore}" not found on page ${p} — truncation NOT applied, check manually`);
+      else text = text.slice(0, idx).trim();
+    }
   }
   latinByPage.set(p, { text, leaf: rec.leaf, latinCol, gap: false });
 }

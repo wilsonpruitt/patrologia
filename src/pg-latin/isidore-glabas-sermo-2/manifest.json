@@ -1,0 +1,116 @@
+{
+  "workKey": "isidore-glabas-sermo-2",
+  "scanItem": "patrologiaecurs63migngoog",
+  "volume": 139,
+  "extracted": "2026-07-31",
+  "greekPlateAbsentPages": [
+    29,
+    30
+  ],
+  "gate": {
+    "aEveryChunkNonEmpty": true,
+    "bWorkAggregateRatio": 1.291,
+    "bPerChunkOutOfBand": [
+      1
+    ],
+    "bNote": "Band is 0.85–1.6x by genre (amended from 0.9–1.3x, pg-paired-pilot.md §8a Q1: healthy homily twins run ~1.48 aggregate, outside the old band). Sub-0.5x is presumptive wrong column. Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec). The band is a wrong-column detector, not a quality gate — it cannot see line-interleave (§8a Q1: the per-work eye spot-check must read for CONTINUOUS PROSE, not mere word-count presence).",
+    "cSpotChecks": "see final harvest report — not auto-logged by this script"
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "greekWords": 1024,
+      "latinWords": 1068,
+      "ratio": 1.043,
+      "pages": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "gapPages": [
+        29,
+        30
+      ],
+      "leaves": [
+        19,
+        20,
+        21
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 1,
+      "greekWords": 1011,
+      "latinWords": 1720,
+      "ratio": 1.701,
+      "pages": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "gapPages": [],
+      "leaves": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 2,
+      "greekWords": 1022,
+      "latinWords": 1297,
+      "ratio": 1.269,
+      "pages": [
+        36,
+        37,
+        38
+      ],
+      "gapPages": [],
+      "leaves": [
+        26,
+        27,
+        28
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 3,
+      "greekWords": 1015,
+      "latinWords": 1263,
+      "ratio": 1.244,
+      "pages": [
+        39,
+        40,
+        41
+      ],
+      "gapPages": [],
+      "leaves": [
+        29,
+        30,
+        31
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 4,
+      "greekWords": 392,
+      "latinWords": 414,
+      "ratio": 1.056,
+      "pages": [
+        42,
+        43
+      ],
+      "gapPages": [],
+      "leaves": [
+        32,
+        33
+      ],
+      "altPages": []
+    }
+  ]
+}
