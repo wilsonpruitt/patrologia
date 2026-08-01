@@ -72,9 +72,9 @@ Under this rule every range was right except one item: **the work's final
 subscription** (*Ἐγράφη ἀπὸ Ῥώμης δι᾽ Ἐπαφροδίτου*, restored silently in
 0013) is reader-visible structure and should carry `[ed:]`.
 
-⚠ **NOT APPLIED.** The rule changes Pattern 13 for the whole corpus, PL
-included — it is Wilson's call, and it is logged in `OPEN-QUESTIONS.md` §3
-awaiting ratification. Nicetas restored its five ΛΟΓΟΣ headings as `[ed:]`
+✅ **RULED AND APPLIED (Wilson, 2026-08-01).** Adopted as
+`translation-style.md` **Pattern 13a**, corpus-wide, PL included. The
+subscription in `0013.md` now carries its `[ed:]`; verify clean after the edit. Nicetas restored its five ΛΟΓΟΣ headings as `[ed:]`
 under clause 2 and would be unaffected either way.
 
 ### Marker totals after merge

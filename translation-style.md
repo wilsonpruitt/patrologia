@@ -844,6 +844,38 @@ Where the loss is later recovered from the plate, the fix belongs in
 the `[ed: …]` marker is removed in the same commit — the note exists only for as
 long as the hole does.
 
+#### 13a. When the loss IS recoverable — the visible-structure rule (Wilson, 2026-08-01)
+
+The rule above was written for a hole that stays a hole. The PG paired pilot hit
+the other case constantly: **our source has lost text, and the plate carries it,
+and we can put it back.** Three agents on three works answered three different
+ways — silently, with `[ed:]`, and by marking the break without restoring — each
+defensible, because Pattern 13 and the attribution ladder's row 1 (certain Calfa
+damage is corrected *silently and logged*) both applied. Wilson ruled:
+
+1. **Words lost mid-sentence, plate certain → restore SILENTLY, log the crux.**
+   Ordinary source damage. PG damage is dense enough that marking each one would
+   put our voice on nearly every paragraph — which is the "drown the text"
+   failure the ladder's silent-correction rule already anticipates.
+2. **A reader-visible structural unit lost — a heading, a speaker turn, a
+   subscription, a division mark → restore WITH `[ed: …]`.** Its absence would
+   otherwise be invisible *as an absence*: nobody can miss what they cannot see
+   was ever there. This is the same argument that forced the pattern in 11055.
+3. **Text lost and NOT recoverable (plate absent or illegible) → `[ed: …]`
+   marking the hole, supplying nothing.** Unchanged from the rule above.
+
+**The principle, stated once:** the marker's job is to make an absence visible
+when it would otherwise be invisible as an absence. It is not a receipt for
+every keystroke of repair — that is the cruces file's job, and the cruces file
+is where an auditor looks.
+
+Worked cases from the pilot: Nicetas's five ΛΟΓΟΣ division headings and a whole
+lost speech of the Latin → clause 2, `[ed:]` (and note Calfa strips all five, so
+without the marker the work reads as one undifferentiated fragment where the
+plate prints five discourses). Oecumenius's nine words lost at the 1325 column
+break → clause 1, silent. Oecumenius's truncated final subscription → clause 2,
+`[ed:]`. Two Oecumenius sigla whose letters are lost → clause 3.
+
 
 ### 14. `[var: …]` — Migne's scripture citation diverges from the received text
 

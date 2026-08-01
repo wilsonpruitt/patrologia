@@ -42,7 +42,23 @@ The 0010–0013 agent found p.671 this way (undocumented on the Greek side) and
 correctly declined an ἡμεῖς/ὑμῶν itacism marker at 1320 for exactly this
 reason.
 
-## 3. CONVENTION CONFLICT the merge must rule (do not let it pass unnoticed)
+## 3. ✅ RULED by Wilson 2026-08-01 — the visible-structure rule
+
+**Resolved.** The rule is now `translation-style.md` **Pattern 13a**, corpus-wide
+(PL included): (1) words lost mid-sentence with the plate certain → restore
+**silently**, log the crux; (2) a **reader-visible structural unit** — heading,
+speaker turn, subscription, division mark → restore **with `[ed:]`**, because its
+absence is otherwise invisible *as an absence*; (3) text lost and not recoverable
+→ `[ed:]` marking the hole, supplying nothing.
+
+**Applied:** the work's final subscription (0013) now carries an `[ed:]` naming
+the truncation and quoting the plate's continuation. Verify clean after the edit.
+Nicetas's ΛΟΓΟΣ headings and lost speech were already correct under clause 2;
+Oecumenius's nine-word loss at the 1325 column break is correct under clause 1.
+
+The original statement of the conflict is kept below for the record.
+
+## 3-original. CONVENTION CONFLICT the merge must rule (do not let it pass unnoticed)
 
 **How is plate-verified text that Calfa LOST restored?** The pilot's three
 works answered differently, in good faith, both defensible:
