@@ -1,0 +1,249 @@
+{
+  "workKey": "oecumenius-philippians",
+  "scanItem": "patrologiaecurs14migngoog",
+  "volume": 118,
+  "extracted": "2026-08-01",
+  "greekPlateAbsentPages": [
+    655,
+    657,
+    659,
+    661,
+    669,
+    671
+  ],
+  "gate": {
+    "aEveryChunkNonEmptyWhereLeafPresent": true,
+    "bWorkAggregateRatio": 0.916,
+    "bNote": "This is a rough-OCR third witness, not a translation source — the ratio is diagnostic (wrong-column detector), never a quality gate on its own. greekPlateAbsentPages marks pages where no third-witness check is possible at all."
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "calfaWords": 1024,
+      "scanWords": 1240,
+      "ratio": 1.211,
+      "pages": [
+        641,
+        642,
+        643
+      ],
+      "gapPages": [],
+      "leaves": [
+        645,
+        646,
+        647
+      ]
+    },
+    {
+      "chunk": 1,
+      "calfaWords": 1000,
+      "scanWords": 1445,
+      "ratio": 1.445,
+      "pages": [
+        644,
+        645,
+        646
+      ],
+      "gapPages": [],
+      "leaves": [
+        648,
+        649,
+        650
+      ]
+    },
+    {
+      "chunk": 2,
+      "calfaWords": 1007,
+      "scanWords": 964,
+      "ratio": 0.957,
+      "pages": [
+        647,
+        648
+      ],
+      "gapPages": [],
+      "leaves": [
+        651,
+        652
+      ]
+    },
+    {
+      "chunk": 3,
+      "calfaWords": 1024,
+      "scanWords": 895,
+      "ratio": 0.874,
+      "pages": [
+        649,
+        650
+      ],
+      "gapPages": [],
+      "leaves": [
+        653,
+        654
+      ]
+    },
+    {
+      "chunk": 4,
+      "calfaWords": 1002,
+      "scanWords": 1353,
+      "ratio": 1.35,
+      "pages": [
+        651,
+        652,
+        653
+      ],
+      "gapPages": [],
+      "leaves": [
+        655,
+        655,
+        656
+      ]
+    },
+    {
+      "chunk": 5,
+      "calfaWords": 1012,
+      "scanWords": 448,
+      "ratio": 0.443,
+      "pages": [
+        654,
+        655
+      ],
+      "gapPages": [
+        655
+      ],
+      "leaves": [
+        657
+      ]
+    },
+    {
+      "chunk": 6,
+      "calfaWords": 1011,
+      "scanWords": 931,
+      "ratio": 0.921,
+      "pages": [
+        656,
+        657,
+        658
+      ],
+      "gapPages": [
+        657
+      ],
+      "leaves": [
+        658,
+        659
+      ]
+    },
+    {
+      "chunk": 7,
+      "calfaWords": 1021,
+      "scanWords": 415,
+      "ratio": 0.406,
+      "pages": [
+        659,
+        660
+      ],
+      "gapPages": [
+        659
+      ],
+      "leaves": [
+        660
+      ]
+    },
+    {
+      "chunk": 8,
+      "calfaWords": 1001,
+      "scanWords": 922,
+      "ratio": 0.921,
+      "pages": [
+        661,
+        662,
+        663
+      ],
+      "gapPages": [
+        661
+      ],
+      "leaves": [
+        661,
+        662
+      ]
+    },
+    {
+      "chunk": 9,
+      "calfaWords": 1001,
+      "scanWords": 924,
+      "ratio": 0.923,
+      "pages": [
+        664,
+        665
+      ],
+      "gapPages": [],
+      "leaves": [
+        663,
+        664
+      ]
+    },
+    {
+      "chunk": 10,
+      "calfaWords": 1014,
+      "scanWords": 1314,
+      "ratio": 1.296,
+      "pages": [
+        666,
+        667,
+        668
+      ],
+      "gapPages": [],
+      "leaves": [
+        665,
+        666,
+        667
+      ]
+    },
+    {
+      "chunk": 11,
+      "calfaWords": 1016,
+      "scanWords": 454,
+      "ratio": 0.447,
+      "pages": [
+        669,
+        670
+      ],
+      "gapPages": [
+        669
+      ],
+      "leaves": [
+        668
+      ]
+    },
+    {
+      "chunk": 12,
+      "calfaWords": 1000,
+      "scanWords": 905,
+      "ratio": 0.905,
+      "pages": [
+        671,
+        672,
+        673
+      ],
+      "gapPages": [
+        671
+      ],
+      "leaves": [
+        669,
+        670
+      ]
+    },
+    {
+      "chunk": 13,
+      "calfaWords": 679,
+      "scanWords": 438,
+      "ratio": 0.645,
+      "pages": [
+        674
+      ],
+      "gapPages": [],
+      "leaves": [
+        671
+      ]
+    }
+  ]
+}

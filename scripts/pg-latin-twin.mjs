@@ -107,7 +107,13 @@ if (fs.existsSync(altPath)) {
 }
 
 // ---------- per-page Latin text ----------
+// greekPlateAbsentPages: pages in the work's span with no scan leaf at all (or
+// where the crop can't find a Greek/Latin split) — no third witness possible
+// for those pages regardless of language (pg-paired-pilot.md §8a condition 2).
+// A page recovered via altByPage still counts as absent: the alt source has
+// no accompanying Greek-plate scan of its own.
 const latinByPage = new Map(); // page -> { text, leaf, latinCol, gap, altSource }
+const greekPlateAbsentPages = [];
 for (let p = work.pages[0]; p <= work.pages[1]; p++) {
   const rec = pageRec.get(p);
   if (!rec) continue;
@@ -115,16 +121,19 @@ for (let p = work.pages[0]; p <= work.pages[1]; p++) {
   if (altByPage.has(p)) {
     const alt = altByPage.get(p);
     latinByPage.set(p, { text: alt.text, leaf: null, latinCol: alt.latinCol, gap: false, altSource: alt.provenance });
+    greekPlateAbsentPages.push(p);
     continue;
   }
   if (rec.leaf === null || rec.leaf === undefined || rec.greekCol === null) {
     latinByPage.set(p, { text: '', leaf: null, latinCol, gap: true });
+    greekPlateAbsentPages.push(p);
     continue;
   }
   const words = leafWords[rec.leaf];
   const { side, split } = greekSideAndSplit(words);
   if (side === null) {
     latinByPage.set(p, { text: '', leaf: rec.leaf, latinCol, gap: true });
+    greekPlateAbsentPages.push(p);
     continue;
   }
   const latinSide = side === 'left' ? 'right' : 'left';
@@ -205,19 +214,20 @@ const totalLatin = manifestOut.reduce((s, m) => s + m.latinWords, 0);
 const gate = {
   aEveryChunkNonEmpty: manifestOut.every(m => m.latinWords > 0),
   bWorkAggregateRatio: +(totalLatin / totalGreek).toFixed(3),
-  bPerChunkOutOfBand: manifestOut.filter(m => m.ratio !== null && (m.ratio < 0.9 || m.ratio > 1.3)).map(m => m.chunk),
-  bNote: 'Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec).',
+  bPerChunkOutOfBand: manifestOut.filter(m => m.ratio !== null && (m.ratio < 0.85 || m.ratio > 1.6)).map(m => m.chunk),
+  bNote: 'Band is 0.85–1.6x by genre (amended from 0.9–1.3x, pg-paired-pilot.md §8a Q1: healthy homily twins run ~1.48 aggregate, outside the old band). Sub-0.5x is presumptive wrong column. Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec). The band is a wrong-column detector, not a quality gate — it cannot see line-interleave (§8a Q1: the per-work eye spot-check must read for CONTINUOUS PROSE, not mere word-count presence).',
   cSpotChecks: 'see final harvest report — not auto-logged by this script',
 };
 
 fs.writeFileSync(path.join(outDir, 'manifest.json'), JSON.stringify({
   workKey: key, scanItem, volume: work.volume, extracted: today,
+  greekPlateAbsentPages,
   gate,
   chunks: manifestOut,
 }, null, 2));
 
 console.log(`${manifestOut.length} twin chunks → ${outDir}`);
 for (const m of manifestOut) {
-  const flag = m.ratio === null ? '?' : (m.ratio < 0.9 || m.ratio > 1.3) ? '*** OUT OF BAND ***' : 'ok';
+  const flag = m.ratio === null ? '?' : (m.ratio < 0.85 || m.ratio > 1.6) ? '*** OUT OF BAND ***' : 'ok';
   console.log(`  ${pad4(m.chunk)}  greek ${String(m.greekWords).padStart(5)}w  latin ${String(m.latinWords).padStart(5)}w  ratio ${m.ratio}  ${flag}${m.gapPages.length ? '  gapPages=' + m.gapPages.join(',') : ''}`);
 }

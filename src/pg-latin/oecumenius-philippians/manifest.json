@@ -3,21 +3,22 @@
   "scanItem": "patrologiaecurs14migngoog",
   "volume": 118,
   "extracted": "2026-07-31",
+  "greekPlateAbsentPages": [
+    655,
+    657,
+    659,
+    661,
+    669,
+    671
+  ],
   "gate": {
     "aEveryChunkNonEmpty": true,
     "bWorkAggregateRatio": 1.062,
     "bPerChunkOutOfBand": [
-      1,
-      2,
-      4,
-      5,
-      6,
-      7,
-      8,
       11,
       13
     ],
-    "bNote": "Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec).",
+    "bNote": "Band is 0.85–1.6x by genre (amended from 0.9–1.3x, pg-paired-pilot.md §8a Q1: healthy homily twins run ~1.48 aggregate, outside the old band). Sub-0.5x is presumptive wrong column. Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec). The band is a wrong-column detector, not a quality gate — it cannot see line-interleave (§8a Q1: the per-work eye spot-check must read for CONTINUOUS PROSE, not mere word-count presence).",
     "cSpotChecks": "see final harvest report — not auto-logged by this script"
   },
   "chunks": [
@@ -122,9 +123,6 @@
       ],
       "altPages": [
         655
-      ],
-      "greekPlateAbsentPages": [
-        655
       ]
     },
     {
@@ -144,9 +142,6 @@
       ],
       "altPages": [
         657
-      ],
-      "greekPlateAbsentPages": [
-        657
       ]
     },
     {
@@ -163,9 +158,6 @@
         660
       ],
       "altPages": [
-        659
-      ],
-      "greekPlateAbsentPages": [
         659
       ]
     },
@@ -185,9 +177,6 @@
         662
       ],
       "altPages": [
-        661
-      ],
-      "greekPlateAbsentPages": [
         661
       ]
     },
@@ -240,10 +229,7 @@
       "leaves": [
         668
       ],
-      "altPages": [],
-      "greekPlateAbsentPages": [
-        669
-      ]
+      "altPages": []
     },
     {
       "chunk": 12,
@@ -262,9 +248,6 @@
       ],
       "altPages": [
         671
-      ],
-      "greekPlateAbsentPages": [
-        671
       ]
     },
     {
@@ -281,6 +264,5 @@
       ],
       "altPages": []
     }
-  ],
-  "greekPlateNote": "greekPlateAbsentPages: Calfa pages with NO leaf in the PRIMARY scan (patrologiaecurs14migngoog) — whether the Latin was recovered from the alt witness (altPages) or not at all (gapPages). For these columns the scan carries no Greek column either, so the pg-paired-pilot §4a third witness is UNAVAILABLE: a [lat:] or calfa-patch resting on them cannot be plate-verified. Added 2026-07-31 after the 0010-0013 run found p.671 undocumented on the Greek side."
+  ]
 }

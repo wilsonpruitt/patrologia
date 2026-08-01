@@ -353,11 +353,21 @@ spread affects page count, not materially the per-chunk burn.
 
 ### Conditions attached to the open gate
 
-1. **`scripts/pg-greek-column.mjs` generalized** from the Nicetas scratch
-   splitter **before the next volume harvest** (Sonnet, §3 tooling). No more
-   per-run scratch scripts for the third witness.
-2. **`greekPlateAbsentPages` required** in every PG twin manifest, written at
-   harvest time.
+1. ✅ **DONE 2026-08-01 (Sonnet). `scripts/pg-greek-column.mjs` written**,
+   generalized from the Nicetas scratch splitter — mirrors `pg-latin-twin.mjs`
+   exactly but crops the GREEK side of the same x-range split instead of the
+   Latin side. Writes `src/pg-greek-scan/<workKey>/NNNN.md` (chunk-aligned scan
+   OCR, verifier-only, never a translation source) + a manifest. Re-run on all
+   three pilot works; recovered ἀπερίγραπτος cleanly in Nicetas 0001/0007 —
+   the exact reading the render-and-read catch depended on. No more per-run
+   scratch scripts for the third witness.
+2. ✅ **DONE 2026-08-01. `greekPlateAbsentPages` now a required top-level field**
+   in every PG twin manifest (`pg-latin-twin.mjs`, computed from the same leaf
+   walk) AND mirrored into the new `pg-greek-column.mjs` manifest. All three
+   pilot manifests regenerated. Also folded in while touching the script: the
+   Q1 band amendment (0.85–1.6×, sub-0.5× presumptive wrong column) was ruled
+   but never applied to the gate code — `bPerChunkOutOfBand` now uses the
+   amended band.
 3. **Prompt addendum §6 names the genre subsection** of `translation-style.md`
    the work falls under (7a″ for every commentary, the epithet rule for every
    homily) — the mechanism found five defects in 7914 only because it was in

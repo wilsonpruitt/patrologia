@@ -3,18 +3,17 @@
   "scanItem": "patrologiaecurs63migngoog",
   "volume": 139,
   "extracted": "2026-07-31",
+  "greekPlateAbsentPages": [],
   "gate": {
     "aEveryChunkNonEmpty": true,
     "bWorkAggregateRatio": 1.077,
     "bPerChunkOutOfBand": [
-      0,
       2,
       4,
       5,
-      8,
       9
     ],
-    "bNote": "Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec).",
+    "bNote": "Band is 0.85–1.6x by genre (amended from 0.9–1.3x, pg-paired-pilot.md §8a Q1: healthy homily twins run ~1.48 aggregate, outside the old band). Sub-0.5x is presumptive wrong column. Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec). The band is a wrong-column detector, not a quality gate — it cannot see line-interleave (§8a Q1: the per-work eye spot-check must read for CONTINUOUS PROSE, not mere word-count presence).",
     "cSpotChecks": "see final harvest report — not auto-logged by this script"
   },
   "chunks": [
@@ -35,7 +34,8 @@
         83,
         84,
         85
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 1,
@@ -52,7 +52,8 @@
         86,
         87,
         88
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 2,
@@ -67,7 +68,8 @@
       "leaves": [
         89,
         90
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 3,
@@ -84,7 +86,8 @@
         91,
         92,
         93
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 4,
@@ -99,7 +102,8 @@
       "leaves": [
         94,
         95
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 5,
@@ -114,7 +118,8 @@
       "leaves": [
         96,
         97
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 6,
@@ -131,7 +136,8 @@
         98,
         99,
         100
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 7,
@@ -148,7 +154,8 @@
         101,
         102,
         103
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 8,
@@ -167,7 +174,8 @@
         105,
         106,
         107
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 9,
@@ -180,7 +188,8 @@
       "gapPages": [],
       "leaves": [
         108
-      ]
+      ],
+      "altPages": []
     }
   ]
 }

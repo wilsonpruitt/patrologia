@@ -1,9 +1,20 @@
 # Next session — resume note
 
-## ▶▶ 2026-08-01 (Fable): §8 GATE RULED **OPEN** — PILOT BUILT + STAGED. **ONLY THE DEPLOY REMAINS (Wilson's OK).**
+## ▶▶ 2026-08-01: §8 GATE RULED **OPEN** — PILOT BUILT, STAGED, **DEPLOYED + VERIFIED LIVE.**
 
-Everything the section below lists as owed is DONE except the deploy
-(`f470595`→`be3a078`, pushed):
+migne.app now serves **98 English works**. The PG paired pilot is fully live:
+Nicetas of Maroneia's *Dialogues on the Procession of the Holy Spirit*, Isidore
+Glabas's Nativity sermon, and the Oecumenius Philippians catena (correctly
+badged "New," attribution flag rendering on the byline). **Nothing else is
+owed on this thread.**
+
+Next moves in order (per §8a below): (a) generalize
+`scripts/pg-greek-column.mjs` (gate condition 1); (b) Joel Latin backfill per
+§8a.B; (c) queue additions per §8a.C (Glabas Sermons II–IV, then a second
+Oecumenius unit — Gal or Eph, NOT Jude/Colossians).
+
+Everything the section below lists as owed is DONE, including the deploy
+(`f470595`→`be3a078`, pushed, deployed):
 
 1. ✅ **§8 gate ruling written — `pg-paired-pilot.md` §8a** (read that, not a
    summary). Verdict: **GATE OPEN with five conditions** (generalize

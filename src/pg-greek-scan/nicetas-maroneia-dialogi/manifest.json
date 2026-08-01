@@ -1,0 +1,178 @@
+{
+  "workKey": "nicetas-maroneia-dialogi",
+  "scanItem": "patrologiaecurs63migngoog",
+  "volume": 139,
+  "extracted": "2026-08-01",
+  "greekPlateAbsentPages": [],
+  "gate": {
+    "aEveryChunkNonEmptyWhereLeafPresent": true,
+    "bWorkAggregateRatio": 1.154,
+    "bNote": "This is a rough-OCR third witness, not a translation source — the ratio is diagnostic (wrong-column detector), never a quality gate on its own. greekPlateAbsentPages marks pages where no third-witness check is possible at all."
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "calfaWords": 1013,
+      "scanWords": 1400,
+      "ratio": 1.382,
+      "pages": [
+        92,
+        93,
+        94,
+        95
+      ],
+      "gapPages": [],
+      "leaves": [
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "chunk": 1,
+      "calfaWords": 1138,
+      "scanWords": 1322,
+      "ratio": 1.162,
+      "pages": [
+        96,
+        97,
+        98
+      ],
+      "gapPages": [],
+      "leaves": [
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "chunk": 2,
+      "calfaWords": 1029,
+      "scanWords": 960,
+      "ratio": 0.933,
+      "pages": [
+        99,
+        100
+      ],
+      "gapPages": [],
+      "leaves": [
+        89,
+        90
+      ]
+    },
+    {
+      "chunk": 3,
+      "calfaWords": 1003,
+      "scanWords": 1470,
+      "ratio": 1.466,
+      "pages": [
+        101,
+        102,
+        103
+      ],
+      "gapPages": [],
+      "leaves": [
+        91,
+        92,
+        93
+      ]
+    },
+    {
+      "chunk": 4,
+      "calfaWords": 1024,
+      "scanWords": 962,
+      "ratio": 0.939,
+      "pages": [
+        104,
+        105
+      ],
+      "gapPages": [],
+      "leaves": [
+        94,
+        95
+      ]
+    },
+    {
+      "chunk": 5,
+      "calfaWords": 1043,
+      "scanWords": 933,
+      "ratio": 0.895,
+      "pages": [
+        106,
+        107
+      ],
+      "gapPages": [],
+      "leaves": [
+        96,
+        97
+      ]
+    },
+    {
+      "chunk": 6,
+      "calfaWords": 1007,
+      "scanWords": 1181,
+      "ratio": 1.173,
+      "pages": [
+        108,
+        109,
+        110
+      ],
+      "gapPages": [],
+      "leaves": [
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "chunk": 7,
+      "calfaWords": 1007,
+      "scanWords": 1251,
+      "ratio": 1.242,
+      "pages": [
+        111,
+        112,
+        113
+      ],
+      "gapPages": [],
+      "leaves": [
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "chunk": 8,
+      "calfaWords": 1101,
+      "scanWords": 1634,
+      "ratio": 1.484,
+      "pages": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "gapPages": [],
+      "leaves": [
+        104,
+        105,
+        106,
+        107
+      ]
+    },
+    {
+      "chunk": 9,
+      "calfaWords": 514,
+      "scanWords": 285,
+      "ratio": 0.554,
+      "pages": [
+        118
+      ],
+      "gapPages": [],
+      "leaves": [
+        108
+      ]
+    }
+  ]
+}

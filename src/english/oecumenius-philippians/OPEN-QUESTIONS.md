@@ -25,11 +25,12 @@ scan witness for that one page settles it.
 
 ## 2. Greek-plate blind spots are now recorded in the twin manifest
 
-`src/pg-latin/oecumenius-philippians/manifest.json` chunks now carry
-`greekPlateAbsentPages` (added 2026-07-31): Calfa pages with **no leaf in the
-primary scan**, whether the Latin was recovered from the alt witness or not at
-all. Six chunks are affected — **5 (p.655), 6 (p.657), 7 (p.659), 8 (p.661),
-11 (p.669), 12 (p.671)**.
+`src/pg-latin/oecumenius-philippians/manifest.json` now carries a top-level
+`greekPlateAbsentPages` array (added 2026-07-31, promoted to a manifest-wide
+required field 2026-08-01 per `pg-paired-pilot.md` §8a condition 2): Calfa
+pages with **no leaf in the primary scan**, whether the Latin was recovered
+from the alt witness or not at all. Six pages are affected — **655, 657, 659,
+661 (chunks 5–8), 669, 671 (chunks 11–12)**.
 
 Why it matters: the pilot's §4a third witness (the scan's own Greek column)
 lives on the primary scan's leaves. Where a leaf is missing, the Latin may
