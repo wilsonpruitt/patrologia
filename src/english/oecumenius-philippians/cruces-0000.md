@@ -93,8 +93,15 @@ convention, not divergence.
 - **1264** ἐβεβαίο → ἐβεβαίου · μόνρν → μόνον · Ἰκανὴν → ἱκανὴν · εἰναι →
   εἶναι · ημῖν → ἡμῖν · ἱσχυροτέρους → ἰσχυροτέρους · Δὰ τί → Διὰ τί ·
   Ἑπειδὴ → Ἐπειδὴ · συγκοινωνοῖὺς → συγκοινωνούς · Ἱν → Ἵνα · τοὺ → τοῦ.
-- **1264 (block lemma Phil 1:8–11)** Μίάρτωρ… ἑστιν… ὀς ἐπικοθῶ → Μάρτυς…
-  ἐστιν… ὡς ἐπιποθῶ · Σριστοῦ → Χριστοῦ · Ἰνα → ἵνα (×2) · ἔτιν → ἔτι ·
+- **1264 (block lemma Phil 1:8–11)** Μίάρτωρ… ἑστιν… ὀς ἐπικοθῶ → **Μάρτυρ**…
+  ἐστιν… ὡς ἐπιποθῶ (⚠ **CORRECTED 2026-07-31 by the 0001–0005 agent, then
+  re-verified here:** this file first recorded the fix as Μάρτυ**ς**. The plate
+  prints **Μάρτυρ** — twice, leaf 648, in BOTH the block lemma and the short
+  lemma «Μάρτυρ γάρ μού ἐστι ὁ Θεός». Against the received Phil 1:8 μάρτυς,
+  that is a **scripture divergence, not OCR damage**, and it belongs in the
+  divergence list below, not here. No English change — both are "witness" —
+  but the record was wrong, and a wrong record is how a real reading gets
+  swept next time.) · Σριστοῦ → Χριστοῦ · Ἰνα → ἵνα (×2) · ἔτιν → ἔτι ·
   πόσῃ οἰσθήσει → πάσῃ αἰσθήσει · διαφέροντο → διαφέροντα · ἡμέρο → ἡμέραν ·
   αεπληρωμένοι → πεπληρωμένοι · τέν → τὸν · Θεοῖ → Θεοῦ.
 - **Restored question marks** (Calfa · or nothing for the plate's ;):
@@ -111,6 +118,10 @@ convention, not divergence.
 - **Phil 1:9 at 1264:** Migne prints ἔτι μᾶλλον περισσεύῃ — a SINGLE μᾶλλον.
   Rendered "may abound yet more," resisting AV's "yet more and more." Latin:
   *adhuc magis ac magis* (Vulgate) — same class, logged, no marker.
+- **Phil 1:8 at 1264 — Μάρτυρ for the received μάρτυς**, plate-verified twice
+  on leaf 648 (block + short lemma). Migne's own consistency across both
+  quotations is what makes it a reading rather than a slip. Logged here as the
+  divergence it is; see the corrected entry above.
 - **Phil 1:6 block lemma:** Calfa opens Πεποιθὼς δέ — the δέ kept ("And
   trusting…"); the Latin block (*Confidens hoc ipsum*) lacks a connective,
   received text lacks δέ; δέ may be Calfa noise but the reading construes
