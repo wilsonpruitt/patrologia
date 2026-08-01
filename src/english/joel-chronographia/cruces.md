@@ -710,6 +710,13 @@ Blind Opus read of the Greek/English pair, 12 chunks. This work was missed by bo
 2026-07-28 sweeps because both were PL-only; the `polarity-record --gate` caught it.
 3 sites. Our own error was fixed in place; the rest are recorded, not repaired.
 
+**⚠ THE STANDING CAVEAT BELOW WAS LIFTED 2026-08-01** — the Latin twin and the
+third-witness scan Greek are both in the repository now, and both entries below
+have been adjudicated against them (see the twin-pass section at the end of this
+file: 0272 refuted, 0236 closed). The caveat is kept as written because it is the
+honest record of what the 2026-07-28 reader could and could not see. **Do not
+re-raise either finding as open.**
+
 **Standing caveat for every entry below — read it before citing any of them.**
 Two conditions weaken attribution here in a way they do not for the PL works:
 
@@ -736,13 +743,152 @@ Theophilos a few lines above. The next sentence refutes the old rendering outrig
 subject. Same class as 8708 (`qui`/`cui`) and 11208 (ablative agent) — reference
 mis-bound, not a negation error, and invisible to any negation-aware check.
 
-### 0272 — sense-reversing (plate or OCR — NOT fixed)
+### 0272 — sense-reversing — ✅ RESOLVED 2026-08-01: conjecture REFUTED, no edit
 Theodosios III is called *ἄνδρα δυσσεβῆ καὶ ἀπράγμονα* ("impious and retiring");
 conjecture *εὐσεβῆ*. The same chunk has him abdicate under a pledge of immunity,
 become a cleric with his son, and be made bishop of Ephesus. Rendered literally.
 
-### 0236 — LEAD, NOT A DEFECT (low)
+### 0236 — LEAD — ✅ CLOSED 2026-08-01: the plate's own reading, three witnesses
 Asa given *τὸ πονηρόν* where the chronicle's own formula and its source (3 Kgdms
 15:11) require *τὸ εὐθές*. **Logged explicitly as failing the contradicting-neighbour
 test** — the chronicle never mentions Asa again, so there is no neighbour to
 contradict. Recorded so a later pass does not re-raise it as though it were settled.
+
+---
+
+<!-- pg-latin-twin-backfill 2026-08-01 -->
+## Retroactive twin pass — 2026-08-01 (Opus; `pg-paired-pilot.md` §8a.B step 2)
+
+Joel was translated 2026-07-03, before any chunk-aligned Latin twin existed, and
+every later pass over it ran blind on the Latin side. The twin
+(`src/pg-latin/joel-chronographia/`) and the third-witness scan Greek
+(`src/pg-greek-scan/joel-chronographia/`) were harvested 2026-08-01; this is the
+retroactive §6 pass over all 12 chunks against both columns.
+
+**THE STANDING CAVEAT ON THE 2026-07-28 SWEEP IS LIFTED.** Both conditions that
+weakened attribution there are now met: Migne's parallel Latin column is in the
+repository, and an OCR of the plate's Greek independent of Calfa is beside it.
+
+### The four adjudications named in the spec
+
+**1. 0272 `δυσσεβῆ καὶ ἀπράγμονα` — sweep conjecture *εὐσεβῆ* REFUTED. No edit.**
+Two witnesses independent of Calfa agree against the conjecture. Scan-Greek reads
+`ἄνδρα δυσσεθῆ καὶ ἀπράγμονα` — δυσσεθῆ is this scan's β→θ (the same three lines
+give `θεοδόσιον`, `λαθὼν`, `ἐθασίλευσεν`), so the witness reads **δυσσεβῆ**, and
+decisively it carries the **δυσ-** prefix, not εὐ-. Latin col 0272: *Theodosium
+publicorum vectigalium exactorem, **virum impium** rusticumque*. The printed text
+calls Theodosios III impious; the English stands as rendered. This is exactly the
+class the spec predicted the verifier would settle in one look, and it did.
+- *Considered, not fired:* `ἀπράγμονα` ("unmeddlesome, no man of affairs") vs
+  Latin *rusticum* ("boorish"). Allatius glossing a pejorative loosely — free
+  rendering, not a material divergence (§6). No marker.
+
+**2. 0236 Asa `τὸ πονηρόν` — CLOSED as the plate's own reading. No edit, as expected.**
+Upgraded from "LEAD, failed the contradicting-neighbour test" to settled, on three
+concurring witnesses plus a positive control:
+- scan-Greek: `᾿Ασὰ υἱὸς αὐτοῦ, xal ἐποίησε τὸ πονηρὸν ἐνώπιον Κυρίου`
+- Latin col 0236: *Post Abiam regnavit Asanus filius, et is **non recte** secum
+  Domino gessit*
+- **The control:** three lines below, the same plate prints Josaphat `ἐποίησε τὸ
+  **εὐθὲς**` / *bene agendo Dominum demeritus est*. The alternative formula is
+  demonstrably live on this very plate, so `πονηρόν` at Asa is not a compositor's
+  default or a mechanical repetition — it is what the chronicle says. Joel simply
+  contradicts 3 Kgdms 15:11.
+
+**3. Pattern 16 `[lat:]` retrofitted on the three pre-pattern divergences.**
+These lived only in this file; the marker contract exists so the READER sees them.
+`translation-style.md` Pattern 16 named this backfill as the moment they land.
+- **0240 Joram of Israel** — Greek `ἔτη βʹ` (two), scan-Greek independently `tvm
+  **β’**`, Latin *postquam regnasset **annos duodecim***. Marker added (0003).
+- **0269 Justinian II** — Greek `ἔτη ιʹ` (ten, plate-verified at 600dpi
+  2026-07-03), Latin *Justinianus **annum unum***, clean and twice-attested in the
+  twin. The Latin is the outlier and history agrees with the Greek; material all
+  the same. Marker added (0008).
+- **0288 Michael VII** — Greek `χρόνους ζʹ` (seven, plate-confirmed), Latin
+  *Imperio praefuit **annos sex***. Marker added (0011).
+Both Joram and Michael VII were ratified by Wilson 2026-07-04 (Greek stands); the
+markers change only what the reader sees, not the text's reading.
+
+**4. Re-verify / re-gate / re-index** — run at the end of this pass.
+
+### Polarity read against BOTH columns — no ours-side defect
+
+**A first for the corpus, and the reason is genre, not luck.** Recorded so nobody
+reads a clean result as a pass never made.
+
+- **The spine.** This chronicle's polarity is carried by one repeated formula,
+  `ἐποίησε τὸ πονηρόν` / `τὸ εὐθές`. **35 firings across chunks 0002–0003; all 35
+  concur with the Latin's varied equivalents (*male se gessit*, *impius*, *Deo
+  exosus*, *non recte* ‖ *bene agendo*, *pius ac religiosus*, *fecit rectum*), and
+  all 35 are correctly rendered in the English** — including the three non-finite
+  forms a formula-grep misses and which are the only places a reader could have
+  drifted: Joas's imperfect `ἐποίει` ("he kept doing what was right… then, having
+  turned aside"), Achaz's aorist participle `ποιήσας`, Osee's present participle
+  `ποιῶν`. All three preserve the aspect.
+- **Every negation in the Latin twin** was checked against the English across the
+  emperor stretch. All concur. Worked cases: Domitian *neque patris neque fratris
+  optimo vitae institutum sectatus* → "he did not emulate the excellent way of life
+  of his father and of his brother"; Peter to Simon *et non planus* → "and not a
+  deceiver"; Theudas *nec exitus verbis accederet* → "having failed"; Terbelis *non
+  auxilia modo, sed suam ipse operam* → "not only an alliance, but even his own
+  self"; the allelengyon *Constantinus in animo habuit, sed morte praeventus non
+  potuit* → "had purposed to cut off, but did not come to it in time"; Zoe's *non
+  rapido et veloci veneno, sed lento torpentique* → "not a swift-fated death, but a
+  most slow and lingering one".
+- **⚑ 7a″ again, and it predicted this.** A king-list chronicle's risk is not the
+  dropped negation of a homily nor the lemma-conformation of a commentary: **it is
+  the NUMERAL.** Every genuine defect in this work's whole history has been one.
+  The polarity class is structurally protected here because the formula is fixed,
+  repeated 35 times, and alternates visibly — a drift would stand out against its
+  own neighbours. **Put the numeral hunt, not the negation hunt, at the top of any
+  chronicle prompt.**
+
+### What the twin corrected in this file
+
+- **0233 Eli's age — a cruces claim was wrong.** The entry says "Latin verifier
+  drops the number." The twin prints *ille de sella retrorsum cadens confracto
+  dorso mortuus est **annorum 90***. The claim was true of the old ungitignored
+  `raw/verifier/` OCR, not of Migne's column. The plate reading `ϟʹ` (2026-07-03)
+  and the Latin agree; "ninety" stands, now two-witness.
+- **0240 Achab `κθʹ`→`κβʹ` — inference upgraded to verified.** The 2026-07-03 pass
+  never adjudicated this one; "twenty-two" rested on the Latin *anno regni
+  vicesimo secundo* alone. Scan-Greek independently reads **κβ**. Calfa's `κθʹ` is
+  our file's error, now certain.
+- **0261 Marcian's ellipsis — confirmed as the print's.** See the cross-crop note
+  below; the Latin bleed reads *Sic Marcianus coronam imperii consecutus... menses
+  quinque diem suum obiit*, so Migne's Latin column carries the ellipsis too. The
+  crux's "lacuna in the print" is now two-witness, not an inference.
+
+### ⚑⚑ THE DURABLE FINDING — the two crops lose DIFFERENT words, and each recovers the other
+
+**A gap in the Latin twin is NOT evidence of a gap in Migne's Latin column.** The
+x-range split that yields the twin also spills column-edge words the *other* way:
+Latin runs surface inside `src/pg-greek-scan/`, and vice versa. The two crops fail
+at the boundary independently, so each is a repair kit for the other. Cost: one
+grep for Latin script in the Greek crop.
+
+**It caught a false divergence before it was written.** At 0236 the Latin twin
+reads *Vita porro functus est Salomon etatis **anno septuagesimo** eo Homerus et
+Hesiodus claruere* — seventy, against the Greek's `ἐτῶν ογʹ`, seventy-three, and
+against our English. That is a textbook material numeral divergence and a `[lat:]`
+was one keystroke away. The Greek-side crop of the same leaf holds the words the
+Latin-side crop dropped:
+
+> `…Ἐφ᾽ οὗ Iv Ὅμηρος καὶ Ἡσίοδος, ` **`tertio, sepeliturque cum patre Davide. Sub`** ` de B`
+
+So the Latin prints *anno septuagesimo **tertio*** — 73. **The columns agree;
+there is no divergence; the English is right.** Note what nearly happened: the
+dropped fragment ended in a word (*septuagesimo*) that reads as a complete,
+grammatical, plausible numeral. **A truncation that still parses is the dangerous
+kind** — nothing downstream could have flagged it.
+
+- Also declined on the same reasoning: **0236 `μόδια βψʹ`** (2,700) against the
+  twin's *duo millia **εἰ** septuaginta* (2,070). The `εἰ` is a Greek bleed sitting
+  **on the numeral itself**, so the crop is damaged at exactly the point in
+  question; and the Greek is internally verified by its own arithmetic (30 + 60
+  kors = 90 × 30 modii = 2,700). Greek sound, Latin shaky → **do not fire** (§4a).
+  Logged, unmarked; a leaf render would settle it. The earlier crux's guess (the
+  Latin "lost its *septingenta* to its own OCR") is probably right and is now
+  better supported, but it is not proved.
+- Joel's Greek crop carries 26 Latin runs, 4 of them substantive. **Grep both crops
+  before attributing any gap to Migne.**

@@ -1,5 +1,65 @@
 # Next session — resume note
 
+## ▶▶ 2026-08-01 (Opus): §8a.B step 2 **DONE** — Joel's backfill is closed. Deploy owed.
+
+The retroactive twin pass over all 12 Joel chunks is complete. Full write-up at
+the end of `src/english/joel-chronographia/cruces.md`; read that, not this
+summary. `verify-english-pg` clean 12/12, polarity gate **green 95/95**,
+re-indexed (33 columns, 212 cruces).
+
+**The four adjudications:**
+1. **0272 `δυσσεβῆ` — the sweep's conjecture *εὐσεβῆ* is REFUTED**, no edit.
+   Scan-Greek `δυσσεθῆ` (this scan's β→θ, cf. `θεοδόσιον`/`λαθὼν` in the same
+   lines) + Latin *virum impium rusticumque*. Two witnesses independent of
+   Calfa, both carrying **δυσ-**. Settled in one look, exactly as specced.
+2. **0236 Asa `τὸ πονηρόν` — CLOSED as the plate's reading**, no edit as
+   expected. Three concurring witnesses **plus a positive control**: the same
+   plate prints `τὸ εὐθές` for Josaphat three lines below, so the alternative
+   formula is demonstrably live and `πονηρόν` is not a mechanical default.
+3. **Three `[lat:]` markers placed** (spec said two): 0240 Joram `βʹ` ‖ *annos
+   duodecim* · 0288 Michael VII `ζʹ` ‖ *annos sex* · 0269 Justinian II `ἔτη ιʹ`
+   ‖ *annum unum* (here the LATIN is the outlier — still material).
+4. Re-verify / re-gate / re-index: done.
+
+**Polarity read against both columns — ZERO ours-side defects, a corpus first.**
+Not luck: the chronicle's polarity rides one fixed formula (`τὸ πονηρόν` /
+`τὸ εὐθές`), **35 firings, all concurring across columns, all correct in the
+English**, including the three non-finite forms where drift was actually
+possible (Joas's imperfect `ἐποίει`, Achaz's `ποιήσας`, Osee's `ποιῶν` — aspect
+preserved in all three). Every Latin negation checked concurs too.
+**⚑ 7a″ again: genre predicts the failure mode — a king-list chronicle's risk is
+the NUMERAL, not the negation.** Every real defect in this work's history has
+been one. Put the numeral hunt at the top of any chronicle prompt.
+
+**⚑⚑ THE DURABLE FINDING — the two crops are reciprocal repair kits.**
+Written into `pg-paired-pilot.md` §4a and `translation-style.md` Pattern 16.
+The x-range split spills each column's edge-words into the *other* crop, and the
+two fail at the boundary **independently**. So **a gap in the Latin twin is not
+evidence of a gap in Migne's Latin column** — grep the Greek crop first.
+It caught a false `[lat:]` one keystroke short: Joel 0236, Greek `ὀγʹ` (73)
+against the twin's *anno septuagesimo* (70) — the Greek crop held the dropped
+`tertio, sepeliturque cum patre Davide`, so the columns agree and the English was
+right. **The truncation that still parses is the dangerous one.** A second false
+marker was stopped the same way (a Greek bleed sitting *on* the Latin numeral at
+*duo millia εἰ septuaginta*). Cost: one grep.
+
+**Two cruces claims corrected by the twin:** Eli's age — the file said "Latin
+verifier drops the number," but the twin prints *annorum 90* (the claim was true
+of the old `raw/verifier/` OCR, not of Migne); and Achab `κθʹ`→`κβʹ`, which rested
+on the Latin alone, is now **verified** by the third witness reading `κβ`.
+
+**⛔ OWED: deploy** (Wilson's per-action OK) — `cd site && npx vercel --prod
+--archive=tgz`, project `migne`, root `site/`. The three markers are reader-facing
+and rebuild Joel's work page. Commits are local; **nothing pushed.**
+
+**NEXT after that: §8a.C queue additions** — Glabas Sermons II–IV (PG 139, from
+col 40; the Marian epithet table travels with them), then a second Oecumenius unit
+from PG 118 (**Gal or Eph — NOT Jude/Colossians**, which do not exist in our
+Calfa file). Both unblocked. PL queue unchanged (9 prepared works; 9637 still
+needs its Fable liturgical mini-pilot).
+
+---
+
 ## ▶▶ 2026-08-01: §8 GATE RULED **OPEN** — PILOT BUILT, STAGED, **DEPLOYED + VERIFIED LIVE.**
 
 migne.app now serves **98 English works**. The PG paired pilot is fully live:

@@ -159,9 +159,31 @@ the divergence is certainly the plate's.
   a divergence resting on scan-Latin alone can be crop noise. Where the Greek
   is plate-verified and only the *Latin* reading is shaky, do not fire —
   log it (the εʹ / "6." numeral case).
-- Tooling: a scratch splitter was written for that run; it should be
-  generalized into `scripts/pg-greek-column.mjs` alongside `pg-latin-twin.mjs`
-  when a session next touches PG. **Not yet done.**
+- Tooling: ✅ **DONE 2026-08-01** — `scripts/pg-greek-column.mjs` (gate
+  condition 1), generalized alongside `pg-latin-twin.mjs`.
+
+**⚑ THE CROPS ARE RECIPROCAL REPAIR KITS (found 2026-08-01, Joel backfill).**
+The same x-range split that yields each crop spills the *other* column's
+edge-words into it: Latin runs surface inside `src/pg-greek-scan/`, Greek
+fragments inside `src/pg-latin/`. The two crops fail at the boundary
+**independently**, so each recovers the other's losses for the price of a grep.
+
+- **Therefore: a gap in the Latin twin is NOT evidence of a gap in Migne's
+  Latin column.** Grep the Greek crop for Latin script before attributing any
+  absence — or any divergence resting on one — to the plate.
+- Worked case, a false `[lat:]` caught one keystroke short: Joel 0236, Greek
+  `ἐτῶν ογʹ` (73) against the twin's *etatis anno septuagesimo* (70). The Greek
+  crop of the same leaf held the dropped Latin — `tertio, sepeliturque cum
+  patre Davide. Sub` — so the column reads *septuagesimo tertio*, 73, and the
+  columns agree. **The truncation that still parses is the dangerous one**:
+  *septuagesimo* is a complete, grammatical, plausible numeral, and nothing
+  downstream could have flagged it.
+- Second worked case, the other direction: a Greek bleed (`εἰ`) landing **on**
+  the Latin numeral at Joel 0236's *duo millia εἰ septuaginta* is what stopped
+  a second false marker — the crop is damaged at precisely the point in
+  dispute, so the §4a caveat (Greek sound, Latin shaky → do not fire) applies.
+- Joel's Greek crop carries 26 Latin runs, 4 substantive. Expect the same
+  order of magnitude per work; it is cheap and it is decisive.
 
 ## 5. Pipeline diff vs `translation-runbook.md`
 
@@ -391,7 +413,22 @@ it:
    (≈0.9–1.3×); write `greekPlateAbsentPages`; registry entry gains
    `latinVerifier`. The old `raw/verifier/joel-chronographia-latin.txt` remains
    format precedent ONLY — it is not chunk-aligned; do not promote it.
-2. **Opus — one session, hard-stop first.** Retroactive twin pass per §6 over
+2. ✅ **DONE 2026-08-01 (Opus).** Full write-up at the end of
+   `src/english/joel-chronographia/cruces.md`. Results: **0272 `δυσσεβῆ` —
+   conjecture *εὐσεβῆ* REFUTED** by scan-Greek (`δυσσεθῆ`, this scan's β→θ) +
+   Latin *virum impium*, no edit. **0236 Asa — CLOSED as the plate's own
+   reading**, three witnesses plus a positive control (the same plate prints
+   `τὸ εὐθές` for Josaphat three lines below, so the alternative formula is
+   demonstrably live). **Three `[lat:]` markers placed** (0240, 0269, 0288).
+   **Polarity read against both columns: zero ours-side defects** — 35
+   formula firings all concur and all render correctly, every Latin negation
+   checked concurs; the reason is genre (7a″), a king-list's risk is the
+   NUMERAL, not the negation. Twin also corrected two cruces claims (Eli's
+   *annorum 90* is printed after all; Achab `κβʹ` upgraded from inference to
+   verified by the third witness) and produced the reciprocal-crop finding
+   in §4a above. *Original spec text follows.*
+
+   **Opus — one session, hard-stop first.** Retroactive twin pass per §6 over
    all 12 chunks + polarity read against both columns. Priority adjudications:
    - **0272 δυσσεβῆ καὶ ἀπράγμονα** (sweep conjecture εὐσεβῆ) — twin + third
      witness; this is the exact class the verifier settles in one look.

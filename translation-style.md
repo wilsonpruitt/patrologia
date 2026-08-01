@@ -990,10 +990,19 @@ Greek (rule 4); the marker records what the Latin column says instead.
   claim is checkable against the committed twin (`src/pg-latin/<workKey>/`).
 - Renders like `[var:]`: a visible note whose tooltip reads "Migne's parallel
   Latin column diverges from his Greek text."
-- **NOT retroactive.** Applied from the paired pilots forward. Joel's two known
-  divergences receive their markers when its Latin twin is backfilled — which
-  Wilson has ordered AFTER the pilots, not before. Until then, absence of a
-  `[lat:]` in Joel is not evidence the columns agree.
+- **NOT retroactive.** Applied from the paired pilots forward. ✅ **Joel's
+  backfill is DONE (2026-08-01)** — its twin was harvested and the retroactive
+  pass placed **three** markers, not the two anticipated here: 0240 Joram
+  (`βʹ` ‖ *annos duodecim*), 0288 Michael VII (`ζʹ` ‖ *annos sex*), and 0269
+  Justinian II (`ἔτη ιʹ` ‖ *annum unum*, where the LATIN is the outlier —
+  a divergence is material whichever column is the odd one out).
+- **A truncated Latin crop can manufacture a divergence that is not there.**
+  The twin and the third-witness Greek crop lose *different* words at the
+  column boundary (`pg-paired-pilot.md` §4a). Joel 0236 nearly took a marker
+  for Greek `ογʹ` (73) against a Latin reading *anno septuagesimo* (70) — the
+  Latin crop had dropped *tertio*, and the **Greek** crop was holding it.
+  **Before firing on a numeral, grep the other crop.** The dangerous truncation
+  is the one that still parses as a complete, plausible number.
 
 ## Source patches — `data/tei-patches/<idno>.json`
 
