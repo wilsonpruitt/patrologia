@@ -9,7 +9,10 @@
       "authorNote": "10th-century Byzantine bishop/compiler; PG 118-119 gathers the Greek catena tradition on Paul's Epistles (and, per the parent volume's own preface, possibly the Acts/Catholic-epistle catena too) under his name — attribution to a single 'Oecumenius' is itself debated in scholarship, but PG's ascription is what this citation follows.",
       "title": "Commentarius in Epistolam ad Philippenses",
       "titleEn": "Commentary on the Epistle to the Philippians",
-      "pages": [641, 674],
+      "pages": [
+        641,
+        674
+      ],
       "greekColFirst": 1260,
       "greekColLast": 1325,
       "citRange": "PG 118, 1260–1325",
@@ -18,7 +21,9 @@
       "pilot": true,
       "latinVerifier": "src/pg-latin/oecumenius-philippians/",
       "latinScanItem": "patrologiaecurs14migngoog",
-      "latinAltScanItem": "patrologicursus21migngoog (used for 5 of 34 pages where the primary scan has no matching leaf — see data/pg-latin-altsource/oecumenius-philippians.json)"
+      "latinAltScanItem": "patrologicursus21migngoog (used for 5 of 34 pages where the primary scan has no matching leaf — see data/pg-latin-altsource/oecumenius-philippians.json)",
+      "slug": "commentarius-in-epistolam-ad-philippenses",
+      "englishState": "ours"
     },
     {
       "key": "joel-chronographia",
@@ -64,7 +69,10 @@
       "queueNote": "PG prints Hergenröther's fragments — 'not even a third' of the work. Full Greek-only critical ed.: Bucossi & D'Amelia, CCSG 92 (2021), no translation. Dialogue I is essentially whole in PG — strong first-English candidate; work page must state the fragment situation.",
       "pilot": false,
       "latinVerifier": "src/pg-latin/nicetas-maroneia-dialogi/",
-      "latinScanItem": "patrologiaecurs63migngoog"
+      "latinScanItem": "patrologiaecurs63migngoog",
+      "titleEn": "Dialogues on the Procession of the Holy Spirit (Dialogue I, with fragments of II–VI)",
+      "slug": "dialogi-de-processione-spiritus-sancti",
+      "englishState": "ours"
     },
     {
       "key": "isidore-glabas-sermones",
@@ -89,7 +97,7 @@
       "key": "isidore-glabas-sermo-1",
       "series": "pg",
       "volume": 139,
-      "author": "Isidore of Thessalonica (Isidore Glabas)",
+      "author": "Isidore Glabas",
       "title": "Sermo I in Nativitatem B. Mariam Virginem",
       "titleEn": "Sermon I, On the Nativity of the Most Holy Mother of God",
       "pages": [
@@ -105,7 +113,9 @@
       "queueNote": "Sermon I of Isidore Glabas's Sermones IV in B. Mariam Virginem (see parent entry `isidore-glabas-sermones`, PG 139, 11-164, four sermons: Nativity/Entry/Annunciation/Dormition) — this is the Nativity sermon, split out as PG paired-pilot P2 (pg-paired-pilot.md §7). Span determined at harvest 2026-07-31: Calfa page 13 opens ΑΟΓΟΣ Αʹ (Ἐις τὴν γέννησιν...); the sermon's closing doxology (Ἀμήν) falls partway through Calfa page 27, immediately followed by ΑΟΓΟΣ Βʹ (Sermon II, on the Entry) in the same page/column. The chunker truncates page 27 at that Ἀμήν via a calfa-patches entry so Sermon II's opening text is never pulled into this work. KNOWN SCAN GAP (found at harvest): 3 of this sermon's 15 Calfa pages have NO corresponding leaf in raw/scans/pg139/patrologiaecurs63migngoog_djvu.xml — pages 13-14 (cols 11-14, the sermon's opening) and page 21 (cols 27-28, mid-sermon) match no scan leaf above noise level (best hit ≤3 tokens across all 788 leaves, vs 11-31 hits on every neighboring page). Leaves 0-7 of this scan are Google/PG-series front matter, not this column range — those two Calfa pages simply have no leaf in this copy. Latin twin is UNAVAILABLE for those 3 pages; the Latin twin chunks that span them are correspondingly under-length (see src/pg-latin/isidore-glabas-sermo-1/manifest.json). GAP CLOSED 2026-07-31 (coordinator follow-up): patrologicursus73migngoog.pdf (702pp, a second archive.org item / different physical-copy scan) DOES carry all three missing columns intact at PDF pages 10 (cols 11-12), 11 (cols 13-14), and 18 (cols 27-28) -- confirmed by direct page inspection plus tesseract grc+lat OCR, >=2 distinctive Greek tokens per page (4, 4, 3 hits). That PDF has no embedded text layer of its own, so the Latin was extracted via tesseract 300dpi render+OCR (render+read fallback) rather than a djvu.xml crop -- see data/pg-latin-altsource/isidore-glabas-sermo-1.json for the per-page text and provenance, each explicitly marked as coming from a DIFFERENT witness than the rest of the twin. The archive.org patrologia-volumes/139_text.pdf (text-layer variant) was also checked and confirmed to be the SAME physical scan as the primary (identical page content, same gap) -- no help there.",
       "pilot": false,
       "latinVerifier": "src/pg-latin/isidore-glabas-sermo-1/",
-      "latinScanItem": "patrologiaecurs63migngoog"
+      "latinScanItem": "patrologiaecurs63migngoog",
+      "slug": "sermo-i-in-nativitatem",
+      "englishState": "ours"
     },
     {
       "key": "joannes-citri-responsa",

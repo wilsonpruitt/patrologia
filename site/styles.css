@@ -678,10 +678,9 @@ a { color: inherit; }
 }
 
 /* ---------- PG work page ---------- */
-/* Emitted here too (identical to build-work-page-pg.mjs) so a PL rebuild,
-   which fully rewrites site/styles.css, never drops the Greek-column rules
-   a live PG page depends on. The PG builder strips+re-adds this same block
-   by its comment header, so there is never a duplicate. */
+/* Greek body in GFS Didot — the face Migne's Greek type descends from.
+   Rows cut at sentence ends near each column anchor; anchors inline,
+   hanging into the outer margins per the base .anchor rules. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }

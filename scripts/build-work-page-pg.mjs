@@ -21,6 +21,9 @@ const engDir = path.join(ROOT, 'src/english', key);
 const manifest = JSON.parse(fs.readFileSync(path.join(grcDir, 'manifest.json'), 'utf8'));
 const reg = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/pg-works.json'), 'utf8'));
 const work = reg.works.find(w => w.key === key);
+if (!work) { console.error(`no pg-works.json entry for ${key}`); process.exit(1); }
+const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
+const workAbout = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/work-about.json'), 'utf8'));
 
 const body = f => fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '').trim();
 const joined = dir => manifest.chunks
@@ -104,6 +107,35 @@ const vol = manifest.volume;
 const slug = work.slug ?? work.titleEn.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const colFirst = colDisp(manifest.colFirst), colLast = colDisp(manifest.colLast);
 
+// Author byline + popover card (PL builder pattern). Bio looked up by the
+// registry's `author` string; a missing bio falls back to plain text —
+// acceptable at stage time, not for deploy (runbook step 5). A card is
+// warranted by a bio OR an attributionFlag — the flag must reach the reader
+// (a byline naming the wrong author is its own defect, CLAUDE.md rule 8).
+const bio = bios[work.author];
+const datesDisp = bio?.dates ? ` <span style="font-style:normal">(${esc(bio.dates)})</span>` : '';
+let authorNode = esc(work.author), authorCard = '';
+if (bio?.bio || bio?.attributionFlag) {
+  const dispName = bio.displayName ?? work.author;
+  const latinLine = bio.latin && bio.latin !== dispName ? `\n  <p class="latin-name" lang="la">${esc(bio.latin)}</p>` : '';
+  const datesLine = bio.dates ? `\n  <p class="dates">${esc(bio.dates)}</p>` : '';
+  const bioLine = bio.bio ? `\n  <p class="bio">${esc(bio.bio)}</p>` : '';
+  const flagLine = bio.attributionFlag ? `\n  <p class="attrib-flag">${esc(bio.attributionFlag)}</p>` : '';
+  authorCard = `<div id="author-0" popover class="author-card">
+  <h3>${esc(dispName)}</h3>${latinLine}${datesLine}${bioLine}${flagLine}
+</div>`;
+  authorNode = `<button type="button" class="author-pop" popovertarget="author-0">${esc(dispName)}</button>`;
+}
+
+// Badge per CLAUDE.md rule 8, same test as build-landing's PG_FIRSTS: the
+// strong claim only on an explicit verified none; everything else fails safe.
+const badge = (work.translationStatus === 'none' && !!work.translationStatusVerified)
+  ? 'First English translation' : 'New English translation';
+
+// "On this text": curated prose from data/work-about.json under `pg:<workKey>`
+// (curated prose lives in data, never only in generated HTML); generic fallback.
+const aboutHtml = workAbout[`pg:${key}`] ?? `The Greek is Migne's printing of <i>${esc(work.title)}</i> (PG ${vol}, coll. ${colFirst}–${colLast}), by ${esc(work.author)}; our text rests on the Calfa–GRE<i>g</i>ORI optical transcription of the volume, read at translation time against Migne's parallel Latin column and the scan of the plates, with every restoration logged. The translation renders what Migne prints. Each gilt column number is an address: <b>migne.app/pg/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.`;
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -130,12 +162,13 @@ ${nav('graeca')}
     <span class="num">${vol}</span>
   </div>
   <div class="work-id">
-    <p class="crumbs"><a href="/#shelf-pg-sec">Patrologia Græca</a> · <span>Vol. ${vol}</span> · <span>${esc(work.author)}</span></p>
+    <p class="crumbs"><a href="/#shelf-pg-sec">Patrologia Græca</a> · <span>Vol. ${vol}</span> · ${authorNode}</p>
     <h1>${esc(work.title.toUpperCase())}</h1>
-    <p class="byline">${esc(work.author)} <span style="font-style:normal">(13th century)</span> · ${esc(work.titleEn)}</p>
-    <p class="meta">PG ${vol}, coll. ${colFirst}–${colLast} &nbsp;·&nbsp; Greek from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates; Greek and Latin swap sides page by page, so the Greek runs in the columns marked</p>
+    <p class="byline">${authorNode}${datesDisp} · ${esc(work.titleEn)}</p>
+    <p class="meta">PG ${vol}, coll. ${colFirst}–${colLast} &nbsp;·&nbsp; Greek from the Migne printing &nbsp;·&nbsp; <span class="first">${badge}</span> &nbsp;·&nbsp; column numbers follow the original plates; Greek and Latin swap sides page by page, so the Greek runs in the columns marked</p>
   </div>
 </div>
+${authorCard}
 
 <main class="columns">
 ${passages}
@@ -144,7 +177,7 @@ ${passages}
 <section class="apparatus">
   <div class="apparatus-inner">
     <h2>On this text</h2>
-    <p>Of Joel nothing is known but this book: a world chronicle in brief, from Adam to the taking of Constantinople by the crusaders in 1204, at which it breaks off with a cry — <i>and these things Christians did to Christians</i>. The Greek is Migne's printing (PG ${vol}, coll. ${colFirst}–${colLast}), which reprints Leo Allatius's 1651 edition with his Latin version in the facing column; our text rests on the Calfa–GRE<i>g</i>ORI optical transcription of the volume, corrected against the plates where the printer let a Greek line stray into the Latin column (three such restorations, each verified on the scan). The chronicle garbles history freely — kings conflated, reigns misnumbered — and the translation preserves every such reading; it translates what Migne prints. Each gilt column number is an address: <b>migne.app/pg/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.</p>
+    <p>${aboutHtml}</p>
   </div>
 </section>
 

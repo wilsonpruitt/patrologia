@@ -17,6 +17,10 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-01 session: the PG paired pilot ships, three works, three genres —
+  'pg/118/commentarius-in-epistolam-ad-philippenses',            // Oecumenius catena — on Philippians, lemma-and-gloss (first PG 118 work)
+  'pg/139/sermo-i-in-nativitatem',                               // Isidore Glabas — Nativity of the Theotokos, high Byzantine homily
+  'pg/139/dialogi-de-processione-spiritus-sancti',               // Nicetas of Maroneia — Greek-Latin dialogue on the procession of the Spirit
   // — 2026-07-31 session (later) —
   'pl/115/enarrationes-in-cantica-canticorum',                   // Angelomus of Luxeuil — on the Song of Songs, dedicated to Emperor Lothair I
   // — 2026-07-31 session —

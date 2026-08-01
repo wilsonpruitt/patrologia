@@ -1,0 +1,100 @@
+{
+  "workKey": "isidore-glabas-sermo-1",
+  "series": "pg",
+  "volume": 139,
+  "title": "Sermo I in Nativitatem B. Mariam Virginem",
+  "titleEn": "Sermon I, On the Nativity of the Most Holy Mother of God",
+  "authors": [
+    "Isidore Glabas"
+  ],
+  "citRange": "PG 139, 11–40 (partial col 40; sermon ends mid-column, Sermon II opens in the same column)",
+  "colFirst": 12,
+  "colLast": 40,
+  "sourceWords": 4096,
+  "columns": [
+    {
+      "col": 12,
+      "grc": "ΛΟΓΟΣ Αʹ. Εἰς τὴν γέννησιν τῆς πανυπεράγνου καὶ Θεοχοήτορος καὶ",
+      "en": "SERMON I. On the Nativity of the all-surpassingly pure Mother"
+    },
+    {
+      "col": 13,
+      "grc": "Ἀλλ´ οἷμαι, καθύπερ τοῖς ἀτελέσιν ἔτι καὶ νηπιωδεστέροις οὐ πρότερον",
+      "en": "But I think: just as we do not allow those"
+    },
+    {
+      "col": 16,
+      "grc": "προῦπάρξαντα διὰ ταύτης ὑπέστη· καὶ ἦν ἄρα τὰ γεγονότα παραδόξως",
+      "en": "that existed beforehand subsisted through her; and so the things"
+    },
+    {
+      "col": 17,
+      "grc": "λίαν καλὰ κατὰ τὴν ἄπταιστον τοῦ Δημιουργοῦ ψῆφον εἰς κατήφειαν",
+      "en": "exceedingly good by the unerring verdict of the Maker were"
+    },
+    {
+      "col": 20,
+      "grc": "ἶνα συνελών εἴπω, ἡ τῆς ἀειπαρθένου καὶ Θεοτόκου Μαρίας γέννησις",
+      "en": "to speak in sum, the nativity of the ever-virgin and"
+    },
+    {
+      "col": 21,
+      "grc": "Πʹ. Ἔγωγε μὴν, ἐπεὶ πάλαι κακῶς εἶχεν ἡ γῆ, καὶ",
+      "en": "8. For my part, since of old the earth was"
+    },
+    {
+      "col": 24,
+      "grc": "χρυσὸν συνεισήνεγκε, τὴν δὲ τῆς τέχνης ἐπιτηδειότητα μόνην. Θʹ. Ὅτι",
+      "en": "gold too from himself, but only the fitness of his"
+    },
+    {
+      "col": 25,
+      "grc": "καὶ τὸ τοῦ σεμνοῦ Ἀββανοὺμοὐκ ἀπεικότως, ἐμοὶ δοκῶ, μεθαρμόσειεν ἄν",
+      "en": "one might, not unfittingly I think, refit the word of"
+    },
+    {
+      "col": 28,
+      "grc": "βάλλει πικροῖς τὴν λαμπρὰν ξυνωρίδα, Οὐκ ἔξεστι, λέγων, ὑμῖν δῶρα",
+      "en": "the illustrious pair with bitter reproaches, saying: It is not"
+    },
+    {
+      "col": 29,
+      "grc": "σου ἡ δέσσις, φησὶν ὁ ἄγγελος ἔκατέρῳ, καὶ τεχόήσεται ὑμῖν",
+      "en": "has been heard, and there shall be born to you"
+    },
+    {
+      "col": 32,
+      "grc": "τοὺς λοιποὺς μόνους τούτους ἁγίους ὁμοῦ καὶ δικαίους καλεῖν εἰώθαμεν.",
+      "en": "all the rest, to call these alone at once holy"
+    },
+    {
+      "col": 33,
+      "grc": "τοῦτο τῆς νέας λαμβάνει δημιουργίας ὄργανον, ἵνα καὶ μετὰ λαμπρᾶς",
+      "en": "This he takes as the instrument of the new creation,"
+    },
+    {
+      "col": 36,
+      "grc": "τῶν ἀνθρώπων ἀδιάβλητον οὐ διέφυγε νόμον, τῆς ἀμιγοῦς καὶ ὑψηλῆς,",
+      "en": "blameless law of men — she accomplished loftier things than"
+    },
+    {
+      "col": 37,
+      "grc": "Κοὺδὲ εἰρέθη δόλος ἐν τῷ στόματι αὐτοῦς· κατὰ δὲ τὸ",
+      "en": "nor was guile found in his mouth; but in respect"
+    },
+    {
+      "col": 40,
+      "grc": "Πάσαις τοίνυν ψήφοις ἄφθαρτος ἡ πανὰμνητος, ὃν εἰρήκαμεν τρόπον· καὶ",
+      "en": "By all votes, then, the all-hymned one is incorruptible, in"
+    }
+  ],
+  "heads": [],
+  "scripture": [],
+  "fontes": [],
+  "cruces": {
+    "count": 40,
+    "file": "src/english/isidore-glabas-sermo-1/cruces.md"
+  },
+  "note": "Calfa source carries no citation apparatus or heads; scripture/fontes layers deferred until the diff-vs-scan pass restores Migne's notes. Columns indexed with Greek+English incipits.",
+  "indexed": null
+}
