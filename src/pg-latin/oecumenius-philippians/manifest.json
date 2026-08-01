@@ -122,6 +122,9 @@
       ],
       "altPages": [
         655
+      ],
+      "greekPlateAbsentPages": [
+        655
       ]
     },
     {
@@ -141,6 +144,9 @@
       ],
       "altPages": [
         657
+      ],
+      "greekPlateAbsentPages": [
+        657
       ]
     },
     {
@@ -157,6 +163,9 @@
         660
       ],
       "altPages": [
+        659
+      ],
+      "greekPlateAbsentPages": [
         659
       ]
     },
@@ -176,6 +185,9 @@
         662
       ],
       "altPages": [
+        661
+      ],
+      "greekPlateAbsentPages": [
         661
       ]
     },
@@ -228,7 +240,10 @@
       "leaves": [
         668
       ],
-      "altPages": []
+      "altPages": [],
+      "greekPlateAbsentPages": [
+        669
+      ]
     },
     {
       "chunk": 12,
@@ -247,6 +262,9 @@
       ],
       "altPages": [
         671
+      ],
+      "greekPlateAbsentPages": [
+        671
       ]
     },
     {
@@ -263,5 +281,6 @@
       ],
       "altPages": []
     }
-  ]
+  ],
+  "greekPlateNote": "greekPlateAbsentPages: Calfa pages with NO leaf in the PRIMARY scan (patrologiaecurs14migngoog) — whether the Latin was recovered from the alt witness (altPages) or not at all (gapPages). For these columns the scan carries no Greek column either, so the pg-paired-pilot §4a third witness is UNAVAILABLE: a [lat:] or calfa-patch resting on them cannot be plate-verified. Added 2026-07-31 after the 0010-0013 run found p.671 undocumented on the Greek side."
 }
