@@ -152,6 +152,19 @@ const badge = (work.translationStatus === 'none' && !!work.translationStatusVeri
 // (curated prose lives in data, never only in generated HTML); generic fallback.
 const aboutHtml = workAbout[`pg:${key}`] ?? `The Greek is Migne's printing of <i>${esc(work.title)}</i> (PG ${vol}, coll. ${colFirst}–${colLast}), by ${esc(work.author)}; our text rests on the Calfa–GRE<i>g</i>ORI optical transcription of the volume, read at translation time against Migne's parallel Latin column and the scan of the plates, with every restoration logged. The translation renders what Migne prints. Each gilt column number is an address: <b>migne.app/pg/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.`;
 
+// /method promises the cruces are published WITH the work; this is the link
+// that makes that literally true. Emitted only where the file actually exists,
+// so the page can never advertise an apparatus that is not there.
+const crucesDir = path.join(ROOT, 'src/english', key);
+// Match build-cruces.mjs's publish test exactly — ANY cruces*.md, not just a
+// merged cruces.md. Two works (11058, 11553) carry only per-batch files, and a
+// narrower test here published their apparatus while linking nothing to it.
+const hasCruces = fs.existsSync(crucesDir) &&
+  fs.readdirSync(crucesDir).some(f => /^cruces.*\.md$/.test(f));
+const crucesLink = hasCruces
+  ? `    <p class="cruces-link"><a href="/cruces/pg/${vol}/${slug}/">Cruces for this work &mdash; where the plate is defective or the reading uncertain &rarr;</a></p>`
+  : '';
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -194,6 +207,7 @@ ${passages}
   <div class="apparatus-inner">
     <h2>On this text</h2>
     <p>${aboutHtml}</p>
+${crucesLink}
   </div>
 </section>
 

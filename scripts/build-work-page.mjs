@@ -247,6 +247,19 @@ const authorNodes = credited.length ? credited.map(authorNode) : ['Anonymous'];
 const authorLinks = authorNodes.join(' &amp; ');
 const authorByline = authorNodes.join(' and ');
 
+// /method promises the cruces are published WITH the work; this is the link
+// that makes that literally true. Emitted only where the file actually exists,
+// so the page can never advertise an apparatus that is not there.
+const crucesDir = path.join(ROOT, 'src/english', String(idno));
+// Match build-cruces.mjs's publish test exactly — ANY cruces*.md, not just a
+// merged cruces.md. Two works (11058, 11553) carry only per-batch files, and a
+// narrower test here published their apparatus while linking nothing to it.
+const hasCruces = fs.existsSync(crucesDir) &&
+  fs.readdirSync(crucesDir).some(f => /^cruces.*\.md$/.test(f));
+const crucesLink = hasCruces
+  ? `    <p class="cruces-link"><a href="/cruces/pl/${vol}/${slug}/">Cruces for this work &mdash; where the plate is defective or the reading uncertain &rarr;</a></p>`
+  : '';
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -288,6 +301,7 @@ ${passages}
 <section class="apparatus">
   <div class="apparatus-inner">
     <h2>On this text</h2>
+${crucesLink}
     <p>${workAbout[String(idno)] ?? `The Latin is Migne's printing of <i>${esc(title)}</i> (PL ${vol}, coll. ${colFirstDisp}–${colLastDisp}), by ${esc(authorNames)}, from the Corpus Corporum transcription. Parenthetical references in small type stand on Migne's page — editorial identifications inherited from the edition he reprinted or supplied by his shop, not necessarily the author's own; the author's own citations run in the prose itself. Every gilt column mark is an address: <b>migne.app/pl/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.`}</p>
   </div>
 </section>
@@ -408,12 +422,77 @@ css += `
 /* pattern-14 [var: …]: the plate's scripture reading against the received text. In the
    maroquin rather than the gilt, and unspaced — it is a scholarly aside about the
    quotation, not the edition confessing a hole, and the two must not read alike. */
-.varnote {
+/* pattern-16 [lat: …] (PG only): Migne's parallel LATIN column asserting a
+   different fact than his Greek. Same family as .varnote and deliberately so —
+   both are scholarly asides about a divergence between witnesses, not the
+   edition confessing a hole ([ed:]) nor broken type ([sic:]).
+   NB this rule must live HERE, not in site/styles.css: that file is GENERATED
+   (sketch/styles.css + this block), so anything written into it directly is
+   silently clobbered by the next work-page build. */
+.varnote,
+.latnote {
   font-family: var(--didot);
   font-size: .8rem;
   color: var(--maroquin);
   font-style: normal;
   cursor: help;
+}
+
+/* ---- /cruces/ — the published apparatus (build-cruces.mjs) ----
+   These pages reuse the .essay chrome and inherit its measure; only the
+   constructs the cruces themselves use need adding. */
+.cruces-note {
+  border-left: 2px solid var(--dorure);
+  padding: .1rem 0 .1rem 1.1rem;
+  margin: 1.6rem 0 2.2rem;
+  color: var(--encre-douce);
+  font-size: .95rem;
+  line-height: 1.55;
+}
+.cruces-note p { margin: .55rem 0; }
+.cruces-note strong { color: var(--encre); }
+.essay-body ul li,
+.essay-body ol li { margin-bottom: .45rem; }
+.tablewrap { overflow-x: auto; margin: 1.2rem 0; }
+.tablewrap table { border-collapse: collapse; font-size: .92rem; min-width: 100%; }
+.tablewrap th,
+.tablewrap td {
+  border-bottom: 1px solid var(--rule);
+  padding: .38rem .7rem .38rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+.tablewrap th {
+  font-family: var(--didot);
+  font-weight: normal;
+  color: var(--encre-douce);
+  border-bottom-color: var(--encre-douce);
+  white-space: nowrap;
+}
+.essay-body blockquote {
+  margin: 1.1rem 0 1.1rem 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--rule);
+  color: var(--encre-douce);
+}
+.essay-body blockquote p { margin: .4rem 0; }
+.essay-body hr { border: 0; border-top: 1px solid var(--rule); margin: 2.2rem 0; opacity: .6; }
+.volgroup { margin: 1.6rem 0; }
+.volgroup h3 {
+  font-family: var(--didot);
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--dorure);
+  margin: 0 0 .4rem;
+}
+.volgroup ul { list-style: none; padding-left: 0; margin: 0; }
+.volgroup li { margin-bottom: .3rem; }
+.cruces-link {
+  font-family: var(--didot);
+  font-size: .9rem;
+  color: var(--encre-douce);
+  margin: 0 0 .9rem;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }

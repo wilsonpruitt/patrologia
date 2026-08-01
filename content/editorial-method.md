@@ -243,8 +243,8 @@ and the reading are for.
 
 Each translated work carries a list of cruces — the places where the plate is
 defective or the reading uncertain, given by column, with the printed form,
-what was done, and why. Sixty-four of the works translated so far have one,
-running to something on the order of nine hundred entries in all. They are not
+what was done, and why. **[They are published here](/cruces/)**, work by work,
+and are linked from the foot of every work they belong to. They are not
 a disclaimer. They are the part of the edition that lets you check the part
 you could not otherwise check: every place a judgment was made is listed, with
 the printed Latin beside it, so that a reader who disagrees can see exactly
@@ -343,7 +343,7 @@ The site is built to make this easy rather than to ask for trust.
   both texts and resolve as addresses — `migne.app/pl/139/473a` — so any claim
   can be taken back to a particular column of a particular volume, and from
   there to the scan.
-- **The cruces are published with the work**, not held back.
+- **The cruces are [published with the work](/cruces/)**, not held back.
 - **The Latin and Greek are public domain and stay that way**, and our English
   is licensed CC BY-NC 4.0. If you think a passage is wrong, you are free to
   take the text, correct it, and publish the correction.

@@ -512,10 +512,13 @@ a { color: inherit; }
 /* pattern-14 [var: …]: the plate's scripture reading against the received text. In the
    maroquin rather than the gilt, and unspaced — it is a scholarly aside about the
    quotation, not the edition confessing a hole, and the two must not read alike. */
-/* pattern-16 [lat: …] (PG only): Migne's parallel LATIN column asserting a different
-   fact than his Greek text. Same family as .varnote and deliberately so — both are
-   scholarly asides about a divergence between witnesses, not the edition confessing
-   a hole ([ed:]) nor broken type ([sic:]). */
+/* pattern-16 [lat: …] (PG only): Migne's parallel LATIN column asserting a
+   different fact than his Greek. Same family as .varnote and deliberately so —
+   both are scholarly asides about a divergence between witnesses, not the
+   edition confessing a hole ([ed:]) nor broken type ([sic:]).
+   NB this rule must live HERE, not in site/styles.css: that file is GENERATED
+   (sketch/styles.css + this block), so anything written into it directly is
+   silently clobbered by the next work-page build. */
 .varnote,
 .latnote {
   font-family: var(--didot);
@@ -523,6 +526,63 @@ a { color: inherit; }
   color: var(--maroquin);
   font-style: normal;
   cursor: help;
+}
+
+/* ---- /cruces/ — the published apparatus (build-cruces.mjs) ----
+   These pages reuse the .essay chrome and inherit its measure; only the
+   constructs the cruces themselves use need adding. */
+.cruces-note {
+  border-left: 2px solid var(--dorure);
+  padding: .1rem 0 .1rem 1.1rem;
+  margin: 1.6rem 0 2.2rem;
+  color: var(--encre-douce);
+  font-size: .95rem;
+  line-height: 1.55;
+}
+.cruces-note p { margin: .55rem 0; }
+.cruces-note strong { color: var(--encre); }
+.essay-body ul li,
+.essay-body ol li { margin-bottom: .45rem; }
+.tablewrap { overflow-x: auto; margin: 1.2rem 0; }
+.tablewrap table { border-collapse: collapse; font-size: .92rem; min-width: 100%; }
+.tablewrap th,
+.tablewrap td {
+  border-bottom: 1px solid var(--rule);
+  padding: .38rem .7rem .38rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+.tablewrap th {
+  font-family: var(--didot);
+  font-weight: normal;
+  color: var(--encre-douce);
+  border-bottom-color: var(--encre-douce);
+  white-space: nowrap;
+}
+.essay-body blockquote {
+  margin: 1.1rem 0 1.1rem 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid var(--rule);
+  color: var(--encre-douce);
+}
+.essay-body blockquote p { margin: .4rem 0; }
+.essay-body hr { border: 0; border-top: 1px solid var(--rule); margin: 2.2rem 0; opacity: .6; }
+.volgroup { margin: 1.6rem 0; }
+.volgroup h3 {
+  font-family: var(--didot);
+  font-size: .82rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--dorure);
+  margin: 0 0 .4rem;
+}
+.volgroup ul { list-style: none; padding-left: 0; margin: 0; }
+.volgroup li { margin-bottom: .3rem; }
+.cruces-link {
+  font-family: var(--didot);
+  font-size: .9rem;
+  color: var(--encre-douce);
+  margin: 0 0 .9rem;
 }
 .coltext ul { list-style: none; margin-bottom: 1em; }
 .coltext li { margin-bottom: .2em; }
@@ -683,9 +743,10 @@ a { color: inherit; }
 }
 
 /* ---------- PG work page ---------- */
-/* Greek body in GFS Didot — the face Migne's Greek type descends from.
-   Rows cut at sentence ends near each column anchor; anchors inline,
-   hanging into the outer margins per the base .anchor rules. */
+/* Emitted here too (identical to build-work-page-pg.mjs) so a PL rebuild,
+   which fully rewrites site/styles.css, never drops the Greek-column rules
+   a live PG page depends on. The PG builder strips+re-adds this same block
+   by its comment header, so there is never a duplicate. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }

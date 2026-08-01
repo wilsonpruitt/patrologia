@@ -34,6 +34,11 @@ function inline(md) {
   // rather than emitted as a link, so a typo cannot become a broken <a>.
   s = s.replace(/\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g,
     (m, text, url) => `<a href="${url}" target="_blank" rel="noopener">${text}</a>`);
+  // Root-relative internal links (/cruces/, /scripture/ ...). Same guard as
+  // above — only a leading-slash path is accepted, so a stray bracket cannot
+  // become a link — but no target/rel, because it does not leave the site.
+  s = s.replace(/\[([^\]]+)\]\((\/[^\s)]*)\)/g,
+    (m, text, url) => `<a href="${url}">${text}</a>`);
   return s;
 }
 
