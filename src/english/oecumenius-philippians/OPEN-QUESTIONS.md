@@ -97,3 +97,44 @@ requires before changing stored Greek):
 - the work's final subscription, truncated mid-phrase (see §3).
 
 They were restored in the English; the stored Greek is still damaged.
+
+## 5. The 1272 `( sic )` query — needs a leaf image (added 2026-08-01)
+
+The blind read of 0000–0006 found that the scan's OCR of **leaf 650** prints a
+Roman-type `sic` exactly where Phil 1:20's first `εἴτε` belongs, in the lemma
+whose `στόματί μου` we have marked `[var:]`. Calfa has `εἴτε` and no `sic`.
+
+**Why it matters:** if the plate prints `( sic )` there, **Migne flagged
+`στόματι` himself**, and known-false-positive #5 applies — his mark is
+reproduced verbatim and we do not stack our own note on top. The `[var:]` would
+need re-examining. If it does not, the `[var:]` stands as it is.
+
+**Blocked on:** the leaf image. Only `patrologiaecurs14migngoog_djvu.xml` is
+held locally for PG 118; the item's PDF was not downloaded. A future session
+wanting to settle it should pull the PDF directly (archive.org direct-file rule)
+and render leaf 650.
+
+**Not blocking anything.** The `[var:]` is defensible on either outcome — this
+is a question of whose note the reader sees, not of what the text says.
+
+## 6. Blind-read record (added 2026-08-01)
+
+All 14 chunks read blind by two Opus agents (0000–0006, 0007–0013), neither
+permitted to open `cruces.md` until its findings were final.
+
+- **1 defect of OURS, found and fixed:** the 1300 `λυσιτελῶν` 7a′ inversion
+  (see `cruces.md`) — the English had shipped a word rendered as its opposite,
+  on the authority of a crux whose stated reasoning was backwards.
+- **1 new Migne-side site**, logged, no edit: the 1281 `οὐ` (§A of the cruces
+  addition), undecidable inside the scan gap.
+- **1 plate-image query:** §5 above.
+- **Christ-hymn verdict: clean**, checked word by word — `ἁρπαγμός` on the
+  "seizure" root so Oecumenius's own etymological gloss still works, `ἐκένωσε`
+  as "emptied", no AV cadence anywhere in the hymn or in the eleven short
+  lemmata that re-quote it. ⚠ But the hymn's block-lemma page (cols 1279–1280)
+  **has no leaf in the scan**, so the hymn is clean against Calfa, the received
+  Greek and the Latin — and is **not plate-verifiable**.
+- Five silent column-break restorations were independently plate-verified by
+  the reader and then **withdrawn as candidates** once Pattern 13a was applied
+  — including the 1284 one, which *supplies a negation* (`οὐκ ὀφείλομεν`) and
+  says so in its crux.

@@ -77,6 +77,41 @@ subscription** (*Ἐγράφη ἀπὸ Ῥώμης δι᾽ Ἐπαφροδίτ�
 subscription in `0013.md` now carries its `[ed:]`; verify clean after the edit. Nicetas restored its five ΛΟΓΟΣ headings as `[ed:]`
 under clause 2 and would be unaffected either way.
 
+### ⚑ ADDED 2026-08-01 by the blind polarity reads — two apparatus gaps
+
+**A. 1281 (chunk 0004) — an unlogged Migne-side negation site. NO English change.**
+
+Migne prints, in the refutation of Marcion:
+
+> *Εἰ γὰρ ἦν ἐν μορφῇ Θεοῦ, **πῶς οὐ λέγεις** ὅτι ἀπὸ Μαρίας ἤρξατο;*
+
+As printed, the refutation demands the very position it is refuting ("how do you
+**not** say that he began from Mary?"). The expected sense wants the `οὐ` gone,
+or `λέγεις` to be `λέγει`. **Our English carries it literally** — correct under
+Pattern 7, and no edit is proposed.
+
+**But it could not be adjudicated, and that is the point of logging it.**
+Col 1281 sits inside the 1279–1281a scan gap: PG 118's own leaf for the
+Christ-hymn block-lemma page is **absent from `patrologiaecurs14migngoog`**
+(confirmed by the reader with a whole-volume search for `Σαμοσατ-`, `Σαβελλ-`,
+`Μαρίας`, `Marcion` — zero hits anywhere; leaf 654 = cols 1277/1278, leaf 655 =
+1281/1282). So Migne-vs-Calfa attribution here is **undecidable from our
+files**, and the standing PG rule forbids attributing it to the plate. Recorded
+as a live negation site with no verdict.
+
+**B. 1272 — a possible Migne `( sic )` at Phil 1:20. NEEDS A PAGE IMAGE.**
+
+The scan's OCR of leaf 650 reads *…μεγαλυνθήσεται Χριστὸς ἐν τῷ στόματί μου
+**sic:** διὰ ζωῆς, εἴτε διὰ θανάτου* — a Roman-type `sic` standing exactly where
+the first `εἴτε` belongs, while the second `εἴτε` OCR'd normally. Calfa has
+`εἴτε` and no `sic`.
+
+**If the plate prints `( sic )` there, Migne flagged `στόματι` himself** — and
+under known-false-positive #5 his mark is reproduced verbatim and we do **not**
+stack a note of ours on top; the `[var:]` on this word would need re-examining.
+Cannot be settled from OCR. **Flagged, not asserted** — it needs the leaf image,
+and PG 118's PDF is not held locally (only the djvu.xml). See `OPEN-QUESTIONS.md`.
+
 ### Marker totals after merge
 
 9 `[lat:]` (most Greek-plate-verified; the strongest are 1284 ἑκὼν vs *invitus*
