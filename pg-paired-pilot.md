@@ -267,6 +267,165 @@ any PG volume run, a session (Fable reads the findings) must answer:
    needs the other three).
 Then: Joel backfill spec, PG queue additions, and the runbook merge (§5).
 
+## 8a. GATE RULING — Fable, 2026-08-01
+
+Ruled after reading the three merged cruces files in full (nicetas 770 lines,
+glabas 601, oecumenius 1,725 + its `OPEN-QUESTIONS.md`) — from the findings,
+not from the resume note's sketch of them.
+
+**THE GATE IS OPEN.** Joel's Latin backfill and PG queue additions may proceed,
+under the five conditions at the end of this section.
+
+### Q1 — the twin sanity gate caught real misalignment, but the band is not the instrument
+
+The 0.9–1.3× band is a **wrong-column detector**, nothing more. It did its one
+job (a twin at 0.2× means the crop caught the wrong column), but the pilots
+showed two failure classes it cannot see and one calibration error:
+
+- **Genre-dependence:** healthy twins ran dialogue ≈1.08 aggregate and homily
+  ≈1.48 — the homily end sits OUTSIDE the old band. **Band amended to
+  0.85–1.6×**, with sub-0.5× = presumptive wrong column.
+- **Line-interleave blindness:** the Nicetas cols 0195–0196 crop passed the
+  count and was non-continuous prose; the agent correctly treated it as
+  unusable rather than reading divergence into it. **§3.4(c)'s per-work eye
+  spot-check must read for CONTINUOUS PROSE, not mere presence.**
+- **Greek-plate blind spots:** where the Latin was recovered from an alt
+  witness but the primary scan has no leaf, the twin "looks healthy" while §4a
+  verification is unavailable. **`greekPlateAbsentPages` is now a REQUIRED
+  twin-manifest field, written at harvest time from the leaf inventory** — not
+  discovered mid-translation, as it had to be twice in Oecumenius (p.669,
+  p.671).
+
+### Q2 — the Latin settled most Calfa damage; the decisive instrument was the THIRD WITNESS
+
+The fear behind this question half-materialized: no pilot chunk came back
+clean, and in most the finding was damage in OUR file, where the twin gives
+sense-evidence but not letter-evidence — so plate checks stayed common. What
+answers the fear is §4a: the scan's own Greek column turned "plate-verify the
+Greek" from a render-and-read into a grep, and it carried the hardest catch of
+the pilots (περίγραπτος for ἀπερίγραπτος — a doctrinal predicate inverted,
+invisible once translated). **Verdict: the harvest is adequate for scale with
+§4a as standard practice; the twin is necessary but the twin+third-witness pair
+is the instrument.**
+
+### Q3 — `[lat:]` fired 3 / 1 / 10 per work; Pattern 16's materiality threshold HELD
+
+No marker spam: Allatius's freedom generated roughly two dozen logged-unmarked
+candidates across the three works, and every rejection carries its reason —
+which is what makes the ~14 fired markers auditable. Classes now attested
+beyond numerals: pronoun itacism (fired where Greek-plate-verified; declined in
+every leaf gap), dropped negation (Nicetas 0185), a negation the Latin lacks
+(Nicetas 0212), opposite motives (1298), temporal polarity (οὐκ ἔτι /
+*nondum*), οι/αι confusion (καινήν / *communem*), a missing protasis (Εἰ
+δυνατόν), lemma-word substitution (σύν / *Per*), the ὑπο- reciprocal-ratio
+terms, and ἑκών / *invitus*. The two no-marker rules the pilots earned — **the
+plate's own apparatus adjudicates (in either column), and Vulgate-conformation
+in the Latin is convention** — are already codified in `translation-style.md`.
+The materiality boundary held at its hardest test (Ἐπίσχες / *Retinuisti*:
+mood-shift on an ambiguous form = looseness, no marker) — ratified.
+
+### Q4 — no genre broke the register section; anchor-per-new-genre stays mandatory
+
+The per-genre failure-mode prediction was confirmed by yield, not just
+consistency: Glabas's epithet rule caught exactly the flattening it was written
+for (πολυύμνητος and πανύμνητος three lines apart, ONE Latin word for both);
+Oecumenius's 7a″-at-double-strength produced the divergence lists as
+deliverables; Nicetas's fixed equivalences carried a work whose argument IS
+those distinctions. The three anchors also added durable rules the volume
+agents then used (mention-vs-use, ΛΟΓΟΣ per-work division term, catena sigla
+as sacred structure). Genres still without an anchor: **liturgical/ordo (the
+9637 gate is unchanged) and verse.**
+
+### Q5 — the tooling generalizes; every volume still buys its own verification
+
+PG 118 forced fresh derivation of everything PG 139 had made look constant:
+column constant K=−23 vs −15 (`chunk-work-pg.mjs` now derives K per work),
+steeper leaf drift (+4→−3 across 34 pages), one genuine side-parity exception.
+**Verdict: generalizes.** §3.1's per-volume verification (distinctive-token
+check + drift measured across the whole target span) is sufficient and costs
+nothing like the Joel pilot. No volume ever gets an assumed map.
+
+### Q6 — EN/Greek ratios by genre, for the cost model
+
+**Chronicle 1.25 · lemma-gloss 1.35 · dialogue 1.37 · homily 1.49.** Burn
+estimation stays ~20K tokens per chunk (runbook rule of thumb) — the ratio
+spread affects page count, not materially the per-chunk burn.
+
+### Conditions attached to the open gate
+
+1. **`scripts/pg-greek-column.mjs` generalized** from the Nicetas scratch
+   splitter **before the next volume harvest** (Sonnet, §3 tooling). No more
+   per-run scratch scripts for the third witness.
+2. **`greekPlateAbsentPages` required** in every PG twin manifest, written at
+   harvest time.
+3. **Prompt addendum §6 names the genre subsection** of `translation-style.md`
+   the work falls under (7a″ for every commentary, the epithet rule for every
+   homily) — the mechanism found five defects in 7914 only because it was in
+   the prompt.
+4. **Eye spot-check reads for continuous prose** (interleave caveat, Q1).
+5. **Merge discipline as learned:** check the Greek, not the cruces claim;
+   check a method note's arithmetic against its own worked examples; a crux
+   whose reasoning is STATED gets more scrutiny, not less (7a′, the λυσιτελῶν
+   reversal).
+
+### 8a.B — Joel Latin backfill spec (first output of the gate)
+
+The 2026-07-28 sweep's Joel findings have waited under a standing caveat ("do
+not cite these as Migne's defects until the Latin column is harvested"). Close
+it:
+
+1. **Sonnet — harvest the twin.** `src/pg-latin/joel-chronographia/0000–0011.md`
+   per §2–3, from `data/pg-column-maps/pg139.json` (map already token-verified;
+   tail leaf values for Calfa pp. 146–151 corrected 2026-07-04 — trust the
+   committed map, not memory). Sanity gate at the chronicle expectation
+   (≈0.9–1.3×); write `greekPlateAbsentPages`; registry entry gains
+   `latinVerifier`. The old `raw/verifier/joel-chronographia-latin.txt` remains
+   format precedent ONLY — it is not chunk-aligned; do not promote it.
+2. **Opus — one session, hard-stop first.** Retroactive twin pass per §6 over
+   all 12 chunks + polarity read against both columns. Priority adjudications:
+   - **0272 δυσσεβῆ καὶ ἀπράγμονα** (sweep conjecture εὐσεβῆ) — twin + third
+     witness; this is the exact class the verifier settles in one look.
+   - **0236 Asa τὸ πονηρόν** — a LEAD, explicitly failed the
+     contradicting-neighbour test; record what the twin says, expect no edit.
+   - **Retrofit Pattern 16 `[lat:]` markers** on the plate divergences that
+     predate the pattern and currently live only in cruces: **0240 Joram ἔτη
+     βʹ vs *annos duodecim*; 0288 Michael VII ζʹ vs *sex*** (both ratified by
+     Wilson 2026-07-04, Greek stands); and **0269 Justinian II ἔτη ιʹ vs
+     *annum unum*** (the Latin is the outlier — material divergence all the
+     same). The marker contract exists so the READER sees these, not just the
+     repo.
+   - Re-verify (`verify-english-pg.mjs`), re-run `polarity-record.mjs`,
+     re-index (`index-work-pg.mjs`) since markers change English text; work
+     page rebuilds at the next deploy.
+
+### 8a.C — PG queue additions (second output of the gate)
+
+Standing policy: **a PG work enters the queue only with a committed,
+sanity-gated twin** (§3: no twin, no translation). Ruled IN as the next two
+additions, in order:
+
+1. **Glabas, Sermons II–IV** (PG 139, from col 40) — the conventions and the
+   Marian epithet table travel with them (the table was built to govern the
+   set); same-volume harvest, cheap. Sermon-by-sermon publishing per the
+   registry's own note.
+2. **A second Oecumenius unit from PG 118** — the smallest complete unit
+   remaining in the Calfa file, which carries **Romans→Philippians only**
+   (likely Galatians or Ephesians; size at harvest — the spec's Jude
+   suggestion does not exist in our source, a pilot finding).
+
+Sequencing: Joel backfill before new-volume work; any volume beyond PG 139/118
+waits on condition 1 (`pg-greek-column.mjs`). Every translation launch keeps
+the hard-stop ritual. Badge rules unchanged (rule 8): Glabas sermons can carry
+"First" only per-work if triage evidence is in hand; otherwise "New," and we
+do not hunt.
+
+### Runbook merge
+
+Done with this ruling: §5's pipeline diff is folded into
+`translation-runbook.md` as a PG section (2026-08-01). This file remains the
+detailed PG reference (ladder, harvest spec, prompt addendum); the runbook
+carries the operational summary.
+
 ## 9. Standing items for Wilson (not blocking the harvest)
 
 - **Ratify English-follows-printed-Greek at divergences** — policy since the

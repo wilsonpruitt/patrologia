@@ -4,8 +4,8 @@ The operational score for translation sessions. Written 2026-07-05 (Fable, post-
 execute on **Opus**. Read alongside `CLAUDE.md` (hard rules) and `translation-style.md`
 (the frozen register rulebook). `next-session-resume.md` says what's next; this file
 says how any run works. **PG works additionally follow `pg-paired-pilot.md`** (verifier
-twins, attribution ladder, prompt addendum) — it diffs against this pipeline and merges
-back in after the pilots validate it.
+twins, attribution ladder, prompt addendum) — validated by the three-work pilot and
+merged in below as the PG section (gate ruling: `pg-paired-pilot.md` §8a, 2026-08-01).
 
 ## Model policy
 
@@ -252,6 +252,46 @@ launch. None is a judgment failure and none should be treated as one.
   there is room. If it persists, stop and defer the run — a check that keeps getting
   interrupted yields a thin "nothing new" that looks like a pass, which is worse than
   not running it.
+
+## PG works — the paired pipeline (validated 2026-08-01; detail in `pg-paired-pilot.md`)
+
+The per-work pipeline above holds for PG with these substitutions. The full
+epistemology (attribution ladder, harvest spec, prompt addendum, gate ruling)
+lives in `pg-paired-pilot.md` — this is the operational summary.
+
+1. **Step 1 becomes: Greek chunked (`chunk-work-pg.mjs`) AND Latin twin present,
+   committed, sanity-gated** at `src/pg-latin/<workKey>/` (chunk-aligned 1:1).
+   **No twin, no translation — ever.** Twin manifest must carry
+   `greekPlateAbsentPages` (written at harvest, from the leaf inventory).
+   Sanity band 0.85–1.6× by genre (sub-0.5× = wrong column); the per-work eye
+   spot-check reads for CONTINUOUS PROSE, not mere presence — a line-interleaved
+   crop passes the word count.
+2. **Step 2:** agents get the PG prompt addendum (`pg-paired-pilot.md` §6), their
+   twin paths, the scan path for the **third witness** (the scan's own Greek
+   column — plate verification by grep, standard practice), and the NAME of the
+   `translation-style.md` genre subsection the work falls under (7a″ for every
+   commentary, the epithet rule for every homily — the mechanism only catches
+   what the prompt carries).
+3. **Step 3:** `node scripts/verify-english-pg.mjs <workKey>` — never
+   `verify-english.mjs` (it wants `src/latin/` and hard-fails), and never
+   pointed at the twin. Guillemet parity with the twin cannot be forced in PG.
+4. **Step 4a polarity read is against BOTH columns.** The attribution ladder
+   (`pg-paired-pilot.md` §4) governs every suspicious reading; the standing rule
+   stands: **no PG finding is attributed to Migne's plate from our files
+   alone** — but Greek+Latin concurrence, or third-witness agreement, is no
+   longer "our files alone."
+5. **Numerals and pronoun-itacism pairs (ἡμεῖς/ὑμεῖς):** plate-verify the GREEK
+   (third witness) before any `[lat:]`; in a leaf gap, log the candidate
+   unmarked with the reason.
+6. **Steps 5–8 unchanged** (bio, build, index, stage, deploy checklist +
+   polarity gate), with the PG builders: `build-work-page-pg.mjs` /
+   `index-work-pg.mjs`. Badge rules unchanged — `workStatus` never overwritten.
+7. **Merge discipline, PG-sharpened:** check the Greek, not the cruces claim; a
+   method note's arithmetic gets checked against its own worked examples; a crux
+   whose reasoning is STATED gets more scrutiny, not less (7a′).
+8. **New PG genre = Fable anchor first**, unchanged. Anchors exist for
+   chronicle, dialogue, high homily, lemma-and-gloss; liturgical/ordo and verse
+   do not.
 
 ## The Song-of-Songs queue (all pre-chunked, verified-none, EN ≈ 1.5× Latin words)
 
