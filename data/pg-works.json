@@ -43,7 +43,9 @@
       "translationStatus": "none",
       "translationStatusVerified": "2026-07-03",
       "queueNote": "PG prints Hergenröther's fragments — 'not even a third' of the work. Full Greek-only critical ed.: Bucossi & D'Amelia, CCSG 92 (2021), no translation. Dialogue I is essentially whole in PG — strong first-English candidate; work page must state the fragment situation.",
-      "pilot": false
+      "pilot": false,
+      "latinVerifier": "src/pg-latin/nicetas-maroneia-dialogi/",
+      "latinScanItem": "patrologiaecurs63migngoog"
     },
     {
       "key": "isidore-glabas-sermones",
@@ -61,8 +63,30 @@
       "greekSource": "calfa",
       "translationStatus": "none",
       "translationStatusVerified": "2026-07-03",
-      "queueNote": "Four Marian sermons (Nativity, Entry, Annunciation, Dormition). Not in Daley or Cunningham anthologies. Sermon-by-sermon publishable.",
+      "queueNote": "Four Marian sermons (Nativity, Entry, Annunciation, Dormition). Not in Daley or Cunningham anthologies. Sermon-by-sermon publishable. Sermon I (Nativity) is split out as its own work, `isidore-glabas-sermo-1` (pages 13-27, cols 11-40), harvested 2026-07-31 as PG paired-pilot P2 — see that entry for the twin/gap detail. Sermons II-IV (Entry, Annunciation, Dormition, pages 27-89) remain under this parent entry, unharvested.",
       "pilot": false
+    },
+    {
+      "key": "isidore-glabas-sermo-1",
+      "series": "pg",
+      "volume": 139,
+      "author": "Isidore of Thessalonica (Isidore Glabas)",
+      "title": "Sermo I in Nativitatem B. Mariam Virginem",
+      "titleEn": "Sermon I, On the Nativity of the Most Holy Mother of God",
+      "pages": [
+        13,
+        27
+      ],
+      "greekColFirst": 11,
+      "greekColLast": 40,
+      "citRange": "PG 139, 11–40 (partial col 40; sermon ends mid-column, Sermon II opens in the same column)",
+      "greekSource": "calfa",
+      "translationStatus": "none",
+      "translationStatusVerified": "2026-07-03",
+      "queueNote": "Sermon I of Isidore Glabas's Sermones IV in B. Mariam Virginem (see parent entry `isidore-glabas-sermones`, PG 139, 11-164, four sermons: Nativity/Entry/Annunciation/Dormition) — this is the Nativity sermon, split out as PG paired-pilot P2 (pg-paired-pilot.md §7). Span determined at harvest 2026-07-31: Calfa page 13 opens ΑΟΓΟΣ Αʹ (Ἐις τὴν γέννησιν...); the sermon's closing doxology (Ἀμήν) falls partway through Calfa page 27, immediately followed by ΑΟΓΟΣ Βʹ (Sermon II, on the Entry) in the same page/column. The chunker truncates page 27 at that Ἀμήν via a calfa-patches entry so Sermon II's opening text is never pulled into this work. KNOWN SCAN GAP (found at harvest): 3 of this sermon's 15 Calfa pages have NO corresponding leaf in raw/scans/pg139/patrologiaecurs63migngoog_djvu.xml — pages 13-14 (cols 11-14, the sermon's opening) and page 21 (cols 27-28, mid-sermon) match no scan leaf above noise level (best hit ≤3 tokens across all 788 leaves, vs 11-31 hits on every neighboring page). Leaves 0-7 of this scan are Google/PG-series front matter, not this column range — those two Calfa pages simply have no leaf in this copy. Latin twin is UNAVAILABLE for those 3 pages; the Latin twin chunks that span them are correspondingly under-length (see src/pg-latin/isidore-glabas-sermo-1/manifest.json). Not backfilled from the second, unintegrated PDF in raw/scans/pg139/ (patrologicursus73migngoog.pdf, 702pp, no djvu/OCR companion, contents did not match on inspection) — flagged for Wilson/Fable, not resolved by this harvest.",
+      "pilot": false,
+      "latinVerifier": "src/pg-latin/isidore-glabas-sermo-1/",
+      "latinScanItem": "patrologiaecurs63migngoog"
     },
     {
       "key": "joannes-citri-responsa",

@@ -1,0 +1,12 @@
+{
+ "note": "Sermon-boundary truncation, not a lacuna restoration. Calfa page 27 (col 40) carries the tail end of Sermon I's closing doxology AND the opening of Sermon II (Isidore Glabas, Sermones IV in B. Mariam Virginem) on the same page/column -- Migne printed no column break between them. This work (isidore-glabas-sermo-1) covers Sermon I only; the patch below removes Sermon II's opening text (from its heading ΛΟΓΟΣ Βʹ onward) so the chunker for this work stops at Sermon I's own Ἀμήν. Sermons II-IV remain in the Calfa source for the parent work `isidore-glabas-sermones` to harvest separately, untouched by this patch (patches are per-workKey, applied only when chunking THIS key).",
+ "patches": [
+  {
+   "page": 27,
+   "col": "0040",
+   "find": "ΛΟΓΟΣ Βʹ. Εἰς τὴν εἰς τὰ Ἄγια τῶν ἀγίων εἴσοδον τῆ παναχράντου Δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας. Αʹ. Καθάπερ τῇ ἱερᾷ τραπέζη εἰ τότε μόνον δεῖν τις ᾤετο προσιέναι, ἡνίκα ἂν πρὸς ἐκεῖνο τὸ ὕ, ος ἑαυτὸν ἀκριβῶς συνορῴη τὰ δέοντα σώζειν, οὐδέποτ´ ἂν ἔγγιον, οἷμαι, τοῦ θείου γένοιτο δείπνου· ποῦ γὰρ ἄνθρωπος, ὅς, οὐδ´ εἰ μίαν βεβιωκώς ἡμέραν εἴη, ὡς τὰ θεῖά φησι λόγια, ῥύπου μένειν ἔξω πεπίστευται, προσομιλεῖν ἄν τοτε πρὸς ἀξίαν φανείη τῷ παναχράντῳ ἐκείνῳ καὶ περιπεζίου παντὸς ἀνωτέρῳ; οὕτως ὁ τὴν ἀξίαν ἀποδοῦναι φωνὴν τῇ παναμώμω ζητῶν καὶ μητρὶ τοῦ Θεοῦ Λόγου τῶν ἀλάλων ἐχθύων οὐδὲν ἄρα διοίσει· ἀλλ´ ὥσπερ τῶ γαληνῷ τοῦ Σωτῆρος τεθαῤῥηκότες, τῆς ἀποῤῥήτου",
+   "replace": "",
+   "provenance": "Calfa PG139_text.txt page 27 (colEven 40), located at char offset 1130/1806 of the page's flowed text -- confirmed by reading the plain text: Sermon I's doxology ends '...ᾗ πρέπει δόξα εἰς ἀπεράντους αἰῶνας τῶν αἰώνων. Ἀμήν.' immediately followed by 'ΛΟΓΟΣ Βʹ. Εἰς τὴν εἰς τὰ Ἄγια τῶν ἀγίων εἴσοδον...' (Sermon II, On the Entry into the Holy of Holies). Not a scan-verified crux (this is a boundary cut, not an OCR-damage fix) -- no plate check needed."
+  }
+ ]
+}
