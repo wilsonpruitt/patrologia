@@ -909,14 +909,42 @@ parenthesis) · `ἐξέρασμα` kept (attested) · `ἡ περιτομή γ�
 `ἐημιώθην` → `ἐζημιώθην` · `ἐν ὐτῳ` → `ἐν αὐτῷ` · `Κἐμὴν` → `ἐμὴν` ·
 `Χριστου` → `Χριστοῦ` · `τὰ ἁπὸ τοῦνόμου` → `τὰ ἀπὸ τοῦ νόμου` ·
 `Μαρκωνος` → `Μαρκίωνος` (Lat. *Marcionistae*) · `ὁὅπερ` → `ὅπερ` ·
-`πραγμάτων λυσιτελῶν` → `πραγμάτων **ἀλυσιτελῶν**` — **ladder row 1, and the
-one silent correction in this batch that changes the sense**: as printed, the
-sentence says casting away *profitable* things, which contradicts its own
-neighbour (*τοῦτο γὰρ μᾶλλον κερδῆσαί ἐστι, τὸ ἐλευθερωθῆναι ζημίας*); the
-Latin has *quarumdam **vilium** rerum abjectionem*, and a dropped initial alpha
-is the commonest Calfa loss. Col 1300 is in the leaf gap, so this is
-sense-evidence, not letter-evidence — **no `data/calfa-patches/` entry
-proposed** · `δημίαν` → `ζημίαν` · `Ὃτι ἐξημιώθην` → `Ὅτι ἐζημιώθην` ·
+⚠ **`πραγμάτων λυσιτελῶν` — EMENDATION REVERSED 2026-08-01 by the blind
+polarity read. The original entry is preserved below because the error is the
+lesson.**
+
+~~`πραγμάτων λυσιτελῶν` → `πραγμάτων ἀλυσιτελῶν` — ladder row 1, and the one
+silent correction in this batch that changes the sense: as printed, the sentence
+says casting away *profitable* things, which contradicts its own neighbour
+(*τοῦτο γὰρ μᾶλλον κερδῆσαί ἐστι, τὸ ἐλευθερωθῆναι ζημίας*); the Latin has
+*quarumdam vilium rerum abjectionem*, and a dropped initial alpha is the
+commonest Calfa loss.~~
+
+**The neighbour argues the OTHER WAY, and settles it for λυσιτελῶν.** The
+sentence is *οὐκ ἔστι ζημίαν ἀποβαλεῖν … **ἀλλὰ μᾶλλον** πραγμάτων λυσιτελῶν
+… ἀποβολήν* — "it is NOT to cast off a loss … BUT rather the casting away of
+*profitable* things." The parenthesis exists precisely to rule the ἀ- reading
+out: freeing oneself from loss *is gain*, so ζημιοῦσθαι cannot mean that; it
+must mean losing something good. On the emended reading the `ἀλλά` contrasts a
+thing with itself and the argument collapses. Two further neighbours confirm
+it: the aporia that follows (*Πῶς οὖν ἃ ἤγησαι ζημίαν … λέγεις, Ὅτι
+ἐζημιώθην;*) has no force unless the word implies losing profitable things, and
+the resolution states it outright — ***ἐπεὶ καθ᾽ αὑτὸ, κέρδος αὐτὰ ἐνόμιζεν***,
+"since in itself he reckoned them **gain**."
+
+**Corrected in the English:** "certain profitable things", with a `[lat:]`
+recording Allatius's *vilium*. Col 1300 sits in the leaf gap, so the Greek is
+still not letter-verifiable — but the author's own argument is stronger evidence
+here than a plate would be, because it is what the emendation had to override.
+
+⚑ **This is Pattern 7a′ in the wild, and the sharpest example the corpus has.**
+The rule says *a crux that describes a repair does not make it honest; a logged
+column is not a checked column.* Here the column was logged, the emendation was
+argued in the file, the Latin appeared to corroborate — and the English shipped
+a word rendered as its exact opposite. Nothing downstream could catch it:
+`verify-english` passes, the citation is right, the sentence reads smoothly.
+**A crux whose reasoning is stated deserves MORE scrutiny than a bare one, not
+less** — a stated reason is exactly what stops the next reader from checking · `δημίαν` → `ζημίαν` · `Ὃτι ἐξημιώθην` → `Ὅτι ἐζημιώθην` ·
 `τῆς κατὰ ΚΧριστὸνέλοα-` → `τῆς κατὰ Χριστὸν γνώσεως` (noun supplied from
 Lat. *cognitionis*; see the unmarked-candidate list for *secundum Deum*) ·
 `πρὸς σύν κρισιν` → `πρὸς σύγκρισιν` · `Ὥγημαι` → `Ἥγημαι` · `μολίβδον` →
@@ -1470,8 +1498,20 @@ mangled. The PG register section ("a certain correction … is made silently in
 the English and logged in `cruces.md`") is read as governing, in preference to
 a Pattern-13 `[ed:]`, because in both cases the lost text is recovered *from
 the plate itself* — this is not speculation and nothing is supplied "from
-elsewhere". **The merge session should ratify or reverse this; if reversed, both
-become `[ed:]` notes.** Both also warrant `data/calfa-patches/` entries
+elsewhere". ✅ **RULED 2026-08-01 (Wilson) — `translation-style.md` Pattern 13a, the
+visible-structure rule. The two cases SPLIT, and this entry's "both" was the
+wrong unit of decision.**
+- **1325, nine words lost mid-sentence → clause 1: stays SILENT**, logged here.
+  Restoring it with a marker would put our voice inside a running sentence for
+  ordinary source damage, which is what clause 1 exists to prevent.
+- **The final subscription → clause 2: takes `[ed:]`**, because a lost
+  structural unit's absence is otherwise invisible *as an absence*. Applied.
+
+⚠ A blind reader, working from this entry's original prescription, proposed
+marking the 1325 restoration too, and it was briefly applied before being
+reverted — the entry outlived the rule it was written under. **A prescription
+in a cruces file is only as current as the rulebook it cites; check the rule,
+not the note.** Both also warrant `data/calfa-patches/` entries
 (the plate check the ladder requires for a patch is satisfied — leaves 671, 672).
 
 1. **1325, at the column break.** Calfa: *Οὐχ ὅτι ἐπιζητῶ τὸ δόμα ὑμῶν, διὰ
