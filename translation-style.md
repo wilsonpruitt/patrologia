@@ -147,6 +147,45 @@ of the Byzantine register — the opposite of chronicle paratax.
 - **Expect EN high:** the anchor ran 1.49× (vs chronicle 1.25×, dialogue
   1.37×) — genre ratios are a pilot output, per-genre.
 
+### Greek lemma-and-gloss / catena (from the Oecumenius anchor, 2026-07-31 — Fable)
+
+Calibrated on `oecumenius-philippians` 0000 (the anchor pair). The majority
+genre of the eventual PG queue (Theophylact, Oecumenius, Cyril).
+
+- **Catena attribution sigla are sacred structure.** The plate opens each
+  attributed scholion with **— [ΦΩΤ.]**, **— [ΧΡΥΣ.]** etc. (em-dash +
+  bracketed source). Reproduce verbatim, untranslated, in place — the [n:]
+  principle; no colon, so no collision with our marker namespace. Calfa
+  mangles them; restore from the plate/scan form, verify each NEW siglum
+  against the scan before fixing its form, log every restoration.
+- **7a″ applies at double strength** and the divergence list is a deliverable:
+  the block lemma AND every «short lemma» re-quoted in the gloss must follow
+  Migne's printed Greek against both the received Greek text and familiar
+  English (anchor's worked cases: 2 Cor 2:4 without πολλῆς; Phil 1:9 single
+  μᾶλλον).
+- **The Latin column quotes scripture from the Vulgate — convention, not
+  divergence.** Never fire a `[lat:]` on a scripture quotation the Latin has
+  conformed to the Vulgate; log if notable.
+- **Pronoun itacism pairs (ἡμεῖς/ὑμεῖς) are the prose analogue of the numeral
+  class** — the commonest real Greek-vs-Latin divergence in prose, and
+  Calfa's most confusable letters. Like numerals: plate-verify the Greek
+  before firing a `[lat:]` (the anchor's τὰ καθ᾽ ἡμᾶς vs *apud vos*, leaf
+  ~647, is the worked case — first live [lat:] of the paired pilots).
+- **Greek question marks:** Calfa prints · or nothing where the plate's ;
+  belongs; restore the question from sense + the Latin column, silently,
+  logged as a class.
+- **Guillemets as printed:** «short lemmata» keep Migne's guillemets
+  (Pattern 6); block lemmata are unguilleted in Calfa and stay so.
+- **Gloss formulas fixed within the work:** ἤγουν = "that is" · τουτέστι =
+  "that is" (interchangeable in Greek, keep one English form) · Ἢ opening an
+  alternative construal = "Or:" · ἀντὶ τοῦ = "stands for".
+- **Cross-column bleed is a Calfa artifact class:** the Latin running title
+  misread in Greek lookalike glyphs (ΡΑΙΙΙ ΑΡΟΘΤΟΙΙ…) — not the Greek
+  column's text; translate the Greek column's own head (scan-verified) and
+  log the bleed.
+- **Ratio:** the anchor ran 1.35× (chronicle 1.25 · lemma-gloss 1.35 ·
+  dialogue 1.37 · homily 1.49).
+
 ## The Song of Songs — each commentary stands on its own (locked, Wilson 2026-07-30)
 
 Sixteen PL commentaries expound the same book, quoting the same lemmata. When two
