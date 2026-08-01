@@ -56,6 +56,35 @@ candidate correctly **rejected** (Ἀχάβ vs *Achaz*) because it sits on the l
 the primary scan lacks — firing would have attributed to Migne's plate from our
 files alone.
 
+### ⚑ ADDED 2026-08-01 by the blind polarity read — a printed self-contradiction that was NOT logged
+
+**0003 @0032/0033** — Migne's Greek prints:
+
+> *Ἀλλ᾽ ὃ μήτ᾽ ἐκ γῆς πρῶτον συνέστη, μήτε τι τῶν μελῶν ἀφήρηται, **εἴη δ᾽ οὐδ᾽
+> ἂν ἕν**, οὐχ ἕν τι τῶν ἁπάντων πρὸς ταῦτ᾽ οἰκειότερον ἢ ἡ Παρθένος*
+
+The clause denies that any such thing could exist — and then, in the same
+breath, names the Virgin as that thing. Our English carries it literally ("and
+there could not be so much as one such — no, there is not one thing out of them
+all more suited to these ends than the Virgin"), which is the required
+treatment (Pattern 7): no repair, no substitution.
+
+**Plate-verified** by the blind reader against the scan's own Greek column,
+independently of Calfa — the plate prints it exactly so. **The Latin column
+simply omits the run** (*nihil ex omnibus ad id magis…*).
+
+**No `[lat:]` fired, deliberately.** A short omission is inside Allatius's
+normal compression, and Pattern 16 is explicit that his looseness is not a
+divergence. Firing here would be marker spam of the kind the pattern warns
+against. Logged instead — which is what Pattern 7 asks for and what was
+missing.
+
+**Why this entry exists at all:** the translating agent rendered the passage
+correctly but never logged it, so the crux was invisible to any later reader.
+A correct rendering with no record is indistinguishable from an unexamined one
+— the same argument that makes `sites: 0` a recordable result. The blind read
+found no defect in this work; it did find this hole in the record.
+
 ### Two items deliberately left open (do not "tidy" them)
 
 - **§14 numeral.** Calfa reads ΙΑʹ and so does the scan's own Greek OCR, but the
