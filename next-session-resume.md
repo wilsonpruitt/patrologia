@@ -18,11 +18,26 @@ top-level field in every PG twin manifest, both scripts) and the Q1 band
 amendment (0.85–1.6×, sub-0.5× presumptive wrong column) that was ruled but
 never applied to the gate code — `pg-latin-twin.mjs` fixed.
 
-Next moves in order (per §8a below): (b) Joel Latin backfill per §8a.B; (c)
-queue additions per §8a.C (Glabas Sermons II–IV, then a second Oecumenius
-unit — Gal or Eph, NOT Jude/Colossians). Both may now proceed — condition 1
-was the blocker for the queue additions, and the backfill's Sonnet step
-(harvest the twin for Joel) can reuse the same tooling pattern.
+✅ **§8a.B step 1 (Sonnet — harvest the twin) DONE 2026-08-01**, committed
+`a3ff4b1`+ next: `src/pg-latin/joel-chronographia/` (12 chunks, aggregate ratio
+0.939 — within chronicle band, `greekPlateAbsentPages: []`, no leaf gaps) and
+`src/pg-greek-scan/joel-chronographia/` (third witness, also full coverage,
+no gaps). Registry already carried `latinVerifier` from the earlier pilot note
+— nothing to add there.
+
+**⛔ NEXT — §8a.B step 2, assigned to OPUS, not Sonnet:** one session, hard-stop
+first, retroactive twin pass over all 12 chunks + polarity read against both
+columns. Priority adjudications named in `pg-paired-pilot.md` §8a.B (0272
+δυσσεβῆ καὶ ἀπράγμονα vs sweep conjecture εὐσεβῆ; 0236 Asa τὸ πονηρόν —
+expect no edit; retrofit Pattern 16 `[lat:]` on 0240/0288/0269). Then
+re-verify (`verify-english-pg.mjs`), re-run `polarity-record.mjs`, re-index
+(`index-work-pg.mjs`) — markers change English text, work page rebuilds at
+next deploy. **Do not run this step on Sonnet** — the spec names Opus
+deliberately for the adjudication judgment calls, not just the mechanics.
+
+After that: (c) queue additions per §8a.C (Glabas Sermons II–IV, then a second
+Oecumenius unit — Gal or Eph, NOT Jude/Colossians). Unblocked (condition 1 was
+the gate), not yet started.
 
 Everything the section below lists as owed is DONE, including the deploy
 (`f470595`→`be3a078`, pushed, deployed):
