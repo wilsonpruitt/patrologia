@@ -1,0 +1,8474 @@
+{
+ "volume": 118,
+ "scanItem": "patrologiaecurs14migngoog",
+ "formula": {
+  "colOdd": "2*page + (-19)"
+ },
+ "note": "page = Calfa $8 PDF page; each page carries one Greek column pair (colOdd/colEven, Greek+Latin). verified = >=2 distinctive Greek tokens from the Calfa page found in the scan leaf carrying that column pair.",
+ "pages": [
+  {
+   "page": 17,
+   "colOdd": 15,
+   "colEven": 16,
+   "greekCol": null,
+   "leaf": 12,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 18,
+   "colOdd": 17,
+   "colEven": 18,
+   "greekCol": null,
+   "leaf": 13,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 19,
+   "colOdd": 19,
+   "colEven": 20,
+   "greekCol": null,
+   "leaf": 14,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 20,
+   "colOdd": 21,
+   "colEven": 22,
+   "greekCol": null,
+   "leaf": 15,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 21,
+   "colOdd": 23,
+   "colEven": 24,
+   "greekCol": null,
+   "leaf": 16,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 22,
+   "colOdd": 25,
+   "colEven": 26,
+   "greekCol": 25,
+   "leaf": 17,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 23,
+   "colOdd": 27,
+   "colEven": 28,
+   "greekCol": 28,
+   "leaf": 18,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 24,
+   "colOdd": 29,
+   "colEven": 30,
+   "greekCol": 29,
+   "leaf": 19,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 25,
+   "colOdd": 31,
+   "colEven": 32,
+   "greekCol": 32,
+   "leaf": 20,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 26,
+   "colOdd": 33,
+   "colEven": 34,
+   "greekCol": null,
+   "leaf": 21,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 27,
+   "colOdd": 35,
+   "colEven": 36,
+   "greekCol": 36,
+   "leaf": 22,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "αποστολων",
+    "κατηχησεως",
+    "γενομενης"
+   ]
+  },
+  {
+   "page": 28,
+   "colOdd": 37,
+   "colEven": 38,
+   "greekCol": 37,
+   "leaf": 23,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "αποστολην",
+    "γενομενης"
+   ]
+  },
+  {
+   "page": 29,
+   "colOdd": 39,
+   "colEven": 40,
+   "greekCol": 40,
+   "leaf": 24,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "αποστολων",
+    "κηρυγματος",
+    "βαπτισματος"
+   ]
+  },
+  {
+   "page": 30,
+   "colOdd": 41,
+   "colEven": 42,
+   "greekCol": 41,
+   "leaf": 25,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 31,
+   "colOdd": 43,
+   "colEven": 44,
+   "greekCol": 44,
+   "leaf": 26,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "εποιησαμην"
+   ]
+  },
+  {
+   "page": 32,
+   "colOdd": 45,
+   "colEven": 46,
+   "greekCol": 45,
+   "leaf": 27,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "βασιλειας",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 33,
+   "colOdd": 47,
+   "colEven": 48,
+   "greekCol": 48,
+   "leaf": 28,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "εντευθεν"
+   ]
+  },
+  {
+   "page": 34,
+   "colOdd": 49,
+   "colEven": 50,
+   "greekCol": 49,
+   "leaf": 29,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "διδασκαλου"
+   ]
+  },
+  {
+   "page": 35,
+   "colOdd": 51,
+   "colEven": 52,
+   "greekCol": 52,
+   "leaf": 30,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 36,
+   "colOdd": 53,
+   "colEven": 54,
+   "greekCol": 53,
+   "leaf": 31,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 37,
+   "colOdd": 55,
+   "colEven": 56,
+   "greekCol": 56,
+   "leaf": 32,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 38,
+   "colOdd": 57,
+   "colEven": 58,
+   "greekCol": 57,
+   "leaf": 33,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 39,
+   "colOdd": 59,
+   "colEven": 60,
+   "greekCol": 60,
+   "leaf": 34,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πνευματι"
+   ]
+  },
+  {
+   "page": 40,
+   "colOdd": 61,
+   "colEven": 62,
+   "greekCol": 61,
+   "leaf": 35,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "σταυρωσαντων"
+   ]
+  },
+  {
+   "page": 41,
+   "colOdd": 63,
+   "colEven": 64,
+   "greekCol": 64,
+   "leaf": 36,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "μεγαλεια",
+    "κατοικουντες",
+    "ιερουσαλημ"
+   ]
+  },
+  {
+   "page": 42,
+   "colOdd": 65,
+   "colEven": 66,
+   "greekCol": 65,
+   "leaf": 37,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 43,
+   "colOdd": 67,
+   "colEven": 68,
+   "greekCol": 68,
+   "leaf": 38,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "προφητου",
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 44,
+   "colOdd": 69,
+   "colEven": 70,
+   "greekCol": 69,
+   "leaf": 39,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "προφητειαν"
+   ]
+  },
+  {
+   "page": 45,
+   "colOdd": 71,
+   "colEven": 72,
+   "greekCol": 72,
+   "leaf": 40,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ταπεινοτερον"
+   ]
+  },
+  {
+   "page": 46,
+   "colOdd": 73,
+   "colEven": 74,
+   "greekCol": 73,
+   "leaf": 41,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "εμφαινει"
+   ]
+  },
+  {
+   "page": 47,
+   "colOdd": 75,
+   "colEven": 76,
+   "greekCol": 76,
+   "leaf": 42,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 48,
+   "colOdd": 77,
+   "colEven": 78,
+   "greekCol": 77,
+   "leaf": 43,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 49,
+   "colOdd": 79,
+   "colEven": 80,
+   "greekCol": 80,
+   "leaf": 44,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 50,
+   "colOdd": 81,
+   "colEven": 82,
+   "greekCol": 81,
+   "leaf": 45,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "τοσουτον",
+    "ονοματος"
+   ]
+  },
+  {
+   "page": 51,
+   "colOdd": 83,
+   "colEven": 84,
+   "greekCol": 84,
+   "leaf": 46,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 52,
+   "colOdd": 85,
+   "colEven": 86,
+   "greekCol": 85,
+   "leaf": 47,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "προφητων",
+    "προφητων"
+   ]
+  },
+  {
+   "page": 53,
+   "colOdd": 87,
+   "colEven": 88,
+   "greekCol": 88,
+   "leaf": 48,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "προφητων"
+   ]
+  },
+  {
+   "page": 54,
+   "colOdd": 89,
+   "colEven": 90,
+   "greekCol": 89,
+   "leaf": 49,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 55,
+   "colOdd": 91,
+   "colEven": 92,
+   "greekCol": 92,
+   "leaf": 50,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "κανταυθα"
+   ]
+  },
+  {
+   "page": 56,
+   "colOdd": 93,
+   "colEven": 94,
+   "greekCol": 93,
+   "leaf": 51,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 57,
+   "colOdd": 95,
+   "colEven": 96,
+   "greekCol": 96,
+   "leaf": 52,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "γενεσθαι"
+   ]
+  },
+  {
+   "page": 58,
+   "colOdd": 97,
+   "colEven": 98,
+   "greekCol": 97,
+   "leaf": 53,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 59,
+   "colOdd": 99,
+   "colEven": 100,
+   "greekCol": 100,
+   "leaf": 54,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 60,
+   "colOdd": 101,
+   "colEven": 102,
+   "greekCol": 101,
+   "leaf": 55,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 61,
+   "colOdd": 103,
+   "colEven": 104,
+   "greekCol": 104,
+   "leaf": 56,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 62,
+   "colOdd": 105,
+   "colEven": 106,
+   "greekCol": 105,
+   "leaf": 57,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "γυναικος",
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 63,
+   "colOdd": 107,
+   "colEven": 108,
+   "greekCol": 108,
+   "leaf": 58,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 64,
+   "colOdd": 109,
+   "colEven": 110,
+   "greekCol": 110,
+   "leaf": 59,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 65,
+   "colOdd": 111,
+   "colEven": 112,
+   "greekCol": 112,
+   "leaf": 60,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αποστολους"
+   ]
+  },
+  {
+   "page": 66,
+   "colOdd": 113,
+   "colEven": 114,
+   "greekCol": 113,
+   "leaf": 61,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "αποστολους",
+    "αποστολων",
+    "αρχιερευς"
+   ]
+  },
+  {
+   "page": 67,
+   "colOdd": 115,
+   "colEven": 116,
+   "greekCol": 116,
+   "leaf": 62,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "τοσουτον",
+    "βδελυκτοτατους",
+    "αποστολους"
+   ]
+  },
+  {
+   "page": 68,
+   "colOdd": 117,
+   "colEven": 118,
+   "greekCol": 117,
+   "leaf": 63,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ανθρωπον",
+    "αντιθεος",
+    "υψωθεντα"
+   ]
+  },
+  {
+   "page": 69,
+   "colOdd": 119,
+   "colEven": 120,
+   "greekCol": 120,
+   "leaf": 64,
+   "verified": true,
+   "tokenHits": 38,
+   "sampleHits": [
+    "αμοιρησειν",
+    "συνεδριω",
+    "φαρισαιος"
+   ]
+  },
+  {
+   "page": 70,
+   "colOdd": 121,
+   "colEven": 122,
+   "greekCol": 121,
+   "leaf": 65,
+   "verified": true,
+   "tokenHits": 38,
+   "sampleHits": [
+    "γαλιλαιος",
+    "απεστησε",
+    "επειθοντο"
+   ]
+  },
+  {
+   "page": 71,
+   "colOdd": 123,
+   "colEven": 124,
+   "greekCol": 124,
+   "leaf": 66,
+   "verified": true,
+   "tokenHits": 42,
+   "sampleHits": [
+    "σφοδροτητα",
+    "δευσοποιου",
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 72,
+   "colOdd": 125,
+   "colEven": 126,
+   "greekCol": 125,
+   "leaf": 67,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "εξελεξαντο",
+    "πνευματος",
+    "προσηλυτον"
+   ]
+  },
+  {
+   "page": 73,
+   "colOdd": 127,
+   "colEven": 128,
+   "greekCol": 128,
+   "leaf": 68,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "δολοπλοκων",
+    "γαμαλιηλ",
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 74,
+   "colOdd": 129,
+   "colEven": 130,
+   "greekCol": 129,
+   "leaf": 69,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "διδασκαλικου",
+    "συνεδριον",
+    "ναζωραιος"
+   ]
+  },
+  {
+   "page": 75,
+   "colOdd": 131,
+   "colEven": 132,
+   "greekCol": 132,
+   "leaf": 70,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ανθρωπων",
+    "ονοματων",
+    "βουλεται"
+   ]
+  },
+  {
+   "page": 76,
+   "colOdd": 133,
+   "colEven": 134,
+   "greekCol": 133,
+   "leaf": 71,
+   "verified": true,
+   "tokenHits": 41,
+   "sampleHits": [
+    "χαλδαιων",
+    "στεφανος",
+    "ανατιθησι"
+   ]
+  },
+  {
+   "page": 77,
+   "colOdd": 135,
+   "colEven": 136,
+   "greekCol": 136,
+   "leaf": 72,
+   "verified": true,
+   "tokenHits": 37,
+   "sampleHits": [
+    "περιτομης",
+    "δοθεισης",
+    "επαγγελια"
+   ]
+  },
+  {
+   "page": 78,
+   "colOdd": 137,
+   "colEven": 138,
+   "greekCol": 137,
+   "leaf": 73,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "κακωσεως",
+    "δουλωσεως",
+    "κακουντας"
+   ]
+  },
+  {
+   "page": 79,
+   "colOdd": 139,
+   "colEven": 140,
+   "greekCol": 140,
+   "leaf": 74,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "εισηγησατο",
+    "επιταττουσα",
+    "αληθειαν"
+   ]
+  },
+  {
+   "page": 80,
+   "colOdd": 141,
+   "colEven": 142,
+   "greekCol": 141,
+   "leaf": 75,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "ελογισθη",
+    "διαφορος",
+    "προαιρεσις"
+   ]
+  },
+  {
+   "page": 81,
+   "colOdd": 143,
+   "colEven": 144,
+   "greekCol": 144,
+   "leaf": 76,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "προσερχομενου",
+    "ανθρωπον",
+    "διαφαινεται"
+   ]
+  },
+  {
+   "page": 82,
+   "colOdd": 145,
+   "colEven": 146,
+   "greekCol": 145,
+   "leaf": 77,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "νεκροτητος",
+    "τεθνεωτος",
+    "θεωρηματων"
+   ]
+  },
+  {
+   "page": 83,
+   "colOdd": 147,
+   "colEven": 148,
+   "greekCol": 148,
+   "leaf": 78,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "κακεινοις",
+    "εκεινοις",
+    "προτερον"
+   ]
+  },
+  {
+   "page": 84,
+   "colOdd": 149,
+   "colEven": 150,
+   "greekCol": 149,
+   "leaf": 79,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "υπογραφη",
+    "ωκοδομησεν",
+    "χειροποιητοις"
+   ]
+  },
+  {
+   "page": 85,
+   "colOdd": 151,
+   "colEven": 152,
+   "greekCol": 152,
+   "leaf": 80,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "απιστουντων",
+    "προφητας",
+    "ελευσεως"
+   ]
+  },
+  {
+   "page": 86,
+   "colOdd": 153,
+   "colEven": 154,
+   "greekCol": 153,
+   "leaf": 81,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "επιδεικνυται",
+    "φορτικον",
+    "συνηγειρε"
+   ]
+  },
+  {
+   "page": 87,
+   "colOdd": 155,
+   "colEven": 156,
+   "greekCol": 156,
+   "leaf": 82,
+   "verified": true,
+   "tokenHits": 37,
+   "sampleHits": [
+    "αποστολοι",
+    "παραταττεσθαι",
+    "προκεισθαι"
+   ]
+  },
+  {
+   "page": 88,
+   "colOdd": 157,
+   "colEven": 158,
+   "greekCol": 157,
+   "leaf": 83,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "βαπτισθεις",
+    "προσκαρτερων",
+    "δυναμεις"
+   ]
+  },
+  {
+   "page": 89,
+   "colOdd": 159,
+   "colEven": 160,
+   "greekCol": 160,
+   "leaf": 84,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "δυναμεις",
+    "αποστολων",
+    "κατηγαγε"
+   ]
+  },
+  {
+   "page": 90,
+   "colOdd": 161,
+   "colEven": 162,
+   "greekCol": 161,
+   "leaf": 85,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "λαλησαντες",
+    "σαμαρειτων",
+    "αργυριον"
+   ]
+  },
+  {
+   "page": 91,
+   "colOdd": 163,
+   "colEven": 164,
+   "greekCol": 164,
+   "leaf": 86,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "ευνουχος",
+    "προφητης",
+    "αρξαμενος"
+   ]
+  },
+  {
+   "page": 92,
+   "colOdd": 165,
+   "colEven": 166,
+   "greekCol": 165,
+   "leaf": 87,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "πιστευεις",
+    "εκελευσε",
+    "αμφοτεροι"
+   ]
+  },
+  {
+   "page": 93,
+   "colOdd": 167,
+   "colEven": 168,
+   "greekCol": 168,
+   "leaf": 88,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "εκηρυττον",
+    "πολιτειαν",
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 94,
+   "colOdd": 169,
+   "colEven": 170,
+   "greekCol": 169,
+   "leaf": 89,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "ανθρωπων",
+    "πνευματος",
+    "εντευθεν"
+   ]
+  },
+  {
+   "page": 95,
+   "colOdd": 171,
+   "colEven": 172,
+   "greekCol": 172,
+   "leaf": 90,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "πνευματος",
+    "πραγματων",
+    "ενεργειας"
+   ]
+  },
+  {
+   "page": 96,
+   "colOdd": 173,
+   "colEven": 174,
+   "greekCol": 173,
+   "leaf": 91,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "αποστολων",
+    "αποστολους",
+    "πιστευσαι"
+   ]
+  },
+  {
+   "page": 97,
+   "colOdd": 175,
+   "colEven": 176,
+   "greekCol": 176,
+   "leaf": 92,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "κατοικουντες",
+    "επεστρεψαν",
+    "ανεμεινε"
+   ]
+  },
+  {
+   "page": 98,
+   "colOdd": 177,
+   "colEven": 178,
+   "greekCol": 177,
+   "leaf": 93,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ανεστησεν",
+    "πιστευοντων",
+    "αναστησαι"
+   ]
+  },
+  {
+   "page": 99,
+   "colOdd": 179,
+   "colEven": 180,
+   "greekCol": 180,
+   "leaf": 94,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "στρατιωτην",
+    "ανακεχωρημενα",
+    "θαλασσαν"
+   ]
+  },
+  {
+   "page": 100,
+   "colOdd": 181,
+   "colEven": 182,
+   "greekCol": 181,
+   "leaf": 95,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "απεσταλμενους",
+    "κορνηλιου",
+    "κορνηλιος"
+   ]
+  },
+  {
+   "page": 101,
+   "colOdd": 183,
+   "colEven": 184,
+   "greekCol": 184,
+   "leaf": 96,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "ακαθαρτα",
+    "βρωματων",
+    "λεγεσθαι"
+   ]
+  },
+  {
+   "page": 102,
+   "colOdd": 185,
+   "colEven": 186,
+   "greekCol": 185,
+   "leaf": 97,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "προφηται"
+   ]
+  },
+  {
+   "page": 103,
+   "colOdd": 187,
+   "colEven": 188,
+   "greekCol": 188,
+   "leaf": 98,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "πνευματος",
+    "λαλουντων",
+    "γλωσσαις"
+   ]
+  },
+  {
+   "page": 104,
+   "colOdd": 189,
+   "colEven": 190,
+   "greekCol": 189,
+   "leaf": 99,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "επικαλουμενον",
+    "εμνησθην",
+    "εδοξασαν"
+   ]
+  },
+  {
+   "page": 105,
+   "colOdd": 191,
+   "colEven": 192,
+   "greekCol": 192,
+   "leaf": 100,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "γενεσθαι",
+    "προφηται"
+   ]
+  },
+  {
+   "page": 106,
+   "colOdd": 193,
+   "colEven": 194,
+   "greekCol": 193,
+   "leaf": 101,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "αποστολου",
+    "συλληψις",
+    "κελευσματι"
+   ]
+  },
+  {
+   "page": 107,
+   "colOdd": 195,
+   "colEven": 196,
+   "greekCol": 196,
+   "leaf": 102,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "φαντασιαν",
+    "πειθοντος",
+    "ιουδαιους"
+   ]
+  },
+  {
+   "page": 108,
+   "colOdd": 197,
+   "colEven": 198,
+   "greekCol": 197,
+   "leaf": 103,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "παιδισκη",
+    "διισχυριζετο",
+    "απελθειν"
+   ]
+  },
+  {
+   "page": 109,
+   "colOdd": 199,
+   "colEven": 200,
+   "greekCol": 200,
+   "leaf": 104,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "πληρωσαντες",
+    "επικληθεντα",
+    "κατεδεξατο"
+   ]
+  },
+  {
+   "page": 110,
+   "colOdd": 201,
+   "colEven": 202,
+   "greekCol": 201,
+   "leaf": 105,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "εκπεμφθεντες",
+    "κατηλθον",
+    "απεπλευσαν"
+   ]
+  },
+  {
+   "page": 111,
+   "colOdd": 203,
+   "colEven": 204,
+   "greekCol": 204,
+   "leaf": 106,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "συγγραψαμενος",
+    "μακροτεραν",
+    "υπηρετης"
+   ]
+  },
+  {
+   "page": 112,
+   "colOdd": 205,
+   "colEven": 206,
+   "greekCol": 205,
+   "leaf": 107,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "υπονοειτε",
+    "σωτηριας",
+    "κατοικουντες"
+   ]
+  },
+  {
+   "page": 113,
+   "colOdd": 207,
+   "colEven": 208,
+   "greekCol": 208,
+   "leaf": 108,
+   "verified": true,
+   "tokenHits": 37,
+   "sampleHits": [
+    "σημειωτεον",
+    "αναστασεως",
+    "τουτεστιν"
+   ]
+  },
+  {
+   "page": 114,
+   "colOdd": 209,
+   "colEven": 210,
+   "greekCol": 209,
+   "leaf": 109,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "παρρησιασαμενοι",
+    "αναγκαιον",
+    "στρεφομεθα"
+   ]
+  },
+  {
+   "page": 115,
+   "colOdd": 211,
+   "colEven": 212,
+   "greekCol": 212,
+   "leaf": 110,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "συναγωγην",
+    "πιστευσαι",
+    "απειθουντες"
+   ]
+  },
+  {
+   "page": 116,
+   "colOdd": 213,
+   "colEven": 214,
+   "greekCol": 213,
+   "leaf": 111,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "ευαγγελισαμενοι",
+    "υπεστρεψαν",
+    "παρακαλουντες"
+   ]
+  },
+  {
+   "page": 117,
+   "colOdd": 215,
+   "colEven": 216,
+   "greekCol": 216,
+   "leaf": 112,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "εκκλησιας",
+    "διηρχοντο",
+    "εκδιηγουμενοι"
+   ]
+  },
+  {
+   "page": 118,
+   "colOdd": 217,
+   "colEven": 218,
+   "greekCol": 217,
+   "leaf": 113,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "εξιοντων",
+    "εντευθεν",
+    "πειραζετε"
+   ]
+  },
+  {
+   "page": 119,
+   "colOdd": 219,
+   "colEven": 220,
+   "greekCol": 220,
+   "leaf": 114,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "επιστρεφουσιν",
+    "επιστειλαι",
+    "αλισγηματων"
+   ]
+  },
+  {
+   "page": 120,
+   "colOdd": 221,
+   "colEven": 222,
+   "greekCol": 221,
+   "leaf": 115,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "αποστολοις",
+    "εκλεξαμενους",
+    "αντιοχειαν"
+   ]
+  },
+  {
+   "page": 121,
+   "colOdd": 223,
+   "colEven": 224,
+   "greekCol": 224,
+   "leaf": 116,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "γραμματων",
+    "εγγραφον",
+    "γραφουσι"
+   ]
+  },
+  {
+   "page": 122,
+   "colOdd": 225,
+   "colEven": 226,
+   "greekCol": 225,
+   "leaf": 117,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "γεγενησθαι",
+    "αλληλοις",
+    "προφηταις"
+   ]
+  },
+  {
+   "page": 123,
+   "colOdd": 227,
+   "colEven": 228,
+   "greekCol": 228,
+   "leaf": 118,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "ρυθμιζει",
+    "λογικοις",
+    "ανθρωποις"
+   ]
+  },
+  {
+   "page": 124,
+   "colOdd": 229,
+   "colEven": 230,
+   "greekCol": 229,
+   "leaf": 119,
+   "verified": true,
+   "tokenHits": 37,
+   "sampleHits": [
+    "νεαπολιν",
+    "χριστοπολιν",
+    "εργασιαν"
+   ]
+  },
+  {
+   "page": 125,
+   "colOdd": 231,
+   "colEven": 232,
+   "greekCol": 232,
+   "leaf": 120,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "παραχρημα",
+    "αφυπνισθηναι",
+    "θαυμασαι"
+   ]
+  },
+  {
+   "page": 126,
+   "colOdd": 233,
+   "colEven": 234,
+   "greekCol": 233,
+   "leaf": 121,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "φρεναπατωντες",
+    "υποτελεις",
+    "επορθησεν"
+   ]
+  },
+  {
+   "page": 127,
+   "colOdd": 235,
+   "colEven": 236,
+   "greekCol": 236,
+   "leaf": 122,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "εξηρευνων",
+    "προφητων",
+    "πιστοτεροι"
+   ]
+  },
+  {
+   "page": 128,
+   "colOdd": 237,
+   "colEven": 238,
+   "greekCol": 237,
+   "leaf": 123,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "επιδημουντες",
+    "παγαρχοι",
+    "καλουνται"
+   ]
+  },
+  {
+   "page": 129,
+   "colOdd": 239,
+   "colEven": 240,
+   "greekCol": 240,
+   "leaf": 124,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "διορθουται",
+    "χειροποιητοις",
+    "ανθρωπων"
+   ]
+  },
+  {
+   "page": 130,
+   "colOdd": 241,
+   "colEven": 242,
+   "greekCol": 241,
+   "leaf": 125,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "οικουμενην",
+    "παρασχων",
+    "αναστασιν"
+   ]
+  },
+  {
+   "page": 131,
+   "colOdd": 243,
+   "colEven": 244,
+   "greekCol": 244,
+   "leaf": 126,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "επιφερει",
+    "υποσχητε",
+    "τιμωρειται"
+   ]
+  },
+  {
+   "page": 132,
+   "colOdd": 245,
+   "colEven": 246,
+   "greekCol": 245,
+   "leaf": 127,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "ερχομενην",
+    "ανακαμψω",
+    "κατελιπεν"
+   ]
+  },
+  {
+   "page": 133,
+   "colOdd": 247,
+   "colEven": 248,
+   "greekCol": 248,
+   "leaf": 128,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "βαπτισματος",
+    "πνευματος",
+    "δοθεισης"
+   ]
+  },
+  {
+   "page": 134,
+   "colOdd": 249,
+   "colEven": 250,
+   "greekCol": 249,
+   "leaf": 129,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "απαγουσα",
+    "εντευθεν",
+    "τυχουσας"
+   ]
+  },
+  {
+   "page": 135,
+   "colOdd": 251,
+   "colEven": 252,
+   "greekCol": 252,
+   "leaf": 130,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "παρειχετο",
+    "τεχνιταις",
+    "εργασιας"
+   ]
+  },
+  {
+   "page": 136,
+   "colOdd": 253,
+   "colEven": 254,
+   "greekCol": 253,
+   "leaf": 131,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "δημητριος",
+    "αγοραιοι",
+    "ανθυπατοι"
+   ]
+  },
+  {
+   "page": 137,
+   "colOdd": 255,
+   "colEven": 256,
+   "greekCol": 256,
+   "leaf": 132,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "παρετεινε",
+    "λαμπαδες",
+    "καθημενος"
+   ]
+  },
+  {
+   "page": 138,
+   "colOdd": 257,
+   "colEven": 258,
+   "greekCol": 257,
+   "leaf": 133,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "φιλιπποις",
+    "προτερας",
+    "αναλογισαμενον"
+   ]
+  },
+  {
+   "page": 139,
+   "colOdd": 259,
+   "colEven": 260,
+   "greekCol": 260,
+   "leaf": 134,
+   "verified": true,
+   "tokenHits": 38,
+   "sampleHits": [
+    "επισκοπους",
+    "εκκλησιαν",
+    "περιεποιησατο"
+   ]
+  },
+  {
+   "page": 140,
+   "colOdd": 261,
+   "colEven": 262,
+   "greekCol": 261,
+   "leaf": 135,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "κακειθεν",
+    "διαπερων",
+    "επλεομεν"
+   ]
+  },
+  {
+   "page": 141,
+   "colOdd": 263,
+   "colEven": 264,
+   "greekCol": 264,
+   "leaf": 136,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ηκουσαμεν",
+    "αποθανειν",
+    "ονοματος"
+   ]
+  },
+  {
+   "page": 142,
+   "colOdd": 265,
+   "colEven": 266,
+   "greekCol": 265,
+   "leaf": 137,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "ιουδαιοις",
+    "ιεροσολυμοις",
+    "αποστολην"
+   ]
+  },
+  {
+   "page": 143,
+   "colOdd": 267,
+   "colEven": 268,
+   "greekCol": 268,
+   "leaf": 138,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "τουτεστιν",
+    "ανθρωπος",
+    "νεωτεροποιος"
+   ]
+  },
+  {
+   "page": 144,
+   "colOdd": 269,
+   "colEven": 270,
+   "greekCol": 269,
+   "leaf": 139,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "συνοντων",
+    "προεχειρισατο",
+    "στοματος"
+   ]
+  },
+  {
+   "page": 145,
+   "colOdd": 271,
+   "colEven": 272,
+   "greekCol": 272,
+   "leaf": 140,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "λανθανειν",
+    "αληθευοντι",
+    "εθαρσησεν"
+   ]
+  },
+  {
+   "page": 146,
+   "colOdd": 273,
+   "colEven": 274,
+   "greekCol": 273,
+   "leaf": 141,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "κεφαλαιου",
+    "εγεννηθη",
+    "περιδοξου"
+   ]
+  },
+  {
+   "page": 147,
+   "colOdd": 275,
+   "colEven": 276,
+   "greekCol": 276,
+   "leaf": 142,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "ευκαταφρονητος",
+    "εφεισατο",
+    "ιουδαιοις"
+   ]
+  },
+  {
+   "page": 148,
+   "colOdd": 277,
+   "colEven": 278,
+   "greekCol": 277,
+   "leaf": 143,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "εκελευσε",
+    "στρατευμα",
+    "διεμαρτυρω"
+   ]
+  },
+  {
+   "page": 149,
+   "colOdd": 279,
+   "colEven": 280,
+   "greekCol": 280,
+   "leaf": 144,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "διασωσωσι",
+    "επιστολην",
+    "περιεχουσαν"
+   ]
+  },
+  {
+   "page": 150,
+   "colOdd": 281,
+   "colEven": 282,
+   "greekCol": 281,
+   "leaf": 145,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "πρωτοστατην",
+    "ναζωραιων",
+    "εκρατησαμεν"
+   ]
+  },
+  {
+   "page": 151,
+   "colOdd": 283,
+   "colEven": 284,
+   "greekCol": 284,
+   "leaf": 146,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "διαλεγομενου",
+    "μελλοντος",
+    "γενομενος"
+   ]
+  },
+  {
+   "page": 152,
+   "colOdd": 285,
+   "colEven": 286,
+   "greekCol": 285,
+   "leaf": 147,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "συλλαλησας",
+    "καισαρος",
+    "βουλομενος"
+   ]
+  },
+  {
+   "page": 153,
+   "colOdd": 287,
+   "colEven": 288,
+   "greekCol": 288,
+   "leaf": 148,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "επικαλεσαμενου",
+    "προηγαγον",
+    "επαρχιαις"
+   ]
+  },
+  {
+   "page": 154,
+   "colOdd": 289,
+   "colEven": 290,
+   "greekCol": 289,
+   "leaf": 149,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "δαμασκον",
+    "επιτροπης",
+    "λαμπροτητα"
+   ]
+  },
+  {
+   "page": 155,
+   "colOdd": 291,
+   "colEven": 292,
+   "greekCol": 292,
+   "leaf": 150,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "αληθειας",
+    "λανθανειν",
+    "αγριππας"
+   ]
+  },
+  {
+   "page": 156,
+   "colOdd": 293,
+   "colEven": 294,
+   "greekCol": 293,
+   "leaf": 151,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "απευχομενος",
+    "υποληψιν",
+    "ασθενεια"
+   ]
+  },
+  {
+   "page": 157,
+   "colOdd": 295,
+   "colEven": 296,
+   "greekCol": 296,
+   "leaf": 152,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "αυτοχειρες",
+    "πλειονας",
+    "χειμωνος"
+   ]
+  },
+  {
+   "page": 158,
+   "colOdd": 297,
+   "colEven": 298,
+   "greekCol": 297,
+   "leaf": 153,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "ριψαντες",
+    "χαλασαντων",
+    "εκατονταρχη"
+   ]
+  },
+  {
+   "page": 159,
+   "colOdd": 299,
+   "colEven": 300,
+   "greekCol": 300,
+   "leaf": 154,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "στρατιωτων",
+    "εκατονταρχος",
+    "βουλομενος"
+   ]
+  },
+  {
+   "page": 160,
+   "colOdd": 301,
+   "colEven": 302,
+   "greekCol": 301,
+   "leaf": 155,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "κατηντησεν",
+    "ανηχθημεν",
+    "καταχθεντες"
+   ]
+  },
+  {
+   "page": 161,
+   "colOdd": 303,
+   "colEven": 304,
+   "greekCol": 304,
+   "leaf": 156,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "πανταχου",
+    "ταξαμενοι",
+    "βασιλειαν"
+   ]
+  },
+  {
+   "page": 162,
+   "colOdd": 305,
+   "colEven": 306,
+   "greekCol": 305,
+   "leaf": 157,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "εισπορευομενους",
+    "υπουργον",
+    "εξουσιας"
+   ]
+  },
+  {
+   "page": 163,
+   "colOdd": 307,
+   "colEven": 308,
+   "greekCol": 308,
+   "leaf": 158,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "αποστολοι",
+    "διακονιαν",
+    "στεφανον"
+   ]
+  },
+  {
+   "page": 164,
+   "colOdd": 309,
+   "colEven": 310,
+   "greekCol": 309,
+   "leaf": 159,
+   "verified": true,
+   "tokenHits": 38,
+   "sampleHits": [
+    "εκκλησιας",
+    "επιστολας",
+    "περικλυσειν"
+   ]
+  },
+  {
+   "page": 165,
+   "colOdd": 311,
+   "colEven": 312,
+   "greekCol": 312,
+   "leaf": 160,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "αποστολος",
+    "δαμασκου",
+    "κακειθεν"
+   ]
+  },
+  {
+   "page": 166,
+   "colOdd": 313,
+   "colEven": 314,
+   "greekCol": 313,
+   "leaf": 161,
+   "verified": true,
+   "tokenHits": 38,
+   "sampleHits": [
+    "κακειθεν",
+    "απαντησαντων",
+    "περικαλλεσιν"
+   ]
+  },
+  {
+   "page": 167,
+   "colOdd": 315,
+   "colEven": 316,
+   "greekCol": 316,
+   "leaf": 162,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "μαρτυριον",
+    "καταλιποντες",
+    "μετεπειτα"
+   ]
+  },
+  {
+   "page": 168,
+   "colOdd": 317,
+   "colEven": 318,
+   "greekCol": 317,
+   "leaf": 163,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "επιστολη",
+    "περιεχει",
+    "λογισμοις"
+   ]
+  },
+  {
+   "page": 169,
+   "colOdd": 319,
+   "colEven": 320,
+   "greekCol": 320,
+   "leaf": 164,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "δικαιουται",
+    "λυτρωσις",
+    "δυνασθαι"
+   ]
+  },
+  {
+   "page": 170,
+   "colOdd": 321,
+   "colEven": 322,
+   "greekCol": 321,
+   "leaf": 165,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "απιστιαν",
+    "εκπτωσις",
+    "καταληψεως"
+   ]
+  },
+  {
+   "page": 171,
+   "colOdd": 323,
+   "colEven": 324,
+   "greekCol": 324,
+   "leaf": 166,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "κεφαλαιον",
+    "διδασκαλια",
+    "πολιτειας"
+   ]
+  },
+  {
+   "page": 172,
+   "colOdd": 325,
+   "colEven": 326,
+   "greekCol": 325,
+   "leaf": 167,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "πνευματος",
+    "προφητων",
+    "ορισθεντος"
+   ]
+  },
+  {
+   "page": 173,
+   "colOdd": 327,
+   "colEven": 328,
+   "greekCol": 328,
+   "leaf": 168,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ευηγγελισθησαν",
+    "ονοματος",
+    "αποστολη"
+   ]
+  },
+  {
+   "page": 174,
+   "colOdd": 329,
+   "colEven": 330,
+   "greekCol": 329,
+   "leaf": 169,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "λατρευειν",
+    "προσφερων",
+    "τουτεστιν"
+   ]
+  },
+  {
+   "page": 175,
+   "colOdd": 331,
+   "colEven": 332,
+   "greekCol": 332,
+   "leaf": 170,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "αξιοπιστον",
+    "αξιοπιστους",
+    "εμπιστευθηναι"
+   ]
+  },
+  {
+   "page": 176,
+   "colOdd": 333,
+   "colEven": 334,
+   "greekCol": 333,
+   "leaf": 171,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "θηρασθαι",
+    "ακαρπους",
+    "συνελεγον"
+   ]
+  },
+  {
+   "page": 177,
+   "colOdd": 335,
+   "colEven": 336,
+   "greekCol": 336,
+   "leaf": 172,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πολλακις"
+   ]
+  },
+  {
+   "page": 178,
+   "colOdd": 337,
+   "colEven": 338,
+   "greekCol": 337,
+   "leaf": 173,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "σωτηριαν"
+   ]
+  },
+  {
+   "page": 179,
+   "colOdd": 339,
+   "colEven": 340,
+   "greekCol": 340,
+   "leaf": 174,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "δικαιοσυνη"
+   ]
+  },
+  {
+   "page": 180,
+   "colOdd": 341,
+   "colEven": 342,
+   "greekCol": 341,
+   "leaf": 175,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 181,
+   "colOdd": 343,
+   "colEven": 344,
+   "greekCol": 344,
+   "leaf": 176,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ανθρωπων"
+   ]
+  },
+  {
+   "page": 182,
+   "colOdd": 345,
+   "colEven": 346,
+   "greekCol": 345,
+   "leaf": 177,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 183,
+   "colOdd": 347,
+   "colEven": 348,
+   "greekCol": 348,
+   "leaf": 178,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "παρεδωκεν"
+   ]
+  },
+  {
+   "page": 184,
+   "colOdd": 349,
+   "colEven": 350,
+   "greekCol": 349,
+   "leaf": 179,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αληθειαν"
+   ]
+  },
+  {
+   "page": 185,
+   "colOdd": 351,
+   "colEven": 352,
+   "greekCol": 352,
+   "leaf": 180,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 186,
+   "colOdd": 353,
+   "colEven": 354,
+   "greekCol": 353,
+   "leaf": 181,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 187,
+   "colOdd": 355,
+   "colEven": 356,
+   "greekCol": 356,
+   "leaf": 184,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ευπορησας",
+    "αμαρτανοντα",
+    "συμμετρον"
+   ]
+  },
+  {
+   "page": 188,
+   "colOdd": 357,
+   "colEven": 358,
+   "greekCol": 357,
+   "leaf": 185,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "κριτηριου",
+    "λογισμων",
+    "επιδηλος"
+   ]
+  },
+  {
+   "page": 189,
+   "colOdd": 359,
+   "colEven": 360,
+   "greekCol": 360,
+   "leaf": 186,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "διδασκαλον",
+    "μειζονος",
+    "εσομενους"
+   ]
+  },
+  {
+   "page": 190,
+   "colOdd": 361,
+   "colEven": 362,
+   "greekCol": 361,
+   "leaf": 187,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "κενοδοξιας",
+    "προσηλυτους",
+    "ονομασιν"
+   ]
+  },
+  {
+   "page": 191,
+   "colOdd": 363,
+   "colEven": 364,
+   "greekCol": 364,
+   "leaf": 188,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "πραττειν",
+    "βδελυσσεσθαι",
+    "ιεροσυλει"
+   ]
+  },
+  {
+   "page": 192,
+   "colOdd": 365,
+   "colEven": 366,
+   "greekCol": 365,
+   "leaf": 189,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "τοσουτον",
+    "θεαρεστον",
+    "ελεγχεσθαι"
+   ]
+  },
+  {
+   "page": 193,
+   "colOdd": 367,
+   "colEven": 368,
+   "greekCol": 368,
+   "leaf": 190,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "επιδειξιν",
+    "σαρκικην",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 194,
+   "colOdd": 369,
+   "colEven": 370,
+   "greekCol": 369,
+   "leaf": 191,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "συντιθεται",
+    "περισσον",
+    "ηπιστησαν"
+   ]
+  },
+  {
+   "page": 195,
+   "colOdd": 371,
+   "colEven": 372,
+   "greekCol": 372,
+   "leaf": 192,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "δικαιωθης",
+    "ηπειθησαν",
+    "διελεγχθη"
+   ]
+  },
+  {
+   "page": 196,
+   "colOdd": 373,
+   "colEven": 374,
+   "greekCol": 373,
+   "leaf": 193,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "δικαιοσυνης",
+    "δικαιοσυνη",
+    "αμαρτανοντες"
+   ]
+  },
+  {
+   "page": 197,
+   "colOdd": 375,
+   "colEven": 376,
+   "greekCol": 376,
+   "leaf": 194,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "ποιησωμεν",
+    "επερισσευσεν",
+    "δικαιοσυνη"
+   ]
+  },
+  {
+   "page": 198,
+   "colOdd": 377,
+   "colEven": 378,
+   "greekCol": 377,
+   "leaf": 195,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "ανθρωποι",
+    "αμαρτιαν",
+    "ταλαιπωρια"
+   ]
+  },
+  {
+   "page": 199,
+   "colOdd": 379,
+   "colEven": 380,
+   "greekCol": 380,
+   "leaf": 196,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "κατορθουντες",
+    "ευεργεσιας",
+    "περισσον"
+   ]
+  },
+  {
+   "page": 200,
+   "colOdd": 381,
+   "colEven": 382,
+   "greekCol": 381,
+   "leaf": 197,
+   "verified": true,
+   "tokenHits": 40,
+   "sampleHits": [
+    "υποδικος",
+    "τοιουτον",
+    "προφηται"
+   ]
+  },
+  {
+   "page": 201,
+   "colOdd": 383,
+   "colEven": 384,
+   "greekCol": 384,
+   "leaf": 198,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "απαλλαγη",
+    "φανερουμενον",
+    "εκρυπτετο"
+   ]
+  },
+  {
+   "page": 202,
+   "colOdd": 385,
+   "colEven": 386,
+   "greekCol": 385,
+   "leaf": 199,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "ενδειξιν",
+    "δικαιοσυνης",
+    "προγεγονοτων"
+   ]
+  },
+  {
+   "page": 203,
+   "colOdd": 387,
+   "colEven": 388,
+   "greekCol": 388,
+   "leaf": 200,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "σπερματι",
+    "αναξιοις",
+    "ενδειξιν"
+   ]
+  },
+  {
+   "page": 204,
+   "colOdd": 389,
+   "colEven": 390,
+   "greekCol": 389,
+   "leaf": 201,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "καταργουμεν",
+    "καταργει",
+    "πληρουσα"
+   ]
+  },
+  {
+   "page": 205,
+   "colOdd": 391,
+   "colEven": 392,
+   "greekCol": 392,
+   "leaf": 202,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "αξιωθηναι",
+    "ευεργεσιας",
+    "επιδειξειεν"
+   ]
+  },
+  {
+   "page": 206,
+   "colOdd": 393,
+   "colEven": 394,
+   "greekCol": 393,
+   "leaf": 203,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "κατορθωματα",
+    "πολλακις",
+    "αφανιζεται"
+   ]
+  },
+  {
+   "page": 207,
+   "colOdd": 395,
+   "colEven": 396,
+   "greekCol": 396,
+   "leaf": 204,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "περιτομην",
+    "εληλυθοτα",
+    "ελογισθη"
+   ]
+  },
+  {
+   "page": 208,
+   "colOdd": 397,
+   "colEven": 398,
+   "greekCol": 397,
+   "leaf": 205,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "δικαιοσυνης",
+    "συνετελει",
+    "πιστευοντων"
+   ]
+  },
+  {
+   "page": 209,
+   "colOdd": 399,
+   "colEven": 400,
+   "greekCol": 400,
+   "leaf": 206,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "συμπαντα",
+    "εχομενος",
+    "ατιμαζει"
+   ]
+  },
+  {
+   "page": 210,
+   "colOdd": 401,
+   "colEven": 402,
+   "greekCol": 401,
+   "leaf": 207,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "τουτεστιν",
+    "καταργειται",
+    "δηλονοτι"
+   ]
+  },
+  {
+   "page": 211,
+   "colOdd": 403,
+   "colEven": 404,
+   "greekCol": 404,
+   "leaf": 208,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "νενεκρωμενω",
+    "καλουντος",
+    "γενεσθαι"
+   ]
+  },
+  {
+   "page": 212,
+   "colOdd": 405,
+   "colEven": 406,
+   "greekCol": 405,
+   "leaf": 209,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "ελογισθη",
+    "λογιζεσθαι",
+    "εγειραντα"
+   ]
+  },
+  {
+   "page": 213,
+   "colOdd": 407,
+   "colEven": 408,
+   "greekCol": 408,
+   "leaf": 210,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "αμαρτιων",
+    "βαπτισμα",
+    "δεικτικως"
+   ]
+  },
+  {
+   "page": 214,
+   "colOdd": 409,
+   "colEven": 410,
+   "greekCol": 409,
+   "leaf": 211,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "παναγιου",
+    "δοθεντος",
+    "υπερεραν"
+   ]
+  },
+  {
+   "page": 215,
+   "colOdd": 411,
+   "colEven": 412,
+   "greekCol": 412,
+   "leaf": 212,
+   "verified": true,
+   "tokenHits": 14,
+   "sampleHits": [
+    "οικειους",
+    "κατορθωμασιν",
+    "επεσπασαμεθα"
+   ]
+  },
+  {
+   "page": 216,
+   "colOdd": 413,
+   "colEven": 414,
+   "greekCol": 413,
+   "leaf": 213,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "προτερον",
+    "αρρωστιαν",
+    "τοιγαρουν"
+   ]
+  },
+  {
+   "page": 217,
+   "colOdd": 415,
+   "colEven": 416,
+   "greekCol": 416,
+   "leaf": 214,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "εισαγωγης",
+    "σωτηριαν",
+    "ανθρωπου"
+   ]
+  },
+  {
+   "page": 218,
+   "colOdd": 417,
+   "colEven": 418,
+   "greekCol": 417,
+   "leaf": 215,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "αμαρτειν",
+    "επραττετο",
+    "τιμωριας"
+   ]
+  },
+  {
+   "page": 219,
+   "colOdd": 419,
+   "colEven": 420,
+   "greekCol": 420,
+   "leaf": 216,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "βασιλειας",
+    "ομοιοτητα",
+    "εκεινους"
+   ]
+  },
+  {
+   "page": 220,
+   "colOdd": 421,
+   "colEven": 422,
+   "greekCol": 421,
+   "leaf": 217,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "ενηργειτο",
+    "ελογιζετο",
+    "αμαρτιαν"
+   ]
+  },
+  {
+   "page": 221,
+   "colOdd": 423,
+   "colEven": 424,
+   "greekCol": 424,
+   "leaf": 218,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "διαφορωτερα",
+    "ενεργεια",
+    "ειργασατο"
+   ]
+  },
+  {
+   "page": 222,
+   "colOdd": 425,
+   "colEven": 426,
+   "greekCol": 425,
+   "leaf": 219,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "δεικτικον",
+    "διαπεπλεγμενον",
+    "σαφηνειας"
+   ]
+  },
+  {
+   "page": 223,
+   "colOdd": 427,
+   "colEven": 428,
+   "greekCol": 428,
+   "leaf": 220,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "κληρονομοι",
+    "συσσωμοι",
+    "περισσειαν"
+   ]
+  },
+  {
+   "page": 224,
+   "colOdd": 429,
+   "colEven": 430,
+   "greekCol": 429,
+   "leaf": 221,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "επλεονασεν",
+    "ανθρωπων",
+    "συμφερον"
+   ]
+  },
+  {
+   "page": 225,
+   "colOdd": 431,
+   "colEven": 432,
+   "greekCol": 432,
+   "leaf": 222,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "βαπτιζομενοι",
+    "αποτιθεμεθα",
+    "ημετερων"
+   ]
+  },
+  {
+   "page": 226,
+   "colOdd": 433,
+   "colEven": 434,
+   "greekCol": 433,
+   "leaf": 223,
+   "verified": true,
+   "tokenHits": 41,
+   "sampleHits": [
+    "κυριακον",
+    "οικουμενη",
+    "εννεκρουμενοι"
+   ]
+  },
+  {
+   "page": 227,
+   "colOdd": 435,
+   "colEven": 436,
+   "greekCol": 436,
+   "leaf": 224,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "περιφραστικως",
+    "αχρηστος",
+    "δουλευειν"
+   ]
+  },
+  {
+   "page": 228,
+   "colOdd": 437,
+   "colEven": 438,
+   "greekCol": 437,
+   "leaf": 225,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "υπευθυνος",
+    "ανθρωπους",
+    "απαυστως"
+   ]
+  },
+  {
+   "page": 229,
+   "colOdd": 439,
+   "colEven": 440,
+   "greekCol": 440,
+   "leaf": 226,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "αναζησαι",
+    "γενομενω",
+    "βασιλευειν"
+   ]
+  },
+  {
+   "page": 230,
+   "colOdd": 441,
+   "colEven": 442,
+   "greekCol": 441,
+   "leaf": 227,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "προγενομενας",
+    "αμαρτιας",
+    "παριστανετε"
+   ]
+  },
+  {
+   "page": 231,
+   "colOdd": 443,
+   "colEven": 444,
+   "greekCol": 444,
+   "leaf": 228,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "αντιπιπτειν",
+    "αλγυνεσθαι",
+    "υμετερας"
+   ]
+  },
+  {
+   "page": 232,
+   "colOdd": 445,
+   "colEven": 446,
+   "greekCol": 445,
+   "leaf": 229,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "αισχυνεται",
+    "αποτελεσματων",
+    "αμαρτιας"
+   ]
+  },
+  {
+   "page": 233,
+   "colOdd": 447,
+   "colEven": 448,
+   "greekCol": 448,
+   "leaf": 230,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "αμαρτιων",
+    "ενηργειτο",
+    "αποθανοντες"
+   ]
+  },
+  {
+   "page": 234,
+   "colOdd": 449,
+   "colEven": 450,
+   "greekCol": 449,
+   "leaf": 231,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "δουλευωμεν",
+    "πνευματος",
+    "αρχαιοις"
+   ]
+  },
+  {
+   "page": 235,
+   "colOdd": 451,
+   "colEven": 452,
+   "greekCol": 452,
+   "leaf": 232,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "ανθρωπος",
+    "ουδεποτε",
+    "φαινεται"
+   ]
+  },
+  {
+   "page": 236,
+   "colOdd": 453,
+   "colEven": 454,
+   "greekCol": 453,
+   "leaf": 233,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "επιθεσιν",
+    "επηρεασαι",
+    "στεφανουσθαι"
+   ]
+  },
+  {
+   "page": 237,
+   "colOdd": 455,
+   "colEven": 456,
+   "greekCol": 456,
+   "leaf": 234,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "αμαρτωλος",
+    "εφυλαττεν",
+    "ακαθαρσιας"
+   ]
+  },
+  {
+   "page": 238,
+   "colOdd": 457,
+   "colEven": 458,
+   "greekCol": 457,
+   "leaf": 235,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "ειρησθαι",
+    "ταυτολογια",
+    "ενδειξις"
+   ]
+  },
+  {
+   "page": 239,
+   "colOdd": 459,
+   "colEven": 460,
+   "greekCol": 460,
+   "leaf": 236,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "απατωμαι",
+    "γενεσθαι",
+    "συνηθειας"
+   ]
+  },
+  {
+   "page": 240,
+   "colOdd": 461,
+   "colEven": 462,
+   "greekCol": 461,
+   "leaf": 237,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "απατηλον",
+    "αισθησιν",
+    "πραγματος"
+   ]
+  },
+  {
+   "page": 241,
+   "colOdd": 463,
+   "colEven": 464,
+   "greekCol": 464,
+   "leaf": 238,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "αιχμαλωτιζοντα",
+    "ειρημενον",
+    "τουτεστιν"
+   ]
+  },
+  {
+   "page": 242,
+   "colOdd": 465,
+   "colEven": 466,
+   "greekCol": 465,
+   "leaf": 239,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "πλατυνει",
+    "συμφωνει",
+    "επιτιθεται"
+   ]
+  },
+  {
+   "page": 243,
+   "colOdd": 467,
+   "colEven": 468,
+   "greekCol": 468,
+   "leaf": 240,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "αιχμαλωτιζει",
+    "αλλοτριον",
+    "αμαρτιας"
+   ]
+  },
+  {
+   "page": 244,
+   "colOdd": 469,
+   "colEven": 470,
+   "greekCol": 469,
+   "leaf": 241,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "ανθρωπον",
+    "προγενομενων",
+    "απηλλαξεν"
+   ]
+  },
+  {
+   "page": 245,
+   "colOdd": 471,
+   "colEven": 472,
+   "greekCol": 472,
+   "leaf": 242,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ομοιωματι",
+    "αμαρτωλης",
+    "αναμαρτητον"
+   ]
+  },
+  {
+   "page": 246,
+   "colOdd": 473,
+   "colEven": 474,
+   "greekCol": 473,
+   "leaf": 243,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "επιθυμιαις",
+    "διανοιας",
+    "ακρασιαν"
+   ]
+  },
+  {
+   "page": 247,
+   "colOdd": 475,
+   "colEven": 476,
+   "greekCol": 476,
+   "leaf": 244,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "πνευματικω",
+    "επειδηπερ",
+    "αποδουναι"
+   ]
+  },
+  {
+   "page": 248,
+   "colOdd": 477,
+   "colEven": 478,
+   "greekCol": 477,
+   "leaf": 245,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "πνευματι",
+    "τοσαυτην",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 249,
+   "colOdd": 479,
+   "colEven": 480,
+   "greekCol": 480,
+   "leaf": 246,
+   "verified": true,
+   "tokenHits": 13,
+   "sampleHits": [
+    "εκαλουντο",
+    "εκατερας",
+    "υιοθεσιας"
+   ]
+  },
+  {
+   "page": 250,
+   "colOdd": 481,
+   "colEven": 482,
+   "greekCol": 481,
+   "leaf": 247,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "αποκαραδοκια",
+    "ματαιοτητι",
+    "ραθυμοτεροι"
+   ]
+  },
+  {
+   "page": 251,
+   "colOdd": 483,
+   "colEven": 484,
+   "greekCol": 484,
+   "leaf": 248,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "βασιλειας",
+    "υιοθεσιας"
+   ]
+  },
+  {
+   "page": 252,
+   "colOdd": 485,
+   "colEven": 486,
+   "greekCol": 485,
+   "leaf": 251,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "ελπιζομενα",
+    "υπομενειν",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 253,
+   "colOdd": 487,
+   "colEven": 488,
+   "greekCol": 488,
+   "leaf": 252,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "πνευματικον",
+    "αντιληψεως",
+    "χαρισματα"
+   ]
+  },
+  {
+   "page": 254,
+   "colOdd": 489,
+   "colEven": 490,
+   "greekCol": 489,
+   "leaf": 253,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "προαιρεσιν",
+    "αξιωθεισι",
+    "βοηθουνται"
+   ]
+  },
+  {
+   "page": 255,
+   "colOdd": 491,
+   "colEven": 492,
+   "greekCol": 492,
+   "leaf": 254,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "πειρασμων",
+    "κινδυνων",
+    "τοσαυτην"
+   ]
+  },
+  {
+   "page": 256,
+   "colOdd": 493,
+   "colEven": 494,
+   "greekCol": 493,
+   "leaf": 255,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "εδικαιωσε",
+    "εμεμφοντο",
+    "εγκαλεσαι"
+   ]
+  },
+  {
+   "page": 257,
+   "colOdd": 495,
+   "colEven": 496,
+   "greekCol": 496,
+   "leaf": 256,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "προασπιζουσης",
+    "οφειλομενης",
+    "θανατουμεθα"
+   ]
+  },
+  {
+   "page": 258,
+   "colOdd": 497,
+   "colEven": 498,
+   "greekCol": 497,
+   "leaf": 257,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "μελλοντα",
+    "μελλουσα",
+    "ενεστωτα"
+   ]
+  },
+  {
+   "page": 259,
+   "colOdd": 499,
+   "colEven": 500,
+   "greekCol": 500,
+   "leaf": 258,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "εκουσιως",
+    "επιθυμει",
+    "χωρισθηναι"
+   ]
+  },
+  {
+   "page": 260,
+   "colOdd": 501,
+   "colEven": 502,
+   "greekCol": 501,
+   "leaf": 259,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "νοηματος",
+    "ιουδαιων",
+    "προσαγαγειν"
+   ]
+  },
+  {
+   "page": 261,
+   "colOdd": 503,
+   "colEven": 504,
+   "greekCol": 504,
+   "leaf": 260,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ιουδαιων",
+    "αγνωμοσυνη",
+    "καταλεγει"
+   ]
+  },
+  {
+   "page": 262,
+   "colOdd": 505,
+   "colEven": 506,
+   "greekCol": 505,
+   "leaf": 261,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "επαγγελιας",
+    "πληθυνθεντες",
+    "αναγνωσθεισαν"
+   ]
+  },
+  {
+   "page": 263,
+   "colOdd": 507,
+   "colEven": 508,
+   "greekCol": 508,
+   "leaf": 262,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "διεφερον",
+    "εκλεγεται",
+    "πραξαντων"
+   ]
+  },
+  {
+   "page": 264,
+   "colOdd": 509,
+   "colEven": 510,
+   "greekCol": 509,
+   "leaf": 263,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "μειζονων",
+    "πλασματων",
+    "απαιτειν"
+   ]
+  },
+  {
+   "page": 265,
+   "colOdd": 511,
+   "colEven": 512,
+   "greekCol": 512,
+   "leaf": 264,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "θελοντος",
+    "τρεχοντος",
+    "απορουντων"
+   ]
+  },
+  {
+   "page": 266,
+   "colOdd": 513,
+   "colEven": 514,
+   "greekCol": 513,
+   "leaf": 265,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "αυτεξουσιον",
+    "αυτεξουσιων",
+    "πλασματων"
+   ]
+  },
+  {
+   "page": 267,
+   "colOdd": 515,
+   "colEven": 516,
+   "greekCol": 516,
+   "leaf": 266,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "εξουσιαν",
+    "κεραμευς",
+    "ανθισταται"
+   ]
+  },
+  {
+   "page": 268,
+   "colOdd": 517,
+   "colEven": 518,
+   "greekCol": 517,
+   "leaf": 267,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "υποθεσιν",
+    "φιλανθρωπιαν",
+    "αγνωμονες"
+   ]
+  },
+  {
+   "page": 269,
+   "colOdd": 519,
+   "colEven": 520,
+   "greekCol": 520,
+   "leaf": 268,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "τιμωριας",
+    "τιμωρητικη",
+    "ενδειξις"
+   ]
+  },
+  {
+   "page": 270,
+   "colOdd": 521,
+   "colEven": 522,
+   "greekCol": 521,
+   "leaf": 269,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "απαιτειν",
+    "πανσοφων",
+    "συντελων"
+   ]
+  },
+  {
+   "page": 271,
+   "colOdd": 523,
+   "colEven": 524,
+   "greekCol": 524,
+   "leaf": 270,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "ευαγγελικη",
+    "δεσποτικη",
+    "δικαιωσις"
+   ]
+  },
+  {
+   "page": 272,
+   "colOdd": 525,
+   "colEven": 526,
+   "greekCol": 525,
+   "leaf": 271,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "τουτεστι",
+    "ανθρωπον",
+    "αναμαρτητον"
+   ]
+  },
+  {
+   "page": 273,
+   "colOdd": 527,
+   "colEven": 528,
+   "greekCol": 528,
+   "leaf": 272,
+   "verified": true,
+   "tokenHits": 13,
+   "sampleHits": [
+    "προσκομματος",
+    "πεπονθασιν",
+    "προαγορευθεντα"
+   ]
+  },
+  {
+   "page": 274,
+   "colOdd": 529,
+   "colEven": 530,
+   "greekCol": 529,
+   "leaf": 273,
+   "verified": true,
+   "tokenHits": 9,
+   "sampleHits": [
+    "δικαιουν",
+    "τελειωτην",
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 275,
+   "colOdd": 531,
+   "colEven": 532,
+   "greekCol": 532,
+   "leaf": 274,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "κατωτατων",
+    "συντομος",
+    "νουνεχους"
+   ]
+  },
+  {
+   "page": 276,
+   "colOdd": 533,
+   "colEven": 534,
+   "greekCol": 533,
+   "leaf": 275,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "επικαλεσηται",
+    "τοιγαρουν",
+    "επιτυχειν"
+   ]
+  },
+  {
+   "page": 277,
+   "colOdd": 535,
+   "colEven": 536,
+   "greekCol": 536,
+   "leaf": 276,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "μαρτυρει",
+    "ιουδαιοι",
+    "οικουμενη"
+   ]
+  },
+  {
+   "page": 278,
+   "colOdd": 537,
+   "colEven": 538,
+   "greekCol": 537,
+   "leaf": 277,
+   "verified": true,
+   "tokenHits": 6,
+   "sampleHits": [
+    "τιμηθεντων",
+    "υπελειφθην",
+    "ισραηλιτης"
+   ]
+  },
+  {
+   "page": 279,
+   "colOdd": 539,
+   "colEven": 540,
+   "greekCol": 540,
+   "leaf": 278,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "προσελθειν",
+    "πιστευσαι",
+    "προσδραμειν"
+   ]
+  },
+  {
+   "page": 280,
+   "colOdd": 541,
+   "colEven": 542,
+   "greekCol": 541,
+   "leaf": 279,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "ανταποδομα",
+    "σκοτισθητωσαν",
+    "οφθαλμοι"
+   ]
+  },
+  {
+   "page": 281,
+   "colOdd": 543,
+   "colEven": 544,
+   "greekCol": 544,
+   "leaf": 280,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "πεσοντες",
+    "αναστωσιν",
+    "πταιοντες"
+   ]
+  },
+  {
+   "page": 282,
+   "colOdd": 545,
+   "colEven": 546,
+   "greekCol": 545,
+   "leaf": 281,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "πλειστον",
+    "τελειοτερας",
+    "σπανιακις"
+   ]
+  },
+  {
+   "page": 283,
+   "colOdd": 547,
+   "colEven": 548,
+   "greekCol": 548,
+   "leaf": 282,
+   "verified": true,
+   "tokenHits": 14,
+   "sampleHits": [
+    "επιτασεως",
+    "παραπτωμα",
+    "τοσουτος"
+   ]
+  },
+  {
+   "page": 284,
+   "colOdd": 549,
+   "colEven": 550,
+   "greekCol": 549,
+   "leaf": 283,
+   "verified": true,
+   "tokenHits": 12,
+   "sampleHits": [
+    "εξεπεσον",
+    "πιοτητος",
+    "εξεκλασθησαν"
+   ]
+  },
+  {
+   "page": 285,
+   "colOdd": 551,
+   "colEven": 552,
+   "greekCol": 552,
+   "leaf": 284,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "φορτικον",
+    "χρηστοτητα",
+    "επιμεινωσι"
+   ]
+  },
+  {
+   "page": 286,
+   "colOdd": 553,
+   "colEven": 554,
+   "greekCol": 553,
+   "leaf": 285,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "θαυμαστον",
+    "συντομως",
+    "ιουδαιων"
+   ]
+  },
+  {
+   "page": 287,
+   "colOdd": 555,
+   "colEven": 556,
+   "greekCol": 556,
+   "leaf": 286,
+   "verified": true,
+   "tokenHits": 12,
+   "sampleHits": [
+    "ανερεθισει",
+    "αλληλοις",
+    "δευτερον"
+   ]
+  },
+  {
+   "page": 288,
+   "colOdd": 557,
+   "colEven": 558,
+   "greekCol": 557,
+   "leaf": 287,
+   "verified": true,
+   "tokenHits": 14,
+   "sampleHits": [
+    "ιουδαιων",
+    "απειθουσιν",
+    "ελεεισθαι"
+   ]
+  },
+  {
+   "page": 289,
+   "colOdd": 559,
+   "colEven": 560,
+   "greekCol": 560,
+   "leaf": 288,
+   "verified": true,
+   "tokenHits": 13,
+   "sampleHits": [
+    "ιουδαιους",
+    "βλεποντας",
+    "προτερον"
+   ]
+  },
+  {
+   "page": 290,
+   "colOdd": 561,
+   "colEven": 562,
+   "greekCol": 561,
+   "leaf": 289,
+   "verified": true,
+   "tokenHits": 10,
+   "sampleHits": [
+    "πολιτευεσθαι",
+    "λατρειαν",
+    "ευαρεστον"
+   ]
+  },
+  {
+   "page": 291,
+   "colOdd": 563,
+   "colEven": 564,
+   "greekCol": 564,
+   "leaf": 290,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "διαφθορας",
+    "απαρτιζουσα",
+    "ανθρωπον"
+   ]
+  },
+  {
+   "page": 292,
+   "colOdd": 565,
+   "colEven": 566,
+   "greekCol": 565,
+   "leaf": 291,
+   "verified": true,
+   "tokenHits": 9,
+   "sampleHits": [
+    "ασελγειαν",
+    "ευαγγελιοις",
+    "σημαινομενον"
+   ]
+  },
+  {
+   "page": 293,
+   "colOdd": 567,
+   "colEven": 568,
+   "greekCol": 568,
+   "leaf": 292,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "τοιουτων",
+    "θαυμασιω",
+    "θαυμασης"
+   ]
+  },
+  {
+   "page": 294,
+   "colOdd": 569,
+   "colEven": 570,
+   "greekCol": 569,
+   "leaf": 293,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "αναλογιαν",
+    "διδασκων",
+    "αλληλους"
+   ]
+  },
+  {
+   "page": 295,
+   "colOdd": 571,
+   "colEven": 572,
+   "greekCol": 572,
+   "leaf": 294,
+   "verified": true,
+   "tokenHits": 13,
+   "sampleHits": [
+    "εκγενησεται",
+    "φανουμεν",
+    "δουλευοντες"
+   ]
+  },
+  {
+   "page": 296,
+   "colOdd": 573,
+   "colEven": 574,
+   "greekCol": 573,
+   "leaf": 295,
+   "verified": true,
+   "tokenHits": 9,
+   "sampleHits": [
+    "κατεχεσθαι",
+    "νοηματος",
+    "κοινωνον"
+   ]
+  },
+  {
+   "page": 297,
+   "colOdd": 575,
+   "colEven": 576,
+   "greekCol": 576,
+   "leaf": 296,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "προτερον",
+    "αδικηθεντα",
+    "ευεργετειν"
+   ]
+  },
+  {
+   "page": 298,
+   "colOdd": 577,
+   "colEven": 578,
+   "greekCol": 577,
+   "leaf": 297,
+   "verified": true,
+   "tokenHits": 7,
+   "sampleHits": [
+    "αντιλεγει",
+    "εξουσιαν",
+    "κωλυουσι"
+   ]
+  },
+  {
+   "page": 299,
+   "colOdd": 579,
+   "colEven": 580,
+   "greekCol": 580,
+   "leaf": 298,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "διακονος",
+    "δηλονοτι",
+    "διακονος"
+   ]
+  },
+  {
+   "page": 300,
+   "colOdd": 581,
+   "colEven": 582,
+   "greekCol": 581,
+   "leaf": 299,
+   "verified": true,
+   "tokenHits": 9,
+   "sampleHits": [
+    "πληρουσι",
+    "τουτεστιν",
+    "επιτεταμενην"
+   ]
+  },
+  {
+   "page": 301,
+   "colOdd": 583,
+   "colEven": 584,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 302,
+   "colOdd": 585,
+   "colEven": 586,
+   "greekCol": 586,
+   "leaf": 300,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "εγγυτερον"
+   ]
+  },
+  {
+   "page": 303,
+   "colOdd": 587,
+   "colEven": 588,
+   "greekCol": 587,
+   "leaf": 301,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ενδυσασθε"
+   ]
+  },
+  {
+   "page": 304,
+   "colOdd": 589,
+   "colEven": 590,
+   "greekCol": 590,
+   "leaf": 302,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "ασθενουντας",
+    "διακρισεις",
+    "εσθιοντα"
+   ]
+  },
+  {
+   "page": 305,
+   "colOdd": 591,
+   "colEven": 592,
+   "greekCol": 591,
+   "leaf": 303,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "κατακρινειν",
+    "εσθιοντων"
+   ]
+  },
+  {
+   "page": 306,
+   "colOdd": 593,
+   "colEven": 594,
+   "greekCol": 594,
+   "leaf": 304,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "εσθιοντων",
+    "αλληλους",
+    "νηστειας"
+   ]
+  },
+  {
+   "page": 307,
+   "colOdd": 595,
+   "colEven": 596,
+   "greekCol": 595,
+   "leaf": 305,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αλληλους"
+   ]
+  },
+  {
+   "page": 308,
+   "colOdd": 597,
+   "colEven": 598,
+   "greekCol": 598,
+   "leaf": 306,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "βρωματων",
+    "ολιγοπιστον"
+   ]
+  },
+  {
+   "page": 309,
+   "colOdd": 599,
+   "colEven": 600,
+   "greekCol": 599,
+   "leaf": 307,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "απεχεσθαι",
+    "βασιλεια",
+    "βουλεται"
+   ]
+  },
+  {
+   "page": 310,
+   "colOdd": 601,
+   "colEven": 602,
+   "greekCol": 602,
+   "leaf": 308,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ολιγοπιστων"
+   ]
+  },
+  {
+   "page": 311,
+   "colOdd": 603,
+   "colEven": 604,
+   "greekCol": 604,
+   "leaf": 309,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "αινιττεται",
+    "πομπευεις",
+    "κατακρινων"
+   ]
+  },
+  {
+   "page": 312,
+   "colOdd": 605,
+   "colEven": 606,
+   "greekCol": 605,
+   "leaf": 310,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "συμμαχιαν",
+    "συνταξεως",
+    "δυναμενω"
+   ]
+  },
+  {
+   "page": 313,
+   "colOdd": 607,
+   "colEven": 608,
+   "greekCol": 608,
+   "leaf": 311,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "προφητικων",
+    "πνευματος",
+    "γνωρισθηναι"
+   ]
+  },
+  {
+   "page": 314,
+   "colOdd": 609,
+   "colEven": 610,
+   "greekCol": 609,
+   "leaf": 312,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "κηρυγματος",
+    "αποκαλυψιν",
+    "αιωνιοις"
+   ]
+  },
+  {
+   "page": 315,
+   "colOdd": 611,
+   "colEven": 612,
+   "greekCol": 612,
+   "leaf": 313,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "αρεσκειν",
+    "οικοδομησεις",
+    "ημετερου"
+   ]
+  },
+  {
+   "page": 316,
+   "colOdd": 613,
+   "colEven": 614,
+   "greekCol": 613,
+   "leaf": 314,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "αληθευσαι",
+    "συνηργησε",
+    "επαγγελιας"
+   ]
+  },
+  {
+   "page": 317,
+   "colOdd": 615,
+   "colEven": 616,
+   "greekCol": 616,
+   "leaf": 315,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "επαγγελιας",
+    "δοξαζειν",
+    "ομοθυμαδον"
+   ]
+  },
+  {
+   "page": 318,
+   "colOdd": 617,
+   "colEven": 618,
+   "greekCol": 617,
+   "leaf": 316,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 319,
+   "colOdd": 619,
+   "colEven": 620,
+   "greekCol": 620,
+   "leaf": 317,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 320,
+   "colOdd": 621,
+   "colEven": 622,
+   "greekCol": 621,
+   "leaf": 318,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ευαγγελιον",
+    "πληρωσαι"
+   ]
+  },
+  {
+   "page": 321,
+   "colOdd": 623,
+   "colEven": 624,
+   "greekCol": 624,
+   "leaf": 319,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 322,
+   "colOdd": 625,
+   "colEven": 626,
+   "greekCol": 625,
+   "leaf": 320,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πληρωσαι"
+   ]
+  },
+  {
+   "page": 323,
+   "colOdd": 627,
+   "colEven": 628,
+   "greekCol": 628,
+   "leaf": 321,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 324,
+   "colOdd": 629,
+   "colEven": 630,
+   "greekCol": 629,
+   "leaf": 322,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "μεγιστον"
+   ]
+  },
+  {
+   "page": 325,
+   "colOdd": 631,
+   "colEven": 632,
+   "greekCol": 632,
+   "leaf": 323,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 326,
+   "colOdd": 633,
+   "colEven": 634,
+   "greekCol": 633,
+   "leaf": 324,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 327,
+   "colOdd": 635,
+   "colEven": 636,
+   "greekCol": 636,
+   "leaf": 325,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 328,
+   "colOdd": 637,
+   "colEven": 638,
+   "greekCol": 637,
+   "leaf": 326,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 329,
+   "colOdd": 639,
+   "colEven": 640,
+   "greekCol": 640,
+   "leaf": 327,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 330,
+   "colOdd": 641,
+   "colEven": 642,
+   "greekCol": 641,
+   "leaf": 328,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 331,
+   "colOdd": 643,
+   "colEven": 644,
+   "greekCol": 644,
+   "leaf": 331,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "συντελων",
+    "υστερεισθαι",
+    "δευτεραν"
+   ]
+  },
+  {
+   "page": 332,
+   "colOdd": 645,
+   "colEven": 646,
+   "greekCol": 645,
+   "leaf": 332,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "μεμερισται",
+    "ποιειται",
+    "εκκλησιαν"
+   ]
+  },
+  {
+   "page": 333,
+   "colOdd": 647,
+   "colEven": 648,
+   "greekCol": 648,
+   "leaf": 333,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "αλλοτριων",
+    "ονοματων",
+    "αμαρτιων"
+   ]
+  },
+  {
+   "page": 334,
+   "colOdd": 649,
+   "colEven": 650,
+   "greekCol": 649,
+   "leaf": 334,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "σοφωτερον",
+    "ημετερον",
+    "ελαττωσιν"
+   ]
+  },
+  {
+   "page": 335,
+   "colOdd": 651,
+   "colEven": 652,
+   "greekCol": 652,
+   "leaf": 335,
+   "verified": true,
+   "tokenHits": 33,
+   "sampleHits": [
+    "δοκουντες",
+    "αγραμματων",
+    "κεκηρυκται"
+   ]
+  },
+  {
+   "page": 336,
+   "colOdd": 653,
+   "colEven": 654,
+   "greekCol": 653,
+   "leaf": 336,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "αμφοτερα",
+    "σκανδαλου",
+    "αξιοθαυμαστα"
+   ]
+  },
+  {
+   "page": 337,
+   "colOdd": 655,
+   "colEven": 656,
+   "greekCol": 656,
+   "leaf": 337,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "στερησεως",
+    "εξελεξατο",
+    "καταισχυνη"
+   ]
+  },
+  {
+   "page": 338,
+   "colOdd": 657,
+   "colEven": 658,
+   "greekCol": 657,
+   "leaf": 338,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "καυχησηται",
+    "καυχασθαι",
+    "απολυτρωσαμενον"
+   ]
+  },
+  {
+   "page": 339,
+   "colOdd": 659,
+   "colEven": 660,
+   "greekCol": 660,
+   "leaf": 339,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "ευγλωττιας",
+    "ασθενεια",
+    "αποδειξει"
+   ]
+  },
+  {
+   "page": 340,
+   "colOdd": 661,
+   "colEven": 662,
+   "greekCol": 661,
+   "leaf": 340,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "τουτεστιν",
+    "ανθρωπινα",
+    "καταργουνται"
+   ]
+  },
+  {
+   "page": 341,
+   "colOdd": 663,
+   "colEven": 664,
+   "greekCol": 664,
+   "leaf": 341,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "ητοιμασεν",
+    "ητοιμασε",
+    "αγαπωσιν"
+   ]
+  },
+  {
+   "page": 342,
+   "colOdd": 665,
+   "colEven": 666,
+   "greekCol": 665,
+   "leaf": 342,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "διδακτοις",
+    "πνευματος",
+    "ανθρωπινης"
+   ]
+  },
+  {
+   "page": 343,
+   "colOdd": 667,
+   "colEven": 668,
+   "greekCol": 668,
+   "leaf": 343,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "διεγειρουσης",
+    "πνευματικων",
+    "κυριακαι"
+   ]
+  },
+  {
+   "page": 344,
+   "colOdd": 669,
+   "colEven": 670,
+   "greekCol": 669,
+   "leaf": 344,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "βουλεται",
+    "αξιοπιστιας",
+    "επιστωσατο"
+   ]
+  },
+  {
+   "page": 345,
+   "colOdd": 671,
+   "colEven": 672,
+   "greekCol": 672,
+   "leaf": 345,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "διακονους",
+    "αυξανοντος",
+    "ποιειται"
+   ]
+  },
+  {
+   "page": 346,
+   "colOdd": 673,
+   "colEven": 674,
+   "greekCol": 673,
+   "leaf": 346,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "δυνασθαι",
+    "αυξανοντος",
+    "δοθεισαν"
+   ]
+  },
+  {
+   "page": 347,
+   "colOdd": 675,
+   "colEven": 676,
+   "greekCol": 676,
+   "leaf": 347,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "λαμπροτερους",
+    "προσηκοντα",
+    "εισπραχθησεται"
+   ]
+  },
+  {
+   "page": 348,
+   "colOdd": 677,
+   "colEven": 678,
+   "greekCol": 677,
+   "leaf": 348,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "πραττεσθαι",
+    "συναναιρειται",
+    "ερμηνευων"
+   ]
+  },
+  {
+   "page": 349,
+   "colOdd": 679,
+   "colEven": 680,
+   "greekCol": 680,
+   "leaf": 349,
+   "verified": true,
+   "tokenHits": 35,
+   "sampleHits": [
+    "συντελει",
+    "αληθινην",
+    "απαξιουν"
+   ]
+  },
+  {
+   "page": 350,
+   "colOdd": 681,
+   "colEven": 682,
+   "greekCol": 681,
+   "leaf": 350,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "διδασκαλους",
+    "χαρισματα",
+    "διδασκαλοι"
+   ]
+  },
+  {
+   "page": 351,
+   "colOdd": 683,
+   "colEven": 684,
+   "greekCol": 684,
+   "leaf": 351,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ελαχιστον",
+    "κηρυγματι",
+    "επολυπραγμονουν"
+   ]
+  },
+  {
+   "page": 352,
+   "colOdd": 685,
+   "colEven": 686,
+   "greekCol": 685,
+   "leaf": 352,
+   "verified": true,
+   "tokenHits": 34,
+   "sampleHits": [
+    "γενησεται",
+    "αδελφους",
+    "παραινει"
+   ]
+  },
+  {
+   "page": 353,
+   "colOdd": 687,
+   "colEven": 688,
+   "greekCol": 688,
+   "leaf": 353,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "διδασκαλων",
+    "διδασκαλον",
+    "εφυσιουτο"
+   ]
+  },
+  {
+   "page": 354,
+   "colOdd": 689,
+   "colEven": 690,
+   "greekCol": 689,
+   "leaf": 354,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "εβασιλευσατε",
+    "αποφανσιν",
+    "εσχατους"
+   ]
+  },
+  {
+   "page": 355,
+   "colOdd": 691,
+   "colEven": 692,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 356,
+   "colOdd": 693,
+   "colEven": 694,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 357,
+   "colOdd": 695,
+   "colEven": 696,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 358,
+   "colOdd": 697,
+   "colEven": 698,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 359,
+   "colOdd": 699,
+   "colEven": 700,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 360,
+   "colOdd": 701,
+   "colEven": 702,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 361,
+   "colOdd": 703,
+   "colEven": 704,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 362,
+   "colOdd": 705,
+   "colEven": 706,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 363,
+   "colOdd": 707,
+   "colEven": 708,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 364,
+   "colOdd": 709,
+   "colEven": 710,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 365,
+   "colOdd": 711,
+   "colEven": 712,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 366,
+   "colOdd": 713,
+   "colEven": 714,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 367,
+   "colOdd": 715,
+   "colEven": 716,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 368,
+   "colOdd": 717,
+   "colEven": 718,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 369,
+   "colOdd": 719,
+   "colEven": 720,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 370,
+   "colOdd": 721,
+   "colEven": 722,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 371,
+   "colOdd": 723,
+   "colEven": 724,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 372,
+   "colOdd": 725,
+   "colEven": 726,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 373,
+   "colOdd": 727,
+   "colEven": 728,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 374,
+   "colOdd": 729,
+   "colEven": 730,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 375,
+   "colOdd": 731,
+   "colEven": 732,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 376,
+   "colOdd": 733,
+   "colEven": 734,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 377,
+   "colOdd": 735,
+   "colEven": 736,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 378,
+   "colOdd": 737,
+   "colEven": 738,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 379,
+   "colOdd": 739,
+   "colEven": 740,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 380,
+   "colOdd": 741,
+   "colEven": 742,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 381,
+   "colOdd": 743,
+   "colEven": 744,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 382,
+   "colOdd": 745,
+   "colEven": 746,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 383,
+   "colOdd": 747,
+   "colEven": 748,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 384,
+   "colOdd": 749,
+   "colEven": 750,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 385,
+   "colOdd": 751,
+   "colEven": 752,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 386,
+   "colOdd": 753,
+   "colEven": 754,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 387,
+   "colOdd": 755,
+   "colEven": 756,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 388,
+   "colOdd": 757,
+   "colEven": 758,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 389,
+   "colOdd": 759,
+   "colEven": 760,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 390,
+   "colOdd": 761,
+   "colEven": 762,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 391,
+   "colOdd": 763,
+   "colEven": 764,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 392,
+   "colOdd": 765,
+   "colEven": 766,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 393,
+   "colOdd": 767,
+   "colEven": 768,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 394,
+   "colOdd": 769,
+   "colEven": 770,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 395,
+   "colOdd": 771,
+   "colEven": 772,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 396,
+   "colOdd": 773,
+   "colEven": 774,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 397,
+   "colOdd": 775,
+   "colEven": 776,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 398,
+   "colOdd": 777,
+   "colEven": 778,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 399,
+   "colOdd": 779,
+   "colEven": 780,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 400,
+   "colOdd": 781,
+   "colEven": 782,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 401,
+   "colOdd": 783,
+   "colEven": 784,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 402,
+   "colOdd": 785,
+   "colEven": 786,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 403,
+   "colOdd": 787,
+   "colEven": 788,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 404,
+   "colOdd": 789,
+   "colEven": 790,
+   "greekCol": 789,
+   "leaf": 406,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "συνειδησιν",
+    "μηνυσαντος",
+    "σκανδαλισθησεται"
+   ]
+  },
+  {
+   "page": 405,
+   "colOdd": 791,
+   "colEven": 792,
+   "greekCol": 792,
+   "leaf": 407,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "ελευθεριον",
+    "απαραιτητον",
+    "ελευθερον"
+   ]
+  },
+  {
+   "page": 406,
+   "colOdd": 793,
+   "colEven": 794,
+   "greekCol": 793,
+   "leaf": 408,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "κερδησωσιν",
+    "δεικνυσιν",
+    "εσπουδασεν"
+   ]
+  },
+  {
+   "page": 407,
+   "colOdd": 795,
+   "colEven": 796,
+   "greekCol": 796,
+   "leaf": 409,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "ομοουσιος",
+    "αρμοδιος",
+    "δημιουργιας"
+   ]
+  },
+  {
+   "page": 408,
+   "colOdd": 797,
+   "colEven": 798,
+   "greekCol": 797,
+   "leaf": 410,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "εξουσιαν",
+    "τουτεστιν",
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 409,
+   "colOdd": 799,
+   "colEven": 800,
+   "greekCol": 800,
+   "leaf": 411,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "κυριοτητος",
+    "ενδεικτικον",
+    "οφειλειν"
+   ]
+  },
+  {
+   "page": 410,
+   "colOdd": 801,
+   "colEven": 802,
+   "greekCol": 801,
+   "leaf": 412,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "οφειλειν",
+    "εθελοσοφους",
+    "συλλογισμων"
+   ]
+  },
+  {
+   "page": 411,
+   "colOdd": 803,
+   "colEven": 804,
+   "greekCol": 804,
+   "leaf": 413,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "πλουσιοι",
+    "πραγματων",
+    "αιρεσεις"
+   ]
+  },
+  {
+   "page": 412,
+   "colOdd": 805,
+   "colEven": 806,
+   "greekCol": 805,
+   "leaf": 414,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "παραλογως",
+    "αρχομενος",
+    "υποθεσεως"
+   ]
+  },
+  {
+   "page": 413,
+   "colOdd": 807,
+   "colEven": 808,
+   "greekCol": 808,
+   "leaf": 415,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "καταγγελλετε",
+    "ανθρωπος",
+    "ποτηριου"
+   ]
+  },
+  {
+   "page": 414,
+   "colOdd": 809,
+   "colEven": 810,
+   "greekCol": 809,
+   "leaf": 416,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "διακρινων",
+    "ασθενεις",
+    "αρρωστοι"
+   ]
+  },
+  {
+   "page": 415,
+   "colOdd": 811,
+   "colEven": 812,
+   "greekCol": 812,
+   "leaf": 417,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "γαστριμαργιας",
+    "παιδιοις",
+    "εκκλησιας"
+   ]
+  },
+  {
+   "page": 416,
+   "colOdd": 813,
+   "colEven": 814,
+   "greekCol": 813,
+   "leaf": 418,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "βλασφημον",
+    "απαισιον",
+    "θεολογουσιν"
+   ]
+  },
+  {
+   "page": 417,
+   "colOdd": 815,
+   "colEven": 816,
+   "greekCol": 816,
+   "leaf": 419,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "χαρισματα",
+    "πραττειν",
+    "ενεργουντι"
+   ]
+  },
+  {
+   "page": 418,
+   "colOdd": 817,
+   "colEven": 818,
+   "greekCol": 817,
+   "leaf": 420,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "διαιρειται",
+    "συναπτεται",
+    "γρηγοριος"
+   ]
+  },
+  {
+   "page": 419,
+   "colOdd": 819,
+   "colEven": 820,
+   "greekCol": 820,
+   "leaf": 421,
+   "verified": true,
+   "tokenHits": 11,
+   "sampleHits": [
+    "ανθρωπους",
+    "ενομιζον",
+    "κορινθιοι"
+   ]
+  },
+  {
+   "page": 420,
+   "colOdd": 821,
+   "colEven": 822,
+   "greekCol": 821,
+   "leaf": 422,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "πνευματος",
+    "εποτισθημεν",
+    "τοσουτοι"
+   ]
+  },
+  {
+   "page": 421,
+   "colOdd": 823,
+   "colEven": 824,
+   "greekCol": 824,
+   "leaf": 423,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "οφθαλμος",
+    "δοκουντα",
+    "ασθενεστερα"
+   ]
+  },
+  {
+   "page": 422,
+   "colOdd": 825,
+   "colEven": 826,
+   "greekCol": 825,
+   "leaf": 424,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "εχρησαντο",
+    "αποχωρειν",
+    "ακολουθων"
+   ]
+  },
+  {
+   "page": 423,
+   "colOdd": 827,
+   "colEven": 828,
+   "greekCol": 828,
+   "leaf": 425,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "μεριμνωσι",
+    "συγχαιρει",
+    "ατιμοτερους"
+   ]
+  },
+  {
+   "page": 424,
+   "colOdd": 829,
+   "colEven": 830,
+   "greekCol": 829,
+   "leaf": 426,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "απανταχου",
+    "δεικνυσι",
+    "κατεσπαρμενον"
+   ]
+  },
+  {
+   "page": 425,
+   "colOdd": 831,
+   "colEven": 832,
+   "greekCol": 832,
+   "leaf": 427,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "ραθυμιαν",
+    "αποφανσιν",
+    "πολλακις"
+   ]
+  },
+  {
+   "page": 426,
+   "colOdd": 833,
+   "colEven": 834,
+   "greekCol": 833,
+   "leaf": 428,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "γλωσσαις",
+    "ανθρωπων",
+    "προφητειας"
+   ]
+  },
+  {
+   "page": 427,
+   "colOdd": 835,
+   "colEven": 836,
+   "greekCol": 836,
+   "leaf": 429,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "ασχημοσυνην",
+    "αδικουσι",
+    "ταπεινων"
+   ]
+  },
+  {
+   "page": 428,
+   "colOdd": 837,
+   "colEven": 838,
+   "greekCol": 837,
+   "leaf": 430,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "βλεπομεν",
+    "εσοπτρου",
+    "προσωπον"
+   ]
+  },
+  {
+   "page": 429,
+   "colOdd": 839,
+   "colEven": 840,
+   "greekCol": 840,
+   "leaf": 431,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "ανθρωποις",
+    "παρακλησιν",
+    "προφητειαι"
+   ]
+  },
+  {
+   "page": 430,
+   "colOdd": 841,
+   "colEven": 842,
+   "greekCol": 841,
+   "leaf": 432,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "τοσουτον",
+    "ειρηκεναι",
+    "βαλλοντα"
+   ]
+  },
+  {
+   "page": 431,
+   "colOdd": 843,
+   "colEven": 844,
+   "greekCol": 844,
+   "leaf": 433,
+   "verified": true,
+   "tokenHits": 9,
+   "sampleHits": [
+    "γλωσσαις",
+    "λαλουντι",
+    "τουτεστιν"
+   ]
+  },
+  {
+   "page": 432,
+   "colOdd": 845,
+   "colEven": 846,
+   "greekCol": 845,
+   "leaf": 434,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ανωφελες",
+    "ωφεληται",
+    "ερμηνειας"
+   ]
+  },
+  {
+   "page": 433,
+   "colOdd": 847,
+   "colEven": 848,
+   "greekCol": 848,
+   "leaf": 435,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "εκκλησιας",
+    "οικοδομη",
+    "τουτεστιν"
+   ]
+  },
+  {
+   "page": 434,
+   "colOdd": 849,
+   "colEven": 850,
+   "greekCol": 849,
+   "leaf": 436,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "σπουδαιων",
+    "προσευχης",
+    "επεμεινε"
+   ]
+  },
+  {
+   "page": 435,
+   "colOdd": 851,
+   "colEven": 852,
+   "greekCol": 852,
+   "leaf": 437,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ωφελειαν",
+    "διδασκαλιας",
+    "αγνοουσι"
+   ]
+  },
+  {
+   "page": 436,
+   "colOdd": 853,
+   "colEven": 854,
+   "greekCol": 853,
+   "leaf": 438,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "απιστοις",
+    "απαλλαξη",
+    "εισακουσονται"
+   ]
+  },
+  {
+   "page": 437,
+   "colOdd": 855,
+   "colEven": 856,
+   "greekCol": 856,
+   "leaf": 439,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "προσκυνει",
+    "αναισχυντους",
+    "αποκαλυψιν"
+   ]
+  },
+  {
+   "page": 438,
+   "colOdd": 857,
+   "colEven": 858,
+   "greekCol": 857,
+   "leaf": 440,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "λεχθηναι",
+    "παραμυθειται",
+    "τουτεστιν"
+   ]
+  },
+  {
+   "page": 439,
+   "colOdd": 859,
+   "colEven": 860,
+   "greekCol": 860,
+   "leaf": 441,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "γυναιξιν",
+    "γυναικες",
+    "αντιλεγοντας"
+   ]
+  },
+  {
+   "page": 440,
+   "colOdd": 861,
+   "colEven": 862,
+   "greekCol": 861,
+   "leaf": 442,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "ποικιλων",
+    "αναισχυντοτερους",
+    "σαφηνειαν"
+   ]
+  },
+  {
+   "page": 441,
+   "colOdd": 863,
+   "colEven": 864,
+   "greekCol": 864,
+   "leaf": 443,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "ευαγγελιον",
+    "θεσπεσιου",
+    "αναληψιν"
+   ]
+  },
+  {
+   "page": 442,
+   "colOdd": 865,
+   "colEven": 866,
+   "greekCol": 865,
+   "leaf": 444,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "εκκλησιαν",
+    "υποστολης",
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 443,
+   "colOdd": 867,
+   "colEven": 868,
+   "greekCol": 868,
+   "leaf": 445,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "αναστασιν",
+    "συκοφαντειν",
+    "αμαρτιαις"
+   ]
+  },
+  {
+   "page": 444,
+   "colOdd": 869,
+   "colEven": 870,
+   "greekCol": 869,
+   "leaf": 446,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "ανθρωπου",
+    "ειρημενω",
+    "ανθρωπινην"
+   ]
+  },
+  {
+   "page": 445,
+   "colOdd": 871,
+   "colEven": 872,
+   "greekCol": 872,
+   "leaf": 447,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "ταλαιπωρεισθαι",
+    "αναστασιν",
+    "ειρημενων"
+   ]
+  },
+  {
+   "page": 446,
+   "colOdd": 873,
+   "colEven": 874,
+   "greekCol": 873,
+   "leaf": 448,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "υπεταξεν",
+    "υποταξαντι",
+    "βασιλευειν"
+   ]
+  },
+  {
+   "page": 447,
+   "colOdd": 875,
+   "colEven": 876,
+   "greekCol": 876,
+   "leaf": 449,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "θεοπρεπως",
+    "επληρωσε",
+    "πατρικον"
+   ]
+  },
+  {
+   "page": 448,
+   "colOdd": 877,
+   "colEven": 878,
+   "greekCol": 877,
+   "leaf": 450,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "ποιησουσιν",
+    "τοιαυταις",
+    "βαπτιζονται"
+   ]
+  },
+  {
+   "page": 449,
+   "colOdd": 879,
+   "colEven": 880,
+   "greekCol": 880,
+   "leaf": 451,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "εντροπην",
+    "εγειρονται",
+    "σπειρεις"
+   ]
+  },
+  {
+   "page": 450,
+   "colOdd": 881,
+   "colEven": 882,
+   "greekCol": 881,
+   "leaf": 452,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "διαλυθεντες",
+    "εγειρονται",
+    "λαμπροτερον"
+   ]
+  },
+  {
+   "page": 451,
+   "colOdd": 883,
+   "colEven": 884,
+   "greekCol": 884,
+   "leaf": 453,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "επιγειων",
+    "εμπροσθεν",
+    "συγκρισει"
+   ]
+  },
+  {
+   "page": 452,
+   "colOdd": 885,
+   "colEven": 886,
+   "greekCol": 885,
+   "leaf": 454,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ψυχικοις",
+    "σωματικαι",
+    "ανθρωπου"
+   ]
+  },
+  {
+   "page": 453,
+   "colOdd": 887,
+   "colEven": 888,
+   "greekCol": 888,
+   "leaf": 455,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "πνευματικον",
+    "πνευματικον",
+    "αφθαρσιας"
+   ]
+  },
+  {
+   "page": 454,
+   "colOdd": 889,
+   "colEven": 890,
+   "greekCol": 889,
+   "leaf": 456,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 455,
+   "colOdd": 891,
+   "colEven": 892,
+   "greekCol": 892,
+   "leaf": 461,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αθανασιαν"
+   ]
+  },
+  {
+   "page": 456,
+   "colOdd": 893,
+   "colEven": 894,
+   "greekCol": 893,
+   "leaf": 462,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 457,
+   "colOdd": 895,
+   "colEven": 896,
+   "greekCol": 896,
+   "leaf": 463,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 458,
+   "colOdd": 897,
+   "colEven": 898,
+   "greekCol": 897,
+   "leaf": 464,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 459,
+   "colOdd": 899,
+   "colEven": 900,
+   "greekCol": 900,
+   "leaf": 465,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 460,
+   "colOdd": 901,
+   "colEven": 902,
+   "greekCol": 901,
+   "leaf": 466,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 461,
+   "colOdd": 903,
+   "colEven": 904,
+   "greekCol": 904,
+   "leaf": 467,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "κορινθιους"
+   ]
+  },
+  {
+   "page": 462,
+   "colOdd": 905,
+   "colEven": 906,
+   "greekCol": 905,
+   "leaf": 468,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "δεσποτης",
+    "κορινθιους"
+   ]
+  },
+  {
+   "page": 463,
+   "colOdd": 907,
+   "colEven": 908,
+   "greekCol": 908,
+   "leaf": 469,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "γραμματα",
+    "διανοιαν",
+    "ελθοντος"
+   ]
+  },
+  {
+   "page": 464,
+   "colOdd": 909,
+   "colEven": 910,
+   "greekCol": 909,
+   "leaf": 470,
+   "verified": true,
+   "tokenHits": 12,
+   "sampleHits": [
+    "προθεσεως",
+    "επιπλαστοις",
+    "προστιθεσθαι"
+   ]
+  },
+  {
+   "page": 465,
+   "colOdd": 911,
+   "colEven": 912,
+   "greekCol": 912,
+   "leaf": 471,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "επιστολη",
+    "παρεκαλεσεν",
+    "ονομαζειν"
+   ]
+  },
+  {
+   "page": 466,
+   "colOdd": 913,
+   "colEven": 914,
+   "greekCol": 913,
+   "leaf": 472,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "πειρασμοι",
+    "περισσευουσιν",
+    "στεφανους"
+   ]
+  },
+  {
+   "page": 467,
+   "colOdd": 915,
+   "colEven": 916,
+   "greekCol": 916,
+   "leaf": 473,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "γενομενης",
+    "αποκριμα",
+    "πεποιθοτες"
+   ]
+  },
+  {
+   "page": 468,
+   "colOdd": 917,
+   "colEven": 918,
+   "greekCol": 917,
+   "leaf": 474,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "απεγνωμεν",
+    "απολογια",
+    "σωζεσθαι"
+   ]
+  },
+  {
+   "page": 469,
+   "colOdd": 919,
+   "colEven": 920,
+   "greekCol": 920,
+   "leaf": 475,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "συνεργιαν",
+    "διδασκοντος",
+    "υμετερων"
+   ]
+  },
+  {
+   "page": 470,
+   "colOdd": 921,
+   "colEven": 922,
+   "greekCol": 921,
+   "leaf": 476,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "συνειδησεως",
+    "απλοτητι",
+    "ανεστραφημεν"
+   ]
+  },
+  {
+   "page": 471,
+   "colOdd": 923,
+   "colEven": 924,
+   "greekCol": 924,
+   "leaf": 477,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "ευρησετε",
+    "τοιουτοι",
+    "τοιουτων"
+   ]
+  },
+  {
+   "page": 472,
+   "colOdd": 925,
+   "colEven": 926,
+   "greekCol": 925,
+   "leaf": 478,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "πνευματος",
+    "πνευματι",
+    "πανταχου"
+   ]
+  },
+  {
+   "page": 473,
+   "colOdd": 927,
+   "colEven": 928,
+   "greekCol": 928,
+   "leaf": 479,
+   "verified": true,
+   "tokenHits": 25,
+   "sampleHits": [
+    "επαγγελτων",
+    "ανακυπτει",
+    "βουλευομενων"
+   ]
+  },
+  {
+   "page": 474,
+   "colOdd": 929,
+   "colEven": 930,
+   "greekCol": 929,
+   "leaf": 480,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "πολλακις",
+    "σιλουανου",
+    "επαγγελιαι"
+   ]
+  },
+  {
+   "page": 475,
+   "colOdd": 931,
+   "colEven": 932,
+   "greekCol": 932,
+   "leaf": 481,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "πνευματος",
+    "επικαλουμαι",
+    "πληρουνται"
+   ]
+  },
+  {
+   "page": 476,
+   "colOdd": 933,
+   "colEven": 934,
+   "greekCol": 933,
+   "leaf": 482,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "προσωπων",
+    "φειδομενος",
+    "εξουσιαν"
+   ]
+  },
+  {
+   "page": 477,
+   "colOdd": 935,
+   "colEven": 936,
+   "greekCol": 936,
+   "leaf": 483,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "ευφραινων",
+    "πεποιθως",
+    "δεικνυσιν"
+   ]
+  },
+  {
+   "page": 478,
+   "colOdd": 937,
+   "colEven": 938,
+   "greekCol": 937,
+   "leaf": 484,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "εκκλησιας",
+    "κοινωνησαν",
+    "κορινθιων"
+   ]
+  },
+  {
+   "page": 479,
+   "colOdd": 939,
+   "colEven": 940,
+   "greekCol": 940,
+   "leaf": 485,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "δεξασθαι",
+    "σωτηριαν",
+    "απολυειν"
+   ]
+  },
+  {
+   "page": 480,
+   "colOdd": 941,
+   "colEven": 942,
+   "greekCol": 941,
+   "leaf": 486,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "παρειναι",
+    "κορινθιοις",
+    "συμφερον"
+   ]
+  },
+  {
+   "page": 481,
+   "colOdd": 943,
+   "colEven": 944,
+   "greekCol": 944,
+   "leaf": 487,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "τοιγαρουν",
+    "απολλυται",
+    "ευαγγελιον"
+   ]
+  },
+  {
+   "page": 482,
+   "colOdd": 945,
+   "colEven": 946,
+   "greekCol": 945,
+   "leaf": 488,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "συνιστανειν",
+    "χρηζομεν",
+    "συστατικων"
+   ]
+  },
+  {
+   "page": 483,
+   "colOdd": 947,
+   "colEven": 948,
+   "greekCol": 948,
+   "leaf": 489,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "αποστολους",
+    "πραγματα",
+    "πεποιθαμεν"
+   ]
+  },
+  {
+   "page": 484,
+   "colOdd": 949,
+   "colEven": 950,
+   "greekCol": 949,
+   "leaf": 490,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "γραμματα",
+    "διακονουντες",
+    "πλειονος"
+   ]
+  },
+  {
+   "page": 485,
+   "colOdd": 951,
+   "colEven": 952,
+   "greekCol": 952,
+   "leaf": 491,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "συγκρισεως",
+    "τουτεστιν",
+    "παυεσθαι"
+   ]
+  },
+  {
+   "page": 486,
+   "colOdd": 953,
+   "colEven": 954,
+   "greekCol": 953,
+   "leaf": 492,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "δυνανται",
+    "καταργειται",
+    "πανοτιουν"
+   ]
+  },
+  {
+   "page": 487,
+   "colOdd": 955,
+   "colEven": 956,
+   "greekCol": 956,
+   "leaf": 493,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "περιηρειτο",
+    "πιστευσουσι",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 488,
+   "colOdd": 957,
+   "colEven": 958,
+   "greekCol": 957,
+   "leaf": 494,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "γενεσθαι",
+    "τουτεστι",
+    "φανερουμενα"
+   ]
+  },
+  {
+   "page": 489,
+   "colOdd": 959,
+   "colEven": 960,
+   "greekCol": 960,
+   "leaf": 495,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "συνειδησιν",
+    "ανθρωπων",
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 490,
+   "colOdd": 961,
+   "colEven": 962,
+   "greekCol": 961,
+   "leaf": 496,
+   "verified": true,
+   "tokenHits": 15,
+   "sampleHits": [
+    "εσοπτρου",
+    "πνευματος",
+    "ευαγγελιου"
+   ]
+  },
+  {
+   "page": 491,
+   "colOdd": 963,
+   "colEven": 964,
+   "greekCol": 964,
+   "leaf": 497,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "ασθενειας",
+    "οστρακινοις",
+    "δυναμεως"
+   ]
+  },
+  {
+   "page": 492,
+   "colOdd": 965,
+   "colEven": 966,
+   "greekCol": 965,
+   "leaf": 498,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "ενεργηση",
+    "μελλοντι",
+    "ενεργειν"
+   ]
+  },
+  {
+   "page": 493,
+   "colOdd": 967,
+   "colEven": 968,
+   "greekCol": 968,
+   "leaf": 499,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "κατεργαζεται",
+    "βλεπομενα",
+    "καθαρρειν"
+   ]
+  },
+  {
+   "page": 494,
+   "colOdd": 969,
+   "colEven": 970,
+   "greekCol": 969,
+   "leaf": 500,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "επιγειον",
+    "αχειροποιητον",
+    "ουρανοις"
+   ]
+  },
+  {
+   "page": 495,
+   "colOdd": 971,
+   "colEven": 972,
+   "greekCol": 972,
+   "leaf": 501,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "ενδημουντες",
+    "ευδοκουμεν",
+    "ευαρεστοι"
+   ]
+  },
+  {
+   "page": 496,
+   "colOdd": 973,
+   "colEven": 974,
+   "greekCol": 973,
+   "leaf": 502,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "ανθρωπους",
+    "αναμνησας",
+    "χρηστοτερα"
+   ]
+  },
+  {
+   "page": 497,
+   "colOdd": 975,
+   "colEven": 976,
+   "greekCol": 976,
+   "leaf": 503,
+   "verified": true,
+   "tokenHits": 16,
+   "sampleHits": [
+    "φιλοτιμιαν",
+    "προσωπειον",
+    "ευτελεις"
+   ]
+  },
+  {
+   "page": 498,
+   "colOdd": 977,
+   "colEven": 978,
+   "greekCol": 977,
+   "leaf": 504,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "επιοντων",
+    "καταφρονησητε",
+    "σπουδαζειν"
+   ]
+  },
+  {
+   "page": 499,
+   "colOdd": 979,
+   "colEven": 980,
+   "greekCol": 980,
+   "leaf": 505,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "σαρκινοι",
+    "βασιλεια",
+    "ονοματος"
+   ]
+  },
+  {
+   "page": 500,
+   "colOdd": 981,
+   "colEven": 982,
+   "greekCol": 981,
+   "leaf": 506,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "αυτοδικαιοσυνην",
+    "αμαρτιαν",
+    "αμαρτωλον"
+   ]
+  },
+  {
+   "page": 501,
+   "colOdd": 983,
+   "colEven": 984,
+   "greekCol": 984,
+   "leaf": 507,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "συνεργουντες",
+    "διηγησεως",
+    "απευθυνω"
+   ]
+  },
+  {
+   "page": 502,
+   "colOdd": 985,
+   "colEven": 986,
+   "greekCol": 985,
+   "leaf": 508,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "αγνωστους",
+    "χρηματων",
+    "αναγκαιας"
+   ]
+  },
+  {
+   "page": 503,
+   "colOdd": 987,
+   "colEven": 988,
+   "greekCol": 988,
+   "leaf": 509,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "ποιουσας",
+    "ουκουμενη",
+    "οφθαλμους"
+   ]
+  },
+  {
+   "page": 504,
+   "colOdd": 989,
+   "colEven": 990,
+   "greekCol": 989,
+   "leaf": 510,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "αφωρισμενους",
+    "εισδεξεται",
+    "ενοικησει"
+   ]
+  },
+  {
+   "page": 505,
+   "colOdd": 991,
+   "colEven": 992,
+   "greekCol": 992,
+   "leaf": 511,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "αποστατην",
+    "δικαιοις",
+    "διακονοις"
+   ]
+  },
+  {
+   "page": 506,
+   "colOdd": 993,
+   "colEven": 994,
+   "greekCol": 993,
+   "leaf": 512,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "σωφροσυνη",
+    "καθαροτης",
+    "ανθρωπαρεσκιαν"
+   ]
+  },
+  {
+   "page": 507,
+   "colOdd": 995,
+   "colEven": 996,
+   "greekCol": 996,
+   "leaf": 513,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "πεποιθεναι",
+    "πεπληρωμαι",
+    "ωφελειαν"
+   ]
+  },
+  {
+   "page": 508,
+   "colOdd": 997,
+   "colEven": 998,
+   "greekCol": 997,
+   "leaf": 514,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "παρακλησιν",
+    "αναγγελλων",
+    "εποθειτε"
+   ]
+  },
+  {
+   "page": 509,
+   "colOdd": 999,
+   "colEven": 1000,
+   "greekCol": 1000,
+   "leaf": 515,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "ποιουντες",
+    "θεραπουσιν",
+    "περιοραν"
+   ]
+  },
+  {
+   "page": 510,
+   "colOdd": 1001,
+   "colEven": 1002,
+   "greekCol": 1001,
+   "leaf": 516,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "μετανοιαν",
+    "δειξοιτε",
+    "εναντιον"
+   ]
+  },
+  {
+   "page": 511,
+   "colOdd": 1003,
+   "colEven": 1004,
+   "greekCol": 1004,
+   "leaf": 517,
+   "verified": true,
+   "tokenHits": 24,
+   "sampleHits": [
+    "ασφαλιζομενος",
+    "αγαπητικωτερον",
+    "πρωτοτυπως"
+   ]
+  },
+  {
+   "page": 512,
+   "colOdd": 1005,
+   "colEven": 1006,
+   "greekCol": 1005,
+   "leaf": 518,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "καυχησις",
+    "αληθειαν",
+    "τοσουτον"
+   ]
+  },
+  {
+   "page": 513,
+   "colOdd": 1007,
+   "colEven": 1008,
+   "greekCol": 1008,
+   "leaf": 519,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "ειργασατο",
+    "βουλεται",
+    "ελεημοσυνης"
+   ]
+  },
+  {
+   "page": 514,
+   "colOdd": 1009,
+   "colEven": 1010,
+   "greekCol": 1009,
+   "leaf": 520,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "δεομενοι",
+    "τοσουτον",
+    "ελεημοσυνην"
+   ]
+  },
+  {
+   "page": 515,
+   "colOdd": 1011,
+   "colEven": 1012,
+   "greekCol": 1012,
+   "leaf": 521,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "επιταγην",
+    "υμετερας",
+    "περιουσιας"
+   ]
+  },
+  {
+   "page": 516,
+   "colOdd": 1013,
+   "colEven": 1014,
+   "greekCol": 1013,
+   "leaf": 522,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "εκουσιως",
+    "πληρωσατε",
+    "βουλεται"
+   ]
+  },
+  {
+   "page": 517,
+   "colOdd": 1015,
+   "colEven": 1016,
+   "greekCol": 1016,
+   "leaf": 523,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "παρρησιαν",
+    "μαρτυριας",
+    "επαινετον"
+   ]
+  },
+  {
+   "page": 518,
+   "colOdd": 1017,
+   "colEven": 1018,
+   "greekCol": 1017,
+   "leaf": 524,
+   "verified": true,
+   "tokenHits": 29,
+   "sampleHits": [
+    "ευαγγελιω",
+    "θαυμασιως",
+    "χειροτονηθεις"
+   ]
+  },
+  {
+   "page": 519,
+   "colOdd": 1019,
+   "colEven": 1020,
+   "greekCol": 1020,
+   "leaf": 525,
+   "verified": true,
+   "tokenHits": 36,
+   "sampleHits": [
+    "συνειδοτος",
+    "οιμωζετω",
+    "ασφαλειαν"
+   ]
+  },
+  {
+   "page": 520,
+   "colOdd": 1021,
+   "colEven": 1022,
+   "greekCol": 1021,
+   "leaf": 526,
+   "verified": true,
+   "tokenHits": 22,
+   "sampleHits": [
+    "τοιγαρουν",
+    "ανθρωπος",
+    "θαρρουντος"
+   ]
+  },
+  {
+   "page": 521,
+   "colOdd": 1023,
+   "colEven": 1024,
+   "greekCol": 1024,
+   "leaf": 527,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 522,
+   "colOdd": 1025,
+   "colEven": 1026,
+   "greekCol": 1025,
+   "leaf": 528,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ελεημοσυνης"
+   ]
+  },
+  {
+   "page": 523,
+   "colOdd": 1027,
+   "colEven": 1028,
+   "greekCol": 1028,
+   "leaf": 529,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "ελεημοσυνης",
+    "δαψιλειας",
+    "δαψιλειαν"
+   ]
+  },
+  {
+   "page": 524,
+   "colOdd": 1029,
+   "colEven": 1030,
+   "greekCol": 1029,
+   "leaf": 530,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "πνευματικη",
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 525,
+   "colOdd": 1031,
+   "colEven": 1032,
+   "greekCol": 1032,
+   "leaf": 531,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "προσωπον"
+   ]
+  },
+  {
+   "page": 526,
+   "colOdd": 1033,
+   "colEven": 1034,
+   "greekCol": 1033,
+   "leaf": 532,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "παρουσια",
+    "επιστολαι",
+    "καθαιρεσιν"
+   ]
+  },
+  {
+   "page": 527,
+   "colOdd": 1035,
+   "colEven": 1036,
+   "greekCol": 1036,
+   "leaf": 533,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 528,
+   "colOdd": 1037,
+   "colEven": 1038,
+   "greekCol": 1037,
+   "leaf": 534,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "τολμωμεν",
+    "εμερισεν"
+   ]
+  },
+  {
+   "page": 529,
+   "colOdd": 1039,
+   "colEven": 1040,
+   "greekCol": 1040,
+   "leaf": 535,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ψευδαποστολοι"
+   ]
+  },
+  {
+   "page": 530,
+   "colOdd": 1041,
+   "colEven": 1042,
+   "greekCol": 1041,
+   "leaf": 536,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 531,
+   "colOdd": 1043,
+   "colEven": 1044,
+   "greekCol": 1044,
+   "leaf": 537,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 532,
+   "colOdd": 1045,
+   "colEven": 1046,
+   "greekCol": 1045,
+   "leaf": 538,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "δεικνυσι",
+    "δεικνυσι"
+   ]
+  },
+  {
+   "page": 533,
+   "colOdd": 1047,
+   "colEven": 1048,
+   "greekCol": 1048,
+   "leaf": 539,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ψευδαποστολους",
+    "ελεγχοντος"
+   ]
+  },
+  {
+   "page": 534,
+   "colOdd": 1049,
+   "colEven": 1050,
+   "greekCol": 1049,
+   "leaf": 540,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ψευδαποστολοι",
+    "δεικνυσιν"
+   ]
+  },
+  {
+   "page": 535,
+   "colOdd": 1051,
+   "colEven": 1052,
+   "greekCol": 1052,
+   "leaf": 541,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 536,
+   "colOdd": 1053,
+   "colEven": 1054,
+   "greekCol": 1053,
+   "leaf": 542,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "δεικνυσιν",
+    "ευρεθωσιν"
+   ]
+  },
+  {
+   "page": 537,
+   "colOdd": 1055,
+   "colEven": 1056,
+   "greekCol": 1056,
+   "leaf": 543,
+   "verified": true,
+   "tokenHits": 5,
+   "sampleHits": [
+    "διακονοι",
+    "διακονοι",
+    "προσωπον"
+   ]
+  },
+  {
+   "page": 538,
+   "colOdd": 1057,
+   "colEven": 1058,
+   "greekCol": 1057,
+   "leaf": 544,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 539,
+   "colOdd": 1059,
+   "colEven": 1060,
+   "greekCol": 1060,
+   "leaf": 545,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 540,
+   "colOdd": 1061,
+   "colEven": 1062,
+   "greekCol": 1061,
+   "leaf": 546,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 541,
+   "colOdd": 1063,
+   "colEven": 1064,
+   "greekCol": 1064,
+   "leaf": 547,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ασθενεια"
+   ]
+  },
+  {
+   "page": 542,
+   "colOdd": 1065,
+   "colEven": 1066,
+   "greekCol": 1065,
+   "leaf": 548,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "σωτηριας",
+    "οπτασιας"
+   ]
+  },
+  {
+   "page": 543,
+   "colOdd": 1067,
+   "colEven": 1068,
+   "greekCol": 1068,
+   "leaf": 549,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 544,
+   "colOdd": 1069,
+   "colEven": 1070,
+   "greekCol": 1069,
+   "leaf": 550,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ασθενειαις",
+    "ανθρωπων"
+   ]
+  },
+  {
+   "page": 545,
+   "colOdd": 1071,
+   "colEven": 1072,
+   "greekCol": 1072,
+   "leaf": 551,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 546,
+   "colOdd": 1073,
+   "colEven": 1074,
+   "greekCol": 1073,
+   "leaf": 552,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ερωτησιν"
+   ]
+  },
+  {
+   "page": 547,
+   "colOdd": 1075,
+   "colEven": 1076,
+   "greekCol": 1076,
+   "leaf": 553,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ψευδαποστολους"
+   ]
+  },
+  {
+   "page": 548,
+   "colOdd": 1077,
+   "colEven": 1078,
+   "greekCol": 1077,
+   "leaf": 554,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 549,
+   "colOdd": 1079,
+   "colEven": 1080,
+   "greekCol": 1080,
+   "leaf": 555,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 550,
+   "colOdd": 1081,
+   "colEven": 1082,
+   "greekCol": 1081,
+   "leaf": 556,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "λαλουντος"
+   ]
+  },
+  {
+   "page": 551,
+   "colOdd": 1083,
+   "colEven": 1084,
+   "greekCol": 1084,
+   "leaf": 557,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "αδοκιμοι",
+    "γενεσθαι"
+   ]
+  },
+  {
+   "page": 552,
+   "colOdd": 1085,
+   "colEven": 1086,
+   "greekCol": 1085,
+   "leaf": 558,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "τιμωρητικην"
+   ]
+  },
+  {
+   "page": 553,
+   "colOdd": 1087,
+   "colEven": 1088,
+   "greekCol": 1088,
+   "leaf": 559,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 554,
+   "colOdd": 1089,
+   "colEven": 1090,
+   "greekCol": 1089,
+   "leaf": 560,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 555,
+   "colOdd": 1091,
+   "colEven": 1092,
+   "greekCol": 1092,
+   "leaf": 561,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 556,
+   "colOdd": 1093,
+   "colEven": 1094,
+   "greekCol": 1093,
+   "leaf": 562,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 557,
+   "colOdd": 1095,
+   "colEven": 1096,
+   "greekCol": 1096,
+   "leaf": 563,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 558,
+   "colOdd": 1097,
+   "colEven": 1098,
+   "greekCol": 1097,
+   "leaf": 564,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "βουλεται"
+   ]
+  },
+  {
+   "page": 559,
+   "colOdd": 1099,
+   "colEven": 1100,
+   "greekCol": 1100,
+   "leaf": 565,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ευαγγελιου"
+   ]
+  },
+  {
+   "page": 560,
+   "colOdd": 1101,
+   "colEven": 1102,
+   "greekCol": 1101,
+   "leaf": 566,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ανθρωπων",
+    "αποκαλυψιν"
+   ]
+  },
+  {
+   "page": 561,
+   "colOdd": 1103,
+   "colEven": 1104,
+   "greekCol": 1104,
+   "leaf": 567,
+   "verified": true,
+   "tokenHits": 5,
+   "sampleHits": [
+    "αποστολοις",
+    "ιεροσολυμα",
+    "αποστολων"
+   ]
+  },
+  {
+   "page": 562,
+   "colOdd": 1105,
+   "colEven": 1106,
+   "greekCol": 1105,
+   "leaf": 568,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "περιτομην"
+   ]
+  },
+  {
+   "page": 563,
+   "colOdd": 1107,
+   "colEven": 1108,
+   "greekCol": 1108,
+   "leaf": 569,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "ιουδαιων",
+    "περιτομην",
+    "οικονομιαν"
+   ]
+  },
+  {
+   "page": 564,
+   "colOdd": 1109,
+   "colEven": 1110,
+   "greekCol": 1109,
+   "leaf": 570,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ιουδαιοις",
+    "συνεχωρουν"
+   ]
+  },
+  {
+   "page": 565,
+   "colOdd": 1111,
+   "colEven": 1112,
+   "greekCol": 1112,
+   "leaf": 571,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "ιουδαιων",
+    "κηρυγματος",
+    "οικονομιας"
+   ]
+  },
+  {
+   "page": 566,
+   "colOdd": 1113,
+   "colEven": 1114,
+   "greekCol": 1113,
+   "leaf": 572,
+   "verified": true,
+   "tokenHits": 3,
+   "sampleHits": [
+    "κατεγνωσμενος",
+    "αφωριζεν",
+    "ιουδαιων"
+   ]
+  },
+  {
+   "page": 567,
+   "colOdd": 1115,
+   "colEven": 1116,
+   "greekCol": 1116,
+   "leaf": 573,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 568,
+   "colOdd": 1117,
+   "colEven": 1118,
+   "greekCol": 1117,
+   "leaf": 574,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 569,
+   "colOdd": 1119,
+   "colEven": 1120,
+   "greekCol": 1120,
+   "leaf": 575,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 570,
+   "colOdd": 1121,
+   "colEven": 1122,
+   "greekCol": 1121,
+   "leaf": 576,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "εχομενοι"
+   ]
+  },
+  {
+   "page": 571,
+   "colOdd": 1123,
+   "colEven": 1124,
+   "greekCol": 1124,
+   "leaf": 577,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "επιστευσε",
+    "ελογισθη",
+    "πλειονος"
+   ]
+  },
+  {
+   "page": 572,
+   "colOdd": 1125,
+   "colEven": 1126,
+   "greekCol": 1125,
+   "leaf": 578,
+   "verified": true,
+   "tokenHits": 13,
+   "sampleHits": [
+    "οφειλετε",
+    "εδεδοικεισαν",
+    "συγγενειας"
+   ]
+  },
+  {
+   "page": 573,
+   "colOdd": 1127,
+   "colEven": 1128,
+   "greekCol": 1128,
+   "leaf": 579,
+   "verified": true,
+   "tokenHits": 27,
+   "sampleHits": [
+    "πληρωσαι",
+    "ανθρωποις",
+    "εξηγορασεν"
+   ]
+  },
+  {
+   "page": 574,
+   "colOdd": 1129,
+   "colEven": 1130,
+   "greekCol": 1129,
+   "leaf": 580,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ερρηθησαν",
+    "σπερματι",
+    "σπερματι"
+   ]
+  },
+  {
+   "page": 575,
+   "colOdd": 1131,
+   "colEven": 1132,
+   "greekCol": 1132,
+   "leaf": 581,
+   "verified": true,
+   "tokenHits": 18,
+   "sampleHits": [
+    "διαταγεις",
+    "αντιθεσεως",
+    "επιγενομενου"
+   ]
+  },
+  {
+   "page": 576,
+   "colOdd": 1133,
+   "colEven": 1134,
+   "greekCol": 1133,
+   "leaf": 582,
+   "verified": true,
+   "tokenHits": 26,
+   "sampleHits": [
+    "επαγγελια",
+    "επαγγελιαι",
+    "επαγγελιων"
+   ]
+  },
+  {
+   "page": 577,
+   "colOdd": 1135,
+   "colEven": 1136,
+   "greekCol": 1136,
+   "leaf": 583,
+   "verified": true,
+   "tokenHits": 28,
+   "sampleHits": [
+    "περιεκλεισε",
+    "αμαρτωλους",
+    "εποιησαν"
+   ]
+  },
+  {
+   "page": 578,
+   "colOdd": 1137,
+   "colEven": 1138,
+   "greekCol": 1137,
+   "leaf": 584,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "παιδαγωγον",
+    "παιδαγωγον",
+    "τελειους"
+   ]
+  },
+  {
+   "page": 579,
+   "colOdd": 1139,
+   "colEven": 1140,
+   "greekCol": 1140,
+   "leaf": 585,
+   "verified": true,
+   "tokenHits": 23,
+   "sampleHits": [
+    "ειαθημεν",
+    "περιφορα",
+    "βουλομενος"
+   ]
+  },
+  {
+   "page": 580,
+   "colOdd": 1141,
+   "colEven": 1142,
+   "greekCol": 1141,
+   "leaf": 586,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "υιοθεσιαν",
+    "απαλλαξας",
+    "δυνασθαι"
+   ]
+  },
+  {
+   "page": 581,
+   "colOdd": 1143,
+   "colEven": 1144,
+   "greekCol": 1144,
+   "leaf": 587,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "παρεκτραπεντες",
+    "θελησουσιν",
+    "μνησθητε"
+   ]
+  },
+  {
+   "page": 582,
+   "colOdd": 1145,
+   "colEven": 1146,
+   "greekCol": 1145,
+   "leaf": 588,
+   "verified": true,
+   "tokenHits": 19,
+   "sampleHits": [
+    "μακαρισμου",
+    "μακαρισμος",
+    "σωτηριαν"
+   ]
+  },
+  {
+   "page": 583,
+   "colOdd": 1147,
+   "colEven": 1148,
+   "greekCol": 1148,
+   "leaf": 591,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "επαγγελιαν"
+   ]
+  },
+  {
+   "page": 584,
+   "colOdd": 1149,
+   "colEven": 1150,
+   "greekCol": 1149,
+   "leaf": 592,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 585,
+   "colOdd": 1151,
+   "colEven": 1152,
+   "greekCol": 1152,
+   "leaf": 593,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "διωκεσθαι"
+   ]
+  },
+  {
+   "page": 586,
+   "colOdd": 1153,
+   "colEven": 1154,
+   "greekCol": 1153,
+   "leaf": 594,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 587,
+   "colOdd": 1155,
+   "colEven": 1156,
+   "greekCol": 1156,
+   "leaf": 595,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "πνευματος",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 588,
+   "colOdd": 1157,
+   "colEven": 1158,
+   "greekCol": 1157,
+   "leaf": 596,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "τοιουτων",
+    "πνευματι"
+   ]
+  },
+  {
+   "page": 589,
+   "colOdd": 1159,
+   "colEven": 1160,
+   "greekCol": 1160,
+   "leaf": 597,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 590,
+   "colOdd": 1161,
+   "colEven": 1162,
+   "greekCol": 1161,
+   "leaf": 598,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "πνευματος",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 591,
+   "colOdd": 1163,
+   "colEven": 1164,
+   "greekCol": 1164,
+   "leaf": 599,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 592,
+   "colOdd": 1165,
+   "colEven": 1166,
+   "greekCol": 1165,
+   "leaf": 600,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 593,
+   "colOdd": 1167,
+   "colEven": 1168,
+   "greekCol": 1168,
+   "leaf": 601,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 594,
+   "colOdd": 1169,
+   "colEven": 1170,
+   "greekCol": 1169,
+   "leaf": 602,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 595,
+   "colOdd": 1171,
+   "colEven": 1172,
+   "greekCol": 1172,
+   "leaf": 603,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 596,
+   "colOdd": 1173,
+   "colEven": 1174,
+   "greekCol": 1173,
+   "leaf": 604,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "θεληματος",
+    "επουρανιοις"
+   ]
+  },
+  {
+   "page": 597,
+   "colOdd": 1175,
+   "colEven": 1176,
+   "greekCol": 1176,
+   "leaf": 605,
+   "verified": true,
+   "tokenHits": 4,
+   "sampleHits": [
+    "γενεσθαι",
+    "θεληματος",
+    "μυστηριον"
+   ]
+  },
+  {
+   "page": 598,
+   "colOdd": 1177,
+   "colEven": 1178,
+   "greekCol": 1177,
+   "leaf": 606,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "προορισας",
+    "απολυτρωσιν"
+   ]
+  },
+  {
+   "page": 599,
+   "colOdd": 1179,
+   "colEven": 1180,
+   "greekCol": 1180,
+   "leaf": 607,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 600,
+   "colOdd": 1181,
+   "colEven": 1182,
+   "greekCol": 1181,
+   "leaf": 608,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "πιστευοντας",
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 601,
+   "colOdd": 1183,
+   "colEven": 1184,
+   "greekCol": 1184,
+   "leaf": 609,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "ενηργησεν",
+    "πιστευσαι"
+   ]
+  },
+  {
+   "page": 602,
+   "colOdd": 1185,
+   "colEven": 1186,
+   "greekCol": 1185,
+   "leaf": 610,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "ενεργεια"
+   ]
+  },
+  {
+   "page": 603,
+   "colOdd": 1187,
+   "colEven": 1188,
+   "greekCol": 1188,
+   "leaf": 611,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "εξουσιας"
+   ]
+  },
+  {
+   "page": 604,
+   "colOdd": 1189,
+   "colEven": 1190,
+   "greekCol": 1189,
+   "leaf": 612,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 605,
+   "colOdd": 1191,
+   "colEven": 1192,
+   "greekCol": 1192,
+   "leaf": 613,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 606,
+   "colOdd": 1193,
+   "colEven": 1194,
+   "greekCol": 1193,
+   "leaf": 614,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 607,
+   "colOdd": 1195,
+   "colEven": 1196,
+   "greekCol": 1196,
+   "leaf": 615,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 608,
+   "colOdd": 1197,
+   "colEven": 1198,
+   "greekCol": 1197,
+   "leaf": 616,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 609,
+   "colOdd": 1199,
+   "colEven": 1200,
+   "greekCol": 1200,
+   "leaf": 617,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 610,
+   "colOdd": 1201,
+   "colEven": 1202,
+   "greekCol": 1201,
+   "leaf": 618,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 611,
+   "colOdd": 1203,
+   "colEven": 1204,
+   "greekCol": 1204,
+   "leaf": 619,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 612,
+   "colOdd": 1205,
+   "colEven": 1206,
+   "greekCol": 1205,
+   "leaf": 620,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 613,
+   "colOdd": 1207,
+   "colEven": 1208,
+   "greekCol": 1208,
+   "leaf": 621,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 614,
+   "colOdd": 1209,
+   "colEven": 1210,
+   "greekCol": 1209,
+   "leaf": 622,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "τοιουτον",
+    "οικονομιας"
+   ]
+  },
+  {
+   "page": 615,
+   "colOdd": 1211,
+   "colEven": 1212,
+   "greekCol": 1212,
+   "leaf": 623,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "επευχεται"
+   ]
+  },
+  {
+   "page": 616,
+   "colOdd": 1213,
+   "colEven": 1214,
+   "greekCol": 1213,
+   "leaf": 624,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 617,
+   "colOdd": 1215,
+   "colEven": 1216,
+   "greekCol": 1216,
+   "leaf": 625,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 618,
+   "colOdd": 1217,
+   "colEven": 1218,
+   "greekCol": 1217,
+   "leaf": 626,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "χαρισματα"
+   ]
+  },
+  {
+   "page": 619,
+   "colOdd": 1219,
+   "colEven": 1220,
+   "greekCol": 1220,
+   "leaf": 627,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πληρωματος"
+   ]
+  },
+  {
+   "page": 620,
+   "colOdd": 1221,
+   "colEven": 1222,
+   "greekCol": 1221,
+   "leaf": 628,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 621,
+   "colOdd": 1223,
+   "colEven": 1224,
+   "greekCol": 1223,
+   "leaf": 629,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 622,
+   "colOdd": 1225,
+   "colEven": 1226,
+   "greekCol": 1225,
+   "leaf": 630,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "οικοδομην"
+   ]
+  },
+  {
+   "page": 623,
+   "colOdd": 1227,
+   "colEven": 1228,
+   "greekCol": 1228,
+   "leaf": 631,
+   "verified": true,
+   "tokenHits": 2,
+   "sampleHits": [
+    "οικοδομην",
+    "εργασιαν"
+   ]
+  },
+  {
+   "page": 624,
+   "colOdd": 1229,
+   "colEven": 1230,
+   "greekCol": 1229,
+   "leaf": 632,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 625,
+   "colOdd": 1231,
+   "colEven": 1232,
+   "greekCol": 1232,
+   "leaf": 633,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πνευματος"
+   ]
+  },
+  {
+   "page": 626,
+   "colOdd": 1233,
+   "colEven": 1234,
+   "greekCol": 1233,
+   "leaf": 634,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "αμαρτιας"
+   ]
+  },
+  {
+   "page": 627,
+   "colOdd": 1235,
+   "colEven": 1236,
+   "greekCol": 1236,
+   "leaf": 635,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 628,
+   "colOdd": 1237,
+   "colEven": 1238,
+   "greekCol": 1237,
+   "leaf": 636,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 629,
+   "colOdd": 1239,
+   "colEven": 1240,
+   "greekCol": 1240,
+   "leaf": 637,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 630,
+   "colOdd": 1241,
+   "colEven": 1242,
+   "greekCol": 1241,
+   "leaf": 638,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 631,
+   "colOdd": 1243,
+   "colEven": 1244,
+   "greekCol": 1244,
+   "leaf": 639,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 632,
+   "colOdd": 1245,
+   "colEven": 1246,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 633,
+   "colOdd": 1247,
+   "colEven": 1248,
+   "greekCol": null,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 634,
+   "colOdd": 1249,
+   "colEven": 1250,
+   "greekCol": 1249,
+   "leaf": 640,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "τουτεστι"
+   ]
+  },
+  {
+   "page": 635,
+   "colOdd": 1251,
+   "colEven": 1252,
+   "greekCol": 1252,
+   "leaf": 641,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 636,
+   "colOdd": 1253,
+   "colEven": 1254,
+   "greekCol": 1253,
+   "leaf": 642,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "πνευματικα"
+   ]
+  },
+  {
+   "page": 637,
+   "colOdd": 1255,
+   "colEven": 1256,
+   "greekCol": 1256,
+   "leaf": 643,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 638,
+   "colOdd": 1257,
+   "colEven": 1258,
+   "greekCol": 1257,
+   "leaf": 644,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 639,
+   "colOdd": 1259,
+   "colEven": 1260,
+   "greekCol": 1260,
+   "leaf": 645,
+   "verified": false,
+   "tokenHits": 1,
+   "sampleHits": [
+    "φιλιππησιων"
+   ]
+  },
+  {
+   "page": 640,
+   "colOdd": 1261,
+   "colEven": 1262,
+   "greekCol": 1261,
+   "leaf": 646,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": []
+  },
+  {
+   "page": 641,
+   "colOdd": 1259,
+   "colEven": 1260,
+   "greekCol": 1260,
+   "leaf": 645,
+   "verified": true,
+   "tokenHits": 42,
+   "sampleHits": [
+    "δουλοι",
+    "αγιοις",
+    "χριστω"
+   ]
+  },
+  {
+   "page": 642,
+   "colOdd": 1261,
+   "colEven": 1262,
+   "greekCol": 1261,
+   "leaf": 646,
+   "verified": true,
+   "tokenHits": 56,
+   "sampleHits": [
+    "πρωτης",
+    "ευαγγελιον",
+    "κοινωνια"
+   ]
+  },
+  {
+   "page": 643,
+   "colOdd": 1263,
+   "colEven": 1264,
+   "greekCol": 1264,
+   "leaf": 647,
+   "verified": true,
+   "tokenHits": 45,
+   "sampleHits": [
+    "καρδια",
+    "πειρασμους",
+    "ηρειτο"
+   ]
+  },
+  {
+   "page": 644,
+   "colOdd": 1265,
+   "colEven": 1266,
+   "greekCol": 1265,
+   "leaf": 648,
+   "verified": true,
+   "tokenHits": 57,
+   "sampleHits": [
+    "ουδεμιαν",
+    "αγαπωμενος",
+    "ευχεται"
+   ]
+  },
+  {
+   "page": 645,
+   "colOdd": 1267,
+   "colEven": 1268,
+   "greekCol": 1268,
+   "leaf": 649,
+   "verified": true,
+   "tokenHits": 62,
+   "sampleHits": [
+    "δεσμοι",
+    "γεγονασιν",
+    "τουτου"
+   ]
+  },
+  {
+   "page": 646,
+   "colOdd": 1269,
+   "colEven": 1270,
+   "greekCol": 1269,
+   "leaf": 650,
+   "verified": true,
+   "tokenHits": 50,
+   "sampleHits": [
+    "πρωτον",
+    "νομοθετειν",
+    "νομοθετων"
+   ]
+  },
+  {
+   "page": 647,
+   "colOdd": 1271,
+   "colEven": 1272,
+   "greekCol": 1272,
+   "leaf": 651,
+   "verified": true,
+   "tokenHits": 47,
+   "sampleHits": [
+    "παυλου",
+    "παναληθες",
+    "εικοτως"
+   ]
+  },
+  {
+   "page": 648,
+   "colOdd": 1273,
+   "colEven": 1274,
+   "greekCol": 1273,
+   "leaf": 652,
+   "verified": true,
+   "tokenHits": 46,
+   "sampleHits": [
+    "φορειν",
+    "χριστω",
+    "εδειξεν"
+   ]
+  },
+  {
+   "page": 649,
+   "colOdd": 1275,
+   "colEven": 1276,
+   "greekCol": 1276,
+   "leaf": 653,
+   "verified": true,
+   "tokenHits": 40,
+   "sampleHits": [
+    "ανατρεχει",
+    "παυλου",
+    "ωφελεια"
+   ]
+  },
+  {
+   "page": 650,
+   "colOdd": 1277,
+   "colEven": 1278,
+   "greekCol": 1277,
+   "leaf": 654,
+   "verified": true,
+   "tokenHits": 47,
+   "sampleHits": [
+    "απωλειας",
+    "διαφοραν",
+    "εχαρισθη"
+   ]
+  },
+  {
+   "page": 651,
+   "colOdd": 1279,
+   "colEven": 1280,
+   "greekCol": 1279,
+   "leaf": 655,
+   "verified": true,
+   "tokenHits": 14,
+   "sampleHits": [
+    "εαυτον",
+    "δουλου",
+    "ομοιωματι"
+   ]
+  },
+  {
+   "page": 652,
+   "colOdd": 1281,
+   "colEven": 1282,
+   "greekCol": 1281,
+   "leaf": 655,
+   "verified": true,
+   "tokenHits": 59,
+   "sampleHits": [
+    "ουκουν",
+    "μορφην",
+    "λεγομενος"
+   ]
+  },
+  {
+   "page": 653,
+   "colOdd": 1283,
+   "colEven": 1284,
+   "greekCol": 1284,
+   "leaf": 656,
+   "verified": true,
+   "tokenHits": 48,
+   "sampleHits": [
+    "αλληλοις",
+    "οφθαλμος",
+    "καρδιαν"
+   ]
+  },
+  {
+   "page": 654,
+   "colOdd": 1285,
+   "colEven": 1286,
+   "greekCol": 1285,
+   "leaf": 657,
+   "verified": true,
+   "tokenHits": 52,
+   "sampleHits": [
+    "τοιουτον",
+    "εξουσια",
+    "ουρανω"
+   ]
+  },
+  {
+   "page": 655,
+   "colOdd": 1287,
+   "colEven": 1288,
+   "greekCol": 1288,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in the primary scan (patrologiaecurs14migngoog, 682 leaves) above noise level (best hit 14 tokens across all leaves, vs 40-60+ hits on neighboring pages) RESOLVED for the Latin twin (2026-07-31): a second archive.org item, patrologicursus21migngoog (a different physical-copy scan, 638 leaves), carries this column intact at leaf 613 (47 token hits) -- see data/pg-latin-altsource/oecumenius-philippians.json. This gapNote still stands for the PRIMARY scan/Greek column map; the Greek text itself is unaffected (Calfa Greek harvest never depended on this scan)."
+  },
+  {
+   "page": 656,
+   "colOdd": 1289,
+   "colEven": 1290,
+   "greekCol": 1289,
+   "leaf": 658,
+   "verified": true,
+   "tokenHits": 47,
+   "sampleHits": [
+    "θυσιαν",
+    "σπονδην",
+    "προσφερειν"
+   ]
+  },
+  {
+   "page": 657,
+   "colOdd": 1291,
+   "colEven": 1292,
+   "greekCol": 1292,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in the primary scan (patrologiaecurs14migngoog) above noise level (best hit 8 tokens vs 40-60+ on neighbors) RESOLVED for the Latin twin (2026-07-31): patrologicursus21migngoog carries this column at leaf 615 (40 token hits) -- see data/pg-latin-altsource/oecumenius-philippians.json."
+  },
+  {
+   "page": 658,
+   "colOdd": 1293,
+   "colEven": 1294,
+   "greekCol": 1293,
+   "leaf": 659,
+   "verified": true,
+   "tokenHits": 56,
+   "sampleHits": [
+    "επαινων",
+    "τουτον",
+    "αποστελλει"
+   ]
+  },
+  {
+   "page": 659,
+   "colOdd": 1295,
+   "colEven": 1296,
+   "greekCol": 1296,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in the primary scan above noise level (best hit 8 tokens vs 40-60+ on neighbors) RESOLVED for the Latin twin (2026-07-31): patrologicursus21migngoog carries this column at leaf 617 (43 token hits) -- see data/pg-latin-altsource/oecumenius-philippians.json."
+  },
+  {
+   "page": 660,
+   "colOdd": 1297,
+   "colEven": 1298,
+   "greekCol": 1297,
+   "leaf": 660,
+   "verified": true,
+   "tokenHits": 45,
+   "sampleHits": [
+    "πατερα",
+    "επιστρεφοντες",
+    "εργαζονται"
+   ]
+  },
+  {
+   "page": 661,
+   "colOdd": 1299,
+   "colEven": 1300,
+   "greekCol": 1300,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in the primary scan above noise level (best hit 9 tokens vs 40-60+ on neighbors) RESOLVED for the Latin twin (2026-07-31): patrologicursus21migngoog carries this column at leaf 619 (40 token hits) -- see data/pg-latin-altsource/oecumenius-philippians.json."
+  },
+  {
+   "page": 662,
+   "colOdd": 1301,
+   "colEven": 1302,
+   "greekCol": 1301,
+   "leaf": 661,
+   "verified": true,
+   "tokenHits": 54,
+   "sampleHits": [
+    "δηλωσαι",
+    "ονοματι",
+    "ευφημω"
+   ]
+  },
+  {
+   "page": 663,
+   "colOdd": 1303,
+   "colEven": 1304,
+   "greekCol": 1304,
+   "leaf": 662,
+   "verified": true,
+   "tokenHits": 38,
+   "sampleHits": [
+    "ζημιας",
+    "πιστεως",
+    "παρελθειν"
+   ]
+  },
+  {
+   "page": 664,
+   "colOdd": 1305,
+   "colEven": 1306,
+   "greekCol": 1305,
+   "leaf": 663,
+   "verified": true,
+   "tokenHits": 39,
+   "sampleHits": [
+    "ωφελειας",
+    "χριστου",
+    "τοσαυτα"
+   ]
+  },
+  {
+   "page": 665,
+   "colOdd": 1307,
+   "colEven": 1308,
+   "greekCol": 1308,
+   "leaf": 664,
+   "verified": true,
+   "tokenHits": 32,
+   "sampleHits": [
+    "εμπροσθεν",
+    "οπισθεν",
+    "εμπροσθεν"
+   ]
+  },
+  {
+   "page": 666,
+   "colOdd": 1309,
+   "colEven": 1310,
+   "greekCol": 1309,
+   "leaf": 665,
+   "verified": true,
+   "tokenHits": 47,
+   "sampleHits": [
+    "απαντα",
+    "κατελυσε",
+    "πολιτειας"
+   ]
+  },
+  {
+   "page": 667,
+   "colOdd": 1311,
+   "colEven": 1312,
+   "greekCol": 1312,
+   "leaf": 666,
+   "verified": true,
+   "tokenHits": 48,
+   "sampleHits": [
+    "δουλευουσιν",
+    "αλλαχου",
+    "γαστριμαργων"
+   ]
+  },
+  {
+   "page": 668,
+   "colOdd": 1313,
+   "colEven": 1314,
+   "greekCol": 1313,
+   "leaf": 667,
+   "verified": true,
+   "tokenHits": 51,
+   "sampleHits": [
+    "θελεις",
+    "υποταξαι",
+    "υποταγη"
+   ]
+  },
+  {
+   "page": 669,
+   "colOdd": 1315,
+   "colEven": 1316,
+   "greekCol": 1316,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": [],
+   "gapNote": "GENUINE TWO-WITNESS GAP (2026-07-31): no leaf in either scan checked matches this Calfa page above noise level -- primary patrologiaecurs14migngoog best hit 9/682 leaves, alt patrologicursus21migngoog best hit 8/638 leaves, vs 40-60+ on neighboring pages in both. Latin twin has no text for this page (see src/pg-latin/oecumenius-philippians/manifest.json gapPages); unresolved, not guessed."
+  },
+  {
+   "page": 670,
+   "colOdd": 1317,
+   "colEven": 1318,
+   "greekCol": 1317,
+   "leaf": 668,
+   "verified": true,
+   "tokenHits": 37,
+   "sampleHits": [
+    "επειδη",
+    "ανωτερω",
+    "κυριος"
+   ]
+  },
+  {
+   "page": 671,
+   "colOdd": 1319,
+   "colEven": 1320,
+   "greekCol": 1320,
+   "leaf": null,
+   "verified": false,
+   "tokenHits": 0,
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in the primary scan above noise level (best hit 10 tokens vs 40-60+ on neighbors) RESOLVED for the Latin twin (2026-07-31): patrologicursus21migngoog carries this column at leaf 627 (31 token hits) -- see data/pg-latin-altsource/oecumenius-philippians.json."
+  },
+  {
+   "page": 672,
+   "colOdd": 1321,
+   "colEven": 1322,
+   "greekCol": 1321,
+   "leaf": 669,
+   "verified": true,
+   "tokenHits": 49,
+   "sampleHits": [
+    "υστερησιν",
+    "επειδη",
+    "επετιμησεν"
+   ]
+  },
+  {
+   "page": 673,
+   "colOdd": 1323,
+   "colEven": 1324,
+   "greekCol": 1324,
+   "leaf": 670,
+   "verified": true,
+   "tokenHits": 42,
+   "sampleHits": [
+    "απαντων",
+    "κατορθωμα",
+    "ταυτην"
+   ]
+  },
+  {
+   "page": 674,
+   "colOdd": 1325,
+   "colEven": 1326,
+   "greekCol": 1325,
+   "leaf": 671,
+   "verified": true,
+   "tokenHits": 44,
+   "sampleHits": [
+    "τουτου",
+    "προθυμοτερους",
+    "αυτους"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+  "workKey": "oecumenius-philippians",
+  "scanItem": "patrologiaecurs14migngoog",
+  "volume": 118,
+  "extracted": "2026-07-31",
+  "gate": {
+    "aEveryChunkNonEmpty": true,
+    "bWorkAggregateRatio": 1.062,
+    "bPerChunkOutOfBand": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      13
+    ],
+    "bNote": "Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec).",
+    "cSpotChecks": "see final harvest report — not auto-logged by this script"
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "greekWords": 1024,
+      "latinWords": 1243,
+      "ratio": 1.214,
+      "pages": [
+        641,
+        642,
+        643
+      ],
+      "gapPages": [],
+      "leaves": [
+        645,
+        646,
+        647
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 1,
+      "greekWords": 1000,
+      "latinWords": 1370,
+      "ratio": 1.37,
+      "pages": [
+        644,
+        645,
+        646
+      ],
+      "gapPages": [],
+      "leaves": [
+        648,
+        649,
+        650
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 2,
+      "greekWords": 1007,
+      "latinWords": 883,
+      "ratio": 0.877,
+      "pages": [
+        647,
+        648
+      ],
+      "gapPages": [],
+      "leaves": [
+        651,
+        652
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 3,
+      "greekWords": 1024,
+      "latinWords": 922,
+      "ratio": 0.9,
+      "pages": [
+        649,
+        650
+      ],
+      "gapPages": [],
+      "leaves": [
+        653,
+        654
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 4,
+      "greekWords": 1002,
+      "latinWords": 1327,
+      "ratio": 1.324,
+      "pages": [
+        651,
+        652,
+        653
+      ],
+      "gapPages": [],
+      "leaves": [
+        655,
+        655,
+        656
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 5,
+      "greekWords": 1012,
+      "latinWords": 896,
+      "ratio": 0.885,
+      "pages": [
+        654,
+        655
+      ],
+      "gapPages": [],
+      "leaves": [
+        657
+      ],
+      "altPages": [
+        655
+      ]
+    },
+    {
+      "chunk": 6,
+      "greekWords": 1011,
+      "latinWords": 1364,
+      "ratio": 1.349,
+      "pages": [
+        656,
+        657,
+        658
+      ],
+      "gapPages": [],
+      "leaves": [
+        658,
+        659
+      ],
+      "altPages": [
+        657
+      ]
+    },
+    {
+      "chunk": 7,
+      "greekWords": 1021,
+      "latinWords": 881,
+      "ratio": 0.863,
+      "pages": [
+        659,
+        660
+      ],
+      "gapPages": [],
+      "leaves": [
+        660
+      ],
+      "altPages": [
+        659
+      ]
+    },
+    {
+      "chunk": 8,
+      "greekWords": 1001,
+      "latinWords": 1309,
+      "ratio": 1.308,
+      "pages": [
+        661,
+        662,
+        663
+      ],
+      "gapPages": [],
+      "leaves": [
+        661,
+        662
+      ],
+      "altPages": [
+        661
+      ]
+    },
+    {
+      "chunk": 9,
+      "greekWords": 1001,
+      "latinWords": 940,
+      "ratio": 0.939,
+      "pages": [
+        664,
+        665
+      ],
+      "gapPages": [],
+      "leaves": [
+        663,
+        664
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 10,
+      "greekWords": 1014,
+      "latinWords": 1304,
+      "ratio": 1.286,
+      "pages": [
+        666,
+        667,
+        668
+      ],
+      "gapPages": [],
+      "leaves": [
+        665,
+        666,
+        667
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 11,
+      "greekWords": 1016,
+      "latinWords": 477,
+      "ratio": 0.469,
+      "pages": [
+        669,
+        670
+      ],
+      "gapPages": [
+        669
+      ],
+      "leaves": [
+        668
+      ],
+      "altPages": []
+    },
+    {
+      "chunk": 12,
+      "greekWords": 1000,
+      "latinWords": 1281,
+      "ratio": 1.281,
+      "pages": [
+        671,
+        672,
+        673
+      ],
+      "gapPages": [],
+      "leaves": [
+        669,
+        670
+      ],
+      "altPages": [
+        671
+      ]
+    },
+    {
+      "chunk": 13,
+      "greekWords": 679,
+      "latinWords": 470,
+      "ratio": 0.692,
+      "pages": [
+        674
+      ],
+      "gapPages": [],
+      "leaves": [
+        671
+      ],
+      "altPages": []
+    }
+  ]
+}

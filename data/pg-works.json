@@ -2,6 +2,25 @@
   "note": "PG work registry, pilot-era seed. Grows toward parity with works.json (PL) as PG texts are acquired. pages = Calfa $8 PDF page span; greekCol* from data/pg-column-maps/. translationStatus per-work verified (rule 8) — evidence in the session verification report, 2026-07-03.",
   "works": [
     {
+      "key": "oecumenius-philippians",
+      "series": "pg",
+      "volume": 118,
+      "author": "Oecumenius of Tricca",
+      "authorNote": "10th-century Byzantine bishop/compiler; PG 118-119 gathers the Greek catena tradition on Paul's Epistles (and, per the parent volume's own preface, possibly the Acts/Catholic-epistle catena too) under his name — attribution to a single 'Oecumenius' is itself debated in scholarship, but PG's ascription is what this citation follows.",
+      "title": "Commentarius in Epistolam ad Philippenses",
+      "titleEn": "Commentary on the Epistle to the Philippians",
+      "pages": [641, 674],
+      "greekColFirst": 1260,
+      "greekColLast": 1325,
+      "citRange": "PG 118, 1260–1325",
+      "greekSource": "calfa",
+      "queueNote": "PG paired-pilot P3 (pg-paired-pilot.md §7): the spec recommended the commentary on Jude (or 2-3 John) as the volume's smallest complete lemma-and-gloss unit, on the assumption Catholic-epistle commentary is in PG 118. It is NOT: the local Calfa harvest of PG118_text.txt (37,508 lines) runs Romans through Philippians only (ends mid-volume with the doxology 'Τέλος σὺν Θεῷ τῆς πρὸς Φιλιππησίους'); Jude/2-3 John and the rest of the Pauline corpus (Colossians onward) are apparently in PG 119 or simply outside this Calfa clone's scope — not investigated further, per rule 8 (don't hunt past what's in hand). Philippians (14,089 Greek words, Calfa pp. 641-674) is the smallest complete epistle-commentary actually present in the file, smaller than Galatians (15,862w) and Ephesians (18,927w), the file's other short candidates. It is lemma-and-gloss throughout (scriptural lemma in quotation marks, then gloss — e.g. opens '«Τοῖς ἁγίοις ἐν Χριστῷ Ἰησοῦ.» Ἦσαν γὰρ καὶ Ἰουδαῖοι...'), satisfying the genre purpose of P3 even though the specific book differs from the recommendation. NOTE: translationStatus deliberately absent (no verified none-status is in hand for this specific work; the deploy badge fails safe to 'New English translation' per CLAUDE.md rule 8 — do not hunt to fill this in).",
+      "pilot": true,
+      "latinVerifier": "src/pg-latin/oecumenius-philippians/",
+      "latinScanItem": "patrologiaecurs14migngoog",
+      "latinAltScanItem": "patrologicursus21migngoog (used for 5 of 34 pages where the primary scan has no matching leaf — see data/pg-latin-altsource/oecumenius-philippians.json)"
+    },
+    {
       "key": "joel-chronographia",
       "slug": "chronographia",
       "series": "pg",
