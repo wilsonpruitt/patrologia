@@ -1,0 +1,94 @@
+{
+  "workKey": "isidore-glabas-sermo-1",
+  "scanItem": "patrologiaecurs63migngoog",
+  "volume": 139,
+  "extracted": "2026-07-31",
+  "gate": {
+    "aEveryChunkNonEmpty": true,
+    "bWorkAggregateRatio": 1.234,
+    "bPerChunkOutOfBand": [
+      0,
+      3
+    ],
+    "bNote": "Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec).",
+    "cSpotChecks": "see final harvest report — not auto-logged by this script"
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "greekWords": 1017,
+      "latinWords": 810,
+      "ratio": 0.796,
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "gapPages": [
+        13,
+        14
+      ],
+      "leaves": [
+        8,
+        9
+      ]
+    },
+    {
+      "chunk": 1,
+      "greekWords": 1009,
+      "latinWords": 1237,
+      "ratio": 1.226,
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "gapPages": [],
+      "leaves": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "chunk": 2,
+      "greekWords": 1010,
+      "latinWords": 1303,
+      "ratio": 1.29,
+      "pages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "gapPages": [
+        21
+      ],
+      "leaves": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "chunk": 3,
+      "greekWords": 1060,
+      "latinWords": 1705,
+      "ratio": 1.608,
+      "pages": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "gapPages": [],
+      "leaves": [
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ]
+}

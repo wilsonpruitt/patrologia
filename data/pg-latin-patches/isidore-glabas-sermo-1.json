@@ -1,0 +1,6 @@
+{
+ "note": "Latin-side sermon-boundary truncation, mirroring data/calfa-patches/isidore-glabas-sermo-1.json on the Greek side. Calfa page 27 / Latin col 39 carries the tail of Sermon I's Latin translation (ending '...cui gloria debetur in sempiterna saeculorum saecula. Amen.') followed immediately by Sermon II's Latin heading and opening ('SERMO II. In ingressum immaculatissimae...') in the same printed column. Applied by pg-latin-twin.mjs: text on the listed page is cut at the first occurrence of `cutBefore`, keeping only the part before it.",
+ "patches": [
+  { "page": 27, "cutBefore": "SERMO II." }
+ ]
+}
