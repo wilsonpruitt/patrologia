@@ -10,116 +10,145 @@
    "page": 13,
    "colOdd": 11,
    "colEven": 12,
-   "greekCol": null,
+   "greekCol": 12,
    "leaf": null,
    "verified": false,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in this scan copy (leaves 6-7 are volume front matter, not this column; Sonnet harvest 2026-07-31 confirmed no leaf anywhere in the scan matches this Calfa page's distinctive tokens)"
   },
   {
    "page": 14,
    "colOdd": 13,
    "colEven": 14,
-   "greekCol": null,
+   "greekCol": 13,
    "leaf": null,
    "verified": false,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in this scan copy (leaves 6-7 are volume front matter, not this column; Sonnet harvest 2026-07-31 confirmed no leaf anywhere in the scan matches this Calfa page's distinctive tokens)"
   },
   {
    "page": 15,
    "colOdd": 15,
    "colEven": 16,
-   "greekCol": null,
-   "leaf": 5,
-   "verified": false,
-   "tokenHits": 0,
-   "sampleHits": []
+   "greekCol": 16,
+   "leaf": 8,
+   "verified": true,
+   "tokenHits": 30,
+   "sampleHits": [
+    "προυπαρξαντα",
+    "γεγονοτα",
+    "παραδοξως"
+   ]
   },
   {
    "page": 16,
    "colOdd": 17,
    "colEven": 18,
-   "greekCol": null,
-   "leaf": 6,
-   "verified": false,
-   "tokenHits": 0,
-   "sampleHits": []
+   "greekCol": 17,
+   "leaf": 9,
+   "verified": true,
+   "tokenHits": 20,
+   "sampleHits": [
+    "απταιστον",
+    "δημιουργου",
+    "ανθρωπον"
+   ]
   },
   {
    "page": 17,
    "colOdd": 19,
    "colEven": 20,
-   "greekCol": null,
-   "leaf": 7,
-   "verified": false,
-   "tokenHits": 0,
-   "sampleHits": []
+   "greekCol": 20,
+   "leaf": 10,
+   "verified": true,
+   "tokenHits": 31,
+   "sampleHits": [
+    "αειπαρθενου",
+    "αναγεννησεως",
+    "ωραισμου"
+   ]
   },
   {
    "page": 18,
    "colOdd": 21,
    "colEven": 22,
-   "greekCol": 22,
-   "leaf": 8,
-   "verified": false,
-   "tokenHits": 1,
+   "greekCol": 21,
+   "leaf": 11,
+   "verified": true,
+   "tokenHits": 13,
    "sampleHits": [
-    "παρθενου"
+    "βλαστησειεν",
+    "απορουσα",
+    "απηλασεν"
    ]
   },
   {
    "page": 19,
    "colOdd": 23,
    "colEven": 24,
-   "greekCol": 23,
-   "leaf": 9,
-   "verified": false,
-   "tokenHits": 0,
-   "sampleHits": []
+   "greekCol": 24,
+   "leaf": 12,
+   "verified": true,
+   "tokenHits": 21,
+   "sampleHits": [
+    "παρθενος",
+    "δηπουθεν",
+    "κηρυττει"
+   ]
   },
   {
    "page": 20,
    "colOdd": 25,
    "colEven": 26,
-   "greekCol": 26,
-   "leaf": 10,
-   "verified": false,
-   "tokenHits": 0,
-   "sampleHits": []
+   "greekCol": 25,
+   "leaf": 13,
+   "verified": true,
+   "tokenHits": 17,
+   "sampleHits": [
+    "ζαχαριας",
+    "επιφαναι",
+    "γεννησιν"
+   ]
   },
   {
    "page": 21,
    "colOdd": 27,
    "colEven": 28,
-   "greekCol": 27,
-   "leaf": 11,
+   "greekCol": 28,
+   "leaf": null,
    "verified": false,
    "tokenHits": 0,
-   "sampleHits": []
+   "sampleHits": [],
+   "gapNote": "no corresponding scan leaf found in this scan copy (leaves 6-7 are volume front matter, not this column; Sonnet harvest 2026-07-31 confirmed no leaf anywhere in the scan matches this Calfa page's distinctive tokens)"
   },
   {
    "page": 22,
    "colOdd": 29,
    "colEven": 30,
-   "greekCol": 30,
-   "leaf": 12,
-   "verified": false,
-   "tokenHits": 1,
+   "greekCol": 29,
+   "leaf": 14,
+   "verified": true,
+   "tokenHits": 15,
    "sampleHits": [
-    "παρθενου"
+    "νεοφανες",
+    "υπερλαμπρον",
+    "νεοθαλες"
    ]
   },
   {
    "page": 23,
    "colOdd": 31,
    "colEven": 32,
-   "greekCol": 31,
-   "leaf": 13,
-   "verified": false,
-   "tokenHits": 1,
+   "greekCol": 32,
+   "leaf": 15,
+   "verified": true,
+   "tokenHits": 14,
    "sampleHits": [
-    "ετυγχανον"
+    "γεννητορας",
+    "καλλιστη",
+    "διεκυψεν"
    ]
   },
   {
@@ -127,11 +156,13 @@
    "colOdd": 33,
    "colEven": 34,
    "greekCol": 33,
-   "leaf": 14,
-   "verified": false,
-   "tokenHits": 1,
+   "leaf": 16,
+   "verified": true,
+   "tokenHits": 22,
    "sampleHits": [
-    "παρθενου"
+    "δημιουργιας",
+    "προσθηκης",
+    "γενναται"
    ]
   },
   {
@@ -139,11 +170,13 @@
    "colOdd": 35,
    "colEven": 36,
    "greekCol": 36,
-   "leaf": 15,
-   "verified": false,
-   "tokenHits": 1,
+   "leaf": 17,
+   "verified": true,
+   "tokenHits": 11,
    "sampleHits": [
-    "ανθρωπον"
+    "ανθρωπων",
+    "διεπραξατο",
+    "εδεικνυτο"
    ]
   },
   {
@@ -151,11 +184,13 @@
    "colOdd": 37,
    "colEven": 38,
    "greekCol": 37,
-   "leaf": 16,
-   "verified": false,
-   "tokenHits": 1,
+   "leaf": 18,
+   "verified": true,
+   "tokenHits": 16,
    "sampleHits": [
-    "παρθενου"
+    "αμαρτειν",
+    "παναγνου",
+    "εμφερειαν"
    ]
   },
   {
@@ -163,11 +198,13 @@
    "colOdd": 39,
    "colEven": 40,
    "greekCol": 40,
-   "leaf": 17,
-   "verified": false,
-   "tokenHits": 1,
+   "leaf": 19,
+   "verified": true,
+   "tokenHits": 20,
    "sampleHits": [
-    "παναγνος"
+    "αφθαρτος",
+    "δεδεικται",
+    "προσειπων"
    ]
   },
   {
