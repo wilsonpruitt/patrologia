@@ -93,12 +93,30 @@ if (fs.existsSync(latinPatchPath)) {
   console.log(`applied ${patches.length} Latin-side truncation patch(es)`);
 }
 
+// ---------- optional alt-source gap fill ----------
+// data/pg-latin-altsource/<key>.json: per-page Latin text pulled from a
+// DIFFERENT scan/copy than the primary djvu.xml, for pages where the primary
+// scan has no leaf at all (a real gap, not a crop error). Used when the
+// primary scan is missing pages a second witness happens to carry intact.
+const altPath = path.join(ROOT, 'data/pg-latin-altsource', `${key}.json`);
+const altByPage = new Map();
+if (fs.existsSync(altPath)) {
+  const { pages: altPages } = JSON.parse(fs.readFileSync(altPath, 'utf8'));
+  for (const [pg, v] of Object.entries(altPages)) altByPage.set(Number(pg), v);
+  console.log(`loaded ${altByPage.size} alt-source page(s) from ${path.relative(ROOT, altPath)}`);
+}
+
 // ---------- per-page Latin text ----------
-const latinByPage = new Map(); // page -> { text, leaf, latinCol, gap }
+const latinByPage = new Map(); // page -> { text, leaf, latinCol, gap, altSource }
 for (let p = work.pages[0]; p <= work.pages[1]; p++) {
   const rec = pageRec.get(p);
   if (!rec) continue;
   const latinCol = rec.greekCol === rec.colOdd ? rec.colEven : rec.colOdd;
+  if (altByPage.has(p)) {
+    const alt = altByPage.get(p);
+    latinByPage.set(p, { text: alt.text, leaf: null, latinCol: alt.latinCol, gap: false, altSource: alt.provenance });
+    continue;
+  }
   if (rec.leaf === null || rec.leaf === undefined || rec.greekCol === null) {
     latinByPage.set(p, { text: '', leaf: null, latinCol, gap: true });
     continue;
@@ -142,6 +160,7 @@ for (const cf of chunkFiles) {
   const parts = [];
   let leaves = [];
   let gapPages = [];
+  let altPages = [];
   for (const p of pages) {
     const rec = latinByPage.get(p);
     if (!rec || rec.gap) {
@@ -149,7 +168,8 @@ for (const cf of chunkFiles) {
       gapPages.push(p);
       continue;
     }
-    leaves.push(rec.leaf);
+    if (rec.altSource) { altPages.push({ page: p, ...rec.altSource }); }
+    else leaves.push(rec.leaf);
     parts.push(`[${pad4(rec.latinCol)}] ${rec.text}`);
   }
   const text = parts.join(' ').replace(/\s+/g, ' ').trim();
@@ -166,6 +186,7 @@ for (const cf of chunkFiles) {
     provenance: {
       scanItem, leaves: leaves.length ? [Math.min(...leaves), Math.max(...leaves)] : [],
       extracted: today, method: 'djvu.xml x-range crop', ocr: 'rough — verifier only, never source',
+      ...(altPages.length ? { altSourcePages: altPages } : {}),
     },
   };
   const fmLines = Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join('\n');
@@ -175,7 +196,7 @@ for (const cf of chunkFiles) {
   manifestOut.push({
     chunk: meta.chunk, greekWords: meta.words, latinWords: wc,
     ratio: meta.words ? +(wc / meta.words).toFixed(3) : null,
-    pages, gapPages, leaves,
+    pages, gapPages, leaves, altPages: altPages.map(a => a.page),
   });
 }
 

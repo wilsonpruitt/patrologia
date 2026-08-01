@@ -5,9 +5,10 @@
   "extracted": "2026-07-31",
   "gate": {
     "aEveryChunkNonEmpty": true,
-    "bWorkAggregateRatio": 1.234,
+    "bWorkAggregateRatio": 1.476,
     "bPerChunkOutOfBand": [
       0,
+      2,
       3
     ],
     "bNote": "Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec).",
@@ -17,21 +18,22 @@
     {
       "chunk": 0,
       "greekWords": 1017,
-      "latinWords": 810,
-      "ratio": 0.796,
+      "latinWords": 1538,
+      "ratio": 1.512,
       "pages": [
         13,
         14,
         15,
         16
       ],
-      "gapPages": [
-        13,
-        14
-      ],
+      "gapPages": [],
       "leaves": [
         8,
         9
+      ],
+      "altPages": [
+        13,
+        14
       ]
     },
     {
@@ -49,26 +51,28 @@
         10,
         11,
         12
-      ]
+      ],
+      "altPages": []
     },
     {
       "chunk": 2,
       "greekWords": 1010,
-      "latinWords": 1303,
-      "ratio": 1.29,
+      "latinWords": 1567,
+      "ratio": 1.551,
       "pages": [
         20,
         21,
         22,
         23
       ],
-      "gapPages": [
-        21
-      ],
+      "gapPages": [],
       "leaves": [
         13,
         14,
         15
+      ],
+      "altPages": [
+        21
       ]
     },
     {
@@ -88,7 +92,8 @@
         17,
         18,
         19
-      ]
+      ],
+      "altPages": []
     }
   ]
 }
