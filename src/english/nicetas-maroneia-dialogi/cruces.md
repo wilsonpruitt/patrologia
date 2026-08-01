@@ -164,8 +164,12 @@ Work-wide conventions of `cruces-0000.md` are in force and are not restated.
 This file adds only what chunks 0001–0005 forced. Scan used for every plate
 check below: `raw/scans/pg139/patrologiaecurs63migngoog_djvu.xml`, leaf index =
 position in the file's `<OBJECT>` sequence; for this span **leaf n carries Migne
-cols (2n−7)/(2n−6)** (leaf 89 = 181/182 … leaf 97 = 197/198), verified against
-the running heads.
+cols (2n+3)/(2n+4)** (leaf 89 = 181/182 … leaf 97 = 197/198), verified against
+the running heads. ⚠ **Formula corrected 2026-08-01** — this file originally
+wrote it as (2n−7)/(2n−6), which contradicts its own worked examples (2·89−7 =
+171, not 181). The examples were right, the formula wrong; a blind reader caught
+it while using it. Arithmetic in a method note gets checked against its own
+examples before it is trusted.
 
 ## Conventions this batch had to decide (anchor did not cover)
 
