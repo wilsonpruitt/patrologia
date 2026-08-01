@@ -8,10 +8,21 @@ Glabas's Nativity sermon, and the Oecumenius Philippians catena (correctly
 badged "New," attribution flag rendering on the byline). **Nothing else is
 owed on this thread.**
 
-Next moves in order (per §8a below): (a) generalize
-`scripts/pg-greek-column.mjs` (gate condition 1); (b) Joel Latin backfill per
-§8a.B; (c) queue additions per §8a.C (Glabas Sermons II–IV, then a second
-Oecumenius unit — Gal or Eph, NOT Jude/Colossians).
+✅ **Condition 1 DONE 2026-08-01 (Sonnet, `d21e2d3`, pushed):**
+`scripts/pg-greek-column.mjs` written — mirrors `pg-latin-twin.mjs`, crops the
+Greek side of the same x-range split, writes chunk-aligned scan-OCR Greek to
+`src/pg-greek-scan/<workKey>/` (verifier-only, third witness, never a
+translation source). Re-run on all three pilot works; recovered ἀπερίγραπτος
+cleanly. Also folded in condition 2 (`greekPlateAbsentPages` now a required
+top-level field in every PG twin manifest, both scripts) and the Q1 band
+amendment (0.85–1.6×, sub-0.5× presumptive wrong column) that was ruled but
+never applied to the gate code — `pg-latin-twin.mjs` fixed.
+
+Next moves in order (per §8a below): (b) Joel Latin backfill per §8a.B; (c)
+queue additions per §8a.C (Glabas Sermons II–IV, then a second Oecumenius
+unit — Gal or Eph, NOT Jude/Colossians). Both may now proceed — condition 1
+was the blocker for the queue additions, and the backfill's Sonnet step
+(harvest the twin for Joel) can reuse the same tooling pattern.
 
 Everything the section below lists as owed is DONE, including the deploy
 (`f470595`→`be3a078`, pushed, deployed):
