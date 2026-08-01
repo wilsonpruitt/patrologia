@@ -1,6 +1,174 @@
 # Next session — resume note
 
-## ▶ 9033 Angelomus SHIPPED + DEPLOYED 2026-07-31 (Sonnet, `8ea92da`→`9a9ab99`, pushed) — LIVE, verified
+## ▶▶ PG PAIRED PILOT — TRANSLATED, MERGED, POLARITY-GATED. NOT BUILT, NOT DEPLOYED. (2026-07-31→08-01)
+
+**Read this whole section before touching PG.** `pg-paired-pilot.md` is still
+the governing spec; this records what executing it actually produced, what it
+changed in the rulebook, and exactly what is owed.
+
+### State in one table
+
+| Work | Key | Chunks | Verify | Polarity | Badge on deploy |
+|---|---|---|---|---|---|
+| Nicetas of Maroneia, *Dialogi* (dial. I + frr. II–VI) | `nicetas-maroneia-dialogi` | 10 | ✅ | 0 sites | **First** (`none`, verified 2026-07-03) |
+| Isidore Glabas, *Sermo I* (Nativity) | `isidore-glabas-sermo-1` | 4 | ✅ | 0 sites | **First** (inherited verified `none`) |
+| Oecumenius of Tricca, *in Philippenses* | `oecumenius-philippians` | 14 | ✅ | 2 sites, 1 ours (fixed) | **New** — no status in hand, and per rule 8 **do not go hunting** |
+
+**Polarity ledger 95/95 — gate GREEN.** Every englished work in the corpus has
+now been read for the silent-repair class.
+
+**18 commits local on `master`, UNPUSHED** (origin still at `c741877`). Nothing
+built, nothing deployed, nothing on migne.app. `site/` untouched.
+
+### ⚠ WHAT IS OWED — in order
+
+1. **Author bios — BLOCKING.** All three authors are **MISSING** from
+   `data/author-bios.json` (34 entries; schema `displayName`/`latin`/`dates`/
+   `bio`). Without them the byline falls back to the Latin form — acceptable
+   temporarily, **not for deploy** (runbook step 5).
+2. **Build + index:** `build-work-page-pg.mjs` then `index-work-pg.mjs` per
+   work. Optional prose in `data/work-about.json` (never edited into generated
+   HTML).
+3. **§8 GATE QUESTIONS — assign to FABLE.** The spec (§8) says a session must
+   answer six questions before Joel's backfill or any PG scale-up, and names
+   Fable as the reader of the findings. **All six now have real data** —
+   answers sketched below, but they want a session that has read the cruces
+   files, not a paraphrase of this note.
+4. **Deploy — Wilson's per-action OK, and the full step-8 checklist**, incl.
+   `polarity-record.mjs --gate` first, `RECENT` in `build-landing.mjs`, all six
+   generated-page rebuilds, `cd site && npx vercel --prod --archive=tgz`, then
+   smoke-test. Deploy is `site/`, project `migne` — never the repo root.
+5. **`translation.englishState = "ours"`** at ship time, and **leave
+   `workStatus` exactly as triage left it** (rule 8; this is what put a false
+   "First" on Abbo).
+6. **Two `data/calfa-patches/` entries warranted, not written** — both
+   plate-checked: col 1325's nine lost words, and the truncated subscription.
+   See `src/english/oecumenius-philippians/OPEN-QUESTIONS.md` §4.
+
+### ⚑ RULEBOOK CHANGES MADE — these outlive the pilot
+
+- **`translation-style.md` Pattern 13a — the visible-structure rule (WILSON
+  RULED 2026-08-01, corpus-wide, PL included).** Recoverable source loss:
+  (1) words lost mid-sentence, plate certain → restore **silently**, log;
+  (2) a **reader-visible structural unit** (heading, speaker turn,
+  subscription, division mark) → restore **with `[ed:]`**, because its absence
+  is otherwise invisible *as an absence*; (3) unrecoverable → `[ed:]` marking
+  the hole, supply nothing. **Principle: the marker makes an absence visible
+  when it would otherwise be invisible as an absence — it is not a receipt for
+  every keystroke of repair.** It passed its first outside test immediately: a
+  blind reader independently wrote up five restorations as unmarked holes, then
+  withdrew them on finding 13a.
+- **`pg-paired-pilot.md` §4a — THE THIRD WITNESS.** The djvu.xml we crop the
+  Latin twin from **carries Migne's GREEK column on the same leaves.** Splitting
+  the other side of the x-range gives an OCR of the plate's Greek fully
+  independent of Calfa, at the cost of a grep instead of a page render. This
+  changed the pilot's economics and is now standard practice. **Not yet
+  generalized into `scripts/pg-greek-column.mjs`** — worth doing next time a
+  session touches PG.
+- **`translation-style.md` Register (PG / Greek)** gained three genre
+  subsections written from the anchors — **Dialogue**, **High rhetorical
+  homily**, **Greek lemma-and-gloss / catena** — each with its own failure mode
+  and worked cases. EN/Greek ratios by genre: **chronicle 1.25 · lemma-gloss
+  1.35 · dialogue 1.37 · homily 1.49.**
+
+### ⚑ THE FINDINGS WORTH CARRYING FORWARD
+
+- **7a′ got its sharpest example.** Oecumenius col 1300: the English read
+  "certain **unprofitable** things" where Migne prints `λυσιτελῶν`, *profitable*
+  — shipped on the authority of a crux that had logged the column and argued the
+  emendation **with its reasoning backwards** (the neighbour it cited argues the
+  other way; `οὐκ … ἀλλὰ μᾶλλον πραγμάτων λυσιτελῶν … ἀποβολήν`, and the
+  resolution says `καθ᾽ αὑτὸ, κέρδος αὐτὰ ἐνόμιζεν`). Nothing downstream could
+  catch it. **A crux whose reasoning is STATED deserves more scrutiny than a
+  bare one** — a stated reason is what stops the next reader from checking. The
+  original entry is struck through, not deleted, in the merged cruces.
+- **The merge is not concatenation, and it changed the text.** Nicetas's two
+  halves split on the προβολ- family (20 "put forth" vs 6 "produce") and on
+  προϊέναι. Ruled on principle, not majority: *producere* flattens three Greek
+  verbs and "produce" **is** the English of *producere*, so adopting it imports
+  Allatius's flattening. Four passages edited.
+- **⚠ MERGE TRAP.** A cruces file declared a προΐεσθαι convention citing a
+  column where **its own chunks contain no such form** (the site is `προῖεται`,
+  circumflex iota; both textbook forms are in the *peer's* chunks). A merge
+  trusting the cruces prose would have "reconciled" two correct renderings into
+  a convention for a word that agent never translated. **Check the Greek, not
+  the cruces claim.** Same lesson, different shape: a cruces method note gave
+  the leaf formula as `(2n−7)` while its own worked examples said `(2n+3)` —
+  **check arithmetic against its own examples before trusting or passing it on.**
+- **Restraint is the pilot's real output.** ~16 `[lat:]` candidates were logged
+  **unmarked** with reasons — every one that fell in a leaf gap or rested on
+  shaky Latin OCR. Worked cases: Glabas's Ἀχάβ/*Achaz* (textbook name
+  divergence, declined because the only Latin witness there is tesseract of a
+  second copy); every ἡμεῖς/ὑμεῖς itacism in a gap.
+- **Genre predicts the failure mode, again.** Glabas's epithet rule caught what
+  it was written for: **πολυύμνητος and πανύμνητος stand three lines apart and
+  Allatius gives ONE Latin word for both**; likewise καλλίπαις/πολύπαις, where
+  the pair *is* the argument. Luke 1:28 rendered "Rejoice" not "Hail" —
+  load-bearing, since the next clause is `δι᾽ ἧς χαίρει πᾶσα ἡ κτίσις`.
+
+### §8 gate questions — data in hand (Fable to rule)
+
+1. **Twin sanity gate:** caught real misalignment, but **the band is not the
+   instrument.** It missed a line-interleaved crop (Nicetas 0195–0196) and
+   cannot see a Greek-plate blind spot at all. Ratios are genre-dependent
+   (dialogue 1.08 aggregate vs homily 1.48). **New field added:**
+   `greekPlateAbsentPages` in the twin manifest — where the primary scan has no
+   leaf, the Latin may survive via the alt witness while the **Greek plate does
+   not**, so §4a verification is unavailable though the twin looks healthy.
+2. **What the Latin settled:** most Calfa damage; but the decisive instrument
+   turned out to be the **third witness**, not the twin. Plate checks stayed
+   common *and* got cheap.
+3. **`[lat:]` per work:** 3 / 1 / 10. Classes beyond numerals: **pronoun
+   itacism (ἡμεῖς/ὑμεῖς)**, dropped negatives, opposite motives, temporal
+   polarity (`οὐκ ἔτι` vs *nondum*). **Two no-marker rules earned:** the
+   plate's own apparatus can settle a divergence (Migne's note correcting
+   Allatius), and **Vulgate-conformation in the Latin column is convention, not
+   divergence.** No marker spam — materiality held.
+4. **Register:** all three genres extended it; see above.
+5. **Generalization (PG 118):** column constant differs (K=−23 vs PG 139's
+   −15), leaf drift steeper (+4→−3 across 34 pages), one genuine side-parity
+   exception. `chunk-work-pg.mjs` was generalized to derive K per work.
+   **Verdict: it generalizes, but every volume needs its own verification.**
+6. **EN/Greek by genre:** the four ratios above.
+
+**Then:** Joel's Latin backfill spec (its two provisional findings and two
+scan-found divergences have been waiting), PG queue additions, and folding
+§5 into `translation-runbook.md` as a PG section.
+
+### Open questions carried (do not let these evaporate)
+
+`src/english/oecumenius-philippians/OPEN-QUESTIONS.md` — six sections. Highest
+value: **§1 Luke 10:20 at col 1316** prints `τὰ δαιμόνια` / `ἐν βίβλῳ ζωῆς`
+against the received `τὰ πνεύματα` / `ἐν τοῖς οὐρανοῖς`, **and the exposition
+depends on "book of life."** OCR cannot produce word-level substitutions, so it
+is likely a real plate reading — but it sits in the p.669 two-witness gap. **If
+a leaf for Calfa p.669 ever surfaces, check this first.** Also §5: a possible
+Migne `( sic )` at 1272 that would make our `[var:]` a duplicate of his own
+mark — needs a leaf image; PG 118's PDF is not held locally.
+
+Glabas has two of its own, in its merged `cruces.md`: the §14 numeral (both
+independent OCRs agree on `ΙΑʹ`, so a leaf *render* could turn an OCR fix into
+a `[lat:]`) and the Ἀχάβ/*Achaz* candidate pending a leaf for Calfa p. 21.
+
+### Also true, and easy to forget
+
+- **PG 118's Calfa file is Romans→Philippians only** — no Catholic epistles, so
+  the spec's suggested Jude unit does not exist in our source. Philippians was
+  the smallest complete lemma-and-gloss unit actually in hand.
+- **`verify-english.mjs` hard-fails on PG works** (it wants `src/latin/`) —
+  `verify-english-pg.mjs` is the one. And **guillemet parity with the twin
+  cannot be forced in PG**: that check assumes PL, where the twin *is* the
+  source.
+- Glabas *Sermon I* ends **mid-column 40**, with Sermon II beginning in that
+  same column. The other three sermons are deliberately not in the pilot —
+  they are the volume work its conventions now govern.
+- New registry entries: `isidore-glabas-sermo-1` (split from the four-sermon
+  parent, which is untouched but for a cross-ref) and `oecumenius-philippians`.
+  New scripts: `scripts/pg-latin-twin.mjs` (generic), `data/pg-latin-altsource/`.
+
+---
+
+## 9033 Angelomus SHIPPED + DEPLOYED 2026-07-31 (Sonnet, `8ea92da`→`9a9ab99`, pushed) — LIVE, verified
 
 **First English translation** of Angelomus of Luxeuil's *Enarrationes in Cantica
 canticorum* (PL 115, 27 chunks, 31,140 words) — the smallest queue-ready work after
