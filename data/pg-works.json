@@ -136,7 +136,11 @@
    "translationStatusVerified": "2026-07-03",
    "queueNote": "Sermon II of Isidore Glabas's Sermones IV in B. Mariam Virginem (parent `isidore-glabas-sermones`, PG 139, 11-164) -- the Entry sermon, split out per pg-paired-pilot.md §8a.C as the first queue addition after the PG gate opened. Span from the Calfa headings: ΛΟΓΟΣ Βʹ opens partway through page 27 (the same page/column where Sermon I ends) and ΛΟΓΟΣ Γʹ opens 55 chars into page 43, so both ends are truncated by data/calfa-patches/isidore-glabas-sermo-2.json. FULL SCAN-LEAF COVERAGE -- unlike Sermon I, every one of these 17 Calfa pages has a leaf in patrologiaecurs63migngoog (pages 28-30 are parity-filled, not leaf-gaps), so the Latin twin and the third-witness Greek are available across the whole sermon. NOTE a genuine side-parity flip inside the span: page 42 carries greekCol 69 (odd side) but page 43 carries 72 (even side); both are token-verified, so the chunker's per-page greekCol is trusted over the parity rule there. The Marian epithet table built for Sermon I governs this work (translation-style.md, Register PG/Greek, high rhetorical homily) -- it was written to govern the set. NOT YET TRANSLATED: harvest + gate done, translation launch still needs its own hard stop.",
    "pilot": false,
-   "latinVerifier": true
+   "latinVerifier": true,
+   "slug": "sermo-ii-in-praesentationem",
+   "latinScanItem": "patrologiaecurs63migngoog",
+   "statusProvenance": "translationStatus 'none' is INHERITED FROM THE SET, not verified for this sermon alone: the 2026-07-03 triage checked Isidore Glabas's Sermones IV as a unit (parent `isidore-glabas-sermones` — not in Daley or Cunningham, the two anthologies that would carry them), and sermo-1 rests on exactly the same evidence. Recorded explicitly rather than left to look like a per-work verification, per CLAUDE.md rule 8: the badge is the one claim on the site a reader cannot check, so where its evidence came from must be legible. If that set-level check is ever doubted, it is doubted for all four sermons at once.",
+   "englishState": "ours"
   },
   {
    "key": "joannes-citri-responsa",

@@ -91,7 +91,7 @@ if (flag('--gate')) {
 const positional = argv.filter((a, i) => !a.startsWith('--') && !(i > 0 && argv[i - 1].startsWith('--')))
 const idno = positional[0]
 if (!idno) {
-  console.error('usage: polarity-record.mjs <idno> --chunks N --sites N [--note "..."] | --gate | --import <dir>')
+  console.error('usage: polarity-record.mjs <idno> --chunks N --sites N --ours N [--method "..."] [--note "..."] | --gate | --import <dir>\n  --ours N  how many of the sites were OUR OWN defects and were FIXED. Defaults to 0,\n            which silently under-reports the corpus error rate — pass it explicitly,\n            including --ours 0 for a genuinely clean work, so 0 means measured-zero.')
   process.exit(2)
 }
 writeFileSync(join(REC, `${idno}.json`), JSON.stringify({
