@@ -1,0 +1,19 @@
+{
+ "note": "Restorations of Calfa OCR lacunae in the work's tail, plate-verified against the PG 118 scan (archive.org patrologiaecurs14migngoog, djvu.xml Greek column, leaves 671-672) by the 0010-0013 translation agent, 2026-07-31. Both were restored in the English at translation time (chunk 0013; the nine-word run silently per Pattern 13a clause 1, the subscription with [ed:] per clause 2); these entries repair the stored Greek. The ladder's plate-check requirement for a calfa-patches entry is satisfied for both (OPEN-QUESTIONS.md §4; find/replace strings include the [1325] stream anchor, which chunk-work-pg.mjs places before patches apply). The stored Greek chunk 0013 was hand-restored to match on 2026-08-01 (Joel precedent), so re-chunking is not required and chunk boundaries are undisturbed.",
+ "patches": [
+  {
+   "page": 674,
+   "col": "1325",
+   "find": "Οὐχ ὅτι ἐπιζητῶ τὸ δόμα ὑμῶν, διὰ τοῦτο [1325] λόγον ὑμῶν, οὐκ ἐμοῦ, πλεονάζοντα.",
+   "replace": "Οὐχ ὅτι ἐπιζητῶ τὸ δόμα ὑμῶν, διὰ τοῦτο ταῦτα λέγω, ἀλλ᾽ ἐπιζητῶ τὸν καρπὸν ὑμῶν, τὸν εἰς [1325] λόγον ὑμῶν, οὐκ ἐμοῦ, πλεονάζοντα.",
+   "provenance": "Nine words lost at the leaf 671→672 column break; what Calfa keeps does not construe. Plate (scan Greek column, leaves 671-672): …διὰ τοῦτο ταῦτα λέγω, ἀλλ᾽ ἐπιζητῶ τὸν καρπὸν ὑμῶν, τὸν εἰς λόγον ὑμῶν, οὐκ ἐμοῦ, πλεονάζοντα. Latin twin 0013 concurs: Non quod requiram munus vestrum propterea hoc dico, sed requiro fructum vestrum qui in rationem vestram non meam exuberat. The [1325] anchor is kept immediately before λόγον ὑμῶν, matching the English chunk's placement (…which abounds unto [1325] your account). English restored silently at translation time (Pattern 13a clause 1 — words lost mid-sentence, plate certain); cruces-0010 §3b item 1."
+  },
+  {
+   "page": 674,
+   "col": "1325",
+   "find": "Τέλος σὺν Θεῷ τῆς πρὸς Φιλιππνσίους",
+   "replace": "Τέλος σὺν Θεῷ τῆς πρὸς Φιλιππησίους Ἐπιστολῆς. Ἐγράφη ἀπὸ Ῥώμης δι᾽ Ἐπαφροδίτου.",
+   "provenance": "The work's final subscription, truncated mid-phrase by Calfa (which also misprints Φιλιππνσίους for Φιλιππησίους). Plate (scan Greek column, leaf 672): Τέλος σὺν Θεῷ τῆς πρὸς Φιλιππησίους Ἐπιστολῆς. Ἐγράφη ἀπὸ Ῥώμης δι᾽ Ἐπαφροδίτου. Latin twin 0013 concurs: Finis, divino favente auxilio, Epistolae ad Philippenses. Scripta est ab urbe Roma per Epaphroditum. English carries the restoration WITH [ed:] (Pattern 13a clause 2 — a reader-visible structural unit, ruled by Wilson 2026-08-01); cruces-0010 §3b item 2."
+  }
+ ]
+}
