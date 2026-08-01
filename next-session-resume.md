@@ -1,6 +1,54 @@
 # Next session — resume note
 
-## ▶▶ PG PAIRED PILOT — TRANSLATED, MERGED, POLARITY-GATED. NOT BUILT, NOT DEPLOYED. (2026-07-31→08-01)
+## ▶▶ 2026-08-01 (Fable): §8 GATE RULED **OPEN** — PILOT BUILT + STAGED. **ONLY THE DEPLOY REMAINS (Wilson's OK).**
+
+Everything the section below lists as owed is DONE except the deploy
+(`f470595`→`be3a078`, pushed):
+
+1. ✅ **§8 gate ruling written — `pg-paired-pilot.md` §8a** (read that, not a
+   summary). Verdict: **GATE OPEN with five conditions** (generalize
+   `pg-greek-column.mjs` before the next volume harvest; `greekPlateAbsentPages`
+   mandatory at harvest; prompts name their genre subsection; eye spot-check
+   reads for continuous prose; merge discipline as learned). Outputs written:
+   **§8a.B Joel Latin backfill spec** (Sonnet harvest + one Opus session,
+   priority adjudications incl. retrofitting `[lat:]` on 0240/0288/0269) and
+   **§8a.C queue additions** (Glabas Sermons II–IV, then a second Oecumenius
+   unit — likely Gal or Eph, NOT Jude/Colossians). **Runbook merged:**
+   `translation-runbook.md` now carries the PG section.
+2. ✅ **Author bios** — Nicetas of Maroneia, Isidore Glabas, Oecumenius of
+   Tricca (with `attributionFlag`: the catena ascription is a 16th-c.
+   convention). Joel's bio gained dates.
+3. ✅ **Built + indexed all three works.** ⚠ `build-work-page-pg.mjs` was
+   **Joel-hardcoded** — it would have shipped "(13th century)" bylines, Joel's
+   "On this text" prose, and an unconditional **false "First" on Oecumenius**.
+   Generalized: bios + popover card (attributionFlag reaches the reader), badge
+   by the same rule-8 test as build-landing (verified none → First, else New),
+   about-prose from `work-about.json` under `pg:<workKey>` (Joel's paragraph
+   moved there). Registry gained titleEn/slugs (needed — `PG_FIRSTS` matches on
+   slug paths). Pages: `/pg/139/dialogi-de-processione-spiritus-sancti/` (First)
+   · `/pg/139/sermo-i-in-nativitatem/` (First) ·
+   `/pg/118/commentarius-in-epistolam-ad-philippenses/` (**New**, flag renders).
+4. ✅ **`englishState: "ours"`** ×3, `workStatus` untouched (Oecumenius stays
+   null → New everywhere).
+5. ✅ **Both `data/calfa-patches/oecumenius-philippians.json` entries written**
+   (col 1325 nine words + subscription), stored Greek chunk 0013 hand-restored
+   to match (Joel precedent, no re-chunk), verify clean 14/14.
+6. ✅ RECENT + landing + scripture/sources/authors/queue/volumes/commentaries
+   all rebuilt and committed. **Gate green 95/95.**
+
+**⛔ THE ONE REMAINING ACTION — deploy, Wilson's per-action OK:**
+`cd site && npx vercel --prod --archive=tgz` (project `migne`, deploy root
+`site/`, never the repo root), then smoke-test the three URLs above + landing.
+Everything is committed and pushed; the working tree is clean.
+
+**After deploy, next moves in order:** (a) Sonnet: generalize
+`scripts/pg-greek-column.mjs` (gate condition 1); (b) Joel backfill per §8a.B;
+(c) queue additions per §8a.C. PL queue unchanged (9 prepared works; 9637 still
+needs its Fable liturgical mini-pilot).
+
+---
+
+## ▶▶ PG PAIRED PILOT — TRANSLATED, MERGED, POLARITY-GATED. NOT BUILT, NOT DEPLOYED. (2026-07-31→08-01) — **superseded by the section above except as history**
 
 **Read this whole section before touching PG.** `pg-paired-pilot.md` is still
 the governing spec; this records what executing it actually produced, what it
