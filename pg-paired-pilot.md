@@ -135,6 +135,34 @@ render) — otherwise a Calfa-mangled numeral manufactures a false divergence.
 columns.** The Latin is a second witness for exactly the defect class that
 leaves no lexical trace in a single pair.
 
+### 4a. THE THIRD WITNESS — the scan's own Greek column (found 2026-07-31)
+
+**The djvu.xml we crop the Latin twin from carries Migne's GREEK column on the
+very same leaves.** Splitting the *other* side of the x-range yields an OCR of
+the plate's Greek that is **completely independent of Calfa** — a third
+witness, available at zero marginal cost, with no leaf render required.
+
+This changes the ladder's economics. "Plate-verify the Greek" (required before
+any numeral or pronoun-itacism `[lat:]`, and before any `calfa-patches` entry)
+stops being an expensive render-and-read and becomes a grep. It also promotes
+a whole class of finding: where scan-Greek and Latin agree *against* Calfa, the
+defect is certainly ours; where scan-Greek and Calfa agree against the Latin,
+the divergence is certainly the plate's.
+
+- **Standard practice from now on**, for every PG work: agents get the scan
+  path and are expected to use it for plate verification.
+- The Nicetas 0006–0009 run proved it in the hardest case: Calfa printed
+  **περίγραπτος for ἀπερίγραπτος** — "the Trinity is *circumscribed*" — a
+  doctrinal predicate inverted, invisible once translated, caught because two
+  other witnesses of the same plate said otherwise.
+- Caveat, learned the same run: **the scan's OCR is rough on BOTH sides**, so
+  a divergence resting on scan-Latin alone can be crop noise. Where the Greek
+  is plate-verified and only the *Latin* reading is shaky, do not fire —
+  log it (the εʹ / "6." numeral case).
+- Tooling: a scratch splitter was written for that run; it should be
+  generalized into `scripts/pg-greek-column.mjs` alongside `pg-latin-twin.mjs`
+  when a session next touches PG. **Not yet done.**
+
 ## 5. Pipeline diff vs `translation-runbook.md`
 
 The PL per-work pipeline holds, with these substitutions:
