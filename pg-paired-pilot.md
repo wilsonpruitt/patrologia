@@ -214,6 +214,45 @@ confirm two independent scans exist. `data/volumes.json` already registers
 multiple items per tome; this becomes a queue precondition, like "no twin, no
 translation."
 
+#### ✅ SECOND-COPY SEARCH: PG 88 CLEARED (2026-08-04)
+
+Dorotheus's precondition is **met**. Two separately-scanned copies of PG 88 exist,
+both with independent OCR:
+
+| | item | pages | assets |
+|---|---|---|---|
+| **A (source)** | `patrologia-volumes` → `088.*` | **1,082** | `088.pdf`, `088_jp2.zip` (images), `088_djvu.xml`, 600 ppi, uploaded 2019 |
+| **B (witness)** | `PatrologiaGraeca` → `Patrologia Graeca Vol. 088.*` | **1,093** | PDF 143 MB, `_djvu.xml` 83 MB, uploaded 2017, different uploader |
+
+**The page counts differ — 1,082 vs 1,093.** Two digitizations of the same edition
+handle front matter and blanks differently; one scan re-uploaded twice cannot
+differ in page count. That is the cheap decisive test for "different physical
+copy," and it should be the standard one: **compare `/Linearized /N` in the PDF
+header (or `NNN_page_numbers.json`) before accepting a second copy.**
+
+Copy B is confirmed to cover Dorotheus — columns 1648 and 1811–1824 are present,
+with `Δωροθ` and `ἀποταγ` in the text. ⚑ **Its OCR ran a Greek model over the
+LATIN column as well**, so Migne's Latin comes out of copy B as garbled
+pseudo-Greek: **useless as a twin, perfectly good as a Greek witness.** Take the
+twin from copy A.
+
+#### ⛔ CORRECTION, and a trap this search exposed
+
+I previously assumed the `patrologia-volumes` mega-item held PDFs only. **It does
+not — it carries a full derivative set per volume**, including `NNN_djvu.xml` and
+`NNN_jp2.zip`. That is good news for sourcing (jp2 images beat rendering the PDF)
+but it plants a trap directly in the path of this amendment:
+
+> **Using the mega-item's own `NNN_djvu.xml` as the "third witness" for a text we
+> OCR from the mega-item's own images is TWO PASSES OVER ONE PHYSICAL COPY.** It
+> would satisfy the letter of the ladder and none of its purpose, and it is the
+> easiest mistake available now that the derivatives are known to exist.
+
+The witness must come from a **different item whose page count differs**. Antiochus
+is unaffected — its witness was `patrologicursus105migngoog`, a Google digitization
+distinct from the mega-item, and the two demonstrably failed differently (κ→χ,
+β→δ present in one and not the other).
+
 #### Four things the pilot proved, which the amendment must carry
 
 1. **The witness is NOT ground truth and may not be scored against.** Copy B is
