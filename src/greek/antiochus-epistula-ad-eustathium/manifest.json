@@ -1,0 +1,35 @@
+{
+  "workKey": "antiochus-epistula-ad-eustathium",
+  "title": "Epistola Antiochi ad Eustathium",
+  "titleEn": "The Letter of Antiochus the Monk to Eustathius",
+  "authors": [
+    "Antiochus Monachus (Antiochus of the Laura of Saint Sabas)"
+  ],
+  "series": "pg",
+  "volume": 89,
+  "language": "grc",
+  "pages": [
+    717,
+    720
+  ],
+  "citRange": "PG 89, 1422–1427 (Greek in cols 1421, 1424, 1425, 1428-top; the Latin faces on the same leaf and the sides swap each leaf)",
+  "colFirst": "1421",
+  "colLast": "1428",
+  "greekSource": "our own vision OCR of the plate — PG 89 has NO Calfa text; see ANTIOCHUS-START.md",
+  "chunkCount": 2,
+  "chunks": [
+    {
+      "chunk": 0,
+      "colFirst": "1421",
+      "colLast": "1424",
+      "words": 633
+    },
+    {
+      "chunk": 1,
+      "colFirst": "1425",
+      "colLast": "1428",
+      "words": 575
+    }
+  ],
+  "sourceWords": 1208
+}

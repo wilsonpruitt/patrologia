@@ -69,6 +69,16 @@ function paras(text, { anchorIds }) {
       // markers across the four PG works (17 [ed:], 17 [lat:], 13 [var:]) rendered
       // literally on migne.app until 2026-08-01. Kept byte-identical in behaviour to
       // build-work-page.mjs so the two builders cannot drift on the same pattern.
+      // [n: …] / [nt: …] — Migne's own note apparatus. These were absent from this
+      // builder because every earlier PG work came from Calfa, whose transcriptions
+      // carry NO note layer (index-work-pg.mjs says so in as many words). The first
+      // PG work sourced from our OWN OCR of the plate carries the apparatus, because
+      // we transcribe Migne's footnotes — and both markers rendered as raw bracket
+      // text until 2026-08-04. Behaviour kept identical to build-work-page.mjs.
+      .replace(/\[nt: ([^\]]*)\]/g, (_, nt) =>
+        `<span class="notecite prose">${nt}</span>`)
+      .replace(/\[n: ([^\]]*)\]/g, (_, n) =>
+        `<span class="notecite">${n}</span>`)
       .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
         `<span class="sic" title="Printed thus in the source text — see the notes on this work">${s}</span>`)
       .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>

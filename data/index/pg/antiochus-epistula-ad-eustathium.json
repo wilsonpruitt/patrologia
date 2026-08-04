@@ -1,0 +1,45 @@
+{
+  "workKey": "antiochus-epistula-ad-eustathium",
+  "series": "pg",
+  "volume": 89,
+  "title": "Epistola Antiochi ad Eustathium",
+  "titleEn": "The Letter of Antiochus the Monk to Eustathius",
+  "authors": [
+    "Antiochus Monachus (Antiochus of the Laura of Saint Sabas)"
+  ],
+  "citRange": "PG 89, 1422–1427",
+  "colFirst": 1421,
+  "colLast": 1428,
+  "sourceWords": 1208,
+  "columns": [
+    {
+      "col": 1421,
+      "grc": "Ἐπειδήπερ γεγράφηκάς μοι, τίμιε Πάτερ Εὐστάθιε, πολλὴν θλῖψιν ὑπερμεμενηκέναι, τόπον",
+      "en": "Since you have written to me, honoured Father Eustathius, that"
+    },
+    {
+      "col": 1424,
+      "grc": "τὰ περὶ αὐτῶν, εἶθ' οὕτως καθυποτάξαι τὰ τῆς θείας Γραφῆς",
+      "en": "the things concerning them, and so thereafter to append the"
+    },
+    {
+      "col": 1425,
+      "grc": "ἐν καιρῷ ἐπισκοπῆς αὐτῶν ἀναλάμψουσι.» Καὶ ταῦτα περὶ τῶν ἁγίων",
+      "en": "in the time of their visitation they shall shine forth.»"
+    },
+    {
+      "col": 1428,
+      "grc": "Μοδέστου οἰκοῦνται καὶ τὰ λοιπὰ τῆς ἐρήμου μοναστήρια. Ἰδοὺ οὖν,",
+      "en": "Modestus, the remaining monasteries of the desert also are inhabited."
+    }
+  ],
+  "heads": [],
+  "scripture": [],
+  "fontes": [],
+  "cruces": {
+    "count": 8,
+    "file": "src/english/antiochus-epistula-ad-eustathium/cruces.md"
+  },
+  "note": "Calfa source carries no citation apparatus or heads; scripture/fontes layers deferred until the diff-vs-scan pass restores Migne's notes. Columns indexed with Greek+English incipits.",
+  "indexed": null
+}

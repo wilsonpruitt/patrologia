@@ -17,6 +17,9 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-04 session: the Palestine block opens; FIRST PG work whose Greek is
+  //   our own OCR of the plate rather than Calfa (PG 89 has no Calfa text) —
+  'pg/89/the-letter-of-antiochus-the-monk-to-eustathius',        // Antiochus of Mar Saba — the 614 massacre of the Laura, to Eustathius of Ancyra
   // — 2026-08-01 session (later): first §8a.C queue addition after the PG gate opened —
   'pg/139/sermo-ii-in-praesentationem',                          // Isidore Glabas — Entry of the Theotokos into the Holy of Holies, Sermon II of the set
   // — 2026-08-01 session: the PG paired pilot ships, three works, three genres —
