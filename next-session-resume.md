@@ -20,11 +20,25 @@ scan crops are verifier-only by standing rule, the Greek OCR benchmark has never
 been run (`benchmark/greek-gt/` is empty), and if our OCR became the translation
 source the three-witness ladder would lose its independence.
 
-**Next actions, in order:** (0) hunt for an existing machine-readable Greek text
-outside Calfa — cheap, and a hit changes the cost of the block by an order of
-magnitude; (1) Greek half of the Phase 3 OCR benchmark, ground truth free from
-Calfa's Zenodo record; (2) Antiochus as the pilot — it is small enough to
-hand-check whole; (3) amend the §4 ladder before translating from our own OCR.
+**✅ Step 0, the source hunt, RAN 2026-08-04 — NEGATIVE.** No open,
+machine-readable ancient-Greek text exists for any of the five. **First1KGreek
+is a structural negative** (its only name-hits are *Catenae (NT)* and Dorotheus
+of **Sidon** the astrologer); DCO has the *Pratum* as a plate scan; TLG has all
+five but is non-redistributable; archive/Google `_djvu.txt` is plate OCR, i.e.
+step 1's input rather than a way past it. **The OCR benchmark is unavoidable.**
+One lead worth a direct look: Greek Orthodox libraries (`greekdownloads`,
+`myriobiblos`) appear to carry ancient-Greek HTML transcriptions — Moschus is
+**extracts only**, Dorotheus looks fuller, and neither carries Migne columns, so
+neither can be a source. But a transcription from a different manuscript
+tradition **fails differently from our OCR of Migne's plate**, which makes it a
+candidate second witness — the exact repair the step-3 ladder problem needs.
+⚠ That last reading is from a page-summarizer, not verified by eye.
+
+**Remaining actions, in order:** (1) Greek half of the Phase 3 OCR benchmark,
+ground truth free from Calfa's Zenodo record; (2) Antiochus as the pilot — it is
+small enough to hand-check whole (it is the dedicatory letter to Eustathius
+prefixed to the *Pandectes*, and Eustathius is the man who commissioned that
+work); (3) amend the §4 ladder before translating from our own OCR.
 
 **Interim work that needs none of this:** Glabas Sermon II (already harvested
 and gate-green — see below), then Sermons III–IV, then the second Oecumenius

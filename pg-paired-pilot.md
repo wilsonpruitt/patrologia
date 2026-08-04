@@ -507,12 +507,48 @@ designed to ask of it.
 
 #### Path in, cheapest-first
 
-0. **Source hunt before any OCR** (cheap, do first). Ask whether a
-   machine-readable Greek text already exists outside Calfa — First1KGreek/OGL,
-   Perseus, Documenta Catholica Omnia, `rosetta.reltech.org`. Dorotheus and
-   Moschus are widely-read texts and this may simply be free for one or two of
-   them. **A found text changes the cost of this whole block by an order of
-   magnitude**, so it gates everything below.
+0. ✅ **DONE 2026-08-04 (Opus). SOURCE HUNT RAN. Result: NEGATIVE — no open,
+   machine-readable ancient-Greek text exists for any of the five.** Step 1
+   below is therefore unavoidable; nothing found removes the OCR benchmark.
+   What was checked and what it holds:
+
+   - **First1KGreek / OpenGreekAndLatin — structural negative, the strongest
+     result here.** Searched the repo itself, not a description of it. Only two
+     name-hits and both are false friends: `tlg4102` is **Catenae (Novum
+     Testamentum)** (Sophronius appears as a *cited* name inside a catena) and
+     `tlg1337` is **Dorotheus of SIDON, the astrologer** — not of Gaza. No
+     Moschus, no Procopius of Gaza, no Antiochus. This is the largest open
+     patristic-Greek corpus and it does not have them.
+   - **Documenta Catholica Omnia** — has the *Pratum* (`z_0550-0619__Joannes_
+     Moschus__Pratum_Spirituale__MLT.pdf`, 5.7MB) but it is a **PDF scan of
+     Migne's plate**, image-based. Same tier as our own scans; not a text source.
+   - **TLG** — has all five. Subscription-licensed and non-redistributable, so
+     it cannot be the source of a text we publish. Usable as a *private
+     verifier* under Zelzer rules if Wilson ever has access; not a way in.
+   - **archive.org / Google Books `_djvu.txt`** — exists for these volumes, but
+     it is plate OCR, which is precisely the tier this project already rules
+     verifier-only. It is not a shortcut past step 1; it IS step 1's input.
+   - ⚑ **Greek Orthodox digital libraries — a real lead, but NOT a source, and
+     NOT yet verified by eye.** `greekdownloads.wordpress.com` ("Ελληνική
+     Πατρολογία", which keeps a per-volume Κλειδί including PG 87c and 88) and
+     `myriobiblos.gr` appear to carry ancient-Greek HTML transcriptions.
+     **Moschus there is EXTRACTS ONLY** — three anecdotes against the work's
+     ~219 units. Dorotheus looks fuller. Two disqualifiers stand regardless:
+     the edition behind the transcription is **unstated**, and there are **no
+     Migne column numbers**, which fails hard rule 1 (column anchors are the
+     citation-resolving unit). ⚠ These readings come from a page-summarizer,
+     not from reading the pages directly — treat as a lead to check, not a
+     finding.
+
+   **The one genuinely useful thing the hunt turned up:** the Dorotheus
+   transcription, IF it is real continuous ancient Greek, is a candidate
+   **second independent witness** — not a translation source, but exactly the
+   thing that repairs the independence problem in step 3 below. A transcription
+   made from a different manuscript tradition fails *differently* from our OCR
+   of Migne's plate, which is the property the ladder needs and the property
+   OCR-as-sole-source destroys. Worth one session's direct look before the
+   ladder amendment is written, and worth it for Dorotheus specifically because
+   it is the 230-column centerpiece.
 1. **Greek OCR benchmark (Phase 3, Greek half).** Build `benchmark/greek-gt/`
    from Calfa's Zenodo ground truth (record 20008699) — we have clean text AND
    plates for 33 volumes, so ground truth is free. Score vision OCR against it.
