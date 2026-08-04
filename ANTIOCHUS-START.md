@@ -52,3 +52,39 @@ Column map for pages 717–720 into `data/pg-column-maps/pg089.json`, per-page
 parity recorded, verified by ≥2 distinctive Greek tokens per column pair. Then
 Greek by Sonnet vision OCR (3.64% CER on this volume), Latin twin + third
 witness off the same plates, sanity gate, whole-text hand-check.
+
+## Step 2 DONE — column map written (`data/pg-column-maps/pg089.json`)
+
+Built WITHOUT the usual method: `pg-page-column-map.mjs` cannot run here (it
+requires Calfa text, which PG 89 has none of, and a `_djvu.xml` at
+`raw/scans/pg089/`). So the map was built from the plate directly.
+
+- **Scan with word coordinates:** `patrologicursus105migngoog` (archive.org,
+  volume field = 89), `_djvu.xml` 63 MB, 967 leaves. ⚑ **Gotcha:
+  `archive.org/download/<id>/<id>_djvu.xml` returned HTTP 500; the direct node
+  URL `https://ia800503.us.archive.org/0/items/<id>/...` worked.** Fall through
+  to the node from `/metadata/<id>` when the download path errors.
+- ⚑ This is a **different physical copy** from `raw/pg089/089.pdf`. Offset:
+  **leaf = PDF page + 10**. Verified by running heads (leaf 726→1419,
+  727→1421, 729→1425). Do not extend past leaves 726–731 — PG offsets drift.
+- **Per-leaf parity measured, not guessed** (Greek-char density per x-half):
+
+  | leaf | pdf p | cols | Greek col | side |
+  |---|---|---|---|---|
+  | 727 | 717 | 1421\|1422 | **1421** | left |
+  | 728 | 718 | 1423\|1424 | **1424** | right |
+  | 729 | 719 | 1425\|1426 | **1425** | left |
+  | 730 | 720 | 1427\|1428 | **1428** | right |
+
+- ⚑⚑ **PAIRING IS WITHIN A LEAF, and the Greek columns are NOT contiguous.**
+  Each leaf carries one passage as Greek + its facing Latin, and the sides swap
+  every leaf. So the letter's Greek lives in **1421(tail), 1424, 1425, 1428** —
+  a chunker that assumes a contiguous Greek column run will silently interleave
+  the Latin. Confirmed on leaf 728, where Latin *sacrae Scripturae capitula*
+  faces Greek *τὰ τῆς θείας Γραφῆς κεφάλαια*.
+- **Content verified by distinctive tokens** — and it is the right text:
+  leaf 727 `ΕΥ̓́ΣΤΑΘΙΌΝ`, `γεγράφηκάς`; leaf 729 **`Παλαστίνῃ`, `Σαρακηνῶν`**;
+  leaf 730 `Ζοροβάβελ`. The Palestine/Saracen material on 1425 is the
+  chapter-14 narrative.
+
+**Next (step 3):** Greek by Sonnet vision OCR over the four Greek half-columns.

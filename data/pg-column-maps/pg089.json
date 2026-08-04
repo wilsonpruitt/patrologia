@@ -1,0 +1,102 @@
+{
+  "volume": 89,
+  "scanItem": "patrologicursus105migngoog",
+  "scanPdf": "raw/pg089/089.pdf (archive.org patrologia-volumes/089.pdf, a DIFFERENT physical copy; PDF page = leaf - 10)",
+  "formula": {
+    "colOdd": "2*pdfPage + (-13)",
+    "leaf": "pdfPage + 10"
+  },
+  "note": "PG 89 has NO Calfa text, so this map was NOT built by the usual Calfa-token method. Columns were read off the plate's running heads (leaf 726 -> 1419, 727 -> 1421, 729 -> 1425) and per-leaf Greek/Latin parity was measured by Greek-character density in each x-half. PAIRING IS WITHIN A LEAF: each leaf carries one passage as Greek + its facing Latin, and the sides SWAP every leaf (727 Greek-left, 728 Latin-left, 729 Greek-left, 730 Latin-left). Confirmed on leaf 728 where Latin 'sacrae Scripturae capitula' faces Greek 'ta tes theias Graphes kephalaia'. Greek columns across the letter are therefore 1421(tail), 1424, 1425, 1428 - NOT a contiguous run. Formula verified only across leaves 726-731; do not extend it (leaf/page offset drifts within PG volumes).",
+  "work": "antiochus-epistula-ad-eustathium",
+  "citRange": "PG 89, 1422-1427 (per DCO Rerum Conspectus; title block sits at the foot of the 1421|1422 opening, text runs to the 1427|1428 opening)",
+  "pages": [
+    {
+      "leaf": 727,
+      "pdfPage": 717,
+      "colOdd": 1421,
+      "colEven": 1422,
+      "greekCol": 1421,
+      "latinCol": 1422,
+      "greekSide": "left",
+      "splitX": 636,
+      "greekChars": 1345,
+      "latinChars": 1512,
+      "verified": true,
+      "method": "greek-char-density per x-half; pairing confirmed by facing-text match",
+      "sampleGreekTokens": [
+        "ΕΥ̓́ΣΤΑΘΙΌΝ",
+        "Χαλδαϊχοῦ",
+        "βραχύτητι",
+        "γεγράφηκάς",
+        "δαξολογίαν",
+        "δεχόμενος"
+      ]
+    },
+    {
+      "leaf": 728,
+      "pdfPage": 718,
+      "colOdd": 1423,
+      "colEven": 1424,
+      "greekCol": 1424,
+      "latinCol": 1423,
+      "greekSide": "right",
+      "splitX": 735,
+      "greekChars": 1964,
+      "latinChars": 2286,
+      "verified": true,
+      "method": "greek-char-density per x-half; pairing confirmed by facing-text match",
+      "sampleGreekTokens": [
+        "Καί&quot",
+        "Νιχομήδη",
+        "αἴρονται",
+        "γεγηθότες",
+        "γενόμενοι",
+        "γηραλέοι"
+      ]
+    },
+    {
+      "leaf": 729,
+      "pdfPage": 719,
+      "colOdd": 1425,
+      "colEven": 1426,
+      "greekCol": 1425,
+      "latinCol": 1426,
+      "greekSide": "left",
+      "splitX": 642,
+      "greekChars": 2166,
+      "latinChars": 2330,
+      "verified": true,
+      "method": "greek-char-density per x-half; pairing confirmed by facing-text match",
+      "sampleGreekTokens": [
+        "«ποιήτατο",
+        "Παλαστίνῃ",
+        "Πεισθέντες",
+        "Σαραχηνῶν",
+        "βασιλείαν",
+        "γειτνιώντων"
+      ]
+    },
+    {
+      "leaf": 730,
+      "pdfPage": 720,
+      "colOdd": 1427,
+      "colEven": 1428,
+      "greekCol": 1428,
+      "latinCol": 1427,
+      "greekSide": "right",
+      "splitX": 715,
+      "greekChars": 1356,
+      "latinChars": 2282,
+      "verified": true,
+      "method": "greek-char-density per x-half; pairing confirmed by facing-text match",
+      "sampleGreekTokens": [
+        "Διαθήκης&quot",
+        "Ζητησάτωσαν",
+        "Ζοροδάδελ",
+        "Πνεύματος",
+        "Σουμανῖτιν",
+        "Χριστιανοῦ"
+      ]
+    }
+  ]
+}
