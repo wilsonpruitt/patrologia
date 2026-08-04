@@ -20,29 +20,41 @@ scan crops are verifier-only by standing rule, the Greek OCR benchmark has never
 been run (`benchmark/greek-gt/` is empty), and if our OCR became the translation
 source the three-witness ladder would lose its independence.
 
-**✅ Step 0, the source hunt, RAN 2026-08-04 — NEGATIVE.** No open,
-machine-readable ancient-Greek text exists for any of the five. **First1KGreek
-is a structural negative** (its only name-hits are *Catenae (NT)* and Dorotheus
-of **Sidon** the astrologer); DCO has the *Pratum* as a plate scan; TLG has all
-five but is non-redistributable; archive/Google `_djvu.txt` is plate OCR, i.e.
-step 1's input rather than a way past it. **The OCR benchmark is unavoidable.**
-One lead worth a direct look: Greek Orthodox libraries (`greekdownloads`,
-`myriobiblos`) appear to carry ancient-Greek HTML transcriptions — Moschus is
-**extracts only**, Dorotheus looks fuller, and neither carries Migne columns, so
-neither can be a source. But a transcription from a different manuscript
-tradition **fails differently from our OCR of Migne's plate**, which makes it a
-candidate second witness — the exact repair the step-3 ladder problem needs.
-⚠ That last reading is from a page-summarizer, not verified by eye.
+**✅ Step 0 source hunt RAN 2026-08-04 — NEGATIVE, and CLOSED BY WILSON.** No
+open machine-readable ancient-Greek text exists for any of the five.
+First1KGreek is a structural negative (its only name-hits are *Catenae (NT)* and
+Dorotheus of **Sidon** the astrologer); DCO has the *Pratum* as a plate scan; TLG
+is non-redistributable. The one partial witness — `el.wikisource.org/wiki/Ασκητικά
+Δωρόθεου` — was opened and measured: real polytonic Greek, but **8,347 words ≈ a
+fifth of PG 88**, sections numbered **Α Β Γ Α Ζ** with Epistles filed under the
+Didaskaliai numbering, no edition, no columns, ano teleia replaced by `•` 257×
+vs 0 correct. Useful for **Discourse I only** (5,045 w, complete) as a collation
+witness. **⛔ Wilson closed the hunt 2026-08-04 — no session may reopen a
+transcription search for these five or any non-Calfa PG volume** (§8a.D step 0b).
 
-**Remaining actions, in order:** (1) Greek half of the Phase 3 OCR benchmark,
-ground truth free from Calfa's Zenodo record; (2) Antiochus as the pilot — it is
-small enough to hand-check whole (it is the dedicatory letter to Eustathius
-prefixed to the *Pandectes*, and Eustathius is the man who commissioned that
-work); (3) amend the §4 ladder before translating from our own OCR.
+**⛔ CORRECTION — this note previously said the Greek OCR benchmark had never
+run. That was wrong, twice.** It ran **2026-07-04**; `benchmark/RESULTS.md` has
+the Greek arm. The empty `benchmark/greek-gt/` dir was mistaken for absence of
+the work. **An empty output directory is not evidence a phase never ran.**
 
-**Interim work that needs none of this:** Glabas Sermon II (already harvested
-and gate-green — see below), then Sermons III–IV, then the second Oecumenius
-unit.
+**What the benchmark actually says, including on our own volumes** (scored
+2026-08-04): it already ruled *"do not vision-OCR Greek at bulk scale with
+current Claude models"* — Sonnet 8.59% mean CER vs Calfa's 1.05%. Per-page on
+our targets: **PG 89 (Antiochus) Sonnet 3.64% CER**, **PG 87 (Moschus/Sophronius)
+7.00%**. Both miss the ~2% bulk bar.
+
+**→ THE BLOCK SPLITS (§8a.D steps 2–4):**
+- **Antiochus is VIABLE NOW.** ~2% is a *bulk* bar — the wrong test for a text
+  short enough to hand-check whole. A few columns at 3.64% CER is a few dozen
+  character errors, all catchable in one read against the plate. The hand-check
+  becomes the independent witness the ladder needs. **This is Wilson's "hours,
+  not weeks," and the numbers agree. It is the next real piece of work.**
+- **Dorotheus · Moschus · Sophronius · Procopius are NOT viable.** At 230–260
+  columns, hand-checking 3.6–7% CER costs what translating costs. They **wait on
+  Calfa**, whose recognition model we do NOT have (the clone carries only
+  `REG-YOLOv12s.pt`, the layout detector). CGPG is an active project and the
+  natural ask — but **contacting them is outward-facing: Wilson's call, Wilson's
+  send.**
 
 ---
 

@@ -590,20 +590,76 @@ designed to ask of it.
 
    ⚠ **Open, not checked:** whether Greek Wikisource has a comparable page for
    Moschus. Given the blog carried only 3 of ~219 *Pratum* units, expect little.
-1. **Greek OCR benchmark (Phase 3, Greek half).** Build `benchmark/greek-gt/`
-   from Calfa's Zenodo ground truth (record 20008699) — we have clean text AND
-   plates for 33 volumes, so ground truth is free. Score vision OCR against it.
-   The bar is not "good"; the bar is **good enough to be a translation source**,
-   which is a higher bar than anything the crops have had to clear.
-2. **Antiochus is the pilot, and it is the right one** — a few columns, a
-   self-contained letter, Wilson's own #1, and small enough that a full
-   hand-check against the plate is affordable. Do not scale to Dorotheus's 230
-   columns off an unpiloted OCR path.
-3. **Ladder amendment.** If the Greek comes from our own OCR, write down what
-   replaces the lost third witness *before* translating — likely Migne's Latin
-   promoted from witness to co-source, plus a second OCR pass by a different
-   model. This is a doctrine change to §4 and belongs to Wilson/Fable, not to a
-   production session.
+
+0b. ⛔ **THE HUNT IS CLOSED (Wilson, 2026-08-04). Do not reopen it.**
+   Ruling: *"we need to focus on the OCR benchmark and not hunt forever for a
+   transcription."* Steps 0 and 0a answered the question they were asked — no
+   open Greek text exists, and the one partial witness has been measured — and
+   that is where source-hunting stops. **No further session may open a
+   transcription search for these five works, or for any PG volume outside
+   Calfa.** The generalization of rule 8's principle from badges to sources:
+   **the text is the product; acquisition archaeology is not.** An afternoon
+   spent looking for a Greek Moschus is an afternoon not spent building the
+   thing that unblocks all 128 non-Calfa volumes at once.
+
+   If a transcription surfaces incidentally in the course of other work, record
+   it as a collation witness and move on. Do not go looking.
+1. ⛔ **CORRECTION 2026-08-04 — "the Greek OCR benchmark has never been run" was
+   WRONG, and it was asserted twice.** It ran **2026-07-04**; `benchmark/RESULTS.md`
+   has the Greek arm in full. The empty `benchmark/greek-gt/` directory was read
+   as absence of the work; the results file was not opened. ⚑ **An empty output
+   directory is not evidence that a phase never ran** — the same "absence of
+   evidence" trap CLAUDE.md rule 8 legislates against for badges.
+
+   **The benchmark already ruled, and it ruled against us:** *"Greek: do not
+   vision-OCR at bulk scale with current Claude models."* Sonnet 8.59% mean /
+   ~3.3% median CER against Calfa's own 1.05%; the standing recommendation is to
+   run or adapt **Calfa's pipeline** for volumes outside their 33.
+
+   **And the sample happens to contain two of our five target volumes.** Scored
+   directly 2026-08-04:
+
+   | page | Sonnet CER / WER | Haiku CER / WER |
+   |---|---|---|
+   | `PG_89-1855` (Antiochus's volume) | **3.64% / 8.31%** | 10.37% / 26.91% |
+   | `PG_87-4080` (Moschus + Sophronius) | **7.00% / 7.98%** | 25.56% / 46.01% |
+
+   Both miss the ~2% translation-source bar. PG 87 misses it badly.
+
+2. ⚑ **THE RULING THIS PRODUCES — split the block. The bar is a BULK bar.**
+   ~2% CER is the threshold for text nobody will read against the plate. It is
+   the wrong test for a work short enough to hand-check whole.
+
+   - **Antiochus (PG 89) is VIABLE NOW, and it is the one Wilson wanted first.**
+     A few columns at 3.64% CER is on the order of a few dozen character errors
+     — every one of them catchable in a single careful read against the plate,
+     which at this length costs an afternoon. Add the Latin twin and the third
+     witness and the ladder still stands. **This is his "hours of work, not
+     weeks," and the numbers agree.**
+   - **Dorotheus · Moschus · Sophronius · Procopius are NOT viable.** At
+     230–260 columns each, hand-checking OCR at 3.6–7% CER is the same order of
+     labour as translating the work. There is no affordable verification, so
+     there is no honest translation. **They wait on Calfa** — and per 0b we wait
+     rather than hunt.
+   - Corollary: the Wikisource Discourse I witness (0a) does **not** rescue
+     Dorotheus. It covers ~12% of that work's Greek; the remaining 88% has the
+     same unaffordable-verification problem.
+
+3. **The Calfa route is the only way the big four open, so make it the ask.**
+   The clone carries `sources/pg/calfa/models/REG-YOLOv12s.pt` — that is the
+   **region/layout detector only, not the text-recognition model**, so we cannot
+   simply run their stack. CGPG (Jean-Marie Auwers, UCLouvain + Calfa) is an
+   *active* project whose stated purpose is OCR-ing the remaining non-digital PG
+   volumes; PG 87.2/87.3, 88, 89 are plausibly already on their roadmap. The
+   corpus is CC-BY and we are a legitimate downstream user.
+   ⚑ **Contacting them is outward-facing — Wilson's call and Wilson's send.**
+   Do not draft-and-send; draft only if asked.
+
+4. **Ladder amendment — still required, now only for Antiochus.** Our OCR as
+   translation source collapses source and third witness into one pass over one
+   plate. For Antiochus the replacement is affordable and concrete: the full
+   hand-check against the plate IS the independent witness, plus Migne's Latin
+   promoted from witness to co-source. Write that into §4 before translating.
 
 **Sequencing against 8a.C:** Glabas Sermon II is already harvested and
 gate-green, so finish it — it is the cheapest shipped work available and costs
