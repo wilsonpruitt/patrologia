@@ -88,3 +88,51 @@ requires Calfa text, which PG 89 has none of, and a `_djvu.xml` at
   chapter-14 narrative.
 
 **Next (step 3):** Greek by Sonnet vision OCR over the four Greek half-columns.
+
+## Step 3a — crop method settled, and the letter's TRUE extent found
+
+**Cropping: follow the project's own precedent, don't reinvent it.** Automatic
+gutter detection succeeded on the two clean two-column plates (1424 ratio 0.18,
+1425 ratio 0.17) and **failed on both plates carrying a full-width band** — p717's
+centred title block and p720's `ΑΝΤΙΟΧΟΥ ΜΟΝΑΧΟΥ ΠΡΟΘΕΩΡΙΑ` heading (ratios 0.49 /
+0.39). Two refinements (two-column-row filtering, smoothed argmin) did not fix
+it. ⚑ Migne also prints his **marginal paragraph letters A/B/C/D inside the
+gutter**, so the gutter is never truly empty and width-of-valley tests mislead.
+`benchmark/RESULTS.md` note 3 already settled this for the Latin arm — pre-cut
+crops "clipped text unpredictably", so full-page renders naming the column were
+used instead. **Same call here.** Crops are kept only as a visual aid.
+
+**Visual check of the two bad crops paid for itself** — it exposed the real
+structure of the piece:
+
+- **The Greek body of the letter opens in col 1421**, below the full-width title
+  block, at *Ἐπειδήπερ γεγράφηκάς μοι, τίμιε Πάτερ Εὐστάθιε, πολλὴν θλῖψιν
+  ὑπερμεμενηκέναι, τόπον ἐκ τόπου, καὶ χώραν ἐκ χώρας ἀμείβοντα, φόβῳ τοῦ
+  ἐπικρατοῦντος Χαλδαϊκοῦ χειμῶνος…* — "since you have written to me, honoured
+  Father Eustathius, that you have endured much affliction, exchanging place for
+  place and land for land, for fear of the prevailing **Chaldean storm**…"
+  The Persian invasion as *Chaldaïkos cheimōn*. **This is the chapter-14 text and
+  its content is now confirmed, not assumed.**
+- ⚑⚑ **THE LETTER ENDS PARTWAY DOWN COL 1428, AND THE COLUMN KEEPS GOING.**
+  Below the Greek `…εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.` the same column carries
+  (a) the **Latin tail** of the letter (*Numerus proinde sanctorum Patrum…
+  in saecula saeculorum. Amen.*), then (b) the heading **ΑΝΤΙΟΧΟΥ ΜΟΝΑΧΟΥ
+  ΠΡΟΘΕΩΡΙΑ** and (c) the Greek of the *next work*. **A column-range harvest of
+  1421–1428 would silently append the Protheoria's Greek to the letter** — the
+  exact class of error `keepFrom`/`cutBefore` exists for (§8a.C defect 3). The
+  cut marker is `Ἀμήν.` followed by the Latin block; extract it programmatically
+  from the source, never hand-typed (the oxia trap).
+- Also present and to be preserved: a footnote on *λαύρα* at the foot of 1421
+  (*Lauram neoterici Graeci insigne dicunt monasterium…*), and Migne's marginal
+  A/B/C/D subdivision letters — those are **column anchors** (hard rule 1) and
+  must survive into the chunked text.
+
+**Greek columns for the letter, final:** `1421` (from below the title block),
+`1424`, `1425`, `1428` (**top portion only, to `Ἀμήν.`**).
+
+**Method decision for step 3b:** transcribe from the full-page 400 dpi renders
+(`raw/pg089/hi-717…720.png`), column named per the map, output to
+`src/pg-greek-ocr/antiochus-epistula-ad-eustathium/`. Run on **Opus vision** —
+the benchmark never tested Opus on the Greek arm (it extrapolated from Latin),
+so this pilot also produces that missing data point, on a text short enough to
+score by hand against the plate.
