@@ -667,6 +667,80 @@ this block nothing. Sermons III–IV and the second Oecumenius unit are the
 natural interim work *while* step 0/1 run, since they need no new capability.
 The Palestine block outranks them the moment it has a Greek text.
 
+### 8a.E — THE FOUR MEASURED, AND THE VIABILITY RULING REVERSED (2026-08-04)
+
+**Wilson: *"I am going to translate them for another project, so they would be
+worth the vision OCR on this one — as opposed to other PG volumes where we can
+wait on Calfa."*** That flips step 2's ruling and the flip is correct. The
+"unaffordable hand-check" was only unaffordable as *extra* work; he is doing the
+close reading anyway for [[church-in-palestine]]. **These four are now the
+justified exception to the benchmark's bulk verdict** — and the verdict still
+stands for every other non-Calfa PG volume, which continue to wait on Calfa.
+
+**Why it actually holds, mechanically** (not just because the reading is free):
+the PG pipeline already sets **the chunk-aligned Latin twin beside every Greek
+chunk**, and agents are already instructed to mark divergence with `[lat:]`
+(Pattern 16). An OCR corruption in the Greek therefore surfaces as a
+**Greek↔Latin disagreement** — the twin is doing verification work at every
+chunk, unprompted, at 3.6–7% CER exactly as it does at Calfa's 1.05%.
+⚠ **The honest caveat: translating is not collating.** Reading a text closely
+finds corruptions that *change the sense*; it does not find a corruption that
+silently yields a different plausible word. That residue is what the twin and
+the third witness are for, and it is why the ladder amendment (step 4) is still
+required rather than waived.
+
+#### Column ranges — verified against DCO's *Rerum Conspectus Pro Columnis*
+
+Not estimated. Pulled from the per-volume column indexes for PG 087c, 088, 089
+and read from the raw index, not a summarizer.
+
+| work | PG | columns | span | Greek words (est.) |
+|---|---|---|---|---|
+| Antiochus, *Epistula ad Eustathium* | 89 | 1422–1427 | **6** | ~1,200 |
+| Procopius, *Panegyricus in Anastasium* | 87.3 | 2793–2825 | 32 | ~6,200 |
+| Procopius, *Descriptio S. Sophiae* | 87.3 | 2825–2837 | 12 | ~2,300 |
+| Procopius, *Monodia* | 87.3 | 2837–2843 | 6 | ~1,200 |
+| Moschus, *Pratum Spirituale* | 87.3 | 2851–3115 | **264** | ~51,500 |
+| Dorotheus, *Doctrinae diversae* | 88 | 1611–1835 | **224** | ~43,700 |
+| Dorotheus, *Epistolae I–VIII* | 88 | 1838–1844 | 6 | ~1,200 |
+| Sophronius, *Epistola synodica* | 87.3 | 3147–3201 | 54 | ~10,500 |
+| Sophronius, *Orationes I–IX* | 87.3 | 3201–3365 | **164** | ~32,000 |
+| Sophronius, *Anacreontica* (verse) | 87.3 | 3733–3839 | **106** | ~12,200 |
+| **the four, total** | | | **868** | **~161,000** |
+
+Word estimates use **145–220 Greek words per column NUMBER**, measured from our
+own five shipped PG works (Oecumenius 220 · Joel 201 · Nicetas 196 · Glabas
+145/145); midpoint 195, and 115 for the verse. Band on the four:
+**126,000–191,000 words.** Downstream: **~169 chunks**, **~3.4M tokens** of
+translation burn at the runbook's 20K/chunk, **~233K English words** at the
+homily-heavy 1.45× ratio, **~434 plate pages** to OCR.
+
+#### ⚠ Three corrections to the brief, all material
+
+1. **Procopius's LETTERS ARE NOT IN MIGNE.** PG 87c's index has no *Epistolae*
+   for him at all — the rhetorical corpus there is the *Panegyricus*, the
+   *Descriptio S. Sophiae*, and the *Monodia*. His letters were edited outside
+   Migne (Garzya–Loenertz). **A "letters + Panegyric" scope cannot be filled
+   from Migne**; either drop the letters or source them elsewhere, which is a
+   different project and out of this repo's remit.
+2. **Procopius's rhetorical works are in PG 87.3, not 87.1–2.** 87.1–2 are the
+   biblical commentaries — the part being excluded. The brief had this inverted.
+3. **The Sophronius "subset only" is the LARGEST of the four**, at 324 columns —
+   bigger than Moschus or Dorotheus. Excluding the *Miracula* (3423–3675, 252
+   cols) does save real weight, but the *Orationes* alone are 164 columns. If
+   the block needs trimming, this is where the trimming decision lives, not in
+   Dorotheus.
+
+#### ⚑ The efficiency finding: one volume buys three works
+
+**PG 87.3 carries Moschus AND Sophronius AND Procopius** — 632 of the 868
+columns. One column map, one crop calibration, one OCR pass over one volume's
+plates covers three of the five works. Dorotheus needs PG 88 and Antiochus PG 89.
+**So the whole block is three volumes, not five**, and 87.3 is far and away the
+highest-value single target. Sequence the volume work 87.3 → 88 → 89, but keep
+**Antiochus first for translation** (6 columns, it is the chapter-14 unlock, and
+it pilots the OCR-as-source path at a length where a total hand-check is trivial).
+
 ### 8a.C — PG queue additions (second output of the gate)
 
 Standing policy: **a PG work enters the queue only with a committed,
