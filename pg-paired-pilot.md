@@ -185,11 +185,12 @@ fragments inside `src/pg-latin/`. The two crops fail at the boundary
 - Joel's Greek crop carries 26 Latin runs, 4 substantive. Expect the same
   order of magnitude per work; it is cheap and it is decisive.
 
-### 4b. ⚠ DRAFT FOR WILSON'S RATIFICATION — the ladder when the Greek is OUR OCR
+### 4b. ✅ RATIFIED (Wilson, 2026-08-04) — the ladder when the Greek is OUR OCR
 
-*Drafted 2026-08-04 from the Antiochus pilot. **Not in force until Wilson rules.**
-§4 assumes Calfa supplies the Greek. For the 128 PG volumes outside Calfa's 33 it
-does not, and the ladder's independence has to be rebuilt from different parts.*
+***IN FORCE.** Drafted from the Antiochus pilot and ratified same day. §4 assumes
+Calfa supplies the Greek. For the 128 PG volumes outside Calfa's 33 it does not,
+and the ladder's independence is rebuilt from different parts, as follows. Regime
+**(c)** below is the ratified verification path for the Palestine block.*
 
 #### The problem in one line
 
@@ -249,7 +250,7 @@ Three candidate regimes, and I recommend the third:
 - **(b) Second model as third leg.** A different model's OCR of copy A, giving
   three passes. Catches model-specific failure, not shared failure — and shared
   failure on worn Migne type is exactly the plausible risk.
-- **(c) ⭐ THE BOOK-READING IS THE HAND-CHECK, AND IT IS LOGGED.** Wilson is
+- **(c) ⭐ RATIFIED — THE BOOK-READING IS THE HAND-CHECK, AND IT IS LOGGED.** Wilson is
   translating all four for [[church-in-palestine]] regardless. Close translation
   *is* a word-by-word read; the gap (§8a.E) is that it finds errors which change
   the sense, not errors that yield a different plausible word. So: **pair the
@@ -269,8 +270,8 @@ the strength of the OCR**. Rule 8 is unchanged — the badge tracks translation
 priority, not text quality — but the About text for such works must say plainly
 that the Greek was established by machine transcription of the plate and
 cross-checked against a second copy. **The reader is owed the provenance of the
-text, not just of the translation.** Antiochus is live with the badge "New" and
-does not yet carry this disclosure — that is an open item, not a settled one.
+text, not just of the translation.** ✅ Now a shipping requirement: a work whose
+Greek is machine-established does not ship without it.
 
 ## 5. Pipeline diff vs `translation-runbook.md`
 

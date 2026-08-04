@@ -160,6 +160,18 @@ const badge = (work.translationStatus === 'none' && !!work.translationStatusVeri
 
 // "On this text": curated prose from data/work-about.json under `pg:<workKey>`
 // (curated prose lives in data, never only in generated HTML); generic fallback.
+// ⛔ The default below asserts the text 'rests on the Calfa-GREgORI optical
+// transcription'. That is FALSE for any volume outside Calfa's 33, and it shipped
+// live on Antiochus (PG 89) on 2026-08-04 before being caught. Ratified ladder
+// amendment 4b makes text-provenance disclosure a shipping requirement, so a work
+// whose registry says the Greek is ours MUST carry a curated about entry and may
+// not fall through to this default.
+if (!workAbout[`pg:${key}`] && work.greekSource && work.greekSource !== 'calfa') {
+  console.error(`REFUSING TO BUILD ${key}: greekSource is "${work.greekSource}", not calfa, `
+    + `but there is no data/work-about.json entry for pg:${key}. The default about-text `
+    + `would falsely claim a Calfa transcription. See pg-paired-pilot.md 4b.`);
+  process.exit(1);
+}
 const aboutHtml = workAbout[`pg:${key}`] ?? `The Greek is Migne's printing of <i>${esc(work.title)}</i> (PG ${vol}, coll. ${colFirst}–${colLast}), by ${esc(work.author)}; our text rests on the Calfa–GRE<i>g</i>ORI optical transcription of the volume, read at translation time against Migne's parallel Latin column and the scan of the plates, with every restoration logged. The translation renders what Migne prints. Each gilt column number is an address: <b>migne.app/pg/${vol}/${colId(manifest.colFirst).slice(1)}</b> resolves to the first.`;
 
 // /method promises the cruces are published WITH the work; this is the link
