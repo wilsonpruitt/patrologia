@@ -549,6 +549,47 @@ designed to ask of it.
    OCR-as-sole-source destroys. Worth one session's direct look before the
    ladder amendment is written, and worth it for Dorotheus specifically because
    it is the 230-column centerpiece.
+
+0a. ✅ **DONE 2026-08-04 (Opus). THE DOROTHEUS LEAD, OPENED AND MEASURED.**
+   Read directly this time — pulled the wikitext off the MediaWiki API and
+   counted it, no summarizer. The blog page is a nav shell; its one outbound
+   link is the real artifact: **`el.wikisource.org/wiki/Ασκητικά Δωρόθεου`**,
+   the only Dorotheus page on Greek Wikisource (51,647 chars / **8,347 words**).
+
+   **It is genuine patristic Greek.** Polytonic, correct, and it opens with
+   Discourse I *Περὶ ἀποταγῆς* at `Ἐν ἀρχῇ ὅτε ἐποίησεν ὁ Θεὸς τὸν ἄνθρωπον…`.
+   Not a modern-Greek paraphrase. That much of the lead holds.
+
+   **But it is ~20% of the work, and it is structurally broken:**
+   - **Five sections only**, numbered `Αʹ · Βʹ · Γʹ · Αʹ · Ζʹ` — **a duplicate
+     Αʹ** and gaps at Δʹ Εʹ Ϛʹ. Against PG 88's ~230 columns (Greek ≈ 40K words)
+     this is about a fifth.
+   - **It is not even one work.** Discourse I is complete (5,045 w), but Βʹ
+     (*πρὸς τοὺς ἐν τῷ μοναστηρίῳ ἐπιστάτας*) and Γʹ (*πρὸς τὸν ἔχοντα τὴν
+     διακονίαν τοῦ κελλαρίου*) are **Epistles, not Didaskaliai** — the
+     Didaskaliai Βʹ is *περὶ ταπεινοφροσύνης*. The page silently mixes the
+     discourses with letters under one discourse numbering.
+   - **Zero provenance.** No edition named, no Migne, no columns; the single
+     literal `88` in the file is incidental.
+   - **It has been through a lossy reformatting.** `·` (ano teleia) occurs
+     **0** times and `•` (bullet) **257** times — the Greek punctuation mark was
+     substituted wholesale, plus 262 `<br />`. Whatever it was transcribed from,
+     it is at least one careless pass away from any printed edition.
+
+   **Ruling: not a source, and only a narrow witness.** It cannot be a
+   translation source (unknown edition, no columns, 20% coverage, fails hard
+   rule 1). As the step-3 second witness it is worth **exactly one thing**:
+   **Discourse I, where its 5,045 words are complete and continuous** and can be
+   collated against our OCR of PG 88's plate. That is a real asset for the
+   pilot's opening stretch and worthless past it. Do not let its existence argue
+   that Dorotheus is cheaper than it is — **the other ~80% has no witness but
+   Migne's Latin.** (Licensing is not the obstacle: Wikisource is CC BY-SA but
+   the underlying text is PD and a faithful transcription of a PD text adds no
+   new rights — cf. [[wroot-press-licensing]]. Cite it as a collation witness
+   anyway, as the ladder requires.)
+
+   ⚠ **Open, not checked:** whether Greek Wikisource has a comparable page for
+   Moschus. Given the blog carried only 3 of ~219 *Pratum* units, expect little.
 1. **Greek OCR benchmark (Phase 3, Greek half).** Build `benchmark/greek-gt/`
    from Calfa's Zenodo ground truth (record 20008699) — we have clean text AND
    plates for 33 volumes, so ground truth is free. Score vision OCR against it.
