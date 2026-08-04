@@ -445,6 +445,95 @@ it:
      re-index (`index-work-pg.mjs`) since markers change English text; work
      page rebuilds at the next deploy.
 
+### 8a.D — THE PALESTINE BLOCK (Wilson, 2026-08-04) — top of the PG queue
+
+Five works, requested top-priority, all serving
+[[church-in-palestine]] (`~/wroot-press/church-in-palestine/`). Listed in
+Wilson's order; **all five are blocked on the same missing capability, see the
+gate below — this is a priority ruling, not a launch.**
+
+1. **Antiochus Monachus, *Epistula ad Eustathium*** (PG 89) — a few columns,
+   likely first-ever English. Greek, Mar Saba, from the generation of the 614
+   Persian sack. Solves a real problem for **chapter 14**: the famous Strategos
+   account survives only in Georgian (out of the shop's competence), and this
+   letter supplies an in-competence eyewitness-era source. Hours, not weeks.
+2. **Dorotheus of Gaza** (PG 88, ~230 cols) — bounded, beloved, the single most
+   important text for **chapter 12** (the Gaza centerpiece). Wheeler's
+   Cistercian translation exists but is in copyright: this is the textbook
+   relaxed-rule case (2026-07-17) — foundational text translated afresh, prior
+   version acknowledged openly in the about-blurb. Badge = **"New"**, never
+   "First".
+3. **John Moschus, *Pratum Spirituale*** (PG 87.3, ~260 cols) — the anecdote
+   mine for the eve-of-conquest chapters, and charming enough to be a corpus
+   draw in its own right.
+4. **Sophronius — SUBSET ONLY** (PG 87.3): the homilies, the synodical letter,
+   and the anacreontic poems on the fall of Jerusalem. **Explicitly excluded:
+   the *Miracles of Cyrus and John*** (large, and the book does not need it).
+   The anacreontics may be first English; the homilies acknowledge Duffy's
+   Dumbarton Oaks volume. ⚑ Verse = a genre the register rulebook has never
+   covered — the anacreontics need a Fable mini-pilot and a
+   `translation-style.md` section before any agent touches them, same standing
+   rule as `9637 Ordo ad regem benedicendum`.
+5. **Procopius of Gaza — letters + *Panegyric*** (PG 87.1–2) — rounds out the
+   Gaza rhetorical school for chapter 12. **His enormous biblical commentaries
+   stay excluded.**
+
+#### ⛔ GATE: none of these five has a Greek text. This is the whole cost.
+
+Verified 2026-08-04 against `sources/pg/calfa/` and `data/volumes.json`:
+
+| Target | Calfa Greek? | Scan |
+|---|---|---|
+| PG 89 (Antiochus) | **no** | `patrologia-volumes/089.pdf` |
+| PG 88 (Dorotheus) | **no** | `088.pdf` |
+| PG 87.3 (Moschus, Sophronius) | **no** | `087c.pdf` |
+| PG 87.2 (Procopius letters/Panegyric) | **no** | `087b.pdf` |
+| PG 87.1 (Procopius) | `PG087_1_text.txt` — **but it is the OT commentaries, the excluded part** | `087a.pdf` |
+
+Every PG work shipped so far took its Greek from Calfa's clean OCR and used the
+scan crops as *verifier only* — condition 1 above says so in as many words
+(`pg-greek-scan/` is "chunk-aligned scan OCR, verifier-only, never a
+translation source"). These five volumes are outside Calfa's 33, so there is
+nothing to translate FROM. The tooling gap is real and named: **Phase 3, the
+OCR model benchmark, has never been run on Greek** — `benchmark/greek-gt/` is
+empty and `benchmark/crops/` is all PL.
+
+So the ladder collapses too. Today it is: clean Calfa Greek → Latin twin →
+scan-Greek third witness, three sources failing independently. Without Calfa,
+the translation source and the third witness become **the same OCR pass over
+the same plate**, and the independence that caught δυσσεθῆ and ἀπερίγραπτος is
+gone. Migne's Latin column would be doing more work than the ladder was
+designed to ask of it.
+
+#### Path in, cheapest-first
+
+0. **Source hunt before any OCR** (cheap, do first). Ask whether a
+   machine-readable Greek text already exists outside Calfa — First1KGreek/OGL,
+   Perseus, Documenta Catholica Omnia, `rosetta.reltech.org`. Dorotheus and
+   Moschus are widely-read texts and this may simply be free for one or two of
+   them. **A found text changes the cost of this whole block by an order of
+   magnitude**, so it gates everything below.
+1. **Greek OCR benchmark (Phase 3, Greek half).** Build `benchmark/greek-gt/`
+   from Calfa's Zenodo ground truth (record 20008699) — we have clean text AND
+   plates for 33 volumes, so ground truth is free. Score vision OCR against it.
+   The bar is not "good"; the bar is **good enough to be a translation source**,
+   which is a higher bar than anything the crops have had to clear.
+2. **Antiochus is the pilot, and it is the right one** — a few columns, a
+   self-contained letter, Wilson's own #1, and small enough that a full
+   hand-check against the plate is affordable. Do not scale to Dorotheus's 230
+   columns off an unpiloted OCR path.
+3. **Ladder amendment.** If the Greek comes from our own OCR, write down what
+   replaces the lost third witness *before* translating — likely Migne's Latin
+   promoted from witness to co-source, plus a second OCR pass by a different
+   model. This is a doctrine change to §4 and belongs to Wilson/Fable, not to a
+   production session.
+
+**Sequencing against 8a.C:** Glabas Sermon II is already harvested and
+gate-green, so finish it — it is the cheapest shipped work available and costs
+this block nothing. Sermons III–IV and the second Oecumenius unit are the
+natural interim work *while* step 0/1 run, since they need no new capability.
+The Palestine block outranks them the moment it has a Greek text.
+
 ### 8a.C — PG queue additions (second output of the gate)
 
 Standing policy: **a PG work enters the queue only with a committed,

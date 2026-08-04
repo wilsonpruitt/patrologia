@@ -1,5 +1,37 @@
 # Next session — resume note
 
+## ▶▶ 2026-08-04 (Opus): THE PALESTINE BLOCK is top of the PG queue — and it is source-blocked
+
+Wilson put five PG works at the top of the queue for
+[[church-in-palestine]]: **Antiochus Monachus's letter to Eustathius (PG 89)** ·
+**Dorotheus of Gaza (PG 88)** · **John Moschus, *Pratum Spirituale* (PG 87.3)** ·
+**Sophronius, subset only — homilies + synodical letter + anacreontics, NOT the
+*Miracles of Cyrus and John* (PG 87.3)** · **Procopius of Gaza, letters +
+*Panegyric* only, commentaries excluded (PG 87.1–2)**.
+
+Full ruling, rationale, per-work notes and the path in: **`pg-paired-pilot.md`
+§8a.D**. Read it before doing anything with these.
+
+**⛔ The one thing to know: not one of the five has a Greek text.** Calfa's 33
+volumes do not include PG 87.2, 87.3, 88, or 89 — and the `PG087_1` file we DO
+have is Procopius's OT commentaries, exactly the part Wilson excludes. Scans
+exist for all of them (`patrologia-volumes` → `087a/087b/087c/088/089.pdf`), but
+scan crops are verifier-only by standing rule, the Greek OCR benchmark has never
+been run (`benchmark/greek-gt/` is empty), and if our OCR became the translation
+source the three-witness ladder would lose its independence.
+
+**Next actions, in order:** (0) hunt for an existing machine-readable Greek text
+outside Calfa — cheap, and a hit changes the cost of the block by an order of
+magnitude; (1) Greek half of the Phase 3 OCR benchmark, ground truth free from
+Calfa's Zenodo record; (2) Antiochus as the pilot — it is small enough to
+hand-check whole; (3) amend the §4 ladder before translating from our own OCR.
+
+**Interim work that needs none of this:** Glabas Sermon II (already harvested
+and gate-green — see below), then Sermons III–IV, then the second Oecumenius
+unit.
+
+---
+
 ## ▶▶ 2026-08-01 (Opus, cont.): §8a.C started — Glabas Sermon II HARVESTED + GATED. Translation not launched.
 
 `isidore-glabas-sermo-2` (the Entry sermon, PG 139 cols 40–72, 17 Calfa pages,
