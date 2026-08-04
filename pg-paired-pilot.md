@@ -185,6 +185,93 @@ fragments inside `src/pg-latin/`. The two crops fail at the boundary
 - Joel's Greek crop carries 26 Latin runs, 4 substantive. Expect the same
   order of magnitude per work; it is cheap and it is decisive.
 
+### 4b. ⚠ DRAFT FOR WILSON'S RATIFICATION — the ladder when the Greek is OUR OCR
+
+*Drafted 2026-08-04 from the Antiochus pilot. **Not in force until Wilson rules.**
+§4 assumes Calfa supplies the Greek. For the 128 PG volumes outside Calfa's 33 it
+does not, and the ladder's independence has to be rebuilt from different parts.*
+
+#### The problem in one line
+
+§4's three witnesses are independent because the **source** (Calfa) and the
+**third witness** (our crop of the plate) are different acts on different
+artifacts. Take Calfa away and make our OCR the source, and source and witness
+become **one OCR pass over one image** — agreement then proves nothing.
+
+#### The rule: independence is bought with a SECOND PHYSICAL COPY
+
+Antiochus's answer, and it worked: **the source is our OCR of scan copy A; the
+third witness is an independent OCR of scan copy B — a different physical copy
+of the same volume.** Here: copy A = `patrologia-volumes/089.pdf`, copy B =
+`patrologicursus105migngoog`. Two copies of one edition fail *differently* — copy
+B carries systematic **κ→χ** and **β→δ** damage that copy A does not — so the
+disagreements localize the errors instead of confirming them. 1,178 tokens,
+96.8% agreement, and every one of the 38 residuals explained.
+
+**No second copy, no OCR-as-source.** Before any non-Calfa work is queued,
+confirm two independent scans exist. `data/volumes.json` already registers
+multiple items per tome; this becomes a queue precondition, like "no twin, no
+translation."
+
+#### Four things the pilot proved, which the amendment must carry
+
+1. **The witness is NOT ground truth and may not be scored against.** Copy B is
+   noisier than we are. It corroborates; it cannot produce a CER. Any figure
+   quoted as "our Greek OCR accuracy" from a witness comparison is invalid.
+2. **The residual must be hand-classified.** The automated checker cannot resolve
+   a hyphen-split whose witness halves are themselves damaged (`ὑπερ-` +
+   `δεδηχότες`). The claim "no divergent reading" rests on a human reading the
+   residual list, and the verification file must say so rather than quoting the
+   automated percentage alone.
+3. **Migne's Latin may be conjectural, and this volume says so.** PG 89 col
+   1421/1422: *hanc narrationem mire corruptam saepe divinando Latine
+   reddidimus.* Where the editor divines, the Latin is derived from the same
+   corrupt Greek and **cannot corroborate it** — agreement is circular.
+   ⚑ **Every non-Calfa volume gets a scan of its own prefatory matter and
+   footnotes for such admissions BEFORE the Latin is trusted.** This is cheap and
+   nobody was doing it.
+4. **The twin desynchronizes.** The Latin lagged the Greek by ~half a column by
+   the work's end, and the final Latin was printed *below* the Greek in the last
+   column. Per-chunk ratio gates mislead at work boundaries; a `[lat:]` check must
+   consult both adjacent twin files.
+
+#### The unsolved part — and it is the one that matters for the big four
+
+The load-bearing verification for Antiochus was **a human reading all 1,178 words
+against the plate at 400 dpi.** That is affordable at six columns. It is not
+affordable at Dorotheus's 230, Moschus's 264, or Sophronius's 324.
+
+Three candidate regimes, and I recommend the third:
+
+- **(a) Sampling.** Hand-check a defined fraction. Cheap, but it converts a
+  verified text into an estimated one, and the project's whole claim is that
+  someone actually looked.
+- **(b) Second model as third leg.** A different model's OCR of copy A, giving
+  three passes. Catches model-specific failure, not shared failure — and shared
+  failure on worn Migne type is exactly the plausible risk.
+- **(c) ⭐ THE BOOK-READING IS THE HAND-CHECK, AND IT IS LOGGED.** Wilson is
+  translating all four for [[church-in-palestine]] regardless. Close translation
+  *is* a word-by-word read; the gap (§8a.E) is that it finds errors which change
+  the sense, not errors that yield a different plausible word. So: **pair the
+  book-reading with a targeted machine pass over exactly the classes it misses**
+  — numerals, proper names, negations, and any token where the two copies
+  disagree. Those are enumerable and small. Antiochus is the evidence: the
+  automated cross-copy diff produced a 38-item list a human cleared in minutes,
+  and the numeral sweep — not the reading — is what found both real divergences.
+
+  Under (c) a work ships only when **both** are logged: the reading, and the
+  cleared disagreement list. Until both exist it stays staged.
+
+#### Claim discipline
+
+A work whose Greek is our own OCR **may not carry "First English translation" on
+the strength of the OCR**. Rule 8 is unchanged — the badge tracks translation
+priority, not text quality — but the About text for such works must say plainly
+that the Greek was established by machine transcription of the plate and
+cross-checked against a second copy. **The reader is owed the provenance of the
+text, not just of the translation.** Antiochus is live with the badge "New" and
+does not yet carry this disclosure — that is an open item, not a settled one.
+
 ## 5. Pipeline diff vs `translation-runbook.md`
 
 The PL per-work pipeline holds, with these substitutions:
