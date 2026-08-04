@@ -868,6 +868,42 @@ highest-value single target. Sequence the volume work 87.3 → 88 → 89, but ke
 **Antiochus first for translation** (6 columns, it is the chapter-14 unlock, and
 it pilots the OCR-as-source path at a length where a total hand-check is trivial).
 
+### 8a.F — Dorotheus QUEUED; PG 88's concordance is NON-LINEAR (2026-08-04)
+
+Source and both witnesses are on disk (`raw/pg088/088.pdf` 125 MB;
+`raw/scans/pg088/copyA_088_djvu.xml` 69 MB for the Latin twin;
+`copyB_088_djvu.xml` 79 MB as third witness). jp2 deliberately skipped — 2.66 GB
+against 13 GB free, and the PDF renders fine at 400 dpi.
+
+**⛔ The finding that changes the harvest plan: PG 88 has no usable linear
+column↔page formula.** PG 89's `colLeft = 2·page − 13` held across its whole
+span. PG 88 does not behave that way:
+
+- **Plate-verified anchor 1:** PDF page 836 = cols **1611|1612**, head *S.
+  DOROTHEI ABBATIS* — Dorotheus's opening.
+- **Plate-verified anchor 2:** PDF page 952 = cols **1799|1800** — the linear fit
+  from anchor 1 predicted **1843|1844**. **44 columns of drift.**
+- Average slope across the work is **1.621 columns per leaf, not 2.000**, so
+  roughly a fifth of the leaves do not advance the column count at all
+  (interleaved *Notae*, plates, or scan inserts — not yet diagnosed).
+- Consequently **col 1844 sits near leaf 975, not 951**: Dorotheus occupies
+  about **141 leaves, not the 117** a linear fit predicts. A harvest that trusted
+  the formula would have silently stopped 24 leaves short — losing the end of the
+  work, which is exactly where the *Epistolae* are.
+
+⚑ **Generalise: verify the concordance at BOTH ENDS of every work, never just at
+its start.** PG 89 was verified at one end and happened to be linear; PG 88 is
+not, and one anchor would have concealed it. This is the same shape as the
+step-2 error corrected in §4 — one confirmed example does not establish a
+relation across a whole work.
+
+**Next, and it is mechanical (Sonnet per §3):** build a per-leaf column map for
+leaves ~835–975 into `data/pg-column-maps/pg088.json` from copy A's running
+heads, smoothed against the observed slope and **spot-verified against renders at
+several points, not merely at the ends**. Record per-leaf Greek/Latin parity;
+PG 88's parity has not yet been measured and must not be assumed to alternate as
+PG 89's did.
+
 ### 8a.C — PG queue additions (second output of the gate)
 
 Standing policy: **a PG work enters the queue only with a committed,

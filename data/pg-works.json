@@ -175,6 +175,23 @@
       "scanItem": "patrologicursus105migngoog",
       "ladderCaveat": "Migne's editor in this volume states 'hanc narrationem mire corruptam saepe divinando Latine reddidimus' (foot of col 1421/1422). Where he divines, the Latin is NOT independent of the Greek. The whole-text hand-check against the plate is the load-bearing verification for this work, not the twin.",
       "queueNote": "Palestine block item 1 (§8a.D). Chapter-14 source for church-in-palestine: the Mar Saba massacre one week before the fall of Jerusalem, 44 martyrs, 15 May, and Modestus' rebuilding of the burned sanctuaries."
+    },
+    {
+      "key": "dorotheus-gazaeus-doctrinae",
+      "series": "pg",
+      "volume": 88,
+      "author": "Dorotheus of Gaza (Dorotheus Archimandrita)",
+      "title": "Expositiones et Doctrinae diversae",
+      "titleEn": "The Spiritual Instructions",
+      "citRange": "PG 88, 1611–1844 (Doctrinae 1611–1835; Epistolae 1838–1844)",
+      "status": "QUEUED — source + both witnesses on disk; column map NOT built",
+      "greekSource": "ours-vision-ocr",
+      "copyA": "patrologia-volumes/088 (1,082 pp) — source images + Latin twin",
+      "copyB": "PatrologiaGraeca 'Patrologia Graeca Vol. 088' (1,093 pp) — third witness ONLY; its OCR ran a Greek model over the Latin column, so its Latin is garbled pseudo-Greek and unusable as a twin",
+      "secondCopyCleared": "2026-08-04, page counts differ 1082 vs 1093 (pg-paired-pilot.md §4b)",
+      "estGreekWords": 43700,
+      "priorTranslation": "Wheeler, Cistercian Studies 33 (in copyright). Badge is 'New English translation'; the about-blurb must acknowledge Wheeler openly per the 2026-07-17 relaxed rule.",
+      "queueNote": "Palestine block item 2 (§8a.D) — the chapter-12 Gaza centerpiece."
     }
   ]
 }
