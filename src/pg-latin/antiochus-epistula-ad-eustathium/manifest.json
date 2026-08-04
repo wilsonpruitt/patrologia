@@ -1,0 +1,54 @@
+{
+  "work": "antiochus-epistula-ad-eustathium",
+  "volume": 89,
+  "scanItem": "patrologicursus105migngoog",
+  "chunks": [
+    {
+      "greekCol": 1421,
+      "latinCol": 1422,
+      "leaf": 727,
+      "greekWords": 229,
+      "latinWords": 244,
+      "ratio": 1.066,
+      "keepFrom": "Cum ad me",
+      "cutBefore": null,
+      "inBand": true
+    },
+    {
+      "greekCol": 1424,
+      "latinCol": 1423,
+      "leaf": 728,
+      "greekWords": 374,
+      "latinWords": 388,
+      "ratio": 1.037,
+      "keepFrom": null,
+      "cutBefore": null,
+      "inBand": true
+    },
+    {
+      "greekCol": 1425,
+      "latinCol": 1426,
+      "leaf": 729,
+      "greekWords": 406,
+      "latinWords": 401,
+      "ratio": 0.988,
+      "keepFrom": null,
+      "cutBefore": null,
+      "inBand": true
+    },
+    {
+      "greekCol": 1428,
+      "latinCol": 1427,
+      "leaf": 730,
+      "greekWords": 169,
+      "latinWords": 470,
+      "ratio": 2.781,
+      "keepFrom": null,
+      "cutBefore": "dictze sunt apoeryphze",
+      "inBand": false
+    }
+  ],
+  "greekPlateAbsentPages": [],
+  "aggregateRatio": 1.276,
+  "latinLagNote": "The Latin runs BEHIND the Greek by roughly half a column from leaf 729 onward. Leaf-wise pairing is exact at the work's start (verified on leaf 728: Latin 'sacrae Scripturae capitula' faces Greek 'ta tes theias Graphes kephalaia') and DRIFTS by the end. Per-chunk ratios are therefore not meaningful for the last chunk; the aggregate is the gate stat (Q1). Any Greek passage's Latin is findable within its own twin file or the adjacent one."
+}

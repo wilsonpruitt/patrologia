@@ -136,3 +136,52 @@ structure of the piece:
 the benchmark never tested Opus on the Greek arm (it extrapolated from Latin),
 so this pilot also produces that missing data point, on a text short enough to
 score by hand against the plate.
+
+## Step 4 DONE — Latin twin + third witness built; the band caught two real defects
+
+`src/pg-latin/antiochus-epistula-ad-eustathium/` (twin, named by GREEK column)
+and `src/pg-greek-scan/antiochus-epistula-ad-eustathium/` (third witness), both
+from the local djvu.xml. Reading order required **line-clustering by y with a
+median-glyph-height tolerance** — a fixed y-bucket interleaved adjacent lines
+(*"ad maximam presentium sui el futuro- temporis rum utilitatem"*). Worth reusing.
+
+### Gate
+
+| greek | latin | words | ratio | |
+|---|---|---|---|---|
+| 1421 | 1422 | 229 / 244 | 1.066 | OK |
+| 1424 | 1423 | 374 / 388 | 1.037 | OK |
+| 1425 | 1426 | 406 / 401 | 0.988 | OK |
+| 1428 | 1427 | 169 / 470 | 2.781 | out of band — explained below |
+
+**Aggregate 1.276 — GREEN** (band 0.9–1.3, Q1: the aggregate is the gate stat).
+Every chunk non-empty.
+
+### ⚠ Defect 1 — the Latin catch-up block was silently dropped
+
+`τεσσαράκοντα τεσσάρων` and `μηνὶ Μαΐῳ` — the count of the martyrs and their
+feast, the most citable facts in the letter — had **no Latin at all in any twin
+file.** Their Latin sits in a block printed at the **foot of col 1428, below the
+Greek's end**, which the side-split had handed to the *third witness* instead.
+126 words recovered and appended; removed from the witness. ⚑ **A work's last
+column can carry Latin below the Greek. Splitting a leaf by x alone loses it,
+and loses it exactly where the work's conclusion is.**
+
+### ⛔ Defect 2 — CORRECTION: "pairing is within a leaf" is only true at the START
+
+Step 2 asserted, on the strength of leaf 728 (Latin *sacrae Scripturae capitula*
+facing Greek *τὰ τῆς θείας Γραφῆς κεφάλαια*), that each leaf carries a passage as
+Greek plus its facing Latin. **That generalisation was wrong.** Twin file 1428
+opens mid-word at `desti,` — the tail of *Mo-|desti* — proving **the Latin runs
+behind the Greek by roughly half a column from leaf 729 onward.** One verified
+example at the start of a work does not establish the relation for the whole
+work; column-parallelism drifts as Greek and Latin lengths diverge.
+
+Consequence: the per-chunk ratio is meaningless for the final chunk (its Latin
+covers the tail of Greek 1425 *plus* Greek 1428), which is precisely why it read
+2.781. Recorded in the manifest as `latinLagNote`. The verifier is still sound —
+any Greek passage's Latin lies in its own twin file or the adjacent one — but
+**a per-chunk `[lat:]` check must look at both.**
+
+**Both defects were surfaced by the out-of-band ratio.** Had the aggregate alone
+been consulted (1.172 before the fix, green), both would have shipped.
