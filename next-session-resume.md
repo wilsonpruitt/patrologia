@@ -69,9 +69,19 @@ line, invisibly. **Not audited.** See `pg-paired-pilot.md` §8a.G.2.
 omitted leaf 858 while answering for its other six. Check returned lists against
 input lists.
 
-**Next after adjudication:** splice verdicts + full-width lines into the leaf
-files, then leaves 865+ (87 remain, cols to 1844) with `--overshoot 260` AND the
-full-width scan from the start.
+**⛔ HARVEST MODEL CHANGED — `scripts/pg-page-segments.py`, NOT `pg-leaf-crops.py`.**
+Wilson's call: one full-page run is cheaper than three or four bad crops, and the
+arithmetic agrees — Batch 2 cost ~107k tokens/leaf across five passes vs ~30k for
+a single full-page pass. Whole leaf, native 600 dpi, 8 overlapping segments,
+outer margins trimmed. The transcriber follows the Greek column itself and reads
+any escaping line whole. `pg-leaf-crops.py` is superseded (banner in the file);
+the full-width scan/crop scripts are no longer needed for new harvest, though
+they stay for auditing already-shipped works.
+
+**Next:** splice the Batch 2 verdicts + recovered full-width lines into the leaf
+files, and re-read leaves **856 and 861** (wide-set lines both crops cut, so both
+passes lost them). Then leaves 865+ (87 remain, cols to 1844) via
+`pg-page-segments.py` — one pass, no crop patches.
 
 ### Where Dorotheus actually stands
 
