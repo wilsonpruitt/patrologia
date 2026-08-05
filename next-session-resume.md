@@ -77,6 +77,17 @@ needed; both are documented and carry the traps.
    **Bonus:** two running heads read off the re-crops promoted leaves **836=1613**
    and **842=1625** from interpolated to plate-verified in `pg088.json`.
 
+### ⛔ DEPLOY OWED — apparatus wrapping fix (2026-08-05, `0f5d010`)
+
+Wilson caught the `[nt:]` *laura* gloss on the Antiochus page rendering as its
+own full-width line and stretching the line above it. `.notecite` is
+`white-space: nowrap` — right for "Prov. v, 22", wrong for a sentence. **The
+site-wide scan found 41 more, all plain `[n:]`**, up to 592 chars on the Becket
+vita, so the obvious `.prose` fix would have missed every one of them. Builders
+now add `.wraps` above 32 chars; `scripts/scan-nowrap-apparatus.mjs` reports the
+class clear (77 pages / 7,036 spans) and should be run before any deploy.
+**20 pages rebuilt and committed, NOTHING DEPLOYED** — needs Wilson's per-action OK.
+
 ### ⚑ Two method findings from today that will bite Dorotheus at TRANSLATION time
 
 Learned the hard way on Glabas Sermon III, and they generalize to every PG work:
