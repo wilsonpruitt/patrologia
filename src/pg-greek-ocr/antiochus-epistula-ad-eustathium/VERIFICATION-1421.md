@@ -41,6 +41,32 @@ logged on the Joel scan — **it is a property of these plates, not of one scan.
 - **`τοῖς τόποις` vs `ταῖς τόποις`** — τόπος is masculine. Ours stands.
 - **`τῆς καθ' ἡμᾶς Λαύρας` vs `καὶ`** — "the Laura **among us**". Ours stands.
 
+## ⛔ CORRECTION 2026-08-04 — one claim in this file was WRONG
+
+This file originally listed **`θλῖψιν` (ours) vs `θλίψιν` (witness)** among the
+readings where ours stands, on the reasoning that *θλῖψις* is the standard
+accentuation. **Re-checked against the plate at 400 dpi: Migne prints `θλίψιν`
+with an ACUTE. The witness was right and we were wrong.** Corrected in `1421.md`.
+
+A second instance was found in col 1428: the plate prints **`τὸν Θεὸν,`** with a
+grave; we had written `Θεόν`. Also corrected.
+
+⚑ **Why this matters more than two accents.** Both errors are the same class the
+PG 88 OCR pilot exposed on 2026-08-04 (`benchmark/pg88-pilot/`): **a fluent reader
+normalising the plate toward the form it knows.** This file's original claim of
+"no divergent reading on our side" was reached by comparing our OCR with another
+OCR — and **two OCRs cannot catch conformation-to-expectation, because a fluent
+transcriber and a scholar's expectation drift the same way.** The corroboration
+number (96.8%) was real; it was measuring the wrong thing for this class.
+
+**Still open:** ~8 further accent-only disagreements with the witness across the
+four columns (`δέ/δὲ`, `εἰκός/εἰκὸς`, `αὐτούς/αὐτοὺς` ×2, `ζωήν/ζωὴν`,
+`ἀληθινοί/ἀληθινοὶ`, `αὐτά/αὐτὰ`) are NOT yet plate-checked. Given two of two
+checked so far went against us, they should be presumed suspect until read. The
+remaining witness disagreements are demonstrably witness damage (dropped
+breathings on capitals `Αποστόλου`/`Αμήν`, impossible double accent `ἅγίον`,
+`Ἴουστίνῳ`, and `ἕξω` for `ἔξω`).
+
 ## Two cruces logged, not silently resolved
 
 1. **`ὑπερμεμενηκέναι`** — one expects *ὑπομεμενηκέναι* ("to have endured").
