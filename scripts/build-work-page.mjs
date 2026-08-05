@@ -95,6 +95,19 @@ const correctionFor = (noteContent, col) => {
   return null;
 };
 
+// `.notecite` is nowrap so a locator never splits across a line — right for
+// "Prov. v, 22", wrong for anything sentence-length, which cannot share a line
+// and so drops to one of its own AND stretches the justified line above it into
+// a row of isolated words. CSS cannot branch on content length; the builder can,
+// because it holds the text. Real locators are tiny (site-wide: median 12 chars,
+// p95 18, p99 37) and the tail past ~35 is compound reference lists and Migne's
+// editorial prose — 41 of them were live, up to 592 chars, the longest on the
+// Becket vita. 32 sits in that gap. Being wrong toward wrapping costs a rare
+// long locator an ugly break; being wrong the other way breaks the column.
+const NOWRAP_MAX = 32;
+const noteCls = (s, extra = '') =>
+  `notecite${extra ? ' ' + extra : ''}${String(s).replace(/<[^>]*>/g, '').trim().length > NOWRAP_MAX ? ' wraps' : ''}`;
+
 // `state` carries the current column while rendering ONE side of the parallel
 // page. Latin and English are rendered in interleaved order (lat sec 0, eng sec 0,
 // lat sec 1 …), so a single shared tracker would drift across the seam — each side
@@ -113,11 +126,11 @@ function inlineHtml(s, { anchorIds, state }) {
       // per Wilson's 2026-07-28 ruling. It is Migne's note either way, so it takes
       // the same .notecite treatment; it just never carries a citation correction,
       // because there is no reference in it to correct.
-      if (nt !== undefined) return `<span class="notecite prose">${nt}</span>`;
+      if (nt !== undefined) return `<span class="${noteCls(nt, 'prose')}">${nt}</span>`;
       const fix = state ? correctionFor(n, state.col) : null;
-      if (!fix) return `<span class="notecite">${n}</span>`;
+      if (!fix) return `<span class="${noteCls(n)}">${n}</span>`;
       const why = fix.note ? ` — ${fix.note}` : '';
-      return `<span class="notecite corrected" title="${esc(`The source prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${n}</span>`;
+      return `<span class="${noteCls(n, 'corrected')}" title="${esc(`The source prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${n}</span>`;
     })
     // pattern-4 inline locators: strip the wrapper, render the content as printed
     // (the tag is an index handle, not display markup — translation-style.md rule 1)
@@ -385,6 +398,18 @@ css += `
   font-size: .78em; color: var(--encre-douce); letter-spacing: .02em;
   white-space: nowrap;
 }
+/* Apparatus too long to sit on one line. The nowrap above is right for
+   "Prov. v, 22" and wrong for anything sentence-length: an unbreakable span the
+   width of a clause cannot share a line, so it drops to one of its own AND
+   stretches the justified line above it into a row of isolated words. That is
+   what shipped on the Antiochus letter (PG 89), whose [nt:] gloss on *laura* is
+   the corpus's first long one — and the site-wide scan then found 41 more, all
+   plain [n:] notes where Migne writes prose or stacks a dozen references, up to
+   592 chars on the Becket vita. The builders add .wraps above NOWRAP_MAX chars;
+   see the note there for the threshold. Long apparatus sits inside the sentence
+   flow and must wrap, exactly as .fonscite does below.
+   Run scripts/scan-nowrap-apparatus.mjs to check the class is clear. */
+.notecite.wraps { white-space: normal; }
 /* pattern-4 inline locator tails: apparatus, so quieter than body text, but they
    sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
 .fonscite {
@@ -653,10 +678,14 @@ css += `
 }
 
 /* ---------- PG work page ---------- */
-/* Emitted here too (identical to build-work-page-pg.mjs) so a PL rebuild,
-   which fully rewrites site/styles.css, never drops the Greek-column rules
-   a live PG page depends on. The PG builder strips+re-adds this same block
-   by its comment header, so there is never a duplicate. */
+/* Greek body in GFS Didot — the face Migne's Greek type descends from.
+   Rows cut at sentence ends near each column anchor; anchors inline,
+   hanging into the outer margins per the base .anchor rules.
+   Emitted from BOTH builders, byte-identical: a PL rebuild fully rewrites
+   site/styles.css and would otherwise drop the rules a live PG page depends
+   on, while the PG builder strips+re-adds this block by the header line above,
+   so there is never a duplicate. Keep the two copies in sync or every rebuild
+   flips the file back and forth. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }

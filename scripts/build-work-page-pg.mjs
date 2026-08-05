@@ -59,6 +59,19 @@ const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&
 const colId = c => 'c' + String(parseInt(c, 10));
 const colDisp = c => String(parseInt(c, 10));
 
+// `.notecite` is nowrap so a locator never splits across a line — right for
+// "Prov. v, 22", wrong for anything sentence-length, which cannot share a line
+// and so drops to one of its own AND stretches the justified line above it into
+// a row of isolated words. CSS cannot branch on content length; the builder can,
+// because it holds the text. Real locators are tiny (site-wide: median 12 chars,
+// p95 18, p99 37) and the tail past ~35 is compound reference lists and Migne's
+// editorial prose — 41 of them were live, up to 592 chars, the longest on the
+// Becket vita. 32 sits in that gap. Being wrong toward wrapping costs a rare
+// long locator an ugly break; being wrong the other way breaks the column.
+const NOWRAP_MAX = 32;
+const noteCls = (s, extra = '') =>
+  `notecite${extra ? ' ' + extra : ''}${String(s).replace(/<[^>]*>/g, '').trim().length > NOWRAP_MAX ? ' wraps' : ''}`;
+
 function paras(text, { anchorIds }) {
   return text.split(/\n\n+/).map(p => {
     const inline = esc(p.replace(/\n/g, ' '))
@@ -76,9 +89,9 @@ function paras(text, { anchorIds }) {
       // we transcribe Migne's footnotes — and both markers rendered as raw bracket
       // text until 2026-08-04. Behaviour kept identical to build-work-page.mjs.
       .replace(/\[nt: ([^\]]*)\]/g, (_, nt) =>
-        `<span class="notecite prose">${nt}</span>`)
+        `<span class="${noteCls(nt, 'prose')}">${nt}</span>`)
       .replace(/\[n: ([^\]]*)\]/g, (_, n) =>
-        `<span class="notecite">${n}</span>`)
+        `<span class="${noteCls(n)}">${n}</span>`)
       .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
         `<span class="sic" title="Printed thus in the source text — see the notes on this work">${s}</span>`)
       .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
@@ -272,7 +285,12 @@ css += `
 /* ---------- PG work page ---------- */
 /* Greek body in GFS Didot — the face Migne's Greek type descends from.
    Rows cut at sentence ends near each column anchor; anchors inline,
-   hanging into the outer margins per the base .anchor rules. */
+   hanging into the outer margins per the base .anchor rules.
+   Emitted from BOTH builders, byte-identical: a PL rebuild fully rewrites
+   site/styles.css and would otherwise drop the rules a live PG page depends
+   on, while the PG builder strips+re-adds this block by the header line above,
+   so there is never a duplicate. Keep the two copies in sync or every rebuild
+   flips the file back and forth. */
 .coltext.greek { font-family: var(--didot); font-size: .98rem; line-height: 1.72; }
 .colpair { border-top: 0; padding-top: .4rem; }
 .columns .colpair:first-child { border-top: 2px solid var(--encre); padding-top: 1.4rem; }
