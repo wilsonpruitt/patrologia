@@ -53,15 +53,29 @@ needed; both are documented and carry the traps.
 
 ### ⛔ Open before the next batch — decide these, don't drift past them
 
-1. **BURN STOP.** A batch fleet needs Wilson's "which model, and go?" with real
-   numbers. Batch 1 was 8 columns; ~109 leaves remain.
-2. **Which scan of a duplicated leaf to keep.** The map keeps the FIRST. A block
-   may well have been re-shot *because* the first pass was bad — compare a pair
-   before harvesting leaves 865–870, 893–902, 941–946.
-3. **Batch 1's 4 unresolved plate-look items** (0.09% of tokens): leaf 836
-   `"Καὶ τὰ τὸ καὶ"` (unintelligible, highest priority) · leaf 843 `ἔβης` ·
-   leaf 837 `[C]` + leaf 842 `[A]` clipped marginals — **these should now be
-   readable in the new crops** · leaf 836 `Λ'.` and leaf 841 `Ϛ'.` numerals.
+1. **BURN STOP — the ONLY thing still owed.** A batch fleet needs Wilson's
+   "which model, and go?" with real numbers. Batch 1 was 8 columns; ~109 leaves
+   remain. Items 2 and 3 below are CLOSED (2026-08-05).
+2. ✅ **CLOSED — keep the FIRST scan.** All 22 pairs measured with
+   `scripts/pg-dup-leaf-compare.py`: no re-shoot is a quality repair (±4%, and
+   the plates are bitonal JBIG2 so contrast/focus metrics cannot discriminate at
+   all — 254 on every scan). Genuinely different exposures, equally legible; only
+   the framing moves. Two false alarms run down: leaf 859's "margin 0" is
+   scan-edge dirt, and the tight bottom margins are the *Digitized by Google*
+   watermark, present on both members of every pair. Detail: `pg-paired-pilot.md`
+   **§8a.G.1**. Do not re-decide this.
+3. ✅ **CLOSED — all 4 plate-look items resolved**, full write-up appended to
+   `benchmark/pg88-pilot/BATCH1-ADJUDICATION.md`. In short: `Καὶ τὰ τὸ καὶ` is
+   **really what the plate prints** (re-read across the full page width, nothing
+   clipped) and becomes a CRUX not a repair — the Latin renders only *Accedit
+   his quod*, which is evidence, not licence to delete `τὰ`. `ἔβης` is **β**
+   (`παρέβης`) — but confirmed by the Latin twin printing *ut quid transgressus
+   es?*, NOT by the glyph, which our scan cannot separate from δ. Marginals
+   `[C]`/`[A]` are whole in the new crops (and `[A]` on 842 actually sits after
+   `Ἐκείνην`, a few words earlier than Batch 1 placed it — a clipped marginal
+   costs its address too). `Λ'.` is lambda, `Ϛ'.` is the stigma ligature.
+   **Bonus:** two running heads read off the re-crops promoted leaves **836=1613**
+   and **842=1625** from interpolated to plate-verified in `pg088.json`.
 
 ### ⚑ Two method findings from today that will bite Dorotheus at TRANSLATION time
 

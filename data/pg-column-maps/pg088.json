@@ -5,6 +5,8 @@
  "method": "Leaf -> printed column reconstructed by scripts/pg-column-map-rebuild.py from the running heads of BOTH scan copies, Viterbi over {continue +2, start a new run}, with plate-read anchors as hard constraints. PG 88 advances +2 per leaf everywhere; the apparent 1.62 slope in the first map was caused by THREE RE-SCANNED BLOCKS in the PDF, not by the volume. Leaves marked skipInHarvest repeat columns already covered.",
  "anchorsPlateVerified": {
   "835": 1611,
+  "836": 1613,
+  "842": 1625,
   "851": 1643,
   "859": 1659,
   "865": 1659,
@@ -69,10 +71,10 @@
   974
  ],
  "latinOnlyLeaves": {
-  "838": "carries the line 'Sequentia non habentur in Graeco' — Migne prints Latin only here; there is NO Greek to translate",
+  "838": "carries the line 'Sequentia non habentur in Graeco' \u2014 Migne prints Latin only here; there is NO Greek to translate",
   "970": "both columns Latin, no Greek column"
  },
- "workEndsAt": "leaf 973 — leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
+ "workEndsAt": "leaf 973 \u2014 leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
  "pages": [
   {
    "leaf": 835,
@@ -97,7 +99,7 @@
    "latPurityR": 0.76,
    "sep": 0.409,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1614
   },
   {
@@ -175,7 +177,7 @@
    "latPurityR": 0.707,
    "sep": 0.34,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1626
   },
   {

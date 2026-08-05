@@ -955,6 +955,46 @@ scan of a repeated leaf.** A block may well have been re-shot because the first
 pass was bad. Before harvesting the three affected stretches, compare a duplicate
 pair and keep the better plate.
 
+
+#### 8a.G.1 — Which scan of a duplicated leaf to keep: RULED, keep the first (2026-08-05)
+
+This was one of the three things owed before Batch 2. **Ruling: the map's
+keep-first default stands; no re-shot block is a quality repair.** Measured, not
+eyeballed — `scripts/pg-dup-leaf-compare.py` (written for this) renders both
+members of all **22 pairs** and scores the Greek column of each.
+
+The worry was reasonable: a block gets re-shot *because* the first pass was bad,
+which would make keep-first exactly backwards. It is not what happened here.
+
+- **Sharpness separates nothing.** All 22 pairs fall inside ±4%, well under the
+  15% margin the tool needs before it will name a winner: 22 toss-ups, 0 either
+  way. The reason is structural — **the plates are 1-bit JBIG2 at 600 dpi**, so
+  contrast is pinned at its maximum on every leaf (254 across all 44 scans) and
+  no focus gradient survives the binarisation. A grey-scale focus proxy cannot
+  discriminate bitonal scans, and any future tool that claims to is measuring
+  noise.
+- **They are nonetheless genuinely different exposures**, not one page object
+  referenced twice — `pdfimages -list` gives different byte counts and even
+  different pixel dimensions (e.g. 4032×6214 vs 3982×6204 for 883/893). So the
+  question was real; the answer is just that both shots are good.
+- **A direct look confirms it.** Leaves 883 and 893 at native resolution are the
+  same plate at the same legibility; the re-shot page is framed a little
+  differently and nothing more.
+
+**Two false alarms the margin metrics threw, both run down and dismissed:**
+
+1. *leaf 859 shows ink at the very right page edge (margin 0)* — not clipping.
+   Read at 600 dpi the Greek column's line-ends are all present with a clean
+   right margin; the flag was scan-edge dirt.
+2. *several first scans have very tight bottom margins (8–47 px) where their
+   re-shots have 74–119* — this is the **"Digitized by Google" watermark**, which
+   sits below the type and shifts with framing. It is on both members of every
+   pair and never touches the text.
+
+⚑ **Durable:** on this volume, *framing* varies between shots and *quality* does
+not. Harvest from the first scan of a duplicated block and do not spend another
+session re-deciding this.
+
 ### 8a.C — PG queue additions (second output of the gate)
 
 Standing policy: **a PG work enters the queue only with a committed,
