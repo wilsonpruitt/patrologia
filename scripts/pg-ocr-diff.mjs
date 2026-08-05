@@ -97,11 +97,17 @@ for (const f of leaves) {
   for (let k = 0; k < ops.length; k++) {
     const [op, w] = ops[k];
     if (op === '=') { sameCount++; continue; }
-    // a '-' immediately followed by a '+' is a substitution at one position
-    if (op === '-' && ops[k + 1]?.[0] === '+') {
-      const other = ops[k + 1][1];
+    // A deletion adjacent to an insertion is one word read two ways, not a loss
+    // plus an unrelated gain. The LCS emits the pair in EITHER order depending on
+    // which side it walked first, so both must be handled — checking only '-'
+    // then '+' reported every accent variant twice, once as text the wide crop
+    // "lost" and once as text it "recovered", which buried the real losses.
+    const nxt = ops[k + 1];
+    if ((op === '-' && nxt?.[0] === '+') || (op === '+' && nxt?.[0] === '-')) {
+      const a = op === '-' ? w : nxt[1];
+      const b = op === '-' ? nxt[1] : w;
       const ctx = ops.slice(Math.max(0, k - 3), k).filter(o => o[0] === '=').map(o => o[1]).join(' ');
-      (strip(w) === strip(other) ? accentOnly : differs).push({ a: w, b: other, ctx });
+      (strip(a) === strip(b) ? accentOnly : differs).push({ a, b, ctx });
       k++;
       continue;
     }
