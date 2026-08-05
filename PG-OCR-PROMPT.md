@@ -61,6 +61,18 @@ PLATE, not what the text ought to say.**
    separately. Reading a 4000 px image whole loses detail and mis-transcribes
    silently.
 
+**Two glyph pairs this fount confuses, and one codepoint rule**
+
+- ⚑ **Word-final sigma `ς` can look like a semicolon, and a circumflex can look
+  like an iota subscript.** Both misreadings produce well-formed Greek — Batch 2
+  yielded `οὕτω` for `οὕτως` and `τῇ;` for `τῆς` — so nothing downstream catches
+  them. Crops are now rendered at the scan's native **600 dpi** for this reason.
+  Judge any word-final glyph at full magnification; zoom rather than guess.
+- **Elision apostrophe: use `’` (U+2019).** `᾽` (U+1FBD), `’` and ASCII `'` are
+  indistinguishable on the plate, so this is a normalisation, not a reading. It
+  is fixed here only so it stops consuming adjudication — it was 18% of Batch 2's
+  queue. Never treat an apostrophe difference as a plate question.
+
 **Flag, don't fix.** If a reading looks wrong to you, transcribe it as printed
 and add it to an `UNCERTAIN:` list at the end with the line and what you'd have
 expected. That list is the Opus adjudication queue — it is the point of the

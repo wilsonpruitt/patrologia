@@ -168,8 +168,17 @@ def main():
     ap.add_argument("--map", required=True, help="data/pg-column-maps/pgNNN.json")
     ap.add_argument("--leaves", required=True, help="e.g. 845-860 or 845,847,850")
     ap.add_argument("--out", required=True)
-    ap.add_argument("--dpi", type=int, default=400)
-    ap.add_argument("--segments", type=int, default=4)
+    # 600 = the scan's NATIVE resolution (pdfimages -list: 4032x6214 per page).
+    # 400 was silently lossy in a way that produced well-formed Greek, which is
+    # the worst kind: in this fount the word-final SIGMA reads as a semicolon and
+    # the CIRCUMFLEX reads as an iota subscript at 400 dpi. That yielded οὕτω for
+    # οὕτως and τῇ; for τῆς in Batch 2 — both perfectly good Greek, so no check
+    # downstream could catch them. Opus adjudication had to re-render at 600 to
+    # decide them, i.e. we were paying for the resolution anyway, after the error.
+    ap.add_argument("--dpi", type=int, default=600)
+    # 6 rather than 4, so a segment at 600 dpi is about the pixel height a segment
+    # was at 400 — the point is more detail per glyph, not a bigger image to skim.
+    ap.add_argument("--segments", type=int, default=6)
     # 45 was measured against ORDINARY lines and is wrong for PG 88. Migne sets
     # his italic scripture quotations wider than the column measure, outdenting
     # them across the gutter into space the facing Latin leaves free when it runs

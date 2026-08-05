@@ -18,6 +18,15 @@
 // accents — every one of those would be a silent correction made by a script
 // that has never seen the plate. Adjudication reads the plate. This only points.
 //
+// ⛔ THE LIMIT OF THIS METHOD — do not oversell agreement. A diff can only see
+// what the two passes did DIFFERENTLY. Where both passes share a blind spot they
+// agree, and the agreement is worth nothing: at PG 88 leaf 849 both passes lost
+// the same clause, « Μηδὲν θλιβῇς· σὺ οὐκ ἔχεις πρᾶγμα· ἀλλ' — because both read
+// column crops that cut Migne's full-width lines in the same place. "N words read
+// identically by two independent passes" therefore means N words survived two
+// readings, NOT that N words are correct. Systematic loss is invisible here and
+// must be caught upstream, at crop time.
+//
 // Reported classes:
 //   only-in-B   a word the second pass has and the first lacks. The expected
 //               shape of the crop fix: recovered line-openings appear here.
@@ -54,7 +63,14 @@ const words = t => t
   .replace(/⟨\?⟩/g, ' ')
   .split(/\s+/).filter(Boolean);
 
-const strip = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC');
+const strip = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').normalize('NFC');
+// Elision apostrophes differ by CODEPOINT between passes — ᾽ (U+1FBD), ’ (U+2019)
+// and ASCII ' are indistinguishable on the plate, so a difference here is never a
+// reading question. In Batch 2 this was 18% of the adjudication queue, draining
+// exactly the budget that should go to glyphs. Classed separately, never merged
+// into `differs`.
+const APOS = /[\u1FBD\u2019\u02BC']/g;
+const punct = s => s.replace(APOS, "'");
 
 // Longest common subsequence over words, then walk it to classify the gaps.
 function align(a, b) {
@@ -93,7 +109,7 @@ for (const f of leaves) {
   const B = words(body(fb));
   const ops = align(A, B);
 
-  const onlyA = [], onlyB = [], differs = [], accentOnly = [];
+  const onlyA = [], onlyB = [], differs = [], accentOnly = [], punctOnly = [];
   for (let k = 0; k < ops.length; k++) {
     const [op, w] = ops[k];
     if (op === '=') { sameCount++; continue; }
@@ -107,7 +123,9 @@ for (const f of leaves) {
       const a = op === '-' ? w : nxt[1];
       const b = op === '-' ? nxt[1] : w;
       const ctx = ops.slice(Math.max(0, k - 3), k).filter(o => o[0] === '=').map(o => o[1]).join(' ');
-      (strip(a) === strip(b) ? accentOnly : differs).push({ a, b, ctx });
+      const cls = punct(a) === punct(b) ? punctOnly
+        : strip(punct(a)) === strip(punct(b)) ? accentOnly : differs;
+      cls.push({ a, b, ctx });
       k++;
       continue;
     }
@@ -115,22 +133,22 @@ for (const f of leaves) {
     (op === '-' ? onlyA : onlyB).push({ w, ctx });
   }
   wordTotal += A.length;
-  report.push({ leaf: f, aWords: A.length, bWords: B.length, onlyA, onlyB, differs, accentOnly });
+  report.push({ leaf: f, aWords: A.length, bWords: B.length, onlyA, onlyB, differs, accentOnly, punctOnly });
 }
 
 console.log(`compared ${report.length} leaves — ${dirA} (A) vs ${dirB} (B)\n`);
 for (const r of report) {
-  const n = r.onlyA.length + r.onlyB.length + r.differs.length + r.accentOnly.length;
+  const n = r.onlyA.length + r.onlyB.length + r.differs.length + r.accentOnly.length;  // apostrophes excluded: not adjudicable
   const agree = r.aWords ? (100 * (r.aWords - r.onlyA.length - r.differs.length - r.accentOnly.length) / r.aWords) : 0;
   console.log(`${r.leaf}  A=${r.aWords} B=${r.bWords} words  ${agree.toFixed(1)}% agree  ${n} to adjudicate`
-    + `  [only-A ${r.onlyA.length} · only-B ${r.onlyB.length} · differs ${r.differs.length} · accent ${r.accentOnly.length}]`);
+    + `  [only-A ${r.onlyA.length} · only-B ${r.onlyB.length} · differs ${r.differs.length} · accent ${r.accentOnly.length} · apos ${r.punctOnly.length}]`);
   for (const x of r.onlyA.slice(0, 6)) console.log(`   ⛔ only in A (wide crop LOST it): "${x.w}"   …${x.ctx}`);
   for (const x of r.differs.slice(0, 8)) console.log(`   ? A="${x.a}" B="${x.b}"   …${x.ctx}`);
   for (const x of r.onlyB.slice(0, 6)) console.log(`   + only in B (recovered): "${x.w}"   …${x.ctx}`);
 }
 
 const tot = k => report.reduce((s, r) => s + r[k].length, 0);
-console.log(`\nTOTAL  only-A ${tot('onlyA')} · only-B ${tot('onlyB')} · differs ${tot('differs')} · accent-only ${tot('accentOnly')}`);
+console.log(`\nTOTAL  only-A ${tot('onlyA')} · only-B ${tot('onlyB')} · differs ${tot('differs')} · accent-only ${tot('accentOnly')} · apostrophe-only ${tot('punctOnly')} (not adjudicable)`);
 console.log(`${sameCount} words read identically by two independent passes.`);
 console.log('\nonly-A entries mean the WIDER crop lost text — read those against the plate first.');
 if (jsonOut) fs.writeFileSync(path.join(ROOT, jsonOut), JSON.stringify(report, null, 1));
