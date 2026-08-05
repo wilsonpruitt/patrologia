@@ -31,6 +31,48 @@ withheld from the fit), leaf 973 = 1843|1844. Rebuild it with
 `scripts/pg-column-map-rebuild.py` (+ `scripts/pg-heads-extract.py`) if ever
 needed; both are documented and carry the traps.
 
+### ▶ BATCH 2 STATE (2026-08-05) — transcribed twice, adjudication running
+
+Leaves **845–864** (20 leaves) done, `raw/pg088/batch2/out/` (pass A, narrow
+crops) and `raw/pg088/batch2-wide/out/` (pass B, wide crops, run BLIND).
+**8,773 words read identically by two independent passes.** Diff:
+`benchmark/pg88-pilot/batch2-diff.json`, queue in `BATCH2-ADJUDICATION-QUEUE.md`
+(30 only-in-A · 118 differs · 135 accent-only). Opus adjudication was running at
+session end → `BATCH2-VERDICTS-845-854.md` / `-855-864.md`. **Batch 2 is NOT
+adjudicated, NOT spliced, NOT promoted.**
+
+⛔ **TWO CROP DEFECTS FOUND, BOTH NOW FIXED — do not re-harvest with the old settings.**
+
+1. **Outdented lines.** Migne sets some lines wider than the column measure. The
+   old 45 px gutter overshoot cut their openings off. `--overshoot` default is
+   now **260** (190 still cut leaf 861's `καὶ`). Re-crop anything harvested
+   before 2026-08-05.
+2. **FULL-WIDTH lines.** When a paragraph's Greek outruns its Latin, Migne ends
+   the Latin and sets the Greek tail **across the whole page**. A column crop
+   keeps only its right half and the remainder still reads as fluent prose.
+   **7 of the 20 leaves.** No geometric detector works (see `pg-fullwidth-lines.py`,
+   which documents five failed tests and is marked not-authoritative). The
+   workflow is `pg-fullwidth-scan.py` → a reading pass reporting BANDS →
+   `pg-fullwidth-crop.py` → transcribe each line whole. **19 lines recovered**;
+   text in `benchmark/pg88-pilot/out-845-849.md` and `out-853-861.md`, still to
+   be spliced into the leaf files.
+
+⚠ **The mirror case exists too** — leaves 854, 862 run the LATIN full width. Costs
+no Greek, but `pg-latin-twin.mjs` splits djvu tokens by x-coordinate and will
+tear such a line in half. Check before trusting a PG 88 twin.
+
+⚠ **Applies to EVERY Migne parallel-column volume.** PG works already live were
+harvested with column crops and may have lost the left half of a paragraph-final
+line, invisibly. **Not audited.** See `pg-paired-pilot.md` §8a.G.2.
+
+⚠ **A scan that skips a leaf looks exactly like a clean one** — one agent silently
+omitted leaf 858 while answering for its other six. Check returned lists against
+input lists.
+
+**Next after adjudication:** splice verdicts + full-width lines into the leaf
+files, then leaves 865+ (87 remain, cols to 1844) with `--overshoot 260` AND the
+full-width scan from the start.
+
 ### Where Dorotheus actually stands
 
 - **Model policy is settled and is not to be relitigated: SONNET transcribes,
