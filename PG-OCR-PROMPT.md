@@ -31,7 +31,12 @@ PLATE, not what the text ought to say.**
   is the most important thing on the page to get right.
 - **Accents: copy the accent that is printed**, acute vs grave included. Do not
   apply the grave-before-following-word rule from your own knowledge of Greek —
-  read the mark.
+  read the mark. ⚑ **Migne prints a GRAVE immediately before a comma**, contrary
+  to strict modern practice, which keeps the acute there. Plate-verified in two
+  volumes (`μοι κακὰ, ἀποπέση` in PG 88, `τὸν Θεὸν, ᾧ πρέπει` in PG 89). It is a
+  convention of the edition, it is common, and correcting it to an acute is a
+  defect — Batch 1's whole ~24-item accent disagreement class turned out to be
+  this one thing.
 
 **Layout rules**
 
@@ -45,7 +50,12 @@ PLATE, not what the text ought to say.**
    footnote block. **Do NOT transcribe it. Exclude it and report where it
    occurred.** Latin inside a Greek source file is a serious defect.
 5. Marginal capitals A/B/C/D are subdivision markers — record inline as `[A]`
-   etc. at the point they occur.
+   etc. at the point they occur. They sit in the GUTTER, between the columns,
+   never in the outer margin, so they can be a little way off the text edge.
+   ⚑ **A clipped one is a lost citation address and nothing downstream can
+   detect it** — if a letter is cut by the edge of the crop, say so rather than
+   guessing which it was. (Crops from `scripts/pg-leaf-crops.py` already run past
+   the gutter floor to take them; check its contact sheet if one looks cut.)
 6. Genuinely illegible → `⟨?⟩`. Never invent. Accuracy beats coverage.
 7. Split each tall column image into 3–4 horizontal segments and read them
    separately. Reading a 4000 px image whole loses detail and mis-transcribes

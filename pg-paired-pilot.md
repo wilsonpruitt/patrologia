@@ -904,6 +904,57 @@ several points, not merely at the ends**. Record per-leaf Greek/Latin parity;
 PG 88's parity has not yet been measured and must not be assumed to alternate as
 PG 89's did.
 
+### 8a.G — ⛔ THE ABOVE IS WRONG. PG 88 IS LINEAR; THE SCAN REPEATS ITSELF (2026-08-05)
+
+Two things were wrong in §8a.F, and the map built on them was unusable.
+
+**1. The map never interpolated anything — it stalled.** `colLeft` gave **1613 to
+every leaf from 836 to 850**, and **1619 to all 99 leaves from 852 to 950**: 14
+distinct column numbers across 139 leaves. Nothing consumes the field yet, so
+nothing shipped wrong, but Dorotheus could not have been chunked from it, and
+every citation it produced would have been false.
+
+**2. PG 88's pagination is perfectly ordinary — +2 columns per leaf, everywhere.**
+What is not ordinary is the SCAN. `raw/pg088/088.pdf` contains **three re-scanned
+blocks**, each plate-verified at its boundary:
+
+| after leaf | last col | resumes at leaf | at col | leaves repeated |
+|---|---|---|---|---|
+| 864 | 1669 | 865 | **1659** | 6 |
+| 892 | 1713 | 893 | **1695** | 10 |
+| 940 | 1789 | 941 | **1779** | 6 |
+
+Leaf 865 reprints leaf 859's columns 1659\|1660 with identical body text
+(*excidat. 391 Is igitur perfectus timor ab hac cha-*), confirmed on a solo
+render, not just a contact sheet. **Those 22 duplicated leaves are the entire
+missing 0.379 columns/leaf.** 139 leaves − 22 duplicates = **117 unique leaves =
+234 columns = 1611–1844 exactly**, which is the work's own stated range.
+
+So the alarming §8a.F conclusion — that the work runs to leaf ~975 and a linear
+harvest would stop 24 leaves short and lose the *Epistolae* — was an artifact.
+**The linear fit was right about the volume and wrong about the file.**
+
+⚑ **The generalised rule survives but its REASON changes, and the new reason is
+the useful one: a slope that is not 2.000 is evidence about the SCAN, not about
+the volume.** Verify both ends — then, when they disagree, look for repeated
+pages before concluding the pagination is irregular. **Do not "fix" a bad slope by
+interpolating column numbers**; interpolation spreads the error evenly over every
+leaf and silently mis-addresses every citation, which is strictly worse than a
+map that fails loudly.
+
+**Rebuilt 2026-08-05** by `scripts/pg-column-map-rebuild.py` (heads from both
+copies via `scripts/pg-heads-extract.py`, Viterbi over {continue +2, start a new
+run}, plate anchors as hard constraints). Result: **117/117 columns covered, zero
+uncovered**, 22 leaves carrying `skipInHarvest`. Checks it passes that were NOT
+fed to it: leaf 837 = 1615\|1616 (read off the plate), **leaf 951 = 1799\|1800 —
+§8a.F's own second anchor, deliberately withheld from the fit and reproduced
+exactly**, and leaf 973 = 1843\|1844, the work's stated end.
+
+⚠ **Open, and a judgement call not a mechanical one: the map keeps the FIRST
+scan of a repeated leaf.** A block may well have been re-shot because the first
+pass was bad. Before harvesting the three affected stretches, compare a duplicate
+pair and keep the better plate.
+
 ### 8a.C — PG queue additions (second output of the gate)
 
 Standing policy: **a PG work enters the queue only with a committed,
