@@ -1030,3 +1030,55 @@ carries the operational summary.
   The pilots proceed under it as the locked default.
 - Per-launch hard-stops as always: harvest tooling is cheap (no stop needed);
   each translation launch states chunks + burn + "which model, and go?"
+
+#### 8a.G.2 — Full-width Greek lines: the defect, and the workflow that finds them (2026-08-05)
+
+**The defect.** When a paragraph's Greek runs longer than its facing Latin,
+Migne does not pad the Latin — he ends the Latin paragraph and sets the Greek
+tail **across the full page measure**, over the gutter and the Latin column's
+width, resuming two columns at the next section. Plate-verified on PG 88
+leaf 847, the last two lines of ch. XIII:
+
+> κρωσις τῆς ἀλόγου ἐπιθυμίας· καὶ τὸν ἀνάλαβον κατὰ τῶν ὤμων, ὅ ἐστι σταυρός.
+> Ἰδοὺ καὶ τὸ κουκούλιον· ὅ ἐστι σημεῖον τῆς ἀκακίας, καὶ τῆς ἐν Χριστῷ νηπιότητος.
+
+A per-column crop keeps only the **right half** of such a line and drops the
+left. **The wreckage does not look like wreckage** — what survives still reads as
+fluent prose. Both blind passes over leaf 847 flagged it without being able to
+name it: one saw `ἡ νέ-` with no continuation, the other saw `τὸ κου-` jumping
+straight to `Χριστῷ`, which is that line minus its left half. Neither invented a
+bridge, and that is the only reason it was recoverable.
+
+**Why there is no geometric detector.** `pg-fullwidth-lines.py` documents five
+attempts, each failing differently; the file keeps them so they are not retried.
+The two live failure modes are in direct tension and no threshold resolves them:
+a full-width line may have a **word space sitting in the gutter** (leaf 847's
+first line breaks between `ἀνάλαβον` and `κατὰ`), so its gutter ink is sparse;
+while a **marginal capital flanked by intruding letters** has gutter ink that is
+dense and multi-run. Sparseness fails, run-count fails. What actually separates
+the cases is that the glyphs beside the gutter are **Greek** on a full-width line
+and **Latin** on an ordinary one — a reading judgement, not a measurement. The
+script survives only as a pre-filter; **its counts are not to be quoted.**
+
+**The workflow (built and verified end-to-end on leaf 847):**
+1. `scripts/pg-fullwidth-scan.py` — renders each leaf whole at 200 dpi with
+   labelled horizontal bands **L01…L14** down the left margin. Greek and Latin
+   are trivially distinguishable at this resolution.
+2. A reading pass reports **band labels, never pixels** — models estimate
+   coordinates poorly, and a mis-stated position crops the wrong rows, losing
+   exactly the text the pass exists to recover. It also quotes the first few
+   Greek words of each line, so every hit can be located and verified.
+3. `scripts/pg-fullwidth-crop.py` — crops the named bands **full page width** at
+   400 dpi, padded by half a band above and below. Padding is deliberate: a band
+   is a place to look, not a measurement.
+4. A transcription pass reads each full-width line as **one line**, left edge to
+   right edge, ignoring the neighbouring two-column lines.
+
+The scan renders deliberately carry **no marks showing where the script thinks
+the lines are** — pre-marking would anchor the reader to the very geometry that
+has already failed.
+
+**Applies to every Migne parallel-column volume, not just PG 88.** Any work
+harvested by column crops before 2026-08-05 may have lost the left half of a
+paragraph-final line; the loss is invisible in the shipped text. Not yet audited
+for the PG works already live.
