@@ -59,10 +59,8 @@ OCR — and **two OCRs cannot catch conformation-to-expectation, because a fluen
 transcriber and a scholar's expectation drift the same way.** The corroboration
 number (96.8%) was real; it was measuring the wrong thing for this class.
 
-**Still open:** ~8 further accent-only disagreements with the witness across the
-four columns (`δέ/δὲ`, `εἰκός/εἰκὸς`, `αὐτούς/αὐτοὺς` ×2, `ζωήν/ζωὴν`,
-`ἀληθινοί/ἀληθινοὶ`, `αὐτά/αὐτὰ`) are NOT yet plate-checked. Given two of two
-checked so far went against us, they should be presumed suspect until read. The
+**✅ CLOSED 2026-08-05 — all of them read off the plate, and the class is now
+closed by construction rather than by sampling.** See the section below. The
 remaining witness disagreements are demonstrably witness damage (dropped
 breathings on capitals `Αποστόλου`/`Αμήν`, impossible double accent `ἅγίον`,
 `Ἴουστίνῳ`, and `ἕξω` for `ἔξω`).
@@ -85,3 +83,58 @@ narrower and it is the right one: *two independent OCR passes over two different
 physical copies agree on every token once known degradations are accounted for.*
 Do not quote a CER for Opus-on-Greek from this — the benchmark's Sonnet figure
 (3.64% on PG 89) remains the only scored number.
+
+## ✅ THE ACCENT CLASS, CLOSED BY CONSTRUCTION (2026-08-05)
+
+The PG 88 Batch 1 adjudication resolved what these disagreements were:
+**Migne prints a GRAVE immediately before a comma**, against strict modern
+practice. A fluent transcriber normalises it to the acute. That is one
+convention, not eight coincidences.
+
+So the class was closed by enumeration instead of by sampling. **The exposed
+positions are exactly those where a word carries an acute on its FINAL syllable
+and is immediately followed by a comma** — anywhere else in Greek a grave cannot
+occur, so nowhere else can this error. There are **7 such positions in the whole
+letter**, and all seven were read off the plate at 400 dpi. **All seven were
+wrong on our side. All seven are fixed** (in `src/greek/` and in the `1421/1424/
+1428` transcriptions alike):
+
+| was | plate | where |
+|---|---|---|
+| `εἰκός,` | `εἰκὸς,` | 1421, *Εἰ δέ τι, ὡς εἰκὸς, εὕροις* |
+| `ἐπείρασεν αὐτούς,` | `αὐτοὺς,` | 1424 |
+| `προσεδέξατο αὐτούς,` | `αὐτοὺς,` | 1424 |
+| `ἀγαθοί,` | `ἀγαθοὶ,` | 1424 |
+| `ἀληθινοί,` | `ἀληθινοὶ,` | 1424 |
+| `αὐτά,` | `αὐτὰ,` | 1428 |
+| `ναούς,` | `ναοὺς` — **and no comma at all** | 1428 |
+
+`ναούς` is the worst of them: we had both the wrong accent and a comma the plate
+does not print. A grep confirms **0 exposed positions remain**.
+
+**Two flagged readings were checked and OURS STANDS**, and they are what fix the
+rule's boundary:
+
+- **`ζωήν·`** (1425) — acute, before an **ano teleia**. The convention is about
+  the COMMA. Do not extend it to `·`.
+- **`Εἰ δέ τι,`** (1421) — acute, and `δέ` is not before the comma; `τι` is.
+  Position, not proximity.
+
+⚑ **The finding that outlives these seven words: two of the seven — `ἀγαθοί,` and
+`ναούς,` — were NEVER on the flagged list**, because the witness OCR made the
+same error we did. This is the sharpest evidence yet for what this file already
+concluded: **corroboration between two OCR passes cannot see a
+conformation-to-expectation class at all**, because a mechanical transcriber and
+a fluent one drift toward the same familiar form. The 96.8% figure was real and
+was measuring the wrong thing. **Only enumerate-and-read closes a class like
+this. Do not sample it, and do not trust a flag list to be its extent.**
+
+⚠ **Still open, deliberately untouched:** the `ἐστείλας`/`ἔστειλα` crux. The
+plate at 1421 appears to read `Ταῦτα ἔστειλα` and `καὶ τοῦτο ἔστειλας` — accent
+on the epsilon, where our text has `ἐστείλας` at the second. It was not resolved
+here because it needs a proper zoom, not a glance, and it is an accent-POSITION
+question rather than the grave/acute class above. Left as the crux it already is.
+
+⛔ **These are reader-facing corrections to a LIVE work — `migne.app/pg/89/
+the-letter-of-antiochus-the-monk-to-eustathius/`. Fixed in source, NOT yet
+deployed. Deploy needs Wilson's OK.**
