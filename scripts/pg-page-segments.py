@@ -96,7 +96,15 @@ def main():
     args = ap.parse_args()
 
     cmap = json.loads(pathlib.Path(args.map).read_text())
-    pages = {p["leaf"]: p for p in cmap["pages"]}
+    # Column maps come in two schemas: PG 88 uses colLeft/colRight, while PG 89
+    # (and the older maps) use colOdd/colEven with an explicit greekCol. Normalise
+    # here rather than at every call site — the audit has to walk several volumes.
+    pages = {}
+    for p in cmap["pages"]:
+        rec = dict(p)
+        if "colLeft" not in rec:
+            rec["colLeft"] = rec.get("greekCol", rec.get("colOdd"))
+        pages[rec["leaf"]] = rec
     latin_only = {int(k) for k in cmap.get("latinOnlyLeaves", {})}
     out = pathlib.Path(args.out)
     (out / "segs").mkdir(parents=True, exist_ok=True)
