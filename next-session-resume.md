@@ -86,7 +86,11 @@ site-wide scan found 41 more, all plain `[n:]`**, up to 592 chars on the Becket
 vita, so the obvious `.prose` fix would have missed every one of them. Builders
 now add `.wraps` above 32 chars; `scripts/scan-nowrap-apparatus.mjs` reports the
 class clear (77 pages / 7,036 spans) and should be run before any deploy.
-**20 pages rebuilt and committed, NOTHING DEPLOYED** — needs Wilson's per-action OK.
+✅ **DEPLOYED + VERIFIED LIVE 2026-08-05** (Wilson's OK, `migne-noomcl1gr…`,
+aliased to migne.app; polarity gate green 98/98 first). Verified on the live
+site, not just in the file: the *laura* gloss flows over 4 line boxes with
+`white-space: normal`, and all 5 short locators on that page are still nowrap on
+a single line.
 
 ### ⚑ Two method findings from today that will bite Dorotheus at TRANSLATION time
 
