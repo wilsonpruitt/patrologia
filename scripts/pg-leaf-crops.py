@@ -1,5 +1,19 @@
 #!/usr/bin/env python3.11
 """
+⛔ SUPERSEDED 2026-08-05 by scripts/pg-page-segments.py — do not harvest with this.
+
+Cropping to the column lost text three times in one 20-leaf batch, each time
+invisibly, because what survived still read as fluent Greek: outdented line
+openings, full-width lines kept only as their right half, and a wide-set line cut
+by BOTH the narrow and the widened crop so that both transcription passes lost it
+and the diff could not see it. Each patch cost a full re-read; the batch ran to
+~107k tokens per leaf across five passes against ~30k for a single full-page
+pass. A page cannot lose text off the side of itself.
+
+Kept because the gutter/marginal-letter geometry documented below is still the
+best description of how Migne sets his subdivision letters, and because the
+measured 45 → 260 px overshoot history explains what went wrong.
+
 Crop the Greek column off PG plate leaves, ready for the OCR pass.
 
 Written 2026-08-05 out of the Batch 1 adjudication (`benchmark/pg88-pilot/

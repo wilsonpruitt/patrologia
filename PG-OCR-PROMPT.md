@@ -38,6 +38,31 @@ PLATE, not what the text ought to say.**
   defect — Batch 1's whole ~24-item accent disagreement class turned out to be
   this one thing.
 
+**⚑ FULL-PAGE IMAGES (from 2026-08-05). You see the WHOLE page, both columns.**
+
+Harvesting no longer crops to the Greek column. You are given the entire leaf,
+so **you** must do what the crop used to attempt — and do it better, because the
+crop failed at it three times in one batch and every failure was invisible:
+
+1. **Follow the Greek column.** One side of the page is Greek, the other Migne's
+   Latin translation. Transcribe the Greek side only, top to bottom.
+2. **A line that escapes the column is still Greek — read it whole.** Migne sets
+   some lines wider than the column measure, and where a paragraph's Greek
+   outruns its Latin he ends the Latin and runs the Greek **across the entire
+   page**. Read such a line from its true first letter to its last, straight
+   across the gutter. Do not stop at the column edge, and do not treat the far
+   part as a separate line.
+   *Worked examples:* `καὶ ἀκολούθως ἐπιφέρει τὸ, Ζήτησον εἰρήνην…`;
+   `κρωσις τῆς ἀλόγου ἐπιθυμίας· καὶ τὸν ἀνάλαβον κατὰ τῶν ὤμων…`;
+   `Ἡ ὁδός ἐστιν, ὡς λέγει ὁ ἅγιος Βασίλειος, ὁ κόσμος οὗτος.`
+   Every one of these was cut by a column crop, and the surviving half still read
+   as fluent Greek — which is exactly why no check downstream caught it.
+3. **The mirror happens too:** where the Greek finishes early, the **Latin** runs
+   full width. That is not Greek; exclude it and report it, as with any Latin.
+4. **Segments overlap deliberately**, so a line is never cut in half between two
+   images. The same line may appear at the bottom of one and the top of the next
+   — transcribe it once, and say if you think you have seen it twice.
+
 **Layout rules**
 
 1. Preserve line breaks as printed, and end-of-line hyphens exactly
