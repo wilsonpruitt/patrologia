@@ -52,11 +52,15 @@ crop failed at it three times in one batch and every failure was invisible:
    page**. Read such a line from its true first letter to its last, straight
    across the gutter. Do not stop at the column edge, and do not treat the far
    part as a separate line.
-   *Worked examples:* `καὶ ἀκολούθως ἐπιφέρει τὸ, Ζήτησον εἰρήνην…`;
-   `κρωσις τῆς ἀλόγου ἐπιθυμίας· καὶ τὸν ἀνάλαβον κατὰ τῶν ὤμων…`;
-   `Ἡ ὁδός ἐστιν, ὡς λέγει ὁ ἅγιος Βασίλειος, ὁ κόσμος οὗτος.`
-   Every one of these was cut by a column crop, and the surviving half still read
-   as fluent Greek — which is exactly why no check downstream caught it.
+   Lines of this kind were repeatedly cut by column crops, and the surviving half
+   still read as fluent Greek — which is exactly why no check downstream caught it.
+
+   ⛔ **Do NOT quote a recovered reading into this prompt as a "worked example."**
+   An earlier version of it did, naming three lines verbatim; the transcriber then
+   reported those lines back and cited the match as confirming its reading. That
+   is circular — the prompt supplied the answer — and it is 7a″ wearing the
+   costume of a helpful illustration. Describe the SHAPE of the defect, never its
+   text. If an example is unavoidable, take it from a different work.
 3. **The mirror happens too:** where the Greek finishes early, the **Latin** runs
    full width. That is not Greek; exclude it and report it, as with any Latin.
 4. **Segments overlap deliberately**, so a line is never cut in half between two
