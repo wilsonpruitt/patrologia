@@ -17,6 +17,18 @@ a full-width line and LATIN on an ordinary one — a reading judgement.
 
 So: render the whole page and let a model read it.
 
+⚑ ASK FOR BOTH CATEGORIES. There are two ways a line escapes the column, and a
+scan that asks only about the dramatic one misses the other:
+  (a) FULL-WIDTH — the line crosses the gutter and spans the page;
+  (b) WIDE-SET — the line merely runs past the column measure, sometimes by more
+      than the crop's 260 px overshoot, without reaching the far column.
+PG 88 leaf 856 is the worked example: the scan was asked only about (a), reported
+the leaf clean, and the leaf carried a (b) line — `Ἡ ὁδός ἐστιν, ὡς λέγει ὁ ἅγιος
+Βασίλειος, ὁ κόσμος οὗτος.` — that BOTH the narrow and the wide crop had cut, and
+that both transcription passes therefore lost. A diff cannot see a loss the two
+passes share. Ask for any line set wider than its neighbours, whatever its
+extent, and pull those from the full-page render rather than a column crop.
+
 ⚑ THE RULER IS THE POINT. Models estimate pixel coordinates poorly, and a
 mis-located band means cropping the wrong rows at full resolution — which would
 lose exactly the text this pass exists to recover. So the page is drawn with

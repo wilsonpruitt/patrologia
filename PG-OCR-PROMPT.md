@@ -61,6 +61,25 @@ PLATE, not what the text ought to say.**
    separately. Reading a 4000 px image whole loses detail and mis-transcribes
    silently.
 
+**κ vs χ is decidable by the baseline — decode it, do not infer it**
+
+In this face **κ is a clean X sitting ON the baseline; χ is larger and its
+lower-left arm DESCENDS below it.** Adjudication found both passes guessing this
+pair from the expected word rather than reading it, and the baseline test
+reversed the adjudicator's own eye twice (`κεχορεσμένου`, a real χ-for-κ
+misprint, and `εὔκνιστοι`). Compare the disputed glyph against a known κ and a
+known χ on the SAME line before deciding.
+
+**Migne's own editorial marks are text — never tidy them away**
+
+- **Square brackets in the Greek are his**: the plate prints `προ[σ]καλέσασθαι`
+  and `μετὰ [τὸ] πληρῶσαι`. Reproduce them exactly where they occur. One pass
+  stripped them, another moved them; both losses are invisible downstream.
+- **Footnote references are sometimes ARABIC superscripts** (`11-12`, `13`, `14`),
+  not Greek numerals. Copy the numeral system printed. One pass silently
+  "restored" all three to Greek numerals — that is a conjecture about the
+  edition, not a transcription of it.
+
 **Two glyph pairs this fount confuses, and one codepoint rule**
 
 - ⚑ **Word-final sigma `ς` can look like a semicolon, and a circumflex can look
