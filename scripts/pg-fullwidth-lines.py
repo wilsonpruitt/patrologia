@@ -23,21 +23,40 @@ GUTTER — the vertical white channel that separates the columns on every ordina
 row. So: locate the gutter from the page's own ink profile, then report rows
 whose ink crosses it. No thresholds to tune and no guessing about measures.
 
-⛔ STATUS 2026-08-05: THE PHENOMENON IS CONFIRMED; THIS DETECTOR IS NOT.
-Leaf 847's two full-width lines are verified by eye against the plate. This
-script does NOT find them, and three successive versions of the test were each
-wrong in a different way:
-  1. `any()` ink in the gutter — Migne's marginal capitals A/B/C/D live in the
-     gutter too, so every leaf scored 4 phantom hits.
-  2. ink over >80% of the gutter band — too strict; it found 2 lines in 20
-     leaves and missed leaf 847 entirely, the one case known to be real.
-  3. (not yet written) the honest test is contiguity: a full-width line runs
-     unbroken from the Latin column THROUGH the gutter into the Greek, whereas
-     a marginal capital is an isolated glyph with white on both sides. The
-     gutter here is only 10-25 px at 300 dpi, about one capital wide, so
-     coverage alone cannot separate them — connectivity can.
-DO NOT trust this script's counts until (3) is built and checked against leaf
-847. Until then, full-width lines are found by reading the plate.
+⛔ STATUS 2026-08-05: THE PHENOMENON IS CONFIRMED; GEOMETRY ALONE DOES NOT
+DECIDE IT, AND THIS SCRIPT SHOULD NOT BE TRUSTED TO ENUMERATE IT.
+
+Leaf 847's two full-width lines are verified by eye. Five successive tests were
+each wrong, and the reasons are worth keeping because they are not obvious:
+
+  1. any() ink in the gutter — Migne's marginal capitals A/B/C/D live in the
+     gutter, so every leaf scored ~4 phantom hits.
+  2. >80% gutter coverage — found 2 lines in 20 leaves and missed leaf 847.
+  3. the gutter was being MIS-MEASURED at 17 px against a true ~50 px, because
+     the threshold scaled to page mean ink and caught only the channel's core.
+     At 17 px a marginal capital fills the channel, which is why (1) and (2)
+     could not both be satisfied. Fixed with an absolute threshold.
+  4. judging line BANDS — the Latin and Greek columns do not share baselines, so
+     a band across the page merges ink from two different lines and fills the
+     channel. Put 4 phantom lines on leaf 863, which has none.
+  5. per-row shape (a marginal is one isolated glyph) — still fires on the
+     marginal capital whenever the neighbouring columns' letters poke into the
+     measured channel, giving three runs instead of one.
+
+The two remaining failure modes are in direct tension and cannot both be fixed
+by a threshold:
+  · a full-width line can have a WORD SPACE in the gutter (leaf 847's first
+    line breaks between ἀνάλαβον and κατὰ), so its gutter ink is sparse;
+  · a marginal capital flanked by intruding letters has gutter ink that is not
+    sparse and not a single run.
+Sparseness and run-count therefore both fail. What actually distinguishes them
+is that the glyphs beside the gutter are GREEK on a full-width line and LATIN on
+an ordinary one — a reading judgement, not a measurement.
+
+RECOMMENDATION: detect these with a vision pass (one low-resolution full-page
+image per leaf, asking for the y-positions of Greek lines crossing the central
+gutter), and keep this script only as a cheap pre-filter whose hits are all
+verified. Do not use its counts as a total.
 
 Reports; never edits. These lines must be cropped full width and read as one line.
 
@@ -80,11 +99,23 @@ def render(pdf, page, wd):
 
 
 def find_gutter(ink):
-    """The widest low-ink vertical channel in the middle of the text block."""
+    """The columns' white channel, measured with an ABSOLUTE ink threshold.
+
+    Measuring this correctly is the whole problem. An earlier version scaled the
+    threshold to the page's mean ink and took the widest run under it, which
+    returned only the channel's narrowest core — 17 px on leaf 847 against a true
+    width near 52. At 17 px the gutter is about one capital wide, so Migne's
+    marginal letters A/B/C/D fill it, and any coverage test then reports them as
+    full-width lines or, tightened, reports nothing at all. Both happened.
+
+    An absolute threshold works because the channel is genuinely empty on all but
+    a handful of rows: a column of the gutter carries ink on a few percent of
+    rows (the marginals, and the full-width lines we are hunting), while a column
+    of text carries it on 15-25%."""
     col = ink.mean(axis=0)
     w = len(col)
     lo, hi = int(w * 0.30), int(w * 0.70)
-    quiet = col[lo:hi] < (col[col > 0.01].mean() * 0.18)
+    quiet = col[lo:hi] < 0.06
     best = cur = None
     for i, q in enumerate(quiet):
         if q:
@@ -93,9 +124,25 @@ def find_gutter(ink):
                 best = cur
         else:
             cur = None
-    if best is None:
+    if best is None or (best[1] - best[0]) < 12:
         return None
     return lo + best[0], lo + best[1]
+
+
+def line_bands(ink, min_ink=25):
+    """Group rows into text lines, so a line is judged as a line and not row by row."""
+    rows = ink.sum(axis=1) >= min_ink
+    bands, cur = [], None
+    for y, r in enumerate(rows):
+        if r:
+            cur = [y, y] if cur is None else [cur[0], y]
+        elif cur is not None:
+            if cur[1] - cur[0] >= 3:
+                bands.append(cur)
+            cur = None
+    if cur and cur[1] - cur[0] >= 3:
+        bands.append(cur)
+    return bands
 
 
 def main():
@@ -122,26 +169,46 @@ def main():
                 print(f"leaf {leaf}: no gutter found — inspect by hand")
                 continue
             g0, g1 = g
-            # A row crossing the gutter must have ink along essentially the WHOLE
-            # channel, not merely somewhere inside it. Migne's marginal capitals
-            # A/B/C/D live in the gutter too, and `.any()` counts each of them as
-            # a full-width line — that alone put 4 phantom hits on every leaf.
-            # A single letter cannot span the channel; a line of type does.
+            # Judge SINGLE ROWS, not line bands. The Latin and Greek columns do
+            # not share baselines, so any band drawn across the whole page merges
+            # ink from a Latin line and a different Greek line; their union fills
+            # the channel and the check fires on ordinary text. That mistake put
+            # 4 phantom lines on leaf 863, which has none.
+            #
+            # Per row, coverage still cannot decide it — a WORD SPACE can land in
+            # the gutter (leaf 847's first full-width line breaks between
+            # ἀνάλαβον and κατὰ). What separates them is shape: a marginal capital
+            # is ONE isolated ink run about a third of the channel wide; a line of
+            # type crossing it is several runs, or one much wider than a letter.
+            h = ink.shape[0]
             band = ink[:, g0:g1 + 1]
-            crossing = band.mean(axis=1) > 0.80
-            # ignore the running head and the foot: heads span the page by design
-            h = len(crossing)
-            crossing[:int(h * 0.10)] = False
-            crossing[int(h * 0.94):] = False
+            gw = g1 - g0 + 1
+            hits = []
+            for y in range(int(h * 0.10), int(h * 0.94)):
+                prof = band[y]
+                if not prof.any():
+                    continue
+                segs, cur = [], None
+                for i, v in enumerate(prof):
+                    if v:
+                        cur = [i, i] if cur is None else [cur[0], i]
+                    elif cur is not None:
+                        segs.append(cur); cur = None
+                if cur:
+                    segs.append(cur)
+                widest = max(s[1] - s[0] + 1 for s in segs)
+                marginal = len(segs) == 1 and widest <= 0.45 * gw
+                if prof.mean() >= 0.22 and not marginal:
+                    hits.append(y)
 
             runs, cur = [], None
-            for y, c in enumerate(crossing):
-                if c:
-                    cur = [y, y] if cur is None else [cur[0], y]
-                elif cur is not None:
-                    if cur[1] - cur[0] >= MIN_RUN:
+            for y in hits:
+                if cur is not None and y - cur[1] <= 2:
+                    cur[1] = y
+                else:
+                    if cur and cur[1] - cur[0] >= MIN_RUN:
                         runs.append(cur)
-                    cur = None
+                    cur = [y, y]
             if cur and cur[1] - cur[0] >= MIN_RUN:
                 runs.append(cur)
 
