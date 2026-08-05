@@ -170,7 +170,19 @@ def main():
     ap.add_argument("--out", required=True)
     ap.add_argument("--dpi", type=int, default=400)
     ap.add_argument("--segments", type=int, default=4)
-    ap.add_argument("--overshoot", type=int, default=45,
+    # 45 was measured against ORDINARY lines and is wrong for PG 88. Migne sets
+    # his italic scripture quotations wider than the column measure, outdenting
+    # them across the gutter into space the facing Latin leaves free when it runs
+    # short — so a crop fitted to the measure slices their openings off, and the
+    # loss lands precisely on quoted scripture. Found 2026-08-05 when three Batch 2
+    # transcribers each reported a truncated opening; `ύθως` on leaf 861 is the
+    # tail of `καὶ ἀκολούθως`, and one agent, reasoning from sense, offered the
+    # plausible and wrong εὐθέως. 260 px recovers that line whole (190 still cut
+    # the `καὶ`). Verify with scripts/pg-crop-clip-check.py; the wider crop drags
+    # in more facing Latin, which layout rule 4 already tells the transcriber to
+    # exclude and report — a reported Latin bleed is recoverable, a silently
+    # eaten Greek word is not.
+    ap.add_argument("--overshoot", type=int, default=260,
                     help="px to run past the gutter floor, to take the marginal letters. "
                          "PG 88 at 400 dpi: 23 is the measured need, 45 keeps every anchor "
                          "whole while admitting only a character or two of facing Latin; "

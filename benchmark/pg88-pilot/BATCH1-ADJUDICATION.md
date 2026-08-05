@@ -155,3 +155,54 @@ and **leaf 842 = 1625**. Both had been interpolated. The map's `+2/leaf` fit is
 confirmed at two more points inside Batch 1's own range.
 
 **Nothing is now owed on Batch 1.**
+
+---
+
+## ⛔ Batch 2 (leaves 845–864) — a CROP DEFECT found before adjudication (2026-08-05)
+
+20 leaves transcribed by 5 Sonnet agents under `PG-OCR-PROMPT.md`. Before the
+Opus pass, three agents independently reported a truncated line-opening:
+`⟨?⟩ύθως` (leaf 861), `⟨?⟩αθεῖν` (leaf 861), and on leaf 849 a bracketed letter
+the agent said plainly "isn't actually visible ink". All three declined to
+invent the missing letters. **They were right and the crop was wrong.**
+
+**The defect.** `pg-leaf-crops.py` fitted the crop to the Greek column's normal
+measure plus 45 px across the gutter for the marginal letters. But **Migne sets
+his italic scripture quotations WIDER than the measure**, outdenting them left
+across the gutter into space the facing Latin leaves free where it runs short.
+The crop sliced their openings off — and the loss falls precisely on quoted
+scripture, the one class of line where a conformed reading does the most damage.
+
+Plate-verified on leaf 861: the line reads **`καὶ ἀκολούθως ἐπιφέρει τὸ,
+Ζήτησον εἰρήνην…`**. The transcriber saw `ύθως` and, reasoning from sense,
+offered **εὐθέως** — fluent, plausible, and wrong. That is 7a″ exactly: the
+guess arrives from expectation, the plate is unavailable to contradict it, and
+nothing downstream can tell. Had the agent been less disciplined and simply
+written εὐθέως, this edition would carry an invented word inside a scripture
+quotation. **The `⟨?⟩` convention is what saved it.**
+
+**Fix.** `--overshoot` default raised 45 → **260**, measured: 190 still cut the
+`καὶ`, 260 recovers the line whole. Batch 2 re-cropped to `raw/pg088/batch2-wide/`.
+The wider crop drags in more facing Latin — an acceptable trade, because layout
+rule 4 already has the transcriber exclude and report Latin (every Batch 2 agent
+did so correctly), and **a reported Latin bleed is recoverable while a silently
+eaten Greek word is not.**
+
+**New tooling, both committed:**
+- `scripts/pg-crop-clip-check.py` — flags lines running from the crop edge into
+  the text without crossing a gutter-sized gap. Two earlier versions of this
+  check were wrong in instructive ways: measuring raw leftmost ink reported all
+  ~60 lines per leaf, because the crop deliberately holds Latin fragments; and
+  scanning the full row width passed everything, because every line ends short
+  of the far edge. Both are documented in the file so they are not reinvented.
+- `scripts/pg-ocr-lint.mjs` — file- and sequence-level checks a transcriber
+  cannot run on itself: Latin loose in the body, leaked running heads, marginal
+  A→B→C→D continuity, section shape, truncated reads. Batch 2 scored 17/20; the
+  three flags were formatting, not text.
+
+**Confirmed NOT a defect, by a plate look:** leaf 848's `ἵνα μόρον (sic) εἴπῃ` —
+**Migne himself prints "(sic)" in the Greek body**, in italic. Kept, and the
+lint now classes a printed `(sic)` as a notable rather than a Latin intrusion.
+
+**Owed:** the 20 leaves must be re-read against the wide crops before Batch 2
+is adjudicated. Nothing from Batch 2 has been adjudicated or promoted.
