@@ -1,5 +1,97 @@
 # Next session — resume note
 
+## ▶▶ 2026-08-05 (Opus): DOROTHEUS IS THE NEXT RUN — read this block first
+
+**Wilson's instruction at the end of the 2026-08-05 session: run Dorotheus next.**
+Everything below this block is older; the Palestine-block note that used to head
+this file is still true in outline but its PG 88 arithmetic was WRONG and is
+corrected here.
+
+### What changed today, and why the old numbers in this file are not to be trusted
+
+⛔ **`data/pg-column-maps/pg088.json` was unusable and has been rebuilt.** Its
+`colLeft` never interpolated — it stalled, handing 1613 to every leaf from 836 to
+850 and 1619 to all 99 leaves from 852 to 950. Nothing consumed it, so nothing
+shipped wrong, but Dorotheus could not have been chunked from it.
+
+⛔ **The recorded diagnosis was also wrong.** PG 88 is NOT non-linear. It advances
+**+2 columns per leaf, everywhere.** What is irregular is the SCAN: `raw/pg088/
+088.pdf` contains **three re-scanned blocks** — after leaf 864 it jumps back
+1669→1659, after 892 1713→1695, after 940 1789→1779, all three plate-verified.
+Leaf 865 reprints leaf 859's columns 1659|1660 with identical body text. Those 22
+duplicated leaves are the whole of the missing 0.379 col/leaf. **139 leaves − 22
+duplicates = 117 unique = 234 columns = 1611–1844**, the work's own range. So the
+old alarm that the work runs to leaf ~975 and a linear harvest would lose the
+*Epistolae* was an artifact. Detail: `pg-paired-pilot.md` **§8a.G**.
+
+**The rebuilt map is trustworthy**: 117/117 columns covered, none uncovered, 22
+leaves carry `skipInHarvest: true`. Checks it was NOT fed and passes anyway —
+leaf 837 = 1615|1616, leaf 951 = 1799|1800 (the OLD map's own second anchor,
+withheld from the fit), leaf 973 = 1843|1844. Rebuild it with
+`scripts/pg-column-map-rebuild.py` (+ `scripts/pg-heads-extract.py`) if ever
+needed; both are documented and carry the traps.
+
+### Where Dorotheus actually stands
+
+- **Model policy is settled and is not to be relitigated: SONNET transcribes,
+  OPUS adjudicates.** `PG-OCR-PROMPT.md` is canonical. Opus as primary transcriber
+  silently conforms the plate to the expected text — that is what the pilot
+  measured.
+- **Batch 1 is done and adjudicated**: 8 columns, leaves 836–844, ~4,300 tokens.
+  `benchmark/pg88-pilot/BATCH1-ADJUDICATION.md`. Transcriptions live at
+  `raw/pg088/batch1/out/` (gitignored).
+- **~109 harvest leaves remain** of the 117.
+- **Crops: use `scripts/pg-leaf-crops.py`.** Written today because the hand-rolled
+  Batch 1 crops clipped marginal letters on 2 of 8 leaves. Migne's A/B/C/D sit in
+  the GUTTER on both parities and their offset varies, so the crop overshoots the
+  gutter floor by 45 px (measured need 23; 70 dragged in 2–3 chars of Latin).
+  Every run writes `gutter-contact.png` — **look at it before transcribing.**
+- **Two prompt amendments already folded in**: Migne prints a GRAVE before a
+  comma (this resolved Batch 1's whole ~24-item accent class, and closed the
+  Antiochus accent list too), and the marginal-letter position + an instruction to
+  report a clipped letter rather than guess it.
+
+### ⛔ Open before the next batch — decide these, don't drift past them
+
+1. **BURN STOP.** A batch fleet needs Wilson's "which model, and go?" with real
+   numbers. Batch 1 was 8 columns; ~109 leaves remain.
+2. **Which scan of a duplicated leaf to keep.** The map keeps the FIRST. A block
+   may well have been re-shot *because* the first pass was bad — compare a pair
+   before harvesting leaves 865–870, 893–902, 941–946.
+3. **Batch 1's 4 unresolved plate-look items** (0.09% of tokens): leaf 836
+   `"Καὶ τὰ τὸ καὶ"` (unintelligible, highest priority) · leaf 843 `ἔβης` ·
+   leaf 837 `[C]` + leaf 842 `[A]` clipped marginals — **these should now be
+   readable in the new crops** · leaf 836 `Λ'.` and leaf 841 `Ϛ'.` numerals.
+
+### ⚑ Two method findings from today that will bite Dorotheus at TRANSLATION time
+
+Learned the hard way on Glabas Sermon III, and they generalize to every PG work:
+
+1. **Build a 7a″ named-lemma list from the PLATE WITNESS, never from the Calfa
+   text.** Today's launch prompt named six readings as "what the source prints"
+   that were all Calfa OCR damage, disproved by the third witness and the Latin.
+   Naming our own digitization's damage as the plate's reading turns 7a″ from a
+   conformation guard into a conformation CAUSE — and the resulting error is
+   invisible downstream, because the shipped text would AGREE with the prompt.
+   Both agents caught it and refused; a weaker one would have shipped six `[sic:]`
+   markers blaming Migne for our defects. **Dorotheus's Greek is OUR OWN OCR, so
+   this trap is sharper there than anywhere.**
+2. **Name lemmas PER CHUNK, not per work.** The same verse quoted four times had
+   different readings at each occurrence.
+
+Also: **the Latin twin is cropped page-atomically** and carries a neighbouring
+work's Latin at any seam the Greek truncates. Measured on Sermon III: 263 chars at
+the head, 1,539 at the tail. Verifier-only, so it is safe — but say so in the
+prompt or a translator will "restore" it.
+
+### Deploy checklist gap, fixed today
+`build-cruces.mjs` was missing from `translation-runbook.md` step (b). A work
+shipped without it goes live with its apparatus link 404ing while the work page
+200s and the landing looks right. **Smoke-test the cruces URL, not just the work
+URL.**
+
+---
+
 ## ▶▶ 2026-08-04 (Opus): THE PALESTINE BLOCK is top of the PG queue — and it is source-blocked
 
 Wilson put five PG works at the top of the queue for
