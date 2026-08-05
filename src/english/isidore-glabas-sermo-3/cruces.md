@@ -131,3 +131,82 @@ in A (ΙΓʹ, Ιϛʹ), both third-witness + Latin confirmed.
 From char 6,434 the twin leaves Sermon III (*EDITORIS PATROLOGIAE MONITUM*, then
 *SERMO IV*). Nothing restored or translated; the Greek ends correctly at the
 doxology inside col. 0117, with Sermon IV beginning below it on the same leaf.
+
+## BLIND POLARITY READ (step 4a) — 2026-08-05, Opus, independent of these logs
+
+Read against the Calfa Greek, Migne's Latin and the third-witness scan, with all
+`cruces*` files withheld from the reader (the method rule: a checker that reads
+them first returns only what is already logged).
+
+**Chunks clean: 0003, 0004, 0005, 0006 — named, not merely omitted.** 0003 and
+0005 carry the work's densest negation shapes (the five-fold `οὐχὶ…οὐ…` chain at
+0096, `μὴ ὅτι… ἀλλ' οὐδέ`, the redundant μή after a hindering verb at 0105, the
+double `μὴ σφόδρα ὑψηλῶς καὶ μὴ καταλλήλως` at 0112) and every one lands
+correctly. 0006's `περιδύεται`/`ἀμφιέννυται` pair — the Greek analogue of the
+*induitur/exuitur* class — runs in the right direction.
+
+**4 sites: 3 ours-side, 1 Migne's. Three fixed, one is a crux.**
+
+### ✅ FIXED — 0001 @0081, mechanism 2, a dropped printed negation
+
+The Greek prints `μὴ εἰσέπειτα μὲν προειδυίας`; the English read **"having
+foreseen"**, with no negation at all. The period is a counterfactual, and without
+the μή it makes God's *foreseeing* the vessel the reason he does not endure
+corruption — which is the reason to wait, not to act. Migne's Latin settles it
+twice over: `nisi pra»vidisset … nunquam passa fuisset`. **Verified against both
+columns before fixing.** Now reads "had it not foreseen … would never have
+endured" (which also brings `οὐκ ἄν`/*nunquam* to "never"). This is the
+silent-repair class exactly: a smooth page, a clean `verify-english`, no trace.
+
+### ✅ FIXED — 0000 @0073, mechanism 5, reference mis-bound
+
+`καὶ ὁμοφυοῦς τούτοις οἴκου` — `τούτοις` binds to the men of the preceding
+sentence, and the clause exists to say why men rejoice. The English "of one
+nature with **these**" took the nearest plural, which is the just-negated list
+(sun's disk, heaven's vault, angelic nature) — asserting that the dwelling shares
+the nature of precisely what God is said not to have needed. **Migne's Latin
+disambiguates outright: `eamdem cum hominibus naturam habens`.** Now "of one
+nature with these men". No printed word changed; only the pronoun's reach.
+⚑ Mechanism 5 is not a negation error, so no negation-aware check could ever
+have found this one.
+
+### ✅ FIXED — 0001 @0085, unmarked supply over an unrecoverable lacuna
+
+The English printed about twenty supplied words trailing off mid-clause (*"…by
+himself, or she bore this same one, whenever the fullness of the Godhead."*) with
+**no `[ed:]` anywhere in the chunk**, while the work marks its other three
+lacunae properly. ⚠ **The translating batch logged this as "restored silently,
+plate-certain" — it is not.** After `Ἦ γὰρ ἂν ὁ` the Greek dissolves into glyphs
+bled from the Latin column, **the third witness breaks at the same point and also
+drifts into Latin**, and Migne's Latin is itself broken here. So the wording is
+not recoverable from our files and the supply came from a broken Latin column.
+Replaced with an `[ed:]` note on the pattern of the work's other three; nothing
+is supplied. **This is the clearest vindication of the blindness rule in this
+work — a prior verification pass had seen this passage and cleared it.**
+
+### ⚑ CRUX, English left as printed — 0002 @0090, Migne's plate
+
+`τοῦ τε Θεὸς εἶναι μὴ ἐπιστάμενος`, third-witness confirmed, so **not OCR
+damage**. Our English ("and not knowing himself to be God") is already literal
+and stays — the already-literal rule. But the sentence's own neighbour is the
+Chalcedonian antithesis *becoming what he was not*, whose second limb must be
+*remaining what he was*, and a Word who does not know himself to be God collapses
+the paragraph. Probable plate error for `μὴ ἐξιστάμενος τοῦ Θεὸς εἶναι`, "not
+departing from being God" — which also repairs the syntax, since ἐξίσταμαι takes
+this genitive articular infinitive and ἐπίσταμαι does not. ⚑ Allatius hedges it
+(`ac propemodum se Deum esse oblitus`), which is itself evidence the difficulty
+is on the plate and not ours. **Conjecture recorded here, NOT rendered in the
+body.**
+
+### ▷ RECORDED, NOT FIXED — 0002 @0089–0090, negation scope
+
+`οὐδὲ νῦν μὲν οἶκόν σε προσευρηκὼς ἑαυτῷ λαμπρυνεῖ, τὴν δ' … οὐκ ἐσαεὶ φωτιεῖ`.
+The `οὐδέ` governs the whole μέν/δέ period as one denial with the inner `οὐκ`
+the limb that bites — which is how the Latin reads it (one *neque*, landing on
+*cessabit*). English distributes it onto the first limb by default, so it can be
+read as denying that he brightens her now. Every printed negation is present and
+the reader can recover the scope, so the blind read graded it clarity-class
+rather than a reversal — but it is the shape a smoothed negation leaves. A fix
+preserving all negations exists ("nor is it that, having found thee out…"). **Left
+for Wilson: it is an English restructure on a lower-confidence call, not a
+restoration of a printed word.**
