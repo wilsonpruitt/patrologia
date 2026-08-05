@@ -1,0 +1,2124 @@
+{
+ "volume": 88,
+ "work": "dorotheus-gazaeus-doctrinae",
+ "colRange": "PG 88, 1611-1844",
+ "method": "Column numbers from copy A running heads, seeded by TWO plate-verified anchors (leaf835=col1611, leaf951=col1799) - PG 88 is NON-LINEAR, slope ~1.62 col/leaf. Parity CANNOT use Greek-char density: copy A's OCR contains ZERO Greek, it transliterates the Greek column into Latin letterforms. Parity is therefore measured by LATIN-PURITY (fraction of >=3-char tokens that are pure a-zA-Z): the real Latin column scores ~0.70, the Greek-as-Latin mangle ~0.33. Separation is 30-45 points.",
+ "anchorsPlateVerified": {
+  "835": 1611,
+  "951": 1799
+ },
+ "lowConfidenceLeaves": [
+  838,
+  970,
+  974
+ ],
+ "parityExceptions": [
+  974
+ ],
+ "pages": [
+  {
+   "leaf": 835,
+   "pdfPage": 836,
+   "colLeft": 1611,
+   "greekSide": "right",
+   "splitX": 1919,
+   "latPurityL": 0.699,
+   "latPurityR": 0.408,
+   "sep": 0.291,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": true
+  },
+  {
+   "leaf": 836,
+   "pdfPage": 837,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 1991,
+   "latPurityL": 0.351,
+   "latPurityR": 0.76,
+   "sep": 0.409,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1613
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 837,
+   "pdfPage": 838,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 2000,
+   "latPurityL": 0.753,
+   "latPurityR": 0.385,
+   "sep": 0.369,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1516
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 838,
+   "pdfPage": 839,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 1931,
+   "latPurityL": 0.568,
+   "latPurityR": 0.692,
+   "sep": 0.124,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1617,
+    1613
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 839,
+   "pdfPage": 840,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 2096,
+   "latPurityL": 0.689,
+   "latPurityR": 0.314,
+   "sep": 0.375,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1519,
+    1620
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 840,
+   "pdfPage": 841,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 2048,
+   "latPurityL": 0.286,
+   "latPurityR": 0.695,
+   "sep": 0.409,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1621,
+    1623
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 841,
+   "pdfPage": 842,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 1970,
+   "latPurityL": 0.731,
+   "latPurityR": 0.406,
+   "sep": 0.325,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1623,
+    1624
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 842,
+   "pdfPage": 843,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 1986,
+   "latPurityL": 0.367,
+   "latPurityR": 0.707,
+   "sep": 0.34,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1625,
+    1925
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 843,
+   "pdfPage": 844,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 2014,
+   "latPurityL": 0.661,
+   "latPurityR": 0.341,
+   "sep": 0.32,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1623
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 844,
+   "pdfPage": 845,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 2072,
+   "latPurityL": 0.304,
+   "latPurityR": 0.636,
+   "sep": 0.332,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1629
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 845,
+   "pdfPage": 846,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 1919,
+   "latPurityL": 0.733,
+   "latPurityR": 0.365,
+   "sep": 0.368,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1631
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 846,
+   "pdfPage": 847,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 2062,
+   "latPurityL": 0.34,
+   "latPurityR": 0.68,
+   "sep": 0.34,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 847,
+   "pdfPage": 848,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 1845,
+   "latPurityL": 0.683,
+   "latPurityR": 0.36,
+   "sep": 0.323,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1635,
+    1636
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 848,
+   "pdfPage": 849,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 1995,
+   "latPurityL": 0.34,
+   "latPurityR": 0.71,
+   "sep": 0.37,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1638
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 849,
+   "pdfPage": 850,
+   "colLeft": 1613,
+   "greekSide": "right",
+   "splitX": 1983,
+   "latPurityL": 0.713,
+   "latPurityR": 0.319,
+   "sep": 0.393,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1639,
+    1610
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 850,
+   "pdfPage": 851,
+   "colLeft": 1613,
+   "greekSide": "left",
+   "splitX": 1927,
+   "latPurityL": 0.288,
+   "latPurityR": 0.74,
+   "sep": 0.452,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1641
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 851,
+   "pdfPage": 852,
+   "colLeft": 1614,
+   "greekSide": "right",
+   "splitX": 2047,
+   "latPurityL": 0.732,
+   "latPurityR": 0.381,
+   "sep": 0.35,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1643,
+    1614
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 852,
+   "pdfPage": 853,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2006,
+   "latPurityL": 0.328,
+   "latPurityR": 0.691,
+   "sep": 0.363,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1619
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 853,
+   "pdfPage": 854,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1929,
+   "latPurityL": 0.693,
+   "latPurityR": 0.338,
+   "sep": 0.355,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1611
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 854,
+   "pdfPage": 855,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2011,
+   "latPurityL": 0.331,
+   "latPurityR": 0.742,
+   "sep": 0.411,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1549
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 855,
+   "pdfPage": 856,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2065,
+   "latPurityL": 0.731,
+   "latPurityR": 0.379,
+   "sep": 0.353,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1651,
+    1652
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 856,
+   "pdfPage": 857,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2008,
+   "latPurityL": 0.288,
+   "latPurityR": 0.725,
+   "sep": 0.437,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1653,
+    1654
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 857,
+   "pdfPage": 858,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2065,
+   "latPurityL": 0.692,
+   "latPurityR": 0.367,
+   "sep": 0.324,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1655,
+    1656
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 858,
+   "pdfPage": 859,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2057,
+   "latPurityL": 0.39,
+   "latPurityR": 0.755,
+   "sep": 0.365,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1657,
+    1658
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 859,
+   "pdfPage": 860,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1852,
+   "latPurityL": 0.718,
+   "latPurityR": 0.327,
+   "sep": 0.391,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1639,
+    1659
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 860,
+   "pdfPage": 861,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2063,
+   "latPurityL": 0.295,
+   "latPurityR": 0.734,
+   "sep": 0.439,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1651
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 861,
+   "pdfPage": 862,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2011,
+   "latPurityL": 0.63,
+   "latPurityR": 0.366,
+   "sep": 0.265,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1602
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 862,
+   "pdfPage": 863,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1985,
+   "latPurityL": 0.335,
+   "latPurityR": 0.734,
+   "sep": 0.399,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1605
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 863,
+   "pdfPage": 864,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1999,
+   "latPurityL": 0.732,
+   "latPurityR": 0.356,
+   "sep": 0.377,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1668
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 864,
+   "pdfPage": 865,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2004,
+   "latPurityL": 0.31,
+   "latPurityR": 0.72,
+   "sep": 0.41,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1663,
+    1670
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 865,
+   "pdfPage": 866,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2005,
+   "latPurityL": 0.712,
+   "latPurityR": 0.333,
+   "sep": 0.378,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1639,
+    1654
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 866,
+   "pdfPage": 867,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2071,
+   "latPurityL": 0.295,
+   "latPurityR": 0.743,
+   "sep": 0.448,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1661
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 867,
+   "pdfPage": 868,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2034,
+   "latPurityL": 0.63,
+   "latPurityR": 0.364,
+   "sep": 0.266,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1661
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 868,
+   "pdfPage": 869,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1985,
+   "latPurityL": 0.345,
+   "latPurityR": 0.731,
+   "sep": 0.386,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1665
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 869,
+   "pdfPage": 870,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1971,
+   "latPurityL": 0.732,
+   "latPurityR": 0.32,
+   "sep": 0.412,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1668
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 870,
+   "pdfPage": 871,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2003,
+   "latPurityL": 0.329,
+   "latPurityR": 0.715,
+   "sep": 0.386,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1663,
+    1670
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 871,
+   "pdfPage": 872,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1980,
+   "latPurityL": 0.708,
+   "latPurityR": 0.34,
+   "sep": 0.367,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1671
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 872,
+   "pdfPage": 873,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1923,
+   "latPurityL": 0.361,
+   "latPurityR": 0.722,
+   "sep": 0.361,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1673,
+    1814
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 873,
+   "pdfPage": 874,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2029,
+   "latPurityL": 0.698,
+   "latPurityR": 0.284,
+   "sep": 0.414,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1675,
+    1676
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 874,
+   "pdfPage": 875,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1947,
+   "latPurityL": 0.33,
+   "latPurityR": 0.72,
+   "sep": 0.39,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1611,
+    1678
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 875,
+   "pdfPage": 876,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1974,
+   "latPurityL": 0.726,
+   "latPurityR": 0.311,
+   "sep": 0.415,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1680
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 876,
+   "pdfPage": 877,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2077,
+   "latPurityL": 0.385,
+   "latPurityR": 0.745,
+   "sep": 0.36,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1691,
+    1682
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 877,
+   "pdfPage": 878,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1983,
+   "latPurityL": 0.69,
+   "latPurityR": 0.362,
+   "sep": 0.328,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1633,
+    1684
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 878,
+   "pdfPage": 879,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1984,
+   "latPurityL": 0.305,
+   "latPurityR": 0.694,
+   "sep": 0.388,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 879,
+   "pdfPage": 880,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2032,
+   "latPurityL": 0.725,
+   "latPurityR": 0.322,
+   "sep": 0.404,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1631
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 880,
+   "pdfPage": 881,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2053,
+   "latPurityL": 0.341,
+   "latPurityR": 0.731,
+   "sep": 0.39,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1639,
+    1690
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 881,
+   "pdfPage": 882,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1955,
+   "latPurityL": 0.707,
+   "latPurityR": 0.342,
+   "sep": 0.365,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1691
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 882,
+   "pdfPage": 883,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1988,
+   "latPurityL": 0.315,
+   "latPurityR": 0.686,
+   "sep": 0.371,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1693,
+    1594
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 883,
+   "pdfPage": 884,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1997,
+   "latPurityL": 0.672,
+   "latPurityR": 0.349,
+   "sep": 0.323,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1695,
+    1656
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 884,
+   "pdfPage": 885,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1948,
+   "latPurityL": 0.297,
+   "latPurityR": 0.739,
+   "sep": 0.442,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1691,
+    1693
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 885,
+   "pdfPage": 886,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2001,
+   "latPurityL": 0.7,
+   "latPurityR": 0.301,
+   "sep": 0.399,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1523,
+    1709
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 886,
+   "pdfPage": 887,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2014,
+   "latPurityL": 0.348,
+   "latPurityR": 0.745,
+   "sep": 0.397,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 887,
+   "pdfPage": 888,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1982,
+   "latPurityL": 0.731,
+   "latPurityR": 0.355,
+   "sep": 0.376,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 888,
+   "pdfPage": 889,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1968,
+   "latPurityL": 0.312,
+   "latPurityR": 0.717,
+   "sep": 0.405,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1705,
+    1706
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 889,
+   "pdfPage": 890,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2028,
+   "latPurityL": 0.715,
+   "latPurityR": 0.35,
+   "sep": 0.364,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1707,
+    1708
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 890,
+   "pdfPage": 891,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2025,
+   "latPurityL": 0.323,
+   "latPurityR": 0.66,
+   "sep": 0.337,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1709,
+    1710
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 891,
+   "pdfPage": 892,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1853,
+   "latPurityL": 0.734,
+   "latPurityR": 0.378,
+   "sep": 0.356,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1712
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 892,
+   "pdfPage": 893,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2019,
+   "latPurityL": 0.325,
+   "latPurityR": 0.738,
+   "sep": 0.412,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1714
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 893,
+   "pdfPage": 894,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1988,
+   "latPurityL": 0.68,
+   "latPurityR": 0.32,
+   "sep": 0.36,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1695,
+    1696
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 894,
+   "pdfPage": 895,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1984,
+   "latPurityL": 0.326,
+   "latPurityR": 0.741,
+   "sep": 0.415,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1691,
+    1693
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 895,
+   "pdfPage": 896,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1965,
+   "latPurityL": 0.701,
+   "latPurityR": 0.313,
+   "sep": 0.388,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1923,
+    1703
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 896,
+   "pdfPage": 897,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2045,
+   "latPurityL": 0.337,
+   "latPurityR": 0.757,
+   "sep": 0.419,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 897,
+   "pdfPage": 898,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1926,
+   "latPurityL": 0.738,
+   "latPurityR": 0.353,
+   "sep": 0.385,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 898,
+   "pdfPage": 899,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1931,
+   "latPurityL": 0.32,
+   "latPurityR": 0.727,
+   "sep": 0.407,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1705,
+    1706
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 899,
+   "pdfPage": 900,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1988,
+   "latPurityL": 0.706,
+   "latPurityR": 0.365,
+   "sep": 0.342,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1707,
+    1708
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 900,
+   "pdfPage": 901,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2016,
+   "latPurityL": 0.341,
+   "latPurityR": 0.689,
+   "sep": 0.348,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1710
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 901,
+   "pdfPage": 902,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1842,
+   "latPurityL": 0.739,
+   "latPurityR": 0.385,
+   "sep": 0.355,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1712
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 902,
+   "pdfPage": 903,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2049,
+   "latPurityL": 0.323,
+   "latPurityR": 0.744,
+   "sep": 0.421,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1713,
+    1714
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 903,
+   "pdfPage": 904,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1996,
+   "latPurityL": 0.668,
+   "latPurityR": 0.328,
+   "sep": 0.339,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1715,
+    1716
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 904,
+   "pdfPage": 905,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1985,
+   "latPurityL": 0.328,
+   "latPurityR": 0.768,
+   "sep": 0.44,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 905,
+   "pdfPage": 906,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2101,
+   "latPurityL": 0.643,
+   "latPurityR": 0.315,
+   "sep": 0.329,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1719
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 906,
+   "pdfPage": 907,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2031,
+   "latPurityL": 0.345,
+   "latPurityR": 0.715,
+   "sep": 0.37,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 907,
+   "pdfPage": 908,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1953,
+   "latPurityL": 0.662,
+   "latPurityR": 0.38,
+   "sep": 0.282,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1724
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 908,
+   "pdfPage": 909,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1958,
+   "latPurityL": 0.339,
+   "latPurityR": 0.768,
+   "sep": 0.429,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1725
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 909,
+   "pdfPage": 910,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2053,
+   "latPurityL": 0.735,
+   "latPurityR": 0.396,
+   "sep": 0.339,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 910,
+   "pdfPage": 911,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1865,
+   "latPurityL": 0.383,
+   "latPurityR": 0.711,
+   "sep": 0.329,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 911,
+   "pdfPage": 912,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2065,
+   "latPurityL": 0.746,
+   "latPurityR": 0.349,
+   "sep": 0.397,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1739
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 912,
+   "pdfPage": 913,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2027,
+   "latPurityL": 0.332,
+   "latPurityR": 0.736,
+   "sep": 0.405,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1733,
+    1734
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 913,
+   "pdfPage": 914,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1938,
+   "latPurityL": 0.781,
+   "latPurityR": 0.335,
+   "sep": 0.446,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1746
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 914,
+   "pdfPage": 915,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1949,
+   "latPurityL": 0.336,
+   "latPurityR": 0.756,
+   "sep": 0.42,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1531,
+    1733
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 915,
+   "pdfPage": 916,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1995,
+   "latPurityL": 0.721,
+   "latPurityR": 0.338,
+   "sep": 0.383,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1733,
+    1740
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 916,
+   "pdfPage": 917,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1961,
+   "latPurityL": 0.36,
+   "latPurityR": 0.727,
+   "sep": 0.367,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1741,
+    1712
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 917,
+   "pdfPage": 918,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2063,
+   "latPurityL": 0.715,
+   "latPurityR": 0.368,
+   "sep": 0.347,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1743,
+    1744
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 918,
+   "pdfPage": 919,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1907,
+   "latPurityL": 0.365,
+   "latPurityR": 0.694,
+   "sep": 0.329,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1745,
+    1746
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 919,
+   "pdfPage": 920,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2033,
+   "latPurityL": 0.672,
+   "latPurityR": 0.4,
+   "sep": 0.272,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1747,
+    1748
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 920,
+   "pdfPage": 921,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1961,
+   "latPurityL": 0.351,
+   "latPurityR": 0.747,
+   "sep": 0.396,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1748
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 921,
+   "pdfPage": 922,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2117,
+   "latPurityL": 0.68,
+   "latPurityR": 0.37,
+   "sep": 0.31,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1753
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 922,
+   "pdfPage": 923,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1911,
+   "latPurityL": 0.329,
+   "latPurityR": 0.68,
+   "sep": 0.35,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1754
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 923,
+   "pdfPage": 924,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2061,
+   "latPurityL": 0.736,
+   "latPurityR": 0.367,
+   "sep": 0.369,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1755
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 924,
+   "pdfPage": 925,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1993,
+   "latPurityL": 0.362,
+   "latPurityR": 0.697,
+   "sep": 0.335,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1757,
+    1758
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 925,
+   "pdfPage": 926,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1948,
+   "latPurityL": 0.743,
+   "latPurityR": 0.348,
+   "sep": 0.396,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1759,
+    1760
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 926,
+   "pdfPage": 927,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1988,
+   "latPurityL": 0.32,
+   "latPurityR": 0.734,
+   "sep": 0.413,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1761
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 927,
+   "pdfPage": 928,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2036,
+   "latPurityL": 0.683,
+   "latPurityR": 0.309,
+   "sep": 0.373,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1764
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 928,
+   "pdfPage": 929,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1998,
+   "latPurityL": 0.349,
+   "latPurityR": 0.678,
+   "sep": 0.329,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1765
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 929,
+   "pdfPage": 930,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2029,
+   "latPurityL": 0.721,
+   "latPurityR": 0.34,
+   "sep": 0.381,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1707,
+    1768
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 930,
+   "pdfPage": 931,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1926,
+   "latPurityL": 0.311,
+   "latPurityR": 0.741,
+   "sep": 0.43,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1769
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 931,
+   "pdfPage": 932,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2047,
+   "latPurityL": 0.724,
+   "latPurityR": 0.358,
+   "sep": 0.366,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1771,
+    1712
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 932,
+   "pdfPage": 933,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1962,
+   "latPurityL": 0.357,
+   "latPurityR": 0.737,
+   "sep": 0.38,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1773,
+    1774
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 933,
+   "pdfPage": 934,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2039,
+   "latPurityL": 0.705,
+   "latPurityR": 0.362,
+   "sep": 0.344,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1715
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 934,
+   "pdfPage": 935,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1915,
+   "latPurityL": 0.339,
+   "latPurityR": 0.745,
+   "sep": 0.406,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 935,
+   "pdfPage": 936,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2097,
+   "latPurityL": 0.746,
+   "latPurityR": 0.386,
+   "sep": 0.36,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 936,
+   "pdfPage": 937,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1952,
+   "latPurityL": 0.356,
+   "latPurityR": 0.747,
+   "sep": 0.392,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 937,
+   "pdfPage": 938,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2037,
+   "latPurityL": 0.733,
+   "latPurityR": 0.385,
+   "sep": 0.348,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 938,
+   "pdfPage": 939,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1895,
+   "latPurityL": 0.346,
+   "latPurityR": 0.743,
+   "sep": 0.397,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1785
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 939,
+   "pdfPage": 940,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2073,
+   "latPurityL": 0.733,
+   "latPurityR": 0.302,
+   "sep": 0.431,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1788
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 940,
+   "pdfPage": 941,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1971,
+   "latPurityL": 0.351,
+   "latPurityR": 0.69,
+   "sep": 0.339,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1759,
+    1790
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 941,
+   "pdfPage": 942,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2088,
+   "latPurityL": 0.743,
+   "latPurityR": 0.353,
+   "sep": 0.391,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 942,
+   "pdfPage": 943,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 2003,
+   "latPurityL": 0.358,
+   "latPurityR": 0.74,
+   "sep": 0.383,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 943,
+   "pdfPage": 944,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2018,
+   "latPurityL": 0.737,
+   "latPurityR": 0.373,
+   "sep": 0.365,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 944,
+   "pdfPage": 945,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1889,
+   "latPurityL": 0.336,
+   "latPurityR": 0.754,
+   "sep": 0.419,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1785,
+    1756
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 945,
+   "pdfPage": 946,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2074,
+   "latPurityL": 0.713,
+   "latPurityR": 0.336,
+   "sep": 0.376,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1787,
+    1788
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 946,
+   "pdfPage": 947,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1971,
+   "latPurityL": 0.327,
+   "latPurityR": 0.688,
+   "sep": 0.361,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1759,
+    1790
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 947,
+   "pdfPage": 948,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 2034,
+   "latPurityL": 0.751,
+   "latPurityR": 0.345,
+   "sep": 0.406,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 948,
+   "pdfPage": 949,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1965,
+   "latPurityL": 0.331,
+   "latPurityR": 0.754,
+   "sep": 0.423,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 949,
+   "pdfPage": 950,
+   "colLeft": 1619,
+   "greekSide": "right",
+   "splitX": 1990,
+   "latPurityL": 0.664,
+   "latPurityR": 0.352,
+   "sep": 0.312,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1795,
+    1796
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 950,
+   "pdfPage": 951,
+   "colLeft": 1619,
+   "greekSide": "left",
+   "splitX": 1925,
+   "latPurityL": 0.371,
+   "latPurityR": 0.685,
+   "sep": 0.314,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1798
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 951,
+   "pdfPage": 952,
+   "colLeft": 1799,
+   "greekSide": "right",
+   "splitX": 1939,
+   "latPurityL": 0.704,
+   "latPurityR": 0.338,
+   "sep": 0.365,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1799
+   ],
+   "verified": true
+  },
+  {
+   "leaf": 952,
+   "pdfPage": 953,
+   "colLeft": 1802,
+   "greekSide": "left",
+   "splitX": 2005,
+   "latPurityL": 0.389,
+   "latPurityR": 0.765,
+   "sep": 0.376,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1501,
+    1802
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 953,
+   "pdfPage": 954,
+   "colLeft": 1802,
+   "greekSide": "right",
+   "splitX": 1947,
+   "latPurityL": 0.742,
+   "latPurityR": 0.382,
+   "sep": 0.361,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1503
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 954,
+   "pdfPage": 955,
+   "colLeft": 1805,
+   "greekSide": "left",
+   "splitX": 1908,
+   "latPurityL": 0.272,
+   "latPurityR": 0.717,
+   "sep": 0.445,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1805,
+    1806
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 955,
+   "pdfPage": 956,
+   "colLeft": 1805,
+   "greekSide": "right",
+   "splitX": 2030,
+   "latPurityL": 0.747,
+   "latPurityR": 0.453,
+   "sep": 0.294,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1501
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 956,
+   "pdfPage": 957,
+   "colLeft": 1805,
+   "greekSide": "left",
+   "splitX": 1885,
+   "latPurityL": 0.297,
+   "latPurityR": 0.774,
+   "sep": 0.477,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1815
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 957,
+   "pdfPage": 958,
+   "colLeft": 1811,
+   "greekSide": "right",
+   "splitX": 2105,
+   "latPurityL": 0.773,
+   "latPurityR": 0.372,
+   "sep": 0.401,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1811
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 958,
+   "pdfPage": 959,
+   "colLeft": 1813,
+   "greekSide": "left",
+   "splitX": 1997,
+   "latPurityL": 0.319,
+   "latPurityR": 0.694,
+   "sep": 0.375,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1813,
+    1814
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 959,
+   "pdfPage": 960,
+   "colLeft": 1815,
+   "greekSide": "right",
+   "splitX": 2030,
+   "latPurityL": 0.709,
+   "latPurityR": 0.33,
+   "sep": 0.378,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1815,
+    1816
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 960,
+   "pdfPage": 961,
+   "colLeft": 1819,
+   "greekSide": "left",
+   "splitX": 1900,
+   "latPurityL": 0.3,
+   "latPurityR": 0.741,
+   "sep": 0.441,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1819
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 961,
+   "pdfPage": 962,
+   "colLeft": 1819,
+   "greekSide": "right",
+   "splitX": 2047,
+   "latPurityL": 0.705,
+   "latPurityR": 0.326,
+   "sep": 0.38,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1819,
+    1820
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 962,
+   "pdfPage": 963,
+   "colLeft": 1822,
+   "greekSide": "left",
+   "splitX": 2065,
+   "latPurityL": 0.333,
+   "latPurityR": 0.719,
+   "sep": 0.385,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1822
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 963,
+   "pdfPage": 964,
+   "colLeft": 1824,
+   "greekSide": "right",
+   "splitX": 1951,
+   "latPurityL": 0.729,
+   "latPurityR": 0.367,
+   "sep": 0.362,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1824
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 964,
+   "pdfPage": 965,
+   "colLeft": 1825,
+   "greekSide": "left",
+   "splitX": 2049,
+   "latPurityL": 0.323,
+   "latPurityR": 0.75,
+   "sep": 0.427,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1825,
+    1826
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 965,
+   "pdfPage": 966,
+   "colLeft": 1825,
+   "greekSide": "right",
+   "splitX": 1953,
+   "latPurityL": 0.702,
+   "latPurityR": 0.369,
+   "sep": 0.334,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1527
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 966,
+   "pdfPage": 967,
+   "colLeft": 1825,
+   "greekSide": "left",
+   "splitX": 1935,
+   "latPurityL": 0.34,
+   "latPurityR": 0.759,
+   "sep": 0.418,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 967,
+   "pdfPage": 968,
+   "colLeft": 1825,
+   "greekSide": "right",
+   "splitX": 2035,
+   "latPurityL": 0.713,
+   "latPurityR": 0.391,
+   "sep": 0.323,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1832
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 968,
+   "pdfPage": 969,
+   "colLeft": 1825,
+   "greekSide": "left",
+   "splitX": 1907,
+   "latPurityL": 0.337,
+   "latPurityR": 0.692,
+   "sep": 0.355,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1533
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 969,
+   "pdfPage": 970,
+   "colLeft": 1825,
+   "greekSide": "right",
+   "splitX": 2010,
+   "latPurityL": 0.653,
+   "latPurityR": 0.484,
+   "sep": 0.169,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1835
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 970,
+   "pdfPage": 971,
+   "colLeft": 1825,
+   "greekSide": "left",
+   "splitX": 1936,
+   "latPurityL": 0.607,
+   "latPurityR": 0.681,
+   "sep": 0.074,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1838
+   ],
+   "verified": false
+  },
+  {
+   "leaf": 971,
+   "pdfPage": 972,
+   "colLeft": 1825,
+   "greekSide": "right",
+   "splitX": 2091,
+   "latPurityL": 0.667,
+   "latPurityR": 0.316,
+   "sep": 0.351,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 972,
+   "pdfPage": 973,
+   "colLeft": 1825,
+   "greekSide": "left",
+   "splitX": 1818,
+   "latPurityL": 0.329,
+   "latPurityR": 0.671,
+   "sep": 0.343,
+   "parityMatchesAlternation": true,
+   "headsSeen": [],
+   "verified": false
+  },
+  {
+   "leaf": 973,
+   "pdfPage": 974,
+   "colLeft": 1825,
+   "greekSide": "right",
+   "splitX": 2129,
+   "latPurityL": 0.464,
+   "latPurityR": 0.277,
+   "sep": 0.188,
+   "parityMatchesAlternation": true,
+   "headsSeen": [
+    1813
+   ],
+   "verified": false
+  }
+ ],
+ "workEndsAt": "leaf 973 — leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
+ "latinOnlyLeaves": {
+  "838": "carries the line 'Sequentia non habentur in Graeco' — Migne prints Latin only here; there is NO Greek to translate",
+  "970": "both columns Latin, no Greek column"
+ },
+ "openQuestion": "Slope is 1.62 col/leaf between the two plate anchors, i.e. ~19% of leaves do not advance the printed column number by 2. NOT YET DIAGNOSED (duplicate/inserted scan pages? full-width sections?). Column numbers BETWEEN the two verified anchors are interpolated from noisy running heads and MUST be spot-verified against renders before any OCR is trusted to a citation."
+}
