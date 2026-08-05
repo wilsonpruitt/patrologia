@@ -1,0 +1,139 @@
+{
+  "workKey": "isidore-glabas-sermo-3",
+  "scanItem": "patrologiaecurs63migngoog",
+  "volume": 139,
+  "extracted": "2026-08-01",
+  "greekPlateAbsentPages": [],
+  "gate": {
+    "aEveryChunkNonEmptyWhereLeafPresent": true,
+    "bWorkAggregateRatio": 1.446,
+    "bNote": "This is a rough-OCR third witness, not a translation source — the ratio is diagnostic (wrong-column detector), never a quality gate on its own. greekPlateAbsentPages marks pages where no third-witness check is possible at all."
+  },
+  "chunks": [
+    {
+      "chunk": 0,
+      "calfaWords": 1033,
+      "scanWords": 1789,
+      "ratio": 1.732,
+      "pages": [
+        43,
+        44,
+        45,
+        46
+      ],
+      "gapPages": [],
+      "leaves": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "chunk": 1,
+      "calfaWords": 1005,
+      "scanWords": 1685,
+      "ratio": 1.677,
+      "pages": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "gapPages": [],
+      "leaves": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "chunk": 2,
+      "calfaWords": 1019,
+      "scanWords": 1265,
+      "ratio": 1.241,
+      "pages": [
+        51,
+        52,
+        53
+      ],
+      "gapPages": [],
+      "leaves": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "chunk": 3,
+      "calfaWords": 1014,
+      "scanWords": 1481,
+      "ratio": 1.461,
+      "pages": [
+        54,
+        55,
+        56
+      ],
+      "gapPages": [],
+      "leaves": [
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "chunk": 4,
+      "calfaWords": 1039,
+      "scanWords": 1881,
+      "ratio": 1.81,
+      "pages": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "gapPages": [],
+      "leaves": [
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "chunk": 5,
+      "calfaWords": 1006,
+      "scanWords": 1277,
+      "ratio": 1.269,
+      "pages": [
+        61,
+        62,
+        63
+      ],
+      "gapPages": [],
+      "leaves": [
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "chunk": 6,
+      "calfaWords": 1149,
+      "scanWords": 1130,
+      "ratio": 0.983,
+      "pages": [
+        64,
+        65,
+        66
+      ],
+      "gapPages": [],
+      "leaves": [
+        54,
+        55,
+        56
+      ]
+    }
+  ]
+}

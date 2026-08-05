@@ -1,0 +1,19 @@
+{
+ "note": "Sermon-boundary truncation at BOTH ends, not lacuna restoration. isidore-glabas-sermo-3 (the Annunciation sermon) shares its first Calfa page with Sermon II and its last with Sermon IV -- Migne printed no column break at either seam. Patch 1 strips Sermon II's closing doxology from page 43 (greekCol 72) so this work opens at its own heading; patch 2 strips Sermon IV's opening from page 66 (greekCol 117) so it stops at its own Amen. Both seams fall at a doxology + Amen, so the cut is unambiguous. Patch 1 is the exact complement of sermo-2's page-43 patch: that one removes Sermon III's opening from page 43, this one removes Sermon II's tail, and neither work sees the other's text. ⚠ CALFA MANGLES SERMON IV'S HEADING: the plate reads ΛΟΓΟΣ Δʹ but Calfa OCR'd it as ΚΟΙΟΣ Δʹ (Λ->Κ, Γ->Ι). A grep for the correct heading reports Sermon IV as missing entirely. ⚠ The Calfa source is NOT NFC-normalized -- it uses legacy oxia codepoints. Every find string here was extracted programmatically from the source and is stored verbatim; hand-typed Greek looks identical on screen and will silently fail to match. Never hand-type a patch find string for this corpus.",
+ "patches": [
+  {
+   "page": 43,
+   "col": "0072",
+   "find": "ἀγίῳ Πνεύματι εἰς ἀτελευτήτους αἰῶνας τῶν αἰωνων Ἀμήν. ",
+   "replace": "",
+   "provenance": "Calfa page 43 (greekCol 72, leaf 33): Sermon II's closing doxology occupies chars 0-54 of this page's 2088-char flowed text -- only 55 chars of the page belong to Sermon II -- immediately followed by 'ΛΟΓΟΣ Γʹ. [ει]ς τὸν Εὐαγγελισμὸν...', where this work opens. Exact mirror of sermo-2's page-43 patch, which removes the complementary half of the same page."
+  },
+  {
+   "page": 66,
+   "col": "0117",
+   "find": "ΚΟΙΟΣ Δʹ. Εἰς τὴν πάνσεπτον κοίμησιν τῆς παναχράντου ἀεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας. Αʹ. Εἰ δὲ οὐρανοῦ κάλλος καὶ αὐγὴν ἡλίου φαιδράν οὔτ´ ἐσίγησεν ἑωρακὼς, καὶ θαυμάσας οὐχ ἰκανὸν ἀπέδωκε τῆ μεγαλουργίᾳ τὸν κρότον, καὶ διὰ τοῦτο, ἕως ἂν ὁρᾷ, καὶ ἄκων ἐκφέρει τὸ θαῦμα· πῶς ἂν τῇ πολυυμνήτῳ μητρὶ τοῦ Θεοῦ οὐχ ἐκάστοτε πλέκειν δίκαιον εἴη τὸν ὕμνον, εἰ καί τις πολλάκις τοῦ τοιοῦδε χρέους ἐκτιννὺς ἔφθασε κέρματα; Εἰ γὰρ, ὅτι φωτὸς μὲν ἤλιός ἑστι χορηγὸς, οὐ φαῦλον δὲ δυνάμεως ὄργανον ζωογόνου, οὐρανὸς δὲ τῇ τῶν ἀστέρων λαμπρὸς ποικιλίᾳ, καὶ τῷ μεγεθει εἴκοντα πάντα τιθεὶς ἑαυτῷ, διὰ ταῦτα τὸν Ιπαινον ἕλκουσιν· ἡ τὸ ἀληθινὸν καὶ ἄσβεστον φῶς ἀνατέλλει τοῖς πέρασι, ζωῆς τε τῆς ἀλήκτου δίσκος δέΐεικται φαεινότατος, οὐρανοῦ δὲ καὶ ὥραν ἡττᾷσθαι ποιεῖ καὶ μέγεθος, ὅτι καὶ ἐραστὴν ἔσχε, καὶ παντὶ τὸν ἀχώρητον ἐχώρησε, τίνα ἂν εὐφημίαν οὐκ ἀεὶ καλέσει «παρ´ ἑαυτῇ; Βʹ. Εἰ δὲ τὸ ἐπαινεῖν ἐκεῖνα Θεῷ προσάγει τὸν κήρυκα· Θεοῦ γὰρ δόξαν καὶ οὐρανὸς φιλοσοφεί,",
+   "replace": "",
+   "provenance": "Calfa page 66 (greekCol 117, leaf 56): Sermon III's closing doxology ends '...τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.' at char 309 of this page's 1283-char flowed text, immediately followed by Sermon IV (the Dormition), whose heading Calfa renders 'ΚΟΙΟΣ Δʹ. Εἰς τὴν πάνσεπτον κοίμησιν...'. The remaining 974 chars of the page belong to Sermon IV and are cut here."
+  }
+ ]
+}
