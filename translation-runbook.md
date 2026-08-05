@@ -124,7 +124,15 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    (newest first, one-line comment naming the author/work), (b) rebuild the
    generated pages — `build-scripture-index.mjs`, `build-sources.mjs`,
    `build-authors-index.mjs`, `build-queue.mjs`, `build-volume-indexes.mjs`,
-   `build-commentaries.mjs` —
+   `build-commentaries.mjs`, **`build-cruces.mjs`** —
+   ⚠ **`build-cruces.mjs` was missing from this list until 2026-08-05 and its
+   absence is invisible until after deploy.** The work page emits a link to
+   `/cruces/<series>/<vol>/<slug>/` whenever a `cruces*.md` exists, so a work
+   shipped without this step goes live with its apparatus link 404ing — the page
+   itself is 200 and the landing page looks right. Glabas Sermon III shipped that
+   way and the post-deploy smoke test caught it; Sermon II was fine only because
+   an earlier session happened to run the script for its own reasons. **Smoke-test
+   the cruces URL, not just the work URL.**
    then `node scripts/build-landing.mjs` to rebuild `site/index.html` + resolver
    data, (c) `cd site && npx vercel --prod`, (d) smoke-test the new work URLs
    (`curl -o /dev/null -w '%{http_code}\n'`) and confirm the landing page lists
