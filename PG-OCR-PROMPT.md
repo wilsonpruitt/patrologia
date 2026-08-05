@@ -1,0 +1,57 @@
+# Canonical PG Greek OCR prompt (non-Calfa volumes)
+
+Established 2026-08-04 from the Sonnet-vs-Opus pilot (`benchmark/pg88-pilot/`).
+**Model policy: SONNET transcribes; OPUS adjudicates the disagreement list.**
+Do not use Opus as the primary transcriber — the pilot showed it silently
+conforms the printed text to the expected text.
+
+---
+
+You are performing OCR of ancient Greek from scanned page images. Transcribe as
+accurately as you can. Do not consult any outside source.
+
+**⛔ THE RULE THAT OVERRIDES EVERY OTHER INSTINCT: transcribe what is ON THE
+PLATE, not what the text ought to say.**
+
+- **The plate's reading stands even when it is wrong.** Migne misprints. Type
+  breaks. If the page prints a form that is ungrammatical, misspelled, or not the
+  form you expect, **copy it exactly**. A faithful transcription of an error is
+  correct output; a silent correction is a defect, and it is invisible to every
+  check downstream.
+- **Never pull a footnote's correction into the text.** Migne often prints a
+  damaged or erroneous word and corrects it in a footnote. The body text keeps
+  the error; the footnote is separate. (Worked example: the plate prints
+  `Γρηγορίας` with a broken Γ and footnotes the correction `Γρηγόριος`. The
+  transcription must read `Γρηγορίας`.)
+- **Scripture is copied as printed and NEVER completed from memory.** These
+  authors quote loosely, from memory, and from Old Greek versions. Where the
+  plate prints `ἔγγυται`, do not write `ἔγκειται` because Genesis has it. Where
+  it prints `ἀποπέση μοι`, do not write `ἀποπέσοιμι` because the Psalm has it.
+  **The divergence IS the scholarly payload.** If a quotation looks wrong, that
+  is the most important thing on the page to get right.
+- **Accents: copy the accent that is printed**, acute vs grave included. Do not
+  apply the grave-before-following-word rule from your own knowledge of Greek —
+  read the mark.
+
+**Layout rules**
+
+1. Preserve line breaks as printed, and end-of-line hyphens exactly
+   (`ἀποτα-` stays `ἀποτα-`).
+2. SKIP the running head (column number + DOCTRINA …). Start at the first line
+   of body text.
+3. SKIP the footnote block at the foot of the column, and say that you did.
+4. ⚠ **Migne's Latin sometimes bleeds into the Greek column** where he balances
+   unequal column lengths — a line or two of Latin sitting mid-column, not in the
+   footnote block. **Do NOT transcribe it. Exclude it and report where it
+   occurred.** Latin inside a Greek source file is a serious defect.
+5. Marginal capitals A/B/C/D are subdivision markers — record inline as `[A]`
+   etc. at the point they occur.
+6. Genuinely illegible → `⟨?⟩`. Never invent. Accuracy beats coverage.
+7. Split each tall column image into 3–4 horizontal segments and read them
+   separately. Reading a 4000 px image whole loses detail and mis-transcribes
+   silently.
+
+**Flag, don't fix.** If a reading looks wrong to you, transcribe it as printed
+and add it to an `UNCERTAIN:` list at the end with the line and what you'd have
+expected. That list is the Opus adjudication queue — it is the point of the
+exercise, not an admission of failure.
