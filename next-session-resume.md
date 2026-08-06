@@ -1,6 +1,56 @@
 # Next session — resume note
 
-## ▶▶▶ 2026-08-05/06 HANDOFF — READ THIS BLOCK FIRST, THEN THE DECISION AT ITS FOOT
+## ▶▶▶▶ 2026-08-06 — THE RECOMMENDED DECISION BELOW IS DONE. TWO NEW GATES OWED.
+
+**Steps 1 and 2 of the block below are complete** (`f602593`, `f04da41`).
+**29 commits UNPUSHED on master. Nothing deployed.**
+
+**1. `index-work-pg.mjs` no longer hardcodes `scripture: []`.** The parser moved
+to `scripts/lib/citations.mjs`; both indexers import it and cannot drift. PG
+notes are harvested from the **English** — a PG work's Greek source has no note
+layer, so the English is the only file in which a PG citation exists. Antiochus's
+four citations index (`Isa.57.1` @1424; `Wis.3.4-3.6`, `Matt.7.14`, `Acts.14.21`
+@1425); site index 3,464 → 3,469. Regression: 91/91 PL indexes byte-identical.
+Two more bugs fixed alongside — every PG scripture link would have **404'd**
+(`build-scripture-index.mjs` slugs from the Latin title, a PG page from
+`titleEn`), and its corrections key read `d.textIdno`, which a PG work has not
+got. Also regenerates 48 stale PL indexes; four carried real drift.
+
+**2. The Antiochus repairs are applied**, every reading off the 600 dpi renders
+in `raw/pg089/audit-pages/segs/` rather than trusted from the audit — which
+mattered: **col 1421 carries no `[A]`** (its top band is the full-width title
+block), and **the letter's side follows the column's parity** (it follows its
+line on a Greek LEFT column, precedes on a Greek RIGHT one). Three footnotes
+restored, seven marginals placed, and the English *laura* gloss re-rendered — it
+was a translation of the truncated footnote and had lost the reason for its
+simile. Full write-up in `benchmark/pg88-pilot/AUDIT-ANTIOCHUS.md`.
+
+### ⛔ OWED — two things, in this order
+
+**(a) DEPLOY, Wilson's per-action OK.** `cd site && npx vercel --prod
+--archive=tgz`. Gates already green: `verify-english-pg` 2/2, polarity **98/98**,
+`scan-nowrap-apparatus` clear, `build-cruces` page present. Smoke-test the
+**cruces** URL, not just the work URL.
+
+**(b) ⚠⚠ WILSON'S CALL, BEFORE DOROTHEUS IS CHUNKED — PG anchor granularity.**
+No marginal band letter survives chunking **anywhere in the PG corpus**
+(`grep '\[[A-D]\]' src/greek/*/*.md` → nothing), including the two columns the
+audit passed as correct. Nothing builds `src/greek/` from `src/pg-greek-ocr/`.
+PL writes the band **into** the anchor — `[0473A]` — which is what makes
+`migne.app/pl/139/473a` a citation address under hard rule 1. PG chunks carry a
+bare `[1425]`, so **every PG citation address is column-level where every PL one
+is band-level.** Banding PG changes the scheme for all seven shipped works (page
+anchors `#c1425` → `#c1425a`, seven index files, the chunker, external links).
+**Decide it before chunking Dorotheus's 87 leaves, not after** — retroactive
+anchor passes are exactly what rule 9 exists to avoid.
+
+**Then:** Batch 2's verdict cross-check (the ~20 verdicts adjudicated against the
+CROP text, never re-applied to the 8 full-page leaves), then leaves 865+ in one
+full-page pass.
+
+---
+
+## ▶▶▶ 2026-08-05/06 HANDOFF — steps 1 and 2 are DONE, see the block above
 
 ### State: nothing is in flight. Everything below is committed. 27 commits UNPUSHED on master.
 
