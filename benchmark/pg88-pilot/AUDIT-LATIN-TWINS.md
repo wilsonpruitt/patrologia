@@ -75,3 +75,54 @@ source for the translation.
    not by a single page-wide x threshold, and treat a line that spans both as
    full-width rather than dividing it.
 3. **Then test the missing-Latin direction** against the plate on a sample.
+
+---
+
+## Attempted fix, 2026-08-05 — REVERTED, with the diagnosis kept
+
+I tried recommendation 2 (fix the split) and backed it out. The twins are
+unchanged at their audited baseline. What follows is worth more than the attempt.
+
+### The mechanism, now understood precisely
+
+`split = (medianGreekX + medianLatinX) / 2`, and each word is assigned by its
+**left edge**. Two things follow:
+
+1. **The boundary is inferred from token medians, not from the page.** The
+   medians are computed over *Greek-looking* and *Latin-looking* words, and this
+   djvu OCR misreads Latin letters as Greek often enough (`baec λα misi
+   pietati`) to drag those medians — so the boundary drifts into a column.
+2. **A word is a point, not a span.** Assignment by left edge means a word at the
+   end of a Greek line — whose left edge is already far right, near the gutter —
+   lands on the Latin side. That matches the audit's signature exactly: short
+   function words and hyphenated line-ends, not whole sentences.
+
+### Why the obvious fix does not work
+
+**There is no empty band between the columns to find.** I measured the token
+occupancy histogram across three sample leaves of PG 139: the widest strictly-
+empty run between the two medians is *nothing at all* — zero bins. The gutter is
+occupied on every leaf by the running head (which spans the page), the marginal
+letters A–D (which live in the gutter by design), and the footnote rules. So
+gutter-detection silently fell through to the old midpoint while the rest of my
+change made assignment stricter, and the twins got thinner: per-chunk Latin/Greek
+ratios collapsed from ~1.08 to 0.2–0.8. Reverted.
+
+A minimum-density window (rather than strictly-empty) does find a plausible
+boundary — ~1915 where the midpoint said 1828 on one leaf — but I could not
+demonstrate it improves the assignment before the session ran out of road, and
+an unproven boundary shipped into an apparatus is worse than a known-imperfect
+one.
+
+### What the next attempt should do differently
+
+- **Do not use word-script to find the columns.** The misOCR that contaminates
+  the twin also biases the very medians used to locate it. Take the boundary from
+  the page image's ink profile (as `pg-fullwidth-scan.py` does) or from the
+  column map, both of which are independent of OCR quality.
+- **Assign by the word's span against a boundary, then verify by rebuild**: the
+  twin ratio per chunk is a fast regression test and it caught this attempt
+  immediately.
+- **Recommendation 1 is still cheap and safe** — strip Greek-script runs at build
+  time and log every strip. It does not fix the split, but it makes the residue
+  auditable, and it cannot make a twin thinner.
