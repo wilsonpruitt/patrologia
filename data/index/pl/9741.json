@@ -17,7 +17,7 @@
   "colLast": "508a",
   "counts": {
     "scripture": 23,
-    "fontes": 35,
+    "fontes": 36,
     "heads": 54,
     "headnotes": 89,
     "unparsed": 0
@@ -208,6 +208,12 @@
       "raw": "Greg. lib. VII, ep. 18, indict. 1",
       "column": "484b",
       "chunk": 3
+    },
+    {
+      "raw": "Lib. VI, ep. 40",
+      "column": "485c",
+      "chunk": 3,
+      "inline": true
     },
     {
       "raw": "Lib. I, ep. 12",
@@ -1210,5 +1216,6 @@
       "chunk": 10
     }
   ],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

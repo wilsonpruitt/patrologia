@@ -14,8 +14,8 @@
   "colFirst": "407",
   "colLast": "436a",
   "counts": {
-    "scripture": 94,
-    "fontes": 2,
+    "scripture": 95,
+    "fontes": 1,
     "heads": 35,
     "headnotes": 4,
     "unparsed": 0
@@ -358,6 +358,12 @@
       "chunk": 5
     },
     {
+      "refKey": "Hos.2.6",
+      "refDisplay": "Osee II, 6",
+      "column": "420b",
+      "chunk": 5
+    },
+    {
       "refKey": "1Pet.2.21",
       "refDisplay": "I Petr. II, 21",
       "column": "420c",
@@ -591,11 +597,6 @@
       "raw": "Esther V, 1-3",
       "column": "414c",
       "chunk": 3
-    },
-    {
-      "raw": "Osee II, 6",
-      "column": "420b",
-      "chunk": 5
     }
   ],
   "heads": [
@@ -836,5 +837,6 @@
       "chunk": 7
     }
   ],
-  "unparsed": []
+  "unparsed": [],
+  "proseNotes": []
 }

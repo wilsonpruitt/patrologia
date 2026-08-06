@@ -1,5 +1,7 @@
 {
+  "generated": "scripts/index-work-pg.mjs",
   "workKey": "oecumenius-philippians",
+  "slug": "commentarius-in-epistolam-ad-philippenses",
   "series": "pg",
   "volume": 118,
   "title": "Commentarius in Epistolam ad Philippenses",
@@ -11,6 +13,11 @@
   "colFirst": 1260,
   "colLast": 1325,
   "sourceWords": 13812,
+  "counts": {
+    "scripture": 0,
+    "fontes": 0,
+    "unparsed": 0
+  },
   "columns": [
     {
       "col": 1260,
@@ -186,10 +193,12 @@
   "heads": [],
   "scripture": [],
   "fontes": [],
+  "unparsed": [],
+  "proseNotes": [],
   "cruces": {
     "count": 97,
     "file": "src/english/oecumenius-philippians/cruces.md"
   },
-  "note": "Calfa source carries no citation apparatus or heads; scripture/fontes layers deferred until the diff-vs-scan pass restores Migne's notes. Columns indexed with Greek+English incipits.",
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
   "indexed": null
 }

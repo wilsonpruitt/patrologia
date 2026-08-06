@@ -1,5 +1,7 @@
 {
+  "generated": "scripts/index-work-pg.mjs",
   "workKey": "isidore-glabas-sermo-2",
+  "slug": "sermo-ii-in-praesentationem",
   "series": "pg",
   "volume": 139,
   "title": "Sermo II in Praesentationem B. Mariae Virginis",
@@ -11,6 +13,11 @@
   "colFirst": 40,
   "colLast": 72,
   "sourceWords": 4464,
+  "counts": {
+    "scripture": 0,
+    "fontes": 0,
+    "unparsed": 0
+  },
   "columns": [
     {
       "col": 40,
@@ -101,10 +108,12 @@
   "heads": [],
   "scripture": [],
   "fontes": [],
+  "unparsed": [],
+  "proseNotes": [],
   "cruces": {
     "count": 0,
     "file": "src/english/isidore-glabas-sermo-2/cruces.md"
   },
-  "note": "Calfa source carries no citation apparatus or heads; scripture/fontes layers deferred until the diff-vs-scan pass restores Migne's notes. Columns indexed with Greek+English incipits.",
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
   "indexed": null
 }

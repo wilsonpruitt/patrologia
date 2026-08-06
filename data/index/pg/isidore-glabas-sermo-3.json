@@ -1,5 +1,7 @@
 {
+  "generated": "scripts/index-work-pg.mjs",
   "workKey": "isidore-glabas-sermo-3",
+  "slug": "sermo-iii-in-annuntiationem",
   "series": "pg",
   "volume": 139,
   "title": "Sermo III. In Annuntiationem gloriosae et gratia plenae Dominae nostrae Deiparae et semper Virginis Mariae",
@@ -11,6 +13,11 @@
   "colFirst": 72,
   "colLast": 117,
   "sourceWords": 7265,
+  "counts": {
+    "scripture": 0,
+    "fontes": 0,
+    "unparsed": 0
+  },
   "columns": [
     {
       "col": 72,
@@ -136,10 +143,12 @@
   "heads": [],
   "scripture": [],
   "fontes": [],
+  "unparsed": [],
+  "proseNotes": [],
   "cruces": {
     "count": 0,
     "file": "src/english/isidore-glabas-sermo-3/cruces.md"
   },
-  "note": "Calfa source carries no citation apparatus or heads; scripture/fontes layers deferred until the diff-vs-scan pass restores Migne's notes. Columns indexed with Greek+English incipits.",
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
   "indexed": null
 }

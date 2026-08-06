@@ -1,5 +1,7 @@
 {
+  "generated": "scripts/index-work-pg.mjs",
   "workKey": "antiochus-epistula-ad-eustathium",
+  "slug": "the-letter-of-antiochus-the-monk-to-eustathius",
   "series": "pg",
   "volume": 89,
   "title": "Epistola Antiochi ad Eustathium",
@@ -11,6 +13,11 @@
   "colFirst": 1421,
   "colLast": 1428,
   "sourceWords": 1208,
+  "counts": {
+    "scripture": 4,
+    "fontes": 0,
+    "unparsed": 0
+  },
   "columns": [
     {
       "col": 1421,
@@ -34,12 +41,50 @@
     }
   ],
   "heads": [],
-  "scripture": [],
+  "scripture": [
+    {
+      "refKey": "Isa.57.1",
+      "refDisplay": "Isa. LVII, 1",
+      "column": "1424",
+      "chunk": 0
+    },
+    {
+      "refKey": "Wis.3.4-Wis.3.6",
+      "refDisplay": "Sap. III, 4-6",
+      "column": "1425",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.7.14",
+      "refDisplay": "Matth. VII, 14",
+      "column": "1425",
+      "chunk": 1
+    },
+    {
+      "refKey": "Acts.14.21",
+      "refDisplay": "Act. XIV, 21",
+      "column": "1425",
+      "chunk": 1
+    }
+  ],
   "fontes": [],
+  "unparsed": [],
+  "proseNotes": [
+    {
+      "raw": "The moderns among the Greeks call a *laura* a notable monastery, as though because many waters flow together there.",
+      "column": "1421",
+      "chunk": 0
+    },
+    {
+      "raw": "Of the coenobitic sort.",
+      "column": "1425",
+      "chunk": 1
+    }
+  ],
   "cruces": {
     "count": 8,
     "file": "src/english/antiochus-epistula-ad-eustathium/cruces.md"
   },
-  "note": "Calfa source carries no citation apparatus or heads; scripture/fontes layers deferred until the diff-vs-scan pass restores Migne's notes. Columns indexed with Greek+English incipits.",
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
   "indexed": null
 }

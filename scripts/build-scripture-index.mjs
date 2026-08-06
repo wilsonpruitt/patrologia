@@ -40,8 +40,11 @@ const corrections = (() => {
   const p = path.join(ROOT, 'data/citation-corrections.json');
   if (!fs.existsSync(p)) return new Map();
   const m = new Map();
+  // A PL work is keyed by textIdno, a PG work by workKey (it has no idno) — the
+  // work-side key below uses the same fallback, so a PG correction can be found
+  // at all. Without it every PG lookup built the literal key "undefined|…".
   for (const c of (JSON.parse(fs.readFileSync(p, 'utf8')).corrections ?? []))
-    m.set(`${c.idno}|${String(c.column).toLowerCase()}|${c.refDisplay}`, c);
+    m.set(`${c.idno ?? c.workKey}|${String(c.column).toLowerCase()}|${c.refDisplay}`, c);
   return m;
 })();
 
@@ -60,11 +63,12 @@ for (const series of ['pl', 'pg']) {
       href: `/${series}/${d.volume}/${slug}/`,
       cite: `${series.toUpperCase()} ${d.volume}`,
     };
-    works.set(d.textIdno ?? f, work);
+    const workId = d.textIdno ?? d.workKey ?? f;
+    works.set(workId, work);
     for (const s of d.scripture ?? []) {
       const [book, ch, v] = String(s.refKey).split('.');
       if (!BOOK_ORDER.has(book)) continue; // unparsed refs are tracked separately
-      const key = `${d.textIdno}|${String(s.column).toLowerCase()}|${s.refDisplay}`;
+      const key = `${workId}|${String(s.column).toLowerCase()}|${s.refDisplay}`;
       entries.push({
         book, ch: Number(ch) || 0, v: Number(v) || 0,
         refDisplay: s.refDisplay, column: s.column, inHead: !!s.inHead,
