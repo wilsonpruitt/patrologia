@@ -1082,3 +1082,35 @@ has already failed.
 harvested by column crops before 2026-08-05 may have lost the left half of a
 paragraph-final line; the loss is invisible in the shipped text. Not yet audited
 for the PG works already live.
+
+#### 8a.G.3 — Why full-page harvesting works: the transcriber need not notice (2026-08-05)
+
+The first full-page pass over leaves 845–847 produced a result worth recording,
+because it is the strongest argument for the model change and it arrived by
+accident.
+
+**The agent reported that leaves 845 and 847 carried no full-width lines. Both
+do — and it transcribed them correctly anyway.** Leaf 847's `νέ-|κρωσις τῆς
+ἀλόγου ἐπιθυμίας· καὶ τὸν ἀνάλαβον κατὰ τῶν ὤμων…` is complete, hyphen joined,
+`ἀνάλαβον` present; leaf 845's two page-wide lines are complete. It simply
+followed the text across the page without registering that anything unusual had
+happened.
+
+**That is the point.** Under column cropping, the defect had to be *detected* —
+by a geometric test that never worked, or a vision pass, or an adjudicator
+noticing a fragment. Under full-page harvesting there is nothing to detect: the
+line is on the page, so it gets read. A defect that requires recognition is a
+defect that will eventually be missed; this one no longer requires recognition.
+
+(The agent's line-BREAK structure differs — on 847 it split the page-wide line
+at the gutter into two, on 845 it kept them whole. Layout rule 1 wants the
+printed breaks, so that is a real if minor infidelity. It costs no text and no
+anchor, and is worth fixing in the prompt rather than by re-reading.)
+
+**A cross-check fell out of it too.** The same lines had been recovered
+separately by the band workflow, and the two independent recoveries disagree on
+one letter: the band pass read `χατὰ τοὺς πατέρας ἡμῶν`, the full-page pass
+`κατὰ`. The full-page pass applied the baseline test (κ sits on the baseline, χ
+descends below it) that adjudication had established in between. **κατὰ is
+right**, and the disagreement is a clean demonstration that the κ/χ guidance
+changes outcomes rather than merely sounding sensible.
