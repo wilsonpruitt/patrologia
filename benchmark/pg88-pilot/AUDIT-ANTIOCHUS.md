@@ -215,7 +215,89 @@ invisible because the output looks well-formed.
 should be lifted into `scripts/lib/` so both use one implementation rather than
 two that can drift.
 
-**Not yet fixed. Requires re-indexing and a deploy.**
+**✅ FIXED 2026-08-06** (`f602593`). The parser now lives in
+`scripts/lib/citations.mjs` and both indexers import it; `index-work-pg.mjs`
+harvests `[n:]` from the English (a PG work's Greek source has no note layer, so
+the English is the only file in which a PG citation exists) and files `[nt:]` as
+prose. All four citations now index — `Isa.57.1` at 1424, `Wis.3.4-3.6`,
+`Matt.7.14`, `Acts.14.21` at 1425. The 91 PL indexes re-run byte-identical.
+
+Two further defects surfaced while fixing it, both fixed in the same commit:
+`build-scripture-index.mjs` slugs a work from its Latin title, but a PG page
+slugs from `titleEn` — so every PG scripture link would have 404'd; and its
+corrections key read `d.textIdno`, which a PG work has not got, so every PG
+lookup built the literal key `"undefined|…"`.
+
+---
+
+## Repairs applied 2026-08-06
+
+All four items under "What to fix" are done, each read off the 600 dpi full-page
+renders in `raw/pg089/audit-pages/segs/` rather than trusted from this file.
+
+| # | Repair | Verified on |
+|---|---|---|
+| 1 | `1421.md` footnote — `pro magna hominum copia qui devotionis ergo` restored | leaf727 seg8 |
+| 2 | `1425.md` footnote — `hostiae.`, `Sap. III, 4-6.`, `Gr Via afflictionibus septa.` restored | leaf729 seg8 |
+| 3 | `1424.md` footnote — both notes added (`Philipp. I, 23.` / `Τὰ ἅγια λείψανα, sanctas reliquias.`) | leaf728 seg8 |
+| 4 | `1421.md` `[B] [C] [D]` · `1424.md` `[A] [B] [C] [D]` placed | leaf727 seg4–7, leaf728 seg1/3/5/7 |
+| 5 | English `[nt:]` *laura* gloss re-rendered with its restored clause | — |
+
+**Two corrections to this audit, from the plate:**
+
+- **Col 1421 carries NO `[A]`.** This file said "the plate carries A B C D on leaf
+  727"; segs 2–3 show the top band of that leaf is the full-width title block, and
+  no letter is printed there. The column's first marginal is **B**, level with its
+  first body line. Bands run B/C/D only.
+- **The letter's side follows the column's parity.** On a Greek LEFT column
+  (1421, 1425) the gutter is to the right and the letter follows its line; on a
+  Greek RIGHT column (1424) it precedes. `1428.md` sets `[A]` as a prefix and
+  `[B]` as a suffix on the same right-hand column — one of the two is misplaced,
+  left alone here because this audit passed it and it is not part of these repairs.
+
+Notes ⁴ and ⁶ (`Gr. quasi integram oblationem hostiae.`, `Gr Via afflictionibus
+septa.`) are Migne's notes **on his own Latin**, telling a Latin reader what the
+Greek says. They are now recorded in `1425.md` as part of the plate, and are
+deliberately NOT added to the English, which renders that Greek already. Note ⁵
+(`Sap. III, 4-6`) was lost only from the transcribed footnote block — the English
+already carried it as `[n: Sap. III, 4-6]`, which is why the citation survived to
+be indexed at all.
+
+---
+
+## ⚠ NEW FINDING (2026-08-06): the marginal anchors never reach the corpus — and not just here
+
+This audit's item 4 treats the missing `[A]`–`[D]` as an Antiochus transcription
+defect, and says `1425.md` and `1428.md` "record them — correct." That is true of
+the **OCR files**. It is not true of the shipped text.
+
+    grep '\[[A-D]\]' src/greek/*/*.md   →   no matches, any PG work
+
+**No marginal band letter survives chunking anywhere in the PG corpus.** The ones
+`1425.md` and `1428.md` record correctly were dropped along with the ones 1421 and
+1424 never had. Nothing builds `src/greek/` from `src/pg-greek-ocr/` — the
+chunking was done by hand, and the anchors did not come with it.
+
+This matters because of how PL encodes the same thing. A PL chunk writes the band
+**into** the column anchor — `[0473A]`, `[0473B]` — which is what makes
+`migne.app/pl/139/473a` a resolvable citation address under hard rule 1. PG chunks
+carry a bare `[1425]`, so **every PG citation address is column-level while every
+PL one is band-level.** Antiochus's four scripture citations index to `1424` and
+`1425`; their PL equivalents would index to `1424c`, `1425a`.
+
+**Not fixed here, because it is not a repair.** Making PG anchors banded changes
+the anchor scheme for all seven shipped PG works — page anchors (`#c1425` →
+`#c1425a`), the seven index files, the chunker, and any external link. That is
+Wilson's call, and it wants its own session. Recorded so the next PG harvest
+(Dorotheus, 87 leaves) does not silently inherit the column-level scheme by
+default: **decide the anchor granularity before chunking Dorotheus, not after.**
+
+## Incidental, unresolved
+
+The Latin column prints a bare number mid-line on both audited leaves — `1022` on
+leaf 727 (seg7), `1023` on leaf 728 (seg8) — advancing +1 per leaf where Migne's
+own column numbers advance +2. Not our text (the Latin is verifier-only), not
+chased. Worth a minute before anyone reads PG 89's Latin as a column witness.
 
 ## Summary of what this audit found
 
