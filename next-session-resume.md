@@ -1,5 +1,101 @@
 # Next session — resume note
 
+## ▶▶▶ 2026-08-05/06 HANDOFF — READ THIS BLOCK FIRST, THEN THE DECISION AT ITS FOOT
+
+### State: nothing is in flight. Everything below is committed. 27 commits UNPUSHED on master.
+
+**1. Dorotheus Batch 2 (leaves 845–864) is ASSEMBLED** →
+`raw/pg088/batch2-assembled/`, 20 leaves, 9,281 body words, lint 19/20 (the one
+flag is an empty section header, not text). Eight leaves come from **full-page**
+renders — every leaf the crops damaged (845 846 847 849 853 856 857 861) — and
+twelve from the crop pass with adjudicated verdicts applied. Apostrophes
+normalised to U+2019 throughout.
+**149 words were recovered** that both crop passes had lost, including an entire
+printed line on leaf 849 (`ἀμεριμνίαν καὶ τὴν ἀνάπαυσιν ἔχει.»`) present in
+NEITHER pass — both crops cut in the same place, so the A/B diff was structurally
+blind to it.
+⚠ **Owed:** the verdicts were adjudicated against the CROP text and were never
+re-applied to the eight full-page leaves. The full-page read is the better
+witness and should win, but the ~20 verdicts touching those leaves want a
+cross-check before the work is chunked.
+
+**2. ⛔ THE HARVEST MODEL CHANGED. Use `scripts/pg-page-segments.py`.**
+Whole leaf, native 600 dpi, 8 overlapping segments, margins trimmed.
+`pg-leaf-crops.py` is SUPERSEDED (banner in the file) — column cropping lost text
+three times in one batch, each time invisibly, because what survived read as
+fluent Greek. Wilson's reasoning, and the arithmetic agrees: Batch 2 cost ~107k
+tokens/leaf across five passes against ~30k for one full-page pass.
+**The deep reason it works:** a full-page transcriber recovered the lost lines
+*while reporting that the leaf had none* — it just followed the text across the
+page. A defect that must be RECOGNISED will eventually be missed; this one no
+longer has to be.
+
+**3. Antiochus (PG 89) audit — the only live work harvested by our crops.**
+`benchmark/pg88-pilot/AUDIT-ANTIOCHUS.md`. Greek **body clean**, all four columns,
+so **the English feeding church-in-palestine ch. 14 is safe**. But: three footnote
+blocks truncated at the crop edge (6 words at 1421; two whole notes at 1424; a
+word + two notes at 1425), and `[A]`–`[D]` marginal anchors missing from 1421 and
+1424 though present on the plate (hard rule 1 — citation addresses).
+⚠ **And a bug bigger than the crop:** `scripts/index-work-pg.mjs` **hardcodes
+`scripture: []`**, written when every PG work came from Calfa (no note layer).
+Antiochus is the first PG work from our own plate OCR and DOES carry Migne's
+notes — so all four of its citations are missing from the site scripture index
+(hard rule 9). **This will silently hit every future PG work from our own OCR,
+Dorotheus included.**
+
+**4. Latin twins audited — all seven contaminated.**
+`benchmark/pg88-pilot/AUDIT-LATIN-TWINS.md`. Greek inside the Latin twins:
+antiochus 0.5%, the other six 1.8–4.0%, in blocks of 12–24 tokens.
+Dominant cause is NOT full-width lines (my prediction, wrong) but **x-split
+leakage**: `split = (medianGreekX + medianLatinX)/2` with each word assigned by
+its LEFT EDGE, so words ending a Greek line land on the Latin side.
+**A fix was attempted and REVERTED** — there is no empty band between the columns
+to detect (head, marginal letters and footnote rules occupy the gutter on every
+leaf), so gutter-detection fell through to the old midpoint and the twins got
+thinner (ratios 1.08 → 0.2–0.8). Next attempt must take the boundary from the
+page IMAGE's ink profile or the column map, never from word-script medians — the
+same misOCR that contaminates the twin biases the medians used to find it.
+NOT established: whether Latin is MISSING (the more dangerous direction).
+No published English is affected; the twin is apparatus.
+
+**5. Method rules earned today, all in `PG-OCR-PROMPT.md`:** crops at native
+600 dpi (at 400 this fount's word-final sigma reads as a semicolon and a
+circumflex as an iota subscript — both yield well-formed Greek); κ vs χ by the
+baseline; comma vs full stop by the tail; Migne's square brackets and ARABIC
+superscripts are text; footnote blocks sit under EITHER column; elision
+apostrophe is U+2019; **and never quote a recovered reading into a prompt as a
+worked example — I did that and an agent reported the match back as confirmation,
+which is 7a″ committed in my own instructions.**
+
+---
+
+### ▶ RECOMMENDED NEXT DECISION
+
+**Fix `index-work-pg.mjs` first — before harvesting another leaf.**
+
+It is a small fix with the widest blast radius. Every future PG work sourced from
+our own plate OCR silently ships with an empty scripture layer, and **all 87
+remaining Dorotheus leaves are exactly that kind of work**. Fixing it now means
+Dorotheus indexes correctly from day one instead of needing a retroactive pass —
+and rule 9 exists precisely to avoid retroactive index passes.
+
+Bundle it with the Antiochus repairs (three footnote blocks + the two missing
+marginal sets), since they touch the same work and end in the same deploy. Then:
+
+1. `index-work-pg.mjs` harvests `[n:]`; lift the reference parser out of
+   `index-work.mjs` into `scripts/lib/` so the two cannot drift. Re-index.
+2. Antiochus footnotes + marginals re-read from `raw/pg089/audit-pages/`.
+3. **Deploy — Wilson's per-action OK required** (`cd site && npx vercel --prod
+   --archive=tgz`; run `polarity-record.mjs --gate` first).
+4. Then Batch 2's verdict cross-check, then leaves 865+ (87 remain, cols to 1844)
+   in one full-page pass.
+
+Leave the Latin twins alone until the boundary can be done from the image; the
+cheap safe option (strip Greek runs at build time, logged) is still available and
+cannot make a twin thinner.
+
+---
+
 ## ▶▶ 2026-08-05 (Opus): DOROTHEUS IS THE NEXT RUN — read this block first
 
 **Wilson's instruction at the end of the 2026-08-05 session: run Dorotheus next.**
