@@ -78,10 +78,23 @@ any escaping line whole. `pg-leaf-crops.py` is superseded (banner in the file);
 the full-width scan/crop scripts are no longer needed for new harvest, though
 they stay for auditing already-shipped works.
 
-**Next:** splice the Batch 2 verdicts + recovered full-width lines into the leaf
-files, and re-read leaves **856 and 861** (wide-set lines both crops cut, so both
-passes lost them). Then leaves 865+ (87 remain, cols to 1844) via
-`pg-page-segments.py` — one pass, no crop patches.
+✅ **BATCH 2 IS ASSEMBLED** — `raw/pg088/batch2-assembled/`, 20 leaves, 9,281 body
+words, lint 19/20 (the one flag is an empty section header, not text). Sources:
+**8 leaves from full-page renders** (845, 846, 847, 849, 853, 856, 857, 861 — every
+leaf the crops damaged) and 12 from the spliced crop pass with verdicts applied.
+Apostrophes normalised to U+2019 throughout.
+
+**149 words recovered** by the full-page re-reads — text both crop passes had
+lost, including an entire printed line on leaf 849 (`ἀμεριμνίαν καὶ τὴν ἀνάπαυσιν
+ἔχει.»`) present in NEITHER earlier pass.
+
+**Still owed on Batch 2:** the verdicts were adjudicated against the CROP text, so
+they have not been re-applied to the 8 full-page leaves — the full-page read is
+the better witness and should win, but the ~20 verdicts touching those leaves are
+worth a cross-check against it before the work is chunked. Everything else is done.
+
+**Next:** leaves 865+ (87 remain, cols to 1844) via `pg-page-segments.py` — one
+pass, no crop patches. Then the Antiochus repairs (see `AUDIT-ANTIOCHUS.md`).
 
 ### Where Dorotheus actually stands
 
