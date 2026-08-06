@@ -16,27 +16,28 @@
   "counts": {
     "scripture": 4,
     "fontes": 0,
-    "unparsed": 0
+    "unparsed": 0,
+    "bands": 13
   },
   "columns": [
     {
       "col": 1421,
-      "grc": "Ἐπειδήπερ γεγράφηκάς μοι, τίμιε Πάτερ Εὐστάθιε, πολλὴν θλίψιν ὑπερμεμενηκέναι, τόπον",
+      "grc": "[b: B] Ἐπειδήπερ γεγράφηκάς μοι, τίμιε Πάτερ Εὐστάθιε, πολλὴν θλίψιν",
       "en": "Since you have written to me, honoured Father Eustathius, that"
     },
     {
       "col": 1424,
-      "grc": "τὰ περὶ αὐτῶν, εἶθ' οὕτως καθυποτάξαι τὰ τῆς θείας Γραφῆς",
+      "grc": "[b: A] τὰ περὶ αὐτῶν, εἶθ' οὕτως καθυποτάξαι τὰ τῆς",
       "en": "the things concerning them, and so thereafter to append the"
     },
     {
       "col": 1425,
-      "grc": "ἐν καιρῷ ἐπισκοπῆς αὐτῶν ἀναλάμψουσι.» Καὶ ταῦτα περὶ τῶν ἁγίων",
+      "grc": "[b: A] ἐν καιρῷ ἐπισκοπῆς αὐτῶν ἀναλάμψουσι.» Καὶ ταῦτα περὶ",
       "en": "in the time of their visitation they shall shine forth.»"
     },
     {
       "col": 1428,
-      "grc": "Μοδέστου οἰκοῦνται καὶ τὰ λοιπὰ τῆς ἐρήμου μοναστήρια. Ἰδοὺ οὖν,",
+      "grc": "[b: A] Μοδέστου οἰκοῦνται καὶ τὰ λοιπὰ τῆς ἐρήμου μοναστήρια.",
       "en": "Modestus, the remaining monasteries of the desert also are inhabited."
     }
   ],
@@ -46,29 +47,120 @@
       "refKey": "Isa.57.1",
       "refDisplay": "Isa. LVII, 1",
       "column": "1424",
-      "chunk": 0
+      "chunk": 0,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
     },
     {
       "refKey": "Wis.3.4-Wis.3.6",
       "refDisplay": "Sap. III, 4-6",
       "column": "1425",
-      "chunk": 1
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
     },
     {
       "refKey": "Matt.7.14",
       "refDisplay": "Matth. VII, 14",
       "column": "1425",
-      "chunk": 1
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
     },
     {
       "refKey": "Acts.14.21",
       "refDisplay": "Act. XIV, 21",
       "column": "1425",
-      "chunk": 1
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
     }
   ],
   "fontes": [],
   "unparsed": [],
+  "bands": [
+    {
+      "column": "1421",
+      "band": "b",
+      "chunk": 0
+    },
+    {
+      "column": "1421",
+      "band": "c",
+      "chunk": 0
+    },
+    {
+      "column": "1421",
+      "band": "d",
+      "chunk": 0
+    },
+    {
+      "column": "1424",
+      "band": "a",
+      "chunk": 0
+    },
+    {
+      "column": "1424",
+      "band": "b",
+      "chunk": 0
+    },
+    {
+      "column": "1424",
+      "band": "c",
+      "chunk": 0
+    },
+    {
+      "column": "1424",
+      "band": "d",
+      "chunk": 0
+    },
+    {
+      "column": "1425",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1425",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1425",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1425",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1428",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1428",
+      "band": "b",
+      "chunk": 1
+    }
+  ],
   "proseNotes": [
     {
       "raw": "The moderns among the Greeks call a notable monastery a *laura*, on account of the great throng of men who, for devotion's sake, flow together there after the manner of many waters.",

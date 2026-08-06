@@ -36,14 +36,38 @@ const joined = dir => manifest.chunks
 // (Wilson, 2026-07-03). The anchor itself renders inline at its exact plate
 // position, hanging into the margin (the Abbo treatment); no words move.
 const anchorRe = /\[(\d{4})\]/g;
+
+// ⛔ A CUT MUST NEVER LAND INSIDE A MARKER. An inline marker can run to several
+// sentences, and the terminal-finder below is looking for exactly that shape —
+// so a multi-sentence marker sitting just before a column anchor gets TORN, and
+// the halves fail in different ways: the head keeps a literal "[ed: …" that no
+// transform matches (the regexes need the closing bracket), and the tail renders
+// as bare prose in the author's own voice, ending on a stray "]".
+// This was live on migne.app on `sermo-iii-in-annuntiationem`: an editorial note
+// explaining that a section head is LOST from our source read as Glabas's text.
+// No words are dropped by the tear, which is why it survived every gate — the
+// word counts, the ratios and the parity all check out on a torn marker.
+// PG-only in practice: build-work-page.mjs (PL) never calls sentenceRows.
+const MARKER_SPAN = /\[(?:n|nt|f|sic|ed|var|lat|b):(?:[^\][]|\[\d{3,5}[A-D]?\])*\]/g;
+const markerSpans = text => [...text.matchAll(MARKER_SPAN)]
+  .map(m => [m.index, m.index + m[0].length]);
+
 function sentenceRows(text, terminalRe) {
   const anchors = [...text.matchAll(anchorRe)];
+  const spans = markerSpans(text);
+  const insideMarker = i => spans.some(([a, b]) => i > a && i < b);
   const cuts = anchors.map((m, i) => {
     if (i === 0) return 0;
     let last = m.index, mm;
     terminalRe.lastIndex = 0;
-    while ((mm = terminalRe.exec(text.slice(0, m.index)))) last = mm.index + mm[0].length;
-    return last;
+    while ((mm = terminalRe.exec(text.slice(0, m.index)))) {
+      const at = mm.index + mm[0].length;
+      if (!insideMarker(at)) last = at; // a terminal inside a marker is not a sentence end
+    }
+    // the anchor's own fallback position can sit inside a marker too — back the
+    // cut out to the marker's start rather than through its middle
+    const span = spans.find(([a, b]) => last > a && last < b);
+    return span ? span[0] : last;
   });
   return anchors.map((m, i) => ({
     col: m[1],
@@ -71,6 +95,22 @@ const colDisp = c => String(parseInt(c, 10));
 const NOWRAP_MAX = 32;
 const noteCls = (s, extra = '') =>
   `notecite${extra ? ' ' + extra : ''}${String(s).replace(/<[^>]*>/g, '').trim().length > NOWRAP_MAX ? ' wraps' : ''}`;
+
+// Band letters (CLAUDE.md "Band letters in PG"). Migne's marginal A/B/C/D. PG
+// citation addresses stay COLUMN-level by ruling, so a band is not a link and is
+// not displayed — but the id is emitted anyway, on an empty span, so `#c1425c`
+// already resolves and switching PG to band-level addressing later is a rebuild
+// rather than a re-read of the plates.
+// Qualification has to happen BEFORE the paragraph split, because the running
+// column crosses paragraph boundaries: `[b: C]` -> `[bid:1425c]`.
+function qualifyBands(text) {
+  let col = null;
+  return text.replace(/\[(\d{4})\]|\[b: *([A-D])\]\s*/g, (m, c, band) => {
+    if (c) { col = c; return m; }
+    if (!col) throw new Error(`[b: ${band}] before any column anchor — a band cannot be addressed`);
+    return `[bid:${colId(col)}${band.toLowerCase()}]`;
+  });
+}
 
 function paras(text, { anchorIds }) {
   return text.split(/\n\n+/).map(p => {
@@ -103,14 +143,22 @@ function paras(text, { anchorIds }) {
       // Latin says instead.
       .replace(/\[lat: ([^\]]*)\]/g, (_, l) =>
         `<span class="latnote" title="Migne's parallel Latin column diverges from his Greek text">[${l}]</span>`)
+      // Band letters, pre-qualified by qualifyBands(). Empty by design: the band
+      // carries an addressable id but is not shown, because PG URLs are
+      // column-level and a lone marginal letter on the one work that has the data
+      // would read as a defect rather than as Migne's apparatus.
+      .replace(/\[bid:([a-z0-9]+)\]/g, (_, id) =>
+        anchorIds ? `<span class="band" id="${id}"></span>` : '')
       .replace(/\*([^*]+)\*/g, '<i>$1</i>')
       .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
     return `<p>${inline}</p>`;
   }).join('\n');
 }
 
-const grcText = joined(grcDir);
-const engText = joined(engDir);
+// Qualify bands before the text is split into sentence rows or paragraphs — the
+// running column that resolves `[b: C]` into an id crosses both boundaries.
+const grcText = qualifyBands(joined(grcDir));
+const engText = qualifyBands(joined(engDir));
 const grcBlocks = sentenceRows(grcText, GRC_TERM);
 const engBlocks = sentenceRows(engText, ENG_TERM);
 if (grcBlocks.length !== engBlocks.length || grcBlocks.some((b, i) => b.col !== engBlocks[i].col)) {

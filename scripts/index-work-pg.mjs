@@ -135,6 +135,26 @@ for (const c of manifest.chunks) {
   }
 }
 
+// Band letters (CLAUDE.md "Band letters in PG"). Migne's marginal A/B/C/D, read
+// from the GREEK chunks — the band is a fact about the plate, and the Greek is
+// where the plate is transcribed. The page emits its ids from the Greek column
+// too, exactly as column anchors already work.
+// Captured but NOT used for addressing: PG citation addresses stay column-level
+// by ruling, so `column` on a citation record is what resolves. `band` rides
+// alongside so that turning band-level addressing on later is a rebuild rather
+// than a re-read of 234 columns of plate.
+const bands = [];
+for (const c of manifest.chunks) {
+  const f = path.join(grcDir, `${String(c.chunk).padStart(4, '0')}.md`);
+  if (!fs.existsSync(f)) continue;
+  const text = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  let col = c.colContext ?? c.colFirst ?? null;
+  for (const t of text.matchAll(/\[([0-9]{3,5}[A-D]?)\]|\[b: *([A-D])\]/g)) {
+    if (t[1]) { col = t[1]; continue; }
+    bands.push({ column: citeCol(col), band: t[2].toLowerCase(), chunk: c.chunk });
+  }
+}
+
 // Resolve anaphora against the printed sequence (CLAUDE.md rule 9): an Ibid.
 // points at the nearest preceding NON-Ibid. citation and inherits its BUCKET.
 // This is a deterministic inference, not a correction — the printed "Ibid." is
@@ -158,6 +178,22 @@ for (let i = 0; i < ordered.length; i++) {
     : { kind: 'fontes', rec: { raw: e.inner, antecedent: antDisplay, antecedentColumn: ant.rec.column, ibidResolved: true, ...e.loc } };
 }
 for (const e of ordered) (e.kind === 'scripture' ? scripture : fontes).push(e.rec);
+
+// Attach the band in force to each citation. A citation's band is the last band
+// opened at or before its column — resolvable here because both are walked in
+// document order, and NOT resolvable afterwards from the record alone.
+const bandsByCol = new Map();
+for (const b of bands) {
+  if (!bandsByCol.has(b.column)) bandsByCol.set(b.column, []);
+  bandsByCol.get(b.column).push(b.band);
+}
+for (const rec of [...scripture, ...fontes]) {
+  const inCol = bandsByCol.get(rec.column);
+  // The English note carries no band marker of its own, so a citation resolves
+  // only to its column's band SET, not to one letter. Recorded honestly as such
+  // rather than guessing a letter — a wrong band is a wrong citation address.
+  if (inCol?.length) rec.bandsInColumn = inCol;
+}
 
 const crucesFile = path.join(engDir, 'cruces.md');
 const cruces = fs.existsSync(crucesFile)
@@ -185,13 +221,13 @@ const out = {
   colFirst: parseInt(manifest.colFirst, 10),
   colLast: parseInt(manifest.colLast, 10),
   sourceWords: manifest.sourceWords,
-  counts: { scripture: scripture.length, fontes: fontes.length, unparsed: unparsed.length },
+  counts: { scripture: scripture.length, fontes: fontes.length, unparsed: unparsed.length, bands: bands.length },
   columns,
   // PG chunks carry no `## ` section heads: the Calfa transcriptions have no head
   // layer, and a plate-OCR work transcribes the column, where Migne's own section
   // divisions are inline. Recorded as empty rather than silently omitted.
   heads: [],
-  scripture, fontes, unparsed,
+  scripture, fontes, unparsed, bands,
   // Notes the translator marked [nt: …] — editorial prose, deliberately kept OUT
   // of fontes[]: a gloss on the word *laura* is not a source Migne is citing.
   proseNotes,

@@ -47,3 +47,40 @@ Wroot Press capstone: English translation of Migne's Patrologia Latina + Graeca.
 ## Session cadence
 
 Bonaventure convention: each session = one logical unit, commit as you go, and END by updating `next-session-resume.md` (current pointer, open flags, what's next). Memory (`patrologia.md`, NOW.md) stays high-level — repo files are authoritative.
+
+## Band letters in PG (`[b: X]`) — ruled by Wilson 2026-08-06
+
+Migne prints a marginal **A/B/C/D** beside every column, dividing it into four
+bands. In **PL** that letter is fused into the column anchor — `[0473A]`,
+`[0473B]` — and it is what makes `migne.app/pl/139/473a` a resolvable citation
+address under hard rule 1. **PG had nothing.** No band letter survived chunking
+anywhere in the PG corpus, and Calfa records none at all (its markers are
+`$0=139 $8=99 $9=1`, volume/page/column only), so for six of the seven shipped
+PG works the data does not exist and cannot be recovered short of re-reading
+every plate.
+
+**The ruling: capture the band, keep the URLs column-level.**
+
+- A chunk marks a band with **`[b: C]`** at the point the plate prints the
+  letter, alongside the ordinary `[1425]` column anchor, which is unchanged.
+- `index-work-pg.mjs` records `band` on every citation and a `bands[]` list.
+- **The URL stays `#c1425`.** PG addresses remain column-level, uniformly, so a
+  reader never meets two granularities inside one series. The builder still
+  emits `id="c1425c"` on an empty span at each band, so the anchor already
+  resolves and turning band-level addressing on later is a *rebuild*, not a
+  re-harvest.
+- **Never band only the works that have the data.** Mixed granularity inside PG
+  was considered and rejected: same series, two address schemes, no cue to the
+  reader which applies.
+
+⚠ **This is why the decision was forced when it was:** Dorotheus is 234 columns
+of our own plate OCR, so its band letters are readable exactly once — while the
+leaves are being transcribed. Capture the band **as each work is chunked**. A
+retroactive band pass is a re-read of the plates, which is the thing rule 9
+exists to prevent.
+
+⚠ `[b: X]` is a marker like `[n:]`/`[lat:]`, and **markers reach the reader as
+raw brackets unless a builder transforms them** — that has now happened twice on
+PG pages (47 markers in 2026-08-01, `[n:]`/`[nt:]` in 2026-08-04), both times
+because nothing checks rendered output. `scripts/scan-raw-markers.mjs` exists to
+catch it; run it before any deploy.
