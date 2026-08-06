@@ -51,9 +51,35 @@ anchors `#c1425` → `#c1425a`, seven index files, the chunker, external links).
 **Decide it before chunking Dorotheus's 87 leaves, not after** — retroactive
 anchor passes are exactly what rule 9 exists to avoid.
 
-**Then:** Batch 2's verdict cross-check (the ~20 verdicts adjudicated against the
-CROP text, never re-applied to the 8 full-page leaves), then leaves 865+ in one
-full-page pass.
+**✅ BATCH 2 CROSS-CHECK DONE 2026-08-06** →
+`benchmark/pg88-pilot/BATCH2-CROSSCHECK.md`. 34 verdicts fall on the 8 full-page
+leaves; 19 agree, 6 unchecked (one-char punctuation calls), **9 disagreed** and
+all nine were re-read at 600 dpi against the facing Latin.
+
+⚠⚠ **THIS FILE'S OWN EXPECTATION — "the full-page read is the better witness and
+should win" — IS WRONG.** Full-page won 3, the crop adjudication won 4, one
+unsettled, one was never a disagreement. **The two witnesses fail in OPPOSITE
+directions:** a full-page read NORMALIZES (all four of its losses were smoothings
+— a form conformed to the same phrase eight lines above, a name conformed to its
+LXX spelling, a verb conformed to its pair, a footnote LETTER read as a digit),
+because a transcriber following text across a page reads for sense and sense is
+what smooths a variant away — the same failure that ruled Opus out as primary
+transcriber, and **continuity causes it rather than curing it**. A crop read
+invents at edges and mis-sees isolated glyphs, because it cannot compare a
+doubtful letter with the same letter elsewhere on the page. So full-page is the
+better instrument for RECOVERING LOST TEXT and the worse one for SETTLING A
+CONTESTED GLYPH. Both folded into `PG-OCR-PROMPT.md`.
+
+⚠ **The facing LATIN decided three of the four hardest calls** (*permittimus*,
+*spernatur*, *Habacuc*). Now a REQUIRED step in the adjudication prompt.
+
+Three corrections applied to `raw/pg088/batch2-assembled/` (`ἀτιμασθῇ`,
+`σεαυτόν;`, `Ἀββακοὺκ,`); four cruces recorded. **Batch 2 is now ready to chunk
+— and when it is chunked, it takes `[b: X]` band markers** per the ruling above;
+PG 88's leaves carry Migne's A/B/C/D and leaf853 seg3 shows `[B]` in the gutter.
+
+**Then:** leaves 865+ (87 remain, cols to 1844) in one full-page pass — a batch
+fleet still needs Wilson's "which model, and go?" with real numbers.
 
 ---
 

@@ -125,3 +125,39 @@ known χ on the SAME line before deciding.
 and add it to an `UNCERTAIN:` list at the end with the line and what you'd have
 expected. That list is the Opus adjudication queue — it is the point of the
 exercise, not an admission of failure.
+
+## Adjudication: the two witnesses fail in OPPOSITE directions (2026-08-06)
+
+Measured on Batch 2's nine crop-vs-full-page disagreements
+(`benchmark/pg88-pilot/BATCH2-CROSSCHECK.md`): full-page won 3, the crop
+adjudication won 4, one unsettled. **Do not assume the full-page read wins.**
+
+- **A full-page read NORMALIZES.** All four of its losses were smoothings — a
+  form conformed to the same phrase eight lines above, a proper name conformed to
+  its LXX spelling, a verb conformed to the one it is paired with, a footnote
+  LETTER read as a digit. A transcriber following the text across a whole page is
+  reading for sense, and sense is what smooths a variant away. This is the same
+  failure the pilot measured when it ruled Opus out as primary transcriber, and
+  **rendering the whole page does not cure it — continuity causes it.**
+- **A crop read INVENTS AT EDGES and mis-sees isolated glyphs**, because it
+  cannot compare a doubtful letter against the same letter elsewhere on the page.
+
+So: full-page is the better instrument for RECOVERING LOST TEXT (it recovered 149
+words Batch 2's crops had lost) and the worse one for SETTLING A CONTESTED GLYPH.
+Different jobs. When a reading is contested, go back to the page and compare the
+doubtful letter against the same letter elsewhere in the same fount, at zoom.
+
+**⛔ REQUIRED, not optional: consult the facing LATIN on every contested reading.**
+It decided three of Batch 2's four hardest calls — *permittimus* (ἀφοῦμεν, not
+ἀροῦμεν), *spernatur* (ἀτιμασθῇ, not ἀτιμηθῇ), *Habacuc* (Ἀββακοὺκ, not
+Ἀββακούμ) — where the Greek glyph alone was arguable every time. This does NOT
+license reading the Latin as Migne's Greek; the standing rule holds. It licenses
+using the Latin to CHOOSE BETWEEN two readings both of which are on the plate.
+
+⚠ **A reconstruction is not a transcription.** Where a letter failed to print,
+the transcript keeps what the plate shows (`κα-`) and the reconstruction
+(`κρα-`) goes in the apparatus. Batch 2 recorded one as though it were the
+reading.
+
+⚠ **Footnote markers in PG 88 are LETTERS, not digits** (leaf846's series runs
+`i j k l m n`). A superscript read as `8` is a misread `a`.
