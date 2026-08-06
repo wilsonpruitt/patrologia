@@ -3,7 +3,14 @@
 ## ▶▶▶▶ 2026-08-06 — THE RECOMMENDED DECISION BELOW IS DONE. TWO NEW GATES OWED.
 
 **Steps 1 and 2 of the block below are complete** (`f602593`, `f04da41`).
-**29 commits UNPUSHED on master. Nothing deployed.**
+✅ **DEPLOYED + VERIFIED LIVE 2026-08-06** (Wilson's OK, `dpl_4b1TnRLuxmmCkDEJ1U1ZzavbiTy6`,
+aliased to migne.app; gates green first). Verified on the live site, not just in
+the file: work page **and cruces page** both 200, `/scripture/` reads **3,469
+citations across 98 works**, Antiochus's four links are there (1×`#c1424`,
+3×`#c1425`) and all four `id="c14xx"` anchors exist on the page they point at,
+the restored *laura* gloss renders with `class="notecite prose wraps"`, and the
+old truncated wording is gone from the live HTML.
+**31 commits UNPUSHED on master** — push still owed and still protected.
 
 **1. `index-work-pg.mjs` no longer hardcodes `scripture: []`.** The parser moved
 to `scripts/lib/citations.mjs`; both indexers import it and cannot drift. PG
