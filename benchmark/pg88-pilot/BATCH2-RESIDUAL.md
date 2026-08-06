@@ -41,6 +41,7 @@ They are NOT in `batch2-final`. Resolve each against the plate.
   ↯ MANUAL  leaf860  [NEITHER] - `A=ἀπ' B=ἀπ᾽` · `A=δι' B=δι᾽` → **NEITHER (encoding)** ×2
   ↯ MANUAL  leaf861  [NEITHER] - `ONLY IN A: ύθως` → **NEITHER** — a clipped fragment of `ἀκολούθως`, which B has right. Caused by the full-width setting (below).
   ↯ MANUAL  leaf861  [NEITHER] - `ONLY IN A: ς` → **NEITHER** — a clipped fragment of `τελείας` (seg3 line 2).
+  ↯ MANUAL  leaf861  READING is prose, not text: "both printed"
   ✗ REFUSED leaf861  "ς" → "δρομαίως" — 61 matches in body (need exactly 1)
   ✗ REFUSED leaf861  "τὴν" → "τὸν" — 11 matches in body (need exactly 1)
   ✗ REFUSED leaf861  "οῦ" → "τοῦ" — 49 matches in body (need exactly 1)

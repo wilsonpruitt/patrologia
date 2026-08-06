@@ -124,6 +124,18 @@ for (const f of fs.readdirSync(abs(base)).filter(f => /^leaf\d+\.txt$/.test(f)).
       noop++;
       continue;
     }
+    // ⛔ A replacement must be GREEK. The adjudicators sometimes write prose in
+    // the READING slot — "READING: both printed", meaning both candidates are on
+    // the plate — and an earlier version of this script substituted that phrase
+    // into the text, leaving `ὁδηγούμενος both printed` sitting in the corpus as
+    // if it were Migne's. Latin-script letters in a replacement mean the verdict
+    // is a sentence, not a reading: refuse it and let a person place it.
+    // (Migne's own printed "(sic)" is the one legitimate exception.)
+    if (/[A-Za-z]{2,}/.test(want.replace(/\(sic\)/g, ''))) {
+      manual++;
+      report.push(`  ↯ MANUAL  leaf${leaf}  READING is prose, not text: "${want.slice(0, 60)}"`);
+      continue;
+    }
     body = body.replace(from, want);
     applied++;
     report.push(`  ✓ leaf${leaf}  "${from}" → "${want}"${it.crux ? '   [CRUX logged]' : ''}`);
