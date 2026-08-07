@@ -9,20 +9,35 @@ deploy this session, both verified on the live domain, not just in the files).
 
 ### ▶ WHERE TO START
 
-0. ⛔⛔ **RE-HARVEST leaf838's FULL GREEK — Batch 1 is missing the opening of
-   Doctrina I.** Found 2026-08-06 by the new marker-series gate (below). pdfPage
-   839 = **cols 1617-1618, running head `DOCTRINA I.`** (read off the plate) is
-   NOT five-lines-of-Greek-then-Latin: after the Latin stretch it carries **the
-   work's Greek title block** (`ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ… / ΔΙΔΑΣΚΑΛ[ΙΑΙ] / Περὶ
-   ἀποτ[αγῆς]`) **and ~16 more Greek lines opening Doctrina I** (`Α'. Ἐν ἀρχῇ ὅτε
-   ἐποίησεν ὁ Θεὸς τὸν ἄνθρωπον, [B] ἔθετο αὐτὸν ἐν τῷ παραδείσῳ…`) down to where
-   leaf839 picks up. **None of it is in the batch.** Chunked as it stands Batch 1
-   ships a work beginning mid-sentence. One leaf, Sonnet, full-page, blind; both
-   band letters are on it. ⚠ **`latinOnlyLeaves` must die, not be patched** — it
-   has now been wrong on its only tested leaf twice, in different directions.
-   **Greek can stop and start again on one leaf, because a work can END and
-   another BEGIN on it.** It needs per-run spans, not a boolean. **Leaf 970 still
-   carries it unchecked.**
+0. ✅ **DONE 2026-08-07 — leaf838 IS RE-HARVESTED and Doctrina I's opening is
+   recovered.** One Sonnet agent, full-page, blind, 8 segs @600 dpi (~131k
+   tokens); result at `raw/pg088/leaf838-reharvest/leaf838.txt`, adjudication at
+   the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`. Got the Greek title
+   block + 13 lines opening Doctrina I, **and a 3-line FULL-WIDTH Greek paragraph
+   in Run 1 the crop era never had** (the Dositheus transition — failure class 2
+   from `pg-page-segments.py`'s own docstring, caught exactly as intended).
+   **Two corrections applied against the transcriber:** the marker is **`ᶜ`, not
+   `ᵉ`** (three witnesses — the crescent's aperture at 22×; the `e` of *erit*
+   three glyphs away in the same Latin line as a control; and the series, since
+   839 opens at `e`) ⚠ **and the agent's own list ran `e` then `d`, descending —
+   a note list that runs backwards is self-refuting, treat it as a
+   read-the-glyph trigger**; and **`[A]` IS on the leaf and is the GREEK
+   column's**, not the Latin's — **on this volume the band letter always sits in
+   the GUTTER and always belongs to the Greek column, and its SIDE follows the
+   column's parity** (Greek LEFT → letter follows the line; Greek RIGHT →
+   precedes it), confirmed by two same-day controls, leaf841 `D` and leaf842 `B`.
+   ⚑⚑ **AND THE BIG ONE: A NOTE IS NOT ALWAYS AT THE FOOT.** leaf838's
+   `ᶜ Prov. ix, 9.` sits **MID-PAGE**, under the short head-of-column paragraph
+   and above the `Sequentia` notice, because that is where its Greek run ends.
+   I had started a mechanical Batch 2 sweep measuring ink at page BOTTOMS and it
+   would have missed this class on every leaf where a work ends mid-page — which
+   is where new notes cluster. The same sweep found no horizontal rules anywhere,
+   because **in this volume the "foot rule" is a block of small type after a gap,
+   not a printed line.** ▶ **Scan the FULL column height for notes, never just
+   the foot.** ⚠ `latinOnlyLeaves` still a boolean, still wrong; **leaf 970 still
+   unchecked.** ⚠ Open on this leaf: Run 1 quotes Prov 9:9 *in the Greek* yet the
+   marker was placed in the Latin body only — bears on how `index-work-pg.mjs`
+   locates the citation.
 1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF, IN FULL — Batch 1 is DONE; Batch 2 is
    STARTED, leaf845 done, 846–864 remain.** ⚑ **The gate's first act on new
    material caught a real error:** `raw/pg088/batch2-assembled/leaf845.txt`

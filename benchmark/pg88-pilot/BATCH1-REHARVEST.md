@@ -46,7 +46,7 @@ the crop pass dropped wholesale: `προεστημηνύσαμεν¹`, `ἀλλ�
 gap where leaf837's Greek broke off mid-clause at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`:
 
 > σου τῇ δεξιότητι καὶ τὸ βραχὺ παραστῆσαι, κατὰ τὸ, [A]
-> Δίδου σοφῷ ἀφορμὴν, καὶ σοφώτερος ἔσται.  [ᵉ Prov. ix, 9.]
+> Δίδου σοφῷ ἀφορμὴν, καὶ σοφώτερος ἔσται.  [ᶜ Prov. ix, 9.]
 > Πρότερον δὲ, ἐν συντομωτέρῳ, καὶ τὰ κατὰ τὸν μακάριον Δοσίθεον, τὸν γενόμενον πρῶτον μαθητὴν
 > τοῦ μακαρίου ἀββᾶ Δωροθέου ἔτι ὄντος αὐτοῦ ἐν τοῖς τοῦ ἀββᾶ Σερίδου, καὶ τὸν
 > ἀγῶνα τῆς κατὰ Χριστὸν ὑποταγῆς ἐξανύοντος.
@@ -690,3 +690,95 @@ method page; (b) a targeted third read of the highest-risk classes only
 (punctuation adjacent to case endings, κ/χ, accent-position pairs); (c) a full
 third witness. (b) is the proportionate one, and `ποία,` was found inside a class
 (a comma mistaken for a final sigma) that a targeted pass could actually cover.
+
+---
+
+# leaf838 re-harvested — Doctrina I's opening is recovered (2026-08-07)
+
+One Sonnet agent, full-page, blind, 8 segments at 600 dpi, ~131k tokens.
+Result at `raw/pg088/leaf838-reharvest/leaf838.txt`. **The gap that blocked
+chunking is closed:** Batch 1 no longer begins the work mid-sentence.
+
+## What came back
+
+- **Run 1** — the two-line tail of the Epistle, **plus a three-line FULL-WIDTH
+  Greek paragraph** introducing Dositheus (`Πρότερον δὲ, ἐν συντομωτέρῳ, καὶ τὰ
+  κατὰ τὸν μακάριον Δοσίθεον…`). The crop era had none of it. This is failure
+  class 2 from `pg-page-segments.py`'s own docstring — a line Migne sets full
+  width, where the Greek outran its Latin — caught exactly as the full-page
+  method was adopted to catch it.
+- **Run 2** — the italic notice `Sequentia non habentur in Græco.` only, as scoped.
+- **Run 3 — THE RECOVERY.** The new work's Greek title block
+  (`ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ ΗΜΩΝ ΑΒΒΑ ΔΩΡΟΘΕΟΥ / ΔΙΔΑΣΚΑΛΙΑ Α'. / Περὶ ἀποταγῆς.`)
+  and 13 lines opening Doctrina I, running to the foot of the column and ending
+  mid-clause at `…καὶ ἦν ἐν τῷ παρὰ`, where leaf839 picks up.
+
+## Two corrections applied on adjudication — both against the transcriber
+
+### 1. The marker is `ᶜ`, not `ᵉ` — three independent witnesses
+
+The agent recorded `ᵉ Prov. ix, 9.` It is **`c`**.
+
+- **The glyph.** At 22× the marker is a crescent whose aperture breaks out to the
+  right edge at mid-height. An `e` would show an enclosed upper bowl over a bar.
+- **A control in the same line, same weight.** The Latin body reads `…erit ᶜ.` —
+  the `e` of *erit* sits three glyphs from the marker and is plainly a different
+  letter: closed bowl, aperture at lower right.
+- **The series.** Batch 1's lettered run is `a · b · cd · e-l …` — leaf836 `a`,
+  837 `b`, 838 `c d`, 839 `e…`. An `e` here would collide with 839's.
+
+⚠ And the agent's own output listed **`e` then `d`** — descending. **A note list
+that runs backwards is self-refuting; treat it as a read-the-glyph trigger.**
+
+### 2. `[A]` IS on the leaf — it is the GREEK column's, not the Latin's
+
+The agent found `[A]` in the gutter level with the first line of both columns and
+assigned it to the Latin. It belongs to **Greek col 1617**.
+
+> **On this volume the band letter always sits in the GUTTER and always belongs
+> to the GREEK column; its SIDE follows the column's parity** — a Greek LEFT
+> column's letter FOLLOWS its line, a Greek RIGHT column's PRECEDES it
+> (`AUDIT-ANTIOCHUS.md`).
+
+Two same-volume controls read the same day confirm it: **leaf841** (Greek RIGHT)
+prints `D` in the gutter *preceding* its line; **leaf842** (Greek LEFT) prints
+`B` in the gutter *following* its line. leaf838's Greek is LEFT and the letter
+follows the Greek line. Col 1617 also carries no title block above its first
+line, and per the Antiochus finding a column's first marginal is `A` unless a
+title block occupies the top band. Both corrections are applied in the file.
+
+## ⚑⚑ A NOTE IS NOT ALWAYS AT THE FOOT — and this breaks the obvious gate
+
+**leaf838's `ᶜ Prov. ix, 9.` sits MID-PAGE**, under the short head-of-column
+paragraph and *above* the `Sequentia` notice, because that is where the Greek run
+ends. It is not on the foot rule at all.
+
+⛔ I had begun a mechanical sweep of Batch 2 that measured ink at the BOTTOM of
+each page to decide whether a leaf carries notes. **It would have missed this
+class entirely, on every leaf where a work ends mid-page** — which is exactly
+where new notes cluster. The detector also found no horizontal rules anywhere in
+Batch 2, because **in this volume the "foot rule" is a block of small type after
+a gap, not a printed line.** Both assumptions were wrong and neither was checked.
+▶ **Read the whole page for notes, not the foot of it.** Any completeness sweep
+must scan the full column height.
+
+## Corroboration, and a better test than the one used
+
+The agent independently hit the x-shaped kappa and resolved it correctly — but it
+resolved it **by sense** ("the resulting words are the only ones that make
+sense"), which is the weak method and the one that manufactures conformations.
+▶ Put the descender test in the transcription prompt: **χ descends below the
+baseline, κ does not.** It is a glyph test, and it is decidable at 600 dpi.
+
+Also good and to be kept: the agent flagged `Gen. II, 15.`'s numeral as a
+**glyph-shape** ambiguity (Roman `II` vs Arabic `11`) while stating the numeral
+IS fully printed — correctly distinguishing that from the lost-numeral class,
+which must never be completed from sense.
+
+## ⚠ Still open on this leaf
+
+- `latinOnlyLeaves` is still a boolean and still wrong. **Leaf 970 unchecked.**
+- Run 1 quotes Prov 9:9 *in the Greek* (`Δίδου σοφῷ ἀφορμήν, καὶ σοφώτερος
+  ἔσται.`) yet the agent reports no inline marker in the Greek and places the `ᶜ`
+  in the Latin body only. Whether Migne keys this note from the Greek as well is
+  unverified — it bears on how `index-work-pg.mjs` locates the citation.
