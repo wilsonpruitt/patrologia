@@ -239,6 +239,34 @@ omission, duplication, a dropped anchor, a quotation silently converted. They
 do not certify that a sentence has been understood. That is what the cruces
 and the reading are for.
 
+### Where we read the plate ourselves
+
+For most of this corpus the transcription was made by others and we work from
+their files. For some of the Greek it is ours: where no corpus carries the
+work, the pages are read off photographs of Migne's own plates at six hundred
+dots to the inch.
+
+Each leaf is then read twice, by two readers working independently and blind to
+each other, and every place the two disagree is settled against the photograph
+with Migne's facing Latin in view. That finds a great deal — including whole
+lines that an earlier method had lost off the side of a column, and citations
+that had gone missing entirely. It is also limited in a way worth setting down,
+because the limit is not the obvious one.
+
+A *disagreement* is the only thing a comparison can show. Where both readers
+make the same silent repair — and they do, because both are pulled the same way
+by what the grammar wants — the comparison shows agreement, which has the shape
+of two witnesses confirming a reading and is nothing of the kind. One page of
+Dorotheus prints Ἀπὸ ποία, δόξης. The grammar wants ποίας, and both readers
+supplied it, each of them reading Migne's comma as a letter. Neither the
+comparison nor any check downstream of it could have raised a hand; it was
+caught by eye, under magnification, while something else was being looked at.
+
+So the figure that matters is not how much of a leaf the two readings agreed
+on. Agreement means a passage has survived two readings by readers who share a
+reflex. It does not mean the passage has been verified, and we would rather say
+that here than let a percentage do work it cannot do.
+
 ## The cruces
 
 Each translated work carries a list of cruces — the places where the plate is

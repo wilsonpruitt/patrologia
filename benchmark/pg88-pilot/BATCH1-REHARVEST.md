@@ -28,6 +28,16 @@ differences that are not worth a plate read.
 silently — `pg-ocr-diff.mjs` says so in its own header, and PG 88 leaf 849 is the
 worked example. 3,239 words survived two readings; that is all it means.
 
+⛔ **And it is no longer a theoretical caveat: Batch 1 produced its own worked
+example.** leaf842 L53 the plate prints `Ἀπὸ ποία, δόξης` and **both passes wrote
+`ποίας`**, each reading Migne's comma as a final sigma because the grammar wants
+one. Found by eye at 8× while an unrelated item was being checked — no diff,
+and nothing downstream of a diff, could have raised it. **Wilson ruled
+2026-08-07: ACCEPT AND SHIP, with the caveat stated publicly** rather than buy a
+targeted third read. The disclosure is live in `content/editorial-method.md`
+§"Where we read the plate ourselves". ▶ Do not quote the 3,239 figure, or any
+per-leaf agreement percentage, as if it were a verification rate.
+
 ## What the full-page pass recovered
 
 **Three scripture citations the crops lost entirely** — the class rule 9 indexes,

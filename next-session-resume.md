@@ -84,15 +84,18 @@ deploy this session, both verified on the live domain, not just in the files).
    remaining items adjudicated against the 600 dpi plate (leaf841 ×1 · leaf842 ×2
    · leaf843 ×9); write-up at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`.
    Queue tally over all 39: **crop 19 · full-page 18 · neither 2** — dead even.
-   ⛔⛔ **But it opened one thing, and it is Wilson's call:** leaf842 L53 the plate
-   prints `Ἀπὸ ποία, δόξης` and **BOTH passes printed `ποίας`** — same silent
-   repair, a comma read as a final sigma, and they *agreed*. **A diff queue can
-   only surface disagreements, so a shared normalization is invisible to it and
-   reads as a confirmed reading.** "3,239 words agreed by two independent passes"
-   means concurred-on, not verified. Options: (a) accept + record the caveat on
-   /method, (b) targeted third read of the high-risk classes only (punctuation
-   adjacent to case endings · κ/χ · accent-position pairs), (c) full third
-   witness. **(b) is the proportionate one.**
+   ✅ **RULED by Wilson 2026-08-07 — ACCEPT AND SHIP, caveat stated publicly.**
+   The finding: leaf842 L53 the plate prints `Ἀπὸ ποία, δόξης` and **BOTH passes
+   printed `ποίας`** — the same silent repair, a comma read as a final sigma, and
+   they *agreed*. **A diff queue can only surface disagreements, so a shared
+   normalization is invisible to it and has the shape of two witnesses
+   confirming a reading.** No targeted third read was bought. ▶ **The disclosure
+   is written and lives in `content/editorial-method.md` §"Where we read the
+   plate ourselves"** — it names the ποία, case outright and says agreement means
+   a passage survived two readings by readers who share a reflex, not that it was
+   verified. ⛔ **NOT YET DEPLOYED — outward-facing, needs Wilson's OK.**
+   ▶ **Never quote "3,239 words agreed" or any per-leaf agreement percentage as
+   a verification rate**, here or on the site.
    Three further findings, all in the file: **κ and χ are both x-shaped in this
    fount and the discriminator is the DESCENDER (χ has one, κ has not)** — the
    full-page pass got `οὐκ`→`οὐχ` wrong on two separate leaves, an instrument
