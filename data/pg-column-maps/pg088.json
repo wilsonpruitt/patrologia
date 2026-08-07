@@ -40,6 +40,8 @@
     "901": 1711,
     "940": 1789,
     "941": 1779,
+    "969": 1835,
+    "970": 1837,
     "971": 1839,
     "973": 1843
   },
@@ -95,10 +97,6 @@
     970,
     974
   ],
-  "latinOnlyLeaves": {
-    "838": "WRONG TWICE, AND THE FLAG IS THE PROBLEM — corrected again 2026-08-06 against the plate (pdfPage 839, cols 1617-1618, running head 'DOCTRINA I.'). The leaf has THREE Greek runs, not one: (1) ~5 lines of Greek at the head of col 1617 — the tail of the Epistle plus the opening of the Life of Dositheus, carrying a 'c Prov. ix, 9' citation (marker c, NOT e as the head harvest recorded) — continuous with leaf837's Greek, which ends mid-clause at '...alla oun hikanon estai'; (2) then Migne's italic 'Sequentia non habentur in Graeco' and a long LATIN-ONLY stretch (the Life of Dositheus, which Migne's Greek column does not carry); (3) THEN GREEK RESUMES — the Doctrinae's own Greek title block (TOU EN AGIOIS PATROS [HMON DOROTHEOU] / DIDASKAL[IAI] / Peri apot[ages]) with its Latin twin 'SANCTI DOROTHEI ... DOCTRINA I ... De renunciatione', and then ~16 lines opening Doctrina I (\"A'. En arche hote epoiesen ho Theos ton anthropon, [B] etheto auton en to paradeiso...\") running to the foot of the column, where leaf839's Greek picks up. Band letters [A] and [B] are both on the leaf; the foot rule carries 'c Prov. ix, 9.' and 'd Gen. ii, 15.' NONE OF RUN (3) IS IN BATCH 1 — it is the Greek TITLE of the work and the opening of Doctrina I. DO NOT PATCH THIS FLAG: a boolean cannot express a leaf where a work ENDS and another BEGINS, which is exactly what happens here and is why the flag has now been wrong in two different directions. Replace it with per-run Greek spans before any volume is harvested on its strength. Leaf 970 carries the same flag and is STILL UNCHECKED.",
-    "970": "both columns Latin, no Greek column — ⚠ NOT verified against the plate; leaf838 carried the same flag and proved partial (2026-08-06)."
-  },
   "workEndsAt": "leaf 973 — leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
   "pages": [
     {
@@ -1954,6 +1952,42 @@
     }
   ],
   "plateNotes": {
-    "863": "Running head at col 1667 misprints the author's name: the plate reads 'S. DOROPHEI ABBATIS', with a P where every other leaf in the volume has T. Read at 600 dpi 2026-08-07 — the letter has a closed bowl and no stem-and-crossbar; compare the T in ABBATIS on the same line. Any check that identifies a leaf by grepping its running head for DOROTHEI will miss this one."
+    "863": "Running head at col 1667 misprints the author's name: the plate reads 'S. DOROPHEI ABBATIS', with a P where every other leaf in the volume has T. Read at 600 dpi 2026-08-07 — the letter has a closed bowl and no stem-and-crossbar; compare the T in ABBATIS on the same line. Any check that identifies a leaf by grepping its running head for DOROTHEI will miss this one.",
+    "970": "Running head reads 'EPISTOLÆ AD DIVERSOS.' — Migne names the NEW work in the running head of the leaf on which it begins, even though the title block sits two-thirds of the way down the page. That makes the running head a cheap gate for finding work boundaries: reading it would have caught this leaf's partial state without any Greek/Latin column analysis at all."
+  },
+  "leafGreekState": {
+    "_schema": "Per-leaf Greek coverage. REPLACES the retired boolean `latinOnlyLeaves`, which was tested on exactly two leaves and was WRONG ON BOTH — 838 twice, in opposite directions, and 970 once. Both failures were at a WORK BOUNDARY, which is the whole reason the boolean cannot work: Greek can stop and start again on one leaf, because a work can END and another BEGIN on it. State is one of: absent (= the leaf is an ordinary two-column Greek/Latin opening, no claim needed), or an object with `state` ('partial' | 'latin-only'), `tested` (how the claim was established), and `runs` describing where the Greek actually is. ⛔ A state here is a claim to CHECK, never a reason to skip a leaf: pg-page-segments.py renders every leaf regardless and warns.",
+    "838": {
+      "state": "partial",
+      "tested": "plate, 600 dpi, twice (2026-08-05 and 2026-08-06) — and wrong both times before that",
+      "columns": [
+        1617,
+        1618
+      ],
+      "runs": [
+        "Greek at the head of col 1617: the tail of the Epistle, then the work's Greek TITLE BLOCK and ~16 lines opening DOCTRINA I. Continuous with leaf837's Greek, which breaks off mid-clause at '…ἀλλ᾽ οὖν ἱκανὸν ἔσται'. Carries a 'ᶜ Prov. ix, 9' note (marker c, not e as the head harvest recorded).",
+        "Then Migne's italic 'Sequentia non habentur in Græco' and a long LATIN-ONLY stretch (the Life of Dositheus)."
+      ],
+      "costOfTheOldFlag": "Batch 1 was chunked-ready while missing the opening of Doctrina I — the work would have begun mid-sentence."
+    },
+    "970": {
+      "state": "partial",
+      "tested": "plate, 600 dpi, 2026-08-07 — the first time this leaf was ever looked at",
+      "columns": [
+        1837,
+        1838
+      ],
+      "runs": [
+        "Upper ~65% of the leaf: LATIN in both columns — the tail of the Doctrinae, closing 'sæculorum. Amen.'",
+        "Then a full-width title block: 'SANCTI DOROTHEI ABBATIS / EPISTOLÆ AD DIVERSOS.'",
+        "Then the leaf resumes two columns with GREEK ON THE LEFT: 'Α΄. — Πρὸς ἀδελφὸν στενοχωρούμενον ὑπὸ πειρασμοῦ. / Πρῶτον μὲν, τέκνον, οὐκ οἴδαμεν τὰς οἰκονομίας τοῦ Θεοῦ, καὶ ὀφείλομεν παραχωρεῖν αὐτῷ τὴν διοί-…', facing Latin 'I. — Ad fratrem tentationibus oppressum. / Primo quidem, fili, nescimus Dei dispensationem…'"
+      ],
+      "costOfTheOldFlag": "A harvest trusting 'both columns Latin, no Greek column' would skip the OPENING OF THE EPISTOLÆ AD DIVERSOS — the identical loss to leaf838's, at the identical kind of seam.",
+      "alsoNote": "The map's single greekSide/splitX per leaf is inadequate here for the same reason: splitX 1936 with sep 0.074, the lowest separation in the volume, is the signature of a page that is Latin/Latin above and Greek/Latin below."
+    },
+    "_retiredFlagText": {
+      "838": "WRONG TWICE, AND THE FLAG IS THE PROBLEM — corrected again 2026-08-06 against the plate (pdfPage 839, cols 1617-1618, running head 'DOCTRINA I.'). The leaf has THREE Greek runs, not one: (1) ~5 lines of Greek at the head of col 1617 — the tail of the Epistle plus the opening of the Life of Dositheus, carrying a 'c Prov. ix, 9' citation (marker c, NOT e as the head harvest recorded) — continuous with leaf837's Greek, which ends mid-clause at '...alla oun hikanon estai'; (2) then Migne's italic 'Sequentia non habentur in Graeco' and a long LATIN-ONLY stretch (the Life of Dositheus, which Migne's Greek column does not carry); (3) THEN GREEK RESUMES — the Doctrinae's own Greek title block (TOU EN AGIOIS PATROS [HMON DOROTHEOU] / DIDASKAL[IAI] / Peri apot[ages]) with its Latin twin 'SANCTI DOROTHEI ... DOCTRINA I ... De renunciatione', and then ~16 lines opening Doctrina I (\"A'. En arche hote epoiesen ho Theos ton anthropon, [B] etheto auton en to paradeiso...\") running to the foot of the column, where leaf839's Greek picks up. Band letters [A] and [B] are both on the leaf; the foot rule carries 'c Prov. ix, 9.' and 'd Gen. ii, 15.' NONE OF RUN (3) IS IN BATCH 1 — it is the Greek TITLE of the work and the opening of Doctrina I. DO NOT PATCH THIS FLAG: a boolean cannot express a leaf where a work ENDS and another BEGINS, which is exactly what happens here and is why the flag has now been wrong in two different directions. Replace it with per-run Greek spans before any volume is harvested on its strength. Leaf 970 carries the same flag and is STILL UNCHECKED.",
+      "970": "both columns Latin, no Greek column — ⚠ NOT verified against the plate; leaf838 carried the same flag and proved partial (2026-08-06)."
+    }
   }
 }

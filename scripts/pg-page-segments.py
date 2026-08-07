@@ -105,7 +105,10 @@ def main():
         if "colLeft" not in rec:
             rec["colLeft"] = rec.get("greekCol", rec.get("colOdd"))
         pages[rec["leaf"]] = rec
-    latin_only = {int(k) for k in cmap.get("latinOnlyLeaves", {})}
+    # leafGreekState replaces the retired boolean `latinOnlyLeaves`, which was
+    # tested on two leaves and wrong on both. Keys starting "_" are schema/notes.
+    greek_state = {int(k): v for k, v in cmap.get("leafGreekState", {}).items()
+                   if not k.startswith("_")}
     out = pathlib.Path(args.out)
     (out / "segs").mkdir(parents=True, exist_ok=True)
     manifest = {}
@@ -128,9 +131,16 @@ def main():
             # is only partly Latin costs text, and costs it invisibly. Same
             # reasoning as the full-page ruling itself: a defect that must be
             # RECOGNISED will eventually be missed.
-            if leaf in latin_only:
-                print(f"leaf {leaf}: ⚠ flagged LATIN-ONLY in the map — RENDERED ANYWAY. "
-                      f"The flag is a claim to CHECK, not a reason to skip.")
+            st = greek_state.get(leaf)
+            if st:
+                print(f"leaf {leaf}: ⚠ leafGreekState = {st.get('state')!r} — RENDERED ANYWAY. "
+                      f"The state is a claim to CHECK, not a reason to skip.")
+                for run in st.get("runs", []):
+                    print(f"    · {run}")
+                if st.get("state") == "partial":
+                    print(f"  ⛔ PARTIAL LEAF: the Greek stops and starts on this page, so a "
+                          f"transcriber told 'follow the Greek column' will follow the wrong "
+                          f"one for part of it. Read the whole page before trusting greekSide.")
 
             img = render(args.pdf, rec["pdfPage"], wd)
             a = np.asarray(img)
@@ -160,7 +170,7 @@ def main():
                 "columnVerified": bool(rec.get("verified")),
                 "dpi": DPI, "trimmedTo": [x0, y0, x1, y1], "pageSize": [W, H],
                 "segments": len(files), "overlapPx": args.overlap, "files": files,
-                "latinOnlyClaim": cmap.get("latinOnlyLeaves", {}).get(str(leaf)),
+                "greekStateClaim": greek_state.get(leaf),
             }
             print(f"leaf {leaf}: col {rec['colLeft']}, Greek {rec['greekSide']:5} → "
                   f"{len(files)} segs, {page.width}x{page.height} "

@@ -183,7 +183,9 @@ def main():
         "columnsExpected": len(states),
         "columnsUncovered": uncovered,
         "lowConfidenceLeaves": old.get("lowConfidenceLeaves", []),
-        "latinOnlyLeaves": old.get("latinOnlyLeaves", []),
+        # `latinOnlyLeaves` is RETIRED — a boolean cannot describe a leaf on which
+        # a work ends and another begins. Carry the per-run replacement instead.
+        "leafGreekState": old.get("leafGreekState", {}),
         "workEndsAt": old.get("workEndsAt"),
         "pages": pages,
     }

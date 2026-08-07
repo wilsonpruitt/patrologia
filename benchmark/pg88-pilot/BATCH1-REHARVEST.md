@@ -1123,3 +1123,87 @@ ABBATIS`** — a P where every other leaf has T. Verified at 600 dpi against the
 T in `ABBATIS` on the same line. Recorded in the map under `plateNotes`. It is
 not a text defect, but **any check that identifies a leaf by grepping its
 running head for `DOROTHEI` will silently miss this one.**
+
+---
+
+# `latinOnlyLeaves` is dead, and leaf 970 is why (2026-08-07)
+
+The runbook's item 4 said the flag *"must DIE, not be patched — it is a boolean
+and it has been wrong on its only tested leaf twice, in opposite directions."*
+It carried a second leaf, **970, never checked.** It has now been checked.
+
+## Leaf 970 is NOT Latin-only, and what it hides is a work's opening
+
+The flag read: *"both columns Latin, no Greek column."* The plate, at 600 dpi:
+
+- **Upper ~65%** — Latin in both columns, the tail of the *Doctrinae*, closing
+  `sæculorum. Amen.`
+- **Then a full-width title block** — `SANCTI DOROTHEI ABBATIS / EPISTOLÆ AD
+  DIVERSOS.`
+- **Then two columns again, GREEK ON THE LEFT** —
+  `Α΄. — Πρὸς ἀδελφὸν στενοχωρούμενον ὑπὸ πειρασμοῦ.` /
+  `Πρῶτον μὲν, τέκνον, οὐκ οἴδαμεν τὰς οἰκονομίας τοῦ Θεοῦ, καὶ ὀφείλομεν
+  παραχωρεῖν αὐτῷ τὴν διοί-…`, facing Latin `I. — Ad fratrem tentationibus
+  oppressum. / Primo quidem, fili, nescimus Dei dispensationem…`
+
+**A harvest trusting the flag would have skipped the opening of the *Epistolae
+ad diversos*** — the second half of the work, and the identical loss to
+leaf838's missing Doctrina I, at the identical kind of seam.
+
+**Two leaves have ever carried this flag. It was wrong on both, and both times
+at a work boundary.** That is not a flag with a bug; it is a flag whose entire
+observed record is failure, and for a structural reason: **a boolean cannot
+describe a page on which one work ends and another begins.**
+
+## What replaced it
+
+`latinOnlyLeaves` → **`leafGreekState`**, per leaf, carrying `state`
+(`partial` | `latin-only`), **`tested`** (how the claim was established — the
+old flag never said, which is how 970 sat unchecked), and **`runs`** describing
+where the Greek actually is. The retired flag's text is kept under
+`_retiredFlagText` rather than deleted.
+
+`scripts/pg-page-segments.py` and `scripts/pg-column-map-rebuild.py` both read
+the new key; no reference to the old one survives in `scripts/`. The harvester
+still renders every leaf regardless of state, and now prints the runs and a hard
+warning:
+
+    leaf 970: ⚠ leafGreekState = 'partial' — RENDERED ANYWAY.
+        · Upper ~65% of the leaf: LATIN in both columns …
+        · Then a full-width title block: 'SANCTI DOROTHEI ABBATIS / EPISTOLÆ …'
+        · Then the leaf resumes two columns with GREEK ON THE LEFT: …
+      ⛔ PARTIAL LEAF: the Greek stops and starts on this page, so a transcriber
+         told 'follow the Greek column' will follow the wrong one for part of it.
+
+That last line is the point. The old flag's danger was never only that it made
+the harvester skip — it is that **`greekSide` is a per-leaf constant and a
+partial leaf has two answers**, so a transcriber obeying the manifest reads the
+wrong column for part of the page and reports nothing wrong.
+
+⚠ **`splitX` says so too, and nobody was listening:** leaf970's `sep` is
+**0.074**, the lowest separation in the volume (a normal leaf runs 0.17–0.41).
+That is the measurable signature of a page that is Latin/Latin above and
+Greek/Latin below. **A low `sep` is a partial-leaf detector we already had.**
+
+## ⚑ THE CHEAP GATE, found by accident and worth more than the fix
+
+**Migne's RUNNING HEAD names the new work on the leaf where it begins** — even
+when the title block sits two-thirds of the way down the page. Leaf970's head
+reads `EPISTOLÆ AD DIVERSOS.` while every leaf before it reads `S. DOROTHEI
+ABBATIS`. **Reading the running head would have caught this leaf's partial state
+with no column analysis at all**, and running heads are large clean type, the
+easiest thing on the page to read.
+
+That gives a work-boundary detector for the remaining 87 unharvested leaves that
+costs one crop per leaf: **where the running head changes, look at the whole
+page before harvesting it.**
+
+⚠ And the head has its own trap, found the same afternoon: **leaf863 misprints
+`S. DOROPHEI ABBATIS`.** A boundary detector that greps for a constant author
+string will fire a false positive there. Match on *change*, not on equality to
+`DOROTHEI`.
+
+## Anchors, again
+
+Leaves 969 and 970 plate-read from the heads: **969 → 1835, 970 → 1837.**
+`anchorsPlateVerified` now stands at **40**.
