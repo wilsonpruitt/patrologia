@@ -9,17 +9,30 @@ deploy this session, both verified on the live domain, not just in the files).
 
 ### ▶ WHERE TO START
 
-1. **Finish the Batch 1 adjudication — ~30 items, all itemized by leaf AND
-   segment** in `benchmark/pg88-pilot/BATCH1-REHARVEST.md`. Seven are done. This
-   is Opus work and it is the only thing blocking Batch 1 from being chunked.
-   ⚡ **Cheap win first:** 8 of the ~30 are footnote recoveries and are **not
-   contested** — the crop pass transcribed no footnote blocks at all, so each is
-   a straight recovery by the full-page pass. One confirming look per block
-   clears all 8.
-2. **Then chunk Batches 1 and 2.** Neither is chunked. Both take `[b: X]` band
+1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF OF BOTH BATCHES, IN FULL.** This is
+   now the item blocking chunking, and it replaced the old "cheap win" note.
+   **leaf843's rule carries FOUR notes and both passes captured only the last**
+   (`ᵇ Gen. iii, 17 · ᶜ ibid. 13 · ᵈ II Cor. vii, [numeral worn off the plate] ·
+   ᵉ Psal. xxvii, 9`). The footnote class is a recovery *class*, not a recovered
+   *set*, and a marker in the body is no evidence its note was captured.
+   ⚠ `ᵉ Psal. xxvii, 9` is measured as **printed** (glyph widths vs leaf837's
+   clean `cxviii`) but keys a **Ps 18:9** quotation standing in both columns of
+   that same leaf — **a crux, do not renumber, do not index to Ps 27 unflagged.**
+2. **Finish the Batch 1 word-level adjudication — 12 items left**, itemized by
+   leaf and segment at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`
+   (leaf841 ×1 · leaf842 ×2 · leaf843 ×9). 27 are done; tally **crop 12 ·
+   full-page 13 · neither 2**. Opus work.
+   ⚑ **Two method corrections came out of the 2026-08-06 pass and both narrow
+   the standing rule:** the **crop pass normalizes too** (leaf839: it silently
+   produced Migne's own footnote corrections without ever reading the footnotes),
+   and the **full-page pass INSERTS** (leaf840: it supplied a `τῶν` the plate has
+   not got) — so an only-in-B token is **not** self-evidently a recovery and the
+   only-in-B list may not be applied wholesale. leaf844's `αὐτημοζύνη` is held
+   **half by each pass**.
+3. **Then chunk Batches 1 and 2.** Neither is chunked. Both take `[b: X]` band
    markers (see the ruling below). Batch 2 is 80/80 on bands; Batch 1 is 4/4 on
    every leaf.
-3. **Then leaves 865+** — 87 remain, cols to 1844. ⛔ **HARD STOP: a batch fleet
+4. **Then leaves 865+** — 87 remain, cols to 1844. ⛔ **HARD STOP: a batch fleet
    needs Wilson's "which model, and go?" with real numbers.** For reference this
    session's 8-leaf run cost ~507k subagent tokens across 5 Sonnet agents.
 
