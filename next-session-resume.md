@@ -88,21 +88,38 @@ Migne sets in bold inside the LATIN column, and which **in brackets parses as a
 column anchor** where PG 88 runs 1611–1844. All four restored; Batch 2 is 80/80.
 Both classes are now one-line greps in `PG-OCR-PROMPT.md`.
 
-⛔⛔ **BATCH 1 IS MISSING A WHOLE LEAF. `leaf838` was never transcribed** — eight
-leaf files exist for the nine leaves 836–844, and 838 has no `.txt` and no segment
-crops, though its whole-leaf crop `leaf838_p839_left.png` WAS made. It is a real
-harvest leaf (`colLeft 1617`, Greek left, no `skipInHarvest`), so **column 1617 of
-Dorotheus does not exist anywhere in our files.** It hid because this file called
-Batch 1 "**8 columns, leaves 836–844**" — a range of NINE — and the summary was
-trusted. Second occurrence of "a scan that skips a leaf looks exactly like a clean
-one," this time in a batch marked done and adjudicated.
+⛔ **CORRECTION, same day.** This note previously said "BATCH 1 IS MISSING A WHOLE
+LEAF — leaf838 was never transcribed, column 1617 of Dorotheus does not exist
+anywhere in our files" (`c14422e`, pushed). **That was wrong.** The column map has
+a `latinOnlyLeaves` field I had not read; it names 838, `pg-page-segments.py`
+skips it by design, and Batch 1's "8 columns, leaves 836–844" was correct — nine
+leaves, one without a Greek body, eight Greek columns. The claim came from a file
+count against a leaf range, with the plate never opened. **An audit that never
+opens the plate can invent a defect as easily as it can miss one.**
 
-**▶ RECOMMENDED NEXT: re-harvest BATCH 1 whole, full-page, BEFORE the 87.** Don't
-patch it leaf by leaf — it was cropped with the method retired 2026-08-05 for
-losing text three ways invisibly, so all nine leaves are owed a full-page pass
-anyway. One operation recovers leaf838, fixes its bands (836 has none, 837 `ABCC`,
-842 `ABCDA`, 843 `AB`), and puts Batch 1 on Batch 2's footing. Nine leaves is also
-the cheapest possible shakedown of the new pipeline before it runs at scale.
+⚠ **What IS true, read off the plate:** `latinOnlyLeaves` is ALL-OR-NOTHING and
+leaf838 is not all-Latin. Col 1617 prints **~5 lines of Greek** — the tail of
+Doctrina I and the opening of the *Life of Dositheus*, with a Prov. ix, 9 citation
+— and only then Migne's italic *Sequentia non habentur in Græco*, after which the
+leaf runs Latin. Those five lines are continuous with leaf837, whose Greek stops
+**mid-clause** at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`, which col 1617 completes. So Batch 1's
+Greek does break off mid-sentence — by five lines, not by a leaf. **Leaf 970
+carries the same flag and has NOT been checked.** The flag needs a partial state
+or a `greekEndsAt` marker before any volume is harvested on the strength of it.
+
+**▶ RECOMMENDED NEXT: re-harvest BATCH 1 full-page, BEFORE the 87.** Segments are
+already rendered at 600 dpi → `raw/pg088/batch1-pages/` (8 leaves, 838 correctly
+skipped). It was cropped with the method retired 2026-08-05, so all eight Greek
+leaves are owed a full-page pass anyway; that fixes the bands in the same
+operation (836 has none, 837 `ABCC`, 842 `ABCDA`, 843 `AB`) and is the cheapest
+shakedown of the new pipeline before it runs at 87. **Add leaf838's five Greek
+lines by hand** — the segmenter will keep skipping that leaf, correctly, until the
+flag grows a partial state.
+
+⚠ **MODEL: the policy is SONNET transcribes, OPUS adjudicates**, marked settled
+and not to be relitigated — and 2026-08-06's own cross-check reinforced it
+(a full-page reader NORMALIZES; continuity causes it). Do not put Opus on primary
+transcription without Wilson overriding that explicitly.
 
 **Then:** leaves 865+ (87 remain, cols to 1844) in one full-page pass — a batch
 fleet still needs Wilson's "which model, and go?" with real numbers.

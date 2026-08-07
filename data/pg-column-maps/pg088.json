@@ -71,10 +71,10 @@
   974
  ],
  "latinOnlyLeaves": {
-  "838": "carries the line 'Sequentia non habentur in Graeco' \u2014 Migne prints Latin only here; there is NO Greek to translate",
-  "970": "both columns Latin, no Greek column"
+  "838": "PARTIAL, NOT Latin-only — corrected 2026-08-06 against the plate. Col 1617 prints ~5 lines of GREEK first (the tail of Doctrina I + the opening of the Life of Dositheus, with a Prov. ix, 9 citation), continuous with leaf837's Greek which ends mid-clause at '...alla oun hikanon estai'; ONLY THEN comes Migne's italic 'Sequentia non habentur in Graeco', after which the leaf is Latin. pg-page-segments.py skips the whole leaf on this flag, so those 5 lines are NOT in our files. The flag needs a partial state or a greekEndsAt marker.",
+  "970": "both columns Latin, no Greek column — ⚠ NOT verified against the plate; leaf838 carried the same flag and proved partial (2026-08-06)."
  },
- "workEndsAt": "leaf 973 \u2014 leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
+ "workEndsAt": "leaf 973 — leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
  "pages": [
   {
    "leaf": 835,

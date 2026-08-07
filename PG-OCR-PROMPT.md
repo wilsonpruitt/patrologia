@@ -184,16 +184,24 @@ Both found auditing Batch 2's band coverage; both would have survived to chunkin
 it is called done.** Both are one-line checks and both classes read as ordinary
 text otherwise.
 
-## ⛔ Count the leaves you got against the leaves you asked for
+## ⛔ A "Latin-only" leaf may still carry Greek — read the plate, not the flag
 
-Batch 1 was recorded as "**8 columns, leaves 836–844**". That range is **NINE**
-leaves. The count and the range contradicted each other, and the contradiction is
-exactly where a dropped leaf hid: **leaf838 was cropped** (`batch1/
-leaf838_p839_left.png` exists) **and then never segmented and never transcribed** —
-it is the only leaf in the batch with no `_seg*.png` files and no `.txt`. Col 1617
-of Dorotheus has never been read. Nobody noticed for the life of the batch.
+`data/pg-column-maps/pg088.json` has a `latinOnlyLeaves` field and
+`pg-page-segments.py` skips those leaves by design. **PG 88's leaf838 is flagged
+Latin-only and is not.** Col 1617 prints about five lines of Greek — the tail of
+Doctrina I and the opening of the *Life of Dositheus*, with a Prov. ix, 9 citation
+— and only THEN Migne's italic notice *Sequentia non habentur in Græco*, after
+which the leaf runs Latin. The flag is all-or-nothing, so those five lines are
+skipped with the leaf, and Batch 1's Greek stops mid-clause at
+`…ἀλλ᾽ οὖν ἱκανὸν ἔσται`, which col 1617 completes.
 
-This is the warning already in this repo — *"a scan that skips a leaf looks
-exactly like a clean one"* — realised a second time, and it got through because
-the batch's own summary line carried the wrong number and was trusted. **Assert
-the count against the range, in the file, every batch.**
+**Before trusting the flag on any leaf: open the leaf and find where the Greek
+actually stops.** Migne's notice is the boundary, and it can fall anywhere down
+the column. Leaf 970 carries the same flag and has NOT been checked.
+
+⚠ **And a caution about auditing by arithmetic.** This defect was first written up
+as "leaf838 was never transcribed — column 1617 does not exist in our files,"
+from nothing but a file count against a leaf range. That was wrong: the count was
+right and the flag explained it. **An audit that never opens the plate can invent
+a defect as easily as it can miss one** — the same failure mode as the readings
+this prompt already warns about, pointed the other way.

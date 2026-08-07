@@ -134,32 +134,64 @@ Two of the four lost it in ways that would have survived to chunking:
 All four restored; Batch 2 now carries A B C D on all 20 leaves. Both classes are
 now one-line greps in `PG-OCR-PROMPT.md`.
 
-## ⛔ Batch 1 — leaf838 was never transcribed
+## ⛔ CORRECTION (same day): leaf838 was NOT silently dropped
 
-The same audit run over `raw/pg088/batch1/out/` found **eight leaf files for the
-nine leaves 836–844.** `leaf838.txt` does not exist. Neither do its segment
-crops: every other leaf in the batch has `leaf<n>_p<n+1>_<side>_seg1..4.png`, and
-838 has none — though `leaf838_p839_left.png`, the whole-leaf crop, **was made.**
-So the leaf was cropped, then silently skipped at segmentation and again at
-transcription.
+**An earlier version of this section, committed and pushed as `c14422e`, claimed
+that leaf838 "was never transcribed" and that "column 1617 of Dorotheus does not
+exist anywhere in our files." That was wrong, and it was wrong in the way this
+whole session has been warning about: I trusted a count instead of reading the
+plate.**
 
-leaf838 is a real harvest leaf: `data/pg-column-maps/pg088.json` gives it
-`colLeft 1617`, `greekSide left`, no `skipInHarvest`. **Its Greek is column 1617,
-and column 1617 of Dorotheus does not exist anywhere in our files.**
+`data/pg-column-maps/pg088.json` carries a `latinOnlyLeaves` field, which I did
+not read, and it names 838: *"carries the line 'Sequentia non habentur in Graeco'
+— Migne prints Latin only here."* `pg-page-segments.py` knows this and skips the
+leaf by design. Batch 1's summary line "8 columns, leaves 836–844" was therefore
+**correct**, not self-contradictory. Nine leaves, one of them without a Greek
+body, eight Greek columns.
 
-⚠ **How it hid.** `next-session-resume.md` recorded Batch 1 as "**8 columns,
-leaves 836–844**". That range is NINE leaves. The count and the range contradicted
-each other in the batch's own summary line, and the summary was trusted. This is
-the repo's own warning — *"a scan that skips a leaf looks exactly like a clean
-one"* — happening a second time, to a batch already marked done and adjudicated.
+Read off the plate (`raw/pg088/batch1/leaf838_p839_left.png`), col 1617 opens with
+the tail of Doctrina I and the beginning of the *Life of Dositheus* in Greek, and
+then Migne's own italic notice:
 
-Batch 1's band coverage is poor besides: leaf836 has none, leaf837 reads `ABCC`,
-leaf842 `ABCDA`, leaf843 `AB`.
+> *Sequentia non habentur in Græco.*
 
-**Recommendation: re-harvest Batch 1 whole, full-page.** It does not need
-patching leaf by leaf — it was cropped with the method retired on 2026-08-05 for
-losing text three ways invisibly, so all nine leaves are owed a full-page pass on
-their own account. Doing that recovers leaf838, fixes the bands, and puts Batch 1
-on the same footing as Batch 2 in one operation. It is nine leaves, the cheapest
-possible instance of the new pipeline, and it should happen **before** the 87
-remaining leaves rather than after.
+after which the leaf runs Latin.
+
+## ⚠ But the leaf is not Latin-ONLY, and that costs us five lines
+
+The map's note says "there is NO Greek to translate." **The plate says otherwise.**
+Col 1617 prints roughly five lines of Greek above the notice:
+
+> σου τῇ δεξιότητι καὶ τὸ βραχὺ παραστῆσαι, κατὰ τὸ,
+> *Δίδου σοφῷ ἀφορμήν, καὶ σοφώτερος ἔσται.* [ᵉ Prov. IX, 9.]
+> Πρότερον δὲ, ἐν συντομωτέρῳ, καὶ τὰ κατὰ τὸν μακάριον Δοσίθεον,
+> τοῦ μακαρίου ἀββᾶ Δωροθέου ἔτι ὄντος αὐτοῦ ἐν τοῖς τοῦ …
+> ἀγῶνα τῆς κατὰ Χριστὸν ὑποταγῆς ἐξανύ…
+
+**And it is continuous with leaf837.** leaf837's Greek ends
+`…ἀλλ᾽ οὖν ἱκανὸν ἔσται` — mid-clause — and col 1617 completes it: *"it will be
+enough for your skill to set forth even the little, according to the saying: Give
+occasion to a wise man and he will be wiser."* Our Batch 1 Greek therefore stops
+in the middle of a sentence, and the opening of the *Life of Dositheus* is absent.
+
+⛔ **The defect is that `latinOnlyLeaves` is ALL-OR-NOTHING.** leaf838 is not
+all-Latin; it is Greek, then Migne's notice, then Latin. The harvester skips the
+whole leaf, and five lines of real Dorotheus go with it — including a scripture
+citation (Prov. ix, 9) that rule 9 would index. The classification needs a third
+state, or a `greekEndsAt` marker, before any volume is harvested on the strength
+of it. **Leaf 970 carries the same flag and has not been checked** — its note says
+"both columns Latin," which may or may not survive the same test.
+
+## Batch 1's band coverage
+
+Poor independently of any of the above: leaf836 has no band letters at all,
+leaf837 reads `ABCC`, leaf842 `ABCDA`, leaf843 `AB`.
+
+## Recommendation
+
+Re-harvest Batch 1 whole, full-page. It was cropped with the method retired on
+2026-08-05 for losing text three ways invisibly, so all eight Greek leaves are
+owed a full-page pass on their own account; that fixes the bands in the same
+operation and is the cheapest possible shakedown of the new pipeline before it
+runs at 87. **Add leaf838's Greek head to it by hand** — the segmenter will keep
+skipping the leaf, correctly, until `latinOnlyLeaves` grows a partial state.
