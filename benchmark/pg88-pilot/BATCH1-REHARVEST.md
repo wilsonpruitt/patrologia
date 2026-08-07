@@ -427,7 +427,41 @@ END and another BEGIN on it.** The flag needs per-run spans, not a boolean, and
 **leaf 970 still carries it unchecked.**
 
 ▶ **Job: re-harvest leaf838's full Greek (Sonnet, full-page, blind).** It is one
-leaf and it is the head of the work.
+leaf and it is the head of the work. **Segments are rendered and waiting** at
+`raw/pg088/leaf838-reharvest/` (8 segs, 600 dpi, 3378×5855 trimmed) —
+reproduce with:
+
+```
+python3.11 scripts/pg-page-segments.py --pdf raw/pg088/088.pdf \
+  --map data/pg-column-maps/pg088.json --leaves 838 --out raw/pg088/leaf838-reharvest
+```
+
+⚠ The transcriber must be told the leaf has **three runs** (Greek · Latin ·
+Greek) and that run 3 opens a NEW WORK with its own Greek title block — a
+transcriber told "follow the Greek column" and nothing else will stop at the
+*Sequentia* notice, which is exactly what happened the first time.
+
+### The harvester no longer skips a "Latin-only" leaf (changed 2026-08-06)
+
+`pg-page-segments.py` **renders every leaf and warns**, instead of skipping on
+`latinOnlyLeaves`; the manifest now carries the map's claim as `latinOnlyClaim`
+so the transcriber can see the claim and refute it. Rendering a genuinely
+Latin-only leaf costs eight images; skipping a partly-Latin one costs text, and
+costs it invisibly. **This is the full-page ruling's own argument reapplied — a
+defect that must be RECOGNISED will eventually be missed** — and it is the
+mechanism, not the map entry, that lost the opening of Doctrina I. Reversible in
+one line if Wilson wants the skip back.
+
+## ✅ All nine Batch 1 column anchors are now plate-read
+
+Read off the running heads in one pass: **836** 1613 · **837** 1615 · **838**
+1617 · **839** 1619 · **840** 1621 · **841** 1623 · **842** 1625 · **843** 1627 ·
+**844** 1629. Every one **matches the Viterbi reconstruction exactly**, so the
+map's own arithmetic is confirmed across the batch and `anchorsPlateVerified`
+goes 13 → 20 entries. This retires the harvester's *"printed column N is
+INTERPOLATED — do not cite it without reading the head"* warning for all of
+Batch 1, which matters because column anchors are hard rule 1: they are the
+citation addresses.
 
 ## The other two corrections
 

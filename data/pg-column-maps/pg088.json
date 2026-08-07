@@ -6,7 +6,14 @@
  "anchorsPlateVerified": {
   "835": 1611,
   "836": 1613,
+  "837": 1615,
+  "838": 1617,
+  "839": 1619,
+  "840": 1621,
+  "841": 1623,
   "842": 1625,
+  "843": 1627,
+  "844": 1629,
   "851": 1643,
   "859": 1659,
   "865": 1659,
@@ -71,7 +78,7 @@
   974
  ],
  "latinOnlyLeaves": {
-  "838": "PARTIAL, NOT Latin-only — corrected 2026-08-06 against the plate. Col 1617 prints ~5 lines of GREEK first (the tail of Doctrina I + the opening of the Life of Dositheus, with a Prov. ix, 9 citation), continuous with leaf837's Greek which ends mid-clause at '...alla oun hikanon estai'; ONLY THEN comes Migne's italic 'Sequentia non habentur in Graeco', after which the leaf is Latin. pg-page-segments.py skips the whole leaf on this flag, so those 5 lines are NOT in our files. The flag needs a partial state or a greekEndsAt marker.",
+  "838": "WRONG TWICE, AND THE FLAG IS THE PROBLEM — corrected again 2026-08-06 against the plate (pdfPage 839, cols 1617-1618, running head 'DOCTRINA I.'). The leaf has THREE Greek runs, not one: (1) ~5 lines of Greek at the head of col 1617 — the tail of the Epistle plus the opening of the Life of Dositheus, carrying a 'c Prov. ix, 9' citation (marker c, NOT e as the head harvest recorded) — continuous with leaf837's Greek, which ends mid-clause at '...alla oun hikanon estai'; (2) then Migne's italic 'Sequentia non habentur in Graeco' and a long LATIN-ONLY stretch (the Life of Dositheus, which Migne's Greek column does not carry); (3) THEN GREEK RESUMES — the Doctrinae's own Greek title block (TOU EN AGIOIS PATROS [HMON DOROTHEOU] / DIDASKAL[IAI] / Peri apot[ages]) with its Latin twin 'SANCTI DOROTHEI ... DOCTRINA I ... De renunciatione', and then ~16 lines opening Doctrina I (\"A'. En arche hote epoiesen ho Theos ton anthropon, [B] etheto auton en to paradeiso...\") running to the foot of the column, where leaf839's Greek picks up. Band letters [A] and [B] are both on the leaf; the foot rule carries 'c Prov. ix, 9.' and 'd Gen. ii, 15.' NONE OF RUN (3) IS IN BATCH 1 — it is the Greek TITLE of the work and the opening of Doctrina I. DO NOT PATCH THIS FLAG: a boolean cannot express a leaf where a work ENDS and another BEGINS, which is exactly what happens here and is why the flag has now been wrong in two different directions. Replace it with per-run Greek spans before any volume is harvested on its strength. Leaf 970 carries the same flag and is STILL UNCHECKED.",
   "970": "both columns Latin, no Greek column — ⚠ NOT verified against the plate; leaf838 carried the same flag and proved partial (2026-08-06)."
  },
  "workEndsAt": "leaf 973 — leaf 974 (pdf p975) is GREGORIUS ANTIOCHENUS EPISCOPUS, plate-verified. Do not harvest past 973.",
@@ -112,7 +119,7 @@
    "latPurityR": 0.385,
    "sep": 0.369,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1616
   },
   {
@@ -125,7 +132,7 @@
    "latPurityR": 0.692,
    "sep": 0.124,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1618
   },
   {
@@ -138,7 +145,7 @@
    "latPurityR": 0.314,
    "sep": 0.375,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1620
   },
   {
@@ -151,7 +158,7 @@
    "latPurityR": 0.695,
    "sep": 0.409,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1622
   },
   {
@@ -164,7 +171,7 @@
    "latPurityR": 0.406,
    "sep": 0.325,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1624
   },
   {
@@ -190,7 +197,7 @@
    "latPurityR": 0.341,
    "sep": 0.32,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1628
   },
   {
@@ -203,7 +210,7 @@
    "latPurityR": 0.636,
    "sep": 0.332,
    "parityMatchesAlternation": true,
-   "verified": false,
+   "verified": true,
    "colRight": 1630
   },
   {

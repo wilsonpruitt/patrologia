@@ -119,9 +119,18 @@ def main():
             if rec.get("skipInHarvest"):
                 print(f"leaf {leaf}: duplicate re-scan, skipInHarvest — skipped")
                 continue
+            # A "Latin-only" leaf is RENDERED ANYWAY (Opus, 2026-08-06). The flag
+            # skipped leaf838 and thereby lost the Greek TITLE of the Doctrinae
+            # and the whole opening of Doctrina I — because a leaf is not
+            # Latin-only or Greek-only: Greek can stop and start again on one
+            # leaf, since a work can END and another BEGIN on it. Rendering a
+            # genuinely Latin-only leaf costs eight images; skipping a leaf that
+            # is only partly Latin costs text, and costs it invisibly. Same
+            # reasoning as the full-page ruling itself: a defect that must be
+            # RECOGNISED will eventually be missed.
             if leaf in latin_only:
-                print(f"leaf {leaf}: LATIN-ONLY per the map — no Greek to transcribe, skipped")
-                continue
+                print(f"leaf {leaf}: ⚠ flagged LATIN-ONLY in the map — RENDERED ANYWAY. "
+                      f"The flag is a claim to CHECK, not a reason to skip.")
 
             img = render(args.pdf, rec["pdfPage"], wd)
             a = np.asarray(img)
@@ -151,6 +160,7 @@ def main():
                 "columnVerified": bool(rec.get("verified")),
                 "dpi": DPI, "trimmedTo": [x0, y0, x1, y1], "pageSize": [W, H],
                 "segments": len(files), "overlapPx": args.overlap, "files": files,
+                "latinOnlyClaim": cmap.get("latinOnlyLeaves", {}).get(str(leaf)),
             }
             print(f"leaf {leaf}: col {rec['colLeft']}, Greek {rec['greekSide']:5} → "
                   f"{len(files)} segs, {page.width}x{page.height} "
