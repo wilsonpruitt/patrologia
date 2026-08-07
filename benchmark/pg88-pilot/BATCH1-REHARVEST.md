@@ -361,3 +361,103 @@ wholesale in either direction.
 **Before either batch is chunked:** read every foot rule on every leaf of Batches
 1 and 2 in full, per the leaf843 finding. That is now the blocking item, not the
 word-level queue.
+
+---
+
+# Foot rules — Batch 1 read in full (2026-08-06, Opus, 600 dpi plate)
+
+Done for all nine leaves. Three of the nine were wrong, and one of the three is
+the most consequential finding of the batch.
+
+## ⚑ THE MARKER SERIES IS A COMPLETENESS GATE — use it on every leaf
+
+PG 88 runs **two independent marker series** at the foot, and neither pass had
+noticed:
+
+- **A lettered series `a…z`, CONTINUOUS ACROSS LEAVES**, for scripture and source
+  references. It does not restart per leaf or per column; it runs to `z` and
+  wraps to `a`.
+- **A numbered series `1, 2, …` that RESTARTS ON EVERY LEAF**, for Migne's Greek
+  philological corrections (`¹ προεμηνύσαμεν.`, `² ἰᾶσθαι.`, `¹ ἀναιδείαν.`).
+
+Batch 1's letters, read off the plates: **836** `a` · **837** `b` · **838** `c d` ·
+**839** `e f g h i j k l` · **840** `m n o p q` · **841** `r s t u v` ·
+**842** `w x y z a` · **843** `b c d e` · **844** `f g`. **Unbroken.**
+
+⚑ **This makes the foot-rule job verifiable rather than merely laborious.** A gap
+in the letter sequence is proof of a missed note, and an unbroken run is proof
+there are none. It is the first self-checking instrument this pilot has had —
+apply it to Batch 2 before chunking, and to every future volume.
+
+## ⛔⛔ leaf838 — `latinOnlyLeaves` is wrong far more seriously than recorded, and **Batch 1 is missing the opening of Doctrina I**
+
+The gate found it. Letters `c` and `d` are unaccounted for between leaf837's `b`
+and leaf839's `e`, and the only leaf between them is 838 — the one flagged
+Latin-only. Opening pdfPage 839 (**running head `DOCTRINA I.`, columns 1617–1618**,
+column numbers read off the plate, not inferred) shows the whole leaf:
+
+1. the five Greek lines already harvested, ending `ἀγῶνα τῆς κατὰ Χριστὸν …`,
+   then *Sequentia non habentur in Græco.* — **the notice is true, but it covers
+   only the Epistle's remainder**;
+2. a long Latin-only stretch, `Quale enim fuerit sancti viri propositum…` — this
+   is what the flag was describing, and for this stretch it is right;
+3. **then the work's Greek title block**: `ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ [ΗΜΩΝ ΔΩΡΟΘΕΟΥ] /
+   ΔΙΔΑΣΚΑΛ[ΙΑΙ] / Περὶ ἀποτ[αγῆς]`, with its Latin twin *SANCTI DOROTHEI …
+   DOCTRINA I … De renunciatione*;
+4. **then Doctrina I opens in Greek and runs ~16 lines to the foot of the
+   column**: `Α'. Ἐν ἀρχῇ ὅτε ἐποίησεν ὁ Θεὸς τὸν ἄνθρωπον, [B] ἔθετο αὐτὸν ἐν τῷ
+   παραδείσῳ [καθὼς λέγει ἡ θεία ἁγία Γραφή] κοσμήσας ἁπάσῃ ἀρετῇ…` down to
+   `…καὶ ἐξέπεσε τοῦ κατὰ φύσιν, καὶ ἦν ἐν τῷ παρὰ-`, which is where leaf839's
+   Greek picks up.
+
+**None of §3 or §4 is in Batch 1.** That is the Greek title of the work and the
+first section of the first Doctrina — **the beginning of the text the batch
+exists to carry.** Chunked as it stands, Batch 1 would ship a work that starts
+mid-sentence in §2 of Doctrina I.
+
+Both band letters are visible on the leaf (`[A]` at the head, `[B]` in Doctrina
+I's opening), so the re-harvest gets its bands for free.
+
+⚠ **`latinOnlyLeaves` needs to die, not be patched.** It has now been wrong on
+its only tested leaf in two different ways — first "no Greek at all" (corrected
+2026-08-05), now "five lines of Greek" when the true answer is *five lines, then
+Latin, then a title block and sixteen more lines*. A leaf is not Latin-only or
+Greek-only; **Greek can stop and start again on the same leaf, because a work can
+END and another BEGIN on it.** The flag needs per-run spans, not a boolean, and
+**leaf 970 still carries it unchecked.**
+
+▶ **Job: re-harvest leaf838's full Greek (Sonnet, full-page, blind).** It is one
+leaf and it is the head of the work.
+
+## The other two corrections
+
+- **leaf839** — B's foot-rule list was close but not right. The plate prints
+  `ᵏ Jerem. ii. 30.`; B recorded a bare "Jerem. ii" and **lost the verse number**.
+  And **note `ʲ` is incomplete ON THE PLATE**: it reads `Jerem. ii,` and the next
+  marker follows directly — the numeral never printed. That is a **second
+  instance of the leaf843 `II Cor. vii` class**: Migne's own rules carry lost
+  numerals, and they must be recorded as lost, never completed from the sense.
+- **leaf841** — B recorded only the lettered line `r…v`. **There is a second foot
+  line it did not record at all**: a Greek correction note of ~5–6 characters
+  whose ink has failed on the plate. Autocontrast + threshold at 600 dpi recovers
+  nothing further; it is **unreadable from this scan**. ⚠ Add it to the list of
+  source defects wanting a non-Google digitization — it is the **sixth**.
+
+## Confirmed correct as recorded
+
+**836** (`ᵃ Matth. xix, 27.`) · **837** (`ᵇ Psal. cxviii, 96.`, keyed to the
+column's last line) · **840** (`ᵐ Psal. lxxix, 2, 3. ⁿ Psal. cxliii, 5.
+ᵒ Rom. vii, 19. ᵖ Luc. x, 19. ᑫ Gen. viii, 21.` + `¹ Γρηγόριος. ² ἰᾶσθαι.`) ·
+**842** (`w…a` + `¹ ἀναιδείαν.`).
+
+## Two corrections to markers, both settled by the series and not by the glyph
+
+- **leaf838's `ᶜ Prov. ix, 9.`** — the head harvest recorded this marker as `e`.
+  The plate prints **`c`**, and the sequence requires it.
+- **leaf844's Greek note marker is `¹`, not `ζ`.** B read the glyph as a Greek
+  zeta and flagged its own uncertainty; I first read it as `7`. Both are wrong
+  for the same reason: **the numbered series restarts on every leaf and leaf844
+  carries exactly one Greek note**, so the only possible value is `1`, and the
+  glyph (top flag + stem, no descender) is compatible. Recorded as an inference
+  from the series, which is a legitimate step — the same kind as reading the
+  facing Latin — and not as a glyph reading.

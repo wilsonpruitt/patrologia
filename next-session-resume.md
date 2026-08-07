@@ -9,8 +9,37 @@ deploy this session, both verified on the live domain, not just in the files).
 
 ### ▶ WHERE TO START
 
-1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF OF BOTH BATCHES, IN FULL.** This is
-   now the item blocking chunking, and it replaced the old "cheap win" note.
+0. ⛔⛔ **RE-HARVEST leaf838's FULL GREEK — Batch 1 is missing the opening of
+   Doctrina I.** Found 2026-08-06 by the new marker-series gate (below). pdfPage
+   839 = **cols 1617-1618, running head `DOCTRINA I.`** (read off the plate) is
+   NOT five-lines-of-Greek-then-Latin: after the Latin stretch it carries **the
+   work's Greek title block** (`ΤΟΥ ΕΝ ΑΓΙΟΙΣ ΠΑΤΡΟΣ… / ΔΙΔΑΣΚΑΛ[ΙΑΙ] / Περὶ
+   ἀποτ[αγῆς]`) **and ~16 more Greek lines opening Doctrina I** (`Α'. Ἐν ἀρχῇ ὅτε
+   ἐποίησεν ὁ Θεὸς τὸν ἄνθρωπον, [B] ἔθετο αὐτὸν ἐν τῷ παραδείσῳ…`) down to where
+   leaf839 picks up. **None of it is in the batch.** Chunked as it stands Batch 1
+   ships a work beginning mid-sentence. One leaf, Sonnet, full-page, blind; both
+   band letters are on it. ⚠ **`latinOnlyLeaves` must die, not be patched** — it
+   has now been wrong on its only tested leaf twice, in different directions.
+   **Greek can stop and start again on one leaf, because a work can END and
+   another BEGIN on it.** It needs per-run spans, not a boolean. **Leaf 970 still
+   carries it unchecked.**
+1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF, IN FULL — Batch 1 is DONE, Batch 2 is
+   not.** ⚡ **Use the gate, it makes the job verifiable:** PG 88 runs **two**
+   marker series — a **lettered `a…z` series CONTINUOUS ACROSS LEAVES** (scripture
+   refs; Batch 1 runs unbroken `a·b·cd·e-l·m-q·r-v·w-a·b-e·f g`) and a **numbered
+   series that RESTARTS EVERY LEAF** (Migne's Greek corrections). **A gap in the
+   letters is proof of a missed note; an unbroken run is proof there are none.**
+   It is the first self-checking instrument this pilot has had — it is what found
+   leaf838. Batch 1's read also fixed: leaf839 `ᵏ Jerem. ii. 30.` (B lost the
+   verse number) and its `ʲ Jerem. ii,` whose **numeral never printed** (second
+   instance of the leaf843 `II Cor. vii` class — record lost numerals as lost,
+   never complete them from the sense); leaf841 carries **a second foot line
+   neither pass recorded**, a Greek note whose ink has failed and which is
+   **unreadable at 600 dpi → 6th source defect wanting a non-Google
+   digitization**; leaf838's `Prov. ix, 9` marker is **`c`** not `e`; leaf844's
+   Greek-note marker is **`¹`** (settled by the series, not the glyph — B's `ζ`
+   and my `7` were both wrong).
+   The finding that opened this whole item still stands:
    **leaf843's rule carries FOUR notes and both passes captured only the last**
    (`ᵇ Gen. iii, 17 · ᶜ ibid. 13 · ᵈ II Cor. vii, [numeral worn off the plate] ·
    ᵉ Psal. xxvii, 9`). The footnote class is a recovery *class*, not a recovered
