@@ -52,6 +52,13 @@ Plus running-text words (`ἀλλὰ` 839, `τῶν` 840, `ἀνειδίαν` 84
 the crop pass dropped wholesale: `προεστημηνύσαμεν¹`, `ἀλλὰ χοῦ²`, `Γρηγορίας¹`,
 `ἰάσεται²`, `ἀνειδίαν ᵉ`, `ἀκτημοζύνη ζ`.
 
+⛔ **Every digit in that list is INFERRED, not read** — see "The numbered series is
+not read data" at the foot of this file. Note the repo already contradicts itself
+here: this line gives leaf840 as `¹ ²` while the resume note gives it as `3 4`,
+and `ἀνειδίαν ᵉ` / `ἀκτημοζύνη ζ` are two more guesses at the same illegible
+class. The instability was visible in our own files before the pixels were looked
+at.
+
 **leaf838's five Greek lines are harvested and plate-verified by me**, closing the
 gap where leaf837's Greek broke off mid-clause at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`:
 
@@ -792,3 +799,105 @@ which must never be completed from sense.
   ἔσται.`) yet the agent reports no inline marker in the Greek and places the `ᶜ`
   in the Latin body only. Whether Migne keys this note from the Greek as well is
   unverified — it bears on how `index-work-pg.mjs` locates the citation.
+
+---
+
+# ⛔⛔ THE NUMBERED SERIES IS NOT READ DATA — retire it as a gate (2026-08-07, Opus, 600 dpi plate)
+
+Found while starting the Batch 2 foot-rule read. **Every numbered marker on PG 88
+I have examined is a solid inkblot with no counter.** The digits `1 2 3 4 5 6 7 8`
+in the resume note are not readings. They are a sequence that was assumed and
+then fitted onto blobs.
+
+## What was measured
+
+Each marker was rendered from the PDF at 600 dpi and printed as a pixel map, so
+this is not an impression at a glance.
+
+| leaf | marker | what the pixels show | verdict |
+|---|---|---|---|
+| 839 | correction #1 | narrow vertical stroke, ~8 px wide, no counter | `1`? `l`? `i`? **not separable** |
+| 840 | correction #1 | solid rightward wedge, wide at top, no counter | **unreadable** |
+| 842 | correction | **completely solid oval, no counter anywhere** | **unreadable** |
+| 844 | correction | solid diagonal wedge, no counter | `7`? `1`? **not separable** |
+| 845 | note marker | **completely solid blob, no counter** | **unreadable** |
+| 845 | body marker | blob, one partial counter low | `8` or `6`, **not separable** |
+
+Not examined: 839 #2, 840 #2, and 841 — whose correction note is the failed-ink
+line already logged as the volume's 6th source defect.
+
+## ⚑ Why the LETTERED series survives and the numbered one does not
+
+This is the generalisable part, and it should govern every PG plate read:
+
+> **Letters are distinguished by SILHOUETTE — ascenders, descenders, hooks,
+> crossbars. Digits are distinguished by COUNTERS. When a plate over-inks, the
+> counters close first and the silhouette survives.**
+
+Measured both ways today. leaf845's `ʰ` reads cleanly (ascender + shoulder).
+leaf838's `ᶜ` was decidable at 22× against the `e` of *erit* as a same-line
+control. leaf844's `ᶠ` is **also a solid blob** — and is still legible, because
+its hook-over-stem silhouette is unmistakable. The digits have no such recourse.
+
+▶ **So the lettered `a…z` gate stands. The numbered gate does not.**
+
+## ⚠ And it undoes yesterday's correction, from inside the note that made it
+
+The resume note records the numbered series as a hard completeness gate — *"a gap
+in either is proof of a missed note; an unbroken run is proof there are none"* —
+and records the correction that established it:
+
+> I first wrote that the numbered series restarts per leaf … **only leaf845's `8`
+> could contradict it.** … rulebook 7a′ in a new dress — an inference from a
+> series is only as good as the series model … **where a series contradicts a
+> glyph, re-read the glyph at zoom before believing the series.**
+
+**leaf845's `8` is a solid oval with no counter.** The model was corrected on the
+strength of a glyph that cannot be read, in the same paragraph that lays down the
+rule against exactly that. Rulebook 7a′ was written and violated in one breath.
+
+⛔ **Do not now flip back to the per-leaf-restart model.** That would be the same
+error facing the other way. The correct statement is that **the numbered series
+cannot adjudicate anything on PG 88** — an unbroken run of illegible blobs reads
+as unbroken whatever it says, so it can neither prove nor disprove a missed note.
+
+## What changes
+
+1. **Demote the numbered series from a gate to an observation.** Record that a
+   correction note exists and transcribe its CONTENT (`Leg. σχήματος.`,
+   `ἀναίδειαν.`, `ἀκτημοσύνη.` — the content is set in normal type and is
+   perfectly legible). **Do not assign it a digit.**
+2. **Un-assert leaf844's `⁷`.** The resume note has it as a hard-won correction
+   over B's `ζ`. Neither is readable; it is a solid wedge. Both readings should
+   be withdrawn rather than one preferred.
+3. **Every existing digit in the notes is INFERRED, not read** — mark them so
+   wherever they appear.
+4. **The lettered series keeps its job**, and it has already earned it twice: it
+   caught leaf838's missing Doctrina I, and it caught leaf845's `ᵇ`-for-`ʰ`.
+5. ▶ **A correction note's marker is a place to write "marker illegible", which
+   is a fact about the source** — the same class as leaf841's failed-ink line and
+   leaf843's worn-off `II Cor.` numeral. It is not a gap to be filled from the
+   sequence. **Never complete a marker from its series** — that is the marker
+   twin of the standing rule against completing a lost numeral from the sense.
+
+## Batch 2 foot rules — where the read actually stands
+
+Started, not finished. Confirmed by eye on whole pages (not the foot alone):
+
+- **leaf847 — no notes. Confirmed**, text runs to the page bottom, blank + watermark below.
+- **leaf848 — no notes. Confirmed** against the untrimmed page bottom rendered straight from the PDF.
+- **leaf845** — `ʰ Apoc. xiv, 16.` confirmed `h`, plus the correction note `Leg. σχήματος.` whose marker is illegible (above). Both were in the record; the marker was honestly hedged there and should now be recorded as illegible outright.
+
+⚠ **A first pass at a mechanical gate failed and is recorded so it is not retried:**
+measuring ink at page BOTTOMS misses every mid-page note (leaf838's sits above the
+`Sequentia` notice), and a search for horizontal RULES finds nothing, because in
+this volume the "foot rule" is a block of small type after a gap, not a printed
+line. A line-height detector also breaks on heavily-inked leaves — it resolved
+leaf843's ~56 lines as 12, because the rows never fall below threshold.
+
+▶ **What does work: a whole-page thumbnail read to LOCATE note blocks, then a
+600 dpi crop to READ them.** Note blocks are visually obvious as a separate mass
+of small type; the eye finds them where statistics did not.
+
+▶ **Still to do: 846, 849–864.** The lettered run so far is `… 844 f g · 845 h ·
+846 i j k l m n · 850 o p q r …` with 847/848 genuinely carrying none.

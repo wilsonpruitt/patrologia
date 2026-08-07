@@ -38,6 +38,45 @@ deploy this session, both verified on the live domain, not just in the files).
    unchecked.** ⚠ Open on this leaf: Run 1 quotes Prov 9:9 *in the Greek* yet the
    marker was placed in the Latin body only — bears on how `index-work-pg.mjs`
    locates the citation.
+1. ⛔⛔ **BEFORE ANYTHING ELSE — THE NUMBERED SERIES IS NOT READ DATA. Retire it
+   as a gate (2026-08-07).** Every numbered marker on PG 88 I have put under a
+   pixel map is a **solid inkblot with no counter**: 839 #1, 840 #1, 842, 844,
+   845's note marker, and 845's body marker (that last has one partial lower
+   counter — `8` or `6`, not separable). The digits `1 2 3 4 5 6 7 8` are not
+   readings; they are a sequence assumed and then fitted onto blobs. Full table
+   and method at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`.
+   ⚑ **Why the LETTERED series survives and this one does not — govern all PG
+   plate work by it: letters are distinguished by SILHOUETTE (ascenders,
+   descenders, hooks, crossbars), digits by COUNTERS, and when a plate over-inks
+   the counters close first while the silhouette survives.** leaf844's `ᶠ` is
+   itself a solid blob and is still legible, because hook-over-stem is
+   unmistakable. `ʰ` on 845 reads cleanly. The digits have no such recourse.
+   ⚠ **And it undoes the correction recorded below.** That correction was
+   justified by "only leaf845's `8` could contradict it" — **845's marker is a
+   solid oval with no counter.** The model was corrected from a glyph that cannot
+   be read, inside the very paragraph laying down "where a series contradicts a
+   glyph, re-read the glyph." ⛔ **Do NOT flip back to the per-leaf-restart
+   model** — that is the same error facing the other way. The numbered series
+   simply cannot adjudicate anything here: an unbroken run of illegible blobs
+   reads as unbroken whatever it says. ▶ Actions: demote it to an observation
+   (record that a correction note exists and transcribe its CONTENT, which is set
+   in normal type and reads perfectly — `Leg. σχήματος.`, `ἀναίδειαν.`,
+   `ἀκτημοσύνη.` — but assign it no digit); **un-assert leaf844's `⁷`**, since
+   neither it nor B's `ζ` is readable; mark every existing digit INFERRED; and
+   **never complete a marker from its series** — the marker twin of the standing
+   rule against completing a lost numeral from the sense. **"Marker illegible" is
+   a fact about the source**, same class as leaf841's failed ink.
+   ⚠ Also retire two failed gate attempts so they are not retried: measuring ink
+   at page BOTTOMS misses mid-page notes, searching for horizontal RULES finds
+   nothing (the "foot rule" here is a block of small type after a gap, not a
+   line), and a line-height detector breaks on inked leaves — it read leaf843's
+   ~56 lines as 12. ▶ **What works: whole-page thumbnail to LOCATE note blocks,
+   600 dpi crop to READ them.**
+   ✅ Batch 2 progress this session: **847 and 848 confirmed to carry NO notes**
+   (848 against the untrimmed page bottom rendered straight from the PDF), and
+   **845's `ʰ` confirmed**. Lettered run so far: `844 f g · 845 h · 846 i j k l m
+   n · 850 o p q r …`. **Still to do: 846, 849–864.**
+
 1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF, IN FULL — Batch 1 is DONE; Batch 2 is
    STARTED, leaf845 done, 846–864 remain.** ⚑ **The gate's first act on new
    material caught a real error:** `raw/pg088/batch2-assembled/leaf845.txt`
