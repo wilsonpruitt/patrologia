@@ -81,3 +81,64 @@ every item wants the plate and the facing Latin. leaf843 is the worst leaf (95.0
 27 items) and is where to start.
 
 Nothing here is chunked. Batch 1 takes `[b: X]` band markers when it is.
+
+---
+
+# Adjudication — leaf843 (started 2026-08-06, Opus, against the 600 dpi plate)
+
+leaf843 is the worst leaf (95.0%, 19 substantive items). Several queue rows are
+alignment artifacts of one difference: `ποῦ ἐστὶ τὸ,` vs `ποῦ ἐστι τό,` split
+across three rows (only-A `τὸ,`, only-B `ἐστι`, differs `ἐστὶ`/`τό,`), and
+`Πατέρες.` vs `Πάτρες. ι'.` across three more.
+
+## Settled
+
+| item | crop (A) | full-page (B) | **verdict** | evidence |
+|---|---|---|---|---|
+| opening | `ἔβης;` | `ἔδης;` | **A — `ἔβης`** | see below |
+| `ποῦ ἐστι τὸ,` | `τὸ,` | `τό,` | **A — grave** | the omicron carries a grave before the comma, Migne's documented convention for this volume, and it is visible at zoom. B normalized it to an acute |
+| `…θεοφόροι Πάτρες.` | `Πατέρες.` | `Πάτρες.` | **B — `Πάτρες`** | no epsilon stands between τ and ρ; Latin *caeterosque deiferos Patres* |
+| section number | *lost* | `Ι᾽.` | **neither exactly — the plate prints `ι'.`** | lowercase iota + prime, against the Latin's `X.` A lost it entirely; B has it as a capital |
+
+`ἐστι`/`ἐστὶ` is immaterial — both passes read the same word and the mark after
+the iota is not separable at this resolution. Not adjudicated.
+
+## ⚑ `ἔβης` — the old caveat is now revised, and this is a point for the pipeline
+
+`BATCH1-ADJUDICATION.md` settled this reading as β and said so honestly:
+
+> `ἔβης` is **β** (`παρέβης`) — but confirmed by the Latin twin printing *ut quid
+> transgressus es?*, NOT by the glyph, which our scan cannot separate from δ.
+
+**At 600 dpi, full page, the glyph IS separable.** It is the fount's "6"-like
+beta — a left ascender with the bowl closed at lower right — and not the δ, whose
+loop carries its ascender off the top. The Latin (*Ut quid peccasti? ut quid
+transgressus es?*, visible in the facing column of the same segment) agrees.
+
+So the verdict is unchanged, but its basis is not: **the caveat was true of the
+400 dpi crop, not of the plate.** That is a distinct argument for the full-page
+pipeline from the one it was adopted on — it recovers lost text *and* it settles
+glyphs the crop could only settle by inference from the Latin. The second
+witness's δ is what the crop-grade evidence looks like, reproduced.
+
+## ⚑ `Πάτρες` / `Πάτρις` — the volume prints BOTH short forms
+
+Batch 2 established the plate prints a shortened form for `Πατέρες` at col
+1631/1632, recurring at 1636 and 1650, and that the reader who writes it long is
+normalizing. leaf843 (col 1628) is a further attestation and **the crop pass
+normalized it**, exactly as predicted.
+
+⚠ But the vowel differs: col 1632 prints **`Πάτρις`** and col 1628 prints
+**`Πάτρες`**. Both are short by one syllable against `Πατέρες`; they are not the
+same misprint twice. Record them separately and do not conform one to the other.
+
+## Not yet adjudicated on this leaf
+
+`Οὕτως`/`Οὕτω` · `καταστάσεις`/`κατάστασις` · `Ὥσπερ`/`Ὅπερ` ·
+`θέλημα.`/`θέλημα·` · `Ἄνευ`/`ἄνευ` · `Οὖν`/`Οὐ` · `οὐκ`/`οὐχ` · only-A `τις` ·
+the `Psal. XXVII, 9.` footnote recovery (B; the crop pass transcribed no footnote
+blocks at all, so this class is not really contested). Lower value than the four
+above, and each still wants the plate.
+
+**Leaves 836, 837, 839, 840, 841, 842, 844 are not started** — 38 substantive
+items between them, none worse than 98.7% agreement.
