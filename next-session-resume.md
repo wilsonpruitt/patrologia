@@ -1,165 +1,35 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ 2026-08-06 SESSION CLOSE — READ THIS BLOCK, THEN "WHERE TO START".
+## ▶▶▶▶▶ 2026-08-07 SESSION CLOSE — READ "WHERE TO START", THEN THE RUNBOOK.
 
 **Everything below this block is history.** It is still true as history, but every
 live pointer is here. Repo is **clean and in sync with origin**; migne.app is
-**deployed and verified live** (`dpl_4b1TnRLuxmmCkDEJ1U1ZzavbiTy6` + a later
-deploy this session, both verified on the live domain, not just in the files).
+**deployed and verified live 2026-08-07** (`migne-3w2xw71zh`, checked on the live
+domain, not just in the files) carrying the new `/method` disclosure.
+
+**Closed this session:** the Batch 1 word-level queue (all 39 items) · leaf838's
+re-harvest, recovering Doctrina I's opening · Wilson's ruling on the ποία, finding
+(accept and ship, caveat public — it is live on `/method`) · and the numbered
+marker series, retired as a gate because its glyphs are illegible.
 
 ### ▶ WHERE TO START
 
-0. ✅ **DONE 2026-08-07 — leaf838 IS RE-HARVESTED and Doctrina I's opening is
-   recovered.** One Sonnet agent, full-page, blind, 8 segs @600 dpi (~131k
-   tokens); result at `raw/pg088/leaf838-reharvest/leaf838.txt`, adjudication at
-   the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`. Got the Greek title
-   block + 13 lines opening Doctrina I, **and a 3-line FULL-WIDTH Greek paragraph
-   in Run 1 the crop era never had** (the Dositheus transition — failure class 2
-   from `pg-page-segments.py`'s own docstring, caught exactly as intended).
-   **Two corrections applied against the transcriber:** the marker is **`ᶜ`, not
-   `ᵉ`** (three witnesses — the crescent's aperture at 22×; the `e` of *erit*
-   three glyphs away in the same Latin line as a control; and the series, since
-   839 opens at `e`) ⚠ **and the agent's own list ran `e` then `d`, descending —
-   a note list that runs backwards is self-refuting, treat it as a
-   read-the-glyph trigger**; and **`[A]` IS on the leaf and is the GREEK
-   column's**, not the Latin's — **on this volume the band letter always sits in
-   the GUTTER and always belongs to the Greek column, and its SIDE follows the
-   column's parity** (Greek LEFT → letter follows the line; Greek RIGHT →
-   precedes it), confirmed by two same-day controls, leaf841 `D` and leaf842 `B`.
-   ⚑⚑ **AND THE BIG ONE: A NOTE IS NOT ALWAYS AT THE FOOT.** leaf838's
-   `ᶜ Prov. ix, 9.` sits **MID-PAGE**, under the short head-of-column paragraph
-   and above the `Sequentia` notice, because that is where its Greek run ends.
-   I had started a mechanical Batch 2 sweep measuring ink at page BOTTOMS and it
-   would have missed this class on every leaf where a work ends mid-page — which
-   is where new notes cluster. The same sweep found no horizontal rules anywhere,
-   because **in this volume the "foot rule" is a block of small type after a gap,
-   not a printed line.** ▶ **Scan the FULL column height for notes, never just
-   the foot.** ⚠ `latinOnlyLeaves` still a boolean, still wrong; **leaf 970 still
-   unchecked.** ⚠ Open on this leaf: Run 1 quotes Prov 9:9 *in the Greek* yet the
-   marker was placed in the Latin body only — bears on how `index-work-pg.mjs`
-   locates the citation.
-1. ⛔⛔ **BEFORE ANYTHING ELSE — THE NUMBERED SERIES IS NOT READ DATA. Retire it
-   as a gate (2026-08-07).** Every numbered marker on PG 88 I have put under a
-   pixel map is a **solid inkblot with no counter**: 839 #1, 840 #1, 842, 844,
-   845's note marker, and 845's body marker (that last has one partial lower
-   counter — `8` or `6`, not separable). The digits `1 2 3 4 5 6 7 8` are not
-   readings; they are a sequence assumed and then fitted onto blobs. Full table
-   and method at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`.
-   ⚑ **Why the LETTERED series survives and this one does not — govern all PG
-   plate work by it: letters are distinguished by SILHOUETTE (ascenders,
-   descenders, hooks, crossbars), digits by COUNTERS, and when a plate over-inks
-   the counters close first while the silhouette survives.** leaf844's `ᶠ` is
-   itself a solid blob and is still legible, because hook-over-stem is
-   unmistakable. `ʰ` on 845 reads cleanly. The digits have no such recourse.
-   ⚠ **And it undoes the correction recorded below.** That correction was
-   justified by "only leaf845's `8` could contradict it" — **845's marker is a
-   solid oval with no counter.** The model was corrected from a glyph that cannot
-   be read, inside the very paragraph laying down "where a series contradicts a
-   glyph, re-read the glyph." ⛔ **Do NOT flip back to the per-leaf-restart
-   model** — that is the same error facing the other way. The numbered series
-   simply cannot adjudicate anything here: an unbroken run of illegible blobs
-   reads as unbroken whatever it says. ▶ Actions: demote it to an observation
-   (record that a correction note exists and transcribe its CONTENT, which is set
-   in normal type and reads perfectly — `Leg. σχήματος.`, `ἀναίδειαν.`,
-   `ἀκτημοσύνη.` — but assign it no digit); **un-assert leaf844's `⁷`**, since
-   neither it nor B's `ζ` is readable; mark every existing digit INFERRED; and
-   **never complete a marker from its series** — the marker twin of the standing
-   rule against completing a lost numeral from the sense. **"Marker illegible" is
-   a fact about the source**, same class as leaf841's failed ink.
-   ⚠ Also retire two failed gate attempts so they are not retried: measuring ink
-   at page BOTTOMS misses mid-page notes, searching for horizontal RULES finds
-   nothing (the "foot rule" here is a block of small type after a gap, not a
-   line), and a line-height detector breaks on inked leaves — it read leaf843's
-   ~56 lines as 12. ▶ **What works: whole-page thumbnail to LOCATE note blocks,
-   600 dpi crop to READ them.**
-   ✅ Batch 2 progress this session: **847 and 848 confirmed to carry NO notes**
-   (848 against the untrimmed page bottom rendered straight from the PDF), and
-   **845's `ʰ` confirmed**. Lettered run so far: `844 f g · 845 h · 846 i j k l m
-   n · 850 o p q r …`. **Still to do: 846, 849–864.**
+▶▶ **GO STRAIGHT TO `benchmark/pg88-pilot/BATCH2-FOOTRULE-RUNBOOK.md`.**
+It is written to be executed cold, it carries the full leaf-by-leaf state table,
+the method, the tool, the rules and what "done" means. **You should not need
+anything else, including the rest of this file.** Items 0-2 below are DONE and
+survive only as the reasoning behind the runbook's rules.
 
-1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF, IN FULL — Batch 1 is DONE; Batch 2 is
-   STARTED, leaf845 done, 846–864 remain.** ⚑ **The gate's first act on new
-   material caught a real error:** `raw/pg088/batch2-assembled/leaf845.txt`
-   records `ᵇ Apoc. xiv, 16.` and the plate prints a clean **`ʰ`** — which is
-   what the chain from 844's `f g` predicts. That class matters more than a typo:
-   **the marker letter is what keys a note to its place in the body**, so a wrong
-   letter silently breaks the body↔note pairing hard rule 9's scripture index is
-   built on. ⚠ Batch 2 records its foot rules under **`FOOTNOTES-SKIPPED:`**, not
-   under a "Footnote block" heading — grep for both. Expect `i j k…` from 846 and
-   numbered notes from `9`. ⚡ **Use the gate, it makes the job verifiable:** PG 88 runs **two**
-   marker series — a **lettered `a…z` series CONTINUOUS ACROSS LEAVES** (scripture
-   refs; Batch 1 runs unbroken `a·b·cd·e-l·m-q·r-v·w-a·b-e·f g`) and a **numbered
-   series for Migne's Greek corrections that is ALSO CONTINUOUS** (839 `1 2` ·
-   840 `3 4` · 841 `5` · 842 `6` · 844 `7` · 845 `8`, no gaps). **A gap in either
-   is proof of a missed note; an unbroken run is proof there are none.**
-   ⚠⚠ **READ THE SERIES ACROSS THE BATCH SEAM, NOT WITHIN A BATCH.** I first
-   wrote that the numbered series restarts per leaf, built that model out of two
-   unzoomed glyph readings, and then used the model to OVERRIDE a glyph I had
-   read correctly (leaf844 `7`, which I wrongly "corrected" to `1`). Every leaf
-   in Batch 1 was individually consistent with the wrong model; only leaf845's
-   `8` could contradict it. **rulebook 7a′ in a new dress — an inference from a
-   series is only as good as the series model, and a model built from unzoomed
-   readings is the same reading twice. Where a series contradicts a glyph,
-   re-read the glyph at zoom before believing the series.**
-   It is the first self-checking instrument this pilot has had — it is what found
-   leaf838. Batch 1's read also fixed: leaf839 `ᵏ Jerem. ii. 30.` (B lost the
-   verse number) and its `ʲ Jerem. ii,` whose **numeral never printed** (second
-   instance of the leaf843 `II Cor. vii` class — record lost numerals as lost,
-   never complete them from the sense); leaf841 carries **a second foot line
-   neither pass recorded**, a Greek note whose ink has failed and which is
-   **unreadable at 600 dpi → 6th source defect wanting a non-Google
-   digitization**; leaf838's `Prov. ix, 9` marker is **`c`** not `e`; leaf844's
-   Greek-note marker is **`⁷`** (B's `ζ` was wrong; my own first reading of `7`
-   was right and I then wrongly "corrected" it — see above).
-   The finding that opened this whole item still stands:
-   **leaf843's rule carries FOUR notes and both passes captured only the last**
-   (`ᵇ Gen. iii, 17 · ᶜ ibid. 13 · ᵈ II Cor. vii, [numeral worn off the plate] ·
-   ᵉ Psal. xxvii, 9`). The footnote class is a recovery *class*, not a recovered
-   *set*, and a marker in the body is no evidence its note was captured.
-   ⚠ `ᵉ Psal. xxvii, 9` is measured as **printed** (glyph widths vs leaf837's
-   clean `cxviii`) but keys a **Ps 18:9** quotation standing in both columns of
-   that same leaf — **a crux, do not renumber, do not index to Ps 27 unflagged.**
-2. ✅ **DONE 2026-08-07 — the Batch 1 word-level queue is CLOSED.** All 12
-   remaining items adjudicated against the 600 dpi plate (leaf841 ×1 · leaf842 ×2
-   · leaf843 ×9); write-up at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`.
-   Queue tally over all 39: **crop 19 · full-page 18 · neither 2** — dead even.
-   ✅ **RULED by Wilson 2026-08-07 — ACCEPT AND SHIP, caveat stated publicly.**
-   The finding: leaf842 L53 the plate prints `Ἀπὸ ποία, δόξης` and **BOTH passes
-   printed `ποίας`** — the same silent repair, a comma read as a final sigma, and
-   they *agreed*. **A diff queue can only surface disagreements, so a shared
-   normalization is invisible to it and has the shape of two witnesses
-   confirming a reading.** No targeted third read was bought. ▶ **The disclosure
-   is written and lives in `content/editorial-method.md` §"Where we read the
-   plate ourselves"** — it names the ποία, case outright and says agreement means
-   a passage survived two readings by readers who share a reflex, not that it was
-   verified. ⛔ **NOT YET DEPLOYED — outward-facing, needs Wilson's OK.**
-   ▶ **Never quote "3,239 words agreed" or any per-leaf agreement percentage as
-   a verification rate**, here or on the site.
-   Three further findings, all in the file: **κ and χ are both x-shaped in this
-   fount and the discriminator is the DESCENDER (χ has one, κ has not)** — the
-   full-page pass got `οὐκ`→`οὐχ` wrong on two separate leaves, an instrument
-   bias, so κ/χ is a readable glyph and not an orthographic toss-up; **the
-   full-page pass MANUFACTURED A NEGATION** (`Οὖν`→`Οὐ`, leaf843 L35, Latin
-   *Igitur*) — the polarity class arising in transcription, upstream of any
-   translator, where nothing in the English would betray it; and **the crop pass
-   inserts too, toward what the Latin supplies** (`τις`, leaf843 L32, Latin
-   *quisquam*) — so the facing Latin is a required step but is NOT evidence that
-   the Greek prints a word the Latin has. Also: **stop auto-bucketing
-   `accentOnly`** — `ἐχθρᾶς` (adj.) vs `ἔχθρας` (noun) differ by accent position
-   alone, change the syntax, and never entered the queue.
-   ⚑ **Two method corrections came out of the 2026-08-06 pass and both narrow
-   the standing rule:** the **crop pass normalizes too** (leaf839: it silently
-   produced Migne's own footnote corrections without ever reading the footnotes),
-   and the **full-page pass INSERTS** (leaf840: it supplied a `τῶν` the plate has
-   not got) — so an only-in-B token is **not** self-evidently a recovery and the
-   only-in-B list may not be applied wholesale. leaf844's `αὐτημοζύνη` is held
-   **half by each pass**.
-3. **Then chunk Batches 1 and 2.** Neither is chunked. Both take `[b: X]` band
-   markers (see the ruling below). Batch 2 is 80/80 on bands; Batch 1 is 4/4 on
-   every leaf.
-4. **Then leaves 865+** — 87 remain, cols to 1844. ⛔ **HARD STOP: a batch fleet
-   needs Wilson's "which model, and go?" with real numbers.** For reference this
-   session's 8-leaf run cost ~507k subagent tokens across 5 Sonnet agents.
+**The one-line version:** Batch 2's foot-rule records were written from the
+retired column crops and several admit clipping; they must be re-read before
+either batch can be chunked. **Leaves 845, 846, 847, 848 are verified. 849-864
+are not.** Run `scripts/pg-note-sweep.py` (grid -> candidates -> crop -> glyph).
+**Opus, directly, no subagents** — reading a marker letter is adjudication, and
+it is a long single-session read rather than a fleet. Budget ~250-450k.
+
+Three gaps in the lettered series to close: `r -> u` · `z -> d` · `g -> k`.
+
+---
 
 ### ⛔ MODEL POLICY — settled, and reinforced by this session's own measurement
 **SONNET transcribes, OPUS adjudicates.** Wilson reaffirmed it 2026-08-06 when
