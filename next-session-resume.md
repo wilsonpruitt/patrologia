@@ -27,8 +27,18 @@ deploy this session, both verified on the live domain, not just in the files).
    not.** ⚡ **Use the gate, it makes the job verifiable:** PG 88 runs **two**
    marker series — a **lettered `a…z` series CONTINUOUS ACROSS LEAVES** (scripture
    refs; Batch 1 runs unbroken `a·b·cd·e-l·m-q·r-v·w-a·b-e·f g`) and a **numbered
-   series that RESTARTS EVERY LEAF** (Migne's Greek corrections). **A gap in the
-   letters is proof of a missed note; an unbroken run is proof there are none.**
+   series for Migne's Greek corrections that is ALSO CONTINUOUS** (839 `1 2` ·
+   840 `3 4` · 841 `5` · 842 `6` · 844 `7` · 845 `8`, no gaps). **A gap in either
+   is proof of a missed note; an unbroken run is proof there are none.**
+   ⚠⚠ **READ THE SERIES ACROSS THE BATCH SEAM, NOT WITHIN A BATCH.** I first
+   wrote that the numbered series restarts per leaf, built that model out of two
+   unzoomed glyph readings, and then used the model to OVERRIDE a glyph I had
+   read correctly (leaf844 `7`, which I wrongly "corrected" to `1`). Every leaf
+   in Batch 1 was individually consistent with the wrong model; only leaf845's
+   `8` could contradict it. **rulebook 7a′ in a new dress — an inference from a
+   series is only as good as the series model, and a model built from unzoomed
+   readings is the same reading twice. Where a series contradicts a glyph,
+   re-read the glyph at zoom before believing the series.**
    It is the first self-checking instrument this pilot has had — it is what found
    leaf838. Batch 1's read also fixed: leaf839 `ᵏ Jerem. ii. 30.` (B lost the
    verse number) and its `ʲ Jerem. ii,` whose **numeral never printed** (second
@@ -37,8 +47,8 @@ deploy this session, both verified on the live domain, not just in the files).
    neither pass recorded**, a Greek note whose ink has failed and which is
    **unreadable at 600 dpi → 6th source defect wanting a non-Google
    digitization**; leaf838's `Prov. ix, 9` marker is **`c`** not `e`; leaf844's
-   Greek-note marker is **`¹`** (settled by the series, not the glyph — B's `ζ`
-   and my `7` were both wrong).
+   Greek-note marker is **`⁷`** (B's `ζ` was wrong; my own first reading of `7`
+   was right and I then wrongly "corrected" it — see above).
    The finding that opened this whole item still stands:
    **leaf843's rule carries FOUR notes and both passes captured only the last**
    (`ᵇ Gen. iii, 17 · ᶜ ibid. 13 · ᵈ II Cor. vii, [numeral worn off the plate] ·

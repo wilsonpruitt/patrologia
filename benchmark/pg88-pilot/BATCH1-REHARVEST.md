@@ -377,8 +377,11 @@ noticed:
 - **A lettered series `a…z`, CONTINUOUS ACROSS LEAVES**, for scripture and source
   references. It does not restart per leaf or per column; it runs to `z` and
   wraps to `a`.
-- **A numbered series `1, 2, …` that RESTARTS ON EVERY LEAF**, for Migne's Greek
-  philological corrections (`¹ προεμηνύσαμεν.`, `² ἰᾶσθαι.`, `¹ ἀναιδείαν.`).
+- **A numbered series `1, 2, …`, ALSO CONTINUOUS ACROSS LEAVES**, for Migne's
+  Greek philological corrections. ⚠ **Corrected 2026-08-06, later the same day —
+  I first wrote that this series restarts on every leaf. It does not. See
+  "How I got the numbered series wrong" below; it is the more instructive half
+  of this finding.**
 
 Batch 1's letters, read off the plates: **836** `a` · **837** `b` · **838** `c d` ·
 **839** `e f g h i j k l` · **840** `m n o p q` · **841** `r s t u v` ·
@@ -488,10 +491,70 @@ column's last line) · **840** (`ᵐ Psal. lxxix, 2, 3. ⁿ Psal. cxliii, 5.
 
 - **leaf838's `ᶜ Prov. ix, 9.`** — the head harvest recorded this marker as `e`.
   The plate prints **`c`**, and the sequence requires it.
-- **leaf844's Greek note marker is `¹`, not `ζ`.** B read the glyph as a Greek
-  zeta and flagged its own uncertainty; I first read it as `7`. Both are wrong
-  for the same reason: **the numbered series restarts on every leaf and leaf844
-  carries exactly one Greek note**, so the only possible value is `1`, and the
-  glyph (top flag + stem, no descender) is compatible. Recorded as an inference
-  from the series, which is a legitimate step — the same kind as reading the
-  facing Latin — and not as a glyph reading.
+- **leaf844's Greek note marker is `⁷`.** B read the glyph as a Greek zeta and
+  flagged its own uncertainty. **My first reading of the glyph was `7` and it was
+  right; I then talked myself out of it with a wrong model of the series and
+  wrote `¹`. Restored to `7`** — see below.
+
+---
+
+# ⚠ How I got the numbered series wrong, and what caught it (2026-08-06)
+
+I asserted above that the numbered series **restarts on every leaf**. It does
+not: **it is continuous across leaves, exactly like the lettered one.**
+
+The sequence, re-read at high zoom after Batch 2 contradicted me:
+
+| leaf | note | glyph as printed | № |
+|---|---|---|---|
+| 839 | `προεμηνύσαμεν.` | thin vertical stem | **1** |
+| 839 | `ἀλλαχοῦ.` | small solid rectangle | **2** |
+| 840 | `Γρηγόριος.` | rounded blob, **not** a stem | **3** |
+| 840 | `ἰᾶσθαι.` | diagonal + stem | **4** |
+| 841 | *(ink failed, unreadable)* | — | **5** |
+| 842 | `ἀναιδείαν.` | solid oval, **not** a stem | **6** |
+| 844 | `Leg. ἀκτημοσύνη.` | top flag + stem, no descender | **7** |
+| 845 | `Leg. σχήματος.` | (Batch 2 read it as 8) | **8** |
+
+No gaps. leaf843 carries no numbered note, and leaf841's unreadable one is
+accounted for as №5 — so **the numbered series is a second completeness gate**,
+independent of the lettered one, and it independently confirms that leaf841 has
+exactly one note and that I did not miss any.
+
+**How the error was made, because it is a clean instance of a named failure.**
+I read leaf839's two markers correctly as `1` and `2`. I then read leaf840's two
+markers *at low zoom* and wrote them down as `1` and `2` as well — because a
+per-leaf restart was the hypothesis I had already formed from leaf839. From
+those four readings I concluded "restarts every leaf", and then used that
+conclusion to **override a glyph I had actually read correctly** on leaf844.
+The model was built out of the reading it was then used to correct. Circular,
+and it ran in the direction of tidiness both times.
+
+⚑ This is **rulebook 7a′ in a new dress** — *a crux that describes a repair does
+not make it honest; a logged column is not a checked column.* Add the numbered-
+series case to it: **an inference from a series is only as good as the series
+model, and a series model built from unzoomed readings is not evidence — it is
+the same reading twice.** Where a series contradicts a glyph, **re-read the
+glyph at zoom before believing the series.** I did that here only because
+Batch 2 forced it.
+
+**What caught it: the batch seam.** leaf845 records a note numbered `8`, which
+no per-leaf restart can produce. Nothing internal to Batch 1 would ever have
+flagged this — every leaf was individually consistent with my wrong model.
+▶ **Read the two series ACROSS the batch boundary, not within a batch.**
+
+## Batch 2 — first result from the gate
+
+**leaf845's lettered marker is `ʰ`, not `ᵇ`.** The gate predicted `h` (Batch 1
+ends at 844 `f g`) and the plate prints a clean **h** — ascender plus shoulder.
+`raw/pg088/batch2-assembled/leaf845.txt` records it as `ᵇ Apoc. xiv, 16.`
+
+**The chain holds across the seam: … 844 `f g` → 845 `h` …**, and the gate's
+first act on new material was to catch a real error in it. ⚠ This class matters
+more than an ordinary typo: **the marker letter is what keys a note to its place
+in the body**, so a wrong letter silently breaks the body↔note pairing that
+hard rule 9's scripture index is built on.
+
+▶ **Still to do: leaves 846–864's foot rules** (Batch 2 records them under
+`FOOTNOTES-SKIPPED:`, not under a "Footnote block" heading — grep for both).
+Expect `i, j, k…` from 846 and numbered notes from `9`.
