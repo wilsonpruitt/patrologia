@@ -1304,3 +1304,78 @@ ABBATIS` fires a false positive on all four.** Match on *change* between
 consecutive leaves, never on equality to an expected string. This is the same
 lesson as the note markers in a different dress: **the thing you are matching
 against is itself a printed object, and printed objects are wrong sometimes.**
+
+---
+
+# ⚡ THE LATIN TWIN IS ALREADY ON DISK — the cost estimate was wrong (2026-08-07)
+
+Wilson cleared the burn for Dorotheus. Before writing a Latin transcription
+prompt I checked how the *existing* PG Latin twins were actually made, and the
+answer changes the whole plan.
+
+**`scripts/pg-latin-twin.mjs` does not use agents at all.** It extracts Migne's
+parallel Latin column mechanically from the archive.org OCR layer
+(`raw/scans/pg<vol>/<item>_djvu.xml`), splitting word tokens by x-coordinate.
+That is how Joel, Nicetas, Glabas, Oecumenius and Antiochus got their twins.
+
+**PG 88 already has two of those files on disk**, harvested 2026-08-04:
+`raw/scans/pg088/copyA_088_djvu.xml` (72 MB) and `copyB_088_djvu.xml` (83 MB).
+
+## The asymmetry that makes it work, measured
+
+copyA, page 0970 (cols 1837–1838), first words of the Latin:
+
+> *in omni opere bono : non tamen divitibus, locupleti- **A** lius tibi est
+> mortiferam æruginem manducare, quam bus et saecularibus inultum adhæseris…*
+
+That is the text I read off the plate an hour earlier, near-verbatim — including
+the band letter `A` landing between the two columns' lines, which is exactly the
+interleaving `pg-latin-twin.mjs`'s x-split exists to undo. Its **Greek** on the
+same page is `uàvéga Xoxoi; àvzaí6azo;` for `μάνδρα λύκοις ἀνεπίβατος`.
+
+**The OCR is good at the Latin and hopeless at the Greek.** That is precisely
+why we do our own vision OCR for the Greek — and precisely why the Latin does
+not need it.
+
+## And it carries the apparatus
+
+copyA's page 0859 tail holds both of leaf859's editorial footnotes essentially
+verbatim, `(1) Cante lege : nam innuit nullo pacto haberi posse timorem
+filialem…` through `(2) Caute lege, et regreditor ad notam superiorem.` — the
+block I transcribed by hand this morning.
+
+## Two things that must be recorded before anyone uses these files
+
+**1. The two copies are NOT page-aligned, and copyB is not a second Latin
+witness.** copyA's page index equals the leaf number (verified on 969/970/971
+against plate-read running heads). **copyB is offset by +8** (its page 0859
+carries cols 1643–1644 = leaf 851) and it is a **Greek-configured** OCR — it
+renders the Latin running head `S. DOROTHEI ABBATIS` as `θΟΒΟΤΗ͂ΕΙ ΑΒΠΑΤΙΒ`.
+Diffing A against B as two Latin witnesses would produce garbage at scale.
+
+**2. The OCR is a witness, and it is wrong in this fount's known way.** copyA
+reads `quæst. 115` where the plate reads `quæst. 113`. Re-read at 12× when the
+conflict surfaced: the glyph has a flat top bar whose RIGHT end hooks down into
+the lower bowl, with white under the bar's left — this fount's flat-top `3`. A
+`5` descends on the LEFT (compare `n. 52` on the same page). **The reading
+stands at 113**, and the disagreement is logged on the note rather than
+smoothed away.
+
+⚑ **This is the fount finding earning its keep within the hour.** The 3/5 pair
+is decided by one stroke, and an OCR engine is *more* susceptible to it than a
+directed 12× read, not less. **Do not let the twin silently overwrite a
+plate-read numeral.** The twin is for the running text; the apparatus stays
+plate-read.
+
+## What this does to the plan
+
+The paired pass does **not** need a doubled agent fleet. It needs:
+
+1. `pg-latin-twin.mjs` pointed at PG 88 — a script run, once the Greek is
+   chunked (it aligns per Greek chunk, so chunking comes first).
+2. The **note markers** still plate-read, because superscript letters OCR badly
+   and are the one thing the twin cannot be trusted for — which is what this
+   morning's sweep already did for 845–864.
+
+So the real remaining cost is what it always was: **the Greek**, on 87 leaves,
+Sonnet transcribing and Opus adjudicating. The Latin comes free.

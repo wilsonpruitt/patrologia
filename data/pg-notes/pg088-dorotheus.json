@@ -17,146 +17,463 @@
   "openGap": "846 ends at n and 853 begins at u, leaving six letters (o p q r s t) — but leaf850 carries six notes and leaf851 one more, so seven notes stand in a six-letter span. One of the three illegible-marker notes (850 ×2, 851 ×1) is not in the lettered series. Deliberately unresolved; see benchmark/pg88-pilot/BATCH1-REHARVEST.md.",
   "leaves": [
     {
-      "leaf": 845, "columns": [1631, 1632],
+      "leaf": 845,
+      "columns": [
+        1631,
+        1632
+      ],
       "notes": [
-        { "marker": "h", "markerState": "read", "series": "lettered", "text": "Apoc. xiv, 16." },
-        { "marker": null, "markerState": "illegible", "series": "numbered", "text": "Leg. σχήματος." }
+        {
+          "marker": "h",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Apoc. xiv, 16."
+        },
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "numbered",
+          "text": "Leg. σχήματος."
+        }
       ]
     },
-    { "leaf": 846, "columns": [1633, 1634],
-      "notes": [
-        { "marker": "i", "markerState": "read", "series": "lettered", "text": "II Tim. ii, 4." },
-        { "marker": "j", "markerState": "read", "series": "lettered", "text": "I Cor. vii, 34." },
-        { "marker": "k", "markerState": "read", "series": "lettered", "text": "Exod. xii, 11." },
-        { "marker": "l", "markerState": "read", "series": "lettered", "text": "Coloss. iii, 5." },
-        { "marker": "m", "markerState": "read", "series": "lettered", "text": "Matth. xvi, 24, Marc. viii, 34, Luc. ix, 23." },
-        { "marker": "n", "markerState": "read", "series": "lettered", "text": "I Cor. xiv, 20." }
-      ]
-    },
-    { "leaf": 847, "columns": [1635, 1636], "notes": [] },
-    { "leaf": 848, "columns": [1637, 1638], "notes": [] },
-    { "leaf": 849, "columns": [1639, 1640], "notes": [],
-      "comment": "Checked at 600 dpi because a work boundary (DOCTRINA II / ΔΙΔΑΣΚΑΛΙΑ Β΄) sits low on this page, and a work ending mid-page is where notes cluster. There are none." },
     {
-      "leaf": 850, "columns": [1641, 1642],
+      "leaf": 846,
+      "columns": [
+        1633,
+        1634
+      ],
       "notes": [
-        { "marker": "o", "markerState": "read", "series": "lettered", "text": "II Tim. ii, 5." },
-        { "marker": "p", "markerState": "read", "series": "lettered", "text": "Psal. cx, 9." },
-        { "marker": "q", "markerState": "read", "series": "lettered", "text": "Prov. xvi, 6." },
-        { "marker": "r", "markerState": "read", "series": "lettered", "text": "Hebr. xi, 6." },
-        { "marker": null, "markerState": "illegible", "series": "unknown", "text": "Psal. xxiv, 18.",
-          "comment": "Solid oval blob, 22×28 px at 600 dpi. No counter, no ascender, no descender." },
-        { "marker": null, "markerState": "illegible", "series": "unknown", "text": "Psal. cxiv, 6.",
-          "comment": "Two stacked ENCLOSED counters — fits the digit 8 better than a letter s, whose notches open right then left; but over-inking closes an s's mouths into exactly this shape. Not separable." }
+        {
+          "marker": "i",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "II Tim. ii, 4."
+        },
+        {
+          "marker": "j",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "I Cor. vii, 34."
+        },
+        {
+          "marker": "k",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Exod. xii, 11."
+        },
+        {
+          "marker": "l",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Coloss. iii, 5."
+        },
+        {
+          "marker": "m",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Matth. xvi, 24, Marc. viii, 34, Luc. ix, 23."
+        },
+        {
+          "marker": "n",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "I Cor. xiv, 20."
+        }
+      ]
+    },
+    {
+      "leaf": 847,
+      "columns": [
+        1635,
+        1636
+      ],
+      "notes": []
+    },
+    {
+      "leaf": 848,
+      "columns": [
+        1637,
+        1638
+      ],
+      "notes": []
+    },
+    {
+      "leaf": 849,
+      "columns": [
+        1639,
+        1640
+      ],
+      "notes": [],
+      "comment": "Checked at 600 dpi because a work boundary (DOCTRINA II / ΔΙΔΑΣΚΑΛΙΑ Β΄) sits low on this page, and a work ending mid-page is where notes cluster. There are none."
+    },
+    {
+      "leaf": 850,
+      "columns": [
+        1641,
+        1642
+      ],
+      "notes": [
+        {
+          "marker": "o",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "II Tim. ii, 5."
+        },
+        {
+          "marker": "p",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Psal. cx, 9."
+        },
+        {
+          "marker": "q",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Prov. xvi, 6."
+        },
+        {
+          "marker": "r",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Hebr. xi, 6."
+        },
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "unknown",
+          "text": "Psal. xxiv, 18.",
+          "comment": "Solid oval blob, 22×28 px at 600 dpi. No counter, no ascender, no descender."
+        },
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "unknown",
+          "text": "Psal. cxiv, 6.",
+          "comment": "Two stacked ENCLOSED counters — fits the digit 8 better than a letter s, whose notches open right then left; but over-inking closes an s's mouths into exactly this shape. Not separable."
+        }
       ],
       "comment": "The record derived from the retired column crops had only o p q r; the last two fell past the crop's right edge."
     },
     {
-      "leaf": 851, "columns": [1643, 1644],
+      "leaf": 851,
+      "columns": [
+        1643,
+        1644
+      ],
       "notes": [
-        { "marker": null, "markerState": "illegible", "series": "unknown", "text": "I Cor. xiii, 4, 5.",
-          "comment": "Solid blob 18×38 px — taller than the x-height lettered markers on neighbouring leaves, so it has an ascender or is a digit, but nothing in it is readable." }
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "unknown",
+          "text": "I Cor. xiii, 4, 5.",
+          "comment": "Solid blob 18×38 px — taller than the x-height lettered markers on neighbouring leaves, so it has an ascender or is a digit, but nothing in it is readable."
+        }
       ],
       "comment": "The crop-derived record said this leaf had NO notes. It has one."
     },
     {
-      "leaf": 852, "columns": [1645, 1646],
+      "leaf": 852,
+      "columns": [
+        1645,
+        1646
+      ],
       "heading": "VARIÆ LECTIONES.",
       "notes": [
-        { "marker": null, "markerState": "illegible", "series": "numbered", "text": "Φυσικῶν. Legendum forte, φυσικῶς.",
-          "comment": "Marker is two solid blobs, 14 px and 20 px, neither with a counter. NOT '10'." }
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "numbered",
+          "text": "Φυσικῶν. Legendum forte, φυσικῶς.",
+          "comment": "Marker is two solid blobs, 14 px and 20 px, neither with a counter. NOT '10'."
+        }
       ]
     },
     {
-      "leaf": 853, "columns": [1647, 1648],
+      "leaf": 853,
+      "columns": [
+        1647,
+        1648
+      ],
       "notes": [
-        { "marker": "u", "markerState": "read", "series": "lettered", "text": "Isa. vi, 5.",
-          "comment": "Heavily inked, but the silhouette keeps two separate ink masses at the top merging into a solid body below — a filled-in u, open above. Read on silhouette, not on the series." },
-        { "marker": "v", "markerState": "read", "series": "lettered", "text": "Dan. xiv, 36." },
-        { "marker": "x", "markerState": "read", "series": "lettered", "text": "ibid. 37." },
-        { "marker": "y", "markerState": "read", "series": "lettered", "text": "Exod. iv, 10." },
-        { "marker": "z", "markerState": "read", "series": "lettered", "text": "Jerem. i, 6." }
+        {
+          "marker": "u",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Isa. vi, 5.",
+          "comment": "Heavily inked, but the silhouette keeps two separate ink masses at the top merging into a solid body below — a filled-in u, open above. Read on silhouette, not on the series."
+        },
+        {
+          "marker": "v",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Dan. xiv, 36."
+        },
+        {
+          "marker": "x",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "ibid. 37."
+        },
+        {
+          "marker": "y",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Exod. iv, 10."
+        },
+        {
+          "marker": "z",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Jerem. i, 6."
+        }
       ],
       "comment": "The crop-derived record had 'Dan. xiv, 56' and 'ibid. 57'. The plate prints 36 and 37 — the leading digit is this fount's flat-top 3, and 56/57 would also be impossible (Dan. xiv has 42 verses). The series skips w, as Latin usage requires."
     },
-    { "leaf": 854, "columns": [1649, 1650], "notes": [] },
     {
-      "leaf": 855, "columns": [1651, 1652],
+      "leaf": 854,
+      "columns": [
+        1649,
+        1650
+      ],
+      "notes": []
+    },
+    {
+      "leaf": 855,
+      "columns": [
+        1651,
+        1652
+      ],
       "notes": [
-        { "marker": "a", "markerState": "read", "series": "lettered", "text": "Gen. vi, 3." },
-        { "marker": "b", "markerState": "read", "series": "lettered", "text": "Gen. ii, 26." },
-        { "marker": "c", "markerState": "read", "series": "lettered", "text": "Gen. xxvi, 14, 13." }
+        {
+          "marker": "a",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Gen. vi, 3."
+        },
+        {
+          "marker": "b",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Gen. ii, 26."
+        },
+        {
+          "marker": "c",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Gen. xxvi, 14, 13."
+        }
       ],
       "comment": "This is where the lettered series wraps past z and restarts at a. The crop-derived record had only a clipped fragment, '4, 13.', which was the tail of the third note. Gen. xxvi, 14, 13 is printed in that order — verse 14 before 13; do not reorder."
     },
     {
-      "leaf": 856, "columns": [1653, 1654],
+      "leaf": 856,
+      "columns": [
+        1653,
+        1654
+      ],
       "notes": [
-        { "marker": "d", "markerState": "read", "series": "lettered", "text": "Osee x, 11." },
-        { "marker": "e", "markerState": "read", "series": "lettered", "text": "Matth. v, 25, 26." }
+        {
+          "marker": "d",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Osee x, 11."
+        },
+        {
+          "marker": "e",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Matth. v, 25, 26."
+        }
       ]
     },
-    { "leaf": 857, "columns": [1655, 1656], "notes": [] },
     {
-      "leaf": 858, "columns": [1657, 1658],
+      "leaf": 857,
+      "columns": [
+        1655,
+        1656
+      ],
+      "notes": []
+    },
+    {
+      "leaf": 858,
+      "columns": [
+        1657,
+        1658
+      ],
       "notes": [
-        { "marker": "f", "markerState": "read", "series": "lettered", "text": "I Joan. iv, 18." },
-        { "marker": "g", "markerState": "read", "series": "lettered", "text": "Psal. xxxiii, 10." }
+        {
+          "marker": "f",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "I Joan. iv, 18."
+        },
+        {
+          "marker": "g",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Psal. xxxiii, 10."
+        }
       ]
     },
     {
-      "leaf": 859, "columns": [1659, 1660],
+      "leaf": 859,
+      "columns": [
+        1659,
+        1660
+      ],
       "notes": [
-        { "marker": "h", "markerState": "read", "series": "lettered", "text": "Gen. xxii, 12." },
-        { "marker": "i", "markerState": "read", "series": "lettered", "text": "Psal. cx, 18.",
-          "crux": "The 18 is certain (two stacked bowls with a waist, checked at 5× and by pixel map) and 'cx,' is unambiguous — but Ps. cx (Vulg.) has only ten verses, so the reference as printed cannot resolve. Same class as leaf843's 'Psal. xxvii, 9'. Record it, check what the body quotes at marker i, log the mismatch. DO NOT RENUMBER." },
-        { "marker": "j", "markerState": "read", "series": "lettered", "text": "Prov. i, 7; ix, 10; xxii, 4." }
+        {
+          "marker": "h",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Gen. xxii, 12."
+        },
+        {
+          "marker": "i",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Psal. cx, 18.",
+          "crux": "The 18 is certain (two stacked bowls with a waist, checked at 5× and by pixel map) and 'cx,' is unambiguous — but Ps. cx (Vulg.) has only ten verses, so the reference as printed cannot resolve. Same class as leaf843's 'Psal. xxvii, 9'. Record it, check what the body quotes at marker i, log the mismatch. DO NOT RENUMBER."
+        },
+        {
+          "marker": "j",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Prov. i, 7; ix, 10; xxii, 4."
+        }
       ],
       "heading": "VARIÆ LECTIONES.",
       "variaeLectiones": [
-        { "marker": null, "markerState": "illegible", "series": "numbered",
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "numbered",
           "text": "Hoc dictum B. Antonii occurrit in Apophthegm. Patrum apud Cotelerium Eccl. Gr. Monum. tom. I, pag. 351 n. 52, ubi sic : Εἶπεν ὁ ἀββᾶς Ἀντώνιος· Ἐγὼ οὐκέτι φοβοῦμαι τὸν Θεὸν, ἀλλ᾽ ἀγαπῶ αὐτόν. Ἡ γὰρ ἀγάπη ἔξω βάλλει τὸν φόβον, Dixit abbas Antonius: Ego non amplius Deum timeo, sed diligo illum, Charitas enim foras mittit timorem.",
-          "comment": "Marker is a two-digit numeral, a rule, and a second two-digit numeral — four solid blobs, not one counter among them." }
+          "comment": "Marker is a two-digit numeral, a rule, and a second two-digit numeral — four solid blobs, not one counter among them."
+        }
       ],
       "editorialFootnotes": [
-        { "marker": "(1)", "markerState": "read",
+        {
+          "marker": "(1)",
+          "markerState": "read",
           "text": "Caute lege : nam innuit nullo pacto haberi posse timorem filialem, quin præcesserit servilis. Ordinarie quidem ita evenit in peccatoris justificatione extra sacramenta, ut habetur cap. 6 concil. Trid. At contingit interdum aliter, cum quis per sacramenta justificatur, et in subitariis et miraculosis justificationibus. Vide S. Thom. part. ii, quæst. 113, art. 7 et 10.",
-          "comment": "Set in two columns: breaks at 'per sacra-' at the foot of the left and resumes 'menta justificatur' at the head of the right." },
-        { "marker": "(2)", "markerState": "read",
+          "comment": "Set in two columns: breaks at 'per sacra-' at the foot of the left and resumes 'menta justificatur' at the head of the right.",
+          "contested": "`quæst. 113` — copyA's djvu OCR reads 115. Re-read at 12× after the conflict surfaced: the glyph has a flat top bar whose RIGHT end hooks down into the lower bowl, with white space beneath the bar's left. That is this fount's flat-top 3. A 5 descends on the LEFT under the bar — compare `n. 52` on this same page. Reading stands as 113; the OCR slip is on exactly the 3/5 pair this fount decides with one stroke. (ST I-II q.113 aa.7,10 are on the justification of the impious and whether it happens in an instant, which is the note's argument — corroboration, NOT the ground of the reading.)"
+        },
+        {
+          "marker": "(2)",
+          "markerState": "read",
           "text": "Caute lege, et regreditor ad notam superiorem.",
-          "comment": "'regreditor' is printed thus and is good Latin (future imperative of regredior). Do not normalise to regreditur." }
+          "comment": "'regreditor' is printed thus and is good Latin (future imperative of regredior). Do not normalise to regreditur."
+        }
       ],
       "comment": "The largest apparatus block in the batch, and none of it had been transcribed. Closes the g → k gap in the lettered run."
     },
     {
-      "leaf": 860, "columns": [1661, 1662],
+      "leaf": 860,
+      "columns": [
+        1661,
+        1662
+      ],
       "notes": [
-        { "marker": "k", "markerState": "read", "series": "lettered", "text": "Prov. xv, 27." },
-        { "marker": "l", "markerState": "read", "series": "lettered", "text": "Rom. viii, 35." },
-        { "marker": "m", "markerState": "read", "series": "lettered", "text": "Psal. xxxiii, 2.",
-          "crux": "Read, not inferred, and checked at 8× against 9: closed upper loop plus a detached horizontal base, which is this fount's 2 (a 9 descends and has no base). Flagged only because its neighbours run 13/14/15 and this stretch is the sort that quotes Ps. xxxiii, 9 (Gustate et videte). Check the body; if they disagree, record a crux rather than renumbering." },
-        { "marker": "n", "markerState": "read", "series": "lettered", "text": "Galat. iv, 19." },
-        { "marker": "o", "markerState": "read", "series": "lettered", "text": "Psal. xxxiii, 13." },
-        { "marker": "p", "markerState": "read", "series": "lettered", "text": "ibid. 14." },
-        { "marker": "q", "markerState": "read", "series": "lettered", "text": "ibid. 15.",
-          "comment": "Runs over to a second line at the left margin — the four-segment crop had no way to see it as part of the same block." }
+        {
+          "marker": "k",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Prov. xv, 27."
+        },
+        {
+          "marker": "l",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Rom. viii, 35."
+        },
+        {
+          "marker": "m",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Psal. xxxiii, 2.",
+          "crux": "Read, not inferred, and checked at 8× against 9: closed upper loop plus a detached horizontal base, which is this fount's 2 (a 9 descends and has no base). Flagged only because its neighbours run 13/14/15 and this stretch is the sort that quotes Ps. xxxiii, 9 (Gustate et videte). Check the body; if they disagree, record a crux rather than renumbering."
+        },
+        {
+          "marker": "n",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Galat. iv, 19."
+        },
+        {
+          "marker": "o",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "Psal. xxxiii, 13."
+        },
+        {
+          "marker": "p",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "ibid. 14."
+        },
+        {
+          "marker": "q",
+          "markerState": "read",
+          "series": "lettered",
+          "text": "ibid. 15.",
+          "comment": "Runs over to a second line at the left margin — the four-segment crop had no way to see it as part of the same block."
+        }
       ],
       "heading": "VARIÆ LECTIONES.",
       "variaeLectiones": [
-        { "marker": null, "markerState": "illegible", "series": "numbered",
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "numbered",
           "text": "Cotelerius Eccl. Gr Monum. tom. II, pag. 554, a legendum putat γνῶσις.",
-          "comment": "'Eccl. Gr Monum.' is printed without the point after Gr on this leaf (859 has 'Eccl. Gr. Monum.'). 'pag. 554' — the numerals are ink-broken; moderate confidence, the only such reading on this leaf." },
-        { "marker": null, "markerState": "illegible", "series": "numbered",
+          "comment": "'Eccl. Gr Monum.' is printed without the point after Gr on this leaf (859 has 'Eccl. Gr. Monum.'). 'pag. 554' — the numerals are ink-broken; moderate confidence, the only such reading on this leaf."
+        },
+        {
+          "marker": null,
+          "markerState": "illegible",
+          "series": "numbered",
           "text": "Χερονίζων. χρονίζων.",
-          "comment": "The correction breaks across the line as 'χροντ-' / 'ζων.'" }
+          "comment": "The correction breaks across the line as 'χροντ-' / 'ζων.'"
+        }
       ],
       "comment": "The crop-derived record had only k l m n and misread two verse numbers as 'Prov. xxx, 27' and 'Rom. viii, 55'."
     },
-    { "leaf": 861, "columns": [1663, 1664], "notes": [],
-      "comment": "The crop-derived record admitted clipping here ('falls outside the bottom edge of segment 8'). Now closed against the untrimmed page bottom: nothing below the body but blank paper and the watermark." },
-    { "leaf": 862, "columns": [1665, 1666], "notes": [] },
-    { "leaf": 863, "columns": [1667, 1668], "notes": [] },
-    { "leaf": 864, "columns": [1669, 1670], "notes": [],
-      "comment": "No notes, verified. ⚠ This does not clear the leaf: batch2-pages/manifest.json stops at 863, so leaf864's BODY has still never been read full-page." }
+    {
+      "leaf": 861,
+      "columns": [
+        1663,
+        1664
+      ],
+      "notes": [],
+      "comment": "The crop-derived record admitted clipping here ('falls outside the bottom edge of segment 8'). Now closed against the untrimmed page bottom: nothing below the body but blank paper and the watermark."
+    },
+    {
+      "leaf": 862,
+      "columns": [
+        1665,
+        1666
+      ],
+      "notes": []
+    },
+    {
+      "leaf": 863,
+      "columns": [
+        1667,
+        1668
+      ],
+      "notes": []
+    },
+    {
+      "leaf": 864,
+      "columns": [
+        1669,
+        1670
+      ],
+      "notes": [],
+      "comment": "No notes, verified. ⚠ This does not clear the leaf: batch2-pages/manifest.json stops at 863, so leaf864's BODY has still never been read full-page."
+    }
   ]
 }
