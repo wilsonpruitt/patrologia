@@ -211,3 +211,153 @@ seven turned on the **facing Latin**, one of them producing a new crux.
 **The footnote-recovery class (8 items) is not really contested**: the crop pass
 transcribed no footnote blocks at all, so every one is a recovery by B. They want
 a single confirming look at each block, not an adjudication apiece.
+
+*(All of the above is now superseded by the block below, except where it says so.)*
+
+---
+
+# Adjudication continued — leaves 836, 837, 839, 840, 842, 844 (2026-08-06, Opus, 600 dpi plate)
+
+Twenty further substantive items settled against the plate, plus the footnote
+class. **The footnote class turned out NOT to be the free win it was billed as** —
+see leaf843 below.
+
+## leaf836 (col 1613) — five items
+
+| item | crop (A) | full-page (B) | **verdict** | evidence |
+|---|---|---|---|---|
+| first word of the leaf | `μέλων·` | `ῥέων·` | **B — `ῥέων`** | the initial glyph carries a descender below the baseline: **ρ**, not μ. A mis-saw the very first word of the crop — the edge failure mode exactly |
+| line 1, before `[A]` | `δι᾽` | `διὰ` | **B — `διὰ`** | a full alpha with grave is printed, though the next word (`ἐρωτήσεως`) begins with a vowel and elision is what a reader expects. A normalized to the elided form |
+| after `…ψυχικὴν λυσιτέλειαν.` | `»` | *lost* | **A — the mark is printed** | a standalone filled crescent, ink-merged but unmistakably a mark and not noise, closing the quotation from Theodore before `Ἰδοὺ τοίνυν` |
+| `…τῆς ἀρετῆς …` | `ἐλάσειε·` | `ἐλάσεις·` | **A — `ἐλάσειε`** | the final letter is an epsilon, no descender/hook of a final sigma; and the optative is what the sentence wants |
+| `κτόνων κεφαλὰς πατεῖν …` | `ὄφεων` | `ὄρεων` | **A — `ὄφεων`** | a clean phi, stroke through the bowl. Cf. Luke 10:19. The earlier note's guess was right; it is now verified |
+| footnote | *none transcribed* | `ᵃ Matth. xix, 27.` | **B — confirmed on the plate** | sole note at the foot of the Greek column |
+
+## leaf837 (col 1615) — four items
+
+| item | crop (A) | full-page (B) | **verdict** | evidence |
+|---|---|---|---|---|
+| `…χρησάμενος, ——` | `συναλο-` | `συνολο-` | **B — `συνολο-`** | omicron, read at zoom |
+| `μαραίνει τῇ ῥίζῃ ▯` | `ῥίζῃ,` | `ῥίζῃ.` | **B — a period is printed** | the mark is compact and round with **no descending tail**; Migne's comma in this fount descends visibly (compare `βλαστήματα,` four words later). ⚠ Sense wants a comma. Not emended |
+| `…εὕρισκεν, ▯ ἑαυτὸν` | `ἀόκνως` | `ἀόχνως` | **A — `ἀόκνως`** | kappa, not chi; and it is the real word |
+| `εἰ καὶ μὴ ▯ εὐγνώμων` | `προαιρέσεις` | `προαίρεσις` | **B — `προαίρεσις`** | singular, agreeing with `εὐγνώμων` |
+| footnote | *none transcribed* | `ᵇ Psal. cxviii, 96.` | **B — confirmed** | and it **keys to the Greek column's last line**, `Πλατεῖα ἡ ἐντολή σου σφόδρα` — the quotation is on the plate directly above |
+
+## leaf839 (col 1619) — ⚑ the crop pass silently applied Migne's own footnote corrections
+
+Two items, and they are the same item twice.
+
+| item | crop (A) | full-page (B) | **verdict** |
+|---|---|---|---|
+| `ἐχθρῶν ἐπαναστάσεις …` | `προεσημηνύσαμεν,` | `προεστημηνύσαμεν¹,` | **B** |
+| `Ὥσπερ καὶ … λέγει` | `ἀλλαχοῦ` | `ἀλλὰ χοῦ²` | **B** |
+
+The plate prints `προεστημηνύσαμεν` with a superscript ¹, and prints `ἀλλὰ χοῦ`
+as two units with a ² between them. Both are read at zoom. The foot-of-column
+notes give the corrections `¹ προεμηνύσαμεν.` and `² ἀλλαχοῦ.`
+
+⚑ **A had arrived at a corrected body text without ever reading the footnotes**
+(the crop pass transcribed no footnote blocks at all). It construed each odd
+printed form into the nearest real word — and Migne's own note proves the printed
+form was odd. **This is normalization in the CROP pass**, which the session's
+standing finding attributes to the full-page reader. Restate the finding: *both*
+instruments normalize; the full-page reader normalizes across a page it can see,
+the crop reader normalizes a word it can construe.
+
+Note A's `προεσημηνύσαμεν` is a **third** form — neither the plate's nor the
+note's. A plausible Greek word invented at the point of damage.
+
+`Β'.` vs `Β΄.` is a prime-character convention, not a plate reading: use `Β'.`,
+matching `Λ'.` on leaf836. Not adjudicated as a witness question.
+
+## leaf840 (col 1621) — ⚑ the full-page pass INSERTED a word
+
+| item | crop (A) | full-page (B) | **verdict** | evidence |
+|---|---|---|---|---|
+| `ἀλλὰ καὶ ἐξ αὐτῶν ▯ παθῶν` | *(nothing)* | `τῶν` | **A — no `τῶν` is printed** | the plate reads `ἐξ αὐτῶν παθῶν`, one space, no article |
+| `ὁ ἅγιος Γρηγορίας ▯` | *no marker* | `Γρηγορίας¹` | **B** | superscript ¹ present; the Γ prints with its arm lost (reads nearly as `Ι`) |
+| `τὸ ὅμοιον ἰάσεται ▯` | *no marker* | `ἰάσεται²` | **B** | corroborated by the note `² ἰᾶσθαι.` at the foot — a correction with no marker to key to is not a thing Migne prints |
+| `…πον γενόμενος ▯` | `γενόμενος` | `γενόμενος·` | **B** | raised dot printed |
+| `…καταδουλωθέντα τῇ ἁμαρτίᾳ ▯` | `ἁμαρτίᾳ` | `ἁμαρτίᾳ·` | **B** | raised dot printed |
+
+⚑ **`τῶν` reverses a working assumption.** Until now every only-in-B token has
+been a recovery — the crops lost words, the full page found them. This one is the
+opposite: B **supplied the expected article** where the plate has none. A token
+present only in the full-page pass is therefore not self-evidently a recovery,
+and the only-in-B list may not be applied wholesale.
+
+## leaf842 (col 1625) — two more normalizations by the full-page pass
+
+| item | crop (A) | full-page (B) | **verdict** | evidence |
+|---|---|---|---|---|
+| `ταπεινὴν ▯ ἐν αὐτῇ τῇ καρδίᾳ` | `γεγομένην` | `γιγνομένην` | **A — `γεγομένην` as printed** | γ-ε-γ-ο-μ-έ-ν-η-ν at zoom; there is no `ιγν`. B normalized to the real word |
+| `ὁ Θεὸς ἰδὼν τὴν ▯ ἐκείνην` | `ἀνειδεῖαν` | `ἀνειδίαν ᵉ` | **split: A's letters + B's marker → `ἀνειδεῖαν ᵉ`** | the plate reads α-ν-ε-ι-δ-ε-ι-α-ν, and the superscript ᵉ after it is real |
+
+## leaf844 (col 1629) — ⚑ an item **neither** pass got right
+
+| item | crop (A) | full-page (B) | **verdict** |
+|---|---|---|---|
+| `παρθενία καὶ ▯` | `ἀκτημοζύνη·` | `αὐτημοσύνη ζ·` | **NEITHER — the plate prints `αὐτημοζύνη`** + a superscript marker + `·` |
+| `οὐκ ἔστιν ἐν-/▯` | `ταλλομένου,` | `τελλομένου,` | **A — `ταλλομένου`** |
+
+`αὐτημοζύνη` is the sharpest item in the batch. **A read the ζ and missed the
+αὐτη-; B read the αὐτη- and mistook the ζ for a footnote marker.** Each pass
+held half the reading. The foot-of-column note `Leg. ἀκτημοσύνη` corrects *both*
+errors at once, which is itself the corroboration: a note correcting two letters
+implies a body printing two wrong letters. Later on the same leaf the correct
+`ἀκτημοσύνην` stands unremarked.
+
+`ταλλομένου` is a second α-for-ε misprint by Migne, normalized by B.
+
+⚑ **A fifth attestation of the `Πάτρες` crux**, found in passing and not in the
+diff at all (both passes read it, so it never surfaced): leaf844 prints
+`οἱ Πάτρες` in running text. Register it with 1628 `Πάτρες` and 1632 `Πάτρις`.
+
+## ⚠ leaf843's footnotes — the "uncontested recovery" class was NOT uncontested
+
+The re-harvest note said the footnote class was 8 straight recoveries by B wanting
+one confirming look apiece. The look found something else. **leaf843's foot rule
+carries FOUR notes and B transcribed only the last:**
+
+> `ᵇ Gen. iii, 17.  ᶜ ibid. 13.  ᵈ II Cor. vii, [?].  ᵉ Psal. xxvii, 9.`
+
+Three of the four were lost by **both** passes. The class is a recovery *class*,
+not a recovered *set* — every footnote rule on every leaf of both batches needs
+reading in full before chunking, and a marker in the body is not evidence that
+its note was captured.
+
+Two further findings on that rule:
+
+- **`ᵈ II Cor. vii, …` — the verse numeral is GONE FROM THE PLATE.** All that
+  survives is the top serif of a digit and the following period; the right-hand
+  end of this rule is worn. Record it as a lost numeral, not as a reading.
+- **`ᵉ Psal. xxvii, 9` — measured, and it is what is printed**, against the
+  expectation. Glyph widths (x≈23, v≈23, i≈11 px, against `cxviii` on leaf837's
+  well-inked rule where x=24, v=27, i=10–12) fit `xxvii` (5 glyphs, 136 px) and
+  not `xviii` (which would measure ~124 px with three final uprights; only two
+  are present). ⚠ **But the verse it keys is Ps 18:9 Vulg.** — the plate quotes
+  it in both columns on this very leaf (`ἡ ἐντολὴ γὰρ Κυρίου τηλαυγὴς φωτίζουσα
+  ὀφθαλμούς` / *Mandatum enim Dei lucidum, oculos illuminans*). Ps 27:9 is
+  *Adjutor meus esto*, which is not this text. **Record as a crux — Migne's own
+  numeral appears to be wrong. Do not silently renumber it, and do not index it
+  to Ps 27 without the flag.**
+
+## Running tally — still no dominant witness
+
+Across the 27 items adjudicated so far: **crop 12 · full-page 13 · neither 2.**
+The shapes hold and have gained two: the full-page pass normalizes (`γεγομένην`,
+`τελλομένου`, `ὄρεων`, `ἐλάσεις`) **and now also supplies** (`τῶν`); the crop
+pass mis-sees isolated words (`μέλων`, `παρακλήσεως`) **and now also
+construes-to-correct** (`προεσημηνύσαμεν`, `ἀλλαχοῦ`). Neither may be applied
+wholesale in either direction.
+
+## Still not adjudicated
+
+- leaf841: `οὕτως`/`οὕτω` (1).
+- leaf842: `οὐκ`/`οὐχ` (line 21) · `ἦλθες`/`ἦλθες·` (line 53).
+- leaf843: the 9 lower-value orthographic/punctuation items listed above.
+- leaf839: `Β'.`/`Β΄.` — settled as a convention, not read off the plate.
+
+**Before either batch is chunked:** read every foot rule on every leaf of Batches
+1 and 2 in full, per the leaf843 finding. That is now the blocking item, not the
+word-level queue.
