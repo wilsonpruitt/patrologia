@@ -142,3 +142,72 @@ above, and each still wants the plate.
 
 **Leaves 836, 837, 839, 840, 841, 842, 844 are not started** — 38 substantive
 items between them, none worse than 98.7% agreement.
+
+---
+
+# Adjudication continued — leaves 836, 837 (2026-08-06, Opus, 600 dpi plate)
+
+## leaf836 — the section number, and a Greek/Latin divergence nobody had recorded
+
+| item | crop (A) | full-page (B) | **verdict** |
+|---|---|---|---|
+| section number after the Epistle heading | `Λ'.` | `Α'.` | **A — `Λ'.`** |
+
+At zoom the glyph is a clean **lambda**: two strokes to an apex, open at the
+foot, **no crossbar**. An alpha in this fount carries a visible bar between the
+legs. `BATCH1-ADJUDICATION.md`'s ruling ("`Λ'.` is lambda") is confirmed, and
+B's `Α'.` is a normalization toward the expected "section 1".
+
+⚑ **But the facing Latin prints `1.`** — *"1. Laudare cogor propositum…"*, against
+the Greek's `Λ'.` (= 30). Read off the same segment, both columns. This is a
+genuine **Greek/Latin divergence on the plate** and it has not been recorded
+anywhere: it is Pattern 16 `[lat:]` material, not an error to be fixed. The
+heading above it is *Ἐπιστολὴ πρὸς τὸν αἰτήσαντα ἀδελφὸν πεμφθῆναι αὐτῷ τοὺς
+εὑρεθέντας λόγους τοῦ ὁσίου Πατρὸς ἡμῶν Δωροθέου* — the Epistle prefixed to the
+discourses, whose first section the Latin numbers 1 and the Greek numbers 30.
+**Do not reconcile them.** Record the divergence and let the translation carry a
+`[lat:]`.
+
+## leaf837 — one to each pass, on the same two lines
+
+The plate reads:
+
+> …τό τι βαρὺ τῆς **παρακοῆς** ὑφορώμενος, καὶ τὸ τῆς **ὀκνη-**
+> **ρίας** δεδοικὼς ἐπιτίμιον…
+
+| item | crop (A) | full-page (B) | **verdict** |
+|---|---|---|---|
+| `τῆς …ῆς ὑφορώμενος` | `παρακλήσεως` | `παρακοῆς` | **B — `παρακοῆς`** |
+| line-end before `ρίας` | `ὀκνη-` | `ἐπιτ-` | **A — `ὀκνη-`** |
+
+`παρακοῆς` (disobedience) is on the plate letter for letter, and the sense
+carries it: *"fearing something grievous from disobedience, and dreading the
+penalty of sloth"* — he is explaining why he writes at all. A's `παρακλήσεως`
+(consolation) is a different word and not what is printed.
+
+B's `ἐπιτ-` is simply the wrong word: it has taken `ἐπιτίμιον`, which stands four
+words later on the next line. **B's own UNCERTAIN block flagged this reading as
+low-confidence and asked for a fresh zoom** — the transcriber doubted itself
+correctly, which is the behaviour the prompt is trying to buy.
+
+## Running tally — neither pass dominates, as predicted
+
+Across the seven items adjudicated so far: **crop 4 · full-page 2 · neither 1.**
+The Batch 2 cross-check's finding holds on Batch 1 too, and in the same shapes —
+the full-page pass normalizes (`Πατέρες`→ no, `Α'.` for `Λ'.`, `τό,` for `τὸ,`),
+the crop pass mis-sees isolated words (`παρακλήσεως`, `Πατέρες`). Two of the
+seven turned on the **facing Latin**, one of them producing a new crux.
+
+## Remaining
+
+- leaf843: 9 lower-value items (orthographic and punctuation).
+- leaf836: `μέλων·`/`ῥέων·` (seg1) · `δι᾽`/`διὰ` (seg1) · `ἐλάσειε·`/`ἐλάσεις·`
+  (seg3) · `ὄφεων`/`ὄρεων` (seg7 — likely `ὄφεων`, cf. Luke 10:19 *πατεῖν ἐπάνω
+  ὄφεων*, but **unverified**) · the `ᵃ Matth. xix, 27.` footnote.
+- leaf837: `συναλο-`/`συνολο-` · `ῥίζῃ,`/`ῥίζῃ.` · `ἀόκνως`/`ἀόχνως` ·
+  `προαιρέσεις`/`προαίρεσις` · the `ᵇ Psal. cxviii, 96.` footnote.
+- leaves 839 (4), 840 (5), 841 (1), 842 (5), 844 (3) — untouched.
+
+**The footnote-recovery class (8 items) is not really contested**: the crop pass
+transcribed no footnote blocks at all, so every one is a recovery by B. They want
+a single confirming look at each block, not an adjudication apiece.
