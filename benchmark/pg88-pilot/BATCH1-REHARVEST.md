@@ -1207,3 +1207,22 @@ string will fire a false positive there. Match on *change*, not on equality to
 
 Leaves 969 and 970 plate-read from the heads: **969 → 1835, 970 → 1837.**
 `anchorsPlateVerified` now stands at **40**.
+
+---
+
+## Evidence for open flag #2 (the `Λ΄` vs `1.` crux at col 1613) — NOT a resolution
+
+Recorded while reading leaf970, because it will not be in front of anyone again
+soon. **At col 1837 the *Epistolae ad diversos* open with the Greek numbering
+its first letter `Α΄.` and the facing Latin numbering it `I.` — they agree.**
+
+That is the same structural place as the col 1613 crux, where the Greek numbers
+the Epistle's first section `Λ΄.` (30) against the Latin's `1.` — and **`Λ` and
+`Α` differ by one stroke in this fount.**
+
+⛔ **This does not settle col 1613 and must not be used to.** It is a different
+epistle series, and reconciling a reading from a parallel passage is the exact
+move the standing rule forbids. What it does is make the col 1613 divergence
+*anomalous* rather than ordinary: Migne's normal practice, measured here, is for
+the two columns to agree at a first section. Whoever adjudicates col 1613 should
+weigh that, re-read the glyph, and record — not reconcile.
