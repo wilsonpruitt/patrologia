@@ -1379,3 +1379,102 @@ The paired pass does **not** need a doubled agent fleet. It needs:
 
 So the real remaining cost is what it always was: **the Greek**, on 87 leaves,
 Sonnet transcribing and Opus adjudicating. The Latin comes free.
+
+---
+
+# THE EPISTOLAE PILOT — leaves 970–973, run and measured (2026-08-07)
+
+Wilson's "go". Four Sonnet transcribers, one per leaf, on full-page 600 dpi
+renders, against `PG-OCR-PROMPT.md` with two deliberate deviations: **the
+apparatus was transcribed rather than skipped** (these leaves had never been
+swept, and the notes are the scripture index's only source), and **leaf970 was
+told only that it was partial, never where or what** — the structural fact
+without the answer.
+
+## ⛔ THE COST, WHICH IS WHAT THE PILOT WAS FOR
+
+| leaf | Greek words | subagent tokens | tool calls |
+|---|---|---|---|
+| 970 | 88 | 115.3k | 49 |
+| 971 | 415 | 132.8k | 56 |
+| 972 | 379 | 95.7k | 18 |
+| 973 | 159 | 131.8k | 73 |
+| **total** | **1,041** | **475.6k** | 196 |
+
+**~119k per leaf. My estimate was 250–300k for the batch; it came in at 476k.**
+The 2026-08-06 reference was ~63k/leaf, and the difference is almost entirely the
+apparatus requirement — the added foot-rule scan roughly doubles per-leaf cost.
+
+⛔ **This re-prices the fleet. 87 leaves × ~119k ≈ 10.4M tokens for transcription
+alone**, against the ~5.5M projected from the old per-leaf figure — before Opus
+adjudication. **The 87-leaf run needs Wilson's number re-confirmed against 10M,
+not 5.5M.** Caveat in both directions: these four leaves are unusually awkward (a
+partial leaf, a work boundary, two index pages), so ordinary running-prose leaves
+may run cheaper — but nothing here licenses assuming so.
+
+## What the leaves turned out to be
+
+- **The Epistolae text is much smaller than the registry implies.** It occupies
+  leaf970's **D band only** (col 1837 changes script partway down), all of
+  leaf971, and the upper part of leaf972 — closing at
+  `…εὐχαῖς πάντων τῶν ἁγίων. Ἀμήν.`
+- **Then a printed rule, then `INDEX CAPITUM`**, running to the end of leaf973.
+- `data/pg-works.json` gives `Epistolae 1838–1844`. The Greek begins in col
+  **1837** and the epistles end in **1842**; 1843–1844 are index.
+- Band letters land exactly as a column-based scheme predicts: leaf970 `[D]`
+  alone, 971 `[A][B][C][D]`, 972 `[A][B][C][D]`, 973 `[A][B]` (short page).
+
+## ⚑ FINDING 1 — bands belong to the COLUMN, not to the script
+
+leaf970's transcriber recorded `[D]` in the Greek and then doubted itself,
+reasoning the `A B C` it had seen higher up "belonged to the facing Latin
+column". They belonged to **the same column it was transcribing**: col 1837 runs
+the full page height, Latin above the rule and Greek below, and its four bands
+distribute down that whole height. So `A B C` fall in the Latin stretch and `D`
+in the Greek. Verified on a gutter strip.
+
+**Put this in `PG-OCR-PROMPT.md`:** on a partial leaf the band letters do not
+restart when the script changes. A transcriber that "corrects" a band letter by
+script assignment will drop a citation address, and nothing downstream detects it.
+
+## ⚑ FINDING 2 — MIGNE'S INDEX IS A WITNESS TO WHICH DOCTRINAE HAVE GREEK
+
+The `INDEX CAPITUM`'s **Greek column lists 23 entries and stops**
+(`Ἑρμηνεία ἑτέρα τῶν ῥητῶν τοῦ Γρηγορίου, διδασκ. ΚΓ΄`). Its **Latin lists 24**,
+the last set off by a blank line: `Sermo novissimus de compositione ecclesiastici
+ordinis, doct. XXIV.`
+
+**Migne records in his own front matter that Doctrina XXIV is Latin-only.** That
+explains leaf970's Latin-in-both-columns upper stretch — it is not column
+balancing, the Greek does not exist.
+
+▶ **This is the cheapest structural evidence in the volume and it is already in
+hand.** Read the whole index before planning the 87-leaf harvest: it tells you
+which Doctrinae have Greek *before* a leaf of them is transcribed. It is
+transcribed at `raw/pg088/epistolae/out/leaf973.txt` (⚠ index entries, never to
+be aligned to a text chunk).
+
+## ⛔ FINDING 3 — I MADE THE 7a′ ERROR MYSELF, WITHIN THE HOUR
+
+leaf970's transcriber reported the upper Latin as *"the tail end of a different,
+**Greek-less** work (a run of short monastic maxims)."* I overrode the
+"different work" half by inference — leaf969 shows Doctrina XXIV beginning, so I
+called it the tail of the Doctrinae and told Wilson the agent's reading was
+"reasonable and wrong."
+
+**Then leaf973's index came in on the agent's side.** Greek-less was correct.
+And "a different work" is more defensible than I allowed: Migne himself sets
+XXIV apart with a blank line and a different title formula, and it is the only
+Doctrina with no Greek at all.
+
+**I corrected a direct structural observation using an inference from a
+neighbouring leaf.** That is rulebook 7a′ exactly — *an inference from a series
+or a parallel is not a reading* — committed by the adjudicator, against the
+transcriber, within an hour of my writing the rule up two sections above.
+
+⚑ **The generalisation, and it is not comfortable: the adjudication step is not
+privileged.** Opus adjudicates because it is better at weighing evidence, not
+because its inferences outrank a transcriber's eyes. **Where a transcriber
+reports what it SAW and the adjudicator answers with what it INFERRED, the
+transcriber wins until the plate says otherwise.** Nothing in the pipeline
+enforced that today except the index turning up by luck.

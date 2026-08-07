@@ -43,6 +43,7 @@
     "969": 1835,
     "970": 1837,
     "971": 1839,
+    "972": 1841,
     "973": 1843
   },
   "rescanBoundariesPlateVerified": [
@@ -1972,13 +1973,13 @@
     },
     "970": {
       "state": "partial",
-      "tested": "plate, 600 dpi, 2026-08-07 — the first time this leaf was ever looked at",
+      "tested": "plate, 600 dpi, 2026-08-07 — layout found independently by the leaf-970 transcriber without being told, then confirmed against Migne's index on leaf 973.",
       "columns": [
         1837,
         1838
       ],
       "runs": [
-        "Upper ~65% of the leaf: LATIN in both columns — the tail of the Doctrinae, closing 'sæculorum. Amen.'",
+        "Upper ~65% of the leaf: LATIN in both columns — the tail of DOCTRINA XXIV, 'Sermo novissimus de compositione ecclesiastici ordinis' (monastic precepts closing 'Ipsi gloria et potestas in sæcula sæculorum. Amen.'). ⚑ Doctrina XXIV IS LATIN-ONLY, and Migne's own INDEX CAPITUM says so: its Greek column lists 23 entries and stops, its Latin column lists 24. This is not column-balancing — the Greek does not exist.",
         "Then a full-width title block: 'SANCTI DOROTHEI ABBATIS / EPISTOLÆ AD DIVERSOS.'",
         "Then the leaf resumes two columns with GREEK ON THE LEFT: 'Α΄. — Πρὸς ἀδελφὸν στενοχωρούμενον ὑπὸ πειρασμοῦ. / Πρῶτον μὲν, τέκνον, οὐκ οἴδαμεν τὰς οἰκονομίας τοῦ Θεοῦ, καὶ ὀφείλομεν παραχωρεῖν αὐτῷ τὴν διοί-…', facing Latin 'I. — Ad fratrem tentationibus oppressum. / Primo quidem, fili, nescimus Dei dispensationem…'"
       ],
@@ -2100,5 +2101,11 @@
       "_rule": "⛔ At least four distinct misprints of the author string. A work-boundary detector that greps the running head for a constant 'DOROTHEI ABBATIS' will fire false positives on all four. MATCH ON CHANGE, NOT ON EQUALITY."
     },
     "epistolaeStartColumn": "⚠ data/pg-works.json gives the Epistolae as 1838-1844. The plate puts the title block on leaf970 (cols 1837/1838) and the Greek of Ep. Α΄ in the LEFT column, which is 1837. So the Epistolae's Greek begins mid-column 1837, not at 1838. Recorded, not silently corrected."
+  },
+  "indexCapitum": {
+    "where": "Begins on leaf 972 (col 1841/1842) below a printed rule, continues to leaf 973 (cols 1843/1844), where the work's printed matter ends.",
+    "what": "Migne's bilingual table of contents for the Doctrinae — Greek titles left/right per leaf parity, Latin facing.",
+    "⚑ WHY IT MATTERS": "THE INDEX IS A WITNESS TO WHICH DOCTRINAE HAVE GREEK, and it can be read before harvesting a single leaf of the work. Its Greek column runs to 'Ἑρμηνεία ἑτέρα τῶν ῥητῶν τοῦ Γρηγορίου, διδασκ. ΚΓ΄' (23) and stops; the Latin runs one further to 'Sermo novissimus de compositione ecclesiastici ordinis, doct. XXIV', set off by a blank line. So Migne records, in his own front matter, that Doctrina XXIV is Latin-only. Read the whole index before planning the 87-leaf harvest — it is the cheapest structural evidence in the volume and it is already transcribed at raw/pg088/epistolae/out/leaf973.txt.",
+    "caution": "leaf973's Greek is INDEX ENTRIES, not running prose. It must never be aligned to a Greek text chunk."
   }
 }
