@@ -1027,3 +1027,99 @@ see a note that wraps to a second line at the left margin (leaf860's `ᵠ`), can
 see past its own right edge (leaf850's last two), and cannot see a block it did
 not enclose (leaf851's only note). **A note is not a word: it lives at the page's
 edges by design, which is exactly where a crop is blind.**
+
+---
+
+## ⛔⛔ THE FINDING THAT OUTRANKS THE SWEEP: PG 88's NOTES KEY TO THE LATIN, AND THE GREEK CARRIES NO MARKER AT ALL
+
+Found while scoping the chunk, 2026-08-07, immediately after the sweep. **This
+governs how Dorotheus can be chunked, and it was not known in this form.**
+
+**No superscript marker appears anywhere in the Greek running text of any leaf
+transcribed so far** — not in Batch 1, not in Batch 2, not in leaf838's
+re-harvest. Every one of Migne's lettered notes keys to a superscript letter in
+the **LATIN** column. Five transcribing agents said so independently and
+unprompted, on five different leaves:
+
+- leaf836 — *"No footnote-marker superscript is visible on the Greek text at
+  `Ἰδοὺ ἡμεῖς…`; the Latin carries superscript `ᵃ` on `te`."*
+- leaf837 — *"No footnote-marker superscript is visible on the Greek text
+  `Πλατεῖα ἡ…`; the Latin carries superscript `ᵇ` on `nimis`."*
+- leaf838 (re-harvest, under its own heading `INLINE FOOTNOTE MARKERS IN THE
+  GREEK TEXT`) — *"None. The two superscript markers found on this leaf both key
+  to the LATIN column's text, not the Greek."*
+- leaf845 — *"a scripture citation keyed to a superscript `b` in the Latin body
+  text (after `dominantium Dominus ᵇ`)."*
+- leaf846 — *"all Latin scripture citations keyed to superscript letters in the
+  Latin body text; none of it is Greek."*
+- leaf856 — *"two scripture-citation notes keyed to superscript letters in the
+  Latin column (not in the Greek body)."*
+
+A grep of the transcribed Greek confirms it mechanically: the only bracketed
+tokens in any leaf's body are the four band letters `[A] [B] [C] [D]`.
+
+### Why this matters more than it looks
+
+**Nothing was lost in transcription.** The Greek column has no apparatus keys
+because Migne did not put any there. That is a fact about the plate, and it
+means the standing worry — that our OCR ate the markers — is answered: there
+were none to eat.
+
+**But it also means the Greek chunks cannot carry `[n:]` markers**, and hard
+rule 9 builds the scripture index from exactly those. The 43 notes gathered
+today are real, located, and now committed at `data/pg-notes/pg088-dorotheus.json`
+— and there is nothing in the Greek to attach them to.
+
+**It generalises the leaf838 open question into a rule.** The runbook lists as
+item 5: *"Run 1 quotes Prov 9:9 in the Greek, yet the marker was placed in the
+Latin body only. Bears on how `index-work-pg.mjs` locates a citation whose text
+stands in both columns."* That is not a leaf838 oddity. **It is how the whole
+volume is set**, and the question it raises is not about one citation's location
+but about whether this work's apparatus is reachable at all without the Latin.
+
+**It converts the Latin twin from a QA instrument into the load-bearing carrier
+of the apparatus.** `pg-paired-pilot.md` already rules "no twin, no translation",
+on polarity grounds. Dorotheus needs the twin for a second and independent
+reason: **the note layer lives there and nowhere else.** PG 88 has no twin yet.
+
+### What this does to the road
+
+The runbook has chunking as item 2, blocked only by the foot rules. The foot
+rules are now read — but chunking is **not** thereby a mechanical run. It needs
+a decision that has not been made:
+
+> **Where do 43 leaf-keyed notes go, when the text being chunked has no place to
+> key them?**
+
+Three options, none of them free, and this is Wilson's call because it touches
+hard rule 9:
+
+1. **Chunk manifest metadata.** Chunks carry `notes[]` per column; the
+   translating agent places `[n:]` in the ENGLISH from the Latin twin. Matches
+   the pipeline already established ("PG notes are harvested from the English —
+   a PG work's Greek source has no note layer") and needs no schema change to
+   the Greek chunks. **Still needs the twin**, or the translator is placing a
+   note by guess.
+2. **Harvest the Latin twin first, chunk-aligned, and key the notes there.**
+   Correct, expensive, and it is the pilot spec's own logic carried through.
+3. **Chunk the Greek now and attach the apparatus later.** Cheapest, and it is
+   the option that quietly ships a work whose citations are not indexed —
+   precisely what rule 9 exists to prevent ("index from day one", never a
+   retroactive pass).
+
+⚠ **Do not pick one of these by starting to write code.** The sweep's whole
+value is that the notes are now known; spending it on a chunk that cannot hold
+them would be the expensive mistake.
+
+## Bonus, gathered because the plates were already open
+
+**All twenty Batch 2 column anchors are now plate-read**, from the running heads
+at 600 dpi: 845→1631 … 864→1669, every one matching the map. `anchorsPlateVerified`
+goes **20 → 38**, and the interpolated-column warning is retired for the whole
+Batch 2 span, as it already was for Batch 1.
+
+⚑ **leaf863 (col 1667) misprints the running head: the plate reads `S. DOROPHEI
+ABBATIS`** — a P where every other leaf has T. Verified at 600 dpi against the
+T in `ABBATIS` on the same line. Recorded in the map under `plateNotes`. It is
+not a text defect, but **any check that identifies a leaf by grepping its
+running head for `DOROTHEI` will silently miss this one.**
