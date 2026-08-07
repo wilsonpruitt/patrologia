@@ -353,10 +353,14 @@ wholesale in either direction.
 
 ## Still not adjudicated
 
-- leaf841: `οὕτως`/`οὕτω` (1).
-- leaf842: `οὐκ`/`οὐχ` (line 21) · `ἦλθες`/`ἦλθες·` (line 53).
-- leaf843: the 9 lower-value orthographic/punctuation items listed above.
-- leaf839: `Β'.`/`Β΄.` — settled as a convention, not read off the plate.
+✅ **ALL CLOSED 2026-08-07** — see "Word-level adjudication CLOSED" at the foot of
+this file. The 12 below were settled against the plate, and the pass turned up two
+items the diff never surfaced (one of which says the diff itself under-reports).
+
+- leaf841: `οὕτως`/`οὕτω` (1). → **A, `οὕτως`**
+- leaf842: `οὐκ`/`οὐχ` (line 21) · `ἦλθες`/`ἦλθες·` (line 53). → **A** · **B**
+- leaf843: the 9 lower-value orthographic/punctuation items listed above. → 5 A, 4 B
+- leaf839: `Β'.`/`Β΄.` — settled as a convention, not read off the plate. *(still a convention, not a reading)*
 
 **Before either batch is chunked:** read every foot rule on every leaf of Batches
 1 and 2 in full, per the leaf843 finding. That is now the blocking item, not the
@@ -558,3 +562,131 @@ hard rule 9's scripture index is built on.
 ▶ **Still to do: leaves 846–864's foot rules** (Batch 2 records them under
 `FOOTNOTES-SKIPPED:`, not under a "Footnote block" heading — grep for both).
 Expect `i, j, k…` from 846 and numbered notes from `9`.
+
+---
+
+# Word-level adjudication CLOSED — the last 12 items (2026-08-07, Opus, 600 dpi plate)
+
+All 12 outstanding items on leaves 841, 842 and 843 are settled against the
+plate. **The Batch 1 word-level queue is now empty.** Two further items were
+found that the queue had never surfaced, and one of them is the most important
+result of this pass.
+
+## The 12
+
+| leaf | item | crop (A) | full-page (B) | **verdict** | evidence |
+|---|---|---|---|---|---|
+| 841 | L43 | `οὕτως` | `οὕτω` | **A** | final sigma clearly printed after ω |
+| 842 | L21 | `οὐκ` | `οὐχ` | **A** | κ, no descender — see the fount note below |
+| 842 | L53 | `ἦλθες` | `ἦλθες·` | **B** | an ano teleia is printed, at mid-height, between `ἦλθες` and `αἰσχύνην` |
+| 843 | L7 | `Οὕτως` | `Οὕτω` | **A** | final sigma printed |
+| 843 | L23 | `καταστάσεις` | `κατάστασις` | **B** | `-σις`; Latin *quo status noster pervenerit*, singular |
+| 843 | L26 | `Ὥσπερ` | `Ὅπερ` | **A** | capital Ω with rough breathing, unmistakable at zoom |
+| 843 | L28 | `θέλημα.` | `θέλημα·` | **A** | the round dot sits on the BASELINE; the ano teleia in this fount sits at mid-height (control: `Μάρκος ·` eight lines below) |
+| 843 | L32 | only-A `τις` | — | **B** | nothing stands between `δύναται` and `ὑποταγῆναι` |
+| 843 | L34 | `Ἄνευ` | `ἄνευ` | **B** | lowercase α, at the x-height of the following ν ε υ |
+| 843 | L35 | `Οὖν` | `Οὐ` | **A** | ν clearly printed; Latin *Igitur si…* |
+| 843 | L54 | `οὐκ` | `οὐχ` | **A** | κ, no descender; χ of `εὐχερῶς` three letters later descends well below baseline |
+| 843 | foot | *(none)* | `Psal. XXVII, 9.` | **B** | uncontested class — the crop pass transcribed no footnote blocks at all. Already recorded as a crux (it keys a Ps 18:9 quotation); **do not renumber, do not index to Ps 27 unflagged** |
+
+## ⚑ The fount note that makes κ/χ decidable — and a systematic bias it exposes
+
+**In this fount κ and χ are BOTH x-shaped and have no vertical stem.** That is why
+they are confused. The discriminator is not the body of the letter:
+
+> **χ descends below the baseline. κ does not.**
+
+At 600 dpi that is unambiguous, and there is usually a control on the same line
+(842 L21 has `χαρῆναι` four words along; 843 L54 has `εὐχερῶς` immediately after).
+
+⚠ **The full-page pass got `οὐκ` → `οὐχ` wrong on two different leaves.** That is
+an instrument bias, not a slip, and it means `οὐκ`/`οὐχ` must stop being treated
+as an orthographic toss-up: **it is a readable glyph, and the plate decides it.**
+Note also that B's `οὐχ` before `οἶδε` and before `εὐχερῶς` — both smooth
+breathings — is not even a smoothing toward correctness. It is simply wrong.
+
+## ⚑ The full-page pass MANUFACTURED A NEGATION
+
+leaf843 L35. The plate prints `ἀρετήν. **Οὖν** διὰ τῆς συντριβῆς…`, Migne's Latin
+prints *Igitur si per dolorem cordis intelligit quis mandata Dei…*. **B dropped
+the ν and produced `Οὐ`** — turning an inferential particle into a negative at
+the head of the sentence that carries the paragraph's whole conclusion.
+
+This is the **polarity class appearing in TRANSCRIPTION, upstream of translation**.
+Everything in `reference_polarity-sweep-and-silent-repairs` assumes the negation
+was lost between a correct Greek text and the English. Here it would have been
+*created* before any translator saw it — and a translator working from that text
+would have rendered the inversion faithfully, with nothing in the English to
+betray it. ▶ **Add κ/χ and `Οὖν`/`Οὐ` to whatever the transcription QA becomes.**
+
+## ⚑ The crop pass INSERTS TOO — and it inserts what the Latin supplies
+
+leaf843 L32: A reads `οὐ δύναταί τις ὑποταγῆναι`; the plate has no `τις`. The
+facing Latin reads *Neque enim parere **quisquam** divinæ justitiæ… potest*.
+
+So the standing shape needs correcting again. It was: *full-page normalizes, crop
+invents at edges.* Then leaf840 showed the full-page pass inserting (`τῶν`). Now
+the crop pass inserts as well — and **the insertion is toward the sense the Latin
+supplies**. ⛔ Sharpened rule:
+
+> **Both witnesses insert, and both insert toward the Latin. So the facing Latin
+> is a REQUIRED adjudication step and is NOT evidence that the Greek prints a word
+> the Latin has** — Migne's translator supplies subjects the Greek leaves implicit,
+> and that is precisely the gap a reader hallucinates into.
+
+## ⛔⛔ THE RESULT OF THIS PASS: agreement between the two witnesses is NOT evidence
+
+leaf842 L53. Both passes print `Ἀπὸ ποίας δόξης`. **The plate prints
+`Ἀπὸ ποία, δόξης`** — an alpha, then a comma. Verified at 8× against the final
+sigma of `δόξης` and `εἰς` on the same line: the ς is a two-part glyph with an
+upper bowl at x-height; the mark after `ποία` is a thin tapered stroke starting
+at the baseline and descending. They are not the same glyph.
+
+Both readers dropped Migne's comma and supplied a sigma, because `ποίας δόξης`
+is what the grammar wants. **They made the same repair, silently, and agreed.**
+
+▶ **The diff-based adjudication queue is structurally blind to this.** It can
+only ever surface DISAGREEMENTS. A shared normalization is invisible to it, and
+worse, it reads as a confirmed reading — two independent witnesses concurring.
+Every "3,239 words agreed by two independent passes" figure in this file needs
+that caveat: agreed ≠ verified.
+
+⚠ **This is rulebook 7a′ once more, one level up.** A logged column is not a
+checked column; a crux that describes a repair does not make it honest; and now:
+**a word two passes agree on has not been read — it has been read twice by
+readers with the same bias.**
+
+## ⚑ The `accentOnly` bucket is not safe on this corpus
+
+leaf843 L26 never entered the queue: A reads `τῆς ἐχθρᾶς τοῦ Θεοῦ ὑπερηφανίας`,
+B reads `τῆς ἔχθρας`. The differ is accent POSITION only, so the diff bucketed it
+out — but `ἐχθρᾶς` is the adjective (gen. fem., agreeing with `ὑπερηφανίας`) and
+`ἔχθρας` is the noun. **A is right**, and Migne's Latin settles it: *superbiam…
+ac Deo **nimis infensam*** — an adjective agreeing with the pride, not a second
+noun. The pride hostile to God, not the enmity of God.
+
+▶ **Stop auto-bucketing `accentOnly`.** In Greek, accent position distinguishes
+parts of speech, and this corpus is full of the pairs that do it.
+
+## Running tally — 39 items, and still no dominant witness
+
+| | crop (A) | full-page (B) | neither |
+|---|---|---|---|
+| first 27 | 12 | 13 | 2 |
+| these 12 | 7 | 5 | 0 |
+| **queue total (39)** | **19** | **18** | **2** |
+| off-queue finds | +1 (`ἐχθρᾶς`) | 0 | +1 (`ποία,`) |
+
+Dead even after 41 readings. **Neither pass may be applied wholesale in either
+direction**, and the two off-queue items say the diff never had the whole story.
+
+## What this closes and what it opens
+
+✅ **CLOSED: the Batch 1 word-level queue.** Nothing outstanding.
+⛔ **OPENED, and it is Wilson's call:** if two agreeing witnesses can share a
+silent repair, then the ~3,239 "agreed" words of Batch 1 are not verified, only
+concurred-on. Options are (a) accept it and ship, recording the caveat on the
+method page; (b) a targeted third read of the highest-risk classes only
+(punctuation adjacent to case endings, κ/χ, accent-position pairs); (c) a full
+third witness. (b) is the proportionate one, and `ποία,` was found inside a class
+(a comma mistaken for a final sigma) that a targeted pass could actually cover.

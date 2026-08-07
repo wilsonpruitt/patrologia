@@ -65,10 +65,31 @@ deploy this session, both verified on the live domain, not just in the files).
    ⚠ `ᵉ Psal. xxvii, 9` is measured as **printed** (glyph widths vs leaf837's
    clean `cxviii`) but keys a **Ps 18:9** quotation standing in both columns of
    that same leaf — **a crux, do not renumber, do not index to Ps 27 unflagged.**
-2. **Finish the Batch 1 word-level adjudication — 12 items left**, itemized by
-   leaf and segment at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`
-   (leaf841 ×1 · leaf842 ×2 · leaf843 ×9). 27 are done; tally **crop 12 ·
-   full-page 13 · neither 2**. Opus work.
+2. ✅ **DONE 2026-08-07 — the Batch 1 word-level queue is CLOSED.** All 12
+   remaining items adjudicated against the 600 dpi plate (leaf841 ×1 · leaf842 ×2
+   · leaf843 ×9); write-up at the foot of `benchmark/pg88-pilot/BATCH1-REHARVEST.md`.
+   Queue tally over all 39: **crop 19 · full-page 18 · neither 2** — dead even.
+   ⛔⛔ **But it opened one thing, and it is Wilson's call:** leaf842 L53 the plate
+   prints `Ἀπὸ ποία, δόξης` and **BOTH passes printed `ποίας`** — same silent
+   repair, a comma read as a final sigma, and they *agreed*. **A diff queue can
+   only surface disagreements, so a shared normalization is invisible to it and
+   reads as a confirmed reading.** "3,239 words agreed by two independent passes"
+   means concurred-on, not verified. Options: (a) accept + record the caveat on
+   /method, (b) targeted third read of the high-risk classes only (punctuation
+   adjacent to case endings · κ/χ · accent-position pairs), (c) full third
+   witness. **(b) is the proportionate one.**
+   Three further findings, all in the file: **κ and χ are both x-shaped in this
+   fount and the discriminator is the DESCENDER (χ has one, κ has not)** — the
+   full-page pass got `οὐκ`→`οὐχ` wrong on two separate leaves, an instrument
+   bias, so κ/χ is a readable glyph and not an orthographic toss-up; **the
+   full-page pass MANUFACTURED A NEGATION** (`Οὖν`→`Οὐ`, leaf843 L35, Latin
+   *Igitur*) — the polarity class arising in transcription, upstream of any
+   translator, where nothing in the English would betray it; and **the crop pass
+   inserts too, toward what the Latin supplies** (`τις`, leaf843 L32, Latin
+   *quisquam*) — so the facing Latin is a required step but is NOT evidence that
+   the Greek prints a word the Latin has. Also: **stop auto-bucketing
+   `accentOnly`** — `ἐχθρᾶς` (adj.) vs `ἔχθρας` (noun) differ by accent position
+   alone, change the syntax, and never entered the queue.
    ⚑ **Two method corrections came out of the 2026-08-06 pass and both narrow
    the standing rule:** the **crop pass normalizes too** (leaf839: it silently
    produced Migne's own footnote corrections without ever reading the footnotes),
