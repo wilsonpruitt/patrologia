@@ -1,128 +1,127 @@
 # Next session — resume note
 
-## ▶▶▶▶ 2026-08-06 — THE RECOMMENDED DECISION BELOW IS DONE. TWO NEW GATES OWED.
+## ▶▶▶▶▶ 2026-08-06 SESSION CLOSE — READ THIS BLOCK, THEN "WHERE TO START".
 
-**Steps 1 and 2 of the block below are complete** (`f602593`, `f04da41`).
-✅ **DEPLOYED + VERIFIED LIVE 2026-08-06** (Wilson's OK, `dpl_4b1TnRLuxmmCkDEJ1U1ZzavbiTy6`,
-aliased to migne.app; gates green first). Verified on the live site, not just in
-the file: work page **and cruces page** both 200, `/scripture/` reads **3,469
-citations across 98 works**, Antiochus's four links are there (1×`#c1424`,
-3×`#c1425`) and all four `id="c14xx"` anchors exist on the page they point at,
-the restored *laura* gloss renders with `class="notecite prose wraps"`, and the
-old truncated wording is gone from the live HTML.
-**31 commits UNPUSHED on master** — push still owed and still protected.
+**Everything below this block is history.** It is still true as history, but every
+live pointer is here. Repo is **clean and in sync with origin**; migne.app is
+**deployed and verified live** (`dpl_4b1TnRLuxmmCkDEJ1U1ZzavbiTy6` + a later
+deploy this session, both verified on the live domain, not just in the files).
 
-**1. `index-work-pg.mjs` no longer hardcodes `scripture: []`.** The parser moved
-to `scripts/lib/citations.mjs`; both indexers import it and cannot drift. PG
-notes are harvested from the **English** — a PG work's Greek source has no note
-layer, so the English is the only file in which a PG citation exists. Antiochus's
-four citations index (`Isa.57.1` @1424; `Wis.3.4-3.6`, `Matt.7.14`, `Acts.14.21`
-@1425); site index 3,464 → 3,469. Regression: 91/91 PL indexes byte-identical.
-Two more bugs fixed alongside — every PG scripture link would have **404'd**
-(`build-scripture-index.mjs` slugs from the Latin title, a PG page from
-`titleEn`), and its corrections key read `d.textIdno`, which a PG work has not
-got. Also regenerates 48 stale PL indexes; four carried real drift.
+### ▶ WHERE TO START
 
-**2. The Antiochus repairs are applied**, every reading off the 600 dpi renders
-in `raw/pg089/audit-pages/segs/` rather than trusted from the audit — which
-mattered: **col 1421 carries no `[A]`** (its top band is the full-width title
-block), and **the letter's side follows the column's parity** (it follows its
-line on a Greek LEFT column, precedes on a Greek RIGHT one). Three footnotes
-restored, seven marginals placed, and the English *laura* gloss re-rendered — it
-was a translation of the truncated footnote and had lost the reason for its
-simile. Full write-up in `benchmark/pg88-pilot/AUDIT-ANTIOCHUS.md`.
+1. **Finish the Batch 1 adjudication — ~30 items, all itemized by leaf AND
+   segment** in `benchmark/pg88-pilot/BATCH1-REHARVEST.md`. Seven are done. This
+   is Opus work and it is the only thing blocking Batch 1 from being chunked.
+   ⚡ **Cheap win first:** 8 of the ~30 are footnote recoveries and are **not
+   contested** — the crop pass transcribed no footnote blocks at all, so each is
+   a straight recovery by the full-page pass. One confirming look per block
+   clears all 8.
+2. **Then chunk Batches 1 and 2.** Neither is chunked. Both take `[b: X]` band
+   markers (see the ruling below). Batch 2 is 80/80 on bands; Batch 1 is 4/4 on
+   every leaf.
+3. **Then leaves 865+** — 87 remain, cols to 1844. ⛔ **HARD STOP: a batch fleet
+   needs Wilson's "which model, and go?" with real numbers.** For reference this
+   session's 8-leaf run cost ~507k subagent tokens across 5 Sonnet agents.
 
-### ⛔ OWED — two things, in this order
+### ⛔ MODEL POLICY — settled, and reinforced by this session's own measurement
+**SONNET transcribes, OPUS adjudicates.** Wilson reaffirmed it 2026-08-06 when
+offered the override, and the Batch 2 cross-check independently reproduced the
+reason: a full-page reader NORMALIZES, and continuity CAUSES that rather than
+curing it. Do not put Opus on primary transcription without an explicit override.
 
-**(a) DEPLOY, Wilson's per-action OK.** `cd site && npx vercel --prod
---archive=tgz`. Gates already green: `verify-english-pg` 2/2, polarity **98/98**,
-`scan-nowrap-apparatus` clear, `build-cruces` page present. Smoke-test the
-**cruces** URL, not just the work URL.
+### What shipped and is LIVE
+- **The PG scripture index was hardcoded empty and is fixed.** Parser lifted to
+  `scripts/lib/citations.mjs`; both indexers import it and cannot drift (91/91 PL
+  indexes re-run byte-identical). PG notes are harvested from the **English** —
+  a PG work's Greek source has no note layer. Antiochus's 4 citations index;
+  site 3,464 → **3,469**. Two latent bugs fixed with it: every PG scripture link
+  would have **404'd** (PG pages slug from `titleEn`, not the Latin title), and
+  the corrections key read `d.textIdno`, which a PG work has not got.
+- **Antiochus repairs** — 3 footnotes restored, 7 marginals placed, the English
+  *laura* gloss re-rendered (it had lost the reason for its simile). Two audit
+  claims corrected from the plate: **col 1421 carries NO `[A]`** (its top band is
+  the title block) and **the band letter's side follows the column's parity**.
+- **A torn-marker defect, live on `sermo-iii`** — a multi-sentence marker just
+  before a column anchor was being cut in half by `sentenceRows()`, so the head
+  shipped as literal `[ed: …` and the tail as bare prose in the author's voice
+  ending on a stray `]`. Fixed; **`scripts/scan-raw-markers.mjs` is the new gate**
+  and reads BUILT HTML. Run it before every deploy. It scans work pages only —
+  cruces pages and /method/ quote the vocabulary legitimately.
 
-**(b) ⚠⚠ WILSON'S CALL, BEFORE DOROTHEUS IS CHUNKED — PG anchor granularity.**
-No marginal band letter survives chunking **anywhere in the PG corpus**
-(`grep '\[[A-D]\]' src/greek/*/*.md` → nothing), including the two columns the
-audit passed as correct. Nothing builds `src/greek/` from `src/pg-greek-ocr/`.
-PL writes the band **into** the anchor — `[0473A]` — which is what makes
-`migne.app/pl/139/473a` a citation address under hard rule 1. PG chunks carry a
-bare `[1425]`, so **every PG citation address is column-level where every PL one
-is band-level.** Banding PG changes the scheme for all seven shipped works (page
-anchors `#c1425` → `#c1425a`, seven index files, the chunker, external links).
-**Decide it before chunking Dorotheus's 87 leaves, not after** — retroactive
-anchor passes are exactly what rule 9 exists to avoid.
+### ⚑ THE METHOD FINDING OF THE SESSION — do not let this be forgotten
+**The two witnesses fail in OPPOSITE directions, and neither may be presumed the
+winner.** Measured twice now: Batch 2's cross-check (full-page 3 · crop 4 · 1
+unsettled) and Batch 1's adjudication so far (crop 4 · full-page 2 · 1 neither).
 
-**✅ BATCH 2 CROSS-CHECK DONE 2026-08-06** →
-`benchmark/pg88-pilot/BATCH2-CROSSCHECK.md`. 34 verdicts fall on the 8 full-page
-leaves; 19 agree, 6 unchecked (one-char punctuation calls), **9 disagreed** and
-all nine were re-read at 600 dpi against the facing Latin.
+- A **full-page** read NORMALIZES — every loss is a smoothing: a form conformed to
+  the same phrase eight lines above, a name conformed to its LXX spelling, a verb
+  conformed to its pair, `Α'.` for `Λ'.`, `τό,` for `τὸ,`.
+- A **crop** read INVENTS AT EDGES and mis-sees isolated words — it cannot compare
+  a doubtful letter with the same letter elsewhere on the page.
 
-⚠⚠ **THIS FILE'S OWN EXPECTATION — "the full-page read is the better witness and
-should win" — IS WRONG.** Full-page won 3, the crop adjudication won 4, one
-unsettled, one was never a disagreement. **The two witnesses fail in OPPOSITE
-directions:** a full-page read NORMALIZES (all four of its losses were smoothings
-— a form conformed to the same phrase eight lines above, a name conformed to its
-LXX spelling, a verb conformed to its pair, a footnote LETTER read as a digit),
-because a transcriber following text across a page reads for sense and sense is
-what smooths a variant away — the same failure that ruled Opus out as primary
-transcriber, and **continuity causes it rather than curing it**. A crop read
-invents at edges and mis-sees isolated glyphs, because it cannot compare a
-doubtful letter with the same letter elsewhere on the page. So full-page is the
-better instrument for RECOVERING LOST TEXT and the worse one for SETTLING A
-CONTESTED GLYPH. Both folded into `PG-OCR-PROMPT.md`.
+So full-page is the better instrument for RECOVERING LOST TEXT and the worse one
+for SETTLING A CONTESTED GLYPH. ⛔ **The facing LATIN is now a REQUIRED step** in
+adjudication — it decided 3 of Batch 2's 4 hardest calls and 2 of Batch 1's 7.
 
-⚠ **The facing LATIN decided three of the four hardest calls** (*permittimus*,
-*spernatur*, *Habacuc*). Now a REQUIRED step in the adjudication prompt.
+⚑ **New, and it argues for the pipeline:** at 600 dpi full-page the `ἔβης`/`ἔδης`
+glyph IS separable (the fount's "6"-like beta). `BATCH1-ADJUDICATION` had said
+our scan "cannot separate it from δ" — **true of the 400 dpi crop, not of the
+plate.** The full-page pass settles glyphs the crop could only settle by
+inference from the Latin.
 
-Three corrections applied to `raw/pg088/batch2-assembled/` (`ἀτιμασθῇ`,
-`σεαυτόν;`, `Ἀββακοὺκ,`); four cruces recorded. **Batch 2 is now ready to chunk
-— and when it is chunked, it takes `[b: X]` band markers** per the ruling above;
-PG 88's leaves carry Migne's A/B/C/D and leaf853 seg3 shows `[B]` in the gutter.
+### ⚑ RULING: PG band letters — `[b: X]`, URLs stay column-level (Wilson, 2026-08-06)
+Full statement in `CLAUDE.md`. Chunks mark a band `[b: C]`; the index records
+`bands[]` + `bandsInColumn`; **the URL stays `#c1425`**. The builder still emits
+`id="c1425c"` on an empty span, so banding the addresses later is a REBUILD, not
+a re-read. Proved on Antiochus (13 bands, visible text byte-identical). Calfa
+records no band letters at all, so 6 of 7 shipped PG works can never have them —
+which is why mixed granularity was rejected.
+⚠ **Capture bands AS EACH WORK IS CHUNKED.** They are readable only while the
+plate is in hand.
 
-**✅ BAND AUDIT DONE 2026-08-06 — and it found a hole in BATCH 1.** Batch 2 had
-captured 76 of 80 band letters; leaves 847, 849, 850, 852 lacked `[A]`, **all four
-print it on the plate**, and two lost it in ways that would have survived to
-chunking: leaf849 **absorbed the band letter into the text as a Greek `Λ`** (a
-Latin capital A is a Greek capital lambda in this fount), and leaf847 carried
-**`[381]`** at the head of its Greek — the SOURCE EDITION'S pagination, which
-Migne sets in bold inside the LATIN column, and which **in brackets parses as a
-column anchor** where PG 88 runs 1611–1844. All four restored; Batch 2 is 80/80.
-Both classes are now one-line greps in `PG-OCR-PROMPT.md`.
+### Batch state
+- **Batch 2 (845–864): assembled, 80/80 bands, 3 plate corrections applied**
+  (`ἀτιμασθῇ`, `σεαυτόν;`, `Ἀββακοὺκ,`), 4 cruces recorded. Ready to chunk.
+- **Batch 1 (836–844): re-harvested full-page and blind** (the crop method was
+  retired 2026-08-05). 3,239 words agreed by two independent passes; 95.0–99.1%
+  per leaf. **Recovered 3 scripture citations the crops lost entirely**
+  (Matth. xix, 27 · Psal. cxviii, 96 · Psal. XXVII, 9), Migne's inline footnote
+  markers, and **bands 4/4 on every leaf** (was 836 none · 837 `ABCC` · 842
+  `ABCDA` · 843 `AB`). Old crop text is still at `raw/pg088/batch1/out/` as
+  witness A — **keep it**, the adjudication needs it.
+- **leaf838's 5 Greek lines are harvested and plate-verified**, closing the gap
+  where leaf837 broke off mid-clause at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`.
 
-⛔ **CORRECTION, same day.** This note previously said "BATCH 1 IS MISSING A WHOLE
-LEAF — leaf838 was never transcribed, column 1617 of Dorotheus does not exist
-anywhere in our files" (`c14422e`, pushed). **That was wrong.** The column map has
-a `latinOnlyLeaves` field I had not read; it names 838, `pg-page-segments.py`
-skips it by design, and Batch 1's "8 columns, leaves 836–844" was correct — nine
-leaves, one without a Greek body, eight Greek columns. The claim came from a file
-count against a leaf range, with the plate never opened. **An audit that never
-opens the plate can invent a defect as easily as it can miss one.**
+### ⚠ OPEN FLAGS — carry these forward
+1. **`latinOnlyLeaves` is ALL-OR-NOTHING and that is a defect.** leaf838 is
+   flagged Latin-only and is not — it prints ~5 lines of Greek before Migne's
+   *Sequentia non habentur in Græco*. **Leaf 970 carries the same flag and has
+   NOT been checked.** The flag needs a partial state or a `greekEndsAt` marker
+   before any volume is harvested on the strength of it.
+2. **A NEW CRUX, unrecorded anywhere else: at col 1613 the Greek numbers the
+   Epistle's first section `Λ'.` (30) and the facing Latin numbers it `1.`** Both
+   read off the same segment. **Do NOT reconcile them** — it is Pattern 16
+   `[lat:]` material for whoever translates the Epistle.
+3. **The volume prints BOTH short forms of `Πατέρες`** — `Πάτρις` at col 1632,
+   `Πάτρες` at col 1628. Short by a syllable in each case but NOT the same
+   misprint twice. Record separately; never conform one to the other.
+4. **Two artifact classes now grepped for, keep grepping** (`PG-OCR-PROMPT.md`):
+   a band letter absorbed into the text as a Greek `Λ`, and the source edition's
+   BOLD pagination from the Latin column — which in brackets parses as a column
+   anchor (PG 88 runs 1611–1844).
+5. **Latin twins: still leave alone.** The x-split boundary must come from the
+   page image's ink profile, never from word-script medians. Unchanged.
+6. **Migne's `/method` page** still owes a "why translate this way" argument and
+   sibling links to actasanctorum.org + bonaventure — see `NOTES-method-page.md`.
+   Outward-facing; needs Wilson's OK.
 
-⚠ **What IS true, read off the plate:** `latinOnlyLeaves` is ALL-OR-NOTHING and
-leaf838 is not all-Latin. Col 1617 prints **~5 lines of Greek** — the tail of
-Doctrina I and the opening of the *Life of Dositheus*, with a Prov. ix, 9 citation
-— and only then Migne's italic *Sequentia non habentur in Græco*, after which the
-leaf runs Latin. Those five lines are continuous with leaf837, whose Greek stops
-**mid-clause** at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`, which col 1617 completes. So Batch 1's
-Greek does break off mid-sentence — by five lines, not by a leaf. **Leaf 970
-carries the same flag and has NOT been checked.** The flag needs a partial state
-or a `greekEndsAt` marker before any volume is harvested on the strength of it.
-
-**▶ RECOMMENDED NEXT: re-harvest BATCH 1 full-page, BEFORE the 87.** Segments are
-already rendered at 600 dpi → `raw/pg088/batch1-pages/` (8 leaves, 838 correctly
-skipped). It was cropped with the method retired 2026-08-05, so all eight Greek
-leaves are owed a full-page pass anyway; that fixes the bands in the same
-operation (836 has none, 837 `ABCC`, 842 `ABCDA`, 843 `AB`) and is the cheapest
-shakedown of the new pipeline before it runs at 87. **Add leaf838's five Greek
-lines by hand** — the segmenter will keep skipping that leaf, correctly, until the
-flag grows a partial state.
-
-⚠ **MODEL: the policy is SONNET transcribes, OPUS adjudicates**, marked settled
-and not to be relitigated — and 2026-08-06's own cross-check reinforced it
-(a full-page reader NORMALIZES; continuity causes it). Do not put Opus on primary
-transcription without Wilson overriding that explicitly.
-
-**Then:** leaves 865+ (87 remain, cols to 1844) in one full-page pass — a batch
-fleet still needs Wilson's "which model, and go?" with real numbers.
+### ⚠ A CAUTION I EARNED THE HARD WAY THIS SESSION
+I claimed "Batch 1 is missing a whole leaf — column 1617 does not exist in our
+files", committed it, and pushed it. **It was wrong**: the column map's
+`latinOnlyLeaves` field explained the gap and I had not read it. The claim came
+from a file count against a leaf range with the plate never opened.
+**An audit that never opens the plate can invent a defect as easily as it can
+miss one.** Written into `PG-OCR-PROMPT.md`. Corrected in `91f3460`.
 
 ---
 
