@@ -84,38 +84,49 @@ coordinates, never a manifest's `trimmedTo` box. Leaf N is page index N.
 
 ---
 
-## State — verified vs. outstanding
+## State — ✅ SWEEP COMPLETE 2026-08-07 (Opus, direct)
 
-Lettered run established so far: **`844 f g · 845 h · 846 i j k l m n · 850 o p q r…`**
+**All sixteen leaves 849–864 are read.** Findings in full at the foot of
+`BATCH1-REHARVEST.md` (§ "Batch 2 foot rules — THE SWEEP"); corrected records are
+appended to each `raw/pg088/batch2-assembled/leaf8NN.txt` under
+`FOOT-RULE RE-READ:`. The block below is the outcome, kept so the next reader
+does not have to re-derive it.
 
-| leaf | record claims | status |
+Lettered run, both cycles:
+
+    844 f g · 845 h · 846 i j k l m n · 850 o p q r [·][·] · 851 [·] · 853 u v x y z
+    855 a b c · 856 d e · 858 f g · 859 h i j · 860 k l m n o p q · 861-864 none
+
+| leaf | notes | status |
 |---|---|---|
-| 845 | `ʰ Apoc. xiv, 16.` + a correction note `Leg. σχήματος.` | ✅ **VERIFIED** 2026-08-07. `h` confirmed. **The correction note's marker is a solid blob — record it ILLEGIBLE**, not `8`. |
-| 846 | `i j k l m n` (6 notes) | ✅ **VERIFIED** 2026-08-07. One block wrapping to two lines; all six correct. |
-| 847 | none | ✅ **VERIFIED none.** Text to page bottom, then blank + watermark. |
-| 848 | none | ✅ **VERIFIED none**, against the untrimmed page bottom rendered from the PDF. |
-| 849 | none — *"if one exists below the bottom edge of seg8, it was cut off"* | ⛔ **record admits clipping** |
-| 850 | `o p q r` — *"r [cut off at right edge of crop]"* | ⛔ **`r`'s citation must be read** |
-| 851 | none — *"within the four captured segments"* | ⛔ crop-derived |
-| 852 | `VARIAE LECT.` note → `φυσικῶν` / *legendum forte* `φυσικῶς` | ⛔ unverified; its `10` is the illegible class |
-| 853 | `u v x y z` | ⛔ unverified — **and `s`, `t` are unaccounted for** between 850's `r` and this |
-| 854 | none | ⛔ unverified |
-| 855 | one fragment only, *"4, 13."*, marker clipped | ⛔ **marker must be read** |
-| 856 | `d e` | ⛔ unverified — series has restarted past `z`; **`a`, `b`, `c` unaccounted** |
-| 857 | none | ⛔ unverified |
-| 858 | `f g` | ⛔ unverified |
-| 859 | citation fragment `7; ix, 10; xxii, 4.` + `LECTIONES.` + Cotelerius + Aquinas notes | ⛔ **letters unrecorded**; probably carries `h i j` |
-| 860 | `k l m n` + a `VARIAE LEC.` note | ⛔ unverified — **`h`, `i`, `j` unaccounted** between 858's `g` and this |
-| 861 | none — *"falls outside the bottom edge of segment 8"* | ⛔ **record admits clipping** |
-| 862 | none | ⛔ unverified |
-| 863 | none | ⛔ unverified |
-| 864 | none | ⛔ unverified. ⚠ **No full-page render exists** — `batch2-pages/manifest.json` stops at 863. The sweep script does not care (it reads the PDF), but leaf864's BODY has never been read full-page. |
+| 845 | `ʰ Apoc. xiv, 16.` + correction note | ✅ verified; correction marker ILLEGIBLE (not `8`) |
+| 846 | `i j k l m n` | ✅ verified |
+| 847 | none | ✅ verified |
+| 848 | none | ✅ verified |
+| 849 | none | ✅ verified at 600 dpi (work boundary sits low on this page) |
+| 850 | **6**: `o p q r` + 2 illegible-marker notes | ✅ read — **record was short by two** |
+| 851 | **1**: `[illeg] I Cor. xiii, 4, 5.` | ✅ read — **record said none** |
+| 852 | `VARIÆ LECT.` + 1 note | ✅ read; marker ILLEGIBLE, not `10` |
+| 853 | `[u] v x y z` | ✅ read — **`Dan. xiv, 36` / `ibid. 37`, not 56/57** |
+| 854 | none | ✅ verified |
+| 855 | **3**: `a b c` | ✅ read — **closes the `z → d` gap** |
+| 856 | `d e` | ✅ verified |
+| 857 | none | ✅ verified |
+| 858 | `f g` | ✅ verified |
+| 859 | `h i j` + VL note + 2 editorial footnotes | ✅ **all transcribed** — closes the `g → k` gap |
+| 860 | **7**: `k l m n o p q` + VL block | ✅ read — **record was short by three**; `Prov. xv` not `xxx` |
+| 861 | none | ✅ verified (record had admitted clipping) |
+| 862 | none | ✅ verified |
+| 863 | none | ✅ verified |
+| 864 | none | ✅ verified. ⚠ leaf864's **BODY** has still never been read full-page |
 
-**Three gaps in the lettered run to close:** `r → u` (s, t) · `z → d` (a, b, c) ·
-`g → k` (h, i, j). Each is either a note nobody captured or a leaf whose notes
-were misread. 859 is the obvious candidate for `h i j`.
+**The one open item:** `846 n → 853 u` needs six letters (`o p q r s t`) and the
+leaves in between carry **seven** notes. One of the three illegible-marker notes
+(850 ×2, 851 ×1) is not in the lettered series. Recorded as a gap, deliberately
+not resolved — see the reasoning in `BATCH1-REHARVEST.md`.
 
----
+**Two new cruces:** leaf859 `ⁱ Psal. cx, 18.` (Ps. cx has ten verses) and
+leaf860 `ᵐ Psal. xxxiii, 2.` (neighbours run 13/14/15). Record, do not renumber.
 
 ## Done means
 

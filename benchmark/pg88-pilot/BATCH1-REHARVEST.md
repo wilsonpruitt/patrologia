@@ -901,3 +901,129 @@ of small type; the eye finds them where statistics did not.
 
 ▶ **Still to do: 846, 849–864.** The lettered run so far is `… 844 f g · 845 h ·
 846 i j k l m n · 850 o p q r …` with 847/848 genuinely carrying none.
+
+---
+
+# Batch 2 foot rules — THE SWEEP, 849–864 (2026-08-07, Opus, direct)
+
+Run from `BATCH2-FOOTRULE-RUNBOOK.md`, method unchanged: contact sheet to LOCATE,
+600 dpi crop to READ, `glyph` pixel map to ADJUDICATE any marker before asserting
+it. **All sixteen leaves are done.** Every leaf was looked at whole, not at its
+foot only.
+
+## Result in one line
+
+The crop-derived records were wrong on **five** of the sixteen leaves, and wrong
+in the direction that matters: **they under-report.** Three leaves lost notes
+entirely (851 lost its only one; 850 lost two of six; 860 lost three of seven),
+and two lost verse numbers to a misread digit. **No leaf recorded a note that
+does not exist.** The crop never invented an apparatus; it only ever clipped one.
+
+## What each leaf actually carries
+
+| leaf | notes | change from the record |
+|---|---|---|
+| 849 | none | — (checked at 600 dpi: work boundary sits low on this page) |
+| 850 | **6** | **+2** — `[illeg] Psal. xxiv, 18.` · `[illeg] Psal. cxiv, 6.` |
+| 851 | **1** | **+1** — record said none. `[illeg] I Cor. xiii, 4, 5.` |
+| 852 | 1 + heading | marker is NOT `10`; it is illegible |
+| 853 | 5 | **`Dan. xiv, 36` and `ibid. 37`**, not 56/57 |
+| 854 | none | confirmed |
+| 855 | **3** | **+2** — `ᵃ Gen. vi, 3.` `ᵇ Gen. ii, 26.` `ᶜ Gen. xxvi, 14, 13.` |
+| 856 | 2 | confirmed |
+| 857 | none | confirmed |
+| 858 | 2 | confirmed |
+| 859 | 3 + VL note + 2 editorial footnotes | **all of it transcribed for the first time** |
+| 860 | **7** + VL block | **+3**, and `Prov. xv` not `xxx`, `Rom. viii, 35` not 55 |
+| 861 | none | confirmed (record admitted clipping) |
+| 862–864 | none | confirmed |
+
+## The three gaps in the lettered run — all three closed
+
+- **`z → d` (a, b, c): CLOSED on leaf855.** The series wraps past `z` and
+  restarts there. The record had a single clipped fragment, `"4, 13."`, which
+  was the tail of the third note.
+- **`g → k` (h, i, j): CLOSED on leaf859**, exactly where the runbook predicted.
+  All three sit on one line above the `VARIÆ LECTIONES.` block.
+- **`r → u` (s, t): the notes are FOUND, the markers are NOT READABLE.** Three
+  notes stand in that span — leaf850 ×2 and leaf851 ×1 — and every one of the
+  three markers is a solid blob. No note is missing. See the arithmetic below.
+
+**The full run, both cycles:**
+
+    844 f g · 845 h · 846 i j k l m n · 850 o p q r [·][·] · 851 [·] · 853 u v x y z
+    855 a b c · 856 d e · 858 f g · 859 h i j · 860 k l m n o p q · 861-864 none
+
+## ⚠ The one thing this sweep could not settle: seven notes, six letters
+
+846 ends at `n`; 853 begins at `u`. That leaves `o p q r s t` — **six** letters.
+Between those leaves stand **seven** notes: six on leaf850 and one on leaf851.
+The first four of leaf850's are legibly `o p q r`. So **one of the remaining
+three is not in the lettered series**, and none of the three can be read.
+
+The likeliest account is that leaf850's sixth marker is the numbered series —
+its pixel map shows two stacked ENCLOSED counters, which is an `8` rather than
+an `s`, whose notches should open right then left. That would give leaf850
+`o p q r s` plus one numbered note, and leaf851 `t`, and everything balances.
+
+**It is recorded as an open gap, not as that answer**, because over-inking closes
+an `s`'s mouths into exactly the shape observed, and because the account is
+reached from the series rather than from the glyph — which is the move rule 7
+exists to forbid. What is asserted is only what was measured: three illegible
+markers, and one more note than there are letters to hold them.
+
+## Two new cruces for whoever chunks this work
+
+1. **leaf859 `ⁱ Psal. cx, 18.`** — the `18` is certain (two stacked bowls with a
+   waist; checked at 5× and by pixel map) and `cx,` is unambiguous. **Ps. cx
+   (Vulg.) has ten verses.** The reference as printed cannot resolve. Same class
+   as leaf843's `ᵉ Psal. xxvii, 9`: record it, check what the body quotes at
+   marker `i`, and log the mismatch. **Do not renumber.**
+2. **leaf860 `ᵐ Psal. xxxiii, 2.`** — read, not inferred, and checked at 8×
+   against `9`. Flagged only because its neighbours run 13/14/15 and this
+   stretch is the sort that quotes Ps. xxxiii, 9. Check the body; if they
+   disagree it is a crux, not a correction.
+
+## ⚑ Fount findings — durable, and both were needed today
+
+**`3` and `5` are near-identical in this fount, and the discriminator is which
+side the top bar turns down on.** A `5` has a flat top bar with its vertical on
+the LEFT; a `3` has a flat top whose stroke turns down on the RIGHT into an
+upper bowl. Both stand side by side in leaf859's `pag. 351 n. 52`, which is what
+made the reading safe. **This is what the retired crop pass got wrong twice** —
+leaf853's `Dan. xiv, 36` and `ibid. 37` were recorded as 56 and 57.
+
+**`2` has a CLOSED upper loop and a detached horizontal base, and reads as `9`
+at low magnification.** A `9` descends below the baseline and has no base
+stroke. Measured on leaf860's `Psal. xxxiii, 2.` at 8×.
+
+Both are the same lesson in a new place: **the digits of this fount are decided
+by one stroke, and one stroke is not visible until you magnify.** The letters
+were never the problem — every lettered marker read today read cleanly or was a
+featureless blob, with nothing in between.
+
+## The marker rule held, and held in both directions
+
+Of the markers examined: **every lettered marker was either plainly legible or a
+featureless blob** — `o p q r v x y z a b c d e f g h i j k l m n p q` all read
+by silhouette at 600 dpi, and the six blobs surrendered nothing at any
+magnification. **Every numbered marker was a blob**, without exception:
+leaf850 ×1, leaf851 ×1, leaf852 ×2 glyphs, leaf859 ×4 glyphs, leaf860 ×2. Not
+one counter among them.
+
+One letter was recovered from a blob and it is worth naming how: **leaf853's
+first marker is `u` because its silhouette keeps two separate ink masses at the
+top** (cols 17–25 and 31–42) that merge from row 38 down — a filled-in `u`,
+open above. That is silhouette evidence, not series evidence, and it is the only
+blob today that gave any up.
+
+## What this says about the crop pass, now that both are measured
+
+Batch 1's adjudication found the two witnesses failing in opposite directions —
+full-page NORMALISES, crop INVENTS AT EDGES. **The apparatus adds a third
+asymmetry, and it is not symmetric at all: on notes the crop only ever LOSES.**
+Five leaves' records were wrong; all five were short. A four-segment crop cannot
+see a note that wraps to a second line at the left margin (leaf860's `ᵠ`), cannot
+see past its own right edge (leaf850's last two), and cannot see a block it did
+not enclose (leaf851's only note). **A note is not a word: it lives at the page's
+edges by design, which is exactly where a crop is blind.**
