@@ -1,0 +1,83 @@
+# Batch 1 re-harvest — full-page pass, and the diff against the crops (2026-08-06)
+
+Batch 1 (leaves 836–844) was harvested with column crops, the method retired
+2026-08-05 for losing text three ways invisibly. It has now been re-read whole
+from 600 dpi full-page renders (`raw/pg088/batch1-pages/`), **blind** — the
+transcribers were barred from `raw/pg088/batch1/` and from
+`BATCH1-ADJUDICATION.md`, so the two passes are independent witnesses rather than
+a correction of one by the other.
+
+Model per standing policy: **Sonnet transcribed, Opus adjudicates.** Four Sonnet
+agents, two leaves each; a fifth for leaf838's Greek head.
+
+## Coverage
+
+| | crop pass | full-page pass |
+|---|---|---|
+| Greek leaves | 8 | 8 |
+| leaf838's Greek head | — | **5 lines / 49 words, newly harvested** |
+| band letters | 836 none · 837 `ABCC` · 842 `ABCDA` · 843 `AB` | **4/4 on every leaf** |
+| scripture footnotes | 3 lost | recovered (below) |
+
+**3,239 words were read identically by two independent passes.** Per-leaf
+agreement 95.0–99.1%. Adjudication queue: **57 substantive items** (4 only-in-A,
+18 only-in-B, 35 differing), plus 31 accent-only and 19 apostrophe-only
+differences that are not worth a plate read.
+
+⚠ Agreement is not correctness. Where both passes share a blind spot they agree
+silently — `pg-ocr-diff.mjs` says so in its own header, and PG 88 leaf 849 is the
+worked example. 3,239 words survived two readings; that is all it means.
+
+## What the full-page pass recovered
+
+**Three scripture citations the crops lost entirely** — the class rule 9 indexes,
+and the same class the Antiochus audit found truncated:
+
+- leaf836 — `ᵃ Matth. xix, 27.`
+- leaf837 — `ᵇ Psal. cxviii, 96.`
+- leaf843 — `Psal. XXVII, 9.`
+
+Plus running-text words (`ἀλλὰ` 839, `τῶν` 840, `ἀνειδίαν` 842, `ἐστι` 843,
+`Πάτρες.` 843, `αὐτημοσύνη` 844) and **Migne's inline footnote markers**, which
+the crop pass dropped wholesale: `προεστημηνύσαμεν¹`, `ἀλλὰ χοῦ²`, `Γρηγορίας¹`,
+`ἰάσεται²`, `ἀνειδίαν ᵉ`, `ἀκτημοζύνη ζ`.
+
+**leaf838's five Greek lines are harvested and plate-verified by me**, closing the
+gap where leaf837's Greek broke off mid-clause at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`:
+
+> σου τῇ δεξιότητι καὶ τὸ βραχὺ παραστῆσαι, κατὰ τὸ, [A]
+> Δίδου σοφῷ ἀφορμὴν, καὶ σοφώτερος ἔσται.  [ᵉ Prov. ix, 9.]
+> Πρότερον δὲ, ἐν συντομωτέρῳ, καὶ τὰ κατὰ τὸν μακάριον Δοσίθεον, τὸν γενόμενον πρῶτον μαθητὴν
+> τοῦ μακαρίου ἀββᾶ Δωροθέου ἔτι ὄντος αὐτοῦ ἐν τοῖς τοῦ ἀββᾶ Σερίδου, καὶ τὸν
+> ἀγῶνα τῆς κατὰ Χριστὸν ὑποταγῆς ἐξανύοντος.
+> *Sequentia non habentur in Græco.*
+
+I checked `ἀββᾶ Σερίδου`, `ἐξανύοντος` and the notice against the plate myself —
+proper names are exactly the class a full-page reader smooths, and these hold.
+
+## Two items the queue can already speak to
+
+- **`Πάτρες` — a third and fourth attestation of the known crux.** leaf843 has the
+  crop reading `Πατέρες.` where the full-page reads `Πάτρες.` The Batch 2
+  cross-check established the plate prints a shortened form (`Πάτρις` at col
+  1631/1632, recurring at 1636 and 1650) and that the reader who writes it long is
+  normalizing. The direction here is the same. **Still needs the plate** before
+  it is asserted — that is the whole lesson of this session — but it is the
+  expected shape, not a surprise.
+- **`ἔβης;` vs `ἔδης;` (leaf843)** — this is the crux `BATCH1-ADJUDICATION.md`
+  already settled, and it settled it honestly: *"`ἔβης` is **β** (`παρέβης`) — but
+  confirmed by the Latin twin printing* ut quid transgressus es?*, NOT by the
+  glyph, which our scan cannot separate from δ."* A second, independent witness
+  has now read **δ**. That does not overturn the verdict — the Latin still
+  decides — it **confirms the caveat**: the ambiguity is real and reproducible,
+  not one reader's slip. Leave the reading as β and keep the note.
+
+## Open
+
+The 57-item queue is in `benchmark/pg88-pilot/batch1-diff.json` and has NOT been
+adjudicated. Per the Batch 2 cross-check, **neither pass may be presumed the
+winner** — the full-page read normalizes, the crop read invents at edges — so
+every item wants the plate and the facing Latin. leaf843 is the worst leaf (95.0%,
+27 items) and is where to start.
+
+Nothing here is chunked. Batch 1 takes `[b: X]` band markers when it is.
