@@ -102,3 +102,64 @@ way — and are not worth a plate read.
 The eleven leaves that did NOT come from full-page renders (848, 850, 851, 852,
 854, 855, 858, 859, 860, 862, 863, 864) keep their crop-adjudicated verdicts
 unchanged; there is no second witness for them and none is owed.
+
+---
+
+# Band-capture audit, and what it turned up in Batch 1 (2026-08-06)
+
+Run because the band ruling makes this time-sensitive: a band letter is readable
+only while the plate is in hand, and a retroactive pass is a re-read.
+
+## Batch 2 — 76/80 captured, now 80/80
+
+Four leaves lacked `[A]` — **847, 849, 850, 852**. All four PRINT it: the gutter
+strip of each leaf's first segment was cropped and read, and the `A` stands beside
+the first body line on every one. No parity pattern (847/849 are Greek-right,
+850/852 Greek-left); Migne's band letters sit in the middle gutter on both
+parities. So this was transcription loss, not the plate.
+
+Two of the four lost it in ways that would have survived to chunking:
+
+- **leaf849 absorbed the band letter into the text as a Greek `Λ`.** The leaf
+  opened `Λ μου, ἐξελοῦ με`. A Latin capital `A` in this fount is a Greek capital
+  lambda; the transcriber took the marginal letter for a letter of the text.
+- **leaf847 carried `[381]` at the head of the Greek.** The plate reads Latin
+  *…est,* · bold **381** · gutter band letter **A** · Greek *ρις τοῦ Θε…*. The
+  381 is the SOURCE EDITION'S pagination, which Migne sets in bold inside the
+  LATIN column (same series: bold `386` opening the Latin on leaf853, `1022`/
+  `1023` on PG 89). It is not Greek — and in brackets it **parses as a column
+  anchor**, where PG 88 runs 1611–1844. The band letter beside the same line had
+  been dropped in its place.
+
+All four restored; Batch 2 now carries A B C D on all 20 leaves. Both classes are
+now one-line greps in `PG-OCR-PROMPT.md`.
+
+## ⛔ Batch 1 — leaf838 was never transcribed
+
+The same audit run over `raw/pg088/batch1/out/` found **eight leaf files for the
+nine leaves 836–844.** `leaf838.txt` does not exist. Neither do its segment
+crops: every other leaf in the batch has `leaf<n>_p<n+1>_<side>_seg1..4.png`, and
+838 has none — though `leaf838_p839_left.png`, the whole-leaf crop, **was made.**
+So the leaf was cropped, then silently skipped at segmentation and again at
+transcription.
+
+leaf838 is a real harvest leaf: `data/pg-column-maps/pg088.json` gives it
+`colLeft 1617`, `greekSide left`, no `skipInHarvest`. **Its Greek is column 1617,
+and column 1617 of Dorotheus does not exist anywhere in our files.**
+
+⚠ **How it hid.** `next-session-resume.md` recorded Batch 1 as "**8 columns,
+leaves 836–844**". That range is NINE leaves. The count and the range contradicted
+each other in the batch's own summary line, and the summary was trusted. This is
+the repo's own warning — *"a scan that skips a leaf looks exactly like a clean
+one"* — happening a second time, to a batch already marked done and adjudicated.
+
+Batch 1's band coverage is poor besides: leaf836 has none, leaf837 reads `ABCC`,
+leaf842 `ABCDA`, leaf843 `AB`.
+
+**Recommendation: re-harvest Batch 1 whole, full-page.** It does not need
+patching leaf by leaf — it was cropped with the method retired on 2026-08-05 for
+losing text three ways invisibly, so all nine leaves are owed a full-page pass on
+their own account. Doing that recovers leaf838, fixes the bands, and puts Batch 1
+on the same footing as Batch 2 in one operation. It is nine leaves, the cheapest
+possible instance of the new pipeline, and it should happen **before** the 87
+remaining leaves rather than after.

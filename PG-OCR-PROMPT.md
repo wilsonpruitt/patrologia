@@ -161,3 +161,39 @@ reading.
 
 ⚠ **Footnote markers in PG 88 are LETTERS, not digits** (leaf846's series runs
 `i j k l m n`). A superscript read as `8` is a misread `a`.
+
+## Two artifact classes that reach the GREEK file and look like text (2026-08-06)
+
+Both found auditing Batch 2's band coverage; both would have survived to chunking.
+
+1. **The band letter absorbed into the text.** Migne's marginal A/B/C/D sits in
+   the gutter, and a Latin capital `A` in this fount is a Greek capital `Λ`.
+   Batch 2's leaf849 opens `Λ μου, ἐξελοῦ με` — that `Λ` is the band letter, read
+   as a letter of the text. **A line opening with a bare capital + space is the
+   tell.** Three more leaves (847, 850, 852) dropped their `A` entirely; all four
+   print it on the plate.
+2. **The source edition's pagination, which Migne sets in BOLD inside the LATIN
+   column.** Batch 2's leaf847 was transcribed `[381] ρις τοῦ Θεοῦ`; the plate
+   reads Latin *…est,* · bold **381** · gutter band letter **A** · Greek *ρις τοῦ
+   Θε…*. The number belongs to the Latin. Worse, written in brackets it **parses
+   as a column anchor** — and PG 88's columns run 1611–1844, so a stray `[381]`
+   would corrupt the anchor stream silently. Same series seen as a bold `386`
+   opening the Latin on leaf853, and as `1022`/`1023` on PG 89.
+
+⛔ **Grep every finished leaf for `^[A-DΑΒΓΔΛ] ` and for `\[[0-9]{3,5}\]` before
+it is called done.** Both are one-line checks and both classes read as ordinary
+text otherwise.
+
+## ⛔ Count the leaves you got against the leaves you asked for
+
+Batch 1 was recorded as "**8 columns, leaves 836–844**". That range is **NINE**
+leaves. The count and the range contradicted each other, and the contradiction is
+exactly where a dropped leaf hid: **leaf838 was cropped** (`batch1/
+leaf838_p839_left.png` exists) **and then never segmented and never transcribed** —
+it is the only leaf in the batch with no `_seg*.png` files and no `.txt`. Col 1617
+of Dorotheus has never been read. Nobody noticed for the life of the batch.
+
+This is the warning already in this repo — *"a scan that skips a leaf looks
+exactly like a clean one"* — realised a second time, and it got through because
+the batch's own summary line carried the wrong number and was trusted. **Assert
+the count against the range, in the file, every batch.**
