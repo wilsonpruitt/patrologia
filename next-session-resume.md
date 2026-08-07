@@ -23,8 +23,16 @@ deploy this session, both verified on the live domain, not just in the files).
    **Greek can stop and start again on one leaf, because a work can END and
    another BEGIN on it.** It needs per-run spans, not a boolean. **Leaf 970 still
    carries it unchecked.**
-1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF, IN FULL — Batch 1 is DONE, Batch 2 is
-   not.** ⚡ **Use the gate, it makes the job verifiable:** PG 88 runs **two**
+1. ⛔ **READ EVERY FOOT RULE ON EVERY LEAF, IN FULL — Batch 1 is DONE; Batch 2 is
+   STARTED, leaf845 done, 846–864 remain.** ⚑ **The gate's first act on new
+   material caught a real error:** `raw/pg088/batch2-assembled/leaf845.txt`
+   records `ᵇ Apoc. xiv, 16.` and the plate prints a clean **`ʰ`** — which is
+   what the chain from 844's `f g` predicts. That class matters more than a typo:
+   **the marker letter is what keys a note to its place in the body**, so a wrong
+   letter silently breaks the body↔note pairing hard rule 9's scripture index is
+   built on. ⚠ Batch 2 records its foot rules under **`FOOTNOTES-SKIPPED:`**, not
+   under a "Footnote block" heading — grep for both. Expect `i j k…` from 846 and
+   numbered notes from `9`. ⚡ **Use the gate, it makes the job verifiable:** PG 88 runs **two**
    marker series — a **lettered `a…z` series CONTINUOUS ACROSS LEAVES** (scripture
    refs; Batch 1 runs unbroken `a·b·cd·e-l·m-q·r-v·w-a·b-e·f g`) and a **numbered
    series for Migne's Greek corrections that is ALSO CONTINUOUS** (839 `1 2` ·
