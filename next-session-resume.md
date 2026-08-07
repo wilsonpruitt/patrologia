@@ -78,6 +78,32 @@ Three corrections applied to `raw/pg088/batch2-assembled/` (`ἀτιμασθῇ`
 — and when it is chunked, it takes `[b: X]` band markers** per the ruling above;
 PG 88's leaves carry Migne's A/B/C/D and leaf853 seg3 shows `[B]` in the gutter.
 
+**✅ BAND AUDIT DONE 2026-08-06 — and it found a hole in BATCH 1.** Batch 2 had
+captured 76 of 80 band letters; leaves 847, 849, 850, 852 lacked `[A]`, **all four
+print it on the plate**, and two lost it in ways that would have survived to
+chunking: leaf849 **absorbed the band letter into the text as a Greek `Λ`** (a
+Latin capital A is a Greek capital lambda in this fount), and leaf847 carried
+**`[381]`** at the head of its Greek — the SOURCE EDITION'S pagination, which
+Migne sets in bold inside the LATIN column, and which **in brackets parses as a
+column anchor** where PG 88 runs 1611–1844. All four restored; Batch 2 is 80/80.
+Both classes are now one-line greps in `PG-OCR-PROMPT.md`.
+
+⛔⛔ **BATCH 1 IS MISSING A WHOLE LEAF. `leaf838` was never transcribed** — eight
+leaf files exist for the nine leaves 836–844, and 838 has no `.txt` and no segment
+crops, though its whole-leaf crop `leaf838_p839_left.png` WAS made. It is a real
+harvest leaf (`colLeft 1617`, Greek left, no `skipInHarvest`), so **column 1617 of
+Dorotheus does not exist anywhere in our files.** It hid because this file called
+Batch 1 "**8 columns, leaves 836–844**" — a range of NINE — and the summary was
+trusted. Second occurrence of "a scan that skips a leaf looks exactly like a clean
+one," this time in a batch marked done and adjudicated.
+
+**▶ RECOMMENDED NEXT: re-harvest BATCH 1 whole, full-page, BEFORE the 87.** Don't
+patch it leaf by leaf — it was cropped with the method retired 2026-08-05 for
+losing text three ways invisibly, so all nine leaves are owed a full-page pass
+anyway. One operation recovers leaf838, fixes its bands (836 has none, 837 `ABCC`,
+842 `ABCDA`, 843 `AB`), and puts Batch 1 on Batch 2's footing. Nine leaves is also
+the cheapest possible shakedown of the new pipeline before it runs at scale.
+
 **Then:** leaves 865+ (87 remain, cols to 1844) in one full-page pass — a batch
 fleet still needs Wilson's "which model, and go?" with real numbers.
 
