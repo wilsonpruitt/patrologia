@@ -1,137 +1,105 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ 2026-08-07 SESSION CLOSE — READ "WHERE TO START", THEN THE RUNBOOK.
+## ▶▶▶▶▶ 2026-08-07 SESSION 2 CLOSE — READ THIS BLOCK, THEN THE ONE DECISION.
 
-**Everything below this block is history.** It is still true as history, but every
-live pointer is here. Repo is **clean and in sync with origin**; migne.app is
-**deployed and verified live 2026-08-07** (`migne-3w2xw71zh`, checked on the live
-domain, not just in the files) carrying the new `/method` disclosure.
+**Everything below this block is history.** Working tree is clean. **⛔ EIGHT
+commits are LOCAL AND UNPUSHED** (six from today, two from the prior session) — pushing to master is one of Wilson's
+protected actions and he was away; the exact command is
+`git push origin master`. Nothing was deployed and nothing is owed a deploy:
+all of today's work is source-side.
 
-**Closed this session:** the Batch 1 word-level queue (all 39 items) · leaf838's
-re-harvest, recovering Doctrina I's opening · Wilson's ruling on the ποία, finding
-(accept and ship, caveat public — it is live on `/method`) · and the numbered
-marker series, retired as a gate because its glyphs are illegible.
+**Closed this session:** the whole Batch 2 foot-rule sweep (849–864, the runbook
+executed to "done") · `latinOnlyLeaves`, retired and replaced · leaf 970, the
+flag's last unchecked leaf · and the running heads for the entire remaining
+span, 865–973.
 
-### ▶ WHERE TO START
+### ▶ THE ONE DECISION THAT BLOCKS EVERYTHING — Wilson's call
 
-▶▶ **GO STRAIGHT TO `benchmark/pg88-pilot/BATCH2-FOOTRULE-RUNBOOK.md`.**
-It is written to be executed cold, it carries the full leaf-by-leaf state table,
-the method, the tool, the rules and what "done" means. **You should not need
-anything else, including the rest of this file.** Items 0-2 below are DONE and
-survive only as the reasoning behind the runbook's rules.
+**Where do 43 leaf-keyed notes go, when the Greek has nowhere to key them?**
 
-**The one-line version:** Batch 2's foot-rule records were written from the
-retired column crops and several admit clipping; they must be re-read before
-either batch can be chunked. **Leaves 845, 846, 847, 848 are verified. 849-864
-are not.** Run `scripts/pg-note-sweep.py` (grid -> candidates -> crop -> glyph).
-**Opus, directly, no subagents** — reading a marker letter is adjudication, and
-it is a long single-session read rather than a fleet. Budget ~250-450k.
+Scoping the chunk turned up the finding that outranks the sweep: **PG 88 puts
+every footnote marker in the LATIN column. No superscript appears anywhere in
+the Greek running text of any leaf transcribed** — Batch 1, Batch 2, or leaf838's
+re-harvest. Five agents said so independently, and a grep confirms it: the only
+bracketed tokens in any leaf body are the band letters `[A]…[D]`.
 
-Three gaps in the lettered series to close: `r -> u` · `z -> d` · `g -> k`.
+Nothing was lost in OCR — Migne put none there. But hard rule 9 builds the
+scripture index from `[n:]` markers, and there is nothing in the Greek to hold
+one. **So chunking is NOT the mechanical run the old runbook took it for.**
 
----
+Three options, written out in full at the foot of `BATCH1-REHARVEST.md`
+(§ "THE FINDING THAT OUTRANKS THE SWEEP"). In short:
 
-### ⛔ MODEL POLICY — settled, and reinforced by this session's own measurement
-**SONNET transcribes, OPUS adjudicates.** Wilson reaffirmed it 2026-08-06 when
-offered the override, and the Batch 2 cross-check independently reproduced the
-reason: a full-page reader NORMALIZES, and continuity CAUSES that rather than
-curing it. Do not put Opus on primary transcription without an explicit override.
+1. **Notes as chunk-manifest metadata**, placed into the ENGLISH by the
+   translator. Matches the pipeline already established. Still needs the twin.
+2. **Harvest the Latin twin first**, chunk-aligned, and key the notes there.
+   Correct, expensive, and it is `pg-paired-pilot.md`'s own logic carried through
+   — Dorotheus needs the twin for a second, independent reason now: **the note
+   layer lives there and nowhere else.**
+3. **Chunk the Greek now, attach the apparatus later.** Cheapest, and it ships a
+   work whose citations are not indexed — the exact thing rule 9 forbids.
 
-### What shipped and is LIVE
-- **The PG scripture index was hardcoded empty and is fixed.** Parser lifted to
-  `scripts/lib/citations.mjs`; both indexers import it and cannot drift (91/91 PL
-  indexes re-run byte-identical). PG notes are harvested from the **English** —
-  a PG work's Greek source has no note layer. Antiochus's 4 citations index;
-  site 3,464 → **3,469**. Two latent bugs fixed with it: every PG scripture link
-  would have **404'd** (PG pages slug from `titleEn`, not the Latin title), and
-  the corrections key read `d.textIdno`, which a PG work has not got.
-- **Antiochus repairs** — 3 footnotes restored, 7 marginals placed, the English
-  *laura* gloss re-rendered (it had lost the reason for its simile). Two audit
-  claims corrected from the plate: **col 1421 carries NO `[A]`** (its top band is
-  the title block) and **the band letter's side follows the column's parity**.
-- **A torn-marker defect, live on `sermo-iii`** — a multi-sentence marker just
-  before a column anchor was being cut in half by `sentenceRows()`, so the head
-  shipped as literal `[ed: …` and the tail as bare prose in the author's voice
-  ending on a stray `]`. Fixed; **`scripts/scan-raw-markers.mjs` is the new gate**
-  and reads BUILT HTML. Run it before every deploy. It scans work pages only —
-  cruces pages and /method/ quote the vocabulary legitimately.
+⛔ **Do not pick one by starting to write code.** The sweep's whole value is that
+the notes are now known.
 
-### ⚑ THE METHOD FINDING OF THE SESSION — do not let this be forgotten
-**The two witnesses fail in OPPOSITE directions, and neither may be presumed the
-winner.** Measured twice now: Batch 2's cross-check (full-page 3 · crop 4 · 1
-unsettled) and Batch 1's adjudication so far (crop 4 · full-page 2 · 1 neither).
+### The other hard stop, unchanged
+**LEAVES 865+ — 87 remain.** A batch fleet still needs Wilson's "which model,
+and go?" with real numbers. Reference: the 2026-08-06 eight-leaf run cost ~507k
+subagent tokens across 5 Sonnet agents; leaf838's single-leaf re-harvest ~131k.
+**Body transcription is SONNET; the adjudication that follows is OPUS.** That
+policy was reaffirmed by Wilson 2026-08-06 and re-measured since — do not put
+Opus on primary transcription without an explicit override.
 
-- A **full-page** read NORMALIZES — every loss is a smoothing: a form conformed to
-  the same phrase eight lines above, a name conformed to its LXX spelling, a verb
-  conformed to its pair, `Α'.` for `Λ'.`, `τό,` for `τὸ,`.
-- A **crop** read INVENTS AT EDGES and mis-sees isolated words — it cannot compare
-  a doubtful letter with the same letter elsewhere on the page.
+### What is now in hand that was not this morning
 
-So full-page is the better instrument for RECOVERING LOST TEXT and the worse one
-for SETTLING A CONTESTED GLYPH. ⛔ **The facing LATIN is now a REQUIRED step** in
-adjudication — it decided 3 of Batch 2's 4 hardest calls and 2 of Batch 1's 7.
+- **`data/pg-notes/pg088-dorotheus.json`** — all 43 notes for leaves 845–864,
+  transcribed with their markers, cruces flagged, illegible markers recorded as
+  illegible. Batch 1's notes are NOT yet gathered here (they live in the leaf
+  files).
+- **A Doctrina→column map for II–XXIII**, read off the running heads. A chunking
+  and queue skeleton for the whole work, before a leaf of it is transcribed.
+- **`leafGreekState`** replacing the dead boolean, with leaf838 and leaf970 both
+  described by their actual runs, and a harvester that warns loudly on a partial
+  leaf instead of passing a claim silently.
+- **`anchorsPlateVerified` 20 → 40**, plus a `headSweep` block confirming the
+  column sequence and all three re-scan boundaries to the end of the work.
 
-⚑ **New, and it argues for the pipeline:** at 600 dpi full-page the `ἔβης`/`ἔδης`
-glyph IS separable (the fount's "6"-like beta). `BATCH1-ADJUDICATION` had said
-our scan "cannot separate it from δ" — **true of the 400 dpi crop, not of the
-plate.** The full-page pass settles glyphs the crop could only settle by
-inference from the Latin.
+### ⚠ Flags raised today, all unresolved on purpose
 
-### ⚑ RULING: PG band letters — `[b: X]`, URLs stay column-level (Wilson, 2026-08-06)
-Full statement in `CLAUDE.md`. Chunks mark a band `[b: C]`; the index records
-`bands[]` + `bandsInColumn`; **the URL stays `#c1425`**. The builder still emits
-`id="c1425c"` on an empty span, so banding the addresses later is a REBUILD, not
-a re-read. Proved on Antiochus (13 bands, visible text byte-identical). Calfa
-records no band letters at all, so 6 of 7 shipped PG works can never have them —
-which is why mixed granularity was rejected.
-⚠ **Capture bands AS EACH WORK IS CHUNKED.** They are readable only while the
-plate is in hand.
+1. **Seven notes, six letters.** 846 ends at `n`, 853 begins at `u`, leaving
+   `o p q r s t` — but leaf850 carries six notes and leaf851 one more. One of
+   the three illegible-marker notes is not in the lettered series. **Recorded as
+   a gap, not settled from the series** (rule 7).
+2. **leaf859 `ⁱ Psal. cx, 18.`** — certain reading, impossible reference (Ps. cx
+   has ten verses). Crux. Do not renumber.
+3. **leaf860 `ᵐ Psal. xxxiii, 2.`** — read at 8× against `9`. Neighbours run
+   13/14/15. Check the body when chunked; if they disagree, record, don't fix.
+4. **DOCTRINA XX never appears in a running head** (XIX at 1809, XXI at 1813).
+   Short Doctrina, or a misnumbered head. Read cols 1809–1814 when harvested.
+5. **The Epistolae begin in col 1837, not the 1838 `data/pg-works.json` gives.**
+6. **leaf864's BODY has never been read full-page** — `batch2-pages/manifest.json`
+   stops at 863. Its notes are swept; its text is not.
+7. **Migne's `/method` page** still owes a "why translate this way" argument and
+   sibling links (`NOTES-method-page.md`). Outward-facing; needs Wilson's OK.
 
-### Batch state
-- **Batch 2 (845–864): assembled, 80/80 bands, 3 plate corrections applied**
-  (`ἀτιμασθῇ`, `σεαυτόν;`, `Ἀββακοὺκ,`), 4 cruces recorded. Ready to chunk.
-- **Batch 1 (836–844): re-harvested full-page and blind** (the crop method was
-  retired 2026-08-05). 3,239 words agreed by two independent passes; 95.0–99.1%
-  per leaf. **Recovered 3 scripture citations the crops lost entirely**
-  (Matth. xix, 27 · Psal. cxviii, 96 · Psal. XXVII, 9), Migne's inline footnote
-  markers, and **bands 4/4 on every leaf** (was 836 none · 837 `ABCC` · 842
-  `ABCDA` · 843 `AB`). Old crop text is still at `raw/pg088/batch1/out/` as
-  witness A — **keep it**, the adjudication needs it.
-- **leaf838's 5 Greek lines are harvested and plate-verified**, closing the gap
-  where leaf837 broke off mid-clause at `…ἀλλ᾽ οὖν ἱκανὸν ἔσται`.
+### ⚑ Method findings worth carrying to other volumes
 
-### ⚠ OPEN FLAGS — carry these forward
-1. **`latinOnlyLeaves` is ALL-OR-NOTHING and that is a defect.** leaf838 is
-   flagged Latin-only and is not — it prints ~5 lines of Greek before Migne's
-   *Sequentia non habentur in Græco*. **Leaf 970 carries the same flag and has
-   NOT been checked.** The flag needs a partial state or a `greekEndsAt` marker
-   before any volume is harvested on the strength of it.
-2. **A NEW CRUX, unrecorded anywhere else: at col 1613 the Greek numbers the
-   Epistle's first section `Λ'.` (30) and the facing Latin numbers it `1.`** Both
-   read off the same segment. **Do NOT reconcile them** — it is Pattern 16
-   `[lat:]` material for whoever translates the Epistle.
-3. **The volume prints BOTH short forms of `Πατέρες`** — `Πάτρις` at col 1632,
-   `Πάτρες` at col 1628. Short by a syllable in each case but NOT the same
-   misprint twice. Record separately; never conform one to the other.
-4. **Two artifact classes now grepped for, keep grepping** (`PG-OCR-PROMPT.md`):
-   a band letter absorbed into the text as a Greek `Λ`, and the source edition's
-   BOLD pagination from the Latin column — which in brackets parses as a column
-   anchor (PG 88 runs 1611–1844).
-5. **Latin twins: still leave alone.** The x-split boundary must come from the
-   page image's ink profile, never from word-script medians. Unchanged.
-6. **Migne's `/method` page** still owes a "why translate this way" argument and
-   sibling links to actasanctorum.org + bonaventure — see `NOTES-method-page.md`.
-   Outward-facing; needs Wilson's OK.
-
-### ⚠ A CAUTION I EARNED THE HARD WAY THIS SESSION
-I claimed "Batch 1 is missing a whole leaf — column 1617 does not exist in our
-files", committed it, and pushed it. **It was wrong**: the column map's
-`latinOnlyLeaves` field explained the gap and I had not read it. The claim came
-from a file count against a leaf range with the plate never opened.
-**An audit that never opens the plate can invent a defect as easily as it can
-miss one.** Written into `PG-OCR-PROMPT.md`. Corrected in `91f3460`.
+- **The digits of this fount are decided by ONE STROKE.** `3` vs `5` turns on
+  which side the top bar descends; `2` has a closed loop and a detached base and
+  reads as `9` unmagnified. The retired crop pass got `Dan. xiv, 36/37` wrong as
+  56/57 on exactly this.
+- **Lettered markers are legible or they are featureless — nothing between.**
+  Every numbered marker examined on PG 88 is a blob. Both series behaved that
+  way again today, without exception.
+- **On notes, the crop witness only ever LOSES.** Five leaves' records were
+  wrong; all five were short. A note lives at the page's edges by design, which
+  is where a crop is blind.
+- **The running head is a work-boundary gate costing one crop per leaf** — but
+  match on CHANGE, never on equality: four distinct misprints of the author line
+  in this volume alone (`DOROPHEI`, `DAROTHEI`, `ABRATIS` ×2).
 
 ---
+
 
 ## ▶▶▶ 2026-08-05/06 HANDOFF — steps 1 and 2 are DONE, see the block above
 
