@@ -1989,5 +1989,116 @@
       "838": "WRONG TWICE, AND THE FLAG IS THE PROBLEM — corrected again 2026-08-06 against the plate (pdfPage 839, cols 1617-1618, running head 'DOCTRINA I.'). The leaf has THREE Greek runs, not one: (1) ~5 lines of Greek at the head of col 1617 — the tail of the Epistle plus the opening of the Life of Dositheus, carrying a 'c Prov. ix, 9' citation (marker c, NOT e as the head harvest recorded) — continuous with leaf837's Greek, which ends mid-clause at '...alla oun hikanon estai'; (2) then Migne's italic 'Sequentia non habentur in Graeco' and a long LATIN-ONLY stretch (the Life of Dositheus, which Migne's Greek column does not carry); (3) THEN GREEK RESUMES — the Doctrinae's own Greek title block (TOU EN AGIOIS PATROS [HMON DOROTHEOU] / DIDASKAL[IAI] / Peri apot[ages]) with its Latin twin 'SANCTI DOROTHEI ... DOCTRINA I ... De renunciatione', and then ~16 lines opening Doctrina I (\"A'. En arche hote epoiesen ho Theos ton anthropon, [B] etheto auton en to paradeiso...\") running to the foot of the column, where leaf839's Greek picks up. Band letters [A] and [B] are both on the leaf; the foot rule carries 'c Prov. ix, 9.' and 'd Gen. ii, 15.' NONE OF RUN (3) IS IN BATCH 1 — it is the Greek TITLE of the work and the opening of Doctrina I. DO NOT PATCH THIS FLAG: a boolean cannot express a leaf where a work ENDS and another BEGINS, which is exactly what happens here and is why the flag has now been wrong in two different directions. Replace it with per-run Greek spans before any volume is harvested on its strength. Leaf 970 carries the same flag and is STILL UNCHECKED.",
       "970": "both columns Latin, no Greek column — ⚠ NOT verified against the plate; leaf838 carried the same flag and proved partial (2026-08-06)."
     }
+  },
+  "headSweep": {
+    "when": "2026-08-07, Opus",
+    "what": "Every running head from leaf 865 to leaf 973 rendered at 600 dpi and read (8 stacked contact images). The head band sits at y≈190-460 on the untrimmed page.",
+    "result": "The column numbers run continuously and every readable head agrees with the map's parity prediction. All THREE re-scan boundaries are independently confirmed from the plate: leaf865→1659, leaf893→1695, leaf941→1779.",
+    "notPromoted": "These leaves are NOT added to anchorsPlateVerified wholesale. Some heads are faint at this rendering and the field means one thing precisely — a column number read off the plate for that leaf. The sequence as a whole is confirmed; individual faint leaves are not each certified.",
+    "doctrinaHeads": {
+      "II": [
+        1641,
+        1645,
+        1649
+      ],
+      "III": [
+        1653
+      ],
+      "IV": [
+        1657,
+        1661,
+        1665,
+        1669,
+        1673
+      ],
+      "V": [
+        1677,
+        1681
+      ],
+      "VI": [
+        1685,
+        1689,
+        1693
+      ],
+      "VII": [
+        1697,
+        1701,
+        1705
+      ],
+      "VIII": [
+        1709,
+        1713
+      ],
+      "IX": [
+        1717,
+        1721
+      ],
+      "X": [
+        1725,
+        1729
+      ],
+      "XI": [
+        1733,
+        1737,
+        1741
+      ],
+      "XII": [
+        1745,
+        1749,
+        1753,
+        1757
+      ],
+      "XIII": [
+        1761,
+        1765,
+        1769
+      ],
+      "XIV": [
+        1773,
+        1777,
+        1781,
+        1785
+      ],
+      "XV": [
+        1789
+      ],
+      "XVI": [
+        1793,
+        1797
+      ],
+      "XVII": [
+        1801
+      ],
+      "XVIII": [
+        1805
+      ],
+      "XIX": [
+        1809
+      ],
+      "XXI": [
+        1813
+      ],
+      "XXII": [
+        1821,
+        1825
+      ],
+      "XXIII": [
+        1829,
+        1833
+      ],
+      "_note": "Verso heads carry the author, recto heads the current Doctrina, so a Doctrina is only visible on every other leaf. These are the columns whose head names that Doctrina — a boundary lies between the last column of one and the first of the next, not exactly at either."
+    },
+    "doctrinaNeverInAHead": {
+      "XX": "⚠ FLAG, unresolved. The heads run … XIX at 1809 … XXI at 1813 …, with a verso head between. Doctrina XX would have to live inside cols 1810-1812 and never head a page. That is possible for a short Doctrina and it is also what a misnumbered head would look like. DO NOT resolve it from the sequence — read cols 1809-1814 when that stretch is harvested.",
+      "XXIV": "Not a flag: Doctrina XXIV's section heading is printed in the BODY low on leaf 969 (col 1835), and the next recto head is already EPISTOLÆ. It is simply short."
+    },
+    "runningHeadMisprints": {
+      "1667": "S. DOROPHEI ABBATIS (P for T). Verified at 600 dpi. Appears on BOTH scans of this column — leaf863 and its duplicate leaf869.",
+      "1807": "S. DAROTHEI ABBATIS (A for O).",
+      "1823": "S. DOROTHEI ABRATIS (R for B).",
+      "1839": "S. DOROTHEI ABRATIS (R for B).",
+      "_rule": "⛔ At least four distinct misprints of the author string. A work-boundary detector that greps the running head for a constant 'DOROTHEI ABBATIS' will fire false positives on all four. MATCH ON CHANGE, NOT ON EQUALITY."
+    },
+    "epistolaeStartColumn": "⚠ data/pg-works.json gives the Epistolae as 1838-1844. The plate puts the title block on leaf970 (cols 1837/1838) and the Greek of Ep. Α΄ in the LEFT column, which is 1837. So the Epistolae's Greek begins mid-column 1837, not at 1838. Recorded, not silently corrected."
   }
 }

@@ -1226,3 +1226,81 @@ move the standing rule forbids. What it does is make the col 1613 divergence
 *anomalous* rather than ordinary: Migne's normal practice, measured here, is for
 the two columns to agree at a first section. Whoever adjudicates col 1613 should
 weigh that, re-read the glyph, and record — not reconcile.
+
+---
+
+# The running-head sweep: 109 leaves read for the price of 109 crops (2026-08-07)
+
+Having found on leaf970 that **Migne's running head names the new work on the
+leaf where it begins**, the obvious next move was to read the heads for the
+whole unharvested span — 865 to 973, the end of the work. It cost eight stacked
+contact images and no agents. It is the cheapest thing done on this work so far
+and it returned the most structure.
+
+## What it confirms
+
+- **The column numbers run continuously to the end of the work**, and every
+  readable head agrees with the map's parity prediction.
+- **All THREE re-scan boundaries are independently plate-confirmed** —
+  leaf865→1659, leaf893→1695, leaf941→1779. Each shows the head jumping
+  *backwards* exactly as `rescanBoundariesPlateVerified` says it should. Before
+  today those rested on a different reading; now the head says so too.
+- **leaf863's `DOROPHEI` misprint appears on BOTH scans of col 1667** — leaf863
+  and its duplicate leaf869. That is a nice negative control: the duplicate
+  leaves really are the same plate re-shot, not a different setting.
+
+⚠ These leaves are **not** promoted into `anchorsPlateVerified` wholesale. Some
+heads are faint at this rendering, and that field means one precise thing — a
+column number read off the plate for that leaf. The sequence as a whole is
+confirmed; individual faint leaves are not each certified. Recorded instead
+under a new `headSweep` block.
+
+## What it gives that we did not have: the Doctrina map
+
+Recto heads carry the current Doctrina, so the work's structure falls out of the
+heads alone (columns whose head names that Doctrina):
+
+    II 1641-1649 · III 1653 · IV 1657-1673 · V 1677-1681 · VI 1685-1693
+    VII 1697-1705 · VIII 1709-1713 · IX 1717-1721 · X 1725-1729
+    XI 1733-1741 · XII 1745-1757 · XIII 1761-1769 · XIV 1773-1785
+    XV 1789 · XVI 1793-1797 · XVII 1801 · XVIII 1805 · XIX 1809
+    XXI 1813 · XXII 1821-1825 · XXIII 1829-1833
+
+**That is a chunking and translation-queue skeleton for the whole work, derived
+from the plate, before a single leaf of it is transcribed.** A boundary lies
+between the last column of one Doctrina and the first of the next — the head
+names what is *on* the page, so it locates a boundary to within two columns, not
+exactly.
+
+## ⚠ Two flags the sweep raises
+
+**1. DOCTRINA XX never appears in a running head.** The heads run `… XIX at
+1809 … XXI at 1813 …` with a verso head between them, so Doctrina XX would have
+to live entirely inside cols 1810–1812 and never head a page. That is perfectly
+possible for a short Doctrina — **and it is also exactly what a misnumbered head
+would look like.** ⛔ Do not resolve it from the sequence. Read cols 1809–1814
+when that stretch is harvested. (Doctrina XXIV is *not* a flag: its section
+heading is printed in the body low on leaf969, and the next recto head is
+already `EPISTOLÆ`. It is simply short.)
+
+**2. The Epistolae do not begin where the registry says.** `data/pg-works.json`
+gives `Epistolae 1838–1844`. The plate puts the title block on leaf970 (cols
+1837/1838) with the Greek of Ep. `Α΄` in the **left** column — which is **1837**.
+The Epistolae's Greek begins mid-column 1837. Recorded, not silently corrected.
+
+## ⚑ And the head is not a safe string to match on
+
+Four distinct misprints of the author line, all verified at 600 dpi:
+
+| col | prints | slip |
+|---|---|---|
+| 1667 | `S. DOROPHEI ABBATIS` | P for T |
+| 1807 | `S. DAROTHEI ABBATIS` | A for O |
+| 1823 | `S. DOROTHEI ABRATIS` | R for B |
+| 1839 | `S. DOROTHEI ABRATIS` | R for B |
+
+**A work-boundary detector that greps the head for a constant `DOROTHEI
+ABBATIS` fires a false positive on all four.** Match on *change* between
+consecutive leaves, never on equality to an expected string. This is the same
+lesson as the note markers in a different dress: **the thing you are matching
+against is itself a printed object, and printed objects are wrong sometimes.**
