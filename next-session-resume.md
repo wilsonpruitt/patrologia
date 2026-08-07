@@ -2,11 +2,9 @@
 
 ## ▶▶▶▶▶ 2026-08-07 SESSION 2 CLOSE — READ THIS BLOCK, THEN THE ONE DECISION.
 
-**Everything below this block is history.** Working tree is clean. **⛔ EIGHT
-commits are LOCAL AND UNPUSHED** (six from today, two from the prior session) — pushing to master is one of Wilson's
-protected actions and he was away; the exact command is
-`git push origin master`. Nothing was deployed and nothing is owed a deploy:
-all of today's work is source-side.
+**Everything below this block is history.** Working tree is clean and **master is
+PUSHED and in sync with origin** (Wilson gave the OK 2026-08-07). Nothing was
+deployed and nothing is owed a deploy: all of today's work is source-side.
 
 **Closed this session:** the whole Batch 2 foot-rule sweep (849–864, the runbook
 executed to "done") · `latinOnlyLeaves`, retired and replaced · leaf 970, the
