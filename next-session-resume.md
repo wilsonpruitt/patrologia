@@ -1,28 +1,76 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE — THE EPISTOLAE PIPELINE IS BUILT. TRANSLATION IS NEXT.
+## ▶▶▶▶▶ SESSION CLOSE — THE EPISTOLAE ARE TRANSLATED. THE BLIND READ IS NEXT.
 
-Working tree clean, **master pushed and in sync with origin**. Nothing deployed;
-nothing owed a deploy — all of this session's work is source-side.
+Committed on master, **not pushed**. Nothing deployed; nothing may be deployed
+until the polarity gate has a record for this work.
 
-### ▶ WHERE TO START: translate the Epistolae. One chunk, 812 words.
+### ▶ WHERE TO START: the blind polarity read of the Epistolae.
 
-Everything it needs now exists and is committed:
+    src/english/dorotheus-epistolae-ad-diversos/0001.md   ← translated 2026-08-08
+    src/english/dorotheus-epistolae-ad-diversos/cruces.md ← ⛔ DO NOT LET THE READER SEE THIS FIRST
 
-    src/greek/dorotheus-epistolae-ad-diversos/0001.md        812 words, cols 1837→1840→1841
-    src/greek/dorotheus-epistolae-ad-diversos/APPARATUS.md   ← POINT THE AGENT AT THIS
-    src/pg-latin/dorotheus-epistolae-ad-diversos/0001.md     facing Latin, cols 1838/1839/1842
-    data/pg-notes/pg088-epistolae.json                       11 notes, l–q and r–v
+Runbook step 4a: the read is **required**, it is against **both** columns
+(`src/greek/…` and `src/pg-latin/…`), and it must be **blind** — the checker
+forms findings first and reconciles against `cruces.md` afterwards, never before.
+The translator cannot do it. Then:
 
-Run it from `translation-runbook.md` with `translation-style.md` and a style
-anchor, **Opus** (authored prose — see `feedback_opus-for-authored-prose`). Then
-`node scripts/index-work-pg.mjs`, then the required blind polarity read, then the
-gate, then Wilson's OK to deploy (outward-facing).
+    node scripts/polarity-record.mjs dorotheus-epistolae-ad-diversos --chunks 1 --sites N [--ours N]
+    node scripts/index-work-pg.mjs dorotheus-epistolae-ad-diversos
+    node scripts/build-work-page-pg.mjs …   + the full deploy checklist (incl. build-cruces.mjs)
 
-⛔ **The translator must be told: the Greek carries NO `[n:]` markers and none may
-be added to it.** Migne keys every marker to the LATIN column. `[n:]` goes in the
-ENGLISH, at the close of the quotation each note cites. `APPARATUS.md` says all
-of this; hand it over rather than paraphrasing it.
+then Wilson's OK to deploy (outward-facing). An author bio for Dorotheus is not
+yet in `data/author-bios.json` — needed before deploy, not before the read.
+
+### ⛔⛔ WHAT THE TRANSLATION SESSION FOUND — read this before the 87-leaf fleet
+
+**A dropped negation, in the TRANSCRIPTION, unflagged.** Col 1840 (leaf971 l.10)
+had been transcribed `ἀλλ' ᾧ θέλω ἀντιστῆναί σοι`; the plate at 600 dpi prints
+**`οὐ`**, and the Latin prints *nolo*. Uncorrected, the page would have had
+Dorotheus say he *wished* to contend with the brother he is consoling.
+
+⚑ **This is `translation-style.md` 7a arriving one step upstream of where 7a
+looks for it.** The rulebook hunts the silent repair in the *translation*; this
+one was already in the Greek, so the English and the Greek would have agreed
+perfectly and no polarity read of the pair could ever have found it. On an
+our-OCR work the **unflagged** readings are the dangerous ones — this word
+carried no UNCERTAIN entry while three weaker readings on the same leaf did.
+**Corollary to rulebook 11: a confident transcription of a negation is still a
+negation. Polarity-bearing particles get a plate look whether or not they were
+flagged.** Add that to the fleet's transcriber prompt AND to its adjudication
+brief.
+
+**Three other plate corrections in the same pass**, each recorded in a
+`PLATE RE-READ` block at the foot of its leaf file: `κοπούσαι`→**`κοποῦσαι`**
+(circumflex; the word stops being unparsable and matches *laborabis valde*),
+`ἐπιρρίπτειν`→**`ἐπιῤῥίπτειν`**, `ἐπιρρίψωμεν`→**`ἐπιῤῥίψωμεν`**.
+
+⭐ **The last of those CLOSES the standing "do NOT harmonise" flag** (old open
+flag 5, below). ἐπιῤῥίψωμεν and ἐπίῤῥιψον **agree on the plate and always did** —
+this fount prints the breathings on the double rho, three times over. The
+divergence was ours. Nothing was harmonised; the plate was read.
+
+**Rendered as printed, not repaired:** Ep. VIII's *καινὸν οὐρανὸν … εὑρίσκει
+ἀνάπαυσιν* is missing its `οὐχ` — and **both columns print the affirmative**, so
+the defect is attributable to Migne rather than to us. The English says "he finds
+rest" in a sentence whose protasis denies him rest. Pattern 7, and the concurrence
+of the two witnesses is what makes it citable.
+
+### ⚠ PIPELINE TRAP found today
+
+**`chunk-work-pg-ours.mjs` REWRITES `manifest.json` and silently drops the
+`apparatus` block** that `attach-pg-notes.mjs` wrote into it (110 lines, all 11
+notes, gone on a re-chunk). Nothing errors and `verify-english-pg.mjs` cannot
+see it. **Always re-run `node scripts/attach-pg-notes.mjs <workKey>` after any
+re-chunk of a PG-ours work**, and check `git diff --stat` on the manifest.
+
+### ⚠ GENRE: this work has no anchor
+
+Terse ascetic letters of spiritual direction are not chronicle, dialogue, high
+homily or lemma-and-gloss. These eight letters were translated against the
+`antiochus-epistula-ad-eustathium` precedent and the general PG register rules.
+**If the Doctrinae run as a fleet, that genre needs a Fable anchor first**
+(runbook model policy) — and these letters are the natural material for it.
 
 ### ⛔ THE 87-LEAF FLEET NEEDS WILSON AGAIN, AT A NEW NUMBER
 
@@ -109,8 +157,9 @@ The pilot re-priced it. **Do not start the fleet on the old estimate.**
    13/14/15. Check the body when chunked; if they disagree, record.
 4. **DOCTRINA XX never appears in a running head** (XIX at 1809, XXI at 1813).
    Short Doctrina or a misnumbered head — read cols 1809–1814 when harvested.
-5. **leaf972 `ἐπιρρίψωμεν`** breathing on the ῥ, against the clearly-printed
-   `ἐπίῤῥιψον` two lines later. **Do not harmonise them.**
+5. ~~**leaf972 `ἐπιρρίψωμεν`** breathing on the ῥ~~ — ✅ **CLOSED 2026-08-08.**
+   The plate prints `ἐπιῤῥίψωμεν`; it agrees with `ἐπίῤῥιψον`. Ours was the
+   divergence. See the session-close block at the top.
 6. **leaf864's BODY has never been read full-page** (`batch2-pages/manifest.json`
    stops at 863). Its notes are swept; its text is not.
 7. **Batches 1 and 2 (leaves 836–864) are still unchunked.** The chunker now
