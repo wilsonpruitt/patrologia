@@ -7,8 +7,10 @@ across agents will drift on its load-bearing vocabulary and no agent can see the
 others — reconciling that is a required pipeline step (`translation-runbook.md`
 step 4), not a tidy-up.
 
-Work totals: **139 `[var:]` · 17 `[sic:]` · 1 `[ed:]` · 0 `[d:]` · 0 `[nt:]` ·
-0 `[f:]`.** `verify-english.mjs` clean at 35/35. EN/LA ratios 1.35–1.63.
+Work totals **after the blind read's repairs** (§8): **138 `[var:]` · 18 `[sic:]` ·
+1 `[ed:]` · 0 `[d:]` · 0 `[nt:]` · 0 `[f:]`.** As first translated: 139 / 17 / 1 —
+one `[var:]` was deleted as spurious and one `[sic:]` added that had been missing.
+`verify-english.mjs` clean at 35/35. EN/LA ratios 1.35–1.63.
 
 ---
 
@@ -191,3 +193,171 @@ where the range given a strong but generic "read every lemma carefully" produced
 
 The blind read will test that. Until it runs, this number is an input, not a
 result.
+
+---
+
+## §8 · BLIND POLARITY READ — 2026-08-08, three readers, reconciled
+
+Runbook step 4a. **One** reading pass over every chunk, split across three Opus
+readers (0000–0011, 0012–0023, 0024–0034), each carrying BOTH lenses — negation/
+scope and quotation-fidelity/markers — and each fenced off from this file, the six
+range files, `next-session-resume.md` and git history. Findings were formed blind
+and reconciled here afterwards, never before.
+
+**46 sites, 37 ours.** Final markers after repair: **138 `[var:]` · 18 `[sic:]` ·
+1 `[ed:]`.**
+
+### ⭐ The result that matters: the prose is sound; the defects were in the apparatus
+
+**Two of the three readers found NO dropped negation and NO substituted-opposite
+anywhere in their ranges** — 23 chunks between them — having checked every printed
+negation particle, including at the places where carrying one makes the sentence
+contradict its own neighbour. The third found **one**, below.
+
+That is the 7a″ profile the genre predicts, and it is the opposite of a homily
+collection's. The failures clustered in three places nobody had looked for them:
+**our own `[var:]` markers**, **cross-agent convention drift**, and **head
+punctuation** — none of which a negation-hunting read would have surfaced.
+
+### The one polarity finding — a negative particle whose force was dropped
+
+**0023 @0559C, 1 Reg. 12:23 — mechanism 3, which leaves no lexical trace.**
+Migne prints *« Absit hoc peccatum a me in Domino, **quo minus** cessem orare pro
+vobis… »*; the Vulgate has *ut cessem*. The English read "that I should cease to
+pray for you" — **the Vulgate's clause, not Migne's**, silently dropping the
+negative element *quominus* carries. Nothing looked wrong: the sentence was
+smooth, the citation right, the verifier green. Aggravating it, the accompanying
+`[var:]` elided precisely that clause behind an ellipsis, so the divergence was
+neither rendered nor marked anywhere on the page.
+**Fixed** — the English now reads "that I should **not** cease", and the `[var:]`
+names *ut cessem* and states that Migne's *quo minus* reverses the clause.
+
+### Repaired — ours (the rest)
+
+**Marker defects — a class no previous work in this corpus has surfaced, because
+no previous blind read was told to audit the MARKERS rather than the prose:**
+- **A `[var:]` that manufactured a divergence that does not exist** (0015 @0526A,
+  Luc. 1:68). It asserted Migne diverges by printing *Dominus* — but the
+  Clementine, this edition's base witness, prints *Dominus* too. **Deleted.**
+- **A `[var:]` quoting a "Vulgate" that exists in no edition** (0025, Prov. 17:3)
+  — a hybrid of the Clementine's *Sicut igne probatur* and the Stuttgart's
+  *quomodo probatur in conflatorio*. Replaced with the Clementine verbatim.
+- **A `[var:]` asserting a divergence in the wrong direction** (0026, Joan. 17:5):
+  it claimed an "accusative" divergence that is a Clementine/Stuttgart split, not
+  Migne's, while missing the real one — Migne drops *apud te*. Rewritten.
+- **A `[var:]` citing the wrong chapter in our own note** (0032): *nolo mortem
+  impii* is Ezech. 33:11; 18:23 reads *numquid voluntatis meae est mors impii*.
+  Corrected — this is OUR note, so `refDisplay`'s "keep what Migne prints" does
+  not shelter it.
+- **A `[var:]` annotating nothing a reader can see** (0016, Cant. 2:16): *in
+  liliis* against *inter lilia* has no English exponent, and the marker's gloss
+  repeated the running English word for word. **Demoted to this crux** — the page
+  was asserting a divergence it could not show.
+- **Two `[var:]` markers stranded 25 and 60 words downstream** of the quotations
+  they annotate (0018, 0034). Both moved to the close of their quotation.
+- **A `[sic:]` on a word that had ALSO been translated** (0023 @0558A,
+  *repacicavit*): the English rendered "made peace again" *and* appended a
+  detached `[sic:]` at sentence end. Pattern 12's operational test forbids both —
+  "rendered as printed" means no marker, "carried untranslated" means the marker
+  wraps the run. ⚠ **The `[sic:]` content was a verbatim Latin substring, so
+  `verify-english` passed it: this defect is invisible to the verifier.** Now
+  carried inside the marker.
+- **A carried non-word with no marker at all** (0001 @0494D, *constit*) and **two
+  `[sic:]` markers missing their italics** (0008 *victuram*, 0009 *vestitvit*) —
+  the verifier strips asterisks, so these too passed silently.
+- **One unmarked material divergence added** (0028 @0568C, Psal. 119:5): Migne
+  prints *cum **habitantibus** Cedar*, the Vulgate *habitationibus* — dwellings,
+  not inhabitants — and Philip's gloss immediately personalises it, *id est cum
+  his qui tenebras diligunt*. The exposition rests on Migne's word.
+
+**Cross-agent drift the §2 merge had missed** — all found by readers checking
+against ranges no translator could see:
+- ***charismata* rendered THREE ways**: "charisms" (0000, 0004), "graces" (0017),
+  "free gifts" (0019 ×2, 0022). Normalized to **charisms**, which keeps *gratia*
+  = grace and *dona* = gifts distinct.
+- ⭐ ***oleum splendoris* rendered two ways** — "oil of **splendour**" (0015 ×5,
+  0016) against "oil of **brightness**" (0008, 0018). **This one is load-bearing
+  and is the §4 finding's own vocabulary**: Philip's argument at 0528C is that
+  Zechariah adds *splendoris*, and it runs "Splendour therefore is the Father,
+  splendour is the Son, splendour none the less is the Holy Spirit". A second
+  English word for the same Latin breaks the chain the argument is made of.
+  Normalized to **splendour**.
+- **Joan. 16:33 *Confidite*** — "Have confidence" (0004) vs "Be of good heart"
+  (0008). Normalized to the first, which is also the received English.
+- ***sacra Scriptura* → "sacred Scripture"** at 0016 @0529D. ⚠ **The §2 Pattern 3
+  sweep matched *divina* and *holy* and missed *sacra* entirely** — a sweep is
+  only as wide as its pattern list.
+- **`RECAPITULATIO A SUPERIORIBUS` rendered FOUR ways** across 23 heads: "FROM
+  WHAT WENT BEFORE" · "FROM WHAT PRECEDES" · "FROM WHAT IS ABOVE" · "FROM THE
+  FOREGOING" — one per agent, and the most visible drift in the work, since heads
+  land in the TOC and in `heads[]` indexing. Normalized to **FROM THE FOREGOING**
+  (15 heads). ⚠ 0023/0024 are NOT part of it: their Latin reads `RECAPITULATIO
+  SECUNDUM ANAGOGEN`, with no *a superioribus* to render.
+
+**Two mis-renderings of ordinary words:**
+- **0017 @0534D *repetitur* → "found"**, which is *reperitur*. *Repetitur*
+  construes perfectly ("is repeated"); Pattern 12 is explicit that a real word
+  merely wrong is rendered **as printed**. Now "is repeated".
+- **0028 @0569C *Ista ergo nos oportet **omnia** … possidere*** → "it behooves
+  **us all**". *Omnia* is neuter accusative and modifies *ista*, the things
+  possessed, not *nos*. Now "All these things therefore it behooves us…".
+
+**Head punctuation, Pattern 8 — seven supplied marks removed.** Colons supplied
+where Migne prints commas (0012, 0013, 0032, 0033, 0034), a comma supplied where
+he prints none (0017, 0027).
+
+### ⚠ A reader recommendation DECLINED, after checking
+
+One reader reported *QUALITER* as rendered inconsistently ("HOW" vs "IN WHAT
+MANNER") and recommended picking one form work-wide. **Declined — the Latin uses
+two different words**, and pairing every head against its source shows the English
+was tracking them correctly: **QUOMODO → "HOW"** (0009, 0010, 0011, 0012, 0027),
+**QUALITER → "IN WHAT MANNER"** (0013, 0016, 0032, 0033, 0034). Collapsing them
+would have destroyed a distinction the plate makes. **Only 0026 was actually
+wrong** — QUALITER rendered "HOW" — and that one instance is fixed. A
+majority-rule "fix" here would have been a silent normalization of Migne.
+
+### Confirmed correct, no action — recorded so a later sweep does not churn them
+
+- **The colour triple holds across two agents and 60 instances**: *nigra* = black
+  (32/32), *fusca* = swarthy (9/9), *formosa* = comely. Including 0025's
+  *si inter tribulationes **fusca**, id est **nigra** appareo* — the one sentence
+  where collapsing them would be fatal.
+- **Every guillemet asymmetry is Migne's and is mirrored, not balanced**: unclosed
+  « at 0532C, 0552B, 0565A, 0579D; stray/orphan » at 0552C, 0557C, 0568D, 0572D.
+  All three readers checked open/close counts against the Latin, not against
+  English expectation.
+- **The typography seam is handled faithfully on both sides** — and the hardest
+  case is the one a translator would most naturally have tidied: at 0015 @0525A
+  Migne marks the lemma **not at all**, and the English supplies straight quotes
+  (ours) rather than guillemets. It wasn't tidied.
+- **Migne's lower-case after a misplaced full stop** stands in all eight places
+  (see §3).
+- 0020's Gen. 1:1 printed three ways in one chunk — *fecit* / *creavit* / *Fecit*
+  — rendered "made / created / made" respectively, unconformed.
+- 0014's Rom. 9:5 printed once **without** *Deus* and once **with** it, rendered
+  accordingly, unconformed in either direction.
+
+### ⬜ OWED — measured, not done
+
+**`[var:]` reference format is inconsistent work-wide**: 71 markers use the roman
+`Vulg. Zach. IV, 14` form, 59 use arabic `Vulg. Zach. 4:14`, and 8 carry no
+reference at all (which Pattern 14's own worked example also does, so it is
+permitted). The same verse appears as `Isa. LIII, 5` at 0014 and `Isa. 5:3` at
+0023. **Deliberately not swept**: both forms name the verse correctly, so this is
+presentation in our own apparatus rather than a claim about the text, and
+regex-rewriting 130 markers at speed risks damage out of proportion to the gain.
+Do it deliberately, with a tested script, and prefer the **arabic** form — it
+distinguishes our note from Migne's roman `[n:]` by eye, which is the Pattern 6
+principle applied to the apparatus.
+
+Smaller, left for the same pass: three unbracketed English glosses on italic Latin
+(0015 @0525D, @0528C; 0016 @0530C — *Eleos … misericordia*, **mercy**), where our
+voice sits unmarked in running text; and a handful of commas promoted to
+semicolons inside quotations (0014 head, 0016 @0528D, @0529A, 0019 @0543A).
+
+⚠ **One attribution could not be settled from our files** and is NOT recorded as
+either: the deleted semicolon in *ideoque; audacter aiebat* (0018 @0542B) is
+either Migne's plate or the TEI transcription. If the plate carries it, Pattern 8
+forbids the deletion; if the TEI invented it, it is a `tei-patches` question. It
+needs the leaf — the same plate check already owed at §6.
