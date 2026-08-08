@@ -1478,3 +1478,41 @@ because its inferences outrank a transcriber's eyes. **Where a transcriber
 reports what it SAW and the adjudicator answers with what it INFERRED, the
 transcriber wins until the plate says otherwise.** Nothing in the pipeline
 enforced that today except the index turning up by luck.
+
+## Epistolae pilot — the Opus adjudication (2026-08-07)
+
+⚑ **First finding: the queue was much smaller than it looked, and that is a
+finding about the flagging, not about the leaves.** Of ~15 flagged items, only
+six were adjudication questions at all.
+
+**The other nine are NOT defects and must not be "resolved."** In every one the
+transcriber says the LETTERS are certain and only the FORM is odd — `κοπούσαι`,
+`εὑρίθησεν` for expected `εὑρέθησαν`, `ἀξιοῦσαι`, `μνησικαχίας` for expected
+`μνησικακίας`, `καθητάς`, `τοὺς` where the title pattern wants `τῶν`,
+`συν-ετὸς` hyphenated at an odd point. Under the overriding rule a
+certain-letters / odd-form reading **is the scholarly payload**, not a defect:
+it stays as printed and becomes a crux for the translator. The agents did
+exactly the right thing and the adjudicator's job here is to *decline* to act.
+
+⚠ **So "flagged item" and "adjudication item" are different counts**, and a
+future session sizing an adjudication pass from raw flag counts will
+over-estimate it. Roughly 60% of this pilot's flags were correct readings
+correctly doubted.
+
+### The six real glyph questions, and their dispositions
+
+| item | disposition |
+|---|---|
+| leaf971 note `ˡ Matth. vi, **34**` | ✅ **CONFIRMED 34.** Pixel map: the stroke descends on the RIGHT after the top bar — this fount's flat-top `3`. A `5` descends on the LEFT (leaf859 `n. 52`). Settled structurally, NOT from Matthew having 34 verses. |
+| leaf972 marker `ᵘ` | ✅ **CONFIRMED `u`** at 5×: two stems joined at the bottom, x-height, no ascender. Not the "blot/quote-like shape" the transcriber feared. |
+| leaf970 band `[D]` | ✅ **CONFIRMED, and the transcriber's own doubt was wrong** — see FINDING 1 above. Bands belong to the column, not the script. |
+| leaf972 `Σαρακηνῶν` κ/χ | ✅ **CONFIRMED κ by the Latin twin** — copyA prints `etiam Saracenorum corda flectet`. One grep. |
+| leaf972 `ἐπιρρίψωμεν` breathing on ῥ | ⛔ **OPEN.** The imperative `ἐπίῤῥιψον` two lines later is clearly printed with the breathing; the subjunctive may or may not match. Do NOT harmonise them — a difference between the two is exactly the kind of thing this edition does. |
+| leaf972 numeral `Ϛ'` | Not a reading question: the value is fixed by the facing Latin `VI.`. The letterform is unusual (nearer a script capital G) and is worth comparing against other `Ϛ` in this fount when one turns up. |
+
+⚑ **The twin paid for itself on its first use.** `Σαρακηνῶν` was flagged
+precisely because the transcriber had no second instance on the leaf to run the
+baseline test against — and the Latin, extracted free from copyA an hour
+earlier, settled it in one grep. **This is the argument for building the twin
+BEFORE the 87-leaf fleet, not after: it retires κ/χ and proper-noun flags at
+zero marginal cost, and those are a standing share of every leaf's queue.**
