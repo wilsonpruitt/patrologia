@@ -1,29 +1,22 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE — DOROTHEUS IS LIVE. PG IS PAUSED; PL IS NEXT.
+## ▶▶▶▶▶ SESSION CLOSE — TWO WORKS SHIPPED. PG PAUSED; PL QUEUE RUNNING.
 
-`master` **pushed and in sync with origin** (`f573c79..0da2041`).
-**migne.app deployed and verified 2026-08-08** — `dpl_4Zjbdes8q4u47sRAXaUkprjRHo3J`.
-Site now serves **100 englished works**; `/scripture/` reads 3,480 citations.
+`master` **pushed through `0da2041`**; four later commits are **local only**.
+**migne.app deployed twice on 2026-08-08** — Dorotheus
+(`dpl_4Zjbdes8q4u47sRAXaUkprjRHo3J`) and Philip of Harvengt
+(`migne-9513ziaqt`). Site now serves **100 englished works · 3,945 scripture
+citations · 97 cruces pages · 45 PL volumes + 4 PG**.
 
-### ▶ WHERE TO START: the PL queue. ⏸ THE PG QUEUE IS PAUSED (Wilson, 2026-08-08).
+### ▶ WHERE TO START: the next PL work. ⏸ PG STAYS PAUSED (Wilson, 2026-08-08).
 
-Do **not** resume PG work — no Glabas IV, no second Oecumenius unit, and above
-all **not the 87-leaf Dorotheus Doctrinae harvest** — until Wilson reopens it.
-Everything PG is clean and parked; nothing is half-done anywhere.
-
-**The live list is `/queue/`**, derived from `src/latin/` minus `src/english/`.
-The Song-of-Songs table in `translation-runbook.md` was refreshed from disk on
-2026-08-08 — ⚠ it had been wrong in BOTH directions, listing three shipped works
-as remaining and missing two prepared ones. Regenerate from disk, do not trust a
-table.
-
-**Nine prepared PL works, smallest first. Nothing is partially translated.**
+`/queue/` is the live list — **8 prepared works, 788,020 words** left. Smallest
+unblocked first; every one trips the big-burn hard stop, so state the work, chunk
+count and estimated burn and ask "which model, and go?" before launching.
 
 | idno | PL | author | work | chunks | est. burn | badge |
 |---|---|---|---|---|---|---|
 | 9637 | 138 | *Auctor incertus* | Ordo ad regem benedicendum | 2 | ~40K | First |
-| 11638 | 203 | Philip of Harvengt | Moralitates in Cantica | 35 | ~700K | First |
 | 6963 | 15 | (Ps.-)Ambrose | Commentarius in Cantica | 40 | ~800K | First |
 | 11550 | 196 | Richard of St Victor | Explicatio in Cantica | 48 | ~960K | First |
 | 11535 | 196 | Richard of St Victor | De eruditione hominis interioris | 58 | ~1.16M | **New** |
@@ -32,52 +25,48 @@ table.
 | 11632 | 203 | Philip of Harvengt | Commentaria in Cantica | 126 | ~2.5M | First |
 | 11703 | 206 | Thomas the Cistercian | Commentaria in Cantica | 259 | ~5.2M | First |
 
-⛔ **Every one of these trips the big-burn hard stop.** State the work, chunk
-count and estimated burn, and ask "which model, and go?" before launching.
+⭐ **11632 is now the best-prepared of these**: same author as the work just
+shipped, so `cruces.md` §2 hands it a ruled vocabulary (*tomus* = Tome, *liber* =
+book, *charismata* = charisms, the colour triple) and §4 hands it Philip's own
+Bible (Zech 4:14 *splendoris*, Gen 3:19 *Terra es*). It is 126 chunks, though.
+⚠ **9637 stays blocked** on a Fable mini-pilot: a coronation ordo is a liturgical
+genre `translation-style.md` has never been calibrated on. Skipped four times now.
 
-⚠ **9637 is blocked, not merely small.** A coronation ORDO is a liturgical/
-rubrical genre `translation-style.md` has never been calibrated on, so it needs a
-**Fable mini-pilot** before Opus touches it. It has been correctly skipped three
-times; skipping it again without saying why is how it becomes invisible.
+### THE METHOD RESULT FROM 11638 — carry it into every commentary
 
-⚠ **11535 is not a Song commentary** (Richard on Nebuchadnezzar's dream) and its
-`workStatus` is `unclear`, so it ships the **"New English translation"** badge.
-Every other row is a verified `none` and earns "First".
+**Hand each agent a verbatim list of every quotation printed in ITS range**,
+extracted mechanically from the Latin, and say the divergence list is the most
+valuable thing it will produce. 602 extracted; **138 `[var:]` shipped**, plus
+~120 quotations logged as collated-and-unmarked so a missing marker is evidence.
+The blind read then found **no dropped negation in 23 of 35 chunks and one in the
+rest** — the prose held.
 
-✅ **Corrected 2026-08-08:** 10379 Robert of Tombelaine is **complete, 3/3**. The
-"paused mid-pilot" line carried here for weeks was stale.
+⛔ **The defects were in OUR APPARATUS, and `verify-english` cannot see them.**
+A `[sic:]` on a word that was ALSO translated passes (its content is a verbatim
+Latin substring). A `[sic:]` missing its italics passes (the verifier strips
+asterisks). A `[var:]` can assert a divergence that does not exist, quote a
+Vulgate found in no edition, cite the wrong chapter, or sit 60 words from its
+quotation — and nothing checks any of it. **Point one blind reader at the MARKERS,
+not only the prose, on every future commentary.**
 
-### ⬜ Carried over from the PG block — small, unblocked, not urgent
+⚑ **And a sweep is only as wide as its pattern list**: the merge's Pattern 3 sweep
+matched *divina* and *holy* and missed *sacra* entirely.
 
-- **`antiochus-epistula-ad-eustathium` violates the new Pattern 17** — 21 singular
-  addresses to Eustathius rendered "you", and it is LIVE. Convert on next touch,
-  or rule that it stays. No other work has been checked in that direction.
-- **Migne's `/method` page** still owes a "why translate this way" argument and
-  sibling links (`NOTES-method-page.md`). Outward-facing; needs Wilson's OK.
+### ⬜ OWED on 11638 — none of it blocking
 
-### ⛔⛔ WHAT THE DOROTHEUS RUN FOUND — carry these into any future harvest
+1. **Three plate reads of PL 203**: col. 494D (loss verified upstream in
+   `sources/pl/tei/11638.xml`, so a `tei-patches` entry if the plate carries
+   more), col. 523C–D (a lost clause), col. 542B (a deleted `ideoque;` that is
+   either Migne's or the TEI's).
+2. **`[var:]` reference format is split work-wide** — 71 roman, 59 arabic, 8 with
+   none. Measured, deliberately not swept; prefer arabic, use a tested script.
+3. Three unbracketed English glosses on italic Latin (0015, 0016).
 
-1. **A dropped negation in the TRANSCRIPTION, unflagged.** Col 1840 was read
-   `ἀλλ' ᾧ θέλω`; the plate prints **`οὐ`** and the Latin prints *nolo*. Style 7a
-   arriving one step upstream of where 7a looks: the English and the Greek would
-   have agreed perfectly, so no polarity read of the pair could have found it.
-   **On an our-OCR work the UNFLAGGED readings are the dangerous ones** — this
-   word carried no UNCERTAIN entry while three weaker readings on the leaf did.
-2. **Our OCR invented an ano teleia, and Pattern 8 protected it.** The mark was
-   the word's own final sigma. A conscientious translator carries an invented
-   stop through as the plate's own punctuation. This fount's final sigma is a
-   middle-point lookalike → into the transcriber prompt.
-3. **The scripture indexer was rewarding infidelity** (fixed). Migne sets
-   footnote chapters in lowercase roman; every numeral class was uppercase-only,
-   and the guard shared the blind spot. Antiochus indexed because its transcriber
-   silently uppercased; Dorotheus, faithful, indexed none of its eleven.
-4. **`chunk-work-pg-ours.mjs` wrote a manifest the builder could not read**
-   (fixed): missing descriptive head → `NaN–NaN` in the page title → and because
-   `build-cruces.mjs` matches on that title, the apparatus went unpublished. The
-   404-cruces trap by a second route. It now also preserves the apparatus across
-   a re-chunk, and warns loudly when the chunk shape moved.
-5. **Pattern 17 ruled:** thou = singular, you = plural, a number marker not a
-   reverence marker.
+### ⬜ OWED elsewhere
+- **`antiochus-epistula-ad-eustathium` violates Pattern 17** — 21 singular
+  addresses to Eustathius as "you", and it is LIVE. Convert or rule it stays.
+- **Migne's `/method` page** owes a "why translate this way" argument and sibling
+  links (`NOTES-method-page.md`). Outward-facing.
 
 # ⚠⚠ EVERYTHING BELOW THIS LINE IS HISTORY ⚠⚠
 #
