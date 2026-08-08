@@ -84,9 +84,16 @@ for (const file of chunkFiles) {
     rows.push({ chunk, kind, col: colFor(index), text: clean, at: index });
   };
 
+  // Spans we have already covered, so the third pass below can tell what it is
+  // NOT seeing. Recorded as [start, end) over the body.
+  const covered = [];
+
   // Guillemets. Migne opens « and closes »; a [n: ...] note routinely sits
   // INSIDE the closing guillemet and is part of the printed span.
-  for (const m of body.matchAll(/«([^»]*)»/g)) push('guillemet', m[1], m.index);
+  for (const m of body.matchAll(/«([^»]*)»/g)) {
+    push('guillemet', m[1], m.index);
+    covered.push([m.index, m.index + m[0].length]);
+  }
 
   // Italics. Heads are already italicised wholesale by the chunker in some
   // works, so skip any match that begins a '## ' line.
@@ -94,9 +101,42 @@ for (const file of chunkFiles) {
   let offset = 0;
   for (const line of lines) {
     if (!line.startsWith('## ')) {
-      for (const m of line.matchAll(/\*([^*]+)\*/g)) push('italic', m[1], offset + m.index);
+      for (const m of line.matchAll(/\*([^*]+)\*/g)) {
+        push('italic', m[1], offset + m.index);
+        covered.push([offset + m.index, offset + m.index + m[0].length]);
+      }
     }
     offset += line.length + 1;
+  }
+
+  // ⭐ THE THIRD CLASS — a quotation Migne marks with NEITHER guillemets nor
+  // italics, carrying only its [n:] note. Found by the 0012–0017 agent on
+  // 2026-08-08: Rom. 8:10 at 0226B prints *propter justitiam* for the Vulgate's
+  // *propter iustificationem*, set naked in Philip's own sentence, and he then
+  // expounds the divergent phrase eight lines later — a live 7a″ case that the
+  // first two passes could not see at all. The agent found it only by reading
+  // the notes against the prose after finishing the listed collation.
+  //
+  // We cannot determine the quotation's OPENING mechanically — that is exactly
+  // what the marks would have told us — so we do not pretend to. We emit the
+  // clause running up to the note and say plainly that its left edge is
+  // undetermined. A span the reader must bound is far better than a span the
+  // reader never sees.
+  const isCovered = (i) => covered.some(([s, e]) => i >= s && i < e);
+  for (const m of body.matchAll(/\[n:[^\]]*\]/g)) {
+    if (isCovered(m.index)) continue;
+    const before = body.slice(0, m.index);
+    // Back up to the nearest strong stop, then forward past any anchor/markup.
+    const stop = Math.max(
+      before.lastIndexOf('. '),
+      before.lastIndexOf('; '),
+      before.lastIndexOf(': '),
+      before.lastIndexOf('»'),
+      before.lastIndexOf('\n')
+    );
+    const clause = body.slice(stop + 1, m.index).replace(ANCHOR, ' ');
+    if (clause.replace(/\s+/g, ' ').trim().split(' ').length < 2) continue;
+    push('noted', clause, m.index);
   }
 }
 
@@ -117,8 +157,9 @@ for (const range of ranges) {
   lines.push('');
   lines.push(
     `Extracted mechanically from \`src/latin/${idno}/\`. **${mine.length} spans** in your range: ` +
-      `${mine.filter((r) => r.kind === 'guillemet').length} guillemeted, ` +
-      `${mine.filter((r) => r.kind === 'italic').length} italicised.`
+      `${mine.filter((r) => r.kind === 'guillemet').length} guillemeted «…», ` +
+      `${mine.filter((r) => r.kind === 'italic').length} italicised *…*, ` +
+      `${mine.filter((r) => r.kind === 'noted').length} noted-only.`
   );
   lines.push('');
   lines.push(
@@ -127,6 +168,21 @@ for (const range of ranges) {
       'scripture — deciding which is which is your judgment, not the script\'s. ' +
       'What the script guarantees is that **no quotation printed in your range ' +
       'reaches you unlisted.**'
+  );
+  lines.push('');
+  lines.push(
+    '⭐ **The `noted-only` class is the one to read hardest.** These are ' +
+      'quotations Migne marks with NEITHER guillemets nor italics — they carry ' +
+      'only their `[n:]` note, sitting naked inside the author\'s own sentence. ' +
+      'They were invisible to this script until 2026-08-08, when an agent found ' +
+      'Rom. 8:10 at 0226B printing *propter justitiam* for the Vulgate\'s ' +
+      '*propter iustificationem*, with the author expounding the divergent ' +
+      'phrase eight lines later. **The script cannot determine where such a ' +
+      'quotation BEGINS** — that is precisely what the missing marks would have ' +
+      'told it — so what is printed below is the clause running up to the note, ' +
+      'with its left edge undetermined. Find the real opening yourself, and ' +
+      'expect some of these to be the author\'s own prose rather than a ' +
+      'quotation at all.'
   );
   lines.push('');
   lines.push(
@@ -150,7 +206,7 @@ for (const range of ranges) {
       continue;
     }
     for (const r of inChunk) {
-      const mark = r.kind === 'guillemet' ? '«…»' : '*…*';
+      const mark = r.kind === 'guillemet' ? '«…»' : r.kind === 'italic' ? '*…*' : '[n:]-only ⭐';
       lines.push(`- **${r.col}** ${mark} — ${r.text}`);
     }
     lines.push('');
