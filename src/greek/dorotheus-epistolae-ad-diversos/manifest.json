@@ -57,11 +57,121 @@
         "B",
         "C",
         "D"
+      ],
+      "apparatus": [
+        {
+          "greekColumn": 1837,
+          "latinColumn": 1838,
+          "notes": []
+        },
+        {
+          "greekColumn": 1840,
+          "latinColumn": 1839,
+          "notes": [
+            {
+              "marker": "l",
+              "markerState": "read",
+              "confidence": "moderate-high",
+              "text": "Matth. vi, 34.",
+              "latinAnchor": null,
+              "adjudicated": "⚠ The VERSE NUMBER was the transcriber's lowest-confidence reading (ink-damaged) and is now CONFIRMED 34 by pixel map: the stroke descends on the RIGHT after the top bar, which is this fount's flat-top 3. A 5 descends on the LEFT (cf. `n. 52` on leaf859). Settled structurally, NOT from Matthew having 34 verses. ⚑ Note that copyA's OCR of this same line reads `Ma th. vi, 54.` — the machine made exactly the error the plate reading rules out."
+            },
+            {
+              "marker": "m",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Ephes. iii, 20.",
+              "latinAnchor": null
+            },
+            {
+              "marker": "n",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Act. xiv, 21.",
+              "latinAnchor": null
+            },
+            {
+              "marker": "o",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Sap. xi, 27.",
+              "latinAnchor": null
+            },
+            {
+              "marker": "p",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Matth. viii, 26.",
+              "latinAnchor": null
+            },
+            {
+              "marker": "q",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Philipp. iv, 7.",
+              "latinAnchor": null
+            }
+          ]
+        },
+        {
+          "greekColumn": 1841,
+          "latinColumn": 1842,
+          "notes": [
+            {
+              "marker": "r",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Ezech. xxxiii, 11.",
+              "latinAnchor": "…sed ut convertatur et vivat ʳ.",
+              "anchorCorroborated": "copyA's OCR preserves a `*` at exactly this point."
+            },
+            {
+              "marker": "s",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Matth. ix, 13.",
+              "latinAnchor": "…ad pœnitentiam ˢ.",
+              "anchorCorroborated": "copyA's OCR preserves a `*` at exactly this point."
+            },
+            {
+              "marker": "t",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Psal. liv, 23.",
+              "latinAnchor": "…ipse enutriet nos et salvabit ᵗ. (end of Ep. VI)"
+            },
+            {
+              "marker": "u",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Matth. vi, 34.",
+              "latinAnchor": "…Ne quis curet de crastino ᵘ.",
+              "adjudicated": "The transcriber flagged this marker at MODERATE confidence ('a small blot/quote-like shape, not a clean letter'). CONFIRMED `u` at 5×: two stems joined at the bottom, x-height, no ascender or descender.",
+              "anchorCorroborated": "copyA's OCR preserves a `*` at exactly this point."
+            },
+            {
+              "marker": "v",
+              "markerState": "read",
+              "confidence": "high",
+              "text": "Psal. liv, 23.",
+              "latinAnchor": null,
+              "comment": "Same verse as note t — Migne cites Psal. liv, 23 twice on this column. Not an error to reconcile; two separate quotations."
+            }
+          ]
+        }
       ]
     }
   ],
   "words": 812,
   "validation": {
     "ok": true
+  },
+  "apparatus": {
+    "source": "data/pg-notes/pg088-epistolae.json",
+    "keyedTo": "latin",
+    "contract": "⛔ As throughout PG 88, every marker is printed in the LATIN column. No superscript appears anywhere in the Greek. The Greek chunks therefore carry NO [n:] markers — there is nothing in them to key one to. These notes attach to the ENGLISH at translation time.",
+    "howToPlace": "⚑ THE NOTE'S OWN CITATION IS ITS LOCATOR. Migne prints the marker at the CLOSE OF THE SCRIPTURE QUOTATION the note names. Verified empirically 2026-08-07: of the eleven markers here, three survived the archive.org OCR of the Latin as `*`, and all three sit exactly at the end of the quotation they cite — `…sed ut convertatur et vivat *` (Ezech. xxxiii, 11), `…ad pœnitentiam *` (Matth. ix, 13), `…de crastino *` (Matth. vi, 34). So the translator places [n:] at the close of the quoted verse, using src/pg-latin/ to find where the quotation falls.",
+    "attachedBy": "scripts/attach-pg-notes.mjs",
+    "totalNotes": 11
   }
 }
