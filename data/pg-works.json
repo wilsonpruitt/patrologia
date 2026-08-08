@@ -219,6 +219,52 @@
       "translationStatusVerified": "2026-08-07",
       "translationStatusNote": "RULED BY WILSON 2026-08-07: English translations of Dorotheus exist (exhaustiveness unknown and deliberately NOT researched — rule 8 forbids opening a research task to settle a badge). This work ships the WEAK claim, 'New English translation'. ⛔ Do NOT set translationStatus to 'none' here: PG_FIRSTS in build-landing.mjs is derived from exactly `translationStatus === 'none' && translationStatusVerified`, so that edit would silently turn on a public assertion of scholarly priority that is known to be false. The queue is flexible and this work is still worth doing afresh (rule 8: 'a foundational or poignant text is worth doing afresh even where English exists') — the badge is the only thing settled here.",
       "citRangeNote": "Corrected 2026-08-07 from the plate. The old range read 'Doctrinae 1611–1835; Epistolae 1838–1844' and was wrong at both ends of the Epistolae. Measured: the EPISTOLAE title block sits on leaf970 (cols 1837/1838) and the Greek of Ep. Α΄ begins in the LEFT column = col 1837, in that column's D band only — col 1837 is LATIN above the rule (the tail of Doctrina XXIV) and GREEK below it. The epistles close at '…εὐχαῖς πάντων τῶν ἁγίων. Ἀμήν.' partway down leaf972 (col 1841); a printed rule follows, then INDEX CAPITUM, which runs to the end of leaf973 (col 1844). So 1843–1844 are index, not epistle text. ⚠ Doctrina XXIV is LATIN-ONLY — Migne's own index lists 23 Greek entries against 24 Latin. See data/pg-column-maps/pg088.json → indexCapitum and leafGreekState."
+    },
+    {
+      "key": "dorotheus-epistolae-ad-diversos",
+      "series": "pg",
+      "volume": 88,
+      "author": "Dorotheus of Gaza (Dorotheus Archimandrita)",
+      "title": "Epistolae ad diversos",
+      "titleEn": "Letters to Various Correspondents",
+      "slug": "epistolae-ad-diversos",
+      "citRange": "PG 88, 1837–1842",
+      "greekSource": "ours-vision-ocr",
+      "englishState": null,
+      "workStatus": null,
+      "translationStatus": "exists",
+      "translationStatusVerified": "2026-08-07",
+      "translationStatusNote": "Inherits the Dorotheus ruling (Wilson, 2026-08-07): English translations of Dorotheus exist; this work ships the WEAK claim, 'New English translation'. ⛔ Never set translationStatus to 'none' here — PG_FIRSTS in build-landing.mjs is derived from exactly `translationStatus === 'none' && translationStatusVerified`.",
+      "pilot": "Epistolae end-to-end pilot, 2026-08-07 — the small self-contained work used to prove the our-OCR pipeline (chunker, Latin twin, apparatus, translation) before the 87-leaf Doctrinae fleet.",
+      "oursSegments": [
+        {
+          "leaf": 970,
+          "expectCol": 1837,
+          "file": "raw/pg088/epistolae/out/leaf970.txt",
+          "note": "⚠ PARTIAL COLUMN. Col 1837 is LATIN above the printed rule (the tail of Doctrina XXIV, which has no Greek at all) and GREEK below it. Only the D band of this column belongs to the Epistolae. The transcription file already contains the Greek stretch alone."
+        },
+        {
+          "leaf": 971,
+          "expectCol": 1840,
+          "file": "raw/pg088/epistolae/out/leaf971.txt",
+          "note": "Full Greek column, bands A–D."
+        },
+        {
+          "leaf": 972,
+          "expectCol": 1841,
+          "file": "raw/pg088/epistolae/out/leaf972.txt",
+          "lines": [
+            1,
+            54
+          ],
+          "note": "⚠ SPLIT LEAF. The epistles end at 'Ἀμήν.' on body line 54; a printed rule follows, then INDEX CAPITUM (body lines 56–63), which belongs to the Doctrinae apparatus and NOT to this work. Line range read off the plate, not inferred."
+        }
+      ],
+      "excludedFromThisWork": {
+        "leaf972 lines 56-63": "INDEX CAPITUM heading + the first six Doctrina entries.",
+        "leaf973 (cols 1843/1844)": "⛔ ENTIRELY index — Doctrinae entries VII–XXIII in Greek, and the Latin runs one further to a Latin-only doct. XXIV. Never align it to a Greek text chunk. Transcribed at raw/pg088/epistolae/out/leaf973.txt and kept as apparatus."
+      },
+      "latinTwin": "raw/pg088/epistolae/latin/ — extracted from copyA_088_djvu.xml. A WITNESS, not authority; see the file headers."
     }
   ]
 }

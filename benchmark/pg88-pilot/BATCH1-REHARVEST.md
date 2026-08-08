@@ -1516,3 +1516,58 @@ baseline test against — and the Latin, extracted free from copyA an hour
 earlier, settled it in one grep. **This is the argument for building the twin
 BEFORE the 87-leaf fleet, not after: it retires κ/χ and proper-noun flags at
 zero marginal cost, and those are a standing share of every leaf's queue.**
+
+## Step 3a — the chunker for our-OCR PG works, and the defect it caught
+
+`scripts/chunk-work-pg-ours.mjs`, written 2026-08-07. **The Epistolae are chunked:**
+1 chunk, **812 words**, anchors **1837 → 1840 → 1841**, bands `D ABCD ABCD`,
+word conservation and anchor sequence both clean.
+
+### Why a second chunker rather than extending the first
+
+`chunk-work-pg.mjs` assumes a **Calfa** source — a flat text whose `$8` markers
+*are* the column boundaries — and a column map keyed `page`/`greekCol`/`colOdd`.
+An our-OCR work is one hand-transcribed file **per leaf**, and pg088's map is
+keyed `leaf`/`colLeft`/`colRight`/`greekSide`. Putting two source contracts
+behind one entry point buys a silent mis-anchoring, which is the one failure
+hard rule 1 exists to prevent.
+
+**The segment list is hand-written and that is deliberate.** A leaf is not
+reliably one column of one work: leaf970 changes SCRIPT partway down, leaf972
+changes WORK partway down. Any rule clever enough to infer those is clever
+enough to get them wrong silently, so they are read off the plate and written
+into `oursSegments` with the reason.
+
+⚠ **The Greek column is not `colLeft`.** Migne sets the Greek at the gutter and
+the Latin outside, so the Greek columns of an opening are ADJACENT — 1837, 1840,
+1841 — with the Latin carrying the numbers between. Deriving the anchor from
+`colLeft` would mis-cite every right-side leaf in the volume. The chunker
+derives from `greekSide` and refuses to run if a segment's `expectCol` disagrees.
+
+### ⛔ THE DEFECT THE PILOT PAID FOR: mid-word column anchors
+
+Two column seams in this work fall **inside a word**, because the plate breaks it
+there: col 1837 ends `ἐλπι-` and col 1840 opens `ζόμενα`; col 1840 ends `πει-`
+and col 1841 opens `ρασθῆναι`.
+
+The first run emitted `ἐλπι[1840] [b: A] ζόμενα`. **Strip the markers for
+display and that reads `ἐλπι ζόμενα` — two non-words where the plate has one.**
+Nothing downstream would have caught it: both halves are well-formed Greek
+letters, the word count was *higher* rather than lower, and no validator looks
+for a word that has quietly become two.
+
+**Convention, now enforced:** an anchor and band letter falling mid-word are
+written TIGHT — `ἐλπι[1840][b: A]ζόμενα` — so they strip to `ἐλπιζόμενα`. A gate
+in the chunker reconstructs every hyphen-joined seam and fails the build if the
+stripped text does not contain the whole word.
+
+⚑ **And a second, quieter one behind it:** `wordsOf` replaced each marker with a
+SPACE, so even the tight form counted as two words. That inflated the count by
+one per mid-word seam and would have made the defect *invisible in the metrics
+too*. Markers now strip to nothing — the text already carries its own spacing.
+812 words, not 814.
+
+⚠ **This generalises to the 87-leaf fleet.** Mid-word column seams are not rare —
+two in three columns here. Every future our-OCR work must run this gate, and
+**any renderer that strips markers must be checked against a mid-word anchor**
+before it ships, not after.
