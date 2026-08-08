@@ -54,6 +54,7 @@ const ANCHOR = /\[(\d{3,4}[A-D]?)\]/g;
 const PAGE_NUM = /^\d+$/;
 
 const rows = [];
+const guillemetWarnings = [];
 
 for (const file of chunkFiles) {
   const raw = fs.readFileSync(path.join(latinDir, file), 'utf8');
@@ -90,7 +91,28 @@ for (const file of chunkFiles) {
 
   // Guillemets. Migne opens « and closes »; a [n: ...] note routinely sits
   // INSIDE the closing guillemet and is part of the printed span.
+  //
+  // ⚠ Migne's guillemets are ASYMMETRIC all through the PL — unclosed «, stray
+  // », unopened » — and they are his, to be mirrored and never balanced
+  // (Pattern 5 corollary). But an unclosed « is also a trap for THIS script: the
+  // regex runs on to the next », swallowing every quotation in between into one
+  // giant span, so the individual quotations inside it are never listed. That
+  // happened on 11632 chunk 0011, where an unclosed « at 0211D ate the rest of
+  // the chunk and hid Isa. 45:15 from the agent entirely.
+  //
+  // So an over-long span is treated as PROBABLY an asymmetry, not a quotation:
+  // it is reported as suspect, and deliberately NOT marked covered, so that the
+  // [n:] pass below reaches inside it and lists what it swallowed.
+  const RUNAWAY_WORDS = 60;
+  const opens = (body.match(/«/g) || []).length;
+  const closes = (body.match(/»/g) || []).length;
+  if (opens !== closes) guillemetWarnings.push({ chunk, opens, closes });
   for (const m of body.matchAll(/«([^»]*)»/g)) {
+    const words = m[1].trim().split(/\s+/).length;
+    if (words > RUNAWAY_WORDS) {
+      push('runaway', m[1], m.index);
+      continue; // not covered — let the [n:] pass see inside it
+    }
     push('guillemet', m[1], m.index);
     covered.push([m.index, m.index + m[0].length]);
   }
@@ -159,7 +181,8 @@ for (const range of ranges) {
     `Extracted mechanically from \`src/latin/${idno}/\`. **${mine.length} spans** in your range: ` +
       `${mine.filter((r) => r.kind === 'guillemet').length} guillemeted «…», ` +
       `${mine.filter((r) => r.kind === 'italic').length} italicised *…*, ` +
-      `${mine.filter((r) => r.kind === 'noted').length} noted-only.`
+      `${mine.filter((r) => r.kind === 'noted').length} noted-only, ` +
+      `${mine.filter((r) => r.kind === 'runaway').length} runaway.`
   );
   lines.push('');
   lines.push(
@@ -193,6 +216,23 @@ for (const range of ranges) {
       'file — **an unmarked quotation must be recorded as collated, so that the ' +
       'absence of a marker is evidence rather than silence.**'
   );
+  const warned = guillemetWarnings.filter((w) => range.includes(w.chunk));
+  if (warned.length) {
+    lines.push('');
+    lines.push(
+      '⚠ **Guillemet asymmetry in your range** — ' +
+        warned.map((w) => `${w.chunk}: ${w.opens} « / ${w.closes} »`).join(' · ') +
+        '. These are **Migne\'s** and are mirrored, never balanced (Pattern 5 ' +
+        'corollary): reproduce the unclosed «, the stray », the unopened » ' +
+        'exactly as printed and log them. Any span below marked ' +
+        '**⚠ RUNAWAY «** is one this script believes is an unclosed « rather ' +
+        'than a quotation — it has run on to the next » and swallowed ' +
+        'everything between. Its contents are ALSO listed individually where ' +
+        'they carry a note, but read that stretch of Latin yourself: this is ' +
+        'the one place the extraction is known to have hidden a quotation ' +
+        '(Isa. 45:15, chunk 0011, 2026-08-08).'
+    );
+  }
   lines.push('');
   for (const c of range) {
     // Printed order, not extraction order: the agent reads the chunk top to
@@ -206,7 +246,14 @@ for (const range of ranges) {
       continue;
     }
     for (const r of inChunk) {
-      const mark = r.kind === 'guillemet' ? '«…»' : r.kind === 'italic' ? '*…*' : '[n:]-only ⭐';
+      const mark =
+        r.kind === 'guillemet'
+          ? '«…»'
+          : r.kind === 'italic'
+          ? '*…*'
+          : r.kind === 'runaway'
+          ? '⚠ RUNAWAY «'
+          : '[n:]-only ⭐';
       lines.push(`- **${r.col}** ${mark} — ${r.text}`);
     }
     lines.push('');
