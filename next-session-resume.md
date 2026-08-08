@@ -6,16 +6,50 @@ Committed on master, **not pushed**. Nothing deployed.
 **Polarity gate: 99/99, exit 0** — this work's record is
 `data/polarity/dorotheus-epistolae-ad-diversos.json`, **10 sites, 7 ours**.
 
-### ▶ WHERE TO START: index, bio, then Wilson's deploy OK.
+### ▶ WHERE TO START: ⛔ NOTHING BUT THE DEPLOY. Everything else is done.
 
-    node scripts/index-work-pg.mjs dorotheus-epistolae-ad-diversos
-    # ✅ author bio DONE 2026-08-08 (key "Dorotheus of Gaza (Dorotheus Archimandrita)")
-    node scripts/build-work-page-pg.mjs dorotheus-epistolae-ad-diversos
-    # then the FULL deploy checklist, runbook step 8 — including build-cruces.mjs
-    # (its absence 404s the apparatus link and is invisible until after deploy)
+    cd site && npx vercel --prod --archive=tgz     # ← needs Wilson's per-action OK
 
-Badge: `workStatus` stays exactly as triage left it; set only
-`translation.englishState = "ours"`. Deploy is outward-facing → Wilson's OK.
+Staged and verified locally: index (11 scripture citations), author bio,
+`work-about` entry, `englishState: "ours"` (`workStatus` left null → badge reads
+**"New English translation"**, which is right — `translationStatus: "exists"`),
+work page, cruces page, RECENT, and all seven generated-page rebuilds.
+Gates: `verify-english-pg` clean · `scan-raw-markers` clean over 99 pages ·
+polarity 99/99 exit 0. Smoke-test after deploy:
+`/pg/88/epistolae-ad-diversos/` **and `/cruces/pg/88/epistolae-ad-diversos/`**.
+
+### ⛔⛔ TWO SILENT BUGS FOUND WHILE SHIPPING — both bit works already LIVE
+
+**1. The scripture indexer was rewarding INFIDELITY.** Migne sets his footnote
+chapter numerals in **lowercase** roman (`Matth. vi, 34.`); Corpus Corporum's TEI
+gives uppercase. Every numeral class in `scripts/lib/citations.mjs` was
+uppercase-only, so a faithfully transcribed lowercase note parsed to nothing and
+was filed as a **fons** — and `isScriptureShaped`, the guard whose whole job is to
+make an alias gap impossible to drop, **shares the same class and so was blind in
+the same direction**, sending it to `fontes[]` as though it had been judged.
+⚑ Consequence: `antiochus-epistula-ad-eustathium`, whose transcriber silently
+uppercased the numerals, indexed its citations; Dorotheus, which kept what the
+plate prints, indexed **none of its eleven**. Fixed by uppercasing the chapter
+token **for matching only** — `refDisplay` keeps Migne's lowercase (rule 9's dual
+key, exactly the case it was designed for). Corpus re-indexed: **+11 scripture,
+−11 fontes, 0 unparsed, exactly one work changed.**
+⚠ Making the guard case-tolerant immediately exposed a latent flaw in it: the
+numeral run was never anchored to a token boundary, so it matched a *prefix* of
+an ordinary word (`Leg. voraginis` on the *v*, `Greg. lib. VII` on the *li*).
+Two phantom alias gaps appeared, and are now fixed with `(?![A-Za-z])`.
+
+**2. `chunk-work-pg-ours.mjs` wrote a manifest the builder could not read.** It
+omitted the descriptive head (`title`/`colFirst`/`colLast`/`citRange`/…) that the
+Calfa chunker writes. Nothing threw — `parseInt(undefined)` is `NaN` — so the
+page shipped a `<title>` reading **"PG 88, NaN–NaN"**, and because
+`build-cruces.mjs` locates a work's page by matching that title against a strict
+`PG \d+, [\d–-]+` pattern, it **silently declined to publish the apparatus**.
+That is the 404-cruces-link trap the runbook already warns about, arriving by a
+second route the checklist does not cover.
+Fixed at the producer. The same write now also **preserves the apparatus** — top
+level *and* per chunk — but only when the chunk shape is identical, and warns
+loudly when it is not, since notes are column-keyed and re-attaching them across
+a moved boundary would misfile them in silence.
 
 ### THE BLIND READ — two readers, and what it changed
 

@@ -1,0 +1,229 @@
+{
+  "generated": "scripts/index-work-pg.mjs",
+  "workKey": "dorotheus-epistolae-ad-diversos",
+  "slug": "epistolae-ad-diversos",
+  "series": "pg",
+  "volume": 88,
+  "title": "Epistolae ad diversos",
+  "titleEn": "Letters to Various Correspondents",
+  "authors": [
+    "Dorotheus of Gaza (Dorotheus Archimandrita)"
+  ],
+  "citRange": "PG 88, 1837–1842",
+  "colFirst": null,
+  "colLast": null,
+  "counts": {
+    "scripture": 11,
+    "fontes": 0,
+    "unparsed": 0,
+    "bands": 9
+  },
+  "columns": [
+    {
+      "col": 1837,
+      "grc": "Α'. — Πρὸς ἀδελφὸν στενοχωρούμενον ὑπὸ πειρασμοῦ. Πρῶτον μὲν, τέκνον,",
+      "en": "I. — To a brother straitened by temptation. First of"
+    },
+    {
+      "col": 1840,
+      "grc": "[b: A]ζόμενα πράγματα, ἐπὶ τῆς πείρας εὑρίθησεν ἑτέρως· καὶ ἁπλῶς",
+      "en": "[b: A] for in one way were found by experience"
+    },
+    {
+      "col": 1841,
+      "grc": "[b: A]ρασθῆναι ὑπὲρ τῆς ἐντολῆς. Ὁ ἀγαθὸς Θεὸς χαρίσεταί σοι",
+      "en": "[b: A] for the commandment's sake, for the exercise and"
+    }
+  ],
+  "heads": [],
+  "scripture": [
+    {
+      "refKey": "Matt.6.34",
+      "refDisplay": "Matth. vi, 34.",
+      "column": "1840",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Eph.3.20",
+      "refDisplay": "Ephes. iii, 20.",
+      "column": "1840",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Acts.14.21",
+      "refDisplay": "Act. xiv, 21.",
+      "column": "1840",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Wis.11.27",
+      "refDisplay": "Sap. xi, 27.",
+      "column": "1840",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Matt.8.26",
+      "refDisplay": "Matth. viii, 26.",
+      "column": "1840",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Phil.4.7",
+      "refDisplay": "Philipp. iv, 7.",
+      "column": "1840",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Ezek.33.11",
+      "refDisplay": "Ezech. xxxiii, 11.",
+      "column": "1841",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Matt.9.13",
+      "refDisplay": "Matth. ix, 13.",
+      "column": "1841",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Ps.54.23",
+      "refDisplay": "Psal. liv, 23.",
+      "column": "1841",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Matt.6.34",
+      "refDisplay": "Matth. vi, 34.",
+      "column": "1841",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    {
+      "refKey": "Ps.54.23",
+      "refDisplay": "Psal. liv, 23.",
+      "column": "1841",
+      "chunk": 1,
+      "bandsInColumn": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    }
+  ],
+  "fontes": [],
+  "unparsed": [],
+  "bands": [
+    {
+      "column": "1837",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1840",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1840",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1840",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1840",
+      "band": "d",
+      "chunk": 1
+    },
+    {
+      "column": "1841",
+      "band": "a",
+      "chunk": 1
+    },
+    {
+      "column": "1841",
+      "band": "b",
+      "chunk": 1
+    },
+    {
+      "column": "1841",
+      "band": "c",
+      "chunk": 1
+    },
+    {
+      "column": "1841",
+      "band": "d",
+      "chunk": 1
+    }
+  ],
+  "proseNotes": [],
+  "cruces": {
+    "count": 15,
+    "file": "src/english/dorotheus-epistolae-ad-diversos/cruces.md"
+  },
+  "note": "Citations harvested from the ENGLISH chunks — a PG work's Greek source (Calfa, or our own plate OCR of the Greek column) carries no note layer, so Migne's footnotes reach the corpus only through the translator's [n: …] markers. Columns indexed with Greek+English incipits. Pattern-4 [f: …] locators are not harvested for PG (no validating Latin twin).",
+  "indexed": null
+}

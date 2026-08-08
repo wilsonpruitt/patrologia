@@ -214,8 +214,45 @@ for (let i = 1; i < segs.length; i++) {
     problems.push(`mid-word anchor at col ${segs[i].greekCol}: "${tail}" + "${head}" should strip to "${joined}" and does not — the markers are carrying whitespace and the word is broken in two`);
 }
 
-fs.writeFileSync(path.join(outDir, 'manifest.json'), JSON.stringify({
+// ⚠ TWO THINGS THIS WRITE MUST NOT LOSE, both learned the hard way on the Epistolae.
+//
+// 1. The DESCRIPTIVE HEAD (title/titleEn/authors/citRange/colFirst/colLast/chunkCount).
+//    `chunk-work-pg.mjs` (the Calfa chunker) writes these and `build-work-page-pg.mjs`
+//    reads them — `manifest.colFirst` straight into the page <title> and the citation
+//    line. Omitting them does not throw: `parseInt(undefined)` is NaN, so the work
+//    shipped a title reading "PG 88, NaN–NaN", AND `build-cruces.mjs` — which finds a
+//    work's page by matching that <title> against a strict `PG \d+, [\d–-]+` pattern —
+//    could not resolve the page and silently declined to publish the apparatus. That is
+//    the 404-cruces-link trap the runbook warns about, arriving by a second route.
+// 2. The APPARATUS block that `attach-pg-notes.mjs` writes into this same file. A
+//    re-chunk used to drop all 11 notes with nothing erroring and no verifier able to
+//    see it. Preserved here so the ordering of the two scripts stops mattering.
+// The apparatus lives in TWO places and both have to come back: a top-level block
+// (source/keyedTo/contract) and a per-chunk `apparatus` on each chunk record. Carry
+// them only when the chunking is IDENTICAL — same chunk count, same column span per
+// chunk — because notes are keyed to columns and re-attaching them across a changed
+// boundary would file a note under the wrong column silently. If the shape moved,
+// drop them and say so loudly; `attach-pg-notes.mjs` is then genuinely required.
+const prevManifestPath = path.join(outDir, 'manifest.json');
+const prev = fs.existsSync(prevManifestPath)
+  ? JSON.parse(fs.readFileSync(prevManifestPath, 'utf8'))
+  : null;
+const sameShape = prev?.chunks?.length === manifestChunks.length &&
+  manifestChunks.every((c, i) => prev.chunks[i].colFirst === c.colFirst && prev.chunks[i].colLast === c.colLast);
+const prevApparatus = sameShape ? prev.apparatus : undefined;
+if (sameShape) {
+  manifestChunks.forEach((c, i) => { if (prev.chunks[i].apparatus) c.apparatus = prev.chunks[i].apparatus; });
+} else if (prev?.apparatus) {
+  console.warn('  ⚠ chunk shape changed — apparatus DROPPED. Re-run scripts/attach-pg-notes.mjs before building.');
+}
+
+fs.writeFileSync(prevManifestPath, JSON.stringify({
   workKey: key, series: 'pg', volume: work.volume,
+  title: work.title, titleEn: work.titleEn, authors: [work.author],
+  citRange: work.citRange ?? null,
+  colFirst: manifestChunks[0].colFirst,
+  colLast: manifestChunks.at(-1).colLast,
+  chunkCount: chunks.length,
   greekSource: 'ours-vision-ocr',
   builtBy: 'scripts/chunk-work-pg-ours.mjs',
   segments: segs.map(s => ({ leaf: s.leaf, greekCol: s.greekCol, file: s.file, lines: s.lines ?? null, note: s.note ?? null })),
@@ -224,6 +261,7 @@ fs.writeFileSync(path.join(outDir, 'manifest.json'), JSON.stringify({
   chunks: manifestChunks,
   words: totalWords,
   validation: problems.length ? { ok: false, problems } : { ok: true },
+  ...(prevApparatus ? { apparatus: prevApparatus } : {}),
 }, null, 2) + '\n');
 
 console.log(`${key}: ${chunks.length} chunks, ${totalWords} words → src/greek/${key}/`);

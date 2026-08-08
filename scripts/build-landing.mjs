@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-08 session: first Dorotheus work; PG 88 opens —
+  'pg/88/epistolae-ad-diversos',                                 // Dorotheus of Gaza — eight letters of spiritual direction, our own plate OCR
   // — 2026-08-05 session: third of the four Glabas sermons —
   'pg/139/sermo-iii-in-annuntiationem',                          // Isidore Glabas — the Annunciation, Sermon III of the set
   // — 2026-08-04 session: the Palestine block opens; FIRST PG work whose Greek is

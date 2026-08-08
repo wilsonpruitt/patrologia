@@ -96,11 +96,32 @@ const segRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+(?:\s*,
 //   Dan, II; Eccles, IV) — attested only in inline citations (2026-07-31 SPEC),
 //   normalized at the START of the segment only (a mid-segment comma is a real
 //   list separator and must not be touched).
-const normSeg = s => s
+//   "Matth. vi, 34." — a LOWERCASE roman chapter. Migne sets the chapter numerals of
+//   his FOOTNOTE apparatus in lowercase and Corpus Corporum's TEI gives them in
+//   uppercase, so both forms are in the corpus and they are the same address. Every
+//   numeral class here is uppercase-only, so before 2026-08-08 a faithfully
+//   transcribed lowercase note parsed to nothing and was filed as a FONS —
+//   ⛔ silently, because isScriptureShaped is case-sensitive too and so never sent it
+//   to unparsed[] either. The guard that exists to make an alias gap impossible to
+//   drop had the same blind spot as the parser it guards.
+//   ⚑ The perverse consequence, and the reason this is not cosmetic: the indexer was
+//   REWARDING INFIDELITY. `antiochus-epistula-ad-eustathium`, whose transcriber
+//   silently uppercased Migne's numerals, indexed its citations; `dorotheus-epistolae-
+//   ad-diversos`, which kept what the plate prints as the verbatim rule requires,
+//   indexed none of its eleven.
+//   Uppercased for MATCHING only, and only a wholly-lowercase run in the chapter slot
+//   after the book head (never a mixed "Vi", never a numeral elsewhere in the note).
+//   refDisplay keeps the printed lowercase — the reader sees Migne's form, refKey
+//   resolves it (rule 9's dual key, exactly the case it was designed for).
+const upperRomanChapter = s => s.replace(
+  /^(\(?\s*(?:(?:I{1,3}V?|IV)\s+)?[A-Z][a-z]+\.?\s+)([ivxlcdm]+(?:\s*[,-]\s*[ivxlcdm]+)*)\b/,
+  (_, head, nums) => head + nums.toUpperCase());
+
+const normSeg = s => upperRomanChapter(s
   .replace(/\s+et\s+/gi, ', ')
   .replace(/\b[vVcC]\.\s*(?=\d)/g, '')
   .replace(/\.\s*,/g, '.')
-  .replace(/^((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+),/, '$1$2.');
+  .replace(/^((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+),/, '$1$2.'));
 
 // A single printed parenthesis can name TWO (or more) books with no semicolon
 // between them (2026-07-31 SPEC ruling 6): "(Joan. III [1135A] Isai. V)" inline,
@@ -198,7 +219,17 @@ export const isAnaphoric = s => /^\(?\s*(ibid|idem|id)\b/i.test(s);
 // A note whose SHAPE is scripture-like (roman+book or book+roman) but which no alias
 // resolved: that is an alias-table gap and must be recorded in unparsed[], never
 // dropped and never filed as a fons. KNOWN_FONTES is the documented exception.
-export const isScriptureShaped = s => /^[IVXLCDM]+\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+[IVXLCDM]+/.test(s);
+// ⚠ Case-tolerant since 2026-08-08, and it MUST stay so: the guard shares its numeral
+// class with the parser, so an uppercase-only test cannot see the very notes the
+// parser has just failed on, and routes them to fontes[] as though they had been
+// judged. A guard blind in the same direction as the thing it guards is not a guard.
+// ⚠ The numeral run must be a WHOLE token — `(?![A-Za-z])`. Without it the class
+// matches a PREFIX of an ordinary Latin word, which is harmless while the class is
+// uppercase-only and immediately false-positive once it is not: "Leg. voraginis"
+// matched on the *v* of voraginis, "Greg. lib. VII" on the *li* of lib. Both
+// surfaced as phantom alias gaps the moment the case-tolerance went in, which is
+// how the flaw was found — the uppercase-only version had it latent all along.
+export const isScriptureShaped = s => /^(?:[IVXLCDM]+|[ivxlcdm]+)(?![A-Za-z])\s+[A-Z][a-z]+\.|^[A-Z][a-z]+\.\s+(?:[IVXLCDM]+|[ivxlcdm]+)(?![A-Za-z])/.test(s);
 
 // Inline (running-text) candidate gates, so ordinary prose parentheses
 // ("ut ita dicam") are never even considered: the stripped text must OPEN with an
