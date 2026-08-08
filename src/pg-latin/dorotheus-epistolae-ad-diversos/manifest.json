@@ -1,0 +1,59 @@
+{
+  "workKey": "dorotheus-epistolae-ad-diversos",
+  "series": "pg",
+  "volume": 88,
+  "source": "raw/scans/pg088/copyA_088_djvu.xml",
+  "builtBy": "scripts/pg-latin-twin-ours.py",
+  "role": "WITNESS for adjudication and vocabulary. Not authority, not the apparatus source.",
+  "perLeaf": {
+    "970": {
+      "latinCol": 1838,
+      "greekCol": 1837,
+      "words": 86,
+      "window": {
+        "yMin": 4750,
+        "anchor": "The Epistolae's Latin begins at the heading 'I. — Ad fratrem tentationibus oppressum.', located at yTop≈4797 in copyA. Everything above is Doctrina XXIV's Latin, which belongs to a different work and has no Greek at all.",
+        "note": "No yMin floor needed beyond 4750 — the running head is far above the window."
+      }
+    },
+    "971": {
+      "latinCol": 1839,
+      "greekCol": 1840,
+      "words": 387,
+      "window": {
+        "yMax": 5700,
+        "anchor": "The foot-rule block begins at yTop≈5723 ('Ma th. vi, 54.' — itself an OCR misreading of the plate's 34). Running Latin only above that.",
+        "yMin": 400,
+        "anchorMin": "Measured, not guessed: the running head occupies yTop 312–359 and the first body line begins at yTop 426. A floor of 400 separates them. ⚠ An earlier floor of 500 looked safe and silently ate the first body line of the column — measure the gap, do not pick a round number."
+      }
+    },
+    "972": {
+      "latinCol": 1842,
+      "greekCol": 1841,
+      "words": 316,
+      "window": {
+        "yMax": 4650,
+        "anchor": "The epistles' Latin closes at 'Amen.' at yTop≈4542. Below it come the foot-rule notes (yTop≈4820) and then INDEX CAPITUM (yTop≈5102), neither of which is twin material.",
+        "yMin": 400,
+        "anchorMin": "Measured, not guessed: the running head occupies yTop 312–359 and the first body line begins at yTop 426. A floor of 400 separates them. ⚠ An earlier floor of 500 looked safe and silently ate the first body line of the column — measure the gap, do not pick a round number."
+      }
+    }
+  },
+  "chunks": [
+    {
+      "chunk": 1,
+      "file": "0001.md",
+      "greekCols": [
+        1837,
+        1840,
+        1841
+      ],
+      "latinCols": [
+        1838,
+        1839,
+        1842
+      ],
+      "latinWords": 789
+    }
+  ]
+}

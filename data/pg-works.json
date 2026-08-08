@@ -264,7 +264,27 @@
         "leaf972 lines 56-63": "INDEX CAPITUM heading + the first six Doctrina entries.",
         "leaf973 (cols 1843/1844)": "⛔ ENTIRELY index — Doctrinae entries VII–XXIII in Greek, and the Latin runs one further to a Latin-only doct. XXIV. Never align it to a Greek text chunk. Transcribed at raw/pg088/epistolae/out/leaf973.txt and kept as apparatus."
       },
-      "latinTwin": "raw/pg088/epistolae/latin/ — extracted from copyA_088_djvu.xml. A WITNESS, not authority; see the file headers."
+      "latinTwin": "raw/pg088/epistolae/latin/ — extracted from copyA_088_djvu.xml. A WITNESS, not authority; see the file headers.",
+      "latinScanFile": "raw/scans/pg088/copyA_088_djvu.xml",
+      "latinWindows": {
+        "970": {
+          "yMin": 4750,
+          "anchor": "The Epistolae's Latin begins at the heading 'I. — Ad fratrem tentationibus oppressum.', located at yTop≈4797 in copyA. Everything above is Doctrina XXIV's Latin, which belongs to a different work and has no Greek at all.",
+          "note": "No yMin floor needed beyond 4750 — the running head is far above the window."
+        },
+        "971": {
+          "yMax": 5700,
+          "anchor": "The foot-rule block begins at yTop≈5723 ('Ma th. vi, 54.' — itself an OCR misreading of the plate's 34). Running Latin only above that.",
+          "yMin": 400,
+          "anchorMin": "Measured, not guessed: the running head occupies yTop 312–359 and the first body line begins at yTop 426. A floor of 400 separates them. ⚠ An earlier floor of 500 looked safe and silently ate the first body line of the column — measure the gap, do not pick a round number."
+        },
+        "972": {
+          "yMax": 4650,
+          "anchor": "The epistles' Latin closes at 'Amen.' at yTop≈4542. Below it come the foot-rule notes (yTop≈4820) and then INDEX CAPITUM (yTop≈5102), neither of which is twin material.",
+          "yMin": 400,
+          "anchorMin": "Measured, not guessed: the running head occupies yTop 312–359 and the first body line begins at yTop 426. A floor of 400 separates them. ⚠ An earlier floor of 500 looked safe and silently ate the first body line of the column — measure the gap, do not pick a round number."
+        }
+      }
     }
   ]
 }

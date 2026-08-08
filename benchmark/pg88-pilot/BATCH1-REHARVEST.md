@@ -1571,3 +1571,50 @@ too*. Markers now strip to nothing — the text already carries its own spacing.
 two in three columns here. Every future our-OCR work must run this gate, and
 **any renderer that strips markers must be checked against a mid-word anchor**
 before it ships, not after.
+
+## Step 3b — the Latin twin, aligned (2026-08-07)
+
+`scripts/pg-latin-twin-ours.py`. **Built: Greek cols 1837/1840/1841 ← Latin cols
+1838/1839/1842, 789 Latin words against 812 Greek — ratio 0.971**, comfortably
+inside the expected band.
+
+Separate from `pg-latin-twin.mjs` for the same reason the chunker is separate:
+that one aligns to a Calfa-chunked work and reads `greekCol` to decide sides. A
+Latin twin silently facing the wrong Greek is worse than no twin, because it
+would be consulted with confidence.
+
+### ⚑ The seam confirmed itself from the other side
+
+The Greek runs 1837 → 1840 → 1841 and joins mid-word at `ἐλπι|ζόμενα`. The
+**Latin** runs 1838 → 1839 → 1842 and joins mid-word at `inveniun|tur`. Two
+independent scripts, two independent column sequences, both breaking a word at
+the same physical seam and both reassembling. **That is the column model
+verifying itself** — nothing about the Latin extraction was derived from the
+Greek chunking.
+
+⚠ **But the twin is PAGE-aligned, not word-aligned.** Migne fits each page's
+Latin onto that page, so leaf971's Latin already carries the sentence its Greek
+only begins (`…πει-` / `tentari in anima tua propter praeceptum`). A translator
+reading the twin must expect it to run slightly ahead or behind its Greek within
+a column. It is a witness to the sense, not a lineation.
+
+### ⛔ The defect: a round number that looked safe ate a line
+
+The first build leaked the running head into the twin (`1339 S. DOROTHEI`,
+`DIVERSOS. 1842`). I floored the window at **y ≥ 500** — a sensible-looking
+round number — and it **silently removed the first body line of two columns**
+(`tir, el. omnino non humanis consiliis solent, ut`). Word counts dropped by 11
+and 9, which is exactly the size of a line and would read as noise.
+
+Measured instead: the running head occupies **yTop 312–359** and the first body
+line begins at **yTop 426**. The floor is **400**.
+
+⚑ **Generalises to every window in this pipeline: measure the gap, never pick a
+round number.** A threshold chosen for looking safe removes content at exactly
+the rate that looks like OCR noise, and the artifact it produces — a twin
+missing its first line — is one nobody would think to check for.
+
+⚠ Known, documented, NOT cleaned: stray band capitals (`A Bonus Dominus…`) land
+in the Latin because the letters sit in the gutter and fall on whichever side of
+the split. They are left in. Over-cleaning a witness is worse than documented
+noise, and the bands are already captured properly on the Greek side.
