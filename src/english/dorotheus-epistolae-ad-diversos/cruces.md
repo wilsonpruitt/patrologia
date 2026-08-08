@@ -167,12 +167,130 @@ glyph, are what made it a `u`. The letter is confirmed at 5× per `APPARATUS.md`
 the *placement* follows the citation, which is the method the apparatus is built
 on. Unchanged, recorded.
 
-## Still open
+## Blind polarity read — 2026-08-08, TWO independent readers, reconciled
 
-- **A blind polarity read has NOT been done.** It cannot be done by the
-  translator (runbook 4a: findings must be formed blind and reconciled against
-  this file afterwards, never before). This work has **no** `polarity-record.mjs`
-  entry and must not be deployed until it has one.
+Runbook 4a. Two Opus readers, launched together, each blind to this file, to
+`next-session-resume.md`, to `raw/…/out/` and to git history; one on the
+negation/scope lens, one on quotation fidelity and markers. **10 sites, 7 ours.**
+Everything below was formed blind and reconciled against this file afterwards,
+never before.
+
+**Both readers independently confirmed the Ep. VIII missing `οὐχ`** (above), one
+of them at the plate, and both reached the same verdict the translation had:
+Migne's, both columns concurring, English correct as printed. One sharpening
+worth keeping — **the concurrence adjudicates the ATTRIBUTION, not the
+CONJECTURE**: both columns descend from the same defect, so they cannot testify
+that `οὐχ εὑρίσκει` is what was meant, only that the affirmative is what Migne
+printed.
+
+### Repaired — ours
+
+1. **Col 1840D, Ep. V — our OCR invented an ano teleia.** The chunk read
+   `πειρασμοὺς εὑρίσκῃς**·** καὶ θλίψεις`. **The stop is not on the plate**: at 6×
+   the mark is the word's own final sigma, glyph-identical to the ς of
+   `πειρασμοὺς` two words earlier on the same line, and the Latin prints one pair
+   (*tentationes habes et afflictiones*). `καὶ θλίψεις` is the second object of
+   `εὑρίσκῃς` inside the ἐὰν clause; the invented stop detached it, and the
+   English had faithfully preserved the break **under Pattern 8, as though it were
+   the plate's own punctuation**. Transcription corrected, re-chunked, English
+   rejoined.
+   ⚑ **This is a defect class the corpus had not met: our OCR inserting Greek
+   PUNCTUATION the plate does not print.** It is invisible to every verifier, and
+   Pattern 8 actively protects it — a conscientious translator will carry it
+   through. This fount's final sigma is a middle-point lookalike; that belongs in
+   the fleet's transcriber prompt.
+   ⚠ The two readers **disagreed** here: the second called the mark ambiguous at
+   3× and leaned to "printed". The higher-resolution look decides it, and the
+   disagreement is recorded because it is the useful part.
+2. **Col 1840B, Ep. II — an Allatius leak.** The plate prints `τοιῶνδε` **once**;
+   the English read "as of this sort or of that", reproducing the Latin's paired
+   *per has aut illas*. Both readers caught it independently; plate-verified.
+   Now "as of such a sort". The Latin's doublet may be evidence that the plate
+   lost a second `τοιῶνδε` by haplography — which is a note, not a licence to
+   restore it.
+3. **Col 1840, Ep. I, Eph 3:20 — 7a″ lemma conformation.** Migne prints `ἐκ
+   περισσοῦ`; the English gave "above and beyond", importing the `ὑπέρ` of the
+   received `ὑπὲρ πάντα` / AV "exceeding abundantly **above**" — a word not on the
+   page. Now "more abundantly than", which renders the comparative force the
+   genitive `ὧν` carries and nothing more. The tell was exactly the one 7a″ names:
+   a familiar cadence arriving ahead of the printed words.
+4. **Col 1840, Ep. I — tense.** `εὑρίθησεν` is an aorist-passive form however its
+   disputed letters are read; the English had "are found", pulled to the present
+   by the Latin's *inveniuntur*. Now "were found".
+5. **Two `[var:]` markers were in the wrong house form.** Pattern 14 requires the
+   content to **open by naming the witness** (`Vulg.` · `LXX` · `Gk` · `Heb.` ·
+   `Douay` · `Vet. Lat.`); both opened "the received text of … reads". Re-formed.
+6. **Col 1841C — an em-dash for an ano teleia** (Pattern 8), where the same mark
+   is a semicolon elsewhere in the same file. Now a semicolon.
+
+### Added
+
+7. **`[var:]` at Ezek 33:11 (col 1841, Ep. VI).** Migne prints `τοῦ ἁμαρτωλοῦ`
+   for the LXX's `τοῦ ἀσεβοῦς`, and omits the whole clause `ἀποστρέψαι τὸν ἀσεβῆ
+   ἀπὸ τῆς ὁδοῦ αὐτοῦ`. Material, and it was the best-known verse in the work
+   going out unmarked while two lesser divergences carried markers.
+8. **`[var:]` at Eph 3:20**, alongside repair 3 — no `δυναμένῳ`, no `ὑπὲρ πάντα`,
+   `ἐκ περισσοῦ` for `ὑπερεκπερισσοῦ`.
+9. ⭐ **`[lat:]` at the close of Ep. VII (Greek 1841 ‖ Latin 1842) — the work's
+   only fired Pattern 16 marker, and BOTH readers arrived at it independently
+   after I had declined it.** Greek `μὴ ἔχοντας **θάρσος** περὶ τῆς αὔριον ζωῆς`
+   = having no **confidence** of living to see tomorrow; Latin `ne habeamus
+   **curam** vitæ crastinæ` = having no **care** for tomorrow. The Greek grounds
+   detachment in mortality; the Latin assimilates the clause to Matt 6:34 and
+   makes it a warning against anxiety. **A reader of the Latin column takes away
+   the opposite counsel from a reader of the Greek** — a different fact, not
+   Allatian looseness, which is precisely Pattern 16's test. My own first pass had
+   filed this under "free rendering" in the declined list below; two independent
+   readers overturning it is the argument for running the read blind and in
+   duplicate.
+
+### ⛔ NOT changed, and why — `εὑρίθησεν` stands
+
+The quotation-lens reader reported the plate as printing **`εὑρέθησαν`**
+(epsilon, `-σαν`) and recommended correcting both the Greek chunk and the
+English. **Declined.** The original transcriber recorded an explicit *high-zoom*
+examination asserting an accented iota and the ending `-σεν`; the reader's look
+was at 2×; and re-examination at 8× finds the ink of that word merged past
+legibility at 600 dpi, in both the vowel and the ending.
+
+**Rulebook 11: the transcriber wins until the plate says otherwise — and here the
+plate has said nothing.** An adjudicator must not prefer the later reader merely
+because it is later; that is the 7a′ error the adjudication step already committed
+once on this work, and it would be committing it a second time on weaker evidence.
+A higher-resolution render is what settles it. The English change that does NOT
+depend on the disputed letters (the tense, repair 4) was made.
+
+### Declined, with reasons
+
+- **`[var:]` on Matt 6:34** (cited twice, Epp. I and VII; infinitive for the
+  prohibitive subjunctive, `περὶ τῆς` for `εἰς τήν`, `τινας` added in VII). The
+  English diverges correctly at both. Declined as **authorial citational
+  adaptation, not a divergent reading** — the infinitive is governed by `εἴρηται`
+  in indirect statement. This is the same test the reader itself used to reject a
+  `[var:]` on Ps 54:23, whose 2 sg → 1 pl shift is proved authorial by Ep. VII
+  quoting the same verse in the LXX's exact form. Applying it to one and not the
+  other would be inconsistent.
+- **`[lat:]` on Phil 4:7's singular/plural heart.** Allatius conformed to the
+  Vulgate's plural — normal assimilation, and the existing `[var:]` already tells
+  the reader the received text is plural.
+- **`[var:]` on Matt 8:26** (singular `ἀνέμῳ`, active `ποιήσας`): the reshaping an
+  allusion requires, and already visible in the English.
+- **`Act. xiv, 21` beside a quotation of v. 22.** Plate-verified as `21` in the
+  printed note block. Migne's citation, reproduced verbatim as policy requires.
+- **`Sap. xi, 27`**: Vulgate versification of LXX Wis 11:26. Not an error.
+- **Band `[b: C]` in Ep. VIII** sits one to two lines lower on the plate than the
+  chunk places it. Within transcription tolerance for a positional quarter-guide,
+  and not a translation defect. Recorded for a future band pass.
+
+### ⬜ For Wilson — a register question, not a fidelity one
+
+The English uses archaic second person **only** in direct address to God (the
+prayer in Ep. I, "as thou willest and as thou knowest"). The neighbouring PG
+monastic-prose work, `antiochus-epistula-ad-eustathium`, uses **none at all**. The
+two now differ. Not swept either way — this is a house-register call, and unlike a
+lemma it is not the kind of thing that should differ work by work.
+
+## Still open
 - The genre — terse ascetic letters of spiritual direction — has **no PG anchor
   pair**. It was translated against the `antiochus-epistula-ad-eustathium`
   precedent (Palestinian monastic prose, the nearest thing the corpus holds) and

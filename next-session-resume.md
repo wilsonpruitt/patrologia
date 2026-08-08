@@ -1,26 +1,59 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE — THE EPISTOLAE ARE TRANSLATED. THE BLIND READ IS NEXT.
+## ▶▶▶▶▶ SESSION CLOSE — THE EPISTOLAE ARE TRANSLATED AND READ. GATE IS GREEN.
 
-Committed on master, **not pushed**. Nothing deployed; nothing may be deployed
-until the polarity gate has a record for this work.
+Committed on master, **not pushed**. Nothing deployed.
+**Polarity gate: 99/99, exit 0** — this work's record is
+`data/polarity/dorotheus-epistolae-ad-diversos.json`, **10 sites, 7 ours**.
 
-### ▶ WHERE TO START: the blind polarity read of the Epistolae.
+### ▶ WHERE TO START: index, bio, then Wilson's deploy OK.
 
-    src/english/dorotheus-epistolae-ad-diversos/0001.md   ← translated 2026-08-08
-    src/english/dorotheus-epistolae-ad-diversos/cruces.md ← ⛔ DO NOT LET THE READER SEE THIS FIRST
-
-Runbook step 4a: the read is **required**, it is against **both** columns
-(`src/greek/…` and `src/pg-latin/…`), and it must be **blind** — the checker
-forms findings first and reconciles against `cruces.md` afterwards, never before.
-The translator cannot do it. Then:
-
-    node scripts/polarity-record.mjs dorotheus-epistolae-ad-diversos --chunks 1 --sites N [--ours N]
     node scripts/index-work-pg.mjs dorotheus-epistolae-ad-diversos
-    node scripts/build-work-page-pg.mjs …   + the full deploy checklist (incl. build-cruces.mjs)
+    # data/author-bios.json — Dorotheus of Gaza has NO entry yet. Required before
+    # deploy or the byline falls back to the Latin form.
+    node scripts/build-work-page-pg.mjs dorotheus-epistolae-ad-diversos
+    # then the FULL deploy checklist, runbook step 8 — including build-cruces.mjs
+    # (its absence 404s the apparatus link and is invisible until after deploy)
 
-then Wilson's OK to deploy (outward-facing). An author bio for Dorotheus is not
-yet in `data/author-bios.json` — needed before deploy, not before the read.
+Badge: `workStatus` stays exactly as triage left it; set only
+`translation.englishState = "ours"`. Deploy is outward-facing → Wilson's OK.
+
+### THE BLIND READ — two readers, and what it changed
+
+Two Opus readers launched together, each blind to `cruces.md`, this file,
+`raw/…/out/` and git history; one on negation/scope, one on quotation fidelity
+and markers. Full reconciliation lives in the work's `cruces.md`. The three
+results worth carrying:
+
+1. ⛔ **OUR OCR INVENTED A GREEK ANO TELEIA, and Pattern 8 protected it.** Col
+   1840D read `πειρασμοὺς εὑρίσκῃς**·** καὶ θλίψεις`; at 6× the mark is the
+   word's own **final sigma**, and the Latin prints one pair. The stop detached
+   `καὶ θλίψεις` from the verb that governs it — and the translator had carried
+   the break through *faithfully*, as the plate's own punctuation, which is
+   exactly what Pattern 8 tells him to do. **A new defect class for the corpus:
+   invented punctuation is invisible to every verifier and is actively shielded
+   by the rulebook.** This fount's final sigma is a middle-point lookalike →
+   into the fleet's transcriber prompt.
+2. ⭐ **A `[lat:]` I had DECLINED, overturned by both readers independently.**
+   Ep. VII close: Greek `μὴ ἔχοντας **θάρσος** περὶ τῆς αὔριον ζωῆς` (no
+   confidence of living to see tomorrow) ‖ Latin `ne habeamus **curam** vitæ
+   crastinæ` (no anxiety about tomorrow). The Greek grounds detachment in
+   mortality; the Latin assimilates it to Matt 6:34. **Opposite counsel, not
+   Allatian looseness.** I had filed it under free rendering. This is the
+   argument for running the read blind *and in duplicate*.
+3. **A reader recommendation DECLINED under rulebook 11.** The quotation reader
+   read the plate as `εὑρέθησαν` against the transcriber's `εὑρίθησεν` and wanted
+   the Greek chunk changed. Its look was 2×; the transcriber's was high-zoom and
+   explicit; re-examination at 8× finds the ink merged past legibility. **The
+   plate has not said otherwise, so the transcriber stands.** Preferring the
+   later reader because it is later is the same 7a′ error the adjudication step
+   already committed once on this work.
+
+Also repaired: an Allatius leak (`τοιῶνδε` printed once, Englished as a
+doublet after the Latin's *per has aut illas*), a 7a″ conformation at Eph 3:20
+("above and beyond" importing a `ὑπέρ` not on the page), a tense, both `[var:]`
+markers into Pattern 14's house form, and an em-dash for an ano teleia.
+Two `[var:]` added (Ezek 33:11, Eph 3:20).
 
 ### ⛔⛔ WHAT THE TRANSLATION SESSION FOUND — read this before the 87-leaf fleet
 
