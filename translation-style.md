@@ -1004,6 +1004,83 @@ Greek (rule 4); the marker records what the Latin column says instead.
   **Before firing on a numeral, grep the other crop.** The dangerous truncation
   is the one that still parses as a complete, plausible number.
 
+### 17. Second person: **thou is the SINGULAR, you is the PLURAL** — a number marker, not a reverence marker
+
+**Ruled 2026-08-08.** The corpus had drifted into two habits and never chose
+between them. This chooses, and ratifies the majority — but for a reason the
+majority did not have.
+
+**The rule:** archaic second person (*thou · thee · thy · thine*, with `-est`
+/ `-st` verbs) renders a **grammatically singular** addressee. Modern *you ·
+your* renders a **plural** one. Nothing else decides it — not who is being
+addressed, not how exalted they are, not whether the sentence is a prayer.
+
+- God addressed as `σύ` / *tu* takes **thou**.
+- A brother, a monk, a reader, a patron addressed as `σύ` / *tu* takes
+  **thou** — the same word, because the source uses the same word.
+- A congregation, "brethren", a plural `ὑμεῖς` / *vos* takes **you**, even in
+  the middle of a letter written to one man.
+
+**Why it is a number marker and not a reverence marker.** Greek and Latin have
+no reverential second person. `σύ` to God is the same `σύ` as to a novice.
+Using *thou* for God and *you* for a brother — which is what an English ear
+reaches for, and what this translator did before the ruling — **invents a
+distinction the source does not make**, and is the same fault as latinizing a
+Greek divine name or harmonizing a lemma across works. The archaism has to
+earn its place, and this is what it earns: **it recovers a distinction every
+source text in this corpus marks and modern English cannot.**
+
+That distinction is already treated as load-bearing elsewhere in this file —
+`ἡμεῖς/ὑμεῖς` is a named hazard class with its own plate-verification rule
+(the lemma-and-gloss section, Pattern 16). A translation policy that protects
+the number of a pronoun with a *marker convention* while erasing it in the
+running prose is incoherent. This closes that.
+
+**The worked case, and it is the whole argument in one sentence.** Dorotheus's
+Epistles are eight letters to individual brothers, singular throughout — and
+Ep. IV quotes Phil 4:7, `φρουρήσει τὴν καρδίαν **ὑμῶν**`, which is plural. Under
+this rule the English reads *thou* for nine paragraphs and then "shall guard
+**your** heart" inside the quotation, and a reader can see, with no apparatus,
+that Dorotheus has just moved from the man in front of him to the church. Under
+a flat "you" that is invisible; under a flat "thou" it is falsified.
+
+**Boundaries.**
+- The scripture-echo licence (Register, above) is unaffected and is *separate*:
+  a familiar verse may echo traditional wording where the printed source matches
+  it. That licence covers the **quoted words**; it stops where the quotation
+  stops, and it never licenses archaism in the author's own voice.
+- Liturgical formulas keep their received English (Εὐλόγησον, Πάτερ = "Give the
+  blessing, Father"), archaic or not — an existing rule, unchanged.
+- A third-person doxology ("to whom be glory…") has no second person and is
+  untouched.
+- **An indefinite or generalizing singular is still singular** (Dorotheus VII's
+  `τὸ μὴ μεριμνῆσαί τινας` is indefinite *plural* — "that men are not to be
+  anxious" — and correctly takes neither).
+
+**Checkability.** This is the point of ruling it this way: under Pattern 17 the
+error is *"you" addressed to a singular*, and **the Greek/Latin morphology
+decides it, not taste** — so it is adjudicable against the committed twin, like
+guillemet parity under Pattern 6. Under the alternative rule ("you" everywhere)
+nothing is checkable and 52 shipped works are wrong.
+
+**Sweep — the state of it, measured 2026-08-08, and it is NOT done.**
+- 5,811 archaic tokens across **72 of 99** works; 2,964 sentences carry one.
+- 61% sit in a sentence with a quotation cue (« », " ", `[n:]`, italics); the
+  remaining **1,167 sentences in 52 works carry no cue**. Sampling those shows
+  they are overwhelmingly *correct under this rule* — unmarked scripture, or the
+  author addressing one monk (`Thou seest then, poor little man` — 11063;
+  `Dost thou see…` — 11321). **They are not the sweep's target.**
+- ⛔ **The sweep's target is the opposite: "you" used for a SINGULAR.** Two works
+  are known out of conformity, both PG monastic prose, both recent:
+  **`dorotheus-epistolae-ad-diversos`** — converted 2026-08-08, this ruling's
+  worked case — and **`antiochus-epistula-ad-eustathium`**, 21 tokens, every one
+  a singular address to Eustathius rendered "you". **Antiochus is SHIPPED AND
+  LIVE and has not been converted.** Do it before its next deploy, or rule
+  explicitly that it stays.
+- No other work has been checked in that direction. **Absence of a fix is not
+  evidence of conformity**; assume unconverted instances remain and convert them
+  as they are found, per the Pattern 14 precedent.
+
 ## Source patches — `data/tei-patches/<idno>.json`
 
 Our Latin is Corpus Corporum's TEI, not the plate. Where the *transcription* is

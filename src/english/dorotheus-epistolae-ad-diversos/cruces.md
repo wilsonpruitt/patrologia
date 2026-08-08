@@ -282,13 +282,33 @@ depend on the disputed letters (the tense, repair 4) was made.
   chunk places it. Within transcription tolerance for a positional quarter-guide,
   and not a translation defect. Recorded for a future band pass.
 
-### ⬜ For Wilson — a register question, not a fidelity one
+### ✅ Second person — RULED 2026-08-08, and this work is the worked case
 
-The English uses archaic second person **only** in direct address to God (the
-prayer in Ep. I, "as thou willest and as thou knowest"). The neighbouring PG
-monastic-prose work, `antiochus-epistula-ad-eustathium`, uses **none at all**. The
-two now differ. Not swept either way — this is a house-register call, and unlike a
-lemma it is not the kind of thing that should differ work by work.
+The blind read flagged that this work used archaic second person **only** in
+address to God, while the neighbouring `antiochus-epistula-ad-eustathium` used
+none at all. Surveying the corpus settled it the other way from where I expected:
+**52 of 99 works already use *thou* for a singular addressee of any kind** — God,
+a saint, a bishop, a monk, the reader — and *you* for a plural.
+
+Ruled and written up as **`translation-style.md` Pattern 17: thou is the
+SINGULAR, you is the PLURAL. A number marker, not a reverence marker.** Greek and
+Latin have no reverential second person; `σύ` to God is the same `σύ` as to a
+novice, so reserving *thou* for God **invents a distinction the source does not
+make** — the same fault as latinizing a Greek divine name. What the archaism
+earns its place by is recovering a distinction the sources mark and modern
+English cannot.
+
+**This work is converted throughout.** All eight letters address one brother, so
+the body is now *thou* — and the one place *you* survives is the payoff:
+Ep. IV quotes Phil 4:7, `φρουρήσει τὴν καρδίαν **ὑμῶν**`, plural. The English runs
+*thou* for nine paragraphs and then "shall guard **your** heart" inside the
+quotation, so a reader sees Dorotheus move from the man in front of him to the
+church, with no apparatus. Under a flat "you" that is invisible; under a flat
+"thou" it is falsified.
+
+⚠ **`antiochus-epistula-ad-eustathium` is now the known outlier** — 21 tokens,
+every one a singular address to Eustathius rendered "you", and it is **shipped
+and live**. Convert before its next deploy, or rule explicitly that it stays.
 
 ## Still open
 - The genre — terse ascetic letters of spiritual direction — has **no PG anchor

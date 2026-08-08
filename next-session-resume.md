@@ -9,8 +9,7 @@ Committed on master, **not pushed**. Nothing deployed.
 ### ▶ WHERE TO START: index, bio, then Wilson's deploy OK.
 
     node scripts/index-work-pg.mjs dorotheus-epistolae-ad-diversos
-    # data/author-bios.json — Dorotheus of Gaza has NO entry yet. Required before
-    # deploy or the byline falls back to the Latin form.
+    # ✅ author bio DONE 2026-08-08 (key "Dorotheus of Gaza (Dorotheus Archimandrita)")
     node scripts/build-work-page-pg.mjs dorotheus-epistolae-ad-diversos
     # then the FULL deploy checklist, runbook step 8 — including build-cruces.mjs
     # (its absence 404s the apparatus link and is invisible until after deploy)
@@ -54,6 +53,25 @@ doublet after the Latin's *per has aut illas*), a 7a″ conformation at Eph 3:20
 ("above and beyond" importing a `ὑπέρ` not on the page), a tense, both `[var:]`
 markers into Pattern 14's house form, and an em-dash for an ano teleia.
 Two `[var:]` added (Ezek 33:11, Eph 3:20).
+
+### ✅ NEW RULE — `translation-style.md` **Pattern 17**, second person
+
+**Thou is the SINGULAR, you is the PLURAL. A number marker, not a reverence
+marker.** Ruled 2026-08-08 out of the blind read's register flag. Greek and
+Latin have no reverential second person, so reserving *thou* for God invents a
+distinction the source does not make; what the archaism earns its place by is
+recovering one the sources DO mark and modern English cannot. Ratifies what 52
+of 99 works already do, and gives it a reason it did not have.
+
+Dorotheus is converted and is the pattern's worked case: eight letters to one
+brother run *thou* throughout, and the single surviving *you* is Phil 4:7's
+plural `ὑμῶν` inside a quotation — so the reader sees him turn from the man in
+front of him to the church, with no apparatus.
+
+⛔ **`antiochus-epistula-ad-eustathium` is the known outlier and is LIVE** — 21
+tokens, every one a singular address to Eustathius rendered "you". Convert
+before its next deploy, or rule explicitly that it stays. No other work has been
+checked in that direction; absence of a fix is not evidence of conformity.
 
 ### ⛔⛔ WHAT THE TRANSLATION SESSION FOUND — read this before the 87-leaf fleet
 
