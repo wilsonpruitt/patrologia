@@ -30,13 +30,13 @@ export const BOOKS = {
   // keep them distinct, the one-letter difference is the whole distinction.
   'Eccle': 'Eccl', 'Eccles': 'Eccl', 'Eccl': 'Eccl',
   'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Jer': 'Jer',
-  'Jerem': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
+  'Jerem': 'Jer', 'Jere': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   // 'Oseae' is the genitive Migne prints when the citation reads "of Hosea" (11057/340a).
   'Os': 'Hos', 'Ose': 'Hos', 'Osee': 'Hos', 'Oseae': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
   'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Abac': 'Hab', 'Soph': 'Zeph', 'Sophon': 'Zeph', 'Agg': 'Hag',
-  'Zach': 'Zech', 'Malach': 'Mal', 'Malac': 'Mal', 'Mal': 'Mal',
+  'Zach': 'Zech', 'Zachar': 'Zech', 'Malach': 'Mal', 'Malac': 'Mal', 'Mal': 'Mal',
   'I Mach': '1Macc', 'II Mach': '2Macc', 'I Machab': '1Macc', 'II Machab': '2Macc',
-  'Matth': 'Matt', 'Math': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John',
+  'Matth': 'Matt', 'Math': 'Matt', 'Matt': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John',
   // Double-n spelling variant: 9033/0563A prints 'Joann. I' for John 1:29.
   'Joann': 'John', 'Act': 'Acts',
   'Rom': 'Rom', 'I Cor': '1Cor', 'II Cor': '2Cor', 'Galat': 'Gal', 'Gal': 'Gal',

@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-08 session (later): back to the PL Song-of-Songs queue —
+  'pl/203/moralitates-in-cantica-canticorum',                    // Philip of Harvengt — the moral sense of the Song, seven Tomes
   // — 2026-08-08 session: first Dorotheus work; PG 88 opens —
   'pg/88/epistolae-ad-diversos',                                 // Dorotheus of Gaza — eight letters of spiritual direction, our own plate OCR
   // — 2026-08-05 session: third of the four Glabas sermons —
