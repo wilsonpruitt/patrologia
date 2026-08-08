@@ -206,7 +206,7 @@
       "author": "Dorotheus of Gaza (Dorotheus Archimandrita)",
       "title": "Expositiones et Doctrinae diversae",
       "titleEn": "The Spiritual Instructions",
-      "citRange": "PG 88, 1611–1844 (Doctrinae 1611–1835; Epistolae 1838–1844)",
+      "citRange": "PG 88, 1611–1844 (Doctrinae 1611–1836; Epistolae ad diversos 1837–1842; Index capitum 1842–1844)",
       "status": "QUEUED — source + both witnesses on disk; column map NOT built",
       "greekSource": "ours-vision-ocr",
       "copyA": "patrologia-volumes/088 (1,082 pp) — source images + Latin twin",
@@ -217,7 +217,8 @@
       "queueNote": "Palestine block item 2 (§8a.D) — the chapter-12 Gaza centerpiece.",
       "translationStatus": "exists",
       "translationStatusVerified": "2026-08-07",
-      "translationStatusNote": "RULED BY WILSON 2026-08-07: English translations of Dorotheus exist (exhaustiveness unknown and deliberately NOT researched — rule 8 forbids opening a research task to settle a badge). This work ships the WEAK claim, 'New English translation'. ⛔ Do NOT set translationStatus to 'none' here: PG_FIRSTS in build-landing.mjs is derived from exactly `translationStatus === 'none' && translationStatusVerified`, so that edit would silently turn on a public assertion of scholarly priority that is known to be false. The queue is flexible and this work is still worth doing afresh (rule 8: 'a foundational or poignant text is worth doing afresh even where English exists') — the badge is the only thing settled here."
+      "translationStatusNote": "RULED BY WILSON 2026-08-07: English translations of Dorotheus exist (exhaustiveness unknown and deliberately NOT researched — rule 8 forbids opening a research task to settle a badge). This work ships the WEAK claim, 'New English translation'. ⛔ Do NOT set translationStatus to 'none' here: PG_FIRSTS in build-landing.mjs is derived from exactly `translationStatus === 'none' && translationStatusVerified`, so that edit would silently turn on a public assertion of scholarly priority that is known to be false. The queue is flexible and this work is still worth doing afresh (rule 8: 'a foundational or poignant text is worth doing afresh even where English exists') — the badge is the only thing settled here.",
+      "citRangeNote": "Corrected 2026-08-07 from the plate. The old range read 'Doctrinae 1611–1835; Epistolae 1838–1844' and was wrong at both ends of the Epistolae. Measured: the EPISTOLAE title block sits on leaf970 (cols 1837/1838) and the Greek of Ep. Α΄ begins in the LEFT column = col 1837, in that column's D band only — col 1837 is LATIN above the rule (the tail of Doctrina XXIV) and GREEK below it. The epistles close at '…εὐχαῖς πάντων τῶν ἁγίων. Ἀμήν.' partway down leaf972 (col 1841); a printed rule follows, then INDEX CAPITUM, which runs to the end of leaf973 (col 1844). So 1843–1844 are index, not epistle text. ⚠ Doctrina XXIV is LATIN-ONLY — Migne's own index lists 23 Greek entries against 24 Latin. See data/pg-column-maps/pg088.json → indexCapitum and leafGreekState."
     }
   ]
 }
