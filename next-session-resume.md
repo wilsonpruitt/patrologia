@@ -1,264 +1,83 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE — THE EPISTOLAE ARE TRANSLATED AND READ. GATE IS GREEN.
+## ▶▶▶▶▶ SESSION CLOSE — DOROTHEUS IS LIVE. PG IS PAUSED; PL IS NEXT.
 
-Committed on master, **not pushed**. Nothing deployed.
-**Polarity gate: 99/99, exit 0** — this work's record is
-`data/polarity/dorotheus-epistolae-ad-diversos.json`, **10 sites, 7 ours**.
+`master` **pushed and in sync with origin** (`f573c79..0da2041`).
+**migne.app deployed and verified 2026-08-08** — `dpl_4Zjbdes8q4u47sRAXaUkprjRHo3J`.
+Site now serves **100 englished works**; `/scripture/` reads 3,480 citations.
 
-### ▶ WHERE TO START: ⛔ NOTHING BUT THE DEPLOY. Everything else is done.
+### ▶ WHERE TO START: the PL queue. ⏸ THE PG QUEUE IS PAUSED (Wilson, 2026-08-08).
 
-    cd site && npx vercel --prod --archive=tgz     # ← needs Wilson's per-action OK
+Do **not** resume PG work — no Glabas IV, no second Oecumenius unit, and above
+all **not the 87-leaf Dorotheus Doctrinae harvest** — until Wilson reopens it.
+Everything PG is clean and parked; nothing is half-done anywhere.
 
-Staged and verified locally: index (11 scripture citations), author bio,
-`work-about` entry, `englishState: "ours"` (`workStatus` left null → badge reads
-**"New English translation"**, which is right — `translationStatus: "exists"`),
-work page, cruces page, RECENT, and all seven generated-page rebuilds.
-Gates: `verify-english-pg` clean · `scan-raw-markers` clean over 99 pages ·
-polarity 99/99 exit 0. Smoke-test after deploy:
-`/pg/88/epistolae-ad-diversos/` **and `/cruces/pg/88/epistolae-ad-diversos/`**.
+**The live list is `/queue/`**, derived from `src/latin/` minus `src/english/`.
+The Song-of-Songs table in `translation-runbook.md` was refreshed from disk on
+2026-08-08 — ⚠ it had been wrong in BOTH directions, listing three shipped works
+as remaining and missing two prepared ones. Regenerate from disk, do not trust a
+table.
 
-### ⛔⛔ TWO SILENT BUGS FOUND WHILE SHIPPING — both bit works already LIVE
+**Nine prepared PL works, smallest first. Nothing is partially translated.**
 
-**1. The scripture indexer was rewarding INFIDELITY.** Migne sets his footnote
-chapter numerals in **lowercase** roman (`Matth. vi, 34.`); Corpus Corporum's TEI
-gives uppercase. Every numeral class in `scripts/lib/citations.mjs` was
-uppercase-only, so a faithfully transcribed lowercase note parsed to nothing and
-was filed as a **fons** — and `isScriptureShaped`, the guard whose whole job is to
-make an alias gap impossible to drop, **shares the same class and so was blind in
-the same direction**, sending it to `fontes[]` as though it had been judged.
-⚑ Consequence: `antiochus-epistula-ad-eustathium`, whose transcriber silently
-uppercased the numerals, indexed its citations; Dorotheus, which kept what the
-plate prints, indexed **none of its eleven**. Fixed by uppercasing the chapter
-token **for matching only** — `refDisplay` keeps Migne's lowercase (rule 9's dual
-key, exactly the case it was designed for). Corpus re-indexed: **+11 scripture,
-−11 fontes, 0 unparsed, exactly one work changed.**
-⚠ Making the guard case-tolerant immediately exposed a latent flaw in it: the
-numeral run was never anchored to a token boundary, so it matched a *prefix* of
-an ordinary word (`Leg. voraginis` on the *v*, `Greg. lib. VII` on the *li*).
-Two phantom alias gaps appeared, and are now fixed with `(?![A-Za-z])`.
+| idno | PL | author | work | chunks | est. burn | badge |
+|---|---|---|---|---|---|---|
+| 9637 | 138 | *Auctor incertus* | Ordo ad regem benedicendum | 2 | ~40K | First |
+| 11638 | 203 | Philip of Harvengt | Moralitates in Cantica | 35 | ~700K | First |
+| 6963 | 15 | (Ps.-)Ambrose | Commentarius in Cantica | 40 | ~800K | First |
+| 11550 | 196 | Richard of St Victor | Explicatio in Cantica | 48 | ~960K | First |
+| 11535 | 196 | Richard of St Victor | De eruditione hominis interioris | 58 | ~1.16M | **New** |
+| 11613 | 202 | Gilbert Foliot | Expositio in Cantica | 53 | ~1.06M | First |
+| 11512 | 195 | Wolbero | Commentaria in Canticum | 81 | ~1.6M | First |
+| 11632 | 203 | Philip of Harvengt | Commentaria in Cantica | 126 | ~2.5M | First |
+| 11703 | 206 | Thomas the Cistercian | Commentaria in Cantica | 259 | ~5.2M | First |
 
-**2. `chunk-work-pg-ours.mjs` wrote a manifest the builder could not read.** It
-omitted the descriptive head (`title`/`colFirst`/`colLast`/`citRange`/…) that the
-Calfa chunker writes. Nothing threw — `parseInt(undefined)` is `NaN` — so the
-page shipped a `<title>` reading **"PG 88, NaN–NaN"**, and because
-`build-cruces.mjs` locates a work's page by matching that title against a strict
-`PG \d+, [\d–-]+` pattern, it **silently declined to publish the apparatus**.
-That is the 404-cruces-link trap the runbook already warns about, arriving by a
-second route the checklist does not cover.
-Fixed at the producer. The same write now also **preserves the apparatus** — top
-level *and* per chunk — but only when the chunk shape is identical, and warns
-loudly when it is not, since notes are column-keyed and re-attaching them across
-a moved boundary would misfile them in silence.
+⛔ **Every one of these trips the big-burn hard stop.** State the work, chunk
+count and estimated burn, and ask "which model, and go?" before launching.
 
-### THE BLIND READ — two readers, and what it changed
+⚠ **9637 is blocked, not merely small.** A coronation ORDO is a liturgical/
+rubrical genre `translation-style.md` has never been calibrated on, so it needs a
+**Fable mini-pilot** before Opus touches it. It has been correctly skipped three
+times; skipping it again without saying why is how it becomes invisible.
 
-Two Opus readers launched together, each blind to `cruces.md`, this file,
-`raw/…/out/` and git history; one on negation/scope, one on quotation fidelity
-and markers. Full reconciliation lives in the work's `cruces.md`. The three
-results worth carrying:
+⚠ **11535 is not a Song commentary** (Richard on Nebuchadnezzar's dream) and its
+`workStatus` is `unclear`, so it ships the **"New English translation"** badge.
+Every other row is a verified `none` and earns "First".
 
-1. ⛔ **OUR OCR INVENTED A GREEK ANO TELEIA, and Pattern 8 protected it.** Col
-   1840D read `πειρασμοὺς εὑρίσκῃς**·** καὶ θλίψεις`; at 6× the mark is the
-   word's own **final sigma**, and the Latin prints one pair. The stop detached
-   `καὶ θλίψεις` from the verb that governs it — and the translator had carried
-   the break through *faithfully*, as the plate's own punctuation, which is
-   exactly what Pattern 8 tells him to do. **A new defect class for the corpus:
-   invented punctuation is invisible to every verifier and is actively shielded
-   by the rulebook.** This fount's final sigma is a middle-point lookalike →
-   into the fleet's transcriber prompt.
-2. ⭐ **A `[lat:]` I had DECLINED, overturned by both readers independently.**
-   Ep. VII close: Greek `μὴ ἔχοντας **θάρσος** περὶ τῆς αὔριον ζωῆς` (no
-   confidence of living to see tomorrow) ‖ Latin `ne habeamus **curam** vitæ
-   crastinæ` (no anxiety about tomorrow). The Greek grounds detachment in
-   mortality; the Latin assimilates it to Matt 6:34. **Opposite counsel, not
-   Allatian looseness.** I had filed it under free rendering. This is the
-   argument for running the read blind *and in duplicate*.
-3. **A reader recommendation DECLINED under rulebook 11.** The quotation reader
-   read the plate as `εὑρέθησαν` against the transcriber's `εὑρίθησεν` and wanted
-   the Greek chunk changed. Its look was 2×; the transcriber's was high-zoom and
-   explicit; re-examination at 8× finds the ink merged past legibility. **The
-   plate has not said otherwise, so the transcriber stands.** Preferring the
-   later reader because it is later is the same 7a′ error the adjudication step
-   already committed once on this work.
+✅ **Corrected 2026-08-08:** 10379 Robert of Tombelaine is **complete, 3/3**. The
+"paused mid-pilot" line carried here for weeks was stale.
 
-Also repaired: an Allatius leak (`τοιῶνδε` printed once, Englished as a
-doublet after the Latin's *per has aut illas*), a 7a″ conformation at Eph 3:20
-("above and beyond" importing a `ὑπέρ` not on the page), a tense, both `[var:]`
-markers into Pattern 14's house form, and an em-dash for an ano teleia.
-Two `[var:]` added (Ezek 33:11, Eph 3:20).
+### ⬜ Carried over from the PG block — small, unblocked, not urgent
 
-### ✅ NEW RULE — `translation-style.md` **Pattern 17**, second person
+- **`antiochus-epistula-ad-eustathium` violates the new Pattern 17** — 21 singular
+  addresses to Eustathius rendered "you", and it is LIVE. Convert on next touch,
+  or rule that it stays. No other work has been checked in that direction.
+- **Migne's `/method` page** still owes a "why translate this way" argument and
+  sibling links (`NOTES-method-page.md`). Outward-facing; needs Wilson's OK.
 
-**Thou is the SINGULAR, you is the PLURAL. A number marker, not a reverence
-marker.** Ruled 2026-08-08 out of the blind read's register flag. Greek and
-Latin have no reverential second person, so reserving *thou* for God invents a
-distinction the source does not make; what the archaism earns its place by is
-recovering one the sources DO mark and modern English cannot. Ratifies what 52
-of 99 works already do, and gives it a reason it did not have.
+### ⛔⛔ WHAT THE DOROTHEUS RUN FOUND — carry these into any future harvest
 
-Dorotheus is converted and is the pattern's worked case: eight letters to one
-brother run *thou* throughout, and the single surviving *you* is Phil 4:7's
-plural `ὑμῶν` inside a quotation — so the reader sees him turn from the man in
-front of him to the church, with no apparatus.
-
-⛔ **`antiochus-epistula-ad-eustathium` is the known outlier and is LIVE** — 21
-tokens, every one a singular address to Eustathius rendered "you". Convert
-before its next deploy, or rule explicitly that it stays. No other work has been
-checked in that direction; absence of a fix is not evidence of conformity.
-
-### ⛔⛔ WHAT THE TRANSLATION SESSION FOUND — read this before the 87-leaf fleet
-
-**A dropped negation, in the TRANSCRIPTION, unflagged.** Col 1840 (leaf971 l.10)
-had been transcribed `ἀλλ' ᾧ θέλω ἀντιστῆναί σοι`; the plate at 600 dpi prints
-**`οὐ`**, and the Latin prints *nolo*. Uncorrected, the page would have had
-Dorotheus say he *wished* to contend with the brother he is consoling.
-
-⚑ **This is `translation-style.md` 7a arriving one step upstream of where 7a
-looks for it.** The rulebook hunts the silent repair in the *translation*; this
-one was already in the Greek, so the English and the Greek would have agreed
-perfectly and no polarity read of the pair could ever have found it. On an
-our-OCR work the **unflagged** readings are the dangerous ones — this word
-carried no UNCERTAIN entry while three weaker readings on the same leaf did.
-**Corollary to rulebook 11: a confident transcription of a negation is still a
-negation. Polarity-bearing particles get a plate look whether or not they were
-flagged.** Add that to the fleet's transcriber prompt AND to its adjudication
-brief.
-
-**Three other plate corrections in the same pass**, each recorded in a
-`PLATE RE-READ` block at the foot of its leaf file: `κοπούσαι`→**`κοποῦσαι`**
-(circumflex; the word stops being unparsable and matches *laborabis valde*),
-`ἐπιρρίπτειν`→**`ἐπιῤῥίπτειν`**, `ἐπιρρίψωμεν`→**`ἐπιῤῥίψωμεν`**.
-
-⭐ **The last of those CLOSES the standing "do NOT harmonise" flag** (old open
-flag 5, below). ἐπιῤῥίψωμεν and ἐπίῤῥιψον **agree on the plate and always did** —
-this fount prints the breathings on the double rho, three times over. The
-divergence was ours. Nothing was harmonised; the plate was read.
-
-**Rendered as printed, not repaired:** Ep. VIII's *καινὸν οὐρανὸν … εὑρίσκει
-ἀνάπαυσιν* is missing its `οὐχ` — and **both columns print the affirmative**, so
-the defect is attributable to Migne rather than to us. The English says "he finds
-rest" in a sentence whose protasis denies him rest. Pattern 7, and the concurrence
-of the two witnesses is what makes it citable.
-
-### ⚠ PIPELINE TRAP found today
-
-**`chunk-work-pg-ours.mjs` REWRITES `manifest.json` and silently drops the
-`apparatus` block** that `attach-pg-notes.mjs` wrote into it (110 lines, all 11
-notes, gone on a re-chunk). Nothing errors and `verify-english-pg.mjs` cannot
-see it. **Always re-run `node scripts/attach-pg-notes.mjs <workKey>` after any
-re-chunk of a PG-ours work**, and check `git diff --stat` on the manifest.
-
-### ⚠ GENRE: this work has no anchor
-
-Terse ascetic letters of spiritual direction are not chronicle, dialogue, high
-homily or lemma-and-gloss. These eight letters were translated against the
-`antiochus-epistula-ad-eustathium` precedent and the general PG register rules.
-**If the Doctrinae run as a fleet, that genre needs a Fable anchor first**
-(runbook model policy) — and these letters are the natural material for it.
-
-### ⛔ THE 87-LEAF FLEET NEEDS WILSON AGAIN, AT A NEW NUMBER
-
-The pilot re-priced it. **Do not start the fleet on the old estimate.**
-
-- Measured: **475.6k for 4 leaves ≈ 119k/leaf** (I had quoted 250–300k for the
-  whole batch). The apparatus requirement roughly doubles per-leaf cost.
-- **87 leaves ≈ 10.4M for transcription alone**, before Opus adjudication —
-  against the ~5.5M quoted before the pilot.
-- ⛔ **THREE agents at a time, not six** (Wilson, from Acta): six on a run this
-  size burns the usage window and the fleet **stalls on a usage reset**, which
-  strands half-finished state. `CLAUDE.md` hard rule 5 now says so.
-- At ~13 min per slowest agent, 87 leaves at 3/round = **29 rounds ≈ 6+ hours**
-  of wall clock. **A multi-session run, not a session.**
-- Model policy unchanged: **Sonnet transcribes, Opus adjudicates.**
-
-### What this session built (all committed, all new)
-
-- **`scripts/chunk-work-pg-ours.mjs`** — chunker for our-OCR PG works. The Calfa
-  chunker could not be reused: different source contract, different map schema.
-  Segment list is hand-written from the plate, because a leaf is not reliably one
-  column of one work.
-- **`scripts/pg-latin-twin-ours.py`** — chunk-aligned Latin twin from the
-  archive.org OCR layer. **The Latin was free all along** — `copyA_088_djvu.xml`
-  has been on disk since 2026-08-04, and it is good at Latin and hopeless at
-  Greek, which is exactly the asymmetry the pipeline needs.
-- **`scripts/attach-pg-notes.mjs`** — apparatus as chunk metadata + `APPARATUS.md`.
-- **`data/pg-notes/pg088-dorotheus.json`** (43 notes, leaves 845–864) and
-  **`pg088-epistolae.json`** (11 notes).
-- **`leafGreekState`** replacing the dead `latinOnlyLeaves` boolean.
-- **`headSweep`** + `indexCapitum` in the column map; `anchorsPlateVerified` 20 → 41.
-
-### ⚑ FINDINGS THAT GOVERN THE FLEET — read before harvesting anything
-
-1. **Migne keys every note to the LATIN column.** No superscript appears anywhere
-   in the Greek of any leaf transcribed. Nothing was lost in OCR; there was
-   nothing there. The apparatus is reachable only through the Latin.
-2. **The note's own citation is its locator** — Migne prints the marker at the
-   CLOSE of the quotation it cites. Verified: of 11 markers, the 3 that survived
-   the scan layer as `*` all sit exactly there.
-3. **Marker POSITION is not harvestable.** 3 of 11 survived; 0 of 6 on one
-   column. Superscripts are the first thing a scan loses.
-4. **Bands belong to the COLUMN, not the script.** On a partial leaf the letters
-   do not restart when the script changes — col 1837's `A B C` fall in its Latin
-   stretch and `D` in its Greek. A transcriber "correcting" a band by script
-   drops a citation address invisibly.
-5. **Mid-word column anchors are real and are written TIGHT** —
-   `ἐλπι[1840][b: A]ζόμενα`, so stripping markers yields `ἐλπιζόμενα`. Two of
-   three seams in this work fall inside a word. Any renderer that strips markers
-   must be tested against one BEFORE it ships.
-6. **Measure the gap, never pick a round number.** A window floor of y=500,
-   chosen because it looked safe, silently ate the first body line of two Latin
-   columns. The head ends at 359, the body starts at 426; the floor is 400.
-7. **This fount's digits turn on ONE STROKE.** `3` vs `5` = which side descends
-   after the top bar; `2` has a closed loop and a detached base and reads as `9`.
-   ⚑ **copyA's OCR makes exactly these errors** — `quæst. 115` for 113,
-   `Matth. vi, 54.` for 34. **Never let the twin overwrite a plate reading.**
-8. **The running head is a work-boundary gate** at one crop per leaf — Migne names
-   a new work in the head of the leaf where it begins. ⚠ **Match on CHANGE, not
-   equality:** four misprints of the author line (`DOROPHEI`, `DAROTHEI`,
-   `ABRATIS` ×2).
-9. **Migne's INDEX CAPITUM is a witness to which Doctrinae have Greek** — 23
-   Greek entries against 24 Latin, so Doctrina XXIV is Latin-only and Migne says
-   so in his own front matter. Read the index before planning the harvest.
-10. **Flag count ≠ adjudication count.** ~60% of the pilot's flags were correct
-    readings correctly doubted (certain letters, odd form) — those are the payload
-    and the adjudicator's job is to DECLINE to act. Sizing an adjudication pass
-    from raw flag counts over-estimates it badly.
-11. ⛔ **THE ADJUDICATION STEP IS NOT PRIVILEGED.** I overrode a transcriber's
-    direct observation ("Greek-less") with an inference from a neighbouring leaf,
-    and Migne's index proved the transcriber right. That is rulebook 7a′ committed
-    by the adjudicator, within an hour of my writing the rule up. **Where a
-    transcriber reports what it SAW and the adjudicator answers with what it
-    INFERRED, the transcriber wins until the plate says otherwise.**
-
-### ⚠ OPEN FLAGS — carried forward, none blocking
-
-1. **Seven notes, six letters** between 846's `n` and 853's `u`. One of the three
-   illegible-marker notes (leaf850 ×2, leaf851 ×1) is not in the lettered series.
-   Recorded as a gap, deliberately not settled from the series.
-2. **leaf859 `ⁱ Psal. cx, 18.`** — certain reading, impossible reference (Ps. cx
-   has ten verses). Crux. Do not renumber.
-3. **leaf860 `ᵐ Psal. xxxiii, 2.`** — read at 8× against `9`; neighbours run
-   13/14/15. Check the body when chunked; if they disagree, record.
-4. **DOCTRINA XX never appears in a running head** (XIX at 1809, XXI at 1813).
-   Short Doctrina or a misnumbered head — read cols 1809–1814 when harvested.
-5. ~~**leaf972 `ἐπιρρίψωμεν`** breathing on the ῥ~~ — ✅ **CLOSED 2026-08-08.**
-   The plate prints `ἐπιῤῥίψωμεν`; it agrees with `ἐπίῤῥιψον`. Ours was the
-   divergence. See the session-close block at the top.
-6. **leaf864's BODY has never been read full-page** (`batch2-pages/manifest.json`
-   stops at 863). Its notes are swept; its text is not.
-7. **Batches 1 and 2 (leaves 836–864) are still unchunked.** The chunker now
-   exists and the foot-rule blocker is gone. Before they can be chunked they need
-   (a) their own plate-read `oursSegments` list, (b) Batch 1's notes gathered into
-   a notes JSON, and (c) ⚠ **the ~20 Batch 2 verdicts that were adjudicated
-   against the CROP text re-checked against the eight FULL-PAGE leaves**
-   (845 846 847 849 853 856 857 861). That last one is recorded in the
-   2026-08-05/06 block below and is still owed — the full-page read is the better
-   witness and should win, but the verdicts were never re-applied to it.
-8. **Migne's `/method` page** still owes a "why translate this way" argument and
-   sibling links (`NOTES-method-page.md`). Outward-facing; needs Wilson's OK.
-
----
+1. **A dropped negation in the TRANSCRIPTION, unflagged.** Col 1840 was read
+   `ἀλλ' ᾧ θέλω`; the plate prints **`οὐ`** and the Latin prints *nolo*. Style 7a
+   arriving one step upstream of where 7a looks: the English and the Greek would
+   have agreed perfectly, so no polarity read of the pair could have found it.
+   **On an our-OCR work the UNFLAGGED readings are the dangerous ones** — this
+   word carried no UNCERTAIN entry while three weaker readings on the leaf did.
+2. **Our OCR invented an ano teleia, and Pattern 8 protected it.** The mark was
+   the word's own final sigma. A conscientious translator carries an invented
+   stop through as the plate's own punctuation. This fount's final sigma is a
+   middle-point lookalike → into the transcriber prompt.
+3. **The scripture indexer was rewarding infidelity** (fixed). Migne sets
+   footnote chapters in lowercase roman; every numeral class was uppercase-only,
+   and the guard shared the blind spot. Antiochus indexed because its transcriber
+   silently uppercased; Dorotheus, faithful, indexed none of its eleven.
+4. **`chunk-work-pg-ours.mjs` wrote a manifest the builder could not read**
+   (fixed): missing descriptive head → `NaN–NaN` in the page title → and because
+   `build-cruces.mjs` matches on that title, the apparatus went unpublished. The
+   404-cruces trap by a second route. It now also preserves the apparatus across
+   a re-chunk, and warns loudly when the chunk shape moved.
+5. **Pattern 17 ruled:** thou = singular, you = plural, a number marker not a
+   reverence marker.
 
 # ⚠⚠ EVERYTHING BELOW THIS LINE IS HISTORY ⚠⚠
 #

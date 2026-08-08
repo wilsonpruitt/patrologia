@@ -312,22 +312,42 @@ ruling any more.** Note the boundary before launching: merge-time reconciliation
 *inside* a single work is still required (step 4) — one voice per work, as many
 voices across works as Migne printed.
 
-**Shipped as of 2026-07-28** — 7383 (Expositio cantici Magnificat), 11062 (Hugh,
-*Explanatio in Canticum B. Mariae*), 21413 (Alcuin), 11321 (William), 7871 (Justus
-of Urgell). Ten remain, below. This table does not update itself: **`/queue/` is
-the live list**, derived from `src/latin/` minus `src/english/` at build time.
+**Shipped** — 7383 (Expositio cantici Magnificat), 11062 (Hugh, *Explanatio in
+Canticum B. Mariae*), 21413 (Alcuin), 11321 (William), 7871 (Justus of Urgell),
+10379 (Robert of Tombelaine — **complete, 3/3; the "paused mid-pilot" note carried
+in `next-session-resume.md` until 2026-08-08 was stale**), and, since the table
+was last written, **10804 (Bruno of Segni), 7914 (ps.-Cassiodorus) and 9033
+(Angelomus of Luxeuil)**.
+
+⚠ **This table does not update itself and had gone wrong in BOTH directions** —
+it still listed three shipped works as remaining and was missing two prepared
+ones. **`/queue/` is the live list**, derived from `src/latin/` minus
+`src/english/` at build time; regenerate the figures below from disk rather than
+trusting them. Refreshed from disk 2026-08-08.
 
 | idno | PL | author | work | Latin words | chunks | est. burn |
 |---|---|---|---|---|---|---|
-| 10804 | 164 | Bruno of Segni | Expositio in Cantica canticorum | 19,037 | 17 | ~340K |
-| 7914 | 70 | Ps.-Cassiodorus | Expositio in Cantica canticorum | 27,573 | 23 | ~460K |
-| 9033 | 115 | Angelomus of Luxeuil | Enarrationes in Cantica canticorum | 32,713 | 27 | ~540K |
-| 11638 | 203 | Philip of Harvengt | Moralitates in Cantica canticorum | 40,356 | 35 | ~700K |
-| 6963 | 15 | (Ps.-)Ambrose | Commentarius in Cantica canticorum | 44,936 | 40 | ~800K |
-| 11613 | 202 | Gilbert Foliot | Expositio in Cantica canticorum | 66,117 | 53 | ~1.1M |
-| 11512 | 195 | Wolbero of St Pantaleon | Commentaria in Canticum canticorum | 109,419 | 81 | ~1.6M |
-| 11632 | 203 | Philip of Harvengt | Commentaria in Cantica canticorum | 126,797 | 126 | ~2.5M |
-| 11703 | 206 | Thomas the Cistercian | Commentaria in Cantica canticorum | 333,776 | 259 | ~5.2M |
+| 9637 | 138 | *Auctor incertus* | Ordo ad regem benedicendum | 2,406 | 2 | ~40K |
+| 11638 | 203 | Philip of Harvengt | Moralitates in Cantica canticorum | 40,570 | 35 | ~700K |
+| 6963 | 15 | (Ps.-)Ambrose | Commentarius in Cantica canticorum | 45,415 | 40 | ~800K |
+| 11550 | 196 | Richard of St Victor | Explicatio in Cantica canticorum | 50,266 | 48 | ~960K |
+| 11535 | 196 | Richard of St Victor | De eruditione hominis interioris | 54,568 | 58 | ~1.16M |
+| 11613 | 202 | Gilbert Foliot | Expositio in Cantica canticorum | 66,297 | 53 | ~1.06M |
+| 11512 | 195 | Wolbero of St Pantaleon | Commentaria in Canticum canticorum | 109,808 | 81 | ~1.6M |
+| 11632 | 203 | Philip of Harvengt | Commentaria in Cantica canticorum | 127,035 | 126 | ~2.5M |
+| 11703 | 206 | Thomas the Cistercian | Commentaria in Cantica canticorum | 335,675 | 259 | ~5.2M |
+
+Two rows are **not** Song-of-Songs commentary and do not inherit that tier's
+rulings:
+- **9637 `Ordo ad regem benedicendum`** — a coronation ORDO. Smallest prepared
+  work in the corpus by an order of magnitude, and **still blocked**: liturgical
+  /rubrical text is a genre `translation-style.md` has never been calibrated on,
+  so it takes a Fable mini-pilot before Opus touches it (model policy, above).
+  It has been correctly skipped by the queue builder three times running.
+- **11535 `De eruditione hominis interioris`** — Richard on Nebuchadnezzar's
+  dream, not the Song. ⚠ Its `workStatus` is **`unclear`**, so it ships the
+  **"New English translation"** badge; every other row here is a verified `none`
+  and earns "First".
 
 **⚠ 8930 Rabanus was REMOVED from this table 2026-07-30 — it is NOT a Song of Songs
 commentary.** Its title is the bare *Commentaria in Cantica*, but its own heads name the
