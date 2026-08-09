@@ -323,3 +323,98 @@ Also deferred: *dulcedo*/*suavitas* mapped one way in 0107 and the reverse in
 both sides rather than asserting — *laetitia cordis ejus* (his or hers, split
 between lemma and exposition with no note, which is the part that is indefensible
 either way), *vincitur* (bound or conquered), and *hujus* at 0107 @0443B.
+
+---
+
+## Readers 10–11 + marker audit · chunks 0108–0125 and the whole apparatus
+
+### ⛔ THE FIRST TRUE POLARITY DEFECT — 0122 @0481D
+
+Migne: *ut non solum sibi, sed et proximus diligenter perpendentibus appareat
+**non deesse**.* Shipped: "…it may appear **to be wanting** not only to itself,
+but the neighbour also." **The *non* is simply gone**, and the English asserts
+the lamp *is* lacking to both — the exact opposite of a paragraph that exists to
+show the lamp serves the neighbour. Repaired.
+
+⚑ **Note what this means for the read as a whole.** Across 126 chunks the
+negation sweep found ~110 `necdum`/`nondum` sites with **one** flattened, and
+almost every other ours-side site was **lexical or syntactic** rather than
+polarity. This is the one place a printed negative vanished outright. The prose
+held where it was watched; the failures clustered where nobody was looking.
+
+### The marker audit — a good result, honestly bounded
+
+| marker | present | checked | sound |
+|---|---|---|---|
+| `[sic:]` | 50 | 50 | 45 |
+| `[var:]` | 102 | 102 | 94 |
+
+**The failure that dominated 11638 is absent here.** All 102 `[var:]` sit
+adjacent to their own quotation (zero drift), none sits on Philip's prose, and
+**all four ellipses show the divergent words and elide only untouched material**.
+Reference format is uniform — all 71 notes carrying a reference use arabic
+chapter:verse, against 11638's 71 roman / 59 arabic / 8 none.
+
+**Four `[var:]` failed by quoting the Vulgate without saying what differed** — at
+0284D the gloss "Father, forgive them, for they know not what they do" was
+*identical to the printed English*, so no difference was visible on the page.
+Repaired to name the divergence (*ignosce* for *dimitte*, *macta* for *occide*,
+the omitted *Dominus*). ⚑ My first attempt led with "Migne prints" and
+**`verify-english` rejected it** — a `[var:]` must open by naming its witness.
+The check worked on me.
+
+### ⛔ A 7a″ TRAP IN OUR OWN PIPELINE — 0100 @0428A, NOT resolved
+
+`[sic: *informen t*]` reports broken type. But **the Latin source file itself
+reads `informen *t*`** — the "break" is **italics markup in our own text**, not
+Migne's. The plate almost certainly prints *informent*, an ordinary word. This is
+our digitization's damage attributed to the plate, which is the precise error the
+corpus rules exist to prevent. **Needs a plate check; deliberately not guessed.**
+
+### ⛔ ONE CONTESTED CLASS, deliberately NOT applied piecemeal
+
+The audit wants four `[sic:]` removed for sitting on **real Latin words**
+(*Pecte*, *signa*, *ama*, *sternis*) and *Incipit* @0345B reclassified — but the
+translating agents used `[var:]` for exactly that "real word merely wrong" class,
+citing Pattern 12. **These are one question about where Pattern 12's boundary
+falls in this work**, and answering it in five separate edits guarantees an
+inconsistent result. **Merge decision; the inventory is now complete.**
+
+Related and still open: the split/join asymmetry. Six word-**splits** are carried
+(`a beo`, `a vida`, `hila rescat`, `in cutiens`, `informen t`, `a dolescentulae`)
+while the word-**join** `aforis` (0077) is silently normalized, as are
+*persequenter* (0046) and the lemma-level *myrrhoe* (0069) — where the parallel
+lemma defect *fovum* (0093) **is** carried as `[sic:]`.
+
+⭐ **How those four unmarked defects were found, which no per-range reader could
+have done:** the auditor built a frequency baseline over **all 100 Latin works**
+in `src/latin/`, isolated 11632 hapaxes whose single-edit neighbour is
+high-frequency, and read each in context. The rest were genuine rare Latin.
+
+### Applied from the final range
+
+*gratia* read as the noun **again** (0120, the named class recurring);
+*indeficiens* agreed with the wrong noun; *dure* → "hardly", which in modern
+English reads as *scarcely* and reverses it; *immaturae* (adj.) turned into an
+abstract noun; *faucibus* → "throats" inside the *guttur* chapter, where the same
+collocation ships "jaws" at 0060 and *fauces* is "jaws" at 8 of 13 sites
+work-wide; a negative attached to the wrong verb; *quoque* dropped.
+
+### ⭐ Eccles. 9:1 at 0125 — CLEAN, and the range's other checks came back clean
+
+Migne's reversed pair is preserved, *vel* is not normalized, no Douay
+pull-through. **Nothing is GONE** in 0117–0125: anchors, `[n:]` counts and
+sentence counts all match. *capreae* is correctly read as dative here — the known
+mis-parse does **not** recur. No supplied "O". The *ubera*/*uber* contrast holds.
+
+### Still open for the merge, beyond the contested marker class
+
+- **Supplied em-dashes work-wide** (~600 sites; Migne prints none anywhere).
+- **Five supplied question marks** at 0121/0123/0125 and **four deleted colons**
+  at 0118 — the *deletion* direction is the one Pattern 8 names as live.
+- *donec ipsa velit* rendered **three ways inside one chunk** (0121); *doctores*
+  two ways in one chapter; a **catchword that does not match its own lemma**
+  (0124: "There was a vineyard" pointing at "The peaceable had a vineyard"), so a
+  reader following it cannot find the passage.
+- The **Gallemart colophon** — a 1618 Douai censor's approbation, currently
+  half-Englished as "John GALLEMART". Not Philip's text; wants a house ruling.
