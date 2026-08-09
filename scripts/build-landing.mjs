@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-09 session: the largest work yet englished, and the same author twice running —
+  'pl/203/commentaria-in-cantica-canticorum',                    // Philip of Harvengt — the full Song commentary, six books, 126,797 Latin words
   // — 2026-08-08 session (later): back to the PL Song-of-Songs queue —
   'pl/203/moralitates-in-cantica-canticorum',                    // Philip of Harvengt — the moral sense of the Song, seven Tomes
   // — 2026-08-08 session: first Dorotheus work; PG 88 opens —
