@@ -24,7 +24,8 @@ export const BOOKS = {
   // Chronicles = Paralipomenon; Migne prints Par./Paral./Paralip. interchangeably —
   // 11551 alone uses two of the three (234b, 236b vs 237b).
   'I Paral': '1Chr', 'II Paral': '2Chr', 'I Paralip': '1Chr', 'II Paralip': '2Chr',
-  'Tob': 'Tob', 'Judith': 'Jdt', 'Esth': 'Esth', 'Job': 'Job',
+  // 'Esther' is the full form Migne prints at 11632/0290c, beside the usual 'Esth'.
+  'Tob': 'Tob', 'Judith': 'Jdt', 'Esth': 'Esth', 'Esther': 'Esth', 'Job': 'Job',
   'Psal': 'Ps', 'Ps': 'Ps', 'Psalm': 'Ps', 'Prov': 'Prov', 'Cant': 'Song', 'Cantic': 'Song',
   // Ecclesiastes: Migne writes Eccle/Eccles/Eccl. Ecclesiasticus (Sirach) is Eccli —
   // keep them distinct, the one-letter difference is the whole distinction.
@@ -33,7 +34,9 @@ export const BOOKS = {
   'Jerem': 'Jer', 'Jere': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   // 'Oseae' is the genitive Migne prints when the citation reads "of Hosea" (11057/340a).
   'Os': 'Hos', 'Ose': 'Hos', 'Osee': 'Hos', 'Oseae': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
-  'Mich': 'Mic', 'Nah': 'Nah', 'Habac': 'Hab', 'Abac': 'Hab', 'Soph': 'Zeph', 'Sophon': 'Zeph', 'Agg': 'Hag',
+  // 'Michae'/'Nahum' are the fuller forms Migne prints at 11632/0307c and /0333a.
+  'Mich': 'Mic', 'Michae': 'Mic', 'Nah': 'Nah', 'Nahum': 'Nah',
+  'Habac': 'Hab', 'Abac': 'Hab', 'Soph': 'Zeph', 'Sophon': 'Zeph', 'Agg': 'Hag',
   'Zach': 'Zech', 'Zachar': 'Zech', 'Malach': 'Mal', 'Malac': 'Mal', 'Mal': 'Mal',
   'I Mach': '1Macc', 'II Mach': '2Macc', 'I Machab': '1Macc', 'II Machab': '2Macc',
   'Matth': 'Matt', 'Math': 'Matt', 'Matt': 'Matt', 'Marc': 'Mark', 'Luc': 'Luke', 'Joan': 'John',
