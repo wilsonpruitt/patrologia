@@ -9,6 +9,10 @@ translation** and it is earned (`workStatus: none`, never overwritten). Site now
 serves **101 englished works · 4,653 scripture citations · 98 cruces pages ·
 45 PL volumes + 4 PG**.
 
+✅ **`master` is PUSHED and the tree is clean** — this session ran `0d509d2 →
+e276e1d` (21 commits) plus this line. Nothing is local-only, nothing is owed a
+deploy.
+
 ⚑ **Deploy gotcha, cost 10 minutes:** `npx vercel --prod --archive=tgz` returned
 **`Not authorized`** even though the account owns the project and the
 commit-author gate was satisfied. **The fix is `--scope wilson-pruitts-projects`.**
