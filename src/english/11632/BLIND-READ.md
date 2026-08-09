@@ -214,3 +214,112 @@ The readers counted rather than guessed, which is what makes these usable:
 - Also logged: *munditia* for *immunditia*, *vitae* for *petrae foramina*,
   *plaudi* for *claudi*, *collum* for *colum* (Prov. 31:19), *suum* for *sum*
   in a re-quotation the plate corrupts against itself.
+
+---
+
+## Readers 7–9 · chunks 0072–0107 · 54 ours-side sites
+
+### ⛔ 0091 @0404D — AN ENTIRE 46-WORD SENTENCE WAS MISSING
+
+Migne prints *Et quis dilectus suam diutius neget praesentiam vel adventum horto
+quem plantavit, quem rigavit, cui dedit etiam incrementum: a cujus continentia,
+quidquid erat noxium, scopa judiciaria procul jecit, et conclusum forti munimine,
+specialiter suum fecit?* The English went straight from "poured abroad in our
+hearts" to *Quem vero non moveat*.
+
+**Nothing could see it.** Column anchors matched, `[n:]` counts matched, and the
+word ratio was **1.61 — dead centre of the band for that range**, because the
+chunk is long enough to absorb 46 words invisibly. The reader's own tell was that
+the Latin carried **four** question marks and the English **three**.
+
+⭐ **So `verify-english.mjs` now checks question-mark parity** (a WARN, not an
+error — English legitimately turns some Latin questions into statements). It cost
+one regex. Run over the finished work it flagged 8 chunks and immediately found a
+second real item at **0051**, where Migne's `?` had been rendered as a period.
+Of the rest, all run EN > LA — supplied marks, the safer direction.
+
+### ⭐ Two work-wide sweeps, both mechanically provable
+
+**The supplied vocative "O".** Migne prints `, filiae Hierusalem` at **all 13**
+occurrences in the work and **never** `o filiae`. Our English supplied "**O**
+daughters of Jerusalem" at 8 of them and "daughters of Jerusalem" at the rest —
+the same phrase both ways, from Douay Cant. 5:8. ⭐ **The proof it is a supply
+and not a licence sits eleven lines below one of the sites:** Migne prints *o
+pulcherrima mulierum*, and our English correctly reads "O thou most beautiful
+among women". **He uses *o* when he wants it.** Swept: 8 sites.
+
+**Bare `[sic:]` markers.** Of the 40 `[sic:]` in the work, **exactly two** lacked
+the italics every other one carries — and one of them sits nine lines from a
+correctly-formed `[sic: *occulis*]` in the same chunk. This is the apparatus
+class 11638's blind read warned about and `verify-english` cannot see: it strips
+asterisks before comparing, so a marker missing its italics passes. Fixed.
+
+### Applied — the Douay over the plate, each convicted from inside the work
+
+- **0085 @0389A** — Cant. 4:10 shipped as "thy **breasts** more beautiful than
+  wine", verbatim Douay, **in a chapter whose whole argument is that *mammae* ≠
+  *ubera***. Our own exposition renders *sive postmodum ubera* "or afterward
+  **paps**" and *non solum uberibus, sed et mammis* "not in the paps only, but in
+  the breasts also, **whereof there no mention is made**". The English lemma made
+  Philip say the mention *is* there. → "thy **paps**".
+- **0089 @0398A** — Job 42:6 *favilla et cinere* shipped "dust and ashes", while
+  the **same chunk** renders Gen. 18:27 *pulvis et cinis* "dust and ashes" eight
+  lines later. Two Latin pairs, one English pair. → "**embers** and ashes".
+- **0078 @0374A** — Cant. 4:4 *pendent **ex** ea* shipped "hang **upon** it"
+  (Douay), where our own exposition expounds it four times as "hang **from** the
+  tower… **from her**… **from Mary**".
+- **0086 @0393A** — *quis **invenit*** given Douay's future "who shall **find**?"
+  plus a supplied question mark where Migne prints a comma.
+
+### Applied — mis-parses, several proved by grepping the other 125 chunks
+
+- **0099 @0425D** — ***necturae*** (from *necto*, a binding) flattened to
+  "nature", erasing Philip's *nectura*/*natura* contrast **within one sentence**.
+  The word occurs exactly twice in the work; at 0042 our own English renders it
+  "**her binding**". Same clause also made *dilectus* the object and deleted
+  *Virginem*.
+- **0072 @0362A** — *refecturus* rendered passive ("about to **be** refreshed");
+  *-urus* cannot be. Every other future participle in the range — *paritura*,
+  *profutura*, *nocitura*, *pugnaturus*, *ascensurus* — is active.
+- **0075 @0368B** — postpositive *gratia* read as the noun "grace". **21 other
+  sites** render it "for the sake of", including one in the same chunk's neighbour.
+- **0080 @0379C** — *tota turpis* as "**wholly** foul" eight lines from its own
+  "**all** fair", inside a four-term graded scheme built on the one word. *tota
+  turpis* ships as "all foul" at 0036 and 0103.
+- **0072/0076** — *nonnisi* as "**nothing if not**", an English idiom meaning
+  "supremely" where the argument is exclusivity. Rendered "nothing but / none but"
+  everywhere else in the work.
+- **0101 @0430D** — *creator **noster omnium*** with *omnium* detached and
+  re-bound to *creaturae*. The idiom occurs **19 times** and our English gets it
+  right every other time.
+- **0103 @0433D** — *videre* read as a passive ("to be seen of them that seek
+  God"); it is active and governed by *quaerentibus* — "to them that seek **to
+  see** God".
+- **0101 @0429C** — *ille… te* reversed, making **Christ** the one not yet sent
+  out of the world instead of the Virgin, when the point is that she is left here
+  to teach.
+- **0090 @0401B** — a **negative supplied** that Migne does not print, turning the
+  Ovid tag into the unconstruable "***Lest*** the waters take a taint unless they
+  be moved".
+- Deletions restored: *avidus*, *satis*, *illi*, *prima* (a whole clause), and
+  *tota*'s scheme.
+
+### Deferred — and one of them is a work-wide policy question
+
+⚠ **Supplied em-dashes are a work-wide convention, not a range defect.** The
+0072–0083 reader counted rather than reported: Migne prints **zero** em-dashes
+anywhere in the work, and our English supplies roughly **five per chunk** — about
+600 sites. It correctly declined to list its own ~40 because doing so would have
+buried its real findings, and asked for a **single policy decision under Pattern
+8** applied to the whole work at once. **That is the right call and it belongs to
+the merge, not to me.** Note the two punctuation items it *did* raise are
+different in kind: one **deletes** a printed full stop, the other **adds** a comma
+that changes what a clause modifies.
+
+Also deferred: *dulcedo*/*suavitas* mapped one way in 0107 and the reverse in
+0097–0099 (0107's is driven by its own lemma, so fixing it unsettles the chapter);
+*aromata* as "spices" vs the two-word Douay "aromatical spices", live at 0069,
+0092, 0093, 0105, 0121; and several genuine construals where the reader argued
+both sides rather than asserting — *laetitia cordis ejus* (his or hers, split
+between lemma and exposition with no note, which is the part that is indefensible
+either way), *vincitur* (bound or conquered), and *hujus* at 0107 @0443B.

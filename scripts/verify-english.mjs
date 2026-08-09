@@ -199,6 +199,22 @@ for (const c of manifest.chunks) {
   else if (ratio > 1.6) warns.push(`${name}: ratio ${ratio.toFixed(2)} — high; confirm expansion is synthetic-Latin unpacking, not padding`);
   else if (ratio < 1.0) warns.push(`${name}: ratio ${ratio.toFixed(2)} — low for Tier-2, eyeball for compression`);
 
+  // Question-mark parity. Added 2026-08-08 after 11632's blind read found chunk
+  // 0091 missing an ENTIRE 46-WORD SENTENCE — a rhetorical question — that every
+  // check here passed over: anchors matched, [n:] counts matched, and the word
+  // ratio came in at 1.61, dead centre of that work's band, because the chunk was
+  // long enough to absorb the loss invisibly. The reader's own tell was that the
+  // Latin carried FOUR question marks and the English three.
+  //
+  // A dropped interrogative is the cheapest possible signal for a dropped clause,
+  // and this costs one regex. It is a WARN, not an error: English legitimately
+  // turns some Latin questions into statements and vice versa (an indirect
+  // question, a rhetorical `numquid` rendered as an assertion), so parity is a
+  // prompt to look, not a rule. Mismatches were 1 in 126 chunks on this work.
+  const lq = (strip(lat.body).match(/\?/g) || []).length;
+  const eq = (strip(eng.body).match(/\?/g) || []).length;
+  if (lq !== eq) warns.push(`${name}: question marks ${eq} EN vs ${lq} LA — check for a dropped or added clause`);
+
   for (const p of eng.body.split(/\n\n+/)) {
     if (/^## /.test(p.trim())) continue; // see HEAD_EXEMPT note below
     const n = norm(p);
