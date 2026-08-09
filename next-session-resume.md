@@ -1,6 +1,87 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE — TWO WORKS SHIPPED. PG PAUSED; PL QUEUE RUNNING.
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-09 — 11632 IS LIVE. THE BIGGEST WORK SO FAR.
+
+**Philip of Harvengt's *Commentaria in Cantica canticorum* (11632, PL 203
+181–490) is deployed and verified on migne.app** — 126 chunks, 126,797 Latin
+words, 194 sections, 708 scripture citations. Badge reads **First English
+translation** and it is earned (`workStatus: none`, never overwritten). Site now
+serves **101 englished works · 4,653 scripture citations · 98 cruces pages ·
+45 PL volumes + 4 PG**.
+
+⚑ **Deploy gotcha, cost 10 minutes:** `npx vercel --prod --archive=tgz` returned
+**`Not authorized`** even though the account owns the project and the
+commit-author gate was satisfied. **The fix is `--scope wilson-pruitts-projects`.**
+Check that before suspecting auth.
+
+### ▶ WHERE TO START: the next PL work. ⏸ PG STAYS PAUSED (Wilson, 2026-08-08).
+
+`/queue/` is live — **7 prepared works, 661,223 words**. Smallest unblocked
+first; every one trips the big-burn hard stop, so state work, chunk count and
+estimated burn and ask "which model, and go?" **9637 stays blocked** on a Fable
+mini-pilot (coronation ordo, a genre `translation-style.md` has never been
+calibrated on). Skipped five times now.
+
+### ⬜ OWED on 11632 — neither blocking
+
+1. ⛔ **A plate read on `[sic: *informen t*]`, 0100 @0428A.** The **Latin source
+   file itself** reads `informen *t*` — italics markup, not Migne's type. If the
+   plate prints *informent* (an ordinary word), **we are blaming Migne for our
+   own pipeline**, which is the 7a″ error the corpus rules exist to prevent.
+2. **Wilson's read-through**, which gates every work.
+
+### ⭐ WHAT THIS RUN ESTABLISHED — carry it into the next commentary
+
+**1. The corpus is its own best control.** Every hard call was settled by
+grepping the other 125 chunks, with no appeal outside the work: *gratia* (21
+sites), *noster omnium* (19), *fauces* (13), *dilectam* (3), *necturae* (2),
+*castrorum*, *percussura*, *tenere*. **Make this the first move, not the last.**
+
+**2. The blind read's real yield was NOT polarity.** 144 ours-side sites, but
+only **one** dropped negation in the whole work, and one flattened *nondum* in
+~110. The prose held where it was watched. It gave way in **mis-parsed grammar**
+and in **Douay wording arriving over the plate** — *per noctes* → "by night",
+*dilectam* → "my beloved", Cant. 6:3 losing *castrorum*, the verse whose
+etymology the chapter runs on. Budget the next read for that class.
+
+**3. ⛔ A 46-WORD SENTENCE WENT MISSING and every check passed it** (0091).
+Anchors matched, notes matched, ratio 1.61 — dead centre. Caught only because the
+Latin had four question marks and the English three. **`verify-english` now
+checks question-mark parity**; it found a second real site immediately.
+
+**4. A flagged passage is NOT a checked passage.** A translating agent flagged
+0238B in its own cruces as a self-contradiction and named it for the blind read;
+the fenced reader found the English there was simply **wrong**. Keep the fence.
+
+**5. Count, don't list.** The em-dash class was invisible for 99 works because
+every reader met them one at a time and reasonably called each house style. It
+surfaced when one agent **counted**.
+
+### ⚑ EM-DASHES — measured, deliberately NOT swept
+
+Migne prints **zero** in the entire Latin corpus; our English carries **4,694**
+across 99 works. A 166-site labelled sample lives at `data/emdash/labels.tsv`
+(built with `scripts/emdash-sites.mjs`). **No rule was good enough to ship:**
+blanket dash→comma **70.6%** (95% CI 63–77%); dash + *that is*/*namely* **90%**
+(CI **70**–97%, 507 sites). ~12% correspond to **nothing** in the Latin because
+the English reordered the sentence — the translator's tool, not a defect.
+Wilson's ruling: **em-dashes are not wicked; sweep only what is safely
+mechanical.** Nothing qualified. `verify-english` now prints a per-work density
+note instead. ⚠ The labelling agent's own headline advice (delete closing dashes
+of pairs) **contradicted its own labels** — those run COMMA 14 / NONE 8 / COLON 1.
+
+### ⚑ RULED 2026-08-09 — Pattern 12's boundary
+
+**The test is "does it render IN PLACE?", not "is it a Latin word?"** Four
+`[sic:]` on real words STAY (*Pecte*, *ama*, *sternis* have no grammatical slot;
+*signa* renders only by **hiding** the number defect, since English *may burn* is
+number-neutral). Written into `translation-style.md` and `cruces.md` §12. It runs
+opposite to Pattern 9 on purpose: **normalize the language; mark the page.**
+Consequence applied: *persequenter* and *myrrhoe* now carry `[sic:]`.
+
+# ⚠⚠ EVERYTHING BELOW THIS LINE IS THE 2026-08-08 SESSION AND EARLIER ⚠⚠
+
+## ▶▶▶▶ 2026-08-08 SESSION CLOSE — TWO WORKS SHIPPED. PG PAUSED; PL QUEUE RUNNING.
 
 `master` **pushed through `0da2041`**; four later commits are **local only**.
 **migne.app deployed twice on 2026-08-08** — Dorotheus
