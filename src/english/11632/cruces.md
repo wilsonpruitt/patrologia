@@ -814,3 +814,46 @@ flesh", silently restoring the Vulgate's *unquam*, which Migne does not print �
 still said "ever."** Knowing the divergence did not prevent reproducing the
 familiar wording; only the separate word-by-word pass caught it. That is the
 single most useful sentence in this file for whoever translates the next work.
+
+---
+
+## §12 · RULED 2026-08-09 — the four `[sic:]` on real Latin words STAY
+
+The marker audit proposed stripping `[sic:]` from four sites because Pattern 12
+reserves the marker for carried **non-word** type and these are all real Latin
+words. **Ruled the other way: all four keep the marker**, and Pattern 12 has been
+amended to record the test the ruling turns on.
+
+**The test is "does it render IN PLACE?", not "is it a Latin word?"**
+
+| site | printed | conjecture | why no English carries it |
+|---|---|---|---|
+| 0007 @0202C | *Pecte* | *Recte* | imperative "comb!" stranded in a declarative clause governed by *dicit* |
+| 0067 @0350A | *ama* | *amat* | imperative among third-person finite verbs (*deprehendit… intendit*) |
+| 0075 @0369A | *sternis* | *sterilis* | 2nd-person verb where the clause needs a predicate nominative |
+| 0048 @0304A | *signa* | an adverb | renders **only by hiding the defect** — see below |
+
+The first three have no grammatical slot at all. Pattern 12's own examples,
+*fuges* for *sugas* and *munde* for *mundo*, are not like them: those occupy
+their slot and merely mean the wrong thing.
+
+⭐ **0048 is the instructive one and it goes the same way for a different
+reason.** *ut **signa** prius ardeat* sets a plural noun against singular
+*ardeat*. "That signs may burn" is perfectly good English — and that is exactly
+the problem. English *may burn* is number-neutral, so rendering *signa* "signs"
+silently repairs the disagreement and leaves the reader nothing to see. **Where
+English has no exponent for the defect, rendering it IS the repair**, and the
+marker is the only treatment that does not quietly fix Migne.
+
+⚑ This runs opposite to Pattern 9, which normalizes precisely where English has
+no exponent — and the difference is worth stating, because a later sweep will
+meet both. Pattern 9's cases (grammatical gender, section labels) are systemic
+features of *Latin* and carry no information about this plate. A number
+disagreement in one clause is a fact about *this printing*. **Normalize the
+language; mark the page.**
+
+Consequence for the split/join asymmetry recorded above: it is now decidable on
+the same test rather than by counting precedents. *aforis* (0077) renders in
+place as "from without" and takes no marker; *persequenter* (0046 @0300C) and the
+lemma-level *myrrhoe* (0069 @0353D) are non-words and **should be marked** — both
+are currently normalized silently, and both remain owed.

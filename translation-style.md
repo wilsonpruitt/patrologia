@@ -786,6 +786,31 @@ though the reading is Migne's. Only carried, untranslated type is marked. (This
 boundary is worth watching — 11081 col. 0030B, where the literal rendering is
 actively misleading, is the case that would reopen it.)
 
+**The test is "does it render IN PLACE?", not "is it a Latin word?"** (ruled
+2026-08-09 on 11632, where a marker audit proposed stripping four `[sic:]` for
+sitting on real words and the answer was that all four keep it). Two ways a real
+word fails the test:
+
+1. **It has no grammatical slot.** A form in the wrong person or mood cannot be
+   carried by any English: 11632 prints *Pecte* for *Recte* @0202C — an imperative
+   "comb!" stranded in a declarative clause governed by *dicit* — *ama* for
+   *amat* @0350A, an imperative among third-person finite verbs, and *sternis*
+   for *sterilis* @0369A, "thou strewest" where the clause needs a predicate
+   nominative. `fuges`/`munde` are not like these: they occupy their slot and
+   merely mean the wrong thing.
+2. ⭐ **It renders only by HIDING the defect.** 11632 @0304A prints *ut **signa**
+   prius ardeat* — a plural noun against singular *ardeat*. "That signs may burn"
+   is perfectly good English, and that is the problem: English *may burn* is
+   number-neutral, so the rendering silently repairs the disagreement and leaves
+   the reader nothing to see. **Where the English has no exponent for the defect,
+   rendering it is a silent repair, and the marker is the only honest treatment.**
+
+⚑ Note that (2) runs *opposite* to Pattern 9, which normalizes precisely where
+English has no exponent. The difference is what the defect is evidence OF:
+Pattern 9's cases (grammatical gender, section labels) are systemic features of
+Latin that carry no information about this plate, while a number disagreement in
+one clause is a fact about this printing. Normalize the language; mark the page.
+
 **Where Migne prints his own *sic*, do not add ours.** 10517 col. 1099B prints
 *De hoc loco acenti ( sic )* — the nineteenth-century editor had already caught
 it and said so. His `( sic )` is reproduced verbatim like any other printed

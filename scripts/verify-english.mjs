@@ -274,6 +274,40 @@ for (const [p, locs] of paraSeen) if (locs.length > 1) {
     errs.push(`DUPLICATE paragraph in ${locs.join(' + ')}: "${p.slice(0, 70)}…"`);
 }
 
+// ── Supplied em-dashes: reported, never failed ────────────────────────────────
+// Migne prints ZERO em-dashes in the entire Latin corpus — measured 2026-08-09,
+// all works, all chunks. So every one in our English is supplied, standing in for
+// a mark he did print or for no mark at all.
+//
+// This is NOT a defect gate, and it must not become one. Translating Latin into
+// coherent English genuinely needs marks the plate lacks: a labelled sample of
+// 165 sites found ~12% correspond to nothing in the Latin because the English
+// reordered the sentence, and those dashes are the translator's tool, not an
+// error. The measured rule accuracies were poor enough that no corpus-wide sweep
+// was justified (blanket dash→comma: 70.6%, 95% CI 63–77%).
+//
+// It exists because the habit drifted in UNMEASURED across 99 works — every blind
+// reader met these one at a time and reasonably judged each as house style. The
+// class only became visible when someone counted. A number printed at every
+// verify means the next work reports its own density instead of accumulating
+// silently. Corpus median at the time of writing: 5.3 per chunk.
+{
+  const APPARATUS = /\[(var|nt|sic|ed|d|n|f|b|lat):[^\]]*\]/g;
+  let dashes = 0, seen = 0;
+  for (const name of fs.readdirSync(engDir).filter(f => /^\d{4}\.md$/.test(f))) {
+    const body = fs.readFileSync(path.join(engDir, name), 'utf8')
+      .replace(/^---\n[\s\S]*?\n---\n/, '');
+    seen++;
+    // Prose only: a dash inside our own apparatus is editorial voice, not a
+    // mark supplied for one of Migne's.
+    dashes += (body.replace(APPARATUS, '').match(/—/g) || []).length;
+  }
+  const per = seen ? dashes / seen : 0;
+  if (dashes) console.log(
+    `note: ${dashes} supplied em-dashes (${per.toFixed(1)}/chunk; corpus median 5.3). ` +
+    `Migne prints none — see data/emdash/labels.tsv before sweeping any.`);
+}
+
 warns.forEach(w => console.warn('warn: ' + w));
 if (errs.length) { console.error('VERIFY FAILED:'); errs.forEach(e => console.error(' - ' + e)); process.exit(1); }
 console.log(`verify OK: ${manifest.chunks.length} chunks, columns/notes/sections aligned, no duplicate paragraphs`);
