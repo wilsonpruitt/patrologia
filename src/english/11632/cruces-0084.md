@@ -1,7 +1,7 @@
 # Cruces — 11632 chunks 0084–0089 (cols 0386D–0400C)
 
 Philip of Harvengt, *Commentaria in Cantica canticorum*, PL 203. Six chunks,
-5,756 Latin words, covering *Caput* XXI–XXVII of **Book V** — the exposition of
+5,756 Latin words, covering *Caput* XXI–XXVII of **Book IV** — the exposition of
 Cant. 4:9–14: *Vulnerasti cor meum, soror mea, sponsa* → *In uno oculorum
 tuorum* → *Quam pulchrae sunt mammae tuae* → *Favus distillans labia tua* →
 *Hortus conclusus… fons signatus* → *Emissiones tuae paradisus malorum
