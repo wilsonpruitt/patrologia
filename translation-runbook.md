@@ -105,7 +105,11 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    `data/work-about.json` (NEVER edited into generated HTML) — optional pre-deploy,
    generic fallback is acceptable at stage time.
 7. **Stage only.** Deploy belongs to Wilson's deploy session (per-action OK).
-   Wilson's read-through gates every work.
+   **⛔ Wilson's read-through is NOT a gate (ruled 2026-08-14). It limited scale, and
+   the site is public enough that readers catch what a private read-through would.**
+   A work ships when the pipeline's own checks pass — verify, polarity read, cruces,
+   index. Do not hold a work, and do not surface a read-through backlog (that was
+   already ruled out 2026-07-20); Wilson reads what he wants to read, when he wants.
 7a. **Marking a work shipped:** set `translation.englishState = "ours"` in
    `data/works.json` and **leave `translation.workStatus` exactly as triage left
    it** — including `null`. `workStatus` is the evidence the landing badge reads;
@@ -228,6 +232,13 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
 > defects in it**. The range given a strong but generic "read every lemma word by word"
 > returned 1 marker and the blind read found **SEVEN**. Same rule, same model, same work.
 > A general instruction to be careful does not work; naming the words does.
+>
+> **Em-dashes: keep them rare.** Migne prints none in the entire Latin corpus; our
+> English carries thousands, and most are the translator's convenience rather than
+> anything on the plate. Prefer a comma, a colon, or a full stop. Use a dash only
+> where it genuinely carries the sense and no other punctuation will. This is a
+> tendency to resist, **not** a defect class — never mark one, never report one, and
+> never restructure a faithful sentence to avoid one. Nothing downstream scans for it.
 >
 > Do not stop early. Your batch is N chunks; peer agents complete 5-chunk batches at
 > full fidelity routinely. If you find yourself writing "context budget" at chunk 2,

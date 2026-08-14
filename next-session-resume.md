@@ -26,13 +26,18 @@ estimated burn and ask "which model, and go?" **9637 stays blocked** on a Fable
 mini-pilot (coronation ordo, a genre `translation-style.md` has never been
 calibrated on). Skipped five times now.
 
-### ⬜ OWED on 11632 — neither blocking
+### ⬜ OWED on 11632 — not blocking
+
+⛔ **2026-08-14, Wilson: THE READ-THROUGH IS NO LONGER A GATE ON ANY WORK.**
+*"it limits scale. we are public enough that others are catching it."* Item 2 below
+(his read-through) is struck, here and everywhere. Do not hold a work for it, do not
+list it as owed, do not keep a backlog. `translation-runbook.md` step 7 updated.
 
 1. ⛔ **A plate read on `[sic: *informen t*]`, 0100 @0428A.** The **Latin source
    file itself** reads `informen *t*` — italics markup, not Migne's type. If the
    plate prints *informent* (an ordinary word), **we are blaming Migne for our
    own pipeline**, which is the 7a″ error the corpus rules exist to prevent.
-2. **Wilson's read-through**, which gates every work.
+2. ~~**Wilson's read-through**, which gates every work.~~ — STRUCK 2026-08-14, above.
 
 ### ⭐ WHAT THIS RUN ESTABLISHED — carry it into the next commentary
 

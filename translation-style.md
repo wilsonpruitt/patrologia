@@ -461,6 +461,44 @@ meets *bonorem* in italics learns something true about Migne's plate, and the
 conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
 no exceptions.
 
+#### 7a⁗. The marker that quarantines the SENSE — measured as a class, 2026-08-14
+
+7a′ ruled this once, on one site, in 2026-07-30: *quarantining a fragment does not
+quarantine what it governs.* The blind read of 6963 (Ambrose on the Song) turned it
+from a worked case into **a measured defect class — three sites, three chunks far
+apart, three independent readers, one mechanism**:
+
+| column | marker | what it swallowed | what the page then said |
+|---|---|---|---|
+| 1893B | `[sic: *nex*]` | the negative in *nex exuta est pallio* | that the soul **was** stripped of her cloak — while §8 of the same passage prints *et non exutus est pallio* and chunk 0028 asks *qui castae animae pallium tollunt?* The whole crux Ambrose is worrying is that **she kept it**. |
+| 1899A | `[sic: *car*]` | *cur* | a reproach ("why does he **not** take away…?") became an assertion that he does — in a paragraph closing *Non potest igitur haec dici justa misericordia*. |
+| 1917A | `[sic: *eccidit*]` | the clause's only verb | "which … the prophets" — a relative clause with no predicate at all. |
+
+**The rule, stated so it can be checked rather than admired: a `[sic: …]` isolates
+the defective TYPE. It never isolates the FORCE that type carries.** Before closing
+any marker, read the English clause with the marker's contents deleted and ask three
+questions:
+
+1. **Does the clause still have a verb?** If the marked run was the only predicate,
+   the English must supply the sense in plain words beside the marker — `which
+   slays [sic: *eccidit*] the prophets`.
+2. **Does the clause still carry its negation?** If the marked run contained
+   `non`/`nec`/`ne`/`nex`-for-*nec*, the English must be negative. The marker is not
+   a place to park a negative and let the sentence go affirmative.
+3. **Does the clause still carry its interrogative or its conjunction?** *cur*, *num*,
+   *nonne*, *sed*, *nisi* govern the mood of everything after them. A swallowed *cur*
+   silently converts a question into a claim — and a claim the author is refuting.
+
+**The tell is the same one 7a always gives**: the next clause denies what the English
+just asserted. In all three sites the contradicting neighbour was on the same plate.
+
+**⚠ OPEN, SCOPED JOB — the other 99 shipped works have never been checked for this.**
+The class was invisible until three readers hit it in one work on one afternoon. The
+sweep is narrow and mechanical to *find* (grep every `[sic: …]` in `src/english/`,
+which is a bounded list) and judgment-dense to *rule* (read the clause without the
+marker). It is deliberately NOT folded into any deploy — it is its own job, on Opus,
+and it does not gate 6963.
+
 #### 7a″. The lemma quietly conformed — the dominant failure in SCRIPTURE COMMENTARY
 
 Measured, 2026-07-30. The blind polarity read of 7914 (ps.-Cassiodorus on the Song
