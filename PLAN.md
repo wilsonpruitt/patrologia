@@ -143,6 +143,26 @@ Three Zenodo records, enumerated by downloading the archives and listing them (n
 
 **Not yet done:** `data-v2.zip` is not downloaded (406 MB; leave it off this machine — it belongs on whatever GPU host step 3 runs on, fetched there directly from `https://zenodo.org/api/records/20008699/files/data-v2.zip/content`). The two corpus zips pulled for this check were scratch and were not added to the repo; `sources/pg/calfa/` is unchanged and needs no update.
 
+### Addendum — Calfa Vision hosted-model check, run 2026-08-14 (result: NO free recognizer; step 1 is CLOSED)
+
+Step 1 of the order of operations above said to try Calfa Vision's hosted PG models before training anything. **There is no hosted PG recognizer to borrow.** Step 1 is closed; do not re-open it, and do not register for the platform expecting to find one.
+
+**⚠ Correction to this section as originally written:** it claimed Calfa Vision "offers the PG project type free." That is true of **layout only**. The recognition half was never free and is not published anywhere.
+
+Evidence, three independent sources agreeing:
+
+1. **The Zenodo ground-truth record (`20008699`) says it in so many words:** *"Final model of **layout analysis** is freely usable on the Calfa Vision platform, by choosing the 'Greek printed (Patrologia Graeca)' type of project."* Layout analysis, named explicitly. No equivalent sentence exists anywhere for the recognizer.
+2. **The platform's own tier list.** Free tier: *"Transcribe your documents / Export your data / Free features included / **No support** / **Annotation only**"* — automated line detection and semantic segmentation with generic models. OCR/HTR **inference is not in it**. It appears only under the Research Plan: *"OCR/HTR model for your corpus (custom ML training) / OCR/HTR on 3500 pages included."*
+3. **The GitHub repo ships the region model and nothing else.** `REG-YOLOv12s.pt` is the layout detector. No recognition weights, in any release, on any record.
+
+**Why the paid lane is not a fallback.** The Research Plan is **€3,500 for 3,500 pages (€1/page; €0.40 per additional page)**. The 134 gap tomes run roughly 700–1,500 double-column plates each — call it ~100,000 pages. At the marginal rate that is **~€40,000**, and it buys a corpus we would not own the pipeline for. Categorically out. There is also a separate courtesy — free OCR up to **50 printed pages** for researchers, via demo onboarding — which is a favour, not a pipeline: 50 pages against ~100,000 is noise.
+
+**What this does to the phase: it strengthens it.** The two halves of the problem now have opposite answers, and both point the same way. **Layout is solved and already ours** (`REG-YOLOv12s.pt`, on disk, CC BY 4.0) — so step 2 is not merely unconditional, it is now the *only* thing Calfa gives us. **Recognition is precisely the thing Calfa does not give away** — so training our own is not one option among several, it is the only route to bulk gap OCR that does not cost five figures. The revised order of operations is simply: **step 2 → step 3 → step 4.**
+
+**Validation material is already on disk** (bears on step 4): `raw/pg088/` and `raw/pg089/` hold several hundred plate segments, and **PG 88 and PG 89 are both gap tomes** — neither is in Calfa's 33. Better still, PG 88 has been through the Sonnet-transcribes/Opus-adjudicates workflow with human-adjudicated verdicts (`benchmark/pg88-pilot/BATCH*-VERDICTS-*.md`), so a held-out set from a *real gap volume* can be assembled from work already done, not from fresh annotation. Use PG 89 pages for the honest number if PG 88 risks contamination from having been looked at so hard.
+
+**One residual, deliberately not resolved:** all of the above is read off public pages and the Zenodo record, not from inside a logged-in account. Registering is free and would settle it definitively. Not done — an account on a third-party platform is Wilson's call, and the evidence is consistent enough across three sources that the phase can proceed without it. Same for writing to Calfa to ask whether the recognizer can be shared with an academic project: that is an outward-facing send and needs an explicit OK.
+
 ## Phase 4 — Untranslated-first triage
 
 Build `data/translation-status.json` keyed by CPL/CPG: for each work, does English exist — **public-domain** (ANF/NPNF, Library of the Fathers → link/ingest, don't retranslate), **copyrighted modern** (FOTC, ACW, TTH, CCSL-era → deprioritize; ours would be redundant), or **none** (→ the queue). Sources: CCEL indexes, Roger Pearse's translation inventories, FOTC/ACW/TTH catalog lists — agent-driven web research, ~1 agent per PL/PG tranche.

@@ -16,11 +16,23 @@ V2 is Calfa's full production training set. Fetch it on the GPU host, not here
 mandatory, not advisory — V2 is confirmed training data, so any CER measured on
 it leaks.
 
-▶ **Next in Phase 3b, still free, still untried: check #2** — run a gap volume
-through Calfa Vision's hosted "Greek printed (Patrologia Graeca)" project type
-before training anything. Then step 2, wiring up `REG-YOLOv12s.pt`, which is
-unconditional and helps the *existing* workflow.
+**Check #2 is also DONE — and it CLOSED step 1.** There is no free hosted PG
+recognizer. Calfa's free tier is **"Annotation only"**; what is freely usable on
+their platform is the **layout** model, which we already have on disk as
+`REG-YOLOv12s.pt`. Recognition appears only in the **€3,500 / 3,500-page**
+Research Plan (~€40k at our scale — out). Both checks that could have killed
+Phase 3b came back the other way: **train the recognizer.**
+
+▶ **WHERE TO START in Phase 3b: step 2 — wire up `REG-YOLOv12s.pt`.** No account,
+no GPU, no training; it replaces `crops.json` x-coordinate guesswork with trained
+region boxes and improves the *existing* Sonnet workflow immediately. Then step 3
+(fine-tune on V2, off-machine) → step 4 (validate on **PG 89** plates, already in
+`raw/pg089/` — a real gap tome; prefer it over PG 88, which we've stared at).
 (PG translation work stays paused per Wilson 2026-08-08 — this is tooling, not PG output.)
+
+⬜ **Two things I did NOT do, both needing Wilson's OK:** register a free Calfa
+Vision account to confirm the tier list from inside; and email Calfa to ask
+whether the PG recognizer can be shared with an academic project.
 
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-09 — 11632 IS LIVE. THE BIGGEST WORK SO FAR.
 
