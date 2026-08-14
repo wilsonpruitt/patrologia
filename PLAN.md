@@ -83,6 +83,45 @@ The Ambrose/Bonaventure recipe is the prep pipeline; the open question is *which
 - **Decision rule:** cheapest model with CER ≤ ~1% on Latin body text does bulk gap-OCR; stronger model only for flagged/hard pages. Deliverable: `benchmark/RESULTS.md` with CER/WER × cost table.
 - **Discipline rules carry over verbatim** (`feedback_vision-ocr-discipline`): transcribe what's there, `[?]` for unreadable, never fabricate plausible clauses; small batches (3 leaves/pass); multiple unclear words in a row = stop and escalate resolution, don't push through.
 
+## Phase 3b — Trained Greek HTR for the 134 non-Calfa PG tomes (scoped 2026-08-14)
+
+**Status: SCOPED, not started. Executable by a Sonnet session against this section; the doctrine below is settled — don't relitigate it.**
+
+Phase 3 closed with "do not vision-OCR Greek at bulk scale" and left the gap volumes on a Sonnet-transcribes/Opus-adjudicates workflow (`PG-OCR-PROMPT.md`). That workflow works but is expensive per column and leaks a defect class no downstream check can see. Phase 3b replaces it for bulk with a **trained HTR model**.
+
+### Why (three reasons, in order of weight)
+
+1. **The conformation defect is architectural, not a prompt problem.** `benchmark/pg88-pilot/RESULTS.md`: Opus wrote `Γρηγόριος` where the plate prints `Γρηγορίας` (adopting Migne's own footnote correction into the body), and conformed `ἔγγυται`/`ἀποπέση μοι` toward the LXX. A CTC/HTR recognizer carries **no Septuagint prior** and cannot make that error. `PG-OCR-PROMPT.md` currently fights this with prose and an adjudication round; a trained model removes the failure mode instead of policing it.
+2. **Accuracy, on this exact typography, already measured by others.** Calfa's published figures for Migne PG: **CER 4.19% from 10 pages of fine-tuning GT; 1.1% from 50 pages**; layout at 95% mean IoU. Phase 3's Sonnet arm was 8.59% mean / ~3.3% median. Fifty annotated pages beats our best current model by 3–8×.
+3. **Scale.** `data/gap-map.json`: **134 of 167 PG tomes** have no Calfa text. Re-verified against the live GitHub repo 2026-08-14 — still 33 volumes, same list as the 2026-05-03 clone. The gap is not shrinking on its own.
+
+### What is already ours, free, on disk
+
+- **`sources/pg/calfa/models/REG-YOLOv12s.pt`** (19 MB) — Calfa's region/layout detector, shipped in the repo, CC BY 4.0. **The layout half of the problem is already solved and does not need training.** This is the direct fix for the defect classes the Antiochus audit caught: crop-truncated footnotes, full-width lines halved at the gutter, Latin bleeding into Greek source files. It replaces `crops.json` guesswork with trained region boxes.
+- **`benchmark/greek-gt/task2/`** — 100 image+pageXML ground-truth pairs (Zenodo `20008699`). At Calfa's own 50-page figure, **this may be enough to train a first recognizer with zero hand annotation.**
+- The repo ships **no recognition model**. Recognition is the only thing that actually needs training.
+
+### Order of operations
+
+1. **Try Calfa Vision's hosted PG models on a gap volume first.** They offer the PG project type free on the platform. Inference on someone else's trained recognizer beats training ours. Only if this is unavailable, rate-limited, or unusable at our scale does step 2 begin.
+2. **Wire up `REG-YOLOv12s.pt` regardless of step 1's outcome** — it improves the *existing* Sonnet workflow immediately by feeding it correctly-bounded Greek regions instead of x-coordinate crops. This is the cheapest win in the whole phase and is not contingent on any training happening.
+3. **Fine-tune a Kraken recognizer** on `benchmark/greek-gt/task2/`, ~70 train / ~30 held out.
+4. **Validate on fresh pages from a *gap* volume**, hand-corrected — not on Zenodo pages. The task2 set is plausibly Calfa's own eval set; a CER measured on it is optimistic and must not be reported as the model's real number.
+
+### Compute
+
+Off this machine (8 GB won't host it). A ~70-page Kraken fine-tune is one mid-tier GPU for a couple of hours — under ~$20 anywhere. Lightning.ai Studios, Colab, Runpod, Modal all work; **the vendor is not a decision worth deliberating.** Lightning's only real edge is a persistent Studio, which matters because the painful part is standing up eScriptorium/Kraken, not the training run.
+
+### Decision rule
+
+Trained recognizer takes bulk gap-OCR if it clears **≤2% CER on the held-out gap-volume validation pages**. Below that bar, fall back to the current `PG-OCR-PROMPT.md` workflow — which stays the canonical method for spot-fills and small gaps either way. Deliverable: extend `benchmark/RESULTS.md` with a Greek-HTR row measured the same way as the existing arms (`score.mjs`, NFC-normalized).
+
+### Carried-forward gotchas
+
+- **NFC-normalize before any diff or scoring** — un-normalized polytonic combining marks produce false diffs (bit us on the Joel lacuna sweep *and* mid-benchmark).
+- **Calfa pageXML: use the region-level `TextEquiv`, dehyphenate line-final `-`, ignore per-line `TextEquiv`s.** Getting this wrong inflated measured CER to ~50% uniformly. See `benchmark/extract-greek-gt.mjs`.
+- **Migne prints a GRAVE before a comma.** It is a convention of the edition, not an error. Any model's output that "corrects" it to an acute is producing a defect — and this accounted for an entire ~24-item disagreement class in PG 88 batch 1.
+
 ## Phase 4 — Untranslated-first triage
 
 Build `data/translation-status.json` keyed by CPL/CPG: for each work, does English exist — **public-domain** (ANF/NPNF, Library of the Fathers → link/ingest, don't retranslate), **copyrighted modern** (FOTC, ACW, TTH, CCSL-era → deprioritize; ours would be redundant), or **none** (→ the queue). Sources: CCEL indexes, Roger Pearse's translation inventories, FOTC/ACW/TTH catalog lists — agent-driven web research, ~1 agent per PL/PG tranche.
