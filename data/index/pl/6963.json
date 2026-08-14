@@ -1,0 +1,5102 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 408,
+  "textIdno": 6963,
+  "title": "Commentarius in Cantica canticorum",
+  "authors": [
+    "Ambrosius Mediolanensis"
+  ],
+  "authorsDisplay": [
+    "Ambrose of Milan"
+  ],
+  "series": "pl",
+  "volume": 15,
+  "colFirst": "1851",
+  "colLast": "1962b",
+  "counts": {
+    "scripture": 359,
+    "fontes": 111,
+    "heads": 381,
+    "headnotes": 0,
+    "unparsed": 3
+  },
+  "scripture": [
+    {
+      "refKey": "Song.1.1",
+      "refDisplay": "Cant. I, 1",
+      "column": "1851a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Song.1.1",
+      "refDisplay": "Ibid.",
+      "antecedent": "Cant. I, 1",
+      "antecedentColumn": "1851a",
+      "ibidResolved": true,
+      "column": "1852a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Song.1.1",
+      "refDisplay": "Ibid., 3",
+      "antecedent": "Cant. I, 1",
+      "antecedentColumn": "1851a",
+      "ibidResolved": true,
+      "column": "1852a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Song.8.9",
+      "refDisplay": "Cant. VIII, 9",
+      "column": "1853a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Deut.6.5",
+      "refDisplay": "Deut. VI, 5",
+      "column": "1854a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ezek.21.14",
+      "refDisplay": "Ezech. XXI, 14",
+      "column": "1854b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Wis.1.4",
+      "refDisplay": "Sap. I, 4",
+      "column": "1853b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Prov.1.28",
+      "refDisplay": "Prov. I, 28",
+      "column": "1853b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Prov.9.1",
+      "refDisplay": "Pov. IX, 1",
+      "column": "1853d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.7.46-Luke.7.47",
+      "refDisplay": "Luc. VII, 46, 47",
+      "column": "1855b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.118.131",
+      "refDisplay": "Psal. CXVIII, 131",
+      "column": "1855b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.75",
+      "refDisplay": "Psal. LXXV, I",
+      "column": "1857a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.1",
+      "refDisplay": "Psal. LXXV, I",
+      "column": "1857a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.118.12",
+      "refDisplay": "Psal. CXVIII, 12",
+      "column": "1857b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.118.103",
+      "refDisplay": "Psal. CXVIII, 103",
+      "column": "1857c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.17.4",
+      "refDisplay": "Matth. XVII, 4",
+      "column": "1857d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Col.2.20-Col.2.21",
+      "refDisplay": "Coloss. II, 20 et 21",
+      "column": "1858a",
+      "chunk": 2
+    },
+    {
+      "refKey": "1John.1",
+      "refDisplay": "I Joan. I",
+      "column": "1858b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Acts.17.28",
+      "refDisplay": "Act. XVII, 28",
+      "column": "1858b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.49.6",
+      "refDisplay": "Esai. XLIX, 6",
+      "column": "1858c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.5.5",
+      "refDisplay": "Rom. V, 5",
+      "column": "1858d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.18.6",
+      "refDisplay": "Psal. XVIII, 6",
+      "column": "1859a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.18.6",
+      "refDisplay": "Ibid., 7",
+      "antecedent": "Psal. XVIII, 6",
+      "antecedentColumn": "1859a",
+      "ibidResolved": true,
+      "column": "1859a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.11.28",
+      "refDisplay": "Matth. XI, 28",
+      "column": "1859b",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.13.36",
+      "refDisplay": "Joan. XIII, 36; Matth. XIV, 30",
+      "column": "1859b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.14.30",
+      "refDisplay": "Joan. XIII, 36; Matth. XIV, 30",
+      "column": "1859b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Luke.1.35",
+      "refDisplay": "Luc. I, 35",
+      "column": "1860a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.6.6",
+      "refDisplay": "Matth. VI, 6",
+      "column": "1860b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.3.15",
+      "refDisplay": "Matth. III, 15",
+      "column": "1860c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.6.6",
+      "refDisplay": "Matth. VI, 6",
+      "column": "1860c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.23.1",
+      "refDisplay": "Psalm. XXIII, 1",
+      "column": "1862b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Col.3.11",
+      "refDisplay": "Coloss. III, 11",
+      "column": "1862b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.36.5",
+      "refDisplay": "Psalm. XXXVI, 5",
+      "column": "1863b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.79.9",
+      "refDisplay": "Psalm. LXXIX, 9",
+      "column": "1863c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Song.3.4",
+      "refDisplay": "Cant. III, 4",
+      "column": "1863d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.36.6",
+      "refDisplay": "Psalm. XXXVI, 6",
+      "column": "1864b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Prov.20.6",
+      "refDisplay": "Prov. XX, 6",
+      "column": "1864d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.52.7",
+      "refDisplay": "Esai. LII, 7",
+      "column": "1865b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Exod.3.5",
+      "refDisplay": "Exod. III, 5",
+      "column": "1865b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Deut.15.9",
+      "refDisplay": "Deut. XV, 9",
+      "column": "1866a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.3.9",
+      "refDisplay": "Matth. III, 9",
+      "column": "1866b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Mark.8.33",
+      "refDisplay": "Marc. VIII, 33",
+      "column": "1866c",
+      "chunk": 5
+    },
+    {
+      "refKey": "John.21.16",
+      "refDisplay": "Joan. XXI, 16",
+      "column": "1866d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Zech.13.7",
+      "refDisplay": "Zach. XIII, 7",
+      "column": "1866d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Exod.14.9",
+      "refDisplay": "Exod. XIV, 9",
+      "column": "1867a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.11.29-Matt.11.30",
+      "refDisplay": "Matth. XI, 29 et 30",
+      "column": "1867b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Hab.3",
+      "refDisplay": "Habac. III",
+      "column": "1867b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.75.7",
+      "refDisplay": "Psalm. LXXV, 7",
+      "column": "1867d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Exod.15.1",
+      "refDisplay": "Exod. XV, 1",
+      "column": "1868a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Luke.23.34",
+      "refDisplay": "Luc. XXIII, 34",
+      "column": "1869b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Luke.8.46",
+      "refDisplay": "Luc. VIII, 46",
+      "column": "1869c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.9.22",
+      "refDisplay": "Matth. IX, 22",
+      "column": "1869d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.118.146",
+      "refDisplay": "Psal. CXVIII, 146",
+      "column": "1870a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Isa.43.25-Isa.43.26",
+      "refDisplay": "Esai. XLIII, 25 et 26",
+      "column": "1870a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.120.6",
+      "refDisplay": "Psalm. CXX, 6",
+      "column": "1870b",
+      "chunk": 6,
+      "inline": true
+    },
+    {
+      "refKey": "Ps.91.13",
+      "refDisplay": "Psalm. XCI, 13",
+      "column": "1870c",
+      "chunk": 6
+    },
+    {
+      "refKey": "2Cor.2.15",
+      "refDisplay": "II Cor. II, 15",
+      "column": "1871a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Luke.1.42",
+      "refDisplay": "Luc. I, 42",
+      "column": "1871b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Song.4.12",
+      "refDisplay": "Cant. IV, 12",
+      "column": "1871c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.112.5",
+      "refDisplay": "Psalm. CXII, 5",
+      "column": "1872a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Isa.35.1",
+      "refDisplay": "Esai. XXXV, 1",
+      "column": "1872c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.1.15-Song.1.16",
+      "refDisplay": "Cant. I, 15 et 16",
+      "column": "1872d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.8.20",
+      "refDisplay": "Matth. VIII, 20",
+      "column": "1872d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Eph.4.26",
+      "refDisplay": "Ephes. IV, 26",
+      "column": "1873b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Song.5.10",
+      "refDisplay": "Cant. V, 10",
+      "column": "1873c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Deut.15.12",
+      "refDisplay": "Deut. XV, 12",
+      "column": "1874b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.126.3",
+      "refDisplay": "Psal. CXXVI, 3",
+      "column": "1874d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Exod.13.21-Exod.13.22",
+      "refDisplay": "Exod. XIII, 21 et 22",
+      "column": "1875d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Prov.27.6",
+      "refDisplay": "Prov. XXVII, 6",
+      "column": "1876b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Isa.49.2",
+      "refDisplay": "Esai. XLIX, 2",
+      "column": "1876c",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.14.2",
+      "refDisplay": "Joan. XIV, 2",
+      "column": "1876d",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.14.2",
+      "refDisplay": "Ibid.",
+      "antecedent": "Joan. XIV, 2",
+      "antecedentColumn": "1876d",
+      "ibidResolved": true,
+      "column": "1876d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Num.20.17",
+      "refDisplay": "Num. XX, 17",
+      "column": "1877a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Prov.3.16",
+      "refDisplay": "Prov. III, 16",
+      "column": "1877a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ezek.13.18",
+      "refDisplay": "Ezech. XIII, 18",
+      "column": "1877b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Prov.3.17",
+      "refDisplay": "Prov. III, 17",
+      "column": "1877b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Gen.48.19",
+      "refDisplay": "Genes. XLVIII, 19",
+      "column": "1877d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Gen.48.19",
+      "refDisplay": "Ibid., 20",
+      "antecedent": "Genes. XLVIII, 19",
+      "antecedentColumn": "1877d",
+      "ibidResolved": true,
+      "column": "1877d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.8.20",
+      "refDisplay": "Matth. VIII, 20",
+      "column": "1878a",
+      "chunk": 9
+    },
+    {
+      "refKey": "2Cor.8.9",
+      "refDisplay": "II Cor. VIII, 9",
+      "column": "1878a",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.7.23",
+      "refDisplay": "Joan. VII, 23",
+      "column": "1878a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.49.19",
+      "refDisplay": "Psalm. XLIX, 19",
+      "column": "1878c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Rom.13.10",
+      "refDisplay": "Rom. XIII, 10",
+      "column": "1878d",
+      "chunk": 9
+    },
+    {
+      "refKey": "1John.4.8",
+      "refDisplay": "I Joan. IV, 8",
+      "column": "1878d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Gen.49.9",
+      "refDisplay": "Gen. XLIX, 9",
+      "column": "1878d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.18.6-Ps.18.7",
+      "refDisplay": "Psal. XVIII, 6 et 7",
+      "column": "1879d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.124.2",
+      "refDisplay": "Psalm. CXXIV, 2",
+      "column": "1880a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Song.5.6",
+      "refDisplay": "Cant. V, 6",
+      "column": "1880c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Jer.16.16",
+      "refDisplay": "Jerem. XVI, 16",
+      "column": "1880d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.75.5",
+      "refDisplay": "Psal. LXXV, 5",
+      "column": "1881a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.8.29",
+      "refDisplay": "Matth. VIII, 29",
+      "column": "1881c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Isa.24.18",
+      "refDisplay": "Esai. XXIV, 18",
+      "column": "1881d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Song.1.1",
+      "refDisplay": "Cant. I, 1",
+      "column": "1882b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Song.2.9",
+      "refDisplay": "Cant. II, 9",
+      "column": "1882c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.33.16",
+      "refDisplay": "Psal. XXXIII, 16",
+      "column": "1882c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Song.2.9",
+      "refDisplay": "Cant. II, 9",
+      "column": "1882c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Jer.9.21",
+      "refDisplay": "Jerem. IX, 21",
+      "column": "1882d",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.141.4",
+      "refDisplay": "Psal. CXLI, 4",
+      "column": "1883b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Sir.9.20",
+      "refDisplay": "Eccli. IX, 20",
+      "column": "1883b",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.2.19",
+      "refDisplay": "Joan. II, 19",
+      "column": "1883c",
+      "chunk": 11
+    },
+    {
+      "refKey": "Matt.24.20",
+      "refDisplay": "Matth. XXIV, 20",
+      "column": "1885a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Luke.24.32",
+      "refDisplay": "Luc. XXIV, 32",
+      "column": "1885b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Isa.11.1",
+      "refDisplay": "Esai. XI, 1",
+      "column": "1885b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Song.3.1",
+      "refDisplay": "Cant. III, 1",
+      "column": "1885c",
+      "chunk": 12
+    },
+    {
+      "refKey": "Matt.19.28",
+      "refDisplay": "Matth. XIX, 28",
+      "column": "1886c",
+      "chunk": 12
+    },
+    {
+      "refKey": "Rom.23.12",
+      "refDisplay": "Rom. XXIII, 12",
+      "column": "1888a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Luke.13.32",
+      "refDisplay": "Luc. XIII, 32",
+      "column": "1888b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Matt.8.20",
+      "refDisplay": "Matth. VIII, 20",
+      "column": "1888b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Judg.15",
+      "refDisplay": "Judic. XV",
+      "column": "1888b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Deut.10.9",
+      "refDisplay": "Deut. X, 9",
+      "column": "1889c",
+      "chunk": 13
+    },
+    {
+      "refKey": "Num.18.20",
+      "refDisplay": "Num. XVIII, 20",
+      "column": "1889c",
+      "chunk": 13
+    },
+    {
+      "refKey": "Gal.6.4",
+      "refDisplay": "Galat. VI, 4",
+      "column": "1889d",
+      "chunk": 13
+    },
+    {
+      "refKey": "John.14.30",
+      "refDisplay": "Joan. XIV, 30",
+      "column": "1890a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Matt.10.9",
+      "refDisplay": "Matth. X, 9",
+      "column": "1890a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Acts.3.6",
+      "refDisplay": "Act. III, 6",
+      "column": "1890a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.22.2",
+      "refDisplay": "Psal. XXII, 2",
+      "column": "1890b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Phil.2.7",
+      "refDisplay": "Philip. II, 7",
+      "column": "1890d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.33.17",
+      "refDisplay": "Psalm. XXXIII, 17",
+      "column": "1891d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.6.7",
+      "refDisplay": "Psal. VI, 7",
+      "column": "1892a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.17.12",
+      "refDisplay": "Psal. XVII, 12",
+      "column": "1892b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.18.3",
+      "refDisplay": "Psal. XVIII, 3",
+      "column": "1892c",
+      "chunk": 14
+    },
+    {
+      "refKey": "John.9.4",
+      "refDisplay": "Joan. IX, 4",
+      "column": "1892c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.117.5",
+      "refDisplay": "Psal. CXVII, 5",
+      "column": "1892d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Matt.26.18",
+      "refDisplay": "Matth. XXVI, 18",
+      "column": "1893a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.118.56",
+      "refDisplay": "Psal. CXVIII, 56",
+      "column": "1893d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.17.12",
+      "refDisplay": "Psal. XVII, 12",
+      "column": "1894a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Isa.27.3",
+      "refDisplay": "Esai. XXVII, 3",
+      "column": "1894a",
+      "chunk": 15
+    },
+    {
+      "refKey": "1Pet.1.12",
+      "refDisplay": "I Pet. I, 12",
+      "column": "1894c",
+      "chunk": 15
+    },
+    {
+      "refKey": "Song.3.1",
+      "refDisplay": "Cant. III, 1",
+      "column": "1894d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Luke.8.46",
+      "refDisplay": "Luc. VIII, 46",
+      "column": "1895a",
+      "chunk": 15
+    },
+    {
+      "refKey": "John.20.17",
+      "refDisplay": "Joan. XX, 17",
+      "column": "1895a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Matt.28.10",
+      "refDisplay": "Matth. XXVIII, 10",
+      "column": "1895b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Song.3.4",
+      "refDisplay": "Cant. III, 4",
+      "column": "1895b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.140.2",
+      "refDisplay": "Psalm. CXL, 2",
+      "column": "1896b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Ps.140.2",
+      "refDisplay": "Psal. CXL, 2",
+      "column": "1896b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Rev.8.4",
+      "refDisplay": "Apoc. VIII, 4",
+      "column": "1896b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.1.21",
+      "refDisplay": "Job. I, 21",
+      "column": "1897a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.1.21",
+      "refDisplay": "Ibid.",
+      "antecedent": "Job. I, 21",
+      "antecedentColumn": "1897a",
+      "ibidResolved": true,
+      "column": "1897a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.1.21",
+      "refDisplay": "Ibid., 2",
+      "antecedent": "Job. I, 21",
+      "antecedentColumn": "1897a",
+      "ibidResolved": true,
+      "column": "1897b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Gen.32.2",
+      "refDisplay": "Gen. XXXII, 2",
+      "column": "1897c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Deut.33.23",
+      "refDisplay": "Deut. XXXIII, 23",
+      "column": "1898b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Heb.4.12-Heb.4.13",
+      "refDisplay": "Hebr. IV, 12 et 13",
+      "column": "1898c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Deut.19.13",
+      "refDisplay": "Deut. XIX, 13",
+      "column": "1898d",
+      "chunk": 17
+    },
+    {
+      "refKey": "1Sam.15.9",
+      "refDisplay": "I Reg. XV, 9",
+      "column": "1898d",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.40.4",
+      "refDisplay": "Psal. XL, 4",
+      "column": "1899c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Rom.7.24",
+      "refDisplay": "Rom. VII, 24",
+      "column": "1899c",
+      "chunk": 17
+    },
+    {
+      "refKey": "John.11.35",
+      "refDisplay": "Joan. XI, 35",
+      "column": "1899c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Rom.12.15",
+      "refDisplay": "Rom. XII, 15",
+      "column": "1899d",
+      "chunk": 17
+    },
+    {
+      "refKey": "Col.1.13",
+      "refDisplay": "Coloss. I, 13",
+      "column": "1900c",
+      "chunk": 17
+    },
+    {
+      "refKey": "John.18.17",
+      "refDisplay": "Joan. XVIII, 17",
+      "column": "1900c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.18.5",
+      "refDisplay": "Psal. XVIII, 5",
+      "column": "1901a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Luke.24.5",
+      "refDisplay": "Luc. XXIV, 5",
+      "column": "1901b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Gal.1.18",
+      "refDisplay": "Gal. I, 18",
+      "column": "1902b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Matt.9.22",
+      "refDisplay": "Matth. IX, 22",
+      "column": "1903a",
+      "chunk": 18
+    },
+    {
+      "refKey": "Luke.7.37-Luke.7.38",
+      "refDisplay": "Luc. VII, 37 et 38",
+      "column": "1903a",
+      "chunk": 18
+    },
+    {
+      "refKey": "Matt.25.35-Matt.25.40",
+      "refDisplay": "Matth. XXV, 35 et 40",
+      "column": "1903b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccl. II",
+      "column": "1903b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Gen.37.25",
+      "refDisplay": "Gen. XXXVII, 25",
+      "column": "1904a",
+      "chunk": 18
+    },
+    {
+      "refKey": "Prov.22.20",
+      "refDisplay": "Prov. XXII, 20",
+      "column": "1904b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Gen.49.12",
+      "refDisplay": "Genes. XLIX, 12",
+      "column": "1904c",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ps.13.3",
+      "refDisplay": "Psalm. XIII, 3",
+      "column": "1904d",
+      "chunk": 19
+    },
+    {
+      "refKey": "1Cor.10.3-1Cor.10.4",
+      "refDisplay": "I Cor. X, 3 et 4",
+      "column": "1905a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Exod.15.25",
+      "refDisplay": "Exodi XV, 25",
+      "column": "1905a",
+      "chunk": 19,
+      "inline": true
+    },
+    {
+      "refKey": "1Cor.10.3-1Cor.10.4",
+      "refDisplay": "I Cor. X, 3 et 4",
+      "column": "1905a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Num.20.11",
+      "refDisplay": "Num. XX, 11",
+      "column": "1905a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Ps.77.25",
+      "refDisplay": "Psalm. LXXVII, 25",
+      "column": "1905b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Exod.25.4",
+      "refDisplay": "Exod. XXV, 4",
+      "column": "1905c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Gen.6.3",
+      "refDisplay": "Genes. VI, 3",
+      "column": "1906c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Gen.46.25-Gen.46.26",
+      "refDisplay": "Genes. XLVI, 25 et 26",
+      "column": "1906c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Exod.1.5",
+      "refDisplay": "Exod. I, 5",
+      "column": "1906c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Matt.22.30",
+      "refDisplay": "Matth. XXII, 30",
+      "column": "1906d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Gen.6.3",
+      "refDisplay": "Genes. VI, 3",
+      "column": "1906d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Rom.8.9",
+      "refDisplay": "Rom. VIII, 9",
+      "column": "1907a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Jer.5.8",
+      "refDisplay": "Jerem. V, 8",
+      "column": "1907a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Acts.9.5",
+      "refDisplay": "Act. IX, 5",
+      "column": "1908b",
+      "chunk": 20
+    },
+    {
+      "refKey": "1Cor.14.15",
+      "refDisplay": "I Cor. XIV, 15",
+      "column": "1908b",
+      "chunk": 20
+    },
+    {
+      "refKey": "Acts.22.17-Acts.22.18",
+      "refDisplay": "Act. XXII, 17 et 18",
+      "column": "1908c",
+      "chunk": 20
+    },
+    {
+      "refKey": "John.10.30",
+      "refDisplay": "Joan. X, 30",
+      "column": "1908c",
+      "chunk": 20
+    },
+    {
+      "refKey": "Prov.16.24",
+      "refDisplay": "Prov. XVI, 24",
+      "column": "1909c",
+      "chunk": 20
+    },
+    {
+      "refKey": "Song.5.1",
+      "refDisplay": "Cant. V, 1",
+      "column": "1909c",
+      "chunk": 20
+    },
+    {
+      "refKey": "Ps.118.103",
+      "refDisplay": "Psalm. CXVIII, 103",
+      "column": "1909d",
+      "chunk": 20
+    },
+    {
+      "refKey": "Prov.23.9",
+      "refDisplay": "Prov. XXIII, 9",
+      "column": "1910a",
+      "chunk": 20
+    },
+    {
+      "refKey": "1Pet.2.2",
+      "refDisplay": "I Pet. II, 2",
+      "column": "1910a",
+      "chunk": 20
+    },
+    {
+      "refKey": "Gen.27.27",
+      "refDisplay": "Genes. XXVII, 27",
+      "column": "1910b",
+      "chunk": 21
+    },
+    {
+      "refKey": "Ps.140.3",
+      "refDisplay": "Psal. CXL, 3",
+      "column": "1910c",
+      "chunk": 21
+    },
+    {
+      "refKey": "Gen.27.27",
+      "refDisplay": "Genes. XXVII, 27",
+      "column": "1910c",
+      "chunk": 21
+    },
+    {
+      "refKey": "Song.5.2",
+      "refDisplay": "Cant. V, 2",
+      "column": "1913d",
+      "chunk": 22
+    },
+    {
+      "refKey": "Hos.10.12",
+      "refDisplay": "Ose. X, 12",
+      "column": "1914b",
+      "chunk": 22
+    },
+    {
+      "refKey": "John.12.15",
+      "refDisplay": "Joan. XII, 15",
+      "column": "1914b",
+      "chunk": 22
+    },
+    {
+      "refKey": "Prov.5.15",
+      "refDisplay": "Prov. V, 15",
+      "column": "1914c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Prov.5.15",
+      "refDisplay": "Ibid., 18",
+      "antecedent": "Prov. V, 15",
+      "antecedentColumn": "1914c",
+      "ibidResolved": true,
+      "column": "1914c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Eccl.2.6",
+      "refDisplay": "Eccles. II, 6",
+      "column": "1914c",
+      "chunk": 22
+    },
+    {
+      "refKey": "John.4.5-John.4.6",
+      "refDisplay": "Joan. IV, 5 et 6",
+      "column": "1915a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Acts.2.1-Acts.2.3",
+      "refDisplay": "Act. II, 1, 3",
+      "column": "1915c",
+      "chunk": 23
+    },
+    {
+      "refKey": "Luke.7.38",
+      "refDisplay": "Luc. VII, 38",
+      "column": "1915d",
+      "chunk": 23
+    },
+    {
+      "refKey": "Sir.3.33",
+      "refDisplay": "Eccli. III, 33",
+      "column": "1916a",
+      "chunk": 23
+    },
+    {
+      "refKey": "Prov.9.5",
+      "refDisplay": "Prov. IX, 5",
+      "column": "1916c",
+      "chunk": 23
+    },
+    {
+      "refKey": "Eph.5.14",
+      "refDisplay": "Ephes. V, 14",
+      "column": "1916d",
+      "chunk": 23
+    },
+    {
+      "refKey": "Matt.23.37-Matt.23.38",
+      "refDisplay": "Matth. XXIII, 37 et 38",
+      "column": "1917a",
+      "chunk": 23
+    },
+    {
+      "refKey": "Gen.2.8",
+      "refDisplay": "Gen. II, 8",
+      "column": "1917b",
+      "chunk": 23
+    },
+    {
+      "refKey": "Song.4.12-Song.4.13",
+      "refDisplay": "Cant. IV, 12 et 13",
+      "column": "1917c",
+      "chunk": 23
+    },
+    {
+      "refKey": "Prov.16.24",
+      "refDisplay": "Prov. XVI, 24",
+      "column": "1918a",
+      "chunk": 23
+    },
+    {
+      "refKey": "Prov.5.15",
+      "refDisplay": "Prov. V, 15",
+      "column": "1918b",
+      "chunk": 23
+    },
+    {
+      "refKey": "Song.4.10",
+      "refDisplay": "Cant. IV, 10",
+      "column": "1918d",
+      "chunk": 24
+    },
+    {
+      "refKey": "Song.5.1",
+      "refDisplay": "Cant. V, 1",
+      "column": "1918d",
+      "chunk": 24
+    },
+    {
+      "refKey": "Matt.25.36",
+      "refDisplay": "Matth. XXV, 36",
+      "column": "1919a",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.33.9",
+      "refDisplay": "Psalm. XXXIII, 9",
+      "column": "1919b",
+      "chunk": 24
+    },
+    {
+      "refKey": "1Cor.10.3",
+      "refDisplay": "I Cor. X, 3",
+      "column": "1919b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Lam.4.20",
+      "refDisplay": "Thren. IV, 20",
+      "column": "1919b",
+      "chunk": 24
+    },
+    {
+      "refKey": "1Pet.2.21",
+      "refDisplay": "I Pet. II, 21",
+      "column": "1919b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.103.25",
+      "refDisplay": "Psal. CIII, 25",
+      "column": "1919c",
+      "chunk": 24
+    },
+    {
+      "refKey": "1Cor.14.34",
+      "refDisplay": "I Cor. XIV, 34",
+      "column": "1919c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.79.9",
+      "refDisplay": "Psalm. LXXIX, 9",
+      "column": "1920a",
+      "chunk": 24
+    },
+    {
+      "refKey": "Eph.5.18",
+      "refDisplay": "Ephes. V, 18",
+      "column": "1920b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.22.5",
+      "refDisplay": "Psalm. XXII, 5",
+      "column": "1920c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.64.11",
+      "refDisplay": "Psalm. LXIV, 11",
+      "column": "1920c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.64.10",
+      "refDisplay": "Psalm. LXIV, 10",
+      "column": "1920c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Luke.23.31",
+      "refDisplay": "Luc. XXIII, 31",
+      "column": "1921c",
+      "chunk": 25
+    },
+    {
+      "refKey": "Jude.16.17",
+      "refDisplay": "Jud. XVI, 17",
+      "column": "1921d",
+      "chunk": 25
+    },
+    {
+      "refKey": "John.20.27",
+      "refDisplay": "Joan. XX, 27",
+      "column": "1922b",
+      "chunk": 25
+    },
+    {
+      "refKey": "John.10.9",
+      "refDisplay": "Joan. X, 9",
+      "column": "1922b",
+      "chunk": 25
+    },
+    {
+      "refKey": "Ps.23.7",
+      "refDisplay": "Psal. XXIII, 7",
+      "column": "1923a",
+      "chunk": 25
+    },
+    {
+      "refKey": "Ps.117.19",
+      "refDisplay": "Psal. CXVII, 19",
+      "column": "1923a",
+      "chunk": 25
+    },
+    {
+      "refKey": "Ps.147.12",
+      "refDisplay": "Psal. CXLVII, 12",
+      "column": "1923a",
+      "chunk": 25
+    },
+    {
+      "refKey": "John.16.32",
+      "refDisplay": "Joan. XVI, 32",
+      "column": "1923c",
+      "chunk": 25
+    },
+    {
+      "refKey": "Isa.6",
+      "refDisplay": "Esai. VI",
+      "column": "1923d",
+      "chunk": 25
+    },
+    {
+      "refKey": "Rev.3.20",
+      "refDisplay": "Apoc. III, 20",
+      "column": "1924b",
+      "chunk": 26
+    },
+    {
+      "refKey": "John.13.14",
+      "refDisplay": "Joan. XIII, 14",
+      "column": "1925b",
+      "chunk": 26
+    },
+    {
+      "refKey": "John.13.14",
+      "refDisplay": "Ibid. 8",
+      "antecedent": "Joan. XIII, 14",
+      "antecedentColumn": "1925b",
+      "ibidResolved": true,
+      "column": "1925b",
+      "chunk": 26
+    },
+    {
+      "refKey": "Ps.121.2",
+      "refDisplay": "Psal. CXXI, 2",
+      "column": "1925c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Phil.3.20",
+      "refDisplay": "Philip. III, 20",
+      "column": "1925c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Lam.4.21",
+      "refDisplay": "Thren. IV, 21",
+      "column": "1926a",
+      "chunk": 26
+    },
+    {
+      "refKey": "John.10.38",
+      "refDisplay": "Joan. X, 38",
+      "column": "1926b",
+      "chunk": 26
+    },
+    {
+      "refKey": "2Cor.4.19",
+      "refDisplay": "II Cor. IV, 19",
+      "column": "1926c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Luke.2.35",
+      "refDisplay": "Luc. II, 35",
+      "column": "1926c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Luke.2.35",
+      "refDisplay": "Luc. II, 35",
+      "column": "1928b",
+      "chunk": 27
+    },
+    {
+      "refKey": "Isa.48.20",
+      "refDisplay": "Esai. XLVIII, 20",
+      "column": "1928b",
+      "chunk": 27
+    },
+    {
+      "refKey": "Ps.136.1",
+      "refDisplay": "Ps. CXXXVI, 1",
+      "column": "1928c",
+      "chunk": 27
+    },
+    {
+      "refKey": "John.14.30",
+      "refDisplay": "Joan. XIV, 30",
+      "column": "1929a",
+      "chunk": 27
+    },
+    {
+      "refKey": "Matt.11.8",
+      "refDisplay": "Matth. XI, 8",
+      "column": "1929c",
+      "chunk": 27
+    },
+    {
+      "refKey": "Matt.5.40",
+      "refDisplay": "Matth. V, 40",
+      "column": "1929c",
+      "chunk": 27
+    },
+    {
+      "refKey": "Col.3.2",
+      "refDisplay": "Colos. III, 2",
+      "column": "1929d",
+      "chunk": 27
+    },
+    {
+      "refKey": "Col.3.2",
+      "refDisplay": "Ibid., 3",
+      "antecedent": "Colos. III, 2",
+      "antecedentColumn": "1929d",
+      "ibidResolved": true,
+      "column": "1929d",
+      "chunk": 27
+    },
+    {
+      "refKey": "Rev.21.25",
+      "refDisplay": "Apoc. XXI, 25",
+      "column": "1930a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Rev.21.10",
+      "refDisplay": "Apoc. 21, 10",
+      "column": "1930b",
+      "chunk": 28
+    },
+    {
+      "refKey": "Rev.21.10",
+      "refDisplay": "Ibid., 12",
+      "antecedent": "Apoc. 21, 10",
+      "antecedentColumn": "1930b",
+      "ibidResolved": true,
+      "column": "1930c",
+      "chunk": 28
+    },
+    {
+      "refKey": "Rev.21.10",
+      "refDisplay": "Ibid., 11",
+      "antecedent": "Apoc. 21, 10",
+      "antecedentColumn": "1930b",
+      "ibidResolved": true,
+      "column": "1930c",
+      "chunk": 28
+    },
+    {
+      "refKey": "Ps.62.7",
+      "refDisplay": "Ps. LXII, 7",
+      "column": "1931a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Ps.132.2",
+      "refDisplay": "Ps. CXXXII, 2",
+      "column": "1931a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Prov.5.16",
+      "refDisplay": "Prov. V, 16",
+      "column": "1931b",
+      "chunk": 28
+    },
+    {
+      "refKey": "Song.2.5",
+      "refDisplay": "Cant. II, 5",
+      "column": "1931b",
+      "chunk": 28
+    },
+    {
+      "refKey": "Prov.27.6",
+      "refDisplay": "Prov. XXVII, 6",
+      "column": "1931b",
+      "chunk": 28
+    },
+    {
+      "refKey": "Isa.54.1",
+      "refDisplay": "Esai. 54, 1",
+      "column": "1931c",
+      "chunk": 28
+    },
+    {
+      "refKey": "Matt.5.8",
+      "refDisplay": "Matth. V, 8",
+      "column": "1931d",
+      "chunk": 28
+    },
+    {
+      "refKey": "Eccl.18.6",
+      "refDisplay": "Eccles. XVIII, 6",
+      "column": "1932c",
+      "chunk": 28
+    },
+    {
+      "refKey": "1Cor.15.41-1Cor.15.44",
+      "refDisplay": "I Cor. XV, 41-44",
+      "column": "1932d",
+      "chunk": 29
+    },
+    {
+      "refKey": "Matt.18.10",
+      "refDisplay": "Matth. XVIII, 10",
+      "column": "1933a",
+      "chunk": 29
+    },
+    {
+      "refKey": "2Cor.12.3",
+      "refDisplay": "II Cor. XII, 3",
+      "column": "1933a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Ps.141.3-Ps.141.4",
+      "refDisplay": "Ps. CXLI, 3 et 4",
+      "column": "1934a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Eccl.2.14",
+      "refDisplay": "Eccle. II, 14",
+      "column": "1934d",
+      "chunk": 29
+    },
+    {
+      "refKey": "Song.8.7",
+      "refDisplay": "Cant. VIII, 7",
+      "column": "1935b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Song.1",
+      "refDisplay": "Cant. I,",
+      "column": "1935b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Ps.41.3",
+      "refDisplay": "Psalm. XLI, 3",
+      "column": "1935b",
+      "chunk": 30
+    },
+    {
+      "refKey": "John.1.16",
+      "refDisplay": "Joan I, 16",
+      "column": "1935b",
+      "chunk": 30
+    },
+    {
+      "refKey": "Ps.67.27",
+      "refDisplay": "Psalm. LXVII, 27",
+      "column": "1935c",
+      "chunk": 30
+    },
+    {
+      "refKey": "Luke.7.40-Luke.7.42",
+      "refDisplay": "Luc. VII, 40-42",
+      "column": "1936c",
+      "chunk": 30
+    },
+    {
+      "refKey": "1Cor.4.20",
+      "refDisplay": "I Cor. IV, 20",
+      "column": "1936c",
+      "chunk": 30
+    },
+    {
+      "refKey": "2Cor.2.4",
+      "refDisplay": "II Cor. II, 4",
+      "column": "1936d",
+      "chunk": 30
+    },
+    {
+      "refKey": "Ps.67.12",
+      "refDisplay": "Psal. LXVII, 12",
+      "column": "1937a",
+      "chunk": 30
+    },
+    {
+      "refKey": "Gal.3.27",
+      "refDisplay": "Galat. III, 27",
+      "column": "1937b",
+      "chunk": 30
+    },
+    {
+      "refKey": "Ps.138.5",
+      "refDisplay": "Psal. CXXXVIII, 5",
+      "column": "1937b",
+      "chunk": 30
+    },
+    {
+      "refKey": "Job.33.4",
+      "refDisplay": "Job. XXXIII, 4",
+      "column": "1937b",
+      "chunk": 30
+    },
+    {
+      "refKey": "2Cor.13.4",
+      "refDisplay": "II Cor. XIII, 4",
+      "column": "1937c",
+      "chunk": 30
+    },
+    {
+      "refKey": "2Cor.5.16",
+      "refDisplay": "II Cor. V, 16",
+      "column": "1937d",
+      "chunk": 30
+    },
+    {
+      "refKey": "Ps.74.4",
+      "refDisplay": "Psal. LXXIV, 4",
+      "column": "1937d",
+      "chunk": 30
+    },
+    {
+      "refKey": "Isa.11.2",
+      "refDisplay": "Esai. XI, 2",
+      "column": "1938a",
+      "chunk": 30
+    },
+    {
+      "refKey": "2Cor.7.5",
+      "refDisplay": "II Cor. VII, 5",
+      "column": "1938b",
+      "chunk": 30
+    },
+    {
+      "refKey": "Ps.18.10-Ps.18.11",
+      "refDisplay": "Psal. XVIII, 10 et 11",
+      "column": "1938c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Ps.23.9",
+      "refDisplay": "Psal. XXIII, 9",
+      "column": "1938c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Isa.43.25-Isa.43.26",
+      "refDisplay": "Esai. XLIII, 25 et 26",
+      "column": "1938d",
+      "chunk": 31
+    },
+    {
+      "refKey": "Luke.15.7",
+      "refDisplay": "Luc. XV, 7",
+      "column": "1938d",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.3.18",
+      "refDisplay": "Joan. III, 18",
+      "column": "1938d",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.3.18",
+      "refDisplay": "Ibid. 19",
+      "antecedent": "Joan. III, 18",
+      "antecedentColumn": "1938d",
+      "ibidResolved": true,
+      "column": "1939a",
+      "chunk": 31
+    },
+    {
+      "refKey": "Ps.100.1",
+      "refDisplay": "Psal. C, 1",
+      "column": "1939a",
+      "chunk": 31
+    },
+    {
+      "refKey": "Ps.44.3",
+      "refDisplay": "Psal. XLIV, 3",
+      "column": "1939b",
+      "chunk": 31
+    },
+    {
+      "refKey": "Phil.2.7",
+      "refDisplay": "Philip. II, 7",
+      "column": "1939b",
+      "chunk": 31
+    },
+    {
+      "refKey": "1Tim.2.5",
+      "refDisplay": "I Tim. II, 5",
+      "column": "1939b",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "1939c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Phil.2.16",
+      "refDisplay": "Philip. II, 16",
+      "column": "1939d",
+      "chunk": 31
+    },
+    {
+      "refKey": "John.14.8",
+      "refDisplay": "Joan. XIV, 8",
+      "column": "1940c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Matt.19.21",
+      "refDisplay": "Matth. XIX, 21",
+      "column": "1940c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Matt.19.21",
+      "refDisplay": "Ibid., 27",
+      "antecedent": "Matth. XIX, 21",
+      "antecedentColumn": "1940c",
+      "ibidResolved": true,
+      "column": "1940d",
+      "chunk": 31
+    },
+    {
+      "refKey": "Matt.4.9",
+      "refDisplay": "Matth. IV, 9",
+      "column": "1941b",
+      "chunk": 32
+    },
+    {
+      "refKey": "Matt.7.21",
+      "refDisplay": "Matth. VII, 21",
+      "column": "1941b",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.44.3",
+      "refDisplay": "Psal. XLIV, 3",
+      "column": "1942c",
+      "chunk": 32
+    },
+    {
+      "refKey": "Matt.28.20",
+      "refDisplay": "Matth. XXVIII, 20",
+      "column": "1943a",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.29.1",
+      "refDisplay": "Psalm. XXIX, 1",
+      "column": "1943a",
+      "chunk": 32
+    },
+    {
+      "refKey": "Matt.17.1",
+      "refDisplay": "Matth. XVII, 1",
+      "column": "1943b",
+      "chunk": 32
+    },
+    {
+      "refKey": "John.17.21",
+      "refDisplay": "Joan. XVII, 21",
+      "column": "1943c",
+      "chunk": 33
+    },
+    {
+      "refKey": "John.17.21",
+      "refDisplay": "Ibid., 23",
+      "antecedent": "Joan. XVII, 21",
+      "antecedentColumn": "1943c",
+      "ibidResolved": true,
+      "column": "1943c",
+      "chunk": 33
+    },
+    {
+      "refKey": "Acts.4.32",
+      "refDisplay": "Act. IV, 32",
+      "column": "1943d",
+      "chunk": 33
+    },
+    {
+      "refKey": "Sir.23.26",
+      "refDisplay": "Eccli. XXIII, 26",
+      "column": "1944b",
+      "chunk": 33
+    },
+    {
+      "refKey": "Ps.123.5",
+      "refDisplay": "Psalm. CXXIII, 5",
+      "column": "1944d",
+      "chunk": 33
+    },
+    {
+      "refKey": "Wis.9",
+      "refDisplay": "Sap. IX",
+      "column": "1945a",
+      "chunk": 33
+    },
+    {
+      "refKey": "Num.1.7",
+      "refDisplay": "Num. I, 7",
+      "column": "1945b",
+      "chunk": 33
+    },
+    {
+      "refKey": "Ezek.1.20",
+      "refDisplay": "Ezech. I, 20",
+      "column": "1945d",
+      "chunk": 33
+    },
+    {
+      "refKey": "Matt.11.29",
+      "refDisplay": "Matth. XI, 29",
+      "column": "1946a",
+      "chunk": 33
+    },
+    {
+      "refKey": "2Kgs.11.12",
+      "refDisplay": "IV Reg. XI, 12",
+      "column": "1946b",
+      "chunk": 34
+    },
+    {
+      "refKey": "Hab.3.8",
+      "refDisplay": "Habac. III, 8",
+      "column": "1946c",
+      "chunk": 34
+    },
+    {
+      "refKey": "1Cor.15.48",
+      "refDisplay": "I Cor. XV, 48",
+      "column": "1946c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Song.8.6",
+      "refDisplay": "Cant. VIII, 6",
+      "column": "1946c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Isa.52.7",
+      "refDisplay": "Esai. LII, 7",
+      "column": "1946d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Isa.47.2",
+      "refDisplay": "Esai. XLVII, 2",
+      "column": "1946d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.213.5",
+      "refDisplay": "Psal. CCXIII, 5",
+      "column": "1947a",
+      "chunk": 34
+    },
+    {
+      "refKey": "Exod.3.5",
+      "refDisplay": "Exodi III, 5",
+      "column": "1947a",
+      "chunk": 34,
+      "inline": true
+    },
+    {
+      "refKey": "Prov.4.8",
+      "refDisplay": "Prov. IV, 8",
+      "column": "1947b",
+      "chunk": 34
+    },
+    {
+      "refKey": "Exod.3.5",
+      "refDisplay": "Exodi III, 5",
+      "column": "1947b",
+      "chunk": 34,
+      "inline": true
+    },
+    {
+      "refKey": "Josh.5.16",
+      "refDisplay": "Josue V, 16",
+      "column": "1947b",
+      "chunk": 34
+    },
+    {
+      "refKey": "Matt.3.11",
+      "refDisplay": "Matth. III, 11",
+      "column": "1947c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Ps.44.4",
+      "refDisplay": "Psal. XLIV, 4",
+      "column": "1948a",
+      "chunk": 34
+    },
+    {
+      "refKey": "Song.7.6",
+      "refDisplay": "Cant. VII, 6",
+      "column": "1949b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Rev.3.21",
+      "refDisplay": "Apoc. III, 21",
+      "column": "1949b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Song.2.16",
+      "refDisplay": "Cant. II, 16",
+      "column": "1949c",
+      "chunk": 35
+    },
+    {
+      "refKey": "Song.6.2",
+      "refDisplay": "Cant. VI, 2",
+      "column": "1949c",
+      "chunk": 35
+    },
+    {
+      "refKey": "Song.8.1",
+      "refDisplay": "Cant. VIII, 1",
+      "column": "1950b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Song.8.1",
+      "refDisplay": "Ibid., 2",
+      "antecedent": "Cant. VIII, 1",
+      "antecedentColumn": "1950b",
+      "ibidResolved": true,
+      "column": "1950b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Isa.63.1",
+      "refDisplay": "Esai. LXIII, 1",
+      "column": "1952a",
+      "chunk": 36
+    },
+    {
+      "refKey": "Rom.8.35",
+      "refDisplay": "Rom. VIII, 35",
+      "column": "1952d",
+      "chunk": 36
+    },
+    {
+      "refKey": "Rom.8.35",
+      "refDisplay": "Ibid.",
+      "antecedent": "Rom. VIII, 35",
+      "antecedentColumn": "1952d",
+      "ibidResolved": true,
+      "column": "1952d",
+      "chunk": 36
+    },
+    {
+      "refKey": "Ps.54.8",
+      "refDisplay": "Psal. LIV, 8",
+      "column": "1952d",
+      "chunk": 36
+    },
+    {
+      "refKey": "Matt.4.3",
+      "refDisplay": "Matth. IV, 3",
+      "column": "1953a",
+      "chunk": 36
+    },
+    {
+      "refKey": "Ps.123.5",
+      "refDisplay": "Psal. CXXIII, 5",
+      "column": "1953b",
+      "chunk": 36
+    },
+    {
+      "refKey": "Gal.4.19",
+      "refDisplay": "Galat. IV, 19",
+      "column": "1954a",
+      "chunk": 36
+    },
+    {
+      "refKey": "John.6.27",
+      "refDisplay": "Joan. VI, 27",
+      "column": "1954b",
+      "chunk": 36
+    },
+    {
+      "refKey": "1Cor.13.5",
+      "refDisplay": "I Cor. XIII, 5",
+      "column": "1954c",
+      "chunk": 36
+    },
+    {
+      "refKey": "Luke.7.47",
+      "refDisplay": "Luc. VII, 47",
+      "column": "1954c",
+      "chunk": 36
+    },
+    {
+      "refKey": "Jer.20.9",
+      "refDisplay": "Jerem. XX, 9",
+      "column": "1954d",
+      "chunk": 37
+    },
+    {
+      "refKey": "Luke.24.32",
+      "refDisplay": "Luc. XXIV, 32",
+      "column": "1955a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.11.7",
+      "refDisplay": "Psalm. XI, 7",
+      "column": "1955a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Matt.3.11",
+      "refDisplay": "Matth. III, 11",
+      "column": "1955b",
+      "chunk": 37
+    },
+    {
+      "refKey": "Matt.23.27",
+      "refDisplay": "Matth. XXIII, 27",
+      "column": "1955c",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.15.2",
+      "refDisplay": "Psal. XV, 2",
+      "column": "1955d",
+      "chunk": 37
+    },
+    {
+      "refKey": "John.21.22",
+      "refDisplay": "Joan. XXI, 22",
+      "column": "1956a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.65.12",
+      "refDisplay": "Psalm. LXV, 12",
+      "column": "1956a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ezek.1.15-Ezek.1.16",
+      "refDisplay": "Ezech. I, 15 et 16",
+      "column": "1956c",
+      "chunk": 37
+    },
+    {
+      "refKey": "John.1.14",
+      "refDisplay": "Joan. I, 14",
+      "column": "1956d",
+      "chunk": 37
+    },
+    {
+      "refKey": "Isa.27.3",
+      "refDisplay": "Esai. XXVII, 3",
+      "column": "1957c",
+      "chunk": 38
+    },
+    {
+      "refKey": "John.10.9",
+      "refDisplay": "Joan. X, 9",
+      "column": "1957d",
+      "chunk": 38,
+      "inline": true
+    },
+    {
+      "refKey": "Ps.121.7",
+      "refDisplay": "Psalm. CXXI, 7",
+      "column": "1958b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Isa.27.3",
+      "refDisplay": "Esai. XXVII, 3",
+      "column": "1958c",
+      "chunk": 38
+    },
+    {
+      "refKey": "Isa.49.16",
+      "refDisplay": "Esai. XLIX, 16",
+      "column": "1958c",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.30.6",
+      "refDisplay": "Psal. XXX, 6",
+      "column": "1958d",
+      "chunk": 38
+    },
+    {
+      "refKey": "Gen.43.34",
+      "refDisplay": "Gen. XLIII, 34",
+      "column": "1959b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.121.7",
+      "refDisplay": "Psalm. CXXI, 7",
+      "column": "1959c",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.86.1",
+      "refDisplay": "Psal. LXXXVI, 1",
+      "column": "1960b",
+      "chunk": 39
+    },
+    {
+      "refKey": "2Cor.2.15",
+      "refDisplay": "II Cor. II, 15",
+      "column": "1960b",
+      "chunk": 39
+    },
+    {
+      "refKey": "Ps.140.2",
+      "refDisplay": "Psal. CXL, 2",
+      "column": "1960b",
+      "chunk": 39
+    },
+    {
+      "refKey": "2Cor.2.15",
+      "refDisplay": "II Cor. II, 15",
+      "column": "1960c",
+      "chunk": 39
+    },
+    {
+      "refKey": "Acts.17.28",
+      "refDisplay": "Act. XVII, 28",
+      "column": "1961b",
+      "chunk": 39
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Vers. 1, 2.",
+      "column": "1853d",
+      "chunk": 0
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1856d",
+      "chunk": 1
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1857b",
+      "chunk": 1
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1859c",
+      "chunk": 2
+    },
+    {
+      "raw": "Vers. 12",
+      "column": "1860b",
+      "chunk": 2
+    },
+    {
+      "raw": "Vers. 4.",
+      "column": "1861a",
+      "chunk": 3
+    },
+    {
+      "raw": "Vers. 5.",
+      "column": "1863a",
+      "chunk": 3
+    },
+    {
+      "raw": "Vers. 6.",
+      "column": "1863b",
+      "chunk": 3
+    },
+    {
+      "raw": "Vers. 5",
+      "column": "1863c",
+      "chunk": 4
+    },
+    {
+      "raw": "Vers. 7.",
+      "column": "1864c",
+      "chunk": 4
+    },
+    {
+      "raw": "Vers. 8.",
+      "column": "1867a",
+      "chunk": 5
+    },
+    {
+      "raw": "Vers. 9.",
+      "column": "1868b",
+      "chunk": 5
+    },
+    {
+      "raw": "Vers. 10, 11.",
+      "column": "1868c",
+      "chunk": 5
+    },
+    {
+      "raw": "Vers. 12, 13.",
+      "column": "1868d",
+      "chunk": 6
+    },
+    {
+      "raw": "Vers. 14.",
+      "column": "1869d",
+      "chunk": 6
+    },
+    {
+      "raw": "Vers. 15, 16.",
+      "column": "1870a",
+      "chunk": 6
+    },
+    {
+      "raw": "Vers. 1, 2.",
+      "column": "1871a",
+      "chunk": 6
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1872b",
+      "chunk": 7
+    },
+    {
+      "raw": "Vers. 3, 4.",
+      "column": "1872c",
+      "chunk": 7
+    },
+    {
+      "raw": "Sup., v. 1",
+      "column": "1873a",
+      "chunk": 7
+    },
+    {
+      "raw": "Vers. 4-7.",
+      "column": "1875b",
+      "chunk": 8
+    },
+    {
+      "raw": "Sup., v. 3",
+      "column": "1875d",
+      "chunk": 8
+    },
+    {
+      "raw": "Vers. 8.",
+      "column": "1879b",
+      "chunk": 9
+    },
+    {
+      "raw": "Vers. 9.",
+      "column": "1881b",
+      "chunk": 10
+    },
+    {
+      "raw": "Vers. 10.",
+      "column": "1882c",
+      "chunk": 11
+    },
+    {
+      "raw": "Vers. 11 - 13",
+      "column": "1883c",
+      "chunk": 11
+    },
+    {
+      "raw": "Supra, vers. 1",
+      "column": "1885b",
+      "chunk": 12
+    },
+    {
+      "raw": "Sup., v. 5",
+      "column": "1886c",
+      "chunk": 12
+    },
+    {
+      "raw": "Vers. 14.",
+      "column": "1887a",
+      "chunk": 12
+    },
+    {
+      "raw": "Vers. 15.",
+      "column": "1888a",
+      "chunk": 13
+    },
+    {
+      "raw": "Vers. 16.",
+      "column": "1888d",
+      "chunk": 13
+    },
+    {
+      "raw": "Vers. 17.",
+      "column": "1890c",
+      "chunk": 14
+    },
+    {
+      "raw": "Vers. 1.",
+      "column": "1891b",
+      "chunk": 14
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1891c",
+      "chunk": 14
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1893b",
+      "chunk": 15
+    },
+    {
+      "raw": "Vers. 4.",
+      "column": "1894c",
+      "chunk": 15
+    },
+    {
+      "raw": "Vers. 6.",
+      "column": "1895d",
+      "chunk": 16
+    },
+    {
+      "raw": "Vers. 7.",
+      "column": "1896c",
+      "chunk": 16
+    },
+    {
+      "raw": "Vers. 9, 10.",
+      "column": "1899b",
+      "chunk": 17
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1900c",
+      "chunk": 17
+    },
+    {
+      "raw": "Vers. 1.",
+      "column": "1901c",
+      "chunk": 17
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1903c",
+      "chunk": 18
+    },
+    {
+      "raw": "Vers. 5",
+      "column": "1904b",
+      "chunk": 18
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1905c",
+      "chunk": 19
+    },
+    {
+      "raw": "Vers. 4.",
+      "column": "1905d",
+      "chunk": 19
+    },
+    {
+      "raw": "Vers. 7.",
+      "column": "1907a",
+      "chunk": 19
+    },
+    {
+      "raw": "Vers. 8.",
+      "column": "1907a",
+      "chunk": 19
+    },
+    {
+      "raw": "Vers. 9.",
+      "column": "1908a",
+      "chunk": 20
+    },
+    {
+      "raw": "Vers. 10.",
+      "column": "1908c",
+      "chunk": 20
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1909a",
+      "chunk": 20
+    },
+    {
+      "raw": "Vers. 12.",
+      "column": "1910b",
+      "chunk": 21
+    },
+    {
+      "raw": "Vers. 3, 4.",
+      "column": "1913b",
+      "chunk": 22
+    },
+    {
+      "raw": "Vers. 15.",
+      "column": "1914a",
+      "chunk": 22
+    },
+    {
+      "raw": "Vers. 16.",
+      "column": "1916b",
+      "chunk": 23
+    },
+    {
+      "raw": "Vers. 1.",
+      "column": "1917a",
+      "chunk": 23
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1917d",
+      "chunk": 23
+    },
+    {
+      "raw": "Sup., cap. 4",
+      "column": "1918c",
+      "chunk": 24
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1921d",
+      "chunk": 25
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1922c",
+      "chunk": 25
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1923d",
+      "chunk": 25
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1924c",
+      "chunk": 26
+    },
+    {
+      "raw": "Vers. 4.",
+      "column": "1926b",
+      "chunk": 26
+    },
+    {
+      "raw": "Vers. 6.",
+      "column": "1927b",
+      "chunk": 27
+    },
+    {
+      "raw": "Vers. 5.",
+      "column": "1927c",
+      "chunk": 27
+    },
+    {
+      "raw": "Vers. 7.",
+      "column": "1928c",
+      "chunk": 27
+    },
+    {
+      "raw": "Vers. 6",
+      "column": "1930a",
+      "chunk": 27
+    },
+    {
+      "raw": "Vers. 8.",
+      "column": "1932a",
+      "chunk": 28
+    },
+    {
+      "raw": "Vers. 10.",
+      "column": "1934a",
+      "chunk": 29
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1934c",
+      "chunk": 29
+    },
+    {
+      "raw": "Vers. 12.",
+      "column": "1935a",
+      "chunk": 29
+    },
+    {
+      "raw": "Vers. 13.",
+      "column": "1935c",
+      "chunk": 30
+    },
+    {
+      "raw": "Vers. 14.",
+      "column": "1937a",
+      "chunk": 30
+    },
+    {
+      "raw": "Colloss., III, 9-11",
+      "column": "1937b",
+      "chunk": 30
+    },
+    {
+      "raw": "Vers. 14.",
+      "column": "1937c",
+      "chunk": 30
+    },
+    {
+      "raw": "Vers. 15.",
+      "column": "1937d",
+      "chunk": 30
+    },
+    {
+      "raw": "Vers. 15.",
+      "column": "1938b",
+      "chunk": 31
+    },
+    {
+      "raw": "Vers. 16.",
+      "column": "1938c",
+      "chunk": 31
+    },
+    {
+      "raw": "Vers. 16.",
+      "column": "1939a",
+      "chunk": 31
+    },
+    {
+      "raw": "Vers. 17.",
+      "column": "1939d",
+      "chunk": 31
+    },
+    {
+      "raw": "Vers. 1.",
+      "column": "1940a",
+      "chunk": 31
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1940b",
+      "chunk": 31
+    },
+    {
+      "raw": "Vers. 3.",
+      "column": "1942b",
+      "chunk": 32
+    },
+    {
+      "raw": "Vers. 4.",
+      "column": "1942d",
+      "chunk": 32
+    },
+    {
+      "raw": "Vers. 5-7.",
+      "column": "1943b",
+      "chunk": 33
+    },
+    {
+      "raw": "Vers. 9.",
+      "column": "1944b",
+      "chunk": 33
+    },
+    {
+      "raw": "Vers. 10.",
+      "column": "1944c",
+      "chunk": 33
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1945a",
+      "chunk": 33
+    },
+    {
+      "raw": "Vers. 12.",
+      "column": "1946b",
+      "chunk": 34
+    },
+    {
+      "raw": "Vers. 1.",
+      "column": "1946d",
+      "chunk": 34
+    },
+    {
+      "raw": "Vers. 2.",
+      "column": "1948b",
+      "chunk": 34
+    },
+    {
+      "raw": "Vers. 4.",
+      "column": "1948c",
+      "chunk": 34
+    },
+    {
+      "raw": "Vers. 8.",
+      "column": "1949b",
+      "chunk": 35
+    },
+    {
+      "raw": "Vers. 10.",
+      "column": "1949c",
+      "chunk": 35
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1950a",
+      "chunk": 35
+    },
+    {
+      "raw": "Vers. 12.",
+      "column": "1951a",
+      "chunk": 35
+    },
+    {
+      "raw": "Vers. 13.",
+      "column": "1951b",
+      "chunk": 35
+    },
+    {
+      "raw": "Vers. 5.",
+      "column": "1951d",
+      "chunk": 36
+    },
+    {
+      "raw": "Vers. 6.",
+      "column": "1952b",
+      "chunk": 36
+    },
+    {
+      "raw": "Vers. 7.",
+      "column": "1953a",
+      "chunk": 36
+    },
+    {
+      "raw": "Vers. 5.",
+      "column": "1953b",
+      "chunk": 36
+    },
+    {
+      "raw": "Vers. 6.",
+      "column": "1954a",
+      "chunk": 36
+    },
+    {
+      "raw": "Vers. 8.",
+      "column": "1957b",
+      "chunk": 37
+    },
+    {
+      "raw": "Vers. 9.",
+      "column": "1957c",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 10.",
+      "column": "1958b",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1958c",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers 12.",
+      "column": "1958c",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 10",
+      "column": "1958c",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 11.",
+      "column": "1959a",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 12.",
+      "column": "1959b",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 13.",
+      "column": "1959c",
+      "chunk": 38
+    },
+    {
+      "raw": "Vers. 14.",
+      "column": "1960a",
+      "chunk": 39
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS.",
+      "column": "1851",
+      "chunk": 0,
+      "en": "PROLOGUE."
+    },
+    {
+      "la": "2.",
+      "column": "1852a",
+      "chunk": 0,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1853a",
+      "chunk": 0,
+      "en": "3."
+    },
+    {
+      "la": "INCIPIT TEXTUS.",
+      "column": "1854b",
+      "chunk": 0,
+      "en": "HERE BEGINS THE TEXT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "1854b",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "1.",
+      "column": "1853b",
+      "chunk": 0,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1853d",
+      "chunk": 0,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1854c",
+      "chunk": 0,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1855a",
+      "chunk": 0,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1855a",
+      "chunk": 1,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1855c",
+      "chunk": 1,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1855d",
+      "chunk": 1,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1856b",
+      "chunk": 1,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1856d",
+      "chunk": 1,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1857b",
+      "chunk": 1,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1857c",
+      "chunk": 1,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1857d",
+      "chunk": 2,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1858b",
+      "chunk": 2,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1859a",
+      "chunk": 2,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1859a",
+      "chunk": 2,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1859c",
+      "chunk": 2,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1859d",
+      "chunk": 2,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1860b",
+      "chunk": 2,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1860c",
+      "chunk": 3,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1860d",
+      "chunk": 3,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1860d",
+      "chunk": 3,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1861a",
+      "chunk": 3,
+      "en": "22."
+    },
+    {
+      "la": "23.",
+      "column": "1861c",
+      "chunk": 3,
+      "en": "23."
+    },
+    {
+      "la": "24.",
+      "column": "1862a",
+      "chunk": 3,
+      "en": "24."
+    },
+    {
+      "la": "25.",
+      "column": "1862c",
+      "chunk": 3,
+      "en": "25."
+    },
+    {
+      "la": "26.",
+      "column": "1862d",
+      "chunk": 3,
+      "en": "26."
+    },
+    {
+      "la": "27.",
+      "column": "1863a",
+      "chunk": 3,
+      "en": "27."
+    },
+    {
+      "la": "28.",
+      "column": "1863b",
+      "chunk": 3,
+      "en": "28."
+    },
+    {
+      "la": "29.",
+      "column": "1863b",
+      "chunk": 4,
+      "en": "29."
+    },
+    {
+      "la": "30.",
+      "column": "1863c",
+      "chunk": 4,
+      "en": "30."
+    },
+    {
+      "la": "31.",
+      "column": "1864a",
+      "chunk": 4,
+      "en": "31."
+    },
+    {
+      "la": "32.",
+      "column": "1864b",
+      "chunk": 4,
+      "en": "32."
+    },
+    {
+      "la": "33.",
+      "column": "1864c",
+      "chunk": 4,
+      "en": "33."
+    },
+    {
+      "la": "34.",
+      "column": "1865b",
+      "chunk": 4,
+      "en": "34."
+    },
+    {
+      "la": "35.",
+      "column": "1865c",
+      "chunk": 4,
+      "en": "35."
+    },
+    {
+      "la": "36.",
+      "column": "1865d",
+      "chunk": 4,
+      "en": "36."
+    },
+    {
+      "la": "37.",
+      "column": "1866a",
+      "chunk": 5,
+      "en": "37."
+    },
+    {
+      "la": "38.",
+      "column": "1866c",
+      "chunk": 5,
+      "en": "38."
+    },
+    {
+      "la": "39.",
+      "column": "1867a",
+      "chunk": 5,
+      "en": "39."
+    },
+    {
+      "la": "40.",
+      "column": "1867b",
+      "chunk": 5,
+      "en": "40."
+    },
+    {
+      "la": "41.",
+      "column": "1867d",
+      "chunk": 5,
+      "en": "41."
+    },
+    {
+      "la": "42.",
+      "column": "1868a",
+      "chunk": 5,
+      "en": "42."
+    },
+    {
+      "la": "43.",
+      "column": "1868b",
+      "chunk": 5,
+      "en": "43."
+    },
+    {
+      "la": "44.",
+      "column": "1868c",
+      "chunk": 5,
+      "en": "44."
+    },
+    {
+      "la": "45.",
+      "column": "1868d",
+      "chunk": 6,
+      "en": "45."
+    },
+    {
+      "la": "46.",
+      "column": "1869a",
+      "chunk": 6,
+      "en": "46."
+    },
+    {
+      "la": "47.",
+      "column": "1869c",
+      "chunk": 6,
+      "en": "47."
+    },
+    {
+      "la": "48.",
+      "column": "1869d",
+      "chunk": 6,
+      "en": "48."
+    },
+    {
+      "la": "49.",
+      "column": "1870a",
+      "chunk": 6,
+      "en": "49."
+    },
+    {
+      "la": "50.",
+      "column": "1870b",
+      "chunk": 6,
+      "en": "50."
+    },
+    {
+      "la": "51.",
+      "column": "1870c",
+      "chunk": 6,
+      "en": "51."
+    },
+    {
+      "la": "52.",
+      "column": "1870d",
+      "chunk": 6,
+      "en": "52."
+    },
+    {
+      "la": "CAPUT SECUNDUM.",
+      "column": "1871a",
+      "chunk": 6,
+      "en": "CHAPTER THE SECOND."
+    },
+    {
+      "la": "1.",
+      "column": "1871a",
+      "chunk": 6,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1871b",
+      "chunk": 6,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1871c",
+      "chunk": 7,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1871d",
+      "chunk": 7,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1872a",
+      "chunk": 7,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1872b",
+      "chunk": 7,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1872c",
+      "chunk": 7,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1873a",
+      "chunk": 7,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1873b",
+      "chunk": 7,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1873b",
+      "chunk": 7,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1873c",
+      "chunk": 7,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1873d",
+      "chunk": 7,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1874a",
+      "chunk": 7,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1874b",
+      "chunk": 8,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1874c",
+      "chunk": 8,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1874d",
+      "chunk": 8,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1875b",
+      "chunk": 8,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1875c",
+      "chunk": 8,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1876a",
+      "chunk": 8,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1876a",
+      "chunk": 8,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1876c",
+      "chunk": 8,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1876d",
+      "chunk": 9,
+      "en": "22."
+    },
+    {
+      "la": "23.",
+      "column": "1877b",
+      "chunk": 9,
+      "en": "23."
+    },
+    {
+      "la": "24.",
+      "column": "1877c",
+      "chunk": 9,
+      "en": "24."
+    },
+    {
+      "la": "25.",
+      "column": "1878a",
+      "chunk": 9,
+      "en": "25."
+    },
+    {
+      "la": "26.",
+      "column": "1878b",
+      "chunk": 9,
+      "en": "26."
+    },
+    {
+      "la": "27.",
+      "column": "1878c",
+      "chunk": 9,
+      "en": "27."
+    },
+    {
+      "la": "28.",
+      "column": "1878d",
+      "chunk": 9,
+      "en": "28."
+    },
+    {
+      "la": "29.",
+      "column": "1879a",
+      "chunk": 9,
+      "en": "29."
+    },
+    {
+      "la": "30.",
+      "column": "1879b",
+      "chunk": 9,
+      "en": "30."
+    },
+    {
+      "la": "31.",
+      "column": "1879c",
+      "chunk": 10,
+      "en": "31."
+    },
+    {
+      "la": "32.",
+      "column": "1879d",
+      "chunk": 10,
+      "en": "32."
+    },
+    {
+      "la": "33.",
+      "column": "1880a",
+      "chunk": 10,
+      "en": "33."
+    },
+    {
+      "la": "34.",
+      "column": "1880b",
+      "chunk": 10,
+      "en": "34."
+    },
+    {
+      "la": "35.",
+      "column": "1880b",
+      "chunk": 10,
+      "en": "35."
+    },
+    {
+      "la": "36.",
+      "column": "1880c",
+      "chunk": 10,
+      "en": "36."
+    },
+    {
+      "la": "37.",
+      "column": "1881a",
+      "chunk": 10,
+      "en": "37."
+    },
+    {
+      "la": "38.",
+      "column": "1881b",
+      "chunk": 10,
+      "en": "38."
+    },
+    {
+      "la": "39.",
+      "column": "1881c",
+      "chunk": 10,
+      "en": "39."
+    },
+    {
+      "la": "40.",
+      "column": "1882a",
+      "chunk": 11,
+      "en": "40."
+    },
+    {
+      "la": "41.",
+      "column": "1882c",
+      "chunk": 11,
+      "en": "41."
+    },
+    {
+      "la": "42.",
+      "column": "1882c",
+      "chunk": 11,
+      "en": "42."
+    },
+    {
+      "la": "43.",
+      "column": "1883a",
+      "chunk": 11,
+      "en": "43."
+    },
+    {
+      "la": "44.",
+      "column": "1883b",
+      "chunk": 11,
+      "en": "44."
+    },
+    {
+      "la": "45.",
+      "column": "1883c",
+      "chunk": 11,
+      "en": "45."
+    },
+    {
+      "la": "46.",
+      "column": "1883d",
+      "chunk": 11,
+      "en": "46."
+    },
+    {
+      "la": "47.",
+      "column": "1884b",
+      "chunk": 11,
+      "en": "47."
+    },
+    {
+      "la": "48.",
+      "column": "1884b",
+      "chunk": 11,
+      "en": "48."
+    },
+    {
+      "la": "49.",
+      "column": "1884c",
+      "chunk": 11,
+      "en": "49."
+    },
+    {
+      "la": "50.",
+      "column": "1884d",
+      "chunk": 12,
+      "en": "50."
+    },
+    {
+      "la": "50.",
+      "column": "1885c",
+      "chunk": 12,
+      "en": "50."
+    },
+    {
+      "la": "51.",
+      "column": "1885c",
+      "chunk": 12,
+      "en": "51."
+    },
+    {
+      "la": "52.",
+      "column": "1886b",
+      "chunk": 12,
+      "en": "52."
+    },
+    {
+      "la": "53.",
+      "column": "1886c",
+      "chunk": 12,
+      "en": "53."
+    },
+    {
+      "la": "54.",
+      "column": "1886d",
+      "chunk": 12,
+      "en": "54."
+    },
+    {
+      "la": "55.",
+      "column": "1887a",
+      "chunk": 12,
+      "en": "55."
+    },
+    {
+      "la": "56.",
+      "column": "1887a",
+      "chunk": 12,
+      "en": "56."
+    },
+    {
+      "la": "57.",
+      "column": "1887b",
+      "chunk": 12,
+      "en": "57."
+    },
+    {
+      "la": "58.",
+      "column": "1887c",
+      "chunk": 12,
+      "en": "58."
+    },
+    {
+      "la": "59.",
+      "column": "1887d",
+      "chunk": 13,
+      "en": "59."
+    },
+    {
+      "la": "60.",
+      "column": "1888a",
+      "chunk": 13,
+      "en": "60."
+    },
+    {
+      "la": "61.",
+      "column": "1888b",
+      "chunk": 13,
+      "en": "61."
+    },
+    {
+      "la": "62.",
+      "column": "1888c",
+      "chunk": 13,
+      "en": "62."
+    },
+    {
+      "la": "63.",
+      "column": "1888d",
+      "chunk": 13,
+      "en": "63."
+    },
+    {
+      "la": "64.",
+      "column": "1889a",
+      "chunk": 13,
+      "en": "64."
+    },
+    {
+      "la": "65.",
+      "column": "1889c",
+      "chunk": 13,
+      "en": "65."
+    },
+    {
+      "la": "66.",
+      "column": "1889d",
+      "chunk": 13,
+      "en": "66."
+    },
+    {
+      "la": "67.",
+      "column": "1890b",
+      "chunk": 13,
+      "en": "67."
+    },
+    {
+      "la": "68.",
+      "column": "1890c",
+      "chunk": 14,
+      "en": "68."
+    },
+    {
+      "la": "69.",
+      "column": "1891a",
+      "chunk": 14,
+      "en": "69."
+    },
+    {
+      "la": "CAPUT TERTIUM.",
+      "column": "1891a",
+      "chunk": 14,
+      "en": "CAPUT TERTIUM."
+    },
+    {
+      "la": "1.",
+      "column": "1891a",
+      "chunk": 14,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1891c",
+      "chunk": 14,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1892a",
+      "chunk": 14,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1892b",
+      "chunk": 14,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1892c",
+      "chunk": 14,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1892d",
+      "chunk": 14,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1893b",
+      "chunk": 15,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1893c",
+      "chunk": 15,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1893c",
+      "chunk": 15,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1893d",
+      "chunk": 15,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1894a",
+      "chunk": 15,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1894b",
+      "chunk": 15,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1894c",
+      "chunk": 15,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1894c",
+      "chunk": 15,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1895a",
+      "chunk": 15,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1895b",
+      "chunk": 15,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1895b",
+      "chunk": 15,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1895c",
+      "chunk": 15,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1895d",
+      "chunk": 16,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1896b",
+      "chunk": 16,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1896c",
+      "chunk": 16,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1897a",
+      "chunk": 16,
+      "en": "22."
+    },
+    {
+      "la": "23.",
+      "column": "1897b",
+      "chunk": 16,
+      "en": "23."
+    },
+    {
+      "la": "24.",
+      "column": "1897c",
+      "chunk": 16,
+      "en": "24."
+    },
+    {
+      "la": "25.",
+      "column": "1897d",
+      "chunk": 16,
+      "en": "25."
+    },
+    {
+      "la": "26.",
+      "column": "1898a",
+      "chunk": 16,
+      "en": "26."
+    },
+    {
+      "la": "27.",
+      "column": "1898c",
+      "chunk": 16,
+      "en": "27."
+    },
+    {
+      "la": "28.",
+      "column": "1898c",
+      "chunk": 17,
+      "en": "28."
+    },
+    {
+      "la": "29.",
+      "column": "1899a",
+      "chunk": 17,
+      "en": "29."
+    },
+    {
+      "la": "30.",
+      "column": "1899b",
+      "chunk": 17,
+      "en": "30."
+    },
+    {
+      "la": "31.",
+      "column": "1899c",
+      "chunk": 17,
+      "en": "31."
+    },
+    {
+      "la": "32.",
+      "column": "1900a",
+      "chunk": 17,
+      "en": "32."
+    },
+    {
+      "la": "33.",
+      "column": "1900a",
+      "chunk": 17,
+      "en": "33."
+    },
+    {
+      "la": "34.",
+      "column": "1900c",
+      "chunk": 17,
+      "en": "34."
+    },
+    {
+      "la": "35.",
+      "column": "1900c",
+      "chunk": 17,
+      "en": "35."
+    },
+    {
+      "la": "36.",
+      "column": "1900d",
+      "chunk": 17,
+      "en": "36."
+    },
+    {
+      "la": "37.",
+      "column": "1901a",
+      "chunk": 17,
+      "en": "37."
+    },
+    {
+      "la": "38.",
+      "column": "1901b",
+      "chunk": 17,
+      "en": "38."
+    },
+    {
+      "la": "CAPUT QUARTUM.",
+      "column": "1901b",
+      "chunk": 17,
+      "en": "CHAPTER FOUR."
+    },
+    {
+      "la": "1.",
+      "column": "1901b",
+      "chunk": 17,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1901c",
+      "chunk": 18,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1901d",
+      "chunk": 18,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1902a",
+      "chunk": 18,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1902b",
+      "chunk": 18,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1902c",
+      "chunk": 18,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1903a",
+      "chunk": 18,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1903b",
+      "chunk": 18,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1903c",
+      "chunk": 18,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1903d",
+      "chunk": 18,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1904a",
+      "chunk": 18,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1904a",
+      "chunk": 18,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1904b",
+      "chunk": 18,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1904c",
+      "chunk": 19,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1905a",
+      "chunk": 19,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1905b",
+      "chunk": 19,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1905c",
+      "chunk": 19,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1905d",
+      "chunk": 19,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1906a",
+      "chunk": 19,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1906b",
+      "chunk": 19,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1906c",
+      "chunk": 19,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1907a",
+      "chunk": 19,
+      "en": "22."
+    },
+    {
+      "la": "23.",
+      "column": "1907a",
+      "chunk": 19,
+      "en": "23."
+    },
+    {
+      "la": "24.",
+      "column": "1907b",
+      "chunk": 19,
+      "en": "24."
+    },
+    {
+      "la": "25.",
+      "column": "1907c",
+      "chunk": 20,
+      "en": "25."
+    },
+    {
+      "la": "26.",
+      "column": "1908a",
+      "chunk": 20,
+      "en": "26."
+    },
+    {
+      "la": "27.",
+      "column": "1908b",
+      "chunk": 20,
+      "en": "27."
+    },
+    {
+      "la": "28.",
+      "column": "1908c",
+      "chunk": 20,
+      "en": "28."
+    },
+    {
+      "la": "29.",
+      "column": "1908c",
+      "chunk": 20,
+      "en": "29."
+    },
+    {
+      "la": "30.",
+      "column": "1909a",
+      "chunk": 20,
+      "en": "30."
+    },
+    {
+      "la": "31.",
+      "column": "1909c",
+      "chunk": 20,
+      "en": "31."
+    },
+    {
+      "la": "32.",
+      "column": "1909d",
+      "chunk": 20,
+      "en": "32."
+    },
+    {
+      "la": "33.",
+      "column": "1910b",
+      "chunk": 21,
+      "en": "33."
+    },
+    {
+      "la": "34.",
+      "column": "1910c",
+      "chunk": 21,
+      "en": "34."
+    },
+    {
+      "la": "35.",
+      "column": "1910d",
+      "chunk": 21,
+      "en": "35."
+    },
+    {
+      "la": "36.",
+      "column": "1911b",
+      "chunk": 21,
+      "en": "36."
+    },
+    {
+      "la": "37.",
+      "column": "1911c",
+      "chunk": 21,
+      "en": "37."
+    },
+    {
+      "la": "38.",
+      "column": "1912a",
+      "chunk": 21,
+      "en": "38."
+    },
+    {
+      "la": "39.",
+      "column": "1912c",
+      "chunk": 21,
+      "en": "39."
+    },
+    {
+      "la": "40.",
+      "column": "1913a",
+      "chunk": 22,
+      "en": "40."
+    },
+    {
+      "la": "41.",
+      "column": "1913b",
+      "chunk": 22,
+      "en": "41."
+    },
+    {
+      "la": "42.",
+      "column": "1913c",
+      "chunk": 22,
+      "en": "42."
+    },
+    {
+      "la": "43.",
+      "column": "1914a",
+      "chunk": 22,
+      "en": "43."
+    },
+    {
+      "la": "44.",
+      "column": "1914b",
+      "chunk": 22,
+      "en": "44."
+    },
+    {
+      "la": "45.",
+      "column": "1914c",
+      "chunk": 22,
+      "en": "45."
+    },
+    {
+      "la": "46.",
+      "column": "1914d",
+      "chunk": 22,
+      "en": "46."
+    },
+    {
+      "la": "47.",
+      "column": "1915a",
+      "chunk": 22,
+      "en": "47."
+    },
+    {
+      "la": "48.",
+      "column": "1915b",
+      "chunk": 22,
+      "en": "48."
+    },
+    {
+      "la": "49.",
+      "column": "1915c",
+      "chunk": 23,
+      "en": "49."
+    },
+    {
+      "la": "51.",
+      "column": "1916a",
+      "chunk": 23,
+      "en": "51."
+    },
+    {
+      "la": "52.",
+      "column": "1916b",
+      "chunk": 23,
+      "en": "52."
+    },
+    {
+      "la": "53.",
+      "column": "1916c",
+      "chunk": 23,
+      "en": "53."
+    },
+    {
+      "la": "54.",
+      "column": "1916d",
+      "chunk": 23,
+      "en": "54."
+    },
+    {
+      "la": "CAPUT QUINTUM.",
+      "column": "1917a",
+      "chunk": 23,
+      "en": "CHAPTER FIVE."
+    },
+    {
+      "la": "1.",
+      "column": "1917a",
+      "chunk": 23,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1917b",
+      "chunk": 23,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1917d",
+      "chunk": 23,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1918a",
+      "chunk": 23,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1918c",
+      "chunk": 24,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1918c",
+      "chunk": 24,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1919a",
+      "chunk": 24,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1919c",
+      "chunk": 24,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1919d",
+      "chunk": 24,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1920a",
+      "chunk": 24,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1920b",
+      "chunk": 24,
+      "en": "11."
+    },
+    {
+      "la": "13.",
+      "column": "1920d",
+      "chunk": 24,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1921a",
+      "chunk": 24,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1921b",
+      "chunk": 25,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1921c",
+      "chunk": 25,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1921d",
+      "chunk": 25,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1922a",
+      "chunk": 25,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1922b",
+      "chunk": 25,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1922c",
+      "chunk": 25,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1922c",
+      "chunk": 25,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1922d",
+      "chunk": 25,
+      "en": "22."
+    },
+    {
+      "la": "23.",
+      "column": "1923a",
+      "chunk": 25,
+      "en": "23."
+    },
+    {
+      "la": "24.",
+      "column": "1923b",
+      "chunk": 25,
+      "en": "24."
+    },
+    {
+      "la": "25.",
+      "column": "1923c",
+      "chunk": 25,
+      "en": "25."
+    },
+    {
+      "la": "26.",
+      "column": "1923d",
+      "chunk": 25,
+      "en": "26."
+    },
+    {
+      "la": "27.",
+      "column": "1924a",
+      "chunk": 25,
+      "en": "27."
+    },
+    {
+      "la": "28.",
+      "column": "1924b",
+      "chunk": 26,
+      "en": "28."
+    },
+    {
+      "la": "29.",
+      "column": "1924c",
+      "chunk": 26,
+      "en": "29."
+    },
+    {
+      "la": "30.",
+      "column": "1924d",
+      "chunk": 26,
+      "en": "30."
+    },
+    {
+      "la": "31.",
+      "column": "1925a",
+      "chunk": 26,
+      "en": "31."
+    },
+    {
+      "la": "32.",
+      "column": "1925b",
+      "chunk": 26,
+      "en": "32."
+    },
+    {
+      "la": "33.",
+      "column": "1925c",
+      "chunk": 26,
+      "en": "33."
+    },
+    {
+      "la": "34.",
+      "column": "1925d",
+      "chunk": 26,
+      "en": "34."
+    },
+    {
+      "la": "35.",
+      "column": "1926b",
+      "chunk": 26,
+      "en": "35."
+    },
+    {
+      "la": "36.",
+      "column": "1926c",
+      "chunk": 26,
+      "en": "36."
+    },
+    {
+      "la": "37.",
+      "column": "1926d",
+      "chunk": 26,
+      "en": "37."
+    },
+    {
+      "la": "38.",
+      "column": "1927a",
+      "chunk": 27,
+      "en": "38."
+    },
+    {
+      "la": "39.",
+      "column": "1927b",
+      "chunk": 27,
+      "en": "39."
+    },
+    {
+      "la": "40.",
+      "column": "1927c",
+      "chunk": 27,
+      "en": "40."
+    },
+    {
+      "la": "41.",
+      "column": "1928a",
+      "chunk": 27,
+      "en": "41."
+    },
+    {
+      "la": "42.",
+      "column": "1928b",
+      "chunk": 27,
+      "en": "42."
+    },
+    {
+      "la": "44.",
+      "column": "1929a",
+      "chunk": 27,
+      "en": "44."
+    },
+    {
+      "la": "45.",
+      "column": "1929b",
+      "chunk": 27,
+      "en": "45."
+    },
+    {
+      "la": "46.",
+      "column": "1929c",
+      "chunk": 27,
+      "en": "46."
+    },
+    {
+      "la": "47.",
+      "column": "1930a",
+      "chunk": 28,
+      "en": "47."
+    },
+    {
+      "la": "48.",
+      "column": "1930b",
+      "chunk": 28,
+      "en": "48."
+    },
+    {
+      "la": "49.",
+      "column": "1930c",
+      "chunk": 28,
+      "en": "49."
+    },
+    {
+      "la": "50.",
+      "column": "1930d",
+      "chunk": 28,
+      "en": "50."
+    },
+    {
+      "la": "51.",
+      "column": "1931b",
+      "chunk": 28,
+      "en": "51."
+    },
+    {
+      "la": "52.",
+      "column": "1931c",
+      "chunk": 28,
+      "en": "52."
+    },
+    {
+      "la": "53.",
+      "column": "1932a",
+      "chunk": 28,
+      "en": "53."
+    },
+    {
+      "la": "54.",
+      "column": "1932a",
+      "chunk": 28,
+      "en": "54."
+    },
+    {
+      "la": "55.",
+      "column": "1932c",
+      "chunk": 29,
+      "en": "55."
+    },
+    {
+      "la": "56.",
+      "column": "1933a",
+      "chunk": 29,
+      "en": "56."
+    },
+    {
+      "la": "57.",
+      "column": "1933c",
+      "chunk": 29,
+      "en": "57."
+    },
+    {
+      "la": "58.",
+      "column": "1934a",
+      "chunk": 29,
+      "en": "58."
+    },
+    {
+      "la": "59.",
+      "column": "1934b",
+      "chunk": 29,
+      "en": "59."
+    },
+    {
+      "la": "60.",
+      "column": "1934b",
+      "chunk": 29,
+      "en": "60."
+    },
+    {
+      "la": "61.",
+      "column": "1934c",
+      "chunk": 29,
+      "en": "61."
+    },
+    {
+      "la": "62.",
+      "column": "1934d",
+      "chunk": 29,
+      "en": "62."
+    },
+    {
+      "la": "63.",
+      "column": "1935a",
+      "chunk": 29,
+      "en": "63."
+    },
+    {
+      "la": "64.",
+      "column": "1935a",
+      "chunk": 29,
+      "en": "64."
+    },
+    {
+      "la": "65.",
+      "column": "1935b",
+      "chunk": 30,
+      "en": "65."
+    },
+    {
+      "la": "66.",
+      "column": "1935c",
+      "chunk": 30,
+      "en": "66."
+    },
+    {
+      "la": "67.",
+      "column": "1935d",
+      "chunk": 30,
+      "en": "67."
+    },
+    {
+      "la": "68.",
+      "column": "1936a",
+      "chunk": 30,
+      "en": "68."
+    },
+    {
+      "la": "69.",
+      "column": "1936c",
+      "chunk": 30,
+      "en": "69."
+    },
+    {
+      "la": "70.",
+      "column": "1936d",
+      "chunk": 30,
+      "en": "70."
+    },
+    {
+      "la": "71.",
+      "column": "1937a",
+      "chunk": 30,
+      "en": "71."
+    },
+    {
+      "la": "72.",
+      "column": "1937b",
+      "chunk": 30,
+      "en": "72."
+    },
+    {
+      "la": "73.",
+      "column": "1937c",
+      "chunk": 30,
+      "en": "73."
+    },
+    {
+      "la": "74.",
+      "column": "1937d",
+      "chunk": 30,
+      "en": "74."
+    },
+    {
+      "la": "75.",
+      "column": "1938a",
+      "chunk": 30,
+      "en": "75."
+    },
+    {
+      "la": "76.",
+      "column": "1938b",
+      "chunk": 31,
+      "en": "76."
+    },
+    {
+      "la": "77.",
+      "column": "1938c",
+      "chunk": 31,
+      "en": "77."
+    },
+    {
+      "la": "78.",
+      "column": "1939a",
+      "chunk": 31,
+      "en": "78."
+    },
+    {
+      "la": "79.",
+      "column": "1939c",
+      "chunk": 31,
+      "en": "79."
+    },
+    {
+      "la": "80.",
+      "column": "1939d",
+      "chunk": 31,
+      "en": "80."
+    },
+    {
+      "la": "CAPUT SEXTUM.",
+      "column": "1940a",
+      "chunk": 31,
+      "en": "CAPUT SEXTUM."
+    },
+    {
+      "la": "1.",
+      "column": "1940a",
+      "chunk": 31,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1940b",
+      "chunk": 31,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1940d",
+      "chunk": 32,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1941b",
+      "chunk": 32,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1941d",
+      "chunk": 32,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1942b",
+      "chunk": 32,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1942b",
+      "chunk": 32,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1942d",
+      "chunk": 32,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1943a",
+      "chunk": 32,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1943b",
+      "chunk": 33,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1943d",
+      "chunk": 33,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1944a",
+      "chunk": 33,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1944b",
+      "chunk": 33,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1944c",
+      "chunk": 33,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1944d",
+      "chunk": 33,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1945a",
+      "chunk": 33,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1945a",
+      "chunk": 33,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1945c",
+      "chunk": 33,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1945d",
+      "chunk": 33,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1946a",
+      "chunk": 33,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1946b",
+      "chunk": 34,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1946b",
+      "chunk": 34,
+      "en": "22."
+    },
+    {
+      "la": "CAPUT SEPTIMUM.",
+      "column": "1946d",
+      "chunk": 34,
+      "en": "CAPUT SEPTIMUM."
+    },
+    {
+      "la": "1.",
+      "column": "1946d",
+      "chunk": 34,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1947a",
+      "chunk": 34,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1947b",
+      "chunk": 34,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1947c",
+      "chunk": 34,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1947d",
+      "chunk": 34,
+      "en": "5."
+    },
+    {
+      "la": "7.",
+      "column": "1948b",
+      "chunk": 34,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1948c",
+      "chunk": 34,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1948c",
+      "chunk": 34,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1948d",
+      "chunk": 34,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1949a",
+      "chunk": 35,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1949b",
+      "chunk": 35,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1949c",
+      "chunk": 35,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1950a",
+      "chunk": 35,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1950a",
+      "chunk": 35,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1950b",
+      "chunk": 35,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1950c",
+      "chunk": 35,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1950d",
+      "chunk": 35,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1951a",
+      "chunk": 35,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1951b",
+      "chunk": 35,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1951c",
+      "chunk": 35,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1951d",
+      "chunk": 35,
+      "en": "22."
+    },
+    {
+      "la": "CAPUT OCTAVUM.",
+      "column": "1951d",
+      "chunk": 35,
+      "en": "CHAPTER THE EIGHTH."
+    },
+    {
+      "la": "1.",
+      "column": "1951d",
+      "chunk": 36,
+      "en": "1."
+    },
+    {
+      "la": "2.",
+      "column": "1952a",
+      "chunk": 36,
+      "en": "2."
+    },
+    {
+      "la": "3.",
+      "column": "1952b",
+      "chunk": 36,
+      "en": "3."
+    },
+    {
+      "la": "4.",
+      "column": "1952d",
+      "chunk": 36,
+      "en": "4."
+    },
+    {
+      "la": "5.",
+      "column": "1953a",
+      "chunk": 36,
+      "en": "5."
+    },
+    {
+      "la": "6.",
+      "column": "1953b",
+      "chunk": 36,
+      "en": "6."
+    },
+    {
+      "la": "7.",
+      "column": "1953c",
+      "chunk": 36,
+      "en": "7."
+    },
+    {
+      "la": "8.",
+      "column": "1953d",
+      "chunk": 36,
+      "en": "8."
+    },
+    {
+      "la": "9.",
+      "column": "1954a",
+      "chunk": 36,
+      "en": "9."
+    },
+    {
+      "la": "10.",
+      "column": "1954b",
+      "chunk": 36,
+      "en": "10."
+    },
+    {
+      "la": "11.",
+      "column": "1954c",
+      "chunk": 37,
+      "en": "11."
+    },
+    {
+      "la": "12.",
+      "column": "1954d",
+      "chunk": 37,
+      "en": "12."
+    },
+    {
+      "la": "13.",
+      "column": "1955b",
+      "chunk": 37,
+      "en": "13."
+    },
+    {
+      "la": "14.",
+      "column": "1955c",
+      "chunk": 37,
+      "en": "14."
+    },
+    {
+      "la": "15.",
+      "column": "1955d",
+      "chunk": 37,
+      "en": "15."
+    },
+    {
+      "la": "16.",
+      "column": "1956b",
+      "chunk": 37,
+      "en": "16."
+    },
+    {
+      "la": "17.",
+      "column": "1956c",
+      "chunk": 37,
+      "en": "17."
+    },
+    {
+      "la": "18.",
+      "column": "1956d",
+      "chunk": 37,
+      "en": "18."
+    },
+    {
+      "la": "19.",
+      "column": "1957b",
+      "chunk": 37,
+      "en": "19."
+    },
+    {
+      "la": "20.",
+      "column": "1957b",
+      "chunk": 38,
+      "en": "20."
+    },
+    {
+      "la": "21.",
+      "column": "1957c",
+      "chunk": 38,
+      "en": "21."
+    },
+    {
+      "la": "22.",
+      "column": "1957d",
+      "chunk": 38,
+      "en": "22."
+    },
+    {
+      "la": "23.",
+      "column": "1958b",
+      "chunk": 38,
+      "en": "23."
+    },
+    {
+      "la": "24.",
+      "column": "1958c",
+      "chunk": 38,
+      "en": "24."
+    },
+    {
+      "la": "25.",
+      "column": "1958c",
+      "chunk": 38,
+      "en": "25."
+    },
+    {
+      "la": "26.",
+      "column": "1959a",
+      "chunk": 38,
+      "en": "26."
+    },
+    {
+      "la": "27.",
+      "column": "1959b",
+      "chunk": 38,
+      "en": "27."
+    },
+    {
+      "la": "28.",
+      "column": "1959c",
+      "chunk": 38,
+      "en": "28."
+    },
+    {
+      "la": "29.",
+      "column": "1959c",
+      "chunk": 38,
+      "en": "29."
+    },
+    {
+      "la": "30.",
+      "column": "1960a",
+      "chunk": 39,
+      "en": "30."
+    },
+    {
+      "la": "31.",
+      "column": "1960b",
+      "chunk": 39,
+      "en": "31."
+    },
+    {
+      "la": "32.",
+      "column": "1960c",
+      "chunk": 39,
+      "en": "32."
+    },
+    {
+      "la": "33.",
+      "column": "1960d",
+      "chunk": 39,
+      "en": "33."
+    },
+    {
+      "la": "34.",
+      "column": "1961b",
+      "chunk": 39,
+      "en": "34."
+    },
+    {
+      "la": "35.",
+      "column": "1962a",
+      "chunk": 39,
+      "en": "35."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [
+    {
+      "raw": "(Matth. XXVIII, 5 et seq.)",
+      "reason": "unparsed-shape",
+      "column": "1894d",
+      "chunk": 15
+    },
+    {
+      "raw": "(Coloss. II, 20 et seq.)",
+      "reason": "unparsed-shape",
+      "column": "1919d",
+      "chunk": 24
+    },
+    {
+      "raw": "(Tob. X, 3 et seq.)",
+      "reason": "unparsed-shape",
+      "column": "1933c",
+      "chunk": 29
+    }
+  ],
+  "proseNotes": []
+}

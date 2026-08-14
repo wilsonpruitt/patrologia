@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-14 session: Ambrose enters the Song queue —
+  'pl/15/commentarius-in-cantica-canticorum',                    // Ambrose of Milan — the Song read through an Old Latin / LXX text, not the Vulgate
   // — 2026-08-09 session: the largest work yet englished, and the same author twice running —
   'pl/203/commentaria-in-cantica-canticorum',                    // Philip of Harvengt — the full Song commentary, six books, 126,797 Latin words
   // — 2026-08-08 session (later): back to the PL Song-of-Songs queue —

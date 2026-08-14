@@ -2160,3 +2160,152 @@ Marker parity was verified against the Latin twins by every stint (column anchor
 `[n: …]` contents, `## ` heads, and Migne's inner edition numbers *1545*–*1618*), and
 `node scripts/verify-english.mjs 6963` passes for the whole work after the merge
 edits of §1.2.
+
+---
+
+# 5. The blind polarity read — 2026-08-14
+
+Nine Opus readers, blind to this file, read all 40 chunks against their Latin twins.
+**29 sites on our side**, plus four secondary repairs (§5.3). Straight dropped
+negations came back **zero in the entire work** — every printed *non / nec / nisi /
+haud / numquam / nullus / nihil / ne* is carried, including the dense stacks at 0026
+§29, 0032 §4, 0034 §3 and 0039 §§32–34. The damage here is **speaker and subject
+mis-binding**, **mis-scoped particles and mis-bound cases**, and **markers that
+swallowed the force they governed** (§3 above). Old Latin fidelity was hunted
+specifically in every range and held everywhere: 0 drift sites in ~60 checked lemmata.
+**The thing most at risk in this edition is the thing the translators got right.**
+
+⚠ **The read was interrupted by a session crash** with chunks 0025–0039 unread and
+three reader reports destroyed. Those ranges were re-read from scratch, and 0000–0004
+was re-read to recover a lost finding — which it did (the *cudere* site below), along
+with four more the first pass had not reported. **Chunk 0003 is the only chunk in the
+work with a clean read and nothing logged against it.**
+
+## 5.1 Open — needs a plate, not a judgment
+
+###### 1853B — *cudere* where the sense wants *cudi* ⚠ PLATE CHECK OWED
+*Sic etiam Virgo nostra debuit prius amore pio **cudere***. Rendered "ought first to
+**hammer with** holy love" — the printed active. The English previously read "to be
+hammered", a silent passive: *cudere* is active, and it is the only one of four
+infinitives under *debuit* (*cudere*, *mirari*, *cernere*, *haurire*) that had been
+so treated, which made the Virgin the patient of the first and the agent of the other
+three inside one series.
+
+**The sense does want the passive** — the whole surrounding image is passive on the
+bride's side (*nubenti prius plauditur, quam imperatur*; *Bucula … prius assuescitur
+verbo lasciviae*) — so *cudi* is the near-certain reading. But *cudere* is what our
+source prints, and **`sources/pl/tei/6963.xml` prints it too**, so this is not our
+pipeline's error and cannot be resolved from our files. `cud-` occurs nowhere else in
+the 40 chunks, so the corpus cannot settle it either. **Owed: a read of the PL 15
+plate at 1853B.** If it prints *cudi*, correct the twin and restore the passive.
+
+###### 1854B — `[sic: *deret*]` leaves a purpose clause verbless
+*…quae omnia fecisset ut sponsum **deret**…* The underlying word is **not** recoverable
+from the corpus (*videret*? *adiret*? *teneret*?), so unlike the four sites in §3 the
+marker cannot be given its force from internal evidence. Marker kept, deliberately.
+Same plate read settles it.
+
+## 5.2 Ruled and applied
+
+| column | printed | what the English had done | now |
+|---|---|---|---|
+| 1856A | *cupieos* | `[sic:]` swallowed the participle governing *inhaerere* | *desiring [sic: *cupieos*]* |
+| 1859B | *attrabatur* | `[sic:]` left "she asks that she may be ___" verbless; *attrahatur* stands undamaged at 1858D | *drawn [sic: *attrabatur*]* |
+| 1864B | *damnanationem* | `[sic:]` deleted the second term of a two-term antithesis (redemption ↔ condemnation) | *condemnation [sic: *damnanationem*]* |
+| 1935B | *oculus suppliciorum* | unconstruable phrase made readable by re-binding the genitive onto *Ecclesia*, inventing "the punishments of the Church" | *the eye of punishments … not alien to the Church*, printed grammar kept |
+| 1937D | *Onir* | a non-word silently repaired into "onyx" — a stone neither in the lemma (*Venter ejus **eburneus**, distinctus saphiris*) nor in the verse; the gloss it heads (chastity, brightness, perpetuity) is an ivory gloss | *[sic: *Onir*]*, carried per Pattern 7 |
+| 1944A | *poma* | "fruits", merging *poma* into the *fructus* family the paragraph argues with — and against the work's own usage (0012 has five instances, all "apples") | *apples* |
+| 1946C | *cui dicitur* | bound to the soul, making her the one told to mount horses — while the next two sentences say *Hi sunt equi Christi. Ascendit ergo equos suos Christus* | *he to whom it is said* |
+| 1948D | *fidem ejus* | "the faith of **him**", importing a masculine antecedent — the next sentence states the identification: *Facies igitur Damasci fides est gentium* | *its faith* |
+| 1956B | *lcareos volatus* | subject and object swapped around the marker (*cera resoluta* demoted to an absolute, the accusative promoted to subject) and a "him" supplied that the Latin has not | printed grammar restored |
+| 1935D | *modestia … et juventutis flore* | two ablatives of cause compressed into one; *flos juventutis* stopped being its own ground | both grounds restored |
+| 1927D | *hausit animae virtutem* | "the presence of the Word **drank in** the strength of the soul" — the presence depleting her, against the clause it explains (*surrexit per vigorem atque virtutem*) and the parallel that follows, where Mary's presence *imparts* so that John leaps. Every other *haurire* in the work has the recipient drawing in something good (0003, 0015, 0018, 0022 ×2, 0026); the one depletion sense, 0025 *nec liberalitatibus hauritur suis*, is explicitly negated of Christ | *drew forth the strength of the soul* |
+| 1928A | *e complexu suo* | "out of **his** own embrace" while *manus suas* and *sibi* in the same sentence were bound to the soul — one sentence, two reflexives, two persons | *out of her own embrace* |
+| 1938D | *1604* | Benedictine column marker drifted a sentence past where the Latin prints it | replaced at the plate's position |
+
+## 5.3 Secondary repairs — not polarity, but the same read found them
+
+###### *custodes* was splitting into two English words, inside one verse
+The Song lemma at 1928C prints *custodes* twice — *Invenerunt me **custodes** qui
+circumeunt civitatem … tulerunt pallium meum a me **custodes** murorum* — and the
+English had "**guards** who go about the city" against "**keepers** of the walls".
+Across the work: 0015 all "guards" (5), 0027 mixed 5/2, 0028 all "keepers" (8).
+**This invents a distinction the plate does not print, and 0028 §47 is built on the
+identity of the word** — *Fortasse sunt et alii custodes*, "perhaps there are also
+*other* custodes", an argument that only runs if it is the same word. Unified to
+**guards** throughout (the dominant form, and the one 0015 already used for the same
+scene). This is the class the merge pass exists to catch and did not: the two chunks
+were written by different agents, neither could see the other, and both were
+internally consistent.
+
+###### 0012's ratio warning — adjudicated, NOT padding
+The verifier flags 0012 as the work's highest EN/LA ratio. Its batch's report was lost
+in the crash, so this was closed here instead. Expansion is **distributed**, not
+localized: per-paragraph ratios run 1.48–2.19 across all 21 paragraphs, and the two
+highest are explained without residue. 1886D–1887A (*Hanc vineam diligens agricola
+fodere, rigare, contendere consuevit…*) is one dense synthetic period — five
+infinitives, three *ne*-clauses, two ablative absolutes — unpacked clause for clause
+with nothing added. 1887B's inflation is **apparatus, not prose**: the `[var:]` note
+carrying the Vulgate's *in foraminibus petrae, in caverna maceriae* against Migne's
+*in tegimento petrae, juxta praemunitionem* is 24 of its 44 extra words. The work's
+whole range is 1.50–1.87; 0012 is not an outlier in it.
+
+###### 1877D (0009) — John 7:23 conformed to the familiar interrogative
+Migne prints *dicens: Mihi indignamini quia totum hominem sanum feci in sabbato*,
+indicative, no question mark — the Vulgate points it as a question, and the English
+had followed the Vulgate: "*Are ye angry with me because…?*" Now *Ye are angry with
+me because I made a whole man sound on the sabbath.* **This one was never adjudicated
+by the first pass** — its reader's report was lost in the crash — and it is exactly
+the 7a″ pressure (familiar wording arriving over the plate), reaching the page through
+punctuation rather than vocabulary.
+
+###### 1872B (0007) — the one question mark KEPT against the plate
+Migne prints *nonne inter asperitates laborum contritionesque animorum boni flos
+odoris assurgit;* with a semicolon, and the English closes it with "?". **Kept**, and
+this is not the same case as 1927C: *nonne* is an unambiguous interrogative particle,
+so the clause *is* a question and English has no way to carry an interrogative without
+its mark, whereas 1927C's *Quomodo transivit, id est…* is a gloss on a lemma word and
+was never interrogative at all. The remaining 0002/0004 warnings are the same
+punctuation class, resolved in §5.4.
+
+###### 1927C — a printed statement turned into a rhetorical question
+Migne prints *Quomodo transivit, id est, mentis interna penetravit* with a comma, as
+a gloss on the lemma word. The English had "**How did he pass by?** That is, he
+penetrated…". Migne punctuates questions freely in this very chunk (§38, §42), so the
+comma is a real signal, not plate noise. Now: *How he passed by: that is, he
+penetrated…* — which also resolves 0027's question-mark warning.
+
+## 5.4 Ruled and deliberately NOT changed
+
+###### 1959B — *quam illi utique tribuit ipse quem diligit*
+A reader proposed binding *quem diligit* to *illi* ("assigns to that one whom he
+loves"), on the strength of the parallel Ambrose immediately draws — *sicut dilexit et
+Paulum, **cui** dedit* — which makes the loved one the recipient. **Rejected as an
+edit, logged as a crux.** The Latin is genuinely muddled, the present English renders
+the printed word order literally, and the proposed reading requires a case mismatch
+(*illi* dative, *quem* accusative). Pattern 7 says render the printed reading and log
+the doubt; the reader's own confidence was low. Recorded so a later sweep does not
+churn it.
+
+###### 1948B — *verae autem virtutis **insignis** spiritualibus*
+Rendered "with the spiritual badges of true virtue", which reads the printed
+*insignis* as *insignibus*. A quiet normalization with no crux — now logged. Not
+reverted: the clause is unconstruable as printed and no rendering of it is innocent,
+so the honest record is this entry rather than a churn.
+
+###### The two question-mark warnings, 0002 and 0004 — **resolved, nothing missing**
+Both extra English `?` are punctuation normalizations of interrogative clauses Migne
+closes otherwise: 1860B *«Ego a te debeo baptizari, et tu venis ad me;»* (semicolon)
+and 1865D–1866A *Quid est se noscere, nisi ut sciat unusquisque…* (full stop). Every
+Latin interrogative is present in the English in both chunks. This check exists
+because it caught a dropped 46-word sentence in 11632; here it caught punctuation.
+
+###### 1960B–C — Migne's *Quae sedes* against his own *Qui sedes*
+At 1959C–D the plate prints the masculine *Qui sedes in hortis* (speaker: the soul,
+addressee: Christ). At 1960B, reporting Symmachus and Aquila, it prints the **feminine
+*Quae sedes*** — and Ambrose's whole appeal to them is that reversal (speaker: Christ,
+addressee: the Church). English "Thou that sittest" cannot inflect, so the distinction
+is invisible on the page; the frame sentence ("Christ says to the Church") carries the
+reversal, but not its textual basis. **No inline marker:** `[var:]` names an outside
+witness, and this is Migne disagreeing with himself — the verifier correctly refused
+it. Recorded here instead.

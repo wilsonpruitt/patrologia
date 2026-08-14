@@ -17,7 +17,8 @@
 // Vulgate psalm/kingdom numbering differs; refKey follows the CITED numbering —
 // Psal. keys as-printed, I-IV Reg. map to 1Sam/2Sam/1Kgs/2Kgs).
 export const BOOKS = {
-  'Gen': 'Gen', 'Exod': 'Exod', 'Lev': 'Lev', 'Levit': 'Lev', 'Num': 'Num', 'Deut': 'Deut',
+  // 'Genes' is the fuller form Migne prints throughout 6963 (7 citations).
+  'Gen': 'Gen', 'Genes': 'Gen', 'Exod': 'Exod', 'Lev': 'Lev', 'Levit': 'Lev', 'Num': 'Num', 'Deut': 'Deut',
   'Jos': 'Josh', 'Judic': 'Judg', 'Ruth': 'Ruth',
   'I Reg': '1Sam', 'II Reg': '2Sam', 'III Reg': '1Kgs', 'IV Reg': '2Kgs',
   'I Par': '1Chr', 'II Par': '2Chr', 'I Esdr': 'Ezra', 'II Esdr': 'Neh',
@@ -30,7 +31,11 @@ export const BOOKS = {
   // Ecclesiastes: Migne writes Eccle/Eccles/Eccl. Ecclesiasticus (Sirach) is Eccli —
   // keep them distinct, the one-letter difference is the whole distinction.
   'Eccle': 'Eccl', 'Eccles': 'Eccl', 'Eccl': 'Eccl',
-  'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Jer': 'Jer',
+  // 'Esai' is Migne's spelling throughout Ambrose on the Song (6963, 18 citations);
+  // 'Pov' is broken type for 'Prov' at 6963/1853d — reading the alias does not touch
+  // the English, which still prints what the plate prints.
+  'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Esai': 'Isa',
+  'Pov': 'Prov', 'Jer': 'Jer',
   'Jerem': 'Jer', 'Jere': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   // 'Oseae' is the genitive Migne prints when the citation reads "of Hosea" (11057/340a).
   'Os': 'Hos', 'Ose': 'Hos', 'Osee': 'Hos', 'Oseae': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
