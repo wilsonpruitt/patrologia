@@ -1,5 +1,64 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-14 — 6963 IS BUILT AND STAGED. ⛔ NOT DEPLOYED.
+
+**Ambrose of Milan, *Commentarius in Cantica canticorum* (6963, PL 15, 1851A–1962B)**
+— 40 chunks, 44,936 Latin words, 381 sections, 359 scripture citations, badge **First
+English translation** (`workStatus: none`, verified in triage, never overwritten).
+Page built at `site/pl/15/commentarius-in-cantica-canticorum/`; landing, cruces and
+marker scan all rebuilt clean; polarity gate **green** — *every englished work has now
+been read for this class.*
+
+### ⛔ THE ONE THING OWED: THE DEPLOY
+
+Everything else is done and committed (`990eee8`). Deploy is Wilson's per-action OK:
+`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`.
+
+### ⚑ THIS SESSION WAS A CRASH RECOVERY — what it cost and what it taught
+
+The 2026-08-14 morning session died mid-flight through the blind polarity read. State
+was reconstructed from its transcript (`~/.claude/projects/-Users-wilsonpruitt/61cebffd-*.jsonl`),
+not from the repo, because **the 40 translated chunks were still untracked** — a second
+crash would have lost the whole translation. **Commit a work as soon as it verifies,
+before the read starts.**
+
+Three reader reports were destroyed. Recovered from the transcript: 13 applied fixes,
+the finding list, and two rulings that had never reached disk. Re-read from scratch:
+0025–0039 (never read) plus 0000–0004 (to recover a lost finding — it did, plus four
+more the first pass never reported). **The re-read of an already-read range is what
+justified doing it; a returned report does not mean its range is closed.**
+
+### ⭐ WHAT THIS WORK ESTABLISHED
+
+1. **`[sic:]` markers were quarantining the SENSE, not just the type** — six sites in
+   one work (*nex*, *car*, *eccidit*, *cupieos*, *attrabatur*, *damnanationem*), each
+   leaving a clause with no verb, no negation, or no second term of an antithesis.
+   7a′ had ruled this once on one site in July; it is now **7a⁗ in
+   `translation-style.md`** with a three-question check. ⚠ **OPEN SCOPED JOB: 435
+   `[sic:]` markers across 45 of the 102 shipped works have never been checked for
+   it.** ~9–10 Opus readers. Finding them is a grep; ruling them is a read — a lexical
+   prefilter here is the negation-counting mistake again. Gates nothing.
+2. **Zero dropped negations in 40 chunks.** The damage was speaker and subject
+   mis-binding, mis-bound cases, and markers. Budget future reads for that.
+3. **The corpus is its own control, again** — *haurire* (7 sites), *poma* (0012's five
+   instances), *custodes*, and *nex* settled by §8's own *et non exutus est pallio*.
+   Every hard call was settled inside the work, with no appeal outside it.
+4. **Em-dashes: 53, at 1.4/chunk against a corpus median of 5.3.** The prompt line
+   works. Nothing was scanned, nothing was swept. Keep it that way.
+5. **Two agents, each internally consistent, together split one Latin word into two
+   English ones** — *custodes* → "guards"/"keepers", inside a single verse, in a
+   passage whose whole argument is that the word is the same (*Fortasse sunt et alii
+   custodes*). The merge pass is where this has to be caught.
+
+### ⬜ OPEN, none of it blocking
+
+- **A plate read of PL 15 at 1853B and 1854B.** Our TEI prints *cudere* (sense wants
+  *cudi*) and *deret* (unrecoverable), so neither is settleable from our own files.
+  Same shape as 11632's `informen t`, which is also still open.
+- **`et seq.` is unparsed corpus-wide** — 3 citations here; the verse-range parser has
+  never handled it. A parser change touches all 102 works' indexes, so it is its own
+  job, not a ship-blocker.
+
 ## ⬛ 2026-08-14 — Phase 3b free check #1 is DONE. Gap confirmed. Don't re-run it.
 
 Calfa's Zenodo releases have **not** outrun `data/gap-map.json`. Current corpus
