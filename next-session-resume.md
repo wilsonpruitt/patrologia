@@ -50,14 +50,74 @@ justified doing it; a returned report does not mean its range is closed.**
    passage whose whole argument is that the word is the same (*Fortasse sunt et alii
    custodes*). The merge pass is where this has to be caught.
 
-### ⬜ OPEN, none of it blocking
+### ⬜ OPEN — the plan to clear it (written 2026-08-14, after the `[sic:]` sweep)
 
-- **A plate read of PL 15 at 1853B and 1854B.** Our TEI prints *cudere* (sense wants
-  *cudi*) and *deret* (unrecoverable), so neither is settleable from our own files.
-  Same shape as 11632's `informen t`, which is also still open.
-- **`et seq.` is unparsed corpus-wide** — 3 citations here; the verse-range parser has
-  never handled it. A parser change touches all 102 works' indexes, so it is its own
-  job, not a ship-blocker.
+**Ordered by dependency, not by size. Items 1–3 are one short session together;
+4 needs a decision from Wilson first; 5 needs a download.**
+
+#### 1. `et seq.` — 20 minutes, and SMALLER THAN PREVIOUSLY RECORDED
+⚠ An earlier note in this file called this "unparsed corpus-wide." **That was wrong.**
+Measured: **3 citations, all in 6963** (`Matth. XXVIII, 5 et seq.`, `Coloss. II, 20 et
+seq.`, `Tob. X, 3 et seq.`). No other shipped work prints the formula. So this is not a
+parser project touching 102 indexes — it is three citations in one work.
+**Do:** teach the verse-range parser in `scripts/lib/citations.mjs` to stop at `et seq.`
+and index the opening verse (the citation is a *range*, and the range's head is the
+addressable part). Re-index 6963. If the parser change looks at all risky, the honest
+alternative is to leave 3 unparsed — `unparsed` is a recorded state, not a silent drop.
+
+#### 2. Name the Pattern 10 ↔ force interaction in `translation-style.md` — 15 minutes
+Two independent readers observed the same thing and it is not yet written down:
+**a word-division defect is disproportionately dangerous, because quarantining a split
+run takes the WHOLE word out of the English rather than one letter of it.** Five of the
+9033/11055 findings and several of the tail's are that shape (*hain domo*, *demo
+liuntur*, *in luta*, *Et.haec*, *ac his*, *vovistvirum*, *in elligi*, *interra*).
+Pattern 10 is right to quarantine the whole run; 7a⁗ is what keeps the sense outside it.
+Add it as a note under 7a⁗ so the next translator meets it before the next sweep does.
+
+#### 3. The "withdrawn" net — 1–2 Opus readers
+The sweep's own best lead, and **the marker sweep is structurally blind to it**: where a
+withdrawn rendering sat on a *real* word it took no marker, so nothing in `src/english`
+flags it. Grep gives the worklist: **51 `withdrawn` mentions across 22 cruces files.**
+- **22 of the 51 are in 11064 alone**, which the sweep read marker-by-marker — so most
+  of that work's mentions are already adjudicated. Check, don't re-read.
+- **The guaranteed-invisible set is small and precise: 5 works with `withdrawn` in their
+  cruces and NO markers at all — 10047, 10703, 11059, 8195, 8505. 6 mentions, 13 chunks
+  total.** One reader clears all five.
+- The remaining ~23 mentions sit in swept works; the ones that matter are those whose
+  column has no marker (8715 has 4 mentions against 2 markers; 11083 has 3 against 2).
+  **Step one is mechanical:** for each mention, resolve its column and ask whether a
+  marker exists there. That yields the exact read-list instead of a guess.
+
+#### 4. ⚖️ 11081 @0030B — a CONVENTION CALL, Wilson's, not a task
+`Ideo in nativitate Christi angeli pacem munde nuntiant`. *munde* is a real adverb, so
+Pattern 7 renders it "the angels announce peace **purely**" and parks *mundo* ("to the
+world") in the crux — which the crux itself admits is "a case where Pattern 7 produces a
+genuinely misleading English sentence." **7a⁗ does not reach it** (nothing is in a
+marker; the English is wrong, not hollow). But the reader's point stands: the crux's
+closing formula there — *the conjecture is here and not in the text by design* — is the
+identical formula that proved wrong in all 15 of its other findings.
+**The question: may an additive gloss stand beside a printed real word that misleads?**
+e.g. `peace purely [*munde*; read *mundo*, "to the world"]`. It removes nothing and
+keeps Migne's word visible. If yes, it likely applies to a handful of sites corpus-wide
+and wants its own scoped grep. **Do not act without the ruling.**
+
+#### 5. Plate reads — one session, needs a download first
+Three sites, all the same shape: our own files cannot settle them.
+- **PL 15 @1853B** — TEI prints *cudere*; sense wants *cudi* (6963, §5.1).
+- **PL 15 @1854B** — `[sic: *deret*]`, underlying word unrecoverable from the corpus.
+- **PL 203 @0428A** — 11632's `[sic: *informen t*]`: if the plate prints *informent*,
+  the split is **our own italic markup** and we are blaming Migne for our pipeline.
+**Feasible:** PL 15 is in `data/volumes.json` with two archive.org items
+(`patrologiaecurs136migngoog`, `patrologiaecurs14unkngoog`). ⚠ Disk is at **4.2 GB
+free** — fetch one volume, read it, delete it; do not mirror. Keep a second copy only if
+the first clips line-initial characters (the PG 139 lesson).
+
+#### 6. Deploy — Wilson's per-action OK, and it should be ONE deploy
+31 works changed in the sweep and are **not deployed**; migne.app currently serves the
+pre-sweep English. Per the batch-deploys rule, fold items 1–3 in and ship once:
+`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`
+(⚠ the `--scope` flag is correct; a scope error means the CLI is logged out, not
+mis-scoped — that cost time on 2026-08-14.)
 
 ## ⬛ 2026-08-14 — Phase 3b free check #1 is DONE. Gap confirmed. Don't re-run it.
 
