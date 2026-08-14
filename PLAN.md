@@ -122,6 +122,27 @@ Trained recognizer takes bulk gap-OCR if it clears **≤2% CER on the held-out g
 - **Calfa pageXML: use the region-level `TextEquiv`, dehyphenate line-final `-`, ignore per-line `TextEquiv`s.** Getting this wrong inflated measured CER to ~50% uniformly. See `benchmark/extract-greek-gt.mjs`.
 - **Migne prints a GRAVE before a comma.** It is a convention of the edition, not an error. Any model's output that "corrects" it to an acute is producing a defect — and this accounted for an entire ~24-item disagreement class in PG 88 batch 1.
 
+### Addendum — Zenodo coverage check, run 2026-08-14 (result: gap CONFIRMED, phase stands)
+
+The open question before starting Phase 3b was whether Calfa's Zenodo releases had already outrun `data/gap-map.json` (built from the GitHub README's 33-volume table), which would have collapsed the 134-tome gap and made the phase moot. **They have not.** The premise was inverted: the July 2025 record is *older* than our data, not newer.
+
+Three Zenodo records, enumerated by downloading the archives and listing them (not by reading the landing pages, whose descriptions name no volumes):
+
+| Record | Date | Archive | Volumes |
+|---|---|---|---|
+| [`15780625`](https://zenodo.org/records/15780625) | 2025-07-01 | `PG.zip` 47.8 MB | **14** |
+| [`19915273`](https://zenodo.org/records/19915273) | 2026-04-30 | `PG.zip` 103 MB | **33** |
+| [`20008699`](https://zenodo.org/records/20008699) | 2026-05-03 | `data.zip` 120 MB / `data-v2.zip` 406 MB | ground truth, see below |
+
+**Findings:**
+
+1. **`19915273` is the current corpus release and its 33 volumes match `data/gap-map.json` exactly** — `003 005 006 008 009 016_3 021 042 067 071 073 087_1 101 107 109 112 113 118 121 122 123 124 125 126 134 139 146 148 151 153 155 157 158`, byte-for-byte the same tome list, sub-parts included. **The gap map is current and correct. Do not regenerate it, and do not re-run this check against `15780625` — that record is superseded.** The 47.8 MB → 103 MB size jump is richer tagging and re-OCR of volumes we already had, plus the 19 added below — not a coverage story the README missed.
+2. **Coverage grew 14 → 33 in the ten months from 2025-07 to 2026-04** (~1.9 tomes/month). Straight-lined, the remaining 134 tomes are a **~6-year wait**. This is the quantitative form of the Phase 3b "scale" argument: waiting for CGPG is not a strategy, and the phase's premise survives the check that was meant to kill it.
+3. **⚠ Supersedes step 3's training data: `data-v2.zip` is 304 image + pageXML pairs, and it is "the full training set used for processing the PG."** `benchmark/greek-gt/task2/` is the **V1** set — 100 images / 2,579 annotated lines, from 2021–22, built for the Programming Historian lesson. V2 is 3× larger and is Calfa's actual production training corpus. **Train on V2, not on task2.** Two consequences: at 304 pages we are far past Calfa's own 50-page/1.1% CER figure, so the ≤2% CER decision rule is a soft bar rather than a stretch; and the "task2 is plausibly their eval set" worry is now *confirmed as the wrong worry in the right direction* — V2 is explicitly their **training** set, so a CER measured on any part of it is optimistic for the ordinary reason (train/test leakage), and **step 4's held-out validation on hand-corrected pages from a real gap volume is not optional.** It is the only honest number.
+4. V1's task-1 layout annotations (col_greek 52, col_lat 54, footnotes 27, titles 9) are the provenance of `REG-YOLOv12s.pt`. Nothing changes for step 2 — the shipped detector still gets wired up first, still unconditionally.
+
+**Not yet done:** `data-v2.zip` is not downloaded (406 MB; leave it off this machine — it belongs on whatever GPU host step 3 runs on, fetched there directly from `https://zenodo.org/api/records/20008699/files/data-v2.zip/content`). The two corpus zips pulled for this check were scratch and were not added to the repo; `sources/pg/calfa/` is unchanged and needs no update.
+
 ## Phase 4 — Untranslated-first triage
 
 Build `data/translation-status.json` keyed by CPL/CPG: for each work, does English exist — **public-domain** (ANF/NPNF, Library of the Fathers → link/ingest, don't retranslate), **copyrighted modern** (FOTC, ACW, TTH, CCSL-era → deprioritize; ours would be redundant), or **none** (→ the queue). Sources: CCEL indexes, Roger Pearse's translation inventories, FOTC/ACW/TTH catalog lists — agent-driven web research, ~1 agent per PL/PG tranche.

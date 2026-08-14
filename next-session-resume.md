@@ -1,5 +1,27 @@
 # Next session — resume note
 
+## ⬛ 2026-08-14 — Phase 3b free check #1 is DONE. Gap confirmed. Don't re-run it.
+
+Calfa's Zenodo releases have **not** outrun `data/gap-map.json`. Current corpus
+release is **`19915273` (2026-04-30, 33 volumes)** and its tome list matches our
+gap map exactly — **134 of 167 still uncovered**. The July 2025 record
+(`15780625`, 14 volumes) is *older* than our data, not newer; ignore it.
+Coverage grew 14 → 33 in ten months ≈ **6 years to finish at that pace**.
+Full write-up: **PLAN.md → Phase 3b → "Addendum — Zenodo coverage check."**
+
+⚠ **One thing changed in the plan:** train on **`data-v2.zip` (304 pairs, record
+`20008699`)**, *not* `benchmark/greek-gt/task2/` — task2 is the V1 100-page set,
+V2 is Calfa's full production training set. Fetch it on the GPU host, not here
+(406 MB). Held-out validation on hand-corrected **gap-volume** pages is now
+mandatory, not advisory — V2 is confirmed training data, so any CER measured on
+it leaks.
+
+▶ **Next in Phase 3b, still free, still untried: check #2** — run a gap volume
+through Calfa Vision's hosted "Greek printed (Patrologia Graeca)" project type
+before training anything. Then step 2, wiring up `REG-YOLOv12s.pt`, which is
+unconditional and helps the *existing* workflow.
+(PG translation work stays paused per Wilson 2026-08-08 — this is tooling, not PG output.)
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-09 — 11632 IS LIVE. THE BIGGEST WORK SO FAR.
 
 **Philip of Harvengt's *Commentaria in Cantica canticorum* (11632, PL 203
