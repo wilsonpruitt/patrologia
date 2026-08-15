@@ -1,5 +1,52 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-15c — 9637 SHIPPED, DEPLOYED, AND THE LITURGICAL REGISTER IS WRITTEN. ✅ DEPLOYED.
+
+**Auctor incertus, *Ordo ad regem benedicendum* (9637, PL 138, 1111C–1118C)** — the
+corpus's first liturgical work, done as the **Fable mini-pilot the queue skipped five
+times**. 2 chunks, 2,391 Latin words, badge **First English translation** (`workStatus:
+none`, verified in triage, high confidence — never overwritten). Verify green first try;
+polarity read recorded (`--sites 1 --ours 0`); gate green corpus-wide.
+
+- ⭐⭐ **THE PILOT'S REAL PRODUCT: register rules L1–L8** in `translation-style.md` —
+  the score every future ordo/rite/benediction plays. L1 italic boundary = rubric vs.
+  performed text (structure, not styling) · L2 technical vocabulary (*imponere* =
+  intone; *oratio* = Oration never "collect") · L3 **chant incipits are cues — render
+  the printed words, stop where they stop; Pattern 14 never fires on chant** (an
+  antiphon is its own received text) · L4 **truncated formula cues stop where the plate
+  stops** ("Per." → "Through."; mid-word cues like "*Te rog.*" are carried) · L5
+  **contraction ≠ truncation** (nomina sacra expand; the test is whether the sentence's
+  grammar contains the whole word) · L6 sigla (R., N., ill.) stay as printed · L7
+  performative present ("I anoint thee king") · L8 the editor's parenthetical queries
+  ride as printed.
+- ⭐ **7a⁗-b's textbook case found in the wild: 1113D prints `in offenso` for
+  *inoffenso*** — split type whose quarantine would swallow the negating prefix, so the
+  prayer would ask that the king walk the path of justice *with stumbling step*. Shipped
+  as `with unimpeded [sic: *in offenso*] step`.
+- ⭐ **The fresh `[cj:]` ruling fired same-day in a new work: 1114C's *sicut* for *sic***
+  (weakened correlative — 11064 @1142D's twin). Also **two more decline-class
+  attestations**: *exsecutio* and *pata* both carry Migne's own gloss (edition-already-
+  glosses class), and **1118A's `dei` for *det*** — a rubric that loses its verb — is
+  the **second site at the ruling's boundary** beside 11064 @1154C (a lost VERB via
+  real word; declined because it is not a negation; one line reverses it).
+- Cruces: 12 entries + standing-decisions head (name-slot sigla, cue table, chant
+  table, medieval spellings). Scripture: the *juxta apostolum* splice (Rom 13:1 +
+  1 Pet 2:13 under one "apostle") rendered as printed, no marker; *virga aequitatis* is
+  Heb 1:8 / Roman Psalter wording, not a Gallican variant — no `[var:]` anywhere.
+
+✅✅ **DEPLOYED 2026-08-15** (`migne-9ljkhci2y…`, READY, `--scope
+wilson-pruitts-projects`) — **verified live BY BODY**: the work page serves the badge,
+all 6 `[sic:]` + the `[cj:]` as classed spans, "I anoint thee king", the *dei* rubric;
+the cruces URL serves (smoke-tested per the Glabas lesson); the landing lists it;
+`/scripture/` reads **103 works**; and **the Pattern 18 backlog RODE THIS DEPLOY as
+Wilson ruled** — 11064's page serves 4 `cjnote` spans and 7561's 2. ⚠ That verification
+is DATED and expires. ✅ Pushed: `origin/master` = this session's head.
+
+**Corpus now: 103 englished works. Queue: 5 prepared (613,896 words), smallest next =
+11550 Richard of St Victor, *Explicatio in Cantica* (48 chunks, ~960K, Opus fleet —
+hard-stop ritual before launch).** Then the Pattern 18 census (targets named in
+`WITHDRAWN-NET.md`) and item 5, the plate reads (~12 GB free disk 2026-08-15).
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-15b — THE WITHDRAWN NET IS CLOSED. ⛔ NOT DEPLOYED.
 
 `a6b672e` · `6a39e70` · `b72ed8e`, on `master`, tree clean, **not pushed and not
