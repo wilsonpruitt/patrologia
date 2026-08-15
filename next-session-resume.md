@@ -73,9 +73,14 @@ deployed**. The six-issue plan of 2026-08-14 (below) now stands at:
   the corrected "I will add". ⚠ **That verification is DATED and expires — never
   restate live state from a note.**
 
+✅ **PUSHED 2026-08-15 (Wilson's OK) — `origin/master` = `0b783bf`, 0 ahead, tree
+clean.** Nothing is local-only.
+
 ⛔ **NOT deployed: everything after the deploy** — Pattern 18, 11081's page and crux,
-`site/styles.css`. **⚠ ALSO STILL UNPUSHED: `master` is 6 commits ahead of `origin`**
-(`git push origin master` — Wilson's per-action OK, never taken this session).
+`site/styles.css`. ⭐ **Wilson ruled 2026-08-15: Pattern 18 RIDES THE NEXT DEPLOY.**
+Do not ship it on its own — it is one glossed site and it costs nothing to wait, so
+fold it in at whatever the next deploy boundary turns out to be (the census, the next
+work, or the plate reads). The batch-deploys rule, applied.
 
 ⚑ Minor, noted not fixed: `harvestHeadnotes` in `index-work.mjs` strips column anchors
 but no markers, so a `[sic:]`/`[cj:]` inside a headnote segment reaches `data/index`
