@@ -19,7 +19,12 @@ Garbled or doubtful type in Migne's plate, rendered literally and logged here.
   is left with no object, as in the Latin. The intended reading is *secum*
   ("with them"), since the allusion is Job XII, 2, *vobiscum morietur sapientia*.
   An earlier draft rendered the conjecture; that has been withdrawn. Not emended
-  in the Latin either.
+  in the Latin either. **Pattern 18 applied 2026-08-15 (withdrawn-net read):**
+  "wisdom will die *according to* them" is fluent English asserting that these men
+  merely hold an opinion, where the charge is that wisdom dies WITH them — and the
+  paired clause *exortam quoque a se* ("has also arisen from them") is the
+  contradicting neighbour. The page now reads `will die according to them
+  [cj: *secundum*; read *secum*, "with them"]`.
 
 - **col. 0847A (chunk 0000)** — `In nobis quippe quod de rerum cognitione
   percipimus, et eo modo, cordis intellectus de iis quae extra sunt ad veritatem

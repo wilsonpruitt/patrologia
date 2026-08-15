@@ -131,3 +131,73 @@ Declined, and why the bar held:
   than a false claim.
 - **1021A `efferte`, 1036B `dic`, 1064B `ipsos`** — mood, voice and number anomalies that
   do not construe. Odd, not false.
+
+## The other eighteen works (29 sites)
+
+**7a⁗: zero defects, across every one.** With 11064's fifteen that is **44 invisible
+mentions read and no swallowed force anywhere** — so the net's founding premise is now
+settled negatively on the whole population, not just on the five-work sample: **7a⁗ is a
+marker phenomenon.** Where there is no marker there is no quarantine, and a Pattern 7
+rendering of a real word keeps its verb, its negation and its conjunction by construction.
+
+**Pattern 18: three more applied, one Pattern 14, the rest declined.**
+
+| work | column | printed | applied | why |
+|---|---|---|---|---|
+| 11083 | 0846D | *secundum* | `[cj: read *secum*, "with them"]` | "wisdom will die **according to** them" is fluent English that reduces a charge of arrogance to a report of an opinion; the paired *exortam quoque a se* is the contradicting neighbour |
+| 7561 | 0663 | *conscripsi* | `[cj: read *conscripsit*, "he wrote"]` | fluent, and false about a fact — it makes Vincent the author of Origen's letters to the Emperor Philip |
+| 7561 | 0664 | *modio* | `[var: Vulg. *in medio tui*]` | ⭐ **not a Pattern 18 case at all** — see below |
+
+⭐ **A boundary ruled, and it did not need Wilson.** 7561 @0664 prints *modio* for
+*medio* inside a quotation of Deut. 13:1, so the page reads *If there arise **within your
+measure** a prophet*. That is a printed real word whose faithful English misleads — the
+Pattern 18 shape exactly — **but it is a scripture citation diverging from the received
+text, which is what Pattern 14 already exists for** (10083 @0493D is the same shape:
+Migne's *requiescere* for *quiescere*). The two conventions abut, and the rule that
+separates them is *where the divergence sits*, not how it reads. **`[var:]` governs
+inside a quoted scripture; `[cj:]` governs in the author's own prose.**
+
+### Declined, by class
+
+- **The edition already glosses it — 8715 @1160C (*hostia* for *ostia*), @1164A
+  (*casta* for *charta*), @1164A (*serva* for *sacra*).** All three are fluent-and-false
+  ("to greet his **victims** with devout kisses"), and every one would have earned a `[cj:]`
+  **but for Migne's own bracket**, which the English carries — `[ *F.,* pio osculo . . .
+  ostia]`. ⚑ **A conjecture the reader already meets does not need ours beside it.** This
+  is the largest declining class and it is not in Pattern 18's written test; it belongs
+  there.
+- **Incoherent, not false — the class that needs Wilson.** See below.
+- **Not a Pattern 7 defect at all** — 11536 @1075C (asyndeton preserved under Pattern 8),
+  11556 @1021D and @1021B (a stray italic run and a displaced comma — typographic, not
+  verbal), 7508 @1155D (historic present kept).
+- **Genuinely unrecoverable** — 11065 @0197B (*patitur*'s subject), 8715 @1161B (the crux
+  itself says the reading "is a guess, not a conjecture with evidence behind it").
+- **Non-word carry-throughs** — 6912 @0419D (*Hisqaniae*), 7427 @1209 (*naturaei*), and
+  11064's six. `[sic:]` and 7a⁗ govern; Pattern 18 excludes them by rule.
+
+### ⚠ Eight of the 61 mentions are FALSE POSITIVES of the grep
+
+**11632 ×4 and isidore-glabas-sermo-2 ×1** match on *"the one to withdraw"* — a **marker**
+a later merge might withdraw, not a rendering that was withdrawn — and one 11632 hit is
+the word *withdrawal* inside a discussion of how to render *inclinari*. The net greps a
+verb with two lives. Real population: **~53, not 61.**
+
+## ⬜ THE ONE THING LEFT FOR WILSON — one ruling, three sites
+
+**Does an intruded or dropped word that makes the English INCOHERENT earn a `[cj:]`, or
+only one that makes it FALSE?** Pattern 18 as written says false (❌ "merely awkward"),
+and every site above was declined on that letter. But three sites are awkward *because a
+negation went wrong*, which is the most dangerous thing a real word can be:
+
+- **11064 @1090B** — *apud non* for *apud nos*: "they are named angels more fittingly
+  **among not** than the prior ones."
+- **7561 @0648** — Migne drops the *non* of *non solum … sed etiam*: "from which **only**
+  the discipline of ecclesiastical ordinance, but also the censure of apostolic authority
+  deters us."
+- **11064 @1142D** — *si* for *sic*: a correlative weakened into a condition ("**if** when
+  it is received it is not diminished").
+
+The case for declining is that a reader meets a visible hole and knows something is wrong
+— unlike *munde*/"purely", which reads perfectly. The case for glossing is that a lost
+negation is exactly the defect class the whole 7a⁗ apparatus was built for, and here it
+has no marker to live in. **Ruling it either way closes the net.**
