@@ -84,3 +84,50 @@ Not read. The list is in `data/withdrawn-net.txt`; the weight sits in **11064 (1
 expected return in 7a⁗ defects is low, but the same read produces the issue-4 census
 that a ruling would need — so it is best run **after** the ruling, once, with both
 questions in view instead of one.
+
+---
+
+# The read of the remaining 44 — run 2026-08-15, after the Pattern 18 ruling
+
+Both questions in view at every site, as the plan required: **(1) 7a⁗** — did the
+withdrawal leave a clause without its verb, its negation or its conjunction? — and
+**(2) Pattern 18** — is this a Pattern 7-correct rendering of a REAL printed word that
+makes the page assert something the author is arguing against?
+
+⚠ **Method note, paid for at the first site.** The cruces files quote the English *as
+it stood when the crux was written*, and the `[sic:]` force sweep of 2026-08-14 edited
+the shipped text without rewriting those quotations. 11064's `atttendas` crux still
+reads "Therefore do not *atttendas* to the number"; the page has read
+`do not attend [sic: *atttendas*]` since the sweep. **Every verdict below is taken from
+`src/english`, never from the crux's quoted rendering.**
+
+## 11064 — Hugh of St Victor, *Expositio in Hierarchiam Coelestem* (15 sites)
+
+**7a⁗: zero defects.** The non-word carry-throughs (*eloquiorom*, *sempe*, *aenigmat*,
+*seientiam*, *Poc*, *imagitionum*/*incircumpscritum*) quarantine nouns and adverbs; every
+clause keeps its predicate. The one site where the quarantined run WAS the verb —
+*atttendas* — already carries its force in plain words from the 2026-08-14 sweep.
+
+**Pattern 18: three applied, three declined.** Applied:
+
+| column | printed | glossed | why it clears the bar |
+|---|---|---|---|
+| 1078B | *meditantibus* | `read *mediantibus*, "mediating"` | the clause asserts that the lower orders are converted by the superiors **meditating**; Hugh's whole point is **mediation**, and his own parallel *ita mediante ipsa* prints correctly in the next clause |
+| 1142D | *sine* | `read *sive*, "or"` | "the clear and evident, **without** the distinguishing mark of the human figure" is fluent English that negates the gloss series it belongs to (*clarum et evidens, sive insigne*) — and the next clause explains that erectness makes the figure **more** evident |
+| 1125A | *succedens* | `read *succendens*, "kindling"` | a false claim about what a word means — "seraphim is interpreted *burning*, or *succeeding*" — with *et significat ignitum* contradicting it inside the same sentence |
+
+Declined, and why the bar held:
+
+- **1090B `apud non`** for *apud nos* — ⬜ **the one genuine judgment call in this work,
+  left for Wilson.** The intruded word is a **negation**, which is the most dangerous
+  thing a real word can be. But the English it produces — "named angels more fittingly
+  **among not** than the prior ones" — does not construe at all, so it makes no claim to
+  be false about; it is a visible hole, not a confident wrong reading. Declined on the
+  letter of the rule (❌ "merely awkward"), flagged because the letter may be wrong here.
+- **1142D `si` for *sic*** — weakens a correlative into a condition; asserts nothing false.
+- **1154C `suscepit` for *suscepi*** — puts an unnamed third person where Hugh has just
+  written *praesumpsi*. Misattributes, but inside a sentence that is visibly broken
+  anyway (it has no main clause in either language), so a reader meets the defect rather
+  than a false claim.
+- **1021A `efferte`, 1036B `dic`, 1064B `ipsos`** — mood, voice and number anomalies that
+  do not construe. Odd, not false.
