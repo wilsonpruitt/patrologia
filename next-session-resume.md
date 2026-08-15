@@ -1,5 +1,59 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-15 — ITEMS 1–3 ARE DONE. ⛔ STILL NOT DEPLOYED.
+
+`0224c45` · `de509c7` · `c6b3f30`, on `master`, tree clean, **not pushed and not
+deployed**. The six-issue plan of 2026-08-14 (below) now stands at:
+
+- **1. `et seq.` — DONE.** Parsed as an open-ended range: head verse keyed,
+  `openEnded: true` on the ref, `refDisplay` keeps the formula verbatim. Both
+  indexers now spread `...r` instead of picking `refKey` off it, so a field the
+  parser adds can no longer be dropped at the caller. 6963: 3 unparsed → 0.
+  ⚠ The plan said "3 citations, all in 6963" — true **of shipped works**;
+  `src/latin/11613` carries two more (`Matth. V, 3 et seq.`, `Prov. I, 1 seq.` —
+  the bare form without *et*). 11613 has no English and is not indexed, so it cost
+  nothing today and will be right when it ships.
+- ⭐ **The regression re-index found EIGHT STALE WORKS, none of them caused by this
+  change.** Nothing re-indexes a shipped work when the shared alias table or the
+  English moves under it: 11057/11063 were still filing *Nahum* as a fons and 11321
+  *Esther* (aliases added for 11632, never backfilled), and 11064/11436/8930/9033
+  carried head snippets from before the `[sic:]` sweep restored their force.
+  **Standing job worth adding to the runbook: re-index after any alias change or any
+  English edit.** PG rebuilt byte-identical.
+- **2. Pattern 10 ↔ force — DONE**, as `7a⁗-b` in `translation-style.md`, with a
+  cross-pointer from Pattern 10 itself. Also measured: **436 markers in shipped
+  English, 52 (12%) in the SPLIT direction a grep can find**; the FUSED direction
+  (*interra*, *vovistvirum*) is a well-formed-looking token that no mechanical test
+  sees. 7a⁗'s "OPEN, SCOPED JOB" paragraph was stale and now records the sweep's
+  actual result.
+- **3. The "withdrawn" net — MECHANICAL STEP DONE, FIVE WORKS READ, 44 LEFT.**
+  `scripts/withdrawn-net.mjs` + `data/withdrawn-net.txt` + **`WITHDRAWN-NET.md`,
+  which is the file to read.** Headlines: **61 mentions across 26 works, not 51/22**;
+  **50 invisible, 11 covered**; and **11064 is NOT mostly adjudicated** (8 of 23 at a
+  marker column, 15 invisible) — the plan's reasoning that the sweep read it
+  marker-by-marker is true and beside the point, since a mention and a marker are not
+  at the same column.
+  ⭐⭐ **The five zero-marker works returned ZERO 7a⁗ defects.** Nothing swallowed; no
+  clause lost a verb, a negation or a conjunction; 11059's "withdrawn" was a withdrawn
+  NOTE, not a rendering. **That is a real negative result about the class — 7a⁗ is a
+  marker phenomenon, and the net's premise that it also lives outside markers does not
+  hold on this sample.**
+  ⚑⚑ **What the net caught instead is ISSUE 4's question, four more times** — 10703
+  @1126B (*Oro* for *Pro*), 8195 @1250B (Migne's own double negative rendered
+  literally, so the page states the opposite of the precept), @1251A ("sit in judgment
+  without mercy", which the next section condemns), @1248C (*praediceris* against the
+  parallel *laudaris*). Every one is a REAL printed word rendered correctly under
+  Pattern 7 — which is precisely why none carries a marker. **So issue 4 is not a
+  singleton, and it now gates the useful part of the net: read the remaining 44 ONCE,
+  after the ruling, with both questions in view.** Left unread deliberately.
+- **4. ⚖️ Wilson's ruling — PUT TO HIM 2026-08-15 with the four new sites. Blocked.**
+- **5. Plate reads — untouched.** Needs a download; ⚠ re-check free disk first.
+- **6. Deploy — PUT TO HIM 2026-08-15. Still owed and still one deploy.**
+
+Pre-deploy state: `build-scripture-index.mjs` rebuilt (it was stale by a whole
+work — 4,653/101 → **5,019 citations / 102 works**), `build-cruces` and
+`build-landing` rebuilt to no diff, **marker scan clean on all 102 built pages**.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-14 — 6963 IS BUILT AND STAGED. ⛔ NOT DEPLOYED.
 
 **Ambrose of Milan, *Commentarius in Cantica canticorum* (6963, PL 15, 1851A–1962B)**
