@@ -500,8 +500,12 @@ tail findings were *actively* un-repaired rather than merely un-repaired: 11031 
 10727 record in their own cruces that a correct rendering existed and was
 **withdrawn** in favour of the bare marker, and 7508's crux records a repair as done
 that is not in the shipped text. **A crux file cannot catch that class; only
-re-reading the English can** — which is why the "withdrawn" net is still an open job
-even after the marker sweep closed.
+re-reading the English can** — which is why the "withdrawn" net was opened after the
+marker sweep closed. ✅ **THE NET IS NOW CLOSED (2026-08-15): all 44 remaining invisible
+mentions read, ZERO 7a⁗ defects.** Together with the first five works that is the whole
+population, and it settles the class negatively: **7a⁗ is a marker phenomenon.** Where
+nothing quarantines, a Pattern 7 rendering keeps its verb, its negation and its
+conjunction by construction. The net's real yield was Pattern 18 (`WITHDRAWN-NET.md`).
 
 ##### 7a⁗-b. Word division is the dangerous defect shape — Pattern 10 ↔ force
 
@@ -1239,17 +1243,38 @@ something false*, not whether it is odd:
   imperatives that are elliptical *by design*; ellipsis is not a false claim.
 - ❌ **Anything already inside a marker.** If the type is defective, `[sic:]` and 7a⁗
   govern — the sense is supplied in plain words beside the marker, not glossed.
+- ❌ **Anything the EDITION already glosses** (added 2026-08-15, the largest declining
+  class in the withdrawn-net read). 8715 @1160C reads "to greet his **victims** with
+  devout kisses" — fluent and false, *hostia* for *ostia* — and would earn a `[cj:]` but
+  for Migne's own bracket, which the English carries: `[ *F.,* pio osculo . . . ostia]`.
+  **A conjecture the reader already meets does not need ours beside it.** Same at 8715
+  @1164A twice (*casta* for Migne's bracketed *charta*, *serva* for *sacra*).
+- ❌ **A divergence inside a QUOTED SCRIPTURE — that is Pattern 14, not this.** 7561
+  @0664 prints *modio* for *medio* in Deut. 13:1, so the page reads *If there arise
+  **within your measure** a prophet*: the Pattern 18 shape exactly, but 10083 @0493D's
+  case exactly too. **The rule that separates the two conventions is WHERE the divergence
+  sits, not how it reads — `[var:]` inside a quoted scripture, `[cj:]` in the author's
+  own prose.**
 
 ⚠ **The gloss does not license conjecture at will.** The bar is Wilson's: the printed
 word must make the sentence *say something the author is arguing against*. Where a
 reading is merely uncertain, it stays in the crux, where it always was.
 
-⬜ **Corpus census not yet run.** These four came out of the "withdrawn" net's first
-five works (`WITHDRAWN-NET.md`), which is a biased sample — the net finds sites where
-a rendering was withdrawn, and a real word that misleads may equally have been left
-alone from the start. **A proper census reads the cruces of all 102 works for the
-class, not just the 44 remaining withdrawn mentions.** Applied so far: 11081 @0030B
-only.
+⬜ **Corpus census still not run.** The four founding sites came out of the "withdrawn"
+net's first five works, and the net's remaining 44 were read on 2026-08-15
+(`WITHDRAWN-NET.md`) — which yielded **six more applications and the two decline classes
+above**, but is still a biased sample: the net finds sites where a rendering was
+*withdrawn*, and a real word that misleads may equally have been left alone from the
+start. **A proper census reads the cruces of all 102 works for the class.** ⭐ Its
+highest-yield targets are already named: **10103, 11031, 11066, 11208, 11436, 11542,
+11648 and 7508** each carry a preamble recording that conjectures were applied to the
+running text under the withdrawn 10103 precedent and then *restored to the printed
+readings wholesale* — 33 passages in 11066 alone. **Every one of those restorations is by
+construction a real printed word whose faithful English someone once thought needed
+fixing**, which is the Pattern 18 population stated in advance.
+
+Applied so far (7 sites, 4 works): 11081 @0030B · 11064 @1078B, @1142D, @1125A · 11083
+@0846D · 7561 @0663. Plus one site ruled into Pattern 14 instead: 7561 @0664.
 
 ## Source patches — `data/tei-patches/<idno>.json`
 

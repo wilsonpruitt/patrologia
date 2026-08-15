@@ -101,7 +101,13 @@ chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
    `latin`, `dates`, `bio`; `dedicatee:true` for patron names in the author array).
    Without one the byline falls back to the Latin form — fine temporarily, not for deploy.
 6. **Build + index:** `node scripts/build-work-page.mjs <idno>` then
-   `node scripts/index-work.mjs <idno>`. Curated "On this text" prose goes in
+   `node scripts/index-work.mjs <idno>`. ⚠ **This is also a STANDING JOB, not just a
+   shipping step (2026-08-15): re-build and re-index any ALREADY-SHIPPED work whose
+   English you edit, and every work in the series after an alias-table change.** Nothing
+   re-indexes a shipped work when the shared alias table or the English moves under it —
+   the 2026-08-15 regression sweep found **eight stale works** that way (11057/11063
+   still filing *Nahum* as a fons, 11321 *Esther*, and four carrying head snippets from
+   before the `[sic:]` sweep restored their force). Curated "On this text" prose goes in
    `data/work-about.json` (NEVER edited into generated HTML) — optional pre-deploy,
    generic fallback is acceptable at stage time.
 7. **Stage only.** Deploy belongs to Wilson's deploy session (per-action OK).
