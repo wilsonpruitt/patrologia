@@ -36,7 +36,24 @@ mentions read, both questions in view.** Read `WITHDRAWN-NET.md` — it is the r
 - ⚑ The standing re-index job is now in `translation-runbook.md` step 6, not just in a
   resume note.
 
-### ⬜ THE ONE THING OWED BY WILSON — one ruling, three sites, answerable in a word
+### ✅ THE RULING CAME THE SAME SESSION: **GLOSS THEM.**
+
+**Incoherence is not a defence where the word that went wrong is a negation or a
+correlative** — written into `translation-style.md` 18 (`8c5b91e`). The old test asked
+whether the English *asserts* something false, and a sentence too broken to assert
+anything passed it; that let the corpus's most dangerous defect class through on a
+technicality. Glossed: 11064 @1090B (`among not [cj: *non*; read *nos*, "us"]`), 7561
+@0648 (`only [cj: *solum*; read *non solum*, "not only"]`), 11064 @1142D (*si* for *sic*).
+⚑ **7561 @0648 proves a DROPPED word is glossable** — the gloss opens on the word Migne
+*did* print, so the verbatim-in-the-Latin-twin guard needed no loosening. **Pattern 18 now
+stands at 10 sites in 5 works.**
+
+⚠ **Scoped to that class, not read wider.** Mood/voice/number/person anomalies that merely
+fail to construe stay declined; **11064 @1154C (*suscepit* for *suscepi*) is the one on the
+line** — it misattributes the exposition in the work's closing sentence, and is declined
+only because a person slip is not a negation. One line reverses it.
+
+### (superseded) The question as it was put — one ruling, three sites
 
 **Does a real word that makes the English INCOHERENT earn a `[cj:]`, or only one that
 makes it FALSE?** Pattern 18 as written says false, and all three below were declined on
