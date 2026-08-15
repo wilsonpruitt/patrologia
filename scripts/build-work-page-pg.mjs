@@ -138,6 +138,12 @@ function paras(text, { anchorIds }) {
         `<span class="ednote">[${e}]</span>`)
       .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
         `<span class="varnote" title="The source text diverges from the received text here">[${v}]</span>`)
+      // pattern-18 [cj: …]: a REAL printed word whose faithful English asserts what the
+      // author did not; our conjecture stands beside it, additively. Kept identical to
+      // build-work-page.mjs — the two builders must not drift on the same marker, which
+      // is the mistake that put 47 raw markers on live PG pages in 2026-08-01.
+      .replace(/\[cj: ([^\]]*)\]/g, (_, c) =>
+        `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${c}]</span>`)
       // pattern-16 [lat: …], PG only: the parallel Latin column asserts a different
       // fact than the Greek. English follows the Greek; this records what Migne's
       // Latin says instead.

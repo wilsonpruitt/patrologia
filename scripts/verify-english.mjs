@@ -185,8 +185,38 @@ for (const c of manifest.chunks) {
       errs.push(`${name}: [var: ${m[1]}] must open by naming the witness it is comparing against (Vulg. | LXX | Gk | Heb. | Douay | Vet. Lat.)`);
   }
 
+  // 12. Pattern-18 [cj: …] — Migne prints a REAL word, Pattern 7 renders it, and the
+  // English then asserts something the author did not (*munde* "purely" for *mundo*
+  // "to the world"). Ruled by Wilson 2026-08-15. Nothing here is defective type, so
+  // [sic:] cannot reach it and neither can 7a⁗; the gloss is ADDITIVE — the printed
+  // word keeps its English and our conjecture stands beside it.
+  //
+  // The form is fixed so it can be checked rather than trusted:
+  //   [cj: *printed*; read *conjectured*, "gloss"]
+  // Two rules do real work. The marker must NAME MIGNE'S PRINTED WORD FIRST, and that
+  // word must appear verbatim in the Latin twin — which is the whole safety of the
+  // convention: it makes it impossible to gloss a word the plate does not carry, i.e.
+  // to smuggle in an emendation of our own invention. And it must say `read `, so the
+  // conjecture is announced as a conjecture. ⚠ Note this INVERTS the [ed:]/[var:] test:
+  // for those, appearing in the Latin twin is the error; here, NOT appearing is.
+  const cjRe = /\[cj: ([^\]]*)\]/g;
+  if (cjRe.test(lat.body))
+    errs.push(`${name}: [cj: …] marker found in the LATIN chunk — the Latin is never marked up`);
+  for (const m of [...eng.body.matchAll(cjRe)]) {
+    const inner = m[1].trim();
+    if (!inner) { errs.push(`${name}: empty [cj: ] marker`); continue; }
+    const printed = inner.match(/^\*([^*]+)\*/);
+    if (!printed) {
+      errs.push(`${name}: [cj: ${inner}] must OPEN with Migne's printed word in italics — [cj: *munde*; read *mundo*, "to the world"]`);
+    } else if (!latFlat.includes(flat(printed[1]))) {
+      errs.push(`${name}: [cj: ${inner}] opens with *${printed[1]}*, which is NOT in the Latin twin — a conjecture may only be offered against a word Migne actually prints`);
+    }
+    if (!/\bread\s+\*/.test(inner))
+      errs.push(`${name}: [cj: ${inner}] must announce the conjecture with "read *…*" — an unlabelled second word reads as a second printed reading`);
+  }
+
   const strip = s => s.replace(colRe, '')
-    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '').replace(varRe, '');
+    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '').replace(varRe, '').replace(cjRe, '');
   const lw = words(strip(lat.body)), ew = words(strip(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the

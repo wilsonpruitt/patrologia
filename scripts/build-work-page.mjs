@@ -164,6 +164,15 @@ function inlineHtml(s, { anchorIds, state }) {
     // than confessing a gap in it.
     .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
       `<span class="varnote" title="The source text diverges from the received text here">[${v}]</span>`)
+    // pattern-18 [cj: …]: Migne prints a REAL word, so Pattern 7 renders it and nothing
+    // is marked — but the English then asserts something the author did not (*munde*,
+    // "purely", where the sense is *mundo*, "to the world"). Ruled by Wilson 2026-08-15.
+    // ADDITIVE: the printed word keeps its English, and our conjecture stands beside it.
+    // Same family as .varnote by design — both are scholarly asides about a divergence,
+    // and this one must never be mistaken for the edition confessing a hole ([ed:]) or
+    // for broken type ([sic:]), because the type here is not broken at all.
+    .replace(/\[cj: ([^\]]*)\]/g, (_, c) =>
+      `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${c}]</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -455,7 +464,12 @@ css += `
    (sketch/styles.css + this block), so anything written into it directly is
    silently clobbered by the next work-page build. */
 .varnote,
-.latnote {
+.latnote,
+/* pattern-18 [cj: …]: our conjecture standing beside a REAL printed word whose
+   faithful English misleads. Same family as .varnote and .latnote deliberately —
+   all three are asides about a divergence between what is printed and what is
+   meant, and none of them is the edition confessing a hole. */
+.cjnote {
   font-family: var(--didot);
   font-size: .8rem;
   color: var(--maroquin);

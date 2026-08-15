@@ -1185,6 +1185,72 @@ nothing is checkable and 52 shipped works are wrong.
   evidence of conformity**; assume unconverted instances remain and convert them
   as they are found, per the Pattern 14 precedent.
 
+### 18. `[cj: …]` — the printed word is REAL, and the faithful English misleads
+
+**Ruled by Wilson, 2026-08-15.** This is the gap 7a⁗ cannot reach and `[sic:]`
+cannot mark. Migne prints a word that is a perfectly good Latin form, so Pattern 7
+renders it and Pattern 12 has nothing to wrap — **and the English then asserts
+something the author did not.** The founding case, 11081 @0030B:
+
+> *Ideo in nativitate Christi angeli pacem **munde** nuntiant*, followed at once by
+> *in terra pax hominibus bonae voluntatis*.
+
+*munde* is a real adverb, so the page read "the angels announce peace **purely**",
+while the sense the passage requires — and its own next clause — is the dative
+*mundo*, "**to the world**". Nothing was defective; nothing was marked; the crux
+carried the conjecture where a reader would not meet it. **The crux's own closing
+formula there ("the conjecture is here and not in the text by design") is the same
+formula that proved wrong in all fifteen of its other findings.**
+
+**The rule: the gloss is ADDITIVE.** Migne's word keeps its English, and our
+conjecture stands beside it. Nothing is removed, nothing is replaced, and the reader
+sees both:
+
+`the angels announce peace purely [cj: *munde*; read *mundo*, "to the world"]`
+
+**The form is fixed, because it is what makes the marker checkable:**
+
+1. **Migne's printed word FIRST, in italics.** `verify-english` requires it to appear
+   verbatim in the Latin twin. ⚠ **This inverts the `[ed:]`/`[var:]` test** — for
+   those, appearing in the Latin is the error; here, *not* appearing is. That check
+   is the whole safety of the convention: it makes it impossible to gloss a word the
+   plate does not carry, which is to say impossible to smuggle in an emendation of
+   our own invention.
+2. **`read *…*`** announces the conjecture as a conjecture. An unlabelled second word
+   reads as a second printed reading.
+3. **A short gloss in double quotes** giving the sense the conjecture yields.
+
+Renders as `.cjnote`, the same maroquin family as `.varnote` and `.latnote` — a
+scholarly aside about a divergence, never the edition confessing a hole (`[ed:]`) and
+never broken type (`[sic:]`), because **the type here is not broken at all.**
+
+**When it applies, and when it does not.** The test is whether the English *asserts
+something false*, not whether it is odd:
+
+- ✅ **8195 @1250B** — Migne's own double negative *nec … non aquiescas* rendered
+  literally: "nor … **do not** give consent to anyone who is sinning", where the
+  precept is the opposite.
+- ✅ **8195 @1251A §22** — "in judgment also may you sit **without mercy**", which §23
+  of the same work condemns.
+- ✅ **8195 @1248C §7** — *praediceris* ("you are foretold") against the parallel
+  *laudaris* two clauses later.
+- ✅ **10703 @1126B** — *Oro* ("I pray") for *Pro*, leaving a stranded ablative.
+- ❌ **A merely awkward or elliptical sentence.** 8195 is full of asyndetic
+  imperatives that are elliptical *by design*; ellipsis is not a false claim.
+- ❌ **Anything already inside a marker.** If the type is defective, `[sic:]` and 7a⁗
+  govern — the sense is supplied in plain words beside the marker, not glossed.
+
+⚠ **The gloss does not license conjecture at will.** The bar is Wilson's: the printed
+word must make the sentence *say something the author is arguing against*. Where a
+reading is merely uncertain, it stays in the crux, where it always was.
+
+⬜ **Corpus census not yet run.** These four came out of the "withdrawn" net's first
+five works (`WITHDRAWN-NET.md`), which is a biased sample — the net finds sites where
+a rendering was withdrawn, and a real word that misleads may equally have been left
+alone from the start. **A proper census reads the cruces of all 102 works for the
+class, not just the 44 remaining withdrawn mentions.** Applied so far: 11081 @0030B
+only.
+
 ## Source patches — `data/tei-patches/<idno>.json`
 
 Our Latin is Corpus Corporum's TEI, not the plate. Where the *transcription* is

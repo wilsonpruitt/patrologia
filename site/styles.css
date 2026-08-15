@@ -532,7 +532,12 @@ a { color: inherit; }
    (sketch/styles.css + this block), so anything written into it directly is
    silently clobbered by the next work-page build. */
 .varnote,
-.latnote {
+.latnote,
+/* pattern-18 [cj: …]: our conjecture standing beside a REAL printed word whose
+   faithful English misleads. Same family as .varnote and .latnote deliberately —
+   all three are asides about a divergence between what is printed and what is
+   meant, and none of them is the edition confessing a hole. */
+.cjnote {
   font-family: var(--didot);
   font-size: .8rem;
   color: var(--maroquin);

@@ -69,7 +69,7 @@
 
 ## Col 0030B (chunk 0004)
 - **Reading (as printed):** `Ideo in nativitate Christi angeli pacem munde nuntiant`
-- **Note:** `munde` is a real Latin adverb ("cleanly, purely") and is therefore rendered rather than carried through: "the angels announce peace purely." The sense the passage requires — and the quotation immediately following (*in terra pax hominibus bonae voluntatis*) — is the dative *mundo*, "announce peace **to the world**." This is a case where Pattern 7 produces a genuinely misleading English sentence; the conjecture is here and not in the text by design.
+- **Note:** `munde` is a real Latin adverb ("cleanly, purely") and is therefore rendered rather than carried through: "the angels announce peace purely." The sense the passage requires — and the quotation immediately following (*in terra pax hominibus bonae voluntatis*) — is the dative *mundo*, "announce peace **to the world**." This is a case where Pattern 7 produces a genuinely misleading English sentence. **Updated 2026-08-15:** the conjecture is no longer parked here alone. Wilson ruled that an additive gloss may stand beside a real printed word whose faithful English asserts what the author did not, so the page now reads `peace purely [cj: *munde*; read *mundo*, "to the world"]` — Migne's word keeps its English and ours stands beside it. See `translation-style.md` Pattern 18; this is the convention's founding site and, so far, its only application.
 
 ## Col 0031B (chunk 0004)
 - **Reading (as printed):** `Judicium secundum operationem imago quodammodo est sacramentum judicii secundum retributionem`
