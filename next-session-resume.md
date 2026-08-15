@@ -46,13 +46,41 @@ deployed**. The six-issue plan of 2026-08-14 (below) now stands at:
   Pattern 7 — which is precisely why none carries a marker. **So issue 4 is not a
   singleton, and it now gates the useful part of the net: read the remaining 44 ONCE,
   after the ruling, with both questions in view.** Left unread deliberately.
-- **4. ⚖️ Wilson's ruling — PUT TO HIM 2026-08-15 with the four new sites. Blocked.**
+- **4. ✅ RULED 2026-08-15: THE ADDITIVE GLOSS IS ALLOWED.** Shipped as
+  **Pattern 18 `[cj: …]`** in `translation-style.md` (`01ef10e`), wired end to end,
+  not merely declared: transform in **both** work-page builders (kept identical —
+  drift on one marker is what put 47 raw markers on live PG pages), `.cjnote` in the
+  generated CSS, `cj` added to `scan-raw-markers.mjs` (10 forms, clean on 102 pages),
+  and three `verify-english` guards, **all negative-tested against a real chunk and
+  all three firing.** ⭐ **The load-bearing guard INVERTS the `[ed:]`/`[var:]` test:**
+  the marker must open with Migne's printed word in italics and that word must appear
+  **verbatim in the Latin twin** — so it is impossible to gloss a word the plate does
+  not carry, i.e. impossible to smuggle in an emendation of our own invention.
+  Applied to **one site only: 11081 @0030B**, the founding case; its crux no longer
+  claims the conjecture is absent "by design".
+  ⬜ **The census is NOT run**, and the four sites in hand are a biased sample — the
+  net finds sites where a rendering was *withdrawn*, and a real word that misleads may
+  equally have been left alone from the start. A proper census reads the cruces of all
+  102 works for the class, and it should be one read with the 44 remaining withdrawn
+  mentions.
 - **5. Plate reads — untouched.** Needs a download; ⚠ re-check free disk first.
-- **6. Deploy — PUT TO HIM 2026-08-15. Still owed and still one deploy.**
+- **6. ✅ DEPLOYED 2026-08-15** — `dpl_aViWYarur93oQkvHQGfwujtaVrFh`, **READY first
+  try** with `--scope wilson-pruitts-projects`. **Verified live BY BODY**, not by the
+  status string: 6963's page serves with the **First English translation** badge and
+  its `et seq.` citations verbatim; `/scripture/` reads **5,019 citations across 102
+  works**; and 11064's `/pl/175/expositio-in-hierarchiam-coelestem-s-dionysii/` serves
+  the sweep's most dangerous restored site (`because, lacking [sic: *carons*]`) plus
+  the corrected "I will add". ⚠ **That verification is DATED and expires — never
+  restate live state from a note.**
 
-Pre-deploy state: `build-scripture-index.mjs` rebuilt (it was stale by a whole
-work — 4,653/101 → **5,019 citations / 102 works**), `build-cruces` and
-`build-landing` rebuilt to no diff, **marker scan clean on all 102 built pages**.
+⛔ **NOT deployed: everything after the deploy** — Pattern 18, 11081's page and crux,
+`site/styles.css`. **⚠ ALSO STILL UNPUSHED: `master` is 6 commits ahead of `origin`**
+(`git push origin master` — Wilson's per-action OK, never taken this session).
+
+⚑ Minor, noted not fixed: `harvestHeadnotes` in `index-work.mjs` strips column anchors
+but no markers, so a `[sic:]`/`[cj:]` inside a headnote segment reaches `data/index`
+raw (visible in 11064's index). It reaches no reader — the marker scan is clean on
+every built page — so it is cosmetic in a data file, not a leak.
 
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-14 — 6963 IS BUILT AND STAGED. ⛔ NOT DEPLOYED.
 
