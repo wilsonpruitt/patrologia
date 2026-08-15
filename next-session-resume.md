@@ -1,5 +1,65 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-15b — THE WITHDRAWN NET IS CLOSED. ⛔ NOT DEPLOYED.
+
+`a6b672e` · `6a39e70` · `b72ed8e`, on `master`, tree clean, **not pushed and not
+deployed.** Item 3 of the six-issue plan is finished: **all 44 remaining invisible
+mentions read, both questions in view.** Read `WITHDRAWN-NET.md` — it is the report.
+
+- ⭐⭐ **7a⁗ IS CLOSED NEGATIVELY, on the whole population.** 44 sites, **zero** swallowed
+  verbs, negations or conjunctions. With the first five works that is every mention the
+  net found. **7a⁗ is a marker phenomenon**: where nothing quarantines, a Pattern 7
+  rendering keeps its force by construction. Written into `translation-style.md` 7a⁗.
+- **Pattern 18: six more sites applied, in four works** — 11064 @1078B (*meditantibus*
+  for *mediantibus*, against its own parallel *ita mediante ipsa*), @1142D (*sine* for
+  *sive*, fluent English negating the gloss it belongs to), @1125A (*succedens* for
+  *succendens*, contradicted by *significat ignitum* in the same sentence), 11083 @0846D
+  (*secundum* for *secum*), 7561 @0663 (*conscripsi* for *conscripsit* — it makes Vincent
+  the author of Origen's letters). All verified, rebuilt, re-indexed; `verify-english`
+  green on all three works and `scan-raw-markers` clean on 102 pages.
+- ⭐ **A convention boundary ruled without needing Wilson: 7561 @0664 is PATTERN 14, not
+  18.** *modio* for *medio* inside Deut. 13:1 is the Pattern 18 shape exactly — a printed
+  real word whose faithful English misleads — but it sits in a **quoted scripture**, which
+  is 10083 @0493D's case. **`[var:]` inside scripture, `[cj:]` in the author's own prose.**
+  Both new decline classes are now written into Pattern 18's test, which had neither.
+- ⭐ **The other new decline class: "the edition already glosses it."** 8715's three
+  fluent-and-false sites (*hostia* → "his **victims**") all carry Migne's own bracket in
+  the English. **A conjecture the reader already meets does not need ours beside it.**
+- ⚠ **Eight of the net's 61 mentions are FALSE POSITIVES** — 11632 ×4 and
+  isidore-glabas ×1 match *"the one to withdraw"*, a **marker** a merge might withdraw.
+  Real population ~53.
+- ⚠ **Method, paid for at the first site:** the cruces files quote the English *as it
+  stood when the crux was written*, and the 2026-08-14 force sweep edited the shipped text
+  without rewriting them. 11064's `atttendas` crux still shows the pre-sweep rendering;
+  the page has read `do not attend [sic: *atttendas*]` for a day. **Never adjudicate from a
+  crux's quoted English — open `src/english`.**
+- ⚑ The standing re-index job is now in `translation-runbook.md` step 6, not just in a
+  resume note.
+
+### ⬜ THE ONE THING OWED BY WILSON — one ruling, three sites, answerable in a word
+
+**Does a real word that makes the English INCOHERENT earn a `[cj:]`, or only one that
+makes it FALSE?** Pattern 18 as written says false, and all three below were declined on
+that letter — but each is awkward *because a negation went wrong*, which is the defect
+class the whole 7a⁗ apparatus exists for, and here it has no marker to live in:
+11064 @1090B (*apud non* for *apud nos* — "named angels more fittingly **among not**"),
+7561 @0648 (Migne drops the *non* of *non solum … sed etiam*), 11064 @1142D's *si* for
+*sic*. Full framing at the end of `WITHDRAWN-NET.md`.
+
+### ▶ The front after that
+
+**The Pattern 18 corpus census** — and the read of the 44 named its highest-yield
+targets in advance: **10103, 11031, 11066, 11208, 11436, 11542, 11648, 7508** each carry a
+preamble recording that conjectures were applied under the withdrawn 10103 precedent and
+then restored to the printed readings wholesale (**33 passages in 11066 alone**). Every
+one of those restorations is by construction a real printed word whose faithful English
+someone once thought needed fixing. Then item 5, the plate reads (needs a download; free
+disk was ~12 GB on 2026-08-15).
+
+⛔ **Still not deployed:** Pattern 18 itself, 11081's page, `site/styles.css`, and now
+11064 / 11083 / 7561's pages and the three rebuilt cruces pages. Wilson's standing ruling
+holds — **Pattern 18 rides the next deploy**, it does not ship on its own.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-15 — ITEMS 1–3 ARE DONE. ⛔ STILL NOT DEPLOYED.
 
 `0224c45` · `de509c7` · `c6b3f30`, on `master`, tree clean, **not pushed and not
