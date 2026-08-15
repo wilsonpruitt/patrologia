@@ -227,6 +227,90 @@ Within a work: one voice. Across works: as many voices as Migne printed.
 Latin; 10379 (Robert of Tombelaine, live since earlier) renders the same lemma
 "chains of gold". **Both are correct as they stand.** Neither is swept.
 
+## Liturgical ordines — register rules (Fable mini-pilot on 9637, 2026-08-15)
+
+The first liturgical work in the corpus. Calibrated on the *Ordo ad regem
+benedicendum* (PL 138, a 12th/13th-c. Vienna codex of an earlier coronation rite) —
+a genre whose page is not prose but a SCRIPT: alternating stage directions and
+performed text, chant cues, truncated formula cues, dialogue with sigla. These rules
+extend the Tier-2 register; nothing here relaxes Patterns 7–18.
+
+### L1. The italic boundary is STRUCTURE — rubric vs. performed text
+
+Migne's italics divide the page into two voices: *italic* = the rubric (stage
+direction, in jussive subjunctive), roman = the performed text (prayer, formula,
+dialogue). **Preserve every italic boundary exactly where the plate has it** — a word
+on the wrong side of the boundary changes speaker. Rubric jussives render as English
+jussives: *imponat orationem* → "let him intone the oration," never a flattened
+indicative ("he says the oration").
+
+### L2. Liturgical technical vocabulary keeps its TECHNICAL sense
+
+*imponere* (of a chant or oration) = **intone**, not "impose" · *decantare* =
+**chant** · *oratio* as a proper-prayer label = **Oration** (never "collect," which
+is an identification, not a translation) · *Secretum* = **Secret** · *Ad
+Complendum* = **At the Completion** · *letania* = **litany** · *Responsorium* =
+**Responsory**. The proper-prayer labels (*Oratio.*, *Alia.*, *Secretum.*,
+*Benedictio episcopalis.*, *Ad Complendum.*) are rendered, in their printed italics.
+
+### L3. Chant incipits are CUES — render the printed words, never the whole chant
+
+*canentes antiphonam istam* Ecce mitto Angelum — the roman words are the opening of
+a chant every singer knew; the plate prints only the cue. **Render exactly the words
+printed and stop where they stop.** Completing the antiphon (or psalm, or hymn)
+supplies text the plate does not carry — Pattern 8's "never supply," at the scale of
+a formula. The Latin twin keeps the incipit findable.
+
+⚠ **Pattern 14 does NOT fire on chant texts.** An antiphon that shadows a psalm is a
+liturgical composition with its own received text, not a scripture citation — *Ecce
+mitto Angelum* differing from Mal. 3:1 is not a variant, it is the antiphon. `[var:]`
+stays reserved for scripture quoted AS scripture.
+
+### L4. Truncated formula cues — stop where the plate stops
+
+*Per.* · *Qui tecum.* · *Quod ipse praestare.* · *Te rogamus.* — a one- or two-word
+cue standing for a close every celebrant knew by heart. Two cases:
+
+- **The cue ends on whole words → translate the printed words and keep the
+  truncation, period and all.** *Per.* → "Through." *Qui tecum.* → "Who with thee."
+  *Quod ipse praestare.* → "Which he himself to grant." The English is abrupt because
+  the plate is abrupt; when the formula also appears in full somewhere in the work
+  (9637 prints *Quod ipse praestare dignetur, qui tecum vivit* whole at 1114C), the
+  full occurrence anchors the reader and the cruces note says so.
+- **The cue truncates MID-WORD → carry the cue as printed, untranslated.** *Te rog.*
+  cannot be translated without completing *rogamus*; a word-fragment is carried like
+  a non-word (Pattern 7), in italics where the plate is roman.
+
+### L5. Contraction ≠ truncation — nomina sacra expand, cues do not
+
+*Dns nr Ihs Xps*, *Dnm nrm*, *Ihu Xpo* are scribal CONTRACTIONS of words that are
+grammatically complete in their sentence: render the full word normally ("our Lord
+Jesus Christ"). **The test: does the sentence's grammar contain the whole word
+(contraction → translate it) or does the formula stop short (truncation → stop with
+it)?**
+
+### L6. Dialogue and sigla
+
+`R\.` (*responsum*) stays **R.** — a siglum is structure, not prose (Pattern 9
+family). Interrogations that Migne prints with a period keep the period (Pattern 8):
+"Wilt thou hold the holy faith… and observe it with just works. R. I will."
+Pattern 17 governs person and number unchanged — and note that the ordo interrogates
+the assembled PEOPLE in the grammatical singular (*Vis tali principi… te subiicere*):
+**thou preserves that singular**; do not pluralize the people into "you."
+
+### L7. The performative present
+
+*Unguo te in regem* = "I anoint thee king" — the sacramental performative keeps the
+simple present. Never progressive, never a future.
+
+### L8. The editor's queries ride as printed
+
+This codex's editor queries his own transcript in parentheses — *coaluus ( an
+coalitus?)*, *pata (patria)*, *illi (illius)*. Preserve the parentheses verbatim,
+contents untranslated (they are variant Latin, same family as the bracketed-variant
+convention). The printed word outside the parenthesis is what gets rendered — or
+carried, if it is not a word.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"

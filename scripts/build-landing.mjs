@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-15 session: the corpus's first liturgical ordo (Fable mini-pilot) —
+  'pl/138/ordo-ad-regem-benedicendum',                           // Auctor incertus — a coronation rite from a 12th/13th-c. Vienna codex
   // — 2026-08-14 session: Ambrose enters the Song queue —
   'pl/15/commentarius-in-cantica-canticorum',                    // Ambrose of Milan — the Song read through an Old Latin / LXX text, not the Vulgate
   // — 2026-08-09 session: the largest work yet englished, and the same author twice running —
