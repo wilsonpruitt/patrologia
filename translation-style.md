@@ -1241,6 +1241,31 @@ something false*, not whether it is odd:
 - ✅ **10703 @1126B** — *Oro* ("I pray") for *Pro*, leaving a stranded ablative.
 - ❌ **A merely awkward or elliptical sentence.** 8195 is full of asyndetic
   imperatives that are elliptical *by design*; ellipsis is not a false claim.
+- ✅ **BUT INCOHERENCE IS NOT A DEFENCE WHERE THE WORD THAT WENT WRONG IS A NEGATION OR A
+  CORRELATIVE** (ruled by Wilson, 2026-08-15, on the withdrawn net's three declined
+  sites). The original test asked whether the English *asserts* something false, and a
+  sentence too broken to assert anything passed it. **It should not**: a lost or intruded
+  negation is the defect class the whole 7a⁗ apparatus exists for — 7a⁗'s own questions 2
+  and 3 — and where there is no marker it has nowhere else to live. The three sites, now
+  glossed:
+  - **11064 @1090B** — *apud non* for *apud nos*: "they are named angels more fittingly
+    **among not** than the prior ones" → `among not [cj: *non*; read *nos*, "us"]`.
+  - **7561 @0648** — Migne's setting **drops** the *non* of *non solum … sed etiam*:
+    "from which **only** the discipline … but also the censure … deters us" →
+    `only [cj: *solum*; read *non solum*, "not only"]`. ⚑ **A dropped word is glossable
+    under this pattern too**, because the gloss opens on the word Migne *did* print — the
+    verbatim-in-the-Latin-twin guard is satisfied by *solum*, and the conjecture supplies
+    what fell out.
+  - **11064 @1142D** — *si* for *sic*, a correlative weakened into a condition →
+    `if [cj: *si*; read *sic*, "so"]`.
+
+  ⚠ **The ruling is scoped to that class and was not read wider.** Mood, voice, number and
+  person anomalies that merely fail to construe stay declined — 11064 @1021A *efferte*,
+  @1036B *dic*, @1064B *ipsos*, @1154C *suscepit*, 11083's *aequare* and *praesumatur*.
+  The nearest to the line is @1154C, where *suscepit* for *suscepi* puts an unnamed third
+  person where Hugh has just written *praesumpsi*; it is declined because the defect is a
+  person slip, not a negation, and because its sentence has no main clause in **either**
+  language. If the ruling is meant to reach that class too, it is a one-line change here.
 - ❌ **Anything already inside a marker.** If the type is defective, `[sic:]` and 7a⁗
   govern — the sense is supplied in plain words beside the marker, not glossed.
 - ❌ **Anything the EDITION already glosses** (added 2026-08-15, the largest declining

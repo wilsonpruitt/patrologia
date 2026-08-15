@@ -182,7 +182,39 @@ a later merge might withdraw, not a rendering that was withdrawn — and one 116
 the word *withdrawal* inside a discussion of how to render *inclinari*. The net greps a
 verb with two lives. Real population: **~53, not 61.**
 
-## ⬜ THE ONE THING LEFT FOR WILSON — one ruling, three sites
+## ✅ RULED BY WILSON 2026-08-15: **GLOSS THEM.** The net is closed.
+
+All three sites below now carry a `[cj:]`, and Pattern 18's written test has changed with
+them: **incoherence is not a defence where the word that went wrong is a negation or a
+correlative.** The original test asked whether the English *asserts* something false, and
+a sentence too broken to assert anything passed it — which let the most dangerous defect
+class in the corpus through on a technicality.
+
+| work | column | printed | glossed |
+|---|---|---|---|
+| 11064 | 1090B | *non* (for *nos*) | `among not [cj: *non*; read *nos*, "us"]` |
+| 7561 | 0648 | *solum* (Migne drops the *non*) | `only [cj: *solum*; read *non solum*, "not only"]` |
+| 11064 | 1142D | *si* (for *sic*) | `if [cj: *si*; read *sic*, "so"]` |
+
+⚑ **A DROPPED word is glossable under this pattern too** — 7561 @0648 is the worked case.
+The gloss opens on the word Migne *did* print, so the verbatim-in-the-Latin-twin guard is
+satisfied by *solum* and the conjecture supplies what fell out. Nothing about the guard
+had to be loosened to reach a lost word, which is the reason it is safe to do.
+
+⚠ **The ruling was scoped to the negation/correlative class and not read wider.** Mood,
+voice, number and person anomalies that merely fail to construe stay declined (11064
+@1021A *efferte*, @1036B *dic*, @1064B *ipsos*, @1154C *suscepit*, 11083's *aequare* and
+*praesumatur*). **@1154C is the one on the line** — *suscepit* for *suscepi* puts an
+unnamed third person where Hugh has just written *praesumpsi*, so it misattributes the
+whole exposition in the work's closing sentence; it is declined only because the defect is
+a person slip rather than a negation, and because its sentence has no main clause in
+either language. One line reverses that if the ruling was meant to reach it.
+
+**Pattern 18 now stands at 10 sites in 5 works.**
+
+---
+
+## (superseded — the question as it was put) One ruling, three sites
 
 **Does an intruded or dropped word that makes the English INCOHERENT earn a `[cj:]`, or
 only one that makes it FALSE?** Pattern 18 as written says false (❌ "merely awkward"),
