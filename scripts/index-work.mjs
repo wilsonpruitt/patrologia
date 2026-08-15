@@ -81,7 +81,7 @@ function handleNote(raw, col, chunk, inHead = false) {
     if (fix && s.refs.length === 1)
       ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
     else
-      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: inner, ...loc } });
+      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { ...r, refDisplay: inner, ...loc } });
   }
   // A correction can also rescue a ref that does not parse at all — e.g. Migne's
   // "III Cor. VI", where the book ordinal is a misprint so no book name resolves.
@@ -118,7 +118,7 @@ function handleInlineCandidate(raw, col, chunk, inHead = false) {
     if (fix && s.refs.length === 1)
       ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: stripped, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
     else
-      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: stripped, ...loc } });
+      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { ...r, refDisplay: stripped, ...loc } });
     return;
   }
   if (CORRECTIONS.has(`${loc.column}|${stripped}`)) {

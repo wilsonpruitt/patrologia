@@ -105,7 +105,7 @@ function handleNote(raw, col, chunk) {
     if (fix && s.refs.length === 1)
       ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: s.refs[0].refKey, corrected: true, correctionNote: fix.note, ...loc } });
     else
-      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { refKey: r.refKey, refDisplay: inner, ...loc } });
+      for (const r of s.refs) ordered.push({ kind: 'scripture', rec: { ...r, refDisplay: inner, ...loc } });
   }
   // a correction can also rescue a ref that does not parse at all (a misprinted
   // book ordinal resolves to no book): refKeyPrinted is null, there was no key.

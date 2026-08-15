@@ -492,12 +492,46 @@ questions:
 **The tell is the same one 7a always gives**: the next clause denies what the English
 just asserted. In all three sites the contradicting neighbour was on the same plate.
 
-**⚠ OPEN, SCOPED JOB — the other 99 shipped works have never been checked for this.**
-The class was invisible until three readers hit it in one work on one afternoon. The
-sweep is narrow and mechanical to *find* (grep every `[sic: …]` in `src/english/`,
-which is a bounded list) and judgment-dense to *rule* (read the clause without the
-marker). It is deliberately NOT folded into any deploy — it is its own job, on Opus,
-and it does not gate 6963.
+**✅ THE CORPUS-WIDE SWEEP RAN AND IS CLOSED (2026-08-14, commits `ff529ff` →
+`7521a31`).** Final tally: **112 sites restored across 31 works, out of 416 markers
+in 44 works** — so roughly one marker in four was swallowing force. Twelve works in
+the tail returned zero, which is the number that makes the other 31 credible. Three
+tail findings were *actively* un-repaired rather than merely un-repaired: 11031 and
+10727 record in their own cruces that a correct rendering existed and was
+**withdrawn** in favour of the bare marker, and 7508's crux records a repair as done
+that is not in the shipped text. **A crux file cannot catch that class; only
+re-reading the English can** — which is why the "withdrawn" net is still an open job
+even after the marker sweep closed.
+
+##### 7a⁗-b. Word division is the dangerous defect shape — Pattern 10 ↔ force
+
+Two independent readers observed this in the sweep and it was not written down.
+**A word-division defect is disproportionately dangerous under Pattern 10, because
+quarantining a split run takes the WHOLE word out of the English rather than one
+letter of it.** An ordinary broken letter leaves a word that is still visibly a
+word; a split or fused run leaves a hole exactly the size of a lexeme — and lexemes
+are what carry verbs, negatives and prepositions.
+
+Pattern 10 is right to quarantine the whole run: the run is what the compositor set,
+and carrying half of it would be our own conjecture. **7a⁗ is what keeps the sense
+outside the quarantine.** The two rules work as a pair, and neither is safe alone.
+
+Attested, all from the sweep: *hain domo* (11088) · *demo liuntur*, *in luta*,
+*Et.haec* (9033) · *ac his* (11055) · *vovistvirum*, *in elligi* (11085) · *interra*
+(11542) · *informen t* (11632, ⚠ possibly our own italic markup rather than Migne's
+type — see the open plate reads). The most dangerous site in the whole sweep is of
+the neighbouring class, a single wrong letter that yields a *confident wrong reading*
+instead of a visible hole: 11064 @1141B's *carons* for *carens*, where the
+quarantined English read "because, weight, it seeks the highest things" and a reader
+repairs it to "because of weight" — the exact inversion, since fire rises **because
+it has no weight**.
+
+⚠ **Only half the class is greppable.** Measured 2026-08-15 across all shipped
+English: **436 `[sic: …]` markers, of which 52 (12%) contain a space or an internal
+period** — the *split* direction, which a grep finds. The *fused* direction
+(*interra* for *in terra*, *vovistvirum* for *vovisti virum*) is a single
+well-formed-looking token and no mechanical test sees it at all. It is found by
+reading, or not at all.
 
 #### 7a″. The lemma quietly conformed — the dominant failure in SCRIPTURE COMMENTARY
 
@@ -730,6 +764,13 @@ boundary between real words and non-words does NOT apply — the unit is the run
 Where a broken run sits inside an already-italic scripture lemma it takes no
 second italic marker (nested italics are not expressible), same as every other
 carried non-word. Say so in the crux.
+
+⚠ **Carrying the whole run is right, and it is also the shape most likely to take
+the sense down with it — see 7a⁗-b.** The quarantine is the size of a whole lexeme,
+so whatever that lexeme governed (a verb, a negation, a preposition) leaves the
+English with it. Pattern 10 decides what is carried; 7a⁗ decides what must still be
+said in plain words beside it. Applying this one without that one is how the sweep's
+112 sites were made.
 
 ### 11. Dittography — print it twice, mark it `[d: …]`
 

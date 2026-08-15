@@ -125,6 +125,22 @@ const upperRomanChapter = s => s.replace(
   /^(\(?\s*(?:(?:I{1,3}V?|IV)\s+)?[A-Z][a-z]+\.?\s+)([ivxlcdm]+(?:\s*[,-]\s*[ivxlcdm]+)*)\b/,
   (_, head, nums) => head + nums.toUpperCase());
 
+// "Matth. XXVIII, 5 et seq." — an OPEN-ENDED range: the verse named, and what
+// follows it. Migne prints the formula only in 6963 (3 citations: Matth. XXVIII,
+// 5; Coloss. II, 20; Tob. X, 3 — measured 2026-08-15 across all shipped works),
+// and before this it parsed to nothing, because normSeg turns " et " into a comma
+// and the verse class then meets "seq." where it wants a digit.
+// ⚠ Stripped BEFORE normSeg, and it must stay before it — afterwards the formula's
+// own " et " has already been rewritten and the trailing token is unrecognizable.
+// The range's HEAD is the addressable part, so the ref keys the opening verse and
+// carries openEnded: true. It is deliberately NOT keyed as a span: Migne does not
+// say where the range ends, and inventing a terminus would be a conjecture wearing
+// an index key. refDisplay keeps "et seq." verbatim, so the reader still sees it.
+// The trailing `)` is put back, so a piece that carried one still closes and segRe's
+// optional `\)?$` sees what it expects either way.
+const ET_SEQ_RE = /\s*,?\s*(?:et\s+)?seqq?\.?\s*(\)?)\s*$/i;
+const stripEtSeq = s => s.replace(ET_SEQ_RE, '$1');
+
 const normSeg = s => upperRomanChapter(s
   .replace(/\s+et\s+/gi, ', ')
   .replace(/\b[vVcC]\.\s*(?=\d)/g, '')
@@ -164,8 +180,11 @@ export function parseScripture(raw) {
   const refs = [];
   let sawUnknownBook = false, sawBadShape = false;
   for (const seg of segs) for (const piece0 of splitBookBoundaries(seg)) {
-    const piece = piece0.replace(/^\s*[,;]\s*|\s*[,;]\s*$/g, '').trim();
-    if (!piece) continue;
+    const piece1 = piece0.replace(/^\s*[,;]\s*|\s*[,;]\s*$/g, '').trim();
+    if (!piece1) continue;
+    const piece = stripEtSeq(piece1);
+    const openEnded = piece !== piece1;
+    const push = ref => refs.push(openEnded ? { ...ref, openEnded: true } : ref);
     const normed = normSeg(piece).trim();
     const rm = normed.match(rangeRe);
     if (rm) {
@@ -173,7 +192,7 @@ export function parseScripture(raw) {
       const osis = BOOKS[bookLat];
       if (!osis) { sawUnknownBook = true; continue; }
       const c1 = romanToInt(rm[3]), c2 = romanToInt(rm[4]);
-      if (c1 && c2) { refs.push({ refKey: `${osis}.${c1}-${osis}.${c2}` }); continue; }
+      if (c1 && c2) { push({ refKey: `${osis}.${c1}-${osis}.${c2}` }); continue; }
     }
     const m = normed.match(segRe);
     if (!m) { sawBadShape = true; continue; }
@@ -188,12 +207,12 @@ export function parseScripture(raw) {
       // verses attach to the FIRST chapter only (Migne never lists verses across chapters)
       const verses = m[4].split(/\s*[,-]\s*/).map(Number);
       const ch = chapters[0];
-      refs.push({ refKey: verses.length > 1
+      push({ refKey: verses.length > 1
         ? `${osis}.${ch}.${verses[0]}-${osis}.${ch}.${verses.at(-1)}`
         : `${osis}.${ch}.${verses[0]}` });
-      for (const ch2 of chapters.slice(1)) refs.push({ refKey: `${osis}.${ch2}` });
+      for (const ch2 of chapters.slice(1)) push({ refKey: `${osis}.${ch2}` });
     } else {
-      for (const ch of chapters) refs.push({ refKey: `${osis}.${ch}` }); // chapter-level
+      for (const ch of chapters) push({ refKey: `${osis}.${ch}` }); // chapter-level
     }
   }
   if (!refs.length) return { refs: [], reason: sawUnknownBook ? 'unknown-book' : 'unparsed-shape' };

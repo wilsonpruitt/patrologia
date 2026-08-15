@@ -14,8 +14,8 @@
   "colFirst": "407",
   "colLast": "436a",
   "counts": {
-    "scripture": 95,
-    "fontes": 1,
+    "scripture": 96,
+    "fontes": 0,
     "heads": 35,
     "headnotes": 4,
     "unparsed": 0
@@ -241,6 +241,12 @@
       "refKey": "Ps.10.17",
       "refDisplay": "Psal. X, 17",
       "column": "414b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Esth.5.1-Esth.5.3",
+      "refDisplay": "Esther V, 1-3",
+      "column": "414c",
       "chunk": 3
     },
     {
@@ -592,13 +598,7 @@
       "chunk": 11
     }
   ],
-  "fontes": [
-    {
-      "raw": "Esther V, 1-3",
-      "column": "414c",
-      "chunk": 3
-    }
-  ],
+  "fontes": [],
   "heads": [
     {
       "la": "262 ADMONITIO.",

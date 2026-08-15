@@ -14,11 +14,11 @@
   "colFirst": "1851",
   "colLast": "1962b",
   "counts": {
-    "scripture": 359,
+    "scripture": 362,
     "fontes": 111,
     "heads": 381,
     "headnotes": 0,
-    "unparsed": 3
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -806,6 +806,13 @@
       "chunk": 15
     },
     {
+      "refKey": "Matt.28.5",
+      "openEnded": true,
+      "refDisplay": "Matth. XXVIII, 5 et seq.",
+      "column": "1894d",
+      "chunk": 15
+    },
+    {
       "refKey": "Song.3.1",
       "refDisplay": "Cant. III, 1",
       "column": "1894d",
@@ -1320,6 +1327,13 @@
       "chunk": 24
     },
     {
+      "refKey": "Col.2.20",
+      "openEnded": true,
+      "refDisplay": "Coloss. II, 20 et seq.",
+      "column": "1919d",
+      "chunk": 24
+    },
+    {
       "refKey": "Ps.79.9",
       "refDisplay": "Psalm. LXXIX, 9",
       "column": "1920a",
@@ -1605,6 +1619,13 @@
       "refKey": "2Cor.12.3",
       "refDisplay": "II Cor. XII, 3",
       "column": "1933a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Tob.10.3",
+      "openEnded": true,
+      "refDisplay": "Tob. X, 3 et seq.",
+      "column": "1933c",
       "chunk": 29
     },
     {
@@ -5078,25 +5099,6 @@
     }
   ],
   "headnotes": [],
-  "unparsed": [
-    {
-      "raw": "(Matth. XXVIII, 5 et seq.)",
-      "reason": "unparsed-shape",
-      "column": "1894d",
-      "chunk": 15
-    },
-    {
-      "raw": "(Coloss. II, 20 et seq.)",
-      "reason": "unparsed-shape",
-      "column": "1919d",
-      "chunk": 24
-    },
-    {
-      "raw": "(Tob. X, 3 et seq.)",
-      "reason": "unparsed-shape",
-      "column": "1933c",
-      "chunk": 29
-    }
-  ],
+  "unparsed": [],
   "proseNotes": []
 }
