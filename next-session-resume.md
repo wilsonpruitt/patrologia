@@ -42,10 +42,23 @@ the cruces URL serves (smoke-tested per the Glabas lesson); the landing lists it
 Wilson ruled** — 11064's page serves 4 `cjnote` spans and 7561's 2. ⚠ That verification
 is DATED and expires. ✅ Pushed: `origin/master` = this session's head.
 
-**Corpus now: 103 englished works. Queue: 5 prepared (613,896 words), smallest next =
-11550 Richard of St Victor, *Explicatio in Cantica* (48 chunks, ~960K, Opus fleet —
-hard-stop ritual before launch).** Then the Pattern 18 census (targets named in
-`WITHDRAWN-NET.md`) and item 5, the plate reads (~12 GB free disk 2026-08-15).
+### ▶▶ NEXT SESSION IS RICHARD — Wilson called it, 2026-08-15
+
+**11550, Richard of St Victor, *Explicatio in Cantica canticorum* (PL 196, 48 chunks,
+50,151 Latin words, badge First).** An **Opus volume run** — conventions frozen, no new
+genre (Song commentary, the corpus's most-practiced class; the Song-of-Songs standing
+rule applies: **each commentary stands on its own**, `translation-style.md` §Song).
+Estimated burn **~960K** at the ~20K/chunk rule. **The hard-stop ritual still runs at
+launch: state works/chunks/burn and ask "which model, and go?" — Wilson's call tonight
+names the work, not the launch.** Fleet discipline: ≤6 parallel Opus agents, ~5 chunks
+each → per-agent `cruces-<firstChunk>.md` and **the merge is a required step** (diff the
+halves for load-bearing vocabulary — 11551's epistyle/stylus drift is the warning), then
+the blind polarity read (4a), index, ship. Pattern 18 is live corpus-wide — agents' rules
+file already carries it.
+
+**Corpus now: 103 englished works. Queue after Richard: 4 prepared.** Then the Pattern 18
+census (targets named in `WITHDRAWN-NET.md`) and item 5, the plate reads (~12 GB free
+disk 2026-08-15).
 
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-15b — THE WITHDRAWN NET IS CLOSED. ⛔ NOT DEPLOYED.
 
