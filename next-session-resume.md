@@ -42,23 +42,53 @@ the cruces URL serves (smoke-tested per the Glabas lesson); the landing lists it
 Wilson ruled** — 11064's page serves 4 `cjnote` spans and 7561's 2. ⚠ That verification
 is DATED and expires. ✅ Pushed: `origin/master` = this session's head.
 
-### ▶▶ NEXT SESSION IS RICHARD — Wilson called it, 2026-08-15
+### ▶▶ NEXT SESSION IS RICHARD — Wilson called it 2026-08-15; SCOUTED 2026-08-16
 
-**11550, Richard of St Victor, *Explicatio in Cantica canticorum* (PL 196, 48 chunks,
-50,151 Latin words, badge First).** An **Opus volume run** — conventions frozen, no new
-genre (Song commentary, the corpus's most-practiced class; the Song-of-Songs standing
-rule applies: **each commentary stands on its own**, `translation-style.md` §Song).
-Estimated burn **~960K** at the ~20K/chunk rule. **The hard-stop ritual still runs at
-launch: state works/chunks/burn and ask "which model, and go?" — Wilson's call tonight
-names the work, not the launch.** Fleet discipline: ≤6 parallel Opus agents, ~5 chunks
-each → per-agent `cruces-<firstChunk>.md` and **the merge is a required step** (diff the
-halves for load-bearing vocabulary — 11551's epistyle/stylus drift is the warning), then
-the blind polarity read (4a), index, ship. Pattern 18 is live corpus-wide — agents' rules
-file already carries it.
+**11550, Richardus S. Victoris, *Explicatio in Cantica canticorum* (PL 196,
+0405A–0524A): 48 chunks, 50,151 Latin words, 183 notes, 474 column marks, badge
+First.** An Opus volume run — conventions frozen, no new genre; the Song standing rule
+applies (**each commentary stands on its own**, `translation-style.md` §Song).
+**The hard-stop ritual still runs at launch: ~960K estimated burn at the 20K/chunk
+rule; state it and ask "which model, and go?" — Wilson's call named the work, not the
+launch.** Fleet: ≤6 parallel Opus agents, ~5 chunks each (48 chunks ≈ 10 agents, two
+rounds); per-agent `cruces-<firstChunk>.md`, **merge REQUIRED** with the load-bearing
+vocabulary diff (11551's epistyle/stylus drift is the warning) — for this work that
+vocabulary is *sponsa/sponsus* (bride/bridegroom), *dilectus* (the beloved),
+*lectulus* (**"little bed" — the exposition itself turns on *lectus* vs. *lectulus*,
+chunk 0002: "non in lecto, sed in lectulo," so the diminutive is load-bearing**),
+*meditatio/contemplatio/compunctio*, *mens/anima*. Then the blind polarity read (4a),
+index, ship. Pattern 18 is live corpus-wide — agents' rules file already carries it.
 
-**Corpus now: 103 englished works. Queue after Richard: 4 prepared.** Then the Pattern 18
-census (targets named in `WITHDRAWN-NET.md`) and item 5, the plate reads (~12 GB free
-disk 2026-08-15).
+**Scouted 2026-08-16, banked from the chunks' own text:**
+
+- **Structure:** PROLOGUS (chunks 0–1) + CAPUT I–XLI, each head `CAPUT N. *italic
+  summary*` (translate heads, 11064 precedent). Lemma in ITALICS + `[n: (Cant. N)]`,
+  then exposition re-quoting lemma fragments in italics. **ZERO guillemets in the
+  whole work; zero bracketed variants** — the quotation texture is italic-woven.
+- ⚠⚠ **This is 7a″'s home genre — "the lemma quietly conformed" is the dominant
+  failure in scripture commentary; every agent prompt carries that section.** Lemma
+  renderings come from THIS work's printed Latin, never harmonized with the five
+  shipped Song commentaries or with the Vulgate.
+- ⭐ **A split-type candidate already found: chunk 0020 prints `hos a tendit`** —
+  *attendit* split (Pattern 10 + 7a⁗-b), self-corroborated by `bene agentes attendit`
+  printed correctly moments later in the same chunk. Hand it to that range's agent.
+- ⚠ **Attribution is DISPUTED and the byline question is real** (the 11545 lesson: a
+  wrong byline is its own defect). Triage: some manuscripts say Pseudo-Richard; one
+  scholarly line gives it to **Tajón of Zaragoza**. Badge unaffected (`workStatus:
+  none` — though **confidence: medium**, batch 50; the First claim stands on the
+  recorded evidence, do not go hunting). **The citation texture corroborates the
+  dispute: 40 of 183 notes are JOB** — a strange spine for a Song commentary, exactly
+  what a Tajón/Gregory (*Moralia*) compilation predicts. ⬜ State the dispute in
+  `data/work-about.json` ("On this text") before deploy — as a dispute, adjudicating
+  nothing.
+- Author bio exists (`Richardus S. Victoris`); Latin pre-chunked and validated. Note
+  shapes: Cant 47 · Job 40 · Psal 16 · Prov 8 · Joan 7 · Matth 6 · I/II (Cor etc.) —
+  standard alias fare; watch `unparsed` at index time. **Commit each agent's range as
+  it verifies, BEFORE the polarity read starts** (the 6963 crash lesson).
+
+**Corpus now: 103 englished works. Queue after Richard: 4 prepared.** Then the
+Pattern 18 census (targets named in `WITHDRAWN-NET.md`) and item 5, the plate reads
+(~12 GB free disk, 2026-08-15).
 
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-15b — THE WITHDRAWN NET IS CLOSED. ⛔ NOT DEPLOYED.
 
