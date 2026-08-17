@@ -1,11 +1,19 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE 2026-08-17 — 11550 RICHARD IS DONE AND STAGED. ⛔ NOT DEPLOYED, NOT PUSHED.
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-17 — 11550 RICHARD IS DONE, DEPLOYED AND VERIFIED. ⛔ NOT PUSHED.
 
 **Richard of St Victor (attrib.), *Explicatio in Cantica canticorum* (11550, PL 196,
 0405A–0524A): all 48 chunks englished, verified, merged, blind-read, indexed and staged.**
-`master` = `846df02`, tree clean, **6 commits unpushed** (push is protected — not asked
-for). Badge will read **First English translation** (`workStatus: none` untouched;
+**✅ DEPLOYED 2026-08-17** — `migne-f67tmbk1l`, Production, **Ready first try** with
+`--scope wilson-pruitts-projects`, and **verified live BY BODY**: work page 200 with the
+First badge, 43 sections in both languages (86 heads), `class="sic"` 40 / `varnote` 46 /
+`cjnote` 20 / `dittog` 1 all matching source counts, **zero raw brackets**, the *a se* fix
+("by herself") live, *ferculum* and *whitening* live, **`CAPUT XXXII` / `CHAPTER XXXII`
+serving with NO period in both languages** (Pattern 8 surviving to production), the cruces
+URL 200 (smoke-tested per the Glabas lesson), the landing listing Richard, and `/scripture/`
+reading **104 works**. ⚠ **That verification is DATED and expires — never restate live state
+from a note.** `master` = `f42a8d5`, tree clean, **11 commits unpushed** (push is protected
+and was not asked for). Badge will read **First English translation** (`workStatus: none` untouched;
 `englishState: ours`). Corpus is now **104 englished works**.
 
 Totals: **46 `[var:]` · 40 `[sic:]` · 20 `[cj:]` · 1 `[d:]` · 183 `[n:]` at exact parity**,
