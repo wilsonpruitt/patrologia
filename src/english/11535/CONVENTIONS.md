@@ -84,8 +84,7 @@ Seven spans in 0052–0054 (*insolitum* / *non solitum* / *insolentia*; *inviden
 prose and glossed beside it — and the plate prints them roman because in a Latin text they needed
 no marking. In English a bare Latin word has no exponent at all, which is Pattern 12's own logic
 (*normalize the language; mark the page*). **Kept, and declared here rather than done silently.**
-⬜ **Wilson can reverse this in one line**; it is the only break from 1:1 italic structure in the
-work.
+✅ **RATIFIED BY WILSON, 2026-08-17.** It is the only break from 1:1 italic structure in the work.
 
 ### The oath exception
 
@@ -157,9 +156,32 @@ the lemma dropping *deorum* at 1305C while both re-quotations restore it.
   only because the form answers to no lexical entry. The work's own title word.
 - **`[sic: *tamem*]`** (38 files) and **`[sic: *torpore*]`** (syntactic slot only, no rarity
   evidence) are the two weakest in the work and say so in their entries.
-- ⬜ **Two sites want a plate read and are hedged, not guessed:** the ***angüstiae*** diaeresis at
-  1233A — `angü` is a **hapax across all 87M words of the PL TEI** and the only umlaut in this
-  work, `[sic:]` **declined** — and `[sic: *sommia*]` at 1234A.
+### ✅ THE TWO PLATE READS ARE DONE (2026-08-17) — both settled, opposite ways
+
+Witness: the archive.org Google scan of PL 196, `patrologiaecurs104unkngoog` (metadata volume 196),
+**PDF page 637 = columns 1233/1234**, rasterized at 450 dpi and read at the word.
+
+- ✅ **`[sic: *sommia*]` @1234A CONFIRMED — it is Migne's own type.** The scan prints the lemma
+  *Præcepit autem rex, ut convocarentur arioli, et magi, et malefici, et Chaldæi, ut indicarent regi
+  **sommia** sua* in italic, plainly double-*m*. Two independent witnesses now agree. The marker
+  stands.
+- ⛔ **The *angüstiae* diaeresis @1233A is OURS, not Migne's — and it is now patched.** The plate
+  prints *sessio in agnitione **angustiæ*** with the ordinary æ ligature and **no diacritic**.
+  ⭐ **The mechanism is visible in the same image:** two isolated specks of offset ink sit in the
+  blank band **above** the first text line, roughly over *ngu* — too high to be a diacritic and
+  spaced about three letters apart, where a diaeresis would sit tight above the u at x-height (the
+  dotted *i* of *agnitione*, on the same line, shows what tight looks like). A transcriber taking
+  those specks for a diaeresis and attaching them to the nearest vowel produces exactly the reading
+  the TEI carries. The same scan shows a comparable ink blot under *convocarentur* in col. 1234.
+  With `angü` a **hapax across all 5,276 files and 87M words** of the PL TEI, and the same etymology
+  printed twice more in the same two columns as plain *angustiae*, this is a **digitization defect**.
+  **`data/tei-patches/11535.json` written and applied through `chunk-work.mjs`** — one file, one
+  character, 540 column marks / 336 notes / 54,433 words conserved. The `[sic:]` that was correctly
+  **declined** pending this read is never needed, and the English is unaffected ("anguish" either
+  way).
+  ⚑ **The general lesson, and it is cheap to repeat:** where our text carries a diacritic or a form
+  that is a corpus-wide hapax, suspect **our** files first. The plate read cost one PDF and two
+  crops.
 
 ## ⬜ Open for Wilson — nothing downstream is blocked on these
 

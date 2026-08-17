@@ -1,0 +1,12 @@
+{
+  "note": "Corrections to the Corpus Corporum TEI for PL works, applied to the XML stream by chunk-work.mjs BEFORE the transform, so a re-harvest + re-chunk reproduces them. These are corrections to a DIGITIZATION, never to Migne — a defect in Migne's own plate is rendered literally and logged as a crux (translation-style.md Pattern 7). Patches are applied literally and idempotently; a find string that does not match, or matches more than once, is a hard error.",
+  "patches": [
+    {
+      "work": "11535 Richard of St Victor (attrib.), De eruditione hominis interioris (PL 196)",
+      "col": "1233A",
+      "find": "<hi>sessio in agnitione angüstiae.</hi>",
+      "replace": "<hi>sessio in agnitione angustiae.</hi>",
+      "provenance": "PLATE READ, 2026-08-17. The Corpus Corporum TEI prints a diaeresis on the u — 'angüstiae' — at this one site. Migne's plate does not. Evidence: (1) the archive.org Google scan of PL 196 (patrologiaecurs104unkngoog, metadata volume 196), page 637 of the PDF = columns 1233/1234, rasterized at 450 dpi and read at the word: the first line of col. 1233 prints 'sessio in agnitione angustiæ.' in italic, with the ordinary æ ligature and NO diacritic over the u. Compared against the dotted i of 'agnitione' on the same line, which sits tight above its letter at x-height. (2) THE LIKELY MECHANISM IS VISIBLE IN THE SAME IMAGE: two isolated specks of offset ink sit in the blank band ABOVE that first text line, roughly over 'ngu' — too high to be a diacritic, and spaced about three letters apart rather than the width of a diaeresis. A transcriber (human or OCR) taking those specks for a diaeresis and attaching them to the nearest vowel produces exactly the reading the TEI carries. The same scan shows a comparable ink blot under 'convocarentur' in col. 1234. (3) 'angü' is a HAPAX across the entire PL TEI, 5,276 files and 87M words — this site — and it is the only umlaut anywhere in this work, while the same etymology is printed twice more in the same two columns (1232A, 1232B) as plain 'angustiae'. (4) Migne's plate is NOT emended: the printed word is 'angustiae' on both witnesses once the speck is discounted, and no letter is added, removed, or changed. NO [sic:] was ever placed at this site — it was correctly declined pending this read, per the standing rule that a defect in our files is never attributed to Migne."
+    }
+  ]
+}
