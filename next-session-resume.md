@@ -1,5 +1,102 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-17b — 11535 RICHARD IS LIVE, AND A CORPUS-WIDE FALSE BADGE IS FIXED
+
+**Richard of St Victor (attrib.), *De eruditione hominis interioris* (11535, PL 196,
+1229D–1366A): 58 chunks, twelve agents, merged, blind-read, indexed, deployed and verified
+by body.** ✅ **LIVE 2026-08-17**, `migne-f7hou96qg`, Ready. **PUSHED** — `master` =
+`cb2d251`, tree clean, 0 unpushed. Corpus is now **105 englished works**; scripture index
+5,543 citations / 105 works.
+
+Totals: **118 `[var:]` · 36 `[sic:]` · 5 `[cj:]` · 338 `[n:]` at exact parity**, 117 heads,
+index **340 scripture / 117 heads / ZERO unparsed**, `?`/`!` deltas **zero** corpus-wide,
+zero undeclared brackets, 6 em-dashes total (0.1/chunk against a corpus median of 5.3).
+Badge reads **New English translation** (`workStatus: unclear`, untouched). ⚠ **That
+verification is DATED and expires — never restate live state from a note.**
+
+### ⛔⛔ THE FIND OF THE SESSION — READ THIS EVEN IF YOU READ NOTHING ELSE
+
+**`build-work-page.mjs` hardcoded "First English translation" into the meta line of EVERY PL
+work page, unconditionally.** `build-landing.mjs` and `build-work-page-pg.mjs` have always
+computed the claim from `workStatus`, so **the landing page told the truth while the work
+page one click below asserted priority.** Ten works were publicly claiming scholarly
+priority with no evidence: **9741 (Abbo's *Canones* — the founding case of the 2026-07-29
+repair), 11545, 11546, 11548 (the three downgraded on 2026-07-28 for exactly this reason),
+11061, 11065, 11535, 11536, 11551, 11556.**
+
+⭐ **THE FALSE CLAIM SURVIVED BOTH FIXES MADE TO REMOVE IT**, because the claim was written
+in two places and only one was known. Fixed at source (helper mirrors `isFirstEnglish`, with
+a comment saying why it exists), all 97 PL work pages rebuilt, audited after: **0 pages claim
+First against their triage**. Found by a **post-deploy body check** — its landing entry read
+New and its own page read First. **Status codes would never have caught it.**
+⬜ **Owed: the same audit for any OTHER claim that is computed in one builder and written in
+another.** Nobody has checked whether this is the only duplicated assertion.
+
+### ⭐⭐ The blind polarity read found TWELVE our-side defects; `verify-english` passed every one
+
+Six readers, 58 chunks, no cruces opened. **Every finding was checked against the cruces only
+AFTER it was formed, and not one of the twelve was logged** — the columns are in the cruces
+for other reasons. **A flagged passage is not a checked passage**, second work running.
+Archetypes: **1339B/C silently restored the Vulgate's *tuum* onto Migne's bare *Regnum*,
+twice**, while our own gloss three lines later printed "The kingdom" · **1333A** flattened
+*istud* to "That", dissolving the plate's contradiction in one pronoun · **1288C** supplied a
+transitive *vertit* the plate does not print · **1265D** bound *contra Apostoli sententiam* to
+the negated verb and inverted Gal. 6:3.
+
+⚠ **Two of the three worst sites were SEEN and DECLINED by the translating agent** — 1356A
+(*ut sus* = *ursus* split; the agent called it "the site where the faithful English most
+misleads" and left it) and 1357A (*redere*, declined after a corpus control that missed the
+plate printing *rodunt* intact 30 lines down the same chunk). **The cruces cannot audit
+itself.**
+
+⭐⭐ **The 7a″ protocol worked so well that the failure MIGRATED.** Every launch message named
+its lemma words; every lemma chain came through clean (Daniel 4's re-quotations, 1 Cor. 13's
+nine negations, Ps. 113's seven, Dan. 2:20 printed three times at three lengths). **All the
+damage is in the author's own rhetorical pairs** — morning/evening, *illud*/*istud*, *aula
+Babylonis*, distributed genitives — where no prompt pointed. ⬜ **Next lemma-and-gloss work:
+name the AUTHOR'S antithesis-words in the prompt too, not only the scripture.**
+
+⚠ **Blind-read prompts must also bar GREPPING the work's English directory.** One reader was
+contaminated by a grep hit into `cruces.md`, disclosed it, and voided its own strongest
+finding. Barring `open` is not enough; the answer key arrives through search results.
+
+### Method results worth carrying
+
+- **Two plate reads, opposite outcomes** (archive.org Google scan of PL 196,
+  `patrologiaecurs104unkngoog`, PDF p. 637 = cols 1233/1234, 450 dpi). `sommia` @1234A
+  **confirmed** as Migne's own type. The *angüstiae* diaeresis @1233A is **OURS** — the plate
+  prints plain *angustiæ*, and **the mechanism is visible in the image**: two specks of offset
+  ink float in the band ABOVE the line, too high and too widely spaced to be a diaeresis,
+  which a transcriber attached to the nearest vowel. `data/tei-patches/11535.json` written and
+  applied through `chunk-work.mjs`. ⚑ **Where our text carries a diacritic that is a
+  corpus-wide hapax, suspect OUR files first — the read cost one PDF and two crops.**
+- **A fixed-vocabulary pair earns its rigidity only where the two words actually MEET.** Two
+  of my own ratifications were narrowed at the merge: *intellectus*/*intelligentia* never
+  collide once in 58 chunks (and the ruling cost 0038 two unreadable phrases);
+  *scientia*/*cognitio* collide in exactly one chapter head. **Check for collisions before
+  ruling, not after.**
+- **Agreement between agents is not evidence.** Three agents reported that Migne's `[n:]`
+  notes name the wrong book "repeatedly"; checked one at a time, **two of six collapsed** —
+  `(Isai. XL)` because **Richard's own prose says *quod Isaias dixit***, and `(Ephes. I)`
+  because Eph. 1:11 reads *qui operatur omnia*. Four genuine ones corrected in
+  `citation-corrections.json`, each verified to have no following *Ibid.* depending on it.
+- **Pattern 18 bar WIDENED slightly** (Wilson, 2026-08-17): **a stranded correlative whose
+  answering member is printed and whose own member is not** is inside the bar
+  (`translation-style.md` updated). Mood, voice, number, person and prepositions stay declined.
+- **Retained-Latin italics ratified by Wilson** — 7 etymological mentions in 0052–0054 keep
+  italics where the plate prints roman; the only 1:1 italic break in the work.
+
+**Burn: ~3.4M** against ~2.7M quoted (fleet ~2.5M, polarity read ~0.85M); the overrun is the
+merge and the two plate reads, neither of which was in the estimate. **~40K/chunk holds.**
+
+▶▶ **Front when resumed:** the **Pattern 18 corpus census** (this work alone added ~35 named
+candidates; four strongest: 1295A *minus*/*imis*, 1246C *amittere*/*admittere*, 1261A
+*praefectis*/*perfectis*, 1360C *ab*/*ad subdiaconatum*), the **29-chunk `?`/`!` repair** in
+shipped works, the **`/method` page**'s missing "why translate this way" argument + sibling
+links (`NOTES-method-page.md`), and **3 prepared works** in the queue (smallest: Gilbert
+Foliot, 11613, 53 chunks). Still open: the 11632 plate read on `[sic: *informen t*]`, the 3
+Glabas sermons indexing 0 scripture citations, 10083 @0493D / 9604 @1347D.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-17 — 11550 RICHARD IS DONE, DEPLOYED AND VERIFIED. ⛔ NOT PUSHED.
 
 **Richard of St Victor (attrib.), *Explicatio in Cantica canticorum* (11550, PL 196,
