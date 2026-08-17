@@ -1,5 +1,103 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-17 — 11550 RICHARD IS DONE AND STAGED. ⛔ NOT DEPLOYED, NOT PUSHED.
+
+**Richard of St Victor (attrib.), *Explicatio in Cantica canticorum* (11550, PL 196,
+0405A–0524A): all 48 chunks englished, verified, merged, blind-read, indexed and staged.**
+`master` = `846df02`, tree clean, **6 commits unpushed** (push is protected — not asked
+for). Badge will read **First English translation** (`workStatus: none` untouched;
+`englishState: ours`). Corpus is now **104 englished works**.
+
+Totals: **46 `[var:]` · 40 `[sic:]` · 20 `[cj:]` · 1 `[d:]` · 183 `[n:]` at exact parity**,
+ratio 1.49 (75,097 / 50,355), 43 sections, index **184 scripture / 43 heads / ZERO
+unparsed**, apparatus rendering at exactly its source counts, `scan-raw-markers` clean on
+all 104 pages, cruces page **already built** (not left for deploy — the Glabas 404).
+`polarity-record` gate: **104/104**.
+
+- ⭐⭐ **THE BLIND POLARITY READ FOUND EIGHT OUR-SIDE DEFECTS AND `verify-english` HAD
+  PASSED EVERY ONE.** Six readers, 8 chunks each, no cruces file opened. The archetype:
+  **0502D's *a se* rendered "by him"**, which transferred the cleansing from the bride to
+  Christ and **conformed the gloss to expected doctrine** — it read better than the truth.
+  Also *a perficiendo* as location not separation (0428C), *expugnant* given a singular
+  subject so faith became the aggressor (0439B), **two `[sic:]` quarantines that had
+  swallowed the clause's only verb (0491B) and the earthly half of an antithesis (0490D)**,
+  a feminine relative mis-bound to Christ (0493A), a silent person-switch mid-run (0502B–C),
+  four co-subjects collapsed to one (0457C). Full account in `src/english/11550/cruces.md`
+  §7.
+- ⚑⚑ **TWO NEW GENERAL LESSONS, both worth carrying to every future work:**
+  **(1) Checking that the LATIN heads are uniform does NOT check ours** — English heads had
+  drifted three ways (`CHAPTER NINE`/`TEN`/`ELEVEN` against numerals) while the Latin was
+  uniform, and one split chapter's summary read "caution" in one chunk and "wariness" in
+  the other. **Heads are an indexed field**, so a split chapter indexes under two titles.
+  **(2) `scan-raw-markers.mjs` knows only 10 DECLARED marker forms**, so an *undeclared*
+  bracket (`[think]`, `[men]`, `[is occupied]` — 8 of them here) passes it and reaches the
+  reader as literal brackets. Grammatical ellipsis supplies must be plain text; a genuinely
+  editorial supply needs `[ed:]`.
+- ⭐ **The 7a″ protocol was applied properly for the first time and it worked:** the actual
+  Song lemma was extracted from every chunk and **named in each agent's launch message**.
+  Result: **no conformed lemma anywhere in the work**, in the genre where 7a″ predicts
+  conformation as the dominant failure — with four resisted pulls recorded as positive
+  evidence (Matt. 23:24's reversed camel/gnat order, 1 John 3:2's printed singular,
+  3 Kings 19:12's *aurae levis*, Ps. 33:9's *Gustat*). ⚠ **My first extraction was
+  under-inclusive** (it required an `[n: (Cant.)]` note, so a lemma printed without one
+  vanished — it mislabelled 0024 as lemma-less and an agent caught it). Extract from the
+  italic spans, not the notes.
+- ⭐ **The corpus is its own control, and it is now the fleet's reflex.** `Fons nortorum` for
+  Cant. 4:15's *Fons hortorum* (0035) settled by `Fons hortorum` in 61 files against
+  `nortorum` in one — this one. Same method confirmed *Pigmen* (861 `pigment-` vs one bare
+  `pigmen`), *emavi*, *ordor*, *signarus*, *terestrem*, *emoliescunt*, *comprenhendere*.
+  ⚠ One marker is honestly weaker and **says so in the entry**: *desirabilis*, 6 occurrences
+  across 6 files.
+- ⚑ **The merge overturned one of my own mid-flight ratifications**, and that is what a merge
+  is for: ***candidatio* is TRANSLATED ("whitening")**, not kept in Latin — all five sites
+  stand beside *candidus*/*candet*/*candidat* and English white/whiten/whitening shares the
+  root, so §Song case 2's condition for keeping Latin is not met. Two of those sites had also
+  **added italics the plate lacks**. Also ruled at the merge: **`[var:]` fires on a
+  continuous quotation functioning as proof-text or as the thing glossed, italics or `[n:]`
+  or not** — Pattern 14 has no formatting precondition, and its founding case (10083) was
+  scripture introduced as proof. Ps. 26:4 @0489A promoted on that ground.
+- ⚑ **CAPUT XLII IS RHYMED VERSE printed as prose** (*operta · portendit · referta*;
+  *Holoferni · spernis · sternis*) — **not lineated by us**, the plate's layout governs, and
+  the rhyme explains both the chapter's ellipses and its *tecum sit Deus* for *Dominus
+  tecum*. ⬜ **Wilson's, if he wants it: whether verse in this corpus is ever lineated**
+  (a rebuild, not a re-translation), and ***Papae* at 0522B**, left in italic Latin because
+  every English guesses at the poem's tone.
+- ⚠ **The work has 42 chapters, not the 41 the scouting note claimed** — `CAPUT XLII` is a
+  second head inside chunk 0047, the only multi-head chunk. `CAPUT XXXII` (0037) prints with
+  **no closing period**; preserved in both languages per Pattern 8.
+- ⚠ **Two Pattern 8 defects of OURS were caught by the question-mark parity check** — a
+  supplied `?` and `!` in the rhymed chapter where Migne prints commas. The work now has
+  **zero** sentence-type punctuation deltas. That check earned its keep for the second time
+  (it caught a vanished 46-word sentence in 11632).
+
+### ⬜ NEW CORPUS-WIDE FINDING, MEASURED, NOT SWEPT — Wilson's to schedule
+
+**136 of 1,013 chunks corpus-wide disagree with their Latin twin on `?`/`!`** — 112
+supplying a mark, and **29 in the "never delete" direction Pattern 8 calls the live
+defect**, concentrated in **11066 (11 chunks)**, then 11081/11065/11064/11058. Some are
+outright swaps (11058 turns a printed `!` into a `?` — the 11537 case the rule was written
+for). ~29 chunks of genuine repair in already-shipped works. **Semicolons were measured too
+and are NOT a defect claim**: English carries 14,241 against Migne's 10,965, but he prints
+plenty himself, so unlike em-dashes this is a rate question, not an absence. Do not sweep it.
+
+### ⚠ THE BURN RULE WAS WRONG AND IS NOW FIXED
+
+11550's 48 chunks over ten Opus agents cost **~1.88M against a ~960K estimate** at the old
+~20K/chunk rule — ~39K/chunk actual. `translation-runbook.md`'s hard-stop ritual now says
+**~40K/chunk for a lemma-and-gloss commentary**, and to state the polarity read as a second
+burn in the same breath. The extra cost is the 7a″ and corpus-as-control disciplines, and
+they are what produced the 46 `[var:]` and the eight caught defects — **but quote the true
+number.**
+
+▶▶ **Front when resumed:** the deploy of 11550 (Wilson's OK; `cd site && npx vercel --prod
+--archive=tgz --scope wilson-pruitts-projects` — the scope flag is required, see CLAUDE.md
+6a, and run the full step-8 checklist including `RECENT` in `build-landing.mjs`), then the
+**Pattern 18 corpus census** (targets in `WITHDRAWN-NET.md`), the **29-chunk `?`/`!` repair**
+above, and **4 prepared works** in the queue. Still open from before: the `/method` page's
+"why translate this way" argument + sibling links (`NOTES-method-page.md`), the 11632 plate
+read on `[sic: *informen t*]`, the 3 Glabas sermons indexing 0 scripture citations, and
+10083 @0493D / 9604 @1347D awaiting a decision.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-15c — 9637 SHIPPED, DEPLOYED, AND THE LITURGICAL REGISTER IS WRITTEN. ✅ DEPLOYED.
 
 **Auctor incertus, *Ordo ad regem benedicendum* (9637, PL 138, 1111C–1118C)** — the
