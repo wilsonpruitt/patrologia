@@ -231,6 +231,39 @@ const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.
 // (royal/patron names Corpus Corporum lists in the author array but who did not
 // write the work) are filtered out of author credit.
 const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
+// ── The priority claim ────────────────────────────────────────────────────────
+// FAIL SAFE, CLAUDE.md rule 8. "First English translation" is a public assertion
+// of scholarly priority and the one claim on this site a reader cannot check.
+// ⚠ THIS LINE WAS HARDCODED TO "First English translation" UNTIL 2026-08-17, so
+// every PL work page asserted priority regardless of its triage verdict, while
+// build-landing.mjs (which has always computed it) printed the truth one click
+// above. Found by a post-deploy body check on 11535, whose landing entry read
+// "New" and whose own page read "First". Keep this in step with
+// build-landing.mjs's isFirstEnglish(); absence of evidence is never evidence of
+// a first, and `ours` is in the not-verified set so shipping can never grant the
+// claim (rule 8's Abbo case).
+const NOT_VERIFIED_NONE = new Set(['unclear', 'ours', 'partial', null, undefined]);
+const PRIOR_ENGLISH = new Set(['full', 'partial', 'minimal', 'some', 'mostly']);
+const isFirstEnglish = (() => {
+  const works = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/works.json'), 'utf8'));
+  let tr = null;
+  const walk = o => {
+    if (tr) return;
+    if (Array.isArray(o)) return o.forEach(walk);
+    if (o && typeof o === 'object') {
+      if (Array.isArray(o.texts) && o.texts.some(t => String(t.idno) === String(idno)) && o.translation) { tr = o.translation; return; }
+      Object.values(o).forEach(walk);
+    }
+  };
+  walk(works);
+  if (!tr) { console.warn(`  (no works.json status for ${idno} — using "New English translation")`); return false; }
+  if (NOT_VERIFIED_NONE.has(tr.workStatus)) { console.warn(`  (workStatus "${tr.workStatus}" is not a verified none — using "New English translation")`); return false; }
+  return !PRIOR_ENGLISH.has(tr.workStatus);
+})();
+const claimHtml = isFirstEnglish
+  ? '<span class="first">First English translation</span>'
+  : '<span class="first fresh">New English translation</span>';
+
 // Curated "On this text" paragraphs (data/work-about.json, keyed by textIdno).
 // Curated prose must live in data, never only in generated HTML — a rebuild
 // with no entry falls back to the generic paragraph.
@@ -311,7 +344,7 @@ ${nav('latina')}
     <p class="crumbs"><a href="/#shelf-pl-sec">Patrologia Latina</a> · <span>Vol. ${vol}</span> · ${authorLinks}</p>
     <h1>${esc(title.toUpperCase())}</h1>
     <p class="byline">${authorByline}</p>
-    <p class="meta">PL ${vol}, coll. ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; <span class="first">First English translation</span> &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>
+    <p class="meta">PL ${vol}, coll. ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; ${claimHtml} &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>
   </div>
 </div>
 ${authorCards.join('\n')}
