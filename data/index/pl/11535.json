@@ -1,0 +1,2818 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 6487,
+  "textIdno": 11535,
+  "title": "De eruditione hominis interioris",
+  "authors": [
+    "Richardus S. Victoris"
+  ],
+  "authorsDisplay": [
+    "Richard of Saint Victor"
+  ],
+  "series": "pl",
+  "volume": 196,
+  "colFirst": "1229d",
+  "colLast": "1366a",
+  "counts": {
+    "scripture": 340,
+    "fontes": 0,
+    "heads": 117,
+    "headnotes": 1,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Rom.13",
+      "refDisplay": "Rom. XIII",
+      "column": "1233a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1233b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1235c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "1235d",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Cor.15.10",
+      "refDisplay": "Cor. XV",
+      "refKeyPrinted": null,
+      "corrected": true,
+      "correctionNote": "Migne prints the book ordinal-less, so no book name resolves and the note reached unparsed[]. The disambiguation is DETERMINATE, not a judgement: 2 Corinthians has 13 chapters, so a chapter XV can only be 1 Corinthians, and the printed words are 1 Cor. 15:10 verbatim. refDisplay keeps what Migne printed.",
+      "column": "1236a",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "1236a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan, II",
+      "column": "1236d",
+      "chunk": 2,
+      "inline": true
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1238b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1240a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Luke.17",
+      "refDisplay": "Luc. XVII",
+      "column": "1240a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "1240b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.2",
+      "refDisplay": "Psal. II",
+      "column": "1240b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.81",
+      "refDisplay": "Psal. LXXXI",
+      "column": "1240d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1241b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1243b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1248b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Isa.38",
+      "refDisplay": "Isai. XXXVIII",
+      "column": "1248d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.98",
+      "refDisplay": "Psal. XCVIII",
+      "column": "1248d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.115",
+      "refDisplay": "Psal. CXV.",
+      "column": "1248d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Isa.49",
+      "refDisplay": "Isai. XLIX",
+      "column": "1248d",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.11",
+      "refDisplay": "I Cor. XI",
+      "column": "1248d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Sir.32",
+      "refDisplay": "Eccli. XXXII",
+      "column": "1249a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1250b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "1250c",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.33",
+      "refDisplay": "Psal. XXXIII",
+      "column": "1250d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "Psal. XV",
+      "column": "1251a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Dan.9",
+      "refDisplay": "Dan. IX",
+      "column": "1251b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Dan.9",
+      "refDisplay": "ibid.",
+      "antecedent": "Dan. IX",
+      "antecedentColumn": "1251b",
+      "ibidResolved": true,
+      "column": "1251b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1251b",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Cor.14",
+      "refDisplay": "I Cor. XIV",
+      "column": "1251c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.79",
+      "refDisplay": "Psal. LXXIX",
+      "column": "1252a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.79",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. LXXIX",
+      "antecedentColumn": "1252a",
+      "ibidResolved": true,
+      "column": "1252b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "1252c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I",
+      "column": "1252c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI.",
+      "column": "1252d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1253a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "1253a",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX",
+      "column": "1253b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.13",
+      "refDisplay": "Psal. XIII",
+      "column": "1253b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Heb.4",
+      "refDisplay": "Hebr. IV",
+      "column": "1253b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Wis.9",
+      "refDisplay": "Sap. IX",
+      "column": "1253b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.12",
+      "refDisplay": "Psal. XII",
+      "column": "1253b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1254b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.111",
+      "refDisplay": "Psal. CXI",
+      "column": "1255b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Job.3",
+      "refDisplay": "Job. III",
+      "column": "1256b",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "Psal. XXXVIII",
+      "column": "1256c",
+      "chunk": 11
+    },
+    {
+      "refKey": "1Pet.3",
+      "refDisplay": "I Petr. III",
+      "column": "1256d",
+      "chunk": 11
+    },
+    {
+      "refKey": "Dan.9",
+      "refDisplay": "Dan. IX",
+      "column": "1258a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.43",
+      "refDisplay": "Psal. XLIII",
+      "column": "1258b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.43",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. XLIII",
+      "antecedentColumn": "1258b",
+      "ibidResolved": true,
+      "column": "1258c",
+      "chunk": 12
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "1258c",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1260b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Ps.77",
+      "refDisplay": "Psal. LXXVII",
+      "column": "1260b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Jer.1",
+      "refDisplay": "Jer. I",
+      "column": "1260b",
+      "chunk": 13
+    },
+    {
+      "refKey": "Luke.17",
+      "refDisplay": "Luc. XVII",
+      "column": "1261a",
+      "chunk": 13
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1261b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.76",
+      "refDisplay": "Psal. LXXVI.",
+      "column": "1262b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII",
+      "column": "1262b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.73",
+      "refDisplay": "Psal. LXXIII",
+      "column": "1262c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "Psal. XXXVII",
+      "column": "1262c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Job.29",
+      "refDisplay": "Job. XXIX.",
+      "column": "1262c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "1262c",
+      "chunk": 14
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "1263b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X",
+      "column": "1263b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc, XXIV",
+      "column": "1263d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.41",
+      "refDisplay": "Psal. XLI",
+      "column": "1264b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.49",
+      "refDisplay": "Psal. XLIX",
+      "column": "1264b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI",
+      "column": "1264c",
+      "chunk": 15
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1265b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Obad.4",
+      "refDisplay": "Abd. IV",
+      "column": "1265d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.30",
+      "refDisplay": "Job XXX",
+      "column": "1266a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.7",
+      "refDisplay": "Job VII",
+      "column": "1266a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.13",
+      "refDisplay": "Job XIII",
+      "column": "1266a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Ps.124",
+      "refDisplay": "Psal. CXXIV",
+      "column": "1266c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1267a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Lam.2",
+      "refDisplay": "Thren. II",
+      "column": "1267c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1267c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.89",
+      "refDisplay": "Psal. LXXXIX",
+      "column": "1267c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.48",
+      "refDisplay": "Psal. XLVIII",
+      "column": "1267d",
+      "chunk": 17
+    },
+    {
+      "refKey": "Jer.2",
+      "refDisplay": "Jer. II",
+      "column": "1267d",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII",
+      "column": "1268a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Rom.14",
+      "refDisplay": "Rom. XIV",
+      "column": "1268a",
+      "chunk": 17
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "1268b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Ps.49",
+      "refDisplay": "Psal. XLIX",
+      "column": "1268d",
+      "chunk": 17
+    },
+    {
+      "refKey": "1Cor.10",
+      "refDisplay": "I Cor. X",
+      "column": "1269c",
+      "chunk": 18
+    },
+    {
+      "refKey": "Matt.24",
+      "refDisplay": "Matth. XXIV",
+      "column": "1270b",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ezek.18",
+      "refDisplay": "Ezech. XVIII",
+      "column": "1270c",
+      "chunk": 18
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1270d",
+      "chunk": 18
+    },
+    {
+      "refKey": "Rev.8",
+      "refDisplay": "Apoc. VIII.",
+      "column": "1270d",
+      "chunk": 18
+    },
+    {
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
+      "column": "1271b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Luke.9",
+      "refDisplay": "Luc. IX",
+      "column": "1271c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Rev.8",
+      "refDisplay": "Apoc. VIII",
+      "column": "1271c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Rev.2",
+      "refDisplay": "Apoc. II",
+      "column": "1271d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Isa.3",
+      "refDisplay": "Isa. III",
+      "column": "1272a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Rev.3",
+      "refDisplay": "Apoc. III",
+      "column": "1272b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Obad.1",
+      "refDisplay": "Abd. I",
+      "column": "1272b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Isa.47",
+      "refDisplay": "Isa. XLVII",
+      "column": "1272b",
+      "chunk": 19
+    },
+    {
+      "refKey": "Jer.2",
+      "refDisplay": "Jer. II.",
+      "column": "1272c",
+      "chunk": 19
+    },
+    {
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccle. II",
+      "column": "1273a",
+      "chunk": 19
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1276b",
+      "chunk": 21
+    },
+    {
+      "refKey": "Jer.5",
+      "refDisplay": "Jer. V",
+      "column": "1276c",
+      "chunk": 21
+    },
+    {
+      "refKey": "Isa.55",
+      "refDisplay": "Isa. LV",
+      "column": "1276c",
+      "chunk": 21
+    },
+    {
+      "refKey": "Ps.49",
+      "refDisplay": "Psal. XLIX",
+      "column": "1277a",
+      "chunk": 21
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1277a",
+      "chunk": 21
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I.",
+      "column": "1279a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "ibid.",
+      "antecedent": "Eccle. I.",
+      "antecedentColumn": "1279a",
+      "ibidResolved": true,
+      "column": "1279a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Rom.6",
+      "refDisplay": "Rom. VI.",
+      "column": "1279a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Philip. III",
+      "column": "1279a",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.43",
+      "refDisplay": "Psal. XLIII",
+      "column": "1279b",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX",
+      "column": "1279c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII",
+      "column": "1279c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1280b",
+      "chunk": 22
+    },
+    {
+      "refKey": "2Cor.1",
+      "refDisplay": "II Cor. I",
+      "column": "1281c",
+      "chunk": 23
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "1281c",
+      "chunk": 23
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1282b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Ps.48",
+      "refDisplay": "Psal. XLVIII",
+      "column": "1282d",
+      "chunk": 24
+    },
+    {
+      "refKey": "Sir.7",
+      "refDisplay": "Eccli. VII",
+      "column": "1282d",
+      "chunk": 24
+    },
+    {
+      "refKey": "Luke.17",
+      "refDisplay": "Luc. XVII",
+      "column": "1283b",
+      "chunk": 24
+    },
+    {
+      "refKey": "Dan.2.41",
+      "refDisplay": "Dan. I",
+      "refKeyPrinted": "Dan.1",
+      "corrected": true,
+      "correctionNote": "Chapter numeral wrong: I for II. The printed words are Dan. 2:41 verbatim, the work's own running lemma, and Migne prints (Dan. II) over the same lemma elsewhere in this work. No source-attribution reading is available: Daniel is the book cited and the book quoted.",
+      "column": "1286b",
+      "chunk": 26
+    },
+    {
+      "refKey": "Eccl.10",
+      "refDisplay": "Eccle. X",
+      "column": "1286c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Job.30.7",
+      "refDisplay": "Job XXII",
+      "refKeyPrinted": "Job.22",
+      "corrected": true,
+      "correctionNote": "Chapter numeral wrong: XXII for XXX. Richard's own frame reads secundum sententiam Job, so the book is right and only the chapter is wrong; the words are Job 30:7.",
+      "column": "1287c",
+      "chunk": 26
+    },
+    {
+      "refKey": "Matt.24",
+      "refDisplay": "Matth. XXIV",
+      "column": "1288c",
+      "chunk": 27
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1288d",
+      "chunk": 27
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1288d",
+      "chunk": 27
+    },
+    {
+      "refKey": "Rom.5",
+      "refDisplay": "Rom. V",
+      "column": "1289b",
+      "chunk": 27
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1290b",
+      "chunk": 27
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "1290d",
+      "chunk": 27
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1291a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Isa.42",
+      "refDisplay": "Isa XLII",
+      "column": "1292c",
+      "chunk": 28
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "1293a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Rom.10",
+      "refDisplay": "Rom. X",
+      "column": "1293a",
+      "chunk": 28
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "1294c",
+      "chunk": 29
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1294d",
+      "chunk": 29
+    },
+    {
+      "refKey": "2Cor.12.7",
+      "refDisplay": "I Cor. XII",
+      "refKeyPrinted": "1Cor.12",
+      "corrected": true,
+      "correctionNote": "Book ordinal wrong: I for II. The words are 2 Cor. 12:7 verbatim and the frame is cum Apostolus ipse de seipso dicat. 1 Corinthians 12 is the body-and-members chapter and contains nothing of this.",
+      "column": "1295a",
+      "chunk": 29
+    },
+    {
+      "refKey": "Ps.105",
+      "refDisplay": "Psal. CV",
+      "column": "1295b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Isa.40",
+      "refDisplay": "Isa. XL",
+      "column": "1295b",
+      "chunk": 29
+    },
+    {
+      "refKey": "Ps.81",
+      "refDisplay": "Psal. LXXXI",
+      "column": "1296a",
+      "chunk": 30
+    },
+    {
+      "refKey": "Rom.13",
+      "refDisplay": "Rom. XIII",
+      "column": "1296b",
+      "chunk": 30
+    },
+    {
+      "refKey": "Isa.40",
+      "refDisplay": "Isai. XL.",
+      "column": "1296d",
+      "chunk": 30
+    },
+    {
+      "refKey": "1Thess.5",
+      "refDisplay": "I Thess. V.",
+      "column": "1297c",
+      "chunk": 30
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1297c",
+      "chunk": 30
+    },
+    {
+      "refKey": "Dan.2",
+      "refDisplay": "Dan. II",
+      "column": "1298c",
+      "chunk": 30
+    },
+    {
+      "refKey": "Tob.4",
+      "refDisplay": "Tob. IV",
+      "column": "1298d",
+      "chunk": 30
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1299a",
+      "chunk": 31
+    },
+    {
+      "refKey": "Job.27",
+      "refDisplay": "Job XXVII",
+      "column": "1299b",
+      "chunk": 31
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "1299b",
+      "chunk": 31
+    },
+    {
+      "refKey": "2Cor.1",
+      "refDisplay": "II Cor. I",
+      "column": "1299b",
+      "chunk": 31
+    },
+    {
+      "refKey": "Ps.16",
+      "refDisplay": "Psal. XVI",
+      "column": "1299c",
+      "chunk": 31
+    },
+    {
+      "refKey": "2Tim.6",
+      "refDisplay": "II Tim. VI",
+      "column": "1299d",
+      "chunk": 31
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1300a",
+      "chunk": 31
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "1300c",
+      "chunk": 31
+    },
+    {
+      "refKey": "Eccl.9",
+      "refDisplay": "Eccle. IX",
+      "column": "1301a",
+      "chunk": 31
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1302b",
+      "chunk": 32
+    },
+    {
+      "refKey": "Job.29",
+      "refDisplay": "Job XXIX",
+      "column": "1302b",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.76",
+      "refDisplay": "Psal. LXXVI",
+      "column": "1302d",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "1303c",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.147",
+      "refDisplay": "Psal. CXLVII",
+      "column": "1303d",
+      "chunk": 32
+    },
+    {
+      "refKey": "Eccl.7",
+      "refDisplay": "Eccle. VII",
+      "column": "1303d",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.128",
+      "refDisplay": "Psal. CXXVIII",
+      "column": "1304a",
+      "chunk": 32
+    },
+    {
+      "refKey": "Ps.115",
+      "refDisplay": "Psal. CXV",
+      "column": "1304a",
+      "chunk": 32
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1304c",
+      "chunk": 32
+    },
+    {
+      "refKey": "Isa.40",
+      "refDisplay": "Isai. XL",
+      "column": "1305a",
+      "chunk": 32
+    },
+    {
+      "refKey": "2Pet.1",
+      "refDisplay": "II Petr. I",
+      "column": "1305a",
+      "chunk": 32
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1305c",
+      "chunk": 33
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "1305c",
+      "chunk": 33
+    },
+    {
+      "refKey": "Exod.7",
+      "refDisplay": "Exod. VII",
+      "column": "1305c",
+      "chunk": 33
+    },
+    {
+      "refKey": "Ps.81",
+      "refDisplay": "Psal. LXXXI",
+      "column": "1305c",
+      "chunk": 33
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII",
+      "column": "1305d",
+      "chunk": 33
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "1306a",
+      "chunk": 33
+    },
+    {
+      "refKey": "Heb.1",
+      "refDisplay": "Hebr. I",
+      "column": "1308c",
+      "chunk": 34
+    },
+    {
+      "refKey": "John.17",
+      "refDisplay": "Joan. XVII",
+      "column": "1308c",
+      "chunk": 34
+    },
+    {
+      "refKey": "1John.3",
+      "refDisplay": "I Joan. III",
+      "column": "1308d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "1308d",
+      "chunk": 34
+    },
+    {
+      "refKey": "Rom.5",
+      "refDisplay": "Rom. V",
+      "column": "1309a",
+      "chunk": 34
+    },
+    {
+      "refKey": "1Cor.6",
+      "refDisplay": "I Cor. VI",
+      "column": "1309a",
+      "chunk": 34
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1309b",
+      "chunk": 34
+    },
+    {
+      "refKey": "Num.24",
+      "refDisplay": "Num. XXIV",
+      "column": "1309c",
+      "chunk": 34
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1310b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Mark.6",
+      "refDisplay": "Marc. VI",
+      "column": "1311b",
+      "chunk": 35
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1311d",
+      "chunk": 35
+    },
+    {
+      "refKey": "Acts.6",
+      "refDisplay": "Act. VI",
+      "column": "1312d",
+      "chunk": 36
+    },
+    {
+      "refKey": "Phil.4",
+      "refDisplay": "Philipp. IV",
+      "column": "1313b",
+      "chunk": 36
+    },
+    {
+      "refKey": "Ps.55",
+      "refDisplay": "Psal. LV",
+      "column": "1313b",
+      "chunk": 36
+    },
+    {
+      "refKey": "Ps.26",
+      "refDisplay": "Psal. XXVI",
+      "column": "1313b",
+      "chunk": 36
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "1313c",
+      "chunk": 36
+    },
+    {
+      "refKey": "2Cor.29",
+      "refDisplay": "II Cor. XXIX",
+      "column": "1313c",
+      "chunk": 36
+    },
+    {
+      "refKey": "Rom.11",
+      "refDisplay": "Rom. XI",
+      "column": "1313d",
+      "chunk": 36
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "1313d",
+      "chunk": 36
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "1314b",
+      "chunk": 36
+    },
+    {
+      "refKey": "Ps.81",
+      "refDisplay": "Psal. LXXXI",
+      "column": "1314b",
+      "chunk": 36
+    },
+    {
+      "refKey": "Phil.6",
+      "refDisplay": "Philipp. VI",
+      "column": "1314c",
+      "chunk": 36
+    },
+    {
+      "refKey": "Prov.15",
+      "refDisplay": "Prov. XV",
+      "column": "1314d",
+      "chunk": 37
+    },
+    {
+      "refKey": "Job.29",
+      "refDisplay": "Job XXIX",
+      "column": "1314d",
+      "chunk": 37
+    },
+    {
+      "refKey": "Wis.7",
+      "refDisplay": "Sap. VII",
+      "column": "1315a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "1315a",
+      "chunk": 37
+    },
+    {
+      "refKey": "Eccl.3",
+      "refDisplay": "Eccle. III.",
+      "column": "1315c",
+      "chunk": 37
+    },
+    {
+      "refKey": "Sir.3",
+      "refDisplay": "Eccli. III",
+      "column": "1315d",
+      "chunk": 37
+    },
+    {
+      "refKey": "Ps.127",
+      "refDisplay": "Psal. CXXVII",
+      "column": "1317b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "1317b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
+      "column": "1317c",
+      "chunk": 38
+    },
+    {
+      "refKey": "Eccl.34",
+      "refDisplay": "Eccle. XXXIV",
+      "column": "1317c",
+      "chunk": 38
+    },
+    {
+      "refKey": "Eccl.34",
+      "refDisplay": "Ibid.",
+      "antecedent": "Eccle. XXXIV",
+      "antecedentColumn": "1317c",
+      "ibidResolved": true,
+      "column": "1317c",
+      "chunk": 38
+    },
+    {
+      "refKey": "Heb.5",
+      "refDisplay": "Hebr. V",
+      "column": "1317d",
+      "chunk": 38
+    },
+    {
+      "refKey": "1Cor.9",
+      "refDisplay": "I Cor. IX",
+      "column": "1317d",
+      "chunk": 38
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "Coloss. III",
+      "column": "1318a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Eccl.1",
+      "refDisplay": "Eccle. I",
+      "column": "1318b",
+      "chunk": 38
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1318d",
+      "chunk": 38
+    },
+    {
+      "refKey": "Prov.28",
+      "refDisplay": "Prov. XXVIII",
+      "column": "1319a",
+      "chunk": 38
+    },
+    {
+      "refKey": "Heb.1",
+      "refDisplay": "Hebr. I.",
+      "column": "1319d",
+      "chunk": 39
+    },
+    {
+      "refKey": "John.13",
+      "refDisplay": "Joan. XIII",
+      "column": "1320a",
+      "chunk": 39
+    },
+    {
+      "refKey": "Luke.15",
+      "refDisplay": "Luc. XV",
+      "column": "1320b",
+      "chunk": 39
+    },
+    {
+      "refKey": "Matt.8",
+      "refDisplay": "Matth. VIII; Marc. V; Luc. VIII.",
+      "column": "1320d",
+      "chunk": 39
+    },
+    {
+      "refKey": "Mark.5",
+      "refDisplay": "Matth. VIII; Marc. V; Luc. VIII.",
+      "column": "1320d",
+      "chunk": 39
+    },
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "Matth. VIII; Marc. V; Luc. VIII.",
+      "column": "1320d",
+      "chunk": 39
+    },
+    {
+      "refKey": "1Cor.10",
+      "refDisplay": "I Cor. X",
+      "column": "1321a",
+      "chunk": 39
+    },
+    {
+      "refKey": "Ps.29",
+      "refDisplay": "Psal. XXIX",
+      "column": "1321a",
+      "chunk": 39
+    },
+    {
+      "refKey": "Ps.29",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. XXIX",
+      "antecedentColumn": "1321a",
+      "ibidResolved": true,
+      "column": "1321b",
+      "chunk": 39
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "Psal. XXXVII",
+      "column": "1321b",
+      "chunk": 39
+    },
+    {
+      "refKey": "Job.30",
+      "refDisplay": "Job XXX",
+      "column": "1322c",
+      "chunk": 40,
+      "inline": true
+    },
+    {
+      "refKey": "Ps.24",
+      "refDisplay": "Psal. XXIV.",
+      "column": "1322c",
+      "chunk": 40
+    },
+    {
+      "refKey": "Ps.87",
+      "refDisplay": "Psal. LXXXVII",
+      "column": "1322c",
+      "chunk": 40
+    },
+    {
+      "refKey": "Ps.87",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. LXXXVII",
+      "antecedentColumn": "1322c",
+      "ibidResolved": true,
+      "column": "1322c",
+      "chunk": 40
+    },
+    {
+      "refKey": "Job.7",
+      "refDisplay": "Job VII",
+      "column": "1323a",
+      "chunk": 40
+    },
+    {
+      "refKey": "Gen.4",
+      "refDisplay": "Gen. IV",
+      "column": "1323c",
+      "chunk": 40
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX",
+      "column": "1323d",
+      "chunk": 40
+    },
+    {
+      "refKey": "Ps.102",
+      "refDisplay": "Psal. CII.",
+      "column": "1323d",
+      "chunk": 40
+    },
+    {
+      "refKey": "Hab.3",
+      "refDisplay": "Habac. III",
+      "column": "1323d",
+      "chunk": 40
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1324b",
+      "chunk": 41
+    },
+    {
+      "refKey": "2Cor.4",
+      "refDisplay": "II Cor. IV",
+      "column": "1324c",
+      "chunk": 41
+    },
+    {
+      "refKey": "2Kgs.25",
+      "refDisplay": "IV Reg. XXV",
+      "column": "1325d",
+      "chunk": 41
+    },
+    {
+      "refKey": "Ps.56",
+      "refDisplay": "Psal. LVI",
+      "column": "1326c",
+      "chunk": 41
+    },
+    {
+      "refKey": "Ps.100",
+      "refDisplay": "Psal. C",
+      "column": "1326c",
+      "chunk": 41
+    },
+    {
+      "refKey": "Ps.100",
+      "refDisplay": "ibid.",
+      "antecedent": "Psal. C",
+      "antecedentColumn": "1326c",
+      "ibidResolved": true,
+      "column": "1326d",
+      "chunk": 41
+    },
+    {
+      "refKey": "Prov.12",
+      "refDisplay": "Prov. XII",
+      "column": "1326d",
+      "chunk": 41
+    },
+    {
+      "refKey": "Ps.5",
+      "refDisplay": "Psal. V",
+      "column": "1326d",
+      "chunk": 41
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1328b",
+      "chunk": 42
+    },
+    {
+      "refKey": "Ps.85",
+      "refDisplay": "Psal. LXXXV",
+      "column": "1330a",
+      "chunk": 43
+    },
+    {
+      "refKey": "Ps.2",
+      "refDisplay": "Psal. II",
+      "column": "1330b",
+      "chunk": 43
+    },
+    {
+      "refKey": "Eccl.10",
+      "refDisplay": "Eccle. X",
+      "column": "1330d",
+      "chunk": 43
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1331a",
+      "chunk": 44
+    },
+    {
+      "refKey": "Mark.11",
+      "refDisplay": "Marc. XI",
+      "column": "1332c",
+      "chunk": 44
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1333a",
+      "chunk": 45
+    },
+    {
+      "refKey": "Ps.64",
+      "refDisplay": "Psal. LXIV",
+      "column": "1333b",
+      "chunk": 45
+    },
+    {
+      "refKey": "Ps.41",
+      "refDisplay": "Psal. XLI",
+      "column": "1333d",
+      "chunk": 45
+    },
+    {
+      "refKey": "Ps.76",
+      "refDisplay": "Psal. LXXVI",
+      "column": "1333d",
+      "chunk": 45
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1334d",
+      "chunk": 46
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1336c",
+      "chunk": 46
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "1336d",
+      "chunk": 46
+    },
+    {
+      "refKey": "Ps.31",
+      "refDisplay": "Psal. XXXI",
+      "column": "1336d",
+      "chunk": 46
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1337c",
+      "chunk": 47
+    },
+    {
+      "refKey": "Ps.121",
+      "refDisplay": "Psal. CXXI",
+      "column": "1338a",
+      "chunk": 47
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "1338d",
+      "chunk": 47
+    },
+    {
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "1339a",
+      "chunk": 47
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "1339a",
+      "chunk": 47
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1339b",
+      "chunk": 47
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1339d",
+      "chunk": 47
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1340b",
+      "chunk": 48
+    },
+    {
+      "refKey": "Ps.49",
+      "refDisplay": "Psal. XLIX",
+      "column": "1341b",
+      "chunk": 48
+    },
+    {
+      "refKey": "Ps.93",
+      "refDisplay": "Psal. XCIII",
+      "column": "1341b",
+      "chunk": 48
+    },
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "Luc. VIII",
+      "column": "1341b",
+      "chunk": 48
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1341d",
+      "chunk": 48
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "Psal. XXXVII",
+      "column": "1342a",
+      "chunk": 48
+    },
+    {
+      "refKey": "Ps.78",
+      "refDisplay": "Psal. LXXVIII",
+      "column": "1342c",
+      "chunk": 48
+    },
+    {
+      "refKey": "Rom.14",
+      "refDisplay": "Rom. XIV",
+      "column": "1342d",
+      "chunk": 48
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX",
+      "column": "1343a",
+      "chunk": 49
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Philipp. III",
+      "column": "1343b",
+      "chunk": 49
+    },
+    {
+      "refKey": "Ps.134",
+      "refDisplay": "Psal. CXXXIV",
+      "column": "1343c",
+      "chunk": 49
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1343d",
+      "chunk": 49
+    },
+    {
+      "refKey": "Ps.33",
+      "refDisplay": "Psal. XXXIII",
+      "column": "1344b",
+      "chunk": 49
+    },
+    {
+      "refKey": "Ps.35",
+      "refDisplay": "Psal. XXXV",
+      "column": "1344b",
+      "chunk": 49
+    },
+    {
+      "refKey": "Eccl.13",
+      "refDisplay": "Eccle. XIII",
+      "column": "1345a",
+      "chunk": 49
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1345b",
+      "chunk": 50
+    },
+    {
+      "refKey": "Job.4",
+      "refDisplay": "Job IV.",
+      "column": "1345d",
+      "chunk": 50
+    },
+    {
+      "refKey": "Rev.2",
+      "refDisplay": "Apoc. II",
+      "column": "1345d",
+      "chunk": 50
+    },
+    {
+      "refKey": "Ps.50",
+      "refDisplay": "Psal. L",
+      "column": "1346b",
+      "chunk": 50
+    },
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
+      "column": "1346c",
+      "chunk": 50
+    },
+    {
+      "refKey": "1Sam.2",
+      "refDisplay": "I Reg. II",
+      "column": "1346c",
+      "chunk": 50
+    },
+    {
+      "refKey": "Job.5",
+      "refDisplay": "Job V",
+      "column": "1346c",
+      "chunk": 50
+    },
+    {
+      "refKey": "Dan.4",
+      "refDisplay": "Dan. IV",
+      "column": "1346d",
+      "chunk": 50
+    },
+    {
+      "refKey": "Ps.24",
+      "refDisplay": "Psal. XXIV",
+      "column": "1347b",
+      "chunk": 50
+    },
+    {
+      "refKey": "Eccl.10",
+      "refDisplay": "Eccle. X",
+      "column": "1348b",
+      "chunk": 50
+    },
+    {
+      "refKey": "Prov.16",
+      "refDisplay": "Prov. XVI",
+      "column": "1348b",
+      "chunk": 50
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1347c",
+      "chunk": 51
+    },
+    {
+      "refKey": "Prov.13",
+      "refDisplay": "Prov. XIII",
+      "column": "1347d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Prov.23",
+      "refDisplay": "Prov. XXIII",
+      "column": "1347d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Eccl.3",
+      "refDisplay": "Eccle. III",
+      "column": "1348c",
+      "chunk": 51
+    },
+    {
+      "refKey": "Ps.175",
+      "refDisplay": "Psal. CLXXV",
+      "column": "1348d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Eccl.5",
+      "refDisplay": "Eccle. V",
+      "column": "1348d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccle. II",
+      "column": "1349a",
+      "chunk": 51
+    },
+    {
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I",
+      "column": "1349b",
+      "chunk": 51
+    },
+    {
+      "refKey": "Ps.4",
+      "refDisplay": "Psal. IV",
+      "column": "1349b",
+      "chunk": 51
+    },
+    {
+      "refKey": "1Macc.7",
+      "refDisplay": "I Mach. VII",
+      "column": "1349c",
+      "chunk": 51
+    },
+    {
+      "refKey": "Ps.73",
+      "refDisplay": "Psal. LXXIII",
+      "column": "1350c",
+      "chunk": 51
+    },
+    {
+      "refKey": "Ps.13",
+      "refDisplay": "Psal. XIII",
+      "column": "1350d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Ps.103",
+      "refDisplay": "Psal. CIII",
+      "column": "1350d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Deut.38",
+      "refDisplay": "Deut. XXXVIII",
+      "column": "1350d",
+      "chunk": 51
+    },
+    {
+      "refKey": "Ps.55",
+      "refDisplay": "Psal. LV",
+      "column": "1351a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ps.130",
+      "refDisplay": "Psal. CXXX",
+      "column": "1351c",
+      "chunk": 52
+    },
+    {
+      "refKey": "Ps.10",
+      "refDisplay": "Psal. X",
+      "column": "1351c",
+      "chunk": 52
+    },
+    {
+      "refKey": "Matt.23",
+      "refDisplay": "Matth. XXIII",
+      "column": "1351c",
+      "chunk": 52
+    },
+    {
+      "refKey": "Luke.18",
+      "refDisplay": "Luc. XVIII",
+      "column": "1351c",
+      "chunk": 52
+    },
+    {
+      "refKey": "Eccl.4",
+      "refDisplay": "Eccle. IV",
+      "column": "1352a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Isa.3",
+      "refDisplay": "Isa. III",
+      "column": "1352a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Eccl.2",
+      "refDisplay": "Eccle. II",
+      "column": "1352a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Isa.33",
+      "refDisplay": "Isai. XXXIII",
+      "column": "1352a",
+      "chunk": 52
+    },
+    {
+      "refKey": "2Cor.13",
+      "refDisplay": "II Cor. XIII",
+      "column": "1352b",
+      "chunk": 52
+    },
+    {
+      "refKey": "1John.4",
+      "refDisplay": "I Joan. IV",
+      "column": "1352b",
+      "chunk": 52
+    },
+    {
+      "refKey": "Prov.30",
+      "refDisplay": "Prov. XXX",
+      "column": "1353a",
+      "chunk": 52
+    },
+    {
+      "refKey": "Prov.19",
+      "refDisplay": "Prov. XIX",
+      "column": "1353d",
+      "chunk": 53
+    },
+    {
+      "refKey": "Prov.20",
+      "refDisplay": "Prov. XX",
+      "column": "1353d",
+      "chunk": 53
+    },
+    {
+      "refKey": "Obad.1",
+      "refDisplay": "Abd. I",
+      "column": "1354a",
+      "chunk": 53
+    },
+    {
+      "refKey": "Matt.24",
+      "refDisplay": "Matth. XXIV",
+      "column": "1354c",
+      "chunk": 53
+    },
+    {
+      "refKey": "Ps.25",
+      "refDisplay": "Psal. XXV",
+      "column": "1354d",
+      "chunk": 53
+    },
+    {
+      "refKey": "1John.2",
+      "refDisplay": "I Joan. II",
+      "column": "1354d",
+      "chunk": 53
+    },
+    {
+      "refKey": "Luke.4",
+      "refDisplay": "Luc. IV",
+      "column": "1355c",
+      "chunk": 53
+    },
+    {
+      "refKey": "Matt.20",
+      "refDisplay": "Matth. XX.",
+      "column": "1355c",
+      "chunk": 53
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1356b",
+      "chunk": 54
+    },
+    {
+      "refKey": "Ps.43",
+      "refDisplay": "Psal. XLIII",
+      "column": "1357c",
+      "chunk": 54
+    },
+    {
+      "refKey": "Ps.93",
+      "refDisplay": "Psal. XCIII",
+      "column": "1357c",
+      "chunk": 54
+    },
+    {
+      "refKey": "Ps.37",
+      "refDisplay": "Psal. XXXVII",
+      "column": "1357c",
+      "chunk": 54
+    },
+    {
+      "refKey": "Ps.26",
+      "refDisplay": "Psal. XXVI",
+      "column": "1357d",
+      "chunk": 54
+    },
+    {
+      "refKey": "John.13",
+      "refDisplay": "Joan. XIII",
+      "column": "1358a",
+      "chunk": 54
+    },
+    {
+      "refKey": "Sir.10",
+      "refDisplay": "Eccli. X",
+      "column": "1358a",
+      "chunk": 54
+    },
+    {
+      "refKey": "Ps.5",
+      "refDisplay": "Psal. V",
+      "column": "1358a",
+      "chunk": 54
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1359a",
+      "chunk": 55
+    },
+    {
+      "refKey": "Prov.10",
+      "refDisplay": "Prov. X",
+      "column": "1360d",
+      "chunk": 55
+    },
+    {
+      "refKey": "Isa.47",
+      "refDisplay": "Isa. XLVII",
+      "column": "1361a",
+      "chunk": 55
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1361b",
+      "chunk": 56
+    },
+    {
+      "refKey": "Ps.74",
+      "refDisplay": "Psal. LXXIV",
+      "column": "1362a",
+      "chunk": 56
+    },
+    {
+      "refKey": "Eph.1",
+      "refDisplay": "Ephes. I",
+      "column": "1362c",
+      "chunk": 56
+    },
+    {
+      "refKey": "Isa.52",
+      "refDisplay": "Isa. LII",
+      "column": "1363a",
+      "chunk": 56
+    },
+    {
+      "refKey": "Ps.115",
+      "refDisplay": "Psal. CXV",
+      "column": "1363a",
+      "chunk": 56
+    },
+    {
+      "refKey": "Jer.5",
+      "refDisplay": "Jer. V",
+      "column": "1363b",
+      "chunk": 56
+    },
+    {
+      "refKey": "Ps.31",
+      "refDisplay": "Psal. XXXI",
+      "column": "1363b",
+      "chunk": 56
+    },
+    {
+      "refKey": "Ps.82",
+      "refDisplay": "Psal. LXXXII",
+      "column": "1363c",
+      "chunk": 56
+    },
+    {
+      "refKey": "Luke.18",
+      "refDisplay": "Luc. XVIII",
+      "column": "1364a",
+      "chunk": 56
+    },
+    {
+      "refKey": "Dan.7",
+      "refDisplay": "Dan. VII",
+      "column": "1364b",
+      "chunk": 57
+    },
+    {
+      "refKey": "Ps.134",
+      "refDisplay": "Psal. CXXXIV",
+      "column": "1364d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Rom.9",
+      "refDisplay": "Rom. IX",
+      "column": "1364d",
+      "chunk": 57
+    },
+    {
+      "refKey": "Eph.1",
+      "refDisplay": "Ephes. I.",
+      "column": "1364d",
+      "chunk": 57
+    }
+  ],
+  "fontes": [],
+  "heads": [
+    {
+      "la": "LIBER PRIMUS.",
+      "column": "1229d",
+      "chunk": 0,
+      "en": "BOOK ONE."
+    },
+    {
+      "la": "CAPUT PRIMUM. De mystico somnio regis Nabuchodonosor, et summa intentionis totius operis.",
+      "column": "1229d",
+      "chunk": 0,
+      "en": "CHAPTER ONE. On the mystical dream of King Nabuchodonosor, and the sum of the intention of the whole work."
+    },
+    {
+      "la": "CAPUT II. Quomodo contemplationis gratia quibusdam modo datur, modo subtrahitur, interimque amissa recuperatur.",
+      "column": "1233b",
+      "chunk": 1,
+      "en": "CHAPTER II. How the grace of contemplation is to some at one time given, at another withdrawn, and meanwhile, when lost, recovered."
+    },
+    {
+      "la": "CAPUT III. Quod in omne quod agimus, intentioni bonae studere et gratiae divinae inniti debeamus.",
+      "column": "1235b",
+      "chunk": 2,
+      "en": "CHAPTER III. That in all that we do we ought to be zealous for a good intention and to lean upon divine grace."
+    },
+    {
+      "la": "CAPUT IV. Quomodo secundum varios studiorum suorum successus, quidam se, vel enerviter dejiciunt, vel inaniter extollunt.",
+      "column": "1236c",
+      "chunk": 2,
+      "en": "CHAPTER IV. How, according to the varied successes of their zeals, some either feebly cast themselves down or emptily exalt themselves."
+    },
+    {
+      "la": "CAPUT V. Quam multis modis animus seipsum decipit, et suum sibi vitium non invitus abscondit.",
+      "column": "1238b",
+      "chunk": 3,
+      "en": "CHAPTER V. In how many ways the spirit deceives itself, and not unwillingly hides its own vice from itself."
+    },
+    {
+      "la": "CAPUT VI. Quam temere, vel frustra ex humana industria praesumimus quod ex angelica solum, seu divina revelatione exspectare debemus.",
+      "column": "1239d",
+      "chunk": 4,
+      "en": "CHAPTER VI. How rashly, or how vainly, we presume upon human effort for that which we ought to await from angelic revelation alone, or from divine."
+    },
+    {
+      "la": "CAPUT VII. Quomodo post praeclara saepe studiorum suorum insignia mens tam saecularium quam spiritalium doctrinarum curam deponit; et se totam ad sola exteriora negotia exponit.",
+      "column": "1241b",
+      "chunk": 5,
+      "en": "CHAPTER VII. How, after the often illustrious distinctions of its own studies, the mind lays aside the care of doctrines both secular and spiritual; and exposes itself wholly to outward business alone."
+    },
+    {
+      "la": "CAPUT VIII. Quomodo in omni proposito, vel instituto debeamus aequitatis regulam consulere, et improvide statuta ad saniorem sententiam revocare.",
+      "column": "1243a",
+      "chunk": 5,
+      "en": "CHAPTER VIII. How in every purpose or ordinance we ought to consult the rule of equity, and to call back what has been improvidently decreed to a sounder judgment."
+    },
+    {
+      "la": "CAPUT IX Quod quidquid contra nos accidere solet, dispensante Deo, libero mentis arbitrio, juxta meritorum qualitatem respondet.",
+      "column": "1244b",
+      "chunk": 6,
+      "en": "CHAPTER IX That whatever is wont to befall against us answers, by God's dispensation, to the free will of the mind according to the quality of merits."
+    },
+    {
+      "la": "CAPUT X. Quibus considerationibus pensanda sunt quae circa nos accidunt.",
+      "column": "1245c",
+      "chunk": 6,
+      "en": "CHAPTER X. By what considerations the things that befall us are to be weighed."
+    },
+    {
+      "la": "CAPUT XI. Quomodo perturbationis nostrae tempore debeamus ad orationis remedia confugere, et ejusmodi suffragium in usum adducere.",
+      "column": "1246b",
+      "chunk": 7,
+      "en": "CHAPTER XI. How in the time of our disturbance we ought to flee to the remedies of prayer, and to bring a support of this kind into use."
+    },
+    {
+      "la": "CAPUT XII Qualibus meditationibus oportet animum ad devotionem inflammare, vel quomodo oporteat studiorum nostrorum instantiam reformare.",
+      "column": "1248a",
+      "chunk": 8,
+      "en": "CHAPTER XII With what meditations the spirit must be inflamed to devotion, and how the urgency of our studies must be reformed."
+    },
+    {
+      "la": "CAPUT XIII. Quomodo semper ad innovationem intelligentiae debeamus non nostram industriam, sed Domini magnificentiam magnificare.",
+      "column": "1250a",
+      "chunk": 8,
+      "en": "CHAPTER XIII. How at the renewing of understanding we ought always to magnify, not our own effort, but the Lord's magnificence."
+    },
+    {
+      "la": "CAPUT XIV. Quod triplex sit verae devotionis officium.",
+      "column": "1251a",
+      "chunk": 9,
+      "en": "CHAPTER XIV. That the office of true devotion is threefold."
+    },
+    {
+      "la": "CAPUT XV. Quomodo debeamus aequitatis regulam arctius consulere, eo maxime tempore quo oportet quodlibet sublimitatis officium explere.",
+      "column": "1254a",
+      "chunk": 10,
+      "en": "CHAPTER XV. How we ought to consult the rule of equity the more strictly, at that time above all when some office of sublimity must be fulfilled."
+    },
+    {
+      "la": "CAPUT XVI. Quibus gradibus mysteriorum cognitio proficit, et ad quantam scientiae perfectionem animus saepe merito devotionis ascendit.",
+      "column": "1255c",
+      "chunk": 11,
+      "en": "CHAPTER XVI. By what steps the knowledge of mysteries advances, and to how great a perfection of learning the spirit often ascends by the merit of devotion."
+    },
+    {
+      "la": "CAPUT XVII. Quod ille summum devotionis culmen attingit, qui quidquid sibi molestiae etiam praeter meritum accidit, suis meritis ascribit.",
+      "column": "1257c",
+      "chunk": 12,
+      "en": "CHAPTER XVII. That he attains the highest summit of devotion who ascribes to his own merits whatever trouble befalls him, even beyond his desert."
+    },
+    {
+      "la": "CAPUT XVIII. Quod de virtute devotionis saepe minus praesumimus quam debeamus, et quod aliud est munus mysticae intelligentiae, et aliud munus mysticae doctrinae.",
+      "column": "1259a",
+      "chunk": 13,
+      "en": "CHAPTER XVIII. That we often presume less upon the virtue of devotion than we ought, and that the gift of mystic understanding is one thing, and the gift of mystic teaching another."
+    },
+    {
+      "la": "CAPUT XIX. Quod amissam contemplationis gratiam, melius devotione, quam investigatione recuperamus, et quod id quoque gratis obtinemus quod merito devotionis acquirimus.",
+      "column": "1261b",
+      "chunk": 14,
+      "en": "CHAPTER XIX. That we recover a lost grace of contemplation better by devotion than by investigation, and that we obtain freely that also which we acquire by the merit of devotion."
+    },
+    {
+      "la": "CAPUT XX. Compendiosa recapitulatio praedictorum cum similitudinis attestatione.",
+      "column": "1263c",
+      "chunk": 15,
+      "en": "CHAPTER XX. A concise recapitulation of what has been said, with the attestation of a likeness."
+    },
+    {
+      "la": "CAPUT XXI. Quomodo oporteat unumquemque a praesumptionis suae altitudine detumescere, qui cupit in vera stabilitate quandoque fixus manere.",
+      "column": "1265a",
+      "chunk": 16,
+      "en": "CHAPTER XXI. How everyone who desires one day to remain fixed in true stability must subside from the height of his own presumption."
+    },
+    {
+      "la": "CAPUT XXII. De modo conditionis, vel corruptibilitatis humanae, et quod in quolibet virtutum culmine oporteat morum ruinam timere.",
+      "column": "1266d",
+      "chunk": 17,
+      "en": "CHAPTER XXII. On the measure of the human condition, or of human corruptibility, and that on any summit of virtues one must fear the ruin of morals."
+    },
+    {
+      "la": "CAPUT XXIII. Quod de magno saepe virtutum culmine soleat meus humana gradatim in ima corruere.",
+      "column": "1269c",
+      "chunk": 18,
+      "en": "CHAPTER XXIII. That from a great summit of virtues the human mind [sic: meus] is often wont to fall by degrees into the depths."
+    },
+    {
+      "la": "CAPUT XXIV. Quomodo vel quibus corruptionis gradibus de summis in ima corruat saepe animus humanus.",
+      "column": "1271a",
+      "chunk": 19,
+      "en": "CHAPTER XXIV. How, or by what steps of corruption, the human spirit often falls from the highest things into the lowest."
+    },
+    {
+      "la": "CAPUT XXV. De praedictorum differentia graduum, et qualitate singulorum.",
+      "column": "1273b",
+      "chunk": 20,
+      "en": "CHAPTER XXV. On the difference of the aforesaid steps, and the quality of each."
+    },
+    {
+      "la": "CAPUT XXVI. Dictum est quomodo defluat homo saepe de bono in malum, nunc dicitur quomodo corruat saepe de malo in malum et vitio in vitium.",
+      "column": "1274b",
+      "chunk": 20,
+      "en": "CHAPTER XXVI. It has been said how a man often flows down from good into evil; now it is said how he often falls headlong from evil into evil and from vice into vice."
+    },
+    {
+      "la": "CAPUT XXVII. Quibus reparationis gradibus mens saepe ex divina operatione resurgit, quae de magnis bonis in ima cadit.",
+      "column": "1276a",
+      "chunk": 21,
+      "en": "CHAPTER XXVII. By what steps of repair the mind that falls from great goods into the lowest often rises again by divine working."
+    },
+    {
+      "la": "CAPUT XXVIII. Quibus promotionis gradibus saepe divinitus reparetur mens quae de magno malo in deteriora labitur.",
+      "column": "1277c",
+      "chunk": 21,
+      "en": "CHAPTER XXVIII. By what steps of advancement the mind that slips from great evil into worse things is often divinely repaired."
+    },
+    {
+      "la": "CAPUT XXIX. Quomodo vel ad quantam perfectionem saepe homo post multiplicem lapsum ex divina operatione resurgat.",
+      "column": "1278c",
+      "chunk": 22,
+      "en": "CHAPTER XXIX. How, and to how great a perfection, a man often rises again after a manifold lapse by divine working."
+    },
+    {
+      "la": "CAPUT XXX. Qualem libertatem naturaliter habemus, et quatem potestatem ex gratia accipimus, et quid sit libertatis vel potestatis.",
+      "column": "1280b",
+      "chunk": 23,
+      "en": "CHAPTER XXX. What kind of liberty we have by nature, and [sic: quatem] power we receive from grace, and what belongs to liberty or to power."
+    },
+    {
+      "la": "CAPUT XXXI. De diversis corruptionis gradibus, eorumque proprietatibus descendentium de bono in malum.",
+      "column": "1282b",
+      "chunk": 24,
+      "en": "CHAPTER XXXI. On the various steps of corruption, and the properties of those who descend from good into evil."
+    },
+    {
+      "la": "CAPUT XXXII. De diversis corruptionis gradibus, eorumque proprietatibus, descendentium de malo in malum.",
+      "column": "1283d",
+      "chunk": 25,
+      "en": "CHAPTER XXXII. On the diverse steps of corruption, and their properties, in those who descend from evil to evil."
+    },
+    {
+      "la": "CAPUT XXXIII. Quomodo mens in semetipsam scinditur, laceratur, confunditur, cum ad corruptionis extrema pervenitur.",
+      "column": "1286a",
+      "chunk": 26,
+      "en": "CHAPTER XXXIII. How the mind is cleft against itself, torn and confounded, when the extremities of corruption are reached."
+    },
+    {
+      "la": "CAPUT XXXIV. Quomodo divinitus promovetur homo quandoque de profundo iniquitatis ad summum fastigium charitatis.",
+      "column": "1288b",
+      "chunk": 27,
+      "en": "CHAPTER XXXIV. How a man is sometimes advanced by God from the depth of iniquity to the highest summit of charity."
+    },
+    {
+      "la": "CAPUT XXXV. Quae sit nimis sera, vel quae sit utilis et certa prudentia.",
+      "column": "1290a",
+      "chunk": 27,
+      "en": "CHAPTER XXXV. What prudence is far too late, and what is useful and sure."
+    },
+    {
+      "la": "CAPUT XXXVI. Quod humiliatio instabilis, et indiscreta sit quidem reprehensione digna.",
+      "column": "1291a",
+      "chunk": 28,
+      "en": "CHAPTER XXXVI. That an unstable and indiscreet humbling is indeed worthy of reproof."
+    },
+    {
+      "la": "CAPUT XXXVII. Quod in nulla nostra virtute debeamus confidere vel gloriari velle.",
+      "column": "1291d",
+      "chunk": 28,
+      "en": "CHAPTER XXXVII. That we ought to trust in no virtue of our own, nor to wish to glory in it."
+    },
+    {
+      "la": "CAPUT XXXVIII. Quam multi quaerunt virtutum scientiam, morumque doctrinam ad ostentationem, non ad utilitatem.",
+      "column": "1292c",
+      "chunk": 28,
+      "en": "CHAPTER XXXVIII. How many seek the knowledge of the virtues and the teaching of morals for display, not for profit."
+    },
+    {
+      "la": "CAPUT XXXIX. Quod in cujuscunque virtutis exsecutione septem ista oporteat observare.",
+      "column": "1293c",
+      "chunk": 29,
+      "en": "CHAPTER XXXIX. That in the carrying out of any virtue these seven things ought to be observed."
+    },
+    {
+      "la": "CAPUT XL. Quod saepe desiderium corrumpitur unde intelligentia illuminatur.",
+      "column": "1294d",
+      "chunk": 29,
+      "en": "CHAPTER XL. That desire is often corrupted from the very source by which the understanding is illuminated."
+    },
+    {
+      "la": "CAPUT XLI. Quod alia ex divina revelatione cognoscimus, alia ex ratione colligimus.",
+      "column": "1295d",
+      "chunk": 30,
+      "en": "CHAPTER XLI. That some things we know from divine revelation, and others we gather from reason."
+    },
+    {
+      "la": "CAPUT XLII. Quod optimum sit devotionem nostram eousque proficere, quod nulla occupatio possit ejus officium interrumpere.",
+      "column": "1296d",
+      "chunk": 30,
+      "en": "CHAPTER XLII. That it is best that our devotion advance so far that no occupation can interrupt its office."
+    },
+    {
+      "la": "CAPUT XLIII. Quod etiam in necessitatis nostrae usibus nihil improvide, nihil inconsulte agere debeamus.",
+      "column": "1297c",
+      "chunk": 30,
+      "en": "CHAPTER XLIII. That even in the uses of our necessity we ought to do nothing improvidently, nothing inconsiderately."
+    },
+    {
+      "la": "CAPUT XLIV. Quod quidquid animum per cogitationem pulsat, mentis devotionem excitare debeat.",
+      "column": "1298b",
+      "chunk": 30,
+      "en": "CHAPTER XLIV. That whatever strikes the spirit through thought ought to arouse the devotion of the mind."
+    },
+    {
+      "la": "LIBER SECUNDUS.",
+      "column": "1298d",
+      "chunk": 30,
+      "en": "BOOK TWO."
+    },
+    {
+      "la": "CAPUT PRIMUM. De conscientiae securitate, vel profectuum innovatione.",
+      "column": "1298d",
+      "chunk": 31,
+      "en": "CHAPTER ONE. Of the security of conscience, or the renewal of advancements."
+    },
+    {
+      "la": "CAPUT II. De intellectualis sensus illuminatione, vel quomodo contemplationis nostrae spectacula, menti soleant utilem timorem incutere.",
+      "column": "1299d",
+      "chunk": 31,
+      "en": "CHAPTER II. Of the illumination of the intellectual sense, or how the sights of our contemplation are wont to strike a useful fear into the mind."
+    },
+    {
+      "la": "CAPUT III. Quod alia sit gratia per quam cognoscimus judicia divina, alia per quam discernimus merita propria.",
+      "column": "1301a",
+      "chunk": 31,
+      "en": "CHAPTER III. That the grace by which we know the divine judgments is one, and that by which we discern our own merits another."
+    },
+    {
+      "la": "CAPUT IV. Quomodo oporteat saecularia studia deponere, et ad spiritualium investigationem convertere.",
+      "column": "1302a",
+      "chunk": 32,
+      "en": "CHAPTER IV. How we ought to lay aside secular pursuits, and to turn them to the investigation of spiritual things."
+    },
+    {
+      "la": "CAPUT V. Quomodo insistere oporteat, qui ad divinorum mysteriorum enodationem anhelat.",
+      "column": "1303a",
+      "chunk": 32,
+      "en": "CHAPTER V. How he ought to press on who pants after the unravelling of the divine mysteries."
+    },
+    {
+      "la": "CAPUT VI. Quam sit inane mysteriorum profunda rimari, sine magisterio Spiritus sancti.",
+      "column": "1304c",
+      "chunk": 32,
+      "en": "CHAPTER VI. How empty a thing it is to search into the deep things of the mysteries without the mastery of the Holy Spirit."
+    },
+    {
+      "la": "CAPUT VII. Quod ad mysteriorum enodationem melius proficimus devotione, quam investigatione, et quod verae devotionis sit omnia discutere, ut possit omnia dijudicare.",
+      "column": "1305b",
+      "chunk": 33,
+      "en": "CHAPTER VII. That toward the unravelling of the mysteries we advance better by devotion than by investigation, and that it belongs to true devotion to discuss all things, that it may be able to judge all things."
+    },
+    {
+      "la": "CAPUT VIII. Quibus devotionis studiis insistere debeat, qui occultorum revelationem divinitus exspectat.",
+      "column": "1306c",
+      "chunk": 33,
+      "en": "CHAPTER VIII. With what pursuits of devotion he ought to press on who awaits from God the revelation of hidden things."
+    },
+    {
+      "la": "CAPUT IX. Quanta virtus verae devotionis sit, quae Filium Dei facit, quae animum humanum Deo conjungit.",
+      "column": "1307b",
+      "chunk": 34,
+      "en": "CHAPTER IX. How great the virtue of true devotion is, which makes a Son of God, which joins the human spirit to God."
+    },
+    {
+      "la": "CAPUT X Quod maxime sub tempore orandi quibusdam solet intellectualis sensus aperiri.",
+      "column": "1309a",
+      "chunk": 34,
+      "en": "CHAPTER X That most of all in the time of praying the intellectual sense is wont to be opened to certain men."
+    },
+    {
+      "la": "CAPUT XI. Quod saeculares scientiae debeant spiritualibus studiis subservire, et verae devotionis lucris militare.",
+      "column": "1310a",
+      "chunk": 35,
+      "en": "CHAPTER XI. That the secular kinds of learning ought to be subservient to spiritual studies, and to serve as soldiers for the gains of true devotion."
+    },
+    {
+      "la": "CAPUT XII. Quod sit utile summae devotioni summam curam impendere.",
+      "column": "1311a",
+      "chunk": 35,
+      "en": "CHAPTER XII. That it is useful to bestow the highest care upon the highest devotion."
+    },
+    {
+      "la": "CAPUT XIII. De contemplandi modo, vel qualitate, et quod aliter videntur res in suo esse, atque aliter in sola ratione, vel summa veritate.",
+      "column": "1311c",
+      "chunk": 35,
+      "en": "CHAPTER XIII. Of the manner, or the quality, of contemplating; and that things are seen otherwise in their own being, and otherwise in reason alone, or in the highest truth."
+    },
+    {
+      "la": "CAPUT XIV. De magnitudine gratiae mentis postmodum casurae, et in tanta plenitudine gratiae, quid soleat esse causa ruinae.",
+      "column": "1312c",
+      "chunk": 36,
+      "en": "CHAPTER XIV. Of the greatness of grace in a mind that is afterward to fall, and what is wont to be the cause of ruin amid so great a fullness of grace."
+    },
+    {
+      "la": "CAPUT XV. De auctoritatis magnitudine mentis postmodum ruiturae.",
+      "column": "1313d",
+      "chunk": 36,
+      "en": "CHAPTER XV. Of the greatness of authority in a mind that is afterward to fall into ruin."
+    },
+    {
+      "la": "CAPUT XVI. De multitudine scientiae mentis ruiturae, et in tanta scientiae plenitudine quid esse soleat causa ruinae.",
+      "column": "1314c",
+      "chunk": 37,
+      "en": "CHAPTER XVI. Of the multitude of learning in a mind that is to fall into ruin, and what is wont to be the cause of ruin amid so great a fullness of learning."
+    },
+    {
+      "la": "CAPUT XVII. De rigore disciplinae quem solet ruitura mens saepe erga alios exercere.",
+      "column": "1315d",
+      "chunk": 37,
+      "en": "CHAPTER XVII. Of the rigor of discipline which a mind that is to fall into ruin is often wont to exercise toward others."
+    },
+    {
+      "la": "CAPUT XVIII. De rigore disciplinae quem solet ruitura mens apud seipsam exercere.",
+      "column": "1316d",
+      "chunk": 38,
+      "en": "CHAPTER XVIII. Of the rigor of discipline which a mind that is to fall into ruin is wont to exercise upon itself."
+    },
+    {
+      "la": "CAPUT XIX. Quod in quolibet virtutum culmine oporteat semper morum ruinam timere.",
+      "column": "1318c",
+      "chunk": 38,
+      "en": "CHAPTER XIX. That upon any summit of the virtues whatsoever one ought always to fear the ruin of morals."
+    },
+    {
+      "la": "CAPUT XX. Quod quidquid circa nos agitur, Dei dispositione et angelica administratione dispensatur.",
+      "column": "1319a",
+      "chunk": 39,
+      "en": "CHAPTER XX. That whatsoever is done concerning us is dispensed by God's disposition and by angelic administration."
+    },
+    {
+      "la": "CAPUT XXI. Quod nihil in nos possunt spiritus maligni nisi permissione Dei.",
+      "column": "1320c",
+      "chunk": 39,
+      "en": "CHAPTER XXI. That the malignant spirits can do nothing against us save by God's permission."
+    },
+    {
+      "la": "CAPUT XXII. Quomodo, vel quo ordine ad subtractionem gratiae soleat mens humana corruere.",
+      "column": "1321b",
+      "chunk": 39,
+      "en": "CHAPTER XXII. How, or in what order, the human mind is wont to fall to ruin upon the withdrawal of grace."
+    },
+    {
+      "la": "CAPUT XXIII. Quomodo mens post foedam dejectionem sui soleat postmodum et ab aliis contemni, et in semetipsam resolvi.",
+      "column": "1322a",
+      "chunk": 40,
+      "en": "CHAPTER XXIII. How the mind, after a foul casting down of itself, is wont afterwards both to be despised by others, and to be dissolved into itself."
+    },
+    {
+      "la": "CAPUT XXIV. Quod turpiter lapsos, et a sublimi dejectos divina miseratio saepe et ad poenitentiam reservat, et ad correctionem exspectat.",
+      "column": "1323a",
+      "chunk": 40,
+      "en": "CHAPTER XXIV. That the divine mercy often both reserves unto repentance those who have basely fallen and been cast down from on high, and waits for their correction."
+    },
+    {
+      "la": "CAPUT XXV. Ad quantam pravitatem, mens quandoque obduratur quae tamen divinitus ad veniam reservatur.",
+      "column": "1324a",
+      "chunk": 41,
+      "en": "CHAPTER XXV. To how great depravity the mind is sometimes hardened, which nevertheless is divinely reserved unto pardon."
+    },
+    {
+      "la": "CAPUT XXVI. Quomodo mens, quae moribus depravatur, postmodum ad errores vel fraudes imbuitur.",
+      "column": "1325c",
+      "chunk": 41,
+      "en": "CHAPTER XXVI. How the mind, which is depraved in its morals, is afterwards imbued with errors or deceits."
+    },
+    {
+      "la": "CAPUT XXVII. Quomodo mens ad omnem crudelitatem quandoque effrenatur, cum tamen divinitus ad poenitentiam reservetur.",
+      "column": "1326a",
+      "chunk": 41,
+      "en": "CHAPTER XXVII. How the mind is sometimes let loose unto every cruelty, though it be nevertheless divinely reserved unto repentance."
+    },
+    {
+      "la": "CAPUT XXVIII. Quomodo malum grassatur in his qui semper in deteriora labuntur.",
+      "column": "1326d",
+      "chunk": 42,
+      "en": "CHAPTER XXVIII. How evil goes rioting on in those who ever slip into worse things."
+    },
+    {
+      "la": "CAPUT XXIX. Quod saepe contingat mentem omniformiter corrumpi, quam tamen constat ad poenitentiam ex divina miseratione reservari.",
+      "column": "1327c",
+      "chunk": 42,
+      "en": "CHAPTER XXIX. That it often happens that the mind is corrupted in every form, which nevertheless is agreed to be reserved unto repentance out of the divine mercy."
+    },
+    {
+      "la": "CAPUT XXX. Quomodo soleat multorum utilitati deservire quod quosdam contingat de sublimi corruere.",
+      "column": "1328b",
+      "chunk": 42,
+      "en": "CHAPTER XXX. How it is wont to serve the profit of many that some men happen to fall from a height."
+    },
+    {
+      "la": "CAPUT XXXI. Quomodo addiscant quidam ex proprio, quidam ex alieno casu, quod nihil suis viribus attribuere debeant.",
+      "column": "1329a",
+      "chunk": 43,
+      "en": "CHAPTER XXXI. How some men learn from their own fall, and some from another's, that they ought to attribute nothing to their own powers."
+    },
+    {
+      "la": "CAPUT XXXII. Quod ex modo humilitatis pendet mensura magnitudinis.",
+      "column": "1330b",
+      "chunk": 43,
+      "en": "CHAPTER XXXII. That the measure of greatness hangs upon the manner of humility."
+    },
+    {
+      "la": "CAPUT XXXIII. Quod aliud sit divina judicia per contemplationem cernere, atque aliud eorum rationem perpendere.",
+      "column": "1330d",
+      "chunk": 44,
+      "en": "CHAPTER XXXIII. That it is one thing to discern the divine judgments through contemplation, and another to weigh the reason of them."
+    },
+    {
+      "la": "CAPUT XXXIV. Quod eorum notitiam saepe merito devotionis acquirimus quae nulla nostra sagacitate, nullo nostro studio penetrare valemus.",
+      "column": "1332a",
+      "chunk": 44,
+      "en": "CHAPTER XXXIV. That we often acquire by the merit of devotion the cognizance of those things which by no sagacity of ours, by no zeal of ours, are we able to penetrate."
+    },
+    {
+      "la": "CAPUT XXXV. Quod animus dum ex multa consideratione infirmitatis suae humiliatur, saepe ad sublimem intelligentiam divinitus illuminatur.",
+      "column": "1333a",
+      "chunk": 45,
+      "en": "CHAPTER XXXV. That the spirit, while it is humbled by much consideration of its own weakness, is often divinely enlightened unto a sublime understanding."
+    },
+    {
+      "la": "CAPUT XXXVI. De vera mentis devotione, quomodo debeat semetipsam discutere.",
+      "column": "1334a",
+      "chunk": 45,
+      "en": "CHAPTER XXXVI. On the true devotion of the mind, how it ought to examine itself."
+    },
+    {
+      "la": "CAPUT XXXVII. Quomodo devotio quandoque totum interioris hominis statum deprehendat, et tam praesentem perspiciat, quam futurum provideat.",
+      "column": "1334c",
+      "chunk": 46,
+      "en": "CHAPTER XXXVII. How devotion sometimes detects the whole state of the inner man, and as much discerns it present as it foresees it future."
+    },
+    {
+      "la": "CAPUT XXXVIII. Quomodo imminenti periculo repugnare oporteat, vel quantum eleemosyna valeat, si simplici intentione fiat.",
+      "column": "1336b",
+      "chunk": 46,
+      "en": "CHAPTER XXXVIII. How one ought to fight back against an imminent danger, and how much alms avails, if it be done with a simple intention."
+    },
+    {
+      "la": "CAPUT XXXIX. Quam patienter, vel misericorditer correptionem nostram Dei longanimitas exspectat, vel quomodo perversa mens ejus patientia abuti soleat.",
+      "column": "1337b",
+      "chunk": 47,
+      "en": "CHAPTER XXXIX. How patiently, or mercifully, the long-suffering of God awaits our correction, or how a perverse mind is wont to abuse his patience."
+    },
+    {
+      "la": "CAPUT XL. De typo arrogantis animae, vel quomodo soleat semetipsam magnificare.",
+      "column": "1338a",
+      "chunk": 47,
+      "en": "CHAPTER XL. On the type of an arrogant soul, or how it is wont to magnify itself."
+    },
+    {
+      "la": "CAPUT XLI. Quam subito, saepe, et quam profunde labuntur, qui patientia Dei abutuntur.",
+      "column": "1339a",
+      "chunk": 47,
+      "en": "CHAPTER XLI. How suddenly, often, and how deeply they fall who abuse the patience of God."
+    },
+    {
+      "la": "CAPUT XLII. Quod una, eademque sententia per contemplationem praenoscitur, per timorem intentatur, per desperationem confirmatur.",
+      "column": "1339d",
+      "chunk": 47,
+      "en": "CHAPTER XLII. That one and the same sentence is foreknown through contemplation, threatened through fear, confirmed through despair."
+    },
+    {
+      "la": "CAPUT XLIII. Quod sine divina protectione nullus valeat suis passionibus, vel malignis suggestionibus resistere.",
+      "column": "1340a",
+      "chunk": 48,
+      "en": "CHAPTER XLIII. That without divine protection no one is able to resist his own passions, or malignant suggestions."
+    },
+    {
+      "la": "CAPUT XLIV. De quanto virtutum culmine contingat in ima vitiorum corruere.",
+      "column": "1340c",
+      "chunk": 48,
+      "en": "CHAPTER XLIV. From how great a summit of virtues it may happen that a man falls into the depths of vices."
+    },
+    {
+      "la": "CAPUT XLV. Quomodo interim etiam ad majorem gloriam quandoque resurgit qui prius de sublimi cecidit.",
+      "column": "1341d",
+      "chunk": 48,
+      "en": "CHAPTER XLV. How meanwhile he who before fell from on high sometimes rises again even to a greater glory."
+    },
+    {
+      "la": "CAPUT XLVI. Quomodo solum Deum glorificat, qui se ipsum tam impudenter magnificabat.",
+      "column": "1343a",
+      "chunk": 49,
+      "en": "CHAPTER XLVI. How he glorifies God alone, who was so shamelessly magnifying himself."
+    },
+    {
+      "la": "CAPUT XLVII. Quid agat superba gloriatio, vel quid efficiat devota glorificatio.",
+      "column": "1343d",
+      "chunk": 49,
+      "en": "CHAPTER XLVII. What proud glorying does, or what devout glorification effects."
+    },
+    {
+      "la": "CAPUT XLVIII. Quomodo per discretionem judicii, vel circumspectionem sui solet morum disciplina reformari.",
+      "column": "1344c",
+      "chunk": 49,
+      "en": "CHAPTER XLVIII. How through the discretion of judgment, or through circumspection of oneself, the discipline of morals is wont to be reformed."
+    },
+    {
+      "la": "CAPUT XLIX. Quomodo debeat dejecta mens semetipsam discutere, et ad pristinum fervorem innovare.",
+      "column": "1345b",
+      "chunk": 50,
+      "en": "CHAPTER XLIX. How a cast-down mind ought to examine itself, and to renew itself unto its former fervour."
+    },
+    {
+      "la": "CAPUT L. Quomodo ex virtute humilitatis animus in bono roboratur, et ad boni perseverantiam solidatur.",
+      "column": "1346a",
+      "chunk": 50,
+      "en": "CHAPTER L. How from the virtue of humility the spirit is strengthened in good, and made solid unto perseverance in good."
+    },
+    {
+      "la": "CAPUT LI. Quomodo vel qua utilitate oporteat Deum laudare.",
+      "column": "1346c",
+      "chunk": 50,
+      "en": "CHAPTER LI. How, or with what profit, one ought to praise God."
+    },
+    {
+      "la": "LIBER TERTIUS.",
+      "column": "1348b",
+      "chunk": 50,
+      "en": "BOOK THREE."
+    },
+    {
+      "la": "CAPUT PRIMUM. De triplici vitio mutabilitatis, et inconstantia mentis.",
+      "column": "1348b",
+      "chunk": 51,
+      "en": "CHAPTER ONE. Of the threefold vice of mutability, and of the inconstancy of the mind."
+    },
+    {
+      "la": "CAPUT II. Qualis, vel quanta conflictio tentationis surgat ex inconstantia mentis.",
+      "column": "1350b",
+      "chunk": 51,
+      "en": "CHAPTER II. What sort, or how great, a conflict of temptation arises out of the inconstancy of the mind."
+    },
+    {
+      "la": "CAPUT III. Quod bestialiter vivendi modus sit quadripartitus.",
+      "column": "1350d",
+      "chunk": 52,
+      "en": "CHAPTER III. That the manner of living bestially is fourfold."
+    },
+    {
+      "la": "CAPUT IV. Quibus corruptionis gradibus corruere solet saepe animus humanus.",
+      "column": "1351d",
+      "chunk": 52,
+      "en": "CHAPTER IV. By what steps of corruption the human spirit is often wont to fall."
+    },
+    {
+      "la": "CAPUT V. De vitio insolentiae.",
+      "column": "1352c",
+      "chunk": 52,
+      "en": "CHAPTER V. Of the vice of insolence."
+    },
+    {
+      "la": "CAPUT VI. Quibus insolentiae gradibus paulatim corrumpitur animus humanus.",
+      "column": "1353c",
+      "chunk": 53,
+      "en": "CHAPTER VI. By what steps of insolence the human spirit is little by little corrupted."
+    },
+    {
+      "la": "CAPUT VII. Quomodo ex vitio insolentiae, cadat homo in vitium invidentiae.",
+      "column": "1354d",
+      "chunk": 53,
+      "en": "CHAPTER VII. How from the vice of insolence a man falls into the vice of enviousness."
+    },
+    {
+      "la": "CAPUT VIII. De vitio invidentiae.",
+      "column": "1356a",
+      "chunk": 54,
+      "en": "CHAPTER VIII. Of the vice of enviousness."
+    },
+    {
+      "la": "CAPUT IX. De malo invidentiae quibus soleat gradibus accrescere.",
+      "column": "1356d",
+      "chunk": 54,
+      "en": "CHAPTER IX. Of the evil of enviousness, by what steps it is wont to increase."
+    },
+    {
+      "la": "CAPUT X. Quomodo ex vitio invidentiae mens cadat in vitium fraudulentiae.",
+      "column": "1357c",
+      "chunk": 54,
+      "en": "CHAPTER X. How from the vice of enviousness the mind falls into the vice of fraudulence."
+    },
+    {
+      "la": "CAPUT XI. De vitio fraudulentiae.",
+      "column": "1358c",
+      "chunk": 55,
+      "en": "CHAPTER XI. On the vice of fraudulence."
+    },
+    {
+      "la": "CAPUT XII. De malo fraudulentiae, quam sit multiforme in opere.",
+      "column": "1359b",
+      "chunk": 55,
+      "en": "CHAPTER XII. On the evil of fraudulence, how multiform it is in work."
+    },
+    {
+      "la": "CAPUT XIII. De malo fraudulentiae, quam sit multiplex intentione.",
+      "column": "1360a",
+      "chunk": 55,
+      "en": "CHAPTER XIII. On the evil of fraudulence, how manifold it is in intention."
+    },
+    {
+      "la": "CAPUT XIV. Quomodo ex vitio fraudulentiae mens cadat in vitium impudentiae.",
+      "column": "1360c",
+      "chunk": 55,
+      "en": "CHAPTER XIV. How from the vice of fraudulence the mind falls into the vice of shamelessness."
+    },
+    {
+      "la": "CAPUT XV. De vitio impudentiae.",
+      "column": "1361a",
+      "chunk": 56,
+      "en": "CHAPTER XV. On the vice of shamelessness."
+    },
+    {
+      "la": "CAPUT XVI. Quomodo mens obduratur per impudentiae vitium, et primo contra Deum.",
+      "column": "1362a",
+      "chunk": 56,
+      "en": "CHAPTER XVI. How the mind is hardened through the vice of shamelessness, and first against God."
+    },
+    {
+      "la": "CAPUT XVII. Quomodo per impudentiae vitium, mens obdurescit apud semetipsam.",
+      "column": "1362d",
+      "chunk": 56,
+      "en": "CHAPTER XVII. How through the vice of shamelessness, the mind grows hard in regard to itself."
+    },
+    {
+      "la": "CAPUT XVIII. Quomodo per impudentiae vitium, mens obdurescit erga proximum.",
+      "column": "1363c",
+      "chunk": 56,
+      "en": "CHAPTER XVIII. How through the vice of shamelessness, the mind grows hard toward its neighbour."
+    },
+    {
+      "la": "CAPUT XIX. Quomodo mens cum in profundum malorum venerit, saepe etiam in desperationem cadit.",
+      "column": "1364a",
+      "chunk": 57,
+      "en": "CHAPTER XIX. How the mind, when it has come into the depth of evils, often falls even into despair."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "…quuntur juxta spiritalem intelligentiam. Nam quod Daniel a rege, secundum nomen Dei sui Balthassar dicitur, quid aliud quam idololatriam juxta litteram sonare videtur? Sed sicut beatus Gregorius dicit",
+      "en": "…l understanding. For that Daniel is called Balthassar by the king according to the name of his god, what else does it seem to sound, according to the letter, than idolatry? But as blessed Gregory says",
+      "column": "1307d",
+      "chunk": 34
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}

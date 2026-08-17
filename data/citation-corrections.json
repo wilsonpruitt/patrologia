@@ -146,6 +146,38 @@
       "refKey": "Ps.23.2",
       "quote": "Ipse super maria fundavit eam, et super flumina praeparavit illam",
       "note": "This is an INLINE (running-text) citation, column keyed on the OPENING paren per the 2026-07-31 inline-citation SPEC (the anchor 1121C falls inside it: '(Psal. [1121C] II)'). Migne prints II for the correct chapter; the quoted Latin — 'He founded it upon the seas, and prepared it upon the floods' — is Ps. 23:2 in the CITED Vulgate numbering (Ps. 24:2 modern), which has nothing in common with Ps. 2. Worked example 4 in data/inline-citations/SPEC.md."
+    },
+    {
+      "idno": "11535",
+      "column": "1236a",
+      "refDisplay": "Cor. XV",
+      "refKey": "1Cor.15.10",
+      "quote": "Gratia Dei sum id quod sum",
+      "note": "Migne prints the book ordinal-less, so no book name resolves and the note reached unparsed[]. The disambiguation is DETERMINATE, not a judgement: 2 Corinthians has 13 chapters, so a chapter XV can only be 1 Corinthians, and the printed words are 1 Cor. 15:10 verbatim. refDisplay keeps what Migne printed."
+    },
+    {
+      "idno": "11535",
+      "column": "1286b",
+      "refDisplay": "Dan. I",
+      "refKey": "Dan.2.41",
+      "quote": "Porro quia vidisti et pedum, et digitorum partem testeam figuli, et partem ferream, regnum divisum erit",
+      "note": "Chapter numeral wrong: I for II. The printed words are Dan. 2:41 verbatim, the work's own running lemma, and Migne prints (Dan. II) over the same lemma elsewhere in this work. No source-attribution reading is available: Daniel is the book cited and the book quoted."
+    },
+    {
+      "idno": "11535",
+      "column": "1287c",
+      "refDisplay": "Job XXII",
+      "refKey": "Job.30.7",
+      "quote": "esse sub sentibus delicias computat",
+      "note": "Chapter numeral wrong: XXII for XXX. Richard's own frame reads secundum sententiam Job, so the book is right and only the chapter is wrong; the words are Job 30:7."
+    },
+    {
+      "idno": "11535",
+      "column": "1295a",
+      "refDisplay": "I Cor. XII",
+      "refKey": "2Cor.12.7",
+      "quote": "Ne magnitudo revelationum extollat me, datus est mihi stimulus carnis meae angelus Satanae, qui me colaphizet",
+      "note": "Book ordinal wrong: I for II. The words are 2 Cor. 12:7 verbatim and the frame is cum Apostolus ipse de seipso dicat. 1 Corinthians 12 is the body-and-members chapter and contains nothing of this."
     }
   ]
 }

@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-17 session: Nebuchadnezzar's dreams read as the map of a soul's decline and repair —
+  'pl/196/de-eruditione-hominis-interioris',                     // Richard of St Victor (attrib.) — the statue, the tree and the four beasts as stages of ruin; breaks off unfinished
   // — 2026-08-17 session: the sixth Song commentary, and the first work whose lemma words were named per agent —
   'pl/196/explicatio-in-cantica-canticorum',                     // Richard of St Victor (attrib.) — the Song verse by verse, 42 chapters, closing on a rhymed Marian laus
   // — 2026-08-15 session: the corpus's first liturgical ordo (Fable mini-pilot) —

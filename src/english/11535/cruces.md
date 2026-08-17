@@ -281,6 +281,39 @@ A reader independently flagged *simultas* → "pretense" as an unmarked normalis
 corroborates the ruling rather than upsetting it. The ratification stands, now on three legs
 (the allegory's own position, 1258D's *sine simultate*, and 1274A).
 
+## ⚠ THE "WRONG BOOK" CITATIONS — HALF THE CLAIM WAS WRONG, AND THE HALF THAT SURVIVED IS FIXED
+
+Three separate agents reported that Migne's `[n:]` notes name the wrong book "repeatedly and
+reproducibly", and I carried that into the merge as a third plate habit with an index consequence.
+**Checked one at a time before any correction was written, two of the six collapsed.**
+
+⛔ **NOT corrected — `(Isai. XL)` at 1296D and 1305A over *Quis cognovit sensum Domini, aut quis
+consiliarius ejus fuit*.** The agents read this as Rom. 11:34 filed under Isaiah. But **Richard's
+own prose at 1296D introduces the quotation as *quod **Isaias** dixit*** — the attribution is the
+author's, not a slip of the plate, and Rom. 11:34 is itself Paul quoting Isa. 40:13. Correcting it
+would have overwritten a medieval writer's own source-attribution with a modern one.
+⛔ **NOT corrected — `(Ephes. I)` at 1362C over *Deus est qui operatur omnia pro bona voluntate*.**
+Reported as Phil. 2:13. But **Eph. 1:11 reads *qui operatur omnia secundum consilium voluntatis
+suae***, which matches *operatur omnia* better than Phil. 2:13's *operatur in vobis et velle et
+perficere* does. It is a conflation leaning to the cited chapter. Left as printed.
+
+✅ **Corrected in `data/citation-corrections.json` (4), each verified to have no following *Ibid.*
+depending on it** — the standing hazard, since a correction applies upstream of anaphora
+resolution:
+`(Cor. XV)` @1236a → **1Cor.15.10** (ordinal-less, so it did not parse at all; the disambiguation
+is determinate — 2 Corinthians has only 13 chapters) · `(Dan. I)` @1286b → **Dan.2.41** ·
+`(Job XXII)` @1287c → **Job.30.7** (Richard's frame says *secundum sententiam Job*, so the book is
+right and only the chapter is wrong) · `(I Cor. XII)` @1295a → **2Cor.12.7**.
+`refDisplay` keeps what Migne printed and `refKeyPrinted` keeps the key he printed, so the record
+is not overwritten.
+
+**Index after: 340 scripture, 117 heads, ZERO unparsed.**
+
+⚑ **The lesson is the one this whole session keeps teaching.** A claim that repeats across three
+independent agents still has to be checked site by site: agreement between agents is not evidence,
+because they share a genre expectation. Two of six "wrong book" notes were the author being
+himself.
+
 ---
 
 
