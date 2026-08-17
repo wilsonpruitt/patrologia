@@ -83,10 +83,54 @@ file** rather than deciding for the whole work by yourself.
 | *affectus* | affection · *affectuose* | affectionately |
 | *quies* | stillness (of the mind's rest) · *vacare* | to be at leisure/free |
 
+**Settled in flight by the 0000–0004 agent — binding on every later range** (mechanically audited
+in its own chunks: 13 *lectulus*-forms → 13 "little bed", 2 *lecto* → 2 "bed"):
+
+| Latin | English | why |
+|---|---|---|
+| *adolescentulae* | young maidens | diminutive kept, same reasoning as *lectulus* |
+| *Canticum canticorum* | the Song of Songs | against plain *canticum* = "canticle" |
+| *quiesco ab* | be still from | not "rest from" — pairs with *quies* = stillness |
+
 **Why *lectulus* is load-bearing:** chunk 0002 argues *"Et non in lecto, sed in lectulo, quia
 quies a talibus habita exigua est"* — the whole exposition turns on the diminutive being small
 and narrow. An English that says "bed" for both makes Richard's argument say nothing. Keep the
 pair visibly different everywhere in the work, not just where he argues it.
+
+## ✅ Ratified after round 1 (chunks 0000–0029) — BINDING, do not re-open
+
+1. **`[var:]` fires on SENSE or on a DEPENDENT GLOSS — never on pronoun-equivalence or
+   spelling.** Worked pair: *per noctem* for *per noctes* **fires** (a chapter-long exposition of
+   one night hangs on the singular); *tenui illum* for *tenui eum* **does not** (same referent,
+   nothing hangs on it). Spelling is Pattern 9's territory: *Hierusalem*, *coelorum*,
+   *genitricis*, *caprae/capreae* — no markers.
+2. **The *quies* seam is real and the split stands:** *quies/requies* = **"rest"** where the sense
+   is eschatological (CAPUT X's rest of the blessed), **"stillness"** where it is the mind's
+   contemplative quiet. Two agents hit this independently (0007 @0421C, CAPUT X) — the
+   distinction is in the Latin, not drift. Follow the sense; log the site.
+3. ***ferculum* stands in italic Latin at every occurrence** (Cant. 3:9). Richard hangs **two
+   incompatible glosses** on it — *quae pascit et reficit* and *ferculum a ferendo, quia fertur* —
+   and no English word keeps both hooks. Decided from THIS work's double gloss; 10804 was
+   deliberately not followed. Same reasoning: *reclinatorium* = "reclining-place",
+   *candidatio* and the *Dei lectio/Dei electio* wordplay stay in Latin.
+4. **Heads follow the plate's own numeral form.** `CAPUT PRIMUM` → "CHAPTER ONE."; every other
+   chapter prints a numeral → "CHAPTER XVI." ⚠ **Chunk 0037 prints `## CAPUT XXXII` with NO
+   closing period** — Pattern 8: preserve, never supply. ⚠ **Chunk 0047 carries TWO heads**
+   (CAPUT XLI and CAPUT XLII, *De assumptione Mariae*) — the work has **42** chapters.
+5. Further fixed vocabulary: *pietas* = **tenderness** (kept separable from *misericordia* =
+   mercy, and from *compassio*) · *fortium* = "of the strong", never Douay's "valiant" (the
+   *fortitudo* hook runs through chs. XXI–XXII) · *propugnacula* = bulwarks · *clypei* = shields ·
+   *hinnuli capreae* = "fawns of a roe", mother and young kept distinct · *discretio* =
+   discretion · *notitia* = acquaintance · *vitta* = fillet · *malum granatum* = granate apple.
+6. **`[sic: *Pigmen*]` at 0431C is CONFIRMED, and this is how to confirm one:** across the full
+   PL TEI (5,276 files, 87M words) `pigment-` occurs 861 times and bare `pigmen` occurs in
+   **one file — this work, this site**. The corpus is its own control; grep it before asking for
+   a lexicon.
+7. **Declined `[cj:]` sites go in the cruces as named census candidates, not into the text.** The
+   bar (Wilson, 2026-08-15) glosses only where the wrong word is a **negation or a correlative**.
+   Near-misses so far — *excusso jam tempore* for *tepore*, *ascendit* for *accendit*, *instat*
+   for *inflat*, *spem* for *sepem*, *effectum* for *affectum* — are all recorded and all
+   declined. Do not widen the bar yourself.
 
 ## Scripture and garbled type
 
