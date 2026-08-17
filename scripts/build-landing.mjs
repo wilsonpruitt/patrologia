@@ -17,6 +17,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-17 session: the sixth Song commentary, and the first work whose lemma words were named per agent —
+  'pl/196/explicatio-in-cantica-canticorum',                     // Richard of St Victor (attrib.) — the Song verse by verse, 42 chapters, closing on a rhymed Marian laus
   // — 2026-08-15 session: the corpus's first liturgical ordo (Fable mini-pilot) —
   'pl/138/ordo-ad-regem-benedicendum',                           // Auctor incertus — a coronation rite from a 12th/13th-c. Vienna codex
   // — 2026-08-14 session: Ambrose enters the Song queue —
