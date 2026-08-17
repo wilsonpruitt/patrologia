@@ -291,3 +291,89 @@ entry: a correction applied upstream of anaphora makes a following *Ibid.* resol
 "of creeping", not a form of *rependere* · *vasa … fuerit*'s number mismatch at 0479B is
 Pattern 9 · the 0523A → 0524A band gap is known false positive 1, and the text construes
 across the anchor.
+
+---
+
+## §7 · THE BLIND POLARITY READ (step 4a) — 6 readers, 48 chunks, 8 OUR-SIDE DEFECTS FIXED
+
+Recorded: `--chunks 48 --sites 15 --ours 8`. Six Opus readers, eight chunks each, **none
+permitted to open any cruces file** (the 2026-07-28 finding: every agent given the cruces
+returned "all already logged" and found nothing, while blind readers on the same works
+found four live defects). Every chunk was named clean or with findings, and every rejected
+candidate was named with its reason — the discipline that distinguishes a report from a
+reader who never read.
+
+**The eight our-side defects, all fixed. Not one was visible to any automated check, and
+`verify-english` had already passed the work.**
+
+1. **0502D — agency reversed.** *immaculatam, id est a peccatorum sordibus **a se** mundatam*
+   was "cleansed **by him**". *a se* is reflexive to the bride, the subject of the whole
+   gloss-series; "by him" transferred the cleansing to Christ and **conformed the gloss to
+   expected doctrine.** The archetype of the class: it reads better than the truth.
+2. **0428C — separation read as location.** *quibus se extenuari vel implicari **a
+   perficiendo*** was "entangled **in** the perfecting of herself" — the opposite motion,
+   and it dissolved the reason she withdraws at all.
+3. **0439B — plural verb given a singular subject.** *quanto spiritualius **eos expugnant***
+   was "it storms them", making faith the aggressor in a sentence whose point is that the
+   enemy concentrates his fire on the shield of faith.
+4. **0491B — a `[sic:]` swallowed the clause's only verb.** *ad proprium **exerescere***
+   left an English infinitive with no predicate between two translated infinitives. Now
+   "to grow up [sic: *exerescere*]", the sense fixed by *semper excrescit* six lines later.
+5. **0490D — a `[sic:]` swallowed half an antithesis.** *Primi parentes **terestrem**
+   habebant paradisum* left the reader "a paradise … the heavenly one after it", opposing
+   nothing. Now "an earthly [sic: *terestrem*] paradise".
+6. **0493A — a feminine relative mis-bound.** *Fide mulier tetigit **quae retro accessit***
+   made Christ the one approaching from behind, and then made *him* the one not pressing
+   bodily.
+7. **0502B–C — the person switched mid-run, unmarked.** The plate prints *Sponsus* where the
+   subject is plainly the bride (*pro ipsa*, two clauses later, is feminine). Our English
+   carried "he" for four clauses and then became "she" with no marker, so a reader met two
+   people inside one sentence-run **and could not tell which was Migne and which was us.**
+   The printed *Sponsus* is now carried throughout and the contradiction is visible.
+8. **0457C — four co-subjects collapsed to one.** *hanc plenius ascendit cordis levitas,
+   naturalis benegnitas, prosperitas, vel orta aliqua causa laetitiae* promoted one subject
+   and stranded three after a colon.
+
+**Two further classes the read turned up, both ours, both fixed:**
+
+- ⚑ **Chapter heads had drifted three ways in English while the Latin was uniform** —
+  `CHAPTER NINE` / `TEN` / `ELEVEN` against numerals everywhere else, and chapter XI's
+  summary was "caution" in 0014 and "wariness" in 0015. **Heads are an indexed field**
+  (CLAUDE.md rule 9), so a chapter spanning two chunks would have indexed under two
+  different English titles. ⚠ **The lesson: checking that the LATIN heads are uniform does
+  not check ours.** All five split chapters now match exactly; `CHAPTER ONE` is the only
+  spelled-out head, because `CAPUT PRIMUM` is the only spelled-out Latin one.
+- ⚑ **Eight undeclared bare-bracket supplies** (`[think]`, `[men]`, `[is occupied]`,
+  `[do they suffer]`, `[each]`, `[it]`, `[and]`, `[seedlings]`). **`scan-raw-markers.mjs`
+  scans for 10 declared marker forms only**, so an undeclared bracket passes it and reaches
+  the reader as literal brackets on the built page — the failure that hit PG pages twice.
+  These were grammatical ellipsis supplies, not editorial content, so they are now plain
+  text. ⬜ If a supply is ever genuinely editorial, it needs `[ed:]`, not naked brackets.
+
+**Left unrepaired, deliberately, and named here so the next reader starts ahead:**
+*infractus* at 0468B (from *infringo* = "broken", against our "unbroken" — the *se
+fregerit* / *infractus* figure nine words apart is the argument, and the corpus prints 37
+*infractus* to weigh; **wants the plate**) · the undisclosed *quam* → *quae* at 0483C (a
+conjecture adopted silently, below Pattern 18's bar, so disclosure belongs here not in a
+marker) · *experte* for *ex parte* at 0522A, where 1 Cor 13:12's *perfecte* / *ex parte*
+antithesis is what the clause exists to make · *Si vero imo* at 0461A, half-translated
+with no cue that the plate is broken.
+
+**Migne-side cruces the read added:** **0517C prints *Ecclesia triumphans* where every
+predicate in the sentence denies triumph** (*inferior est*, *defectum patitur*, *non
+aequaliter vestiri*) — the moon under Mary's feet is the Church *militans*, and Richard
+prints the militans/triumphans pair himself at 0512C · 0423C, where *cognito periculo suo
+hanc recipit* credits the negligent man with receiving the grace, against the next
+sentence's *ne in vacuum hanc recipiat* · 0459D–0460A, where the protasis names *levis /
+remissus* but the apodosis needs a severe-vs-slack pair.
+
+**Positive evidence, recorded because absence of a finding must be distinguishable from
+absence of a reading:** across all 48 chunks **not one dropped or intrusive negation
+particle was found on our side.** The 7a″ sweep checked over sixty lemmata individually and
+found **no conformed lemma anywhere in the work** — including four places where the pull
+toward the remembered English is strongest and was resisted: Matt. 23:24 keeps Migne's
+reversed camel-then-gnat order · 1 John 3:2 keeps the printed singular *similis ei erit*
+against the Vulgate's *similes ei erimus* · 3 Kings 19:12 keeps *aurae levis* against the
+familiar *tenuis* · Ps. 33:9 keeps the adapted indicative *Gustat*. **In the genre where
+7a″ predicts conformation as the dominant failure, this work has none** — which is what
+naming the lemma words per range bought.

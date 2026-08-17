@@ -23,9 +23,22 @@ merged in below as the PG section (gate ruling: `pg-paired-pilot.md` §8a, 2026-
 
 ## Hard-stop ritual (before EVERY launch)
 
-State to Wilson: works, chunk count, estimated burn (rule of thumb: **~20K tokens per
-chunk** — calibrated on the overnight run: 33 chunks ≈ 0.66M), and ask
+State to Wilson: works, chunk count, estimated burn, and ask
 **"which model, and go?"** Do not launch on momentum from a prior approval.
+
+**⚠ RE-CALIBRATED 2026-08-17 on 11550 — the old ~20K/chunk rule underestimates a
+scripture commentary by 2×.** Quote **~40K tokens per chunk** for a lemma-and-gloss
+commentary and say which number you used. Measured: 11550's 48 chunks over ten Opus
+agents burned **~1.88M** against a ~960K estimate at the old rule (~39K/chunk actual).
+The old figure came from a work whose agents were not also running corpus-wide greps to
+confirm every `[sic:]` and collating every lemma against the Vulgate — **the 7a″ and
+corpus-as-control disciplines are what cost the difference, and they are worth it**
+(they produced 46 `[var:]` and settled seven markers that would otherwise have been
+guesses). Do not quote the cheaper number to make a launch easier to approve.
+
+**The polarity read is a second burn and belongs in the same statement.** Six blind
+readers over 48 chunks is its own fleet; state it at launch rather than discovering it
+after the translation is paid for.
 
 ## Per-work pipeline (in order, no skipping)
 
