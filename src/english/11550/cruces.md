@@ -247,8 +247,10 @@ Migne prints it as continuous prose with no lineation.
   check — the same check that caught a vanished 46-word sentence in 11632. The work now
   has **zero** sentence-type punctuation deltas against its Latin twin across all 48
   chunks.
-- ⬜ ***Papae* (0522B) is left in italic Latin** — a genuine open call for Wilson, since
-  every English equivalent guesses at the poem's tone. One word, one site.
+- ✅ ***Papae* (0522B) STANDS in italic Latin — ruled by Wilson, 2026-08-17.** Every English
+  equivalent ("Wonderful!", "Ha!", "Bless me!") guesses at the tone of a rhymed poem, and the
+  guess would be invisible to the reader as ours. **Do not re-open it**, and do not
+  translate it in a later sweep.
 - The coda reuses the commentary's own vocabulary (*singulare ferculum*, *reclinatorium*,
   *turris eburnea*). Recorded as **weak**: these are standard Marian-Song commonplaces and
   are **not** evidence about the attribution question.

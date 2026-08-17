@@ -824,6 +824,13 @@ rhyme line is not a proof-text.
   unaffected, so nothing is lost by shipping the plate's layout now.
 - Corollary for verse whose lines Migne *does* print: keep them, one for one, and do not
   reflow them to fit the measure.
+- **Paragraphing is the same question and got the same answer, with one ratified exception.**
+  Checked corpus-wide 2026-08-17: **1,012 of 1,013 chunks already match their Latin twin's
+  line structure exactly**, so "paragraphs follow the plate" is the corpus's de facto rule.
+  ✅ The single deviation — **11632/0033, which splits one 10,399-character Migne paragraph
+  into four English ones — STANDS (Wilson, 2026-08-17)**: rejoining it would make an
+  unreadable wall of text, and no sense is at stake. **Do not "fix" it, and do not read it
+  as licence to split paragraphs elsewhere.**
 
 ### 9. What is NOT a Pattern 7 defect
 
