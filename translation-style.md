@@ -800,6 +800,31 @@ that is an argument for recording it faithfully, not for feeling free to improve
 it. Where a printed mark makes the English genuinely unreadable, render it as
 printed and log a crux; do not adjudicate in the text.
 
+### 8a. Verse is lineated ONLY where Migne lineates it (Wilson, 2026-08-17)
+
+**The rule, and it is the whole of it: if Migne printed it as verse lines, we print
+verse lines; if Migne printed it as continuous prose, so do we — however plainly it
+rhymes and scans.** Layout follows the plate exactly as punctuation does (Pattern 8),
+and for the same reason: the lineation on the page is his 19th-century editors' work,
+which is an argument for recording it faithfully, not for improving it.
+
+**The case that forced it: 11550's CAPUT XLII** (PL 196, 0522B–0524A), a rhymed
+Marian *laus* — *operta · portendit · referta* · *Holoferni · spernis · sternis* ·
+*ferus · Assuerus* — which **Migne prints as continuous prose with no line breaks.**
+Shipped unlineated. Recognizing the rhyme is a scholarly observation and it belongs in
+the apparatus and the "On this text" note, where it explains what would otherwise look
+like defects: the chapter's ellipses, and its *Ave Maria … **tecum sit Deus*** for
+*Dominus tecum*, a **rhyme-driven** divergence that correctly took no `[var:]` because a
+rhyme line is not a proof-text.
+
+- **Do not lineate on the strength of hearing the metre.** A verse layout we impose is a
+  claim about the text's form that the page does not make, and it is invisible to the
+  reader as ours. Where the rhyme matters to the sense, say so in the cruces.
+- **Turning lineation on later is a REBUILD, not a re-translation** — the English is
+  unaffected, so nothing is lost by shipping the plate's layout now.
+- Corollary for verse whose lines Migne *does* print: keep them, one for one, and do not
+  reflow them to fit the measure.
+
 ### 9. What is NOT a Pattern 7 defect
 
 Two classes look like corruptions and are not. Both were being "fixed" by agents.
