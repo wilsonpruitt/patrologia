@@ -212,6 +212,77 @@ chunk of 552 Latin words against a work median near 1,000.
 
 ---
 
+## §Z. THE BLIND POLARITY READ (2026-08-17) — 12 OUR-SIDE DEFECTS, AND `verify-english` PASSED EVERY ONE
+
+Six readers, 58 chunks, none permitted to open `cruces.md`, `cruces-*.md`, this file, or the fleet
+brief. **Every finding below was checked against the cruces only AFTER it was formed, and not one
+of the twelve was logged** — the columns appear in the cruces, but for other reasons (a `[sic:]`
+one clause away, a Migne-side census candidate, a `[var:]` on a different word in the same verse).
+**A flagged passage is not a checked passage**, for the second work running.
+
+### The twelve, all fixed
+
+| col | was | is | why it mattered |
+|---|---|---|---|
+| 1288C | "**turns** to the help of salvation that which" | "**comes** to the help of salvation in that which" | *venit* is intransitive; the transitive English silently supplied *vertit*, a word the plate does not print, to rescue a self-contradictory sentence |
+| 1285A | "who is **unable to do nothing**" | "who is **incapable of nothing**" | *nihil non potest* = there is nothing he cannot do; the English inverted the scope and the reader had to repair it from the next clause |
+| 1287A | "chills **of the enemy, of the night, and of the cold**" | "chills, of the enemy, of the night, and of the cold," | three genitives distribute one to each nominative (fears/enemy, horrors/night, chills/cold); binding all three to *algores* dissolved the pairing — **and hid Migne's own *honores* for *horrores*** |
+| 1285B | "lose grace and to lose thyself, without **which**" | "lose grace, without **which** …, and to lose thyself" | *qua* is feminine: it can only be *gratiam*. Latin morphology fixed it; English word order did not |
+| 1333A | "**That** is the time of laughing" | "**The latter** is the time of laughing" | this translator rendered the same *illud/istud* pair "the former … the latter" twice in the two preceding chunks. "That" points the reader to the only antecedent under which the sentence is not false — **it dissolved the plate's contradiction in one pronoun** |
+| 1338A | "The hall of Babylon **without humility** is the discipline of humiliation" | "The hall of Babylon is a discipline of humiliation **without humility**" | *sine humilitate* is the predicate, as the strictly parallel sentence before it requires; the English made the counterfeit into the good thing |
+| 1339B, 1339C | "**Thy** kingdom has passed from thee" (twice) | "**The** kingdom has passed from thee" | ⭐ **7a″ conformation.** Migne prints bare *Regnum*; the Vulgate has *Regnum tuum*. The English rightly declined the Vulgate's future and then silently restored its possessive — **and our own gloss three lines later renders the same bare *Regnum* "The kingdom"**, so lemma and gloss were printing two texts of one word |
+| 1356A | "not a lamb, but **as it were a sow**" | "not a lamb, but **a bear** `[sic: *ut sus*]`" | *ut sus* is *ursus* split. The next chapter's own lemma is *similis **urso*** and it closes *Sic pardus **urso** succedit*. The translating agent SAW this, called it "the site where the faithful English most misleads", and declined a marker because both fragments are real words — which is exactly 7a⁗-b's dangerous case: a split run yields a confident wrong reading, not a visible hole |
+| 1357A | "to **render** another's life" | "to **gnaw** `[sic: *redere*]` another's life" | the translating agent ran a corpus control, found *redere* attested as medieval *reddere*, and declined. **The blind reader found the decisive evidence 30 lines down the same chunk:** Migne prints the phrase intact at 1357D, *alienam vitam libenter **rodunt***, which we render "gnaw". "Render" destroyed the bear's-teeth figure the sentence is built on |
+| 1265D | "who, **against the Apostle's sentence**, does not think himself to be something" | "who does not think himself, **against the Apostle's sentence**, to be something" | Gal. 6:3 **condemns** thinking oneself something, so the man acting *contra Apostoli sententiam* is the man who does. The English bound the phrase to the negated verb and inverted both the proof-text and the chapter's argument, three sentences before it calls the man "vile mire, cinder and ashes" |
+| 1269A | "to be such at some time" | "to be such **perhaps** at some time" | the plate's second *forte* had been dropped while the missing infinitive was supplied — the quiet-repair shape: a whole smooth sentence where the plate has a hole |
+
+### ⚑ What this read teaches, beyond the sites
+
+1. ⭐⭐ **The 7a″ protocol worked so well that the failure MIGRATED.** Every launch message named its
+   range's lemma words verbatim, and the lemmata held: the Daniel 4 re-quotation chains, the nine
+   negations of 1 Cor. 13, the seven of Ps. 113, Dan. 2:20 printed three times at three lengths —
+   all came through clean, and one reader verified them site by site. **The damage is in the
+   exposition's own rhetorical pairs** (morning/evening, *illud*/*istud*, *aula Babylonis*, the
+   distributed genitives), where nobody was pointed. ⬜ **Next lemma-and-gloss work: name the
+   AUTHOR'S OWN antithesis-words in the prompt too, not only the scripture.**
+2. **Two of the three worst sites were seen and declined by the translating agent.** 1356A and
+   1357A were both in the cruces as reasoned declines. A blind reader with no stake in the earlier
+   decision overturned both on evidence in the same chunk. **The cruces cannot audit itself.**
+3. **A reader disclosed self-contamination and voided its own strongest finding.** A corpus-wide
+   grep for a word returned matching lines from `cruces.md` and this file; the reader had seen them,
+   said so, and moved the affected site to "rejected". ⚠ **The blind-read prompt must bar
+   `grep`-ping the work's English directory as well as opening the files** — the answer key can
+   arrive through a search result.
+4. **Yield tracked genre exactly as the runbook predicts:** 0 sites in 0000–0009 and 0 in
+   0030–0039 (both verified positive, with the clean chunks named), against 5 in 0020–0029 and 3
+   in 0040–0049. The two barren ranges are the ones densest in scripture lemma; the fertile ones
+   are densest in Richard's own argumentative prose.
+
+### Migne-side defects the read surfaced that are NOT in the apparatus
+
+All rendered literally, which is correct under Pattern 7 — but a reader meets the contradiction
+with no cue. Recorded here as crux material, not as text changes:
+**1309B** *relevationibus*/*relevari* for *revelationibus*/*revelari* (control: 30+ *revelatio-* in
+this work against exactly 2 *relevatio-*, both in this one sentence) · **1267D** *nunc* for *non*
+in a Jer. 3:2 / Isa. 49:18 conflation, the negation-destroying letter class, missed because the
+quotation is not italicised on the plate · **1268D** *servire* for *saevire* · **1270B** a
+gradation whose first step runs backwards · **1333B** *Vespertinum* defining evening with every
+mark of morning (same defect zone as 1333A) · **1287A** *honores* for *horrores* · **1284D**
+*negligentius* for *negligentes* · **1283D** *ea* for *aes*, leaving the metal-list one short ·
+**1282B** *cui* for *qui* · **1289D** *uritur* for *irritatur* in a clause-by-clause re-quote of
+1 Cor. 13 · **1276A** *corpore* for *torpore* · **1279C** *opibus* for *opus* · **1363A**
+*implicare* for *explicare* · **1354C** *amissis aliis* for *alis* · **1356D** *et* for *ad*.
+
+### Corroboration for a merge ruling, found blind
+
+A reader independently flagged *simultas* → "pretense" as an unmarked normalisation and produced
+**new evidence the merge did not have: chunk 0020 @1274A prints *in aere **simulatio***, rendered
+"simulation" — Migne himself puts a simulation-word in that slot of the metals allegory.** That
+corroborates the ruling rather than upsetting it. The ratification stands, now on three legs
+(the allegory's own position, 1258D's *sine simultate*, and 1274A).
+
+---
+
 
 # ── cruces-0000.md ──
 
