@@ -144,6 +144,60 @@ file** rather than deciding for the whole work by yourself.
 | *vita activa / contemplativa* | the active / contemplative life |
 | *liberum arbitrium* | free will |
 
+## ✅ Ratified after round 1 (chunks 0000–0029) — BINDING, do not re-open
+
+1. ***simultas* = "pretense"**, never the classical "enmity", beside *simulatio* = "dissimulation".
+   Settled by the work's own control, not by ear: the metals allegory reads *in auro charitas, in
+   argento veritas, in **aere simultas**, in ferro crudelitas, in testa fictili fragilitas*, and the
+   plate glosses that same slot elsewhere with *simulatio*; and **1258D**'s *semetipsum in omnibus
+   **sine simultate** accusat* means accusing oneself without dissembling, which "without enmity"
+   does not say. **This also withdraws the range-0015 Pattern 18 census candidate at 1269D** — the
+   word is not a defect, it is this author's usage.
+2. **The five materials, fixed:** *aurum* gold · *argentum* silver · *aes* **bronze** · *ferrum*
+   iron · *testa* **clay** · *fictilis* **earthenware** · *lutum* **mire**. *testa* and *fictilis*
+   print side by side in the Dan. 2 lemma and the exposition turns on which is where — **they must
+   never collapse onto one English word.** *favilla* = **cinder**, *cinis* = **ashes**, *palea* =
+   chaff.
+3. ***intelligentia* = understanding** (49 forms, and it carries four chapter heads) ·
+   ***intellectus* = intellect** (8 forms) · *intellectualis* = intellectual. This reverses the
+   opening table, which gave "understanding" to the rarer word — the dominant term keeps the
+   natural English.
+4. ***fortitudo* = fortitude**, freeing "strength" for *virtus corporis*; inside Dan. 2:20/2:23,
+   which this work quotes three times and then expounds.
+5. ***scientia* = learning** vs ***cognitio* = knowledge** (they stand together in CAPUT XVI's own
+   head) · *notitia* = cognizance · *enodatio* = unravelling vs *solutio* = solution ·
+   *magisterium* = mastery · *mentis excessus* = excess of mind · *sacramentum* = sacrament kept
+   apart from *mysterium* = mystery (they collide at 1249B) · *angustia* = anguish (the
+   *Nabuchodonosor* etymology's hook) · *conjectura* = conjecture, apart from *interpretatio* ·
+   *publicare* = to make public, never "confiscate" (Richard glosses it).
+6. **The four-vice scheme, uniform across all three books:** *arrogantia / jactantia / pertinacia /
+   saevitia* = arrogance / boasting / obstinacy / savagery. Richard matches them point-by-point to
+   the four clauses of 1 Cor. 13 at 1289C, so a synonym anywhere breaks the correspondence.
+7. **Proper names stay in Migne's Latin form: *Nabuchodonosor*, not "Nebuchadnezzar."** Chapter I
+   turns on two etymologies of the name; an English form leaves both glosses explaining nothing.
+   Same reasoning for *Balthassar* (the *subtilitas* gloss) and *Judas* at 1258A, where the
+   nominative is printed in order to be glossed.
+8. **Head conventions, set by the opening range:** `## BOOK ONE.` / `## CHAPTER ONE.` /
+   `## CHAPTER II.` — the plate's own numeral form, the italic summary translated, the plate's
+   terminal period kept (and its absence kept where absent).
+
+### ⚑ What round 1 proved about this plate — carry it, do not re-discover it
+
+- **Luke 17:21 prints *regnum coelorum* for *regnum Dei* at FOUR sites** (1240A, 1243D, 1261A,
+  1283B), one of them also *intra nos* for *intra vos*. Four agents found it independently. It is
+  the plate's habit: mark each occurrence `[var:]`, render as printed, and do not treat a fifth as
+  a fresh discovery.
+- **Dan. 2:34 drops *de monte* at both its printings** (1265B, 1276B) while the exposition turns
+  the stone into the mountain. Same shape: mark, render, move on.
+- **Migne re-quotes his own lemma against himself within a few lines**, and the difference often
+  falls on the very word the gloss needs (*ostendisti mihi* → *nobis* at 1253D/1254A;
+  *significet* → *annuntiet* at 1257B; *Dominus coeli* → *Deus coeli* across 1281B/1284A). **When
+  your chunk re-quotes a verse, diff the two printings before you translate either**, and mark
+  the divergent one — not both, unless both diverge.
+- **Three declined Pattern 18 census candidates are already named** (*praefectis*/*perfectis*
+  1261A, *amittere*/*admittere* 1246C, *minus*/*imis* 1295A). Wilson's bar stands where it stands:
+  a conjecture is glossed only for a **negation or a correlative**. Name yours and decline it.
+
 ## Scripture and garbled type
 
 - **Translate what Migne prints, never substitute a conventional version.**
