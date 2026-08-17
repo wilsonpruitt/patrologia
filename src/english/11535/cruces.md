@@ -185,12 +185,12 @@ Witness: the archive.org Google scan of PL 196, `patrologiaecurs104unkngoog` (me
 
 ## ⬜ Open for Wilson — nothing downstream is blocked on these
 
-1. **The `[cj:]` bar boundary, and one marker hangs on it.** 1231B's stranded *quam* has no
-   comparative, and Richard supplies *facilius* himself twice within eight lines; it was glossed by
-   reading "correlative" to cover a stranded comparative, on the 7561 dropped-word precedent. **If
-   that reads as widening the 2026-08-15 bar, withdraw the marker and file the site as a census
-   candidate.** The other four `[cj:]` are squarely inside the bar (dropped *non* at 1239A and
-   1289D, *nisi*/*nec* at 1302B, *sit*/*sic* in a *Quemadmodum … sic* correlative at 1294B).
+1. ✅ **RESOLVED — the `[cj:]` gloss at 1231B STANDS** (Wilson, 2026-08-17). A **stranded
+   correlative whose answering member is printed and whose own member is not** is inside the bar,
+   and `translation-style.md` Pattern 18 now says so. The other four `[cj:]` were always squarely
+   inside it (dropped *non* at 1239A and 1289D, *nisi*/*nec* at 1302B, *sit*/*sic* in a
+   *Quemadmodum … sic* correlative at 1294B). The ~35 declines below are unaffected: the class
+   admitted is narrow and does not reach mood, voice, number, person or prepositions.
 2. **The retained-Latin italics** (declared exception above).
 3. **~35 declined Pattern 18 census candidates** are named across the twelve cruces files, for
    `WITHDRAWN-NET.md`. The four strongest, in the order they should be revisited if the bar ever

@@ -1375,7 +1375,16 @@ something false*, not whether it is odd:
   - **11064 @1142D** — *si* for *sic*, a correlative weakened into a condition →
     `if [cj: *si*; read *sic*, "so"]`.
 
-  ⚠ **The ruling is scoped to that class and was not read wider.** Mood, voice, number and
+  - ✅ **11535 @1231B — A STRANDED COMPARATIVE IS A CORRELATIVE for this rule** (ruled by Wilson,
+    2026-08-17, on the 11535 fleet's one bar-boundary marker). Migne prints *quam* with no
+    comparative anywhere for it to complete, while Richard supplies *facilius* himself twice within
+    eight lines. The gloss opens on the word Migne *did* print, exactly as 7561 @0648 does for a
+    dropped *non solum*, so the verbatim-in-the-Latin-twin guard is satisfied and nothing about it
+    had to be loosened. **The class this admits is narrow: a correlative whose answering member is
+    printed and whose own member is not.** It does NOT admit comparatives that merely read
+    awkwardly, and it does not disturb any decline below.
+
+  ⚠ **The ruling is otherwise scoped to that class and was not read wider.** Mood, voice, number and
   person anomalies that merely fail to construe stay declined — 11064 @1021A *efferte*,
   @1036B *dic*, @1064B *ipsos*, @1154C *suscepit*, 11083's *aequare* and *praesumatur*.
   The nearest to the line is @1154C, where *suscepit* for *suscepi* puts an unnamed third
