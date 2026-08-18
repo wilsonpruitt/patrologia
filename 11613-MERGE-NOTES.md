@@ -339,3 +339,52 @@ evil). ⭐ **Naming this trap in the brief was the single highest-value line in 
    parity counts are HAND-verified, which is not the same thing — the verifier exited early on
    `0048.md: MISSING English chunk` while that range was in flight.
 2. **Diff 0049's « Videamus si floruit vinea » against 0048's**, which owns that lemma.
+
+## ⛔ NOTE (14) @ col 1180 — DOWNGRADED TO ILLEGIBLE, against the reading that was offered
+
+The agent that recovered it read **`f. *bona*.`** and built a real case: it compared the
+first letterform against the same footnote font elsewhere in its range (the *b* of *obvolvit*
+in note 15 has a left riser; the *d*s of *addictas* put the ascender right of the bowl), it
+observed that *b* is the only shape-class letter yielding a Latin word, and it noted that the
+text prints *Optans itaque bonis (14) dona* — where **bona dona construes and bonis dona is
+harder**. It flagged the reading as high-confidence-not-absolute and asked to be overruled if
+wanted. That is exactly the right behaviour and the case was worth making.
+
+**It does not survive the plate.** Checked two ways:
+
+1. **The second copy.** PL 202 has two independent archive.org scans;
+   `patrologiaecurs114unkngoog` (copy B) holds the same page at its own p. 595. **Copy B shows
+   the same letterform, and is if anything more ink-flooded.** Agreement between two scans of
+   the same forme is evidence about the TYPE, not about the ink — it removes "one bad scan" as
+   an explanation.
+2. **900 dpi on copy A.** At that magnification **the letter carries no ascender at all**,
+   while the `f.` two characters to its left shows a tall clean riser in the same line of the
+   same font. The visible shape is a `c`/`e` bowl. **A *b* would have to show what the *f*
+   shows, and it does not.**
+
+So the honest record is `ILLEGIBLE`, with the shape described, and **not** a conjecture
+asserted in Migne's voice. ⚑ **The general lesson, and it is the reason the rule exists:
+sense-plus-letterform reasoning can be excellent and still lose to magnification.** The agent
+argued from a comparison at 300 dpi; the answer only appeared at 900. **When a reading will be
+published as the editor's own words, escalate the magnification before accepting the
+argument** — it cost two crops.
+
+⚠ Also recorded because it was my own error: I first downgraded **both** notes on p. 596,
+because two notes share that page and my filter matched the page number alone. **(12-13)
+*qui alio*. was restored**; it was never in doubt. A page-keyed edit in this dataset must
+match the note number too.
+
+## Structural findings from the notes recovery, for the runbook
+
+- ⛔ **The column a note BELONGS to is not the column it is PRINTED under.** On p. 610 the note
+  sits beneath the left column while its `(26)` marker stands in the right column (1208); same
+  for `(27)` on p. 611. **Assign `col` from the marker, never from the note's position.**
+- **Numbering is unbroken and is the detector.** (1)–(10) pp. 580–592 · (11)–(22) pp. 593–605 ·
+  (23)–(32) pp. 606–618. Every gap that appeared turned out to be a note lost to the crop, not
+  a note Migne didn't print.
+- **Migne's own numerals can be damaged** — (30) and (31) on p. 618 print as roughly `(¯0)`
+  and `(ᴧ1)`. The sequence fixes them. That is not a crop artifact and should not be reported
+  as one.
+- **Some notes are cross-references, not conjectures** — (17) *Joannis etiam Apocalypsis*.
+  Record them the same way; the merge decides.
+- **One note serves two markers**: `(12-13)` is printed once and answers both.
