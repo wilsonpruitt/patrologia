@@ -946,6 +946,45 @@ So the repetition is **printed and marked**:
 - Log the crux as always: column, the repeated run, and whether it looks like a
   compositor's doubling or a genuine textual doubling.
 
+#### 11a. When the two copies DIFFER, mark the INTRUSIVE one — not the second (Wilson, 2026-08-18)
+
+**Pattern 11 above says the marker wraps "the repeated occurrence only, not the original."
+That is a rule about POSITION, and it is correct only while the two runs are IDENTICAL.**
+Migne's plate also doubles a run *with variation*: the compositor's eye slips back, re-sets
+the clause, and one of the two copies ends differently from the other. **Then position tells
+you nothing, and marking the second copy can quarantine the true text and leave the intrusion
+standing.**
+
+**The rule: mark the copy that is the INTRUSION, wherever it stands.** Identify it by what it
+does to the argument, not by where it sits — the intrusive copy is the one whose tail
+duplicates a NEIGHBOURING phrase (the eye-skip's source) and whose removal leaves the passage
+saying what the author is plainly arguing.
+
+**The case that forced it — 11613 col. 1230D.** Migne prints:
+
+> *manifeste bonos et malos videns **per fenestram**; hos vero qui se occultant, intuens **per
+> fenestram**; hos vero qui se occultant, intuens **per cancellos**.*
+
+The whole column argues that the manifest are seen through the WINDOWS and the concealed
+through the LATTICES (*Qui ergo sunt quos sic conspicit? qui vel mala non male agunt…*). The
+second copy ends *per cancellos* and is the true text; **the first ends *per fenestram*,
+copied from the clause immediately before it, and is the eye-skip.** Marking "the repeated
+occurrence" mechanically quarantined the true clause, so the English asserted that **the
+hidden are beheld through the window** and left "through the lattices" dangling with no
+clause of its own — **the exact reverse of the argument**, printed on a reading page, passing
+every automated check.
+
+⭐ **It was caught twice, independently, and the second time is the lesson.** The translating
+agent saw it, said in its own report that "Pattern 11 is written for identical runs and does
+not decide a doubling that varies in one word", **and followed the rule's letter anyway** —
+filing the analysis in the cruces instead of the text. A blind reader then found it from the
+sense alone. **A rule that an agent can see is wrong and applies regardless is a rule with a
+missing clause, not an agent with poor judgement.**
+
+**Where the two copies are genuinely identical, nothing changes**: wrap the second, exactly as
+Pattern 11 says. **Where they differ, say WHY you marked the copy you marked** in the cruces
+line — the reasoning is the part a later reader cannot reconstruct.
+
 **Why not brackets.** Square brackets were the obvious candidate and are already
 overloaded in this corpus: they carry BOTH Migne's own bracketed matter
 (`[ *al.,* hujus]`, `[securitas]`, `[charta]` — his, untranslated) AND our
