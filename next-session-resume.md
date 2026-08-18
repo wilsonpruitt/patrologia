@@ -43,9 +43,9 @@ No plate was re-read, so this is not the retrofit the ruling forbids.
    ours. The injector reports and places nothing. ⬜ Both want a look at the page some day;
    neither blocks anything.
 
-⬜ **Open for Wilson (Pattern 19, no rush):** should the ENGLISH side also show Migne's
-conjecture — an additive marker in the `[cj:]` family but attributed to him — or is a reader
-served by the crux plus the parallel Latin? Captured either way.
+⛔ **RULED, and Pattern 19 carries it: the English side does NOT show Migne's conjecture —
+the crux plus the parallel Latin is enough.** Wilson, 2026-08-18: *"the cj: is for scholars
+where the english is for all."* Closed; do not re-raise.
 
 ### ✅ Queue restocked: 14 Glossa books chunked, all validating (3 → 17 prepared)
 

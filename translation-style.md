@@ -1560,10 +1560,13 @@ is his*. `verify-english.mjs` errors on a `[cn: ]` found in the English.
 - **Never re-label his conjecture as ours.** `[cj: …]` reads on the page as "the reading
   beside it is our conjecture" and must keep meaning that. If Migne has already conjectured
   the word, the reader meets it on the Latin side, in his voice, and ours is not needed.
-- ⬜ **Open for Wilson:** whether the English side should ALSO show his conjecture — an
-  additive marker in the `[cj:]` family but attributed to Migne — or whether a reader of
-  the English is served by the crux plus the parallel Latin. Nothing blocks on it; the
-  notes are captured either way.
+- ⛔ **RULED (Wilson, 2026-08-18): the English side does NOT show Migne's conjecture. The
+  crux plus the parallel Latin is enough.** His words, and they are the reason: *"the cj: is
+  for scholars where the english is for all."* The conjecture layer is scholars' business
+  and it has two addresses already — his note beside his own text on the Latin side, and the
+  crux that says what we did with it. Putting a third copy into the English page would buy a
+  reader who is not asking the question nothing, at the cost of the page they came for.
+  **Do not propose a Migne-conjecture marker for the English again.**
 
 **Recovery is per VOLUME, at chunking, and never retroactive** (Wilson, 2026-08-18 — the
 completed corpus is not re-run until funding justifies it; shipping new works is the
