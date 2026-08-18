@@ -1,5 +1,88 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18 — FOLIOT IS LIVE, AND MIGNE'S LOST APPARATUS LAYER IS FOUND
+
+**Gilbert Foliot, *Expositio in Cantica canticorum* (11613, PL 202, 1147A–1304D) is LIVE**
+— `migne-hag2hoot6`, production, **verified BY BODY**: work page and cruces page both 200,
+badge **First English translation**, six blind-read fixes confirmed present and their
+pre-fix readings confirmed absent, **the 72-row notes table live on the cruces page**,
+landing at **106 englished works**, `/scripture/` at 106. ⚠ **That verification is DATED.**
+
+53 chunks · 66,297 Latin words · 65 `[var:]` · 19 `[sic:]` · 11 `[cj:]` · 1 `[d:]` · 1 `[nt:]`.
+Polarity ledger **106/106**. `master` clean, **~20 commits unpushed**.
+
+### ⛔⛔⛔ THE FIND OF THE SESSION — A WHOLE APPARATUS LAYER IS MISSING FROM OUR SOURCE
+
+**Migne prints numbered conjecture notes at the foot of his pages (`Forte *word*.`), and
+Corpus Corporum's TEI contains NONE of them.** Measured across **all 5,276 PL TEI files and
+498,774 `<note>` elements: ZERO.** The 413 `<note>` per work we do get are his *inline
+parenthetical citations* — a different layer entirely.
+
+⚑ **These are the apparatus that settles cruces, so we have been declining conjectures Migne
+already answered.** Worked case: 1254B prints *quanam « Aaron » filiabus Sion consulitur
+egredi*, which does not construe; a translating agent weighed two conjectures and rightly
+declined for want of a witness — **and Migne's witness, *Forte earum*, was printed at the
+foot of that very page.**
+
+**⛔ WILSON'S RULING (2026-08-18): recover notes for NEW works at chunking time; do NOT
+re-run the completed corpus until funds justify it.** *"turning out new works helps that keep
+going and may increase the funders"* — four monthly sponsors as of this session. **Shipping
+new works is the funding lever; retrofits are invisible to a reader.** Full rule + method in
+CLAUDE.md; per-work status in `data/plate-notes/coverage.json` (**tier 2** = our apparatus
+only, 97 works; **tier 3** = Migne's notes recovered, sequence verified — 11613 alone;
+`partial` exists and says outright that absence proves nothing there).
+
+**11613's 72 notes are in `data/plate-notes/11613.tsv`** — 71 rows, every anchor located in
+our Latin. Method proven: **PDF page = 600 + (col − 1187) / 2** for `patrologiaecurs139unkngoog`;
+copy B `patrologiaecurs114unkngoog` is one page lower and is the second witness.
+
+⚠⚠ **THREE METHOD RULES, EACH PAID FOR:**
+1. **Crop the FULL page width.** Notes sit under BOTH columns and, at a work division,
+   MID-page. My bottom-strip band lost 3 of the first 10 and was caught only because
+   **the numbering runs sequentially and a gap is a detector.** Always check the sequence.
+2. **Assign the column from the MARKER, not from where the note is printed** (p. 610's note
+   sits under the left column; its marker is in the right).
+3. **Three-way distinction:** we cannot read it → `ILLEGIBLE` · **he printed it defectively →
+   record as printed** (note 64 is `F. spr`, truncated in BOTH copies) · uncertain →
+   **escalate magnification and a second copy before accepting** (note 14's *bona* was argued
+   well at 300 dpi and died at 900, where the letter shows no ascender though the `f.` beside
+   it does). ⭐ **Sense-plus-letterform reasoning can be excellent and still lose to
+   magnification.**
+
+### ⭐⭐⭐ THE BLIND READ — 25 sites, ALL OURS, and the dominant class is structural
+
+Six readers, ~9 chunks each, fenced from cruces.md, the merge notes, the brief,
+`data/plate-notes/` **and from grepping `src/english/` at all**. `verify-english` had passed
+all 25. **Zero Migne defects wrongly corrected** — every reader rejected the Migne-side
+candidates as correct literal renderings.
+
+⭐ **12 of 25 are ONE CLASS: an unexpressed Latin subject or referent that ENGLISH CANNOT
+LEAVE UNEXPRESSED, supplied wrongly.** Fluent, self-consistent inside its own sentence,
+invisible to every automated check, **and usually settled only by the NEIGHBOURING chunk —
+which is exactly what a chunked fleet cannot see.** ⬜ **Add to both briefs permanently.**
+Worst site: **1206D/1207A** rendered *botrus cypri* as Douay's "cluster of cypress" against
+**Foliot's own gloss that Cyprus is an ISLAND**, collapsing his cluster→vines→wine→martyrs
+chain.
+
+⬜ **Wilson: Pattern 11 needs a clause for VARYING doublings.** At 1230D the `[d:]` marker
+quarantined the wrong copy and inverted the column's argument. Pattern 11 says mark the
+second; it is written for IDENTICAL runs and does not decide a doubling that varies in one
+word. **Mark the INTRUSIVE copy.** Two agents reached this independently.
+
+⚠ **One reader's fix was overruled**: a plural at 1277D would have smoothed Migne's printed
+singular verbs. **A reader's diagnosis can be right while its remedy silently repairs the
+plate — check the remedy against Pattern 7, not just the diagnosis.**
+
+### Still owed
+- **Pattern 18 census** — Wilson has scheduled it AFTER Foliot, and the reason is standing:
+  pattern work costs HIS time (thirty ratifications), translation runs cost only tokens.
+- **The marker class for the notes** (`[cn: …]` in the LATIN only, shown in the apparatus and
+  never adopted into the text) — to be built into the NEXT work's chunker, where it costs
+  nothing extra. Design ruled this session; not yet implemented.
+- 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons indexing 0 scripture
+  citations · 10083 @0493D / 9604 @1347D · the 2 space-for-comma unparsed citations
+  (corpus-wide count: 2 — not worth a shared-parser change).
+
 ## ▶ 2026-08-18 — GLOSSA ORDINARIA MOVED UP THE QUEUE (Wilson's call); RUTH PREPARED
 
 **PL 113–114 Glossa (62 works, ~783K w) is now a named priority block — see the new
