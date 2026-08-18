@@ -163,3 +163,44 @@ cruces, since a reader meeting "my friend" in the Song will want to know why.
   0050. Follow that precedent.
 - **A one-word `[var:]` content trips Pattern 14's mirror test.** Write the content as a
   phrase; the reading is unchanged and the marker survives.
+
+## ⭐⭐ THE PATTERN 14 QUESTION IS NOW SHARP ENOUGH TO RULE ON — three sightings, one mechanism
+
+The blocker is **the LENGTH OF THE OVERLAP with the Latin twin, not self-quotation as such.**
+Found by the 0040–0043 range, whose @1270B marker **survived** the mirror test on exactly the
+shape that blocked 0009's — because Migne's own re-quotation there stops short of the full
+received phrase, so the overlap was partial. Three faces of one mechanism:
+
+1. **0009 @1176B — blocked.** *Oleum effusum nomen tuum* re-quoted as « *Nomen tuum est ut
+   oleum* », identity turned to simile, the whole gloss built on the simile. The received
+   reading is printed four lines above as the chunk's own lemma → full overlap → no marker.
+2. **0020–0024 — deformed but survivable.** Two `[var:]` contents rewritten from single words
+   (*Deus*, *rex*) into phrases purely to clear the test. Readings unchanged, so the apparatus
+   silently dictated the marker's PROSE.
+3. **0018 — rejected outright.** The agent tried to name the internal witness (`[var: the
+   lemma above and Vulg. *Dum*…]`) and the validator refused it, because a `[var:]` must open
+   with an EXTERNAL witness (Vulg. | LXX | Gk | Heb. | Douay | Vet. Lat.). **There is no
+   vocabulary for "Migne against himself."** Sent back to its own agent to re-decide.
+
+⚑ **The proposed rule, for Wilson: compare the marker's content against the SENTENCE it sits
+in rather than the whole chunk.** That keeps the protection the test exists for — we still
+cannot put a `[var:]` round our own words — while unblocking the case where a work quotes
+itself twenty lines later and diverges. **The second half of the question is whether the
+witness list should gain an internal term** (something like `Migne @<col>`) so a self-
+divergence can be stated in the apparatus instead of buried in the cruces. ⛔ **Do not change
+the validator without Wilson: it is the check that keeps a marker from claiming our prose is
+Migne's.**
+
+## Further merge actions raised in wave 2
+
+- **0033 vs 0042 — *vigiles*/*custodes* is NOT a collision.** Two different Song verses
+  (III, 3 and V, 7), and **Migne agrees with the Vulgate in both.** 0042 fixed *custodes* =
+  "keepers" and *circumeunt* = "go about"; 0033 needs "watchmen" and "keep". ⚑ **If 0033 used
+  "keepers", 0033 yields** — 0042's gloss expounds *custodes* for two columns.
+- **A SECOND apodosis-less sentence, 0040 @1269D**, rendered ending where Migne ends and
+  deliberately unmarked. Pairs with 1159D. **Two of them makes it a class, not an accident** —
+  worth Wilson's eye on whether this work's plate drops limbs systematically.
+- Five `[n:]` citations wrong by one member across 0040–0043 (Ps. CXVIII 119 for 129; the
+  Matth. VIII *Ibid.* chain; Gen. XXVIII, 12). **All kept verbatim and none proposed for
+  `citation-corrections.json`** — they sit in *Ibid.* chains, which runbook item 2 forbids
+  touching. Correct instinct; do not revisit at merge.
