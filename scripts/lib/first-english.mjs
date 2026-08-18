@@ -42,6 +42,27 @@ export const PRIOR_ENGLISH = new Set(['pd-ingested', 'copyrighted', 'elsewhere']
 // that we shipped. Never conflate them again.
 export const NOT_VERIFIED_NONE = new Set(['unclear', 'ours', 'partial', 'mixed', 'minimal', null, undefined]);
 
+// ⛔ DO NOT "FIX" THE MISSING VERIFIED FLAG — GRANDFATHERED BY WILSON, 2026-08-17.
+//
+// A future session will notice that CLAUDE.md rule 8 and this file both speak of a
+// "verified none" while the code tests only `workStatus === 'none'`, will check the
+// data, will find `workStatusVerified` truthy on ZERO of the 85 PL works claiming
+// First, and will conclude that 85 public priority claims are unsupported. That
+// conclusion is wrong, and acting on it would flip all 85 badges to the weak claim
+// in one commit.
+//
+// Wilson's ruling, in his words: **"we hunted pretty far when we first built out the
+// queue of untranslated so it wasn't speculative."** The triage that wrote
+// `workStatus: 'none'` WAS the search. The timestamp field was simply never filled
+// in for the PL pass — a bookkeeping gap, not an absence of evidence. The existing
+// 'none' verdicts stand on their own.
+//
+// So `workStatus === 'none'` IS the verified-none test for PL, deliberately. The
+// fail-safes that matter are the ones already here and below: an unknown, an
+// 'unclear', or a prior English never reaches the strong claim. If a NEW rule about
+// timestamping is ever wanted, it is a decision about future triage, not a licence
+// to retract verdicts that were actually researched.
+
 // PL lookup is BY IDNO, and that is load-bearing. build-landing keyed it by
 // `${volume}/${title}` under a comment asserting that pair is unique. It is not:
 // 176 keys collide across 472 texts, and 56 of those collisions hold records that
