@@ -86,3 +86,40 @@ side must yield, and the reasoning is recorded so it is adjudicated, not guessed
   our identification rather than his. That is the right instinct and should be the rule.
 - Three *nunquid* questions in 0000–0004 **close with a full stop** in the plate; carried as
   printed under Pattern 8. Expect the `?`-parity warn to be quiet here and do not "fix" them.
+
+## ⛔⛔ THE `amica` COLLISION IS NOW LIVE, NOT PREDICTED — three ranges, two answers
+
+- **0015–0019 fixed "friend"** — ground: 1196A's gloss turns on *verbo amicabili* → « *Amica
+  mea* », and *amicus Caesaris* sits in the same range, so the friendship sense is doing work
+  the reader can see.
+- **0020–0024 fixed "my love"** — ground: it must stay a THIRD word, distinct from *sponsa*
+  (Bride) and *dilectus* (beloved), and the vocative is what carries the Bride/Bridegroom
+  gender that English loses (*amica mea* → "my love" against *Dilecte mi* → "my Beloved").
+- **0000–0004 reports *amica* does not occur** in its range; its two *amicus* are ordinary.
+
+**Both arguments are good and they are about different passages, which is the tell:** 1196A
+needs the friendship sense because the gloss puns on it; 0020–0024 needs a vocative that
+reads as address. ⚑ **11535's rule decides the shape of the answer: a fixed-vocabulary word
+earns rigidity only where the competing senses actually MEET.** Check whether *verbo
+amicabili* and the vocative ever collide in one passage. If they never do, the honest answer
+may be that *amica* takes the friendship sense at the one site that puns on it and the
+address sense elsewhere — with the split stated in the cruces. **Do not flatten 26 instances
+to one word just to look consistent.**
+
+⚠ Also to reconcile across the same seam: **0015 has *pulcherrima* "most beautiful" /
+*pulchra* "beautiful one"**, deliberately unharmonized because Migne's re-quotations drop
+the superlative; **0020 fixed *pulcher/pulchra* as "beautiful" rather than "fair"**, because
+*pulchritudo* is glossed continuously for four columns. These are compatible — confirm it.
+
+## ⚑ THE PATTERN 14 MIRROR TEST HAS A SHAPE NOBODY DOCUMENTED
+
+Second sighting this wave, and now with a workaround: **a `[var:]` whose content is a single
+Latin word will trip the mirror test whenever that word appears anywhere in the Latin twin** —
+which for a common word (*Deus*, *rex*) is nearly always. 0020–0024 rewrote two marker
+contents from single words into phrases to get round it, readings unchanged.
+
+So the constraint is real and it is invisible: **the apparatus silently requires variant
+content to be phrase-length.** Combined with the 0009 case (a work quoting *itself* cannot
+take a `[var:]`, because the received reading is printed above as its own lemma), this is one
+gap with two faces. **Put both to Wilson together** — the question is whether the mirror test
+should compare against the SENTENCE the marker sits in rather than the whole chunk.
