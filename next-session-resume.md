@@ -3,10 +3,17 @@
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18e — FIVE GLOSSA BOOKS ENGLISHED · CORPUS 112 · ⛔ UNDEPLOYED
 
 **2 John (8984) · 3 John (8989) · Philemon (8994) · Titus (8997) · Jude (8978)** — PL 114,
-3,560 Latin words, five works in one cadence. **107 → 112 englished works.** Commit
-`401da82` on `master`, **UNPUSHED and UNDEPLOYED** (both protected; Wilson's per-action OK).
+3,560 Latin words, five works in one cadence. **107 → 112 englished works.**
+✅ **DEPLOYED AND PUSHED 2026-08-18** (`migne-17pc7bhl6`, Labs scope) — commits `401da82`
++ `78b29f1` on `master`, tree clean, in sync with origin.
 
-Everything is staged and internally verified: five work pages + five cruces pages built,
+**Verified BY BODY, not by status code:** all ten new pages — five work pages AND their
+five cruces pages — fetched from migne.app and **byte-for-byte identical** to the local
+build, as were `/`, `/glossa/` and `/queue/`. All five carry **"New English translation"**
+on the live page; none claims priority. The five appear in RECENT on the live landing.
+⭐ The cruces URLs were smoke-tested, not just the work URLs — that is how Glabas III once
+shipped with a 404 apparatus link.
+
 `scan-raw-markers` clean across all 112 built pages, every page carrying the quiet `/glossa`
 line, `/glossa` now 6 Englished / 19 prepared, queue 26 → 21 works (511K words).
 **`polarity-record --gate` is GREEN at 112/112.**
@@ -104,10 +111,10 @@ and no priority is claimed anywhere.
 
 ### ▶ Next, in order
 
-1. ⛔ **Deploy** — needs Wilson's per-action OK. `cd site && npx vercel --prod` (Labs scope;
-   `vercel teams ls` is the diagnostic if "Not authorized"). Then verify **by body**, not by
-   status code, and **smoke-test the cruces URLs**, not just the work URLs.
-2. **The next Glossa books run in cadence** — 19 prepared and waiting, smallest first
+1. ~~Deploy + push~~ ✅ done, live and body-verified. **Nothing is owed on this batch.**
+   (Deploy command for next time: `cd site && npx vercel --prod --archive=tgz --scope
+   wilson-pruitts-projects`; `vercel teams ls` is the diagnostic if "Not authorized".)
+2. ▶ **START HERE. The next Glossa books run in cadence** — 19 prepared and waiting, smallest first
    (2 Thess 8987 · 1 Thess 8982 · 2 Peter 8985 · 2 Tim 8988 · Tobit 8970 · Colossians 8990 ·
    Judith 8960 …). Conventions settled; reuse `GLOSSA-NT-AGENT-BRIEF.md`.
 3. **Plate spot check per book at chunking** — 1–2 pages. PL 114's mapping is calibrated
