@@ -1,13 +1,39 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION CLOSE 2026-08-18d — RUTH IS ENGLISHED. ⛔ POLARITY GATE RED, NOTHING DEPLOYS.
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18d — RUTH IS LIVE. GATE GREEN. THE GLOSSA IS OPEN.
+
+**Deployed and verified BY BODY 2026-08-18** (`migne-3vbumc0ee`): work page, **cruces page**,
+`/queue` and the landing all byte-identical to the local build; 0 raw markers on the page;
+three `[var:]` rendering; badge "New English translation"; landing at **107 englished works**.
+The cruces URL was smoke-tested, not just the work URL — that is how Glabas III once shipped
+with a 404 apparatus link.
+
+**`polarity-record --gate` is GREEN: every englished work in the corpus has now been read for
+this class.** 8968 recorded at chunks 3 · sites 17 · ours 13.
+
+⭐⭐ **What the blind read actually caught — read this before the next Glossa book.** Not one
+polarity defect in the whole work; both readers checked the negation clusters and cleared
+them. **The fault was SILENT REPAIR: four scripture words conformed to the familiar English
+Bible against what Migne prints** (*manum* → "to eat", *manibus* → "handfuls", *Adam filium
+Dei* → Douay's "who was of God", Old-Latin *Phoenicium* → "as scarlet"). Three now carry
+`[var:]`. ⛔ **All four by a translator who was marking `[sic: *sul*]` correctly two columns
+away — using the apparatus somewhere is not evidence it was used where it was needed.**
+⭐⭐⭐ **The readers DISAGREED on the worst site and the VULGATE settled it**: at 0538C the
+gloss lifts *susceptum … nutricis fungebatur officio* from Ruth 4:16, where the subject is
+**Noemi** = the synagogue; our bare "she"s read to the Gentile Church and made her Christ's
+nurse instead of his mother. One reader called it, the other passed it as correctly parsed —
+it parses perfectly either way, and only the source decides. Full account: `src/english/8968/cruces.md` §3.
+
+---
+
+## (superseded) SESSION 2026-08-18d — the state before the deploy
 
 Everything from 2026-08-18c is LIVE and body-verified (`migne-p8i45mot6`): the six works,
 11613 with its 69 conjecture notes, `/queue` at 27. Since then:
 
-### ⛔ FIRST THING NEXT SESSION: the blind polarity read on 8968
+### ✅ DONE — the blind polarity read on 8968 (kept for its method)
 
-`polarity-record.mjs --gate` is **RED on 8968** and it should be. The work was translated in
+`polarity-record.mjs --gate` was RED on 8968 and it should have been. The work was translated in
 session, so the translator cannot be its reader — 11535's lesson stands (two of its three
 worst defects had been SEEN and DECLINED by the translating agent). A fenced reader gets the
 Latin twin and the English, never `cruces.md`, and must **name the chunks it read clean**.
@@ -43,8 +69,7 @@ construe and is rendered as it stands; *sul tectum* carries `[sic: *sul*]`.
 
 ### ▶ Then, in order
 
-1. Blind read + record 8968 (above), then deploy — the deploy checklist is runbook step 8,
-   and **smoke-test the cruces URL, not just the work URL**.
+1. ~~Blind read + record 8968, then deploy~~ ✅ done and live.
 2. **The next Glossa books can run in cadence** — 24 are chunked and waiting (queue 26 works
    / 421 chunks after Ruth left it). Smallest first; the conventions are settled.
 3. Plate-note spot check, 1–2 pages per book at chunking (the blanket read is off — PL 113
