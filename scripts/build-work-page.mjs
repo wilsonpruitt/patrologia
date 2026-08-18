@@ -247,6 +247,15 @@ const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json')
 // failed (hardcoded 2026-08-17, then mirrored-and-drifted the same day).
 const claimHtml = badgeHtml(isFirstEnglishPL(idno, loadPlStatusByIdno(ROOT), m => console.warn(`  (${m})`)));
 
+// The Glossa ordinaria is 58 separate works that are really one book, so its pages
+// carry a link to the collection at /glossa/. That page is deliberately NOT in the nav
+// (Wilson, 2026-08-18) — this is how a reader reaches it: they arrive at one book of
+// the gloss and want the rest. Keyed by AUTHOR, so it appears on exactly that set and
+// never has to be maintained per work.
+const collectionLine = (manifest.authors ?? []).includes('Anselmus Laudunensis et schola')
+  ? `<p class="w-collection">One book of the <a href="/glossa/"><i>Glossa ordinaria</i></a> &mdash; the whole gloss, book by book.</p>`
+  : '';
+
 // Curated "On this text" paragraphs (data/work-about.json, keyed by textIdno).
 // Curated prose must live in data, never only in generated HTML — a rebuild
 // with no entry falls back to the generic paragraph.
@@ -330,6 +339,7 @@ ${nav('latina')}
     <p class="crumbs"><a href="/#shelf-pl-sec">Patrologia Latina</a> · <span>Vol. ${vol}</span> · ${authorLinks}</p>
     <h1>${esc(title.toUpperCase())}</h1>
     <p class="byline">${authorByline}</p>
+    ${collectionLine}
     <p class="meta">PL ${vol}, coll. ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} &nbsp;·&nbsp; Latin from the Migne printing &nbsp;·&nbsp; ${claimHtml} &nbsp;·&nbsp; column numbers follow the original plates, not the Garnier reprint</p>
   </div>
 </div>

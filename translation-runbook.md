@@ -147,7 +147,10 @@ after the translation is paid for.
    (newest first, one-line comment naming the author/work), (b) rebuild the
    generated pages — `build-scripture-index.mjs`, `build-sources.mjs`,
    `build-authors-index.mjs`, `build-queue.mjs`, `build-volume-indexes.mjs`,
-   `build-commentaries.mjs`, **`build-cruces.mjs`** —
+   `build-commentaries.mjs`, **`build-cruces.mjs`**, and **`build-glossa.mjs`** whenever
+   the work is one of the 58 Glossa books (that page is generated from works.json + the
+   BUILT pages, so it silently goes stale otherwise — same failure mode as the cruces
+   index below) —
    ⚠ **`build-cruces.mjs` was missing from this list until 2026-08-05 and its
    absence is invisible until after deploy.** The work page emits a link to
    `/cruces/<series>/<vol>/<slug>/` whenever a `cruces*.md` exists, so a work
