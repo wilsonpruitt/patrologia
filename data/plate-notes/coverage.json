@@ -810,5 +810,16 @@
  "fields": {
   "sequence_gaps_documented": "Note numbers Migne's own sequence skips, established at the plate. scripts/inject-plate-notes.mjs errors on any gap NOT listed here — a gap is the detector for a page cropped short, so it must be silenced deliberately, one number at a time, and never by widening the check.",
   "notes_placed": "How many of the recovered notes the injector could place in our Latin with a unique anchor. A shortfall is a divergence between the plate and Corpus Corporum's text, listed by the injector — it is evidence, not a defect in the capture."
- }
+ },
+ "findings": [
+  {
+   "date": "2026-08-18",
+   "what": "PL 113's Glossa ordinaria pages carry NO foot-of-page conjecture apparatus on any page sampled.",
+   "evidence": "Eight pages read at 300 dpi off archive.org patrologiaecurs04migngoog, across three separate runs of the volume: 271-275 (Ruth, incl. the Judges/Ruth division mid-page), 363 and 372 (Nehemiah run), 565 (Ecclesiastes run). Zero numbered notes, and no foot rule of the kind PL 202 prints. The pages simply end.",
+   "page_map": "PDF page = (column + 11) / 2  [patrologiaecurs04migngoog], verified against the running head at cols 533/534 = p. 272.",
+   "limit": "A SAMPLE, not a proof: 8 pages of the ~99 the prepared Glossa queue spans. It is enough to stop a blanket plate read, not enough to write 'this volume has none' into a work page.",
+   "consequence": "Do NOT commission the ~99-page read for the Glossa block. Spot-check 1-2 pages per book at chunking; record tier 2 with this reason where the check is clean.",
+   "also": "archive.org's Google OCR does not carry the apparatus either, and this was tested rather than assumed: patrologiaecurs139unkngoog_djvu.txt (PL 202, the volume whose notes we HAVE) holds 35 instances of 'Forte' in the whole volume, every one of them the ordinary adverb inside the body text, while work 11613 alone carries ~60 real foot-of-page notes. The OCR is not a cheap detector for this layer."
+  }
+ ]
 }
