@@ -1,5 +1,60 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18d — RUTH IS ENGLISHED. ⛔ POLARITY GATE RED, NOTHING DEPLOYS.
+
+Everything from 2026-08-18c is LIVE and body-verified (`migne-p8i45mot6`): the six works,
+11613 with its 69 conjecture notes, `/queue` at 27. Since then:
+
+### ⛔ FIRST THING NEXT SESSION: the blind polarity read on 8968
+
+`polarity-record.mjs --gate` is **RED on 8968** and it should be. The work was translated in
+session, so the translator cannot be its reader — 11535's lesson stands (two of its three
+worst defects had been SEEN and DECLINED by the translating agent). A fenced reader gets the
+Latin twin and the English, never `cruces.md`, and must **name the chunks it read clean**.
+3 chunks; lemma-and-gloss is the richest genre for this class, so expect real yield.
+Then `node scripts/polarity-record.mjs 8968 --chunks 3 --sites N [--ours N]`.
+
+### ✅ Liber Ruth (8968) — englished, built, staged, NOT deployed
+
+3 chunks, 2,457 words, Opus (Wilson's call, over my Fable recommendation). verify OK;
+21 scripture / 4 fontes / 4 heads / 0 unparsed; every generated page rebuilt; RECENT updated;
+badge "New English translation" (workStatus null → rule-8 fail-safe). Landing builds at
+**107 englished works**.
+
+**The three convention questions are SETTLED — and the answer to the biggest one was
+PRECEDENT, not invention.** Shipped work 21413 (Alcuin on the Song, PL 100) already prints
+`VERS. n.--` + lemma, and its English keeps the verse mark verbatim while translating the
+lemma. So: verse mark = address, passes through; lemma Englished; the Latin lemma stands
+opposite in the parallel column. ⚑ **One grep of the shipped English closed a question that
+had been open since the block was scheduled — look for the precedent before ruling.**
+Fragmentary lemmas get the phrase they stand for (*Non te* → "Let no man see thee").
+**The sigla need no convention at all**: `(RAB.)`, `(ISID.)` arrive as ordinary `[n: …]` and
+the locked register already governs them. Full statement in `src/english/8968/cruces.md` §1 —
+**that file binds the other 61 Glossa books.**
+
+⚠ The honesty label lives in `data/work-about.json` (reader-facing), not in the apparatus:
+abridged 19th-century recension · marginal glosses only · 58 of ~73 books · the Walafrid
+Strabo ascription given up. New author entry: "Anselmus Laudunensis et schola".
+
+**Two digitization defects patched** (`data/tei-patches/8968.json`), both verified at 300 dpi:
+`significaRuth` → `significat Ruth` (line-join that ate a letter, 534A) and a missing space
+at `VERS.9` (537D). **Migne's own difficulties are NOT patched** — *effoetandi* does not
+construe and is rendered as it stands; *sul tectum* carries `[sic: *sul*]`.
+
+### ▶ Then, in order
+
+1. Blind read + record 8968 (above), then deploy — the deploy checklist is runbook step 8,
+   and **smoke-test the cruces URL, not just the work URL**.
+2. **The next Glossa books can run in cadence** — 24 are chunked and waiting (queue 26 works
+   / 421 chunks after Ruth left it). Smallest first; the conventions are settled.
+3. Plate-note spot check, 1–2 pages per book at chunking (the blanket read is off — PL 113
+   prints no apparatus on 8 pages sampled across 3 runs).
+4. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons
+   indexing 0 scripture citations · 10083 @0493D / 9604 @1347D · 11550's master cruces §4
+   lists two LIVE markers as declined · 11542 @1042B may have lost a first term to the
+   doubling.
+
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18c — SIX WORKS DEPLOYED · `[cn:]` BUILT · QUEUE 3 → 17
 
 Tree clean · all commits pushed through the previous session · **3 new commits this
