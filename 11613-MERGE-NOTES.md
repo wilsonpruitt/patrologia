@@ -123,3 +123,43 @@ content to be phrase-length.** Combined with the 0009 case (a work quoting *itse
 take a `[var:]`, because the received reading is printed above as its own lemma), this is one
 gap with two faces. **Put both to Wilson together** — the question is whether the mirror test
 should compare against the SENTENCE the marker sits in rather than the whole chunk.
+
+## ✅ `amica` — the evidence now settles it: FRIEND, and it was decided by Foliot, not by us
+
+Third range reports in, and the two ranges that chose **"friend"** did so from *different*
+passages, neither seeing the other:
+
+- **0015–0019:** 1196A's gloss turns on *verbo amicabili* → « *Amica mea* ».
+- **0025–0029:** Foliot **puns on the word himself** — *ut **amica** nominum positio totum
+  leviget* — and calls the Bride's friends *amicos* at 1221C, in the same breath as the
+  vocative.
+- **0020–0024** chose "my love" on the sound but different ground that the word must stay a
+  THIRD term distinct from *sponsa* and *dilectus*, with the vocative carrying the gender
+  English loses.
+
+⚑ **"My love" is not wrong about the vocative; it is wrong about who decides.** Foliot builds
+arguments on *amica* meaning FRIEND at two independent sites, and a rendering that cannot
+carry his pun makes his own gloss unreadable. "Friend" keeps the third term distinct just as
+well. **Merge to "friend" across all 26 instances, and check 0020–0024's vocatives read as
+address** ("my friend" where Migne prints *amica mea*). Record the reasoning on the page's
+cruces, since a reader meeting "my friend" in the Song will want to know why.
+
+## Conventions established by wave 1 — wave 2 inherits these, does not re-decide them
+
+- **`amica` = friend** (above). `sponsa` = Bride, `sponsus` = Bridegroom, `dilectus` = beloved
+  / capital *Dilectus* = the Beloved, **mirroring Migne's own capitalization, which varies**.
+- **`pulcher`/`pulchra` = "beautiful", never "fair"** — *pulchritudo* is glossed continuously
+  for four columns, and "fair" would leave the gloss expounding a word not on the page.
+  *pulcherrima* stays "most beautiful", deliberately unharmonized where Migne's re-quotations
+  drop the superlative.
+- **`laeva` = "left hand"** (a hand, answering *dextera* "right hand", which is what the gloss
+  argues); **`sinistra` = "on the left"**, the bare substantivized adjective, because Migne
+  prints no *manus* in the Proverbs III, 16 proof-text. Two Latin words stay visibly distinct
+  without inventing a distinction of sense.
+- **The *Adjuro vos* verse is printed FIVE different ways** across 0025–0029 alone (*ne
+  suscitetis eam* · a clause-dropped form · *quoad* · *quoadusque* without *ipsa* · *quousque
+  ipsa velit* with capital *Dilectam*). **These took no `[var:]`** — internal re-quotation
+  variants, and English has one word for *quoad*/*quoadusque*/*quousque*. It recurs at 0033,
+  0050. Follow that precedent.
+- **A one-word `[var:]` content trips Pattern 14's mirror test.** Write the content as a
+  phrase; the reading is unchanged and the marker survives.
