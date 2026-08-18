@@ -430,3 +430,45 @@ Two irregularities, recorded rather than smoothed:
 - **(62) is used twice**, the second set as **(62\*)** — starred both in the note and at the
   marker. **Migne caught his own duplicate and starred it rather than renumbering.** The two
   anomalies roughly cancel: 72 numbers, one skipped, one reused.
+
+## BLIND POLARITY READ — findings as they land
+
+### 0000–0008 · 1 live site, 4 rejected with reasons
+
+⭐ **1172B — the speaker pronoun was flipped, and the sentence contradicted its own first half.**
+Latin: *verba quae sequuntur Sponsi sunt, **quae statim ad illa continuat**, dicens:* — the
+subject of *continuat* is unexpressed, English must supply a pronoun, and ours supplied **she**.
+The same sentence has just said the following words are the BRIDEGROOM'S, so as written the
+Bride was made to speak his speech. ⭐ **Settled by the corpus as its own control**: 0008 prints
+*statim **Sponsus** advertit … sic desideranti respondet; fiet quod postulas, « Quia meliora
+sunt ubera tua vino. »* — he marks her, he answers, and the lemma is his reply. **Fixed to
+"he."** Verified against the neighbouring chunk before the edit, not after.
+
+⚑ **The class is worth naming for future works: where Latin leaves a subject unexpressed,
+English CANNOT, so the translator must choose — and a wrong choice is invisible to every
+automated check.** It is not a Pattern 8 supply (English grammar compels a pronoun); it is a
+judgment that needs the neighbouring chunk to settle. Add unexpressed subjects in
+speaker-alternation passages to what a blind read hunts.
+
+**Rejected candidates, recorded because a rejection with a reason is evidence of reading:**
+- **1159D** *bonum* where the argument needs *malum* — rejected as OUR defect, correctly: the
+  plate prints *bonum* and we render it literally. **This is the apodosis-less site already
+  in the queue**, reached independently by a fenced reader. Migne-side.
+- **1163A** *et quae sine fide est oratio, exaudire non potest* — the Latin is unconstruable as
+  printed (nominative *oratio* with active *exaudire*) and our English quietly supplies "he" as
+  subject, demoting the prayer to object. **Direction of sense is unchanged, so not a polarity
+  defect — but it is a silent construal and deserves a crux line.** ⬜ Worth adding.
+- **1154C** Migne's semicolon splits *interno … sono mentis*, leaving our English with the
+  fragment "with an inward;". Faithful mirroring of printed punctuation, correctly kept —
+  flagged because the reader has no way to see why it is broken.
+- **1172D** `[sic: *praecontis*]` — passes the 7a⁗ test (predicate survives) but leaves "as
+  with ___" hanging; a plain-words gloss beside the marker (*praeconiis*, "with heralds'
+  praises") would help. ⬜ Borderline, worth doing.
+
+⚠ **Disclosure logged, and it does not void anything.** The reader ran one `grep -c "\[nt:"`
+against a chunk it had ALREADY read in full, to check whether `[nt:]` was a legitimate marker
+class. It returned a bare count and no text, and touched no other file. **The fencing rule
+exists to stop cruces text arriving through search results; a marker count from an
+already-read file leaks nothing.** Recorded because the reader disclosed it, which is the
+behaviour we want — the 11535 reader that disclosed a real contamination is why the rule
+exists at all.
