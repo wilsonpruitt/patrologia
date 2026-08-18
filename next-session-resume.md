@@ -1,5 +1,74 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-17d — THE ?/! REPAIR IS LIVE; THE CLAIM AUDIT FOUND TWO MORE
+
+**Deployed 2026-08-17: `migne-msa0uglci`, production, verified BY BODY** — Pattern 8b's
+colon serving on 11066 and 21413, both swaps corrected, and the three pre-repair readings
+confirmed *absent* from the live pages (a stale-string check, not just a new-string check).
+Cruces URL 200, landing and `/scripture/` both 105 works. `sentence-mark-sites.mjs` prints
+**0 dropped marks** corpus-wide. ⚠ **That verification is DATED and expires.**
+
+### ⛔⛔ THE CLAIM AUDIT — the answer is YES, and yesterday's fix had already drifted
+
+The owed question was whether any OTHER claim is computed in one builder and written in
+another. **It is the same claim, and the repair made yesterday recreated the defect the
+same day.** Found by comparing all 105 pages' badges against their own landing entries —
+**3 disagreed:**
+
+1. **The mirrored helper drifted immediately.** The work page's copy of `isFirstEnglish`
+   had `PRIOR_ENGLISH = ['full','partial','minimal','some','mostly']` — **five values that
+   appear NOWHERE in works.json**, whose entire vocabulary is
+   `none / copyrighted / unclear / pd-ingested / null`. **The prior-English test never
+   fired once.** 7561 (Vincent of Lérins) and 8715 went live claiming to be the FIRST
+   English of texts we knowingly re-translated *because a public-domain English exists*.
+   ⭐ **Not merely unsupported — contradicted by our own triage.**
+2. **The landing's key collides.** It looked up by `volume/title` under a comment asserting
+   that pair is unique. **176 keys collide across 472 texts; 56 collisions hold records
+   that DISAGREE on workStatus.** PL 173 *Epistolae* is two works (11031 `none`, 11035
+   untriaged); the Map's last write won, so **11031 was denied a claim it had earned.**
+
+**Fixed properly: `scripts/lib/first-english.mjs` holds the rule, the sets and the lookup
+ONCE**; landing + both work-page builders import it. **PL is keyed BY IDNO** (unique by
+construction; a title never was), and pages emit `<meta name="migne-idno">` so the landing
+stops guessing at identity. ⭐⭐ **`build-landing.mjs` now reads every built page's rendered
+badge and exits non-zero if it differs from what the landing computes** — the check that
+would have caught both, since neither ever showed in a status code. Landing First 89→90,
+work pages 92→90, **0 of 105 disagree**. ⛔ **COMMITTED, NOT DEPLOYED — the two false First
+claims are LIVE right now.**
+
+### ⬜⬜ THIRD FINDING, MEASURED, NOT ACTED ON — Wilson's to rule
+
+**CLAUDE.md rule 8 and the landing's own comment say the strong claim requires a *verified*
+none. The code has never checked the verified flag — only `workStatus === 'none'`.** Of the
+**85 PL pages claiming First, `workStatusVerified` is truthy on ZERO.** So either the field
+is vestigial for PL and the prose overstates the rule, or 85 public priority claims rest on
+an untimestamped verdict. **Enforcing it would flip all 85 badges to "New" in one commit,
+which is far too big a change to make on my own reading of a comment.** Same defect class
+as the other two — a claim whose stated rule is not the rule the code runs.
+
+### ✅ The `/method` page was ALREADY DONE — the note asking for it was stale
+
+*Why translate this way* has been live since the 2026-07-28 work (`b6c926d` and before),
+carrying Wilson's framing intact — *nobody was doing it · not a perfect translation but
+unlocking the language gate · the clerk carrying his exemplar's mistake forward* — and
+closing with the argument that what matters is that errors be **findable**, which is why
+the Latin sits beside the English and the licence permits correction. **All three sites now
+link each other**: `/method` → actasanctorum.org + bonaventure.wrootpress.com, and both of
+those link back (checked live). `NOTES-method-page.md`'s "still owed: link migne.app back
+from Acta" is **also done**. ⚠ **NOW.md and this note both carried it as owed; verify live
+state before working a queue item, and never re-do work a stale note claims is open.**
+Bonaventure's *What Is Known to Be Wrong* section is the only piece of that trio still
+missing, and it lives in another repo.
+
+▶▶ **Front when resumed:** the **deploy of the badge fix** (Wilson's OK; the false claims
+are live), the **`workStatusVerified` ruling** above, and **Gilbert Foliot 11613** —
+*Expositio in Cantica canticorum*, PL 202, **54 chunks / 66,297 Latin words**, `workStatus:
+none`, which Wilson has authorized on **Opus**. Estimate at the corrected ~40K/chunk:
+**~2.1M fleet + ~0.6M polarity read.** ⛔ **Pattern 18 is SKIPPED again by Wilson's own
+call** — that is now four times; if it matters it needs a scheduled slot, not a queue line.
+Still open: 11632's plate read on `[sic: *informen t*]`, the 3 Glabas sermons indexing 0
+scripture citations, 10083 @0493D / 9604 @1347D.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-17c — THE ?/! REPAIR IS DONE. 0 DROPS CORPUS-WIDE. ⛔ NOT DEPLOYED.
 
 **All 29 chunks that deleted a mark Migne prints are repaired — 31 sites in 14 shipped
