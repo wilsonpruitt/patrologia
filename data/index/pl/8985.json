@@ -1,0 +1,239 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3962,
+  "textIdno": 8985,
+  "title": "Epistola II B. Petri",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "689a",
+  "colLast": "694c",
+  "counts": {
+    "scripture": 5,
+    "fontes": 27,
+    "heads": 4,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "689b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "Psal. LXXXIII",
+      "column": "690b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.2",
+      "refDisplay": "Psal. II",
+      "column": "691a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rev.6",
+      "refDisplay": "Apoc. VI",
+      "column": "694a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.65",
+      "refDisplay": "Isa. LXV",
+      "column": "694b",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BEDA.",
+      "column": "689a",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "689a",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "689b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "689b",
+      "ibidResolved": true,
+      "column": "689b",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "689c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "689c",
+      "ibidResolved": true,
+      "column": "689c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "689c",
+      "ibidResolved": true,
+      "column": "689c",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "690a",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "690a",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "690b",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "690c",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "690d",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "691b",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "691b",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "691c",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "691c",
+      "ibidResolved": true,
+      "column": "691d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "691c",
+      "ibidResolved": true,
+      "column": "691d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "692a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "692b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "692c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "693a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "693b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "693c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "694a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "694a",
+      "ibidResolved": true,
+      "column": "694a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "694b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "694c",
+      "chunk": 1
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "689a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "689a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "691c",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "693a",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

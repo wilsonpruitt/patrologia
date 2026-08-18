@@ -1,896 +1,956 @@
 {
- "generated": "2026-08-18",
- "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
- "tiers": {
-  "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
-  "3": "Text + our apparatus + MIGNE'S conjecture notes recovered from the plate, sequence verified unbroken."
- },
- "coverage_values": {
-  "none": "no plate notes captured",
-  "partial": "some notes captured — typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
-  "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented"
- },
- "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this.",
- "works": [
-  {
-   "idno": "10047",
-   "series": "pl",
-   "volume": 144,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10049",
-   "series": "pl",
-   "volume": 144,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10080",
-   "series": "pl",
-   "volume": 145,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10083",
-   "series": "pl",
-   "volume": 145,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10103",
-   "series": "pl",
-   "volume": 145,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10365",
-   "series": "pl",
-   "volume": 150,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10379",
-   "series": "pl",
-   "volume": 150,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10517",
-   "series": "pl",
-   "volume": 155,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10703",
-   "series": "pl",
-   "volume": 160,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10725",
-   "series": "pl",
-   "volume": 162,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10727",
-   "series": "pl",
-   "volume": 162,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "10804",
-   "series": "pl",
-   "volume": 164,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11031",
-   "series": "pl",
-   "volume": 173,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11055",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11056",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11057",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11058",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11059",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11061",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11062",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11063",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11064",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11065",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11066",
-   "series": "pl",
-   "volume": 175,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11075",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11078",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11079",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11080",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11081",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11083",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11085",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11086",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11088",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11089",
-   "series": "pl",
-   "volume": 176,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11208",
-   "series": "pl",
-   "volume": 183,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11299",
-   "series": "pl",
-   "volume": 184,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11321",
-   "series": "pl",
-   "volume": 184,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11325",
-   "series": "pl",
-   "volume": 184,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11436",
-   "series": "pl",
-   "volume": 190,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11531",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11532",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11534",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11535",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11536",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11537",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11539",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11542",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11543",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11545",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11546",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11547",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11548",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11549",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11550",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11551",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11553",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11554",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11555",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11556",
-   "series": "pl",
-   "volume": 196,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11613",
-   "series": "pl",
-   "volume": 202,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 71,
-   "numbering": "(1)-(72), per work",
-   "sequence_note": "71 rows for 72 numbers: (12-13) is one note serving two markers; (59) is never printed by Migne; (62) is used twice, the second set as (62*).",
-   "source": "archive.org patrologiaecurs139unkngoog (copy A), cross-checked against patrologiaecurs114unkngoog (copy B)",
-   "page_map": "PDF page = 600 + (column - 1187) / 2  [copy A]; copy B is one page lower",
-   "data": "data/plate-notes/11613.tsv",
-   "verified": "2026-08-18",
-   "sequence_gaps_documented": [
-    59
-   ],
-   "notes_placed": 69
-  },
-  {
-   "idno": "11632",
-   "series": "pl",
-   "volume": 203,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11638",
-   "series": "pl",
-   "volume": 203,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11648",
-   "series": "pl",
-   "volume": 204,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "11713",
-   "series": "pl",
-   "volume": 207,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "21413",
-   "series": "pl",
-   "volume": 100,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "21425",
-   "series": "pl",
-   "volume": 150,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "6912",
-   "series": "pl",
-   "volume": 13,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "6963",
-   "series": "pl",
-   "volume": 15,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7017",
-   "series": "pl",
-   "volume": 17,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7020",
-   "series": "pl",
-   "volume": 18,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7383",
-   "series": "pl",
-   "volume": 40,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7427",
-   "series": "pl",
-   "volume": 42,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7508",
-   "series": "pl",
-   "volume": 47,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7561",
-   "series": "pl",
-   "volume": 50,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7693",
-   "series": "pl",
-   "volume": 59,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7871",
-   "series": "pl",
-   "volume": 67,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "7914",
-   "series": "pl",
-   "volume": 70,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8195",
-   "series": "pl",
-   "volume": 83,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8253",
-   "series": "pl",
-   "volume": 87,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8407",
-   "series": "pl",
-   "volume": 90,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8505",
-   "series": "pl",
-   "volume": 94,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8566",
-   "series": "pl",
-   "volume": 96,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8625",
-   "series": "pl",
-   "volume": 98,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8708",
-   "series": "pl",
-   "volume": 101,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8715",
-   "series": "pl",
-   "volume": 101,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8777",
-   "series": "pl",
-   "volume": 104,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8930",
-   "series": "pl",
-   "volume": 112,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8933",
-   "series": "pl",
-   "volume": 112,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9033",
-   "series": "pl",
-   "volume": 115,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9076",
-   "series": "pl",
-   "volume": 117,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9245",
-   "series": "pl",
-   "volume": 125,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9249",
-   "series": "pl",
-   "volume": 125,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9436",
-   "series": "pl",
-   "volume": 134,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9519",
-   "series": "pl",
-   "volume": 137,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9604",
-   "series": "pl",
-   "volume": 138,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9637",
-   "series": "pl",
-   "volume": 138,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9741",
-   "series": "pl",
-   "volume": 139,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "9852",
-   "series": "pl",
-   "volume": 141,
-   "tier": 2,
-   "coverage": "none",
-   "notes_recovered": 0
-  },
-  {
-   "idno": "8968",
-   "series": "pl",
-   "volume": 113,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 0,
-   "method": "All five of the work's plate pages read at 300 dpi (archive.org patrologiaecurs04migngoog, PDF pp. 271-275; page = (column+11)/2, verified against the running head). p. 271 carries the Judges/Ruth division MID-page and was read there; p. 272 was read in full; 273-275 as full-width bottom bands.",
-   "result": "Migne prints NO foot-of-page notes anywhere in this work. Recorded as a checked zero, not as a skip — a later reader must be able to tell the two apart.",
-   "verified": "2026-08-18"
-  },
-  {
-   "idno": "8978",
-   "series": "pl",
-   "volume": 114,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 0,
-   "columns": "0705D-0710B",
-   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-   "verified": "2026-08-18"
-  },
-  {
-   "idno": "8984",
-   "series": "pl",
-   "volume": 114,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 0,
-   "columns": "0703D-0706B",
-   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-   "verified": "2026-08-18"
-  },
-  {
-   "idno": "8989",
-   "series": "pl",
-   "volume": 114,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 0,
-   "columns": "0705B-0706D",
-   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-   "verified": "2026-08-18"
-  },
-  {
-   "idno": "8994",
-   "series": "pl",
-   "volume": 114,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 0,
-   "columns": "0641B-0642D",
-   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-   "verified": "2026-08-18"
-  },
-  {
-   "idno": "8997",
-   "series": "pl",
-   "volume": 114,
-   "tier": 3,
-   "coverage": "full",
-   "notes_recovered": 0,
-   "columns": "0637D-0642B",
-   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-   "verified": "2026-08-18"
-  }
- ],
- "fields": {
-  "sequence_gaps_documented": "Note numbers Migne's own sequence skips, established at the plate. scripts/inject-plate-notes.mjs errors on any gap NOT listed here — a gap is the detector for a page cropped short, so it must be silenced deliberately, one number at a time, and never by widening the check.",
-  "notes_placed": "How many of the recovered notes the injector could place in our Latin with a unique anchor. A shortfall is a divergence between the plate and Corpus Corporum's text, listed by the injector — it is evidence, not a defect in the capture."
- },
- "findings": [
-  {
-   "date": "2026-08-18",
-   "what": "PL 113's Glossa ordinaria pages carry NO foot-of-page conjecture apparatus on any page sampled.",
-   "evidence": "Eight pages read at 300 dpi off archive.org patrologiaecurs04migngoog, across three separate runs of the volume: 271-275 (Ruth, incl. the Judges/Ruth division mid-page), 363 and 372 (Nehemiah run), 565 (Ecclesiastes run). Zero numbered notes, and no foot rule of the kind PL 202 prints. The pages simply end.",
-   "page_map": "PDF page = (column + 11) / 2  [patrologiaecurs04migngoog], verified against the running head at cols 533/534 = p. 272.",
-   "limit": "A SAMPLE, not a proof: 8 pages of the ~99 the prepared Glossa queue spans. It is enough to stop a blanket plate read, not enough to write 'this volume has none' into a work page.",
-   "consequence": "Do NOT commission the ~99-page read for the Glossa block. Spot-check 1-2 pages per book at chunking; record tier 2 with this reason where the check is clean.",
-   "also": "archive.org's Google OCR does not carry the apparatus either, and this was tested rather than assumed: patrologiaecurs139unkngoog_djvu.txt (PL 202, the volume whose notes we HAVE) holds 35 instances of 'Forte' in the whole volume, every one of them the ordinary adverb inside the body text, while work 11613 alone carries ~60 real foot-of-page notes. The OCR is not a cheap detector for this layer."
-  }
- ]
+  "generated": "2026-08-18",
+  "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
+  "tiers": {
+    "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
+    "3": "Text + our apparatus + MIGNE'S conjecture notes recovered from the plate, sequence verified unbroken."
+  },
+  "coverage_values": {
+    "none": "no plate notes captured",
+    "partial": "some notes captured — typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
+    "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented"
+  },
+  "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this.",
+  "works": [
+    {
+      "idno": "6912",
+      "series": "pl",
+      "volume": 13,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "6963",
+      "series": "pl",
+      "volume": 15,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7017",
+      "series": "pl",
+      "volume": 17,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7020",
+      "series": "pl",
+      "volume": 18,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7383",
+      "series": "pl",
+      "volume": 40,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7427",
+      "series": "pl",
+      "volume": 42,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7508",
+      "series": "pl",
+      "volume": 47,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7561",
+      "series": "pl",
+      "volume": 50,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7693",
+      "series": "pl",
+      "volume": 59,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7871",
+      "series": "pl",
+      "volume": 67,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "7914",
+      "series": "pl",
+      "volume": 70,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8195",
+      "series": "pl",
+      "volume": 83,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8253",
+      "series": "pl",
+      "volume": 87,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8407",
+      "series": "pl",
+      "volume": 90,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8505",
+      "series": "pl",
+      "volume": 94,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8566",
+      "series": "pl",
+      "volume": 96,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8625",
+      "series": "pl",
+      "volume": 98,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "21413",
+      "series": "pl",
+      "volume": 100,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8708",
+      "series": "pl",
+      "volume": 101,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8715",
+      "series": "pl",
+      "volume": 101,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8777",
+      "series": "pl",
+      "volume": 104,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8930",
+      "series": "pl",
+      "volume": 112,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8933",
+      "series": "pl",
+      "volume": 112,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "8968",
+      "series": "pl",
+      "volume": 113,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "method": "All five of the work's plate pages read at 300 dpi (archive.org patrologiaecurs04migngoog, PDF pp. 271-275; page = (column+11)/2, verified against the running head). p. 271 carries the Judges/Ruth division MID-page and was read there; p. 272 was read in full; 273-275 as full-width bottom bands.",
+      "result": "Migne prints NO foot-of-page notes anywhere in this work. Recorded as a checked zero, not as a skip — a later reader must be able to tell the two apart.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8970",
+      "series": "pl",
+      "volume": 113,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0725B-0732C",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 368 = cols 725/726, 'GLOSSA ORDINARIA. - LIB. TOBIAE.'). Pages 368, 369, 370, 371. BOTH work divisions in this run fall MID-page and were read there - Nehemiah/Tobit at p. 368 and Tobit/Judith at p. 371 - which is the case that lost three notes on PL 202.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. SECOND sampling of PL 113 after Ruth's five pages, so the volume's 'no conjecture apparatus' finding now rests on nine pages across two books. Note for later readers: this scan clips line-initial characters down the lower left column of p. 368, which is what forced the 900 dpi read that established Nephthali (see data/tei-patches/8970.json).",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8978",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0705D-0710B",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8982",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0615B-0620D",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8984",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0703D-0706B",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8985",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0689A-0694C",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8987",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0619D-0624C",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8988",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0633A-0638D",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8989",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0705B-0706D",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8994",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0641B-0642D",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "8997",
+      "series": "pl",
+      "volume": 114,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 0,
+      "columns": "0637D-0642B",
+      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+      "verified": "2026-08-18"
+    },
+    {
+      "idno": "9033",
+      "series": "pl",
+      "volume": 115,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9076",
+      "series": "pl",
+      "volume": 117,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9245",
+      "series": "pl",
+      "volume": 125,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9249",
+      "series": "pl",
+      "volume": 125,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9436",
+      "series": "pl",
+      "volume": 134,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9519",
+      "series": "pl",
+      "volume": 137,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9604",
+      "series": "pl",
+      "volume": 138,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9637",
+      "series": "pl",
+      "volume": 138,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9741",
+      "series": "pl",
+      "volume": 139,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "9852",
+      "series": "pl",
+      "volume": 141,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10047",
+      "series": "pl",
+      "volume": 144,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10049",
+      "series": "pl",
+      "volume": 144,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10080",
+      "series": "pl",
+      "volume": 145,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10083",
+      "series": "pl",
+      "volume": 145,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10103",
+      "series": "pl",
+      "volume": 145,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10365",
+      "series": "pl",
+      "volume": 150,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10379",
+      "series": "pl",
+      "volume": 150,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "21425",
+      "series": "pl",
+      "volume": 150,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10517",
+      "series": "pl",
+      "volume": 155,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10703",
+      "series": "pl",
+      "volume": 160,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10725",
+      "series": "pl",
+      "volume": 162,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10727",
+      "series": "pl",
+      "volume": 162,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "10804",
+      "series": "pl",
+      "volume": 164,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11031",
+      "series": "pl",
+      "volume": 173,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11055",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11056",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11057",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11058",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11059",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11061",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11062",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11063",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11064",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11065",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11066",
+      "series": "pl",
+      "volume": 175,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11075",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11078",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11079",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11080",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11081",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11083",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11085",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11086",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11088",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11089",
+      "series": "pl",
+      "volume": 176,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11208",
+      "series": "pl",
+      "volume": 183,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11299",
+      "series": "pl",
+      "volume": 184,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11321",
+      "series": "pl",
+      "volume": 184,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11325",
+      "series": "pl",
+      "volume": 184,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11436",
+      "series": "pl",
+      "volume": 190,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11531",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11532",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11534",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11535",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11536",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11537",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11539",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11542",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11543",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11545",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11546",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11547",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11548",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11549",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11550",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11551",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11553",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11554",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11555",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11556",
+      "series": "pl",
+      "volume": 196,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11613",
+      "series": "pl",
+      "volume": 202,
+      "tier": 3,
+      "coverage": "full",
+      "notes_recovered": 71,
+      "numbering": "(1)-(72), per work",
+      "sequence_note": "71 rows for 72 numbers: (12-13) is one note serving two markers; (59) is never printed by Migne; (62) is used twice, the second set as (62*).",
+      "source": "archive.org patrologiaecurs139unkngoog (copy A), cross-checked against patrologiaecurs114unkngoog (copy B)",
+      "page_map": "PDF page = 600 + (column - 1187) / 2  [copy A]; copy B is one page lower",
+      "data": "data/plate-notes/11613.tsv",
+      "verified": "2026-08-18",
+      "sequence_gaps_documented": [
+        59
+      ],
+      "notes_placed": 69
+    },
+    {
+      "idno": "11632",
+      "series": "pl",
+      "volume": 203,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11638",
+      "series": "pl",
+      "volume": 203,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11648",
+      "series": "pl",
+      "volume": 204,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    },
+    {
+      "idno": "11713",
+      "series": "pl",
+      "volume": 207,
+      "tier": 2,
+      "coverage": "none",
+      "notes_recovered": 0
+    }
+  ],
+  "fields": {
+    "sequence_gaps_documented": "Note numbers Migne's own sequence skips, established at the plate. scripts/inject-plate-notes.mjs errors on any gap NOT listed here — a gap is the detector for a page cropped short, so it must be silenced deliberately, one number at a time, and never by widening the check.",
+    "notes_placed": "How many of the recovered notes the injector could place in our Latin with a unique anchor. A shortfall is a divergence between the plate and Corpus Corporum's text, listed by the injector — it is evidence, not a defect in the capture."
+  },
+  "findings": [
+    {
+      "date": "2026-08-18",
+      "what": "PL 113's Glossa ordinaria pages carry NO foot-of-page conjecture apparatus on any page sampled.",
+      "evidence": "Eight pages read at 300 dpi off archive.org patrologiaecurs04migngoog, across three separate runs of the volume: 271-275 (Ruth, incl. the Judges/Ruth division mid-page), 363 and 372 (Nehemiah run), 565 (Ecclesiastes run). Zero numbered notes, and no foot rule of the kind PL 202 prints. The pages simply end.",
+      "page_map": "PDF page = (column + 11) / 2  [patrologiaecurs04migngoog], verified against the running head at cols 533/534 = p. 272.",
+      "limit": "A SAMPLE, not a proof: 8 pages of the ~99 the prepared Glossa queue spans. It is enough to stop a blanket plate read, not enough to write 'this volume has none' into a work page.",
+      "consequence": "Do NOT commission the ~99-page read for the Glossa block. Spot-check 1-2 pages per book at chunking; record tier 2 with this reason where the check is clean.",
+      "also": "archive.org's Google OCR does not carry the apparatus either, and this was tested rather than assumed: patrologiaecurs139unkngoog_djvu.txt (PL 202, the volume whose notes we HAVE) holds 35 instances of 'Forte' in the whole volume, every one of them the ordinary adverb inside the body text, while work 11613 alone carries ~60 real foot-of-page notes. The OCR is not a cheap detector for this layer."
+    }
+  ]
 }

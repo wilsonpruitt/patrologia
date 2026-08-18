@@ -1,0 +1,67 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3964,
+  "textIdno": 8987,
+  "title": "Epistola II ad Thessalonicenses",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "619d",
+  "colLast": "624c",
+  "counts": {
+    "scripture": 1,
+    "fontes": 1,
+    "heads": 4,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "624b",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG., lib. XX, de Civit. Dei, c. 19.",
+      "column": "623a",
+      "chunk": 0
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "619d",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "619d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "621c",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "623b",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

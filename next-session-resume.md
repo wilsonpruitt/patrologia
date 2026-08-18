@@ -1,5 +1,146 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18f — FIVE MORE GLOSSA BOOKS · CORPUS 117 · ⛔ UNDEPLOYED
+
+**1 Thess (8982) · 2 Thess (8987) · 2 Tim (8988) · 2 Pet (8985)** — PL 114 — **and Tobit (8970)** — PL 113,
+the first OT Glossa book since Ruth. 10,296 Latin words, 12 chunks, five works in one cadence.
+**112 → 117 englished works.** Opus throughout, per Wilson's call at the hard stop.
+
+⛔ **NOT DEPLOYED AND NOT PUSHED — both are Wilson's per-action OK.** Everything else is done:
+`verify-english` clean on all five · **`polarity-record --gate` GREEN at 117/117** · `scan-raw-markers`
+clean across 117 built pages · all five cruces URLs resolve to built files locally (the Glabas III
+404 pre-empted) · all five badge **"New English translation"**, none claims priority · `/glossa`
+now 11 Englished / 14 prepared.
+
+Deploy command: `cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`.
+`vercel teams ls` is the diagnostic if "Not authorized". **Deploy checklist step 8 still owed at
+deploy time**: RECENT in `build-landing.mjs`, then the generated-page rebuilds (`build-scripture-index`,
+`build-sources`, `build-authors-index`, `build-queue`, `build-volume-indexes`, `build-commentaries`,
+`build-cruces`, `build-glossa`), then `build-landing`, then smoke-test **the cruces URLs too**.
+
+### ⭐⭐⭐ The one new defect class this batch found — read this before the next Glossa book
+
+**A `[sic:]` CAN SWALLOW THE WORD IT MARKS.** All four of Tobit's `[sic:]` sites used the bracket
+**instead of** the rendering, so four content words vanished from the English while `verify-english`
+saw a well-formed marker and passed: *"Christ laid hold of the [sic: di bolum]"* — the sentence has
+no object. Also lost: "spiritually", "incautiously", "cunning". **Invisible to every automated check
+we have.** The other three translators in the same batch applied 7a⁗ correctly, so this is not a
+house ambiguity.
+
+⚑ **The test that catches it, and it is mechanical:** strip every marker, then look for a stranded
+article or preposition sitting on punctuation, or a doubled mark. Returns the four sites instantly
+on the pre-repair text. **If the English sentence cannot be read aloud without the bracket, the
+rendering is missing.**
+
+⚑⚑ **And the deeper finding: 7a⁗'s three questions are NOT SUFFICIENT.** At 0728C the translator
+actually ran them — verb? negation? conjunction? — got three clean answers, and concluded the marker
+could stand alone. **The quarantine had taken the OBJECT.** 7a⁗ asks what *governs*; nothing in it
+asks whether the clause still has the thing it acts on. Candidate fourth question, worth adding to
+`translation-style.md`.
+
+### ⭐⭐ A negation can be RELOCATED — which is why "are all the negatives present?" passes it
+
+**2 Thess 0624B: `velint` ("they wish") was rendered "unwilling."** The `non` of `non solum … sed` was
+pressed into double duty, which that correlative does not permit. **Plate-confirmed at n316: Migne
+prints `velint`** (Augustine's received text has `nolint`, so the plate is genuinely defective — which
+is exactly what the edition exists to show). A second relocation sat four lines away (`sed non ut`
+silently reordered to `ut non`). **Nothing was added and nothing dropped, so every count-based check
+passed and the false reading read BETTER than the true one.**
+
+⚑ **The replacement test, from 8987's cruces §9.8:** for each printed negative, name the single Latin
+word it attaches to, then find that word in the English and check the negative is ON it. **Not** "are
+all the negatives present" — that is the test that passed the defect.
+⚑ Both defects were in the **gloss prose, not the lemmata**: all 57 named lemmata were right. The
+lemma list does its job; it does not cover the sentences between the lemmata.
+
+### ⚑ Punctuation: a SECOND cancelling pair, and the check that finds them
+
+Tobit chunk 0 sat at **19 colons against 19** while one had been supplied (0725C) and another destroyed
+(0726D) — the 8989 shape from last batch, repeated. **The fix is not a better total.** 8970's translator
+replaced the count with a **per-column-band comparison**: anchors are verified 1:1, so they partition
+both twins identically; compare marks band by band. **0 mismatched bands** across three chunks on
+colons, semicolons, guillemet-opens and question marks. **Use that check; hand it forward.**
+
+⚠ **The semicolon removal in Tobit is a NARROW exception and must not be generalized.** The corpus
+ruling declines this class as *a rate question, not an absence*, because Migne prints plenty himself.
+In Tobit he prints **zero** in chunk 0 and one in chunk 1, so four in the English is an absence. **8948
+and Judith must have their own plates counted before the exception is reused.** The eight comma→semicolon
+sites in 1 Thess and six in 2 Peter were left unchurned under the standing ruling.
+
+### ✅ Plate: PL 114 re-sampled, PL 113 sampled a second time — all CHECKED ZEROS
+
+**PL 114** `patrologiaecurs06saingoog`, **leaf n = (col + 9)/2**, re-verified against the running head
+(n312 = cols 615/616). Leaves n312–n316, n321–n323, n349–n351. **PL 113** `patrologiaecurs04migngoog`
+(on disk, `raw/scans/pl113/`), **PDF p = (col + 11)/2**, pp. 368–371. No foot rule, no numbered notes
+anywhere. **EIGHT mid-page work divisions read at the division** (PL 114: 1Thess/2Thess, 2Thess/1Tim,
+1Tim/2Tim, 2Tim/Titus, 1Pet/2Pet, 2Pet/1John; PL 113: Nehemiah/Tobit, Tobit/Judith) — the case that lost
+three notes on PL 202. n323 was read independently in both batches and agrees. All five recorded in
+`coverage.json` tier 3 / `full` / `notes_recovered: 0`.
+⚑ **NOT apparatus, do not re-raise:** n313's foot carries the printer's signature `PATROL. CXIV.` and
+gathering number `20`. Bookbinding.
+
+### ✅ Two TEI patches for Tobit — and the trap that nearly produced a third, wrong one
+
+`data/tei-patches/8970.json`: **`Nephtlali` → `Nephthali`** (0725C) and **`CAPUT XIV` → `CAPUT XIV.`**.
+Both digitization defects; Migne's plate untouched. Re-chunk diff showed **exactly the two intended
+characters**, boundaries and the 2,567-word count unmoved; English frontmatter re-synced by hand.
+
+⛔⛔ **THE TRAP, and it caught the orchestrator, not an agent.** This Google scan **clips line-initial
+characters** down the inner column of several leaves. Reading 8987's plate I got `…bentur`, **completed
+it from context as *debentur*, and reported that to the translator as settled.** The twin read
+*jubentur* — and *jubentur* is what the plate prints, as a widened crop showed. The translator flagged
+the one-word gap instead of conforming to me, which is the only reason it was caught.
+⭐ **RULE: when a plate transcription and the Latin twin differ by one word, WIDEN THE CROP before
+believing the plate.** "The plate settles it" holds only for a plate actually seen whole. Same clipping
+is why `Nephthali` needed a 900 dpi read.
+
+### ⚑ Checked zeros and closes worth not re-investigating
+
+- **2 Peter: no Jude contamination, with evidence.** Migne's two plates share almost no wording
+  (*Si enim angelis peccantibus non pepercit* against *Si Deus apostatas angelos traditos poenis inferni*;
+  the two `Hi sunt` glosses are about different things). The overlap the biblical parallel predicts is
+  **not** in this recension. Don't re-run this check on the next epistle pair.
+- **2 Tim 0638C** — the conjecture *qui **non** abruperant* is **positively wrong**, not merely unneeded:
+  Migne's own next sentence, *Multum enim interest inter eos qui hoc modo et eos qui illo modo peccant*,
+  proves **both** groups sin. Closed.
+- **2 Tim 0634A** *non confundor, id est deficio* — the asymmetry is Migne's (*deficio* glosses the bare
+  verb, *vel non frustra patior* the whole negated phrase). "[I do not] fail" would have been the silent
+  repair. Closed.
+- **Tobit `Exsurgens`** vs Clementine *consurgens* — synonymous here, "Rising up" serves either, no
+  `[var:]` warranted. Closed. (It had been left open for want of a Vulgate on disk; there still is none.)
+- **Tobit *Num ignoramus*** — the translator's claim that the "not" is *num*'s own exponent was **tested
+  and holds**; no particle was invented.
+
+### ⚑ Rule 8 honesty, run per book as required
+
+Consolamini/van der Pas + Litteral have published **Revelation, the Johannine epistles, and Jonah** —
+**none of these five**, so "none found" is accurate for the four epistles. ⚠ **Tobit is the exception**:
+a page titled "Glossa Ordinaria on Tobit" exists on a compilation site but is **login-gated**, so its
+contents, source edition and translator could not be examined. `work-about.json` says exactly that
+rather than a flat "none found". All five keep `workStatus: null`, so the fail-safe gives "New English
+translation" and no priority is claimed anywhere.
+
+### ▶ Next, in order
+
+1. ⛔ **Deploy + push — Wilson's OK, both.** Nothing else is owed on this batch.
+2. ▶ **The Glossa runs on: 14 prepared and waiting**, smallest first (Colossians 8990 · Judith 8960 · …).
+   Reuse `GLOSSA-NT-AGENT-BRIEF.md`; **add the two new tests above to it before launching** (the
+   read-aloud/marker-strip test and the per-band punctuation comparison).
+   ⚑ **8948 and Judith 8960 are the next GUILLEMET books** — Tobit's cruces §1 carries the conventions
+   they need (guillemet lemmata, `*usque ad*` with no verb ever supplied, Tyconius vocabulary). Reuse it.
+3. **Plate spot check per book at chunking** — both volumes are now calibrated, so this is cheap.
+4. ⬜ **Owed, unchanged, Wilson's ruling:** rule 8 says the First-English claim needs a VERIFIED none,
+   and `workStatusVerified` is truthy on **zero** of the PL works claiming First. Enforcing it flips all
+   85 to "New".
+5. ⬜ **Owed:** audit whether any OTHER claim is computed in one builder and written in another.
+6. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons indexing 0
+   scripture citations · 10083 @0493D / 9604 @1347D · 11550's master cruces §4 lists two LIVE markers as
+   declined · 11542 @1042B may have lost a first term to the doubling · Tobit 0730C ("the letter of the
+   law, the seventy interpreters") undecided by two readers · Tobit 0732A *omnes* recorded both ways.
+
+---
+
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18e — FIVE GLOSSA BOOKS ENGLISHED · CORPUS 112 · ⛔ UNDEPLOYED
 
 **2 John (8984) · 3 John (8989) · Philemon (8994) · Titus (8997) · Jude (8978)** — PL 114,

@@ -1,0 +1,84 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3965,
+  "textIdno": 8988,
+  "title": "Epistola II ad Timotheum",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "633a",
+  "colLast": "638d",
+  "counts": {
+    "scripture": 2,
+    "fontes": 2,
+    "heads": 5,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI.",
+      "column": "633c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI",
+      "column": "636b",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "CHRYS.",
+      "column": "638b",
+      "chunk": 2
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "638b",
+      "chunk": 2
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "633a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "633a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "634b",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "636b",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "637a",
+      "chunk": 2,
+      "en": "CHAPTER IV."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

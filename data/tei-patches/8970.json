@@ -1,0 +1,17 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated against the running head (p. 368 = cols 725/726, head 'GLOSSA ORDINARIA. — LIB. TOBIAE.'). Both readings were confirmed by the orchestrator during the 2026-08-18 Glossa batch, at 450 dpi and again at 900 dpi for the first.",
+  "patches": [
+    {
+      "col": "0725C",
+      "find": "« Nephtlali. »",
+      "replace": "« Nephthali. »",
+      "why": "digitization defect, not Migne's plate: Corpus Corporum metathesized the h and the l. The Google scan clips line-initial characters down the lower left column of p. 368, so the word survives on the plate as 'hthali. »' — but the surviving letters are decisive, h-t-h-a-l-i, and '-hthali' cannot yield the TEI's '-htlali'. Read at 450 dpi and again at 900 dpi. The gloss's own etymology (Latitudo, Jerome's interpretation of Nephthali) corroborates it. Same class as 8968's 'significaRuth'."
+    },
+    {
+      "col": "0732A",
+      "find": "<head>CAPUT XIV</head>",
+      "replace": "<head>CAPUT XIV.</head>",
+      "why": "digitization defect, not Migne's plate: the plate prints 'CAPUT XIV.' with the closing period (p. 371, read at 450 dpi), as every other CAPUT head in the book does. The TEI dropped it. Same class as 8968's missing space after 'VERS.'"
+    }
+  ]
+}

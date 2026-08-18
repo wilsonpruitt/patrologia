@@ -1,0 +1,923 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3947,
+  "textIdno": 8970,
+  "title": "Liber Tobiae",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "725b",
+  "colLast": "732c",
+  "counts": {
+    "scripture": 23,
+    "fontes": 34,
+    "heads": 14,
+    "headnotes": 76,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.15",
+      "refDisplay": "Matth. XV",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.14",
+      "refDisplay": "I Cor. XIV",
+      "column": "725d",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.14",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "I Cor. XIV",
+      "antecedentColumn": "725d",
+      "ibidResolved": true,
+      "column": "726b",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.14",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "I Cor. XIV",
+      "antecedentColumn": "725d",
+      "ibidResolved": true,
+      "column": "726c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Exod.4",
+      "refDisplay": "Exod. IV",
+      "column": "726c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Exod.4",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Exod. IV",
+      "antecedentColumn": "726c",
+      "ibidResolved": true,
+      "column": "726d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rom.2",
+      "refDisplay": "Rom. II",
+      "column": "727a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "727a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ezek.9",
+      "refDisplay": "Ezech. IX",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Prov.13",
+      "refDisplay": "Prov. XIII",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Cor.13",
+      "refDisplay": "II Cor. XIII",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Deut.52",
+      "refDisplay": "Deut. LII",
+      "column": "727d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III.",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Joan. VIII",
+      "antecedentColumn": "728a",
+      "ibidResolved": true,
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Joan. VIII",
+      "antecedentColumn": "728a",
+      "ibidResolved": true,
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.69",
+      "refDisplay": "Psal. LXIX",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Mark.14",
+      "refDisplay": "Marc. XIV",
+      "column": "728c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "729a",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "729a",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "729b",
+      "chunk": 1
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BED., in Tob., tom. II.",
+      "column": "725b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., in Tob., tom. II.",
+      "antecedentColumn": "725b",
+      "ibidResolved": true,
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA ubi supra.",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA ubi supra.",
+      "antecedentColumn": "725c",
+      "ibidResolved": true,
+      "column": "725d",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., in Tob., tom. II.",
+      "column": "726d",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "727a",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., in Tob. tom. II.",
+      "column": "727c",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., ubi supra.",
+      "column": "727d",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., ubi supra.",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA, in Esdr., tom. II.",
+      "column": "728b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "728b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "728b",
+      "ibidResolved": true,
+      "column": "728b",
+      "chunk": 1
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "728c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "729b",
+      "ibidResolved": true,
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, in Tobiam, tom. II.",
+      "column": "729c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "729c",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "729c",
+      "ibidResolved": true,
+      "column": "729d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "729c",
+      "ibidResolved": true,
+      "column": "730a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "729c",
+      "ibidResolved": true,
+      "column": "730a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "730b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ex Isid.",
+      "column": "730b",
+      "chunk": 1
+    },
+    {
+      "raw": "BED., ubi supra.",
+      "column": "730c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "730d",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ubi supra.",
+      "column": "731a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "731a",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "731b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "731b",
+      "ibidResolved": true,
+      "column": "731b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, in Tobiam.",
+      "column": "731c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, in Tobiam.",
+      "column": "732a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, in Esdram.",
+      "column": "732b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, in Esdram.",
+      "antecedentColumn": "732b",
+      "ibidResolved": true,
+      "column": "732b",
+      "chunk": 2
+    }
+  ],
+  "heads": [
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "725b",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "726d",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "727b",
+      "chunk": 0,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "727c",
+      "chunk": 0,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "727c",
+      "chunk": 0,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "728b",
+      "chunk": 1,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "729b",
+      "chunk": 1,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "729c",
+      "chunk": 1,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "730b",
+      "chunk": 1,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "730c",
+      "chunk": 1,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "730d",
+      "chunk": 2,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "731b",
+      "chunk": 2,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "732a",
+      "chunk": 2,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "732a",
+      "chunk": 2,
+      "en": "CHAPTER XIV."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "725b",
+      "chunk": 0
+    },
+    {
+      "la": "…riae allegoria praecellit. Maxima enim Ecclesiae continet sacramenta. Ipse enim Tobias populum Israel significat, qui caeteris gentibus idololatriae deditis, fide recta et operibus Deo serviebat. Unde",
+      "en": "…tains the greatest mysteries of the Church. For Tobias himself signifies the people Israel, who, while the other nations were given over to idolatry, served God with right faith and with works. Whence",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "la": "[n: (ID., ibid.)] Latitudo, de qua",
+      "en": "[n: (ID., ibid.)] Breadth, concerning which",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "la": "cujus tribus, id est filii populus fidelis, ejus civitas Ecclesia, de qua",
+      "en": "whose tribe, that is, the sons, is the faithful people, its city is the Church, concerning which",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "725c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "725d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 4.--",
+      "en": "VERS. 4.--",
+      "column": "725d",
+      "chunk": 0
+    },
+    {
+      "la": "Jam illud apostolicum gerebat in pectore",
+      "en": "Already he bore in his breast that apostolic word",
+      "column": "725d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 6.--",
+      "en": "VERS. 6.--",
+      "column": "726b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 9.--",
+      "en": "VERS. 9.--",
+      "column": "726c",
+      "chunk": 0
+    },
+    {
+      "la": "Sic populus Israel, etc., *usque ad* unde",
+      "en": "So the people Israel, etc., *as far as* whence",
+      "column": "726c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 10.--",
+      "en": "VERS. 10.--",
+      "column": "726c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 13.--",
+      "en": "VERS. 13.--",
+      "column": "726c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 16.--",
+      "en": "VERS. 16.--",
+      "column": "726d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 20.--",
+      "en": "VERS. 20.--",
+      "column": "726d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 21.--",
+      "en": "VERS. 21.--",
+      "column": "726d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 10.--",
+      "en": "VERS. 10.--",
+      "column": "726d",
+      "chunk": 0
+    },
+    {
+      "la": "…tramento, sed semper auro lucido nomen Dei scriberetur: quia Deus lux est. Sed si nomen diaboli calculo candido scribas, nihilominus tenebras significat. Caecatus ergo Tobias populum Israel significat",
+      "en": "…hining gold: because God is light. But if thou shouldst write the name of the devil with a white pebble, it nonetheless signifies darkness. Tobias therefore, being blinded, signifies the people Israel",
+      "column": "727a",
+      "chunk": 0
+    },
+    {
+      "la": "… est caecatus. Qui enim infatigabilis in bonis operibus persistit, fidei lumen non admittit. Ita spiritualer fatigatus dormit, qui vigilare, stare, viriliter agere, et confortari negligit. Cui dicitur",
+      "en": "…read *amittit*, \"does not lose\"] the light of faith. So he sleeps spiritually [sic: *spiritualer*] wearied, who neglects to watch, to stand, to act manfully, and to be strengthened. To whom it is said",
+      "column": "727a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 14.--",
+      "en": "VERS. 14.--",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "la": "etc. Quia a domo Dei incipit judicium. Unde",
+      "en": "etc. Because judgment begins from the house of God. Whence",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "la": "Qui non corripitur non est filius",
+      "en": "He who is not corrected is not a son",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 15.--",
+      "en": "VERS. 15.--",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "la": "etc. [n: (BED., ibid.)] Erant in populo, etc., *usque ad* unde",
+      "en": "etc. [n: (BED., ibid.)] There were in the people, etc., *as far as* whence",
+      "column": "727b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 7.--",
+      "en": "VERS. 7.--",
+      "column": "727c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "727c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 7.--",
+      "en": "VERS. 7.--",
+      "column": "727c",
+      "chunk": 0
+    },
+    {
+      "la": "Erat enim ex numero angelorum, qui sunt filii Israel, quia semper vident Deum facie ad faciem, et saepe mittuntur in custodia filiorum Israel, id est videntium Deum. Unde",
+      "en": "…f the number of the angels, who are the children of Israel, because they always see God face to face, and are often sent in the keeping of the children of Israel, that is, of those who see God. Whence",
+      "column": "727d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 10.--",
+      "en": "VERS. 10.--",
+      "column": "727d",
+      "chunk": 0
+    },
+    {
+      "la": "…racula quae in carne fecit populo Judaeorum, ex quo carnem susceperat, ostendit: quia est filius et angelus, id est nuntius paternae voluntatis, cui etiam gaudium perpetuae salutis praedicavit, dicens",
+      "en": "…d to the people of the Jews, from whom he had taken flesh: that he is both son and angel, that is, the messenger of the Father's will, to whom also he preached the joy of everlasting salvation, saying",
+      "column": "727d",
+      "chunk": 0
+    },
+    {
+      "la": "Et desperantibus de lumine coelesti",
+      "en": "And to those despairing of the heavenly light,",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 15.--",
+      "en": "VERS. 15.--",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 18.--",
+      "en": "VERS. 18.--",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 18.-- « Ego sum, inquit, Azarias Ananiae magni filius, [n: (ID., ibid.)] Azarias *adjutor,* Ananias *gloria Dei.* Christus quoque fidelibus suis indicat, quia ipse est de quo dicitur",
+      "en": "…-- « I am, he says, Azarias the son of the great Ananias, [n: (ID., ibid.)] Azarias *helper,* Ananias *the glory of God.* Christ also indicates to his faithful that he himself is he of whom it is said",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 22.--",
+      "en": "VERS. 22.--",
+      "column": "728a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "728b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 2.--",
+      "en": "VERS. 2.--",
+      "column": "728b",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "728b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "728c",
+      "chunk": 1
+    },
+    {
+      "la": "etc. Christus imminente mortis articulo coepit pavere et taedere, non diabolum, sed mortem, quae invidia diaboli intravit in orbem, naturali carnis fragilitate perhorrescens; unde",
+      "en": "…n the moment of death was at hand, began to fear and to be heavy, dreading with the natural frailty of the flesh not the devil, but death, which entered into the world by the envy of the devil; whence",
+      "column": "728c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 4.--",
+      "en": "VERS. 4.--",
+      "column": "728c",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "728d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 5.--",
+      "en": "VERS. 5.--",
+      "column": "728d",
+      "chunk": 1
+    },
+    {
+      "la": "…inus piscem exenteravit, cum nequitiam diaboli latius sanctis aperuit: et quasi arcana insidiarum ejus reseravit. Reposuit sibi cor ejus, quia calliditatem ejus in Scripturis indicavit, de quo dicitur",
+      "en": "…evil more widely to the saints: and, as it were, unlocked the secret things of his snares. He laid up for himself his heart, because he pointed out his craftiness in the Scriptures, of whom it is said",
+      "column": "729a",
+      "chunk": 1
+    },
+    {
+      "la": "et alibi",
+      "en": "and elsewhere",
+      "column": "729a",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "729a",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 6.--",
+      "en": "VERS. 6.--",
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 12.--",
+      "en": "VERS. 12.--",
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "la": "[n: (ID., ibid.)] Raguel populum gentium signat, etc., *usque ad* et qui audire dignus sit",
+      "en": "[n: (ID., ibid.)] Raguel signifies the people of the Gentiles, etc., *as far as* and who may be worthy to hear",
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 11.--",
+      "en": "VERS. 11.--",
+      "column": "729b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "729c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "729d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 11.--",
+      "en": "VERS. 11.--",
+      "column": "729d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 17.--",
+      "en": "VERS. 17.--",
+      "column": "730a",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 22.--",
+      "en": "VERS. 22.--",
+      "column": "730a",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "730a",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "730b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 23.--",
+      "en": "VERS. 23.--",
+      "column": "730b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "730b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 8.--",
+      "en": "VERS. 8.--",
+      "column": "730c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 10.--",
+      "en": "VERS. 10.--",
+      "column": "730d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "730d",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 9.--",
+      "en": "VERS. 9.--",
+      "column": "731a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 10.--",
+      "en": "VERS. 10.--",
+      "column": "731a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 13.--",
+      "en": "VERS. 13.--",
+      "column": "731a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 14.--",
+      "en": "VERS. 14.--",
+      "column": "731b",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 18.--",
+      "en": "VERS. 18.--",
+      "column": "731b",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 14.--",
+      "en": "VERS. 14.--",
+      "column": "731c",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "732a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "732a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "732b",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 5.--",
+      "en": "VERS. 5.--",
+      "column": "732b",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 14.--",
+      "en": "VERS. 14.--",
+      "column": "732b",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 16.--",
+      "en": "VERS. 16.--",
+      "column": "732c",
+      "chunk": 2
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}
