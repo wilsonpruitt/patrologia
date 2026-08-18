@@ -174,6 +174,15 @@ function inlineHtml(s, { anchorIds, state }) {
     // for broken type ([sic:]), because the type here is not broken at all.
     .replace(/\[cj: ([^\]]*)\]/g, (_, c) =>
       `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${c}]</span>`)
+    // [cn: n | …]: MIGNE'S OWN foot-of-page note, recovered from the plate and put back
+    // beside the word he queried (CLAUDE.md, "Migne's conjecture notes"; Corpus Corporum's
+    // TEI carries none of them). It is HIS apparatus, so it renders in the .notecite
+    // family with his inline citations rather than among our markers — but a reader must
+    // be able to tell a conjecture from a reference, hence the class of its own and the
+    // number, which is what makes the note findable at the foot of the plate.
+    // The printed reading stands in the text; the note never replaces it.
+    .replace(/\[cn: ([0-9]+(?:-[0-9]+)?\*?) \| ([^\]]*)\]/g, (_, n, note) =>
+      `<span class="${noteCls(note, 'conj')}" title="${esc(`Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`)}">${note}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
@@ -429,6 +438,16 @@ css += `
    flow and must wrap, exactly as .fonscite does below.
    Run scripts/scan-nowrap-apparatus.mjs to check the class is clear. */
 .notecite.wraps { white-space: normal; }
+/* Migne's foot-of-page conjecture notes ([cn: …]), recovered from the plate: his
+   apparatus, so it sits in the .notecite family — but his CONJECTURES must not read
+   like his CITATIONS, so this one carries the maroquin and a dotted rule. It appears
+   on the Latin side only, and only in works whose plate has been read (tier 3 in
+   data/plate-notes/coverage.json). */
+.notecite.conj {
+  color: var(--maroquin);
+  border-bottom: 1px dotted var(--maroquin);
+  cursor: help;
+}
 /* pattern-4 inline locator tails: apparatus, so quieter than body text, but they
    sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
 .fonscite {

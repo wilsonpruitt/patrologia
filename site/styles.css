@@ -487,6 +487,16 @@ a { color: inherit; }
    flow and must wrap, exactly as .fonscite does below.
    Run scripts/scan-nowrap-apparatus.mjs to check the class is clear. */
 .notecite.wraps { white-space: normal; }
+/* Migne's foot-of-page conjecture notes ([cn: …]), recovered from the plate: his
+   apparatus, so it sits in the .notecite family — but his CONJECTURES must not read
+   like his CITATIONS, so this one carries the maroquin and a dotted rule. It appears
+   on the Latin side only, and only in works whose plate has been read (tier 3 in
+   data/plate-notes/coverage.json). */
+.notecite.conj {
+  color: var(--maroquin);
+  border-bottom: 1px dotted var(--maroquin);
+  cursor: help;
+}
 /* pattern-4 inline locator tails: apparatus, so quieter than body text, but they
    sit INSIDE the sentence flow (unlike .notecite) and must be able to wrap. */
 .fonscite {

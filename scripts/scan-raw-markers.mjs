@@ -31,7 +31,7 @@ const SITE = path.join(ROOT, 'site');
 
 // Every inline marker in the vocabulary. Grown by attestation, like every other
 // list in this repo — add one here the same commit you add it to a builder.
-const MARKERS = ['n', 'nt', 'f', 'sic', 'ed', 'var', 'lat', 'cj', 'b', 'bid'];
+const MARKERS = ['n', 'nt', 'f', 'sic', 'ed', 'var', 'lat', 'cj', 'cn', 'b', 'bid'];
 const RAW = new RegExp(`\\[(?:${MARKERS.join('|')}):`, 'g');
 
 // Column anchors are NOT markers and are supposed to survive as text in some

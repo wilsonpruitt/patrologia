@@ -68,4 +68,17 @@ console.log(`${chunks.length} chunks → ${outDir}`);
 manifest.chunks.forEach(m => console.log(`  ${String(m.chunk).padStart(4, '0')}  ${String(m.words).padStart(5)}w  ${m.colFirst}–${m.colLast}  ${m.heads[0] ?? '(cont.)'}${m.heads.length > 1 ? ` … ${m.heads.at(-1)}` : ''}`));
 if (errors.length) { console.error('\nVALIDATION FAILED:'); errors.forEach(e => console.error(' - ' + e)); process.exit(1); }
 console.log(`\nvalidation OK: ${manifest.sourcePbMarks} column marks, ${manifest.sourceNotes} notes, ${manifest.sourceWords} words conserved`);
+
+// Migne's foot-of-page conjecture notes, if this work's plate has been read, go back
+// into the chunks HERE — chunking rewrites every chunk from the TEI, so an injection
+// done earlier would be silently erased by a re-chunk. Running it as the last step of
+// the chunker is what makes the recovery survive (CLAUDE.md, "Migne's conjecture notes").
+const notesTsv = path.join(ROOT, 'data/plate-notes', `${idno}.tsv`);
+if (fs.existsSync(notesTsv)) {
+  const { spawnSync } = await import('node:child_process');
+  const r = spawnSync(process.execPath, [path.join(ROOT, 'scripts/inject-plate-notes.mjs'), String(idno)], { stdio: 'inherit' });
+  if (r.status !== 0) console.error('⛔ plate-note injection reported a problem — see above; the chunks are written, the notes are not all placed.');
+} else {
+  console.log(`(no data/plate-notes/${idno}.tsv — Migne's foot-of-page conjecture notes are NOT captured for this work)`);
+}
 for (const w of warnings) console.warn(`⚠ ${w}`);

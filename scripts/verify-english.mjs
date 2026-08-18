@@ -152,6 +152,20 @@ for (const c of manifest.chunks) {
       errs.push(`${name}: [sic: ${m[1]}] is not verbatim in the Latin twin — a sic marker may only wrap type carried from the plate`);
   }
 
+  // 9a. [cn: …] — MIGNE'S OWN foot-of-page conjecture note, recovered from the plate
+  // (CLAUDE.md, "Migne's conjecture notes"). It is the one marker that runs the other
+  // way: LATIN-ONLY, because it is his apparatus and not ours, and the English side
+  // never carries it. A [cn: ] in the English means either that a translator copied the
+  // apparatus into the text or — worse — that the conjecture was ADOPTED and dressed as
+  // a note. The printed reading always stands; our conjecture beside it is [cj: …].
+  const cnRe = /\[cn: ([^\]]*)\]/g;
+  if (cnRe.test(eng.body))
+    errs.push(`${name}: [cn: …] marker found in the ENGLISH chunk — Migne's foot-of-page note belongs to the Latin only`);
+  for (const m of [...lat.body.matchAll(cnRe)]) {
+    if (!/^[0-9]+(?:-[0-9]+)?\*? \| \S/.test(m[1]))
+      errs.push(`${name}: [cn: ${m[1]}] is malformed — the form is [cn: <Migne's note number> | <his note>]`);
+  }
+
   // 10. Pattern-13 [ed: …] — the EDITION's own voice, used where the digitization
   // has lost text the plate carries. English-only, never empty, and its content must
   // NOT be verbatim Latin from the twin: that would mean someone wrapped Migne's own
@@ -216,7 +230,11 @@ for (const c of manifest.chunks) {
   }
 
   const strip = s => s.replace(colRe, '')
-    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '').replace(varRe, '').replace(cjRe, '');
+    .replace(dittoRe, '$1').replace(sicRe, '$1').replace(edRe, '').replace(varRe, '').replace(cjRe, '')
+    // [cn: …] is Migne's apparatus, not his text: it must not count toward the Latin
+    // word total, or every recovered note would push the ratio down and read as though
+    // the English had lost words it never had.
+    .replace(cnRe, '');
   const lw = words(strip(lat.body)), ew = words(strip(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the

@@ -1,16 +1,16 @@
 {
  "generated": "2026-08-18",
- "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes \u2014 the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
+ "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
  "tiers": {
   "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
   "3": "Text + our apparatus + MIGNE'S conjecture notes recovered from the plate, sequence verified unbroken."
  },
  "coverage_values": {
   "none": "no plate notes captured",
-  "partial": "some notes captured \u2014 typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
+  "partial": "some notes captured — typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
   "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented"
  },
- "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) \u2014 recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this.",
+ "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this.",
  "works": [
   {
    "idno": "10047",
@@ -496,7 +496,11 @@
    "source": "archive.org patrologiaecurs139unkngoog (copy A), cross-checked against patrologiaecurs114unkngoog (copy B)",
    "page_map": "PDF page = 600 + (column - 1187) / 2  [copy A]; copy B is one page lower",
    "data": "data/plate-notes/11613.tsv",
-   "verified": "2026-08-18"
+   "verified": "2026-08-18",
+   "sequence_gaps_documented": [
+    59
+   ],
+   "notes_placed": 69
   },
   {
    "idno": "11632",
@@ -802,5 +806,9 @@
    "coverage": "none",
    "notes_recovered": 0
   }
- ]
+ ],
+ "fields": {
+  "sequence_gaps_documented": "Note numbers Migne's own sequence skips, established at the plate. scripts/inject-plate-notes.mjs errors on any gap NOT listed here — a gap is the detector for a page cropped short, so it must be silenced deliberately, one number at a time, and never by widening the check.",
+  "notes_placed": "How many of the recovered notes the injector could place in our Latin with a unique anchor. A shortfall is a divergence between the plate and Corpus Corporum's text, listed by the injector — it is evidence, not a defect in the capture."
+ }
 }
