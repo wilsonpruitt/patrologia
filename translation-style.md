@@ -1530,6 +1530,55 @@ fixing**, which is the Pattern 18 population stated in advance.
 Applied so far (7 sites, 4 works): 11081 @0030B · 11064 @1078B, @1142D, @1125A · 11083
 @0846D · 7561 @0663. Plus one site ruled into Pattern 14 instead: 7561 @0664.
 
+### 19. `[cn: n | …]` — MIGNE'S OWN foot-of-page note, in the Latin, never in the English
+
+Migne prints numbered textual notes at the foot of his pages — his own editorial
+conjectures, set `Forte *word*.` (sometimes `F.` or `f.`). **Corpus Corporum's TEI carries
+none of them**: measured 2026-08-18 across all 5,276 PL files and 498,774 `<note>`
+elements, zero. The `[n: …]` notes we do get are his inline parenthetical citations, a
+different layer. So for 105 works we translated a text whose apparatus we could not see —
+and declined cruces Migne had already answered on the same page (11613 col. 1254B).
+
+Where a work's plate has been read (`data/plate-notes/<idno>.tsv`; per-work status in
+`data/plate-notes/coverage.json`), `scripts/inject-plate-notes.mjs` puts each note back
+beside the word he queried, as **`[cn: 46 | F. *earum*.]`**.
+
+**It is the one marker that runs the other way: LATIN-ONLY.** `[d:]`, `[sic:]`, `[ed:]`,
+`[var:]` and `[cj:]` are English-only because the Latin chunk carries what Migne printed
+and nothing of ours. `[cn:]` is in the Latin for exactly the same reason — *this apparatus
+is his*. `verify-english.mjs` errors on a `[cn: ]` found in the English.
+
+**What a translator does with it:**
+
+- **The printed reading still stands and is still what the English renders.** Pattern 7 is
+  untouched. A conjecture is a conjecture, and Migne's own note does not license us to
+  emend his text — it tells us he saw the same difficulty.
+- **Where the note decides a crux, say so in the crux, citing his number and column**: "the
+  foot of col. 1254 carries Migne's note (46), *F. earum*, which construes." That is a
+  witness we did not have before, and it is the difference between *declined for want of a
+  witness* and *answered*.
+- **Never re-label his conjecture as ours.** `[cj: …]` reads on the page as "the reading
+  beside it is our conjecture" and must keep meaning that. If Migne has already conjectured
+  the word, the reader meets it on the Latin side, in his voice, and ours is not needed.
+- ⬜ **Open for Wilson:** whether the English side should ALSO show his conjecture — an
+  additive marker in the `[cj:]` family but attributed to Migne — or whether a reader of
+  the English is served by the crux plus the parallel Latin. Nothing blocks on it; the
+  notes are captured either way.
+
+**Recovery is per VOLUME, at chunking, and never retroactive** (Wilson, 2026-08-18 — the
+completed corpus is not re-run until funding justifies it; shipping new works is the
+funding lever). Method, crop rules and the sequence detector: `CLAUDE.md`.
+
+⚠ **A gap in the numbering is the crop detector** — it is what caught a narrow bottom-strip
+crop losing 3 of the first 10 notes on PL 202. But Migne skips numbers himself (11613 never
+prints 59), so a gap is silenced ONE NUMBER AT A TIME in `coverage.json`
+(`sequence_gaps_documented`), only after someone has looked at the plate.
+
+⚑ **A note that will not place is evidence.** 69 of 11613's 71 place uniquely; the two that
+do not are both real divergences between the plate and Corpus Corporum's text — at (5) our
+TEI reads *immortalium* where the plate reader has *immortalitas*, and Migne's conjecture
+*in mortalium* only makes sense against ours. The injector reports them and places nothing.
+
 ## Source patches — `data/tei-patches/<idno>.json`
 
 Our Latin is Corpus Corporum's TEI, not the plate. Where the *transcription* is
