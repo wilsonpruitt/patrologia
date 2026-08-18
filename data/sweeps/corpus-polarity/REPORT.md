@@ -1,19 +1,19 @@
 # Corpus polarity sweep — REPORT
 
 **Run 2026-07-28.** Every work on migne.app outside PL 196, swept blind on Opus per
-`data/sweeps/NEXT-SESSION-BRIEF.md`. 89 units, 68 works, 454 chunks.
+`data/sweeps/NEXT-SESSION-BRIEF.md`. 90 units, 69 works, 466 chunks.
 No unit skipped, sampled, or truncated.
 
 ## Result
 
-**178 sites across 68 works.** 18 works are clean.
+**181 sites across 69 works.** 18 works are clean.
 
 | | |
 |---|---|
-| side | Migne **152** · **ours 26** |
-| confidence | high 55 · medium 92 · low 31 |
+| side | Migne **154** · **ours 27** |
+| confidence | high 55 · medium 94 · low 32 |
 
-By type: sense-reversing-letter 76 · dropped-word 38 · dropped-non 31 · added-negative 30 · reversed-subject-object 1 · reversed-predication 1 · opposite-rendering 1
+By type: sense-reversing-letter 76 · dropped-word 38 · dropped-non 31 · added-negative 30 · sense-reversing-word 2 · reversed-subject-object 1 · reversed-predication 1 · opposite-rendering 1 · agent-reversal 1
 
 **The average is the wrong summary — the distribution is what matters.** PL 196 ran
 29 sites / 17 works / 82 chunks. This sweep found a comparable per-chunk rate overall,
@@ -27,14 +27,14 @@ but it is not evenly spread:
 - **11063 PL 175 — Expositio in Abdiam — 6 sites** (0 ours) in 1 unit(s)
 
 11064 alone holds 23% of the corpus total. With 11066 the two earliest and
-largest translations hold 36% of all sites. **The brief's hypothesis is confirmed:
+largest translations hold 35% of all sites. **The brief's hypothesis is confirmed:
 the works done under the withdrawn "intended reading" precedent carry the damage.**
 Do not plan future work off the corpus average.
 
-## Our own errors — the actionable set (26)
+## Our own errors — the actionable set (27)
 
 These are live on migne.app and wrong. Per Wilson's fix policy they are **fixed in
-place**; Migne's 152 are **reported and rendered literally, never fixed**.
+place**; Migne's 154 are **reported and rendered literally, never fixed**.
 
 | work | col | conf | type | what |
 |---|---|---|---|---|
@@ -64,6 +64,7 @@ place**; Migne's 152 are **reported and rendered literally, never fixed**.
 | 9076 | 0318C | medium | opposite-rendering | 'that is, night sinks away' / 'night comes to an end' — cadit nox here is the ending of night, not its onset |
 | 9245 | 0988C | medium | dropped-word | Restore the conditional: "…will be under punishments, IF HE HAS BEEN WICKED, as great as the number of those over whom h |
 | 9604 | 1347D | low | sense-reversing-letter | a beati Petri apostoli successoribus suis directos — 'directed by the successors of blessed Peter the apostle into this  |
+| joel | 0276 | medium | agent-reversal | Name the subject: '…crowns his son Michael in the Great Church; and when Theophilos, by the disease of dysentery, as has |
 
 ## Per-work inventory
 
@@ -84,6 +85,7 @@ place**; Migne's 152 are **reported and rendered literally, never fixed**.
 | 11055 PL 175 — Adnotationes in libros Regum | 3 | 0 | 1 |
 | 7017 PL 17 — Philosophorum aliquot epistolae | 3 | 2 | 1 |
 | 7561 PL 50 — Commonitoria | 3 | 0 | 2 |
+| joel-chronographia | 3 | 1 | 1 |
 | 10379 PL 150 — Commentaria in Cantica canticorum | 2 | 0 | 1 |
 | 11031 PL 173 — Epistolae | 2 | 0 | 1 |
 | 11061 PL 175 — De scripturis et scriptoribus sacris | 2 | 0 | 1 |
@@ -1728,6 +1730,45 @@ Conjecture: **furandae ("of stealing/falsifying the truth") for printed fruendae
 The reason clause has to explain why the patristic-consensus method fails against OLD heresies, and the immediately preceding sentence supplies it: new heresies must be attacked at once, 'ante quam infalsare vetustae fidei regulas ipsius temporis vetantur angustiis, ac priusquam manante latius veneno, majorum volumina vitiare conentur' — before the shortness of time stops them falsifying the rules of the ancient faith and before they can corrupt the volumes of the elders. Old heresies are exempt from that method precisely because they HAVE had long occasion to falsify/steal the truth; 'a long occasion of ENJOYING the truth' would make time an advantage to truth and would give no reason at all for the exemption, and the very next sentence ('nullo modo nos oportet nisi aut sola ... Scripturarum auctoritate convincere') presupposes the fathers' texts are no longer safe evidence against them. Our English silently repairs the defect — it renders 'fruendae' as 'assailing the truth', i.e. it translates the conjectured furandae and not the printed word, so the reversal is invisible to an English-only reader.
 
 <sub>found by 7561-u29 · chunk 0011</sub>
+
+
+### joel-chronographia
+
+#### 0236 — sense-reversing-word · **migne** · low confidence
+
+Printed: *Μετὰ δὲ Ἀβίαν ἐβασίλευσεν Ἀσὰ υἱὸς αὐτοῦ καὶ ἐποίησε τὸ πονηρὸν ἐνώπιον Κυρίου, καὶ ἀπέθανε βασιλεύσας ἔτη ιϛʹ*
+
+Our English: "And after Abias reigned Asa his son, and he did what was evil before the Lord, and died, having reigned sixteen years."
+
+Conjecture: **καὶ ἐποίησε τὸ εὐθὲς ἐνώπιον Κυρίου — the formula the chronicle uses for the good kings, and the one its source carries for Asa (3 Kgdms 15:11 LXX, ἐποίησεν Ασα τὸ εὐθὲς ἐνώπιον κυρίου); τὸ πονηρόν has been set for τὸ εὐθές, repeating the phrase used of Abias in the clause immediately before.**
+
+HONEST CAVEAT, stated plainly rather than dressed up: this is the one candidate in the work where I cannot quote a contradicting neighbour clause. The chronicle never mentions Asa again, and the sentence is internally coherent. What is against it is (a) the chronicle's own binary formula, which it applies king by king in exactly the distribution of 3–4 Kingdoms, correct for every neighbour on both sides here (Roboam evil, Abias evil, Josaphat right, Joram evil), Asa alone flipped; and (b) the suspicion of scribal perseveration from the identically shaped Abias clause it directly follows. Migne's facing Latin column is the natural verifier (rectum vs malum) and is not in the repository, so I could not check it. Logged at low confidence precisely because the neighbour test fails; treat as a lead, not a defect.
+
+<sub>found by joel-chronographia-u90 · chunk 0002</sub>
+
+#### 0272 — sense-reversing-word · **migne** · medium confidence
+
+Printed: *Ἐλθόντες δὲ ἐν τῷ Ἀτραμύτῳ εὖρον ἐκεῖσε Θεοδόσιον ἐκλήπτορα τῶν δημοσίων φόρων, ἄνδρα δυσσεβῆ καὶ ἀπράγμονα, καὶ ἀνηγόρευσαν αὐτὸν βασιλέα*
+
+Our English: "And coming to Adramyttion, they found there Theodosios, a collector of the public taxes, a man impious and retiring, and proclaimed him emperor"
+
+Conjecture: **ἄνδρα εὐσεβῆ καὶ ἀπράγμονα — "a man pious and unmeddlesome"; δυσ- has displaced εὐ-**
+
+The pair δυσσεβῆ καὶ ἀπράγμονα yokes a moral condemnation to a neutral-to-favourable trait, and the chunk's own continuation contradicts the condemnation outright: 'And Theodosios, receiving from him a pledge of immunity, yielded the empire to him, becoming a cleric together with his son' — and immediately after, 'the historians say that this same man ... was made bishop of Ephesus.' A man whom this chronicle has abdicate rather than fight, take clerical orders, and end as a bishop is not the man it has just called impious; the chronicle reserves δυσσεβής for its Leo the Isaurian / Constantine Kopronymos class of emperor and gives them violent ends, not bishoprics. The Latin column would settle this at a glance (pium vs impium); it was not available to me here — only the Greek and our English are in the repository, so the divergence could not be checked against Migne's facing translation.
+
+<sub>found by joel-chronographia-u90 · chunk 0009</sub>
+
+#### 0276 — agent-reversal · **ours** · medium confidence
+
+Printed: *Αὐτὸς δὲ στέφει τὸν υἱὸν αὐτοῦ Μιχαὴλ ἐν τῇ Μεγάλῃ ἐκκλησίᾳ, οὗ δυσεντερικῇ νόσῳ, ὡς εἴρηται, κακῶς καὶ ἀθλίως τὴν ψυχὴν ἀποῤῥήξαντος, ἀπεκομίσθη τὸ δύστηνον αὐτοῦ σῶμα εἰς τὸν ναὸν τῶν Ἁγίων Ἀποστόλων*
+
+Our English: "He himself crowns his son Michael in the Great Church; and when he, by the disease of dysentery, as has been said, had evilly and miserably burst forth his soul, his wretched body was carried away to the church of the Holy Apostles."
+
+Conjecture: **Name the subject: '…crowns his son Michael in the Great Church; and when Theophilos, by the disease of dysentery, as has been said, had…' The genitive absolute οὗ … ἀποῤῥήξαντος is Theophilos, not Michael; the tag ὡς εἴρηται points back to the clause a few lines above, 'ἔτη ιβʹ καὶ μῆνας γʹ καὶ ἀπέθανε δυσεντερικῶς', said of Theophilos.**
+
+As rendered, the nearest antecedent of 'he' is Michael, so the English has the newly crowned son die and be buried — which the immediately following sentence denies: 'After Theophilos reigned Michael his son, called Methystes, together with his mother Theodora fourteen years.' The 'as has been said' back-reference has no antecedent at all if the dying man is Michael: nothing has been said of any illness of his. The death and the burial in the Holy Apostles belong to Theophilos.
+
+<sub>found by joel-chronographia-u90 · chunk 0009</sub>
 
 
 ### 10379 PL 150 — Commentaria in Cantica canticorum
