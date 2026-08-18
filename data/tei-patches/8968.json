@@ -1,0 +1,17 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate at 300 dpi: archive.org patrologiaecurs04migngoog, PDF p. 272 (cols 533/534, running head GLOSSA ORDINARIA. — LIB. RUTH.), first line of the right-hand column. The plate prints 'quos significat Ruth.' across a line break; the TEI has joined the lines and lost the 't' with the space.",
+  "patches": [
+    {
+      "col": "0534A",
+      "find": "quos significaRuth.",
+      "replace": "quos significat Ruth.",
+      "why": "line-join defect in the digitization; plate reads 'significat Ruth' (p. 272, col. 534A, line 1)"
+    },
+    {
+      "col": "0537D",
+      "find": "<p>VERS.9.-- ",
+      "replace": "<p>VERS. 9.-- ",
+      "why": "missing space after VERS. — the plate sets it as every other verse mark in the work (p. 274, col. 537D); a spacing artifact of the digitization, and without this the Latin side of the page shows 'VERS.9' as though it were ours"
+    }
+  ]
+}

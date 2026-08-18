@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-18 session: the Glossa ordinaria opens, one small book first —
+  'pl/113/liber-ruth',                                            // Anselm of Laon and his school — the standard medieval gloss on Ruth, read throughout as the calling of the Gentiles; the conventions pilot for the whole Glossa block
   // - 2026-08-18 session: the seventh Song commentary, and the first work carrying Migne's own conjecture notes -
   'pl/202/expositio-in-cantica-canticorum',                       // Gilbert Foliot - the Song verse by verse; 72 of Migne's foot-of-page conjectures recovered from the plate and printed on its cruces page
   // — 2026-08-17 session: Nebuchadnezzar's dreams read as the map of a soul's decline and repair —
