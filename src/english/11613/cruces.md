@@ -347,7 +347,77 @@ was mechanically blocked *and* unearned.
 
 ---
 
-## ⬜ STANDING ITEM 3 — THE PLATE-READ QUEUE
+## ✅ STANDING ITEM 3 — THE PLATE-READ QUEUE: ALL FOUR READ 2026-08-18
+
+Read from the archive.org Google scan of PL 202, `patrologiaecurs139unkngoog`, at 150 dpi for
+the page and 450 dpi for contested type. **Mapping: PDF page = 600 + (column − 1187) / 2**,
+established from p. 600 = cols 1187/1188 under the running head *GILBERTI FOLIOT EPISCOPI
+LONDIN.* Record it; it makes any future read of this volume a one-step job.
+
+1. **1303C — *Centum* vs the lemma's *ducenti*: OUR TEXT IS RIGHT, AND SO IS MIGNE.** The plate
+   prints *…per pacificos mille significas, et per ducentos, qui custodiunt fructus ejus. Hi
+   namque perfecti illi sunt, qui ab Adam usque ad Christum… **Centum vero qui supersunt**,
+   sunt ii qui a Christo usque in finem seculi…* ⭐ **It is not an arithmetic error at all:**
+   Foliot splits the Song's two hundred keepers into two hundreds — the first from Adam to
+   Christ, and "the hundred that remain" from Christ to the end of the age. The number is
+   coherent, the transcription is faithful, and **no marker is warranted.** Closed.
+2. **1202D — *pallium* for the Vulgate's *pullum*: MIGNE'S, NOT OURS.** At 450 dpi the plate
+   reads « **Ligans ad vineam pallium suum**, et ad vitem, o fili mi, asinam suam (*ibid.*). »
+   unambiguously. Our transcription is faithful and the `[var:]` stands as taken. Closed.
+3. **1304D — the missing colophon: THERE IS NONE, AND NOTHING WAS LOST.** The plate ends
+   *…certissima Sponsi sui promissione certificata conquiescit.* followed directly by the
+   printer's ornament. Matches `sources/pl/tei/11613.xml`, which closes at the same word.
+   The work simply ends without a formula. Closed.
+4. ⛔⛔ **1254B — *quanam « Aaron »*: MIGNE ANSWERED IT HIMSELF, IN A FOOTNOTE OUR SOURCE
+   DROPPED.** The plate prints the crux exactly as we have it — *quanam « Aaron » **(46)**
+   filiabus Sion consulitur egredi* — **and carries a numbered footnote at the foot of the
+   page: “(46) F. earum.”** *F.* is *fortasse*. **Migne's own editors conjecture *earum*.**
+   *quanam earum* — "by which of them", i.e. of the *egressiones* just enumerated — construes
+   perfectly, and it is the reading the translating agent independently favoured from the
+   paragraph's taxonomy of goings-forth before rejecting it for want of a witness.
+   ⭐ **The agent was right to decline. It had no way to know the witness existed, because it
+   is not in any file we hold.** See the section below — this is not a one-site problem.
+
+## ⛔⛔⛔ A WHOLE APPARATUS LAYER IS MISSING FROM OUR SOURCE — corpus-wide, found 2026-08-18
+
+**Migne prints numbered textual footnotes at the foot of his pages, and Corpus Corporum's TEI
+does not contain them.** Three of the four pages rendered for the reads above carry one:
+
+| plate | note | column |
+|---|---|---|
+| p. 607 | **(24) f. sinit.** | cols 1201/1202 |
+| p. 633 | **(46) F. earum.** | cols 1253/1254 |
+| p. 658 | **(72) F. resuscitandum.** | cols 1303/1304 |
+
+The numbering reaches **72 by col. 1303**, so this work alone carries on the order of
+**seventy-five** of them across its 158 columns. **We carry zero.**
+
+**This is not a transcription failure of ours.** `sources/pl/tei/11613.xml` holds 413
+`<note>` elements and our chunks hold 413 `[n:]` — exact parity. Those 413 are Migne's
+*inline parenthetical citations* (*(Gen. XLIX, 11)*). The numbered foot-of-page notes are a
+**different apparatus layer**, and the TEI has no representation of it at all. ⭐ **Measured
+across 400 TEI files: ZERO notes begin `F.` or `f.`** — the conventional *fortasse* form. The
+layer is absent from the whole PL corpus we build on, not just this work.
+
+⚑ **Why it matters more than its size suggests: these notes are Migne's editors' own textual
+conjectures — precisely the apparatus that resolves cruces.** 1254B is the worked example: we
+declined to conjecture at a site where Migne had already published his conjecture. Every
+`[cj:]` this project has ever declined *may* have had an answer printed at the foot of its own
+page, and no reader of our files could have known.
+
+⬜ **WILSON'S TO RULE, and it is a scope decision, not a marker decision:**
+- **Narrow:** mark 1254B with `[ed: …]` (the runbook's definition fits exactly — "only where
+  the DIGITIZATION has lost text the plate carries") and move on. One site, one session.
+- **Medium:** recover this work's ~75 notes from the plate now, while the scan is on disk and
+  the page↔column mapping is written down, and add them as a new marker class.
+- **Wide:** treat it as a corpus-wide gap like the PG band letters — 106 works, every volume
+  a separate scan. ⚠ Large, and it would want a pilot on one work before any commitment.
+
+⛔ **Do not start the wide version on my reading of one volume.** What is certain: the layer
+exists on the plate, it is absent from our source, and it contains conjectures that change how
+cruces are decided.
+
+## ⬜ STANDING ITEM 3 — THE PLATE-READ QUEUE (original entries, now answered above)
 
 Four sites where our files cannot settle the question and one look at PL 202 can. In priority
 order.
