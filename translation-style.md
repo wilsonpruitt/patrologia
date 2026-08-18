@@ -933,9 +933,14 @@ reading page, and invites a correction we would have to decline.
 
 So the repetition is **printed and marked**:
 
-`by pure [d: by pure] and naked revelation`
+`[d: by pure] by pure and naked revelation`
 
-- The marker wraps **the repeated occurrence only**, not the original.
+- The marker wraps **the intrusive copy only**, never both. Where the two runs are
+  identical that is the second one; **where they differ it is whichever is the eye-skip,
+  and it is often the FIRST** — see 11a. ⚠ **The example above is itself such a case:**
+  *pura* agrees with *revelatione* and is the true text, while *puro* is a false start
+  with no grammatical slot, so the marker sits on the first copy. This illustration was
+  corrected on 2026-08-18 when 11a was written — it had modelled the marking 11a forbids.
 - It renders as ordinary text with a dotted underline and the tooltip "Repeated
   in Migne's plate" (`.dittog`). The words are **not** dimmed, shrunk, bracketed
   or set as apparatus — they are the author's text, printed twice because the
