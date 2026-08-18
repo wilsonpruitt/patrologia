@@ -283,3 +283,59 @@ reader meets all four differing in the English itself.
 ⚑ **The general lesson, and it is worth a line in `translation-style.md` when Wilson rules:
 passing the validator is not evidence a marker is earned.** Every automated check here is a
 floor, not a warrant — the same shape as "a flagged passage is not a checked passage."
+
+## ⭐⭐⭐ THREE APODOSIS-LESS SENTENCES — 1159D · 1269D · 1299C. It is a class.
+
+Found by **three readers who could not see each other**, in three separate ranges, each
+rendering the sentence ending where Migne ends and each deliberately taking no marker (`[ed:]`
+covers only what OUR digitization lost, and nothing here is lost by us). Two made it worth
+watching; three settles it: **this plate drops limbs.**
+
+⬜ **For Wilson.** Three independent sightings is a measurement, not an impression, and the
+question is what a reader should meet. Options, none of them free: leave them silent (current
+behaviour — the argument simply stops and nothing says so); log all three on the cruces page
+(cheap, honest, invisible to a reader of the text); or open a marker class for a *printed*
+lacuna as distinct from a digitization loss. ⚠ The last one is a real extension of the
+apparatus and would need a sweep of the other 105 works, because nothing has ever counted
+them. **Do not open it casually.**
+
+## Closing apparatus — checked at the SOURCE, and the check is the point
+
+The work ends on *conquiescit.* at 1304D. The agent **verified this in
+`sources/pl/tei/11613.xml`**, which closes straight from that word into
+`</p></div2></div1></body>` — no `<trailer>`, no `<closer>`, no trailing note, no further
+`<pb/>`. **Nothing was dropped between source and chunk**, which is the thing our files can
+actually settle.
+
+⚠ **What our files CANNOT settle is whether Migne's plate carries a colophon that Corpus
+Corporum dropped**, and a 12th-c. Song commentary ending with no formula at all is unusual.
+Worth one plate look at PL 202, 1304 — the same discipline as the 11535 diacritic read, and
+the same reason: **where our text lacks something the genre always has, suspect OUR files
+first.**
+
+## Remaining plate-read candidates, in priority order
+
+1. **1303C — *Centum* against the lemma's *ducenti*.** Two hundred keepers are split and then
+   "the hundred that remain." Deliberately unmarked: a number is neither broken type nor a
+   negation, so no existing pattern reaches it. Cheapest decisive read in the work.
+2. **1202D — *pallium suum* for Gen. XLIX, 11's *pullum suum*.** The colt vanishes; the gloss
+   covers only the she-ass, so the work gives no independent witness either way.
+3. **1254B — *quanam* with no noun to agree with**, two good conjectures competing
+   (*egressione* vs *ratione*). Pattern 18 says decline and log where two readings compete —
+   which is what happened. A plate decides it; a vote does not.
+4. **1304D — the missing colophon** (above).
+
+## The *mala* homograph at its worst, and it was handled
+
+**0050 @1297D: apples and evils collide INSIDE ONE ELEVEN-WORD CLAUSE** — *ut sibi mala
+junguntur in malis, et nullis a te potuerunt malis averti* — rendered apples–apples–evils with
+the reasoning recorded rather than smoothed. At @1298D–1299A Foliot slides across the same
+homograph **six times in four lines** (*arbore malo* = apple tree; *inobedientiae malo* =
+evil). ⭐ **Naming this trap in the brief was the single highest-value line in it.**
+
+## ⬜ TWO CHECKS OWED THE MOMENT 0044–0048 LANDS
+
+1. **Re-run `node scripts/verify-english.mjs 11613` over the whole work.** The last agent's
+   parity counts are HAND-verified, which is not the same thing — the verifier exited early on
+   `0048.md: MISSING English chunk` while that range was in flight.
+2. **Diff 0049's « Videamus si floruit vinea » against 0048's**, which owns that lemma.
