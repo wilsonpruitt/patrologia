@@ -521,3 +521,49 @@ REFERENT UNEXPRESSED, ENGLISH CANNOT — so the translator must choose, and a wr
 invisible to every automated check.** Four of the nine fixes are this one class (1172B,
 1176C, 1209D, 1216D). It is not a Pattern 8 supply; it is a judgment that usually needs the
 NEIGHBOURING chunk to settle, which is precisely what a chunked fleet cannot see.
+
+### 0027–0035, 0036–0044, 0045–0052 · the read closes at 25 sites, ALL OURS
+
+**Final: 53 chunks, six blind readers, 25 our-side defects, 0 Migne defects wrongly
+"corrected."** Every reader rejected the Migne-side candidates as correct literal renderings
+(1159D *bonum*, 1200B *ab Eva usque in Adam*, 1218D *salvaretur*, 1248B *Sponsus* where the
+speech is the Bride's). ⭐ **The rule working in both directions is the result, not just the
+25 fixes.**
+
+⭐⭐⭐ **THE DOMINANT CLASS — 12 of 25: an unexpressed Latin subject or referent that ENGLISH
+CANNOT LEAVE UNEXPRESSED, supplied wrongly.** Latin drops subjects freely; English must put a
+pronoun there, so the translator is forced into a judgment at every such site — and a wrong
+one is fluent, self-consistent within its sentence, and invisible to every automated check we
+own. **It is usually settled only by the NEIGHBOURING chunk, which is exactly what a chunked
+fleet cannot see.** Worked cases: 1172B and 1228B gave the Bridegroom's speech to the Bride
+and the Bride's to him — **1228B was settled by 0028's own recapitulation, *Omnes haec SPONSA
+monuit***; 1264C, 1276B and 1277D by the *soror* stretch, where **1266D prints *Sponsae suae
+laudem Sponsus hucusque AUDIVIT*** — he HEARD it, so he cannot be its speaker; 1284C made the
+mother name herself; 1304B let **the world** pass sentence on the reprobate, where *electis
+SUIS* fixes the Judge.
+
+⚑ **Add it to the blind-read brief permanently, and to the translation brief as a hazard.**
+
+**Other classes worth carrying:**
+- **Douay conformation — 1206D/1207A**, the worst single site. See above.
+- ⛔ **1230D — the `[d:]` marker quarantined the WRONG copy and inverted the argument.** Migne
+  prints the clause twice, ending *per fenestram* then *per cancellos*; the FIRST is the
+  eye-skip. Pattern 11 says mark the second, but **Pattern 11 is written for IDENTICAL runs
+  and does not decide a doubling that varies in one word.** Two agents reached this
+  independently — the translating agent flagged it in its own report and followed the rule's
+  letter anyway. ⬜ **Wilson: Pattern 11 needs a clause for varying doublings — mark the
+  INTRUSIVE copy, not the second one.**
+- **Lexical flattening — 1284A** rendered *ex multis granis acervus* as "out of many berries
+  one cluster", sliding the first pair onto the second's vocabulary and turning a three-fold
+  ascent (grain/grape/beast) into a near-tautology. *acervus* is correctly "heap" at 0047.
+- **A distinction the work explicitly builds, collapsed — 1297D** rendered *genitrix* as "her
+  that bore me" in the lemma and "my mother" three words later, at the very point where 1284C
+  had insisted *diversitate tamen verborum, diversa denotat*.
+
+⚠ **One proposed fix was OVERRULED and the reason generalizes.** At 1277D a reader wanted "he
+thus names her" → "**they**", since the speech says *nobis* and *adjurasti nos*. But Migne
+prints SINGULAR verbs (*nominat*, *geminat*): the plural would have smoothed a printed
+singular. The real defect was that our English rendered the same singular subject as "he" and
+then "she" three sentences later. **Fixed to agree; printed number untouched.** ⚑ **A reader's
+diagnosis can be right while its remedy silently repairs the plate — check the remedy against
+Pattern 7 as well as the diagnosis.**
