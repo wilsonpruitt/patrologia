@@ -47,7 +47,7 @@ No plate was re-read, so this is not the retrofit the ruling forbids.
 the crux plus the parallel Latin is enough.** Wilson, 2026-08-18: *"the cj: is for scholars
 where the english is for all."* Closed; do not re-raise.
 
-### ✅ Queue restocked: 14 Glossa books chunked, all validating (3 → 17 prepared)
+### ✅ Queue restocked in two batches: 24 Glossa books chunked (3 → 27 prepared)
 
 PL 114 (NT): 2 John 8984 · 3 John 8989 · Philemon 8994 · Titus 8997 · Jude 8978 · 2 Thess
 8987 · 1 Thess 8982. PL 113 (OT): Tobit 8970 · Judith 8960 · Esther 8948 · Ecclesiastes
@@ -55,22 +55,30 @@ PL 114 (NT): 2 John 8984 · 3 John 8989 · Philemon 8994 · Titus 8997 · Jude 8
 ⛔ Prepared, NOT cleared to run: **Ruth (8968) is still the conventions pilot** and gates
 every other Glossa book.
 
-⚑ **For the pilot to check:** the NT gloss books carry almost no `<note>` (2 John 0, 3 John
-0, Philemon 1) while the OT books are dense (Joshua 144, Judges 116, Nehemiah 103). If those
-notes are the attribution sigla `[n: (RAB.)]`, the sigla convention Ruth is meant to settle
-may simply not apply to the NT books — a fact about Migne's recension, not our chunking.
+**Second batch (Wilson: "a few more glossa books before we deploy"):** 2 Peter 8985 · 2 Tim
+8988 · Colossians 8990 · 1 Tim 8983 · Philippians 8995 · James 8998 · 1 Peter 8980 · 1 John
+8979 · Ephesians 8991 · Galatians 8992 — 41 chunks, ~37K words. The four large epistles
+(2 Cor, Hebrews, 1 Cor, Romans) are left for later so the queue stays in cadence sizes.
+**Queue: 27 works, 424 chunks, 517K words.**
+
+⛔ **A flag from the first batch is WITHDRAWN.** I wrote that the NT gloss books carry almost
+no `<note>` where the OT books carry 100+, and wondered whether the attribution sigla apply
+to the NT at all. The wider sample kills it: 1 Peter 46, James 34, 2 Peter 32, Galatians 29.
+**Density is per-book, not per-testament** — the first seven happened to be the sparse ones.
+Nothing was built on it; withdrawn so the pilot does not hunt a pattern that is not there.
 
 ### ▶ Next, in order
 
 1. ⛔ **Deploy the 11613 rebuild** (`cd site && npx vercel --prod --archive=tgz --scope
    wilson-pruitts-projects`), verify by body. It is the first page in the corpus to carry
    Migne's own conjecture notes.
-2. ⭐ **Plate-note recovery for the restocked queue — and it is SMALL.** All 15 prepared
-   Glossa books together span **124 columns ≈ 62 plate pages** across two volumes (11613
-   alone was ~79). Scans exist: PL 113 `patrologiaecurs04migngoog` + Gallica
+2. ⭐ **Plate-note recovery for the restocked queue — still small.** The 25 prepared Glossa
+   books sit in **five contiguous runs: PL 113 cols 505–540 · 713–748 · 1115–1126, PL 114
+   cols 569–642 · 671–710 — 198 distinct columns ≈ 99 plate pages** (11613 alone was ~79).
+   Contiguity is what keeps it cheap: whole runs render in one pass. Scans exist: PL 113 `patrologiaecurs04migngoog` + Gallica
    `bpt6k5505319w`; PL 114 to confirm the same way. Needs one calibration read per volume to
    fix `PDF page = f(column)` against the running head, then the full-page crops.
-   **⛔ Hard-stop burn statement before launching: ~60 page reads, est. ~0.8–1.2M, and
+   **⛔ Hard-stop burn statement before launching: ~99 page reads, est. ~1.3–1.9M, and
    "which model, and go?"** Do it BEFORE Ruth runs, so the pilot meets the apparatus.
 3. **Ruth (8968), the Glossa conventions pilot** — 3 chunks, and it decides lemma rendering,
    attribution sigla and page layout for 62 works. Wilson gates the conventions.
