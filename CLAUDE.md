@@ -46,6 +46,45 @@ Wroot Press capstone: English translation of Migne's Patrologia Latina + Graeca.
    - Attribution is a SEPARATE question from translation status and does not gate the badge — but a byline naming the wrong author is its own defect, and unlike the badge it IS part of the text (11545: only the prologue is Richard's, the body is Walter of St Victor's).
 9. **Index from day one.** Every shipped work runs `node scripts/index-work.mjs <textIdno>` after verify — `data/index/<series>/<idno>.json` accretes the site-wide indexes (no retroactive passes). Tracked: **scripture** (Migne's `[n:]` citations, dual-keyed per `reference_data-repository-standard` — OSIS `refKey` + verbatim `refDisplay`, located by column), **fontes** (all other citations, raw verbatim, from BOTH `[n:]` notes and `[f:]` inline-locator tags per `translation-style.md` pattern 4 — `[f:]` tags are harvested from the ENGLISH chunks (their content is verbatim Latin) and validated as a substring of the Latin twin, asterisks stripped/whitespace normalized, mismatch = hard error; inline records carry `inline: true`; a bare or partial *Ibid.* is resolved at index time to its nearest preceding non-*Ibid.* locator, stored as `antecedent` + `antecedentColumn` while `raw` keeps the printed *Ibid.* — this is a deterministic inference from the printed sequence, NOT a correction, so no `citation-corrections.json` entry; there is deliberately NO `fonsKey` yet — the controlled source-name vocab is derived later FROM the accumulated raws, never from memory, and inline locators join that same pool), **heads** (la+en chapter titles + column → TOC/search), **unparsed** (alias-table gaps; never silently dropped). Deliberately NOT tracked yet: theme/topic tags (needs open-tag→consolidate→freeze on a corpus slice per `reference_tagging-philosophy`), entity extraction, source-name normalization.
 
+## Migne's conjecture notes — RECOVER GOING FORWARD, DO NOT SWEEP THE DONE CORPUS (Wilson, 2026-08-18)
+
+**Migne prints numbered textual footnotes at the foot of his pages** — editorial conjectures,
+set as `Forte *word*.` (usually spelled out; sometimes `F.` / `f.`). **Corpus Corporum's TEI
+does not contain them, anywhere.** Measured 2026-08-18 across **all 5,276 PL TEI files and
+498,774 `<note>` elements: ZERO.** The 413 `<note>` we do get per work are Migne's *inline
+parenthetical citations*; the foot-of-page notes are a separate apparatus layer with no
+representation in our source at all.
+
+⚑ **Why it matters: these are conjectures, so they are exactly the apparatus that settles
+cruces.** Worked case — 11613 col. 1254B prints *quanam « Aaron » (46) filiabus Sion
+consulitur egredi*, which does not construe, and the foot of that page reads **"(46) F.
+earum."** A translating agent weighed two conjectures and correctly declined for want of a
+witness. **The witness was printed on the same page and is in no file we hold.**
+
+⛔ **THE RULING — scope, not merit.** Recover the notes **for works from now on**, as part of
+chunking. **Do NOT re-run the completed corpus** (105 works) until funding makes it
+worthwhile. Wilson, 2026-08-18: *"this is something i want to do going forward, but not rerun
+the completed corpus at this point until there is an infusion of funds that make that
+worthwhile. i have recently received four monthly sponsors and turning out new works helps
+that keep going and may increase the funders."*
+
+⭐ **The standing priority that follows: SHIPPING NEW WORKS is the funding lever.** Do not
+gold-plate a work in progress with retrospective passes; finish it and start the next. When
+proposing work, say which option produces a new public work and which does not.
+
+**Where the recovery belongs: at CHUNKING, per VOLUME — not per work, and never retroactively.**
+Same argument as the PG band letters above, and for the same reason: a retroactive pass is a
+re-read of the plates. One volume render serves every work in that tome. Method proven on
+PL 202 (2026-08-18): archive.org Google scan, **PDF page = 600 + (column − 1187) / 2** for that
+volume, verified against the running head; notes are legible at 300 dpi and locatable at 150.
+⚠ **Crop the FULL page width, not a footnote strip** — notes sit under BOTH columns, and at a
+work division they sit MID-page (PL 202 p. 581). A narrow bottom-strip crop silently loses
+them; it lost 3 of the first 10 and was caught only because **the note numbers run
+sequentially and a gap is a detector.** Always check the sequence.
+
+⚠ **Never guess a conjecture.** An illegible note is recorded as illegible; a wrong one would
+enter our apparatus wearing Migne's own voice.
+
 ## Session cadence
 
 Bonaventure convention: each session = one logical unit, commit as you go, and END by updating `next-session-resume.md` (current pointer, open flags, what's next). Memory (`patrologia.md`, NOW.md) stays high-level — repo files are authoritative.
