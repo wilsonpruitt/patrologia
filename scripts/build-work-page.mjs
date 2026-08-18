@@ -12,6 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
+import { isFirstEnglishPL, loadPlStatusByIdno, badgeHtml } from './lib/first-english.mjs';
 
 const idno = process.argv[2];
 if (!idno) { console.error('usage: node scripts/build-work-page.mjs <textIdno>'); process.exit(1); }
@@ -232,37 +233,10 @@ const colFirstDisp = colDisp(manifest.colFirst), colLastDisp = colDisp(manifest.
 // write the work) are filtered out of author credit.
 const bios = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/author-bios.json'), 'utf8'));
 // ── The priority claim ────────────────────────────────────────────────────────
-// FAIL SAFE, CLAUDE.md rule 8. "First English translation" is a public assertion
-// of scholarly priority and the one claim on this site a reader cannot check.
-// ⚠ THIS LINE WAS HARDCODED TO "First English translation" UNTIL 2026-08-17, so
-// every PL work page asserted priority regardless of its triage verdict, while
-// build-landing.mjs (which has always computed it) printed the truth one click
-// above. Found by a post-deploy body check on 11535, whose landing entry read
-// "New" and whose own page read "First". Keep this in step with
-// build-landing.mjs's isFirstEnglish(); absence of evidence is never evidence of
-// a first, and `ours` is in the not-verified set so shipping can never grant the
-// claim (rule 8's Abbo case).
-const NOT_VERIFIED_NONE = new Set(['unclear', 'ours', 'partial', null, undefined]);
-const PRIOR_ENGLISH = new Set(['full', 'partial', 'minimal', 'some', 'mostly']);
-const isFirstEnglish = (() => {
-  const works = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/works.json'), 'utf8'));
-  let tr = null;
-  const walk = o => {
-    if (tr) return;
-    if (Array.isArray(o)) return o.forEach(walk);
-    if (o && typeof o === 'object') {
-      if (Array.isArray(o.texts) && o.texts.some(t => String(t.idno) === String(idno)) && o.translation) { tr = o.translation; return; }
-      Object.values(o).forEach(walk);
-    }
-  };
-  walk(works);
-  if (!tr) { console.warn(`  (no works.json status for ${idno} — using "New English translation")`); return false; }
-  if (NOT_VERIFIED_NONE.has(tr.workStatus)) { console.warn(`  (workStatus "${tr.workStatus}" is not a verified none — using "New English translation")`); return false; }
-  return !PRIOR_ENGLISH.has(tr.workStatus);
-})();
-const claimHtml = isFirstEnglish
-  ? '<span class="first">First English translation</span>'
-  : '<span class="first fresh">New English translation</span>';
+// The priority claim is imported, never re-implemented here — see
+// scripts/lib/first-english.mjs for the two ways this exact line has already
+// failed (hardcoded 2026-08-17, then mirrored-and-drifted the same day).
+const claimHtml = badgeHtml(isFirstEnglishPL(idno, loadPlStatusByIdno(ROOT), m => console.warn(`  (${m})`)));
 
 // Curated "On this text" paragraphs (data/work-about.json, keyed by textIdno).
 // Curated prose must live in data, never only in generated HTML — a rebuild
@@ -320,6 +294,9 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The page's own identity, so build-landing can look this work up by IDNO
+     instead of by volume-plus-title, a key that collides on 176 pairs. -->
+<meta name="migne-idno" content="${esc(String(idno))}">
 <title>${esc(authorNames)}, ${title} — PL ${vol}, ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} · Migne</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

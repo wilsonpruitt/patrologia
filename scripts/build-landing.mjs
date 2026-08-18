@@ -11,6 +11,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
+import { isFirstEnglishPL, loadPlStatusByIdno, badgeHtml } from './lib/first-english.mjs';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
@@ -175,9 +176,12 @@ for (const series of ['pl', 'pg']) {
         colFirst = Math.min(colFirst, partner(colFirst));
         colLast = Math.max(colLast, partner(colLast));
       }
+      // the page states its own identity; the title never identified it (see
+      // scripts/lib/first-english.mjs on the 176 colliding volume+title keys).
+      const idno = (html.match(/<meta name="migne-idno" content="(\d+)">/) || [])[1] ?? null;
       works.push({
         series, vol: parseInt(vol, 10), slug, path: `/${series}/${vol}/${slug}/`,
-        title: t[2], author: t[1], colFirst, colLast, anchors,
+        title: t[2], author: t[1], colFirst, colLast, anchors, idno,
       });
     }
   }
@@ -206,33 +210,6 @@ if (plCount !== 221 || pgCount !== 161) {
 const worksData = JSON.parse(read('data/works.json'));
 const counts = worksData.counts;
 
-// translation status per work, keyed by volume + numeric first column (e.g. "50/637").
-// Used to decide the RECENT badge: a work with a prior English (workStatus
-// pd-ingested/copyrighted — a DELIBERATE re-translation) must NOT claim "First English
-// translation". Only a work whose TRIAGE verdict is a verified none keeps the "first"
-// claim. "ours-from-none" used to qualify and no longer does: 'ours' cannot be told
-// apart from 'ours-from-anything' once written, which is precisely how it failed.
-const PRIOR_ENGLISH = new Set(['pd-ingested', 'copyrighted', 'elsewhere']);
-const normTitle = s => String(s).toLowerCase().replace(/\s+/g, ' ').trim();
-const transByTitle = new Map(); // `${vol}/${normTitle}` -> translation (volume+title is unique; vol+colFirst is not — packed short works share a column)
-for (const wk of (worksData.works || worksData)) {
-  for (const t of (wk.texts || [])) transByTitle.set(`${t.volume}/${normTitle(t.title)}`, wk.translation || {});
-}
-// A status that does NOT affirmatively establish a verified none. Anything here,
-// plus anything unrecognized, gets the weak claim.
-//
-// 'ours' is in this set (2026-07-29) and that is the point. Shipping a work used
-// to overwrite workStatus with 'ours', which the old logic read as a First claim —
-// so the routine act of shipping silently destroyed the evidence field this
-// fail-safe reads, and routed around the fail-safe itself. Absence of evidence was
-// handled; OVERWRITING of evidence was not. Abbo's Canones (workIdno 4712) went
-// live claiming priority on exactly that path: its workStatus was null, was never
-// triaged at work level, and the author register has Abbo as 'minimal', unverified.
-// All 49 flipped works have been restored from git history (48 were 'none', 1 null).
-// workStatus now holds the TRIAGE verdict permanently; englishState: 'ours' is what
-// records that we shipped it. Never conflate the two again.
-const NOT_VERIFIED_NONE = new Set(['unclear', 'partial', 'mixed', 'minimal', 'ours', null, undefined]);
-
 // PG works live outside the PL-derived works.json, so they are looked up in their
 // own register. This READS data/pg-works.json rather than hardcoding a list: that
 // file already carried `translationStatus` + `translationStatusVerified` per work
@@ -250,36 +227,34 @@ const PG_FIRSTS = (() => {
   return out;
 })();
 
-const isFirstEnglish = w => {
-  // FAIL SAFE (CLAUDE.md rule 8, 2026-07-28). "First English translation" is a
-  // public assertion of scholarly priority and the one claim on this site a reader
-  // cannot check. Absence of evidence is NOT evidence of a first, so a missing,
-  // unclear, or unrecognized status renders "New English translation".
-  //
-  // This previously defaulted the OTHER way — a missing lookup claimed "first" —
-  // and `unclear` fell through the prior-English set entirely. Three works shipped
-  // a false "First" badge as a result (11545, 11546, 11548), two of them with
-  // triage notes explicitly recording an unconfirmed claim that a VTT translation
-  // exists. The weak claim is always true of our work, so this default costs
-  // nothing; the strong one, wrongly made, is not recoverable.
-  //
-  // Do NOT resolve an unknown by going to verify it — rule 8 is explicit that the
-  // badge never justifies a research task. Take the weak claim and move on.
-  const tr = transByTitle.get(`${w.vol}/${normTitle(w.title)}`);
-  if (!tr) {
-    // PG pilot works (Joel etc.) aren't in the PL-derived works.json. They are in
-    // fact genuine firsts, but they are hand-listed in PG_FIRSTS rather than
-    // trusted by default, so a PL miss can never silently inherit the claim.
-    if (PG_FIRSTS.has(w.path)) return true;
-    console.warn(`  (no works.json status for ${w.path} — using "New English translation")`);
-    return false;
-  }
-  if (NOT_VERIFIED_NONE.has(tr.workStatus)) {
-    console.warn(`  (${w.path}: workStatus "${tr.workStatus}" is not a verified none — using "New English translation")`);
-    return false;
-  }
-  return !PRIOR_ENGLISH.has(tr.workStatus);
-};
+// The priority badge. Rule, sets and lookup all live in
+// scripts/lib/first-english.mjs — imported, never re-implemented, because this
+// claim has already failed twice by being written in two places at once.
+const plStatus = loadPlStatusByIdno(ROOT);
+const isFirstEnglish = w => w.series === 'pg'
+  ? PG_FIRSTS.has(w.path)
+  : isFirstEnglishPL(w.idno, plStatus, m => console.warn(`  (${w.path}: ${m})`));
+
+// ⛔ THE CHECK THAT WOULD HAVE CAUGHT BOTH FAILURES. The badge is written on two
+// surfaces — this landing page and the work page one click below — and twice now
+// they have disagreed in production, each time invisibly: status codes are 200 on
+// both, and no reader compares them. Every built page is already in hand here, so
+// assert that what a page SAYS about itself equals what this build COMPUTES for it.
+// Sharing the helper makes divergence unlikely; this makes it loud.
+const claimDrift = [];
+for (const w of works) {
+  const html = fs.readFileSync(path.join(ROOT, 'site', w.path, 'index.html'), 'utf8');
+  const m = html.match(/<span class="first( fresh)?">([^<]+)<\/span>/);
+  const onPage = m ? m[2] : '(no badge)';
+  const computed = isFirstEnglish(w) ? 'First English translation' : 'New English translation';
+  if (onPage !== computed) claimDrift.push(`  ${w.path}  page says "${onPage}", landing computes "${computed}"`);
+}
+if (claimDrift.length) {
+  console.error(`${claimDrift.length} work page(s) disagree with the landing about the priority claim:`);
+  console.error(claimDrift.join('\n'));
+  console.error('Rebuild the work pages (node scripts/build-work-page.mjs <idno>) — do NOT deploy this.');
+  process.exit(1);
+}
 
 const authorsReg = JSON.parse(read('data/triage/authors-status.json'));
 const queueAuthors = authorsReg.authors.filter(a => a.status === 'none' && a.verified).length;
@@ -316,9 +291,7 @@ for (const w of works) {
   }
 }
 const recentHtml = recent.map(w => {
-  const badge = isFirstEnglish(w)
-    ? '<span class="first">First English translation</span>'
-    : '<span class="first fresh">New English translation</span>';
+  const badge = badgeHtml(isFirstEnglish(w));
   return `    <li>
       <span class="work"><a href="${w.path}">${w.author}, <i>${w.title}</i></a>${badge}</span>
       <span class="cite">${w.series.toUpperCase()} ${w.vol}, ${w.colFirst}–${w.colLast}</span>

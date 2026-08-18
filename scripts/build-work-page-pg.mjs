@@ -12,6 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
+import { isFirstEnglishPG } from './lib/first-english.mjs';
 
 const key = process.argv[2];
 if (!key) { console.error('usage: node scripts/build-work-page-pg.mjs <workKey>'); process.exit(1); }
@@ -222,8 +223,7 @@ if (bio?.bio || bio?.attributionFlag) {
 
 // Badge per CLAUDE.md rule 8, same test as build-landing's PG_FIRSTS: the
 // strong claim only on an explicit verified none; everything else fails safe.
-const badge = (work.translationStatus === 'none' && !!work.translationStatusVerified)
-  ? 'First English translation' : 'New English translation';
+const badge = isFirstEnglishPG(work) ? 'First English translation' : 'New English translation';
 
 // "On this text": curated prose from data/work-about.json under `pg:<workKey>`
 // (curated prose lives in data, never only in generated HTML); generic fallback.
@@ -259,6 +259,7 @@ const html = `<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="migne-pg-key" content="${esc(String(work.key))}">
 <title>${esc(work.author)}, ${esc(work.title)} — PG ${vol}, ${colFirst}–${colLast} · Migne</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
