@@ -8,6 +8,14 @@ three `[var:]` rendering; badge "New English translation"; landing at **107 engl
 The cruces URL was smoke-tested, not just the work URL — that is how Glabas III once shipped
 with a 404 apparatus link.
 
+✅ **`migne.app/glossa` is LIVE** (`migne-2bfxzah6r`, verified by body; nav confirmed clean of it).
+All 58 books in biblical order, Englished / prepared / not-yet, with the honesty label once at
+the top. Reached from a quiet line on each Glossa work page, not from the nav. ⭐ **Two
+anti-rot rules to copy for any future collection page: select the set BY AUTHOR, never by a
+title grep** (a grep pulls Walafrid's own works in — that is how the wrong 80-work count
+happened earlier in this session), **and assert "Englished" from the BUILT PAGE on disk, not
+from a flag.** An unplaced title exits nonzero. `build-glossa.mjs` is in the runbook checklist.
+
 **`polarity-record --gate` is GREEN: every englished work in the corpus has now been read for
 this class.** 8968 recorded at chunks 3 · sites 17 · ours 13.
 
