@@ -40,3 +40,49 @@ Also carry forward from 0005–0009: the four wrong note-citations Migne prints 
 **agreement between agents is not evidence** — two of six such reports collapsed on
 one-at-a-time checking, because the author's own prose named the book. And never correct a
 reference that a following *Ibid.* depends on.
+
+---
+
+## ⛔ MERGE ITEMS RAISED BY THE AGENTS THEMSELVES (wave 1)
+
+Two ranges independently flagged a cross-range collision, which is the 11551 failure mode
+caught early rather than late. **Neither can be resolved by the agent that raised it** — one
+side must yield, and the reasoning is recorded so it is adjudicated, not guessed.
+
+1. **The 0014/0015 seam — the same lemma rendered twice.** 0014 has *loves / feedest / in the
+   midday*; 0015 has *loveth / pasturest / at midday*. Both are internally consistent; they
+   cannot both ship. ⚑ **Decide from the corpus, not from taste:** `translation-style.md`'s
+   scripture rule permits traditional wording *where the quoted Latin matches the standard
+   text*, and 11550 (Richard on the same book, already englished) is the nearest control —
+   check how it renders Cant. I, 6 before ruling.
+2. **`amica` — 26 instances, whole-work scope.** 0015 fixed it as **"friend"**, on the
+   ground that 1196A's gloss turns on *verbo amicabili* → « *Amica mea* », with *amicus
+   Caesaris* in the same range. 0000 reports *amica* does not occur in its range and that the
+   two *amicus* are ordinary. **If a later range fixed "my love" or "beloved," one must
+   yield** — and note the brief's own warning that *amica* is a THIRD word, never "bride."
+   ⚑ Per 11535: a fixed-vocabulary pair earns rigidity **only where the two words actually
+   meet**. Check for collisions before ruling.
+
+## Findings worth carrying into the blind read
+
+- **1184A — *Nigra sum ET formosa* for the lemma's *sed*.** Migne re-quotes his own lemma
+  twenty lines below with the concessive hinge flattened into a conjunction, and the whole
+  chapter's diptych (*nigra sum* → *tabernacula Cedar* against *sed formosa* → *pelles
+  Salomonis*) rests on that hinge. Marked `[var:]`. **Nine other *nigra* and five *formosa*
+  re-quotations print *sed* and hold the pair distinct** — so this is a single-site defect in
+  the plate, not a drift in the work.
+- **1202D — Gen. XLIX, 11 printed *pallium suum* for *pullum suum*.** The colt vanishes and a
+  cloak takes its place, while *pallium* is correctly glossed two lines above from the other
+  half of the verse. Foliot's gloss covers only the she-ass, so **the work gives no
+  independent witness either way** — exactly the shape that needs a plate read, not a vote.
+- **1192A — `[sic: *suum*]` for *sum*** (*Percussus suum ut foenum*): a real word with no
+  grammatical slot, leaving the clause verbless. The dangerous class, since a real word takes
+  no automated flag.
+- **1159D — a sentence with no apodosis**: the "so he deserved evil without end" limb is
+  simply absent from the plate. Rendered ending where Migne ends, deliberately unmarked,
+  because `[ed:]` covers only what OUR digitization lost. Worth Wilson's eye.
+- **0004 @1160C** — a `[var:]` declined on principle: the reading is close to Old-Latin
+  Isa. XXV, 1, but **Migne prints no locator**, so naming a "received reading" would rest on
+  our identification rather than his. That is the right instinct and should be the rule.
+- Three *nunquid* questions in 0000–0004 **close with a full stop** in the plate; carried as
+  printed under Pattern 8. Expect the `?`-parity warn to be quiet here and do not "fix" them.
