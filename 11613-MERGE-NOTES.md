@@ -204,3 +204,44 @@ Migne's.**
   Matth. VIII *Ibid.* chain; Gen. XXVIII, 12). **All kept verbatim and none proposed for
   `citation-corrections.json`** — they sit in *Ibid.* chains, which runbook item 2 forbids
   touching. Correct instinct; do not revisit at merge.
+
+## ⚑ A POSSIBLE EDITORIAL HABIT — suspect words sit inside Migne's own guillemets
+
+0035–0039 declined three `[cj:]` calls (*quanam « Aaron »* @1254B, *« munitos »* @1261A,
+*« videbat »* @1258B) and noticed that **all three suspect words in the range sit inside
+Migne's own « »**. That may be coincidence at n=3, but it is a cheap thing to test at merge
+across the whole work, and if it holds it is a *locating* heuristic: the guillemets mark where
+his compositor was setting quoted matter, which is where type most often went wrong.
+**Test it before believing it** — the corpus is its own control.
+
+⚠ @1254B is the range's best plate-read candidate: *quanam* has no noun to agree with, and two
+good conjectures compete (*egressione*, favoured by the paragraph's taxonomy of goings-forth;
+*ratione*, the ordinary idiom). **Two competing good readings is exactly when Pattern 18 says
+decline and log** — which is what happened. A plate read decides it; a vote does not.
+
+## Terms reconciled or flagged in wave 2
+
+- **`ferculum`** — 0035–0039 used "litter" but flagged it as its only cross-range exposure,
+  since the exposition proper is at 0034. Relayed in flight: **0034's agent owns the word**
+  and was told to use the right English and declare a collision rather than agree for its own
+  sake. Confirm at merge which won and why.
+- **`mammae` / `ubera` both = "breasts"** — a DECLARED flattening, because Foliot uses them as
+  synonyms inside one sentence. Fine, but it must be stated on the cruces page, not silent.
+- **`capra` "goat" vs `caprea` "roe"** kept distinct — the lemma says goats and every gloss
+  says roes. Recurs in 0033 and 0052; relayed to 0030–0034 in flight.
+- ⛔ **The *mala* homograph behaved exactly as the brief predicted**: 0039 has nine pomegranate
+  sites beside *poma* "apples", and **Foliot CONTRASTS the two at 1265B** (pomegranates =
+  martyrs, apples = confessors), while genuine *malus* "evil" occurs at 1253D and in Col.
+  III, 5 — inside the same five chunks. Naming the trap in the brief was worth its space.
+
+## Divergences worth the blind read's attention from 0035–0039
+
+- **0037 @1258C — the Deuteronomy speaker's PERSON is inverted** (*suscitabit … ipse ultor
+  existet* for the Vulgate's first-person *suscitabo … ego ultor existam*), **and the control
+  is inside the work**: 0038 @1261A prints the same verse in the first person under the same
+  note. Single-site plate divergence, not the author's habit. ⭐ This is the corpus-as-control
+  discipline working exactly as intended.
+- **0037 @1258C — Dan. IX, 24 is not the Vulgate at any point** (*cessabit in vobis unctio*
+  where the verse has the Holy of holies anointed).
+- **0039 @1267C — lemma prints *comedat fructus* where the Vulgate AND Migne's own gloss eight
+  lines below have the singular *fructum*.** Another self-divergence; see the Pattern 14 note.
