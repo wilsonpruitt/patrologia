@@ -1,5 +1,86 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18c — SIX WORKS DEPLOYED · `[cn:]` BUILT · QUEUE 3 → 17
+
+Tree clean · all commits pushed through the previous session · **3 new commits this
+session, unpushed** · ledger 106/106 untouched (no translation ran).
+
+### ✅ The six undeployed works are LIVE and verified BY BODY
+
+`migne-4czipfd24`, production. Verification was not a status-code check: each of the six
+work pages and its cruces page was fetched from migne.app and compared **byte for byte**
+against the local build — twelve pages, all identical. Landing still reads 106 englished
+works. 9033 · 11064 · 11065 · 11542 (Pattern 11a marker moves) · 11535 · 11550 (Pattern 18
+promotions).
+
+### ✅ `[cn: …]` is built, end to end — the marker ruled last session
+
+`scripts/inject-plate-notes.mjs` places every recovered note from
+`data/plate-notes/<idno>.tsv` beside the word Migne queried, in the **Latin** chunks.
+`chunk-work.mjs` runs it as its last step (chunking rewrites chunks from the TEI, so an
+injection done earlier is erased silently). `verify-english.mjs` hard-errors on a `[cn: ]`
+in the English and strips it from the word-ratio count. `build-work-page.mjs` renders it in
+the `.notecite` family — his apparatus, in the maroquin so a conjecture cannot be read as a
+citation. `scan-raw-markers.mjs` knows the form. Pattern 19 in `translation-style.md` says
+what a translator does with it.
+
+**11613's 71 notes: 69 placed, page rebuilt, verify OK.** ⛔ **That rebuild is UNDEPLOYED.**
+No plate was re-read, so this is not the retrofit the ruling forbids.
+
+⭐ **Three findings, all now encoded:**
+1. **A gap in the note numbers is the crop detector — but Migne skips numbers himself.**
+   11613 never prints (59), and `coverage.json` had said so all along; my checker called it
+   a cropping fault until it learned to read the file. Gaps are silenced ONE NUMBER AT A
+   TIME (`sequence_gaps_documented`), never by widening the check. *(Same shape as the
+   "empty grep ≠ absence" lesson: the apparatus already knew.)*
+2. **Marker syntax has no nested brackets.** A row carrying the plate reader's own aside
+   (`F. *spr*  [TRUNCATED ON THE PLATE …]`) truncated its marker and stranded a `]` in the
+   Latin — **caught only because a second run placed one note fewer than the first.**
+   Idempotence is the test that found it; run any injector twice.
+3. **A note that will not place is EVIDENCE.** The 2 of 71 that fail are real divergences
+   between the plate and Corpus Corporum: at (5) our TEI reads *immortalium* where the plate
+   reader has *immortalitas* — and Migne's conjecture *in mortalium* only construes against
+   ours. The injector reports and places nothing. ⬜ Both want a look at the page some day;
+   neither blocks anything.
+
+⬜ **Open for Wilson (Pattern 19, no rush):** should the ENGLISH side also show Migne's
+conjecture — an additive marker in the `[cj:]` family but attributed to him — or is a reader
+served by the crux plus the parallel Latin? Captured either way.
+
+### ✅ Queue restocked: 14 Glossa books chunked, all validating (3 → 17 prepared)
+
+PL 114 (NT): 2 John 8984 · 3 John 8989 · Philemon 8994 · Titus 8997 · Jude 8978 · 2 Thess
+8987 · 1 Thess 8982. PL 113 (OT): Tobit 8970 · Judith 8960 · Esther 8948 · Ecclesiastes
+8946 · Nehemiah 8962 · Judges 8959 · Joshua 8958. **40 chunks, ~34K words.**
+⛔ Prepared, NOT cleared to run: **Ruth (8968) is still the conventions pilot** and gates
+every other Glossa book.
+
+⚑ **For the pilot to check:** the NT gloss books carry almost no `<note>` (2 John 0, 3 John
+0, Philemon 1) while the OT books are dense (Joshua 144, Judges 116, Nehemiah 103). If those
+notes are the attribution sigla `[n: (RAB.)]`, the sigla convention Ruth is meant to settle
+may simply not apply to the NT books — a fact about Migne's recension, not our chunking.
+
+### ▶ Next, in order
+
+1. ⛔ **Deploy the 11613 rebuild** (`cd site && npx vercel --prod --archive=tgz --scope
+   wilson-pruitts-projects`), verify by body. It is the first page in the corpus to carry
+   Migne's own conjecture notes.
+2. ⭐ **Plate-note recovery for the restocked queue — and it is SMALL.** All 15 prepared
+   Glossa books together span **124 columns ≈ 62 plate pages** across two volumes (11613
+   alone was ~79). Scans exist: PL 113 `patrologiaecurs04migngoog` + Gallica
+   `bpt6k5505319w`; PL 114 to confirm the same way. Needs one calibration read per volume to
+   fix `PDF page = f(column)` against the running head, then the full-page crops.
+   **⛔ Hard-stop burn statement before launching: ~60 page reads, est. ~0.8–1.2M, and
+   "which model, and go?"** Do it BEFORE Ruth runs, so the pilot meets the apparatus.
+3. **Ruth (8968), the Glossa conventions pilot** — 3 chunks, and it decides lemma rendering,
+   attribution sigla and page layout for 62 works. Wilson gates the conventions.
+4. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons
+   indexing 0 scripture citations · 10083 @0493D / 9604 @1347D · 2 space-for-comma unparsed
+   citations · 11550's master cruces §4 lists two LIVE markers as declined (marker count
+   right, list wrong) · 11542 @1042B may have lost a first term to the doubling (only a
+   non-Migne witness would decide).
+
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18b — PATTERNS 11a AND 18 DONE. ⛔ 6 WORKS BUILT AND UNDEPLOYED.
 
 **Foliot (11613) is LIVE and verified.** Everything below happened after it shipped.
