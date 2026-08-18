@@ -18,6 +18,12 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-18 session: the Glossa's first cadence batch, five short New Testament books —
+  'pl/114/epistola-ad-titum',                                     // Anselm of Laon and his school — the gloss on Titus; presbyters and bishops held apart, and the identification left as Migne's own act
+  'pl/114/epistola-catholica-judae',                              // Anselm of Laon and his school — the gloss on Jude; the fallen angels, Cain and Balaam and Core, and a verse Migne misnumbers
+  'pl/114/epistola-ad-philemonem',                                // Anselm of Laon and his school — the gloss on Philemon; Onesimus asked back as Paul's own viscera, with the debt charged to Paul
+  'pl/114/epistola-iii-b-joannis',                                // Anselm of Laon and his school — the gloss on 3 John; Gaius, Diotrephes who loves the first place, and Demetrius
+  'pl/114/epistola-ii-b-joannis',                                 // Anselm of Laon and his school — the gloss on 2 John; a warning against heretics, down to the refusal of the ordinary greeting
   // — 2026-08-18 session: the Glossa ordinaria opens, one small book first —
   'pl/113/liber-ruth',                                            // Anselm of Laon and his school — the standard medieval gloss on Ruth, read throughout as the calling of the Gentiles; the conventions pilot for the whole Glossa block
   // - 2026-08-18 session: the seventh Song commentary, and the first work carrying Migne's own conjecture notes -
