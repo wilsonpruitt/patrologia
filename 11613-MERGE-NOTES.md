@@ -472,3 +472,52 @@ exists to stop cruces text arriving through search results; a marker count from 
 already-read file leaks nothing.** Recorded because the reader disclosed it, which is the
 behaviour we want — the 11535 reader that disclosed a real contamination is why the rule
 exists at all.
+
+### 0009–0017 and 0018–0026 · 8 more sites, ALL OURS, all applied
+
+**Nine fixes now applied from the blind read, and not one of them was a Migne defect.** Both
+readers rejected the Migne-side candidates correctly (1159D's *bonum*, 1200B's *ab Eva usque
+in Adam*, 1218D's *salvaretur*, 1216A's un-negated *filias praevaricatrices*) — those are
+rendered literally, which is the rule working.
+
+⭐ **THE SERIOUS ONE — 1206D/1207A: a lemma re-quotation silently conformed to DOUAY, against
+the author's own gloss.** *Botrus cypri* was rendered "a cluster of **cypress**" — Douay's
+wording for Cant. 1:13 — twice. But **Foliot glosses the word himself two columns earlier**:
+*Cyprus enim, **insula** vitibus abundans est, botros habens…* — Cyprus is an ISLAND, and his
+whole chain (cluster → the island's vines → wine → the wine of confession pressed from the
+martyrs) collapses if it is a tree. It also collided with 0021's *cupressina*, genuinely
+cypress, so one English word covered two Latin words in adjacent chunks. **This is the exact
+failure 7a″ exists to catch, and `verify-english` passed it.**
+
+**Grammar decided four more, each against a fluent-but-wrong English:**
+- **1176C** — *filiumque suum **per hunc** incarnari constituit* rendered "through **her**".
+  *hunc* is masculine and cannot be the feminine *columbam*; it is *ramum*, **as the next
+  clause proves — *et oleum **de ramo hoc** expressum***. "Through her" is the theologically
+  expected reading, which is exactly why it slipped past. → "through this branch".
+- **1184B** — *si **quae fugit amor**, haec praesentet amplexibus* rendered "she who flees
+  love". ***amor* is nominative** (accusative would be *amorem*), so love is the agent
+  throughout, and *suscipit* is likewise active. Ours made the Bride flee love and then
+  present herself to embraces — **a clause at war with itself**. → "she whom love flees… whom
+  love follows, whom it joyfully receives".
+- **1209D** — *quem sciens Abraham… consecuturum* rendered "Abraham, knowing that **he**
+  would obtain mercy". The *quem* is **Adam**, accusative subject of the indirect statement;
+  English defaulted it to the nearest nominative and inverted the argument — Abraham chooses
+  Adam's grave *because Adam* will obtain mercy. → "knowing that **Adam** would…".
+- **1216D** — the *sapientia* chain is feminine throughout ("she hewed out… she mingled
+  wine…") and one clause flipped to "he". → restored to "her/she".
+
+**Two more, smaller but real:**
+- **1177D** — *adolescentem → juvenem → virum perfectum* came out "young man → **youth** →
+  perfect man", which **inverts the growth series at its middle step**, since English "youth"
+  reads younger than "young man". → "youth → young man → perfect man".
+- **1209A** — `« My [sic: *animi*] hath thirsted »` left the sentence **with no subject noun at
+  all**. 7a⁗ requires the marker to sit BESIDE the rendered word, not replace it. → "My soul
+  [sic: *animi*]".
+- **1192D** — *Ubi pascas* re-quoted as "pasturest" against its lemma's "feedest". Lemma
+  governs; same rule as the 0048/0049 seam. → "feedest".
+
+⚑ **A defect class to add to the blind-read brief permanently: WHERE LATIN LEAVES A SUBJECT OR
+REFERENT UNEXPRESSED, ENGLISH CANNOT — so the translator must choose, and a wrong choice is
+invisible to every automated check.** Four of the nine fixes are this one class (1172B,
+1176C, 1209D, 1216D). It is not a Pattern 8 supply; it is a judgment that usually needs the
+NEIGHBOURING chunk to settle, which is precisely what a chunked fleet cannot see.
