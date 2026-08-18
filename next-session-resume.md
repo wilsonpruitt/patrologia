@@ -1,5 +1,72 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-17c — THE ?/! REPAIR IS DONE. 0 DROPS CORPUS-WIDE. ⛔ NOT DEPLOYED.
+
+**All 29 chunks that deleted a mark Migne prints are repaired — 31 sites in 14 shipped
+works.** `node scripts/sentence-mark-sites.mjs` now prints **0 dropping a printed mark**
+(from 29); total deltas 136 → 109, all of them the softer *supplied*-mark direction, which
+stays measured and unswept. Every touched work re-verified, re-built, re-indexed (the
+standing job), landing rebuilt (105 englished works), `scan-raw-markers` clean on 105 pages,
+polarity gate 105/105. `master` = `a470f65`, tree clean, **3 commits unpushed**, **NOT
+deployed** — both are protected and were not asked for.
+
+Works touched: 7561 8566 9245 11031 11058 11064 11065 11066 (10 chunks) 11080 11081 11083
+11208 11553 21413.
+
+### ⭐⭐ The census had been measured and left; what it needed was ADDRESSES
+
+The 2026-08-14 finding (29 chunks, named by work) sat un-actioned because a warn that says
+"this chunk is wrong" is not a site — 11064/0049's offending paragraph is **113 sentences
+long**. `scripts/sentence-mark-sites.mjs` pairs the *marked* sentences of the two twins in
+order; where the columns stop describing the same clause, the English list runs one ahead of
+the Latin, **and that row is the drop.** All 29 localized; none needed hand alignment.
+⚑ **The generalizable move: when a parity COUNT flags a chunk, pair the two sides' marked
+units in order — the offset names the site for free.**
+
+### ⭐⭐⭐ Pattern 8b (Wilson, 2026-08-17) — the indirect question takes a colon
+
+**Migne routinely closes an indirect question with `?`** (*Quaeritur quid sit gratia Dei?*),
+and English cannot end an indirect construction with a question mark. So the mark got
+dropped, silently — **Pattern 8's "never delete" was broken by the one class of sentence
+where obeying it looks like a typo.** Wilson's ruling: keep the mark by moving the question
+into direct form behind a colon — **"It is asked: what is the grace of God?"** Nothing
+supplied, nothing deleted. Bounded in `translation-style.md`: **the test is whether the
+English refuses the mark because of English grammar, or because we quietly improved his
+sentence.** A `?` Migne prints on a plain statement (11537 1063D–1064A, and 11080/0000's
+*Compassio ex vitio, culpabilis est?*) still rides as printed under Pattern 8.
+
+⚑ **~15 of the 31 sites were this one class, and nearly all of them in 11066** — Hugo's
+*Quaestiones*, where every article opens *Quaeritur*. **A defect that tracks an author's
+formula concentrates in one work and looks like that work being bad.** It was the corpus's
+grammar, not Hugo's.
+
+### The other two classes
+
+- **The merged sentence (~10).** The last question of a chain lost its boundary *and* its
+  mark. 11066/0032 swallowed Migne's break after *ut iret?*; 7561/0001 merged *Quid
+  postremo?* into the question that answers it; **7561/0009 turned a `?` printed INSIDE an
+  italic scripture lemma into a comma.** This is the 11632 vanished-sentence class one degree
+  down — same mechanism, less text lost.
+- **The swap (4).** 11058/0016 and /0017 printed Migne's `?` as `!`; 11066/0031 printed his
+  `!` as `?` — the 11537 case the rule was written for; 11031 and 11208 flattened *fugis!*
+  and *sed, heu!* to commas.
+
+⚠ **The `?`-surplus direction (109 chunks) is NOT closed and is not a defect claim on its
+own** — English legitimately turns some Latin statements into questions. It has never been
+sampled the way the em-dashes were. **Do not sweep it.**
+
+▶▶ **Front when resumed:** the **deploy of this repair** (Wilson's OK; 14 works' pages plus
+the landing changed — `cd site && npx vercel --prod --archive=tgz --scope
+wilson-pruitts-projects`, then the full step-8 checklist, and **verify BY BODY** per the
+2026-08-17b lesson, not by status code), the **Pattern 18 corpus census** (~35 new candidates
+from 11535; four strongest: 1295A *minus*/*imis*, 1246C *amittere*/*admittere*, 1261A
+*praefectis*/*perfectis*, 1360C *ab*/*ad subdiaconatum*), the **`/method` page**'s missing
+"why translate this way" argument + sibling links (`NOTES-method-page.md`), the **audit owed
+from 2026-08-17b** (is any OTHER claim computed in one builder and written in another?), and
+**3 prepared works** (smallest: Gilbert Foliot, 11613, 53 chunks). Still open: the 11632
+plate read on `[sic: *informen t*]`, the 3 Glabas sermons indexing 0 scripture citations,
+10083 @0493D / 9604 @1347D.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-17b — 11535 RICHARD IS LIVE, AND A CORPUS-WIDE FALSE BADGE IS FIXED
 
 **Richard of St Victor (attrib.), *De eruditione hominis interioris* (11535, PL 196,
