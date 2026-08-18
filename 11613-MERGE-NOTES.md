@@ -388,3 +388,45 @@ match the note number too.
 - **Some notes are cross-references, not conjectures** — (17) *Joannis etiam Apocalypsis*.
   Record them the same way; the merge decides.
 - **One note serves two markers**: `(12-13)` is printed once and answers both.
+
+## ⭐ NOTE (64) @ col 1279 — NOT illegible: MIGNE'S OWN NOTE IS TRUNCATED ON THE PLATE
+
+The agent recorded it as `ILLEGIBLE — plate reads F. spr …` and asked for a second copy before
+anything entered the apparatus. **Checked, and the distinction it could not make is the
+interesting one.**
+
+`patrologiaecurs114unkngoog` (copy B) holds the same page at its p. 645. At 450 dpi **both
+copies read exactly `(64) F. spr`** — three letters, **no terminal stop, and clean white space
+after.** Two scans of two physical copies agreeing means this is the **type**, not the ink and
+not a clipped crop.
+
+⚑ **So the note is not unreadable — it is legible and INCOMPLETE. Migne's compositor set a
+truncated word.** That is a different fact and it should be recorded as one: `F. *spr*`, as
+printed. **`ILLEGIBLE` would have claimed a limitation in our reading that does not exist.**
+
+**What the note was going to say is inferable but is OURS, not his.** The anchored text reads
+*et illis peccantibus… id **(64) expreverunt**, et se Deo… devoventes* — *expreverunt* is not
+Latin, ***id spreverunt*** ("they spurned that") construes exactly, and `spr` is its opening.
+⛔ **Do not print *spreverunt* as Migne's conjecture.** He printed `spr`. The expansion belongs
+in the cruces as our reading of his intent, which is precisely the line this apparatus exists
+to hold.
+
+⭐ **Three-way distinction worth carrying into the runbook**, because two of these turned up in
+one work: **(a) we cannot read it → ILLEGIBLE · (b) he printed it defectively → record as
+printed, note the defect · (c) we can read it but it is uncertain → escalate magnification
+and a second copy before accepting.** Note (14) was (c) and failed; note (64) is (b).
+
+## The numbering is PER WORK, and it has two printer's irregularities
+
+**Foliot's *Expositio* carries exactly 72 notes, (1)–(72), beginning on the work's first page
+and ending on its last.** Nothing continues past the ornament on p. 658. ⭐ **So the recovery
+is scoped PER WORK — each work in a tome starts its own count at (1)** — which is what makes
+the upstream version a chunking-time job rather than a volume-wide one.
+
+Two irregularities, recorded rather than smoothed:
+- **(59) is never printed.** After (58) on p. 641 the next is (60) on p. 642; no (59) marker
+  appears in the running text of pp. 640–642, checked full-width. Treat as a printer's skip,
+  **but flag it for a second-copy check** before calling it settled.
+- **(62) is used twice**, the second set as **(62\*)** — starred both in the note and at the
+  marker. **Migne caught his own duplicate and starred it rather than renumbering.** The two
+  anomalies roughly cancel: 72 numbers, one skipped, one reused.
