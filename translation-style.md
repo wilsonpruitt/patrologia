@@ -800,6 +800,36 @@ that is an argument for recording it faithfully, not for feeling free to improve
 it. Where a printed mark makes the English genuinely unreadable, render it as
 printed and log a crux; do not adjudicate in the text.
 
+#### 8b. The indirect question takes a colon, not a lost mark (Wilson, 2026-08-17)
+
+**Migne routinely closes an indirect question with `?`** — *Quaeritur quid sit
+gratia Dei?*, *Quaeritur an homo assumptus sit mendax?*, *Nescitur vero an die, an
+nocte venturus sit?* — and English has no way to end an indirect construction with a
+question mark: "It is asked what the grace of God is?" is not English, it is a typo.
+So the mark got dropped, silently, and Pattern 8's "never delete" was broken by the
+one class of sentence where obeying it looks like a mistake.
+
+**The ruling: keep the mark by moving the question into direct form behind a colon.**
+
+> *Quaeritur quid sit gratia Dei?* → **It is asked: what is the grace of God?**
+
+The colon carries the *quaeritur* frame, the direct question carries the mark, and
+nothing is supplied or deleted — the plate's sentence type survives in a sentence
+that can hold it. This is Pattern 8 obeyed, not softened: the alternative readings
+were the bare mark (literal, and it reads as an error to every reader we have) and
+leaving the period (a deleted mark, which is the defect).
+
+**Bounded to the case.** It applies where the Latin's own mark falls on an indirect
+question and English syntax cannot take it. A direct question keeps its mark with no
+recasting, and a `?` Migne prints on a plain statement (11537 1063D–1064A) still
+rides as printed under Pattern 8 — that one is HIS oddity, and recording it is the
+point. **The test: is the English refusing the mark because of English grammar, or
+because we quietly improved his sentence?** Only the first earns the colon.
+
+**Found by census, not by reading**: 29 chunks corpus-wide delete a printed mark, and
+about half were this one class, concentrated in 11066 (Hugo's *Quaestiones*, where
+every article opens *Quaeritur*). See `scripts/sentence-mark-sites.mjs`.
+
 ### 8a. Verse is lineated ONLY where Migne lineates it (Wilson, 2026-08-17)
 
 **The rule, and it is the whole of it: if Migne printed it as verse lines, we print
