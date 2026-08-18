@@ -245,3 +245,41 @@ decline and log** — which is what happened. A plate read decides it; a vote do
   where the verse has the Holy of holies anointed).
 - **0039 @1267C — lemma prints *comedat fructus* where the Vulgate AND Migne's own gloss eight
   lines below have the singular *fructum*.** Another self-divergence; see the Pattern 14 note.
+
+## ⭐⭐⭐ THE 0018 REPAIR BOUNDED THE PROPOSED RULE — read this before putting anything to Wilson
+
+The agent was sent back to re-decide its rejected marker and **chose to withdraw it entirely**,
+with a distinction that corrects the framing above:
+
+**Two gaps were being conflated, and only one is real.**
+
+1. **The APPARATUS gap is real.** There is no marker for Migne diverging from Migne, and the
+   argument for one is the same argument that founded Pattern 14.
+2. **The MATERIALITY bar is unchanged and disposes of 0018 on its own.** Its site was *Dum*
+   (lemma, 1199D, agreeing with the Vulgate) against *Cum* (gloss, 1200A). With the imperfect
+   subjunctive those are near-synonymous, so the divergence **fails Pattern 14's own bar** —
+   "differs from the received text in a way that changes the sense."
+
+⛔ **The agent's sentence is the finding: "re-opening the content with `Vulg.` would have made
+the marker validate while asserting a materiality it doesn't have… A marker that validates is
+not thereby earned."** The rule change I proposed would NOT have rescued this marker on the
+merits, and I was wrong to present it as a blocked-legitimate-marker case. It is a
+mechanically-blocked marker that was **also** unearned.
+
+⚑ **So the overlap-length diagnosis still stands** (its content was a single word sitting in
+the twin twice — maximal overlap, self-quotation doing no work, exactly parallel to the peer's
+@1270B that passed) **but the case FOR changing the validator must be argued on a site that
+would earn a marker on materiality.** The agent named the right one: **1194B's *pulcherrima* →
+*pulchra*, where the superlative is lost and the gloss is built on the weakened form.** Put
+THAT to Wilson, not the *Dum*/*Cum* site.
+
+⭐ It also tightened 0016's marker unprompted, from `[var: Vulg. and the lemma above
+*pulcherrima*, …]` to `[var: Vulg. *pulcherrima*, "most beautiful"]` — it validated either way,
+but it carried an internal comparison inside its content. **No shipped `[var:]` in 0015–0019
+now leans on an internal comparison.** The four-way re-quotation table (*Cum esset Rex* → *Cum
+esset* → *esset in suo accubitu* → unguilleted *dum rex*) is in cruces-0015.md §B0, and a
+reader meets all four differing in the English itself.
+
+⚑ **The general lesson, and it is worth a line in `translation-style.md` when Wilson rules:
+passing the validator is not evidence a marker is earned.** Every automated check here is a
+floor, not a warrant — the same shape as "a flagged passage is not a checked passage."

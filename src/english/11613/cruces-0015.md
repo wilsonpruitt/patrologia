@@ -15,7 +15,7 @@ re-quotation in the gloss below them.
 | 8 | 1195C | *Equitatui meo in curribus Pharaonis assimilavi te, amica mea.* | agrees | "To my company of horse in the chariots of Pharaoh have I likened thee, my friend." |
 | 9 | 1197D | *Pulchrae sunt genae tuae, sicut turturis: collum tuum sicut monilia.* | agrees | "Beautiful are thy cheeks, as the turtledove's: thy neck as necklaces." |
 | 10 | 1199B | *Murenulas aureas faciemus tibi.* | agrees (Migne prints only the first half of Cant. I, 10) | "We will make thee golden *murenulae*." |
-| 11 | 1199D | *Dum esset Rex in accubitu suo, nardus mea dedit odorem suum.* | agrees (Migne capitalizes *Rex*) | "While the King was in his repose, my spikenard gave forth its odor." |
+| 11 | 1199D | *Dum esset Rex in accubitu suo, nardus mea dedit odorem suum.* | agrees (Migne capitalizes *Rex*) | "While the King was in his repose, my spikenard gave forth its odor." — but see §B0: the gloss re-quotes it four ways |
 | 12 | 1203B | *Fasciculus myrrhae dilectus meus mihi, inter ubera mea commorabitur.* | agrees | "A little bundle of myrrh is my beloved to me, he shall abide between my breasts." |
 | 13 | 1205B | *Botrus cypri Dilectus meus mihi.* | agrees (Migne capitalizes *Dilectus*; splits off *in vineis Engaddi* as a separate lemma at 1206B) | "A cluster of Cyprus is my Beloved to me." |
 
@@ -71,6 +71,80 @@ cordibus* ("in the hearts of the wicked"), 1199A *concupiscentia mala* ("evil
 concupiscence"), 1203C *in mala trahenti … pessima suadenti* ("drawing into evils …
 urging the worst things"), 1205D *modis aliis pessime excogitatis* ("most wickedly
 devised"). Checked one by one from the syntax.
+
+---
+
+## B0. *Dum* → *Cum* at 1199D–1200A — an INTERNAL divergence, and it takes NO marker
+
+**This is the coordinator's case 2, and the site decides it.** Migne's lemma at 1199D
+prints Cant. I, 11 *…**Dum** esset Rex in accubitu suo…*, **which is what the Vulgate
+has.** The gloss then re-quotes it four different ways, and the first three change the
+word:
+
+| col | printed | rendered |
+|---|---|---|
+| 1199D | lemma: ***Dum** esset Rex in accubitu suo* | "**While** the King was in his repose" |
+| 1200A | « ***Cum** esset Rex in accubitu suo.* » | "**When** the King was in his repose" |
+| 1200C | « ***Cum** esset in accubitu suo,* » (*Rex* dropped) | "**When** he was in his repose" |
+| 1200C | « *esset **in suo accubitu**,* » (word order inverted) | "was in his repose" |
+| 1200C | *dum rex in accubitu suo esset* (unguilleted, lower-case *rex*) | "while the king was in his repose" |
+
+Each is rendered as printed and none is harmonized to any other. **What was withdrawn is
+only the `[var:]` marker that stood at 1200A**; a draft of this range had it reading
+`[var: the lemma above and Vulg. *Dum*, "While"]`, and `verify-english.mjs` rejected it
+for opening on an internal comparison instead of a named external witness.
+
+**Withdrawn rather than re-opened with `Vulg.`, for two reasons, and the second is the
+one that matters:**
+
+1. **The comparison is internal.** The Vulgate agrees with one of the two forms — the
+   lemma's *Dum* — so what the marker was actually recording is Migne diverging from
+   himself between 1199D and 1200A, which is precisely what the apparatus has no
+   vocabulary for.
+2. **Re-opening it with `Vulg.` would have made it validate while asserting a
+   materiality it does not have.** *dum* and *cum* with the imperfect subjunctive are
+   near-synonymous here, so the gloss's divergence from the received text fails Pattern
+   14's own bar ("differs from the received text **in a way that changes the sense**").
+   The marker would have passed the validator and told the reader something untrue about
+   the weight of the variation. **A marker that validates is not thereby earned.**
+
+So: rendered as printed at all five sites, logged here, no marker. The four-way
+re-quotation is still the most interesting thing on the column and a reader meets it in
+the English itself, where the four forms differ visibly.
+
+### B0a. Evidence for the proposed rule change (overlap length, not self-quotation)
+
+The coordinator reports this is the session's third sighting, and that the peer on
+0040–0043 found the blocker to be **the length of the overlap with the Latin twin**
+rather than self-quotation as such — its @1270B marker survived because Migne's
+re-quotation stopped short of the full received phrase.
+
+**This case is evidence for that diagnosis, and it also bounds it.** My content
+(`*Dum*`, one word) is a maximal-overlap case: a single word that sits in the Latin twin
+in both the lemma and, as *dum*, at 1200C. Under an overlap-length rule it fails for the
+same mechanical reason the peer's passed — nothing about self-quotation per se. **But
+the rule change would not have rescued this marker on the merits**, because it fails
+Pattern 14's sense-change bar independently of any validator grammar. Two distinct gaps
+are in play and should not be conflated:
+
+- **The apparatus gap** (real, and the proposed rule addresses it): there is no marker
+  for *Migne diverging from Migne*, so an internal divergence has nowhere to live but a
+  cruces file no reader opens. That is the same argument that founded Pattern 14 itself.
+- **The materiality bar** (unchanged, and it disposes of this site): whatever vocabulary
+  exists, a near-synonymous conjunction should not be marked.
+
+If a `[req:]`-style internal-divergence marker is ever added, **1194B's *pulcherrima* →
+*pulchra* (§B item 1) is the site in this range that would earn one**, not this one:
+there the superlative is lost and the gloss is built on the weakened form. It currently
+ships as a `[var:]` because the gloss's *pulchra* also diverges from the Vulgate
+externally and materially, which is a genuinely different fact from this site's.
+
+⚠ **The 1194B marker's content was tightened in the same pass** — it read
+`[var: Vulg. and the lemma above *pulcherrima*, …]` and now reads
+`[var: Vulg. *pulcherrima*, "most beautiful"]`. It validated either way; the change is
+for consistency with the ruling above, so that no shipped `[var:]` in this range carries
+an internal comparison inside its content. The internal observation is preserved in §B
+item 1, which is where it belongs.
 
 ---
 

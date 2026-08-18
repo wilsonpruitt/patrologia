@@ -112,7 +112,15 @@ and every clause of it construes in English with "litter". So the ground that fo
 11550 is simply absent here, and the Song ruling forbids importing 11550's answer anyway: *each
 commentary stands on its own; do not harmonize a lemma across works.*
 
-**Chosen: "litter"** (also Douay's word at Cant. 3:9). ⚑ **This is deliberately different from
+**Chosen: "litter"** (also Douay's word at Cant. 3:9).
+
+✅ **THE 0034/0035 SEAM CLOSES ITSELF.** The agent holding 0035–0039 reported *ferculum* = **"litter"**
+as its one cross-range exposure, having had to name the thing without holding the passage that
+explains it. **It agrees with the choice made here, and the choice here was made from the exposition,
+not from the seam** — the reasoning above was written before that report reached this range and is
+unchanged by it. Nothing to adjudicate: the term and the argument agree.
+
+⚑ **This is deliberately different from
 11550's *ferculum*, and both are correct as they stand** — exactly the *murenulae* / "chains of
 gold" situation the ruling names as needing no action. Do not sweep either.
 
