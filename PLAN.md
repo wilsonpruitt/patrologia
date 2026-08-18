@@ -197,7 +197,18 @@ Pick from the triage queue: **one untranslated PL work + one untranslated PG wor
 - Phase 3: benchmark scored by script against ground truth, not eyeballed; results table committed.
 - Phase 6 pilot: full diff-vs-source verification on the PL pilot (Ambrose `diff-vs-djvu` pattern), duplicate scan clean, citations resolve, deployed page renders.
 
+## Priority block — Glossa ordinaria, Migne recension (PL 113–114) (decided 2026-08-18)
+
+Wilson moved the Glossa up the queue (session 2026-08-18, feasibility investigation in memory `glossa-ordinaria.md`). **62 works, ~783K Latin words**, author "Anselmus Laudunensis et schola"; all verified-untranslated; 66/67 chunk-scan clean (9008 *Threni* is a 42-word stub with a word-drift fail — fix at its turn).
+
+- **Ruth (text 8968, work 3945, 2,455 w, 3 chunks) PREPARED 2026-08-18 — it is the conventions pilot.** Decisions it must settle before any other Glossa book runs: lemma rendering (Migne prints `VERS. n.--` + italic *lemma* + comment — keep Latin lemma with English, or English-only?), attribution sigla (`[n: (RAB.)]` = Rabanus etc. — expand or preserve as printed?), and whether the standard work-page template suffices or glosses need a lemma-aware layout.
+- Then scale **book-by-book, smallest-first**, as ordinary queue cadence — not a bulk block.
+- **Honesty labels, every work page:** this is *Migne's abridged 19th-century recension* — marginal glosses only (no interlinear layer), 58 of ~73 books (no Ezekiel, Daniel, minor prophets, Maccabees), attributions unreliable ("Walafrid Strabo" myth). Say so plainly.
+- **Badge care at ship time:** English of the *Rusch* text (a different recension) exists for some books — Klumpenhouwer/Emmaus: Genesis, Matthew (John, Exodus in progress); TEAMS: Romans, Song; Consolamini: Jonah, 1–3 John, Revelation. Per-work priority adjudication as usual; settle the wording pattern once, at Ruth.
+
 ## Explicitly deferred
+
+- **Glossa ordinaria exhaustive edition (the Rusch / received-text question).** The PL 113–114 recension above is the fast lane, not the last word. A future full edition would translate either (a) the **medieval Glossa** — Rusch 1480/81 editio princeps; the Gloss-e/IRHT transcription (gloss-e.irht.cnrs.fr) is **all rights reserved with "traduction" explicitly requiring written permission** (contact glossae.net@gmail.com; site invites collaborators), else vision-transcribe the PD incunable (gothic, heavily abbreviated); or (b) the **early-modern received text** — Venice 1603 / Douai 1617 / Antwerp 1634 six-volume sets with Lyra, Burgensis, Thoring: clear roman type, spelled-out, archive.org has 1603 vols 1–3+5–6 at 300 dpi (`bibliorumsacroru0Nstrauoft`; vol 4 via Google Books); existing OCR unusable (long-s, scrambled frames) but the plates are vision-pipeline-ready and FAR easier than Rusch. Competition: Klumpenhouwer/Emmaus Academic translates Rusch print-first at $79.95/vol, ~1 book/yr since 2023. Full dossier: memory `glossa-ordinaria.md`.
 
 - Bilingual print promotions (per-work decisions, post-pilot).
 - Lectern/Catena/Dictionary wiring (connective-tissue layer, after corpus exists).

@@ -1,5 +1,20 @@
 # Next session — resume note
 
+## ▶ 2026-08-18 — GLOSSA ORDINARIA MOVED UP THE QUEUE (Wilson's call); RUTH PREPARED
+
+**PL 113–114 Glossa (62 works, ~783K w) is now a named priority block — see the new
+"Priority block — Glossa ordinaria" section in PLAN.md** (and the paired "exhaustive
+edition" bullet under Explicitly deferred: Rusch/Gloss-e rights findings, the 1603/1617/1634
+received-text option, Klumpenhouwer competition — dossier in memory `glossa-ordinaria.md`).
+
+**Prepared: Ruth (8968, work 3945) — 3 chunks, 2,455 w, validation OK (28 col marks, 23
+notes).** It is the CONVENTIONS PILOT: settle lemma rendering (`VERS. n.-- *lemma.*` form),
+attribution sigla (`[n: (RAB.)]`), and work-page layout before any other Glossa book runs.
+Ruth's `translation.workStatus` is null (not yet adjudicated) — do the per-work English
+check at ship time; English of the RUSCH recension exists for other books (never Ruth found).
+
+Foliot ship steps below remain owed and unaffected.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-17e — FOLIOT IS FULLY ENGLISHED AND MERGED. ⛔ NOT READ, NOT BUILT, NOT DEPLOYED.
 
 **Gilbert Foliot, *Expositio in Cantica canticorum* (11613, PL 202, 1147A–1304D): all 53
