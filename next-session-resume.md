@@ -1,5 +1,73 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18b — PATTERNS 11a AND 18 DONE. ⛔ 6 WORKS BUILT AND UNDEPLOYED.
+
+**Foliot (11613) is LIVE and verified.** Everything below happened after it shipped.
+Tree clean · **5 commits unpushed** · polarity ledger **106/106** · markers clean.
+
+### ⛔ FIRST THING NEXT SESSION: six works are rebuilt, committed and NOT DEPLOYED
+
+`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`, then verify BY
+BODY. The six: **9033 · 11064 · 11065 · 11542** (Pattern 11a marker moves) and
+**11535 · 11550** (Pattern 18 promotions). Nothing else is pending on them.
+
+### Pattern 11a — mark the INTRUSIVE copy, not the second (Wilson, 2026-08-18)
+
+Pattern 11 said wrap "the repeated occurrence only" — a rule about POSITION, correct only
+while the two runs are IDENTICAL. Migne also doubles a run WITH VARIATION, and then marking
+the second copy can **quarantine the true text and leave the intrusion standing**. All 14
+`[d:]` markers audited: 7 fine, **2 were already right without the rule** (11062, 11550 —
+the translator could see which copy was the intrusion), **3 mis-marked and fixed** (11065
+@0142B inverted its column's argument exactly as 11613 @1230D had; 11542 @1042B had the
+marker on the climax of *non solum … sed etiam*; 9033 @0602C).
+⛔ **Pattern 11's OWN ILLUSTRATION modelled the marking 11a forbids** (*puro pura* — *pura*
+agrees with *revelatione*, so the intrusion is the FIRST copy); rule text and 11064's chunk
+both corrected.
+⬜ **11542 @1042B is not closed by the marker move** — a first term may have been lost to the
+doubling; only a collation against a non-Migne witness would decide.
+
+### Pattern 18 census — CLOSED, 5 promotions. ⛔ DO NOT RE-OPEN (see `translation-style.md` 18a)
+
+11535 promoted 2 of ~55; 11550 promoted 3 of ~40; both declined all four previously-named
+"strongest" candidates with stated reasons. Every promotion's opening word verified verbatim
+in its Latin twin. **0511A is a consistency promotion paired with the live 0484A — they move
+together or not at all.** 0511D was flagged by its own reader as most open to overrule.
+
+⛔ **A third pass over the other ~100 works returned ~93 promotions at 13% — 2–3× its peers —
+and is SET ASIDE UNVERIFIED.** Its headline claim (~18 "live silent repairs") was checked
+first because that would be a correctness gate, not an audit refinement: **three spot-checks,
+three failures** (11066 @0587A and 11064 @0968B are faithful as written; two cited columns do
+not resolve at all). ⭐ **Volume is not evidence.** Full disposition and the disqualifying
+evidence: `data/plate-notes/PATTERN18-CENSUS-2026-08-18.md`. **Nothing from that pass may be
+applied without site-by-site verification.**
+
+⚠ **Known and deliberately not acted on:** the crux files state Pattern 18's bar as
+"negations and correlatives only", which is the 2026-08-15 *extension*, not the rule (the
+actual test is whether the English asserts something false; the ✅ list includes a verb and a
+word substitution). **1360C and 0502B were declined on that misreading.** Wilson ruled against
+re-adjudicating — *"we were rigorous with this and that is all we can really seek… a billion
+more tokens could move us a few more inches toward faithfulness, but the cost-benefit isn't
+there."* **Recorded, argued, decided. Do not re-raise as an oversight.**
+
+### ▶ Open, in the order Wilson set them
+
+1. **Deploy the six works** (above).
+2. **Restock the queue.** `/queue/` is auto-generated and accurate at **3 prepared works** —
+   Liber Ruth (8968, 3 chunks) · Wolbero (11512, 81) · Thomas Cisterciensis (11703, 259).
+   That is thin runway, and Wilson flagged it. ⚠ **Confirm first whether he means restocking
+   the pipeline (chunking new works) or something about the page** — the page itself is not
+   stale.
+3. ⭐ **Build the `[cn:]` conjecture-note marker into the NEXT work's chunker** — Latin only,
+   shown in the apparatus, never adopted into the text. Design ruled 2026-08-18; deliberately
+   not built, because at chunking time it costs nothing extra. **Do this WITH the restock,
+   not separately** — the notes are recovered at chunking time, so the next work carries them
+   from the start. Method + crop rules in CLAUDE.md.
+4. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons
+   indexing 0 scripture citations · 10083 @0493D / 9604 @1347D · 2 space-for-comma unparsed
+   citations (corpus-wide count: 2 — not worth a shared-parser change) · 11550's master cruces
+   §4 lists two LIVE markers (*discere* 0430B, *voluptatum* 0450D) as declined; the marker
+   count is right, the list is wrong.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18 — FOLIOT IS LIVE, AND MIGNE'S LOST APPARATUS LAYER IS FOUND
 
 **Gilbert Foliot, *Expositio in Cantica canticorum* (11613, PL 202, 1147A–1304D) is LIVE**
