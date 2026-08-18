@@ -1,5 +1,130 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18e — FIVE GLOSSA BOOKS ENGLISHED · CORPUS 112 · ⛔ UNDEPLOYED
+
+**2 John (8984) · 3 John (8989) · Philemon (8994) · Titus (8997) · Jude (8978)** — PL 114,
+3,560 Latin words, five works in one cadence. **107 → 112 englished works.** Commit
+`401da82` on `master`, **UNPUSHED and UNDEPLOYED** (both protected; Wilson's per-action OK).
+
+Everything is staged and internally verified: five work pages + five cruces pages built,
+`scan-raw-markers` clean across all 112 built pages, every page carrying the quiet `/glossa`
+line, `/glossa` now 6 Englished / 19 prepared, queue 26 → 21 works (511K words).
+**`polarity-record --gate` is GREEN at 112/112.**
+
+**Ruth's conventions held without a single amendment.** `GLOSSA-NT-AGENT-BRIEF.md` (repo
+root) now carries them in reusable form for the 56 books still to come — reuse it, don't
+re-derive it.
+
+### ⭐⭐ What the blind reads caught — read this before the next Glossa book
+
+25 sites raised across five fenced readers, **14 confirmed and repaired, 11 declined with
+reasons recorded**. **Zero polarity defects and zero silent repairs in the whole batch** —
+the class that beat Ruth was hunted at every lemma and did not appear. Every confirmed
+defect was invisible to `verify-english` and to every count-based check.
+
+1. **⭐⭐⭐ A punctuation defect that NETS TO ZERO (8989, 0705C + 0706B).** Migne prints
+   three semicolons; our English printed three semicolons — but one had been softened to a
+   comma in one place and a new one supplied in another, and the totals cancel. **Any
+   count-based or parity-based check passes it.** Found only because the reader **located
+   each mark instead of tallying**. ⚑ **Match marks in ORDER and by position, not by total**
+   — the `sentence-mark-sites.mjs` move, applied to the marks nothing scans for.
+2. **⭐⭐ A dropped correlative CONCEALING a broken plate (8997, 0642A).** *ita* went
+   unrendered in *praemittat eos **ita** solite, **ut** …*. Restored, the sentence visibly
+   fails to construe — *solite* is the plate's corruption of ***sollicite***, the Vulgate's
+   own word at the very verse glossed (Tit. 3:13). ⚑ **A defect can hide a second defect by
+   making the page read smoothly. Fidelity to the words is not fidelity if the connective
+   that reveals the trouble is dropped.**
+3. **⭐⭐ The unexpressed subject, still the dominant class — and the author's own repetition
+   is the witness (8978, 0708B).** *Comparat se* prints no subject; English "he" landed on
+   Jude, who then likens himself to the preachers his own *sed haeretici sunt nubes*
+   opposes. Settled inside one paragraph: the parallel gloss five lines down **prints its
+   subject outright** (*Impii et pseudoapostoli comparant se … sed sunt arbores autumnales*).
+4. **Reference mis-bound by word order alone, no word wrong (8994, 0642C).** *cum esset in
+   custodia* stranded after "a fugitive running back", so the page said the **runaway slave**
+   was in prison — against *profugum recurrentem* and against the work's own two earlier
+   statements that Paul was. And **0641D: *ejus*, not *sua***, so the possessor is by
+   definition not the subject of *orat*; "the Apostle" standing next to "his working" made
+   Paul pray for his own reward.
+5. **⛔ A flagged passage is not a checked passage — for the THIRD time (8984, 0706A).** The
+   translating agent saw *qui est Creator omnium*, set out both readings, and **deliberately
+   declined to resolve it** — then supplied the wrong one anyway, binding a nominative
+   subject to a dative and making the man who had just cut himself off from God "become the
+   God of someone." **The two readings were not equally good: one answers the preceding
+   clause, the other contradicts it.**
+
+### ⚑ The fragment convention got tested from BOTH sides — the boundary, now stated
+
+8984's reader flagged expanded fragments (*Non ego* → "Not I only") **as** silent repairs;
+8989's reader flagged an **un**expanded one (*Demetrio testimonium.* → "Testimony to
+Demetrius.") as a defect. **Both were adjudicated against convention 1.2, not re-opened.**
+The working boundary, now in the brief:
+
+- **Expand** a fragment when the English stump is not a usable phrase (a bare *Non te*, a
+  verbless caption) — render the phrase it stands for, **from the Latin verse**.
+- **Leave** it when the stump reads as ordinary abbreviated English and Migne's own *etc.*
+  marks the abbreviation.
+- ⭐ **The defect is never expansion or its absence — it is CONFORMATION**, an English
+  Bible's wording arriving where Migne's Latin differs from it.
+- ⚑ Expect a lemma's expansion to look inconsistent with the same words re-quoted bare in
+  the gloss below (8997, 0640C). That is the convention working, not drift.
+
+### ✅ PL 114 plate: a CHECKED ZERO, and it cost almost nothing
+
+**Leaf n = (column + 9) / 2** on archive.org `patrologiaecurs06saingoog`, calibrated against
+the running head at **n330 = cols 651–652**. Full-width foot bands of all seven pages the
+five books touch (n323–n325, n356–n359), **including three mid-page work divisions** —
+Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359, the case that lost
+three notes on PL 202. **No foot rule, no numbered notes: the columns simply end.**
+
+⛔ **This is the FIRST sampling of PL 114** — the earlier "no apparatus" finding was PL 113
+only and did not transfer. Recorded in `coverage.json` as tier 3 / `full` /
+`notes_recovered: 0` for all five. ⚠ **Two translators had logged the plate as *unchecked*
+in their own cruces**; both corrected — which also settles **Philemon's `[cj:]` at 0642D as
+ours**, not a conjecture Migne had already answered.
+
+### ✅ Rusch honesty check found a real hit
+
+**van der Pas & Litteral, *The Glossa Ordinaria: Epistles of St. John 1–3* (Consolamini,
+2015), is made from Rusch 1480/81.** So 2 John and 3 John's `work-about.json` entries say
+plainly that an English of a **different recension** exists, instead of the generic "none
+found". Jude, Titus, Philemon keep "none found". ⚑ **Run this per book at ship time** — the
+generic line would have been false on two of five.
+
+All five keep `workStatus: null`, so the rule-8 fail-safe gives **"New English translation"**
+and no priority is claimed anywhere.
+
+### ⚑ Checked zeros worth not re-investigating
+
+- **0 scripture citations on all five is CORRECT, not an indexing fault.** Every note in the
+  batch is an author siglum (BEDA ×4, CHRYS ×2, AUG, HIERON) and **not one is a scripture
+  citation**; Ruth's 21 came from its `[n: (Psal. LXVI)]`-type notes. Density is per-book.
+- Jude's "verses out of order" is **not** a reordering: the gloss headed VERS. 21 has the
+  lemma *In exsultatione*, which is **Jude 24**; read so, Migne's 19·20·23·24·25 is
+  continuous. His numbering stands as printed.
+
+### ▶ Next, in order
+
+1. ⛔ **Deploy** — needs Wilson's per-action OK. `cd site && npx vercel --prod` (Labs scope;
+   `vercel teams ls` is the diagnostic if "Not authorized"). Then verify **by body**, not by
+   status code, and **smoke-test the cruces URLs**, not just the work URLs.
+2. **The next Glossa books run in cadence** — 19 prepared and waiting, smallest first
+   (2 Thess 8987 · 1 Thess 8982 · 2 Peter 8985 · 2 Tim 8988 · Tobit 8970 · Colossians 8990 ·
+   Judith 8960 …). Conventions settled; reuse `GLOSSA-NT-AGENT-BRIEF.md`.
+3. **Plate spot check per book at chunking** — 1–2 pages. PL 114's mapping is calibrated
+   above, so this is now cheap for the whole NT block.
+4. ⬜ **Owed, unchanged, Wilson's ruling:** rule 8 says the First-English claim needs a
+   VERIFIED none, and `workStatusVerified` is truthy on **zero** of the PL works claiming
+   First. Enforcing it flips all 85 to "New".
+5. ⬜ **Owed:** audit whether any OTHER claim is computed in one builder and written in
+   another (the failure that put a false priority claim on 10 pages).
+6. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons
+   indexing 0 scripture citations · 10083 @0493D / 9604 @1347D · 11550's master cruces §4
+   lists two LIVE markers as declined · 11542 @1042B may have lost a first term to the
+   doubling.
+
+---
+
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18d — RUTH IS LIVE. GATE GREEN. THE GLOSSA IS OPEN.
 
 **Deployed and verified BY BODY 2026-08-18** (`migne-3vbumc0ee`): work page, **cruces page**,
