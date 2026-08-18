@@ -1,5 +1,97 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-17e — FOLIOT IS FULLY ENGLISHED AND MERGED. ⛔ NOT READ, NOT BUILT, NOT DEPLOYED.
+
+**Gilbert Foliot, *Expositio in Cantica canticorum* (11613, PL 202, 1147A–1304D): all 53
+chunks englished, verified, and the cruces merged.** Eleven Opus agents in three waves.
+`verify OK: 53 chunks`. Apparatus **65 `[var:]` · 19 `[sic:]` · 11 `[cj:]` · 1 `[d:]` ·
+1 `[nt:]`**, `[n:]` at exact parity (413 LA / 412 EN + the one Pattern 15 conversion).
+`master` = clean, **14 commits unpushed**.
+
+⛔ **STILL OWED BEFORE THIS SHIPS, IN ORDER:** the **blind polarity read** (~0.6M, Wilson's
+OK pending — six readers, fenced from the cruces, run 3 at a time), then
+`index-work.mjs 11613` + `build-work-page.mjs 11613`, an "On this text" note in
+`data/work-about.json`, `build-landing.mjs`, and a deploy with its own OK. **Badge will read
+First English translation** (`workStatus: none`, `englishState: untranslated` → set `ours`).
+
+### ⚠⚠ THE MACHINE IS THE BINDING CONSTRAINT, NOT THE RUNBOOK
+
+Six parallel agents is inside the runbook's cap and **outside this Mac's**. Mid-run,
+`~/bin/strays` read **free 18 MB of 8192, swap 8028M of 9216M**, and three of my own greps
+timed out at 120s as a result. Throttled to 3, then 2. ⭐ **CLAUDE.md rule 5 already says
+three on multi-million-token fleets — apply it from the FIRST wave next time, not after the
+swap fills.** A timing-out grep is the symptom to watch; `strays` is the check.
+
+### ⭐⭐⭐ THE 7a″ RESULT, AND IT IS A CLEAN MEASUREMENT
+
+**Every printed lemma line in the work agrees with the Vulgate. All the divergence is in the
+RE-QUOTATIONS** — which is exactly where naming the words told eleven agents to look, and
+they had no way to compare notes. That is the 8930 finding reproduced at whole-work scale.
+
+⭐ **The single highest-value line in the brief was naming the *mala* homograph.** *mala* is
+apples AND evil in this work, and Foliot **contrasts the two deliberately at 1265B**
+(pomegranates = martyrs, apples = confessors). At **1297D apples and evils collide inside one
+eleven-word clause**; at 1298D–1299A he slides across the homograph six times in four lines.
+An apple rendered "evil" is fluent English that passes every automated check we own.
+
+### ⭐⭐ Cross-range drift is REAL and mostly caught by naming it in advance
+
+- **`amica` = friend.** Three ranges, two answers. Settled on **Foliot's own pun** (*ut amica
+  nominum positio*) plus *verbo amicabili* at 1196A — found independently by two ranges that
+  could not see each other. Applied work-wide.
+- ⛔ ***quem diligit anima mea* was printed THIRTEEN times across four chunks and read two
+  ways** (9 "loveth", 4 "loves"). All now **"loves"**: the lemma governs its re-quotations,
+  0014 carries the phrase's first lemma, and the corpus register runs modern in prose
+  (11550+11066: loves 68/loveth 8, says 480/saith 3).
+- The praise-words resolved three ways without anyone yielding a needed word: *decora* =
+  comely · *speciosa* = "my fair one" · *pulchra*/*formosa* = beautiful · *species* = fairness.
+- **`ferculum`**: both readers reached "litter" independently. ⭐ The reasoning is the keeper —
+  11550 keeps it as italic Latin because **Richard etymologizes it** (*ferculum a ferendo*)
+  and Foliot does not, so the ground that forced italic Latin there is absent here. **Never
+  copy another work's rendering; copy its reasoning and re-run it.**
+
+### ⛔⛔ AN EMPTY GREP NEARLY DELETED A REAL FINDING — SECOND TIME THIS CLASS HAS BITTEN
+
+The merge reported the Cant. I, 6 seam as still divergent. I grepped for "pasturest" and "at
+midday", got almost nothing, and **came within one edit of recording that the entry was stale
+and the divergence imaginary.** It was real: **1193C abridges *ubi pascas* away entirely** (so
+"pasturest" could never appear) and the surviving "at midday" **sat deep inside a 400-word
+line that my search window truncated**. ⭐ **The apparatus said the site was there and the
+search said it was not; the apparatus was right** — same shape as the *Martyrs of Palestine*
+error. Recorded in `cruces.md` as well as here, because the mechanism generalizes.
+
+### ⬜⬜ THREE THINGS WAITING ON WILSON (all in `src/english/11613/cruces.md`)
+
+1. **Three apodosis-less sentences — 1159D, 1269D, 1299C.** Found by three readers blind to
+   each other, all rendered ending where Migne ends, all deliberately unmarked (`[ed:]` covers
+   only what OUR digitization lost). Three sightings is a measurement: **this plate drops
+   limbs.** Options: stay silent · log on the cruces page · open a printed-lacuna marker class
+   — ⚠ the last needs a sweep of 105 works, because nothing has ever counted them.
+2. **Pattern 14 cannot express "Migne against himself" — 14 sites, each judged on
+   materiality.** ⭐ **The 0018 repair bounded this and corrected my framing:** its own marker
+   was withdrawn because *Dum*/*Cum* fails Pattern 14's materiality bar anyway, and **"a marker
+   that validates is not thereby earned."** So argue the case on **1176B and 1194B**, never on
+   1199D. The mechanical blocker is **overlap LENGTH**, not self-quotation (proof: 1270B passed
+   because Migne's re-quotation stopped short of the full phrase). Proposed: compare the
+   marker's content against the SENTENCE it sits in, not the whole chunk. ⛔ **Do not change
+   the validator without Wilson** — it is what stops a marker claiming our prose is Migne's.
+3. **Plate-read queue, cheapest-decisive first:** **1303C** (*Centum* vs the lemma's *ducenti*
+   — a number, which NO existing pattern reaches) · **1202D** (*pallium* for *pullum*; the
+   gloss covers only the she-ass so the work gives no witness) · **1254B** (*quanam* with no
+   noun, two good conjectures competing) · **1304D** (the work ends on *conquiescit.* with no
+   colophon — verified absent from `sources/pl/tei/11613.xml`, so nothing was lost between
+   source and chunk, but a 12th-c. Song commentary ending with no formula is unusual).
+
+⭐ Also worth a line in `translation-style.md` when Wilson rules: **passing the validator is
+not evidence a marker is earned.** Every automated check here is a floor, not a warrant —
+the same shape as "a flagged passage is not a checked passage," which has now bitten twice.
+
+▶▶ **Also still open from earlier today:** the **Pattern 18 census**, which Wilson has now
+scheduled **after Foliot** — and the reason is worth keeping: pattern work costs HIS time
+(thirty ratifications), translation runs cost only tokens. Plus 11632's plate read on
+`[sic: *informen t*]`, the 3 Glabas sermons indexing 0 scripture citations, and
+10083 @0493D / 9604 @1347D.
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-17d — THE ?/! REPAIR IS LIVE; THE CLAIM AUDIT FOUND TWO MORE
 
 **Deployed 2026-08-17: `migne-msa0uglci`, production, verified BY BODY** — Pattern 8b's
