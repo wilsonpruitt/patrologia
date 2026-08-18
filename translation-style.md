@@ -1418,6 +1418,36 @@ Renders as `.cjnote`, the same maroquin family as `.varnote` and `.latnote` — 
 scholarly aside about a divergence, never the edition confessing a hole (`[ed:]`) and
 never broken type (`[sic:]`), because **the type here is not broken at all.**
 
+#### 18a. ⛔ THE CENSUS IS CLOSED — do not re-open it (Wilson, 2026-08-18)
+
+A corpus-wide census ran on 2026-08-18 over every declined conjecture candidate in the
+cruces files, re-adjudicating each against the bar. **It promoted a small handful out of
+roughly ninety and the rest stand declined. That result is ACCEPTED and final.**
+
+⚠ **It was found during that census that the crux files — and the census agents reading them
+— state the bar as "negations and correlatives only".** That is the 2026-08-15 *extension*
+rather than the rule: the actual test below is whether the English **asserts something
+false**, and the ✅ list includes a verb substitution and a word substitution. Several sites
+were therefore declined with visible reluctance, **11535 @1360C** (*ab* for *ad
+subdiaconatum*, direction reversed, 17-to-1 corpus control) and **11550 @0502B** (*Sponsus*
+for *Sponsa*, wrong speaker) chief among them.
+
+**Wilson ruled against re-adjudicating them**, and the reasoning is the standing one, not a
+shrug: *"we were rigorous with this and that is all we can really seek. a billion more tokens
+could move us a few more inches toward faithfulness, but the cost-benefit isn't there."*
+
+⭐ **The principle, which reaches past this pattern: rigour is a standard to meet, not a
+limit to approach.** This edition's method is disclosed, its Latin sits beside its English,
+its judgments are logged, and its licence lets a reader publish a correction. **That is what
+makes a remaining imperfection findable, and findable is the goal** — see `/method`'s own
+argument. An audit that buys a few more inches of faithfulness at the cost of the next work
+is a bad trade, because **the next work is what the project exists to produce.**
+
+**So: do not re-run this census, and do not re-raise 1360C or 0502B as oversights.** They are
+recorded, argued, and decided. If the bar itself is ever restated, that is a fresh ruling
+about the FUTURE and it does not oblige a sweep of the past — same shape as the conjecture-note
+ruling in CLAUDE.md.
+
 **When it applies, and when it does not.** The test is whether the English *asserts
 something false*, not whether it is odd:
 
