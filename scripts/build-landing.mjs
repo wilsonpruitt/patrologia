@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // - 2026-08-18 session: the seventh Song commentary, and the first work carrying Migne's own conjecture notes -
+  'pl/202/expositio-in-cantica-canticorum',                       // Gilbert Foliot - the Song verse by verse; 72 of Migne's foot-of-page conjectures recovered from the plate and printed on its cruces page
   // — 2026-08-17 session: Nebuchadnezzar's dreams read as the map of a soul's decline and repair —
   'pl/196/de-eruditione-hominis-interioris',                     // Richard of St Victor (attrib.) — the statue, the tree and the four beasts as stages of ruin; breaks off unfinished
   // — 2026-08-17 session: the sixth Song commentary, and the first work whose lemma words were named per agent —

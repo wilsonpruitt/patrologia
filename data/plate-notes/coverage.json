@@ -1,0 +1,806 @@
+{
+ "generated": "2026-08-18",
+ "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes \u2014 the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
+ "tiers": {
+  "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
+  "3": "Text + our apparatus + MIGNE'S conjecture notes recovered from the plate, sequence verified unbroken."
+ },
+ "coverage_values": {
+  "none": "no plate notes captured",
+  "partial": "some notes captured \u2014 typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
+  "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented"
+ },
+ "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) \u2014 recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this.",
+ "works": [
+  {
+   "idno": "10047",
+   "series": "pl",
+   "volume": 144,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10049",
+   "series": "pl",
+   "volume": 144,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10080",
+   "series": "pl",
+   "volume": 145,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10083",
+   "series": "pl",
+   "volume": 145,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10103",
+   "series": "pl",
+   "volume": 145,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10365",
+   "series": "pl",
+   "volume": 150,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10379",
+   "series": "pl",
+   "volume": 150,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10517",
+   "series": "pl",
+   "volume": 155,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10703",
+   "series": "pl",
+   "volume": 160,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10725",
+   "series": "pl",
+   "volume": 162,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10727",
+   "series": "pl",
+   "volume": 162,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10804",
+   "series": "pl",
+   "volume": 164,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11031",
+   "series": "pl",
+   "volume": 173,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11055",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11056",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11057",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11058",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11059",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11061",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11062",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11063",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11064",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11065",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11066",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11075",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11078",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11079",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11080",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11081",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11083",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11085",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11086",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11088",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11089",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11208",
+   "series": "pl",
+   "volume": 183,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11299",
+   "series": "pl",
+   "volume": 184,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11321",
+   "series": "pl",
+   "volume": 184,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11325",
+   "series": "pl",
+   "volume": 184,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11436",
+   "series": "pl",
+   "volume": 190,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11531",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11532",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11534",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11535",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11536",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11537",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11539",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11542",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11543",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11545",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11546",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11547",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11548",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11549",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11550",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11551",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11553",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11554",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11555",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11556",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11613",
+   "series": "pl",
+   "volume": 202,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 71,
+   "numbering": "(1)-(72), per work",
+   "sequence_note": "71 rows for 72 numbers: (12-13) is one note serving two markers; (59) is never printed by Migne; (62) is used twice, the second set as (62*).",
+   "source": "archive.org patrologiaecurs139unkngoog (copy A), cross-checked against patrologiaecurs114unkngoog (copy B)",
+   "page_map": "PDF page = 600 + (column - 1187) / 2  [copy A]; copy B is one page lower",
+   "data": "data/plate-notes/11613.tsv",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "11632",
+   "series": "pl",
+   "volume": 203,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11638",
+   "series": "pl",
+   "volume": 203,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11648",
+   "series": "pl",
+   "volume": 204,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11713",
+   "series": "pl",
+   "volume": 207,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "21413",
+   "series": "pl",
+   "volume": 100,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "21425",
+   "series": "pl",
+   "volume": 150,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "6912",
+   "series": "pl",
+   "volume": 13,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "6963",
+   "series": "pl",
+   "volume": 15,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7017",
+   "series": "pl",
+   "volume": 17,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7020",
+   "series": "pl",
+   "volume": 18,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7383",
+   "series": "pl",
+   "volume": 40,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7427",
+   "series": "pl",
+   "volume": 42,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7508",
+   "series": "pl",
+   "volume": 47,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7561",
+   "series": "pl",
+   "volume": 50,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7693",
+   "series": "pl",
+   "volume": 59,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7871",
+   "series": "pl",
+   "volume": 67,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7914",
+   "series": "pl",
+   "volume": 70,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8195",
+   "series": "pl",
+   "volume": 83,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8253",
+   "series": "pl",
+   "volume": 87,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8407",
+   "series": "pl",
+   "volume": 90,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8505",
+   "series": "pl",
+   "volume": 94,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8566",
+   "series": "pl",
+   "volume": 96,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8625",
+   "series": "pl",
+   "volume": 98,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8708",
+   "series": "pl",
+   "volume": 101,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8715",
+   "series": "pl",
+   "volume": 101,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8777",
+   "series": "pl",
+   "volume": 104,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8930",
+   "series": "pl",
+   "volume": 112,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8933",
+   "series": "pl",
+   "volume": 112,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9033",
+   "series": "pl",
+   "volume": 115,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9076",
+   "series": "pl",
+   "volume": 117,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9245",
+   "series": "pl",
+   "volume": 125,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9249",
+   "series": "pl",
+   "volume": 125,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9436",
+   "series": "pl",
+   "volume": 134,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9519",
+   "series": "pl",
+   "volume": 137,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9604",
+   "series": "pl",
+   "volume": 138,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9637",
+   "series": "pl",
+   "volume": 138,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9741",
+   "series": "pl",
+   "volume": 139,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9852",
+   "series": "pl",
+   "volume": 141,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  }
+ ]
+}

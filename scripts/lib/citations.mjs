@@ -34,7 +34,7 @@ export const BOOKS = {
   // 'Esai' is Migne's spelling throughout Ambrose on the Song (6963, 18 citations);
   // 'Pov' is broken type for 'Prov' at 6963/1853d — reading the alias does not touch
   // the English, which still prints what the plate prints.
-  'Sap': 'Wis', 'Eccli': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Esai': 'Isa',
+  'Sap': 'Wis', 'Eccli': 'Sir', 'Sirac': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Esai': 'Isa',
   'Pov': 'Prov', 'Jer': 'Jer',
   'Jerem': 'Jer', 'Jere': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   // 'Oseae' is the genitive Migne prints when the citation reads "of Hosea" (11057/340a).

@@ -3110,3 +3110,108 @@ So that a later reader knows these were looked at rather than missed.
   1231C, four in the gloss at 1248B, five negatives in Rom. VIII at 1287A, the three *non*s of
   Psalm 1 at 1302D, and the two apparent polarity defects at 1151A and 1241D, **both of which
   were examined and both of which construe.**
+
+## ⭐ MIGNE'S OWN CONJECTURE NOTES — 72 of them, recovered from the plate 2026-08-18
+
+**Migne prints numbered textual notes at the foot of his pages — editorial conjectures, set as
+`Forte *word*.` — and our source does not contain a single one of them.** Measured across all
+5,276 PL TEI files and 498,774 `<note>` elements: zero. They were read off the plate for this
+work (archive.org `patrologiaecurs139unkngoog`, cross-checked against a second copy,
+`patrologiaecurs114unkngoog`) and are printed here in full.
+
+**Why they belong on this page.** These are the editor's own suggestions about his own text,
+and they are exactly the apparatus that settles a crux. At **1254B** this work prints *quanam
+« Aaron » filiabus Sion consulitur egredi*, which does not construe; our translator weighed
+two conjectures and rightly declined for want of a witness. **Migne's witness was printed at
+the foot of that very page** — *Forte earum* — and *quanam earum* construes. That entry is
+below.
+
+**How to read them.** The column is the column of the MARKER in Migne's running text, which
+is not always the column the note is printed under. The English of this work renders **what
+Migne printed, not what he conjectured** — the conjecture is offered to the reader here, and
+never silently adopted into the text.
+
+⚠ **Two entries are not plain conjectures.** **(14)** is recorded ILLEGIBLE: a reading was
+offered with a real letterform-and-sense case and was overruled at 900 dpi, where the letter
+shows no ascender though the `f.` beside it does. **(64)** is legible but **truncated on
+Migne's own plate** — both copies read `F. spr` with clean white space after, so recording it
+as illegible would claim a limitation in our reading that does not exist.
+
+**The sequence is complete, and its irregularities are Migne's:** (12-13) is one note serving
+two markers · **(59) is never printed** · (62) is used twice, the second set as **(62\*)**,
+which is to say he caught his own duplicate and starred it rather than renumbering.
+
+| note | col. | Migne's note | anchored at |
+|---|---|---|---|
+| (1) | 1147 | Forte *describendum*. | nulli hominum, ante te scribendum (1), inspiciendumve commisi |
+| (2) | 1150 | Forte *discernat*. | sed hæc tanquam vana dijudicet, et quæ sunt altiora his decernat (2) et appetat |
+| (3) | 1154 | Forte, *spe*. | et in ipsa specie (3) quadam et futurorum promissione delectari pariter et quiescere |
+| (4) | 1157 | Forte *duximus*. | magnum diximus (4), et in oculis nostris hoc mirabile reputavimus |
+| (5) | 1161 | Forte *in mortalium*. | sicque viam sibi paraverat, qua immortalitas (5) corda illaberetur |
+| (6) | 1167 | Forte *accendimur*. | dono gratiæ spiritualis extendimur (6). Infirmos vero visitare |
+| (7) | 1167 | Forte *infirmat*. | Quod non solum corporaliter infirmanti (7), sed ægrotanti spiritualiter exhibendum est |
+| (8) | 1167 | Forte *invalescit*. | Languor enim spiritus in multis adeo convalescit (8), ut jam in iis nec confessionis… |
+| (9) | 1170 | Forte *creatori*. | Qui de terra formavit Adam, illa die de pulvere eriget universos; ut creationi (9) jam… |
+| (10) | 1170 | Forte *ibique*. | carnis vigor spiritus omnia possidebit ; ubique (10) secundum carnem jam pater non… |
+| (11) | 1178 | Forte *se*. | veniat, sic (11) ducem praebeat, et cum duxerit |
+| (12-13) | 1179 | *qui alio*. | quo pertrahar ad te, quo alias (12-13) divertere non sinat me |
+| (14) | 1180 | ILLEGIBLE | Optans itaque bonis (14) dona, eosque ad meliora pertrahi desiderans |
+| (15) | 1185 | f. *obvolvit*, ut infra. | Omnes enim nigredo involvit (15), vel qualis ex persecutione corporis est |
+| (16) | 1190 | f. *et*. | benedicens benedicit, modo, scilicet, duplici (16) benedictione |
+| (17) | 1191 | Joannis etiam Apocalypsis. | et Actus eorum, quos scribit Lucas, « Paulus etiam apostolus (17). » |
+| (18) | 1191 | f. *id castitate perimatur*. | quod incontinentia suggerit, « in castitate perimat (18); » |
+| (19) | 1193 | f. *mentis*. | ea quae sunt spiritus, mente (19) oculis anteponit |
+| (20) | 1194 | f. *fertur*. | paululum simul et paulisper iratus effertur (20) juxta quod dictum est |
+| (21) | 1196 | f. *addictas*. | postquam civitates peccato additas (21) sulphure perdens et igni |
+| (22) | 1197 | *Ministeria*. | quibus sua exercet mysteria (22), quibus Sponsam, quam ex hominibus elegit |
+| (23) | 1199 | f *auditoribus convenientia suspiciuntur ministrare*. | unde placent, unde auditorum conviventia suscipiuntur ministrare (23). Ait itaque |
+| (24) | 1201 | f. *sinit*. | suis tuetur precibus, nec ejus sint (24) suggestionibus aut deflecti, aut certe omnino… |
+| (25) | 1203 | f. *ministerio*. | et in carne nostra expleto mysterio (25) ob quod venerat, ascendit in coelos |
+| (26) | 1208 | f. *laedit*. | quae irrationabiliter non irascitur, nec dicto, nec facto quemquam (26) sed… |
+| (27) | 1210 | f. *De*. | non est quo ulterius refici desideremus, (27) hac itaque pulchritudine dictum est |
+| (28) | 1219 | f. *quod*. | nihil nostrae devotionis existat quae (28), nos ad quid aliud quam ad Deum trahat |
+| (29) | 1220 | f. *Huic*. | nec contepescat quousque illud apprehendat. (29) Hic florem violae, candorem lilii,… |
+| (30) | 1223 | f. *jamque*. | cum centenarius est, aut majoris forte numeri, jamjam (30) vergit in senium |
+| (31) | 1223 | f. add. *post*. | foras extrahit, manducat, atque consumit; et (31) coenam hanc haustu fontis aquae… |
+| (32) | 1224 | f. *Designantur*. | (32) Defiguntur hic tempora actionis et contemplationis. Contemplationis quidem tempora… |
+| (33) | 1228 | f. *hos* | quiescit, vel evolutus spiras protrahit; et hæc (33) quidem sic declinat, sicut nulla… |
+| (34) | 1230 | f. *minas et cædes.* | de misericordia nihil speraret, sed totus (34) « minis et cædis » in malum spiraret. |
+| (35) | 1232 | f. *superata.* | quemque ex ea genitum mundi mala percurrere, et crucifixum spreta (35) morte resurgere |
+| (36) | 1232 | f. *constringuntur.* | noctis vero tenebræ profundiores sunt; qua gelu cuncta perstringuntur (36), qua hiemali… |
+| (37) | 1232 | f. *homicidium.* | testatur et Lamech (37) « homicida; » testatur etiam hoc sæculorum impuritas |
+| (38) | 1232 | f. *cohibent.* | diem sibi noctemque fere continuans, quam nec tecta continent (38); qua flumina… |
+| (39) | 1233 | f. *subito*, vel, *cum dicto.* | ut meæ præceptionis imperium tuæ sub dicto (39) sequatur obeditionis obsequium |
+| (40) | 1236 | f. *una.* | jam percepta requiescant. Hæc quidem illic (40) futura est, quæ hic per partes plures… |
+| (41) | 1240 | f. *quod usque.* | sed ego hodie, et in tempore quousque (41) ad mortem meam futurum est |
+| (42) | 1240 | f. *Nolentes* | inferiores partes terræ intrasse videbuntur. Dolentes (42) enim Romanis subjici,… |
+| (43) | 1240 | f. *quid facere debeat.* | quia se non metitur homo « quid debeat, quid faciat (43), » quid fieri juste oporteat |
+| (44) | 1244 | F. *quæ prima et præcipua est.* | Ecclesiam; cujus eam partem « prima et præcipua » (44) reginarum, secundam concubinarum |
+| (45) | 1251 | F. *contemnunt.* | id non verentur agere, et quod verbo « contexunt, » (45) hoc manibus exercere… |
+| (46) | 1254 | F. *earum.* | passibus accedens egressio; quanam « Aaron » (46) filiabus Sion consulitur egredi, ut… |
+| (47) | 1257 | F. *notabile.* | quia quod in patriarchis sanctum est, quod in prophetis nobile, (47) quod in miraculis… |
+| (48) | 1258 | F. *præcedit.* | digne sufficiat? quibus hæc armatura procedit (48), et vera hæc esse quæ prædicantur… |
+| (49) | 1258 | F. *calcabat.* | extremæ scilicet parti, qua terram « videbat » (49) serpens insidians, ne prævaleret in… |
+| (50) | 1258 | F. *numerabimus.* | In semine hoc Seth « numerabilis » (50) et Henoch, Noe quoque mundum ligno salvantem |
+| (51) | 1259 | F. *pulchritudinem.* | et macula non est in te, » cujus plene describit plenitudinem (51), novissime ponens… |
+| (52) | 1261 | F. *unitos.* | nescios, et Dei Spiritu Deo dudum « munitos (52), » quibus « vivere Christus est |
+| (53) | 1262 | F. *æternitatem.* | sed in eo quo videt Deum, quo contemplatur æternitas (53), quo secreta quæ latent hominem |
+| (54) | 1263 | F. *ita.* | qua diversæ naturæ conjunctæ sunt, ut mel in cera, quæ patet, absconditum est, ut (54)… |
+| (55) | 1265 | F. *simul nardo*. | ut se aliis in alta virtutibus extollant; et sin cum nardo (55) quæ humilis est, et… |
+| (56) | 1266 | F. *astiterat*. | et Deo locutus est tempore quo nullus restiterat (56) homo; magno in prophetas |
+| (57) | 1269 | F. *ut*. | Unde et (57) eumdem locum quietis esse, et non operationis laboriosæ demonstret |
+| (58) | 1270 | Forte : *Conficit et pluviæ quemdam sic efficit imbrem.* | Efficit, et pluviæ quamdam sic efficit umbram (58). |
+| (60) | 1272 | F. *discretionis* | Quo in loco virtutem « discerptionis » (60) aperit : per digitos enim, discretio… |
+| (61) | 1273 | F. *quod*. | quia (61) post digiti tactu tangitur, id certa quadam ratione mentis intelligitur |
+| (62) | 1274 | F. add. *credentibus*. | ipsum morti datum, ac in sepulcro repositum, suscitantem, et hanc resurrectionem suis… |
+| (62*) | 1275 | F. add. *una cum*. | Omnes enim electæ animæ hunc quærunt; ejus præsentiæ (62*) suis suscitatæ corporibus… |
+| (63) | 1277 | F. *binario*. | Hæc Dilecti descriptio est, quam sub (63) duodenario comprehendit numero |
+| (64) | 1279 | F. *spr*   [TRUNCATED ON THE PLATE — not illegible; confirmed in both copies] | et illis peccantibus, et pari cum Deo potestate regnare volentibus, id (64)… |
+| (65) | 1280 | f. *martyrum notat passiones*. | Quod vero longo hæc tempore rubicunda efficitur, (65) martyrium notat passionis |
+| (66) | 1281 | F. *adornatur*. | cœlestibus martyriis (66) adornatum. Sequitur |
+| (67) | 1282 | F. *fragrant*. | Christum meruit confiteri. Hic (67) fragrascunt balsama, redolent pigmenta |
+| (68) | 1282 | F. *palma utriusque sexus hominibus indulta, præ cæteris se aliquid promeruisse intelligantur*. | ut martyrii (68) palmam in utriusque sexus hominibus multum præ cæteris se aliquid… |
+| (69) | 1289 | F. *gressus*. | Femina vel femora quibus gradimur, et (69) egressus aptamus, hæc duo sunt |
+| (70) | 1290 | F. *vesper*. | transit et flos juventutis nostræ, transit et (70) vespere senectutis nostræ |
+| (71) | 1300 | F. suppl. *genus* | non timens carcerem, vincula non metuens, omne quod excogitari potest supplicii (71)… |
+| (72) | 1304 | F. *resuscitandum*. | cum ad (72) resurgendum omnes tuba lugubris insonuerit |
+
