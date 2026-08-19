@@ -45,6 +45,15 @@ after the translation is paid for.
 1. **Latin ready?** `src/latin/<idno>/` exists with `manifest.json` (whole queue is
    pre-chunked). If re-chunking for any reason: `node scripts/chunk-work.mjs <idno>` —
    the validator refuses bad output; never translate against a failed chunk run.
+1a. **Plate spot check done?** (Wilson, 2026-08-19 — part of chunking.) `chunk-work.mjs`
+   prints `⬜ PLATE SPOT CHECK OWED` while a work's `coverage.json` entry is `none` or
+   unrecorded. One page of THIS work read at the plate, two where a work division falls
+   mid-page; record coverage `"spot"` for a checked zero, or recover the notes to
+   `data/plate-notes/<idno>.tsv` and **re-chunk** so the injector places them.
+   ⛔ Do not inherit a sibling book's zero — PL 113's rests on 19 pages across four books,
+   PL 114's on 8, and it is the work in hand that ships. The cost of skipping it is
+   measured: 11613 col. 1254B had its crux answered by *Forte earum* at the foot of its own
+   page, and the translator correctly declined it for want of a witness we already had.
 2. **Launch agents** (template below). ≤6 parallel (Acta discipline), ~5 chunks per
    agent. English goes to `src/english/<idno>/NNNN.md`.
 3. **Verify:** `node scripts/verify-english.mjs <idno>` — must pass before anything

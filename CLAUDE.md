@@ -82,6 +82,24 @@ work division they sit MID-page (PL 202 p. 581). A narrow bottom-strip crop sile
 them; it lost 3 of the first 10 and was caught only because **the note numbers run
 sequentially and a gap is a detector.** Always check the sequence.
 
+### ⭐ THE SPOT CHECK IS PART OF CHUNKING (Wilson, 2026-08-19)
+
+**Every newly chunked work gets its own plate sample before it is translated.** One page read
+at the plate; **two where a work division falls mid-page**, because that is exactly where Migne
+sets notes mid-page. A checked zero is recorded in `data/plate-notes/coverage.json` as coverage
+**`"spot"`**; notes found are recovered to `data/plate-notes/<idno>.tsv` and the work is
+**re-chunked**, since `chunk-work.mjs` runs `inject-plate-notes.mjs` last and chunking rewrites
+chunks from TEI (an earlier injection would be erased **silently**).
+
+⛔ **Never inherit a sibling book's zero.** PL 113's "no foot-of-page apparatus" finding rests on
+19 pages across four books and PL 114's on 8 — both are samples, and **it is the work in hand that
+ships.** `chunk-work.mjs` now prints `⬜ PLATE SPOT CHECK OWED` for any work whose coverage is
+`none` or unrecorded, so the debt is visible at the moment it is incurred rather than discovered
+by a translator who declines a crux Migne already answered.
+
+⚑ `"spot"` is deliberately weaker than `"full"`: it licenses **shipping without `[cn:]`
+recovery**, and it does **not** license the claim that the work has no notes.
+
 ⚠ **Never guess a conjecture.** An illegible note is recorded as illegible; a wrong one would
 enter our apparatus wearing Migne's own voice.
 

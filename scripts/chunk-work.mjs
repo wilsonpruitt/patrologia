@@ -79,6 +79,22 @@ if (fs.existsSync(notesTsv)) {
   const r = spawnSync(process.execPath, [path.join(ROOT, 'scripts/inject-plate-notes.mjs'), String(idno)], { stdio: 'inherit' });
   if (r.status !== 0) console.error('⛔ plate-note injection reported a problem — see above; the chunks are written, the notes are not all placed.');
 } else {
-  console.log(`(no data/plate-notes/${idno}.tsv — Migne's foot-of-page conjecture notes are NOT captured for this work)`);
+  // The plate spot check is part of chunking (Wilson, 2026-08-19). A work may not be
+  // translated on the assumption that its volume has no foot-of-page apparatus: that
+  // assumption rests on samples taken in OTHER books, and it is the work in hand that
+  // ships. Read 1 page of this work at the plate (2 where a work division falls
+  // mid-page — notes sit mid-page there), then record the result in
+  // data/plate-notes/coverage.json: coverage "spot" for a checked zero, or recover the
+  // notes to <idno>.tsv and re-run this script, which places them.
+  const cov = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/plate-notes/coverage.json'), 'utf8'));
+  const rec = (cov.works || []).find((w) => String(w.idno) === String(idno));
+  if (!rec || rec.coverage === 'none') {
+    console.log(`⬜ PLATE SPOT CHECK OWED for ${idno} — no data/plate-notes/${idno}.tsv and coverage is`
+      + ` "${rec ? rec.coverage : 'unrecorded'}". Migne's conjecture notes are NOT captured for this work.`);
+    console.log(`   Do not infer a zero from a sibling book: sample the plate for THIS work, then set`
+      + ` coverage "spot" (checked zero) or recover the notes and re-run.`);
+  } else {
+    console.log(`(no data/plate-notes/${idno}.tsv — coverage recorded as "${rec.coverage}")`);
+  }
 }
 for (const w of warnings) console.warn(`⚠ ${w}`);

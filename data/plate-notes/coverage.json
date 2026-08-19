@@ -8,9 +8,10 @@
   "coverage_values": {
     "none": "no plate notes captured",
     "partial": "some notes captured — typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
-    "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented"
+    "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented",
+    "spot": "1-2 pages of THIS work read at the plate and no foot-of-page apparatus found. A sample, not a proof: it licenses shipping the work without [cn:] recovery, and it does NOT license a claim that the work has no notes. Introduced 2026-08-19 when the spot check became part of chunking, because the alternative in practice was inheriting a zero measured in a different book."
   },
-  "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this.",
+  "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this. | 2026-08-19 (Wilson): the plate spot check is PART OF CHUNKING. Every newly chunked work gets 1 page read at the plate (2 where a work division falls mid-page, since notes sit mid-page there) before it is translated. A checked zero is recorded coverage \"spot\"; notes found are recovered to <idno>.tsv and the work re-chunked so inject-plate-notes places them. Never inherit a sibling book's zero: PL 113 rests on 19 pages across 4 books and PL 114 on 8, and it is the work in hand that ships.",
   "works": [
     {
       "idno": "6912",
