@@ -1,0 +1,73 @@
+{
+  "note": "Corpus Corporum's transcription only - Migne's plate is not touched. Verified 2026-08-19 against archive.org patrologiaecurs06saingoog (on disk raw/scans/pl114/), PDF page = (column + 11) / 2, corner numbers checked on every page. Every reading was taken from a full-resolution crop of the whole line at 4-5.5x upscale; nothing was called from a compressed strip.",
+  "class": "DIGITIZATION CORRUPTION IN BULK - eleven sites in one work. Three sub-kinds: (a) line-break damage, where the plate hyphenates and our source mangles the join (ten atio, viucendum, and the iniquitatibus duplication across a COLUMN break); (b) single-letter substitutions of the OCR kind, which a compositor does not make (acciplunt, Creora, apparel, Filil, aetenam, nis); (c) a lost final letter at an unhyphenated line end (Latin for Latini) and a spurious full stop (filioli.,). WHY IT MATTERS: every one of these had been marked [sic:] or [d:] in the English, i.e. the page was about to assert publicly that MIGNE's plate is defective at eleven places where it is not. The [sic:] marker is a claim about the primary witness and it cannot be made from our files alone.",
+  "kept": "0696D 'hae eticorum' is NOT patched: the plate genuinely prints a full word-space where the r belongs, mid-line, with no line break to blame and no broken sort. It is Migne's own defect and its [sic:] stands. That one survivor is why this read was necessary rather than a formality - the OCR-profile hypothesis was right eleven times and wrong once, and only the plate could say which.",
+  "patches": [
+    {
+      "col": "0697B",
+      "find": "acciplunt nobiscum",
+      "replace": "accipiunt nobiscum",
+      "why": "plate prints a-c-c-i-p-i-u-n-t, mid-line, p with full descender then a separate dotted i"
+    },
+    {
+      "col": "0697C",
+      "find": "ten atio probat",
+      "replace": "tentatio probat",
+      "why": "plate breaks it 'ten-|tatio' at a hyphenated line end; our source turned the hyphen into a space"
+    },
+    {
+      "col": "0698A",
+      "find": "filioli., manete",
+      "replace": "filioli, manete",
+      "why": "plate prints a single comma, identical in shape to the comma after 'nunc' on the same line; no full stop"
+    },
+    {
+      "col": "0698A",
+      "find": "Creora iteratione",
+      "replace": "Crebra iteratione",
+      "why": "plate prints C-r-e-b-r-a, the b with unmistakable ascender and bowl"
+    },
+    {
+      "col": "0698D",
+      "find": "Quod Latin\nappellant",
+      "replace": "Quod Latini\nappellant",
+      "why": "plate prints L-a-t-i-n-i with two clearly dotted i's; the word ends the line unhyphenated, which is how the final i was lost"
+    },
+    {
+      "col": "0699A",
+      "find": "et iniquitatibus\n<pb n=\"0699A\"/>\nquitatibus carere",
+      "replace": "et iniquitatibus\n<pb n=\"0699A\"/>\ncarere",
+      "why": "plate prints the word ONCE, hyphenated across the 698D/699A COLUMN break ('...peccatis et ini-' | 'quitatibus carere...'). Our source kept the rejoined whole word AND the tail, duplicating the syllable. No dittography of Migne's."
+    },
+    {
+      "col": "0699C",
+      "find": "non dicit, nis invidiam",
+      "replace": "non dicit, nisi invidiam",
+      "why": "plate prints n-i-s-i with a clean dotted i, mid-line; the parallel clause four lines down prints 'nisi charitatem' correctly and our source has that one right"
+    },
+    {
+      "col": "0702C",
+      "find": "ad viucendum",
+      "replace": "ad vincendum",
+      "why": "plate breaks 'vin-|cendum' at a hyphenated line end; the n has a proper arch and full stems, not a u"
+    },
+    {
+      "col": "0702D",
+      "find": "apparel,",
+      "replace": "apparet,",
+      "why": "plate prints a-p-p-a-r-e-t with a crossbar and short ascender on the final letter; it is the last line of col. 702 and the sentence runs on into 703A"
+    },
+    {
+      "col": "0703A",
+      "find": "testimonio Filil.",
+      "replace": "testimonio Filii.",
+      "why": "plate prints F-i-l-i-i, one full-height l then two dotted i's at x-height, mid-line"
+    },
+    {
+      "col": "0703B",
+      "find": "vitam aetenam daret",
+      "replace": "vitam aeternam daret",
+      "why": "plate prints ae-t-e-r-n-a-m with the r fully formed between e and n; the second aeternam at 0703C is equally clean in our text, which is the internal control"
+    }
+  ]
+}

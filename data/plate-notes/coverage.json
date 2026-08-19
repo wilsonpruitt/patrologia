@@ -271,7 +271,7 @@
       "tier": 2,
       "coverage": "spot",
       "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.266 cols 521/522 division Joshua->Judges (opens at the HEAD of the page); p.268 cols 525/526 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number)."
+      "method": "Plate spot check at chunking (step 1a). Pages: p.266 cols 521/522 division Joshua->Judges (opens at the HEAD of the page); p.268 cols 525/526 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.268 (cols 525/526) re-read at 400 dpi to adjudicate 'dolis' at 0526D. Verdict: the plate prints dolis, mid-line, no hyphenation - MIGNE'S OWN defect, no tei-patch. Foot: still zero."
     },
     {
       "idno": "8960",
@@ -292,7 +292,7 @@
       "tier": 2,
       "coverage": "spot",
       "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.362 cols 713/714 division I Esdrae->Nehemiah (opens at the HEAD); p.365 cols 719/720 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number)."
+      "method": "Plate spot check at chunking (step 1a). Pages: p.362 cols 713/714 division I Esdrae->Nehemiah (opens at the HEAD); p.365 cols 719/720 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.367 (cols 723/724) read at 400 dpi to adjudicate the unconstruable 0724D. THE PLATE CARRIED MORE TEXT THAN OUR SOURCE: a clean eye-skip over one whole typeset line plus the orphan turnover syllable of 'Piscis au-|tem'. Eight words restored via data/tei-patches/8962.json; a second witnessed one-letter fix (coangustatis, ablative) on the same page. Foot: zero, so the restoration rests on the main-text plate alone. NB col. 721 is still UNREAD and carries this work's two remaining [sic:] - the likeliest survivors of the same class."
     },
     {
       "idno": "8964",
@@ -381,7 +381,7 @@
       "tier": 2,
       "coverage": "spot",
       "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.352 cols 693/694 division into 1 John; p.354 cols 697/698 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs06saingoog, PDF page = (column+11)/2, re-verified this session); division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. NB the scan trims the LEFT edge of pp. 352 and 302, so cols 693 and 593 corner numbers are not visible; position confirmed by the right corner and the running head. A scan-crop limit, not a map problem."
+      "method": "Plate spot check at chunking (step 1a). Pages: p.352 cols 693/694 division into 1 John; p.354 cols 697/698 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs06saingoog, PDF page = (column+11)/2, re-verified this session); division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. NB the scan trims the LEFT edge of pp. 352 and 302, so cols 693 and 593 corner numbers are not visible; position confirmed by the right corner and the running head. A scan-crop limit, not a map problem. | EXTENDED 2026-08-19: pp. 353-357 (cols 695-704) read at 400 dpi to adjudicate ten [sic:]/[d:] markers. ELEVEN OF TWELVE SITES PROVED TO BE OURS, not Migne's - see data/tei-patches/8979.json for the three sub-kinds. The single survivor, 'hae eticorum' at 0696D, is genuinely Migne's and keeps its marker. Foot: zero on all five pages."
     },
     {
       "idno": "8980",

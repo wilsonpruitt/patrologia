@@ -1,0 +1,18 @@
+{
+  "note": "Corpus Corporum's transcription only - Migne's plate is not touched. Verified 2026-08-19 against archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, p. 367 = cols 723/724, both corner numbers legible. Read at 400 dpi from full-resolution crops of whole lines.",
+  "class": "DROPPED LINE - a new and more serious class than any word-level corruption in the register. The transcription performed a clean EYE-SKIP over one entire typeset line of col. 0724D, plus the turnover syllable of the word that straddled the next line break. Not a corrupted word: eight words simply absent, with no marker, no gap and no damage on the plate. THE ONLY DETECTOR WAS THAT THE PASSAGE WOULD NOT CONSTRUE - both the translating agent and the blind reader independently flagged 0724D as the work's one unconstruable sentence, and both correctly declined to conjecture. No count, parity, anchor or band check can see a dropped line, because everything that remains is internally consistent.",
+  "patches": [
+    {
+      "col": "0724D",
+      "find": "Piscis bonus, est pia fides, quam qui a Domino\nmalus, infirma cogitatio",
+      "replace": "Piscis bonus, est pia fides, quam qui a Domino\npetit serpentem infidelitatis non accipit. Piscis autem\nmalus, infirma cogitatio",
+      "why": "the plate sets three lines: '...quam qui a Domino' | 'petit serpentem infidelitatis non accipit. Piscis au-' | 'tem malus, infirma cogitatio...'. The transcription kept line 1, lost line 2 entire, and dropped the orphan turnover 'tem', resuming at 'malus'. Restored, the sentence construes on Luke 11:11: he who asks the good fish of the Lord does not receive the serpent of infidelity - which is precisely the antithesis the following 'Piscis autem malus' requires and which our text had lost."
+    },
+    {
+      "col": "0724D",
+      "find": "est, coangustati quaerunt",
+      "replace": "est, coangustatis quaerunt",
+      "why": "the plate prints the ablative 'coangustatis', read on the same crop. A separate one-letter loss six lines below the dropped line; recorded because it was witnessed, not inferred."
+    }
+  ]
+}
