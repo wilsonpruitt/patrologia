@@ -1,5 +1,112 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-19 — FOUR MORE GLOSSA BOOKS · CORPUS 125 · ✅ DEPLOYED + PUSHED
+
+**1 Timothy (8983) · James (8998) · 1 Peter (8980)** — PL 114 — **and Ecclesiastes (8946)** — PL 113.
+15 chunks, 15,041 Latin words. **121 → 125 englished works.** Opus throughout, per Wilson's call at
+the hard stop. `/glossa` now **19 Englished / 6 prepared**.
+
+✅ **DEPLOYED AND PUSHED 2026-08-19** (`migne-jtminnjtk`, Labs scope) — commits `f62abb6` + `cee8af0`
+on `master`, tree clean, in sync with origin. **Verified BY BODY, not by status code:** all four work
+pages AND all four cruces pages fetched from migne.app and **byte-for-byte identical** to the local
+build, as were `/`, `/glossa/`, `/queue/`, `/scripture/` and `/cruces/`. All four badge **"New English
+translation"** live (workStatus null on all four, so the fail-safe held); all four appear in RECENT;
+live `/glossa` reads **19 of 58**. `verify-english` clean ×4 · **`polarity-record --gate` GREEN at
+125/125** · `scan-raw-markers` clean across 125 pages.
+Apparatus: **47 `[var:]` · 9 `[sic:]` · 3 `[cj:]`.** Blind reads: **20 sites, 10 repaired.**
+
+### ⭐⭐⭐ THE BATCH'S FINDING — a class three readers proposed, and it is NOT a defect
+**Three of the four blind readers independently proposed contracting an expanded fragmentary lemma
+back to Migne's printed catchword** (James 0673C, 1 Peter 0687C, and a six-site cluster in
+Ecclesiastes). **All declined.** Convention 3 renders a fragment as *the phrase it stands for* (Ruth's
+*Non te.* → "Let no man see thee"), and the boundary settled last batch stands: **the defect is never
+expansion or its absence, it is CONFORMATION.**
+⚑ **One real inconsistency did exist** — James renders the bare lemma `*Nolite.*` two ways inside one
+work — **and it was resolved by EXPANDING the stump (0675C → "Be ye not many masters", Jac 3:1), not
+by contracting its twin.** The convention decides the direction; the reader's proposal ran the wrong
+way.
+⚑⚑ **And the generalizable half: the readers' "control" was not a control.** They contrasted clipped
+lemmata (*Multas.* → "Many [cares]") with complete one-word lemmata (*Sepultura.* → "Burial.",
+*Bellum.* → "War."). Those are different classes — one has an elided governed word, the other has
+nothing missing — and comparing them **manufactures an inconsistency that is not there.** Put this in
+the next brief: name the control's class before treating it as a control.
+
+### ⭐⭐⭐ 1 Timothy: five repairs, not one of them a missing word
+Its blind read returned **5 sites, all OURS-SIDE, and zero Migne-side polarity defects.** Every one
+was a question about what the English SAYS: *prior* read temporally **in the sentence whose own
+conclusion denies temporal order** (*non ordine temporis, sed magnitudine iniquitatis* — the gloss
+exists to make that distinction and our English reversed it); an ablative read as a nominative
+(*imbuat disciplina* — *imbuere* takes acc. of person + abl. of thing, so discipline became the agent
+of a directive addressed to Timothy); `a Satana` read as separation where it is agency; *quasi Deo*
+detached from its dative *illi* and demoted to a hedge; an ellipsis of *ducit* left dangling.
+**Anchors, notes, parity and bands pass all five.**
+⚑ **One overturned a deliberate, argued call by the translator** (its cruces §11 read 0631C as an
+anacoluthon and kept the dangling nominative). Recorded as a disagreement, not an oversight — sense
+is identical under both readings, so the reading that ASSERTS something won.
+
+### ⭐⭐ Ecclesiastes: measured zeros on BOTH polarity and conformation
+The book flagged before launch as the batch's highest conformation risk — most familiar verses of any
+Glossa book yet done, Jerome's Old-Latin and Hexaplaric readings against the Clementine, the exact
+ground where Ruth had four silent repairs. **Zero polarity defects, zero silent scripture-repairs in
+the running gloss**, with the two sharpest divergences resolved FOR Migne (*ut epulentur **bibentes***
+against the Vulgate's *viventes*; *Impii* against *Viri sanguinum et dolosi*). Its 3 repairs were a
+supplied subject that made Solomon the giver of wisdom instead of God (*dederit*, subject established
+by *a Deo … boni facti* in the previous clause) and two missing `[var:]` — **the identical Matt. 24:13
+divergence carried a marker three columns away and not here.** *Using the apparatus correctly two
+columns away is still not evidence it was used where it was needed* — second confirmation.
+
+### ⚠ The transport error, and what it cost (nothing)
+1 Peter's translator was killed mid-run by **"the response stopped arriving"** with all four chunks
+written and `cruces.md` not yet started. **Recovered by RESUMING the same agent with the gap named
+verbatim** — never a fresh relaunch, which would have re-translated four finished chunks. Its blind
+reader was then told to treat that agent's final passes as **unconfirmed and re-run them**, because a
+resumed agent cannot know which of its own late checks completed before the wire dropped. It re-ran
+all three; all clean.
+
+### ⛔ Two `[cj:]`-shaped calls REFUSED for want of a witness — both are plate requests
+- **8980 @0687C · *Quia requiescent super vos patientes.*** The reader read the plural against the
+  lemma's singular *requiescit* as a plate defect. **It construes with no defect**: *super* takes the
+  accusative, so *vos patientes* is "upon you who suffer", and *requiescent*'s subject is unexpressed
+  and plural — the septiform gifts of Isa. 11:2, which is what the two limbs describe. A `[cj:]` would
+  assert a conjecture with **no witness, and no plate read exists for cols 0679–0688.**
+- **8946 @1116D · *Salomomonis*** — 311 *Salomonis* in `src/latin/` against this one form.
+  **Indistinguishable from a Corpus Corporum doubling without the plate.** If the plate reads
+  *Salomonis*, the `[sic:]` comes out and a `data/tei-patches/8946.json` entry goes in.
+⚑ All four works recorded **tier 2 / coverage "none"** in `data/plate-notes/coverage.json`. PL 113's
+and PL 114's existing checked-zeros rest on samples for OTHER books and were **deliberately not
+imported** onto unread columns.
+
+### ⚑ Smaller things
+- **The missing-period `VERS` defect is a block-level property of the plate, not a one-off**: `VERS
+  19.--` (8998 @0674D), `VERS 14.--` (8980 @0687C), `VERS. 25--` (8980 @0684D). Three sites, two
+  works, reproduced verbatim in all three.
+- **8980 @0680D: the note reads `(Matth. XIII)` and the text is Luke 10:24 verbatim.** The text is not
+  divergent — the *attribution* is. Logged deliberately so a later reader collating against Matthew
+  does not report a phantom.
+- Translators' own band-by-band punctuation checks caught and reverted **38 supplied marks** across
+  the batch (13 + 5 + 13 + 7). That check only works because marks are matched by POSITION, never
+  tallied.
+- ⚠ `sources/vulgate/` is the 2005 "Quasimodo" Clementine with its later correction diffs **not**
+  applied (see its README). 8983's cruces §13 flags one call that rests on a single word of it.
+
+### ▶ Next, in order
+1. ▶ **The Glossa runs on: 6 prepared**, smallest first (1 John 8979 · Judges 8959 · Nehemiah 8962 ·
+   Ephesians 8991 · Joshua 8958 · Galatians 8992). Reuse `GLOSSA-NT-AGENT-BRIEF.md`; **add the
+   name-the-control's-class rule above before the next launch.** Queue is down to 8 prepared works
+   overall — **restocking is due soon**, and the 4 large epistles (Romans, 1–2 Cor, Hebrews) are still
+   held back for cadence size.
+2. ⬜ **Owed, unchanged, Wilson's ruling:** rule 8 says the First-English claim needs a VERIFIED none,
+   and `workStatusVerified` is truthy on **zero** of the 85 PL works claiming First. Enforcing flips
+   85 to "New". (Grandfathered 2026-08-17 — do not retract those verdicts unasked.)
+3. ⬜ **Owed:** audit whether any OTHER claim is computed in one builder and written in another.
+4. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons indexing 0
+   scripture citations · 10083 @0493D / 9604 @1347D · 11550's master cruces §4 lists two LIVE markers
+   as declined · 11542 @1042B may have lost a first term · Tobit 0730C undecided by two readers ·
+   Tobit 0732A *omnes* recorded both ways · 8960 @0734D *tamen*/*autem* open for want of a Vulgate ·
+   8983 @0623D *Tychichum* and 8946 @1120C *Saulis filiae displicens* both want a second look.
+
+---
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18g — FOUR MORE GLOSSA BOOKS · CORPUS 121 · ⛔ UNDEPLOYED
 
 **Colossians (8990) · Philippians (8995)** — PL 114 — **and Judith (8960) · Esther (8948)** — PL 113,
