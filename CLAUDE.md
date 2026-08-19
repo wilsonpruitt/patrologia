@@ -100,6 +100,19 @@ by a translator who declines a crux Migne already answered.
 ⚑ `"spot"` is deliberately weaker than `"full"`: it licenses **shipping without `[cn:]`
 recovery**, and it does **not** license the claim that the work has no notes.
 
+⛔⛔ **CALIBRATE THE PAGE MAP AGAINST THE PRINTED COLUMN NUMBERS, EVERY VOLUME, EVERY TIME —
+an archive.org LEAF NUMBER IS NOT A PDF PAGE NUMBER.** Found 2026-08-19 on PL 114: our stored
+figure was `leaf n = (col + 9) / 2`, taken from archive.org `page/nNNN` URLs, and the downloaded
+PDF's page is **leaf + 1**, so the stored formula reads the wrong plate. Using it against the
+on-disk file would have produced a **false checked zero** — the worst possible outcome, because a
+zero recorded from the wrong page is indistinguishable from a real one.
+**Verified maps for the on-disk PDFs** (both re-checked this session against the numbers printed in
+the top corners): **PL 113 `patrologiaecurs04migngoog`: PDF page = (column + 11) / 2** (p. 287 =
+cols 563/564). **PL 114 `patrologiaecurs06saingoog`: PDF page = (column + 11) / 2** (p. 217 = cols
+423/424) — the same formula, which is a coincidence of the two scans' front matter and not a rule.
+⚑ **The check costs one page render.** Render one page, read the corner numbers, confirm. Never
+carry a map between a leaf-numbered source and a PDF without it.
+
 ⚠ **Never guess a conjecture.** An illegible note is recorded as illegible; a wrong one would
 enter our apparatus wearing Migne's own voice.
 

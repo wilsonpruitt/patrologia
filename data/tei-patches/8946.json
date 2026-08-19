@@ -1,0 +1,12 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated this session against the printed corner numbers (p. 563 = cols 1115/1116). Read at 300 dpi and re-read on a 3x upscaled crop; the orchestrator confirmed the crop by eye before the patch was written.",
+  "class": "digitization CORRUPTION of the line-break rejoin kind. Migne breaks the word across the last two lines of col. 1116 as 'Salomo-' / 'nis'; Corpus Corporum rejoined it and duplicated the syllable before the hyphen, producing 'Salomomonis'. Distinct from the normalization class (8948, 8990), where the digitization silently CORRECTED a defective form Migne printed.",
+  "patches": [
+    {
+      "col": "1116D",
+      "find": "hunc librum Salomomonis",
+      "replace": "hunc librum Salomonis",
+      "why": "the plate prints the ordinary 'Salomonis', hyphenated at the line end. The corpus holds 311 'Salomonis' and no other doubled form, which is what raised it as a candidate; the plate settled it. Without this patch our Latin column prints a word Migne did not print, and the English carried a [sic:] asserting a plate defect that does not exist — that marker is removed in the same commit. ⚑ The TEI keeps a newline immediately AFTER the word, i.e. exactly where Migne's line break falls — the transcription preserved the break and duplicated the syllable in front of it, which corroborates the rejoin diagnosis from the source side as well as the plate."
+    }
+  ]
+}

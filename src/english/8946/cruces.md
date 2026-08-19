@@ -575,3 +575,32 @@ sense support. Genuinely ambiguous; named here as the one place a second reader 
 doubling without the plate**, and if the plate reads *Salomonis* the `[sic:]` comes out and a
 `data/tei-patches/8946.json` entry goes in. PL 113's "no foot-of-page apparatus" finding rests on a
 19-page sample across four other books and was correctly NOT imported onto these columns.
+
+---
+
+## §Plate read, 2026-08-19 — the `[sic:]` is WITHDRAWN
+
+**Col. 1116D, *Salomomonis* — settled at the plate, and it was OURS, not Migne's.**
+p. 563 of `patrologiaecurs04migngoog` (cols 1115/1116) read at 300 dpi and again on a 3× crop:
+Migne prints the ordinary **`Salomonis`**, hyphenated across the last two lines of col. 1116 —
+`(ALBINUS.) Tradunt Hebraei hunc librum Salomo-` / `nis esse agentis poenitentiam`.
+**Corpus Corporum rejoined the broken word and duplicated the syllable in front of the hyphen.**
+⚑ Corroborated from the source side as well: the TEI keeps a newline immediately AFTER the word,
+exactly where Migne's line break falls — the transcription preserved the break and doubled the *mo*.
+
+**Actions taken:** `data/tei-patches/8946.json` restores `Salomonis`; the work was re-chunked; the
+`[sic: *Salomomonis*]` marker has been **removed from the English**, which now reads simply
+"this book is Solomon's". The page has been rebuilt and re-indexed.
+
+⭐ **This is a new sub-class of digitization corruption for the register: the LINE-BREAK REJOIN.**
+It is not the normalization class (8948 *convivum*, 8990 *concilio*), where the digitization silently
+corrected a form Migne printed. Here the digitization manufactured a word that exists nowhere.
+⚑ **The detector that found it was corpus frequency** — 311 `Salomonis` against a single doubled
+form — and the translator was right to raise it **as a candidate and not a finding**, and right that
+only the plate could decide. Had it shipped unexamined, a live page would have asserted a defect in
+Migne's plate that Migne never committed.
+⚑ **And the general rule it confirms:** where our text has a form that is a corpus-wide hapax,
+suspect OUR files first. Same shape as 8970's *Nephtlali* and 11535's *angüstiae*.
+
+**Plate apparatus on that page: checked zero** — no numbered `Forte` notes at the foot or mid-page
+at the Proverbia→Ecclesiastes division. Recorded `coverage: "spot"`.

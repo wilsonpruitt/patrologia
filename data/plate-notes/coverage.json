@@ -202,10 +202,10 @@
       "series": "pl",
       "volume": 113,
       "tier": 2,
-      "coverage": "none",
+      "coverage": "spot",
       "notes_recovered": 0,
       "columns": "1115D-1126D",
-      "method": "NO plate read. PL 113's no-apparatus finding rests on 19 pages across Ruth/Tobit/Judith/Esther and was correctly NOT imported onto these columns. Outstanding request: col. 1116D, to settle whether Salomomonis is Migne's type or a Corpus Corporum doubling."
+      "method": "Plate spot check 2026-08-19, after shipping: p.563 (cols 1115/1116), the Proverbia->Ecclesiastes division, read full width at 300 dpi and mid-page as well as at the foot. Checked zero on conjecture apparatus. The same read SETTLED the work's only [sic:]: the plate prints 'Salomo-'/'nis' across a line break, so 'Salomomonis' is a Corpus Corporum rejoin artifact, not Migne's type -> data/tei-patches/8946.json, marker removed."
     },
     {
       "idno": "8948",
@@ -220,6 +220,51 @@
       "verified": "2026-08-18"
     },
     {
+      "idno": "8951",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.356 cols 701/702 interior; p.351 cols 691/692 division Paralip. II→I Esdrae. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
+      "idno": "8952",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.280 col 549/550 interior; p.287 cols 563/564 division I→II Regum (read by the orchestrator at calibration). Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
+      "idno": "8953",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.291 cols 571/572 interior; p.296 cols 581/582 division II→III Regum. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
+      "idno": "8954",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.303 cols 595/596 interior; p.296 + p.311 divisions either side. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
+      "idno": "8955",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.315 cols 619/620 interior; p.311 cols 611/612 division III→IV Regum; p.320 division IV Regum→Paralip. I. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
       "idno": "8960",
       "series": "pl",
       "volume": 113,
@@ -230,6 +275,33 @@
       "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 372 = cols 733/734, 'GLOSSA ORDINARIA. - LIB. JUDITH.'). Pages 371-379 read across the two works of this batch. BOTH work divisions fall MID-page and were read there - Tobit/Judith at p. 371 and Judith/Esther at p. 375 - which is the case that lost three notes on PL 202.",
       "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. FOURTH sampling of PL 113, so the volume's 'no conjecture apparatus' finding now rests on nineteen pages across four books. NOT apparatus and not to be re-raised: p. 378's foot carries the printer's signature line 'PATROL. CXIII.' and the gathering number '24' - bookbinding, not editorial matter.",
       "verified": "2026-08-18"
+    },
+    {
+      "idno": "8964",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.328 cols 645/646 interior; p.320 cols 629/630 division in; p.337 cols 663/664 division out. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
+      "idno": "8965",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.344 cols 677/678 interior; p.337 division in; p.351 cols 691/692 division out. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
+      "idno": "8966",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.554 cols 1097/1098 interior; p.563 cols 1115/1116 division Proverbia→Ecclesiastes. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
     },
     {
       "idno": "8968",
@@ -243,6 +315,15 @@
       "verified": "2026-08-18"
     },
     {
+      "idno": "8969",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.593 cols 1175/1176 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+    },
+    {
       "idno": "8970",
       "series": "pl",
       "volume": 113,
@@ -253,6 +334,15 @@
       "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 368 = cols 725/726, 'GLOSSA ORDINARIA. - LIB. TOBIAE.'). Pages 368, 369, 370, 371. BOTH work divisions in this run fall MID-page and were read there - Nehemiah/Tobit at p. 368 and Tobit/Judith at p. 371 - which is the case that lost three notes on PL 202.",
       "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. SECOND sampling of PL 113 after Ruth's five pages, so the volume's 'no conjecture apparatus' finding now rests on nine pages across two books. Note for later readers: this scan clips line-initial characters down the lower left column of p. 368, which is what forced the 900 dpi read that established Nephthali (see data/tei-patches/8970.json).",
       "verified": "2026-08-18"
+    },
+    {
+      "idno": "8976",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.218 cols 425/426 division John→Acts; p.229 cols 447/448 interior; p.240 cols 469/470 division Acts→Romans. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
     },
     {
       "idno": "8978",
@@ -415,6 +505,15 @@
       "notes_recovered": 0,
       "columns": "0671A-0680B",
       "method": "NO plate read for cols 0671-0680. Recorded unchecked, not zero, at the translator's own request."
+    },
+    {
+      "idno": "9005",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.037 cols 63/64 — the whole work; six division rules on that one page, all checked. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
     },
     {
       "idno": "9033",
