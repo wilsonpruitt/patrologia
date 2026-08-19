@@ -1,0 +1,12 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs06saingoog, leaf n = (column + 9) / 2, so cols 0611/0612 = leaf n310. Read at full resolution during the 2026-08-18 Glossa batch.",
+  "class": "digitization ALTERATION of Migne's spelling — our source changed a word rather than losing or corrupting it, leaving a well-formed word that reads perfectly and cannot be detected from the Latin alone. Second recorded instance in the corpus; the first, found the same session, is data/tei-patches/8948.json (a normalization).",
+  "patches": [
+    {
+      "col": "0611A",
+      "find": "<hi>Alienati et inimici</hi> consilio ejus",
+      "replace": "<hi>Alienati et inimici</hi> concilio ejus",
+      "why": "the plate prints 'concilio' — c-o-n-c-i-l-i-o, unambiguous at full resolution on leaf n310. Corpus Corporum altered it to 'consilio', which is a different word: concilium is an assembly or council, consilium a purpose or counsel. Restoring Migne's reading; the translator judged the printed word SOUND rather than defective (concilium/consilium is an attested medieval orthographic interchange, Pattern 9), so no [sic:] is stacked on it — the English renders concilium's own sense."
+    }
+  ]
+}

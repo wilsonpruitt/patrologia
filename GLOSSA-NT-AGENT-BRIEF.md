@@ -209,6 +209,63 @@ word in your English and check the negative is ON it.** Not "are all the negativ
 ⚑ Both defects were in the **gloss prose, not the lemmata** — all 57 named lemmata in that work were
 right. Your lemma list does its job; it does not cover the sentences between the lemmata.
 
+### 2a. ⚠ TEST 2 HAS A KNOWN HOLE — it assumes YOUR naming of the host is right
+
+Added 2026-08-18g, found by the Colossians translator on its own work. Test 2 catches a negative
+that has **moved**. It does **not** catch a negative that never moved but was **attached to the wrong
+host in the first place** — because the procedure takes your own identification of the host as its
+input. A wrong identification produces a clean pass, with high confidence.
+
+⛔ Measured: 8990 @0614B *ne **solus** nomen deitatis habeat* was rendered "that he alone may not have
+the name of deity". It **passed test 2** — the negative was present, on a plausible host, band counts
+matched. But the negative belongs on `solus`, not on `habeat`: idolatry's aim is not that God should
+fail to have the name of deity, but that he should not have it **alone**. The `sicut … ita` parallel
+pivots on *solus*, **affirmed** of the covetous man (`ut solus usurpet`) and **denied** of God.
+
+⚑ **Trigger condition — fire on exactly this population:** a negative resting on a **verb** with a
+**quantifier, correlative or predicate** nearby (*solus*, *omnis*, *omnino*, *solum*, *tantum*, a
+`non solum … sed`, a `sicut … ita` pivot). Both sites that beat the test in that book had a
+grammatically plausible verb adjacent to the real host, which is what made the misattachment invisible.
+
+⚑ **Then prove the host from the sentence's own STRUCTURE — the correlative, the pivot, the `sed`
+clause — never from what reads well.** Reading well is what the wrong host gives you.
+
+⭐ Worked examples of the same class across the series, all repaired: 8948 @0742A *Non solum **regem**
+laesit regina* floated onto the verb; 8990 @0611D *quia non **omnibus** patent* floated onto the verb;
+8960 @0734B *veritatem **omnino non** celant*, where English word order reversed the scope. And handled
+CORRECTLY, as the model: 8960 @0740B *non affliguntur **ex desperatione**, sed…*, where the *non*
+stands before the verb but the `sed` correlative shows it governs the phrase.
+
+### 2b. ⚠ AN ANCHOR CAN BE PRESENT, VERBATIM, IN ORDER — AND IN THE WRONG PLACE
+
+`verify-english.mjs` checks column anchors for presence and order. **It does not check position**, so a
+displaced anchor passes silently. Measured on 8995 @0601D: the anchor belonged at *Id est intimo
+[0601D] amore Christi* and had migrated to the **second** occurrence of *amore Christi*, three
+sentences and ~55 English words downstream — pointing a reader at the wrong fifth of the column.
+
+⚑ Column anchors are the citation-resolving unit of this whole edition (CLAUDE.md hard rule 1), so this
+matters more than its size suggests. **Check each anchor against the WORD it stands beside in the
+Latin, not merely that it is present.** Splitting one mid-construction to match Migne is correct and
+expected — 8995 did that deliberately at 0605B (`non [0605B] recedentes` → "not [0605B] departing").
+
+### 4. ⭐ THE DIGITIZATION ALTERS MIGNE'S SPELLING — IN BOTH DIRECTIONS
+
+Corpus Corporum does not only lose or corrupt text; **it also silently "corrects" it.** Three instances
+now, all found by plate reads and none detectable from the Latin alone:
+
+- **8970 @0725C** `Nephthali` → `Nephtlali` — a **corruption** (h/l metathesis).
+- **8948 @0739D** `convivum` → `convivium` — a **normalization**: Migne printed a defective form and the
+  digitization tidied it. Without the patch our Latin column prints a word Migne did not print.
+- **8990 @0611A** `concilio` → `consilio` — an **alteration** to a different word (assembly → counsel).
+
+⚑ **The consequence for you: a word that reads perfectly well may read well because someone upstream
+fixed it.** You cannot detect that from the Latin. **Where a form strikes you as suspiciously tidy in a
+passage that is otherwise rough, say so in the cruces and ask for a plate read** — that is cheap, and it
+is how all three surfaced. A corpus-frequency check is the right way to raise it (8995 did this on
+*circumcicis*: 172 `circumcis-` forms, no other `circumcic-`). ⭐ **Record the negatives too** — that
+one came back clean, the twin agreeing with the plate, and a checked negative is worth having precisely
+because the other three came back positive.
+
 ### 3. PUNCTUATION: compare BY COLUMN BAND, never by total
 
 ⛔ Twice now the totals have cancelled exactly. 8989: three semicolons against three, one softened in

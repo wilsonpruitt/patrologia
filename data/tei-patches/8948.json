@@ -1,0 +1,12 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated against the running head (p. 375 = cols 739/740). Read at 900 dpi during the 2026-08-18 Glossa batch.",
+  "class": "digitization NORMALIZATION — the opposite direction from a digitization corruption. Corpus Corporum silently CORRECTED a defective form Migne printed, so without this patch our Latin column would print a word Migne did not print. First recorded instance of this class in the corpus; the second, found the same session, is data/tei-patches/8990.json.",
+  "patches": [
+    {
+      "col": "0739D",
+      "find": "« Grande convivium cunctis principibus. »",
+      "replace": "« Grande convivum cunctis principibus. »",
+      "why": "the plate prints 'Grande convivum' — no second i — read at 900 dpi on p. 375. Corpus Corporum normalized it to the standard 'convivium'. The defect is local to this lemma: Migne prints 'convivii' correctly at VERS. 5 two lines further on. Restoring his reading lets the English mark it [sic: *convivum*] as Pattern 12 requires."
+    }
+  ]
+}
