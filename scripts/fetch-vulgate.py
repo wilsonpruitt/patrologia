@@ -16,6 +16,9 @@ scratch. See sources/vulgate/README.md for provenance, rights, and — important
 ⚠ This is the CLEMENTINE. Never substitute the Stuttgart/Weber-Gryson critical
 edition: it is in copyright and cannot be committed or quoted here.
 
+This rebuilds the TEXT only. sources/vulgate/README.md is hand-maintained and is
+not regenerated here — do not delete it expecting this script to restore it.
+
 Usage:  python3.11 scripts/fetch-vulgate.py [--keep-zip]
 """
 import io, os, re, sys, zipfile, urllib.request
