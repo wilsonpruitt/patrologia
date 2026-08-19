@@ -36,7 +36,7 @@ export const BOOKS = {
   // the English, which still prints what the plate prints.
   'Sap': 'Wis', 'Eccli': 'Sir', 'Sirac': 'Sir', 'Isa': 'Isa', 'Is': 'Isa', 'Isai': 'Isa', 'Esai': 'Isa',
   'Pov': 'Prov', 'Jer': 'Jer',
-  'Jerem': 'Jer', 'Jere': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
+  'Jerem': 'Jer', 'Jere': 'Jer', 'Hier': 'Jer', 'Hierem': 'Jer', 'Thren': 'Lam', 'Bar': 'Bar', 'Ezech': 'Ezek', 'Dan': 'Dan',
   // 'Oseae' is the genitive Migne prints when the citation reads "of Hosea" (11057/340a).
   'Os': 'Hos', 'Ose': 'Hos', 'Osee': 'Hos', 'Oseae': 'Hos', 'Joel': 'Joel', 'Amos': 'Amos', 'Abd': 'Obad', 'Jon': 'Jonah',
   // 'Michae'/'Nahum' are the fuller forms Migne prints at 11632/0307c and /0333a.

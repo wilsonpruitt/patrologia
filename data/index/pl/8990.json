@@ -1,0 +1,73 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3967,
+  "textIdno": 8990,
+  "title": "Epistola ad Colossenses",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "609a",
+  "colLast": "616b",
+  "counts": {
+    "scripture": 2,
+    "fontes": 0,
+    "heads": 5,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "612b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.12",
+      "refDisplay": "Luc. XII",
+      "column": "614b",
+      "chunk": 2
+    }
+  ],
+  "fontes": [],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "609a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "609a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "611c",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "614a",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "616a",
+      "chunk": 2,
+      "en": "CHAPTER IV."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

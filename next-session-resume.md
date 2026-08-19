@@ -1,5 +1,114 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-18g — FOUR MORE GLOSSA BOOKS · CORPUS 121 · ⛔ UNDEPLOYED
+
+**Colossians (8990) · Philippians (8995)** — PL 114 — **and Judith (8960) · Esther (8948)** — PL 113,
+the first guillemet books to inherit Tobit's conventions. 12,079 Latin words, 14 chunks.
+**117 → 121 englished works.** Opus throughout, per Wilson's call at the hard stop.
+`/glossa` now **15 Englished / 10 prepared**.
+
+⛔ **NOT DEPLOYED AND NOT PUSHED.** Everything else done: `verify-english` clean ×4 ·
+**`polarity-record --gate` GREEN at 121/121** · `scan-raw-markers` clean across 121 pages ·
+all four cruces URLs resolve · all four badge **"New English translation"** · RECENT + every
+generated page rebuilt. Blind reads found **22 sites, 20 repaired**.
+
+### ⭐⭐⭐ THE BIG FINDING — the digitization ALTERS Migne's spelling, in both directions
+Corpus Corporum does not only lose or corrupt; **it also silently "corrects".** Three instances, all
+found by plate reads, **none detectable from the Latin alone**:
+- **8970 @0725C** `Nephthali` → `Nephtlali` — corruption (h/l metathesis). [prior batch]
+- **8948 @0739D** `convivum` → `convivium` — **normalization**: Migne printed a defective form and the
+  digitization tidied it, so our Latin column would have printed a word he did not print.
+- **8990 @0611A** `concilio` → `consilio` — **substitution of a different word** (assembly → counsel).
+All three patched (`data/tei-patches/`), each diff exactly one word, boundaries and word counts unmoved.
+⭐ **A fourth candidate came back CLEAN and that is worth as much**: 8995 `circumcicis` — the twin agrees
+with the plate, so it is Migne's own type and the `[sic:]` stands. Record negatives.
+⚑ **Consequence: a word that reads perfectly may read well because someone upstream fixed it.**
+The corpus-frequency move is how to raise it (172 `circumcis-`, no other `circumcic-`).
+
+### ⭐⭐⭐ THE FOURTH TEST — the other three are CONTAINMENT checks
+From the Judith translator, and it is the most useful sentence of two batches:
+**"Parity, counts, attachment and bands all ask what the English CONTAINS. Every defect that beat them
+was a question about what the English SAYS."** Three of Judith's five repairs were invisible to every
+check we run and failed the same way — a mis-parse giving plausible English (*ferias*, a subjunctive
+demoted to the noun "holidays"), a right conjecture aimed at the wrong lemma, a right negation in an
+inverted scope. Nothing was missing in any of them.
+▶ **Now in the brief**: run last, counts already clean, read each paragraph back asking only *does it
+assert what he asserts*. No mechanical form — that is the point.
+
+### ⚠ TEST 2 HAS A HOLE, found by TWO books from opposite directions in one batch
+**Test 2 validates the mapping you PROPOSE, not the mapping the Latin makes.** Colossians hit it as a
+wrong *identification* of the host passing cleanly (8990 @0614B, *ne **solus** … habeat*, negative on
+the verb where it belongs on the quantifier — **it PASSED test 2**). Esther hit it as a negative
+correctly attached and still landing wrong in English word order — **and its own pass had caught the
+identical class two columns away.** Trigger condition now in the brief: *a negative resting on a verb
+with a quantifier, correlative or predicate nearby; prove the host from the sentence's STRUCTURE.*
+
+### ⚠ Two more holes in checks we trust
+- **AN ANCHOR CAN BE PRESENT, VERBATIM, IN ORDER — AND IN THE WRONG PLACE.** 8995 @0601D sat ~55 words
+  downstream of its word. **Measured**: the intervening words carry no colon/semicolon/question mark,
+  so the band test returned **0 mismatches before AND after** the repair. `verify-english` checks anchor
+  presence and order, never position. Anchors are this edition's citation-resolving unit.
+- **NOTHING COMPARES THE CRUCES TO THE ENGLISH.** 8948's cruces asserted a `si` had been rendered when
+  it had not, and survived its own test-3 pass, its negation audit and the verifier — because none of
+  them read the cruces. **A note that a call was MADE is not evidence it reached the sentence.**
+  ⬜ Cheap tooling proposal from that translator, not built: *for every cruces line claiming a specific
+  word was rendered, check that word's English exponent is in the chunk.*
+
+### ⚑ Measured zeros worth not re-investigating
+- **Esther: scripture-conformation hunt EMPTY** across ~15 divergences (Hab 3:8 on *equitatus*/*sanitas*
+  not Douay's chariots; 1 Thess 4 on *resurgemus*/*residui sumus*). Ruth's four conformations on the
+  same ground in the same volume are the contrast that gives the zero value.
+- **Philippians: Carmen Christi zero UPHELD** by independent collation of all twelve lemmata — Migne
+  genuinely agrees with the Clementine there, so there was nothing to conform.
+- ⚑ **In both 8948 and 8987, ALL defects were in gloss PROSE, none in a lemma.** The lemma list does its
+  job; it does not cover the sentences between lemmata.
+
+### ✅ Plate: PL 114 third sampling, PL 113 fourth — all CHECKED ZEROS
+PL 114 leaves n305–n311 (+n312 prior); PL 113 pp. 371–379. Three mid-page work divisions read at the
+division (Philippians/Colossians n309, Tobit/Judith p371, Judith/Esther p375). PL 113 now rests on
+**19 pages across 4 books**. ⚑ p378's foot carries printer signature `PATROL. CXIII.` + gathering `24` —
+bookbinding, not apparatus.
+
+### ⛔ MY OWN ERROR RATE ON PLATE CORROBORATIONS — practice STOPPED
+Three of my incidental corroborations were wrong this session (`receperunt eum` misread from a
+compressed strip; a line attributed to Esther that belongs to **Liber Job, which begins at 0747D**;
+plus `debentur`/`jubentur` last batch) against one useful catch. **Each time the translator flagged the
+discrepancy instead of deferring — that is the discipline working, and they must keep being told to.**
+⭐ **RULE: the head+foot strip technique is for FINDING apparatus, never for TRANSCRIBING words.** Any
+word quoted to an agent must come from a full-resolution crop of that line seen whole. I have stopped
+issuing incidental corroborations: agents collate their own twin and do not need them.
+
+### ⬜ PROJECT GAP — no Vulgate on disk
+**Four calls declined or hedged for want of one, across two books, this batch alone**; two were later
+settled only from an agent's memory, which is not a witness. Every lemma collation in the corpus rests
+on that footing. ⚑ Judgment: a public `[var:]` asserting what the Vulgate reads should NOT be written
+from recollection — 8960's was recorded as cruces prose instead, marked unverified. **Putting a
+Clementine text on disk would close a recurring gap cheaply.** Wilson's call whether it is worth doing.
+
+### ⚑ Small things done
+- `scripts/lib/citations.mjs`: added `Hier`/`Hierem` → `Jer`. Checked corpus-wide — **only 8960 is
+  affected** (5 unparsed entries exist elsewhere, none matching), so no re-index sweep was owed.
+- 8948 §1(c) now carries a convention the OT books inherit: **bracketed supplies belong in gloss prose;
+  inside a guilleted lemma a bracket reads as an interpolation into Migne's quoted scripture.**
+
+### ▶ Next, in order
+1. ⛔ **Deploy + push — Wilson's OK, both.** Command: `cd site && npx vercel --prod --archive=tgz
+   --scope wilson-pruitts-projects`; `vercel teams ls` is the diagnostic if "Not authorized".
+2. ▶ **The Glossa runs on: 10 prepared**, smallest first (1 Timothy 8983 · 1 Peter 8980 ·
+   Ecclesiastes 8946 · 1 John 8979 · Judges 8959 · Nehemiah 8962 · Ephesians 8991 · Joshua 8958 ·
+   Galatians 8992 · James 8998). Reuse `GLOSSA-NT-AGENT-BRIEF.md` — now 330 lines and carrying all
+   four tests. **Judith's and Esther's cruces are the guillemet inheritance for the OT books.**
+3. ⬜ **Owed, unchanged, Wilson's ruling:** rule 8 says the First-English claim needs a VERIFIED none,
+   and `workStatusVerified` is truthy on **zero** of the PL works claiming First. Enforcing flips 85 to "New".
+4. ⬜ **Owed:** audit whether any OTHER claim is computed in one builder and written in another.
+5. Smaller, still open: 11632's plate read on `[sic: *informen t*]` · 3 Glabas sermons indexing 0
+   scripture citations · 10083 @0493D / 9604 @1347D · 11550's master cruces §4 lists two LIVE markers
+   as declined · 11542 @1042B may have lost a first term · Tobit 0730C undecided by two readers ·
+   Tobit 0732A *omnes* recorded both ways · 8960 @0734D *tamen*/*autem* open for want of a Vulgate.
+
+---
+
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-18f — FIVE MORE GLOSSA BOOKS · CORPUS 117 · ⛔ UNDEPLOYED
 
 **1 Thess (8982) · 2 Thess (8987) · 2 Tim (8988) · 2 Pet (8985)** — PL 114 — **and Tobit (8970)** — PL 113,

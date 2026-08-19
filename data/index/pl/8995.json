@@ -1,0 +1,105 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3972,
+  "textIdno": 8995,
+  "title": "Epistola ad Philippenses",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "601a",
+  "colLast": "608d",
+  "counts": {
+    "scripture": 3,
+    "fontes": 5,
+    "heads": 5,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
+      "column": "601d",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "607b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Luke.11",
+      "refDisplay": "Luc. XI",
+      "column": "608d",
+      "chunk": 3
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Aug., Ench. c. 35 et 36",
+      "column": "603c",
+      "chunk": 1
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "603d",
+      "chunk": 1
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "605c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "605c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "608a",
+      "chunk": 3
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "601a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "601a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "603a",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "604c",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "607a",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

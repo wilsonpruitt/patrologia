@@ -1,0 +1,888 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3937,
+  "textIdno": 8960,
+  "title": "Liber Judith",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "731d",
+  "colLast": "740b",
+  "counts": {
+    "scripture": 27,
+    "fontes": 9,
+    "heads": 18,
+    "headnotes": 89,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII, XV",
+      "column": "735a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.15",
+      "refDisplay": "Matth. VII, XV",
+      "column": "735a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.3",
+      "refDisplay": "Gal. III",
+      "column": "735c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.7",
+      "refDisplay": "Rom. VII",
+      "column": "735c",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "735d",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.10",
+      "refDisplay": "Joan. X",
+      "column": "735d",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.10",
+      "refDisplay": "Ibid. XIX",
+      "antecedent": "Joan. X",
+      "antecedentColumn": "735d",
+      "ibidResolved": true,
+      "column": "735d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.6",
+      "refDisplay": "Matth. VI",
+      "column": "736a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.44",
+      "refDisplay": "Psal. XLIV",
+      "column": "736d",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "737c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Prov.18",
+      "refDisplay": "Prov. XVIII",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Pet.5",
+      "refDisplay": "I Petr. V",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.61",
+      "refDisplay": "Isa. LXI",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rev.1",
+      "refDisplay": "Apoc. I",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Eccl.25",
+      "refDisplay": "Eccl. XXV",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.3",
+      "refDisplay": "Joan. III",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Gen.2",
+      "refDisplay": "Gen. II",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Luke.10",
+      "refDisplay": "Luc. X",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Pet.5",
+      "refDisplay": "I Petr. V",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Eph.6",
+      "refDisplay": "Ephes. VI",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.60",
+      "refDisplay": "Isa. LX",
+      "column": "738b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Jer.46",
+      "refDisplay": "Hier. XLVI",
+      "column": "738c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.49",
+      "refDisplay": "Isa. XLIX",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Prov.31",
+      "refDisplay": "Prov. XXXI",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Isa.66",
+      "refDisplay": "Isa. LXVI",
+      "column": "740a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.136",
+      "refDisplay": "Psal. CXXXVI",
+      "column": "740b",
+      "chunk": 2
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Vide inter opera beati Hieronymi, tom. VIII.",
+      "column": "731d",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB. expos. in lib. Judith, tom. III.",
+      "column": "731d",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB., ubi supra.",
+      "column": "731d",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB., ubi supra.",
+      "column": "732d",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB., ibid.",
+      "column": "733a",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB., in lib. Judith, tom. III.",
+      "column": "733b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "RAB., in lib. Judith, tom. III.",
+      "antecedentColumn": "733b",
+      "ibidResolved": true,
+      "column": "733b",
+      "chunk": 0
+    },
+    {
+      "raw": "Cap. XII",
+      "column": "734a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., serm. 229 de temp.",
+      "column": "737b",
+      "chunk": 1
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS HIERONYMI IN LIBRUM JUDITH.",
+      "column": "731d",
+      "chunk": 0,
+      "en": "THE PROLOGUE OF JEROME ON THE BOOK OF JUDITH."
+    },
+    {
+      "la": "PRAEFATIO.",
+      "column": "731d",
+      "chunk": 0,
+      "en": "PREFACE."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "731d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "733b",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "733c",
+      "chunk": 0,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "733d",
+      "chunk": 0,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "734a",
+      "chunk": 0,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "734b",
+      "chunk": 0,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII",
+      "column": "734d",
+      "chunk": 0,
+      "en": "CHAPTER VII"
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "735b",
+      "chunk": 1,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "736b",
+      "chunk": 1,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "736d",
+      "chunk": 1,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "737a",
+      "chunk": 1,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "737b",
+      "chunk": 1,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "737c",
+      "chunk": 2,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "738b",
+      "chunk": 2,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "738c",
+      "chunk": 2,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "739a",
+      "chunk": 2,
+      "en": "CHAPTER XVI."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "731d",
+      "chunk": 0
+    },
+    {
+      "la": "…phaxat superbi exprimuntur, quorum conatus et labor qui per vastum tumoris et elationis agitur facile in potestatem Nabuchodonosor, id est diaboli cadit: ipse est enim rex super omnes filios superbiae",
+      "en": "…and labour, which is carried on through the vastness of swelling and of elation, falls easily into the power of Nabuchodonosor, that is, of the devil: for he himself is king over all the sons of pride",
+      "column": "732d",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "732d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 6.--",
+      "en": "VERS. 6.--",
+      "column": "732d",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "733a",
+      "chunk": 0
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "733a",
+      "chunk": 0
+    },
+    {
+      "la": "[n: (RAB., ibid.)] Diabolus per diversas provincias legatos mittit, etc., *usque ad* unde",
+      "en": "[n: (RAB., ibid.)] The devil sends legates through the several provinces, etc., *as far as* whence",
+      "column": "733a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 12.--",
+      "en": "VERS. 12.--",
+      "column": "733a",
+      "chunk": 0
+    },
+    {
+      "la": "Diabolus propria superbia excaecatus, arrogat sibi imperium totius orbis, contendens ut abstractos a cultu pietatis, consortes suae faciat impietatis: qui de potentia regni exsultans, ait",
+      "en": "…himself the empire of the whole world, striving that, having drawn men away from the worship of piety, he may make them partakers of his own impiety: who, exulting over the power of his kingdom, saith",
+      "column": "733a",
+      "chunk": 0
+    },
+    {
+      "la": "Et in Evangelio",
+      "en": "… Dei exaltabo solium meum… sedebo in monte testamenti, in lateribus aquilonis*, \"I will ascend into heaven, I will exalt my throne above the stars of God… in the sides of the north\"] And in the Gospel",
+      "column": "733b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 7.--",
+      "en": "VERS. 7.--",
+      "column": "733b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 12.--",
+      "en": "VERS. 12.--",
+      "column": "733b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 13.--",
+      "en": "VERS. 13.--",
+      "column": "733c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 17.--",
+      "en": "VERS. 17.--",
+      "column": "733c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "733c",
+      "chunk": 0
+    },
+    {
+      "la": "etc. Potentes saeculi et voluptatum amatores, qui principem mundi student reconciliare sibi, ut mortis periculum et voluptatis, detrimentum evadere possint; de quibus dicitur",
+      "en": "…he mighty of this world and the lovers of pleasures, who study to reconcile to themselves the prince of the world , that they may escape the peril of death and the loss of pleasure; of whom it is said",
+      "column": "733d",
+      "chunk": 0
+    },
+    {
+      "la": "…erbia extolluntur, vanitatem sequuntur: terram duabus viis ingrediuntur, et coetum lugentium vel luxuriae suae poenas luentium in inferno sociabuntur: ubi ad calorem nimium transibunt ab aquis nivium,",
+      "en": "…the earth by two ways, and they shall be joined to the company of them that mourn, or that pay the penalties of their own luxury, in hell: where they shall pass from the snow waters to excessive heat,",
+      "column": "733d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 5.--",
+      "en": "VERS. 5.--",
+      "column": "734a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 10.--",
+      "en": "VERS. 10.--",
+      "column": "734b",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 19.--",
+      "en": "VERS. 19.--",
+      "column": "734c",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 7.--",
+      "en": "VERS. 7.--",
+      "column": "734d",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 12.--",
+      "en": "VERS. 12.--",
+      "column": "734d",
+      "chunk": 0
+    },
+    {
+      "la": "Carnales qui dicunt",
+      "en": "Carnal men who say",
+      "column": "735a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 23.--",
+      "en": "VERS. 23.--",
+      "column": "735a",
+      "chunk": 0
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "735b",
+      "chunk": 1
+    },
+    {
+      "la": "etc., sequitur",
+      "en": "etc., there follows",
+      "column": "735b",
+      "chunk": 1
+    },
+    {
+      "la": "… de patriarchis et apostolis est edita, et ad coelestem gratiam ascensura; unde hic numerus graduum in Psalterio ponitur, futurae ad coelos ascensionis figurativus, quo sancti venientes merito dicunt,",
+      "en": "…stles, and is to ascend unto the heavenly grace; whence this number of steps is set in the Psalter, figurative of the ascent to the heavens that is to come, coming whereunto the saints deservedly say,",
+      "column": "735c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 2.--",
+      "en": "VERS. 2.--",
+      "column": "735c",
+      "chunk": 1
+    },
+    {
+      "la": "…logo legis vel ritibus gentilium obnoxia. Sed veniente Christo et luce Evangelii clarescente in mundo, omnis illa observantia cessit, et quasi vilis collectio messis velociter transiit; unde Apostolus",
+      "en": "…s of the Gentiles. But when Christ came and the light of the Gospel grew bright in the world, all that observance gave way, and passed swiftly by like a paltry gathering of harvest; whence the Apostle",
+      "column": "735c",
+      "chunk": 1
+    },
+    {
+      "la": "Et ad Romanos ait",
+      "en": "And to the Romans he saith",
+      "column": "735c",
+      "chunk": 1
+    },
+    {
+      "la": "…s hordeaceae, id est collectionis plebis Judaicae, cum mitteret apostolos suos praedicare et manipulos credentium congregare: venit aestus persecutionis super caput ejus, id est super divinitatem ejus",
+      "en": "… gathering of the Jewish people, when he was sending his apostles to preach and to gather the sheaves of them that believe: there came the heat of persecution upon his head, that is, upon his divinity",
+      "column": "735d",
+      "chunk": 1
+    },
+    {
+      "la": "Inde enim maxime scandalizabantur Judaei, quod dicebat se esse Filium Dei. Unde,",
+      "en": "For thereat above all were the Jews scandalized, that he said himself to be the Son of God. Whence,",
+      "column": "735d",
+      "chunk": 1
+    },
+    {
+      "la": "Et alibi",
+      "en": "And elsewhere",
+      "column": "735d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 7.--",
+      "en": "VERS. 7.--",
+      "column": "736a",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 12.--",
+      "en": "VERS. 12.--",
+      "column": "736a",
+      "chunk": 1
+    },
+    {
+      "la": "Cum afflicti sumus, nec tempus, nec modum praescribere Domino debemus, sed magis arbitrio ejus cuncta relinquamus. Unde quidam patrum in oratione sua dixisse legitur",
+      "en": "…fflicted, we ought to prescribe to the Lord neither the time nor the manner, but rather let us leave all things to his judgement. Whence a certain one of the fathers is read to have said in his prayer",
+      "column": "736a",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 28.--",
+      "en": "VERS. 28.--",
+      "column": "736b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 30.--",
+      "en": "VERS. 30.--",
+      "column": "736b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 1.--",
+      "en": "VERS. 1.--",
+      "column": "736c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 2.--",
+      "en": "VERS. 2.--",
+      "column": "736c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 9.--",
+      "en": "VERS. 9.--",
+      "column": "736c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 2.--",
+      "en": "VERS. 2.--",
+      "column": "736d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 4.--",
+      "en": "VERS. 4.--",
+      "column": "736d",
+      "chunk": 1
+    },
+    {
+      "la": "Quia justum est, ut qui Dei fervet amore, omnibus habeatur dignus honore, unde",
+      "en": "Because it is just that he who is fervent with the love of God be held worthy of honour by all, whence",
+      "column": "736d",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 5.--",
+      "en": "VERS. 5.--",
+      "column": "737a",
+      "chunk": 1
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "737a",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 4.--",
+      "en": "VERS. 4.--",
+      "column": "737b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 17.--",
+      "en": "VERS. 17.--",
+      "column": "737b",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 19.--",
+      "en": "VERS. 19.--",
+      "column": "737b",
+      "chunk": 1
+    },
+    {
+      "la": "Non inquinatur cibis gentilium aut superstitione. Ecclesia enim inter gentes habitans, idololatria non polluitur, sed his quae devotio fidelium per obedientiam praeparat, utitur, unde",
+      "en": "…f the Gentiles or by superstition. For the Church, dwelling among the Gentiles, is not polluted by idolatry, but uses those things which the devotion of the faithful prepares through obedience, whence",
+      "column": "737c",
+      "chunk": 1
+    },
+    {
+      "la": "VERS. 4.--",
+      "en": "VERS. 4.--",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "la": "Nefandae securitatis, qua se impune peccare confidit; unde",
+      "en": "Of a nefarious security, whereby he trusts that he sins unpunished; whence",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 11.--",
+      "en": "VERS. 11.--",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "la": "Recordationem confecti belli sollicite jubet memorari, unde",
+      "en": "[Judith] carefully bids the remembrance of the finished war be called to mind, whence",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 13.--",
+      "en": "VERS. 13.--",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "la": "Id est doctoribus, qui verbo et exemplo Ecclesiam muniunt, et ad vitam aeternam introducunt, de quibus dicitur",
+      "en": "That is, to the teachers, who fortify the Church by word and by example, and lead her in unto eternal life, of whom it is said",
+      "column": "737c",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "Id est devotionem cordis, unde dicitur",
+      "en": "That is, the devotion of the heart, whence it is said",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "Secundum illud",
+      "en": "[var: Vulg. Apoc. 2:7 *Qui habet aurem, audiat*, \"he that hath an ear, let him hear\"] According to that",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "Dominus virtutem populo suo dabit, cum quo scilicet, apicem coelestis regni ascendit, unde",
+      "en": "The Lord will give strength to his people, with whom, namely, he ascends the summit of the heavenly kingdom, whence",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 16.--",
+      "en": "VERS. 16.--",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 18.--",
+      "en": "VERS. 18.--",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "De quo",
+      "en": "Whereof",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "Et in Evangelio",
+      "en": "And in the Gospel",
+      "column": "737d",
+      "chunk": 2
+    },
+    {
+      "la": "…raus inimici nostri, quanta pietate a nobis superatus sit, quos Dominus illaesos ab omni fraude et erroris contaminatione custodit, ut his inspectis Conditori et Redemptori nostro gratias agatis, unde",
+      "en": "…s he has been overcome by us, whom the Lord keeps unhurt from all deceit and from the contamination of error, that, these things being looked upon, ye may give thanks to our Maker and Redeemer, whence",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "la": "Et",
+      "en": "And",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "la": "Et item",
+      "en": "[var: Vulg. 2 Cor. 11:3 *corrumpantur sensus vestri*, \"your senses be corrupted\"] And again",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 25.--",
+      "en": "VERS. 25.--",
+      "column": "738a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 29.--",
+      "en": "VERS. 29.--",
+      "column": "738b",
+      "chunk": 2
+    },
+    {
+      "la": "…idem hostium superasse ferocitatem, nimio pavore concutiuntur et superbiam suam humiliantes Ecclesiam venerantur; et sequaces suos errorem relinquere et fide liberi sese sociare hortantur; unde Isaias",
+      "en": "…my, are shaken with exceeding dread and, humbling their own pride, venerate the Church; and they exhort their own followers to forsake error and, being free by faith, to join themselves; whence Isaias",
+      "column": "738b",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 13.--",
+      "en": "VERS. 13.--",
+      "column": "738c",
+      "chunk": 2
+    },
+    {
+      "la": "…orum deos suos contra Ecclesiam poscentes auxilium, inveniunt eos propria foeditate spurcissimos et omni virtute destitutos, unde fugae se commendantes relinquunt ea in quibus temporaliter confidebant",
+      "en": "…heir own gods against the Church, find them most filthy with their own foulness and destitute of all power, whence, betaking themselves to flight, they leave the things wherein they trusted for a time",
+      "column": "738c",
+      "chunk": 2
+    },
+    {
+      "la": "unde Hieremias ait",
+      "en": "[var: Vulg. Prov. 21:30 *Non est sapientia, non est prudentia, non est consilium contra Dominum*, \"against the Lord\"] whence Jeremias saith",
+      "column": "738c",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 3.--",
+      "en": "VERS. 3.--",
+      "column": "738c",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "la": "Ad praedicationem verbi Dei ex singulis gentibus et provinciis probatae personae et viribus accinctae ad malitiam Domini veniunt; unde Isaias",
+      "en": "…rd of God there come out of the several nations and provinces persons approved and girded with strength unto the malice [cj: *malitiam*; read *militiam*, \"unto the warfare\"] of the Lord; whence Isaias",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 13.--",
+      "en": "VERS. 13.--",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "la": "Qui universum praesentis vitae tempus significant, quo populus Dei de hoste triumphans spiritualiter exspoliat; unde de Ecclesia dicitur",
+      "en": "Which signify the whole time of the present life, in which the people of God, triumphing over the enemy, spoils him spiritually; whence it is said of the Church",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 14.--",
+      "en": "VERS. 14.--",
+      "column": "738d",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 15.--",
+      "en": "VERS. 15.--",
+      "column": "739a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 12.--",
+      "en": "VERS. 12.--",
+      "column": "739a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 16.--",
+      "en": "VERS. 16.--",
+      "column": "739a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 21.--",
+      "en": "VERS. 21.--",
+      "column": "739b",
+      "chunk": 2
+    },
+    {
+      "la": "Quas amaverunt, de quibus nascitur fetor vermium. Caro et sanguis vermes creat: quia delectatio carnalis, cui sal continentiae non resistit, poenam aeternam generat luxuriosis; unde",
+      "en": "…hey loved, whereof is born the stench of worms. Flesh and blood create worms: because carnal delight, which the salt of continence does not withstand, begets eternal punishment for the lustful; whence",
+      "column": "740a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 22.--",
+      "en": "VERS. 22.--",
+      "column": "740a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 28.--",
+      "en": "VERS. 28.--",
+      "column": "740a",
+      "chunk": 2
+    },
+    {
+      "la": "",
+      "en": "",
+      "column": "740a",
+      "chunk": 2
+    },
+    {
+      "la": "VERS. 29.--",
+      "en": "VERS. 29.--",
+      "column": "740b",
+      "chunk": 2
+    },
+    {
+      "la": "Electi Dei per omne tempus, quod septem diebus evolvitur, propter peregrinationem praesentis Ecclesiae, in dolore et gemitu non affliguntur ex desperatione, sed futurae vitae recordatione, juxta illud",
+      "en": "…is unrolled in seven days, on account of the pilgrimage of the present Church, are afflicted in grief and groaning not out of despair, but out of the remembrance of the life to come, according to that",
+      "column": "740b",
+      "chunk": 2
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}

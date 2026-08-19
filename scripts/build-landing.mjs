@@ -18,6 +18,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-18 session: the Glossa's third cadence batch, two Pauline epistles and two Old Testament books —
+  'pl/113/liber-esther',                                          // Anselm of Laon and his school — the gloss on Esther, read with Vasthi as the synagogue put away and Esther as the Church taken in; Migne's lemmata diverge from the Vulgate more here than in most books
+  'pl/113/liber-judith',                                          // Anselm of Laon and his school — the gloss on Judith, read throughout as the Church against the devil; her beauty her doctrine, and the sword taken from his own bedside
+  'pl/114/epistola-ad-colossenses',                               // Anselm of Laon and his school — the gloss on Colossians; the fulness of the Godhead bodily, the handwriting of the decree blotted out, and a lemma built on a word the Vulgate does not print
+  'pl/114/epistola-ad-philippenses',                              // Anselm of Laon and his school — the gloss on Philippians; the hymn of Christ's self-emptying, closely argued, and a lemma whose gloss expounds a crown the lemma has lost
   // — 2026-08-18 session: the Glossa's second cadence batch, four epistles and its first Old Testament book since Ruth —
   'pl/113/liber-tobiae',                                          // Anselm of Laon and his school — the gloss on Tobit, read from Bede as an allegory of the Church; lemmata in guillemets, and Migne abridging his source seventeen times with etc., usque ad
   'pl/114/epistola-ii-b-petri',                                   // Anselm of Laon and his school — the gloss on 2 Peter; the false teachers and the day that comes as a thief, with Migne's lemma printing indoctas where the Vulgate has doctas
