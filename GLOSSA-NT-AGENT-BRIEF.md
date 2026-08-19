@@ -171,6 +171,66 @@ will look there. Twice now the translating agent has SEEN the work's worst defec
 and left it. **Name the sections you read clean, and the candidates you rejected with
 reasons.**
 
+## ⛔⛔ THE THREE TESTS THAT CAUGHT WHAT EVERYTHING ELSE MISSED (added 2026-08-18f)
+
+These come from blind reads of the last two batches. Each caught a defect that `verify-english.mjs`,
+marker parity, and a careful self-audit all passed. **Run all three on your own files before you file.**
+
+### 1. A `[sic:]` MUST NOT SWALLOW THE WORD IT MARKS
+
+The marker records the plate's defect; **it does not stand in for your translation.** Englishing the
+corrupt word for its evident sense and marking it are BOTH required (7a⁗).
+
+⛔ Measured on Tobit (8970): **all four** of its `[sic:]` sites used the bracket *instead of* the
+rendering, so four content words vanished from the English while the verifier saw a well-formed marker
+and passed — *"Christ laid hold of the [sic: di bolum]"*, a sentence with no object. Also lost:
+"spiritually", "incautiously", "cunning".
+
+⚑ **The test, and it is mechanical: strip every marker from your English, then read what is left.**
+Look for a stranded article or preposition sitting on punctuation ("of the ___", "of his ___"), or a
+doubled mark. **If the sentence cannot be read aloud without the bracket, the rendering is missing.**
+
+⚑⚑ **And know that 7a⁗'s three questions are NOT sufficient.** At 0728C that translator actually ran
+them — verb? negation? conjunction? — got three clean answers, and concluded the marker could stand
+alone. **The quarantine had taken the OBJECT.** 7a⁗ asks what *governs*; nothing in it asks whether
+the clause still has the thing it acts on. Ask that fourth question yourself.
+
+### 2. A NEGATION CAN BE RELOCATED — so "are all the negatives present?" passes the defect
+
+⛔ Measured on 2 Thessalonians (8987) @0624B: `velint` ("they wish") was rendered **"unwilling"**, by
+pressing the `non` of `non solum … sed` into double duty, which that correlative does not permit. A
+second relocation sat four lines away (`sed non ut` silently reordered to `ut non`). **Nothing was
+added and nothing dropped, so every count-based check passed — and the false reading read BETTER than
+the true one.** Plate-confirmed: Migne prints `velint`.
+
+⚑ **The test:** for each printed negative, **name the single Latin word it attaches to, then find that
+word in your English and check the negative is ON it.** Not "are all the negatives present."
+
+⚑ Both defects were in the **gloss prose, not the lemmata** — all 57 named lemmata in that work were
+right. Your lemma list does its job; it does not cover the sentences between the lemmata.
+
+### 3. PUNCTUATION: compare BY COLUMN BAND, never by total
+
+⛔ Twice now the totals have cancelled exactly. 8989: three semicolons against three, one softened in
+one place and one supplied in another. Tobit chunk 0: **19 colons against 19**, one supplied at 0725C
+and one destroyed at 0726D.
+
+⚑ **The test:** your column anchors are verified 1:1, so they partition both twins identically.
+**Compare marks band by band** — colons, semicolons, guillemet-opens, question marks — and require zero
+mismatched bands. Tobit's translator built this and it returns the sites instantly.
+
+⚠ **Do NOT sweep comma→semicolon changes on your own initiative.** A corpus-wide measurement closed
+that as *a rate question, not an absence*, because Migne prints plenty of semicolons himself. Tobit was
+a narrow exception because he prints **zero** in its first chunk — and that exception rests on his
+practice in that book, not on a general rule. **Count your own book's plate before invoking it.**
+
+## For the guillemet books — Judith, Esther, and the rest of the OT
+
+If your lemmata are wrapped in `« »` rather than italics, **the conventions are already settled** and
+you should reuse them rather than re-derive them: `src/english/8970/cruces.md` §1 (Tobit) carries
+guillemet-lemma handling, the `*usque ad*` abridgment formula with **no verb ever supplied** to complete
+it, Tyconius vocabulary, and sigla with Migne's own internal spacing. Read that section first.
+
 ## Do not stop early
 
 Your work is short. Peer agents complete 5-chunk batches at full fidelity routinely. If you
