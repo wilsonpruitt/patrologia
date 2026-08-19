@@ -7,7 +7,13 @@ the first guillemet books to inherit Tobit's conventions. 12,079 Latin words, 14
 **117 → 121 englished works.** Opus throughout, per Wilson's call at the hard stop.
 `/glossa` now **15 Englished / 10 prepared**.
 
-⛔ **NOT DEPLOYED AND NOT PUSHED.** Everything else done: `verify-english` clean ×4 ·
+✅ **DEPLOYED AND PUSHED 2026-08-19** (`migne-p3q7v1gkj`, Labs scope) — five commits on `master`,
+tree clean, in sync with origin. **Verified BY BODY, not by status code:** all eight new pages — four
+work pages AND their four cruces pages — fetched from migne.app and **byte-for-byte identical** to the
+local build, as were `/`, `/glossa/`, `/queue/` and `/scripture/`. All four carry **"New English
+translation"** live; none claims priority. All four appear in RECENT on the live landing, and live
+`/glossa` reads **15 Englished**. ⭐ The cruces URLs were smoke-tested, not just the work URLs.
+Everything else done: `verify-english` clean ×4 ·
 **`polarity-record --gate` GREEN at 121/121** · `scan-raw-markers` clean across 121 pages ·
 all four cruces URLs resolve · all four badge **"New English translation"** · RECENT + every
 generated page rebuilt. Blind reads found **22 sites, 20 repaired**.
