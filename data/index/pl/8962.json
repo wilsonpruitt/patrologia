@@ -1,0 +1,797 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3939,
+  "textIdno": 8962,
+  "title": "Liber Nehemiae",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "713a",
+  "colLast": "726b",
+  "counts": {
+    "scripture": 34,
+    "fontes": 69,
+    "heads": 13,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Ps.126",
+      "refDisplay": "Psal. CXXVI.",
+      "column": "713d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.126",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Psal. CXXVI.",
+      "antecedentColumn": "713d",
+      "ibidResolved": true,
+      "column": "713d",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Chr.12",
+      "refDisplay": "II Par. XII.",
+      "column": "715a",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Chr.23",
+      "refDisplay": "II Par. XXIII.",
+      "column": "715a",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Chr.23",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "II Par. XXIII.",
+      "antecedentColumn": "715a",
+      "ibidResolved": true,
+      "column": "715b",
+      "chunk": 1
+    },
+    {
+      "refKey": "1John.2",
+      "refDisplay": "I Joan. II",
+      "column": "715c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "715d",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Sam.5",
+      "refDisplay": "II Reg. V",
+      "column": "716a",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Sam.5",
+      "refDisplay": "Ibid.",
+      "antecedent": "II Reg. V",
+      "antecedentColumn": "716a",
+      "ibidResolved": true,
+      "column": "716b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Mic.4",
+      "refDisplay": "Mich. IV",
+      "column": "716d",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Chr.33",
+      "refDisplay": "II Par. XXXIII",
+      "column": "717a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.60",
+      "refDisplay": "Isa. LX",
+      "column": "717a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "717a",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.9",
+      "refDisplay": "I Cor. IX",
+      "column": "719b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Acts.8",
+      "refDisplay": "Act. VIII",
+      "column": "720a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Acts.8",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Act. VIII",
+      "antecedentColumn": "720a",
+      "ibidResolved": true,
+      "column": "720a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rev.21",
+      "refDisplay": "Apoc. XXI",
+      "column": "720a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rev.21",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Apoc. XXI",
+      "antecedentColumn": "720a",
+      "ibidResolved": true,
+      "column": "720a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.44",
+      "refDisplay": "Psal. XLIV",
+      "column": "720b",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.6",
+      "refDisplay": "II Cor. VI",
+      "column": "721c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "Psal. XXXVIII",
+      "column": "721d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.38",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Psal. XXXVIII",
+      "antecedentColumn": "721d",
+      "ibidResolved": true,
+      "column": "721d",
+      "chunk": 3
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "721d",
+      "chunk": 3
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "II Cor. II",
+      "antecedentColumn": "721d",
+      "ibidResolved": true,
+      "column": "722a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rev.7",
+      "refDisplay": "Apoc. VII",
+      "column": "722a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rev.7",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Apoc. VII",
+      "antecedentColumn": "722a",
+      "ibidResolved": true,
+      "column": "722a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rev.7",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Apoc. VII",
+      "antecedentColumn": "722a",
+      "ibidResolved": true,
+      "column": "722a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Neh.7",
+      "refDisplay": "II Esd. VII",
+      "column": "722c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Neh.7",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "II Esd. VII",
+      "antecedentColumn": "722c",
+      "ibidResolved": true,
+      "column": "722c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Neh.11",
+      "refDisplay": "II Esd. XI",
+      "column": "722d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Neh.11",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "II Esd. XI",
+      "antecedentColumn": "722d",
+      "ibidResolved": true,
+      "column": "722d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Isa.62",
+      "refDisplay": "Isai. LXII",
+      "column": "723b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.115",
+      "refDisplay": "Psal. CXV",
+      "column": "724a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "724b",
+      "chunk": 4
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BED. in Esdram, tom. II.",
+      "column": "713a",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. in Esdram, tom. II.",
+      "antecedentColumn": "713a",
+      "ibidResolved": true,
+      "column": "713a",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. in Esdram, tom. II.",
+      "antecedentColumn": "713a",
+      "ibidResolved": true,
+      "column": "713a",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. in Esdram, tom. II.",
+      "antecedentColumn": "713a",
+      "ibidResolved": true,
+      "column": "713b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. in Esdram, tom. II.",
+      "antecedentColumn": "713a",
+      "ibidResolved": true,
+      "column": "713c",
+      "chunk": 0
+    },
+    {
+      "raw": "BED. in Esdram.",
+      "column": "713d",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "714b",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA in Esdram, tom. II, lib. III.",
+      "column": "714c",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA in Esdram, tom. II, lib. III.",
+      "antecedentColumn": "714c",
+      "ibidResolved": true,
+      "column": "714d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA in Esdram, tom. II, lib. III.",
+      "antecedentColumn": "714c",
+      "ibidResolved": true,
+      "column": "714d",
+      "chunk": 1
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "715a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "715d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "715d",
+      "ibidResolved": true,
+      "column": "715d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "715d",
+      "ibidResolved": true,
+      "column": "715d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "715d",
+      "ibidResolved": true,
+      "column": "716a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "716b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "716b",
+      "ibidResolved": true,
+      "column": "716b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "716b",
+      "ibidResolved": true,
+      "column": "716b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "716b",
+      "ibidResolved": true,
+      "column": "716c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "716d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "717b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "717c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "717d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA in Esdram, lib. III, cap. 19, tom. II.",
+      "column": "717d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA in Esdram, lib. III, cap. 19, tom. II.",
+      "antecedentColumn": "717d",
+      "ibidResolved": true,
+      "column": "718a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "718a",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid., cap. 20.",
+      "column": "718c",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid., cap. 20.",
+      "antecedentColumn": "718c",
+      "ibidResolved": true,
+      "column": "718c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA in Esdr., lib. III, cap. 21.",
+      "column": "718d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA in Esdr., lib. III, cap. 21.",
+      "antecedentColumn": "718d",
+      "ibidResolved": true,
+      "column": "718d",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "719a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "719b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, in Esdr., lib. III, cap. 23, tom. II.",
+      "column": "719c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "719d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ubi supra.",
+      "antecedentColumn": "719d",
+      "ibidResolved": true,
+      "column": "719d",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, in Esdr., lib. III, cap. 24, tom. II.",
+      "column": "719d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, in Esdr., lib. III, cap. 24, tom. II.",
+      "antecedentColumn": "719d",
+      "ibidResolved": true,
+      "column": "720a",
+      "chunk": 2
+    },
+    {
+      "raw": "JOSE.",
+      "column": "720c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, in Esdr., lib. III, cap. 26, tom. II.",
+      "column": "720d",
+      "chunk": 3
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "721a",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "721a",
+      "ibidResolved": true,
+      "column": "721a",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "721a",
+      "ibidResolved": true,
+      "column": "721b",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "721a",
+      "ibidResolved": true,
+      "column": "721b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "721c",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, in Esdr., lib. III, tom. II.",
+      "column": "722b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, in Esdr., lib. III, tom. II.",
+      "column": "722c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, in Esdr., lib. III, tom. II.",
+      "antecedentColumn": "722c",
+      "ibidResolved": true,
+      "column": "722d",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ubi supra.",
+      "column": "722d",
+      "chunk": 4
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "723a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723a",
+      "ibidResolved": true,
+      "column": "723a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723a",
+      "ibidResolved": true,
+      "column": "723a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723a",
+      "ibidResolved": true,
+      "column": "723a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723a",
+      "ibidResolved": true,
+      "column": "723a",
+      "chunk": 4
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "723d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723d",
+      "ibidResolved": true,
+      "column": "723d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723d",
+      "ibidResolved": true,
+      "column": "723d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "723d",
+      "ibidResolved": true,
+      "column": "724a",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "724a",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "724b",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA in Esdr., lib. III, tom. II.",
+      "column": "724b",
+      "chunk": 4
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "724c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "724c",
+      "ibidResolved": true,
+      "column": "724c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "724c",
+      "ibidResolved": true,
+      "column": "724c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "724c",
+      "ibidResolved": true,
+      "column": "724d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "724c",
+      "ibidResolved": true,
+      "column": "724d",
+      "chunk": 4
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "725a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "725a",
+      "ibidResolved": true,
+      "column": "725a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "725a",
+      "ibidResolved": true,
+      "column": "725a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "725a",
+      "ibidResolved": true,
+      "column": "725b",
+      "chunk": 4
+    }
+  ],
+  "heads": [
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "713a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "713c",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "714b",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "717d",
+      "chunk": 2,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "718d",
+      "chunk": 2,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "719c",
+      "chunk": 2,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "719d",
+      "chunk": 2,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "720d",
+      "chunk": 3,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "722a",
+      "chunk": 3,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "722c",
+      "chunk": 3,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "722c",
+      "chunk": 3,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "722d",
+      "chunk": 4,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "724b",
+      "chunk": 4,
+      "en": "CHAPTER XIII."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

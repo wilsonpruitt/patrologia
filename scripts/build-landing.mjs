@@ -18,6 +18,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-19 session: the Glossa's fifth cadence batch, two epistles and two Old Testament histories —
+  'pl/114/epistola-i-b-joannis',                                  // Anselm of Laon and his school — the gloss on 1 John; God is love, and a lemma whose own gloss corrects it by naming the verse it belongs to
+  'pl/113/liber-judicum',                                         // Anselm of Laon and his school — the gloss on Judges, read largely from Augustine's LXX-based Latin rather than the Vulgate; Gideon's fleece, and a number the text's own reckoning refutes
+  'pl/113/liber-nehemiae',                                        // Anselm of Laon and his school — the gloss on Nehemiah, from Bede; the wall rebuilt as the Church repaired, and a sentence restored from the plate after our source skipped a whole line of it
+  'pl/114/epistola-ad-ephesios',                                  // Anselm of Laon and his school — the gloss on Ephesians; the armour of God, and three lemmata whose divergence from the Vulgate is what the gloss is arguing from
   // — 2026-08-19 session: the Glossa's fourth cadence batch, three epistles and a wisdom book —
   'pl/113/liber-ecclesiastes',                                    // Anselm of Laon and his school — the gloss on Ecclesiastes, on Jerome's text; vanity read as the creature subjected to it unwilling, and Migne's lemmata carrying Old-Latin readings the Vulgate does not
   'pl/114/epistola-i-b-petri',                                    // Anselm of Laon and his school — the gloss on 1 Peter; the living stones and the chosen race, with a gloss whose note cites Matthew for a sentence of Luke's

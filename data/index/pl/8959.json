@@ -1,0 +1,819 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3936,
+  "textIdno": 8959,
+  "title": "Liber Judicum",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "521a",
+  "colLast": "532c",
+  "counts": {
+    "scripture": 12,
+    "fontes": 104,
+    "heads": 22,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "2Cor.12",
+      "refDisplay": "II Cor. XII",
+      "column": "521d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.13",
+      "refDisplay": "Luc. XIII",
+      "column": "523b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.13",
+      "refDisplay": "ID.",
+      "antecedent": "Luc. XIII",
+      "antecedentColumn": "523b",
+      "ibidResolved": true,
+      "column": "523c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.13",
+      "refDisplay": "ID., hom. 3.",
+      "antecedent": "Luc. XIII",
+      "antecedentColumn": "523b",
+      "ibidResolved": true,
+      "column": "523c",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "523c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII.",
+      "column": "524c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Ibid. X.",
+      "antecedent": "Psal. CXVIII.",
+      "antecedentColumn": "524c",
+      "ibidResolved": true,
+      "column": "524c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Phil. III",
+      "column": "525c",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "528d",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "ID.",
+      "antecedent": "Joan. XV",
+      "antecedentColumn": "528d",
+      "ibidResolved": true,
+      "column": "528d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Luke.7",
+      "refDisplay": "Luc. VII",
+      "column": "530b",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.16",
+      "refDisplay": "Joan. XVI",
+      "column": "531c",
+      "chunk": 4
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "ATHANAS., in (Synopsi.",
+      "column": "521a",
+      "chunk": 0
+    },
+    {
+      "raw": "ISID., in lib. Judic., cap. 1.",
+      "column": "521a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 1 in lib. Judic.",
+      "column": "521b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., quaest. 2.",
+      "antecedent": "AUG., quaest. 1 in lib. Judic.",
+      "antecedentColumn": "521b",
+      "ibidResolved": true,
+      "column": "521c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 3.",
+      "column": "521c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., quaest. 5 in Jud.",
+      "antecedent": "AUG., quaest. 3.",
+      "antecedentColumn": "521c",
+      "ibidResolved": true,
+      "column": "521d",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 7 in Jud.",
+      "column": "521d",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 8.",
+      "column": "521d",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 11 in Jud.",
+      "column": "522a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 12 in Jud.",
+      "column": "522a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 13 in Jud.",
+      "column": "522a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG.",
+      "column": "522b",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAMAN., hom. 1 in Jud.",
+      "column": "522b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., hom. 2.",
+      "antecedent": "ADAMAN., hom. 1 in Jud.",
+      "antecedentColumn": "522b",
+      "ibidResolved": true,
+      "column": "522c",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAMAN., hom. 2.",
+      "column": "522c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 16 in lib. Judic.",
+      "column": "522c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 17.",
+      "column": "522c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 17 in Jud.",
+      "column": "522d",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 3.",
+      "column": "523a",
+      "chunk": 1
+    },
+    {
+      "raw": "ORIG., hom. 3 in Jud.",
+      "column": "523a",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM.",
+      "column": "523b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., ubi supra.",
+      "column": "523b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 4.",
+      "column": "523d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., quaest. 21.",
+      "column": "523d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., quaest. 23.",
+      "antecedent": "AUG., quaest. 21.",
+      "antecedentColumn": "523d",
+      "ibidResolved": true,
+      "column": "523d",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 4.",
+      "column": "524a",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., quaest. 25.",
+      "column": "524a",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 4.",
+      "column": "524b",
+      "chunk": 1
+    },
+    {
+      "raw": "ORIG., hom. 4 in Jud.",
+      "column": "524b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 4 in Jud.",
+      "column": "524b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 5.",
+      "column": "524c",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM.",
+      "column": "524c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., quaest. 29 in Jud.",
+      "column": "524d",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 5.",
+      "column": "524d",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 5.",
+      "column": "525a",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 5.",
+      "column": "525a",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 5 in Jud.",
+      "column": "525a",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 6 in Jud.",
+      "column": "525a",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM.",
+      "column": "525b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 6.",
+      "column": "525b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM.",
+      "column": "525c",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM.",
+      "column": "525d",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 7 in Jud.",
+      "column": "526b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., hom. 7.",
+      "antecedent": "ADAM., hom. 7 in Jud.",
+      "antecedentColumn": "526b",
+      "ibidResolved": true,
+      "column": "526b",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 31 in Jud.",
+      "column": "526b",
+      "chunk": 2
+    },
+    {
+      "raw": "ISID., in Jud., tom. V.",
+      "column": "526b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 8.",
+      "column": "526c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 35 in Jud.",
+      "column": "526c",
+      "chunk": 2
+    },
+    {
+      "raw": "ISID.",
+      "column": "526d",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM.",
+      "column": "526d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ADAM.",
+      "antecedentColumn": "526d",
+      "ibidResolved": true,
+      "column": "526d",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., homil. 8 in Jud.",
+      "column": "527a",
+      "chunk": 2
+    },
+    {
+      "raw": "Orig., homil. 8.",
+      "column": "527a",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "527a",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., homil. 8.",
+      "column": "527b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 9",
+      "column": "527b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 9.",
+      "column": "527c",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., homil. 9.",
+      "column": "527c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 47 in Jud.",
+      "column": "527d",
+      "chunk": 2
+    },
+    {
+      "raw": "Greg., lib. XXX Moral., cap. 25.",
+      "column": "527d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., Ibid.",
+      "antecedent": "Greg., lib. XXX Moral., cap. 25.",
+      "antecedentColumn": "527d",
+      "ibidResolved": true,
+      "column": "527d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 41 in Jud.",
+      "column": "528a",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "528a",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., quaest. 43.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "528a",
+      "ibidResolved": true,
+      "column": "528b",
+      "chunk": 3
+    },
+    {
+      "raw": "ISID.",
+      "column": "528c",
+      "chunk": 3
+    },
+    {
+      "raw": "ISID., in Jud. tom. V.",
+      "column": "528c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "ISID., in Jud. tom. V.",
+      "antecedentColumn": "528c",
+      "ibidResolved": true,
+      "column": "528d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "ISID., in Jud. tom. V.",
+      "antecedentColumn": "528c",
+      "ibidResolved": true,
+      "column": "528d",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG., quaest. 45 in Jud.",
+      "column": "529a",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., quaest. 46.",
+      "antecedent": "AUG., quaest. 45 in Jud.",
+      "antecedentColumn": "529a",
+      "ibidResolved": true,
+      "column": "529a",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG., quaest. 49 in Jud.",
+      "column": "529b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "AUG., quaest. 49 in Jud.",
+      "antecedentColumn": "529b",
+      "ibidResolved": true,
+      "column": "529b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "AUG., quaest. 49 in Jud.",
+      "antecedentColumn": "529b",
+      "ibidResolved": true,
+      "column": "529c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "AUG., quaest. 49 in Jud.",
+      "antecedentColumn": "529b",
+      "ibidResolved": true,
+      "column": "529c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., ibid.",
+      "column": "529c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG.",
+      "column": "529c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "529c",
+      "ibidResolved": true,
+      "column": "529d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "529c",
+      "ibidResolved": true,
+      "column": "529d",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 49 in Jud.",
+      "column": "530a",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., ibid.",
+      "column": "530a",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 49.",
+      "column": "530b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG., quaest. 49.",
+      "antecedentColumn": "530b",
+      "ibidResolved": true,
+      "column": "530b",
+      "chunk": 4
+    },
+    {
+      "raw": "ISID., in Jud., tom. V.",
+      "column": "530b",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG.",
+      "column": "530c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 49.",
+      "column": "530c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG.",
+      "column": "530d",
+      "chunk": 4
+    },
+    {
+      "raw": "ISID., in Jud.",
+      "column": "531a",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 50.",
+      "column": "531a",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 52 in Jud.",
+      "column": "531a",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 53.",
+      "column": "531b",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG., lib. V Moral., cap. 23.",
+      "column": "531b",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 54 in Jud.",
+      "column": "531c",
+      "chunk": 4
+    },
+    {
+      "raw": "ISID., in Jud. tom. V, cap. 8.",
+      "column": "531c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 55 in Jud.",
+      "column": "531c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 56 in Jud.",
+      "column": "532a",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG., lib. XIII Moral., cap. 6.",
+      "column": "532a",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG., Homil. 21 in Evang.",
+      "column": "532b",
+      "chunk": 5
+    },
+    {
+      "raw": "ISID., in Jud., tom. V, cap. 6.",
+      "column": "532b",
+      "chunk": 5
+    },
+    {
+      "raw": "GREG., lib. XXVII Moral., cap. 13.",
+      "column": "532b",
+      "chunk": 5
+    },
+    {
+      "raw": "GREG., lib. XXIX Moral., cap. 7.",
+      "column": "532b",
+      "chunk": 5
+    },
+    {
+      "raw": "HIERON., epist. 130, tom. I.",
+      "column": "532c",
+      "chunk": 5
+    },
+    {
+      "raw": "HIERON., lib. de loc. Hebr.",
+      "column": "532c",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG. de Civ., cap. 34.",
+      "column": "532c",
+      "chunk": 5
+    },
+    {
+      "raw": "GREG., lib. 24 Moral., cap. 13.",
+      "column": "532c",
+      "chunk": 5
+    }
+  ],
+  "heads": [
+    {
+      "la": "PRAEFATIO.",
+      "column": "521a",
+      "chunk": 0,
+      "en": "PREFACE."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "521c",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "522a",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "522d",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "524b",
+      "chunk": 1,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "525a",
+      "chunk": 2,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "526b",
+      "chunk": 2,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "527b",
+      "chunk": 2,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "528a",
+      "chunk": 3,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "528c",
+      "chunk": 3,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "529a",
+      "chunk": 3,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "529b",
+      "chunk": 4,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "530d",
+      "chunk": 4,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "531a",
+      "chunk": 4,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "531c",
+      "chunk": 4,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "531c",
+      "chunk": 4,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "532a",
+      "chunk": 5,
+      "en": "CHAPTER XVI."
+    },
+    {
+      "la": "CAPUT XVII.",
+      "column": "532b",
+      "chunk": 5,
+      "en": "CHAPTER XVII."
+    },
+    {
+      "la": "CAPUT XVIII",
+      "column": "532c",
+      "chunk": 5,
+      "en": "CHAPTER XVIII"
+    },
+    {
+      "la": "CAPUT XIX.",
+      "column": "532c",
+      "chunk": 5,
+      "en": "CHAPTER XIX."
+    },
+    {
+      "la": "CAPUT XX",
+      "column": "532c",
+      "chunk": 5,
+      "en": "CHAPTER XX"
+    },
+    {
+      "la": "CAPUT XXI.",
+      "column": "532c",
+      "chunk": 5,
+      "en": "CHAPTER XXI."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

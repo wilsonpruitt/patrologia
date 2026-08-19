@@ -22,6 +22,7 @@ export const BOOKS = {
   'Jos': 'Josh', 'Judic': 'Judg', 'Ruth': 'Ruth',
   'I Reg': '1Sam', 'II Reg': '2Sam', 'III Reg': '1Kgs', 'IV Reg': '2Kgs',
   'I Par': '1Chr', 'II Par': '2Chr', 'I Esdr': 'Ezra', 'II Esdr': 'Neh',
+  'I Esd': 'Ezra', 'II Esd': 'Neh',
   // Chronicles = Paralipomenon; Migne prints Par./Paral./Paralip. interchangeably —
   // 11551 alone uses two of the three (234b, 236b vs 237b).
   'I Paral': '1Chr', 'II Paral': '2Chr', 'I Paralip': '1Chr', 'II Paralip': '2Chr',

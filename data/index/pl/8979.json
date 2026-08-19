@@ -1,0 +1,179 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3956,
+  "textIdno": 8979,
+  "title": "Epistola I B. Joannis",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "693d",
+  "colLast": "704d",
+  "counts": {
+    "scripture": 10,
+    "fontes": 9,
+    "heads": 6,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
+      "column": "694d",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Cor.6",
+      "refDisplay": "II Cor. VI.",
+      "column": "695a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "698c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.26",
+      "refDisplay": "Psal. XXVI",
+      "column": "698d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.26",
+      "refDisplay": "ID.",
+      "antecedent": "Psal. XXVI",
+      "antecedentColumn": "698d",
+      "ibidResolved": true,
+      "column": "698d",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.21",
+      "refDisplay": "Joan. XXI",
+      "column": "700a",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.21",
+      "refDisplay": "Ibid. XV",
+      "antecedent": "Joan. XXI",
+      "antecedentColumn": "700a",
+      "ibidResolved": true,
+      "column": "700a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Prov.28",
+      "refDisplay": "Prov. XXVIII",
+      "column": "700d",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.12",
+      "refDisplay": "Joan. XII",
+      "column": "703b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Rom.8",
+      "refDisplay": "Rom. VIII.",
+      "column": "703b",
+      "chunk": 4
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BEDA.",
+      "column": "696d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "697d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "698b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "698d",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "699b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "702a",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "702c",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA.",
+      "column": "703c",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA.",
+      "column": "703d",
+      "chunk": 4
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "693d",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "693d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "695b",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "698b",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "701a",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "702b",
+      "chunk": 4,
+      "en": "CHAPTER V."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

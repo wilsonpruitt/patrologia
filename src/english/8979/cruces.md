@@ -539,3 +539,59 @@ cols 703–706, also zero).
    aetenam* (§2.3, §2.7). Their profile is OCR, not compositor.
 3. **0698A** — *filioli.,* the stray full stop inside a lemma (§2.6).
 4. **0701C** — VERS. 7, the crux that most obviously wants an editor's note and has none (§2.1).
+
+---
+
+## §Adjudication — plate read + blind polarity read (2026-08-19)
+
+### ⭐⭐⭐ ELEVEN OF TWELVE SUSPECTED PLATE DEFECTS WERE OURS — see `data/tei-patches/8979.json`
+The translator raised its ten `[sic:]`/`[d:]` sites for a plate read, observing that five had **the profile
+of OCR damage rather than compositor error**. It was right eleven times and wrong once, and **nothing in
+our files could have told us which** — only the plate. pp. 353–357 (cols 695–704) read at 400 dpi, every
+reading taken from a full-resolution crop of the whole line.
+**Patched and re-chunked; ten markers removed from the English.** Three sub-kinds:
+- **line-break damage**, where Migne hyphenates and the transcription mangles the join: *ten-|tatio*,
+  *vin-|cendum*, and **the *ini-|quitatibus* duplication, which spans a COLUMN break** (698D→699A) — our
+  source kept the rejoined whole word AND its tail. No dittography of Migne's; he sets it once.
+- **single-letter OCR substitutions** a compositor does not make: *acciplunt · Creora · apparel · Filil ·
+  aetenam · nis*.
+- **a lost final letter at an unhyphenated line end** (*Latin* for *Latini*) and a spurious full stop
+  inside a lemma (*filioli., manete*).
+⭐ **THE SURVIVOR IS WHY THE READ WAS NECESSARY: `hae eticorum` at 0696D IS MIGNE'S** — a full word-space
+where the *r* belongs, mid-line, no line break to blame, no broken sort. Its `[sic:]` **stands**, and the
+`[sic:]` on every other site would have been a public false claim about the primary witness.
+⚑ **And one of the removals exposed a swallowed word:** "By `[sic: *Creora*]` repetition" had the bracket
+standing in the adjective slot, so deleting it left "By repetition". *Crebra* = "frequent"; supplied.
+⚠ Contrast with 8959 the same day, where the suspicion ran the other way and the plate said the defect
+was **Migne's own**. **The profile of a defect never decides it.**
+
+### Blind read — 3 sites, all repaired
+Reader fenced from this file, all five chunks read against the CORRECTED Latin, with the eleven
+orchestrator-edited sites named for particular attention (they had been edited by an adjudicator, not by
+a translator, and nobody had read them). It reported them faithful, and checked every negative against
+its host individually.
+
+1. **REPAIRED · 0704A · a `[cj:]` STANDING IN THE SLOT OF THE WORD IT MARKS** — the swallow class again,
+   twice in one work. *quoniam cui talia agunt* had been rendered "since **to whom** do such things, they
+   shall not obtain…", which is not a readable clause: the corrupt *cui* was translated **and** the
+   conjecture logged, so the conjecture never reached the English. Now "since **they who** [cj: *cui*;
+   read *qui*] do such things shall not obtain the kingdom of God."
+2. **REPAIRED · 0697A · both relatives re-hosted, and a mis-parse.** *qui … impugnet, qui … exstirpet* are
+   **masculine** and *pestis* is feminine, so they attach to **Antichristi**, not to the plague — and
+   *hujus nequissimi capitis* downstream requires exactly that personal antecedent, which our English had
+   left dangling. Also *praeconia* is neuter plural of *praeconium*, "proclamations", not "heralds"
+   (*praecones*). Both fixed.
+3. **DECLINED as proposed, RESOLVED THE OTHER WAY · the lemma-expansion cluster** (0701A *Quoniam multi.*
+   · 0695C *Justum.* and *Advocatum.*). The reader proposed contracting them to the printed catchword.
+   **Declined: expansion is never the defect, CONFORMATION is**, and convention 3 renders a fragment as
+   the phrase it stands for. ⚑ **Its control was mixed, for the third time in two batches:** of the three
+   "fragments kept fragmentary" it cited, *Filioli.* → "Little children." and *Ex ipso.* → "Of him." are
+   **complete phrases with nothing elided**, not clipped lemmata. Only *Non quasi nos.* was the same
+   class — so the work held three expansions against one stump, and **the stump was expanded** to
+   *"Not as though we had loved God"* (1 Jo 4:10, *non quasi nos dilexerimus Deum*), confirmed by the
+   gloss's own next words, *Non prius dileximus*. Same resolution as 8998's *Nolite.* this morning.
+
+⚑ Reader's most valuable rejection: **0699B *Hoc ipsum quod qui justus est ab illo justus est*** — a
+sentence asserting nothing, which is the **dropped-line signature** found in 8962 today. It checked the
+Latin on disk, found it equally verbless, and **flagged the site without proposing words**. Correct on
+both counts.
