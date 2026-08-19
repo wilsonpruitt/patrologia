@@ -1,6 +1,12 @@
 raw/*
 !raw/html
-sources/
+# NB: 'sources/*' not 'sources/' — git will not descend into an excluded
+# DIRECTORY, so a child negation below it can never re-include anything.
+sources/*
+# ...except the Clementine Vulgate: 8MB, public domain, and the whole point is
+# that it is always present — an absent Vulgate is what forced agents to collate
+# from memory (see sources/vulgate/README.md).
+!sources/vulgate/
 *.pdf
 *.zip
 .DS_Store

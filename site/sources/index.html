@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sources — Migne</title>
+<meta name="description" content="Where the Latin and Greek text of this edition comes from: the corpora, their origins, and their checksums.">
+<link rel="canonical" href="https://migne.app/sources/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Migne">
+<meta property="og:title" content="Sources — Migne">
+<meta property="og:description" content="Where the Latin and Greek text of this edition comes from: the corpora, their origins, and their checksums.">
+<meta property="og:url" content="https://migne.app/sources/">
+<meta property="og:image" content="https://migne.app/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sources — Migne">
+<meta name="twitter:description" content="Where the Latin and Greek text of this edition comes from: the corpora, their origins, and their checksums.">
+<meta name="twitter:image" content="https://migne.app/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<header class="bar">
+  <a class="wordmark" href="/">MIGNE<span class="tld">.APP</span></a>
+  <nav>
+    <a href="/latina/">Latina</a>
+    <a href="/graeca/">Græca</a>
+    <a href="/authors/">Authors</a>
+    <a href="/queue/">The Queue</a>
+    <a href="/scripture/">Scripture</a>
+    <a href="/sources/" aria-current="page">Sources</a>
+    <a href="/method/">Method</a>
+    <a href="/migne/">Migne</a>
+  </nav>
+</header>
+<main class="page">
+  <h1>Sources</h1>
+  <p class="lede">This edition does not transcribe Migne afresh. The Latin and Greek
+  come from existing machine-readable corpora, listed here with their origins so that
+  anyone can fetch the same text and check our work against it.</p>
+
+  <h2>The corpora</h2>
+<div class="src">
+  <h3>raw/mirrors/Patrologia_Latina_1-221.zip</h3>
+  <p class="origin"><a href="https://archive.org/download/patrologia-latina_1-221/Patrologia_Latina_1-221.zip">https://archive.org/download/patrologia-latina_1-221/Patrologia_Latina_1-221.zip</a></p>
+  <p class="meta">335 MB · fetched 2026-07-02</p>
+  <p class="sha" title="6a92ac2bda86e1315203d24b6330fe946d687b9a1e5969c7a08f24bb7e5d35fd">sha256 6a92ac2bda86e131…</p>
+  <p class="note">all 221 PL volumes as text PDFs; corpus-level preservation mirror</p>
+</div>
+<div class="src">
+  <h3>sources/pg/calfa/</h3>
+  <p class="origin"><a href="https://github.com/calfa-co/Patrologia-Graeca">https://github.com/calfa-co/Patrologia-Graeca</a> (depth-1 clone)</p>
+  <p class="meta">fetched 2026-07-02</p>
+  
+  <p class="note">33 PG volumes, ~6M words, Greek-only OCR (CER 1.05%); Zenodo: tagged corpus 19915273, ground truth 20008699</p>
+</div>
+<div class="src">
+  <h3>sources/pl/tei/</h3>
+  <p class="origin"><a href="https://mlat.uzh.ch">https://mlat.uzh.ch</a> php_modules/download.php?type=file-xml (Corpus Corporum, corpus 38)</p>
+  <p class="meta">fetched in progress</p>
+  
+  <p class="note">5,277 texts / 85.5M words; TEI with &lt;pb n="NNNNA"/&gt; column+section markers; CC text ultimately derives via Open Greek and Latin patrologia_latina-dev</p>
+</div>
+
+  <h2>Greek works, source by source</h2>
+  <p class="idx-note">The Greek series needs saying work by work: Migne prints a Latin
+  translation beside the Greek, and this edition translates from the Greek while using
+  that Latin column only as a check.</p>
+<div class="src">
+  <h3>Oecumenius of Tricca, <i>Commentarius in Epistolam ad Philippenses</i></h3>
+  <p class="meta">PG 118, 1260–1325</p>
+  <p><span class="lbl">Greek text</span> Calfa Patrologia Graeca OCR corpus (CC BY 4.0)</p>
+  <p><span class="lbl">Latin verifier</span> src/pg-latin/oecumenius-philippians/</p>
+  
+</div>
+<div class="src">
+  <h3>Joel, <i>Chronographia compendiaria</i></h3>
+  <p class="meta">PG 139, 223–288</p>
+  <p><span class="lbl">Greek text</span> Calfa Patrologia Graeca OCR corpus (CC BY 4.0)</p>
+  <p><span class="lbl">Latin verifier</span> Leo Allatius's Latin version (1651), printed in Migne's parallel column; scan OCR in raw/scans/pg139/</p>
+  <p><span class="lbl">Editions</span> F. Iadevaia, Ioel, Cronografia compendiaria (Messina 1979); PG text reprints Allatius</p>
+</div>
+<div class="src">
+  <h3>Nicetas of Maroneia, <i>Dialogi de processione Spiritus Sancti (dial. I + fragments II–VI)</i></h3>
+  <p class="meta">PG 139, 169–221</p>
+  <p><span class="lbl">Greek text</span> Calfa Patrologia Graeca OCR corpus (CC BY 4.0)</p>
+  <p><span class="lbl">Latin verifier</span> src/pg-latin/nicetas-maroneia-dialogi/</p>
+  
+</div>
+<div class="src">
+  <h3>Isidore Glabas, <i>Sermo I in Nativitatem B. Mariam Virginem</i></h3>
+  <p class="meta">PG 139, 11–40 (partial col 40; sermon ends mid-column, Sermon II opens in the same column)</p>
+  <p><span class="lbl">Greek text</span> Calfa Patrologia Graeca OCR corpus (CC BY 4.0)</p>
+  <p><span class="lbl">Latin verifier</span> src/pg-latin/isidore-glabas-sermo-1/</p>
+  
+</div>
+<div class="src">
+  <h3>Isidore Glabas, <i>Sermo II in Praesentationem B. Mariae Virginis</i></h3>
+  <p class="meta">PG 139, 40–72 (partial at both ends: opens mid-col 40 where Sermon I closes, ends near the top of col 72 where Sermon III opens)</p>
+  <p><span class="lbl">Greek text</span> Calfa Patrologia Graeca OCR corpus (CC BY 4.0)</p>
+  <p><span class="lbl">Latin verifier</span> true</p>
+  
+</div>
+<div class="src">
+  <h3>Isidore Glabas, <i>Sermo III. In Annuntiationem gloriosae et gratia plenae Dominae nostrae Deiparae et semper Virginis Mariae</i></h3>
+  <p class="meta">PG 139, 72–117 (partial at both ends: opens mid-col 72 where Sermon II closes, ends partway through col 117 where Sermon IV opens)</p>
+  <p><span class="lbl">Greek text</span> Calfa Patrologia Graeca OCR corpus (CC BY 4.0)</p>
+  
+  
+</div>
+<div class="src">
+  <h3>Dorotheus of Gaza (Dorotheus Archimandrita), <i>Epistolae ad diversos</i></h3>
+  <p class="meta">PG 88, 1837–1842</p>
+  <p><span class="lbl">Greek text</span> ours-vision-ocr</p>
+  
+  
+</div>
+
+  <h2>Column numbers</h2>
+  <p>Column references throughout follow the <strong>original Migne plates</strong>, not the
+  Garnier reprints, whose columns differ. A citation such as <code>migne.app/pl/139/473a</code>
+  resolves against the original.</p>
+</main>
+<footer class="colophon">
+  <p class="motto">Du bon, à bon marché — carried to its limit: <span class="free">the good, free.</span></p>
+  <p class="fine">A WROOT PRESS WORK · THE TEXTS ARE THE CHURCH'S · THE SITE IS YOURS</p>
+  <p class="fine rights">The Latin and Greek are public domain. The English translations, notes, and structured text are &copy; 2026 Wilson Pruitt, licensed <a href="/rights/">CC BY&#8209;NC&nbsp;4.0</a> &mdash; free to share and build on, not to sell. <a href="/rights/">Commercial use, ask.</a></p>
+</footer>
+
+</body>
+</html>
+
+</body>
+</html>

@@ -79,6 +79,32 @@ These were settled on **Liber Ruth (8968)**, the pilot; the full statement is
 - Defect markers are ENGLISH-ONLY, patterns 11–13: `[d: …]`, `[sic: …]`, `[ed: …]`. Read
   those patterns before using any of them.
 
+## ✅ THE VULGATE IS NOW ON DISK — collate against it, not from memory
+
+Added 2026-08-19, because four calls in one batch were declined or hedged for want of it and two were
+settled only from an agent's recollection.
+
+**`sources/vulgate/clementine-flat.txt`** — grep this. One verse per line, `Book C:V<TAB>text`,
+35,811 verses, all 73 books of the Clementine canon including Tobit, Judith, Esther, Wisdom and
+Sirach. Ligatures are expanded (`quae`, not `quæ`) **to match Corpus Corporum's orthography in
+`src/latin/`**, and the source's poetic markup is stripped, so a phrase search actually works.
+**`sources/vulgate/clementine/<Book>.lat`** holds the faithful text with ligatures and layout intact —
+cite from those; search the flat file.
+
+⚠ **It is the CLEMENTINE**, which is the right comparand: it is the text Migne's own lemmata are
+measured against. Read `sources/vulgate/README.md` before relying on an edge case — it records the
+release, the normalizations, and the fact that later upstream corrections are **not** applied, so a
+call turning on a single letter should say so rather than trust this copy to that precision.
+⚠ Book abbreviations are the source's own and four are easily confused: **`Jo` = John, `Jud` = Jude,
+`Jdc` = Judges, `Jdt` = Judith.**
+
+⛔ **What this changes: "declined for want of a Vulgate" is no longer an available answer.** Look it up.
+⛔ **And a `[var:]` is a public claim about another text — it must rest on this file, never on
+recollection.** That rule was written before the text was on disk and it still holds: when 8960's
+reader leaned *autem* at Jdt 7:7 from a stylistic inference and **declined to log it**, the lean was
+**wrong** — the Clementine reads *tamen*, exactly as Migne prints it, and there is no divergence at
+all. The decline was right. Now you can simply check.
+
 ## ⚠⚠ 7a″ — NAME THE WORDS. The divergence list IS the deliverable.
 
 **This is the class that beat Ruth.** Ruth's blind read found **not one polarity defect** —
