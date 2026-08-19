@@ -18,6 +18,12 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-18 session: the Glossa's second cadence batch, four epistles and its first Old Testament book since Ruth —
+  'pl/113/liber-tobiae',                                          // Anselm of Laon and his school — the gloss on Tobit, read from Bede as an allegory of the Church; lemmata in guillemets, and Migne abridging his source seventeen times with etc., usque ad
+  'pl/114/epistola-ii-b-petri',                                   // Anselm of Laon and his school — the gloss on 2 Peter; the false teachers and the day that comes as a thief, with Migne's lemma printing indoctas where the Vulgate has doctas
+  'pl/114/epistola-ii-ad-timotheum',                              // Anselm of Laon and his school — the gloss on 2 Timothy; the deposit guarded, the soldier unentangled, and a lemma that drops the patience its own exposition rests on
+  'pl/114/epistola-ii-ad-thessalonicenses',                       // Anselm of Laon and his school — the gloss on 2 Thessalonians; the man of sin and the restrainer, with Migne's refuga for the Vulgate's discessio — a deserter, not a departure
+  'pl/114/epistola-i-ad-thessalonicenses',                        // Anselm of Laon and his school — the gloss on 1 Thessalonians; the dead in Christ and the day as a thief, and a lemma preserving an Ore the Vulgate does not print
   // — 2026-08-18 session: the Glossa's first cadence batch, five short New Testament books —
   'pl/114/epistola-ad-titum',                                     // Anselm of Laon and his school — the gloss on Titus; presbyters and bishops held apart, and the identification left as Migne's own act
   'pl/114/epistola-catholica-judae',                              // Anselm of Laon and his school — the gloss on Jude; the fallen angels, Cain and Balaam and Core, and a verse Migne misnumbers
