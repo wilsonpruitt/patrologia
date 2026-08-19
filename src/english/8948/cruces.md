@@ -74,7 +74,27 @@ imported a word from the Vulgate, and the two cases were decided **opposite ways
 ⚑ **The rule this book adds: complete a fragment freely, EXCEPT where the completion would
 supply or move a negative. There the stump wins.**
 
-### (c) Migne's own dropped `« ` is not ours to restore
+### (c) ⭐ A BRACKETED SUPPLY BELONGS IN GLOSS PROSE, NEVER INSIDE A GUILLEMETED LEMMA
+
+**The rule, and the remaining OT books inherit it: bracketed supplies belong in gloss prose.
+Inside a guilleted lemma a bracket of ours reads as an interpolation into Migne's quoted
+scripture, not as a supplied word in our own sentence, and the supply must therefore be made
+in the surrounding prose or not made at all.**
+
+The case that set it: at 0747A the lemma `« Et plurimum posse cognoverant. »` has its
+antecedent **genuinely off the page** — the *quem* (Mardochaeus) that the abridgment cut off
+sits in the previous verse — so bracketing "he" as `[Mardochaeus]` was offered, at nil risk,
+because there is no competing candidate. **Declined anyway**, and the ground is the
+convention rather than the risk: the supply would sit inside a quoted verse, and a reader
+cannot tell our bracket from an editorial insertion into scripture.
+
+Checked before ruling: **every bracketed supply in this work, and in Tobit (8970) and Judith
+(8960), is in gloss prose.** The practice was already uniform and undeclared; this states it.
+⚑ Where a lemma genuinely needs its referent named, name it in the gloss sentence that
+follows — which is what this book does at 0742C (*Hanc… revocavit*, §5.3) — or leave it in
+the cruces.
+
+### (d) Migne's own dropped `« ` is not ours to restore
 
 Three lemma-openings in this book lose their opening guillemet **and the space after `--`
 with it** (§3). The English reproduces both the missing mark and the missing space, e.g.

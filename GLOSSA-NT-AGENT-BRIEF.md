@@ -222,6 +222,12 @@ matched. But the negative belongs on `solus`, not on `habeat`: idolatry's aim is
 fail to have the name of deity, but that he should not have it **alone**. The `sicut … ita` parallel
 pivots on *solus*, **affirmed** of the covetous man (`ut solus usurpet`) and **denied** of God.
 
+⭐ **The sharpest statement of the hole, from the Esther translator, who found it from the other end:
+test 2 validates THE MAPPING YOU PROPOSE, not the mapping the Latin makes.** Colossians hit it as a
+wrong *identification* of the host passing cleanly; Esther hit it as a negative correctly attached to
+`omnem` and still landing in the wrong place in English. Same gap, both ends. ⛔ Esther's own pass had
+already caught the identical class two columns away and still did not see the second one.
+
 ⚑ **Trigger condition — fire on exactly this population:** a negative resting on a **verb** with a
 **quantifier, correlative or predicate** nearby (*solus*, *omnis*, *omnino*, *solum*, *tantum*, a
 `non solum … sed`, a `sicut … ita` pivot). Both sites that beat the test in that book had a

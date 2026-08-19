@@ -160,7 +160,7 @@ they are counted in the 140 and excluded from the 136.)*
 | 0605C | *Sed illam,* | 9 *sed illam, quae ex fide est Christi Jesu* | **agrees** (fragment) |
 | 0605C | *Justitia in fide.* | 9 *quae ex Deo est justitia in fide* | **agrees** |
 | 0605C | *Ad cognoscendum.* | 10 *ad cognoscendum illum* | **agrees** (fragment) |
-| 0605D | *Occurram.* | 11 *si quo modo occurram ad resurrectionem* | **agrees** |
+| 0605D | *Occurram.* | 11 *si quo modo occurram ad resurrectionem* | **agrees**; ⚠ the ENGLISH was wrong and is repaired — §11, repair 1 |
 | 0606A | *Non quod jam acceperim.* | 12 *non quod jam acceperim* | **agrees exactly** |
 | 0606A | *Sequor autem,* | 12 *sequor autem* | **agrees exactly** |
 | 0606A | *Si quo modo comprehendam.* | 12 *si quo modo comprehendam* | **agrees exactly** |
@@ -541,7 +541,7 @@ and the false apostles all move through these paragraphs.
 | 0601D | *ut participes habeat in Deo* | "that **he** may have **them**" | *he* = Paul (subject of *determinat*); *them* = the Philippians, from *eos esse socios gaudii sui* in the previous sentence. ⚠ Two readings construe — *habeat* could be Christ — and **Paul is taken** because the whole sentence explicates *quod supra dixit*, Paul's own wish. |
 | 0602B | *Constantia enim **ejus** multos ita animavit* | "**his** constancy" | ⚑ ***ejus*, not *sua*** — Migne's printed instruction that the possessor is **not** the subject of the verb. The subject is *Constantia*; the possessor is **Paul**, from *vincula mea* in the lemma above. This is the class that cost 2 Timothy a repair. |
 | 0602B | *praedicant secundum quod eos convici* | "**they** preach… **I** convicted **them**" | *they/them* = the *quidam* of the lemma (the contentious preachers); *I* = Paul, from *a me*. |
-| 0602C | *Pro hac vita mortale corpus tradidit, ut ipsum immortale in aeternum recipiat* | "**he** delivered up **his** mortal body" | **Paul.** Decided by the next clause, *unde et **subdit** et mori lucrum* — the same unnamed subject is the one who *adds* the words of v. 21, which only Paul does. ⚠ Christ construes grammatically and is the theologically expected reading of *tradidit corpus*; it is **rejected** because *recipiat* is future-subjunctive of a body not yet received, and because the whole gloss is first-person Paul (*magnifico*, *mihi vita*). Named because a blind reader will test it. |
+| 0602C | *Pro hac vita mortale corpus tradidit, ut ipsum immortale in aeternum recipiat* | "**he** delivered up **his** mortal body" | **Paul** — and the decisive clause is the one immediately BEFORE, not the one after: *mihi vita **hic** per fidem et spem, et **in futuro** per speciem*. The man who trades a mortal body for *that* life is the man for whom Christ is life, and *ut ipsum immortale in aeternum recipiat* lands squarely on the *in futuro per speciem* just established. **Christ does not surrender a body in exchange for being Paul's life.** ⚠ My first argument here was *unde et **subdit*** — **that argument is withdrawn as worthless**, since the subject of *subdit* is Paul on either reading and so cannot discriminate between them. Corrected 2026-08-18 after the blind read, which upheld the conclusion and demolished the reasoning. Christ construes grammatically and is the theologically expected reading of *tradidit corpus*; it stays rejected on the ground above. |
 | 0602D | *Ecce quod non sibi melius … eligit* | "**he** chooses" | **Paul**, subject of the whole VERS. 24 gloss. |
 | 0603C | *Praemittit alta de Christo* | "**He** sets high things" | **Paul.** |
 | 0603C | *Usurpando quod suum non esset, ut diabolus et primus homo* | *no pronoun supplied* | The Latin has a bare gerund and the English keeps it bare ("By usurping what would not be his own, as did the devil and the first man"). ⚑ Supplying "he" here would have made **Christ** the usurper — the exact inversion of the gloss. |
@@ -668,6 +668,9 @@ English are 0605D (*Christi Et*) and 0606B (*quid me qui de aliis?*), and both a
 | *conversatio* | **conversation** (IV) / **manner of life** (*Habitu.* Id est conversatione, II) | ⚠ deliberately two: at 0607A it is the lemma word of III, 20 and must survive as such; at 0603D it is a gloss ON *habitu* and "conversation" would gloss nothing |
 | *sapere* / *sapientia* | "to be minded" / "to be wise" | *idem sapere* → "be of the same mind"; *terrena sapere* → "to be wise in earthly things" |
 | *subdit* / *addit* / *adjungit* / *apponit* | subjoins / adds / joins / puts beside | four verbs, four Englishes |
+| *occurrere* | **to meet** | ⚑ **fixed AFTER the blind read.** The lemma *Occurram* and both re-quotations in its own gloss (*occurram Christo*, *occurrent Domino*) now carry one English verb. See §11, repair 1 |
+| *assequi* | **to attain** | freed for this verb alone once *occurram* stopped taking it |
+| *pervenire* | **to come (to)** | *ad quod pervenimus* ×3 → "whereunto we have come"; *perventor* → "one arrived" |
 | *usque ad* | ***as far as*** | 8978 §205, five books now; **no verb ever supplied after it** |
 | *latria*, *dulia* | left Latin, roman | §4 |
 | **thou/thee/thy** | **only** at 0605C | the one singular address in the work (*tua*, *tu tibi*, *te*, *praesumis*): Pattern 17, singular. **Everywhere else the addressee is the Philippians, plural, and takes "you"** — including every imperative. |
@@ -698,7 +701,8 @@ English are 0605D (*Christi Et*) and 0606B (*quid me qui de aliis?*), and both a
   "**[gives it]**" **in square brackets**, our standing convention for a supplied word, rather
   than silently inventing a verb.
 - **All 32 column anchors** counted in the Latin before writing and in the English after; all
-  eight `[n:]` likewise; all five `?` likewise.
+  eight `[n:]` likewise; all five `?` likewise. ⚠ **Counting is not placing** — one of the 32
+  was in the wrong place and no count could see it. See §11, repair 3.
 
 ### The three tests from the brief, run on these files
 
@@ -741,3 +745,182 @@ English are 0605D (*Christi Et*) and 0606B (*quid me qui de aliis?*), and both a
 7. **0607D, *surpasseth* / *surmounts*.** A pair of English words chosen to keep two Latin
    verbs apart. If the edition would rather both read "surpasses", the change is trivial and
    the divergence is recorded here either way.
+
+---
+
+## §11 · THE BLIND POLARITY READ — 2026-08-18, and the adjudication
+
+A blind reader that never saw this file read all four chunks. **Eight sites, two substantive.
+All eight repaired.** `verify-english.mjs` re-run clean; band test re-run to **0 mismatched
+bands**; italic-span parity re-checked and now **exact** (68 / 58 / 84 / 70, markers stripped).
+
+### Upheld
+
+- **The Carmen Christi zero (§3) stands, and for the right reason.** The reader collated all
+  twelve lemmata independently and confirms Migne's printed text there genuinely agrees with
+  the Clementine — so there was nothing to conform. Both documented hazards verified: the two
+  placements of *non* at 0603C are distinct in the English and each sits where Migne puts it,
+  and *infectus* → "unmade" preserves the play against *Factus* where "uncreated" would have
+  read better and killed it.
+- **0604B, the *De dono perseverantiae* excerpt — clean on all five negatives.** The densest
+  site in the work, named in §10 as the one to hit hardest, held.
+- **0603B `*Superiores,*` left bare — endorsed.** An expanded lemma would pre-empt its own
+  exposition.
+- **The single `[sic:]` at 0606D passes the swallow test.** Rendering stands beside the marker.
+- **0602C `Pro hac vita … tradidit` — "Paul" is correct**, but my *argument* was worthless and
+  is replaced in §5. See there.
+
+### ⭐⭐⭐ Repair 1 · 0605D (VERS. 11) · *Occurram* — A VULGATE CONFORMATION THAT SEVERED THE GLOSS'S OWN HINGE
+
+**Was:** "*I may attain.*" — Douay's rendering of Phil. III, 11. **Now: "*I may meet.*"**
+
+The whole gloss exists to expound *occurram* in its literal sense: *occurram Christo in
+judicio* · *occurrent Domino in aera deportati ab angelis* — the running-out-to-meet of
+1 Thess. IV, 17. I rendered that same verb **"meet" twice within four lines and the lemma
+itself "attain"**, so an English reader could not see that the "meet" of the exposition was the
+lemma's own word.
+
+⚠ **Aggravated by a collision I had not noticed:** "attain" was also doing duty for *assequi*
+at 0606C (*illam non assequitur*). Two Latin verbs on one English word — and the one that lost
+its identity was **the one being glossed**. Fixed by giving each verb its own English (§8):
+*occurrere* = meet · *assequi* = attain · *pervenire* = come. That third move required changing
+*ad quod pervenimus* from "whereunto we have attained" to "whereunto we have come" in all three
+places.
+
+⛔ **This is 7a″ exactly, and it landed where I was not watching.** §1 records the lemma as
+"**agrees**" with the Vulgate — which is true, and which is precisely why the guard was down:
+**a lemma that agrees with the Vulgate still has to be TRANSLATED from the Latin.** 7a″ is
+usually described as conforming a *divergent* lemma to the familiar English; this is the other
+half of the class, where the Latin agrees and the familiar English is still the wrong word
+because the gloss is built on the Latin verb's own sense. The next translator should read the
+divergence list as **not covering** this.
+
+⚠ **`[var: Douay "I may attain"]` was offered and is DECLINED.** Pattern 14 marks a divergence
+between **Migne's printed scripture and the received text**; here Migne prints the Vulgate's
+own word and there is no textual divergence at all — only a difference between our literal
+rendering and Douay's. A `[var:]` there would tell a reader that the Latin diverges when it
+does not. The received English rendering is recorded here instead, which is where a note about
+a translation belongs.
+
+### ⭐⭐⭐ Repair 2 · 0607A (VERS. 1) · THE LEMMA HALF-CONFORMED TO THE READING ITS OWN MARKER FLAGS
+
+Migne prints `*Gaudium, et consolatio.*` — **no possessives.** I wrote "*My joy, and my
+consolation.*", supplying two, unbracketed — **and the words supplied were exactly *meum* and
+*mea*, which the `[var:]` on the same line declares to be the Vulgate's text and not Migne's.**
+The lemma and its own apparatus contradicted each other on one line.
+
+**Now: "*Joy, and consolation.*"** — the marker's claim and the text's rendering agree.
+
+⚑ Worth stating plainly, because it is a new shape: **the conformation hid inside the very
+entry that was catching the conformation.** §4 argued *consolatio* against *corona* correctly
+and at length, and while doing it imported the two possessives from the same verse. Marking a
+divergence in one word is no protection at all for the words beside it.
+
+### ⭐⭐⭐ Repair 8 · the 0607A `[var:]` reworded to carry its own inference
+
+The marker recorded that the Vulgate reads *corona mea* — but not the thing that matters. It
+now reads: `[var: Vulg. *gaudium meum, et corona mea*, "my joy and my crown". The gloss printed
+beneath this lemma expounds the crown and nothing else, and leaves Migne's own word unglossed]`
+so that a reader meets the inference (the Glossa's exemplar read *corona*; Migne's lemma is
+corrupt at that word) rather than having to assemble it from the facing column.
+
+### ⭐⭐ Repair 3 · 0601D · A COLUMN ANCHOR ~55 ENGLISH WORDS DOWNSTREAM
+
+Migne breaks the column at *Id est intimo* | *[0601D] amore Christi*. My anchor had migrated to
+the **second** occurrence of *amore Christi*, three sentences later — so the locator pointed a
+reader at the wrong fifth of the column. Moved to "with the inmost [0601D] love of Christ".
+
+⛔ **The limitation this exposes, and it is the line I most want the next translator to have:
+AN ANCHOR CAN BE PRESENT, VERBATIM, AND IN THE RIGHT ORDER, AND STILL BE IN THE WRONG PLACE.**
+`verify-english.mjs` checks anchors for presence and order, not position, so a displaced anchor
+passes silently. ⚑ **And the band test does not catch it either**, which I can now state as a
+measured fact rather than a worry: the ~55 words that moved between bands 0601C and 0601D
+contain **no colon, semicolon or question mark**, so the band comparison returned **0 mismatches
+both before and after the repair**. Two independent mechanical checks, and the site is invisible
+to both. Column anchors are the citation-resolving unit of this edition; **the only test for
+their position is reading the twin at the anchor**, and it costs one pass. The other 31 are
+exact to the word, including the ones deliberately split mid-construction to match Migne
+(*non [0605B] recedentes* → "not [0605B] departing"), which is what made this one anomalous
+against my own standard rather than against a rule.
+
+### ⭐⭐ Repair 4 · 0608B · A CONNECTIVE ADDED INSIDE LEMMA ITALICS
+
+Migne's italicised lemma is *modo refloruistis*, **two words**. My English lemma carried three
+— "*but now you have flourished again*" — while his actual *sed*, which stands **outside** the
+lemma, was separately rendered "whereas." The connective had been duplicated and half of it
+pushed **inside quoted Scripture**. Now: "*now you have flourished again,* but before you were
+occupied…" ⚑ Italic-span parity could not see this: the span count was right, only its contents
+were wrong.
+
+### ⭐ Repair 5 · 0606C · AN *et … et* CORRELATIVE FLATTENED
+
+*et propter illam quae jam inerat, perfectum, **et** propter istam quae adhuc deerat imperfectum
+se esse dicebat.* The first *et* was unrendered. The pair is "both … and", and the sentence's
+whole point is the **simultaneity** of the two self-descriptions — the Titus-*ita* class, where
+the correlative is what marks a paradox as deliberate rather than as an inconsistency. Now:
+"said that he was **both** perfect, on account of that which was already within, **and**
+imperfect, on account of this which was still wanting."
+
+### ⭐ Repair 6 · 0605D · A SUPPLIED POSSESSIVE MOVING TOWARD THE VULGATE, AND A BRACKETING INCONSISTENCY
+
+*et configurationem **mortis*** → I had "the conformation of **his** death", unbracketed; the
+"his" is the Vulgate's *morti **ejus*** (Phil. III, 10), which Migne does not print. Now
+**"[his]"**.
+
+**And the bracketing practice is now consistent throughout**, which it was not: I bracketed
+`[gives it]` at 0608C and then left two other gapping recoveries bare within eight lines of it.
+All three gapped verbs are now bracketed — `[gives it]` (0608C, *tribuit* serving two limbs),
+`[guards]` (0608A, *custodit* gapped in *quisquis autem famam*), `[did it]` (0608C, the raven
+clause) — as is `[loved]` at 0601D. **The rule I am now holding: any English word supplied to
+fill a Latin ellipsis is bracketed, every time.**
+
+### ⭐ Repair 7 · 0604A · *ejus* LOSING ITS PRINTED SIGNAL
+
+*nunc de claritate **ejus** … ostendit* → was "now he shows concerning **his** glory", where
+English "his" reads by default as the subject's. ***ejus*, not *sua*, is Migne's printed
+instruction that the possessor is not the subject**: Paul shows, the glory is Christ's. Now
+"concerning **his [Christ's]** glory."
+
+⚑ §5 had **already identified this site and named the mechanism correctly** — and left the
+English alone. That is the 7a′ failure exactly ("a logged column is not a checked column"), and
+it is worth recording that it happened here in the very table built to prevent it. The other
+*ejus* at 0602B (*Constantia enim ejus*) reads "his constancy" with **Paul** the possessor and
+*Constantia* the subject, so there is no pronoun there to mis-bind; it needed no repair and got
+none.
+
+### ⭐ THE TWO-READING SITE, DECIDED · 0606D · *ut omnes idem de illo sapiamus*
+
+*de illo* is masculine **or** neuter — the form does not decide it, and a flag is not a decision.
+**Decided: NEUTER.** The English now reads "that we all be of the same mind concerning **that
+same thing** *whereunto we have come* by faith and knowledge" (was: "concerning **him**").
+
+**For the neuter:**
+1. **The relative that follows is neuter and immediately adjacent** — *de illo, **ad quod**
+   pervenimus*. Read as one referent the sentence is seamless; read as two it has a masculine
+   antecedent and a neuter relative side by side with nothing between them.
+2. **The subject of the whole gloss is a thing, not a person** — the *regula disciplinae*, and
+   *quod commune sit et modestum in veritate evangelica*, three lines above; and the lemma it
+   closes on is *et in eadem permaneamus **regula***.
+3. **No person has been named for several lines**, and the nearest masculine noun (*ad cultum
+   **Dei***) is a genitive inside another clause, reached across an intervening *subdit*.
+4. **The paragraph before it has live neuter-ish deixis** in *istam … illam* for the two
+   righteousnesses, so *ille* is already working as a pointer rather than as a person.
+
+**Against it, honestly:** the paragraph's frame *is* *ad cultum Dei excogitaveritis*, so "of one
+mind concerning **him**" construes and is not strained; and if the Glossa meant the neuter, *de
+eo* or *de eodem* would have been the ordinary choice. **The reading was taken on (1) — the
+adjacency of *ad quod* — which is textual rather than thematic**, and a later editor who
+prefers the masculine has the case for it above, in full, rather than a bare flag.
+
+### Sites the reader raised that needed no change
+
+None. All eight were taken, and the two-reading site was decided rather than re-flagged.
+
+### What this read changes about §10
+
+**§10's list was wrong about where the risk was.** It named 0604B (clean), 0603C (clean), 0602C
+(conclusion right), 0603B (endorsed) and 0606D-*circumcicis* (confirmed on the plate). The two
+substantive defects were at **0605D** and **0607A** — one lemma I had recorded as *agreeing*
+with the Vulgate, and one lemma I had spent a starred crux entry arguing about. ⭐ **The lesson
+generalises: the passages a translator flags are the passages a translator has already read.
+The defects were in the two places I had written down as settled.**
