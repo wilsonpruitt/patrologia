@@ -1,0 +1,663 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3923,
+  "textIdno": 8946,
+  "title": "Liber Ecclesiastes",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "1115d",
+  "colLast": "1126d",
+  "counts": {
+    "scripture": 22,
+    "fontes": 65,
+    "heads": 13,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "1117a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "ID.",
+      "antecedent": "Psal. XVIII",
+      "antecedentColumn": "1117a",
+      "ibidResolved": true,
+      "column": "1117a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "1117d",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1118a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gen.2",
+      "refDisplay": "Gen. II",
+      "column": "1118b",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "1118b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Ps.36",
+      "refDisplay": "Psal. XXXVI",
+      "column": "1119c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.35",
+      "refDisplay": "Psal. XXXV",
+      "column": "1119c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Jer.1",
+      "refDisplay": "Jerem. I",
+      "column": "1120b",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Sam.6",
+      "refDisplay": "II Reg. VI",
+      "column": "1120c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "1120d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.14",
+      "refDisplay": "Matth. XIV",
+      "column": "1121c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.14",
+      "refDisplay": "ID.",
+      "antecedent": "Matth. XIV",
+      "antecedentColumn": "1121c",
+      "ibidResolved": true,
+      "column": "1121c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.14",
+      "refDisplay": "ID.",
+      "antecedent": "Matth. XIV",
+      "antecedentColumn": "1121c",
+      "ibidResolved": true,
+      "column": "1121c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Exod.24",
+      "refDisplay": "Exod. XXIV, XXXII",
+      "column": "1122a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Exod.32",
+      "refDisplay": "Exod. XXIV, XXXII",
+      "column": "1122a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Prov.27",
+      "refDisplay": "Prov. XXVII",
+      "column": "1123a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "1123b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Gal. V.",
+      "column": "1123c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Mal.1",
+      "refDisplay": "Mal. I",
+      "column": "1123c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.68",
+      "refDisplay": "Psal. LXVIII",
+      "column": "1125a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Col.2",
+      "refDisplay": "Col. II",
+      "column": "1125a",
+      "chunk": 3
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Vide inter Opera Hieronymi, tom. III.",
+      "column": "1115d",
+      "chunk": 0
+    },
+    {
+      "raw": "HIERON. in Eccle., t. III.",
+      "column": "1115d",
+      "chunk": 0
+    },
+    {
+      "raw": "ALBINUS.",
+      "column": "1116d",
+      "chunk": 0
+    },
+    {
+      "raw": "HIERON.",
+      "column": "1117a",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1117b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1117b",
+      "ibidResolved": true,
+      "column": "1117b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1117b",
+      "ibidResolved": true,
+      "column": "1117c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1117b",
+      "ibidResolved": true,
+      "column": "1117c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1117b",
+      "ibidResolved": true,
+      "column": "1117c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1117b",
+      "ibidResolved": true,
+      "column": "1117c",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1117d",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1118a",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1118b",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1118c",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1118c",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1118d",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1118d",
+      "ibidResolved": true,
+      "column": "1118d",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1118d",
+      "ibidResolved": true,
+      "column": "1118d",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "1119a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1119a",
+      "ibidResolved": true,
+      "column": "1119a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1119a",
+      "ibidResolved": true,
+      "column": "1119a",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1119b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1119b",
+      "ibidResolved": true,
+      "column": "1119b",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1119d",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1120a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1120a",
+      "ibidResolved": true,
+      "column": "1120a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1120a",
+      "ibidResolved": true,
+      "column": "1120a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1120a",
+      "ibidResolved": true,
+      "column": "1120a",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1120b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1120b",
+      "ibidResolved": true,
+      "column": "1120b",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1120c",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1120c",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1121a",
+      "chunk": 1
+    },
+    {
+      "raw": "HIERON.",
+      "column": "1121a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIERON.",
+      "antecedentColumn": "1121a",
+      "ibidResolved": true,
+      "column": "1121a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIERON.",
+      "antecedentColumn": "1121a",
+      "ibidResolved": true,
+      "column": "1121b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIERON.",
+      "antecedentColumn": "1121a",
+      "ibidResolved": true,
+      "column": "1121b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIERON.",
+      "antecedentColumn": "1121a",
+      "ibidResolved": true,
+      "column": "1121b",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1121c",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER.",
+      "column": "1121d",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1122b",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1122c",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1122c",
+      "ibidResolved": true,
+      "column": "1122c",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1122c",
+      "ibidResolved": true,
+      "column": "1122c",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1122c",
+      "ibidResolved": true,
+      "column": "1122d",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1123a",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1123c",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1123d",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1124a",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1124a",
+      "ibidResolved": true,
+      "column": "1124b",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1124b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1124b",
+      "ibidResolved": true,
+      "column": "1124b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1124b",
+      "ibidResolved": true,
+      "column": "1124b",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "1124c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1124c",
+      "ibidResolved": true,
+      "column": "1124d",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "1125a",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "1125b",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "1125c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1125c",
+      "ibidResolved": true,
+      "column": "1125c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1125c",
+      "ibidResolved": true,
+      "column": "1125c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1125c",
+      "ibidResolved": true,
+      "column": "1125d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "HIER.",
+      "antecedentColumn": "1125c",
+      "ibidResolved": true,
+      "column": "1126a",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "1126a",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "1126b",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "1126c",
+      "chunk": 3
+    }
+  ],
+  "heads": [
+    {
+      "la": "B. HIERONYMI IN LIBRUM ECCLESIASTEN PROLOGUS.",
+      "column": "1115d",
+      "chunk": 0,
+      "en": "THE PROLOGUE OF BLESSED JEROME ON THE BOOK OF ECCLESIASTES."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "1115d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "1119a",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "1120a",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "1121b",
+      "chunk": 1,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "1121d",
+      "chunk": 2,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "1122b",
+      "chunk": 2,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "1123a",
+      "chunk": 2,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "1124b",
+      "chunk": 2,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "1124c",
+      "chunk": 3,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "1125a",
+      "chunk": 3,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "1125b",
+      "chunk": 3,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "1126a",
+      "chunk": 3,
+      "en": "CHAPTER XII."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

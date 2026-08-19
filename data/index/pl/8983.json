@@ -1,0 +1,138 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3960,
+  "textIdno": 8983,
+  "title": "Epistola I ad Timotheum",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "623c",
+  "colLast": "632d",
+  "counts": {
+    "scripture": 4,
+    "fontes": 8,
+    "heads": 7,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.22",
+      "refDisplay": "Matth. XXII",
+      "column": "625a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "627a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "629b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.33",
+      "refDisplay": "Psal. XXXIII",
+      "column": "632b",
+      "chunk": 2
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AMBR.",
+      "column": "624d",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., lib. II contra adversarios legis et Proph., c. 1.",
+      "column": "624d",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., in psal. XXXI.",
+      "column": "625a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., lib. IX de Civit. Dei, c. 15.",
+      "column": "627c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., serm. 93 de Tempore.",
+      "column": "627d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., in Tract. 58 in Joan.",
+      "column": "630b",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., de Bono viduitatis, cap. 8, 9, 10.",
+      "column": "630c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., serm. 16 de Verb. Dom.",
+      "column": "631a",
+      "chunk": 2
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "623c",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "623d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "627a",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "628b",
+      "chunk": 1,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "629b",
+      "chunk": 1,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "629d",
+      "chunk": 2,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "631c",
+      "chunk": 2,
+      "en": "CHAPTER VI."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

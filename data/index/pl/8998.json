@@ -1,0 +1,265 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3975,
+  "textIdno": 8998,
+  "title": "Epistola canonica B. Jacobi",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "671a",
+  "colLast": "680b",
+  "counts": {
+    "scripture": 6,
+    "fontes": 28,
+    "heads": 6,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.22",
+      "refDisplay": "Matth. XXII",
+      "column": "674a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Lev.19",
+      "refDisplay": "Levit. XIX",
+      "column": "674a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Deut.1",
+      "refDisplay": "Deut. I",
+      "column": "674a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Prov.18",
+      "refDisplay": "Prov. XVIII",
+      "column": "676a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.6",
+      "refDisplay": "Rom. VI",
+      "column": "678d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Rom.6",
+      "refDisplay": "ID.",
+      "antecedent": "Rom. VI",
+      "antecedentColumn": "678d",
+      "ibidResolved": true,
+      "column": "678d",
+      "chunk": 3
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BED.",
+      "column": "671b",
+      "chunk": 0
+    },
+    {
+      "raw": "BED.",
+      "column": "672a",
+      "chunk": 0
+    },
+    {
+      "raw": "BED.",
+      "column": "672b",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., Serm. 3 ad fratres in eremo.",
+      "column": "673b",
+      "chunk": 0
+    },
+    {
+      "raw": "BED.",
+      "column": "673c",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "673c",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "674b",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "674c",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "674c",
+      "ibidResolved": true,
+      "column": "674c",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "674d",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "675a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "675a",
+      "ibidResolved": true,
+      "column": "675a",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "675b",
+      "chunk": 1
+    },
+    {
+      "raw": "BED.",
+      "column": "675c",
+      "chunk": 2
+    },
+    {
+      "raw": "BED.",
+      "column": "675d",
+      "chunk": 2
+    },
+    {
+      "raw": "BED.",
+      "column": "675d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "675d",
+      "ibidResolved": true,
+      "column": "676a",
+      "chunk": 2
+    },
+    {
+      "raw": "BED.",
+      "column": "676b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "676b",
+      "ibidResolved": true,
+      "column": "676c",
+      "chunk": 2
+    },
+    {
+      "raw": "BED.",
+      "column": "677c",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "677c",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "678c",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "678d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "678d",
+      "ibidResolved": true,
+      "column": "678d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "678d",
+      "ibidResolved": true,
+      "column": "678d",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "679a",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "679b",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "680a",
+      "chunk": 3
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "671a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "671a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "673b",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "675b",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "677c",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "678b",
+      "chunk": 3,
+      "en": "CHAPTER V."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

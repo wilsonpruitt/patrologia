@@ -1,0 +1,339 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3957,
+  "textIdno": 8980,
+  "title": "Epistola I B. Petri",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "679b",
+  "colLast": "688d",
+  "counts": {
+    "scripture": 11,
+    "fontes": 35,
+    "heads": 6,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "680c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "680d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.13",
+      "refDisplay": "Matth. XIII",
+      "column": "680d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X",
+      "column": "682a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "682a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "ID.",
+      "antecedent": "Matth. V",
+      "antecedentColumn": "682a",
+      "ibidResolved": true,
+      "column": "682b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "685b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.8",
+      "refDisplay": "Psal. VIII",
+      "column": "686d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Job.21",
+      "refDisplay": "Job. XXI",
+      "column": "687d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Job.21",
+      "refDisplay": "ID.",
+      "antecedent": "Job. XXI",
+      "antecedentColumn": "687d",
+      "ibidResolved": true,
+      "column": "687d",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Sam.16",
+      "refDisplay": "I Reg. XVI",
+      "column": "688a",
+      "chunk": 3
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "Bed.",
+      "column": "679c",
+      "chunk": 0
+    },
+    {
+      "raw": "Bed.",
+      "column": "679d",
+      "chunk": 0
+    },
+    {
+      "raw": "Bed.",
+      "column": "680c",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "681a",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER.",
+      "column": "681c",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA.",
+      "column": "681d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "682a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "683a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "683a",
+      "ibidResolved": true,
+      "column": "683a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "683a",
+      "ibidResolved": true,
+      "column": "683b",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "683a",
+      "ibidResolved": true,
+      "column": "683b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "683c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "683d",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "683d",
+      "ibidResolved": true,
+      "column": "684a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "684c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA.",
+      "column": "685b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "685b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "685d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "685d",
+      "ibidResolved": true,
+      "column": "685d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "685d",
+      "ibidResolved": true,
+      "column": "686a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "686b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "686c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA.",
+      "column": "686d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "686d",
+      "ibidResolved": true,
+      "column": "686d",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "687a",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "687a",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA.",
+      "antecedentColumn": "687a",
+      "ibidResolved": true,
+      "column": "687b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "687b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "687d",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "688a",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "688a",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "688b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "688c",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA.",
+      "column": "688c",
+      "chunk": 3
+    },
+    {
+      "raw": "BED.",
+      "column": "688d",
+      "chunk": 3
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "679b",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "679c",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "681d",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "684d",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "686d",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V",
+      "column": "688b",
+      "chunk": 3,
+      "en": "CHAPTER V"
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
