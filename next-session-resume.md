@@ -1,5 +1,70 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-19b — QUEUE RESTOCKED · SPOT CHECK NOW PART OF CHUNKING · ✅ DEPLOYED + PUSHED
+
+**Queue 8 → 19 prepared works / 577,896 words.** Eleven Glossa books chunked, all validating
+(109 chunks, 110,098 Latin words): Baruch 9005 · Sapientia 8969 · II Regum 8953 · IV Regum 8955 ·
+I Esdrae 8951 · I Regum 8952 · Paralip. II 8965 · III Regum 8954 · Paralip. I 8964 · Proverbia 8966 ·
+Actus 8976. Smallest first; Romans, 1–2 Corinthians and Hebrews still held back for cadence size.
+24 Glossa books remain unchunked. ✅ **DEPLOYED `migne-b4qnda4rj`, pushed through `0151b7c`**, all
+pages byte-verified against the local build.
+
+### ⭐ THE SPOT CHECK IS NOW PART OF CHUNKING (Wilson's ruling this session)
+`chunk-work.mjs` prints `⬜ PLATE SPOT CHECK OWED` while a work's coverage is `none` or unrecorded;
+`coverage.json` gained a **`"spot"`** value (weaker than `"full"`: licenses shipping without `[cn:]`
+recovery, does NOT license the claim that the work has no notes); runbook step 1a and CLAUDE.md carry
+the rule. **19 pages read across PL 113 and PL 114** — full width, 300 dpi, every division examined
+mid-page as well as at the foot. **All twelve works checked zero.**
+
+### ⭐⭐⭐ IT PAID FOR ITSELF ON THE FIRST RUN — a LIVE page was asserting a defect Migne never made
+**8946 col. 1116D *Salomomonis* is OURS, not Migne's.** The plate breaks the word across the last two
+lines as **`Salomo-` / `nis`**; Corpus Corporum rejoined it and duplicated the syllable before the
+hyphen. Confirmed on a 3× crop by the orchestrator's own eye before anything was written.
+⭐ **New sub-class for the register: the LINE-BREAK REJOIN** — distinct from the normalization class
+(8948 *convivum*, 8990 *concilio*) where the digitization CORRECTED a form Migne did print. Here it
+manufactured a word that exists nowhere. ⚑ Corroborated from the source side: **the TEI keeps a
+newline immediately AFTER the word**, exactly where Migne's break falls.
+`data/tei-patches/8946.json` written, work re-chunked, `[sic:]` removed, page rebuilt, re-indexed and
+redeployed. ⚑ **Corpus frequency raised it (311 *Salomonis* to one doubled form); only the plate could
+settle it, and the translator was right to file it as a candidate, not a finding.**
+
+### ⛔⛔ AN ARCHIVE.ORG LEAF NUMBER IS NOT A PDF PAGE NUMBER — near-miss worth more than the find
+Our stored PL 114 map (`leaf = (col+9)/2`) came from `page/nNNN` URLs; **the downloaded PDF's page is
+leaf + 1.** Using it would have produced a **FALSE CHECKED ZERO — worse than no check**, because a
+zero read off the wrong page is indistinguishable from a real one. Caught by rendering one page and
+reading the printed corner numbers. **Verified maps for the on-disk PDFs: PL 113 and PL 114 are both
+`PDF page = (column + 11) / 2`** (p. 287 = cols 563/564; p. 217 = cols 423/424) — a coincidence of the
+two scans' front matter, not a rule. Rule written into CLAUDE.md: calibrate every volume, every time.
+⚠ PL 114's scan is now on disk at `raw/scans/pl114/patrologiaecurs06saingoog.pdf` (36 MB).
+
+### ⚑ Not apparatus — now on record so no reader reports them as such
+**Division rules** (these books often open at the HEAD of a page: full-width rule under the running
+head, then the drop title; where a division falls mid-page it carries prologue furniture — rule,
+Jerome's prologue title, rule, drop-head — and still no notes) · printer signatures (`PATROL. CXIII.`)
+· gathering numbers · and **two asterisk-keyed `EDIT.` notes in PL 114**.
+⬜ **OPEN, and a real question: the asterisk-keyed `EDIT.` notes are a SECOND apparatus layer our
+source also lacks.** They are Migne's editorial cross-references, not numbered conjectures, so `[cn:]`
+does not fit. Two seen: p. 037 in the **Baruch preface itself** (*Vulgata editio, de qua fit mentio in
+prologo super Baruch, exponitur in prologo super Ezechielem. Cætera plana sunt.*) — which bears
+directly on a work now in the queue — and p. 240 (Walafrid's Romans gloss draws on Haymo of
+Halberstadt, PL 116–118). **No convention invented; Wilson's call.**
+
+### ⚑ Baruch (9005) is not a stub
+Migne prints the **preface only**, and his own bracketed note says why: *antiqua exemplaria Glossae
+ordinariae textum tantummodo Baruch exhibent, nulla comitante expositione*. A genuine one-chunk work
+(~50 words) whose page must say exactly that. Its single `[n:]` is editorial prose → Pattern 15
+`[nt:]`. Its whole page carries six division rules and was checked in one read.
+
+### ▶ Next
+1. ▶ **The Glossa runs on**, smallest first from the 6 previously prepared (1 John 8979 · Judges 8959 ·
+   Nehemiah 8962 · Ephesians 8991 · Joshua 8958 · Galatians 8992), then the eleven just added.
+   **Add to the brief before the next launch: name the control's class before treating it as a
+   control** (see 8998's cruces §Adjudication).
+2. ⬜ Wilson's call on the asterisk-keyed `EDIT.` notes above.
+3. Everything under the previous session's "Next" is unchanged.
+
+---
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-19 — FOUR MORE GLOSSA BOOKS · CORPUS 125 · ✅ DEPLOYED + PUSHED
 
 **1 Timothy (8983) · James (8998) · 1 Peter (8980)** — PL 114 — **and Ecclesiastes (8946)** — PL 113.
