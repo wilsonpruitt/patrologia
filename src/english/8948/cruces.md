@@ -687,22 +687,113 @@ concentrated in chunks 0 and 1 (the banquet allegory) and at 0744D–0745A.
 
 ## §6 · WHAT A BLIND READER SHOULD OPEN FIRST
 
-1. ⭐ **0744A, *Sapientia enim vincit malitiam* (§4a)** — the reversed Wisdom quotation. I
-   want a second eye on whether the `[var:]` wording states the divergence sharply enough,
-   because the reader who does not open it will not notice that a negative is missing.
-2. ⭐ **0740C, *atque ipsos juste condemnat* (§5.3 ii)** — offered as the site where the wrong
-   reading arrives first and parses perfectly. If my bracket is wrong the gloss says something
-   very different about the Jews.
-3. **0744D, *mobilis* (§5.1)** — the `[cj:]` is mine, the foot is a checked zero, and the
-   rival construal is real. Test it.
-4. **0741B, *Ex alibi* (§5.2)** — a `[cj:]` on a preposition. Pattern 18a's bar is arguably
-   not cleared and I fired anyway, on Tobit's *notionum* ground. Reverse it if that is wrong.
-5. **0747A, *Et plurimum posse cognoverant* (§4c)** — the one lemma I could not collate. One
-   look at a Clementine closes it.
-6. **0746B, *Nutrivit corda fidelium* (§4d)** — unidentified quotation.
-7. **0739C *Nochum* and 0742D *Tebeeth* (§5.5, §4c)** — two plate-read candidates, offered
-   now that §2.2 has shown the digitization can tidy Migne as well as break him.
+**Rewritten after the blind read (§7); items 1–5 of the original list have been adjudicated
+and are now closed.** Kept in place so the record shows what was offered and what came back.
 
-**Still open and named as open:** items 5, 6 and 7 above; the *magnatum/primitivorum* binding
-at 0741A (§5.8), deliberately not adjudicated because nothing turns on it; and the origin of
-the three dropped `« ` at 0741D/0742A (§3), which the plate read did not cover.
+1. ✅ **0744A, *Sapientia enim vincit malitiam* (§4a)** — offered because a reader who does
+   not open the marker will not notice a negative is missing. **Endorsed; the `[var:]` wording
+   was sharpened** ("reversed in what Migne prints, which also has no negative"), because
+   "the negative is absent" did not say absent *from what*.
+2. ✅ **0740C, *atque ipsos juste condemnat* (§5.3 ii)** — offered as the site where the wrong
+   reading arrives first and parses perfectly. **Endorsed, and the bracket explicitly told to
+   stay**: *ipsos* sits nearer *Judaeos*, which is exactly why the wrong reading arrives
+   first, but Christ cannot in one clause both deliver the confessors and justly condemn
+   them.
+3. ✅ **0744D, *mobilis* (§5.1)** — **endorsed.** The immobile-God-contemplating-mobile-time
+   topos is the sentence's whole point, and the loss is a single-syllable haplography after
+   *In se*.
+4. ✅ **0741B, *Ex alibi* (§5.2)** — **endorsed**, and on firmer ground than I had: *Ex alibi*
+   is not Latin at all, and *Et alibi* is this work's own formula, used verbatim four times
+   in these four chunks.
+5. ✅ **0747A, *Et plurimum posse cognoverant* (§4c)** — **closed clean**, no defect. Basis
+   recorded honestly in §4c: an agent's knowledge, not a witness on disk.
+
+**What is still open, and it is short:**
+
+- **0746B, *Nutrivit corda fidelium* (§4d)** — an unidentified guilleted quotation cited as
+  scripture with no `[n:]`. A reader who recognizes it closes it.
+- **0739C *Nochum* and 0742D *Tebeeth* (§5.5, §4c)** — two plate-read candidates, live now
+  that §2.2 has shown the digitization can tidy Migne as well as break him.
+- **0741A, the *magnatum / primitivorum* binding (§5.8)** — deliberately not adjudicated
+  because nothing turns on it.
+- **0741D / 0742A, the origin of the three dropped `« ` (§3)** — Migne's compositor or our
+  transcription; the plate read did not cover it.
+
+---
+
+## §7 · THE BLIND POLARITY READ — a measured ZERO on the class that beat Ruth, and three repairs
+
+A reader that never saw this file read all four chunks.
+
+### 7.0 ⭐⭐ THE HEADLINE IS A NEGATIVE RESULT: the scripture-conformation hunt came back EMPTY
+
+**Every guilleted quotation was checked against the Vulgate, and at all ~15 places Migne
+diverges the English follows HIM, not the familiar Bible** — ten carrying a `[var:]`, the
+rest silently faithful. Singled out: **Hab 3:8** rendered on Migne's *equitatus* / *sanitas*
+rather than the Douay's chariots and salvation, and **1 Thess 4** rendered on his *resurgemus*
+/ *residui sumus* with the `[var:]` naming the Vulgate's *rapiemur … in nubibus*, called the
+best-executed non-conformation in the work.
+
+⛔ **Record this as a MEASURED ZERO, not as an absence of findings.** Ruth — same volume, same
+recension, same testament — gave up **four** silent conformations on exactly this ground, and
+all four were made by a translator using `[sic:]` correctly two columns away. **A zero here is
+evidence about the method, and it is the only kind of evidence that class ever yields.**
+The reader also confirms **no `[sic:]` swallow anywhere**: every marker stripped leaves a
+complete sentence.
+
+⚑ **And the zero did NOT generalize.** The three defects it did find are all in **gloss
+prose**, none in a lemma — the same distribution as 2 Thessalonians, where all 57 named
+lemmata were right and both defects sat in the sentences between them. **The lemma list does
+its job; it does not cover the prose.**
+
+### 7.1 ⭐⭐⭐ 0748C · a bare "he" that inverted a theological claim — REPAIRED
+
+Full treatment at §5.3(vi). "he" → **"he [Assuerus]"**. As written, the page had Christ not
+making the earth tributary *because he did not possess it*, contradicting *implevit totum
+mundum* in the same sentence.
+
+⚑ **A second, smaller repair was taken in the same edit: scope negation.** *non omnem terram
+tributariam fecit* negates the **scope**, not the act, and "he did not make all the earth
+tributary" reads to many as "he made none of it tributary." Now **"he made not all the earth
+tributary."** ⭐ **This is the same class as the `Non solum regem` relocation I caught myself
+(§5.4)** — a negation sitting on the wrong side of a quantifier — which means my own test-2
+pass found one instance of it and missed another **two columns apart in the same work.**
+The rule the pair yields, and it is sharper than "check every negative": **a negative next to
+a quantifier (*omnis*, *solus*, *totus*) attaches to the QUANTIFIER, and English word order
+must put it there.**
+
+### 7.2 ⭐⭐ 0745A · *si* dropped, and the smoothed English read as an undeclared emendation — REPAIRED
+
+Migne prints *qui **si** videbatur gloriosior*. My English rendered **no particle at all** —
+"he who seemed the more glorious appears beneath others baser and lower."
+
+⛔ **The danger is second-order and worth naming precisely: the smoothed clause is exactly
+what you would get by translating *qui prius videbatur gloriosior*** — a plausible emendation
+that nobody made and nothing on the page declares. A reader could not learn that Migne prints
+a particle there at all. Repaired to the concessive conditional: **"he who, if he seemed the
+more glorious, appears beneath others baser and lower."** **No `[cj:]`** — the sentence
+construes as printed, so the conjecture threshold is not met (§5.8).
+
+⚠ **And the worse half is the record, not the text.** §5.8 already carried an entry on this
+*si*, and that entry **asserted the particle had been rendered when it had not.** A cruces
+line saying "rendered with the *si*" is exactly the kind of note a later reader trusts instead
+of checking. **A note that a call was made is not evidence the call reached the sentence** —
+Tobit's §7 lesson (*carrying a number faithfully is not carrying a referent*) in its most
+literal form.
+
+### 7.3 ⭐ 0746B · a supplied subject left unbracketed — REPAIRED
+
+"The king" → **"[The king]"** over Migne's noun-less ablative absolute. The supply was right;
+it was **bare**, in a work that brackets supplied subjects in five other places (§5.3), so the
+one place the noun is genuinely missing from the plate was the one place the English hid it.
+Established practice, no new apparatus.
+
+### 7.4 ⚑ A PROJECT GAP, recorded rather than worked around
+
+**Four calls in this batch were declined or hedged for want of a Vulgate on disk, across two
+books** — this work's *Et plurimum posse cognoverant* (0747A), *Tebeeth* (0742D), the Ps
+113/134 conflation (0744B), and Tobit's *Exsurgens* (0731A). Two were later closed **from an
+agent's knowledge rather than from a text we hold**, which is a weaker footing than this
+edition's own standards want for a marker decision. Every §4 collation in this file rests on
+the same footing. **The orchestrator is recording this as a project gap; it is not a request
+for anyone to keep working around it.**

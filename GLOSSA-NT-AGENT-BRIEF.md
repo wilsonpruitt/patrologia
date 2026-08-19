@@ -281,6 +281,36 @@ that as *a rate question, not an absence*, because Migne prints plenty of semico
 a narrow exception because he prints **zero** in its first chunk — and that exception rests on his
 practice in that book, not on a general rule. **Count your own book's plate before invoking it.**
 
+### 5. ⭐⭐⭐ THE FOURTH TEST — the other three are CONTAINMENT checks
+
+Named by the Judith translator, 2026-08-18g, and it is the most useful sentence to come out of two
+batches of blind reads:
+
+> **Parity, counts, attachment and bands are all containment checks — they ask what the English
+> *contains*. Every defect that beat them was a question about what the English *says*.**
+
+Three of Judith's five repairs were invisible to every check this edition runs, and they failed the
+same way: **a mis-parse that produced plausible English** (*ferias*, a subjunctive verb demoted to the
+noun "holidays"), **a right conjecture aimed at the wrong lemma** (the `[cj:]` on *generatione* where
+*quindecim* was the corrupt word), and **a right negation in an inverted scope** (*omnino non*).
+Nothing was missing in any of them. Everything was present, in order, at parity.
+
+⚑ **So run this last, with the counts already known clean: read each finished paragraph back against
+the Latin asking one question only — does it ASSERT what he asserts?** Not "is everything there".
+It has no mechanical form and cannot be automated; that is the point. It is the only test that would
+have caught any of the three.
+
+⚑ Two habits that make it bite:
+- **A sentence that reads smoothly where the Latin is rough is a suspect, not a success.** "for thee
+  for holidays" survived because it read as an odd but harmless Latinism.
+- ⛔ **Naming a rival in the cruces is not adjudicating between them.** Where a crux names two
+  conjectures it must say **which the marker took and why the other lost** — the apparatus records
+  only what the marker says, and a reader never sees the rival you weighed and rejected.
+
+⚑ For the abridged books: **the `usque ad` formula removes words, it does not suspend grammar.** Parse
+every resumption tail as strictly as ordinary prose. A tail that reads oddly is not evidence the
+abridgment made it odd — that blind spot is exactly what produced the *ferias* defect.
+
 ## For the guillemet books — Judith, Esther, and the rest of the OT
 
 If your lemmata are wrapped in `« »` rather than italics, **the conventions are already settled** and
