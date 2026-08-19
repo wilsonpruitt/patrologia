@@ -355,3 +355,23 @@ it, Tyconius vocabulary, and sigla with Migne's own internal spacing. Read that 
 Your work is short. Peer agents complete 5-chunk batches at full fidelity routinely. If you
 find yourself writing "context budget", you are repeating a documented failure pattern —
 finish the whole work, apparatus included.
+
+## ⚑ Before you call something inconsistent, NAME THE CONTROL'S CLASS
+
+Added 2026-08-19, after three blind readers in one batch raised the same non-defect.
+
+A clipped lemma whose governed word is missing (*Multas.* for *Multas curas*, *Nolite.* for
+*Nolite plures magistri fieri*) and a complete one-word lemma (*Sepultura.* · *Bellum.* ·
+*Virum.*) are **different classes**. The first is a fragment and convention 3 renders it as the
+phrase it stands for; the second has nothing elided and is rendered as it stands. **Contrasting
+the two manufactures an inconsistency that is not there** — three readers did exactly that in one
+batch, and all three findings were declined.
+
+⛔ And the ruling those declines rest on, which is settled and not to be reopened: **the defect is
+never expansion or its absence, it is CONFORMATION** — following the familiar English Bible where
+Migne's own plate diverges from it. Expanding a fragment per convention 3 is not conformation.
+Where a work really does treat the same bare lemma two ways (8998 rendered *Nolite.* both
+expanded and as a stump), **resolve it by EXPANDING the stump, not by contracting its twin.**
+
+⚑ The general form, worth carrying beyond lemmata: **a control has to be the same class as the
+thing it controls.** State what class your control belongs to before you let it convict anything.
