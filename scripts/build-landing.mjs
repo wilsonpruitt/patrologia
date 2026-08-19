@@ -18,6 +18,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-19 session: the Glossa's fourth cadence batch, three epistles and a wisdom book —
+  'pl/113/liber-ecclesiastes',                                    // Anselm of Laon and his school — the gloss on Ecclesiastes, on Jerome's text; vanity read as the creature subjected to it unwilling, and Migne's lemmata carrying Old-Latin readings the Vulgate does not
+  'pl/114/epistola-i-b-petri',                                    // Anselm of Laon and his school — the gloss on 1 Peter; the living stones and the chosen race, with a gloss whose note cites Matthew for a sentence of Luke's
+  'pl/114/epistola-canonica-b-jacobi',                            // Anselm of Laon and his school — the gloss on James; faith without works and the tongue as a fire, with Migne's plate denying at one turn what its own next clause requires
+  'pl/114/epistola-i-ad-timotheum',                               // Anselm of Laon and his school — the gloss on 1 Timothy; Paul first among sinners by rank and not by time, the gloss's own point and one our first English had reversed
   // — 2026-08-18 session: the Glossa's third cadence batch, two Pauline epistles and two Old Testament books —
   'pl/113/liber-esther',                                          // Anselm of Laon and his school — the gloss on Esther, read with Vasthi as the synagogue put away and Esther as the Church taken in; Migne's lemmata diverge from the Vulgate more here than in most books
   'pl/113/liber-judith',                                          // Anselm of Laon and his school — the gloss on Judith, read throughout as the Church against the devil; her beauty her doctrine, and the sword taken from his own bedside
