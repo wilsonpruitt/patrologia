@@ -6,7 +6,13 @@
 the first OT Glossa book since Ruth. 10,296 Latin words, 12 chunks, five works in one cadence.
 **112 → 117 englished works.** Opus throughout, per Wilson's call at the hard stop.
 
-⛔ **NOT DEPLOYED AND NOT PUSHED — both are Wilson's per-action OK.** Everything else is done:
+✅ **DEPLOYED AND PUSHED 2026-08-18** (`migne-naeyppu37`, Labs scope) — commits `bd7a6cb` + `c99ca8a`
+on `master`, tree clean, in sync with origin. **Verified BY BODY, not by status code:** all ten new
+pages — five work pages AND their five cruces pages — fetched from migne.app and **byte-for-byte
+identical** to the local build, as were `/`, `/glossa/` and `/queue/`. All five carry **"New English
+translation"** on the live page; none claims priority. All five appear in RECENT on the live landing.
+⭐ The cruces URLs were smoke-tested, not just the work URLs — that is how Glabas III once shipped
+with a 404 apparatus link. Everything else:
 `verify-english` clean on all five · **`polarity-record --gate` GREEN at 117/117** · `scan-raw-markers`
 clean across 117 built pages · all five cruces URLs resolve to built files locally (the Glabas III
 404 pre-empted) · all five badge **"New English translation"**, none claims priority · `/glossa`
