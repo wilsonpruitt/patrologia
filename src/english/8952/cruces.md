@@ -755,3 +755,71 @@ knows they were seen and deliberately not raised as plate candidates**: 0561D *d
 0562C *praecipiunt* (§2u), 0541D *agniculos* (§4). The addendum's finding — that every real-word
 suspicion tested against a plate has been refuted, four for four — is the reason, and it is a reason
 about the strength of the argument, not about whether raising it was wrong.
+
+---
+
+## §8 · THE BLIND POLARITY READ (2026-08-24) — three repairs, and one logged resolution OVERTURNED
+
+A reader fenced from this file read all nine chunk pairs and reported before opening it.
+
+### 8.1 · ⛔⛔ 0561C — the one site where the reader overturned a decision this file had already made
+
+*Phaltiel, id est evadens a Deo dicitur: quia **custodivit eum** ne tangeret eam, ne fieret
+transgressor legis.*
+
+**§6's table resolved the subject as Phalti — "he kept himself" — on the ground that "the paragraph
+names him five times." The reader disputed it, and the reader is right.** Migne prints **`eum`, an
+accusative object**. A Latin sentence whose subject and object are the same man requires *se*;
+*eum* forecloses that reading outright. The unexpressed subject is **God**, named two words earlier
+in the very etymology the clause exists to explain — *Phalti**el*** = *evadens **a Deo*** — and
+under the old rendering the *-el* did no work at all.
+
+**Now "because God kept him from touching her."** The supply of the name is recorded here as a
+supply.
+
+⭐ **The reason this one matters beyond itself: the losing argument was FREQUENCY, and the winning
+one was STRUCTURE.** That is the same split the batch's plate reads produced — corpus frequency
+decisive for non-words, worthless against a real form — and the same trap test 2a names: *the test
+validates the mapping you propose, not the mapping the Latin makes.* Counting how often a man is
+named tells you nothing about which case ending stands in front of you. ⚠ **Flagged to Wilson as
+the one genuinely contested call in this batch**; both readings are stated here so the rival can be
+weighed.
+
+### 8.2 · 0543B — a verb annexed from the verse, leaving "the same" with no referent **(repaired)**
+
+Lemma 1 Rg 2:7, *Dominus pauperem facit **et ditat***. The gloss substitutes *Jesum* for the
+verse's *pauperem* and then resumes the verse's own second verb: *Jesum, qui propter nos pauper
+factus est, **et ditat eumdem** gloria resurrectionis.* The subject of *ditat* is the verse's
+*Dominus*; *eumdem* is Jesus, its object.
+
+The English had attached *ditat* to the relative *qui* — "Jesus, who … was made poor, **and
+enriches the same**" — which makes Jesus the enricher and leaves *eumdem* pointing at nothing.
+⚑ **The tell is that the finished English does not construe, and it shipped anyway**: containment
+checks cannot see a dangling referent. **Now "…and the Lord enriches the same with the glory of the
+resurrection"**, which restores the verse's own shape — the Lord makes poor (the incarnation) and
+enriches (the resurrection). The supplied subject is recorded as a supply.
+
+### 8.3 · 0549D — a word of the Latin unrendered **(repaired)**
+
+*Agnus oblatus **pro populo Dei** victoriam praestat…* was Englished "The lamb offered **for the
+people** affords victory". *Dei* appeared on neither construal. **Now "for the people of God"** —
+*populus Dei* being this gloss's standing phrase, which recurs unmodified six lines later (*coram
+Israel, id est populo Dei*). ⚠ The rival construal, *Dei victoriam*, "God's victory", is possible
+and is recorded here; it loses to the work's own usage, and either way the word had to reappear.
+
+### 8.4 · 0553D — one of Migne's own, previously unlogged: *non* for *noti* **(no change)**
+
+*…sic jam **non** eramus ut in ipso essemus electi ante mundi constitutionem.* Augustine's clause
+(the *Quaesivit sibi* extract) reads *sic iam **noti** eramus, ut in illo essemus electi* — "we
+were already **so known** that we were chosen in him". Migne's *non* for *noti* inverts the
+sentence against its own *sed ipsi quoque Unigenito, qui venit quaerere quod perierat*.
+
+**The English renders him literally, which is correct and stays.** It is recorded here only so the
+ledger carries it: a defect of Migne's, reproduced deliberately, not one of ours.
+
+### 8.5 · Rejections that agreed with this file
+
+The reader independently reached §2's conclusions at *praecipiunt* (0562C), *deprecationes*
+(0561D), the *ille/iste* pair at 0554C, the *anteponit* suspicion at 0555C, and *humero* (0552C);
+and it confirmed the negation hosts at 0544A and 0542B. Its list of clean chunks names 0000, 0002,
+0004, 0005, 0006 and 0008 individually.

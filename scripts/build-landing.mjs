@@ -18,6 +18,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-24 session: the Glossa's seventh cadence batch, the historical books, and the one where the plate went against our own transcription fifteen times out of fifteen —
+  'pl/113/liber-i-regum',                                         // Anselm of Laon and his school — the gloss on 1 Samuel; Hannah's song read as the Church's, Saul rejected and David chosen, and a clause where God, not Phalti, is the one who keeps him from touching Michol
+  'pl/113/liber-ii-regum',                                        // Anselm of Laon and his school — the gloss on 2 Samuel; David's lament over Saul and Jonathan, Absalom's revolt, and a page that had said Absalom was cast out for the sins his father was punished for
+  'pl/113/liber-iv-regum',                                        // Anselm of Laon and his school — the gloss on 2 Kings; Elisha and the axe-head, Hezekiah's prayer and the fall of Jerusalem, with the crown that was set on Joachaz against Pharao's will and not his own
+  'pl/113/liber-i-esdrae',                                        // Anselm of Laon and his school — the gloss on Ezra, from Bede; the temple rebuilt among enemies, and an editorial note in which Migne slipped into his own French and our source quietly translated him back
   // — 2026-08-23 session: the Glossa's sixth cadence batch, and the one where the plate went against our own transcription seven times —
   'pl/114/epistola-ad-galatas',                                   // Anselm of Laon and his school — the gloss on Galatians; the law as schoolmaster and the freedom of the sons, with the negative displaced onto God's own name at 584D and rendered where Migne set it
   'pl/113/liber-sapientiae',                                      // Anselm of Laon and his school — the gloss on Wisdom, translated from Greek and never in the Hebrew canon; the souls of the just in the hand of God, and a reward that surpasses rather than one that is won

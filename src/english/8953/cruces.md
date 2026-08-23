@@ -534,3 +534,88 @@ from, not from the sentence:
   Abrahae filius***, where *Masek* (Gen 15:2 LXX, Abraham's handmaid) is the expected form and
   *Maseth* is not a form this corpus otherwise carries. Kept as printed; named here because a
   reader going to the plate for §4.1's *precaepit* is one page away from it.
+
+---
+
+## §6 · THE BLIND POLARITY READ (2026-08-24) — five sites, four repaired
+
+A reader fenced from this file — it may not be opened before findings are fixed, because every
+agent given it in the 2026-07-28 sweep returned "all already logged" and found nothing — read all
+eight chunk pairs. **Five sites, all five new to this file, four of them repaired in the English.**
+Its rejections agreed with §4's declines site for site, which is the check that the two passes were
+independent and not merely duplicated.
+
+⭐ **Four of the five are the same class, and it is not negation.** The batch's briefs named the
+unexpressed subject as the dominant defect; what actually beat this work was **the referent of a
+word English cannot leave floating** — a supplied pronoun, a genitive re-hosted, a predicate
+nominative fused into a compound. Parity, counts and negation-host checks all passed at every one
+of them. They failed only the last test: *does it assert what Migne asserts?*
+
+### 6.1 · 0574C — a supplied "he" that convicted the wrong man **(repaired)**
+
+*…quo transacto expulit patrem de regno. **Nec pro seductione et interfectione sacerdotum ejectus
+est de regno**, sed pro adulterio et homicidio, Nathan cuncta praedicente.*
+
+The English read "…he drove out his father from the kingdom. **Nor was he cast out** of the
+kingdom for the seduction and the slaying of the priests, but for adultery and murder" — and that
+"he" inherits **Absalom** from the sentence before, so the page said Absalom was cast out for
+adultery and murder. Migne's unexpressed subject is the father: *seductio et interfectio
+sacerdotum* is Nobe, and *adulterium et homicidium … Nathan cuncta praedicente* is Bathsheba,
+Urias, and Nathan's sentence — which is the very expulsion Absalom carried out.
+
+**Now "Nor was his father cast out…".** ⚑ The resolution deliberately uses **Migne's own printed
+noun** (*patrem*, two words earlier) rather than importing the name David: the least supplied word
+that fixes the referent is the right one.
+
+### 6.2 · 0579A — a genitive moved off its host **(repaired)**
+
+*ad has tres virtutes **nemo fortium David** pervenit.* The English read "these **three virtues of
+David**, none of the valiant men attained", taking *David* with *virtutes* four words back, across
+a complete prepositional phrase and a new subject. *fortium David* is contiguous and is this
+chapter's own standing phrase (0577C *catalogus virorum fortium*; 2 Rg 23:8 *Haec nomina fortium
+David*). **Now "unto these three virtues none of David's valiant men attained."** As it stood the
+English asserted that the virtues were David's; Migne asserts that the men are.
+
+### 6.3 · 0568A — a predicate nominative fused into a compound noun **(repaired)**
+
+*__Aqua__ Gethaeus populus potest appellari, qui dicit…* The English read "the Gethaean can be
+called **the water-people**", which dissolves the predication the sentence exists to make and
+reads smoothly over a rough spot — the tell the fourth test is built on. **Now "the Gethaean
+people can be called water, who says…"**, which is what carries the *Gal.* VI tag that follows.
+
+### 6.4 · 0578A — an invented predication removed, and the plate read **(repaired)**
+
+*…verecundiam castitatis incontinentibus **quasi legentes** gladio oris contra luxuriam defendit.*
+The English supplied a clause the Latin does not license: "as though **they were** gleaners" —
+a plural subject with no available referent, manufactured to smooth a rough spot. **Now "as though
+gleaners."**
+
+⭐ **The reader also proposed *lentes* for *legentes*** — a good argument: the verse glossed is
+2 Rg 23:11, *ager plenus **lente***, and the same sentence has already read the crop allegorically
+(*infirmos velut hordeum tuetur*). **I read the plate. Migne prints *legentes*, exactly as we hold
+it** (PL 113 p. 294, right column, 450 dpi). The conjecture is therefore about Migne's own text,
+not our source, and it stays **in this crux and out of the apparatus**: the sentence as printed
+asserts nothing — *legentes* agrees with nothing in it — so it misses Pattern 18's bar, exactly as
+8958 @0511D did, where declining beat a conjecture that the plate then refuted. ⚑ The real-word
+class is now refuted **5 times out of 5** at the plate.
+
+### 6.5 · 0569B — a case variant English cannot carry **(crux only, body unchanged)**
+
+*Ex Aegypto. **Gente et Deo ejus** vel **gente et Deum ejus**, gentem Israel, et Deum ejus
+Moysen…* Migne records a construction variant — ablative *Deo* against accusative *Deum* — and the
+English necessarily prints the same six words twice, so on the English side alone it reads as
+dittography.
+
+**Nothing is changed in the body, and no marker fires.** This is the exponent rule as 8992 settled
+it: *signa* was marked because English shows number, *remanerent* was left because English cannot
+carry a verb ending at all. A Latin case ending is the second kind. **The parallel Latin column
+stands opposite and shows the difference, which is the whole reason this edition prints both.**
+⚑ The second limb is the one the continuation picks up (*gentem Israel, et Deum ejus Moysen*).
+
+### 6.6 · Promoted from §3.3 at the reader's prompting
+
+**0575C *ideo Absalom **pax pacis** dicitur, quia pacem pater habuit quam ille non habuit.*** The
+gloss's own reason (*pacem **pater** habuit*) and this work's other etymology of the name at 0573D
+(*pater pacis vel patris pax*) both require *patris pax*. It was filed only in the
+etymology-rendering list; it belongs on the record as **a defect of Migne's, reproduced** — the
+English renders *pax pacis* literally, which is correct and stays.

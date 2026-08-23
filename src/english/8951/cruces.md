@@ -617,3 +617,86 @@ Recorded with the rival named, because a crux that names no rival records nothin
 success. **None of the four is a question of what the English contains** — anchor parity, note
 parity, band punctuation and the negation host check were all clean before this pass and all clean
 after it, and not one of them can see any of these four.
+
+---
+
+## §10 · THE BLIND POLARITY READ (2026-08-24) — five sites, ALL FIVE NEW, all five repaired
+
+A reader fenced from this file read all eight chunk pairs and reported before opening it. **This
+was the richest of the batch's four blind reads: five defects on our side, none of them in this
+file under any heading, and three of them in stretches the file does not name at all.**
+
+⚑ **Not one of the five is a negation defect.** Every printed negative in this work was walked to
+its host and found correct — by the translator and independently by the reader. What got through
+was, in every case, **a referent or a relation that English cannot leave implicit**: an object
+mistaken for a subject, a reflexive pointed at the wrong person, an equation flattened into a
+statement, a real word quietly replaced by the word the context expected. Counts and parity
+passed at all five.
+
+### 10.1 · 0701A — the sentence contradicted itself, and the parse was the reason **(repaired)**
+
+*Quia nequeunt sufferre, **qui regnum diaboli conantur impugnare**, timent bella concitari in
+Ecclesia, ne haereses et fallaciae eorum … debellentur…*
+
+The English made the men who assail the devil's kingdom the subject of *nequeunt* and *timent* —
+and then gave those same men "**their** heresies and deceits" to fear the loss of. **A page that
+says the assailants of the devil's kingdom fear that heresy will be destroyed asserts the opposite
+of the gloss.** The relative clause is the unexpressed-antecedent OBJECT of *sufferre*: the
+heretics cannot endure those who assail the devil's kingdom, and so fear war in the Church,
+Christ's sword being the thing that would destroy them (*duce illo qui ait: Non veni pacem
+mittere, sed gladium*). **Now "Because they cannot endure those who strive to assail the kingdom
+of the devil, they fear…"**
+
+### 10.2 · 0700D — *confidentem* rendered as *confitentem* **(repaired, and the plate agrees)**
+
+*Populum Juda, id est **confidentem** et glorificantem…* was Englished "the **confessing** and
+glorifying people". *Confidens* is **trusting**; "confessing" is *confitentem* — and the standard
+Juda etymology (*confessio*) is exactly what makes that the reading a translator expects, which is
+why it slipped in as a silent conjecture with the printed word disappearing behind it.
+
+⭐ **The plate settles it: Migne prints *confidentem*.** I read this line at 450 dpi this session —
+it is the same line as the *integramente* patch, four words along, and the whole line was read
+because that is the rule. **Now "the trusting and glorifying people."** ⚑ Two defects of two
+different kinds on one line of one column, found by two different passes.
+
+### 10.3 · 0696A — an accusative-and-infinitive reversed **(repaired)**
+
+*…qui de captivis geniti **ad ipsas se** paterna successione **pertinere** didicerant.* The English
+had "had learned that **these belonged to them**" — possession running the wrong way. *Se* is the
+accusative subject, *ad ipsas* the goal: they had learned **that they themselves belonged to those
+cities**. **Now rendered so.** The whole passage is about men returning to a patrimony that claims
+them, not about property they claim.
+
+### 10.4 · 0701D — a reflexive that made the man seek himself **(repaired)**
+
+*Unusquisque etiam cum Deum invocans non aliud quaerit **quam ipsum**…* was Englished "seeks
+nothing other than **himself**". *Ipsum* is *Deum*, four words earlier; the English made the seeker
+the thing sought, which is the reverse of the gloss and leaves the naming (Salathiel, *I asked
+God*) unintelligible. **Now "seeks nothing other than him."** ⚑ *Potest eum Salathiel vocare* is
+left as it stands: the referent is ambiguous in the Latin too, and resolving it would be our
+choice, not Migne's.
+
+### 10.5 · 0693C — the lemma word dropped out of its own gloss **(repaired)**
+
+Lemma: *Adjuverunt **manus** eorum in vasis.* Gloss: ***Manus** aedificantium socii, qui aedificare
+nequeunt datis pecuniis adjuvant…* Migne asserts an identification — **the hands of those building
+ARE the associates** — and that identification is the only reason the lemma word is being glossed.
+The English read "The companions of the builders, who are not able to build, help with monies
+given", which is a true statement about companions and says nothing about *hands*: the word under
+gloss had vanished. **Now "The hands of those who build are the associates, who, not being able to
+build, help with monies given…"**
+
+### 10.6 · Two of Migne's own, found by the reader and previously unlogged — **no change**
+
+Both are rendered literally, which is correct; they are recorded so the ledger is complete, beside
+the *projectum* and *capiunt* entries §5 already keeps.
+
+- **0707C** *ut per hoc **patrem** cum sanctis habeant* — "that through this they may have a father
+  with the saints". ***partem** cum sanctis*, "a part with the saints", is the phrase the sense
+  wants and is one letter away.
+- **0708B** *ea quae in dextra **indicis** … sunt gaudia* — "the joys which are on the right hand of
+  the index". Almost certainly ***judicis***; this book prints *ad dexteram judicis* at 0700C for
+  exactly this idea.
+
+⚠ **Neither is patched and neither carries a marker**, because both are real words and the plate
+has refuted that class 5 times out of 5 this batch. They are Migne's until a plate says otherwise.

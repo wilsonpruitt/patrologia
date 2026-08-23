@@ -579,3 +579,69 @@ plate pages were read and whose zero is real.
   Rejected: that is conformation, and the mismatch between a gloss and its lemma is precisely
   the kind of evidence this edition exists to keep. §3.
 - **Em-dashes.** Not marked, not reported, and kept rare: the whole work carries none.
+
+---
+
+## §6 · THE BLIND POLARITY READ (2026-08-24) — three sites, two acted on
+
+A reader fenced from this file read all eight chunk pairs and reported before opening it. **Its
+twenty-site walk of the test-2a trigger population matched this file's own site for site with no
+host misassigned** — which is the evidence that the two passes were independent rather than one
+pass repeated.
+
+### 6.1 · 0628A — an indirect reflexive that English pulled onto the wrong man **(repaired)**
+
+*…nam Nechao vinxit eum, eo quod populus **contra suam voluntatem** constituisset eum regem…*
+
+The English read "the people had made him king **against his own will**", which lands on the
+nearest person — Joachaz — and says he was crowned unwillingly. **That is not what the sentence
+is for.** *Suam* cannot be reflexive to *populus*, who are the ones doing the making; it is the
+indirect reflexive, referring to the subject of the governing clause, **Nechao**. The people
+crowned Joachaz without Pharao's leave, which is precisely the reason (*eo quod*) Nechao bound
+him — and 4 Rg 23:30–34 with 2 Par 36:1 is that story. **Now "against Nechao's will."**
+
+⚑ English has no indirect reflexive, so the referent must be named; the name is a supply, and it
+is recorded here as one.
+
+### 6.2 · 0630A — the English was shipping a conjecture the Latin had refused **(marker added)**
+
+The sharpest catch of the four blind reads, and it is about consistency between our two columns.
+
+Our Latin prints ***ulit Saraiam,*** — the lemma's initial is missing, and §4 above records that
+**the plate could not settle it** (PDF p. 320 is clipped at the left margin) and therefore
+deliberately did **not** patch it. That decision stands and is right. **But the English was
+printing "*He took Saraias*" — supplying the very letter the Latin column had refused to supply,
+silently, while this same work's two other conjectures (0614B *deservit*, 0630A *inani*) both ride
+`[cj:]` markers.** One column declined; the other asserted; nothing told the reader.
+
+**Now: `*He took Saraias,* [cj: *ulit*; read *Tulit*, "he took"]`.** The gloss is additive in the
+Pattern 18 form — the rendering stands, the conjecture stands beside it, and the printed word is
+quoted so `verify-english` can check it against the twin.
+
+⚠ **The judgement call, stated plainly for Wilson.** Pattern 18's founding case is a word that is
+REAL and misleads; *ulit* is not a real word, so `[sic:]` would be the shape — **and `[sic:]` is
+exactly what must not fire here, because it asserts a defect in Migne's plate that the clipped
+page cannot support.** `[cj:]` was chosen because it claims only *read Tulit*, which is a claim
+about the text as our own Latin column prints it, checkable by any reader with both columns.
+⚑ The reading is not in doubt: 4 Rg 25:18 prints *Tulit quoque princeps militiae Saraiam
+sacerdotem primum*, and Migne's own lemma two lines above, in our own file, reads *Tulit quoque.*
+**What is in doubt is whose loss the missing letter is** — and the marker deliberately says
+nothing about that.
+
+### 6.3 · 0619B — *qui* for *quin*: **declined**, and why
+
+*Tam religiosi fuerunt, ut nullus dubitaverit **qui** pecuniam Dei sine fraude tractarent.* The
+reader noted that the English ("no man doubted **that** they handled…") reads the printed *qui* as
+*quin*, and asked whether a `[cj:]` was owed on the model of 0614B and 0630A.
+
+**Declined.** *Qui* for *quod*/*quin* after a verb of doubting is **attested medieval usage**, not
+a defect — Pattern 9's population exactly — and the reader itself observed that the assertion is
+identical either way. A `[cj:]` here would be a public claim that Migne's word is wrong when it is
+merely late. ⚑ This is the addendum's rule applied to a function word: **a real, attested form is
+Migne's until a plate says otherwise**, and here there is nothing for a plate to settle.
+
+### 6.4 · Migne's own, found rendered literally — no action, now on the record
+
+0614B *deservit* · 0630A *inani* · 0616B *juxta* · 0626A *princeps Sodomorum* · 0620C the Dead
+Sea's reversed breadth and length · 0621B the mid-sentence full stop. All reproduced as printed,
+all confirmed correct by the blind reader.
