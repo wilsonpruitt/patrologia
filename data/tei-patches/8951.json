@@ -1,0 +1,68 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated this session against the printed corner numbers (p. 287 = cols 563/564). Every site read at 450 dpi on a crop taken wider than its target word; the whole line read at each, per the 2026-08-23 rule that the neighbours are where the invisible class lives — and that rule paid twice here (see 0705C, and the note patch below, which was found while answering a different question).",
+  "class": "Seven digitization corruptions and ONE NORMALIZATION. The corruptions divide into three sub-classes already on the register — plain letter substitution (qum/cum, camdem/eamdem, gloriostor/gloriosior, septilormem/septiformem), the UNJOINED LINE BREAK where the digitization dropped Migne's hyphen and left the halves apart (Judaeo rum, cuncto rum), and a FOURTH now added: a FUSION ACROSS A LINE BREAK WHERE MIGNE HAD NO HYPHEN AT ALL (integra mente -> integramente), the exact inverse of the unjoined break and distinct from 8946's rejoin, which doubled a syllable in front of a real hyphen.",
+  "patches": [
+    {
+      "col": "0691D",
+      "find": "<note>( <hi>Vide tomo VIII operum.</hi> )</note>",
+      "replace": "<note>( <hi>Vide tome VIII operum.</hi> )</note>",
+      "why": "⭐⭐ THE NORMALIZATION CLASS REACHES FIVE, and this is the first instance found in a NOTE rather than in the body, and the first where the tidying changes the LANGUAGE of the word. The plate prints '(Vide tome VIII operum.)' — 'tome', the FRENCH word, in an editorial note by a French editor pointing his reader to volume VIII of Jerome's works. Corpus Corporum silently turned it into the Latin ablative 'tomo', which construes perfectly and so is invisible to every downstream check. Read at 450 dpi and unambiguous. ⚑ Found while answering a different question entirely — whether Migne prints the text of Jerome's prologue at all (he does not: head, this note, rule, CAPUT PRIMUM, and the exposition begins). The internal spacing of the note is left exactly as Corpus Corporum sets it; only the word is corrected, because spacing is transcription convention and not a plate defect."
+    },
+    {
+      "col": "0700D",
+      "find": "dicit eum qui integramente\nDomino aedificare",
+      "replace": "dicit eum qui integra\nmente Domino aedificare",
+      "why": "the plate prints 'qui integra' at the end of one line and 'mente Domino aedificare' at the head of the next, WITH NO HYPHEN, because 'integra' is a whole word. The digitization joined the two words across the break and manufactured 'integramente', which is no Latin word. New sub-class: the hyphenless cross-line fusion."
+    },
+    {
+      "col": "0702A",
+      "find": "optimates Judaeo\nrum non potuerunt",
+      "replace": "optimates Judaeorum non potuerunt",
+      "why": "the plate breaks the word as 'Judæo-' / 'rum' with the hyphen printed. The digitization dropped the hyphen and left the halves standing apart. Same class as 8992's 'Qui dam' and 8958's 'per verse'. ⚠ The word is CLOSED UP rather than the hyphen restored: our chunks reflow the TEI's line breaks into running text, so a restored hyphen would sit mid-line and be a new defect of our own. 8946 was closed up for the same reason."
+    },
+    {
+      "col": "0703D",
+      "find": "corpora eorum qum quibus",
+      "replace": "corpora eorum cum quibus",
+      "why": "the plate prints 'cum corpora eorum cum quibus in hac vita remanserunt'. 'qum' is no Latin word; the plate settles it as an ordinary q/c substitution."
+    },
+    {
+      "col": "0705C",
+      "find": "cujus\nnobis septilormem Propheta",
+      "replace": "cujus\nnobis septiformem Propheta",
+      "why": "the plate prints 'septiformem' — the sevenfold grace of the Spirit, which is what the sentence is about. ⚠ Worth recording: at 150 dpi the neighbouring word looked like 'Prophetia' and a second divergence seemed to be there; the 450 dpi crop shows 'Propheta', agreeing with our file exactly. A false suspicion killed by cropping properly, which is the same discipline that catches the true ones."
+    },
+    {
+      "col": "0709A",
+      "find": "quos docuisti, gloriostor eris",
+      "replace": "quos docuisti, gloriosior eris",
+      "why": "the plate prints 'gloriosior eris in regno Dei'. ⚠ The sentence stands BEFORE the [0709A] anchor, so it is physically the foot of col. 708 and was read at the bottom of the right column of PDF p. 359, not on p. 360. A column anchor marks where a column BEGINS; text above it belongs to the column before."
+    },
+    {
+      "col": "0710C",
+      "find": "templum Dei unam et camdem",
+      "replace": "templum Dei unam et eamdem",
+      "why": "the plate prints 'unam et eamdem Ecclesiae figuram'. 'camdem' is no Latin word; e/c substitution."
+    },
+    {
+      "col": "0711A",
+      "find": "actus ad cuncto\nrum notitiam",
+      "replace": "actus ad cunctorum notitiam",
+      "why": "the plate breaks the word as 'cuncto-' / 'rum' with the hyphen printed; the digitization dropped it. Same unjoined-break class as 0702A, and the two sit nine columns apart in one book. Closed up, not hyphenated, for the reason given there."
+    }
+  ],
+  "unread": [
+    {
+      "col": "0697A",
+      "reading": "magistorum",
+      "verdict": "NOT SETTLEABLE IN THE ON-DISK SCAN — and the reason is worth more than the word. PDF p. 354 (cols 697/698) of patrologiaecurs04migngoog is CLIPPED AT THE LEFT MARGIN: the first characters of most lines in the left column are cut off, so the page reads 'rum quasi ferramentis fabrorum praepa-' where the word we are testing is 'magistorum'. Only its final 'rum' survives on the plate we hold. NO PATCH AND NO GUESS: an illegible plate is recorded as illegible, exactly as an illegible conjecture is. The word fires no marker in the English, so shipping asserts nothing about it. A second PL 113 scan would settle it in one page."
+    }
+  ],
+  "refuted": [
+    {
+      "col": "0705C",
+      "reading": "Propheta",
+      "verdict": "MIGNE'S — our file agrees with the plate. Raised only as an artefact of a 150 dpi impression and killed by the 450 dpi crop. Recorded because a checked negative is worth having."
+    }
+  ]
+}
