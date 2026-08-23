@@ -603,7 +603,33 @@ him — and 4 Rg 23:30–34 with 2 Par 36:1 is that story. **Now "against Nechao
 ⚑ English has no indirect reflexive, so the referent must be named; the name is a supply, and it
 is recorded here as one.
 
-### 6.2 · 0630A — the English was shipping a conjecture the Latin had refused **(marker added)**
+### 6.2 · 0630A — ⭐⭐ SETTLED AT A SECOND WITNESS: the broken letter is MIGNE'S, and the marker changed
+
+**Read this first; what follows it is the reasoning as it stood before the plate was in hand.**
+
+Our archive.org copy of PL 113 clips the left margin of p. 320, so this word could not be read
+there and was recorded as unreadable. **A second witness settles it: Gallica `bpt6k5505319w`, f315
+(f = (column + 1) / 2, calibrated against the printed corner numbers first), which carries the full
+margin.** It prints:
+
+> ⁻ *ulit Saraiam,* qui interpretatur vinctus, *sacer-*
+
+**Migne's own plate prints *ulit*** — nothing but a broken fragment of a raised stroke where the T
+should stand. ⭐ **The contrast is on the same page**: *VERS. 18. — Tulit quoque.* prints its T
+cleanly two lines above. So the missing letter is **a failed sort in Migne's forme**, not a loss of
+our source's: Corpus Corporum transcribed him faithfully, and there is nothing to patch.
+
+⚑ **The marker therefore changed from `[cj:]` to `[sic: ulit]`.** The reasoning below was right
+that the English must stop supplying the letter silently and wrong about which instrument to use —
+`[cj:]` was chosen precisely because a `[sic:]` asserts a defect in the plate and the clipped page
+could not support that claim. **With the plate in hand it can.** The marker-strip test passes:
+delete it and *He took Saraias* still has its verb and its object.
+
+⛔ **The general lesson, and it is the one worth carrying: "unreadable" was a fact about OUR COPY,
+not about the record.** One volume can have two scans with different margins, and the second one
+answered in a single page fetch what the first could not answer at all.
+
+#### The reasoning as it stood before the second witness
 
 The sharpest catch of the four blind reads, and it is about consistency between our two columns.
 

@@ -113,6 +113,35 @@ cols 563/564). **PL 114 `patrologiaecurs06saingoog`: PDF page = (column + 11) / 
 ⚑ **The check costs one page render.** Render one page, read the corner numbers, confirm. Never
 carry a map between a leaf-numbered source and a PDF without it.
 
+### ⭐⭐ A VOLUME HAS MORE THAN ONE SCAN — "UNREADABLE" IS A FACT ABOUT YOUR COPY (2026-08-24)
+
+**Before recording any reading as illegible, check `data/volumes.json` for another witness.** Every
+PL tome there lists its scans, and they are different photographs of different physical copies with
+different margins.
+
+⛔ **Measured: our archive.org copy of PL 113 (`patrologiaecurs04migngoog`) CLIPS THE LEFT MARGIN on
+some pages** — p. 320 and p. 354 confirmed, where the left column's opening characters are cut off
+while the right column is clean. Two candidates were recorded as unreadable on that basis. **Both
+were then settled in a single page fetch each from the second witness**, and they went opposite
+ways: one was our suspicion withdrawn (8951 @0697A *magistorum* is Migne's), the other a defect
+proved to be **Migne's own broken sort** (8955 @0629D *ulit* for *Tulit*, with *Tulit quoque*
+printing cleanly two lines above on the same page) — which changed that work's marker from `[cj:]`
+to `[sic:]`, because a `[sic:]` asserts a plate defect and only a plate can license it.
+
+**PL 113 second witness — Gallica `ark:/12148/bpt6k5505319w`.** IIIF, no download needed:
+
+    https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5505319w/f<N>/full/1400,/0/native.jpg      # whole page, readable
+    https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5505319w/f<N>/<x,y,w,h>/full/0/native.jpg  # native-resolution crop
+    https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5505319w/f<N>/info.json                    # native dimensions
+
+⚠ **`f<N>.highres` returns 403; the IIIF endpoint works, and a User-Agent is required.**
+⛔⛔ **The map is NOT the archive.org map and must be calibrated like any other: for this Gallica
+copy `f = (column + 1) / 2`**, against `(column + 11) / 2` for the on-disk archive PDF — a five-leaf
+difference in front matter. Verified against the printed corner numbers before either read.
+
+⚑ Server-side IIIF cropping means a second-witness check costs **one HTTP request**, not a 38 MB
+download. There is no longer a reason to leave a candidate unread because our copy is poor.
+
 ⚠ **Never guess a conjecture.** An illegible note is recorded as illegible; a wrong one would
 enter our apparatus wearing Migne's own voice.
 

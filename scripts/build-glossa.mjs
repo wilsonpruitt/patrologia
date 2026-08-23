@@ -176,7 +176,7 @@ ${header()}
     <p><b>This is Migne's abridged nineteenth-century recension</b>, not the medieval gloss as a manuscript or the <i>editio princeps</i> gives it. What that means for a reader, plainly:</p>
     <ul>
       <li><b>The marginal glosses only.</b> The interlinear layer — the short notes written between the lines of the Bible text itself — is not here.</li>
-      <li><b>Fifty-eight books, not the whole Bible.</b> The New Testament is complete. The Old lacks Lamentations, Ezekiel, Daniel, the twelve minor prophets and the books of the Maccabees. (A forty-two-word fragment headed <i>Threni</i> survives in the volumes, far too slight to be the book's gloss.)</li>
+      <li><b>Fifty-eight books, not the whole Bible.</b> The New Testament is complete. The Old lacks Lamentations, Ezekiel, Daniel, the twelve minor prophets and the books of the Maccabees. (Under <i>Threni</i> the volumes carry no gloss at all, but a note from Migne&rsquo;s own editors saying why: the Douai edition had filled the gap with Paschasius Radbertus&rsquo;s exposition, which Walafrid &mdash; forty years his senior &mdash; cannot have known, so they omit it here and promise it among Paschasius&rsquo;s works instead.)</li>
       <li><b>The name on it is wrong.</b> Migne prints the whole under Walafrid Strabo, an ascription scholarship gave up long ago. The gloss is the work of a school, not a man.</li>
       <li><b>The attributions inside it are Migne's source's</b> — <i>(RAB.)</i>, <i>(ISID.)</i>, <i>(BEDA)</i> — and they are not always reliable. We print them as he printed them, and passing one through is not endorsing it.</li>
     </ul>

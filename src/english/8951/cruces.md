@@ -328,7 +328,7 @@ wider than its target, and the whole line read at each site.
 | site | our file | the plate at 450 dpi | verdict |
 |---|---|---|---|
 | 0691D (note) | *Vide **tomo** VIII operum* | **Vide *tome* VIII operum** | **OURS — NORMALIZATION** |
-| 0697A | *magistorum* | — page clipped — | **UNREADABLE in this scan** |
+| 0697A | *magistorum* | **magistorum** *(2nd witness)* | **MIGNE'S — refuted** |
 | 0700D | *integramente* | **integra / mente** | **OURS** — hyphenless cross-line fusion |
 | 0702A | *Judaeo rum* | **Judæo- / rum** | **OURS** — unjoined break |
 | 0703D | *qum* | **cum** | **OURS** |
@@ -357,7 +357,19 @@ title *ESDRÆ LIBER PRIMUS*, the prologue head, this note, a rule, and then `CAP
 the exposition beginning. **§1's two adjudications both stand, and the `[ed:]` was rightly
 declined.**
 
-### ⚠ 0697A *magistorum* — recorded as UNREADABLE, not guessed
+### ⭐ 0697A *magistorum* — SETTLED at a second witness, and the suspicion withdrawn
+
+**Our archive.org copy could not show this word** (see below), so it was recorded as unreadable and
+deliberately not guessed. **A second witness answered it in one page fetch: Gallica
+`bpt6k5505319w`, f349 (f = (column + 1) / 2, calibrated first), which carries the full margin and
+opens col. 697 with *magistorum quasi ferramentis fabrorum praepa-rata*.** Our file agrees with the
+plate exactly. **No patch; the suspicion is withdrawn.**
+
+⚑ Worth keeping as a checked negative for a second reason: *magistorum* is an ordinary genitive
+plural and never belonged on a list of non-words at all. **The non-word class, whose plate reads
+are 19 for 19, stayed unbeaten** — this was a misfiled candidate, not a counter-example.
+
+#### Why it could not be read in our own copy
 
 **PDF p. 354 (cols 697/698) of this scan is clipped at the left margin**: the first characters of
 most left-column lines are cut off, so the plate reads *rum quasi ferramentis fabrorum praepa-*

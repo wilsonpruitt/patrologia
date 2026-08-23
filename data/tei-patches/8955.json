@@ -21,12 +21,14 @@
       "why": "the plate prints 'quos populus terrae, scilicet terrenae cupiditati dediti' — earthly DESIRE, which the whole gloss is about. 'cupuditati' is no Latin word."
     }
   ],
-  "unread": [
+  "unread": [],
+  "scan_note": "⚠ THIS COPY OF PL 113 CLIPS THE LEFT MARGIN ON SOME PAGES — confirmed on p. 320 and p. 354, where the left column's opening characters are cut. It does NOT affect the right column, and most pages are clean. Practical consequence: a non-word standing at the START of a left-column line may be unreadable here while its neighbours read perfectly, and that is a property of our copy, not of Migne's plate. Check the left edge before recording an illegible.",
+  "resolved_by_second_witness": [
     {
       "col": "0629D",
       "reading": "ulit Saraiam",
-      "verdict": "NOT SETTLEABLE IN THE ON-DISK SCAN. PDF p. 320 (cols 629/630) is CLIPPED AT THE LEFT MARGIN, exactly as p. 354 is — the first characters of the left column's lines are cut off, and the line under test reads 't Saraiam, qui interpretatur vinctus, sacer-' with whatever stood before the 't' lost with the margin. ⛔ NO PATCH AND NO GUESS. The reading the context points to is 'Tulit Saraiam' (4Rg 25:18 Tulit quoque princeps militiae Saraiam sacerdotem primum, and the gloss two lines above lemmatizes 'Tulit quoque'), but a contextual reconstruction is a conjecture, and a conjecture entered as a patch would wear Migne's voice. It stays as our source has it, unmarked, and is recorded here. ⚑ Note for whoever acquires a second PL 113 scan: this book and I Esdrae each have exactly one candidate waiting on it (0629D here, 0697A magistorum there), which is two pages of reading for two patches."
+      "verdict": "MIGNE'S OWN PLATE — NO PATCH. Settled 2026-08-24 against a SECOND WITNESS after our archive.org copy proved clipped: Gallica bpt6k5505319w, f = (column + 1) / 2, calibrated against the printed corner numbers before the read. The Gallica scan carries the full left margin and prints '- ulit Saraiam, qui interpretatur vinctus, sacer-' with only a broken fragment of a raised stroke where the T should be. ⭐ The contrast is on the same page: 'VERS. 18. -- Tulit quoque.' prints its T cleanly two lines above. So the lost initial is a FAILED SORT IN MIGNE'S FORME, not a loss of Corpus Corporum's -- our source transcribed him faithfully, and there is nothing to patch.",
+      "consequence": "The English marker was CHANGED from [cj:] to [sic: ulit]. With the plate in hand the defect is demonstrably the plate's own, which is exactly what [sic:] exists to record and exactly what it must not claim without evidence. The marker-strip test passes: delete it and 'He took Saraias' still has its verb and its object."
     }
-  ],
-  "scan_note": "⚠ THIS COPY OF PL 113 CLIPS THE LEFT MARGIN ON SOME PAGES — confirmed on p. 320 and p. 354, where the left column's opening characters are cut. It does NOT affect the right column, and most pages are clean. Practical consequence: a non-word standing at the START of a left-column line may be unreadable here while its neighbours read perfectly, and that is a property of our copy, not of Migne's plate. Check the left edge before recording an illegible."
+  ]
 }
