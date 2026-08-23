@@ -113,6 +113,38 @@ cols 563/564). **PL 114 `patrologiaecurs06saingoog`: PDF page = (column + 11) / 
 ⚑ **The check costs one page render.** Render one page, read the corner numbers, confirm. Never
 carry a map between a leaf-numbered source and a PDF without it.
 
+### ⭐ THE ASTERISK LAYER — Migne's SECOND foot-of-page apparatus (ruled by Wilson, 2026-08-24)
+
+Beside the numbered conjectures, Migne prints a second foot-of-page layer **keyed by a raised
+asterisk**: editorial cross-references rather than textual conjectures. **Corpus Corporum carries it
+no more than it carries the numbered one.** Worked case, PL 114 p. 37 — the preface of *Prophetia
+Baruch*, a work we had already shipped, prints *in Vulgata editione\** and keys it to
+*\* Vulgata editio, de qua fit mentio in prologo super Baruch, exponitur in prologo super
+Ezechielem. Caetera plana sunt.*
+
+**The ruling: recover it with the numbered notes at chunking, and give it BOTH columns.**
+
+- **Latin:** `[cn: * | …]`, injected exactly where Migne sets the asterisk. Same machinery, same
+  file (`data/plate-notes/<idno>.tsv`), key `*` instead of a number; it takes no part in the numeric
+  sequence check, because it belongs to no sequence.
+- **English:** a **translated `[nt: …]`** at the same point. ⚑ **This is where it differs from the
+  numbered layer, and the reason is the content:** *Forte earum* is a reading, and a reading needs no
+  translation — but these notes are **sentences that say something**, and leaving one Latin-only
+  strands an English-only reader in front of a line he cannot read. Pattern 15's existing
+  prose-vs-locator test is exactly the test being applied; no new marker was invented.
+- ⛔ **A NUMBERED `[cn:]` stays LATIN-ONLY, unchanged** (2026-08-18). Do not give one an English
+  twin. `verify-english.mjs` enforces the split: only `[cn: * | …]` joins the note sequence and
+  requires an `[nt:]` opposite it; a numbered one stays outside it. That distinction was drawn in
+  code only after including all `[cn:]` failed 11613, the one work with a recovered numbered
+  sequence.
+
+⚠ **Three places had to learn the class, and a fourth caught the miss:** the injector
+(`inject-plate-notes.mjs`), the verifier (parity, the `[cn:]` form check, and the ratio — the
+English twin must be stripped from the word count exactly as the Latin's is, or a 25-word footnote
+against 51 Latin words reads as padding), and the page builder, whose `[cn:]` pattern required a
+number and rendered the asterisk note as raw brackets in the Latin column. **`scan-raw-markers.mjs`
+is what caught that**, which is the third time that script has earned its place.
+
 ### ⭐⭐ A VOLUME HAS MORE THAN ONE SCAN — "UNREADABLE" IS A FACT ABOUT YOUR COPY (2026-08-24)
 
 **Before recording any reading as illegible, check `data/volumes.json` for another witness.** Every

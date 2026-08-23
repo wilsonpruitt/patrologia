@@ -78,8 +78,21 @@ for (const c of manifest.chunks) {
   // the kinds are matched POSITIONALLY: same total count, same order, and only the
   // [n:]-marked positions are content-checked. An [nt:] position is free but must
   // be non-empty (an empty one is how a translated note silently vanishes).
-  const anyNoteRe = /\[(n|nt): ([^\]]*)\]/g;
-  const latNotes = [...lat.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() }));
+  // ⭐ [cn:] joins this sequence on the LATIN side (Wilson, 2026-08-24). Where Migne's
+  // foot-of-page note is editorial PROSE rather than a conjecture — the asterisk-keyed
+  // layer — the ruling is that the Latin carries [cn: * | …] and the English carries a
+  // TRANSLATED [nt: …] at the same point, so an English-only reader is not left with a
+  // sentence he cannot read. The two are positionally paired exactly like [n:]/[nt:];
+  // the content is not compared, because one is Migne's Latin and the other is our
+  // English. An English-side [cn:] is still an error and is caught separately at 9a.
+  const anyNoteRe = /\[(n|nt|cn): ([^\]]*)\]/g;
+  // ⛔ ONLY the asterisk-keyed [cn: * | …] joins the sequence. Migne's NUMBERED
+  // conjectures stay Latin-only exactly as ruled on 2026-08-18 — "Forte earum" is a
+  // reading, not a statement, and needs no English twin. Including them here failed
+  // 11613, the one work with a recovered numbered sequence, which is how the
+  // distinction got drawn in code rather than only in prose.
+  const inSequence = n => n.kind !== 'cn' || /^\*\s*\|/.test(n.text);
+  const latNotes = [...lat.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() })).filter(inSequence);
   const engNotes = [...eng.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() }));
 
   const latTranslated = latNotes.filter(n => n.kind === 'nt');
@@ -90,7 +103,12 @@ for (const c of manifest.chunks) {
     errs.push(`${name}: note markers — Latin ${latNotes.length}, English ${engNotes.length}`);
   else latNotes.forEach((n, i) => {
     const e = engNotes[i];
-    if (e.kind === 'nt') {
+    if (n.kind === 'cn') {
+      if (e.kind !== 'nt')
+        errs.push(`${name}: note ${i} is Migne's plate note [cn: …] in the Latin but [${e.kind}: …] in the English — it must be a translated [nt: …]`);
+      else if (!e.text)
+        errs.push(`${name}: note ${i} is an empty [nt: ] against a [cn: …] — a recovered plate note must carry its translation`);
+    } else if (e.kind === 'nt') {
       if (!e.text) errs.push(`${name}: note ${i} is an empty [nt: ] — a translated note must carry its text`);
     } else if (n.text !== e.text) {
       errs.push(`${name}: note ${i} differs — Latin "[n: ${n.text}]" vs English "[n: ${e.text}]"` +
@@ -162,7 +180,7 @@ for (const c of manifest.chunks) {
   if (cnRe.test(eng.body))
     errs.push(`${name}: [cn: …] marker found in the ENGLISH chunk — Migne's foot-of-page note belongs to the Latin only`);
   for (const m of [...lat.body.matchAll(cnRe)]) {
-    if (!/^[0-9]+(?:-[0-9]+)?\*? \| \S/.test(m[1]))
+    if (!/^(?:[0-9]+(?:-[0-9]+)?\*?|\*) \| \S/.test(m[1]))
       errs.push(`${name}: [cn: ${m[1]}] is malformed — the form is [cn: <Migne's note number> | <his note>]`);
   }
 
@@ -235,7 +253,17 @@ for (const c of manifest.chunks) {
     // word total, or every recovered note would push the ratio down and read as though
     // the English had lost words it never had.
     .replace(cnRe, '');
-  const lw = words(strip(lat.body)), ew = words(strip(eng.body));
+  // The English twin of a [cn: …] is apparatus on both sides: the Latin's is stripped
+  // just above, so its translation must be stripped here too. Otherwise a recovered
+  // note counts as English the author never wrote and pushes the ratio up — on Baruch,
+  // 51 Latin words against a 25-word note, it read as 1.92 and failed a work that had
+  // gained nothing but Migne's own footnote.
+  const cnPositions = latNotes.map((n, i) => (n.kind === 'cn' ? i : -1)).filter(i => i >= 0);
+  const stripEng = b => cnPositions.reduce((acc, i) => {
+    const t = engNotes[i] && engNotes[i].text;
+    return t ? acc.replace(`[${engNotes[i].kind}: ${t}]`, '') : acc;
+  }, strip(b));
+  const lw = words(strip(lat.body)), ew = words(stripEng(eng.body));
   const ratio = ew / lw;
   // Ceiling recalibrated 2026-07-18: the pilots established EN ≈ 1.5× Latin (not the
   // 1.1–1.2× originally assumed), so a 1.6 hard fail sat only 7% above the true mean

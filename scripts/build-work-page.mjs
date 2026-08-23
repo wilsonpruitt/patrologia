@@ -181,8 +181,15 @@ function inlineHtml(s, { anchorIds, state }) {
     // be able to tell a conjecture from a reference, hence the class of its own and the
     // number, which is what makes the note findable at the foot of the plate.
     // The printed reading stands in the text; the note never replaces it.
-    .replace(/\[cn: ([0-9]+(?:-[0-9]+)?\*?) \| ([^\]]*)\]/g, (_, n, note) =>
-      `<span class="${noteCls(note, 'conj')}" title="${esc(`Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`)}">${note}</span>`)
+    // ⭐ The key may be an ASTERISK (Wilson, 2026-08-24): beside the numbered conjecture
+    // sequence Migne prints a second foot-of-page layer keyed by *, editorial
+    // cross-references rather than conjectures. Same provenance, same column, different
+    // thing — so the hover text must not call it a conjecture, and the English column
+    // carries a translated [nt: …] of it at the same point.
+    .replace(/\[cn: ([0-9]+(?:-[0-9]+)?\*?|\*) \| ([^\]]*)\]/g, (_, n, note) =>
+      `<span class="${noteCls(note, 'conj')}" title="${esc(n === '*'
+        ? `Migne's own note at the foot of this page, keyed to this word by an asterisk — his editorial cross-reference, not a conjecture`
+        : `Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`)}">${note}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);

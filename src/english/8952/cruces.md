@@ -781,9 +781,10 @@ supply.
 one was STRUCTURE.** That is the same split the batch's plate reads produced — corpus frequency
 decisive for non-words, worthless against a real form — and the same trap test 2a names: *the test
 validates the mapping you propose, not the mapping the Latin makes.* Counting how often a man is
-named tells you nothing about which case ending stands in front of you. ⚠ **Flagged to Wilson as
-the one genuinely contested call in this batch**; both readings are stated here so the rival can be
-weighed.
+named tells you nothing about which case ending stands in front of you. ✅ **RULED BY WILSON, 2026-08-24: the overturn stands — *God kept him*.**
+Structure beats frequency; a count of how often a man is named is not evidence about a case ending.
+Both readings stay stated here so the rival can be seen, but the text is settled and is not to be
+reopened.
 
 ### 8.2 · 0543B — a verb annexed from the verse, leaving "the same" with no referent **(repaired)**
 

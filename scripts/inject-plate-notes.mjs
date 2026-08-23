@@ -45,8 +45,19 @@ if (!fs.existsSync(latDir)) { console.error(`no Latin chunks for ${idno} — chu
 // 62* (a second note on a page whose sequence had already run out). All three are
 // attested in the first work read (11613); a number outside this shape is a
 // transcription fault, not a new Migne convention, so it is an error.
-const NOTE_NO = /^[0-9]+(?:-[0-9]+)?\*?$/;
+// ⭐ '*' is a key in its own right (Wilson, 2026-08-24). Beside the numbered conjecture
+// sequence Migne prints a SECOND foot-of-page layer keyed by an asterisk: editorial
+// cross-references rather than textual conjectures — PL 114 p. 37, in the Baruch preface
+// itself, keys "in Vulgata editione*" to "* Vulgata editio, de qua fit mentio in prologo
+// super Baruch, exponitur in prologo super Ezechielem. Caetera plana sunt." Our source
+// carries neither layer. An asterisk row takes no part in the numeric sequence check
+// below, because it belongs to no sequence.
+const NOTE_NO = /^(?:[0-9]+(?:-[0-9]+)?\*?|\*)$/;
 const MARKER_IN_ANCHOR = /\s*\(([0-9]+(?:-[0-9]+)?\*?)\)/;
+// The asterisk layer is not parenthesised: Migne sets a raised * directly against the
+// word. Kept as a separate pattern rather than an alternation so that the numeric path
+// is byte-for-byte what it was before this class existed.
+const MARKER_ASTERISK = /\s*(\*)(?![\w*])/;
 
 // ── normalisation for MATCHING ONLY. The plate reader transcribes Migne's ligatures
 // (præsentiæ); the TEI spells them out (praesentiae). Neither is wrong and neither is
@@ -126,7 +137,7 @@ for (const f of files) {
 const injected = [], skipped = [], trimmed = [], headPlaced = [];
 for (const r of rows) {
   if (!/^yes/i.test(r.found)) { skipped.push({ ...r, why: 'anchor not in our Latin (per the plate reader)' }); continue; }
-  const m = r.anchor.match(MARKER_IN_ANCHOR);
+  const m = r.note_no === '*' ? r.anchor.match(MARKER_ASTERISK) : r.anchor.match(MARKER_IN_ANCHOR);
   if (!m) { skipped.push({ ...r, why: 'anchor does not show Migne\'s (n) marker, so the note has no place to attach' }); continue; }
   if (m[1] !== r.note_no) { skipped.push({ ...r, why: `anchor marker (${m[1]}) disagrees with note_no ${r.note_no}` }); continue; }
   if (!r.note_text) { skipped.push({ ...r, why: 'no note text' }); continue; }

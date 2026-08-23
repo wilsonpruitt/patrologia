@@ -1548,6 +1548,17 @@ beside the word he queried, as **`[cn: 46 | F. *earum*.]`**.
 and nothing of ours. `[cn:]` is in the Latin for exactly the same reason — *this apparatus
 is his*. `verify-english.mjs` errors on a `[cn: ]` found in the English.
 
+**⭐ THE ASTERISK LAYER — the one case that takes an ENGLISH twin (Wilson, 2026-08-24).**
+Migne prints a *second* foot-of-page layer keyed by a raised asterisk instead of a number:
+editorial cross-references, not conjectures. It is recovered the same way and lives in the Latin
+as **`[cn: * | …]`** — but it also gets a **translated `[nt: …]` at the same point in the
+English**, because these notes are sentences that say something and a Latin-only rendering
+strands an English-only reader. Worked case, PL 114 p. 37, in the *Prophetia Baruch* preface:
+*in Vulgata editione\** keyed to *Vulgata editio, de qua fit mentio in prologo super Baruch,
+exponitur in prologo super Ezechielem. Caetera plana sunt.*
+⛔ **A NUMBERED `[cn:]` still takes no English twin.** *Forte earum* is a reading, and a reading
+needs no translating. `verify-english.mjs` enforces the split.
+
 **What a translator does with it:**
 
 - **The printed reading still stands and is still what the English renders.** Pattern 7 is
