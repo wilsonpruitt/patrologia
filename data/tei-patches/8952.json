@@ -1,0 +1,30 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated this session against the printed corner numbers (p. 287 = cols 563/564). Read at 450 dpi on crops taken wider than the target, whole line read at each site. ⚠ Some pages of this copy clip the LEFT MARGIN (p. 320, p. 354 confirmed); none of this work's four sites falls on one.",
+  "class": "Two ordinary non-word corruptions and TWO NEW CLASSES for the register. (1) An INTERPOLATED WORD — the digitization added a word Migne does not print (0539C 'fuit a de Ramatha' for his 'fuit de Ramatha'), which is not a corruption of anything but an addition, and reads as a scribal doublet rather than as damage. (2) A LOST PUNCTUATION MARK — the digitization dropped a full stop Migne prints (0561A), fusing two sentences. Both are invisible from the Latin alone in the way that matters: the first looks like Migne being clumsy, the second looks like Migne omitting a stop, and BOTH would be reported by a reader as the plate's defects when they are ours.",
+  "patches": [
+    {
+      "col": "0539C",
+      "find": "quia fuit a de Ramatha",
+      "replace": "quia fuit de Ramatha",
+      "why": "the plate prints 'quia fuit de Rama-' at the line end, 'tha civitate Ephraim' at the head of the next — ONE preposition. Our file carries a spurious 'a' in front of the 'de', which is what made the translator log a crux about two prepositions governing one object. ⭐ NEW CLASS: an interpolation, a word the digitization ADDED. The English needed no change — it had rendered 'because he was from Ramatha', declining to invent a construction for a word that could not be construed, which is exactly what 7a asks for."
+    },
+    {
+      "col": "0542A",
+      "find": "cor nostrum dilatavum est",
+      "replace": "cor nostrum dilatatum est",
+      "why": "the plate prints '(II Cor. VI 11) cor nostrum dilatatum est' — and the chunk's own opening lemma is 'Dilatatum est.', two columns earlier, which is what raised it. 'dilatavum' is no Latin word; t/v substitution."
+    },
+    {
+      "col": "0546A",
+      "find": "Dan interpretatur <hi>Judic um</hi>",
+      "replace": "Dan interpretatur <hi>Judicium</hi>",
+      "why": "the plate prints 'Dan interpretatur Judicium vel judicans'. Our file lost the medial 'i' and left a space in its place — the same manufacture-a-word-by-splitting fault as 8951's 'cuncto rum', but inside a word rather than across a line break."
+    },
+    {
+      "col": "0561A",
+      "find": "continens modium et semis Polenta est",
+      "replace": "continens modium et semis. Polenta est",
+      "why": "⭐ the plate prints 'continens modium et semis. Polenta est accuratissima farina.' — THE FULL STOP IS THERE and our file dropped it, fusing the measure-gloss into the meal-gloss. ⚑ This is why it was worth a plate read rather than a shrug: Pattern 8 forbids the translator to supply a mark Migne does not print, so the translator correctly ran the two sentences together in English and flagged it. The plate licenses the repair, and it belongs in the Latin, not in the English's punctuation. The English is corrected in the same commit to carry the sentence break the plate shows."
+    }
+  ]
+}
