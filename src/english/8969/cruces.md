@@ -1,9 +1,11 @@
 # *Glossa ordinaria*, **Liber Sapientiae** (PL 113, 1167B–1184B) — cruces
 
-Translated 2026-08-23, one translator, 7 chunks (6,457 Latin words), on Opus.
+Translated 2026-08-23, one translator, 7 chunks (6,456 Latin words), on Opus.
+Blind-read and repaired 2026-08-23 (§§4–5 below); the work was **re-chunked** after one TEI
+patch, 6,457 → 6,456 words, and chunk 0's `words:` frontmatter was re-synced to 1047.
 `verify-english.mjs` clean: columns, notes and sections aligned, no duplicate paragraphs.
 
-**Apparatus: 29 `[var:]` · 9 `[sic:]` · 1 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]` ·
+**Apparatus (after repair): 30 `[var:]` · 9 `[sic:]` · 1 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]` ·
 150 `[n:]`** (exact parity with the Latin twins).
 Structure: PROLOGUS + CAPUT PRIMUM → CAPUT XIX (19 heads). **Guillemets: zero in both.**
 **Question marks: 3 in the Latin (1170A, 1172D, 1173A), 3 in the English.** One `!` (1173A),
@@ -86,7 +88,7 @@ this family need no verb at all and got none: 10:5 *Haec et in consensu superbia
 | 1168C | *Et sponsiones.* | And covenants. | **agrees** Sap 1:16 |
 | 1168C | *Dixerunt enim.* | For they have said. | **agrees** Sap 2:1 |
 | 1168C | *Quoniam fumus.* | For smoke. | **agrees** Sap 2:2 |
-| 1168D | *fumus et flatus est in naribus nostris.* | smoke and breath is in our nostrils | ⚑ **`[var:]`** — Sap 2:2 reads *fumus flatus est*, "breath is smoke," with **no *et***. ⭐ Migne's *et* is what the gloss expounds: *corpus nostrum fumo et flatui comparatur, qui simul oriuntur* — two things, not one. Conforming this to the Vulgate would have destroyed the gloss. |
+| 1168D | *fumus et flatus est in naribus nostris.* | smoke and breath is in our nostrils. | ⚑ **`[var:]`** — Sap 2:2 reads *fumus flatus est*, "breath is smoke," with **no *et***. ⭐ Migne's *et* is what the gloss expounds: *corpus nostrum fumo et flatui comparatur, qui simul oriuntur* — two things, not one. Conforming this to the Vulgate would have destroyed the gloss. ⚑ **Repaired A1:** Migne prints the full stop **inside** the italic lemma and then lowercase *id est*; the first English merged the two sentences with a comma. The stop is restored and the English italic span now ends where the Latin's does. |
 | 1168D | *Et sermo scintilla.* · *sermo* | And speech a spark. · speech | **agrees** Sap 2:2 |
 | 1168D | *Ad commovendum cor nostrum.* | To move our heart. | **agrees** Sap 2:2 |
 | 1168D | *Quia exstinctus cinis,* | Because ashes being quenched, | ⚑ **`[var:]`** — Sap 2:3 *qua extincta, cinis erit corpus nostrum*. Migne's masculine *exstinctus* agrees with nothing on the page. |
@@ -106,9 +108,9 @@ this family need no verb at all and got none: 10:5 *Haec et in consensu superbia
 | 1169B | *sterili* · *spadone* | barren woman · eunuch | **agrees** Sap 3:13–14 (Migne's ablatives are the gloss's own case) |
 | 1169B | *In die agnitionis.* | In the day of acknowledgment. | **agrees** Sap 3:18 |
 | 1169C | *O quam pulchra est,* · *Cum claritate,* | O how beautiful is, · With glory, | **agrees** Sap 4:1 |
-| 1169C | *Praemium vincens.* | Winning the reward. | **agrees** Sap 4:2 |
+| 1169C | *Praemium vincens.* | A reward surpassing. | ⚑ **Repaired B1 — conformation (7a″).** "Winning the reward" is Douay's Sap 4:2, where *vincens* agrees with the verse's subject and *praemium* is its object. Migne's lemma is the two words alone and **his own gloss decides against Douay**: *Praemium datum pro certamine transitorio, **quod** majus est illis certaminibus* — neuter *quod* resumes *praemium* as head, and *majus est illis certaminibus* glosses *vincens* as **surpassing**. Under "Winning the reward" the gloss's second half is a non-sequitur. Printed word order kept. **No marker** — nothing diverges from the Vulgate; the divergence was ours. |
 | 1169C | *Multigena autem impiorum.* | But the multiplied brood of the wicked. | **agrees** Sap 4:3 |
-| 1169C–D | *Plantationes.* · *vitulamina* | Plantings. · calf-shoots | Not a divergence but a **scholion on one**: the gloss reports that μοσκεύματα was mistranslated *vitulamina* — which is exactly what the Clementine prints at Sap 4:3. Migne's own Wisdom text carries the reading his gloss corrects. **No marker**; this is the finding, not a defect. |
+| 1169C–D | *Plantationes.* · *vitulamina* | Plantings. · *vitulamina* | Not a divergence but a **scholion on one**: the gloss reports that μοσκεύματα was mistranslated *vitulamina* — which is exactly what the Clementine prints at Sap 4:3. Migne's own Wisdom text carries the reading his gloss corrects. **No marker**; this is the finding, not a defect. ⚑ **Repaired C1**, two ways: (a) *vitulus* is **roman** on the plate and had been set italic in the English — a span not on the plate, now removed; (b) *vitulamina* is a Latin word cited **as a word-form** (Jerome's note on why the codices read it where μοσκεύματα means *plantationes*, followed at once by *qui error tam multos codices praeoccupavit*). Englishing it to "calf-shoots" while leaving *vitulus* in Latin inverted which word got Latin treatment and severed *vitulus → vitulamina*, which is the entire argument. |
 | 1169D | *Justus,* | The just man, | **agrees** Sap 4:7 |
 | 1169D | *Placens Deo.* | Pleasing God. | **agrees** Sap 4:10 |
 | 1169D | *Novit Deus pios de tentatione eripere, iniquos vero in diem judicii cruciandos reservare* | God knoweth how to deliver the godly… | ⚑ **`[var:]`** — 2 Ptr 2:9 reads *Novit **Dominus***, and *reservare cruciandos*. ⭐ **The work quotes this verse twice and differently**: at 1180C the same sentence reappears with *Dominus* and *in die judicii*. The divergence is internal to the book. (Migne's `[n: (I Petr. I)]` is a mis-citation for 2 Petr. 2:9 — a `citation-corrections.json` matter, never a text matter.) |
@@ -130,12 +132,12 @@ this family need no verb at all and got none: 10:5 *Haec et in consensu superbia
 | 1170B | *Lanugo est, quae a vento tollitur.* | It is down, which is taken away by the wind. | **agrees** Sap 5:15 |
 | 1170B | *quia omnis caro fenum. Et tanquam spuma gracilis.* | because all flesh is grass. And as a thin froth. | Is 40:6 *omnis caro foenum* (spelling only) + **agrees** Sap 5:15. **No marker.** |
 | 1170B | *Justi autem in perpetuum vivent.* | But the just shall live for evermore. | **agrees** Sap 5:16 |
-| 1170C | *Accipiet armaturam.* | He shall take his armour. | **agrees** Sap 5:18 |
+| 1170C | *Accipiet armaturam.* | He shall take armour. | **agrees** Sap 5:18. ⚑ **Repaired G3:** the possessive "his" had no warrant — Sap 5:18's subject is *zelus illius* and no possessive stands with *armaturam*. Dropped. The supplied "He" stands (English needs a subject for *Accipiet*). |
 | 1170C | *Et ad certum locum.* | And to a certain place. | **agrees** Sap 5:22 |
 | 1170C | *Et flumina,* | And the rivers, | **agrees** Sap 5:23 |
 | 1170C | *Melior est sapientia,* | Wisdom is better, | **agrees** Sap 6:1. ⚠ Migne prints **no `VERS.` address** on this one; reproduced as printed. |
 | 1170C | *Exiguo enim conceditur misericordia.* | For to the little one mercy is granted. | **agrees** Sap 6:7 |
-| 1170D | *Potentes autem potenter,* | But the mighty shall be mightily, | **agrees** Sap 6:7 |
+| 1170D | *Potentes autem potenter,* | But the mighty mightily, | **agrees** Sap 6:7. ⚑ **Repaired G2:** "shall be" belonged to no reading — the verse's verb is *tormenta patientur*, cut away by Migne's *etc.* The stump is left verbless, as the work's other cut heads are (1179C, 1183B). |
 | 1170D | *usque ad cui autem multum, multum quoque exigetur ab eo.* | as far as but to whom much, of him also much shall be required. | Lc 12:48 *Omni autem cui multum datum est, multum quaeretur ab eo*. Near-synonym (*exigetur*/*quaeretur*) in an abridged tail. **No marker**; logged. |
 | 1170D | *Non enim subtrahet personam.* | For he will not except any man's person. | **agrees** Sap 6:8 |
 | 1170D | *Non est personarum acceptor Deus, unumquemque juxta vias suas judicat* | God is not a respecter of persons, he judgeth every man according to his own ways | ⚑ **`[var:]`** — Act 10:34 **ends** at *non est personarum acceptor Deus*. The second clause is in no verse of Acts; it is nearest Jer 17:10 (*qui do unicuique juxta viam suam*). A whole clause has been attached to the citation. |
@@ -252,7 +254,7 @@ this family need no verb at all and got none: 10:5 *Haec et in consensu superbia
 | 1178A | *Et qui fecit illud.* | And he that made it. | **agrees** Sap 14:8 |
 | 1178B | *Propter hoc.* | For this cause. | **agrees** Sap 14:11 |
 | 1178B | *Initium.* | The beginning. | **agrees** Sap 14:12 |
-| 1178C | *Non enim,* | For neither, | Sap 14:13 reads *Neque enim*. Connective only. **No marker.** |
+| 1178C | *Non enim,* | For not, | ⚑ **Repaired B2 + `[var:]`.** Migne prints ***Non***; the Clementine at Sap 14:13 reads ***neque* enim erant ab initio**. "Neither" was the Vulgate's word, not the plate's — conformation at the smallest scale. **The control is inside this book and of the same class:** 1181C *Neque enim.* → "For neither.", so two different Latin words had been given one English word, and the one that lost its identity was Migne's. Now `[var: Vulg. Sap 14:13 *neque enim*]`. |
 | 1178C | *Disperdat Dominus universa labia dolosa, et omnes qui loquuntur mendacium* | May the Lord destroy all deceitful lips, and all that speak lies | ⚑ **`[var:]`** — Ps 11:4 reads *et **linguam magniloquam***. The second clause here belongs to Ps 5:7 (*perdes omnes qui loquuntur mendacium*): two verses spliced. |
 | 1178C | *Dii, qui coelos et terram non fecerunt, pereant de terra* | Let the gods that have not made heaven and earth perish from the earth | **agrees** Jer 10:11 (cut at *etc.*) |
 | 1178C | *Incommunicabile nomen.* | The incommunicable name. | **agrees** Sap 14:21 |
@@ -456,10 +458,33 @@ but mere man." ✓
   sentence. Not Christ, and not the martyrs.
 - **1177C** *praeparat* — "it": *Dei potentia*, subject of *traduxit* and *divisit*.
 - ⚠ **1183A** *praenoscebat*, *viderat*, *credidit* — **the subject is inside the part the
-  abridgment cut**, and no candidate can be proved. The gloss is on the high priest's robe
-  (*in figura pontificali*), which makes the priesthood or the Jewish people the likely
-  antecedents. Rendered with a bare "it" and **named here rather than chosen silently**, per
-  the brief's rule for two readings that both construe.
+  abridgment cut**, and no candidate can be proved. Rendered with a bare "it", which is not
+  wrong; ⚑ **the blind read asked for the candidates by name (E4), and here they are**, in
+  descending order of warrant: (1) **the high priest** — *pontifex*, standing behind
+  *in figura pontificali*, the phrase the abridgment ends on, and the only person in view;
+  (2) **the synagogue** (*synagoga*, fem. sg.), the Glossa's habitual subject for foreknowing
+  Christ and then refusing him; (3) **the Hebrew people**, the collective the *Byssum terrae
+  deputant Hebraei* opening names. Nothing decides among them, so nothing is chosen in the
+  text. ⛔ The negation *non Deum sed hominem purum* is correctly scoped on *Deum* and was
+  left alone.
+- ⚑ **1172C** *exstitit*, *qui stat*, *super quem*, *ipsum* — **repaired (E1)**, and the
+  blind read's framing was half right. It reported an English "he" with no antecedent, which
+  was true: the sentence had rendered *Partus Virginis* as "The Virgin's childbearing", an
+  English **it**. But the choice is not he-versus-it; it is **what *partus* means**. The
+  clause chain ends *ipsum gentes deprecabuntur* — a childbearing is not entreated — and
+  *qui stat in signum populorum* / *super quem continebunt reges os suum* are Is 11:10 and
+  52:15, where the referent is a person. *Partus* also means the **offspring**, and on that
+  sense masculine *qui*, *quem*, *ipsum* and *admirandus* all construe with the head. Now
+  "The Virgin's **offspring** was to all men **one** to be wondered at, because **he** came
+  forth…" — nothing imported, the antecedent supplied from the Latin word itself.
+- ⚑ **1176D** *qui … distribuebant* — **repaired (E3)**. The plural verb agrees with *alii*,
+  the worshippers, but English word order bound "who" to "the stars" standing next to it, and
+  stars distributing their own positions reads plausibly enough to pass unnoticed. Now "others
+  the circle of the stars, **men** who distributed…".
+- ⚑ **1182D** *qui … sanctificavit* — **repaired (E2)**. Masculine singular *qui* refers to
+  the **Son** (*Omnipotens sermo tuus … hic tunc … fecit*), but the English bound it to "the
+  Egyptians". The sentence is now broken at a semicolon: "…upon the firstborn of the
+  Egyptians; **and he** afterwards sanctified to himself the firstborn of the Hebrews."
 
 ### Plate reads requested — four, and one is a set
 
@@ -492,3 +517,157 @@ site by site under 2a — and the one real defect the 2a pass found (1184A) was 
 which no count would have seen. Ruth's profile repeats here: **the danger in a Glossa book is
 not polarity, it is the lemma quietly conformed** — which is why §1 is the long section and
 this one is the short one.
+
+
+---
+
+## §4 · THE BLIND READ — SITES FOUND, REPAIRED, DECLINED
+
+An independent blind reader read the finished English against the Latin. This section records
+what it raised, what was repaired, and what was declined and why. **A logged column is not a
+checked column (7a′), so the declines are argued, not asserted.**
+
+### Repaired — 16 edits, every one traceable to a numbered finding
+
+| # | col | class | what was wrong | what it now reads |
+|---|---|---|---|---|
+| A1 | 1168D | Pattern 8, deleted mark | Migne prints a full stop **inside** the italic lemma, then lowercase *id est*; the English joined the two sentences with a comma (15 Latin stops in the band against 14 English) | `…in our nostrils.* [var: …] that is, in our body` — and the English italic span now ends where the Latin's does |
+| A2 | 1182A | Pattern 8, supplied mark | a full stop where Migne prints a comma (10 Latin / 11 English in the band) | `…the power to be greater, this happens frequently…` |
+| B1 | 1169D | 7a″ conformation | Douay's "Winning the reward" against Migne's bare *Praemium vincens*, which his own gloss construes the other way | `*A reward surpassing.*` |
+| B2 | 1178C | 7a″ conformation + `[var:]` | "For neither" renders the Vulgate's *neque*; Migne prints *Non* | `*For not,* etc. [var: Vulg. Sap 14:13 *neque enim*]` |
+| C1a | 1169D | italic span not on the plate | *vitulus* is roman on the plate, italic in the English | roman |
+| C1b | 1169D | word-form Englished away | *vitulamina*, cited **as a word-form**, had become "calf-shoots", severing *vitulus → vitulamina* | `rendered them *vitulamina*` |
+| D1 | 1180C | verb supplied to an abridgment head | `Non enim serpens aeneus, etc.` had become "For the brazen serpent **was** not" — gloss prose, not a lemma, so convention 3's expansion licence does not apply; the supplied copula fixed the negative's host on it and asserted the serpent's non-existence | `For not the brazen serpent, etc.` |
+| E1 | 1172C | antecedent | an English "he" with no antecedent in its own sentence | *partus* = **offspring**; see §"Unexpressed subjects" |
+| E2 | 1182D | relative bound to the wrong noun | *qui* → the Son, English read it as the Egyptians | broken at a semicolon |
+| E3 | 1176D | relative bound to the wrong noun | *qui … distribuebant* → *alii*, English read it as the stars | "men who distributed" |
+| F1b | 1168B | Pattern 7, silent repair | "an agreement" renders *convenientiam*, a word not on the page | "something in agreement with every creature" — see §5 |
+| G1 | 1176C | supplied emphasis | "who properly **IS**" — the capitals are not on the plate, which prints plain *est* | "who properly is" |
+| G2 | 1170D | copula belonging to no reading | see §1 row | `*But the mighty mightily,* etc.` |
+| G3 | 1170C | possessive with no warrant | see §1 row | `*He shall take armour.*` |
+| G4 | 1177B | tense contrast flattened | *major sit qui **fecit** quam quod **fit*** had become "makes … is made" | "he who **has made** is greater than that which is made" |
+| — | 1168B | TEI patch (see §5) | our Latin read *id est Verbi Dei*; the plate prints bare *id Verbi Dei* | "that of the Word of God" |
+
+**D1's candidate, named as the finding asks:** the elided verb is almost certainly a healing
+verb from Sap 16:7 (*sanabatur*) — Rabanus' point being that it was not the bronze serpent
+that healed but the one it prefigured, which the surviving tail confirms (*quia mortuus per
+humanitatem, quasi aeneus est per Divinitatem*). It stays a conjecture and stays here.
+
+### Declined, and what the reader got right
+
+- ⭐ **The reader was right about far more than it was wrong about**, and two of its sharpest
+  arguments were **refuted by the plate, not by us** — see §5. Recording that is the point of
+  a blind read: the argument for *Homo* at 1171D was excellent and the answer is still no.
+- ❌ **1168A/1168B `convenientem` as a transcription error — declined on the plate.** The
+  corpus-frequency argument was good (`convenientem habet` once corpus-wide against nine
+  `convenientiam`) and the plate refutes it: it prints *conve-|nientem*, hyphenated, exactly
+  as our file. Not a transcription question.
+- ❌ **A `[cj:]` at 1168B for the same word — declined, reasoned.** With the plate settled, the
+  question is Pattern 18: does the faithful English *assert something false*? It does not. The
+  printed accusative has no head noun, which makes the clause **elliptical, not false**, and
+  Pattern 18 explicitly declines "a merely awkward or elliptical sentence"; 18a further scopes
+  the marker to negations and correlatives and leaves anomalies that merely fail to construe
+  declined. *Convenientem* and the conjectured *convenientiam* mean nearly the same thing, so
+  a gloss would tell the reader nothing he does not already have. **What was genuinely wrong
+  was Pattern 7, not Pattern 18**: "an agreement" rendered a word not on the page. Repaired by
+  rendering the printed accusative, with the participle carried by an English indefinite —
+  the same licence this work already used at 1167C (*in malevolam* → "into a malicious soul",
+  where English cannot carry a bare adjective). **The reading is now Migne's and visible.**
+- ❌ **1183A's "it" — declined as an edit, granted as a disclosure.** No candidate can be
+  proved; all three are now named above (E4).
+- ⛔ **The three un-italicized `[sic:]` markers were re-checked and NOT touched.** All three sit
+  inside an italic scripture lemma where Pattern 10 forbids nested italics; the six italicized
+  ones are in plain prose. 9/9 consistent, and it is not an inconsistency.
+- ⛔ **`*Haec venditum justum,*` → "She forsook **not** the just man that was sold"** stands.
+  The reader examined the supplied negation and let it stand; so do we. It is convention 3
+  expanding a lemma from its own verse (*non dereliquit*), and it is this work's uniform
+  practice. **Recorded as examined, not missed.**
+- ⛔ **1176C's affirmative *potuerunt cognoscere bonum artificem*** where Sap 13:1 has
+  *non potuerunt*: the English correctly did **not** import the Vulgate's negative. Checked
+  negative; left.
+- ⛔ Chunk **0002 (1173A–1175B)** read clean end to end and was not edited, including
+  *flagellum collectionis frangit corda pravorum quae praedicatio non emollit*, the *Qui eum
+  mercede sua… privare voluit* naming Laban, and *non tam hi… sed et omnes Chananaei* scoped
+  on *tam hi*.
+- ⛔ All 9 `[sic:]` pass the 7a⁗ swallow test — every stripped clause keeps its verb, negation,
+  conjunction **and** object. Zero 7a⁗ defects. The `[cj:]` at 1177A is aimed at the right
+  word (*invisibilibus*), in the correct form, verbatim in the twin. All 65 anchors sit beside
+  the word they stand for. `*Diligite justitiam,*`, `*Justorum autem animae.*`, `*Proditio,*`
+  and the Sap 8:1 `usque ad` trap all survived the conformation hunt and are untouched, as are
+  all five ordinary `usque ad`s.
+
+---
+
+## §5 · THE PLATE
+
+`raw/scans/pl113/patrologiaecurs04migngoog.pdf`, **PDF page = (column + 11) / 2**, confirmed
+against the printed corner numbers (p. 589 heads 1167 left / 1168 right).
+
+### One patch — and it is a NORMALIZATION, not a corruption
+
+`data/tei-patches/8969.json`, **col. 1168B**: our file read *id **est** Verbi Dei*; **the plate
+prints a bare *id Verbi Dei*, no *est*.** Read at 1200 dpi on a tight crop and confirmed by
+eye. The contrast is on the same line twice, since *id est ejusdem est scientiae cum Verbo*
+follows immediately with both forms spelled out. **Corpus Corporum supplied the copula**,
+completing an ellipsis Migne left short — the same class as 8948 *convivum*, 8990 *concilio*,
+and 8992's *leges*→*legis* found in this batch. ⭐ **The digitization does not only corrupt; it
+silently CORRECTS, and a corrected form reads perfectly, so nothing downstream can see it.**
+
+**Rendering, and the marker question, reasoned.** The English now reads "*hath knowledge of the
+voice,* **that** of the Word of God, that is, he is of the same knowledge with the Word." That
+is Pattern 7: the printed words and no more. The English keeps the ellipsis because English can
+keep it — the copula drops out of "that of the Word of God" exactly as *est* drops out of *id
+Verbi Dei*, and the reader meets the contrast with the spelled-out *id est* in the next clause
+just as Migne's reader does. Supplying "that **is**" would have been Pattern 8's forbidden
+supply performed on a word instead of a mark.
+
+**No marker, and this is the deliberate part.** Pattern 12 marks **type that is the plate's
+defect**. An ellipsis Migne himself printed is not a defect — it is his text, and a nineteenth-
+century editor's compression of a formula he had already spelled out twice on the same line is
+about as far from broken type as a page gets. Pattern 12's own operational test settles it: the
+crux verb here is *"rendered as printed"*, so the words on the page are **English, and ours** —
+no marker. Nor is it Pattern 18: an elliptical sentence is the pattern's named ❌ class, and
+nothing false is asserted. ⚑ **What is worth recording instead is that our Latin was wrong and
+now is not** — the patch, not a marker, is the honest instrument, because the defect was never
+Migne's.
+
+⚑ Also observed on that line and deliberately **not** patched: the plate prints *Verbo. Vel.*
+with a full stop where our transcription has *Vel,*. A comma-for-period in the source
+transcription is a corpus-wide punctuation question, not a single-site claim, and sweeping it
+is out of scope. Recorded so the observation is not lost.
+
+### Two checked negatives — the plate said no, twice
+
+| col | the hypothesis | verdict |
+|---|---|---|
+| **1168A** *convenientem* | `convenientem habet` occurs **once** in the whole corpus against nine `convenientiam`, and the accusative has no head noun | ⛔ **NO CHANGE.** The plate prints *conve-\|nientem*, hyphenated across the line, exactly as our file. **The corpus-frequency argument was good and the plate refutes it.** |
+| **1171D** *Homo* | the reader's **highest-value** request, and a sharp hypothesis: *mobilis* stands in Sap 7:22, the gloss expounds mobility on both sides of the sentence, and *homo* appears in neither the verse nor the argument — the 8990 alteration profile exactly | ⛔ **NO CHANGE.** The plate prints italic *Homo*. **The argument was excellent and the answer is no.** |
+
+### ⚑ The batch-wide pattern, and it is the most useful thing this read produced
+
+Across three works this session:
+
+- **Every suspicion aimed at a NON-WORD was CONFIRMED** by the plate as ours — *interpetratur*,
+  *quisbusdam*, *per verse*, *nortales*, *Qui dam*, *quorum dam*.
+- **Every suspicion aimed at a REAL, WELL-FORMED WORD was REFUTED** — *credulitatem*, *Homo*,
+  *convenientem*, *dat offensum*: the plate had Migne printing it.
+
+⭐ **Corpus frequency is decisive for non-words and worthless for real words.** A non-word has
+no defence: if the corpus has never seen it, the digitization made it. A real word has the best
+defence there is — Migne printed it — and its rarity is evidence about Latin usage, not about
+this plate. Weight future plate requests accordingly: non-words first, real words only where a
+marker actually depends on the answer.
+
+### Two reads OWED, not run — and why shipping is still honest
+
+| col | candidate | why it was not run |
+|---|---|---|
+| **1169B** | *Scintilla duo facit… mutat cito arundinetum* | real-word / semantic suspicion — the class the plate refuted 4 times out of 4 this session |
+| **1170C** | *flagellum collectionis* | same class; **the reader itself ranked it low priority** |
+
+⛔ **Neither fires a marker.** Both are rendered as printed, as ordinary English, with no
+apparatus claiming anything about the plate. **The principle, stated plainly: an unread
+candidate is safe to ship if and only if it fires no marker.** A marker is an assertion about
+Migne's page and may not be made from an unread plate; a literal rendering asserts nothing
+beyond our Latin, which is disclosed and sits in the facing column. These two are **owed, not
+checked**, and this table is the record of the debt.

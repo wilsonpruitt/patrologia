@@ -1,15 +1,21 @@
 # *Glossa ordinaria*, **Epistola ad Galatas** (PL 114, 0569D–0588B) — cruces
 
-Translated 2026-08-23, one translator, 7 chunks (7,513 Latin words). Author of record
+Translated 2026-08-23, one translator, 7 chunks. **Repaired 2026-08-23** after an independent
+blind read and a plate read at 900–1400 dpi; the work was re-chunked when
+`data/tei-patches/8992.json` was written (manifest `sourceWords` 7,513 → 7,511). Author of record
 **Anselmus Laudunensis et schola**; Migne prints it under Walafrid Strabo and the running head
 over these columns reads WALAFRIDI STRABI FULD. MON. OPP. PARS I. — THEOLOGICA. The honesty
 label on the work page carries that.
 
 `verify-english.mjs` clean: 7 chunks, columns/notes/sections aligned, no duplicate paragraphs.
-Apparatus: **24 `[var:]` · 5 `[sic:]` · 1 `[cj:]` · 1 `[d:]` · 0 `[ed:]` · 0 `[nt:]` · 30 `[n:]`**
+Apparatus **after the repair pass**: **23 `[var:]` · 4 `[sic:]` · 1 `[cj:]` · 1 `[d:]` · 0 `[ed:]`
+· 0 `[nt:]` · 30 `[n:]`** (before: 24 · 5 · 1 · 1 · 0 · 0 · 30)
 (exact parity with the Latin twins). Structure: ARGUMENTUM, CAPUT PRIMUM, CAPUT II–VI, with
 CAPUT IV split across chunks 3 and 4 (`CAPUT IV. (cont.)`). Zero guillemets in either language.
 Zero `[cn:]` — see §2 on plate status. Em-dashes: 0.
+
+⭐ **Start at §5 (the blind read) and §6 (the plate).** Those two sections record what changed on
+2026-08-23 and why; §§1–4 have been corrected in place to agree with them.
 
 The five Glossa conventions settled on Liber Ruth (8968 §1) are followed and were not re-opened.
 Collation throughout is against `sources/vulgate/clementine-flat.txt`, cited by book chapter:verse.
@@ -23,7 +29,13 @@ checked and found to agree with the Clementine exactly.** A `✓ agrees` line is
 not a skip. Where Migne's own note misattributes a quotation, that is recorded separately from the
 question of the wording, because it is a different fact.
 
-### 1a. The divergences that took a `[var:]` (24)
+### 1a. The divergences that took a `[var:]` (23)
+
+⛔ **One row was withdrawn on 2026-08-23.** The 0573D row (*Ut nos ingentes* against Gal 2:9 *ut nos
+in gentes*) is **no longer a scripture divergence at all** — the plate read settled it as Migne's own
+fused type, Pattern 10, and a compositor's word-division is not a variant in his copy-text of
+Galatians. The `[var:]` was removed and a `[sic: *ingentes*]` put in its place. Reasoning in §2 and
+§5.
 
 | col | Migne prints | Clementine | why it earned a marker |
 |---|---|---|---|
@@ -33,7 +45,6 @@ question of the wording, because it is a different fact.
 | 0572B | *Sine offensione estote Judaeis et Graecis Ecclesiae Dei* (II Cor. VIII) | 1Cor 10:32 *Sine offensione estote Judaeis, et gentibus, et ecclesiae Dei* | ***Graecis* for *gentibus*** — a different word for the second party. |
 | 0572C | *Luceant opera vestra coram hominibus,* etc. | Mt 5:16 *Sic luceat lux vestra coram hominibus : ut videant opera vestra bona* | Migne makes the **works** shine; the received text makes the **light** shine so that the works may be seen. Different subject. |
 | 0572C | *Nolite facere justitiam vestram coram hominibus,* | Mt 6:1 *Attendite ne justitiam vestram faciatis coram hominibus* | Prohibition recast from *attendite ne* to *nolite facere*. |
-| 0573D | *Ut nos ingentes.* | Gal 2:9 *ut nos in gentes* | ⭐ **The most interesting reading in the work.** *ingentes* is a real Latin adjective agreeing with *nos*, so Pattern 7 renders it ("That we great ones") and Pattern 12 has nothing to wrap; but the gloss under it expounds *gentium* — "That I might be first in the preaching of the Gentiles, as Peter in the circumcision." The lemma and its own gloss are talking about different things. Handled under Pattern 14 rather than 18 because the divergence sits **inside a quoted scripture**, which is the rule that separates the two conventions. **Plate read requested — see §4.** |
 | 0575A | *Fascinatio malignitatis obscurat bona* (Sap. IV) | Sap 4:12 *Fascinatio enim nugacitatis obscurat bona* | ***malignitatis* for *nugacitatis*** — and the whole paragraph is about *invidia* and malice, so Migne's word is the one the argument wants. Exactly the shape of 7914 @1079C's *castimoniam*: the keyword of the argument is not the keyword of the received text. |
 | 0575A | *Jesus Christus proscriptus est.* | Gal 3:1 *Jesus Christus praescriptus est* | ***proscriptus* for *praescriptus***, and the gloss immediately defines it: *Id est, exhaeredatus* — "that is, disinherited". The exposition rests on the divergent word. A translator half-remembering "set forth before your eyes" loses the entire gloss. |
 | 0575D | *Maledictus omnis homo,* etc. | Gal 3:10 *Maledictus omnis qui non permanserit in omnibus…* | Migne inserts *homo*. See the 0576B entry — the insertion is glossed. |
@@ -115,34 +126,97 @@ looked. Each of these was read word against word at the cited verse.
 
 ## §2 · THIS BOOK'S CRUCES
 
-### 0573D · *Ut nos ingentes* — the fused preposition. RENDERED AS PRINTED, `[var:]`, PLATE READ WANTED
+### 0573D · *Ut nos ingentes* — MIGNE'S OWN FUSED TYPE. `[sic:]`, and the `[var:]` withdrawn
 
-Covered in §1a. The reading I took is *ingentes* as the adjective the plate actually sets, agreeing
-with *nos*, and the rival I rejected is a silent split into *in gentes*: the split is certainly what
-the sentence means, and that is exactly why it must not be made in the running text — it would leave
-no trace that the plate is defective, and the gloss's own *praedicatione gentium* two words later
-already tells the reader what was intended. Whether the fusion is Migne's compositor or Corpus
-Corporum's transcription **cannot be settled from the Latin**, and the answer decides whether this is
-a `[var:]` (Migne) or a `data/tei-patches/8992.json` fix (the digitization) — the 8968 *significaRuth*
-precedent exactly. **Request: p. 292 (col. 573D), 300 dpi.**
+⭐ **Settled at the plate, 2026-08-23, and re-classified.** The plate prints *ingentes* as ONE italic
+word, exactly as our file has it — so this was never a transcription question and no patch is owed.
+The question left was **which convention it belongs to**, and the answer is **Pattern 10 (fused type,
+`sedet` for *sed et*), not Pattern 14**.
 
-### 0574A · *Qui dam* for *quidam* — split type. `[sic:]`, sense supplied beside it
+**Why fused type and not a scripture variant — four reasons, and they are cumulative:**
 
-Pattern 10 carries the whole broken run, including the fragment that is a real word, and 7a⁗ keeps
-the sense outside the quarantine: `Certain [sic: *Qui dam*] emulators of the law…`. Strip the marker
-and the sentence still has its subject. Same page as *ingentes*, so the same plate read answers both.
+1. **The printed lemma has no predicate.** *Ut nos ingentes* is a purpose clause with a subject
+   accusative and an adjective and nothing to construe them with. The Vulgate's *ut nos in gentes*
+   is the familiar ellipsis (*ut nos in gentes* [*iremus*]), completed by *ipsi autem in
+   circumcisionem*. Only the split reading yields a sentence.
+2. **The gloss under it never touches greatness.** It reads *Ut essem primus in praedicatione
+   gentium, sicut Petrus in circumcisione* — wholly about the Gentiles. A lemma Englished as "That
+   we great ones" bears no relation to its own gloss, which is the tell.
+3. **Migne's own next clause requires the preposition.** *sicut Petrus in circumcisione* is one half
+   of an antithesis whose other half must be *in gentes*. The plate itself supplies the missing
+   *in*, four words later, in the parallel member.
+4. **A `[var:]` is a public claim about another text.** It asserts that Migne's copy-text of
+   Galatians read *ingentes*. Nothing supports that; what the plate shows is a compositor setting
+   two words as one, which is the defect Pattern 10 names and which Corpus Corporum simply
+   reproduced.
 
-### 0574D · *quorum dam* for *quorumdam* — the same defect, one column later
+⚠ **The reasoning that lost, stated so a reader can weigh it.** §4 of the brief cuts both ways —
+Corpus Corporum fuses and splits as readily as Migne does — so before the plate read the honest
+position was that the fusion's *author* could not be determined from the Latin, and that ambiguity
+was why the original entry hedged. The plate removed exactly that doubt: the fusion is Migne's. What
+it did **not** decide, and what remained mine, is whether Migne's fused word is a reading or a
+misprint; reasons 1–3 decide that, and they are all internal to his own page.
 
-`the eyes of certain [sic: *quorum dam*] men`. **Two split runs of the same word within one page of
-each other is itself evidence about the transcription rather than the plate**, and is the second
-reason for the read.
+**Rendered** `*That we unto the Gentiles.* [sic: *ingentes*]` — the lemma Englished per convention 2,
+the plate's own form marked beside it. Strip the marker and the lemma still reads. Per Pattern 10 the
+carried run takes no second italic marker inside the already-italic lemma; the marker is set outside
+the italic span so no nesting is required.
 
-### 0581C · *quisbusdam* for *quibusdam* — metathesis, non-word. `[sic:]`
+### 0574A · ⭐⭐ *aemulatores LEGES* — THE NORMALIZATION NOBODY ASKED ABOUT. `[sic:]`
 
-`in certain [sic: *quisbusdam*] persons whom she brings forth here`. Carried untranslated with the
-sense supplied beside it. ⚑ This is Test 4's shape from the other direction: three deformations of
-*quidam/quibusdam* in one short work, none of them a word. **Request: p. 296 (cols 581/582).**
+**This entry replaces the former *Qui dam* entry, which is now void**: the plate hyphenates *Qui-* /
+*dam* at the line end, so *Quidam* is one word on the page and the split was Corpus Corporum's. The
+Latin is patched, the `[sic: *Qui dam*]` is withdrawn, and "Certain" now stands unmarked.
+
+**But the same four words carried a second defect, running the other way, and it changes the
+English.** The plate prints ***aemulatores leges***; our Latin file read *legis*. Confirmed at 1400
+dpi: the final `e` carries no dot, where *qui* and *timens* on the same and the following line show
+clear ones.
+
+This is the **NORMALIZATION class** (8948 *convivum*, 8990 *concilio*): *aemulator* governs the
+genitive, so *aemulatores leges* leaves an accusative plural with nothing to govern it — **Migne
+printed a form that does not construe, and the digitization tidied it into the grammatical *legis***.
+
+⛔ **Why nobody flagged it, and the general lesson.** A corrected form reads perfectly. The
+translator met *legis*, rendered "zealots of the law" smoothly, and had no occasion to doubt a word
+that construes, agrees with its governor, and says what the paragraph wants. **Every test this
+edition runs — parity, counts, negation attachment, band comparison, even the fourth test's "does it
+assert what he asserts?" — takes the Latin file as its input, so a defect that has already been
+repaired upstream is invisible to all of them by construction.** It was found only because the plate
+was open at that line for a different word. **A normalization can be detected from the Latin alone
+only by luck; it is a plate-read finding or it is nothing.**
+
+**Rendered** `Certain emulators of the law [sic: *leges*]`. Strip the marker and the clause keeps its
+subject, its verb, its object and its relative — the swallow test passes, and the fourth question
+(does the clause still have the thing it acts on?) is answered by "of the law" standing in plain
+English outside the bracket. The `[sic:]` is right rather than a `[cj:]` because the printed word
+**has no grammatical slot** — Pattern 12's first failure mode — not because it merely means the
+wrong thing.
+
+### 0574D · *quorumdam* — the marker WITHDRAWN, the plate read settled it
+
+The former entry marked `[sic: *quorum dam*]`. The plate hyphenates *quo-* / *rumdam* at the line
+end: **one word on the page.** Corpus Corporum dropped the hyphen *and* split at a different point
+than the plate does, so its "quorum dam" is not even evidence of where the break fell. Latin patched,
+marker removed, English now reads "the eyes of certain men".
+
+⛔ **The caveat that outlives the patch:** a newline in the TEI is **not** reliable evidence of where
+the plate's line ends. It agrees with the plate at this work's *Qui\ndam* and disagrees here.
+Corroboration once the plate has spoken; never a substitute for reading it.
+
+### 0581B · *quibusdam* — the marker WITHDRAWN, and the earlier column reference corrected
+
+The former entry marked `[sic: *quisbusdam*]` at "0581C". **The plate prints *quibusdam* plainly, one
+word, in an unbroken line** — no hyphenation involved, so this was an ordinary misread by the
+digitization and not the line-break class at all. Latin patched, marker removed, English now reads
+"although in certain persons whom she brings forth here". ⚑ The column is **0581B**, not 0581C as the
+first draft of this file said.
+
+⚑ **The former entry's own argument was wrong in an instructive way.** It read three deformations of
+*quidam/quibusdam* in one short work as evidence about the *plate*. All three were the
+*digitization*. The frequency check that raised them (536 *quidam* / 37 *quorumdam* / 278
+*quibusdam* against the split and metathesized forms) did its job perfectly — it is what got the
+plate opened — but it identifies a **suspect**, never a **culprit**.
 
 ### 0584A · *digit* for *diligit* — non-word, and it is the clause's only verb. `[sic:]`
 

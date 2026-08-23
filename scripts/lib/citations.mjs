@@ -72,6 +72,16 @@ export const BOOKS = {
   // leave his numeral exactly as printed in refDisplay: the alias fixes OUR parsing gap,
   // never his reference. (Cf. runbook false positive 2 -- an Ibid. may depend on it.)
   'I Cr': '1Cor',
+  // Bare 'Petr.' = I Peter, attested once corpus-wide at 8969/1177D (2026-08-23), where
+  // Migne's own prose introduces the quotation with "unde Petrus:" and the text quoted --
+  // In qua pauci, id est octo animae salvae factae sunt per aquam ... salvos fecit baptisma
+  // -- is 1 Pet 3:20-21 verbatim. Identified FROM THE QUOTED TEXT, not assumed from the
+  // numeral. ⚠ HAZARD, stated because the alias cannot enforce it: the corpus prints the
+  // prefixed forms 45 times (I Petr. 33, II Petr. 12), so a bare 'Petr.' meaning II Peter
+  // is possible in a work not yet englished, and this mapping would resolve it silently
+  // and wrongly. Same shape as the bare 'Phil' ruling above, which was also settled per
+  // site by the Latin quoted. Re-verify against the quotation at any new attestation.
+  'Petr': '1Pet',
 };
 
 // Evidence-grown known-fontes routing list (SPEC.md ruling 4): a citation whose shape
