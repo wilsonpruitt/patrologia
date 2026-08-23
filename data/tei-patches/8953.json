@@ -1,0 +1,25 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, RE-CALIBRATED this session against the printed corner numbers (p. 287 = cols 563/564) before any crop was taken. Both sites read at 450 dpi on crops taken deliberately wider than the target word, per the 2026-08-23 rule that a crop clipping a letter corroborates a false reading.",
+  "class": "digitization CORRUPTION, the ordinary letter-transposition kind (not the line-break rejoin of 8946, and not the normalization of 8948/8990). Both words are NON-WORDS in our file and both were confirmed as ours, which is now 12 for 12 on that class. The translating agent raised all three of this work's non-word candidates and deliberately fired NO [sic:] on any of them, on the 2026-08-23 ship test — so no page ever asserted a defect in Migne's plate, and these patches correct our Latin column rather than withdrawing a false public claim.",
+  "patches": [
+    {
+      "col": "0563C",
+      "find": "ob hoc precaepit\nverus David",
+      "replace": "ob hoc praecepit\nverus David",
+      "why": "the plate prints 'præcepit' plainly at 450 dpi. Raised because 'precaepit' is no Latin word and the correct form stands eleven lines above in the same column. The whole line was read, not the word: 'occidit prophetas (Matth. XXIII), cui mors Domini et apostolorum in derisum fuit, et ob hoc præcepit verus David ne passio sua illis annuntietur' agrees with our file everywhere else. ⚚ The TEI keeps a newline immediately AFTER the word, exactly where Migne's line break falls, so the source side corroborates the plate; at the second site below it does NOT, which is the standing reminder that a TEI newline is evidence only when the plate has already spoken."
+    },
+    {
+      "col": "0567A",
+      "find": "interpretationes neminum: Samua",
+      "replace": "interpretationes nominum: Samua",
+      "why": "the plate prints 'nominum' plainly at 450 dpi. Raised because 'neminum' is no Latin word and nine name-etymologies follow immediately (Samua, Sobab, Jabahar …), which is what the sentence is about. Neighbours read in the same look and all agree."
+    }
+  ],
+  "refuted": [
+    {
+      "col": "0569D",
+      "reading": "Maseth",
+      "verdict": "MIGNE'S — the plate prints 'Maseth ancillæ Abrahæ filius dicitur' exactly as our file has it. Raised by the translator as a suspiciously tidy form (addendum C) and correctly kept as printed with no marker fired. Recorded here because a checked negative is worth having: it is the third real-word/proper-name suspicion refuted at the plate, against zero non-word suspicions refuted."
+    }
+  ]
+}
