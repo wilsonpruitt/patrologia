@@ -1,0 +1,246 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3969,
+  "textIdno": 8992,
+  "title": "Epistola ad Galatas",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "569d",
+  "colLast": "588b",
+  "counts": {
+    "scripture": 24,
+    "fontes": 5,
+    "heads": 7,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "571d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Num.21",
+      "refDisplay": "Num. XXI",
+      "column": "572a",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Cor.10",
+      "refDisplay": "II Cor. X",
+      "column": "572b",
+      "chunk": 0
+    },
+    {
+      "refKey": "2Cor.8",
+      "refDisplay": "II Cor. VIII",
+      "column": "572b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "572c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Jer.1",
+      "refDisplay": "Jerem. I",
+      "column": "572d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Wis.4",
+      "refDisplay": "Sap. IV",
+      "column": "575a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Deut.21",
+      "refDisplay": "Deut. XXI",
+      "column": "575d",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.16",
+      "refDisplay": "Joan. XVI",
+      "column": "578b",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.16",
+      "refDisplay": "Ibid. I",
+      "antecedent": "Joan. XVI",
+      "antecedentColumn": "578b",
+      "ibidResolved": true,
+      "column": "578c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Jer.23",
+      "refDisplay": "Jer. XXIII",
+      "column": "578c",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Pet.2",
+      "refDisplay": "I Petr. II",
+      "column": "579b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.62",
+      "refDisplay": "Psal. LXII",
+      "column": "579b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "580a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Isa.54",
+      "refDisplay": "Isa. LIV",
+      "column": "582a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Jas.2",
+      "refDisplay": "Jac. II",
+      "column": "583a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Lev.19",
+      "refDisplay": "Levit. XIX",
+      "column": "583d",
+      "chunk": 5
+    },
+    {
+      "refKey": "1John.4",
+      "refDisplay": "I Joan. IV.",
+      "column": "584a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.10",
+      "refDisplay": "Psal. X",
+      "column": "584a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Isa.48",
+      "refDisplay": "Isa. XLVIII",
+      "column": "585a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Luke.18",
+      "refDisplay": "Luc. XVIII",
+      "column": "586a",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.9",
+      "refDisplay": "Joan. IX",
+      "column": "587a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Luke.6",
+      "refDisplay": "Luc. VI",
+      "column": "587b",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "588b",
+      "chunk": 6
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG.",
+      "column": "571c",
+      "chunk": 0
+    },
+    {
+      "raw": "AMBR.",
+      "column": "574d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "579a",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "583c",
+      "chunk": 5
+    },
+    {
+      "raw": "AMBROS.",
+      "column": "586d",
+      "chunk": 6
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "569d",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "569d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "572d",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "574c",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "578a",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "582b",
+      "chunk": 5,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "585c",
+      "chunk": 6,
+      "en": "CHAPTER VI."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

@@ -14,7 +14,7 @@ Apparatus **after the repair pass**: **23 `[var:]` · 4 `[sic:]` · 1 `[cj:]` ·
 CAPUT IV split across chunks 3 and 4 (`CAPUT IV. (cont.)`). Zero guillemets in either language.
 Zero `[cn:]` — see §2 on plate status. Em-dashes: 0.
 
-⭐ **Start at §5 (the blind read) and §6 (the plate).** Those two sections record what changed on
+⭐ **Start at §4 (the blind read) and §5 (the plate).** Those two sections record what changed on
 2026-08-23 and why; §§1–4 have been corrected in place to agree with them.
 
 The five Glossa conventions settled on Liber Ruth (8968 §1) are followed and were not re-opened.
@@ -112,7 +112,7 @@ looked. Each of these was read word against word at the cited verse.
 
 **Gal 1 (0569D–0572D).** *Paulus, apostolus.* (1:1; Migne lower-cases *apostolus*, Clem. *Apostolus*) · *Non ab hominibus.* · *Neque per hominem.* · *Qui mecum.* (1:2, clipped from *et qui mecum sunt omnes fratres*) · *Qui dedit.* (1:4, clipped) · *Semetipsum.* (1:4) · *De saeculo.* (1:4, clipped from *de praesenti saeculo nequam* — the ⚠ in the pre-scan is the clip, not a divergence) · *Cui est gloria.* (1:5) · *Miror.* (1:6) · *Sed licet nos,* (1:8) · *Praeterquam quod.* (1:8) · *Anathema sit.* (1:8) · *Anathema.* · *Sicut praediximus.* (1:9) · *Modo.* (1:10) · *Si adhuc.* (1:10) · *Et proficiebam in Judaismo.* (1:14) · *Cum autem placuit.* (1:15) · *Ex utero.* (1:15) · *Priusquam te formarem in utero, novi te* (Jr 1:5, **verbatim**) · *salvatione* · *translatio* (gloss words, not scripture).
 
-**Gal 2 (0572D–0574C).** *Deinde post annos quatuordecim.* (2:1) · *Et contuli cum illis.* (2:2) · *Seorsum,* (2:2) · *Subintroductos.* (2:4) · *Neque ad horam.* (2:5) · *Quales aliquando.* (2:6) · *Qui videbantur aliquid esse.* (2:2) · *Columnae.* (2:9) · *Dextras dederunt.* (2:9) · *Restiti.* (2:11) · *Prius enim quam venirent,* (2:12) · *Quomodo gentes cogis.* (2:14) · *Nos.* (2:15) · *Nisi per fidem,* (2:16) · *Quod si quaerentes.* (2:17) · *Ego enim per legem.* (2:19) · *Mortuus sum.* (2:19) · *Ut Deo vivam.* (2:19) · *Confixus.* (2:19) · *Vivo.* (2:20) · *Jam non ego.* (2:20) · *Vivit vero in me Christus.* (2:20).
+**Gal 2 (0572D–0574C).** *Deinde post annos quatuordecim.* (2:1) · *Et contuli cum illis.* (2:2) · *Seorsum,* (2:2) · *Subintroductos.* (2:4) · *Neque ad horam.* (2:5) · *Quales aliquando.* (2:6) · *Qui videbantur aliquid esse.* (2:2) · *Columnae.* (2:9) · *Dextras dederunt.* (2:9) · *Ut nos ingentes.* (2:9 — ⭐ **moved here from 1a on 2026-08-23**: read as Migne's fused type for the Clementine's *ut nos in gentes*, the reading therefore AGREES with the Clementine and the `[var:]` was withdrawn; the defect is word-division, marked `[sic: *ingentes*]`, see §2 and §4b) · *Restiti.* (2:11) · *Prius enim quam venirent,* (2:12) · *Quomodo gentes cogis.* (2:14) · *Nos.* (2:15) · *Nisi per fidem,* (2:16) · *Quod si quaerentes.* (2:17) · *Ego enim per legem.* (2:19) · *Mortuus sum.* (2:19) · *Ut Deo vivam.* (2:19) · *Confixus.* (2:19) · *Vivo.* (2:20) · *Jam non ego.* (2:20) · *Vivit vero in me Christus.* (2:20).
 
 **Gal 3 (0574D–0578A).** *O insensati.* (3:1) · *Fascinavit.* (3:1) · *Ante quorum oculos.* (3:1) · *in vobis,* (3:1) · *Hoc solum a vobis.* (3:2) · *hoc volo a vobis discere,* (3:2, the gloss's own re-ordering of its lemma) · *Sine causa.* (3:4) · *Qui ergo tribuit.* (3:5) · *Ad justitiam.* (3:6) · *Providens.* (3:8) · *In te benedicentur,* (3:8, clipped and re-ordered from *benedicentur in te omnes gentes*) · *Quia ex fide.* (3:8) · *Praenuntiavit,* ×2 (3:8) · *benedicentur* · *In te.* · *Quicunque enim,* (3:10; *quicunque/quicumque* is Pattern 9) · *Scriptum est.* (3:10) · *Justificatur apud Deum.* (3:11) · *Lex autem,* (3:12) · *Vivet in illis.* (3:12) · *lex non est ex fide;* (3:12) · *Qui ergo fecerit ea, vivet in illis:* (3:12; the *ergo* is the gloss's resumption) · *Factus pro nobis,* (3:13) · *maledictus,* (3:13) · *Maledictus qui pendet.* (3:13, clipped) · *Hoc autem dico.* (3:17) · *hoc autem testamentum confirmatum* · *dico* · *lex non facit irritum,* / *Lex non facit irritum.* (the gloss's own restatement of 3:17 *non irritum facit*) · *Propter transgressiones.* (3:19) · *Ordinata per angelos.* (3:19) · *ordinata:* · *In manu.* (3:19) · *Mediator.* (3:20) · *Lex ergo,* (3:21) · *Priusquam.* (3:23) · *Veniret fides.* (3:23) · *Custodiebamur.* (3:23) · *Conclusi.* (3:23) · *In eam.* (3:23) · *Quae.* (3:23) · *Revelanda.* (3:23) · *Paedagogus noster fuit in Christo Jesu.* (3:24; Migne adds *Jesu*, and the gloss's own second lemma *in Christo,* drops it again) · *in Christo,* · *Omnes filii Dei estis per fidem.* (3:26; *enim* dropped) · *In Christo Jesu.* (3:26) · *Induistis.* (3:27) · *Ergo Abrahae semen estis.* (3:29; *Abrahae semen* for *semen Abrahae*).
 
@@ -150,7 +150,7 @@ The question left was **which convention it belongs to**, and the answer is **Pa
    two words as one, which is the defect Pattern 10 names and which Corpus Corporum simply
    reproduced.
 
-⚠ **The reasoning that lost, stated so a reader can weigh it.** §4 of the brief cuts both ways —
+⚠ **The reasoning that lost, stated so a reader can weigh it.** **Test 4** of the agent brief (the digitization alters Migne's spelling in both directions) cuts both ways —
 Corpus Corporum fuses and splits as readily as Migne does — so before the plate read the honest
 position was that the fusion's *author* could not be determined from the Latin, and that ambiguity
 was why the original entry hedged. The plate removed exactly that doubt: the fusion is Migne's. What
@@ -273,7 +273,9 @@ Migne's italics open at *gentium* (the tail of the previous gloss, completing *p
 [*gentium*]) and close after *In monte Sina.* — which is the next verse lemma. **The italic run
 therefore straddles the boundary between a gloss and the lemma that follows it**, and there is no
 other place in the work where that happens. Reproduced 1:1 as one span, because span structure is
-sacred; but it is very likely two spans on the plate. Included in the p. 296 read request.
+sacred; but it is very likely two spans on the plate. ⬜ p. 296 was read for *quibusdam* at
+0581B and this question was NOT put to it; it remains open, and it is safe open because it fires no
+marker. See §5e.
 
 ### 0583B · `VERS. 11.` printed without the `.--`
 
@@ -300,35 +302,93 @@ the facing Latin column carries it. Logged so a later sweep does not churn it. �
 sentence supplies the point for an English reader (*the carnal seed is from man, the spiritual from
 the Spirit of God*), so nothing is actually lost.
 
-### 0586D · *dat offensum ex fide* — does not construe. RENDERED LITERALLY, no marker
+### 0586D · *dat offensum ex fide* — ⭐ PLATE-CONFIRMED AS MIGNE'S. Rendered literally, no marker
 
-*qui spiritui dat **offensum** ex fide, cum charitate serviendo justitiae…* *offensum* is a real
-noun ("an offence"), so Pattern 12 has nothing to wrap, and the English is "he who gives to the
-spirit an offence out of faith" — which is not what the sentence can mean. The conjecture is
-*obsequium* ("obedience, service"), which yields "who renders to the spirit obedience out of faith"
-and matches *serviendo justitiae* in the same clause. **`[cj:]` declined**: the word that went wrong
-is neither a negation nor a correlative, and the resulting English is incoherent rather than false,
-which 18a's bar does not admit. Crux, no edit.
+*qui spiritui **dat offensum** ex fide, cum charitate serviendo justitiae…*
 
-### 0582D · *externa beatitudo* — probably *aeterna*, and DECLINED
+**Plate read run 2026-08-23 at 1200 dpi: the plate prints *dat offensum*.** The reading is Migne's
+own, not the digitization's, and there is nothing to patch. That is the fact this entry exists to
+carry, because it is the one a reader cannot recover: without it, "he who gives to the spirit an
+offence out of faith" looks like either our mistranslation or a transcription slip, and it is
+neither.
 
-*quia ex fide justitia, et spes, id est, **externa** beatitudo.* The corpus control is inside this
-same work: 0577B and 0576A both print *aeterna beatitudo* in the identical phrase. But *externa* also
-construes on its own terms — hope's object as what lies outside the present — and Pattern 18's bar is
-that the printed word must make the sentence *say something the author is arguing against*, which
-this does not. **Rendered "external blessedness"; the conjecture lives here and not in the text.**
+*offensum* is a real noun ("an offence"), so Pattern 12 has nothing to wrap and Pattern 7 renders it
+as printed. **No marker fires**, which is why this crux has to say plainly that the page is broken
+here rather than leave a reader to take the sentence at face value: the clause as printed cannot mean
+what the paragraph is arguing, which is that the man who *serves* the spirit reaps of the spirit.
 
-### 0573B · *non remanerent* — a plural verb against a singular subject
+**The conjectures weighed, and why each lost:**
 
-*Quod si esset veritas Evangelii apud gentes, non remanerent, sed omnes judaizarent.* **The reading I
-took** makes *veritas Evangelii* the subject: "if it were so, the truth of the Gospel would not remain
-among the Gentiles, but all would judaize" — the sense the paragraph plainly wants, since the false
-brethren's aim was to bring the Gentiles back into the servitude of the law. **The rival, making
-*gentes* the subject of *remanerent*** ("the Gentiles would not remain"), lost because it strands
-*veritas* with no verb of its own; the plural is best explained as attraction to the *gentes*
-immediately before it. English has no exponent for the disagreement, so it is a crux and not a marker
-— Pattern 9's rule for systemic Latin features, and Pattern 12's operational test (the word was
-rendered, so what the reader sees is our English, not his type).
+- ***obsequium*** ("obedience, service") — **the strongest**, and the one this crux would take if it
+  took any: it yields "renders to the spirit obedience out of faith" and matches *serviendo
+  justitiae* in the same clause. It lost the marker, not the argument.
+- ***assensum*** ("assent") — rejected. It construes and is graphically near, but *dat assensum* is a
+  formula for agreeing with a proposition, while the clause's other members (*charitate serviendo*,
+  *legem spiritualiter intelligendo*) are all acts of service, not acts of assent.
+- ***affectum*** ("affection") — rejected. Furthest from the printed letters of the three, and it
+  duplicates *cum charitate*, which already carries the affective member; the clause would say the
+  same thing twice and leave *serviendo* unanswered.
+
+**`[cj:]` declined**, and the reason is 18a rather than the merits: the census is CLOSED and Wilson
+ruled against re-opening it. Independently, the word that went wrong is neither a negation nor a
+correlative, and the resulting English is **incoherent rather than false** — a reader meets a sentence
+that does not work and knows something is wrong, which is not the Pattern 18 population (a sentence
+that works smoothly and asserts the opposite).
+
+### 0582D · *externa beatitudo* — DECLINED, and ⚠ THE PLATE WAS NOT READ
+
+*quia ex fide justitia, et spes, id est, **externa** beatitudo.*
+
+**The work's own control is against the printed word:** 0577B and 0576A both print *aeterna
+beatitudo* in the identical phrase, glossing the identical idea. "External blessedness" is not a thing
+this gloss anywhere means.
+
+**Rendered "external blessedness"** under Pattern 7 — *externa* is a real word occupying its slot —
+and the conjecture *aeterna* lives here and not in the text.
+
+**Does it clear Pattern 18's bar? I agree with the blind reader that it does not, and the reason is
+worth stating rather than asserting.** The bar is that the printed word must make the sentence *say
+something the author is arguing against*. *Externa beatitudo* does not: it says something slightly
+odd but not contrary — hope's object as what lies outside the present is a reading a sympathetic
+reader can construct — whereas 11081's *munde* made the angels announce peace *purely* in a sentence
+whose next clause is *in terra pax hominibus*. The distance between "odd" and "opposite" is the whole
+width of Pattern 18. ⛔ And in any case 18a closes the census.
+
+⚠ **PLATE NOT READ HERE**, recorded deliberately. This site sits on p. 296 (cols 581/582), a page
+opened for *quibusdam* at 0581B — so the read was available and was not extended to it. **It is safe
+to ship unread because no marker fires on it:** the English renders the printed word, nothing in the
+apparatus makes a claim about the plate, and if a later read finds *aeterna* the repair is a one-word
+Latin patch plus a one-word English change, with no marker to withdraw and no public claim to
+retract. That is the general test — **an unread candidate is safe to ship if and only if it fires no
+marker.**
+
+### 0573B · *non remanerent* — a plural verb against a singular subject. ⚠ PLATE NOT READ
+
+*Quod si esset veritas Evangelii apud gentes, **non remanerent**, sed omnes judaizarent.*
+
+**The reading taken** makes *veritas Evangelii* the subject: "if it were so, the truth of the Gospel
+would not remain among the Gentiles, but all would judaize" — the sense the paragraph plainly wants,
+since the false brethren's aim was to bring the Gentiles back into the servitude of the law. **The
+rival, making *gentes* the subject of *remanerent*** ("the Gentiles would not remain"), lost because
+it strands *veritas* with no verb of its own; the plural is best explained as attraction to the
+*gentes* immediately before it.
+
+⭐ **What the blind reader added, and it is right: the English REPAIRS the disagreement in the act of
+rendering it.** *remanerent* is plural against singular *veritas*, and English "would not remain" is
+number-neutral — so the defect passes through our column leaving nothing a reader could see. That is
+the 11632 @0304A shape (*ut **signa** prius ardeat*, "that signs may burn"), where the ruling was that
+**where the English has no exponent for the defect, rendering it silently is a repair.**
+
+⚠ **Why no marker fires here even so, and why 11632 does not govern.** 11632's *signa* was a noun
+whose number IS visible in English (*sign*/*signs*), so the plural in our column was ours and
+concealed his. Here the disagreement lives entirely in a Latin verb ending that an English
+subjunctive does not carry at all — Pattern 9's territory, a systemic feature with no English
+exponent — and the facing Latin column prints *remanerent* where any reader can see it. **The honest
+treatment is this crux, and the crux is the only place the fact can live.**
+
+⚠ **PLATE NOT READ.** p. 292 (cols 573/574) *was* opened, for *Qui dam* and *ingentes*; this site was
+not put to it. Safe to ship unread by the same test as 0582D: **no marker fires**, so nothing in the
+apparatus asserts anything about the plate that a later read could falsify.
 
 ### 0577B · *non quia ex lege non est vita* — a double negative that has to ride
 
@@ -338,19 +398,60 @@ against the temptation to smooth one away. ⚠ Note also that Migne prints **no 
 *Lex ergo…ergo est ita contra promissa* although the construction is the Vulgate's *Lex ergo adversus
 promissa Dei? Absit.* Pattern 8 forbids supplying one, so the English is a statement too.
 
-### 0572B · a sentence whose ellipsis is Migne's
+### 0572B · ⭐ THE MISSING NEGATION IS MIGNE'S OWN — plate-confirmed, and NO marker fires
 
 *Dicit modo quia olim dum dixit hominem ex lege justificari, hominis gloriam inutilem, gratiam Dei
-praedicavit.* — *praedicavit* governs two objects of which only the first has its predicate
-(*inutilem*). Rendered with the ellipsis intact: "he preached the glory of man to be unprofitable,
-and the grace of God."
+praedicavit.*
 
-### 0582C · *non causa promittenti Christi* — case agreement that will not construe
+**Plate read run 2026-08-23: there is NO *non* on the plate.** The line prints *dixit hominem ex lege
+justificari, hominis gloriam inutilem, gratiam Dei praedicavit*, exactly as our file has it. So the
+missing negation is **Migne's own, not the digitization's** — what Paul is described as having
+preached formerly (*olim*) requires *hominem **non** ex lege justificari*, and the plate does not
+supply it.
 
-*ne videantur aut **non causa promittenti Christi**, instituta, aut adhuc promittere.* *causa* + the
-genitive *Christi* is right; the intervening dative participle *promittenti* agrees with nothing.
-Rendered as closely as the words allow ("for the cause of Christ the promiser"), crux logged, no
-marker — the run is real Latin words in real forms.
+**The English is faithful and stands unchanged:** "when he said that a man is justified out of the
+law, he preached the glory of man to be unprofitable, and the grace of God." Note also that
+*praedicavit* governs two objects of which only the first has its predicate (*inutilem*); the ellipsis
+is rendered intact.
+
+⛔ **No marker fires, by ruling and not by oversight.** A dropped negative in the author's own prose
+is the Pattern 18 shape, and **Pattern 18's census is CLOSED (18a); Wilson ruled against re-opening
+it.** The crux carries it instead, with the plate as witness — which is the strongest form this
+finding can take, because a reader now knows the negative is absent *from the page*, and not from our
+transcription or our English.
+
+### 0582B–C · *aut non causa promittenti Christi, instituta, aut adhuc promittere* — ⚠ PLATE NOT READ
+
+*Gentibus vero non sunt imponenda, ne videantur **aut non causa promittenti Christi, instituta, aut
+adhuc promittere**, sed cessando jam patent signa futuri fuisse.*
+
+**The Latin does not construe.** *causa* + the genitive *Christi* is right; the intervening dative
+participle *promittenti* agrees with nothing in the sentence.
+
+**Rendered as closely as the printed words allow** — "lest they seem either not to have been
+instituted for the cause of Christ the promiser, or to be promising still" — with no marker, because
+the run is real Latin words in real forms.
+
+⛔ **And that is exactly the danger the blind reader named, which this entry now carries.** The
+English is smooth where the plate is broken, so **a reader meets a tidy sentence with no signal at all
+that anything is wrong.** Worse, the smoothing lands on the sentence's pivot: the *aut … aut* turns on
+**who promises**, and the argument is that the rites were **instituted in order to promise Christ**
+and are **no longer promising** (*sed cessando jam patent signa futuri fuisse*). Our English makes
+**Christ** the promiser, which breaks the pivot — the second limb is then left with no one to be
+contrasted with.
+
+**The rival, named and weighed:** ***causa promittendi Christum*** — "for the cause of promising
+Christ", a gerund with an accusative object, which restores the pivot exactly and is a small
+palaeographical step from *promittenti Christi*. **It was not taken into the running text**, under
+Pattern 7: it is a conjecture, and conjecture belongs here. ⛔ Nor did it take a `[cj:]` — 18a's
+census is closed, and in any case Pattern 18 requires a **real word in its slot** to make the sentence
+assert something false, whereas here the words do not construe at all, which is a different defect.
+
+⚠ **PLATE NOT READ**, and of the three unread sites this is the one I would read first if a fourth
+read were run — because if the plate prints *promittendi Christum* the whole difficulty is Corpus
+Corporum's and dissolves, and the shape (a defective form tidied into something that half-works) is
+the normalization class that 0574A proves this very page-opening is capable of. **Safe to ship unread
+only because no marker fires**; the apparatus asserts nothing here.
 
 ### 0571D · *Media aqua posita erat omnibus praeceptum Dei*
 
@@ -419,6 +520,177 @@ on"; *Dicite* → "Say ye"). Singular *tu* → **thou** (*Quomodo gentes cogis* 
 the Gentiles"; *ut intelligas* → "that thou mayest understand"; *Considerans teipsum* → "Considering
 thyself"; *quos iterum parturis* → "whom thou bringest forth again").
 
+### 0576C–D · ⛔ *dignus* is MASCULINE — it is the PEOPLE made worthy, not the law. REPAIRED
+
+*Posita est in medio, inter promissionem et semen … ut populum Dei erudiret sub timore Dei: ut
+**dignus** fieret [0576D] excipere promissionem quae est Christus.*
+
+**The English rendered both clauses with "it" (= *lex*), and they cannot both be the law.** *Lex* is
+feminine and would require ***digna***. *Dignus* is masculine and agrees with ***populus*** — the one
+made worthy to receive the promise is the people the law instructs, which is also what the sentence
+itself argues (*ut **populum**… erudiret*, then *ut dignus fieret*).
+
+As it stood, the English made **the law** worthy to receive Christ instead of the people the law was
+given to school — a different proposition, and a doctrinally loaded one.
+
+**Latin morphology settles this outright; no plate read is needed and none was sought.** Corrected to
+"that **they** might be made worthy to receive the promise which is Christ" — the plural pronoun
+because English "it" can only be read back onto *lex*, while "they" can only be read onto the people;
+the collective *populus* takes an English plural naturally and no word is supplied.
+
+⚑ This is the unexpressed-subject class the brief names as dominant, in its purest form: **both
+readings construe in English and only the Latin morphology decides**, so nothing but reading the
+ending catches it.
+
+### 0579A · *sed scientiae … et dogmatum magnitudo* — a mis-parse that produced plausible English. REPAIRED
+
+*Notandum quod clamor in Scripturis non magnae vocis emissio, sed **scientiae** intelligatur, et
+**dogmatum magnitudo**.*
+
+**Was:** "but as knowledge, and the greatness of doctrines." **Now:** "but as **the greatness of
+knowledge and of doctrines**."
+
+*scientiae* is genitive (or dative) and **cannot stand parallel to the nominative *emissio***. The
+single nominative in the *sed* limb is ***magnitudo***, and it governs both genitives — *scientiae*
+across the interposed verb, *dogmatum* after it. The old rendering asserted a **two-member predicate**
+where Migne has **one**.
+
+⚑ **This is the fourth test's class exactly** — Judith's *ferias*. Nothing was missing, everything was
+at parity, the negation sat on the right limb (*non magnae vocis emissio*), and the sentence read
+perfectly well. Only the question "does it ASSERT what he asserts?" reaches it.
+
+### 0586B · Gal 6:2 quoted TWICE, DIFFERENTLY, five lines apart — the variation was erased. REPAIRED
+
+Migne prints, within one gloss:
+
+- *Alia sunt opera participandae infirmitatis, de quibus supra: **Alter alterius onera portate;***
+- *Contra negligentes … dicit: **Invicem onera portate.***
+
+**Both were rendered "Bear ye one another's burdens."** The Clementine reads *Alter alterius onera
+portate* (Gal 6:2), so the **first** is the verse and the **second is Migne's own loose
+re-quotation** — and rendering them identically erases the fact that he varies, which is precisely
+the datum this edition exists to carry.
+
+**Corrected:** the second now reads "**Bear ye burdens one for another.**" — differentiated, and
+differentiated in the direction the Latin points (*invicem*, reciprocal adverb, no *alter alterius*).
+
+⚑ **Note what class this is, because the apparatus does not cover it: a re-quotation INSIDE the
+gloss, not a lemma.** The named-lemma list in the launch brief covers lemmata, and §1's divergence
+table is built from that list; neither reaches a phrase the gloss quotes to itself in passing. 8987
+warned about exactly this ("your lemma list does its job; it does not cover the sentences between the
+lemmata") and here it is again, one book later. **No `[var:]` fires** — the second form is not a
+scripture citation diverging from the received text but Migne paraphrasing himself, and §1d already
+records it as such.
+
+### 0583A · *daemones* — one word, one voice. REPAIRED
+
+*Nam et **daemones** credunt et contremiscunt* [n: (Jac. II)] … *Nam ipsum Christum esse **daemones**
+crediderunt.*
+
+The quotation was rendered "the **devils** also believe and tremble" while the four sentences
+expounding it all said "the **demons**". Migne prints *daemon-* throughout and agrees with the
+Clementine at Jac 2:19, so the traditional English echo was *permitted* — nothing in the scripture
+policy forbids it.
+
+**But the gloss's argument runs straight through the quoted word** (*Nam ipsum Christum esse daemones
+crediderunt, nec tamen in Christum crediderunt*), so the reader has to carry the word from the
+quotation into the exposition, and our page changed it under him.
+
+⚑ **The tell was the cadence, not the lexicon.** "the devils also believe, and tremble" is the
+AV/Douay line, and it had arrived at exactly the point where the translator's own settled word
+elsewhere in the work is "demons" — the 7a″ conformation shape, in its mildest form: not a wrong
+rendering, but the familiar Bible's word displacing our own at the one place where consistency was
+load-bearing. **Corrected to "the demons also believe and tremble."**
+
+### 0575C · *De eo quod sub lege fuerat* — a person read as a thing. REPAIRED
+
+**Was:** "Concerning **that which** had been under the law there could be doubt." **Now:**
+"Concerning **the fact that he** had been under the law there could be doubt."
+
+The sentence before is Paul on himself: *ego qui habui opera legis, non per ea, sed per fidem accepi
+potestatem*. The argument is that **Paul's own case** could be doubted — he *had* the works of the
+law, so a sceptic could attribute his powers to them — while the Galatians' case, who never had the
+works, settles the matter (*sed per similitudinem istorum totum liquet*).
+
+**Both readings construe** — *de eo quod* + neuter ("concerning that which") does parse — **and the
+English chose one silently**, which is the defect whether or not the choice was right. The chosen
+reading also happened to be the one that dissolves the argument: "that which had been under the law"
+has no referent in the paragraph at all.
+
+⚑ *De eo quod* + indicative is the ordinary Latin for "as to the fact that", and it takes its subject
+from the preceding clause — here Paul, in the third person (*fuerat*), as the gloss shifts out of his
+voice. The rival ("concerning **him** who had been under the law") would require *de eo qui*; it is
+named here because it yields the same sense and a reader may prefer it.
+
+### 0574D–0575A · *fascinatio* — one word, rendered two ways inside the passage that DEFINES it. REPAIRED
+
+*dum et hic eorum actus **fascinatio** dicitur* … *unde Salomon: **Fascinatio** malignitatis obscurat
+bona.*
+
+The first was "a **fascination**", the second "**bewitching**". **The paragraph's whole point is that
+one word covers both** the evil eye (*fascinus … qui nocet infantibus*, eyes that burn with their
+look) and envy (*Similiter invidia tanquam fascinus urit*) — and the Solomon text is adduced as the
+**proof** of that identity. Splitting the word breaks the link between the definition and its
+proof-text: an English reader met "fascination" in the definition and "bewitching" in the proof and
+had no way to see they were the same claim.
+
+**Corrected to "bewitching" at the first site**, matching the settled word already used for *fascinus*
+three times, for *Fascinavit*, for *fascinati* and for *fascinantes* in the same paragraph. One voice
+within one work; the direction of the fix follows the majority usage rather than imposing a new word.
+
+### 0578A · *a patre substitutus* — the cognate is the false friend. REPAIRED
+
+**Was:** "one **substituted** by his father." **Now:** "one **placed under [tutelage]** by his
+father."
+
+The gloss is expounding Gal 4:1–2, where the heir *sub tutoribus et actoribus est usque ad
+praefinitum tempus **a patre***. *substitutus* here is *sub-* + *statutus*, "set under [guardianship]"
+— the state the verse describes — **not** "replaced", which asserts a different relation entirely
+(an heir put in someone else's place, which is nowhere in Galatians and would contradict *haeres
+futurus* in the same breath).
+
+⚑ The English cognate "substituted" is the false friend, and it is the kind that reads fluently:
+"like an heir that is to be, and one substituted by his father" is grammatical, plausible, and about
+a different subject. The supplied "[tutelage]" is in square brackets per the corpus convention for
+our own supplied words; the Latin has no noun there, and *a patre* is retained as the agent Migne
+prints.
+
+### 0575A · *ille tantus qui est* — CRUX, both readings named, neither taken silently
+
+*Vere fascinati, quia ante oculos, id est, in vestra praesentia **ille tantus qui est**. **Jesus
+Christus proscriptus est.** Id est, exhaeredatus.*
+
+**Taken:** "he who is so great" — *tantus* predicative, *qui est* an ordinary relative, the whole
+phrase a periphrasis for Christ, named outright in the lemma that follows.
+
+**The rival, and it is strong:** ***ille tantus, qui EST*** — "that great one, **HE WHO IS**" — taking
+*qui est* as the Exodus 3:14 divine title (*Ego sum qui sum*; *Qui est misit me ad vos*), which is a
+commonplace of exactly this kind of gloss, with the following lemma supplying the predicate: **the
+one who IS was disinherited.** That reading makes the sentence's point rather than merely restating
+the subject, and it explains why *tantus* stands where it does.
+
+**Both construe, and the English chose one silently — which is the defect this crux exists to
+undo.** The rendering is left as it stands (Pattern 7: the printed words support it, and re-casting
+to "HE WHO IS" would import a capitalised divine title Migne does not typographically mark), but a
+reader is now told there are two, and which was taken. No marker fires: nothing is defective, and
+`[cj:]` is closed by 18a in any case.
+
+### 0572B · *Judaeis et Graecis Ecclesiae Dei* — a supplied "and" removed. REPAIRED
+
+*Sine offensione estote Judaeis et Graecis Ecclesiae Dei* (Migne's note: II Cor. VIII; the verse is
+1 Cor 10:32).
+
+**Was:** "to the Jews and to the Greeks **and** to the Church of God." **Now:** "to the Jews and to
+the Greeks, to the Church of God."
+
+Migne prints **two members joined by *et* and the third in asyndeton**. The Clementine has all three
+joined (*Judaeis, et gentibus, et ecclesiae Dei*), so the supplied "and" drifted the English toward
+the received text — **in the same breath as a `[var:]` flagging a divergence from it**, which is what
+makes a very small thing worth fixing rather than merely logging: the marker tells the reader the
+citation differs, and the prose beside it quietly made it differ less.
+
+⚑ The `[var:]` on *Graecis* / *gentibus* is unaffected and stands; §1a's row is unchanged.
+
 ---
 
 ## §3 · CANDIDATES RAISED AND REJECTED
@@ -463,22 +735,184 @@ thyself"; *quos iterum parturis* → "whom thou bringest forth again").
 
 ---
 
-## §4 · PLATE READS REQUESTED
+## §4 · THE BLIND READ, AND WHAT IT CHANGED (2026-08-23)
 
-`raw/scans/pl114/patrologiaecurs06saingoog.pdf`, PDF page = (column + 11) / 2.
+An independent reader who had not seen this file read all seven chunks against the Latin. **Fifteen
+findings; thirteen applied, two applied as cruces only, and one — finding 7 — handed back for me to
+settle with the plate.** Every edit in the repair pass traces to a numbered finding; nothing else was
+touched and the work was not re-translated.
 
-1. **p. 292 (cols 573/574), 300 dpi, full width.** Three questions on one page: (a) does the plate
-   read *ingentes* or *in gentes* at 573D; (b) does it read *Qui dam* or *quidam* at 574A; (c) any
-   foot-of-page apparatus. **(a) decides whether the 0573D entry stays a `[var:]` or becomes a
-   `data/tei-patches/8992.json` fix**, which is the 8968 *significaRuth* precedent.
-2. **p. 293 (cols 575/576), 300 dpi.** *quorum dam* at 574D falls at the foot of the previous page
-   or the head of this one; and this page carries *proscriptus* (575A), the work's most consequential
-   single word.
-3. **p. 296 (cols 581/582), 300 dpi.** (a) *quisbusdam* at 581C; (b) whether the italic run at 581A
-   is one span or two (*gentium.* closing one and *In monte Sina.* opening the next).
+### 4a. What it found, and what was done
 
-⚠ Nothing here is urgent enough to hold the work. Plate coverage for 8992 is `"spot"`, checked zero:
-two pages were read before translation — p. 290 (cols 569/570, the Galatians division, which falls
-mid-page) and p. 295 (cols 579/580) — both at 300 dpi, full width, **no foot rule and no numbered
-*Forte* apparatus.** That is why there are no `[cn:]` markers in this work. It is a checked zero for
-those two pages only and is **not** evidence that the work carries no apparatus anywhere.
+| # | col | the finding | outcome |
+|---|---|---|---|
+| 1 | 0576C–D | *dignus* is masculine: the PEOPLE are made worthy, not the law | **repaired** — "it" → "they" |
+| 2 | 0579A | *magnitudo* is the only nominative and governs both genitives | **repaired** — one predicate, not two |
+| 3 | 0586B | Gal 6:2 quoted twice, differently; both rendered alike | **repaired** — the second differentiated |
+| 4 | 0583A | *daemones* "devils" in the quotation, "demons" in its gloss | **repaired** — one voice |
+| 5 | 0582B–C | *promittenti Christi* smoothed; the *aut…aut* pivot lost | **crux only**, rival named, plate not read |
+| 6 | 0575C | *De eo quod* read as a thing where the argument wants Paul | **repaired**, rival named |
+| 7 | 0573D | *Ut nos ingentes* — Pattern 10 fused type, not a Pattern 14 variant | **re-classified**: `[var:]` → `[sic:]` |
+| 8 | 0573B | plural *remanerent* silently repaired by number-neutral English | **crux only**, plate not read |
+| 9 | 0572B | the missing *non* | **crux only** — plate says it is Migne's; 18a closes the marker |
+| 10 | 0586D | *dat offensum* | **crux only** — plate-confirmed Migne's; conjectures named |
+| 11 | 0582D | *externa* against the work's own *aeterna* ×2 | **crux only**, declined, plate not read |
+| 12 | 0574D–0575A | *fascinatio* rendered two ways inside its own definition | **repaired** |
+| 13 | 0578A | *substitutus* = "set under", not "replaced" | **repaired** |
+| 14 | 0575A | *ille tantus qui est* — the Ex 3:14 title as rival | **crux only**, both named |
+| 15 | 0572C | a supplied "and" in an asyndetic citation | **repaired** — "and" dropped |
+
+### 4b. Where I think the reader was wrong, or only half right
+
+⭐ **Finding 7 was flagged rather than asserted, and the caution was right at the time but the
+conclusion is right now.** The reader argued Pattern 10 on two grounds and declined to assert it
+because **Test 4** of the agent brief (the digitization alters Migne's spelling in both directions) cuts both ways. I agree with the conclusion and think the case is stronger
+than the two grounds given: see §2 @0573D for four reasons, two of which (the missing predicate, and
+*in circumcisione* four words later demanding a parallel *in gentes*) are internal to Migne's own
+sentence and do not depend on the plate at all. **The plate read settled the transcription question;
+it did not settle the classification, and the classification was decidable from the Latin all along.**
+
+⚑ **Finding 8's diagnosis is right and its proposed remedy would have been wrong.** The reader called
+it "the 11632 @0304A ruling" and asked for a crux, which is what it got. But had the ruling been read
+as reaching a *marker*, it would have been a mistake: 11632's *signa* is a noun whose number English
+shows, so the silent repair was in a word the reader can see; *remanerent* is a verb ending English
+subjunctives do not carry at all. Same defect class, different exponent, and the exponent is what
+decides between a marker and a crux. Recorded at §2 @0573B.
+
+⚑ **Finding 15 is described as "very minor" and is not.** The drift is small in itself; what makes it
+worth the edit is that it moved the citation **toward** the received text in the same sentence where
+a `[var:]` announces a divergence **from** it. The reader saw this and still hedged. The hedge was
+the only soft judgement in fifteen findings.
+
+⚠ **Finding 6 offers two paraphrases ("him who" and "the fact that he") without choosing.** I chose
+*the fact that he*, because *de eo quod* + indicative is the ordinary Latin for it and "him who"
+would want *de eo qui*. The reader's instinct — a person, not a thing — was correct; the grammar
+picks which person-construction.
+
+### 4c. What the reader checked and found CLEAN, and it is the most valuable part
+
+Recorded because a list of findings alone cannot be told from a report by an agent that never looked.
+
+- ⭐⭐ **Zero polarity defects in a book made of nothing but negatives.** Not one negative dropped,
+  intruded, relocated or mis-hosted. Every high-risk site is correctly scoped: *non modo sibi … sed
+  et his* · *non solum tempora, sed etiam loca* · *non seipsum, sed Deum in seipso diligi volebat* ·
+  *non est **tantum** unius populi … sed et gentilium* · *nullam **omnino** generandi potentiam* ·
+  *non tam … quam* · *mulieres dicit non corruptas, sed feminas* · and both double negatives. Note
+  that four of those are the exact 2a trigger population (a negative on a verb with a quantifier or
+  correlative adjacent) and all four hold.
+- ⭐ **0584D *Regnum non Dei consequentur* — left exactly as it is.** The negative is displaced onto
+  *Dei* on the plate and the English renders it displaced, with a `[var:]` giving the received order.
+  **That is Pattern 7 obeyed at the precise point where obeying it looks like an error**, and it is
+  the site a future reader is likeliest to "fix". Do not.
+- **All `[var:]` verified exact against the Clementine**, including the real finds:
+  *proscriptus*/*praescriptus* with *exhaeredatus* confirming Migne (plate-confirmed this session) ·
+  Rom 11:32 *in justitia* · Is 48:22 *gaudere* · Sap 4:12 *malignitatis* (plate-confirmed).
+- **Every `[sic:]` passes the swallow test**, the fourth question (does the clause still have its
+  object?) included. Nothing here is the Tobit failure. The two new markers written in this pass
+  (*ingentes*, *leges*) were held to the same test.
+- **The `[cj:]` at 0582B is well aimed** (*nolunt* → *volunt*) — and the plate confirms Migne prints
+  *nolunt*, so it is anchored on a genuine reading and not on a digitization artifact.
+- **All 71 column anchors checked by position**, not merely presence and order (test 2b); zero
+  mismatched punctuation bands across all 71.
+- ***Qui dedit.* / *Semetipsum.* are different classes** and the contrast is not an inconsistency.
+  *Nisi per fidem* → "But by the faith." declined correctly. *Segregavit ex utero matris.* left
+  objectless and NOT conformed — correct.
+
+---
+
+## §5 · THE PLATE (2026-08-23)
+
+`raw/scans/pl114/patrologiaecurs06saingoog.pdf`, PDF page = (column + 11) / 2 — confirmed against the
+printed corner numbers (p. 292 heads "574", p. 293 heads "575"). Read at 900 dpi on cropped column
+bands, one word re-read at 1400 dpi and one at 1200 dpi. Every crop was confirmed by eye before
+`data/tei-patches/8992.json` was written.
+
+### 5a. Four patches to the Latin — three word-boundary defects and ONE NORMALIZATION
+
+| col | our old Latin | the plate | class |
+|---|---|---|---|
+| 0574A | *Qui dam aemulatores* | **Quidam** (plate hyphenates *Qui-* / *dam*) | unjoined line break — the digitization's |
+| 0574A | *aemulatores **legis*** | ⭐⭐ ***aemulatores LEGES*** | **NORMALIZATION** — Migne's defective form, tidied upstream |
+| 0574D | *quorum dam oculi* | **quorumdam** (hyphenated *quo-* / *rumdam*) | unjoined line break — the digitization's |
+| 0581B | *in quisbusdam* | **quibusdam**, one word, unbroken line | ordinary misread — the digitization's |
+
+**Consequences in the English:** three `[sic:]` withdrawn (*Qui dam*, *quorum dam*, *quisbusdam* —
+all three marked the digitization, not the plate, and every one of them was therefore a marker
+blaming Migne for someone else's error), and **one new `[sic: *leges*]`** written, with the evident
+sense standing beside it in plain words. Net `[sic:]` 5 → 4.
+
+⭐⭐ **The normalization is the finding of the session and nobody asked for it.** It was found while
+the plate was open at that line for a *different* word. Full reasoning at §2 @0574A; the short form
+is that **a form which reads perfectly may read perfectly because someone upstream fixed it, and no
+test that takes the Latin file as its input can see that.** Two of the three prior instances in the
+corpus (8948 *convivum*, 8990 *concilio*) were found the same way — incidentally, with the plate
+already open.
+
+⛔ **A transcription newline is NOT evidence of where the plate's line ends.** It agreed with the
+plate at *Qui\ndam* here and at 8958's *tam per\nverse*, and **disagreed** at 0574D, where the TEI
+breaks after *quorum* and the plate hyphenates at *quo-*. Corroboration once the plate has spoken;
+never a substitute for reading it.
+
+### 5b. Three reads that came back CONFIRMING MIGNE — checked negatives, and they are worth as much
+
+| col | suspicion | the plate |
+|---|---|---|
+| 0573D | *Ut nos ingentes* a transcription fusion | **prints it as ONE italic word** — Migne's own; re-classified Pattern 10, `[var:]` → `[sic:]` |
+| 0572B | a *non* lost in digitization | **there is NO *non* on the plate** — the missing negation is Migne's; no marker (18a) |
+| 0586D | *dat offensum* a misread | **prints *dat offensum*** at 1200 dpi — Migne's; rendered literally, no marker |
+
+Also confirmed on the same pages, and already carried in §1a: **0575A *proscriptus*** (against the
+Vulgate's *praescriptus*, with Migne's own *exhaeredatus* confirming it) and **0574D–0575A Sap 4:12
+*malignitatis*** (against *nugacitatis*). Both `[var:]` stand, plate-confirmed.
+
+### 5c. ⚑⚑ THE BATCH PATTERN — non-words versus real words
+
+Across three works this session, **every suspicion aimed at a NON-WORD was confirmed by the plate as
+ours** (the digitization's), **and every suspicion aimed at a REAL, WELL-FORMED WORD was refuted,
+with Migne printing it**: *credulitatem*, *Homo*, *convenientem*, *dat offensum*. This work
+contributes to both columns — *quisbusdam* and the two split runs to the first, *dat offensum* and
+*ingentes* to the second.
+
+**The operational consequence: corpus frequency is decisive for non-words and worthless for real
+words.** "278 *quibusdam* against 2 *quisbusdam*" is a near-proof that the odd form is the
+digitization's, because Migne's compositor and Corpus Corporum's OCR do not produce non-words at
+comparable rates. "*offensum* is a real noun and occurs N times in the corpus" proves nothing at all
+about who set it. **Raise a non-word on frequency and expect to be right; raise a real word on
+frequency and expect the plate to refuse you** — and raise it anyway, because a refused suspicion
+that gets recorded is what makes the next one cheap.
+
+⚠ And the class that beats both: a **normalization**, where the suspicion cannot be raised at all
+because the word is real, well-formed, frequent, and correct. Only an eye on the plate finds it.
+
+### 5d. Three candidates NOT read, and why that is safe
+
+**0582B–C *promittenti Christi* · 0573B *remanerent* · 0582D *externa beatitudo*.**
+
+All three sit on pages that were opened for other words (p. 292 and p. 296), so the reads were
+available and were not extended. Each is recorded as unread at its own §2 entry.
+
+⭐ **The rule this rests on, stated once: an unread candidate is safe to ship if and only if it fires
+no marker.** None of the three fires one. The English renders the printed word in each case, the
+apparatus makes no claim about the plate at any of them, and the cruces name the rival and say which
+reading was taken. If a later read overturns any of the three, the repair is a Latin patch plus a
+local English change — **no marker to withdraw and no public claim about another text to retract.**
+Contrast the three markers withdrawn in 5a: those *did* fire, they *did* blame the plate, and they
+were wrong for two months' worth of shipping had the read not been run.
+
+**If a fourth read is ever run, the order is:** (1) 0582B–C *promittenti Christi*, because the
+normalization class is now proven live on this very page-opening and *causa promittendi Christum*
+would dissolve the whole difficulty; (2) 0582D *externa*, where the work's own control is two-to-one
+against the printed word; (3) 0573B *remanerent*, lowest value, since either outcome leaves the
+English and the apparatus exactly as they are.
+
+### 5e. Standing plate coverage for this work
+
+Coverage is `"spot"`. Pages read: **p. 290** (cols 569/570), **p. 292** (cols 573/574), **p. 293**
+(cols 575/576), **p. 295** (cols 579/580), **p. 296** (cols 581/582), and the band carrying **0586D**.
+On p. 290 and p. 295, read full width at 300 dpi: **no foot rule and no numbered *Forte* apparatus** —
+which is why there are no `[cn:]` markers in this work. That is a **checked zero for those two pages
+only** and is not evidence that the work carries no apparatus elsewhere.
+
+⬜ **Still unread and still open:** whether the italic run at 0581A is one span or two (*gentium.*
+closing one gloss and *In monte Sina.* opening the next lemma). Reproduced 1:1 as one span because
+span structure is sacred and is not ours to tidy; the question fires no marker either.
