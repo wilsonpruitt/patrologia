@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18",
+  "generated": "2026-08-23",
   "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
   "tiers": {
     "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
@@ -1160,6 +1160,24 @@
       "tier": 2,
       "coverage": "none",
       "notes_recovered": 0
+    },
+    {
+      "idno": "8958",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.258 cols 505/506 — the Josue division, which falls MID-PAGE (rule, drop title LIBER JOSUE BEN NUN, Prothemata, Praefatio) — and p.262 cols 513/514, interior (Capp. X-XII). Read at 300 dpi, FULL page width, from raw/scans/pl113/patrologiaecurs04migngoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
+    },
+    {
+      "idno": "8992",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.290 cols 569/570 — the Galatians division, which falls MID-PAGE (rule, drop title EPISTOLA AD GALATAS, Argumentum, Caput primum) — and p.295 cols 579/580, interior (Gal. iv). Read at 300 dpi, FULL page width, from raw/scans/pl114/patrologiaecurs06saingoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
     }
   ],
   "fields": {
