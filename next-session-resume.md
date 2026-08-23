@@ -72,12 +72,31 @@ about our own printed column, deliberately silent about whose loss the letter is
 founding case is a word that is REAL; this one is not, and `[sic:]` is exactly what must not fire.
 **Wilson may want to rule on the shape.**
 
-### ⬜ Owed
-1. ⛔ **Push (7 commits) and DEPLOY.**
-2. **Wilson's call, still open from 2026-08-19: the asterisk-keyed `EDIT.` notes in PL 114** — a
-   second apparatus layer our source also lacks. No convention invented.
-3. **Wilson's call, new: 0561C above, and the `[cj:]` shape at 8955 0630A.**
-4. A second PL 113 scan for the two clipped candidates.
+### ✅ EVERYTHING OWED AT SESSION CLOSE IS NOW CLOSED (2026-08-24, same session)
+
+1. ✅ **Pushed and DEPLOYED** — `dpl_273GoL7oS9V8xyPWYCYtpSq21Mec`, aliased to migne.app, verified
+   BY BODY (6 for 6 byte-identical, including both changed work pages, two cruces pages, `/glossa`
+   and `/`). Corpus **137**, `/glossa` **31 of 58**.
+2. ✅ **The asterisk layer — RULED AND IMPLEMENTED.** Latin `[cn: * | …]` + a **translated
+   `[nt: …]`** opposite it in the English; numbered `[cn:]` stays Latin-only and the split is
+   enforced in `verify-english.mjs`, not merely written down. Baruch retrofitted: the note is about
+   the very phrase its own preface prints, and both columns now carry it. Injector, verifier and
+   page builder all had to learn the class; `scan-raw-markers.mjs` caught the builder's miss.
+   Full statement in CLAUDE.md and `translation-style.md` Pattern 19.
+3. ✅ **0561C ruled** — the overturn stands, *God kept him*. Structure beats frequency. Settled;
+   not to be reopened.
+4. ✅ **BOTH clipped candidates settled — no second scan needed to be downloaded.** `volumes.json`
+   already listed a **Gallica** copy of PL 113 (`bpt6k5505319w`), IIIF, server-side crops, **one HTTP
+   request per read**. 8951 @0697A *magistorum* is **Migne's — suspicion withdrawn** (and it was
+   never a non-word to begin with, so the 19-for-19 class was never threatened). 8955 @0629D **is
+   Migne's own broken sort** — the plate prints *ulit* with *Tulit quoque* clean two lines above —
+   **so that work's marker changed from `[cj:]` to `[sic: ulit]`.** ⛔ Method now in CLAUDE.md:
+   **check `volumes.json` for another witness BEFORE recording anything as illegible.**
+5. ✅ **A live page corrected**: `/glossa` had told readers a 42-word *fragment* of the gloss
+   survives under *Threni*. PL 114 p. 37 shows it is a note signed **(EDIT.)** from Migne's own
+   editors saying why there is none — the Douai edition had filled the gap with Paschasius
+   Radbertus, whom Walafrid (forty years his senior) cannot have known. The better fact, and
+   checkable.
 
 ### ▶ Next
 **The Glossa runs on, smallest first from the prepared queue: Paralip. II 8965 · III Regum 8954 ·
