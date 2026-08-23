@@ -1,0 +1,32 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated this session against the printed corner numbers (p. 287 = cols 563/564). Read at 450 dpi on crops taken wider than the target word, whole line read at each.",
+  "class": "Three digitization corruptions, all NON-WORDS in our file and all confirmed as ours — two letter transpositions (Paralimopenis/Paralipomenis, raeedificabant/reaedificabant, the latter standing where Migne hyphenates reaedifi-/cabant) and one substitution (cupuditati/cupiditati). None had been marked [sic:]; the translator raised all four of this work's non-words as plate candidates and fired nothing, per the ship test.",
+  "patches": [
+    {
+      "col": "0618A",
+      "find": "enim in Paralimopenis quod Athalia",
+      "replace": "enim in Paralipomenis quod Athalia",
+      "why": "the plate prints 'Legitur enim in Paralipomenis quod Athalia et filii ejus' — the book of Chronicles, which is what the sentence cites. 'Paralimopenis' is no word in any language; m/p transposition."
+    },
+    {
+      "col": "0618D",
+      "find": "rupta erant raeedificabant",
+      "replace": "rupta erant reaedificabant",
+      "why": "the plate prints 'quae per haeresim et schismata rupta erant reædifi-' at the line end, 'cabant' at the head of the next. Our file transposed the vowels of the prefix. ⚑ The hyphenated break is Migne's own and is not represented in our reflowed text, so only the letters are corrected."
+    },
+    {
+      "col": "0628A",
+      "find": "terrenae cupuditati dediti",
+      "replace": "terrenae cupiditati dediti",
+      "why": "the plate prints 'quos populus terrae, scilicet terrenae cupiditati dediti' — earthly DESIRE, which the whole gloss is about. 'cupuditati' is no Latin word."
+    }
+  ],
+  "unread": [
+    {
+      "col": "0629D",
+      "reading": "ulit Saraiam",
+      "verdict": "NOT SETTLEABLE IN THE ON-DISK SCAN. PDF p. 320 (cols 629/630) is CLIPPED AT THE LEFT MARGIN, exactly as p. 354 is — the first characters of the left column's lines are cut off, and the line under test reads 't Saraiam, qui interpretatur vinctus, sacer-' with whatever stood before the 't' lost with the margin. ⛔ NO PATCH AND NO GUESS. The reading the context points to is 'Tulit Saraiam' (4Rg 25:18 Tulit quoque princeps militiae Saraiam sacerdotem primum, and the gloss two lines above lemmatizes 'Tulit quoque'), but a contextual reconstruction is a conjecture, and a conjecture entered as a patch would wear Migne's voice. It stays as our source has it, unmarked, and is recorded here. ⚑ Note for whoever acquires a second PL 113 scan: this book and I Esdrae each have exactly one candidate waiting on it (0629D here, 0697A magistorum there), which is two pages of reading for two patches."
+    }
+  ],
+  "scan_note": "⚠ THIS COPY OF PL 113 CLIPS THE LEFT MARGIN ON SOME PAGES — confirmed on p. 320 and p. 354, where the left column's opening characters are cut. It does NOT affect the right column, and most pages are clean. Practical consequence: a non-word standing at the START of a left-column line may be unreadable here while its neighbours read perfectly, and that is a property of our copy, not of Migne's plate. Check the left edge before recording an illegible."
+}
