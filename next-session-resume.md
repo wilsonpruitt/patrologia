@@ -1,5 +1,154 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-23 — FOUR GLOSSA BOOKS · CORPUS 133 · ✅ PUSHED · ⛔ NOT DEPLOYED
+
+**Baruch (9005) · Joshua (8958) · Wisdom (8969) · Galatians (8992).** 21 chunks, 19,678 Latin
+words. **129 → 133 englished works**; `/glossa` 23 → **27 of 58**. Opus throughout, per Wilson's
+call at the hard stop. Gate **GREEN corpus-wide at 133/133**. Pushed through **`c3c7e42`**, tree
+clean, in sync with origin.
+
+✅✅ **DEPLOYED 2026-08-23** (`migne-61yksoxat`, aliased to migne.app) — full step-8 checklist run.
+**Verified BY BODY, not by status code:** all four work pages, all four cruces pages, and `/`,
+`/glossa/`, `/queue/`, `/scripture/`, `/cruces/` fetched live and **byte-for-byte identical to the
+local build**, 13 for 13. All four badge **"New English translation"** live (workStatus null on all
+four, fail-safe held); zero pages claim priority. Live `/glossa` reads **27 Englished**.
+
+### ⭐⭐⭐ THE RULE THIS BATCH BOUGHT — corpus frequency is decisive for NON-WORDS and worthless for REAL WORDS
+
+**17 plate reads across three works. The split is 10 for 10.**
+
+- Every suspicion aimed at a **non-word** was **CONFIRMED as ours**: *interpetratur* · *per verse* ·
+  *nortales* · *eum* (for *cum*) · *Qui dam* · *quorum dam* · *quisbusdam*.
+- Every suspicion aimed at a **real, well-formed word** was **REFUTED, with Migne printing it**:
+  *credulitatem* · *Homo* · *convenientem* · *dat offensum*.
+
+⭐ **Two of those four refuted arguments were excellent** and it did not matter. 8958's
+*credulitatem* was raised because the work's own *crudelitas*/*crudelem* sits two columns away with
+Migne arguing that very point in those very words; 8969's *Homo* was raised because *mobilis*
+stands in Sap 7:22 and the gloss expounds mobility on both sides of the sentence while *homo* is in
+neither the verse nor the argument. **Both readers explicitly said frequency could not settle it
+and asked for the plate rather than patching on the argument. That is the behaviour to keep.**
+
+⚑ **The operational consequence for the next batch: skip the real-word plate reads and spend them
+on non-words**, where the yield has been total. A real word that reads oddly is Migne's until the
+plate says otherwise — except for the one class below, which runs the other way.
+
+### ⭐⭐ THE NORMALIZATION CLASS IS NOW AT FOUR, and BOTH new ones were found looking for something else
+
+The digitization does not only corrupt; **it silently CORRECTS**, and a corrected form reads
+perfectly, so nothing downstream can see it. Prior: 8948 *convivum*→*convivium*, 8990
+*concilio*→*consilio*. New this batch:
+
+- **8992 @0574A — the plate prints *aemulatores LEGES*; our file read *legis*.** Confirmed at
+  1400 dpi (the final `e` carries no dot where *qui* and *timens* beside it show clear ones).
+  *aemulator* governs the genitive, so *leges* leaves an accusative with nothing to govern it:
+  Migne printed a form that does not construe and Corpus Corporum tidied it. **Nobody flagged it
+  and nobody could** — the translator rendered "zealots of the law" smoothly and had no reason to
+  look. Found while reading the plate for *Qui dam*, four words away on the same line.
+- **8969 @1168B — the plate prints a bare *id Verbi Dei*; our file supplied the *est*.** The
+  contrast is twice on the same line (*id est ejusdem est scientiae*). Found while reading the
+  plate for *convenientem*.
+
+⚑ **The finding about the finding: both came from reading the WHOLE LINE, not the target word.**
+Budget the neighbours into every plate read — that is where this class lives.
+
+### ⛔⛔ SEVEN FALSE `[sic:]` WITHDRAWN — pages were publicly blaming Migne for our own errors
+
+**8958: all four of its `[sic:]` markers.** **8992: three of five.** Each asserted a defect in
+Migne's plate that Migne never made. ⭐ **A page that asserts a defect its source never made is
+worse than a page with no apparatus at all** — and only the plate can find it, because from the
+Latin alone a corrupt-looking form is indistinguishable from a corruption.
+
+⚑ **THE SHIP TEST that follows, now recorded in both works' cruces: an unread candidate is safe to
+ship IF AND ONLY IF IT FIRES NO MARKER.** A crux asserts nothing about the plate; a `[sic:]` or a
+`[var:]` is a public claim and needs the plate. This is what licenses shipping 8969 with two reads
+still owed (below).
+
+### ⚑ Method notes worth more than their size
+
+- ⛔ **A CROP THAT CLIPS A LETTER CORROBORATES A FALSE READING** — exactly as a wrong page produces
+  a false checked zero. My first crop of 8958 @0514B rendered the line as *nortales* and appeared
+  to **confirm** our file; re-cropped 350px wider, the `m` is unambiguous. **Always crop wider than
+  the target word, and distrust a crop that agrees with the file you are testing.**
+- ⚑ **A TEI NEWLINE IS NOT A PLATE LINE-END.** It coincides with Migne's hyphen at 8958's *tam
+  per\nverse* and at 8992's *Qui\ndam* — and does NOT at 8992's *quorum\ndam*, where the plate
+  breaks at *quo-*. Useful as corroboration **after** the plate has spoken; never a substitute, and
+  never evidence of where the break fell.
+- ⭐ **NEW SUB-CLASS, the UNJOINED LINE BREAK** — the exact inverse of 8946's *Salomo-/nis* rejoin.
+  There the digitization joined a hyphenated word and doubled a syllable; here it dropped the hyphen
+  and left the halves standing apart (*per verse*, *Qui dam*, *quorum dam*). Both manufacture a word
+  Migne never printed.
+- ⚠ **`build-glossa.mjs` / division reads: LIBER SAPIENTIAE is a FULL-WIDTH drop title mid-page**
+  (PL 113 p. 589), with the work resuming in BOTH columns below it. Cropping without the whole page
+  in view made the anchors look misaligned when they were correct. **Render the full page once
+  before cropping a division.**
+
+### ⭐⭐ DECLINING BEAT A STRONG CONJECTURE — the case for the standing rule
+
+**8958 @0511D.** The translator refused to fire a `[cj:]` because the sentence as printed asserts
+nothing and so misses Pattern 18's bar, and named its conjecture (*cur*) in the crux instead.
+**The decline was right and the conjecture was wrong: the plate gives *cum*.** Had it fired, a wrong
+reading would have entered our apparatus wearing Migne's voice. ⭐ And the blind reader, fenced from
+that crux, **independently demanded a plate read of the same column** on the reasoning that the
+displaced word must be the conjunction governing the clause. Two agents converged on the site from
+opposite directions and neither guessed the word.
+
+### ⭐ Agents overturned their peers three times, and were right each time
+
+Not privileged, and the repairers were told so explicitly. **8958's repairer** showed five of six
+"unmarked divergences" were already in §1 and that a sixth (Jos 14:2 *dividentes*) **does not
+exist** — the Clementine and Migne agree. **8969's repairer** overturned the reader's framing at
+1172C: it had posed "he" versus "it" as grammar-versus-theology, when the real question was that
+*partus* also means **offspring**, settled by *ipsum gentes deprecabuntur* (a childbearing is not
+entreated). **8992's repairer** overturned finding 8's precedent — 11632's *signa … ardeat* ruled a
+silent repair earns a marker, but *signa* is a noun whose number English shows, where *remanerent*
+is a verb ending English cannot carry at all. **Same class, different exponent, and the exponent
+decides marker versus crux.**
+
+### ⛔⛔ ROMANS ALREADY HAS AN ENGLISH — recorded before anyone opens the work
+
+`data/briefs/glossa-prior-english.md`, written this session. **The Glossa on Romans has a full
+scholarly English: Michael Scott Woodward, TEAMS / Medieval Institute, 2011.** Romans sits in the
+deferred large-epistle group (held with 1–2 Corinthians and Hebrews for cadence size), and **its
+page must never claim a first English.** Also registered: Revelation, 1–3 John, Jonah (Consolamini,
+2015). Joshua, Wisdom, Galatians, Baruch: **none**, checked per book. ⚑ The search that works is the
+translator and series names (van der Pas, Litteral, Woodward; Consolamini, TEAMS), not the book name.
+
+### ⬜ Owed, small, all recorded rather than acted on
+
+1. ⛔ **THE DEPLOY** (above) — the only thing blocking four finished works from readers.
+2. **Two plate reads owed in 8969** — 1169B *Scintilla … mutat cito arundinetum*, 1170C *flagellum
+   collectionis*. Both are real-word suspicions, the class the plate refuted 4/4, and **neither
+   fires a marker**, so shipping asserts nothing. Recorded as a debt in that work's cruces §5d.
+3. **Four unparsed citations corpus-wide — a NUMERAL-PATTERN gap, not an alias gap.** `Rom. VII 24.`
+   · `I Cor. VI 20` · `Isai. LX 8.` · `Exod. XIX, 20, et XX, 21`. Those books are all in the table;
+   the parser drops chapter+verse forms lacking the comma. Four real scripture citations invisible
+   to the scripture index. (`(Virgil. II Aeneid.)` is the known fifth and is correctly a fons.)
+4. **Two aliases added by attestation** — `I Cr.` = I Corinthians (8958/0509D) and bare `Petr.` =
+   I Peter (8969/1177D), **both identified from the QUOTED TEXT, never from the numeral** (Migne's
+   `I Cr. XVI` is his own slip and stays as printed). ⚠ The bare-`Petr.` hazard is written into
+   `citations.mjs`: the corpus prints the prefixed forms 45 times, so a bare `Petr.` meaning II Peter
+   would resolve silently and wrongly. Re-verify at any new attestation.
+5. **My lemma extractor missed one span** — `data/briefs/8969-lemmata.txt` omitted the Jer 10:14–15
+   quotation at 1178A (which carried three substitutions) because the regex caps an italic span at
+   200 chars. Raise the cap before the next inventory.
+6. **`usque ad` look-alikes**: 8969's Latin has it 62 times and **only ~55 are the abridgment
+   formula** — the Sap 8:1 lemma *usque ad finem fortiter pertingit* is the trap. Say so in the next
+   OT brief; the translator caught all five ordinary ones, which is not to be assumed.
+
+### ▶ Next
+1. ⛔ **Deploy the four** (Wilson's OK, step-8 checklist in full, verify BY BODY not status code).
+2. **The Glossa runs on**, smallest first from the prepared queue: Sapientia is done, so next are
+   **II Regum 8953 · IV Regum 8955 · I Esdrae 8951 · I Regum 8952**, then Paralip. II 8964/8965,
+   III Regum 8954, Proverbia 8966, Actus 8976. 24 Glossa books still unchunked; Romans / 1–2 Cor /
+   Hebrews still held for cadence size — **and Romans now carries the Woodward caveat.**
+3. **Carry into the next brief:** the non-word/real-word rule, the fires-no-marker ship test, the
+   crop-wider warning, and the instruction to **read the whole line, not the target word** — that
+   is where both normalizations came from.
+4. Wilson's call still open from 2026-08-19: the asterisk-keyed `EDIT.` notes in PL 114.
+
+---
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-19b — QUEUE RESTOCKED · SPOT CHECK NOW PART OF CHUNKING · ✅ DEPLOYED + PUSHED
 
 **Queue 8 → 19 prepared works / 577,896 words.** Eleven Glossa books chunked, all validating

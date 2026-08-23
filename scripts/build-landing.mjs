@@ -18,6 +18,11 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-23 session: the Glossa's sixth cadence batch, and the one where the plate went against our own transcription seven times —
+  'pl/114/epistola-ad-galatas',                                   // Anselm of Laon and his school — the gloss on Galatians; the law as schoolmaster and the freedom of the sons, with the negative displaced onto God's own name at 584D and rendered where Migne set it
+  'pl/113/liber-sapientiae',                                      // Anselm of Laon and his school — the gloss on Wisdom, translated from Greek and never in the Hebrew canon; the souls of the just in the hand of God, and a reward that surpasses rather than one that is won
+  'pl/113/liber-josue-ben-nun',                                   // Anselm of Laon and his school — the gloss on Joshua, read through Origen; the whole commentary turns on the name Jesus, which Migne alternates with Josue and which is left standing in both
+  'pl/114/prophetia-baruch',                                      // Anselm of Laon and his school — the gloss on Baruch, which is a preface and nothing else, because the old copies carried the text of Baruch with no exposition at all, and Migne says so himself
   // — 2026-08-19 session: the Glossa's fifth cadence batch, two epistles and two Old Testament histories —
   'pl/114/epistola-i-b-joannis',                                  // Anselm of Laon and his school — the gloss on 1 John; God is love, and a lemma whose own gloss corrects it by naming the verse it belongs to
   'pl/113/liber-judicum',                                         // Anselm of Laon and his school — the gloss on Judges, read largely from Augustine's LXX-based Latin rather than the Vulgate; Gideon's fleece, and a number the text's own reckoning refutes
