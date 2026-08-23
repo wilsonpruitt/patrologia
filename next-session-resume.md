@@ -1,5 +1,95 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-24 — FOUR HISTORICAL BOOKS · CORPUS 137 · ✅ COMMITTED · ⛔ NOT PUSHED, NOT DEPLOYED
+
+**I Regum 8952 · II Regum 8953 · IV Regum 8955 · I Esdrae 8951.** 33 chunks, 31,133 Latin words.
+**133 → 137 englished works**; `/glossa` 27 → **31 of 58**. Opus throughout. Gate **GREEN
+corpus-wide**. Seven commits on local `master`, tree clean, **ahead of origin by 7**.
+
+⛔ **Both the push and the deploy are waiting on Wilson.** Deploy = `cd site && npx vercel --prod
+--archive=tgz`, step-8 checklist in full, verify BY BODY not status code.
+
+### ⭐⭐⭐ SIXTEEN PLATE CANDIDATES, FIFTEEN READABLE, FIFTEEN OURS — and not one had been marked
+
+Every translator raised its non-words as plate candidates and **fired no `[sic:]` anywhere in the
+batch**. That was right fifteen times: each would have been a public claim against Migne's plate
+for what is our own transcription's error. **The non-word rule is now 19 for 19; the real-word
+class was refuted 5 of 5.**
+
+Three NEW classes for the register, all in this batch:
+
+- ⭐⭐ **MIGNE'S OWN FRENCH, normalized away.** 8951 @0691D prints **(Vide *tome* VIII operum.)** —
+  *tome*, the French word, in an editorial note by a French editor. Our source reads the Latin
+  ablative *tomo*, which construes perfectly. **The normalization class reaches five, this is the
+  first in a NOTE rather than the body, and the first where the tidying changes the LANGUAGE of the
+  word.** Found while answering a different question (whether Migne prints Jerome's prologue text
+  at all — he does not, now a positive read rather than an analogy from 8948).
+- ⭐ **AN INTERPOLATED WORD.** 8952 @0539C: the plate prints *quia fuit **de** Ramatha*; our file
+  added a spurious *a*. Not a corruption of a word — the insertion of one, and it reads as Migne
+  being clumsy.
+- ⭐ **A LOST FULL STOP.** 8952 @0561A: the plate prints *…et semis. Polenta est…* and we dropped
+  it, fusing two glosses. ⚑ **This is the case that justifies a plate read on punctuation**: Pattern
+  8 forbids the translator to supply a mark Migne does not print, so running the sentences together
+  and flagging it was the only correct move available — and supplying it would have been right by
+  accident.
+- Also: a **hyphenless cross-line fusion** (8951 *integra mente* → *integramente*), the inverse of
+  the unjoined break.
+
+### ⛔⛔ THIS COPY OF PL 113 CLIPS THE LEFT MARGIN ON SOME PAGES
+
+Confirmed on **p. 320 and p. 354** — the left column's opening characters are cut off while the
+right column is clean. **Two candidates are therefore recorded as UNREADABLE and deliberately NOT
+guessed**: 8951 @0697A *magistorum* (survives as *rum*) and 8955 @0629D *ulit Saraiam* (survives as
+*t Saraiam*). The context points hard at *Tulit* — 4 Rg 25:18, and Migne's own lemma two lines above
+reads *Tulit quoque* — **and that is exactly why it is not patched: a contextual reconstruction is a
+conjecture, and a conjecture entered as a patch wears Migne's voice.** ⬜ **A second PL 113 scan
+settles both in two pages** and is the cheapest open item in the project.
+
+### ⭐⭐ THE BLIND READ'S YIELD WAS NOT NEGATION — it was the REFERENT
+
+Fifteen sites, fourteen new, thirteen repaired. **Every printed negative in all four books was
+correct, twice over.** What got through, every time, was a referent English cannot leave implicit:
+a supplied "he" convicting Absalom of David's sins (8953 0574C) · a genitive lifted off *fortium
+David* (8953 0579A) · a predicate nominative fused into "the water-people" (8953 0568A) · an
+indirect reflexive pulled onto the nearest man (8955 0628A) · an unexpressed-antecedent relative
+made the subject of its own sentence (8951 0701A) · an acc.+inf. reversed (8951 0696A) · a reflexive
+making a man seek himself where he sought God (8951 0701D) · a lemma word dropped out of its own
+gloss (8951 0693C) · a verb annexed from the verse leaving *eumdem* pointing at nothing (8952
+0543B) · a *Dei* on no construal (8952 0549D). **Counts, parity and negation-host checks passed at
+every one.** Carry this into the next brief: name the class as the REFERENT, not the negative.
+
+⛔ **One logged resolution was OVERTURNED**: 8952 @0561C, settled as "he kept himself" because the
+paragraph names Phalti five times. Migne prints ***eum***, an accusative — a sentence whose subject
+and object are the same man needs *se* — and the subject is God, named in the etymology the clause
+exists to explain (*Phaltiel*, *evadens a Deo*). **Frequency lost to structure**, the same split the
+plate reads produced. ⬜ **Flagged for Wilson as the one genuinely contested call**; both readings
+stand in that work's cruces.
+
+⚑ **8955 @0630A — the two columns disagreed and nothing told the reader.** The Latin declined to
+supply the clipped initial of *ulit*; the English printed "He took" anyway, while the same work's two
+other conjectures wear `[cj:]`. It now carries `[cj: *ulit*; read *Tulit*, "he took"]` — a claim
+about our own printed column, deliberately silent about whose loss the letter is. ⚠ Pattern 18's
+founding case is a word that is REAL; this one is not, and `[sic:]` is exactly what must not fire.
+**Wilson may want to rule on the shape.**
+
+### ⬜ Owed
+1. ⛔ **Push (7 commits) and DEPLOY.**
+2. **Wilson's call, still open from 2026-08-19: the asterisk-keyed `EDIT.` notes in PL 114** — a
+   second apparatus layer our source also lacks. No convention invented.
+3. **Wilson's call, new: 0561C above, and the `[cj:]` shape at 8955 0630A.**
+4. A second PL 113 scan for the two clipped candidates.
+
+### ▶ Next
+**The Glossa runs on, smallest first from the prepared queue: Paralip. II 8965 · III Regum 8954 ·
+Paralip. I 8964 · Proverbia 8966 · Actus 8976.** All five are chunked and spot-checked. 24 Glossa
+books still unchunked; Romans / 1–2 Cor / Hebrews still held for cadence size, **and Romans carries
+the Woodward caveat.** ⚠ **Re-run the prior-English check per book by SERIES name** — Emmaus
+Academic is publishing the whole Glossa in English (Genesis 2023, Matthew 2025, John 2026, Exodus
+announced) and two volumes appeared between the last register and this one.
+
+---
+
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-23 — FOUR GLOSSA BOOKS · CORPUS 133 · ✅ PUSHED · ⛔ NOT DEPLOYED
 
 **Baruch (9005) · Joshua (8958) · Wisdom (8969) · Galatians (8992).** 21 chunks, 19,678 Latin
