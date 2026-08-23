@@ -91,6 +91,19 @@ export const BOOKS = {
 // 11065's '(Aeneid. VI, 688.)' (a [n:] note, confirmed NOT inline on inspection).
 export const KNOWN_FONTES = /^(Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom|Aeneid)\./i;
 
+// ⚠ KNOWN_FONTES is anchored at the START, so it cannot see a work title that stands
+// AFTER an author's name — "(Virgil. II Aeneid.)" begins "Virgil." and so failed both
+// tests: not scripture the parser could key, not a fons the guard recognised, and it
+// therefore landed in unparsed[] alone. The record survived, but the fons index never
+// saw it, so a real classical source Migne cites reached no reader (11632 @ 385a,
+// 2026-08-24 — the resume note had recorded it as "correctly a fons" while the data
+// filed it nowhere).
+// ⛔ Deliberately narrow: author, roman numeral, KNOWN_FONTES work token, END. It
+// cannot capture a scripture reference, because a scripture reference never ends on a
+// work title. Widening this to an unanchored search would let an "Ep." inside a
+// semicolon-joined scripture note route the whole note to fontes.
+export const AUTHOR_WORK_FONS = /^[A-Z][a-z]+\.\s+[IVXLCDM]+\s+(?:Lib|Cod|Conc|Concil|Can|Cap|Ep|Epist|Tract|Resp|Synod|Novell|Decret|Serm|Hom|Aeneid)\.?\)?$/i;
+
 const ROMAN = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
 export function romanToInt(s) {
   let n = 0;
@@ -111,7 +124,22 @@ export function romanToInt(s) {
 //   "(Rom. XIII, 1, 2)" / "(Matth. XXII, 37-39)" → verse list / range
 // Chapter is EITHER a roman list (Gen. XVIII, XIX) OR a single arabic (II Cor. 12).
 // Roman is tried first, so "Rom. XIII, 1, 2" still reads 1,2 as verses, not chapters.
-const segRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+(?:\s*,\s*[IVXLCDM]+)*|[0-9]+)(?:\s*,\s*([0-9]+(?:\s*[,-]\s*[0-9]+)*))?\s*\.?\)?$/;
+// ⚠ The comma between chapter and verse is OPTIONAL (2026-08-24). Migne prints the
+// verse on a bare space often enough to matter — "(I Cor. VI 20)", "(Isai. LX 8.)",
+// "(Rom. VII 24.)" were all dropped as unparsed-shape while their books sat in the
+// table the whole time. This was diagnosed as an alias gap twice before it was
+// measured; it is a NUMERAL-PATTERN gap, and no alias would ever have fixed it.
+// Making the separator `,?` only ADDS matches: every comma form still matches as it did.
+const segRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+([IVXLCDM]+(?:\s*,\s*[IVXLCDM]+)*|[0-9]+)(?:\s*,?\s*([0-9]+(?:\s*[,-]\s*[0-9]+)*))?\s*\.?\)?$/;
+
+// A LIST OF CHAPTER+VERSE PAIRS in one parenthesis: "(Exod. XIX, 20, et XX, 21)"
+// → Exod 19:20 AND Exod 20:21. The code below attaches verses to the first chapter
+// only, on the stated ground that "Migne never lists verses across chapters" — this
+// form is the counter-example, found 2026-08-23 in 11613. Tried only AFTER segRe
+// fails, so nothing that parses today can be re-read by it. It requires a digit in
+// every pair, which is what keeps it off the chapter-list form "(Gen. XVIII, XIX)".
+const pairListRe = /^\(?\s*((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+)\.?\s+((?:[IVXLCDM]+\s*,?\s*[0-9]+)(?:\s*,\s*[IVXLCDM]+\s*,?\s*[0-9]+)+)\s*\.?\)?$/;
+const PAIR_RE = /([IVXLCDM]+)\s*,?\s*([0-9]+)/g;
 
 // Migne's spelling variants, normalized before matching:
 //   " et " joins chapters or verses exactly like a comma (Act. XI et XXII)
@@ -161,6 +189,10 @@ const stripEtSeq = s => s.replace(ET_SEQ_RE, '$1');
 
 const normSeg = s => upperRomanChapter(s
   .replace(/\s+et\s+/gi, ', ')
+  // "(Exod. XIX, 20, et XX, 21)" already prints a comma BEFORE the "et", so the line
+  // above leaves ",," behind and every downstream shape then fails on it. Collapsing a
+  // run of commas is safe: a doubled comma never means anything in a citation.
+  .replace(/,(\s*,)+/g, ',')
   .replace(/\b[vVcC]\.\s*(?=\d)/g, '')
   .replace(/\.\s*,/g, '.')
   .replace(/^((?:I{1,3}V?|IV)\s+)?([A-Z][a-z]+),/, '$1$2.'));
@@ -213,7 +245,23 @@ export function parseScripture(raw) {
       if (c1 && c2) { push({ refKey: `${osis}.${c1}-${osis}.${c2}` }); continue; }
     }
     const m = normed.match(segRe);
-    if (!m) { sawBadShape = true; continue; }
+    if (!m) {
+      const pm = normed.match(pairListRe);
+      if (pm) {
+        const bookLat = (pm[1] ? pm[1].trim() + ' ' : '') + pm[2];
+        const osis = BOOKS[bookLat];
+        if (!osis) { sawUnknownBook = true; continue; }
+        let any = false;
+        for (const p of pm[3].matchAll(PAIR_RE)) {
+          const ch = romanToInt(p[1]);
+          if (!ch) continue;
+          push({ refKey: `${osis}.${ch}.${Number(p[2])}` });
+          any = true;
+        }
+        if (any) continue;
+      }
+      sawBadShape = true; continue;
+    }
     const bookLat = (m[1] ? m[1].trim() + ' ' : '') + m[2];
     const osis = BOOKS[bookLat];
     if (!osis) { sawUnknownBook = true; continue; }

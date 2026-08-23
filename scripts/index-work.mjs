@@ -32,7 +32,7 @@ import path from 'node:path';
 // Latin apparatus — the two indexers must not drift (2026-08-06).
 import {
   KNOWN_FONTES, parseScripture, makeColRe, citeCol, stripF, isAnaphoric,
-  isScriptureShaped, CANDIDATE_HEAD_RE, NUMERAL_TOKEN_RE,
+  isScriptureShaped, AUTHOR_WORK_FONS, CANDIDATE_HEAD_RE, NUMERAL_TOKEN_RE,
 } from './lib/citations.mjs';
 
 const idno = process.argv[2];
@@ -91,7 +91,7 @@ function handleNote(raw, col, chunk, inHead = false) {
     const fix = CORRECTIONS.get(`${loc.column}|${inner}`);
     ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: inner, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
   }
-  else if (isScriptureShaped(inner) && !KNOWN_FONTES.test(inner))
+  else if (isScriptureShaped(inner) && !KNOWN_FONTES.test(inner) && !AUTHOR_WORK_FONS.test(inner))
     unparsed.push({ raw, reason: s.reason, ...loc });
   else ordered.push({ kind: 'fontes', rec: { raw: inner, ...loc } });
 }
@@ -126,7 +126,7 @@ function handleInlineCandidate(raw, col, chunk, inHead = false) {
     ordered.push({ kind: 'scripture', rec: { refKey: fix.refKey, refDisplay: stripped, refKeyPrinted: null, corrected: true, correctionNote: fix.note, ...loc } });
     return;
   }
-  if (KNOWN_FONTES.test(stripped)) { ordered.push({ kind: 'fontes', rec: { raw: stripped, ...loc } }); return; }
+  if (KNOWN_FONTES.test(stripped) || AUTHOR_WORK_FONS.test(stripped)) { ordered.push({ kind: 'fontes', rec: { raw: stripped, ...loc } }); return; }
   unparsed.push({ raw, reason: s.reason, ...loc });
 }
 

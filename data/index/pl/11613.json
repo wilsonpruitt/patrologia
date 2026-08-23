@@ -14,11 +14,11 @@
   "colFirst": "1147a",
   "colLast": "1304d",
   "counts": {
-    "scripture": 409,
+    "scripture": 413,
     "fontes": 8,
     "heads": 23,
     "headnotes": 1000,
-    "unparsed": 3
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -81,6 +81,18 @@
       "refDisplay": "I Joan. IV, 18",
       "column": "1152b",
       "chunk": 1
+    },
+    {
+      "refKey": "Exod.19.20",
+      "refDisplay": "Exod. XIX, 20, et XX, 21",
+      "column": "1153a",
+      "chunk": 2
+    },
+    {
+      "refKey": "Exod.20.21",
+      "refDisplay": "Exod. XIX, 20, et XX, 21",
+      "column": "1153a",
+      "chunk": 2
     },
     {
       "refKey": "Rom.7.24",
@@ -1100,6 +1112,12 @@
       "chunk": 19
     },
     {
+      "refKey": "1Cor.6.20",
+      "refDisplay": "I Cor. VI 20",
+      "column": "1204d",
+      "chunk": 19
+    },
+    {
       "refKey": "John.19.39",
       "refDisplay": "Joan. XIX, 39",
       "column": "1205a",
@@ -1617,6 +1635,12 @@
       "refKey": "Jer.9.21",
       "refDisplay": "Jer. IX, 21",
       "column": "1229a",
+      "chunk": 27
+    },
+    {
+      "refKey": "Isa.60.8",
+      "refDisplay": "Isai. LX 8.",
+      "column": "1229b",
       "chunk": 27
     },
     {
@@ -2801,7 +2825,7 @@
       "chunk": 0
     },
     {
-      "la": "vero monet, ne his animus implieetur, ne amor his, quae transitoria sunt, inclinetur: sed haec tanquam vana dijudicet, et quae sunt altiora his decernat et appetat. Unde",
+      "la": "vero monet, ne his animus implieetur, ne amor his, quae transitoria sunt, inclinetur: sed haec tanquam vana dijudicet, et quae sunt altiora his decernat [cn: 2 | Forte *discernat*.] et appetat. Unde",
       "en": "…lieetur] in these things, that love be not bent toward the things which are transitory: but that it judge them as vain, and decide upon and desire the things that are higher than these. Whence, adding",
       "column": "1150a",
       "chunk": 0
@@ -3359,7 +3383,7 @@
       "chunk": 6
     },
     {
-      "la": "…raliter infirmanti, sed aegrotanti spiritualiter exhibendum est. Languor enim spiritus in multis adeo convalescit, ut jam in iis nec confessionis sit vox, nec sensus poenitentis. De iis ait Apostolus,",
+      "la": "…anti spiritualiter exhibendum est. Languor enim spiritus in multis adeo convalescit [cn: 8 | Forte *invalescit*.], ut jam in iis nec confessionis sit vox, nec sensus poenitentis. De iis ait Apostolus,",
       "en": "… is ailing spiritually. For in many the languor of the spirit so gathers strength that in them there is now neither the voice of confession nor the feeling of one repenting. Of these the Apostle says,",
       "column": "1167c",
       "chunk": 6
@@ -3761,7 +3785,7 @@
       "chunk": 10
     },
     {
-      "la": "Ut ergo accedamus ad Deum, Patre trahente opus est, ut nos ipse praeveniat, sic ducem praebeat, et cum duxerit, ipse suscipiat. Item quoque scriptum legimus,",
+      "la": "Ut ergo accedamus ad Deum, Patre trahente opus est, ut nos ipse praeveniat, sic [cn: 11 | Forte *se*.] ducem praebeat, et cum duxerit, ipse suscipiat. Item quoque scriptum legimus,",
       "en": "…pproach to God, there is need of the Father drawing, that he himself may go before us, may so present himself as leader, and, when he has led, may himself receive us. Likewise also we read it written,",
       "column": "1178c",
       "chunk": 10
@@ -3785,7 +3809,7 @@
       "chunk": 10
     },
     {
-      "la": "id est, Tu, ad quem non venitur nisi per te, mihi funem tui amoris innecte, quo pertrahar ad te, quo alias divertere non sinat me. Ait enim Salomon, quia",
+      "la": "id est, Tu, ad quem non venitur nisi per te, mihi funem tui amoris innecte, quo pertrahar ad te, quo alias [cn: 12-13 | *qui alio*.] divertere non sinat me. Ait enim Salomon, quia",
       "en": "that is, Thou, to whom none comes save by thee, knit for me the rope of thy love, whereby I may be drawn to thee, whereby it may not suffer me to turn aside elsewhere. For Solomon says that",
       "column": "1179c",
       "chunk": 10
@@ -3815,7 +3839,7 @@
       "chunk": 10
     },
     {
-      "la": "id est, odoramento virtutum spiritualium, quibus tuos tangis, et ungis. Optans itaque bonis dona, eosque ad meliora pertrahi desiderans, ait,",
+      "la": "id est, odoramento virtutum spiritualium, quibus tuos tangis, et ungis. Optans itaque bonis [cn: 14 | ILLEGIBLE] dona, eosque ad meliora pertrahi desiderans, ait,",
       "en": "that is, in the fragrance of the spiritual virtues, wherewith thou touchest and anointest thine own. And so, wishing gifts to the good, and desiring that they be drawn to better things, she says,",
       "column": "1180a",
       "chunk": 10
@@ -4355,7 +4379,7 @@
       "chunk": 16
     },
     {
-      "la": "Unde minas videtur intendere, quod nisi fiat quod postulat, ipsa se alienorum gregi immisceat. Quod attendens Dominus ipsi elatae paululum simul et paulisper iratus effertur juxta quod dictum est,",
+      "la": "…ntendere, quod nisi fiat quod postulat, ipsa se alienorum gregi immisceat. Quod attendens Dominus ipsi elatae paululum simul et paulisper iratus effertur [cn: 20 | f. *fertur*.] juxta quod dictum est,",
       "en": "… done, she will mingle herself with the flock of strangers. Marking this, the Lord is carried a little way, and for a little while, into anger against her who was lifted up, according to what is said,",
       "column": "1194a",
       "chunk": 16
@@ -4487,7 +4511,7 @@
       "chunk": 17
     },
     {
-      "la": "Hic itaque equitatus est Dei, in quibus pugnat, quibus sua exercet mysteria, quibus Sponsam, quam ex hominibus elegit, assimilat, eamque sibi in decore, potestate conformat, et virtute. Ait itaque,",
+      "la": "…st Dei, in quibus pugnat, quibus sua exercet mysteria [cn: 22 | *Ministeria*.], quibus Sponsam, quam ex hominibus elegit, assimilat, eamque sibi in decore, potestate conformat, et virtute. Ait itaque,",
       "en": "… of God, in whom he fights, by whom he works his mysteries, to whom he likens the Bride whom he chose out of men, and conforms her to himself in comeliness, in power, and in virtue. He says therefore,",
       "column": "1197c",
       "chunk": 17
@@ -4529,7 +4553,7 @@
       "chunk": 18
     },
     {
-      "la": "…no decoratas eloquio. Unde innuit, se non tantum sensum quem proferunt expositores illis dare, sed et eloquii fragrantiam, unde placent, unde auditorum conviventia suscipiuntur ministrare. Ait itaque,",
+      "la": "…erunt expositores illis dare, sed et eloquii fragrantiam, unde placent, unde auditorum conviventia suscipiuntur ministrare [cn: 23 | f *auditoribus convenientia suspiciuntur ministrare*.]. Ait itaque,",
       "en": "…rstanding which the expositors put forth, but that he also ministers the fragrance of eloquence, whereby they please, whereby they are received into the fellowship of their hearers. He says therefore,",
       "column": "1199c",
       "chunk": 18
@@ -5003,7 +5027,7 @@
       "chunk": 21
     },
     {
-      "la": "qua nobis apparente et se visibiliter exhibente, non est quod quaeramus ulterius, non est quo ulterius refici desideremus, hac itaque pulchritudine dictum est,",
+      "la": "qua nobis apparente et se visibiliter exhibente, non est quod quaeramus ulterius, non est quo ulterius refici desideremus, [cn: 27 | f. *De*.] hac itaque pulchritudine dictum est,",
       "en": "…h appearing to us and showing itself visibly, there is nothing that we should seek further, there is nothing wherewith we should desire to be further refreshed; with this beauty therefore it was said,",
       "column": "1210b",
       "chunk": 21
@@ -5891,7 +5915,7 @@
       "chunk": 27
     },
     {
-      "la": "…e: ideoque sibi haec revelata sunt, et quae ignoranter acta sunt condonata. Hunc itaque per cancellos aspexit Dominus, videns hunc, et ei miserans, cum quidem de misericordia nihil speraret, sed totus",
+      "la": "…nt, et quae ignoranter acta sunt condonata. Hunc itaque per cancellos aspexit Dominus, videns hunc, et ei miserans, cum quidem de misericordia nihil speraret, sed totus [cn: 34 | f. *minas et cædes.*]",
       "en": "… to him, and the things done in ignorance were forgiven. Him therefore the Lord looked upon through the lattices, seeing him and pitying him, when indeed he hoped nothing of mercy, but breathed wholly",
       "column": "1230c",
       "chunk": 27
@@ -5987,7 +6011,7 @@
       "chunk": 28
     },
     {
-      "la": "…or restringebat: sed omnia foedo permisceri concubitu, luxus, et quae luxum comitatur importunitas imperabat. Testatur hoc Adae primi patris inobedientia; testatur et Caini malitia; testatur et Lamech",
+      "la": "…oedo permisceri concubitu, luxus, et quae luxum comitatur importunitas imperabat. Testatur hoc Adae primi patris inobedientia; testatur et Caini malitia; testatur et Lamech [cn: 37 | f. *homicidium.*]",
       "en": "…ty that accompanies luxury, commanded that all things be mingled in foul intercourse. This the disobedience of Adam the first father bears witness to; the malice of Cain also bears witness; and Lamech",
       "column": "1232d",
       "chunk": 28
@@ -6005,7 +6029,7 @@
       "chunk": 28
     },
     {
-      "la": "hoc est, Ab hac contemplatione pacis et quietis qua detineris, egredere; propera, ut meae praeceptionis imperium tuae sub dicto sequatur obeditionis obsequium,",
+      "la": "…oc est, Ab hac contemplatione pacis et quietis qua detineris, egredere; propera, ut meae praeceptionis imperium tuae sub dicto [cn: 39 | f. *subito*, vel, *cum dicto.*] sequatur obeditionis obsequium,",
       "en": "that is, Come forth from this contemplation of peace and quiet wherein thou art held; make haste, that the compliance of thy obedience may follow at a word upon the command of my precept,",
       "column": "1233c",
       "chunk": 28
@@ -6797,7 +6821,7 @@
       "chunk": 34
     },
     {
-      "la": "hoc manibus exercere intelliguntur. Sic Scribae docebant et Pharisaei, quorum verbis acquiescere jubet Dominus, opera vero declinare, suosque aliter docere praecipit, dicens,",
+      "la": "…n: 45 | F. *contemnunt.*] hoc manibus exercere intelliguntur. Sic Scribae docebant et Pharisaei, quorum verbis acquiescere jubet Dominus, opera vero declinare, suosque aliter docere praecipit, dicens,",
       "en": "in word. So did the Scribes and Pharisees teach, to whose words the Lord bids us give assent, but to turn aside from their works, and he charges his own to teach otherwise, saying,",
       "column": "1251c",
       "chunk": 34
@@ -6971,7 +6995,7 @@
       "chunk": 37
     },
     {
-      "la": "et Henoch, Noe quoque mundum ligno salvantem, et Abraham filio suo non parcentem, ipsumque Moysem sic dicentem",
+      "la": "[cn: 50 | F. *numerabimus.*] et Henoch, Noe quoque mundum ligno salvantem, et Abraham filio suo non parcentem, ipsumque Moysem sic dicentem",
       "en": "and Henoch, Noe also saving the world by wood, and Abraham not sparing his own son, and Moses himself saying thus",
       "column": "1258b",
       "chunk": 37
@@ -7271,7 +7295,7 @@
       "chunk": 39
     },
     {
-      "la": "…um nardo quae humilis est, et herba redolens, et calens, charitatemque significans: hoc innuens, ut princeps quantumcunque aliis virtute emineat, semper eis charitate, quae nardo designatur, adhaereat",
+      "la": "…nardo*.] quae humilis est, et herba redolens, et calens, charitatemque significans: hoc innuens, ut princeps quantumcunque aliis virtute emineat, semper eis charitate, quae nardo designatur, adhaereat",
       "en": "…b fragrant and warming, and signifying charity: intimating this, that a prince, however much he excel others in virtue, should always cleave to them in the charity which is designated by the spikenard",
       "column": "1265c",
       "chunk": 39
@@ -7439,7 +7463,7 @@
       "chunk": 40
     },
     {
-      "la": "…atus ad hortum suum Dominus; melle pastus est, vinoque potus est; quae quidem refectio somni incitamentum est. Unde et eumdem locum quietis esse, et non operationis laboriosae demonstret, ait Sponsus,",
+      "la": "…Dominus; melle pastus est, vinoque potus est; quae quidem refectio somni incitamentum est. Unde et [cn: 57 | F. *ut*.] eumdem locum quietis esse, et non operationis laboriosae demonstret, ait Sponsus,",
       "en": "… fed with honey, and drank wine; which refreshment indeed is an incitement to sleep. Whence also, that he may show that same place to be one of rest, and not of laborious working, the Bridegroom says,",
       "column": "1269a",
       "chunk": 40
@@ -7637,7 +7661,7 @@
       "chunk": 42
     },
     {
-      "la": "aperit: per digitos enim, discretio demonstratur: quia post digiti tactu tangitur, id certa quadam ratione mentis intelligitur. Unde ne ad hanc castitatis custodiam modus excedatur, adjectum est,",
+      "la": "…os enim, discretio demonstratur: quia [cn: 61 | F. *quod*.] post digiti tactu tangitur, id certa quadam ratione mentis intelligitur. Unde ne ad hanc castitatis custodiam modus excedatur, adjectum est,",
       "en": "… because after it is touched by the touch of the finger, that is understood by a certain sure reasoning of the mind. Whence, lest in this guardianship of chastity the measure be exceeded, it is added,",
       "column": "1273a",
       "chunk": 42
@@ -7733,7 +7757,7 @@
       "chunk": 42
     },
     {
-      "la": "…s in se in aeterna vita repromittentem, quid nisi mirari, stupescere, et credere, et adorare potuerunt? Ab ipso vero audientes, quod in die ultimo cuncta ad judicium adducturus est, et bonis dicturus,",
+      "la": "…ibus*.] in aeterna vita repromittentem, quid nisi mirari, stupescere, et credere, et adorare potuerunt? Ab ipso vero audientes, quod in die ultimo cuncta ad judicium adducturus est, et bonis dicturus,",
       "en": "…himself in life eternal: what could they do but marvel, be astonished, and believe, and adore? And hearing from him that on the last day he will bring all things to judgment, and will say to the good,",
       "column": "1275a",
       "chunk": 42
@@ -7751,7 +7775,7 @@
       "chunk": 42
     },
     {
-      "la": "Omnes enim electae animae hunc quaerunt; ejus praesentiae suis suscitatae corporibus assistere cupiunt; quod quia nondum est, sed certissime futurum repromittitur, ait,",
+      "la": "Omnes enim electae animae hunc quaerunt; ejus praesentiae [cn: 62* | F. add. *una cum*.] suis suscitatae corporibus assistere cupiunt; quod quia nondum est, sed certissime futurum repromittitur, ait,",
       "en": "For all the elect souls seek him; they desire, being raised again in their bodies, to stand by his presence; and because this is not yet, but is most certainly promised as to come, she says,",
       "column": "1275b",
       "chunk": 42
@@ -7859,7 +7883,7 @@
       "chunk": 43
     },
     {
-      "la": "Haec Dilecti descriptio est, quam sub duodenario comprehendit numero, dicens,",
+      "la": "Haec Dilecti descriptio est, quam sub [cn: 63 | F. *binario*.] duodenario comprehendit numero, dicens,",
       "en": "This is the description of the Beloved, which she comprehends under the number twelve, saying,",
       "column": "1278a",
       "chunk": 43
@@ -8261,7 +8285,7 @@
       "chunk": 47
     },
     {
-      "la": "Femina vel femora quibus gradimur, et egressus aptamus, haec duo sunt, Testamentum scilicet Vetus et Novum: horum junctura concordia Testamentorum est, de qua ait,",
+      "la": "Femina vel femora quibus gradimur, et [cn: 69 | F. *gressus*.] egressus aptamus, haec duo sunt, Testamentum scilicet Vetus et Novum: horum junctura concordia Testamentorum est, de qua ait,",
       "en": "… called *femina* or *femora*, wherewith we walk and frame our goings forth, are these two, namely the Old Testament and the New: the joining of these is the concord of the Testaments, whereof he says,",
       "column": "1289c",
       "chunk": 47
@@ -8285,7 +8309,7 @@
       "chunk": 47
     },
     {
-      "la": "…los juventutis nostrae, transit et vespere senectutis nostrae: in quo quidem homo decidit in morte, indurat in cadavere, arescit in pulvere. Illa vero desursum est, cujus beatus Paulus meminit, dicens",
+      "la": "…transit et [cn: 70 | F. *vesper*.] vespere senectutis nostrae: in quo quidem homo decidit in morte, indurat in cadavere, arescit in pulvere. Illa vero desursum est, cujus beatus Paulus meminit, dicens",
       "en": "… the evening also of our old age passes away: wherein indeed a man falls down in death, grows hard in the corpse, withers in the dust. But that part is above whereof blessed Paul makes mention, saying",
       "column": "1290a",
       "chunk": 47
@@ -8753,26 +8777,7 @@
       "chunk": 52
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Exod. XIX, 20, et XX, 21)",
-      "reason": "unparsed-shape",
-      "column": "1153a",
-      "chunk": 2
-    },
-    {
-      "raw": "(I Cor. VI 20)",
-      "reason": "unparsed-shape",
-      "column": "1204d",
-      "chunk": 19
-    },
-    {
-      "raw": "(Isai. LX 8.)",
-      "reason": "unparsed-shape",
-      "column": "1229b",
-      "chunk": 27
-    }
-  ],
+  "unparsed": [],
   "proseNotes": [
     {
       "raw": "(Nam totum quod in osculo misera peccat, et carnalis affectio, ab ejus mente tam longe est, quam ipsa procul a vitio, virtute purificata, secessit.)",

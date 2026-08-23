@@ -14,11 +14,11 @@
   "colFirst": "181a",
   "colLast": "490b",
   "counts": {
-    "scripture": 708,
-    "fontes": 26,
+    "scripture": 709,
+    "fontes": 27,
     "heads": 194,
     "headnotes": 422,
-    "unparsed": 2
+    "unparsed": 0
   },
   "scripture": [
     {
@@ -1228,6 +1228,12 @@
       "refKey": "Ps.10",
       "refDisplay": "Psal. X",
       "column": "229a",
+      "chunk": 18
+    },
+    {
+      "refKey": "Rom.7.24",
+      "refDisplay": "Rom. VII 24.",
+      "column": "229d",
       "chunk": 18
     },
     {
@@ -4515,6 +4521,11 @@
     {
       "raw": "Judae 19",
       "column": "384b",
+      "chunk": 83
+    },
+    {
+      "raw": "Virgil. II Aeneid.",
+      "column": "385a",
       "chunk": 83
     },
     {
@@ -8273,19 +8284,6 @@
       "chunk": 96
     }
   ],
-  "unparsed": [
-    {
-      "raw": "(Rom. VII 24.)",
-      "reason": "unparsed-shape",
-      "column": "229d",
-      "chunk": 18
-    },
-    {
-      "raw": "(Virgil. II Aeneid.)",
-      "reason": "unparsed-shape",
-      "column": "385a",
-      "chunk": 83
-    }
-  ],
+  "unparsed": [],
   "proseNotes": []
 }
