@@ -1,4 +1,7 @@
-# Glossa ordinaria, NT books — translation agent brief
+# Glossa ordinaria — translation agent brief
+
+*Written for the PL 114 New Testament books and since used for the PL 113 Old Testament
+books too; the conventions are series-wide. The filename is historical.*
 
 *Glossa ordinaria* (PL 114), attributed by Migne to Walafrid Strabo, in fact
 **Anselmus Laudunensis et schola**. Latin: `src/latin/<idno>/NNNN.md` →
@@ -349,6 +352,59 @@ If your lemmata are wrapped in `« »` rather than italics, **the conventions ar
 you should reuse them rather than re-derive them: `src/english/8970/cruces.md` §1 (Tobit) carries
 guillemet-lemma handling, the `*usque ad*` abridgment formula with **no verb ever supplied** to complete
 it, Tyconius vocabulary, and sigla with Migne's own internal spacing. Read that section first.
+
+## ⚑ ADDENDUM — carried from the 2026-08-23 batch (Baruch · Joshua · Wisdom · Galatians)
+
+Four findings from that batch's 17 plate reads. Each changes what you should raise and how.
+
+### A. Corpus frequency is decisive for NON-WORDS and worthless for REAL WORDS
+
+The split was 10 for 10. **Every suspicion aimed at a non-word was confirmed as OUR corruption**
+(*interpetratur* · *per verse* · *nortales* · *Qui dam* · *quorum dam* · *quisbusdam*). **Every
+suspicion aimed at a real, well-formed word was refuted, with Migne printing it** (*credulitatem* ·
+*Homo* · *convenientem* · *dat offensum*) — and two of those four arguments were excellent. 8958's
+*credulitatem* was raised because the work's own *crudelitas* sits two columns away with Migne arguing
+that very point in those words; 8969's *Homo* was raised because *mobilis* stands in the verse and the
+gloss expounds mobility on both sides of the sentence.
+
+⚑ **What to do with that.** A real word that reads oddly is **Migne's** until a plate says otherwise —
+so render it as printed, log the crux, and do not fire a marker on the strength of a corpus argument
+however good. A **non-word** (a form that is no Latin word at all, a word split across a space, a
+doubled syllable) is worth raising explicitly as a plate candidate, and has been right every time.
+
+⭐ **Both readers who raised the refuted real-word cases said plainly that frequency could not settle
+it and asked for the plate rather than patching on the argument. That is the behaviour to keep** — the
+finding is that the *argument* loses, not that raising it was wrong.
+
+### B. THE SHIP TEST — an unread candidate is safe iff it FIRES NO MARKER
+
+A crux asserts nothing about the plate. A `[sic:]` or a `[var:]` **is a public claim**, and a page
+that asserts a defect its source never made is worse than a page with no apparatus at all — **seven
+false `[sic:]` were withdrawn in that batch** (all four of Joshua's, three of five in Galatians), each
+publicly blaming Migne for the digitization's error.
+
+⚑ So: when you are unsure and cannot settle it from the file, **the crux is always available and always
+safe.** Reserve the markers for what you can stand behind.
+
+### C. READ THE WHOLE LINE, not the target word — that is where the normalization class lives
+
+The normalization class (brief §4 above) is now at **four**, and **both new ones were found while
+reading the plate for a different word four words away**: 8992 @0574A Migne prints *aemulatores
+**leges*** where our file reads *legis* (and *leges* does not construe, which is why it was tidied);
+8969 @1168B Migne prints a bare *id Verbi Dei* where our file supplies the *est*.
+
+⚑ **Nobody flagged either and nobody could** — a normalized form reads perfectly. Your only handle is
+brief §4's: where a form strikes you as suspiciously *tidy* in a passage that is otherwise rough, say
+so in the cruces. And when you examine any line closely, examine its neighbours in the same look.
+
+### D. ⚠ `usque ad` HAS LOOK-ALIKES — it is not always the abridgment formula
+
+8969's Latin prints it 62 times and only ~55 are the formula; the trap was the Sap 8:1 lemma
+*usque ad finem fortiter pertingit*, where the words are the verse's own. **Your books print it a
+great deal** (I Esdrae 80 · I Regum 63 · II Regum 48 · IV Regum 37). ⛔ **Decide per occurrence, from
+what stands on either side of it**, and never let the formula reading swallow a lemma's own words.
+That translator caught all five ordinary ones, which is not to be assumed.
+
 
 ## Do not stop early
 
