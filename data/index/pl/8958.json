@@ -1,0 +1,984 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3935,
+  "textIdno": 8958,
+  "title": "Liber Josue Ben Nun",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "505d",
+  "colLast": "520d",
+  "counts": {
+    "scripture": 31,
+    "fontes": 113,
+    "heads": 25,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Exod.17",
+      "refDisplay": "Exod. XVII",
+      "column": "506d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.4",
+      "refDisplay": "Gal. IV",
+      "column": "507a",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Cor.16",
+      "refDisplay": "I Cr. XVI",
+      "column": "509d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Gal. V",
+      "column": "511a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Col.2",
+      "refDisplay": "Col. 2",
+      "column": "511a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "511b",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV.",
+      "column": "512b",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "ID.",
+      "antecedent": "I Cor. XV.",
+      "antecedentColumn": "512b",
+      "ibidResolved": true,
+      "column": "512b",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "512c",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "ID.",
+      "antecedent": "II Cor. II",
+      "antecedentColumn": "512c",
+      "ibidResolved": true,
+      "column": "512c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.16",
+      "refDisplay": "Rom. XVI",
+      "column": "512d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Rom.16",
+      "refDisplay": "ID., hom. 10.",
+      "antecedent": "Rom. XVI",
+      "antecedentColumn": "512d",
+      "ibidResolved": true,
+      "column": "512d",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "512d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Eph.2",
+      "refDisplay": "Ephes. II",
+      "column": "513c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "513d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "ID., hom. 15.",
+      "antecedent": "Matth. XXV",
+      "antecedentColumn": "513d",
+      "ibidResolved": true,
+      "column": "513d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Luke.16",
+      "refDisplay": "Luc. XVI",
+      "column": "514a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Gal.4",
+      "refDisplay": "Gal. IV",
+      "column": "514a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "514a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Galat. V",
+      "column": "514d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.56",
+      "refDisplay": "Psal. LVI",
+      "column": "515b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Heb.11",
+      "refDisplay": "Hebr. XI",
+      "column": "515c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "Psal. XV.",
+      "column": "516c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "ID.",
+      "antecedent": "Psal. XV.",
+      "antecedentColumn": "516c",
+      "ibidResolved": true,
+      "column": "516c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Luke.10",
+      "refDisplay": "Luc. X.",
+      "column": "517c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ezek.2",
+      "refDisplay": "Ezech. II",
+      "column": "517c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "517d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.45",
+      "refDisplay": "Psal. XLV",
+      "column": "518a",
+      "chunk": 4
+    },
+    {
+      "refKey": "2Tim.2",
+      "refDisplay": "II Tim. II",
+      "column": "519b",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "520d",
+      "chunk": 5
+    },
+    {
+      "refKey": "2Tim.4",
+      "refDisplay": "II Tim. IV",
+      "column": "520d",
+      "chunk": 5
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "HIERON., Div. Biblioth., tom. VIII, col. 461.",
+      "column": "505d",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAMANTIUS, hom. 1 in Josue.",
+      "column": "505d",
+      "chunk": 0
+    },
+    {
+      "raw": "Orig., hom. 2 in Jos.",
+      "column": "507a",
+      "chunk": 0
+    },
+    {
+      "raw": "ORIG., ibid.",
+      "column": "507a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 1 in Josue, tom. III.",
+      "column": "507b",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 2.",
+      "column": "507b",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAMAN., hom. 3 in Josue.",
+      "column": "507b",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA in Josue.",
+      "column": "507c",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAM., hom. 3.",
+      "column": "507c",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAM., hom. 3.",
+      "column": "507c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest, 3 in Josue.",
+      "column": "507c",
+      "chunk": 0
+    },
+    {
+      "raw": "ORIG., hom. IV.",
+      "column": "507c",
+      "chunk": 0
+    },
+    {
+      "raw": "ID., ubi supra.",
+      "antecedent": "ORIG., hom. IV.",
+      "antecedentColumn": "507c",
+      "ibidResolved": true,
+      "column": "508a",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAM., hom. 4 in Jos.",
+      "column": "508b",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAM., hom. 4.",
+      "column": "508c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG.",
+      "column": "508c",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAM., hom. 2.",
+      "column": "508c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., in Josue.",
+      "column": "508d",
+      "chunk": 0
+    },
+    {
+      "raw": "ADAMANT., hom. 2.",
+      "column": "508d",
+      "chunk": 0
+    },
+    {
+      "raw": "ISID.",
+      "column": "509a",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG., quaest. 6. in Job.",
+      "column": "509b",
+      "chunk": 1
+    },
+    {
+      "raw": "ISID. in Job.",
+      "column": "509b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 6.",
+      "column": "509b",
+      "chunk": 1
+    },
+    {
+      "raw": "ISID. in Jos.",
+      "column": "510a",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 6.",
+      "column": "510a",
+      "chunk": 1
+    },
+    {
+      "raw": "JUSTIN., Dialog.",
+      "column": "510b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 6 in Josue.",
+      "column": "510b",
+      "chunk": 1
+    },
+    {
+      "raw": "ORIG., hom. 6 in Josue.",
+      "column": "510c",
+      "chunk": 1
+    },
+    {
+      "raw": "ISID., in Jos., cap. 7.",
+      "column": "510c",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAMAN., hom. 5 in Jos.",
+      "column": "510c",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 7.",
+      "column": "510c",
+      "chunk": 1
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ADAM., hom. 7.",
+      "antecedentColumn": "510c",
+      "ibidResolved": true,
+      "column": "510d",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM.",
+      "column": "511b",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 7.",
+      "column": "511b",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., quaest. 8 in Josue.",
+      "column": "511c",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 7.",
+      "column": "511c",
+      "chunk": 1
+    },
+    {
+      "raw": "ISID., in Jos.",
+      "column": "511d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., quaest. in Jos.",
+      "column": "511d",
+      "chunk": 1
+    },
+    {
+      "raw": "ADAM., hom. 8.",
+      "column": "512a",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 10 in Jos.",
+      "column": "512a",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., quaest. 11.",
+      "antecedent": "AUG., quaest. 10 in Jos.",
+      "antecedentColumn": "512a",
+      "ibidResolved": true,
+      "column": "512a",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., ibid.",
+      "column": "512a",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., ibid.",
+      "column": "512b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., homil. 8.",
+      "antecedent": "ADAM., ibid.",
+      "antecedentColumn": "512b",
+      "ibidResolved": true,
+      "column": "512b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 9.",
+      "column": "512b",
+      "chunk": 2
+    },
+    {
+      "raw": "ORIG., hom. 9.",
+      "column": "512c",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "ORIG., hom. 9.",
+      "antecedentColumn": "512c",
+      "ibidResolved": true,
+      "column": "512c",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., ibid.",
+      "column": "512c",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 9 in Jos.",
+      "column": "512d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 13 in Jos.",
+      "column": "512d",
+      "chunk": 2
+    },
+    {
+      "raw": "ISID. in Jos.",
+      "column": "512d",
+      "chunk": 2
+    },
+    {
+      "raw": "ORIG., hom. 11 in Josue.",
+      "column": "513a",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., quaest. 15 in Jos.",
+      "column": "513a",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom 11 in Josue.",
+      "column": "513b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., ibid.",
+      "column": "513b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 12.",
+      "column": "513b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAM., hom. 13.",
+      "column": "513b",
+      "chunk": 2
+    },
+    {
+      "raw": "ADAMANT., hom. 24 in Jos.",
+      "column": "513c",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAMAN., hom. 14 in Jos.",
+      "column": "513c",
+      "chunk": 3
+    },
+    {
+      "raw": "ORIG.",
+      "column": "513d",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAM.",
+      "column": "513d",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG., quaest. 16 in Jos.",
+      "column": "514b",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG., quaest. 17.",
+      "column": "514b",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAM., hom. 15.",
+      "column": "514c",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG., quaest. 18 in Jos.",
+      "column": "514c",
+      "chunk": 3
+    },
+    {
+      "raw": "ORIG., homil. 15.",
+      "column": "514c",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER., de Loc. Hebr.",
+      "column": "514d",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAMAN., hom. 16 in Jos.",
+      "column": "515b",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ADAMAN., hom. 16 in Jos.",
+      "antecedentColumn": "515b",
+      "ibidResolved": true,
+      "column": "515b",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAM., hom. 16.",
+      "column": "515b",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAM., hom. 17.",
+      "column": "515d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ADAM., hom. 17.",
+      "antecedentColumn": "515d",
+      "ibidResolved": true,
+      "column": "516a",
+      "chunk": 3
+    },
+    {
+      "raw": "ADAM., hom. 18 in Jos.",
+      "column": "516a",
+      "chunk": 3
+    },
+    {
+      "raw": "ISID.",
+      "column": "516b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ISID.",
+      "antecedentColumn": "516b",
+      "ibidResolved": true,
+      "column": "516b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ISID.",
+      "antecedentColumn": "516b",
+      "ibidResolved": true,
+      "column": "516b",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 18.",
+      "column": "516c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "ADAM., hom. 18.",
+      "antecedentColumn": "516c",
+      "ibidResolved": true,
+      "column": "516c",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. XVIII.",
+      "column": "516d",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., homil. 19 in Jos.",
+      "column": "516d",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 20 in Jos.",
+      "column": "518a",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 20.",
+      "column": "518b",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG., lib. III Dialog., c. 34.",
+      "column": "518b",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 11 in Jos.",
+      "column": "518b",
+      "chunk": 4
+    },
+    {
+      "raw": "ORIG. ubi supra.",
+      "column": "518c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., quaest. 19 in Jos.",
+      "column": "518c",
+      "chunk": 4
+    },
+    {
+      "raw": "GREG., lib. IV Moral., c. 22.",
+      "column": "518d",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 21 in Jos.",
+      "column": "518d",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 22 in Jos.",
+      "column": "518d",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., nom. 22.",
+      "column": "519a",
+      "chunk": 4
+    },
+    {
+      "raw": "ORIG., hom. 22.",
+      "column": "519a",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., ibid.",
+      "column": "519a",
+      "chunk": 4
+    },
+    {
+      "raw": "ADAM., hom. 23 in Jos.",
+      "column": "519a",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., hom. 23.",
+      "antecedent": "ADAM., hom. 23 in Jos.",
+      "antecedentColumn": "519a",
+      "ibidResolved": true,
+      "column": "519a",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 20 in Jos.",
+      "column": "519b",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAM., hom. 24 in Jos.",
+      "column": "519b",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAM., hom. 24.",
+      "column": "519b",
+      "chunk": 5
+    },
+    {
+      "raw": "ORIG., hom. 34 in Num.",
+      "column": "519c",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAM., hom. 25 in Jos.",
+      "column": "519d",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAMANT. hom. 26.",
+      "column": "519d",
+      "chunk": 5
+    },
+    {
+      "raw": "ISID.",
+      "column": "519d",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 21.",
+      "column": "520a",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., quaest. 22.",
+      "antecedent": "AUG., quaest. 21.",
+      "antecedentColumn": "520a",
+      "ibidResolved": true,
+      "column": "520a",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAMAN., hom. 26 in Job.",
+      "column": "520a",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAMANT., hom. 26.",
+      "column": "520b",
+      "chunk": 5
+    },
+    {
+      "raw": "ADAM.",
+      "column": "520b",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 32 in Jos.",
+      "column": "520b",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG.",
+      "column": "520c",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 26 in Jos.",
+      "column": "520c",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest 27.",
+      "column": "520c",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 28 in Jos.",
+      "column": "520d",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 29 in Jos.",
+      "column": "520d",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG., quaest. 30 in Jos.",
+      "column": "520d",
+      "chunk": 5
+    }
+  ],
+  "heads": [
+    {
+      "la": "PRAEFATIO.",
+      "column": "505d",
+      "chunk": 0,
+      "en": "PREFACE."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "506d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "507c",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "507c",
+      "chunk": 0,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "508c",
+      "chunk": 0,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "509a",
+      "chunk": 1,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "510c",
+      "chunk": 1,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "511b",
+      "chunk": 1,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "511d",
+      "chunk": 2,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "512c",
+      "chunk": 2,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "513a",
+      "chunk": 2,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "513c",
+      "chunk": 3,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "514d",
+      "chunk": 3,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "515a",
+      "chunk": 3,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV",
+      "column": "516b",
+      "chunk": 4,
+      "en": "CHAPTER XIV"
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "517a",
+      "chunk": 4,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "518c",
+      "chunk": 4,
+      "en": "CHAPTER XVI."
+    },
+    {
+      "la": "CAPUT XVII.",
+      "column": "518d",
+      "chunk": 4,
+      "en": "CHAPTER XVII."
+    },
+    {
+      "la": "CAPUT XVIII.",
+      "column": "519a",
+      "chunk": 5,
+      "en": "CHAPTER XVIII."
+    },
+    {
+      "la": "CAPUT XIX.",
+      "column": "519b",
+      "chunk": 5,
+      "en": "CHAPTER XIX."
+    },
+    {
+      "la": "CAPUT XX.",
+      "column": "519c",
+      "chunk": 5,
+      "en": "CHAPTER XX."
+    },
+    {
+      "la": "CAPUT XXI.",
+      "column": "519c",
+      "chunk": 5,
+      "en": "CHAPTER XXI."
+    },
+    {
+      "la": "CAPUT XXII.",
+      "column": "520a",
+      "chunk": 5,
+      "en": "CHAPTER XXII."
+    },
+    {
+      "la": "CAPUT XXIII.",
+      "column": "520b",
+      "chunk": 5,
+      "en": "CHAPTER XXIII."
+    },
+    {
+      "la": "CAPUT XXIV.",
+      "column": "520c",
+      "chunk": 5,
+      "en": "CHAPTER XXIV."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

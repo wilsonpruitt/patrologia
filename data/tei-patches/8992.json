@@ -1,0 +1,30 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs06saingoog (on disk raw/scans/pl114/), PDF page = (column + 11) / 2, confirmed 2026-08-23 against the printed corner numbers (p. 292 heads '574', p. 293 heads '575'). Read at 900 dpi on cropped column bands, with one word re-read at 1400 dpi; the orchestrator confirmed every crop by eye before the patch was written.",
+  "class": "Three unjoined/misread word-boundary defects plus ONE NORMALIZATION — a form Migne printed defectively that the digitization silently corrected. The normalization is the one nobody asked about: it was found while reading the plate for a different word on the same line, and it is invisible from the Latin alone by construction, because the corrected form reads perfectly.",
+  "patches": [
+    {
+      "col": "0574A",
+      "find": "etc. Qui\ndam aemulatores legis",
+      "replace": "etc. Quidam aemulatores leges",
+      "why": "TWO defects in four words, in opposite directions. (1) The plate breaks 'Quidam' across the line end as 'Qui-' / 'dam' and Corpus Corporum left the halves standing apart — the UNJOINED LINE BREAK class (536 'quidam' in src/latin/ against no other split form). (2) ⭐⭐ THE ONE NOBODY ASKED FOR: the plate prints 'aemulatores LEGES', and our file reads 'legis'. Read at 1400 dpi to be sure — the final 'e' carries no dot, where 'qui' and 'timens' on the same and following line show clear ones. This is the NORMALIZATION class (8948 convivum, 8990 concilio): Migne printed a form that does not construe (aemulator governs the genitive; 'aemulatores leges' has an accusative with nothing to govern it) and the digitization tidied it into the grammatical 'legis'. Nobody flagged it, because a corrected form reads perfectly — the translator rendered 'zealots of the law' smoothly and had no reason to look. The English now carries a [sic:] rendering the evident sense and marking the plate's own form. ⚑ The TEI keeps a newline at exactly the point where Migne prints the hyphen ('etc. Qui\\ndam'), corroborating the diagnosis from the source side."
+    },
+    {
+      "col": "0574D",
+      "find": "Dicuntur enim quorum\ndam oculi",
+      "replace": "Dicuntur enim quorumdam oculi",
+      "why": "the plate breaks 'quorumdam' at the line end as 'quo-' / 'rumdam'. Corpus Corporum dropped the hyphen AND split at a different point than the plate does, producing 'quorum dam' — so the split position is not even evidence of where the break fell. UNJOINED LINE BREAK class; 37 'quorumdam' in src/latin/ against no other split form. ⛔⛔ AND THE CAVEAT THAT MATTERS MORE THAN THE PATCH: here the TEI's newline falls after 'quorum', while the PLATE hyphenates at 'quo-'. So a transcription newline is NOT reliable evidence of where the plate's line ends — it agrees with the plate at 8958's 'tam per\\nverse' and at this work's 'Qui\\ndam', and disagrees here. Use it as corroboration once the plate has spoken; never as a substitute for reading the plate."
+    },
+    {
+      "col": "0581B",
+      "find": "licet in quisbusdam quos hic parit",
+      "replace": "licet in quibusdam quos hic parit",
+      "why": "the plate prints 'quibusdam' plainly, one word, in an unbroken line — no hyphenation involved, so this one is an ordinary misread and not the line-break class. 278 'quibusdam' in src/latin/ against 2 'quisbusdam'."
+    }
+  ],
+  "confirmed_migne_no_patch": [
+    "0573D 'Ut nos ingentes' — printed as ONE italic word on the plate, exactly as our file has it. The [var:] against the Vulgate's 'ut nos in gentes' STANDS and is plate-confirmed.",
+    "0574D 'Fascinatio malignitatis obscurat bona' (Sap 4:12) — plate prints 'malignitatis' where the Clementine has 'nugacitatis'. [var:] stands, plate-confirmed.",
+    "0575A 'Jesus Christus proscriptus est. Id est, exhaeredatus' — plate prints 'proscriptus' against the Vulgate's 'praescriptus', and Migne's own gloss defines it as 'exhaeredatus', which is what proscriptus means. [var:] stands; conforming this to 'set forth' would have destroyed the gloss.",
+    "0582C 'Sed si nolunt' — plate prints 'nolunt', so the [cj:] proposing 'volunt' is anchored on a reading that is genuinely Migne's and not a digitization artifact. The conjecture is properly a conjecture."
+  ]
+}

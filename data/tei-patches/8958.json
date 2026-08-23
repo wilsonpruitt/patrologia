@@ -1,0 +1,35 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, re-calibrated 2026-08-23 against the printed corner numbers before the reads (p. 258 = cols 505/506, p. 262 = cols 513/514). Read at 900 dpi on cropped column bands; the orchestrator confirmed every crop by eye before the patch was written.",
+  "class": "FOUR digitization defects in one work, all four raised as [sic:] or as a declined conjecture by the translating agent, and all four settled AGAINST our own files. Three misreads (metathesis, c→e, m→n) and one new sub-class: the UNJOINED LINE BREAK, which is 8946's rejoin running the other way — there the digitization joined a hyphenated word and doubled a syllable, here it dropped the hyphen and left the two halves standing as separate words.",
+  "patches": [
+    {
+      "col": "0510C",
+      "find": "interpetratur",
+      "replace": "interpretatur",
+      "why": "the plate prints the ordinary 'interpretatur' plainly, in a clean line of type with no break and no damage. Corpus frequency raised it as a candidate — 521 'interpretatur' across src/latin/ against exactly ONE 'interpetratur', and this same book prints the correct form three more times (0517A, 0517C, and twice at 0518-19) — and the plate settled it. A metathesis of the same shape as 8970's Nephthali → Nephtlali. Without the patch our Latin column prints a word Migne did not print, and the English carried a [sic:] asserting a plate defect that does not exist; that marker is removed in the same commit."
+    },
+    {
+      "col": "0511D",
+      "find": "eum Dominus eum qui",
+      "replace": "cum Dominus eum qui",
+      "why": "the plate reads 'Quaeritur cum Dominus eum qui furtum fecerat' — a c→e misread, the commonest confusion in this typeface. ⭐ The translating agent DECLINED to fire a [cj:] here and named its conjecture 'cur' in the crux instead, on the correct ground that the sentence as printed in our files asserts nothing at all and so does not meet Pattern 18's bar. The decline was right and the conjecture was wrong: the plate gives 'cum', and the sentence construes at once — 'It is asked, since the Lord [dealt thus with] him who had committed the theft…'. This is the case FOR declining rather than guessing: a wrong conjecture would have entered our apparatus wearing Migne's voice. ⚑ The TEI likewise keeps a newline right after 'Quaeritur', i.e. at the line end where the misread word sits."
+    },
+    {
+      "col": "0514B",
+      "find": "tam per\nverse de operibus",
+      "replace": "tam perverse de operibus",
+      "why": "the plate breaks 'perverse' across two lines as 'per-' / 'verse', hyphen printed. Corpus Corporum dropped the hyphen and left the halves as two words, so our Latin printed the nonexistent 'per verse' and the English carried a [sic:] for it. ⭐ NEW SUB-CLASS — the UNJOINED LINE BREAK, the exact inverse of 8946's Salomo-/nis rejoin: there the digitization joined and doubled, here it failed to join at all. Both are invisible from the Latin alone and both manufacture a word Migne never printed; a reader meeting either would conclude the plate is corrupt where it is sound. ⚑ CORROBORATED FROM THE SOURCE SIDE, exactly as 8946 was: the TEI itself reads 'tam per\\nverse', keeping a newline at precisely the point where Migne prints the hyphen. The transcription preserved the line break and dropped the hyphen — so the evidence for the diagnosis is sitting inside our own file, unreadable until the plate told us what to look for."
+    },
+    {
+      "col": "0514B",
+      "find": "nortales",
+      "replace": "mortales",
+      "why": "the plate prints 'mortales moriuntur' with a clean m, at the head of its line where nothing is clipped. An m→n misread. ⚠ Worth recording how nearly this one went the other way: a first crop clipped the left edge of the column and rendered the same line as 'nortales', appearing to CONFIRM our file — the crop reproduced the defect. It was re-cropped 350px wider and the m is unambiguous. A crop that cuts a letter can corroborate a false reading exactly as a wrong page can produce a false checked zero."
+    }
+  ],
+  "confirmed_migne_no_patch": [
+    "0513B 'Jesus interficit inimicos non creduli-|tatem docens' — the plate prints CREDULITATEM, hyphenated across the line, exactly as our file has it. The blind reader raised it because the work's own control sits two columns away (0514B prints 'Non putanda est crudelitas' and 'fuisse crudelem', Migne arguing that very point in those very words) and because corpus frequency does NOT settle it — both credulitat- and crudelitat- are well attested. It was right to demand the plate rather than patch on the argument: the argument was good and the plate says otherwise. NO patch; the English's Pattern-7 'not teaching credulity' stands.",
+    "0514C 'aut certe nulla earum capta, sed earum quae in regionibus supra memoratis fuerunt' — the plate prints exactly this. The apparent self-contradiction with 'et omnes cepit bello' four lines on is Migne's own ellipsis, not a digitization fault. NO patch; the English is literal and correct.",
+    "0513B 'quia Dominus Deus tradidit vobis omnes inimicos in manus' — plate-confirmed with NO 'vestras'. This settles the blind reader's raised item (c) the other way: the English's supplied 'all YOUR enemies' and 'into YOUR hands' reach past the plate toward the Clementine's 'in manus vestras' (Jos 10:19). A 7a-conformation repair, not a Latin defect."
+  ]
+}

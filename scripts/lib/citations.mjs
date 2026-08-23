@@ -65,6 +65,13 @@ export const BOOKS = {
   // 'Josue' (11065/0045, 11536/0004), 'Aggaei' (7914/0021), 'Heb' short form
   // (11613/0027) — grown by attestation like every other alias here.
   'Exodi': 'Exod', 'Josue': 'Josh', 'Aggaei': 'Hag', 'Heb': 'Heb',
+  // 'I Cr.' = I Corinthians, attested once corpus-wide at 8958/0509D (2026-08-23), where
+  // Migne notes the Pascha nostrum / in azymis sinceritatis et veritatis quotation. The
+  // quoted text is 1 Cor 5:7-8 verbatim, which is what identifies the book -- NOT the
+  // printed chapter, which reads XVI and is Migne's own slip. We index the citation and
+  // leave his numeral exactly as printed in refDisplay: the alias fixes OUR parsing gap,
+  // never his reference. (Cf. runbook false positive 2 -- an Ibid. may depend on it.)
+  'I Cr': '1Cor',
 };
 
 // Evidence-grown known-fontes routing list (SPEC.md ruling 4): a citation whose shape

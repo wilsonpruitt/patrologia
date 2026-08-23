@@ -1,0 +1,410 @@
+# *Glossa ordinaria*, **Epistola ad Galatas** (PL 114, 0569D–0588B) — cruces
+
+Translated 2026-08-23, one translator, 7 chunks (7,513 Latin words). Author of record
+**Anselmus Laudunensis et schola**; Migne prints it under Walafrid Strabo and the running head
+over these columns reads WALAFRIDI STRABI FULD. MON. OPP. PARS I. — THEOLOGICA. The honesty
+label on the work page carries that.
+
+`verify-english.mjs` clean: 7 chunks, columns/notes/sections aligned, no duplicate paragraphs.
+Apparatus: **24 `[var:]` · 5 `[sic:]` · 1 `[cj:]` · 1 `[d:]` · 0 `[ed:]` · 0 `[nt:]` · 30 `[n:]`**
+(exact parity with the Latin twins). Structure: ARGUMENTUM, CAPUT PRIMUM, CAPUT II–VI, with
+CAPUT IV split across chunks 3 and 4 (`CAPUT IV. (cont.)`). Zero guillemets in either language.
+Zero `[cn:]` — see §2 on plate status. Em-dashes: 0.
+
+The five Glossa conventions settled on Liber Ruth (8968 §1) are followed and were not re-opened.
+Collation throughout is against `sources/vulgate/clementine-flat.txt`, cited by book chapter:verse.
+
+---
+
+## §1 · THE LEMMA DIVERGENCE TABLE
+
+**Every italic span in `data/briefs/8992-lemmata.txt` is accounted for below, including the ones
+checked and found to agree with the Clementine exactly.** A `✓ agrees` line is a checked negative,
+not a skip. Where Migne's own note misattributes a quotation, that is recorded separately from the
+question of the wording, because it is a different fact.
+
+### 1a. The divergences that took a `[var:]` (24)
+
+| col | Migne prints | Clementine | why it earned a marker |
+|---|---|---|---|
+| 0571D | *Gustate, et eritis sicut dii* (Gen. III) | Gn 3:5 *in quocumque die comederitis ex eo, aperientur oculi vestri, et eritis sicut dii* | Migne turns the serpent's conditional into a bare imperative. The gloss's whole point is that the angel spoke *de proprio* — the imperative is the thing being exhibited. |
+| 0572A | *Et anathematizavit eum et civitates ejus, et vocatum est nomen loci illius Anathema* (Num. XXI) | Nm 21:3 *et vocavit nomen loci illius Horma, id est, anathema* | The received text has no anathematizing of him and his cities, and names the place *Horma*. The gloss is an etymology **of the word** *anathema*, so the wording is load-bearing. |
+| 0572B | *Placete omnibus per omnia, sicut et ego omnibus placeo* (II Cor. X) | 1Cor 10:33 *sicut et ego per omnia omnibus placeo* | An imperative not in the received text at all, prefixed to an indicative clause whose word order also differs. |
+| 0572B | *Sine offensione estote Judaeis et Graecis Ecclesiae Dei* (II Cor. VIII) | 1Cor 10:32 *Sine offensione estote Judaeis, et gentibus, et ecclesiae Dei* | ***Graecis* for *gentibus*** — a different word for the second party. |
+| 0572C | *Luceant opera vestra coram hominibus,* etc. | Mt 5:16 *Sic luceat lux vestra coram hominibus : ut videant opera vestra bona* | Migne makes the **works** shine; the received text makes the **light** shine so that the works may be seen. Different subject. |
+| 0572C | *Nolite facere justitiam vestram coram hominibus,* | Mt 6:1 *Attendite ne justitiam vestram faciatis coram hominibus* | Prohibition recast from *attendite ne* to *nolite facere*. |
+| 0573D | *Ut nos ingentes.* | Gal 2:9 *ut nos in gentes* | ⭐ **The most interesting reading in the work.** *ingentes* is a real Latin adjective agreeing with *nos*, so Pattern 7 renders it ("That we great ones") and Pattern 12 has nothing to wrap; but the gloss under it expounds *gentium* — "That I might be first in the preaching of the Gentiles, as Peter in the circumcision." The lemma and its own gloss are talking about different things. Handled under Pattern 14 rather than 18 because the divergence sits **inside a quoted scripture**, which is the rule that separates the two conventions. **Plate read requested — see §4.** |
+| 0575A | *Fascinatio malignitatis obscurat bona* (Sap. IV) | Sap 4:12 *Fascinatio enim nugacitatis obscurat bona* | ***malignitatis* for *nugacitatis*** — and the whole paragraph is about *invidia* and malice, so Migne's word is the one the argument wants. Exactly the shape of 7914 @1079C's *castimoniam*: the keyword of the argument is not the keyword of the received text. |
+| 0575A | *Jesus Christus proscriptus est.* | Gal 3:1 *Jesus Christus praescriptus est* | ***proscriptus* for *praescriptus***, and the gloss immediately defines it: *Id est, exhaeredatus* — "that is, disinherited". The exposition rests on the divergent word. A translator half-remembering "set forth before your eyes" loses the entire gloss. |
+| 0575D | *Maledictus omnis homo,* etc. | Gal 3:10 *Maledictus omnis qui non permanserit in omnibus…* | Migne inserts *homo*. See the 0576B entry — the insertion is glossed. |
+| 0576B | *Omnis homo.* | Gal 3:13 *Maledictus omnis qui pendet in ligno* | The same intruded *homo*, and **here it is the lemma being glossed**: *Etiam Christus, ne futuri haeretici negent ejus veram mortem.* The gloss argues from a word the received text does not print. |
+| 0577B | *Sed concludit Scriptura.* | Gal 3:22 *Sed conclusit Scriptura omnia sub peccato* | Present *concludit* for perfect *conclusit*. Marked because English cannot render the two tenses alike, so a reader would otherwise take our present for the Vulgate's — while the gloss's own verb is the perfect (*clausit*). |
+| 0577B | *Conclusit Deus omnia in justitia, ut omnium misereatur.* | Rom 11:32 *Conclusit enim Deus omnia in incredulitate, ut omnium misereatur* | ***in justitia* for *in incredulitate***. Adduced to prove men shut up **under sin**; Migne's word says the opposite kind of thing. |
+| 0577D | *Induite vos Dominum nostrum Jesum Christum.* | Rom 13:14 *induamini Dominum Jesum Christum* | Imperative *induite vos* for passive *induamini*, plus *nostrum*. |
+| 0578C | *Coelum et terram ego impleo* (Jer. XXIII) | Jr 23:24 *Numquid non caelum et terram ego impleo?* | ⚠ **The received text is a rhetorical question containing a negative** (*numquid non*); Migne prints it as a flat assertion, which is what the gloss needs. Two things change at once: sentence type and polarity. |
+| 0579B | *Conversi estis servire Deo vivo et vero* (I Petr. II) | 1Thes 1:9 *conversi estis ad Deum a simulacris, servire Deo vivo, et vero* | Compressed; *ad Deum a simulacris* dropped. ⚠ Migne's note reads **(I Petr. II)** and the verse is 1 Thess 1:9 — see 1c. |
+| 0580D | *quos iterum parturis,* | Gal 4:19 *quos iterum parturio* | ***parturis* (2nd sg.) for *parturio* (1st sg.)** — the labour is transferred from Paul to the Galatians. Rendered "whom thou bringest forth again" per Pattern 17 (singular *tu* → thou). Treated under 14 and not 12, because the form occupies its slot and can be rendered, and under 14 and not 18, because it sits inside a quoted scripture. |
+| 0582A | *Dilata locum tabernaculi tui, et protende funiculos tuos* (Isa. LIV) | Is 54:2 *Dilata locum tentorii tui, et pelles tabernaculorum tuorum extende : ne parcas : longos fac funiculos tuos* | *tabernaculi* for *tentorii*; a whole clause dropped; *protende funiculos* for *longos fac funiculos*. |
+| 0583D | *Vos enim vocati estis a Deo in libertatem.* | Gal 5:13 *Vos enim in libertatem vocati estis, fratres* | Migne adds ***a Deo*** and drops *fratres*. The agent is supplied by the plate, not by Paul. |
+| 0584A | *Qui enim non diligit proximum suum, quem videt, Deum, quem non videt, quomodo potest diligere?* (I Joan. IV.) | 1Jo 4:20 *Qui enim non diligit fratrem suum quem vidit, Deum, quem non vidit, quomodo potest diligere?* | ***proximum* for *fratrem***, and present *videt* for perfect *vidit* twice. The proof-text is adduced **precisely for the neighbour** (*sine proximo non diligitur Deus*), so Migne's substitution is the argument's hinge. |
+| 0584B | *Dico autem in Christo,* etc. | Gal 5:16 *Dico autem : Spiritu ambulate* | Migne's *in Christo* replaces the imperative. The gloss then expounds it: *Hoc autem dico posse esse vobis in Christo, et nunquam aliter.* |
+| 0584D | *Regnum non Dei consequentur.* | Gal 5:21 *regnum Dei non consequentur* | ⭐⭐ **The negative has moved.** In the plate *non* stands between *Regnum* and *Dei*, so the printed words say they **shall obtain** a kingdom that is not God's. Rendered as printed ("The kingdom not of God shall they obtain") per 7a — carrying a negative where the plate puts it, **including when carrying it makes the sentence contradict its own gloss**, which continues *Nullus medius locus est…* on the assumption that they obtain nothing. The `[var:]` gives the received order. See §3 for why no silent transposition was made. |
+| 0585A | *Non est impiis gaudere, dicit Dominus* (Isa. XLVIII) | Is 48:22 *Non est pax impiis, dicit Dominus* | ***gaudere* for *pax*** — and the lemma being glossed is *Gaudium*. Migne's word is the keyword; the Vulgate's is not. Another pure 7a″ site. |
+| 0587A | *Operamini dum dies est: veniet nox quando jam nullus poterit operari* (Joan. IX) | Jo 9:4 *Me oportet operari opera ejus qui misit me, donec dies est : venit nox, quando nemo potest operari* | Recast to a plural imperative, *dum* for *donec*, future *veniet*/*poterit* for present, *jam nullus* for *nemo*. |
+
+### 1b. Divergences found, logged, and **declined** a marker (13)
+
+Each is a real difference from the Clementine. None was marked, because in each the sense the
+gloss builds on is untouched and a `[var:]` would bury the twenty-four above in noise.
+
+- **0571A · *Et Domino Jesu Christo.*** — Gal 1:3 has *et Domino **nostro** Jesu Christo*. A dropped possessive.
+- **0571A · *Praesenti saeculo nequam.* / *Saeculo nequam.*** — Gal 1:4 verbatim; the second is the first clipped.
+- **0571A · *Mundus in maligno positus.*** — 1Jo 5:19 *mundus **totus** in maligno positus **est***. Clipped tag.
+- **0571A · *Tempora periculosa.*** — 2Tim 3:1 *instabunt tempora periculosa*. Clipped tag. (*Dies mali sunt* = Eph 5:16 verbatim.)
+- **0572B · *Providemus bona, non solum coram Deo, sed etiam coram hominibus*** — 2Cor 8:21 drops only *enim*.
+- **0572D · *Segregavit ex utero matris.*** — Gal 1:15 *qui **me** segregavit ex utero matris **meae***. Both possessives clipped. **Rendered as printed** ("He separated from the womb of the mother") and NOT expanded, because the printed words construe as they stand; convention 3 governs fragments that are *not English*, and this one is. See §3.
+- **0573C · *nihil interest,*** — Gal 2:6 *nihil **mea** interest*.
+- **0573C · *ab his,*** — Gal 2:6 *ab **iis***; an orthographic doublet, Pattern 9.
+- **0578B · *Ego a Patre exivi, et veni in hunc mundum*** — Jo 16:28 *Exivi a Patre, et veni in mundum*: word order plus the deictic *hunc*. No proposition of the gloss turns on either.
+- **0579B · *Imo cogniti estis.*** — Gal 4:9 *immo cogniti **sitis***: indicative for subjunctive, plus the *imo/immo* doublet.
+- **0584A · *Qui enim diligit iniquitatem…*** — Ps 10:6 has *qui **autem** diligit*; Migne *enim*. A connective only. ⚑ This is the class 8960's reader leaned on and got wrong from memory; checked on disk, and the divergence is real but trivial.
+- **0586C · *Cum mali sitis, nostis bona dare filiis vestris;*** — Lc 11:13 / Mt 7:11 *Si ergo vos, **cum sitis mali**, nostis bona **data** dare*. Word order plus a dropped *data*.
+- **0587B · *Benefacite his qui oderunt vos. Diligite inimicos vestros*** — Lc 6:27 prints the two clauses **in the opposite order**. Declined because nothing in the gloss turns on the order; contrast 7914 @1079B, where *cinis et pulvis* was marked precisely because the gloss turned on ashes.
+
+### 1c. Migne's citation notes, checked against the verses (a separate question from the wording)
+
+⭐ **A systematic displacement at 0572B–C.** Four quotations run in series, each followed by a note,
+and **every note names the reference of the FOLLOWING quotation**:
+
+| the quotation | its actual source | the note Migne prints after it |
+|---|---|---|
+| *Placete omnibus per omnia…* | 1Cor 10:33 | (II Cor. X) |
+| *Sine offensione estote…* | 1Cor 10:32 | (II Cor. VIII) |
+| *Providemus bona…* | 2Cor 8:21 | (Matth. V) |
+| *Luceant opera vestra…* | Mt 5:16 | — none — |
+
+So `(II Cor. VIII)` belongs to *Providemus bona* (2Cor 8), `(Matth. V)` to *Luceant opera* (Mt 5),
+and the series ends one note short. `(II Cor. X)` on the first is the odd man out and would be
+`(I Cor. X)` if the pattern held throughout. **The notes pass through verbatim** under convention 4
+— they are Migne's, and passing a siglum through is not endorsing it.
+
+Two further note-referent observations, both left unmarked:
+
+- **0575D · (Deut. XXI)** stands on *Maledictus omnis homo* — which is Dt **27**:26, quoted at Gal 3:10. Dt **21**:23 is the source of the *other* curse, *Maledictus qui pendet*, quoted three columns later at 0576B, where Migne prints no note at all. Same displacement shape.
+- **0584A · (Levit. XIX)** stands on *Diliges proximum*. The lemma quotes **Gal 5:14** and agrees with it verbatim; but Lv 19:18 itself reads *Diliges **amicum** tuum sicut teipsum*. The note is right about the book and the gloss (*Hoc scriptum est in Levitico*) is right about the fact; the Leviticus wording simply is not the wording quoted. No marker: the lemma is a faithful quotation of Galatians.
+- **0579B · (I Petr. II)** on *Conversi estis servire Deo vivo et vero* — the verse is **1 Thess 1:9**. Recorded in 1a with the wording divergence; the misattribution is Migne's and rides as printed.
+
+### 1d. Checked and agreeing with the Clementine — the negatives (the rest of the 276)
+
+Recorded because a list of findings alone cannot be told from a report by an agent that never
+looked. Each of these was read word against word at the cited verse.
+
+**Gal 1 (0569D–0572D).** *Paulus, apostolus.* (1:1; Migne lower-cases *apostolus*, Clem. *Apostolus*) · *Non ab hominibus.* · *Neque per hominem.* · *Qui mecum.* (1:2, clipped from *et qui mecum sunt omnes fratres*) · *Qui dedit.* (1:4, clipped) · *Semetipsum.* (1:4) · *De saeculo.* (1:4, clipped from *de praesenti saeculo nequam* — the ⚠ in the pre-scan is the clip, not a divergence) · *Cui est gloria.* (1:5) · *Miror.* (1:6) · *Sed licet nos,* (1:8) · *Praeterquam quod.* (1:8) · *Anathema sit.* (1:8) · *Anathema.* · *Sicut praediximus.* (1:9) · *Modo.* (1:10) · *Si adhuc.* (1:10) · *Et proficiebam in Judaismo.* (1:14) · *Cum autem placuit.* (1:15) · *Ex utero.* (1:15) · *Priusquam te formarem in utero, novi te* (Jr 1:5, **verbatim**) · *salvatione* · *translatio* (gloss words, not scripture).
+
+**Gal 2 (0572D–0574C).** *Deinde post annos quatuordecim.* (2:1) · *Et contuli cum illis.* (2:2) · *Seorsum,* (2:2) · *Subintroductos.* (2:4) · *Neque ad horam.* (2:5) · *Quales aliquando.* (2:6) · *Qui videbantur aliquid esse.* (2:2) · *Columnae.* (2:9) · *Dextras dederunt.* (2:9) · *Restiti.* (2:11) · *Prius enim quam venirent,* (2:12) · *Quomodo gentes cogis.* (2:14) · *Nos.* (2:15) · *Nisi per fidem,* (2:16) · *Quod si quaerentes.* (2:17) · *Ego enim per legem.* (2:19) · *Mortuus sum.* (2:19) · *Ut Deo vivam.* (2:19) · *Confixus.* (2:19) · *Vivo.* (2:20) · *Jam non ego.* (2:20) · *Vivit vero in me Christus.* (2:20).
+
+**Gal 3 (0574D–0578A).** *O insensati.* (3:1) · *Fascinavit.* (3:1) · *Ante quorum oculos.* (3:1) · *in vobis,* (3:1) · *Hoc solum a vobis.* (3:2) · *hoc volo a vobis discere,* (3:2, the gloss's own re-ordering of its lemma) · *Sine causa.* (3:4) · *Qui ergo tribuit.* (3:5) · *Ad justitiam.* (3:6) · *Providens.* (3:8) · *In te benedicentur,* (3:8, clipped and re-ordered from *benedicentur in te omnes gentes*) · *Quia ex fide.* (3:8) · *Praenuntiavit,* ×2 (3:8) · *benedicentur* · *In te.* · *Quicunque enim,* (3:10; *quicunque/quicumque* is Pattern 9) · *Scriptum est.* (3:10) · *Justificatur apud Deum.* (3:11) · *Lex autem,* (3:12) · *Vivet in illis.* (3:12) · *lex non est ex fide;* (3:12) · *Qui ergo fecerit ea, vivet in illis:* (3:12; the *ergo* is the gloss's resumption) · *Factus pro nobis,* (3:13) · *maledictus,* (3:13) · *Maledictus qui pendet.* (3:13, clipped) · *Hoc autem dico.* (3:17) · *hoc autem testamentum confirmatum* · *dico* · *lex non facit irritum,* / *Lex non facit irritum.* (the gloss's own restatement of 3:17 *non irritum facit*) · *Propter transgressiones.* (3:19) · *Ordinata per angelos.* (3:19) · *ordinata:* · *In manu.* (3:19) · *Mediator.* (3:20) · *Lex ergo,* (3:21) · *Priusquam.* (3:23) · *Veniret fides.* (3:23) · *Custodiebamur.* (3:23) · *Conclusi.* (3:23) · *In eam.* (3:23) · *Quae.* (3:23) · *Revelanda.* (3:23) · *Paedagogus noster fuit in Christo Jesu.* (3:24; Migne adds *Jesu*, and the gloss's own second lemma *in Christo,* drops it again) · *in Christo,* · *Omnes filii Dei estis per fidem.* (3:26; *enim* dropped) · *In Christo Jesu.* (3:26) · *Induistis.* (3:27) · *Ergo Abrahae semen estis.* (3:29; *Abrahae semen* for *semen Abrahae*).
+
+**Gal 4 (0578A–0582B).** *Dico autem,* (4:1) · *Sub elementis.* (4:3) · *Mundi.* (4:3) · *Venit plenitudo temporis.* (4:4) · *Plenitudo temporis.* · *Misit Deus Filium.* (4:4) · *In mundo erat…non cognovit* (Jo 1:10, **verbatim**) · *In propria venit.* (Jo 1:11) · *Ex muliere.* (4:4) · *Factum sub lege.* (4:4) · *Ut adoptionem.* (4:5) · *Misit Deus.* (4:6) · *Spiritum Filii.* (4:6) · *usque ad* (the abridgment formula) · *Clamantem.* (4:6) · *Abba pater.* (4:6; Clem. *Abba, Pater*) · *Qui natura non sunt,* (4:8) · *Sic in sancto apparui tibi…* (Ps 62:3, **verbatim**) · *Infirma.* / *Egena.* / *Egena elementa* (4:9) · *Dies.* / *Menses.* / *Tempora.* / *Et annos.* (4:10) · *Timeo vos, ne forte,* (4:11) · *Estote sicut ego.* (4:12) · *Quia,* / *sicut vos,* (4:12) · *Fratres, obsecro.* (4:12) · *Nihil me.* (4:12, clipped from *Nihil me laesistis*) · *Tentationem vestram.* (4:13) · *Sed sicut angelum Dei,* (4:14) · *Esurivi, et dedistis mihi manducare* (Mt 25:35; only *enim* dropped) · *Ubi est ergo,* (4:15) · *fieri posset.* (4:15) · *Verum dicens vobis.* (4:16) · *Aemulantur.* (4:17) · *Donec Christus.* (4:19, clipped from *donec formetur Christus in vobis*) · *Vellem autem.* (4:20) · *Dicite,* (4:21) · *Legem non legistis.* (4:21) · *Scriptum est,* (4:22) · *Unum de ancilla et unum,* (4:22, clipped) · *Per allegoriam.* (4:24) · *Abba* / *am,* / *gentium. In monte Sina.* (4:24 — see §2 on the italic run) · *Mons.* (4:25) · *conjunctus,* (4:25) · *Arabia,* (4:25) · *Quae sursum est.* (4:26) · *Quae est mater.* (4:26; *nostra* clipped) · *Scriptum est.* (4:27) · *Laetare.* ×2 (4:27) · *Non paris.* (4:27) · *Non parturis,* (4:27) · *Erumpe.* (4:27) · *Clama.* (4:27) · *Quia multi filii.* (4:27) · *Desertae.* (4:27) · *Quae habet virum.* (4:27) · *Isaac.* (4:28) · *Persequebatur.* (4:29) · *Qua libertate.* (4:31).
+
+**Gal 5 (0582B–0585C).** *Si circumcidamini.* (5:2) · *Debitor est.* (5:3) · *A gratia excidistis.* (5:4) · *Nos enim.* (5:5) · *Spem justitiae.* (5:5) · *Nam in Christo.* (5:6) · *Sed fides.* (5:6) · *Nam et daemones credunt et contremiscunt* (Jac 2:19; Migne prefixes *Nam*) · *Currebatis.* (5:7) · *Confido.* (5:10) · *Conturbat.* (5:10) · *Quicunque.* (5:10) · *Ego autem.* (5:11) · *Quid adhuc persecutionem.* (5:11) · *Scandalum crucis.* (5:11) · *Utinam abscindantur.* (5:12; *et* dropped) · *Ne libertatem.* (5:13) · *Sed per charitatem Spiritus.* (5:13) · *Omnis enim lex.* (5:14) · *Diliges proximum.* (5:14) · *Sicut teipsum.* (5:14) · *Comeditis.* (5:15) · *criminamini,* (see §2) · *Ne abinvicem consumamini.* (5:15; *abinvicem* fused, but attested late-Latin — Pattern 9, no marker) · *Non perficietis,* (5:16) · *Caro enim concupiscit,* (5:17) · *Quod si Spiritu ducimini,* (5:18) · *Non estis sub lege.* (5:18) · *Charitas.* (5:22) · *Gaudium.* (5:22) · *Qui autem.* ×2 (5:24) · *carnem suam crucifixerunt,* (5:24) · *Si spiritu vivimus.* (5:25) · *Inanis gloriae.* (5:26) · *Invidentes.* (5:26).
+
+**Gal 6 (0585C–0588B).** *Fratres, et si.* (6:1; *et si* for *etsi*, Pattern 9) · *In aliquo delicto.* (6:1) · *Lenitatis.* (6:1) · *Considerans teipsum.* (6:1) · *Et sic adimplebitis legem Christi.* (6:2) · *Nihil.* (6:3) · *Probet.* (6:4) · *Opus autem suum.* (6:4) · *Non sum sicut caeteri hominum* (Lc 18:11; *caeteri/ceteri* only) · *In semetipso* (6:4) · *Gloriam habebit.* (6:4) · *Et non in altero.* (6:4) · *Et sic,* / *in semetipso,* / *Et sic in se.* (6:4) · *Unusquisque enim.* ×2 (6:5) · *Onus.* (6:5) · *Alter alterius onera portate;* (6:2) · *Invicem onera portate.* (the gloss's own paraphrase of 6:2, not a quotation) · *Unusquisque,* / *portabit onus suum,* (6:5; Migne's word order for *onus suum portabit*) · *Communicet.* (6:6) · *Nolite errare.* (6:7) · *Qui seminat in carne* / *sua.* / *in spiritu,* / *suo,* (6:8 — ⭐ **checked with care, and the plate is right**: the Vulgate does read *in carne **sua*** and *in spiritu* with no possessive, so the gloss's whole observation stands on the received text) · *In carne, in spiritu.* (composite) · *Qui autem seminat.* (6:8) · *Non deficiamus.* (6:9) · *Tempore enim.* (6:9) · *Dum tempus.* (6:10) · *Ad omnes.* (6:10) · *Videte autem.* (6:11; Migne adds *autem*) · *Hi cogunt.* (6:12) · *Ut crucis Christi persecutionem,* (6:12) · *Mihi mundus crucifixus est.* (6:14) · *Et ego mundo.* (6:14) · *Venit enim princeps mundi hujus, et in me non habet quidquam* (Jo 14:30, **verbatim**) · *De caetero.* (6:17) · *Stigmata.* (6:17) · *Gratia Domini nostri Jesu Christi.* (6:18).
+
+---
+
+## §2 · THIS BOOK'S CRUCES
+
+### 0573D · *Ut nos ingentes* — the fused preposition. RENDERED AS PRINTED, `[var:]`, PLATE READ WANTED
+
+Covered in §1a. The reading I took is *ingentes* as the adjective the plate actually sets, agreeing
+with *nos*, and the rival I rejected is a silent split into *in gentes*: the split is certainly what
+the sentence means, and that is exactly why it must not be made in the running text — it would leave
+no trace that the plate is defective, and the gloss's own *praedicatione gentium* two words later
+already tells the reader what was intended. Whether the fusion is Migne's compositor or Corpus
+Corporum's transcription **cannot be settled from the Latin**, and the answer decides whether this is
+a `[var:]` (Migne) or a `data/tei-patches/8992.json` fix (the digitization) — the 8968 *significaRuth*
+precedent exactly. **Request: p. 292 (col. 573D), 300 dpi.**
+
+### 0574A · *Qui dam* for *quidam* — split type. `[sic:]`, sense supplied beside it
+
+Pattern 10 carries the whole broken run, including the fragment that is a real word, and 7a⁗ keeps
+the sense outside the quarantine: `Certain [sic: *Qui dam*] emulators of the law…`. Strip the marker
+and the sentence still has its subject. Same page as *ingentes*, so the same plate read answers both.
+
+### 0574D · *quorum dam* for *quorumdam* — the same defect, one column later
+
+`the eyes of certain [sic: *quorum dam*] men`. **Two split runs of the same word within one page of
+each other is itself evidence about the transcription rather than the plate**, and is the second
+reason for the read.
+
+### 0581C · *quisbusdam* for *quibusdam* — metathesis, non-word. `[sic:]`
+
+`in certain [sic: *quisbusdam*] persons whom she brings forth here`. Carried untranslated with the
+sense supplied beside it. ⚑ This is Test 4's shape from the other direction: three deformations of
+*quidam/quibusdam* in one short work, none of them a word. **Request: p. 296 (cols 581/582).**
+
+### 0584A · *digit* for *diligit* — non-word, and it is the clause's only verb. `[sic:]`
+
+*Se autem non diligit qui **digit** iniquitatem.* The marked run is the predicate of its own clause,
+so under 7a⁗ the English supplies it in plain words beside the marker: `But he does not love himself
+who loves [sic: *digit*] iniquity.` Strip the marker and the clause still has a verb, its negation
+and its subject. The conjecture is *diligit*, near-certain: the previous clause prints *non diligit*
+and the proof-text that follows prints *diligit iniquitatem* in full.
+
+### 0584C · *car nali* for *carnali* — split type. `[sic:]`
+
+`when the soul by carnal [sic: *car nali*] concupiscence struggles against the spirit`. The fourth
+word-division defect in the work.
+
+### 0583A · *Qui qui autem non credunt* — dittography. `[d:]`
+
+The two runs are **identical**, so Pattern 11 (not 11a) governs and the marker wraps the second:
+`But they who [d: who] do not believe are slower and worse than the demons.` It reads as a
+compositor's doubling, not a textual one — there is no construction in the sentence that could want
+two relatives.
+
+### 0582C · *nolunt* where the argument needs *volunt*. `[cj:]`, the one in the work
+
+*Gentiles vero ad talia non sunt cogendi. Sed si **nolunt** eis congruere, ut Timotheus, non sunt
+prohibendi.* The printed word is a perfectly good Latin form, so Pattern 12 has nothing to wrap and
+Pattern 7 renders it — and the English then asserts something the gloss is arguing against, which is
+Pattern 18 exactly. The passage is the standard balance (do not compel, do not forbid), and its
+example is **Timothy, who did conform**; with *nolunt* the second clause forbids nothing and the
+example contradicts it. The word that went wrong is a **negation** (*ne*+*volunt*), which is the
+class 18a's 2026-08-15 extension explicitly admits even where the sentence is merely incoherent.
+Rendered `are unwilling [cj: *nolunt*; read *volunt*, "are willing"]` — additive, Migne's word kept.
+
+### 0584D · *Regnum non Dei consequentur* — the negative in the wrong place. NO transposition
+
+Two readings were weighed. **The marker took the printed order** and renders it, "The kingdom not of
+God shall they obtain", with a `[var:]` carrying Gal 5:21's *regnum Dei non consequentur*. **The
+rival — reading the *non* as governing the verb and printing "shall not obtain the kingdom of God" —
+lost because it is a silent repair of exactly the class 7a exists to expose**: it would produce
+smooth prose, satisfy every count-based check (the negative is present either way), and destroy the
+only evidence that the plate is defective here. A `[cj:]` was also weighed and declined: Pattern 18
+does not reach inside a quoted scripture, and 14 does.
+
+### 0571B · *devotio* / *devotare* — the word-play, and why no italics were added
+
+*et vulgo dicitur devotio … hoc erat anathematizare, quod vulgo dicitur devotare.* Migne sets neither
+word in italics, and every italic span in the English must answer to one in the Latin, so the
+register's licence to keep a technical Latin word in italics could not be used. Rendered "a devoting"
+and "to devote" throughout, which carries the Roman sense (consecrating to the infernal gods) that the
+paragraph is defining, and keeps the pun with *anathema* legible.
+
+### 0581A · *gentium. In monte Sina.* — one italic run across a lemma boundary
+
+Migne's italics open at *gentium* (the tail of the previous gloss, completing *pater multarum*
+[*gentium*]) and close after *In monte Sina.* — which is the next verse lemma. **The italic run
+therefore straddles the boundary between a gloss and the lemma that follows it**, and there is no
+other place in the work where that happens. Reproduced 1:1 as one span, because span structure is
+sacred; but it is very likely two spans on the plate. Included in the p. 296 read request.
+
+### 0583B · `VERS. 11.` printed without the `.--`
+
+Every other verse address in the work is `VERS. n.-- `; this one is `VERS. 11. ` — the same class as
+Ruth's `VERS.9`, and reproduced verbatim rather than normalized, because the address passes through
+untranslated under convention 1 and the Latin side shows the same thing.
+
+### 0583A · a sentence that simply stops
+
+*…quae nihil valent in Christo* [0583A] *Sed fides.* — no terminal stop before the next lemma.
+Pattern 8: never supply. The English stops too.
+
+### 0586A · *In semetipso* with no closing stop
+
+*In semetipso* Id est intus in conscientia sua pura. The italic lemma carries no period where all its
+neighbours do. Reproduced as printed.
+
+### 0586D · *sua* / *suo* — a gender distinction English cannot show
+
+*Qui seminat in carne* addit *sua*. Cum vero dicit, *in spiritu,* non addit *suo*. The whole
+observation is that the possessive agrees with *carne* and would have had to be *suo* for *spiritu* —
+and English "his own" is the same word for both. Pattern 9: no emendation to undo, no marker to add,
+the facing Latin column carries it. Logged so a later sweep does not churn it. ⚑ The gloss's own next
+sentence supplies the point for an English reader (*the carnal seed is from man, the spiritual from
+the Spirit of God*), so nothing is actually lost.
+
+### 0586D · *dat offensum ex fide* — does not construe. RENDERED LITERALLY, no marker
+
+*qui spiritui dat **offensum** ex fide, cum charitate serviendo justitiae…* *offensum* is a real
+noun ("an offence"), so Pattern 12 has nothing to wrap, and the English is "he who gives to the
+spirit an offence out of faith" — which is not what the sentence can mean. The conjecture is
+*obsequium* ("obedience, service"), which yields "who renders to the spirit obedience out of faith"
+and matches *serviendo justitiae* in the same clause. **`[cj:]` declined**: the word that went wrong
+is neither a negation nor a correlative, and the resulting English is incoherent rather than false,
+which 18a's bar does not admit. Crux, no edit.
+
+### 0582D · *externa beatitudo* — probably *aeterna*, and DECLINED
+
+*quia ex fide justitia, et spes, id est, **externa** beatitudo.* The corpus control is inside this
+same work: 0577B and 0576A both print *aeterna beatitudo* in the identical phrase. But *externa* also
+construes on its own terms — hope's object as what lies outside the present — and Pattern 18's bar is
+that the printed word must make the sentence *say something the author is arguing against*, which
+this does not. **Rendered "external blessedness"; the conjecture lives here and not in the text.**
+
+### 0573B · *non remanerent* — a plural verb against a singular subject
+
+*Quod si esset veritas Evangelii apud gentes, non remanerent, sed omnes judaizarent.* **The reading I
+took** makes *veritas Evangelii* the subject: "if it were so, the truth of the Gospel would not remain
+among the Gentiles, but all would judaize" — the sense the paragraph plainly wants, since the false
+brethren's aim was to bring the Gentiles back into the servitude of the law. **The rival, making
+*gentes* the subject of *remanerent*** ("the Gentiles would not remain"), lost because it strands
+*veritas* with no verb of its own; the plural is best explained as attraction to the *gentes*
+immediately before it. English has no exponent for the disagreement, so it is a crux and not a marker
+— Pattern 9's rule for systemic Latin features, and Pattern 12's operational test (the word was
+rendered, so what the reader sees is our English, not his type).
+
+### 0577B · *non quia ex lege non est vita* — a double negative that has to ride
+
+*ergo est ita contra promissa, ut per eam impleatur aliter quam promissum est: **non quia ex lege
+non est vita**…* Both negatives carried ("not because from the law there is not life"), per 7a and
+against the temptation to smooth one away. ⚠ Note also that Migne prints **no question mark** on
+*Lex ergo…ergo est ita contra promissa* although the construction is the Vulgate's *Lex ergo adversus
+promissa Dei? Absit.* Pattern 8 forbids supplying one, so the English is a statement too.
+
+### 0572B · a sentence whose ellipsis is Migne's
+
+*Dicit modo quia olim dum dixit hominem ex lege justificari, hominis gloriam inutilem, gratiam Dei
+praedicavit.* — *praedicavit* governs two objects of which only the first has its predicate
+(*inutilem*). Rendered with the ellipsis intact: "he preached the glory of man to be unprofitable,
+and the grace of God."
+
+### 0582C · *non causa promittenti Christi* — case agreement that will not construe
+
+*ne videantur aut **non causa promittenti Christi**, instituta, aut adhuc promittere.* *causa* + the
+genitive *Christi* is right; the intervening dative participle *promittenti* agrees with nothing.
+Rendered as closely as the words allow ("for the cause of Christ the promiser"), crux logged, no
+marker — the run is real Latin words in real forms.
+
+### 0571D · *Media aqua posita erat omnibus praeceptum Dei*
+
+*media aqua* nominative, *praeceptum Dei* in apposition. Rendered "Water in the midst had been set
+before all, the commandment of God" rather than smoothing the apposition into a copula.
+
+### 0580C · *Quem deformatis formosus sit in vobis* — the construal I took, and the one I rejected
+
+**Taken:** *deformatis* is the 2nd person plural of *deformare* — "**Whom you disfigure**, let him be
+beautiful in you." This construes completely: *Quem* is the object of *deformatis*, and the following
+sentence (*ut formosus aliis per vos appareat*) and the closing comparison (*gravius dictum, quam si
+diceret eos formari in Christo*) both depend on Christ being the one formed and disfigured **in
+them**, which is the graver saying. **Rejected:** *deformatis* as the dative/ablative plural of
+*deformis* ("to you who are deformed"), which was the first reading tried; it lost because it leaves
+*Quem* accusative with no verb to govern it, and would have required reading *Quem* as *Qui* — a
+silent emendation.
+
+### 0577A · *cui mediat per humanam* — the antecedent
+
+*tamen est Deus unus cum Deo Patre per divinam naturam, **cui** mediat per humanam.* Taken as *Deo
+Patre*, the only dative-eligible antecedent in the sentence: "to whom he mediates by the human." The
+alternative (*cui* reaching the two *extrema* of the previous sentence) lost on number — *cui* is
+singular.
+
+### 0579B · *quia perfecte non justificat* — where the negative sits
+
+*Vere lex est egenum elementum: quia perfecte non justificat.* Test 2a's trigger fired (a negative on
+a verb with an adverb adjacent). **The negative was placed on *perfecte*** — "because it does not
+justify perfectly" — **proved from the structure of the next gloss, not from what reads well**:
+*Egena. Quia quantum juvat, non per se, sed respectu gratiae facit* concedes that the law **does**
+help, so the law is *egenum* because its justification is incomplete, not because there is none.
+
+### 0574C · a question mark on what is not a question
+
+*Non mihi, sed quod Deo jam possum? quia cum Christo sum.* The mark rides as printed and the sentence
+continues in lower case after it, exactly as Migne sets it. Pattern 8, and **not** 8b — the clause is
+not an indirect question, so no colon recasting was used.
+
+### 0585B · *neuter neutrum videt*
+
+Two negatives in Latin idiom that English cannot double. Rendered "neither of the two beholds the
+other". Logged because it is a place where a negation count will read as one short.
+
+### 0572B · *pseudo* as a bare noun
+
+*magis **pseudo** excommunicandi sunt* (0572B), *Imponebatur a **pseudo*** (0583B), *Isti erant
+**pseudo*** (0587B), *quia **pseudo** dixerant Paulum Galatis inimicum* (0579D). Migne uses the
+Greek stem alone as an indeclinable noun for the false apostles, and the ARGUMENTUM's own
+*falsis apostolis* fixes the referent. Rendered "the false apostles" throughout. Not a defect —
+it is a usage, and the work is internally consistent in it.
+
+### 0584A · *criminamini* — Migne records a variant reading, and it is his to record
+
+*Comeditis. Vel **criminamini,*** — the gloss offers a second reading of the text of Gal 5:15 (the
+Clementine has only *comeditis*). Both are set in italics as lemmata and both are rendered. No
+`[var:]`: the divergence is one Migne himself is reporting, and marking it would tell the reader
+twice — the same principle as the rule against stacking our `[sic:]` on his `( sic )`.
+
+### Second person throughout
+
+Pattern 17 governs and the plate decides. Plural *vos* → **you** in the gloss prose (as in the
+shipped NT gloss books 8991 and 8998); **ye** kept only where a plural scripture **imperative** is
+being quoted or glossed (*Gustate* → "Taste, and ye shall be as gods"; *Placete* → "Please ye all
+men"; *Nolite facere* → "Do not ye your justice"; *Estote* → "Be ye as I"; *Induite vos* → "Put ye
+on"; *Dicite* → "Say ye"). Singular *tu* → **thou** (*Quomodo gentes cogis* → "How dost thou compel
+the Gentiles"; *ut intelligas* → "that thou mayest understand"; *Considerans teipsum* → "Considering
+thyself"; *quos iterum parturis* → "whom thou bringest forth again").
+
+---
+
+## §3 · CANDIDATES RAISED AND REJECTED
+
+- **Contracting *Qui dedit.* / expanding it to "Who gave himself".** Rejected, and this is the class
+  the brief warns about. *Qui dedit.* (Gal 1:4, clipped before its object) and *Semetipsum.* (a
+  complete one-word lemma, glossed separately in the very next sentence) are **different classes**.
+  Expanding the first would pre-empt the second and manufacture an inconsistency that is not on the
+  page. Rendered "Who gave." and "Himself." — and an early draft that read "he offered **himself** of
+  his own accord" in the gloss on *Qui dedit* was **withdrawn**, because it imported the next lemma's
+  word into the first lemma's exposition.
+- **Expanding *Segregavit ex utero matris.*** Rejected. Convention 3 expands a fragment that *is not
+  English*; this one construes as printed. Supplying *me* and *meae* from Gal 1:15 would be
+  conformation to the received text, which is the defect, not a cure for it.
+- **Contracting *Nihil me.* to a stump.** Rejected in the other direction: "Nothing me" is not
+  English, so convention 3 applies and it is rendered "You have injured me in nothing." Per the
+  brief's ruling, where a work treats bare lemmata two ways the fix is to expand, never to contract.
+- **A `[sic:]` on *abinvicem* (0584A).** Rejected. Pattern 9: *abinvicem* is attested late Latin, not
+  a word-division defect, and marking it would put this work's four genuine split runs into noise.
+- **A `[var:]` on the *quicunque/quicumque*, *caeteri/ceteri*, *coelum/caelum*, *Hierusalem*,
+  *imo/immo*, *etsi/et si* doublets.** Rejected wholesale — Pattern 9, orthography of the period.
+- **A `[cj:]` on *externa beatitudo* (0582D).** Weighed against a two-instance control inside this
+  same work and **declined**; reasoning in §2.
+- **A `[cj:]` on *offensum* (0586D).** Declined; reasoning in §2.
+- **A `[cj:]` or a transposition on *Regnum non Dei* (0584D).** Declined in favour of `[var:]` and
+  the printed order; reasoning in §2. This is the site a blind reader is most likely to flag, so the
+  reasoning is stated there in full rather than here.
+- **A `[var:]` on the note *(Levit. XIX)* at 0584A.** Rejected: the lemma quotes Gal 5:14 and agrees
+  with it exactly. The mismatch is between Migne's *note* and Leviticus, not between his text and the
+  Clementine, and `[var:]` marks the second. Recorded in §1c instead.
+- **Reordering *Benefacite … Diligite* (0587B) to the Vulgate's sequence.** Rejected outright —
+  Migne's order is Migne's, and nothing in the gloss turns on it.
+- **Splitting the italic run at 0581A into two spans.** Rejected: span structure is 1:1 with the
+  Latin and is not ours to tidy. Logged as a plate-read question instead.
+- **Normalizing `VERS. 11.` to `VERS. 11.--`.** Rejected. Convention 1 passes the address through
+  untranslated; Pattern 9's licence to normalize applies to *translated* structural labels, and this
+  one is not translated.
+- **Supplying a `?` at 0577B (*Lex ergo…*).** Rejected. The Vulgate's *Lex ergo adversus promissa
+  Dei?* is a question; Migne's gloss sentence is not punctuated as one, and Pattern 8 forbids
+  supplying the mark. 8b was checked and does not apply — the clause is not an indirect question.
+- **Supplying a terminal stop at 0583A and 0586A.** Rejected, Pattern 8.
+
+---
+
+## §4 · PLATE READS REQUESTED
+
+`raw/scans/pl114/patrologiaecurs06saingoog.pdf`, PDF page = (column + 11) / 2.
+
+1. **p. 292 (cols 573/574), 300 dpi, full width.** Three questions on one page: (a) does the plate
+   read *ingentes* or *in gentes* at 573D; (b) does it read *Qui dam* or *quidam* at 574A; (c) any
+   foot-of-page apparatus. **(a) decides whether the 0573D entry stays a `[var:]` or becomes a
+   `data/tei-patches/8992.json` fix**, which is the 8968 *significaRuth* precedent.
+2. **p. 293 (cols 575/576), 300 dpi.** *quorum dam* at 574D falls at the foot of the previous page
+   or the head of this one; and this page carries *proscriptus* (575A), the work's most consequential
+   single word.
+3. **p. 296 (cols 581/582), 300 dpi.** (a) *quisbusdam* at 581C; (b) whether the italic run at 581A
+   is one span or two (*gentium.* closing one and *In monte Sina.* opening the next).
+
+⚠ Nothing here is urgent enough to hold the work. Plate coverage for 8992 is `"spot"`, checked zero:
+two pages were read before translation — p. 290 (cols 569/570, the Galatians division, which falls
+mid-page) and p. 295 (cols 579/580) — both at 300 dpi, full width, **no foot rule and no numbered
+*Forte* apparatus.** That is why there are no `[cn:]` markers in this work. It is a checked zero for
+those two pages only and is **not** evidence that the work carries no apparatus anywhere.
