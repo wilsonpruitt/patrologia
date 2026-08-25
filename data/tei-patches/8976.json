@@ -1,0 +1,26 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the on-disk PL 114 scan, archive.org patrologiaecurs06saingoog (raw/scans/pl114/), PDF page = (column + 11) / 2, RE-CALIBRATED before the read against the printed corner numbers: p. 223 = cols 435/436. Rendered at 200 dpi, full page width, and the whole line read at each site.",
+  "class": "THREE DEFECTS IN ONE LINE, of two classes, all found while answering a question about a fourth thing. The translating agent flagged a full stop followed by a lower-case word at 0435B — declining to capitalize, because that would silently repair the plate's typography, and saying plainly it would read to a viewer as our own build defect. It was right to flag and right not to touch it. The plate answers: Migne prints a COLON there, and a colon before a lower-case word is ordinary. So the sentence was never his defect; the mark is ours. Reading the same line for that answer then produced two more — a second colon corrupted to a spaced hyphen, and a NORMALIZATION: Migne prints 'Chistus', missing its r, and the digitization tidied it to 'Christus'. That is addendum C exactly — the normalization class lives in the neighbours of the word you came to read, and nobody can flag it from the file, because a normalized form reads perfectly. The class now stands at six.",
+  "patches": [
+    {
+      "col": "0435B",
+      "find": "de spirituali exterminantur. utramque inobedientiam",
+      "replace": "de spirituali exterminantur : utramque inobedientiam",
+      "why": "The plate prints 'exterminantur : utramque'. Our text turned his colon into a full stop, which left a sentence apparently beginning in lower case — the thing the translator flagged. Restoring the colon removes the apparent defect without repairing anything of Migne's, and the English, which mirrored the oddity faithfully, becomes ordinary alongside it."
+    },
+    {
+      "col": "0435B",
+      "find": "Semen Abrahae Christus est - in fide cujus",
+      "replace": "Semen Abrahae Chistus est : in fide cujus",
+      "why": "TWO corruptions in six words, and they must be repaired together. (1) The same colon-loss as above, here become a spaced hyphen — a mark Migne does not use anywhere in this book. (2) THE NORMALIZATION: the plate prints 'Chistus', without the r, and our source silently corrected it to 'Christus'. Our Latin column was therefore printing a word Migne did not print, in a line where he made a visible slip. Restoring it puts the defect back where the reader can see it; the English says Christ, as it must, and now carries a [sic:] because the plate licenses one — a marker asserts a defect and only a plate can license it."
+    }
+  ],
+  "unread": [],
+  "refuted": [
+    {
+      "col": "0435B",
+      "candidate": "the lower-case word after a full stop",
+      "verdict": "NOT a defect of Migne's and NOT ours to capitalize — his mark is a colon. Recorded so the question is not reopened: the translator's decision to mirror rather than repair was correct, and the repair belongs at the punctuation, not the capital."
+    }
+  ]
+}
