@@ -1369,30 +1369,52 @@ rather than as a list: what English cannot leave implicit and Latin can.
    sought the Lord *in diebus Zachariae*). Named.
 6–7. **Two numeral lemmata contracted to what Migne prints** — see §Z2.
 
-### §Z2 · THE LEMMA-EXPANSION FINDING, AND WHY ONLY TWO OF THE FIVE WERE DEFECTS
+### §Z2 · THE LEMMA-EXPANSION FINDING — RAISED, ACTED ON, AND THEN WITHDRAWN
 
-The reader flagged five lemmata printing longer in English than in the Latin twin, each addition
-exactly the Vulgate continuation, and raised an honest caveat: the words might be **dropped from our
-Latin** rather than added to our English. **Both were settled at the plate** (Gallica
-`bpt6k5505319w`, map `f = (column + 1) / 2`, calibrated against the printed corner numbers):
-**f333 shows a bare *Centum.* and f339 a bare *Ducenti.*** Our Latin is right; the English had grown.
+⛔⛔ **THE CORRECTION STANDS FIRST, because a false contraction shipped for part of this session and
+the reasoning that produced it was inverted.** The reader flagged five lemmata printing longer in
+English than in the Latin twin, each addition exactly the Vulgate continuation. Two of them —
+*Centum.* and *Ducenti.* — were contracted to "A hundred." and "Two hundred." **That was wrong, and
+both have been reverted.**
 
-⛔ **But three of the five were not defects at all, and the distinction is the point.** Convention 3
-licenses expanding a **fragment** — a lemma whose governed word is missing — and *Carduus qui,* etc.
-(which carries Migne's own *etc.*), *Obturaverunt cunctos.* and *Ad quam Deus.* are exactly that.
-All three are the second stint's deliberate, stated applications of the rule. **Expanding a fragment
-is not conformation**, and contracting them would have been the real error.
+**What the plate did and did not settle.** Gallica `bpt6k5505319w` (map `f = (column + 1) / 2`,
+calibrated against the printed corner numbers) shows **f333 a bare *Centum.* and f339 a bare
+*Ducenti.***. That answered the reader's honest caveat — the words are **not** dropped from our
+Latin, our Latin is right — and it answered nothing else. **Whether a bare lemma should be expanded
+in English is a question about convention 3, and no plate can decide it.**
 
-⭐ **What the two numerals actually were is an INTERNAL INCONSISTENCY INSIDE THIS WORK that the merge
-missed.** The second stint ruled explicitly that an English cardinal stands as a substantive, so
-nothing is elided — and rendered *Sexcenta.* "Six hundred.", *Quadraginta.* "Forty.", *Trecenta
-quoque.* "Three hundred also." The first stint expanded *Centum.* to "A hundred and fifty" and
-*Ducenti.* to "Two hundred and fifty." Same work, same class, two rules.
+⛔ **And convention 3 decides it the other way.** Both lemmata are **clips of two-word numerals**:
+2 Par 1:17 reads *equum **centum quinquaginta*** and 2 Par 8:10 *ducenti quinquaginta*. A lemma whose
+governed word is missing is a **fragment**, and the Ruth pilot's convention 3 renders a fragment as
+the phrase it stands for, not as a word-for-word stump. The settled ruling on a work that treats the
+same bare lemma two ways is explicit: **resolve it by EXPANDING the stump, not by contracting its
+twin.**
 
-⚑ **And the plate shows why the bare form is the better reading, not merely the faithful one: the
-gloss supplies the figure itself.** Under *Centum.* Migne prints *Qui sunt ter quinquageni*; under
-*Ducenti.*, *Centenarius … Quinquagenarius vero …*. The expanded English pre-empts the gloss's own
-arithmetic and leaves it explaining what the lemma has already said.
+⛔⛔ **The gloss argument was backwards, and it is the part worth remembering.** The contraction was
+justified on the ground that Migne's gloss supplies the figure itself — *Qui sunt ter quinquageni*
+under *Centum.*, *Centenarius … Quinquagenarius vero* under *Ducenti.* — so that an expanded English
+"pre-empts the gloss's own arithmetic." **It does the opposite.** *Ter quinquageni* is **thrice
+fifty**, which is 150, not 100: the gloss is not withholding the figure, it is **confirming** it, and
+it is the proof that Migne's *Centum.* means *centum quinquaginta*. Contracting the English left the
+lemma saying **one hundred** on a page whose gloss immediately says **one hundred and fifty**.
+
+**So all five were licensed expansions and none was a defect.** *Carduus qui,* etc. (carrying Migne's
+own *etc.*), *Obturaverunt cunctos.*, *Ad quam Deus.* — the second stint's deliberate, stated
+applications of convention 3 — and the two numerals with them.
+
+⚑ **What survives as a real observation is smaller and duller: the two stints of this work state
+different rules for a bare cardinal.** The second stint ruled that an English cardinal stands as a
+substantive so nothing is elided (*Sexcenta.* "Six hundred.", *Quadraginta.* "Forty."), which is
+right **for a complete numeral** and does not reach a clipped one. Migne's *Sexcenta.* is the whole
+of 2 Par 1:17's six hundred; his *Centum.* is half of its hundred and fifty. **Same-looking lemma,
+different class** — which is the brief's own warning that a control must be the same class as the
+thing it controls. No further change was made on either account.
+
+⚑ **The general lesson, and the reason this is written out rather than quietly reverted: a blind
+reader's finding can be right about the FACT and wrong about the RULE.** The five English lemmata
+really did print words the Latin twin does not — that observation was correct and worth having. What
+it could not supply is whether the convention licenses them, and acting on the fact without checking
+the rule turned three sound renderings into candidates and two into errors.
 
 ### ⚑ One flag from the reader that is NOT a gap — recorded so it is not re-raised
 
