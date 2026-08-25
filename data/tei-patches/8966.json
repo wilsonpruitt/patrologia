@@ -1,0 +1,14 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the second witness: Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF, map f = (column + 1) / 2, calibrated against the printed corner numbers. Col. 1107B read at f554: the plate prints 'VERS. 35. — Verberaverunt me.' with the ordinary dash, exactly as every other verse address in the book.",
+  "class": "ONE UNDECODED CHARACTER ENTITY — a new sub-class, and the rarest artifact yet found in this corpus. Not a letter substitution, not an unjoined line break, not a normalization: the TEI carries the literal text 'emdash;' where the entity reference '&emdash;' lost its ampersand somewhere upstream of us. Measured 2026-08-25: this is the ONLY occurrence in all 5,276 PL TEI files and the only one in all of src/latin. Found by the translating agent, which correctly printed the house form 'VERS. 35.--' in the English under Pattern 9's section-label ruling and flagged the Latin twin rather than editing it.",
+  "patches": [
+    {
+      "col": "1107B",
+      "find": "<p>VERS. 35.emdash; <hi>Verberaverunt me.</hi>",
+      "replace": "<p>VERS. 35.-- <hi>Verberaverunt me.</hi>",
+      "why": "The plate prints a dash. Our Latin column printed the seven literal characters 'emdash;' to a reader, which is not a word, not Migne's, and not a defect of his that the edition exists to show — it is our pipeline's own leakage of an XML entity. Every other verse address in this work and in the whole Glossa is set '.--', so the repaired form is the corpus's own attested convention rather than a conjecture. The English was already correct and is unchanged; this brings the Latin twin into line with the plate it faces."
+    }
+  ],
+  "unread": [],
+  "refuted": []
+}
