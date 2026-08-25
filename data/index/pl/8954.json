@@ -1,0 +1,1732 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3931,
+  "textIdno": 8954,
+  "title": "Liber III Regum",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "581a",
+  "colLast": "610d",
+  "counts": {
+    "scripture": 68,
+    "fontes": 172,
+    "heads": 22,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "1Chr.2",
+      "refDisplay": "I Par. II",
+      "column": "581a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.12",
+      "refDisplay": "Luc. XII",
+      "column": "581a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.12",
+      "refDisplay": "Ibid., XXIV",
+      "antecedent": "Luc. XII",
+      "antecedentColumn": "581a",
+      "ibidResolved": true,
+      "column": "581a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Cant. II",
+      "column": "582b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Song.2",
+      "refDisplay": "Ibid., III",
+      "antecedent": "Cant. II",
+      "antecedentColumn": "582b",
+      "ibidResolved": true,
+      "column": "582b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.27",
+      "refDisplay": "Matth. XXVII",
+      "column": "582b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Mark.15",
+      "refDisplay": "Marc. XV",
+      "column": "582b",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.20",
+      "refDisplay": "Joan. XX",
+      "column": "583a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "Luc. VIII",
+      "column": "583a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "ID.",
+      "antecedent": "Luc. VIII",
+      "antecedentColumn": "583a",
+      "ibidResolved": true,
+      "column": "583a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "ID.",
+      "antecedent": "Luc. VIII",
+      "antecedentColumn": "583a",
+      "ibidResolved": true,
+      "column": "583a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Gal.5",
+      "refDisplay": "Galat. V",
+      "column": "583b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Heb.4",
+      "refDisplay": "Hebr. IV",
+      "column": "583d",
+      "chunk": 0
+    },
+    {
+      "refKey": "Zech.11",
+      "refDisplay": "Zach. XI",
+      "column": "584c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Thess.5",
+      "refDisplay": "I Thes. V",
+      "column": "584d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Eph.2",
+      "refDisplay": "Ephes. II",
+      "column": "585b",
+      "chunk": 1
+    },
+    {
+      "refKey": "2Cor.7",
+      "refDisplay": "II Cor. VII",
+      "column": "585b",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "586b",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Chr.3",
+      "refDisplay": "II Paral. III",
+      "column": "586d",
+      "chunk": 2
+    },
+    {
+      "refKey": "2Cor.2",
+      "refDisplay": "II Cor. II",
+      "column": "588d",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Tim.1",
+      "refDisplay": "I Tim. I; Col. III",
+      "column": "588d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "I Tim. I; Col. III",
+      "column": "588d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.106",
+      "refDisplay": "Psal. CVI",
+      "column": "589a",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV; XVI",
+      "column": "589c",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Joan. XIV; XVI",
+      "antecedentColumn": "589c",
+      "ibidResolved": true,
+      "column": "589c",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.72.28",
+      "refDisplay": "Psal. CXVIII, 72",
+      "refKeyPrinted": "Ps.118.72",
+      "corrected": true,
+      "correctionNote": "PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w, f295, left column band D, map f = (column + 1) / 2 verified against the printed corner numbers before the read): Migne's own plate prints it, so the numeral is his error and not our digitization's. Migne prints CXVIII, 72 for LXXII, 28. Identified from the quoted words, never from the numeral: 'Mihi autem adhaerere Deo bonum est' is Ps. 72:28. Ps. 118 does have a verse 72, which is what makes the misprint plausible rather than obvious, and it reads 'Bonum mihi lex oris tui' -- not these words.",
+      "column": "589d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Ps.72.28",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Psal. CXVIII, 72",
+      "antecedentColumn": "589d",
+      "ibidResolved": true,
+      "column": "589d",
+      "chunk": 3
+    },
+    {
+      "refKey": "2Chr.3",
+      "refDisplay": "II Par. III",
+      "column": "589d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "Col. III",
+      "column": "589d",
+      "chunk": 3
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "ID., ibid., cap. 13.",
+      "antecedent": "Col. III",
+      "antecedentColumn": "589d",
+      "ibidResolved": true,
+      "column": "589d",
+      "chunk": 3
+    },
+    {
+      "refKey": "1John.3.2",
+      "refDisplay": "Joan. III",
+      "refKeyPrinted": "John.3",
+      "corrected": true,
+      "correctionNote": "PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w, f295, right column band B, map f = (column + 1) / 2 verified against the printed corner numbers before the read): Migne's own plate prints it, so the numeral is his error and not our digitization's. The book ordinal is dropped, not mistyped: Migne prints Joan. for I Joan. 'Videbimus eum sicuti est' is 1 John 3:2; the Gospel's chapter 3 has nothing of it.",
+      "column": "590b",
+      "chunk": 3
+    },
+    {
+      "refKey": "1John.3.2",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Joan. III",
+      "antecedentColumn": "590b",
+      "ibidResolved": true,
+      "column": "590b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "Col. III",
+      "column": "591a",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.13",
+      "refDisplay": "Joan. XIII",
+      "column": "591b",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.13",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Joan. XIII",
+      "antecedentColumn": "591b",
+      "ibidResolved": true,
+      "column": "591c",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Kgs.6.36",
+      "refDisplay": "I Cor. II",
+      "refKeyPrinted": "1Cor.2",
+      "corrected": true,
+      "correctionNote": "PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w, f296, right column band C/D, map f = (column + 1) / 2 verified against the printed corner numbers before the read): Migne's own plate prints it, so the numeral is his error and not our digitization's. Not a wrong numeral within a book but a wrong BOOK, and not even a Testament: the words are III Reg. 6:36 -- the verse this very gloss is expounding -- cited as I Cor. II. Migne cites I Cor. correctly twice on the facing page (I Cor. IV, Ibid. VI), which is evidence the fault is local to this note.",
+      "column": "592d",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "592d",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "Ibid. VI",
+      "antecedent": "I Cor. IV",
+      "antecedentColumn": "592d",
+      "ibidResolved": true,
+      "column": "592d",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Cor.3.6",
+      "refDisplay": "II Cor. III",
+      "refKeyPrinted": "2Cor.3",
+      "corrected": true,
+      "correctionNote": "PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w, f297, left column band B, map f = (column + 1) / 2 verified against the printed corner numbers before the read): Migne's own plate prints it, so the numeral is his error and not our digitization's. Book ordinal wrong: II for I. The words are 1 Cor. 3:6 verbatim.",
+      "column": "593b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "Psal. LXXXIII",
+      "column": "594a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Psal. LXXXIII",
+      "antecedentColumn": "594a",
+      "ibidResolved": true,
+      "column": "594a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Psal. LXXXIII",
+      "antecedentColumn": "594a",
+      "ibidResolved": true,
+      "column": "594a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Psal. LXXXIII",
+      "antecedentColumn": "594a",
+      "ibidResolved": true,
+      "column": "594a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "594b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Eccl.4",
+      "refDisplay": "Eccl. IV",
+      "column": "594d",
+      "chunk": 4
+    },
+    {
+      "refKey": "1Cor.9",
+      "refDisplay": "I Cor. IX",
+      "column": "595d",
+      "chunk": 4
+    },
+    {
+      "refKey": "2Pet.1",
+      "refDisplay": "II Pet. I",
+      "column": "597b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Mar. I; Matth. XXVI",
+      "column": "597b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Mar. I; Matth. XXVI",
+      "antecedentColumn": "597b",
+      "ibidResolved": true,
+      "column": "597b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "ID., ibid.",
+      "antecedent": "Mar. I; Matth. XXVI",
+      "antecedentColumn": "597b",
+      "ibidResolved": true,
+      "column": "597c",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "597c",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.15.41",
+      "refDisplay": "II Cor. XV",
+      "refKeyPrinted": "2Cor.15",
+      "corrected": true,
+      "correctionNote": "PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w, f300, left column band C, map f = (column + 1) / 2 verified against the printed corner numbers before the read): Migne's own plate prints it, so the numeral is his error and not our digitization's. Book ordinal wrong: II for I. 'Stella enim a stella differt in claritate' is 1 Cor. 15:41; 2 Cor. has no chapter 15.",
+      "column": "599c",
+      "chunk": 5
+    },
+    {
+      "refKey": "John.14.2",
+      "refDisplay": "Joan. XV",
+      "refKeyPrinted": "John.15",
+      "corrected": true,
+      "correctionNote": "PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w, f300, left column band D, map f = (column + 1) / 2 verified against the printed corner numbers before the read): Migne's own plate prints it, so the numeral is his error and not our digitization's. Chapter wrong: XV for XIV. The words are John 14:2 verbatim.",
+      "column": "599d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Josh.9",
+      "refDisplay": "Jos. IX",
+      "column": "601a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Isa.62",
+      "refDisplay": "Isa. LXII",
+      "column": "602b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Isa.62",
+      "refDisplay": "ID.",
+      "antecedent": "Isa. LXII",
+      "antecedentColumn": "602b",
+      "ibidResolved": true,
+      "column": "602b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Isa.62",
+      "refDisplay": "Id.",
+      "antecedent": "Isa. LXII",
+      "antecedentColumn": "602b",
+      "ibidResolved": true,
+      "column": "602b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Isa.62",
+      "refDisplay": "ID.",
+      "antecedent": "Isa. LXII",
+      "antecedentColumn": "602b",
+      "ibidResolved": true,
+      "column": "602c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Prov.31",
+      "refDisplay": "Prov. XXXI",
+      "column": "602d",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "603a",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.1",
+      "refDisplay": "I Cor. I",
+      "column": "603a",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.1",
+      "refDisplay": "ID.",
+      "antecedent": "I Cor. I",
+      "antecedentColumn": "603a",
+      "ibidResolved": true,
+      "column": "603a",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.1",
+      "refDisplay": "ID.",
+      "antecedent": "I Cor. I",
+      "antecedentColumn": "603a",
+      "ibidResolved": true,
+      "column": "603a",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.11",
+      "refDisplay": "Joan. XI",
+      "column": "606d",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.11",
+      "refDisplay": "ID.",
+      "antecedent": "Joan. XI",
+      "antecedentColumn": "606d",
+      "ibidResolved": true,
+      "column": "606d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Gal.3",
+      "refDisplay": "Gal. III",
+      "column": "608d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Luke.14",
+      "refDisplay": "Luc. XIV",
+      "column": "608d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Eph.6",
+      "refDisplay": "Ephes. VI",
+      "column": "610d",
+      "chunk": 10
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "HIERON., epist. ad Nepotianum, tom. I.",
+      "column": "581a",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "581c",
+      "chunk": 0
+    },
+    {
+      "raw": "GREG., lib. VIII Moral., cap. 17.",
+      "column": "582a",
+      "chunk": 0
+    },
+    {
+      "raw": "HIER., epist. 131, tom. I.",
+      "column": "582a",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "582b",
+      "chunk": 0
+    },
+    {
+      "raw": "GREG.",
+      "column": "582c",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "582c",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "582c",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "583a",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "583b",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "583b",
+      "ibidResolved": true,
+      "column": "583b",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "583d",
+      "chunk": 0
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "583d",
+      "ibidResolved": true,
+      "column": "583d",
+      "chunk": 0
+    },
+    {
+      "raw": "BEDA, quaest. in lib. Reg.",
+      "column": "584a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., lib. de templo Salom., cap. 1.",
+      "antecedent": "BEDA, quaest. in lib. Reg.",
+      "antecedentColumn": "584a",
+      "ibidResolved": true,
+      "column": "584a",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB.",
+      "column": "584b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ut supra.",
+      "column": "584b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ut supra, cap. 3.",
+      "column": "584c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "584c",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "584d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "584d",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "585a",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid., cap. 4.",
+      "column": "585b",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB. ex Bed.",
+      "column": "585b",
+      "chunk": 1
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "585b",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB. ex Bed., ibid.",
+      "column": "585c",
+      "chunk": 1
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "RAB. ex Bed., ibid.",
+      "antecedentColumn": "585c",
+      "ibidResolved": true,
+      "column": "585c",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB. ex Bed., lib. de Templo Salom., cap. 5.",
+      "column": "585d",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibidem.",
+      "column": "585d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibidem.",
+      "antecedentColumn": "585d",
+      "ibidResolved": true,
+      "column": "586a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "586c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, lib. de temp. Salom., c. 6.",
+      "column": "587a",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid., cap. 7.",
+      "antecedent": "BEDA, lib. de temp. Salom., c. 6.",
+      "antecedentColumn": "587a",
+      "ibidResolved": true,
+      "column": "587b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, lib. de temp. Salom., c. 6.",
+      "antecedentColumn": "587a",
+      "ibidResolved": true,
+      "column": "587b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, lib. de temp. Salom., c. 6.",
+      "antecedentColumn": "587a",
+      "ibidResolved": true,
+      "column": "587c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "587c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid, cap. 8.",
+      "column": "588a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA ibid.",
+      "column": "588a",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid., cap. 9.",
+      "column": "588b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid., cap. 9.",
+      "antecedentColumn": "588b",
+      "ibidResolved": true,
+      "column": "588b",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "588c",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "588c",
+      "chunk": 2
+    },
+    {
+      "raw": "BED. ibid.",
+      "column": "588d",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid., cap. 10.",
+      "column": "588d",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid., cap. 10.",
+      "antecedentColumn": "588d",
+      "ibidResolved": true,
+      "column": "588d",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA, ibid., cap. 11.",
+      "column": "589a",
+      "chunk": 2
+    },
+    {
+      "raw": "ID. ibid.",
+      "antecedent": "BEDA, ibid., cap. 11.",
+      "antecedentColumn": "589a",
+      "ibidResolved": true,
+      "column": "589b",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "589b",
+      "chunk": 2
+    },
+    {
+      "raw": "ID., ibid., cap. 12.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "589b",
+      "ibidResolved": true,
+      "column": "589c",
+      "chunk": 2
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "589c",
+      "chunk": 2
+    },
+    {
+      "raw": "BEDA ibid.",
+      "column": "590a",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "590b",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "590b",
+      "ibidResolved": true,
+      "column": "590c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "590b",
+      "ibidResolved": true,
+      "column": "590c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "590b",
+      "ibidResolved": true,
+      "column": "590c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "590b",
+      "ibidResolved": true,
+      "column": "590c",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ibid., cap. 14.",
+      "column": "590d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid., cap. 14.",
+      "antecedentColumn": "590d",
+      "ibidResolved": true,
+      "column": "590d",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "591d",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "592a",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "592b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA ubi supra.",
+      "column": "592b",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA ubi supra, cap. 16.",
+      "column": "592c",
+      "chunk": 3
+    },
+    {
+      "raw": "BEDA ubi supra.",
+      "column": "593a",
+      "chunk": 3
+    },
+    {
+      "raw": "BED., lib. de templo Salom., cap. 17.",
+      "column": "593b",
+      "chunk": 4
+    },
+    {
+      "raw": "BED. ubi supra, cap. 18.",
+      "column": "593b",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "593c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "593c",
+      "ibidResolved": true,
+      "column": "593d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "593c",
+      "ibidResolved": true,
+      "column": "593d",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "593c",
+      "ibidResolved": true,
+      "column": "593d",
+      "chunk": 4
+    },
+    {
+      "raw": "BED. ubi supra.",
+      "column": "594b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "594b",
+      "ibidResolved": true,
+      "column": "594b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "594b",
+      "ibidResolved": true,
+      "column": "594c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "594b",
+      "ibidResolved": true,
+      "column": "594c",
+      "chunk": 4
+    },
+    {
+      "raw": "BED. ubi supra",
+      "column": "595d",
+      "chunk": 4
+    },
+    {
+      "raw": "BED. ubi supra.",
+      "column": "596a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596b",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid., cap. 20.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED. ubi supra.",
+      "antecedentColumn": "596a",
+      "ibidResolved": true,
+      "column": "596d",
+      "chunk": 4
+    },
+    {
+      "raw": "BEDA, ibid.",
+      "column": "597a",
+      "chunk": 4
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA, ibid.",
+      "antecedentColumn": "597a",
+      "ibidResolved": true,
+      "column": "597a",
+      "chunk": 5
+    },
+    {
+      "raw": "BED., ibid.",
+      "column": "597c",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "597d",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598a",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598b",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598b",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598b",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598b",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid., cap. 21.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598c",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598c",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598c",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid. cap. 22.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598d",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598d",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598d",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BED., ibid.",
+      "antecedentColumn": "597c",
+      "ibidResolved": true,
+      "column": "598d",
+      "chunk": 5
+    },
+    {
+      "raw": "BEDA., ibid.",
+      "column": "599a",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid., cap. 22.",
+      "antecedent": "BEDA., ibid.",
+      "antecedentColumn": "599a",
+      "ibidResolved": true,
+      "column": "599a",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA., ibid.",
+      "antecedentColumn": "599a",
+      "ibidResolved": true,
+      "column": "599b",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA., ibid.",
+      "antecedentColumn": "599a",
+      "ibidResolved": true,
+      "column": "599b",
+      "chunk": 5
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "BEDA., ibid.",
+      "antecedentColumn": "599a",
+      "ibidResolved": true,
+      "column": "599c",
+      "chunk": 5
+    },
+    {
+      "raw": "BED., lib. de Templo Salom.",
+      "column": "599d",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED., lib. de Templo Salom.",
+      "antecedentColumn": "599d",
+      "ibidResolved": true,
+      "column": "599d",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED., lib. de Templo Salom.",
+      "antecedentColumn": "599d",
+      "ibidResolved": true,
+      "column": "600a",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB.",
+      "column": "600a",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "600a",
+      "ibidResolved": true,
+      "column": "600b",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB.",
+      "column": "600c",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB. in lib. Reg., tom. III.",
+      "column": "600c",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB. ubi supra.",
+      "column": "600c",
+      "chunk": 6
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "RAB. ubi supra.",
+      "antecedentColumn": "600c",
+      "ibidResolved": true,
+      "column": "600d",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB., ibid.",
+      "column": "600d",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB. ubi supra.",
+      "column": "601a",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB.",
+      "column": "601a",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB.",
+      "column": "601a",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB. ubi supra.",
+      "column": "601b",
+      "chunk": 6
+    },
+    {
+      "raw": "ID., ibid.",
+      "antecedent": "RAB. ubi supra.",
+      "antecedentColumn": "601b",
+      "ibidResolved": true,
+      "column": "601b",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB. ubi supra.",
+      "antecedentColumn": "601b",
+      "ibidResolved": true,
+      "column": "601b",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB. ubi supra.",
+      "antecedentColumn": "601b",
+      "ibidResolved": true,
+      "column": "601c",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB. ubi supra.",
+      "antecedentColumn": "601b",
+      "ibidResolved": true,
+      "column": "601c",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB. ubi supra.",
+      "antecedentColumn": "601b",
+      "ibidResolved": true,
+      "column": "601c",
+      "chunk": 6
+    },
+    {
+      "raw": "ISID. in lib. Reg., tom. V.",
+      "column": "601d",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB. ubi supra.",
+      "column": "601d",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "602a",
+      "chunk": 7
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "602a",
+      "ibidResolved": true,
+      "column": "602a",
+      "chunk": 7
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "602a",
+      "ibidResolved": true,
+      "column": "602a",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "602c",
+      "chunk": 7
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "602c",
+      "ibidResolved": true,
+      "column": "602d",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "603a",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "603b",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "603c",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "604a",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "604b",
+      "chunk": 8
+    },
+    {
+      "raw": "GREG.",
+      "column": "604c",
+      "chunk": 8
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "GREG.",
+      "antecedentColumn": "604c",
+      "ibidResolved": true,
+      "column": "604c",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "604c",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB. in lib. Reg., tom. III.",
+      "column": "605c",
+      "chunk": 8
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB. in lib. Reg., tom. III.",
+      "antecedentColumn": "605c",
+      "ibidResolved": true,
+      "column": "605d",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "605d",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "605d",
+      "chunk": 8
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "605d",
+      "ibidResolved": true,
+      "column": "606a",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "606b",
+      "chunk": 8
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "606b",
+      "ibidResolved": true,
+      "column": "606b",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "606c",
+      "chunk": 8
+    },
+    {
+      "raw": "ISID.",
+      "column": "606c",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "606c",
+      "chunk": 8
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "606c",
+      "ibidResolved": true,
+      "column": "606c",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "607a",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "607b",
+      "chunk": 9
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "607b",
+      "ibidResolved": true,
+      "column": "607b",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "607c",
+      "chunk": 9
+    },
+    {
+      "raw": "ISID.",
+      "column": "607c",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "607c",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "607d",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "608a",
+      "chunk": 9
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "608a",
+      "ibidResolved": true,
+      "column": "608a",
+      "chunk": 9
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "608a",
+      "ibidResolved": true,
+      "column": "608a",
+      "chunk": 9
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "608a",
+      "ibidResolved": true,
+      "column": "608b",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "608b",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "608c",
+      "chunk": 9
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "608c",
+      "ibidResolved": true,
+      "column": "608c",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "609a",
+      "chunk": 9
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "609a",
+      "ibidResolved": true,
+      "column": "609a",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "609a",
+      "chunk": 10
+    },
+    {
+      "raw": "RAB.",
+      "column": "609c",
+      "chunk": 10
+    },
+    {
+      "raw": "RAB.",
+      "column": "609c",
+      "chunk": 10
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "609c",
+      "ibidResolved": true,
+      "column": "609d",
+      "chunk": 10
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "609c",
+      "ibidResolved": true,
+      "column": "610a",
+      "chunk": 10
+    },
+    {
+      "raw": "RAB.",
+      "column": "610b",
+      "chunk": 10
+    },
+    {
+      "raw": "RAB.",
+      "column": "610c",
+      "chunk": 10
+    }
+  ],
+  "heads": [
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "581a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "581b",
+      "chunk": 0,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "581d",
+      "chunk": 0,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "583b",
+      "chunk": 0,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "584a",
+      "chunk": 1,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "585d",
+      "chunk": 2,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "593a",
+      "chunk": 4,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "599d",
+      "chunk": 6,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "600d",
+      "chunk": 6,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "601d",
+      "chunk": 7,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "603b",
+      "chunk": 7,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "603d",
+      "chunk": 7,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "604a",
+      "chunk": 8,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "604d",
+      "chunk": 8,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "605a",
+      "chunk": 8,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "605c",
+      "chunk": 8,
+      "en": "CHAPTER XVI."
+    },
+    {
+      "la": "CAPUT XVII.",
+      "column": "606b",
+      "chunk": 8,
+      "en": "CHAPTER XVII."
+    },
+    {
+      "la": "CAPUT XVIII.",
+      "column": "607a",
+      "chunk": 9,
+      "en": "CHAPTER XVIII."
+    },
+    {
+      "la": "CAPUT XIX.",
+      "column": "607d",
+      "chunk": 9,
+      "en": "CHAPTER XIX."
+    },
+    {
+      "la": "CAPUT XX.",
+      "column": "609a",
+      "chunk": 10,
+      "en": "CHAPTER XX."
+    },
+    {
+      "la": "CAPUT XXI.",
+      "column": "610b",
+      "chunk": 10,
+      "en": "CHAPTER XXI."
+    },
+    {
+      "la": "CAPUT XXII.",
+      "column": "610b",
+      "chunk": 10,
+      "en": "CHAPTER XXII."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

@@ -1,6 +1,125 @@
+# *Glossa ordinaria*, **Liber III Regum** (PL 113, cols 0581A–0610D) — cruces
+
+Anselm of Laon and his school, on the third book of Kings. Translated 2026-08-25 by two
+translators working in parallel — **chunks 0000–0005** (cols 0581A–0599D, 7,348 Latin words) and
+**chunks 0006–0010** (cols 0600A–0610D, 4,270 words) — and merged here. 11 chunks, 11,618 Latin
+words. `verify-english.mjs` clean over the whole work.
+
+**Apparatus fired, work-wide: 13 `[var:]` · 1 `[sic:]` · 1 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
+0 `[nt:]` · 0 `[cn:]`.** Column anchors and `[n:]` notes at exact parity throughout; zero
+em-dashes in the English; **question-mark parity exact in every one of the eleven chunks.**
+
+Ruth (8968) `cruces.md` §1 governs and was not reopened. Tobit (8970) §1(b) governs the
+abridgment formula: `*usque ad*` → *as far as*, **with no verb ever supplied** to complete a
+resumption tail — which this book needed repeatedly, since three of its sentences assert nothing
+at all once the abridgment has taken their verb, and they are rendered verbless.
+
+---
+
+## §M · THE MERGE — one real drift, repaired; the rest checked and sound
+
+Two translators cannot see each other's work and diverge on terminology without knowing it. So
+the merge is a check, not a concatenation, and **it was made against the English files themselves,
+not against the two stints' vocabulary tables** — a table records what a translator believed it
+did.
+
+### ⛔ The drift that was real: a lowercased *Ecclesia*
+
+At **0600C** the second stint rendered Migne's *benedixit omni **E**cclesiae Israel* as "he blessed
+all the **church** of Israel." Its Latin twin capitalizes all four of its `Ecclesia` forms and
+prints no lowercase one anywhere in the chunk. **Repaired to "the Church of Israel".**
+
+⚑ Two things make this worth recording rather than fixing quietly. First, **that stint's own table
+claimed the mirror-the-plate rule as an inherited convention** — it stated the rule correctly and
+then broke it once, which is exactly the failure a merge exists to catch and exactly the failure a
+self-audit cannot. Second, **the site was afterwards read at the plate** (Gallica f300, right
+column band C, for an unrelated citation check) and Migne prints *omni Ecclesiae Israel* with the
+capital. The repair is confirmed from the photograph, not merely from our transcription.
+
+### Checked across the seam and sound, needing no intervention
+
+- **Migne's Solomon-etymology, "the peaceable one"** — carried identically across the seam
+  (0000 and 0005 in the first stint, 0006 and 0007 in the second), including in the four glosses
+  that turn on it.
+- ***doctores* → teachers, never "doctors"**, in both stints, ten occurrences.
+- **The Temple vocabulary**, which is where this book was most at risk. The first stint held cols
+  0586A–0599D — CAPUT VI and VII, Solomon's building account and the densest notes in the book —
+  and fixed the members before translating them: *oraculum* = **oracle**, *tabulatum* =
+  **boarding**, *latera* = **sides**, *humeruli* = **little shoulder-pieces**, and ***anaglypha*
+  left in Latin because the gloss is an etymology of the Greek word** (Migne prints Ἀνάγλυφα and
+  glosses it *Latine dicuntur caelaturae*). Anglicizing that one would have left the gloss
+  explaining nothing — the 11551 failure exactly. The second stint inherited the table and its
+  chapters carry the vocabulary over without divergence.
+- **The clipped-lemma expansion rule**, applied ~20 times in the second stint, which listed **both
+  classes** — expanded and unexpanded — so the split is not misread later as inconsistency. Two
+  lemmata were deliberately NOT expanded (*In sanctum*, *Praebente regi*) because Migne's own
+  lemma diverges there and expanding would be conformation.
+- ***usque ad*, censused per occurrence in both halves and never by rule**: 94 occurrences in the
+  first range of which **14 are not the formula**, 27 in the second of which **2 are not**. The
+  traps were caught, including the lemma *A labio usque ad labium*, where the words are the
+  verse's own.
+
+**Nothing else was rewritten.** A merge that silently edits a translator's chunk destroys the only
+record of what that translator actually read.
+
+---
+
+## §P · SIX MISPRINTED CITATIONS — ALL SIX READ AT THE PLATE, ALL SIX MIGNE'S
+
+The first stint found six citations whose numerals do not match the words they are attached to,
+left every one exactly as printed, and referred them to `data/citation-corrections.json` — the
+right move twice over, since the text keeps what Migne prints and only the *index* is corrected.
+
+**Each was identified from the QUOTED TEXT and never from the numeral**, which is the settled
+discipline, and **each was then read on the second witness** rather than asserted from our file.
+Five crops settled all six, at one HTTP request apiece:
+
+| col | Migne prints | the words are | plate |
+|---|---|---|---|
+| 0589D | *(Psal. CXVIII, 72)* | Ps. 72:28 *adhaerere Deo* | f295 left D — **his** |
+| 0590B | *(Joan. III)* | 1 John 3:2 *videbimus eum sicut est* | f295 right B — **his** |
+| 0592D | *(I Cor. II)* | **III Reg. 6:36** *Aedificavit atrium interius tribus ordinibus* | f296 right C/D — **his** |
+| 0593B | *(II Cor. III)* | 1 Cor. 3:6 *Ego plantavi, Apollo rigavit* | f297 left B — **his** |
+| 0599C | *(II Cor. XV)* | 1 Cor. 15:41 *stella a stella differat in claritate* | f300 left C — **his** |
+| 0599D | *(Joan. XV)* | John 14:2 *In domo Patris mei mansiones multae sunt* | f300 left D — **his** |
+
+⭐ **The 0592D one is the striking case**: it is not a wrong numeral inside a book but a wrong
+BOOK, and not even a wrong Testament — the words are the very verse the gloss is expounding, III
+Reg. 6:36, cited as I Corinthians. **On the facing page Migne cites I Cor. correctly twice** (*I
+Cor. IV*, *Ibid. VI*), so the fault is local to that note and not a compositor losing the thread.
+
+⚑ **And the 0589D one shows why the quoted-text discipline is not pedantry.** Ps. 118 *does* have a
+verse 72. A reader checking the numeral alone would find a real verse there and stop; only the
+words (*Bonum mihi lex oris tui* — not these) show the citation is wrong.
+
+**What was done:** all six printed forms stand verbatim in the text, `refDisplay` keeps them, and
+the index resolves to the true reference with the printed key retained and auditable. **Unparsed
+citations for this work: 0.**
+
+---
+
+## §Q · WHAT THE PLATE ALSO SETTLED, UNASKED
+
+The five crops were fetched for the citations, and read whole — which is the addendum's own advice,
+that the normalization class lives in the neighbouring words rather than the target one. **Three of
+the first stint's declines came back confirmed:**
+
+- **0593C** *usque ad ... **ulla in parte declinemus*** — a negative is plainly wanted (*ne ... ulla
+  in parte declinemus*) and the translator **did not supply it**, judging that the *ne* fell inside
+  what the abridgment elides. The plate prints exactly that, with nothing lost by us.
+- **0599D** *Rivocorulam* — a strange real word, `[sic:]` declined per addendum A. Migne prints it.
+- **0600C** *capere non poterat* standing without its object — his, not ours.
+
+⚑ **All three were declines, and all three were right.** That is the addendum's finding restated
+from the other end: the argument for a marker loses, and the crux is what survives.
+
+---
+
+# PART I — chunks 0000–0005, cols 0581A–0599D
+
 # *Glossa ordinaria*, **Liber III Regum** (PL 113) — cruces, chunks 0000–0005 (cols 0581A–0599D)
 
-Translated 2026-08-25, one translator, 6 chunks (7,417 Latin words body-count), on Opus.
+Translated 2026-08-25, one translator, 6 chunks (7,348 Latin words by the frontmatter counts; 7,417 counting the body as written), on Opus.
 `verify-english.mjs` reports no error on these six files (the run fails only on 0006–0010,
 which are a peer's batch and not yet written). EN/LA ratio 1.43–1.52.
 
@@ -470,7 +589,7 @@ times out of five), so none of these fires anything.
   (Pattern 9), and the form is printed **consistently twice in the same gloss**, which is what a
   spelling looks like and not what a slip looks like. Rendered "little parapets", no marker, no
   crux beyond this line.
-- **0590C · *veniunt denarium*** — an accusative of the goal without *ad*. Rendered "they come to
+- **0590B · *veniunt denarium*** — an accusative of the goal without *ad*. Rendered "they come to
   the denary". Declined, Pattern 9 family.
 - **0594B · *Notandum autem in hac sententia **Paralipomenis**…*** — the book name without a
   preposition. Rendered "in this sentence of Paralipomenon". Declined, same class.
@@ -575,9 +694,9 @@ The dominant defect class. Every "he/she/it/they" in my English that the Latin d
    0591C siglum.
 4. **Punctuation, band by band, never by total (3)** — the six chunks partition into 76 bands, and
    `: ; ? ! « » —` were counted in each band on both sides with the markers stripped. The first run
-   returned **23 mismatched bands**, every one of them a mark **I** had introduced: 19 semicolons
-   where Migne prints a comma, and 4 colons (three dropped, one supplied). All 23 were repaired to
-   the plate. **Second run: zero mismatched bands in all six chunks.** ⚠ Migne prints semicolons
+   returned **23 mismatched bands**, and every mismatch was a mark of mine, not of his: **20
+   semicolons written where Migne prints a comma**, and **5 colons** — three of his restored where I
+   had written a comma, two of mine removed where he prints none. All were repaired to the plate. **Second run: zero mismatched bands in all six chunks.** ⚠ Migne prints semicolons
    himself in this book — 23 of them across my half — so the Tobit exception does not apply and no
    comma→semicolon sweep was attempted; the repairs went the other way, back to his commas.
    Question marks: 4 in chunk 0000, 1 in chunk 0003, 0 elsewhere, matched exactly.
@@ -590,9 +709,9 @@ The dominant defect class. Every "he/she/it/they" in my English that the Latin d
    *qui de suo situ **vel** abstracti sunt* (0585D) had lost its *vel* — "even drawn away" —
    restored; *quia **non nisi** per Evangelium* (0594B) had been softened to "not otherwise than",
    restored to "not except through the Gospel", which carries the exceptive as an exceptive; and
-   *ad* in the split formula at 0589A had been given a plural pronoun that did not construe with the
-   clause it heads (§5.3). It also confirmed the *filii amore* and *non solum … sed et* attachments
-   above, which had been the two I was least sure of.
+   the resumption tail at 0589A had been given "they who" where the clause needs "those who" as
+   the subject of *perfruuntur* (§5.3). It also confirmed the *filii amore* and *non solum … sed et*
+   attachments above, which had been the two I was least sure of.
 6. **Em-dashes: zero** in all six English chunks.
 
 ---
@@ -614,6 +733,461 @@ The dominant defect class. Every "he/she/it/they" in my English that the Latin d
   adjudicate rather than split the difference.
 - **Recurring names checked against I and II Regum (8952, 8953) and kept:** Solomon, David,
   Bethsabee, Adonias, Hiram, Nathan, Sadoc, Joab, Semei, Libanus, Gabaon, Jerusalem, Israel,
-  Sion. Two conventions carried without change: Migne's *Hierusalem*/*Jerusalem* variance is kept
-  per site (my half prints only *Jerusalem*), and *noster pacificus* / *verus Salomon* render as
+  Sion. Two conventions carried without change: Migne's *Hierusalem*/*Jerusalem* variance is kept per site
+  (my half prints the name once only, at 0581C, and prints it *Jerusalem*), and *noster pacificus* / *verus Salomon* render as
   "our peaceable one" / "the true Solomon", as 8953 has them.
+
+---
+
+# PART II — chunks 0006–0010, cols 0600A–0610D
+
+# *Glossa ordinaria*, **Liber III Regum** (PL 113) — cruces for chunks 0006–0010 (cols 0600A–0610D)
+
+Translated 2026-08-25, one translator, 5 chunks (4,270 Latin words), cols **0600A–0610D**
+(III Reg. 8:6 – 22:19). `verify-english.mjs` clean across all 11 chunks of the work.
+Apparatus fired in this range: **1 `[sic:]` · 1 `[cj:]` · 7 `[var:]` · 0 `[d:]` · 0 `[ed:]` ·
+0 `[nt:]` · 83 `[n:]`** (exact parity with the Latin twins). Zero guillemets, zero em-dashes,
+zero `[cn:]` (this volume's plate apparatus is a checked zero — see the Ruth pilot, §5).
+
+⚠ **Chunks 0000–0005 are a peer's stint and are not covered here.** Where a rendering of theirs
+governs mine it is named below (§0).
+
+---
+
+## §0 · CONVENTIONS INHERITED, AND THE ONE I HAD TO STATE
+
+### 0.1 Followed from the peer's 0000–0005, not re-derived
+
+- **`*usque ad*` → `*as far as*`**, italics kept as one span. 25 occurrences in my range.
+- ***Pacificus noster* → "our peaceable one"**, lowercase — the peer's §0 traces it to 8953, and
+  I carry it at 0601A, 0601B (twice) and 0602B. **Not** "our Peacemaker" — 8958 uses "peacemaker"
+  for *pacificus* in the Beatitude sense and that is a different word doing a different job.
+- **Chapter heads**: `CAPUT VIII.` → `CHAPTER VIII.`, roman numeral kept, per the peer's §0 and
+  Ruth's shipped English. My range runs CHAPTER VIII to CHAPTER XXII with no `(cont.)`.
+- **Migne's own name-spellings ride as printed.** The peer records that their half prints
+  *Jerusalem*; my 0602B lemma of Isa. 62:6 prints ***Hierusalem*** and is rendered "Hierusalem",
+  while the gloss prose at 0603B–C prints *Jerosolymis* / *Jerusalem* and is rendered "Jerusalem".
+  Three spellings in one work is what he set, and the English does not level them.
+- **`In Paralipomenis` → "in Paralipomenon"** (peer, five times). *Verba/Verbis Dierum* is a
+  separate thing and is rendered literally, **"the Words of the Days"** (0600D), after 8951's
+  ruling at 0700A — Migne prints two names for the book and the English keeps two.
+- **Names take the Latinate/Douay forms already standing in 8952 and 8953**: Elias, Eliseus,
+  Josue, Jeroboam, Naboth, Nathan, Esdras, Juda, Abdias, Nicodemus, Caiphas. Extended here, with
+  no divergence, to **Jezabel, Achab, Abia, Roboam, Baasa, Sesac, Micheas, Semer, Thersa, Emath,
+  Ophir, Amorrhites**. The one place I departed from Migne's own spelling is *Michaeas* →
+  **Micheas** (0610B, twice), the received English form of the name; recorded here so it is not
+  read as a slip.
+
+### 0.2 The expansion rule I used for clipped lemmata, stated because I applied it ~20 times
+
+Convention 3 (a fragment is rendered as the phrase it stands for) does most of the work in this
+range, which is the abridgment at its densest. The rule I held to, and it has a boundary:
+
+> **A clipped lemma is completed to the smallest phrase from the glossed verse that stands as
+> English on its own.** A lemma that is grammatically complete as printed is rendered as it
+> stands, however short. **And words are supplied from the verse ONLY where Migne's own lemma
+> does not itself diverge from the Clementine there** — where it diverges, the printed words
+> alone are rendered, because expanding would be conformation, which is the thing forbidden.
+
+- **Expanded** (clipping leaves a dangling verb, conjunction, subject or governed word):
+  *Cumque.* → "And when the staves stood out." · *Subter alas.* → "Under the wings of the
+  cherubim." · *In die.* → "In that day." · *Ab introitu.* → "From the entrance of Emath." ·
+  *Universum.* → "The whole people." · *De filiis.* → "Of the children of Israel." · *Ligna.* →
+  "Wood." · *Ducenta.* → "Two hundred shields." · *Et duodecim.* → "And twelve little lions." ·
+  *Rex autem.* → "And king Solomon." (both at 10:13 and at 11:1) · *Erat autem.* → "Now Jeroboam
+  was a valiant man." · *Tolle tibi.* → "Take thee ten pieces." · *Venit autem. Durissimum.* →
+  "And Roboam came. A most hard yoke." · *Fecit duos.* → "He made two calves of gold." · *Ecce
+  vir.* → "Behold a man of God." · *Sepelite,* etc. → "Bury me," etc. · *Aedificavit Hiel.* →
+  "Hiel built." · *Apprehendite.* → "Take the prophets of Baal." · *Multae pluviae.* → "Of a
+  great rain." · *Et ecce angelus Domini tetigit.* → "And behold an angel of the Lord touched
+  him." · *Fecitque.* → "And he made a trench." · *Erit anima.* → "Thy life shall be for his
+  life." · *Et furibundus.* → "And in a rage he came into Samaria." · *Haec faciant mihi.* →
+  "These things may the gods do to me." · *Tulitque Elias.* → "And Elias took the child."
+- **Left as printed** (complete English as it stands): *In arca.* "In the ark." · *Stetit.* "He
+  stood." · *Et benedixit.* "And he blessed." · *Altare.* "The altar." · *Festivitatem.* "A
+  festival." · *Laetantes.* "Rejoicing." · *Aedificavit.* "He built." · *Et Palmiram.* "And
+  Palmira." · *Quinquaginta.* "Fifty." · *Classem.* "A fleet." · *In Ophir.* "In Ophir." ·
+  *Cantoribus.* "For the singers." · *Saltus Libani.* "The forest of Libanus." · *Thronum de
+  ebore.* "A throne of ivory." · *Voraginem.* "The gulf." · *Dies autem.* "Now the days." ·
+  *Adolescentes.* "The young men." · *Scorpionibus.* "With scorpions." · *Ad Roboam.* "To
+  Roboam." · *Prophetes.* "A prophet." · *Haec dicit Dominus.* "Thus saith the Lord." · *Ecce.*
+  "Behold." · *Qui mortuus fuerit.* "He that shall die." · *In Abiram.* "In Abiram." · *Et
+  dixit.* "And he said." · *Abscondere.* "Hide thyself." · *In torrente Carith.* "By the torrent
+  of Carith." · *Mulier.* "A woman." · *Abdias autem*. "And Abdias." · *Curavit altare.* "He
+  repaired the altar." · *Et spiritus.* "And a wind." · *Non in spiritu.* "Not in the wind." ·
+  *Quicunque.* "Whosoever." · *Profectus.* "He departed." · *Secutus.* "He followed." · *Fugit
+  quoque.* "And he fled." · *Abiit ergo.* "He went therefore." · *Post verba,* etc. "After the
+  words," etc. · *Naboth.* "Naboth."
+- **NOT expanded, because Migne's lemma diverges there**: ***In sanctum*** (0600A) and
+  ***Praebente regi*** (0601A) — see §2.1 and §2.2.
+
+⚑ Per the standing ruling, the split between these two lists is **class, not inconsistency**: the
+first list is clipped mid-phrase, the second is complete. Do not contrast them.
+
+### 0.3 `usque ad` — 27 occurrences, and **two of them are not the formula**
+
+Decided per occurrence, from what stands either side, as the brief requires.
+
+- **0600A**, inside the scripture quotation *Fuit itaque arca ibi **usque ad** praesentem diem:* —
+  the verse's own words (2 Par. 5:9). Rendered **"until this present day"**, not the formula.
+- **0600A**, in the gloss prose *significante **usque ad** tempora aetatis suae eam ibi
+  permansisse* — ordinary prose. Rendered **"down to the times of his own age"**.
+- The other **25** are the abridgment formula and take *as far as*. One of them, at **0604A**,
+  has the tail INSIDE the italic span (`*usque ad et cujus principes vescuntur in tempore suo.*`)
+  and is carried as one span, `*as far as and whose princes eat in due season.*` — the tail is
+  Eccl. 10:17 verbatim.
+
+---
+
+## §1 · THE DIVERGENCE LIST — every lemma and inline scripture span in 0600A–0610D
+
+⛔ **Checked against `sources/vulgate/clementine-flat.txt`, cited by book chapter:verse. Nothing
+below rests on recollection.** The agreements are listed because a findings-only list cannot be
+told apart from a report by an agent that never looked.
+
+### 1a. `[var: …]` fired — 7 sites, material divergence
+
+| col | Migne prints | Clementine | why material |
+|---|---|---|---|
+| 0600C | *Fecerat Salomon basim aeneam, et posuit in medio basilicae, **super quam stans benedixit omni Ecclesiae Israel*** | 2 Par. 6:13 *posuerat eam in medio basilicae … **stetitque super eam, et deinceps flexis genibus** contra universam multitudinem Israel* | Migne's Solomon **stands and blesses**; the Clementine's **kneels**, and the blessing formula is 3 Reg. 8:55's, not Paralipomenon's. The gloss adduces the verse precisely as what Paralipomenon adds to III Reg., so the added words are the point. |
+| 0602B | *tota die et nocte **non cessabunt laudare nomen Domini*** (Isa. LXII) | Isa. 62:6 *tota die et tota nocte in perpetuum **non tacebunt*** | the gloss turns on **praise** (*laudem … pronuntiare non cessant*); the Clementine's watchmen only do not hold their peace. |
+| 0602B | *lectulum Salomonis **septuaginta** fortes ambiunt* | Cant. 3:7 *En lectulum Salomonis **sexaginta** fortes ambiunt* | a number, in a gloss counting shields and guards. |
+| 0603A | ***Non est in sermone verbum Dei**, sed in virtute **et praedicatione Evangelii*** (I Cor. I) | 1 Cor. 4:20 *Non enim in sermone est **regnum Dei**, sed in virtute* | *verbum* for *regnum* and a whole added clause; the gloss is built on preaching. |
+| 0603C | *unus **Deus**, una fides, unum baptisma* | Eph. 4:5 *Unus **Dominus**, una fides, unum baptisma* | the divine name in a credal triad quoted as a proof-text. |
+| 0605A | *Attamen bellum fuit inter **Abiam** et Jeroboam omni* | 3 Reg. 15:6 *inter **Roboam** et Jeroboam omni tempore vitae ejus* | a different king, and the gloss that follows is entirely about **Abia** fighting Jeroboam. The divergence is what makes the gloss cohere. |
+| 0608C | ***Reliqui** mihi septem millia virorum* | 3 Reg. 19:18 *Et **derelinquam** mihi **in Israel** septem millia virorum* | perfect for future. The gloss requires the perfect (*dum non solum se remansisse cognosceret* — Elias learns what has **already** happened). |
+
+### 1b. Divergences found and DELIBERATELY not marked — crux only
+
+Each of these differs from the Clementine and none changes what the sentence asserts, so
+Pattern 14's "in a way that changes the sense" is not met. Recorded so a later reader knows they
+were seen and weighed.
+
+- **0600A** *Fuit itaque arca ibi **usque ad** praesentem diem* ‖ 2 Par. 5:9 *usque **in**
+  praesentem diem*. Preposition only. (3 Reg. 8:8 also reads *usque in*.)
+- **0601A** *Praebente **regi*** ‖ 3 Reg. 9:11 *praebente **Salomoni***. Same referent, and this
+  is why the lemma was NOT expanded — see §2.2.
+- **0602B** *Quaecunque petieritis Patrem in nomine meo, dabit vobis* ‖ Jo. 16:23 *si quid
+  petieritis Patrem in nomine meo, dabit vobis*, conflated with Jo. 15:16 *ut quodcumque
+  petieritis Patrem in nomine meo, **det** vobis*. A loose conflation; the assertion is identical.
+  Migne prints no citation here, so there is nothing to bind it to one verse.
+- **0606D** *Expedit vobis ut unus moriatur pro populo* ‖ Jo. 11:50 *ut unus moriatur **homo** pro
+  populo*. One word dropped; sense untouched.
+- **0608D** ***Qui** in Christo baptizati estis* ‖ Gal. 3:27 ***Quicumque enim** in Christo
+  baptizati estis*. A clipped opening.
+- **0608D** ***nisi quis** renuntiat omnibus, non potest meus esse discipulus* ‖ Luc. 14:33 *Sic
+  ergo omnis ex vobis, **qui non** renuntiat omnibus **quae possidet**, non potest meus esse
+  discipulus*. Recast from a relative to a conditional; the proposition is the same, and the
+  negation count is unchanged (*nisi … non*).
+- **0610C** *Vidi **universum Israelem** dispersum* ‖ 3 Reg. 22:17 *Vidi **cunctum Israel**
+  dispersum **in montibus***. Synonym plus a declined form of the indeclinable.
+
+### 1c. Checked and found to AGREE with the Clementine, exactly, at their own verse
+
+*In arca* (8:9) · *Nebula implevit domum Domini, et non poterant* (8:10 + 8:11, a lemma spanning
+two verses, not a divergence) · *Stetit* / *Et benedixit* (8:55) · *In die* (8:64) ·
+*Festivitatem* / *Ab introitu* (8:65) · *Laetantes* (8:66) · *Subter alas* (8:6) · *Cumque* /
+*Qui et fuerunt* (8:8) · *Aedificavit* (9:17) · *Et Palmiram* (9:18) · *Universum* (9:20) · *De
+filiis* (9:22) · *Quinquaginta* (9:23, the second word of the Clementine's *quingenti
+quinquaginta*) · *Offerebat quoque* (9:25) · *Classem* (9:26) · *In Ophir* (9:28) · *Videns
+autem* (10:4) · *Verus est sermo* (10:6) · *Beati viri* (10:8, clipped of *tui*) · *Ligna*
+(10:11) · *Cantoribus* (10:12) · *Rex autem* (10:13) · *Ducenta* (10:16) · *Saltus Libani*
+(10:17) · *Thronum de ebore* (10:18) · *Et duodecim* / *Non est factum* (10:20) · *Sed et omnia
+vasa* / *Nec alicujus* (10:21) · *Deferens inde aurum* (10:22) · *Congregavitque Salomon* (10:26)
+· *Invenimus eam in campis sylvae* (Ps. 131:6, *sylvae* for *silvae* is orthography only) ·
+*Multae filiae congregaverunt divitias, tu supergressa es universas* (Prov. 31:29) · *fons aquae
+salientis in vitam aeternam* (Jo. 4:14) · *Rex autem* (11:1) · *Voraginem* (11:27) · *Erat autem*
+(11:28) · *Tolle tibi* (11:31) · *Dies autem* (11:42) · *Venit autem* (12:1) / *Durissimum* (12:4)
+· *Adolescentes* (12:8) · *Scorpionibus* (12:11) · *Ad Roboam* (12:23) · *et cujus principes
+vescuntur in tempore suo* (Eccl. 10:17) · *Fecit duos* (12:28) · *Ecce vir* (13:1) · *Prophetes*
+/ *Omnia opera* (13:11) · *Haec dicit Dominus* (13:21) · *Et leo stabat* (13:24) · *Sepelite*
+(13:31) · *Ascendit Sesac* (14:25) · *Factus est autem sermo* (16:1) · *Prophetas tuos occiderunt*
+(19:10 and 19:14, clipped of *gladio*) · *Ecce* (16:3) · *Qui mortuus fuerit* (16:4) ·
+*Aedificavit Hiel* / *In Abiram* (16:34) · *Et dixit* / *In cujus conspectu* (17:1) · *Converte,
+Domine, captivitatem nostram* (Ps. 125:4, verbatim) · *Abscondere* / *In torrente Carith* (17:3) ·
+*Mulier* (17:10) · *Quid mihi et tibi* (17:18) · *Tulitque Elias* (17:23 — see §2.6 on the verse
+number) · *Nunc in isto cognovi quoniam vir Dei es tu* (17:24) · *Abdias autem* (18:3) · *Curavit
+altare* (18:30) · *Fecitque* (18:32) · *Dominus ipse est Deus* (18:39) · *Apprehendite* (18:40) ·
+*Multae pluviae* (18:41, clipped of *sonus*) · *Timuit ergo Elias et surgens abiit* (19:3) · *Et
+ecce angelus Domini tetigit* (19:5) · *Et ecce ad caput suum* (19:6) · *Et spiritus* / *Non in
+spiritu* (19:11) · *Ego solus* (19:14) · *Quicunque* (19:17) · *Profectus* (19:19) · *Secutus*
+(19:21) · *Haec faciant mihi* (20:10) · *Ne glorietur accinctus* and the full *Ne glorietur
+accinctus aeque ut discinctus* (20:11 — the Clementine prints a comma after *glorietur*, and only
+that) · *Fugit quoque* (20:20) · *Abiit ergo* (20:38) · *Erit anima* (20:39) · *Et furibundus*
+(20:43) · *Post verba* (21:1) · *Vidi Dominum* (22:19) · *Contra spiritualia nequitiae in
+coelestibus* (Eph. 6:12, *coelestibus* for *caelestibus* is orthography only).
+
+The Hebrew-name etymologies — *vivens Deo*, *domus Dei*, *Deus meus Dominus*, *Deus meus*, *Deus
+fortis*, *captivans*, *convertens*, *cognitio*, *concisio*, *divisio* — are Rabanus's onomastica,
+not scripture citations, and no Clementine comparand exists for them. Rendered, italics kept
+1:1, no marker.
+
+---
+
+## §2 · THIS RANGE'S CRUCES
+
+### 2.1 · 0600A · *In sanctum* — the Clementine reads *in Sanctum sanctorum*. NOT expanded.
+
+Migne's lemma at 8:6 prints *In sanctum*; the Clementine prints *in Sanctum sanctorum*. Rendered
+**"Into the holy place."** — the printed words, which stand as English on their own. **Expanding
+to "Into the holy of holies" was considered and rejected**: it would supply from the Vulgate at
+exactly the point where Migne's plate diverges from it, which is conformation, and conformation
+is the failure this range's brief exists to prevent. The gloss's own *sancta sanctorum*, two
+words later, is rendered "the holy of holies" as printed — so the reader sees both forms and can
+see that Migne set them differently.
+
+### 2.2 · 0601A · *Praebente regi* — *regi* where the Clementine has *Salomoni*. NOT expanded.
+
+Rendered **"Furnishing to the king."** For the same reason: the lemma diverges, so no words come
+in from 3 Reg. 9:11. The ablative absolute's subject (Hiram) is not printed and is not supplied.
+Not marked — "the king" and "Solomon" are the same man and the sentence asserts the same thing
+(§1b).
+
+### 2.3 · 0603D · `[sic: *vides*]` — **the one `[sic:]` in this range, and here is the argument**
+
+*qui reddebant regi **per vides** singulis mensibus annonam.* **`per` governs the accusative and
+*vides* is a second-person finite verb.** There is no reading of the printed form that occupies
+the slot: not "thou seest", not any noun. This is Pattern 12's first test — *a form in the wrong
+person or mood cannot be carried by any English* (the 11632 *Pecte* / *ama* / *sternis* ruling,
+2026-08-09) — and it is the one case where the marker is the only honest treatment.
+
+⚑ **The rival, and why it lost.** The obvious conjecture is ***per vices***, "by turns", which
+fits 3 Reg. 4:7's *per singulos enim menses in anno, singuli … ministrabant* exactly. It was
+**not** entered in the text: a conjecture in the running text wears Migne's voice, and *c* → *d*
+is precisely the shape of a Corpus Corporum misread, which would make this **our** defect and not
+his. So the marker records the type and this crux records the conjecture, and neither pretends to
+be the other.
+
+⚠ **Plate read wanted.** If the plate prints *vices*, the fix is `data/tei-patches/8954.json` and
+the `[sic:]` is withdrawn in the same commit. I have no plate access and have not asserted one.
+7a⁗ check: with the marker's contents deleted the clause still has its verb (*reddebant*, "rendered")
+and its object (*annonam*, "the provision") — the quarantine took only the prepositional object.
+
+### 2.4 · 0609B · `[cj: *morte*; read *more*, "after the manner"]` — the one `[cj:]`
+
+*Samaria **morte** civitatum habebat terram interius ipsis muris pene aequalem.* *morte* is a
+perfectly good ablative and renders in place ("by the death of cities"), so `[sic:]` cannot reach
+it — and the English it yields asserts something the passage does not: the sentence is describing
+how Samaria's ground was banked up **after the manner of cities** (*more*) as a support against
+the ram. This is Pattern 18's founding shape exactly. The gloss is **additive**: Migne's word keeps
+its English and the conjecture stands beside it.
+
+### 2.5 · 0605D · *In Thersa regna* — a real word that will not construe. RENDERED AS PRINTED.
+
+Two things are wrong on this line and neither was patched.
+
+1. **The verse number.** Migne prints `VERS. 6.--`, but 3 Reg. 16:6 says only *sepultusque est in
+   Thersa*; the gloss (*Sex annos fecit in Thersa*) expounds **16:23**, *in Thersa regnavit sex
+   annis*, which is Amri, not Baasa. **Migne's ordering and numbering are his and are reproduced
+   as printed** — never renumbered.
+2. **The word.** *regna* is a real, well-formed Latin word (imperative of *regno*, or the plural
+   of *regnum*), and it occupies no slot the sentence has. Under the 2026-08-23 addendum — a real
+   word that reads oddly is Migne's until a plate says otherwise, refuted 5 of 5 — **no marker was
+   fired.** Rendered **"In Thersa reign."**, which is the imperative the letters give. The
+   expected form is *regnavit*, and if a plate read shows it, this is a tei-patch and not an
+   emendation.
+
+⛔ Note this is deliberately treated differently from §2.3: *vides* has **no** slot after a
+preposition; *regna* stands in a bare lemma with no governing structure at all, so "carried
+untranslated" would be a stronger claim than the evidence supports.
+
+### 2.6 · Verse numbers that do not match the verse glossed — all reproduced as printed
+
+- **0605D** `VERS. 6.--` on a gloss of 16:23 (§2.5).
+- **0606D** `VERS. 19.--` on *Tulitque Elias*, which is **17:23** (*Tulitque Elias puerum, et
+  deposuit eum … et tradidit matri suae*); 17:19 has *Tulitque **eum** de sinu ejus*. The gloss
+  ("Elias took the boy and restored him to his mother") follows 17:23. Not renumbered; the lemma
+  is expanded from 17:23, which is the verse it actually opens.
+- **0610B** `VERS. 43.--` *Et furibundus* is 20:43 and is correct; but the gloss attached to it
+  ("Achab commanded the prophet to be kept shut up … confounded by the words of Micheas") is the
+  matter of **22:26–27**, and *Michaeas* does not appear in III Reg. before ch. 22. Likewise
+  **0610A** `VERS. 38.-- *Abiit ergo*` is 20:38, where the prophet is unnamed, and the gloss names
+  Micheas. This is the abridgment folding two chapters together. Reproduced; nothing moved.
+
+### 2.7 · Real words that read oddly, rendered as printed, NO marker — the refuted-class discipline
+
+Each was raised, weighed and left. None is a non-word; per addendum A the corpus argument loses.
+
+- **0600D** ***Rivocorulam*** — "another stream which flows into the sea beside *Rivocorula*". The
+  place is **Rhinocorura**, the town at the Brook of Egypt, and every other spelling in the
+  tradition is closer to that. Migne's form is well-formed as a Latin proper name and is
+  transliterated as printed.
+- **0600C** *Quid est quod Salomon **aedificavit** medium atrii* — 3 Reg. 8:64 has
+  ***sanctificavit** rex medium atrii*, and Migne's own next paragraph reads *medium atrii sub
+  divo **sanctificavit***. This is gloss prose, not a quoted lemma, so Pattern 14 does not reach
+  it. Rendered "built".
+- **0604B** ***Gaddo*** for the seer's name (2 Par. 12:15 *Addo*). Rendered as printed.
+- **0607B** *Abdias **princeps exercitus Israel*** — 3 Reg. 18:3 makes him *dispensatorem domus
+  suae*, the steward. Gloss prose; rendered as printed.
+- **0608D** *Elias enim interpretatur **Dominus Deus*** — the same work interprets Elias as *Deus
+  meus Dominus* at 0606B. **The work contradicts itself two columns apart and both stand**; that
+  is a fact about this recension, and harmonizing them inside the English would conceal it.
+- **0609B** *ducenta millia et triginta duo* — 3 Reg. 20:15 counts *ducentorum triginta duorum*,
+  232. Rendered **"two hundred thousand and thirty-two"**, the printed words, not 232.
+- **0610A** *Si prosperitate concessa Deo gratiae **agentur*** — future passive where *agantur*
+  is wanted. Real form, real slot; rendered "thanks shall be rendered to God".
+- **0610C** *Si Dominus est, inquit eis, **in Deum*** — will not construe (*vobis in Deum*, "God
+  to you", is the obvious want). Rendered literally, "If the Lord is, saith he to them, for God".
+  No conjecture entered.
+- **0610D** *voluntas electorum spirituum divinae **deseruit** potestati* — the **dative**
+  *potestati* settles it: *desero* takes the accusative, so the verb is *deservio*, "is subject
+  to". Rendered "has been devoted to the divine power", keeping the perfect against the parallel
+  present *obtemperat*. This is a reading, not a repair, and it is decided by the case ending.
+
+### 2.8 · Grammatical mismatches with no English exponent — Pattern 9 family, no marker
+
+- **0601B** *palma, quae Graece **vocantur** Palmira* — singular noun, plural verb. English
+  carries it visibly ("the palm, which in Greek are called Palmira") and nothing is concealed.
+- **0601A/0600D** *Qui non fuerat de filiis Israel, fecit Pacificus noster **tributarios*** —
+  singular relative, plural predicate. Carried: "He who had not been … made tributaries."
+- **0603D** *quare **vitulus** fecerit* — nominative singular where the object of *fecerit* is
+  wanted, and against the lemma's own *Fecit **duos***. **Marker considered and declined.** English
+  nouns have no case exponent, so this sits with *manum meum* (8715) and the gender class rather
+  than with 11632's number disagreement; and the ship test forbids an unread `[sic:]`. Rendered
+  "Why Jeroboam made a calf".
+- **0608C** *nec **discipulis** ejus Elisaeus unxit* — dative/ablative plural where the nominative
+  singular *discipulus* is wanted. Same treatment: "nor Eliseus his disciple, anointed".
+- **0604B** *sicque regi persuadere **possent**, sicut **fecit*** — plural then singular in one
+  clause. Rendered "they might be able to persuade the king, as he did".
+
+### 2.9 · Sentences that do not construe, rendered as closely as the printed words allow
+
+- **0600A (opening, VERS. 6)** *Illata in sancta sanctorum arca assumptam Christi humanitatem
+  intra velum regiae coelestis inductam.* — **no finite verb at all**; the abridgment has removed
+  the *designat/significat* that *designant* supplies in the sentence before. Rendered as the
+  verbless apposition it is, and **no verb was supplied**: "The ark brought into the holy of
+  holies, the assumed humanity of Christ led within the veil of the heavenly court."
+- **0602A (opening of CAPUT X)** *Haec regina venturam Ecclesiam de gentibus, etc.* — the same
+  shape, an accusative with the verb abridged away. Rendered as apposition, verb not supplied.
+  ⚑ This is the *ferias* trap the brief names: the tail of an abridgment is parsed as strictly as
+  ordinary prose, and a missing verb is reported, not invented.
+- **0600C** *quia illud angustum erat, et **capere non poterat*** — the object (3 Reg. 8:64's
+  *holocaustum, et sacrificium*) is not printed. Rendered "and was not able to contain", with the
+  gap left open rather than filled with a supplied "them".
+- **0605B** *Sed nulla virtus illic est, ubi (**licet** cum multis millibus) **licet** unus pugnat
+  injuste.* — *licet* twice, the second resuming after the parenthesis. **Not marked as
+  dittography**: the two are not an eye-skip of one run, they are a resumption across an
+  interrupting parenthesis, and Pattern 11 wraps only an intrusive copy. Both rendered.
+- **0605B** *quae scilicet apud nos est, **servantes** a principio leges et verum Deum venerantes*
+  — nominative plural participles with no subject to agree with. Carried as loose participles.
+- **0605B** *Nam **quanta** nullo bello refertur caedes fuisse commissa, neque Graecorum, neque
+  Barbarorum, mirabilem perceperunt, Deo conferente, victoriam.* — the *quanta* clause has no
+  main-clause hook. Rendered in the order printed, with both negations on their printed hosts
+  (*nullo bello*, *neque … neque*), and left rough.
+- **0610A** *…alio statim vincere conatur* — **the sentence stops with no terminal mark.** Pattern
+  8: no full stop supplied. The English stops too.
+
+### 2.10 · `VERS. 28--.` at 0601D — the dash and period transposed
+
+Every other verse address in this work prints `VERS. n.--`. This one prints `VERS. 28--.` The
+verse address passes through verbatim under convention 1, so the transposition rides as printed.
+Not a candidate for normalization: Pattern 9's section-label licence covers a translated
+structural head, and this address is not translated at all.
+
+### 2.11 · 0602C · *ferculum* — why "carriage" and not "litter"
+
+*Thronus vel solium … quae in canticis **ferculum** appellatur, **eo quod residentes ferat**, vel
+de loco ad locum circum**fer**at.* The gloss **is** the etymology: *ferculum* from *ferre*. An
+English word sharing no root with "bear/carry" would make the gloss explain nothing (the
+*murenulae* / *stylus* precedent). "Litter" was rejected on exactly that ground; **"carriage"**
+keeps the derivation visible in English — *carriage … carries … carries about* — with no italic
+Latin added, so span parity is untouched.
+
+### 2.12 · 0603D · *divina Scriptura* rendered "divine Scripture"
+
+Pattern 3 lists *divina Scriptura* among the forms promoted to "Holy Scripture". I used **"divine
+Scripture"** instead, which is attested in the shipped corpus (11064) and renders the word Migne
+prints; *sanctae Scripturae* at 0602A **is** rendered "Holy Scripture", so the promotion is
+applied where the Latin says *sancta*. Flagged because it is a deliberate narrowing of a pattern,
+not an oversight.
+
+### 2.13 · Unexpressed subjects supplied — named, with what fixes each
+
+The dominant defect class. Every "he/she/it/they" I supplied that Migne does not print:
+
+- **0600A** *nunc dicitur posuisse* → **Solomon**, from *Salomon addidit* two words earlier.
+- **0600C** *medium atrii sub divo sanctificavit* … *quod fecerat* → **Solomon**, from the lemma
+  *In die* (8:64, *sanctificavit rex*) and from 2 Par. 4:1's twenty-cubit altar.
+- **0600D** *designat* → **the sacred writer**, the subject Rabanus is expounding throughout this
+  block; "he designates".
+- **0600B** *quibus … Dominus de se etiam aperta narravit* → **the priests**, from *sacerdotes*
+  earlier in the same sentence.
+- **0603B–C** *constituit ducibus* → **the king**; *egreditur*, *suadebat* → **Jeroboam**. Both
+  fixed by the named subjects standing in the same sentence.
+- **0604B** *excogitavit* → **the false prophet**; *transgrederetur* → **the man of God**;
+  *illius iram* → **God's**. Fixed by *Iste pseudopropheta* and *virum Dei* in the clause.
+- **0605D** *Sex annos fecit* and *nominavit eam* → **Amri**, the subject of 16:23, which is the
+  verse the gloss expounds (§2.5); rendered "he", not named, because Migne does not name him.
+- **0606A** *restauravit* → **Hiel**, from the lemma *Aedificavit Hiel*; *destructa … anathematizata*
+  agree with **Jericho**, feminine, not with Hiel.
+- **0605D** *ab eo Samaria appellatur* → **from him**, i.e. **Semer**, named in the previous
+  clause — not "from it" (the city), which would make the etymology circular.
+- **0610A** *Si viderint coelestia desiderare* → the accusative subject is unexpressed; supplied
+  as **them**, i.e. the **animas** of the preceding sentence.
+
+⚑ **Where two readings both construe I have said so rather than choosing silently:** at **0601A**
+*quas non potuerunt filii Israel delere* the antecedent of *quas* may be *civitates* or
+*reliquiis* — both are feminine and both construe. Rendered "which the children of Israel could
+not destroy", which keeps the ambiguity that the Latin keeps. 3 Reg. 9:21 has masculine *quos*
+(the sons), so neither Latin reading is the Vulgate's.
+
+---
+
+## §3 · READ CLEAN — sections examined and found sound
+
+- **Negation fidelity.** Every printed negative in the five chunks was located, its **host word**
+  named, and the negative checked to be on that host in the English: 17 in 0006, 15 in 0007, 22
+  in 0008, 16 in 0009, 7 in 0010. **Seven sites fell in test 2a's trigger population** (a negative
+  by a verb with a quantifier or correlative nearby) and each was decided from the sentence's
+  structure, not from what read well:
+  - 0601B *qui **non ancillae** filii sunt, **sed liberae*** → "sons **not of the bondwoman** but
+    of the free", **not** "who are not sons of the bondwoman". The *sed liberae* pivot proves the
+    host is *ancillae*.
+  - 0602B ***Non solum** quod petimus, **imo etiam** …* → "Not only what we ask, but even …"; the
+    *non* is on *solum*, and *largitur* is affirmative.
+  - 0603A *Non in persuasibilibus … verbis consistit, **sed** in ostensione* → the negative is on
+    the phrase, shown by *sed in*.
+  - 0605B *quae **vestrae** sunt impietatis et **non religionis** indicia* → "of your impiety and
+    **not of religion**"; the host is *religionis*, against the *impietatis* contrast.
+  - 0604A *Juvenes Scriptura **non semper** juxta aetatem appellat, **sed** juxta instabilitatem*
+    → "does not always … but according to".
+  - 0606C *quam Dominus **non frumenti, sed verbi** pane pascit* → "feeds **not with the bread of
+    wheat** but of the word"; host *frumenti*.
+  - 0608A/0608C *quibus **non sufficit simplex** pastus, **sed duplex*** and *dum **non solum se**
+    remansisse cognosceret* → both resolved onto the quantifier, not the verb.
+- **Punctuation, band by band.** Colons, semicolons, question marks, exclamation marks and
+  guillemets compared **within each of the 44 column bands** in this range, never by total. Zero
+  mismatched bands at file time. **Three supplied semicolons were caught this
+  way and reverted to Migne's commas** (0600A, 0600C, 0608C); two more were caught while drafting
+  (0605C, 0609A). All **nine** question marks Migne prints are preserved (1 · 2 · 4 · 1 · 1 across
+  the five chunks) and all nine are **direct** questions, so **8b did not fire
+  anywhere in this range** — there is no indirect *Quaeritur* here.
+- **Column anchors.** 44 anchors (8 · 9 · 12 · 8 · 7), verbatim, in order, and each checked against **the word it
+  stands beside in the Latin**, not merely for presence. Two are deliberate mid-construction
+  splits matching Migne: 0601B (*regio eo* | *quod nusquam*) and 0602A (*provocata* | *est*).
+  0601D stands before *aureos* in both twins ("because it has [0601D] golden mountains").
+- **`[sic:]` swallowing test.** Both in-text markers stripped and the sentences read aloud: no
+  stranded article or preposition on punctuation, no doubled mark, verb and object intact in both.
+- **Marker parity.** 83 `[n:]`, same count and order, contents untranslated, Migne's own internal
+  spacing and his lowercase `(Id.)` at 0602B kept as he sets them.
+- **The fourth test.** Every paragraph re-read against its Latin asking only *does it assert what
+  he asserts* — which is what produced §2.9 (three sentences that assert nothing, because the
+  abridgment removed the verb) and §2.11.
+
+## §4 · Candidates rejected, with the reason
+
+- **Pattern 4 `[f:]`** — not applicable. This is a lemma-and-gloss commentary, not a florilegium
+  (runbook false positive 4). No tag was placed.
+- **Column-band arithmetic** — not reported (false positive 1). No text breaks mid-word or
+  mid-construction across any anchor in this range.
+- **Em-dashes** — none used, none reported.
+- **`[nt:]`** — every note in this range is a citation siglum or a locator; none is editorial
+  prose. Zero conversions.
+- **`[ed:]`** — no demonstrated source loss. The brief warns that our archive.org copy of PL 113
+  clips the left margin on some pages; **no word in this range is truncated at a column head**, so
+  nothing was attributed to that cause and nothing was patched.
+- **A `[var:]` on the etymologies** (§1c) — declined: onomastica are not scripture citations.
+- **A `[sic:]` on *vitulus* (0603D) and *discipulis* (0608C)** — declined, §2.8.
+- **A `[sic:]` on *regna* (0605D), *Rivocorulam* (0600D), *agentur* (0610A), *morte* (0609B as a
+  `[sic:]` rather than a `[cj:]`)** — declined; all are real, well-formed words, and addendum A's
+  10-for-10 split says the corpus argument loses against a plate we do not have.
