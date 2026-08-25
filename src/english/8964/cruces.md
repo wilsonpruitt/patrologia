@@ -2238,3 +2238,81 @@ can tell a checked column from an unvisited one.
   Tobit exception — which rested on his printing **zero** in that book's first chunk — does not
   apply and was not invoked. His own count was taken before the question was decided, as the
   brief requires.
+
+---
+
+## §Z · THE BLIND POLARITY READ (step 4a)
+
+Run 2026-08-25 by a reader **fenced from this file**. All 14 chunks read against their Latin twins.
+**Every printed negation was located in the English and checked to be on the same word. Zero
+polarity defects** — the sixth consecutive book of this series where the name of the class proves to
+be something else.
+
+⚑ **Disclosure, made by the reader itself and recorded because it bears on how the report is
+weighed:** a mechanical `grep` for proper-name spellings across the `8964` directory matched inside
+this file and printed a few of its lines. It happened **after** every finding had been formed by
+reading, and the reader said so unprompted. What it incidentally showed — the *de pravatus*
+word-split, and *Absalon / Judas Scarioth / In Hebrun* — **confirmed** finding 1 rather than
+producing it. ⭐ **The leak is also how we learned something genuinely useful: this file claims the Absalon
+conformation was fixed, and at 0637C it was not.** A stint's own record of a repair is not evidence
+the repair reached every site.
+
+### Repaired, four sites
+
+1. ⭐ **0637C — the conformation the translators' own final test missed.** Migne prints *David
+   **Absalonem** filium suum fugerit*; the English printed **Absalom**, the familiar English Bible
+   spelling. The work's *other* occurrence (0662D, *cum **Absalon** de nece David tractavit*) was
+   already correct. **The fix had been applied at one site and not the other** — which is exactly why
+   a blind read is a different check from a self-audit. Repaired.
+2. ⛔⛔ **0648C — the serious one: a relative bound to the wrong antecedent made the saints incarnate.**
+   *quia ad **eum** omnis sanctorum coetus pertinet **qui descendens** de coelis, et **factus** homo …
+   morte **sua** interficiens in infernum **demersit**.* Every one of those participles and verbs is
+   **singular** and belongs to *eum* — Banaias, read as Christ, the subject of the surrounding chain
+   of *Hic*-clauses. The English attached "who" to the nearest noun, *the saints*, and the sentence
+   then **attributes the Incarnation and the harrowing of hell to the company of the saints**, leaving
+   an unresolvable "**his** own death" inside a plural clause. ⚑ **The English was internally
+   incoherent where the Latin is not** — the shape the fourth test exists to catch. Repaired with an
+   em-dash and "he who", the least invasive way to rebind it.
+3. **0643B — an ablative agent moved off its verb, so a sentence about a marriage stopped naming who
+   married her.** *a patre venalis ducta **a Manasse**: qui horreis praeerat cibariis **patri** datis,
+   in conjugium … **suscepta est*** — *ducta* already has its agent in *a patre*, so *a Manasse*
+   governs *suscepta est*. The English gave *ducta* two agents and left *suscepta est* agentless.
+   Second defect in the same sentence: *cibariis **patri** datis* is the girl's father, rendered "his
+   father", pointing the reader at Manasse's. Both repaired.
+4. **0634B — an adjective rebound to make an impossible agreement.** *septem filios et tres filias
+   **praedictas** uxor genuit*: *praedictas* is accusative feminine plural and **cannot** modify
+   *uxor*, a nominative singular. The English moved it to the noun that made the sentence read
+   smoothly ("the aforesaid wife") and dropped it from the noun that carries it. Repaired to "the
+   aforesaid three daughters". Low severity in sense, but a repair with no marker is the class that
+   leaves no trace.
+
+### Migne's own defects — checked, and all carried literally
+
+Reported by the reader as *carried literally*, correctly refusing to call them undocumented, since it
+could not see this file. All are argued above. Among them: the **intrusive** *non* at 0656A (where
+carrying it preserves a self-contradiction that is Jerome's point about scribal corruption); the
+**dropped** negation at 0654D, carried affirmative **with** its `[cj:]`; the 4×72 arithmetic at 0660B;
+*arca* for *area* at 0657C–D, where the gloss's own re-use (*in arca cordis*) shows the reading is
+consistent in Migne rather than a one-off slip; and the 80,000/50,000 gloss at 0657A, carried with
+its `[var:]` and with the direction of *excedit* preserved at 0657C.
+
+### ⬜ TWO THINGS LEFT FOR WILSON, deliberately not acted on
+
+- **The lemma-expansion practice is inconsistent inside this work, and the inconsistency is real even
+  though none of the three expansions is a defect.** *Achar qui.* → "Achar who troubled Israel",
+  *Her pater.* → "Her the father of Lecha", *Iniit autem.* → "And he took counsel" are all
+  **fragments**, which convention 3 licenses. But *Mesraim autem genuit.* (0632A) is the identical
+  shape — transitive verb, object elided, Vulgate continuation available — and stands as "And Mesraim
+  begot." So do *Filii autem.*, *Jectan autem.*, *Sem, Ar.* ⚑ The standing ruling is to **expand the
+  stump rather than contract its twin**, which would mean expanding these; that is a change to a
+  shipping work's lemmata and is Wilson's call, not mine. ⚠ Note the cardinals here are all correct
+  and bare (*Viginti* → "Twenty", *Septuaginta millia virorum* → "Seventy thousand men") — this work
+  did **not** repeat the sister book's numeral confusion.
+- **0646C — a "reads better than its Latin" site the reader flagged and declined to assert.**
+  *Videntes indocti … medicamina lavacrumque baptismi, **ignorantes** in Judaea magistros suos …
+  victos*: the English swaps the two participles' objects. The reader's reason for not calling it a
+  defect is good — the alternative parse is the only one compatible with *majorum ruina turbati* six
+  words later, since men "not knowing" cannot be "troubled by the ruin" — while **Migne's comma
+  slightly favours the other binding.** Genuinely undecided; left as printed.
+
+**Chunks read and found CLEAN: 0002, 0005, 0008, 0009, 0011, 0013.**
