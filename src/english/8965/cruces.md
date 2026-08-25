@@ -1328,3 +1328,86 @@ and **is raised here rather than patched**. Nothing was conjectured into the tex
 three place-name glosses) · CAPUT XXIII (0686A, both entries) · CAPUT XXVII's *Ophel* exposition
 (0688C–D, seven scripture citations, **all seven verbatim in the Clementine**) · CAPUT XXXI and XXXIII
 (0689C–D) · CAPUT XXXV VERS. 1 and VERS. 3 (0690B–C).
+
+---
+
+## §Z · THE BLIND POLARITY READ (step 4a), AND WHAT IT REPAIRED
+
+Run 2026-08-25 by a reader **fenced from this file**, per the runbook: given the cruces first, every
+agent in the 2026-07-28 sweep returned "all already logged" and found nothing new, while blind
+readers on the same works found four live defects. All 11 chunks read against their Latin twins.
+
+⭐⭐ **EVERY PRINTED NEGATION IN THE WORK WAS CORRECT AND CORRECTLY CARRIED. Not one polarity
+defect.** That is now the fifth consecutive book of this series where the name of the class has
+proved to be something else. **The yield was the REFERENT**, and it is worth stating as the finding
+rather than as a list: what English cannot leave implicit and Latin can.
+
+**Repaired, seven sites:**
+
+1. **0672B — the grace of confirmation had become the grace of baptism.** *cum post ablutionem
+   baptismi gratia implentur spirituali*: the genitive *baptismi* belongs to *ablutionem*, and
+   *gratia … spirituali* is the ablative with *implentur*. Our English lifted the genitive off its
+   noun and fused the ablative into it — "filled with the grace of baptism that is spiritual".
+   ⛔ **It collapsed the exact distinction the paragraph exists to draw**, which its own next
+   sentences spell out: *Lavatur … aqua baptismi* against *per impositionem manus episcopi, accipit
+   donum Spiritus sancti*. Now "after the washing of baptism they are filled with spiritual grace."
+2. **0686B — a supplied pronoun made Athalia a man**, in a sentence that names her in its own
+   middle clause: "Not that **he** then had sons … **Athalia** endeavoured … he calls **his** sons".
+   *molita est* is feminine, and the lemma's *ejus* is hers (2 Par 24:7). The lemma itself carried
+   it too, "*And his sons*". Now *And her sons* / she / her.
+3. **0689D — a participle bound to the wrong noun.** *Contra paganos et haereticos pugnantes* became
+   "Against pagans and heretics **who fight**", making the caution owed to a subset of heretics and
+   evaporating the reason for veiling the mysteries — which is why the proof-text is *Nolite sanctum
+   dare canibus*. Now "For those fighting against pagans and heretics".
+4. **0692A–B — agency inverted.** *se subditos convertunt ad impietatem* read as "turn themselves as
+   subjects", which **removes the subjects from a sentence about rulers corrupting them**. Migne's
+   own Hieronymus excerpt six lines later is the control: *praepositorum depravati exemplis cedunt
+   cum ipsis in praedam diaboli*. Rendered "turn those subject to them to impiety" **with a
+   `[cj: *se*; read *sibi*]`** — the printed word construes, so the reading is shown, not smuggled.
+5. **0688A — the wrong man pleased God.** *placuit Deo* sat as a bare "he" immediately after
+   "Zacharias the priest … lived", and its subject is **Ozias** (2 Par 26:5 is the control: Ozias
+   sought the Lord *in diebus Zachariae*). Named.
+6–7. **Two numeral lemmata contracted to what Migne prints** — see §Z2.
+
+### §Z2 · THE LEMMA-EXPANSION FINDING, AND WHY ONLY TWO OF THE FIVE WERE DEFECTS
+
+The reader flagged five lemmata printing longer in English than in the Latin twin, each addition
+exactly the Vulgate continuation, and raised an honest caveat: the words might be **dropped from our
+Latin** rather than added to our English. **Both were settled at the plate** (Gallica
+`bpt6k5505319w`, map `f = (column + 1) / 2`, calibrated against the printed corner numbers):
+**f333 shows a bare *Centum.* and f339 a bare *Ducenti.*** Our Latin is right; the English had grown.
+
+⛔ **But three of the five were not defects at all, and the distinction is the point.** Convention 3
+licenses expanding a **fragment** — a lemma whose governed word is missing — and *Carduus qui,* etc.
+(which carries Migne's own *etc.*), *Obturaverunt cunctos.* and *Ad quam Deus.* are exactly that.
+All three are the second stint's deliberate, stated applications of the rule. **Expanding a fragment
+is not conformation**, and contracting them would have been the real error.
+
+⭐ **What the two numerals actually were is an INTERNAL INCONSISTENCY INSIDE THIS WORK that the merge
+missed.** The second stint ruled explicitly that an English cardinal stands as a substantive, so
+nothing is elided — and rendered *Sexcenta.* "Six hundred.", *Quadraginta.* "Forty.", *Trecenta
+quoque.* "Three hundred also." The first stint expanded *Centum.* to "A hundred and fifty" and
+*Ducenti.* to "Two hundred and fifty." Same work, same class, two rules.
+
+⚑ **And the plate shows why the bare form is the better reading, not merely the faithful one: the
+gloss supplies the figure itself.** Under *Centum.* Migne prints *Qui sunt ter quinquageni*; under
+*Ducenti.*, *Centenarius … Quinquagenarius vero …*. The expanded English pre-empts the gloss's own
+arithmetic and leaves it explaining what the lemma has already said.
+
+### ⚑ One flag from the reader that is NOT a gap — recorded so it is not re-raised
+
+It reported that 0687D's *priusquam* (for *postquam*) and 0680D's *usque **ab*** are carried
+literally with "no crux or marker", leaving a reader in front of a self-contradicting sentence with
+nothing to explain it. **Both are in fact argued in this file** (§E4 and §D), and the work page
+links its cruces. The reader could not know that, **because it was fenced from this file on
+purpose** — which is the fencing working, not failing. ⚠ A blind reader's claim that something is
+undocumented is always about what it could see, and must be checked here before it is believed.
+
+**Rejected candidates are listed in the reader's own terms and were not acted on**: four
+lower-confidence parses (0674B, 0670D, 0673C) where a genitive floats but the sense survives, and
+eight rejected outright with reasons — among them 0672B's subjectless *deliquerat* (Migne's, English
+must supply something and supplied the least committal thing) and both comparatives at 0682A,
+checked for the 11088 reversal and running the right way.
+
+**Chunks read and found CLEAN: 0001, 0004, 0005, 0007.** Named, because a report that lists only
+findings cannot be told apart from a report by a checker that never read.
