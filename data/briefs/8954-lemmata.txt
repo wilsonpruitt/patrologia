@@ -1,0 +1,477 @@
+# 8954 — lemma inventory and Clementine pre-scan
+
+**Liber III Regum** · PL 113 · cols 0581A–0610D · 11 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ Clementine verbatim** = this exact word sequence occurs SOMEWHERE in the Clementine.
+  ⛔ It does **not** mean it occurs at the verse being glossed, and it is **not** clearance.
+  A lemma can match some other verse verbatim and still diverge from its own.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## The inventory
+
+[0581A] VERS. 1.-- *Et rex David senuerat. [n: (HIERON., epist. ad Nepotianum, tom. I.)]*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Hi sunt qui venerunt de calore domus Rechab [n: (I Par. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *Ignem veni mittere in terram [n: (Luc. XII)]*   ✓ Clementine verbatim
+[0581A] *Nonne cor nostrum ardens erat [n: (Ibid., XXIV)]*   ✓ Clementine verbatim
+[0581A] *Cumque operiretur,*   ✓ Clementine verbatim
+[0581A] VERS. 5.-- *Adonias autem.*   ✓ Clementine verbatim
+[0581A] *dominator dominus*   ✓ Clementine verbatim
+[0581A] VERS. 5.-- *Tu quoque.*   ✓ Clementine verbatim
+[0581A] VERS. 19.-- *Venit ergo Bethsabee ad regem.*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 36.-- *Et non egredieris,*   ✓ Clementine verbatim
+[0581A] VERS. 4.-- *Abiit itaque Salomon.*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 14.-- *Si autem ambulaveris in viis meis,*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 17.-- *Ego et mulier.*   ✓ Clementine verbatim
+[0581A] *Peperi apud eam in cubiculo.*   ✓ Clementine verbatim
+[0581A] *Introduxit me rex in cubiculum suum [n: (Cant. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *Introducam te in domum matris meae, et in cubiculum ejus, quae concepit me [n: (Ibid., III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *Mundus ego sum a sanguine justi hujus [n: (Matth. XXVII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *Vere hic erat Filius Dei [n: (Marc. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0582C] *Pater, ignosce illis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0582C] *usque ad*   ✓ Clementine verbatim
+[0582C] VERS. 19.-- *Mortuus.*   — single word, check in place
+[0582C] VERS. 20.-- *Tulit filium.*   ✓ Clementine verbatim
+[0582C] VERS. 21.-- *Quem diligentius intuens,*   ✓ Clementine verbatim
+[0582C] VERS. 24.-- *Dixit ergo.*   ✓ Clementine verbatim
+[0582C] *Ubi posuisti eum [n: (Joan. XX)]*   ✓ Clementine verbatim
+[0582C] *Quis me tetigit [n: (Luc. VIII)]*   ✓ Clementine verbatim
+[0582C] VERS. 25.-- *Dividite.*   — single word, check in place
+[0582C] VERS. 26.-- *Dixit autem.*   ✓ Clementine verbatim
+[0583B] *Ecce ego Paulus dico vobis, quia si legem observatis, Christus vobis nihil proderit [n: (Galat. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0583B] VERS. 22.-- *Cibus Salomonis.*   ✓ Clementine verbatim
+[0583B] VERS. 23.-- *Viginti boves.*   ✓ Clementine verbatim
+[0583B] *Excepta venatione.*   ✓ Clementine verbatim
+[0583B] VERS. 26.-- *Quadraginta,*   — single word, check in place
+[0583B] *Et duodecim.*   ✓ Clementine verbatim
+[0583B] VERS. 28.-- *Hordeum,*   — single word, check in place
+[0583D] VERS. 32.-- *Et fuerunt carmina ejus.*   ✓ Clementine verbatim
+[0583D] *Quinque millia.*   ✓ Clementine verbatim
+[0583D] VERS. 33.-- *Hyssopum.*   — single word, check in place
+[0583D] *usque ad*   ✓ Clementine verbatim
+[0583D] *Et disseruit.*   ✓ Clementine verbatim
+[0583D] *Omnia enim nuda et aperta sunt Christo [n: (Hebr. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 3.-- *Et quia non potuerit aedificare domum,*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0584B] VERS. 6.-- *Praecipe igitur ut praecidant mihi,*   ✓ Clementine verbatim
+[0584B] *usque ad*   ✓ Clementine verbatim
+[0584B] *Scis enim quomodo non est in populo meo vir qui noverit ligna,*   ✓ Clementine verbatim
+[0584B] *usque ad*   ✓ Clementine verbatim
+[0584B] VERS. 10.-- *Itaque Hiram dabat Salomoni ligna cedrina et ligna abiegna, juxta omnem,*   ✓ Clementine verbatim
+[0584C] *Aperi, Libane, portas tuas [n: (Zach. XI)]*   ✓ Clementine verbatim
+[0584C] VERS. 13.-- *Elegitque rex Salomon. [n: (BEDA, ut supra, cap. 3.)]*   ✓ Clementine verbatim
+[0584C] *usque ad*   ✓ Clementine verbatim
+[0584C] *Operarios de omni Israel, et erat indictio triginta millia virorum.*   ✓ Clementine verbatim
+[0584C] VERS. 14.-- *Adoniram erat super hujuscemodi indictionem. [n: (BEDA, ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0584C] *usque ad*   ✓ Clementine verbatim
+[0584C] VERS. 15.-- *Fuerunt itaque Salomoni septuaginta millia eorum, qui onera portabant, et octoginta millia latomorum in monte. [n: (BEDA, ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0584C] *usque ad*   ✓ Clementine verbatim
+[0584C] *Corripite inquietos, consolamini pusillanimes,*   ✓ Clementine verbatim
+[0584C] *Latomorum. [n: (BEDA, ibid.)]*   — single word, check in place
+[0584C] *usque ad*   ✓ Clementine verbatim
+[0585A] VERS. 16.-- *Absque praepositis.*   ✓ Clementine verbatim
+[0585A] *Trium millium.*   ✓ Clementine verbatim
+[0585A] VERS. 17.-- *Praecepitque rex ut tollerent. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0585A] *usque ad*   ✓ Clementine verbatim
+[0585B] *Superaedificati super fundamentum apostolorum et prophetarum [n: (Ephes. II)]*   ✓ Clementine verbatim
+[0585B] *Lapides grandes. [n: (BEDA, ibid., cap. 4.)]*   ✓ Clementine verbatim
+[0585B] *usque ad*   ✓ Clementine verbatim
+[0585B] *Mundemus nos ab omni inquinamento,*   ✓ Clementine verbatim
+[0585B] *In fundamentum templi. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0585C] *usque ad*   ✓ Clementine verbatim
+[0585C] VERS. 18.-- *Porro Giblii praeparaverunt ligna et lapides. [n: (RAB. ex Bed., ibid.)]*   ✓ Clementine verbatim
+[0585C] *usque ad*   ✓ Clementine verbatim
+[0585C] *Ad aedificandum domum. [n: (ID., ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 1.-- *Factum est igitur. [n: (RAB. ex Bed., lib. de Templo Salom., cap. 5.)]*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Anno quarto.*   ✓ Clementine verbatim
+[0581A] *Mense Zio (ipse est mensis). [n: (BEDA, ibidem.)]*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Aedificare coepit. [n: (ID., ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Quae praeparaverat David,*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *Levate oculos vestros et videte regiones, quia albae sunt jam ad messem: et qui metit, mercedem accipit: et congregat fructum in vitam [0586B] aeternam, ut qui seminat simul gaudeat et qui metit [n: (Joan. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *In longitudine,*   ✓ Clementine verbatim
+[0581A] *Viginti cubitos.*   ✓ Clementine verbatim
+[0581A] *In latitudine.*   ✓ Clementine verbatim
+[0586D] *Triginta cubitos.*   ✓ Clementine verbatim
+[0586D] *In altitudine.*   ✓ Clementine verbatim
+[0586D] VERS. 3.-- *Porticus erat,*   ✓ Clementine verbatim
+[0586D] *Porticum vero ante frontem quae tendebatur in longum juxta mensuram latitudinis cubitorum viginti [n: (II Paral. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0586D] *Viginti cubitorum longitudinis, juxta mensuram latitudinis templi. [n: (BEDA, lib. de temp. Salom., c. 6.)]*   ✓ Clementine verbatim
+[0587B] *usque ad*   ✓ Clementine verbatim
+[0587B] VERS. 4.-- *Fenestras obliquas. [n: (ID., ibid., cap. 7.)]*   ✓ Clementine verbatim
+[0587B] VERS. 5.-- *Et aedificavit,*   ✓ Clementine verbatim
+[0587B] *usque ad*   ✓ Clementine verbatim
+[0587B] *Latera. [n: (ID., ibid.)]*   — single word, check in place
+[0587B] *usque ad Latera,*   ⚠ NOT in Clementine verbatim — CHECK
+[0587B] VERS. 6.-- *Trabes autem posuit in domo per circuitum forinsecus. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0587B] *usque ad*   ✓ Clementine verbatim
+[0587B] *Trabes,*   — single word, check in place
+[0587B] *forinsecus.*   — single word, check in place
+[0587B] VERS. 7.-- *Domus autem,*   ✓ Clementine verbatim
+[0587B] *Et malleus et securis.*   ✓ Clementine verbatim
+[0588A] *Noe vir perfectus in generationibus suis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0588A] *Beati immaculati in via,*   ✓ Clementine verbatim
+[0588A] VERS. 8.-- *Ostium lateris. [n: (BEDA, ibid, cap. 8.)]*   ✓ Clementine verbatim
+[0588A] *usque ad*   ✓ Clementine verbatim
+[0588A] *Ascendebant in medium coenaculum et a medio in tertium. Et aedificavit. [n: (BEDA ibid.)]*   ✓ Clementine verbatim
+[0588B] *usque ad*   ✓ Clementine verbatim
+[0588B] VERS. 9.-- *Laquearibus. [n: (BEDA, ibid., cap. 9.)]*   — single word, check in place
+[0588B] *Cedrinis. [n: (ID., ibid.)]*   — single word, check in place
+[0588B] *usque ad*   ✓ Clementine verbatim
+[0588C] VERS. 10.-- *Tabulatum super omnem domum quinque cubitis altitudinis. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0588C] *usque ad in spiritu et virtute Eliae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0588C] VERS. 15.-- *Et aedificavit parietes. [n: (BED., ibid.)]*   ✓ Clementine verbatim
+[0588C] *usque ad*   ✓ Clementine verbatim
+[0588C] *Parietes domus.*   ✓ Clementine verbatim
+[0588C] *A pavimento.*   ✓ Clementine verbatim
+[0588D] *Christi bonus odor sumus Deo [n: (II Cor. II)]*   ✓ Clementine verbatim
+[0588D] *Et texit pavimentum. [n: (BED. ibid.)]*   ✓ Clementine verbatim
+[0588D] *usque ad*   ✓ Clementine verbatim
+[0588D] *Super omnia autem charitatem habentes,*   ⚠ NOT in Clementine verbatim — CHECK
+[0588D] VERS. 16.-- *Aedificavit viginti. [n: (BED., ibid., cap. 10.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0588D] *usque ad*   ✓ Clementine verbatim
+[0588D] VERS. 17.-- *Porro. [n: (ID., ibid.)]*   — single word, check in place
+[0589A] *usque ad*   ✓ Clementine verbatim
+[0589A] *De regionibus congregavit eos. A solis ortu et occasu, ab Aquilone et mari [n: (Psal. CVI)]*   ✓ Clementine verbatim
+[0589A] VERS. 18.-- *Et cedro omnis.*   ✓ Clementine verbatim
+[0589A] *Habens tornaturas. [n: (BEDA, ibid., cap. 11.)]*   ✓ Clementine verbatim
+[0589A] *Caelaturas.*   — single word, check in place
+[0589A] *Omnia cedrinis,*   ✓ Clementine verbatim
+[0589A] *usque*   — single word, check in place
+[0589A] *ad*   — single word, check in place
+[0589A] VERS. 19.-- *Oraculum. [n: (BED., ibid.)]*   — single word, check in place
+[0589A] *usque ad*   ✓ Clementine verbatim
+[0589A] VERS. 20.-- *Porro oraculum.*   ✓ Clementine verbatim
+[0589A] *Sed et altare. [n: (ID., ibid., cap. 12.)]*   ✓ Clementine verbatim
+[0589A] *usque ad*   ✓ Clementine verbatim
+[0589A] VERS. 21.-- *Domum quoque ante oraculum. [n: (BED., ibid.)]*   ✓ Clementine verbatim
+[0589A] *usque ad*   ✓ Clementine verbatim
+[0589A] *Ego diligam eum, et manifestabo ei meipsum.*   ✓ Clementine verbatim
+[0589A] *Venit hora cum jam non in proverbiis loquar vobis,*   ✓ Clementine verbatim
+[0589A] *Clavis aureis. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0589A] *usque ad*   ✓ Clementine verbatim
+[0589D] *Mihi autem adhaerere Deo,*   ✓ Clementine verbatim
+[0581A] VERS. 22.-- *Nihilque erat in templo. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0581A] *usque ad: et quae sursum sunt sapite, non quae super terram [n: (Col. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 23.-- *Cherubim de lignis. [n: (ID., ibid., cap. 13.)]*   ✓ Clementine verbatim
+[0581A] *Olivarum.*   — single word, check in place
+[0581A] *Decem cubitorum. [n: (BEDA ibid.)]*   ✓ Clementine verbatim
+[0581A] *Cum apparuerit, similes ei erimus et [0590B] videbimus eum sicut est [n: (Joan. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 24.-- *Quinque cubitorum. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Ala cherub altera.*   ✓ Clementine verbatim
+[0581A] VERS. 25.-- *Decem quoque cubitorum. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0590C] *[n: (ID., ibid.)] Et opus.*   ✓ Clementine verbatim
+[0590C] *usque ad*   ✓ Clementine verbatim
+[0590C] *usque ad*   ✓ Clementine verbatim
+[0590C] *In medio templi interioris. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0590C] *usque ad*   ✓ Clementine verbatim
+[0590C] VERS. 27.-- *Extendebant autem alas,*   ✓ Clementine verbatim
+[0590C] *usque ad*   ✓ Clementine verbatim
+[0590C] VERS. 28.-- *Texit quoque cherubim.*   ✓ Clementine verbatim
+[0590C] VERS. 29.-- *Sculpsit variis coelaturis. [n: (BEDA, ibid., cap. 14.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0590C] *usque ad*   ✓ Clementine verbatim
+[0590C] *Et palmas. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0590C] *Et picturas varias.*   ✓ Clementine verbatim
+[0590C] *super omnia autem charitatem, quae est vinculum perfectionis [n: (Col. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0591B] *In hoc cognoscent omnes, quia discipuli mei estis, si dilectionem habueritis ad invicem [n: (Joan. XIII)]*   ✓ Clementine verbatim
+[0591B] VERS. 31.-- *Et in ingressu oraculi,*   ✓ Clementine verbatim
+[0591B] *(BEDA, [0591C] ibid., cap. 15.)*   ⚠ NOT in Clementine verbatim — CHECK
+[0591C] *usque ad*   ✓ Clementine verbatim
+[0591C] *Duo ostiola de ligno olivarum. [n: (ID., ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0591C] *Postesque angulorum.*   ✓ Clementine verbatim
+[0591C] VERS. 32.-- *Anaglypha.*   — single word, check in place
+[0591C] *usque ad*   ✓ Clementine verbatim
+[0591C] VERS. 33.-- *Fecitque in introitu.*   ✓ Clementine verbatim
+[0592A] *Postes de lignis. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0592A] *usque ad*   ✓ Clementine verbatim
+[0592A] VERS. 34.-- *Altrinsecus.*   — single word, check in place
+[0592A] *Et utrumque ostium. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0592A] *usque ad*   ✓ Clementine verbatim
+[0592A] *usque ad*   ✓ Clementine verbatim
+[0592A] *Et se invicem.*   ✓ Clementine verbatim
+[0592A] VERS. 35.-- *Et sculpsit cherubim.*   ✓ Clementine verbatim
+[0592A] VERS. 36.-- *Aedificavit atrium. [n: (BEDA ubi supra, cap. 16.)]*   ✓ Clementine verbatim
+[0592A] *usque ad*   ✓ Clementine verbatim
+[0592A] *Aedificavit atrium interius [0592D] tribus ordinibus [n: (I Cor. II)]*   ✓ Clementine verbatim
+[0592A] *Et uno ordine.*   ✓ Clementine verbatim
+[0592A] *Imitatores mei estote sicut et ego Christi [n: (I Cor. IV)]*   ✓ Clementine verbatim
+[0592A] *Nescitis quoniam angelos judicabimus, quanto magis saecularia [n: (Ibid. VI)]*   ✓ Clementine verbatim
+[0593A] VERS. 38.-- *Ipse est mensis. [n: (BEDA ubi supra.)]*   ✓ Clementine verbatim
+[0593A] *usque ad*   ✓ Clementine verbatim
+[0593A] *Domine, ne in furore tuo arguas me, neque in ira tua corripias me Psal. VI)*   ⚠ NOT in Clementine verbatim — CHECK
+[0593A] *Aedificavitque eam.*   ✓ Clementine verbatim
+[0581A] *Domum autem mulieris vi. [n: (BED., lib. de templo Salom., cap. 17.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 14.-- *Fecit omne opus.*   ✓ Clementine verbatim
+[0581A] *Ego plantavi, Apollo rigavit, Dominus autem incrementum dedit [n: (II Cor. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 15.-- *Et finxit. [n: (BED. ubi supra, cap. 18.)]*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Decem,*   — single word, check in place
+[0581A] *Et linea. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0581A] VERS. 16.-- *Duo,*   — single word, check in place
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 17.-- *Septena,*   — single word, check in place
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 18.-- *Et duos.*   ✓ Clementine verbatim
+[0594A] *ambulant de virtute in virtutem [n: (Psal. LXXXIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0594A] *usque ad*   ✓ Clementine verbatim
+[0594A] *Ut tegerent. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0594A] *usque ad*   ✓ Clementine verbatim
+[0594A] *Capitella autem quae erant super capita columnarum,*   ✓ Clementine verbatim
+[0594A] *Malogranatorum.*   — single word, check in place
+[0594A] *usque ad*   ✓ Clementine verbatim
+[0594A] VERS. 19.-- *Quasi,*   — single word, check in place
+[0594A] *usque [0594B] ad*   ✓ Clementine verbatim
+[0594B] *Poenitentiam agite,*   ✓ Clementine verbatim
+[0594B] *In porticu.*   ✓ Clementine verbatim
+[0594B] *Inter vestibulum et altare plorabant;*   ⚠ NOT in Clementine verbatim — CHECK
+[0594B] VERS. 20.-- *Et rursum [n: (BED. ubi supra.)]*   ✓ Clementine verbatim
+[0594B] *usque ad*   ✓ Clementine verbatim
+[0594B] *Malogranatorum. [n: (ID., ibid.)]*   — single word, check in place
+[0594B] *usque ad*   ✓ Clementine verbatim
+[0594C] *Columnam. [n: (ID., ibid.)]*   — single word, check in place
+[0594C] *usque ad*   ✓ Clementine verbatim
+[0594C] *Fecit quoque. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0594C] *usque ad*   ✓ Clementine verbatim
+[0594C] VERS. 23.-- *A labio usque ad labium.*   ✓ Clementine verbatim
+[0594C] *Quinque cubitorum.*   ✓ Clementine verbatim
+[0594C] *Et resticula triginta cubitorum cingebat illud.*   ✓ Clementine verbatim
+[0594C] *Funiculus triplex difficile rumpitur [n: (Eccl. IV)]*   ✓ Clementine verbatim
+[0594C] *Et sculptura.*   ✓ Clementine verbatim
+[0594C] VERS. 25.-- *Duodecim. [n: (BED. ubi supra)]*   — single word, check in place
+[0594C] *Non alligabis os bovi trituranti,*   ✓ Clementine verbatim
+[0594C] *E quibus tres.*   ✓ Clementine verbatim
+[0594C] VERS. 26.-- *Grossitudo. [n: (BED. ubi supra.)]*   — single word, check in place
+[0596B] *Grossitudo.*   — single word, check in place
+[0596B] *Lilii. [n: (ID., ibid.)]*   — single word, check in place
+[0596B] *usque ad*   ✓ Clementine verbatim
+[0596B] *Duo millia batos capiebat et tria millia,*   ⚠ NOT in Clementine verbatim — CHECK
+[0596B] *usque ad*   ✓ Clementine verbatim
+[0596B] *Et fecit. [n: (ID., ibid., cap. 20.)]*   ✓ Clementine verbatim
+[0596B] *usque ad*   ✓ Clementine verbatim
+[0596B] *usque ad*   ✓ Clementine verbatim
+[0596B] *Quatuor cubitorum longitudinis. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0596B] VERS. 28.-- *Et ipsum opus basium.*   ✓ Clementine verbatim
+[0596B] VERS. 29.-- *Inter et coronulas et plectas, leones et boves et cherubim. [n: (ID., ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0597A] *usque ad*   ✓ Clementine verbatim
+[0597A] *Et subter leones.*   ✓ Clementine verbatim
+[0597A] VERS. 30.-- *Et quatuor rotae. [n: (BEDA, ibid.)]*   ✓ Clementine verbatim
+[0597A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Humeruli. [n: (ID., ibid.)]*   — single word, check in place
+[0597B] *Habemus firmiorem propheticum sermonem, cui bene facitis attendentes,*   ⚠ NOT in Clementine verbatim — CHECK
+[0597B] *Initium Evangelii Filii Dei sicut scriptum est in Isaia propheta;*   ⚠ NOT in Clementine verbatim — CHECK
+[0597B] *Hoc autem totum factum est, ut adimpleretur Scriptura prophetarum [n: (Mar. I; Matth. XXVI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0597B] *Contra. [n: (ID., ibid.)]*   — single word, check in place
+[0597C] VERS. 31.-- *Unum cubitum. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0597C] *usque ad*   ✓ Clementine verbatim
+[0597C] *Ex parte enim cognoscimus, et ex parte prophetamus,*   ✓ Clementine verbatim
+[0597C] *Media.*   — single word, check in place
+[0597C] VERS. 37.-- *In hunc modum fecit decem bases, fusura una, et mensura, sculpturaque,*   ✓ Clementine verbatim
+[0597C] VERS. 38.-- *Quadraginta batos capiebat luter unus,*   ✓ Clementine verbatim
+[0597C] *Eratque. [n: (ID., ibid)]*   — single word, check in place
+[0597C] *pariterque habebat unum cubitum et dimidium,*   ✓ Clementine verbatim
+[0597C] *In summitate autem basis erat quaedam rotunditas unius et dimidii cubiti, ita fabrefacta ut luter superimponi posset.*   ⚠ NOT in Clementine verbatim — CHECK
+[0597C] VERS. 39.-- *Et constituit decem bases, quinque ad dexteram partem templi, et quinque ad sinistram. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0597C] *usque ad*   ✓ Clementine verbatim
+[0597C] *Mare autem posuit ad dexteram partem templi,*   ✓ Clementine verbatim
+[0597C] *usque ad*   ✓ Clementine verbatim
+[0597C] VERS. 46.-- *Jordanis fudit ea rex in. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0598C] *usque ad*   ✓ Clementine verbatim
+[0598C] *Argillosa terra. [n: (ID., ibid., cap. 21.)]*   ✓ Clementine verbatim
+[0598C] *usque ad*   ✓ Clementine verbatim
+[0598C] VERS. 48.-- *Fecitque Salomon omnia vasa in domo,*   ✓ Clementine verbatim
+[0598C] *Altare aureum. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0598C] *usque ad*   ✓ Clementine verbatim
+[0598D] *usque ad*   ✓ Clementine verbatim
+[0598D] *Mensam. [n: (ID., ibid.)]*   — single word, check in place
+[0598D] *usque ad*   ✓ Clementine verbatim
+[0598D] *usque ad*   ✓ Clementine verbatim
+[0598D] VERS. 49.-- *Quasi lilii. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0598D] *Lucernas desuper aureas.*   ✓ Clementine verbatim
+[0598D] *Forcipes. [n: (BEDA., ibid.)]*   — single word, check in place
+[0598D] VERS. 50.-- *Hydrias.*   — single word, check in place
+[0598D] *Fuscinulas.*   — single word, check in place
+[0598D] *Domus interioris. [n: (ID., ibid., cap. 22.)]*   ✓ Clementine verbatim
+[0598D] *usque ad*   ✓ Clementine verbatim
+[0599B] VERS. 51.-- *Perfecit omne opus. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0599B] *Et intulit quae sanctificaverat. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0599B] *Reposuitque in thesauris domus Domini. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0599B] *Et una est patria coelestis, quamvis in ea stella a stella differat in claritate [n: (II Cor. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0599D] *In domo Patris mei mansiones multae sunt [n: (Joan. XV)]*   ✓ Clementine verbatim
+[0581A] VERS. 6.-- *In sanctum [n: (BED., lib. de Templo Salom.)]*   ✓ Clementine verbatim
+[0581A] *Subter alas.*   ✓ Clementine verbatim
+[0600A] VERS. 8.-- *Cumque.*   — single word, check in place
+[0600A] *usque ad*   ✓ Clementine verbatim
+[0600A] *Qui et fuerunt.*   ✓ Clementine verbatim
+[0600A] *Fuit itaque arca ibi usque ad praesentem diem:*   ⚠ NOT in Clementine verbatim — CHECK
+[0600A] VERS. 9.-- *In arca.*   ✓ Clementine verbatim
+[0600A] *usque ad*   ✓ Clementine verbatim
+[0600B] VERS. 10.-- *Nebula implevit domum Domini, et non poterant.*   ✓ Clementine verbatim
+[0600B] VERS. 55.-- *Stetit.*   — single word, check in place
+[0600C] *Fecerat Salomon basim aeneam, et posuit in medio basilicae, super quam stans benedixit omni Ecclesiae Israel.*   ⚠ NOT in Clementine verbatim — CHECK
+[0600C] *Et benedixit.*   ✓ Clementine verbatim
+[0600C] *usque ad*   ✓ Clementine verbatim
+[0600C] VERS. 64.-- *In die. [n: (RAB. in lib. Reg., tom. III.)]*   ✓ Clementine verbatim
+[0600C] *usque ad*   ✓ Clementine verbatim
+[0600C] *Altare.*   — single word, check in place
+[0600C] VERS. 65.-- *Festivitatem. [n: (RAB. ubi supra.)]*   — single word, check in place
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] *Ab introitu. [n: (RAB., ibid.)]*   ✓ Clementine verbatim
+[0600D] VERS. 66.-- *Laetantes.*   — single word, check in place
+[0600D] VERS. 11.-- *Praebente regi. [n: (RAB. ubi supra.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] VERS. 17.-- *Aedificavit.*   — single word, check in place
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] VERS. 18.-- *Et Palmiram.*   ✓ Clementine verbatim
+[0600D] VERS. 20.-- *Universum. [n: (RAB. ubi supra.)]*   — single word, check in place
+[0600D] *De filiis. [n: (ID., ibid.)]*   ✓ Clementine verbatim
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] VERS. 23.-- *Quinquaginta.*   — single word, check in place
+[0600D] VERS. 25.-- *Offerebat quoque.*   ✓ Clementine verbatim
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] VERS. 26.-- *Classem.*   — single word, check in place
+[0600D] *usque ad*   ✓ Clementine verbatim
+[0600D] *In Ophir.*   ✓ Clementine verbatim
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 4.-- *Videns autem. [n: (RAB. ubi supra.)]*   ✓ Clementine verbatim
+[0581A] *Verus est sermo,*   ✓ Clementine verbatim
+[0581A] VERS. 8.-- *Beati viri.*   ✓ Clementine verbatim
+[0581A] *Beati viri.*   ✓ Clementine verbatim
+[0581A] VERS. 11.-- *Ligna.*   — single word, check in place
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 12.-- *Cantoribus.*   — single word, check in place
+[0602B] *Super muros tuos, Hierusalem, constitui custodes, tota die et nocte non cessabunt laudare nomen Domini [n: (Isa. LXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0602B] VERS. 13.-- *Rex autem.*   ✓ Clementine verbatim
+[0602B] *Quaecunque petieritis Patrem in nomine meo, dabit vobis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0602B] VERS. 16.-- *Ducenta.*   — single word, check in place
+[0602B] *lectulum Salomonis septuaginta fortes ambiunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[0602C] *usque ad*   ✓ Clementine verbatim
+[0602C] VERS. 17.-- *Saltus Libani.*   ✓ Clementine verbatim
+[0602C] *Invenimus eam in campis sylvae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0602C] VERS. 18.-- *Thronum de ebore.*   ✓ Clementine verbatim
+[0602C] VERS. 20.-- *Et duodecim.*   ✓ Clementine verbatim
+[0602C] *usque ad*   ✓ Clementine verbatim
+[0602C] *Non est factum,*   ✓ Clementine verbatim
+[0602C] *Multae filiae congregaverunt divitias, tu supergressa es universas [n: (Prov. XXXI)]*   ✓ Clementine verbatim
+[0602C] VERS. 21.-- *Sed et omnia vasa,*   ✓ Clementine verbatim
+[0603A] *fons aquae salientis in vitam aeternam [n: (Joan. IV)]*   ✓ Clementine verbatim
+[0603A] *Nec alicujus,*   ✓ Clementine verbatim
+[0603A] *Non est in sermone verbum Dei, sed in virtute et praedicatione Evangelii [n: (I Cor. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0603A] VERS. 22.-- *Deferens inde aurum,*   ✓ Clementine verbatim
+[0603A] *usque ad*   ✓ Clementine verbatim
+[0603A] VERS. 26.-- *Congregavitque Salomon,*   ✓ Clementine verbatim
+[0603A] VERS. 1.-- *Rex autem.*   ✓ Clementine verbatim
+[0603A] *usque ad*   ✓ Clementine verbatim
+[0603A] VERS. 27.-- *Voraginem.*   — single word, check in place
+[0603A] *Erat autem.*   ✓ Clementine verbatim
+[0603A] *Tolle tibi.*   ✓ Clementine verbatim
+[0603A] *usque ad*   ✓ Clementine verbatim
+[0603A] *unus Deus, una fides, unum baptisma.*   ⚠ NOT in Clementine verbatim — CHECK
+[0603A] VERS. 42.-- *Dies autem.*   ✓ Clementine verbatim
+[0603A] *Venit autem. Durissimum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0603A] VERS. 8.-- *Adolescentes.*   — single word, check in place
+[0603A] VERS. 11.-- *Scorpionibus.*   — single word, check in place
+[0603A] VERS. 23.-- *Ad Roboam.*   ✓ Clementine verbatim
+[0603A] *usque ad et cujus principes vescuntur in tempore suo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0603A] VERS. 28.-- *Fecit duos.*   ✓ Clementine verbatim
+[0581A] VERS. 1.-- *Ecce vir.*   ✓ Clementine verbatim
+[0604B] *usque ad*   ✓ Clementine verbatim
+[0604B] VERS. 11.-- *Prophetes.*   — single word, check in place
+[0604B] *Omnia opera,*   ✓ Clementine verbatim
+[0604B] VERS. 21.-- *Haec dicit Dominus.*   ✓ Clementine verbatim
+[0604B] VERS. 24.-- *Et leo stabat,*   ✓ Clementine verbatim
+[0604B] VERS. 31.-- *Sepelite,*   — single word, check in place
+[0604B] VERS. 25.-- *Ascendit Sesac,*   ✓ Clementine verbatim
+[0604B] VERS. 6.-- *Attamen bellum fuit inter Abiam et Jeroboam omni,*   ⚠ NOT in Clementine verbatim — CHECK
+[0604B] VERS. 1.-- *Factus est autem sermo,*   ✓ Clementine verbatim
+[0604B] *Prophetas tuos occiderunt.*   ✓ Clementine verbatim
+[0604B] VERS. 3.-- *Ecce. [n: (RAB. in lib. Reg., tom. III.)]*   — single word, check in place
+[0604B] VERS. 4.-- *Qui mortuus fuerit.*   ✓ Clementine verbatim
+[0604B] *usque ad*   ✓ Clementine verbatim
+[0604B] VERS. 6.-- *In Thersa regna.*   ✓ Clementine verbatim
+[0604B] VERS. 34.-- *Aedificavit Hiel.*   ✓ Clementine verbatim
+[0604B] *vivens Deo;*   ⚠ NOT in Clementine verbatim — CHECK
+[0604B] *domus Dei*   ✓ Clementine verbatim
+[0604B] *In Abiram.*   ✓ Clementine verbatim
+[0604B] VERS. 1.-- *Et dixit.*   ✓ Clementine verbatim
+[0604B] *Deus meus Dominus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0604B] *Deus meus,*   ✓ Clementine verbatim
+[0604B] *Deus fortis,*   ✓ Clementine verbatim
+[0604B] *captivans*   — single word, check in place
+[0604B] *convertens*   — single word, check in place
+[0604B] *Converte,*   — single word, check in place
+[0604B] *captivitatem nostram.*   ✓ Clementine verbatim
+[0604B] *In cujus conspectu.*   ✓ Clementine verbatim
+[0606C] VERS. 3.-- *Abscondere.*   — single word, check in place
+[0606C] *usque ad*   ✓ Clementine verbatim
+[0606C] *In torrente Carith.*   ✓ Clementine verbatim
+[0606C] *cognitio*   — single word, check in place
+[0606C] *concisio*   — single word, check in place
+[0606C] *divisio,*   — single word, check in place
+[0606C] VERS. 10.-- *Mulier.*   — single word, check in place
+[0606C] *usque ad*   ✓ Clementine verbatim
+[0606D] *Quid mihi et tibi,*   ✓ Clementine verbatim
+[0606D] *Expedit vobis ut unus moriatur pro populo, et non tota gens pereat [n: (Joan. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0606D] VERS. 19.-- *Tulitque Elias.*   ✓ Clementine verbatim
+[0606D] *Nunc in isto cognovi quoniam vir Dei es tu.*   ✓ Clementine verbatim
+[0581A] VERS. 3.-- *Abdias autem*   ✓ Clementine verbatim
+[0581A] VERS. 30.-- *Curavit altare.*   ✓ Clementine verbatim
+[0581A] VERS. 32.-- *Fecitque.*   — single word, check in place
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] *Dominus ipse est Deus.*   ✓ Clementine verbatim
+[0607C] VERS. 40.-- *Apprehendite.*   — single word, check in place
+[0607C] VERS. 41.-- *Multae pluviae.*   ✓ Clementine verbatim
+[0607C] VERS. 3.-- *Timuit ergo Elias et surgens abiit,*   ✓ Clementine verbatim
+[0608A] VERS. 5.-- *Et ecce angelus Domini tetigit.*   ✓ Clementine verbatim
+[0608A] VERS. 6.-- *Et ecce ad caput suum,*   ✓ Clementine verbatim
+[0608A] VERS. 11.-- *Et spiritus.*   ✓ Clementine verbatim
+[0608A] *usque ad*   ✓ Clementine verbatim
+[0608A] *Non in spiritu.*   ✓ Clementine verbatim
+[0608A] VERS. 14.-- *Ego solus,*   ✓ Clementine verbatim
+[0608C] *Reliqui mihi septem millia virorum,*   ✓ Clementine verbatim
+[0608C] VERS. 17.-- *Quicunque.*   — single word, check in place
+[0608D] VERS. 19.-- *Profectus.*   — single word, check in place
+[0608D] *Qui in Christo baptizati estis, Christum induistis [n: (Gal. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0608D] *nisi quis renuntiat omnibus, non potest meus esse discipulus [n: (Luc. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0608D] VERS. 21.-- *Secutus.*   — single word, check in place
+[0581A] VERS. 10.-- *Haec faciant mihi.*   ✓ Clementine verbatim
+[0581A] *Ne glorietur accinctus.*   ✓ Clementine verbatim
+[0581A] *Ne glorietur accinctus aeque ut discinctus.*   ✓ Clementine verbatim
+[0581A] VERS. 20.-- *Fugit quoque.*   ✓ Clementine verbatim
+[0581A] VERS. 38.-- *Abiit ergo.*   ✓ Clementine verbatim
+[0581A] VERS. 39.-- *Erit anima.*   ✓ Clementine verbatim
+[0581A] VERS. 43.-- *Et furibundus.*   ✓ Clementine verbatim
+[0581A] *Post verba,*   ✓ Clementine verbatim
+[0581A] *Naboth.*   — single word, check in place
+[0581A] *usque ad*   ✓ Clementine verbatim
+[0581A] VERS. 17.-- *Vidi universum Israelem dispersum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0581A] VERS. 19.-- *Vidi Dominum,*   ✓ Clementine verbatim
+[0610D] *Contra spiritualia nequitiae in coelestibus [n: (Ephes. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+
+## Totals — 446 spans: 318 ✓ · 58 ⚠ · 70 single-word

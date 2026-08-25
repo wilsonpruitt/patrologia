@@ -1,0 +1,1054 @@
+# 8966 — lemma inventory and Clementine pre-scan
+
+**Liber Proverbiorum** · PL 113 · cols 1079C–1116D · 14 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ Clementine verbatim** = this exact word sequence occurs SOMEWHERE in the Clementine.
+  ⛔ It does **not** mean it occurs at the verse being glossed, and it is **not** clearance.
+  A lemma can match some other verse verbatim and still diverge from its own.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## The inventory
+
+[1079C] VERS. 1.-- *Parabolae Salomonis.*   ✓ Clementine verbatim
+[1079C] *misle*   — single word, check in place
+[1079C] *paraemias,*   — single word, check in place
+[1079C] *Haec in proverbiis locutus sum vobis [n: (Joan. VI)]*   ✓ Clementine verbatim
+[1079D] *similitudines;*   — single word, check in place
+[1079D] *Multiplicabitur [1080C] ejus imperium, et regni ejus non erit finis. Super solium David, et super regnum ejus sedebit [n: (Luc. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1080C] *Ad sciendam sapientiam et disciplinam;*   ✓ Clementine verbatim
+[1080C] VERS. 2.-- *Ad intelligenda verba prudentiae.*   ✓ Clementine verbatim
+[1080C] VERS. 5.-- *Audiens sapiens, sapientior.*   ✓ Clementine verbatim
+[1080C] *Audiens sapiens, sapientior.*   ✓ Clementine verbatim
+[1080C] *Et intelligens. [n: (RAB. in Prov., tom V.)]*   ✓ Clementine verbatim
+[1080C] *usque ad*   ✓ Clementine verbatim
+[1080C] VERS. 7.-- *Timor Domini.*   ✓ Clementine verbatim
+[1080C] *usque ad*   ✓ Clementine verbatim
+[1080C] VERS. 8.-- *Audi, fili mi, disciplinam.*   ✓ Clementine verbatim
+[1080C] *usque ad*   ✓ Clementine verbatim
+[1080C] VERS. 9.-- *Addatur gratia.*   ✓ Clementine verbatim
+[1080C] *usque ad*   ✓ Clementine verbatim
+[1080C] *Et torques collo tuo,*   ✓ Clementine verbatim
+[1080C] VERS. 10.-- *Fili mi.*   ✓ Clementine verbatim
+[1080C] VERS. 11.-- *Insidiemur.*   — single word, check in place
+[1080C] *usque ad*   ✓ Clementine verbatim
+[1080C] *Insontem frustra.*   ✓ Clementine verbatim
+[1080C] VERS. 12.-- *Deglutiamus eum, sicut infernus viventem.*   ✓ Clementine verbatim
+[1080C] VERS. 13.-- *Omnem pretiosam substantiam reperiemus.*   ✓ Clementine verbatim
+[1080C] VERS. 14.-- *Sortem mitte nobiscum.*   ✓ Clementine verbatim
+[1080C] VERS. 16.-- *Ad malum currunt.*   ✓ Clementine verbatim
+[1080C] VERS. 17.-- *Frustra.*   — single word, check in place
+[1080C] *usque ad*   ✓ Clementine verbatim
+[1080C] VERS. 20.-- *Sapientia.*   — single word, check in place
+[1080C] *Sapientia,*   — single word, check in place
+[1080C] *foris,*   — single word, check in place
+[1082A] *usque ad*   ✓ Clementine verbatim
+[1082A] *Foris.*   — single word, check in place
+[1082A] *usque ad: in platea vocem ejus.*   ⚠ NOT in Clementine verbatim — CHECK
+[1082A] *In plateis dat vocem suam,*   ✓ Clementine verbatim
+[1082A] *Quae dico vobis in tenebris, dicite in lucem.*   ⚠ NOT in Clementine verbatim — CHECK
+[1082A] VERS. 21.-- *In capite turbarum clàmitat,*   ⚠ NOT in Clementine verbatim — CHECK
+[1082A] *In foribus portarum urbis.*   ✓ Clementine verbatim
+[1082A] *usque ad*   ✓ Clementine verbatim
+[1082A] *Multa turba sacerdotum obediret fidei [n: (Act. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1082A] VERS. 22.-- *Usquequo. Jam*   ⚠ NOT in Clementine verbatim — CHECK
+[1082A] *Parvuli.*   — single word, check in place
+[1082A] *usque ad*   ✓ Clementine verbatim
+[1082A] VERS. 23.-- *Convertimini.*   — single word, check in place
+[1082A] *Ad correctionem.*   ⚠ NOT in Clementine verbatim — CHECK
+[1082A] VERS. 26.-- *Ego quoque.*   ✓ Clementine verbatim
+[1082A] *usque ad*   ✓ Clementine verbatim
+[1082C] VERS. 27.-- *Cum irruerit repentina calamitas.*   ✓ Clementine verbatim
+[1082C] *Videns civitatem flevit super eam [n: (Luc. XIX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1082C] *Quando venerit super vos.*   ✓ Clementine verbatim
+[1082C] *usque ad*   ✓ Clementine verbatim
+[1082C] VERS. 28.-- *Mane consurgent et non invenient me,*   ✓ Clementine verbatim
+[1082C] *Invocabunt.*   — single word, check in place
+[1082C] VERS. 29.-- *Exosam habuerunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[1082C] *Iniquos,*   — single word, check in place
+[1082C] *odio habui, et legem tuam dilexi.*   ✓ Clementine verbatim
+[1082D] VERS. 31.-- *Comedent igitur.*   ✓ Clementine verbatim
+[1082D] *usque ad et bene tibi erit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1082D] *Suisque consiliis saturabuntur.*   ✓ Clementine verbatim
+[1082D] *usque ad*   ✓ Clementine verbatim
+[1082D] VERS. 32.-- *Aversio.*   — single word, check in place
+[1082D] *Ducunt in bonis dies suos, et in puncto ad infernum descendunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[1082D] *Parvulorum.*   — single word, check in place
+[1082D] *usque ad*   ✓ Clementine verbatim
+[1082D] VERS. 33.-- *Qui autem me audierit, absque terrore [1083A] requiescet,*   ✓ Clementine verbatim
+[1083A] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Fili mi.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 2.-- *Audiat sapientiam.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Inclina cor.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Si enim sapientiam invocaveris.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 4.-- *Et sicut thesauros.*   ✓ Clementine verbatim
+[1083B] *usque ad*   ✓ Clementine verbatim
+[1083B] VERS. 5.-- *Tunc intelliges.*   ✓ Clementine verbatim
+[1083B] *usque ad*   ✓ Clementine verbatim
+[1083B] VERS. 6.-- *Quia Dominus dat.*   ✓ Clementine verbatim
+[1083B] *Si enim sapientiam invocaveris,*   ✓ Clementine verbatim
+[1083B] *usque ad*   ✓ Clementine verbatim
+[1083B] *Ex ore.*   ✓ Clementine verbatim
+[1083B] *Ego ex ore Altissimi prodii, primogenita ante omnem creaturam [n: (Isai. LVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1083B] *Os Domini locutum est.*   ✓ Clementine verbatim
+[1083C] VERS. 7.-- *Custodiet.*   — single word, check in place
+[1083C] *simplex et rectus [n: (Job. I)]*   ✓ Clementine verbatim
+[1083C] *simplex,*   — single word, check in place
+[1083C] *et rectus,*   ✓ Clementine verbatim
+[1083C] *simplex,*   — single word, check in place
+[1083C] *rectus,*   — single word, check in place
+[1083C] VERS. 12.-- *A via mala.*   ✓ Clementine verbatim
+[1083C] *Veni nobiscum, insidiemur sanguini, perversa loquitur,*   ⚠ NOT in Clementine verbatim — CHECK
+[1083C] VERS. 13.-- *Qui relinquunt iter.*   ✓ Clementine verbatim
+[1083C] *usque ad*   ✓ Clementine verbatim
+[1083C] VERS. 14.-- *Qui laetantur.*   ✓ Clementine verbatim
+[1083C] *usque ad*   ✓ Clementine verbatim
+[1083C] VERS. 16.-- *Ut eruaris a muliere.*   ✓ Clementine verbatim
+[1083D] *usque ad: et ipsi sunt jacula.*   ⚠ NOT in Clementine verbatim — CHECK
+[1083D] VERS. 17.-- *Et relinquit ducem.*   ✓ Clementine verbatim
+[1083D] *usque ad*   ✓ Clementine verbatim
+[1083D] VERS. 18.-- *Pacti Dei sui,*   ✓ Clementine verbatim
+[1083D] *Inclinata est enim.*   ✓ Clementine verbatim
+[1083D] *usque ad*   ✓ Clementine verbatim
+[1083D] VERS. 19.-- *Ad eam non revertentur. Mortem*   ⚠ NOT in Clementine verbatim — CHECK
+[1083D] *usque ad*   ✓ Clementine verbatim
+[1084A] VERS. 21.-- *Qui enim.*   ✓ Clementine verbatim
+[1084A] *usque ad*   ✓ Clementine verbatim
+[1084A] VERS. 22.-- *Impii.*   — single word, check in place
+[1084A] *usque ad*   ✓ Clementine verbatim
+[1084A] *qui autem me audierit, absque terrore quiescet.*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] *Fili mi, ne.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 2.-- *Pacem,*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 3.-- *Misericordia et veritas.*   ✓ Clementine verbatim
+[1079C] *Circumda eas gutturi tuo.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 4.-- *Et invenies gratiam.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 5.-- *Habe fiduciam in Domino.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Ne sis sapiens.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 7.-- *Time Deum et recede a malo.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 8.-- *Sanitas quippe erit.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 9.-- *Honora Dominum de tua substantia.*   ✓ Clementine verbatim
+[1079C] *Et de primitiis omnium.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 10.-- *Implebuntur horrea tua saturitate. Thesaurizate vobis thesauros in coelo.*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Torcularia redundabunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[1084D] *Ut edatis,*   ✓ Clementine verbatim
+[1084D] VERS. 11.-- *Disciplinam.*   — single word, check in place
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 12.-- *Quem enim diligit Dominus corripit.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] *Ego quos amo, arguo et castigo.*   ✓ Clementine verbatim
+[1084D] VERS. 13.-- *Beatus homo,*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] *Et qui affluit prudentia.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 14.-- *Melior est.*   ✓ Clementine verbatim
+[1084D] *Primi et purissimi.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 16.-- *Longitudo dierum in dextera ejus et in sinistra.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 17.-- *Viae ejus.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 18.-- *Lignum vitae.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 19.-- *Dominus sapientia.*   ✓ Clementine verbatim
+[1084D] *stabilivit coelos [1085B] prudentia,*   ⚠ NOT in Clementine verbatim — CHECK
+[1084D] VERS. 20.-- *Sapientia illius eruperunt abyssi.*   ✓ Clementine verbatim
+[1084D] *usque ad*   ✓ Clementine verbatim
+[1084D] VERS. 21.-- *Fili mi, ne effluant.*   ✓ Clementine verbatim
+[1084D] VERS. 22.-- *Et erit vita animae tuae.*   ✓ Clementine verbatim
+[1084D] *Et gratia faucibus tuis.*   ✓ Clementine verbatim
+[1084D] *usque ad: beatus vir qui sperat in eo.*   ⚠ NOT in Clementine verbatim — CHECK
+[1084D] VERS. 23.-- *Tunc ambulabis fiducialiter.*   ✓ Clementine verbatim
+[1085C] *usque ad*   ✓ Clementine verbatim
+[1085C] *Et pes tuus non impinget.*   ✓ Clementine verbatim
+[1085C] VERS. 24.-- *Si dormieris, non timebis, quiesces, et suavis.*   ✓ Clementine verbatim
+[1085C] *usque ad*   ✓ Clementine verbatim
+[1085C] VERS. 27.-- *Noli prohibere benefacere eum qui.*   ✓ Clementine verbatim
+[1085C] *Noli*   — single word, check in place
+[1085C] *prohibere.*   — single word, check in place
+[1085D] *Ipsi non introistis, et eos qui intrabant, prohibuistis [n: (Luc. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1085D] VERS. 28.-- *Ne dicas amico tuo: Vade et revertere, cras dabo.*   ✓ Clementine verbatim
+[1085D] *Vos amici mei estis, si feceritis [n: (Joan. XV)]*   ✓ Clementine verbatim
+[1085D] VERS. 30.-- *Non contendas adversus hominem.*   ⚠ NOT in Clementine verbatim — CHECK
+[1085D] *Si peccaverit in te frater tuus, increpa illum [n: (Matth. XVIII)]*   ✓ Clementine verbatim
+[1085D] VERS. 32.-- *Quia abominatio Domini est omnis [1086A] illusor.*   ✓ Clementine verbatim
+[1086A] *illusor,*   — single word, check in place
+[1086A] *Et cum simplicibus sermocinatio ejus,*   ✓ Clementine verbatim
+[1086A] *terrena est, animalis, diabolica [n: (Jacob. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1086B] *Abscondisti haec sapientibus et prudentibus, et revelasti ea parvulis [n: (Luc. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1086B] VERS. 33.-- *In domo impii.*   ✓ Clementine verbatim
+[1086B] *Qui benedixit nos in omni benedictione spirituali in coelestibus in Christo, qui in remuneratione audient: Venite, benedicti, [n: (Matth. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1086B] VERS. 34.-- *Illusores.*   — single word, check in place
+[1086B] *Quia [1086C] Deus superbis resistit, humilibus autem dat gratiam [n: (Jacob. IV)]*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Audite, filii.*   ✓ Clementine verbatim
+[1079C] VERS. 3.-- *Nam et ego.*   ✓ Clementine verbatim
+[1079C] *Unigenitus coram matre.*   ✓ Clementine verbatim
+[1079C] *unigenitum coram matre*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] VERS. 4.-- *Suscipiat,*   — single word, check in place
+[1079C] VERS. 5.-- *Posside.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 9.-- *Dabit capiti.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 10.-- *Audi, fili mi.*   ✓ Clementine verbatim
+[1079C] VERS. 11.-- *Per semitas aequitatis.*   ✓ Clementine verbatim
+[1087A] *usque ad*   ✓ Clementine verbatim
+[1087A] VERS. 12.-- *Et currens.*   ✓ Clementine verbatim
+[1087A] VERS. 17.-- *Comedunt panem impietatis.*   ✓ Clementine verbatim
+[1087A] *usque ad*   ✓ Clementine verbatim
+[1087A] VERS. 18.-- *Justorum autem semita.*   ✓ Clementine verbatim
+[1087A] VERS. 19.-- *Via impiorum.*   ✓ Clementine verbatim
+[1087B] *usque ad*   ✓ Clementine verbatim
+[1087B] VERS. 20.-- *Fili mi, ausculta sermones meos.*   ✓ Clementine verbatim
+[1087B] VERS. 23.-- *Omni custodia serva cor tuum.*   ✓ Clementine verbatim
+[1087B] *usque ad*   ✓ Clementine verbatim
+[1087B] VERS. 24.-- *Remove a te.*   ✓ Clementine verbatim
+[1087B] VERS. 25.-- *Et palpebrae.*   ✓ Clementine verbatim
+[1087B] *usque ad*   ✓ Clementine verbatim
+[1087B] VERS. 26.-- *Stabilientur.*   — single word, check in place
+[1087C] *Stabiles estote et immobiles, abundantes in opere Domini semper [n: (I Cor. XV)]*   ✓ Clementine verbatim
+[1087C] VERS. 27.-- *Ne declines.*   ✓ Clementine verbatim
+[1087C] *usque ad*   ✓ Clementine verbatim
+[1087C] *Averte pedem tuum.*   ✓ Clementine verbatim
+[1087D] *Fili mi, attende.*   ✓ Clementine verbatim
+[1087D] *Inclina aurem.*   ✓ Clementine verbatim
+[1087D] VERS. 2.-- *Labia tua.*   ✓ Clementine verbatim
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] VERS. 3.-- *Favus enim.*   ✓ Clementine verbatim
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] *Labia meretricis.*   ✓ Clementine verbatim
+[1087D] *Oleo guttur.*   ✓ Clementine verbatim
+[1087D] VERS. 4.-- *Novissima autem.*   ✓ Clementine verbatim
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] *biceps*   — single word, check in place
+[1087D] *Sed eum timete qui potest animam et corpus perdere in gehennam [n: (Luc. XII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1087D] VERS. 6.-- *Vagi,*   — single word, check in place
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] VERS. 8.-- *Longe fac.*   ✓ Clementine verbatim
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] VERS. 9.-- *Ne des,*   ✓ Clementine verbatim
+[1087D] VERS. 10.-- *Ne forte impleantur extranei.*   ⚠ NOT in Clementine verbatim — CHECK
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] *Et gemas,*   ✓ Clementine verbatim
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] VERS. 12.-- *Cur detestatus.*   ✓ Clementine verbatim
+[1087D] VERS. 14.-- *In medio ecclesiae:*   ✓ Clementine verbatim
+[1087D] *usque ad*   ✓ Clementine verbatim
+[1087D] VERS. 15.-- *Bibe aquam.*   ✓ Clementine verbatim
+[1087D] VERS. 16.-- *Deriventur.*   — single word, check in place
+[1087D] VERS. 17.-- *Habeto,*   — single word, check in place
+[1087D] *Nec sint alieni.*   ✓ Clementine verbatim
+[1087D] *Solus*   — single word, check in place
+[1087D] *aquas possidet,*   ⚠ NOT in Clementine verbatim — CHECK
+[1087D] VERS. 18.-- *Sit vena.*   ✓ Clementine verbatim
+[1088D] *laetare cum ea, cui ab adolescentia,*   ⚠ NOT in Clementine verbatim — CHECK
+[1088D] VERS. 19.-- *Cerva charissima.*   ⚠ NOT in Clementine verbatim — CHECK
+[1088D] *gratissima,*   — single word, check in place
+[1088D] *usque ad,*   ✓ Clementine verbatim
+[1088D] *Amore,*   — single word, check in place
+[1088D] VERS. 21.-- *Respicit Dominus.*   ✓ Clementine verbatim
+[1088D] *usque ad: et nox sicut dies illuminabitur.*   ⚠ NOT in Clementine verbatim — CHECK
+[1088D] VERS. 22.-- *Iniquitates,*   — single word, check in place
+[1088D] *usque ad*   ✓ Clementine verbatim
+[1089A] VERS. 23.-- *Ipse morietur.*   ✓ Clementine verbatim
+[1089A] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Fili mi.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 3.-- *Suscita.*   — single word, check in place
+[1079C] VERS. 4.-- *Ne dederis*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 5.-- *Eruere.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1089B] VERS. 6.-- *Vade ad formicam.*   ✓ Clementine verbatim
+[1089B] *usque ad*   ✓ Clementine verbatim
+[1089B] VERS. 9.-- *Usquequo, piger, dormies, quando.*   ✓ Clementine verbatim
+[1089B] *usque ad*   ✓ Clementine verbatim
+[1089B] *veniet tibi quasi viator.*   ✓ Clementine verbatim
+[1089B] VERS. 11.-- *Egestas, et paupertas.*   ⚠ NOT in Clementine verbatim — CHECK
+[1089B] *usque ad*   ✓ Clementine verbatim
+[1089B] *Si vero impiger.*   ✓ Clementine verbatim
+[1089B] *usque ad*   ✓ Clementine verbatim
+[1089B] VERS. 12.-- *Homo apostata.*   ✓ Clementine verbatim
+[1089B] *usque ad*   ✓ Clementine verbatim
+[1089B] VERS. 16.-- *Sex sunt.*   ✓ Clementine verbatim
+[1089C] *Detestatur anima.*   ✓ Clementine verbatim
+[1089C] *Solemnitates vestras odivit anima mea [n: (Isa. I)]*   ✓ Clementine verbatim
+[1089C] VERS. 17.-- *Oculos,*   — single word, check in place
+[1089C] *usque ad*   ✓ Clementine verbatim
+[1089C] VERS. 20.-- *Conserva, fili.*   ✓ Clementine verbatim
+[1089C] VERS. 21.-- *Liga ea in corde,*   ✓ Clementine verbatim
+[1089C] VERS. 22.-- *Cum ambulaveris.*   ✓ Clementine verbatim
+[1089C] *usque ad: gradiantur tecum mandata Dei, ut te instruant.*   ⚠ NOT in Clementine verbatim — CHECK
+[1089C] *Cum dormieris:*   ✓ Clementine verbatim
+[1089C] VERS. 25.-- *Non concupiscat.*   ✓ Clementine verbatim
+[1089C] VERS. 28.-- *Pretium enim scorti.*   ✓ Clementine verbatim
+[1089C] *usque ad*   ✓ Clementine verbatim
+[1089C] VERS. 29.-- *Nunquid potest homo abscondere ignem.*   ⚠ NOT in Clementine verbatim — CHECK
+[1089C] VERS. 30.-- *Non grandis est culpa.*   ✓ Clementine verbatim
+[1090A] *usque ad*   ✓ Clementine verbatim
+[1090A] VERS. 34.-- *Quia zelus et furor viri non,*   ✓ Clementine verbatim
+[1090A] *usque ad*   ✓ Clementine verbatim
+[1090A] VERS. 1.-- *Fili mi.*   ✓ Clementine verbatim
+[1090A] VERS. 2.-- *Et legem meam.*   ✓ Clementine verbatim
+[1090A] VERS. 4.-- *Dic sapientiae, soror.*   ✓ Clementine verbatim
+[1090B] VERS. 6.-- *De fenestra.*   ✓ Clementine verbatim
+[1090B] *usque ad*   ✓ Clementine verbatim
+[1090B] VERS. 8.-- *Juxta angulum,*   ✓ Clementine verbatim
+[1090B] *prope viam domus illius graditur:*   ✓ Clementine verbatim
+[1090B] VERS. 9.-- *In obscuro advesperascente.*   ✓ Clementine verbatim
+[1090B] VERS. 10.-- *Et ecce mulier occurrit ornatu illi meretricio.*   ⚠ NOT in Clementine verbatim — CHECK
+[1090B] *usque ad*   ✓ Clementine verbatim
+[1090B] VERS. 11.-- *Nec valens in domo.*   ✓ Clementine verbatim
+[1090B] VERS. 13.-- *Apprehensumque deosculatur juvenem,*   ✓ Clementine verbatim
+[1090B] *Et procaci vultu blanditur, dicens:*   ✓ Clementine verbatim
+[1090B] *usque ad*   ✓ Clementine verbatim
+[1090B] *Sed venit hora, ut omnis qui interficit vos,*   ✓ Clementine verbatim
+[1090B] VERS. 16.-- *Intexui funibus lectulum.*   ✓ Clementine verbatim
+[1090B] *usque ad*   ✓ Clementine verbatim
+[1090B] VERS. 17.-- *Aspersi cubile meum.*   ✓ Clementine verbatim
+[1090B] VERS. 18.-- *Veni, inebriemur uberibus.*   ✓ Clementine verbatim
+[1090B] VERS. 20.-- *Sacculum pecuniae secum tulit.*   ✓ Clementine verbatim
+[1090B] VERS. 26.-- *Et fortissimi quique interfecti sunt ab ea.*   ✓ Clementine verbatim
+[1090B] *usque ad*   ✓ Clementine verbatim
+[1090B] VERS. 27.-- *Viae inferi domus ejus, penetrantes.*   ✓ Clementine verbatim
+[1091A] *Portae inferi non praevalebunt adversus eam [n: (Matth. XVI)]*   ✓ Clementine verbatim
+[1091A] *Interiora mortis.*   ✓ Clementine verbatim
+[1091A] VERS. 1.-- *Nunquid non sapientia,*   ⚠ NOT in Clementine verbatim — CHECK
+[1091A] VERS. 2.-- *In summis,*   ✓ Clementine verbatim
+[1091A] *usque ad*   ✓ Clementine verbatim
+[1091A] VERS. 4.-- *O viri, ad vos.*   ✓ Clementine verbatim
+[1091A] VERS. 5.-- *Intelligite, parvuli,*   ✓ Clementine verbatim
+[1091A] *usque ad*   ✓ Clementine verbatim
+[1091A] VERS. 7.-- *Labia mea.*   ✓ Clementine verbatim
+[1091A] *usque ad*   ✓ Clementine verbatim
+[1091A] VERS. 13.-- *Arrogantiam.*   — single word, check in place
+[1091A] *usque ad*   ✓ Clementine verbatim
+[1091A] VERS. 14.-- *Meum est consilium.*   ✓ Clementine verbatim
+[1091A] VERS. 15.-- *Per me reges.*   ✓ Clementine verbatim
+[1091A] *usque ad*   ✓ Clementine verbatim
+[1091A] *Sine me nihil potestis facere [n: (Joan. XV)]*   ✓ Clementine verbatim
+[1091A] VERS. 17.-- *Ego diligentes,*   ✓ Clementine verbatim
+[1091A] *Qui diligit me, diligetur a Patre: et ego diligam eum, et manifestabo ei meipsum [n: (Joan. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1091A] *Mane*   — single word, check in place
+[1091A] *vigilant,*   — single word, check in place
+[1091A] VERS. 18.-- *Mecum sunt divitiae.*   ✓ Clementine verbatim
+[1091A] *usque ad*   ✓ Clementine verbatim
+[1091A] VERS. 22.-- *Dominus possedit me.*   ✓ Clementine verbatim
+[1091D] *Dominus,*   — single word, check in place
+[1091D] *usque ad*   ✓ Clementine verbatim
+[1091D] VERS. 31.-- *Ludens in orbe.*   ✓ Clementine verbatim
+[1091D] VERS. 34.-- *Ad fores.*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Sapientia aedificavit.*   ✓ Clementine verbatim
+[1092A] *usque ad*   ✓ Clementine verbatim
+[1092A] *Columnas septem.*   ✓ Clementine verbatim
+[1092A] *usque ad*   ✓ Clementine verbatim
+[1092A] VERS. 5.-- *Venite, comedite panem meum.*   ✓ Clementine verbatim
+[1092A] *pane*   — single word, check in place
+[1092A] *vino*   — single word, check in place
+[1092A] VERS. 6.-- *Relinquite.*   — single word, check in place
+[1092A] VERS. 7.-- *Qui erudit,*   ✓ Clementine verbatim
+[1092A] *usque ad*   ✓ Clementine verbatim
+[1092A] VERS. 8.-- *Noli arguere.*   ✓ Clementine verbatim
+[1092B] *usque ad*   ✓ Clementine verbatim
+[1092B] VERS. 12.-- *Si sapiens.*   ✓ Clementine verbatim
+[1092B] *sapiens fueris,*   ✓ Clementine verbatim
+[1092B] VERS. 13.-- *Mulier stulta.*   ✓ Clementine verbatim
+[1092B] *mulier stulta,*   ✓ Clementine verbatim
+[1092B] *sedet,*   — single word, check in place
+[1092B] *Mulier,*   — single word, check in place
+[1092B] *usque ad*   ✓ Clementine verbatim
+[1092B] VERS. 16.-- *Qui est parvulus.*   ✓ Clementine verbatim
+[1092B] *usque ad*   ✓ Clementine verbatim
+[1092B] VERS. 17.-- *Aquae furtivae.*   ✓ Clementine verbatim
+[1092B] *usque ad*   ✓ Clementine verbatim
+[1092C] VERS. 18.-- *Et ignoravit quod ibi.*   ✓ Clementine verbatim
+[1092C] *usque ad*   ✓ Clementine verbatim
+[1092C] *Parabolae Salomonis.*   ✓ Clementine verbatim
+[1092C] VERS. 1.-- *Filius sapiens.*   ✓ Clementine verbatim
+[1092C] VERS. 2.-- *Nil proderunt.*   ✓ Clementine verbatim
+[1092C] *usque ad*   ✓ Clementine verbatim
+[1092D] VERS. 3.-- *Non affliget Dominus.*   ✓ Clementine verbatim
+[1092D] *usque ad*   ✓ Clementine verbatim
+[1092D] VERS. 4.-- *Egestatem operata.*   ✓ Clementine verbatim
+[1092D] VERS. 5.-- *Qui congregat.*   ✓ Clementine verbatim
+[1092D] *messis multa est, operarii vero pauci [n: (Matth. IX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1092D] VERS. 6.-- *Os autem impiorum.*   ✓ Clementine verbatim
+[1093A] *os*   — single word, check in place
+[1093A] *iniquitas operuit*   ⚠ NOT in Clementine verbatim — CHECK
+[1093A] VERS. 7.-- *Memoria.*   — single word, check in place
+[1093A] *usque ad*   ✓ Clementine verbatim
+[1093A] VERS. 8.-- *Stultus ceditur labiis,*   ⚠ NOT in Clementine verbatim — CHECK
+[1093A] *mors et vita in manibus linguae [n: (Isa. LXVI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1093A] *Domine, libera animam meam a labiis iniquis [n: (Psal. CXIX)]*   ✓ Clementine verbatim
+[1093A] VERS. 9.-- *Qui ambulat,*   ✓ Clementine verbatim
+[1093A] *usque ad*   ✓ Clementine verbatim
+[1093A] *nihil enim occultum quod non reveletur [n: (Matth. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1093A] VERS. 13.-- *Virga in dorso ejus.*   ✓ Clementine verbatim
+[1093B] *usque ad*   ✓ Clementine verbatim
+[1093B] *Sapientes abscondunt,*   ✓ Clementine verbatim
+[1093B] VERS. 15.-- *Substantia divitis.*   ✓ Clementine verbatim
+[1093B] VERS. 18.-- *Abscondunt scientiam,*   ✓ Clementine verbatim
+[1093B] VERS. 23.-- *Quasi per risum stultus operatur scelus.*   ✓ Clementine verbatim
+[1093B] VERS. 24.-- *Quod timet impius, veniet super.*   ✓ Clementine verbatim
+[1093B] *usque ad*   ✓ Clementine verbatim
+[1093B] VERS. 25.-- *Quasi tempestas.*   ✓ Clementine verbatim
+[1093B] VERS. 26.-- *Sicut acetum dentibus.*   ✓ Clementine verbatim
+[1093B] *usque ad*   ✓ Clementine verbatim
+[1093B] *A nobis exierunt, sed ex nobis non erant [n: (I Joan. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1093D] VERS. 28.-- *Spes autem.*   ✓ Clementine verbatim
+[1093D] *usque ad*   ✓ Clementine verbatim
+[1093D] VERS. 29.-- *Fortitudo simplicis via ejus, et pavor.*   ⚠ NOT in Clementine verbatim — CHECK
+[1093D] *usque ad*   ✓ Clementine verbatim
+[1093D] VERS. 1.-- *Statera dolosa.*   ✓ Clementine verbatim
+[1093D] *usque ad*   ✓ Clementine verbatim
+[1093D] VERS. 2.-- *Ubi fuerit superbia.*   ✓ Clementine verbatim
+[1093D] VERS. 7.-- *Mortuo homine impio.*   ✓ Clementine verbatim
+[1094A] *usque ad*   ✓ Clementine verbatim
+[1094A] *Exspectatio sollicitorum.*   ✓ Clementine verbatim
+[1094A] VERS. 9.-- *Simulator.*   — single word, check in place
+[1094A] VERS. 12.-- *Qui despicit,*   ✓ Clementine verbatim
+[1094A] VERS. 14.-- *Ubi non est gubernator, populus corruet, salus autem ubi multa consilia.*   ✓ Clementine verbatim
+[1094A] *usque ad*   ✓ Clementine verbatim
+[1094A] VERS. 15.-- *Affligetur.*   — single word, check in place
+[1094A] *usque ad*   ✓ Clementine verbatim
+[1094A] *Qui autem cavet laqueos securus erit.*   ✓ Clementine verbatim
+[1094A] VERS. 21.-- *Manus in manu.*   ✓ Clementine verbatim
+[1094A] *usque ad*   ✓ Clementine verbatim
+[1094A] *Abominabile Domino cor pravum.*   ✓ Clementine verbatim
+[1094C] VERS. 22.-- *Circulus aureus in naribus,*   ✓ Clementine verbatim
+[1094C] *usque ad*   ✓ Clementine verbatim
+[1094C] VERS. 27.-- *Bene consurgit diluculo qui quaerit bona,*   ✓ Clementine verbatim
+[1094C] VERS. 28.-- *Justi autem quasi,*   ✓ Clementine verbatim
+[1094D] VERS. 29.-- *Qui stultus est.*   ✓ Clementine verbatim
+[1094D] VERS. 30.-- *Qui suscipit.*   ✓ Clementine verbatim
+[1094D] *usque ad*   ✓ Clementine verbatim
+[1094D] VERS. 31.-- *Si justus.*   ✓ Clementine verbatim
+[1094D] *usque ad*   ✓ Clementine verbatim
+[1094D] *nosipsos seducimus, et veritas in nobis non est.*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] VERS. 1.-- *Qui bonus est,*   ✓ Clementine verbatim
+[1079C] VERS. 4.-- *Mulier.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 5.-- *Cogitationes.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 7.-- *Verte impios.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 10.-- *Novit,*   — single word, check in place
+[1079C] *Viscera autem impiorum crudelia,*   ✓ Clementine verbatim
+[1079C] *Percutiunt [1095B] pueros et ancillas,*   ⚠ NOT in Clementine verbatim — CHECK
+[1095B] *Moram facit Dominus meus venire.*   ✓ Clementine verbatim
+[1095B] VERS. 12.-- *Desiderium.*   — single word, check in place
+[1095B] *usque ad*   ✓ Clementine verbatim
+[1095B] *Radix autem justorum proficiet,*   ✓ Clementine verbatim
+[1095B] VERS. 16.-- *Fatuus,*   — single word, check in place
+[1095B] *Qui autem dissimulat:*   ✓ Clementine verbatim
+[1095B] VERS. 18.-- *Lingua autem sapientium est sanitas,*   ⚠ NOT in Clementine verbatim — CHECK
+[1095B] VERS. 19.-- *Labium veritatis,*   ✓ Clementine verbatim
+[1095B] VERS. 23.-- *Homo versutus.*   ⚠ NOT in Clementine verbatim — CHECK
+[1095B] *Cor insipientium provocat.*   ✓ Clementine verbatim
+[1095B] VERS. 24.-- *Manus fortium.*   ✓ Clementine verbatim
+[1095B] *Quae autem remissa.*   ✓ Clementine verbatim
+[1095B] *usque ad*   ✓ Clementine verbatim
+[1095B] *moeror justi,*   ⚠ NOT in Clementine verbatim — CHECK
+[1095B] VERS. 25.-- *Maeror in corde,*   ⚠ NOT in Clementine verbatim — CHECK
+[1095B] *Qui negligit damnum,*   ✓ Clementine verbatim
+[1095B] *usque ad*   ✓ Clementine verbatim
+[1096A] VERS. 27.-- *Non inveniet,*   ✓ Clementine verbatim
+[1096A] *usque ad*   ✓ Clementine verbatim
+[1096A] VERS. 1.-- *Filius sapiens.*   ✓ Clementine verbatim
+[1096A] VERS. 4.-- *Vult et non vult piger.*   ✓ Clementine verbatim
+[1096A] *usque ad*   ✓ Clementine verbatim
+[1096A] *Vae peccatori terram duabus viis ingredienti.*   ⚠ NOT in Clementine verbatim — CHECK
+[1096A] *Anima autem operantium*   ✓ Clementine verbatim
+[1096A] *impinguabitur,*   — single word, check in place
+[1096A] *Sicut adipe [n: (Psal. XXVI)]*   ✓ Clementine verbatim
+[1096A] VERS. 7.-- *Est quasi dives,*   ✓ Clementine verbatim
+[1096A] *usque ad*   ✓ Clementine verbatim
+[1096A] VERS. 11.-- *Substantia,*   — single word, check in place
+[1096A] *usque ad*   ✓ Clementine verbatim
+[1096A] VERS. 12.-- *Spes quae differtur,*   ✓ Clementine verbatim
+[1096A] *usque ad*   ✓ Clementine verbatim
+[1096A] *lignum vitae amplectentibus se.*   ⚠ NOT in Clementine verbatim — CHECK
+[1096A] VERS. 13.-- *Qui detrahit.*   ✓ Clementine verbatim
+[1096A] *usque ad*   ✓ Clementine verbatim
+[1096A] *Si praeoccupatus fuerit homo in aliquo delicto,*   ✓ Clementine verbatim
+[1096C] VERS. 14.-- *Lex sapientis.*   ✓ Clementine verbatim
+[1096C] VERS. 16.-- *Cum consilio,*   ✓ Clementine verbatim
+[1096C] VERS. 20.-- *Qui cum sapientibus.*   ✓ Clementine verbatim
+[1096C] *Amicus stultorum.*   ✓ Clementine verbatim
+[1096C] VERS. 22.-- *Bonus homo,*   ✓ Clementine verbatim
+[1096C] *usque ad*   ✓ Clementine verbatim
+[1096C] VERS. 23.-- *Multi cibi.*   ✓ Clementine verbatim
+[1096C] *usque ad*   ✓ Clementine verbatim
+[1096C] VERS. 24.-- *Qui parcit virgae odit filium suum,*   ✓ Clementine verbatim
+[1096C] VERS. 1.-- *Sapiens,*   — single word, check in place
+[1096C] *Destruet*   — single word, check in place
+[1097A] *usque ad*   ✓ Clementine verbatim
+[1097A] VERS. 3.-- *In ore stulti.*   ✓ Clementine verbatim
+[1097A] VERS. 4.-- *Ubi non,*   ✓ Clementine verbatim
+[1097A] *usque ad*   ✓ Clementine verbatim
+[1097A] VERS. 6.-- *Quaerit derisor sapientiam,*   ✓ Clementine verbatim
+[1097A] *usque ad*   ✓ Clementine verbatim
+[1097A] VERS. 7.-- *Vade contra,*   ✓ Clementine verbatim
+[1097A] *usque ad*   ✓ Clementine verbatim
+[1097B] VERS. 10.-- *Extraneus.*   — single word, check in place
+[1097B] *usque ad*   ✓ Clementine verbatim
+[1097B] *Dominus impiorum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1097B] *Sapiens timet et declinat.*   ✓ Clementine verbatim
+[1097B] *usque ad*   ✓ Clementine verbatim
+[1097B] VERS. 17.-- *Impatiens,*   — single word, check in place
+[1097B] *usque ad*   ✓ Clementine verbatim
+[1097B] VERS. 19.-- *Jacebunt mali ante bonos.*   ✓ Clementine verbatim
+[1097B] *usque ad*   ✓ Clementine verbatim
+[1097B] VERS. 24.-- *Fatuitas stultorum.*   ✓ Clementine verbatim
+[1097B] VERS. 25.-- *Liberat animas testis fidelis.*   ✓ Clementine verbatim
+[1097B] *Profert mendacia.*   ✓ Clementine verbatim
+[1097B] *Versipellis,*   — single word, check in place
+[1097B] VERS. 26.-- *In timore Domini.*   ✓ Clementine verbatim
+[1097B] *usque ad*   ✓ Clementine verbatim
+[1097B] VERS. 27.-- *Timor Domini.*   ✓ Clementine verbatim
+[1097B] *usque ad*   ✓ Clementine verbatim
+[1097B] *Initium sapientiae timor Domini [n: (Psal. IX)]*   ✓ Clementine verbatim
+[1097B] VERS. 30.-- *Vita carnium.*   ✓ Clementine verbatim
+[1097B] *Putredo ossium invidia,*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Responsio mollis frangit iram.*   ✓ Clementine verbatim
+[1079C] VERS. 2.-- *Ebullit stultitiam.*   ✓ Clementine verbatim
+[1079C] VERS. 5.-- *Stultus irridet.*   ✓ Clementine verbatim
+[1079C] VERS. 7.-- *Cor stultorum dissimile.*   ✓ Clementine verbatim
+[1079C] *Vultusque ejus non sunt amplius in diversa mutati.*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] VERS. 10.-- *Doctrina mala. Qui solverit unum de mandatis istis minimis, et docuerit sic homines, minimus est in regno coelorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] VERS. 15.-- *Omnes dies.*   ✓ Clementine verbatim
+[1098B] *usque ad*   ✓ Clementine verbatim
+[1098B] VERS. 17.-- *Melius est vocari ad olera.*   ✓ Clementine verbatim
+[1098B] *usque ad, discedite a me operarii iniquitatis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] VERS. 19.-- *Pigrorum,*   — single word, check in place
+[1098B] *usque ad*   ✓ Clementine verbatim
+[1098B] *Via justorum absque offendiculo.*   ✓ Clementine verbatim
+[1098B] VERS. 23.-- *Laetatur homo.*   ✓ Clementine verbatim
+[1098B] VERS. 24.-- *De inferno novissimo,*   ✓ Clementine verbatim
+[1098B] *Descendunt in infernum viventes [n: (Psal. LIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] VERS. 25.-- *Viduae Ecclesiae,*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] VERS. 26.-- *Firmabitur:*   — single word, check in place
+[1098B] VERS. 30.-- *Lux oculorum laetificat animam.*   ✓ Clementine verbatim
+[1098B] *usque ad*   ✓ Clementine verbatim
+[1098B] *Lux oculorum.*   ✓ Clementine verbatim
+[1098B] *Videns bona oculus delectat corda bona,*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] VERS. 1.-- *Hominis est animum praeparare.*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] *Nolite cogitare quomodo, aut quod loquamini: datur enim in illa hora, quid loquamini [n: (Matth. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1098B] VERS. 2.-- *Omnes viae.*   ✓ Clementine verbatim
+[1098B] VERS. 3.-- *Revela Domino.*   ✓ Clementine verbatim
+[1098B] VERS. 4.-- *Universa propter semetipsum,*   ✓ Clementine verbatim
+[1098B] VERS. 5.-- *Abominatio est.*   ✓ Clementine verbatim
+[1098B] VERS. 7.-- *Cum placuerint Domino.*   ✓ Clementine verbatim
+[1098B] *usque ad*   ✓ Clementine verbatim
+[1098B] VERS. 8.-- *Melius est parum cum justitia,*   ✓ Clementine verbatim
+[1098B] VERS. 10.-- *Divinatio in labiis regis.*   ✓ Clementine verbatim
+[1098B] *usque ad*   ✓ Clementine verbatim
+[1099C] *Pondus et statera.*   ✓ Clementine verbatim
+[1099C] *usque ad*   ✓ Clementine verbatim
+[1099C] VERS. 13.-- *Voluntas regum,*   ✓ Clementine verbatim
+[1099C] *Multi reges et prophetae voluerunt videre, quae vos vidistis, et non viderunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[1099C] VERS. 14.-- *Nuntii mortis.*   ✓ Clementine verbatim
+[1099C] *usque ad*   ✓ Clementine verbatim
+[1099C] *Placabit.*   — single word, check in place
+[1099C] VERS. 15.-- *In hilaritate vultus regis vita.*   ✓ Clementine verbatim
+[1099D] *videbit omnis caro salutare Dei:*   ✓ Clementine verbatim
+[1099D] *Et clementia ejus quasi imber serotinus.*   ✓ Clementine verbatim
+[1099D] *usque ad*   ✓ Clementine verbatim
+[1099D] VERS. 22.-- *Fons vitae.*   ✓ Clementine verbatim
+[1099D] *usque ad*   ✓ Clementine verbatim
+[1099D] VERS. 24.-- *Favus mellis composita verba,*   ✓ Clementine verbatim
+[1099D] *usque ad*   ✓ Clementine verbatim
+[1099D] VERS. 26.-- *Anima laborantis laborat sibi,*   ✓ Clementine verbatim
+[1100A] *usque ad*   ✓ Clementine verbatim
+[1100A] VERS. 27.-- *Vir insipiens fodit malum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1100A] *usque ad*   ✓ Clementine verbatim
+[1100A] *Lingua inflammat rotam nativitatis nostrae inflammata a gehenna [n: (Jacob. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1100A] VERS. 29.-- *Vir iniquus lactat amicum suum,*   ✓ Clementine verbatim
+[1100A] *quoniam laudatur peccator in desideriis animae suae, et iniquus benedicitur.*   ✓ Clementine verbatim
+[1100A] VERS. 30.-- *Qui attonitis oculis cogitat,*   ✓ Clementine verbatim
+[1100A] *usque ad*   ✓ Clementine verbatim
+[1100A] VERS. 32.-- *Melior est patiens viro forti,*   ✓ Clementine verbatim
+[1100B] *usque ad*   ✓ Clementine verbatim
+[1100B] VERS. 33.-- *Sortes mittuntur in sinum.*   ✓ Clementine verbatim
+[1100B] *usque ad*   ✓ Clementine verbatim
+[1100B] VERS. 1.-- *Melior est buccella.*   ✓ Clementine verbatim
+[1100B] VERS. 6.-- *Corona senum,*   ✓ Clementine verbatim
+[1100B] VERS. 8.-- *Gemma gratissima.*   ✓ Clementine verbatim
+[1100B] *usque ad*   ✓ Clementine verbatim
+[1100B] *Quoniam diligentibus Deum omnia cooperantur in bonum [n: (Rom. VIII)]*   ✓ Clementine verbatim
+[1100B] VERS. 12.-- *Expedit magis ursae,*   ✓ Clementine verbatim
+[1100B] *usque ad,*   ✓ Clementine verbatim
+[1100B] VERS. 13.-- *Qui.*   — single word, check in place
+[1100B] *usque ad*   ✓ Clementine verbatim
+[1100B] *Qui imponit stulto silentium, iras mitigat.*   ✓ Clementine verbatim
+[1100B] VERS. 16.-- *Quid prodest.*   ✓ Clementine verbatim
+[1100D] *usque ad*   ✓ Clementine verbatim
+[1100D] VERS. 17.-- *Omni tempore.*   ✓ Clementine verbatim
+[1100D] VERS. 18.-- *Homo stultus plaudet manibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[1100D] *Animus gaudens.*   ✓ Clementine verbatim
+[1100D] *usque ad*   ✓ Clementine verbatim
+[1101A] VERS. 24.-- *In facie prudentis.*   ✓ Clementine verbatim
+[1101A] *usque ad*   ✓ Clementine verbatim
+[1101A] VERS. 26.-- *Non est bonum damnum inferre justo.*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Impius cum in profundum venerit,*   ✓ Clementine verbatim
+[1079C] VERS. 4.-- *Aqua profunda.*   ✓ Clementine verbatim
+[1079C] *Et torrens redundans fons sapientiae.*   ✓ Clementine verbatim
+[1079C] VERS. 9.-- *Qui mollis et dissolutus.*   ✓ Clementine verbatim
+[1079C] VERS. 11.-- *Substantia divitis urbs roboris ejus.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 13.-- *Qui prius respondet quam audiat.*   ✓ Clementine verbatim
+[1101C] VERS. 14.-- *Spiritus viri sustentat imbecillitatem.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] *Spiritum vero ad irascendum.*   ✓ Clementine verbatim
+[1101C] *Donum hominis.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 17.-- *Justus prior.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 19.-- *Frater qui adjuvatur.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 23.-- *Cum obsecrationibus loquetur pauper.*   ✓ Clementine verbatim
+[1101C] VERS. 24.-- *Vir amabilis.*   ✓ Clementine verbatim
+[1101C] VERS. 1.-- *Melior est pauper.*   ✓ Clementine verbatim
+[1101C] VERS. 2.-- *Ubi non,*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 3.-- *Stultitia,*   — single word, check in place
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 4.-- *Divitiae addunt amicos.*   ✓ Clementine verbatim
+[1101C] VERS. 5.-- *Testis falsus.*   ✓ Clementine verbatim
+[1101C] VERS. 10.-- *Non decent stultum.*   ✓ Clementine verbatim
+[1101C] VERS. 11.-- *Doctrina viri.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] *Et gloria ejus est iniqua praetergredi.*   ✓ Clementine verbatim
+[1101C] VERS. 13.-- *Dolor patris.*   ✓ Clementine verbatim
+[1101C] *tactus [1102D] dolore cordis intrinsecus: Delebo, inquit, hominem quem creavi a facie terrae [n: (Gen. VI)]*   ✓ Clementine verbatim
+[1101C] *Tecta jugiter.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 15.-- *Pigredo immittit soporem.*   ✓ Clementine verbatim
+[1101C] *pigredo immittit soporem,*   ✓ Clementine verbatim
+[1101C] *Et anima dissoluta esuriet.*   ✓ Clementine verbatim
+[1101C] VERS. 18.-- *Erudi filium.*   ✓ Clementine verbatim
+[1101C] VERS. 19.-- *Qui impatiens est sustinebit damnum et cum rapuerit.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 22.-- *Melior est pauper.*   ✓ Clementine verbatim
+[1101C] VERS. 24.-- *Abscondit piger manum.*   ✓ Clementine verbatim
+[1101C] *usque ad*   ✓ Clementine verbatim
+[1101C] VERS. 28.-- *Devorat.*   — single word, check in place
+[1101C] VERS. 2.-- *Luxuriosa res.*   ✓ Clementine verbatim
+[1101C] VERS. 4.-- *Aestate.*   — single word, check in place
+[1101C] VERS. 7.-- *Beatos post se filios relinquet.*   ⚠ NOT in Clementine verbatim — CHECK
+[1103C] *Rex qui sedit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1103C] VERS. 8.-- *Rex qui sedit in solio judicii.*   ⚠ NOT in Clementine verbatim — CHECK
+[1103C] *usque ad*   ✓ Clementine verbatim
+[1103C] VERS. 9.-- *Qui potest dicere.*   ⚠ NOT in Clementine verbatim — CHECK
+[1103C] *usque ad*   ✓ Clementine verbatim
+[1103C] *Pondus et pondus.*   ✓ Clementine verbatim
+[1103C] *usque ad*   ✓ Clementine verbatim
+[1103C] VERS. 11.-- *Ex studiis suis intelligitur.*   ✓ Clementine verbatim
+[1103C] *usque ad*   ✓ Clementine verbatim
+[1103C] *Amicus stultorum similis efficitur.*   ⚠ NOT in Clementine verbatim — CHECK
+[1103C] VERS. 12.-- *Dominus fecit utrumque.*   ✓ Clementine verbatim
+[1103D] *usque ad*   ✓ Clementine verbatim
+[1103D] VERS. 14.-- *Malum est.*   ✓ Clementine verbatim
+[1103D] *non sunt condignae passiones hujus temporis,*   ✓ Clementine verbatim
+[1103D] VERS. 15.-- *Est aurum et multitudo.*   ✓ Clementine verbatim
+[1103D] *usque ad*   ✓ Clementine verbatim
+[1103D] VERS. 17.-- *Suavis est homini panis mendacii,*   ✓ Clementine verbatim
+[1103D] *usque ad*   ✓ Clementine verbatim
+[1104A] VERS. 21.-- *Haereditas.*   — single word, check in place
+[1104A] *usque ad*   ✓ Clementine verbatim
+[1104A] VERS. 23.-- *Abominatio est apud Deum pondus et pondus, statera dolosa,*   ⚠ NOT in Clementine verbatim — CHECK
+[1104A] *usque ad*   ✓ Clementine verbatim
+[1104A] VERS. 25.-- *Ruina est homini devorare sanctos, et post vota retractare.*   ✓ Clementine verbatim
+[1104A] *usque ad*   ✓ Clementine verbatim
+[1104A] VERS. 26.-- *Dissipat impios rex sapiens, et incurvat super eos fornicem.*   ✓ Clementine verbatim
+[1104A] *usque ad*   ✓ Clementine verbatim
+[1104A] *corona vitae quam repromittit [1104B] Deus diligentibus se.*   ⚠ NOT in Clementine verbatim — CHECK
+[1104A] VERS. 30.-- *Livor vulneris.*   ✓ Clementine verbatim
+[1104A] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Sicut divisiones.*   ✓ Clementine verbatim
+[1079C] *in manu ejus sunt omnes fines terrae.*   ✓ Clementine verbatim
+[1079C] *Ita cor regis quocunque voluerit*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] VERS. 8.-- *Perversa via.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 13.-- *Qui obturat aurem.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 15.-- *Pavor operantibus iniquitatem.*   ✓ Clementine verbatim
+[1104D] VERS. 16.-- *In coetu gigantium.*   ⚠ NOT in Clementine verbatim — CHECK
+[1104D] *usque ad*   ✓ Clementine verbatim
+[1104D] *Discedite a me, maledicti, in ignem aeternum, qui paratus est diabolo et angelis ejus [n: (Matth. XXV)]*   ✓ Clementine verbatim
+[1104D] VERS. 18.-- *Pro justo datur.*   ✓ Clementine verbatim
+[1104D] *usque ad*   ✓ Clementine verbatim
+[1104D] VERS. 20.-- *Thesaurus desiderabilis.*   ✓ Clementine verbatim
+[1104D] *usque ad*   ✓ Clementine verbatim
+[1104D] *Nolite timere eos qui occidunt corpus,*   ✓ Clementine verbatim
+[1104D] VERS. 22.-- *Civitatem fortium.*   ✓ Clementine verbatim
+[1104D] *usque ad*   ✓ Clementine verbatim
+[1105A] VERS. 28.-- *Testis mendax.*   ✓ Clementine verbatim
+[1105A] *usque ad*   ✓ Clementine verbatim
+[1105A] VERS. 29.-- *Vir impius.*   ✓ Clementine verbatim
+[1105A] *usque ad*   ✓ Clementine verbatim
+[1105A] VERS. 1.-- *Melius est.*   ✓ Clementine verbatim
+[1105A] *Nomen bonum.*   ✓ Clementine verbatim
+[1105A] *Si adhuc hominibus placerem, Christi servus non essem!*   ✓ Clementine verbatim
+[1105A] *Gratia bona.*   ✓ Clementine verbatim
+[1105A] VERS. 2.-- *Dives et pauper.*   ✓ Clementine verbatim
+[1105A] VERS. 3.-- *Callidus vidit malum.*   ✓ Clementine verbatim
+[1105A] *usque ad*   ✓ Clementine verbatim
+[1105A] VERS. 4.-- *Finis modestiae.*   ✓ Clementine verbatim
+[1105A] *usque ad*   ✓ Clementine verbatim
+[1105A] *Divitiae et gloria.*   ✓ Clementine verbatim
+[1105A] VERS. 6.-- *Proverbium est.*   ✓ Clementine verbatim
+[1105A] VERS. 8.-- *Qui seminat iniquitatem.*   ✓ Clementine verbatim
+[1105A] *Et virga irae suae.*   ✓ Clementine verbatim
+[1105A] *usque ad*   ✓ Clementine verbatim
+[1105A] *Omnes enim qui acceperint gladium, gladio peribunt [n: (Matth. XXVI)]*   ✓ Clementine verbatim
+[1105A] VERS. 13.-- *Dicet piger,*   ⚠ NOT in Clementine verbatim — CHECK
+[1105A] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 16.-- *Qui calumniatur.*   ✓ Clementine verbatim
+[1105D] *Fili mi.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 24.-- *Noli esse amicus.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] *Homini iracundo, neque ambules cum viro.*   ✓ Clementine verbatim
+[1105D] VERS. 26.-- *Noli esse cum his, qui defigunt manus.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 28.-- *Ne transgrediaris.*   ✓ Clementine verbatim
+[1105D] VERS. 29.-- *Vidisti virum velocem in opere suo? coram.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 1.-- *Quando sederis.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 3.-- *Ne desideres,*   ✓ Clementine verbatim
+[1105D] VERS. 4.-- *Pone modum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1105D] *Ne transgrediaris terminos antiquos quos posuerunt patres,*   ✓ Clementine verbatim
+[1105D] VERS. 6.-- *Ne comedas,*   ✓ Clementine verbatim
+[1105D] *Comede,*   — single word, check in place
+[1105D] VERS. 8.-- *Cibos quos comederas.*   ✓ Clementine verbatim
+[1105D] VERS. 9.-- *In auribus. Nolite sanctum dare canibus, neque mittas margaritas ante porcos.*   ⚠ NOT in Clementine verbatim — CHECK
+[1105D] VERS. 10.-- *Ne attingas,*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 17.-- *Non aemuletur cor tuum peccatores.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] *Esto fidelis usque ad mortem, et dabo tibi coronam vitae [n: (Apoc. II)]*   ✓ Clementine verbatim
+[1105D] VERS. 20.-- *Noli esse in conviviis peccatorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1105D] *Quia vacant potibus,*   ⚠ NOT in Clementine verbatim — CHECK
+[1105D] *Dantes symbola consumentur.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] VERS. 29.-- *Cui vae, cujus.*   ✓ Clementine verbatim
+[1105D] *usque ad*   ✓ Clementine verbatim
+[1105D] *Vos ex patre diabolo estis [n: (Joan. VIII)]*   ✓ Clementine verbatim
+[1107A] *Cui rixae? cui foveae? Rixae,*   ⚠ NOT in Clementine verbatim — CHECK
+[1107A] *usque ad*   ✓ Clementine verbatim
+[1107A] *Fovea enim profunda est meretrix,*   ✓ Clementine verbatim
+[1107A] *Cui sine causa vulnera?*   ✓ Clementine verbatim
+[1107A] *Cui suffossio oculorum?*   ⚠ NOT in Clementine verbatim — CHECK
+[1107A] VERS. 30.-- *Nonne his.*   ✓ Clementine verbatim
+[1107A] *Vae qui potentes estis ad bibendum vinum, et viri fortes ad miscendam ebrietatem [n: (Isa. V)]*   ✓ Clementine verbatim
+[1107A] VERS. 33.-- *Oculi tui videbunt.*   ✓ Clementine verbatim
+[1107A] VERS. 34.-- *Et eris sicut dormiens.*   ✓ Clementine verbatim
+[1107A] *usque ad*   ✓ Clementine verbatim
+[1107A] *Verberaverunt me.*   ✓ Clementine verbatim
+[1107A] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Ne aemuleris.*   ✓ Clementine verbatim
+[1079C] *Sapientia aedificabitur domus.*   ✓ Clementine verbatim
+[1079C] VERS. 4.-- *Vir sapiens.*   ✓ Clementine verbatim
+[1079C] VERS. 7.-- *Excelsa stulto.*   ✓ Clementine verbatim
+[1079C] VERS. 8.-- *Qui cogitat.*   ✓ Clementine verbatim
+[1079C] VERS. 10.-- *Si desperaveris.*   ✓ Clementine verbatim
+[1107D] VERS. 11.-- *Erue eos.*   ✓ Clementine verbatim
+[1107D] *usque ad*   ✓ Clementine verbatim
+[1107D] VERS. 13.-- *Comede, fili mi.*   ✓ Clementine verbatim
+[1107D] *usque ad*   ✓ Clementine verbatim
+[1107D] VERS. 15.-- *Ne insidieris.*   ✓ Clementine verbatim
+[1107D] *usque ad*   ✓ Clementine verbatim
+[1107D] VERS. 16.-- *Septies enim cadet.*   ✓ Clementine verbatim
+[1107D] *usque ad*   ✓ Clementine verbatim
+[1107D] VERS. 17.-- *Cum ceciderit inimicus tuus.*   ✓ Clementine verbatim
+[1107D] *usque ad*   ✓ Clementine verbatim
+[1108A] VERS. 21.-- *Time Dominum, fili mi.*   ✓ Clementine verbatim
+[1108A] *Qui enim non honorificat Filium, non honorificat Patrem, qui misit illum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1108A] *Cum detractoribus.*   ✓ Clementine verbatim
+[1108A] *usque ad*   ✓ Clementine verbatim
+[1108A] VERS. 23.-- *Haec quoque sapientibus.*   ✓ Clementine verbatim
+[1108A] *usque ad*   ✓ Clementine verbatim
+[1108A] VERS. 26.-- *Labia deosculabitur.*   ✓ Clementine verbatim
+[1108A] *usque ad*   ✓ Clementine verbatim
+[1108A] VERS. 27.-- *Praepara.*   — single word, check in place
+[1108B] *usque ad*   ✓ Clementine verbatim
+[1108B] VERS. 30.-- *Per agrum hominis pigri transivi,*   ✓ Clementine verbatim
+[1108B] *usque ad*   ✓ Clementine verbatim
+[1108B] VERS. 1.-- *Hae quoque parabolae.*   ✓ Clementine verbatim
+[1108B] *usque ad*   ✓ Clementine verbatim
+[1108B] VERS. 2.-- *Gloria Dei.*   ✓ Clementine verbatim
+[1108B] *usque ad*   ✓ Clementine verbatim
+[1108B] *Investigare.*   — single word, check in place
+[1108B] *usque ad*   ✓ Clementine verbatim
+[1108B] *Beatus es Simon Barjona, quia caro,*   ⚠ NOT in Clementine verbatim — CHECK
+[1108C] VERS. 3.-- *Coelum sursum et terra deorsum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1108C] VERS. 5.-- *Aufer impietatem.*   ✓ Clementine verbatim
+[1108C] *usque ad*   ✓ Clementine verbatim
+[1108C] VERS. 6.-- *Ne gloriosus appareas.*   ✓ Clementine verbatim
+[1108C] *usque ad*   ✓ Clementine verbatim
+[1108C] *Humiliamini sub potenti manu Dei, ut exaltet vos in tempore visitationis [n: (I Petr. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1108C] VERS. 11.-- *Mala aurea.*   ✓ Clementine verbatim
+[1108C] *usque ad*   ✓ Clementine verbatim
+[1108C] VERS. 12.-- *Inauris aurea margaritarum fulgens.*   ⚠ NOT in Clementine verbatim — CHECK
+[1108D] *usque ad*   ✓ Clementine verbatim
+[1108D] VERS. 13.-- *Sicut frigus.*   ✓ Clementine verbatim
+[1108D] *usque ad*   ✓ Clementine verbatim
+[1108D] VERS. 14.-- *Vir gloriosus.*   ✓ Clementine verbatim
+[1108D] *Nec lactes quemquam labiis tuis.*   ✓ Clementine verbatim
+[1108D] *Habentes speciem pietatis, veritatem autem ejus abnegantes [n: (II Tim. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1108D] VERS. 16.-- *Mel invenisti, comede quod sufficit tibi.*   ✓ Clementine verbatim
+[1108D] *usque ad*   ✓ Clementine verbatim
+[1108D] VERS. 19.-- *Deus putridus et pes.*   ⚠ NOT in Clementine verbatim — CHECK
+[1108D] *usque ad*   ✓ Clementine verbatim
+[1109A] VERS. 20.-- *Acetum in nitro qui cantat.*   ✓ Clementine verbatim
+[1109A] *usque ad*   ✓ Clementine verbatim
+[1109A] VERS. 22.-- *Prunas enim congregabis,*   ✓ Clementine verbatim
+[1109A] *Ventus aquilo.*   ✓ Clementine verbatim
+[1109A] VERS. 24.-- *Melius est sedere in angulo domatis, quam.*   ✓ Clementine verbatim
+[1109A] VERS. 25.-- *Aqua frigida.*   ✓ Clementine verbatim
+[1109A] *usque ad*   ✓ Clementine verbatim
+[1109A] VERS. 26.-- *Fons turbatus.*   ✓ Clementine verbatim
+[1109A] VERS. 27.-- *Sicut qui mel.*   ✓ Clementine verbatim
+[1109A] *usque ad*   ✓ Clementine verbatim
+[1109A] VERS. 28.-- *Sicut urbs patens,*   ✓ Clementine verbatim
+[1109A] *usque ad*   ✓ Clementine verbatim
+[1109A] VERS. 1.-- *Quomodo nix in aestate.*   ✓ Clementine verbatim
+[1109A] *usque ad*   ✓ Clementine verbatim
+[1109A] VERS. 2.-- *Nam sicut avis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1109A] *usque ad*   ✓ Clementine verbatim
+[1109A] *Quodcunque ligaveris super terram erit ligatum et in coelis [n: (Matth. XVI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1109A] VERS. 4.-- *Non respondeas . . . Responde stulto juxta stultitiam.*   ⚠ NOT in Clementine verbatim — CHECK
+[1109A] *Factus sum insipiens, vos me coegistis [n: (II Cor. XII)]*   ✓ Clementine verbatim
+[1109A] VERS. 6.-- *Claudus pedibus.*   ✓ Clementine verbatim
+[1109D] *Et iniquitatem bibens;*   ✓ Clementine verbatim
+[1109D] VERS. 9.-- *Quomodo si spina nascatur.*   ✓ Clementine verbatim
+[1109D] *usque ad*   ✓ Clementine verbatim
+[1109D] VERS. 11.-- *Sicut canis.*   ✓ Clementine verbatim
+[1109D] *usque ad*   ✓ Clementine verbatim
+[1109D] VERS. 12.-- *Vidisti hominem.*   ✓ Clementine verbatim
+[1110A] VERS. 13.-- *Dicit piger.*   ✓ Clementine verbatim
+[1110A] *usque ad*   ✓ Clementine verbatim
+[1110A] VERS. 16.-- *Sapientior,*   — single word, check in place
+[1110A] *usque ad*   ✓ Clementine verbatim
+[1110A] VERS. 17.-- *Sicut qui apprehendit.*   ✓ Clementine verbatim
+[1079C] *Ne glorieris.*   ✓ Clementine verbatim
+[1110B] *Beatus homo qui semper est pavidus.*   ✓ Clementine verbatim
+[1110B] VERS. 3.-- *Grave est saxum.*   ✓ Clementine verbatim
+[1110B] *usque ad*   ✓ Clementine verbatim
+[1110B] *Ira stulti utroque gravior,*   ✓ Clementine verbatim
+[1110B] *usque ad*   ✓ Clementine verbatim
+[1110B] VERS. 5.-- *Melior est manifesta correctio.*   ⚠ NOT in Clementine verbatim — CHECK
+[1110B] *usque ad*   ✓ Clementine verbatim
+[1110B] VERS. 7.-- *Anima saturata calcabit favum,*   ✓ Clementine verbatim
+[1110B] *usque ad*   ✓ Clementine verbatim
+[1110B] VERS. 8.-- *Sicut avis transmigrans.*   ✓ Clementine verbatim
+[1110B] *usque ad*   ✓ Clementine verbatim
+[1110C] VERS. 10.-- *Melior est vicinus.*   ✓ Clementine verbatim
+[1110C] *usque ad, in Jericho, et incidit,*   ⚠ NOT in Clementine verbatim — CHECK
+[1110C] VERS. 14.-- *Qui benedicit proximo,*   ✓ Clementine verbatim
+[1110C] VERS. 17.-- *Ferrum ferro.*   ✓ Clementine verbatim
+[1110C] VERS. 20.-- *Infernus.*   — single word, check in place
+[1110C] *usque ad*   ✓ Clementine verbatim
+[1110C] VERS. 23.-- *Diligenter.*   — single word, check in place
+[1110C] *usque ad*   ✓ Clementine verbatim
+[1110C] VERS. 25.-- *Aperta sunt prata.*   ✓ Clementine verbatim
+[1110C] *usque ad*   ✓ Clementine verbatim
+[1110C] VERS. 26.-- *Agni sunt ad vestimentum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1111A] VERS. 27.-- *Sufficiat tibi lac caprarum.*   ✓ Clementine verbatim
+[1111A] *usque ad*   ✓ Clementine verbatim
+[1111A] VERS. 1.-- *Fugit impius.*   ✓ Clementine verbatim
+[1111A] *Justus autem quasi leo.*   ✓ Clementine verbatim
+[1111A] *usque ad*   ✓ Clementine verbatim
+[1111A] VERS. 5.-- *Qui autem requirunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[1111B] VERS. 10.-- *Qui decipit justos in via mea,*   ⚠ NOT in Clementine verbatim — CHECK
+[1111B] *usque ad*   ✓ Clementine verbatim
+[1111B] VERS. 12.-- *In exsultatione,*   ✓ Clementine verbatim
+[1111B] *usque ad*   ✓ Clementine verbatim
+[1111B] VERS. 14.-- *Beatus homo,*   ✓ Clementine verbatim
+[1111B] VERS. 22.-- *Vir qui festinat ditari,*   ✓ Clementine verbatim
+[1111C] VERS. 28.-- *Cum surrexerint impii.*   ✓ Clementine verbatim
+[1111C] *Respiciet homines, et dicet, Peccavi [n: (Job. XXXIII)]*   ✓ Clementine verbatim
+[1111C] VERS. 1.-- *Homo qui blandis,*   ✓ Clementine verbatim
+[1111C] VERS. 6.-- *Peccantem virum.*   ✓ Clementine verbatim
+[1111C] *usque ad*   ✓ Clementine verbatim
+[1111C] VERS. 9.-- *Vir sapiens.*   ✓ Clementine verbatim
+[1111C] *usque ad*   ✓ Clementine verbatim
+[1111C] VERS. 11.-- *Totum spiritum suum.*   ✓ Clementine verbatim
+[1111C] *usque ad*   ✓ Clementine verbatim
+[1111C] VERS. 13.-- *Pauper et creditor obviaverunt.*   ✓ Clementine verbatim
+[1111C] *usque ad*   ✓ Clementine verbatim
+[1111C] *sine me nihil potestis facere.*   ✓ Clementine verbatim
+[1111C] VERS. 18.-- *Cum prophetia.*   ✓ Clementine verbatim
+[1112A] VERS. 20.-- *Vidisti hominem.*   ✓ Clementine verbatim
+[1112A] VERS. 21.-- *Qui delicate a pueritia sua.*   ⚠ NOT in Clementine verbatim — CHECK
+[1112A] *Qui deliciatur a pueritia sua, servus erit: novissime autem contristabitur.*   ⚠ NOT in Clementine verbatim — CHECK
+[1112A] VERS. 22.-- *Vir iracundus.*   ✓ Clementine verbatim
+[1112A] VERS. 24.-- *Qui cum fure participat, odit animam suam.*   ✓ Clementine verbatim
+[1112B] *Si videbas furem, currebas cum eo,*   ✓ Clementine verbatim
+[1112B] *Qui timet Dominum,*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Verba congregantis.*   ✓ Clementine verbatim
+[1079C] *Visio quam.*   ✓ Clementine verbatim
+[1112C] *stultissimus sum virorum,*   ✓ Clementine verbatim
+[1112C] VERS. 2.-- *Stultissimus. Filii hujus saeculi prudentiores sunt filiis lucis in generatione sua [n: (Luc. XVI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1112C] *Si quis videtur esse sapiens in hoc saeculo, stultus fiat, ut sit sapiens [n: (I Cor. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1112C] *Non didici*   ✓ Clementine verbatim
+[1112C] *Nos stulti propter Christum:*   ✓ Clementine verbatim
+[1112C] *Sapientiam autem loquimur inter perfectos. Sapientiam vero non hominum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1112C] VERS. 4.-- *Quis ascendit in coelum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1112C] *Quis continuit.*   ✓ Clementine verbatim
+[1112C] *Quis suscitavit omnes.*   ✓ Clementine verbatim
+[1112C] *Quod nomen est ejus, et quod nomen filii ejus,*   ✓ Clementine verbatim
+[1113A] *Si nosti:*   ✓ Clementine verbatim
+[1113A] VERS. 5.-- *Omnis sermo.*   ✓ Clementine verbatim
+[1113A] *usque ad*   ✓ Clementine verbatim
+[1113A] *Clypeus est,*   ✓ Clementine verbatim
+[1113A] VERS. 7.-- *Duo rogavi te.*   ✓ Clementine verbatim
+[1113A] *usque ad*   ✓ Clementine verbatim
+[1113A] VERS. 11.-- *Generatio quae patri.*   ✓ Clementine verbatim
+[1113A] *usque ad*   ✓ Clementine verbatim
+[1113A] VERS. 14.-- *Generatio quae pro dentibus gladios habet.*   ✓ Clementine verbatim
+[1113A] VERS. 15.-- *Sanguisugae duae sunt filiae.*   ✓ Clementine verbatim
+[1113A] *Duae filiae,*   ✓ Clementine verbatim
+[1113A] *Crescit amor nummi, quantum ipsa pecunia crescit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1113A] *Tria sunt insaturabilia.*   ✓ Clementine verbatim
+[1113A] VERS. 16.-- *Os vulvae, et terra quae non satiatur aqua,*   ✓ Clementine verbatim
+[1113C] VERS. 17.-- *Oculum qui subsannat.*   ✓ Clementine verbatim
+[1113C] *usque ad*   ✓ Clementine verbatim
+[1113C] *Filii aquilae:*   ✓ Clementine verbatim
+[1113C] VERS. 18.-- *Tria sunt mihi difficilia.*   ⚠ NOT in Clementine verbatim — CHECK
+[1113C] *usque ad*   ✓ Clementine verbatim
+[1113C] VERS. 20.-- *Talis est et via mulieris adulterae.*   ✓ Clementine verbatim
+[1113C] VERS. 24.-- *Quatuor:*   — single word, check in place
+[1113C] VERS. 25.-- *Formicae populus infirmus.*   ✓ Clementine verbatim
+[1113C] *usque ad*   ✓ Clementine verbatim
+[1113C] VERS. 26.-- *Lepusculus,*   — single word, check in place
+[1113C] *usque ad*   ✓ Clementine verbatim
+[1113C] *saphan,*   — single word, check in place
+[1113C] *Lepusculus,*   — single word, check in place
+[1114A] *Esto mihi in lapidem fortissimum, in domum munitam, ut salves me, quia petra mea et munitio mea es tu.*   ⚠ NOT in Clementine verbatim — CHECK
+[1114A] VERS. 27.-- *Regem locusta.*   ✓ Clementine verbatim
+[1114A] *usque ad*   ✓ Clementine verbatim
+[1114A] VERS. 28.-- *Stellio manibus.*   ✓ Clementine verbatim
+[1114A] *usque ad*   ✓ Clementine verbatim
+[1114A] VERS. 29.-- *Tria sunt quae gradiuntur.*   ⚠ NOT in Clementine verbatim — CHECK
+[1114A] *usque ad*   ✓ Clementine verbatim
+[1114A] VERS. 31.-- *Gallus,*   — single word, check in place
+[1114B] *Et aries.*   ✓ Clementine verbatim
+[1114B] *usque ad postquam elevatus est in sublime.*   ⚠ NOT in Clementine verbatim — CHECK
+[1114B] VERS. 33.-- *Qui autem*   ✓ Clementine verbatim
+[1114B] *usque ad*   ✓ Clementine verbatim
+[1114B] *Et qui provocat iras, producit.*   ✓ Clementine verbatim
+[1114B] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 1.-- *Verba Lamuelis.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 3.-- *Et divitias tuas.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 4.-- *Noli regibus.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 6.-- *Date siceram moerentibus.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 8.-- *Aperi os.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 9.-- *Aperi os tuum, decerne.*   ✓ Clementine verbatim
+[1079C] *Pauperis in judicio non misereberis [n: (Exod. XIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] *Sed judicabit in justitia pauperes, et [1114D] arguet inaequitate pro mansuetis terrae.*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] VERS. 10.-- *Mulierem fortem.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Mulierem fortem quis inveniet.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 11.-- *Confidit in ea cor viri.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Et spoliis non indigebit.*   ✓ Clementine verbatim
+[1079C] VERS. 12.-- *Reddet ei bonum et non malum.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *serviamus illi,*   ✓ Clementine verbatim
+[1079C] VERS. 13.-- *Quaesivit.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 14.-- *Facta est quasi navis institoris de longe.*   ✓ Clementine verbatim
+[1079C] *institor,*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Amen dico vobis, receperunt mercedem suam.*   ✓ Clementine verbatim
+[1079C] VERS. 15.-- *De nocte.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Surrexit.*   — single word, check in place
+[1079C] *Deditque praedam domesticis suis.*   ✓ Clementine verbatim
+[1079C] VERS. 16.-- *Consideravit.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *De fructu manuum suarum.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 17.-- *Accinxit.*   — single word, check in place
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 18.-- *Gustavit et vidit quia bona est.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] VERS. 19.-- *Manum suam misit.*   ✓ Clementine verbatim
+[1079C] *usque ad*   ✓ Clementine verbatim
+[1079C] *Regnum coelorum vim patitur, et violenti rapiunt illud [n: (Matth. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1079C] *Et digiti ejus,*   ✓ Clementine verbatim
+[1079C] *apprehenderunt fusum.*   ✓ Clementine verbatim
+[1115D] *usque ad*   ✓ Clementine verbatim
+[1115D] VERS. 20.-- *Manum suam aperuit inopi, et palmas suas.*   ✓ Clementine verbatim
+[1115D] *usque ad*   ✓ Clementine verbatim
+[1115D] VERS. 21.-- *Non timebit.*   ✓ Clementine verbatim
+[1115D] *usque ad*   ✓ Clementine verbatim
+[1115D] *portae inferi non praevalebunt adversus eam [n: (Matth. XVI)]*   ✓ Clementine verbatim
+[1115D] *Omnes enim domestici ejus vestiti sunt duplicibus,*   ✓ Clementine verbatim
+[1115D] *usque ad*   ✓ Clementine verbatim
+[1115D] VERS. 22.-- *Stragulatam vestem.*   ✓ Clementine verbatim
+[1115D] *usque ad*   ✓ Clementine verbatim
+[1115D] VERS. 23.-- *Nobilis in portis vir.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] VERS. 24.-- *Sindonem fecit et vendidit.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] VERS. 25.-- *Fortitudo.*   — single word, check in place
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] VERS. 26.-- *Os suum.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] *Lex clementiae.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] *Vade et amplius noli peccare.*   ⚠ NOT in Clementine verbatim — CHECK
+[1116B] VERS. 27.-- *Consideravit.*   — single word, check in place
+[1116B] *usque [1116C] ad*   ✓ Clementine verbatim
+[1116B] *Panem otiosa non comedit.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] VERS. 28.-- *Surrexerunt filii ejus.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] VERS. 29.-- *Multae filiae congregaverunt divitias: tu supergressa es universas.*   ✓ Clementine verbatim
+[1116B] *usque ad*   ✓ Clementine verbatim
+[1116B] VERS. 30.-- *Fallax gratia et vana est pulchritudo.*   ✓ Clementine verbatim
+[1116D] *usque ad*   ✓ Clementine verbatim
+[1116D] *Date ei de fructu.*   ✓ Clementine verbatim
+[1116D] VERS. 31.-- *Date ei de fructu manuum suarum.*   ✓ Clementine verbatim
+[1116D] *usque ad*   ✓ Clementine verbatim
+
+## Totals — 1023 spans: 820 ✓ · 112 ⚠ · 91 single-word

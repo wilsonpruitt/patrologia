@@ -1,0 +1,943 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3942,
+  "textIdno": 8965,
+  "title": "Liber Paralipomenon II",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "663d",
+  "colLast": "692c",
+  "counts": {
+    "scripture": 68,
+    "fontes": 55,
+    "heads": 36,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.28",
+      "refDisplay": "Matth. XXVIII",
+      "column": "663d",
+      "chunk": 0
+    },
+    {
+      "refKey": "1Chr.21",
+      "refDisplay": "I Paral. XXI",
+      "column": "665a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.19",
+      "refDisplay": "Joan. XIX",
+      "column": "665c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
+      "column": "665c",
+      "chunk": 0
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "666a",
+      "chunk": 0
+    },
+    {
+      "refKey": "John.10",
+      "refDisplay": "Joan. X.",
+      "column": "667d",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Kgs.3",
+      "refDisplay": "III Reg. III",
+      "column": "667d",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Kgs.6",
+      "refDisplay": "III Reg. VI",
+      "column": "668b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.72",
+      "refDisplay": "Psal. LXXII",
+      "column": "668b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX",
+      "column": "668b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Col.3",
+      "refDisplay": "Col. III",
+      "column": "668c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rom.13",
+      "refDisplay": "Rom. XIII",
+      "column": "668c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Heb.1",
+      "refDisplay": "Hebr. I",
+      "column": "669a",
+      "chunk": 1
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "669c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Kgs.7",
+      "refDisplay": "III Reg. VII.",
+      "column": "669d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Mark.4",
+      "refDisplay": "Marc. IV",
+      "column": "670a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
+      "column": "670a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Eccl.4",
+      "refDisplay": "Eccle. IV",
+      "column": "671b",
+      "chunk": 3
+    },
+    {
+      "refKey": "1Kgs.7",
+      "refDisplay": "III Reg. VII",
+      "column": "671c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.118",
+      "refDisplay": "Psal. CXVIII",
+      "column": "672c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Prov.6",
+      "refDisplay": "Prov. VI",
+      "column": "672c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.95",
+      "refDisplay": "Psal. XCV",
+      "column": "674b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.95",
+      "refDisplay": "Ibid. CXXXI",
+      "antecedent": "Psal. XCV",
+      "antecedentColumn": "674b",
+      "ibidResolved": true,
+      "column": "674c",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV",
+      "column": "674c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Jas.1",
+      "refDisplay": "Jac. I.",
+      "column": "674c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Phil.1",
+      "refDisplay": "Phil. I",
+      "column": "676a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.13",
+      "refDisplay": "Matth. XIII.",
+      "column": "676b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Job.22",
+      "refDisplay": "Job. XXII",
+      "column": "676b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "676b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI",
+      "column": "676c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "Psal. LXXXIII",
+      "column": "677c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Zech.11",
+      "refDisplay": "Zach. XI",
+      "column": "677c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "678b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V, XIX",
+      "column": "678d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.19",
+      "refDisplay": "Matth. V, XIX",
+      "column": "678d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.71",
+      "refDisplay": "Psal. LXXI",
+      "column": "679a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Prov.3",
+      "refDisplay": "Prov. III",
+      "column": "679b",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "679c",
+      "chunk": 6
+    },
+    {
+      "refKey": "1Kgs.10",
+      "refDisplay": "III Reg. X",
+      "column": "679c",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "679d",
+      "chunk": 6
+    },
+    {
+      "refKey": "1Kgs.10",
+      "refDisplay": "III Reg. X.",
+      "column": "679d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Prov.31",
+      "refDisplay": "Prov. XXXI",
+      "column": "679d",
+      "chunk": 6
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "680a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.76",
+      "refDisplay": "Psal. LXXVI.",
+      "column": "680c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Hab.3.8",
+      "refDisplay": "Rabac. III",
+      "refKeyPrinted": null,
+      "corrected": true,
+      "correctionNote": "Book NAME misprinted, not its number: Rabac. for Habac., an R for an H. PLATE-CONFIRMED on the second witness (Gallica bpt6k5505319w f340 = cols 679/680, band C): Migne's own plate prints (Rabac. III), so this is his error and not our digitization's — the form stays in the text verbatim per the sacred-marker rule. The chapter is right and the words are Hab. 3:8, which Migne quotes divergently (Vulg. et quadrigae tuae salvatio); that divergence carries its own [var:] at 0680C and is independent of this correction. No Ibid. depends on this reference.",
+      "column": "680c",
+      "chunk": 6
+    },
+    {
+      "refKey": "Ps.113",
+      "refDisplay": "Psal. CXIII",
+      "column": "681a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "681a",
+      "chunk": 6
+    },
+    {
+      "refKey": "Eccl.10",
+      "refDisplay": "Eccl. X.",
+      "column": "681c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Prov.14",
+      "refDisplay": "Prov. XIV",
+      "column": "682a",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Pet.2",
+      "refDisplay": "I Petr. II.",
+      "column": "683c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Titus.3",
+      "refDisplay": "Tit. III",
+      "column": "684a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.17",
+      "refDisplay": "Matth. XVII",
+      "column": "685d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Eph.4",
+      "refDisplay": "Ephes. IV",
+      "column": "686c",
+      "chunk": 8
+    },
+    {
+      "refKey": "2Kgs.12",
+      "refDisplay": "IV Reg. XII",
+      "column": "686c",
+      "chunk": 8
+    },
+    {
+      "refKey": "Mic.4.8",
+      "refDisplay": "Mich. IV, 8",
+      "column": "688c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Psal. XVII",
+      "column": "688d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.17",
+      "refDisplay": "Ibid., XLVII",
+      "antecedent": "Psal. XVII",
+      "antecedentColumn": "688d",
+      "ibidResolved": true,
+      "column": "688d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Heb.5",
+      "refDisplay": "Hebr. V",
+      "column": "688d",
+      "chunk": 9
+    },
+    {
+      "refKey": "John.10",
+      "refDisplay": "Joan. X",
+      "column": "688d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.112",
+      "refDisplay": "Psal. CXII",
+      "column": "688d",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V",
+      "column": "689b",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Cor.5",
+      "refDisplay": "I Cor. V",
+      "column": "690b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.23",
+      "refDisplay": "Psal. XXIII",
+      "column": "690b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.1",
+      "refDisplay": "Matth. I",
+      "column": "690b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.68",
+      "refDisplay": "Psal. LXVIII",
+      "column": "690c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "690c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Ps.83",
+      "refDisplay": "Psal. LXXXIII",
+      "column": "690d",
+      "chunk": 10
+    },
+    {
+      "refKey": "2Kgs.24",
+      "refDisplay": "IV Reg. XXIV",
+      "column": "691b",
+      "chunk": 10
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "RAB.",
+      "column": "663d",
+      "chunk": 0
+    },
+    {
+      "raw": "BED., quaest. in lib. Reg., tom. II.",
+      "column": "665c",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "665d",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "666a",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "666a",
+      "chunk": 0
+    },
+    {
+      "raw": "RAB.",
+      "column": "666b",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB.",
+      "column": "668b",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB.",
+      "column": "668c",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB.",
+      "column": "669b",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB.",
+      "column": "670a",
+      "chunk": 1
+    },
+    {
+      "raw": "RAB.",
+      "column": "670d",
+      "chunk": 3
+    },
+    {
+      "raw": "RAB.",
+      "column": "671a",
+      "chunk": 3
+    },
+    {
+      "raw": "RAB.",
+      "column": "671c",
+      "chunk": 3
+    },
+    {
+      "raw": "RAB.",
+      "column": "672d",
+      "chunk": 3
+    },
+    {
+      "raw": "RAB.",
+      "column": "672d",
+      "chunk": 3
+    },
+    {
+      "raw": "RAB.",
+      "column": "675c",
+      "chunk": 4
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "RAB.",
+      "antecedentColumn": "675c",
+      "ibidResolved": true,
+      "column": "675c",
+      "chunk": 4
+    },
+    {
+      "raw": "RAB.",
+      "column": "676b",
+      "chunk": 4
+    },
+    {
+      "raw": "RAB.",
+      "column": "676c",
+      "chunk": 4
+    },
+    {
+      "raw": "RAB.",
+      "column": "676d",
+      "chunk": 4
+    },
+    {
+      "raw": "RAB. in Paral. ex Hieron.",
+      "column": "677a",
+      "chunk": 5
+    },
+    {
+      "raw": "RAB.",
+      "column": "677a",
+      "chunk": 5
+    },
+    {
+      "raw": "HIERON.",
+      "column": "677c",
+      "chunk": 5
+    },
+    {
+      "raw": "RAB.",
+      "column": "677d",
+      "chunk": 5
+    },
+    {
+      "raw": "RAB.",
+      "column": "678a",
+      "chunk": 5
+    },
+    {
+      "raw": "RAB. in Paral., tom. III.",
+      "column": "678b",
+      "chunk": 6
+    },
+    {
+      "raw": "RAB.",
+      "column": "680a",
+      "chunk": 6
+    },
+    {
+      "raw": "HIERON.",
+      "column": "681b",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "681c",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB. ex Hieron.",
+      "column": "682b",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "682c",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB.",
+      "column": "683b",
+      "chunk": 7
+    },
+    {
+      "raw": "GREG., lib. II Moral., cap. 15, tom. I.",
+      "column": "684a",
+      "chunk": 7
+    },
+    {
+      "raw": "AUG., lib. IV de Civ., cap. 3.",
+      "column": "684a",
+      "chunk": 7
+    },
+    {
+      "raw": "RAB. in Paral., ex Hieron.",
+      "column": "684b",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "684d",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB., ex Hieron.",
+      "column": "685b",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "686a",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "686b",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB., ex Hieron.",
+      "column": "686d",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "686d",
+      "chunk": 8
+    },
+    {
+      "raw": "RAB.",
+      "column": "687a",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "687b",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "687d",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "689a",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "689a",
+      "chunk": 9
+    },
+    {
+      "raw": "HIERON., quaest. in Paral., tom. III.",
+      "column": "689b",
+      "chunk": 9
+    },
+    {
+      "raw": "HIERON.",
+      "column": "689c",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB. in Paral.",
+      "column": "689d",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "689d",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "690a",
+      "chunk": 9
+    },
+    {
+      "raw": "HIERON.",
+      "column": "690a",
+      "chunk": 9
+    },
+    {
+      "raw": "RAB.",
+      "column": "690b",
+      "chunk": 10
+    },
+    {
+      "raw": "HIERON., quaest. in Paral., tom. III.",
+      "column": "692a",
+      "chunk": 10
+    },
+    {
+      "raw": "RAB. ex Beda.",
+      "column": "692c",
+      "chunk": 10
+    }
+  ],
+  "heads": [
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "663d",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "665c",
+      "chunk": 0,
+      "en": "CHAPTER TWO."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "666b",
+      "chunk": 1,
+      "en": "CHAPTER THREE."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "670d",
+      "chunk": 3,
+      "en": "CHAPTER FOUR."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "675c",
+      "chunk": 4,
+      "en": "CHAPTER FIVE."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "676b",
+      "chunk": 4,
+      "en": "CHAPTER SIX."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "676c",
+      "chunk": 4,
+      "en": "CHAPTER SEVEN."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "677a",
+      "chunk": 5,
+      "en": "CHAPTER EIGHT."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "678a",
+      "chunk": 6,
+      "en": "CHAPTER NINE."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "681a",
+      "chunk": 7,
+      "en": "CHAPTER TEN."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "681c",
+      "chunk": 7,
+      "en": "CHAPTER ELEVEN."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "681c",
+      "chunk": 7,
+      "en": "CHAPTER TWELVE."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "682b",
+      "chunk": 7,
+      "en": "CHAPTER THIRTEEN."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "682c",
+      "chunk": 7,
+      "en": "CHAPTER FOURTEEN."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "682d",
+      "chunk": 7,
+      "en": "CHAPTER FIFTEEN."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "683a",
+      "chunk": 7,
+      "en": "CHAPTER SIXTEEN."
+    },
+    {
+      "la": "CAPUT XVII.",
+      "column": "683b",
+      "chunk": 7,
+      "en": "CHAPTER SEVENTEEN."
+    },
+    {
+      "la": "CAPUT XVIII.",
+      "column": "683d",
+      "chunk": 7,
+      "en": "CHAPTER EIGHTEEN."
+    },
+    {
+      "la": "CAPUT XIX.",
+      "column": "684a",
+      "chunk": 7,
+      "en": "CHAPTER NINETEEN."
+    },
+    {
+      "la": "CAPUT XX.",
+      "column": "684a",
+      "chunk": 8,
+      "en": "CHAPTER TWENTY."
+    },
+    {
+      "la": "CAPUT XXI.",
+      "column": "684d",
+      "chunk": 8,
+      "en": "CHAPTER TWENTY-ONE."
+    },
+    {
+      "la": "CAPUT XXII.",
+      "column": "685b",
+      "chunk": 8,
+      "en": "CHAPTER TWENTY-TWO."
+    },
+    {
+      "la": "CAPUT XXIII.",
+      "column": "685d",
+      "chunk": 8,
+      "en": "CHAPTER TWENTY-THREE."
+    },
+    {
+      "la": "CAPUT XXIV.",
+      "column": "686a",
+      "chunk": 8,
+      "en": "CHAPTER TWENTY-FOUR."
+    },
+    {
+      "la": "CAPUT XXV.",
+      "column": "687a",
+      "chunk": 9,
+      "en": "CHAPTER TWENTY-FIVE."
+    },
+    {
+      "la": "CAPUT XXVI.",
+      "column": "687c",
+      "chunk": 9,
+      "en": "CHAPTER TWENTY-SIX."
+    },
+    {
+      "la": "CAPUT XXVII.",
+      "column": "688b",
+      "chunk": 9,
+      "en": "CHAPTER TWENTY-SEVEN."
+    },
+    {
+      "la": "CAPUT XXVIII.",
+      "column": "688d",
+      "chunk": 9,
+      "en": "CHAPTER TWENTY-EIGHT."
+    },
+    {
+      "la": "CAPUT XXIX.",
+      "column": "689a",
+      "chunk": 9,
+      "en": "CHAPTER TWENTY-NINE."
+    },
+    {
+      "la": "CAPUT XXX.",
+      "column": "689b",
+      "chunk": 9,
+      "en": "CHAPTER THIRTY."
+    },
+    {
+      "la": "CAPUT XXXI.",
+      "column": "689c",
+      "chunk": 9,
+      "en": "CHAPTER THIRTY-ONE."
+    },
+    {
+      "la": "CAPUT XXXII.",
+      "column": "689c",
+      "chunk": 9,
+      "en": "CHAPTER THIRTY-TWO."
+    },
+    {
+      "la": "CAPUT XXXIII.",
+      "column": "689d",
+      "chunk": 9,
+      "en": "CHAPTER THIRTY-THREE."
+    },
+    {
+      "la": "CAPUT XXXIV.",
+      "column": "689d",
+      "chunk": 9,
+      "en": "CHAPTER THIRTY-FOUR."
+    },
+    {
+      "la": "CAPUT XXXV.",
+      "column": "690a",
+      "chunk": 10,
+      "en": "CHAPTER THIRTY-FIVE."
+    },
+    {
+      "la": "CAPUT XXXVI.",
+      "column": "691a",
+      "chunk": 10,
+      "en": "CHAPTER THIRTY-SIX."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
