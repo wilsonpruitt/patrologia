@@ -1,5 +1,205 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION CLOSE 2026-08-25 — FIVE GLOSSA BOOKS · CORPUS 142 · ✅ COMMITTED · ⛔ NOT PUSHED, NOT DEPLOYED
+
+**Paralipomenon II 8965 · III Regum 8954 · Paralipomenon I 8964 · Proverbia 8966 · Actus
+Apostolorum 8976.** 68 chunks, 69,547 Latin words, **14 translation stints + 3 blind polarity reads,
+all Opus**, three agents at a time throughout per the multi-million-token throttle.
+**137 → 142 englished works**; `/glossa` **31 → 36 of 58**. Tree clean, all work committed on local
+`master`.
+
+⛔ **The push and the deploy are Wilson's.** Deploy = `cd site && npx vercel --prod --archive=tgz`,
+step-8 checklist in full, verify BY BODY not status code.
+
+---
+
+## ⬜⬜ WHAT IS OWED BEFORE THIS BATCH CAN DEPLOY — read this first
+
+1. ⛔ **TWO POLARITY READS ARE MISSING: 8966 and 8976.** `polarity-record.mjs --gate` reports
+   **140/142** and names them. **Do not ship over a red gate** — either run the reads or say plainly
+   that they ship unchecked. Both are lemma-and-gloss, the richest genre for this class; budget one
+   blind reader each, fenced from the work's `cruces.md`. **The three reads already done in this
+   batch each found real defects that every automated check passed**, so this is not a formality.
+2. **Thirteen misprinted citations are logged in the cruces but NOT yet entered in
+   `data/citation-corrections.json`** — 7 in 8966, 6 in 8976. Every one was identified from the
+   **quoted words, never the numeral**, which is the settled discipline. Both books currently index
+   **0 unparsed**, so nothing is broken; the corrections improve the scripture index rather than fix a
+   fault. ⚑ **Every such citation read at the plate this session proved to be Migne's own** (seven
+   read, seven his), so the presumption is his — but the note attached to each correction is
+   **reader-facing on the work page**, so keep it to the house form: what he prints, what the words
+   are, and that the plate confirms it if it was read.
+3. **A crux entry is owed at 8954 @0599C** — Migne's *deos suos* for Ps. 30:21's *eos*, carried
+   correctly in the English but with nothing to explain it to a reader.
+
+---
+
+## ⚖⚖ TWO RULINGS OWED FROM WILSON — both real, neither urgent, and NOTHING was changed pending them
+
+### 1. The lemma-expansion scope — the big one, and it spans the batch
+
+**How far does convention 3 (expand a fragmentary lemma to the phrase it stands for) reach, and
+should a work be made internally consistent when two stints applied it differently?**
+
+Measured this session: **24 sites in 8954** (all in one stint's range — chunks 0006–0010 expand,
+0000–0005 keep bare lemmata scrupulously, and the practice changes at col. 0600A and never changes
+back); **3 in 8964 against 4 identical shapes left as stumps**; **5 in 8965**.
+
+⭐ **The standing ruling says EXPAND THE STUMP, NOT CONTRACT ITS TWIN**, which would mean expanding
+the conservative stints — a change to shipping works' lemmata, hence Wilson's call.
+
+⛔⛔ **READ THIS BEFORE TOUCHING ANY OF IT.** A blind reader flagged all five of 8965's as
+conformation, **two were acted on, and both were wrong and are reverted.** *Centum.* and *Ducenti.*
+are clips of two-word numerals (2 Par 1:17 *equum centum quinquaginta*, 8:10 *ducenti quinquaginta*),
+so both are **fragments**, which convention 3 licenses. And the justification was inverted: the
+contraction leaned on Migne's gloss supplying the figure (*Qui sunt ter quinquageni*), **but *ter
+quinquageni* is THRICE FIFTY** — the gloss **confirms** 150, it does not withhold it, and contracting
+left the lemma saying one hundred above a gloss saying one hundred and fifty.
+
+⭐⭐ **The lesson generalises to every blind read this edition runs: A READER'S FINDING CAN BE RIGHT
+ABOUT THE FACT AND WRONG ABOUT THE RULE.** Those English lemmata really did print words the Latin
+does not — a correct observation, invisible to every other check. What a fenced reader cannot supply
+is whether the convention licenses them. **Check the rule before acting on the fact.**
+
+⚑ A narrower sub-question inside it: how far does convention 3 reach when the supplied word is a
+**proper name** rather than a generic slot-filler? 8964 @0640A has *Her pater.* → "Her the father
+**of Lecha**", which is new lexical content.
+
+### 2. 8954 @0593C — does 7a reach a negative the ABRIDGMENT swallowed?
+
+*usque ad … **ulla** in parte declinemus.* The blind reader argues the English cannot be affirmative:
+*ulla* is negative-polarity, the governing *ne* fell inside what *usque ad* elides, and our page
+therefore tells a reader the apostolic *linea* exists **so that** we may stray.
+
+**Not acted on, for three reasons that should be weighed together:** the translating stint
+**considered this exact site and declined it deliberately**; **the plate confirms the printed text**
+(Gallica f297, read this session for an unrelated citation); and **7a forbids supplying a negative
+Migne does not print**, the rule that has protected this edition more than any other. The question is
+about the **rule**, not the facts, which is why it is Wilson's.
+
+### ⬜ Also awaiting a word, much smaller
+
+- **8952 and 8955 spell their chapter numerals out** (28 and 23 heads) and are **live on migne.app**
+  from the 2026-08-24 deploy. This session ruled the head convention — **render what Migne SETS**, a
+  word as a word (*CAPUT PRIMUM.* → CHAPTER ONE.) and a numeral as a numeral (*CAPUT II.* → CHAPTER
+  II.) — and normalised 44 heads in 8964 and 8965 accordingly. 8964 had been **internally mixed**.
+  The two live works are the last divergence; it is a one-line fix each but needs a redeploy.
+- **8964 @0646C** — two participles' objects swapped (*Videntes … ignorantes*). The blind reader's
+  parse is the only one compatible with *majorum ruina turbati* six words later, but **Migne's own
+  comma favours the other**. Genuinely undecided; left as printed.
+
+---
+
+## ⭐⭐⭐ WHAT THIS BATCH ESTABLISHED — carry these into the next commentary
+
+### THE NEGATIVES ALL HELD. SIX BOOKS RUNNING. THE CLASS IS THE REFERENT.
+
+Three blind reads, 36 chunks, and **every printed negation in all three books was correct and
+correctly carried — not one polarity defect.** Every repair was something **English cannot leave
+implicit and Latin can**:
+
+- a genitive lifted off its noun, so *the washing of baptism · spiritual grace* became *the grace of
+  baptism that is spiritual* — **collapsing the exact distinction between baptism and confirmation
+  the paragraph exists to draw**, which its own next sentences spell out (8965 @0672B);
+- a relative bound to the nearest noun, which **attributed the Incarnation and the harrowing of hell
+  to the company of the saints** and stranded "his own death" in a plural clause — **the English was
+  internally incoherent where the Latin is not** (8964 @0648C);
+- a supplied "he/his" that **made Athalia a man**, in a sentence naming her in its own middle clause
+  (8965 @0686B);
+- *Iste … ille* rendered "the one … the other", which in English binds to the **nearest** antecedent
+  and put faith and hope on the wrong entrances — **the next sentence is the control** (8954 @0592A);
+- *se subditos* read as "themselves as subjects", **removing the subjects from a sentence about
+  rulers corrupting them** (8965 @0692A–B — repaired **with a `[cj:]`**, since the printed word
+  construes);
+- a bare "he" after the wrong name, so **the wrong man pleased God** (8965 @0688A, Ozias not
+  Zacharias);
+- and **a silent repair that reversed the printed word**: *deseruit potestati* rendered "has been
+  devoted to", which is the emendation *deservit* printed with no marker — **the 7a specimen exactly**
+  (8954 @0610D).
+
+⛔ **Write the brief for the referent, not the negative.** Hunting only negations would have found
+nothing in three books.
+
+### A BLIND READ CATCHES WHAT A SELF-AUDIT STRUCTURALLY CANNOT
+
+8964 @0637C: Migne prints *Absalonem*, our English printed **Absalom**. The work's **other**
+occurrence was already correct — the translators caught that very conformation at their final test
+and **fixed it at one site**, and their cruces records the fix as done. **A stint's own record of a
+repair is not evidence the repair reached every site.**
+
+### "UNREADABLE" AND "OURS" ARE BOTH FACTS ABOUT YOUR COPY — the second witness settled EIGHT questions
+
+Nine plate reads this session, at one HTTP request each (**Gallica `bpt6k5505319w` for PL 113, map
+`f = (column + 1) / 2`**; the on-disk `patrologiaecurs06saingoog` for PL 114, **PDF page =
+(column + 11) / 2**, re-calibrated against the printed corner numbers before every read).
+
+- **Six misprinted citations in 8954 — ALL SIX MIGNE'S.** The sharpest is @0592D: not a wrong numeral
+  but a **wrong BOOK and not even a Testament** — *Aedificavit atrium interius tribus ordinibus*,
+  which is III Reg. 6:36, **the verse the gloss is expounding**, cited as I Cor. II. He cites I Cor.
+  correctly **twice on the facing page**.
+- ⚑ **@0589D is why the quoted-text discipline is not pedantry:** his `(Psal. CXVIII, 72)` points at a
+  psalm that really **has** a verse 72. A reader checking the numeral alone finds a real verse and
+  stops; only the words (*adhaerere Deo* = Ps. 72:28) show it wrong.
+- **8965 @0680C `(Rabac. III)` is MIGNE'S** — caught by the citation index, not by a translator,
+  because it sits inside an `[n:]` note. ⭐ **The non-word rule's first counter-instance, and the
+  exception has a shape: it was measured on words of the TEXT, and an abbreviated book-name is short
+  enough that one wrong sort reads as a plausible abbreviation instead of visible nonsense.**
+- **Five crops confirmed five DECLINES unasked** — the unsupplied *ne* at 8954 @0593C, *Rivocorulam*,
+  the objectless *capere non poterat*, *usque ab conversionem*, and the Hab. 3:8 divergence.
+  **Every refusal to patch was right.**
+
+### TWO NEW DEFECT CLASSES, both found by translators who FLAGGED RATHER THAN FIXED
+
+- ⭐ **An undecoded entity — one occurrence in 5,276 TEI files.** 8966 @1107B carried
+  `VERS. 35.emdash;`: the reference `&emdash;` lost its ampersand upstream, so our Latin column
+  printed seven literal characters that are **not a word, not Migne's, and not a defect of his** —
+  our own pipeline leaking XML at a reader. The stint printed the house form in the English and
+  flagged the Latin. Read at the plate (f554 prints the ordinary dash), patched, re-chunked.
+- ⭐⭐ **8976 @0435B — three defects in one line, and the first REVERSED our assumption.** A stint
+  flagged a full stop before a lower-case word and **declined to capitalize**, saying it would read as
+  our build defect. **The plate prints a COLON** — the sentence was never Migne's defect, the mark was
+  ours. Reading that same line then produced a second lost colon **and a NORMALIZATION: the plate
+  prints *Chistus*, missing its r, tidied to *Christus* in our source.** ⚑ **The normalization class
+  reaches SIX and every one has been found while reading the plate for a different question** — it
+  cannot be flagged from the file, because a normalized form reads perfectly. The English now carries
+  the work's only `[sic:]`.
+- ⬜ **A SECOND INSTANCE IS PREDICTED AND UNREAD: 8976 @0462A–B**, *fuit. ita*, at a *sicut … ita*
+  hinge — exactly where a colon belongs. The fourth stint wrote the patch text and **did not patch**.
+  One crop of PL 114 p. 236 settles it.
+
+### PROCESS THAT PAID
+
+- **Flag, do not harmonize.** Three stints refused to silently conform to a peer and sent the question
+  to the merge instead — the divergence-marker form in 8964, the non-word split in 8976, the chapter
+  heads in 8966. **A translator that silently conforms leaves no record the two ever differed.**
+- **Test 3 (punctuation band by band) is the one stints keep failing, always the same way:** 23, 16,
+  30, 13, 7, 4, 3 and 2 mismatched bands on first pass across the batch, **nearly every one a
+  semicolon the translator supplied.** In one case **two invented marks cancelled a softened one, so
+  the totals matched exactly while three bands were wrong.** Never compare by total.
+- **Transport failure is recovered by RESUMING, never relaunching.** The 8976 0010–0013 stint died
+  mid-turn with **all four chunks written and passing verify, and no cruces file** — the documented
+  trap, invisible to every automated check. One resume message naming the failure as transport (and
+  not a limit it hit) closed it; a relaunch would have re-translated four chunks.
+- **A patch is written when found and APPLIED when the book is idle.** Both TEI patches were held
+  until no agent held their `src/latin`, because restoring a colon changes token counts and can shift
+  a boundary. ⚑ The 8976 patch's first find strings were written against the **chunked** text, matched
+  zero times, and **`chunk-work.mjs` refused to run rather than proceed** — the TEI breaks both lines
+  mid-sentence.
+- ⚠ **A citation-correction `note` is READER-FACING** — the work page attaches it to the printed
+  number as a hover. `scan-raw-markers.mjs` caught a literal `[var:]` reaching a live page from my own
+  prose. Keep notes to the house form; the evidence belongs in the cruces.
+
+---
+
+## ▶ Next
+**The Glossa runs on.** 24 Glossa books still unchunked; **Romans / 1–2 Cor / Hebrews still held for
+cadence size, and Romans carries the Woodward caveat** (a full scholarly English exists — its page
+must never claim a first). ⚠ **Re-run the prior-English check per book BY SERIES NAME** — Emmaus
+Academic is publishing the whole Glossa in English. ⚑ **None of this batch's five could claim a first
+anyway** (all `workStatus: null` → "New English translation"), so that check guarded nothing here and
+cost nothing to skip.
+
+---
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-24 — FOUR HISTORICAL BOOKS · CORPUS 137 · ✅ COMMITTED · ⛔ NOT PUSHED, NOT DEPLOYED
 
 **I Regum 8952 · II Regum 8953 · IV Regum 8955 · I Esdrae 8951.** 33 chunks, 31,133 Latin words.

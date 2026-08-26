@@ -1191,3 +1191,108 @@ not destroy", which keeps the ambiguity that the Latin keeps. 3 Reg. 9:21 has ma
 - **A `[sic:]` on *regna* (0605D), *Rivocorulam* (0600D), *agentur* (0610A), *morte* (0609B as a
   `[sic:]` rather than a `[cj:]`)** — declined; all are real, well-formed words, and addendum A's
   10-for-10 split says the corpus argument loses against a plate we do not have.
+
+---
+
+## §Z · THE BLIND POLARITY READ (step 4a)
+
+Run 2026-08-25 by a reader **fenced from this file**. All 11 chunks read against their Latin twins.
+**Every printed negation in cols 0581A–0610D is present in the English and on the right word. Zero
+polarity defects of the classic kind** — the same profile as every other book in this batch.
+
+### Repaired, four sites
+
+1. **0587C — agency inverted.** *Domus **quae** tabulata portant* became "The houses which the
+   boardings bear." *quae* is nominative (an accusative referring to *domus* would be *quas*), so the
+   houses bear the boardings. ⚑ **The column's own continuation is the control** and our English
+   renders it correctly nine lines later: *non muris templi infixa, sed juxta muros trabibus …
+   superposita.* Repaired.
+2. **0592A — a referent inverted for the reader.** *Iste ingressum nostrum ad fidem, ille designat ad
+   spem* was "The one … the other", which in English binds to the **nearest** antecedent — the
+   entrance of the oracle — so the reader took faith to the oracle and hope to the temple, exactly
+   backwards. *Iste* is the nearer, the entry into the present Church, just named. **The next sentence
+   proves it**: *postes **hujus** introitus quadrangulati sunt propter quatuor Evangelii libros,
+   quorum doctrina **in fide veritatis** erudimur.* Repaired to "This … that".
+3. ⛔ **0610D — a silent repair that reversed the printed word.** *voluntas electorum spirituum
+   divinae **deseruit** potestati* was rendered "has been devoted to the divine power" — which is the
+   **emendation** *deservit*, printed with no marker at all. As Migne prints it the sentence says the
+   elect spirits **deserted** the divine power, the opposite of the paragraph's claim that *omnis
+   exercitus assistit Deo*. ⚑ The dative *potestati* is the argument: *desero* takes the accusative,
+   *deservit* the dative. **This is the 7a specimen exactly — a repair hidden inside the translation,
+   passing every automated check.** Now rendered "serves" **with `[cj: *deseruit*; read *deservit*]`**,
+   so the reading is shown rather than smuggled.
+4. **0610C — a supplied pronoun with the wrong referent.** "if **he** had had a good and pious
+   shepherd, **he** would have overcome" — but the lemma is *Vidi universum Israelem dispersum*, and
+   **Achab is the shepherd**, so as it stood Achab needed a shepherd and Achab won the battle. The one
+   lacking a shepherd is the people. Repaired to "it".
+
+### ⬜ NOT repaired — 0593C, and the reason is that a deliberate decision already stands there
+
+The reader argues that *usque ad … **ulla** in parte declinemus* cannot be affirmative: *ulla* is
+negative-polarity, the governing *ne* fell inside what the abridgment elides, and our page therefore
+tells a reader that the apostolic *linea* exists **so that** we may stray.
+
+**The argument is good and it is not being dismissed.** But three things stand against acting on it
+unilaterally: the translating stint **considered this exact site and declined it deliberately**,
+recording that the *ne* lies inside the elision; **the plate confirms the printed text** (Gallica
+f297, read this session for an unrelated citation, prints *usque ad a recta via qua ad promissam
+patriam gradimur, ulla in parte declinemus* with nothing lost by us); and **7a forbids supplying a
+negative Migne does not print**, which is the rule that has protected this edition more often than
+any other.
+
+⚑ So the question is genuinely open, and it is a question about a **rule**, not a fact: does 7a's
+prohibition reach a negative that the *abridgment formula* has swallowed, when the surviving word
+(*ulla*) is itself negative-polarity? **That is Wilson's to rule.** Recorded here and in the resume
+note; the text is unchanged meanwhile.
+
+### ⬜ Owed: a crux for 0599C
+
+*Quia **deos suos** abscondit in abdito vultus sui a conturbatione hominum.* Ps. 30:21 reads
+*Abscondes **eos***; Migne's *d*-eos makes it "he hides **his gods**". **The English carries it
+correctly**, which is right — but the reader meets a sentence about God hiding **idols** in his own
+countenance with nothing to explain it. A crux entry is owed; no marker, since the reading is his.
+
+### ⚠ The 24 lemma expansions — RAISED, AND NOT ACTED ON. See §Z2.
+
+### §Z2 · THE 24 LEMMA EXPANSIONS — the finding, and why nothing was changed
+
+The reader found **24 English lemmata carrying words the Latin twin does not print**, every added
+word verbatim the Clementine continuation, and — this is the striking part — **all 24 in chunks
+0006–0010 and none in 0000–0005.** That is a **stint boundary**, not scattered slips: the first
+stint keeps bare lemmata scrupulously (*Aedificavit viginti.* → "He built twenty."; *Porro.* →
+"Moreover."; *Ecce.* → "Behold."), and the practice changes at col. 0600A and does not change back.
+
+⛔⛔ **The reader classed all 24 as conformation. On the settled conventions they are not, and acting
+on that reading would have damaged the work.** The same finding was made on the sister book II
+Paralipomenon in this session, acted on, **and withdrawn**:
+
+- **Convention 3 (the Ruth pilot) licenses expanding a FRAGMENT** — a lemma whose governed word is
+  missing — and renders it as the phrase it stands for rather than a word-for-word stump. Most of
+  these 24 are exactly that: *Subter alas.* (wings of *what*), *Cumque.*, *Ducenta.* (two hundred
+  *what*), *Sepelite.*, *Fecitque.*
+- **The standing ruling on a work that treats the same bare lemma two ways is to EXPAND THE STUMP,
+  NOT CONTRACT ITS TWIN.** So the half that should move is **the first stint's**, not the second's.
+- ⛔ **The defect is never expansion or its absence — it is CONFORMATION**, following the familiar
+  English Bible where Migne's plate diverges from it. Expanding a fragment per convention 3 is not
+  conformation.
+
+⚑ **What the sister book cost, written down because it is the reason this one was left alone.**
+There, two numeral lemmata were contracted on this reading. Both were wrong and both were reverted:
+*Centum.* and *Ducenti.* are **clips of two-word numerals** (2 Par 1:17 *equum centum quinquaginta*,
+8:10 *ducenti quinquaginta*), so both are fragments. Worse, the contraction was justified on the
+ground that Migne's gloss supplies the figure itself — *Qui sunt ter quinquageni* — and **that reading
+was backwards**: *ter quinquageni* is **thrice fifty**, which is 150. The gloss was not withholding
+the number, it was **confirming** it, and contracting the English left the lemma saying one hundred
+above a gloss saying one hundred and fifty.
+
+⭐ **The general lesson, and it applies to every blind read this edition runs: a reader's finding can
+be right about the FACT and wrong about the RULE.** These 24 English lemmata really do print words the
+Latin twin does not — that observation is correct, valuable, and was invisible to every other check.
+What a fenced reader cannot supply is whether the convention licenses them.
+
+⬜ **What is genuinely owed here is a ruling on scope, and it is Wilson's**: whether to expand the
+first stint's stumps so the work is internally consistent, and how far convention 3 reaches when the
+supplied word is a **proper name** rather than a generic slot-filler (the sister book I Paralipomenon
+has *Her pater.* → "Her the father **of Lecha**", which is new lexical content). **Nothing has been
+changed in either direction.** The count is the useful thing to carry forward: 24 sites here, 3 in
+8964 against 4 identical shapes left bare, 5 in 8965.
