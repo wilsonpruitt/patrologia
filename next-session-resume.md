@@ -1,6 +1,33 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-26 — DEPLOY BLOCKERS CLEARED · GATE 142/142 · ✅ COMMITTED `d5ed527` · ⛔ NOT PUSHED, NOT DEPLOYED
+## ▶▶▶▶▶ SESSION 2026-08-26 — CORPUS 142 · GATE 142/142 · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
+
+**Wilson gave the OK for both.** Pushed `0d951c8..1427632` to `origin/master`; deployed
+`cd site && npx vercel --prod --archive=tgz`, aliased to **migne.app**.
+
+⚠ **`origin/master` was already at the 08-25 session close when this session started** — the 08-25
+block's "⛔ NOT PUSHED" was **stale**. Check `git status -sb` before believing a resume note's push
+state.
+
+⛔ **Step 8(a) had been missed by the 08-25 session**: all five works were built and marked
+`englishState: "ours"`, but **none was in `RECENT`**, so the landing page would have deployed without
+listing any of them. ⚑ **Being built and being marked `ours` is not evidence of being listed** — they
+are three separate steps and only the third puts a work on the front page. Now added, newest-first.
+
+**Smoke test, by BODY not status code** — all five work pages **and all five cruces pages** 200 with
+real bytes (work 208–325 KB, cruces 126–309 KB); the three repairs present and their old wordings
+absent; the `⬜ Owed` placeholder gone from the live 8954 cruces page; `/glossa` reads **36
+Englished**; the resolver answers `migne.app/pl/113/1091c` and `migne.app/pl/114/0447c`; **zero raw
+bracket markers** on either new page.
+
+⭐ **The citation corrections behave exactly as designed on the live index**: `/scripture` files
+`/pl/114/actus-apostolorum/#c428a` **under Mark**, carrying a visible `Migne: Matth. XXVIII` badge
+and the reason on hover. The index stops propagating the bad numeral without hiding that Migne set
+it.
+
+---
+
+## ▶ (superseded) The three deploy blockers — closed 2026-08-26, commit `d5ed527`
 
 **The 08-25 batch is now deployable.** Both missing polarity reads done (zero polarity defects,
 three referent repairs), 15 citation corrections entered and indexing at 0 unparsed, the 8954 crux
