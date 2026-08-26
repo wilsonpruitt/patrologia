@@ -1,5 +1,15 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-26 — DEPLOY BLOCKERS CLEARED · GATE 142/142 · ✅ COMMITTED `d5ed527` · ⛔ NOT PUSHED, NOT DEPLOYED
+
+**The 08-25 batch is now deployable.** Both missing polarity reads done (zero polarity defects,
+three referent repairs), 15 citation corrections entered and indexing at 0 unparsed, the 8954 crux
+written. Detail in the block below. **The push and the deploy are Wilson's** —
+`cd site && npx vercel --prod --archive=tgz`, step-8 checklist in full, and **smoke-test the cruces
+URLs**: five of them are newly built.
+
+---
+
 ## ▶▶▶▶▶ SESSION CLOSE 2026-08-25 — FIVE GLOSSA BOOKS · CORPUS 142 · ✅ COMMITTED · ⛔ NOT PUSHED, NOT DEPLOYED
 
 **Paralipomenon II 8965 · III Regum 8954 · Paralipomenon I 8964 · Proverbia 8966 · Actus
@@ -13,25 +23,52 @@ step-8 checklist in full, verify BY BODY not status code.
 
 ---
 
-## ⬜⬜ WHAT IS OWED BEFORE THIS BATCH CAN DEPLOY — read this first
+## ✅ THE THREE DEPLOY BLOCKERS ARE CLOSED (2026-08-26, commit `d5ed527`)
 
-1. ⛔ **TWO POLARITY READS ARE MISSING: 8966 and 8976.** `polarity-record.mjs --gate` reports
-   **140/142** and names them. **Do not ship over a red gate** — either run the reads or say plainly
-   that they ship unchecked. Both are lemma-and-gloss, the richest genre for this class; budget one
-   blind reader each, fenced from the work's `cruces.md`. **The three reads already done in this
-   batch each found real defects that every automated check passed**, so this is not a formality.
-2. **Thirteen misprinted citations are logged in the cruces but NOT yet entered in
-   `data/citation-corrections.json`** — 7 in 8966, 6 in 8976. Every one was identified from the
-   **quoted words, never the numeral**, which is the settled discipline. Both books currently index
-   **0 unparsed**, so nothing is broken; the corrections improve the scripture index rather than fix a
-   fault. ⚑ **Every such citation read at the plate this session proved to be Migne's own** (seven
-   read, seven his), so the presumption is his — but the note attached to each correction is
-   **reader-facing on the work page**, so keep it to the house form: what he prints, what the words
-   are, and that the plate confirms it if it was read.
-3. **A crux entry is owed at 8954 @0599C** — Migne's *deos suos* for Ps. 30:21's *eos*, carried
-   correctly in the English but with nothing to explain it to a reader.
+**`polarity-record.mjs --gate` is 142/142.** Nothing now blocks the deploy but Wilson's OK.
 
----
+1. ✅ **8966 and 8976 were read blind**, all 32 chunks, fenced from their cruces. **~350 printed
+   negations across both books, not one dropped and not one supplied — zero polarity defects.**
+   Three defects of OUR OWN, all **referent**, all repaired: **8966 @1091C** *ad Filium* was "to the
+   Son", making Solomon address Christ (control inside the same sentence); **8966 @1099C** *septem
+   dierum fame* was "a **famine** of seven days", where Jerome means David's seven-day **fast**;
+   **8976 @0447C** *quem* is masc. sg. and can only be Christ, but the English relative bound to "the
+   Gentiles" — the 8964 @0648C class again. ⭐ Every other candidate raised blind proved **already
+   logged with its reasoning** (0448B, 0452D *domum/donum*, 0459A *Lydda*, all five non-words, 1096D
+   *Destruet*, 1084C *palma*): the cruces files held under an independent read.
+2. ✅ **Fifteen citation corrections entered, not thirteen.** 8966's exchanged-evangelist pair is
+   **two** wrong references in one table row, and 8976 had **seven**, not six. Both works re-index at
+   **0 unparsed**. ⚠⚠ **Three column labels in the cruces were off by one column** and were corrected
+   from the text, not from the headers — **1087D→1088A, 0439A→0439C, 0427D→0428A**. Derive the column
+   by finding the quote in `src/latin/` and taking the last marker before it; do not trust a heading.
+   ⛔⛔ **PL 114's four-digit columns must be written WITHOUT the leading zero in
+   `citation-corrections.json`** — `index-work.mjs` normalizes to `428a`, so `0428a` matches nothing
+   and fails **silently** (the index still reports 0 unparsed). All seven were written wrong the
+   first time and only caught by grepping the built index for the corrected refKeys. **Grep the
+   index after writing corrections; the script will not tell you.**
+3. ✅ **8954 @0599C is written** — *deos suos* for Ps. 30:21's *eos*, rendered as printed, no marker,
+   with the Ps. 81:6 *Dii estis* reading that makes the word the **saints** and not idols. ⚑ The
+   `⬜ Owed:` placeholder had been **publishing itself as a to-do on the live cruces page**; a
+   placeholder in a cruces file is reader-facing, because `build-cruces.mjs` publishes the file as
+   written.
+
+⚑ **Five cruces pages did not exist and are now built** (8954, 8964, 8965, 8966, 8976) — the 404
+failure mode runbook step 8(b) names. **Smoke-test the cruces URL, not just the work URL.**
+
+## ⚖ A THIRD RULING NOW OWED — 8966 @1113C, and it is a fact, not a taste
+
+**The stint declined the `[cj:]` on *qui viam veritatis deservit* on the stated ground that "both
+readings construe". ⛔ They do not.** *deservio* ("serve diligently") governs the **dative**;
+*viam veritatis* is **accusative**, which only *desero* takes. So "who **serves** the way of truth"
+is not a possible parse of the printed words, and *deserit/deseruit* is not a rival but the only one.
+⭐⭐ **This is the exact converse of 8954 @0610D in this same batch** (*deseruit* silently rendered
+"has been devoted to"), which makes ***deservit*/*deserit* a live confusion pair in this corpus** —
+worth a standing check in every commentary from here. **The English is untouched.**
+
+⭐ **And the lesson generalises the batch's own rule one turn further.** 8965 taught that *a reader's
+finding can be right about the fact and wrong about the rule*. This is the mirror: **a stint's ruling
+can apply the right rule to a wrong fact.** 18a was applied correctly — to a claim about Latin syntax
+that was not true. **Check the fact the rule is standing on.**
 
 ## ⚖⚖ TWO RULINGS OWED FROM WILSON — both real, neither urgent, and NOTHING was changed pending them
 
