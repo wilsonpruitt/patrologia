@@ -1,6 +1,59 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-26 — CORPUS 142 · GATE 142/142 · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
+## ▶▶▶▶▶ SESSION 2026-08-26b — EVERY OPEN RULING CLOSED · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
+
+**Wilson ruled all three carried questions and they are applied** (`5f0b467`, deployed, aliased to
+migne.app). **Nothing is now owed on this batch.**
+
+1. ✅ **8966 @1113C — the `[cj:]` stands.** The decline rested on "both readings construe", which is
+   false: *deservio* governs the **dative** and Migne's object is **accusative**, which only *desero*
+   takes. ⛔ **Not a re-opening of the closed 18a census** — that census covered candidates declined
+   **on the bar**; this one was declined on a claim about Latin syntax.
+2. ✅ **8954 @0593C — text untouched, `[cj:]` added** on the negative the abridgment swallowed.
+   7a forbids supplying a negative **in the text**, and the text is untouched; precedent 7561 @0648.
+3. ✅ **Proper names — convention 3 stops at generic fillers.** ⭐ **The criterion is whether the name
+   is on MIGNE'S PAGE, not whether it is a name**: five contracted (*Lecha*, *Israel*, *Saba*,
+   *Solomon* @10:13, *Samaria*, *Libanus*), **three left standing** because Migne's own gloss on the
+   same line names them (*Emath*, *Solomon* @11:1, and *Joatham*, which was never an expansion — the
+   name is in the printed lemma).
+
+## ⭐⭐⭐ THE RULING WAS CORRECT AND THE POPULATION WAS WRONG — read this before any future sweep
+
+Wilson ruled **expand the bare stumps**. Applied to the 19 numeral lemmata, it reached **two sites,
+not thirty-five**, and the reason is the whole lesson:
+
+⛔ **Six of the fourteen bare numerals are glossed NUMEROLOGICALLY — the gloss expounds the bare
+number as a number.** *Et duodecim.* → *Hic **numerus** praesens tempus significat*; *Quadraginta.* →
+*Quadragenarius priscae legis tempora significat*; *Triginta et quinque.* → *Hic numerus perfectionem
+significat magistrorum*; *Quinquaginta.* → *Quinquagesimo die post Pascha*. **Expanding *Quadraginta*
+to "Forty thousand stalls" would have put a counted noun above a gloss that never uses one** — the
+8965 *Centum.* error in mirror image. **They stay bare, and that is not inconsistency with their
+expanded twins: the twins sit over glosses about the things counted.**
+
+✅ **Only the two clipped SPLIT numerals were expanded, and the test is that they were FALSE as
+printed** — "Ten," for a column eighteen cubits high (3Rg 7:15), "Ten." for eighteen thousand
+(1Par 18:12). ⭐ **Migne's own gloss supplies the completion in both** (*Ter enim seni **decem et
+octo** faciunt*), so nothing is imported. Same precedent as *Centum.* → "A hundred and fifty."
+
+⚑ **This session turned its own lesson three times.** 8965: a reader can be right about the FACT and
+wrong about the RULE. 8966 @1113C: a stint can apply the right RULE to a wrong FACT. And here: **a
+correct ruling can be applied to the wrong POPULATION.** ⭐⭐ **Read the gloss before expanding the
+lemma it glosses.**
+
+## ✅ ALSO CLOSED
+
+- **8952 / 8955 — 54 chapter heads** now mirror what Migne SETS (*CAPUT III.* → CHAPTER III.).
+  *CAPUT PRIMUM.* stays "CHAPTER ONE."; the two heads he prints **without** a full stop keep none.
+- ⭐ **8976 @0462B — the fourth stint's prediction READ AT THE PLATE AND CONFIRMED.** PL 114 p. 236
+  (corner numbers re-read: 461/462) prints ***fuit : ita*** — **a colon.** The mark was ours, exactly
+  as at 0435B. TEI patched (third entry in `data/tei-patches/8976.json`, and **this line the TEI does
+  NOT break**, so no newline in the find string), English re-synced, boundaries held. ⚑ **A stint
+  that flags a punctuation anomaly at a named rhetorical hinge is making a testable claim** — this
+  one tested true, which is worth knowing next time one is written and not patched.
+
+---
+
+## ▶ (superseded) SESSION 2026-08-26 — CORPUS 142 · GATE 142/142 · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
 
 **Wilson gave the OK for both.** Pushed `0d951c8..1427632` to `origin/master`; deployed
 `cd site && npx vercel --prod --archive=tgz`, aliased to **migne.app**.
