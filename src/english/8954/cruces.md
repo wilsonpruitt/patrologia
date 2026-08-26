@@ -1318,3 +1318,95 @@ supplied word is a **proper name** rather than a generic slot-filler (the sister
 has *Her pater.* → "Her the father **of Lecha**", which is new lexical content). **Nothing has been
 changed in either direction.** The count is the useful thing to carry forward: 24 sites here, 3 in
 8964 against 4 identical shapes left bare, 5 in 8965.
+
+---
+
+# §Z3 · THE LEMMA-EXPANSION RULING, APPLIED — 2026-08-26
+
+**Wilson ruled: expand the bare stumps; and convention 3 STOPS AT GENERIC FILLERS — a proper name is
+new lexical content, "a name a reader can get only from the Vulgate, not from anything on Migne's
+page."** Both halves were then applied to 8954, 8964 and 8965, and the second half turned out to
+carry the first.
+
+## ⭐⭐ THE FINDING THAT NARROWED IT: MOST "BARE STUMPS" ARE NOT STUMPS
+
+Nineteen lemmata across the three books end in a cardinal numeral — five already expanded, fourteen
+bare. **The bare ones were read against their own glosses before anything was touched, and the
+glosses settle it: they are NUMEROLOGICAL. They expound the bare number as a number.**
+
+| col | Migne's lemma | Migne's own gloss on it |
+|---|---|---|
+| 3Rg 4:26 | *Quadraginta,* | *Per quadraginta **tempora priscae legis** designantur* |
+| 3Rg 4:26 | *Et duodecim.* | ***Hic numerus** praesens tempus significat* |
+| 3Rg 7:25 | *E quibus tres.* | *Quia … fidem praedicant **Trinitatis*** |
+| 3Rg 9:23 | *Quinquaginta.* | ***Quinquagesimo die** post Pascha … Spiritus paracletus* |
+| 2Par 3:15 | *Triginta et quinque.* | ***Hic numerus** perfectionem significat magistrorum* |
+| 2Par 9:25 | *Quadraginta.* | ***Quadragenarius** priscae legis tempora significat* |
+
+⛔ **Expanding these would have been the 8965 error in mirror image.** There, *Centum.* was contracted
+and left a lemma saying one hundred above a gloss saying one hundred and fifty. Here, expanding
+*Quadraginta,* to "Forty thousand stalls" would have put a **counted noun above a gloss that never
+uses one** — a gloss whose entire subject is the number forty as a figure of the ancient law. **The
+counted noun is not what Migne is glossing.** They stay bare, and that is not inconsistency with
+their expanded twins: the twins (*Ducenta* → "Two hundred shields") sit over glosses about the
+things counted.
+
+## ✅ WHAT WAS EXPANDED — two sites, and the test is that the English was FALSE as printed
+
+⭐ **A clipped SPLIT numeral does not merely read tersely; it states the wrong figure.** That is 18a's
+own bar, and it is the whole of what was expanded:
+
+- **3Rg 7:15 · *Decem,*** → was "Ten," for a column **eighteen** cubits high. ⭐ **Migne's own gloss
+  supplies the completion** — *Ter enim seni **decem et octo** faciunt* — so nothing is imported.
+  Now **"Ten and eight,"**.
+- **1Par 18:12 · *Decem.*** → was "Ten." for **eighteen thousand**. Again the gloss carries the
+  figure, arguing against the codices that read *viginti et octo millia*. Now **"Ten and eight
+  thousand."**
+
+**Both are the *Centum.* → "A hundred and fifty." precedent exactly** (2Par 1:17, already in the
+book), which is why they are consistent rather than novel. ⬜ **3Rg 9:23 *Quinquaginta.* is the same
+class and was NOT expanded**: it is the *second* half of *quingenti quinquaginta*, so the missing
+digits precede it and cannot be recovered forward — and its gloss expounds fifty, not five hundred
+and fifty. Named so the asymmetry is not read as an oversight.
+
+## ✅ PROPER NAMES — five contracted, three left, by Wilson's own criterion
+
+The criterion is whether the name is on **Migne's page**, not whether it is a name:
+
+- **Contracted** — 1Par 4:21 *Her pater.* ("of Lecha") · 3Rg 9:20 *De filiis.* ("of Israel") ·
+  3Rg 10:4 *Videns autem.* ("the queen of Saba") · 3Rg 10:13 *Rex autem.* ("king Solomon") ·
+  3Rg 20:43 *Et furibundus.* ("he came into Samaria") · 2Par 25:18 *Carduus qui,* ("is in Libanus").
+- **Left standing, because the name is in Migne's own gloss on the same line** — 3Rg 8:65
+  *Ab introitu.* → "From the entrance of Emath" (*per introitum **Emath** designat*) · 3Rg 11:1
+  *Rex autem.* → "And king Solomon" (the gloss reproves **Salomon** by name) · 2Par 27:1, where
+  **Joatham stands in the printed lemma itself** and was never an expansion at all.
+
+⚑ **The general lesson, and it is this session's own, turned on itself twice.** 8965 taught that a
+reader can be right about the fact and wrong about the rule. 8966 @1113C taught that a stint can
+apply the right rule to a wrong fact. **This one is the third turn: a correct ruling can be applied
+to the wrong population.** The ruling said expand the stumps; the page said most of these were never
+stumps. **Read the gloss before expanding the lemma it glosses.**
+
+---
+
+# §Z4 · 0593C — RULED, AND THE MARKER IS ON (2026-08-26)
+
+**Wilson ruled: leave the text, add the `[cj:]`.** The question was whether 7a reaches a negative the
+**abridgment** swallowed — *usque ad … ulla in parte declinemus*, where *ulla* is negative-polarity
+and the governing *ne* fell inside what the formula elides.
+
+⭐ **The ruling threads it exactly, and the reasoning is worth keeping: 7a forbids supplying a
+negative IN THE TEXT, and the text is untouched.** The English still reads "that in any part we may
+turn aside"; the marker tells the reader where the negative went. Nothing is smuggled in, and the
+page no longer says only the affirmative:
+
+`that in any part [cj: *ulla*; read *ne ulla*, "that we may not in any part turn aside"] we may turn aside`
+
+**Precedent: 7561 @0648**, where Migne's setting dropped the *non* of *non solum … sed etiam* and was
+**glossed rather than supplied** — a site that sits on 18a's own approved list. ⚑ **A dropped word is
+glossable**; that is the whole point of the form, and it is why the printed word (*ulla*) leads the
+marker and `verify-english` checks it against the Latin twin.
+
+⬜ **What is NOT claimed:** that Migne erred. He did not — the plate confirms the printed text
+(Gallica f297), and the *usque ad* formula removing words is an abridgment, not a defect. The marker
+names the elision, not a fault.

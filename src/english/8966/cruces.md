@@ -1792,3 +1792,28 @@ correction belongs to whoever owns 18a.
   already logged and marked.
 - **1083B *usque ad juventam … comparavit*** — an elided tail; both parses underdetermined.
 - **1086C *Non enim doceret sapientia*, 1092B *Noli arguere*** — checked, faithful.
+
+---
+
+# §Z2 · 1113C — THE RULING IS CORRECTED AND THE `[cj:]` NOW STANDS (2026-08-26)
+
+§1529 declined the conjecture on the stated ground that "**both readings construe**". ⛔ **They do
+not, and the decline rested on that one wrong fact.** *deservio* ("serve diligently") is
+intransitive and governs the **dative**; Migne's object *viam veritatis* is **accusative**, which
+only *desero* takes. So "who **serves** the way of truth" is not a weaker reading of the printed
+words — it is not a possible parse of them at all, and *deserit* is not a rival but the only one.
+
+**18a's bar is therefore met**: the English asserts something false, and a verb substitution is on
+18a's own ✅ list. The text is unchanged, as the convention requires — nothing is removed and nothing
+replaced — and the marker now stands beside it:
+
+`who serves [cj: *deservit*; read *deserit*, "forsakes"] the way of truth`
+
+⭐ **This is the converse of 8954 @0610D in the same batch** (*deseruit* silently rendered "has been
+devoted to"), which makes ***deservit* / *deserit* a live confusion pair in this corpus** and worth a
+standing check in every commentary from here.
+
+⚠ **This is NOT a re-opening of the 18a census**, which is closed and stays closed: that census ran
+2026-08-18 over candidates declined *on the bar*. This decline was made 2026-08-25, after it, and on
+a claim about Latin syntax rather than on the bar. ⭐ **A stint can apply the right rule to a wrong
+fact. Check the fact the rule is standing on.**

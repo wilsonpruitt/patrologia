@@ -3306,3 +3306,26 @@ file**; nothing to reopen, but it is the one thing in this work a reader will no
 - **0461A *aurum ex argentum*** (for *et*) and **0461B *episcopus Corinthiorum*** (against the
   Areopagite's own surname, which the next clause derives from where he presided) — both Migne's,
   both carried, both **worth a line in §2 if the file is revised**; neither is ours.
+
+---
+
+# §Z2 · 0462A–B — THE PREDICTION READ AT THE PLATE, AND PATCHED (2026-08-26)
+
+The fourth stint predicted a second instance of the 0435B class here — *fuit. ita* at a *sicut … ita*
+hinge, which is exactly where a colon belongs — wrote the patch text, and did not patch. ✅ **Read.**
+
+**PL 114 p. 236** (`patrologiaecurs06saingoog`, PDF page = (column + 11) / 2, **corner numbers
+re-read before the crop: 461 and 462**), rendered at 600 dpi. The plate prints:
+
+> *… signaculum fidei quam habebant **fuit : ita** et hoc lavacrum …*
+
+⭐ **A COLON.** So this sentence, like 0435B, was **never Migne's defect — the mark is ours**, and the
+English's apparent mid-sentence full stop before a lower-case "so" went with it. Both are repaired:
+the TEI patch restores his colon (`data/tei-patches/8976.json`, third entry) and the English now
+reads "…was a seal of the faith which they had**:** so also the penitent people…". ⚑ Unlike the two
+0435B patches, **the TEI does not break this line**, so the find string carries no newline.
+
+⭐⭐ **The prediction was made from the file alone and proved right at the plate.** That is worth
+recording as a method result: **a stint that flags a punctuation anomaly at a named rhetorical hinge
+is making a testable claim, and this one tested true.** The class now stands at two confirmed in this
+book, both ours, both invisible to every automated check.

@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the on-disk PL 114 scan, archive.org patrologiaecurs06saingoog (raw/scans/pl114/), PDF page = (column + 11) / 2, RE-CALIBRATED before the read against the printed corner numbers: p. 223 = cols 435/436. Rendered at 200 dpi, full page width, and the whole line read at each site.",
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the on-disk PL 114 scan, archive.org patrologiaecurs06saingoog (raw/scans/pl114/), PDF page = (column + 11) / 2, RE-CALIBRATED before the read against the printed corner numbers: p. 223 = cols 435/436. Rendered at 200 dpi, full page width, and the whole line read at each site. — 2026-08-26: extended to p. 236 (cols 461/462) for the predicted 0462B site, corner numbers re-read before the crop, rendered at 600 dpi.",
   "class": "THREE DEFECTS IN ONE LINE, of two classes, all found while answering a question about a fourth thing. The translating agent flagged a full stop followed by a lower-case word at 0435B — declining to capitalize, because that would silently repair the plate's typography, and saying plainly it would read to a viewer as our own build defect. It was right to flag and right not to touch it. The plate answers: Migne prints a COLON there, and a colon before a lower-case word is ordinary. So the sentence was never his defect; the mark is ours. Reading the same line for that answer then produced two more — a second colon corrupted to a spaced hyphen, and a NORMALIZATION: Migne prints 'Chistus', missing its r, and the digitization tidied it to 'Christus'. That is addendum C exactly — the normalization class lives in the neighbours of the word you came to read, and nobody can flag it from the file, because a normalized form reads perfectly. The class now stands at six.",
   "patches": [
     {
@@ -13,6 +13,12 @@
       "find": "Semen\nAbrahae Christus est - in fide cujus",
       "replace": "Semen\nAbrahae Chistus est : in fide cujus",
       "why": "TWO corruptions in six words, and they must be repaired together. (1) The same colon-loss as above, here become a spaced hyphen — a mark Migne does not use anywhere in this book. (2) THE NORMALIZATION: the plate prints 'Chistus', without the r, and our source silently corrected it to 'Christus'. Our Latin column was therefore printing a word Migne did not print, in a line where he made a visible slip. Restoring it puts the defect back where the reader can see it; the English says Christ, as it must, and now carries a [sic:] because the plate licenses one — a marker asserts a defect and only a plate can license it. ⚠ The TEI breaks the line between 'Semen' and 'Abrahae', so this find string carries the newline too."
+    },
+    {
+      "col": "0462B",
+      "find": "fidei quam habebant fuit. ita et hoc lavacrum",
+      "replace": "fidei quam habebant fuit : ita et hoc lavacrum",
+      "why": "THE FOURTH STINT'S PREDICTION, READ AND CONFIRMED (2026-08-26). It flagged this as a second instance of the 0435B class -- a full stop before a lower-case word at a 'sicut ... ita' hinge, which is exactly where a colon belongs -- wrote the patch text, and did not patch. The plate settles it: PL 114 p. 236 (cols 461/462, corner numbers re-read before the crop) prints 'fidei quam habebant fuit : ita et hoc lavacrum'. A COLON. So this sentence, like 0435B, was never Migne's defect; the mark is ours, and the English's apparent mid-sentence full stop before a lower-case 'so' goes with it. Restoring the colon repairs nothing of Migne's. NOTE: unlike the two 0435B patches, the TEI does NOT break this line, so the find string carries no newline."
     }
   ],
   "unread": [],
