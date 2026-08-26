@@ -18,6 +18,12 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-25 session: the Glossa's eighth cadence batch, and the one where three blind reads found not one polarity defect in six books and every repair was a referent instead —
+  'pl/114/actus-apostolorum',                                     // Anselm of Laon and his school — the gloss on Acts; Pentecost with the fire's four natures, Stephen's speech and Paul's road, and a line where the plate proved the broken sentence was our full stop and the lost colon Migne's
+  'pl/113/liber-proverbiorum',                                    // Anselm of Laon and his school — the gloss on Proverbs; Wisdom read as Christ calling the persecutors back after the passion, and a note citing Isaias for a verse of Ecclesiasticus, caught from the words and never the numeral
+  'pl/113/liber-iii-regum',                                       // Anselm of Laon and his school — the gloss on 1 Kings; Solomon's temple as the Church built of living stones, and a citation that names not just the wrong book but the wrong Testament, for the very verse the gloss is expounding
+  'pl/113/liber-paralipomenon-i',                                 // Anselm of Laon and his school — the gloss on 1 Chronicles; the ark brought up to Sion, and a page where a relative bound to the nearest noun had handed the Incarnation and the harrowing of hell to the company of the saints
+  'pl/113/liber-paralipomenon-ii',                                // Anselm of Laon and his school — the gloss on 2 Chronicles; Solomon's dedication and the reforming kings, with Athalia restored to her own sex and the grace of baptism held apart from the grace of confirmation
   // — 2026-08-24 session: the Glossa's seventh cadence batch, the historical books, and the one where the plate went against our own transcription fifteen times out of fifteen —
   'pl/113/liber-i-regum',                                         // Anselm of Laon and his school — the gloss on 1 Samuel; Hannah's song read as the Church's, Saul rejected and David chosen, and a clause where God, not Phalti, is the one who keeps him from touching Michol
   'pl/113/liber-ii-regum',                                        // Anselm of Laon and his school — the gloss on 2 Samuel; David's lament over Saul and Jonathan, Absalom's revolt, and a page that had said Absalom was cast out for the sins his father was punished for
