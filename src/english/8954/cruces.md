@@ -1245,12 +1245,34 @@ prohibition reach a negative that the *abridgment formula* has swallowed, when t
 (*ulla*) is itself negative-polarity? **That is Wilson's to rule.** Recorded here and in the resume
 note; the text is unchanged meanwhile.
 
-### ⬜ Owed: a crux for 0599C
+### 0599C · *deos suos* for Ps. 30:21's *eos* — the crux, settled 2026-08-26
 
-*Quia **deos suos** abscondit in abdito vultus sui a conturbatione hominum.* Ps. 30:21 reads
-*Abscondes **eos***; Migne's *d*-eos makes it "he hides **his gods**". **The English carries it
-correctly**, which is right — but the reader meets a sentence about God hiding **idols** in his own
-countenance with nothing to explain it. A crux entry is owed; no marker, since the reading is his.
+**Migne prints** *Quia **deos suos** abscondit in abdito vultus sui a conturbatione hominum.*
+**The English reads** "Because he hides his gods in the hidden place of his countenance from the
+disturbance of men."
+
+**The psalm reads otherwise.** Ps. 30:21 is *Abscondes **eos** in abscondito faciei tuae a
+conturbatione hominum* — "Thou shalt hide them in the secret of thy face from the disturbance of
+men." The glossator is paraphrasing throughout, not quoting: he turns the second person into the
+third (*abscondes* → *abscondit*), *abscondito* into *abdito*, *faciei* into *vultus*. **Against
+that, *deos* for *eos* is one letter further along the same road**, and it is impossible to say from
+the page whether the letter is the glossator's, a copyist's, or the printer's.
+
+**What was done, and why.** ⭐ **Rendered as printed, with no `[cj:]` and no `[sic:]`.** *deos* is a
+perfectly good Latin word, and in this sentence it carries a live patristic sense: the saints, who
+are the treasures of the house of the Lord, are called **gods by adoption** after Ps. 81:6 *Ego
+dixi: Dii estis* — and the paragraph the sentence opens is precisely about the saints, many
+treasures differing in merit within the one house. Pattern 18 fires only when the English **asserts
+something false**; under that reading it does not, so the bar is not met and the printed word
+stands.
+
+⚠ **What a reader should know.** The sentence is not about idols. Read it with Ps. 81:6 in hand and
+the "gods" are the saints of the next sentence; read it against Ps. 30:21 and the word is one letter
+from *eos*, "them", which is the same people under a plainer name. **Both roads end at the saints**,
+which is why the choice between them changes no doctrine and did not warrant a marker. **Not read at
+the plate** — Gallica f300 was read this session for the *(II Cor. XV)* citation in the same column
+and the crop was not extended to this line, so a second witness could still settle whose letter it
+is.
 
 ### ⚠ The 24 lemma expansions — RAISED, AND NOT ACTED ON. See §Z2.
 

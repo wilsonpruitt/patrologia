@@ -22,8 +22,11 @@
   },
   "scripture": [
     {
-      "refKey": "John.6",
+      "refKey": "John.16.25",
       "refDisplay": "Joan. VI",
+      "refKeyPrinted": "John.6",
+      "corrected": true,
+      "correctionNote": "Migne prints VI for XVI. The words are John 16:25 verbatim.",
       "column": "1079c",
       "chunk": 0
     },
@@ -52,8 +55,11 @@
       "chunk": 0
     },
     {
-      "refKey": "Isa.58",
+      "refKey": "Sir.24.5",
       "refDisplay": "Isai. LVIII",
+      "refKeyPrinted": "Isa.58",
+      "corrected": true,
+      "correctionNote": "Not a wrong chapter but a wrong book: Ecclesiasticus 24:5 cited as Isaias.",
       "column": "1083b",
       "chunk": 1
     },
@@ -82,8 +88,11 @@
       "chunk": 2
     },
     {
-      "refKey": "Matt.18",
+      "refKey": "Luke.17.3",
       "refDisplay": "Matth. XVIII",
+      "refKeyPrinted": "Matt.18",
+      "corrected": true,
+      "correctionNote": "The words are Luke 17:3; Matt. 18:15 reads vade et corripe eum. Paired with the note at 1088A, where Luke is printed for Matthew: the two evangelists have been exchanged.",
       "column": "1085d",
       "chunk": 2
     },
@@ -100,8 +109,11 @@
       "chunk": 2
     },
     {
-      "refKey": "Matt.15",
+      "refKey": "Matt.25.34",
       "refDisplay": "Matth. XV",
+      "refKeyPrinted": "Matt.15",
+      "corrected": true,
+      "correctionNote": "Migne prints XV for XXV. The note sits on Venite, benedicti (Matt. 25:34); the clause opening the run, Qui benedixit nos in omni benedictione spirituali, is Eph. 1:3.",
       "column": "1086b",
       "chunk": 2
     },
@@ -118,8 +130,11 @@
       "chunk": 3
     },
     {
-      "refKey": "Luke.12",
+      "refKey": "Matt.10.28",
       "refDisplay": "Luc. XII",
+      "refKeyPrinted": "Luke.12",
+      "corrected": true,
+      "correctionNote": "The words are Matt. 10:28; Luke 12:5 reads qui habet potestatem mittere in gehennam. Paired with the note at 1085D, where Matthew is printed for Luke.",
       "column": "1088a",
       "chunk": 3
     },
@@ -268,14 +283,20 @@
       "chunk": 9
     },
     {
-      "refKey": "John.3",
+      "refKey": "John.5.23",
       "refDisplay": "Joan. III",
+      "refKeyPrinted": "John.3",
+      "corrected": true,
+      "correctionNote": "The words are John 5:23 verbatim. John 3 has qui non credit Filio, neither these words nor this argument.",
       "column": "1108a",
       "chunk": 10
     },
     {
-      "refKey": "1Pet.3",
+      "refKey": "1Pet.5.6",
       "refDisplay": "I Petr. III",
+      "refKeyPrinted": "1Pet.3",
+      "corrected": true,
+      "correctionNote": "The words are 1 Peter 5:6 verbatim; 1 Peter 3 has no such clause.",
       "column": "1108c",
       "chunk": 10
     },
@@ -334,8 +355,11 @@
       "chunk": 12
     },
     {
-      "refKey": "Exod.13",
+      "refKey": "Exod.23.3",
       "refDisplay": "Exod. XIII",
+      "refKeyPrinted": "Exod.13",
+      "corrected": true,
+      "correctionNote": "A transposed numeral, XIII for XXIII. Exodus 13 is the consecration of the firstborn.",
       "column": "1114c",
       "chunk": 13
     },

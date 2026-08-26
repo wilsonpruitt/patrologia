@@ -1744,3 +1744,51 @@ silent smoothing of four awkward tails.
 - **Nothing in the peers' chunks was read or altered.** I read `cruces-0000.md` and `cruces-0005.md`
   for their vocabulary and their rulings, and 8968 §1, 8964 §M and 8954 §M for the conventions, and
   wrote only `0010`–`0013` and this file.
+
+---
+
+# §Z · BLIND POLARITY READ (runbook step 4a) — 2026-08-26
+
+**All 14 chunks read against the Latin twin, fenced from this file until findings were formed.**
+Every printed negation in cols 1079C–1116D is carried: `non`, `nec/neque`, `ne`, `nihil/nil`,
+`nemo`, `nullus`, `nunquam`, `nisi`, `nondum`, and the `non solum … sed etiam` frames — roughly 150
+sites, **not one dropped, not one supplied.** ⭐ **Zero polarity defects.** Chunks read and found
+clean: 0000, 0001, 0002, 0003, 0005, 0008, 0009, 0010, 0011, 0013. Two chunks gave sites (below).
+
+## Sites — both are OURS, both are referent, neither is a negation
+
+- ⭐ **0004 · 1091C · *Hucusque locutus est parabolice ad Filium*** — was "spoken in parables **to**
+  the Son", which makes Solomon **address Christ**; nothing in the book addresses anyone but *fili
+  mi*. **The control is inside the same sentence**: *ostendit et commendat **eam** secundum utramque
+  naturam, scilicet divinam et humanam* — the passage is about what is predicated **of** the Son, not
+  about who was spoken to. *ad* + acc. carries "with reference to" in this register. **Now "spoken in
+  parables concerning the Son."** ⚠ Migne's capital *F* is kept; only the preposition moved.
+- ⭐ **0007 · 1099C · *David homicidium et adulterium septem dierum fame purgavit*** — was "by a
+  **famine** of seven days". *fames* here is David's own seven-day fast (2 Reg. 12:16–18), the
+  episode Jerome cites *de morte Fabiolae*; a famine is a public calamity nobody chooses, and cannot
+  purge the penitent who suffers it. ⚑ **The work had the word right elsewhere** — §897 renders
+  *famae* at 1103A "the hunger of lowest covetousness" — so this is a slip, not a convention. **Now
+  "by a hunger of seven days."**
+
+## ⚖ ONE STANDING RULING RE-OPENED — for Wilson, nothing changed pending it
+
+**1113C · *qui viam veritatis deservit*** (§1529) declined the `[cj:]` on the stated ground that
+"**both readings construe**". ⛔ **They do not.** *deservio* ("serve diligently") governs the
+**dative**; *viam veritatis* is **accusative**, which only *desero* takes. So the printed word does
+not construe as "serves" at all, and the rival *deserit/deseruit* is not a rival but the only parse.
+⭐ **This is the exact converse of 8954 @0610D, found earlier in this same batch** (*deseruit*
+rendered "has been devoted to"), which makes *deservit*/*deserit* a live confusion pair in this
+corpus. **The English is untouched**; the ruling turned on a fact about Latin syntax, so the
+correction belongs to whoever owns 18a.
+
+## Candidates raised and REJECTED, with reasons
+
+- **1094D *ille … iste*** — "the former … the latter" maps correctly; the prize fixes it.
+- **1096A *hic … ille*** — "the one … the other" binds first/second in English and lands right.
+- **1096D *Destruet* → "She shall destroy"** — read as a live trap (Prov. 14:1's subject is
+  *insipiens*), then found **already decided at §1008**. Not a new site. ⚠ It remains reader-facing:
+  after "*A wise woman,* etc." an English "she" binds to the wise woman.
+- **1084C *palma*, 1108D *Deus* for *Dens*, 1116A *nostium*** — all three met blind, all three
+  already logged and marked.
+- **1083B *usque ad juventam … comparavit*** — an elided tail; both parses underdetermined.
+- **1086C *Non enim doceret sapientia*, 1092B *Noli arguere*** — checked, faithful.

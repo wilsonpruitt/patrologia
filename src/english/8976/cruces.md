@@ -3250,3 +3250,59 @@ Named, because a findings list without its negatives is not a report.
 - **Pattern 9 items met and left alone**: *coelum/coelis* for *caelum* throughout · *tanquam* ·
   *nunquam*/*Nunquid* · *Jerosolymam* · *sylva*-class spellings · *Eutichus* for *Eutychus* ·
   *Ismaelites*-class name forms. **None marked, none italicized**, per runbook false positive 6.
+
+---
+
+# §Z · BLIND POLARITY READ (runbook step 4a) — 2026-08-26
+
+**All 18 chunks read against the Latin twin, fenced from this file until findings were formed.**
+Every printed negation in cols 0425C–0470A is carried — roughly 200 sites across `non`, `nec/neque`,
+`ne`, `nihil`, `nemo`, `nullus`, `nunquam`, `nisi`, `nondum`, the `non solum … sed etiam` frames, and
+**three double negatives** (0446D *Non quod ignoret Petrus eum poenitentiam **non** acturum*, 0466A
+*Non … tribunus … civis esse **non** posset*, 0448C *nisi prius excaecatus*). **Not one dropped, not
+one supplied.** ⭐ **Zero polarity defects.** Chunks read clean: 0000–0007, 0009–0017.
+
+## The site — ours, and it is a relative, not a negation
+
+⭐ **0008 · 0447C · *ut ex hoc Gentibus **is** praedicetur **quem** prius nesciebant*** — was "that
+from this he might be preached **to the Gentiles whom before they knew not**". ⛔ ***quem* is
+masculine accusative singular and cannot agree with *Gentibus*** (dat./abl. pl.); its only possible
+antecedent is *is*, Christ. English binds a relative to the **nearest** noun, so our page said the
+Gentiles were the unknown party — which is also incoherent, since the sentence is about Philip
+opening the Church's mouth so that Christ may be *preached to* them. **Now "that from this he whom
+before they knew not might be preached to the Gentiles."** ⚑ **Same class as 8964 @0648C**, found
+earlier in this batch: a relative that construes one way in Latin by morphology and another way in
+English by proximity.
+
+## The strongest near-miss in the book, checked and CORRECT
+
+**0439A · *qui **nec** territi minis cessant praedicare*** → "who, terrified by threats, cease not to
+preach." Read first as a dropped *nec*. ⭐ **It is not.** If *nec* attached to *territi*, *cessant
+praedicare* would stand affirmative and say the apostles **stop** preaching — the opposite of what
+the sentence praises them for. The *nec* negates *cessant*, and the English keeps it on "cease not";
+*territi minis* is concessive. **Check the rule before acting on the fact.**
+
+## Candidates raised blind and found ALREADY LOGGED — the file's coverage held
+
+Each of these was reached independently before this file was opened, and each was already recorded
+with its reasoning: **0448B *Dominus jubetur*** (§R2), **0452D *domum* for *donum*** (§3.5 — which
+names the same control I found, *Ita enim datur sicut donum Dei*), **0459A *Lydda* for *Lydia***
+(§2.4), **0429D *Matthaeus* for *Matthias*** (§205), and **all five non-words** — *posili*, *ite
+rum*, *credeban*, *quisbusdam* carried, *Mundacavi* normalized (§2.1, §1035–1077). ⚑ The
+differential treatment of the five reads as inconsistent from the page and is **reasoned in the
+file**; nothing to reopen, but it is the one thing in this work a reader will notice unaided.
+
+## Candidates raised and REJECTED, with reasons
+
+- **0432D *Non iterum movear*** — "Let me not again be moved" reads as a wish beside indicative
+  neighbours (*Scio me semper esse victurum*, *iterum non moriar*), but *movear* is subjunctive in
+  form and sits naturally as the purpose of the lemma *Non derelinques*. Underdetermined; left.
+- **0460A *Apostoli vero contradicebant Christum regem esse Judaeorum*** — *contradico* + acc.-inf.
+  normally means "deny that", which would have the apostles denying Christ's kingship; but the gloss
+  then redefines *Judaei* as *confitentes*, which makes a political denial coherent. **The Latin is
+  genuinely ambiguous and the English preserves the same ambiguity** rather than resolving it wrongly.
+- **0454A *quia princeps erat, non ipse Herodes, sicut et Jacobus*** — the appositive may belong to
+  the killing rather than to *princeps*. Compressed past deciding; left as printed.
+- **0461A *aurum ex argentum*** (for *et*) and **0461B *episcopus Corinthiorum*** (against the
+  Areopagite's own surname, which the next clause derives from where he presided) — both Migne's,
+  both carried, both **worth a line in §2 if the file is revised**; neither is ours.
