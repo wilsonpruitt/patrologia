@@ -1,0 +1,346 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3954,
+  "textIdno": 8977,
+  "title": "Apocalypsis B. Joannis",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "709c",
+  "colLast": "752b",
+  "counts": {
+    "scripture": 24,
+    "fontes": 4,
+    "heads": 24,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
+      "column": "711c",
+      "chunk": 1
+    },
+    {
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "715b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Dan.1",
+      "refDisplay": "Dan. I",
+      "column": "715b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Prov.17",
+      "refDisplay": "Prov. XVII",
+      "column": "715b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "715d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Jas.2",
+      "refDisplay": "Jac. II",
+      "column": "716b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Exod.10",
+      "refDisplay": "Exod. X",
+      "column": "716b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "716b",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "716b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Acts.4",
+      "refDisplay": "Act. IV",
+      "column": "716c",
+      "chunk": 3
+    },
+    {
+      "refKey": "John.9",
+      "refDisplay": "Joan. IX",
+      "column": "716c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "717c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Phil.2",
+      "refDisplay": "Philip. II",
+      "column": "719c",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "719c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Luke.10",
+      "refDisplay": "Luc. X",
+      "column": "720b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Rom.10",
+      "refDisplay": "Rom. X",
+      "column": "723d",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "729c",
+      "chunk": 10
+    },
+    {
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "729d",
+      "chunk": 10
+    },
+    {
+      "refKey": "Job.40",
+      "refDisplay": "Job. XL",
+      "column": "739d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ezek.16",
+      "refDisplay": "Ezech. XVI",
+      "column": "739d",
+      "chunk": 15
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "741a",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.32",
+      "refDisplay": "Psal. XXXII",
+      "column": "743c",
+      "chunk": 16
+    },
+    {
+      "refKey": "2Cor.3",
+      "refDisplay": "II Cor. III",
+      "column": "747a",
+      "chunk": 18
+    },
+    {
+      "refKey": "Phil.3",
+      "refDisplay": "Phil. III",
+      "column": "748b",
+      "chunk": 18
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BED.",
+      "column": "748b",
+      "chunk": 18
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "748b",
+      "ibidResolved": true,
+      "column": "748b",
+      "chunk": 18
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "BED.",
+      "antecedentColumn": "748b",
+      "ibidResolved": true,
+      "column": "748b",
+      "chunk": 18
+    },
+    {
+      "raw": "BED.",
+      "column": "748c",
+      "chunk": 18
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS HIERONYMI.",
+      "column": "709c",
+      "chunk": 0,
+      "en": "THE PROLOGUE OF JEROME."
+    },
+    {
+      "la": "ARGUMENTUM.",
+      "column": "709d",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "710c",
+      "chunk": 1,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "714a",
+      "chunk": 2,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "715d",
+      "chunk": 3,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "717d",
+      "chunk": 4,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "719d",
+      "chunk": 5,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "721b",
+      "chunk": 6,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "723b",
+      "chunk": 7,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "725a",
+      "chunk": 8,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "726c",
+      "chunk": 9,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "729a",
+      "chunk": 10,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "730b",
+      "chunk": 10,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "731d",
+      "chunk": 11,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "733b",
+      "chunk": 12,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "734d",
+      "chunk": 13,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "736d",
+      "chunk": 13,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "737d",
+      "chunk": 14,
+      "en": "CHAPTER XVI."
+    },
+    {
+      "la": "CAPUT XVII.",
+      "column": "739b",
+      "chunk": 15,
+      "en": "CHAPTER XVII."
+    },
+    {
+      "la": "CAPUT XVIII.",
+      "column": "741b",
+      "chunk": 16,
+      "en": "CHAPTER XVIII."
+    },
+    {
+      "la": "CAPUT XIX.",
+      "column": "742c",
+      "chunk": 16,
+      "en": "CHAPTER XIX."
+    },
+    {
+      "la": "CAPUT XX.",
+      "column": "744b",
+      "chunk": 17,
+      "en": "CHAPTER XX."
+    },
+    {
+      "la": "CAPUT XXI.",
+      "column": "745d",
+      "chunk": 18,
+      "en": "CHAPTER XXI."
+    },
+    {
+      "la": "CAPUT XXII.",
+      "column": "750a",
+      "chunk": 19,
+      "en": "CHAPTER XXII."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}

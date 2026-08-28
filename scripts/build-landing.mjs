@@ -18,6 +18,9 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-28 session: the Glossa's ninth cadence batch, Apocalypse and the Song of Songs, and the one where a single plate page recovered three dropped Hebrew words and settled two identical-looking single-letter divergences in opposite directions —
+  'pl/114/apocalypsis-b-joannis',                                 // Anselm of Laon and his school — the gloss on the Apocalypse of John; the seven churches, the seals opened and the New Jerusalem, with a Douay "shortly" that had swallowed Migne's own next lemma
+  'pl/113/canticum-canticorum',                                   // Anselm of Laon and his school — the gloss on the Song of Songs; Bride and Bridegroom read as Church and Christ, and a page that had given the Bridegroom's answer to the Bride's own question until the work's own words settled it back
   // — 2026-08-25 session: the Glossa's eighth cadence batch, and the one where three blind reads found not one polarity defect in six books and every repair was a referent instead —
   'pl/114/actus-apostolorum',                                     // Anselm of Laon and his school — the gloss on Acts; Pentecost with the fire's four natures, Stephen's speech and Paul's road, and a line where the plate proved the broken sentence was our full stop and the lost colon Migne's
   'pl/113/liber-proverbiorum',                                    // Anselm of Laon and his school — the gloss on Proverbs; Wisdom read as Christ calling the persecutors back after the passion, and a note citing Isaias for a verse of Ecclesiasticus, caught from the words and never the numeral
