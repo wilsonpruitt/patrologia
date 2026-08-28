@@ -42,7 +42,7 @@ de throno* · *Ecce tabernaculum*). Those were walked in place.
 | 0739D | *In die ortus **sui**,* | Ez 16:4 *in die ortus **tui*** | Third-person for second. **The gloss's own next lemma keeps the second person** — *non est praecisus umbilicus **tuus*** — and its comment is *non refrenasti luxuriam*, "thou hast not bridled". Migne's own sentence is at odds with itself across four words. |
 | 0742B | VERS. 20.-- *Exsultate super eam.* | Apc 18:20 *Exsulta super eam caelum* | Plural imperative for singular. |
 | 0742D | *Exsultate super eam, **coeli**,* | Apc 18:20 *…caelum* | The same verse re-quoted, and here the addressee is pluralized too. Marked separately because it is a second, distinct divergence (the noun) on a second occurrence; a reader meeting the re-quotation is entitled to the same note. |
-| 0743C | VERS. 12.-- *Sicut flamma **lignis**.* | Apc 19:12 *sicut flamma **ignis*** | Rendered "*As a flame in timber.*" *lignis* is a real, well-formed word, so Pattern 12 has nothing to wrap and Pattern 7 requires it Englished as it stands; the divergence from the received text is what Pattern 14 exists for. ⚠ **Also logged as a plate-read candidate** — *ignis* → *lignis* is exactly the class §4 of the brief describes, and one letter decides it. Note the gloss (*comburit … accendit … illuminat*) construes with either reading, so the gloss cannot adjudicate. |
+| 0743C | VERS. 12.-- *Sicut flamma **ignis**.* | Apc 19:12 *sicut flamma **ignis*** — AGREES | ✅ **PLATE-READ AND WITHDRAWN, 2026-08-28.** PL 114 p. 377 (cols 743/744, corner numbers read first) prints ***ignis***. The *lignis* was **Corpus Corporum's**, not Migne's — an inserted l manufacturing 'a flame of timber'. So there was never a divergence from Apc 19:12, and the `[var:]` asserted one on the strength of our own digitization's error. Marker removed, English now reads *As a flame of fire.*, TEI patched (`data/tei-patches/8977.json`) and the work re-chunked. ⭐ The crux was right that the gloss could not adjudicate — *comburit … accendit … illuminat* construes either way — and right to send it to the plate. |
 | 0744C | VERS. 4.-- *Et **vide** sedes.* | Apc 20:4 *Et **vidi** sedes* | Imperative for first-person perfect. Rendered "*And see thrones.*" **The gloss immediately below re-quotes it in the first person three times** — *vidi solutos fideles* · *Vidi in tempore ligationis* · *vidi statim in gloriam intrare* — so Migne's own comment reads *vidi*. ⚠ **Plate-read candidate**, same class as the above. |
 | 0749C | *Plateae civitatis aurum.* | Apc 21:21 *platea civitatis aurum* | Plural for singular. Rendered "*The streets of the city gold.*", verbless as Migne prints it. The gloss construes a **plural** (*pleni*, *mundi*), so the plural is not a stray *-e*: it is carried into the comment. |
 
@@ -437,3 +437,12 @@ containment failure:
   `(Job. XL)` · `(Ezech. XVI)` · `(Joan. IV)` · `(Psal. XXXII)` · `(II Cor. III)` ·
   `(Phil. III)` · `(BED.)` ×2 · `(ID.)` ×2. **No note in this range is editorial prose, so no
   `[nt:]` was made.** A checked zero, not a skip.
+
+## ✅ PLATE READ, 2026-08-28 — the two single-letter candidates of §1a, settled OPPOSITE ways
+
+Both were flagged here as needing one letter decided at the plate. **PL 114 p. 377 carries both**, and it splits them:
+
+- **0743C *lignis*** was **OURS**. Migne prints *ignis*; the `[var:]` is withdrawn and the TEI patched. See the row in §1a.
+- **0744C *vide*** is **MIGNE'S**. He prints the imperative *Et vide sedes*, and the `[var:]` against Clementine *Et vidi sedes* **stands, confirmed**. His own gloss below re-quotes *vidi* three times (*Ligato diabolo, vidi solutos fideles … Vidi in tempore ligationis … vidi statim in gloriam intrare*), so the plate contradicts its own lemma — exactly what this edition exists to show, and not ours to tidy.
+
+⭐ **The lesson, and it is the argument for reading plates at all:** these two were indistinguishable from the file. Same class, same shape, same evidence, flagged by the same reader in the same breath — and the answers were opposite. Corpus frequency and Vulgate collation could not have separated them; only the plate did.

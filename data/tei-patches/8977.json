@@ -1,0 +1,20 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Read from the on-disk PL 114 scan, archive.org patrologiaecurs06saingoog (raw/scans/pl114/), PDF page = (column + 11) / 2, calibrated this session against the printed corner numbers (p. 381 = cols 751/752). Page 377 = cols 743/744, corner numbers read before the crop. Rendered full page width at 150 dpi.",
+  "class": "ONE PAGE, TWO CANDIDATES OF THE SAME CLASS, OPPOSITE VERDICTS. Both were one-letter differences on real words in a lemma, both were flagged by the translating agent as [var:] against the Clementine, and both were named as plate-read candidates. The plate splits them: 0743C *lignis* is OURS (Migne prints *ignis*, so there is no divergence at all and the marker is withdrawn), while 0744C *vide* is MIGNE'S (he prints the imperative where the Clementine has *vidi*, and his own gloss re-quotes *vidi* three times four lines below). ⭐ This is the argument for the plate in one page: corpus frequency and Vulgate collation cannot tell these two apart, because they look identical from the file. Only the plate does.",
+  "patches": [
+    {
+      "col": "0743C",
+      "find": "<hi>Sicut flamma lignis.</hi>",
+      "replace": "<hi>Sicut flamma ignis.</hi>",
+      "why": "THE PLATE PRINTS *ignis*. PL 114 p. 377, col. 743, VERS. 12: 'Sicut flamma ignis.' Corpus Corporum inserted an l, manufacturing a word (a flame OF TIMBER for a flame OF FIRE). Our Latin column was therefore printing a word Migne did not print, and the English carried a [var:] asserting a divergence from Apc 19:12 that does not exist — a public claim about another text, resting on our own digitization's error. Restoring *ignis* removes both. The gloss that follows (*Quia comburit vitia, et accendit, et illuminat* — it burns, kindles, enlightens) is about FIRE and never mentions wood, which is the corroboration from inside the work."
+    }
+  ],
+  "unread": [],
+  "refuted": [
+    {
+      "col": "0744C",
+      "candidate": "*Et vide sedes* — flagged as possibly our corruption of *vidi*",
+      "verdict": "NOT ours. THE PLATE PRINTS *vide*, the imperative, exactly as our text has it: PL 114 p. 377, col. 744, 'VERS. 4. — Et vide sedes.' The Clementine has *Et vidi sedes*, so the [var:] is CONFIRMED and stands. Migne's own gloss immediately below reads 'Ligato diabolo, VIDI solutos fideles ... VIDI in tempore ligationis ... vidi statim in gloriam intrare' — the plate contradicts its own lemma three times over, which is precisely what this edition exists to show. Recorded so the marker is not re-questioned."
+    }
+  ]
+}
