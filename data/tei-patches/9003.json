@@ -1,0 +1,435 @@
+{
+  "note": "PLATE COLLATION of 9003, 2026-08-28. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before every read. Built from three independent reads: agent A pp.381-386 (13 sites), agent C pp.392/393/395/396 (9 sites), and the session lead's own spot-verification of col 753 at 400 dpi, which confirmed two of A's sites and found two more it had not reported. Then agent E pp.387-391 (22 sites) and agent G pp.400-402 (12 sites). Then agent E pp.387-391 (22 sites), agent G pp.400-402 (12 sites), agent F pp.394/397/398/399 (9 patched + 3 logged-only). ALL 22 PAGES OF THE WORK ARE NOW COLLATED.",
+  "class": "TWO DIRECTIONS, and the patches run BOTH WAYS on purpose. (1) CORRUPTED -- Corpus Corporum broke a word Migne set correctly; repaired. (2) NORMALIZED -- Corpus Corporum silently tidied Migne's OWN defective type, or moved it toward the Clementine; REVERTED to what Migne printed, so the defect is visible and can take an honest [sic:] or [var:]. Reverting is not patching away a plate defect (which CLAUDE.md forbids) -- it is undoing the digitization's departure from the plate, which is exactly what this file is for. || RATE: ~2 sites per page, against a standing corpus estimate of THREE INSTANCES IN TOTAL for this class (brief Test 4). The rate, not the class, is the finding. || THREE of the corrupted sites (Dominius, Juant, infirmi ates) would each have drawn a false [sic:] -- a public accusation against Migne for the digitization's error.",
+  "patches": [
+    {
+      "col": "0753B",
+      "find": "quod sit <hi>consilium",
+      "replace": "quod si <hi>consilium",
+      "direction": "normalized",
+      "why": "Plate p.382 col 753B prints 'quod si consilium impiorum'; CC supplied the 't'. Migne's reading does not construe, which is why it was tidied. Restored so a [sic:] can mark it. VERIFIED by the session lead at 400 dpi, independently of the collating agent."
+    },
+    {
+      "col": "0753B",
+      "find": "mortem. Cathedra autem pestilentiae",
+      "replace": "mortem. Cathera autem pestilentiae",
+      "direction": "normalized",
+      "why": "Plate p.382 col 753B prints 'Cathera' -- a non-word, Migne's broken sort. CC silently supplied the 'd', hiding a defect this edition exists to show. VERIFIED by the session lead at 400 dpi."
+    },
+    {
+      "col": "0755D",
+      "find": "Quare fremuerunt gentes, et populi\nmeditati",
+      "replace": "Quare fremueruut gentes, et populii\nmeditati",
+      "direction": "normalized",
+      "why": "TWO sites in one lemma, Ps 2:1. Plate prints 'fremueruut' (broken sort, n->u) and 'populii' (doubled sort); CC normalized both. Restored so each can take its own [sic:]."
+    },
+    {
+      "col": "0755C",
+      "find": "erunt, et in scriptura",
+      "replace": "erunt, ut in scriptura",
+      "direction": "normalized",
+      "why": "Ez 13:9. Plate prints 'ut'; CC normalized TOWARD THE CLEMENTINE, which reads 'et'. That is the most dangerous direction of this class: it makes Migne agree with a text he departs from, erasing a real [var:]."
+    },
+    {
+      "col": "0756D",
+      "find": "vergeret\n\n\n<pb n=\"0757A\"/>\ngeret in effusionem",
+      "replace": "vergeret\n\n\n<pb n=\"0757A\"/>\nin effusionem",
+      "direction": "corrupted",
+      "why": "DUPLICATION ARTIFACT. Migne sets ONE word split across the column break: col 756 ends 'ne idipsum ver-' and col 757 opens 'geret in effusionem'. CC transcribed the fragment twice and joined it once, yielding 'vergeret geret'. Takes no [d:] (Migne repeats nothing) and no [sic:] (geret is not in his text). Anchor kept where his column break falls."
+    },
+    {
+      "col": "0758B",
+      "find": "Non incovenienter",
+      "replace": "Non inconvenienter",
+      "direction": "corrupted",
+      "why": "CC's own corruption; Migne prints 'inconvenienter'. A non-word, and exactly the shape that draws a false [sic:] against Migne."
+    },
+    {
+      "col": "0758C",
+      "find": "quasi incorporatur\nmale viventibus",
+      "replace": "quasi incorporalitur\nmale viventibus",
+      "direction": "normalized",
+      "why": "Plate prints 'incorpora-|litur' across the line turn = 'incorporalitur', a non-word. CC normalized it to 'incorporatur'. Restored."
+    },
+    {
+      "col": "0758C",
+      "find": "VERS. 8.-- <hi>Domini est salus,</hi>",
+      "replace": "VERS. 8.-- <hi>Domine est salus,</hi>",
+      "direction": "normalized",
+      "why": "Ps 3:9. Plate prints 'Domine'; CC normalized toward the Clementine 'Domini'. Same erasure-of-a-variant direction as 0755C."
+    },
+    {
+      "col": "0759C",
+      "find": "Agile poenitentiam",
+      "replace": "Agite poenitentiam",
+      "direction": "corrupted",
+      "why": "CC's own corruption (t->l); Migne prints 'Agite'. Non-word shape."
+    },
+    {
+      "col": "0760C",
+      "find": "<hi>Verba mea auribus percipe,</hi>",
+      "replace": "<hi>Verba mea oribus percipe,</hi>",
+      "direction": "normalized",
+      "why": "Ps 5:2. Plate prints 'oribus'; CC normalized toward the Clementine 'auribus'."
+    },
+    {
+      "col": "0760D",
+      "find": "qui\nmundo corde conspicitur",
+      "replace": "qui\nmundo conspicitur",
+      "direction": "normalized",
+      "why": "A WORD SUPPLIED by CC from Mt 5:8 ('mundo corde'). Migne prints 'mundo' alone. Removing it restores the plate."
+    },
+    {
+      "col": "0761A",
+      "find": "<hi>Virum sanguinum</hi> \noperantem iniquitatem",
+      "replace": "<hi>Virum sanguinum</hi> \noperantur iniquitatem",
+      "direction": "normalized",
+      "why": "Plate prints 'operantur', which does not construe with the accusative; CC tidied it to 'operantem'. Restored."
+    },
+    {
+      "col": "0774B",
+      "find": "<hi>montem</hi> teneo",
+      "replace": "<hi>mentem</hi> teneo",
+      "direction": "normalized",
+      "why": "Plate p.392 col 774B prints 'mentem'. THE ONE SITE IN THE COLLATED RANGE THAT CHANGES THE ENGLISH: 'I hold one mind' not 'one mountain'. The English currently renders the twin and must be repaired after re-chunk."
+    },
+    {
+      "col": "0774B",
+      "find": "apud ipsos sit Christus",
+      "replace": "apud ipso sit Christus",
+      "direction": "normalized",
+      "why": "Plate prints 'ipso'; CC supplied the 's'. Ungrammatical either way and no English exponent, but it is Migne's page."
+    },
+    {
+      "col": "0774C",
+      "find": "Quoniam quae perfecisti destruxerunt,",
+      "replace": "Quoniam quae perfecisti dextruxerunt,",
+      "direction": "normalized",
+      "why": "Ps 10:4 lemma. Plate prints 'dextruxerunt', a non-word. CC normalized. NOTE Migne sets 'destruxerunt' CORRECTLY a third time later in the same paragraph ('vel legem Dei destruxerunt'), which is what shows the first two to be his own slip -- that third occurrence is deliberately NOT patched."
+    },
+    {
+      "col": "0774C",
+      "find": "quantum in ipsis est, <hi>destruxerunt</hi>",
+      "replace": "quantum in ipsis est, <hi>dextruxerunt</hi>",
+      "direction": "normalized",
+      "why": "The re-quotation of the same lemma, same defect, same treatment."
+    },
+    {
+      "col": "0780D",
+      "find": "<hi>acceleraverunt</hi>",
+      "replace": "<hi>acceleverunt</hi>",
+      "direction": "normalized",
+      "why": "Plate prints 'acceleverunt', a non-word; CC normalized."
+    },
+    {
+      "col": "0774B",
+      "find": "<hi>mons</hi> appelatus est",
+      "replace": "<hi>mons</hi> appellatus est",
+      "direction": "corrupted",
+      "why": "CC dropped an 'l'; Migne prints 'appellatus'."
+    },
+    {
+      "col": "0774D",
+      "find": "Dominius</hi> est, quod constat",
+      "replace": "Dominus</hi> est, quod constat",
+      "direction": "corrupted",
+      "why": "CC's own corruption. Corpus control: 'Dominius' occurs ONCE in all of src/latin/, against 60 'Dominus' in this work alone. Would have drawn a false [sic:]."
+    },
+    {
+      "col": "0775B",
+      "find": "poenas Juant",
+      "replace": "poenas luant",
+      "direction": "corrupted",
+      "why": "CC read Migne's 'l' as 'J'. Non-word; would have drawn a false [sic:]."
+    },
+    {
+      "col": "0780D",
+      "find": "<hi>infirmi ates</hi>",
+      "replace": "<hi>infirmitates</hi>",
+      "direction": "corrupted",
+      "why": "SPLIT RUN introduced by CC; Migne sets one word. Unique in the corpus. Would have drawn a false [sic:] -- the same shape as the confirmed 'cortuum' candidate still awaiting its plate."
+    },
+    {
+      "col": "0780D",
+      "find": "civibus Herusalem coelestis",
+      "replace": "civibus Hierusalem coelestis",
+      "direction": "corrupted",
+      "why": "CC dropped the 'i'; Migne prints 'Hierusalem'."
+    },
+    {
+      "col": "0763A",
+      "find": "significat fletum usque",
+      "replace": "significat flectum usque",
+      "direction": "normalized",
+      "why": "Plate p.387 prints 'flectum', a non-word. CC normalized. Restored so it can take a [sic:]."
+    },
+    {
+      "col": "0763C",
+      "find": "Crebra ejusdem",
+      "replace": "Cebra ejusdem",
+      "direction": "normalized",
+      "why": "Plate prints 'Cebra' (dropped sort). CC normalized."
+    },
+    {
+      "col": "0763D",
+      "find": "potet",
+      "replace": "potest",
+      "direction": "corrupted",
+      "why": "CC's hyphen-join across 'po-|test' lost the 's'. Would have drawn a FALSE [sic:] against Migne."
+    },
+    {
+      "col": "0764A",
+      "find": "rapiat ut leo",
+      "replace": "rapiat at leo",
+      "direction": "normalized",
+      "why": "Ps 7:3. Plate prints 'at'; CC normalized TOWARD THE CLEMENTINE. Erases a real variant."
+    },
+    {
+      "col": "0764B",
+      "find": "si feci istud",
+      "replace": "si fecit istud",
+      "direction": "normalized",
+      "why": "Ps 7:4. Plate prints 'fecit'; CC normalized toward the Clementine."
+    },
+    {
+      "col": "0764D",
+      "find": "desinat possidere quos possidet",
+      "replace": "desinat possidere quod possidet",
+      "direction": "corrupted",
+      "why": "CC's own corruption; the plate construes perfectly. CHANGES THE ENGLISH: 'possess what he possesses', not 'those whom'."
+    },
+    {
+      "col": "0765C",
+      "find": "prospiciens, non nos acquiescere carni et sanguini.\n<pb n=\"0765C\"/>",
+      "replace": "proscipiens, non nos acquiescere carni et sanguini,\n<pb n=\"0765C\"/>",
+      "direction": "normalized",
+      "why": "TWO sites. Plate prints 'proscipiens' (metathesis) and a COMMA after 'sanguini', not a full stop. CC normalized the first and hardened the second, breaking a sentence Migne runs on. Affects the English clause boundary and band parity."
+    },
+    {
+      "col": "0766A",
+      "find": "divinae\nProvidentiae etiam ista dispositio tribuenda",
+      "replace": "divinae\nProvidentia etiam ista disposito tribuenda",
+      "direction": "normalized",
+      "why": "TWO sites. Plate prints 'Providentia' (does not construe) and 'disposito' (non-word)."
+    },
+    {
+      "col": "0766C",
+      "find": "intelligimus Ecclesiam: quia\nsive in area",
+      "replace": "intelligimus Ecclesiam: ouia\nsive in area",
+      "direction": "normalized",
+      "why": "Plate prints 'ouia' -- a broken/wrong sort for the q."
+    },
+    {
+      "col": "0768D",
+      "find": "sed adimplere.",
+      "replace": "sed adimptere.",
+      "direction": "normalized",
+      "why": "Plate splits 'adim-|ptere.' across the column break = 'adimptere', a non-word. Same anchor class as the vergeret site."
+    },
+    {
+      "col": "0769D",
+      "find": "misus",
+      "replace": "missus",
+      "direction": "corrupted",
+      "why": "CC's own corruption; both sorts inked on the plate. Would have drawn a FALSE [sic:]."
+    },
+    {
+      "col": "0770A",
+      "find": "item palam <hi>judicavit orbem",
+      "replace": "item palam <hi>judicabit orbem",
+      "direction": "corrupted",
+      "why": "CC's own corruption, AND IT MANUFACTURED A FALSE [var:]. Plate prints 'judicabit' -- the Clementine's own reading at Ps 9:9. The translating agent, collating the twin against clementine-flat.txt, found a divergence that DOES NOT EXIST and fired a [var:] claiming Migne departs from the Vulgate. No lemma collation could catch this, because the twin had already been moved off the plate. CHANGES THE ENGLISH TENSE; the [var:] must be withdrawn."
+    },
+    {
+      "col": "0770B",
+      "find": "cujus\nnomen est.",
+      "replace": "cujus\nmomen est.",
+      "direction": "normalized",
+      "why": "Plate prints 'momen', a non-word."
+    },
+    {
+      "col": "0770C",
+      "find": "Sunt autem <hi>portae filiae Sion</hi>",
+      "replace": "Sunt autem <hi>porte filiae Sion</hi>",
+      "direction": "normalized",
+      "why": "Plate prints 'porte' HERE ONLY -- the same word is set correctly two lines above and two below, which is what proves it Migne's slip and not a spelling."
+    },
+    {
+      "col": "0771A",
+      "find": "Imploratur",
+      "replace": "Inploratur",
+      "direction": "normalized",
+      "why": "Plate prints the unassimilated 'Inploratur'."
+    },
+    {
+      "col": "0771A",
+      "find": "ad Filium hominis",
+      "replace": "ad Filium homines",
+      "direction": "normalized",
+      "why": "Plate prints 'homines', which does not construe."
+    },
+    {
+      "col": "0771C",
+      "find": "Comprehenduntur",
+      "replace": "Comprehendantur",
+      "direction": "normalized",
+      "why": "Ps 9:23. Plate prints the subjunctive; CC normalized toward the Clementine indicative."
+    },
+    {
+      "col": "0772B",
+      "find": "quod dixit in corde suo: <hi>Non movebor,</hi>",
+      "replace": "quod dixit in corde suo: <hi>Non novebor,</hi>",
+      "direction": "normalized",
+      "why": "Plate prints 'novebor', a non-word. THE SECOND OCCURRENCE ONLY -- the first 'Non movebor' at 0772A/B IS set correctly and is deliberately left alone."
+    },
+    {
+      "col": "0772B",
+      "find": "VERS 28.--",
+      "replace": "VERS. 28.--",
+      "direction": "corrupted",
+      "why": "CC dropped the period after VERS. The plate prints it, confirmed at 500 dpi against VERS. 27 and VERS. 29 in the same crop -- the Ruth slip exactly. Patching the TEI fixes the chunk frontmatter incipit at the same time. A THIRD instance of this shape survives near 0779-0781 and has NOT been plate-read."
+    },
+    {
+      "col": "0789A",
+      "find": "<hi>liberator\nmeus de inimicis meis</hi> Judaeis, clamantibus:\nCrucifige, crucifige.",
+      "replace": "<hi>liberator\nmeus de inimicis meis.</hi> Judaeis, clamantibus.\nCrucifige, crucifige!",
+      "direction": "normalized",
+      "why": "Punctuation, three marks. CONFIDENCE: the collating agent read the stop after 'clamantibus' at 600 dpi as a full stop but squared rather than round, and rated it ~90%; the other two marks are certain. Recorded rather than churned."
+    },
+    {
+      "col": "0789D",
+      "find": "voces evangelistarum, cum",
+      "replace": "voces evangelistarum, eum",
+      "direction": "normalized",
+      "why": "Plate prints 'eum'."
+    },
+    {
+      "col": "0789D",
+      "find": "<hi>Exsultavit\nut gigas ad currendam viam suam,</hi> etc. Exsultavit\ncut fortissimus",
+      "replace": "<hi>Exsultavit\nut gigas ac currendam viam suam,</hi> etc. Exultavit\nut fortissimus",
+      "direction": "normalized",
+      "why": "THREE sites at one stroke: plate prints 'ac currendam' (lemma), 'Exultavit' (gloss), and 'ut fortissimus'. The last withdraws the [sic: cut] marker -- CC, not Migne, set 'cut'."
+    },
+    {
+      "col": "0790B",
+      "find": "qui superbis resistis, quia non est mundatus",
+      "replace": "qui superbis resistit, quia non est mundatus",
+      "direction": "corrupted",
+      "why": "CC's own corruption. Plate prints 'resistit' with a fully formed final t, so the [cj: resisti] is withdrawn -- no conjecture is needed. The translator reached for corpus-as-control and found 'resistis' at 0792A, but that is a different person of the verb in a different sentence and could never have settled this."
+    },
+    {
+      "col": "0790C",
+      "find": "et minatus, et pollicitus Deus quemquam fallit",
+      "replace": "et minatus, et pollicitus Deus quemquem fallit",
+      "direction": "normalized",
+      "why": "Plate prints 'quemquem', a non-word. Control: 'quemquam' is set correctly four lines above."
+    },
+    {
+      "col": "0790D",
+      "find": "aurum, lapisque pretiosus",
+      "replace": "aurum, lapisque pertiosus",
+      "direction": "normalized",
+      "why": "Plate prints 'pertiosus' (metathesis). Control: 'lapides pretiosi' is correct at 0793C."
+    },
+    {
+      "col": "0791C",
+      "find": "humanum genus oppressit.",
+      "replace": "humanum genus opressit.",
+      "direction": "normalized",
+      "why": "Plate prints 'opressit'."
+    },
+    {
+      "col": "0791D",
+      "find": "quia jam nulla superbia est",
+      "replace": "quia jam nulla snperbia est",
+      "direction": "normalized",
+      "why": "Plate prints 'snperbia' -- a TURNED SORT (u set upside down as n). CC normalized it away."
+    },
+    {
+      "col": "0792B",
+      "find": "<hi>Mittat tibi auxilium de Sancto,</hi>",
+      "replace": "<hi>Mittat tibi auxilium de sancto,</hi>",
+      "direction": "normalized",
+      "why": "Plate sets the lemma lower-case."
+    },
+    {
+      "col": "0792C",
+      "find": "sed <hi>secundum cortuum,</hi> \n<pb n=\"0792C\"/>\nqui scisti",
+      "replace": "sed <hi>secundum cor\n<pb n=\"0792C\"/>\ntuum,</hi> qui scisti",
+      "direction": "corrupted",
+      "why": "CC FUSED TWO WORDS. Plate prints 'secundum cor' at the end of one line and 'tuum,' at the head of the next, properly spaced, with band letter C beside the second line -- so the fusion and the column anchor are THE SAME EVENT. The [sic: cortuum] is withdrawn: it blamed Migne for the digitization. This is the 'infirmi ates' case run backwards."
+    },
+    {
+      "col": "0794A",
+      "find": "sed adhuc <hi>gloriam et magnum decorem</hi>",
+      "replace": "sed adhuc <hi>gloria et magnum decorem</hi>",
+      "direction": "normalized",
+      "why": "Plate prints the nominative 'gloria', which does not construe with 'addes ei'; CC repaired it. NEEDS A TRANSLATOR'S RULING, not a blind render -- same shape as mentem/montem at 0774B."
+    },
+    {
+      "col": "0787A",
+      "find": "poputum",
+      "replace": "populum",
+      "direction": "corrupted",
+      "why": "⛔ CC BROKE THE WORD. At 1200 dpi Migne prints 'populum' with a full-height l, matched against the l of 'humilem' on the same line. Our English carried a [sic: poputum] here -- a public accusation against Migne for the digitization's error, the FOURTH of that class in this work. The marker and its cruces row must come out."
+    },
+    {
+      "col": "0778D",
+      "find": "dimittimus eum sic",
+      "replace": "dimitimus eum sic",
+      "direction": "normalized",
+      "why": "Jo 11:48. Plate prints single-t 'dimitimus'; CC normalized toward the Vulgate."
+    },
+    {
+      "col": "0783D",
+      "find": "<pb n=\"0783D\"/> <hi>in justitia tua</hi>",
+      "replace": "<pb n=\"0783D\"/> <hi>in jnstitia tua</hi>",
+      "direction": "normalized",
+      "why": "Plate prints 'jnstitia' -- a turned sort. CC normalized."
+    },
+    {
+      "col": "0778A",
+      "find": "Ut\nin profundo rerum humanarum",
+      "replace": "Ut\nn profundo rerum humanarum",
+      "direction": "normalized",
+      "why": "Plate: the i of 'in' is simply absent. CC supplied it."
+    },
+    {
+      "col": "0786C",
+      "find": "et poenas\nimpiorum, et flagella",
+      "replace": "et poehas\nimpiorum, et flagella",
+      "direction": "normalized",
+      "why": "Plate prints 'poehas' (h for n). CC normalized."
+    },
+    {
+      "col": "0786D",
+      "find": "unusquisque constringitur: et ab eo",
+      "replace": "unusquisque constringit ur: et ab eo",
+      "direction": "normalized",
+      "why": "Plate prints 'constringit ur' with a quad of space driven into the word. CC closed it up."
+    },
+    {
+      "col": "0787C",
+      "find": "<hi>Et posuit immaculatam viam</hi> \ncharitatis",
+      "replace": "<hi>Et posuit immaeulatam viam</hi> \ncharitatis",
+      "direction": "normalized",
+      "why": "Plate prints italic 'immaeulatam' -- an e-for-c sort. SECOND occurrence only; the lemma above it is set correctly."
+    },
+    {
+      "col": "0787D",
+      "find": "me docebit",
+      "replace": "me doeebit",
+      "direction": "normalized",
+      "why": "Plate prints 'doeebit' -- the same italic e-for-c sort firing twice in one column, which is what shows it to be a damaged sort in the case rather than a reading."
+    },
+    {
+      "col": "0788A",
+      "find": "sive signa, quae impressa\nad imitandum",
+      "replace": "sive signa, quae impressi\nad imitandum",
+      "direction": "normalized",
+      "why": "Plate prints 'impressi', which does NOT construe with 'signa'; CC silently repaired it. ⚠ THE ONE SITE IN THIS SET THAT EARNS A MARKER once patched -- the English at 0788A should carry a [sic: impressi] (or a [cj:] proposing 'impressa'), because here the plate genuinely does not construe."
+    }
+  ],
+  "unread": [],
+  "refuted": []
+}
