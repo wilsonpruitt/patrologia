@@ -11,7 +11,10 @@ what a later sweep must not churn.
 
 ## §0a · Apparatus, counted from the English and not summed from four reports
 
-**35 `[var:]` · 2 `[sic:]` · 3 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
+**34 `[var:]` · 2 `[sic:]` · 2 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`** — counted from the
+English after the plate reads and the blind reads, not summed from the stints' own reports.
+Three markers the stints took were **withdrawn** on evidence (§0b, §0g); one silent
+conformation the stints missed was **repaired** (§0g).
 
 `verify-english.mjs 8977` → **OK, 20 chunks**, columns/notes/sections aligned, no duplicate
 paragraphs. `scan-raw-markers.mjs` → no marker rendered as literal bracket text. One ratio
@@ -36,6 +39,20 @@ this session on p. 381 = cols 751/752). The plate answered them **in opposite di
   below re-quotes *vidi* three times (*Ligato diabolo, **vidi** solutos fideles … **Vidi** in
   tempore ligationis … **vidi** statim in gloriam intrare*). The plate contradicts its own
   lemma, which is exactly what this edition exists to show, and is not ours to tidy.
+
+- **0733B — the `[cj:]` DISSOLVED, on a second page (p. 372).** The blind reader raised it as
+  an observation rather than a finding: the conjecture sat oddly for a defect that was purely
+  an anchor splitting a word. The plate shows why. **Migne prints *infructuosos*, hyphenated
+  across a line break** (*in-* / *fructuosos*), and Corpus Corporum **failed to rejoin it** —
+  the mirror image of the 8946 *Salomomonis* case, where the same digitization rejoined a
+  hyphenated word and duplicated the syllable. Our anchor then landed in the gap. The
+  conjecture was right in substance (*super arenam* requires the privative) and **wholly
+  unnecessary**. Word made whole, anchor kept at the line turn where band B falls, marker
+  withdrawn, TEI patched. ⚑ Corroborated from the source side as 8946 was: the TEI preserves a
+  newline on **both** sides of the `<pb/>`, which is where the printed hyphen and the line turn
+  stand. ⭐⭐ **THE GENERAL RULE: an anchor that appears to fall INSIDE a word is a REJOIN
+  candidate before it is a conjecture candidate. Check the plate for a hyphen before reaching
+  for `[cj:]`.**
 
 ⭐ **The lesson worth carrying:** these two were indistinguishable from the file — same class,
 same shape, flagged by the same kind of reader in the same breath. Corpus frequency and
