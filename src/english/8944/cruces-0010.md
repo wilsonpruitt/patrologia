@@ -255,13 +255,34 @@ The launch brief is right that this matters unusually much here: *sponsus*, *spo
 *Synagoga*, *Judaea*, *Ecclesia*, *gentilis* and the *amici* trade speeches across these
 four chunks, and a wrong pronoun reassigns one.
 
-- **1157D · *Respondet piis sanctorum desideriis … eum delectari*.** Subject of *Respondet*
-  is **the Bridegroom** (the *dilectus* of the lemma *Dilectus meus. Descendit* directly
-  above), and *eum* is the same person in the accusative-and-infinitive. Rendered "He
-  answers that he is delighted…". The alternative — reading *Respondet* impersonally, "it
-  corresponds to the holy desires", with *desideriis* as dative — is grammatical, but
-  *delectari* governs the ablative, which the following *fructuosis operibus* confirms, and
-  the acc.+inf. then has no subject but the beloved.
+- **1157D · *Respondet piis sanctorum desideriis … eum delectari*.**
+  ⛔ **THIS ENTRY WAS WRONG AND IS CORRECTED — the subject is the BRIDE, not the Bridegroom.**
+  Rendered "**She** answers that he is delighted…", with the three preceding verbs in the
+  same sentence (*Cum dixisset* … *addit* … *cum dicit*) likewise hers. Found by the blind
+  polarity reader on chunks 0007–0013, which proposed the change, met this entry asserting
+  the opposite, and **kept the repair** — correctly. Three independent proofs, none of them
+  "it reads better":
+
+  1. ⭐ **The work says so itself, four verses on.** VERS. 3 opens *«Pulchra es, amica mea.*
+     **Hactenus vox Ecclesiae** Dominum suum laudantis et quaerentis; qui quoniam a suis
+     amatoribus non longe est, **sequitur quid quaesitus respondeat**»* — "**thus far** the
+     voice of the Church praising and seeking her Lord … **there follows** what the
+     sought-one may answer." The commentary declares that everything to this point is the
+     Church's voice and that the Bridegroom's reply **begins at VERS. 3.** ⚑ Verified at the
+     plate, PL 113 p. 584, col. 1158, not merely from our files.
+  2. ***eum*, not *se*.** *Respondet … **eum** delectari* takes a NON-reflexive pronoun in
+     the accusative-and-infinitive precisely because the subject of the infinitive is not the
+     subject of the governing verb. Had the answerer been the one delighted, Latin required
+     *se delectari*. **The original entry's own reasoning collapses here**: it asserted *eum*
+     "is the same person" as the subject, which is what *se* would have been for.
+  3. **The verse.** Ct 6:1 is marked `<Sponsa>` in the Clementine; the lemma glossed
+     (*Descendit in hortum … ad areolam aromatum … lilia colligat*) is the Bride answering
+     the daughters' *Quo abiit dilectus tuus* of 5:17.
+
+  ⚑ **And this entry contradicted its own next bullet**, which assigns *apponit* at VERS. 2
+  to the Bride — splitting Ct 6:1–2, both `<Sponsa>` and one continuous speech, between two
+  persons with no speaker change in the text. **The lesson: a referent call that disagrees
+  with the bullet beneath it is already telling you something.**
 - **1157D · *apponit*** (VERS. 2): **the bride/Church**, who is the speaker of *Ego dilecto
   meo*. Rendered "She sets this little verse beside it".
 - **1157D · *in me potes habere formam ejus, quem quaeritis*.** ⚠ Migne prints a **singular
