@@ -312,10 +312,10 @@
     },
     {
       "col": "0790B",
-      "find": "qui superbis resistis, quia non est mundatus",
-      "replace": "qui superbis resistit, quia non est mundatus",
+      "find": "quoniam Deus superbis\nresisti, humilibus autem dat gratiam.",
+      "replace": "quoniam Deus superbis\nresistit, humilibus autem dat gratiam.",
       "direction": "corrupted",
-      "why": "CC's own corruption. Plate prints 'resistit' with a fully formed final t, so the [cj: resisti] is withdrawn -- no conjecture is needed. The translator reached for corpus-as-control and found 'resistis' at 0792A, but that is a different person of the verb in a different sentence and could never have settled this."
+      "why": "CC's own corruption. Plate prints 'resistit' with a fully formed final t, so the [cj: resisti] is withdrawn -- no conjecture is needed. The translator reached for corpus-as-control and found 'resistis' at 0792A, but that is a different person of the verb in a different sentence and could never have settled this. || CORRECTED 2026-08-28: the find/replace string originally written here ('qui superbis resistis, quia non est mundatus') does not occur at 0790B at all -- it is the DIFFERENT sentence at 0792A, and the patch therefore fired at the wrong column: it left 0790B's 'resisti' untouched and silently changed 0792A's plate-attested 'resistis' (2nd person, which the English at 0792A renders 'who resistest the proud') into 'resistit'. Find/replace re-aimed at the intended 0790B site; src/latin/9003/0016.md corrected by hand at both places. || RE-AIMED AGAIN 2026-08-28 (session lead): the corrected find still matched ZERO times, because the TEI sets a LINE BREAK between 'superbis' and 'resisti'. A zero-match patch makes chunk-work.mjs exit 1, and the hand-repair made to src/latin/9003/0016.md would have been erased by the next re-chunk with nothing to replace it. Find string now carries the newline and is verified to match once, at 0790B."
     },
     {
       "col": "0790C",
@@ -388,11 +388,11 @@
       "why": "Plate prints 'jnstitia' -- a turned sort. CC normalized."
     },
     {
-      "col": "0778A",
+      "col": "0785D",
       "find": "Ut\nin profundo rerum humanarum",
       "replace": "Ut\nn profundo rerum humanarum",
       "direction": "normalized",
-      "why": "Plate: the i of 'in' is simply absent. CC supplied it."
+      "why": "Plate: the i of 'in' is simply absent. CC supplied it. || COLUMN LABEL CORRECTED 2026-08-28: this site is at 0785D, not 0778A. The label was wrong in the collation report and I copied it without checking. The find/replace itself was always right."
     },
     {
       "col": "0786C",
