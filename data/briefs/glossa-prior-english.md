@@ -54,6 +54,25 @@ names — and never inherit a previous batch's clearance.** Two volumes appeared
 ⚠ Also newly registered above, and relevant to a book already in the wider queue: **Mary Dove's
 *Glossa Ordinaria on the Song of Songs*, TEAMS 2004**, alongside Brepols's 1997 Latin edition.
 
+## Checked and found NONE (2026-08-28) — 9003, and it is NOT the Glossa on Psalms
+
+**9003 *Expositio in XX primos Psalmos*** (PL 114, 0751C–0794D). ⚠ **Check this one on its own
+terms:** it is not the Gloss on the Psalter. Migne prints it under Walafrid Strabo's name from
+**Pez, *Thes. Anecd. nov.*, tom. IV** (source line read at the plate, p. 381), and Pez's own
+*Monitum* says he printed only twenty psalms because the rest was already in the Glossa. So two
+searches were needed, and both came back empty:
+
+1. **An English of Walafrid's *Expositio in viginti primos Psalmos*** — none found.
+2. **An English of the Glossa on the Psalms** — none found. The Emmaus Academic
+   *Biblia cum Glossa Ordinaria* series still lists only Genesis (2023), Matthew (2025),
+   John (2026) and the announced Exodus; **no Psalms volume**. Consolamini's list
+   (van der Pas, Litteral) and the TEAMS Commentary Series (Woodward, Dove) have no Psalms
+   entry either.
+
+`workStatus: null`, so the builder badges it **"New English translation"** and claims no
+priority either way. ⚑ Re-run at ship time if the run spans weeks — the Emmaus series moved
+twice between the 2026-08-23 and 2026-08-24 registers.
+
 ## Checked and found NONE (2026-08-24, this batch)
 
 I Regum (8952) · II Regum (8953) · IV Regum (8955) · I Esdrae (8951).
