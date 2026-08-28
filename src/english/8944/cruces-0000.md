@@ -152,25 +152,44 @@ Salomonis» hic ponitur pro veritate*). **The gloss under the lemma then expound
 tentorium super aliquem tenditur…* So the paragraph is about the tent-skin over the
 sunburnt, and its heading, as printed, says "As feet."
 
-**Rendered as printed: "*As feet.*" No marker taken.** The reasons, stated so the decision
-can be re-opened by someone with the plate:
+✅ **PLATE-READ AND RULED, 2026-08-28 — the marker is `[var:]`, and it is Migne's.**
 
-1. *pedes* is a **real, well-formed Latin word**. The 2026-08-23 addendum's finding was
-   10 for 10 that a suspicion aimed at a real word is refuted by the plate, and it forbids
-   firing a marker on the strength of a corpus argument however good. The argument here is
-   good; it is still a corpus argument.
-2. A `[var:]` would be a public claim that **Migne** prints a divergent scripture. If the
-   plate reads *pelles* and Corpus Corporum metathesised it, that claim is false and
-   blames the wrong party — brief §4's normalization/corruption class runs in exactly this
-   direction (8970's *Nephtlali*).
-3. The ship test: unsure, unsettleable from the file, so the crux is the safe home.
+**PL 113 p. 570 (cols 1129/1130; corner numbers read before the crop, page map
+`(column + 11) / 2` calibrated this session on p. 568 = cols 1125/1126) prints *Sicut
+pedes.* at the foot of col. 1130 — and prints *sicut pelles Salomonis* correctly four
+lines above it.** So the divergence is on Migne's own plate; Corpus Corporum did not
+metathesise anything, and reason 2 of the original decline — that a `[var:]` might blame
+the wrong party — is answered. Applied: `[var: Vulg. Ct 1:4 *sicut pelles Salomonis*,
+"as the skins of Solomon"]`.
 
-⬜ **PLATE-READ CANDIDATE, and the highest-value one in this range.** Col. 1130D–1131A,
-PL 113. Archive PDF page = (column + 11) / 2 → **p. 571**; the Gallica second witness
-(`ark:/12148/bpt6k5505319w`) at f = (column + 1) / 2 → **f566**. One request settles it.
-If the plate reads *pelles*, the fix is a `data/tei-patches/8944.json` entry and the
-English becomes "*As the skins.*"; if it reads *pedes*, this becomes a `[var: Vulg. Ct 1:4
-*sicut pelles Salomonis*]` and the finding is Migne's.
+⭐ **The decline was CORRECT and is why the answer is trustworthy.** Reason 1 held exactly
+as written: a suspicion aimed at a real word is not settleable from the file, however good
+the corpus argument. The stint refused to fire, named the page, computed both page maps,
+and specified both outcomes — and the plate then chose between them. That is the procedure
+working, not a miss.
+
+### Why `[var:]` and not `[sic:]` — ruled by Wilson, 2026-08-28
+
+The series' own rule decides it: **`[sic:]` is for NON-WORDS; a well-formed word gets
+`[var:]` or nothing.** Every `[sic:]` in this batch went on a non-word (*fi deles*,
+*arden*, *spon sus*, *intellexeruut*, *baereticorum*), and the 8976 precedent put one on
+*Chistus*. *pedes* is a real word.
+
+And the two markers claim different things. **`[sic:]` DIAGNOSES** — it asserts a defect.
+**`[var:]` merely RECORDS** — Migne prints A, the Clementine prints B, both verifiable and
+neither speculative. For a compositor's slip we cannot prove was a slip, the recording
+marker is the honest one.
+
+⚑ It also keeps the seam straight: this batch carries two more of the identical shape — a
+corrupt lemma with the right word in its own gloss — and both took `[var:]`. **8977 @0722B
+*vivum* for *vinum*** (the gloss reads *vinum* three times) and **8977 @0744C *vide* for
+*vidi*** (the gloss reads *vidi* three times, and the plate confirmed *vide* is Migne's).
+A `[sic:]` here would have reopened both.
+
+⛔ **What the marker does NOT say:** that anyone ever read Solomon's *feet*. The paragraph
+above stands as the disclosure — Migne sets *pelles* correctly twenty words earlier and the
+gloss expounds *pellis*, the tent-skin over the sunburnt — so a reader has the whole
+situation and is not left inferring a reading with standing.
 
 ---
 
