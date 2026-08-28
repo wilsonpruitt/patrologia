@@ -1,0 +1,700 @@
+# 8944 — lemma inventory and Clementine pre-scan
+
+**Canticum Canticorum** · PL 113 · cols 1125D–1168A · 14 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ Clementine verbatim** = this exact word sequence occurs SOMEWHERE in the Clementine.
+  ⛔ It does **not** mean it occurs at the verse being glossed, and it is **not** clearance.
+  A lemma can match some other verse verbatim and still diverge from its own.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## The inventory
+
+[1125D] *misle,*   — single word, check in place
+[1126D] *coheleth*   — single word, check in place
+[1126D] *concionator:*   — single word, check in place
+[1127A] *sir hassirim*   ⚠ NOT in Clementine verbatim — CHECK
+[1127A] *sancta,*   — single word, check in place
+[1127A] *sancta sanctorum.*   ✓ Clementine verbatim
+[1127A] *Idida,*   — single word, check in place
+[1127A] *Speciosus forma prae filiis hominum: propterea benedixit te Deus in aeternum [n: (Psal. XLIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1127A] *Cantemus Domino, gloriose enim,*   ✓ Clementine verbatim
+[1127A] *Audite coeli quae loquor,*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] VERS. 1.-- *Osculetur me osculo oris sui.*   ✓ Clementine verbatim
+[1129B] *Meliora sunt.*   ✓ Clementine verbatim
+[1129B] VERS. 2.-- *Oleum effusum nomen tuum.*   ✓ Clementine verbatim
+[1129C] *Oleum effusum,*   ✓ Clementine verbatim
+[1129C] *Ideo adolescentulae dilexerunt te.*   ✓ Clementine verbatim
+[1129D] *Ideo adolescentulae,*   ✓ Clementine verbatim
+[1129D] VERS. 3.-- *Trahe me post te.*   ✓ Clementine verbatim
+[1129D] *Trahe me post te.*   ✓ Clementine verbatim
+[1129D] *Trahe me post te.*   ✓ Clementine verbatim
+[1130A] *In odorem unguentorum.*   ✓ Clementine verbatim
+[1130A] *Introduxit me rex,*   ✓ Clementine verbatim
+[1130A] *Introduxit me.*   ✓ Clementine verbatim
+[1130A] *Exsultabimus et laetabimur.*   ✓ Clementine verbatim
+[1130B] *Memores uberum.*   ✓ Clementine verbatim
+[1130B] *recti diligunt,*   ✓ Clementine verbatim
+[1130B] *Memores uberum,*   ✓ Clementine verbatim
+[1130B] *Recti diligunt te.*   ✓ Clementine verbatim
+[1130B] *Recti diligunt.*   ✓ Clementine verbatim
+[1130B] VERS. 4.-- *Nigra sum.*   ✓ Clementine verbatim
+[1130B] *Nigra.*   — single word, check in place
+[1130D] *Nigra.*   — single word, check in place
+[1130D] *Nigra.*   — single word, check in place
+[1130D] *Sicut tabernacula Cedar.*   ✓ Clementine verbatim
+[1130D] *sicut*   — single word, check in place
+[1130D] *sicut pelles Salomonis*   ✓ Clementine verbatim
+[1130D] *Cedar*   — single word, check in place
+[1130D] *Eritis odio omnibus hominibus propter nomen meum [n: (Matth. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1130D] *Sicut pedes.*   ✓ Clementine verbatim
+[1130D] VERS. 5.-- *Decoloravit me sol.*   ✓ Clementine verbatim
+[1130D] *Filii matris.*   ✓ Clementine verbatim
+[1130D] *Filii,*   — single word, check in place
+[1131B] *Posuerunt me.*   ✓ Clementine verbatim
+[1131C] *Posuerunt me custodem in vineis.*   ✓ Clementine verbatim
+[1131C] *Vineae*   — single word, check in place
+[1131C] *custodes in vineis*   ⚠ NOT in Clementine verbatim — CHECK
+[1131C] VERS. 6.-- *Indica mihi,*   ✓ Clementine verbatim
+[1131D] *Indica mihi,*   ✓ Clementine verbatim
+[1131D] *In meridie,*   ✓ Clementine verbatim
+[1131D] *meridie,*   — single word, check in place
+[1132A] *Sodalium tuorum.*   ✓ Clementine verbatim
+[1132A] VERS. 7.-- *Si ignoras.*   ✓ Clementine verbatim
+[1132A] *Ne vagari incipiam:*   ✓ Clementine verbatim
+[1132A] *Modicae fidei [n: (Matth. XIV)]*   ✓ Clementine verbatim
+[1132B] *Haedos tuos.*   ✓ Clementine verbatim
+[1132B] *Juxta,*   — single word, check in place
+[1132B] *juxta,*   — single word, check in place
+[1132C] VERS. 8.-- *Equitatui.*   — single word, check in place
+[1132C] *Equitatui meo.*   ✓ Clementine verbatim
+[1132C] *Equitatui.*   — single word, check in place
+[1132C] *Et salus ejus equitatio [n: (Habac III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1132D] *In curribus Pharaonis.*   ✓ Clementine verbatim
+[1132D] *elidens*   — single word, check in place
+[1132D] *dissipans*   — single word, check in place
+[1132D] VERS. 9.-- *Pulchrae.*   — single word, check in place
+[1132D] *Pulchrae sunt genae.*   ✓ Clementine verbatim
+[1132D] *genis*   — single word, check in place
+[1133B] *collo,*   — single word, check in place
+[1133B] *monilibus*   — single word, check in place
+[1133B] *Collum tuum sicut monilia.*   ✓ Clementine verbatim
+[1133B] VERS. 10.-- *Murenulas.*   — single word, check in place
+[1133B] *Similitudines auri fabrefaciemus tibi cum distinctionibus argenti, quoadusque rex in accubitu suo est.*   ⚠ NOT in Clementine verbatim — CHECK
+[1133C] *Murenulas.*   — single word, check in place
+[1133C] *Murenulae.*   — single word, check in place
+[1133C] *murenulis*   — single word, check in place
+[1133C] *auro*   — single word, check in place
+[1133C] *argento*   — single word, check in place
+[1133D] *Faciemus.*   — single word, check in place
+[1133D] VERS. 11.-- *Dum esset.*   ✓ Clementine verbatim
+[1133D] *Dum esset rex,*   ✓ Clementine verbatim
+[1134A] *nardus,*   — single word, check in place
+[1134A] *dedit odorem,*   ✓ Clementine verbatim
+[1134A] *Nardus,*   — single word, check in place
+[1134B] VERS. 12.-- *Fasciculus.*   — single word, check in place
+[1134B] *Ubera mea.*   ✓ Clementine verbatim
+[1134B] *In Aegypto fractae sunt mammae tuae [n: (Ezech. XXIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1134B] VERS. 13.-- *Botrus cypri dilectus.*   ✓ Clementine verbatim
+[1134C] *In vineis Engaddi*   ✓ Clementine verbatim
+[1134C] *Botrus,*   — single word, check in place
+[1134C] VERS. 14.-- *Ecce tu pulchra.*   ✓ Clementine verbatim
+[1134C] *Ecce tu pulchra;*   ✓ Clementine verbatim
+[1134C] *Amica mea.*   ✓ Clementine verbatim
+[1134C] *Proxima mea;*   ⚠ NOT in Clementine verbatim — CHECK
+[1134C] *Oculi tui.*   ✓ Clementine verbatim
+[1134C] *Oculi tui columbarum,*   ✓ Clementine verbatim
+[1134C] *Qui viderit mulierem ad concupiscendum eam [n: (Matth. V)]*   ✓ Clementine verbatim
+[1134C] VERS. 15.-- *Ecce tu pulcher es, dilecte mi et decorus.*   ✓ Clementine verbatim
+[1135B] *Ecce tu pulcher es,*   ✓ Clementine verbatim
+[1135B] *Lectulus noster floridus.*   ✓ Clementine verbatim
+[1135B] *lectulus,*   — single word, check in place
+[1135B] VERS. 16.-- *Tigna domorum nostrarum cedrina.*   ✓ Clementine verbatim
+[1135B] *Tigna,*   — single word, check in place
+[1135B] *Laquearia,*   — single word, check in place
+[1135B] *Cypressina.*   — single word, check in place
+[1135B] *Coniferae cypressi.*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] VERS. 1.-- *Ego flos.*   ✓ Clementine verbatim
+[1125D] *lilium convallium*   ✓ Clementine verbatim
+[1136A] *Sicut lilium.*   ✓ Clementine verbatim
+[1136A] VERS. 2.-- *Sicut lilium.*   ✓ Clementine verbatim
+[1136A] *Sicut lilium*   ✓ Clementine verbatim
+[1136A] *spinis*   — single word, check in place
+[1136A] *filias lilium*   ⚠ NOT in Clementine verbatim — CHECK
+[1136A] *Sicut lilium.*   ✓ Clementine verbatim
+[1136A] *lectuli:*   — single word, check in place
+[1136A] *Sic amica mea.*   ✓ Clementine verbatim
+[1136A] VERS. 3.-- *Sicut malus,*   ✓ Clementine verbatim
+[1136A] *Sicut malus.*   ✓ Clementine verbatim
+[1136C] *Sub umbra.*   ✓ Clementine verbatim
+[1136C] *sub umbra*   ✓ Clementine verbatim
+[1136C] *Indica mihi quem diligit anima mea: ubi pascas, ubi cubes in meridie;*   ✓ Clementine verbatim
+[1136C] *Lectulus noster floridus;*   ✓ Clementine verbatim
+[1136C] *Sub umbra.*   ✓ Clementine verbatim
+[1136C] *tigna cedrina et laquearia cypressina*   ⚠ NOT in Clementine verbatim — CHECK
+[1136D] *Filii autem hominum in protectione alarum tuarum sperabunt [n: (Psal. XXXV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1136D] *Sedi et fructus,*   ✓ Clementine verbatim
+[1136D] *sedi.*   — single word, check in place
+[1136D] *Spiritus sanctus superveniet in te, et virtus Altissimi obumbrabit tibi [n: (Luc. I)]*   ✓ Clementine verbatim
+[1137A] *Dulcis.*   — single word, check in place
+[1137A] VERS. 4.-- *Introduxit me.*   ✓ Clementine verbatim
+[1137A] *Introduxit me.*   ✓ Clementine verbatim
+[1137A] *Introduxit.*   — single word, check in place
+[1137A] *vinum*   — single word, check in place
+[1137A] *Cella*   — single word, check in place
+[1137B] *Ordinavit in me charitatem.*   ⚠ NOT in Clementine verbatim — CHECK
+[1137B] *Diliges Dominum Deum tuum ex toto corde tuo, et ex tota mente tua, et proximum tuum sicut teipsum [n: (Marc. XII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1137B] VERS. 5.-- *Fulcite.*   — single word, check in place
+[1137B] *fulcite,*   — single word, check in place
+[1137B] *fulcite,*   — single word, check in place
+[1137D] *Langueo.*   — single word, check in place
+[1137D] VERS. 6.-- *Laeva ejus.*   ✓ Clementine verbatim
+[1137D] *Laeva ejus sub capite meo.*   ✓ Clementine verbatim
+[1137D] *dextera amplexabitur,*   ⚠ NOT in Clementine verbatim — CHECK
+[1137D] *Laeva*   — single word, check in place
+[1137D] *sub capite*   ✓ Clementine verbatim
+[1137D] *dextera,*   — single word, check in place
+[1137D] *amplexabitur,*   — single word, check in place
+[1137D] VERS. 7.-- *Adjuro.*   — single word, check in place
+[1137D] *Per capreas.*   ✓ Clementine verbatim
+[1137D] *capreis,*   — single word, check in place
+[1137D] *cervis*   — single word, check in place
+[1138C] *Ne suscitetis.*   ✓ Clementine verbatim
+[1138C] VERS. 8.-- *Vox dilecti mei.*   ✓ Clementine verbatim
+[1138C] *Saliens in montibus.*   ✓ Clementine verbatim
+[1139A] *Transiliens colles.*   ✓ Clementine verbatim
+[1139A] *collibus*   — single word, check in place
+[1139A] *Montes*   — single word, check in place
+[1139A] *colles*   — single word, check in place
+[1139A] *salit,*   — single word, check in place
+[1139A] *salit*   — single word, check in place
+[1139A] *transilit:*   — single word, check in place
+[1125D] VERS. 9.-- *Similis.*   — single word, check in place
+[1125D] *Similis.*   — single word, check in place
+[1125D] *capreae;*   — single word, check in place
+[1125D] *hinnulo.*   — single word, check in place
+[1139C] *En ipse stat,*   ✓ Clementine verbatim
+[1139C] *Post parietem.*   ✓ Clementine verbatim
+[1139C] *En dilectus meus loquitur mihi,*   ✓ Clementine verbatim
+[1139D] *Post parietem.*   ✓ Clementine verbatim
+[1139D] *post parietem*   ✓ Clementine verbatim
+[1139D] *prospiciens per fenestras,*   ⚠ NOT in Clementine verbatim — CHECK
+[1139D] *Ecce mors ascendit per fenestras nostras [n: (Jer. IX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1139D] *per retia.*   ⚠ NOT in Clementine verbatim — CHECK
+[1139D] *Anima nostra sicut passer erepta est de laqueo venantium [n: (Psal. CXXIII)]*   ✓ Clementine verbatim
+[1139D] *Per fenestras.*   ✓ Clementine verbatim
+[1139D] *cancellos,*   — single word, check in place
+[1139D] VERS. 10.-- *Surge propera.*   ✓ Clementine verbatim
+[1139D] *Surge propera.*   ✓ Clementine verbatim
+[1139D] *apparent flores in terra,*   ⚠ NOT in Clementine verbatim — CHECK
+[1140B] *Tempus amputationis advenit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1140B] *surge,*   — single word, check in place
+[1140B] *Veni.*   — single word, check in place
+[1140B] VERS. 11.-- *Imber abiit.*   ✓ Clementine verbatim
+[1140B] VERS. 12.-- *Flores. Quasi:*   ✓ Clementine verbatim
+[1140B] *Tempus putationis.*   ✓ Clementine verbatim
+[1140D] *Vox turturis audita est.*   ✓ Clementine verbatim
+[1140D] *Vox turturis,*   ✓ Clementine verbatim
+[1140D] VERS. 13.-- *Ficus.*   — single word, check in place
+[1140D] *Vineae florentes.*   ✓ Clementine verbatim
+[1140D] VERS. 14.-- *In foraminibus.*   ✓ Clementine verbatim
+[1140D] *In foraminibus.*   ✓ Clementine verbatim
+[1140D] *Maceries*   — single word, check in place
+[1140D] *Ostende mihi.*   ✓ Clementine verbatim
+[1140D] *Ostende mihi faciem tuam; sonet vox tua in auribus [1141C] meis.*   ✓ Clementine verbatim
+[1141C] *facies,*   — single word, check in place
+[1141C] *sonus vocis,*   ⚠ NOT in Clementine verbatim — CHECK
+[1141C] *maceries*   — single word, check in place
+[1141C] *maceries*   — single word, check in place
+[1141C] *faciem tuam*   ✓ Clementine verbatim
+[1141C] *Auribus meis.*   ✓ Clementine verbatim
+[1141C] *Vox enim tua.*   ✓ Clementine verbatim
+[1141C] VERS. 15.-- *Capite nobis.*   ✓ Clementine verbatim
+[1141C] *capite*   — single word, check in place
+[1141C] *Nam vinea nostra.*   ✓ Clementine verbatim
+[1141C] *vineas*   — single word, check in place
+[1141C] *vinea,*   — single word, check in place
+[1141C] VERS. 16.-- *Dilectus meus mihi.*   ✓ Clementine verbatim
+[1142A] *Dilectus meus mihi.*   ✓ Clementine verbatim
+[1142A] *ego illi.*   ✓ Clementine verbatim
+[1142A] *dilectus*   — single word, check in place
+[1142A] *mihi*   — single word, check in place
+[1142A] *ego illi*   ✓ Clementine verbatim
+[1142A] *dilectus meus mihi,*   ✓ Clementine verbatim
+[1142A] *ego ei,*   ⚠ NOT in Clementine verbatim — CHECK
+[1142A] *Qui pascitur inter lilia.*   ✓ Clementine verbatim
+[1142A] *Pascitur inter lilia,*   ✓ Clementine verbatim
+[1142B] *Lilia.*   — single word, check in place
+[1142B] *Donec aspiret dies.*   ✓ Clementine verbatim
+[1142B] VERS. 17.-- *Revertere, similis.*   ✓ Clementine verbatim
+[1142B] *Revertere, similis.*   ✓ Clementine verbatim
+[1125D] *In lectulo.*   ✓ Clementine verbatim
+[1125D] *In lectulo.*   ✓ Clementine verbatim
+[1142D] *Quaesivi eum, et non inveni.*   ⚠ NOT in Clementine verbatim — CHECK
+[1142D] *Surgam, et circuibo civitatem. In lectulo.*   ⚠ NOT in Clementine verbatim — CHECK
+[1143A] *Et non inveni.*   ✓ Clementine verbatim
+[1143A] *Vici,*   — single word, check in place
+[1143A] *Plateae,*   — single word, check in place
+[1143B] *Quaesivi, et non inveni:*   ✓ Clementine verbatim
+[1143B] *Invenerunt me vigiles. Quaesivi.*   ⚠ NOT in Clementine verbatim — CHECK
+[1143B] VERS. 3.-- *Invenerunt me.*   ✓ Clementine verbatim
+[1143B] *Num quem diligit.*   ✓ Clementine verbatim
+[1143B] *Num quem diligit.*   ✓ Clementine verbatim
+[1143B] VERS. 4.-- *Cum pertransissem.*   ✓ Clementine verbatim
+[1143B] *transit,*   — single word, check in place
+[1143B] *Tu es Christus, Filius Dei vivi [n: (Matth. XVI)]*   ✓ Clementine verbatim
+[1143B] *Donec introducam illum,*   ✓ Clementine verbatim
+[1143B] VERS. 5.-- *Adjuro vos.*   ✓ Clementine verbatim
+[1143D] *Adjuro vos.*   ✓ Clementine verbatim
+[1143D] *Cervosque.*   — single word, check in place
+[1143D] VERS. 6.-- *Quae est ista.*   ✓ Clementine verbatim
+[1144A] *Quae est ista?*   ✓ Clementine verbatim
+[1144A] *Quae ascendit.*   ✓ Clementine verbatim
+[1144A] *Per desertum.*   ✓ Clementine verbatim
+[1144A] *Per desertum sicut virgula fumi,*   ✓ Clementine verbatim
+[1144B] *Ex aromatibus.*   ✓ Clementine verbatim
+[1144B] *myrrham,*   — single word, check in place
+[1144B] *thus,*   — single word, check in place
+[1144B] *universi pulveris pigmentarii*   ✓ Clementine verbatim
+[1144B] *Pigmenta.*   — single word, check in place
+[1144C] *Pigmentarius,*   — single word, check in place
+[1144C] VERS. 7.-- *En lectulum.*   ✓ Clementine verbatim
+[1144C] *lectulum,*   — single word, check in place
+[1144C] *fercula*   — single word, check in place
+[1144C] *En lectulum.*   ✓ Clementine verbatim
+[1144D] *ambiunt fortissimi:*   ⚠ NOT in Clementine verbatim — CHECK
+[1144D] *Israel.*   — single word, check in place
+[1144D] VERS. 8.-- *Omnes tenentes gladios.*   ✓ Clementine verbatim
+[1144D] *Omnes tenentes gladios.*   ✓ Clementine verbatim
+[1145A] *Ad bella doctissimi.*   ✓ Clementine verbatim
+[1145A] *Propter timores.*   ✓ Clementine verbatim
+[1145A] VERS. 9.-- *Ferculum.*   — single word, check in place
+[1145A] VERS. 10.-- *Reclinatorium aureum.*   ✓ Clementine verbatim
+[1145A] *reclinatorium*   — single word, check in place
+[1145A] *Aureum,*   — single word, check in place
+[1145A] *Ascensum purpureum.*   ✓ Clementine verbatim
+[1145A] *purpurei,*   — single word, check in place
+[1145A] *ascensus,*   — single word, check in place
+[1145A] *purpura:*   — single word, check in place
+[1145C] *ascensus,*   — single word, check in place
+[1145C] *Purpureus,*   — single word, check in place
+[1145C] *Media charitate constravit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1145C] *Media,*   — single word, check in place
+[1145C] *Propter filias Jerusalem.*   ✓ Clementine verbatim
+[1145C] *Media*   — single word, check in place
+[1145C] *propter filias Jerusalem,*   ✓ Clementine verbatim
+[1145C] VERS. 11.-- *Egredimini et videte,*   ✓ Clementine verbatim
+[1145C] *In diademate.*   ✓ Clementine verbatim
+[1145C] *In diademate,*   ✓ Clementine verbatim
+[1146A] *Qui coronavit eum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1146A] *Desponsationis illius.*   ✓ Clementine verbatim
+[1146A] *illius*   — single word, check in place
+[1125D] VERS. 1.-- *Quam pulchra es.*   ✓ Clementine verbatim
+[1146B] *Pulchra*   — single word, check in place
+[1146B] *Oculi.*   — single word, check in place
+[1146B] *Absque.*   — single word, check in place
+[1146B] *Capilli tui.*   ✓ Clementine verbatim
+[1146B] *Capilli,*   — single word, check in place
+[1146B] *Genae,*   — single word, check in place
+[1146B] *Dentes*   — single word, check in place
+[1146B] *Labia,*   — single word, check in place
+[1146B] *Capilli tui.*   ✓ Clementine verbatim
+[1146B] *oculis*   — single word, check in place
+[1146B] *capillis*   — single word, check in place
+[1146C] *Quae ascenderunt.*   ✓ Clementine verbatim
+[1146C] *Quae ascenderunt.*   ✓ Clementine verbatim
+[1146C] *me confessus fuerit coram hominibus,*   ⚠ NOT in Clementine verbatim — CHECK
+[1146C] VERS. 2.-- *Dentes tui sicut greges tonsarum.*   ✓ Clementine verbatim
+[1146C] *De lavacro, omnes.*   ✓ Clementine verbatim
+[1146D] *Gemellis fetibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[1146D] *Et sterilis non est.*   ✓ Clementine verbatim
+[1146D] *Consummatus in brevi explevit tempora multa [n: (Sap. IV)]*   ✓ Clementine verbatim
+[1146D] VERS. 3.-- *Sicut vitta.*   ✓ Clementine verbatim
+[1146D] *vitta*   — single word, check in place
+[1147A] *Coccinea.*   — single word, check in place
+[1147A] *Labia tua.*   ✓ Clementine verbatim
+[1147A] *Eloquium tuum dulce.*   ✓ Clementine verbatim
+[1147A] *Sicut fragmen mali punici, ita genae.*   ✓ Clementine verbatim
+[1147A] *puniceo,*   — single word, check in place
+[1147A] *genis*   — single word, check in place
+[1147A] *punico*   — single word, check in place
+[1147B] *Absque eo.*   ✓ Clementine verbatim
+[1147B] *Latet.*   — single word, check in place
+[1147B] VERS. 4.-- *Sicut turris David.*   ✓ Clementine verbatim
+[1147C] *cum propugnaculis:*   ✓ Clementine verbatim
+[1147C] *propugnacula*   — single word, check in place
+[1147C] *Collum tuum.*   ✓ Clementine verbatim
+[1147C] *Turris,*   — single word, check in place
+[1147C] *collum,*   — single word, check in place
+[1147D] *oculi;*   — single word, check in place
+[1147D] *dentes:*   — single word, check in place
+[1147D] *genae:*   — single word, check in place
+[1147D] *collum*   — single word, check in place
+[1147D] *Propugnacula*   — single word, check in place
+[1147D] *Mille clypei.*   ✓ Clementine verbatim
+[1147D] *Omnis armatura.*   ✓ Clementine verbatim
+[1148A] VERS. 5.-- *Duo ubera.*   ✓ Clementine verbatim
+[1148A] *Duo*   — single word, check in place
+[1148A] *ubera,*   — single word, check in place
+[1148A] *oculi*   — single word, check in place
+[1148A] *Dentes,*   — single word, check in place
+[1148A] *Collum,*   — single word, check in place
+[1148A] *Ubera,*   — single word, check in place
+[1148A] *hinnuli capreae,*   ✓ Clementine verbatim
+[1148A] *Gemelli,*   — single word, check in place
+[1148B] *Duo hinnuli*   ✓ Clementine verbatim
+[1148B] *Qui pascuntur.*   ✓ Clementine verbatim
+[1148B] VERS. 6.-- *Donec aspiret dies illa.*   ⚠ NOT in Clementine verbatim — CHECK
+[1148B] *Vadam ad montem.*   ✓ Clementine verbatim
+[1148B] *Vadam,*   — single word, check in place
+[1148B] *Vadam.*   — single word, check in place
+[1148C] *Tota pulchra es.*   ✓ Clementine verbatim
+[1148C] VERS. 7.-- *Tota pulchra es.*   ✓ Clementine verbatim
+[1148C] VERS. 8.-- *Veni de Libano.*   ✓ Clementine verbatim
+[1148D] *Veni*   — single word, check in place
+[1148D] *veni*   — single word, check in place
+[1148D] *veni*   — single word, check in place
+[1148D] *Libanus*   — single word, check in place
+[1148D] *candidatio,*   — single word, check in place
+[1148D] *thus:*   — single word, check in place
+[1148D] *Vadam ad montem myrrhae et ad collem thuris.*   ✓ Clementine verbatim
+[1148D] *Veni.*   — single word, check in place
+[1148D] *De capite Amana.*   ✓ Clementine verbatim
+[1149A] *cubile leonum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1149A] *pardos*   — single word, check in place
+[1149A] *De cubilibus leonum. Leones,*   ⚠ NOT in Clementine verbatim — CHECK
+[1149A] *Pardi*   — single word, check in place
+[1149A] *Montium*   — single word, check in place
+[1149B] VERS. 9.-- *Vulnerasti cor.*   ✓ Clementine verbatim
+[1149B] VERS. 10.-- *Quam pulchrae,*   ✓ Clementine verbatim
+[1149B] *Mammae,*   — single word, check in place
+[1149C] *Pulchriora sunt ubera,*   ✓ Clementine verbatim
+[1149C] *Odor.*   — single word, check in place
+[1149C] *Super omnia aromata.*   ✓ Clementine verbatim
+[1125D] VERS. 11.-- *Favus distillans.*   ✓ Clementine verbatim
+[1125D] *labia,*   — single word, check in place
+[1125D] *Favus,*   — single word, check in place
+[1149D] *Mel et lac sub lingua. [n: (GREG.)]*   ✓ Clementine verbatim
+[1149D] *melle et lacte:*   ⚠ NOT in Clementine verbatim — CHECK
+[1149D] *sub lingua,*   ✓ Clementine verbatim
+[1149D] *Odor vestimentorum.*   ✓ Clementine verbatim
+[1150A] *Sine intermissione orate [n: (I Thess. V)]*   ✓ Clementine verbatim
+[1150A] *unguentorum,*   — single word, check in place
+[1150A] *vestimentorum,*   — single word, check in place
+[1150A] *thuri*   — single word, check in place
+[1150A] *unguenta*   — single word, check in place
+[1150B] *vestimenta,*   — single word, check in place
+[1150B] VERS. 12.-- *Hortus.*   — single word, check in place
+[1150D] *Fons signatus.*   ✓ Clementine verbatim
+[1150D] *Emissiones tuae:*   ✓ Clementine verbatim
+[1150D] *Ecclesia fons,*   ⚠ NOT in Clementine verbatim — CHECK
+[1150D] *Signatus,*   — single word, check in place
+[1150D] VERS. 13.-- *Emissiones.*   — single word, check in place
+[1150D] *mala punica,*   ✓ Clementine verbatim
+[1150D] *Cypri.*   — single word, check in place
+[1151A] *Cyprus*   — single word, check in place
+[1151A] *nardus*   — single word, check in place
+[1151A] *crocus*   — single word, check in place
+[1151A] *cyprus nardo,*   ⚠ NOT in Clementine verbatim — CHECK
+[1151A] *Nardus*   — single word, check in place
+[1151B] *Crocus*   — single word, check in place
+[1151B] VERS. 14.-- *Fistula et cinnamomum.*   ✓ Clementine verbatim
+[1151B] *casia,*   — single word, check in place
+[1151B] *Cinnamomum*   — single word, check in place
+[1151C] *Cum universis lignis.*   ✓ Clementine verbatim
+[1151C] *Primis.*   — single word, check in place
+[1151C] VERS. 15.-- *Fons hortorum.*   ✓ Clementine verbatim
+[1151C] *Puteus aquarum viventium,*   ✓ Clementine verbatim
+[1151C] *fons hortorum*   ✓ Clementine verbatim
+[1151C] *puteus*   — single word, check in place
+[1151C] *Aquarum viventium,*   ✓ Clementine verbatim
+[1152A] *De Libano,*   ✓ Clementine verbatim
+[1152A] VERS. 16.-- *Surge.*   — single word, check in place
+[1152A] *surge,*   — single word, check in place
+[1152A] *Surge.*   — single word, check in place
+[1152A] *aquilone,*   — single word, check in place
+[1152A] *austro,*   — single word, check in place
+[1152A] *Surge,*   — single word, check in place
+[1152A] *Perfla.*   — single word, check in place
+[1152A] *Perfla,*   — single word, check in place
+[1125D] VERS. 1.-- *Veniat dilectus.*   ✓ Clementine verbatim
+[1125D] *mecum usque ad consummationem saeculi,*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] *Veniat dilectus.*   ✓ Clementine verbatim
+[1125D] *non patitur nos tentari supra id quod possumus. [n: (I Cor. X.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] *Veniat dilectus.*   ✓ Clementine verbatim
+[1152C] *Veni in hortum.*   ✓ Clementine verbatim
+[1152C] *Veni,*   — single word, check in place
+[1152C] *Messui.*   — single word, check in place
+[1152C] *Comedi favum.*   ✓ Clementine verbatim
+[1152C] *favum,*   — single word, check in place
+[1152C] *mel,*   — single word, check in place
+[1152C] *vinum,*   — single word, check in place
+[1152C] *lac,*   — single word, check in place
+[1152D] *Comedite, amici.*   ✓ Clementine verbatim
+[1152D] *Inebriamini, charissimi.*   ⚠ NOT in Clementine verbatim — CHECK
+[1152D] VERS. 2.-- *Ego dormio.*   ✓ Clementine verbatim
+[1152D] *Ego dormio. Aperi mihi, soror mea,*   ⚠ NOT in Clementine verbatim — CHECK
+[1153B] *soror mea;*   ✓ Clementine verbatim
+[1153B] *proxima mea;*   ⚠ NOT in Clementine verbatim — CHECK
+[1153B] *columba mea;*   ✓ Clementine verbatim
+[1153B] *perfecta mea. Caput meum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1153B] *Cincinni mei.*   ✓ Clementine verbatim
+[1153B] *sunt pleni guttis noctium,*   ⚠ NOT in Clementine verbatim — CHECK
+[1153B] VERS. 3.-- *Exspoliavi me.*   ⚠ NOT in Clementine verbatim — CHECK
+[1153C] *Exspoliavi me.*   ⚠ NOT in Clementine verbatim — CHECK
+[1153C] VERS. 4.-- *Dilectus meus.*   ✓ Clementine verbatim
+[1153C] *Dilectus meus,*   ✓ Clementine verbatim
+[1153D] *Manum suam.*   ✓ Clementine verbatim
+[1153D] *Manum suam*   ✓ Clementine verbatim
+[1153D] *Et venter.*   ✓ Clementine verbatim
+[1153D] *Venter.*   — single word, check in place
+[1153D] VERS. 5.-- *Surrexi, ut aperirem.*   ✓ Clementine verbatim
+[1153D] *Manus meae distillaverunt,*   ⚠ NOT in Clementine verbatim — CHECK
+[1153D] *Et digiti mei pleni sunt myrrha.*   ⚠ NOT in Clementine verbatim — CHECK
+[1153D] VERS. 6.-- *Pessulum ostii.*   ✓ Clementine verbatim
+[1154B] *At ille declinaverat. Anima mea,*   ⚠ NOT in Clementine verbatim — CHECK
+[1154C] *Anima mea liquefacta est. Quaesivi et non inveni illum: vocavi,*   ⚠ NOT in Clementine verbatim — CHECK
+[1154C] VERS. 7.-- *Tulerunt pallium.*   ✓ Clementine verbatim
+[1154C] VERS. 8.-- *Adjuro vos, filiae Jerusalem, si inveneritis,*   ✓ Clementine verbatim
+[1154C] VERS. 9.-- *Qualis est dilectus.*   ✓ Clementine verbatim
+[1154C] VERS. 10.-- *Dilectus meus candidus et rubicundus.*   ✓ Clementine verbatim
+[1154C] *Dilectus meus.*   ✓ Clementine verbatim
+[1154C] *candidum,*   — single word, check in place
+[1154C] *rubicundum,*   — single word, check in place
+[1154C] *electus. Electus ex millibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[1154C] *Hic est Filius meus dilectus,*   ✓ Clementine verbatim
+[1155B] *inventus alius, neque in coelo, neque in terra qui acciperet librum [n: (Apoc. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1155B] VERS. 11.-- *Caput ejus aurum optimum.*   ✓ Clementine verbatim
+[1155B] *Crines ejus abietes.*   ⚠ NOT in Clementine verbatim — CHECK
+[1155B] *caput Christi Deus [n: (Cor. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1155B] *Comae ejus,*   ✓ Clementine verbatim
+[1155B] *Nigrae quasi corvus.*   ✓ Clementine verbatim
+[1155B] *quasi corvus,*   ✓ Clementine verbatim
+[1155B] VERS. 12.-- *Oculi ejus sicut columbae.*   ✓ Clementine verbatim
+[1155C] *Oculi ejus.*   ✓ Clementine verbatim
+[1155D] *Quae lacte sunt lotae.*   ✓ Clementine verbatim
+[1155D] VERS. 13.-- *Genae.*   — single word, check in place
+[1155D] *Sicut areolae.*   ✓ Clementine verbatim
+[1155D] *consite a pigmentariis;*   ⚠ NOT in Clementine verbatim — CHECK
+[1156A] *Labia ejus lilia distillantia myrrham.*   ✓ Clementine verbatim
+[1156A] *lilia*   — single word, check in place
+[1156A] *primam myrrham,*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] VERS. 14.-- *Manus illius.*   ✓ Clementine verbatim
+[1125D] *Tornatiles,*   — single word, check in place
+[1125D] *Oportet in me impleri omnem justitiam [n: (Matth. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] *Aureae, [1156B] plenae hiacynthis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1156B] *Venter ejus eburneus,*   ✓ Clementine verbatim
+[1156B] *eburneus*   — single word, check in place
+[1156B] *Distinctus,*   — single word, check in place
+[1156B] *Distinctus*   — single word, check in place
+[1156B] VERS. 15.-- *Crura illius columnae,*   ✓ Clementine verbatim
+[1156B] *columnae*   — single word, check in place
+[1156C] *Fundatae super bases.*   ⚠ NOT in Clementine verbatim — CHECK
+[1156C] *bases*   — single word, check in place
+[1156C] *Species ejus ut Libani.*   ✓ Clementine verbatim
+[1156C] *Libanus*   — single word, check in place
+[1156C] *cedrus*   — single word, check in place
+[1156C] *speciosus forma prae filiis hominum [n: (Psal. XLIV)]*   ✓ Clementine verbatim
+[1156C] *plenitudine ejus omnes [1156D] accepimus [n: (Joan. )]*   ⚠ NOT in Clementine verbatim — CHECK
+[1156C] VERS. 16.-- *Guttur illius suavissimum,*   ✓ Clementine verbatim
+[1156C] *Totus,*   — single word, check in place
+[1156C] *desideralibis,*   — single word, check in place
+[1156C] *Talis est dilectus.*   ✓ Clementine verbatim
+[1157A] *Filiae Jerusalem.*   ✓ Clementine verbatim
+[1157A] VERS. 17.-- *Quo abiit dilectus.*   ✓ Clementine verbatim
+[1157A] *Quo abiit,*   ✓ Clementine verbatim
+[1157B] *Quo abiit.*   ✓ Clementine verbatim
+[1157B] *Quo abiit dilectus tuus, o pulcherrima mulierum.*   ✓ Clementine verbatim
+[1125D] VERS. 1.-- *Dilectus meus. Descendit*   ✓ Clementine verbatim
+[1125D] *Descendit in hortum,*   ✓ Clementine verbatim
+[1125D] *ad areolam aromatum.*   ✓ Clementine verbatim
+[1125D] *Areola*   — single word, check in place
+[1157D] *Lilia colligit,*   ⚠ NOT in Clementine verbatim — CHECK
+[1157D] VERS. 2.-- *Ego dilecto meo.*   ✓ Clementine verbatim
+[1157D] *Ego nepoti meo et nepos meus mihi, qui pascit inter lilia.*   ⚠ NOT in Clementine verbatim — CHECK
+[1158A] VERS. 3.-- *Pulchra es, amica mea.*   ✓ Clementine verbatim
+[1158A] *Terribilis, ut castrorum acies ordinata.*   ✓ Clementine verbatim
+[1158A] VERS. 4.-- *Averte oculos tuos a me.*   ✓ Clementine verbatim
+[1158A] *Non enim videbit me homo et vivet [n: (Exod. XXXIII)]*   ✓ Clementine verbatim
+[1158A] *Quia ipsi me.*   ✓ Clementine verbatim
+[1158A] *Magnitudinis ejus non est finis [n: (Psal. CXLIV)]*   ✓ Clementine verbatim
+[1158A] *Avolare fecerunt.*   ✓ Clementine verbatim
+[1158C] *Capilli tui sicut grex caprarum,*   ✓ Clementine verbatim
+[1158C] *Omnes gemellis fetibus, et sterilis non est in eis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1158C] VERS. 6.-- *Sicut cortex mali punici, sic genae [1158D] tuae,*   ✓ Clementine verbatim
+[1158D] *Quod oculus non vidit nec auris audivi,*   ✓ Clementine verbatim
+[1158D] *Absque occultis tuis,*   ✓ Clementine verbatim
+[1158D] VERS. 7.-- *Sexaginta sunt reginae et octoginta concubinae,*   ✓ Clementine verbatim
+[1158D] VERS. 8.-- *Una est columba mea, perfecta mea.*   ✓ Clementine verbatim
+[1159B] *quia omne donum optimum desursum descendit [n: (Jac. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1159B] *Viderunt.*   — single word, check in place
+[1159B] *Praedicaverunt.*   — single word, check in place
+[1159B] VERS. 9.-- *Quae est ista.*   ✓ Clementine verbatim
+[1159C] *Quae est ista,*   ✓ Clementine verbatim
+[1159C] *Quasi aurora consurgens.*   ✓ Clementine verbatim
+[1159C] *aurora,*   — single word, check in place
+[1159C] *aurora,*   — single word, check in place
+[1159C] *dies*   — single word, check in place
+[1159C] *Pulchra ut luna.*   ✓ Clementine verbatim
+[1159D] *lunae:*   — single word, check in place
+[1159D] *sicut sol*   ✓ Clementine verbatim
+[1159D] *Terribilis ut castrorum acies ordinata.*   ✓ Clementine verbatim
+[1159D] VERS. 10.-- *Descendi in hortum nucum,*   ✓ Clementine verbatim
+[1159D] VERS. 11.-- *Nescivi, anima mea.*   ✓ Clementine verbatim
+[1159D] *Conturbavit me.*   ✓ Clementine verbatim
+[1159D] VERS. 12.-- *Revertere.*   — single word, check in place
+[1159D] *revertere,*   — single word, check in place
+[1160B] *revertere*   — single word, check in place
+[1160B] *revertere*   — single word, check in place
+[1160B] *revertere*   — single word, check in place
+[1160B] *revertere*   — single word, check in place
+[1160B] *Ut intueamur te,*   ✓ Clementine verbatim
+[1125D] VERS. 1.-- *Quid videbis in Sulamite.*   ✓ Clementine verbatim
+[1160C] *Quid videbis.*   ✓ Clementine verbatim
+[1160C] *Quam pulchri sunt gressus.*   ✓ Clementine verbatim
+[1160D] *Quam pulchri sunt.*   ✓ Clementine verbatim
+[1160D] *Quam pulchri sunt.*   ✓ Clementine verbatim
+[1160D] *Juncturae femorum.*   ✓ Clementine verbatim
+[1160D] *Monilia.*   — single word, check in place
+[1160D] *Quae fabricata sunt.*   ✓ Clementine verbatim
+[1161A] *Quae fabricata sunt manu.*   ✓ Clementine verbatim
+[1161A] *Umbilicus tuus.*   ✓ Clementine verbatim
+[1161A] VERS. 2.-- *Umbilicus.*   — single word, check in place
+[1161A] *crater,*   — single word, check in place
+[1161A] *Tornatilis,*   — single word, check in place
+[1161B] *Venter tuus.*   ✓ Clementine verbatim
+[1161B] *acervus*   — single word, check in place
+[1161B] *tritici,*   — single word, check in place
+[1161B] *Venter tuus.*   ✓ Clementine verbatim
+[1161B] *Acervus.*   — single word, check in place
+[1161B] *acervo tritici*   ⚠ NOT in Clementine verbatim — CHECK
+[1161B] *craterem*   — single word, check in place
+[1161C] *Vallatus liliis.*   ✓ Clementine verbatim
+[1161C] VERS. 3.-- *Duo ubera.*   ✓ Clementine verbatim
+[1161C] *capreae*   — single word, check in place
+[1161C] VERS. 4.-- *Collum tuum.*   ✓ Clementine verbatim
+[1161C] *turris,*   — single word, check in place
+[1161C] *ebore*   — single word, check in place
+[1161C] *Oculi tui.*   ✓ Clementine verbatim
+[1161C] *Hesebon piscinae*   ⚠ NOT in Clementine verbatim — CHECK
+[1161C] *in porta*   ✓ Clementine verbatim
+[1161C] *Piscinae.*   — single word, check in place
+[1162A] *cingulo moeroris,*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] *filia multitudinis. Nasus.*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] *Sicut turris Libani.*   ✓ Clementine verbatim
+[1162A] *Contra Damascum.*   ✓ Clementine verbatim
+[1162A] VERS. 5.-- *Caput tuum.*   ✓ Clementine verbatim
+[1162A] *Canales,*   — single word, check in place
+[1162A] *juncta est canalibus,*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] VERS. 7.-- *Statuta tua.*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] *Assimilata est palmae.*   ✓ Clementine verbatim
+[1162A] *Ubera.*   — single word, check in place
+[1162A] *ab ubertate domus Dei [1162D] inebriant [n: (Psal. XXXV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] VERS. 8.-- *Dixi: Ascendam.*   ✓ Clementine verbatim
+[1162A] *ascendi in palmam,*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] *apprehendam fructus ejus;*   ✓ Clementine verbatim
+[1162A] *ubera tua*   ✓ Clementine verbatim
+[1162A] *sicut botrus*   ⚠ NOT in Clementine verbatim — CHECK
+[1162A] *Dixi.*   — single word, check in place
+[1163A] *Fructus ejus.*   ✓ Clementine verbatim
+[1163A] *Et odor oris.*   ✓ Clementine verbatim
+[1163A] VERS. 9.-- *Dignum dilecto meo.*   ✓ Clementine verbatim
+[1163B] *qui solveret librum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1163B] *Dignum dilecto meo. Ad ruminandum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1163B] VERS. 10.-- *Ego dilecto.*   ✓ Clementine verbatim
+[1163B] VERS. 11.-- *Veni, dilecte.*   ✓ Clementine verbatim
+[1163B] *Veni.*   — single word, check in place
+[1163B] *agro,*   — single word, check in place
+[1163D] *villis,*   — single word, check in place
+[1163D] *vineis,*   — single word, check in place
+[1163D] *floribus,*   — single word, check in place
+[1163D] *fructibus,*   — single word, check in place
+[1163D] VERS. 12.-- *Mane surgamus.*   ✓ Clementine verbatim
+[1163D] *Videamus.*   — single word, check in place
+[1164A] *Ibi dabo tibi ubera.*   ✓ Clementine verbatim
+[1125D] VERS. 13.-- *Mandragorae.*   — single word, check in place
+[1125D] *Portae,*   — single word, check in place
+[1125D] *Mandragorae,*   — single word, check in place
+[1125D] *mala,*   — single word, check in place
+[1164B] *dederunt odorem,*   ✓ Clementine verbatim
+[1164B] *Servavi tibi.*   ✓ Clementine verbatim
+[1125D] VERS. 1.-- *Quis mihi.*   ✓ Clementine verbatim
+[1125D] *Foris.*   — single word, check in place
+[1125D] *in principio erat Verbum:*   ✓ Clementine verbatim
+[1125D] *Verbum caro factum est [n: (Joan. I)]*   ✓ Clementine verbatim
+[1125D] *Deosculer te,*   ✓ Clementine verbatim
+[1125D] VERS. 2.-- *Ibi me docebis.*   ✓ Clementine verbatim
+[1125D] VERS. 3.-- *Laeva.*   — single word, check in place
+[1125D] *et dextera:*   ✓ Clementine verbatim
+[1125D] *amplexabitur me,*   ✓ Clementine verbatim
+[1125D] VERS. 4.-- *Adjuro vos.*   ✓ Clementine verbatim
+[1125D] *Donec ipsa velit.*   ✓ Clementine verbatim
+[1125D] VERS. 5.-- *Quae est ista?*   ✓ Clementine verbatim
+[1125D] *Quae est ista? Sub arbore.*   ⚠ NOT in Clementine verbatim — CHECK
+[1125D] *Suscitavi.*   — single word, check in place
+[1125D] *Sanguis ejus super nos, et super filios nostros [n: (Matth. XXVII)]*   ✓ Clementine verbatim
+[1125D] VERS. 6.-- *Pone me.*   ✓ Clementine verbatim
+[1125D] *ut signaculum super cor,*   ✓ Clementine verbatim
+[1165A] *Quia fortis est ut mors dilectio.*   ✓ Clementine verbatim
+[1165A] *Ut mors.*   ✓ Clementine verbatim
+[1165A] *Dura sicut infernus,*   ✓ Clementine verbatim
+[1165A] *Lampades ejus.*   ✓ Clementine verbatim
+[1165B] *ignis:*   — single word, check in place
+[1165B] *flamma,*   — single word, check in place
+[1165B] VERS. 7.-- *Aquae multae,*   ✓ Clementine verbatim
+[1165B] *Flumina.*   — single word, check in place
+[1165B] *Si dederit.*   ✓ Clementine verbatim
+[1165B] *Si dederit homo.*   ✓ Clementine verbatim
+[1165B] *Omnia detrimenta arbitror ut stercora, ut Christum lucrifaciam*   ⚠ NOT in Clementine verbatim — CHECK
+[1165B] VERS. 8.-- *Soror nostra,*   ✓ Clementine verbatim
+[1165B] *Soror nostra parva.*   ✓ Clementine verbatim
+[1165B] *Quid faciemus sorori,*   ✓ Clementine verbatim
+[1165B] VERS. 9.-- *Si murus est,*   ✓ Clementine verbatim
+[1165B] *Si ostium.*   ✓ Clementine verbatim
+[1165B] VERS. 10.-- *Ego murus.*   ✓ Clementine verbatim
+[1165B] *Ego murus.*   ✓ Clementine verbatim
+[1165B] *Ex quo.*   ✓ Clementine verbatim
+[1165B] *Quasi pacem [1166B] reperiens.*   ✓ Clementine verbatim
+[1166B] *pacifico*   — single word, check in place
+[1166B] VERS. 11.-- *Tradidit eam custodibus.*   ✓ Clementine verbatim
+[1166B] VERS. 12.-- *Mille tui pacifici.*   ✓ Clementine verbatim
+[1166C] *mille,*   — single word, check in place
+[1166C] *argentum,*   — single word, check in place
+[1166C] *Mille,*   — single word, check in place
+[1166C] *mille*   — single word, check in place
+[1166C] *centum*   — single word, check in place
+[1166C] *ducenti,*   — single word, check in place
+[1166C] *Mille,*   — single word, check in place
+[1166C] *argentei*   — single word, check in place
+[1166C] *pacifici:*   — single word, check in place
+[1166C] VERS. 13.-- *Quae habitas in hortis.*   ✓ Clementine verbatim
+[1166C] *Quae ergo in hortis habitat,*   ⚠ NOT in Clementine verbatim — CHECK
+[1166C] *vocem suam audire [1166D] faciat,*   ⚠ NOT in Clementine verbatim — CHECK
+[1166D] *amici auscultant,*   ✓ Clementine verbatim
+[1166D] *Quae habitas.*   ✓ Clementine verbatim
+[1166D] *Amici.*   — single word, check in place
+[1166D] *Fac me audire.*   ✓ Clementine verbatim
+[1167A] VERS. 14.-- *Fuge, dilecte.*   ✓ Clementine verbatim
+[1167A] *Fuge, dilecte.*   ✓ Clementine verbatim
+[1167A] *Fuge, dilecte.*   ✓ Clementine verbatim
+[1168A] *Assimilare.*   — single word, check in place
+[1168A] *montes aromatum,*   ✓ Clementine verbatim
+
+## Totals — 669 spans: 339 ✓ · 79 ⚠ · 251 single-word
