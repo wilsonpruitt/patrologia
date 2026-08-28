@@ -1,0 +1,57 @@
+{
+  "textIdno": "8944",
+  "work": "Canticum Canticorum (Glossa ordinaria)",
+  "author": "Anselmus Laudunensis et schola",
+  "volume": 113,
+  "issue": "Corpus Corporum's TEI dropped the Hebrew type Migne sets inline before each of his three Latin transliterations in the PRAEFATIO, leaving the documented scar (a doubled or tripled space). See hebrew-recovery.md.",
+  "found_by": "The chunking plate spot check, 2026-08-28 — on PL 113 p. 568, the work-division page the check was already required to read. Not predicted from the Latin.",
+  "source": {
+    "repository": "archive.org (Google scan), on disk",
+    "id": "patrologiaecurs04migngoog",
+    "path": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+    "pageMap": "PDF page = (column + 11) / 2 — CALIBRATED against the printed corner numbers before the read: p. 568 = cols 1125/1126.",
+    "note": "Rendered full page width at 150 dpi, then region crops at 400-600 dpi. Native resolution of this Google copy is well below 600 dpi, so 600 dpi is upscaling and adds nothing."
+  },
+  "applied_as": "data/tei-patches/8944.json — TEI patches, not chunk edits, so a re-chunk reproduces them. A chunk-level insertion would be erased silently by the next chunk run (the same failure mode CLAUDE.md records for plate notes).",
+  "pointing": "Migne's type IS pointed — the shin dots are directly legible on the plate at every site. The individual vowel points are at or below this copy's resolution, so the pointing given is read per MT plus Migne's own transliteration, exactly as hebrew-recovery.md step 5 licenses and as the 11059 precedent records for its first site. The CONSONANTS are read directly and are not inferred. A sharper copy (Gallica, or a second Google scan) would settle the points if it ever matters; nothing downstream turns on them.",
+  "patches": [
+    {
+      "chunk": "0000",
+      "column": "1125D",
+      "verse": "Prov 1:1",
+      "hebrew": "מִשְׁלֵי",
+      "translit_printed": "misle",
+      "pdfPage": 568,
+      "pointed": true,
+      "verifiedAgainstMT": true,
+      "scar": "doubled space: 'primus est  <hi>misle,</hi>'",
+      "note": "Migne: 'Quorum primus est [Heb] misle, quem Graeci παραβολάς, Latini proverbia nominant.' Consonants read directly; shin dot legible."
+    },
+    {
+      "chunk": "0000",
+      "column": "1126D",
+      "verse": "Eccl 1:1",
+      "hebrew": "קֹהֶלֶת",
+      "translit_printed": "coheleth",
+      "pdfPage": 568,
+      "pointed": true,
+      "verifiedAgainstMT": true,
+      "scar": "TRIPLED space: 'librum   <hi>coheleth</hi>'",
+      "note": "Migne: 'Secundum librum [Heb] coheleth vocavit, qui Graece ἐκκλησιαστὴς vocatur, Latine concionator.'"
+    },
+    {
+      "chunk": "0000",
+      "column": "1126D",
+      "verse": "Cant 1:1",
+      "hebrew": "שִׁיר הַשִּׁירִים",
+      "translit_printed": "sir hassirim",
+      "pdfPage": 568,
+      "pointed": true,
+      "verifiedAgainstMT": true,
+      "scar": "doubled space before the line break: 'Tertium librum  \\n<pb n=\"1127A\"/>'",
+      "note": "THE PLATE FIXES THE SIDE OF THE COLUMN BREAK. Col. 1126 ends '...Tertium librum [Heb]' at the foot of p. 568; col. 1127A opens with 'sir hassirim praenotavit'. So the Hebrew goes BEFORE the <pb/>, and the existing anchor placement is confirmed correct in passing (the 2b class, checked rather than assumed)."
+    }
+  ],
+  "notLacuna": [],
+  "forTheTranslator": "The English keeps all three Hebrew words verbatim, in place, like an [n:] note — do not transliterate them and do not translate them. Migne's own Latin transliterations (misle / coheleth / sir hassirim) stand beside them and are italic in the Latin; keep them italic and untranslated too, since they are his transliterations, not words to English."
+}

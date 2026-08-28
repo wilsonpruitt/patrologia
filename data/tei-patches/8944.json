@@ -1,0 +1,26 @@
+{
+  "note": "HEBREW RECOVERY, not a defect repair — Corpus Corporum's TEI dropped the Hebrew type Migne sets inline before each of his three Latin transliterations, leaving the documented scar (a doubled or tripled space where the glyphs stood). Method: hebrew-recovery.md. Read from the on-disk PL 113 scan, archive.org patrologiaecurs04migngoog (raw/scans/pl113/), PDF page = (column + 11) / 2, CALIBRATED against the printed corner numbers before the read: p. 568 = cols 1125/1126. Rendered full page width at 150 dpi, then region crops at 400-600 dpi. Recorded as TEI patches rather than chunk edits so a re-chunk reproduces them (a chunk-level insertion would be erased silently, the same failure mode as plate notes). Provenance: data/hebrew-patches/8944.json.",
+  "class": "FOUND BY THE CHUNKING SPOT CHECK, on the work-division page it was already required to read. All three sites are the same class and were confirmed three ways: the scar in the TEI, the glyphs on the plate, and Migne's own transliteration printed beside each one (misle / coheleth / sir hassirim). Nothing here is inferred from the Latin alone.",
+  "patches": [
+    {
+      "col": "1125D",
+      "find": "primus est  <hi>misle,</hi>",
+      "replace": "primus est <foreign xml:lang=\"hebrew\">מִשְׁלֵי</foreign> <hi>misle,</hi>",
+      "why": "Migne prints the Hebrew of Prov 1:1 before his transliteration 'misle'. The TEI kept the transliteration and dropped the type, leaving a DOUBLED SPACE — the scar hebrew-recovery.md step 1 describes. Consonants read directly off the plate; the shin dot is legible."
+    },
+    {
+      "col": "1126D",
+      "find": "librum   <hi>coheleth</hi>",
+      "replace": "librum <foreign xml:lang=\"hebrew\">קֹהֶלֶת</foreign> <hi>coheleth</hi>",
+      "why": "Migne prints the Hebrew of Eccl 1:1 before 'coheleth'. Scar here is a TRIPLED space."
+    },
+    {
+      "col": "1126D",
+      "find": "Tertium librum  \n<pb n=\"1127A\"/>",
+      "replace": "Tertium librum <foreign xml:lang=\"hebrew\">שִׁיר הַשִּׁירִים</foreign>\n<pb n=\"1127A\"/>",
+      "why": "Migne prints the Hebrew of Cant 1:1 before 'sir hassirim'. Scar is a doubled space before the line break. THE HEBREW STANDS BEFORE THE COLUMN BREAK AND THE PLATE SAYS SO: col. 1126 ends '...Tertium librum [Hebrew]' at the foot of the page, and col. 1127A opens with 'sir hassirim praenotavit'. So the insertion goes before the <pb/>, not after it — and the existing anchor placement is confirmed correct in passing."
+    }
+  ],
+  "unread": [],
+  "refuted": []
+}

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23",
+  "generated": "2026-08-28",
   "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
   "tiers": {
     "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
@@ -1180,6 +1180,33 @@
       "coverage": "spot",
       "notes_recovered": 0,
       "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.290 cols 569/570 — the Galatians division, which falls MID-PAGE (rule, drop title EPISTOLA AD GALATAS, Argumentum, Caput primum) — and p.295 cols 579/580, interior (Gal. iv). Read at 300 dpi, FULL page width, from raw/scans/pl114/patrologiaecurs06saingoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
+    },
+    {
+      "idno": "8977",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.381 cols 751/752 — the END of the Apocalypse, a work division falling MID-PAGE (rule, drop title WALAFRIDI STRABI ... EXPOSITIO IN VIGINTI PRIMOS PSALMOS, then two fresh columns beneath it) — and p.370 cols 729/730, interior (Apoc. capp. X-XI). Calibration page p.381, corners read 751 / 752."
+    },
+    {
+      "idno": "9003",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.381 cols 751/752 — the BEGINNING of this work, the same mid-page division as 8977, carrying its drop title and the opening of PEZII MONITUM PRAEVIUM — and p.393 cols 775/776, interior (In psalmum XI-XII). Calibration page p.381, corners read 751 / 752."
+    },
+    {
+      "idno": "8944",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.568 cols 1125/1126 — the BEGINNING of Canticum canticorum, a work division falling MID-PAGE (Ecclesiastes ends, drop title CANTICUM CANTICORUM, PRAEFATIO opens beneath it) — and p.580 cols 1149/1150, interior (Cant. iv). Calibration page p.568, corners read 1125 / 1126. ⭐ THIS CHECK DID NOT COME BACK EMPTY-HANDED even though the conjecture-note count is zero: the same page showed that Corpus Corporum had dropped THREE Hebrew words Migne sets in the PRAEFATIO. Recovered and patched — data/hebrew-patches/8944.json, data/tei-patches/8944.json."
     }
   ],
   "fields": {
