@@ -1,6 +1,29 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-28 — APOCALYPSE + CANTICLES THROUGH EVERY CORRECTNESS GATE · ⛔ NOT BUILT, NOT INDEXED, NOT PUSHED
+## ▶▶▶▶▶ SESSION 2026-08-28 — APOCALYPSE + CANTICLES · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
+
+**The pipeline finished in a second pass, same day.** Both works are translated, verified,
+plate-read, polarity-read, built, indexed, and shipped. Corpus **142 → 144**, `/glossa`
+**36 → 38 of 58**. Commit `a51eaab`, pushed to `origin/master`, deployed and aliased to
+migne.app (`dpl_5jXgGsVXvdHKRRmDFcUdVkxCVugR`). Smoke-tested by body on all six URLs: both
+work pages, both cruces pages, `/glossa`, and `/` — titles present, correct "New English
+translation" badge on both (no false "First" claim).
+
+⚠ **Two things caught in the mechanical pass, both real, both fixed:**
+- The "leave workStatus, both are null" line below is **wrong for 8944** — it actually
+  carries `workStatus: "copyrighted"` / `englishState: "elsewhere"`, which is CORRECT data:
+  Mary Dove's *The Glossa Ordinaria on the Song of Songs* (TEAMS, 2004) is a real prior
+  English, confirmed by Wilson, and already logged in `data/briefs/glossa-prior-english.md`.
+  The shared fail-safe in `lib/first-english.mjs` handles both values identically (weak
+  claim either way), so nothing needed changing — but the resume note's factual claim was
+  imprecise and should not be trusted verbatim next time either.
+- 8944 @1155B: Migne prints `(Cor. II)` for a quote that is 1 Cor. 11:3 verbatim
+  (*caput autem Christi Deus est*) — no book ordinal, `II` for `XI`. Added to
+  `citation-corrections.json`, same class as the existing Isa. `II`/`XI` entry.
+
+---
+
+## ▶▶▶▶▶ (superseded) SESSION 2026-08-28 — APOCALYPSE + CANTICLES THROUGH EVERY CORRECTNESS GATE · ⛔ NOT BUILT, NOT INDEXED, NOT PUSHED
 
 **Wilson stopped the session here and will finish the pipeline next time.** Two works are
 translated, verified, plate-read and polarity-read; **what remains is mechanical** and is
