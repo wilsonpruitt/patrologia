@@ -1,6 +1,6 @@
 {
-  "note": "HEBREW RECOVERY, not a defect repair — Corpus Corporum's TEI dropped the Hebrew type Migne sets inline before each of his three Latin transliterations, leaving the documented scar (a doubled or tripled space where the glyphs stood). Method: hebrew-recovery.md. Read from the on-disk PL 113 scan, archive.org patrologiaecurs04migngoog (raw/scans/pl113/), PDF page = (column + 11) / 2, CALIBRATED against the printed corner numbers before the read: p. 568 = cols 1125/1126. Rendered full page width at 150 dpi, then region crops at 400-600 dpi. Recorded as TEI patches rather than chunk edits so a re-chunk reproduces them (a chunk-level insertion would be erased silently, the same failure mode as plate notes). Provenance: data/hebrew-patches/8944.json.",
-  "class": "FOUND BY THE CHUNKING SPOT CHECK, on the work-division page it was already required to read. All three sites are the same class and were confirmed three ways: the scar in the TEI, the glyphs on the plate, and Migne's own transliteration printed beside each one (misle / coheleth / sir hassirim). Nothing here is inferred from the Latin alone.",
+  "note": "HEBREW RECOVERY, not a defect repair — Corpus Corporum's TEI dropped the Hebrew type Migne sets inline before each of his three Latin transliterations, leaving the documented scar (a doubled or tripled space where the glyphs stood). Method: hebrew-recovery.md. Read from the on-disk PL 113 scan, archive.org patrologiaecurs04migngoog (raw/scans/pl113/), PDF page = (column + 11) / 2, CALIBRATED against the printed corner numbers before the read: p. 568 = cols 1125/1126. Rendered full page width at 150 dpi, then region crops at 400-600 dpi. Recorded as TEI patches rather than chunk edits so a re-chunk reproduces them (a chunk-level insertion would be erased silently, the same failure mode as plate notes). Provenance: data/hebrew-patches/8944.json. || 2026-08-28, SECOND READ: pp. 584-585 (cols 1157/1158 and 1159/1160), corner numbers read before each crop, rendered full page width at 150 dpi. Four more digitization defects recovered — see the second class note.",
+  "class": "FOUND BY THE CHUNKING SPOT CHECK, on the work-division page it was already required to read. All three sites are the same class and were confirmed three ways: the scar in the TEI, the glyphs on the plate, and Migne's own transliteration printed beside each one (misle / coheleth / sir hassirim). Nothing here is inferred from the Latin alone. || SECOND CLASS, pp. 584-585: FOUR defects, and THREE ARE THE LINE-BREAK REJOIN — the rule written the same day on 8977 @0733B, paying off immediately in a different book. Corpus Corporum keeps Migne's line turn and does not rejoin the hyphenated word, leaving two fragments (*fi deles*, *spon sus*) or, once, a word with its final letter simply gone (*arden* for *ardent*). ⭐ The translating stint marked all three `[sic:]` and ASKED FOR THE PLATE, which is exactly right: each is a non-word, each occurs once in all of src/latin/, and corpus frequency is decisive for a non-word. All three markers are withdrawn — they would have blamed Migne for the digitization. ⭐⭐ The fourth is the OTHER class and was found only because the page was already open: *unum baptista* is Migne's *unum baptisma*, an alteration to a DIFFERENT REAL WORD (the 8990 concilio/consilio class). The stint had declined a `[cj:]` there on the bar, saying 'one baptist' is odd but not contrary — the decline was correct and the plate supplies what the bar would not.",
   "patches": [
     {
       "col": "1125D",
@@ -19,6 +19,30 @@
       "find": "Tertium librum  \n<pb n=\"1127A\"/>",
       "replace": "Tertium librum <foreign xml:lang=\"hebrew\">שִׁיר הַשִּׁירִים</foreign>\n<pb n=\"1127A\"/>",
       "why": "Migne prints the Hebrew of Cant 1:1 before 'sir hassirim'. Scar is a doubled space before the line break. THE HEBREW STANDS BEFORE THE COLUMN BREAK AND THE PLATE SAYS SO: col. 1126 ends '...Tertium librum [Hebrew]' at the foot of the page, and col. 1127A opens with 'sir hassirim praenotavit'. So the insertion goes before the <pb/>, not after it — and the existing anchor placement is confirmed correct in passing."
+    },
+    {
+      "col": "1158C",
+      "find": "vel, fi\ndeles de utroque populo",
+      "replace": "vel, fideles de utroque populo",
+      "why": "LINE-BREAK REJOIN. PL 113 p. 584, col. 1158 prints *fi-* / *deles* hyphenated across the line turn; the digitization kept the turn and did not rejoin, leaving a non-word. Migne's word is *fideles*, and the sentence (*vel, fideles de utroque populo conversi: vel, fides et opus*) requires it. The `[sic:]` is withdrawn: it asserted a defect of Migne's that does not exist."
+    },
+    {
+      "col": "1158D",
+      "find": "desideriis arden: sicut cortex",
+      "replace": "desideriis ardent : sicut cortex",
+      "why": "DROPPED FINAL LETTER, and the plate also settles the punctuation. PL 113 p. 584, col. 1158 prints *coelestibus desideriis ardent : sicut cortex mali punici*. Our text lost the *t* of *ardent*, leaving a non-word, and turned his spaced colon into a bare one. Both restored. ⚑ Note this is NOT a rejoin — the word is whole on one line in the plate — so the class had to be read, not assumed from its two neighbours."
+    },
+    {
+      "col": "1159D",
+      "find": "Dum sic spon\nsus, vel ipsa Ecclesia",
+      "replace": "Dum sic sponsus, vel ipsa Ecclesia",
+      "why": "LINE-BREAK REJOIN, second instance on the facing page. PL 113 p. 585, col. 1160, VERS. 11 prints *spon-* / *sus* across the line turn. Migne's word is *sponsus*, and the gloss is about the Bridegroom preaching to a wondering Synagogue, so nothing else construes. `[sic:]` withdrawn."
+    },
+    {
+      "col": "1159A",
+      "find": "unum baptista, unus Deus",
+      "replace": "unum baptisma, unus Deus",
+      "why": "AN ALTERATION TO A DIFFERENT REAL WORD — the 8990 *concilio*/*consilio* class, and the one class no reader can catch from the file, because the altered form reads perfectly. PL 113 p. 585, col. 1159, VERS. 8 prints *unum BAPTISMA, unus Deus, unum opus* — Eph 4:5, as the neuter *unum* demands. Our text read *unum baptista*, 'one baptist'. ⭐ The stint SAW this and declined a `[cj:]` on the bar (odd, not contrary) and logged it as a plate candidate: the decline was correct under Pattern 18 and the plate is what settles it. Found only because the page was open for three other sites."
     }
   ],
   "unread": [],
