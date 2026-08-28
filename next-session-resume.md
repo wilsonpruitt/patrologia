@@ -199,13 +199,40 @@ time.** (Done for the 8944 readers; it removed the churn without giving away the
 
 ### ⬜ Open, none blocking
 
-- **9003 attribution.** Migne heads it **WALAFRIDI STRABI FULDENSIS MONACHI**, printed from
-  Pez's *Thesaurus*, and **Pez's own preface argues it is distinct from the Glossa ordinaria**
-  — while `works.json` carries it under "Anselmus Laudunensis et schola"
-  (`authorStatus: minimal`, `verified: false`) and `/glossa` lists it among the 58.
-  The inclusion is Wilson's documented choice (see the comment in `build-glossa.mjs`); what
-  is new is that **Migne prints the distinction himself**. Worth a one-line disclosure on the
-  page when it ships. **Wilson's call.**
+- **9003 attribution — ✅ RULED (Wilson, 2026-08-28): go with what Migne prints.**
+  ⛔⛔ **AND THE FACT THE QUESTION RESTED ON WAS WRONG. I wrote that "Pez's own preface argues
+  it is distinct from the Glossa ordinaria." Pez argues the OPPOSITE.** The *Monitum praevium*
+  is in the TEI (`sources/pl/tei/9003.xml`, before `IN PSALMUM PRIMUM`) and says, in terms:
+  Mabillon reported at Reichenau a Walafrid *Expositio in psalmos septuaginta sex*; Pez got a
+  full transcript of all 76 and had promised it to his *Thesaurus*; on examining it he found
+  **the *nucleus et medulla* of Walafrid's commentary had long since been published in the
+  Glossa ordinaria, *"quae itidem Walafridum Strabum auctorem habet"*** — which **likewise**
+  has Walafrid Strabo as its author. **That is why only twenty psalms are here**: he printed
+  them *velut in reliqui operis specimen*, and invited readers who perceive ***majus
+  discrimen*** between the two "than I have perceived" to say so, promising the rest if they
+  do. ⭐ **Pez asserts near-identity and merely INVITES a distinction he did not himself find.**
+  ⭐⭐ **So there is no tension to disclose away, and the file was never in conflict with the
+  plate.** Migne heads it **WALAFRIDI STRABI FULDENSIS MONACHI** because in 1852 the *Glossa
+  ordinaria itself* was credited to Walafrid; modern scholarship reassigned the Glossa to
+  Anselm of Laon and his school, which is exactly what `works.json` carries
+  (`authorStatus: minimal`, `verified: false`). **Same claim, updated name.** Corpus Corporum
+  kept the old one in its own `ccCode`, `WalStr.ExInXxP`. Listing it among the 58 on `/glossa`
+  is therefore **Pez's position, not a departure from it.**
+  ▶ **What to ship:** a short headnote on the work page, in Migne's own terms rather than a
+  hedge — Migne heads it Walafrid Strabo, printing Pez's text; Pez holds its core to be the
+  Glossa's own and prints twenty psalms as a specimen; the Glossa is now given to Anselm's
+  school, under which name we file it. **No `works.json` change, no `/glossa` change.**
+  ⚑ Wilson's analogue (his own, and it is the right shape): **PL 79, 471A–548A, *Expositio
+  super Cantica canticorum* under Gregorius I (8105)** — Migne prints a received attribution
+  over a text whose authorship is contested, Robert of Tombelaine being the usual alternative.
+  ⭐ **The corpus already carries Tombelaine's OWN Song commentary, englished: 10379,
+  *Commentaria in Cantica canticorum*, PL 150 1361B–1370C, `englishState: "ours"`** — and
+  `src/english/10804/cruces.md` already settled how two commentaries on one book may diverge.
+  ⛔ **NOT verified: whether Migne prints a note about Tombelaine at PL 79.** The Corpus
+  Corporum TEI for 8105 drops all prefatory matter (it opens at `PROOEMIUM`) and **there is no
+  PL 79 scan on disk** (`raw/scans/` has pl113, pl114, pl139, pl202 only). That is the known
+  lost-apparatus-layer problem, not evidence of absence. 8105 is `copyrighted`/`elsewhere`
+  anyway, so nothing depends on it.
 - **8944 @1147A** *Coccinea … non cessat* — "she" vs "it" (*vitta*). A blind reader put it at
   65% and declined; left as it stands, recorded rather than churned.
 - **Open plate candidates**, all cheap now the maps are calibrated: 8977 @0712D *Ephesas*
