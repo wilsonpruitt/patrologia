@@ -1,6 +1,202 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-26b — EVERY OPEN RULING CLOSED · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
+## ▶▶▶▶▶ SESSION 2026-08-28 — APOCALYPSE + CANTICLES THROUGH EVERY CORRECTNESS GATE · ⛔ NOT BUILT, NOT INDEXED, NOT PUSHED
+
+**Wilson stopped the session here and will finish the pipeline next time.** Two works are
+translated, verified, plate-read and polarity-read; **what remains is mechanical** and is
+listed in ▶ NEXT below. Everything is committed on local `master`. **Nothing is pushed and
+nothing is deployed.**
+
+**8977 *Apocalypsis B. Joannis*** (PL 114, 0709C–0752B, 20 chunks) and **8944 *Canticum
+canticorum*** (PL 113, 1125D–1168A, 14 chunks), both Glossa ordinaria. Corpus 142 → **144**
+when they ship; `/glossa` 36 → **38 of 58**.
+
+⛔ **A THIRD BOOK WAS PREPARED AND DELIBERATELY NOT TRANSLATED.** 9003 *Expositio in XX
+primos Psalmos* is chunked (18 chunks, 17,231 w), plate-spot-checked, and has its lemma
+inventory built with the colContext fix in it. Wilson cut it when the burn estimate was
+corrected mid-run (below). **It resumes with zero rework.**
+
+### ⛔⛔ THE BURN ESTIMATE I GAVE WAS WRONG BY ~2× — read this before quoting a number
+
+I quoted **~1.3M** for a three-book slice and the real figure was **~2.7M**. Cause: I used an
+old ~25K/chunk average instead of **the runbook's own recalibrated ~40K/chunk for a
+lemma-and-gloss commentary** (`translation-runbook.md` line 30), which says in terms *"do not
+quote the cheaper number to make a launch easier to approve."* **Measured this session: 45K,
+43K, 46K, 51K, 51K per five-chunk stint — slightly ABOVE the runbook rate.**
+⭐ **Use ~45K/chunk for a Glossa book. Blind polarity reads run ~15–23K/chunk on top.**
+Wilson was told mid-run, dropped the third book, and the two-book slice landed near forecast.
+
+### ✅ Correctness gates — all green
+
+- `verify-english` OK on both (8977 20 chunks, 8944 14 chunks).
+- **`polarity-record.mjs --gate` is GREEN CORPUS-WIDE** — every englished work has been read.
+- **Blind polarity reads, four fenced readers, 34 chunks: ZERO polarity defects either way.**
+  Depth on record: **~576 printed negations traced to a named host** (283 in 8977, ~293 in
+  8944) and ~126 supplied pronouns checked in 8944.
+- Apparatus after all withdrawals: **8977 = 34 `[var:]` · 2 `[sic:]` · 2 `[cj:]`** ·
+  **8944 = 25 `[var:]` · 0 `[sic:]` · 3 `[cj:]`**.
+- *deservit*/*deserit*: **checked zero in both books**, verified mechanically over the whole
+  Latin, not inherited from stint reports.
+
+### ⭐⭐⭐ SIX PLATE PAGES DID MORE WORK THAN ANY OTHER SPEND THIS SESSION
+
+Page maps calibrated against printed corner numbers first, every time
+(PL 113 & PL 114 both `PDF page = (column + 11) / 2`; PDFs on disk under `raw/scans/`).
+
+1. **THE SPOT CHECK PAID FOR ITSELF ON A CLASS IT WASN'T LOOKING FOR.** Zero conjecture
+   notes on all five pages read (coverage `"spot"` recorded for 8977/8944/9003) — but PL 113
+   p. 568 showed **Corpus Corporum had dropped three HEBREW words** Migne sets in the
+   Canticles praefatio (מִשְׁלֵי · קֹהֶלֶת · שִׁיר הַשִּׁירִים, Prov/Eccl/Cant 1:1), each
+   leaving the documented doubled-space scar. Recovered as **TEI patches** (not chunk edits,
+   so a re-chunk reproduces them); provenance `data/hebrew-patches/8944.json`. The plate also
+   fixed which side of the column break the third stands on.
+2. **ONE PAGE, TWO IDENTICAL-LOOKING CANDIDATES, OPPOSITE ANSWERS** (PL 114 p. 377).
+   0743C *lignis* was **OURS** (Migne prints *ignis*) → `[var:]` withdrawn, TEI patched.
+   0744C *vide* is **MIGNE'S** (Clementine *vidi*, and his own gloss re-quotes *vidi* three
+   times) → `[var:]` **confirmed**. ⭐ **Indistinguishable from the file. Corpus frequency and
+   Vulgate collation cannot separate them; only the plate can. A single-letter difference on
+   a real word in a lemma is a plate question, always.**
+3. ⭐⭐ **THE LINE-BREAK REJOIN IS NOW A NAMED CLASS AND IT FIRED FOUR TIMES IN TWO BOOKS.**
+   Corpus Corporum keeps Migne's line turn and **fails to rejoin a hyphenated word**:
+   8977 @0733B *in-/fructuosos* (which had forced a `[cj:]` — **dissolved**), 8944 @1158C
+   *fi-/deles*, 8944 @1159D *spon-/sus*. This is the mirror of 8946 *Salomomonis*, where the
+   same digitization rejoined and **duplicated** a syllable. ⭐⭐⭐ **RULE: an anchor that
+   appears to fall INSIDE a word is a REJOIN candidate before it is a conjecture candidate —
+   check the plate for a hyphen before reaching for `[cj:]`.** ⚑ And 8944 @1158D *arden* sits
+   between two rejoins and is **not** one (a dropped final *t*), so the class had to be read,
+   not assumed from its neighbours.
+4. **THE CLASS NO READER CAN CATCH FROM THE FILE, again.** 8944 @1159A *unum **baptista*** is
+   Migne's *unum **baptisma*** (Eph 4:5, as neuter *unum* demands) — an alteration to a
+   different REAL word, the 8990 *concilio/consilio* class. Found only because the page was
+   already open for three other sites. ⭐ The stint had SEEN it and declined a `[cj:]` on the
+   bar ("odd, not contrary") — **the decline was correct and the plate supplied what the bar
+   would not.**
+5. **8944 @1130D *Sicut pedes*** (Ct 1:4 *pelles*) is **Migne's own** — he prints *pelles*
+   correctly four lines above. Ruled **`[var:]`, not `[sic:]`** (below).
+
+### ⭐⭐ THE BLIND READS EARNED THEIR KEEP — AND ONE OVERRODE A DOCUMENTED CALL, CORRECTLY
+
+**8977, one defect in twenty chunks, and it was ours and in NO cruces file:** @0710C Migne's
+*Quae oportet fieri.* was rendered **"Which must SHORTLY come to pass"** — the Douay,
+importing a *cito* the lemma does not contain — **and Migne makes *Cito.* the very next lemma
+and glosses it separately, so the conformation swallowed a lemma.** The same stint had
+declined the identical move two columns away and written its reasoning down. ⭐ **Using the
+rule somewhere is not evidence of using it where it was needed** (Ruth's lesson, third
+instance).
+
+**8944, two defects, both the speaker class the Song concentrates:**
+- ⭐⭐ **@1157D the Bridegroom was given the Bride's speech.** The reader proposed the fix,
+  **met a cruces entry asserting the opposite, and KEPT the repair** — rightly. Three proofs:
+  the work says so itself at VERS. 3 (*Hactenus vox Ecclesiae … sequitur quid quaesitus
+  respondeat*, **verified at the plate**, p. 584); *eum* not *se* in the acc.+inf.; Ct 6:1 is
+  `<Sponsa>`. **The old entry's own reasoning collapsed** — it claimed *eum* "is the same
+  person" as the subject, which is what *se* would have been for — **and it contradicted its
+  own next bullet**, splitting one continuous speech between two persons. ⭐ **A referent call
+  that disagrees with the bullet beneath it is already telling you something.**
+- **@1139C the gaze was reversed.** *unde nos prospicere fecit* is causative (he made US look
+  out). The reciprocal gets its **own** clause right after, which would be redundant otherwise.
+
+⭐ **THE FENCE IS MEASURED AND IT WORKS.** The 8977 reader proposed four repairs; opening the
+cruces at the end cost it three (documented convention-3 calls, all correctly reverted) —
+**and the fourth was the only defect the book yielded.** The three "wasted" proposals are the
+price of the one. ⚑ **Worth adding to future polarity briefs: name convention 3, because a
+blind reader working from `translation-style.md` alone re-flags fragment expansions every
+time.** (Done for the 8944 readers; it removed the churn without giving away the key.)
+
+### ✅ RULINGS FROM WILSON THIS SESSION
+
+1. ⭐ **`[sic:]` is for NON-WORDS; a well-formed word gets `[var:]` or nothing.** Applied to
+   8944 @1130D *Sicut pedes*. Rationale to reuse: **`[sic:]` DIAGNOSES a defect; `[var:]`
+   merely RECORDS that Migne prints A and the Clementine prints B** — both verifiable,
+   neither speculative. For a compositor's slip we cannot prove was a slip, the recording
+   marker is the honest one. Keeps the seam straight with 8977 @0722B *vivum*/*vinum* and
+   @0744C *vide*/*vidi*, both `[var:]`, both the same shape (corrupt lemma, right word in its
+   own gloss).
+2. ⭐ **The second-position connective particle is CITATION PRACTICE, not a variant.** *enim,
+   vero, autem, igitur* added to or dropped from a citation is the commentator welding the
+   verse into his sentence. **Decline it.** Two stints reached this independently; the single
+   mark (8977 @0739A *enim*) was the outlier and was withdrawn. ⛔ **The boundary is
+   connective vs CONTENT** — *proxima*/*amica*, *pedes*/*pelles*, *lignis*/*ignis* stay
+   markable.
+
+### ⚑ TOOL FIXES — both affect every future Glossa run
+
+- ⛔⛔ **`lemma-inventory.mjs` was filing every chunk's OPENING spans under the WORK's first
+  column**, because `band` reset to `manifest.colFirst` per file instead of the chunk's own
+  `colContext`. **Measured: 87 of 836 spans in 8977 — over 10% — sat under `[0709C]`,
+  hundreds of lines from the columns an agent is told to read.** They cluster at chunk
+  openings, which for a split range means **RANGE openings**, where a fleet that cannot see
+  itself is already weakest. **Present in every inventory generated before this session.**
+  Span totals identical before and after (836), which is what proved mislabelling not loss.
+  ⭐ Found by a translator reporting three spans "missing" — **right about what it SAW, wrong
+  about the rule.** Not retrofitted to the 36 shipped books (no reader; Wilson's retrofit
+  rule).
+- **`lemma-inventory.mjs` now folds `coel-`/`cael-`.** `clementine-flat.txt` has 459 `cael-`
+  and **zero** `coel-`; Migne prints `coel-` throughout, so every lemma with
+  *coelum/coeli/coelestis* was flagged "NOT in Clementine verbatim" **on spelling alone** —
+  ~10% of the whole ⚠ list, pushing toward false `[var:]`, which is a public claim about
+  another text. Symmetric fold; cannot mask a real divergence. **Control: Ps 2:4 *Qui habitat
+  in coelis* now clears, Ps 2:1 *Cur fremuerunt* (Clementine *Quare*) still flags.**
+
+---
+
+## ▶ NEXT — mechanical, in this order. Nothing here needs a ruling.
+
+1. ⬜ **8944 *lectulus*: expand five sites to "little bed."** Chunks **0002** (3 sites: the
+   lemma *Lectulus noster floridus* → "Our little bed is flourishing", "as it were in a bed",
+   "the *bed,*") and **0003** (2 sites: "the praises of the *bed:*", and the *Our bed is
+   flourishing* re-quote). Chunk 0000 already reads "little bed".
+   ⭐ **The reason is NOT a preference for the literal diminutive.** Plain *lectus* also
+   occurs — four times, all in chunk 0005, in the same argument — and range 0005–0009 uses
+   **"bed" for *lectus* and "little bed" for *lectulus*.** Migne's own gloss counts them:
+   ***Utrumque lectum ambiunt fortissimi*** ("**both beds**"). Rendering *lectulus* as "bed"
+   collapses the pair in a passage that turns on there being two. ⚑ *couch* is NOT drift — it
+   renders *accubitus* (Ct 1:11) and *reclinatorium* (Ct 3:10).
+2. ⬜ **Write `src/english/8944/cruces.md`** — the three-way merge of `cruces-0000/0005/0010`.
+   Follow the 8977 merge (`src/english/8977/cruces.md`) as the model: a work-wide head
+   (§0a apparatus counted from the English not summed from reports · §0b plate reads ·
+   §0c vocabulary reconciled · §0d standing checks · §0e what a blind reader hits first ·
+   §0f open plate candidates · §0g the polarity read · §0h conventions settled at the merge),
+   then the range files preserved unedited with headings demoted. **Record in §0c: the
+   *lectulus*/*lectus* pair above, and that *couch* is a distinct word not drift.**
+3. ⬜ **Build + index both**: `build-work-page.mjs` then `index-work.mjs`, for 8977 and 8944.
+4. ⬜ **Mark shipped**: `translation.englishState = "ours"` in `data/works.json` for both.
+   ⛔ **Leave `workStatus` exactly as triage left it — both are `null`**, which earns the
+   "New English translation" badge. Overwriting it is CLAUDE.md rule 8.
+5. ⬜ **Step 8(a) — add BOTH to `RECENT` in `scripts/build-landing.mjs`**, newest first.
+   ⛔ **This was missed for five works on 2026-08-25**: built + marked `ours` + listed in
+   RECENT are **three separate steps** and only the third puts a work on the front page.
+6. ⬜ **Rebuild the generated pages**, `build-glossa.mjs` INCLUDED (both are Glossa books) and
+   **`build-cruces.mjs` INCLUDED** (both have cruces files, and a missing cruces page 404s
+   invisibly — the work page still 200s). Then `build-landing.mjs`.
+7. ⛔ **Push and deploy are WILSON'S, per action.** `cd site && npx vercel --prod
+   --archive=tgz`; smoke-test **by body not status code**, and **smoke-test the cruces URLs**,
+   not just the work URLs. Deploy account = `littleeachdayapp-6609` / "Wilson Pruitt's
+   projects"; `vercel teams ls` is the diagnostic if "Not authorized" appears.
+
+### ⬜ Open, none blocking
+
+- **9003 attribution.** Migne heads it **WALAFRIDI STRABI FULDENSIS MONACHI**, printed from
+  Pez's *Thesaurus*, and **Pez's own preface argues it is distinct from the Glossa ordinaria**
+  — while `works.json` carries it under "Anselmus Laudunensis et schola"
+  (`authorStatus: minimal`, `verified: false`) and `/glossa` lists it among the 58.
+  The inclusion is Wilson's documented choice (see the comment in `build-glossa.mjs`); what
+  is new is that **Migne prints the distinction himself**. Worth a one-line disclosure on the
+  page when it ships. **Wilson's call.**
+- **8944 @1147A** *Coccinea … non cessat* — "she" vs "it" (*vitta*). A blind reader put it at
+  65% and declined; left as it stands, recorded rather than churned.
+- **Open plate candidates**, all cheap now the maps are calibrated: 8977 @0712D *Ephesas*
+  (p. 361), @0725B `VERS. 3--` with no period (p. 368), *tundamentum*/*centecimum*/
+  *corrrigitur* (pp. 370–373), @0745B *Vitrum per lucidum* (p. 378); 8944 @1155B *Ude*
+  (p. 583), @1165C *foedatur* (p. 588). ⚑ 8977 @0751B is **already answered** — p. 381 was
+  read for the spot check and Migne sets no terminal mark there. Do not buy it twice.
+- **9003** is chunked, spot-checked and inventoried, waiting. ~18 chunks ≈ **~810K** at the
+  corrected rate, plus ~250K for its blind reads.
+
+---
+
+
+## ▶ (superseded) SESSION 2026-08-26b — EVERY OPEN RULING CLOSED · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
 
 **Wilson ruled all three carried questions and they are applied** (`5f0b467`, deployed, aliased to
 migne.app). **Nothing is now owed on this batch.**
