@@ -32,7 +32,17 @@ const normalize = (s) => s
   .replace(/[.,;:?!()]/g, ' ')
   .replace(/\s+/g, ' ')
   .trim()
-  .toLowerCase();
+  .toLowerCase()
+  // Orthographic fold, applied to BOTH sides so it is symmetric. Measured 2026-08-28:
+  // clementine-flat.txt carries 459 `cael-` forms and ZERO `coel-`, while Migne prints
+  // `coel-` throughout — so every lemma with coelum/coeli/coelestis came back
+  // "NOT in Clementine verbatim" on spelling alone (28 spans across 8977/8944/9003,
+  // ~10% of the whole ⚠ list). That is a false divergence, and a `[var:]` is a PUBLIC
+  // CLAIM ABOUT ANOTHER TEXT, so the noise pushes in the one direction that costs.
+  // Folding cannot mask a real divergence: the flat file has no `coel-` for a Migne
+  // `cael-` to differ from, and a coel/cael split is Pattern 9 orthography anyway,
+  // never a variant worth marking.
+  .replace(/coel/g, 'cael');
 const flatNorm = normalize(flat.replace(/^[^\t]*\t/gm, ''));
 
 // ---- walk the chunks --------------------------------------------------------
