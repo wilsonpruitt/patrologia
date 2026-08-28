@@ -51,8 +51,21 @@ const rows = [];
 let unclosed = 0;
 
 for (const f of files) {
-  const body = fs.readFileSync(path.join(latinDir, f), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
-  let band = manifest.colFirst;
+  const raw = fs.readFileSync(path.join(latinDir, f), 'utf8');
+  const body = raw.replace(/^---\n[\s\S]*?\n---\n/, '');
+  // ⛔ Band must start from THIS CHUNK's colContext, not the work's colFirst.
+  // Found 2026-08-28 by the 8977 0015-0019 translator, which reported its chunk's three
+  // opening spans "missing" from the inventory. They were not missing — they were filed
+  // under 0709C, the WORK's first column, because `band` reset to manifest.colFirst at
+  // every file and stayed wrong until the chunk's first anchor was passed. So the spans
+  // that open each chunk — up to three per chunk, twenty chunks — were listed hundreds of
+  // lines away from the columns an agent is told to read. An agent reading "the section
+  // covering your columns" would skip exactly them, and they sit at chunk boundaries,
+  // which is where a split range is already weakest. ⭐ The reader was right about what it
+  // SAW and wrong about the rule: nothing was dropped, it was mislabelled.
+  const fmBlock = (raw.match(/^---\n([\s\S]*?)\n---\n/) || [, ''])[1];
+  const ctx = fmBlock.match(/^colContext:\s*"?(\d{4}[A-D]?)"?/m);
+  let band = ctx ? ctx[1] : manifest.colFirst;
   // Split on lines so a VERS. address can be attached to the span that opens it.
   for (const line of body.split('\n')) {
     let cursor = 0;
