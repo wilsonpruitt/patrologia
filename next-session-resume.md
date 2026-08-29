@@ -1,5 +1,87 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-29b — THE `[sic:]` PLATE SWEEP · ✅ APPLIED · ⛔ NOT PUSHED, NOT DEPLOYED
+
+Wilson approved ladder step 2 of the marker-backlog survey: read every `[sic:]` standing on an
+unread column **in the volumes whose scans are already on disk**. 56 pages, 23 works, 80 markers,
+PL 113 / 114 / 202. Three commits on `master`, **unpushed** (`a7bc75d`, `6d6d29e`, `a36b402`).
+
+### ⭐⭐⭐ THE HEADLINE: 53 OF 80 WERE FALSE — AND THE RATE IS NOT UNIFORM
+
+| volume | false | stood | false rate |
+|---|---:|---:|---:|
+| PL 113 | 26 | 2 (+1 prior) | **93%** |
+| PL 114 | 20 | 10 (+1 rev, +1 unres.) | **65%** |
+| PL 202 (11613) | 7 | 12 | **37%** |
+
+**8947's 69% was close to the corpus mean and hid a 93/37 spread.** This is the number that should
+drive any decision about the remaining 381 `[sic:]` pages: *a marker's prior depends on which book
+it is in*, so a blanket policy over the backlog would be wrong in both directions. 11613's markers
+are mostly REAL defects of Migne's and withdrawing them wholesale would have destroyed good work;
+PL 113's are almost all ours.
+
+### The classes, and they are mechanical
+Corpus Corporum's errors fell into a few repeating shapes: **line-break rejoin** (8 sites — a
+printed hyphen either lost a half (*cipere* for *percipere*), left a gap (*car nali*), or kept BOTH
+halves (*similis milis*)); **space intrusion** (*In icat*, *qui ibet*, *mise unt*); **run-together**
+(*aspectusolis*, *nesolius*, *quitenebantur*); and single-letter misreads, of which **t→l alone
+appeared five times** (*repulatae*, *nolum*, *prophelae*, *virae*, *saliari*).
+
+### ⭐ Three findings worth carrying
+1. **A cruces argument is not evidence.** 8991's `cas` had a careful, considered Pattern-18
+   apparatus built on the premise that the type was broken. **The plate prints *eas*.** The
+   reasoning was good and the premise was never checked.
+2. **A marker can be right about the page and wrong about the word** — 8988 `nutiles`. Migne DOES
+   have a defect there (*mutiles* for *inutiles*), but CC misread his *m* as *n*, so our English
+   accused him of a form he never set. New verdict class: **REVISED** — patch the Latin, keep the
+   marker, fix its quotation. A pure true/false sweep would have gotten this one wrong either way.
+3. **Space intrusion is not always ours.** 8979 `hae eticorum` — the gap is on Migne's own plate.
+
+### Also recovered, deliberately NOT patched
+Two **hidden Migne defects** that CC had silently tidied, so our Latin reads correctly and no
+automated check can see them: 8991 *instrure* (we print *instruere*) and 8960 *potestatm* (we print
+*potestatem*). Recorded in `data/plate-sweep/2026-08-29-hidden-defects.md`, not applied, per the
+no-retrofit rule. ⭐ **8991's is the whole argument in one line of type: on the SAME line CC
+corrupted *eas*→*cas* (which we published as an accusation) and silently repaired Migne's own
+*instrure*. Frequency analysis cannot see either.**
+
+## ▶ OPEN — FOR WILSON
+
+1. **⬜ PUSH + DEPLOY OWED.** 3 commits on `master`, unpushed; the withdrawn markers are still live
+   on migne.app. `cd ~/patrologia/site && npx vercel --prod --archive=tgz`, then smoke-test by body
+   `/pl/113/liber-sapientiae/`, `/pl/202/expositio-in-cantica-canticorum/`, their CRUCES urls, and
+   `/pl/114/epistola-ii-ad-timotheum/` (the REVISED marker). ⚠ If it 401s, try a plain retry with
+   `--scope wilson-pruitts-projects` BEFORE concluding it is the login.
+2. **⬜ The remaining 381 `[sic:]` pages** need an archive.org fetch per volume (~40–60k for the
+   acquisition sweep; page images are one URL away). **The 93/37 spread is the argument for doing
+   it per-work rather than as one policy.**
+3. **⛔ 8988 `0636A` *aurursus* — UNRESOLVED and deliberately left flagged.** The word is in the
+   extreme right margin where our PL 114 scan has ink bleed; *aut*/*au*/*an* cannot be separated,
+   and PL 114 has **no second witness on disk**. Its column is deliberately NOT recorded in
+   `plate-reads.json` so the gate keeps flagging it. Fixing it needs a second PL 114 scan.
+4. **The `[var:]` half of the backlog is untouched** — 1,011 markers. 8947 returned 56 of 56
+   CONFIRMED on that class, so its prior is the opposite of `[sic:]`'s.
+5. **⚠ 8976 still contradicts Pattern 7** (carried over, unchanged) — it ruled work-locally that
+   non-words are rendered for sense, against Wilson's 2026-07-28 "carry it through, no exceptions".
+   ⭐ Note this sweep touched 8976: its `Chistus` is CONFIRMED as Migne's.
+
+## ▶ NEXT — the Glossa remainder, cheapest first
+
+**9006 Jeremiah is now UNBLOCKED** — its plate spot check was done this session (PL 114 pp. 10, 23,
+36; checked zero on both apparatus layers; coverage `spot`). 24 chunks, ready to translate.
+
+| idno | book | words | ~chunks | state |
+|---|---|---:|---:|---|
+| 8986 | Epistola II ad Corinthios | 7,592 | ~9 | not chunked |
+| 8993 | Epistola ad Hebraeos | 11,160 | ~13 | not chunked |
+| 8981 | Epistola I ad Corinthios | 12,254 | ~14 | not chunked |
+| 9006 | **Prophetia Jeremiae** | 18,921 | **24 — CHUNKED + SPOT-CHECKED** | ✅ ready |
+| 8996 | Epistola ad Romanos | 19,928 | ~23 | not chunked |
+
+Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K**.
+Quote **~40K/chunk** and state the polarity read as its own burn.
+
+
 ## ▶▶▶▶▶ SESSION 2026-08-29 — 8947 *LIBER ECCLESIASTICUS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 **The whole pipeline in one session, and the plate gate's first full run on a NEW work.**
