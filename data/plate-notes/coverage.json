@@ -1218,6 +1218,16 @@
       "columns": "1183C-1232A",
       "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs04migngoog.pdf at 300 dpi, FULL page width. Map recalibrated before the read against the printed corner numbers: p.597 = cols 1183/1184 and p.598 = cols 1185/1186, confirming PDF page = (column + 11)/2 for this scan. TWO pages read because the Sapientia->Ecclesiasticus division falls MID-PAGE on p.597: that page was examined at the mid-page division band as well as at the foot, and p.598 at the foot. Checked zero on both apparatus layers: no numbered Forte/F. conjectures and no asterisk cross-references. A raised mark after 'dispensavit' at col 1184 was inspected at 600 dpi and is a broken sort or ink speck beside the colon, NOT Migne's six-pointed asterisk, and no foot note exists on that page for it to key to.",
       "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.598 (cols 1185/1186): the left column loses its opening characters ('juilia est', 'us vestris', 'Deus sapientiam'). This is the known PL 113 clipping documented in CLAUDE.md, and it falls INSIDE this work. Any left-column crux in 8947 must be settled against the Gallica second witness ark:/12148/bpt6k5505319w (f = (column + 1) / 2), never recorded as illegible from this PDF alone."
+    },
+    {
+      "idno": "9006",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "columns": "0009A-0062D",
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed against the printed corner numbers before the read: p.23 prints 35/36, so PDF page = (column + 11)/2 holds for this scan. THREE pages read: p.10 (cols 9/10), the work's opening — a fresh title page, so the division from the preceding matter does NOT fall mid-page; p.23 (cols 35/36) interior; p.36 (cols 61/62), the work's closing page, which ends with the tailpiece rule and white space, so the following work begins on a fresh page and that division is not mid-page either. Checked zero on both apparatus layers on all three: no numbered Forte/F. conjectures, no asterisk cross-references. Incidental confirmation that our chunking matches the plate: p.10 reproduces chunk 0000's PROLOGUS/PRAEFATIO/ARGUMENTUM/CAPUT PRIMUM sequence and p.36 reproduces chunk 0023's tail (De pauperibus ... Et factum est) verbatim in lemma order."
     }
   ],
   "fields": {
