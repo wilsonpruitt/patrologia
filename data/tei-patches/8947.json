@@ -1,0 +1,98 @@
+{
+ "note": "PLATE GATE of 8947 (Liber Ecclesiasticus), 2026-08-29. Migne PL 113, on-disk scan raw/scans/pl113/patrologiaecurs04migngoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before every read. Second witness for the clipped left column: Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2. ALL 22 PAGES BEARING A MARKER WERE READ, covering all 69 markers (56 [var:], 13 [sic:]). Every site below was re-verified at 600 dpi before patching.",
+ "class": "TWO DIRECTIONS, on purpose. (1) CORRUPTED -- Corpus Corporum broke a word Migne set correctly; repaired, and the [sic:] that accused Migne of it is WITHDRAWN. Nine of this work's thirteen [sic:] markers were false in exactly this way. (2) NORMALIZED -- Corpus Corporum silently tidied a defect in Migne's own type; restored so a [sic:] can show it (Pattern 7). Four defects of Migne's were hidden from us this way, and no check we run could have found them: our Latin is not the printed page.",
+ "result": "56/56 [var:] CONFIRMED on the plate. 4/13 [sic:] confirmed and standing (magnituditudinem 1184C, obsentiamus 1197A, reconciliatione 1207A, erudiunmultos 1210D). 9/13 [sic:] FALSE and withdrawn. 4 new [sic:] owed for defects CC had repaired.",
+ "patches": [
+  {
+   "col": "1203D",
+   "find": "conceditur misericodia",
+   "replace": "conceditur misericordia",
+   "direction": "corrupted",
+   "why": "Plate p.607 col 1203D prints 'misericordia' with the r, verified 600 dpi. CC dropped it. A live [sic:] accused Migne of the non-word; withdrawn."
+  },
+  {
+   "col": "1204D",
+   "find": "quia amarum ex noxium",
+   "replace": "quia amarum et noxium",
+   "direction": "corrupted",
+   "why": "Plate p.607 col 1204D prints 'quia amarum ET noxium sensum', verified 600 dpi. CC misread 'et' as 'ex', producing a real word in no grammatical slot -- which is exactly why it drew a [sic:]. Withdrawn."
+  },
+  {
+   "col": "1219D",
+   "find": "Possuntt in falsis",
+   "replace": "Possunt in falsis",
+   "direction": "corrupted",
+   "why": "Plate p.615 col 1219D prints 'Possunt', one t, verified 600 dpi. CC doubled it. [sic:] withdrawn."
+  },
+  {
+   "col": "1220D",
+   "find": "</note> Ad\nmonitio bonorum",
+   "replace": "</note> Admonitio bonorum",
+   "direction": "corrupted",
+   "why": "Plate p.615 col 1220D hyphenates 'Ad-' / 'monitio' across a line break -- an ordinary split of 'Admonitio'. CC rejoined it as two words. THE 8946 SALOMO-/NIS CLASS. [sic:] withdrawn."
+  },
+  {
+   "col": "1221C",
+   "find": "Confitemini\nDomini in cithara",
+   "replace": "Confitemini\nDomino in cithara",
+   "direction": "corrupted",
+   "why": "Plate p.616 col 1221C prints 'Confitemini Domino in cithara' (Ps 32:2), verified 600 dpi. CC gave the genitive. [sic:] withdrawn."
+  },
+  {
+   "col": "1222A",
+   "find": "bestiae quoque contra cum",
+   "replace": "bestiae quoque contra eum",
+   "direction": "corrupted",
+   "why": "Plate p.616 col 1222A prints 'bestiae quoque contra eum saeviunt', verified 600 dpi. CC misread 'eum' as 'cum'. [sic:] withdrawn."
+  },
+  {
+   "col": "1226B",
+   "find": "edidit; nunde\nsanctis patribus",
+   "replace": "edidit; nunc de\nsanctis patribus",
+   "direction": "corrupted",
+   "why": "Plate p.618 col 1226B prints 'edidit; nunc' / 'de sanctis patribus', verified 600 dpi. CC fused the line break into the non-word 'nunde'. [sic:] withdrawn."
+  },
+  {
+   "col": "1226C",
+   "find": "Ideo jurejarando",
+   "replace": "Ideo jurejurando",
+   "direction": "corrupted",
+   "why": "Plate p.618 col 1226C prints 'jurejurando', verified 600 dpi. CC gave 'jurejarando'. [sic:] withdrawn."
+  },
+  {
+   "col": "1230C",
+   "find": "JesusChristus\nadjutor",
+   "replace": "Jesus Christus\nadjutor",
+   "direction": "corrupted",
+   "why": "Plate p.620 col 1230C prints 'Jesus Christus', two words clearly spaced, verified 600 dpi. CC fused them. [sic:] withdrawn."
+  },
+  {
+   "col": "1190C",
+   "find": "velocem ad loquendum? stultitia",
+   "replace": "velocem ad loquendeum? stultitia",
+   "direction": "normalized",
+   "why": "Plate p.600 col 1190C prints 'velocem ad LOQUENDEUM' (Prov 29:20) -- a non-word, Migne's broken type. Verified 600 dpi. CC silently corrected it. CONTROL: the same work prints 'ad loquendum' correctly at 1192C and 1193B, so this is a one-off defect, not a spelling habit. Restored so it can take a [sic:]."
+  },
+  {
+   "col": "1199D",
+   "find": "A tribus impiis deseretur",
+   "replace": "A tribus impiis descretur",
+   "direction": "normalized",
+   "why": "Plate p.605 col 1199D prints 'A tribus impiis DESCRETUR' -- a non-word. Verified 600 dpi. CC supplied the missing e. Restored so it can take a [sic:]."
+  },
+  {
+   "col": "1200C",
+   "find": "et interrogatio hominum",
+   "replace": "et interrogatia hominum",
+   "direction": "normalized",
+   "why": "Plate p.605 col 1200C prints 'et INTERROGATIA hominum' -- a non-word. Verified 600 dpi. CC normalized it to 'interrogatio', which is why the translating agent could see the hominum/omnium divergence but not that the noun itself is broken on the plate. Restored so it can take a [sic:]."
+  },
+  {
+   "col": "1202C",
+   "find": "Ante orationem.",
+   "replace": "Ante orationm.",
+   "direction": "normalized",
+   "why": "Plate p.606 col 1202C prints 'Ante ORATIONM' -- a non-word, the e dropped. Verified 600 dpi. CC supplied it. Restored so it can take a [sic:]."
+  }
+ ]
+}

@@ -82,23 +82,37 @@ All 8 Greek words are reproduced in Greek script with accents intact, none
 transliterated: φοινίκον · ἐλαἴον · ἐλαία · πλατός · ἄκανθον · στακτήμ · ὀνύξ · θοῦς.
 They fall almost entirely in CAPUT XXIV (chunk 0010).
 
-### 6. Plate status — READ THIS BEFORE TRUSTING ANY MARKER BELOW
+### 6. Plate status — ⭐ THE GATE HAS BEEN RUN (2026-08-29)
 
-Coverage for this work is **"spot"**, not "full": pp. 597–598 (cols 1183–1186) only.
-**Migne prints no foot-of-page conjecture apparatus on the pages read** — no numbered
-*Forte*, no asterisk cross-references — so no crux in this work could be settled from
-Migne's own apparatus, and several were correctly left unsettled for want of it.
+**All 22 pages bearing a marker were read at Migne's plate**, covering all 69 original markers.
+Scan `raw/scans/pl113/patrologiaecurs04migngoog.pdf`, PDF page = (column + 11)/2, corner numbers
+read BEFORE the text on every page, every site re-verified at 600 dpi. Reads recorded in
+`data/plate-reads.json`; `node scripts/plate-gate.mjs 8947` passes.
 
-⛔ **Our scan CLIPS THE LEFT MARGIN inside this work** (confirmed p.598, cols 1185/1186).
-Any left-column crux must go to the Gallica second witness
-`ark:/12148/bpt6k5505319w`, **f = (column + 1) / 2** — never be recorded as illegible
-from the archive.org PDF alone.
+⛔ **Our scan CLIPS THE LEFT MARGIN inside this work** (pp. 598, 604, 620). Left-column sites were
+settled at the **Gallica second witness** `ark:/12148/bpt6k5505319w`, **f = (column + 1)/2**.
 
-⛔ **The `[var:]`/`[sic:]` markers below have NOT yet been plate-checked.** 56 `[var:]`
-and 13 `[sic:]` stand on 37 distinct columns = 22 plate pages. Both are public claims
-about Migne's printed page and our Latin is not that page: 9003's collation found Corpus
-Corporum departing from Migne at ~3 sites per page. Nothing here ships until
-`plate-gate.mjs 8947` passes.
+**Result — and it ran hard in both directions:**
+
+| | |
+|---|---|
+| `[var:]` | **56 of 56 CONFIRMED on the plate.** Not one was withdrawn. |
+| `[sic:]` standing | **4** — *magnituditudinem* 1184C, *obsentiamus* 1197A, *reconciliatione* 1207A, *erudiunmultos* 1210D |
+| `[sic:]` **WITHDRAWN as false** | **9** — every one was a Corpus Corporum corruption we were about to blame on Migne |
+| `[sic:]` **newly owed** | **4** — defects of Migne's own type that CC had silently repaired, invisible to every check we run |
+
+⭐ **Nine of thirteen `[sic:]` markers were false accusations against Migne** — *misericodia*
+(plate: misericordia), *ex* (plate: **et**), *Possuntt* (plate: Possunt), *Ad monitio* (plate
+hyphenates Ad-/monitio = **Admonitio**, the 8946 rejoin class), *Domini* (plate: **Domino**),
+*cum* (plate: **eum**), *nunde* (plate: nunc/de), *jurejarando* (plate: jurejurando),
+*JesusChristus* (plate: two words). All withdrawn; TEI patched.
+
+⭐ **And four of Migne's own defects had been hidden from us** by CC's silent tidying:
+**loquendeum** 1190C, **descretur** 1199D, **interrogatia** 1200C, **orationm** 1202C. Restored by
+TEI patch and now carried with a `[sic:]` per Pattern 7. ⚑ Note what this means: the translating
+agents could not have found these, because our Latin already read correctly. Only the plate shows them.
+
+All 13 corrections are in `data/tei-patches/8947.json`, which runs in both directions.
 
 ---
 
