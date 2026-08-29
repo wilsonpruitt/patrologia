@@ -1,0 +1,86 @@
+# [sic:] plate sweep — volumes with a scan on disk (PL 113/114/202), 2026-08-29
+# Wilson approved the burn; ladder step 2 of the 1,587-marker exposure survey.
+# verdict: FALSE = Corpus Corporum's corruption, marker withdrawn + TEI patched
+#          CONFIRMED = Migne's own defect, marker stands
+#          PRIOR = a plate read already existed in the record; registered, not re-run
+idno	col	marker	page	verdict	plate reads	note
+8959	0522B	seniorunt	113/266	FALSE	seniorum	VERS. 7 lemma; clean type
+8959	0525C	periculam	113/268	FALSE	periculum	hyphenated pericu-/lum across line break; rejoin artifact (cf. 8946 Salomo-/nis)
+8959	0530A	In icat	113/270	FALSE	Indicat	space intrusion
+8968	0535B	sul	113/273	FALSE	sub	ut intres sub tectum meum
+8954	0603D	vides	113/307	FALSE	vices	reddebant regi per vices; c misread as d
+8955	0629D	ulit	113/320	PRIOR	ulit	Migne's failed sort; settled earlier via second witness (our copy clips p.320 left margin). Control: Tulit quoque prints cleanly 2 lines above. Read existed in cruces but was never registered.
+8962	0721D	peregrim	113/366	FALSE	peregrini	verified 500dpi; final i decisive
+8962	0721D	Christ	113/366	CONFIRMED	Christ	verified 500dpi; Vulg. Gal 5:24 Christi. Migne's own defect.
+8970	0727A	spiritualer	113/369	FALSE	spiritualiter	
+8970	0727B	incantus	113/369	FALSE	incautus	u/n misread
+8970	0728C	di bolum	113/369	FALSE	diabolum	space intrusion
+8970	0729A	astutius	113/370	FALSE	astutias	
+8960	0731D	subju averit	113/371	FALSE	subjugaverit	space intrusion
+8960	0733B	milis	113/372	FALSE	(delete)	plate hyphenates si-/milis ero Altissimo; CC kept BOTH halves. Dittography, not a defect. Stray word deleted.
+8960	0733C	mise unt	113/372	FALSE	miserunt	space intrusion
+8960	0733D	solli itudo	113/372	FALSE	sollicitudo	space intrusion
+8960	0733D	fallaci	113/372	FALSE	fallacia	
+8960	0734A	qui ibet	113/372	FALSE	quilibet	space intrusion
+8960	0734B	corre ti	113/372	FALSE	correcti	space intrusion
+8948	0739D	convivum	113/375	CONFIRMED	convivum	Migne's own defect. Control on the SAME page: "Ibi Assuerus convivium maximum" prints the i.
+8969	1167C	cipere	113/589	FALSE	percipere	plate hyphenates possunt per-/cipere; CC dropped the FIRST half (cf. 8960 milis, which kept both)
+8969	1174C	pro fugi	113/592	FALSE	profugi	plate hyphenates et pro-/fugi; space left where the hyphen was
+8969	1175A	repulatae	113/593	FALSE	reputatae	t misread as l
+8969	1175A	aspectusolis	113/593	FALSE	aspectu solis	plate prints two words; CC ran them together
+8969	1176D	nolum	113/593	FALSE	notum	Rom. 1:19 quod notum est Dei; third t/l misread in this work
+8969	1178B	retrabunt	113/594	FALSE	retrahunt	h misread as b
+8969	1181C	unicunque	113/596	FALSE	ubicunque	b misread as n
+8969	1181C	vertitatis	113/596	FALSE	veritatis	
+8969	1182B	Santis	113/596	FALSE	Sanctis	
+8976	0435B	Chistus	114/223	CONFIRMED	Chistus	Migne's defect. Controls same page: Christo, Chris-/to print correctly.
+8992	0573D	ingentes	114/292	CONFIRMED	ingentes	Gal 2:9 in gentes run together in the lemma; gloss beneath shows the sense
+8992	0574A	leges	114/292	CONFIRMED	leges	for legis
+8992	0584A	digit	114/297	FALSE	diligit	plate hyphenates qui di-/ligit; rejoin loss
+8992	0584C	car nali	114/297	FALSE	carnali	plate hyphenates anima car-/nali
+8991	0590D	ab ipse	114/300	FALSE	ab ipso	
+8991	0595B	mancida	114/303	FALSE	marcida	r/n misread
+8991	0598D	cas	114/305	FALSE	eas	VERIFIED 500dpi. Plate prints ut exhibeant eas Deo. OVERTURNS a considered cruces judgement that treated cas as broken type in Migne and built a Pattern 18 apparatus on it.
+8991	0599C	nomo	114/305	CONFIRMED	nomo	Migne's defect for homo; control homini in the same clause
+8995	0606D	circumcicis	114/308	CONFIRMED	circumcicis	for circumcisis
+8990	0614C	me morat	114/312	FALSE	memorat	plate hyphenates Hoc me-/morat
+8982	0618B	de iderabitis	114/314	FALSE	desiderabitis	
+8982	0619A	dici	114/315	FALSE	diei	VERIFIED 500dpi: hora diei vel noctis
+8982	0619D	satutari	114/315	FALSE	saturari	r/t misread
+8987	0624B	velint	114/317	CONFIRMED	velint	plate prints what we print
+8987	0624B	sed non ut	114/317	CONFIRMED	sed non ut	plate prints what we print
+8983	0625A	serupulus	114/318	FALSE	scrupulus	c/e misread
+8983	0630C	nesolius	114/320	FALSE	ne solius	plate prints two words
+8988	0635D	nutiles	114/323	REVISED	mutiles	⭐ THIRD OUTCOME: Migne's defect IS real (mutiles for inutiles) but we quoted the wrong word for it -- CC misread his m as n. Patch Latin to mutiles; marker STANDS with corrected quotation.
+8988	0636A	aurursus	114/323	UNRESOLVED	(au/aut illegible)	⛔ Word sits in the extreme right margin where THIS scan has ink bleed; aut/au/an cannot be separated. Sense wants aut rursus dormire. The rejoin across the line break is certain either way, but WHICH word to restore is a claim about Migne this copy cannot support. NEEDS A SECOND PL 114 WITNESS.
+8998	0676A	sapientiem	114/343	CONFIRMED	sapientiem	for sapientem
+8998	0678C	genennae	114/344	FALSE	gehennae	h/n misread
+8998	0679A	longaminiter	114/345	CONFIRMED	longaminiter	for longanimiter
+8980	0680D	prophelae	114/345	FALSE	prophetae	t/l misread
+8980	0684B	inducamim	114/347	FALSE	inducamini	plate hyphenates indu-/camini
+8980	0687A	evangelixatum	114/349	FALSE	evangelizatum	plate hyphenates evangeli-/zatum; z/x misread
+8985	0690B	monebu	114/350	FALSE	monebo	
+8985	0691D	Or ginali	114/351	FALSE	Originali	
+8985	0691D	virae	114/351	FALSE	vitae	t/r misread
+8985	0693B	futurem	114/352	FALSE	futurum	
+8985	0694A	Quantor	114/352	FALSE	Quatuor	
+8979	0696D	hae eticorum	114/353	CONFIRMED	hae eticorum	⭐ The GAP IS MIGNE'S here -- space intrusion is not always CC's.
+11613	1147A	Reverendissim	202/580	CONFIRMED	Reverendissim	Migne's defect; control Reverendissimo prints in full 4 lines above
+11613	1150A	implieetur	202/581	CONFIRMED	implieetur	for implicetur
+11613	1156B	eximiii	202/584	FALSE	eximii	two i's, not three
+11613	1161A	quitenebantur	202/587	FALSE	qui tenebantur	plate reads sic qui te-/nebantur; CC joined pronoun to hyphenated verb
+11613	1162A	proculdio	202/587	CONFIRMED	proculdio	for procul dubio
+11613	1169D	carnem	202/591	CONFIRMED	carnem	for carnale
+11613	1172D	praecontis	202/592	CONFIRMED	praecontis	VERIFIED 5x + copy B corroborates. for praeconiis
+11613	1176A	soquentes	202/594	FALSE	sequentes	plate hyphenates ut iis, se-/quentes
+11613	1176B	invensionibus	202/594	CONFIRMED	invensionibus	for inventionibus; control inventioni-/bus prints correctly higher on the SAME page
+11613	1176D	saliari	202/594	FALSE	satiari	VERIFIED 4x; fifth t/l misread of the sweep
+11613	1179D	saptiam	202/596	FALSE	sapiam	
+11613	1187C	justistitiae	202/600	CONFIRMED	justistitiae	Migne's own dittography across the hyphen (justi-/stitiae); control "Sol est justitiae" 2 lines below
+11613	1192A	suum	202/602	CONFIRMED	suum	Ps 101:5 Percussus sum; plate prints suum
+11613	1195C	eonsilium	202/604	CONFIRMED	eonsilium	control consilii correct on the SAME line
+11613	1208D	animi	202/610	FALSE	anima	⭐ SETTLED BY THE CORPUS AS CONTROL: our own 1272A prints "Sitivit anima mea ad Deum vivum" for the same Psalm; animi mea is impossible Latin. Both plate witnesses degraded at the margin.
+11613	1225A	moi	202/619	CONFIRMED	moi	VERIFIED 5x; second letter is a round o, not e. for mei
+11613	1243D	perfecto	202/628	CONFIRMED	perfecto	plate hyphenates ibi per-/fecto; sense wants profecto
+11613	1285B	progeditur	202/649	CONFIRMED	progeditur	for progreditur; control: the LEMMA 4 lines above prints progreditur correctly
+11613	1300B	marytrum	202/656	FALSE	martyrum	ty/yt transposition; martyres correct twice on the same page
