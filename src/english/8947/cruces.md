@@ -1023,3 +1023,69 @@ in 1219D–1232A shows lost word-openings.
 
 Chunk 0017 ends the work at CAPUT LI, VERS. 37, col. 1232A (*Laetetur anima*), which is
 the last verse Migne glosses. Nothing is truncated.
+
+---
+
+## ⭐ BLIND POLARITY READ — 2026-08-29 · 18 chunks · 4 readers · **5 defects OF OUR OWN, fixed**
+
+Four readers, one per stint, each **fenced from this file**, from `cruces-*.md`,
+`data/tei-patches/8947.json` and `data/plate-reads.json`. That fencing is why the pass
+worked: three of reader 1's five findings turn out to be already logged in §A below
+(*a dilecto* 1196B, *potes* 1189C, *Cui Deum* 1188A) — **independent rediscovery, which is
+the evidence the reader actually read** — while the two that were new are both defects of
+OURS, the class a translator's own cruces cannot catch because the same agent wrote both.
+
+### OUR defects — found and FIXED (5)
+
+| col | was | now | why |
+|---|---|---|---|
+| **1186D** | "he who truly fears **bears his mercy patiently**" | "…**patiently awaits his mercy**" | *sustinet* = awaits. The old rendering made God's mercy a thing to be endured, fighting the lemma it glosses one clause earlier (*qui sperant super misericordia ejus*). |
+| **1192A–B** | "; and he who is weighed down … **should wish** to be made a judge" | "; and **lest** he who is weighed down … **wish** to be made a judge" | `velit` is a second subjunctive still governed by `ne`. The scope failed to cross the semicolon, so the gloss appeared to *advise* the man crushed by his own faults to seek judicial office — the exact reverse of its thesis. **A dropped-negation effect produced by scope, not omission: invisible to any particle count.** |
+| **1199C** | "No one can, etc." | "No one can **[comprehend] the foreknowledge of God**, etc." | `praescientiam Dei` was simply absent from the English. Our loss, not Migne's. |
+| **1205C** | "testimonies of Scripture, **foreign to their depraved sense**" | "…**estranged by a depraved understanding**" | As it stood the heretic gathered texts *foreign to a depraved sense* in order to confirm his error — the opposite of the point. `a pravo sensu` is ablative of means. |
+| **1215D** | "Sleep is **lighter** on a small fare" | "Sleep is **finer** on a small fare" | *subtilior* = finer, less gross. "Lighter" reads in modern English as shallower, i.e. worse — against the lemma (*Somnus sanitatis*) and the mystical gloss. Register, but it inverted the sense for an English reader. |
+
+### ⛔ ONE FINDING REJECTED ON THE RULE — 1207A, and do not re-raise it
+
+Reader 2 held that the English supplies a negation the Latin does not print: plate reads
+`Amico reconciliatione credas in aeternum`, English reads "trust thou **not** for ever."
+
+**Rejected. `translation-style.md` 7a⁗ rule 2 governs and requires exactly what is there:**
+*"Does the clause still carry its negation? If the marked run contained non/nec/ne … the
+English must be negative. The marker is not a place to park a negative and let the sentence
+go affirmative."* 7a⁗-b then names **word division as the dangerous shape**, because
+quarantining a fused run removes a whole lexeme rather than one letter. `reconciliatione`
+swallowed the `ne` of `reconciliato ne`; the marker isolates the defective TYPE, never the
+FORCE it carries. The reader was right about what it SAW — no separate `ne` token — and
+wrong about which convention licenses it.
+
+### Migne's defects newly logged (English faithful — do NOT fix)
+
+- **1219C — `Ipse est infinitatis ejus columna, et laboris requies.`** The pair wants
+  *infirmitatis*: a pillar props up **weakness**, and the lemma is *adjutorium*. ⭐ The blind
+  reader correctly declined to say whether this was Migne's or our transcription. **Settled at
+  the plate the same day: p.615 prints `nfinitatis` (initial *i* lost to the margin clip) — so
+  `infinitatis` is MIGNE'S.** No patch; crux only.
+- **1219D–1220A — `zelus qui praecipue est animarum`** in a clause built entirely on the
+  feminine (*a parte feminea*, *muliebrem et mutabilem animum*). The *similiter* wants
+  `feminarum`. Migne's; carried faithfully.
+- **1221B — `volubilem conversationem … ostendit immutabilem`.** The present life's converse is
+  at once rolling and shown unchangeable. Migne's paradox, reproduced rather than smoothed.
+- **1230B — `Ruina duplex, gentilitas scilicet …`** announces a twofold ruin and names one
+  member. A dropped CLAUSE, not a dropped particle. The English reproduces the truncation and
+  supplies nothing, which is correct.
+- **1203D — the Luke 12:47 collapse, now explained.** Migne has folded 12:48's apodosis onto
+  12:47's protasis, which is why `exiguo enim conceditur misericordia` sits orphaned. The same
+  work prints both limbs correctly at 1206D, and **both plates were read** — the
+  self-contradiction is Migne's and it is confirmed.
+
+### Yield by genre — the prediction held
+
+CAP. XXXVII–XXXVIII (dense moral commentary) produced both of stint 4's reversals; the
+**Praise of the Fathers, CAP. XLIV–L, produced none** — list-like narrative has no neighbour
+to contradict. Chunks returned CLEAN and named as such: 0000, 0005, 0011, 0012, 0015, 0016.
+Roughly sixty candidates were considered and rejected with reasons, itemised in the readers'
+reports; the densest negation sites in the work (1217A four negations, 1218A's bag-with-holes
+paragraph with four `sed non` turns) were read hardest and are intact.
+
+`node scripts/polarity-record.mjs 8947 --chunks 18 --sites 5 --ours 5` recorded.
