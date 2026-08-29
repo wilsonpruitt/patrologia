@@ -428,6 +428,20 @@
       "replace": "sive signa, quae impressi\nad imitandum",
       "direction": "normalized",
       "why": "Plate prints 'impressi', which does NOT construe with 'signa'; CC silently repaired it. ⚠ THE ONE SITE IN THIS SET THAT EARNS A MARKER once patched -- the English at 0788A should carry a [sic: impressi] (or a [cj:] proposing 'impressa'), because here the plate genuinely does not construe."
+    },
+    {
+      "col": "0774B",
+      "find": "VERS. 2--",
+      "replace": "VERS. 2.--",
+      "direction": "corrupted",
+      "why": "CC dropped the period after the numeral. Plate p.392 col 774B prints 'VERS. 2. --', read by the session lead at 400 dpi; every other VERS mark on the page is well-formed. Third instance of the class."
+    },
+    {
+      "col": "0781A",
+      "find": "VERS 7.--",
+      "replace": "VERS. 7.--",
+      "direction": "corrupted",
+      "why": "CC dropped the period after VERS. Plate p.396 col 781 prints 'VERS. 7. --', read at 400 dpi against VERS. 4/5/6/8/9 in the same two columns, all well-formed. Fourth and last instance in this work; the class is now closed."
     }
   ],
   "unread": [],

@@ -4,7 +4,8 @@ Cols **0784B–0794D**, Psalms XVII–XX (Vulgate numbering), 4,249 Latin words 
 (ratio 1.48). This range is the **end of the work**. `verify-english.mjs` clean for these four
 chunks. Frontmatter copied verbatim from each Latin twin.
 
-**Apparatus placed in this range: 2 `[sic:]` · 9 `[var:]` · 2 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
+**Apparatus placed in this range: 2 `[sic:]` · 9 `[var:]` · 3 `[cj:]` (the third @0790D, from the
+blind polarity read — see its section at the foot of this file) · 0 `[d:]` · 0 `[ed:]` ·
 0 `[nt:]` · 0 `[n:]`** — ⚠ **revised 2026-08-28**, was 5 `[sic:]` · 9 `[var:]` · 2 `[cj:]`: the
 plate collation withdrew three `[sic:]` and one `[cj:]` and placed one new `[cj:]` @0794A. See
 **PLATE COLLATION — markers withdrawn** at the foot of this file. (the work carries `noteCount: 0` throughout — no note was written, and
@@ -531,3 +532,69 @@ the count in the work-level page note.**
   capitalization, which the facing Latin column already shows.
 
 **Punctuation** in this range is dealt with above (0789A, three marks).
+
+---
+
+## THE BLIND POLARITY READ
+
+Fenced reader on chunks **0014–0017** (Pss XVII–XX, cols 0784B–0794D — the end of the work),
+clause by clause against the Latin twin, with a mechanical negation-token count as backstop.
+No crux file and no collation report was open. Adjudicated 2026-08-28 under Wilson's marker
+ruling of the same session (stated in full in `cruces-0000.md`). Whole-work figures are in that
+file.
+
+**Result for this range: 2 sites — 1 ours, 1 Migne's. One new `[cj:]`.** The reader returned
+**zero confirmed defects on our side** unaided; the one repair below came out of a low-confidence
+candidate that survived adjudication.
+
+### Marked — Migne's own defect, our English literal and unchanged
+
+- **0790D, VERS. 11 · `[cj: *relinquetur*; read *eliquetur*, "shall be pressed out"]`.**
+  *…cui opus sit aliqua pressura, non opprimentis, sed **exprimentis** manus Dei, qua de
+  temporali vita in aeternum **relinquetur***. The whole sentence is the wax-and-honeycomb
+  image, built on a hand that does not crush but **presses out**; *relinquetur* ("shall be
+  left") nearly reverses the movement its own neighbour describes, and *de … in …* hangs on it
+  awkwardly. Our English is correctly literal and stays ("by which he shall be left … from a
+  temporal life unto eternity"); the marker carries the conjecture. It sits beside the `[cj:]`
+  this chunk already had at VERS. 6 (*gloria* → *gloriam*, 0794A).
+
+### Repaired on our side
+
+- **0787C, VERS. 34 — the gloss overshot its own lemma's preposition.** Lemma *et **super**
+  excelsa statuens me*, rendered "setting me **upon** high places"; the gloss re-quotes the same
+  preposition — *et **super** coelestem habitationem figit intentionem meam, ut implear in omnem
+  plenitudinem Dei* — and our English gave "fixes my purpose **above** the heavenly habitation",
+  which makes the aim overshoot heaven and is not what the purpose clause supports. Now
+  "**upon** the heavenly habitation". The translator's default "above" is right nine columns
+  earlier at VERS. 11 (*Exaltatus est super plenitudinem scientiae*) and appears to have been
+  carried across.
+
+### Adjudicated and DECLINED
+
+- **0791A, VERS. 13 — *Quae ipsum **occultum** claudunt, cui suavitas est veritas*, rendered
+  "that very hidden **man**", against the next gloss's *occultum suum* / *alienum* rendered
+  "hidden **thing**" twice** (reader's confidence: low; the reader flagged the inconsistency
+  across two adjacent glosses, not either rendering). **Declined — both renderings are right,
+  and the inconsistency is Migne's (Augustine's), not ours.** At VERS. 13 the two dative
+  relatives (*cui suavitas est veritas, cui desiderabiliora et dulciora sunt judicia Dei*)
+  require a person, and they pick up the man of VERS. 11 (*dulciora **illi** sunt judicia Dei,
+  quam sibi ipsi est*); "the hidden man" is the standing idiom (*absconditus cordis homo*,
+  I Pet. III, 4). At VERS. 14 the same word is doing an entirely different job — *Non enim est
+  tertia origo peccati praeter **occultum** suum … et **alienum*** — where it names one of the
+  two origins of sin and can only be a thing. Levelling the two would make one of them false.
+
+### Positive results worth recording
+
+- **Every counter-intuitive negation in the range is carried**, and these are precisely the
+  seats where a smoothing repair would have been tempting: 0790C, VERS. 10, *non foras mittit
+  consummata dilectio timorem hunc* — perfect love does **not** cast out this fear — carried
+  against the familiar I Joan. IV, 18; 0789D, VERS. 4, *Per quas **non** auditae sunt voces
+  evangelistarum*, the double negative of Ps XVIII, 4, not "fixed" into an affirmative; 0794B,
+  Ps XX VERS. 12, three negatives in one clause, all three present.
+- **0788C, VERS. 31 *nisi manducaverint viam fidei*** — the printed *manducaverint* is kept and
+  the conjecture carried in a `[cj:]`, not substituted. That is the shape 7a exists to prevent,
+  handled right.
+- **0789B, VERS. 44 — Migne's conflation of Joan. XI, 48 and XII, 19** is rendered literally with
+  the divergence in a `[var:]`; **0789C, VERS. 50 — the lemma *confitebor* against the gloss's
+  *confitebuntur gentes*** is a real lemma/gloss mismatch and it is **Migne's**, carried as
+  printed on both sides. Two more 7a″-shaped seats, neither conformed.

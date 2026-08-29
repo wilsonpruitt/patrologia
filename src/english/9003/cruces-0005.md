@@ -18,7 +18,9 @@ asterisks, in all 53 bands of the five chunks. All bands now match. Six real mis
 caught this way and repaired — five softened or supplied colons and two comma↔semicolon
 swaps — plus **three merged italic spans** (§6 below), which nothing else would have found.
 
-**Apparatus fired: 11 `[var:]` · 1 `[cj:]` · 0 `[sic:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
+**Apparatus fired: 11 `[var:]` · 3 `[cj:]` · 0 `[sic:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
+(⚠ `[cj:]` count corrected 2026-08-28 from 1 to 3; the three stand at 0766A, 0767B and 0771B.
+The blind polarity read added none in this range — see its section at the foot of this file.)
 ⚠ **Revised 2026-08-28**, was 10 `[var:]`: the plate collation **withdrew** the one @0770A (it
 was an artefact of the transcription, §2f) and **added two** the digitization had erased, @0764B
 and @0771C. See **PLATE COLLATION — markers withdrawn** at the foot of this file.
@@ -811,3 +813,63 @@ and recorded here only so that a reader collating the twin is not left to wonder
 
 **Punctuation** in this range is dealt with above (0765C, the comma Migne prints where the
 digitization had a full stop).
+
+---
+
+## THE BLIND POLARITY READ
+
+Fenced reader on chunks **0005–0009** (Pss VI–IX, cols 0762B–0774A), reading Latin against
+English in full with no crux file and no collation report open. Adjudicated 2026-08-28 under
+Wilson's marker ruling of the same session (stated in full in `cruces-0000.md`). Whole-work
+figures are in that file.
+
+**Result for this range: 1 site, ours; 0 markers placed.**
+
+### Repaired
+
+- **0774A, VERS. 39 — *extulit patrem* is a burial, not an exaltation.** Migne: *qui exuit
+  veterem hominem, atque hoc modo tanquam **extulit patrem***. Our English read "as it were
+  **exalted** the father". *Efferre* here is the funeral idiom (*funus efferre*, *patrem
+  efferre*) — **carried his father out to burial** — and the control is two paragraphs back in
+  the same run at 0773C, where the expositor defines the *pupillus*: *Orphanum autem dixit,
+  **cui moritur pater hic mundus**, per quem carnaliter genitus est*, and *Talibus enim orphanis
+  pater fit Deus*. The clause is supplying the reason this man qualifies as the orphan the Son
+  of man judges for. *Tanquam* is the tell: there is a metaphor to flag in burying a father one
+  never literally had, none at all in exalting one — and the old reading made *exuit veterem
+  hominem* a stripping-off and an elevation at once. Now: "and in this way as it were **carried
+  his father out to burial**." 7a mechanism 1; no lexical trace, and `verify-english` cannot
+  see it.
+
+### Adjudicated and DECLINED
+
+- **0769C *Princeps hujus saeculi missus est foras* → "was sent forth".** Momentarily ambiguous
+  in English (it can read as commissioning), but the governing clause immediately before —
+  *cum exclusit inde principem*, "when he shut out thence the prince" — fixes the direction for
+  the reader before he reaches it. A clarity question, not a polarity one.
+- **0770A *paravit in occulto judicio sedem suam*.** Our distribution ("prepared **in secret**
+  his seat **in judgment**") and the reader's ("his seat **in the hidden judgment**") assert the
+  same thing, which is the sentence's own contrast with *palam manifesteque venturus est*.
+- **0764B *reddidit mala **pro nobis***** — almost certainly Migne's slip for *pro bonis*, the
+  reading the maxim needs. Our English renders what is printed and does not repair it, which is
+  7a-correct. **No marker:** the intended word is not in doubt (*mala pro bonis* is the maxim's
+  own shape and *acceptis beneficiis* stands three words earlier), so it falls on the
+  cruces-only side of Wilson's ruling.
+
+### Positive results worth recording
+
+- ⭐ **The 7a″ profile is ABSENT from this range.** Every quoted verse in five chunks was read
+  word by word against the plate, and **no lemma was found conformed to the familiar English**.
+  Where Migne diverges, the English diverges too and the divergence is already marked:
+  *Miserere mei, **Deus*** (0762C), *si **fecit** istud* (0764B), *terram **manducabis***
+  (0764D), *Consu**mm**etur nequitia* and *justus justior fiat* (0765B), *Templum **Domini***
+  (0770B), *Comprehend**antur*** (0771C), *humili**avit*** (0773A), *ut tradat eos in manus
+  **suas*** (0773B), *Ne dicatis vobis patrem in terris* (0773C). For a scripture commentary —
+  the genre whose predicted dominant failure mode 7a″ **is** — that is the notable finding of
+  the read, not an absence of one.
+- **Every printed negation in the five chunks is carried**, including where carrying it leaves
+  the sentence odd: *usque adeo non erubescunt … ut … non desinant* keeps the idiom's double
+  negation rather than smoothing it. No negation appears in the English that the Latin does not
+  print.
+- **0769C *Convenientius hoc Domino Jesu Christo **dici**, quam **ipsum dicere*** — passive to
+  the Lord, active by him — is rendered in the right direction ("said **to** the Lord … than
+  said **by** him"). This is the exact 7a mechanism-5 shape, verified rather than assumed.

@@ -1,8 +1,9 @@
 # 9003 · *Expositio in XX primos Psalmos* — cruces, chunks 0000–0004 (cols 0751C–0762A)
 
 Translator's range: chunks **0000–0004**, PL 114 cols **0751C–0762A**, 4,154 Latin words.
-Apparatus fired: **1 `[sic:]` · 11 `[var:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]` · 0 `[n:]`**
-— ⚠ **revised 2026-08-28**, was 10 `[var:]`: the plate collation added one @0758C (Ps 3:9
+Apparatus fired: **1 `[sic:]` · 12 `[var:]` · 1 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]` · 0 `[n:]`**
+— ⚠ **revised twice on 2026-08-28**: the blind polarity read added one `[var:]` @0755C (the
+Ezekiel *ut*) — see **THE BLIND POLARITY READ** at the foot of this file — and before that, was 10 `[var:]`: the plate collation added one @0758C (Ps 3:9
 *Domine* for *Domini*), which the digitization had erased. See **PLATE COLLATION — markers
 withdrawn** at the foot of this file.
 (the work carries `noteCount: 0` throughout, as the launch brief states, and none was invented).
@@ -454,3 +455,88 @@ wrong sort whose intended word is not in doubt.*
 **Not a defect, recorded for completeness:** 0760D, where Corpus Corporum had **supplied** *corde*
 from Mt 5:8. The plate prints *qui **mundo** conspicitur* alone; the interpolation is gone and the
 English reads "who is beheld by the pure" (see the note above). Nothing of Migne's is wrong here.
+
+---
+
+## THE BLIND POLARITY READ
+
+Four fenced readers took the work in four bands (0000–0004, 0005–0009, 0010–0013, 0014–0017),
+each reading Latin against English in full, with no `cruces*.md` file and no collation report
+open before or after. Their reports were adjudicated on 2026-08-28, after the 22-page plate
+collation, under **Wilson's marker ruling of the same session**: *mark where the plate's
+reading does not construe, or where a reader could not recover the intended word with
+confidence, or where the defect could be mistaken for a real variant; do NOT mark a plainly
+battered, turned or dropped sort whose intended word is not in doubt.*
+
+**Whole-work result across all 18 chunks: 13 confirmed sites.** Ten carried a defect in **our
+English** and were re-rendered; four sat on **Migne's plate** and took a marker with the English
+left literal. (The two figures overlap by one: 0779D is a lost *sed non* on the plate *and* a
+connective our English had smoothed, so it was both re-rendered and marked.) **Four new `[cj:]`
+markers, one new `[var:]`.** Eight further candidates were adjudicated and declined; they are
+listed under their own ranges, with reasons.
+
+Per range — ours / Migne's: **0000–0004: 5 / 0** · **0005–0009: 1 / 0** · **0010–0013: 3 / 3**
+· **0014–0017: 1 / 1**.
+
+### Repaired in this range (chunks 0000–0004)
+
+1. **0755B — the Church was identified with the devil's wind.** Migne: *projiciuntur a
+   soliditate et stabilitate **terrae** in ventum **praesentis**, scilicet Ecclesiae **et
+   futurae***. The genitives depend on *terrae*, not on the accusative *ventum*; Migne's
+   hyperbaton drops *in ventum* between them. Our English had read "into the wind of the
+   present, that is, of the Church, and of that which is to come" — and the very next sentence
+   is *Ventus autem ipse diabolus intelligitur*. Now: "cast forth from the solidity and the
+   stability of the earth **of the present, that is, of the Church, and of that which is to
+   come, into the wind**". 7a mechanism 5 (reference mis-bound), and the page had been
+   contradicting its own neighbour.
+
+2. **0755C — a 7a″ conformation the plate collation exposed.** Migne prints *In concilio populi
+   mei non erunt, **ut** in scriptura domus Israel non scribentur*; the Clementine has *et*, and
+   Corpus Corporum had normalized Migne toward it. The Latin was corrected to *ut* in the
+   collation, but the English still read "and". Now rendered "**that** in the writing of the
+   house of Israel they shall not be written", with a `[var:]` recording the Vulgate's *et* and
+   the fact that *ut* + future indicative does not construe. ⚠ The failure to construe is
+   Migne's; nothing has been smoothed to hide it.
+
+3. **0761C, VERS. 10 — the lemma had lost the word its own gloss expounds.** Migne prints
+   *Quoniam non est in ore,* etc.; our English gave "For there is no," etc., with **no exponent
+   at all for *in ore***, in a stump whose gloss turns on precisely that phrase (*Quomodo potest
+   esse in ore eorum veritas…*). Completed to "*For there is no truth in their mouth,*" etc.,
+   on this work's settled fragmentary-lemma convention (cf. 0769D *Inimici defecerunt* →
+   "The enemy's swords have failed").
+
+4. **0760A, VERS. 9 — *speratur a talibus* was read as a source, not an agent.** "hoped for
+   **from** such men" → "hoped for **by** such men". *a* + ablative with a passive is the agent,
+   and *tales* are the *vir fidelis* of the sentence that introduces the verse ("The faithful
+   man therefore rejoices and says"); the source reading detached the clause from its own cue.
+
+5. **0756B — who foreknows.** *per quas utique **praescientes** quid futurum sit, deridebit Deus
+   et subsannabit*: *praescientes* is accusative plural agreeing with *quas*, the holy souls,
+   not with *Deus*. The paragraph's whole argument is that God's derision **is** the force of
+   foreknowledge *he gives to his saints* (*ea vis accipienda est, quam dat sanctis suis, ut
+   futura cernentes… intelligant*). Now "through whom, **since they indeed foreknow** what shall
+   come to pass, God will deride and mock."
+
+### Adjudicated and DECLINED in this range
+
+- **0762A — *desperationem salutis suggerens* attaching to the shield rather than to
+  *inimicus*** (reader's confidence: medium-high). **Declined.** The reader's stated ground —
+  that *suggerens* "is nominative and agrees with *inimicus*" — is only half right: the present
+  participle's nominative singular is identical in all three genders, so *scutum* and *inimicus*
+  are **equally available in the Latin**, and Migne's sentence is anacoluthic with no finite
+  verb to settle it. Our English reproduces the same ambiguity with the same nearest-noun
+  default (*inimicus* / "the enemy"). Nothing is asserted in English that the Latin does not
+  equally assert, so a re-binding would be our disambiguation of Migne's, not a repair.
+
+### Positive results worth recording
+
+- **0000 (the Pezian *monitum*) is clean at every one of its six litotes** — `nullam non operam
+  … dedi`, `non nihil … commodaretur`, `non nihil partiorem`, `non nisi primorum viginti
+  psalmorum`, `Nec … unquam mutassem, nisi … deprehendissem`, `ne … omnino depereat`. Both
+  printed negatives survive in all six; the double-negative idiom is nowhere smoothed.
+- **0760C / 0761A — the psalm title, this work's 7a″ trap, was not fallen into.** Migne prints
+  *pro ea quae **veritatem** consequitur* in the lemma and *quae **haereditatem** consequitur*
+  in the gloss; the English carries **both** as printed, with a `[var:]` on the first.
+- **0760D *qui mundo conspicitur*** — taken as the adjective ("beheld by the pure"), which is
+  right; the alternative ("by the world") would have contradicted the preceding clause outright.
+  Noted because it is exactly the seat a silent reversal would take.

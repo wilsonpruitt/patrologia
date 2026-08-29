@@ -5,8 +5,10 @@ Range: **IN PSALMUM X** (from 0774B) through **IN PSALMUM XVI** (to 0784A) — P
 what `sources/vulgate/clementine-flat.txt` uses. Nothing below renumbers toward the Hebrew,
 and the title-as-verse-1 offset is not treated as a divergence anywhere.
 
-Apparatus placed in this range: **16 `[var:]` · 1 `[sic:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
-0 `[nt:]` · 0 `[n:]`** (the work has `noteCount: 0` throughout, as expected). Zero guillemets in
+Apparatus placed in this range: **16 `[var:]` · 1 `[sic:]` · 4 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
+0 `[nt:]` · 0 `[n:]`** — ⚠ **`[cj:]` count revised 2026-08-28**, was 0 at filing: the plate
+collation placed one @0774B (*apud ipso*) and the blind polarity read three more (@0779D,
+@0781A, @0775A); see **THE BLIND POLARITY READ** at the foot of this file. (the work has `noteCount: 0` throughout, as expected). Zero guillemets in
 either language. Band-by-band punctuation and italic-span counts are 1:1 with the Latin twins in
 all four chunks with **one deliberate exception**, recorded at §4.1.
 
@@ -585,3 +587,100 @@ is at §1.1 and in the section above.
 
 **Orthography, not defective type:** 0778D ***dimitimus*** (single *t*) for *dimittimus*, Jo 11:48
 — argued in the section above, where the `[var:]` was declined.
+
+---
+
+## THE BLIND POLARITY READ
+
+Fenced reader on chunks **0010–0013** (Pss X–XVI, cols 0774B–0784A), Latin against English in
+full, with a mechanical negation-token count per chunk as backstop (0010 15/16, 0011 45/44,
+0012 39/38, 0013 21/22; the 0013 shortfall is `nisi` collocations, checked by hand). No crux
+file and no collation report was open. Adjudicated 2026-08-28 under Wilson's marker ruling of
+the same session (stated in full in `cruces-0000.md`). Whole-work figures are in that file.
+
+**Result for this range: 5 confirmed sites — three carried a defect in our English, three sit
+on Migne's plate; 0779D is both, which is why the two figures overlap. Three new `[cj:]`
+markers.** The reader
+found **no dropped negation anywhere in the range and no word translated as its opposite**.
+
+### Marked — Migne's own defects, our English literal and unchanged
+
+1. **0779D · `[cj: *in corde*; read *sed non in corde*, "but not in the heart"]`.** Migne:
+   *Verum ille **locutus est in corde** suo, aliud enim putabat, et nesciens verum dixit.* The
+   whole simile exists to show a man who speaks truth **with the lips and not in the heart** —
+   that is the lemma under exposition (*qui loquitur veritatem in corde suo*), it is stated
+   three lines up (*in labiis habent veritatem, in corde non habent*), and the next sentence
+   draws the moral (*parum est verum loqui, **nisi** etiam in corde ita sit*). The line has lost
+   its *sed non*.
+   ⚠ **Our English changed here too, and it is not a repair.** It had taken *Verum* as the
+   adversative connective ("But that man hath spoken in his heart"), which leaves the clause
+   with no object and reads as smooth prose — 7a mechanism 3, connective smoothing: the
+   contradiction survives but loses its visible edge. *Verum* is now taken as the object it most
+   likely is, matching *nesciens **verum** dixit* four words later: "**Truth** that man *hath
+   spoken in his heart*". The clash with *aliud enim putabat* is now on the surface, where the
+   marker can name what fell out. A dropped word is glossable under Pattern 18 (7561 @0648):
+   the gloss opens on words Migne **did** print, so the verbatim-in-the-Latin-twin guard holds.
+2. **0781A · `[cj: *amici*; read *inimici*, "enemies"]`.** *nec a me jam et peccatores, et
+   **amici**, et homines, sed justi et fratres mei, et filii Dei vocabuntur.* A three-term
+   before/after list — *peccatores→justi*, X*→fratres mei*, *homines→filii Dei* — whose middle
+   term sits on the wrong side of the ledger: as printed they will no longer be called
+   *friends*, but **will** be called brethren. A single lost *in-*, in a gloss about their being
+   made better. Marked because the printed word is real, in a real position, and **a reader
+   would take it for a variant rather than a defect**.
+3. **0775A · `[cj: *operatio*; read *opertio*, "covering"]`.** *ista in sanctis libris crebra
+   **apertio atque operatio** tanquam palpebrae sunt Dei*, in a sentence built out of *clausis
+   oculis* and *apertis oculis*. Eyelids are named precisely because they do two opposite
+   things; "opening and working" is not one of them.
+   ⛔ **This REVERSES the decline at §4.8.1 above, and deliberately.** That decline was argued
+   on 18a's bar — *the English is odd, not false* — and 18a's census was closed. **Wilson's
+   ruling of 2026-08-28 states a different test**: mark where a reader **could not recover the
+   intended word with confidence**, or where the defect could pass for a real variant.
+   *opertio* is a rare word; nothing on the page lets a reader reach it, and *operatio* reads as
+   a genuine reading. Under the new test it is marked. §4.8.1 stands as the record of the
+   earlier reasoning; the text now follows this paragraph.
+
+### Adjudicated and DECLINED
+
+- **0774B *mentem*.** Re-raised by the reader as a high-confidence site. **Not open** — it is
+  settled at §1.1 above and deliberately carries no marker: *mentem* is a real word (so
+  Pattern 12 has nothing to wrap), and a `[cj: read *montem*, "mountain"]` would sit beside an
+  English word that already says "mind". The incoherence lives in §1.1, which is its home.
+- **0777A *Tribulantes sunt **diaboli** et angeli ejus*.** Already adjudicated at §4.8.3 and
+  unchanged: a number slip beside a singular possessive, 18a's declined class, and the intended
+  *diabolus* is not in doubt.
+- **0780A — three unanchored "he/his"** in *Et ut nihil sit in **conspectu ejus**, certissime
+  noverit malignum non esse…* (reader's confidence: low). **Declined.** *in conspectu ejus* is
+  a verbatim re-quotation of the lemma (Ps 14:4, *ad nihilum deductus est in conspectu ejus
+  malignus*), and the pronoun is unglossed in the psalm as it is in Migne; supplying an
+  antecedent inside a lemma re-quotation would put our gloss on the page in the psalm's own
+  italics. Our English disambiguates it correctly ten lines later ("in whose sight the malignant
+  one is brought to nothing"), which is where the disambiguation belongs.
+
+### Repaired on our side
+
+4. **0777B — the *cantabo* / *psallam* distinction was half-collapsed.** The gloss announces the
+   distinction itself (*Si autem aliqua hic **differentia** consideranda est, cantabo corde,
+   psallam operibus*), and our lemma gave *psallam* the very English word the gloss reserves for
+   *cantabo*, so the reader met "*I will sing* … that is, I use my body in the most ordered
+   way". Lemma and its `[var:]` now read "**I will play** to the name of the Most High", the
+   same English the gloss already gives *psallam*. Not the fragmentary-lemma convention: this is
+   a whole clause, not a stump.
+5. **0777B — the relative bound to the wrong antecedent.** *In salutari tuo, hoc est in Christo
+   Jesu, exsultabit cor meum, **qui** tribuit mihi bona spiritalia*: *qui* is masculine and can
+   only be Christ, but the English put it against "my heart", where an English reader binds it.
+   Re-ordered to "*In thy salvation,* that is, in Christ Jesus, who *hath bestowed good things
+   upon me* that are spiritual … *shall my heart rejoice.*" Three italic spans before, three
+   after. 7a mechanism 5.
+
+### Positive results worth recording
+
+- ⭐ **The 7a″ profile is ABSENT from this range too.** All fifteen `[var:]` notes in the four
+  chunks (Ps 10:3, 12:2, 12:6, Rom 1:28, Act 10:13, Mt 11:29-30, Jo 11:48, Ps 13:6, Rom 11:25,
+  Rom 11:26, Ps 15:3, Ps 16:4, 16:5, 16:13, 16:15) were checked against the printed Latin: each
+  records a real divergence and none conceals a conformation. **No lemma in the range was found
+  quietly conformed to the familiar English Bible** — which, in the genre where 7a″ is the
+  predicted dominant failure, is the second independent negative result of the read.
+- **Ps XIV's *tabernaculum*/*mons* and *quis habitabit*/*quis requiescet* contrasts are fully
+  preserved**, as is Ps XV's *humanitas meae divinitatis* / *divinitas humanitatis* chiasmus,
+  and Ps XV:5's *congregabo* against v.4's *Non congregabo* — an opposition the Latin builds
+  deliberately, not a dropped negative.
