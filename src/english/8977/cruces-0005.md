@@ -3,7 +3,8 @@
 Range: **CAPUT V–IX**, cols **0719D–0729A** (`colFirst` 0720A → `colLast` 0729A).
 One translator, five chunks (3,640 Latin words). `verify-english.mjs` clean.
 
-**Apparatus taken in this range: 2 `[sic:]` · 5 `[var:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
+**Apparatus taken in this range: 0 `[sic:]` (2 taken, BOTH WITHDRAWN at the plate 2026-08-28 —
+see §2) · 5 `[var:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
 0 `[nt:]` · 2 `[n:]` (parity with the Latin twins).** Anchors 37/37, verbatim, in order, and
 each checked against the WORD it stands beside in the Latin (test 2b). Question marks 0/0 in
 both columns. Punctuation compared band by band (test 3): **zero mismatched bands** for
@@ -11,8 +12,10 @@ colons, semicolons, question marks, exclamation marks and guillemets, after the 
 recorded in §4. Zero guillemets in either column. `## ` heads 1:1 (`CAPUT V.` → `CHAPTER V.`,
 and so through IX, matching Ruth's shipped English).
 
-⚠ **Nothing in this file has been checked against Migne's plate.** Every candidate below that
-would need the plate is named as such, and none of them fired a marker.
+⚠ **Nothing in this file was checked against Migne's plate when it was written.** Every
+candidate below that would need the plate is named as such. ⛔ **Two of them fired a marker
+anyway, and the plate has since disproved both** (0720A, 0726D — §2): the range's `[sic:]`
+count is now zero.
 
 ---
 
@@ -186,23 +189,34 @@ in **opposite** directions, deliberately:
 
 ## §2 · THE PLATE'S OWN TROUBLE — rendered as printed, logged here
 
-### 0720A (0005) · *intellexeruut* — a non-word. `[sic:]` TAKEN.
+### 0720A (0005) · *intellexeruut* — ⛔ `[sic:]` **WITHDRAWN AT THE PLATE, 2026-08-28.**
 
-*Sancti et antiqui Veteris Testamenti patres **intellexeruut** aliquando…* — *intellexeruut* is
-no Latin word (u for n). Corpus control: **1 occurrence against 21 *intellexerunt*** across all
-of `src/latin/`. Per addendum A a non-word is the class worth raising, and it is carried under
-Patterns 7/10/12: the English gives the sense **and** the marker —
-"…of the Old Testament understood [sic: *intellexeruut*] at one time…". Strip the marker and
-the sentence still reads (test 1). ⚑ **Plate-read candidate**: this may be the digitization's
-corruption rather than Migne's type; the marker asserts only that the run in our Latin twin is
-carried, which is what the verifier checks.
+**Migne prints *intellexerunt*.** PL 114 p. 365, cols 719/720 (corner numbers read before the
+crop), VERS. 2 *Angelum*, at 400 dpi: *Sancti et antiqui Veteris Testamenti patres
+**intellexerunt** aliquando a Deo dispositam reparationem Jerusalem.* The u was Corpus
+Corporum's, not his. The Latin is patched (`data/tei-patches/8977.json`, direction
+`corrupted`) and the marker is gone from the English.
 
-### 0726D–0727A (0009) · *baereticorum* — a non-word. `[sic:]` TAKEN.
+⚠ **The withdrawn reasoning is kept here on purpose.** The marker was fired on a corpus
+frequency count — *1 occurrence against 21 *intellexerunt** — and
+`reference_plate-read-triage.md` already says in terms that for a NON-WORD frequency is
+decisive **that the error exists**, not **whose it is**; a lone non-word against a full corpus
+of the right form is the signature of the digitization. It then shipped carrying the words
+"plate-read candidate" in this very entry: the doubt was recorded and the work went out anyway.
+**That is the gap the ship-test gate now closes** — `scripts/plate-gate.mjs` refuses a `[sic:]`
+or `[var:]` on a column with no recorded plate read.
 
-*Discipuli **baereticorum** locustis comparantur.* Corpus control: **1 occurrence of
-*baereticorum* (plus one *baereticae* elsewhere) against 501 *haeretic-* forms**; this work
-alone prints *haeretic-* fifteen times in the same chunk. Rendered "The disciples of the
-heretics [sic: *baereticorum*] are compared to locusts". Same plate-read caveat.
+### 0726D–0727A (0009) · *baereticorum* — ⛔ `[sic:]` **WITHDRAWN AT THE PLATE, 2026-08-28.**
+
+**Migne prints *haereticorum*,** set with the ae ligature and hyphenated across the line as
+*haereti-* / *corum*. PL 114 p. 368, cols 725/726 (corner numbers read before the crop),
+VERS. 3 *Exierunt locustae*, at 400 dpi. Corpus Corporum read the ligature's **h as a b**.
+Latin patched, marker removed; same class and same withdrawal as 0720A above.
+
+⭐ The corpus control that fired the marker (1 *baereticorum* against 501 *haeretic-* forms,
+fifteen of them in this work) was pointing at the right defect and the **wrong culprit**. Both
+of this work's `[sic:]` markers were false, and both were public accusations against Migne for
+the digitization's error.
 
 ### 0722A (0006) · a full stop mid-sentence — PRESERVED, per Pattern 8
 
