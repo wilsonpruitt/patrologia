@@ -3215,3 +3215,45 @@ which is to say he caught his own duplicate and starred it rather than renumberi
 | (71) | 1300 | F. suppl. *genus* | non timens carcerem, vincula non metuens, omne quod excogitari potest supplicii (71)… |
 | (72) | 1304 | F. *resuscitandum*. | cum ad (72) resurgendum omnes tuba lugubris insonuerit |
 
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 202 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 1156B | *eximiii* | **eximii** |
+| 1161A | *quitenebantur* | **qui tenebantur** |
+| 1176A | *soquentes* | **sequentes** |
+| 1176D | *saliari* | **satiari** |
+| 1179D | *saptiam* | **sapiam** |
+| 1208D | *animi* | **anima** |
+| 1300B | *marytrum* | **martyrum** |
+
+The Latin is corrected in `data/tei-patches/11613.json` and each marker is removed from the English.
+
+### Confirmed — Migne's own defect; the marker stands
+
+| col | the plate prints |
+|---|---|
+| 1147A | **Reverendissim** — Migne's defect; control Reverendissimo prints in full 4 lines above |
+| 1150A | **implieetur** — for implicetur |
+| 1162A | **proculdio** — for procul dubio |
+| 1169D | **carnem** — for carnale |
+| 1172D | **praecontis** — VERIFIED 5x + copy B corroborates. for praeconiis |
+| 1176B | **invensionibus** — for inventionibus; control inventioni-/bus prints correctly higher on the SAME page |
+| 1187C | **justistitiae** — Migne's own dittography across the hyphen (justi-/stitiae); control "Sol est justitiae" 2 lines below |
+| 1192A | **suum** — Ps 101:5 Percussus sum; plate prints suum |
+| 1195C | **eonsilium** — control consilii correct on the SAME line |
+| 1225A | **moi** — VERIFIED 5x; second letter is a round o, not e. for mei |
+| 1243D | **perfecto** — plate hyphenates ibi per-/fecto; sense wants profecto |
+| 1285B | **progeditur** — for progreditur; control: the LEMMA 4 lines above prints progreditur correctly |
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

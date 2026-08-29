@@ -843,3 +843,22 @@ pronoun anyway. ⛔ **Naming a subject in the apparatus is not the same as marki
 — the reader meets the sentence, not the crux. Where the Latin's morphology makes the choice
 (*ejus* not *sua*; a purpose clause whose point is the addressee), the English has to spend a word
 on it, and a bracketed name is the cheapest word available.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 114 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### REVISED — 0635D *nutiles*
+
+⭐ THIRD OUTCOME: Migne's defect IS real (mutiles for inutiles) but we quoted the wrong word for it -- CC misread his m as n. Patch Latin to mutiles; marker STANDS with corrected quotation.
+
+### UNRESOLVED — 0636A *aurursus*
+
+⛔ Word sits in the extreme right margin where THIS scan has ink bleed; aut/au/an cannot be separated. Sense wants aut rursus dormire. The rejoin across the line break is certain either way, but WHICH word to restore is a claim about Migne this copy cannot support. NEEDS A SECOND PL 114 WITNESS.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

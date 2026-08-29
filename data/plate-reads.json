@@ -1,333 +1,1174 @@
 {
- "note": "WHICH COLUMNS HAVE ACTUALLY BEEN READ AT MIGNE'S PLATE. Written 2026-08-28, the day 9003's full collation showed our Corpus Corporum Latin departs from the plate at ~3 sites per page against a standing corpus estimate of THREE INSTANCES IN TOTAL. This file exists so that `scripts/plate-gate.mjs` can refuse a [sic:] or a [var:] on a column nobody has read. It records READS, not findings: a range belongs here when someone put the page on screen, read the corner numbers first, and read the running text -- whether or not anything was found. Its opposite number is data/plate-notes/coverage.json, which records only the foot-of-page conjecture layer.",
- "why_the_gate": "A [sic:] asserts a defect in MIGNE'S TYPE and a [var:] asserts that MIGNE'S TEXT diverges from a scriptural witness. Both are public claims about the printed page. Our Latin is not the printed page -- it is Corpus Corporum's transcription of it -- so neither claim can be licensed by the file alone. Corpus frequency detects that an error EXISTS; it cannot say WHOSE it is (reference_plate-read-triage.md). Vulgate collation is worse than useless for the [var:] class: 9003 @0763D showed the digitization MANUFACTURING a divergence (judicabit -> judicavit) that the collation then dutifully 'found'.",
- "rule": "NOT A RETROFIT (CLAUDE.md, \"RECOVER GOING FORWARD, DO NOT SWEEP THE DONE CORPUS\"). The gate is a SHIP TEST: run it on a work before marking it `ours`. Works shipped before 2026-08-28 are surveyed by `--all`, which measures the exposure and exits zero; the number it prints is evidence for a decision about sample width, not a mandate to re-open 38 books.",
- "fields": {
-  "from/to": "inclusive column range, banded (0719A) or bare (0719). A read of one PDF page covers TWO columns, i.e. all eight bands A-D of both.",
-  "depth": "'full' = the running text of every column in the range was collated word by word against our Latin. 'read' = the page was read at the plate for a named question and the surrounding text scanned, but not collated word by word. Only 'full' licenses silence about a column; both license a marker, because both mean a human eye met the type.",
-  "source": "scan identifier + page map + the calibration actually performed. A page map asserted but not calibrated against printed corner numbers is not a source."
- },
- "works": {
-  "8944": {
-   "series": "pl",
-   "volume": 113,
-   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
-   "page_map": "PDF page = (column + 11) / 2",
-   "reads": [
-    {
-     "from": "1125A",
-     "to": "1126D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 568,
-     "source": "on-disk PL 113 scan, full page width; CALIBRATION PAGE, corners read 1125/1126",
-     "found": "no conjecture apparatus -- but CC had DROPPED THREE HEBREW WORDS Migne sets in the praefatio; recovered as TEI patches"
-    },
-    {
-     "from": "1149A",
-     "to": "1150D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 580,
-     "source": "on-disk PL 113 scan, full page width; spot check at chunking",
-     "found": "no foot-of-page apparatus of either layer"
-    },
-    {
-     "from": "1157A",
-     "to": "1160D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "pages": "584-585",
-     "source": "on-disk PL 113 scan; corner numbers read before the crops",
-     "found": "three [sic:] withdrawn, a fourth defect repaired"
-    }
-   ]
+  "note": "WHICH COLUMNS HAVE ACTUALLY BEEN READ AT MIGNE'S PLATE. Written 2026-08-28, the day 9003's full collation showed our Corpus Corporum Latin departs from the plate at ~3 sites per page against a standing corpus estimate of THREE INSTANCES IN TOTAL. This file exists so that `scripts/plate-gate.mjs` can refuse a [sic:] or a [var:] on a column nobody has read. It records READS, not findings: a range belongs here when someone put the page on screen, read the corner numbers first, and read the running text -- whether or not anything was found. Its opposite number is data/plate-notes/coverage.json, which records only the foot-of-page conjecture layer. || 2026-08-29: extended by the [sic:] plate sweep across PL 113/114/202 — 56 pages, 80 markers, ledger at data/plate-sweep/2026-08-29-sic-sweep.tsv. ⛔ 8988 col 0636A is DELIBERATELY NOT RECORDED: the page was read, but the word (aurursus / aut / au) sits in the extreme right margin where that scan has ink bleed and could not be resolved. Leaving it unrecorded keeps the gate flagging that marker, which is the honest state — a read that could not settle the word is not a read for this purpose.",
+  "why_the_gate": "A [sic:] asserts a defect in MIGNE'S TYPE and a [var:] asserts that MIGNE'S TEXT diverges from a scriptural witness. Both are public claims about the printed page. Our Latin is not the printed page -- it is Corpus Corporum's transcription of it -- so neither claim can be licensed by the file alone. Corpus frequency detects that an error EXISTS; it cannot say WHOSE it is (reference_plate-read-triage.md). Vulgate collation is worse than useless for the [var:] class: 9003 @0763D showed the digitization MANUFACTURING a divergence (judicabit -> judicavit) that the collation then dutifully 'found'.",
+  "rule": "NOT A RETROFIT (CLAUDE.md, \"RECOVER GOING FORWARD, DO NOT SWEEP THE DONE CORPUS\"). The gate is a SHIP TEST: run it on a work before marking it `ours`. Works shipped before 2026-08-28 are surveyed by `--all`, which measures the exposure and exits zero; the number it prints is evidence for a decision about sample width, not a mandate to re-open 38 books.",
+  "fields": {
+    "from/to": "inclusive column range, banded (0719A) or bare (0719). A read of one PDF page covers TWO columns, i.e. all eight bands A-D of both.",
+    "depth": "'full' = the running text of every column in the range was collated word by word against our Latin. 'read' = the page was read at the plate for a named question and the surrounding text scanned, but not collated word by word. Only 'full' licenses silence about a column; both license a marker, because both mean a human eye met the type.",
+    "source": "scan identifier + page map + the calibration actually performed. A page map asserted but not calibrated against printed corner numbers is not a source."
   },
-  "8947": {
-   "series": "pl",
-   "volume": 113,
-   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
-   "page_map": "PDF page = (column + 11) / 2",
-   "second_witness": "Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2 -- REQUIRED for left-column cruces: our archive.org copy clips the left margin inside this work (confirmed pp. 598, 604, 620).",
-   "reads": [
-    {
-     "from": "1183A",
-     "to": "1184D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 597,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 markers confirmed. [sic: magnituditudinem] is MIGNE'S: plate prints 'magnitudi-'/'tudinem', the syllable genuinely doubled across the line break (NOT an 8946-class rejoin)."
+  "works": {
+    "8944": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "1125A",
+          "to": "1126D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 568,
+          "source": "on-disk PL 113 scan, full page width; CALIBRATION PAGE, corners read 1125/1126",
+          "found": "no conjecture apparatus -- but CC had DROPPED THREE HEBREW WORDS Migne sets in the praefatio; recovered as TEI patches"
+        },
+        {
+          "from": "1149A",
+          "to": "1150D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 580,
+          "source": "on-disk PL 113 scan, full page width; spot check at chunking",
+          "found": "no foot-of-page apparatus of either layer"
+        },
+        {
+          "from": "1157A",
+          "to": "1160D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "pages": "584-585",
+          "source": "on-disk PL 113 scan; corner numbers read before the crops",
+          "found": "three [sic:] withdrawn, a fourth defect repaired"
+        }
+      ]
     },
-    {
-     "from": "1185A",
-     "to": "1186D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 598,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching; left column settled at Gallica f593",
-     "found": "5/5 confirmed. LEFT COLUMN CLIPPED in our copy; 1185B settled at the Gallica second witness (f593), which also corroborated 1185C and 1185D read through the clipping."
+    "8947": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "second_witness": "Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2 -- REQUIRED for left-column cruces: our archive.org copy clips the left margin inside this work (confirmed pp. 598, 604, 620).",
+      "reads": [
+        {
+          "from": "1183A",
+          "to": "1184D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 597,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 markers confirmed. [sic: magnituditudinem] is MIGNE'S: plate prints 'magnitudi-'/'tudinem', the syllable genuinely doubled across the line break (NOT an 8946-class rejoin)."
+        },
+        {
+          "from": "1185A",
+          "to": "1186D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 598,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching; left column settled at Gallica f593",
+          "found": "5/5 confirmed. LEFT COLUMN CLIPPED in our copy; 1185B settled at the Gallica second witness (f593), which also corroborated 1185C and 1185D read through the clipping."
+        },
+        {
+          "from": "1187A",
+          "to": "1188D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 599,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 confirmed. Also confirmed 'Cui Deum honorem constituit' @1187D is Migne's own non-construing text."
+        },
+        {
+          "from": "1189A",
+          "to": "1190D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 600,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "5/5 confirmed. ⛔ NEW: plate prints 'velocem ad LOQUENDEUM' @1190C, a non-word CC had silently repaired. Restored by TEI patch."
+        },
+        {
+          "from": "1191A",
+          "to": "1192D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 601,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "6/6 confirmed, incl. 'Noli AMARE mendacium' @1192B (Vulg. arare). CONTROL: 'ad loquendum' prints correctly @1192C, so 1190C's defect is a one-off."
+        },
+        {
+          "from": "1193A",
+          "to": "1194D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 602,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "2/2 confirmed. Confirms 1193C prints 1 Jn 3:17 differently from 1189B -- the plate contradicts itself."
+        },
+        {
+          "from": "1195A",
+          "to": "1196D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 603,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "1/1 confirmed ('quae patent' for Vulg. 'parent')."
+        },
+        {
+          "from": "1197A",
+          "to": "1198D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 604,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching; left column settled at Gallica f599",
+          "found": "3/3 confirmed. LEFT COLUMN CLIPPED; both left-column sites settled at Gallica f599. [sic: obsentiamus] is MIGNE'S ('obsen-'/'tiamus')."
+        },
+        {
+          "from": "1199A",
+          "to": "1200D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 605,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "4/4 confirmed. ⛔ TWO NEW: plate prints 'DESCRETUR' @1199D and 'INTERROGATIA' @1200C, both non-words CC had repaired. Restored by TEI patch."
+        },
+        {
+          "from": "1201A",
+          "to": "1202D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 606,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 confirmed, incl. the LXX/Old-Latin 'juxta numerum ANGELORUM DEI' @1201B, on which the whole gloss depends. ⛔ NEW: plate prints 'Ante ORATIONM' @1202C. Restored by TEI patch."
+        },
+        {
+          "from": "1203A",
+          "to": "1204D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 607,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 [var:] confirmed, incl. 'vapulabit PAUCIS' @1203D. ⛔⛔ BOTH [sic:] FALSE: plate prints 'misericordia' and 'quia amarum ET noxium'. Withdrawn."
+        },
+        {
+          "from": "1205A",
+          "to": "1206D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 608,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 confirmed. CONTROL: plate prints 'vapulabit MULTIS ... Qui autem nescit, paucis' correctly @1206D -- confirming the self-contradiction with 1203D."
+        },
+        {
+          "from": "1207A",
+          "to": "1208D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 609,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 confirmed. [sic: reconciliatione] is MIGNE'S: the plate really prints 'Amico reconciliatione credas in aeternum', swallowing the negation of Sir 22:27."
+        },
+        {
+          "from": "1209A",
+          "to": "1210D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 610,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "2/2 [var:] confirmed, incl. 'Ego quasi fluvius DORIX' @1210D with its gloss 'unde tertia lingua Graecorum Dorica dicitur'. [sic: erudiunmultos] is MIGNE'S: column ends 'erudiun-' and the next begins 'multos', the t genuinely lost. All 8 Greek words verified on this page."
+        },
+        {
+          "from": "1211A",
+          "to": "1212D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 611,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "2/2 confirmed."
+        },
+        {
+          "from": "1213A",
+          "to": "1214D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 612,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "1/1 confirmed. Also confirms 'avices' @1213C is the plate's own form."
+        },
+        {
+          "from": "1217A",
+          "to": "1218D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 614,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "1/1 confirmed ('Si est tibi fidelis', servus dropped, gloss supplies it)."
+        },
+        {
+          "from": "1219A",
+          "to": "1220D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 615,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 [var:] confirmed, incl. 'EXTOLLE adversarium' @1219A. ⛔⛔ TWO [sic:] FALSE: plate prints 'Possunt' (one t) and hyphenates 'Ad-'/'monitio' = Admonitio (8946 rejoin class). Withdrawn."
+        },
+        {
+          "from": "1221A",
+          "to": "1222D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 616,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "1/1 [var:] confirmed. ⛔⛔ TWO [sic:] FALSE: plate prints 'Confitemini DOMINO' and 'bestiae quoque contra EUM'. Withdrawn."
+        },
+        {
+          "from": "1223A",
+          "to": "1224D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 617,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "3/3 confirmed -- conculcabitur/condulcabitur, revertimini/reveremini, irreverentiam/reverentiam."
+        },
+        {
+          "from": "1225A",
+          "to": "1226D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 618,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "⛔⛔ BOTH [sic:] FALSE: plate prints 'nunc'/'de sanctis patribus' and 'jurejurando'. Withdrawn."
+        },
+        {
+          "from": "1229A",
+          "to": "1230D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 620,
+          "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
+          "found": "2/2 [var:] confirmed. ⛔ [sic: JesusChristus] FALSE: plate prints 'Jesus Christus', two words. Withdrawn."
+        }
+      ]
     },
-    {
-     "from": "1187A",
-     "to": "1188D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 599,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 confirmed. Also confirmed 'Cui Deum honorem constituit' @1187D is Migne's own non-construing text."
+    "8948": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0739D",
+          "to": "0739D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 375,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "convivum → CONFIRMED"
+        }
+      ]
     },
-    {
-     "from": "1189A",
-     "to": "1190D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 600,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "5/5 confirmed. ⛔ NEW: plate prints 'velocem ad LOQUENDEUM' @1190C, a non-word CC had silently repaired. Restored by TEI patch."
+    "8954": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0603D",
+          "to": "0603D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 307,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "vides → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1191A",
-     "to": "1192D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 601,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "6/6 confirmed, incl. 'Noli AMARE mendacium' @1192B (Vulg. arare). CONTROL: 'ad loquendum' prints correctly @1192C, so 1190C's defect is a one-off."
+    "8955": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0629D",
+          "to": "0629D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 320,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "ulit → PRIOR"
+        }
+      ]
     },
-    {
-     "from": "1193A",
-     "to": "1194D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 602,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "2/2 confirmed. Confirms 1193C prints 1 Jn 3:17 differently from 1189B -- the plate contradicts itself."
+    "8959": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0522B",
+          "to": "0522B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 266,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "seniorunt → FALSE"
+        },
+        {
+          "from": "0525C",
+          "to": "0525C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 268,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "periculam → FALSE"
+        },
+        {
+          "from": "0530A",
+          "to": "0530A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 270,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "In icat → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1195A",
-     "to": "1196D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 603,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "1/1 confirmed ('quae patent' for Vulg. 'parent')."
+    "8960": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0731D",
+          "to": "0731D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 371,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "subju averit → FALSE"
+        },
+        {
+          "from": "0733B",
+          "to": "0733B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 372,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "milis → FALSE"
+        },
+        {
+          "from": "0733C",
+          "to": "0733C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 372,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "mise unt → FALSE"
+        },
+        {
+          "from": "0733D",
+          "to": "0733D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 372,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "solli itudo → FALSE; fallaci → FALSE"
+        },
+        {
+          "from": "0734A",
+          "to": "0734A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 372,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "qui ibet → FALSE"
+        },
+        {
+          "from": "0734B",
+          "to": "0734B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 372,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "corre ti → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1197A",
-     "to": "1198D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 604,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching; left column settled at Gallica f599",
-     "found": "3/3 confirmed. LEFT COLUMN CLIPPED; both left-column sites settled at Gallica f599. [sic: obsentiamus] is MIGNE'S ('obsen-'/'tiamus')."
+    "8962": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0721D",
+          "to": "0721D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 366,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "peregrim → FALSE; Christ → CONFIRMED"
+        }
+      ]
     },
-    {
-     "from": "1199A",
-     "to": "1200D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 605,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "4/4 confirmed. ⛔ TWO NEW: plate prints 'DESCRETUR' @1199D and 'INTERROGATIA' @1200C, both non-words CC had repaired. Restored by TEI patch."
+    "8968": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0535B",
+          "to": "0535B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 273,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "sul → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1201A",
-     "to": "1202D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 606,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 confirmed, incl. the LXX/Old-Latin 'juxta numerum ANGELORUM DEI' @1201B, on which the whole gloss depends. ⛔ NEW: plate prints 'Ante ORATIONM' @1202C. Restored by TEI patch."
+    "8969": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "1167C",
+          "to": "1167C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 589,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "cipere → FALSE"
+        },
+        {
+          "from": "1174C",
+          "to": "1174C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 592,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "pro fugi → FALSE"
+        },
+        {
+          "from": "1175A",
+          "to": "1175A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 593,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "repulatae → FALSE; aspectusolis → FALSE"
+        },
+        {
+          "from": "1176D",
+          "to": "1176D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 593,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "nolum → FALSE"
+        },
+        {
+          "from": "1178B",
+          "to": "1178B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "retrabunt → FALSE"
+        },
+        {
+          "from": "1181C",
+          "to": "1181C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 596,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "unicunque → FALSE; vertitatis → FALSE"
+        },
+        {
+          "from": "1182B",
+          "to": "1182B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 596,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "Santis → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1203A",
-     "to": "1204D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 607,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 [var:] confirmed, incl. 'vapulabit PAUCIS' @1203D. ⛔⛔ BOTH [sic:] FALSE: plate prints 'misericordia' and 'quia amarum ET noxium'. Withdrawn."
+    "8970": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0727A",
+          "to": "0727A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 369,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "spiritualer → FALSE"
+        },
+        {
+          "from": "0727B",
+          "to": "0727B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 369,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "incantus → FALSE"
+        },
+        {
+          "from": "0728C",
+          "to": "0728C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 369,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "di bolum → FALSE"
+        },
+        {
+          "from": "0729A",
+          "to": "0729A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 370,
+          "source": "on-disk PL 113 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.266 prints 521/522).",
+          "found": "astutius → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1205A",
-     "to": "1206D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 608,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 confirmed. CONTROL: plate prints 'vapulabit MULTIS ... Qui autem nescit, paucis' correctly @1206D -- confirming the self-contradiction with 1203D."
+    "8976": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0435B",
+          "to": "0435B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 223,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "Chistus → CONFIRMED"
+        }
+      ]
     },
-    {
-     "from": "1207A",
-     "to": "1208D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 609,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 confirmed. [sic: reconciliatione] is MIGNE'S: the plate really prints 'Amico reconciliatione credas in aeternum', swallowing the negation of Sir 22:27."
+    "8977": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0719A",
+          "to": "0720D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 365,
+          "source": "on-disk PL 114 scan, 400 dpi over the line; corner numbers 719/720 read before the crop",
+          "found": "intellexeruut is OURS -- Migne prints intellexerunt. [sic:] withdrawn, TEI patched."
+        },
+        {
+          "from": "0725A",
+          "to": "0726D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 368,
+          "source": "on-disk PL 114 scan, 400 dpi over the line; corner numbers 725/726 read before the crop",
+          "found": "baereticorum is OURS -- Migne prints haereticorum (ae ligature, hyphenated). [sic:] withdrawn, TEI patched."
+        },
+        {
+          "from": "0729A",
+          "to": "0730D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 370,
+          "source": "on-disk PL 114 scan, full page width; spot check at chunking, coverage.json",
+          "found": "no foot-of-page apparatus of either layer"
+        },
+        {
+          "from": "0733A",
+          "to": "0734D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 372,
+          "source": "on-disk PL 114 scan; corner numbers read before the crop",
+          "found": "in-fructuosos: Migne prints infructuosos hyphenated; CC failed to rejoin. [cj:] dissolved, TEI patched."
+        },
+        {
+          "from": "0743A",
+          "to": "0744D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 377,
+          "source": "on-disk PL 114 scan, 150 dpi full page; corner numbers read before the crop",
+          "found": "TWO identical-looking candidates, opposite verdicts: 0743C lignis is OURS (Migne: ignis), 0744C vide is MIGNE'S. One [var:] withdrawn, one confirmed."
+        },
+        {
+          "from": "0751A",
+          "to": "0752D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 381,
+          "source": "on-disk PL 114 scan, full page width; CALIBRATION PAGE, corners read 751/752",
+          "found": "the Apocalypse ends and 9003 begins mid-page; no foot-of-page apparatus"
+        }
+      ]
     },
-    {
-     "from": "1209A",
-     "to": "1210D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 610,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "2/2 [var:] confirmed, incl. 'Ego quasi fluvius DORIX' @1210D with its gloss 'unde tertia lingua Graecorum Dorica dicitur'. [sic: erudiunmultos] is MIGNE'S: column ends 'erudiun-' and the next begins 'multos', the t genuinely lost. All 8 Greek words verified on this page."
+    "8979": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0696D",
+          "to": "0696D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 353,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "hae eticorum → CONFIRMED"
+        }
+      ]
     },
-    {
-     "from": "1211A",
-     "to": "1212D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 611,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "2/2 confirmed."
+    "8980": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0680D",
+          "to": "0680D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 345,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "prophelae → FALSE"
+        },
+        {
+          "from": "0684B",
+          "to": "0684B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 347,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "inducamim → FALSE"
+        },
+        {
+          "from": "0687A",
+          "to": "0687A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 349,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "evangelixatum → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1213A",
-     "to": "1214D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 612,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "1/1 confirmed. Also confirms 'avices' @1213C is the plate's own form."
+    "8982": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0618B",
+          "to": "0618B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 314,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "de iderabitis → FALSE"
+        },
+        {
+          "from": "0619A",
+          "to": "0619A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 315,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "dici → FALSE"
+        },
+        {
+          "from": "0619D",
+          "to": "0619D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 315,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "satutari → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1217A",
-     "to": "1218D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 614,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "1/1 confirmed ('Si est tibi fidelis', servus dropped, gloss supplies it)."
+    "8983": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0625A",
+          "to": "0625A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 318,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "serupulus → FALSE"
+        },
+        {
+          "from": "0630C",
+          "to": "0630C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 320,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "nesolius → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1219A",
-     "to": "1220D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 615,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 [var:] confirmed, incl. 'EXTOLLE adversarium' @1219A. ⛔⛔ TWO [sic:] FALSE: plate prints 'Possunt' (one t) and hyphenates 'Ad-'/'monitio' = Admonitio (8946 rejoin class). Withdrawn."
+    "8985": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0690B",
+          "to": "0690B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 350,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "monebu → FALSE"
+        },
+        {
+          "from": "0691D",
+          "to": "0691D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 351,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "Or ginali → FALSE; virae → FALSE"
+        },
+        {
+          "from": "0693B",
+          "to": "0693B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 352,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "futurem → FALSE"
+        },
+        {
+          "from": "0694A",
+          "to": "0694A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 352,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "Quantor → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1221A",
-     "to": "1222D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 616,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "1/1 [var:] confirmed. ⛔⛔ TWO [sic:] FALSE: plate prints 'Confitemini DOMINO' and 'bestiae quoque contra EUM'. Withdrawn."
+    "8987": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0624B",
+          "to": "0624B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 317,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "velint → CONFIRMED; sed non ut → CONFIRMED"
+        }
+      ]
     },
-    {
-     "from": "1223A",
-     "to": "1224D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 617,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "3/3 confirmed -- conculcabitur/condulcabitur, revertimini/reveremini, irreverentiam/reverentiam."
+    "8988": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0635D",
+          "to": "0635D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 323,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "nutiles → REVISED"
+        }
+      ]
     },
-    {
-     "from": "1225A",
-     "to": "1226D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 618,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "⛔⛔ BOTH [sic:] FALSE: plate prints 'nunc'/'de sanctis patribus' and 'jurejurando'. Withdrawn."
+    "8990": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0614C",
+          "to": "0614C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 312,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "me morat → FALSE"
+        }
+      ]
     },
-    {
-     "from": "1229A",
-     "to": "1230D",
-     "depth": "read",
-     "date": "2026-08-29",
-     "page": 620,
-     "source": "on-disk PL 113 scan at 300 dpi full page width, corner numbers read BEFORE the text on every page; every site re-verified at 600 dpi before patching",
-     "found": "2/2 [var:] confirmed. ⛔ [sic: JesusChristus] FALSE: plate prints 'Jesus Christus', two words. Withdrawn."
+    "8991": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0590D",
+          "to": "0590D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 300,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "ab ipse → FALSE"
+        },
+        {
+          "from": "0595B",
+          "to": "0595B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 303,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "mancida → FALSE"
+        },
+        {
+          "from": "0598D",
+          "to": "0598D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 305,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "cas → FALSE"
+        },
+        {
+          "from": "0599C",
+          "to": "0599C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 305,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "nomo → CONFIRMED"
+        }
+      ]
+    },
+    "8992": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0573D",
+          "to": "0573D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 292,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "ingentes → CONFIRMED"
+        },
+        {
+          "from": "0574A",
+          "to": "0574A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 292,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "leges → CONFIRMED"
+        },
+        {
+          "from": "0584A",
+          "to": "0584A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 297,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "digit → FALSE"
+        },
+        {
+          "from": "0584C",
+          "to": "0584C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 297,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "car nali → FALSE"
+        }
+      ]
+    },
+    "8995": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0606D",
+          "to": "0606D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 308,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "circumcicis → CONFIRMED"
+        }
+      ]
+    },
+    "8998": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0676A",
+          "to": "0676A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 343,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "sapientiem → CONFIRMED"
+        },
+        {
+          "from": "0678C",
+          "to": "0678C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 344,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "genennae → FALSE"
+        },
+        {
+          "from": "0679A",
+          "to": "0679A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 345,
+          "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
+          "found": "longaminiter → CONFIRMED"
+        }
+      ]
+    },
+    "9003": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0751A",
+          "to": "0796D",
+          "depth": "full",
+          "date": "2026-08-28",
+          "pages": "381-402",
+          "source": "on-disk PL 114 scan; every page calibrated against the printed corner numbers; five independent agent reads plus the session lead's own 400 dpi verification of col 753",
+          "found": "ALL 22 PAGES COLLATED. 63 TEI patches, ~3 divergence sites per page, running BOTH directions (CC corruptions repaired; CC normalizations toward the Clementine reverted). Five false public claims against Migne prevented; eight real Vulgate divergences of Migne's own recovered."
+        }
+      ]
+    },
+    "11613": {
+      "series": "pl",
+      "volume": 202,
+      "scan": "raw/scans/pl202/patrologiaecurs139unkngoog.pdf",
+      "page_map": "PDF page = 600 + (column - 1187) / 2",
+      "reads": [
+        {
+          "from": "1147A",
+          "to": "1147A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 580,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "Reverendissim → CONFIRMED"
+        },
+        {
+          "from": "1150A",
+          "to": "1150A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 581,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "implieetur → CONFIRMED"
+        },
+        {
+          "from": "1156B",
+          "to": "1156B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 584,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "eximiii → FALSE"
+        },
+        {
+          "from": "1161A",
+          "to": "1161A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 587,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "quitenebantur → FALSE"
+        },
+        {
+          "from": "1162A",
+          "to": "1162A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 587,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "proculdio → CONFIRMED"
+        },
+        {
+          "from": "1169D",
+          "to": "1169D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 591,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "carnem → CONFIRMED"
+        },
+        {
+          "from": "1172D",
+          "to": "1172D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 592,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "praecontis → CONFIRMED"
+        },
+        {
+          "from": "1176A",
+          "to": "1176A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "soquentes → FALSE"
+        },
+        {
+          "from": "1176B",
+          "to": "1176B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "invensionibus → CONFIRMED"
+        },
+        {
+          "from": "1176D",
+          "to": "1176D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "saliari → FALSE"
+        },
+        {
+          "from": "1179D",
+          "to": "1179D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 596,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "saptiam → FALSE"
+        },
+        {
+          "from": "1187C",
+          "to": "1187C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 600,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "justistitiae → CONFIRMED"
+        },
+        {
+          "from": "1192A",
+          "to": "1192A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 602,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "suum → CONFIRMED"
+        },
+        {
+          "from": "1195C",
+          "to": "1195C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 604,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "eonsilium → CONFIRMED"
+        },
+        {
+          "from": "1208D",
+          "to": "1208D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 610,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "animi → FALSE"
+        },
+        {
+          "from": "1225A",
+          "to": "1225A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 619,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "moi → CONFIRMED"
+        },
+        {
+          "from": "1243D",
+          "to": "1243D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 628,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "perfecto → CONFIRMED"
+        },
+        {
+          "from": "1285B",
+          "to": "1285B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 649,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "progeditur → CONFIRMED"
+        },
+        {
+          "from": "1300B",
+          "to": "1300B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 656,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "marytrum → FALSE"
+        }
+      ]
     }
-   ]
-  },
-  "8977": {
-   "series": "pl",
-   "volume": 114,
-   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-   "page_map": "PDF page = (column + 11) / 2",
-   "reads": [
-    {
-     "from": "0719A",
-     "to": "0720D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 365,
-     "source": "on-disk PL 114 scan, 400 dpi over the line; corner numbers 719/720 read before the crop",
-     "found": "intellexeruut is OURS -- Migne prints intellexerunt. [sic:] withdrawn, TEI patched."
-    },
-    {
-     "from": "0725A",
-     "to": "0726D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 368,
-     "source": "on-disk PL 114 scan, 400 dpi over the line; corner numbers 725/726 read before the crop",
-     "found": "baereticorum is OURS -- Migne prints haereticorum (ae ligature, hyphenated). [sic:] withdrawn, TEI patched."
-    },
-    {
-     "from": "0729A",
-     "to": "0730D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 370,
-     "source": "on-disk PL 114 scan, full page width; spot check at chunking, coverage.json",
-     "found": "no foot-of-page apparatus of either layer"
-    },
-    {
-     "from": "0733A",
-     "to": "0734D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 372,
-     "source": "on-disk PL 114 scan; corner numbers read before the crop",
-     "found": "in-fructuosos: Migne prints infructuosos hyphenated; CC failed to rejoin. [cj:] dissolved, TEI patched."
-    },
-    {
-     "from": "0743A",
-     "to": "0744D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 377,
-     "source": "on-disk PL 114 scan, 150 dpi full page; corner numbers read before the crop",
-     "found": "TWO identical-looking candidates, opposite verdicts: 0743C lignis is OURS (Migne: ignis), 0744C vide is MIGNE'S. One [var:] withdrawn, one confirmed."
-    },
-    {
-     "from": "0751A",
-     "to": "0752D",
-     "depth": "read",
-     "date": "2026-08-28",
-     "page": 381,
-     "source": "on-disk PL 114 scan, full page width; CALIBRATION PAGE, corners read 751/752",
-     "found": "the Apocalypse ends and 9003 begins mid-page; no foot-of-page apparatus"
-    }
-   ]
-  },
-  "9003": {
-   "series": "pl",
-   "volume": 114,
-   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-   "page_map": "PDF page = (column + 11) / 2",
-   "reads": [
-    {
-     "from": "0751A",
-     "to": "0796D",
-     "depth": "full",
-     "date": "2026-08-28",
-     "pages": "381-402",
-     "source": "on-disk PL 114 scan; every page calibrated against the printed corner numbers; five independent agent reads plus the session lead's own 400 dpi verification of col 753",
-     "found": "ALL 22 PAGES COLLATED. 63 TEI patches, ~3 divergence sites per page, running BOTH directions (CC corruptions repaired; CC normalizations toward the Clementine reverted). Five false public claims against Migne prevented; eight real Vulgate divergences of Migne's own recovered."
-    }
-   ]
   }
- }
 }

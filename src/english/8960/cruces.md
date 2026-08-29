@@ -883,3 +883,28 @@ containment checks; they cannot see a right word in a wrong scope, a right conje
 lemma, or a right vocabulary in a wrong parse. **A fourth test belongs beside them, and it has no
 mechanical form: read each finished paragraph back against the Latin asking only "does this assert
 what he asserts", with the counts already known to be clean.**
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 0731D | *subju averit* | **subjugaverit** |
+| 0733B | *milis* | **(delete)** |
+| 0733C | *mise unt* | **miserunt** |
+| 0733D | *solli itudo* | **sollicitudo** |
+| 0733D | *fallaci* | **fallacia** |
+| 0734A | *qui ibet* | **quilibet** |
+| 0734B | *corre ti* | **correcti** |
+
+The Latin is corrected in `data/tei-patches/8960.json` and each marker is removed from the English.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

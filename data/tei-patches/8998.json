@@ -1,0 +1,15 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, with the volume's page map re-calibrated against the printed corner numbers before the read. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
+  "class": "Marker withdrawals. Each patch below restores what MIGNE PRINTS at a site where our English was carrying a [sic:] blaming him for Corpus Corporum's error. ⭐ The sweep's finding is that the rate is NOT uniform across works — PL 113 came back 93% false, PL 202's 11613 only 37% — so a marker's prior depends on which book it is in.",
+  "patches": [
+    {
+      "col": "0678C",
+      "find": "s visibilis genennae ignis cruci",
+      "replace": "s visibilis gehennae ignis cruci",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *gehennae*. PL 114 p. 344, col. 0678C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *genennae* is the digitization's error, and the English carried a [sic: *genennae*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. h/n misread"
+    }
+  ],
+  "unread": [],
+  "refuted": []
+}

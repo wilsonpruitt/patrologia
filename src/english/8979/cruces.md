@@ -595,3 +595,20 @@ its host individually.
 sentence asserting nothing, which is the **dropped-line signature** found in 8962 today. It checked the
 Latin on disk, found it equally verbless, and **flagged the site without proposing words**. Correct on
 both counts.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 114 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Confirmed — Migne's own defect; the marker stands
+
+| col | the plate prints |
+|---|---|
+| 0696D | **hae eticorum** — ⭐ The GAP IS MIGNE'S here -- space intrusion is not always CC's. |
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

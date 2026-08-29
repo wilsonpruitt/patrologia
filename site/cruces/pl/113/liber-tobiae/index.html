@@ -188,6 +188,14 @@ text. <a href="/method/">How the English is produced and checked →</a></p>
 <p>⚠ <strong>On the semicolon removals specifically</strong> — the corpus-wide ruling declining this class elsewhere in this batch holds that it is <em>a rate question, not an absence</em>, because Migne uses semicolons freely. <strong>That ruling does not reach this book: he prints ZERO in chunk 0 and ONE in chunk 1.</strong> Against that, four in my chunk 0 was an absence. The exception is narrow, rests on his own practice in this book, and <strong>should not be generalized to 8948 or Judith without counting their plates first.</strong></p>
 <h3>7.4 Post-repair state</h3>
 <p><code>verify-english.mjs</code> clean. Per-band parity: columns 12/10/6, notes 29/19/9, guillemets 37+34 / 26+25 / 13+13, question marks 0/0/0, prose colons 19/14/3, prose semicolons 0/1/5 — <strong>every one matching the Latin twin, and matching band by band, not merely in total.</strong></p>
+<hr>
+<h2>⛔ PLATE SWEEP, 2026-08-29 — every <code>[sic:]</code> in this work read at Migne's plate</h2>
+<p>This work's <code>[sic:]</code> markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers <strong>before</strong> the read.</p>
+<p><strong>A <code>[sic:]</code> asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.</strong> Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.</p>
+<h3>Withdrawn — Corpus Corporum's error, not Migne's</h3>
+<div class="tablewrap"><table><tr><th>col</th><th>we printed</th><th>THE PLATE PRINTS</th></tr><tr><td>0727A</td><td><em>spiritualer</em></td><td><strong>spiritualiter</strong></td></tr><tr><td>0727B</td><td><em>incantus</em></td><td><strong>incautus</strong></td></tr><tr><td>0728C</td><td><em>di bolum</em></td><td><strong>diabolum</strong></td></tr><tr><td>0729A</td><td><em>astutius</em></td><td><strong>astutias</strong></td></tr></table></div>
+<p>The Latin is corrected in <code>data/tei-patches/8970.json</code> and each marker is removed from the English.</p>
+<p>Full ledger for all 23 works swept: <code>data/plate-sweep/2026-08-29-sic-sweep.tsv</code>.</p>
   </article>
 </main>
 <footer class="colophon">

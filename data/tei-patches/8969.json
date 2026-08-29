@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, confirmed 2026-08-23 against the printed corner numbers (p. 589 heads 1167 left / 1168 right). Read at 1200 dpi on a tight crop of the line; the orchestrator confirmed it by eye before the patch was written.",
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, confirmed 2026-08-23 against the printed corner numbers (p. 589 heads 1167 left / 1168 right). Read at 1200 dpi on a tight crop of the line; the orchestrator confirmed it by eye before the patch was written. || [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, the volume map re-calibrated against the printed corner numbers first. The patches added below are the disproofs made durable. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
   "class": "ONE normalization — a word the digitization SUPPLIED to complete a phrase Migne prints defectively. Found while reading the plate for a different word on the same page, and invisible from the Latin alone by construction, because a completed phrase reads perfectly.",
   "patches": [
     {
@@ -7,6 +7,69 @@
       "find": "id est Verbi Dei, id est ejusdem",
       "replace": "id Verbi Dei, id est ejusdem",
       "why": "the plate prints a bare 'id Verbi Dei' — no 'est' — and the contrast is on the same line, twice: 'id est ejusdem est scientiae cum Verbo' follows immediately with both forms spelled out. Read at 1200 dpi to be sure. Corpus Corporum supplied the copula, completing an elliptical phrase Migne left short. Same class as 8992's aemulatores leges→legis found this session and as 8948 convivum / 8990 concilio: the digitization does not only corrupt, it silently CORRECTS, and the corrected form reads perfectly, so nothing downstream can see it. ⚑ Also observed on the same line and deliberately NOT patched: the plate prints 'Verbo. Vel.' with a full stop where our transcription has 'Vel,'. A comma-for-period in the source transcription is a punctuation question across the whole corpus, not a single-site claim, and sweeping it is out of scope (Wilson's standing rule: ship new works, do not gold-plate). Recorded here so the observation is not lost."
+    },
+    {
+      "col": "1175A",
+      "find": "um\nstaterae repulatae sunt <note>",
+      "replace": "um\nstaterae reputatae sunt <note>",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *reputatae*. PL 113 p. 593, col. 1175A — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *repulatae* is the digitization's error, and the English carried a [sic: *repulatae*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. t misread as l"
+    },
+    {
+      "col": "1175A",
+      "find": " quae\nprimo aspectusolis siccatur. V",
+      "replace": " quae\nprimo aspectu solis siccatur. V",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *aspectu solis*. PL 113 p. 593, col. 1175A — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *aspectusolis* is the digitization's error, and the English carried a [sic: *aspectusolis*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate prints two words; CC ran them together"
+    },
+    {
+      "col": "1176D",
+      "find": "; quia\nquod nolum est Dei, ma",
+      "replace": "; quia\nquod notum est Dei, ma",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *notum*. PL 113 p. 593, col. 1176D — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *nolum* is the digitization's error, and the English carried a [sic: *nolum*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. Rom. 1:19 quod notum est Dei; third t/l misread in this work"
+    },
+    {
+      "col": "1178B",
+      "find": "tos ab ipso\nretrabunt, et in erro",
+      "replace": "tos ab ipso\nretrahunt, et in erro",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *retrahunt*. PL 113 p. 594, col. 1178B — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *retrabunt* is the digitization's error, and the English carried a [sic: *retrabunt*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. h misread as b"
+    },
+    {
+      "col": "1181C",
+      "find": "uminare, et unicunque jacebant, n",
+      "replace": "uminare, et ubicunque jacebant, n",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *ubicunque*. PL 113 p. 596, col. 1181C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *unicunque* is the digitization's error, and the English carried a [sic: *unicunque*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. b misread as n"
+    },
+    {
+      "col": "1181C",
+      "find": "ue fidei et vertitatis, circumdant",
+      "replace": "ue fidei et veritatis, circumdant",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *veritatis*. PL 113 p. 596, col. 1181C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *vertitatis* is the digitization's error, and the English carried a [sic: *vertitatis*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn."
+    },
+    {
+      "col": "1182B",
+      "find": "S. 1.-- <hi>Santis autem tuis.",
+      "replace": "S. 1.-- <hi>Sanctis autem tuis.",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *Sanctis*. PL 113 p. 596, col. 1182B — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *Santis* is the digitization's error, and the English carried a [sic: *Santis*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn."
+    },
+    {
+      "col": "1167C",
+      "find": "possunt\ncipere.",
+      "replace": "possunt\npercipere.",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *percipere*. PL 113 p. 589, col. 1167C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *cipere* is the digitization's error, and the English carried a [sic: *cipere*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate hyphenates possunt per-/cipere; CC dropped the FIRST half (cf. 8960 milis, which kept both)"
+    },
+    {
+      "col": "1174C",
+      "find": "vagi, et pro\nfugi variis",
+      "replace": "vagi, et\nprofugi variis",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *profugi*. PL 113 p. 592, col. 1174C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *pro fugi* is the digitization's error, and the English carried a [sic: *pro fugi*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate hyphenates et pro-/fugi; space left where the hyphen was"
     }
   ],
   "confirmed_migne_no_patch": [

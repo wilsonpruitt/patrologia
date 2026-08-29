@@ -671,3 +671,18 @@ Migne's until a plate says otherwise**, and here there is nothing for a plate to
 0614B *deservit* · 0630A *inani* · 0616B *juxta* · 0626A *princeps Sodomorum* · 0620C the Dead
 Sea's reversed breadth and length · 0621B the mid-sentence full stop. All reproduced as printed,
 all confirmed correct by the blind reader.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### PRIOR — 0629D *ulit*
+
+Migne's failed sort; settled earlier via second witness (our copy clips p.320 left margin). Control: Tulit quoque prints cleanly 2 lines above. Read existed in cruces but was never registered.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

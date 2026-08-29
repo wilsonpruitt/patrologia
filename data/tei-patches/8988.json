@@ -1,0 +1,15 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, with the volume's page map re-calibrated against the printed corner numbers before the read. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
+  "class": "Marker withdrawals. Each patch below restores what MIGNE PRINTS at a site where our English was carrying a [sic:] blaming him for Corpus Corporum's error. ⭐ The sweep's finding is that the rate is NOT uniform across works — PL 113 came back 93% false, PL 202's 11613 only 37% — so a marker's prior depends on which book it is in.",
+  "patches": [
+    {
+      "col": "0635D",
+      "find": "tandae, sed\nnutiles et sine dis",
+      "replace": "tandae, sed\nmutiles et sine dis",
+      "direction": "corrupted",
+      "why": "⭐ A THIRD OUTCOME — THE DEFECT IS MIGNE'S, THE WORD WAS OURS. The plate prints *mutiles* (PL 114 p. 323, col. 0635D, VERS. 23, read 2026-08-29 from the on-disk scan, corner numbers checked first): 'Non omnes questiones vitandae, sed mutiles et sine disciplina.' *mutiles* is itself defective — Migne has dropped the initial i of *inutiles* — so the [sic:] SHOULD fire here. But Corpus Corporum misread his m as an n, so our English was accusing him of *nutiles*, a form he never set. The Latin is corrected to what the plate prints and THE MARKER STANDS with its quotation fixed to [sic: *mutiles*]. ⚑ This is the case the sweep would have missed if it had only asked 'is the marker true or false': a marker can be right about the page and wrong about the word."
+    }
+  ],
+  "unread": [],
+  "refuted": []
+}

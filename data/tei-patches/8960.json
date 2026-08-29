@@ -1,0 +1,57 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, with the volume's page map re-calibrated against the printed corner numbers before the read. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
+  "class": "Marker withdrawals. Each patch below restores what MIGNE PRINTS at a site where our English was carrying a [sic:] blaming him for Corpus Corporum's error. ⭐ The sweep's finding is that the rate is NOT uniform across works — PL 113 came back 93% false, PL 202's 11613 only 37% — so a marker's prior depends on which book it is in.",
+  "patches": [
+    {
+      "col": "0731D",
+      "find": "suo imperio subju averit.</p>\n</div1",
+      "replace": "suo imperio subjugaverit.</p>\n</div1",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *subjugaverit*. PL 113 p. 371, col. 0731D — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *subju averit* is the digitization's error, and the English carried a [sic: *subju averit*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. space intrusion"
+    },
+    {
+      "col": "0733C",
+      "find": "1.-- « Tunc mise unt, »  etc. Po",
+      "replace": "1.-- « Tunc miserunt, »  etc. Po",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *miserunt*. PL 113 p. 372, col. 0733C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *mise unt* is the digitization's error, and the English carried a [sic: *mise unt*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. space intrusion"
+    },
+    {
+      "col": "0733D",
+      "find": "In his enim solli itudo hujus\nsaecu",
+      "replace": "In his enim sollicitudo hujus\nsaecu",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *sollicitudo*. PL 113 p. 372, col. 0733D — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *solli itudo* is the digitization's error, and the English carried a [sic: *solli itudo*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. space intrusion"
+    },
+    {
+      "col": "0733D",
+      "find": "us\nsaeculi, et fallaci divitiarum suffocat ve",
+      "replace": "us\nsaeculi, et fallacia divitiarum suffocat ve",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *fallacia*. PL 113 p. 372, col. 0733D — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *fallaci* is the digitization's error, and the English carried a [sic: *fallaci*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn."
+    },
+    {
+      "col": "0734A",
+      "find": "aereticorum qui ibet idololatria",
+      "replace": "aereticorum quilibet idololatria",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *quilibet*. PL 113 p. 372, col. 0734A — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *qui ibet* is the digitization's error, and the English carried a [sic: *qui ibet*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. space intrusion"
+    },
+    {
+      "col": "0734B",
+      "find": "uando tamen corre ti salvantur,\n",
+      "replace": "uando tamen correcti salvantur,\n",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *correcti*. PL 113 p. 372, col. 0734B — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *corre ti* is the digitization's error, and the English carried a [sic: *corre ti*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. space intrusion"
+    },
+    {
+      "col": "0733B",
+      "find": "et similis\n<pb n=\"0733B\"/>\nmilis ero",
+      "replace": "et\n<pb n=\"0733B\"/>\nsimilis ero",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *(delete)*. PL 113 p. 372, col. 0733B — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *milis* is the digitization's error, and the English carried a [sic: *milis*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate hyphenates si-/milis ero Altissimo; CC kept BOTH halves. Dittography, not a defect. Stray word deleted."
+    }
+  ],
+  "unread": [],
+  "refuted": []
+}

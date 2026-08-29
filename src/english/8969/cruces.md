@@ -671,3 +671,30 @@ candidate is safe to ship if and only if it fires no marker.** A marker is an as
 Migne's page and may not be made from an unread plate; a literal rendering asserts nothing
 beyond our Latin, which is disclosed and sits in the facing column. These two are **owed, not
 checked**, and this table is the record of the debt.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 1167C | *cipere* | **percipere** |
+| 1174C | *pro fugi* | **profugi** |
+| 1175A | *repulatae* | **reputatae** |
+| 1175A | *aspectusolis* | **aspectu solis** |
+| 1176D | *nolum* | **notum** |
+| 1178B | *retrabunt* | **retrahunt** |
+| 1181C | *unicunque* | **ubicunque** |
+| 1181C | *vertitatis* | **veritatis** |
+| 1182B | *Santis* | **Sanctis** |
+
+The Latin is corrected in `data/tei-patches/8969.json` and each marker is removed from the English.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

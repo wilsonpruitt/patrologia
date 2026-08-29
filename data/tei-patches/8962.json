@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only - Migne's plate is not touched. Verified 2026-08-19 against archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, p. 367 = cols 723/724, both corner numbers legible. Read at 400 dpi from full-resolution crops of whole lines.",
+  "note": "Corpus Corporum's transcription only - Migne's plate is not touched. Verified 2026-08-19 against archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, p. 367 = cols 723/724, both corner numbers legible. Read at 400 dpi from full-resolution crops of whole lines. || [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, the volume map re-calibrated against the printed corner numbers first. The patches added below are the disproofs made durable. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
   "class": "DROPPED LINE - a new and more serious class than any word-level corruption in the register. The transcription performed a clean EYE-SKIP over one entire typeset line of col. 0724D, plus the turnover syllable of the word that straddled the next line break. Not a corrupted word: eight words simply absent, with no marker, no gap and no damage on the plate. THE ONLY DETECTOR WAS THAT THE PASSAGE WOULD NOT CONSTRUE - both the translating agent and the blind reader independently flagged 0724D as the work's one unconstruable sentence, and both correctly declined to conjecture. No count, parity, anchor or band check can see a dropped line, because everything that remains is internally consistent.",
   "patches": [
     {
@@ -13,6 +13,13 @@
       "find": "est, coangustati quaerunt",
       "replace": "est, coangustatis quaerunt",
       "why": "the plate prints the ablative 'coangustatis', read on the same crop. A separate one-letter loss six lines below the dropped line; recorded because it was witnessed, not inferred."
+    },
+    {
+      "col": "0721D",
+      "find": "0721D\"/>\net peregrim sicut patre",
+      "replace": "0721D\"/>\net peregrini sicut patre",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *peregrini*. PL 113 p. 366, col. 0721D — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *peregrim* is the digitization's error, and the English carried a [sic: *peregrim*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. verified 500dpi; final i decisive"
     }
   ]
 }

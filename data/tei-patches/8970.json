@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated against the running head (p. 368 = cols 725/726, head 'GLOSSA ORDINARIA. — LIB. TOBIAE.'). Both readings were confirmed by the orchestrator during the 2026-08-18 Glossa batch, at 450 dpi and again at 900 dpi for the first.",
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs04migngoog (on disk raw/scans/pl113/), PDF page = (column + 11) / 2, calibrated against the running head (p. 368 = cols 725/726, head 'GLOSSA ORDINARIA. — LIB. TOBIAE.'). Both readings were confirmed by the orchestrator during the 2026-08-18 Glossa batch, at 450 dpi and again at 900 dpi for the first. || [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, the volume map re-calibrated against the printed corner numbers first. The patches added below are the disproofs made durable. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
   "patches": [
     {
       "col": "0725C",
@@ -12,6 +12,34 @@
       "find": "<head>CAPUT XIV</head>",
       "replace": "<head>CAPUT XIV.</head>",
       "why": "digitization defect, not Migne's plate: the plate prints 'CAPUT XIV.' with the closing period (p. 371, read at 450 dpi), as every other CAPUT head in the book does. The TEI dropped it. Same class as 8968's missing space after 'VERS.'"
+    },
+    {
+      "col": "0727A",
+      "find": "mittit. Ita spiritualer fatigatus d",
+      "replace": "mittit. Ita spiritualiter fatigatus d",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *spiritualiter*. PL 113 p. 369, col. 0727A — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *spiritualer* is the digitization's error, and the English carried a [sic: *spiritualer*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn."
+    },
+    {
+      "col": "0727B",
+      "find": "uperbiae se\nincantus subjicit. H",
+      "replace": "uperbiae se\nincautus subjicit. H",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *incautus*. PL 113 p. 369, col. 0727B — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *incantus* is the digitization's error, and the English carried a [sic: *incantus*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. u/n misread"
+    },
+    {
+      "col": "0728C",
+      "find": "it Christus di bolum qui eum cap",
+      "replace": "it Christus diabolum qui eum cap",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *diabolum*. PL 113 p. 369, col. 0728C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *di bolum* is the digitization's error, and the English carried a [sic: *di bolum*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. space intrusion"
+    },
+    {
+      "col": "0729A",
+      "find": "m ignoramus astutius ejus <note>(II C",
+      "replace": "m ignoramus astutias ejus <note>(II C",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *astutias*. PL 113 p. 370, col. 0729A — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *astutius* is the digitization's error, and the English carried a [sic: *astutius*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn."
     }
   ]
 }

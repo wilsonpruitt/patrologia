@@ -436,3 +436,24 @@ continuations, **none conformed to a Clementine wording**.
 
 ⚑ Plate: cols 521/522, 525/526 (and now the 400 dpi re-read of 268) carry **no foot-of-page apparatus** —
 no numbered *Forte* note, no asterisk-keyed EDIT. note. `coverage: "spot"`.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 0522B | *seniorunt* | **seniorum** |
+| 0525C | *periculam* | **periculum** |
+| 0530A | *In icat* | **Indicat** |
+
+The Latin is corrected in `data/tei-patches/8959.json` and each marker is removed from the English.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

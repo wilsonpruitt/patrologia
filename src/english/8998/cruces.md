@@ -462,3 +462,29 @@ an inconsistency that is not there.
 ⬜ Unchanged: `data/plate-notes/coverage.json` must record 8998 as **unchecked**, not zero — no PL 114
 page for cols 0671–0680 has ever been read, so the absence of `[cn:]` means only that Migne's
 foot-of-page apparatus is unrecovered here.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 114 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 0678C | *genennae* | **gehennae** |
+
+The Latin is corrected in `data/tei-patches/8998.json` and each marker is removed from the English.
+
+### Confirmed — Migne's own defect; the marker stands
+
+| col | the plate prints |
+|---|---|
+| 0676A | **sapientiem** — for sapientem |
+| 0679A | **longaminiter** — for longanimiter |
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

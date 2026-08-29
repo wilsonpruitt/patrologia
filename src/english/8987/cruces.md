@@ -562,3 +562,21 @@ Not "are all the negatives present," which was the test I ran and reported passi
 ⭐ And the second lesson: **the failure was in the gloss prose, not in the lemmata.** The
 launch instructions named the lemmata, I checked all fifty-seven, and all fifty-seven were
 right. The three defects were in the sentences between them, where nothing had been named.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 114 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Confirmed — Migne's own defect; the marker stands
+
+| col | the plate prints |
+|---|---|
+| 0624B | **velint** — plate prints what we print |
+| 0624B | **sed non ut** — plate prints what we print |
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

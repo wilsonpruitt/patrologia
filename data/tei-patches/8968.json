@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate at 300 dpi: archive.org patrologiaecurs04migngoog, PDF p. 272 (cols 533/534, running head GLOSSA ORDINARIA. — LIB. RUTH.), first line of the right-hand column. The plate prints 'quos significat Ruth.' across a line break; the TEI has joined the lines and lost the 't' with the space.",
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate at 300 dpi: archive.org patrologiaecurs04migngoog, PDF p. 272 (cols 533/534, running head GLOSSA ORDINARIA. — LIB. RUTH.), first line of the right-hand column. The plate prints 'quos significat Ruth.' across a line break; the TEI has joined the lines and lost the 't' with the space. || [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, the volume map re-calibrated against the printed corner numbers first. The patches added below are the disproofs made durable. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
   "patches": [
     {
       "col": "0534A",
@@ -12,6 +12,13 @@
       "find": "<p>VERS.9.-- ",
       "replace": "<p>VERS. 9.-- ",
       "why": "missing space after VERS. — the plate sets it as every other verse mark in the work (p. 274, col. 537D); a spacing artifact of the digitization, and without this the Latin side of the page shows 'VERS.9' as though it were ours"
+    },
+    {
+      "col": "0535B",
+      "find": "s ut intres sul tectum\nmeum, sed t",
+      "replace": "s ut intres sub tectum\nmeum, sed t",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *sub*. PL 113 p. 273, col. 0535B — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *sul* is the digitization's error, and the English carried a [sic: *sul*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. ut intres sub tectum meum"
     }
   ]
 }

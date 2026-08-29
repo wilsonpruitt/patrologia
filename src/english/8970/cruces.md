@@ -704,3 +704,25 @@ counting their plates first.**
 `verify-english.mjs` clean. Per-band parity: columns 12/10/6, notes 29/19/9, guillemets
 37+34 / 26+25 / 13+13, question marks 0/0/0, prose colons 19/14/3, prose semicolons 0/1/5 —
 **every one matching the Latin twin, and matching band by band, not merely in total.**
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 0727A | *spiritualer* | **spiritualiter** |
+| 0727B | *incantus* | **incautus** |
+| 0728C | *di bolum* | **diabolum** |
+| 0729A | *astutius* | **astutias** |
+
+The Latin is corrected in `data/tei-patches/8970.json` and each marker is removed from the English.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

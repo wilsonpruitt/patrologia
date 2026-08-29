@@ -1410,3 +1410,22 @@ marker and `verify-english` checks it against the Latin twin.
 ⬜ **What is NOT claimed:** that Migne erred. He did not — the plate confirms the printed text
 (Gallica f297), and the *usque ad* formula removing words is an abridgment, not a defect. The marker
 names the elision, not a fault.
+
+
+---
+
+## ⛔ PLATE SWEEP, 2026-08-29 — every `[sic:]` in this work read at Migne's plate
+
+This work's `[sic:]` markers stood on columns nobody had read. All were read this session from the on-disk PL 113 scan at 300 dpi (500 dpi where a single letter decided it), full page width, with the volume's page map re-calibrated against the printed corner numbers **before** the read.
+
+**A `[sic:]` asserts a defect in MIGNE'S TYPE, and our Latin is not the printed page — it is Corpus Corporum's transcription of it.** Where the plate disagrees with our file, the fault is ours and the accusation is withdrawn.
+
+### Withdrawn — Corpus Corporum's error, not Migne's
+
+| col | we printed | THE PLATE PRINTS |
+|---|---|---|
+| 0603D | *vides* | **vices** |
+
+The Latin is corrected in `data/tei-patches/8954.json` and each marker is removed from the English.
+
+Full ledger for all 23 works swept: `data/plate-sweep/2026-08-29-sic-sweep.tsv`.

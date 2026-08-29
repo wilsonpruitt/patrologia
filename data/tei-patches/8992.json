@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs06saingoog (on disk raw/scans/pl114/), PDF page = (column + 11) / 2, confirmed 2026-08-23 against the printed corner numbers (p. 292 heads '574', p. 293 heads '575'). Read at 900 dpi on cropped column bands, with one word re-read at 1400 dpi; the orchestrator confirmed every crop by eye before the patch was written.",
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs06saingoog (on disk raw/scans/pl114/), PDF page = (column + 11) / 2, confirmed 2026-08-23 against the printed corner numbers (p. 292 heads '574', p. 293 heads '575'). Read at 900 dpi on cropped column bands, with one word re-read at 1400 dpi; the orchestrator confirmed every crop by eye before the patch was written. || [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, the volume map re-calibrated against the printed corner numbers first. The patches added below are the disproofs made durable. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
   "class": "Three unjoined/misread word-boundary defects plus ONE NORMALIZATION — a form Migne printed defectively that the digitization silently corrected. The normalization is the one nobody asked about: it was found while reading the plate for a different word on the same line, and it is invisible from the Latin alone by construction, because the corrected form reads perfectly.",
   "patches": [
     {
@@ -19,6 +19,20 @@
       "find": "licet in quisbusdam quos hic parit",
       "replace": "licet in quibusdam quos hic parit",
       "why": "the plate prints 'quibusdam' plainly, one word, in an unbroken line — no hyphenation involved, so this one is an ordinary misread and not the line-break class. 278 'quibusdam' in src/latin/ against 2 'quisbusdam'."
+    },
+    {
+      "col": "0584A",
+      "find": "non diligit qui digit\niniquitatem",
+      "replace": "non diligit qui\ndiligit iniquitatem",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *diligit*. PL 114 p. 297, col. 0584A — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *digit* is the digitization's error, and the English carried a [sic: *digit*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate hyphenates qui di-/ligit; rejoin loss"
+    },
+    {
+      "col": "0584C",
+      "find": "cum anima car\nnali concupiscentia",
+      "replace": "cum anima\ncarnali concupiscentia",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *carnali*. PL 114 p. 297, col. 0584C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *car nali* is the digitization's error, and the English carried a [sic: *car nali*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate hyphenates anima car-/nali"
     }
   ],
   "confirmed_migne_no_patch": [

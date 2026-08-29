@@ -1,1248 +1,1248 @@
 {
-  "generated": "2026-08-29",
-  "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
-  "tiers": {
-    "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
-    "3": "Text + our apparatus + MIGNE'S conjecture notes recovered from the plate, sequence verified unbroken."
+ "generated": "2026-08-29",
+ "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
+ "tiers": {
+  "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
+  "3": "Text + our apparatus + MIGNE'S conjecture notes recovered from the plate, sequence verified unbroken."
+ },
+ "coverage_values": {
+  "none": "no plate notes captured",
+  "partial": "some notes captured — typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
+  "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented",
+  "spot": "1-2 pages of THIS work read at the plate and no foot-of-page apparatus found. A sample, not a proof: it licenses shipping the work without [cn:] recovery, and it does NOT license a claim that the work has no notes. Introduced 2026-08-19 when the spot check became part of chunking, because the alternative in practice was inheriting a zero measured in a different book.",
+  "asterisk_layer": "Migne's SECOND foot-of-page layer, keyed by a raised asterisk rather than by a number: editorial cross-references, not textual conjectures. Corpus Corporum carries it no more than it carries the numbered one. Ruled 2026-08-24 (Wilson): recover it into the Latin as [cn: * | …] with the numbered notes at chunking, and give it a TRANSLATED [nt: …] opposite in the English — because unlike 'Forte earum' these notes are sentences that say something, and an English-only reader would otherwise be left with a line he cannot read. A numbered [cn:] stays Latin-only, unchanged."
+ },
+ "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this. | 2026-08-19 (Wilson): the plate spot check is PART OF CHUNKING. Every newly chunked work gets 1 page read at the plate (2 where a work division falls mid-page, since notes sit mid-page there) before it is translated. A checked zero is recorded coverage \"spot\"; notes found are recovered to <idno>.tsv and the work re-chunked so inject-plate-notes places them. Never inherit a sibling book's zero: PL 113 rests on 19 pages across 4 books and PL 114 on 8, and it is the work in hand that ships.",
+ "works": [
+  {
+   "idno": "6912",
+   "series": "pl",
+   "volume": 13,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
   },
-  "coverage_values": {
-    "none": "no plate notes captured",
-    "partial": "some notes captured — typically incidental finds during a targeted plate read. The sequence has NOT been verified, so absence of a note here means nothing.",
-    "full": "the work's whole numbered sequence was read and verified unbroken; any gap is Migne's own and is documented",
-    "spot": "1-2 pages of THIS work read at the plate and no foot-of-page apparatus found. A sample, not a proof: it licenses shipping the work without [cn:] recovery, and it does NOT license a claim that the work has no notes. Introduced 2026-08-19 when the spot check became part of chunking, because the alternative in practice was inheriting a zero measured in a different book.",
-    "asterisk_layer": "Migne's SECOND foot-of-page layer, keyed by a raised asterisk rather than by a number: editorial cross-references, not textual conjectures. Corpus Corporum carries it no more than it carries the numbered one. Ruled 2026-08-24 (Wilson): recover it into the Latin as [cn: * | …] with the numbered notes at chunking, and give it a TRANSLATED [nt: …] opposite in the English — because unlike 'Forte earum' these notes are sentences that say something, and an English-only reader would otherwise be left with a line he cannot read. A numbered [cn:] stays Latin-only, unchanged."
+  {
+   "idno": "6963",
+   "series": "pl",
+   "volume": 15,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
   },
-  "rule": "Do NOT retrofit the completed corpus (Wilson, 2026-08-18) — recover notes for NEW works at chunking time. Shipping new works is the funding lever; retrofits are invisible to a reader. Correctness gates are unaffected by this. | 2026-08-19 (Wilson): the plate spot check is PART OF CHUNKING. Every newly chunked work gets 1 page read at the plate (2 where a work division falls mid-page, since notes sit mid-page there) before it is translated. A checked zero is recorded coverage \"spot\"; notes found are recovered to <idno>.tsv and the work re-chunked so inject-plate-notes places them. Never inherit a sibling book's zero: PL 113 rests on 19 pages across 4 books and PL 114 on 8, and it is the work in hand that ships.",
-  "works": [
-    {
-      "idno": "6912",
-      "series": "pl",
-      "volume": 13,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "6963",
-      "series": "pl",
-      "volume": 15,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7017",
-      "series": "pl",
-      "volume": 17,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7020",
-      "series": "pl",
-      "volume": 18,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7383",
-      "series": "pl",
-      "volume": 40,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7427",
-      "series": "pl",
-      "volume": 42,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7508",
-      "series": "pl",
-      "volume": 47,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7561",
-      "series": "pl",
-      "volume": 50,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7693",
-      "series": "pl",
-      "volume": 59,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7871",
-      "series": "pl",
-      "volume": 67,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "7914",
-      "series": "pl",
-      "volume": 70,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8195",
-      "series": "pl",
-      "volume": 83,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8253",
-      "series": "pl",
-      "volume": 87,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8407",
-      "series": "pl",
-      "volume": 90,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8505",
-      "series": "pl",
-      "volume": 94,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8566",
-      "series": "pl",
-      "volume": 96,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8625",
-      "series": "pl",
-      "volume": 98,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "21413",
-      "series": "pl",
-      "volume": 100,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8708",
-      "series": "pl",
-      "volume": 101,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8715",
-      "series": "pl",
-      "volume": 101,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8777",
-      "series": "pl",
-      "volume": 104,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8930",
-      "series": "pl",
-      "volume": 112,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8933",
-      "series": "pl",
-      "volume": 112,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8946",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "columns": "1115D-1126D",
-      "method": "Plate spot check 2026-08-19, after shipping: p.563 (cols 1115/1116), the Proverbia->Ecclesiastes division, read full width at 300 dpi and mid-page as well as at the foot. Checked zero on conjecture apparatus. The same read SETTLED the work's only [sic:]: the plate prints 'Salomo-'/'nis' across a line break, so 'Salomomonis' is a Corpus Corporum rejoin artifact, not Migne's type -> data/tei-patches/8946.json, marker removed."
-    },
-    {
-      "idno": "8948",
-      "series": "pl",
-      "volume": 113,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0739C-0748C",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 372 = cols 733/734, 'GLOSSA ORDINARIA. - LIB. JUDITH.'). Pages 371-379 read across the two works of this batch. BOTH work divisions fall MID-page and were read there - Tobit/Judith at p. 371 and Judith/Esther at p. 375 - which is the case that lost three notes on PL 202.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. FOURTH sampling of PL 113, so the volume's 'no conjecture apparatus' finding now rests on nineteen pages across four books. NOT apparatus and not to be re-raised: p. 378's foot carries the printer's signature line 'PATROL. CXIII.' and the gathering number '24' - bookbinding, not editorial matter.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8951",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.356 cols 701/702 interior; p.351 cols 691/692 division Paralip. II→I Esdrae. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8952",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.280 col 549/550 interior; p.287 cols 563/564 division I→II Regum (read by the orchestrator at calibration). Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8953",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.291 cols 571/572 interior; p.296 cols 581/582 division II→III Regum. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8954",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.303 cols 595/596 interior; p.296 + p.311 divisions either side. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8955",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.315 cols 619/620 interior; p.311 cols 611/612 division III→IV Regum; p.320 division IV Regum→Paralip. I. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8959",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.266 cols 521/522 division Joshua->Judges (opens at the HEAD of the page); p.268 cols 525/526 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.268 (cols 525/526) re-read at 400 dpi to adjudicate 'dolis' at 0526D. Verdict: the plate prints dolis, mid-line, no hyphenation - MIGNE'S OWN defect, no tei-patch. Foot: still zero."
-    },
-    {
-      "idno": "8960",
-      "series": "pl",
-      "volume": 113,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0731D-0740B",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 372 = cols 733/734, 'GLOSSA ORDINARIA. - LIB. JUDITH.'). Pages 371-379 read across the two works of this batch. BOTH work divisions fall MID-page and were read there - Tobit/Judith at p. 371 and Judith/Esther at p. 375 - which is the case that lost three notes on PL 202.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. FOURTH sampling of PL 113, so the volume's 'no conjecture apparatus' finding now rests on nineteen pages across four books. NOT apparatus and not to be re-raised: p. 378's foot carries the printer's signature line 'PATROL. CXIII.' and the gathering number '24' - bookbinding, not editorial matter.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8962",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.362 cols 713/714 division I Esdrae->Nehemiah (opens at the HEAD); p.365 cols 719/720 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.367 (cols 723/724) read at 400 dpi to adjudicate the unconstruable 0724D. THE PLATE CARRIED MORE TEXT THAN OUR SOURCE: a clean eye-skip over one whole typeset line plus the orphan turnover syllable of 'Piscis au-|tem'. Eight words restored via data/tei-patches/8962.json; a second witnessed one-letter fix (coangustatis, ablative) on the same page. Foot: zero, so the restoration rests on the main-text plate alone. NB col. 721 is still UNREAD and carries this work's two remaining [sic:] - the likeliest survivors of the same class."
-    },
-    {
-      "idno": "8964",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.328 cols 645/646 interior; p.320 cols 629/630 division in; p.337 cols 663/664 division out. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8965",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.344 cols 677/678 interior; p.337 division in; p.351 cols 691/692 division out. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8966",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.554 cols 1097/1098 interior; p.563 cols 1115/1116 division Proverbia→Ecclesiastes. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8968",
-      "series": "pl",
-      "volume": 113,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "method": "All five of the work's plate pages read at 300 dpi (archive.org patrologiaecurs04migngoog, PDF pp. 271-275; page = (column+11)/2, verified against the running head). p. 271 carries the Judges/Ruth division MID-page and was read there; p. 272 was read in full; 273-275 as full-width bottom bands.",
-      "result": "Migne prints NO foot-of-page notes anywhere in this work. Recorded as a checked zero, not as a skip — a later reader must be able to tell the two apart.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8969",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.593 cols 1175/1176 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8970",
-      "series": "pl",
-      "volume": 113,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0725B-0732C",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 368 = cols 725/726, 'GLOSSA ORDINARIA. - LIB. TOBIAE.'). Pages 368, 369, 370, 371. BOTH work divisions in this run fall MID-page and were read there - Nehemiah/Tobit at p. 368 and Tobit/Judith at p. 371 - which is the case that lost three notes on PL 202.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. SECOND sampling of PL 113 after Ruth's five pages, so the volume's 'no conjecture apparatus' finding now rests on nine pages across two books. Note for later readers: this scan clips line-initial characters down the lower left column of p. 368, which is what forced the 900 dpi read that established Nephthali (see data/tei-patches/8970.json).",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8976",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.218 cols 425/426 division John→Acts; p.229 cols 447/448 interior; p.240 cols 469/470 division Acts→Romans. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
-    },
-    {
-      "idno": "8978",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0705D-0710B",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8979",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.352 cols 693/694 division into 1 John; p.354 cols 697/698 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs06saingoog, PDF page = (column+11)/2, re-verified this session); division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. NB the scan trims the LEFT edge of pp. 352 and 302, so cols 693 and 593 corner numbers are not visible; position confirmed by the right corner and the running head. A scan-crop limit, not a map problem. | EXTENDED 2026-08-19: pp. 353-357 (cols 695-704) read at 400 dpi to adjudicate ten [sic:]/[d:] markers. ELEVEN OF TWELVE SITES PROVED TO BE OURS, not Migne's - see data/tei-patches/8979.json for the three sub-kinds. The single survivor, 'hae eticorum' at 0696D, is genuinely Migne's and keeps its marker. Foot: zero on all five pages."
-    },
-    {
-      "idno": "8980",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0,
-      "columns": "0679B-0688D",
-      "method": "NO plate read for cols 0679-0688. The 0687C requiescent/requiescet crux is exactly the kind Migne's apparatus would settle; a [cj:] was refused for want of that witness."
-    },
-    {
-      "idno": "8982",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0615B-0620D",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8983",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0,
-      "columns": "0623C-0632D",
-      "method": "NO plate read. Migne's foot-of-page conjecture notes are unrecovered for these columns, so the absence of [cn:] means only that nobody has looked. PL 114's 'checked zero' rests on leaves n305-n312 and n316 for OTHER works and was deliberately NOT imported here."
-    },
-    {
-      "idno": "8984",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0703D-0706B",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8985",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0689A-0694C",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8987",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0619D-0624C",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8988",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0633A-0638D",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8989",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0705B-0706D",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8990",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0609A-0616B",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, verified against the running head at n307 = 'GLOSSA ORDINARIA. - EPIST. AD PHILIPP.'). Union read for the 2026-08-18g batch: n305, n306, n307, n308, n309, n310, n311, plus n312 from the previous batch. n309 carries a work division MID-page - Philippians ends and EPISTOLA AD COLOSSENSES begins below the rule - which is the case that lost three notes on PL 202, and it was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Third sampling of PL 114.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8991",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (step 1a). Pages: p.299 cols 587/588 division Galatians->Ephesians; p.302 cols 593/594 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs06saingoog, PDF page = (column+11)/2, re-verified this session); division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. NB the scan trims the LEFT edge of pp. 352 and 302, so cols 693 and 593 corner numbers are not visible; position confirmed by the right corner and the running head. A scan-crop limit, not a map problem."
-    },
-    {
-      "idno": "8994",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0641B-0642D",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8995",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0601A-0608D",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, verified against the running head at n307 = 'GLOSSA ORDINARIA. - EPIST. AD PHILIPP.'). Union read for the 2026-08-18g batch: n305, n306, n307, n308, n309, n310, n311, plus n312 from the previous batch. n309 carries a work division MID-page - Philippians ends and EPISTOLA AD COLOSSENSES begins below the rule - which is the case that lost three notes on PL 202, and it was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Third sampling of PL 114.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8997",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 0,
-      "columns": "0637D-0642B",
-      "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
-      "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
-      "verified": "2026-08-18"
-    },
-    {
-      "idno": "8998",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0,
-      "columns": "0671A-0680B",
-      "method": "NO plate read for cols 0671-0680. Recorded unchecked, not zero, at the translator's own request."
-    },
-    {
-      "idno": "9005",
-      "series": "pl",
-      "volume": 114,
-      "tier": 3,
-      "coverage": "spot",
-      "notes_recovered": 1,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.037 cols 63/64 — the whole work; six division rules on that one page, all checked. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus. | ⭐ 2026-08-24: the ASTERISK-KEYED note on this page is now actually recovered and placed — data/plate-notes/9005.tsv, injected as [cn: * | …] beside 'in Vulgata editione' where Migne sets his asterisk, with a translated [nt: …] opposite it in the English per Wilson's ruling of this date. Until now this entry claimed notes_recovered 1 while no tsv existed and nothing was placed: the count was aspirational and the record was wrong. It is true as of this session, and it is the FIRST work in the corpus carrying the asterisk layer.",
-      "notes_placed": 1
-    },
-    {
-      "idno": "9033",
-      "series": "pl",
-      "volume": 115,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9076",
-      "series": "pl",
-      "volume": 117,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9245",
-      "series": "pl",
-      "volume": 125,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9249",
-      "series": "pl",
-      "volume": 125,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9436",
-      "series": "pl",
-      "volume": 134,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9519",
-      "series": "pl",
-      "volume": 137,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9604",
-      "series": "pl",
-      "volume": 138,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9637",
-      "series": "pl",
-      "volume": 138,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9741",
-      "series": "pl",
-      "volume": 139,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "9852",
-      "series": "pl",
-      "volume": 141,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10047",
-      "series": "pl",
-      "volume": 144,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10049",
-      "series": "pl",
-      "volume": 144,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10080",
-      "series": "pl",
-      "volume": 145,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10083",
-      "series": "pl",
-      "volume": 145,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10103",
-      "series": "pl",
-      "volume": 145,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10365",
-      "series": "pl",
-      "volume": 150,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10379",
-      "series": "pl",
-      "volume": 150,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "21425",
-      "series": "pl",
-      "volume": 150,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10517",
-      "series": "pl",
-      "volume": 155,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10703",
-      "series": "pl",
-      "volume": 160,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10725",
-      "series": "pl",
-      "volume": 162,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10727",
-      "series": "pl",
-      "volume": 162,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "10804",
-      "series": "pl",
-      "volume": 164,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11031",
-      "series": "pl",
-      "volume": 173,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11055",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11056",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11057",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11058",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11059",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11061",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11062",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11063",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11064",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11065",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11066",
-      "series": "pl",
-      "volume": 175,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11075",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11078",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11079",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11080",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11081",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11083",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11085",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11086",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11088",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11089",
-      "series": "pl",
-      "volume": 176,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11208",
-      "series": "pl",
-      "volume": 183,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11299",
-      "series": "pl",
-      "volume": 184,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11321",
-      "series": "pl",
-      "volume": 184,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11325",
-      "series": "pl",
-      "volume": 184,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11436",
-      "series": "pl",
-      "volume": 190,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11531",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11532",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11534",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11535",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11536",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11537",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11539",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11542",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11543",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11545",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11546",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11547",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11548",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11549",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11550",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11551",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11553",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11554",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11555",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11556",
-      "series": "pl",
-      "volume": 196,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11613",
-      "series": "pl",
-      "volume": 202,
-      "tier": 3,
-      "coverage": "full",
-      "notes_recovered": 71,
-      "numbering": "(1)-(72), per work",
-      "sequence_note": "71 rows for 72 numbers: (12-13) is one note serving two markers; (59) is never printed by Migne; (62) is used twice, the second set as (62*).",
-      "source": "archive.org patrologiaecurs139unkngoog (copy A), cross-checked against patrologiaecurs114unkngoog (copy B)",
-      "page_map": "PDF page = 600 + (column - 1187) / 2  [copy A]; copy B is one page lower",
-      "data": "data/plate-notes/11613.tsv",
-      "verified": "2026-08-18",
-      "sequence_gaps_documented": [
-        59
-      ],
-      "notes_placed": 69
-    },
-    {
-      "idno": "11632",
-      "series": "pl",
-      "volume": 203,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11638",
-      "series": "pl",
-      "volume": 203,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11648",
-      "series": "pl",
-      "volume": 204,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "11713",
-      "series": "pl",
-      "volume": 207,
-      "tier": 2,
-      "coverage": "none",
-      "notes_recovered": 0
-    },
-    {
-      "idno": "8958",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.258 cols 505/506 — the Josue division, which falls MID-PAGE (rule, drop title LIBER JOSUE BEN NUN, Prothemata, Praefatio) — and p.262 cols 513/514, interior (Capp. X-XII). Read at 300 dpi, FULL page width, from raw/scans/pl113/patrologiaecurs04migngoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
-    },
-    {
-      "idno": "8992",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.290 cols 569/570 — the Galatians division, which falls MID-PAGE (rule, drop title EPISTOLA AD GALATAS, Argumentum, Caput primum) — and p.295 cols 579/580, interior (Gal. iv). Read at 300 dpi, FULL page width, from raw/scans/pl114/patrologiaecurs06saingoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
-    },
-    {
-      "idno": "8977",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.381 cols 751/752 — the END of the Apocalypse, a work division falling MID-PAGE (rule, drop title WALAFRIDI STRABI ... EXPOSITIO IN VIGINTI PRIMOS PSALMOS, then two fresh columns beneath it) — and p.370 cols 729/730, interior (Apoc. capp. X-XI). Calibration page p.381, corners read 751 / 752."
-    },
-    {
-      "idno": "9003",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.381 cols 751/752 — the BEGINNING of this work, the same mid-page division as 8977, carrying its drop title and the opening of PEZII MONITUM PRAEVIUM — and p.393 cols 775/776, interior (In psalmum XI-XII). Calibration page p.381, corners read 751 / 752."
-    },
-    {
-      "idno": "8944",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.568 cols 1125/1126 — the BEGINNING of Canticum canticorum, a work division falling MID-PAGE (Ecclesiastes ends, drop title CANTICUM CANTICORUM, PRAEFATIO opens beneath it) — and p.580 cols 1149/1150, interior (Cant. iv). Calibration page p.568, corners read 1125 / 1126. ⭐ THIS CHECK DID NOT COME BACK EMPTY-HANDED even though the conjecture-note count is zero: the same page showed that Corpus Corporum had dropped THREE Hebrew words Migne sets in the PRAEFATIO. Recovered and patched — data/hebrew-patches/8944.json, data/tei-patches/8944.json."
-    },
-    {
-      "idno": "8947",
-      "series": "pl",
-      "volume": 113,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "columns": "1183C-1232A",
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs04migngoog.pdf at 300 dpi, FULL page width. Map recalibrated before the read against the printed corner numbers: p.597 = cols 1183/1184 and p.598 = cols 1185/1186, confirming PDF page = (column + 11)/2 for this scan. TWO pages read because the Sapientia->Ecclesiasticus division falls MID-PAGE on p.597: that page was examined at the mid-page division band as well as at the foot, and p.598 at the foot. Checked zero on both apparatus layers: no numbered Forte/F. conjectures and no asterisk cross-references. A raised mark after 'dispensavit' at col 1184 was inspected at 600 dpi and is a broken sort or ink speck beside the colon, NOT Migne's six-pointed asterisk, and no foot note exists on that page for it to key to.",
-      "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.598 (cols 1185/1186): the left column loses its opening characters ('juilia est', 'us vestris', 'Deus sapientiam'). This is the known PL 113 clipping documented in CLAUDE.md, and it falls INSIDE this work. Any left-column crux in 8947 must be settled against the Gallica second witness ark:/12148/bpt6k5505319w (f = (column + 1) / 2), never recorded as illegible from this PDF alone."
-    },
-    {
-      "idno": "9006",
-      "series": "pl",
-      "volume": 114,
-      "tier": 2,
-      "coverage": "spot",
-      "notes_recovered": 0,
-      "columns": "0009A-0062D",
-      "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed against the printed corner numbers before the read: p.23 prints 35/36, so PDF page = (column + 11)/2 holds for this scan. THREE pages read: p.10 (cols 9/10), the work's opening — a fresh title page, so the division from the preceding matter does NOT fall mid-page; p.23 (cols 35/36) interior; p.36 (cols 61/62), the work's closing page, which ends with the tailpiece rule and white space, so the following work begins on a fresh page and that division is not mid-page either. Checked zero on both apparatus layers on all three: no numbered Forte/F. conjectures, no asterisk cross-references. Incidental confirmation that our chunking matches the plate: p.10 reproduces chunk 0000's PROLOGUS/PRAEFATIO/ARGUMENTUM/CAPUT PRIMUM sequence and p.36 reproduces chunk 0023's tail (De pauperibus ... Et factum est) verbatim in lemma order."
-    }
-  ],
-  "fields": {
-    "sequence_gaps_documented": "Note numbers Migne's own sequence skips, established at the plate. scripts/inject-plate-notes.mjs errors on any gap NOT listed here — a gap is the detector for a page cropped short, so it must be silenced deliberately, one number at a time, and never by widening the check.",
-    "notes_placed": "How many of the recovered notes the injector could place in our Latin with a unique anchor. A shortfall is a divergence between the plate and Corpus Corporum's text, listed by the injector — it is evidence, not a defect in the capture."
+  {
+   "idno": "7017",
+   "series": "pl",
+   "volume": 17,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
   },
-  "findings": [
-    {
-      "date": "2026-08-18",
-      "what": "PL 113's Glossa ordinaria pages carry NO foot-of-page conjecture apparatus on any page sampled.",
-      "evidence": "Eight pages read at 300 dpi off archive.org patrologiaecurs04migngoog, across three separate runs of the volume: 271-275 (Ruth, incl. the Judges/Ruth division mid-page), 363 and 372 (Nehemiah run), 565 (Ecclesiastes run). Zero numbered notes, and no foot rule of the kind PL 202 prints. The pages simply end.",
-      "page_map": "PDF page = (column + 11) / 2  [patrologiaecurs04migngoog], verified against the running head at cols 533/534 = p. 272.",
-      "limit": "A SAMPLE, not a proof: 8 pages of the ~99 the prepared Glossa queue spans. It is enough to stop a blanket plate read, not enough to write 'this volume has none' into a work page.",
-      "consequence": "Do NOT commission the ~99-page read for the Glossa block. Spot-check 1-2 pages per book at chunking; record tier 2 with this reason where the check is clean.",
-      "also": "archive.org's Google OCR does not carry the apparatus either, and this was tested rather than assumed: patrologiaecurs139unkngoog_djvu.txt (PL 202, the volume whose notes we HAVE) holds 35 instances of 'Forte' in the whole volume, every one of them the ordinary adverb inside the body text, while work 11613 alone carries ~60 real foot-of-page notes. The OCR is not a cheap detector for this layer."
-    }
-  ]
+  {
+   "idno": "7020",
+   "series": "pl",
+   "volume": 18,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7383",
+   "series": "pl",
+   "volume": 40,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7427",
+   "series": "pl",
+   "volume": 42,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7508",
+   "series": "pl",
+   "volume": 47,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7561",
+   "series": "pl",
+   "volume": 50,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7693",
+   "series": "pl",
+   "volume": 59,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7871",
+   "series": "pl",
+   "volume": 67,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "7914",
+   "series": "pl",
+   "volume": 70,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8195",
+   "series": "pl",
+   "volume": 83,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8253",
+   "series": "pl",
+   "volume": 87,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8407",
+   "series": "pl",
+   "volume": 90,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8505",
+   "series": "pl",
+   "volume": 94,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8566",
+   "series": "pl",
+   "volume": 96,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8625",
+   "series": "pl",
+   "volume": 98,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "21413",
+   "series": "pl",
+   "volume": 100,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8708",
+   "series": "pl",
+   "volume": 101,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8715",
+   "series": "pl",
+   "volume": 101,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8777",
+   "series": "pl",
+   "volume": 104,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8930",
+   "series": "pl",
+   "volume": 112,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8933",
+   "series": "pl",
+   "volume": 112,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8946",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "1115D-1126D",
+   "method": "Plate spot check 2026-08-19, after shipping: p.563 (cols 1115/1116), the Proverbia->Ecclesiastes division, read full width at 300 dpi and mid-page as well as at the foot. Checked zero on conjecture apparatus. The same read SETTLED the work's only [sic:]: the plate prints 'Salomo-'/'nis' across a line break, so 'Salomomonis' is a Corpus Corporum rejoin artifact, not Migne's type -> data/tei-patches/8946.json, marker removed."
+  },
+  {
+   "idno": "8948",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0739C-0748C",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 372 = cols 733/734, 'GLOSSA ORDINARIA. - LIB. JUDITH.'). Pages 371-379 read across the two works of this batch. BOTH work divisions fall MID-page and were read there - Tobit/Judith at p. 371 and Judith/Esther at p. 375 - which is the case that lost three notes on PL 202.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. FOURTH sampling of PL 113, so the volume's 'no conjecture apparatus' finding now rests on nineteen pages across four books. NOT apparatus and not to be re-raised: p. 378's foot carries the printer's signature line 'PATROL. CXIII.' and the gathering number '24' - bookbinding, not editorial matter.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8951",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.356 cols 701/702 interior; p.351 cols 691/692 division Paralip. II→I Esdrae. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8952",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.280 col 549/550 interior; p.287 cols 563/564 division I→II Regum (read by the orchestrator at calibration). Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8953",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.291 cols 571/572 interior; p.296 cols 581/582 division II→III Regum. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8954",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.303 cols 595/596 interior; p.296 + p.311 divisions either side. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8955",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.315 cols 619/620 interior; p.311 cols 611/612 division III→IV Regum; p.320 division IV Regum→Paralip. I. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8959",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (step 1a). Pages: p.266 cols 521/522 division Joshua->Judges (opens at the HEAD of the page); p.268 cols 525/526 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.268 (cols 525/526) re-read at 400 dpi to adjudicate 'dolis' at 0526D. Verdict: the plate prints dolis, mid-line, no hyphenation - MIGNE'S OWN defect, no tei-patch. Foot: still zero."
+  },
+  {
+   "idno": "8960",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0731D-0740B",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 372 = cols 733/734, 'GLOSSA ORDINARIA. - LIB. JUDITH.'). Pages 371-379 read across the two works of this batch. BOTH work divisions fall MID-page and were read there - Tobit/Judith at p. 371 and Judith/Esther at p. 375 - which is the case that lost three notes on PL 202.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. FOURTH sampling of PL 113, so the volume's 'no conjecture apparatus' finding now rests on nineteen pages across four books. NOT apparatus and not to be re-raised: p. 378's foot carries the printer's signature line 'PATROL. CXIII.' and the gathering number '24' - bookbinding, not editorial matter.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8962",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (step 1a). Pages: p.362 cols 713/714 division I Esdrae->Nehemiah (opens at the HEAD); p.365 cols 719/720 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.367 (cols 723/724) read at 400 dpi to adjudicate the unconstruable 0724D. THE PLATE CARRIED MORE TEXT THAN OUR SOURCE: a clean eye-skip over one whole typeset line plus the orphan turnover syllable of 'Piscis au-|tem'. Eight words restored via data/tei-patches/8962.json; a second witnessed one-letter fix (coangustatis, ablative) on the same page. Foot: zero, so the restoration rests on the main-text plate alone. NB col. 721 is still UNREAD and carries this work's two remaining [sic:] - the likeliest survivors of the same class."
+  },
+  {
+   "idno": "8964",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.328 cols 645/646 interior; p.320 cols 629/630 division in; p.337 cols 663/664 division out. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8965",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.344 cols 677/678 interior; p.337 division in; p.351 cols 691/692 division out. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8966",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.554 cols 1097/1098 interior; p.563 cols 1115/1116 division Proverbia→Ecclesiastes. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8968",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "method": "All five of the work's plate pages read at 300 dpi (archive.org patrologiaecurs04migngoog, PDF pp. 271-275; page = (column+11)/2, verified against the running head). p. 271 carries the Judges/Ruth division MID-page and was read there; p. 272 was read in full; 273-275 as full-width bottom bands.",
+   "result": "Migne prints NO foot-of-page notes anywhere in this work. Recorded as a checked zero, not as a skip — a later reader must be able to tell the two apart.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8969",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.593 cols 1175/1176 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8970",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0725B-0732C",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs04migngoog, the PL 113 scan, on disk at raw/scans/pl113/; PDF page = (column + 11) / 2, verified against the running head at p. 368 = cols 725/726, 'GLOSSA ORDINARIA. - LIB. TOBIAE.'). Pages 368, 369, 370, 371. BOTH work divisions in this run fall MID-page and were read there - Nehemiah/Tobit at p. 368 and Tobit/Judith at p. 371 - which is the case that lost three notes on PL 202.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. SECOND sampling of PL 113 after Ruth's five pages, so the volume's 'no conjecture apparatus' finding now rests on nine pages across two books. Note for later readers: this scan clips line-initial characters down the lower left column of p. 368, which is what forced the 900 dpi read that established Nephthali (see data/tei-patches/8970.json).",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8976",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.218 cols 425/426 division John→Acts; p.229 cols 447/448 interior; p.240 cols 469/470 division Acts→Romans. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus."
+  },
+  {
+   "idno": "8978",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0705D-0710B",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8979",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (step 1a). Pages: p.352 cols 693/694 division into 1 John; p.354 cols 697/698 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs06saingoog, PDF page = (column+11)/2, re-verified this session); division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. NB the scan trims the LEFT edge of pp. 352 and 302, so cols 693 and 593 corner numbers are not visible; position confirmed by the right corner and the running head. A scan-crop limit, not a map problem. | EXTENDED 2026-08-19: pp. 353-357 (cols 695-704) read at 400 dpi to adjudicate ten [sic:]/[d:] markers. ELEVEN OF TWELVE SITES PROVED TO BE OURS, not Migne's - see data/tei-patches/8979.json for the three sub-kinds. The single survivor, 'hae eticorum' at 0696D, is genuinely Migne's and keeps its marker. Foot: zero on all five pages."
+  },
+  {
+   "idno": "8980",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0,
+   "columns": "0679B-0688D",
+   "method": "NO plate read for cols 0679-0688. The 0687C requiescent/requiescet crux is exactly the kind Migne's apparatus would settle; a [cj:] was refused for want of that witness."
+  },
+  {
+   "idno": "8982",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0615B-0620D",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8983",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0,
+   "columns": "0623C-0632D",
+   "method": "NO plate read. Migne's foot-of-page conjecture notes are unrecovered for these columns, so the absence of [cn:] means only that nobody has looked. PL 114's 'checked zero' rests on leaves n305-n312 and n316 for OTHER works and was deliberately NOT imported here."
+  },
+  {
+   "idno": "8984",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0703D-0706B",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8985",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0689A-0694C",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8987",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0619D-0624C",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8988",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0633A-0638D",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, re-verified this session against the running head at n312 = cols 615/616 and n313 = 'GLOSSA ORDINARIA. - EPIST. I AD THESS.'). Union read for the 2026-08-18f five-book cadence: n312, n313, n314, n315, n316, n321, n322, n323, n349, n350, n351. SIX of those carry a work division MID-page - 1 Thess/2 Thess at n314, 2 Thess/1 Tim at n316, 1 Tim/2 Tim at n321, 2 Tim/Titus at n323, 1 Pet/2 Pet at n349, 2 Pet/1 John at n351 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Second sampling of PL 114 after the 2026-08-18e batch; n323 was read independently in both and agrees. NOT apparatus and not to be re-raised: n313's foot carries the printer's signature line 'PATROL. CXIV.' and the gathering number '20' - bookbinding, not editorial matter.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8989",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0705B-0706D",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8990",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0609A-0616B",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, verified against the running head at n307 = 'GLOSSA ORDINARIA. - EPIST. AD PHILIPP.'). Union read for the 2026-08-18g batch: n305, n306, n307, n308, n309, n310, n311, plus n312 from the previous batch. n309 carries a work division MID-page - Philippians ends and EPISTOLA AD COLOSSENSES begins below the rule - which is the case that lost three notes on PL 202, and it was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Third sampling of PL 114.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8991",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (step 1a). Pages: p.299 cols 587/588 division Galatians->Ephesians; p.302 cols 593/594 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs06saingoog, PDF page = (column+11)/2, re-verified this session); division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. NB the scan trims the LEFT edge of pp. 352 and 302, so cols 693 and 593 corner numbers are not visible; position confirmed by the right corner and the running head. A scan-crop limit, not a map problem."
+  },
+  {
+   "idno": "8994",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0641B-0642D",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8995",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0601A-0608D",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, verified against the running head at n307 = 'GLOSSA ORDINARIA. - EPIST. AD PHILIPP.'). Union read for the 2026-08-18g batch: n305, n306, n307, n308, n309, n310, n311, plus n312 from the previous batch. n309 carries a work division MID-page - Philippians ends and EPISTOLA AD COLOSSENSES begins below the rule - which is the case that lost three notes on PL 202, and it was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. Third sampling of PL 114.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8997",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "columns": "0637D-0642B",
+   "method": "Full-width foot bands of every plate page of this work read (archive.org patrologiaecurs06saingoog, the PL 114 scan; leaf n = (column + 9) / 2, calibrated against the running head at n330 = cols 651-652). Union read for the five-book cadence: n323, n324, n325, n356, n357, n358, n359, plus n330 as the calibration page. THREE of those carry a work division MID-page - Titus/Philemon at n325, 3 John/Jude at n357, Jude/Apocalypse at n359 - which is the case that lost three notes on PL 202, and each was read there.",
+   "result": "Migne prints NO foot-of-page conjecture apparatus anywhere on these pages: no foot rule, no numbered notes, the columns simply end. Recorded as a checked zero, not a skip. This is the FIRST sampling of PL 114 - the earlier 'no apparatus' finding was PL 113 only and did not transfer.",
+   "verified": "2026-08-18"
+  },
+  {
+   "idno": "8998",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0,
+   "columns": "0671A-0680B",
+   "method": "NO plate read for cols 0671-0680. Recorded unchecked, not zero, at the translator's own request."
+  },
+  {
+   "idno": "9005",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "spot",
+   "notes_recovered": 1,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19). Pages: p.037 cols 63/64 — the whole work; six division rules on that one page, all checked. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan; every page's printed corner numbers were checked against the map before the read. Divisions were examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. conjecture apparatus. | ⭐ 2026-08-24: the ASTERISK-KEYED note on this page is now actually recovered and placed — data/plate-notes/9005.tsv, injected as [cn: * | …] beside 'in Vulgata editione' where Migne sets his asterisk, with a translated [nt: …] opposite it in the English per Wilson's ruling of this date. Until now this entry claimed notes_recovered 1 while no tsv existed and nothing was placed: the count was aspirational and the record was wrong. It is true as of this session, and it is the FIRST work in the corpus carrying the asterisk layer.",
+   "notes_placed": 1
+  },
+  {
+   "idno": "9033",
+   "series": "pl",
+   "volume": 115,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9076",
+   "series": "pl",
+   "volume": 117,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9245",
+   "series": "pl",
+   "volume": 125,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9249",
+   "series": "pl",
+   "volume": 125,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9436",
+   "series": "pl",
+   "volume": 134,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9519",
+   "series": "pl",
+   "volume": 137,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9604",
+   "series": "pl",
+   "volume": 138,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9637",
+   "series": "pl",
+   "volume": 138,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9741",
+   "series": "pl",
+   "volume": 139,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "9852",
+   "series": "pl",
+   "volume": 141,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10047",
+   "series": "pl",
+   "volume": 144,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10049",
+   "series": "pl",
+   "volume": 144,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10080",
+   "series": "pl",
+   "volume": 145,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10083",
+   "series": "pl",
+   "volume": 145,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10103",
+   "series": "pl",
+   "volume": 145,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10365",
+   "series": "pl",
+   "volume": 150,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10379",
+   "series": "pl",
+   "volume": 150,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "21425",
+   "series": "pl",
+   "volume": 150,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10517",
+   "series": "pl",
+   "volume": 155,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10703",
+   "series": "pl",
+   "volume": 160,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10725",
+   "series": "pl",
+   "volume": 162,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10727",
+   "series": "pl",
+   "volume": 162,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "10804",
+   "series": "pl",
+   "volume": 164,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11031",
+   "series": "pl",
+   "volume": 173,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11055",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11056",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11057",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11058",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11059",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11061",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11062",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11063",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11064",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11065",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11066",
+   "series": "pl",
+   "volume": 175,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11075",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11078",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11079",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11080",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11081",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11083",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11085",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11086",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11088",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11089",
+   "series": "pl",
+   "volume": 176,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11208",
+   "series": "pl",
+   "volume": 183,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11299",
+   "series": "pl",
+   "volume": 184,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11321",
+   "series": "pl",
+   "volume": 184,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11325",
+   "series": "pl",
+   "volume": 184,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11436",
+   "series": "pl",
+   "volume": 190,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11531",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11532",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11534",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11535",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11536",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11537",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11539",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11542",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11543",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11545",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11546",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11547",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11548",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11549",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11550",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11551",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11553",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11554",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11555",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11556",
+   "series": "pl",
+   "volume": 196,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11613",
+   "series": "pl",
+   "volume": 202,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 71,
+   "numbering": "(1)-(72), per work",
+   "sequence_note": "71 rows for 72 numbers: (12-13) is one note serving two markers; (59) is never printed by Migne; (62) is used twice, the second set as (62*).",
+   "source": "archive.org patrologiaecurs139unkngoog (copy A), cross-checked against patrologiaecurs114unkngoog (copy B)",
+   "page_map": "PDF page = 600 + (column - 1187) / 2  [copy A]; copy B is one page lower",
+   "data": "data/plate-notes/11613.tsv",
+   "verified": "2026-08-18",
+   "sequence_gaps_documented": [
+    59
+   ],
+   "notes_placed": 69
+  },
+  {
+   "idno": "11632",
+   "series": "pl",
+   "volume": 203,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11638",
+   "series": "pl",
+   "volume": 203,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11648",
+   "series": "pl",
+   "volume": 204,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "11713",
+   "series": "pl",
+   "volume": 207,
+   "tier": 2,
+   "coverage": "none",
+   "notes_recovered": 0
+  },
+  {
+   "idno": "8958",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.258 cols 505/506 — the Josue division, which falls MID-PAGE (rule, drop title LIBER JOSUE BEN NUN, Prothemata, Praefatio) — and p.262 cols 513/514, interior (Capp. X-XII). Read at 300 dpi, FULL page width, from raw/scans/pl113/patrologiaecurs04migngoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
+  },
+  {
+   "idno": "8992",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19); run 2026-08-23 for a work chunked before the rule. Pages: p.290 cols 569/570 — the Galatians division, which falls MID-PAGE (rule, drop title EPISTOLA AD GALATAS, Argumentum, Caput primum) — and p.295 cols 579/580, interior (Gal. iv). Read at 300 dpi, FULL page width, from raw/scans/pl114/patrologiaecurs06saingoog.pdf; the printed corner numbers on both pages confirm PDF page = (column + 11) / 2 for this volume. Checked zero: no foot rule and no numbered Forte/F. conjecture apparatus, at the foot or mid-page."
+  },
+  {
+   "idno": "8977",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.381 cols 751/752 — the END of the Apocalypse, a work division falling MID-PAGE (rule, drop title WALAFRIDI STRABI ... EXPOSITIO IN VIGINTI PRIMOS PSALMOS, then two fresh columns beneath it) — and p.370 cols 729/730, interior (Apoc. capp. X-XI). Calibration page p.381, corners read 751 / 752."
+  },
+  {
+   "idno": "9003",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.381 cols 751/752 — the BEGINNING of this work, the same mid-page division as 8977, carrying its drop title and the opening of PEZII MONITUM PRAEVIUM — and p.393 cols 775/776, interior (In psalmum XI-XII). Calibration page p.381, corners read 751 / 752."
+  },
+  {
+   "idno": "8944",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.568 cols 1125/1126 — the BEGINNING of Canticum canticorum, a work division falling MID-PAGE (Ecclesiastes ends, drop title CANTICUM CANTICORUM, PRAEFATIO opens beneath it) — and p.580 cols 1149/1150, interior (Cant. iv). Calibration page p.568, corners read 1125 / 1126. ⭐ THIS CHECK DID NOT COME BACK EMPTY-HANDED even though the conjecture-note count is zero: the same page showed that Corpus Corporum had dropped THREE Hebrew words Migne sets in the PRAEFATIO. Recovered and patched — data/hebrew-patches/8944.json, data/tei-patches/8944.json."
+  },
+  {
+   "idno": "8947",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "1183C-1232A",
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs04migngoog.pdf at 300 dpi, FULL page width. Map recalibrated before the read against the printed corner numbers: p.597 = cols 1183/1184 and p.598 = cols 1185/1186, confirming PDF page = (column + 11)/2 for this scan. TWO pages read because the Sapientia->Ecclesiasticus division falls MID-PAGE on p.597: that page was examined at the mid-page division band as well as at the foot, and p.598 at the foot. Checked zero on both apparatus layers: no numbered Forte/F. conjectures and no asterisk cross-references. A raised mark after 'dispensavit' at col 1184 was inspected at 600 dpi and is a broken sort or ink speck beside the colon, NOT Migne's six-pointed asterisk, and no foot note exists on that page for it to key to.",
+   "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.598 (cols 1185/1186): the left column loses its opening characters ('juilia est', 'us vestris', 'Deus sapientiam'). This is the known PL 113 clipping documented in CLAUDE.md, and it falls INSIDE this work. Any left-column crux in 8947 must be settled against the Gallica second witness ark:/12148/bpt6k5505319w (f = (column + 1) / 2), never recorded as illegible from this PDF alone."
+  },
+  {
+   "idno": "9006",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "0009A-0062D",
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed against the printed corner numbers before the read: p.23 prints 35/36, so PDF page = (column + 11)/2 holds for this scan. THREE pages read: p.10 (cols 9/10), the work's opening — a fresh title page, so the division from the preceding matter does NOT fall mid-page; p.23 (cols 35/36) interior; p.36 (cols 61/62), the work's closing page, which ends with the tailpiece rule and white space, so the following work begins on a fresh page and that division is not mid-page either. Checked zero on both apparatus layers on all three: no numbered Forte/F. conjectures, no asterisk cross-references. Incidental confirmation that our chunking matches the plate: p.10 reproduces chunk 0000's PROLOGUS/PRAEFATIO/ARGUMENTUM/CAPUT PRIMUM sequence and p.36 reproduces chunk 0023's tail (De pauperibus ... Et factum est) verbatim in lemma order."
+  }
+ ],
+ "fields": {
+  "sequence_gaps_documented": "Note numbers Migne's own sequence skips, established at the plate. scripts/inject-plate-notes.mjs errors on any gap NOT listed here — a gap is the detector for a page cropped short, so it must be silenced deliberately, one number at a time, and never by widening the check.",
+  "notes_placed": "How many of the recovered notes the injector could place in our Latin with a unique anchor. A shortfall is a divergence between the plate and Corpus Corporum's text, listed by the injector — it is evidence, not a defect in the capture."
+ },
+ "findings": [
+  {
+   "date": "2026-08-18",
+   "what": "PL 113's Glossa ordinaria pages carry NO foot-of-page conjecture apparatus on any page sampled.",
+   "evidence": "Eight pages read at 300 dpi off archive.org patrologiaecurs04migngoog, across three separate runs of the volume: 271-275 (Ruth, incl. the Judges/Ruth division mid-page), 363 and 372 (Nehemiah run), 565 (Ecclesiastes run). Zero numbered notes, and no foot rule of the kind PL 202 prints. The pages simply end.",
+   "page_map": "PDF page = (column + 11) / 2  [patrologiaecurs04migngoog], verified against the running head at cols 533/534 = p. 272.",
+   "limit": "A SAMPLE, not a proof: 8 pages of the ~99 the prepared Glossa queue spans. It is enough to stop a blanket plate read, not enough to write 'this volume has none' into a work page.",
+   "consequence": "Do NOT commission the ~99-page read for the Glossa block. Spot-check 1-2 pages per book at chunking; record tier 2 with this reason where the check is clean.",
+   "also": "archive.org's Google OCR does not carry the apparatus either, and this was tested rather than assumed: patrologiaecurs139unkngoog_djvu.txt (PL 202, the volume whose notes we HAVE) holds 35 instances of 'Forte' in the whole volume, every one of them the ordinary adverb inside the body text, while work 11613 alone carries ~60 real foot-of-page notes. The OCR is not a cheap detector for this layer."
+  }
+ ]
 }

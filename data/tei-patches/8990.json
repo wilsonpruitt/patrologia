@@ -1,5 +1,5 @@
 {
-  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs06saingoog, leaf n = (column + 9) / 2, so cols 0611/0612 = leaf n310. Read at full resolution during the 2026-08-18 Glossa batch.",
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Verified against the plate: archive.org patrologiaecurs06saingoog, leaf n = (column + 9) / 2, so cols 0611/0612 = leaf n310. Read at full resolution during the 2026-08-18 Glossa batch. || [sic:] PLATE SWEEP, 2026-08-29 (ladder step 2 of the 1,587-marker exposure survey, Wilson-approved): every [sic:] in this work standing on an unread column was read at the plate from the on-disk scan, the volume map re-calibrated against the printed corner numbers first. The patches added below are the disproofs made durable. Full ledger: data/plate-sweep/2026-08-29-sic-sweep.tsv",
   "class": "digitization ALTERATION of Migne's spelling — our source changed a word rather than losing or corrupting it, leaving a well-formed word that reads perfectly and cannot be detected from the Latin alone. Second recorded instance in the corpus; the first, found the same session, is data/tei-patches/8948.json (a normalization).",
   "patches": [
     {
@@ -7,6 +7,13 @@
       "find": "<hi>Alienati et inimici</hi> consilio ejus",
       "replace": "<hi>Alienati et inimici</hi> concilio ejus",
       "why": "the plate prints 'concilio' — c-o-n-c-i-l-i-o, unambiguous at full resolution on leaf n310. Corpus Corporum altered it to 'consilio', which is a different word: concilium is an assembly or council, consilium a purpose or counsel. Restoring Migne's reading; the translator judged the printed word SOUND rather than defective (concilium/consilium is an attested medieval orthographic interchange, Pattern 9), so no [sic:] is stacked on it — the English renders concilium's own sense."
+    },
+    {
+      "col": "0614C",
+      "find": "Hoc me\nmorat ut",
+      "replace": "Hoc\nmemorat ut",
+      "direction": "corrupted",
+      "why": "THE PLATE PRINTS *memorat*. PL 114 p. 312, col. 0614C — read 2026-08-29 from the on-disk scan at 300–500 dpi, full page width, with the volume's page map re-calibrated against the printed corner numbers before the read. Corpus Corporum's *me morat* is the digitization's error, and the English carried a [sic: *me morat*] — A PUBLIC ACCUSATION AGAINST MIGNE for a defect that is ours. Marker withdrawn. plate hyphenates Hoc me-/morat"
     }
   ]
 }
