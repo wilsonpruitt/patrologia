@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-29 session: the plate gate's first full run on a new work — nine of thirteen [sic:] markers turned out to be false accusations against Migne, and four of Migne's own defects had been silently repaired out of our text before we ever saw them —
+  'pl/113/liber-ecclesiasticus',                                  // Anselm of Laon and his school — the gloss on Ecclesiasticus (Sirach); Wisdom praising herself among the trees and spices of Lebanon, the fear of the Lord as the beginning of wisdom, and the Praise of the Fathers from Enoch to Simon son of Onias — with a lemma where the Vulgate's "plough a lie" is printed "love a lie"
   // — 2026-08-28 session: the first work in the corpus collated against Migne's plate page by page, all 22 of them — 63 patches, five false public claims against Migne withdrawn, and eight real Vulgate divergences recovered that the digitization had quietly erased —
   'pl/114/expositio-in-xx-primos-psalmos',                        // Walafrid Strabo (so Migne) / Anselm of Laon and his school — the gloss on Psalms 1-20, printed from Pez's Thesaurus; Pez cut it at twenty because the rest was already in the Gloss, and the plate showed our transcription departing from Migne about three times a page
   // — 2026-08-28 session: the Glossa's ninth cadence batch, Apocalypse and the Song of Songs, and the one where a single plate page recovered three dropped Hebrew words and settled two identical-looking single-letter divergences in opposite directions —
