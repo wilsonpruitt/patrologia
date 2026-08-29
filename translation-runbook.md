@@ -119,6 +119,24 @@ after the translation is paid for.
    lists and calendars are nearly immune: independent list items, no neighbour to
    contradict. Do not read a cartulary as slowly as a Victorine commentary.
 
+4b. **⛔ THE PLATE GATE — `node scripts/plate-gate.mjs <idno>`, before the work is marked
+   `ours`.** It exits non-zero and names every `[sic:]` or `[var:]` standing on a column
+   nobody has read at Migne's plate. **Record reads in `data/plate-reads.json`**; a read is
+   the page on screen with the printed corner numbers checked FIRST, found or not found.
+   ⭐ **Both markers are public claims about the printed page, and our Latin is not the
+   printed page.** 9003's page-by-page collation (2026-08-28, the first ever run) found
+   Corpus Corporum departing from Migne at **~3 sites per page**, against a standing estimate
+   of three instances corpus-wide; it stopped five false accusations against Migne, and one
+   of its sites was a Vulgate divergence the digitization had **manufactured** — a class no
+   Vulgate collation can catch, because the collation finds exactly what the corruption put
+   there. Corpus frequency is no better: for a non-word it is decisive that an error exists
+   and silent about whose it is (`reference_plate-read-triage`). **8977 shipped two false
+   `[sic:]` against Migne on frequency evidence, each carrying the words "plate-read caveat"
+   in its own crux** — the doubt was recorded and the work went out over it. That is what
+   this step is for; the gate is the enforcement the rule never had.
+   ⚑ Two ways to pass, and only two: read the column, or withdraw the marker. Do not widen
+   the recorded range to cover a column the read did not reach.
+
 5. **Author bio:** new author → add `data/author-bios.json` entry (`displayName`,
    `latin`, `dates`, `bio`; `dedicatee:true` for patron names in the author array).
    Without one the byline falls back to the Latin form — fine temporarily, not for deploy.
@@ -148,7 +166,8 @@ after the translation is paid for.
 
 8. **Deploy checklist — every time, no skipping:** when Wilson gives the OK to deploy,
    **(0) run `node scripts/polarity-record.mjs --gate` first — it exits nonzero if any
-   englished work has never had the step-4a read. It caught the site's only PG work
+   englished work has never had the step-4a read, and `node scripts/plate-gate.mjs <idno>`
+   on each newly shipped work (step 4b). It caught the site's only PG work
    (`joel-chronographia`) sitting unchecked because both 2026-07-28 sweeps were
    PL-only. Do not ship over a red gate; either read the work or say plainly that it
    ships unchecked.**

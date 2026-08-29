@@ -1,0 +1,126 @@
+{
+  "note": "WHICH COLUMNS HAVE ACTUALLY BEEN READ AT MIGNE'S PLATE. Written 2026-08-28, the day 9003's full collation showed our Corpus Corporum Latin departs from the plate at ~3 sites per page against a standing corpus estimate of THREE INSTANCES IN TOTAL. This file exists so that `scripts/plate-gate.mjs` can refuse a [sic:] or a [var:] on a column nobody has read. It records READS, not findings: a range belongs here when someone put the page on screen, read the corner numbers first, and read the running text -- whether or not anything was found. Its opposite number is data/plate-notes/coverage.json, which records only the foot-of-page conjecture layer.",
+  "why_the_gate": "A [sic:] asserts a defect in MIGNE'S TYPE and a [var:] asserts that MIGNE'S TEXT diverges from a scriptural witness. Both are public claims about the printed page. Our Latin is not the printed page -- it is Corpus Corporum's transcription of it -- so neither claim can be licensed by the file alone. Corpus frequency detects that an error EXISTS; it cannot say WHOSE it is (reference_plate-read-triage.md). Vulgate collation is worse than useless for the [var:] class: 9003 @0763D showed the digitization MANUFACTURING a divergence (judicabit -> judicavit) that the collation then dutifully 'found'.",
+  "rule": "NOT A RETROFIT (CLAUDE.md, \"RECOVER GOING FORWARD, DO NOT SWEEP THE DONE CORPUS\"). The gate is a SHIP TEST: run it on a work before marking it `ours`. Works shipped before 2026-08-28 are surveyed by `--all`, which measures the exposure and exits zero; the number it prints is evidence for a decision about sample width, not a mandate to re-open 38 books.",
+  "fields": {
+    "from/to": "inclusive column range, banded (0719A) or bare (0719). A read of one PDF page covers TWO columns, i.e. all eight bands A-D of both.",
+    "depth": "'full' = the running text of every column in the range was collated word by word against our Latin. 'read' = the page was read at the plate for a named question and the surrounding text scanned, but not collated word by word. Only 'full' licenses silence about a column; both license a marker, because both mean a human eye met the type.",
+    "source": "scan identifier + page map + the calibration actually performed. A page map asserted but not calibrated against printed corner numbers is not a source."
+  },
+  "works": {
+    "8977": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0719A",
+          "to": "0720D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 365,
+          "source": "on-disk PL 114 scan, 400 dpi over the line; corner numbers 719/720 read before the crop",
+          "found": "intellexeruut is OURS -- Migne prints intellexerunt. [sic:] withdrawn, TEI patched."
+        },
+        {
+          "from": "0725A",
+          "to": "0726D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 368,
+          "source": "on-disk PL 114 scan, 400 dpi over the line; corner numbers 725/726 read before the crop",
+          "found": "baereticorum is OURS -- Migne prints haereticorum (ae ligature, hyphenated). [sic:] withdrawn, TEI patched."
+        },
+        {
+          "from": "0729A",
+          "to": "0730D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 370,
+          "source": "on-disk PL 114 scan, full page width; spot check at chunking, coverage.json",
+          "found": "no foot-of-page apparatus of either layer"
+        },
+        {
+          "from": "0733A",
+          "to": "0734D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 372,
+          "source": "on-disk PL 114 scan; corner numbers read before the crop",
+          "found": "in-fructuosos: Migne prints infructuosos hyphenated; CC failed to rejoin. [cj:] dissolved, TEI patched."
+        },
+        {
+          "from": "0743A",
+          "to": "0744D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 377,
+          "source": "on-disk PL 114 scan, 150 dpi full page; corner numbers read before the crop",
+          "found": "TWO identical-looking candidates, opposite verdicts: 0743C lignis is OURS (Migne: ignis), 0744C vide is MIGNE'S. One [var:] withdrawn, one confirmed."
+        },
+        {
+          "from": "0751A",
+          "to": "0752D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 381,
+          "source": "on-disk PL 114 scan, full page width; CALIBRATION PAGE, corners read 751/752",
+          "found": "the Apocalypse ends and 9003 begins mid-page; no foot-of-page apparatus"
+        }
+      ]
+    },
+    "9003": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0751A",
+          "to": "0796D",
+          "depth": "full",
+          "date": "2026-08-28",
+          "pages": "381-402",
+          "source": "on-disk PL 114 scan; every page calibrated against the printed corner numbers; five independent agent reads plus the session lead's own 400 dpi verification of col 753",
+          "found": "ALL 22 PAGES COLLATED. 63 TEI patches, ~3 divergence sites per page, running BOTH directions (CC corruptions repaired; CC normalizations toward the Clementine reverted). Five false public claims against Migne prevented; eight real Vulgate divergences of Migne's own recovered."
+        }
+      ]
+    },
+    "8944": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "1125A",
+          "to": "1126D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 568,
+          "source": "on-disk PL 113 scan, full page width; CALIBRATION PAGE, corners read 1125/1126",
+          "found": "no conjecture apparatus -- but CC had DROPPED THREE HEBREW WORDS Migne sets in the praefatio; recovered as TEI patches"
+        },
+        {
+          "from": "1149A",
+          "to": "1150D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "page": 580,
+          "source": "on-disk PL 113 scan, full page width; spot check at chunking",
+          "found": "no foot-of-page apparatus of either layer"
+        },
+        {
+          "from": "1157A",
+          "to": "1160D",
+          "depth": "read",
+          "date": "2026-08-28",
+          "pages": "584-585",
+          "source": "on-disk PL 113 scan; corner numbers read before the crops",
+          "found": "three [sic:] withdrawn, a fourth defect repaired"
+        }
+      ]
+    }
+  }
+}
