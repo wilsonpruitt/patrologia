@@ -764,3 +764,50 @@ all, because that is Pattern 12's business, not Pattern 14's.*
   correctly (*Ne quando rapiat,* etc.) three lines above. Broken type, not a variant reading;
   English keeps "as a lion", unmarked, per the standing out-of-scope ruling on this work's
   restored typographic defects.
+
+---
+
+## PLATE COLLATION · REGISTER OF RESTORED TYPE, cols 0762B–0774A
+
+Wilson's ruling of 2026-08-28 governs (stated in full at the head of the matching section in
+`cruces-0000.md`): **mark only where the reading is in doubt; record the rest here and disclose
+the count in the work-level page note.**
+
+**MARKED in this range — two.**
+
+- **0766A · *Providentia* for *Providentiae* — `[cj: *Providentia*; read *Providentiae*, "to the
+  Providence"]`.** Migne prints *et ob hoc divinae **Providentia** etiam ista disposito tribuenda
+  est*. *tribuenda est* takes a dative, and *divinae* is already dative and left stranded by a
+  nominative. The dropped *e* leaves a clean, ordinary Latin nominative behind, so the Latin page
+  gives the reader no signal; the English ("must be ascribed to the divine Providence") was
+  rendering CC's repair. Marker placed after the sentence, before *Or the same apostles*.
+- **0771A · *Filium homines* for *Filium hominis* — `[cj: *Filium homines*; read *Filium
+  hominis*, "the Son of man"]`.** Migne prints *qui nolunt liberari a Filio Dei, et pertinere ad
+  **Filium homines**, et esse filii hominum*. A nominative/accusative plural where the genitive
+  singular is required; it does not construe, and *homines* is a real word standing in a real
+  position (the same sentence ends *quoniam homines sunt*), so nothing marks it as broken.
+
+**Already marked, and standing:** 0764B `[var: Vulg. Ps 7:4 *si feci*, …]` and 0771C
+`[var: Vulg. Ps 9:23 *comprehenduntur*, …]`, both argued above.
+
+**CRUCES ONLY — recorded here, unmarked in the text.**
+
+| Col | Migne prints | Intended | Why the reading is not in doubt |
+|---|---|---|---|
+| 0763A | *flectum* | *fletum* | Intruded *c*; a non-word, and *rigatio … ad interiora* fixes "weeping". |
+| 0763C | *Cebra* | *Crebra* | Dropped *r* at the head of a sentence; a non-word. |
+| 0764A | *rapiat at leo* | *rapiat ut leo* | Ps 7:3. *at* produces no clause, and Migne sets the same lemma correctly three lines above. Wrong sort; see the DECLINED note above. |
+| 0765C | *proscipiens* | *prospiciens* | Metathesis; a non-word, and Migne sets *prospicit* correctly in the next line of the same sentence. |
+| 0766A | *disposito* | *dispositio* | Dropped *i*; a non-word, and *ista … tribuenda est* requires the feminine noun. |
+| 0766C | *ouia* | *quia* | Broken/wrong sort for the *q*; a non-word opening a causal clause. |
+| 0768D | *adimptere* | *adimplere* | *t* for *l*, split across the column break (*adim-\|ptere*); a non-word inside Mt 5:17, whose text is not in doubt. |
+| 0770B | *momen* | *nomen* | *m* for *n*; a non-word, and *cognitio nominis* stands twice in the same sentence. |
+| 0770C | *porte filiae Sion* | *portae filiae Sion* | Dropped *ae*; the same phrase is set correctly two lines above and two below. |
+| 0772B | *Non novebor* | *Non movebor* | *n* for *m*; a non-word, and the first occurrence of the same lemma at 0772A/B is set correctly. |
+
+**Orthography, not defective type — no marker and no conjecture.** 0771A ***Inploratur*** is
+Migne's unassimilated spelling of *imploratur*: correct Latin for its period, Pattern 9 exempt,
+and recorded here only so that a reader collating the twin is not left to wonder.
+
+**Punctuation** in this range is dealt with above (0765C, the comma Migne prints where the
+digitization had a full stop).

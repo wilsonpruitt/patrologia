@@ -408,3 +408,49 @@ because that is Pattern 12's business (type the plate got wrong), not Pattern 14
   translated the supplied word** ("who is beheld with a clean heart"). The plate carries no
   *corde*. The English now reads **"who is beheld by the pure"** — Pattern 8, never supply what
   the plate does not print.
+
+---
+
+## PLATE COLLATION · REGISTER OF RESTORED TYPE, cols 0751C–0762A
+
+**Wilson's ruling, 2026-08-28.** Pattern 12 read literally would put a `[sic:]` on every one of
+the ~31 typographic defects the plate collation restored to this work, and would bury the two or
+three sites that matter under a crowd of notes about broken type. **The ruling is: mark only
+where the reading is in doubt; record the rest here and disclose the count in the work-level page
+note.** The operative test, applied site by site: *mark it where the plate's reading does not
+construe, or where a reader could not recover Migne's intended word with confidence, or where the
+defect could be mistaken for a real variant; do not mark a plainly battered, turned, dropped or
+wrong sort whose intended word is not in doubt.*
+
+**MARKED in this range — two.**
+
+- **0753B · *quod si* for *quod sit* — `[cj: *quod si*; read *quod sit*, "what the counsel is"]`.**
+  Migne prints *Si autem apertius quis requirit **quod si** consilium impiorum, multipliciter
+  Scriptura loquitur*. The indirect question needs *sit*; CC had supplied the *t*. This is the
+  dangerous shape: **the dropped sort leaves behind a perfectly idiomatic Latin phrase**
+  (*quod si*, "but if"), so nothing on the Latin page tells the reader anything is wrong, and
+  our English had silently rendered the conjecture ("what the *counsel of the ungodly* is").
+  Marker placed after the rendering; the rendering stands.
+- **0761A · *operantur* for *operantem* — `[cj: *operantur*; read *operantem*, "him that
+  worketh"]`.** Migne prints ***Virum sanguinum** operantur iniquitatem, **dolosum** autem
+  diligentem mendacium intellige* — a third-person plural finite verb where the clause, governed
+  by *intellige*, requires an accusative participle in parallel with *diligentem*. It has no
+  grammatical slot, it is not a one-sort slip, and the English ("as him that worketh iniquity")
+  was rendering CC's repair.
+
+**Already marked, and standing:** 0758C `[var: Vulg. Ps 3:9 *Domini est salus*, …]`, argued above.
+
+**CRUCES ONLY — recorded here, unmarked in the text.** Migne's printed form → intended word.
+
+| Col | Migne prints | Intended | Why the reading is not in doubt |
+|---|---|---|---|
+| 0753B | *Cathera* | *Cathedra* | Dropped *d* in a non-word; the same lemma (*sedere in cathedra pestilentiae*) is set correctly at 0753A, five lines above. |
+| 0755D | *fremueruut* | *fremuerunt* | Turned sort, *n* set as *u*, in the opening lemma of Ps 2. A non-word. |
+| 0755D | *populii* | *populi* | Doubled *i* in the same lemma. A non-word. |
+| 0755C | *ut in scriptura* | *et in scriptura* | Ez 13:9. *ut* + future indicative is neither purpose nor comparison, and the clause stands third in a series of plain futures (*non erunt … non scribentur … non ingredientur*). Wrong sort; see the DECLINED note above. |
+| 0758C | *incorporalitur* | *incorporatur* | Intruded *li* across the line turn (*incorpora-\|litur*); a non-word, and the passive parallel with *praeciditur* plus the dative *male viventibus* fixes the verb. |
+| 0760C | *oribus percipe* | *auribus percipe* | Ps 5:2. *oribus* is a form of *os*, but "receive my words with mouths" is not a sense; the psalm's opening formula is not in doubt. See the DECLINED note above. |
+
+**Not a defect, recorded for completeness:** 0760D, where Corpus Corporum had **supplied** *corde*
+from Mt 5:8. The plate prints *qui **mundo** conspicitur* alone; the interpolation is gone and the
+English reads "who is beheld by the pure" (see the note above). Nothing of Migne's is wrong here.

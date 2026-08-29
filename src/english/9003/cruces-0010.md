@@ -552,3 +552,36 @@ withdrawn in chunks 0010–0013** — but the one open compromise in this file i
   divergence in this same lemma (*et tollent **nobis et gentem et locum*** for Clem. *et tollent
   nostrum locum, et gentem*) was already caught and already carries its `[var:]` in `0011.md`;
   the plate confirms it.
+
+---
+
+## PLATE COLLATION · REGISTER OF RESTORED TYPE, cols 0774B–0784A
+
+Wilson's ruling of 2026-08-28 governs (stated in full at the head of the matching section in
+`cruces-0000.md`): **mark only where the reading is in doubt; record the rest here and disclose
+the count in the work-level page note.**
+
+**MARKED in this range — one.**
+
+- **0774B · *apud ipso* for *apud ipsos* — `[cj: *apud ipso*; read *apud ipsos*, "with them"]`.**
+  Migne prints *haereticos, qui nos ab uberibus matris Ecclesiae avertere moliuntur, affirmantes
+  quod **apud ipso** sit Christus*. *apud* governs the accusative, so the ablative does not
+  construe; and the defect is not confined to case — *ipso* is singular where the whole sentence
+  is about the heretics in the plural, which our English ("that Christ is with **them**") had
+  silently supplied. A dropped *s* that leaves a real pronoun in a real position: the Latin page
+  gives the reader nothing to stop on. Marker placed after the rendering.
+
+**Already settled, and not re-opened:** 0774B ***mentem*** carries **no** marker — the reasoning
+is at §1.1 and in the section above.
+
+**CRUCES ONLY — recorded here, unmarked in the text.**
+
+| Col | Migne prints | Intended | Why the reading is not in doubt |
+|---|---|---|---|
+| 0774C | *dextruxerunt* (lemma, Ps 10:4) | *destruxerunt* | *x* for *s*; a non-word. |
+| 0774C | *dextruxerunt* (the re-quotation, same paragraph) | *destruxerunt* | The same defective sort firing twice — and Migne sets ***destruxerunt*** correctly a third time in the same paragraph (*vel legem Dei destruxerunt*), which is what proves the first two his own slip. That third occurrence is deliberately not patched. |
+| 0780D | *acceleverunt* | *acceleraverunt* | Dropped *ra*; a non-word. |
+| 0783D | *in jnstitia tua* | *in justitia tua* | Turned sort, *u* set as *n*. Wilson's own example of the class that stays unmarked. |
+
+**Orthography, not defective type:** 0778D ***dimitimus*** (single *t*) for *dimittimus*, Jo 11:48
+— argued in the section above, where the `[var:]` was declined.

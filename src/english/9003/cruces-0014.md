@@ -492,3 +492,42 @@ explicit exclusion and Pattern 18's proper territory.
   Latin reader will stop on and an English reader would never suspect.
 - ⚠ `[cj:]` inverts the `[var:]` content test: *gloria* must appear **verbatim** in the Latin
   twin, and it does. `verify-english.mjs` passes.
+
+---
+
+## PLATE COLLATION · REGISTER OF RESTORED TYPE, cols 0784B–0794D
+
+Wilson's ruling of 2026-08-28 governs (stated in full at the head of the matching section in
+`cruces-0000.md`): **mark only where the reading is in doubt; record the rest here and disclose
+the count in the work-level page note.**
+
+**MARKED in this range — one, and it was already argued above:** 0794A
+`[cj: *gloria*; read *gloriam*, "glory"]`. **Nothing further is marked here.** In particular
+0788A ***impressi*** stays unmarked — it construes, and the dissent is set out above.
+
+**CRUCES ONLY — recorded here, unmarked in the text.**
+
+| Col | Migne prints | Intended | Why the reading is not in doubt |
+|---|---|---|---|
+| 0785D | *Ut n profundo* | *Ut in profundo* | The *i* of *in* is simply absent. Recorded above as well. |
+| 0786C | *poehas* | *poenas* | *h* for *n*. Wilson's own example of the class that stays unmarked. |
+| 0786D | *constringit ur* | *constringitur* | A quad of space driven into the word; a split run whose halves are not both words. |
+| 0787C | *immaeulatam* | *immaculatam* | Italic *e* for *c*; SECOND occurrence only — the lemma immediately above it is set correctly. |
+| 0787D | *doeebit* | *docebit* | The same damaged italic *e*-for-*c* sort firing again in the same column, which is what shows it a sort in the case and not a reading. Wilson's own example. |
+| 0789D | *evangelistarum, eum* | *evangelistarum, cum* | *e* for *c* again. It leaves a real word, but the clause is then left with a bare subjunctive (*praedicaretur*) and no conjunction at all, so *cum* is the only candidate — the reader is not in doubt, only the sort is. |
+| 0789D | *ut gigas ac currendam viam suam* | *ad currendam* | *c* for *d*; and Migne's own gloss repeats *ad currendam viam* three lines later. Recorded above as well. |
+| 0790C | *quemquem* | *quemquam* | *e* for *a*; a non-word, and *quemquam* is set correctly four lines above. |
+| 0790D | *lapisque pertiosus* | *pretiosus* | Metathesis; *lapides pretiosi* is correct at 0793C. |
+| 0791C | *opressit* | *oppressit* | Dropped *p*. |
+| 0791D | *snperbia* | *superbia* | Turned sort, *u* set upside down as *n*. Wilson's own example. |
+
+**Orthography and case, not defective type — no marker and no conjecture.**
+
+- **0789D · *Exultavit*** for *Exsultavit* in the gloss (the lemma two words earlier keeps the
+  *s*). An accepted spelling, not broken type. ⚑ This is the site whose neighbour produced the
+  withdrawn `[sic: *cut*]`, above.
+- **0792B · *Mittat tibi auxilium de sancto*** — Migne sets the lemma lower-case where the
+  digitization had capitalized it. A compositor's case decision with no English exponent beyond
+  capitalization, which the facing Latin column already shows.
+
+**Punctuation** in this range is dealt with above (0789A, three marks).
