@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-08-28 session: the first work in the corpus collated against Migne's plate page by page, all 22 of them — 63 patches, five false public claims against Migne withdrawn, and eight real Vulgate divergences recovered that the digitization had quietly erased —
+  'pl/114/expositio-in-xx-primos-psalmos',                        // Walafrid Strabo (so Migne) / Anselm of Laon and his school — the gloss on Psalms 1-20, printed from Pez's Thesaurus; Pez cut it at twenty because the rest was already in the Gloss, and the plate showed our transcription departing from Migne about three times a page
   // — 2026-08-28 session: the Glossa's ninth cadence batch, Apocalypse and the Song of Songs, and the one where a single plate page recovered three dropped Hebrew words and settled two identical-looking single-letter divergences in opposite directions —
   'pl/114/apocalypsis-b-joannis',                                 // Anselm of Laon and his school — the gloss on the Apocalypse of John; the seven churches, the seals opened and the New Jerusalem, with a Douay "shortly" that had swallowed Migne's own next lemma
   'pl/113/canticum-canticorum',                                   // Anselm of Laon and his school — the gloss on the Song of Songs; Bride and Bridegroom read as Church and Christ, and a page that had given the Bridegroom's answer to the Bride's own question until the work's own words settled it back
