@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-28c — THE SHIP-TEST GATE + 8977'S TWO FALSE MARKERS · ⛔ NOT DEPLOYED
+## ▶▶▶▶▶ SESSION 2026-08-28c — THE SHIP-TEST GATE + 8977'S TWO FALSE MARKERS · ✅ DEPLOYED + VERIFIED LIVE 2026-08-28
 
 Items (1) and (2) of the three owed after 9003 are DONE and committed on `master`
 (`d130404`, `c57195e`). **Item (3) — sample width across the shipped books — is still

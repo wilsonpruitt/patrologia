@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
   "tiers": {
     "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
@@ -1207,6 +1207,17 @@
       "coverage": "spot",
       "notes_recovered": 0,
       "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-08-28 as part of the chunking of this work. Read FULL page width from the on-disk scan; the printed corner numbers on the calibration page confirm PDF page = (column + 11) / 2 for the volume BEFORE any note was read. Checked zero: no foot rule, no numbered Forte/F. conjecture apparatus, and no raised-asterisk layer, at the foot or mid-page. Pages: p.568 cols 1125/1126 — the BEGINNING of Canticum canticorum, a work division falling MID-PAGE (Ecclesiastes ends, drop title CANTICUM CANTICORUM, PRAEFATIO opens beneath it) — and p.580 cols 1149/1150, interior (Cant. iv). Calibration page p.568, corners read 1125 / 1126. ⭐ THIS CHECK DID NOT COME BACK EMPTY-HANDED even though the conjecture-note count is zero: the same page showed that Corpus Corporum had dropped THREE Hebrew words Migne sets in the PRAEFATIO. Recovered and patched — data/hebrew-patches/8944.json, data/tei-patches/8944.json."
+    },
+    {
+      "idno": "8947",
+      "series": "pl",
+      "volume": 113,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "columns": "1183C-1232A",
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs04migngoog.pdf at 300 dpi, FULL page width. Map recalibrated before the read against the printed corner numbers: p.597 = cols 1183/1184 and p.598 = cols 1185/1186, confirming PDF page = (column + 11)/2 for this scan. TWO pages read because the Sapientia->Ecclesiasticus division falls MID-PAGE on p.597: that page was examined at the mid-page division band as well as at the foot, and p.598 at the foot. Checked zero on both apparatus layers: no numbered Forte/F. conjectures and no asterisk cross-references. A raised mark after 'dispensavit' at col 1184 was inspected at 600 dpi and is a broken sort or ink speck beside the colon, NOT Migne's six-pointed asterisk, and no foot note exists on that page for it to key to.",
+      "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.598 (cols 1185/1186): the left column loses its opening characters ('juilia est', 'us vestris', 'Deus sapientiam'). This is the known PL 113 clipping documented in CLAUDE.md, and it falls INSIDE this work. Any left-column crux in 8947 must be settled against the Gallica second witness ark:/12148/bpt6k5505319w (f = (column + 1) / 2), never recorded as illegible from this PDF alone."
     }
   ],
   "fields": {
