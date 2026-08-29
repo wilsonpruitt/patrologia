@@ -1,5 +1,90 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-29 — 8947 *LIBER ECCLESIASTICUS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
+
+**The whole pipeline in one session, and the plate gate's first full run on a NEW work.**
+Corpus **145 → 146**, `/glossa` **39 → 40 of 58**. Pushed (`3967b8e`), deployed, smoke-tested
+by body on five URLs including the cruces page.
+
+18 chunks, four Opus agents, **~696K burn against a ~720K estimate** at the runbook's
+recalibrated 40K/chunk — the figure held.
+
+### ⭐⭐ THE HEADLINE: 9 OF 13 `[sic:]` MARKERS WERE FALSE ACCUSATIONS AGAINST MIGNE
+
+The gate read **all 22 plate pages** bearing a marker (`data/plate-reads.json`), and it ran
+hard in BOTH directions:
+
+- **`[var:]` — 56 of 56 CONFIRMED.** Not one withdrawn. *Noli AMARE mendacium* (Vulg. *arare*),
+  *fluvius DORIX* with its Doric gloss, *juxta numerum ANGELORUM DEI*, *EXTOLLE adversarium*,
+  and *vapulabit PAUCIS* — whose self-contradiction is confirmed on BOTH plates, since 1206D
+  prints *multis* correctly.
+- **`[sic:]` — 9 of 13 FALSE**, every one a Corpus Corporum corruption: *misericodia* (plate:
+  misericordia), *ex* (plate: **et**), *Possuntt* (plate: Possunt), *Ad monitio* (plate
+  hyphenates Ad-/monitio), *Domini* (plate: **Domino**), *cum* (plate: **eum**), *nunde*
+  (plate: nunc/de), *jurejarando*, *JesusChristus*. All withdrawn.
+- **4 of MIGNE'S OWN defects had been hidden from us** by CC's silent tidying: *loquendeum*,
+  *descretur*, *interrogatia*, *orationm*. Restored, now carried with a `[sic:]`.
+  ⚑ **The translating agents could not have found these — our Latin already read correctly.**
+
+⭐ **Without the gate, 8947 ships nine false public claims against Migne and conceals four of
+his real defects, and every automated check we own passes.** 13 patches, both directions,
+in `data/tei-patches/8947.json`.
+
+### The Gallica second witness earned its place
+
+Our PL 113 copy **clips the left margin inside this work** (pp. 598, 604, 620). Three of the
+nine withdrawals were unreachable without `ark:/12148/bpt6k5505319w`, **f = (column + 1)/2** —
+one HTTP request each, no download.
+
+### Blind polarity read — 5 defects OF OUR OWN
+
+Four fenced readers. **Three of reader 1's findings were already in the cruces it never saw**
+(independent rediscovery = evidence it read); the new ones were OURS. Fixed: 1186D
+*sustinet* ("bears his mercy" → "patiently awaits"), **1192A–B where `ne` failed to distribute
+across a semicolon** and the gloss appeared to ADVISE a man crushed by his faults to seek
+judicial office, 1199C (a dropped *praescientiam Dei*), 1205C, 1215D.
+⛔ **One finding REJECTED on the rule** — 1207A's supplied negation is *required* by 7a⁗ rule 2.
+Recorded in cruces.md so it is not re-raised.
+
+### The merge caught two convention drifts
+
+*usque ad* split down the middle of the work ("down to" 0000–0009 vs "as far as" 0010–0017);
+resolved to **as far as** (8976/8985 practice). *impius* had three renderings; normalised to
+**ungodly** site by site against the Latin — the other "wicked" render *nequam*/*iniquus* and
+are correct.
+
+---
+
+## ▶ OPEN — FOR WILSON
+
+1. **⛔ `[sic:]`/`[var:]` BACKLOG — still paused at Wilson's word (2026-08-29).** 1,587 of 1,650
+   markers across 81 shipped works stand on columns nobody has read. **8947 now shows what that
+   backlog is likely to contain: 9 of its 13 `[sic:]` were false.** Options were (a) withdraw
+   unread markers wholesale, (b) plate-read them work by work, (c) banner them as unverified.
+   Not urgent, not retrofitted — his call.
+2. **⚠ 8976 contradicts Pattern 7 in the shipped corpus.** It ruled work-locally that non-words
+   are *rendered for the evident sense, not carried* — the opposite of Wilson's 2026-07-28
+   ruling ("carry it through… no exceptions"). 8947 follows Pattern 7. Flagged, NOT swept.
+
+## ▶ NEXT — the Glossa remainder, cheapest first
+
+19 books left. **The four Pauline epistles are the cheap remainder of the whole gloss** —
+~51K words for four books against 90K for Psalms alone, and per-work is what the sponsors see:
+
+| idno | book | words | ~chunks | state |
+|---|---|---:|---:|---|
+| 8986 | Epistola II ad Corinthios | 7,592 | ~9 | not chunked |
+| 8993 | Epistola ad Hebraeos | 11,160 | ~13 | not chunked |
+| 8981 | Epistola I ad Corinthios | 12,254 | ~14 | not chunked |
+| 9006 | **Prophetia Jeremiae** | 18,921 | **25 — CHUNKED** | ⬜ spot check owed |
+| 8996 | Epistola ad Romanos | 19,928 | ~23 | not chunked |
+
+Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K**.
+
+⚠ **9006 is chunked and ready but OWES ITS PLATE SPOT CHECK** — it predates the 2026-08-19 rule.
+`chunk-work.mjs` prints the notice. PL 114 map: **PDF page = (column + 11)/2**, calibrate first.
+
+
 ## ▶▶▶▶▶ SESSION 2026-08-28c — THE SHIP-TEST GATE + 8977'S TWO FALSE MARKERS · ✅ DEPLOYED + VERIFIED LIVE 2026-08-28
 
 Items (1) and (2) of the three owed after 9003 are DONE and committed on `master`
