@@ -1,5 +1,29 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-28c — THE SHIP-TEST GATE + 8977'S TWO FALSE MARKERS · ⛔ NOT DEPLOYED
+
+Items (1) and (2) of the three owed after 9003 are DONE and committed on `master`
+(`d130404`, `c57195e`). **Item (3) — sample width across the shipped books — is still
+Wilson's, and the gate has now MEASURED it: 1,587 of 1,650 `[sic:]`/`[var:]` markers stand on
+columns nobody has read, across 81 of 82 englished works. 9003 is the only clean one.**
+
+- **`scripts/plate-gate.mjs <idno>`** refuses a `[sic:]`/`[var:]` on a column with no recorded
+  plate read; `--all` surveys instead of gating and exits zero. Reads live in
+  **`data/plate-reads.json`** (seeded with 8977, 8944, 9003 from what the record attests).
+  Runbook step **4b**, CLAUDE.md rule **8a**.
+- **8977's two `[sic:]` are withdrawn on a fresh plate read**: p. 365 cols 719/720 gives
+  *intellexerunt* (ours had *intellexeruut*), p. 368 cols 725/726 gives *haereticorum* (ours
+  had *baereticorum*). Both are CC's, both were live accusations against Migne. TEI patched,
+  re-chunked (only those two words moved), `verify-english` OK, page + cruces + index rebuilt.
+
+⛔⛔ **DEPLOY IS OWED AND IT IS NOW TWO THINGS AT ONCE:** 9003 has never been deployed (it is
+built, indexed and `ours` on disk but 404 on migne.app), and 8977's corrected page is only
+local — **the two false markers are still live**. One deploy carries both:
+`cd ~/patrologia/site && npx vercel --prod --archive=tgz`, then smoke-test
+`/pl/114/expositio-in-xx-primos-psalmos/`, its CRUCES url, `/pl/114/apocalypsis-b-joannis/`
+and `/glossa`.
+
+
 ## ▶▶▶▶▶ SESSION 2026-08-28 — APOCALYPSE + CANTICLES · ✅ PUSHED · ✅ DEPLOYED + VERIFIED LIVE
 
 **The pipeline finished in a second pass, same day.** Both works are translated, verified,
