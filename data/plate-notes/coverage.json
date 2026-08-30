@@ -1228,6 +1228,51 @@
    "notes_recovered": 0,
    "columns": "0009A-0062D",
    "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed against the printed corner numbers before the read: p.23 prints 35/36, so PDF page = (column + 11)/2 holds for this scan. THREE pages read: p.10 (cols 9/10), the work's opening — a fresh title page, so the division from the preceding matter does NOT fall mid-page; p.23 (cols 35/36) interior; p.36 (cols 61/62), the work's closing page, which ends with the tailpiece rule and white space, so the following work begins on a fresh page and that division is not mid-page either. Checked zero on both apparatus layers on all three: no numbered Forte/F. conjectures, no asterisk cross-references. Incidental confirmation that our chunking matches the plate: p.10 reproduces chunk 0000's PROLOGUS/PRAEFATIO/ARGUMENTUM/CAPUT PRIMUM sequence and p.36 reproduces chunk 0023's tail (De pauperibus ... Et factum est) verbatim in lemma order."
+  },
+  {
+   "idno": "8996",
+   "series": "pl",
+   "volume": 114,
+   "tier": 3,
+   "coverage": "partial",
+   "notes_recovered": 1,
+   "notes_placed": 1,
+   "columns": "0469A-0520B",
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed at the printed corner numbers BEFORE the read. TWO pages read: p.240 (cols 469/470), where the Actus->Romanos division falls MID-PAGE, examined at the division band and at the foot; and p.265 (cols 519/520), where this work's end interleaves with I Corinthians mid-page, examined at the foot. ⭐ NOT A CHECKED ZERO — p.240 carries an ASTERISK-LAYER note (Migne's second foot-of-page apparatus, Wilson 2026-08-24), keyed to a raised * before the VERS. 2 lemma *Quod ante* at col 0470B and running the full page width under both columns: Migne's pointer that whatever Walafrid's Gloss took from Haymo of Halberstadt's exposition of the Pauline epistles is to be sought in Haymo's own works at PL 116, 117 and 118. Recovered to data/plate-notes/8996.tsv, injected as [cn: * | …], work re-chunked. No NUMBERED Forte conjectures on either page. ⚠ Transcribed as printed, 'Quiquid' — very likely Migne's own setting for 'Quidquid', but read at 300 dpi and not re-checked at higher magnification; verify before quoting it in public prose.",
+   "caveat": "⛔ COVERAGE IS 'partial', NOT 'full' — chunk-work.mjs auto-recorded this work as coverage 'full' / tier 3 because a note was recovered, but only TWO of its ~26 pages were read. 'full' asserts the whole numbered sequence was read and verified unbroken, which is not what happened, and tier 3 makes the same claim. Corrected by hand 2026-08-29. ⚑ The automation over-claims on any work where a spot check happens to FIND something: a found note upgrades the record to 'full' regardless of how many pages were read. Worth fixing in the script. ⚠ OUR COPY CLIPS THE RIGHT MARGIN on some pages in this stretch of PL 114 — p.265 (cols 519/520) and p.281 (cols 551/552) both lose the right column's closing characters ('per ipsum Ch', 'praedic', 'hominibu', 'conscient', 'diliger'). p.327 (cols 643/644) is clean and prints both corners, so the clipping is PER-PAGE, not per-volume. Same class as the known PL 113 LEFT-margin clipping, and it falls INSIDE these works: any right-column crux must be settled against a second witness (data/volumes.json lists PL 114's other scans), never recorded as illegible from this PDF alone."
+  },
+  {
+   "idno": "8981",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "0519C-0550D",
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed at the printed corner numbers BEFORE the read. Read p.265 (cols 519/520), the work's opening — and the Romanos->I Corinthios division falls MID-PAGE there, so that page was examined at the division band as well as at the foot. Checked zero on BOTH apparatus layers: no numbered Forte conjectures and no asterisk cross-references.",
+   "caveat": "⚠ OUR COPY CLIPS THE RIGHT MARGIN on some pages in this stretch of PL 114 — p.265 (cols 519/520) and p.281 (cols 551/552) both lose the right column's closing characters ('per ipsum Ch', 'praedic', 'hominibu', 'conscient', 'diliger'). p.327 (cols 643/644) is clean and prints both corners, so the clipping is PER-PAGE, not per-volume. Same class as the known PL 113 LEFT-margin clipping, and it falls INSIDE these works: any right-column crux must be settled against a second witness (data/volumes.json lists PL 114's other scans), never recorded as illegible from this PDF alone."
+  },
+  {
+   "idno": "8986",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "0551A-0570C",
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed at the printed corner numbers BEFORE the read. Read p.281 (cols 551/552), the work's opening — a fresh title page, so the division from I Corinthians does NOT fall mid-page (that work ends at 0550D, the foot of p.280). Checked zero on both apparatus layers.",
+   "caveat": "⚠ OUR COPY CLIPS THE RIGHT MARGIN on some pages in this stretch of PL 114 — p.265 (cols 519/520) and p.281 (cols 551/552) both lose the right column's closing characters ('per ipsum Ch', 'praedic', 'hominibu', 'conscient', 'diliger'). p.327 (cols 643/644) is clean and prints both corners, so the clipping is PER-PAGE, not per-volume. Same class as the known PL 113 LEFT-margin clipping, and it falls INSIDE these works: any right-column crux must be settled against a second witness (data/volumes.json lists PL 114's other scans), never recorded as illegible from this PDF alone."
+  },
+  {
+   "idno": "8993",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "0643A-0670D",
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-29 from the on-disk scan patrologiaecurs06saingoog.pdf at 300 dpi, FULL page width. Map confirmed at the printed corner numbers BEFORE the read. Read p.327, which prints BOTH corner numbers (643/644) and is clean to the right margin. The work's opening — Philemon ends at 0642D, the foot of p.326, so the division does NOT fall mid-page. Checked zero on both apparatus layers.",
+   "caveat": "This page is NOT clipped; see the sibling PL 114 entries for the right-margin clipping seen elsewhere in this volume."
   }
  ],
  "fields": {
