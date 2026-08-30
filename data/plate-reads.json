@@ -1459,6 +1459,24 @@
      "found": "⭐⭐ 'Istam ergo imitetur' -- CC dropped the r, manufacturing the nominative-ego crux the stint called the worst site in its range. There was never a crux. Also 'Et Deus pacis erit vobiscum' CONFIRMED as Migne's short lemma against Clementine 2Cor 13:11 et dilectionis: NOT the TEI loss the stint suspected, so a [var:] was fired here as a result of this read. ⚠ THIS PAGE CLIPS THE LEFT MARGIN and its left column has lost opening characters; no marker depends on that column, and any future crux there needs the second witness."
     }
    ]
+  },
+  "8993": {
+   "series": "pl",
+   "volume": 114,
+   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2",
+   "reads": [
+    {
+     "from": "0643A",
+     "to": "0670D",
+     "depth": "read",
+     "date": "2026-08-30",
+     "pages": "327-340",
+     "source": "on-disk PL 114 scan, full page width at 150 dpi with 400 dpi crops for every letter-level call; read by the session directly, not by fenced agents. CALIBRATION: p.327 prints 643/644, checked before the first read.",
+     "found": "14 [var:] all STAND, 0 revised, 0 false. 2 [cj:] WITHDRAWN as our own corruptions (0659A Ac->Ab, 0661D vetata->velata); 3 [cj:] and the 1 [d:] confirmed as Migne's own printing. 9 hidden defects recovered (data/tei-patches/8993.json): 2 NORMALIZED defects of Migne's that CC had silently tidied (0650A dia, 0670B ominibus), 1 defect of Migne's our text already carried (0669D serviendium, now owed its [sic:]), 4 CC corruptions (0665A padebat, 0667B sanctur, 0661D vetata, 0659A Ac), 2 CC line-break failures (0654A genuerunt -- which also restored an 'in' CC INSERTED -- and 0655D permanet)."
+    }
+   ],
+   "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.330 (cols 649/650) and p.340 (cols 669/670), losing ~10 characters at the start of the left column's lines. Neither clip touched a marker: the 0649D dittography was settled because 'sed non omnes audierunt' sits mid-line, and the 0670A/0669A markers are in the right column. ⛔ ONE ITEM IS UNSETTLED BECAUSE OF THE CLIP: 0661C 'quod non valet ad probationem ___' -- the word our file reads as 'nostram' falls in the clipped zone on p.336. It changes nothing in the English and needs the second witness (copyB_patrologiaecurs114unkngoog.pdf, filed under raw/scans/pl202) if anyone wants it closed. ALSO UNSETTLED, raised by this read and not by any agent: 0655D's lemma prints as 'Ilic autem' where our file reads 'Hic autem' -- an italic capital H whose crossbar may simply have dropped out at this scan's resolution. Recorded as observed, NOT patched and NOT marked: it is exactly the worn-sort-vs-real-defect ambiguity 9006's reader flagged as its least certain class."
   }
  }
 }

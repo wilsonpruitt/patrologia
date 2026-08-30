@@ -1,0 +1,63 @@
+{
+  "note": "PLATE GATE of 8993 (Glossa ordinaria, Epistola ad Hebraeos), 2026-08-30. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before the first read (p.327 prints 643/644). 14 pages read (327-340), covering all 14 [var:], all 5 [cj:] and the 1 [d:]. RESULT: 14 [var:] STAND, 0 revised, 0 false; 2 [cj:] WITHDRAWN as OUR corruptions (see below); 3 [cj:] and the [d:] stand as Migne's own printing.",
+  "class": "TWO DIRECTIONS, as in 9006. (1) CORRUPTED -- Corpus Corporum broke a word Migne set correctly; repaired here, and where a marker had been fired against Migne on the strength of it, that marker is WITHDRAWN. (2) NORMALIZED -- CC silently tidied a defect in Migne's own type; restored so a [sic:] can show it (Pattern 7). Our Latin read CORRECTLY at both normalized sites, so no check we own could have found either.",
+  "result": "7 CORRUPTED (2 of them line-break splits CC failed to rejoin; 2 of them the ground of a withdrawn [cj:]). 2 NORMALIZED restorations of Migne's own defects, each owed a new [sic:]. Plus 0669D serviendium, which needed NO patch -- our text already agreed with the plate -- but is Migne's own defect and is owed a [sic:] the translator had withheld pending this read.",
+  "patches": [
+    {
+      "col": "0650A",
+      "find": "Et requievit die septima.",
+      "replace": "Et requievit dia septima.",
+      "direction": "normalized",
+      "why": "Plate p.330 col 0650A prints the italic lemma 'Et requievit dia septima' -- 'dia', a non-word (Vulg. Hbr 4:4 / Gen 2:2 read 'die septimo'). Verified at 400 dpi: the a is a full sort, and Migne sets 'Septima die' in roman two lines below on the same plate, so the two letters are directly comparable in his own type. CC supplied the e. Our Latin read the CORRECT form. Found while reading the column for a different marker. Owed a [sic:]."
+    },
+    {
+      "col": "0670B",
+      "find": "Sicut generaliter\nomnibus scribit",
+      "replace": "Sicut generaliter\nominibus scribit",
+      "direction": "normalized",
+      "why": "Plate p.340 col 0670B prints 'Sicut generaliter ominibus scribit, ita generaliter omnibus praelatis et subditis' -- the defective sort and the correct one on the SAME LINE, which is what makes it certain rather than a reading of worn type. Verified at 400 dpi. CC tidied the first. Found while reading the line for 'propositos' four words away -- addendum C's rule earning its place again. Owed a [sic:]."
+    },
+    {
+      "col": "0654A",
+      "find": "qui eos in fide genu\nerunt",
+      "replace": "qui eos fide genuerunt",
+      "direction": "corrupted",
+      "why": "Plate p.332 col 0654A prints 'quia patres suos, qui eos fide genu' at the end of a line and 'erunt, imitantur' at the start of the next, with NO hyphen at the break (verified at 400 dpi -- unlike 0655D, which does print one). TWO CC faults on one phrase: it failed to rejoin the word, and it INSERTED an 'in' the plate does not print ('qui eos in fide'). The translator declined a [sic:] here on the reasoning that a space at a line break is the likeliest digitization artifact, and was right; the inserted 'in' nobody could have seen."
+    },
+    {
+      "col": "0655D",
+      "find": "Sicut Christus per\nmanet",
+      "replace": "Sicut Christus permanet",
+      "direction": "corrupted",
+      "why": "Plate p.333 col 0655D prints 'Sicut Christus per-' WITH a hyphen at the line end and 'manet, ita et lex quam attulit' on the next. CC dropped the hyphen and left the two halves as separate tokens. Same outcome as 0654A, different fault -- there Migne set no hyphen at all."
+    },
+    {
+      "col": "0665A",
+      "find": "Non enim padebat",
+      "replace": "Non enim pudebat",
+      "direction": "corrupted",
+      "why": "Plate p.338 col 0665A prints 'Non enim pudebat, eum ferre tantisper insigne potestatis filii sui'. CC produced the non-word 'padebat'. Raised by the translator as a plate candidate and correctly left unmarked."
+    },
+    {
+      "col": "0667B",
+      "find": "sed sanctur,",
+      "replace": "sed sanetur,",
+      "direction": "corrupted",
+      "why": "⭐ Plate p.339 col 0667B prints 'sed sanetur, si erravit vel timuit'. CC produced the non-word 'sanctur' by an e->c fault. The translator predicted exactly this WITHOUT the plate: it found the same fault at a second site in another work (11065 @0044, 'vel sanctur infirma' beside its own 'bene sanatur'), reasoned that two works sharing one fault indicts the transcription rather than the type, and on that ground WITHHELD a [sic:] here and on three other non-words. The plate vindicates the whole decision."
+    },
+    {
+      "col": "0661D",
+      "find": "Fides nostra est vetata",
+      "replace": "Fides nostra est velata",
+      "direction": "corrupted",
+      "why": "⛔ WITHDRAWS A MARKER. Plate p.336 col 0661D prints 'Fides nostra est velata' with a clean l, verified at 400 dpi, in a gloss on the lemma 'Per velamen' -- which is itself the argument the translator made. Its [cj: vetata; read velata] was RIGHT ABOUT THE READING and wrong about the class: this is our corruption, not a conjecture on Migne's word, so the [cj:] is withdrawn and the English simply reads 'veiled'."
+    },
+    {
+      "col": "0659A",
+      "find": "Ac operibus mortuis",
+      "replace": "Ab operibus mortuis",
+      "direction": "corrupted",
+      "why": "⛔ WITHDRAWS A MARKER. Plate p.335 col 0659A prints 'Ab operibus mortuis; id est peccatis' with a clean b. CC produced 'Ac'. The translator's [cj: Ac; read Ab] was right about the reading and wrong about the class -- the second instance of that exact shape in this one work (cf. 0661D). Withdrawn; the English reads 'from dead works' with no marker."
+    }
+  ]
+}
