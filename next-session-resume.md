@@ -1,9 +1,11 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-30b — 8993 *EPISTOLA AD HEBRAEOS* · ✅ SHIPPED · ⬜ NOT DEPLOYED
+## ▶▶▶▶▶ SESSION 2026-08-30b — 8993 *EPISTOLA AD HEBRAEOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 Corpus **148 → 149**, `/glossa` **42 → 43 of 58**, cruces **145 → 146**. Commits `904562c` →
-`48f7f13`, **4 ahead of origin/master.**
+`14584b9`, **PUSHED** (`origin/master` = `14584b9`). Deployed to `migne.app` and smoke-tested:
+work page, **cruces page**, landing, `/glossa`, and the resolver at `/pl/114/670a` all 200,
+badge reads "New English translation", `[sic:]` markers rendering.
 
 ⚠ **The previous note's "8 commits UNPUSHED" was STALE** — `origin/master` was already at
 `42a2a5d`. The note's own trap list warns about exactly this. Check `git status -sb` first.
@@ -75,10 +77,16 @@ session itself, so it is not a separate agent burn but it is 14 pages of reading
 
 ## ▶ OPEN — FOR WILSON
 
-1. **⬜ DEPLOY 8993.** Built, gated, staged, NOT deployed. `cd site && npx vercel --prod --yes
-   --archive=tgz --scope wilson-pruitts-projects` (the `--scope` is required — 08-30a finding).
-   Smoke-test the work page, **the cruces page**, landing, and `/glossa`.
-2. **⬜ PUSH** — 4 commits ahead of origin/master.
+1. ⛔ **A PRE-EXISTING BUILDER BUG, found at the post-deploy smoke test and NOT fixed.** A
+   `[sic:]` whose content is italic, placed **inside** an italic lemma span, renders as
+   `<span class="sic"></i>dia<i></span>` — an unbalanced `</i>` that leaks into the rest of the
+   paragraph. **Live 9006 carries it** (`prophetia-jeremiae`, *"to his brethren
+   `</i>fratibus<i>`"*), and that crux file is where the placement was copied from. ⚑
+   **`scan-raw-markers.mjs` cannot see it** — nothing renders as literal bracket text; the markup
+   only looks well-formed. 8993 was fixed by moving the marker outside the lemma (985/985 balanced,
+   verified live). **The builder fix is shared machinery and wants your go**; a cheap detector is
+   an `<i>`/`</i>` count per built page, which would have caught it instantly.
+2. **✅ Deploy and push both done this session.**
 3. **⬜ 0661C unsettled because OUR COPY CLIPS IT.** p.336 clips the left margin;
    *quod non valet ad probationem ___* falls in the clip. Changes nothing in the English. The
    second witness (`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`) closes it in one page.
