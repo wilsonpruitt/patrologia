@@ -19,17 +19,17 @@ layer alone makes the published page read head → range A → range B, once eac
 
 ## §0 · Apparatus, counted from the English
 
-**7 `[var:]` · 0 `[sic:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]` · 0 `[f:]`** — counted
-from `src/english/8986/0*.md` after the merge edits, not summed from the two stints' reports.
+**8 `[var:]` · 5 `[sic:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]` · 0 `[f:]`** — counted
+from `src/english/8986/0*.md` after the merge edits AND the plate gate, not summed from the two
+stints' reports. (Before the plate read the work stood at 7 `[var:]` and 0 `[sic:]`; the read
+confirmed all seven, fired an eighth, and produced the five `[sic:]` — see §5.)
 
 `verify-english.mjs 8986` → **OK, 10 chunks**, columns/notes/sections aligned, no duplicate
 paragraphs. `scan-raw-markers.mjs` → no marker rendered as literal bracket text. Word ratios
 1.45–1.50×, no ratio warning.
 
-⛔ **`plate-gate.mjs 8986` FAILS: 7 markers, 0 recorded plate reads.** All seven are `[var:]`
-resting on six unread columns (0554A · 0559C ×2 · 0561A · 0562A · 0567D · 0568A). The work
-does **not** ship until each is read at the plate and recorded in `data/plate-reads.json`, or
-withdrawn. This is the gate working as designed, not a defect in the translation.
+✅ **`plate-gate.mjs 8986` PASSES** (2026-08-30): every marker stands on a column that was read.
+Six pages read at 300 dpi — 282, 283, 285, 286, 289, 290 — recorded in `data/plate-reads.json`.
 
 ⭐ **Both stints independently declined to fire a single `[sic:]`**, and both gave the same
 reason without having seen the other say it: a `[sic:]` accuses *Migne's type*, our Latin is
@@ -133,16 +133,88 @@ because a later reader will otherwise wonder whether these were coordinated. The
 
 ## §4 · Open against this work
 
-1. ⛔ **The plate gate (§0).** Seven `[var:]` on six unread columns. Read and record, or
-   withdraw. Nothing else blocks the work.
+1. ✅ **The plate gate — CLOSED 2026-08-30 (§5).** 7 stood, 0 false.
 2. **The polarity read (step 4a) has not been run.** Required before ship, and it must be a
    blind reading pass — the checkers must NOT be given this file or the range files first.
-3. ⬜ **`[var:]` candidates the stints declined, held for the plate reader** — chiefly
-   *Transformantur* (0555D, Clementine *transformamur*: third person against first, materially
-   different, declined because `-mur`→`-ntur` is the verb-ending shape CLAUDE.md 8a records the
-   digitization *manufacturing*); and B's *Et Deus pacis erit vobiscum* (0570C, missing *et
-   dilectionis* where the gloss expounds *dilectio*), flagged as probable **TEI loss wanting a
-   patch, not a marker**. Range files carry the full lists with reasons.
+3. ✅ **Both held candidates settled at the plate (§5)**, and both against the stint's own guess:
+   *Transformantur* was neither Migne's nor the Vulgate's, and *Et Deus pacis erit vobiscum* was
+   Migne's own short lemma, not the TEI loss it was taken for.
 4. ⚠ **Our PL 114 scan clips the right margin on some pages in this stretch** (p.265, p.281;
    p.327 clean). Any right-column crux above needs the second witness in `data/volumes.json` —
    never "illegible" from this PDF alone.
+
+## §5 · THE PLATE GATE — six pages, 2026-08-30
+
+Read directly by the session rather than by fenced agents, deliberately: briefing several readers
+on the same suspicion produces convergence, not corroboration, and that failure is recorded three
+times in this project already. `page = (column + 11) / 2`, re-derived here by fitting the six PL 114
+rows of the 2026-08-29 sweep ledger *before* it was compared with 9006's identical map. Printed
+corner numbers read FIRST on every page.
+
+### ⭐ 7 STAND · 0 REVISED · 0 FALSE · 0 UNRESOLVED — and an eighth marker fired
+
+| col | marker | verdict |
+|---|---|---|
+| 0554A | `[var:]` *Caupones tui vino aquam miscent* | **STANDS** — the gloss names the *pseudoapostoli* it is aimed at |
+| 0559C | `[var:]` *Maledictus omnis qui pendet in ligno* | **STANDS** — Migne's gloss then asks *Quid est quod dicit, omnis?*, which is exactly what the marker claimed |
+| 0559C | `[var:]` *terra es, in terram ibis* | **STANDS** |
+| 0561A | `[var:]` *Ab omni iniquitate* | **STANDS** — its own lemma, glossed *Scilicet mentis* against the twin lemma *carnis* |
+| 0562A | `[var:]` *qui passus est fraudem* | **STANDS** |
+| 0567D | `[var:]` *Qui apponit scientiam, apponit et dolorem* | **STANDS** |
+| 0568A | `[var:]` *Et ossa mea in frixorio confrixa sunt* | **STANDS** — the gloss stands on *frixorium* |
+| 0570C | `[var:]` *Et Deus pacis erit vobiscum* | **FIRED BY THE READ** — see below |
+
+⛔ Against a **65% false rate for PL 114** in the sweep three days earlier. The variable is the
+marker policy, not the volume: this work fires no letter-level accusation against Migne's type at
+all, and both stints reached that policy independently, without either seeing the other.
+
+### ⭐⭐ NINE DEFECTS IN OUR LATIN THAT NO CHECK WE OWN COULD HAVE FOUND
+
+Every one read *correctly* in our file, which is precisely why nothing caught them. All restored in
+`data/tei-patches/8986.json`; the five that are Migne's own type each now carry a `[sic:]`.
+
+**Corpus Corporum silently tidied Migne (5):** `nou`→non (0555B) · `Vebum`→Verbum (0561A) ·
+`ete.`→etc. (0562B) · `Ostendlt`→Ostendit (0567B) · **`VERS. 51.`→VERS. 21.** (0559C) — the last is
+the 9006 @0043A class exactly: CC corrected the verse address, correctly on the merits, and being
+right is what made it invisible.
+
+**Corpus Corporum broke what Migne set correctly (4):** `quamcredere` · `duasepist.` ·
+`Transformantur` · **`ego` for `ergo`**.
+
+### ⭐⭐⭐ 0570B — ONE DROPPED LETTER MANUFACTURED THE WORK'S HARDEST CRUX
+
+`cruces-0005.md` §5.2 calls *Istam ego imitetur* "the worst site in my range": a nominative *ego*
+governing a third-person *imitetur*. The stint reasoned it through, **declined a `[cj:]`**, named
+*imiter* and *imitemur*, took neither, and rendered the sentence visibly broken rather than repair
+what would not construe.
+
+**The plate prints *Istam ergo imitetur*.** Verified at 5×. Corpus Corporum dropped one `r` and
+invented the whole problem. ⚑ The discipline of rendering literally and logging the crux instead of
+emending is what kept a wrong conjecture out of the text: the crux had no answer because it had no
+question.
+
+### The two held candidates, both settled against the stint's own guess
+
+- **0555D *Transformantur*** — the plate prints **`Transformatur`**, third person singular, across
+  the break `Trans-`/`formatur`. **Three readings existed and ours was nobody's**: Migne
+  *Transformatur*, Clementine *transformamur*, our file *Transformantur*. The stint declined the
+  `[var:]` and made it its top plate request, reasoning that `-mur`→`-ntur` is a shape CC
+  manufactures — right to decline, wrong about the true reading. The English had followed the
+  corruption ("They are transformed"); re-rendered singular, its subject taken from the preceding
+  lemma *Vir*.
+- **0570C *Et Deus pacis erit vobiscum*** — flagged by the stint as a probable **TEI loss** wanting
+  a patch, since the Clementine has *et dilectionis* and the gloss expounds *dilectio*. The plate
+  shows the short lemma is **Migne's own**. Not a loss but a divergence; `[var:]` fired, and the
+  gloss reaching for *dilectio* anyway is the interesting part.
+
+### Negatives recorded, because a checked negative is worth having
+
+- **0555C *Ubicunque autem est spiritus Domini*** — the plate DOES print *est*; the stint's
+  suspicion of a supplied word is refuted.
+- **0562A *non tantum*** — present on the plate; nothing was lost there.
+- **0568 *non est peccatum*** — the `s` is damaged type in this copy; the reading is not in doubt
+  and no marker depends on it.
+
+⚠ **p.290 clips the LEFT margin** and its left column has lost its opening characters. No marker
+depends on that column. Any future crux at 0569 needs the second witness
+(`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`, a PL 114 copy B filed under `pl202`).
