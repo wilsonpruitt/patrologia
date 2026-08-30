@@ -1394,6 +1394,71 @@
      "found": "1 [var:] confirmed (0062B). ⭐ TWO HIDDEN MIGNE DEFECTS at 0062A: 'Dum Scripturae ... narrat' (ungrammatical against the singular verb; CC normalized the case) and 'iniquitates suae multitudine' (CC corrected to the genitive) -- both restored, [sic:] owed. CC punctuation departure at 0061D: Migne prints 'quia decalogo legis contraria, fecit'"
     }
    ]
+  },
+  "8986": {
+   "series": "pl",
+   "volume": 114,
+   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2",
+   "second_witness": "raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf (a PL 114 copy B, filed under pl202). NOT needed for any site here -- every marker fell in a clean column -- but REQUIRED for any left-column crux at 0569/0570: p.290 clips the LEFT margin and its left column has lost its opening characters.",
+   "note": "THE FULL MARKER GATE OF 8986, 2026-08-30, run BEFORE the work shipped. Six pages rendered at 300 dpi and read directly by the session (no fenced agents -- deliberately, since briefing several readers on the same suspicion produces convergence, not corroboration). Corner numbers read FIRST on every page; the (column + 11) / 2 map was re-derived independently by fitting the six PL 114 rows of the 2026-08-29 sweep ledger before it was compared with 9006's. RESULT: 7 STAND, 0 REVISED, 0 FALSE, 0 UNRESOLVED. An eighth [var:] was FIRED as a result of the read (0570C), where the translating stint had declined for fear of a TEI loss the plate disproved.",
+   "what_it_cost_to_skip": "Nine defects in our Latin that NO CHECK WE OWN COULD HAVE FOUND, because our Latin read correctly at every one. Five are Migne's own type, silently tidied by Corpus Corporum (nou, Vebum, ete., Ostendlt, and the verse address VERS. 51); four are CC's own breakage (quamcredere, duasepist., Transformantur, and ego for ergo). All nine restored via data/tei-patches/8986.json. ⭐ 0570B is the lesson: one dropped r manufactured the work's hardest crux, which the stint reasoned about at length and correctly refused to repair.",
+   "reads": [
+    {
+     "from": "0553A",
+     "to": "0554D",
+     "depth": "full",
+     "date": "2026-08-30",
+     "page": 282,
+     "source": "on-disk PL 114 scan at 300 dpi, full page width; CALIBRATION PAGE, corners read 553/554 before any text",
+     "found": "[var: Caupones tui vino aquam miscent] CONFIRMED as Migne's, and the gloss names the pseudoapostoli it is aimed at. Two CC run-togethers found and patched: quamcredere (plate: quam credere) and duasepist. (plate: duas epist.)."
+    },
+    {
+     "from": "0555A",
+     "to": "0556D",
+     "depth": "full",
+     "date": "2026-08-30",
+     "page": 283,
+     "source": "on-disk PL 114 scan at 300 dpi; corners read 555/556; both findings re-verified at 3x before patching",
+     "found": "⭐ Transformatur, not Transformantur -- verified at 3x across the line break Trans-/formatur. THREE readings existed and ours was nobody's (Migne Transformatur, Clementine transformamur, our file Transformantur); the stint's decline was right. Also 'nou' for non at 0555B (3x: open-topped sort, no shoulder). NEGATIVE RECORDED: 'Ubicunque autem est spiritus Domini' -- the plate DOES print est, so the stint's suspicion of a supplied word is refuted."
+    },
+    {
+     "from": "0559A",
+     "to": "0560D",
+     "depth": "full",
+     "date": "2026-08-30",
+     "page": 285,
+     "source": "on-disk PL 114 scan at 300 dpi; corners read 559/560; the verse address re-verified at 3x",
+     "found": "BOTH 0559C markers CONFIRMED: 'Maledictus omnis qui pendet in ligno' (Migne's, against Clementine Deut 21:23 which has no omnis) -- and Migne's own gloss then asks 'Quid est quod dicit, omnis?', which is exactly what the marker claimed; and 'terra es, in terram ibis' against Gen 3:19. Also VERS. 51 for 2 Cor 5:21, silently corrected by CC -- the 9006 @0043A class, invisible precisely because the correction is right."
+    },
+    {
+     "from": "0561A",
+     "to": "0562D",
+     "depth": "full",
+     "date": "2026-08-30",
+     "page": 286,
+     "source": "on-disk PL 114 scan at 300 dpi; corners read 561/562; both type defects re-verified at 3x",
+     "found": "BOTH markers CONFIRMED: 'Ab omni iniquitate' is Migne's (the plate prints it as its own lemma, glossed Scilicet mentis against the twin lemma carnis), and 'qui passus est fraudem' is Migne's added object. Two of Migne's defects restored: Vebum for Verbum (0561A) and ete. for etc. (0562B). NEGATIVE RECORDED: 'non tantum' is present on the plate, so nothing was lost there."
+    },
+    {
+     "from": "0567A",
+     "to": "0568D",
+     "depth": "full",
+     "date": "2026-08-30",
+     "page": 289,
+     "source": "on-disk PL 114 scan at 300 dpi; corners read 567/568; Ostendlt re-verified at 4x",
+     "found": "BOTH markers CONFIRMED: 'Qui apponit scientiam, apponit et dolorem' (Clementine Eccl 1:18 addit/laborem) and 'Et ossa mea in frixorio confrixa sunt' (Clementine Ps 101:4 sicut cremium aruerunt) -- and the gloss stands on frixorium, as claimed. Ostendlt restored, WITH A STATED DOUBT: it is an i/l call on a worn line, the least certain of the five normalizations. NEGATIVE RECORDED: 'non est peccatum' -- the s is damaged type in this copy, the reading is not in doubt, no marker depends on it."
+    },
+    {
+     "from": "0569A",
+     "to": "0570D",
+     "depth": "full",
+     "date": "2026-08-30",
+     "page": 290,
+     "source": "on-disk PL 114 scan at 300 dpi; corners read (right) 570, LEFT CORNER CLIPPED; ergo re-verified at 5x",
+     "found": "⭐⭐ 'Istam ergo imitetur' -- CC dropped the r, manufacturing the nominative-ego crux the stint called the worst site in its range. There was never a crux. Also 'Et Deus pacis erit vobiscum' CONFIRMED as Migne's short lemma against Clementine 2Cor 13:11 et dilectionis: NOT the TEI loss the stint suspected, so a [var:] was fired here as a result of this read. ⚠ THIS PAGE CLIPS THE LEFT MARGIN and its left column has lost opening characters; no marker depends on that column, and any future crux there needs the second witness."
+    }
+   ]
   }
  }
 }

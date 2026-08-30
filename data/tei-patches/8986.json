@@ -1,0 +1,71 @@
+{
+  "note": "PLATE GATE of 8986 (Glossa ordinaria, Epistola II ad Corinthios), 2026-08-30. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2 -- the 9006 formula, re-derived independently here by fitting the six PL 114 rows of data/plate-sweep/2026-08-29-sic-sweep.tsv, and confirmed against the printed corner numbers before every read (p.282 prints 553/554). Six pages read: 282, 283, 285, 286, 289, 290.",
+  "result": "ALL SEVEN [var:] MARKERS STAND. 0 false, 0 revised, 0 unresolved -- against a 65% false rate for PL 114 in the 2026-08-29 [sic:] sweep. The difference is the marker policy, not the volume: every marker here is a multi-word scriptural divergence, and the work fires no letter-level type accusation at all. Both translating stints independently declined every [sic:] on the ground that our Latin is Corpus Corporum's transcription and no column had been read -- which is exactly the instinct the sweep's 93/65/37 spread argues for.",
+  "class": "TWO DIRECTIONS. (1) CORRUPTED -- Corpus Corporum broke what Migne set correctly; repaired here, and the ENGLISH must be re-rendered where it followed the corruption. (2) NORMALIZED -- Corpus Corporum silently tidied a defect in Migne's own type; restored so a [sic:] can show it (Pattern 7). Five of Migne's own defects were hidden from us this way and NO CHECK WE OWN COULD HAVE FOUND ANY OF THEM, because our Latin read correctly. Per the no-retrofit rule this is not a sweep of the done corpus: 8986 had not shipped when these were found.",
+  "headline": "0570B is the one to remember: CC dropped a single r from 'ergo', and that one letter MANUFACTURED the work's hardest crux -- a nominative ego governing a third-person imitetur. The translating stint called it the worst site in its range, reasoned about it at length, declined a [cj:], and rendered it visibly broken rather than repair it. The plate prints 'Istam ergo imitetur' and there was never a crux at all. The discipline of not repairing what will not construe is what kept a wrong emendation out of the text.",
+  "patches": [
+    {
+      "col": "0554C",
+      "find": "quamcredere",
+      "replace": "quam credere",
+      "direction": "corrupted",
+      "why": "Plate p.282 col 0554C prints 'Quis non videat prius esse cogitare quam credere?' as two words. CC ran them together. The stint rendered it for sense, fired no [sic:], and asked for the plate -- the correct handling of a non-word, which the 2026-08-23 batch measured 10-for-10 as OURS."
+    },
+    {
+      "col": "0554C",
+      "find": "duasepist.",
+      "replace": "duas epist.",
+      "direction": "corrupted",
+      "why": "Plate p.282 col 0554C prints the note as '(AUG., lib. II, contra duas epist. Pelag., c. 8.)' with the space. CC ran them together. Same class and same correct handling as quamcredere."
+    },
+    {
+      "col": "0555B",
+      "find": "ut non intelligeretur",
+      "replace": "ut nou intelligeretur",
+      "direction": "normalized",
+      "why": "Plate p.283 col 0555B prints 'nou' -- verified at 3x: the third sort is open-topped with no shoulder, against the clearly arched n of enim, intelligeretur, and the first letter of nou itself on the same line. CC supplied the correct 'non'. Our Latin read correctly, so nothing we own could have seen it. Owed a [sic:]."
+    },
+    {
+      "col": "0555D",
+      "find": "Transformantur",
+      "replace": "Transformatur",
+      "direction": "corrupted",
+      "why": "Plate p.283 col 0555D prints 'Trans-/formatur' across the line break -- third person SINGULAR, verified at 3x, no n before -tur. Three readings existed and OURS WAS NOBODY'S: Migne Transformatur, Clementine (2 Cor 3:18) transformamur, our file Transformantur. The stint declined a [var:] here and made it its top plate request, reasoning that -mur -> -ntur is a shape CC manufactures; it was right to decline, though the true reading is a third form again. ENGLISH FOLLOWED THE CORRUPTION ('They are transformed') and must be re-rendered singular."
+    },
+    {
+      "col": "0559C",
+      "find": "VERS. 21.-- <hi>Pro nobis peccatum fecit.</hi>",
+      "replace": "VERS. 51.-- <hi>Pro nobis peccatum fecit.</hi>",
+      "direction": "normalized",
+      "why": "Plate p.285 prints 'VERS. 51.' for 2 Cor 5:21 -- verified at 3x, the first digit a flat-topped 5, not a 2. CC silently corrected the address. Exactly the 9006 @0043A class: the correction is right on the merits, and being right is what made it invisible. Owed a [sic:]."
+    },
+    {
+      "col": "0561A",
+      "find": "Verbum caro factum est",
+      "replace": "Vebum caro factum est",
+      "direction": "normalized",
+      "why": "Plate p.286 col 0561A prints 'Vebum' -- verified at 3x, V-e-b-u-m, no r. CC supplied it. Owed a [sic:]."
+    },
+    {
+      "col": "0562B",
+      "find": "Sed sicut,</hi> etc.",
+      "replace": "Sed sicut,</hi> ete.",
+      "direction": "normalized",
+      "why": "Plate p.286 col 0562B prints 'ete.' at VERS. 14 -- verified at 3x, the final sort has a closed bowl and crossbar against the open c of sicut and corrigendo on the same line. CC tidied it to 'etc.'. Owed a [sic:]."
+    },
+    {
+      "col": "0567B",
+      "find": "Ostendit",
+      "replace": "Ostendlt",
+      "direction": "normalized",
+      "why": "Plate p.289 prints 'Ostendlt' at VERS. 23 -- verified at 4x: the sort after Ostend is a full-height undotted ascender, against the dotted i of minus and sapiens on the same line. CC tidied it to Ostendit. Owed a [sic:]. ⚠ This is the least certain of the five normalizations, being an i/l call on a worn line; recorded with the caveat so a later reader can downweight it relative to the unambiguous four."
+    },
+    {
+      "col": "0570B",
+      "find": "Istam ego imitetur",
+      "replace": "Istam ergo imitetur",
+      "direction": "corrupted",
+      "why": "Plate p.290 col 0570B prints 'Istam ergo imitetur' -- verified at 5x, the r unmistakable. CC dropped it, and that single letter manufactured the work's hardest crux: a nominative ego governing a third-person imitetur, which the stint correctly refused to repair (it named imiter and imitemur, took neither, and rendered it broken). There was never a crux. ENGLISH FOLLOWED THE CORRUPTION ('This one, I, let him imitate') and must be re-rendered."
+    }
+  ]
+}
