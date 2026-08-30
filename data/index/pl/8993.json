@@ -1,0 +1,280 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3970,
+  "textIdno": 8993,
+  "title": "Epistola ad Hebraeos",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "643a",
+  "colLast": "670d",
+  "counts": {
+    "scripture": 19,
+    "fontes": 8,
+    "heads": 14,
+    "headnotes": 1,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "643c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.8",
+      "refDisplay": "Psal. VIII",
+      "column": "644b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "645c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Rev.21",
+      "refDisplay": "Apoc. XXI",
+      "column": "645d",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.8",
+      "refDisplay": "Psal. VIII",
+      "column": "647a",
+      "chunk": 2
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "647b",
+      "chunk": 2
+    },
+    {
+      "refKey": "1Cor.15",
+      "refDisplay": "I Cor. XV",
+      "column": "647d",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.3",
+      "refDisplay": "Matth. III",
+      "column": "652a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.2",
+      "refDisplay": "Psal. II",
+      "column": "652b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Psal. XVIII",
+      "column": "654c",
+      "chunk": 5
+    },
+    {
+      "refKey": "Ps.18",
+      "refDisplay": "Ibid. I",
+      "antecedent": "Psal. XVIII",
+      "antecedentColumn": "654c",
+      "ibidResolved": true,
+      "column": "654d",
+      "chunk": 5
+    },
+    {
+      "refKey": "Gen.22",
+      "refDisplay": "Gen. XXII",
+      "column": "657a",
+      "chunk": 7
+    },
+    {
+      "refKey": "Jer.31",
+      "refDisplay": "Jer. XXXI",
+      "column": "657c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV",
+      "column": "657c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Ps.21",
+      "refDisplay": "Psal. XXI",
+      "column": "658b",
+      "chunk": 8
+    },
+    {
+      "refKey": "John.7",
+      "refDisplay": "Joan VII",
+      "column": "665b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Exod.2",
+      "refDisplay": "Exod. II",
+      "column": "665b",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.10",
+      "refDisplay": "Matth. X",
+      "column": "665c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "667c",
+      "chunk": 11
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG.",
+      "column": "647d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "654c",
+      "chunk": 5
+    },
+    {
+      "raw": "CHRYS., hom. 35, in Gen.",
+      "column": "654d",
+      "chunk": 6
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "656b",
+      "chunk": 7
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "663a",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "663b",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "663d",
+      "chunk": 10
+    },
+    {
+      "raw": "AUG.",
+      "column": "670a",
+      "chunk": 12
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "643a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "643b",
+      "chunk": 1,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "646a",
+      "chunk": 2,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "648c",
+      "chunk": 3,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "649d",
+      "chunk": 4,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "651d",
+      "chunk": 5,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "653a",
+      "chunk": 5,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "654d",
+      "chunk": 6,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "656b",
+      "chunk": 7,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "657d",
+      "chunk": 8,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "660a",
+      "chunk": 9,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "663b",
+      "chunk": 10,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "666b",
+      "chunk": 11,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "669a",
+      "chunk": 12,
+      "en": "CHAPTER XIII."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "…. 8.-- *Fide qui vivit.* Hic ad patres Judaeorum descendit et ostendit in eis, sicut in prioribus, omnem justitiam ex fide habuisse originem. Et ponit exemplum de Abraham. *Obedivit,* Deo dicenti sibi",
+      "en": "…Here he comes down to the fathers of the Jews and shows in them, as in those before, that all justice had its origin from faith. And he sets down the example of Abraham. *He obeyed,* God saying to him",
+      "column": "664a",
+      "chunk": 10
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}
