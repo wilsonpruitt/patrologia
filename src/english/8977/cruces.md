@@ -558,7 +558,8 @@ Three in this range are demonstrably wrong and are recorded rather than repaired
 Range: **CAPUT V–IX**, cols **0719D–0729A** (`colFirst` 0720A → `colLast` 0729A).
 One translator, five chunks (3,640 Latin words). `verify-english.mjs` clean.
 
-**Apparatus taken in this range: 2 `[sic:]` · 5 `[var:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
+**Apparatus taken in this range: 0 `[sic:]` (2 taken, BOTH WITHDRAWN at the plate 2026-08-28 —
+see §2) · 5 `[var:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` ·
 0 `[nt:]` · 2 `[n:]` (parity with the Latin twins).** Anchors 37/37, verbatim, in order, and
 each checked against the WORD it stands beside in the Latin (test 2b). Question marks 0/0 in
 both columns. Punctuation compared band by band (test 3): **zero mismatched bands** for
@@ -566,8 +567,10 @@ colons, semicolons, question marks, exclamation marks and guillemets, after the 
 recorded in §4. Zero guillemets in either column. `## ` heads 1:1 (`CAPUT V.` → `CHAPTER V.`,
 and so through IX, matching Ruth's shipped English).
 
-⚠ **Nothing in this file has been checked against Migne's plate.** Every candidate below that
-would need the plate is named as such, and none of them fired a marker.
+⚠ **Nothing in this file was checked against Migne's plate when it was written.** Every
+candidate below that would need the plate is named as such. ⛔ **Two of them fired a marker
+anyway, and the plate has since disproved both** (0720A, 0726D — §2): the range's `[sic:]`
+count is now zero.
 
 ---
 

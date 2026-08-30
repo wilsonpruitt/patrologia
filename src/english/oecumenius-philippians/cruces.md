@@ -6,6 +6,17 @@ agents plus the anchor. Source files follow verbatim; this header is the
 authority where they disagree. See also **`OPEN-QUESTIONS.md`** in this
 directory, which holds what the merge could NOT settle.
 
+⚠ **This file supersedes its range files in three places, and it is the one to
+read** (checked 2026-08-30): the `πραγμάτων λυσιτελῶν` emendation, which
+`cruces-0006.md` still asserts as live and which the blind polarity read
+**reversed** on 2026-08-01; the *Col 1300* note attached to it; and
+`cruces-0010.md`'s request that "the merge session should ratify or reverse"
+the Pattern-13 ruling, which this merge reversed and answered in place. Until
+2026-08-30 the published page carried the range files a second time and so
+showed the reversed emendation beside its own reversal. `build-cruces.mjs` now
+publishes a merge that embeds its ranges once only, and reports these three
+passages each build; they are superseded, not missing, and want no folding in.
+
 ## WORK-WIDE CONVENTIONS (authoritative)
 
 **Vocabulary: no conflicts.** The three ranges cover disjoint stretches of the

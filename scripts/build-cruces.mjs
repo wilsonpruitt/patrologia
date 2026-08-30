@@ -178,12 +178,85 @@ for (const key of fs.readdirSync(ENG)) {
   const page = resolved.get(key);
   if (!page) { console.warn(`  (no built work page for ${key} — cruces not published)`); continue; }
 
-  const parts = files.map(f => ({
+  let parts = files.map(f => ({
     name: f,
     md: fs.readFileSync(path.join(dir, f), 'utf8'),
   }));
+
+  // ⛔ DO NOT PUBLISH THE SAME APPARATUS TWICE (2026-08-30).
+  //
+  // Two merge FORMS exist in the corpus and both are legitimate. Some merged
+  // cruces.md files EMBED their range files ("preserved below, unedited");
+  // others — 11550, 11632, 11638, 8986 — are a merge LAYER only and carry just
+  // what was reconciled across the ranges. This builder concatenates every
+  // cruces*.md in the directory, so for the embedding form it published each
+  // range file twice: once inside cruces.md and once standalone. Measured on
+  // the live /cruces/pl/114/apocalypsis-b-joannis/ page, where body text from
+  // cruces-0000.md and cruces-0010.md appeared twice over.
+  //
+  // The test is containment, measured, not a guess at the prose: what fraction
+  // of a range file's text already appears inside cruces.md. Across the whole
+  // corpus that number is strictly bimodal — 95–100% for the eight embedding
+  // merges, 0% for the six layer merges — so any threshold in the gap does the
+  // same thing. Nothing is inferred from wording, which drifts.
+  //
+  // ⚑ It NEVER drops text: a skipped file is reported, and any window of it not
+  // found in cruces.md is warned about by name. If that warning ever fires,
+  // the merge is missing something its range file has — go and look.
+  const mergedPart = parts.find(p => p.name === 'cruces.md');
+  if (mergedPart && parts.length > 1) {
+    // Compare by SENTENCE, not by fixed-width window. A merge re-wraps the text
+    // it embeds, so any fixed window straddles a wrap difference and reports a
+    // false miss; sentences are stable under re-wrapping. Horizontal rules and
+    // heading markers are stripped first for the same reason — the merge demotes
+    // headings one level, which is not a difference in content.
+    const norm = s => s
+      .replace(/^\s*-{3,}\s*$/gm, '')
+      .replace(/^#{1,6}\s*/gm, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const mergedText = norm(mergedPart.md);
+    const windows = md => norm(md)
+      .split(/(?<=[.!?])\s+(?=[A-ZÀ-Þ⛔⚠⭐⚑*`])/)
+      .filter(s => s.length > 70);
+    const kept = [];
+    for (const part of parts) {
+      if (part.name === 'cruces.md') { kept.push(part); continue; }
+      const ws = windows(part.md);
+      if (!ws.length) { kept.push(part); continue; }
+      // A sentence can fail the whole-string test for a reason that is not a
+      // difference in content: the merge joined or split a paragraph around it,
+      // so the sentence as this file punctuates it never occurs contiguously in
+      // the merge even though every word of it does. Treat a sentence as present
+      // when both its head and its tail are in the merge; a real edit (8977's
+      // superseded "has been checked" against "was checked when it was written")
+      // changes one of them and is still caught.
+      const present = w => mergedText.includes(w) ||
+        (w.length > 120 && mergedText.includes(w.slice(0, 55)) && mergedText.includes(w.slice(-55)));
+      const missing = ws.filter(w => !present(w));
+      const contained = 1 - missing.length / ws.length;
+      if (contained >= 0.9) {
+        console.log(`  ${key}: ${part.name} is ${(contained * 100).toFixed(0)}% inside cruces.md — publishing once, from the merge`);
+        if (missing.length) {
+          // Two legitimate causes, and they want opposite responses: the merge
+          // is MISSING the passage (fold it in), or the merge deliberately
+          // SUPERSEDED it (leave it — oecumenius-philippians cruces-0010 asked
+          // the merge session to ratify or reverse a ruling, and it reversed it).
+          // Read the passage before acting; do not fold in by reflex.
+          console.warn(`  ⚠ ${key}: ${missing.length} passage(s) of ${part.name} are not in cruces.md and will not be published — fold in, or confirm the merge superseded them:`);
+          for (const m of missing) console.warn(`      … ${m.slice(0, 130)}`);
+        }
+      } else {
+        kept.push(part);
+      }
+    }
+    parts = kept;
+  }
   const entries = parts.reduce((n, p) =>
     n + (p.md.match(/^\s*[-*]\s*\*\*@?\d{3,4}/gm) || []).length, 0);
+  if (process.env.CRUCES_AUDIT && files.length > 1) {
+    console.log(`  AUDIT ${key}: ${files.length} file(s) on disk → ${parts.length} published (${parts.map(p => p.name).join(', ')})`);
+  }
   works.push({ key, page, parts, entries, bytes: parts.reduce((n, p) => n + p.md.length, 0) });
 }
 
