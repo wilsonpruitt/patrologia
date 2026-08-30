@@ -1,6 +1,132 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-29b — THE `[sic:]` PLATE SWEEP · ✅ APPLIED · ⛔ NOT PUSHED, NOT DEPLOYED
+## ▶▶▶▶▶ SESSION 2026-08-29c — 9006 *PROPHETIA JEREMIAE* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
+
+The whole pipeline plus the first FULL marker gate ever run **before** a work shipped.
+Corpus **146 → 147**, `/glossa` **40 → 41 of 58**. Pushed (`069ecde`), deployed
+(`dpl_3tFj58D8NEfB4DDmbC7TRuTvFGmn`), smoke-tested by body. **The 53 withdrawn `[sic:]` from the
+2026-08-29b sweep went live in the same deploy** — that debt is CLEARED.
+
+24 chunks, five Opus agents, **~1.42M burn**. ⭐ **Measured 59K/chunk, against the 45K/chunk this
+file has been quoting for a Glossa book.** A prophetic book with heavy Hebrew-name and place-name
+traffic costs more than an epistle. **Quote ~60K/chunk for a prophet, ~45K for an epistle.**
+Full run including verification and one wasted round: **~2.9M against 1.45–1.65M quoted.**
+
+### ⭐⭐⭐ THE HEADLINE: 36 OF 37 MARKERS STOOD, IN A VOLUME THAT RETURNED 65% FALSE THREE DAYS EARLIER
+
+24 pages read at 300 dpi across three agents. **36 STAND · 1 REVISED · 0 FALSE · 0 UNRESOLVED.**
+⛔ **This does not overturn the 93/37 spread — it explains it.** The 2026-08-29b sweep was almost
+all *letter-level* `[sic:]` accusations; this run fired **none**. Its markers are `[var:]` on
+multi-word scriptural divergences a single-letter CC misread cannot manufacture, under a policy the
+translating agents stated and applied uniformly: **fire only where the divergence is multi-word or a
+whole distinct word AND changes what the sentence asserts.** Seven markers stood against ~30 recorded
+divergences in one agent's range. ⭐ **The marker policy, not the volume, is what predicts the false rate.**
+
+The one `[sic:]` (0047A *sedet*, a fused *sed et*) was the likeliest of all to be false — run-together
+is CC's documented class — was read hardest, and **holds**: at 6× the flanking word-spaces are visibly
+wider than any gap inside it.
+
+### ⭐⭐ TWELVE HIDDEN DEFECTS OF MIGNE'S, AND OUR LATIN READ CORRECTLY AT EVERY ONE
+
+`fratibus` · `Quos egos` · `multc` · `,umbare` · `pμtantes` · `Nuntlis` · `Jean` · `uo n` ·
+`Qomodo` · `erum` · `Scripturae` · `iniquitates`. All restored via `data/tei-patches/9006.json`
+(14 patches) and each carried with a `[sic:]`. **No check we own could have found any of them.**
+
+⭐ **The 8991 pattern reproduced on ONE LINE at 0028C:** CC corrupted *tuli* → the non-word *tuh*
+**and** silently repaired Migne's broken *,umbare*, in the same breath, with no marker on either —
+and our English had been silently emending *tuh* to *tuli*, Pattern 7a's forbidden repair. One
+polarity reader caught the *tuh* half from the English side, blind, having never seen the plate.
+
+Two more of the class: **0032D**, where CC's non-word *exores* (plate: *uxores*) was being published
+to readers **untranslated**, as though it were Latin — its `[var:]` REVISED, not withdrawn; and
+**0043A**, where CC silently *corrected* a verse address (VERS. 5 → VERS. 3) — **correctly on the
+merits**, since Jer 28:3 is the *vasa* verse, which is exactly what made it invisible.
+
+### ⛔⛔ THE MISTAKE THAT COST A ROUND — READ THIS BEFORE TRUSTING A BLIND-READ CONVERGENCE
+
+Three fenced polarity readers independently reported a **25-site class**: "the lemma silently
+completed from the Vulgate" (*Nunquid?* rendered "Is this man Jechonias a broken earthen vessel?").
+I reported the three-way convergence to Wilson as strong evidence and ordered the repair. **It is a
+non-defect, and the ruling declining it was already in `GLOSSA-NT-AGENT-BRIEF.md`** (final section):
+convention 3 renders a clipped lemma as *the phrase it stands for* — Ruth's *Non te.* → "Let no man
+see thee" — and **the defect is CONFORMATION, not expansion**; where a work treats one lemma two
+ways, **expand the stump, do not contract its twin.**
+
+The repair contracted all 25 to word-for-word stumps ("Before thee.", "As cold.") before it was
+caught. Agents stopped mid-run, all 25 restored, ~350K wasted.
+
+⭐⭐ **THE LESSON, and it generalises past this class: N briefed readers agreeing is not N independent
+findings.** All three were pointed at 7a″ and told conformation was the hazard, so all three found
+it. **That ruling was itself added after three readers in one batch raised this same non-defect and
+all three were declined** — the failure reproduced exactly, convergence and all. ⚑ The check that
+would have caught it is in the brief: **NAME THE CONTROL'S CLASS.** The readers' own "proof" — that
+dozens of fragments were left short — compared *complete one-word* lemmata against *clipped* ones.
+Written up at `src/english/9006/cruces-0000.md` §9a; **third time raised, settled.**
+
+⭐ Two sites WERE genuine conformation and keep their fix: **0016C** (*Sapientes malitiosi* given
+Douay's "Wise to do mischief" against Migne's adjective) and **0055D** (*ejus* rendered "their"
+against Migne's singular). The class is real; its population was wrong.
+
+### The polarity read proper — negation CLEAN, other classes not
+
+**Zero negation defects in ~440 traced sites.** 17 sites of other classes found and fixed (15 ours).
+Sharpest: **0028C**, a `non` attached to the wrong host on a site *the translating agent had itself
+flagged as a negation crux* — a flagged passage is not a checked passage; and **0047D**, *Pater est*
+given a person when the subject is *nomen Dei*, which detached a whole gloss from the proof-text
+adduced *because it says "name."* Recorded `--chunks 24 --sites 17 --ours 15`.
+
+## ▶ OPEN — FOR WILSON
+
+1. **⬜ The remaining `[sic:]` backlog** (was 381 pages; unchanged by this session, which read only
+   9006's own columns). The 93/37 spread argues for per-work, not one policy — and 9006 adds the
+   refinement that **the marker policy predicts the rate better than the volume does**.
+2. **⬜ The `[var:]` half is still untouched** — 1,011 markers. 8947 returned 56/56 CONFIRMED and
+   9006 returned 36/37; the prior on that class is now strongly positive across two works.
+3. **⛔ 8988 `0636A` *aurursus* — UNRESOLVED, unchanged.** Right-margin ink bleed, no second PL 114
+   witness on disk, column deliberately unregistered so the gate keeps flagging it.
+4. **⚠ 8976 still contradicts Pattern 7** (carried, unchanged).
+5. **⬜ `chunk-work.mjs` over-claims coverage.** It auto-recorded 8996 as `coverage: "full"` /
+   `tier: 3` because a note was FOUND, when 2 of ~26 pages were read — and "full" asserts the whole
+   numbered sequence was read and verified unbroken. Corrected by hand for 8996; **the script bug is
+   general and unfixed.** Small change, shared machinery, wants Wilson's go.
+6. **⬜ 0026C *multc* is the one marker in 9006 carrying a stated doubt from its own reader** (worn
+   *o* vs *c*; crisp terminals at 12× decided it). It stands. If any `[sic:]` here is ever revisited,
+   that is the one.
+7. **⬜ Pages 23 and 26 of PL 114 were never read** — no marker depends on them, but three plate-read
+   requests in `cruces-0010` are labelled STILL OWED.
+
+## ▶ NEXT — four Pauline books CHUNKED AND SPOT-CHECKED (2026-08-29c), 57 chunks ready
+
+| idno | book | words | chunks | est. burn @45K | state |
+|---|---|---:|---:|---:|---|
+| 8986 | Epistola II ad Corinthios | 7,797 | **10** | ~450K | ✅ ready — cheapest |
+| 8993 | Epistola ad Hebraeos | 11,441 | **13** | ~585K | ✅ ready |
+| 8981 | Epistola I ad Corinthios | 12,614 | **14** | ~630K | ✅ ready |
+| 8996 | Epistola ad Romanos | 20,688 | **20** | ~900K | ✅ ready — see the note below |
+
+⭐ **ROMANS IS NOT A CHECKED ZERO.** Its opening page (p.240, cols 469/470) carries an
+**ASTERISK-LAYER note** — Migne's second foot-of-page apparatus — keyed to a raised `*` before the
+VERS. 2 lemma *Quod ante* at 0470B: his pointer that whatever Walafrid's Gloss took from **Haymo of
+Halberstadt** on the Pauline epistles is to be sought in Haymo's own works at **PL 116, 117, 118**.
+Recovered to `data/plate-notes/8996.tsv`, injected as `[cn: * | …]`, work re-chunked. ⛔ **It is owed
+a TRANSLATED `[nt: …]` opposite in the English** (2026-08-24 ruling) — the translating agent must be
+told, or `verify-english` will fail on the parity. ⚠ Its first word is transcribed as printed,
+*Quiquid*, probably Migne's own setting for *Quidquid*; verify at magnification before quoting it.
+
+The other three checked zero on both apparatus layers. Two divisions fall MID-PAGE and were read at
+the division band as well as the foot: **Acts→Romans on p.240**, and **Romans→I Corinthians on p.265**,
+where the two works interleave (Romans ends 0520B, I Cor begins 0519C).
+
+⚠⚠ **OUR PL 114 COPY CLIPS THE RIGHT MARGIN on some pages in this stretch** — p.265 and p.281 lose
+the right column's closing characters (*per ipsum Ch*, *praedic*, *hominibu*); p.327 is clean and
+prints both corners. **Per-page, not per-volume**, same class as the known PL 113 LEFT-margin
+clipping, and it falls INSIDE all four works. Any right-column crux needs the second witness in
+`data/volumes.json`, never "illegible" from this PDF alone.
+
+**Quote ~45K/chunk for these (epistles, not prophets)** and state the polarity read as its own burn.
+Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K**.
+
+## ▶▶▶▶▶ SESSION 2026-08-29b — THE `[sic:]` PLATE SWEEP · ✅ APPLIED · ✅ PUSHED + DEPLOYED 2026-08-29c
 
 Wilson approved ladder step 2 of the marker-backlog survey: read every `[sic:]` standing on an
 unread column **in the volumes whose scans are already on disk**. 56 pages, 23 works, 80 markers,
@@ -47,8 +173,9 @@ corrupted *eas*→*cas* (which we published as an accusation) and silently repai
 
 ## ▶ OPEN — FOR WILSON
 
-1. **⬜ PUSH + DEPLOY OWED.** 3 commits on `master`, unpushed; the withdrawn markers are still live
-   on migne.app. `cd ~/patrologia/site && npx vercel --prod --archive=tgz`, then smoke-test by body
+1. **✅ DONE 2026-08-29c — pushed (`069ecde`) and deployed with 9006.** The 53 withdrawn markers are
+   off migne.app; `/pl/114/epistola-ii-ad-timotheum/` verified live showing the REVISED *mutiles*.
+   ~~PUSH + DEPLOY OWED~~ — original note: `cd ~/patrologia/site && npx vercel --prod --archive=tgz`, then smoke-test by body
    `/pl/113/liber-sapientiae/`, `/pl/202/expositio-in-cantica-canticorum/`, their CRUCES urls, and
    `/pl/114/epistola-ii-ad-timotheum/` (the REVISED marker). ⚠ If it 401s, try a plain retry with
    `--scope wilson-pruitts-projects` BEFORE concluding it is the login.
