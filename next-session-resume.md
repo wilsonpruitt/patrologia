@@ -1,5 +1,125 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-30 — 8986 *EPISTOLA II AD CORINTHIOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
+
+Corpus **147 → 148**, `/glossa` **41 → 42 of 58**, cruces **144 → 145**. Deployed to `migne.app`
+and smoke-tested (work page, **cruces page**, landing, glossa index, and the `[sic:]` markers
+rendering). Commits `c50e725` → `de6c09c`, **UNPUSHED — 8 commits ahead of origin/master.**
+
+⚠ **`npx vercel --prod` from `site/` FAILED with "Not authorized" until `--scope
+wilson-pruitts-projects` was added.** Auth and project access were both fine (`whoami` and
+`project ls` succeeded). Use `npx vercel --prod --yes --scope wilson-pruitts-projects`.
+
+### ⭐⭐⭐ THE PLATE GATE RETURNED 7 OF 7 — AND ELEVEN DEFECTS OUR LATIN HAD BEEN READING CORRECTLY
+
+Eight pages read at 300 dpi (282–290), by the session directly rather than by fenced agents —
+deliberately, because briefing several readers on one suspicion produces convergence, not
+corroboration. **7 STAND · 0 REVISED · 0 FALSE · 0 UNRESOLVED**, against this volume's own 65%
+false rate three days earlier. An **eighth `[var:]` was fired BY the read** at 0570C.
+
+⭐ **The marker policy is the whole variable, and this work is the cleanest demonstration yet:**
+both translating stints independently refused to fire a single `[sic:]`, each giving the same
+reason unprompted — our Latin is Corpus Corporum's transcription, not the plate, and no column had
+been read. Zero letter-level accusations went out, and zero came back false.
+
+**Eleven defects recovered, every one of which read CORRECTLY in our file.** Five were Migne's own
+type silently tidied by CC (`nou` · `Vebum` · `ete.` · `Ostendlt` · `VERS. 51`→`21`, the last being
+the 9006 @0043A class again); six were CC's own breakage (`quamcredere` · `duasepist.` ·
+`Transformantur` · `ego`→`ergo` · `ibenter`→`libenter` · a **dropped `fine`**).
+
+⭐⭐ **0570B — one dropped letter manufactured the work's hardest crux.** The stint called *Istam
+ego imitetur* "the worst site in my range", reasoned it through, **declined a `[cj:]`**, named two
+conjectures, took neither, and rendered it visibly broken. The plate prints *Istam **ergo**
+imitetur*. There was never a crux. **The discipline of not repairing what will not construe is what
+kept a wrong emendation out of the text** — this is the strongest evidence yet for Pattern 7a.
+
+⭐⭐ **0555D — three readings existed and ours was nobody's.** Migne *Transformatur*, Clementine
+*transformamur*, our file *Transformantur*. The stint declined the `[var:]` and made it its top
+plate request; right to decline, wrong about the true reading, and the English had followed the
+corruption.
+
+### ⭐ THE POLARITY READ — and the fourth test earning its keep outright
+
+Three blind readers, fenced from the cruces/patches/plate-reads and from each other. **11 raised,
+10 acted on, 1 declined.** `sites: 10 · ours: 9`.
+
+⭐ **A reader predicted a MISSING WORD from the English alone.** Our Latin read *Quia in ea **sine**
+manebitur*; the English "there shall be abiding without" has no complement; the reader reasoned
+*sine* cannot govern nothing, proposed *sine **fine***, and asked for one page. The plate has it.
+**No containment check can see that class** — nothing was misaligned, and the English was faithful
+to a Latin that was wrong.
+
+⛔ **TWO readers deferred to the plate and were vindicated in OPPOSITE directions**, which is the
+result to carry forward: *Ut inopia **illi*** is Migne's (so the lemma stands and now carries a
+`[var:]` instead of the proposed repair), and *nolumus **mortem** nobis tolli* is also Migne's (so
+that repair was **DECLINED** — it would have emended against the page). A reader that rates its own
+confidence and names what would settle it is worth more than one that proposes fixes.
+
+⚑ One reader disclosed that a `grep src/english/8986/*.md` glob leaked cruces lines into its
+context and **withdrew the affected item from its own findings**. Scope the glob to `0*.md`.
+
+### Burn, measured
+
+~490K translation (10 chunks, two stints) — against ~450K quoted at 45K/chunk, so **the epistle
+rate holds**. The plate gate and polarity read together cost roughly as much again. ⭐ **Quote the
+plate gate as its own line item, not an afterthought: it cost eight pages here and returned eleven
+defects.**
+
+## ▶ ALSO THIS SESSION
+
+- **`build-cruces.mjs` was publishing every embedded merge TWICE** — eight works, because the
+  builder concatenates every `cruces*.md` and eight merges embed their own range files. Worse than
+  redundant: 8977 showed a **stale embedded copy claiming 2 `[sic:]` beside a head recording both
+  withdrawn**, and oecumenius published a **reversed emendation beside its own reversal**. Fixed by
+  measured containment (bimodal 95–100% vs 0%, compared by sentence); skipped files are reported and
+  anything not found in the merge is warned by name. Apocalypsis page 316KB → 167KB. `CRUCES_AUDIT=1`
+  to audit.
+- **8947 Liber Ecclesiasticus: `workStatus` null → `none`** (Wilson, 2026-08-30). It shipped 08-29
+  publishing the weaker "New English translation"; it is a **first English of the gloss** and now
+  says so. ⚠ **8946 Liber ECCLESIASTES has a prior English and 8947 Liber ECCLESIASTICUS does not** —
+  three letters apart, adjacent idnos, same author, same volume. 8946 deliberately left at null.
+
+## ▶ OPEN — FOR WILSON
+
+1. **⬜ PUSH.** 8 commits on `master`, unpushed. `git push origin master` — protected, wants your OK.
+2. **⬜ The remaining `[sic:]` backlog** (381 pages, unchanged). 8986 adds a second work's worth of
+   evidence that **the marker policy predicts the rate better than the volume does** — a work that
+   fires no letter-level accusation returns no false ones.
+3. **⬜ The `[var:]` half is still untouched** — now ~1,019 markers. Three works have now returned
+   56/56, 36/37 and 8/8 on that class; the prior is strongly positive.
+4. **⛔ 8988 `0636A` *aurursus* — UNRESOLVED, unchanged.**
+5. **⚠ 8976 still contradicts Pattern 7** (carried, unchanged).
+6. **⬜ `chunk-work.mjs` over-claims coverage** (carried from 08-29; small change, shared machinery,
+   wants your go).
+7. **⬜ 8986 `Baruch III @ 0561A` is an unparsed citation** — Migne's Baruch reference stands one
+   quotation early (its words are 2 Cor 6:16 / Lv 26:12). Reproduced as printed. An alias would
+   index it; leaving it is also defensible since the reference is genuinely misplaced on the plate.
+
+## ▶ NEXT — three Pauline books CHUNKED AND SPOT-CHECKED, 47 chunks ready
+
+| idno | book | words | chunks | est. burn @45K | state |
+|---|---|---:|---:|---:|---|
+| 8993 | Epistola ad Hebraeos | 11,441 | **13** | ~585K | ✅ ready |
+| 8981 | Epistola I ad Corinthios | 12,614 | **14** | ~630K | ✅ ready |
+| 8996 | Epistola ad Romanos | 20,688 | **20** | ~900K | ✅ ready — see below |
+
+⭐ **ROMANS IS NOT A CHECKED ZERO.** Its opening page (p.240, cols 469/470) carries an
+**ASTERISK-LAYER note** keyed to a raised `*` before the VERS. 2 lemma *Quod ante* at 0470B: Migne's
+pointer that whatever Walafrid's Gloss took from **Haymo of Halberstadt** is to be sought in Haymo's
+own works at **PL 116, 117, 118**. Recovered to `data/plate-notes/8996.tsv`, injected as `[cn: * | …]`.
+⛔ **It is owed a TRANSLATED `[nt: …]` opposite in the English** (2026-08-24 ruling) — tell the
+translating agent, or `verify-english` fails on the parity. ⚠ Its first word is transcribed as
+printed, *Quiquid*, probably Migne's own setting for *Quidquid*; verify at magnification.
+
+⚠⚠ **OUR PL 114 COPY CLIPS A MARGIN on some pages in this stretch** — p.265 and p.281 lose the RIGHT
+column's closing characters; **p.290 clips the LEFT margin** (confirmed this session). Per-page, not
+per-volume. Any marginal crux needs the second witness
+(`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`, a PL 114 copy B filed under `pl202`).
+
+**Quote ~45K/chunk for these (epistles), state the polarity read as its own burn, and state the
+plate gate as a third.** Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K,
+**Psalms 90K**.
+
 ## ▶▶▶▶▶ SESSION 2026-08-29c — 9006 *PROPHETIA JEREMIAE* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 The whole pipeline plus the first FULL marker gate ever run **before** a work shipped.
