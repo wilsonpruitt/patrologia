@@ -1,5 +1,119 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-30b — 8993 *EPISTOLA AD HEBRAEOS* · ✅ SHIPPED · ⬜ NOT DEPLOYED
+
+Corpus **148 → 149**, `/glossa` **42 → 43 of 58**, cruces **145 → 146**. Commits `904562c` →
+`48f7f13`, **4 ahead of origin/master.**
+
+⚠ **The previous note's "8 commits UNPUSHED" was STALE** — `origin/master` was already at
+`42a2a5d`. The note's own trap list warns about exactly this. Check `git status -sb` first.
+
+### ⭐⭐⭐ THE HEADLINE: 14 OF 14 `[var:]` STOOD — AND THE READ WITHDREW TWO `[cj:]` INSTEAD
+
+14 pages read (327–340), by the session directly rather than by fenced agents. **14 STAND ·
+0 REVISED · 0 FALSE.** The `[d:]` and three `[cj:]` confirmed as Migne's own printing.
+
+⭐⭐ **The new class, and it is worth carrying: BOTH withdrawn `[cj:]` were RIGHT ABOUT THE
+READING and wrong about whose error it was.** 0659A *Ac*→*Ab* and 0661D *vetata*→*velata* are
+**our transcription's** corruptions, so Migne never printed the word the conjecture was offered
+against. A `[cj:]` accuses nobody — that is why it feels safe — but it still **presupposes the
+printed word is his**. Right outcome: TEI patch, **no marker at all**, reader meets clean Latin.
+⚑ `verify-english.mjs` caught both the instant the patched Latin landed, unprompted: *"a
+conjecture may only be offered against a word Migne actually prints."*
+
+### ⭐⭐ A STINT PREDICTED THE PLATE AND WITHHELD FOUR ACCUSATIONS ON THE STRENGTH OF IT
+
+0667B *sanctur*: the stint grepped the corpus, found the **same e→c fault in a second work**
+(11065 @0044, *vel sanctur infirma* beside its own *bene sanatur*), reasoned that one fault
+shared across two works indicts the transcription rather than the type, and on that ground
+**withheld a `[sic:]` here and on three other non-words**. The plate prints *sanetur*. **Four
+false public accusations against Migne, prevented by an argument made from the files alone.**
+
+### ⛔ ADDENDUM A DOES NOT HOLD IN THIS WORK — non-words split THREE ways
+
+The addendum records 10 for 10 (non-word = OUR corruption). **The real-word half held perfectly**
+— *absumptam*, *securint*, *accipiunt sacrificium* all proved to be exactly what Migne prints.
+**The non-word half did not:** 4 CC corruptions · 2 CC line-break failures · **1 MIGNE'S OWN**
+(0669D *serviendium*), plus two more invisible *as* non-words because CC had tidied them away.
+⚑ **State the weaker rule the evidence supports: a non-word is always worth raising; what it is
+evidence OF, frequency cannot tell you.**
+
+### Nine hidden defects — and two were MIGNE'S, silently tidied
+
+`data/tei-patches/8993.json`. **0650A *dia* for *die*** (he sets *Septima die* in roman two lines
+below, so the letters are comparable in his own type) and **0670B *ominibus* beside *omnibus* ON
+THE SAME LINE** — both found while reading the column for something else, addendum C earning its
+place a fifth time. Our Latin read correctly at both; **no check we own could have found either.**
+⚠ 0654A carried **two** faults in one phrase: CC failed to rejoin a line break **and inserted an
+*in* the plate does not print.**
+
+### The polarity read — 13 raised, 4 acted on, and FOUR REFUTED AT THE PLATE
+
+`sites: 4 · ours: 4`. The serious one is **0655C VERS. 16**, the no-trace class: Migne's gloss
+leans on the lemma's *non* and prints no second one, so our English asserted what the gloss
+denies. Resolved per the settled ruling (8954 @0593C) — **text untouched, a `[cj:]` names the
+elision.** Three more repairs, all ours (the feminine subject *tribus* at 0655C; the impersonal
+*non esset sacerdos* at 0656C; plural *sensus* at 0670A).
+
+⛔ **Four findings were refuted by the plate, three of them the readers' most confident, and every
+one was an argument from what the sentence OUGHT to say.** The stints' rule — a real word is
+Migne's until a plate says otherwise — beat all four. **Blind readers are strongest on what the
+English SAYS and weakest on what the page PRINTS; weight them accordingly.**
+
+### The merge layer's one real find: REGISTER drift
+
+The third stint archaized the gloss's **own voice** with "ye"; the first two used "you". Twelve
+sites converted, five kept inside quoted scripture. **Pattern 17's own justification decides it:**
+the archaism earns its place by recovering NUMBER, and ye/you recovers **case**, which English
+does not need. Sibling epistle 8986 runs 2 "ye" against 100 "you".
+
+### Burn, measured
+
+~652K translation (13 chunks, three stints) against ~585K quoted at 45K/chunk — **~50K/chunk, so
+quote 50K for a Glossa epistle, not 45K.** Polarity read ~280K. The plate gate was read by the
+session itself, so it is not a separate agent burn but it is 14 pages of reading.
+
+## ▶ OPEN — FOR WILSON
+
+1. **⬜ DEPLOY 8993.** Built, gated, staged, NOT deployed. `cd site && npx vercel --prod --yes
+   --archive=tgz --scope wilson-pruitts-projects` (the `--scope` is required — 08-30a finding).
+   Smoke-test the work page, **the cruces page**, landing, and `/glossa`.
+2. **⬜ PUSH** — 4 commits ahead of origin/master.
+3. **⬜ 0661C unsettled because OUR COPY CLIPS IT.** p.336 clips the left margin;
+   *quod non valet ad probationem ___* falls in the clip. Changes nothing in the English. The
+   second witness (`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`) closes it in one page.
+4. **⬜ 0655D — *Ilic autem* or *Hic autem*?** Raised by the read, by no agent. Italic capital
+   whose crossbar may have dropped out at this scan's resolution. Seen, left, not patched.
+5. **⬜ 11065 @0044 carries the same *sanctur* fault** and is SHIPPED. Recorded, not swept
+   (no-retrofit rule).
+6. Carried unchanged: the `[sic:]` backlog (381 pages), the `[var:]` half (~1,033 markers now),
+   8988 `0636A` *aurursus*, 8976 vs Pattern 7, `chunk-work.mjs` over-claiming coverage, and
+   8986's `Baruch III @ 0561A` unparsed citation.
+
+## ▶ NEXT — two Pauline books CHUNKED AND SPOT-CHECKED, 34 chunks ready
+
+| idno | book | words | chunks | est. burn @50K | state |
+|---|---|---|---|---:|---|
+| 8981 | Epistola I ad Corinthios | 12,614 | **14** | ~700K | ✅ ready |
+| 8996 | Epistola ad Romanos | 20,688 | **20** | ~1.0M | ✅ ready — see below |
+
+⭐ **ROMANS IS NOT A CHECKED ZERO.** Its opening page (p.240, cols 469/470) carries an
+**ASTERISK-LAYER note** keyed to a raised `*` before the VERS. 2 lemma *Quod ante* at 0470B:
+Migne's pointer that whatever Walafrid's Gloss took from **Haymo of Halberstadt** is to be sought
+in Haymo's own works at **PL 116, 117, 118**. Recovered to `data/plate-notes/8996.tsv`, injected
+as `[cn: * | …]`. ⛔ **It is owed a TRANSLATED `[nt: …]` opposite in the English** (2026-08-24
+ruling) — tell the translating agent, or `verify-english` fails on the parity. ⚠ Its first word is
+transcribed as printed, *Quiquid*, probably Migne's own setting for *Quidquid*; verify at
+magnification.
+
+⚠⚠ **OUR PL 114 COPY CLIPS A MARGIN on scattered pages in this stretch** — now confirmed on
+**p.330 and p.340 (LEFT margin)** as well as p.265/p.281 (RIGHT) and p.290 (LEFT). **Per-page, not
+per-volume.** Any marginal crux needs the second witness
+(`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`, a PL 114 copy B filed under `pl202`).
+
+Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K**.
+
+
 ## ▶▶▶▶▶ SESSION 2026-08-30 — 8986 *EPISTOLA II AD CORINTHIOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 Corpus **147 → 148**, `/glossa` **41 → 42 of 58**, cruces **144 → 145**. Deployed to `migne.app`
