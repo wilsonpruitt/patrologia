@@ -97,6 +97,47 @@ const NOWRAP_MAX = 32;
 const noteCls = (s, extra = '') =>
   `notecite${extra ? ' ' + extra : ''}${String(s).replace(/<[^>]*>/g, '').trim().length > NOWRAP_MAX ? ' wraps' : ''}`;
 
+// Marker CONTENT is italicised HERE, at emission, not by the global asterisk pass
+// at the foot of paras(). Kept byte-identical to build-work-page.mjs, which carries
+// the full account: that pass pairs asterisks left-to-right across the whole
+// paragraph, so an italic run inside a marker that sits inside an italic lemma
+// cross-pairs with the lemma and emits an unbalanced `</i>`. The two builders must
+// not drift on the same pattern — that is the mistake that put 47 raw markers on
+// live PG pages in 2026-08-01.
+const ital = s => String(s).replace(/\*([^*]+)\*/g, '<i>$1</i>');
+
+// ⛔ THE OBVIOUS DETECTORS BOTH FAIL HERE, and both were tried before this one.
+// The cross-pairing emits
+//   `<span class="sic"></i>fratibus<i></span>`
+// (1) A COUNT of <i> against </i> balances — one of each.
+// (2) A DEPTH WALK over <i>/</i> alone also passes — they still alternate
+//     open, close, open, close across the line.
+// What is actually broken is that the italic run CROSSES the <span> boundary: the
+// `</i>` closes an italic opened outside the span, and the `<i>` reopens one that
+// closes outside it. So the only check that sees it is a stack over BOTH tags,
+// which is what this is. Scoped to one rendered string, so the label can quote the
+// source line rather than just naming the page.
+const INLINE_TAG = /<(\/?)(i|span|a|em|strong|b)\b[^>]*>/g;
+function assertWellNested(html, src) {
+  const stack = [];
+  for (const m of html.matchAll(INLINE_TAG)) {
+    if (!m[1]) { stack.push(m[2]); continue; }
+    const top = stack.pop();
+    if (top !== m[2]) {
+      console.error(`crossed inline tags: </${m[2]}> closes while <${top || 'nothing'}> is open\n`
+        + `  in: ${String(src).slice(0, 200)}\n`
+        + `  a marker's italic run has cross-paired with its lemma's asterisks — `
+        + `italicise marker CONTENT at emission (ital()), never in the global pass`);
+      process.exit(1);
+    }
+  }
+  if (stack.length) {
+    console.error(`unclosed inline tag <${stack[stack.length - 1]}> in: ${String(src).slice(0, 200)}`);
+    process.exit(1);
+  }
+  return html;
+}
+
 // Band letters (CLAUDE.md "Band letters in PG"). Migne's marginal A/B/C/D. PG
 // citation addresses stay COLUMN-level by ruling, so a band is not a link and is
 // not displayed — but the id is emitted anyway, on an empty span, so `#c1425c`
@@ -115,7 +156,7 @@ function qualifyBands(text) {
 
 function paras(text, { anchorIds }) {
   return text.split(/\n\n+/).map(p => {
-    const inline = esc(p.replace(/\n/g, ' '))
+    const inline = assertWellNested(esc(p.replace(/\n/g, ' '))
       .replace(/\[(\d{4})\]\s*/g, (_, c) =>
         `<a class="anchor" href="#${colId(c)}"${anchorIds ? ` id="${colId(c)}"` : ''}>${colDisp(c)}</a>`)
       // Inline markers. These MUST be transformed here or they reach the reader as
@@ -130,26 +171,26 @@ function paras(text, { anchorIds }) {
       // we transcribe Migne's footnotes — and both markers rendered as raw bracket
       // text until 2026-08-04. Behaviour kept identical to build-work-page.mjs.
       .replace(/\[nt: ([^\]]*)\]/g, (_, nt) =>
-        `<span class="${noteCls(nt, 'prose')}">${nt}</span>`)
+        `<span class="${noteCls(nt, 'prose')}">${ital(nt)}</span>`)
       .replace(/\[n: ([^\]]*)\]/g, (_, n) =>
-        `<span class="${noteCls(n)}">${n}</span>`)
+        `<span class="${noteCls(n)}">${ital(n)}</span>`)
       .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
-        `<span class="sic" title="Printed thus in the source text — see the notes on this work">${s}</span>`)
+        `<span class="sic" title="Printed thus in the source text — see the notes on this work">${ital(s)}</span>`)
       .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
-        `<span class="ednote">[${e}]</span>`)
+        `<span class="ednote">[${ital(e)}]</span>`)
       .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
-        `<span class="varnote" title="The source text diverges from the received text here">[${v}]</span>`)
+        `<span class="varnote" title="The source text diverges from the received text here">[${ital(v)}]</span>`)
       // pattern-18 [cj: …]: a REAL printed word whose faithful English asserts what the
       // author did not; our conjecture stands beside it, additively. Kept identical to
       // build-work-page.mjs — the two builders must not drift on the same marker, which
       // is the mistake that put 47 raw markers on live PG pages in 2026-08-01.
       .replace(/\[cj: ([^\]]*)\]/g, (_, c) =>
-        `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${c}]</span>`)
+        `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${ital(c)}]</span>`)
       // pattern-16 [lat: …], PG only: the parallel Latin column asserts a different
       // fact than the Greek. English follows the Greek; this records what Migne's
       // Latin says instead.
       .replace(/\[lat: ([^\]]*)\]/g, (_, l) =>
-        `<span class="latnote" title="Migne's parallel Latin column diverges from his Greek text">[${l}]</span>`)
+        `<span class="latnote" title="Migne's parallel Latin column diverges from his Greek text">[${ital(l)}]</span>`)
       // Band letters, pre-qualified by qualifyBands(). Empty by design: the band
       // carries an addressable id but is not shown, because PG URLs are
       // column-level and a lone marginal letter on the one work that has the data
@@ -157,7 +198,7 @@ function paras(text, { anchorIds }) {
       .replace(/\[bid:([a-z0-9]+)\]/g, (_, id) =>
         anchorIds ? `<span class="band" id="${id}"></span>` : '')
       .replace(/\*([^*]+)\*/g, '<i>$1</i>')
-      .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
+      .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`), p);
     return `<p>${inline}</p>`;
   }).join('\n');
 }

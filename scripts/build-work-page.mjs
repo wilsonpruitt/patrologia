@@ -109,12 +109,64 @@ const NOWRAP_MAX = 32;
 const noteCls = (s, extra = '') =>
   `notecite${extra ? ' ' + extra : ''}${String(s).replace(/<[^>]*>/g, '').trim().length > NOWRAP_MAX ? ' wraps' : ''}`;
 
+// Marker CONTENT is italicised HERE, at emission — never left to the global
+// asterisk pass at the foot of inlineHtml(). That pass pairs asterisks
+// left-to-right across the whole string, so an italic run INSIDE a marker that
+// itself sits inside an italic lemma gets cross-paired with the LEMMA's
+// asterisks: `*… to his brethren [sic: *fratibus*] [n: (Gen. IX)]*` emitted
+// `<span class="sic"></i>fratibus<i></span>` — an unbalanced `</i>` that leaks
+// into the rest of the paragraph. Live on 9006 prophetia-jeremiae until
+// 2026-08-30, and the crux file is where that placement was copied from, so it
+// would have propagated. ⚑ scan-raw-markers.mjs CANNOT see this class: nothing
+// reaches the reader as literal bracket text and the markup only LOOKS
+// well-formed — which is why the page is tag-balance checked before it is
+// written (see assertWellNested below).
+// Consuming a marker's own asterisks before the global pass runs leaves the
+// lemma's pair adjacent, so it closes where it opened. Nesting <i> inside <i> is
+// balanced and renders italic either way; the alternative — stripping the inner
+// run — would silently drop the source's own emphasis.
+const ital = s => String(s).replace(/\*([^*]+)\*/g, '<i>$1</i>');
+
+// The cheap detector the bug above asks for. Counted on the FINAL html, per page,
+// because that is the only place the cross-pairing shows up.
+// ⛔ THE OBVIOUS DETECTORS BOTH FAIL HERE, and both were tried before this one.
+// The cross-pairing emits
+//   `<span class="sic"></i>fratibus<i></span>`
+// (1) A COUNT of <i> against </i> balances — one of each.
+// (2) A DEPTH WALK over <i>/</i> alone also passes — they still alternate
+//     open, close, open, close across the line.
+// What is actually broken is that the italic run CROSSES the <span> boundary: the
+// `</i>` closes an italic opened outside the span, and the `<i>` reopens one that
+// closes outside it. So the only check that sees it is a stack over BOTH tags,
+// which is what this is. Scoped to one rendered string, so the label can quote the
+// source line rather than just naming the page.
+const INLINE_TAG = /<(\/?)(i|span|a|em|strong|b)\b[^>]*>/g;
+function assertWellNested(html, src) {
+  const stack = [];
+  for (const m of html.matchAll(INLINE_TAG)) {
+    if (!m[1]) { stack.push(m[2]); continue; }
+    const top = stack.pop();
+    if (top !== m[2]) {
+      console.error(`crossed inline tags: </${m[2]}> closes while <${top || 'nothing'}> is open\n`
+        + `  in: ${String(src).slice(0, 200)}\n`
+        + `  a marker's italic run has cross-paired with its lemma's asterisks — `
+        + `italicise marker CONTENT at emission (ital()), never in the global pass`);
+      process.exit(1);
+    }
+  }
+  if (stack.length) {
+    console.error(`unclosed inline tag <${stack[stack.length - 1]}> in: ${String(src).slice(0, 200)}`);
+    process.exit(1);
+  }
+  return html;
+}
+
 // `state` carries the current column while rendering ONE side of the parallel
 // page. Latin and English are rendered in interleaved order (lat sec 0, eng sec 0,
 // lat sec 1 …), so a single shared tracker would drift across the seam — each side
 // gets its own, seeded from the work's first column.
 function inlineHtml(s, { anchorIds, state }) {
-  return esc(s)
+  return assertWellNested(esc(s)
     // anchors and notes are matched in ONE alternation so they are replaced in
     // document order; two sequential .replace passes would finish every anchor
     // before the first note and leave the column tracker useless.
@@ -127,22 +179,22 @@ function inlineHtml(s, { anchorIds, state }) {
       // per Wilson's 2026-07-28 ruling. It is Migne's note either way, so it takes
       // the same .notecite treatment; it just never carries a citation correction,
       // because there is no reference in it to correct.
-      if (nt !== undefined) return `<span class="${noteCls(nt, 'prose')}">${nt}</span>`;
+      if (nt !== undefined) return `<span class="${noteCls(nt, 'prose')}">${ital(nt)}</span>`;
       const fix = state ? correctionFor(n, state.col) : null;
-      if (!fix) return `<span class="${noteCls(n)}">${n}</span>`;
+      if (!fix) return `<span class="${noteCls(n)}">${ital(n)}</span>`;
       const why = fix.note ? ` — ${fix.note}` : '';
-      return `<span class="${noteCls(n, 'corrected')}" title="${esc(`The source prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${n}</span>`;
+      return `<span class="${noteCls(n, 'corrected')}" title="${esc(`The source prints ${fix.refDisplay}; the reference is ${prettyKey(fix.refKey)}${why}`)}">${ital(n)}</span>`;
     })
     // pattern-4 inline locators: strip the wrapper, render the content as printed
     // (the tag is an index handle, not display markup — translation-style.md rule 1)
-    .replace(/\[f: ([^\]]*)\]/g, (_, f) => `<span class="fonscite">${f}</span>`)
+    .replace(/\[f: ([^\]]*)\]/g, (_, f) => `<span class="fonscite">${ital(f)}</span>`)
     // pattern-11 dittography: the repeated run is REAL TEXT (Pattern 7 — we render
     // what the plate prints), so it renders normally and is only marked, never
     // hidden or deduplicated. The marker exists so the repetition reads as the source
     // text's and not as ours. Whether the doubling is Migne's compositor or the
     // transcription of him, our files cannot say; the marker no longer claims to.
     .replace(/\[d: ([^\]]*)\]/g, (_, d) =>
-      `<span class="dittog" title="Repeated thus in the source text">${d}</span>`)
+      `<span class="dittog" title="Repeated thus in the source text">${ital(d)}</span>`)
     // pattern-12 [sic: …]: type carried through as the source text prints it. Without it
     // italic Latin in the English is ambiguous — *precaria* (a technical term we
     // deliberately leave in Latin) and *bonorem* (broken type in the source) look identical,
@@ -150,21 +202,21 @@ function inlineHtml(s, { anchorIds, state }) {
     // the second kind only. The words render exactly as printed; only their PROVENANCE
     // is annotated, same principle as .dittog.
     .replace(/\[sic: ([^\]]*)\]/g, (_, s) =>
-      `<span class="sic" title="Printed thus in the source text — see the notes on this work">${s}</span>`)
+      `<span class="sic" title="Printed thus in the source text — see the notes on this work">${ital(s)}</span>`)
     // pattern-13 [ed: …]: the EDITION speaking in its own voice, not the author and
     // not Migne — used where the digitized source has lost text that the plate has,
     // so the page would otherwise show a hole that reads as our error. Unlike every
     // other marker this content is OURS, so it is set apart visually rather than
     // woven into the text: a reader must never mistake it for something Migne printed.
     .replace(/\[ed: ([^\]]*)\]/g, (_, e) =>
-      `<span class="ednote">[${e}]</span>`)
+      `<span class="ednote">[${ital(e)}]</span>`)
     // pattern-14 [var: …]: the source text's scripture citation diverges from the received
     // text. Neither a defect in the type ([sic:]) nor a hole in our source ([ed:]) — the
     // reading is legible and complete, the quotation just does not agree with the Vulgate. Ours,
     // so it is set apart; but quieter than .ednote, because it annotates the text rather
     // than confessing a gap in it.
     .replace(/\[var: ([^\]]*)\]/g, (_, v) =>
-      `<span class="varnote" title="The source text diverges from the received text here">[${v}]</span>`)
+      `<span class="varnote" title="The source text diverges from the received text here">[${ital(v)}]</span>`)
     // pattern-18 [cj: …]: Migne prints a REAL word, so Pattern 7 renders it and nothing
     // is marked — but the English then asserts something the author did not (*munde*,
     // "purely", where the sense is *mundo*, "to the world"). Ruled by Wilson 2026-08-15.
@@ -173,7 +225,7 @@ function inlineHtml(s, { anchorIds, state }) {
     // and this one must never be mistaken for the edition confessing a hole ([ed:]) or
     // for broken type ([sic:]), because the type here is not broken at all.
     .replace(/\[cj: ([^\]]*)\]/g, (_, c) =>
-      `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${c}]</span>`)
+      `<span class="cjnote" title="Migne's word stands in the text; the reading beside it is our conjecture">[${ital(c)}]</span>`)
     // [cn: n | …]: MIGNE'S OWN foot-of-page note, recovered from the plate and put back
     // beside the word he queried (CLAUDE.md, "Migne's conjecture notes"; Corpus Corporum's
     // TEI carries none of them). It is HIS apparatus, so it renders in the .notecite
@@ -189,10 +241,10 @@ function inlineHtml(s, { anchorIds, state }) {
     .replace(/\[cn: ([0-9]+(?:-[0-9]+)?\*?|\*) \| ([^\]]*)\]/g, (_, n, note) =>
       `<span class="${noteCls(note, 'conj')}" title="${esc(n === '*'
         ? `Migne's own note at the foot of this page, keyed to this word by an asterisk — his editorial cross-reference, not a conjecture`
-        : `Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`)}">${note}</span>`)
+        : `Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`)}">${ital(note)}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
-    .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`);
+    .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`), s);
 }
 
 function blockHtml(text, opts) {
