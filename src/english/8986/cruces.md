@@ -134,8 +134,8 @@ because a later reader will otherwise wonder whether these were coordinated. The
 ## §4 · Open against this work
 
 1. ✅ **The plate gate — CLOSED 2026-08-30 (§5).** 7 stood, 0 false.
-2. **The polarity read (step 4a) has not been run.** Required before ship, and it must be a
-   blind reading pass — the checkers must NOT be given this file or the range files first.
+2. ✅ **The polarity read — DONE 2026-08-30 (§6).** 10 sites, 9 ours. Recorded in
+   `data/polarity/8986.json`.
 3. ✅ **Both held candidates settled at the plate (§5)**, and both against the stint's own guess:
    *Transformantur* was neither Migne's nor the Vulgate's, and *Et Deus pacis erit vobiscum* was
    Migne's own short lemma, not the TEI loss it was taken for.
@@ -218,3 +218,76 @@ question.
 ⚠ **p.290 clips the LEFT margin** and its left column has lost its opening characters. No marker
 depends on that column. Any future crux at 0569 needs the second witness
 (`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`, a PL 114 copy B filed under `pl202`).
+
+## §6 · THE BLIND POLARITY READ — three readers, 2026-08-30
+
+Three Opus readers over 10 chunks, each fenced from the cruces, the TEI patches and the plate
+reads, and from each other. **11 sites raised, 10 acted on, 1 declined.** `sites: 10 · ours: 9`.
+
+⛔ Deliberately fenced from this file: on the 2026-07-28 sweep every agent handed the cruces
+returned "all already logged" and found nothing, while blind readers on the same works found four
+live defects. One reader here **disclosed that a `grep` glob had leaked six lines of the cruces
+into its context, and withdrew the affected item from its own findings** so it could not inflate
+recall. ⚑ Scope the glob to `src/english/<idno>/0*.md`; `*.md` matches the apparatus.
+
+### ⭐ What the fourth test found that nothing else could
+
+**0557B — a reader predicted a missing word from the English alone, and the plate had it.** Our
+Latin read *Quia in ea **sine** manebitur*; the English, "there shall be abiding without", has no
+complement. The reader reasoned that *sine* cannot govern nothing, proposed *sine **fine***, and
+asked for one page. The plate prints **`sine fine`** — Corpus Corporum had dropped the word
+outright, the only clean text LOSS in this work. No parity, count, band or marker check can see a
+class like this: nothing was misaligned, and the English was faithful to a Latin that was wrong.
+
+### The ten, by direction
+
+**OURS (8 in the English):** *Vel passive **ergo*** read as though *ergo* were the word being
+glossed, when *ergo* is the inferential particle and *passive* governs *operatur* — which Migne's
+own gloss then equates with the passive *efficitur* (0557A) · *per hoc* mis-bracketed so that
+"through this life" made *vita* the instrument rather than the subject its own gloss names
+(0557A) · **two Pauline sentences attributed to Christ** by a bare "he" standing next to
+*Christus*, where *alio loco* is this commentary's formula for another place in the Apostle
+(0556D) · the negative left on *ab Evangelio* instead of on *solum*, turning "not on those grounds
+alone" into a flat denial that the Gospel commends them at all — the `sed etiam` is the structural
+proof (0563C) · *ut dicatur* read as purpose, making the Apostle act **in order that** he be
+called negligent, when the lemma is *Devitantes hoc*, "avoiding this" (0563C) · **the subject of
+*appareant* given to the Corinthians when it is the apostles** (0570A), which inverted who is
+called reprobate at the hinge of the paragraph — settled by *probati enim videntur, dum judicant
+peccatores* and by the lemma's own first-person *appareamus reprobi* · *Istam* rendered "this one"
+where it is *pax* (0570B) · *patitur*, printed indicative, quietly made subjunctive to harmonize
+with *habeat* (0567A).
+
+**OURS (1 in the Latin):** the dropped *fine*, above.
+
+**MIGNE'S (1):** *Ut inopia **illi*** (0563A) — a reader took it for a clipped *illius* and
+proposed repairing the lemma. **The plate prints *illi*.** So the English stays as printed and the
+divergence is now shown with a `[var:]` against Clementine 2 Cor 8:9 *illius* — which Migne's own
+next clause reads. Repairing it would have smoothed away the thing worth seeing.
+
+### The one declined, and why
+
+**0557C *quo tamen nolumus mortem nobis tolli*** — a reader showed the sentence asserts the
+reverse of its own paragraph (2 Cor 5:4 is *nolumus expoliari sed supervestiri* throughout) and
+proposed reading *morte* for *mortem*. It rated itself "high on the defect, medium on the repair,
+needs the plate", which is the right way to raise it. **The plate prints *mortem*.** The difficulty
+is Migne's, our English renders it literally, and the proposed repair is declined because it would
+emend against the page. Logged, unmarked: a real, well-formed word that reads oddly is Migne's.
+
+### One further defect of Migne's, caught on the same pages
+
+**0563A `abjicicimus`** — the plate prints `abjici-`/`cimus` across the line break, a doubled
+syllable for *abjicimus*. A reader saw the malformed word in our file and **declined to call it
+Migne's without a plate**, on the ground that our Latin is Corpus Corporum's transcription first.
+That was correct, and the plate then made it Migne's. Now carries a `[sic:]`.
+
+### Rejected candidates worth keeping
+
+Between them the readers rejected some two dozen, each with the loser named. The ones a later
+sweep is most likely to re-raise: *Peregrinamur non fide, sed specie* reads backwards against
+2 Cor 5:7 until the preceding sentence fixes it as a claim about **sight** · *sanctus mundi est,
+non Dei* is Migne's own paradox, not a defect · *super invocationem animae* is odd and is what the
+plate prints · *minor verbis* is the deponent "I threaten", not the comparative · *ministri
+justitiae aeternae* takes *aeternae* with *justitiae*, since it cannot be predicate to masculine
+*ministri* · and VERS. 6's *Hoc non ad apostolos pertinet, quia non erant eloquentes*, which reads
+backwards at first sight and is right, because the comparison Paul disclaims is with the *pseudo*
+precisely on the ground that the apostles were not eloquent either.

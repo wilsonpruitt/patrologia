@@ -66,6 +66,20 @@
       "replace": "Istam ergo imitetur",
       "direction": "corrupted",
       "why": "Plate p.290 col 0570B prints 'Istam ergo imitetur' -- verified at 5x, the r unmistakable. CC dropped it, and that single letter manufactured the work's hardest crux: a nominative ego governing a third-person imitetur, which the stint correctly refused to repair (it named imiter and imitemur, took neither, and rendered it broken). There was never a crux. ENGLISH FOLLOWED THE CORRUPTION ('This one, I, let him imitate') and must be re-rendered."
+    },
+    {
+      "col": "0557B",
+      "find": "Quia in ea sine manebitur",
+      "replace": "Quia in ea sine fine manebitur",
+      "direction": "corrupted",
+      "why": "Plate p.284 col 0557B prints 'Quia in ea sine fine manebitur'. CC DROPPED 'fine' outright -- a text loss, not a tidy-up, and the only one of its kind in this work. ⭐ Found by a BLIND POLARITY READER from the English alone: it saw that 'there shall be abiding without' has no complement and predicted the missing word before any page was opened. That is the fourth test doing what no containment check can."
+    },
+    {
+      "col": "0563D",
+      "find": "ibenter ibat",
+      "replace": "libenter ibat",
+      "direction": "corrupted",
+      "why": "Plate p.287 col 0563D prints 'libenter ibat'. CC dropped the l. The English already read 'gladly went', so only the Latin was wrong; a reader flagged it as letter damage in our file and correctly declined to call it Migne's without the plate."
     }
   ]
 }
