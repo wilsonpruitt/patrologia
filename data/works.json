@@ -19893,8 +19893,11 @@
    "colLast": "1232A",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "ours",
+    "note": "Glossa ordinaria on Ecclesiasticus (Sirach). No prior English of the GLOSS on this book. ⚠ Not to be confused with the gloss on ECCLESIASTES (8946), which has been translated -- the two titles differ by three letters and name different books, and that near-collision is why this verdict is recorded explicitly. Ruled by Wilson 2026-08-30, after the work shipped with workStatus null and so published the weaker 'New English translation' badge.",
+    "confidence": "high",
+    "triageBatch": "wilson-2026-08-30"
    },
    "texts": [
     {
@@ -21288,7 +21291,7 @@
    "cpl": null,
    "translation": {
     "workStatus": null,
-    "englishState": null
+    "englishState": "ours"
    },
    "texts": [
     {

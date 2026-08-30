@@ -1,0 +1,221 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3963,
+  "textIdno": 8986,
+  "title": "Epistola II ad Corinthios",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "551a",
+  "colLast": "570c",
+  "counts": {
+    "scripture": 9,
+    "fontes": 8,
+    "heads": 14,
+    "headnotes": 0,
+    "unparsed": 1
+  },
+  "scripture": [
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "556b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Acts.17",
+      "refDisplay": "Act. XVII.",
+      "column": "558a",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "558d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Deut.21",
+      "refDisplay": "Deut. XXI",
+      "column": "559c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "559c",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI",
+      "column": "560a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Ibid.",
+      "antecedent": "Matth. XI",
+      "antecedentColumn": "560a",
+      "ibidResolved": true,
+      "column": "560a",
+      "chunk": 5
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "561a",
+      "chunk": 5
+    },
+    {
+      "refKey": "Luke.12",
+      "refDisplay": "Luc. XII.",
+      "column": "567d",
+      "chunk": 8
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG., lib. II, contra duas epist. Pelag., c. 8.",
+      "column": "554c",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "565b",
+      "chunk": 7
+    },
+    {
+      "raw": "HIER.",
+      "column": "566b",
+      "chunk": 8
+    },
+    {
+      "raw": "HIER.",
+      "column": "566d",
+      "chunk": 8
+    },
+    {
+      "raw": "AMBR.",
+      "column": "567b",
+      "chunk": 8
+    },
+    {
+      "raw": "THEOPH.",
+      "column": "568b",
+      "chunk": 9
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "569b",
+      "chunk": 9
+    },
+    {
+      "raw": "HIER.",
+      "column": "570a",
+      "chunk": 9
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "551a",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "551a",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "553a",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "554a",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "556a",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "557a",
+      "chunk": 4,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "559c",
+      "chunk": 5,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "561a",
+      "chunk": 5,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "562b",
+      "chunk": 6,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "564a",
+      "chunk": 6,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "564c",
+      "chunk": 7,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "566a",
+      "chunk": 8,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "568a",
+      "chunk": 9,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "569b",
+      "chunk": 9,
+      "en": "CHAPTER XIII."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [
+    {
+      "raw": "Baruch III",
+      "reason": "unknown-book",
+      "column": "561a",
+      "chunk": 5,
+      "inline": true
+    }
+  ],
+  "proseNotes": []
+}
