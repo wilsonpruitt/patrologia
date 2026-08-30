@@ -1,0 +1,105 @@
+{
+  "note": "PLATE GATE of 9006 (Glossa ordinaria, Prophetia Jeremiae), 2026-08-29. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before every read (p.23 prints 47/48). 24 pages read across three readers, covering all 37 markers (36 [var:], 1 [sic:]). RESULT: 36 STAND, 1 REVISED, 0 FALSE, 0 UNRESOLVED -- against a 65% false rate for PL 114 in the 2026-08-29 sweep. The difference is that this run fired no letter-level type accusations: nearly every marker is a [var:] on a multi-word scriptural divergence that a single-letter CC misread cannot manufacture.",
+  "class": "TWO DIRECTIONS, on purpose. (1) CORRUPTED -- Corpus Corporum broke a word Migne set correctly; repaired here. (2) NORMALIZED -- Corpus Corporum silently tidied a defect in Migne's own type; restored so a [sic:] can show it (Pattern 7). TWELVE defects of Migne's were hidden from us this way and no check we run could have found them, because our Latin read correctly. Per the no-retrofit rule this is NOT a sweep of the done corpus: 9006 had not shipped when these were found.",
+  "result": "1 CORRUPTED (0032D exores->uxores, which also REVISES that column's [var:]). 12 NORMALIZED restorations of Migne's own defects, each owed a new [sic:]. 1 verse address restored (0043A). The 8991 pattern reproduced on ONE LINE at 0028C: CC corrupted tuli->tuh AND silently repaired Migne's broken ,umbare, both directions, no marker on either.",
+  "patches": [
+    {
+      "col": "0011D",
+      "find": "servus erit fratribus suis",
+      "replace": "servus erit fratibus suis",
+      "direction": "normalized",
+      "why": "Plate p.11 col 0011D prints 'fratibus' without the r, verified at 9x; clean type, unambiguous. CC supplied the r. Our Latin read the CORRECT form, so no check we own could see it. Owed a [sic:]."
+    },
+    {
+      "col": "0015C",
+      "find": "Quos ego; sed motos praestat",
+      "replace": "Quos egos; sed motos praestat",
+      "direction": "normalized",
+      "why": "Plate p.13 col 0015C prints 'Quos egos' in the Virgil tag (Aen. 1.135, correctly 'Quos ego--'), verified at 5x; the final s is a full sort, distinct from the following semicolon. Found four lines from the marker the reader was assigned -- the 'read the whole line' rule earning its place. Owed a [sic:]."
+    },
+    {
+      "col": "0026D",
+      "find": "multo pejora",
+      "replace": "multc pejora",
+      "direction": "normalized",
+      "why": "Plate p.18 col 0026D prints 'multc' -- a c sort for o. Verified at 12x: terminals crisp and unthinned, so not a worn o. ⚠ THE READER FLAGGED THIS AS ITS LEAST CERTAIN of the seven it found on that slice, on the ground that a worn o and a c can look alike; recorded with that caveat so a future reader can downweight it relative to the unambiguous six. Owed a [sic:]."
+    },
+    {
+      "col": "0028C",
+      "find": "Et tuh lumbare.",
+      "replace": "Et tuli ,umbare.",
+      "direction": "both",
+      "why": "⭐ THE 8991 PATTERN ON ONE LINE. Plate p.20 col 0028C prints 'Et tuli ,umbare': CC CORRUPTED 'tuli' into the non-word 'tuh' AND SILENTLY REPAIRED Migne's broken l ( ,umbare -> lumbare ) in the same breath, with no marker on either. The corruption reached a reader as a silent emendation -- the English printed 'And I took the girdle', emending tuh to tuli without a [sic:] -- and the repair concealed a real defect of Migne's. Frequency analysis cannot see either. The restored ,umbare is owed a [sic:]."
+    },
+    {
+      "col": "0032D",
+      "find": "ut qui exores habent",
+      "replace": "ut qui uxores habent",
+      "direction": "corrupted",
+      "why": "Plate p.21 col 0032D prints italic 'uxores', unmistakable. CC produced the non-word 'exores', which our ENGLISH then published untranslated ('they who have exores be as those that have not') -- a CC corruption passed through to a reader as though it were Latin. ⛔ REVISES the [var:] on this column: its claim about 'et consummatio imminet' (genuinely absent from Vulg. 1 Cor 7:29) and word order STANDS, but its clause 'and reading uxores' must be WITHDRAWN, since Migne prints exactly that."
+    },
+    {
+      "col": "0033D",
+      "find": "putantes vera\nesse quae finxerunt",
+      "replace": "pμtantes vera\nesse quae finxerunt",
+      "direction": "normalized",
+      "why": "Plate p.21 col 0033D prints a Greek mu sort for the u (descender below the baseline). CC normalized it to a Latin u. Owed a [sic:]."
+    },
+    {
+      "col": "0037A",
+      "find": "Nuntiis regis, qui venerant",
+      "replace": "Nuntlis regis, qui venerant",
+      "direction": "normalized",
+      "why": "Plate p.24 col 0037A prints 'Nuntlis' -- the i set as an l (full ascender, no dot). CC normalized. Owed a [sic:]."
+    },
+    {
+      "col": "0043A",
+      "find": "<pb n=\"0043A\"/>VERS. 3.-- <hi>Omnia vasa,</hi>",
+      "replace": "<pb n=\"0043A\"/>VERS. 5.-- <hi>Omnia vasa,</hi>",
+      "direction": "normalized",
+      "why": "Plate p.27 col 0043A prints 'VERS. 5.' CC silently CORRECTED the verse number -- and correctly, since Jer 28:3 is indeed the vasa verse -- which is precisely what makes the departure invisible to every checker we own. Migne's own addresses pass through verbatim and out-of-sequence addresses are reproduced and logged, never reordered (Glossa brief, 'Migne's own printing is not yours to tidy'). Restored; log in cruces. NOT owed a [sic:]: a VERS. n.-- address is an address, not a word of his text."
+    },
+    {
+      "col": "0047B",
+      "find": "Jam vicina captivitate",
+      "replace": "Jean vicina captivitate",
+      "direction": "normalized",
+      "why": "Plate p.29 col 0047B prints 'Jean' for 'Jam' -- a foul or transposed sort. CC normalized. Owed a [sic:]."
+    },
+    {
+      "col": "0048C",
+      "find": "non enim absentes erant",
+      "replace": "uo n enim absentes erant",
+      "direction": "normalized",
+      "why": "Plate p.29 col 0048C prints 'uo n' -- an inverted sort plus space intrusion -- where the sense requires 'non'. CC normalized. ⚑ Note this is a NEGATION PARTICLE that CC restored for us: the blind polarity read traced this site to a named host and found it correct, which it was, but only because the digitization had already repaired it. Owed a [sic:]."
+    },
+    {
+      "col": "0048C",
+      "find": "Quomodo periturus\nscribitur mundus",
+      "replace": "Qomodo periturus\nscribitur mundus",
+      "direction": "normalized",
+      "why": "Plate p.29 col 0048C prints 'Qomodo' -- dropped u. CC normalized. Owed a [sic:]."
+    },
+    {
+      "col": "0055C",
+      "find": "Aquae enim Nemrim desertae erunt",
+      "replace": "Aquae enim Nemrim desertae erum",
+      "direction": "normalized",
+      "why": "Plate p.33 col 0055C prints 'erum' -- no n, terminal m -- verified at high magnification; Migne's own broken or wrong sort for 'erunt'. CC tidied it. ⭐ This sits on the SAME COLUMN as the standing [var:] at 0055C (consternantem/conternantem): CC corrupting nothing but repairing one word while our marker correctly accuses another, the 8991 shape again. Owed a [sic:]."
+    },
+    {
+      "col": "0062A",
+      "find": "Dum Scriptura Sedeciae captivitatem narrat",
+      "replace": "Dum Scripturae Sedeciae captivitatem narrat",
+      "direction": "normalized",
+      "why": "Plate p.36 col 0062A prints 'Scripturae', ungrammatical against the singular 'narrat'. CC normalized the case. Owed a [sic:]."
+    },
+    {
+      "col": "0062A",
+      "find": "quia pravo usu et iniquitatis suae multitudine\ngravatur",
+      "replace": "quia pravo usu et iniquitates suae multitudine\ngravatur",
+      "direction": "normalized",
+      "why": "Plate p.36 col 0062A prints the nominative plural 'iniquitates'; CC corrected it to the genitive 'iniquitatis'. Owed a [sic:]."
+    }
+  ]
+}
