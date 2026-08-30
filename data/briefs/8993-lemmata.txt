@@ -1,0 +1,510 @@
+# 8993 — lemma inventory and Clementine pre-scan
+
+**Epistola ad Hebraeos** · PL 114 · cols 0643A–0670D · 13 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ Clementine verbatim** = this exact word sequence occurs SOMEWHERE in the Clementine.
+  ⛔ It does **not** mean it occurs at the verse being glossed, and it is **not** clearance.
+  A lemma can match some other verse verbatim and still diverge from its own.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## The inventory
+
+[0643B] VERS. 1.-- *Olim.*   — single word, check in place
+[0643B] *Deus,*   — single word, check in place
+[0643B] *Loquens.*   — single word, check in place
+[0643B] *loquens,*   — single word, check in place
+[0643B] *Patribus.*   — single word, check in place
+[0643B] *In prophetis.*   ✓ Clementine verbatim
+[0643B] *Multifarie.*   — single word, check in place
+[0643B] *Multisque modis.*   ✓ Clementine verbatim
+[0643B] VERS. 2.-- *In Filio,*   ✓ Clementine verbatim
+[0643C] *Constituit*   — single word, check in place
+[0643C] *Haeredem universorum,*   ✓ Clementine verbatim
+[0643C] VERS. 3.-- *Qui cum sit splendor gloriae,*   ✓ Clementine verbatim
+[0643C] *Figura substantiae.*   ✓ Clementine verbatim
+[0643C] *Pater in me est;*   ✓ Clementine verbatim
+[0643C] *Qui videt me, videt et Patrem meum [n: (Joan. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0644A] *Portansque omnia,*   ✓ Clementine verbatim
+[0644A] *Purgationem.*   — single word, check in place
+[0644A] *Sedet,*   — single word, check in place
+[0644A] *In excelsis.*   ✓ Clementine verbatim
+[0644A] VERS. 4.-- *Tanto melior.*   ✓ Clementine verbatim
+[0644A] *Paulo minus minoratus est ab angelis [n: (Psal. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0644A] *effectus,*   — single word, check in place
+[0644A] *Differentius nomen.*   ⚠ NOT in Clementine verbatim — CHECK
+[0644A] *prae illis,*   ✓ Clementine verbatim
+[0644D] VERS. 5.-- *Hodie.*   — single word, check in place
+[0644D] *hodie*   — single word, check in place
+[0645A] *Ego ero illi.*   ✓ Clementine verbatim
+[0645A] VERS. 6.-- *Iterum introducit,*   ✓ Clementine verbatim
+[0645A] *Et adorent.*   ✓ Clementine verbatim
+[0645A] *Cum introducit.*   ⚠ NOT in Clementine verbatim — CHECK
+[0645A] *intro,*   — single word, check in place
+[0645A] *ducendum,*   — single word, check in place
+[0645A] *Et adorent.*   ✓ Clementine verbatim
+[0645A] VERS. 7.-- *Angelos.*   — single word, check in place
+[0645A] VERS. 8.-- *Ad Filium.*   ✓ Clementine verbatim
+[0645C] *In saeculum.*   ✓ Clementine verbatim
+[0645C] *Ibunt hi in ignem aeternum, et illi in vitam aeternam [n: (Matth. XXV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0645C] VERS. 9.-- *Unxit te.*   ✓ Clementine verbatim
+[0645C] *Deus*   — single word, check in place
+[0645C] VERS. 10.-- *Et tu.*   ✓ Clementine verbatim
+[0645C] *In principio.*   ✓ Clementine verbatim
+[0645D] *Manuum.*   — single word, check in place
+[0645D] VERS. 11.-- *Peribunt.*   — single word, check in place
+[0645D] *Tu autem permanebis.*   ✓ Clementine verbatim
+[0645D] *Veterascent.*   — single word, check in place
+[0645D] VERS. 12.-- *Et velut amictum.*   ✓ Clementine verbatim
+[0645D] *Vidi coelum novum et terram novam [n: (Apoc. XXI)]*   ✓ Clementine verbatim
+[0645D] *Mutabis eos,*   ✓ Clementine verbatim
+[0645D] *Tu autem,*   ✓ Clementine verbatim
+[0645D] VERS. 13.-- *Ad quem angelorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0646A] *Sede.*   — single word, check in place
+[0646A] *Pedum.*   — single word, check in place
+[0646A] VERS. 14.-- *Nonne sunt omnes,*   ⚠ NOT in Clementine verbatim — CHECK
+[0646A] VERS. 1.-- *Propterea.*   — single word, check in place
+[0646A] *Abundantius,*   — single word, check in place
+[0646A] *Pereffluamus.*   — single word, check in place
+[0646A] VERS. 2.-- *Et omnis praevaricatio.*   ✓ Clementine verbatim
+[0646A] *omnis,*   — single word, check in place
+[0646A] *Justam mercedem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0646A] *retributionem,*   — single word, check in place
+[0646A] *mercedis,*   — single word, check in place
+[0646A] VERS. 4.-- *Et Spiritus distributionibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0646A] VERS. 6.-- *Quid est homo.*   ✓ Clementine verbatim
+[0647A] *Visitas eum:*   ✓ Clementine verbatim
+[0647A] VERS. 7.-- *Gloria.*   — single word, check in place
+[0647A] *honore,*   — single word, check in place
+[0647A] *Super opera manuum,*   ✓ Clementine verbatim
+[0647A] VERS. 8.-- *In eo autem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0647A] *Omnia subjecisti: In eo autem quod*   ⚠ NOT in Clementine verbatim — CHECK
+[0647A] *subjecit,*   — single word, check in place
+[0647A] *omnia, nihil dimisit,*   ⚠ NOT in Clementine verbatim — CHECK
+[0647A] VERS. 9.-- *Eum autem,*   ✓ Clementine verbatim
+[0647B] *Pater major me est [n: (Joan. XIV)]*   ✓ Clementine verbatim
+[0647B] *Propter passionem.*   ✓ Clementine verbatim
+[0647B] VERS. 10.-- *Auctorem.*   — single word, check in place
+[0647B] *Salutis eorum,*   ✓ Clementine verbatim
+[0647B] *Multos,*   — single word, check in place
+[0647B] *filios,*   — single word, check in place
+[0647B] *auctorem salutis eorum,*   ✓ Clementine verbatim
+[0647B] *Per passionem.*   ✓ Clementine verbatim
+[0647D] *Consummare.*   — single word, check in place
+[0647D] *quando ei omnia subjicientur, et erit omnia in omnibus [n: (I Cor. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0647D] *Qui enim,*   ✓ Clementine verbatim
+[0647D] *usque ad*   ✓ Clementine verbatim
+[0647D] *Ex uno omnes.*   ✓ Clementine verbatim
+[0647D] *non erubescit fratres vocare,*   ⚠ NOT in Clementine verbatim — CHECK
+[0647D] VERS. 14.-- *Quia ergo.*   ✓ Clementine verbatim
+[0647D] *et ipse,*   ✓ Clementine verbatim
+[0647D] *Participavit eisdem*   ✓ Clementine verbatim
+[0647D] *eisdem,*   — single word, check in place
+[0647D] *Per mortem.*   ✓ Clementine verbatim
+[0648B] VERS. 16.-- *Nusquam.*   — single word, check in place
+[0648B] *Apprehendit.*   — single word, check in place
+[0648B] *apprehendit,*   — single word, check in place
+[0648B] *assumpsit,*   — single word, check in place
+[0648B] VERS. 17.-- *Per omnia.*   ✓ Clementine verbatim
+[0648B] VERS. 18.-- *In eo enim.*   ✓ Clementine verbatim
+[0648B] *Qui tentantur.*   ✓ Clementine verbatim
+[0648C] VERS. 1.-- *Unde fratres.*   ✓ Clementine verbatim
+[0648C] VERS. 2.-- *Qui fidelis.*   ✓ Clementine verbatim
+[0648C] VERS. 3.-- *Amplioris.*   — single word, check in place
+[0648C] VERS. 4.-- *Omnis namque domus,*   ✓ Clementine verbatim
+[0648C] *Qui autem omnia creavit,*   ✓ Clementine verbatim
+[0648C] *Deus est.*   ✓ Clementine verbatim
+[0649A] VERS. 5.-- *Et Moyses.*   ✓ Clementine verbatim
+[0649A] VERS. 7.-- *Quapropter.*   — single word, check in place
+[0649A] *Hodie.*   — single word, check in place
+[0649B] VERS. 8.-- *Nolite obdurare corda vestra;*   ✓ Clementine verbatim
+[0649B] VERS. 9.-- *Probaverunt;*   — single word, check in place
+[0649B] VERS. 10.-- *Offensus.*   — single word, check in place
+[0649B] *Infensus.*   — single word, check in place
+[0649B] *proximus*   — single word, check in place
+[0649B] VERS. 11.-- *In ira mea.*   ✓ Clementine verbatim
+[0649B] *Si introibunt in requiem meam.*   ✓ Clementine verbatim
+[0649B] VERS. 12.-- *Cor malum incredulitatis.*   ✓ Clementine verbatim
+[0649C] VERS. 13.-- *Donec hodie;*   ✓ Clementine verbatim
+[0649C] *Fallacia peccati,*   ✓ Clementine verbatim
+[0649C] VERS. 14.-- *Participes enim Christi.*   ✓ Clementine verbatim
+[0649C] *si initium substantiae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0649C] *usque ad finem, firmum retineamus.*   ✓ Clementine verbatim
+[0649C] VERS. 16.-- *Quidam enim audientes.*   ✓ Clementine verbatim
+[0649D] VERS. 2.-- *Non profuit,*   ✓ Clementine verbatim
+[0649D] *Quae audierunt.*   ✓ Clementine verbatim
+[0649D] *fidei*   — single word, check in place
+[0649D] *ex his quae audierunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[0649D] VERS. 3.-- *Et quidem.*   ✓ Clementine verbatim
+[0649D] *Operibus.*   — single word, check in place
+[0650A] *hodie,*   — single word, check in place
+[0650A] *quidem*   — single word, check in place
+[0650A] *Perfectis.*   — single word, check in place
+[0650A] VERS. 4.-- *Et requievit die septima.*   ⚠ NOT in Clementine verbatim — CHECK
+[0650A] VERS. 5.-- *Et in isto.*   ✓ Clementine verbatim
+[0650A] VERS. 7.-- *Diem quemdam hodie.*   ✓ Clementine verbatim
+[0650A] *Post tantum temporis.*   ✓ Clementine verbatim
+[0650A] *hodie,*   — single word, check in place
+[0650A] VERS. 8.-- *Eis,*   — single word, check in place
+[0650C] *requiem praestitisset nunquam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0650C] *posthac,*   — single word, check in place
+[0650C] *loqueretur de alia die,*   ⚠ NOT in Clementine verbatim — CHECK
+[0650C] *hodie,*   — single word, check in place
+[0650C] VERS. 9.-- *Sabbatismus;*   — single word, check in place
+[0650C] VERS. 11.-- *In idipsum exemplum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0650C] *exemplum*   — single word, check in place
+[0650C] VERS. 12.-- *Sermo Dei.*   ✓ Clementine verbatim
+[0650C] *Vivus.*   — single word, check in place
+[0650C] *Pertingens.*   — single word, check in place
+[0650C] *Divisionem animae.*   ✓ Clementine verbatim
+[0651A] *Ac spiritus.*   ✓ Clementine verbatim
+[0651A] *Compagum quoque.*   ✓ Clementine verbatim
+[0651B] *Medullarum.*   — single word, check in place
+[0651B] VERS. 14.-- *Habentes ergo.*   ✓ Clementine verbatim
+[0651B] VERS. 15.-- *Non enim habemus,*   ✓ Clementine verbatim
+[0651B] *Qui non possit,*   ✓ Clementine verbatim
+[0651B] VERS. 16.-- *In auxilio opportuno.*   ✓ Clementine verbatim
+[0651D] VERS. 1.-- *Omnis namque pontifex.*   ✓ Clementine verbatim
+[0651D] VERS. 2.-- *Quoniam et ipse.*   ✓ Clementine verbatim
+[0651D] VERS. 4.-- *Nec quisquam,*   ✓ Clementine verbatim
+[0651D] VERS. 5.-- *Non seipsum clarificavit.*   ⚠ NOT in Clementine verbatim — CHECK
+[0651D] *Hic est Filius meus dilectus, in quo mihi bene complacui [n: (Matth. III)]*   ✓ Clementine verbatim
+[0652B] *Filius meus es tu, ego hodie genui te [n: (Psal. II)]*   ✓ Clementine verbatim
+[0652B] VERS. 6.-- *Tu es sacerdos.*   ✓ Clementine verbatim
+[0652B] *Secundum ordinem Melchisedech,*   ✓ Clementine verbatim
+[0652B] VERS. 7.-- *Preces supplicationesque.*   ✓ Clementine verbatim
+[0652C] *Exauditus est.*   ✓ Clementine verbatim
+[0652C] VERS. 8.-- *Didicit,*   — single word, check in place
+[0652C] VERS. 9.-- *Omnibus obtemperantibus.*   ✓ Clementine verbatim
+[0652C] *est appellatus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0652C] *Factus est causa salutis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0652D] *appellatus est a Deo pontifex,*   ⚠ NOT in Clementine verbatim — CHECK
+[0652D] *appellatus a Deo est pontifex,*   ⚠ NOT in Clementine verbatim — CHECK
+[0652D] *juxta ordinem Melchisedech,*   ✓ Clementine verbatim
+[0652D] VERS. 11.-- *Ininterpretabilis.*   — single word, check in place
+[0652D] VERS. 12.-- *Etenim cum deberetis.*   ✓ Clementine verbatim
+[0653A] *Quae sunt elementa exordii.*   ⚠ NOT in Clementine verbatim — CHECK
+[0653A] VERS. 13.-- *Omnis enim,*   ✓ Clementine verbatim
+[0653A] *Verbum caro factum est,*   ✓ Clementine verbatim
+[0653A] *In principio erat Verbum?*   ✓ Clementine verbatim
+[0653A] VERS. 1.-- *Quapropter.*   — single word, check in place
+[0653A] *Inchoationis Christi sermonem,*   ✓ Clementine verbatim
+[0653A] *Non rursus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0653A] *non rursus jacientes,*   ⚠ NOT in Clementine verbatim — CHECK
+[0653A] *Fundamentum.*   — single word, check in place
+[0653A] VERS. 4.-- *Impossibile.*   — single word, check in place
+[0653A] *Impossibile,*   — single word, check in place
+[0653A] *Eos qui,*   ✓ Clementine verbatim
+[0653A] VERS. 6.-- *Renovari,*   — single word, check in place
+[0653A] *Rursum crucifigentes.*   ✓ Clementine verbatim
+[0653A] VERS. 7.-- *Saepe venientem.*   ✓ Clementine verbatim
+[0653A] *saepe venientem,*   ✓ Clementine verbatim
+[0653A] *Imbrem.*   — single word, check in place
+[0653A] *Generans herbam.*   ✓ Clementine verbatim
+[0653A] *A quibus colitur.*   ✓ Clementine verbatim
+[0654A] *Et fecerunt fructum nativitatis,*   ✓ Clementine verbatim
+[0654A] VERS. 9.-- *Confidimus.*   — single word, check in place
+[0654A] VERS. 10.-- *Operis.*   — single word, check in place
+[0654A] VERS. 11.-- *Cupimus.*   — single word, check in place
+[0654A] VERS. 13.-- *Abrahae namque,*   ✓ Clementine verbatim
+[0654A] VERS. 14.-- *Nisi benedicens,*   ✓ Clementine verbatim
+[0654A] VERS. 17.-- *In quo abundantius volens.*   ✓ Clementine verbatim
+[0654A] VERS. 18.-- *Confugimus.*   — single word, check in place
+[0654A] VERS. 19.-- *Quam sicut.*   ✓ Clementine verbatim
+[0654A] *ac firmam,*   ✓ Clementine verbatim
+[0654A] *[n: (AUG.)] Jacta in Deum curam tuam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0654A] *usque ad*   ✓ Clementine verbatim
+[0654A] VERS. 20.-- *Praecursor.*   — single word, check in place
+[0654A] *Exsultavit ut gigas ad currendam viam [n: (Psal. XVIII)]*   ✓ Clementine verbatim
+[0654D] *In via peccatorum non stetit [n: (Ibid. I)]*   ✓ Clementine verbatim
+[0654D] *Sacerdos Dei summi. [n: (CHRYS., hom. 35, in Gen.)]*   ✓ Clementine verbatim
+[0654D] VERS. 3.-- *Neque initium,*   ✓ Clementine verbatim
+[0654D] *neque finem vitae habens.*   ✓ Clementine verbatim
+[0654D] *In perpetuum.*   ✓ Clementine verbatim
+[0655A] VERS. 4.-- *Intuemini autem,*   ✓ Clementine verbatim
+[0655A] VERS. 5.-- *Et quidem de filiis Levi,*   ✓ Clementine verbatim
+[0655A] VERS. 8.-- *Contestatur.*   — single word, check in place
+[0655A] *Vivit.*   — single word, check in place
+[0655A] VERS. 11.-- *Sub ipso.*   ✓ Clementine verbatim
+[0655A] VERS. 12.-- *Translato enim,*   ✓ Clementine verbatim
+[0655A] *In quo enim haec,*   ✓ Clementine verbatim
+[0655A] *Et amplius,*   ✓ Clementine verbatim
+[0655A] *Translato enim sacerdotio.*   ✓ Clementine verbatim
+[0655A] VERS. 14.-- *Manifestum est enim,*   ✓ Clementine verbatim
+[0655A] VERS. 16.-- *Non secundum legem.*   ✓ Clementine verbatim
+[0655A] VERS. 22.-- *In tantum.*   ✓ Clementine verbatim
+[0655A] *Melioris.*   — single word, check in place
+[0655A] VERS. 24.-- *Hic autem,*   ✓ Clementine verbatim
+[0655A] VERS. 25.-- *Unde et salvare.*   ✓ Clementine verbatim
+[0655A] VERS. 26.-- *Sanctus,*   — single word, check in place
+[0655A] *Innocens,*   — single word, check in place
+[0655A] *Impollutus,*   — single word, check in place
+[0655A] *Segregatus a peccatoribus,*   ✓ Clementine verbatim
+[0655A] VERS. 27.-- *Qui non habet,*   ✓ Clementine verbatim
+[0655A] *Hoc enim fecit semel seipsum offerendo.*   ✓ Clementine verbatim
+[0655A] VERS. 28.-- *Lex enim homines constituit,*   ✓ Clementine verbatim
+[0656B] VERS. 1.-- *Capitulum. [n: (CHRYS.)]*   — single word, check in place
+[0656B] *usque ad*   ✓ Clementine verbatim
+[0656B] *Talem habemus.*   ✓ Clementine verbatim
+[0656B] *Deus et non homo. In coelis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0656B] VERS. 2.-- *Sanctorum minister.*   ✓ Clementine verbatim
+[0656B] *Minister tabernaculi veri.*   ⚠ NOT in Clementine verbatim — CHECK
+[0656C] *Quod,*   — single word, check in place
+[0656C] *fixit Deus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0656C] *et non homo:*   ✓ Clementine verbatim
+[0656C] VERS. 3.-- *Quod offerat.*   ✓ Clementine verbatim
+[0656C] VERS. 4.-- *Cum esset,*   ✓ Clementine verbatim
+[0656C] *Si ergo esset,*   ✓ Clementine verbatim
+[0656C] VERS. 5.-- *Responsum est,*   ✓ Clementine verbatim
+[0656C] VERS. 6.-- *Et melioris Testamenti,*   ✓ Clementine verbatim
+[0656C] VERS. 7.-- *Nam si illud prius.*   ✓ Clementine verbatim
+[0657A] *Culpa vacasset, non utique.*   ✓ Clementine verbatim
+[0657A] *Inquireretur,*   — single word, check in place
+[0657A] VERS. 9.-- *Quod feci patribus eorum.*   ✓ Clementine verbatim
+[0657A] *Quod feci in die,*   ⚠ NOT in Clementine verbatim — CHECK
+[0657A] *In semine tuo benedicentur omnes gentes [n: (Gen. XXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0657B] *Non permanserunt in Testamento.*   ✓ Clementine verbatim
+[0657B] *Hoc est Testamentum,*   ✓ Clementine verbatim
+[0657B] VERS. 10.-- *Dando leges meas in mentes.*   ⚠ NOT in Clementine verbatim — CHECK
+[0657C] *Dando leges:*   ✓ Clementine verbatim
+[0657C] *Superscribam.*   — single word, check in place
+[0657C] *Et ero illis in Deum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0657C] VERS. 11.-- *Non docebit.*   ✓ Clementine verbatim
+[0657C] *Non docebit unusquisque proximum, quia omnes scient [n: (Jer. XXXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0657C] *Tunc aperuit eis sensum [n: (Luc. XXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0657C] *Majorem.*   — single word, check in place
+[0657D] VERS. 1.-- *Habuit.*   — single word, check in place
+[0658A] *Sanctum,*   — single word, check in place
+[0658A] *Saeculare.*   — single word, check in place
+[0658A] VERS. 2.-- *Tabernaculum enim sanctum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0658A] VERS. 5.-- *Cherubim.*   — single word, check in place
+[0658A] VERS. 7.-- *In anno.*   ✓ Clementine verbatim
+[0658A] *Pro sua et populi ignorantia.*   ✓ Clementine verbatim
+[0658A] *Verba delictorum meorum [n: (Psal. XXI)]*   ✓ Clementine verbatim
+[0658A] VERS. 8.-- *Nondum propalatam.*   ✓ Clementine verbatim
+[0658A] *Sanctorum viam.*   ✓ Clementine verbatim
+[0658A] VERS. 9.-- *Quae parabola.*   ✓ Clementine verbatim
+[0658A] *quae parabola est,*   ✓ Clementine verbatim
+[0658A] VERS. 10.-- *Usque ad tempus correctionis;*   ✓ Clementine verbatim
+[0658A] VERS. 11.-- *Per amplius.*   ✓ Clementine verbatim
+[0658A] *per amplius,*   ✓ Clementine verbatim
+[0658A] *perfectius,*   — single word, check in place
+[0658A] VERS. 12.-- *In sancta.*   ✓ Clementine verbatim
+[0658A] *Tabernaculum non manufactum, sancta sanctorum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0658A] VERS. 13.-- *Si enim sanguis.*   ✓ Clementine verbatim
+[0658A] *Hircorum.*   — single word, check in place
+[0658A] *Ad emundationem carnis,*   ✓ Clementine verbatim
+[0658A] VERS. 14.-- *Obtulit semetipsum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0659A] *Immaculatum.*   — single word, check in place
+[0659A] *Ac operibus mortuis;*   ⚠ NOT in Clementine verbatim — CHECK
+[0659A] *Viventi.*   — single word, check in place
+[0659A] VERS. 15.-- *Intercedente.*   — single word, check in place
+[0659A] VERS. 16.-- *Ubi enim.*   ✓ Clementine verbatim
+[0659A] VERS. 19.-- *Lana.*   — single word, check in place
+[0659A] VERS. 22.-- *Et sine sanguinis effusione,*   ✓ Clementine verbatim
+[0659A] VERS. 23.-- *Ipsa autem coelestia.*   ✓ Clementine verbatim
+[0659A] VERS. 25.-- *Neque ut saepe,*   ✓ Clementine verbatim
+[0659A] VERS. 26.-- *Alioquin,*   — single word, check in place
+[0659A] *In consummatione.*   ✓ Clementine verbatim
+[0659A] VERS. 27.-- *Et quemadmodum.*   ✓ Clementine verbatim
+[0659A] *Semel mori.*   ✓ Clementine verbatim
+[0660A] *Post hoc autem.*   ✓ Clementine verbatim
+[0660A] VERS. 28.-- *Sine peccato apparebit.*   ✓ Clementine verbatim
+[0660A] *sine peccato,*   ✓ Clementine verbatim
+[0660A] VERS. 1.-- *Umbram enim.*   ✓ Clementine verbatim
+[0660B] *Non ipsam imaginem.*   ✓ Clementine verbatim
+[0660B] *Accedentes.*   — single word, check in place
+[0660B] VERS. 2.-- *Cultores semel,*   ✓ Clementine verbatim
+[0660B] VERS. 3.-- *Commemoratio,*   — single word, check in place
+[0660B] VERS. 5.-- *Noluisti.*   — single word, check in place
+[0660B] *Corpus autem aptasti mihi.*   ✓ Clementine verbatim
+[0660B] VERS. 6.-- *Non placuerunt.*   ✓ Clementine verbatim
+[0660B] VERS. 7.-- *Tunc.*   — single word, check in place
+[0660B] *Dixi: Ecce venio,*   ✓ Clementine verbatim
+[0660B] VERS. 8.-- *Superius dicens.*   ✓ Clementine verbatim
+[0660B] *illa noluisti,*   ⚠ NOT in Clementine verbatim — CHECK
+[0660B] *Tunc dixi.*   ✓ Clementine verbatim
+[0660B] VERS. 10.-- *Sanctificati,*   — single word, check in place
+[0660B] VERS. 11.-- *Et omnis,*   ✓ Clementine verbatim
+[0660B] VERS. 12.-- *Sedet in dextera.*   ✓ Clementine verbatim
+[0660B] VERS. 13.-- *De caetero.*   ⚠ NOT in Clementine verbatim — CHECK
+[0660B] *Scabellum.*   — single word, check in place
+[0660B] VERS. 15.-- *Contestatur autem nos,*   ✓ Clementine verbatim
+[0660B] *Postquam.*   — single word, check in place
+[0660B] *dando leges,*   ✓ Clementine verbatim
+[0660B] *et peccatorum et iniquitatum eorum jam non recordabor amplius,*   ✓ Clementine verbatim
+[0660B] VERS. 16.-- *Superscribam.*   — single word, check in place
+[0660B] *scribam,*   — single word, check in place
+[0660B] *superscribam,*   — single word, check in place
+[0661D] VERS. 18.-- *Ubi autem,*   ✓ Clementine verbatim
+[0661D] VERS. 20.-- *Per velamen.*   ✓ Clementine verbatim
+[0661D] VERS. 22.-- *In plenitudine fidei.*   ✓ Clementine verbatim
+[0661D] *Aspersi corde.*   ⚠ NOT in Clementine verbatim — CHECK
+[0661D] *Abluti aqua,*   ⚠ NOT in Clementine verbatim — CHECK
+[0661D] VERS. 23.-- *Fidelis enim.*   ✓ Clementine verbatim
+[0661D] VERS. 24.-- *Et consideremus,*   ✓ Clementine verbatim
+[0661D] VERS. 25.-- *Sicut consuetudinis.*   ✓ Clementine verbatim
+[0661D] *Sed consolantes.*   ✓ Clementine verbatim
+[0661D] VERS. 26.-- *Voluntarie enim peccantibus.*   ✓ Clementine verbatim
+[0662B] *Post acceptam notitiam veritatis,*   ✓ Clementine verbatim
+[0662B] *voluntarie,*   — single word, check in place
+[0662B] *Jam non relinquitur pro peccatis hostia;*   ✓ Clementine verbatim
+[0662B] VERS. 28.-- *Duobus vel tribus testibus.*   ✓ Clementine verbatim
+[0662B] VERS. 29.-- *Conculcaverit,*   — single word, check in place
+[0662B] *Pollutum duxerit.*   ✓ Clementine verbatim
+[0662B] *Et spiritui gratiae.*   ✓ Clementine verbatim
+[0662B] VERS. 30.-- *Mihi vindicta,*   ✓ Clementine verbatim
+[0663A] VERS. 31.-- *Rememoramini.*   — single word, check in place
+[0663A] *usque ad*   ✓ Clementine verbatim
+[0663A] *rememoramini,*   — single word, check in place
+[0663A] *Pristinos,*   — single word, check in place
+[0663A] *Magnum certamen,*   ✓ Clementine verbatim
+[0663A] VERS. 33.-- *Et in altero quidem,*   ✓ Clementine verbatim
+[0663A] *Spectaculum.*   — single word, check in place
+[0663B] VERS. 38.-- *Vivit. [n: (AUG.)]*   — single word, check in place
+[0663B] *usque ad*   ✓ Clementine verbatim
+[0663B] VERS. 39.-- *Nos autem,*   ✓ Clementine verbatim
+[0663B] VERS. 1.-- *Est autem fides.*   ✓ Clementine verbatim
+[0663B] *Fides est substantia sperandarum rerum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0663C] *substantia,*   — single word, check in place
+[0663C] *Argumentum,*   — single word, check in place
+[0663C] *In hac testimonium,*   ⚠ NOT in Clementine verbatim — CHECK
+[0663C] *Senes:*   — single word, check in place
+[0663D] VERS. 3.-- *Fide intelligimus.*   ✓ Clementine verbatim
+[0663D] VERS. 4.-- *Fide plurimam.*   ✓ Clementine verbatim
+[0663D] *Defunctus adhuc loquitur.*   ✓ Clementine verbatim
+[0664A] *usque ad*   ✓ Clementine verbatim
+[0664A] VERS. 6.-- *Quia est.*   ✓ Clementine verbatim
+[0664A] VERS. 7.-- *Fide Noe,*   ✓ Clementine verbatim
+[0664A] *Et justitiae,*   ✓ Clementine verbatim
+[0664A] VERS. 8.-- *Fide qui vivit.*   ⚠ NOT in Clementine verbatim — CHECK
+[0664A] *Obedivit,*   — single word, check in place
+[0664A] VERS. 11.-- *Quoniam fidelem.*   ✓ Clementine verbatim
+[0664A] VERS. 12.-- *Ab uno.*   ✓ Clementine verbatim
+[0664A] *Tanquam sidera.*   ⚠ NOT in Clementine verbatim — CHECK
+[0664C] *Et sicut arena.*   ✓ Clementine verbatim
+[0664C] VERS. 13.-- *Et salutantes.*   ✓ Clementine verbatim
+[0664C] *Et salutantes;*   ✓ Clementine verbatim
+[0664C] *Hospites.*   — single word, check in place
+[0664D] *Et si quidem,*   ✓ Clementine verbatim
+[0664D] VERS. 17.-- *Cum tentaretur.*   ✓ Clementine verbatim
+[0664D] VERS. 19.-- *Et in parabolam.*   ✓ Clementine verbatim
+[0665A] VERS. 20.-- *Isaac.*   — single word, check in place
+[0665A] VERS. 21.-- *Adoravit fastigium,*   ✓ Clementine verbatim
+[0665A] VERS. 22.-- *De ossibus suis mandavit.*   ✓ Clementine verbatim
+[0665A] VERS. 26.-- *Improperium Christi.*   ✓ Clementine verbatim
+[0665A] *Daemonium habes [n: (Joan VII)]*   ✓ Clementine verbatim
+[0665A] *Vis nos interficere, sicut interfecisti Aegyptium [n: (Exod. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0665A] VERS. 27.-- *Non veritus.*   ✓ Clementine verbatim
+[0665C] *Si vos persecuti fuerint in una civitate, fugite in aliam [n: (Matth. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0665C] VERS. 28.-- *Fide celebravit Pascha.*   ✓ Clementine verbatim
+[0665C] VERS. 29.-- *Transierunt mare Rubrum,*   ✓ Clementine verbatim
+[0665C] VERS. 30.-- *Circuitu dierum septem*   ✓ Clementine verbatim
+[0665D] VERS. 31.-- *Excipiens exploratores cum pace,*   ✓ Clementine verbatim
+[0665D] VERS. 32.-- *De Gedeon.*   ✓ Clementine verbatim
+[0665D] *Samson.*   — single word, check in place
+[0665D] *Jephte.*   — single word, check in place
+[0666A] VERS. 33.-- *Qui per fidem.*   ✓ Clementine verbatim
+[0666A] *Repromissiones.*   — single word, check in place
+[0666A] *repromissiones*   — single word, check in place
+[0666A] VERS. 35.-- *Alii autem distenti,*   ✓ Clementine verbatim
+[0666A] VERS. 38.-- *Quibus dignus non erat mundus.*   ✓ Clementine verbatim
+[0666A] *non erat mundus dignus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0666A] VERS. 40.-- *Deo pro nobis melius aliquid providente.*   ✓ Clementine verbatim
+[0666B] VERS. 1.-- *Ideoque et nos.*   ✓ Clementine verbatim
+[0666B] *Nubem.*   — single word, check in place
+[0666B] VERS. 2.-- *Qui proposito sibi gaudio,*   ✓ Clementine verbatim
+[0666B] VERS. 3.-- *Deficientes.*   — single word, check in place
+[0666B] VERS. 6.-- *Omnem filium.*   ✓ Clementine verbatim
+[0666B] VERS. 8.-- *Ergo adulteri.*   ✓ Clementine verbatim
+[0666B] VERS. 9.-- *Reverebamur.*   — single word, check in place
+[0666B] VERS. 10.-- *Et illi quidem.*   ✓ Clementine verbatim
+[0666B] *Ad id quod utile est,*   ✓ Clementine verbatim
+[0666B] *in recipiendo sanctificationem ejus.*   ✓ Clementine verbatim
+[0666B] VERS. 11.-- *Disciplina.*   — single word, check in place
+[0666B] VERS. 12.-- *Manus.*   — single word, check in place
+[0666B] *genua,*   — single word, check in place
+[0666B] VERS. 13.-- *Gressus.*   — single word, check in place
+[0666B] *sed sanctur,*   ⚠ NOT in Clementine verbatim — CHECK
+[0666B] VERS. 14.-- *Sanctimoniam.*   — single word, check in place
+[0667C] *Beati mundo corde, quoniam [n: (Matth. V)]*   ✓ Clementine verbatim
+[0667C] *Sine qua nemo videbit Deum.*   ✓ Clementine verbatim
+[0667C] *sine qua nemo,*   ✓ Clementine verbatim
+[0667C] VERS. 15.-- *Contemplantes,*   — single word, check in place
+[0667C] *Ne qua radix,*   ✓ Clementine verbatim
+[0667C] *Radix amaritudinis,*   ✓ Clementine verbatim
+[0667D] VERS. 16.-- *Ne quis fornicator,*   ✓ Clementine verbatim
+[0667D] *Primitiva.*   — single word, check in place
+[0667D] VERS. 18.-- *Non enim accessistis.*   ✓ Clementine verbatim
+[0668A] *Non enim accessistis*   ✓ Clementine verbatim
+[0668A] *Turbinem.*   — single word, check in place
+[0668A] *Caliginem.*   — single word, check in place
+[0668A] *Procellam,*   — single word, check in place
+[0668B] VERS. 19.-- *Tubae sonum.*   ✓ Clementine verbatim
+[0668B] *Vocem verborum.*   ✓ Clementine verbatim
+[0668B] VERS. 20.-- *Non enim portabant.*   ✓ Clementine verbatim
+[0668B] *Et si bestia,*   ✓ Clementine verbatim
+[0668C] VERS. 22.-- *Sed accessistis.*   ✓ Clementine verbatim
+[0668C] *Ad Sion.*   ✓ Clementine verbatim
+[0668C] *Et civitatem Dei.*   ✓ Clementine verbatim
+[0668C] VERS. 23.-- *Qui conscripti sunt.*   ✓ Clementine verbatim
+[0668C] *Qui conscripti sunt,*   ✓ Clementine verbatim
+[0668C] VERS. 26.-- *Adhuc semel,*   ✓ Clementine verbatim
+[0668D] *semel*   — single word, check in place
+[0668D] *Sed etiam coelum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0668D] VERS. 27.-- *Quae sunt immobilia.*   ✓ Clementine verbatim
+[0668D] VERS. 28.-- *Itaque regnum immobile.*   ✓ Clementine verbatim
+[0668D] *Habeamus gratiam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0668D] *Habeamus gratiam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0668D] VERS. 29.-- *Deus noster ignis.*   ✓ Clementine verbatim
+[0669A] *Charitas.*   — single word, check in place
+[0669A] *hospitalitatem nolite [0669B] oblivisci. Per hanc enim quidam latuerunt,*   ⚠ NOT in Clementine verbatim — CHECK
+[0669A] VERS. 3.-- *Tanquam simul vincti,*   ⚠ NOT in Clementine verbatim — CHECK
+[0669A] VERS. 5.-- *Sint mores.*   ✓ Clementine verbatim
+[0669A] *Sine avaritia.*   ✓ Clementine verbatim
+[0669A] *Non te deseram.*   ✓ Clementine verbatim
+[0669A] *ut confidenter dicamus,*   ✓ Clementine verbatim
+[0669A] *Neque derelinquam.*   ✓ Clementine verbatim
+[0669C] VERS. 6.-- *Non timebo,*   ✓ Clementine verbatim
+[0669C] VERS. 7.-- *Mementote,*   — single word, check in place
+[0669C] VERS. 8.-- *Jesus Christus,*   ✓ Clementine verbatim
+[0669C] *Non te deseram, neque derelinquam.*   ✓ Clementine verbatim
+[0669C] VERS. 10.-- *Habemus altare,*   ✓ Clementine verbatim
+[0669D] *de quo edere non habent,*   ✓ Clementine verbatim
+[0669D] *Tabernaculo,*   — single word, check in place
+[0669D] VERS. 11.-- *Quorum enim,*   ✓ Clementine verbatim
+[0670A] *Animalium.*   — single word, check in place
+[0670A] VERS. 12.-- *Portam.*   — single word, check in place
+[0670A] VERS. 15.-- *Per ipsum ergo.*   ✓ Clementine verbatim
+[0670A] *Confidentium. [n: (AUG.)]*   — single word, check in place
+[0670A] *usque ad*   ✓ Clementine verbatim
+[0670B] VERS. 16.-- *Beneficentiae.*   — single word, check in place
+[0670B] *Beneficentiae,*   — single word, check in place
+[0670B] *Non deserentes collectionem.*   ✓ Clementine verbatim
+[0670B] VERS. 17.-- *Ut cum gaudio.*   ✓ Clementine verbatim
+[0670B] *Non expedit vobis.*   ✓ Clementine verbatim
+[0670B] VERS. 18.-- *Orate pro nobis.*   ✓ Clementine verbatim
+[0670B] *Bonam conscientiam habemus,*   ✓ Clementine verbatim
+[0670B] *In omnibus.*   ✓ Clementine verbatim
+[0670B] VERS. 21.-- *Faciens, in vobis,*   ✓ Clementine verbatim
+[0670B] VERS. 22.-- *Etenim perpaucis,*   ✓ Clementine verbatim
+[0670B] *Salutate omnes propositos vestros.*   ⚠ NOT in Clementine verbatim — CHECK
+
+## Totals — 479 spans: 275 ✓ · 60 ⚠ · 144 single-word
