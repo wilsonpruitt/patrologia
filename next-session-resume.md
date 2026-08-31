@@ -1,14 +1,12 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-31b — 8996 *EPISTOLA AD ROMANOS* · ✅ TRANSLATED · ✅ STAGED · ⬜ NOT DEPLOYED
+## ▶▶▶▶▶ SESSION 2026-08-31b — 8996 *EPISTOLA AD ROMANOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
-Corpus **150 → 151** (staged, not yet deployed), `/glossa` **44 → 45 of 58**. Four Opus agents
-translated chunks 0000–0019 in parallel (5 chunks each), `verify-english.mjs` clean, cruces
-merged into one file with two convention-drift fixes (see below). Not committed to git yet at
-time of writing this note draft — staging steps (verify, polarity gate, plate gate, cruces
-build, glossa index, `works.json` flip to `englishState: "ours"`) are ALL DONE and clean.
-**Deploy needs Wilson's per-action OK per the hard-stop ritual** — not yet asked/given as of
-this note.
+Corpus **150 → 151**, `/glossa` **44 → 45 of 58**. Commits `d139989` → `a133fb6`, **PUSHED**
+(`origin/master` = `a133fb6`). Deployed (`dpl_67UkXY1RQ9BGn4jbrd36JcZMqZHE`) and smoke-tested on
+the real domain: work page, cruces page, landing, `/glossa`, `/scripture`, `/authors`, and the
+resolver at `/pl/114/469a`, all 200. Badge reads "New English translation" (workStatus null,
+fails safe correctly — no hunting was done to earn "First").
 
 ### ⭐⭐⭐ THE HEADLINE: 7 OF 8 OWED `[sic:]` CANDIDATES WERE CORPUS CORPORUM'S, NOT MIGNE'S
 
@@ -53,15 +51,12 @@ plural pattern; almost certainly *Filiis Israel*. Neither repaired; neither mark
 plate.
 
 ## ▶ OPEN — FOR WILSON
-1. ⬜ **Deploy 8996** — staging is complete and clean (see above). Needs the per-action OK, then
-   the full deploy checklist (RECENT list, all the generated-page rebuilds, `vercel --prod`,
-   smoke test the work URL AND the cruces URL, per `translation-runbook.md` step 8).
-2. ⬜ Still owed on this work: cols 0471–0480 unread (6 candidates including the misleading
-   0476C *Decem*/*Ducem* lemma), col 0504B (`[var:]` candidate, John 15:3), cols 0509/511/515
-   (3 more `[var:]` candidates from the chunks 0015–0019 stint) — none of these block shipping
-   (they're logged as owed, not fired), but are the next plate-read target in this work if a
-   future session wants to close them.
-3. Carried from prior sessions, unchanged: the `[sic:]` backlog (381 pages), the `[var:]` half,
+1. ⬜ Still owed on 8996: cols 0471–0480 unread (6 candidates including the misleading 0476C
+   *Decem*/*Ducem* lemma), col 0504B (`[var:]` candidate, John 15:3), cols 0509/511/515 (3 more
+   `[var:]` candidates from the chunks 0015–0019 stint) — none of these block shipping (they're
+   logged as owed, not fired), but are the next plate-read target in this work if a future
+   session wants to close them.
+2. Carried from prior sessions, unchanged: the `[sic:]` backlog (381 pages), the `[var:]` half,
    8988 `0636A` *aurursus*, 8976 vs Pattern 7, `chunk-work.mjs` over-claiming coverage, 8986's
    `Baruch III @ 0561A` unparsed citation, PL 114 second witness still not fetched beyond the
    two Gallica IDs now in use.
