@@ -1,0 +1,49 @@
+{
+ "note": "PLATE GATE of 8981 (Glossa ordinaria, Epistola I ad Corinthios), 2026-08-30. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before the first read (p.266 prints 521/522). 11 pages read (266-268, 272, 274-280) plus p.269 for the polarity read's open items. RESULT: 14 [var:] STAND, 0 revised, 0 false. FOUR new [cj:] LICENSED by the read, none of them fireable blind. ONE blind reader's proposed [cj:] DECLINED (0546C).",
+ "class": "TWO DIRECTIONS. (1) CORRUPTED -- Corpus Corporum broke a word Migne set correctly; repaired here, and no marker may be fired against Migne on the strength of it. (2) NORMALIZED -- CC silently tidied a defect in Migne's own type; restored so the page can show what he printed. Our Latin read CORRECTLY at both normalized sites, so no check we own could have found either.",
+ "result": "4 CORRUPTED, 2 NORMALIZED.",
+ "patches": [
+  {
+   "col": "0522A",
+   "find": "etiam ad eum qui dedit refertur",
+   "replace": "etiam ad eum qni dedit refertur",
+   "direction": "normalized",
+   "why": "Plate p.266 col 0522A prints 'ad eum qni dedit refertur' -- a TURNED u. Verified at 600 dpi against two controls in the immediate neighbourhood set in the same type: 'quibus dedit' on the next line and 'Filii qui dederunt' two lines below, both with a clean u. CC supplied the correct letter. Our Latin read the CORRECT form, so no check we own could have found this."
+  },
+  {
+   "col": "0522C",
+   "find": "a spirituali homine, et personaliter legitur",
+   "replace": "a spirituali homine, personaliter legitur",
+   "direction": "corrupted",
+   "why": "Plate p.266 col 0522C prints 'a spirituali homine, personaliter legitur : examinatur.' -- there is NO 'et'. CC INSERTED a word the plate does not print (same class as 8993 @0654A). Verified at 600 dpi. The spurious et had reached the English as 'and it is read personally'; the English is corrected with this patch."
+  },
+  {
+   "col": "0546C",
+   "find": "Non min re, sed majore",
+   "replace": "Non minore, sed majore",
+   "direction": "corrupted",
+   "why": "Plate p.278 col 0546C prints 'Non minore, sed majore fortassis scelere' -- 'minore' WHOLE and clean at 600 dpi, no broken sort. So the defect is Corpus Corporum's, NOT Migne's. A blind reader proposed a [cj:] here; it is DECLINED, because a conjecture presupposes the printed word is Migne's and he never set this one (the 8993 withdrawn-[cj:] class, caught before shipping). The translating stint had already reasoned this out from the files alone -- 'min re' and 'ves tra' eleven words apart is a SCANNING signature, not a compositor's -- and withheld the marker. The plate confirms it."
+  },
+  {
+   "col": "0546C",
+   "find": "ves tra",
+   "replace": "vestra",
+   "direction": "corrupted",
+   "why": "Same line-splitting defect eleven words from 'min re', and the second half of the argument that indicts the scanner rather than the type. Plate prints the word whole."
+  },
+  {
+   "col": "0547A",
+   "find": "daemones daemonibus, nomines hominibus",
+   "replace": "daemones daemonibus, homines hominibus",
+   "direction": "corrupted",
+   "why": "Plate p.279 col 0547A prints 'angeli angelis praesunt, daemones daemonibus, homines hominibus : ad utilitatem viventium' -- 'homines' clean at 600 dpi. CC's h->n. No marker: the defect is not Migne's. ⚠ NOTE FOR A LATER READER: a first 600 dpi crop for this item landed on a DIFFERENT occurrence eight lines away ('amplius non dissolventur homines'), which our file transcribes correctly. The control has to be the line the defect is on, not the nearest line containing the same word."
+  },
+  {
+   "col": "0549A",
+   "find": "spituale",
+   "replace": "spirituale",
+   "direction": "corrupted",
+   "why": "Plate p.280 prints 'spirituale' whole at every occurrence in this gloss. An INTERNAL loss (ri), so not attributable to this page's left-margin clipping, which removes leading characters only. CC's. No marker."
+  }
+ ]
+}

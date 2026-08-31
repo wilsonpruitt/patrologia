@@ -1,0 +1,321 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3958,
+  "textIdno": 8981,
+  "title": "Epistola I ad Corinthios",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "519c",
+  "colLast": "550d",
+  "counts": {
+    "scripture": 8,
+    "fontes": 26,
+    "heads": 17,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Luke.8",
+      "refDisplay": "Luc. VIII",
+      "column": "522b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Sir.27",
+      "refDisplay": "Eccli. XXVII",
+      "column": "523b",
+      "chunk": 2
+    },
+    {
+      "refKey": "Matt.23",
+      "refDisplay": "Matth. XXIII",
+      "column": "526c",
+      "chunk": 3
+    },
+    {
+      "refKey": "Gal.1",
+      "refDisplay": "Gal. I",
+      "column": "537b",
+      "chunk": 7
+    },
+    {
+      "refKey": "1Kgs.13",
+      "refDisplay": "III Reg. XIII",
+      "column": "540a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
+      "column": "542d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.23",
+      "refDisplay": "Matth. XXIII",
+      "column": "543a",
+      "chunk": 10
+    },
+    {
+      "refKey": "Hos.6",
+      "refDisplay": "Ose. VI",
+      "column": "546a",
+      "chunk": 12
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG.",
+      "column": "520c",
+      "chunk": 0
+    },
+    {
+      "raw": "AUG.",
+      "column": "522d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., lib. de Fide et operibus, c. 15.",
+      "column": "523a",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., in psal. XXX.",
+      "column": "523c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "524a",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "524a",
+      "chunk": 2
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "524a",
+      "ibidResolved": true,
+      "column": "524b",
+      "chunk": 2
+    },
+    {
+      "raw": "AMBR.",
+      "column": "524b",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "524d",
+      "chunk": 3
+    },
+    {
+      "raw": "AMBR.",
+      "column": "525b",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "527c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., lib. de opere Monac. c. 20.",
+      "column": "528a",
+      "chunk": 4
+    },
+    {
+      "raw": "AMBR.",
+      "column": "529d",
+      "chunk": 5
+    },
+    {
+      "raw": "BEDA.",
+      "column": "533a",
+      "chunk": 6
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "533b",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "CHRYS.",
+      "antecedentColumn": "533b",
+      "ibidResolved": true,
+      "column": "533b",
+      "chunk": 6
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "CHRYS.",
+      "antecedentColumn": "533b",
+      "ibidResolved": true,
+      "column": "533c",
+      "chunk": 6
+    },
+    {
+      "raw": "HIER.",
+      "column": "534b",
+      "chunk": 6
+    },
+    {
+      "raw": "BEDA.",
+      "column": "536b",
+      "chunk": 7
+    },
+    {
+      "raw": "AUG., lib. II de Doctrin. Christ., c. 20, 21, etc.",
+      "column": "536c",
+      "chunk": 7
+    },
+    {
+      "raw": "AUG., lib. XII de Trin. c. 7, 8, 9.",
+      "column": "538a",
+      "chunk": 8
+    },
+    {
+      "raw": "AMBR.",
+      "column": "539a",
+      "chunk": 8
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "542c",
+      "chunk": 9
+    },
+    {
+      "raw": "ORIG.",
+      "column": "543a",
+      "chunk": 10
+    },
+    {
+      "raw": "THEODOR.",
+      "column": "548b",
+      "chunk": 12
+    },
+    {
+      "raw": "AMBROS.",
+      "column": "550c",
+      "chunk": 13
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "519c",
+      "chunk": 0,
+      "en": "THE ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "519c",
+      "chunk": 0,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "521c",
+      "chunk": 1,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "522d",
+      "chunk": 2,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "524d",
+      "chunk": 3,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "526c",
+      "chunk": 4,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "527d",
+      "chunk": 4,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "529b",
+      "chunk": 5,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "532a",
+      "chunk": 6,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "533a",
+      "chunk": 6,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "534d",
+      "chunk": 7,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "537c",
+      "chunk": 8,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "540a",
+      "chunk": 9,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "542d",
+      "chunk": 10,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "543d",
+      "chunk": 11,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "545d",
+      "chunk": 12,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "550a",
+      "chunk": 13,
+      "en": "CHAPTER XVI."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
