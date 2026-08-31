@@ -147,15 +147,24 @@ the lemma dropping *deorum* at 1305C while both re-quotations restore it.
 - **0016's Ps. 124:1 singular *Qui confidit* was flagged across ranges as possibly unmarked. It is
   marked** — the flagging agent could not see 0016's markers. Likewise 0054's Ps. 93:21 imperfects.
 
-## ⚠ Weak markers, named as weak
+## ⚠ Weak markers, named as weak — ✅ ALL FOUR WITHDRAWN AT THE PLATE, 2026-08-31
 
-- **`[sic: *ita que*]` @1256B** sits on a TEI line break, so it is equally consistent with Corpus
-  Corporum failing to rejoin a hyphenation. `"ita que "` returns 0 files corpus-wide and the TEI
-  carries no line-final hyphens, but **withdraw if a plate read shows *itaque* whole.**
-- **`[sic: *cruditur*]` @1346B** — 4 PL files, not a hapax; a recurring c-for-e accident. It stands
-  only because the form answers to no lexical entry. The work's own title word.
-- **`[sic: *tamem*]`** (38 files) and **`[sic: *torpore*]`** (syntactic slot only, no rarity
-  evidence) are the two weakest in the work and say so in their entries.
+**Every marker this section named as weak turned out to be Corpus Corporum's, not Migne's.** The
+plate read of 2026-08-31 (see the head of `cruces.md`) settled all four, and the doubt recorded here
+was a reliable predictor in each case — one page render apiece would have closed them.
+
+- ~~**`[sic: *ita que*]` @1256B**~~ — **WITHDRAWN.** This entry said "withdraw if a plate read shows
+  *itaque* whole", and it does: the second witness (`patrologiaecursu0196mign` n649) prints
+  *Quidam itaque sunt* as one word. Corpus Corporum failed to rejoin the line break, exactly as this
+  entry supposed. Our own Google scan runs off the sheet edge at that word and could not settle it.
+- ~~**`[sic: *cruditur*]` @1346B**~~ — **WITHDRAWN.** The plate prints **eruditur**, the work's own
+  title word, correctly; the c-for-e was ours.
+- ~~**`[sic: *tamem*]`** and **`[sic: *torpore*]`**~~ — **BOTH WITHDRAWN.** The plate prints
+  **tamen** and the infinitive **torpere** (parallel to *madere*).
+
+⭐ **The general lesson, and it is cheap:** where a `[sic:]` is carried on a syntactic slot rather
+than on positive evidence about the type, the plate is the only thing that can settle it, and the
+prior is strongly against Migne — 28 of this work's 37 `[sic:]` were Corpus Corporum's.
 ### ✅ THE TWO PLATE READS ARE DONE (2026-08-17) — both settled, opposite ways
 
 Witness: the archive.org Google scan of PL 196, `patrologiaecurs104unkngoog` (metadata volume 196),

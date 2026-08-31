@@ -5,6 +5,133 @@ Richard of St Victor (attrib.), *De eruditione hominis interioris*, PL 196, 1229
 changing any word of the English.** What follows is what was fixed and why, so a later sweep does
 not churn it.
 
+## ⭐⭐ THE PLATE READ, 2026-08-31 — ALL 154 `[sic:]`/`[var:]` MARKERS CARRIED TO MIGNE'S PAGE
+
+`node scripts/plate-gate.mjs 11535` was failing on **every marker in the work**: 154 public claims
+about a printed page nobody had read. All 154 have now been read at the plate by six readers
+working in parallel, and `data/plate-reads.json` records the twelve column ranges they covered.
+**The gate is clean.**
+
+**Witness and map.** The on-disk archive.org Google scan `patrologiaecurs104unkngoog`
+(`raw/scans/pl196/`), **PDF page = (column + 41) / 2**, calibrated against the printed corner
+numbers at p.208 (cols 375/376), p.635 (1229/1230) and p.700 (1359), and re-checked at least three
+more times inside each reader's own range.
+
+⭐ **A SECOND WITNESS FOR PL 196 EXISTS AND IS BETTER — use it the moment a word sits in a margin.**
+This Google scan clips **both** margins, page by page and unpredictably: 5–9 characters off the
+START of the left-hand column on some pages, 3–6 characters off the END of the right-hand column on
+others. It defeated four candidates outright. **archive.org `patrologiaecursu0196mign`** is a
+different physical copy with clean margins, and a single page image is one HTTP request:
+
+    https://archive.org/download/patrologiaecursu0196mign/page/n<N>.jpg    # leaf n = (column + 43) / 2
+
+calibrated at **n648 = cols 1253/1254** against the printed corner numbers and re-verified at n665
+and n676. **It settled all four**, and they did not all go the same way — three CONFIRMED the
+marker, one WITHDREW it. There is no longer a reason to leave a PL 196 candidate unread because our
+copy is poor.
+
+### The result: 28 of 154 markers were accusing the wrong party
+
+**126 CONFIRMED — Migne's own page, and the markers stand.** Every one of the work's `[var:]`
+scripture divergences but one is real: the plate genuinely prints *Regnum coelorum* at Luke 17:21,
+*flos feni* at Isa. 40:6, *cor ejus* at Dan. 7:4, *in nobis* at Phil. 2:13, and so on through the
+list. So do the surviving `[sic:]`: *sommia* (1234A), *conanimis* (1238C), *doctrinam* (1242C),
+*alios* (1252B), *secretioria* (1254B), *suscipio* (1279B), *perfores* (1298C), *invectere* (1302D),
+*ut sus* (1356A).
+
+**28 WITHDRAWN — Corpus Corporum's corruption, not Migne's type.** All patched in
+`data/tei-patches/11535.json`, the work re-chunked, and the English corrected to render the plain
+word:
+
+| col | ours | Migne prints |
+|---|---|---|
+| 1229D | *eficiat* | **eliciat** |
+| 1256B | *ita que* | **itaque** (second witness) |
+| 1258D | *scipsos* | **se ipsos** |
+| 1267C | *exaeguabo* | **exaequabo** |
+| 1269C | *meus* | **mens** (chapter head, CAPUT XXIII) |
+| 1270B | *commatationem* | **commutationem** |
+| 1280B | *quatem* | **qualem** (chapter head, CAPUT XXX) |
+| 1282D | *mira ile* | **mirabile** |
+| 1286D | *torpore* | **torpere** |
+| 1287A | *in agnoque* | **magnoque** |
+| 1294B | *temporalibis* | **temporalibus** |
+| 1294D | *tamem* | **tamen** |
+| 1303B | *cornere* | **cernere** |
+| 1322C | *posuerant* | **posuerunt** — this one withdraws a `[var:]`, not a `[sic:]` |
+| 1323C | *crumpat* | **erumpat** |
+| 1325A | *a vertitur* | **avertitur** |
+| 1325D | *caligmem* | **caliginem** |
+| 1335B | *sub limem* | **sublimem** |
+| 1337C | *pietatatis* | **pietatis** |
+| 1337C | *contemplum* | **contemptum** |
+| 1338A | *fieta* | **ficta** |
+| 1341A | *vetut* | **velut** |
+| 1346B | *cruditur* | **eruditur** |
+| 1351D | *erudelitas* | **crudelitas** |
+| 1357A | *redere* | **rodere** |
+| 1358C | *exerescit* | **excrescit** |
+| 1359A | *eum* | **cum** |
+| 1363A | *desidorium* | **desiderium** |
+
+⭐ **Of the 37 `[sic:]` in the work, 28 were ours and 9 were Migne's — the marker class was wrong
+three times out of four, and every single `[var:]` but one was right.** That asymmetry is the
+finding, and it is the same one 8996 and 8945 delivered. It has a mechanical explanation: a
+`[sic:]` fires on a *word* that looks broken, which is exactly what an OCR letter-swap produces
+(c→e eleven times here, e→o, n→u, u→a, u→n, a dropped or doubled letter, a word split or fused at a
+line break); a `[var:]` fires on a *clause* whose divergence is too long and too semantic for OCR to
+manufacture. **Suspicion of a single word is suspicion of our file; suspicion of a whole quoted
+clause is evidence about Migne.**
+
+⚑ **Three of the withdrawn markers were flagged as weak in advance, by name, and the plate agreed
+every time.** `CONVENTIONS.md` had said of `[sic: *ita que*]` "withdraw if a plate read shows
+*itaque* whole" — it does; and it named `*tamem*` and `*torpore*` "the two weakest in the work" —
+both are ours. **The prior session's own doubt was a reliable predictor, and acting on it would
+have cost one page render each.** Two more were structural giveaways nobody had a rule for: the
+only two markers standing inside **chapter heads** (1269C *meus*, 1280B *quatem*) are both Corpus
+Corporum's, and both sit at a hyphenation or a minim run — display type at a line break is where
+this digitization fails hardest.
+
+### Migne's own type, where OUR text is the tidy one — recorded, NOT patched
+
+The plate read also ran the other way, at eleven sites where Corpus Corporum has **silently
+normalised a genuine Migne misprint**. These are listed for the record and are **deliberately not
+patched**: restoring them would put a defect back in the Latin and require a new `[sic:]` for each,
+which is a fresh public claim and a separate decision.
+
+*sommo* for *somno* (1286D) · *capis* for *lapis* (1288D) · *sacrumentum* for *sacramentum* (1294D) ·
+*plenius* for *plenus* (1312D) · *principium* for *principum* (1313C) · *muudi* for *mundi* (1323D) ·
+*terpretaionem* for *interpretationem* (1331A) · *conscienta* for *conscientia* (1338A) · *opprtet*
+for *oportet* (1325D) · *Prepheta* for *Propheta* (1326D) · *obtrectationem* (acc. sg.) for our
+*obtrectationum* (1357A).
+
+⚑ **The last one is the only one that touches sense**, and it is the only one worth re-opening:
+Migne prints *morsibus obtrectationem lacerare*, which does not construe, where our text has the
+easy genitive plural. It is a Pattern 18 candidate that nobody has adjudicated because nobody knew
+it was there.
+
+### Also found, and NOT acted on
+
+- **1260A: the plate spells the king *Nabuchonosor***, without the *d*, and restores both the *d*
+  and the royal title when it re-quotes the same lemma at 1261A. Corpus Corporum normalises it.
+  The work's ratified vocabulary keeps the name in Migne's Latin form precisely because it is
+  glossed etymologically — so this is worth a decision, not a silent fix.
+- **Two of Migne's own citation numerals differ from ours**: the plate cites *(Psal. VII)* at 1253B
+  where we print *(Psal. XII)*, and *(Psal. LXXVIII)* at 1262C where we print *(Psal. LXXIII)*.
+  Both look like Corpus Corporum numeral corruptions rather than Migne's error, but a numeral is
+  exactly the thing a single read should not settle alone.
+
+### Foot-of-page apparatus: a checked zero across 63 of the work's 69 pages
+
+Every reader inspected the full page width including the foot band. **No numbered *Forte*
+conjectures and no asterisk notes anywhere** — the columns run body text to the foot throughout,
+the only non-text matter being the quire signatures. Recorded in `data/plate-notes/coverage.json`
+as coverage **`"spot"`**, not `"full"`, because six pages (636, 638, 643, 657, 678, 692) were never
+rendered: it licenses shipping without `[cn:]` recovery and it does **not** license the claim that
+this work has no apparatus.
+
+---
+
 ## The seam this work turns on
 
 ***mens* = mind · *animus* = spirit · *anima* = soul · *spiritus* = spirit.** 11536 flattened
