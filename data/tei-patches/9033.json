@@ -1,0 +1,70 @@
+{
+  "note": "PLATE READ of 9033 (Angelomus Luxoviensis, Enarrationes in Cantica canticorum), 2026-08-31. Migne PL 115, on-disk scan raw/scans/pl115/patrologiaecurs18goog.pdf, PDF page = (column + 11) / 2 FOR PAGES 287 AND ABOVE ONLY, calibrated against the printed corner numbers at pp. 287/300/319 (563/564, 589/590, 627/628) and re-read at the head of every page before its text. ⛔ This scan is DEFECTIVE for cols 547-562: its leaves 279-286 are a DUPLICATE re-scan of cols 527-542 (already present at pp. 269-276), so the leaves carrying 547-562 are simply absent from the file; below p. 287 the map is (column + 31) / 2. The 22 markers standing on cols 0551-0562 could therefore NOT be read this pass and remain owed -- see src/english/9033/cruces.md.",
+  "class": "All nine patches here are CORRUPTED (Corpus Corporum broke, fused, or mis-set a word Migne printed correctly). No NORMALIZED patch: nothing here is a plate defect CC tidied away.",
+  "result": "84 of the work's 106 [sic:]/[var:] markers were carried to the plate (cols 0563A-0628B). 75 CONFIRMED as Migne's own printing and left standing; 9 WITHDRAWN as Corpus Corporum's corruption and patched here. Every one of the nine was a [sic:] -- all 75 [var:] divergences from the Vulgate that were read this pass are Migne's own text, which is what the work's loose patristic quotation habit predicts.",
+  "patches": [
+    {
+      "col": "0577A",
+      "find": "sub viti s currebas",
+      "replace": "sub vitiis currebas",
+      "direction": "corrupted",
+      "why": "Plate p.294 col 577A (corners verified 577/578) prints 'in curribus Pharaonis vitiis deserviebas, sub vitiis currebas' -- the same word twice, both whole. CC split the second one. [sic: *viti s*] WITHDRAWN in chunk 0008; render 'under vices' with no marker."
+    },
+    {
+      "col": "0581B",
+      "find": "oculus\nhaeai</hi>",
+      "replace": "oculus\nhaedi</hi>",
+      "direction": "corrupted",
+      "why": "Plate p.296 col 581B (corners verified 581/582) prints the italic lemma 'oculus haedi' -- the same word the sentence just above spells out ('ubi ex haedis agni efficiuntur'). CC mis-set d as a. [sic: *haeai*] WITHDRAWN in chunk 0010; render 'the kid's eye' with no marker."
+    },
+    {
+      "col": "0586D",
+      "find": "persona partriarchis et prophetis",
+      "replace": "persona patriarchis et prophetis",
+      "direction": "corrupted",
+      "why": "Plate p.298 col 586D (corners verified 585/586, PATROL. CXV signature at the foot) prints 'Salvator in angeli persona patriarchis et prophetis loquendo'. CC doubled the r. [sic: *partriarchis*] WITHDRAWN in chunk 0012."
+    },
+    {
+      "col": "0590A",
+      "find": "tertium Spitum\nsanctum",
+      "replace": "tertium Spiritum\nsanctum",
+      "direction": "corrupted",
+      "why": "Plate p.300 col 590A (corners verified 589/590) prints 'tertium Spiritum sanctum'. CC dropped 'ri'. [sic: *Spitum*] WITHDRAWN in chunk 0013."
+    },
+    {
+      "col": "0597C",
+      "find": "frigus infidelitatiis et imber",
+      "replace": "frigus infidelitatis et imber",
+      "direction": "corrupted",
+      "why": "Plate p.304 col 597C (corners verified 597/598) prints 'Jam frigus infi-/delitatis et imber iniquitatis recesserunt', broken across the line at 'infi-'. CC doubled the i while rejoining. [sic: *infidelitatiis*] WITHDRAWN in chunk 0015."
+    },
+    {
+      "col": "0600C",
+      "find": "vulpes parvulas quae demo\nliuntur vineas",
+      "replace": "vulpes parvulas quae demoliuntur vineas",
+      "direction": "corrupted",
+      "why": "Plate p.305 col 600C (corners verified 599/600) prints 'quae demoliuntur vineas' as one word, and prints it that way at BOTH occurrences on the page (the lemma at 600B and the repetition at 600C); CC transcribed the lemma correctly and split the repetition. [sic: *demo liuntur*] WITHDRAWN in chunk 0016."
+    },
+    {
+      "col": "0602D",
+      "find": "libros legis et prophatarum vocat",
+      "replace": "libros legis et prophetarum vocat",
+      "direction": "corrupted",
+      "why": "Plate p.306 col 602D (corners verified 601/602) prints 'libros legis et prophetarum vocat'. CC substituted a for e. [sic: *prophatarum*] WITHDRAWN in chunk 0017."
+    },
+    {
+      "col": "0610D",
+      "find": "divina gratia coufortat nos",
+      "replace": "divina gratia confortat nos",
+      "direction": "corrupted",
+      "why": "Plate p.310 col 610D (corners verified 609/610) prints 'cum divina gratia confortat nos Christo compati', verified at 2.6x on the line. CC read n as u -- the classic minim fault. [sic: *coufortat*] WITHDRAWN in chunk 0020."
+    },
+    {
+      "col": "0618D",
+      "find": "erubescentes. Et.haec magna sunt",
+      "replace": "erubescentes. Et haec magna sunt",
+      "direction": "corrupted",
+      "why": "Plate p.314 col 618D (corners verified 617/618) prints 'Et haec magna sunt valde quae videntur in ea' with ordinary spacing. CC set a period where the space belongs. [sic: *Et.haec*] WITHDRAWN in chunk 0023."
+    }
+  ]
+}

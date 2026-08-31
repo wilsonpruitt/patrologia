@@ -3,6 +3,102 @@
 Merged from six agent stints (chunks 0–4, 5–9, 10–14, 15–18, 19–22, 23–26) per
 translation-runbook.md step 4. Column + printed reading + note, in chunk order.
 
+## ⭐ PLATE READ, 2026-08-31 — 84 of the 106 owed `[sic:]`/`[var:]` markers resolved
+
+This work shipped with **106 `[sic:]`/`[var:]` markers standing on columns nobody had read at
+Migne's plate**, which is exactly the exposure `CLAUDE.md` hard rule 8a exists to close: a
+`[sic:]` accuses Migne's own type and a `[var:]` asserts Migne's text diverges from a witness,
+and our Latin is Corpus Corporum's transcription, not the printed page. This session read the
+plate for **84 of them** (cols 0563A–0628D).
+
+**Result: 75 CONFIRMED, 9 WITHDRAWN, 22 still owed.**
+
+### The shape of the result — and why it differs from 8996 / 8945
+
+Every one of the **nine withdrawals is a `[sic:]`**, and **every one of the 75 `[var:]`
+divergences read this pass is Migne's own text.** That is the opposite balance from the two
+preceding works (8996: 10 of 14 withdrawn; 8945: 6 of 9 withdrawn) and it is not a
+contradiction — those two sweeps were `[sic:]`-heavy, and the `[sic:]` class is precisely where
+Corpus Corporum's faults live. Angelomus quotes Scripture loosely and from memory throughout;
+his divergences from the Vulgate are a fact about the author, and the plate confirms them one
+after another. **The lesson stands unchanged: read the plate. It just cuts the other way for
+the `[var:]` half, which is itself the finding.**
+
+### The nine withdrawn — Corpus Corporum's corruption, not Migne's type
+
+All nine patched in `data/tei-patches/9033.json`, the Latin re-chunked, and the English
+corrected to render the plain word with no marker (word count moved 32713 → 32712 exactly as
+the three affected splits/fusions predict; chunk count and boundaries unchanged).
+
+| col | our Latin | Migne prints | fault |
+|---|---|---|---|
+| 0577A | *sub viti s currebas* | *sub vitiis currebas* | word split (the same word stands whole two clauses earlier) |
+| 0581B | *oculus haeai* | *oculus haedi* | d mis-set as a (the sentence above spells *haedis* out) |
+| 0586D | *partriarchis* | *patriarchis* | doubled r |
+| 0590A | *tertium Spitum sanctum* | *tertium Spiritum sanctum* | dropped *ri* |
+| 0597C | *frigus infidelitatiis* | *frigus infi-/delitatis* | doubled i on a line-break rejoin |
+| 0600C | *quae demo liuntur vineas* | *quae demoliuntur vineas* | word split — and CC set the SAME word correctly in the lemma eight lines above |
+| 0602D | *prophatarum* | *prophetarum* | a for e |
+| 0610D | *coufortat* | *confortat* | minim fault, n read as u |
+| 0618D | *Et.haec* | *Et haec* | period set where the space belongs |
+
+⚑ Two of these (0600C, 0577A) are **internally detectable in hindsight**: the same word stands
+correctly a few lines away in our own file. That is a cheap pre-plate triage signal, not a
+licence — the plate is still what settled them.
+
+### Confirmed and now plate-licensed (75)
+
+Every `[var:]` on cols 0563–0628 was read against the plate and prints as our Latin has it —
+including the ones most likely to look like a digitization fault: 0565B *pedes ejus* standing
+next to the plate's own *pedes meos* in the quotation immediately above; 0574A *Cogitationum
+consilia* straddling the 0573D/0574A column break; 0619A's inverted cases *matri suae … electa
+genitricis suae*; 0620B *Sunamitis* for the Vulgate's *Sulamitis*; 0627B's singular *super
+monte aromatum* against the gloss's own plural two lines later. Also confirmed as Migne's own
+printing, not ours: the two `[sic:]`-adjacent readings at 0595B (*exsultabuntur*) and 0616C
+(*Electus ut cedrus*).
+
+`data/plate-reads.json` records the read column-range by column-range, with the page and the
+corner numbers verified before each.
+
+### ⛔ 22 markers STILL OWED — cols 0551D–0562D — and why the scan cannot settle them
+
+**The archive.org copy of PL 115 (`patrologiaecurs18goog`) is defective across exactly this
+span.** Its leaves 279–286 are a **duplicate re-scan of cols 527–542**, which are already
+present at pp. 269–276; the leaves that should carry **cols 547–562 are simply absent from the
+file.** The page map is therefore not one formula but two:
+
+    pages ≤ 286 : PDF page = (column + 31) / 2
+    pages ≥ 287 : PDF page = (column + 11) / 2      ← calibrated at pp. 287 / 300 / 319
+                                                       (corners 563/564, 589/590, 627/628)
+
+⚑ **This is exactly the failure mode `CLAUDE.md` warns about, in a new dress.** A single
+calibration at one page would have produced a *confidently wrong* map for two thirds of this
+work: the very first page rendered (p. 281 under the naive `(col+11)/2`) came up as Angelomus
+on *IV Kings* ch. XX, not the *Cantica* preface, and only reading the corner numbers across a
+run of pages exposed the duplication. **Calibrate at three points spread across the range, not
+one.**
+
+A second witness was hunted for and not found this session: Gallica's SRU index does not
+surface PL 115 (the Bibliothèque municipale de Lyon holds the complete PL on numelyo, but T.115
+was not locatable through the Gallica records); HathiTrust returns 403; the three Google Books
+ids in `data/volumes.json` return the placeholder image, not page content. **The next session
+that wants these 22 should start from numelyo, not from archive.org.**
+
+The 22 owed markers, unchanged and still unlicensed:
+
+- **0551D** *appropinquabit* (Matth. III) · **0552B** *propter Dominum* (I Petr. II) · **0552B**
+  Marc. II/XI, 24 · **0552D** `[sic: *angustale*]` · **0553C** Cant. IV, 14
+- **0555D** *appropinquavit* · **0556C** Prov. V, 1 · **0557C** Exod. XV, 1 · **0557C** Deut.
+  XXXII, 1 · **0557D** Psal. XVII, 2 · **0559A** `[sic: *in luta*]` · **0559C** Ezech. XVI, 5 ·
+  **0559C** Ezech. XVI, 8–10 · **0560B** Ose. II, 19–20 · **0560B** Isa. LXI, 10 · **0560B**
+  Zach. IX, 9 · **0560C** Ephes. V, 27 · **0560C** I Cor. XII, 27 · **0560D** Mal. I, 6 ·
+  **0560D** Ose. II, 20 · **0561D** Phil. II, 8 · **0562D** Matth. V, 2
+
+⚠ Note for whoever reads them: **0552D `[sic: *angustale*]` has an internal control.** Col
+0553D prints *decus augustale* in the same preface, addressed to the same emperor, so
+*angustale opus* at 0552D is a strong candidate for a Corpus Corporum corruption of
+*augustale* — but the plate, and only the plate, can say so.
+
 ## Blind polarity read (runbook step 4a, 2026-07-31)
 
 All 27 chunks read blind against the Latin twins, hunting for a sentence that
