@@ -7,9 +7,11 @@ across agents will drift on its load-bearing vocabulary and no agent can see the
 others — reconciling that is a required pipeline step (`translation-runbook.md`
 step 4), not a tidy-up.
 
-Work totals **after the blind read's repairs** (§8): **138 `[var:]` · 18 `[sic:]` ·
-1 `[ed:]` · 0 `[d:]` · 0 `[nt:]` · 0 `[f:]`.** As first translated: 139 / 17 / 1 —
-one `[var:]` was deleted as spurious and one `[sic:]` added that had been missing.
+Work totals **after the 2026-08-31 plate read** (§9): **138 `[var:]` · 13 `[sic:]` ·
+1 `[ed:]` · 0 `[d:]` · 0 `[nt:]` · 0 `[f:]`.** After the blind read's repairs (§8)
+they were 138 / 18 / 1; as first translated, 139 / 17 / 1 — one `[var:]` was
+deleted as spurious, one `[sic:]` added that had been missing, and **five `[sic:]`
+withdrawn at the plate** as Corpus Corporum's corruption, not Migne's type.
 `verify-english.mjs` clean at 35/35. EN/LA ratios 1.35–1.63.
 
 ---
@@ -361,3 +363,105 @@ either: the deleted semicolon in *ideoque; audacter aiebat* (0018 @0542B) is
 either Migne's plate or the TEI transcription. If the plate carries it, Pattern 8
 forbids the deletion; if the TEI invented it, it is a `tei-patches` question. It
 needs the leaf — the same plate check already owed at §6.
+
+---
+
+## §9 · PLATE READ, 2026-08-31 — ALL 156 OWED MARKERS RESOLVED
+
+Every `[sic:]` and `[var:]` in this work stood on a column nobody had read
+(CLAUDE.md hard rule 8a). All 156 were carried to the plate this session.
+**Result: 151 CONFIRMED as Migne's own printing · 5 WITHDRAWN as Corpus
+Corporum's corruption.** `node scripts/plate-gate.mjs 11638` is clean; the reads
+are in `data/plate-reads.json` under `works["11638"]`, one entry per half-column,
+each with the page whose corner numbers were read first.
+
+### The witnesses, and why there are two
+
+**Primary: archive.org `patrologiaecurs191unkngoog`** (PL 203; 715 leaves), on
+disk at `raw/scans/pl203/patrologiaecurs191unkngoog.pdf`. ⛔ **Its page map is
+piecewise and the discontinuities are real, not arithmetic:**
+
+    PDF page = (column + 27) / 2      cols ≤ 494   (p.258 = 489/490 … p.260 = 493/494)
+    PDF page = (column + 31) / 2      cols 495–514 (p.263 = 495/496 … p.272 = 513/514)
+    PDF page = (column + 27) / 2      cols ≥ 519   (p.273 = 519/520 … p.305 = 583/584)
+
+**Cols 491–494 are photographed twice** (pp.259–260 and again pp.261–262), and
+**cols 515–518 are MISSING** — two leaves absent between pp.272 and 273. The
+duplication is what shifts the offset by four; the omission is what shifts it
+back. ⚠ A formula fitted at one end of this book is wrong at the other: fitted at
+p.250 (473/474) it puts col 515 on a page that prints 511/512, and the first
+attempt at this read did exactly that before the corner numbers caught it.
+
+**Second witness: archive.org `patrologiaecur203mign`** (722 leaves), on disk at
+`raw/scans/pl203/patrologiaecur203mign.pdf`, **PDF page = (column + 25) / 2**,
+calibrated at pp.275/280/285/290. It supplied cols 515–518 and settled the eight
+markers standing there. ⚑ **`data/volumes.json` lists only two archive.org
+candidates for PL 203 and both are wrong or incomplete for this purpose** — the
+one it names second (`patrologiaecurs112unkngoog`) is Augustine, not tome 203 at
+all. There are four: an archive.org `volume:203` query also returns
+`patrologiaecursu0203mign` (726 leaves) and `patrologiaecur203mign`. Rebuild
+`volumes.json` or note this before anyone else re-reads PL 203.
+
+### The five withdrawals — all single-letter, all the measured class
+
+Patched in `data/tei-patches/11638.json`; the work re-chunked (35 chunks, 40,356
+words, 388 column marks, 478 notes — all conserved), the English markers removed
+and the plain word restored:
+
+| col | our TEI | the plate | class |
+|---|---|---|---|
+| 0500C | *vineat* | **vincat** | c → e |
+| 0513C | *abur* | **ebur** | e → a |
+| 0516B | *draeo* | **draco** | c → e (read on the second witness) |
+| 0534A | *cuibus* | **quibus** | qu → cu |
+| 0534C | *Potera* | **Poterat** | dropped final *t* |
+
+⭐ **0513C reverses §5's own reversal, and the draft was right.** §5 records that
+the non-word *abur* had first been rendered "the ivory" and that the silent
+repair was caught and turned into `[sic: *abur*]`. The plate prints **ebur** —
+so the reading was correct all along and only the silence was wrong. The rule
+still holds (a silent repair is not evidence), but the record now says which way
+it fell.
+
+### What the read licenses that this file previously only asserted
+
+- **§5's headline polarity case is Migne's.** 0498A prints *Qui exaltat cor suum,
+  **mundus** est coram Deo*, plainly, with no *im-*. Rendered "is clean before
+  God" and now plate-licensed. So are 0507A *munitum* (×2), 0507B *perficis*,
+  0566C *per obedientiam unius **justi** constituentur multi*, and 0571B's
+  *vineam **neam*** — the last with an internal control, *vineam meam* printing
+  correctly three lines below it on the same plate.
+- **§4's four-chunk Zech. 4:14 finding is Migne's.** *duo filii olei
+  **splendoris*** read and confirmed at 0509B, 0525C, 0532B and 0542B.
+  Gen. 3:19 *Terra es et in terram ibis* confirmed at both 0545D and 0580D.
+- **§6 item 1 is answered: the loss at 0494D is MIGNE'S, not our source's.** The
+  plate ends the paragraph at *…aeternaliter **constit*** exactly as the TEI does.
+  No `tei-patches` entry is owed and the work's only `[ed:]` stands.
+- **§6 item 2 is answered.** The welded clause at 0523C–D (*« Qui peccatum non
+  fecit » homines reficit*) prints on the plate as our text has it. No `[ed:]`.
+- **§6 item 3 is answered.** *Eleos* at 0525D and *Oleos* at 0530C are both
+  Migne's own; the pun the argument runs on is his. Do not normalize either.
+
+### One marker confirmed, but re-described
+
+**0584C `[sic: *praeter missis*]` is a DROPPED HYPHEN, not two set words.** The
+plate breaks *praetermissis* across a line — *…auctoritatibus praeter* / *missis,
+quae hoc quod dicimus…* — and prints **no hyphen**, while hyphens print normally
+elsewhere on that same page (*indi-cabo*, *redar-guatur*). The defect is Migne's
+and the marker stands; the crux is the missing hyphen, and a later reader should
+not "discover" that our two-word transcription is a digitization fault.
+
+### Still owed after this pass
+
+Nothing under rule 8a. **Two things this read observed and did NOT do**, both
+outside its scope:
+
+1. ⬜ **PL 203 has a numbered foot-of-page apparatus and it is not recovered.**
+   Seen in passing on p.270 — *(98) Athanas. in Symbolo.* — p.277 *(99)*, p.288
+   *(100)*, p.294 *(101)*, p.300 *(102) Tract. in Joannem, t. 9.* The sequence
+   runs; `data/plate-notes/coverage.json` still has no 11638 entry and
+   `chunk-work.mjs` prints `⬜ PLATE SPOT CHECK OWED`. Recovering it is a separate,
+   per-volume job (CLAUDE.md, "RECOVER GOING FORWARD"), and PL 203 now has two
+   scans on disk to do it with.
+2. ⬜ **0542B's deleted semicolon** (flagged above as needing the leaf) was not
+   collated; this pass read for the markers, not word by word.

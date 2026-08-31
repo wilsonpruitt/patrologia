@@ -43,6 +43,158 @@
         }
       ]
     },
+    "8945": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness, IIIF)",
+      "page_map": "Gallica leaf f = (column + 1) / 2 -- NOT the on-disk archive.org map ((column + 11) / 2)",
+      "reads": [
+        {
+          "from": "0482A",
+          "to": "0482A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f241 (right col., head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "cartalo confirmed as Migne's (attested variant of cartallo, no marker); plate carries a comma at 'de Aegypto, sic nos' that our TEI drops"
+        },
+        {
+          "from": "0482C",
+          "to": "0482C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f241 (right col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "'hoc legis implesse Tobiam' confirmed verbatim -- acc.+inf. with no governing verb is Migne's; no marker (Pattern 18 declined)"
+        },
+        {
+          "from": "0483D",
+          "to": "0484A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f242 (left col. foot + right col. head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "trangres-/sione confirmed across the column break: Migne's own broken type. [sic: trangressione] licensed. No foot-of-page apparatus."
+        },
+        {
+          "from": "0484D",
+          "to": "0485A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f242 (right col.) + f243 (left col. head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "lemma at Deut 28:14 is a non-word on the plate (aeclinaveris / aectinaveris; letter 4 unresolved at native res) -- [sic:] licensed. The doubled clause 'Carnalis vita polluta ex carnali immunditia' is Migne's, not CC's -- [d:] licensed."
+        },
+        {
+          "from": "0486A",
+          "to": "0486A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f243 (right col., head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "statibilitatem confirmed as Migne's type. [sic:] licensed."
+        },
+        {
+          "from": "0488C",
+          "to": "0488C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f244 (right col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "'In fidelibus autem dicitur' confirmed as Migne's word-division defect for Infidelibus. [sic:] licensed."
+        },
+        {
+          "from": "0490D",
+          "to": "0491A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f245 (right col. foot) + f246 (left col. head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "col 490 ends at a comma and col 491 opens 'terna flamma comburet' -- clean break, nothing lost by CC, so terna is Migne's. [cj: terna; read aeterna] licensed."
+        },
+        {
+          "from": "0491C",
+          "to": "0491D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f246 (left col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "Isa. I quotation printed 'principes Sodomorum Gomorrhae' (populus lost) -- [var:] licensed. 'obtulerunt' with no terminal stop and 'Mea est ultio, etc,' with a comma both confirmed as Migne's; preserved under Pattern 8."
+        },
+        {
+          "from": "0492B",
+          "to": "0492B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f246 (right col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "MARKER REFUSED. Plate prints 'jurabo PER dexteram meam'; our TEI reads 'pre'. The defect is Corpus Corporum's, not Migne's -- no [sic:] fired, English renders 'per'. TEI patch owed. See src/english/8945/cruces-0015.md."
+        },
+        {
+          "from": "0445D",
+          "to": "0445D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f223 (Praefatio, left col foot)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "Cant. 1:12 printed 'Fasciculus myrrhae delectus mihi', no 'meus'. [var:] licensed."
+        },
+        {
+          "from": "0452A",
+          "to": "0452A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f226 (right col head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "'gui' for 'qui' confirmed as Migne's own type, first word of the band. [sic:] licensed."
+        },
+        {
+          "from": "0454C",
+          "to": "0454C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f227 (right col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "'Cabesbarne' confirmed as Migne's own printing, against 'Cadesbarne' in the head two lines above -- his own inconsistency. [sic:] licensed."
+        },
+        {
+          "from": "0471C",
+          "to": "0471C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f236 (left col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED. Plate prints 'conversans' clean; CC dropped the n. TEI patch applied, [sic: coversans] withdrawn."
+        },
+        {
+          "from": "0476C",
+          "to": "0476C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f238 (right col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED. Plate prints 'magnificant' (agreeing with plural 'dilatant'); CC produced 'magnificam'. TEI patch applied, [sic: magnificam] withdrawn."
+        },
+        {
+          "from": "0481A",
+          "to": "0481C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f241 (left col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED x3. Plate prints 'Calceati', 'pusillum', 'quoque' (one word) clean throughout. CC produced 'Catceati', 'pusillium', split 'quo que'. TEI patches applied, all three [sic:] withdrawn."
+        },
+        {
+          "from": "0496C",
+          "to": "0496C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f248 (right col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED. Plate prints 'pii' (ara pii cordis) clean; CC produced 'pli'. TEI patch applied, [sic: pli] withdrawn."
+        }
+      ]
+    },
     "8947": {
       "series": "pl",
       "volume": 113,
@@ -678,6 +830,24 @@
         }
       ]
     },
+    "8981": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0519C",
+          "to": "0550D",
+          "depth": "read",
+          "date": "2026-08-30",
+          "pages": "266-268, 272, 274-280",
+          "source": "on-disk PL 114 scan, full page width at 300 dpi with 600 dpi crops for every letter-level call; read by the session directly, not by fenced agents (deliberately: briefing several readers on one suspicion produces convergence, not corroboration). CALIBRATION: p.266 prints 521/522, checked before the first read; the map held at every subsequent page.",
+          "found": "ALL 14 [var:] STAND, 0 revised, 0 false. Columns read: 0522, 0523, 0526, 0534, 0538, 0540, 0541, 0542, 0543, 0546, 0547, 0548, 0550, plus 0524 and 0533. THREE new [cj:] LICENSED by the read, none fireable blind (0524A voluerit->violaverit; 0542A honesti->inhonesti; 0541D Memora->membra) -- each had been correctly WITHHELD by a stint or a blind reader for want of the column. One blind reader's proposed [cj:] DECLINED at the plate (0546C 'min re': Migne prints 'minore' whole, so the defect is Corpus Corporum's and a conjecture would accuse Migne of a word he never set -- the 8993 withdrawn-[cj:] class, caught before shipping). One blind-reader plate request REFUTED (0538C: Migne prints 'deserentis', not the proposed 'disserentis'). Hidden defects recovered to data/tei-patches/8981.json.",
+          "caveat": "⚠ FOUR PAGES IN THIS RUN CLIP THE LEFT MARGIN -- p.274, p.276, p.278, p.280 -- each losing the left column's opening characters and its left-hand corner number (537, 541, 545, 549). This is NEW: the volume's clipping was previously recorded for p.265/p.281 (RIGHT) and p.290/p.330/p.340 (LEFT). Per-page, not per-volume, and now confirmed on both margins within one work. No marker depends on a clipped column; any future crux in one has NO second witness on disk. ⛔ THERE IS NO SECOND WITNESS FOR PL 114 ON DISK (established 2026-08-31). raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf is PL 202 (Peter of Blois, Epistolae) — verified by its running head 'EPISTOLAE. — LIB. II' and by data/volumes.json, which registers patrologiaecurs114unkngoog under PL 202. The '114' is the Internet Archive ITEM number, not the tome; the directory raw/scans/pl202/ was right and the copyB_ prefix was the error. PL 114's only registered archive scan is patrologiaecurs06saingoog, the copy we already read. Unfetched alternatives: Google Books s_wQAAAAYAAJ and 4vcUAAAAQAAJ, Gallica ark:/12148/bpt6k54939667. Until one is fetched, a marginal PL 114 crux is settled by MAGNIFICATION on the copy we have, or not at all. ✅ 0533 'rationē' RESOLVED 2026-08-31 at 1200 dpi on this same copy: a clean deliberate macron, centred, defined ends, macron height, same ink weight as the surrounding type. Migne sets 'rationem'. Patched and given a [cj:] reading 'ratione'. It had been held for a second witness that does not exist."
+        }
+      ]
+    },
     "8982": {
       "series": "pl",
       "volume": 114,
@@ -780,6 +950,71 @@
           "page": 352,
           "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
           "found": "Quantor → FALSE"
+        }
+      ]
+    },
+    "8986": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "second_witness": "raw/scans/pl202/[SEE CORRECTION BELOW — NOT a PL 114 copy] copyB_patrologiaecurs114unkngoog.pdf (filed under pl202). NOT needed for any site here -- every marker fell in a clean column -- but REQUIRED for any left-column crux at 0569/0570: p.290 clips the LEFT margin and its left column has lost its opening characters.",
+      "note": "THE FULL MARKER GATE OF 8986, 2026-08-30, run BEFORE the work shipped. Six pages rendered at 300 dpi and read directly by the session (no fenced agents -- deliberately, since briefing several readers on the same suspicion produces convergence, not corroboration). Corner numbers read FIRST on every page; the (column + 11) / 2 map was re-derived independently by fitting the six PL 114 rows of the 2026-08-29 sweep ledger before it was compared with 9006's. RESULT: 7 STAND, 0 REVISED, 0 FALSE, 0 UNRESOLVED. An eighth [var:] was FIRED as a result of the read (0570C), where the translating stint had declined for fear of a TEI loss the plate disproved.",
+      "what_it_cost_to_skip": "Nine defects in our Latin that NO CHECK WE OWN COULD HAVE FOUND, because our Latin read correctly at every one. Five are Migne's own type, silently tidied by Corpus Corporum (nou, Vebum, ete., Ostendlt, and the verse address VERS. 51); four are CC's own breakage (quamcredere, duasepist., Transformantur, and ego for ergo). All nine restored via data/tei-patches/8986.json. ⭐ 0570B is the lesson: one dropped r manufactured the work's hardest crux, which the stint reasoned about at length and correctly refused to repair.",
+      "reads": [
+        {
+          "from": "0553A",
+          "to": "0554D",
+          "depth": "full",
+          "date": "2026-08-30",
+          "page": 282,
+          "source": "on-disk PL 114 scan at 300 dpi, full page width; CALIBRATION PAGE, corners read 553/554 before any text",
+          "found": "[var: Caupones tui vino aquam miscent] CONFIRMED as Migne's, and the gloss names the pseudoapostoli it is aimed at. Two CC run-togethers found and patched: quamcredere (plate: quam credere) and duasepist. (plate: duas epist.)."
+        },
+        {
+          "from": "0555A",
+          "to": "0556D",
+          "depth": "full",
+          "date": "2026-08-30",
+          "page": 283,
+          "source": "on-disk PL 114 scan at 300 dpi; corners read 555/556; both findings re-verified at 3x before patching",
+          "found": "⭐ Transformatur, not Transformantur -- verified at 3x across the line break Trans-/formatur. THREE readings existed and ours was nobody's (Migne Transformatur, Clementine transformamur, our file Transformantur); the stint's decline was right. Also 'nou' for non at 0555B (3x: open-topped sort, no shoulder). NEGATIVE RECORDED: 'Ubicunque autem est spiritus Domini' -- the plate DOES print est, so the stint's suspicion of a supplied word is refuted."
+        },
+        {
+          "from": "0559A",
+          "to": "0560D",
+          "depth": "full",
+          "date": "2026-08-30",
+          "page": 285,
+          "source": "on-disk PL 114 scan at 300 dpi; corners read 559/560; the verse address re-verified at 3x",
+          "found": "BOTH 0559C markers CONFIRMED: 'Maledictus omnis qui pendet in ligno' (Migne's, against Clementine Deut 21:23 which has no omnis) -- and Migne's own gloss then asks 'Quid est quod dicit, omnis?', which is exactly what the marker claimed; and 'terra es, in terram ibis' against Gen 3:19. Also VERS. 51 for 2 Cor 5:21, silently corrected by CC -- the 9006 @0043A class, invisible precisely because the correction is right."
+        },
+        {
+          "from": "0561A",
+          "to": "0562D",
+          "depth": "full",
+          "date": "2026-08-30",
+          "page": 286,
+          "source": "on-disk PL 114 scan at 300 dpi; corners read 561/562; both type defects re-verified at 3x",
+          "found": "BOTH markers CONFIRMED: 'Ab omni iniquitate' is Migne's (the plate prints it as its own lemma, glossed Scilicet mentis against the twin lemma carnis), and 'qui passus est fraudem' is Migne's added object. Two of Migne's defects restored: Vebum for Verbum (0561A) and ete. for etc. (0562B). NEGATIVE RECORDED: 'non tantum' is present on the plate, so nothing was lost there."
+        },
+        {
+          "from": "0567A",
+          "to": "0568D",
+          "depth": "full",
+          "date": "2026-08-30",
+          "page": 289,
+          "source": "on-disk PL 114 scan at 300 dpi; corners read 567/568; Ostendlt re-verified at 4x",
+          "found": "BOTH markers CONFIRMED: 'Qui apponit scientiam, apponit et dolorem' (Clementine Eccl 1:18 addit/laborem) and 'Et ossa mea in frixorio confrixa sunt' (Clementine Ps 101:4 sicut cremium aruerunt) -- and the gloss stands on frixorium, as claimed. Ostendlt restored, WITH A STATED DOUBT: it is an i/l call on a worn line, the least certain of the five normalizations. NEGATIVE RECORDED: 'non est peccatum' -- the s is damaged type in this copy, the reading is not in doubt, no marker depends on it."
+        },
+        {
+          "from": "0569A",
+          "to": "0570D",
+          "depth": "full",
+          "date": "2026-08-30",
+          "page": 290,
+          "source": "on-disk PL 114 scan at 300 dpi; corners read (right) 570, LEFT CORNER CLIPPED; ergo re-verified at 5x",
+          "found": "⭐⭐ 'Istam ergo imitetur' -- CC dropped the r, manufacturing the nominative-ego crux the stint called the worst site in its range. There was never a crux. Also 'Et Deus pacis erit vobiscum' CONFIRMED as Migne's short lemma against Clementine 2Cor 13:11 et dilectionis: NOT the TEI loss the stint suspected, so a [var:] was fired here as a result of this read. ⚠ THIS PAGE CLIPS THE LEFT MARGIN and its left column has lost opening characters; no marker depends on that column, and any future crux there needs the second witness."
         }
       ]
     },
@@ -922,6 +1157,24 @@
         }
       ]
     },
+    "8993": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0643A",
+          "to": "0670D",
+          "depth": "read",
+          "date": "2026-08-30",
+          "pages": "327-340",
+          "source": "on-disk PL 114 scan, full page width at 150 dpi with 400 dpi crops for every letter-level call; read by the session directly, not by fenced agents. CALIBRATION: p.327 prints 643/644, checked before the first read.",
+          "found": "14 [var:] all STAND, 0 revised, 0 false. 2 [cj:] WITHDRAWN as our own corruptions (0659A Ac->Ab, 0661D vetata->velata); 3 [cj:] and the 1 [d:] confirmed as Migne's own printing. 9 hidden defects recovered (data/tei-patches/8993.json): 2 NORMALIZED defects of Migne's that CC had silently tidied (0650A dia, 0670B ominibus), 1 defect of Migne's our text already carried (0669D serviendium, now owed its [sic:]), 4 CC corruptions (0665A padebat, 0667B sanctur, 0661D vetata, 0659A Ac), 2 CC line-break failures (0654A genuerunt -- which also restored an 'in' CC INSERTED -- and 0655D permanet)."
+        }
+      ],
+      "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.330 (cols 649/650) and p.340 (cols 669/670), losing ~10 characters at the start of the left column's lines. Neither clip touched a marker: the 0649D dittography was settled because 'sed non omnes audierunt' sits mid-line, and the 0670A/0669A markers are in the right column. ⛔ ONE ITEM IS UNSETTLED BECAUSE OF THE CLIP: 0661C 'quod non valet ad probationem ___' -- the word our file reads as 'nostram' falls in the clipped zone on p.336. It changes nothing in the English and needs the second witness ([SEE CORRECTION BELOW — NOT a PL 114 copy] copyB_patrologiaecurs114unkngoog.pdf) if anyone wants it closed. ALSO UNSETTLED, raised by this read and not by any agent: 0655D's lemma prints as 'Ilic autem' where our file reads 'Hic autem' -- an italic capital H whose crossbar may simply have dropped out at this scan's resolution. Recorded as observed, NOT patched and NOT marked: it is exactly the worn-sort-vs-real-defect ambiguity 9006's reader flagged as its least certain class."
+    },
     "8995": {
       "series": "pl",
       "volume": 114,
@@ -936,6 +1189,140 @@
           "page": 308,
           "source": "on-disk PL 114 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.23 prints 35/36).",
           "found": "circumcicis → CONFIRMED"
+        }
+      ]
+    },
+    "8996": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0469A",
+          "to": "0470D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 240,
+          "source": "plate spot check at chunking, on-disk PL 114 scan, full page width; Actus->Romanos division falls mid-page",
+          "found": "ASTERISK-LAYER note at 0470B, recovered to data/plate-notes/8996.tsv, injected as [cn: *]. No numbered Forte conjectures. Licenses the [var:] fired at 0470A (Acts 13:2 Paulum/Saulum)."
+        },
+        {
+          "from": "0481A",
+          "to": "0494D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "246-252",
+          "source": "TWO WITNESSES: on-disk archive.org patrologiaecurs06saingoog (clips margins, ink-damaged on cols 481,484,487,488,492,493 in this range) AND Gallica ark:/12148/bpt6k54939667 f241-f247 (f = (column+1)/2, clean, calibrated against printed corner numbers f242=cols483/484). See src/english/8996/cruces-0005.md SS-P.",
+          "found": "Six candidate defects withdrawn as archive-copy ink damage (0482C x2, 0487C, 0488B, 0493A, 0493C -- the last, nolo/volo, would have inverted a clause). Two apparent Pattern 10 splits (0481C, 0485D) are Migne line breaks, not broken type. One confirmed on both witnesses: 0493B ab bonum operandum, Migne's own -- licenses the [cj:] there. Licenses the 3 [var:] fired at 0485C (Wisd 2:24), 0487B-C (Rom 5:20), 0491B (Exod 20:17). No foot-of-page apparatus seen on pp.246-252."
+        },
+        {
+          "from": "0519A",
+          "to": "0520B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 265,
+          "source": "plate spot check at chunking, on-disk PL 114 scan, full page width; this work interleaves with I Corinthians (8981) mid-page",
+          "found": "no foot-of-page apparatus of either layer"
+        },
+        {
+          "from": "0495A",
+          "to": "0495A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 253,
+          "source": "on-disk PL 114 scan, corners verified 495/496; candidate [sic: Ambuans] investigated",
+          "found": "Migne prints Ambulans whole and clean. CC dropped the l. WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0497A",
+          "to": "0497D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 254,
+          "source": "on-disk PL 114 scan, corners verified 497/498; candidates [sic: revela] and [sic: meriritum] investigated",
+          "found": "0497B revela is Migne's OWN printing -- [sic:] licensed, stands. 0497D meriritum: Migne prints meritum whole and clean; CC dittographed. WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0500C",
+          "to": "0500C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 255,
+          "source": "on-disk PL 114 scan, corners verified 499/500, 600dpi crop; candidate [sic: eligutur] investigated",
+          "found": "Migne prints eligitur whole and clean. CC substituted a vowel. WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0504C",
+          "to": "0504D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 257,
+          "source": "on-disk PL 114 scan, corners verified 503/504; candidates [sic: lans] and [sic: qoud] investigated",
+          "found": "Both are Migne printed clean (laus, quod). CC dropped a letter / transposed letters respectively. Both WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0512D",
+          "to": "0512D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 261,
+          "source": "on-disk PL 114 scan, corners verified 511/512; candidates [sic: nonlicet] and [sic: cor tempto] investigated",
+          "found": "Migne prints non licet as two words and contempto as one word -- inverse faults, both CC's. Both WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0517C",
+          "to": "0517C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 264,
+          "source": "archive.org PL 114 scan CLIPS THE LEFT MARGIN at this exact word; second witness required: Gallica ark:/12148/bpt6k54939667 f259 (f=(column+1)/2, corners verified 517/518), clean",
+          "found": "Gallica prints dabant whole. Archive copy loses the ending to margin clipping (same class as pp.274/276/278/280 etc). WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0471A",
+          "to": "0480D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "241-245",
+          "source": "on-disk PL 114 scan (patrologiaecurs06saingoog), corners verified 471/472 through 479/480; calibration batch for the [sic:]/[var:] backlog, covering the six still-owed candidates from chunks 0000-0004 (0472A, 0476A/0476C, 0478D, 0480A, 0480D)",
+          "found": "0472A confirmed Migne's own (not recommended for firing per cruces.md, unchanged). 0476A: the word *sulvat* is Migne's own misprint for *salvat* -- CONFIRMED, fired as [sic:] -- but its true column is 0475D, not 0476A as filed in cruces.md; the [0475D]/[0476A] TEI markers bracket it on the 0475D side. 0476C *Decem esse*->*Ducem esse*: CC's corruption, WITHDRAWN, tei-patches/8996.json. 0478D Acts 10:35: Migne genuinely prints *timet Deum* and drops *et operatur justitiam* -- CONFIRMED, fired as [var:]. 0480A *uod*->*quod*: CC's corruption, WITHDRAWN. 0480D *excludanturii*->*excludantur ii*: CC fused two words Migne printed separately -- the fusion WITHDRAWN as a digitization fault (tei-patches/8996.json), but the underlying wording (*excludantur ii* vs Vulgate *excludant eos*) is Migne's own and stands as a separate, unfired [var:] candidate (not verified against a Vulgate collation this pass)."
+        },
+        {
+          "from": "0504B",
+          "to": "0504B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 257,
+          "source": "on-disk PL 114 scan, corners verified 503/504; calibration batch, John 15:3 candidate from chunks 0010-0014 not covered by the same-day earlier read (which covered 504C-D only)",
+          "found": "Migne prints *verbum quod* whole and clean, diverging from the Vulgate's *sermonem quem* -- CONFIRMED, fired as [var:]."
+        },
+        {
+          "from": "0509C",
+          "to": "0509C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 260,
+          "source": "on-disk PL 114 scan, corners verified 509/510; calibration batch, Rom 11:32 candidate from chunks 0015-0019",
+          "found": "Migne prints *in infideli* whole and clean, diverging from the Vulgate's *in incredulitate* -- CONFIRMED, fired as [var:]."
+        },
+        {
+          "from": "0511D",
+          "to": "0511D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 261,
+          "source": "on-disk PL 114 scan, corners verified 511/512; calibration batch, Luke 12:49 candidate from chunks 0015-0019",
+          "found": "Migne prints *nisi ardeat* whole and clean, diverging from the Vulgate's *nisi ut accendatur* -- CONFIRMED, fired as [var:]."
+        },
+        {
+          "from": "0515D",
+          "to": "0515D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 263,
+          "source": "on-disk PL 114 scan, corners verified 515/516; calibration batch, Ezek 33:12 candidate from chunks 0015-0019",
+          "found": "Migne prints *non proficiet ei, si erraverit* whole and clean, diverging from the Vulgate's *non liberabit eum in quacumque die peccaverit* -- CONFIRMED, fired as [var:]."
         }
       ]
     },
@@ -988,185 +1375,6 @@
           "pages": "381-402",
           "source": "on-disk PL 114 scan; every page calibrated against the printed corner numbers; five independent agent reads plus the session lead's own 400 dpi verification of col 753",
           "found": "ALL 22 PAGES COLLATED. 63 TEI patches, ~3 divergence sites per page, running BOTH directions (CC corruptions repaired; CC normalizations toward the Clementine reverted). Five false public claims against Migne prevented; eight real Vulgate divergences of Migne's own recovered."
-        }
-      ]
-    },
-    "11613": {
-      "series": "pl",
-      "volume": 202,
-      "scan": "raw/scans/pl202/patrologiaecurs139unkngoog.pdf",
-      "page_map": "PDF page = 600 + (column - 1187) / 2",
-      "reads": [
-        {
-          "from": "1147A",
-          "to": "1147A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 580,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "Reverendissim → CONFIRMED"
-        },
-        {
-          "from": "1150A",
-          "to": "1150A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 581,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "implieetur → CONFIRMED"
-        },
-        {
-          "from": "1156B",
-          "to": "1156B",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 584,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "eximiii → FALSE"
-        },
-        {
-          "from": "1161A",
-          "to": "1161A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 587,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "quitenebantur → FALSE"
-        },
-        {
-          "from": "1162A",
-          "to": "1162A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 587,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "proculdio → CONFIRMED"
-        },
-        {
-          "from": "1169D",
-          "to": "1169D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 591,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "carnem → CONFIRMED"
-        },
-        {
-          "from": "1172D",
-          "to": "1172D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 592,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "praecontis → CONFIRMED"
-        },
-        {
-          "from": "1176A",
-          "to": "1176A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 594,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "soquentes → FALSE"
-        },
-        {
-          "from": "1176B",
-          "to": "1176B",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 594,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "invensionibus → CONFIRMED"
-        },
-        {
-          "from": "1176D",
-          "to": "1176D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 594,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "saliari → FALSE"
-        },
-        {
-          "from": "1179D",
-          "to": "1179D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 596,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "saptiam → FALSE"
-        },
-        {
-          "from": "1187C",
-          "to": "1187C",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 600,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "justistitiae → CONFIRMED"
-        },
-        {
-          "from": "1192A",
-          "to": "1192A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 602,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "suum → CONFIRMED"
-        },
-        {
-          "from": "1195C",
-          "to": "1195C",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 604,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "eonsilium → CONFIRMED"
-        },
-        {
-          "from": "1208D",
-          "to": "1208D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 610,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "animi → FALSE"
-        },
-        {
-          "from": "1225A",
-          "to": "1225A",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 619,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "moi → CONFIRMED"
-        },
-        {
-          "from": "1243D",
-          "to": "1243D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 628,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "perfecto → CONFIRMED"
-        },
-        {
-          "from": "1285B",
-          "to": "1285B",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 649,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "progeditur → CONFIRMED"
-        },
-        {
-          "from": "1300B",
-          "to": "1300B",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 656,
-          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
-          "found": "marytrum → FALSE"
         }
       ]
     },
@@ -1392,393 +1600,6 @@
           "page": 36,
           "source": "on-disk PL 114 scan patrologiaecurs06saingoog.pdf rendered at 300 dpi, full page width; corner numbers read FIRST and confirmed; map (column+11)/2 held",
           "found": "1 [var:] confirmed (0062B). ⭐ TWO HIDDEN MIGNE DEFECTS at 0062A: 'Dum Scripturae ... narrat' (ungrammatical against the singular verb; CC normalized the case) and 'iniquitates suae multitudine' (CC corrected to the genitive) -- both restored, [sic:] owed. CC punctuation departure at 0061D: Migne prints 'quia decalogo legis contraria, fecit'"
-        }
-      ]
-    },
-    "8986": {
-      "series": "pl",
-      "volume": 114,
-      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-      "page_map": "PDF page = (column + 11) / 2",
-      "second_witness": "raw/scans/pl202/[SEE CORRECTION BELOW — NOT a PL 114 copy] copyB_patrologiaecurs114unkngoog.pdf (filed under pl202). NOT needed for any site here -- every marker fell in a clean column -- but REQUIRED for any left-column crux at 0569/0570: p.290 clips the LEFT margin and its left column has lost its opening characters.",
-      "note": "THE FULL MARKER GATE OF 8986, 2026-08-30, run BEFORE the work shipped. Six pages rendered at 300 dpi and read directly by the session (no fenced agents -- deliberately, since briefing several readers on the same suspicion produces convergence, not corroboration). Corner numbers read FIRST on every page; the (column + 11) / 2 map was re-derived independently by fitting the six PL 114 rows of the 2026-08-29 sweep ledger before it was compared with 9006's. RESULT: 7 STAND, 0 REVISED, 0 FALSE, 0 UNRESOLVED. An eighth [var:] was FIRED as a result of the read (0570C), where the translating stint had declined for fear of a TEI loss the plate disproved.",
-      "what_it_cost_to_skip": "Nine defects in our Latin that NO CHECK WE OWN COULD HAVE FOUND, because our Latin read correctly at every one. Five are Migne's own type, silently tidied by Corpus Corporum (nou, Vebum, ete., Ostendlt, and the verse address VERS. 51); four are CC's own breakage (quamcredere, duasepist., Transformantur, and ego for ergo). All nine restored via data/tei-patches/8986.json. ⭐ 0570B is the lesson: one dropped r manufactured the work's hardest crux, which the stint reasoned about at length and correctly refused to repair.",
-      "reads": [
-        {
-          "from": "0553A",
-          "to": "0554D",
-          "depth": "full",
-          "date": "2026-08-30",
-          "page": 282,
-          "source": "on-disk PL 114 scan at 300 dpi, full page width; CALIBRATION PAGE, corners read 553/554 before any text",
-          "found": "[var: Caupones tui vino aquam miscent] CONFIRMED as Migne's, and the gloss names the pseudoapostoli it is aimed at. Two CC run-togethers found and patched: quamcredere (plate: quam credere) and duasepist. (plate: duas epist.)."
-        },
-        {
-          "from": "0555A",
-          "to": "0556D",
-          "depth": "full",
-          "date": "2026-08-30",
-          "page": 283,
-          "source": "on-disk PL 114 scan at 300 dpi; corners read 555/556; both findings re-verified at 3x before patching",
-          "found": "⭐ Transformatur, not Transformantur -- verified at 3x across the line break Trans-/formatur. THREE readings existed and ours was nobody's (Migne Transformatur, Clementine transformamur, our file Transformantur); the stint's decline was right. Also 'nou' for non at 0555B (3x: open-topped sort, no shoulder). NEGATIVE RECORDED: 'Ubicunque autem est spiritus Domini' -- the plate DOES print est, so the stint's suspicion of a supplied word is refuted."
-        },
-        {
-          "from": "0559A",
-          "to": "0560D",
-          "depth": "full",
-          "date": "2026-08-30",
-          "page": 285,
-          "source": "on-disk PL 114 scan at 300 dpi; corners read 559/560; the verse address re-verified at 3x",
-          "found": "BOTH 0559C markers CONFIRMED: 'Maledictus omnis qui pendet in ligno' (Migne's, against Clementine Deut 21:23 which has no omnis) -- and Migne's own gloss then asks 'Quid est quod dicit, omnis?', which is exactly what the marker claimed; and 'terra es, in terram ibis' against Gen 3:19. Also VERS. 51 for 2 Cor 5:21, silently corrected by CC -- the 9006 @0043A class, invisible precisely because the correction is right."
-        },
-        {
-          "from": "0561A",
-          "to": "0562D",
-          "depth": "full",
-          "date": "2026-08-30",
-          "page": 286,
-          "source": "on-disk PL 114 scan at 300 dpi; corners read 561/562; both type defects re-verified at 3x",
-          "found": "BOTH markers CONFIRMED: 'Ab omni iniquitate' is Migne's (the plate prints it as its own lemma, glossed Scilicet mentis against the twin lemma carnis), and 'qui passus est fraudem' is Migne's added object. Two of Migne's defects restored: Vebum for Verbum (0561A) and ete. for etc. (0562B). NEGATIVE RECORDED: 'non tantum' is present on the plate, so nothing was lost there."
-        },
-        {
-          "from": "0567A",
-          "to": "0568D",
-          "depth": "full",
-          "date": "2026-08-30",
-          "page": 289,
-          "source": "on-disk PL 114 scan at 300 dpi; corners read 567/568; Ostendlt re-verified at 4x",
-          "found": "BOTH markers CONFIRMED: 'Qui apponit scientiam, apponit et dolorem' (Clementine Eccl 1:18 addit/laborem) and 'Et ossa mea in frixorio confrixa sunt' (Clementine Ps 101:4 sicut cremium aruerunt) -- and the gloss stands on frixorium, as claimed. Ostendlt restored, WITH A STATED DOUBT: it is an i/l call on a worn line, the least certain of the five normalizations. NEGATIVE RECORDED: 'non est peccatum' -- the s is damaged type in this copy, the reading is not in doubt, no marker depends on it."
-        },
-        {
-          "from": "0569A",
-          "to": "0570D",
-          "depth": "full",
-          "date": "2026-08-30",
-          "page": 290,
-          "source": "on-disk PL 114 scan at 300 dpi; corners read (right) 570, LEFT CORNER CLIPPED; ergo re-verified at 5x",
-          "found": "⭐⭐ 'Istam ergo imitetur' -- CC dropped the r, manufacturing the nominative-ego crux the stint called the worst site in its range. There was never a crux. Also 'Et Deus pacis erit vobiscum' CONFIRMED as Migne's short lemma against Clementine 2Cor 13:11 et dilectionis: NOT the TEI loss the stint suspected, so a [var:] was fired here as a result of this read. ⚠ THIS PAGE CLIPS THE LEFT MARGIN and its left column has lost opening characters; no marker depends on that column, and any future crux there needs the second witness."
-        }
-      ]
-    },
-    "8993": {
-      "series": "pl",
-      "volume": 114,
-      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-      "page_map": "PDF page = (column + 11) / 2",
-      "reads": [
-        {
-          "from": "0643A",
-          "to": "0670D",
-          "depth": "read",
-          "date": "2026-08-30",
-          "pages": "327-340",
-          "source": "on-disk PL 114 scan, full page width at 150 dpi with 400 dpi crops for every letter-level call; read by the session directly, not by fenced agents. CALIBRATION: p.327 prints 643/644, checked before the first read.",
-          "found": "14 [var:] all STAND, 0 revised, 0 false. 2 [cj:] WITHDRAWN as our own corruptions (0659A Ac->Ab, 0661D vetata->velata); 3 [cj:] and the 1 [d:] confirmed as Migne's own printing. 9 hidden defects recovered (data/tei-patches/8993.json): 2 NORMALIZED defects of Migne's that CC had silently tidied (0650A dia, 0670B ominibus), 1 defect of Migne's our text already carried (0669D serviendium, now owed its [sic:]), 4 CC corruptions (0665A padebat, 0667B sanctur, 0661D vetata, 0659A Ac), 2 CC line-break failures (0654A genuerunt -- which also restored an 'in' CC INSERTED -- and 0655D permanet)."
-        }
-      ],
-      "caveat": "OUR COPY CLIPS THE LEFT MARGIN on p.330 (cols 649/650) and p.340 (cols 669/670), losing ~10 characters at the start of the left column's lines. Neither clip touched a marker: the 0649D dittography was settled because 'sed non omnes audierunt' sits mid-line, and the 0670A/0669A markers are in the right column. ⛔ ONE ITEM IS UNSETTLED BECAUSE OF THE CLIP: 0661C 'quod non valet ad probationem ___' -- the word our file reads as 'nostram' falls in the clipped zone on p.336. It changes nothing in the English and needs the second witness ([SEE CORRECTION BELOW — NOT a PL 114 copy] copyB_patrologiaecurs114unkngoog.pdf) if anyone wants it closed. ALSO UNSETTLED, raised by this read and not by any agent: 0655D's lemma prints as 'Ilic autem' where our file reads 'Hic autem' -- an italic capital H whose crossbar may simply have dropped out at this scan's resolution. Recorded as observed, NOT patched and NOT marked: it is exactly the worn-sort-vs-real-defect ambiguity 9006's reader flagged as its least certain class."
-    },
-    "8981": {
-      "series": "pl",
-      "volume": 114,
-      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-      "page_map": "PDF page = (column + 11) / 2",
-      "reads": [
-        {
-          "from": "0519C",
-          "to": "0550D",
-          "depth": "read",
-          "date": "2026-08-30",
-          "pages": "266-268, 272, 274-280",
-          "source": "on-disk PL 114 scan, full page width at 300 dpi with 600 dpi crops for every letter-level call; read by the session directly, not by fenced agents (deliberately: briefing several readers on one suspicion produces convergence, not corroboration). CALIBRATION: p.266 prints 521/522, checked before the first read; the map held at every subsequent page.",
-          "found": "ALL 14 [var:] STAND, 0 revised, 0 false. Columns read: 0522, 0523, 0526, 0534, 0538, 0540, 0541, 0542, 0543, 0546, 0547, 0548, 0550, plus 0524 and 0533. THREE new [cj:] LICENSED by the read, none fireable blind (0524A voluerit->violaverit; 0542A honesti->inhonesti; 0541D Memora->membra) -- each had been correctly WITHHELD by a stint or a blind reader for want of the column. One blind reader's proposed [cj:] DECLINED at the plate (0546C 'min re': Migne prints 'minore' whole, so the defect is Corpus Corporum's and a conjecture would accuse Migne of a word he never set -- the 8993 withdrawn-[cj:] class, caught before shipping). One blind-reader plate request REFUTED (0538C: Migne prints 'deserentis', not the proposed 'disserentis'). Hidden defects recovered to data/tei-patches/8981.json.",
-          "caveat": "⚠ FOUR PAGES IN THIS RUN CLIP THE LEFT MARGIN -- p.274, p.276, p.278, p.280 -- each losing the left column's opening characters and its left-hand corner number (537, 541, 545, 549). This is NEW: the volume's clipping was previously recorded for p.265/p.281 (RIGHT) and p.290/p.330/p.340 (LEFT). Per-page, not per-volume, and now confirmed on both margins within one work. No marker depends on a clipped column; any future crux in one has NO second witness on disk. ⛔ THERE IS NO SECOND WITNESS FOR PL 114 ON DISK (established 2026-08-31). raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf is PL 202 (Peter of Blois, Epistolae) — verified by its running head 'EPISTOLAE. — LIB. II' and by data/volumes.json, which registers patrologiaecurs114unkngoog under PL 202. The '114' is the Internet Archive ITEM number, not the tome; the directory raw/scans/pl202/ was right and the copyB_ prefix was the error. PL 114's only registered archive scan is patrologiaecurs06saingoog, the copy we already read. Unfetched alternatives: Google Books s_wQAAAAYAAJ and 4vcUAAAAQAAJ, Gallica ark:/12148/bpt6k54939667. Until one is fetched, a marginal PL 114 crux is settled by MAGNIFICATION on the copy we have, or not at all. ✅ 0533 'rationē' RESOLVED 2026-08-31 at 1200 dpi on this same copy: a clean deliberate macron, centred, defined ends, macron height, same ink weight as the surrounding type. Migne sets 'rationem'. Patched and given a [cj:] reading 'ratione'. It had been held for a second witness that does not exist."
-        }
-      ]
-    },
-    "8996": {
-      "series": "pl",
-      "volume": 114,
-      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-      "page_map": "PDF page = (column + 11) / 2",
-      "reads": [
-        {
-          "from": "0469A",
-          "to": "0470D",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 240,
-          "source": "plate spot check at chunking, on-disk PL 114 scan, full page width; Actus->Romanos division falls mid-page",
-          "found": "ASTERISK-LAYER note at 0470B, recovered to data/plate-notes/8996.tsv, injected as [cn: *]. No numbered Forte conjectures. Licenses the [var:] fired at 0470A (Acts 13:2 Paulum/Saulum)."
-        },
-        {
-          "from": "0481A",
-          "to": "0494D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "pages": "246-252",
-          "source": "TWO WITNESSES: on-disk archive.org patrologiaecurs06saingoog (clips margins, ink-damaged on cols 481,484,487,488,492,493 in this range) AND Gallica ark:/12148/bpt6k54939667 f241-f247 (f = (column+1)/2, clean, calibrated against printed corner numbers f242=cols483/484). See src/english/8996/cruces-0005.md SS-P.",
-          "found": "Six candidate defects withdrawn as archive-copy ink damage (0482C x2, 0487C, 0488B, 0493A, 0493C -- the last, nolo/volo, would have inverted a clause). Two apparent Pattern 10 splits (0481C, 0485D) are Migne line breaks, not broken type. One confirmed on both witnesses: 0493B ab bonum operandum, Migne's own -- licenses the [cj:] there. Licenses the 3 [var:] fired at 0485C (Wisd 2:24), 0487B-C (Rom 5:20), 0491B (Exod 20:17). No foot-of-page apparatus seen on pp.246-252."
-        },
-        {
-          "from": "0519A",
-          "to": "0520B",
-          "depth": "read",
-          "date": "2026-08-29",
-          "page": 265,
-          "source": "plate spot check at chunking, on-disk PL 114 scan, full page width; this work interleaves with I Corinthians (8981) mid-page",
-          "found": "no foot-of-page apparatus of either layer"
-        },
-        {
-          "from": "0495A",
-          "to": "0495A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 253,
-          "source": "on-disk PL 114 scan, corners verified 495/496; candidate [sic: Ambuans] investigated",
-          "found": "Migne prints Ambulans whole and clean. CC dropped the l. WITHDRAWN, tei-patches/8996.json."
-        },
-        {
-          "from": "0497A",
-          "to": "0497D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 254,
-          "source": "on-disk PL 114 scan, corners verified 497/498; candidates [sic: revela] and [sic: meriritum] investigated",
-          "found": "0497B revela is Migne's OWN printing -- [sic:] licensed, stands. 0497D meriritum: Migne prints meritum whole and clean; CC dittographed. WITHDRAWN, tei-patches/8996.json."
-        },
-        {
-          "from": "0500C",
-          "to": "0500C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 255,
-          "source": "on-disk PL 114 scan, corners verified 499/500, 600dpi crop; candidate [sic: eligutur] investigated",
-          "found": "Migne prints eligitur whole and clean. CC substituted a vowel. WITHDRAWN, tei-patches/8996.json."
-        },
-        {
-          "from": "0504C",
-          "to": "0504D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 257,
-          "source": "on-disk PL 114 scan, corners verified 503/504; candidates [sic: lans] and [sic: qoud] investigated",
-          "found": "Both are Migne printed clean (laus, quod). CC dropped a letter / transposed letters respectively. Both WITHDRAWN, tei-patches/8996.json."
-        },
-        {
-          "from": "0512D",
-          "to": "0512D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 261,
-          "source": "on-disk PL 114 scan, corners verified 511/512; candidates [sic: nonlicet] and [sic: cor tempto] investigated",
-          "found": "Migne prints non licet as two words and contempto as one word -- inverse faults, both CC's. Both WITHDRAWN, tei-patches/8996.json."
-        },
-        {
-          "from": "0517C",
-          "to": "0517C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 264,
-          "source": "archive.org PL 114 scan CLIPS THE LEFT MARGIN at this exact word; second witness required: Gallica ark:/12148/bpt6k54939667 f259 (f=(column+1)/2, corners verified 517/518), clean",
-          "found": "Gallica prints dabant whole. Archive copy loses the ending to margin clipping (same class as pp.274/276/278/280 etc). WITHDRAWN, tei-patches/8996.json."
-        },
-        {
-          "from": "0471A",
-          "to": "0480D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "pages": "241-245",
-          "source": "on-disk PL 114 scan (patrologiaecurs06saingoog), corners verified 471/472 through 479/480; calibration batch for the [sic:]/[var:] backlog, covering the six still-owed candidates from chunks 0000-0004 (0472A, 0476A/0476C, 0478D, 0480A, 0480D)",
-          "found": "0472A confirmed Migne's own (not recommended for firing per cruces.md, unchanged). 0476A: the word *sulvat* is Migne's own misprint for *salvat* -- CONFIRMED, fired as [sic:] -- but its true column is 0475D, not 0476A as filed in cruces.md; the [0475D]/[0476A] TEI markers bracket it on the 0475D side. 0476C *Decem esse*->*Ducem esse*: CC's corruption, WITHDRAWN, tei-patches/8996.json. 0478D Acts 10:35: Migne genuinely prints *timet Deum* and drops *et operatur justitiam* -- CONFIRMED, fired as [var:]. 0480A *uod*->*quod*: CC's corruption, WITHDRAWN. 0480D *excludanturii*->*excludantur ii*: CC fused two words Migne printed separately -- the fusion WITHDRAWN as a digitization fault (tei-patches/8996.json), but the underlying wording (*excludantur ii* vs Vulgate *excludant eos*) is Migne's own and stands as a separate, unfired [var:] candidate (not verified against a Vulgate collation this pass)."
-        },
-        {
-          "from": "0504B",
-          "to": "0504B",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 257,
-          "source": "on-disk PL 114 scan, corners verified 503/504; calibration batch, John 15:3 candidate from chunks 0010-0014 not covered by the same-day earlier read (which covered 504C-D only)",
-          "found": "Migne prints *verbum quod* whole and clean, diverging from the Vulgate's *sermonem quem* -- CONFIRMED, fired as [var:]."
-        },
-        {
-          "from": "0509C",
-          "to": "0509C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 260,
-          "source": "on-disk PL 114 scan, corners verified 509/510; calibration batch, Rom 11:32 candidate from chunks 0015-0019",
-          "found": "Migne prints *in infideli* whole and clean, diverging from the Vulgate's *in incredulitate* -- CONFIRMED, fired as [var:]."
-        },
-        {
-          "from": "0511D",
-          "to": "0511D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 261,
-          "source": "on-disk PL 114 scan, corners verified 511/512; calibration batch, Luke 12:49 candidate from chunks 0015-0019",
-          "found": "Migne prints *nisi ardeat* whole and clean, diverging from the Vulgate's *nisi ut accendatur* -- CONFIRMED, fired as [var:]."
-        },
-        {
-          "from": "0515D",
-          "to": "0515D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": 263,
-          "source": "on-disk PL 114 scan, corners verified 515/516; calibration batch, Ezek 33:12 candidate from chunks 0015-0019",
-          "found": "Migne prints *non proficiet ei, si erraverit* whole and clean, diverging from the Vulgate's *non liberabit eum in quacumque die peccaverit* -- CONFIRMED, fired as [var:]."
-        }
-      ]
-    },
-    "8945": {
-      "series": "pl",
-      "volume": 113,
-      "scan": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness, IIIF)",
-      "page_map": "Gallica leaf f = (column + 1) / 2 -- NOT the on-disk archive.org map ((column + 11) / 2)",
-      "reads": [
-        {
-          "from": "0482A",
-          "to": "0482A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f241 (right col., head)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "cartalo confirmed as Migne's (attested variant of cartallo, no marker); plate carries a comma at 'de Aegypto, sic nos' that our TEI drops"
-        },
-        {
-          "from": "0482C",
-          "to": "0482C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f241 (right col.)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "'hoc legis implesse Tobiam' confirmed verbatim -- acc.+inf. with no governing verb is Migne's; no marker (Pattern 18 declined)"
-        },
-        {
-          "from": "0483D",
-          "to": "0484A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f242 (left col. foot + right col. head)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "trangres-/sione confirmed across the column break: Migne's own broken type. [sic: trangressione] licensed. No foot-of-page apparatus."
-        },
-        {
-          "from": "0484D",
-          "to": "0485A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f242 (right col.) + f243 (left col. head)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "lemma at Deut 28:14 is a non-word on the plate (aeclinaveris / aectinaveris; letter 4 unresolved at native res) -- [sic:] licensed. The doubled clause 'Carnalis vita polluta ex carnali immunditia' is Migne's, not CC's -- [d:] licensed."
-        },
-        {
-          "from": "0486A",
-          "to": "0486A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f243 (right col., head)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "statibilitatem confirmed as Migne's type. [sic:] licensed."
-        },
-        {
-          "from": "0488C",
-          "to": "0488C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f244 (right col.)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "'In fidelibus autem dicitur' confirmed as Migne's word-division defect for Infidelibus. [sic:] licensed."
-        },
-        {
-          "from": "0490D",
-          "to": "0491A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f245 (right col. foot) + f246 (left col. head)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "col 490 ends at a comma and col 491 opens 'terna flamma comburet' -- clean break, nothing lost by CC, so terna is Migne's. [cj: terna; read aeterna] licensed."
-        },
-        {
-          "from": "0491C",
-          "to": "0491D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f246 (left col.)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "Isa. I quotation printed 'principes Sodomorum Gomorrhae' (populus lost) -- [var:] licensed. 'obtulerunt' with no terminal stop and 'Mea est ultio, etc,' with a comma both confirmed as Migne's; preserved under Pattern 8."
-        },
-        {
-          "from": "0492B",
-          "to": "0492B",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f246 (right col.)",
-          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
-          "found": "MARKER REFUSED. Plate prints 'jurabo PER dexteram meam'; our TEI reads 'pre'. The defect is Corpus Corporum's, not Migne's -- no [sic:] fired, English renders 'per'. TEI patch owed. See src/english/8945/cruces-0015.md."
-        },
-        {
-          "from": "0445D",
-          "to": "0445D",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f223 (Praefatio, left col foot)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "Cant. 1:12 printed 'Fasciculus myrrhae delectus mihi', no 'meus'. [var:] licensed."
-        },
-        {
-          "from": "0452A",
-          "to": "0452A",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f226 (right col head)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "'gui' for 'qui' confirmed as Migne's own type, first word of the band. [sic:] licensed."
-        },
-        {
-          "from": "0454C",
-          "to": "0454C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f227 (right col)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "'Cabesbarne' confirmed as Migne's own printing, against 'Cadesbarne' in the head two lines above -- his own inconsistency. [sic:] licensed."
-        },
-        {
-          "from": "0471C",
-          "to": "0471C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f236 (left col)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "MARKER REFUSED. Plate prints 'conversans' clean; CC dropped the n. TEI patch applied, [sic: coversans] withdrawn."
-        },
-        {
-          "from": "0476C",
-          "to": "0476C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f238 (right col)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "MARKER REFUSED. Plate prints 'magnificant' (agreeing with plural 'dilatant'); CC produced 'magnificam'. TEI patch applied, [sic: magnificam] withdrawn."
-        },
-        {
-          "from": "0481A",
-          "to": "0481C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f241 (left col)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "MARKER REFUSED x3. Plate prints 'Calceati', 'pusillum', 'quoque' (one word) clean throughout. CC produced 'Catceati', 'pusillium', split 'quo que'. TEI patches applied, all three [sic:] withdrawn."
-        },
-        {
-          "from": "0496C",
-          "to": "0496C",
-          "depth": "read",
-          "date": "2026-08-31",
-          "page": "f248 (right col)",
-          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
-          "found": "MARKER REFUSED. Plate prints 'pii' (ara pii cordis) clean; CC produced 'pli'. TEI patch applied, [sic: pli] withdrawn."
         }
       ]
     },
@@ -2103,6 +1924,869 @@
           "pages": "280-281",
           "source": "on-disk archive.org Google scan raw/scans/pl196/patrologiaecurs104unkngoog.pdf, PDF page = (column + 41) / 2, calibrated against the printed corner numbers and the running head 'EXPLICATIO IN CANTICA CANTIC.' and re-checked at least four times inside each reader's own range",
           "found": "[sic:]/[var:] backlog plate read, reader 4 of 4. 20 candidates read. 8 CORRUPTED (0490D terestrem, 0491A nortorum, 0491B exerescere, 0495C acquisitio, 0499C egitur, 0510C 'nox a', 0519D comprenhendere, 0520C desirabilis), 12 CONFIRMED — including the [sic:] at 0492A *ipse* and 0506C *emoliescunt*, both Migne's own. No foot-of-page notes on any page read."
+        }
+      ]
+    },
+    "11613": {
+      "series": "pl",
+      "volume": 202,
+      "scan": "raw/scans/pl202/patrologiaecurs139unkngoog.pdf",
+      "page_map": "PDF page = 600 + (column - 1187) / 2",
+      "reads": [
+        {
+          "from": "1147A",
+          "to": "1147A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 580,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "Reverendissim → CONFIRMED"
+        },
+        {
+          "from": "1150A",
+          "to": "1150A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 581,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "implieetur → CONFIRMED"
+        },
+        {
+          "from": "1156B",
+          "to": "1156B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 584,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "eximiii → FALSE"
+        },
+        {
+          "from": "1161A",
+          "to": "1161A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 587,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "quitenebantur → FALSE"
+        },
+        {
+          "from": "1162A",
+          "to": "1162A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 587,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "proculdio → CONFIRMED"
+        },
+        {
+          "from": "1169D",
+          "to": "1169D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 591,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "carnem → CONFIRMED"
+        },
+        {
+          "from": "1172D",
+          "to": "1172D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 592,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "praecontis → CONFIRMED"
+        },
+        {
+          "from": "1176A",
+          "to": "1176A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "soquentes → FALSE"
+        },
+        {
+          "from": "1176B",
+          "to": "1176B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "invensionibus → CONFIRMED"
+        },
+        {
+          "from": "1176D",
+          "to": "1176D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 594,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "saliari → FALSE"
+        },
+        {
+          "from": "1179D",
+          "to": "1179D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 596,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "saptiam → FALSE"
+        },
+        {
+          "from": "1187C",
+          "to": "1187C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 600,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "justistitiae → CONFIRMED"
+        },
+        {
+          "from": "1192A",
+          "to": "1192A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 602,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "suum → CONFIRMED"
+        },
+        {
+          "from": "1195C",
+          "to": "1195C",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 604,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "eonsilium → CONFIRMED"
+        },
+        {
+          "from": "1208D",
+          "to": "1208D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 610,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "animi → FALSE"
+        },
+        {
+          "from": "1225A",
+          "to": "1225A",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 619,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "moi → CONFIRMED"
+        },
+        {
+          "from": "1243D",
+          "to": "1243D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 628,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "perfecto → CONFIRMED"
+        },
+        {
+          "from": "1285B",
+          "to": "1285B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 649,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "progeditur → CONFIRMED"
+        },
+        {
+          "from": "1300B",
+          "to": "1300B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 656,
+          "source": "on-disk PL 202 scan, full page width at 300 dpi (500 dpi where a letter was decisive); [sic:] plate sweep. Volume map re-calibrated against the printed corner numbers before the read (p.580 prints 1147/1148).",
+          "found": "marytrum → FALSE"
+        }
+      ]
+    },
+    "11638": {
+      "series": "pl",
+      "volume": 203,
+      "scan": "raw/scans/pl203/patrologiaecurs191unkngoog.pdf (primary) + raw/scans/pl203/patrologiaecur203mign.pdf (second witness, cols 515-518)",
+      "page_map": "PRIMARY, PIECEWISE and calibrated against the printed corner numbers at pp.104/250/259-263/271-276/305: PDF page = (column+27)/2 for cols <=494; (column+31)/2 for cols 495-514; (column+27)/2 for cols >=519. This scan photographs cols 491-494 TWICE (pp.259-260 and again pp.261-262) and is MISSING cols 515-518 (two leaves absent between pp.272 and 273) -- that duplication and that omission are what move the offset. SECOND WITNESS patrologiaecur203mign: PDF page = (column+25)/2, calibrated at pp.275/280/285/290; it supplied cols 515-518.",
+      "note": "2026-08-31. All 156 [sic:]/[var:] markers of 11638 read at the plate: 151 confirmed as Migne's own printing, 5 withdrawn as Corpus Corporum's corruption (data/tei-patches/11638.json). Entries below are HALF-COLUMN reads (bands A-B or C-D), not whole pages: each is one 300 dpi crop with the page's running head and corner numbers stacked above it and read first. Full account in src/english/11638/cruces.md §9.",
+      "reads": [
+        {
+          "from": "0490C",
+          "to": "0490D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 258,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0491C",
+          "to": "0491D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 259,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0494A",
+          "to": "0494D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 260,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0494D CONFIRMED: the plate ends the paragraph at *constit* exactly as our TEI does — the loss is Migne’s, not the digitization’s, so cruces.md §6 item 1 is answered and the [ed:] stands."
+        },
+        {
+          "from": "0495C",
+          "to": "0495D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 263,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0496A",
+          "to": "0496D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 263,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0497A",
+          "to": "0497D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 264,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0498A",
+          "to": "0498B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 264,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0498A CONFIRMED: Migne prints *Qui exaltat cor suum, mundus est coram Deo* — the polarity case of cruces.md §5, now plate-licensed."
+        },
+        {
+          "from": "0499A",
+          "to": "0499D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 265,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0500C",
+          "to": "0500D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 265,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "CORRUPTION FOUND: Migne prints *vincat*; CC read *vineat*. Marker withdrawn, TEI patched."
+        },
+        {
+          "from": "0501A",
+          "to": "0501D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 266,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0502A",
+          "to": "0502D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 266,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0504A",
+          "to": "0504D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 267,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0505A",
+          "to": "0505D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 268,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0507A",
+          "to": "0507B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 269,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0508A",
+          "to": "0508D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 269,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0509A",
+          "to": "0509D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 270,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0509B CONFIRMED: *duo filii olei splendoris* is Migne’s own, as it is at 0525C, 0532B and 0542B — the four-chunk finding of cruces.md §4 is plate-licensed."
+        },
+        {
+          "from": "0511A",
+          "to": "0511B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 271,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0512A",
+          "to": "0512D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 271,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0513C",
+          "to": "0513D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 272,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "CORRUPTION FOUND: Migne prints *ebur* (three further times in the same sentence). CC read *abur*. Marker withdrawn, TEI patched. Also on this page: a numbered foot-of-page note, \"(98) Athanas. in Symbolo.\""
+        },
+        {
+          "from": "0515A",
+          "to": "0515B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 270,
+          "source": "SECOND WITNESS archive.org patrologiaecur203mign.pdf — cols 515-518 are ABSENT from the primary scan (two leaves missing between its pp.272 and 273). PDF page = (column + 25) / 2, calibrated against the printed corner numbers at pp.275/280/285/290.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0516A",
+          "to": "0516D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 270,
+          "source": "SECOND WITNESS archive.org patrologiaecur203mign.pdf — cols 515-518 are ABSENT from the primary scan (two leaves missing between its pp.272 and 273). PDF page = (column + 25) / 2, calibrated against the printed corner numbers at pp.275/280/285/290.",
+          "found": "CORRUPTION FOUND: Migne prints *draco*; CC read *draeo*. Marker withdrawn, TEI patched. 0516C [var:] (Apoc. 12:15) confirmed."
+        },
+        {
+          "from": "0517A",
+          "to": "0517D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 271,
+          "source": "SECOND WITNESS archive.org patrologiaecur203mign.pdf — cols 515-518 are ABSENT from the primary scan (two leaves missing between its pp.272 and 273). PDF page = (column + 25) / 2, calibrated against the printed corner numbers at pp.275/280/285/290.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0518A",
+          "to": "0518B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 271,
+          "source": "SECOND WITNESS archive.org patrologiaecur203mign.pdf — cols 515-518 are ABSENT from the primary scan (two leaves missing between its pp.272 and 273). PDF page = (column + 25) / 2, calibrated against the printed corner numbers at pp.275/280/285/290.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0519C",
+          "to": "0519D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 273,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0520A",
+          "to": "0520B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 273,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0521A",
+          "to": "0521B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 274,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0522C",
+          "to": "0522D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 274,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0523C",
+          "to": "0523D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 275,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0523D confirmed; and the plate carries the welded clause of cruces.md §6 item 2 exactly as our text has it, so no [ed:] is owed there."
+        },
+        {
+          "from": "0525A",
+          "to": "0525D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 276,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0526A",
+          "to": "0526D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 276,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0527A",
+          "to": "0527D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 277,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "Both 0527C [var:] and 0527D confirmed. Also on this page: a numbered foot-of-page note, \"(99) Athanas. In Symbolo.\""
+        },
+        {
+          "from": "0529A",
+          "to": "0529B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 278,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0530A",
+          "to": "0530D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 278,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0530D confirmed; and *Oleos* at 0530C is Migne’s own spelling against *Eleos* at 0525D — cruces.md §6 item 3 answered, the pun stands."
+        },
+        {
+          "from": "0531A",
+          "to": "0531D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 279,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0532A",
+          "to": "0532D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 279,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0533C",
+          "to": "0533D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 280,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0534A",
+          "to": "0534D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 280,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "TWO CORRUPTIONS FOUND: Migne prints *quibus* (CC *cuibus*) and *Poterat* (CC *Potera*). Both markers withdrawn, TEI patched. The three [var:] on this column pair are confirmed as Migne’s own."
+        },
+        {
+          "from": "0535A",
+          "to": "0535B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 281,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0536A",
+          "to": "0536B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 281,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0537C",
+          "to": "0537D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 282,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0538C",
+          "to": "0538D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 282,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0539A",
+          "to": "0539B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 283,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0540A",
+          "to": "0540B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 283,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0541A",
+          "to": "0541B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 284,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0542A",
+          "to": "0542D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 284,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0543C",
+          "to": "0543D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 285,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0544C",
+          "to": "0544D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 285,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0545C",
+          "to": "0545D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 286,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0547C",
+          "to": "0547D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 287,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0548C",
+          "to": "0548D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 287,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0549A",
+          "to": "0549B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 288,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0552A",
+          "to": "0552B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 289,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0553A",
+          "to": "0553B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 290,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0556A",
+          "to": "0556B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 291,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0558A",
+          "to": "0558D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 292,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0559A",
+          "to": "0559D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 293,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0560C",
+          "to": "0560D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 293,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0562A",
+          "to": "0562D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 294,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0563A",
+          "to": "0563D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 295,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0564C",
+          "to": "0564D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 295,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0565C",
+          "to": "0565D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 296,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0566A",
+          "to": "0566D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 296,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0567A",
+          "to": "0567B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 297,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0568A",
+          "to": "0568B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 297,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0570C",
+          "to": "0570D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 298,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0571A",
+          "to": "0571B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 299,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0571B [sic: *neam*] CONFIRMED with an internal control: *vineam meam* prints correctly three lines below the defective *vineam neam*."
+        },
+        {
+          "from": "0573C",
+          "to": "0573D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 300,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0575A",
+          "to": "0575D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 301,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0576A",
+          "to": "0576D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 301,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0578C",
+          "to": "0578D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 302,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0579A",
+          "to": "0579D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 303,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0580A",
+          "to": "0580D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 303,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0581A",
+          "to": "0581D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 304,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0582A",
+          "to": "0582D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 304,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0584A",
+          "to": "0584D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 305,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
+          "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
         }
       ]
     }

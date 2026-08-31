@@ -1,0 +1,42 @@
+{
+  "note": "PLATE READ of 11638 (Philippus de Harveng, Moralitates in Cantica canticorum), 2026-08-31. Migne PL 203. PRIMARY WITNESS: raw/scans/pl203/patrologiaecurs191unkngoog.pdf, page map calibrated against the printed corner numbers (see data/plate-reads.json for the full piecewise map: this scan duplicates cols 491-494 and is MISSING cols 515-518). SECOND WITNESS for the missing leaves: raw/scans/pl203/patrologiaecur203mign.pdf, PDF page = (column + 25) / 2, calibrated at pp.275/280/285/290. All 156 [sic:]/[var:] markers owed under CLAUDE.md rule 8a were carried to the plate. RESULT: 151 CONFIRMED as Migne's own printing, 5 WITHDRAWN as Corpus Corporum's corruption and patched here.",
+  "class": "All five patches are CORRUPTED (Corpus Corporum substituted or dropped a letter Migne set correctly); none is NORMALIZED. Four of the five are single-letter substitutions of exactly the class the 8996/8945 passes measured (c->e twice, a->e, dropped final t, c->qu).",
+  "result": "5 CORRUPTED: 0500C vineat->vincat (c->e), 0513C abur->ebur (a<-e; the surrounding sentence prints 'ebur' three further times, an internal control), 0516B draeo->draco (c->e; read on the SECOND witness, this column being absent from the primary scan), 0534A cuibus->quibus (qu->cu), 0534C Potera->Poterat (dropped final t). Every other candidate is Migne's own and stays fired in the English.",
+  "patches": [
+    {
+      "col": "0500C",
+      "find": "laborare interior homo, ut vineat seipsum et mundum,",
+      "replace": "laborare interior homo, ut vincat seipsum et mundum,",
+      "direction": "corrupted",
+      "why": "Plate p.263 col 500C (corners verified 499/500) prints 'ut vincat seipsum et mundum' -- zoomed 3x, the letter is a c with no crossbar, against the e of 'interior' on the same line. CC substituted e for c. The English [sic: *vineat*] at chunk 0004 is WITHDRAWN; render 'that he may conquer himself and the world' with no marker."
+    },
+    {
+      "col": "0513C",
+      "find": "ipsum abur mittatur et ipsi panno lineo carbo vivus",
+      "replace": "ipsum ebur mittatur et ipsi panno lineo carbo vivus",
+      "direction": "corrupted",
+      "why": "Plate p.270 col 513C (corners verified 513/514) prints 'si pannus lineus super ipsum ebur mittatur' -- zoomed 4x, an unambiguous e. The same sentence prints 'ebur' three further times, which is the internal control. CC substituted a for e. The English [sic: *abur*] at chunk 0009 is WITHDRAWN; render 'the ivory' plainly. NOTE this reverses the reversal recorded in cruces.md sec.5: the draft's silent 'the ivory' was RIGHT about the word, and wrong only in leaving no record -- the plate now supplies the record."
+    },
+    {
+      "col": "0516B",
+      "find": "assignari debet: draeo quippe, ut ait beatus Augustinus,",
+      "replace": "assignari debet: draco quippe, ut ait beatus Augustinus,",
+      "direction": "corrupted",
+      "why": "Cols 515-518 are MISSING from the primary scan (two leaves absent between its pp.272 and 273). Read on the SECOND witness, archive.org patrologiaecur203mign p.270 (corners verified 515/516), zoomed 6x from the native page: 'draco quippe, ut ait beatus Augustinus' -- an open c, against the e of 'debet' and 'quippe' on the same line. CC substituted e for c. The English [sic: *draeo*] at chunk 0011 is WITHDRAWN; render 'the dragon' plainly."
+    },
+    {
+      "col": "0534A",
+      "find": "nostri sunt membra, cuibus nostra anima induitur,",
+      "replace": "nostri sunt membra, quibus nostra anima induitur,",
+      "direction": "corrupted",
+      "why": "Plate p.280 col 534A (corners verified 533/534) prints 'corporis nostri sunt membra, quibus nostra anima induitur' -- zoomed 4x, a clean qu. CC dropped the u and read the q as c. The English [sic: *cuibus*] at chunk 0017 is WITHDRAWN; render 'with which' with no marker."
+    },
+    {
+      "col": "0534C",
+      "find": "pervenire praescivit. Potera namque idem propheta",
+      "replace": "pervenire praescivit. Poterat namque idem propheta",
+      "direction": "corrupted",
+      "why": "Plate p.280 col 534C (corners verified 533/534) prints 'Poterat namque idem propheta purum vel purius oleum dicere' -- zoomed 4x, the final t is present and clear. CC dropped it. The English [sic: *Potera*] at chunk 0017 is WITHDRAWN; render 'He could' with no marker."
+    }
+  ]
+}
