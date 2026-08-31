@@ -1582,6 +1582,51 @@
           "page": 264,
           "source": "archive.org PL 114 scan CLIPS THE LEFT MARGIN at this exact word; second witness required: Gallica ark:/12148/bpt6k54939667 f259 (f=(column+1)/2, corners verified 517/518), clean",
           "found": "Gallica prints dabant whole. Archive copy loses the ending to margin clipping (same class as pp.274/276/278/280 etc). WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0471A",
+          "to": "0480D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "241-245",
+          "source": "on-disk PL 114 scan (patrologiaecurs06saingoog), corners verified 471/472 through 479/480; calibration batch for the [sic:]/[var:] backlog, covering the six still-owed candidates from chunks 0000-0004 (0472A, 0476A/0476C, 0478D, 0480A, 0480D)",
+          "found": "0472A confirmed Migne's own (not recommended for firing per cruces.md, unchanged). 0476A: the word *sulvat* is Migne's own misprint for *salvat* -- CONFIRMED, fired as [sic:] -- but its true column is 0475D, not 0476A as filed in cruces.md; the [0475D]/[0476A] TEI markers bracket it on the 0475D side. 0476C *Decem esse*->*Ducem esse*: CC's corruption, WITHDRAWN, tei-patches/8996.json. 0478D Acts 10:35: Migne genuinely prints *timet Deum* and drops *et operatur justitiam* -- CONFIRMED, fired as [var:]. 0480A *uod*->*quod*: CC's corruption, WITHDRAWN. 0480D *excludanturii*->*excludantur ii*: CC fused two words Migne printed separately -- the fusion WITHDRAWN as a digitization fault (tei-patches/8996.json), but the underlying wording (*excludantur ii* vs Vulgate *excludant eos*) is Migne's own and stands as a separate, unfired [var:] candidate (not verified against a Vulgate collation this pass)."
+        },
+        {
+          "from": "0504B",
+          "to": "0504B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 257,
+          "source": "on-disk PL 114 scan, corners verified 503/504; calibration batch, John 15:3 candidate from chunks 0010-0014 not covered by the same-day earlier read (which covered 504C-D only)",
+          "found": "Migne prints *verbum quod* whole and clean, diverging from the Vulgate's *sermonem quem* -- CONFIRMED, fired as [var:]."
+        },
+        {
+          "from": "0509C",
+          "to": "0509C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 260,
+          "source": "on-disk PL 114 scan, corners verified 509/510; calibration batch, Rom 11:32 candidate from chunks 0015-0019",
+          "found": "Migne prints *in infideli* whole and clean, diverging from the Vulgate's *in incredulitate* -- CONFIRMED, fired as [var:]."
+        },
+        {
+          "from": "0511D",
+          "to": "0511D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 261,
+          "source": "on-disk PL 114 scan, corners verified 511/512; calibration batch, Luke 12:49 candidate from chunks 0015-0019",
+          "found": "Migne prints *nisi ardeat* whole and clean, diverging from the Vulgate's *nisi ut accendatur* -- CONFIRMED, fired as [var:]."
+        },
+        {
+          "from": "0515D",
+          "to": "0515D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 263,
+          "source": "on-disk PL 114 scan, corners verified 515/516; calibration batch, Ezek 33:12 candidate from chunks 0015-0019",
+          "found": "Migne prints *non proficiet ei, si erraverit* whole and clean, diverging from the Vulgate's *non liberabit eum in quacumque die peccaverit* -- CONFIRMED, fired as [var:]."
         }
       ]
     },

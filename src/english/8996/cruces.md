@@ -143,7 +143,40 @@ resolved per the paragraph above and no longer stands as written.
 
 ---
 
-## §2a · Markers still owed on cols 0471–0480 (chunks 0000–0004) — NOT yet read
+## §2a · UPDATE 2026-08-31 (second pass, calibration batch) — all six remaining candidates read
+
+The six candidates this section used to log as owed (0476A/0476C on cols 0471–0480, plus the
+three `[var:]` candidates at 0509C/0511D/0515D and 0504B) were all read at the plate this same
+day, in a calibration batch for the corpus-wide `[sic:]`/`[var:]` backlog. Results:
+
+- **0476C *Decem esse*→*Ducem esse*** — Corpus Corporum's corruption (Migne prints *Ducem*
+  clean). WITHDRAWN; `tei-patches/8996.json`. This was flagged below as "the single most
+  misleading column in the whole work" — now resolved, and the English at VERSE 19 (chunk 0003)
+  renders "A guide" in place of the literal-lemma "To be ten."
+- **0480A *uod*→*quod*** and **0480D *excludanturii*→*excludantur ii*** — both Corpus Corporum's
+  corruption (dropped letter; two words fused). WITHDRAWN; `tei-patches/8996.json`. The
+  underlying wording of 0480D (*excludantur ii* vs. Vulgate *excludant eos*) is Migne's own and
+  remains a live, unfired `[var:]` candidate, separate from the fusion fault — not verified
+  against a Vulgate collation this pass.
+- **0476A *sulvat*** — CONFIRMED as Migne's own misprint (for *salvat*), fired as `[sic: *sulvat*]`
+  in the English. ⚠ **Column relabel:** despite the heading this candidate has always carried in
+  this file, the word does not sit in column 0476 at all — the TEI anchors read
+  `…refutavit. [0475D] …vel additamento propriae voluntatis. Judicabuntur. … sulvat? [0476A]
+  enim pro auditu…`, so *sulvat* sits at the tail of **0475D**, and 0476A begins with the
+  following sentence. `data/plate-reads.json` records the read under 0475D accordingly.
+- **0478D** (Acts 10:35) — CONFIRMED: Migne genuinely prints *timet Deum* and drops *et operatur
+  justitiam* against the Vulgate. Fired as `[var:]` in chunk 0004's English.
+- **0504B** (John 15:3), **0509C** (Rom 11:32), **0511D** (Luke 12:49), **0515D** (Ezek 33:12) —
+  all four CONFIRMED as Migne's own wording, diverging from the Vulgate as already suspected.
+  All four fired as `[var:]` in the English (chunks 0014, 0015, 0016, 0018).
+
+Net for this work across both passes: of 14 candidates carried to the plate, **10 were Corpus
+Corporum's corruption** (withdrawn) and **4 were confirmed Migne-side and already licensed** by
+the first pass, plus **6 more confirmed this second pass** (1 `[sic:]`, 5 `[var:]`) — for a
+combined 10 confirmed / 10 withdrawn. `node scripts/plate-gate.mjs 8996` is clean.
+
+The original owed-marker material is kept below for the record of what each candidate looked
+like before this read; none of it stands as written any longer.
 
 ### From chunks 0000–0004 (cols 0471–0480)
 
