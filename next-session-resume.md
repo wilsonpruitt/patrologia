@@ -1,5 +1,105 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-31d — THE `[sic:]`/`[var:]` BACKLOG, PL 196 · ✅ BOTH WORKS GATE-CLEAN · ⬜ NOT DEPLOYED
+
+**11535** *De eruditione hominis interioris* and **11550** *Explicatio in Cantica canticorum*, the
+two works Wilson named as carrying the backlog. Commits `1ce533e` and `6758b22`, **not pushed, not
+deployed** — the site still serves the old text, so a deploy is owed before anything on migne.app
+reflects this.
+
+### The numbers
+
+**240 markers carried to Migne's page. 54 of them — 22% — were accusing the wrong party.**
+
+| work | markers | confirmed | withdrawn | of which `[var:]` |
+|---|---|---|---|---|
+| 11535 | 154 | 126 | **28** | 1 |
+| 11550 | 86 | 60 | **26** | 0 |
+
+`plate-gate.mjs` now exits 0 on both; `verify-english.mjs` and `scan-raw-markers.mjs` clean.
+54 TEI patches written, both works re-chunked with **no chunk boundary moved** in either.
+
+### ⭐⭐ THE FINDING: THE MARKER CLASS PREDICTS WHOSE THE DEFECT IS
+
+**Of 77 `[sic:]` across the two works, 53 were Corpus Corporum's and 24 were Migne's. Of 92
+`[var:]`, exactly ONE was ours.** That asymmetry is mechanical, not luck: a `[sic:]` fires on a
+**word** that looks broken, which is precisely what an OCR letter-swap manufactures (c→e a dozen
+times, e→o, n→u, u→a, h→n, a dropped or doubled letter, a word split or fused at a line break); a
+`[var:]` fires on a **quoted clause**, whose divergence is too long and too semantic for OCR to
+invent. **Suspicion of a single word is suspicion of our file. Suspicion of a whole clause is
+evidence about Migne.** Worth promoting into `translation-style.md` as a prior for translators.
+
+### ⛔ AND THE COROLLARY: CORPUS-UNIQUENESS CANNOT ATTRIBUTE A DEFECT
+
+11550's `Fons nortorum` (0491A) is the worked example, and it had the strongest case in either
+work: dense internal corroboration *and* an exact corpus control — `nortorum` in **one file of
+5,276, this site**. **The plate prints `Fons hortorum`.** `cruces.md` §2 names corpus-grepping "the
+fleet's default" method for confirming a `[sic:]`; of the seven markers it lists as confirmed
+unique-to-this-site, the plate withdrew four. This is `reference_plate-read-triage`'s rule —
+frequency is decisive that an error EXISTS, never whose it is — with a number on it at last.
+
+⚑ **The mirror pair at 11550 @0451C settles it mechanically:** within eleven lines of one column,
+Corpus Corporum corrupts Migne's *eum* to *cum* **and** silently repairs Migne's own *cum* to *eum*.
+One page, one letter-pair, both directions. No frequency test can separate those.
+
+### ⭐ A SECOND WITNESS FOR PL 196 — use it, it costs one HTTP request
+
+Our Google scan `patrologiaecurs104unkngoog` clips **both** margins unpredictably (5–9 chars off the
+left column's line-starts, 3–6 off the right column's line-ends), and it defeated seven candidates
+outright. **archive.org `patrologiaecursu0196mign`** is a different copy with clean margins:
+
+    https://archive.org/download/patrologiaecursu0196mign/page/n<N>.jpg    # leaf n = (column + 43) / 2
+
+calibrated at n648 = cols 1253/1254, re-verified at n260/n262/n264/n665/n676. **It settled all
+seven**, and not all the same way — five CONFIRMED the marker, two WITHDREW it.
+(Main scan map, for comparison: **PDF page = (column + 41) / 2**.)
+
+### ⚠ AN AGENT SILENTLY DROPPED A MARKER — the arithmetic caught it, nothing else would have
+
+One of 240 (`11550 @0452A *hos a tendit*`) was dispatched with its batch and came back
+**unreported**. It surfaced only by reconciling the *surviving* marker count against the reports —
+15 `[sic:]` still standing, 14 accounted for — and then reading the page directly (it was ours).
+**Reader silence is not a verdict.** Any future fleet of this shape needs that reconciliation as a
+step, not as luck.
+
+### ⬜ OPEN FOR WILSON — one editorial call, nothing changed
+
+**11550 @0436C, the *canimus* / *caminus* `[cj:]`.** `cruces-0010.md` calls it "the clearest
+Pattern 18 site in the range", and its whole argument is that Migne's Isaiah proof text prints
+*caminus* nine words after Richard's *canimus*. **The plate prints *canimus* in both places**; our
+*caminus* is Corpus Corporum's own emendation toward the Vulgate. The `[cj:]`, the `[var:]` and the
+Latin are all **left exactly as they were** — re-deciding means choosing among three readings of a
+clause that construes under none, which is an editorial call, not a plate call.
+
+### Recorded, deliberately NOT acted on
+
+- **24 sites where Corpus Corporum silently normalises a genuine Migne misprint** (*sommo*, *capis*
+  for *lapis*, *sacrumentum*, *conscienta*, *menbra*, *veniemns*, *plenisssima*, *venter mens*, …).
+  Restoring each would put the defect back in the Latin and require a **new** `[sic:]` — a fresh
+  public claim per site. Listed in both `cruces.md` files. The one worth re-opening is 11535 @1357A,
+  where Migne's *obtrectationem* (acc. sg.) does not construe and our text has the easy genitive
+  plural: an unadjudicated Pattern 18 candidate nobody knew was there.
+- **11535 @1260A: the plate spells the king *Nabuchonosor***, without the *d*, then restores it when
+  it re-quotes at 1261A. The work keeps the name in Migne's Latin form *because it is glossed
+  etymologically*, so this wants a decision rather than a silent fix.
+- **Foot-of-page apparatus: a checked zero on both works** — 63 of 11535's 69 plate pages, 49 of
+  11550's 60, every reader inspecting full page width. Recorded in
+  `data/plate-notes/coverage.json` as coverage **`"spot"`** for both, deliberately not `"full"`,
+  since some pages were never rendered: it licenses shipping without `[cn:]` recovery and does not
+  license a claim that these works have no apparatus. It does clear the `⬜ PLATE SPOT CHECK OWED`
+  banner that `chunk-work.mjs` prints for them.
+
+### NEXT
+
+1. **Deploy** — `cd site && npx vercel --prod --archive=tgz`. Wilson's per-action OK required.
+   Both works' pages, and their cruces pages, currently serve the pre-read text and 54 markers
+   that have since been withdrawn.
+2. Push `master` (Wilson's per-action OK required).
+3. Consider promoting the marker-class prior above into `translation-style.md`, so translators
+   carry it before they fire a `[sic:]` rather than after.
+
+---
+
 ## ▶▶▶▶▶ SESSION 2026-08-31c — 8945 *LIBER DEUTERONOMII* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 Corpus **151 → 152**, `/glossa` **45 → 46 of 58**. Commits `787a66a` → `0e113ff`, **PUSHED**
