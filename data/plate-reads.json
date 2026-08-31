@@ -1495,6 +1495,95 @@
           "caveat": "⚠ FOUR PAGES IN THIS RUN CLIP THE LEFT MARGIN -- p.274, p.276, p.278, p.280 -- each losing the left column's opening characters and its left-hand corner number (537, 541, 545, 549). This is NEW: the volume's clipping was previously recorded for p.265/p.281 (RIGHT) and p.290/p.330/p.340 (LEFT). Per-page, not per-volume, and now confirmed on both margins within one work. No marker depends on a clipped column; any future crux in one has NO second witness on disk. ⛔ THERE IS NO SECOND WITNESS FOR PL 114 ON DISK (established 2026-08-31). raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf is PL 202 (Peter of Blois, Epistolae) — verified by its running head 'EPISTOLAE. — LIB. II' and by data/volumes.json, which registers patrologiaecurs114unkngoog under PL 202. The '114' is the Internet Archive ITEM number, not the tome; the directory raw/scans/pl202/ was right and the copyB_ prefix was the error. PL 114's only registered archive scan is patrologiaecurs06saingoog, the copy we already read. Unfetched alternatives: Google Books s_wQAAAAYAAJ and 4vcUAAAAQAAJ, Gallica ark:/12148/bpt6k54939667. Until one is fetched, a marginal PL 114 crux is settled by MAGNIFICATION on the copy we have, or not at all. ✅ 0533 'rationē' RESOLVED 2026-08-31 at 1200 dpi on this same copy: a clean deliberate macron, centred, defined ends, macron height, same ink weight as the surrounding type. Migne sets 'rationem'. Patched and given a [cj:] reading 'ratione'. It had been held for a second witness that does not exist."
         }
       ]
+    },
+    "8996": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "reads": [
+        {
+          "from": "0469A",
+          "to": "0470D",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 240,
+          "source": "plate spot check at chunking, on-disk PL 114 scan, full page width; Actus->Romanos division falls mid-page",
+          "found": "ASTERISK-LAYER note at 0470B, recovered to data/plate-notes/8996.tsv, injected as [cn: *]. No numbered Forte conjectures. Licenses the [var:] fired at 0470A (Acts 13:2 Paulum/Saulum)."
+        },
+        {
+          "from": "0481A",
+          "to": "0494D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "246-252",
+          "source": "TWO WITNESSES: on-disk archive.org patrologiaecurs06saingoog (clips margins, ink-damaged on cols 481,484,487,488,492,493 in this range) AND Gallica ark:/12148/bpt6k54939667 f241-f247 (f = (column+1)/2, clean, calibrated against printed corner numbers f242=cols483/484). See src/english/8996/cruces-0005.md SS-P.",
+          "found": "Six candidate defects withdrawn as archive-copy ink damage (0482C x2, 0487C, 0488B, 0493A, 0493C -- the last, nolo/volo, would have inverted a clause). Two apparent Pattern 10 splits (0481C, 0485D) are Migne line breaks, not broken type. One confirmed on both witnesses: 0493B ab bonum operandum, Migne's own -- licenses the [cj:] there. Licenses the 3 [var:] fired at 0485C (Wisd 2:24), 0487B-C (Rom 5:20), 0491B (Exod 20:17). No foot-of-page apparatus seen on pp.246-252."
+        },
+        {
+          "from": "0519A",
+          "to": "0520B",
+          "depth": "read",
+          "date": "2026-08-29",
+          "page": 265,
+          "source": "plate spot check at chunking, on-disk PL 114 scan, full page width; this work interleaves with I Corinthians (8981) mid-page",
+          "found": "no foot-of-page apparatus of either layer"
+        },
+        {
+          "from": "0495A",
+          "to": "0495A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 253,
+          "source": "on-disk PL 114 scan, corners verified 495/496; candidate [sic: Ambuans] investigated",
+          "found": "Migne prints Ambulans whole and clean. CC dropped the l. WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0497A",
+          "to": "0497D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 254,
+          "source": "on-disk PL 114 scan, corners verified 497/498; candidates [sic: revela] and [sic: meriritum] investigated",
+          "found": "0497B revela is Migne's OWN printing -- [sic:] licensed, stands. 0497D meriritum: Migne prints meritum whole and clean; CC dittographed. WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0500C",
+          "to": "0500C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 255,
+          "source": "on-disk PL 114 scan, corners verified 499/500, 600dpi crop; candidate [sic: eligutur] investigated",
+          "found": "Migne prints eligitur whole and clean. CC substituted a vowel. WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0504C",
+          "to": "0504D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 257,
+          "source": "on-disk PL 114 scan, corners verified 503/504; candidates [sic: lans] and [sic: qoud] investigated",
+          "found": "Both are Migne printed clean (laus, quod). CC dropped a letter / transposed letters respectively. Both WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0512D",
+          "to": "0512D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 261,
+          "source": "on-disk PL 114 scan, corners verified 511/512; candidates [sic: nonlicet] and [sic: cor tempto] investigated",
+          "found": "Migne prints non licet as two words and contempto as one word -- inverse faults, both CC's. Both WITHDRAWN, tei-patches/8996.json."
+        },
+        {
+          "from": "0517C",
+          "to": "0517C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 264,
+          "source": "archive.org PL 114 scan CLIPS THE LEFT MARGIN at this exact word; second witness required: Gallica ark:/12148/bpt6k54939667 f259 (f=(column+1)/2, corners verified 517/518), clean",
+          "found": "Gallica prints dabant whole. Archive copy loses the ending to margin clipping (same class as pp.274/276/278/280 etc). WITHDRAWN, tei-patches/8996.json."
+        }
+      ]
     }
   }
 }

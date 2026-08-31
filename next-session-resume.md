@@ -1,5 +1,74 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-31b — 8996 *EPISTOLA AD ROMANOS* · ✅ TRANSLATED · ✅ STAGED · ⬜ NOT DEPLOYED
+
+Corpus **150 → 151** (staged, not yet deployed), `/glossa` **44 → 45 of 58**. Four Opus agents
+translated chunks 0000–0019 in parallel (5 chunks each), `verify-english.mjs` clean, cruces
+merged into one file with two convention-drift fixes (see below). Not committed to git yet at
+time of writing this note draft — staging steps (verify, polarity gate, plate gate, cruces
+build, glossa index, `works.json` flip to `englishState: "ours"`) are ALL DONE and clean.
+**Deploy needs Wilson's per-action OK per the hard-stop ritual** — not yet asked/given as of
+this note.
+
+### ⭐⭐⭐ THE HEADLINE: 7 OF 8 OWED `[sic:]` CANDIDATES WERE CORPUS CORPORUM'S, NOT MIGNE'S
+
+Two translation stints (chunks 0010–0014, 0015–0019) logged 8 `[sic:]` candidates as owed
+pending a plate read (cols 495, 497×2, 500, 504×2, 512×2, 517). All eight were read at the plate
+this session (archive.org `patrologiaecurs06saingoog`, plus Gallica `ark:/12148/bpt6k54939667`
+for col 517, whose archive.org copy clips the left margin at exactly that word). **Only ONE —
+0497B *revela* — is Migne's own printing.** The other seven (*Ambuans*→*Ambulans*,
+*meriritum*→*meritum*, *eligutur*→*eligitur*, *lans*→*laus*, *qoud*→*quod*,
+*nonlicet*→*non licet*, *cor tempto*→*contempto*, *daban*→*dabant*) are Corpus Corporum's own
+corruption — dropped/doubled/transposed letters, one fused word-pair, one split word, one lost
+to scan clipping. All seven false `[sic:]` markers withdrawn from the English (the words render
+plainly now); `data/tei-patches/8996.json` carries the full record. **This is now the FOURTH
+work in this volume (after 8993, 8981, and the 9003 collation) where reading the plate creates
+or destroys markers rather than confirming them** — the corpus's older frequency-based estimate
+of the false-`[sic:]`-rate keeps being beaten by actually reading the page.
+
+### The polarity read found ONE real defect: a collapsed philosophical distinction
+
+Three blind Opus readers covered all 20 chunks (0000–0006 / 0007–0013 / 0014–0019), ~54,000
+words, no sampling. 7 polarity sites raised, 6 already known or low-confidence Migne-side
+observations left unmarked; **1 was ours**: col 0510A/B, Augustine's *De natura boni* 27 turns
+on *de ipso* (of God's own substance) vs *ex ipso* (from/out of God), and our English had
+rendered both "of him," producing "Not all things are of him" flatly contradicting the next
+sentence's "all things are of God." Fixed to "Not all things are of his own substance." Also
+caught and fixed: an apparatus mislabel in `cruces-0005.md` that filed a finding under col
+0484A when it actually sits at 0481C–D (found by the chunk-0000–0006 reader, who diffed against
+the cruces file only after forming findings — the discipline worked as designed).
+
+### Convention-drift fix at merge: `usque ad`
+
+Chunks 0000–0004 (first stint) had independently fixed `usque ad` → "down to"; the other three
+stints used "as far as," citing sibling-work precedent. Checked against 8976: 73 sites "as far
+as," 1 "down to." **"As far as" is the corpus convention** — 17 sites in 0001–0003.md corrected.
+
+### Two low-confidence Migne-side observations, left unmarked, worth a future plate read
+
+**0492B** *Et justum, id est justificans peccatorem* — "justifying" sits oddly against this same
+chapter's own *non justificare* (0490A); possibly *judicans* for *justificans*. **0496B**
+*Filius Israel non dicitur irae* — nominative singular against the parallel clause's dative
+plural pattern; almost certainly *Filiis Israel*. Neither repaired; neither marked without the
+plate.
+
+## ▶ OPEN — FOR WILSON
+1. ⬜ **Deploy 8996** — staging is complete and clean (see above). Needs the per-action OK, then
+   the full deploy checklist (RECENT list, all the generated-page rebuilds, `vercel --prod`,
+   smoke test the work URL AND the cruces URL, per `translation-runbook.md` step 8).
+2. ⬜ Still owed on this work: cols 0471–0480 unread (6 candidates including the misleading
+   0476C *Decem*/*Ducem* lemma), col 0504B (`[var:]` candidate, John 15:3), cols 0509/511/515
+   (3 more `[var:]` candidates from the chunks 0015–0019 stint) — none of these block shipping
+   (they're logged as owed, not fired), but are the next plate-read target in this work if a
+   future session wants to close them.
+3. Carried from prior sessions, unchanged: the `[sic:]` backlog (381 pages), the `[var:]` half,
+   8988 `0636A` *aurursus*, 8976 vs Pattern 7, `chunk-work.mjs` over-claiming coverage, 8986's
+   `Baruch III @ 0561A` unparsed citation, PL 114 second witness still not fetched beyond the
+   two Gallica IDs now in use.
+
+## ▶ NEXT — Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, Psalms 90K (per the
+prior note's queue, unchanged by this session).
+
 ## ▶▶▶▶▶ SESSION 2026-08-31 — 8981 *EPISTOLA I AD CORINTHIOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 Corpus **149 → 150**, `/glossa` **43 → 44 of 58**. Commits `8213923` → `79f8fd8`, **PUSHED**

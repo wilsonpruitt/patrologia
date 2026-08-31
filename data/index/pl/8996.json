@@ -1,0 +1,1053 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3973,
+  "textIdno": 8996,
+  "title": "Epistola ad Romanos",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "469a",
+  "colLast": "520b",
+  "counts": {
+    "scripture": 48,
+    "fontes": 122,
+    "heads": 17,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Acts.13",
+      "refDisplay": "Act. XIII",
+      "column": "470a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Mark.16",
+      "refDisplay": "Marc. XVI",
+      "column": "472c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Gen.4",
+      "refDisplay": "Gen. IV",
+      "column": "475a",
+      "chunk": 3
+    },
+    {
+      "refKey": "Acts.10",
+      "refDisplay": "Act. X",
+      "column": "478d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Jer.38",
+      "refDisplay": "Jer. XXXVIII",
+      "column": "479a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.23",
+      "refDisplay": "Matth. XXIII",
+      "column": "479a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Matt.23",
+      "refDisplay": "Ibid. XVI",
+      "antecedent": "Matth. XXIII",
+      "antecedentColumn": "479a",
+      "ibidResolved": true,
+      "column": "479a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.1",
+      "refDisplay": "Isa. I",
+      "column": "479a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Luke.24",
+      "refDisplay": "Luc. XXIV; Joan. X; Psal. LXXXI",
+      "column": "479b",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.10",
+      "refDisplay": "Luc. XXIV; Joan. X; Psal. LXXXI",
+      "column": "479b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.81",
+      "refDisplay": "Luc. XXIV; Joan. X; Psal. LXXXI",
+      "column": "479b",
+      "chunk": 4
+    },
+    {
+      "refKey": "John.15",
+      "refDisplay": "Joan. XV; Psal. XXXIV",
+      "column": "479b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.34",
+      "refDisplay": "Joan. XV; Psal. XXXIV",
+      "column": "479b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Gen.39",
+      "refDisplay": "Gen. XXXIX",
+      "column": "480a",
+      "chunk": 4
+    },
+    {
+      "refKey": "Ps.67",
+      "refDisplay": "Psal. LXVII",
+      "column": "480d",
+      "chunk": 4
+    },
+    {
+      "refKey": "Jas.2",
+      "refDisplay": "Jac. II",
+      "column": "481b",
+      "chunk": 5
+    },
+    {
+      "refKey": "1Cor.13",
+      "refDisplay": "I Cor. XIII",
+      "column": "481b",
+      "chunk": 5
+    },
+    {
+      "refKey": "Sir.5",
+      "refDisplay": "Eccli. V",
+      "column": "484b",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.8",
+      "refDisplay": "Joan. VIII",
+      "column": "489d",
+      "chunk": 8
+    },
+    {
+      "refKey": "Exod.20",
+      "refDisplay": "Exod. XX",
+      "column": "491b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Mal.1",
+      "refDisplay": "Malach. I",
+      "column": "496b",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "497a",
+      "chunk": 11
+    },
+    {
+      "refKey": "Ps.15",
+      "refDisplay": "Psal. XV",
+      "column": "497a",
+      "chunk": 11
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "498c",
+      "chunk": 12
+    },
+    {
+      "refKey": "Isa.44",
+      "refDisplay": "Isa. XLIV",
+      "column": "498d",
+      "chunk": 12
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "499a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Prov.30",
+      "refDisplay": "Prov. XXX",
+      "column": "499c",
+      "chunk": 12
+    },
+    {
+      "refKey": "1Tim.2",
+      "refDisplay": "I Tim. II",
+      "column": "500a",
+      "chunk": 13
+    },
+    {
+      "refKey": "John.4",
+      "refDisplay": "Joan. IV",
+      "column": "503d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Acts.3",
+      "refDisplay": "Act. III",
+      "column": "503d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Acts.1",
+      "refDisplay": "Act. I",
+      "column": "505c",
+      "chunk": 14
+    },
+    {
+      "refKey": "Mal.4",
+      "refDisplay": "Mal. IV",
+      "column": "508d",
+      "chunk": 15
+    },
+    {
+      "refKey": "Mark.20",
+      "refDisplay": "Marc. XX",
+      "column": "509a",
+      "chunk": 15
+    },
+    {
+      "refKey": "1John.2",
+      "refDisplay": "I Joan. II",
+      "column": "509b",
+      "chunk": 15
+    },
+    {
+      "refKey": "Ps.30",
+      "refDisplay": "Psal. XXX.",
+      "column": "509c",
+      "chunk": 15
+    },
+    {
+      "refKey": "1Cor.10",
+      "refDisplay": "I Cor. X",
+      "column": "510d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Jas.2",
+      "refDisplay": "Jac. II",
+      "column": "511b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Luke.12",
+      "refDisplay": "Luc. XII.",
+      "column": "511d",
+      "chunk": 16
+    },
+    {
+      "refKey": "Prov.25",
+      "refDisplay": "Prov. XXV",
+      "column": "512b",
+      "chunk": 16
+    },
+    {
+      "refKey": "Job.36",
+      "refDisplay": "Job. XXXVI",
+      "column": "512c",
+      "chunk": 17
+    },
+    {
+      "refKey": "Luke.6",
+      "refDisplay": "Luc. VI",
+      "column": "515c",
+      "chunk": 18
+    },
+    {
+      "refKey": "Ezek.33",
+      "refDisplay": "Ezech. XXXIII",
+      "column": "515d",
+      "chunk": 18
+    },
+    {
+      "refKey": "Matt.15",
+      "refDisplay": "Matth. XV",
+      "column": "516d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Gen.22",
+      "refDisplay": "Gen. XXII",
+      "column": "516d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Ps.131",
+      "refDisplay": "Psalm. CXXXI",
+      "column": "516d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Num.24",
+      "refDisplay": "Num. XXIV",
+      "column": "516d",
+      "chunk": 19
+    },
+    {
+      "refKey": "John.14",
+      "refDisplay": "Joan. XIV",
+      "column": "517d",
+      "chunk": 19
+    },
+    {
+      "refKey": "Matt.28",
+      "refDisplay": "Matth. XXVIII",
+      "column": "517d",
+      "chunk": 19
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "BED.",
+      "column": "469b",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG. lib. de Spiritu et litt., c. 7",
+      "column": "469b",
+      "chunk": 1
+    },
+    {
+      "raw": "AMB.",
+      "column": "469b",
+      "chunk": 1
+    },
+    {
+      "raw": "HIER. Com. in Ep. ad Philem.",
+      "column": "469c",
+      "chunk": 1
+    },
+    {
+      "raw": "Luc.XIV",
+      "column": "469c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "469c",
+      "chunk": 1
+    },
+    {
+      "raw": "HAYM.",
+      "column": "470a",
+      "chunk": 1
+    },
+    {
+      "raw": "ID. Expos. in hanc epist.",
+      "antecedent": "HAYM.",
+      "antecedentColumn": "470a",
+      "ibidResolved": true,
+      "column": "470b",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., Tract. 105 in Joan.",
+      "column": "470c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., lib. I de Praedest. sanct., c. 15.",
+      "column": "470c",
+      "chunk": 1
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "470d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., lib. de Ovibus.",
+      "column": "471a",
+      "chunk": 1
+    },
+    {
+      "raw": "AMBR.",
+      "column": "471b",
+      "chunk": 1
+    },
+    {
+      "raw": "AMBR.",
+      "column": "471d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "471d",
+      "chunk": 1
+    },
+    {
+      "raw": "AMBR.",
+      "column": "471d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "471d",
+      "chunk": 1
+    },
+    {
+      "raw": "cap. II",
+      "column": "471d",
+      "chunk": 1
+    },
+    {
+      "raw": "GREG., lib. X Moral., c. 4.",
+      "column": "472b",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "472b",
+      "chunk": 1
+    },
+    {
+      "raw": "GREG., lib. XXIX Moral., c. 8.",
+      "column": "472c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., Serm. LV de Verb. Dom.",
+      "column": "472c",
+      "chunk": 1
+    },
+    {
+      "raw": "AMBR.",
+      "column": "472c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., epist. CXIX, c. 6, ad Januarium.",
+      "column": "472d",
+      "chunk": 1
+    },
+    {
+      "raw": "AMBR.",
+      "column": "473a",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., lib. VII de Civit. Dei, c. 33.",
+      "column": "473a",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG., lib. de Grat. et libero arbit., c. 21.",
+      "column": "473a",
+      "chunk": 1
+    },
+    {
+      "raw": "GREG., Homil. 11 in Ezech.",
+      "column": "473b",
+      "chunk": 1
+    },
+    {
+      "raw": "AMBR.",
+      "column": "473c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "473c",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG., lib. III cont. Jul. Pelag., c. 20.",
+      "column": "473d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "473d",
+      "chunk": 2
+    },
+    {
+      "raw": "THEOD.",
+      "column": "474c",
+      "chunk": 3
+    },
+    {
+      "raw": "AMBR.",
+      "column": "474d",
+      "chunk": 3
+    },
+    {
+      "raw": "CYPR.",
+      "column": "475a",
+      "chunk": 3
+    },
+    {
+      "raw": "GREG.",
+      "column": "475b",
+      "chunk": 3
+    },
+    {
+      "raw": "AMBR.",
+      "column": "475b",
+      "chunk": 3
+    },
+    {
+      "raw": "AMBR.",
+      "column": "475c",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "475c",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "475c",
+      "ibidResolved": true,
+      "column": "475c",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG., lib. de Spir. et lit., c. 26.",
+      "column": "476a",
+      "chunk": 3
+    },
+    {
+      "raw": "ORIG.",
+      "column": "477a",
+      "chunk": 3
+    },
+    {
+      "raw": "ORIG.",
+      "column": "477b",
+      "chunk": 3
+    },
+    {
+      "raw": "AMBR.",
+      "column": "477b",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "477b",
+      "chunk": 3
+    },
+    {
+      "raw": "AMBR.",
+      "column": "477d",
+      "chunk": 4
+    },
+    {
+      "raw": "ORIG.",
+      "column": "477d",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG., Ench., c. 107",
+      "column": "481b",
+      "chunk": 5
+    },
+    {
+      "raw": "AUG.",
+      "column": "482a",
+      "chunk": 6
+    },
+    {
+      "raw": "AUG.",
+      "column": "482c",
+      "chunk": 6
+    },
+    {
+      "raw": "ORIG.",
+      "column": "483b",
+      "chunk": 6
+    },
+    {
+      "raw": "AMBR.",
+      "column": "486c",
+      "chunk": 7
+    },
+    {
+      "raw": "AMBR.",
+      "column": "487a",
+      "chunk": 7
+    },
+    {
+      "raw": "AUG.",
+      "column": "488c",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "489b",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "489d",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "490a",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "490c",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "491a",
+      "chunk": 9
+    },
+    {
+      "raw": "THEOD.",
+      "column": "491a",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "491b",
+      "chunk": 9
+    },
+    {
+      "raw": "AMBR.",
+      "column": "491c",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "491c",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "492a",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "493b",
+      "chunk": 9
+    },
+    {
+      "raw": "AUG.",
+      "column": "493c",
+      "chunk": 9
+    },
+    {
+      "raw": "AMB.",
+      "column": "493d",
+      "chunk": 10
+    },
+    {
+      "raw": "AUG.",
+      "column": "494a",
+      "chunk": 10
+    },
+    {
+      "raw": "AUG.",
+      "column": "494c",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "494d",
+      "chunk": 11
+    },
+    {
+      "raw": "ORIG.",
+      "column": "495a",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "495c",
+      "chunk": 11
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "495c",
+      "ibidResolved": true,
+      "column": "495d",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG., lib. de Correp. et Grat., c. 2.",
+      "column": "496a",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "497a",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "497b",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "497b",
+      "chunk": 11
+    },
+    {
+      "raw": "AMBR.",
+      "column": "497b",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "497c",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "497c",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG., in expos. propos. in 53. in epist. ad Rom.",
+      "column": "497c",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "497d",
+      "chunk": 11
+    },
+    {
+      "raw": "AMBR.",
+      "column": "498a",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "498d",
+      "chunk": 12
+    },
+    {
+      "raw": "CYPR.",
+      "column": "499b",
+      "chunk": 12
+    },
+    {
+      "raw": "AMBR.",
+      "column": "499d",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG.",
+      "column": "500a",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG.",
+      "column": "500d",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG.",
+      "column": "501c",
+      "chunk": 13
+    },
+    {
+      "raw": "AMBR.",
+      "column": "501c",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG., epist. CV.",
+      "column": "501d",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG., lib. I, ad Simplicianum, quaest. II.",
+      "column": "502b",
+      "chunk": 13
+    },
+    {
+      "raw": "cap. VIII",
+      "column": "503b",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG.",
+      "column": "503c",
+      "chunk": 14
+    },
+    {
+      "raw": "AMBR.",
+      "column": "503d",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG., Tract. 80, in Joannem.",
+      "column": "504b",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG.",
+      "column": "504c",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG., in Psal. XXX, concione III.",
+      "column": "504c",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG.",
+      "column": "505a",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG., epist. 80, quae est ad Hesych.",
+      "column": "505c",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG.",
+      "column": "506a",
+      "chunk": 15
+    },
+    {
+      "raw": "AUG.",
+      "column": "507b",
+      "chunk": 15
+    },
+    {
+      "raw": "ANSELM.",
+      "column": "507d",
+      "chunk": 15
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "507d",
+      "chunk": 15
+    },
+    {
+      "raw": "ANSELM.",
+      "column": "508a",
+      "chunk": 15
+    },
+    {
+      "raw": "ANSELM.",
+      "column": "508b",
+      "chunk": 15
+    },
+    {
+      "raw": "AUG.",
+      "column": "508d",
+      "chunk": 15
+    },
+    {
+      "raw": "AUG.",
+      "column": "509a",
+      "chunk": 15
+    },
+    {
+      "raw": "Aug., lib. de Praedest. sanc., c. 16.",
+      "column": "509b",
+      "chunk": 15
+    },
+    {
+      "raw": "AUG., lib. de Spirit, et lit., c. 36 in fine.",
+      "column": "509d",
+      "chunk": 16
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG., lib. de Spirit, et lit., c. 36 in fine.",
+      "antecedentColumn": "509d",
+      "ibidResolved": true,
+      "column": "509d",
+      "chunk": 16
+    },
+    {
+      "raw": "AUG.",
+      "column": "510a",
+      "chunk": 16
+    },
+    {
+      "raw": "AUG., lib. de Natura boni, cap. 27, Ex ipso.",
+      "column": "510a",
+      "chunk": 16
+    },
+    {
+      "raw": "AUG., lib. X, de Civit., cap. 6.",
+      "column": "510c",
+      "chunk": 16
+    },
+    {
+      "raw": "AUG.",
+      "column": "511a",
+      "chunk": 16
+    },
+    {
+      "raw": "THEOD.",
+      "column": "511c",
+      "chunk": 16
+    },
+    {
+      "raw": "AUG. Expositio prop. 720 ex epist. ad Rom.",
+      "column": "512b",
+      "chunk": 17
+    },
+    {
+      "raw": "GREG.",
+      "column": "512c",
+      "chunk": 17
+    },
+    {
+      "raw": "AUG.",
+      "column": "512d",
+      "chunk": 17
+    },
+    {
+      "raw": "AUG.",
+      "column": "514b",
+      "chunk": 17
+    },
+    {
+      "raw": "AUG., lib. II de Ser. Dom. in monte.",
+      "column": "514d",
+      "chunk": 18
+    },
+    {
+      "raw": "AUG.",
+      "column": "520a",
+      "chunk": 19
+    }
+  ],
+  "heads": [
+    {
+      "la": "ARGUMENTUM.",
+      "column": "469a",
+      "chunk": 0,
+      "en": "ARGUMENT."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "469b",
+      "chunk": 1,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "474b",
+      "chunk": 3,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "477b",
+      "chunk": 4,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "481c",
+      "chunk": 6,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "484a",
+      "chunk": 7,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "487b",
+      "chunk": 8,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "490a",
+      "chunk": 9,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "494b",
+      "chunk": 11,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "499d",
+      "chunk": 13,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "503d",
+      "chunk": 14,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "506a",
+      "chunk": 15,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "510b",
+      "chunk": 16,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "512b",
+      "chunk": 17,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "514b",
+      "chunk": 18,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "516c",
+      "chunk": 19,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "517d",
+      "chunk": 19,
+      "en": "CHAPTER XVI."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": [
+    {
+      "raw": "(AUG.)",
+      "column": "470b",
+      "chunk": 1
+    }
+  ]
+}

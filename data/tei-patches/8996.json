@@ -1,0 +1,63 @@
+{
+  "note": "PLATE READ of 8996 (Glossa ordinaria, Epistola ad Romanos), 2026-08-31. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before every read. Eight [sic:] candidates from the chunks 0010-0014 and 0015-0019 stints were carried to the plate this session (cols 495, 497x2, 500, 504x2, 512x2, 517). RESULT: 7 WITHDRAWN as Corpus Corporum's own corruption (Migne prints the word or phrase whole and correct), 1 CONFIRMED as Migne's own printing (0497B revela, left as [sic:] in the English, now plate-licensed). Col 517 required the second witness -- the on-disk archive.org scan clips the left margin at exactly this word, losing 'bant'; Gallica ark:/12148/bpt6k54939667 f259 (f = (column+1)/2, calibrated against printed corners 517/518) is clean and prints 'dabant' whole.",
+  "class": "All seven patches here are CORRUPTED (Corpus Corporum broke, fused, or dittographed a word Migne set correctly); none is NORMALIZED (a plate defect CC silently tidied). The eighth candidate, 0497B revela, is NOT a patch -- the plate confirms our transcription is already correct, i.e. Migne himself prints 'revela', so the [sic:] in the English stands as a genuine plate defect, not a digitization fault.",
+  "result": "7 CORRUPTED: 0495A Ambuans->Ambulans (dropped letter), 0497D meriritum->meritum (dittographic syllable), 0500C eligutur->eligitur (vowel substitution), 0504C lans->laus (dropped letter, confirmed by the plate printing 'laus' at BOTH occurrences on the same line, not just the internal-control second one the translator had already used to suspect the fault),0504D qoud->quod (transposed letters), 0512D nonlicet->non licet (two words fused into one by CC, not a broken sort), 0512D cor tempto->contempto (one word split into two by CC, the exact inverse fault). 0517C daban->dabant is CORRUPTED but by MARGIN CLIPPING in the archive.org copy specifically, not by CC's transcription of that copy -- confirmed on the clean Gallica witness. Not patched: 0497B revela, which is Migne's own printing and stays a [sic:] in the English (no TEI change; our transcription already matches the plate).",
+  "patches": [
+    {
+      "col": "0495A",
+      "find": "Ambuans\nsecundum carnem non est justus",
+      "replace": "Ambulans\nsecundum carnem non est justus",
+      "direction": "corrupted",
+      "why": "Plate p.253 col 495A (archive.org patrologiaecurs06saingoog, corners verified 495/496) prints 'Ambulans secundum carnem non est justus, quia nec qui est secundum eam' whole and clean. CC dropped the 'l'. The English [sic: *Ambuans*] at chunk 0011 is WITHDRAWN; render as 'He that walketh according to the flesh is not just' with no marker."
+    },
+    {
+      "col": "0497D",
+      "find": "Ideo dicit ut majus meriritum\nspei videatur",
+      "replace": "Ideo dicit ut majus meritum\nspei videatur",
+      "direction": "corrupted",
+      "why": "Plate p.254 col 497D (corners verified 497/498) prints 'Ideo dicit ut majus meritum spei videatur et ideo debeat salvare' -- no dittography. CC doubled the syllable. The English [sic: *meriritum*] at chunk 0011 is WITHDRAWN; render as 'that the merit of hope might seem the greater' with no marker."
+    },
+    {
+      "col": "0500C",
+      "find": "nullum meritum suum vel parentum aliquis eligutur,",
+      "replace": "nullum meritum suum vel parentum aliquis eligitur,",
+      "direction": "corrupted",
+      "why": "Plate p.255 col 500C (corners verified 499/500), confirmed at 600 dpi crop: 'ostendit quod propter nullum meritum suum vel parentum aliquis eligitur, gratia.' Clean, correct form. CC substituted 'u' for 'i'. The English [sic: *eligutur*] at chunk 0013 is WITHDRAWN; render as 'someone is chosen' with no marker."
+    },
+    {
+      "col": "0504C",
+      "find": "</hi> Ecce lans\nfidei et merces.",
+      "replace": "</hi> Ecce laus\nfidei et merces.",
+      "direction": "corrupted",
+      "why": "Plate p.257 col 504C (corners verified 503/504) prints 'Ecce laus fidei et merces. Laus fidei est, si credideris...' -- BOTH occurrences read 'laus', not just the internal-control second one the translator already used to suspect the fault. CC dropped the 'u'. The English [sic: *lans*] at chunk 0014 is WITHDRAWN; render as 'Behold the praise of faith and its reward' with no marker."
+    },
+    {
+      "col": "0504D",
+      "find": "Probato,\nqoud de utroque assumitur populo",
+      "replace": "Probato,\nquod de utroque assumitur populo",
+      "direction": "corrupted",
+      "why": "Plate p.257 col 504D (corners verified 503/504) prints 'Probato, quod de utroque assumitur populo, ostendit per quid...' Clean. CC transposed the letters. The English [sic: *qoud*] at chunk 0014 is WITHDRAWN; render as 'proved, that it is taken up from both peoples' with no marker."
+    },
+    {
+      "col": "0512D",
+      "find": "Quid si jubeat\nquod nonlicet?",
+      "replace": "Quid si jubeat\nquod non licet?",
+      "direction": "corrupted",
+      "why": "Plate p.261 col 512D (corners verified 511/512) prints 'Quid si jubeat quod non licet?' as two separate words, clean spacing. CC fused them. The English [sic: *nonlicet*] at chunk 0017 is WITHDRAWN; render as 'What if he command what is not lawful?' with no marker."
+    },
+    {
+      "col": "0512D",
+      "find": "et aliud Deus jubeat, cor tempto illo obtemperandum",
+      "replace": "et aliud Deus jubeat, contempto illo obtemperandum",
+      "direction": "corrupted",
+      "why": "Plate p.261 col 512D (same page as above) prints 'et aliud Deus jubeat, contempto illo obtemperandum est Deo' as ONE word, clean -- the inverse fault to nonlicet on the same page. CC split it. The English [sic: *cor tempto*] at chunk 0017 is WITHDRAWN; render as 'that one being despised, God is to be obeyed' with no marker."
+    },
+    {
+      "col": "0517C",
+      "find": "curantes, exemplum bonae conversationis daban\nfidelibus.",
+      "replace": "curantes, exemplum bonae conversationis dabant\nfidelibus.",
+      "direction": "corrupted",
+      "why": "The on-disk archive.org copy (patrologiaecurs06saingoog, p.264) CLIPS THE LEFT MARGIN exactly at this word -- 'daban' with the line's ending truncated, part of the same per-page clipping pattern already on record for this volume (pp.274/276/278/280 etc). Second witness required: Gallica ark:/12148/bpt6k54939667 f259 (f=(column+1)/2, corners verified 517/518), which is clean and prints 'exemplum bonae conversationis dabant fidelibus' whole -- 'they gave the faithful an example of good living.' CC's fault here originates in the archive scan's clipping, not in the transcription step, but the effect on our Latin twin is the same. The English [sic: *daban*] at chunk 0019 is WITHDRAWN; render as 'they gave to the faithful an example of good conversation' with no marker."
+    }
+  ]
+}
