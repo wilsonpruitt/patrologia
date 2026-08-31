@@ -62,8 +62,22 @@ of either layer found on any of them. `data/plate-notes/coverage.json` now carri
    witness IS now fully proven across two works, 8996 and 8945 — same treatment for PL 114 would
    likely pay off just as well).
 
-## ▶ NEXT — the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K** (Deuteronomy is now
-done; per the prior queue, unchanged by this session).
+## ▶ NEXT — Wilson's call (2026-08-31c): **run the `[sic:]` backlog next session**, ahead of
+the volume-translation queue below. 381 pages carried across the shipped corpus, `[var:]`
+half (~1,033 markers) alongside it. This session's and 8996's results are the reason to do it
+now rather than later: two works in a row came back majority-false (6/9 here, 7/8 on 8996) —
+**not because those two works are unusual, but because nothing has ever actually read most of
+the backlog's pages.** Before launching: (1) re-derive the recalibrated per-page burn from
+this session and 8996's actual token spend (a handful of columns each, quoted at launch, not
+the cheap number), (2) decide the reading unit — per-work like this session's Gallica pass, or
+per-volume like the original PL 113 8-page zero-apparatus sample — and (3) hard-stop ritual
+applies: state works/pages, estimated burn, ask "which model, and go?" before the fleet
+launches. `reference_plate-read-triage` and the `CLAUDE.md` 8a section (esp. the 2026-08-28
+9003 collation and this session's `data/tei-patches/8945.json`) are the governing precedent.
+
+After the backlog (or alongside it, Wilson's call at the time): the Gospels 24–45K each,
+Genesis/Exodus 42–43K, **Psalms 90K** (Deuteronomy is now done; per the prior queue, unchanged
+by this session).
 
 ## ▶▶▶▶▶ SESSION 2026-08-31b — 8996 *EPISTOLA AD ROMANOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
