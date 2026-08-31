@@ -1781,6 +1781,123 @@
           "found": "MARKER REFUSED. Plate prints 'pii' (ara pii cordis) clean; CC produced 'pli'. TEI patch applied, [sic: pli] withdrawn."
         }
       ]
+    },
+    "9033": {
+      "series": "pl",
+      "volume": 115,
+      "scan": "raw/scans/pl115/patrologiaecurs18goog.pdf",
+      "page_map": "PDF page = (column + 11) / 2 -- FOR PAGES 287 AND ABOVE ONLY. Calibrated against the printed corner numbers at pp. 287 (563/564), 300 (589/590) and 319 (627/628). BELOW p.287 the map is (column + 31) / 2, because this scan's leaves 279-286 are a DUPLICATE re-scan of cols 527-542 (already present at pp. 269-276). Consequence: the leaves carrying COLS 547-562 ARE ABSENT FROM THIS FILE. A single-point calibration would have produced a confidently wrong map -- p.281 under the naive formula shows Angelomus on IV Kings ch. XX, not the Cantica preface.",
+      "scan_defect": "cols 0547-0562 not present in this scan (duplicated leaves); 22 markers on cols 0551D-0562D remain OWED and unlicensed. Second witness not found this session: Gallica SRU does not surface PL 115, HathiTrust returns 403, and all three Google Books ids in data/volumes.json return the placeholder image. Start from numelyo (Bibliothèque municipale de Lyon holds the complete PL) next time.",
+      "reads": [
+        {
+          "from": "0563A",
+          "to": "0566D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "287-288",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict; CALIBRATION: PDF page = (column + 11) / 2, verified at pp. 287 (563/564), 300 (589/590), 319 (627/628)",
+          "found": "4/4 [var:] confirmed as Migne's own: 0563A Joan. III,29 (amicus autem sponsi gaudio gaudet ad vocem sponsi) and Matth. III,15 (oportet for decet); 0564A Num. XII,6-8; 0564C I Cor. I,25 clauses reversed. 0565B pedes ejus confirmed WITH its internal control -- the plate prints pedes meos in the quotation immediately above, exactly as the marker asserts. 0566A Unguentum for oleum; 0566C dixit ad Angelum. CALIBRATION PAGE p.287, corners 563/564."
+        },
+        {
+          "from": "0569A",
+          "to": "0574D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "290-292",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "6/6 [var:] confirmed: 0569A in odore (abl.); 0569C Redi post me Satanas; 0569D in cubiculum suum; 0570A Audivi arcana verba; 0571B scientia inflat quia charitas non aedificat; 0571D perfecisti ea sperantibus in te and II Tim. IV,8; 0572A filia Hierusalem sg.; 0573A Act. XIII,46; 0574A Cogitationum consilia -- the phrase straddles the 0573D/0574A column break and BOTH halves were read (Cogitationum consilia at the foot of 573, destruentes et omnem altitudinem at the head of 574)."
+        },
+        {
+          "from": "0576A",
+          "to": "0577D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "293-294",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0576C Misisti in mare equos tuos (Habac. III,15) CONFIRMED. 0577A [sic: *viti s*] WITHDRAWN -- plate prints 'sub vitiis currebas', the same word standing whole two clauses earlier in 'vitiis deserviebas'; CC split it. tei-patches/9033.json. Only the right column of p.293 (576) and the left column of p.294 (577) were read; 575 and 578 carry no markers and were not read."
+        },
+        {
+          "from": "0580A",
+          "to": "0582D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "295-296",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0580B Matth. XXVIII,10/7 CONFIRMED. 0581B [sic: *haeai*] WITHDRAWN -- plate prints the italic lemma 'oculus haedi', re-read at 2x; CC mis-set d as a. 0582A x2 (Ego et Pater veniemus; Si duobus vel tribus convenerit), 0582B (In medio duorum animalium cognosceris), 0582C (Beati qui lugent nunc) all CONFIRMED. Only the right column of p.295 (580) was read; 579 carries no marker."
+        },
+        {
+          "from": "0584A",
+          "to": "0592D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "297-301",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0584C I Cor. XII,3 CONFIRMED. 0585B Colos. III,1 CONFIRMED. 0586D [sic: *partriarchis*] WITHDRAWN -- plate prints 'patriarchis', re-read at 2.6x (p.298 also carries the PATROL. CXV signature at the foot, an independent confirmation of the volume). 0587D x3, 0588B, 0588D CONFIRMED. 0589C (rex in cellam vinariam), 0589D (Operamini cibum qui non perit) CONFIRMED. 0590A [sic: *Spitum*] WITHDRAWN -- plate prints 'tertium Spiritum sanctum'. 0590D Rom. XIII,7 CONFIRMED. 0591A, 0591D, 0592A CONFIRMED. Only the right column of p.297 (584) was read; 583 carries no marker."
+        },
+        {
+          "from": "0594A",
+          "to": "0598D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "302-304",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0594A (a pseudoprophetis -- Migne's own addition), 0594B (Similes estote servis) CONFIRMED. 0595B x2 (exsultabuntur cornua justi; respiciens per fenestras), 0595D (Isa. L,2 conflation) CONFIRMED. 0596B (Ephes. II), 0596C (timentibus Deum) CONFIRMED. 0597C [sic: *infidelitatiis*] WITHDRAWN -- plate prints 'infi-/delitatis' broken at the line, re-read at 2.2x; CC doubled the i on the rejoin. 0597D (Matth. X,35 'a patre' not 'adversus patrem'), 0598A (I Cor. XIII,12 + I Joan. III,2) CONFIRMED. 0598D *appropinquabit* CONFIRMED -- the word breaks across the column foot, so the head of col 0599A was read to see 'quabit'. Only the right column of p.302 (594) was read; 593 carries no marker."
+        },
+        {
+          "from": "0600A",
+          "to": "0604D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "305-307",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0600C [sic: *demo liuntur*] WITHDRAWN -- plate prints 'demoliuntur' as one word at BOTH occurrences on the page, and CC itself transcribed the lemma eight lines above correctly. 0600D (omnem hominem / omnem scientiam) CONFIRMED. 0601C (montes Bethel), 0601D (Quam elevata) CONFIRMED. 0602D [sic: *prophatarum*] WITHDRAWN -- plate prints 'prophetarum'. 0603A (Ps. 126:1 sg.), 0603B (Tenui manum ejus; domum patris mei), 0604C (sexaginta ambiunt, no 'fortes' in the lemma) CONFIRMED. Only the right column of p.305 (600) plus the head of its left column (599) were read; 605 carries no marker and was not read."
+        },
+        {
+          "from": "0606A",
+          "to": "0607D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "308-309",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0606A (filiae Hierusalem at Cant. 3:11) CONFIRMED. 0607D (Non concupisces rem proximi tui) CONFIRMED. Only the right column of p.308 (606) and the left column of p.309 (607) were read; 605 and 608 carry no markers."
+        },
+        {
+          "from": "0610A",
+          "to": "0610D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "310",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0610D Cant. IV,14 (Cyprus cum nardo, nardus cum croco) CONFIRMED. 0610D [sic: *coufortat*] WITHDRAWN -- plate prints 'confortat', re-read at 2.6x; classic minim fault, n read as u. Right column only; 609 carries no marker."
+        },
+        {
+          "from": "0616A",
+          "to": "0616D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "313",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0616C 'Electus ut cedrus' CONFIRMED as Migne's singular against the Vulgate's 'ut cedri'. Right column only; 615 carries no marker."
+        },
+        {
+          "from": "0618A",
+          "to": "0620D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "314-315",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0618C (Capilli tui sicut greges caprarum -- the Cant. 4:1 wording standing at Cant. 6:4), 0618D (absque oculis tuis) CONFIRMED. 0618D [sic: *Et.haec*] WITHDRAWN -- plate prints 'Et haec magna sunt valde' with ordinary spacing; CC set a period for the space. 0619A (matri suae / genitricis suae, cases inverted), 0619B x2 (filiae Sion; quae ascendit for quae progreditur), 0620B x2 (Sunamitis for Sulamitis; in Sunamite nisi castrorum choros) all CONFIRMED. Right column of p.314 (618) plus both columns of p.315; 617 carries no marker."
+        },
+        {
+          "from": "0623A",
+          "to": "0628D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "pages": "317-319",
+          "source": "on-disk PL 115 scan raw/scans/pl115/patrologiaecurs18goog.pdf at 300 dpi, one column crop per read, corner numbers read BEFORE the text on every page; ambiguous words re-cropped at 2.2-2.6x LANCZOS before any verdict",
+          "found": "0623B (Mandragorae dederunt odorem suum in portis nostris), 0623D (Quis mihi dat fratrem meum sugentem ubera mea), 0624D (innixa super dilectum meum), 0625C (Soror mea parvula est), 0626B x2 (coram te; quae habet populus) CONFIRMED. 0627A CONFIRMED -- the lemma 'Et ducenti his custodiunt fructus ejus' stands at the foot of 626D without 'qui', and 627A opens with the gloss that supplies it. 0627B 'super monte aromatum' singular CONFIRMED, re-read at 1.7x, against the gloss's own plural 'supra montes aromatum' two lines later. 0627C x2 (Ascendit Deus in jubilatione; ascendit in coelum for assumptus est), 0628B (Deus a Libano veniet) CONFIRMED. 621/622 carry no markers and were not read."
+        }
+      ]
     }
   }
 }
