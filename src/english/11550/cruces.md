@@ -16,6 +16,157 @@ languages.
 
 ---
 
+## ⭐⭐ THE PLATE READ, 2026-08-31 — ALL 86 `[sic:]`/`[var:]` MARKERS CARRIED TO MIGNE'S PAGE
+
+`node scripts/plate-gate.mjs 11550` was failing on **every marker in the work**. All 86 have now
+been read at the plate by four readers working in parallel; `data/plate-reads.json` records the nine
+column ranges they covered. **The gate is clean.**
+
+**Witness and map.** The on-disk archive.org Google scan `patrologiaecurs104unkngoog`
+(`raw/scans/pl196/`), **PDF page = (column + 41) / 2**, calibrated against the printed corner
+numbers and the running head *EXPLICATIO IN CANTICA CANTIC.*, re-checked at least four times inside
+each reader's range. **Second witness** where our copy clips the margin — and on this stretch it
+clips them systematically, 5–9 characters off the start of every line of the left-hand column on
+pp. 259–265: **archive.org `patrologiaecursu0196mign`**, one page image per HTTP request,
+`https://archive.org/download/patrologiaecursu0196mign/page/n<N>.jpg`, **leaf n = (column + 43) / 2**,
+calibrated at n260 = cols 477/478.
+
+**Result: 60 CONFIRMED, 26 WITHDRAWN.** Every `[var:]` in the work holds — Migne really does print
+*Sapientes intelligentiam abscondent*, *Deus a Libano veniet*, *per noctem* singular, *fluent*,
+*argumentum* for *argentum*, and the rest. The surviving `[sic:]` are genuine plate defects and
+stand: *diliculum* (0420D), *id* and *ac* (0423B), *Pigmen* (0431C), *Ex* (0447B), *possis* and
+*benegnitas* (0457C), *dilectis* (0467B), *odotem* (0474C), *ad omnibus* (0477B), *decora* (0478C),
+*exhibui se* (0480D), *ipse* (0492A), *emoliescunt* (0506C). The other **26 were Corpus Corporum's
+corruption** — every one of them a `[sic:]`, so the work's 46 `[var:]` came through untouched — all
+patched in `data/tei-patches/11550.json`, the work re-chunked (48 chunks, no boundary moved), and
+the English corrected.
+
+⚠ **One of the 26 was nearly missed, and the way it surfaced is worth keeping.** `0452A
+*hos a tendit*` was dispatched to its reader with the other 21 markers in its range and came back
+**unreported** — the only marker of 240 across both works that a reader silently dropped. It was
+caught by reconciling the *surviving* marker list against the reports (15 `[sic:]` standing, 14
+accounted for) and then read separately: the plate prints *hos **attendit*** as two words, and
+prints *agentes attendit* solid again lower in the same column. **A reader's silence is not a
+verdict; the arithmetic is what caught it.**
+
+### ⛔⛔ THE HEADLINE FINDING: *Fons nortorum* IS NOT MIGNE'S. §2 BELOW IS WRONG ABOUT IT.
+
+§2 opens by calling the lemma of CAPUT XXX "the range's principal defect" and builds the strongest
+case in the whole work for it: dense internal corroboration (*hortus* set correctly fourteen times
+in the neighbouring chunk alone) **and** an exact corpus control (*Fons hortorum* in 61 of the
+5,276 PL TEI files, `nortorum` in **one — this file, this site**).
+
+**The plate prints `Fons hortorum`.** p.266, col. 0491A, corners 491/492 verified. Every piece of
+that evidence was sound about the *existence* of a defect and **silent about whose it was**, and the
+answer was ours: an h read as an n, in a display-weight lemma at the head of a chapter.
+
+⭐ **This is the cleanest demonstration the project has of the rule in
+`reference_plate-read-triage`** — *for a non-word, frequency is decisive that an error exists, never
+whose it is* — and §2 explicitly names corpus-grepping "the fleet's default" method for confirming a
+`[sic:]`. It is a good method for finding candidates and **it cannot attribute one.** Of the seven
+markers §2 lists as "confirmed *unique to this file, this site*", the plate withdrew four
+(*emavi*, *ordor*, *signarus*, *terestrem*) and upheld two (*emoliescunt* is Migne's, so is
+*Pigmen*); *comprenhendere* was ours as well. **A uniqueness result was right about half the time.**
+
+⚑ And the one marker §2 honestly flagged as **weaker than the rest — *desirabilis* at 0520C, six
+occurrences across six files — was also Corpus Corporum's.** The self-doubt was well placed; the
+confidence was not.
+
+### The mirror pair at 0451C — why frequency cannot settle this class
+
+Within eleven lines of one column the plate does both things at once. At 0451C Migne prints
+*experitur **eum** quaerere* and Corpus Corporum gives *cum* — a false `[sic:]`, now withdrawn.
+Eleven lines later Migne prints *videbit **cum** sicuti est*, a real plate defect, and Corpus
+Corporum silently repairs it to *eum*. **One page, one letter-pair, one corruption and one
+undocumented repair in opposite directions.** No frequency test, and no collation against a
+scriptural witness, can tell those apart. Only the plate can.
+
+### The split-type list did not survive either
+
+§2 lists four Pattern 10 "split type, carried whole" sites. **Three of the four are ours** —
+`hos a tendit` → **attendit** (0452A), `nox a` → **noxia** (0510C), `pot isset` → **potuisset**
+(0480D). Only `exhibui se` is Migne's. (The fourth site §2 names, `in perfectione` at 0420D, carries
+no marker and was not read.)
+
+### The split-type pair at 0480D came apart
+
+§2 lists `pot isset` and `exhibui se` together as one clause carrying two Pattern 10 defects. **They
+are not the same kind of thing.** The plate prints **potuisset** solid — that half was ours — and it
+really does print **exhibui se** with the space. The `[sic:]` on the second stands; the first is
+withdrawn.
+
+### The 25 withdrawn
+
+| col | ours | Migne prints |
+|---|---|---|
+| 0406C | *homine* | **homines** |
+| 0420D | *exignum* | **exiguum** |
+| 0427B | *vineunt* | **vincunt** |
+| 0427D | *Die* | **Dic** |
+| 0429C | *aceedit* | **accedit** |
+| 0441A | *rectractant* | **retractant** |
+| 0444D | *rebeus* | **rubeus** |
+| 0451C | *cum* | **eum** |
+| 0452A | *hos a tendit* | **hos attendit** |
+| 0465C | *efficians* | **efficiens** |
+| 0471B | *erga cum* | **erga eum** |
+| 0472B | *inquitatis* | **iniquitatis** |
+| 0480C | *interveveniat* | **interveniat** |
+| 0480D | *pot isset* | **potuisset** |
+| 0485A | *emavi* | **amavi** (second witness) |
+| 0486D | *ordor* | **odor** |
+| 0489A | *signarus* | **signatus** |
+| 0490C | *quis* | **quia** |
+| 0490D | *terestrem* | **terrestrem** |
+| 0491A | *nortorum* | **hortorum** |
+| 0491B | *exerescere* | **excrescere** |
+| 0495C | *acquisitio* | **acquisito** |
+| 0499C | *egitur* | **legitur** |
+| 0510C | *nox a* | **noxia** |
+| 0519D | *comprenhendere* | **comprehendere** |
+| 0520C | *desirabilis* | **desiderabilis** |
+
+### ⬜ OPEN FOR WILSON — the *canimus* / *caminus* `[cj:]` at 0436C rests on a false premise
+
+`cruces-0010.md` calls this "the clearest Pattern 18 site in the range", and its argument is that
+Richard's *ibi **canimus*** must be a defect for *caminus* **because the Isaiah proof text he quotes
+nine words later prints *caminus***.
+
+**The plate prints *canimus* in BOTH places** (p.239, col. 0436D, verified at 8×: three minims and a
+dot, not four). Our Latin's *caminus* in the proof text is Corpus Corporum's own silent emendation
+toward the Vulgate.
+
+⚑ **Nothing here is decided, and nothing has been changed.** The `[cj:]` and the `[var:]` both stand
+as written, and the Latin at 0436D is left carrying Corpus Corporum's *caminus*. But the reasoning
+that supports them is now known to be false, and re-deciding it means choosing between three live
+readings of a clause that does not construe either way — an editorial call, not a plate call. It is
+flagged here so nothing further is built on the old premise.
+
+### Migne's own type, where OUR text is the tidy one — recorded, NOT patched
+
+Ten sites where Corpus Corporum has silently normalised a genuine Migne misprint. Listed for the
+record; patching them would put the defect back and require a fresh `[sic:]` for each, which is a
+new public claim and a separate decision.
+
+*veniemns* for *veniemus*, *diligit* for *diliget*, and *Chistum* for *Christum* (0422B) · *vicentes*
+for *vincentes* (0427B) · *labora* for *laborat* (0427D) · *orum* for *horum* (0442C) · *unusque* for
+*unusquisque* (0447B) · *gratulatur* for *gratulantur* (0474C) · *menbra* for *membra* (0476B) ·
+*sit* for *sic* (0480D) · *acipi* for *accipi* and *plenisssima* (0503C, 0511C) · *venter mens* for
+*venter meus* (0503C) · *Invenerunt ne* for *Invenerunt me* (0507B).
+
+⚑ **0489A is worth a separate look:** the plate cites Job 29:19 as ***super* aquas** there and as
+***secus* aquas** at 0477B. §2 already records that this edition contradicts itself at Job 29:19;
+the plate confirms it does so in Migne's own type at both sites.
+
+### Foot-of-page apparatus: a checked zero across 49 of the work's 60 pages
+
+Every reader inspected the full page width including the foot band. **No numbered *Forte*
+conjectures and no asterisk notes anywhere.** Recorded in `data/plate-notes/coverage.json` as
+coverage **`"spot"`**, not `"full"`, because eleven pages were never rendered: it licenses shipping
+without `[cn:]` recovery and does **not** license the claim that this work has no apparatus.
+
+---
+
 ## §1 · WORK-WIDE CONVENTIONS — RULED AND APPLIED. DO NOT RE-DECIDE.
 
 Set down with their reasons so a later sweep does not churn them, and so a reader can

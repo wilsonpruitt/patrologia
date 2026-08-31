@@ -1,0 +1,213 @@
+{
+  "note": "Corrections to the Corpus Corporum TEI for PL works, applied to the XML stream by chunk-work.mjs BEFORE the transform, so a re-harvest + re-chunk reproduces them. These are corrections to a DIGITIZATION, never to Migne — a defect in Migne's own plate is rendered literally and logged as a crux (translation-style.md Pattern 7). Patches are applied literally and idempotently; a find string that does not match, or matches more than once, is a hard error. || Written 2026-08-31 by the [sic:]/[var:] backlog plate read of this work: all 86 markers carried to Migne's page, 25 of them WITHDRAWN as Corpus Corporum's own corruption. Witness: raw/scans/pl196/patrologiaecurs104unkngoog.pdf, PDF page = (column + 41) / 2, calibrated against the printed corner numbers and re-checked at least four times inside every reader's range. Second witness for the columns our copy clips: archive.org patrologiaecursu0196mign, page image at https://archive.org/download/<id>/page/n<N>.jpg, leaf n = (column + 43) / 2, calibrated at n260 = cols 477/478.",
+  "patches": [
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0406C",
+      "find": "nonne homine estis?",
+      "replace": "nonne homines estis?",
+      "direction": "corrupted",
+      "why": "Plate p.223 col 0406C (running head 'EXPLICATIO IN CANTICA CANTIC.', corner 406 verified) prints 'Cum enim inter vos sit zelus et contentio, nonne homines estis? (I Cor. III)', broken over the line as 'homi-|nes', and the prose two lines below re-uses *homines*. CC dropped the s. The [sic: homine] in chunk 0000 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0420D",
+      "find": "intelligit\nexignum esse",
+      "replace": "intelligit\nexiguum esse",
+      "direction": "corrupted",
+      "why": "Plate p.230 col 0420D prints 'ita per eamdem intelligit exiguum esse quod invenit' — a clear g-u-u. CC misread u as n. The [sic: *exignum*] in chunk 0006 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0427B",
+      "find": "et venenum vineunt",
+      "replace": "et venenum vincunt",
+      "direction": "corrupted",
+      "why": "Plate p.234 col 0427B (corner 427 verified) prints 'Cervi quoque spineta transeunt, et venenum vincunt' (verified at 4x). CC misread c as e. The [sic: *vineunt*] in chunk 0009 is WITHDRAWN. (Migne's own *vicentes* for *vincentes* five lines later is a plate defect CC silently normalised; not patched, recorded in cruces.)"
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0427D",
+      "find": "orat. Die illi, ait Martha",
+      "replace": "orat. Dic illi, ait Martha",
+      "direction": "corrupted",
+      "why": "Plate p.234 col 0427D prints 'Dic illi, ait Martha, ut me adjuvet (Luc. X)' — the imperative Luke 10:40 requires (verified at 3x). CC misread c as e. The [sic: *Die*] in chunk 0009 is WITHDRAWN. (The plate's own 'Martha foris labora' for *laborat* on the same line is Migne's; CC normalised it, and it is not patched.)"
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0429C",
+      "find": "mente aceedit",
+      "replace": "mente accedit",
+      "direction": "corrupted",
+      "why": "Plate p.235 col 0429C prints 'Bonos longe sive prope positos attendit, ad eos mente accedit'. CC produced *aceedit*. The [sic: *aceedit*] in chunk 0010 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0441A",
+      "find": "mente rectractant",
+      "replace": "mente retractant",
+      "direction": "corrupted",
+      "why": "Plate p.241 col 0441A prints 'Et quia terra et cinis sunt, mente retractant'. CC metathesised the letters. The [sic: *rectractant*] in chunk 0014 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0444D",
+      "find": "est et rebeus",
+      "replace": "est et rubeus",
+      "direction": "corrupted",
+      "why": "Plate p.243 col 0444D (corner 446 checked on the same opening) prints 'Sed ascensus iste purpureus est et rubeus', corroborated by 'Est autem purpura ita rubea' in the next column. CC misread u as e. The [sic: *rebeus*] in chunk 0016 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0451C",
+      "find": "experitur cum quaerere",
+      "replace": "experitur eum quaerere",
+      "direction": "corrupted",
+      "why": "Plate p.246 col 0451C prints 'In quibusdam experitur eum quaerere, et desiderare virum'. CC misread e as c. The [sic: *cum*] in chunk 0019 is WITHDRAWN. ⚑ Note the exact mirror image eleven lines later, where the plate prints 'videbit cum sicuti est' and CC silently corrected it to *eum* — the same page carries one CC corruption and one CC repair of the same two letters, which is why frequency evidence cannot settle this class."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0465C",
+      "find": "sed non efficians",
+      "replace": "sed non efficiens",
+      "direction": "corrupted",
+      "why": "Plate p.253 col 0465C (corner 466 verified on the same opening) prints 'quia erat hostia sufficiens pro omnibus, sed non efficiens' (verified at 4x). CC misread e as a. The [sic: *efficians*] in chunk 0024 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0471B",
+      "find": "tantum\nerga cum potentiora",
+      "replace": "tantum\nerga eum potentiora",
+      "direction": "corrupted",
+      "why": "Plate p.256 col 0471B (corners 471/472 verified) prints 'tantum erga eum potentiora sunt', with *eum* again two clauses later in 'ad impugnandum eum'. CC misread e as c. The [sic: *erga cum*] in chunk 0026 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0472B",
+      "find": "arma inquitatis",
+      "replace": "arma iniquitatis",
+      "direction": "corrupted",
+      "why": "Plate p.256 col 0472B prints 'membra scilicet, quae exhibent arma iniquitatis peccato'. CC dropped the i. The [sic: *inquitatis*] in chunk 0026 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0480C",
+      "find": "contritio interveveniat",
+      "replace": "contritio interveniat",
+      "direction": "corrupted",
+      "why": "Plate p.260 col 0480C prints 'Sed si contritio interveniat, veniale est'. CC doubled the -ve-. The [sic: *interveveniat*] in chunk 0029 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0480D",
+      "find": "quia pot isset",
+      "replace": "quia potuisset",
+      "direction": "corrupted",
+      "why": "Plate p.260 col 0480D prints 'quia potuisset se ad faciendum sollicitum exhibui se' as one word. CC split it and lost the u. The [sic: *pot isset*] in chunk 0029 is WITHDRAWN. The *exhibui se* standing beside it in the same clause is NOT patched: the plate really does print the space, so that [sic:] stands as Migne's own."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0485A",
+      "find": "tibi\nemavi atque praeparavi",
+      "replace": "tibi\namavi atque praeparavi",
+      "direction": "corrupted",
+      "why": "SECOND WITNESS. Our Google scan clips the left margin of col. 485 and removes the whole word — recorded ILLEGIBLE on that copy. archive.org patrologiaecursu0196mign (leaf n = (column + 43) / 2; n264 = cols 485/486, calibrated at n260 = cols 477/478 against the printed corner numbers) is clean and prints 'amare quoque incipis gaudium quod tibi amavi atque praeparavi' — the verb answering *amare* in the same sentence. CC misread a as e. The [sic: *emavi*] in chunk 0031 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0486D",
+      "find": "Hujus ordor floris",
+      "replace": "Hujus odor floris",
+      "direction": "corrupted",
+      "why": "Plate p.264 col 0486D prints 'Hujus odor floris est sicut odor agri pleni', with the correct *odor* twice in the same clause. CC inserted an r. The [sic: *ordor*] in chunk 0031 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0489A",
+      "find": "fons signarus irrigat",
+      "replace": "fons signatus irrigat",
+      "direction": "corrupted",
+      "why": "Plate p.265 col 0489A (corner 490 verified on the same opening) prints 'Hunc ergo hortum sic conclusum fons signatus irrigat; fontem itaque signatum', with the correct participle in the very next clause. CC read t as r. The [sic: *signarus*] in chunk 0032 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0490C",
+      "find": "unguentis junguntur, quis",
+      "replace": "unguentis junguntur, quia",
+      "direction": "corrupted",
+      "why": "Plate p.265 col 0490C prints 'myrrha et aloe cum omnibus primis unguentis junguntur, quia dum carnem a lascivia restringimus'. CC read a as s. The [sic: *quis*] in chunk 0032 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0490D",
+      "find": "parentes\nterestrem habebant",
+      "replace": "parentes\nterrestrem habebant",
+      "direction": "corrupted",
+      "why": "Plate p.265 col 0490D prints 'Primi parentes terrestrem habebant paradisum'. CC dropped an r. The [sic: *terestrem*] in chunk 0032 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0491A",
+      "find": "<hi>Fons nortorum",
+      "replace": "<hi>Fons hortorum",
+      "direction": "corrupted",
+      "why": "Plate p.266 col 0491A (corners 491/492 verified) prints the Cant. 4:15 lemma 'Fons hortorum, puteus aquarum viventium, quae fluunt impetu de Libano'. CC misread h as n. The [sic: nortorum] in chunk 0033 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0491B",
+      "find": "ad proprium exerescere",
+      "replace": "ad proprium excrescere",
+      "direction": "corrupted",
+      "why": "Plate p.266 col 0491B prints 'ad proprium excrescere, et dilatari ad proximi dilectionem', matching the *excrescit* three lines later. CC transposed the letters. The [sic: *exerescere*] in chunk 0033 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0495C",
+      "find": "quamvis de acquisitio ab ea",
+      "replace": "quamvis de acquisito ab ea",
+      "direction": "corrupted",
+      "why": "Plate p.268 col 0495C (corner 495 verified) prints 'quamvis de acquisito ab ea fructu virtutum gratuletur' — the ablative participle agreeing with *fructu*. CC substituted the nominative noun. The [sic: *acquisitio*] in chunk 0034 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0499C",
+      "find": "Et item\negitur:",
+      "replace": "Et item\nlegitur:",
+      "direction": "corrupted",
+      "why": "Plate p.270 col 0499C (corners 499/500 verified) prints 'Et item legitur: Quod Spiritus sanctus auferet se a cogitationibus quae sunt sine intellectu (Sap. I)'. CC lost the initial l. The [sic: *egitur*] in chunk 0036 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0510C",
+      "find": "subtilitate nox a\nperducat",
+      "replace": "subtilitate noxia\nperducat",
+      "direction": "corrupted",
+      "why": "Plate p.275 col 0510C prints 'ne nos scandalizet, et in errorem subtilitate noxia perducat' as one word, agreeing with *subtilitate*. CC split it. The [sic: *nox a*] in chunk 0040 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0519D",
+      "find": "spiritualia comprenhendere",
+      "replace": "spiritualia comprehendere",
+      "direction": "corrupted",
+      "why": "Plate p.280 col 0519D prints 'ut clare videre non possint, et spiritualia comprehendere' (verified at 4x). CC inserted a spurious n. The [sic: *comprenhendere*] in chunk 0045 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0520C",
+      "find": "qui etiam desirabilis est",
+      "replace": "qui etiam desiderabilis est",
+      "direction": "corrupted",
+      "why": "Plate p.281 col 0520C (corner 522 verified on the same opening) prints 'Est igitur totus desiderabilis, qui etiam desiderabilis est in membris suis' — spelled in full both times (verified at 4x). CC dropped the -de- from the second. The [sic: *desirabilis*] in chunk 0045 is WITHDRAWN."
+    },
+    {
+      "work": "11550 Richard of St Victor, Explicatio in Cantica canticorum (PL 196)",
+      "col": "0452A",
+      "find": "devota hos a tendit et",
+      "replace": "devota hos attendit et",
+      "direction": "corrupted",
+      "why": "Plate p.246 col 0452A prints 'Dum itaque anima devota hos attendit et horum sanctitatem meditatur' as two words, and prints 'agentes attendit' solid again in the B band of the same column. CC split *attendit* into 'a tendit'. The [sic: *hos a tendit*] in chunk 0020 is WITHDRAWN. ⚠ PROVENANCE NOTE: this candidate was dispatched to the batch-2 reader with the other 21 in its range and came back UNREPORTED — the only marker of 240 that a reader silently dropped. It was caught by reconciling the surviving marker list against the reports, and read separately. cruces.md §2 had already reasoned to the same reading from internal corroboration ('self-corroborated three times in the same column'); as with *Fons nortorum*, that reasoning was right that a defect existed and silent about whose it was."
+    }
+  ]
+}
