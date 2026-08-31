@@ -1,5 +1,72 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-31c — 8945 *LIBER DEUTERONOMII* · ✅ SHIPPED, STAGED · ⬜ NOT YET DEPLOYED
+
+Corpus **151 → 152**, `/glossa` **45 → 46 of 58**. Commits `787a66a` → `d93fddd`, **PUSHED**
+(`origin/master` = `d93fddd`). **NOT deployed** — staging is done (build, index, RECENT,
+landing, resolver-data all rebuilt and committed) but `cd site && npx vercel --prod
+--archive=tgz` was deliberately left for Wilson's own deploy session per the runbook (deploy
+is always a separate per-action OK). Badge will read "New English translation" (workStatus
+null, fails safe correctly).
+
+Five Opus agents translated 24 chunks in parallel (0000–0004/0005–0009/0010–0014/0015–0019/
+0020–0023), merged same session. Apparatus: **3 `[sic:]` · 3 `[var:]` · 1 `[cj:]` · 1 `[d:]` ·
+2 `[nt:]` · 2 `[ed:]`**, all reconciled against 346 `[n:]` notes / 240 column anchors.
+
+### ⭐⭐⭐ THE HEADLINE: 6 OF 9 OWED MARKERS WERE CORPUS CORPORUM'S, NOT MIGNE'S — SAME PATTERN AS 8996, EVEN MORE OF THEM
+
+Nine `[sic:]`/`[var:]` candidates went out with the five stints without a plate read (rule 8a).
+All nine read this session against **Gallica `ark:/12148/bpt6k5505319w`** (PL 113 second witness),
+page map **f = ceil(column/2)**, calibrated at f242 (483/484) and reconfirmed at three more pages.
+**3 CONFIRMED as Migne's own printing** (0445D Cant. 1:12 missing *meus*; 0452A *gui* for *qui*;
+0454C *Cabesbarne* for *Cadesbarne*, Migne's own inconsistent spelling two lines apart). **6
+REFUTED — Corpus Corporum's corruption, not Migne's**, five of them landing in one tight span
+0471C–0481C (*coversans*→*conversans*, *magnificam*→*magnificant*, *Catceati*→*Calceati*,
+*pusillium*→*pusillum*, *quo que*→*quoque*) plus 0496C (*pli*→*pii*). All six patched
+(`data/tei-patches/8945.json`), markers withdrawn, English corrected to render the plain word.
+Combined with a seventh corruption a translation stint had already caught and correctly left
+unmarked (0492B *pre*→*per*), that's **7 of 10 candidate defects in this one work turning out to
+be the digitization's fault, not Migne's** — the same lesson 8996 delivered two sessions ago,
+now measured on a second, larger sample. **Read the plate before you accuse Migne of anything.**
+
+### The polarity read: one real fix, two declined, four new candidates logged
+
+Three blind Opus readers, disjoint ranges over all 24 chunks, cruces files unread until findings
+were formed. 19/24 chunks clean. **One real translator error**: @0471C, *exspectat* ("awaits")
+had been rendered "looks after" with *post* folded into the phrasal verb — the tail left garbled
+when this session's own `[sic: coversans]` withdrawal touched the same sentence. Fixed.
+**Two proposed "our defect" flags at @0464B (same gloss, two readers, two different claims)
+were reviewed and declined** on closer parse — both are grammatically faithful literal
+renderings of what Migne prints, not translator errors; full reasoning in `cruces.md` §5.
+**Four new Migne-side contradiction candidates logged, none marked** (no plate read for their
+columns): 0490B–C VERS. 17 (*coluerunt* for the Vulgate's *non coluerunt*, Deut. 32:17 —
+strong candidate for a dropped *non*), 0448B (a station-count arithmetic defect, 20 vs 21,
+the passage's own numbers don't reconcile either way), 0475C (*non debemus despicere*, likely a
+dropped *propter*), 0473B (*scitur enim* vs a concessive *scitur tamen*, low confidence).
+
+### Plate spot check also closed this session
+
+8 full pages read (the same Gallica session), spanning the whole book — no foot-of-page apparatus
+of either layer found on any of them. `data/plate-notes/coverage.json` now carries an 8945 entry,
+`coverage: "spot"`.
+
+## ▶ OPEN — FOR WILSON
+1. ⬜ **Deploy 8945** — staged and ready: `cd site && npx vercel --prod --archive=tgz`, then
+   smoke-test work page, cruces page, `/glossa`, landing, and the resolver at `/pl/113/482a`
+   (or any column in range 445–506).
+2. ⬜ Four new polarity candidates + the pre-existing `[var:]`/case-ending candidates from 8996
+   and earlier sessions, all logged in their works' cruces.md, none blocking.
+3. Carried unchanged from prior sessions: the `[sic:]` backlog (381 pages) and `[var:]` half —
+   now positive across **five** works (36/37, 14/14, 7/7, 14/14, and this session's mixed
+   3-confirmed/6-refuted result, which is a different and arguably more informative shape);
+   `chunk-work.mjs` over-claiming coverage; 8988 `0636A` *aurursus*; 8976 vs Pattern 7; 8986
+   `Baruch III @ 0561A`; PL 114 second witness still not properly fetched (PL 113's Gallica
+   witness IS now fully proven across two works, 8996 and 8945 — same treatment for PL 114 would
+   likely pay off just as well).
+
+## ▶ NEXT — the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K** (Deuteronomy is now
+done; per the prior queue, unchanged by this session).
+
 ## ▶▶▶▶▶ SESSION 2026-08-31b — 8996 *EPISTOLA AD ROMANOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 Corpus **150 → 151**, `/glossa` **44 → 45 of 58**. Commits `d139989` → `a133fb6`, **PUSHED**
