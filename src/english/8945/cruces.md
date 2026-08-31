@@ -151,11 +151,89 @@ crux and left unrepaired, never patched invisibly into the translation.
 
 ---
 
-## §5 · What remains, for a future session
+## §5 · The polarity read — three blind Opus readers, all 24 chunks, no overlap gaps
+
+Read after the plate gate closed (§2), each reader assigned a disjoint range
+(0000–0007, 0008–0015, 0016–0023), each explicitly barred from reading this file
+or any `cruces-NNNN.md` before forming findings. 19 of 24 chunks came back
+clean. Total contradiction-class sites across the three reads: **13** (some
+newly found, most reconfirming sites already logged above or in the per-stint
+files). **One required an English fix; two candidate "our defect" flags were
+reviewed and declined on closer parse.**
+
+**Fixed — the one real translator error found:**
+
+- **@0471C (0010.md)** — *post perfectionem bonorum operum requiem aeternam
+  exspectat in sabbatismo* had been rendered "he looks after the perfection of
+  good works for eternal rest," which folds *post* into a phrasal verb
+  ("looks after") and turns *requiem aeternam* from the object of *exspectat*
+  ("awaits") into a purpose clause. **Corrected to** "after the perfection of
+  good works he awaits eternal rest in the sabbath-rest." This sentence had
+  already been touched once this session (the withdrawn `[sic: coversans]`,
+  §2) — the tail was left garbled when that marker came out; this closes it.
+
+**Reviewed and declined — proposed as "our defect," found to be a faithful
+literal parse on re-reading:**
+
+- **@0464B (0006.md), twice, same gloss** — one reader flagged *nec praeter
+  potestatem suam ostendit esse, quae ita contingunt* (rendered "nor does he
+  show that the things which so happen are beyond his own power") as
+  mis-scoped negation, proposing "he shows... are **not** beyond his power."
+  **Declined on re-parse**: *nec* negates the finite verb *ostendit*, not the
+  prepositional phrase — "he does not show [them] to be beyond his power" is
+  the grammatically indicated reading and the current English matches it
+  exactly. The apparent tension with the following "But he subjoins why he
+  permits it" is not a contradiction: declining to assert these events lie
+  outside God's power is compatible with going on to explain why he permits
+  them. Same gloss, same column, a second reader flagged *ad cognoscendum ...
+  non illi qui omnia novit* ("for the knowing... not for him who knows all
+  things") as a dangling contrast. **Declined**: *cognoscendum* is impersonal
+  ("for it to be known," not "so that he may know"), and the English's "for
+  the knowing... not for him who [already] knows" completes the contrast as
+  printed. Both left unchanged; no crux needed, since nothing here misrepresents
+  Migne's text.
+
+**New Migne-side candidates, rendered faithfully as printed, no marker fired
+(rule 8a — no plate read for these columns), logged for a future session:**
+
+- **@0490B–C (0018.md), VERS. 17** — *Recedentes a cultura Dei, invenerunt sibi
+  deos quos patres eorum coluerunt* lacks the Vulgate's *non* before *coluerunt*
+  (Deut. 32:17, *quos non coluerunt patres eorum*) and, as printed, asserts the
+  opposite of the verse it glosses. Strong candidate for a dropped *non*; a
+  minority patristic reading (the "new" gods were really the old Egyptian gods)
+  is possible but less likely given *Recedentes a cultura Dei* two words
+  earlier. Rendered as printed: "gods whom their fathers had worshipped."
+- **@0448B (0001.md)** — the work's own station count contradicts itself: "they
+  made twenty stations" against three other statements in the same and the next
+  chunk (0451C, 0452D) totalling "one and twenty." 12 + 20 + 9 does not make the
+  42 the passage insists on either way. Rendered as printed throughout; the
+  arithmetic defect is Migne's.
+- **@0475C (0012.md)** — *cujus utilitatem et immunditiam non debemus despicere*
+  ("whose usefulness and uncleanness we ought not to despise") contradicts the
+  work's own repeated insistence elsewhere (0474A, 0476A) that Gentile
+  uncleanness is exactly what must be cut away. Likely a dropped *propter*:
+  *cujus utilitatem propter immunditiam non debemus despicere*, "whose
+  usefulness we ought not to despise on account of his uncleanness" — which
+  matches the Deut. 22:3 lemma (the stranger's stray goods are still returned).
+  Rendered as printed.
+- **@0473B (0011.md)**, low confidence — *scitur enim* ("for it is known") reads
+  as self-cancelling after *ideo ignorari dicitur* ("is therefore said to be
+  unknown"); a concessive *scitur tamen* ("yet it is known") would resolve it,
+  but a loose *enim* in the glossator's own voice is equally possible. Rendered
+  as printed.
+
+All four are candidates for the same future plate-read pass as §2's open items,
+not blockers — none was rendered other than what Migne's transcription prints,
+per rule 8a and Pattern 7a throughout.
+
+---
+
+## §6 · What remains, for a future session
 
 1. Two `[ed:]` holes (§3) — cheap plate recovery, not urgent.
 2. Three withheld `[var:]` candidates and one withheld case-ending candidate (§2)
    — cols 0468, 0470, 0503.
-3. Nothing else blocks shipping. `verify-english.mjs` and `plate-gate.mjs` both
-   pass clean; the polarity read is the next step before this work is marked
-   `ours`.
+3. Four new polarity-read candidates (§5) — cols 0448, 0473, 0475, 0490.
+4. Nothing else blocks shipping. `verify-english.mjs` and `plate-gate.mjs` both
+   pass clean; the polarity read (§5) is done, its one real fix applied. This
+   work is ready to be built, indexed, and marked `ours`.
