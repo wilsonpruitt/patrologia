@@ -1,12 +1,13 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-31c — 8945 *LIBER DEUTERONOMII* · ✅ SHIPPED, STAGED · ⬜ NOT YET DEPLOYED
+## ▶▶▶▶▶ SESSION 2026-08-31c — 8945 *LIBER DEUTERONOMII* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
-Corpus **151 → 152**, `/glossa` **45 → 46 of 58**. Commits `787a66a` → `d93fddd`, **PUSHED**
-(`origin/master` = `d93fddd`). **NOT deployed** — staging is done (build, index, RECENT,
-landing, resolver-data all rebuilt and committed) but `cd site && npx vercel --prod
---archive=tgz` was deliberately left for Wilson's own deploy session per the runbook (deploy
-is always a separate per-action OK). Badge will read "New English translation" (workStatus
+Corpus **151 → 152**, `/glossa` **45 → 46 of 58**. Commits `787a66a` → `0e113ff`, **PUSHED**
+(`origin/master` = `0e113ff`). **Deployed** (`dpl_9p1rbXQtAt2VSjY44YUuoJ798ZH6`, first attempt
+returned a transient "Not authorized" `deploy_failed`, immediate retry succeeded) and
+smoke-tested on the real domain: work page, cruces page, `/glossa` (confirms Deuteronomy
+listed), landing (confirms RECENT entry), `/scripture`, `/authors`, and the resolver at both
+`/pl/113/482a` and `/pl/113/445d`, all 200. Badge reads "New English translation" (workStatus
 null, fails safe correctly).
 
 Five Opus agents translated 24 chunks in parallel (0000–0004/0005–0009/0010–0014/0015–0019/
@@ -51,12 +52,9 @@ of either layer found on any of them. `data/plate-notes/coverage.json` now carri
 `coverage: "spot"`.
 
 ## ▶ OPEN — FOR WILSON
-1. ⬜ **Deploy 8945** — staged and ready: `cd site && npx vercel --prod --archive=tgz`, then
-   smoke-test work page, cruces page, `/glossa`, landing, and the resolver at `/pl/113/482a`
-   (or any column in range 445–506).
-2. ⬜ Four new polarity candidates + the pre-existing `[var:]`/case-ending candidates from 8996
+1. ⬜ Four new polarity candidates + the pre-existing `[var:]`/case-ending candidates from 8996
    and earlier sessions, all logged in their works' cruces.md, none blocking.
-3. Carried unchanged from prior sessions: the `[sic:]` backlog (381 pages) and `[var:]` half —
+2. Carried unchanged from prior sessions: the `[sic:]` backlog (381 pages) and `[var:]` half —
    now positive across **five** works (36/37, 14/14, 7/7, 14/14, and this session's mixed
    3-confirmed/6-refuted result, which is a different and arguably more informative shape);
    `chunk-work.mjs` over-claiming coverage; 8988 `0636A` *aurursus*; 8976 vs Pattern 7; 8986
