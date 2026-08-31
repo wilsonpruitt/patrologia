@@ -1584,6 +1584,158 @@
           "found": "Gallica prints dabant whole. Archive copy loses the ending to margin clipping (same class as pp.274/276/278/280 etc). WITHDRAWN, tei-patches/8996.json."
         }
       ]
+    },
+    "8945": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness, IIIF)",
+      "page_map": "Gallica leaf f = (column + 1) / 2 -- NOT the on-disk archive.org map ((column + 11) / 2)",
+      "reads": [
+        {
+          "from": "0482A",
+          "to": "0482A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f241 (right col., head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "cartalo confirmed as Migne's (attested variant of cartallo, no marker); plate carries a comma at 'de Aegypto, sic nos' that our TEI drops"
+        },
+        {
+          "from": "0482C",
+          "to": "0482C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f241 (right col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "'hoc legis implesse Tobiam' confirmed verbatim -- acc.+inf. with no governing verb is Migne's; no marker (Pattern 18 declined)"
+        },
+        {
+          "from": "0483D",
+          "to": "0484A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f242 (left col. foot + right col. head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "trangres-/sione confirmed across the column break: Migne's own broken type. [sic: trangressione] licensed. No foot-of-page apparatus."
+        },
+        {
+          "from": "0484D",
+          "to": "0485A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f242 (right col.) + f243 (left col. head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "lemma at Deut 28:14 is a non-word on the plate (aeclinaveris / aectinaveris; letter 4 unresolved at native res) -- [sic:] licensed. The doubled clause 'Carnalis vita polluta ex carnali immunditia' is Migne's, not CC's -- [d:] licensed."
+        },
+        {
+          "from": "0486A",
+          "to": "0486A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f243 (right col., head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "statibilitatem confirmed as Migne's type. [sic:] licensed."
+        },
+        {
+          "from": "0488C",
+          "to": "0488C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f244 (right col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "'In fidelibus autem dicitur' confirmed as Migne's word-division defect for Infidelibus. [sic:] licensed."
+        },
+        {
+          "from": "0490D",
+          "to": "0491A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f245 (right col. foot) + f246 (left col. head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "col 490 ends at a comma and col 491 opens 'terna flamma comburet' -- clean break, nothing lost by CC, so terna is Migne's. [cj: terna; read aeterna] licensed."
+        },
+        {
+          "from": "0491C",
+          "to": "0491D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f246 (left col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "Isa. I quotation printed 'principes Sodomorum Gomorrhae' (populus lost) -- [var:] licensed. 'obtulerunt' with no terminal stop and 'Mea est ultio, etc,' with a comma both confirmed as Migne's; preserved under Pattern 8."
+        },
+        {
+          "from": "0492B",
+          "to": "0492B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f246 (right col.)",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = (column + 1) / 2, CALIBRATED on f242 whose printed corner numbers read 483/484",
+          "found": "MARKER REFUSED. Plate prints 'jurabo PER dexteram meam'; our TEI reads 'pre'. The defect is Corpus Corporum's, not Migne's -- no [sic:] fired, English renders 'per'. TEI patch owed. See src/english/8945/cruces-0015.md."
+        },
+        {
+          "from": "0445D",
+          "to": "0445D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f223 (Praefatio, left col foot)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "Cant. 1:12 printed 'Fasciculus myrrhae delectus mihi', no 'meus'. [var:] licensed."
+        },
+        {
+          "from": "0452A",
+          "to": "0452A",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f226 (right col head)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "'gui' for 'qui' confirmed as Migne's own type, first word of the band. [sic:] licensed."
+        },
+        {
+          "from": "0454C",
+          "to": "0454C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f227 (right col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "'Cabesbarne' confirmed as Migne's own printing, against 'Cadesbarne' in the head two lines above -- his own inconsistency. [sic:] licensed."
+        },
+        {
+          "from": "0471C",
+          "to": "0471C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f236 (left col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED. Plate prints 'conversans' clean; CC dropped the n. TEI patch applied, [sic: coversans] withdrawn."
+        },
+        {
+          "from": "0476C",
+          "to": "0476C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f238 (right col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED. Plate prints 'magnificant' (agreeing with plural 'dilatant'); CC produced 'magnificam'. TEI patch applied, [sic: magnificam] withdrawn."
+        },
+        {
+          "from": "0481A",
+          "to": "0481C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f241 (left col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED x3. Plate prints 'Calceati', 'pusillum', 'quoque' (one word) clean throughout. CC produced 'Catceati', 'pusillium', split 'quo que'. TEI patches applied, all three [sic:] withdrawn."
+        },
+        {
+          "from": "0496C",
+          "to": "0496C",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": "f248 (right col)",
+          "source": "Gallica ark:/12148/bpt6k5505319w, IIIF",
+          "found": "MARKER REFUSED. Plate prints 'pii' (ara pii cordis) clean; CC produced 'pli'. TEI patch applied, [sic: pli] withdrawn."
+        }
+      ]
     }
   }
 }

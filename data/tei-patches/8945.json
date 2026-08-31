@@ -1,0 +1,56 @@
+{
+ "note": "PLATE GATE of 8945 (Glossa ordinaria, Liber Deuteronomii, PL 113). Migne PL 113, scan Gallica ark:/12148/bpt6k5505319w (PL 113 second witness), IIIF native-resolution crops; page map f = ceil(column/2), CALIBRATED on f242 whose printed corner numbers read 483/484 (confirms the mapping stint 4 established for cols 482-492). 9 columns read this session (0445D, 0452A, 0454C, 0471C, 0476C, 0481A, 0481C, 0496C) to close every [sic:]/[var:] the five translation stints had fired without a plate read. RESULT: 3 CONFIRMED as Migne's own printing (0445D [var:], 0452A [sic: gui], 0454C [sic: Cabesbarne]); 6 REFUTED -- Corpus Corporum's own corruption, not Migne's, all in one tight span (0471C-0481C) plus 0496C. Combined with stint 4's own find at 0492B (pre->per, also corrupted), that is 7 CORRUPTED total in this work.",
+ "class": "CORRUPTED -- Corpus Corporum broke a word Migne set correctly. Repaired here; no [sic:] marker may stand against Migne on the strength of any of these. The corresponding English chunks must be corrected to read the plain word with no marker.",
+ "result": "7 CORRUPTED, 0 NORMALIZED this session.",
+ "patches": [
+  {
+   "col": "0471C",
+   "find": "operari. Sicque religiose coversans in mundo, qui\nsenario conditus est numero, post perfectionem bonorum",
+   "replace": "operari. Sicque religiose conversans in mundo, qui\nsenario conditus est numero, post perfectionem bonorum",
+   "direction": "corrupted",
+   "why": "Gallica f236 (pp.471/472), left column, band C, verified: 'Sicque religiose conversans in mundo, qui senario conditus est numero' -- a clean, unambiguous 'conversans' with the n present. CC dropped a letter. English's [sic: coversans] at 0471C (src/english/8945/0010.md) is WITHDRAWN; render plainly as 'living'."
+  },
+  {
+   "col": "0476C",
+   "find": "unde: <hi>Dilatant phylacteria sua et magnificam\nfimbrias.</hi>",
+   "replace": "unde: <hi>Dilatant phylacteria sua et magnificant\nfimbrias.</hi>",
+   "direction": "corrupted",
+   "why": "Gallica f238 (pp.475/476), right column, band C, verified: 'Dilatant phylacteria sua et magnificant fimbrias' -- plural verb agreeing with 'phylacteria...dilatant', matching Matt. 23:5. CC produced the non-word 'magnificam'. English's [sic: magnificam] at 0476C (src/english/8945/0012.md) is WITHDRAWN; render plainly as 'and magnify their fringes'."
+  },
+  {
+   "col": "0481A",
+   "find": "<p>VERS. 9.-- <hi>Calceamentum.</hi> De quo dicitur: <hi>Catceati\npedes in praeparatione Evangelii pacis",
+   "replace": "<p>VERS. 9.-- <hi>Calceamentum.</hi> De quo dicitur: <hi>Calceati\npedes in praeparatione Evangelii pacis",
+   "direction": "corrupted",
+   "why": "Gallica f241 (pp.481/482), left column, band A, verified: 'Cal-ceati pedes in praeparatione Evangelii pacis' -- a clean 'l', hyphenated across the line break. CC produced the non-word 'Catceati'. English's [sic: Catceati] at 0481A (src/english/8945/0014.md) is WITHDRAWN; render plainly as 'Shod feet' / 'Calceati'."
+  },
+  {
+   "col": "0481C",
+   "find": "idem interdicitur. Salomon quoque ait: <hi>Pondus\nmagnum et pusillium, et mensurae duplices, immundae",
+   "replace": "idem interdicitur. Salomon quoque ait: <hi>Pondus\nmagnum et pusillum, et mensurae duplices, immundae",
+   "direction": "corrupted",
+   "why": "Gallica f241 (pp.481/482), left column, band C, verified: 'Pondus magnum et pusillum, et mensurae duplices, immundae sunt apud Deum' (Prov. 20:10 vocabulary). CC produced the non-word 'pusillium'. English's [sic: pusillium] at 0481C (src/english/8945/0014.md) is WITHDRAWN; render plainly as 'small'."
+  },
+  {
+   "col": "0481C",
+   "find": "<note>(ISID.)</note> <hi>Non habebis in sacculo.</hi> Spiritualiter quo\nque studendum est",
+   "replace": "<note>(ISID.)</note> <hi>Non habebis in sacculo.</hi> Spiritualiter quoque\nstudendum est",
+   "direction": "corrupted",
+   "why": "Gallica f241 (pp.481/482), left column, band C, verified: 'Spiritualiter quoque studendum est' printed as one word, no split. CC introduced a spurious space (and line break) mid-word. English's [sic: *quo que*] at 0481C (src/english/8945/0014.md) is WITHDRAWN; render plainly as 'also'/'likewise'."
+  },
+  {
+   "col": "0492B",
+   "find": "manum meam, et jurabo pre dexteram meam, et dicam:",
+   "replace": "manum meam, et jurabo per dexteram meam, et dicam:",
+   "direction": "corrupted",
+   "why": "Found by the 0015-0019 translation stint via the Gallica plate (recorded in data/plate-reads.json) and the immediately following sentence's own re-quotation 'Jurare per dexteram'. CC produced the non-word 'pre'. No marker was fired (correctly withheld); this patch closes the debt named in src/english/8945/cruces-0015.md."
+  },
+  {
+   "col": "0496C",
+   "find": "in conspectu Dei flagrat, et quasi holocaustum ab\nara pli cordis flamma devotionis in coelum subvolat.",
+   "replace": "in conspectu Dei flagrat, et quasi holocaustum ab\nara pii cordis flamma devotionis in coelum subvolat.",
+   "direction": "corrupted",
+   "why": "Gallica f248 (pp.495/496), right column, band C, verified: 'quasi holocaustum ab ara pii cordis flamma devotionis in coelum subvolat' -- a clean 'pii' (of a pious heart). CC produced the non-word 'pli'. English's [sic: *pli*] at 0496C (src/english/8945/0020.md) is WITHDRAWN; render plainly as 'a pious heart'."
+  }
+ ]
+}
