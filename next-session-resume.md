@@ -1,5 +1,104 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ SESSION 2026-08-31 — 8981 *EPISTOLA I AD CORINTHIOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
+
+Corpus **149 → 150**, `/glossa` **43 → 44 of 58**. Commits `8213923` → `79f8fd8`, **PUSHED**
+(`origin/master` = `79f8fd8`). Deployed and smoke-tested on the real domain: work page, **cruces
+page**, landing, `/glossa`, `/scripture`, `/authors`, and the resolver at `/pl/114/533a`, all 200.
+Badge reads **"First English translation"** (Wilson's triage verdict — searched, no prior English).
+
+Apparatus **0 `[sic:]` · 14 `[var:]` · 7 `[cj:]`**. Burn: **713K translation** (14 chunks, three
+Opus stints — **51K/chunk, so the recalibrated 50K holds for a Glossa epistle**), **332K polarity
+read** (three blind Opus readers), plate gate read by the session directly.
+
+### ⭐⭐⭐ THE HEADLINE: THE GATE *CREATED* FIVE MARKERS INSTEAD OF DESTROYING ANY
+
+All **14 `[var:]` STAND · 0 revised · 0 false** — in the volume that returned 65% false on a
+letter-level sweep in August. Fourth work running where all three stints independently refused to
+fire a single `[sic:]`, each giving the same reason unprompted.
+
+**The new result is the other direction.** Five `[cj:]` that no stint and no blind reader could
+fire, because firing them required the page — and **every one had been correctly WITHHELD**:
+0524A *voluerit*→*violaverit* · 0528C *suo*→*sub* (the plate prints *sub* in the parallel clause
+on the same line) · 0541D *Memora*→*membra* · 0542A *honesti*→*inhonesti* (the same gloss prints
+*inhonesti* of the same men two lines below) · 0522D *spiritui. Dei subjectus*.
+
+⭐⭐ **0522D is the one neither method reaches alone.** The plate proved the full stop is Migne's,
+so Pattern 8 keeps it; a blind reader then showed our English had given the genitive *Dei* a
+dative's job to rescue the fragment. **Run the gate and the blind read as a PAIR and compare them
+against each other — that pairing is what found it.**
+
+### ⛔ WHAT THE PLATE REFUSED — the marker policy working in both directions
+0546C: a reader's proposed `[cj:]` **DECLINED** — Migne prints *minore* whole, so `min re` is
+Corpus Corporum's and a conjecture would accuse him of a word he never set (the 8993 withdrawn-
+`[cj:]` class, caught before shipping). ⭐ **Stint C had already argued it from the files alone:**
+`min re` and `ves tra` eleven words apart is a SCANNING signature, not a compositor's.
+0538C *disserentis* **REFUTED**; 0528C-D *Spiritus* and 0527C *veritatis* answered in Migne's
+favour. **Of six reader claims about the PRINTED PAGE: 1 confirmed, 3 refuted, 2 declined — while
+every reader claim about the ENGLISH stood.** Weight them accordingly.
+
+### ⛔⛔ THERE IS NO SECOND WITNESS FOR PL 114, AND THREE FILES SAID THERE WAS
+`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf` is **PL 202 — Peter of Blois, *Epistolae***
+(running head "EPISTOLAE. — LIB. II" at cols 593/594; `data/volumes.json` registers that item
+under PL 202, and `patrologiaecurs114migngoog` under PL 138). **The "114" is the Internet Archive
+ITEM number, not the tome.** `raw/scans/pl202/` was the right directory; the `copyB_` prefix was
+the error, and THIS FILE propagated it in three places. It was the stated resolution path for
+every marginal crux in the volume. Corrected in place here and in `plate-reads.json`.
+⚑ Real unfetched alternatives: Google Books `s_wQAAAAYAAJ`, `4vcUAAAAQAAJ`, Gallica
+`ark:/12148/bpt6k54939667`. **Until one is fetched, a marginal PL 114 crux is settled by
+MAGNIFICATION on `patrologiaecurs06saingoog`, or not at all.**
+⭐ Which is how **0533 `rationē` was settled at 1200 dpi**: a clean deliberate macron — centred,
+defined ends, macron height, same ink weight as the surrounding type. Migne sets *rationem*, which
+does not construe (*praeditus* governs the ablative) while *ratione* does. It had been HELD for
+the witness that does not exist.
+
+### SEVEN HIDDEN DEFECTS, three of them Migne's
+`data/tei-patches/8981.json`. **0522A `qni`** (a turned u, with clean-u controls on the same and
+next line), **a spurious `et` CC INSERTED at 0522C** which had reached the English, and the 0533
+macron. Our Latin read correctly at all three.
+⚠ **A trap worth more than the patch it belongs to:** the first 600 dpi crop for `nomines` landed
+on a DIFFERENT occurrence eight lines away that our file transcribes correctly. **The control has
+to be the line the defect is on, not the nearest line containing the same word.**
+
+### ⚠ NEW ABOUT THE VOLUME — clipping is on BOTH margins
+**pp. 274, 276, 278, 280 all clip the LEFT margin**, losing the left column's opening characters
+and its corner number (537, 541, 545, 549). PL 114's clipping was on record for p.265/281 (RIGHT)
+and p.290/330/340 (LEFT). **Per-page, and now confirmed on both margins inside a single work.**
+
+### Convention drift, and a brief that needs fixing
+`Quasi dicat` came back three ways from three stints; settled by the corpus (239 × "as if he
+should say", used by every sibling Pauline epistle in this volume), normalized over 16 sites.
+**Register needed NO conversion — `ye` 0, `you` 103, the first work in four.**
+⬜ **`GLOSSA-NT-AGENT-BRIEF.md` and the runbook template give `CHAPTER SEVEN.` as the head form.
+That is WRONG and all three stints correctly ignored it** — the corpus has zero spelled-out forms,
+`CHAPTER XIII.` in 26 works, `CHAPTER ONE.` in 61. The rule is to MIRROR THE PLATE: Migne sets
+*CAPUT PRIMUM* spelled and *CAPUT XIII* in numerals. **Fix the example before the next launch.**
+
+## ▶ OPEN — FOR WILSON
+1. ⬜ **The `[sic:]` backlog** (381 pages) and the **`[var:]` half** — the prior is now positive
+   across four works (36/37, 14/14, 7/7, 14/14).
+2. ⬜ **`chunk-work.mjs` over-claims coverage** — carried, unfixed, wants your go.
+3. ⬜ Carried: 8988 `0636A` *aurursus*; 8976 vs Pattern 7; 8986 `Baruch III @ 0561A`.
+4. ⬜ **Fetch a real PL 114 second witness** (Gallica is the easiest of the three) if any future
+   crux falls in a clipped margin.
+
+## ▶ NEXT — one Pauline book CHUNKED AND SPOT-CHECKED, 20 chunks ready
+
+| idno | book | words | chunks | est. burn @50K | state |
+|---|---|---:|---:|---:|---|
+| 8996 | Epistola ad Romanos | 20,688 | **20** | ~1.0M | ✅ ready — see below |
+
+⭐ **ROMANS IS NOT A CHECKED ZERO.** p.240 (cols 469/470) carries an **ASTERISK-LAYER note** keyed
+to a raised `*` before the VERS. 2 lemma *Quod ante* at 0470B — Migne's pointer to **Haymo of
+Halberstadt** at PL 116–118. Already in `data/plate-notes/8996.tsv` and injected as `[cn: * | …]`.
+⛔ **It is owed a translated `[nt: …]` opposite in the English** (2026-08-24 ruling) — tell the
+translating agent, or `verify-english` fails on the parity. ⚠ Its first word is transcribed as
+printed, *Quiquid*, probably Migne's own setting for *Quidquid*; verify at magnification.
+Its coverage entry is `partial`, tier 3 — only 2 of ~26 pages read.
+
+Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K**.
+
+
 ## ▶▶▶▶▶ SESSION 2026-08-30b — 8993 *EPISTOLA AD HEBRAEOS* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE
 
 Corpus **148 → 149**, `/glossa` **42 → 43 of 58**, cruces **145 → 146**. Commits `904562c` →

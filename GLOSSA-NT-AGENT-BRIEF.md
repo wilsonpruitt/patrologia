@@ -77,6 +77,12 @@ These were settled on **Liber Ruth (8968)**, the pilot; the full statement is
 - `## ` heads: **translate the head text** (`ARGUMENTUM.` → `THE ARGUMENT.`;
   `CAPUT UNICUM.` → `THE ONLY CHAPTER.`; `CAPUT PRIMUM.` → `CHAPTER ONE.`), keeping the
   `## ` structure 1:1. Match Ruth's shipped English for the `CAPUT` forms.
+  ⭐ **NUMERALS MIRROR THE PLATE, and this is measured (2026-08-31).** Migne sets *CAPUT PRIMUM*
+  **spelled** and *CAPUT XIII* in **numerals**, so the English does the same: `CAPUT PRIMUM.` →
+  `CHAPTER ONE.` but `CAPUT XIII.` → **`CHAPTER XIII.`**, never "CHAPTER THIRTEEN.". The corpus
+  has **zero** spelled-out forms above ONE, against `CHAPTER XIII.` in 26 works and `CHAPTER ONE.`
+  in 61. ⚠ An earlier launch message gave "CHAPTER SEVEN." as its example; all three stints
+  correctly ignored it and checked the corpus instead.
 - Italics `*…*` and list `- ` lines: preserve structure. **Every italic span in the Latin
   is an italic span in your English, in the same place.**
 - Defect markers are ENGLISH-ONLY, patterns 11–13: `[d: …]`, `[sic: …]`, `[ed: …]`. Read
