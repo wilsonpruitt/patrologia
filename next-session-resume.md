@@ -89,7 +89,7 @@ session itself, so it is not a separate agent burn but it is 14 pages of reading
 2. **✅ Deploy and push both done this session.**
 3. **⬜ 0661C unsettled because OUR COPY CLIPS IT.** p.336 clips the left margin;
    *quod non valet ad probationem ___* falls in the clip. Changes nothing in the English. The
-   second witness (`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`) closes it in one page.
+   ⛔ **so-called second witness is PL 202, not PL 114 — it closes nothing. See 2026-08-31.**
 4. **⬜ 0655D — *Ilic autem* or *Hic autem*?** Raised by the read, by no agent. Italic capital
    whose crossbar may have dropped out at this scan's resolution. Seen, left, not patched.
 5. **⬜ 11065 @0044 carries the same *sanctur* fault** and is SHIPPED. Recorded, not swept
@@ -117,7 +117,7 @@ magnification.
 ⚠⚠ **OUR PL 114 COPY CLIPS A MARGIN on scattered pages in this stretch** — now confirmed on
 **p.330 and p.340 (LEFT margin)** as well as p.265/p.281 (RIGHT) and p.290 (LEFT). **Per-page, not
 per-volume.** Any marginal crux needs the second witness
-(`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`, a PL 114 copy B filed under `pl202`).
+⛔ **— THAT FILE IS PL 202 (Peter of Blois, *Epistolae*), NOT a PL 114 copy; there is NO second witness for PL 114 on disk. Established 2026-08-31; see `data/tei-patches/8981.json`.**
 
 Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K, **Psalms 90K**.
 
@@ -236,7 +236,7 @@ printed, *Quiquid*, probably Migne's own setting for *Quidquid*; verify at magni
 ⚠⚠ **OUR PL 114 COPY CLIPS A MARGIN on some pages in this stretch** — p.265 and p.281 lose the RIGHT
 column's closing characters; **p.290 clips the LEFT margin** (confirmed this session). Per-page, not
 per-volume. Any marginal crux needs the second witness
-(`raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf`, a PL 114 copy B filed under `pl202`).
+⛔ **— THAT FILE IS PL 202 (Peter of Blois, *Epistolae*), NOT a PL 114 copy; there is NO second witness for PL 114 on disk. Established 2026-08-31; see `data/tei-patches/8981.json`.**
 
 **Quote ~45K/chunk for these (epistles), state the polarity read as its own burn, and state the
 plate gate as a third.** Then Deuteronomy 21K, the Gospels 24–45K each, Genesis/Exodus 42–43K,

@@ -1,7 +1,7 @@
 {
  "note": "PLATE GATE of 8981 (Glossa ordinaria, Epistola I ad Corinthios), 2026-08-30. Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column + 11) / 2, calibrated against the printed corner numbers before the first read (p.266 prints 521/522). 11 pages read (266-268, 272, 274-280) plus p.269 for the polarity read's open items. RESULT: 14 [var:] STAND, 0 revised, 0 false. FOUR new [cj:] LICENSED by the read, none of them fireable blind. ONE blind reader's proposed [cj:] DECLINED (0546C).",
  "class": "TWO DIRECTIONS. (1) CORRUPTED -- Corpus Corporum broke a word Migne set correctly; repaired here, and no marker may be fired against Migne on the strength of it. (2) NORMALIZED -- CC silently tidied a defect in Migne's own type; restored so the page can show what he printed. Our Latin read CORRECTLY at both normalized sites, so no check we own could have found either.",
- "result": "4 CORRUPTED, 2 NORMALIZED.",
+ "result": "5 CORRUPTED, 3 NORMALIZED.",
  "patches": [
   {
    "col": "0522A",
@@ -44,6 +44,13 @@
    "replace": "spirituale",
    "direction": "corrupted",
    "why": "Plate p.280 prints 'spirituale' whole at every occurrence in this gloss. An INTERNAL loss (ri), so not attributable to this page's left-margin clipping, which removes leading characters only. CC's. No marker."
+  },
+  {
+   "col": "0533",
+   "find": "sed ratione praeditarum animarum",
+   "replace": "sed rationem praeditarum animarum",
+   "direction": "normalized",
+   "why": "Plate p.272 col 0533 sets 'sed rationē praeditarum animarum' — a MACRON over the final e, verified at 1200 dpi: a clean deliberate bar, centred on the letter, with defined ends, at macron height, in the same ink weight and crispness as the surrounding type. Not a speck, scratch or bleed-through, each of which would be off-axis or lighter. The macron expands to 'rationem', which does NOT construe (praeditus governs the ablative) while 'ratione' does — which is exactly what made CC's tidying invisible. Restored so the column prints what Migne set; the English carries a [cj:] giving 'ratione'. ⚠ Whether Migne's compositor intended the m or slipped is not determinable from the page; what the page CARRIES is determinable, and this is it. ⛔ This was left unresolved on 2026-08-30 pending a 'second witness' that DOES NOT EXIST — see the plate-reads caveat: raw/scans/pl202/copyB_patrologiaecurs114unkngoog.pdf is PL 202 (Peter of Blois, Epistolae), not PL 114. Settled instead by magnification on the witness we have."
   }
  ]
 }
