@@ -1,10 +1,30 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ SESSION 2026-08-31d — THE `[sic:]`/`[var:]` BACKLOG, PL 196 · ✅ BOTH WORKS GATE-CLEAN · ⬜ NOT DEPLOYED
+## ▶ PAUSED 2026-08-31 (Wilson) — the `[sic:]`/`[var:]` backlog hunt
+
+Wilson: *"i want to pause this sic var hunt for now. i just wanted to cut it down a bit."* This
+session's fleet (8996 calibration + PL 115/196/203) resolved **565 of the 1,454 uncovered
+markers**, all pushed and deployed live on migne.app 2026-08-31. Remaining backlog is **~890
+markers across 75 works**, plus 9033's 22 stranded columns (missing scan leaves) and 11632's 68
+remaining columns (cols 0318–0486, tooling already in place — see the PL 203 session below).
+
+**Do NOT resume this without Wilson asking for it.** When he does: (1) the model-tier question is
+still open — see `feedback_two-agents-same-error-suspect-the-prompt`-adjacent reasoning in this
+session's chat, no calibration run has actually been done comparing Sonnet vs Opus on a blind
+re-read of an already-resolved batch; run that cheaply before switching tiers. (2) Two open items
+need Wilson's own ruling first, independent of the pause: 11550 @0436C (*caminus* vs *canimus*,
+see that work's cruces.md) and 9033's 22 unreadable columns (lead: Lyon's numelyo library may hold
+PL 115 where Gallica/HathiTrust/Google Books do not).
+
+**Volume translation queue is UNCHANGED and not paused** — Deuteronomy is done; the Gospels
+24-45K each, Genesis/Exodus 42-43K, Psalms 90K remain queued, per the prior sessions' notes below.
+
+## ▶▶▶▶▶ SESSION 2026-08-31d — THE `[sic:]`/`[var:]` BACKLOG, PL 196 · ✅ BOTH WORKS GATE-CLEAN · ✅ PUSHED + DEPLOYED (see PAUSED note above)
 
 **11535** *De eruditione hominis interioris* and **11550** *Explicatio in Cantica canticorum*, the
-two works Wilson named as carrying the backlog. Commits `1ce533e` and `6758b22`, **not pushed, not
-deployed** — the site still serves the old text, so a deploy is owed before anything on migne.app
+two works Wilson named as carrying the backlog. Commits `1ce533e` and `6758b22`, **pushed and
+deployed later the same session** alongside the PL 115/203 work — the "not pushed, not deployed"
+state described just below was true when this section was first written but is stale; migne.app
 reflects this.
 
 ### The numbers
