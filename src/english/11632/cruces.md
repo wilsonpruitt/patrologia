@@ -8,9 +8,12 @@ will drift on its load-bearing vocabulary, and reconciling that is a required
 pipeline step (`translation-runbook.md` step 4), not a tidy-up. Concatenating is
 the easy half.
 
-Work totals **after the eleven-reader blind polarity read and the whole-apparatus
-audit** (§7): **101 `[var:]` · 50 `[sic:]` · 0 `[ed:]` · 0 `[d:]` · 0 `[nt:]` ·
-0 `[f:]` · 719 `[n:]`** (719 in the Latin twins — exact parity).
+Work totals **after the 2026-08-31 partial plate read** (§13): **100 `[var:]` ·
+48 `[sic:]` · 0 `[ed:]` · 0 `[d:]` · 0 `[nt:]` · 0 `[f:]` · 719 `[n:]`** (719 in the
+Latin twins — exact parity). After the eleven-reader blind polarity read and the
+whole-apparatus audit (§7) they were 101 / 50; **one `[var:]` and four `[sic:]` were
+withdrawn at the plate** as Corpus Corporum's corruption, not Migne's type, and a
+fifth `[sic:]` had its lemma corrected.
 `verify-english.mjs` clean at 126/126: columns, notes and sections aligned, no
 duplicate paragraphs. EN/LA word ratio 1.56 work-wide (209,013 / 134,020).
 
@@ -857,3 +860,97 @@ the same test rather than by counting precedents. *aforis* (0077) renders in
 place as "from without" and takes no marker; *persequenter* (0046 @0300C) and the
 lemma-level *myrrhoe* (0069 @0353D) are non-words and **should be marked** — both
 are currently normalized silently, and both remain owed.
+
+---
+
+## §13 · PLATE READ, 2026-08-31 — PARTIAL PASS, cols 0185–0307 (85 of 153 markers)
+
+CLAUDE.md hard rule 8a: every `[sic:]` and `[var:]` in this work stood on a column
+nobody had read. **85 of the 153 were carried to the plate this session — every one
+standing on cols 0185–0307. The remaining 68, from col 0318 to col 0486, are still
+owed.** `node scripts/plate-gate.mjs 11632` therefore still exits non-zero, and
+should: the marker total is now 148 (five markers were withdrawn outright) and the
+uncovered count has fallen from 153 to 68.
+
+**Result on the 85 read: 79 CONFIRMED as Migne's own printing · 5 WITHDRAWN as
+Corpus Corporum's corruption · 1 lemma corrected.** Patches in
+`data/tei-patches/11632.json`; reads in `data/plate-reads.json` under
+`works["11632"]`, one entry per half-column.
+
+### The scan and its page map — calibrated, and uniform for this work
+
+**archive.org `patrologiaecurs191unkngoog`**, on disk at
+`raw/scans/pl203/patrologiaecurs191unkngoog.pdf`. **PDF page = (column + 27) / 2**,
+verified against the printed corner numbers on **every one of pages 104–258** (five
+contact sheets of just the corner numbers, which is cheap and is what a formula fitted
+at one end of a volume cannot substitute for). ⚑ **That uniformity is a fact about
+THIS work's range only.** The same scan duplicates cols 491–494 and is missing cols
+515–518 outright, so the offset shifts twice inside 11638 — see
+`src/english/11638/cruces.md` §9 and `data/tei-patches/11638.json`. ⚑ Also recorded
+there: `data/volumes.json` lists only two archive.org candidates for PL 203, one of
+which is Augustine; there are four, and a second complete witness
+(`patrologiaecur203mign`, page = (column + 25) / 2) is now on disk beside the first.
+
+### The five withdrawals, and why two of them matter beyond their own column
+
+| col | our TEI | the plate | what it cost |
+|---|---|---|---|
+| **0202C** | *Pecte* | **Recte** | a `[sic:]`, and one of §8.1's four disputed cases |
+| 0256C | *a vida* | **avida** (one word) | a `[sic:]`, and one of §8.4's six carried splits |
+| 0260B | *munos* | **munus** | a `[sic:]` |
+| **0299D** | *Adjuvo* | **Adjuro** | a whole `[var:]` |
+| 0300D | *persequenter* | **persequentur** | a `[sic:]` |
+
+⭐ **0202C settles the first of §8.1's four.** That section argued the four real-word
+`[sic:]` should stand *because none of them construes in place* — *Pecte* leaves its
+sentence without a subject. **It leaves nothing without a subject: Migne prints
+*Recte*, and the sentence is ordinary.** The word that would not construe was never on
+the plate. ⚠ This does not decide the other three by itself, and one of them has now
+been read the other way: **0304A *signa* IS Migne's own** (read this session, zoomed;
+the plate prints *ut signa prius ardeat*). So §8.1's boundary question survives — it is
+still Wilson's — but its evidence base has changed: the class is not homogeneous, and
+each member has to be read.
+
+⭐⭐ **0299D is the class the gate exists to catch: a `[var:]` MANUFACTURED by the
+digitization.** The marker asserted that Migne prints *Adjuvo* ("I help") where the
+Vulgate has *adiuro*, and built the observation that Migne prints the adjuring form
+both at 0299C and at 0302A into the case. He prints it at 0299D too. The divergence
+was our own transcription's, and the English lemma now reads "I adjure you." **Nothing
+in our files could have caught this** — the marker's own internal control pointed at
+the right answer and was read as evidence for the wrong one.
+
+⚑ **0256C and 0235D go opposite ways on the same defect class, 21 columns apart.**
+0256C's *a vida* is CC's inserted space (the a/v gap on the plate is a kerning gap,
+markedly narrower than the flanking word spaces at 8×); 0235D's *a beo* is **Migne's
+own displaced word-space** for *ab eo* (a full word space, plainly). §8.4's split/join
+asymmetry cannot be resolved by policy: **every split has to be read.**
+
+### One marker kept, with its lemma corrected
+
+**0241C is *lchari*, not *lehari*.** The plate's second letter is an open **c** against
+the crossbarred *e* of *stulte* on the same line, at 8× on the native page. Migne's own
+misprint (for *Icari* — the Daedalus sentence two lines above demands Icarus) stands as
+a `[sic:]`; only what we quote it as changes, in the TEI and the English alike.
+
+### Confirmed and now plate-licensed (selection)
+
+*molodia* @0185B (with *melodiam* printing correctly three lines above — an internal
+control) · *tilulo* @0186C · *eumdum* @0191C · *Desalutari* @0220A, **re-described**:
+the plate breaks it across a line as *De-* / *salutari*, so the *o* of *Deo* really is
+absent from the type · *a beo* @0235D · *lchari* @0241C · *vidilicet* @0254D ·
+*cam* @0263A · *idco* @0273A · *ooopertus* @0283A (three *o*'s) · *reete* @0294C ·
+*vul* @0306C · *signa* @0304A. Every `[var:]` on cols 0185–0307 was confirmed except
+0299D.
+
+### ⬜ STILL OWED
+
+1. **68 markers on cols 0318–0486** — the whole second half of the work. The scan, the
+   page map and the tooling are now in place; this is a continuation, not a new setup.
+   ⚠ **§8.3's `[sic: *informen t*]` at 0428A is inside that range and is still
+   unresolved** — it remains §10's first owed item.
+2. **The numbered foot-of-page apparatus.** PL 203 carries one, and it is dense in this
+   work: *(64) Ovidius, lib. I Fastorum* (p.112), *(64') Ovidius, lib. II De arte
+   amandi* (p.114), *(66)* (p.117), **(67) *Pro saltem*** (p.138 — a *Forte*-class
+   conjecture, exactly the apparatus CLAUDE.md says settles cruces), *(68) Ovid. I
+   Metamorph.* (p.139), *(69) Allusio ad illud Symboli…* (p.166). None is recovered;
+   `data/plate-notes/coverage.json` has no 11632 entry.

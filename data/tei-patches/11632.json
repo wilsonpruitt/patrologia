@@ -1,0 +1,49 @@
+{
+  "note": "PLATE READ of 11632 (Philippus de Harveng, Commentaria in Cantica canticorum), 2026-08-31, PARTIAL PASS. Migne PL 203, on-disk scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf. For THIS work's column range (0181-0490) the page map is uniform and was verified against the printed corner numbers on every one of PDF pages 104-258 in five contact sheets: PDF page = (column + 27) / 2. (The discontinuities that afflict the same scan further on — a duplicated 491-494 and a missing 515-518 — all fall AFTER this work; see data/tei-patches/11638.json.) Markers on cols 0185-0307 were carried to the plate this session; the rest are still owed.",
+  "class": "Five CORRUPTED (Corpus Corporum substituted or split what Migne set correctly) and one LEMMA CORRECTION (the plate's defective word is real but CC misread one of its letters, so the [sic:] stands with a corrected lemma).",
+  "result": "5 CORRUPTED: 0202C Pecte->Recte (R read as P), 0256C 'a vida'->avida (a word-space inserted where the plate has only the a/v kerning gap), 0260B munos->munus, 0299D Adjuvo->Adjuro (r read as v — this one carried a [var:] whose whole claim collapses with it), 0300D persequenter->persequentur. 1 LEMMA CORRECTION: 0241C lehari->lchari; the plate's word is still a non-word (Migne's own misprint for Icari), so the [sic:] stands but must quote what the plate prints.",
+  "patches": [
+    {
+      "col": "0202C",
+      "find": "regis magni de te digne dicimus, gloriosa. Pecte\nigitur virgo ubera sponsi vino dicit meliora, quia",
+      "replace": "regis magni de te digne dicimus, gloriosa. Recte\nigitur virgo ubera sponsi vino dicit meliora, quia",
+      "direction": "corrupted",
+      "why": "Plate p.114 col 202C (corners verified 201/202) prints 'gloriosa. Recte igitur virgo ubera sponsi vino dicit meliora' -- zoomed 4x, an unambiguous capital R with its leg, against the P of 'Pharaonis' elsewhere on the page. CC read it as P. ⭐ This settles the FIRST of the four disputed real-word [sic:] listed in cruces.md §8.1: *Pecte* is not a broken imperative that fails to construe, it is our own transcription's error, and the sentence reads perfectly as Migne set it. The English [sic: *Pecte*] at chunk 0007 is WITHDRAWN; render 'Rightly, therefore, the virgin…'."
+    },
+    {
+      "col": "0241C",
+      "find": "propiora, vel ne a gloria deprimamur, dum ad formam\nlehari stulte invadimus altiora.",
+      "replace": "propiora, vel ne a gloria deprimamur, dum ad formam\nlchari stulte invadimus altiora.",
+      "direction": "corrupted",
+      "why": "Plate p.134 col 241C (corners verified 241/242) prints 'dum ad formam lchari stulte invadimus altiora' -- zoomed 8x on the native page: the second letter is an open c, against the crossbarred e of 'stulte' on the same line. So Migne's own misprint (for *Icari*, Icarus, which the Daedalus sentence two lines above demands) is *lchari*, not *lehari*. This is NOT a withdrawal: the defect is the plate's and the [sic:] stands. Only the lemma changes, in the TEI and in the English marker alike."
+    },
+    {
+      "col": "0256C",
+      "find": "sed fauce semper a vida satiatur. Candor Virginis",
+      "replace": "sed fauce semper avida satiatur. Candor Virginis",
+      "direction": "corrupted",
+      "why": "Plate p.141 col 256C (corners verified 255/256) prints 'sed fauce semper avida satiatur' as ONE word -- zoomed 8x on the native page, the gap between a and v is a kerning gap and is markedly narrower than the word spaces flanking it ('semper|avida', 'avida|satiatur'). CC inserted a space. The English [sic: *a vida*] at chunk 0030 is WITHDRAWN; render 'ever greedy' with no marker. ⚑ This is one of the six carried word-SPLITS logged in cruces.md §8.4 and the first of them to be read at the plate."
+    },
+    {
+      "col": "0260B",
+      "find": "Ipsa prior, ipsa felicior accipit grande munos, per quod",
+      "replace": "Ipsa prior, ipsa felicior accipit grande munus, per quod",
+      "direction": "corrupted",
+      "why": "Plate p.143 col 260B (corners verified 259/260) prints 'accipit grande munus, per quod multi et diversi facti sunt velut unus' -- zoomed 7x, a clean u, and the sentence's own 'unus' four words later is the control. CC read o for u. The English [sic: *munos*] at chunk 0031 is WITHDRAWN; render 'a great gift' with no marker."
+    },
+    {
+      "col": "0299D",
+      "find": "<pb n=\"0299D\"/>\n<p> <hi>Adjuvo vos, filiae Hierusalem, ne suscitetis, neque",
+      "replace": "<pb n=\"0299D\"/>\n<p> <hi>Adjuro vos, filiae Hierusalem, ne suscitetis, neque",
+      "direction": "corrupted",
+      "why": "Plate p.163 col 299D (corners verified 299/300) prints the CAPUT XXVI head as 'Adjuro vos, filiae Hierusalem' -- and four lines above it, in the same column, 'sic ait: Adjuro, etc.', which our own TEI already transcribes with the r. CC read r as v in the head only. ⛔ The [var:] this carried is therefore VOID, not merely unproven: it asserted that Migne prints *Adjuvo* ('I help') for the Vulgate's *adiuro*, and Migne prints *Adjuro*. The marker at chunk 0046 is WITHDRAWN and the English lemma must read 'I adjure you'. This is the class the plate gate exists to catch -- a [var:] manufactured by the digitization."
+    },
+    {
+      "col": "0300D",
+      "find": "Judicis persequenter. Sed quid est quod per",
+      "replace": "Judicis persequentur. Sed quid est quod per",
+      "direction": "corrupted",
+      "why": "Plate p.163 col 300D (corners verified 299/300) prints 'indignatio et animadversio districti Judicis persequentur' -- zoomed 7x, a clean u where CC read e. The English [sic: *persequenter*] at chunk 0046 is WITHDRAWN; render 'shall pursue' with no marker. ⚑ cruces.md §8.4 lists *persequenter* among the defects our text SILENTLY NORMALIZED in one place while marking it in another; the plate now shows there was no defect to normalize."
+    }
+  ]
+}

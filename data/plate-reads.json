@@ -2106,6 +2106,555 @@
         }
       ]
     },
+    "11632": {
+      "series": "pl",
+      "volume": 203,
+      "scan": "raw/scans/pl203/patrologiaecurs191unkngoog.pdf",
+      "page_map": "PDF page = (column + 27) / 2, verified against the printed corner numbers on EVERY page 104-258 (five contact sheets of the corner numbers alone). Uniform across this work’s whole range. ⚠ The SAME scan is piecewise further on, inside 11638: it duplicates cols 491-494 and is MISSING cols 515-518. Do not carry this formula past col 494.",
+      "note": "2026-08-31, PARTIAL PASS. 60 of this work’s 153 [sic:]/[var:] markers read at the plate — those standing on cols 0185-0307: 54 confirmed as Migne’s own printing, 5 withdrawn as Corpus Corporum’s corruption (data/tei-patches/11632.json), 1 lemma corrected. 93 markers on cols 0318-0486 are STILL OWED and plate-gate.mjs still exits non-zero for this work. Entries below are HALF-COLUMN reads (bands A-B or C-D), each one 300 dpi crop with the page’s running head and corner numbers stacked above it and read first. Full account in src/english/11632/cruces.md §13.",
+      "reads": [
+        {
+          "from": "0185A",
+          "to": "0185D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 106,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0186A",
+          "to": "0186D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 106,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0191A",
+          "to": "0191D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 109,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0193A",
+          "to": "0193D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 110,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0196C",
+          "to": "0196D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 111,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0198C",
+          "to": "0198D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 112,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0199C",
+          "to": "0199D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 113,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0200A",
+          "to": "0200B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 113,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0201A",
+          "to": "0201D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 114,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0202C",
+          "to": "0202D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 114,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "CORRUPTION FOUND: Migne prints *Recte*; CC read *Pecte*. Marker withdrawn, TEI patched — this settles the first of the four disputed real-word [sic:] of cruces.md §8.1."
+        },
+        {
+          "from": "0204A",
+          "to": "0204B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 115,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0206C",
+          "to": "0206D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 116,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0208A",
+          "to": "0208B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 117,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0209A",
+          "to": "0209B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 118,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0210A",
+          "to": "0210B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 118,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0211A",
+          "to": "0211D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 119,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0213C",
+          "to": "0213D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 120,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0214A",
+          "to": "0214B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 120,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0216A",
+          "to": "0216B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 121,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0217C",
+          "to": "0217D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 122,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0219C",
+          "to": "0219D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 123,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0220A",
+          "to": "0220D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 123,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "0220A [sic: *Desalutari*] CONFIRMED, and re-described: the plate breaks it across a line as *De-* / *salutari*, so the o of *Deo* is genuinely absent from the type."
+        },
+        {
+          "from": "0222A",
+          "to": "0222D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 124,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0224C",
+          "to": "0224D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 125,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0226A",
+          "to": "0226B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 126,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0227A",
+          "to": "0227D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 127,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0230C",
+          "to": "0230D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 128,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0235A",
+          "to": "0235D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 131,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "0235D [sic: *a beo*] CONFIRMED as Migne’s own displaced word-space for *ab eo* — note the opposite verdict from 0256C on the same page-range, which is why each split must be read individually."
+        },
+        {
+          "from": "0238C",
+          "to": "0238D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 132,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0239A",
+          "to": "0239B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 133,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0240A",
+          "to": "0240B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 133,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0241A",
+          "to": "0241D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 134,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "LEMMA CORRECTED: the plate prints *lchari* (open c), not *lehari*. Migne’s own misprint for *Icari*; the [sic:] stands with the corrected lemma."
+        },
+        {
+          "from": "0244A",
+          "to": "0244B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 135,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0249A",
+          "to": "0249B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 138,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0250A",
+          "to": "0250B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 138,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0251C",
+          "to": "0251D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 139,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "0251C confirmed. Also on this page: the numbered foot-of-page note \"(67) Pro saltem.\" — a Forte-class conjecture."
+        },
+        {
+          "from": "0252C",
+          "to": "0252D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 139,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0253C",
+          "to": "0253D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 140,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0254C",
+          "to": "0254D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 140,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0255A",
+          "to": "0255B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 141,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0256C",
+          "to": "0256D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 141,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "CORRUPTION FOUND: Migne prints *avida* as one word; CC inserted a space. Marker withdrawn, TEI patched."
+        },
+        {
+          "from": "0260A",
+          "to": "0260B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 143,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "CORRUPTION FOUND: Migne prints *munus*; CC read *munos*. Marker withdrawn, TEI patched."
+        },
+        {
+          "from": "0263A",
+          "to": "0263B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 145,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0264C",
+          "to": "0264D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 145,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0268A",
+          "to": "0268B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 147,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0273A",
+          "to": "0273B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 150,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0283A",
+          "to": "0283B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 155,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0284C",
+          "to": "0284D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 155,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0285A",
+          "to": "0285B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 156,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0286C",
+          "to": "0286D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 156,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0288C",
+          "to": "0288D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 157,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0290C",
+          "to": "0290D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 158,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0291A",
+          "to": "0291D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 159,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0292C",
+          "to": "0292D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 159,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0294C",
+          "to": "0294D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 160,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0299C",
+          "to": "0299D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 163,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "CORRUPTION FOUND: Migne prints *Adjuro vos, filiae Hierusalem* at the CAPUT XXVI head; CC read *Adjuvo*. The [var:] built on that reading is VOID and is withdrawn; TEI patched."
+        },
+        {
+          "from": "0300C",
+          "to": "0300D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 163,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "CORRUPTION FOUND: Migne prints *persequentur*; CC read *persequenter*. Marker withdrawn, TEI patched. Also on this page: numbered foot-of-page notes."
+        },
+        {
+          "from": "0304A",
+          "to": "0304B",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 165,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "0304A [sic: *signa*] CONFIRMED as Migne’s own printing — the second of cruces.md §8.1’s four disputed real-word markers, and unlike 0202C it IS the plate’s."
+        },
+        {
+          "from": "0306C",
+          "to": "0306D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 166,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        },
+        {
+          "from": "0307A",
+          "to": "0307D",
+          "depth": "read",
+          "date": "2026-08-31",
+          "page": 167,
+          "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Page map PDF page = (column + 27) / 2, verified against the printed corners on EVERY page 104-258 (five contact sheets of the corner numbers) — uniform across this whole work.",
+          "found": "every [sic:]/[var:] standing on this column confirmed as Migne’s own printing"
+        }
+      ]
+    },
     "11638": {
       "series": "pl",
       "volume": 203,
