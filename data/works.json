@@ -22010,14 +22010,15 @@
     },
     {
       "workIdno": "3981",
-      "author": "Anselmus Laudunensis et schola",
+      "author": "Auctor incertus (Walafridus Strabo?)",
       "attributions": [
         {
-          "author": "Anselmus Laudunensis et schola",
-          "authorIdno": "20411",
-          "authorYear": "1117",
-          "authorStatus": "minimal",
-          "authorStatusVerified": false
+          "author": "Auctor incertus (Walafridus Strabo?)",
+          "authorIdno": null,
+          "authorYear": "849",
+          "authorStatus": "untriaged",
+          "authorStatusVerified": false,
+          "correctedFromPlate": "2026-09-02"
         }
       ],
       "words": 23135,
@@ -22028,8 +22029,10 @@
       "colLast": "916B",
       "cpl": null,
       "translation": {
-        "workStatus": null,
-        "englishState": null
+        "workStatus": "none",
+        "workStatusVerified": "2026-09-02",
+        "workStatusBasis": "Wilson's own ruling, 2026-09-02: 'i am confident to say this is a first english translation. quick search brought nothing close to it and all the english translations are recent and pop up quickly.' Recorded rather than left null so the strong badge rests on a NAMED verification with a date, not on a tidied-away absence -- CLAUDE.md rule 8 forbids turning a null workStatus into 'none' precisely because an untraceable 'none' is indistinguishable from evidence. This one is traceable.",
+        "englishState": "ours"
       },
       "texts": [
         {
@@ -22045,10 +22048,17 @@
           "ccCode": "WalStr.ExInQuE",
           "tei": true,
           "bytes": 164671,
-          "sha256": "9b76734787aeb2a4",
-          "translation": {
-            "englishState": "ours"
-          }
+          "sha256": "9b76734787aeb2a4"
+        }
+      ],
+      "authorNote": "Byline corrected 2026-09-02 from the plate. Corpus Corporum files this work under the Glossa ordinaria author (Anselmus Laudunensis et schola); Migne does not print it as Glossa. PL 114 gives it its own title block -- WALAFRIDI STRABI FULDENSIS MONACHI, EXPOSITIO IN QUATUOR EVANGELIA -- at cols 861-916, well past the end of the Glossa proper, with its own editorial preface, the Admonitio Martianaei, in which Martianay says he found the commentary in manuscripts FALSELY ascribed to Jerome (falso ascriptam Hieronymo) and printed it maxime quod Strabus Fuldensis auctor esse POTUERIT hujus Commentarii -- could have been the author. The attributions[] array below is left as harvested: it records what Corpus Corporum asserts, which is the evidence for where the wrong byline came from, not our claim.",
+      "ccAttributions": [
+        {
+          "author": "Anselmus Laudunensis et schola",
+          "authorIdno": "20411",
+          "authorYear": "1117",
+          "authorStatus": "minimal",
+          "authorStatusVerified": false
         }
       ]
     },

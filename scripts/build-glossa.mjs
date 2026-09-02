@@ -27,6 +27,18 @@ const read = p => JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8'));
 const fmt = n => Number(n).toLocaleString('en-US');
 
 const AUTHOR = 'Anselmus Laudunensis et schola';
+
+// ⚑ Two works in these tomes are NOT the Glossa and no longer carry the Glossa author,
+// so they must be named explicitly or they vanish from this page (2026-09-02). Migne gives
+// each its own title block under WALAFRIDI STRABI FULDENSIS MONACHI, with its own editorial
+// preface — Martianay's Admonitio for the Gospels (cols 861-916), Pez's Monitum for the
+// Psalms (cols 751-794) — and Pez's preface explicitly distinguishes his Walafridian psalms
+// exposition FROM the ordinaria, inviting the learned to note the discrimen between them.
+// They are kept on this page anyway, and labelled 'a separate exposition', because the page
+// shows what Migne prints under this head and a reader who arrives at one of the 58 wants
+// to find them. Their BYLINE tells the truth even though their place here is editorial.
+// 9003 still reaches this page through AUTHOR and is pending the same byline correction.
+const ALSO_PRINTED_HERE = new Set(['9004']);
 const works = read('data/works.json').works;
 const scan = new Map(read('data/chunk-scan.json').results.map(r => [String(r.idno), r]));
 
@@ -100,7 +112,8 @@ const testament = new Map(ORDER.map(([lat, , t]) => [lat, t]));
 
 const rows = [];
 for (const w of works) {
-  if (w.author !== AUTHOR) continue;
+  const inSet = w.author === AUTHOR || (w.texts || []).some(t => ALSO_PRINTED_HERE.has(String(t.idno)));
+  if (!inSet) continue;
   for (const t of w.texts || []) {
     const idno = String(t.idno);
     const s = scan.get(idno) || {};
