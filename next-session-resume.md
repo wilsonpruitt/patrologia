@@ -140,6 +140,26 @@ fall mid-page). ⚑ p.436 carries an asterisk note that belongs to the **precedi
 the rule — recorded in the caveat so nobody inherits it. Indexing: **0 scripture**, which is a
 fact about the work (one `[n:]` note in 23,000 words; Walafrid's lemmata are unmarked), not a gap.
 
+### ⛔ THE WORKFLOW IS NOW ENFORCED, NOT REMEMBERED — READ THIS BEFORE THE NEXT WORK
+
+**`node scripts/preflight.mjs <idno>` must exit 0 before any deploy.** One command, seven
+checks, each of which either exits non-zero or does not count. Its first is the **RATCHET**:
+`data/plate-backlog-baseline.json` freezes the unread-plate backlog at **889**, and a work
+**absent from that file must carry ZERO unread markers**. New work ships already read.
+
+**So the per-work order is now fixed, and the plate read moves BEFORE the ship, not after:**
+1. `chunk-work.mjs <idno>` → plate **spot check** for foot-of-page notes (2026-08-19 rule).
+2. translate (stints), `verify-english.mjs`.
+3. **read the plate for every `[sic:]`/`[var:]` the stints fired** — this is the step that keeps
+   the number frozen, and on 9004 it cost 25 page renders and withdrew 8 false claims.
+4. merge the cruces files, reconciling convention drift (a real step, not a tidy-up).
+5. blind polarity read → `polarity-record.mjs`.
+6. `index-work.mjs`, build pages, **`preflight.mjs`**, deploy, smoke-test.
+
+⛔ **Never `plate-gate.mjs --freeze` to clear a red ratchet.** The baseline records plates that
+were READ; re-freezing over a regression records a claim nobody checked. Freeze only to lock in
+a fall, after reading plates.
+
 ### NEXT
 
 **Eleven Glossa books left, ~465K Latin words**, smallest first: 9001 Mark (25,718 w), 8963
