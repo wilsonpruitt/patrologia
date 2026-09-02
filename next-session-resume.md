@@ -19,6 +19,136 @@ PL 115 where Gallica/HathiTrust/Google Books do not).
 **Volume translation queue is UNCHANGED and not paused** — Deuteronomy is done; the Gospels
 24-45K each, Genesis/Exodus 42-43K, Psalms 90K remain queued, per the prior sessions' notes below.
 
+## ▶▶▶▶▶ SESSION 2026-09-01/02 — 9004 *EXPOSITIO IN QUATUOR EVANGELIA* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE · ✅ PUSHED
+
+Corpus **152 → 153**, `/glossa` **46 → 47 of 58**. Commits `7acf335` → `90eaf95`, **PUSHED**
+(`origin/master` = `90eaf95`). Deployed twice (`dpl_FWHSDMcge7VuZSWGSErLPRQQTx7E`, then
+`5G5EEbjUiGLXUD7JEAXL1zhkykBh` for the byline + badge correction) and smoke-tested on the real
+domain each time: work page, cruces page, `/glossa`, landing, `/authors`, and the resolver at
+both `/pl/114/861a` and `/pl/114/903c`, all 200.
+
+Walafrid Strabo (attrib.), PL 114 cols 0861A–0916B, 23,255 w, 18 chunks. Four Opus stints
+translated it; four blind Opus readers followed (three polarity, one range each). Badge reads
+**First English translation** on Wilson's own ruling (below).
+
+### ⭐⭐⭐ THE HEADLINE: THE PLATE READ RAN **BEFORE** THE WORK SHIPPED, AND THE RESULT SPLIT PERFECTLY BY MARKER CLASS
+
+**73 markers, 25 pages, 36 columns. 65 confirmed as Migne's, 8 withdrawn as ours.**
+
+| class | fired | confirmed | withdrawn |
+|---|---|---|---|
+| `[var:]` — a quoted clause | 46 | **46** | **0** |
+| `[sic:]` — a single word | 27 | 19 | **8** |
+
+**Every withdrawal is a single broken WORD. Not one quoted clause was ours.** That is the
+11535/11550 asymmetry on a third work and at full strength — 46/46 is the cleanest run of it
+yet. ⚑ Two of the eight are the **same letter-pair in opposite directions inside one work**
+(0906B *m*→`in`, 0912A `in`→*m*), the same mirror argument the 11550 *eum/cum* pair made.
+
+### ⭐⭐⭐ AND THE FINDING THAT SHOULD CHANGE HOW STINTS ARE BRIEFED: THEIR ATTRIBUTION GUESSES WERE WRONG 9 TIMES IN 14
+
+Stints 3 and 4 classed fourteen readings as probably **our-file**. The plate agreed with **five**
+and refuted **nine** (0893A *Fretus alabastrum*, 0897C *prava indirecta*, 0898B *caudes*, 0901D
+*Aprima*, 0903B *arbae*, 0907B *divitatem*, 0912D *primum*, 0913A *istis*, 0913D *fagulis*).
+⛔ **And the three withdrawals in stint 2's range were fired by the one stint that made no
+attribution claim at all** — so across the work, confidence and truth are close to uncorrelated.
+
+⚑ **What failed is identifiable and it is the corpus-as-control argument**: *"the correct form
+prints eleven words later"*, *"a non-word, and the sentence is an etymology of that very word"*,
+*"a contracted* arbores*"*, *"a stray capital fused to the adjective"*, *"a fusion at a line
+break"*. `reference_plate-read-triage` already rules these out — frequency and internal
+corroboration prove an error EXISTS, never whose it is — and this work puts the number on it.
+
+⚑ **A FUSED WORD IS NOT AUTOMATICALLY OURS.** 0897C is the worked case: Luke 3:5 *et erunt prava
+indirecta*, classed as our fusion on the strength of being a fusion. **Re-read at 400 dpi, the
+plate sets it fused**, normal spacing either side. Marker right, class wrong.
+
+### ⚠ A QUALIFICATION TO THE "CORPUS CORPORUM CARRIES NO *FORTE* NOTES" FINDING
+
+**0865A prints an inline bracketed conjecture — *[ Forte, priusquam]* — and our TEI carries it.**
+The measured zero across all 5,276 files is about the **foot-of-page layer**. A conjecture Migne
+sets **inline in the running text** can survive. **A `Forte` grep over the TEI is not a
+guaranteed zero.** Recorded in CLAUDE.md.
+
+### The blind polarity read — 8 defects of ours, 7 repaired, and NOT ONE was a negation
+
+Three readers, disjoint sixes, all 18 chunks, blind to `cruces.md` until findings were written.
+**No dropped or added negation anywhere** (~70 printed particles checked in the John range
+alone; several self-contradictory sentences carried intact). **The failure profile was
+mechanism 5 — a reference silently re-bound to the contextually easier noun — five of eight.**
+Worst was **0908B**, where reading *ipsum* as a nominative intensifier made **God** the maker of
+man's mortality in a sentence whose whole point is that the devil was. Also **0869A**, where the
+Matt 3:15 lemma *sine modo* had been read as prose ("without measure"), leaving its own gloss
+floating free of any lemma. 0914C left standing and logged: the plate's clause is **verbless**
+and our English supplies the verb; no marker class fits a word Migne never set.
+
+### The cruces merge found real convention drift — three axes, 147 edits
+
+*gentes* was rendered three different ways across four stints (one of them self-inconsistent),
+in a work whose whole argument is the *Judaei*/*gentes* typology — the 11551 *epistylium* failure
+in milder form. **The corpus had no convention to inherit** (8945 leans *nations*, 8996 and 9003
+lean *Gentiles*); settled on **gentiles**, after checking that **no *natio* occurs in the work**
+so nothing was flattened. Stint 4 had additionally archaized the **commentator's own voice**
+(168 gloss-side *-eth* forms), which `translation-style.md` forbids; the 88 metalanguage verbs
+(*ostendit*/*significat*/*figurat*) were normalized and the *-eth* forms sitting inside
+**unitalicised scripture quoted in the gloss** deliberately left. Test used: italic membership,
+because it is checkable against the twin.
+
+### ⚠⚠ THE BYLINE WAS WRONG, AND THE SAME ERROR IS STILL LIVE ON 9003
+
+Corpus Corporum files 9004 under the Glossa author. **Migne does not print it as Glossa.** PL 114
+gives it its own title block — **WALAFRIDI STRABI FULDENSIS MONACHI** — at cols 861–916, past the
+end of the Glossa proper, with its own preface, the *Admonitio Martianaei*, saying he found it in
+manuscripts ***falso ascriptam Hieronymo*** and printed it *maxime quod Strabus Fuldensis auctor
+esse **potuerit***. Byline corrected to **`Auctor incertus (Walafridus Strabo?)`** (the corpus's
+existing form, cf. the Bede/Alcuin dubia), rendering as **Anonymous** + attribution flag. The
+harvested CC assertion is preserved in `ccAttributions`, not destroyed.
+
+⬜ **9003 (*Expositio in XX primos Psalmos*, cols 751–794) HAS THE IDENTICAL DEFECT AND IS LIVE
+WITH IT.** Its plate (p.381) was read this session: same title block **WALAFRIDI STRABI
+FULDENSIS MONACHI**, from Pez's *Thesaurus*, with **PEZII MONITUM PRAEVIUM** — and **Pez's own
+preface explicitly distinguishes his Walafridian psalms exposition FROM the *Glossa ordinaria***,
+inviting the learned to note the *discrimen* between them. **It needs the same correction; it was
+not made, because it changes a second live work's public attribution and that is Wilson's call.**
+
+⚑ `/glossa` keeps both works, 9004 now named **explicitly by idno** in `ALSO_PRINTED_HERE` rather
+than reached through the author, so the page still shows what Migne prints under this head
+(58 books, 47 Englished, unchanged). If 9003's byline is corrected, **add it to that set in the
+same commit or it silently vanishes from the page.**
+
+### ⚠ A DATA-SHAPE TRAP, HIT THIS SESSION
+
+`first-english.mjs` reads **work-level** `wk.translation`; every other work carries it there and
+its text-level `translation` is `undefined`. The ship flags were first written to the **text**
+record, where nothing reads them — and **nothing failed loudly**, because `build-glossa` asserts
+"Englished" from the BUILT PAGE and `RECENT` is an explicit list. Corrected. **Write
+`translation` on the WORK record.**
+
+### Badge — Wilson's own ruling
+
+*"i am confident to say this is a first english translation. quick search brought nothing close
+to it and all the english translations are recent and pop up quickly."* (2026-09-02.) Recorded as
+`workStatus: none` **with `workStatusVerified: '2026-09-02'` and a named `workStatusBasis`**, so
+the strong claim is traceable — rule 8 forbids tidying a null into a `none` precisely because an
+untraceable one cannot be told from evidence. This one can.
+
+### Housekeeping
+
+Plate spot check for foot-of-page notes: **8 pages, checked zero, coverage `"spot"`**, read
+BEFORE translation per the 2026-08-19 rule and weighted to the five internal divisions (all five
+fall mid-page). ⚑ p.436 carries an asterisk note that belongs to the **preceding** work, above
+the rule — recorded in the caveat so nobody inherits it. Indexing: **0 scripture**, which is a
+fact about the work (one `[n:]` note in 23,000 words; Walafrid's lemmata are unmarked), not a gap.
+
+### NEXT
+
+**Eleven Glossa books left, ~465K Latin words**, smallest first: 9001 Mark (25,718 w), 8963
+Numbers (26,336), 8999 John (29,727), 8961 Leviticus (32,205), 8956 Isaiah (32,299), 8957 Job
+(38,206), 9000 Luke (44,075), 9002 Matthew (45,922), 8949 Exodus (46,328), 8950 Genesis (47,910),
+8967 **Psalms (96,650)**. The `[sic:]`/`[var:]` backlog hunt remains **PAUSED** per Wilson.
+
+---
+
 ## ▶▶▶▶▶ SESSION 2026-08-31d — THE `[sic:]`/`[var:]` BACKLOG, PL 196 · ✅ BOTH WORKS GATE-CLEAN · ✅ PUSHED + DEPLOYED (see PAUSED note above)
 
 **11535** *De eruditione hominis interioris* and **11550** *Explicatio in Cantica canticorum*, the
