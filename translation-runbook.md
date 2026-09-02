@@ -165,12 +165,29 @@ after the translation is paid for.
    weak claim rather than lying — but it still destroys the triage record.
 
 8. **Deploy checklist — every time, no skipping:** when Wilson gives the OK to deploy,
-   **(0) run `node scripts/polarity-record.mjs --gate` first — it exits nonzero if any
-   englished work has never had the step-4a read, and `node scripts/plate-gate.mjs <idno>`
-   on each newly shipped work (step 4b). It caught the site's only PG work
-   (`joel-chronographia`) sitting unchecked because both 2026-07-28 sweeps were
-   PL-only. Do not ship over a red gate; either read the work or say plainly that it
-   ships unchecked.**
+   **(0) run `node scripts/preflight.mjs <idno…>` and do not deploy unless it exits 0.**
+   That one command replaces the four separate gates this step used to list, because
+   listing them is what failed: `build-cruces.mjs` was simply missing from this
+   checklist on 2026-08-05 and Glabas Sermon III went live with its apparatus link
+   404ing, with every other signal healthy. Preflight runs, and each check either
+   exits non-zero or does not count:
+   - **the plate RATCHET** (`plate-gate.mjs --ratchet`) — the backlog of markers
+     standing on unread plates may FALL, never RISE. **A work absent from
+     `data/plate-backlog-baseline.json` must carry ZERO unread markers: new work
+     ships already read.** See the ratchet rule in CLAUDE.md 8a.
+   - **the polarity gate** — every englished work has had the step-4a blind read. It
+     caught the site's only PG work (`joel-chronographia`) sitting unchecked because
+     both 2026-07-28 sweeps were PL-only.
+   - **`scan-raw-markers`** — nothing shipped as literal `[brackets]`.
+   - **a built page for every englished work**, and **a cruces page behind every
+     apparatus link** (the 2026-08-05 failure, made loud).
+   - **ship flags on the WORK record**, where `first-english.mjs` reads them (the
+     2026-09-02 failure, made loud: a `translation` written to the TEXT record is read
+     by nothing, and the site looks correct over a wrong record).
+   Do not ship over a red gate; either fix it or say plainly that the work ships
+   unchecked. ⛔ **Never re-freeze the baseline to turn a red ratchet green** — the
+   baseline records plates that were read, and re-freezing over a regression records a
+   claim nobody checked.
    (a) prepend each newly-shipped work to `RECENT` in `scripts/build-landing.mjs`
    (newest first, one-line comment naming the author/work), (b) rebuild the
    generated pages — `build-scripture-index.mjs`, `build-sources.mjs`,

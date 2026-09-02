@@ -59,6 +59,28 @@ it fused with normal spacing either side. ⚑ And the class split is the reliabl
 agent's hunch: on that work **46 of 46 `[var:]` stood and 8 of 27 `[sic:]` fell, every fall a
 single word and not one a quoted clause.**
 
+### ⛔⛔ THE RATCHET — THE BACKLOG MAY FALL, NEVER RISE (Wilson, 2026-09-02)
+
+**`node scripts/preflight.mjs` before every deploy, and it must exit 0.** Its first check is
+`plate-gate.mjs --ratchet`, which compares the corpus against
+`data/plate-backlog-baseline.json` and **fails if a work absent from that baseline carries ANY
+unread marker, or if a listed work goes UP.**
+
+**The 889 unread markers are a CEILING, not a target.** They are legacy — they belong to works
+that shipped before this gate existed — and Wilson's no-retrofit ruling stands: they are not to
+be swept on a schedule. What must never happen again is a **new** work adding to them, which is
+what every work before 8993 did silently, at the moment it was marked `ours`. So the ratchet does
+not ask "is the corpus clean?" (it is not, by ruling). It asks the only question a ship test can
+enforce: **did this session make it worse?**
+
+⭐ **The precedent that set the number: 9004 shipped with 67 markers and added ZERO** (73 fired,
+8 withdrawn at the plate, 2 added), because its plates were read **before** it shipped rather
+than swept afterwards. 13 of the 90 works carrying apparatus are now fully read.
+
+⛔ **Never re-freeze to clear a red ratchet.** `--freeze` records plates that were READ; running
+it over a regression records a public claim nobody checked. Re-freeze only after reading plates,
+to lock in a fall.
+
 ⛔ **NOT A RETROFIT** (the no-retrofit rule below, "RECOVER GOING FORWARD, DO NOT SWEEP THE DONE CORPUS", Wilson 2026-08-18): `--all` surveys the shipped corpus and exits zero. Measured 2026-08-28: **1,587 of 1,650 markers stand on unread columns, across 81 of 82 englished works** — 9003 is the only clean one. That number sizes a decision about sample width; it is not a mandate to re-open 38 books.
 
 9. **Index from day one.** Every shipped work runs `node scripts/index-work.mjs <textIdno>` after verify — `data/index/<series>/<idno>.json` accretes the site-wide indexes (no retroactive passes). Tracked: **scripture** (Migne's `[n:]` citations, dual-keyed per `reference_data-repository-standard` — OSIS `refKey` + verbatim `refDisplay`, located by column), **fontes** (all other citations, raw verbatim, from BOTH `[n:]` notes and `[f:]` inline-locator tags per `translation-style.md` pattern 4 — `[f:]` tags are harvested from the ENGLISH chunks (their content is verbatim Latin) and validated as a substring of the Latin twin, asterisks stripped/whitespace normalized, mismatch = hard error; inline records carry `inline: true`; a bare or partial *Ibid.* is resolved at index time to its nearest preceding non-*Ibid.* locator, stored as `antecedent` + `antecedentColumn` while `raw` keeps the printed *Ibid.* — this is a deterministic inference from the printed sequence, NOT a correction, so no `citation-corrections.json` entry; there is deliberately NO `fonsKey` yet — the controlled source-name vocab is derived later FROM the accumulated raws, never from memory, and inline locators join that same pool), **heads** (la+en chapter titles + column → TOC/search), **unparsed** (alias-table gaps; never silently dropped). Deliberately NOT tracked yet: theme/topic tags (needs open-tag→consolidate→freeze on a corpus slice per `reference_tagging-philosophy`), entity extraction, source-name normalization.

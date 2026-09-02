@@ -27,7 +27,7 @@ import path from 'node:path';
 
 const ROOT = path.join(import.meta.dirname, '..');
 const arg = process.argv[2];
-if (!arg) { console.error('usage: node scripts/plate-gate.mjs <textIdno> | --all'); process.exit(1); }
+if (!arg) { console.error('usage: node scripts/plate-gate.mjs <textIdno> | --all | --ratchet | --freeze'); process.exit(1); }
 
 const registry = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/plate-reads.json'), 'utf8'));
 const works = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/works.json'), 'utf8'));
@@ -92,7 +92,11 @@ const label = w => {
   return t ? `${t.title ?? t.idno}` : String(w);
 };
 
-if (arg === '--all') {
+// THE SURVEY — computed in ONE place and shared by --all, --ratchet and --freeze.
+// (This repo has been burned three times by a claim written in two builders; see
+// scripts/lib/first-english.mjs. Do not re-derive the uncovered set anywhere else.)
+const BASELINE = path.join(ROOT, 'data/plate-backlog-baseline.json');
+const survey = () => {
   // englishState lives on the WORK, not the text (data/works.json).
   const englished = [];
   for (const w of works.works) {
@@ -109,6 +113,69 @@ if (arg === '--all') {
     rows.push(r);
   }
   rows.sort((a, b) => b.uncovered.length - a.uncovered.length);
+  const byIdno = {};
+  for (const r of rows) if (r.uncovered.length) byIdno[r.idno] = r.uncovered.length;
+  return { rows, totMark, totUn, worksExposed, byIdno };
+};
+
+// ⛔ THE RATCHET — the backlog may FALL, never RISE (Wilson, 2026-09-02).
+//
+// 889 uncovered markers are legacy: they belong to works that shipped before the
+// plate gate existed, and Wilson's no-retrofit ruling says they are not to be swept
+// on a schedule. That number is therefore not a target — it is a CEILING. What must
+// never happen again is a NEW work adding to it, which is exactly what every work
+// before 8993 did, silently, at the moment it was marked `ours`.
+//
+// So this does not ask "is the corpus clean?" (it is not, by ruling). It asks the
+// only question a ship test can enforce: "did THIS session make it worse?"
+//   · a work absent from the baseline must be at ZERO — it is new, and new work
+//     ships already read;
+//   · a work present in the baseline must not go UP.
+// A fall is reported and is a reason to re-freeze, never a failure.
+if (arg === '--ratchet' || arg === '--freeze') {
+  const { totUn, byIdno, rows } = survey();
+  if (arg === '--freeze') {
+    const out = {
+      generated: new Date().toISOString(),
+      what: 'Per-work count of [sic:]/[var:] markers standing on columns nobody has read at Migne\u2019s plate, for every work marked englishState:"ours". The CEILING the ratchet enforces.',
+      rule: 'plate-gate.mjs --ratchet fails if a work absent here carries ANY uncovered marker, or if a work listed here goes UP. Falls are fine and are a reason to re-freeze. Re-freeze ONLY after reading plates, never to make a red gate green.',
+      total: totUn,
+      works: byIdno,
+    };
+    fs.writeFileSync(BASELINE, JSON.stringify(out, null, 2) + '\n');
+    console.log(`froze the backlog baseline: ${totUn} uncovered markers across ${Object.keys(byIdno).length} works -> data/plate-backlog-baseline.json`);
+    process.exit(0);
+  }
+  if (!fs.existsSync(BASELINE)) {
+    console.error('no data/plate-backlog-baseline.json — run: node scripts/plate-gate.mjs --freeze');
+    process.exit(1);
+  }
+  const base = JSON.parse(fs.readFileSync(BASELINE, 'utf8'));
+  const regressions = [], newly = [], improved = [];
+  for (const r of rows) {
+    const now = r.uncovered.length, was = base.works[r.idno] ?? 0;
+    if (now === 0 && was === 0) continue;
+    if (!(r.idno in base.works) && now > 0) newly.push({ idno: r.idno, now });
+    else if (now > was) regressions.push({ idno: r.idno, was, now });
+    else if (now < was) improved.push({ idno: r.idno, was, now });
+  }
+  for (const i of improved) console.log(`  ✓ ${i.idno} ${label(i.idno)} — backlog fell ${i.was} → ${i.now}`);
+  if (!newly.length && !regressions.length) {
+    console.log(`\nratchet OK — backlog ${totUn} of ceiling ${base.total}. No work added to it.`);
+    if (improved.length) console.log('It FELL. Re-freeze to lock the gain in: node scripts/plate-gate.mjs --freeze');
+    process.exit(0);
+  }
+  console.error('\n⛔ RATCHET FAILED — this session made the backlog WORSE.');
+  for (const n of newly) console.error(`  ⛔ ${n.idno} ${label(n.idno)} — NEW work shipping with ${n.now} unread marker(s). New work ships already read.`);
+  for (const g of regressions) console.error(`  ⛔ ${g.idno} ${label(g.idno)} — rose ${g.was} → ${g.now}`);
+  console.error(`\nbacklog ${totUn} against ceiling ${base.total}.`);
+  console.error('Fix by READING THE PLATE for the named work (node scripts/plate-gate.mjs <idno> lists the columns), or by withdrawing the marker.');
+  console.error('⛔ Do NOT re-freeze to clear this. The baseline records plates that were read; re-freezing over a regression records a claim nobody checked.');
+  process.exit(1);
+}
+
+if (arg === '--all') {
+  const { rows, totMark, totUn, worksExposed } = survey();
   for (const r of rows) {
     const flag = r.uncovered.length ? '⛔' : '✓ ';
     console.log(`${flag} ${r.idno}  ${String(r.uncovered.length).padStart(3)} uncovered / ${String(r.marks.length).padStart(3)} markers   ${label(r.idno)}`);
