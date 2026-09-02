@@ -1,0 +1,63 @@
+{
+  "note": "PLATE GATE of 9004 (Walafrid Strabo, Expositio in quatuor Evangelia, PL 114, cols 0861A-0916B). Migne PL 114, on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, rendered at 200 dpi full page width (400 dpi crop where a word division was at stake). Page map PDF page = (column + 11) / 2, CALIBRATED against the printed corner numbers at p.436 (861/862) before any read and re-confirmed on every subsequent page. All 73 [sic:]/[var:] markers the four translation stints fired were read at the plate across 25 pages / 36 columns. RESULT: 65 CONFIRMED as Migne's own printing, 8 REFUTED as Corpus Corporum's corruption -- and the split is entirely by marker class: 46 of 46 [var:] confirmed, 19 of 27 [sic:] confirmed. Every refutation is a single broken WORD; not one quoted clause was ours.",
+  "class": "CORRUPTED -- Corpus Corporum broke a word Migne set correctly. Repaired here; no [sic:] marker may stand against Migne on the strength of any of these. The corresponding English chunks must be corrected to read the plain word with no marker.",
+  "result": "8 patches. Shapes: n->g (synanoga), transposition (Eccelsiae, Judaeroum), a->u (malta), m->in (ine for me), h->n (Abranam), word split (an fora for anfora), in->m (mimicos for inimicos). Note that TWO of these are the m/in confusion in opposite directions within one work (0906B ine, 0912A mimicos), which is itself evidence the shape belongs to the transcription and not to the type.",
+  "patches": [
+    {
+      "col": "0879D",
+      "find": "synanoga et Judaeos, foras stantes",
+      "replace": "synagoga et Judaeos, foras stantes",
+      "direction": "corrupted",
+      "why": "p.445 (cols 879/880), left column, band D, verified: 'Mater et fratres, id est synagoga et Judaeos, foras stantes'. Migne prints synagoga, and prints it correctly again in the same column ('per vipera, ostendit synagoga'). CC swapped g->n. English's [sic: synanoga] at 0879D (src/english/9004/0005.md) is WITHDRAWN; render plainly as 'the synagogue'."
+    },
+    {
+      "col": "0885B",
+      "find": "et Eccelsiae, sicut Eva ex costa Adae",
+      "replace": "et Ecclesiae, sicut Eva ex costa Adae",
+      "direction": "corrupted",
+      "why": "p.448 (cols 885/886), left column, band C, verified: 'per nuptias ostendit copulationem Christi et Ecclesiae, sicut Eva ex costa Adae' -- and the very next clause prints 'sic Ecclesia ex latere Christi' correctly in our own file, so the transposition is isolated. English's [sic: Eccelsiae] at 0885B (src/english/9004/0007.md) is WITHDRAWN; render plainly as 'of the Church'."
+    },
+    {
+      "col": "0889C",
+      "find": "dimittente turba Judaeroum",
+      "replace": "dimittente turba Judaeorum",
+      "direction": "corrupted",
+      "why": "p.450 (cols 889/890), left column, band C, verified: 'dimittente turba Judaeorum habiit in navem'. Migne prints Judaeorum. CC transposed ro/or. English's [sic: Judaeroum] at 0889C (src/english/9004/0009.md) is WITHDRAWN; render plainly as 'of the Jews'."
+    },
+    {
+      "col": "0899C",
+      "find": "oportet filium hominis malta pati",
+      "replace": "oportet filium hominis multa pati",
+      "direction": "corrupted",
+      "why": "p.455 (cols 899/900), left column, band C, verified: 'oportet filium hominis multa pati, id est mori' -- and Migne prints 'multa pati' AGAIN four lines below ('excessus ejus multa pati sequenti die'), so the correct form is on the same page twice. CC read u as a. English's [sic: malta] at 0899C (src/english/9004/0012.md) is WITHDRAWN; render plainly as 'to suffer many things'."
+    },
+    {
+      "col": "0906B",
+      "find": "illum oportet crescere, ine\nautem minui",
+      "replace": "illum oportet crescere, me\nautem minui",
+      "direction": "corrupted",
+      "why": "p.458 (cols 905/906), right column, band B, verified: 'illum oportet crescere, me autem minui' -- John 3:30 in its ordinary form. CC read m as 'in'. English's [sic: ine] at 0906B (src/english/9004/0014.md) is WITHDRAWN; render plainly as 'but I to be made less'."
+    },
+    {
+      "col": "0903C",
+      "find": "<hi>Homo an fora aquae portans,</hi>",
+      "replace": "<hi>Homo anfora aquae portans,</hi>",
+      "direction": "corrupted",
+      "why": "p.457 (cols 903/904), left column, band C, verified: 'Homo anfora aquae portans' set as ONE word (anfora = amphora, the man carrying the water-jar, Mark 14:13 / Luke 22:10). CC split it. English's [sic: an fora] at 0903C (src/english/9004/0014.md) is WITHDRAWN; render plainly as 'the man carrying a jar of water'."
+    },
+    {
+      "col": "0908C",
+      "find": "ante Abranam ego sum",
+      "replace": "ante Abraham ego sum",
+      "direction": "corrupted",
+      "why": "p.459 (cols 907/908), right column, band C, verified: 'ante Abraham ego sum' (John 8:58), and Migne prints 'Abraham pater vester exsultavit' correctly a few lines above in the same band. CC read h as n. English's [sic: Abranam] at 0908C (src/english/9004/0015.md) is WITHDRAWN; render plainly as 'Abraham'."
+    },
+    {
+      "col": "0912A",
+      "find": "Dominus dicit diligite mimicos vestros",
+      "replace": "Dominus dicit diligite inimicos vestros",
+      "direction": "corrupted",
+      "why": "p.461 (cols 911/912), right column, band A, verified: 'Dominus dicit diligite inimicos vestros' -- and the immediately preceding clause prints 'odio habebis inimicum' correctly in our own file, so the defect is isolated to one word. CC fused 'in' into m. This is the mirror of the 0906B patch above, the same letter-pair in the opposite direction inside one work. English's [sic: mimicos] at 0912A (src/english/9004/0016.md) is WITHDRAWN; render plainly as 'your enemies'."
+    }
+  ]
+}

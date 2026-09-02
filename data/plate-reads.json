@@ -1378,6 +1378,240 @@
         }
       ]
     },
+    "9004": {
+      "series": "pl",
+      "volume": 114,
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) before the first read and re-confirmed on every page. Same formula as the PL 113 on-disk scan, which is a coincidence of front matter and not a rule.",
+      "note": "2026-09-01. All 73 [sic:]/[var:] markers of 9004 read at the plate across 25 pages / 36 columns, BEFORE the work shipped: 65 confirmed as Migne’s own printing, 8 withdrawn as Corpus Corporum corruption (data/tei-patches/9004.json). THE SPLIT IS ENTIRELY BY MARKER CLASS -- 46 of 46 [var:] confirmed, 19 of 27 [sic:] confirmed, and every single withdrawal is a broken WORD, never a quoted clause. Full account in src/english/9004/cruces.md.",
+      "reads": [
+        {
+          "from": "0861A",
+          "to": "0862D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 436,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0861A [var:] CONFIRMED (Luke 24:32 \"Nonne cor jam ardens erat in nobis\", Vulg. cor nostrum)."
+        },
+        {
+          "from": "0863A",
+          "to": "0864D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 437,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "both CONFIRMED as Migne’s (0863B Ps. 131:11 \"super sedem meam\" for tuam; 0864D \"et vocavit nomen ejus Emmanuel\" for vocabunt)."
+        },
+        {
+          "from": "0865A",
+          "to": "0866D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 438,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0865B CONFIRMED (Gen. 49:10 \"non deficiat princeps de Juda; nec dux de femoribus ejus donec veniat cui repromissum est\"). NOTE: this page also prints Migne’s own inline bracketed conjecture \"[Forte, priusquam]\" at 0865A, which our TEI carries -- so the numbered foot-of-page layer is absent from CC but an INLINE bracketed Forte can survive."
+        },
+        {
+          "from": "0867A",
+          "to": "0868D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 439,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "all five CONFIRMED (0867A \"quod inclusus sit a magis\" with the gloss expounding inludendum three lines below; 0867D Appropinquabit; 0868A plural exiebant; 0868B active \"baptizabant in Jordanem\"; 0868D \"baptizat igne\" with the Spirit dropped and \"ad Galilaeam\" for a Galilaea)."
+        },
+        {
+          "from": "0869A",
+          "to": "0870D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 440,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0870C CONFIRMED (\"Dominum tuum adorabis\" with Deum dropped, while \"non temptabis Dominum Deum tuum\" prints in full three lines above)."
+        },
+        {
+          "from": "0871A",
+          "to": "0872D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 441,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0871B CONFIRMED (appropinquabit for adpropinquavit)."
+        },
+        {
+          "from": "0873A",
+          "to": "0874D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 442,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0873C CONFIRMED (\"Nolite putare, quia non veni solvere legem\" -- an INTRUSIVE negation; the foot of the same column prints the clause in its proper shape, \"ecce non veni solvere legem, sed augere\")."
+        },
+        {
+          "from": "0875A",
+          "to": "0876D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 443,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "both CONFIRMED (0875A \"quia sedis est Dei\" for thronus; 0875B \"vade cum illo alia mille\" for alia duo)."
+        },
+        {
+          "from": "0877A",
+          "to": "0878D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 444,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "both CONFIRMED (0877A [sic: palasticas] set hyphenated as pala-|sticas, so genuinely Migne’s type; 0877A \"Attendite vobis\" for Attendite a falsis prophetis, the gloss then supplying \"a falsis doctoribus cavete\")."
+        },
+        {
+          "from": "0879A",
+          "to": "0880D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 445,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "2 CONFIRMED, 1 WITHDRAWN. Confirmed: 0879A \"cantavimus vobis et non saltastis tibias\"; 0879A \"Confitebor tibi, Domine\". WITHDRAWN: 0879D [sic: synanoga] -- the plate prints synagoga (tei-patch). Also settled here: 0879B \"lignum fumigans\" for Vulg. linum IS Migne’s, a divergence stint 2 logged unmarked pending this read."
+        },
+        {
+          "from": "0881A",
+          "to": "0882D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 446,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "both CONFIRMED (0881A [sic: anteguis]; 0881C 1 Cor. 5:5 \"in interitum Satanae\" with carnis gone). This page also verifies the CONTROL for 0885C: at 0882A Migne prints James 2:26 correctly as \"fides sine operibus mortua est\"."
+        },
+        {
+          "from": "0883A",
+          "to": "0884D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 447,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "both CONFIRMED (0883A [sic: cornemium], set hyphenated corne-|mium; 0884D [sic: sustitutionem])."
+        },
+        {
+          "from": "0885A",
+          "to": "0886D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 448,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "3 CONFIRMED, 1 WITHDRAWN. Confirmed: 0885A [sic: es me Barth]; 0885C James 2:26 \"fides sine caritate mortua est\" -- Migne’s, and refuted by his own correct \"sine operibus\" at 0882A three columns earlier; 0886A Deut. 32:11 \"adsumpsit eos super scapulas suas\". WITHDRAWN: 0885B [sic: Eccelsiae] -- the plate prints Ecclesiae (tei-patch). Also settled: 0885A \"spe circumdedit\" for Vulg. sepem IS Migne’s."
+        },
+        {
+          "from": "0889A",
+          "to": "0890D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 450,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "4 CONFIRMED, 1 WITHDRAWN. Confirmed: 0889D 1 Cor. 4:21 \"an in spiritu mansuetudinis et consolationis\"; 0890A [sic: simulares]; 0890A [sic: transierum]; 0890D [sic: restitus], set hyphenated resti-|tus. WITHDRAWN: 0889C [sic: Judaeroum] -- the plate prints Judaeorum (tei-patch). The printed lacuna \"in pristino...... corporis sui\" is confirmed as Migne’s own, correctly left unmarked by the stint."
+        },
+        {
+          "from": "0891A",
+          "to": "0892D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 451,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0892C CONFIRMED (Mark 12:42 \"Vidua misit duos nummos\" for duo minuta). Also confirmed on this page: the Pattern 7a site at 0891B really does print \"frater non redemit, id est Moyses per legem redemit\", the gloss denying what its lemma asserts -- the stint was right to carry it and not repair it."
+        },
+        {
+          "from": "0893A",
+          "to": "0894D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 452,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "all three CONFIRMED (0893A [sic: Fretus alabastrum]; 0893C Mark 14:62 \"Videbunt\" for videbitis, with the gloss running on the third person; 0893D Gen. 3:18 \"spinae et tribuli germinentur tibi\")."
+        },
+        {
+          "from": "0897A",
+          "to": "0898D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 454,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "all three CONFIRMED (0897C Luke 3:5 \"prava indirecta\" -- read again at 400 dpi because the stint had classed the fusion as OURS: the plate genuinely prints it fused, with normal spacing either side, so the class was wrong and the marker is right; 0898A Luke 5:5 \"tota die\" for per totam noctem; 0898B [sic: caudes])."
+        },
+        {
+          "from": "0899A",
+          "to": "0900D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 455,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0899C WITHDRAWN -- [sic: malta]: the plate prints \"multa pati\", and prints multa again four lines below (tei-patch)."
+        },
+        {
+          "from": "0901A",
+          "to": "0902D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 456,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "0901D CONFIRMED ([sic: Aprima], \"stola Aprima, fides quam Adam perdidit\")."
+        },
+        {
+          "from": "0903A",
+          "to": "0904D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 457,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "2 CONFIRMED, 1 WITHDRAWN. Confirmed: 0903B [sic: arbae]; 0904A [sic: densi seduna]. WITHDRAWN: 0903C [sic: an fora] -- the plate sets anfora as one word (tei-patch)."
+        },
+        {
+          "from": "0905A",
+          "to": "0906D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 458,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "5 CONFIRMED, 1 WITHDRAWN. Confirmed: 0905C John 6:56 \"sanguis ejus verus potus est\"; 0905D John 2:15 \"flagellum de resticulis\"; 0905D 1 Cor. 6:17 \"qui enim adhaeret Christo\"; 0905D John 3:8 \"Vocem meam audis\"; 0906C John 4:18 \"et hunc quidem habes est, tuus\" -- A LOST NEGATION, Migne’s own. WITHDRAWN: 0906B [sic: ine] -- the plate prints \"me autem minui\" (tei-patch)."
+        },
+        {
+          "from": "0907A",
+          "to": "0908D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 459,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "5 CONFIRMED, 1 WITHDRAWN. Confirmed: 0907A John 5:37 \"neque vocem ejus audiunt unquam\"; 0907A [sic: ordiatium]; 0907B [sic: divitatem]; 0907D John 7:39 \"honorificatus\" with the gloss built on it (\"ostendit honorificationem passionis\"); 0908A [sic: te] -- the stint’s self-declared weakest marker, and the plate does print \"erexit te se ut erigeret eos\". WITHDRAWN: 0908C [sic: Abranam] -- the plate prints \"ante Abraham ego sum\" (tei-patch)."
+        },
+        {
+          "from": "0909A",
+          "to": "0910D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 460,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "all six CONFIRMED, the densest page in the work: John 10:1 \"Qui non intrant per januam\"; John 10:5 \"alienus sequuntur\" -- A SECOND LOST NEGATION, Migne’s own; John 10:10 \"fur non venit nisi ut occidet et perdet\"; John 10:16 \"unus grex et unus pastor\"; John 11:52 \"ut Filius Dei qui divisi erant congregaret in unum\"; John 12:15 \"quia Salvator tuus venit filia Sion\"."
+        },
+        {
+          "from": "0911A",
+          "to": "0912D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 461,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "6 CONFIRMED, 1 WITHDRAWN. Confirmed: 0911A John 12:28 \"Clarificabo et iterum clarificabo\"; 0911D John 13:27 \"per bucellam\"; 0912A Matt. 5:43 \"diliges amicum\" for proximum; 0912A [sic: loc] (\"vado parare vobis loc\"); 0912B John 14:7 \"Amodo nostis eum\"; 0912D John 15:8 \"fructum primum\" for plurimum. WITHDRAWN: 0912A [sic: mimicos] -- the plate prints \"diligite inimicos vestros\" (tei-patch)."
+        },
+        {
+          "from": "0913A",
+          "to": "0914D",
+          "depth": "read",
+          "date": "2026-09-01",
+          "page": 462,
+          "source": "on-disk PL 114 scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, full page width at 200 dpi (one 400 dpi crop at 0897C where a word division was at stake). Page map PDF page = (column + 11) / 2, calibrated against the printed corner numbers at p.436 (861/862) BEFORE the first read and re-confirmed on every page.",
+          "found": "all three CONFIRMED (0913A Prov. 30:20 \"tetigit os suum, dicit, non suum operata malum\"; 0913A [sic: istis]; 0913D [sic: fagulis])."
+        }
+      ]
+    },
     "9006": {
       "series": "pl",
       "volume": 114,
