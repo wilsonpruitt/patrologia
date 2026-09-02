@@ -1118,3 +1118,68 @@ citation habit, not a divergence, and is not listed.
    *libano*, 0912A *loc*, 0916B *in alter*). PL 114's spot check is recorded as a
    sample, not as coverage; if this work's own spot check has not been done, these three
    columns are where it would pay.
+
+---
+
+## §P. THE BLIND POLARITY READ (2026-09-01)
+
+Three Opus readers, **disjoint ranges of six chunks each, covering all 18**, each forbidden to
+open this file until its findings were written down. All three named their clean chunks and
+their rejected candidates, so a silent pass can be told from a real one.
+
+**Yield: 8 defects of OURS found, 7 repaired, 1 left standing and logged. No dropped or added
+negation anywhere in the work** — reader 3 checked roughly 70 printed particles across John and
+the *Capitulatio* and found the count exact in both directions. **The failure profile here is
+not negation at all; it is `translation-style.md` mechanism 5 — a reference or an agent silently
+re-bound to the contextually easier noun.** Five of the eight are that one shape.
+
+### Repaired — defects of ours
+
+| col | Latin as printed | what we had | what it now reads | why |
+|---|---|---|---|---|
+| 0869A | *quatuor causas **sine modo**, id est, donec baptizati essent ambo* | "four causes **without measure**" | "four causes: **Suffer it now**" | *Sine modo* is the Matt 3:15 lemma ("suffer it to be so now"), and the plate proves it twice: the gloss attached to it, *donec baptizati essent ambo*, construes only with the temporal "for now"; and the very next thing quoted is the remainder of the same verse (*ad te pervenit omnem justitiam*). As it stood, the English read as a nonsense phrase and its gloss floated free of any lemma. |
+| 0870A | *non est, ut a capite se temptare dimisit, **qui** per membrum a Pilato crucifigi permisit* | "it is not so, since … by the head **who** allowed himself to be crucified" | "it is not, that … by the head, **he who** allowed himself…" | Two faults in one clause. *non est [mirum] ut* is elliptical concession, and "it is not so, since" turned it into a flat denial of the sentence before. Worse, English word order bound *qui … permisit* to **the head** — making the devil the one crucified by Pilate and destroying the head/member figure the passage runs on. |
+| 0891C | *vel perire in properio **peccato*** | "to perish in his own **reproach**" | "to perish in his own **sin**" | *peccato* is "sin"; "reproach" renders *opprobrium*, which is not what stands in the slot. A plain mistranslation, not a construal. |
+| 0891C | *quam et **alii** a regno Dei **disturbent*** | "than that **one** should also disturb **others** from the kingdom" | "than that **others** also should disturb from the kingdom" | *alii* is the only available subject for the 3rd-plural *disturbent*; our English made it the object and supplied "one" as subject. The direction it produced was the *contextually right* one (the millstone gloss) — which is the signature of a silent repair. The clause is broken as printed and now shows it. |
+| 0894A | *involutum corpus Jesu in sindone novo, id est **circumdato Christi Ecclesia*** | "the Church encompassed **by Christ**" | "**Christ** encompassed **by the Church**" | *Christi* is genitive and cannot be the agent. The whole run of *syndon* glosses says the linen cloth IS the Church (*per syndonem ostendit mortificationem Ecclesiae*), so it is the Church that wraps the body. We had inverted who wraps whom. |
+| 0908B | *primum hominem quem Deus immortalem condidit et **ipsum** fecit mortalem* | "whom God founded immortal, **he himself** made mortal" | "**he made mortal** the first man, whom God founded immortal" | The subject of the whole sentence is the devil (*Ille ab initio homicida erat*), and *ipsum* is its accusative object. Reading *ipsum* as a nominative intensifier bound the verb to the nearest named subject — **God** — so the page said God made man mortal in a sentence whose entire point is that the devil did. The next clause keeps the devil as agent, so the English contradicted its own neighbour. |
+| 0916A | *scientia divinitatis … **ascendit** Johannes* | "John **drew up** the knowledge" | "John **ascended to** the knowledge" | *ascendit* is "ascended"; "drew up" is the sense of *hausit*, supplied precisely because the printed clause (two nominatives and an intransitive verb) will not construe. It asserted nothing false, but it concealed the printed incoherence instead of showing it. |
+
+### Left standing, deliberately — and logged so it is not invisible
+
+**0914C.** *ostendit gentes **quae in adventum Christi, sive doctrinam illius*** — the clause is
+**verbless on the plate**, and our English supplies one: "the gentiles who **believed in** the
+coming of Christ." The supplement is unbracketed, and it does real argumentative work, since the
+contrast is with the preceding *adventum ipsius **non** receperunt*. It is left as it stands
+because the sense is not in doubt and no marker class fits a verb Migne simply never set —
+`[ed: …]` is for text the DIGITIZATION lost, and nothing was lost here. **Recorded so that a
+reader knows the verb is ours and not Migne's.**
+
+### New Migne-side contradictions — English already faithful, no edit, apparatus only
+
+These are sites where the plate fights itself and the translation correctly carried the printed
+reading. None was previously logged. They are the edition's evidence.
+
+| col | printed | the contradiction |
+|---|---|---|
+| 0863A | *supplantavit Jacob ter fratrem suum, primum per benedictionem … tertio per **benedictionem*** | the blessing is counted twice in a three-member list where the birthright belongs |
+| 0867A | *Joseph in Aegypto domina sua fugit **in licita*** | for *illicita* — "fled into things lawful", inverting the flight from Potiphar's wife |
+| 0869A | *ut **non** differrent baptismum Joannis de baptismo Christi* | the negation inverts the point the sentence is making |
+| 0869B | *coelum **apertum** est, uni cuique post culpam Adae* | heaven "opened" where the fall closed it |
+| 0871C | Peter/Andrew and James/John receive the **same** gloss (*elegit alios cupientes … rebus mundi adhaerentes*) | the contrast the passage is drawing collapses |
+| 0872D | *lacrymae … **amara, pro peccato non flere*** | "bitter, **not** to weep for sin", against the three-weepings list it heads |
+| 0876B | *si **dimittimini** dimittitur vobis* | "if you are forgiven, it is forgiven you" — a tautology for *si dimittitis* |
+| 0883C | *migravit ad Galilaeam … **de gentibus ad Judaeam*** | the work's fixed formula everywhere else is *de Judaeis ad gentes* (0881B, 0881D, 0883A, 0887C, 0888C, 0892C); the direction is inverted against its own convention |
+| 0888A | *in **munditiam** Judaeorum accepit ut nostram immunditiam purgaret* | the two clauses that follow are strict *he-underwent-X-to-free-us-from-X* parallels (*flagellatus … de flagellis*; *vinctus ductus ut vincula … solveret*), which require *immunditiam* |
+| 0888A | *sicut Adam extendit palmam in **lignum vitae*** | Adam's hand went to the tree of knowledge; the antithesis with *lignum crucis* two clauses later is what the sentence turns on |
+| 0892C | *synagoga **saepe** custodia angelorum* | at 0885A the same gloss prints *spe circumdedit … id est custodia angelorum*, now `[var:]`-marked against Vulgate *sepem*. That parallel makes *saepe* here the hedge (*saepes*), not the adverb — and the adverbial reading, though literal, yields a verbless nonsense the parallel column explains |
+| 0893A | *per **genitorem**, Episcopum ostendit, sive doctorem* | the lemma is Mark 13:34, *et **janitori** praecepit ut vigilet*, and the gloss names the doorkeeper — bishop, teacher. Real word in its slot, so rendered literally |
+| 0893A | *sero super **Sodomam** pluit ignis … mane subversa est **Sodoma*** | Sodom named twice in a three-member sequence |
+| 0900D | *spiritu infirmitatis, **id est fide et opera*** | a *spirit of infirmity* glossed as faith and works, while the alternative gloss two clauses later reads *qui **non** impleverunt decem verba legis et **non** crediderunt*. A dropped *sine* is the near-certain conjecture |
+| 0904A | ***Herodes** significat populum gentium: **Pilatus** Judaeos* | inverted from the typology the passage runs (Herod the Jewish tetrarch, Pilate the Roman) — a *pater/filius*-class swap of two proper names |
+
+⚑ **Calibration.** All three readers independently re-derived a number of already-adjudicated
+cruces in the same direction the stints had reached (0884C *relectis*, 0869D *falleret*, 0876D
+*diabolos eruit*, 0866A *ipse non renuit*, the *caus magnum* spelling class), which is the best
+available evidence that this pass was calibrated rather than lucky — and that its NEW findings
+are new because nobody had looked, not because the reader was inventing.
