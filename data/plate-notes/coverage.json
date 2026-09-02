@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-09-02T01:59:27.594Z",
   "what": "Per-work capture status for MIGNE'S OWN numbered conjecture notes — the foot-of-page apparatus (`Forte *word*.`) that Corpus Corporum's TEI omits entirely. Measured 2026-08-18: zero such notes across all 5,276 PL TEI files and 498,774 <note> elements. See CLAUDE.md.",
   "tiers": {
     "2": "Text + OUR apparatus (markers, cruces). Migne's conjecture notes NOT captured. This is every work shipped before 2026-08-18 and is the default.",
@@ -1288,6 +1288,17 @@
       "columns": "0445D-0506C (whole work)",
       "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-08-31 as part of the plate-gate closure for this work's [sic:]/[var:] markers. EIGHT full pages read at native IIIF resolution from Gallica ark:/12148/bpt6k5505319w, full page width and height, spanning the whole book: f223 (445/446, the Praefatio), f226 (451/452), f227 (453/454), f236 (471/472), f238 (475/476), f241 (481/482), f242 (483/484), f248 (495/496). No foot-of-page apparatus of either layer (numbered Forte conjectures or the asterisk cross-reference layer) on any of the eight. Map confirmed at the printed corner numbers before use (f242 reads 483/484).",
       "caveat": "A sample of 8 of the work's ~31 pages, consistent with the sibling PL 113 finding recorded elsewhere in this file (8 pages across four other books, also zero). Does not license a claim that this specific work carries no notes on its unread pages."
+    },
+    {
+      "idno": "9004",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "columns": "0861A-0916B (whole work)",
+      "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-09-01 at chunking, BEFORE translation. EIGHT full pages read at 200 dpi from the on-disk scan patrologiaecurs06saingoog.pdf, FULL page width, spanning the whole work and deliberately weighted to its five internal divisions, each of which falls MID-PAGE: p.436 (861/862, the Admonitio Martianaei and the opening), p.443 (875/876), p.449 (887/888, the Marci division), p.452 (893/894, the Lucae division), p.454 (897/898), p.457 (903/904, the Joannis division), p.461 (911/912, the Capitulatio division), p.463 (915/916, the work's end). Map PDF page = (column + 11) / 2 confirmed at the printed corner numbers BEFORE the read (p.436 reads 861/862) and reconfirmed on every subsequent page. No foot-of-page apparatus of either layer (numbered Forte conjectures or the asterisk cross-reference layer) belonging to this work on any of the eight.",
+      "caveat": "p.436 DOES carry an asterisk note (\"In altero codice haec clausula habetur: Per eum qui vivit...\"), but it sits ABOVE the rule and keys to the PRECEDING work in the volume, not to 9004, whose text begins with the WALAFRIDI STRABI title block below the rule. A sample of 8 of the work's ~28 pages; it licenses shipping without [cn:] recovery and does NOT license a claim that the unread pages carry no notes."
     }
   ],
   "fields": {
