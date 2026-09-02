@@ -1,0 +1,92 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3981,
+  "textIdno": 9004,
+  "title": "Expositio in quatuor Evangelia",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "861a",
+  "colLast": "916b",
+  "counts": {
+    "scripture": 0,
+    "fontes": 1,
+    "heads": 7,
+    "headnotes": 2,
+    "unparsed": 0
+  },
+  "scripture": [],
+  "fontes": [
+    {
+      "raw": "Opp. S. Hieronymi, tom. V.",
+      "column": "861a",
+      "chunk": 0,
+      "inHead": true
+    }
+  ],
+  "heads": [
+    {
+      "la": "ADMONITIO MARTIANAEI",
+      "column": "861a",
+      "chunk": 0,
+      "en": "MARTIANAY'S ADMONITION[n: (Opp. S. Hieronymi, tom. V.)]"
+    },
+    {
+      "la": "INCIPIT EXPOSITIO QUATUOR EVANGELIORUM.",
+      "column": "861a",
+      "chunk": 0,
+      "en": "HERE BEGINS THE EXPOSITION OF THE FOUR GOSPELS."
+    },
+    {
+      "la": "IN EVANGELIUM MATTHAEI.",
+      "column": "864a",
+      "chunk": 1,
+      "en": "ON THE GOSPEL OF MATTHEW."
+    },
+    {
+      "la": "IN EVANGELIUM MARCI.",
+      "column": "888c",
+      "chunk": 9,
+      "en": "ON THE GOSPEL OF MARK."
+    },
+    {
+      "la": "IN EVANGELIUM LUCAE.",
+      "column": "894d",
+      "chunk": 11,
+      "en": "ON THE GOSPEL OF LUKE."
+    },
+    {
+      "la": "IN EVANGELIUM JOANNIS.",
+      "column": "904d",
+      "chunk": 14,
+      "en": "ON THE GOSPEL OF JOHN."
+    },
+    {
+      "la": "INCIPIT CAPITULATIO.",
+      "column": "911c",
+      "chunk": 16,
+      "en": "HERE BEGINS THE CAPITULATIO."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "*Joseph autem vir ejus.* Ideo vir ejus dicitur, et ideo justus, ne alii humanitatis conjunctionem suspicaverit",
+      "en": "*But Joseph her husband.* He is called her husband for this reason, and for this reason just, lest others should suspect a conjunction of human kind",
+      "column": "864c",
+      "chunk": 1
+    },
+    {
+      "la": "id est in judicio; ne legem transisset: quia sciebat virginem, ut diabolum partus ejus lateret",
+      "en": "that is, in judgment; lest he should transgress the law: because he knew her a virgin, that her childbearing might lie hidden from the devil",
+      "column": "864c",
+      "chunk": 1
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}
