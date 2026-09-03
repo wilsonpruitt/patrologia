@@ -1,0 +1,110 @@
+#!/usr/bin/env node
+// Split a work's lemma inventory into one file per translation stint.
+//
+// Usage: node scripts/split-lemma-brief.mjs <idno> <first-last> [<first-last> ...]
+//   e.g. node scripts/split-lemma-brief.mjs 9001 0-4 5-9 10-14 15-19 20-23
+//
+// ⛔ SPLIT BY CHUNK MEMBERSHIP, NEVER BY COLUMN BAND. Written 2026-09-03 after an
+// ad-hoc splitter did the latter on 9001 and every stint but the first came out wrong.
+// The inventory tags each span with the column band it stands UNDER, which is the last
+// anchor SEEN — and a span at the head of a chunk still sits under the PREVIOUS chunk's
+// last anchor. So band-splitting slides head-of-range spans into the previous stint's
+// file: 9001's five briefs were off by -0/+13/-11/+15/-17 against the spans actually in
+// each range's Latin, and two stints were short at the head of their own range.
+//
+// It was caught only because two of the five stints counted the italic spans in their own
+// Latin against their brief's total and said so. Neither the master inventory nor
+// verify-english can see this: the master is complete and the English is unaffected. The
+// only handle is the count, so this script asserts it and prints it into every file.
+import fs from 'node:fs';
+import path from 'node:path';
+
+const [idno, ...rangeArgs] = process.argv.slice(2);
+if (!idno || !rangeArgs.length) {
+  console.error('usage: node scripts/split-lemma-brief.mjs <idno> <first-last> [...]');
+  process.exit(1);
+}
+
+const master = path.join('data/briefs', `${idno}-lemmata.txt`);
+if (!fs.existsSync(master)) {
+  console.error(`no inventory: ${master} — run lemma-inventory.mjs ${idno} first`);
+  process.exit(1);
+}
+
+const src = fs.readFileSync(master, 'utf8');
+const cut = src.indexOf('## The inventory');
+if (cut < 0) { console.error('inventory header not found in ' + master); process.exit(1); }
+const preamble = src.slice(0, cut);
+const entries = src.slice(cut).split('\n').filter((l) => l.startsWith('['));
+
+// Italic spans per chunk, counted from the Latin — the same rule lemma-inventory.mjs uses.
+const spanRe = /(?<!\*)\*(?!\*)([\s\S]+?)(?<!\*)\*(?!\*)/g;
+const countSpans = (file) => {
+  const text = fs.readFileSync(file, 'utf8');
+  const body = text.split(/^---$/m).slice(2).join('---');
+  return (body.match(spanRe) || []).length;
+};
+
+const latinDir = path.join('src/latin', idno);
+const perChunk = new Map();
+for (const f of fs.readdirSync(latinDir).filter((f) => /^\d{4}\.md$/.test(f)).sort()) {
+  perChunk.set(parseInt(f.slice(0, 4), 10), countSpans(path.join(latinDir, f)));
+}
+
+const ranges = rangeArgs.map((a) => {
+  const [first, last] = a.split('-').map(Number);
+  if (!Number.isInteger(first) || !Number.isInteger(last)) {
+    console.error(`bad range "${a}" — want first-last, e.g. 5-9`); process.exit(1);
+  }
+  return { first, last };
+});
+
+// Every chunk assigned exactly once, or the split is meaningless.
+const seen = new Set();
+for (const { first, last } of ranges) {
+  for (let i = first; i <= last; i++) {
+    if (!perChunk.has(i)) { console.error(`range covers chunk ${i}, which does not exist`); process.exit(1); }
+    if (seen.has(i)) { console.error(`chunk ${i} is in two ranges`); process.exit(1); }
+    seen.add(i);
+  }
+}
+for (const i of perChunk.keys()) {
+  if (!seen.has(i)) { console.error(`chunk ${i} is in NO range — every chunk must be assigned`); process.exit(1); }
+}
+
+const NOTE = `
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the \`*…*\` spans in your own files and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+`;
+
+let i = 0;
+for (const { first, last } of ranges) {
+  let n = 0;
+  for (let k = first; k <= last; k++) n += perChunk.get(k);
+  const body = entries.slice(i, i + n);
+  i += n;
+  const band = (l) => l.slice(1, l.indexOf(']'));
+  const out = path.join('data/briefs', `${idno}-lemmata-${String(first).padStart(4, '0')}.txt`);
+  fs.writeFileSync(out,
+    preamble + NOTE +
+    `\n## The inventory — chunks ${String(first).padStart(4, '0')}–${String(last).padStart(4, '0')}, ` +
+    `bands ${band(body[0])}–${band(body[body.length - 1])} (${n} spans, = the italic spans in your Latin)\n\n` +
+    body.join('\n') + '\n');
+  console.log(`${out} — ${n} spans, chunks ${first}–${last}, bands ${band(body[0])}–${band(body[body.length - 1])}`);
+}
+
+if (i !== entries.length) {
+  console.error(`\n⛔ ${i} spans allocated but the inventory holds ${entries.length}. The per-chunk`);
+  console.error(`   counts do not sum to the master. Do NOT ship these files.`);
+  process.exit(1);
+}
+console.log(`\nall ${entries.length} spans allocated, each chunk in exactly one range.`);

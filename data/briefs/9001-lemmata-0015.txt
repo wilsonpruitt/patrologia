@@ -25,8 +25,23 @@ Mechanical phrase search of the normalized span against
 is a public claim about another text and must rest on the file, cited by book chapter:verse —
 never on this pre-scan and never on recollection.
 
-## The inventory — chunks 0015–0019, cols 0217B–0232C (312 spans)
 
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the `*…*` spans in your own files and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0015–0019, bands 0217A–0232A (297 spans, = the italic spans in your Latin)
+
+[0217A] VERS. 1.-- *Et inde exsurgens.*   ✓ Clementine verbatim
+[0217A] VERS. 2.-- *Pharisaei interrogabant.*   ✓ Clementine verbatim
 [0217C] *Si licet viro. [n: (BEDA.)]*   ⚠ NOT in Clementine verbatim — CHECK
 [0217C] *usque ad*   ✓ Clementine verbatim
 [0217C] VERS. 5.-- *Ad duritiam cordis. [n: (ID.)]*   ✓ Clementine verbatim
@@ -322,20 +337,3 @@ never on this pre-scan and never on recollection.
 [0232A] *usque ad*   ✓ Clementine verbatim
 [0232A] *Qui viderit mulierem ad concupiscendum, jam moechatus est eam [n: (Matth. V)]*   ⚠ NOT in Clementine verbatim — CHECK
 [0232A] *usque ad*   ✓ Clementine verbatim
-[0232C] VERS. 32.-- *Gethsemani. [n: (ID.)]*   — single word, check in place
-[0232C] *Sedete hic. [n: (ISID.)]*   ✓ Clementine verbatim
-[0232C] *Donec orem. [n: (BED.)]*   ✓ Clementine verbatim
-[0232C] *usque ad*   ✓ Clementine verbatim
-[0232C] *Humiliavit semetipsum factus obediens usque ad mortem. Et majorem hac dilectionem [0232D] nemo habet ut ponat quis animam suam pro amicis suis [n: (Phil. II; Joan. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
-[0232C] VERS. 33.-- *Et coepit pavere. [n: (HIER.)]*   ✓ Clementine verbatim
-[0232C] *Venit princeps hujus mundi et in me non habet quidquam [n: (Joan. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
-[0232C] VERS. 34.-- *Tristis est,*   ✓ Clementine verbatim
-[0232C] *usque ad*   ✓ Clementine verbatim
-[0232C] VERS. 35.-- *Et orabat. [n: (ID.)]*   ✓ Clementine verbatim
-[0232C] *usque ad*   ✓ Clementine verbatim
-[0232C] *Non quod ego volo, sed quod tu.*   ✓ Clementine verbatim
-[0232C] VERS. 36.-- *Sed non quod. [n: (HIER.)]*   ✓ Clementine verbatim
-[0232C] VERS. 37.-- *Et ait Petro,*   ✓ Clementine verbatim
-[0232C] *Et si oporteat me mori tecum, non te negabo: etsi omnes scandalizati fuerint, sed non ego [n: (Matth. XXVI)]*   ⚠ NOT in Clementine verbatim — CHECK
-[0232C] VERS. 38.-- *Ut non intretis.*   ✓ Clementine verbatim
-[0232C] *ut non intretis in tentationem,*   ✓ Clementine verbatim

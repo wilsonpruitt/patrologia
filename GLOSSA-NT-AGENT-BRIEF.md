@@ -123,7 +123,19 @@ filium Dei* given Douay's "who was of God", Old-Latin *Phoenicium* given "as sca
 ⛔ **All four were made by a translator who was marking `[sic:]` correctly two columns
 away. Using the apparatus somewhere is not evidence you used it where it was needed.**
 
-Your launch message lists **every lemma in your work**. For each one:
+Your launch message points you at a lemma-inventory file listing **every italic span in your
+chunks**, pre-searched against the Clementine.
+
+⛔ **COUNT THE SPANS IN YOUR OWN LATIN AND CHECK THE TOTAL AGAINST THAT FILE'S HEADER BEFORE YOU
+RELY ON IT.** The file is cut from a work-wide inventory, and the cut has been wrong: on 9001 an
+ad-hoc splitter divided it by column band rather than by chunk, and four of five stints got a file
+that was short at the head of their range and carried spans from the next range's tail. The master
+inventory was complete and `verify-english` was silent; **the count was the only handle.** Two
+stints did the count, and that is the only reason it was found. If the totals disagree, say so —
+collate the missing spans yourself and name them, and never treat a span's absence from your file
+as clearance for it.
+
+For each span:
 
 1. Render **what Migne prints**, not what the Vulgate, the Douay, the AV or any other
    English Bible prints. **You are glossing a Latin phrase, not quoting a Bible.**

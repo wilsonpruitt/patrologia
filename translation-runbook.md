@@ -54,6 +54,28 @@ after the translation is paid for.
    PL 114's on 8, and it is the work in hand that ships. The cost of skipping it is
    measured: 11613 col. 1254B had its crux answered by *Forte earum* at the foot of its own
    page, and the translator correctly declined it for want of a witness we already had.
+1b. **Lemma inventory + per-stint split** — for any lemma-and-gloss work (every Glossa
+   book), and it is what makes the 7a″ clause a deliverable rather than an exhortation.
+   `node scripts/lemma-inventory.mjs <idno>` writes `data/briefs/<idno>-lemmata.txt`:
+   every italic span in the work, in order, with its column band, phrase-searched against
+   the Clementine. Then **`node scripts/split-lemma-brief.mjs <idno> 0-4 5-9 …`** cuts it
+   into one file per stint, and each agent is pointed at its own file in the launch message.
+   ⛔ **SPLIT BY CHUNK MEMBERSHIP, NEVER BY COLUMN BAND — the script does; an ad-hoc
+   splitter did not, and got 9001 wrong.** The inventory tags each span with the band it
+   stands UNDER, i.e. the last anchor SEEN, and a span at the head of a chunk still sits
+   under the PREVIOUS chunk's last anchor. Band-splitting therefore slides head-of-range
+   spans into the previous stint's file: 9001's five briefs were off by −0/+13/−11/+15/−17
+   against the spans actually in each range's Latin, leaving two stints short at the head
+   of their own range and carrying tail spans that were not theirs.
+   ⚑ **Nothing downstream can see this.** The master inventory is complete, the English is
+   unaffected, `verify-english` is silent. **The only handle is the count**, so the script
+   asserts that the per-range totals sum to the master and prints each range's total into
+   its own file, and the agent brief tells stints to count their own Latin against it.
+   ⭐ It was caught because **two of the five stints did that count and said so** — one
+   collated its 17 missing spans itself, the other named the 15 that were not its and
+   refused to treat their absence as clearance. Ask for that check; it is cheap and it is
+   the only one there is.
+
 2. **Launch agents** (template below). ≤6 parallel (Acta discipline), ~5 chunks per
    agent. English goes to `src/english/<idno>/NNNN.md`.
 3. **Verify:** `node scripts/verify-english.mjs <idno>` — must pass before anything
