@@ -193,6 +193,69 @@ the four axes above are real divergence rather than noise.
 
 ---
 
+## §1a. THE BLIND POLARITY READ — 8 sites, 6 ours, and it paid for itself in Latin
+
+Three blind Opus readers, disjoint eights (0000–0007 / 0008–0015 / 0016–0023), all 24 chunks,
+each fenced from the stint cruces files until its own findings were written. Recorded in
+`data/polarity/9001.json`.
+
+**NOT ONE dropped or added negation anywhere in the work.** All three ran particle tallies and
+found no deficit in any chunk, consistent with their close reads. **The dominant class was
+mechanism 5 again — 5 of the 6 defects were a reference silently re-bound to the contextually
+easier noun**, exactly as on 9004 (5 of 8) and 11613 (12 of 25).
+
+| col | what the English said | what the Latin says |
+|---|---|---|
+| **0199A** | "he who is burdened by the heresies … is touched only by the faithful heart of the Church" | the subject is **the Lord**, pressed by heresies as the crowd presses him, touched only by the Church — and `unde: Noli me tangere` follows, which only he can say |
+| 0212D | "the impious, whom **they** despised" | `impii` is nominative plural and the subject; `quem` is accusative singular, the object of *agnoscere* — "may not recognize as judge **him whom they spurned**" |
+| 0203D | "that he might break or confound **them**" | no object printed; 1 Cor 1:27's elided object is *fortia*, **the strong**. As shipped, God chose the weak in order to crush the weak |
+| 0229A | "the festival day, **which befits them**" | `quod` is neuter and cannot agree with masculine *diem festum*; it refers to the shunning — and the next clause denies they have a feast at all |
+| 0240B | "he seems to call her **the wife of** Cleophas" | Migne prints only the genitive `Cleophae`; supplying "wife" settles what Bede leaves open, and contradicts his own *a patre* three words later |
+| 0191B | "reclined … **in the passion**" | see below — the Latin itself was corrupt |
+
+### ⭐ THE WORST SITE IS A CLASS OF ITS OWN: A CRUX THAT RECORDED A REPAIR NOT IN THE TEXT
+
+**0199A.** `cruces-0005.md` §6.2 states the decision explicitly — *"I take* qui gravatur *as the
+Lord … **The English follows the first**"* — and the shipped English carried the **rival**
+reading. **No re-reading of the cruces could ever have surfaced this**, because the crux says
+the right thing; only reading the English against the Latin does. This is why the blind read
+is a separate gate and not a review of the apparatus.
+
+### ⭐⭐ AND IT PAID FOR ITSELF IN LATIN, THREE TIMES
+
+The readers cannot see the plate. Twice their diagnosis was right and their proposed remedy
+would have been wrong, which is the addendum A lesson arriving from a new direction: **a defect
+correctly SEEN is not a defect correctly ATTRIBUTED.**
+
+- **0191B.** A reader saw that "in the passion" was neither the Latin's *poena* nor Bede's
+  sense, and proposed rendering *poena* literally **with a `[sic:]`**. Back to the plate:
+  Migne prints ***in coena*** — at the supper. The English was smoothed over a corruption that
+  was **ours**, and the proposed `[sic:]` would have accused Migne of a word he never set.
+- **0193A.** The same reader read `si forte intelligant, nulla` as an intrusion and proposed a
+  `[sic:]`. The plate prints it exactly as we have it: **the contradiction is Migne's own**.
+  No marker — *nulla* is a well-formed word, not broken type, so Pattern 12 does not apply.
+  Rendered literally, with the subjunctive tightened to "should understand".
+- **The six unmarked non-words.** A reader asked, as a class-level question rather than a
+  finding, whether the shipped English should be silently reading through *simpiliciter*,
+  *juugitur*, *praegnantibu.,*, *curcifigentes cum*, *us que ad* and *ve peram* with no marker
+  — two of them lemmata. Put to the plate: **six for six OURS.** Every one is now a TEI patch
+  and no `[sic:]` was ever owed. **The stints' restraint was right in every single case.**
+
+⚑ **So the running count for this work: 14 non-word suspicions have now met the plate, 13 were
+the digitization's and one (0203A *magnitudino*) was Migne's.** Addendum A's rule survives as
+a strong prior with a named exception, which is what a rule of that kind should be.
+
+⚑ One reader's finding declined as genuinely two-way: **0197D** `potentiam tamen ejus stupendo
+et mirando per gentes praedicant` — whether *potentiam* is the object of *praedicant* or of the
+gerunds. Both construe; the reader itself offered it as a query. Left as shipped and recorded
+here so a later pass does not re-derive it.
+
+⚑ Two bookkeeping gaps in the stint files, passed on rather than repaired: `cruces-0010` has no
+lemma-expansion section though its chunks expand at least five stumps, and `cruces-0020` files
+the Cleophas site at 0237C when it is at 0240B.
+
+---
+
 ## §2. THE STINTS' OWN FILES, VERBATIM
 
 Preserved unabridged. Where §0 overturns a stint's attribution, §0 governs — but the

@@ -1,7 +1,7 @@
 {
  "note": "PLATE GATE of 9001 (Glossa ordinaria in Evangelium secundum Marcum, PL 114, cols 0179A-0244C). Read 2026-09-03 against archive.org patrologiaecursu0114mign -- a SECOND WITNESS, colour, 2215x3603, clean at both margins, chosen because our own on-disk PL 114 scan clips both margins in this range badly enough to eat whole words. Leaf n = (column + 11) / 2, calibrated against the printed corner numbers at n95 (179/180), n115 (219/220) and n126 (241/242) BEFORE any read, and the corner re-checked in frame on the pages where it fell inside the crop. All 29 [sic:]/[var:]/[cj:] markers the five stints fired were read, across 23 leaves.",
  "class": "CORRUPTED = CC broke a word Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently tidied a defect Migne actually printed; Migne's reading restored, and a [sic:] is OWED but deliberately not fired, because firing one is a fresh public claim per site.",
- "result": "29 markers read: 19 of 19 [var:] CONFIRMED, 2 of 2 [cj:] CONFIRMED, and 7 of 8 [sic:] WITHDRAWN. The single surviving [sic:] is 0203A magnitudino, which Migne really does print. 11 patches: 9 corrupted, 2 normalized. TWO of the corrupted sites (0203A cursus habentis, 0202D multae.) carried NO marker at all and were found only because the plate was read for something else on the same page.",
+ "result": "29 markers read: 19 of 19 [var:] CONFIRMED, 2 of 2 [cj:] CONFIRMED, 7 of 8 [sic:] WITHDRAWN. A SECOND PASS after the blind polarity read added 7 more patches from 7 more columns: 0191B (in poena -> in coena, the reader saw the English was smoothed and would have mis-attributed the cause) and the SIX non-words the stints deliberately declined to mark (0224C, 0227B, 0230B, 0237D, 0240C, 0242C). ⭐ ALL SIX WERE OURS. Combined with the marker read, 14 non-word suspicions in this work have now been put to the plate: 13 were the digitization's and ONE (0203A magnitudino) was Migne's. 19 patches: 16 corrupted, 3 normalized (Tlbi/Tibi at 0230B was the third, found while reading that column for something else).",
  "patches": [
   {
    "col": "0183C",
@@ -79,6 +79,62 @@
    "replace": "cruxifixum Dominum",
    "direction": "normalized",
    "why": "Leaf n107 (cols 203/204), left column, band A, verified at 4x: 'et alio sequente Pascha cruxifixum Dominum.' Migne sets cruxifixum; CC tidied it to crucifixum. ⭐ NOBODY FLAGGED THIS AND NOBODY COULD -- a normalized form reads perfectly. It surfaced only because the whole line was read while checking cursus labentis four words away, which is exactly what the brief's addendum C says to do. Restored. ⚑ OWED A [sic:]; not fired here."
+  },
+  {
+   "col": "0191B",
+   "find": "in poena recubuit",
+   "replace": "in coena recubuit",
+   "direction": "corrupted",
+   "why": "Leaf n101 (cols 191/192), left column, band B, verified: 'supra Redemptoris sui pectus in coena recubuit' -- John reclined on his Redeemer's breast AT THE SUPPER. CC read c as p. ⭐ FOUND BY THE BLIND POLARITY READ, which had no access to the plate: the reader saw that the English's 'in the passion' was neither the Latin's poena nor Bede's sense and called it a smoothing. It was right about the English and would have been WRONG about the remedy -- it proposed rendering poena literally with a [sic:], which would have published a claim that Migne printed poena. He did not. The lesson is addendum A's again, from a new direction: a defect correctly SEEN is not a defect correctly ATTRIBUTED. English repaired to 'at the supper'."
+  },
+  {
+   "col": "0224C",
+   "find": "simpiliciter",
+   "replace": "simpliciter",
+   "direction": "corrupted",
+   "why": "Leaf n117 (cols 223/224), right column, band C-D, verified: 'Sed non simpliciter dictum intelligamus, neque nubent viri, neque nubentur mulieres.' CC doubled the i."
+  },
+  {
+   "col": "0227B",
+   "find": "praegnantibu.,",
+   "replace": "praegnantibus,",
+   "direction": "corrupted",
+   "why": "Leaf n119 (cols 227/228), left column, band B, verified: the lemma is set complete, 'VERS. 17. -- Vae autem praegnantibus, etc.' CC truncated the word and left a stray full stop. A LEMMA, where 7a″ bites hardest."
+  },
+  {
+   "col": "0230B",
+   "find": "juugitur",
+   "replace": "jungitur",
+   "direction": "corrupted",
+   "why": "Leaf n120 (cols 229/230), right column, band B, verified: 'Unumquodque animal ad sibi simile jungitur (Matth. XXVIII).' CC read n as u."
+  },
+  {
+   "col": "0237D",
+   "find": "curcifigentes cum",
+   "replace": "crucifigentes eum",
+   "direction": "corrupted",
+   "why": "Leaf n124 (cols 237/238), left column, band D, verified: the lemma is set clean, 'VERS. 24. -- Et crucifigentes eum. (HIER.)'. TWO defects in one lemma, both CC's: an r/u metathesis and cum for eum. Stint 5 ranked this its number-one plate request and fired NO marker, saying explicitly it made no claim about whose it was. Right on both counts."
+  },
+  {
+   "col": "0240C",
+   "find": "<hi>us\nque ad</hi>",
+   "replace": "<hi>usque ad</hi>",
+   "direction": "corrupted",
+   "why": "Leaf n125 (cols 239/240), right column, band C, verified: the abridgment formula is set 'usque ad' cleanly, and four more times on the same page. CC split it at a line break. ⚑ The split form is invisible to the usque-ad audits the stints ran, because it no longer matches the formula."
+  },
+  {
+   "col": "0242C",
+   "find": "ve peram",
+   "replace": "vesperam",
+   "direction": "corrupted",
+   "why": "Leaf n126 (cols 241/242), right column, band C, verified: 'sexta sabbati quae vocatur parasceve circa vesperam sequenti nocte et die sabbati.' CC split the word and dropped the s. ⭐ The same line settles stint 5's other query: Migne really does print 'sequenti nocte' TWICE, ten words apart. Rendering it twice with no [d:] was correct -- Pattern 11 wants an adjacent repetition, and this is not one."
+  },
+  {
+   "col": "0230B",
+   "find": "Tibi dabo hanc potestatem",
+   "replace": "Tlbi dabo hanc potestatem",
+   "direction": "normalized",
+   "why": "Leaf n120 (cols 229/230), right column, band B, verified at 4x: Migne sets 'Tlbi dabo hanc potestatem universam' -- a full-height DOTLESS l, plainly distinct from the dotted i of 'dicebat' on the same line and 'Judae' on the next, so a wrong sort rather than a damaged one. CC tidied it to Tibi. Found while reading this column for juugitur, four lines away -- addendum C again. ⚑ OWED A [sic:]; not fired."
   }
  ]
 }
