@@ -1299,6 +1299,19 @@
       "columns": "0861A-0916B (whole work)",
       "method": "Plate spot check at chunking (Wilson, 2026-08-19 rule), read 2026-09-01 at chunking, BEFORE translation. EIGHT full pages read at 200 dpi from the on-disk scan patrologiaecurs06saingoog.pdf, FULL page width, spanning the whole work and deliberately weighted to its five internal divisions, each of which falls MID-PAGE: p.436 (861/862, the Admonitio Martianaei and the opening), p.443 (875/876), p.449 (887/888, the Marci division), p.452 (893/894, the Lucae division), p.454 (897/898), p.457 (903/904, the Joannis division), p.461 (911/912, the Capitulatio division), p.463 (915/916, the work's end). Map PDF page = (column + 11) / 2 confirmed at the printed corner numbers BEFORE the read (p.436 reads 861/862) and reconfirmed on every subsequent page. No foot-of-page apparatus of either layer (numbered Forte conjectures or the asterisk cross-reference layer) belonging to this work on any of the eight.",
       "caveat": "p.436 DOES carry an asterisk note (\"In altero codice haec clausula habetur: Per eum qui vivit...\"), but it sits ABOVE the rule and keys to the PRECEDING work in the volume, not to 9004, whose text begins with the WALAFRIDI STRABI title block below the rule. A sample of 8 of the work's ~28 pages; it licenses shipping without [cn:] recovery and does NOT license a claim that the unread pages carry no notes."
+    },
+    {
+      "idno": "9001",
+      "series": "pl",
+      "volume": 114,
+      "tier": 2,
+      "coverage": "spot",
+      "notes_recovered": 0,
+      "columns": "0179A-0244C",
+      "method": "Plate spot check at chunking (step 1a). Nine pages of THIS work read 2026-09-03 at 200 dpi from the on-disk scan (raw/scans/pl114/patrologiaecurs06saingoog.pdf, PDF page = (column+11)/2, re-calibrated this session: p.95 carries the running head WALAFRIDI STRABI FULD. MON. OPP. PARS I. - THEOLOGICA. with corner 179 and the title EVANGELIUM SECUNDUM MARCUM). Pages: 95 (work opening, cols 179/180), 98, 102, 105, 109, 114, 118, 123, 127. Weighted to the caput divisions, all of which fall mid-page: II at 98, IV at 102, VI at 105, VIII at 109, X at 114, XIII at 118, XV at 123. p.127 carries the WORK division mid-page - Mark ends and the Luke commentary opens with its prologue and CAPUT PRIMUM below it - which is the case that lost three notes on PL 202, and its foot was read there. Full page width read on each; foot bands read at the full column measure.",
+      "result": "Migne prints NO foot-of-page apparatus anywhere on these pages: no foot rule, no numbered Forte/F. notes, no asterisk-keyed EDIT. note; the columns simply end. Recorded as a checked zero, not a skip. Fourth sampling of PL 114, and the first in this volume outside the Pauline/Catholic epistle range.",
+      "caveat": "⚠ THE SCAN CLIPS BOTH MARGINS ON SOME LEAVES OF THIS RANGE, and it clips them badly enough to eat whole words: p.95 loses 2-4 characters off the RIGHT column's line-ends throughout, and pp.114 and 118 lose 3-6 characters off the LEFT column's line-starts. This does not touch the checked zero (the feet are blank, and blankness survives a crop) but it WILL bite at step 3, the [sic:]/[var:] plate read. Expect the PL 196 remedy to be needed: a second archive.org copy with clean margins, per the 2026-08-31d note.",
+      "verified": "2026-09-03"
     }
   ],
   "fields": {
