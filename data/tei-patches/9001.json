@@ -1,0 +1,84 @@
+{
+ "note": "PLATE GATE of 9001 (Glossa ordinaria in Evangelium secundum Marcum, PL 114, cols 0179A-0244C). Read 2026-09-03 against archive.org patrologiaecursu0114mign -- a SECOND WITNESS, colour, 2215x3603, clean at both margins, chosen because our own on-disk PL 114 scan clips both margins in this range badly enough to eat whole words. Leaf n = (column + 11) / 2, calibrated against the printed corner numbers at n95 (179/180), n115 (219/220) and n126 (241/242) BEFORE any read, and the corner re-checked in frame on the pages where it fell inside the crop. All 29 [sic:]/[var:]/[cj:] markers the five stints fired were read, across 23 leaves.",
+ "class": "CORRUPTED = CC broke a word Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently tidied a defect Migne actually printed; Migne's reading restored, and a [sic:] is OWED but deliberately not fired, because firing one is a fresh public claim per site.",
+ "result": "29 markers read: 19 of 19 [var:] CONFIRMED, 2 of 2 [cj:] CONFIRMED, and 7 of 8 [sic:] WITHDRAWN. The single surviving [sic:] is 0203A magnitudino, which Migne really does print. 11 patches: 9 corrupted, 2 normalized. TWO of the corrupted sites (0203A cursus habentis, 0202D multae.) carried NO marker at all and were found only because the plate was read for something else on the same page.",
+ "patches": [
+  {
+   "col": "0183C",
+   "find": "Femmam",
+   "replace": "Feminam",
+   "direction": "corrupted",
+   "why": "Leaf n97 of archive.org patrologiaecursu0114mign (cols 183/184), left column, band C, verified: 'Feminam vero a febribus consequenter curatam, carnem a concupiscentiae fervore ... frenatam'. CC lost the -in-. English's [sic: *Femmam*] in src/english/9001/0002.md is WITHDRAWN; render plainly as 'the woman'."
+  },
+  {
+   "col": "0187D",
+   "find": "Nunquia possunt",
+   "replace": "Nonquid possunt",
+   "direction": "corrupted",
+   "why": "Leaf n99 (cols 187/188), left column, band D, verified: the lemma is set 'VERS. 19. -- Nonquid possunt.' -- with an o -- while Migne's own Matthew quotation ELEVEN WORDS LATER reads 'Nunquid possunt filii sponsi'. ⛔ THE OBVIOUS PATCH IS THE WRONG ONE: correcting our Nunquia to Nunquid would have conformed the lemma to Migne's quotation and printed a word he does not set at that spot. The two forms genuinely differ on the page. English's [sic: Nunquia] in src/english/9001/0003.md is WITHDRAWN. ⚑ Migne's own Nonquid/Nunquid inconsistency is HIS and is owed a [sic:] if anyone wants to assert it; not fired here."
+  },
+  {
+   "col": "0188A",
+   "find": "aestruere",
+   "replace": "destruere",
+   "direction": "corrupted",
+   "why": "Leaf n99 (cols 187/188), right column, band A, verified with the printed corner 188 in frame: 'Nota primo apostolos litteram sabbati destruere contra Ebionitas'. CC read de- as ae-. ⭐ This one DECIDED THE TRANSLATION, as the stint said it would: destruere gives 'do away with', astruere would have reversed it. The English rendering stands; the [sic: *aestruere*] in src/english/9001/0003.md is WITHDRAWN."
+  },
+  {
+   "col": "0207D",
+   "find": "serminobusque",
+   "replace": "sermonibusque",
+   "direction": "corrupted",
+   "why": "Leaf n109 (cols 207/208), left column, band D, verified: Migne sets it hyphenated across the line break, 'ser-' / 'monibusque incompositis educitur'. CC mangled the break. English's [sic: serminobusque] in src/english/9001/0010.md is WITHDRAWN."
+  },
+  {
+   "col": "0210C",
+   "find": "Ex exspuens",
+   "replace": "Et exspuens",
+   "direction": "corrupted",
+   "why": "Leaf n110 (cols 209/210), right column, band C, verified: the lemma is 'VERS. 23. -- Et exspuens. (ID.)'. ⭐ The stint predicted this withdrawal by name ('the likeliest withdrawal in the range -- if the plate reads Et exspuens the marker comes out and the Latin needs a patch') and declined to assert whose it was. English's [sic: Ex] in src/english/9001/0011.md is WITHDRAWN."
+  },
+  {
+   "col": "0212B",
+   "find": "vineunt",
+   "replace": "vincunt",
+   "direction": "corrupted",
+   "why": "Leaf n111 (cols 211/212), right column, band B, verified: 'Quia multi avaritiam vincunt, labentia despiciunt'. CC read c as e. English's [sic: vineunt] in src/english/9001/0011.md is WITHDRAWN."
+  },
+  {
+   "col": "0214D",
+   "find": "Hoc genus nonullo",
+   "replace": "Hoc genus in nullo",
+   "direction": "corrupted",
+   "why": "Leaf n112 (cols 213/214), right column, band D, verified: the lemma is 'VERS. 28. -- Hoc genus in nullo. (HIER.)' -- two words. CC fused the preposition into the noun and dropped a letter. This is not a spelling slip: our nonullo is meaningless where in nullo carries the sense of Mc 9:28. English's [sic: nonullo] in src/english/9001/0013.md is WITHDRAWN and the rendering must be checked, not merely unmarked."
+  },
+  {
+   "col": "0203A",
+   "find": "cursus habentis",
+   "replace": "cursus labentis",
+   "direction": "corrupted",
+   "why": "Leaf n107 (cols 203/204), left column, band A, verified at 4x: 'mundi creatio, cursus labentis saeculi'. ⭐ NO MARKER WAS FIRED HERE and that was correct: habentis is a perfectly good Latin word, so addendum A's rule sent the stint to log it as a crux and ask for the plate rather than accuse Migne on a corpus argument. The rule worked exactly as designed. Check the English at 0203A: 'the course of the passing world', not 'having'."
+  },
+  {
+   "col": "0202D",
+   "find": "multae.\nfidelium",
+   "replace": "multae\nfidelium",
+   "direction": "corrupted",
+   "why": "Leaf n106 (cols 201/202), right column, band D, verified: 'Christum deserta gentium petentem mul-tae fidelium catervae relictis moenibus' -- hyphenated across the line break with NO full stop. The stray stop is CC's, at that same break. The stint carried it faithfully under Pattern 8 and said plainly it could not tell whose it was; the English currently reads 'many. bands of the faithful', which must be repaired to 'many bands of the faithful'."
+  },
+  {
+   "col": "0185D",
+   "find": "A quatuor portabatur",
+   "replace": "A quator portabatur",
+   "direction": "normalized",
+   "why": "Leaf n98 (cols 185/186), left column, band D, verified at 4x: the italic lemma is 'A quator portabatur.' and Migne's roman gloss ON THE SAME LINE reads 'Quia quatuor virtutibus'. Both forms in his own type, directly comparable -- the ideal control, and the same shape as 8993 @0650A (dia/die). CC supplied the u. Our Latin held the CORRECT form, i.e. a word Migne does not print. Restored. ⚑ OWED A [sic:]; not fired here, because firing one is a fresh public claim and Wilson has not been asked."
+  },
+  {
+   "col": "0203A",
+   "find": "crucifixum Dominum",
+   "replace": "cruxifixum Dominum",
+   "direction": "normalized",
+   "why": "Leaf n107 (cols 203/204), left column, band A, verified at 4x: 'et alio sequente Pascha cruxifixum Dominum.' Migne sets cruxifixum; CC tidied it to crucifixum. ⭐ NOBODY FLAGGED THIS AND NOBODY COULD -- a normalized form reads perfectly. It surfaced only because the whole line was read while checking cursus labentis four words away, which is exactly what the brief's addendum C says to do. Restored. ⚑ OWED A [sic:]; not fired here."
+  }
+ ]
+}
