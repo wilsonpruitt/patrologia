@@ -32,13 +32,17 @@ const AUTHOR = 'Anselmus Laudunensis et schola';
 // so they must be named explicitly or they vanish from this page (2026-09-02). Migne gives
 // each its own title block under WALAFRIDI STRABI FULDENSIS MONACHI, with its own editorial
 // preface — Martianay's Admonitio for the Gospels (cols 861-916), Pez's Monitum for the
-// Psalms (cols 751-794) — and Pez's preface explicitly distinguishes his Walafridian psalms
-// exposition FROM the ordinaria, inviting the learned to note the discrimen between them.
+// Psalms (cols 751-794) — and Pez's preface treats his Walafridian psalms exposition and the
+// ordinaria on the same psalms as two distinct TEXTS, inviting the learned to weigh the
+// discrimen between them. ⚠ It is not a witness on AUTHORSHIP: Pez believed the Glossa was
+// Walafrid's too ('quae itidem Walafridum Strabum auctorem habet'). Plate-verified 2026-09-03.
 // They are kept on this page anyway, and labelled 'a separate exposition', because the page
 // shows what Migne prints under this head and a reader who arrives at one of the 58 wants
 // to find them. Their BYLINE tells the truth even though their place here is editorial.
-// 9003 still reaches this page through AUTHOR and is pending the same byline correction.
-const ALSO_PRINTED_HERE = new Set(['9004']);
+// Both bylines are now corrected off the Glossa author (9004 on 2026-09-02, 9003 on
+// 2026-09-03), so NEITHER reaches this page through AUTHOR any more and both must be named
+// here by idno. Dropping an idno from this set silently removes the work from /glossa.
+const ALSO_PRINTED_HERE = new Set(['9003', '9004']);
 const works = read('data/works.json').works;
 const scan = new Map(read('data/chunk-scan.json').results.map(r => [String(r.idno), r]));
 

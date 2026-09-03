@@ -21969,14 +21969,15 @@
     },
     {
       "workIdno": "3980",
-      "author": "Anselmus Laudunensis et schola",
+      "author": "Auctor incertus (Walafridus Strabo?)",
       "attributions": [
         {
-          "author": "Anselmus Laudunensis et schola",
-          "authorIdno": "20411",
-          "authorYear": "1117",
-          "authorStatus": "minimal",
-          "authorStatusVerified": false
+          "author": "Auctor incertus (Walafridus Strabo?)",
+          "authorIdno": null,
+          "authorYear": "849",
+          "authorStatus": "untriaged",
+          "authorStatusVerified": false,
+          "correctedFromPlate": "2026-09-03"
         }
       ],
       "words": 16964,
@@ -22005,6 +22006,16 @@
           "tei": true,
           "bytes": 134779,
           "sha256": "3dcff3455f2efa52"
+        }
+      ],
+      "authorNote": "Byline corrected 2026-09-03 from the plate, the same correction made to 9004 on 2026-09-02 and for the same reason. Corpus Corporum files this work under the Glossa ordinaria author (Anselmus Laudunensis et schola); Migne does not print it as Glossa. PL 114 col. 751/752 sets a full title block below a double rule, where the Apocalypse gloss ends -- WALAFRIDI STRABI / FULDENSIS MONACHI / EXPOSITIO IN VIGINTI PRIMOS PSALMOS / (Pez., Thes. Anecd. nov., tom. IV.) -- so the text arrives from Pez's Thesaurus anecdotorum novissimus, not from the Glossa tradition. Pez's own PEZII MONITUM PRAEVIUM, printed immediately beneath, names the two as distinct texts: he had Walafrid's exposition of seventy-six psalms from Augia on Mabillon's report, found on examination that 'nucleum et medullam Walafridianae commentationis jam pridem in Glossa ordinaria ... eruditis exhibitam fuisse', and therefore printed only the first twenty as a specimen, inviting the learned to weigh 'majus ex hoc specimine discrimen inter Walafridianam psalmorum expositionem et ordinariam in eosdem Glossam ... quam ego adverti'. NB Pez himself believed the Glossa was ALSO Walafrid's ('quae itidem Walafridum Strabum auctorem habet') -- his discrimen is between two TEXTS, not two authors, and it is not a witness against the Walafrid attribution. The byline rests on Migne's own presentation and on the Pez provenance, not on Pez's opinion. ccAttributions[] below preserves what Corpus Corporum asserts, which is the evidence for where the wrong byline came from, not our claim.",
+      "ccAttributions": [
+        {
+          "author": "Anselmus Laudunensis et schola",
+          "authorIdno": "20411",
+          "authorYear": "1117",
+          "authorStatus": "minimal",
+          "authorStatusVerified": false
         }
       ]
     },
