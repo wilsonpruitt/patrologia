@@ -1,0 +1,21 @@
+{
+ "note": "TEI patches for 8999 (Glossa ordinaria in Evangelium secundum Joannem, PL 114, cols 0355B-0426B). Read against archive.org patrologiaecursu0114mign -- the SECOND WITNESS established for this volume on 9001: colour, 2215x3603, clean at both margins where our on-disk PL 114 scan clips them. Leaf n = (column + 11) / 2, calibrated on THIS work's own range from the printed corner numbers before any read (n183 = 355/356) and re-read on every leaf used.",
+ "class": "CORRUPTED = CC broke or lost what Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently tidied a defect Migne actually printed; Migne's reading restored.",
+ "result": "Opened 2026-09-03 at chunking, before translation, with the one patch the <LACUNA> tag forced. The [sic:]/[var:] plate read has NOT been run on this work.",
+ "patches": [
+  {
+   "col": "0416D",
+   "find": "unum sicut et <LACUNA> haec est pax illa",
+   "replace": "unum sicut et nos, haec est pax illa",
+   "direction": "corrupted",
+   "why": "Leaf n213 of archive.org patrologiaecursu0114mign (cols 415/416), RIGHT column, band D, last line of the column, verified at the plate: 'Gaudium quod supra expressit, ut sint unum sicut et nos, haec est pax illa et beatitudo in | [0417A] futuro saeculo'. ⭐ MIGNE HAS NO LACUNA HERE. CC lost exactly one word -- nos -- at a column break and then tagged the REST OF THE PARAGRAPH <LACUNA>, through 'dicit in mundo', all of which the plate prints continuously and identically (the 0417A remainder re-checked on leaf n214). ⛔ The tag is worse than a visible hole because chunk-work strips it and KEEPS the text, so the chunk would have read 'ut sint unum sicut et haec est pax illa' -- a broken clause with nothing to say it was broken, and a stint would have translated it as continuous prose or fired a marker against Migne for a defect that is ours. Patched at chunking rather than left for the stint. No [ed:] and no [sic:] is owed at this site."
+  },
+  {
+   "col": "0417A",
+   "find": "quam se esse locutum dicit in mundo.</LACUNA>",
+   "replace": "quam se esse locutum dicit in mundo.",
+   "direction": "corrupted",
+   "why": "The orphaned CLOSING tag of the same spurious <LACUNA>, at the end of the paragraph on leaf n214 (cols 417/418), left column, band A. Removed with its opener so no unmatched tag survives to make a later chunk run report a lacuna in this work that the plate does not print. Text unchanged; the tag was stripped harmlessly either way."
+  }
+ ]
+}
