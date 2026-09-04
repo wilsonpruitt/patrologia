@@ -52,3 +52,51 @@ withdrew the marker before firing it.
   at f449 closes it.
 - Two of the work's three `In Hebraeo` clauses remain unread. **The third is closed**: 0868A
   prints `(quod in Hebraeo)` with no Hebrew type at all — nothing was dropped there.
+
+---
+
+# ⛔⛔ SECOND REPORT (chunks 0015–0019): THE RATE IS ~1 PER COLUMN, NOT A HANDFUL
+
+Six plates read (pp. 441–446), **twelve** sites where our chunked Latin does not say what Migne
+printed. **This is the ~3-sites-per-page rate the runbook records from 9003's collation of the
+sibling PL 114 Psalter — measured independently here, in a different volume, and it agrees.**
+The drift runs overwhelmingly **toward the Vulgate and toward ordinary Latin**: CC tidies.
+
+| plate prints | our TEI has |
+|---|---|
+| `Anima` | `Animas` |
+| `Sapientium` | `Sapientiam` |
+| `Desiderabillia` | `Desiderabilia` |
+| `mel ; solutus` | twin **supplies** `id est,` |
+| `locus` | `ocus` |
+| `Seb isti` | `Sed isti` |
+| `Impinguisti` | `Impinguasti` |
+| `commendando` | `commmendando` |
+| `elevumini` | `elevamini` |
+| `spiri-\|tus` | `spiriritus` |
+| `dilexi` | `lilexi` |
+| `genuo` | `genus` |
+| `supientis`, `necessitutibus` | **UNSETTLED — recorded as candidates, not findings** |
+
+⭐⭐ **FIVE `[sic:]` CANDIDATES WERE WITHDRAWN BY THE PLATE AND ONE CONFIRMED.** Every withdrawn
+one read as a confident Migne defect **from the Latin alone**. This is the measured case for why
+`plate-gate` exists: the internal evidence was wrong five times out of six.
+
+⛔ **`Seb isti` @0876B is the sharpest one and NO MARKER CAN REACH IT.** Our twin reads `Sed isti`
+and does not construe; the plate reads `Seb isti`; the conjecture is `Sedisti` ("thou hast sat",
+Prov 23:1–2), which supplies exactly the verb and person the sentence lacks. `[sic:]` may wrap
+only type the twin carries, and `[cj:]` requires the printed word to be in the twin — **so the
+apparatus cannot say any of this until the TEI is patched.** The patch is a precondition for the
+marker, not a tidy-up after it.
+
+# MERGE ITEMS — real convention drift between stints, for the cruces merge
+
+1. ⚠ **`Diapsalma` — roman or italic?** The 0015–0019 stint kept it **roman**, plate-confirmed
+   that Migne sets it roman there. The 0005–0009 stint set it **italic**, deliberately, on the
+   register rule, noting Migne does not italicize at its site either. **Both reasoned; they
+   disagree.** Settle at the merge against what Migne actually sets at each site, and record the
+   ruling in the merged cruces so Bands B and C inherit it rather than re-deciding.
+2. **`In finem` → "Unto the end"** is holding across all five returned stints. No drift.
+3. **`usque ad` → "as far as"** holding, and three stints independently caught unitalicized
+   look-alikes that are NOT the formula. Worth a line in the merged conventions: the italic
+   membership test, not the words.
