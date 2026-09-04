@@ -3,10 +3,10 @@
  "class": "FOUND BY THE CHUNKING PLATE SPOT CHECK, on the work's own opening page — the page the check was already required to read, and the same way 8944's three sites were found. ⚑ THE ORDER IS THE MIRROR OF 8944's: there Migne sets the Hebrew BEFORE his transliteration, here he sets the transliteration first and the Hebrew after it in PARENTHESES ('nebel (נבל)'). The parentheses are Migne's and are kept. Confirmed three ways: the doubled-space scar in the TEI, the glyphs on the plate at 600 dpi, and Migne's own transliteration printed beside them — nothing is inferred from the Latin alone. ⚠ ZERO Hebrew codepoints survive anywhere in this work's 96,650-word TEI, so CC's drop is total rather than selective; that is the reason a scar sweep was run at all.",
  "patches": [
   {
-   "col": "0841C",
+   "col": "0841B",
    "find": "<hi>nebel</hi>  , apud Graecos,",
    "replace": "<hi>nebel</hi> <foreign xml:lang=\"hebrew\">(נבל),</foreign> apud Graecos,",
-   "why": "Migne prints 'Psalterium apud Hebraeos vocatur nebel (נבל), apud Graecos ψαλτήριον, apud Latinos vero organum.' The TEI kept the transliteration and the Greek and dropped only the Hebrew, leaving a DOUBLED SPACE before the comma — the scar hebrew-recovery.md step 1 describes. Three consonants nun-bet-lamed, read directly off the plate at 600 dpi and unambiguous. NOT a scriptural quotation but the common noun נבל (harp/lyre), so the MT check of step 5 is replaced by Migne's own three-language gloss in the same clause: nebel / ψαλτήριον / organum. Migne's type here shows no vowel points at this copy's resolution and none are supplied — the consonants are read, the pointing is not asserted. ⚑ The parentheses AND the trailing comma sit INSIDE the <foreign> element, which looks odd but is the source's own convention: CC encodes the Greek in this very clause as '<foreign xml:lang=\"greek\">ψαλτήριον,</foreign>', comma included. The reason is mechanical — the chunker strips an unrecognized tag by replacing it with whitespace, so anything left outside comes through as '( נבל ) ,' with spaces Migne does not print, and a stray space before a comma is the very scar this patch exists to remove. Leaving one here would plant a false positive for the next scar sweep. 8944 never met this case: its Hebrew stands beside no punctuation."
+   "why": "Migne prints 'Psalterium apud Hebraeos vocatur nebel (נבל), apud Graecos ψαλτήριον, apud Latinos vero organum.' The TEI kept the transliteration and the Greek and dropped only the Hebrew, leaving a DOUBLED SPACE before the comma — the scar hebrew-recovery.md step 1 describes. Three consonants nun-bet-lamed, read directly off the plate at 600 dpi and unambiguous. NOT a scriptural quotation but the common noun נבל (harp/lyre), so the MT check of step 5 is replaced by Migne's own three-language gloss in the same clause: nebel / ψαλτήριον / organum. Migne's type here shows no vowel points at this copy's resolution and none are supplied — the consonants are read, the pointing is not asserted. ⚑ The parentheses AND the trailing comma sit INSIDE the <foreign> element, which looks odd but is the source's own convention: CC encodes the Greek in this very clause as '<foreign xml:lang=\"greek\">ψαλτήριον,</foreign>', comma included. The reason is mechanical — the chunker strips an unrecognized tag by replacing it with whitespace, so anything left outside comes through as '( נבל ) ,' with spaces Migne does not print, and a stray space before a comma is the very scar this patch exists to remove. Leaving one here would plant a false positive for the next scar sweep. 8944 never met this case: its Hebrew stands beside no punctuation. ⚑ Band corrected 2026-09-04: filed as 0841C, but the find resolves inside 0841B — which is also the column the pending-patch file and data/hebrew-patches/8967.json both record for this recovery. The three sources now agree."
   },
   {
    "col": "0841B",
@@ -15,10 +15,10 @@
    "why": "TWO defects at one site, both CC's encoding rather than Migne's type, and both would have reached the reader. (1) An EMPTY <hi></hi> element: it carries no text, and the chunker renders it as a bare '**' standing in the running prose. (2) The note's content is '([Num. XVI] \\n)' — Migne does print this reference in SQUARE brackets inside his parenthesis, so CC is being faithful, but our note syntax OWNS square brackets and the chunker normalizes an interior '[ ]' to '( )'. The two combine to '**[n: ((Num. XVI) )]' — doubled parens plus a stray space from the newline. Rendered as '[n: (Num. XVI)]', which is exactly how this work prints its other 3,375 references. NOT a silent emendation of Migne: his bracket-vs-paren variation for a bare scripture reference carries no sense our apparatus can lose, and the reference itself is untouched."
   },
   {
-   "col": "0855C",
+   "col": "0853D",
    "find": "<hi></hi><note>([Gen. III] \n)</note>",
    "replace": "<note>(Gen. III)</note>",
-   "why": "TWO defects at one site, both CC's encoding rather than Migne's type, and both would have reached the reader. (1) An EMPTY <hi></hi> element: it carries no text, and the chunker renders it as a bare '**' standing in the running prose. (2) The note's content is '([Gen. III] \\n)' — Migne does print this reference in SQUARE brackets inside his parenthesis, so CC is being faithful, but our note syntax OWNS square brackets and the chunker normalizes an interior '[ ]' to '( )'. The two combine to '**[n: ((Gen. III) )]' — doubled parens plus a stray space from the newline. Rendered as '[n: (Gen. III)]', which is exactly how this work prints its other 3,375 references. NOT a silent emendation of Migne: his bracket-vs-paren variation for a bare scripture reference carries no sense our apparatus can lose, and the reference itself is untouched."
+   "why": "TWO defects at one site, both CC's encoding rather than Migne's type, and both would have reached the reader. (1) An EMPTY <hi></hi> element: it carries no text, and the chunker renders it as a bare '**' standing in the running prose. (2) The note's content is '([Gen. III] \\n)' — Migne does print this reference in SQUARE brackets inside his parenthesis, so CC is being faithful, but our note syntax OWNS square brackets and the chunker normalizes an interior '[ ]' to '( )'. The two combine to '**[n: ((Gen. III) )]' — doubled parens plus a stray space from the newline. Rendered as '[n: (Gen. III)]', which is exactly how this work prints its other 3,375 references. NOT a silent emendation of Migne: his bracket-vs-paren variation for a bare scripture reference carries no sense our apparatus can lose, and the reference itself is untouched. ⚑ COLUMN CORRECTED 2026-09-04 by scripts/patch-audit.mjs: this patch was filed as 0855C and its find string resolves to 0853D. The find matched exactly once, so chunk-work.mjs could never see the error — uniqueness is not location. The repair itself was always aimed right (the work contains exactly two empty <hi></hi> elements, 0841B and this one); it was the RECORD that was wrong, and it would have sent anyone re-reading the leaf to the wrong page and made any coverage claim on the old column false."
   },
   {
    "col": "0847A",
@@ -27,145 +27,145 @@
    "why": "CC NORMALIZED MIGNE TOWARD THE VULGATE. The plate at 0847A (PDF p. 429, whose printed corners read 847/848 and were checked before the crop) prints `qui in sordibus est, sordescet adhuc` with an E; our TEI reads `sordescat`, which is the CLEMENTINE's form at Apoc 22:11. Verified directly on the leaf, not taken from a report — col 847 is clean and the word is mid-line. ⛔ THIS CLASS IS INVISIBLE TO EVERY CHECK WE RUN: a Vulgate collation cannot see it, because the digitization has already made Migne agree with the Vulgate, and a [var:] here would have been impossible to detect rather than merely wrong. Found by the chunks 0000-0004 stint. ⚑ A SECOND `sordescat` STANDS AT 0869A and is NOT patched — it is a different column in another stint's range and has not been read at the plate. Do not assume it matches; the whole point of this class is that our copy of the text is not the arbiter."
   },
   {
-   "col": "",
+   "col": "0903C",
    "find": "si\n<pb n=\"0903D\"/>\nunius hominis vox est capitis et corporis.",
    "replace": "si\n<pb n=\"0903D\"/>\nunius homini vox est capitis et corporis.",
    "why": "CC transcription departure from the plate. Plate reads 'homini vox'; our TEI had 'hominis vox'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0903D",
    "find": "t.</p>\n<p>VERS. 3.-- <hi>Dominus conservet.</hi> <note>(ID.)</note>",
    "replace": "t.</p>\n<p>VERS. 3.-- <hi>Dominum conservet.</hi> <note>(ID.)</note>",
    "why": "⛔ INVISIBLE CLASS -- CC moved Migne's text ONTO the Clementine's reading, so a Vulgate collation sees agreement where the plate has divergence. A [var:] here was made IMPOSSIBLE, not merely wrong, before we saw the file. Plate reads 'Dominum conservet'; our TEI had 'Dominus conservet'."
   },
   {
-   "col": "",
+   "col": "0904C",
    "find": "mbris, quia\nalii fratres in illum aliquid sperabant, quia talis videbatur\nut",
    "replace": "mbris, quia\nalii fratres in aliquid sperabant, quia talis videbatur\nut",
    "why": "⛔ OUR LATIN CARRIED WORDS THE PLATE DOES NOT. Plate reads 'in aliquid sperabant'; our TEI had 'in illum aliquid sperabant'. This is larger than the letter-level class; verified on the leaf before patching. The English twin was translated from the unpatched Latin and is corrected alongside."
   },
   {
-   "col": "",
+   "col": "0908C",
    "find": ")</note>\n          </hi> Noscere dicitur Deus\net quod novit et qu",
    "replace": ")</note>\n          </hi> Nocere dicitur Deus\net quod novit et qu",
    "why": "⭐ CC REPAIRED A GENUINE MIGNE DEFECT, destroying evidence for a marker we are entitled to fire. Plate reads 'Nocere dicitur' (Migne's own error); our TEI had the tidied 'Noscere dicitur'. Restored so the apparatus can reach it."
   },
   {
-   "col": "",
+   "col": "0910C",
    "find": " se odit, cum Deo\nfacit: odit Deus iniquitatem, oderis et tu.</p>\n<p> <",
    "replace": " se odit, cum Deo\nfacit: odit Deus iniquitetem, oderis et tu.</p>\n<p> <",
    "why": "⭐ CC REPAIRED A GENUINE MIGNE DEFECT, destroying evidence for a marker we are entitled to fire. Plate reads 'odit Deus iniquitetem' (Migne's own error); our TEI had the tidied 'odit Deus iniquitatem'. Restored so the apparatus can reach it."
   },
   {
-   "col": "",
+   "col": "0905A",
    "find": "\nveneno aestuans, fontem ab bibendum ardentissime\ndesiderat; ",
    "replace": "\nveneno aestuans, fontem ad bibendum ardentissime\ndesiderat; ",
    "why": "CC transcription departure from the plate. Plate reads 'ad bibendum'; our TEI had 'ab bibendum'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0906A",
    "find": "r nisi se humiliet, quod notatur in <hi>modico.\nJordanis. <note>(Ibid.)<",
    "replace": "r nisi se humiliet, quod notantur in <hi>modico.\nJordanis. <note>(Ibid.)<",
    "why": "CC transcription departure from the plate. Plate reads 'notantur in <hi>modico.'; our TEI had 'notatur in <hi>modico.'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0904A",
    "find": "/>\nne hominis infirmitas duris superetur; quasi,\nlectus quietis s",
    "replace": "/>\nne hominis infirmitas durio superetur; quasi,\nlectus quietis s",
    "why": "CC transcription departure from the plate. Plate reads 'durio superetur'; our TEI had 'duris superetur'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0871C",
    "find": "ens jugo servitutis. <hi>Animas.</hi> \n Voluntates, non ",
    "replace": "ens jugo servitutis. <hi>Anima.</hi> \n Voluntates, non ",
    "why": "CC transcription departure from the plate. Plate reads 'Anima'; our TEI had 'Animas'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0871C",
    "find": "sapientiam dederunt. <hi>Sapientiam:</hi> \n de divinis.</p>\n",
    "replace": "sapientiam dederunt. <hi>Sapientium:</hi> \n de divinis.</p>\n",
    "why": "CC transcription departure from the plate. Plate reads 'Sapientium'; our TEI had 'Sapientiam'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0876B",
    "find": "rum. De hac dicitur: <hi>Sed isti ad mensam divitis,</hi> ",
    "replace": "rum. De hac dicitur: <hi>Seb isti ad mensam divitis,</hi> ",
    "why": "CC transcription departure from the plate. Plate reads 'Seb isti'; our TEI had 'Sed isti'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0876B",
    "find": "st, pati sicut ipse. <hi>Impinguasti:</hi> \n octava, unctio c",
    "replace": "st, pati sicut ipse. <hi>Impinguisti:</hi> \n octava, unctio c",
    "why": "CC transcription departure from the plate. Plate reads 'Impinguisti'; our TEI had 'Impinguasti'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0877A",
    "find": "idiam, et ut amplius\neum commmendando alios invitet.</p>\n<p>VE",
    "replace": "idiam, et ut amplius\neum commendando alios invitet.</p>\n<p>VE",
    "why": "CC transcription departure from the plate. Plate reads 'commendando'; our TEI had 'commmendando'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0877A",
    "find": "olo\npositae sunt. <hi>Et elevamini.</hi> Contra portas mort",
    "replace": "olo\npositae sunt. <hi>Et elevumini.</hi> Contra portas mort",
    "why": "CC transcription departure from the plate. Plate reads 'elevumini'; our TEI had 'elevamini'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0879B",
    "find": "tui, <hi>cor</hi> calore spiriritus. <hi>Cor</hi> \n pro cogi",
    "replace": "tui, <hi>cor</hi> calore spiritus. <hi>Cor</hi> \n pro cogi",
    "why": "CC transcription departure from the plate. Plate reads 'spiritus'; our TEI had 'spiriritus'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0879D",
    "find": "> Haec ideo faciam, quia\nlilexi me facere decoram domum ",
    "replace": "> Haec ideo faciam, quia\ndilexi me facere decoram domum ",
    "why": "CC transcription departure from the plate. Plate reads 'dilexi'; our TEI had 'lilexi'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0853B",
    "find": "n videatur hominibus)  « deeidam\nab inimicis meis inanis,",
    "replace": "n videatur hominibus)  « decidam\nab inimicis meis inanis,",
    "why": "CC transcription departure from the plate. Plate reads 'decidam'; our TEI had 'deeidam'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0894B",
    "find": "oquerentur\npacifice. <hi>Iniracundia.</hi> Id est, exitialite",
    "replace": "oquerentur\npacifice. <hi>In iracundia.</hi> Id est, exitialite",
    "why": "CC transcription departure from the plate. Plate reads 'In iracundia'; our TEI had 'Iniracundia'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0894D",
    "find": "i> <note>(ID.)</note> In spemagna\nfidelium finis, sicut al",
    "replace": "i> <note>(ID.)</note> In In spe magna\nfidelium finis, sicut al",
    "why": "CC transcription departure from the plate. Plate reads 'In spe magna'; our TEI had 'spemagna'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0901C",
    "find": "Vel, aranea tenue corpus hahet, nec in terra, sed in\nal",
    "replace": "Vel, aranea tenue corpus habet, nec in terra, sed in\nal",
    "why": "CC transcription departure from the plate. Plate reads 'habet'; our TEI had 'hahet'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0899B",
    "find": "- <hi>Tanquam surdus non audiebam, et sicut\nmutus non aper",
    "replace": "- <hi>Tanquam surdus non audiebant, et sicut\nmutus non aper",
    "why": "⛔ INVISIBLE CLASS -- CC moved Migne's text ONTO the Clementine's reading, so a Vulgate collation sees agreement where the plate has divergence. A [var:] here was made IMPOSSIBLE, not merely wrong, before we saw the file. Plate reads 'audiebant'; our TEI had 'audiebam'."
   },
   {
-   "col": "",
+   "col": "0912B",
    "find": "s principio; et hoc, <hi>diliculo,</hi> \n id est, per illu",
    "replace": "s principio; et hoc, <hi>diluculo,</hi> \n id est, per illu",
    "why": "CC transcription departure from the plate. Plate reads 'diluculo'; our TEI had 'diliculo'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0914A",
    "find": "i> Herodis. <hi>Conteres\nnaves-Tharsis.</hi> Quia, in Tharso, C",
    "replace": "i> Herodis. <hi>Conteres\nnaves Tharsis.</hi> Quia, in Tharso, C",
    "why": "CC transcription departure from the plate. Plate reads 'naves Tharsis'; our TEI had 'naves-Tharsis'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
   },
   {
-   "col": "",
+   "col": "0867B",
    "find": "tor,</hi> \nut si potens, captu+m ab hostibus liberet. <hi",
    "replace": "tor,</hi> \nut si potens, captum ab hostibus liberet. <hi",
    "why": "CC transcription departure from the plate. Plate reads 'captum'; our TEI had 'captu+m'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
@@ -263,5 +263,6 @@
  ],
  "unread": "The scar sweep across all 106 chunks found 13 stray-space candidates; only this one was read at the plate. The other 12 are NOT claimed as drops — a stray space has ordinary causes too, and hebrew-recovery.md step 1 makes the scan the arbiter, not the scar. Three 'In Hebraeo' clauses also stand in this work, none with surviving Hebrew, and all three are unread candidates. Exposure here is small by the standards of an etymological work; it was worth a sweep and is not worth a campaign.",
  "countNote": "⚑ THESE TWO SITES ARE ALSO WHY THE MASTER BRIEF'S TOTALS LINE READ 5999 WHILE THE FILE HELD 5997 SPANS. Each empty <hi></hi> was collected as a span and then dropped at print time, so the headline counted rows the file does not contain. The runbook makes that total load-bearing — stints are told to count their own Latin against it — so a stint would have hunted two spans that never existed. Removing the empty elements reconciles it; lemma-inventory.mjs was also fixed to total what it prints.",
- "bandA_pass": "39 patches applied in ONE pass 2026-09-04, after Band A's translation was complete and before the cruces merge, so that no patch rewrote Latin under a stint that was still writing. Sources: the eight Band A cruces files, each site read at the plate by the stint that reported it. ⛔ TWO REPORTED SITES WERE DELIBERATELY NOT APPLIED. (1) `locutus egomet` -> `locutos`: at 900 dpi the glyph is ambiguous, and `locutus` (perfect deponent, 'and afterwards I myself spoke') is correct Latin where `locutos` is a solecism -- a patch needs positive evidence, and applying this would have corrupted good Latin into an error. (2) `possit` -> `rossit` and the like: THE PLATE'S BROKEN SORTS ARE NOT MIGNE'S ERRORS. A damaged `p` that images as `r` is the condition of THIS COPY's inking, not a reading of the edition; restoring it would import a defect that exists nowhere but in one physical leaf. Compositor errors (wrong sorts SET) are restored; ink damage is not. That line is new and is the reason `iniquitetem` and `Nocere` ARE restored while `rossit` is not. (3) `Desiderabilia` -> `Desiderabillia` deferred: two occurrences stand in col 0871D and the report does not say which, so the leaf must be re-read rather than guessed."
+ "bandA_pass": "39 patches applied in ONE pass 2026-09-04, after Band A's translation was complete and before the cruces merge, so that no patch rewrote Latin under a stint that was still writing. Sources: the eight Band A cruces files, each site read at the plate by the stint that reported it. ⛔ TWO REPORTED SITES WERE DELIBERATELY NOT APPLIED. (1) `locutus egomet` -> `locutos`: at 900 dpi the glyph is ambiguous, and `locutus` (perfect deponent, 'and afterwards I myself spoke') is correct Latin where `locutos` is a solecism -- a patch needs positive evidence, and applying this would have corrupted good Latin into an error. (2) `possit` -> `rossit` and the like: THE PLATE'S BROKEN SORTS ARE NOT MIGNE'S ERRORS. A damaged `p` that images as `r` is the condition of THIS COPY's inking, not a reading of the edition; restoring it would import a defect that exists nowhere but in one physical leaf. Compositor errors (wrong sorts SET) are restored; ink damage is not. That line is new and is the reason `iniquitetem` and `Nocere` ARE restored while `rossit` is not. (3) `Desiderabilia` -> `Desiderabillia` deferred: two occurrences stand in col 0871D and the report does not say which, so the leaf must be re-read rather than guessed.",
+ "patchAudit": "scripts/patch-audit.mjs, added 2026-09-04: resolves every find's offset to its enclosing <pb/> and compares with the declared col, refuses a no-op replace, and warns where a patched column has no recorded plate read. chunk-work.mjs checks UNIQUENESS only, and uniqueness is not location — a find can match exactly once in the wrong column, leaving the real defect and corrupting a column nobody collated (9003, 2026-08-28). Run on Band A's 43 it found 1 mis-recorded column and 24 patches filed with NO column at all, so the check had never been possible on more than half the file. All now resolved from the TEI itself."
 }
