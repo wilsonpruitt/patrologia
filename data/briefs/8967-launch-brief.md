@@ -77,8 +77,10 @@ copy** — log it as needing a second witness (Gallica; `data/volumes.json`) and
 ⛔ **THIS BRIEF ORIGINALLY GAVE YOU A RULE FOR PREDICTING IT AND THE RULE IS WRONG.** It said a
 left-hand column numbered 1 (mod 4) is clipped. That held on the first five pages and was
 REFUTED on the eleventh: **col 901 is 1 (mod 4) and is perfectly clean**, found by the stint on
-chunks 0025–0029 and verified independently. Tally: clipped 841, 849, 893, 897, 1045 · clean
-895, 899, 901, 1043, 1047.
+chunks 0025–0029 and verified independently. Tally after eleven more columns were read: mod-1 columns stand at **5 clipped (841, 849, 893,
+897, 1045) against 6 clean (853, 857, 861, 865, 869, 901)**. Not a rule and not even a
+tendency — a coin flip. My original five pages were four consecutive leaves plus one, so they
+sampled a single physical gathering and the congruence was an artifact of contiguity.
 
 ⚑ **Use it to decide WHICH LEAF TO PULL FIRST. Never use it to decide a marker.** The failure
 mode runs in the direction nobody audits: applied blind it WITHHOLDS good markers on columns
