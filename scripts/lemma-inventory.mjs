@@ -182,6 +182,19 @@ for (const f of files) {
       cursor = b + 1;
       rows.push({ band, caput, vers: vers ? vers[1].trim() : '', span });
     }
+    // ⛔⛔ ADVANCE THE BAND PAST A LINE THAT HAS ANCHORS BUT NO SPANS. The loop above only
+    // updates `band` from anchors standing before a span ON THE SAME LINE, so a line carrying
+    // column anchors and no italics — common in this note-dense prose — left `band` frozen and
+    // every later span in the chunk inherited a stale column. Measured on 8967: chunk 0005's
+    // three spans were all filed under [0850A], the chunk's opening context, while standing at
+    // 0850D / 0851A / 0851B; anchors 0850B, 0850C and 0850D all stood on span-less lines.
+    // ⚑ Reported independently by the 0000-0004 and 0005-0009 stints, then reproduced
+    // mechanically before this fix — two agents noticing the same thing is corroboration only
+    // once the instrument has been checked directly.
+    // MEMBERSHIP WAS NEVER WRONG (split-lemma-brief.mjs splits by chunk, not by band), so no
+    // brief was mis-split and nothing shipped wrong. What was lost is the ability to LOCATE a
+    // span from its label — which is most of what the file is for.
+    if (anchors.length) band = anchors[anchors.length - 1][1];
     if (starPositions.length % 2 === 1) unclosed++;
   }
 }
