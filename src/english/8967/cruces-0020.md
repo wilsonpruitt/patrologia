@@ -29,15 +29,44 @@ after stripping `[var: …]`; question marks 1/1/1/4/3. Punctuation compared **b
 
 ---
 
-## §1. Markers fired — five, all `[var: …]`, none in a clipped column
+## §1. THE PLATE WAS READ — five pages, cols 0883–0892, all recorded
 
-§3 of the launch brief clips left-hand columns **≡ 1 (mod 4)**. In my range those are **0885 and
-0889**. **I fired no marker in either.** The five markers stand in cols 883, 886, 886, 888, 890, 891
-(mod 4 = 3, 2, 2, 0, 2, 3), none of which the clipping rule touches.
+⛔ **Nobody had read any column in my range.** Under the corrected §3 of the launch brief (the mod-4
+clipping rule is withdrawn — the plate is the arbiter, a rule about the plate is not) I opened all
+five leaves before firing anything: **PDF pages 447–451** of
+`raw/scans/pl113/patrologiaecurs04migngoog.pdf`, at 200 dpi full-page with 450–500 dpi crops,
+corner numbers read first on every page. Map `PDF page = (column + 11) / 2` **verified** — p. 447
+carries 883/884 in the corners. All five reads are recorded in `data/plate-reads.json`.
 
-Every one rests on `sources/vulgate/clementine-flat.txt`, cited book chapter:verse, not on
-recollection. All five are `[var: …]`; **I fired no `[sic:]`, `[d:]` or `[ed:]` anywhere in the
-range** — see §3 for the three candidates and why each was declined.
+**Clipping, observed rather than predicted:**
+
+| page | cols | left col | state |
+|---|---|---|---|
+| 447 | 883 / 884 | 883 | **clean** |
+| 448 | 885 / 886 | 885 | **CLIPPED** — `VERS.` lost entirely at line openings (prints as a bare `9, 10.`), interior lines lose 3–6 chars |
+| 449 | 887 / 888 | 887 | **clean** |
+| 450 | 889 / 890 | 889 | **clean** ⭐ |
+| 451 | 891 / 892 | 891 | **clean** |
+
+⭐ **Col 889 is 1 (mod 4) and is perfectly clean — a further counterexample to the withdrawn rule,
+alongside 853, 857 and 901.** Had I decided by the rule rather than by the plate I would have
+withheld nothing here (no marker of mine falls in 889), but I *would* have withheld the `[d:]` at
+**0890A** on the belief that its neighbourhood was unreliable, and that marker turns out to be
+licensed. The failure mode is exactly the one the correction names.
+
+⚑ **Zero foot-of-page conjecture apparatus of either layer** on all five pages — no numbered
+`Forte` notes, no asterisk layer. Recorded as five more `spot` reads; it does not license the claim
+that the work has none.
+
+## §1a. Markers fired — six
+
+Five `[var: …]` and one `[d: …]`. Every `[var:]` rests on `sources/vulgate/clementine-flat.txt`,
+cited book chapter:verse, and **every one now also rests on the plate**: I confirmed that Migne
+prints what our TEI says he prints before making a public claim about his text. **No `[sic:]` and no
+`[ed:]` anywhere in the range** — see §3.
+
+⚑ `node scripts/plate-gate.mjs 8967` **exits 0**: every marker in this range stands on a column that
+was read.
 
 | col | Migne prints | Clementine | why licensed |
 |---|---|---|---|
@@ -46,13 +75,13 @@ range** — see §3 for the three candidates and why each was declined.
 | **0886D** | titulus *Intellectus David.* (Ps 31) | Ps 31:1 *Ipsi David intellectus* | Launch brief §2.4 makes the *David* / *ipsi David* distinction load-bearing. Migne drops *ipsi* and inverts. |
 | **0888B/C** | titulus *In finem.* (Ps 32) | Ps 32:1 *Psalmus David* | **The Clementine has no *In finem* over Psalm 32 at all.** This is the largest titulus divergence in my range; it is not an abbreviation of the received heading but a different heading. |
 | **0890C** | titulus *Psalmus David.* (Ps 33) | Ps 33:1 *Davidi, cum immutavit…* | Dative *Davidi* against Migne's *Psalmus David*; brief §2.4 again. The pre-scan's `⚑ MATCHES ONLY ELSEWHERE — Ps 3:1, Ps 4:1…` is explained by exactly this: Migne's form is the heading of *other* psalms, not of this one. |
+| **0890A** | `In sua **in** virtute nullus salvatur` — a **doubled preposition** | — (not a scripture claim) | ⭐ **`[d: in]`, and the plate is what licensed it.** I had declined this under the Ship Test while the column was unread, because a doubled short word is the classic Corpus Corporum artifact and Pattern 11's marker asserts *"Repeated in Migne's plate."* **Read at 500 dpi, the plate sets `In sua in virtute` with normal spacing either side — the doubling is Migne's own.** Per 11a the two runs differ, so the marker goes on the **intrusion**, which is the second `in`: removing it leaves `In sua virtute`, the reading the whole verse-group argues (*Non salvatur rex … in abundantia virtutis suae non salvabitur*). |
 | **0891A** | *Immittet Angelum* (Ps 33:8) | Ps 33:8 *Immittet angelus Domini in circuitu timentium eum* | **Accusative object against a nominative subject** — Migne's psalter has God sending an angel; the Clementine has the angel encamping. The gloss then discusses two further readings, which proves the lemma is under textual pressure at this very word. This is the most material divergence in the range and the one a 7a″ conformation would have destroyed: the familiar English ("the angel of the Lord shall encamp round about") is *not* what Migne prints. |
 
-⚑ On the three tituli (0886D, 0888B/C, 0890C): if the band merge decides tituli are to be logged
-rather than marked, these three withdraw cleanly and the sixth and first stay. I fired them because
-brief §2.4 names Migne-vs-Clementine titulus divergence as "a real finding, not a checker fault," and
-because a `[var:]` asserts nothing about the *plate* — only that two texts differ, which the file on
-disk settles.
+⚑ On the three tituli (0886D, 0888B/C, 0890C): brief §2.4 names Migne-vs-Clementine titulus
+divergence as "a real finding, not a checker fault," and **the band is already doing this** — the
+0019 stint fired `[var:]` on the tituli of Ps 26 and Ps 27 (0880A, 0881C) and the 0026/0027 stint on
+Ps 35 and Ps 36. Mine are consistent with that practice, and all three are plate-confirmed.
 
 ---
 
@@ -65,8 +94,10 @@ disk settles.
   the titulus would make the same two words mean two unrelated things four lines apart.
 - **`Diapsalma`** — four occurrences, all in-range: 0887C, 0887C, 0887D (`Diapsalma`) and 0891D
   (**`Diapsalmus`**, masculine). All four are carried unanglicized. ⚠ **Not italicized**, because
-  Migne/CC do not italicize them here — none of the four is inside a `*…*` span, and adding italics
-  would create English spans with no Latin twin and break the 267-span parity. The launch message's
+  Migne does not italicize them — ✅ **checked at the plate on all four, pp. 449 and 451: they are
+  set in roman**, and none of the four is inside a `*…*` span, so adding italics would also create
+  English spans with no Latin twin and break the 267-span parity. ✅ **`Diapsalmus` at 0891D is
+  confirmed masculine at the plate**, so the form beside the work's 37 `Diapsalma` is Migne's. The launch message's
   "unanglicized and italic" is followed on the first half and yielded to the plate on the second, per
   the shared brief's rule that every italic span in the Latin is an italic span in the English *in the
   same place*. Flagging for the merge in case the band wants it otherwise.
@@ -80,64 +111,78 @@ disk settles.
 
 ---
 
-## §3. Defect candidates DECLINED — the plate cannot license them on this copy
+## §3. The three type-defect candidates — ALL THREE SETTLED AT THE PLATE
 
-⛔ Three sites in my range look like type defects. **All three fire no marker**, per Ship Test B, and
-all three need a plate read. §3 of the launch brief is decisive for the reason: our Latin is Corpus
-Corporum's transcription, not Migne's page, and addendum A of the shared brief measured **10 for 10**
-that a suspicion aimed at a *non-word* turns out to be **our** corruption, not Migne's. Firing a
-`[sic:]` on any of these would publicly blame Migne for CC's defect — the exact class of the seven
-markers withdrawn in the 2026-08-23 batch.
+⭐ **Every one of these was declined while the columns were unread, and the plate then settled all
+three — two against my instinct and one for it.** That is the measured lesson of 9004 with a case
+attached: *frequency and internal corroboration prove an error EXISTS, never whose it is.*
 
-### 3a. **0884B — `in aeter num laudabo te`** (word split; the sharpest of the three)
-Migne/CC print `Quid est: *in aeternum confitebor tibi?* in aeter num laudabo te.` The run
-**`aeter num`** is *aeternum* split across a space — and the same word stands correctly **twice in
-the preceding sentence**. This has the exact shape of a line-end break that CC failed to rejoin
-(7a⁗-b, split direction).
-- **Rendered** as "For ever I will praise thee." **No `[sic:]`.** Carrying `aeter num` untranslated in
-  italics per Pattern 10 would also have added an italic span with no Latin twin.
-- **Requested:** plate read of **col. 0884B**, final line of the column band. If Migne prints
-  `aeternum` whole, nothing is owed and the TEI wants a silent CC repair (as `PSAMUS CXXIV` already
-  had). If Migne prints it split, a `[sic: *aeter num*]` is owed and this crux says so.
+### 3a. **0884B — `in aeter num laudabo te`** → **CC's. No marker owed.**
+Our Latin prints `in aeter num laudabo te`. **The plate reads `in æter-num laudabo te`, hyphenated
+across a line break** (450 dpi crop, right column, band B). Corpus Corporum dropped the hyphen and
+left the space. **Our corruption, exactly the class the coordinator's `de-cidam`→`deeidam` names.**
+- **Rendered** "For ever I will praise thee." **No `[sic:]`**, and none is owed: firing one would
+  have accused Migne of CC's defect.
+- ➜ **TEI-patch candidate: PL 113 col. 0884B, PDF p. 447 right column.** `aeter num` → `aeternum`.
 
-### 3b. **0890A — `In sua in virtute nullus salvatur`** (doubled preposition)
-Cassiodorus/Augustine on Ps 32:18. The intended text is plainly `In sua virtute nullus salvatur`
-("in his own strength no one is saved"), which is what the whole verse-group argues
-(*Non salvatur rex … in abundantia virtutis suae non salvabitur*). The second `in` has no
-grammatical slot.
-- **Rendered literally**, both prepositions carried: "In his own in strength no one is saved."
-  **No `[d: …]`.** Pattern 11's marker asserts *"Repeated in Migne's plate"* — a claim I cannot stand
-  behind from the file, and 11a warns that where the two runs differ, position alone identifies
-  nothing.
-- ⚠ Because no marker fired, the doubled *in* reads on the page as though it were **our** error. That
-  is the honest state of the evidence: it may be. **Requested:** plate read of **col. 0890A**.
-- Column 890 is **not** clipped (890 mod 4 = 2), so the mod-4 rule is not what blocks the marker here;
-  the Ship Test is.
+### 3b. **0890A — `In sua in virtute nullus salvatur`** → **MIGNE'S. `[d: in]` FIRED.**
+⛔ **This is the one I got wrong while the column was unread.** I had reasoned that a doubled short
+word is the classic CC artifact and declined the marker under Ship Test B. **The plate sets
+`In sua in virtute` plainly, at 500 dpi, with normal spacing on both sides** — Migne's own
+dittography, and col. 890 is clean, so nothing about the copy explains it away.
+- **Marker now fired**, per Pattern 11a on the intrusive copy: `In his own [d: in] strength no one
+  is saved`. Both occurrences are rendered, as Pattern 11 requires.
+- ⚑ The general point, and it is the reason this crux is worth its length: **my confidence pointed
+  the wrong way, and the only thing that corrected it was opening the page.** The withdrawn mod-4
+  rule would have reinforced the error rather than caught it.
 
-### 3c. **0886B — `--VERS. 21.`** (the `--` on the wrong side of the address)
-Our Latin reads `[0886B]--VERS. 21. *A conturbatione.*` — the double hyphen precedes the address and
-a bare period follows it. **Every other verse address in this work — 2,034 of them — prints
-`VERS. n.--`.** This is the only exception in 96,650 words.
-- **Reproduced verbatim** in the English (convention 1: the address passes through untranslated), so
-  the page shows exactly what the file shows. **No marker.**
-- Most likely mechanism: the column break fell inside `VERS. 21.--` and CC placed the anchor between
-  the numeral and the dashes. **Requested:** plate read of the head of **col. 0886B**.
+### 3c. **0886B — `--VERS. 21.`** → **CC's. No marker owed.**
+Our Latin reads `[0886B]--VERS. 21. *A conturbatione.*`, the only such form in 2,035 verse addresses
+in this work. **The plate reads the ordinary `VERS. 21. — A conturbatione`** (p. 448, right column,
+band B). CC transposed the dashes to the wrong side of the address across the column break.
+- **Reproduced verbatim** in the English, since the address passes through untranslated. **No marker.**
+- ➜ **TEI-patch candidate: PL 113 col. 0886B, PDF p. 448 right column.**
 
+## §3a. ⭐ FIVE MORE CORPUS CORPORUM DEPARTURES, found by reading the whole line
+
+These are the addendum-C class — **every one was found while reading the plate for a different word
+a few words away**, and **not one is detectable from our files**, because in each case CC's reading
+is the *tidier* one. They are TEI-patch candidates per the coordinator's ruling, **not markers**: a
+`[sic:]`/`[d:]` must wrap text that is verbatim in the Latin twin, and in each case the defective
+text is precisely what our twin does *not* contain.
+
+| col | Migne prints | our TEI reads | class | leaf |
+|---|---|---|---|---|
+| **0883D** | `Non movebor **ad** hoc bono` | `ab hoc bono` | **normalization to a form that construes** — *movebor ad* + ablative does not construe and *ab* does | p. 447 L, band D |
+| **0887B** | `Dum clamarem tota die, **etsi. Etsi** non sit sibi conscius quis` | `etc. Etsi non sit…` | ⭐ **a plain dittography in Migne's plate, silently tidied away by CC.** Read at 450 dpi; unmistakable | p. 449 L, band B |
+| **0887C** | `(ID.) Diapsalma **poenitudinem** commendans` — **no period** after *Diapsalma* | `Diapsalma. poenitudinem` | **punctuation inserted.** ⚑ This retro-explains an oddity I had already logged from the file alone: our TEI's lowercase *poenitudinem* after a full stop. It is lowercase because in Migne there is no full stop | p. 449 L, band C |
+| **0887C** | `omnibus sanctis **dici.**` (with a period) | `dicit communem` | **normalization to a form that construes** | p. 449 L, band C |
+| **0891A** | `Circumdat Angelus Domini **gyro** timentes eum` | `in gyro` | **a preposition SUPPLIED by CC** — same shape as 8969 @1168B's supplied *est* | p. 451 L, band A |
+
+⚑ **The consequence for the English, stated plainly:** my translation renders the Latin twin **as
+shipped**, so it currently reads "moved *from* this good," "*etc.*", and "*in* a ring." If these
+five patches land, three of my sentences must change with them — the *etsi* one materially, since
+Migne's doubled word wants a `[d: etsi]`. Flagging it here rather than pre-empting a patch that has
+not been made.
+
+### 3d. Real words that read oddly — logged, no marker, per addendum A
 ### 3d. Real words that read oddly — logged, no marker, per addendum A
 Addendum A of the shared brief: *a real, well-formed word that reads oddly is Migne's until a plate
 says otherwise.* Four sites, none marked:
 1. **0883C — `quod morte solvistis`** (2 pl.). "the first sin, which by death you have loosed." The
-   surrounding discourse is 3 sg. (*vindicavit in nos*). Rendered as printed; the address to a plural
-   "you" may be Augustine turning to his hearers, or may be for *solvisti*. No marker.
+   surrounding discourse is 3 sg. (*vindicavit in nos*). ✅ **Plate-confirmed as Migne's.** Rendered
+   as printed; the address to a plural "you" may be Augustine turning to his hearers, or may be for
+   *solvisti*. No marker.
 2. **0883D — `Vespere facit.`** Rendered "He acts at evening." Two words, no object, standing between
-   the *ad vesperum / ad matutinum* gloss and Adam's speech. Reads like an abridgment stub. Rendered
-   literally.
+   the *ad vesperum / ad matutinum* gloss and Adam's speech. Reads like an abridgment stub. ✅
+   **Plate-confirmed as Migne's**, so nothing is missing from our side. Rendered literally.
 3. **0887C — `sicut supra de rectione inveteratio`** (Ps 31:5). Rendered "as above the growing old
    from governance." ⚑ *rectione* makes no sense here; the conjecture is **`tectione`**, "from the
    covering," which restores the chain Migne himself builds two columns earlier — Ps 31:1
-   *tecta sunt peccata* and 0887A's `Tegit, ne in judicio reveletur`. **The conjecture is not taken
-   into the English** (Pattern 7), and no `[sic:]` is fired because *rectio* is a real Latin word.
-   Plate read of **col. 0887C** would settle it.
+   *tecta sunt peccata* and 0887A's `Tegit, ne in judicio reveletur`. ✅ **Read at the plate: Migne
+   prints `de rectione inveteratio`.** So this is a conjecture about *Migne's* text, not about
+   CC's, and it stays a conjecture: rendered as printed (Pattern 7), no `[sic:]` (a real Latin
+   word), no `[cj:]` (the crux is where the conjecture lives).
 4. **0891A — `et si in primis in jucundum accedite`**. Rendered "and if among the first, come ye into
    what is pleasant." The doubled `in … in` construction here is grammatical (unlike 3b) but the
    clause is obscure. Rendered as printed.
@@ -162,8 +207,15 @@ contemplation. The obvious repair (*quieta mente*, or moving the *non*) is exact
   (ii) *est* carries an ellipsis of *dissipata* from the preceding clause — "which is not [scattered]
   save by an unquiet mind," which construes and agrees with the argument.
   **The English takes neither exclusively**: "which is not except with an unquiet mind" leaves the
-  ellipsis open exactly as the Latin does. Col. 0885 is a **clipped** column (885 mod 4 = 1), so no
-  marker could ship here in any case.
+  ellipsis open exactly as the Latin does.
+- ⛔ **Read at the plate and NOT settled — this is the one place in my range the copy fails.** Col.
+  885 is clipped, badly, and the plate's lines run
+  `contemplatione dissipat, quæ non est nisi` / `[…]mente ; sed inde post paululum plus proficit`.
+  **The word our TEI gives as *inquieta* falls exactly at a clipped line opening**, so this copy
+  cannot confirm that Migne prints it, nor rule out that he prints *quieta* — which is the reading
+  that would dissolve the whole crux. ➜ **Needs the second witness: Gallica
+  `ark:/12148/bpt6k5505319w`, `f = (column + 1) / 2` = f443.** One IIIF request settles it. Recorded
+  as an open plate read, and no marker fired in the meantime.
 
 ### 4b. ⭐ Test 2a fired, host proved from structure: **0886D**
 `si nulli hoc faceret, non videretur vigilare divina providentia, **si omnibus non servaretur divina
@@ -192,8 +244,10 @@ patientia**.`
 necessaria.`
 The *a fortiori* sense obviously wants a question — *he fed the man who despised him, and will he
 forsake the man who fears him?* — and every English translation of Augustine here supplies one.
-**Pattern 8 forbids it: a `?` Migne does not print is never supplied.** Rendered as the statement he
-prints: "The Lord was feeding him that despised him, and he will forsake him that fears him."
+**Pattern 8 forbids it: a `?` Migne does not print is never supplied.** ✅ **Read at the plate
+(p. 451, left column, band C): Migne prints a full stop.** The statement form is his, not our
+source's, so the decision is now evidence-backed rather than merely rule-backed. Rendered as he
+prints it: "The Lord was feeding him that despised him, and he will forsake him that fears him."
 The next sentence (*Promittit autem non superflua*) contradicts it, which is the tell 7a always gives
 and is precisely what this edition exists to show. **No marker; logged.**
 
@@ -239,21 +293,22 @@ re-derive it.
 
 | col | Migne | Clementine | why declined |
 |---|---|---|---|
-| 0884B | *Dum mihi molesti essent* (Ps 34:13) | *cum mihi molesti essent* | *dum* and *cum* are synonymous here; the sense is identical. Migne also drops the opening *Ego autem*, which a citation naturally clips. |
-| 0886A | *Discerne causam meam* cited `(Psal. XLI)` | the words are **Ps 42:1** | The **text** matches the Clementine exactly; only Migne's locator is off by one. Notes pass through verbatim (convention 4); correcting a locator would be an editorial act. Logged, not marked. |
-| 0883D | *Tristis est anima mea usque ad mortem* cited `(Matth. XVI.)` | the words are **Mt 26:38**, verbatim | Same class: text exact, locator wrong (XVI for XXVI). Note carried verbatim. ⚑ Also an **addendum-D look-alike**: the `usque ad` here is the verse's own words ("even unto death"), **not** the abridgment formula, and is rendered as such. |
-| 0888D | *Fides tua te salvum fecit* cited `(Matth. X)` | exact at **Lc 17:19 / Lc 18:42**; Matthew's parallel (9:22) reads *salvam* | Text matches a Clementine verse verbatim; the locator points at the wrong gospel. Note verbatim. |
-| 0887B | *Est justus qui perit in justitia sua* | Ecl 7:16 *justus perit in justitia sua* | Migne recasts with *Est … qui*. The assertion is identical; this is a syntactic frame for the `Unde:` introduction, not a textual variant. |
-| 0887B | *Nihil mihi conscius sum* | 1Cor 4:4 *Nihil **enim** mihi conscius sum* | A dropped connective *enim* at the head of a quotation. No sense change. |
-| 0887C | *usque ad: in manibus temulenti* | Pr 26:9 *in manu temulenti* | Singular→plural. This is the **resumption tail of an abridgment splice**, i.e. Augustine's words at the point the recension resumes, not a lemma quoted as scripture. |
-| 0890C | *Et dabit illi Dominus sedem David* | Lc 1:32 *et dabit illi Dominus **Deus** sedem David patris ejus* | One dropped word (*Deus*); *Dominus* remains the subject and the clause asserts the same thing. The tail clip (*patris ejus*) is ordinary quotation. |
-| **0891A** | *Non confundantur* | Ps 33:6 *facies vestrae non **confundentur*** | ⚑ **Declined deliberately.** The difference is mood/tense and **turns on a single letter**, and `sources/vulgate/README.md` warns that a call resting on one letter should say so rather than trust this copy to that precision. The gloss (*Quidquid hic fiat justo, non erubescit*) reads with either. Named here so it is not lost. |
-| 0889B | *Timeat omnis terra* | Ps 32:8 *Timeat **Dominum** omnis terra* | A medial word missing from the lemma — but **the gloss restores it three words later**, `sed Dominum timeat terra`. The glossator's own text plainly had *Dominum*; the lemma is clipped, not divergent. |
+| 0884B | *Dum mihi molesti essent* (Ps 34:13) | *cum mihi molesti essent* | ✅ plate-confirmed. *dum* and *cum* are synonymous here; the sense is identical. Migne also drops the opening *Ego autem*, which a citation naturally clips. |
+| 0886A | *Discerne causam meam* cited `(Psal. XLI)` | the words are **Ps 42:1** | ✅ plate-confirmed: Migne sets `(Psal. XLI)`. The **text** matches the Clementine exactly; only his locator is off by one. Notes pass through verbatim (convention 4); correcting a locator would be an editorial act. Logged, not marked. |
+| 0883D | *Tristis est anima mea usque ad mortem* cited `(Matth. XVI.)` | the words are **Mt 26:38**, verbatim | ✅ plate-confirmed: Migne sets `(Matth. xvi.)`. Same class — text exact, locator wrong (XVI for XXVI). Note carried verbatim. ⚑ Also an **addendum-D look-alike**: the `usque ad` here is the verse's own words ("even unto death"), **not** the abridgment formula, and is rendered as such. |
+| 0888D | *Fides tua te salvum fecit* cited `(Matth. X)` | exact at **Lc 17:19 / Lc 18:42**; Matthew's parallel (9:22) reads *salvam* | ✅ plate-confirmed: Migne sets `(Matth. x)`. Text matches a Clementine verse verbatim; the locator points at the wrong gospel. Note verbatim. |
+| 0887B | *Est justus qui perit in justitia sua* | Ecl 7:16 *justus perit in justitia sua* | ✅ plate-confirmed. Migne recasts with *Est … qui*. The assertion is identical; this is a syntactic frame for the `Unde:` introduction, not a textual variant. |
+| 0887B | *Nihil mihi conscius sum* | 1Cor 4:4 *Nihil **enim** mihi conscius sum* | ✅ plate-confirmed. A dropped connective *enim* at the head of a quotation. No sense change. |
+| 0887C | *usque ad: in manibus temulenti* | Pr 26:9 *in manu temulenti* | ✅ plate-confirmed. Singular→plural. This is the **resumption tail of an abridgment splice**, i.e. Augustine's words at the point the recension resumes, not a lemma quoted as scripture. |
+| 0890C | *Et dabit illi Dominus sedem David* | Lc 1:32 *et dabit illi Dominus **Deus** sedem David patris ejus* | ✅ plate-confirmed. One dropped word (*Deus*); *Dominus* remains the subject and the clause asserts the same thing. The tail clip (*patris ejus*) is ordinary quotation. |
+| **0891A** | *Non confundantur* | Ps 33:6 *facies vestrae non **confundentur*** | ⚑ **Declined deliberately, and the plate does not rescue it.** Migne prints `Non confundantur` (confirmed p. 451). The difference from the Clementine is mood/tense and **turns on a single letter**, and `sources/vulgate/README.md` warns that a call resting on one letter should say so rather than trust this copy to that precision. The gloss (*Quidquid hic fiat justo, non erubescit*) reads with either. Named here so it is not lost. |
+| 0889B | *Timeat omnis terra* | Ps 32:8 *Timeat **Dominum** omnis terra* | ✅ plate-confirmed. A medial word missing from the lemma — but **the gloss restores it three words later**, `sed Dominum timeat terra`. The glossator's own text plainly had *Dominum*; the lemma is clipped, not divergent. |
 | 0886B | *Ego dixi in excessu* | Ps 30:23 *Ego **autem** dixi in excessu mentis meae* | ⚑ **This is the pre-scan's `⚑ MATCHES ONLY ELSEWHERE — Ps 115:2` and it is fully explained.** Dropping *autem* makes the fragment coincide letter-for-letter with the opening of Ps 115:2. **The lemma's true home is Ps 30:23**, its own psalm — the gloss expounds fear and the *excessus mentis* of Ps 30, and the very next span quotes Ps 30:23's own tail (*Ideo exaudisti vocem orationis meae*). Taken seriously per launch brief §1 and resolved: **not** one of the nine legitimate elsewhere-matches at 0859B–0860D, and **not** a divergence — a medial clip of a connective, the same class as the 1Cor 4:4 case above. |
-| 0883A | *Psalmus cantici in dedic.* | Ps 29:1 *Psalmus cantici, in dedicatione domus David* | Migne **abbreviates**. Rendered with the abbreviation preserved — "A psalm of a canticle, at the dedic." — because the truncation is his, and *Domus David* is picked up as the next lemma, showing the rest of the titulus is present in his text. |
+| **0884B** | *Domine Deus, in aeternum confitebor tibi* | Ps 29:13 *Domine Deus **meus**, in aeternum confitebor tibi* | ✅ plate-confirmed as Migne's. A dropped possessive in a lemma the gloss then re-quotes twice without it. The assertion is unchanged and the gloss turns on *in aeternum*, not on *meus*. Named because it is a real divergence and would otherwise be invisible. |
+| 0883A | *Psalmus cantici in dedic.* | Ps 29:1 *Psalmus cantici, in dedicatione domus David* | ✅ plate-confirmed (`in dedic.`). Migne **abbreviates**. Rendered with the abbreviation preserved — "A psalm of a canticle, at the dedic." — because the truncation is his, and *Domus David* is picked up as the next lemma, showing the rest of the titulus is present in his text. |
 | 0884C | *In finem psalmus.* | Ps 30:1 *In finem. Psalmus David, pro extasi* | Clipped titulus. The gloss opens by expounding *Exstasis*, so *pro extasi* was in his text. Abbreviation, not divergence. |
 | 0885C | *Oblivioni datus sum tanquam mortuus a corde* | Ps 30:13 *…**tamquam** mortuus a corde* | ⭐ **A checked negative worth recording**: the brief's `⚠ NOT in Clementine verbatim` fired on nothing but the *tanquam*/*tamquam* orthographic variant. Text otherwise exact. |
-| 0891A | *Circumdat Angelus Domini in gyro timentes eum* | — | **No marker, and deliberately.** The Glossa itself introduces it as `Alii interpretes sic transtulerunt` — it is telling the reader it is another version. A `[var:]` here would annotate what the text already says. |
+| 0891A | *Circumdat Angelus Domini in gyro timentes eum* | — | **No marker, and deliberately.** The Glossa itself introduces it as `Alii interpretes sic transtulerunt` — it is telling the reader it is another version. A `[var:]` here would annotate what the text already says. ⚑ And see §3a: **the plate has no *in*** — the preposition is CC's. |
 | 0891A | *Immittet Angelum Dominus* | — | Same: `Mendosi codices habent`. The Glossa is doing its own textual criticism and naming the reading as faulty. Marking it would duplicate the author's own apparatus. ⚑ Migne prints a **full stop** after *habent* where a colon is expected; reproduced as printed ("Faulty codices have it."), with the object supplied in English because *habent* is transitive and English cannot elide it. |
 
 ### Lemmata collated and found to agree with the Clementine exactly

@@ -4593,6 +4593,51 @@
      "page": 440,
      "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 150 dpi full page + 400-500 dpi region crops; stint 0010-0014",
      "found": "no conjecture apparatus of either layer. ⛑ LEFT COLUMN 869 IS CLEAN, though 869 = 1 (mod 4) -- a third counterexample on this stint's pages. CONFIRMED: 0869B 'tu, Domine, populum humilem salvum facies' (Migne's added vocative against Ps 17:28). TWO CC DEPARTURES: (1) 0870A the plate reads 'et dilatatio. et confirmatio' with a FULL STOP, softened to a comma in our TEI (read at 500 dpi); (2) 0870C the plate reads 'Magnificans salutes' and our TEI inserts a comma, 'Magnificans, salutes'. CHECKED NEGATIVE at 0869A: the plate prints 'qui in sordibus est, sordescat adhuc' (500 dpi) -- our TEI agrees, so the sordescet/sordescat normalisation confirmed elsewhere in this work does NOT occur here."
+    },
+    {
+     "from": "0883A",
+     "to": "0884D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 447,
+     "source": "on-disk PL 113 scan, 200 dpi full page + 450 dpi crops; corners read 883 / 884",
+     "found": "no conjecture apparatus of either layer. Left column 883 CLEAN (883 = 3 mod 4). CONFIRMED against CC: 0883D Gn 3:4 prints *Non morte morieris* (Clementine *Nequaquam morte moriemini*) -- [var:] licensed; 0883D cites (Matth. XVI) for Mt 26:38 *Tristis est anima mea usque ad mortem*; 0883C prints *quod morte solvistis* (2 pl.); 0883D prints *Vespere facit.*; 0884B prints *Dum mihi molesti essent* (Clementine Ps 34:13 *cum*); 0884B prints *Domine Deus, in aeternum confitebor tibi* without the Clementine's *meus*. TWO CC DEPARTURES: (1) 0883D Migne prints *Non movebor AD hoc bono*, our TEI reads *ab* -- a CC normalization to a form that construes; (2) 0884B Migne prints *in aeter-num laudabo te* HYPHENATED across a line break, our TEI reads *in aeter num* -- CC dropped the hyphen and left the space. Both are TEI-patch candidates, NOT markers."
+    },
+    {
+     "from": "0885A",
+     "to": "0886D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 448,
+     "source": "on-disk PL 113 scan, 200 dpi full page width; corner read 886, running head GLOSSA ORDINARIA -- LIB. PSALM.",
+     "found": "no conjecture apparatus. Left column 885 CLIPPED at the inner margin, badly -- VERS. is lost entirely at line openings (prints as bare '9, 10.', '11.', '12.') and interior lines lose 3-6 chars. 0885B *quae non est nisi [?] mente* cannot be settled on this copy: the word CC gives as *inquieta* falls at a clipped line opening; needs Gallica. Right column 886 CLEAN. CONFIRMED: 0886B prints *Unguentum effusum est nomen tuum* against Ct 1:2 *Oleum effusum nomen tuum* -- [var:] licensed; 0886D titulus prints *Intellectus David.* against Ps 31:1 *Ipsi David intellectus* -- [var:] licensed; 0886C prints *si omnibus non servaretur divina patientia* with commas throughout and no relocation; 0886B prints *Ego dixi in excessu* without *autem*; 0886A cites (Psal. XLI) for Ps 42:1. ONE CC DEPARTURE: 0886B Migne prints the ordinary *VERS. 21. -- A conturbatione*; our TEI reads *[0886B]--VERS. 21.*, the dashes transposed to the wrong side of the address by CC. TEI-patch candidate, NOT a marker."
+    },
+    {
+     "from": "0887A",
+     "to": "0888D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 449,
+     "source": "on-disk PL 113 scan, 200 dpi full page + 450 dpi crops; corners read 887 / 888",
+     "found": "no conjecture apparatus. BOTH columns CLEAN -- 887 is 3 mod 4, 888 is 0 mod 4. CONFIRMED: 0888B/C titulus prints *In finem.* over Psalm XXXII, where the Clementine heads it *Psalmus David* -- [var:] licensed; 0887C prints *sicut supra de rectione inveteratio* (so *rectione* is MIGNE'S, not CC's -- the conjecture *tectione* is a conjecture about the plate); 0887C prints *usque ad : in manibus temulenti* (Pr 26:9 has *manu*); 0887B prints *Est justus qui perit in justitia sua* and *Nihil mihi conscius sum* without 1Cor 4:4's *enim*; 0888D cites (Matth. X) for words standing at Lc 17:19/18:42; 0887C VERS. 5 prints *Diapsalma.* with the period. THREE CC DEPARTURES, all TEI-patch candidates and NOT markers: (1) 0887B Migne prints *Dum clamarem tota die, ETSI. ETSI non sit sibi conscius quis* -- a plain dittography in the plate -- and our TEI reads *etc.*, silently tidying it away; (2) 0887C Migne prints *(ID.) Diapsalma poenitudinem commendans* with NO period after Diapsalma, our TEI inserts one (which is why the TEI's *poenitudinem* is lowercase after a full stop); (3) 0887C Migne prints *omnibus sanctis DICI.* with a period, our TEI reads *dicit* -- a normalization to a form that construes."
+    },
+    {
+     "from": "0889A",
+     "to": "0890D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 450,
+     "source": "on-disk PL 113 scan, 200 dpi full page + 500 dpi crops; corner read 889 / 890, running head GLOSSA ORDINARIA -- LIB. PSALM.",
+     "found": "no conjecture apparatus. BOTH columns CLEAN -- and 889 is 1 (mod 4), so this is a FURTHER COUNTEREXAMPLE to the withdrawn clipping rule, alongside 853, 857 and 901. CONFIRMED: 0890A prints *In sua in virtute nullus salvatur* -- the doubled preposition is MIGNE'S OWN, not CC's, so a [d: in] is licensed and was fired; 0890C titulus prints *Psalmus David.* against Ps 33:1 *Davidi* -- [var:] licensed; 0890C prints *Et dabit illi Dominus sedem David* without Lc 1:32's *Deus*; 0889B prints *Timeat omnis terra* without Ps 32:8's *Dominum*; 0890D prints *non jugum Dei, indomitorum more, ferentes* exactly as CC has it."
+    },
+    {
+     "from": "0891A",
+     "to": "0892D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 451,
+     "source": "on-disk PL 113 scan, 200 dpi full page + 500 dpi crops; corners read 891 / 892",
+     "found": "no conjecture apparatus. BOTH columns CLEAN. CONFIRMED: 0891A prints *Immittet Angelum. Accedite,* -- the accusative against Ps 33:8's nominative *Immittet angelus Domini in circuitu timentium eum* -- [var:] licensed; 0891A prints *Mendosi codices habent.* with a FULL STOP before *Immittet Angelum Dominus*; 0891C prints *Pascebat Dominus contemnentem se, et deseret timentem.* with NO question mark, so the statement form is Migne's and Pattern 8 forbids supplying one; 0891D prints *Diapsalmus.* in the MASCULINE, confirming the form beside the 37 *Diapsalma* elsewhere in the work; 0891A prints *Non confundantur* against Ps 33:6 *non confundentur*, a one-letter difference left unmarked. ONE CC DEPARTURE: 0891A Migne prints *Circumdat Angelus Domini GYRO timentes eum* and our TEI supplies an *in* before *gyro*. TEI-patch candidate, NOT a marker."
     }
    ],
    "scan_defect": "INNER-MARGIN CLIPPING: on SOME leaves the left-hand column loses 3-5 characters at the start of most lines (`VERS.` prints as `s.`). ⛔⛔ IT IS SPORADIC AND CANNOT BE PREDICTED FROM THE COLUMN NUMBER. Open the column; never infer. || HISTORY, because the claim was wrong TWICE and each retreat was forced by more reading. (1) At chunking I stated a RULE from five pages: a left-hand column numbered 1 (mod 4) is clipped. (2) Refuted at col 901, and I retreated to 'a strong tendency, 5 of 6'. (3) THAT WAS ALSO WRONG, and by then it was wrong in a way five pages could not have shown. With the reads from cols 0850-0870 in, mod-1 columns stand at 5 CLIPPED (841, 849, 893, 897, 1045) against 6 CLEAN (853, 857, 861, 865, 869, 901). That is a coin flip, not a tendency. ⚑ THE LESSON IS ABOUT THE SAMPLE, NOT THE SCANNER: my five pages were four consecutive leaves plus one, so they sampled one region of one physical gathering and the congruence was an artifact of contiguity. A pattern found in a contiguous sample is a pattern OF THAT SAMPLE until it is tested somewhere else. ⚑ AND THE FAILURE MODE RUNS WHERE NOBODY AUDITS: a wrong 'clipped' does not ship a bad marker, it silently WITHHOLDS a good one and leaves no artifact behind. It blocked three legitimate candidates in cols 0892-0901 before a stint opened the page. || WHAT STANDS: where a column IS actually clipped and a marker rests on a line-opening word, it needs a second copy (Gallica; data/volumes.json) before it may ship.",

@@ -53,7 +53,7 @@ the direction of the Vulgate and of ordinary Latin.
 | 0876B | ***Impinguisti** : octava* | ***Impinguasti:*** | normalized **toward Vulg. Ps 22:5** |
 | 0877A | *eum **commendando** alios invitet* | *com**mm**endando* | **corrupted** by the digitization (trebled m) |
 | 0877A | *Et **elevumini**. Contra portas mortis* | *Et elevamini* | normalized toward Vulg. Ps 23:7 |
-| 0879C | *cor calore spiri-\|tus* (line break) | ***spiriritus*** | **corrupted** — a join artifact at the break |
+| 0879B | *cor calore spiri-\|tus* (line break) | ***spiriritus*** | **corrupted** — a join artifact at the break |
 | 0879D | *quia **dilexi** me facere decoram domum* | ***lilexi*** | **corrupted** by the digitization |
 | 0882D | *ut cervi omne **genuo** ferarum* | ***genus*** | normalized (plate is a non-word) |
 
@@ -147,7 +147,7 @@ agent that never looked.
 
 | col | Migne | Clementine | why declined |
 |---|---|---|---|
-| 0871D | *Delicta **enim** quis intelligit?* | Ps 18:13 *Delicta quis intelligit?* | Plate p. 441 CONFIRMS the *enim*. But it is a connective the gloss supplies to hinge its own sentence (*nec mirum:*), and it changes no sense whatever. Not material; Pattern 14's bar is "in a way that changes the sense." |
+| 0872A | *Delicta **enim** quis intelligit?* | Ps 18:13 *Delicta quis intelligit?* | Plate p. 441 CONFIRMS the *enim*. But it is a connective the gloss supplies to hinge its own sentence (*nec mirum:*), and it changes no sense whatever. Not material; Pattern 14's bar is "in a way that changes the sense." |
 | 0872C | *caecitas ex parte contigit in Israel, et sic omnis Israel salvus fieret* | Rom 11:25 + 11:26 | Not a divergence at all: the words are exact, and the omitted *donec plenitudo gentium intraret* is an **elision across the verse boundary**, the ordinary abridgment move. Nothing to mark. |
 | 0874A | *Dicentes: **Spera** in Domino* | Ps 21:9 *Speravit in Domino* | A deliberate recast into direct address — the gloss is quoting what the Jews **say**, in irony. Not a textual divergence, and 0874A is a column I did not read: the ship test forbids the marker either way. |
 | 0874C | *Tanquam cera* · 0874D *Aruit **tanquam** testa* | *tamquam* | Orthography only (*tanquam*/*tamquam*), and Migne's normal spelling throughout the volume. Never material. |
@@ -155,10 +155,10 @@ agent that never looked.
 | 0876A | *Nam et si* | Ps 22:4 *Nam etsi* | Word division only. |
 | 0876B | *Qui manducat et bibit indigne* | 1Cor 11:29 *Qui **enim** manducat* | Plate p. 443 confirms Migne drops *enim*. A dropped connective at the head of a quotation introduced by *de qua Apostolus*; no sense turns on it. Declined for the same reason as 0871D — and recorded so the two are visibly decided the same way. |
 | 0876B | *capite descendit unguentum in barbam barbam Aaron, et in oram* | Ps 132:2 *Sicut unguentum **in capite**, quod descendit in barbam, barbam Aaron, **quod descendit** in oram* | A compression, not a variant. ⚑ **The doubled *barbam barbam* is the Clementine's own reading and is NOT dittography** — I checked it specifically because it looks exactly like a Pattern 11 `[d:]` candidate. Declined, and recorded as a checked negative. |
-| 0876D | *Psalmus David.* (Ps 23) | Ps 23:1 *Prima sabbati. Psalmus David.* | Migne prints the second half of the titulus only. Not a divergence — and the gloss quotes the missing half in its own voice (*In prima sabbati mundus conditus*), which proves he had it. |
+| 0876C | *Psalmus David.* (Ps 23) | Ps 23:1 *Prima sabbati. Psalmus David.* | Migne prints the second half of the titulus only. Not a divergence — and the gloss quotes the missing half in its own voice (*In prima sabbati mundus conditus*), which proves he had it. |
 | 0878D | *Oculi sapientis in capite, id est, in corde ejus* | Ecl 2:14 *Sapientis oculi in capite ejus* | Word order inverted and *id est, in corde ejus* is the glossator's own, printed inside the italic. Attributed on the plate to *Sal.* (Solomon), which is a memory quotation by construction. Inversion changes no sense; declined. |
 | 0879A | *Psalmus.* (Ps 25) | Ps 25:1 *In finem. Psalmus David.* | A bare one-word titulus. ⚑ Deliberately **not** contrasted with the Ps 22/23 tituli: per the shared brief's closing section, a clipped lemma and a complete one-word lemma are different classes, and manufacturing an inconsistency between them is the error three readers made in one batch. Column 879A not read; no marker available regardless. |
-| 0882C | *Psalmus David in consummatione* | Ps 28:1 *Psalmus David, in consummatione **tabernaculi*** | Clipped before *tabernaculi*, and the gloss puns on *consummatione* alone (*ut se offerant tali consummatori*). Convention 3, no marker. |
+| 0882B | *Psalmus David in consummatione* | Ps 28:1 *Psalmus David, in consummatione **tabernaculi*** | Clipped before *tabernaculi*, and the gloss puns on *consummatione* alone (*ut se offerant tali consummatori*). Convention 3, no marker. |
 | 0880B | *quaeritur* — see §2 | | the `[cj:]`; listed there. |
 
 ### 3b. Lemmata checked and found to AGREE with the Clementine exactly
@@ -337,7 +337,7 @@ were re-hosted from the sentence's structure rather than from what read well:
 - **0879D** *quia **non eis**, sed concordat domui Dei*. The *non* looks as though it sits on
   *concordat*. The `sed` correlative shows it governs *eis*. Rendered "**because it is not with
   them, but with the house of God, that he agrees**," not "because he does not agree with them."
-- **0880C** *ut maledico dente **non me**, sed carnalia desideria consumant*. Same shape, same
+- **0880B** *ut maledico dente **non me**, sed carnalia desideria consumant*. Same shape, same
   resolution: the negative is on *me*, and the English puts it there — "so that with their cursing
   tooth they consume **not me**, but my carnal desires."
 
@@ -361,6 +361,16 @@ noceat, nec post*, *ne laedantur*, *Ne declinent*.
 ⚑ **Every one of these is present in the English, on the word it attaches to in the Latin** — the
 test run was Test 2's, not "are all the negatives present."
 
+⭐ **And it was also checked mechanically, band by band**, which is the shared brief's test 3 applied
+to negation rather than to punctuation: 105 negative tokens in the Latin, partitioned by the
+column anchors (which are verified 1:1), against the English's. **No band anywhere in my range has
+Latin negatives and zero English negatives** — the direction that would betray a lost negation.
+⚠ Five bands flagged the other way (0870C, 0872B, 0872D, 0876C, 0882D: Latin 0, English >0) and
+**all five are the instrument, not the text** — an `un\w+` pattern catching *unto*, *unicorn*,
+*unheard* and *unlettered* (the last rendering *illiterati*, whose negative is real and Latin).
+Checked before reporting, per the shared brief's standing warning that every one of these greps
+manufactures a number that reads like a violation.
+
 ### 4h. Punctuation ridden as printed
 
 - **0873A** the gloss breaks off: *Ideo **super eum,** quoniam dabis . . . . .* — **five spaced
@@ -369,12 +379,12 @@ test run was Test 2's, not "are all the negatives present."
   period**, and the English carries none. ⚑ The plate (p. 445) DOES print one; this is a
   twelfth CC departure, of the punctuation class, and it is listed here rather than in §1 because
   it changes no word.
-- **0875A** `[n: (CASS.)]: foderunt.` — the colon stands **after** the note. Carried in place.
+- **0874D** `[n: (CASS.)]: foderunt.` — the colon stands **after** the note. Carried in place.
 - **0873A / 0880A** `[n: (ID.)].` and `[n: (AUG.)],` — the note's own trailing mark rides with it.
 - **0882A** `[n: ( Ibid. )]` — Migne's internal spacing inside the siglum, carried verbatim.
 - Question marks: 3 / 1 / 5 / 1 / 3 across the five chunks, at parity with the Latin, and **none
   supplied.** ⚑ The one place I wanted to supply one and did not: `VERS. 13.-- *Delicta quis.*` at
-  0871D is the fragment of Ps 18:13 *Delicta quis intelligit?*, and convention 3 expands a fragment
+  0872A is the fragment of Ps 18:13 *Delicta quis intelligit?*, and convention 3 expands a fragment
   to the phrase it stands for — but Migne prints a **period**, so the English reads
   "*Who understandeth sins.*" with a period. Four lines later the same words return as a full
   quotation with Migne's own `?`, and there the English has one.

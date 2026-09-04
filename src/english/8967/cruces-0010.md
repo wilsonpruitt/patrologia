@@ -20,6 +20,10 @@ Counted mechanically in my own Latin (`re.findall(r'\*[^*]+\*')` over the body o
 and `[0870B] *Magnificans, salutes.*`) are also the first and last spans of my Latin, so the split
 is correct at both ends, not merely in total.
 
+⚑ Re-checked against the **corrected** brief issued mid-stint (stale column labels repaired):
+the header still declares 307 and the file still carries 307 `[0…]` rows. Membership is by
+chunk, not by band, so nothing moved. The count stands.
+
 English span counts run higher by exactly the italics inside our own markers: 0010 +4 (three
 `[var:]`), 0011 +3 (one `[var:]`, one `[cj:]`), 0012 +0, 0013 +0, 0014 +2 (one `[var:]`). Every
 italic span of the Latin has an italic span in the English at the same place.
@@ -157,6 +161,11 @@ much as a finding):**
 - **0866B doubled *scilicet*** — `Scilicet opera hominum: quas scilicet merentur opera hominum`
   reads like a dittography and is not: the plate prints it exactly so (p. 438). Rendered as
   printed, no `[d:]`.
+- **0869A `sordescat`** — checked at the coordinator's request, since the same form was a
+  confirmed CC normalisation elsewhere in this work (the other site's plate reads *sordescet*).
+  **Here the plate agrees with our TEI: p. 440, read at 500 dpi, prints `qui in sordibus est,
+  sordescat adhuc`.** No patch is owed at this site, and the other site's finding must not be
+  generalised to it.
 - **0867B `iustorum`** for *justorum* — our TEI's only i/j outlier in the range; the plate prints
   *justorum*. An orthographic normalisation of no consequence, exempt under Pattern 9. Recorded
   only so the next reader does not spend the page-fetch I already spent.

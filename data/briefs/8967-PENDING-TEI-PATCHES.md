@@ -100,3 +100,44 @@ marker, not a tidy-up after it.
 3. **`usque ad` → "as far as"** holding, and three stints independently caught unitalicized
    look-alikes that are NOT the formula. Worth a line in the merged conventions: the italic
    membership test, not the words.
+
+---
+
+# THIRD REPORT (chunks 0020–0024) — five more, and three English sentences ride on them
+
+| col | Migne prints | our TEI has |
+|---|---|---|
+| 0883D | `ad hoc bono` | `ab` |
+| 0887B | a plain dittography `etsi. Etsi` | silently tidied to `etc.` |
+| 0887C | no period after `Diapsalma` | period supplied |
+| 0887C | `dici.` | `dicit` |
+| 0891A | `gyro` | `in gyro` (CC supplies `in`) |
+
+⚑ **0887B is the most revealing: CC did not fix a typo, it fixed a REPETITION** — Migne's own
+`etsi. Etsi` became `etc.`. A `[d:]` dittography marker is one of the few defects our apparatus
+can state, and the transcriber removed the evidence for it before we ever saw the text.
+
+Also settled as **CC's, not Migne's** (no marker owed): `in aeter num` @0884B is Migne's
+`æter-num` hyphenated across a line break; `--VERS. 21.` @0886B is CC transposing the dashes.
+
+⭐⭐ **AND THE HEURISTIC FAILS IN BOTH DIRECTIONS.** The 0015–0019 stint had five `[sic:]`
+candidates withdrawn by the plate — internal evidence too eager. The 0020–0024 stint had the
+opposite: it **declined** `In sua in virtute` @0890A reasoning that a doubled short word is the
+classic CC artifact, and at 500 dpi Migne sets it plainly. A `[d: in]` now stands there. **Neither
+"trust the text" nor "suspect the transcriber" is a rule. Only the leaf is.**
+
+## ⬜ Still owed to Gallica (one IIIF request each)
+- **0885B** `quae non est nisi [inquieta] mente` — printed words contradict the argument; the word
+  falls at a clipped line opening in col 885 (`f443`).
+- **0898D** `enumerantur` vs possible `emunerantur`, heavy inking (`f449`).
+
+## MERGE ITEM RESOLVED — `Diapsalma` is ROMAN
+Settled 2026-09-04 against three stints' plate reads (0849B, 0870D–0883A, 0887C, 0891D, incl. the
+masculine `Diapsalmus`). ⛔ **The drift was my fault, not a stint's**: the launch brief said
+"italic as Migne sets it" and Migne sets it roman. Brief corrected; the one italic occurrence
+reverted. Bands B and C inherit **roman**.
+
+## OPEN, needs a ruling at the merge
+- **`gens tenebrarum`** @0887D → "nation of darkness". The `gentes` axis does not rule on a
+  singular `gens` in a non-ethnic metaphor. The stint flagged rather than deciding silently,
+  which is the behaviour the axis section exists to reward. Rule it and add it to the axis.

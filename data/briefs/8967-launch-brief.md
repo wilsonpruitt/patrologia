@@ -52,7 +52,12 @@ drifted as *gentes* did on 9004. **They are not open questions.**
    completed" — and elsewhere it reads the *finis* as Christ. A "choirmaster" rendering makes
    the commentary incoherent on its own lemma. This is the test the `[var:]` rule already uses:
    **the gloss argues from the word.**
-2. **`Diapsalma` → *diapsalma*, unanglicized, italic as Migne sets it.** ⛔ Not "Selah," not
+2. **`Diapsalma` → `diapsalma`, unanglicized and ROMAN — not italic.**
+   ⛔ This brief originally said "italic as Migne sets it" and **that was a mistake of fact on my
+   part: Migne sets it ROMAN.** Three stints have now confirmed it at the plate (0849B, 0870D–
+   0883A, 0887C, 0891D, including the masculine `Diapsalmus`). One stint had already followed the
+   erroneous instruction; its single italic has been reverted. Setting it italic also breaks the
+   Latin/English italic-span parity that every stint checks. ⛔ Not "Selah," not
    "pause." **The Glossa treats it as a term under discussion**, glossing it directly:
    `Diapsalma secundum Hieronymum semper, Hebraei Sela, id est, …`. A word the text stops to
    explain cannot be silently replaced by the explanation. Same standing as the sigla.
