@@ -69,3 +69,25 @@ et **corona mea*** · `Apc 18:23` *lucebit **in te** amplius* · `Col 1:21` *ini
   it**, saying plainly that this was a stylistic inference and not a recollection. ⭐ **The lean was
   wrong and the decline was right** — which is the strongest argument in this repo for the rule that a
   `[var:]` is a public claim about another text and must never be written from memory.
+
+## Known errata in THIS copy — check here before citing a single letter
+
+The caveat above ("if a call ever turns on a single letter, say so rather than trusting this copy
+to that precision") stopped being hypothetical on 2026-09-03. Each entry is a defect in the 2005
+*Quasimodo* release we hold, **not** in the Clementine, and it is present in the faithful
+`clementine/<Book>.lat` as well as in `clementine-flat.txt`. **Nothing is edited** — both files
+stay faithful to the release, which is what makes them a witness. This list is the disclosure the
+upstream project asks for, and the place to look before a marker rests on one letter.
+
+- **`1Thes 5:3` prints *repentius*.** The Clementine reads ***repentinus*** (*tunc repentinus eis
+  superveniet interitus*), and *repentius* is not a Latin word. ⚑ **The proof is inside this same
+  file**: `Pr 29:1` carries the identical phrase — *repentinus ei superveniet interitus* — spelled
+  correctly, and `Pr 12:19` has *repentinus* again. So a marker citing 1Thes 5:3 against a Migne
+  lemma reading *repentinus* would have accused Migne of a divergence from the Vulgate **using our
+  own typo as the standard**. Found by the 9000 stint that was translating cols 0325C–0340C; it
+  refused to cite the verse and said why, which is the behaviour this note exists to reward.
+
+⚑ **How to check one yourself, and why the internal control is the cheap move:** the Clementine
+repeats its own formulae across books, so a suspect reading usually has a correctly-spelled twin
+somewhere in this file. Grep the phrase, not the word. Where no twin exists, say the call rests on
+a single letter of a 2005 transcription and leave the marker unfired.
