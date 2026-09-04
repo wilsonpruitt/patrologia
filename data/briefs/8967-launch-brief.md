@@ -69,13 +69,26 @@ forced it.** A silent departure is drift and the merge cannot tell the two apart
 
 ## §3. WHAT THE PLATE CAN AND CANNOT LICENCE HERE
 
-⛔⛔ **A QUARTER OF THIS WORK'S COLUMNS CANNOT SETTLE A CLAIM ABOUT LINE-OPENING TYPE.** The
-on-disk PL 113 copy clips its inner margin on half its leaves, and the rule is regular: **a
-left-hand column numbered 1 (mod 4) loses 3–5 characters at the start of most lines** — `VERS.`
-prints as `s.` Verified on five pages, five of five (841 clipped · 849 clipped · 1043 clean ·
-1045 clipped · 1047 clean). **If your `[sic:]` or `[var:]` rests on the first word of a line in
-such a column, it does not ship on this copy** — log it in cruces as needing a second copy
-(Gallica; `data/volumes.json`) and do not fire the marker. Everything in `plate-reads.json`.
+⛔⛔ **THE INNER MARGIN IS CLIPPED ON MANY LEAVES — AND YOU MUST OPEN THE COLUMN TO KNOW.**
+On many leaves the left-hand column loses 3–5 characters at the start of most lines (`VERS.`
+prints as `s.`). **A marker resting on a line-opening word in such a column cannot ship on this
+copy** — log it as needing a second witness (Gallica; `data/volumes.json`) and do not fire it.
+
+⛔ **THIS BRIEF ORIGINALLY GAVE YOU A RULE FOR PREDICTING IT AND THE RULE IS WRONG.** It said a
+left-hand column numbered 1 (mod 4) is clipped. That held on the first five pages and was
+REFUTED on the eleventh: **col 901 is 1 (mod 4) and is perfectly clean**, found by the stint on
+chunks 0025–0029 and verified independently. Tally: clipped 841, 849, 893, 897, 1045 · clean
+895, 899, 901, 1043, 1047.
+
+⚑ **Use it to decide WHICH LEAF TO PULL FIRST. Never use it to decide a marker.** The failure
+mode runs in the direction nobody audits: applied blind it WITHHOLDS good markers on columns
+this copy answers, and it had already blocked three of them in cols 0892–0901 before that stint
+opened the page. **The plate is the arbiter; a rule about the plate is not.**
+
+⭐ **If your range covers columns nobody has read, read them before you fire anything.** Page map
+`PDF page = (column + 11) / 2`, scan at `raw/scans/pl113/patrologiaecurs04migngoog.pdf`; record
+every read in `data/plate-reads.json`. Two stints have now done this and it is what let their
+markers ship at all.
 
 - Five pages read at the plate, **zero foot-of-page conjecture apparatus** of either layer.
   Coverage is `spot`, not `full`: absence elsewhere is unproven.

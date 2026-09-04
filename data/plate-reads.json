@@ -4307,6 +4307,33 @@
      "found": "no conjecture apparatus. TWO other findings: CC drops the Hebrew nebel the plate sets after the transliteration (zero Hebrew codepoints survive in this work's TEI), and the left column is clipped ~3-5 chars at the inner margin"
     },
     {
+     "from": "0843A",
+     "to": "0844D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 427,
+     "source": "on-disk PL 113 scan, 300 dpi full page + 600 dpi crops; corners read 843 / 844",
+     "found": "no conjecture apparatus of either layer. Left column 843 CLEAN (843 = 3 mod 4, consistent with the clipping rule). CONFIRMED against CC: 0844D Gn 3:12 prints *Mulier quam dedisti mihi me seduxit*; 0844A Eccl 11:2 prints *Da partes septem* (plural, Clementine has *partem*); 0844B Act 1:20 prints *Sicut scriptum est*; 0843A cites *Lev XIII* for the leper's oil, which stands at Lv 14"
+    },
+    {
+     "from": "0845A",
+     "to": "0846D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 428,
+     "source": "on-disk PL 113 scan, 300 dpi full page width; running head + corner 846",
+     "found": "no conjecture apparatus. Left column 845 CLIPPED at the inner margin (845 = 1 mod 4) -- 6 of 6 for the rule. Jo 7:38 at 0845B (*Qui cre-* / line break) falls across the clipped margin and CANNOT settle CC's *crediderit* against the Clementine's *credit*; needs Gallica. The plate sets ONE note *(AUG. CASS.)* at 0845A where CC gives a bare running-text *AUG.* plus a separate [n: (CASS.)]"
+    },
+    {
+     "from": "0847A",
+     "to": "0848D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 429,
+     "source": "on-disk PL 113 scan, 300 dpi full page + 600 dpi crops; corners read 847 / 848",
+     "found": "no conjecture apparatus. Left column 847 CLEAN. CONFIRMED: 0848B 1 Pt 3:19 prints *spiritibus profectas praedicavit* and *illuminabit tibi Christus* (Eph 5:14, dative for the Vulgate's *te*); 0848D prints *Gaudemus in tribulationibus* for Rm 5:3 *gloriamur*, introduced by a lowercase *v.* after a comma where CC gives a full stop and a capital *V.*; Psalm II runs VERS. 10 then VERS. 12 -- verse 11 is simply not glossed, not misnumbered. ONE CC DEPARTURE FOUND: 0847A the plate reads *sordescet* (Apoc 22:11) where our TEI reads *sordescat* -- CC normalized Migne toward the Vulgate. Needs a data/tei-patches entry; no marker is owed in either direction until it is patched"
+    },
+    {
      "from": "0849A",
      "to": "0850D",
      "depth": "read",
@@ -4314,6 +4341,60 @@
      "page": 430,
      "source": "on-disk PL 113 scan, full page width",
      "found": "no conjecture apparatus; left column clipped at the inner margin (VERS. reads as 's.')"
+    },
+    {
+     "from": "0891A",
+     "to": "0892D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 451,
+     "source": "on-disk PL 113 scan, full page width; corner numbers 891/892 checked first",
+     "found": "no conjecture apparatus. Confirms PSALMUS XXXIV head, the *Arma et scutum* lemma with no closing period, and *Tanquam pulvis ante faciem venti* (Migne's -n- spelling)"
+    },
+    {
+     "from": "0893A",
+     "to": "0894D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 452,
+     "source": "on-disk PL 113 scan, full page width + 500 dpi crops at 0894B and 0894C",
+     "found": "no conjecture apparatus; left column 893 CLIPPED (1 mod 4), right column 894 clean. SETTLED THREE: (1) 0894C the plate prints *Non super gaudeant.* split, against *Non supergaudeant.* fused at VERS. 19 in the same column -- Migne's split, [sic:] licensed; (2) 0894B the plate prints *In iracundia.* as TWO words -- CC's *Iniracundia* is CC's fusion, NO [sic:] owed; (3) 0894D the plate prints *In spe / magna fidelium finis* across a line break -- CC's *spemagna* is CC's. 0893A/B *Apprehendat eos* read mid-line and legible despite the clipping"
+    },
+    {
+     "from": "0895A",
+     "to": "0896D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 453,
+     "source": "on-disk PL 113 scan, full page width + 500 dpi crop at 0895A",
+     "found": "no conjecture apparatus; left column 895 clean (3 mod 4). SETTLED: *In finem sermo.* is Migne's (Ps 35:1 titulus, Clementine has *Servo*); *Psalmus David.* is Migne's at Ps 36:1 (Clementine *Psalmus ipsi David*); VERS. 4 the plate prints *iniquitatem* where CC has *inquitatem* -- CC's drop. NORMALIZATION FOUND at 0895A: the plate prints *Novum Testamentum populus praedicavit*, CC has *populis*"
+    },
+    {
+     "from": "0897A",
+     "to": "0898D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 454,
+     "source": "on-disk PL 113 scan, full page width + 500 dpi crops at 0898C and 0898D",
+     "found": "no conjecture apparatus; left column 897 CLIPPED (1 mod 4) -- VERS. prints as 's.' and *retribuet* stands at a clipped line opening, so no marker may rest on it. Right column 898 clean. SETTLED: 0898D the plate prints *quali-/liter* across a line break = *qualiliter*, Migne's own dittography, [sic:] licensed; 0898B *In quacumque die comederitis, morte moriemini* is Migne's. SUSPECTED NORMALIZATION at 0898D: the plate appears to read *emunerantur* where CC has *enumerantur* (heavy inking, not settled)"
+    },
+    {
+     "from": "0899A",
+     "to": "0900D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 455,
+     "source": "on-disk PL 113 scan, full page width + 500 dpi crop at 0899B",
+     "found": "no conjecture apparatus; left column 899 clean (3 mod 4). NORMALIZATION FOUND at 0899B: the plate prints *Tanquam surdus non AUDIEBANT* and CC has *audiebam*, the Vulgate's form -- our Latin column prints a word Migne did not print. Also 0899A the plate hyphenates *pro-/rumpit* at a line break, so CC's *pro rumpit* is CC's, no [sic:] owed"
+    },
+    {
+     "from": "0901A",
+     "to": "0902D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 456,
+     "source": "on-disk PL 113 scan, full page width + 500 dpi crops at 0901C",
+     "found": "no conjecture apparatus. COUNTEREXAMPLE TO THE MOD-4 RULE: column 901 is a left-hand column congruent to 1 (mod 4) and it is CLEAN on this page, its first characters whole. The clipping rule is a strong tendency, not an invariant -- check the page before invoking it. SETTLED: 0901C the plate prints *habet*, so CC's *hahet* is CC's corruption and NO [sic:] is owed; 0901C the plate prints *Iter mala saeculi petit*, so *Iter* is Migne's (conjecture *Inter*, declined to a crux)"
     },
     {
      "from": "1043A",
@@ -4341,9 +4422,135 @@
      "page": 529,
      "source": "on-disk PL 113 scan, full page width; clipping control",
      "found": "no conjecture apparatus; left column CLEAN. Fifth of five pages consistent with the mod-4 rule below"
+    },
+    {
+     "from": "0851A",
+     "to": "0852D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 431,
+     "source": "on-disk PL 113 scan, full page width; corner numbers 851/852 checked",
+     "found": "no conjecture apparatus of either layer. Left column 851 (3 mod 4) clean. Confirms Migne prints 'poenitentes avertitur' at 0852C (sg. verb, pl. subject) and 'Adhuc te loquente dicam, ecce adsum (Isa. LXV)' at 0852A"
+    },
+    {
+     "from": "0853A",
+     "to": "0854D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 432,
+     "source": "on-disk PL 113 scan, full page width; corner numbers 853/854 checked",
+     "found": "no conjecture apparatus. ⚑ LEFT COLUMN 853 IS CLEAN, against the mod-4 clipping rule (853 = 1 mod 4). Settles CC's 'deeidam' @0853B: the plate prints 'de-cidam' hyphenated across a line break, so the non-word is CORPUS CORPORUM'S, not Migne's -- TEI patch candidate, no [sic:] owed. Confirms 'Terra es, et in terram reverteris (Gen. III)' @0853D and 'Melior est qui vincit iram, quam qui cepit civitatem (Prov. XVI)' @0853C"
+    },
+    {
+     "from": "0855A",
+     "to": "0856D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 433,
+     "source": "on-disk PL 113 scan, full page width; corner numbers 855/856 checked",
+     "found": "no conjecture apparatus. Left column 855 (3 mod 4) clean. Confirms the conflated 1 Cor 1:27 at 0856B ('Stulta mundi elegit Deus ut confundat fortia')"
+    },
+    {
+     "from": "0857A",
+     "to": "0858D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 434,
+     "source": "on-disk PL 113 scan, full page width; corner numbers 857/858 checked; the Ps 9 titulus re-cropped at 600 dpi",
+     "found": "no conjecture apparatus. ⚑ LEFT COLUMN 857 IS CLEAN, again against the mod-4 rule (857 = 1 mod 4). At 600 dpi the titulus reads 'In finem pro occultis filiis' -- Migne's own plural, against the Clementine's genitive singular 'filii' which the gloss's 'Nec additur cujus' presupposes"
+    },
+    {
+     "from": "0859A",
+     "to": "0859D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 435,
+     "source": "on-disk PL 113 scan, left column only of the 859/860 page; corner number 859 checked",
+     "found": "no conjecture apparatus. Left column 859 (3 mod 4) clean. Confirms the italic run at 0859A (convertentur / In infernum / Patientia / Exsurge / exsurge / Sciant) and the PSALMUS X. -- Secundum Hebraeos. head. ⚠ The right column 0860 of this page was on screen but NOT collated -- do not read this entry as covering 0860"
+    },
+    {
+     "from": "0871A",
+     "to": "0872A",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 441,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "left column 871 read line by line; right column read through band A. No foot-of-page apparatus of either layer. Column 871 (3 mod 4) CLEAN. FOUR CC departures found: plate Anima / our Animas; plate Sapientium / our Sapientiam; plate Desiderabillia / our Desiderabilia; plate 'Cibus Dei est mel ; solutus' with no 'id est,' that our twin supplies. Migne's own Quaecunquae CONFIRMED (licenses the one [sic:])"
+    },
+    {
+     "from": "0873C",
+     "to": "0873D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 442,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "foot of the left column read; the rest of page 442 NOT read. Column 873 (1 mod 4) IS clipped -- 'infirmis' prints as 'firmis'. Ps 21:3 lemma 'Clamabo et non exaudies. Per diem, et non exaudies, et nocte et non ad insipientiam.' CONFIRMED on the plate, mid-line, so the [var:] is licensed. No conjecture apparatus"
+    },
+    {
+     "from": "0875D",
+     "to": "0876C",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 443,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "foot of left column and middle of right column read; rest of page NOT read. Plate reads 'locus pascuae' -- our twin's 'ocus' is CC's dropped L, NOT Migne's (no [sic:] owed). Three further CC departures: plate Seb isti / our Sed isti; plate Impinguisti / our Impinguasti; plate 'VERS, 1.' with a comma / our 'VERS. 1.--'. 'barbam barbam Aaron' is the Clementine's own text, not dittography. No conjecture apparatus"
+    },
+    {
+     "from": "0877A",
+     "to": "0877B",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 444,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "top of the left column read; rest of column NOT read. Column 877 is 1 (mod 4) and is CLEAN -- the mod-4 clipping rule does NOT hold here. Plate reads 'commendando'; our twin's 'commmendando' is CC's. Plate reads 'Et elevumini' where our twin has 'elevamini'. No conjecture apparatus"
+    },
+    {
+     "from": "0878D",
+     "to": "0878D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 444,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "foot of the right column read. Plate reads 'Oculi supientis in capite id est' (italic a/u ambiguous) and 'De necessitutibus' where our twin gives 'sapientis' and 'necessitatibus'; plate 'ei facit' vs our 'et facit'. No conjecture apparatus"
+    },
+    {
+     "from": "0879B",
+     "to": "0880B",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 445,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "foot of left column 879 and head of right column 880 read; 879A and 880C NOT read. Column 879 CLEAN. Plate reads 'calore spiri-|tus' across a line break -- our twin's 'spiriritus' is CC's join artifact, NOT Migne's; plate reads 'dilexi', our twin 'lilexi', also CC's. Migne's PSALMUS XXVI head with the lemma 'In finem.' CONFIRMED (licenses that [var:]). Migne prints 'cum induerit corruptionem' CONFIRMED (licenses the [cj:]). No conjecture apparatus"
+    },
+    {
+     "from": "0880D",
+     "to": "0880D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 445,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "foot of the right column read; no conjecture apparatus"
+    },
+    {
+     "from": "0881B",
+     "to": "0881D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 446,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "middle and foot of the left column read. Column 881 is 1 (mod 4) and is CLEAN -- second counter-example to the mod-4 rule. Migne's PSALMUS XXVII lemma 'Psalmus huic.' CONFIRMED at a line opening on an unclipped column (licenses that [var:]). No conjecture apparatus"
+    },
+    {
+     "from": "0882D",
+     "to": "0882D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 446,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
+     "found": "foot of the right column read. Migne prints 'Dedi, enim ait, vobis potestatem conculcare super serpentes.' CONFIRMED (licenses that [var:]). Plate reads 'omne genuo ferarum' where our twin gives 'genus' -- a further CC normalization. No conjecture apparatus"
     }
    ],
-   "scan_defect": "INNER-MARGIN CLIPPING, and it is regular: a left-hand column whose number is congruent to 1 (mod 4) loses ~3-5 characters at the start of most lines; 3 (mod 4) is clean. Read 841(clipped) 849(clipped) 1043(clean) 1045(clipped) 1047(clean) -- 5 of 5. That is HALF this work's left columns, so roughly a QUARTER of all its columns cannot license a claim about line-opening type in this copy. A [sic:] or [var:] resting on the first word of a line in such a column needs a second copy (Gallica; data/volumes.json) before it may ship."
+   "scan_defect": "INNER-MARGIN CLIPPING: on many leaves the left-hand column loses 3-5 characters at the start of most lines (`VERS.` prints as `s.`). ⛔⛔ IT IS NOT PREDICTABLE FROM THE COLUMN NUMBER AND MUST NOT BE INFERRED. A mod-4 rule was stated at chunking on five pages (clipped 841, 849, 1045; clean 1043, 1047) and REFUTED on the eleventh: col 901 is 1 (mod 4) and is CLEAN, verified independently after the 0025-0029 stint reported the counterexample. Tally now: clipped 841, 849, 893, 897, 1045 - clean 895, 899, 901, 1043, 1047. Five of six mod-1 columns clip, so the pattern is a strong TENDENCY and a good guide to which leaf to pull first, but it is not an invariant. ⚑ THE FAILURE MODE IS SILENT AND COSTLY IN THE DIRECTION NOBODY CHECKS: applied blind it WITHHOLDS good markers on columns this copy answers perfectly well - it blocked three candidates in cols 0892-0901 before the stint looked. RULE: predict with it, never decide with it. Open the column. If a column really is clipped and the marker rests on a line-opening word, it needs a second copy (Gallica; data/volumes.json) before it may ship."
   }
  }
 }
