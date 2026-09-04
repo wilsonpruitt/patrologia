@@ -149,6 +149,21 @@ Leviticus (32,205), 8956 Isaiah (32,299), 8957 Job (38,206), 9000 Luke (44,075),
 (45,922), 8949 Exodus (46,328), 8950 Genesis (47,910), 8967 **Psalms (96,650)**. **Luke (9000) is
 the next gospel.** The `[sic:]`/`[var:]` backlog hunt remains **PAUSED** per Wilson.
 
+⚑ **2026-09-03 update on 9003: Wilson ruled "fix it now, don't deploy — it rides the Luke deploy."**
+The byline correction (`f050aad`) had left two sentences that were false once it landed, both
+caught by reading the BUILT PAGE rather than the diff, both fixed in `fba495e` and still
+undeployed: (1) the shared key `Auctor incertus (Walafridus Strabo?)` carried a
+**work-specific** `attributionFlag` written for 9004 (Martianay, the Jerome manuscripts, *auctor
+esse potuerit*) — so the moment 9003 took that byline it inherited a provenance note about a
+different book. `author-bios.json`'s own `_note` states the rule: **a shared anonymous key may
+carry only what is true of every work under it**; per-work provenance goes in `work-about.json`.
+Generalised, and nothing was lost because each editor's own preface is printed and Englished at
+the head of its own work. (2) 9003's headnote still read *"That is why the work is filed here
+under Anselm of Laon and his school."* ⚑ **The lesson is the retrieval one: a byline lives in
+more places than the byline field** — grep the built pages for the old author string after any
+attribution change. `9000` (Luke) is chunked and its lemma inventory built (`cebe68f`), fleet
+NOT launched.
+
 ⬜ **STILL OPEN FOR WILSON, unchanged and carried forward: 9003 (*Expositio in XX primos
 Psalmos*) carries the identical wrong Glossa byline that 9004's was corrected off, and is LIVE
 with it.** Its correction is committed but **staged, not deployed** (`f050aad`), because it
