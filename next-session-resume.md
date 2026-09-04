@@ -16,8 +16,146 @@ need Wilson's own ruling first, independent of the pause: 11550 @0436C (*caminus
 see that work's cruces.md) and 9033's 22 unreadable columns (lead: Lyon's numelyo library may hold
 PL 115 where Gallica/HathiTrust/Google Books do not).
 
-**Volume translation queue is UNCHANGED and not paused** — Deuteronomy is done; the Gospels
-24-45K each, Genesis/Exodus 42-43K, Psalms 90K remain queued, per the prior sessions' notes below.
+**Volume translation queue is UNCHANGED and not paused** — Deuteronomy, Mark and John are done;
+Luke and Matthew (44-46K) are the remaining gospels, Genesis/Exodus 46-48K, Psalms 97K, per the
+sessions below. **Luke (9000) is next.**
+
+## ▶▶▶▶▶ SESSION 2026-09-03 — 8999 *EVANGELIUM SECUNDUM JOANNEM* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE · ✅ PUSHED
+
+Corpus **154 → 155**, `/glossa` **48 → 49 of 58**. Commits `dc01fec` → `446fdc3`, **PUSHED**
+(`origin/master` = `446fdc3`). Deployed from `site/` and smoke-tested on the real domain: work
+page, **cruces page**, `/glossa`, landing, `/authors`, `/scripture`, `/latina`, and the resolver
+at both `/pl/114/355b` and `/pl/114/426b` — all 200, zero raw brackets on the page.
+
+⚑ **Mark (9001) was already shipped and live when this session opened** — the previous session
+finished it; nothing was owed there. Preflight on it exits 0.
+
+Anselm of Laon and his school, PL 114 cols 0355B–0426B, 29,727 w, 28 chunks. Six Opus stints,
+six plate readers, three blind polarity readers. Badge: **New English translation** (workStatus
+null, and rule 8 forbids hunting to upgrade it).
+
+### ⭐⭐⭐ THE HEADLINE: 23 OF 23 `[var:]` STOOD, AND ALL 17 CORRECTIONS CAME FROM THE **DECLINED** LIST
+
+**No stint fired a single `[sic:]` in 29,727 words.** The launch brief told them their
+attribution guess carries no evidential weight and to log a suspect word unmarked for the plate
+instead; they logged nineteen. Every `[var:]` and every `[cj:]` they *did* fire stood at the
+plate — 26 for 26.
+
+**So the 23 leaf-reads spent on fired markers produced no corrections at all, and the nineteen
+declined oddities produced all seventeen.** A stint that had guessed would have spent its
+credibility on exactly the wrong sites.
+
+With 9004 (46/46) and 9001 (19/19) that is **88 of 88 `[var:]` standing across three Glossa
+books**.
+
+### ⭐⭐⭐ THE NON-WORD PRIOR DOES NOT HOLD WITHIN A SINGLE WORK
+
+| range | declined non-words read | verdict |
+|---|---|---|
+| cols 381–390 | 4 (*audit*, *actionem*, *assensionem*, the Jo 4:13–14 clause) | **4 of 4 MIGNE'S** |
+| cols 399–415 | 5 (*impieretur*, *Sea*, *liguis*, *manao*, *interrogate*) | **5 of 5 OURS** |
+| 9001 | 6 | 6 of 6 ours |
+
+Same author, same recension, same volume, ~200 columns apart. `reference_plate-sweep-rate-varies-by-work`
+is too weak: **the rate varies by RANGE inside one work.** No policy may be inherited from a
+sibling book — only "log, do not attribute, read the plate" survives.
+
+### ⚑ TWO NEW MECHANISM CLASSES, BOTH WORTH A PASS OVER OTHER WORKS
+
+1. **THE HYPHEN-REJOIN CLASS — 4 of the withdrawals, found independently by four readers who
+   could not see each other.** CC mis-rejoins a word Migne broke at a line or column turn:
+   `scie-`/`bat` (and CC kept the orphan syllable *as well*, so our file printed it twice),
+   `im-`/`pleretur`, `li-`/`gnis`, `inter-`/`rogare`. It manufactures a plausible non-word and
+   **no frequency test can tell it from Migne's own.** It is greppable.
+2. **SILENT REPAIRS — 5 sites, running the other way.** CC quietly fixed Migne's broken type, so
+   a `[sic:]` would have been TRUE and our clean file hid it: *contringitur*, *cupidites*,
+   *Redit **sd** patriam*, *fierit*, *sanctificati **iu** veritate*. **The class no Vulgate
+   collation can ever reach**, because the digitization removed the evidence first — the mirror
+   of 9003's manufactured `judicavit`. Migne's readings restored per the 9001 convention; the
+   `[sic:]` each owes deliberately NOT fired. ⛔ A reader argued against restoring two of them
+   ("would introduce two non-words") — that is the reasoning the convention overrides, and 9001
+   settled it by restoring *Tlbi* and *cruxifixum*. Disagreement recorded in the patch file.
+
+### ⭐ THE MERGE COST 15 EDITS INSTEAD OF 147 — CARRY THE CONVENTIONS IN, DON'T RECONCILE THEM AFTER
+
+First Glossa book where the launch brief handed all six stints Mark's four settled axes **before
+they wrote a line**. Merge cost: 9001 = 100+ edits, 9004 = 147, **8999 = 15**, all on `usque ad`,
+the one axis Mark had never settled. Each stint was internally consistent; the drift was purely
+between stints and split 3–3. Settled on **as far as** (within-work majority 26–15 *and* the form
+9001 uses). The other four axes held exactly when measured: *turba* 10/10, *multitudo* 4/4,
+*daemon-* 7/7, *mysterium* 13/13, *sacramentum* 19/19, all 13 `saith` inside italic spans.
+
+⚑ **THE MERGE'S OWN LESSON — THREE FALSE DRIFT SIGNALS, EVERY ONE AN ARTIFACT OF THE
+INSTRUMENT.** A naïve `\bturba` grep matches the **verb** *turbare* and made four chunks look
+like they had five unrendered "crowds" (they contain none); `\bdaemoni` misses *daemones*; BSD
+`grep -o '\bnation'` matches inside *incarnation*, *damnation*, *predestination*. Each read
+exactly like real drift. **Check the instrument before reporting the drift.**
+
+### ⭐⭐ THE BLIND POLARITY READ OVERTURNED TWO RULINGS THE MERGE HAD ALREADY CLOSED
+
+26 sites, **19 ours**, mechanism 5 again dominant (11 of 19).
+
+⛔ **All three particle tallies found nothing, and the worst site in the book scored CLEAN.** At
+0415A the stint correctly diagnosed Migne's `nobis` for `non` and fired a `[cj:]` — but **parked
+the negation inside the bracket**, so the running English read *"they to such a degree understand
+for us"*. The marker's own text contains "not", so the paragraph looks negative to every counter,
+to `verify-english`, and to the reader's own tally, while the sentence a human reads contradicts
+itself and **three neighbours on one line**. 7a⁗ in its purest form: **the force is carried in
+the running text, never in the apparatus.**
+
+1. **0366C was logged as MIGNE'S and is OURS.** `non` governs both perfect subjunctives and
+   Chrysostom's Greek has καί under a single μή. The English negated only the first limb — and
+   `alicubi` had been moved out of the apodosis into the protasis, **which is what made the
+   un-negated limb read tolerably and hid the fault.** Ruling and its plate-check item struck.
+2. **0409B's decline rested expressly on *modo* construing as "only" — and the shipped English
+   printed "presently"**, the construal the crux had rejected. The 9001 @0199A class: **a crux
+   that records a decision the text does not carry**, invisible to any re-reading of the
+   apparatus because the crux says the right thing.
+
+⚑ Reader 2's structural point: the merged file's mechanism-5 census named three sites, **all in
+chunks 0010–0011**, and all four of its serious re-bindings sat in **0012–0018**, the range that
+never got a census. **A stint's apparatus is a complete record of what it looked for and silent
+about the rest.**
+
+### Other things settled here
+
+- ***Panes nostri* (0373B) is MIGNE'S**, read at 12× against the genuine *tr* of *nostri* two
+  letters away. The hardest decline in the work, and the stint **had leaned toward *Patres***.
+  Fourth measured case in this project of a confident attribution refuted by the page.
+- **A `<LACUNA>` that marked no lacuna** — caught at chunking, before any stint saw it. CC lost
+  one word (*nos*) at a column break and tagged the rest of the paragraph. ⛔ Worse than a
+  visible hole: `chunk-work` strips the tag and KEEPS the text, so the chunk would have read a
+  broken clause with nothing to say it was broken.
+- **`lemma-inventory.mjs` had a real defect**: the Clementine match was an unanchored substring
+  test, so a span whose last word is a **prefix** of the Clementine's word scored ✓ — and at
+  0401A the prefix *congregare*/*congregaret* **was** the divergence. Fixed with a word-boundary
+  anchor. Measured 23 false ✓ in 8,036 (0.29%) corpus-wide; ⛔ **not a retrofit**, the other 22
+  sit in shipped works and were not swept. ⚑ The first measurement said 61 — the detector was
+  wrong, because `clementine-flat.txt` glues the Song of Songs' speaker rubrics to the next word
+  (`<sponsa>osculetur`).
+- **The launch brief is now a COMMITTED FILE** (`data/briefs/8999-launch-brief.md`). 9001's
+  cruces cite "addendum A of the brief" eight times and no such file existed.
+- ⛔ **Leaf n215's printed corner reads `421`, not `420`.** n216 reads 421/422, so **421 is
+  printed twice in PL 114 and 420 never** — a compositor's mis-numbering. Corner numbers alone
+  would misfile every finding on that column by one.
+- ⚑ **A `<pb>` anchor is not a locator for a phrase near it.** Four sites sit in a different band
+  from the anchor before them. Two of those errors were in the readers' briefs and came from
+  reading the `<pb>` position instead of the plate.
+
+### NEXT
+
+**Ten Glossa books left, ~435K Latin words**, smallest first: 8963 Numbers (26,336), 8961
+Leviticus (32,205), 8956 Isaiah (32,299), 8957 Job (38,206), 9000 Luke (44,075), 9002 Matthew
+(45,922), 8949 Exodus (46,328), 8950 Genesis (47,910), 8967 **Psalms (96,650)**. **Luke (9000) is
+the next gospel.** The `[sic:]`/`[var:]` backlog hunt remains **PAUSED** per Wilson.
+
+⬜ **STILL OPEN FOR WILSON, unchanged and carried forward: 9003 (*Expositio in XX primos
+Psalmos*) carries the identical wrong Glossa byline that 9004's was corrected off, and is LIVE
+with it.** Its correction is committed but **staged, not deployed** (`f050aad`), because it
+changes a second live work's public attribution. ⚑ If it goes, add 9003 to `ALSO_PRINTED_HERE`
+in `build-glossa.mjs` **in the same commit** or it silently vanishes from `/glossa`.
+
+---
 
 ## ▶▶▶▶▶ SESSION 2026-09-01/02 — 9004 *EXPOSITIO IN QUATUOR EVANGELIA* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE · ✅ PUSHED
 
