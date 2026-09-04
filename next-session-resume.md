@@ -20,6 +20,98 @@ PL 115 where Gallica/HathiTrust/Google Books do not).
 Luke and Matthew (44-46K) are the remaining gospels, Genesis/Exodus 46-48K, Psalms 97K, per the
 sessions below. **Luke (9000) is next.**
 
+## ▶▶▶▶▶ SESSION 2026-09-04 — 9000 *EVANGELIUM SECUNDUM LUCAM* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE · ✅ PUSHED
+
+Corpus **155 → 156**, `/glossa` **49 → 50 of 58**. `origin/master` = `65f5d4d`. Deployed from
+`site/` (`dpl_Cp6rrDpnqsA5mapK4SUAPEN2HG2U`) and smoke-tested on the real domain: work page, cruces
+page, `/glossa`, landing, `/authors`, `/scripture`, `/latina`, the resolver at `/pl/114/247a` and
+`/pl/114/344b`, and 9003 — all 200, zero raw brackets.
+
+Anselm of Laon and his school, PL 114 cols 0243D–0356A, **44,073 w, 41 chunks, eight Opus stints**,
+three blind polarity readers, five plate readers. Badge **New English translation** (workStatus
+null; rule 8 forbids hunting to upgrade it). ⚑ **The 9003 byline correction rode this deploy** and
+is now live — that long-standing open item is CLOSED.
+
+### ⭐⭐⭐ THE HEADLINE: THE DECLINED LIST IS NOW A MEASURED INSTRUMENT, NOT A HABIT
+
+Every stint was told John's result before writing a line. **Not one fired a `[sic:]` in 44,073
+words**; they logged ~140 suspect words instead, most naming the leaf that would settle them.
+**Seventeen patches followed and NOT ONE came from a fired marker** — twelve from the declined
+lists or from a reader's eye falling elsewhere while a page stood open for another question.
+
+`[var:]` on a quoted clause now stands at **120 of 121 across four Glossa books**.
+
+### ⭐⭐ FIVE SILENT REPAIRS, AND TWO WERE IN NO STINT'S LIST AT ALL
+
+*quator* · *propetiae lectonis* · *invenitur- Qoud* · ***sapipientiae*** · ***astritus***. The last
+two nobody had noticed: CC tidied Migne's broken type before any stint saw the text, so the class
+is unreachable from our side **by construction** — they exist only because a leaf was open for a
+marker. Restored per the 9001 convention; the `[sic:]` each owes deliberately not fired.
+
+### ⭐⭐ 0330A — A FINDING ABOUT THE RECENSION, NOT ABOUT US
+
+The plate prints *Gloria in **excelsis** Deo* at Luke 2:14 **and *gloria in excelsis* again two
+lines later at Luke 19:38**, the verse the gloss expounds on that same page. Migne conformed the
+nativity song to the entry song. ⚑ The lemma-inventory had scored the span **✓ — off Luke 19:38**.
+
+### ⛔ THE ✓ FAILED SIX TIMES, AND A GOSPEL COMMENTARY IS WHY
+
+A whole-Bible phrase search is defeated by the harmony's own parallels: *Quid cogitatis **mala***
+cleared off Mt 9:4 inside a commentary on Lc 5:22; *Gaudete et exsultate* off Mt 5:12; *Supra
+terram* cleared although the phrase is **nowhere** in the file. ⚑ **A third mechanism found by a
+stint: `lemma-inventory` searches the Clementine as ONE JOINED STRING, so a span can score ✓ by
+matching ACROSS A VERSE BOUNDARY.** ⛔ **Fix this before Matthew** — same author, same genre.
+
+### ⭐ THE MERGE COST 3 EDITS, AND THE AXIS THAT DRIFTED WAS ONE NO BRIEF HAD RULED ON
+
+Three stints stated three different `[var:]` thresholds, each before its findings. **Word count is
+not what makes a `[var:]` true**: our Latin is CC's transcription, so a one-word divergence has two
+owners and the marker names one. **Rule settled: a single-word `[var:]` stands only where the
+divergence has a witness of its own** — (a) the gloss argues from the word, or (b) the form is one
+letter-level corruption cannot manufacture. ⚑ And a marker was nearly withdrawn **on the strength
+of its own apparatus**: 0258B named the Vulgate reading and never said what diverged. The Latin
+overturned it (*dilectio* for *caritas*). **A marker that quotes only the witness cannot be audited.**
+
+### The blind polarity read — 13 repairs, ZERO negation defects
+
+Twenty-two of 41 chunks named clean. **Not one dropped or intruded negation in the whole work.**
+Worst site: **0323A**, where Migne quotes Luke 18:7 — a question in the Vulgate, stripped of its
+mark by the abridgment — and our flat rendering said God **will not** avenge his elect, in a
+paragraph whose point is the opposite and whose own twin on the same line stayed interrogative.
+⚑ **Three of the thirteen are the John @0409B class: an apparatus entry that is right while the
+English carries the opposite.** A logged column is not a checked column.
+
+### Rulings and open items
+
+- ⭐ **WILSON RULED (col 344 verse numbers): restore Migne's wrong `VERS. 2` / `VERS. 14` AND fire a
+  `[sic:]` at each** — the only two in the work. Decided on two facts that cut against the obvious
+  answer: **nothing machine-readable consumes a `VERS.` number** (the resolver keys on columns,
+  `/scripture` on the `[n:]` citations), and **only 39% of the work's columns were read**, so a
+  silent restoration buys faithfulness at the sites we happened to open, not in general.
+- ⚑ `verify-english` **refused a `[sic:]` carrying prose** — it may wrap only type carried verbatim
+  from the plate, so a marker can never be put round our own English.
+- ⚑ **`sources/vulgate/README.md` now carries an ERRATA section**: our Clementine prints *repentius*
+  at 1Thes 5:3 for *repentinus*, upstream in the 2005 Quasimodo release. A stint refused to cite the
+  verse and was right — a marker there would have accused Migne using **our own typo as the standard**.
+- ⬜ **`gentilis` and `gentilitas` must be added to axis 4 in the Matthew brief** — two stints hit
+  them, both flagged rather than deciding silently.
+- ⬜ `(Reg. XII)` @0331C stays **unparsed** by decision: the plate prints it exactly so, and the
+  identification (3 Kings 12:16) is ours, not Migne's.
+- ⚠ The plate reads are **targeted, not word-by-word**; one reader found *specie*/*species* while
+  checking something else and said a full pass would find more.
+- ⚠ New volume scan defect: **leaf n153's corner is set `9 5`** (dropped medial sort), beside the
+  known n215 where 421 prints twice and 420 never.
+
+### NEXT
+
+**Nine Glossa books left, ~391K Latin words**, smallest first: 8963 Numbers (26,336), 8961
+Leviticus (32,205), 8956 Isaiah (32,299), 8957 Job (38,206), 9002 **Matthew (45,922)**, 8949 Exodus
+(46,328), 8950 Genesis (47,910), 8967 **Psalms (96,650)**. **Matthew is the last gospel** and should
+carry the fixed ✓ checker plus the axis-4 additions. The `[sic:]`/`[var:]` backlog hunt remains
+**PAUSED** per Wilson.
+
+---
+
 ## ▶▶▶▶▶ SESSION 2026-09-03 — 8999 *EVANGELIUM SECUNDUM JOANNEM* · ✅ SHIPPED · ✅ DEPLOYED + VERIFIED LIVE · ✅ PUSHED
 
 Corpus **154 → 155**, `/glossa` **48 → 49 of 58**. Commits `dc01fec` → `446fdc3`, **PUSHED**
