@@ -3428,6 +3428,118 @@ need regenerating.
 
 ---
 
+# §F8 · ⭐⭐⭐ THE BLIND POLARITY READ — 4 readers, 38 chunks, 28 SITES, AND SEVEN OF THEM WERE MINE
+
+Four Opus readers, fenced from `cruces.md`, every stint file and every brief, split 0039–0047 /
+0048–0057 / 0058–0066 / 0067–0076. Every one named its clean chunks and its rejected candidates.
+**28 sites, 24 ours.** Recorded via `polarity-record.mjs`.
+
+## ⛔⛔ IT AUDITED THE PATCH PASS THAT HAD JUST RUN, AND THE PATCH PASS FAILED
+
+**Seven of the twenty-eight are defects I introduced or left behind earlier the same day**, every one
+found by a reader who could not see the patch report, the pending file, or the cruces:
+
+1. **A `[sic:]` fired on the WRONG WORD.** `[sic: *Eccesiam*]` @0920C sat after "kingdom", telling
+   the reader Migne's plate is defective at *regnum*. The defective type is *Ecclesiam* = **Church**.
+   **A misplaced marker is a false public accusation against Migne at a word he set correctly.**
+2. **`liberavit` @0927A** — I patched the Latin to Migne's doubled perfect and left the English
+   reading "will deliver", so **our English manufactured the perfect-for-future gloss the plate does
+   not have**, in the one place where Migne's own parallel (`dedit, id est, dabit`) proves the defect.
+3. **`quid` @0929D** — patched the Latin, left the English reading `qui`, demoting an interrogative
+   to a relative modifier with no marker.
+4. **`sint erant` @0944A** — patched away CC's supplied relative, left the English rendering CC's
+   fluent clause, silently repairing a broken column.
+5. **`: et` @0989C** — I listed the English edit as owed in the patch-pass record and never made it.
+6. **`biatu` @0924B — a patch its stint reported and I never built.**
+7. **The unmatched CC parenthesis @0936D — same.**
+
+⭐ **The lesson is a mechanism, not an exhortation.** The stint reports are PROSE and I extracted 149
+patches from them by hand; nothing reconciled *reported sites* against *applied ones*, and nothing
+checked that a fired marker sits on the word it accuses. Two of the seven were pure omission, and I
+would not have found them by re-reading my own work, because my own work is where the omission is.
+**The blind read is the only instrument in this pipeline that audits the pass that precedes it.**
+
+## The systematic finding — THREE readers, three ranges, one habit
+
+**Fourteen lemmas that Migne prints SHORT and our English silently completed from the Vulgate**:
+*In finem pro his* → "for those who shall be changed" · *Nonne* → "Shall not my soul be subject to
+God" · *Nolite sperare in* → "in iniquity" · *Te decet* → "A hymn becometh thee" · *Anticipaverunt
+vigilias* → "**My eyes** prevented the watches" · *Cibabis* → "Thou wilt feed **us**" · *manus in
+cophino* → "**his** hands" · *In sancto* → "In **my** holy one" · *Sicut sol in conspectu* → "in
+**my** sight" · *Opprobri servorum* → "of **thy** servants" · *In sinu* → "In **my** bosom" ·
+*In pennis* → "**Under his** feathers" · *Adorate Dominum in atrio* → "in **his** court".
+
+⚑ **How much the convergence is worth, stated honestly:** all four readers were told to watch for "a
+supplied possessive the Latin never printed", so their agreement on the CLASS is one brief speaking
+three times, not three independent findings ([[feedback_briefed-agents-are-not-independent]]). **What
+none was told is the PATTERN** — that these cluster specifically in truncated lemmas and run toward
+the Vulgate. And one site carries its own proof without any convergence: at 0965B ***Oculi mei* is
+itself a separate lemma** which the glossator then expounds twice, and Migne's third gloss offers
+*inimici mei* as the alternative subject — which only makes sense if the head lemma carried none.
+Supplying it pre-empts the gloss it exists to introduce.
+
+⛔ This is **7a″ conformation inside the apparatus rather than inside a quotation**, and it is the
+failure profile predicted for verse-by-verse commentary. All fourteen are now rendered as printed.
+
+## The sense-level defects — the class with no grep signature
+
+Ten, every one of which read perfectly in English:
+- **`Judicandi igitur ante precentur absolvi`** @0962C — a nominative plural gerundive read as a
+  genitive, so **the English lost who is praying**.
+- **`quibus imperat et ipse dilectus`** @0942B — a nominative subject turned into a predicate, so
+  this gloss and **Migne's own next gloss three lines below said opposite things about who the
+  Beloved is, and only in English**.
+- **`sub spe religionis`** @0984C rendered "under the **show** of religion" — *specie* for *spe*.
+  **It converts an unfulfilled hope into hypocrisy, a different charge**, in a passage whose
+  proof-text is about a hope carried through the fall.
+- **`idem corpus sanat, et lavat caput`** @0984D — *idem* pulled off the word it stands next to;
+  the clause's whole force is that the body healed piecemeal now is the SAME body healed at the end.
+- **`Superiora Dominus`** @0927C — nominative read as genitive, turning a statement about who
+  SPEAKS into one about whose things they are, in a sentence entirely about who is speaking.
+- **`jacta in Dominum, non alium qui portus est`** @0925A — the harbour attached to "another", and
+  **the same sentence then ended "not a harbour", contradicting itself two clauses later.**
+- **`quod adhuc hodie facit`** @0949B — an unanchored `facit` whose nearest English referent was
+  Christ, so the page read as Christ casting the gall.
+- **`cui et dicet`** @0937A — the supplied "he" resolved to God, so **the page had God praying
+  "Hear us, thou who art the Saviour."**
+- **`congregata ab aliis rapiuntur`** @0933C — the agent attached to the wrong verb, so others did
+  the gathering and nobody did the snatching.
+- **`et quod Trinitas`** @0993A — a supplied "he was" carried the subject over from *Verbum* and
+  stated that the incarnate Word is the Trinity.
+
+## A marker WITHDRAWN, and it was mine
+
+**`[d: videantur, et]` @0991C is withdrawn.** `[d:]` marks type Migne prints twice **adjacently**;
+the earlier `videantur` is eight words back in a different clause and `et … et` is a correlative pair.
+Firing it **deleted a finite verb and one limb of the correlative**, and lost the point — that they
+still *seem* to be friends. Now rendered as printed. **The reader was right and I was wrong**, on a
+call I had made in the merge two hours earlier.
+
+## ⚑ Where a reader was RIGHT ABOUT THE FACT AND WRONG ABOUT THE RULE — twice
+
+The standing pattern for a fenced reader, and both instances are instructive:
+- It asked for `[sic: *PSLMUS*]` on the Psalm C head. **Declined**: Pattern 9 normalizes a section
+  label in English *precisely because* the facing Latin preserves the misprint. The observation
+  (the defect is invisible in English) is correct; the remedy is not.
+- It filed the @0936D parenthesis as **Migne's, deleted by us**. It is **CC's**, inserted — the
+  reader could see our TEI but not the leaf, so it read an addition as a deletion. It is now
+  patched out, which is what its stint had asked for.
+
+## Two sites left OPEN by the read
+
+- **`quidam mundi defecerunt`** @0995B — *mundi* is genitive of *mundus* or nominative plural of
+  *mundus* "clean". In a passage about prelates slain and the just plundered, "certain **cleansed**
+  ones failed" fits better and **would reverse who is failing.** The reader raised it rather than
+  filing it: it needs the plate.
+- **`Non per agentes promissa`** @0980D — the sense wants "[they lied] by **not performing** what was
+  promised", but Migne prints the *non* on the prepositional phrase. Moving it inside would be a
+  Pattern 7 repair. Left as printed, with the strain recorded.
+
+**Result: 28 sites, 24 ours, all applied except the two left open above. `verify-english`,
+`plate-gate` and `patch-audit` clean.**
+
+---
+
 # §G · THE EIGHT BAND B STINT FILES, VERBATIM
 
 Nothing below is abridged. Each stint's own reasoning, declined list and checks stand as written —
