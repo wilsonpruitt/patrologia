@@ -243,7 +243,7 @@
   "Auctor incertus (Walafridus Strabo?)": {
     "displayName": "Anonymous",
     "latin": "Auctor incertus (Walafridus Strabo?)",
-    "attributionFlag": "Migne prints this commentary under Walafrid Strabo’s name, in his Opera among the works of PL 113–114. The ascription is the edition’s own and its editor says so: Martianay found the text in manuscripts falsely ascribed to Jerome, and published it because Strabo “could have been” its author (auctor esse potuerit). It is not part of the Glossa ordinaria, though Migne prints it in the same tomes.",
-    "_note": "Shared anonymous key with a Walafridian attribution flag. No popover; per-work provenance goes in work-about.json. Added 2026-09-02 when 9004’s byline was corrected off the Glossa author."
+    "attributionFlag": "Migne prints this commentary under Walafrid Strabo’s name, among his Opera in PL 113–114, though it is not part of the Glossa ordinaria. The ascription is the edition’s own rather than the manuscripts’, and the editor Migne reprints sets out his grounds for it at the head of the work, printed and translated here.",
+    "_note": "Shared anonymous key with a Walafridian attribution flag. No popover; per-work provenance goes in work-about.json. Added 2026-09-02 when 9004’s byline was corrected off the Glossa author. GENERALISED 2026-09-03 when 9003 took the same byline: the flag named Martianay, his Jerome manuscripts and his auctor esse potuerit, all of which belong to 9004 and are false of 9003, whose text comes from Pez’s Thesaurus. A shared key may carry only what is true of every work under it — and nothing is lost, because each editor’s own preface (Martianay’s Admonitio, Pez’s Monitum praevium) is printed and Englished at the head of its own work."
   }
 }
