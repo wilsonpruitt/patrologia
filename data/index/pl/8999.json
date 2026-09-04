@@ -1,0 +1,821 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3976,
+  "textIdno": 8999,
+  "title": "Evangelium secundum Joannem",
+  "authors": [
+    "Anselmus Laudunensis et schola"
+  ],
+  "authorsDisplay": [
+    "Anselm of Laon and his school"
+  ],
+  "series": "pl",
+  "volume": 114,
+  "colFirst": "355b",
+  "colLast": "426b",
+  "counts": {
+    "scripture": 40,
+    "fontes": 78,
+    "heads": 22,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Exod.33",
+      "refDisplay": "Exod. XXXIII",
+      "column": "358a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Exod.33",
+      "refDisplay": "Ibid.",
+      "antecedent": "Exod. XXXIII",
+      "antecedentColumn": "358a",
+      "ibidResolved": true,
+      "column": "358a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Exod.33",
+      "refDisplay": "Exod. XXXIII",
+      "column": "358b",
+      "chunk": 1
+    },
+    {
+      "refKey": "Luke.10",
+      "refDisplay": "Luc. X",
+      "column": "358c",
+      "chunk": 1
+    },
+    {
+      "refKey": "Isa.5",
+      "refDisplay": "Isa. V",
+      "column": "365b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Prov.5",
+      "refDisplay": "Prov. V",
+      "column": "365b",
+      "chunk": 3
+    },
+    {
+      "refKey": "Eph.5",
+      "refDisplay": "Ephes. V",
+      "column": "370d",
+      "chunk": 6
+    },
+    {
+      "refKey": "Matt.8",
+      "refDisplay": "Matth. VIII",
+      "column": "376b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.5",
+      "refDisplay": "Matth. V",
+      "column": "379c",
+      "chunk": 8
+    },
+    {
+      "refKey": "Isa.53",
+      "refDisplay": "Isa. LIII",
+      "column": "387b",
+      "chunk": 12
+    },
+    {
+      "refKey": "Mark.11",
+      "refDisplay": "Marc. XI",
+      "column": "387b",
+      "chunk": 12
+    },
+    {
+      "refKey": "John.13",
+      "refDisplay": "Joan. XIII",
+      "column": "388a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Acts.5",
+      "refDisplay": "Act. V",
+      "column": "388d",
+      "chunk": 12
+    },
+    {
+      "refKey": "John.9",
+      "refDisplay": "Joan. IX",
+      "column": "389a",
+      "chunk": 12
+    },
+    {
+      "refKey": "Ezek.16",
+      "refDisplay": "Ezech. XVI",
+      "column": "393a",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.56",
+      "refDisplay": "Psal. LVI",
+      "column": "393b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Deut.13",
+      "refDisplay": "Deut. XIII",
+      "column": "393d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Jas.2",
+      "refDisplay": "Jac. II",
+      "column": "393d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Ps.42",
+      "refDisplay": "Psal. XLII",
+      "column": "393d",
+      "chunk": 14
+    },
+    {
+      "refKey": "Phil.2",
+      "refDisplay": "Philip. II",
+      "column": "394b",
+      "chunk": 14
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI",
+      "column": "397c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Matt.11",
+      "refDisplay": "Matth. XI; Luc. X",
+      "column": "397c",
+      "chunk": 16
+    },
+    {
+      "refKey": "Luke.10",
+      "refDisplay": "Matth. XI; Luc. X",
+      "column": "397c",
+      "chunk": 16
+    },
+    {
+      "refKey": "1Kgs.8",
+      "refDisplay": "III Reg. VIII",
+      "column": "398a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Neh.6",
+      "refDisplay": "II Esdr. VI",
+      "column": "398a",
+      "chunk": 16
+    },
+    {
+      "refKey": "1Macc.4",
+      "refDisplay": "I Machab. IV",
+      "column": "398a",
+      "chunk": 16
+    },
+    {
+      "refKey": "Matt.7",
+      "refDisplay": "Matth. VII",
+      "column": "400b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III.",
+      "column": "400b",
+      "chunk": 17
+    },
+    {
+      "refKey": "Isa.27",
+      "refDisplay": "Isa. XXVII",
+      "column": "409d",
+      "chunk": 20
+    },
+    {
+      "refKey": "1Cor.4",
+      "refDisplay": "I Cor. IV",
+      "column": "409d",
+      "chunk": 20
+    },
+    {
+      "refKey": "Eph.2",
+      "refDisplay": "Ephes. II",
+      "column": "409d",
+      "chunk": 20
+    },
+    {
+      "refKey": "Rom.2",
+      "refDisplay": "Rom. II",
+      "column": "412a",
+      "chunk": 21
+    },
+    {
+      "refKey": "2Cor.5",
+      "refDisplay": "II Cor. V",
+      "column": "413c",
+      "chunk": 22
+    },
+    {
+      "refKey": "1John.1",
+      "refDisplay": "I Joan. I",
+      "column": "414c",
+      "chunk": 22
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI",
+      "column": "417d",
+      "chunk": 23
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI",
+      "column": "418c",
+      "chunk": 24
+    },
+    {
+      "refKey": "Matt.26",
+      "refDisplay": "Matth. XXVI",
+      "column": "419a",
+      "chunk": 24
+    },
+    {
+      "refKey": "Gen.3",
+      "refDisplay": "Gen. III",
+      "column": "420c",
+      "chunk": 25
+    },
+    {
+      "refKey": "Isa.53",
+      "refDisplay": "Isa. LIII",
+      "column": "420d",
+      "chunk": 25
+    },
+    {
+      "refKey": "1Tim.5",
+      "refDisplay": "I Tim. V",
+      "column": "422a",
+      "chunk": 25
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG.",
+      "column": "356b",
+      "chunk": 1
+    },
+    {
+      "raw": "ORIG.",
+      "column": "356c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "356c",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "357d",
+      "chunk": 1
+    },
+    {
+      "raw": "AUG.",
+      "column": "360d",
+      "chunk": 2
+    },
+    {
+      "raw": "HIER.",
+      "column": "360d",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "361a",
+      "chunk": 2
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "362b",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "363a",
+      "chunk": 2
+    },
+    {
+      "raw": "AUG.",
+      "column": "363d",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "363d",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "363d",
+      "ibidResolved": true,
+      "column": "364a",
+      "chunk": 3
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "363d",
+      "ibidResolved": true,
+      "column": "364a",
+      "chunk": 3
+    },
+    {
+      "raw": "HIER.",
+      "column": "364c",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "365b",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "365c",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "365c",
+      "chunk": 3
+    },
+    {
+      "raw": "AUG.",
+      "column": "366b",
+      "chunk": 4
+    },
+    {
+      "raw": "CHRYS.",
+      "column": "366c",
+      "chunk": 4
+    },
+    {
+      "raw": "AUG.",
+      "column": "367c",
+      "chunk": 4
+    },
+    {
+      "raw": "ALC.",
+      "column": "369d",
+      "chunk": 5
+    },
+    {
+      "raw": "GREG.",
+      "column": "371c",
+      "chunk": 6
+    },
+    {
+      "raw": "AUG.",
+      "column": "372b",
+      "chunk": 6
+    },
+    {
+      "raw": "AUG.",
+      "column": "373b",
+      "chunk": 6
+    },
+    {
+      "raw": "Isa.",
+      "column": "373d",
+      "chunk": 6
+    },
+    {
+      "raw": "AUG.",
+      "column": "378c",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "378d",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "379b",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "379c",
+      "chunk": 8
+    },
+    {
+      "raw": "AUG.",
+      "column": "383a",
+      "chunk": 10
+    },
+    {
+      "raw": "AUG.",
+      "column": "384a",
+      "chunk": 10
+    },
+    {
+      "raw": "AUG.",
+      "column": "384d",
+      "chunk": 11
+    },
+    {
+      "raw": "AUG.",
+      "column": "386a",
+      "chunk": 12
+    },
+    {
+      "raw": "ALC.",
+      "column": "386c",
+      "chunk": 12
+    },
+    {
+      "raw": "HIER.",
+      "column": "388b",
+      "chunk": 12
+    },
+    {
+      "raw": "AUG.",
+      "column": "390c",
+      "chunk": 13
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "390c",
+      "ibidResolved": true,
+      "column": "390c",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG.",
+      "column": "391b",
+      "chunk": 13
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "391b",
+      "ibidResolved": true,
+      "column": "391c",
+      "chunk": 13
+    },
+    {
+      "raw": "AUG.",
+      "column": "394c",
+      "chunk": 14
+    },
+    {
+      "raw": "AUG.",
+      "column": "395c",
+      "chunk": 15
+    },
+    {
+      "raw": "AUG.",
+      "column": "396c",
+      "chunk": 16
+    },
+    {
+      "raw": "AUG.",
+      "column": "397d",
+      "chunk": 16
+    },
+    {
+      "raw": "HIER.",
+      "column": "399c",
+      "chunk": 17
+    },
+    {
+      "raw": "AUG.",
+      "column": "399d",
+      "chunk": 17
+    },
+    {
+      "raw": "AUG.",
+      "column": "401a",
+      "chunk": 17
+    },
+    {
+      "raw": "AUG.",
+      "column": "402a",
+      "chunk": 18
+    },
+    {
+      "raw": "AUG.",
+      "column": "402c",
+      "chunk": 18
+    },
+    {
+      "raw": "AUG.",
+      "column": "402c",
+      "chunk": 18
+    },
+    {
+      "raw": "AUG.",
+      "column": "403d",
+      "chunk": 18
+    },
+    {
+      "raw": "GREG.",
+      "column": "405c",
+      "chunk": 19
+    },
+    {
+      "raw": "AUG.",
+      "column": "406c",
+      "chunk": 19
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "406c",
+      "ibidResolved": true,
+      "column": "406c",
+      "chunk": 19
+    },
+    {
+      "raw": "AUG.",
+      "column": "406d",
+      "chunk": 19
+    },
+    {
+      "raw": "AUG.",
+      "column": "407a",
+      "chunk": 19
+    },
+    {
+      "raw": "AUG.",
+      "column": "407b",
+      "chunk": 20
+    },
+    {
+      "raw": "AUG.",
+      "column": "407b",
+      "chunk": 20
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "407b",
+      "ibidResolved": true,
+      "column": "407c",
+      "chunk": 20
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "407b",
+      "ibidResolved": true,
+      "column": "407c",
+      "chunk": 20
+    },
+    {
+      "raw": "ID.",
+      "antecedent": "AUG.",
+      "antecedentColumn": "407b",
+      "ibidResolved": true,
+      "column": "407c",
+      "chunk": 20
+    },
+    {
+      "raw": "AUG.",
+      "column": "408b",
+      "chunk": 20
+    },
+    {
+      "raw": "THEOPH.",
+      "column": "408c",
+      "chunk": 20
+    },
+    {
+      "raw": "AUG.",
+      "column": "410a",
+      "chunk": 20
+    },
+    {
+      "raw": "AUG.",
+      "column": "411c",
+      "chunk": 21
+    },
+    {
+      "raw": "AUG.",
+      "column": "412a",
+      "chunk": 21
+    },
+    {
+      "raw": "AUG.",
+      "column": "413b",
+      "chunk": 22
+    },
+    {
+      "raw": "AUG.",
+      "column": "413c",
+      "chunk": 22
+    },
+    {
+      "raw": "AUG.",
+      "column": "414a",
+      "chunk": 22
+    },
+    {
+      "raw": "AUG.",
+      "column": "414b",
+      "chunk": 22
+    },
+    {
+      "raw": "AUG.",
+      "column": "416b",
+      "chunk": 23
+    },
+    {
+      "raw": "AUG.",
+      "column": "418b",
+      "chunk": 24
+    },
+    {
+      "raw": "AUG.",
+      "column": "418d",
+      "chunk": 24
+    },
+    {
+      "raw": "AUG.",
+      "column": "419b",
+      "chunk": 24
+    },
+    {
+      "raw": "AUG.",
+      "column": "421a",
+      "chunk": 25
+    },
+    {
+      "raw": "AUG.",
+      "column": "423c",
+      "chunk": 26
+    },
+    {
+      "raw": "AUG.",
+      "column": "424d",
+      "chunk": 27
+    },
+    {
+      "raw": "AUG.",
+      "column": "425b",
+      "chunk": 27
+    },
+    {
+      "raw": "AUG.",
+      "column": "426b",
+      "chunk": 27
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS.",
+      "column": "355b",
+      "chunk": 0,
+      "en": "PROLOGUE."
+    },
+    {
+      "la": "CAPUT PRIMUM.",
+      "column": "356b",
+      "chunk": 1,
+      "en": "CHAPTER ONE."
+    },
+    {
+      "la": "CAPUT II.",
+      "column": "363c",
+      "chunk": 3,
+      "en": "CHAPTER II."
+    },
+    {
+      "la": "CAPUT III.",
+      "column": "366a",
+      "chunk": 4,
+      "en": "CHAPTER III."
+    },
+    {
+      "la": "CAPUT IV.",
+      "column": "370c",
+      "chunk": 6,
+      "en": "CHAPTER IV."
+    },
+    {
+      "la": "CAPUT V.",
+      "column": "376d",
+      "chunk": 8,
+      "en": "CHAPTER V."
+    },
+    {
+      "la": "CAPUT VI.",
+      "column": "380c",
+      "chunk": 10,
+      "en": "CHAPTER VI."
+    },
+    {
+      "la": "CAPUT VII.",
+      "column": "385c",
+      "chunk": 12,
+      "en": "CHAPTER VII."
+    },
+    {
+      "la": "CAPUT VIII.",
+      "column": "389b",
+      "chunk": 13,
+      "en": "CHAPTER VIII."
+    },
+    {
+      "la": "CAPUT IX.",
+      "column": "394c",
+      "chunk": 15,
+      "en": "CHAPTER IX."
+    },
+    {
+      "la": "CAPUT X.",
+      "column": "396a",
+      "chunk": 16,
+      "en": "CHAPTER X."
+    },
+    {
+      "la": "CAPUT XI.",
+      "column": "399a",
+      "chunk": 17,
+      "en": "CHAPTER XI."
+    },
+    {
+      "la": "CAPUT XII.",
+      "column": "401b",
+      "chunk": 18,
+      "en": "CHAPTER XII."
+    },
+    {
+      "la": "CAPUT XIII.",
+      "column": "404c",
+      "chunk": 19,
+      "en": "CHAPTER XIII."
+    },
+    {
+      "la": "CAPUT XIV.",
+      "column": "407a",
+      "chunk": 20,
+      "en": "CHAPTER XIV."
+    },
+    {
+      "la": "CAPUT XV.",
+      "column": "410b",
+      "chunk": 21,
+      "en": "CHAPTER XV."
+    },
+    {
+      "la": "CAPUT XVI.",
+      "column": "412c",
+      "chunk": 22,
+      "en": "CHAPTER XVI."
+    },
+    {
+      "la": "CAPUT XVII.",
+      "column": "415b",
+      "chunk": 23,
+      "en": "CHAPTER XVII."
+    },
+    {
+      "la": "CAPUT XVIII.",
+      "column": "418a",
+      "chunk": 24,
+      "en": "CHAPTER XVIII."
+    },
+    {
+      "la": "CAPUT XIX.",
+      "column": "420b",
+      "chunk": 25,
+      "en": "CHAPTER XIX."
+    },
+    {
+      "la": "CAPUT XX.",
+      "column": "422a",
+      "chunk": 26,
+      "en": "CHAPTER XX."
+    },
+    {
+      "la": "CAPUT XXI.",
+      "column": "424a",
+      "chunk": 27,
+      "en": "CHAPTER XXI."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
