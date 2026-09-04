@@ -896,3 +896,71 @@ cut by the gutter). **0967, 0969, 0971, 0973, 0975, 0977, 0979 are all clean.** 
 0977 are each ≡ 1 (mod 4) and clean while 0981 is ≡ 1 and clipped, this stint adds **three clean
 counterexamples from one gathering** to the withdrawn mod-4 rule. No marker of mine rests on a
 line-opening word in 0981.
+
+---
+
+# ✅ BAND B PATCH PASS APPLIED 2026-09-04 — 149 patches, and what it left open
+
+**192 patches now stand in `data/tei-patches/8967.json`** (Band A's 43 + Band B's 149). The work was
+re-chunked once, after all eight stints had filed, so no patch rewrote Latin under a translation in
+progress. **Band A's 39 Latin chunks came back BYTE-IDENTICAL and Band C's 29 did too** — no chunk
+boundary moved, so Band A's filed English is untouched and Band C's eight lemma briefs remain valid
+and need no regeneration. `verify-english` and `plate-gate` are clean on 0000–0076.
+
+**168 word-level edits landed in the Latin.** 20 English twins were reconciled to them: 3 psalm
+heads, 3 `VERS.` numbers, 1 siglum, 5 notes realigned to the twin, and **19 sense-bearing edits** —
+including `honourable`→`good works`, the removal of CC's inserted `Sina`, `I have cried`→`he hath
+cried`, `Their strength.`→`Of their virtues.`, `almost`→`well dried up`, `He said`→`I said
+prophetically`, `He hath heard and was glad.`→`I have heard and she was glad.`, `Lo, here is Christ,
+lo there,`→`Lo, here is Christ to be there,`, `thou shalt trample`→`he shall trample`, and
+`unto eternal life`→`unto the eternal way`.
+
+## ⬜ OWED TO THE CRUCES MERGE — the markers this pass UNLOCKED
+
+⛔ **This is the whole point of the pass and it is NOT done.** At least **27 `[sic:]`-class markers**
+became fireable the moment their Latin was restored, plus `[d: unde]` @0934C, `[cj:]` at 0932D,
+0944A, 1006B, 1011B, and `[var:]` at 0929C, 0973D, 1000B, 1007B. **A [sic:] may wrap only type the
+twin carries — the twin now carries it.** Until they are fired, the band's marker counts UNDERSTATE
+what Migne printed, and the 96-`[var:]`-to-4-`[sic:]` ratio must not be quoted as a fact about this
+Psalter.
+
+## ⬜ OWED — English renderings bound up with a marker, deliberately not decided here
+
+- **0991C, the compositor EYE-SKIP.** Latin now reads `unde amici et videantur, et more deserunt`.
+  The English still renders CC's reconstruction (`friends and acquaintances forsake through fear`),
+  which is no longer a translation of the Latin beside it. Under 11a the intrusive copy is the
+  SECOND. The rendering and the marker are one decision and belong to the merge.
+- **0979A `Super et fundatam`** — restored, the clause does not construe. The English still renders
+  CC's `te` (`Founded upon thee`) because rendering `et` would be our own conjecture.
+- **0999C `qui quibus sedebunt`** — whether Migne's `qui quibus` is a compositor's false start
+  (11a) is open; the English still reads `in which they shall sit`.
+- **0957C `occurrit et obvia mihi`** — `obvia` does not construe with the singular verb, which is
+  why CC repaired it. The English still reads `meets and comes against me`.
+- **0945A `nomine fide omnium gentium`** — ablative for accusative; the English (`he signifies the
+  faith of all nations`) reads for either, so it was left rather than forced.
+
+## ⛔ FIVE REPORTED SITES NOT PATCHED, each because the report itself declined or could not rule
+
+1. **`Nafrubimus` @0962B** — the letter between `Na` and `rubimus` would not settle as `f` or `t`
+   even at 1200 dpi. **A patch must not guess a letter any more than a marker may.** One leaf re-read.
+2. **`Malivolenti :` @0929A** — Migne's is a real word (dative of *malivolens*), filed as a
+   departure needing a ruling, not as a defect.
+3. **0926B `ei`/`et`** — the stint's own report contradicts itself about which the plate carries.
+4. **`res alienas`/`res aliena` @0971D** — Pattern 12(2) and the Pattern 9 exemption pull opposite
+   ways; the stint explicitly declined to rule and so does this pass.
+5. **`(Rom. IX)`→`(Rom. IV)` @0971A** — ⭐ the interesting one. **CC CORRECTED Migne's citation**
+   (Rom 9:27 is the true locus for *Reliquiae salvae fient*; the plate prints `Rom. iv`). Restoring
+   it is right in principle, but it would push a wrong locus into the scripture index, and a
+   following `Ibid.` may depend on it — a documented false-positive class. It needs a
+   `citation-corrections.json` entry landed WITH the patch, and ⛔ per the standing trap, the column
+   must be written WITHOUT its leading zero or the correction matches nothing **and the index still
+   reports 0 unparsed.**
+
+## ⬜ Residual punctuation, recorded not applied
+The sense-bearing and lemma-internal marks are patched. The prose commas the 0044–0048, 0064–0068
+and 0069–0072 stints listed as "recorded, not argued" are **not** all applied, and stay listed above
+so a later collation does not re-derive them.
+
+## ⬜ Gallica, now five sites
+`f443` · `f449` · `f453` (Band A) · **0932B** `Misericordia`/`Misericordiam`, in col 0932's
+over-inked outer margin · **0981C** `filiis`/`filii Excelsi omnes`, in the band's one clipped column.

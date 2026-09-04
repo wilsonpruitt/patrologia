@@ -27,10 +27,10 @@
    "why": "CC NORMALIZED MIGNE TOWARD THE VULGATE. The plate at 0847A (PDF p. 429, whose printed corners read 847/848 and were checked before the crop) prints `qui in sordibus est, sordescet adhuc` with an E; our TEI reads `sordescat`, which is the CLEMENTINE's form at Apoc 22:11. Verified directly on the leaf, not taken from a report — col 847 is clean and the word is mid-line. ⛔ THIS CLASS IS INVISIBLE TO EVERY CHECK WE RUN: a Vulgate collation cannot see it, because the digitization has already made Migne agree with the Vulgate, and a [var:] here would have been impossible to detect rather than merely wrong. Found by the chunks 0000-0004 stint. ⚑ A SECOND `sordescat` STANDS AT 0869A and is NOT patched — it is a different column in another stint's range and has not been read at the plate. Do not assume it matches; the whole point of this class is that our copy of the text is not the arbiter."
   },
   {
-   "col": "0903C",
+   "col": "0903D",
    "find": "si\n<pb n=\"0903D\"/>\nunius hominis vox est capitis et corporis.",
    "replace": "si\n<pb n=\"0903D\"/>\nunius homini vox est capitis et corporis.",
-   "why": "CC transcription departure from the plate. Plate reads 'homini vox'; our TEI had 'hominis vox'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
+   "why": "CC transcription departure from the plate. Plate reads 'homini vox'; our TEI had 'hominis vox'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it. ⚑ Band corrected at the Band B patch pass: the edit falls in 0903D."
   },
   {
    "col": "0903D",
@@ -259,10 +259,905 @@
    "find": "ententia, sed quae omnia\nconcludit. <hi>In aeternum,</hi> c",
    "replace": "ententia, sed quae omnia\nconcludi. <hi>In aeternum,</hi> c",
    "why": "CC transcription departure from the plate. Plate reads 'concludi'; our TEI had 'concludit'. Not a [sic:] candidate: the defect is the transcriber's, and a marker here would accuse Migne of it."
+  },
+  {
+   "col": "0918D",
+   "find": "o desperandum\n<pb n=\"0918D\"/>\nesset, nisi magna misericordia esset. Magna\nnon potest diffiniri quanta s",
+   "replace": "o desperandum\n<pb n=\"0918D\"/>\nesset, nisi magna misericodia esset. Magna\nnon potest diffiniri quanta s",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `misericodia` — a non-word, dropped `r`."
+  },
+  {
+   "col": "0919A",
+   "find": "Vincas cum judicaris.</hi> \n Deus tantae justitiae\nest, etc., <hi>usque ad</hi>",
+   "replace": "Vincas cum judicaris.</hi> \n Deus t antae justitiae\nest, etc., <hi>usque ad</hi>",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `t antae` — split type, Pattern 10. ⚑ Column corrected at the patch pass: filed as 0919B, the reading stands in 0919A. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0920C",
+   "find": "Achimelech, id est, ad Ecclesiam, quae est regnum\n<p",
+   "replace": "Achimelech, id est, ad Eccesiam, quae est regnum\n<p",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `ad Eccesiam` — a non-word, dropped `l`. ⚑ Column corrected at the patch pass: filed as 0920D, the reading stands in 0920C. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0920D",
+   "find": "at quam loquatur, unde: <hi>In ore\nstultorum est cor eorum.</hi> </p>\n<p> <h",
+   "replace": "at quam loquatur, unde: <hi>In ore\nstulorsorum est cor eorum.</hi> </p>\n<p> <h",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `stulorsorum`, a non-word standing INSIDE an italic scripture lemma (Sir 21:29) — the defect is in quoted scripture."
+  },
+  {
+   "col": "0921D",
+   "find": " sunt,\nconsolatio fidelium. <hi>Ossa eorum qui hominibus placent.</hi> \n<note>(CASS.)</n",
+   "replace": " sunt,\nconsolatio fidelium. <hi>Ossa eorum qni hominibus placent.</hi> \n<note>(CASS.)</n",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `qni` — a turned `u`, a sort SET wrong rather than ink damage, which is why it is his and restorable. ⚑ Column corrected at the patch pass: filed as 0921C, the reading stands in 0921D. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0922A",
+   "find": "/hi> <note>(HIER., AUG.)</note> Florentes interpretantur,\netc., <hi>usque ad</hi> monet ",
+   "replace": "/hi> <note>(HIER., AUG.)</note> Florente interpretantur,\netc., <hi>usque ad</hi> monet ",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `Florente`; the dropped `s` leaves a form that does not construe."
+  },
+  {
+   "col": "0925A",
+   "find": "ra saeculi,\netc., <hi>usque ad: ita viri tristitia nocet cordi.\nFluctuationem.</hi> Et s",
+   "replace": "ra saeculi,\netc., <hi>usque ad: ita viri tristia nocet cordi.\nFluctuationem.</hi> Et s",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `tristia` — a neuter plural against a singular verb."
+  },
+  {
+   "col": "0926A",
+   "find": "ertia est ab\nhomine, quia mala. Has omnes Deo annuntiare debemus.\n<note>(CASS.)</note> <",
+   "replace": "ertia est ab\nhomine, quia mala. Ha omnes Deo annuntiare debemus.\n<note>(CASS.)</note> <",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `Ha` — dropped `s`."
+  },
+  {
+   "col": "0926C",
+   "find": "Verbi dicitur, qua est aeternum et consubstantiale\nPatri, et postea de humanitate, subdi",
+   "replace": "Verbi dicitur, qua est aeternum et consubtantiale\nPatri, et postea de humanitate, subdi",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `consubtantiale` — a non-word, dropped `s`."
+  },
+  {
+   "col": "0927A",
+   "find": "\nqui <hi>liberavit,</hi> id est, liberabit: et <hi>dedit,</hi> id e",
+   "replace": "\nqui <hi>liberavit,</hi> id est, liberavit: et <hi>dedit,</hi> id e",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne repeats the perfect: `qui liberavit, id est, liberavit`. The parallel `dedit, id est, dabit` two words later shows the future is what the construction requires, so the repetition is his compositor's error — exactly what the apparatus exists to show."
+  },
+  {
+   "col": "0927C",
+   "find": "us per eum loquitur, qui ei dictat. <note>(AUG.)</note>",
+   "replace": "us per eum loquitur, qui ei dicta. <note>(AUG.)</note>",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `dicta`, which does not construe."
+  },
+  {
+   "col": "0928B",
+   "find": "uibus delectatur homo; <hi>cauda,</hi> praeterita.</p>\n<p>VER",
+   "replace": "uibus delectatur homo; <hi>canda,</hi> praeterita.</p>\n<p>VER",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets the italic `canda` — a turned `u`."
+  },
+  {
+   "col": "0928C",
+   "find": "Ad nihilum devenient:</hi> \nInclamationes mortis. <hi>Confringet,</hi> ne ad",
+   "replace": "Ad nihilum devenient:</hi> \nIuclamationes mortis. <hi>Confringet,</hi> ne ad",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `Iuclamationes` — a turned `n`."
+  },
+  {
+   "col": "0928D",
+   "find": "/hi> id est, acutam damnationem,\nin extremo ignis vitiorum absorbet eos, id\nest, devorat. <",
+   "replace": "/hi> id est, acutam damnationem,\nin extremo ignia vitiorum absorbet eos, id\nest, devorat. <",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `ignia` — a non-word."
+  },
+  {
+   "col": "0929D",
+   "find": "/hi> Etsi possem\nperdere Judaeos, qui irruerunt in me fortes;\npermitto tamen eos vivere, serva",
+   "replace": "/hi> Etsi possem\nperdere Judaeos, quid irruerunt in me fortes;\npermitto tamen eos vivere, serva",
+   "why": "Corpus Corporum repaired a defect Migne actually printed. Restored so the defect is visible and markable — the [sic:] this unlocks may wrap only type our twin carries. Plate-read by the 0039–0043 stint (PDF 464–470, 200 dpi full page + 400 dpi crops, corners verified). Migne sets `quid`. ⚑ Column corrected at the patch pass: filed as 0930A, the reading stands in 0929D. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0929C",
+   "find": "Ut mactent et manducent. <hi>Quoniam quis audivit?</hi> \n Quasi nullus, ita omn",
+   "replace": "Ut mactent et manducent. <hi>Quoniam qui audivit?</hi> \n Quasi nullus, ita omn",
+   "why": "⭐ CLASS 1 — Corpus Corporum moved Migne ONTO the Clementine, the class no Vulgate collation can ever see, because the divergence is erased before any instrument looks. Migne's lemma reads `Quoniam qui audivit?` against Ps 58:8 `quoniam quis audivit`. The plate carries BOTH readings: his own gloss nine lines below quotes the verse back as `Quis audivit?` twice, so the lemma's `qui` is a real divergence, not a misreading. Restoring it makes a [var:] available that was unfireable while our twin agreed with the Vulgate. Plate-read by the 0039–0043 stint."
+  },
+  {
+   "col": "0918C",
+   "find": ".</p>\n</div1>\n\n<div1>\n        <head>PSALMUS L</head>\n<p>VERS. 1.-- <hi>In finem ps",
+   "replace": ".</p>\n</div1>\n\n<div1>\n        <head>PSALMUS L.</head>\n<p>VERS. 1.-- <hi>In finem ps",
+   "why": "Migne's own head, silently normalized by Corpus Corporum. Plate-read by the 0039–0043 stint, which found CC had the terminal period BACKWARDS on three of the four heads in its range while PSALMUS LII., LIII., LV., LVI., LVII. and LVIII. all agree. ⚑ Per §A3 the English head follows the Latin twin, so the English head moves with this patch. Migne's inconsistency is followed, never regularised. The plate prints `PSALMUS L.`; CC drops the point."
+  },
+  {
+   "col": "0920C",
+   "find": "em.</p>\n</div1>\n\n<div1>\n        <head>PSALMUS LI.</head>\n<p> <hi>In finem pro,</hi> etc.",
+   "replace": "em.</p>\n</div1>\n\n<div1>\n        <head>PSALMUS LI</head>\n<p> <hi>In finem pro,</hi> etc.",
+   "why": "Migne's own head, silently normalized by Corpus Corporum. Plate-read by the 0039–0043 stint, which found CC had the terminal period BACKWARDS on three of the four heads in its range while PSALMUS LII., LIII., LV., LVI., LVII. and LVIII. all agree. ⚑ Per §A3 the English head follows the Latin twin, so the English head moves with this patch. Migne's inconsistency is followed, never regularised. The plate prints `PSALMUS LI` with NO point; CC supplies one."
+  },
+  {
+   "col": "0922C",
+   "find": ">\n      </div1>\n\n<div1>\n        <head>PSALMUS LIV</head>\n<p>VERS. 1.-- <hi>In finem in c",
+   "replace": ">\n      </div1>\n\n<div1>\n        <head>PSALMUS LIV.</head>\n<p>VERS. 1.-- <hi>In finem in c",
+   "why": "Migne's own head, silently normalized by Corpus Corporum. Plate-read by the 0039–0043 stint, which found CC had the terminal period BACKWARDS on three of the four heads in its range while PSALMUS LII., LIII., LV., LVI., LVII. and LVIII. all agree. ⚑ Per §A3 the English head follows the Latin twin, so the English head moves with this patch. Migne's inconsistency is followed, never regularised. The plate prints `PSALMUS LIV.`; CC drops the point."
+  },
+  {
+   "col": "0922D",
+   "find": ", animus turbatur in me, non exit a me</p>\n<p>VERS. 6.-- <hi>Timor ",
+   "replace": ", animus turbatur in me, non exit a me.</p>\n<p>VERS. 6.-- <hi>Timor ",
+   "why": "A terminal stop the plate prints and Corpus Corporum drops. Left unpatched it ends an English sentence without a full stop, which reads to a reader as OUR defect rather than as anything on the page. Plate-read by the 0039–0043 stint. ⚑ Column corrected at the patch pass: filed as 0922C, the reading stands in 0922D. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0926D",
+   "find": "ad</hi> \n ubi latuit Christus incognitus Judaeis</p>\n<p>VERS. 2.-- <hi>Miserere me",
+   "replace": "ad</hi> \n ubi latuit Christus incognitus Judaeis.</p>\n<p>VERS. 2.-- <hi>Miserere me",
+   "why": "A terminal stop the plate prints and Corpus Corporum drops. Left unpatched it ends an English sentence without a full stop, which reads to a reader as OUR defect rather than as anything on the page. Plate-read by the 0039–0043 stint."
+  },
+  {
+   "col": "0918D",
+   "find": "um se rogatur\nDeus ignoscere? <hi>Miserationum,</hi> etc. <note>(CASS.)</note> Per",
+   "replace": "um se rogatur\nDeus ignoscere? <hi>Miserationum</hi> etc. <note>(CASS.)</note> Per",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. ⚑ This one is NOT cosmetic: the mark stands INSIDE an italic scripture lemma, so it changes what the edition shows as quoted. The plate sets no comma inside the italic."
+  },
+  {
+   "col": "0925A",
+   "find": " infirmos.</p>\n<p>VERS. 23.-- <hi>Curam tuam. <note>(Ibid.)</note>\n          </hi>",
+   "replace": " infirmos.</p>\n<p>VERS. 23.-- <hi>Curam tuam <note>(Ibid.)</note>\n          </hi>",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. ⚑ This one is NOT cosmetic: the mark stands INSIDE an italic scripture lemma, so it changes what the edition shows as quoted. The plate prints `Curam tuam (Ibid.)` with no period inside the italic."
+  },
+  {
+   "col": "0922B",
+   "find": "etit ne tardet auxilium. <hi>Percipe,</hi> \n<note>(AUG.)</note> Zip",
+   "replace": "etit ne tardet auxilium. <hi>Percipe.</hi> \n<note>(AUG.)</note> Zip",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. ⚑ This one is NOT cosmetic: the mark stands INSIDE an italic scripture lemma, so it changes what the edition shows as quoted. The plate prints a period, CC a comma."
+  },
+  {
+   "col": "0925C",
+   "find": "ine.</hi> <note>(CASS.)</note> <hi>Altitudo diei,</hi> \nmundus, ubi superbiae tumor: ",
+   "replace": "ine.</hi> <note>(CASS.)</note> <hi>Altitudo diei</hi> \nmundus, ubi superbiae tumor: ",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. ⚑ This one is NOT cosmetic: the mark stands INSIDE an italic scripture lemma, so it changes what the edition shows as quoted. The plate sets no comma; CC supplies one before `mundus`."
+  },
+  {
+   "col": "0928B",
+   "find": "<hi>Venefici incantantis. <note>(Ibid.)</note>\n          </hi>",
+   "replace": "<hi>Venefici incantantis, <note>(Ibid.)</note>\n          </hi>",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. ⚑ This one is NOT cosmetic: the mark stands INSIDE an italic scripture lemma, so it changes what the edition shows as quoted. The plate prints a comma, CC a period."
+  },
+  {
+   "col": "0927C",
+   "find": "mo in cruce: <hi>Exaltare,\nDeus super, coelos,</hi> ut judicet in terra J",
+   "replace": "mo in cruce: <hi>Exaltare,\nDeus super coelos,</hi> ut judicet in terra J",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. ⚑ This one is NOT cosmetic: the mark stands INSIDE an italic scripture lemma, so it changes what the edition shows as quoted. The comma after `super` is not on the leaf, and it sits inside the italic lemma `Exaltare, Deus super coelos`."
+  },
+  {
+   "col": "0920B",
+   "find": "acrificium\njustitiae. <hi>Muri.</hi> <note>(Aug.)</note> Munimenta immortalitatis\nnostrae construantur ",
+   "replace": "acrificium\njustitiae. <hi>Muri.</hi> <note>(Au.)</note> Munimenta immortalitatis\nnostrae construantur ",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. The plate sets the siglum `(Au.)`; CC normalizes it to `(Aug.)`, inventing a precision Migne did not print. ⛔ PER-SITE ONLY, exactly as Band A ruled for `(CAS.)` at 0863A/0863C — a global sweep of `(Au.)`→`(Aug.)` or back would manufacture readings he never set. This site alone was read at the leaf."
+  },
+  {
+   "col": "0920D",
+   "find": "hi> <note>(HIER.)</note> Dicit, in Hebraeo Achimelech,\netc., <hi>us",
+   "replace": "hi> <note>(HIER.)</note> Dicit; in Hebraeo Achimelech,\netc., <hi>us",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. The plate sets a semicolon."
+  },
+  {
+   "col": "0923B",
+   "find": "solitudine,</hi> \ngentium; unde: <hi>Laetetur disertum, et floreat\ntanquam lilium.</hi> Et alibi: <hi>L",
+   "replace": "solitudine,</hi> \ngentium; unde: <hi>Laetetur disertum et floreat\ntanquam lilium.</hi> Et alibi: <hi>L",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. CC supplies the comma. ⛔ NOTE what is deliberately NOT changed here: on the plate the word images as `Laetctur`, but that is a broken sort in THIS copy's inking — the `possit`→`rossit` class Band A refused — so our `Laetetur` is right and stays. Only the comma is CC's."
+  },
+  {
+   "col": "0928D",
+   "find": "hi>Rhamnum.</hi> Genus herbae prius mollis,\nsed quae post in spinas vertitur: sic ",
+   "replace": "hi>Rhamnum.</hi> Genus herbae prius mollis\nsed quae post in spinas vertitur: sic ",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. CC supplies the comma."
+  },
+  {
+   "col": "0925C",
+   "find": "actus est. Geth,</hi> \n id est,\nin torculari. Legitur David, etc., <hi>usque ad</hi> sed, cum\npremitur, sterilis non est.</p>\n<p>V",
+   "replace": "actus est. Geth,</hi> \n id est,\nin torculari. Legitur David, etc; <hi>usque ad</hi> sed, cum\npremitur, sterilis non est.</p>\n<p>V",
+   "why": "Punctuation departure from Migne's plate, read by the 0039–0043 stint. Low value individually; recorded and applied because on a collated work the plate is the text and our TEI is a witness to it, and a mark CC supplies is our edition saying something Migne did not print. The plate sets `etc;`; CC gives `etc.,`."
+  },
+  {
+   "col": "0932A",
+   "find": "ae usque\nad finem mundi accolit in terra, et nunquam eradicatur\n",
+   "replace": "ae usque\nad finem mundi accolit terra, et nunquam eradicatur\n",
+   "why": "⚠ CLASS 1 — CC has words the plate lacks, or lacks words the plate has. Plate-read by the 0044–0048 stint (PDF 470–475, 200 dpi full width + 500 dpi crops, corners verified). CC inserts `in`; Migne's bare ablative is the harder reading."
+  },
+  {
+   "col": "0933A",
+   "find": " addit <hi>impulsae,</hi> vel, non est vobis irruendum,\nquia vos ipsos interficitis u",
+   "replace": " addit <hi>impulsae,</hi> vel, non vobis irruendum,\nquia vos ipsos interficitis u",
+   "why": "⚠ CLASS 1 — CC has words the plate lacks, or lacks words the plate has. Plate-read by the 0044–0048 stint (PDF 470–475, 200 dpi full width + 500 dpi crops, corners verified). CC supplies the copula Migne ellipsed."
+  },
+  {
+   "col": "0934C",
+   "find": ", tensis manibus in figura crucis,\nDeum adorat; unde Apostolus: Levantes puras\nmanus in oratione,",
+   "replace": ", tensis manibus in figura crucis,\nDeum unde adorat; unde Apostolus: Levantes puras\nmanus in oratione,",
+   "why": "⚠ CLASS 1 — CC has words the plate lacks, or lacks words the plate has. Plate-read by the 0044–0048 stint (PDF 470–475, 200 dpi full width + 500 dpi crops, corners verified). ⭐ CC HAS ERASED A DITTOGRAPHY OF MIGNE'S — the compositor's eye ran ahead to the following `unde`. Per Pattern 11a the intrusive copy is the FIRST (it has no grammatical slot), so this patch unlocks `[d: unde]` in 0045.md at `He lifts up his hands who … adores God`. An erased dittography is invisible to every check we have: the source reads perfectly."
+  },
+  {
+   "col": "0939A",
+   "find": "merat\nhic quibus causis debeat praedicari.</p>\n<p>VERS. 10.-- <hi>Quoniam probasti nos.</hi> <note>(AUG.)</note> Non\ndedisti in commotionem. Q",
+   "replace": "merat\nhic quibus causis debeat praedicari.</p>\n<p>VERS. -- <hi>Quoniam probasti nos.</hi> <note>(AUG.)</note> Non\ndedisti in commotionem. Q",
+   "why": "⚠ CLASS 1 — CC has words the plate lacks, or lacks words the plate has. Plate-read by the 0044–0048 stint (PDF 470–475, 200 dpi full width + 500 dpi crops, corners verified). ⭐ MIGNE PRINTS NO VERSE NUMBER HERE; CC supplied `10`. The number happens to be RIGHT against Clem Ps 65:10, which is exactly why it reads as innocent — a supplied fact that checks out is the hardest kind to see."
+  },
+  {
+   "col": "0931A",
+   "find": "urgatur patiens, ut vulnus vino: <hi>Vino,</hi> spirituali,\nunde non vitia, sed compunctio.",
+   "replace": "urgatur patiens, ut vulnus vino: <hi>Viuo</hi>, spirituali,\nunde non vitia, sed compunctio.",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. A turned `n`. Unlocks `[sic: *Viuo*]`; the sense (`Vino`) is already in the English."
+  },
+  {
+   "col": "0932D",
+   "find": "mnes</hi> unum, sed Ecclesiam; sed quia Deus\nsusceptor non movebor. <note>(AUG.)</not",
+   "replace": "mnes</hi> unum, sed Ecclesiam; sed quis Deus\nsusceptor non movebor. <note>(AUG.)</not",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. `quis` does not construe and `quia` does, which is why CC repaired it. Unlocks `[cj: *quis*; read *quia*]`."
+  },
+  {
+   "col": "0934D",
+   "find": ".)</note> In periculis Idumaeae,\netc., <hi>usque ad</hi> quia",
+   "replace": ".)</note> In periculis Idumaeae,\natc., <hi>usque ad</hi> quia",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. Wrong sort, `a` for `e`."
+  },
+  {
+   "col": "0935A",
+   "find": "p>\n          <note>(CASS.)</note> Psalmus iste breviter agit, etc., <hi>usque ad</hi> \nut in p",
+   "replace": "p>\n          <note>(CASS.)</note> Psalmus isto breviter agit, etc., <hi>usque ad</hi> \nut in p",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. A normalization: Migne's ablative has no slot."
+  },
+  {
+   "col": "0936D",
+   "find": "ote> Propitiatio fit\nper sacrificium, quod sacerdos Christus obtulit.\nIdem est ergo sacerdos et hostia.</p",
+   "replace": "ote> Propitiatio fit\nper sacrificium, quod sacerdos Christum obtulit.\nIdem est ergo sacerdos et hostia.</p",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. ⭐ THE ONE ON THIS LEAF THAT TOUCHES SENSE. With Migne's `Christum` the victim is Christ and the priest is unnamed; with CC's `Christus` the priest is Christ. The next sentence (`Idem est ergo sacerdos et hostia`) reads either way, which is exactly why nothing flags it. ⚑ English edit owed with this patch — the twin renders CC's nominative. ⚑ Column corrected at the patch pass: filed as 0936C, the reading stands in 0936D. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0937D",
+   "find": "ebuntur.</hi> <note>(CAS., AUG.)</note> Homines, pro",
+   "replace": "ebuntur.</hi> <note>(CASS., AUG.)</note> Homines, pro",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. ⛔ PER-SITE ONLY: Migne's own `(CAS.)` stands three times on the SAME page (0937A, 0937C, 0938B) and each was checked at the leaf. Do not sweep."
+  },
+  {
+   "col": "0937D",
+   "find": "t speciosa deserti.</hi> Quando\nApostoli ad eas venerunt, per quos decorae factae\nsunt.<",
+   "replace": "t speciosa deserti.</hi> Quando\nApostoli ad eos venerunt, per quos decorae factae\nsunt.<",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. The plate's masculine agrees with the following `per quos`; CC's feminine does not."
+  },
+  {
+   "col": "0938C",
+   "find": "at: ubi exponens\nilla opera, aperte dicit resurrectionem pertinere ad\ngentes, repressis Judaeis.</p>\n<p>VERS. 6.-- <hi",
+   "replace": "at: ubi exponens\nilla opera, aperte dicit ressurrectionem pertinere ad\ngentes, repressis Judaeis.</p>\n<p>VERS. 6.-- <hi",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. A real non-word. Unlocks `[sic: *ressurrectionem*]`."
+  },
+  {
+   "col": "0938C",
+   "find": "decursu mortalitatis adhuc sunt, non\nenim mox immortalitas.</p>\n<p>\n          <pb n=\"0938D\"",
+   "replace": "decursu mortalitatis adhuc sunt, non\nenim mox immortalitai.</p>\n<p>\n          <pb n=\"0938D\"",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed. Plate-read by the 0044–0048 stint. A real non-word. Unlocks `[sic: *immortalitai*]`."
+  },
+  {
+   "col": "0934D",
+   "find": " <hi>dextera tua,</hi> \n id est propitatio.</p>\n<p>VERS. 10.-- <hi>",
+   "replace": " <hi>dextera tua,</hi> \n id est propitiatio.</p>\n<p>VERS. 10.-- <hi>",
+   "why": "🟡 THE MIRROR CASE, and the reason to read the leaf before firing: OUR TEI carries the non-word and Migne does not. `propitatio` is CC's corruption of Migne's `propitiatio`. NO [sic:] is owed in either state, and the English already renders `propitiation`. Plate-read by the 0044–0048 stint."
+  },
+  {
+   "col": "0938A",
+   "find": "uli multum\nfructum afferent. <hi>Clamabunt. <note>(Ibid.)</note>\n          </hi",
+   "replace": "uli multum\nfructum afferent. <hi>Clamabuut. <note>(Ibid.)</note>\n          </hi",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed. A turned `n`: Migne sets `Clamabuut`. Unlocks `[sic: *Clamabuut*]`. ⚑ Deliberately NOT in the italic-e-images-as-c class this stint declined three times — an `n` cannot become a clean bottom-arched `u` by failing to ink, so this is a sort set wrong, not this copy's ink. Plate-read by the 0044–0048 stint."
+  },
+  {
+   "col": "0933C",
+   "find": "i> In libra justitiae, quo\nfacilius decipiunt. <hi>In idipsum,</hi> quo c",
+   "replace": "i> In libra justitiae, quo\nfacilius decipiunt, <hi>In idipsum,</hi> quo c",
+   "why": "Punctuation departure from the plate, read by the 0044–0048 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. The plate sets a comma before the lemma `In idipsum`; CC a full stop."
+  },
+  {
+   "col": "0934A",
+   "find": " luce.</hi> <note>(AUG.)</note> Non enim vigilares;\nnisi lux oriretur, quae te excitaret",
+   "replace": " luce.</hi> <note>(AUG.)</note> Non enim vigilares,\nnisi lux oriretur, quae te excitaret",
+   "why": "Punctuation departure from the plate, read by the 0044–0048 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. The plate sets a comma; CC a semicolon."
+  },
+  {
+   "col": "0936C",
+   "find": " Patria coelestis est Sion,\neadem est Jerusalem.</p>\n<p>VERS. 3.-- <hi>Exaud",
+   "replace": " Patria coelestis est Sion,\neadem est Jerusalem</p>\n<p>VERS. 3.-- <hi>Exaud",
+   "why": "Punctuation departure from the plate, read by the 0044–0048 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. The plate carries NO terminal stop; CC supplies one."
+  },
+  {
+   "col": "0939A",
+   "find": "ui probat. <hi>Transivimus.</hi> <note>(CAS., AUG.)</note> Tu haec\nomnia, et nos, etc., <hi",
+   "replace": "ui probat. <hi>Transivimus.</hi> <note>(CAS.; AUG.)</note> Tu haec\nomnia, et nos, etc., <hi",
+   "why": "Punctuation departure from the plate, read by the 0044–0048 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. The plate sets the siglum with a SEMICOLON."
+  },
+  {
+   "col": "0948B",
+   "find": "s tuum; sed\nconfitere et dic: <hi>De profundis clamavi ad te, Domine,</hi> \net evades. Claudit",
+   "replace": "s tuum; sed\nconfitere et dic: <hi>De profundis clamavit ad te, Domine,</hi> \net evades. Claudit",
+   "why": "⚠ CLASS 1 — CC conformed Migne to the Vulgate; invisible to any collation by construction. Plate-read by the 0049–0053 stint (PDF 475–482, corners verified). Ps 129:1, and CC's form IS the Clementine's. Migne's 3sg is what the gloss runs on: `Claudit super illum, qui in profundo contemnit`. ⚑ English edit owed with this patch — 0051.md may need `he hath cried`."
+  },
+  {
+   "col": "0940C",
+   "find": "note>(CAS.)</note> Psalmus David prophetae\nde exsultatione Christi et Ecclesiae hic et in\nf",
+   "replace": "note>(CAS.)</note> Psalmus David prophetae\nne exsultatione Christi et Ecclesiae hic et in\nf",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. `ne` is a wrong sort for `de`. Unlocks a [sic:]. ⚑ Column corrected at the patch pass: filed as 0940D, the reading stands in 0940C. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0941A",
+   "find": " delectentur,</hi> hoc potest\neos delectare, quod laeti sunt quia non est finienda\neorum laetitia.</p>\n<p>VERS. 5.-- <hi>Cantat",
+   "replace": " delectentur,</hi> hoc potest\neos delectare, qui laeti sunt quia non est finienda\neorum laetitia.</p>\n<p>VERS. 5.-- <hi>Cantat",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Unlocks `[sic: *qui*]`."
+  },
+  {
+   "col": "0941C",
+   "find": "endorem acceperat,\nterram quidem concussisti ac commovisti,\ncoelitus vero gratiae tuae gutt",
+   "replace": "endorem acceperat,\nterram quidem concussisti ac commovistis,\ncoelitus vero gratiae tuae gutt",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. 2pl for 2sg in an address to God."
+  },
+  {
+   "col": "0943D",
+   "find": "ipiunt, aliis praedicant, qui manibus honorum\noperum exsequuntur, quod ore praedic",
+   "replace": "ipiunt, aliis praedicant, qui manibus bonorum\noperum exsequuntur, quod ore praedic",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. ⚑ THE REVERSE DIRECTION — here CC is wrong and Migne is right. Checked against the `b` of `manibus` on the SAME LINE, so this is not the h→b imaging trap the band has been fighting. ⚑ English edit owed: 0049.md, `the hands of honourable works` → `the hands of good works`."
+  },
+  {
+   "col": "0944A",
+   "find": "eipsis.</p>\n<p>VERS. 25.-- <hi>Viderunt ingressus tuos, Deus. <note>(Ibid.)</note>\n  ",
+   "replace": "eipsis.</p>\n<p>VERS. 25.-- <hi>Viderunt in gressus tuos, Deus. <note>(Ibid.)</note>\n  ",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Word division, the Pattern-10 shape."
+  },
+  {
+   "col": "0944C",
+   "find": "ina tribuum, Christum et Aposto os\nindicat. <hi>Ibi,</hi> scilicet ",
+   "replace": "ina tribuum, Christum et Apostolos indicat. <hi>Ibi,</hi> scilicet ",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. ⚑ THE REVERSE DIRECTION — the break is CC's and the plate is clean. ⚑ The English twin 0050.md ALREADY reads `the Apostles` on the plate's authority (§A6), so the Latin is what needs fixing and no English edit is owed."
+  },
+  {
+   "col": "0944C",
+   "find": " Forsan ex his tribubus fuerunt Apostoli,\netc., <hi>usque ad: co",
+   "replace": " Forsan ex his tribubus fuerunt Apo-toli,\netc., <hi>usque ad: co",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. The `s` is simply absent at the line break: compositor, not ink."
+  },
+  {
+   "col": "0945A",
+   "find": "orem.</p>\n<p>VERS. 32.-- <hi>Ex Aegypto, Aethiopia.</hi> <note>(AUG.)</note> Ae",
+   "replace": "orem.</p>\n<p>VERS. 32.-- <hi>Ex Aegppto, Aethiopia.</hi> <note>(AUG.)</note> Ae",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Double `p` for `y`. Unlocks a [sic:]."
+  },
+  {
+   "col": "0945A",
+   "find": "note>(AUG.)</note> Aegypti\nvel Aethiopiae nomine fidem omnium gentium signat,\na parte totum. Non ergo ex solis Judaeis",
+   "replace": "note>(AUG.)</note> Aegypti\nvel Aethiopiae nomine fide omnium gentium signat,\na parte totum. Non ergo ex solis Judaeis",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Migne sets `fide`."
+  },
+  {
+   "col": "0945D",
+   "find": ">(EUTHYM.)</note> Per <hi>nubes.</hi> Hic ipsos Apostolos intelligit,\nveluti supra exsistentes, atque emin",
+   "replace": ">(EUTHYM.)</note> Per <hi>nubes.</hi> Hic ipsos Aposlos intelligit,\nveluti supra exsistentes, atque emin",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. `to` dropped; compositor."
+  },
+  {
+   "col": "0946A",
+   "find": "G.)</note> Id est,\nturbae, etc., <hi>usque ad</hi> ultra quam non habent mali\nquid eis faciant.</p>\n<p>\n          <pb n=\"0946B\"/>VERS. 3.-- <hi>I",
+   "replace": "G.)</note> Id est,\nturbae, etc., <hi>usque ad</hi> ultra quam non habent qui\nquid eis faciant.</p>\n<p>\n          <pb n=\"0946B\"/>VERS. 3.-- <hi>I",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Migne sets `qui`."
+  },
+  {
+   "col": "0946B",
+   "find": " etc., <hi>usque ad</hi> \n id est, non inveni in eis quod feci. <hi>Veni.</hi> \nQuia sponte. <hi>",
+   "replace": " etc., <hi>usque ad</hi> \n id est, non inveni in eis quod fecit. <hi>Veni.</hi> \nQuia sponte. <hi>",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. ⚑ Which reading is right is OPEN; the plate says `fecit` and the plate is what we print."
+  },
+  {
+   "col": "0948B",
+   "find": "</note> Mente, supra\ndixit infixum corpore; dicitur hoc ex infirmitate\nmembrorum. <hi>De luto,</hi> id est, lutosis desideri",
+   "replace": "</note> Mente, supra\ndixit infixum corpore; dicitur hoc et infirmitate\nmembrorum. <hi>De luto,</hi> id est, lutosis desideri",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Migne sets `et`."
+  },
+  {
+   "col": "0953A",
+   "find": "bus aliis, nondum\nin eo quod suscitavit carnem nostram in vitam\naeternam, quae est laus adjecta pro resurrection",
+   "replace": "bus aliis, nondum\nin eo quod suscitavit carnem nostram in viam\naeternam, quae est laus adjecta pro resurrection",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Verified at 500 dpi: `viam` for `vitam`, compositor."
+  },
+  {
+   "col": "0942A",
+   "find": " sunt. <note>(AUG.)</note>\nVel, <hi>mons Sina a facie Dei Israel,</hi> subaudi distillavit,\netc., <h",
+   "replace": " sunt. <note>(AUG.)</note>\nVel, <hi>mons a facie Dei Israel,</hi> subaudi distillavit,\netc., <h",
+   "why": "🟡 CLASS 3 — our Latin carries words the plate LACKS. Plate-read by the 0049–0053 stint. ⛔ THE WORST SITE IN THIS RANGE. CC inserts `Sina` into a lemma whose whole point is that it is ABSENT — Migne's own next gloss reads `Quidam libri non habent *mons,* sed *a facie Dei Sina Israel*`. The insertion makes Migne argue against a text he did not print. This is the manufactured-divergence class in a new shape: the digitization created the very reading the gloss is disputing."
+  },
+  {
+   "col": "0947C",
+   "find": "rrisoriam, ut cuilibet\nmaledicendo, dicerent: Sic tibi contingat ut crucifixo.\nVel, quia parabolas e",
+   "replace": "rrisoriam, ut cuilibet\nmaledicendo, dicerent: Sic contingat ut crucifixo.\nVel, quia parabolas e",
+   "why": "🟡 CLASS 3 — our Latin carries words the plate LACKS. Plate-read by the 0049–0053 stint. ⚑ English edit owed: 0051.md renders `So may it befall thee`; drop `thee` with the patch."
+  },
+  {
+   "col": "0941A",
+   "find": "/>VERS. 4.-- <hi>Epulentur.</hi> <note>(CAS., AUG.)</note> In deliciis,\nquae sunt in conspe",
+   "replace": "/>VERS. 4.-- <hi>Epulentur.</hi> <note>(CASS., AUG.)</note> In deliciis,\nquae sunt in conspe",
+   "why": "CLASS 4 — sigla and markup CC normalized or mangled. Plate-read by the 0049–0053 stint. The plate sets `(CASS., AUG.)`. ⛔ Per-site only — Migne prints both forms in this work."
+  },
+  {
+   "col": "0951A",
+   "find": "s.</hi> <note>(CAS.)</note> Omnes modi\nmonstrosi, in peccatis haerentes terr",
+   "replace": "s.</hi> <note>(CAS.)</note> Omnes modi\nmonstruosi, in peccatis haerentes terr",
+   "why": "CLASS 4 — sigla and markup CC normalized or mangled. Plate-read by the 0049–0053 stint. Migne sets `monstruosi`."
+  },
+  {
+   "col": "0949D",
+   "find": "inantur sequentes;\nvel, <hi>dorsum,</hi> mens eorumdem Semper\nhoc de illis qui non poenitent.</p>\n<p>VERS. 25.-- <h",
+   "replace": "inantur sequentes;\nvel, <hi>dorsum,</hi> mens eorumdem. Semper\nhoc de illis qui non poenitent.</p>\n<p>VERS. 25.-- <h",
+   "why": "CLASS 4 — sigla and markup CC normalized or mangled. Plate-read by the 0049–0053 stint. CC lost Migne's full stop, leaving a capitalised `Semper` mid-sentence."
+  },
+  {
+   "col": "0944A",
+   "find": "unde tantum\nbonum,\nut <hi>canes</hi> ejus sint cujus erant inimici? ait: <hi>Ab ipso,</hi> \n id est, ej",
+   "replace": "unde tantum\nbonum,\nut <hi>canes</hi> ejus sint erant inimici? ait: <hi>Ab ipso,</hi> \n id est, ej",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Migne's clause does not construe — `ut canes ejus sint erant inimici` — and CC supplied the relative `cujus` to make it run. Unlocks a [cj:]/[sic:]. A repair hidden in the source is exactly the class the edition exists to expose."
+  },
+  {
+   "col": "0946A",
+   "find": "s de\npassione, et resurrectione. Agitur de causa <hi>commutationis,</hi> \nid est, passione Christi. Hic loquitur",
+   "replace": "s de\npassione, et resurrectione. Agitur de causa <hi>commutationibus,</hi> \nid est, passione Christi. Hic loquitur",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed, destroying a marker we are owed; the [sic:] becomes available only after this patch. Plate-read by the 0049–0053 stint. Migne sets `commutationibus`."
+  },
+  {
+   "col": "0955C",
+   "find": "ro magno habetur in seculo.</p>\n<p>VERS. 17",
+   "replace": "ro magno habetur in saeculo.</p>\n<p>VERS. 17",
+   "why": "⚠ CLASS 1 — Corpus Corporum conformed Migne to a smoother or received reading. Invisible to any Vulgate collation by construction: the divergence is erased before an instrument looks. Plate-read by the 0054–0058 stint (PDF 482–489, 150 dpi full page + 600–1200 dpi crops, corners verified). Our TEI de-diphthongs what the plate sets."
+  },
+  {
+   "col": "0957C",
+   "find": "sposui, et concinui, subaudis,\noccurrit et obviat mihi, id est, occurrit mihi\nprior p",
+   "replace": "sposui, et concinui, subaudis,\noccurrit et obvia mihi, id est, occurrit mihi\nprior p",
+   "why": "⚠ CLASS 1 — Corpus Corporum conformed Migne to a smoother or received reading. Invisible to any Vulgate collation by construction: the divergence is erased before an instrument looks. Plate-read by the 0054–0058 stint (PDF 482–489, 150 dpi full page + 600–1200 dpi crops, corners verified). CC supplies the verb ending. `obvia` does not construe with the singular `occurrit`, which is precisely why it got `fixed`."
+  },
+  {
+   "col": "0959C",
+   "find": "te>(AUG.)</note> Ipsa congregatio, virga haereditatis dicitur:\nquam volens possidere virgam Moysi",
+   "replace": "te>(AUG.)</note> Ipsa congregatio, virga haereditatis dicit:\nquam volens possidere virgam Moysi",
+   "why": "⚠ CLASS 1 — Corpus Corporum conformed Migne to a smoother or received reading. Invisible to any Vulgate collation by construction: the divergence is erased before an instrument looks. Plate-read by the 0054–0058 stint (PDF 482–489, 150 dpi full page + 600–1200 dpi crops, corners verified). Migne prints `Ipsa congregatio, virga haereditatis dicit:`."
+  },
+  {
+   "col": "0958C",
+   "find": "d ea quae nihil sunt descendi:\nquia nescivi nihil esse, et post ut jumentum mansuetus",
+   "replace": "d ea quae nihil sunt descendi:\nqui nescivi nihil esse, et post ut jumentum mansuetus",
+   "why": "⚠ CLASS 1 — Corpus Corporum conformed Migne to a smoother or received reading. Invisible to any Vulgate collation by construction: the divergence is erased before an instrument looks. Plate-read by the 0054–0058 stint (PDF 482–489, 150 dpi full page + 600–1200 dpi crops, corners verified). Migne prints `qui`."
+  },
+  {
+   "col": "0960A",
+   "find": "ui nullatenus sunt\ntolerandi. <hi>In medio solennitatis tuae.</hi> Non in extremo\nloco, sed in",
+   "replace": "ui nullatenus sunt\ntolerandi. <hi>In medio solemnitatis tuae.</hi> Non in extremo\nloco, sed in",
+   "why": "⚠ CLASS 1 — Corpus Corporum conformed Migne to a smoother or received reading. Invisible to any Vulgate collation by construction: the divergence is erased before an instrument looks. Plate-read by the 0054–0058 stint (PDF 482–489, 150 dpi full page + 600–1200 dpi crops, corners verified). ⚑ THE INSTRUCTIVE ONE: the Clementine also reads *solemnitatis*, so with our TEI in hand this looked like a Migne divergence and a [var:] was nearly fired against him. It is not a divergence at all — CC had de-diphthonged him away from the received text and manufactured the appearance of one. Only the leaf reaches this."
+  },
+  {
+   "col": "0965D",
+   "find": "/hi> In ipsa meditatione: <hi>Scopebam spiritum meum;</hi> \n purgabam mentem. Alii",
+   "replace": "/hi> In ipsa meditatione: <hi>Scopebam spiritus meum;</hi> \n purgabam mentem. Alii",
+   "why": "⚠ CLASS 1 — Corpus Corporum conformed Migne to a smoother or received reading. Invisible to any Vulgate collation by construction: the divergence is erased before an instrument looks. Plate-read by the 0054–0058 stint (PDF 482–489, 150 dpi full page + 600–1200 dpi crops, corners verified). A real word in the wrong case, which CC repaired."
+  },
+  {
+   "col": "0955B",
+   "find": "ur,\netc., <hi>usque ad</hi> et comparabitur feno terrae quidquid\n<pb n=\"0955",
+   "replace": "ur,\netc., <hi>usque ad</hi> et corparabitur feno terrae quidquid\n<pb n=\"0955",
+   "why": "🔴 CLASS 2 — Corpus Corporum REPAIRED a defect Migne printed, destroying a marker we are entitled to fire. A [sic:] may wrap only type our twin carries, so the marker becomes available only AFTER this patch — the precondition ordering Band A established at `Seb isti` @0876B. Plate-read by the 0054–0058 stint. Migne sets `corparabitur` — an `r` sort for `m`. The same-line control is `comparatur`, printed with a clean `m` eight lines above in the same paragraph. Unlocks `[sic: *corparabitur*]`. ⚑ Column corrected at the patch pass: filed as 0955C, the reading stands in 0955B. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0958A",
+   "find": "is oculis, videmus bona quae mox apertis\nnon invenimus; in vita ",
+   "replace": "is oculis, videmus bona quae mo apertis\nnon invenimus; in vita ",
+   "why": "🔴 CLASS 2 — Corpus Corporum REPAIRED a defect Migne printed, destroying a marker we are entitled to fire. A [sic:] may wrap only type our twin carries, so the marker becomes available only AFTER this patch — the precondition ordering Band A established at `Seb isti` @0876B. Plate-read by the 0054–0058 stint. Migne sets `mo` — the `x` is simply absent, with normal spacing either side. Unlocks `[sic: *mo*]`."
+  },
+  {
+   "col": "0960C",
+   "find": "nt,\nQuia non vidimus signa; quasi dicat: Vidimus, sed\nnon intelleximus: et v",
+   "replace": "nt,\nQuia non vidimus signa; quasi dica : Vidimus, sed\nnon intelleximus: et v",
+   "why": "🔴 CLASS 2 — Corpus Corporum REPAIRED a defect Migne printed, destroying a marker we are entitled to fire. A [sic:] may wrap only type our twin carries, so the marker becomes available only AFTER this patch — the precondition ordering Band A established at `Seb isti` @0876B. Plate-read by the 0054–0058 stint. Migne sets `quasi dica :`. Unlocks `[sic: *dica*]`."
+  },
+  {
+   "col": "0960D",
+   "find": "</note> <hi>Deus\nautem.</hi> Dicit Asaph intelligens, etc., <hi>usque ad</hi> si ergo\nnon praecessit, saltem sequatur.</p>\n<p> <hi>In medio terrae.</hi> <",
+   "replace": "</note> <hi>Deus\nautem.</hi> Dicit Asaph intelligens, etc., <hi>uque ad</hi> si ergo\nnon praecessit, saltem sequatur.</p>\n<p> <hi>In medio terrae.</hi> <",
+   "why": "🔴 CLASS 2 — Corpus Corporum REPAIRED a defect Migne printed, destroying a marker we are entitled to fire. A [sic:] may wrap only type our twin carries, so the marker becomes available only AFTER this patch — the precondition ordering Band A established at `Seb isti` @0876B. Plate-read by the 0054–0058 stint. Migne sets `uque ad` in the VERS. 12 (AUG.) abridgment splice. Unlocks `[sic: *uque ad*]`."
+  },
+  {
+   "col": "0965C",
+   "find": "i>Non sum locutus.</hi> \nNon murmuravi contra Deum. Vel, <hi>turbatus\nsum,</hi>",
+   "replace": "i>Non sum locutus.</hi> \nNon murmuravi contra Dum. Vel, <hi>turbatus\nsum,</hi>",
+   "why": "🔴 CLASS 2 — Corpus Corporum REPAIRED a defect Migne printed, destroying a marker we are entitled to fire. A [sic:] may wrap only type our twin carries, so the marker becomes available only AFTER this patch — the precondition ordering Band A established at `Seb isti` @0876B. Plate-read by the 0054–0058 stint. Migne sets `Dum`. Unlocks `[sic: *Dum*]`."
+  },
+  {
+   "col": "0958D",
+   "find": "us. In sinistra,</hi> pecus, amans haec temporatia.\nVel manum <hi>dexteram.</hi",
+   "replace": "us. In sinistra,</hi> pecus, amans haec temporalia.\nVel manum <hi>dexteram.</hi",
+   "why": "🟡 CLASS 3 — the defect is OURS and the plate is clean. Patch, and NEVER a marker: a [sic:] here would publicly accuse Migne of Corpus Corporum's work. ⭐ THE CASE THE PLATE GATE EXISTS FOR. A non-word in a psalm gloss, in a paragraph otherwise rough — the profile of a Migne defect on every internal test, and the leaf says it is ours. ⚑ The English ALREADY renders `temporal things`, from the plate under §A6, so NO English edit is owed and it must not be edited twice."
+  },
+  {
+   "col": "0966B",
+   "find": "\nhic nullum periculum. <hi>Caepi.</hi> <note>(AUG.)</note> Al",
+   "replace": "\nhic nullum periculum. <hi>Coepi.</hi> <note>(AUG.)</note> Al",
+   "why": "🟡 CLASS 3 — the defect is OURS and the plate is clean. Patch, and NEVER a marker: a [sic:] here would publicly accuse Migne of Corpus Corporum's work. æ for œ. ⚑ The English ALREADY renders `I have begun`, so no English edit is owed here either."
+  },
+  {
+   "col": "0957D",
+   "find": " secretum divinae dispositionis.</p>\n<p>VERS. 18.-- <hi>Verumtamen.</hi> <note>(AUG., CASS.)</note> Ecce quid\ndi",
+   "replace": " secretum divinae dispositionis.</p>\n<p>VERS. 17.-- <hi>Verumtamen.</hi> <note>(AUG., CASS.)</note> Ecce quid\ndi",
+   "why": "⛔ CLASS 4 — Migne's own numbering or siglum, silently normalized by CC before we ever saw it. This is the `Migne's printing is not yours to tidy` class. The plate sets `VERS. 17.` — and the *Sanctuarium* paragraph immediately above is ALSO `VERS. 17.`, so Migne prints 17 twice in a row. Substantively 18 is right (Ps 72:18 *Verumtamen propter dolos*), which is exactly why CC repaired it. Restore what he printed."
+  },
+  {
+   "col": "0963A",
+   "find": "eculum</hi> quandiu saeculum erit.</p>\n<p>VERS. 11.-- <hi>Cornua justi,</hi> id est, munera Christi,\nquae sunt sublimi",
+   "replace": "eculum</hi> quandiu saeculum erit.</p>\n<p>VERS. 1.-- <hi>Cornua justi,</hi> id est, munera Christi,\nquae sunt sublimi",
+   "why": "⛔ CLASS 4 — Migne's own numbering or siglum, silently normalized by CC before we ever saw it. This is the `Migne's printing is not yours to tidy` class. Substantively 11 (Ps 74:11); the plate sets a single `1`."
+  },
+  {
+   "col": "0954D",
+   "find": "bis\nterrae, praedicato Evangelio regni. <note>(CASS.)</note> Inde regula\nbaptismi per totum orbem manavit. Pauci",
+   "replace": "bis\nterrae, praedicato Evangelio regni. <note>(CAS.)</note> Inde regula\nbaptismi per totum orbem manavit. Pauci",
+   "why": "⛔ CLASS 4 — Migne's own numbering or siglum, silently normalized by CC before we ever saw it. This is the `Migne's printing is not yours to tidy` class. The plate sets `(CAS.)`. ⛔ Per-site only — Migne prints BOTH forms in this work and a sweep would manufacture readings he never set."
+  },
+  {
+   "col": "0954D",
+   "find": "otum orbem manavit. Paucis\nverbis magna docet sacramenta</p>\n<p>VERS. 10.-- <hi>Reges Tharsis ",
+   "replace": "otum orbem manavit. Paucis\nverbis magna docet sacramenta.</p>\n<p>VERS. 10.-- <hi>Reges Tharsis ",
+   "why": "Punctuation departure from the plate, read by the 0054–0058 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. ⚑ NO English edit is owed: the twin already carries the stop, taken from the plate."
+  },
+  {
+   "col": "0956D",
+   "find": "te sua.</hi> \n<note>(CAS.)</note> Ne resipiscant; non amicti, ut vel liberum\ncaput haberent, s",
+   "replace": "te sua.</hi> \n<note>(CAS.)</note> Ne resipiscant : non amicti, ut vel liberum\ncaput haberent, s",
+   "why": "Punctuation departure from the plate, read by the 0054–0058 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. The plate sets a colon; CC gives a semicolon."
+  },
+  {
+   "col": "0958B",
+   "find": "bebunt, ideo perdes\neos, quia per eos,</p>\n<p>VERS. 21.-- <hi>Infla",
+   "replace": "bebunt, ideo perdes\neos, quia per eos.</p>\n<p>VERS. 21.-- <hi>Infla",
+   "why": "Punctuation departure from the plate, read by the 0054–0058 stint. Applied because the plate is the text and a mark CC supplies is our edition saying something Migne did not print. The plate closes with a full stop; CC's comma runs the dangling clause into the `VERS. 21.` head."
+  },
+  {
+   "col": "0968D",
+   "find": "de Osee\npropheta ait: <hi>Ephraim factus est facti columba insipiens,\n",
+   "replace": "de Osee\npropheta ait: <hi>Ephraim fuctus est facti columba insipiens,\n",
+   "why": "🔴 CC REPAIRED A MIGNE DEFECT — the patch restores it and unlocks a [sic:]. Plate-read by the 0059–0063 stint (PDF 489–496, corners read on every page). Controlled at 5× against the `a` of *facti*, *columba* and *Ephraim* ON THE SAME PRINTED LINE: the glyph is an open-topped `u`, the controls are closed-bowl `a`. Unlocks `[sic: *fuctus*]`. ⚑ Our English already fires `[sic: facti]` on the OTHER corrupt word in the same lemma, which our TEI does carry; the two are independent."
+  },
+  {
+   "col": "0969A",
+   "find": "it, humile mandatum\ndocuit: <hi>Discite a me, quia mitis sum et humilis\ncorde. <note>(Jo",
+   "replace": "it, humile mandatum\ndocuit: <hi>Discit a me, quia mitis sum et humilis\ncorde. <note>(Jo",
+   "why": "🔴 CC REPAIRED A MIGNE DEFECT — the patch restores it and unlocks a [sic:]. Plate-read by the 0059–0063 stint (PDF 489–496, corners read on every page). A third-person indicative where Mt 11:29 has the imperative and where the preceding `docuit` requires it. Unlocks `[sic: *Discit*]`."
+  },
+  {
+   "col": "0973D",
+   "find": " Mores\nhominum Domino tribuit, propter res explanandas.</p>\n<p> <hi>Tanquam dormiens.",
+   "replace": " Mores\nhominum Domino tribuit, proptes res explanandas.</p>\n<p> <hi>Tanquam dormiens.",
+   "why": "🔴 CC REPAIRED A MIGNE DEFECT — the patch restores it and unlocks a [sic:]. Plate-read by the 0059–0063 stint (PDF 489–496, corners read on every page). A non-word. Unlocks `[sic: *proptes*]`."
+  },
+  {
+   "col": "0976D",
+   "find": "imonium\nperfidiae. <hi>Asaph.</hi> Illuminatus agit de adventu Christi\net de vinea ejus, bonum te",
+   "replace": "imonium\nperfidiae. <hi>Asaph.</hi> Illuminatur agit de adventu Christi\net de vinea ejus, bonum te",
+   "why": "🔴 CC REPAIRED A MIGNE DEFECT — the patch restores it and unlocks a [sic:]. Plate-read by the 0059–0063 stint (PDF 489–496, corners read on every page). ⭐ CONTROLLED ON THE FACING COLUMN: at 0977A the parallel gloss prints `Asaph illuminatus de adventu Christi` correctly, so both forms stand on ONE OPENING and the `-tur` is not an imaging artefact. Two finite verbs with no slot. Unlocks `[sic: *Illuminatur*]`."
+  },
+  {
+   "col": "0973D",
+   "find": "i, sed\nliberi et Deo conjuncti. <hi>Virtutem eorum.</hi> <note>(AUG.)</note> Arbitrii\nli",
+   "replace": "i, sed\nliberi et Deo conjuncti. <hi>Virtutum eorum.</hi> <note>(AUG.)</note> Arbitrii\nli",
+   "why": "🟠 CC MOVED MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation. Plate-read by the 0059–0063 stint. Our TEI reads `Virtutem`, which is exactly Ps 77:61 (*tradidit in captivitatem virtutem eorum*). ⭐ Migne's genitive plural is the reading the gloss beneath expounds — *virtutes abstulit in malis*. Unlocks `[var: Vulg. *virtutem*]`. ⚑ ENGLISH EDIT OWED: the twin renders `Their strength.` and must become `Of their virtues.`"
+  },
+  {
+   "col": "0971A",
+   "find": "c et illi genti pepercit, ne penitus era",
+   "replace": "c et illi genti perpercit, ne penitus era",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. The plate reads `Sic et illi genti perpercit`. A normalisation of the 8948 `convivum`→`convivium` class (corpus: 17 `pepercit`, zero `perpercit`; Clementine: zero). English unaffected, and NO [sic:] is owed — Pattern 9, an attested late/medieval perfect, not broken type."
+  },
+  {
+   "col": "0972C",
+   "find": "do non\ncompunguntur, inde malitiam hominis in sua indignatione,\nira et tribulatione derelinquit, ",
+   "replace": "do non\ncompunguntur, inde malitiam hominis sua indignatione,\nira et tribulatione derelinquit, ",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. Our TEI INSERTS `in`; the plate does not print it. English unaffected — ablative either way."
+  },
+  {
+   "col": "0973B",
+   "find": "nt. Vel, <hi>arcum pravum,</hi> qui non\nominus jaculatur, sed in se spicula convertit, i",
+   "replace": "nt. Vel, <hi>arcum pravum,</hi> qui non\neminus jaculatur, sed in se spicula convertit, i",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. ⭐⭐ THE REVERSED ONE, and the site that forced the §A6 ruling. Our TEI's `ominus` is a NON-WORD CORPUS CORPORUM MANUFACTURED; the plate reads `eminus`. NO [sic:] is owed, and firing one would have accused Migne of a defect he does not have. ⚑ The English is already written to the plate — `which does not shoot from afar` — under the rule that on a collated work the plate is the text. No English edit is owed; this patch makes the Latin agree with an English that was right first."
+  },
+  {
+   "col": "0980B",
+   "find": ". II)</note>\n          </hi>,\nut Judaei contradixerunt titulo crucis</p>\n<p>VERS. 9.-- <hi>Audi populus meus.</h",
+   "replace": ". II)</note>\n          </hi>,\nut Judaei contradixerunt titulo crucis.</p>\n<p>VERS. 9.-- <hi>Audi populus meus.</h",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. A terminal stop the plate prints and CC drops. ⚑ The English ALREADY supplies the stop on the strength of this read, per Pattern 8 — the mark is Migne's and its loss is the digitization's."
+  },
+  {
+   "col": "0975C",
+   "find": "iquarum.</hi> (CASS) Non dicit de ",
+   "replace": "iquarum.</hi> (CASS.) Non dicit de ",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. Our TEI carries a bare, unmarked-up `(CASS)` outside any note; the plate prints `(CASS.)` with its point, set exactly like every other siglum on the page. A markup loss as much as a spelling one."
+  },
+  {
+   "col": "0979A",
+   "find": "hi> <note>(CASS.)</note>\nSuper te fundatam, etc., <hi>usque ad</hi>",
+   "replace": "hi> <note>(CASS.)</note>\nSuper et fundatam, etc., <hi>usque ad</hi>",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. The plate reads `et`. ⚑ ENGLISH DECISION OWED, deliberately not taken here: restored, the clause does not construe, so a `[sic: *et*]` or a `[cj:]` becomes a live question. The English as filed renders our TEI's `te` (`Founded upon thee`), because rendering `et` would be OUR conjecture rather than a translation. The Latin must carry what Migne printed; the English rendering and the marker are one decision and belong to the merge, not to the patch pass."
+  },
+  {
+   "col": "0980A",
+   "find": "tionis,\nquam senserunt antiqui, sed jam pene\nsiccata est: tunc enim aquae populorum turb",
+   "replace": "tionis,\nquam senserunt antiqui, sed jam bene\nsiccata est: tunc enim aquae populorum turb",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. ⭐ CHANGES THE SENSE. Controlled at 6× against the descender-bearing `p` of *populorum* on the next line and the `b` of *turbabantur* on the same line — a SET `b`, not a damaged `p`, and not the h↔b hazard. `well dried up` against `almost dried up`. ⚑ ENGLISH EDIT OWED with this patch."
+  },
+  {
+   "col": "0980C",
+   "find": "d jussa invitat. <hi>In te,</hi> in corde tuo.\nubi veritas, non falsitas debet esse. <hi>Re",
+   "replace": "d jussa invitat. <hi>In te,</hi> in corde tuo\nubi veritas, non falsitas debet esse. <hi>Re",
+   "why": "🟡 CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT. Plate-read by the 0059–0063 stint. A POINT CC INVENTED — hence the impossible lowercase `ubi` after a full stop, which is the tell. The plate prints the clause whole. ⚑ The English already reads it whole, so no English edit is owed."
+  },
+  {
+   "col": "0985A",
+   "find": "esse videbantur, crederent. Egit autem in praedictis\npsalmis de Domini incarnatione, et gentium fide, et\nde j",
+   "replace": "esse videbantur, crederent. Egit autem in praedictis\npsalmi de Domini incarnatione, et gentium fide, et\nde j",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint (PDF 496–501, 300 dpi full width + 600 dpi crops). 600 dpi. A real word with no grammatical slot — `in praedictis psalmi` does not construe. Unlocks a [sic:] arguable under Pattern 12's test 1."
+  },
+  {
+   "col": "0986D",
+   "find": "/note> Sed fac\n<pb n=\"0986D\"/>\npraesentia incarnationis eum gentibus respici: vel,\nita per faciem innotescimus, aliis.",
+   "replace": "/note> Sed fac\n<pb n=\"0986D\"/>\npraesentia incarnationis eum ventibus respici: vel,\nita per faciem innotescimus, aliis.",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint (PDF 496–501, 300 dpi full width + 600 dpi crops). 600 dpi: a clean roman `v` with NO descender, so not a damaged `g`. A non-word. Unlocks `[sic: *ventibus*]`."
+  },
+  {
+   "col": "0991C",
+   "find": "       </hi>. Et alibi: <hi>Percutiam et sanabo:\noccidam et vivere faciam <n",
+   "replace": "       </hi>. Et alibi: <hi>Percutium et sanabo.\noccidam et vivere faciam <n",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint (PDF 496–501, 300 dpi full width + 600 dpi crops). 600 dpi. A non-word inside a quotation of Dt 32:39; CC also turns Migne's full stop after `sanabo` into a colon. Unlocks `[sic: *Percutium*]`."
+  },
+  {
+   "col": "0991C",
+   "find": "e videantur, et\nsimul undique circumdare, unde amici et noti timore\ndeserunt, unde Apostolus: <hi>Omnes me dereliqueru",
+   "replace": "e videantur, et\nsimul undique circumdare, unde amici et videantur, et more deserunt, unde Apostolus: <hi>Omnes me dereliqueru",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint (PDF 496–501, 300 dpi full width + 600 dpi crops). ⭐⭐ A COMPOSITOR EYE-SKIP, and the most consequential site in the range. The line above ends `circumfluere videantur, et`; the compositor re-set that ending, losing `noti ti-` and leaving the orphan `more`. Under Pattern 11a the INTRUSIVE copy is the SECOND (`et videantur, et`), the first being the true text. ⚑ Note what CC did: it reconstructed the sense Migne lost, so nothing in our twin could ever have shown that the plate is broken here."
+  },
+  {
+   "col": "0987A",
+   "find": "</note> <hi>Converte nos.</hi> Prophetice dixit futura, ut praeterita,\nhic autem orat",
+   "replace": "</note> <hi>Converte nos.</hi> Prophetice dixi futura, ut praeterita,\nhic autem orat",
+   "why": "🟠 CLASS 1 — CC altered Migne to a DIFFERENT REAL WORD, invisible to any collation. Plate-read by the 0064–0068 stint. ⭐⭐ THE PERSON IS LOAD-BEARING. The same sentence continues `quasi dicat, dixi quasi facta. Et quia video futura … oro ut fiant` — first person throughout. CC's `dixit` puts the clause in a third person the passage does not have. ⚑ ENGLISH EDIT OWED: the twin reads `He said prophetically` because Pattern 7 governed the Latin it was given; with the patch it becomes `I said`. ⚑ Column corrected at the patch pass: filed as 0987B, the reading stands in 0987A. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0985A",
+   "find": "unc confundantur mali, anima et\ncorpore, et pereant omnino irreparabiliter. Et nunc\ncognoscant, quod modo nolunt. <",
+   "replace": "unc confundantur mali, anima et\ncorpore, et pereant animo irreparabiliter. Et nunc\ncognoscant, quod modo nolunt. <",
+   "why": "🟠 CLASS 1 — CC altered Migne to a DIFFERENT REAL WORD, invisible to any collation. Plate-read by the 0064–0068 stint. 600 dpi, a clear `animo`, controlled against `anima` on the line above. CC's `omnino` is a different word entirely."
+  },
+  {
+   "col": "0982A",
+   "find": "l admirando coli pauperem\nmortuum. Vel eum contemptis terrenis sectando.\nAddit <hi>omnia,</hi> qu",
+   "replace": "l admirando coli pauperem\nmortuum. Vel cum contemptis terrenis sectando.\nAddit <hi>omnia,</hi> qu",
+   "why": "🟠 CLASS 1 — CC altered Migne to a DIFFERENT REAL WORD, invisible to any collation. Plate-read by the 0064–0068 stint. 600 dpi: a roman `c`, controlled against the `c` of `contemptis` and the `e` of `terrenis` on the same line."
+  },
+  {
+   "col": "0983C",
+   "find": "</note> Vallis vana. <hi>Ge</hi> \nenim vallis, <hi>Bal,</hi> vana. <hi>Ammon.</hi> Unde Ammoni",
+   "replace": "</note> Vallis vana. <hi>Ge</hi> \nenim vallit, <hi>Bal,</hi> vana. <hi>Ammon.</hi> Unde Ammoni",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint. 600 dpi: a clear `-it` with a dotted i, and a non-word. Migne's own line two above prints the gloss `Vallis vana.` in roman, which is the true reading — the control is on the same leaf. Unlocks `[sic: *vallit*]`."
+  },
+  {
+   "col": "0985D",
+   "find": "AUG.)</note> <hi>Nidus</hi> ad tempus, <hi>domus</hi> vero in aeternum.\nNidum ergo dicit fidem, et conformita",
+   "replace": "AUG.)</note> <hi>Nidus</hi> ad tempus, <hi>domus</hi> vera in aeternum.\nNidum ergo dicit fidem, et conformita",
+   "why": "🟠 CLASS 1 — CC altered Migne to a DIFFERENT REAL WORD, invisible to any collation. Plate-read by the 0064–0068 stint. 600 dpi."
+  },
+  {
+   "col": "0991B",
+   "find": "turbatus,</hi> \nid est, confusus de peccatis, ea damnando.</p>\n<p>VERS. 17.-- <hi>Transieru",
+   "replace": "turbatus,</hi> \nid est, confusus de peccatis ea damnado</p>\n<p>VERS. 17.-- <hi>Transieru",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint. 600 dpi. The non-word `damnado`; CC also supplies the comma after `peccatis` AND a terminal full stop the plate does not print at all. Unlocks `[sic: *damnado*]`, with Pattern 8 governing the missing stop."
+  },
+  {
+   "col": "0982C",
+   "find": "salmus de adventu\nChristi ad judicium, ubi boni, qui hic patiuntur,\ncoronabuntur: mali vero, qui eos persequuntur,\ntorquebuntur.</p>\n<p>VERS. 2.-- <hi>Deus quis similis?</hi> <note>(CASS.)</note> ",
+   "replace": "salmus de adventu\nChristi ad judicium, ubi boni, qui hic patiuntur,\ncoronabuntur, : mali vero, qui eos persequuntur. torquebuntur.</p>\n<p>VERS. 2.-- <hi>Deus quis similis?</hi> <note>(CASS.)</note> ",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the marker becomes available only after this patch. Plate-read by the 0064–0068 stint. 600 dpi. TWO defects on one line: a comma and a colon set together, and a full stop that strands `torquebuntur.` as a sentence of its own. CC tidied both."
+  },
+  {
+   "col": "0989C",
+   "find": "c\ndixisti? <hi>Ecce alienigenae,</hi> id est, gentes <hi>Tyrus,</hi> \nangustia vitiorum, vel poenitentiae.",
+   "replace": "c\ndixisti? <hi>Ecce alienigenae,</hi> id est, gentes : et <hi>Tyrus,</hi> \nangustia vitiorum, vel poenitentiae.",
+   "why": "🟡 CLASS 3 — our Latin has LOST what the plate prints. Plate-read by the 0064–0068 stint. CC drops BOTH the colon and the `et`, fusing two members of the gloss. ⚑ The English currently reads `that is, the Gentiles *Tyre,*` and the seam is CC's, not ours."
+  },
+  {
+   "col": "0983C",
+   "find": "tae.</p>\n<p>VERS. 9.-- <hi>Assur.</hi> <note>(AUG., HIER.)</n",
+   "replace": "tae.</p>\n<p>VERS. 9.-- <hi>Assur,</hi> <note>(AUG., HIER.)</n",
+   "why": "🟡 CLASS 3 — our Latin has LOST what the plate prints. Plate-read by the 0064–0068 stint. A comma turned into a full stop inside the italic run. ⚑ Column corrected at the patch pass: filed as 0984A, the reading stands in 0983C. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0981B",
+   "find": "hi>amicus\nsponsi stat et audit, et gaudio gaudet. Deorum.</hi> Quos\npost <hi>filios Excelsi</hi> ",
+   "replace": "hi>amicus\nsponsi stat et audit, et gaudio gaudet Deorum.</hi> Quos\npost <hi>filios Excelsi</hi> ",
+   "why": "🔴 CLASS 2 — CC repaired what Migne printed. 600 dpi: there is NO full stop before `Deorum` on the plate; CC inserts one, separating the Jn 3:29 quotation from the Ps 81:1 lemma it runs into. ⚑ Col 0981 is the band's ONE clipped column, and this site does NOT sit in the clipped margin — the stint's withheld marker at 0981C is a different site. Plate-read by the 0064–0068 stint. ⚑ Column corrected at the patch pass: filed as 0981C, the reading stands in 0981B. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0993B",
+   "find": "RS. 11.-- <hi>Vulneratum.</hi> Humiliatus est perdendo,\nquos tenebat; vulneratus perc",
+   "replace": "RS. 11.-- <hi>Vulneratum.</hi> Humilitatus. est perdendo,\nquos tenebat; vulneratus perc",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). Read at 600 dpi. ⚑ The FULL STOP after the word is Migne's too — CC swallowed both. No verb *humilitare* is attested; *humiliatus* is the form, which is why it was repaired."
+  },
+  {
+   "col": "0996A",
+   "find": "    <pb n=\"0996A\"/>VERS. 49.-- <hi>Quis est homo?</hi> <note>(ID.)</note> Nulli hoc c",
+   "replace": "    <pb n=\"0996A\"/>VERS. 49.-- <hi>Quis est hemo?</hi> <note>(ID.)</note> Nulli hoc c",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 600 dpi. The control: the italic `o` of the word's own last letter and the italic `e` of `est` on the same line — and `Quis est homo?` prints CORRECTLY eleven lines above at 0995D."
+  },
+  {
+   "col": "0996A",
+   "find": "i <hi>eruent animas suas de manu inferiori,</hi> \n sed ille, qui <h",
+   "replace": "i <hi>eruent animas suas de manu iuferiori,</hi> \n sed ille, qui <h",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 900 dpi. A turned `n`, controlled against the italic `u` of `manu` three words earlier on the same line and the `n` of `animas` on that line: the glyph is the cup, not the arch."
+  },
+  {
+   "col": "0996A",
+   "find": "oblitus, dum differt. <hi>Opprobrii\nservorum.</hi> <note>(CASS.)</note",
+   "replace": "oblitus, dum differt. <hi>Opprobri\nservorum.</hi> <note>(CASS.)</note",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 600 dpi, a single `i`. The Vulgate has `opprobrii`, so CC's form is the conformed one."
+  },
+  {
+   "col": "0996C",
+   "find": "ote>(AUG.)</note> Ecce omnis\nrationalis creatu",
+   "replace": "ote>(AUG.)</note> Elcce omnis\nrationalis creatu",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 1200 dpi: FIVE distinct glyphs, the `l` a full-height vertical with its own serif foot, clearly separated from the `c` that follows."
+  },
+  {
+   "col": "0996D",
+   "find": "<hi>Tu autem\nidem ipse es, et anni tui non deficient.</hi> </p>\n<p>VERS. 3.-- <hi>",
+   "replace": "<hi>Tu autem\nidem ipse es, et aani tui non deficient.</hi> </p>\n<p>VERS. 3.-- <hi>",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 1200 dpi: two closed bowls, then `n`, then a dotted `i`."
+  },
+  {
+   "col": "0998A",
+   "find": "ltavimus,\n<pb n=\"0998A\"/>\net delectati sumus.</hi> <note>(AUG., CASS.)",
+   "replace": "ltavimus,\n<pb n=\"0998A\"/>\net delectatio sumus.</hi> <note>(AUG., CASS.)",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 600 dpi; `delectatio` in full."
+  },
+  {
+   "col": "0998A",
+   "find": "os eorum.</hi> Quasi, etsi ipsi per iniquitates\ndispersi sunt, vel filii, in fine fide c",
+   "replace": "os eorum.</hi> Quasi, etsi ipsi per iniqui-tales\ndispersi sunt, vel filii, in fine fide c",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 600 dpi, hyphenated across the line. Cf. Band A's `iniquitetem` @0910C — the same shape."
+  },
+  {
+   "col": "0998B",
+   "find": "discamus tentationes\nsuperare, quia est janua per quam, si quis introierit,\n<pb n=\"09",
+   "replace": "discamus tentationes\nsuperare, quia est jauna per quam, si quis introierit,\n<pb n=\"09",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 600 dpi. The control: `Janua Christus` prints CORRECTLY four lines below in the same column. ⚑ Column corrected at the patch pass: filed as 0998C, the reading stands in 0998B. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "1000A",
+   "find": "o, altum fecisti\nrefugium, ut jam sperem sequi quo praecessisti.</p>\n<p>V",
+   "replace": "o, altum fecisti\nrefugium, ut jam speram sequi quo praecessisti.</p>\n<p>V",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 600 dpi."
+  },
+  {
+   "col": "1000D",
+   "find": "effectibus, et in\noperibus manuum, quibus utor, vel quae miror.</p>\n<p>\n          <pb n=\"1001A\"/>",
+   "replace": "effectibus, et in\noperibus manuum, quibus uior, vel quae miror.</p>\n<p>\n          <pb n=\"1001A\"/>",
+   "why": "🔴 CLASS 2 — CC repaired a defect Migne printed; the [sic:] this unlocks becomes available only after this patch. Plate-read by the 0069–0072 stint (PDF 501–506, corners verified). 900 dpi. ⚑ THE GLYPH CARRIES AN i-DOT, so it is a set sort and not an under-inked `t` — which is exactly why it is reported and the `possit`→`rossit` ink class is not."
+  },
+  {
+   "col": "0999D",
+   "find": "impiis tuos persequi, sed non\nimpune, oculis tuis considerabis malum, quod voluerunt,\nnon bonum quod per n",
+   "replace": "impiis tuos persequi, sed non\nimpune, oculis tuis considerabit malum, quod voluerunt,\nnon bonum quod per n",
+   "why": "🟠 CLASS 1 — CC moved Migne ONTO the Clementine, invisible to any Vulgate collation by construction. Plate-read by the 0069–0072 stint. Ps 90:8 has `considerabis`, which is what CC supplies. ⚑ The plate keeps BOTH forms in one column — `considerabit` in Augustine's paraphrase and the lemma `considerabis.` at this column's foot."
+  },
+  {
+   "col": "1000B",
+   "find": "git de Christo secundum membra. <hi>Et conculcabis.</hi> \n<note>(AUG.)</note> Serpentem ",
+   "replace": "git de Christo secundum membra. <hi>Et conculcabit.</hi> \n<note>(AUG.)</note> Serpentem ",
+   "why": "🟠 CLASS 1 — CC moved Migne ONTO the Clementine, invisible to any Vulgate collation by construction. Plate-read by the 0069–0072 stint. ⭐⭐ THE GLOSS IS BUILT ON THE THIRD PERSON: its very next words are `Serpentem calcat Ecclesia` — *the Church* treads. A conformed lemma destroys the exposition it carries, and no Vulgate collation could ever reach it. Once patched, a `[var: Vulg. *conculcabis*]` is owed here."
+  },
+  {
+   "col": "0992B",
+   "find": "e\ndico, quod tu, Deus, dixisti, per Spiritum manifestati.</p>\n<p> <hi>Misericordia aedif",
+   "replace": "e\ndico, quod tu, Deus, dixisti, per Spiritum manifestasti.</p>\n<p> <hi>Misericordia aedif",
+   "why": "🟡 CLASS 3 — our Latin carries what the plate does not. Plate-read by the 0069–0072 stint. CC drops the `s`, leaving a participle governing nothing where the plate has a second-person perfect parallel to `dixisti`."
+  },
+  {
+   "col": "0993C",
+   "find": "piuntur a parte\ntotum per synedochen.</p>\n<p> <hi>Exsultab",
+   "replace": "piuntur a parte\ntotum per synecdochen.</p>\n<p> <hi>Exsultab",
+   "why": "🟡 CLASS 3 — our Latin carries what the plate does not. Plate-read by the 0069–0072 stint. CC drops the `c`, making a non-word Migne does not print — so NO [sic:] is owed in either state."
+  },
+  {
+   "col": "0993D",
+   "find": "ent faciem tuam.</hi> A\nsimilitudine praecursoris Domino hospitium praeparantis.</p>\n<p>\n          <pb ",
+   "replace": "ent faciem tuam.</hi> A\nsimilitudine praecursoris Dominum hospitium praeparantis.</p>\n<p>\n          <pb ",
+   "why": "🟡 CLASS 3 — our Latin carries what the plate does not. Plate-read by the 0069–0072 stint. Migne sets the accusative."
+  },
+  {
+   "col": "0996D",
+   "find": "itudine, et trepidatione,\net quasi nihil est.</p>\n<p>VERS. 6.-- <hi>Ma",
+   "replace": "itudine, et trepidatione,\nqnasi nihil est.</p>\n<p>VERS. 6.-- <hi>Ma",
+   "why": "🔴+🟡 TWO DEPARTURES AT ONE SITE, merged into a single patch because they overlap and would otherwise fight each other in the queue. (1) CC INSERTS an `et` the plate does not print. (2) CC repaired Migne's turned `u`: he sets `qnasi`, controlled at 900 dpi against the `n` of `nihil` on the same line. Migne reads `in sollicitudine, et trepidatione, qnasi nihil est`. Restores both at once and unlocks `[sic: *qnasi*]`. Plate-read by the 0069–0072 stint."
+  },
+  {
+   "col": "0999C",
+   "find": "des perfectio tribunalis,\nin quibus sedebunt omnes qui omnia reliqueru",
+   "replace": "des perfectio tribunalis,\nqui quibus sedebunt omnes qui omnia reliqueru",
+   "why": "🟡 CLASS 3 — CC replaced Migne's `qui` with `in`. The plate reads `Duodecim sedes perfectio tribunalis, qui quibus sedebunt`. ⚑ Whether Migne's `qui quibus` is a compositor's false start (Pattern 11a) is a MARKER question, left open here: this patch only restores what he printed, which is the precondition for deciding it at all. Plate-read by the 0069–0072 stint. ⚑ Column corrected at the patch pass: filed as 0999D, the reading stands in 0999C. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "0999D",
+   "find": " es.</hi> <note>(AUG.)</note> Unus Christus\nest caput et corpus, de quo loquitur modo ut de capite,\nmodo ut de corpore, non mutata persona. Ideoque\n<pb n=\"1000A\"/>\nque diligenter adverte, ubi de Christo secundum caput,\nubi secundum membra agat. <hi>Altissimum.</hi> In alto\nest refugium Dei, valde in occulto, ut fugia",
+   "replace": " es.</hi> <note>(AUG.)</note> Unus Christus\nest caput et corpus, de quo loquitur modo ut de capite,\nmodo ut de corpore, non mutata persona. Ideo-\n<pb n=\"1000A\"/>\nque diligenter adverte, ubi de Christo secundum caput,\nubi secundum membra agat. <hi>Altissimum.</hi> In alto\nest refugium Dei, valde in occulto, ut fugia",
+   "why": "🟡 CLASS 3 — A DITTOGRAPHY CORPUS CORPORUM MANUFACTURED at the column turn. Migne breaks the word across the columns as `Ideo-` / `que`; CC resolved the first half to `Ideoque` and kept the second half too, so our Latin says `Ideoque que`. ⛔ NO [d:] is owed — the doubling is OURS, not Migne's, and firing one would accuse him of the digitization's work. The English renders `Therefore` once and the anchor stays in place, so no English edit is owed; the patch pass must not read the English as having dropped a word. ⚑ This patch SPANS the 0999D/1000A column boundary, which is why it is built by hand rather than resolved inside one column's span. Plate-read by the 0069–0072 stint."
+  },
+  {
+   "col": "1004B",
+   "find": "qua laude psalmus\nagit. <hi>In psalmis jubilemus.</hi> Quae dicimus in psalm",
+   "replace": "qua laude psalmus\nagit. <hi>In psalmi jubilemus.</hi> Quae dicimus in psalm",
+   "why": "🅐 CC MOVED MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation by construction. Plate-read by the 0073–0076 stint (PDF 506–511, corners verified). Ps 94:2 Clem. `et in psalmis jubilemus ei`. ⭐ Patching it back UNLOCKS a marker: Migne's `psalmi` is refuted by his own next words, `Quae dicimus in psalmis` — the gloss expands its lemma into the right case. Candidate `[cj: *psalmi*; read *psalmis*]`. No English change owed — `in psalms` renders either."
+  },
+  {
+   "col": "1007B",
+   "find": "      <pb n=\"1007B\"/> <hi>Audivit et laetata.</hi> <note>(CASS.)</note",
+   "replace": "      <pb n=\"1007B\"/> <hi>Audivi et laetata.</hi> <note>(CASS.)</note",
+   "why": "🅐 CC MOVED MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation by construction. Plate-read by the 0073–0076 stint (PDF 506–511, corners verified). ⭐⭐ THE HIGHEST-VALUE SITE IN THIS RANGE. CC erased a FIRST-PERSON/THIRD-PERSON divergence before any instrument looked, and the gloss under it argues in the third plural (`Audierunt apostoli`). Ps 96:8 Clem. `Audivit, et laetata est Sion`. Patching makes `[var: Vulg. Ps 96:8 *Audivit*]` available. ⚑ ENGLISH CHANGE OWED at patch time: `He hath heard and was glad.` → `I have heard and she was glad.`"
+  },
+  {
+   "col": "1007B",
+   "find": "nificabant Deum.</p>\n<p>VERS. 9.-- <hi>Terram . . . deos.</hi> <note>(ID.)</note> Per <hi>terram<",
+   "replace": "nificabant Deum.</p>\n<p>VERS. 9.-- <hi>Terra... deos.</hi> <note>(ID.)</note> Per <hi>terram<",
+   "why": "🅐 CC MOVED MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation by construction. Plate-read by the 0073–0076 stint (PDF 506–511, corners verified). Ps 96:9 Clem. `super omnem terram … super omnes deos`. English unaffected — the case has no English exponent."
+  },
+  {
+   "col": "1005D",
+   "find": "pars aliqua; ne quis ergo dicat: <hi>Ecce hic Christus,\necce illic,</hi> subdit, <hi>Etenim correxit or",
+   "replace": "pars aliqua; ne quis ergo dicat: <hi>Ecce hic Christus\nesse illic,</hi> subdit, <hi>Etenim correxit or",
+   "why": "🅐 CC MOVED MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation by construction. Plate-read by the 0073–0076 stint (PDF 506–511, corners verified). CC substituted `ecce` for Migne's `esse`, moving him toward Mt 24:23 (`Ecce hic est Christus, aut illic`). ⭐ THE ONE SITE IN THE RANGE WHERE THE TWO LATINS SAY DIFFERENT THINGS. ⚑ ENGLISH CHANGE OWED at patch time: `Lo, here is Christ, lo there,` → `Lo, here is Christ to be there,`, with the crux carrying the conjecture and a [var:] against Mt 24:23 becoming available."
+  },
+  {
+   "col": "1009D",
+   "find": "v1>\n        <head>PSALMUS C.</head>\n\n<pb n=\"10",
+   "replace": "v1>\n        <head>PSLMUS C.</head>\n\n<pb n=\"10",
+   "why": "🅑 CC REPAIRED A DEFECT MIGNE PRINTED, destroying a marker we are entitled to fire; it becomes available only after this patch. Plate-read by the 0073–0076 stint. Migne prints `PSLMUS C.` ⚑ This also stands in the chunk-0076 frontmatter `heads[]`. NO English change is owed: Pattern 9 normalizes a section label in English precisely because the facing Latin preserves the misprint, so the head reads `PSALM C.` either way — but the Latin column must carry what Migne set. ⚑ Column corrected at the patch pass: filed as 1010A, the reading stands in 1009D. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "1009C",
+   "find": "confessio peccatorum\nincipientibus; unde in hoc psalmo ",
+   "replace": "confessio peccatorum\ninicipientibus; unde in hoc psalmo ",
+   "why": "🅑 CC REPAIRED A DEFECT MIGNE PRINTED, destroying a marker we are entitled to fire; it becomes available only after this patch. Plate-read by the 0073–0076 stint. Migne sets the non-word `inicipientibus`. ⭐ Unlocks `[sic: *inicipientibus*]`. English unchanged."
+  },
+  {
+   "col": "1010D",
+   "find": "\ndiaboli de corde fugat, ibi, <hi>in matutinis.</hi> <note>(AUG.)</note> <hi>Non p",
+   "replace": "\ndiaboli de corde fugat, ibi, <hi>in mututinis.</hi> <note>(AUG.)</note> <hi>Non p",
+   "why": "🅑 CC REPAIRED A DEFECT MIGNE PRINTED, destroying a marker we are entitled to fire; it becomes available only after this patch. Plate-read by the 0073–0076 stint. Migne sets the non-word `mututinis`. ⭐ Unlocks `[sic: *mututinis*]`. English unchanged."
+  },
+  {
+   "col": "1006B",
+   "find": " Judaei, crucifixerunt,\natque regnum abjuraverunt ei. Sed <hi>restituta\nest terra ",
+   "replace": " Judaei, crucifixerunt,\natque regnum adjuraverunt ei. Sed <hi>restituta\nest terra ",
+   "why": "🅑 CC REPAIRED A DEFECT MIGNE PRINTED, destroying a marker we are entitled to fire; it becomes available only after this patch. Plate-read by the 0073–0076 stint. The 8990 `concilio`→`consilio` class: an alteration to a DIFFERENT VERB, and CC's is the one the sense wants (the Jews renounced on oath the kingdom to him). ⭐ Unlocks `[cj: *adjuraverunt*; read *abjuraverunt*]`. English needs no change under the additive [cj:] form."
+  },
+  {
+   "col": "1011B",
+   "find": "e>(AUG.)</note> Jam enumeravit quod ei non adhaeserunt\nnisi boni, etc., <hi>usque ad<",
+   "replace": "e>(AUG.)</note> Jam enumeravit quod et non adhaeserunt\nnisi boni, etc., <hi>usque ad<",
+   "why": "🅑 CC REPAIRED A DEFECT MIGNE PRINTED, destroying a marker we are entitled to fire; it becomes available only after this patch. Plate-read by the 0073–0076 stint. Same class and direction: CC's reading is the better Latin. ⭐ Unlocks `[cj: *et*; read *ei*]`. ⚑ A REFERENCE-BINDING site — the class §4 of the launch brief names as invisible to every automated check, and worth looking at twice."
+  },
+  {
+   "col": "1004A",
+   "find": "> Devotionem. <hi>Cantus</hi> hilaritarem significat.</p>\n<p>VERS. 1.-- <hi>Venite",
+   "replace": "> Devotionem. <hi>Cantus</hi> hilaritatem significat.</p>\n<p>VERS. 1.-- <hi>Venite",
+   "why": "🅒 CC CREATED A NON-WORD MIGNE DOES NOT PRINT — no [sic:] is owed in either state, and the English already renders the sense the patched Latin carries. Plate-read by the 0073–0076 stint. Checked against a known `t` and a known `r` on the same printed line before believing it."
+  },
+  {
+   "col": "1008D",
+   "find": "i>Terra scabellum vedum ejus</hi> dicit\n<pb n=",
+   "replace": "i>Terra scabellum pedum ejus</hi> dicit\n<pb n=",
+   "why": "🅒 CC CREATED A NON-WORD MIGNE DOES NOT PRINT — no [sic:] is owed in either state, and the English already renders the sense the patched Latin carries. Plate-read by the 0073–0076 stint. Is 66:1. Our English already renders `the footstool of his feet`, which is right for the patched Latin."
   }
  ],
  "unread": "The scar sweep across all 106 chunks found 13 stray-space candidates; only this one was read at the plate. The other 12 are NOT claimed as drops — a stray space has ordinary causes too, and hebrew-recovery.md step 1 makes the scan the arbiter, not the scar. Three 'In Hebraeo' clauses also stand in this work, none with surviving Hebrew, and all three are unread candidates. Exposure here is small by the standards of an etymological work; it was worth a sweep and is not worth a campaign.",
  "countNote": "⚑ THESE TWO SITES ARE ALSO WHY THE MASTER BRIEF'S TOTALS LINE READ 5999 WHILE THE FILE HELD 5997 SPANS. Each empty <hi></hi> was collected as a span and then dropped at print time, so the headline counted rows the file does not contain. The runbook makes that total load-bearing — stints are told to count their own Latin against it — so a stint would have hunted two spans that never existed. Removing the empty elements reconciles it; lemma-inventory.mjs was also fixed to total what it prints.",
  "bandA_pass": "39 patches applied in ONE pass 2026-09-04, after Band A's translation was complete and before the cruces merge, so that no patch rewrote Latin under a stint that was still writing. Sources: the eight Band A cruces files, each site read at the plate by the stint that reported it. ⛔ TWO REPORTED SITES WERE DELIBERATELY NOT APPLIED. (1) `locutus egomet` -> `locutos`: at 900 dpi the glyph is ambiguous, and `locutus` (perfect deponent, 'and afterwards I myself spoke') is correct Latin where `locutos` is a solecism -- a patch needs positive evidence, and applying this would have corrupted good Latin into an error. (2) `possit` -> `rossit` and the like: THE PLATE'S BROKEN SORTS ARE NOT MIGNE'S ERRORS. A damaged `p` that images as `r` is the condition of THIS COPY's inking, not a reading of the edition; restoring it would import a defect that exists nowhere but in one physical leaf. Compositor errors (wrong sorts SET) are restored; ink damage is not. That line is new and is the reason `iniquitetem` and `Nocere` ARE restored while `rossit` is not. (3) `Desiderabilia` -> `Desiderabillia` deferred: two occurrences stand in col 0871D and the report does not say which, so the leaf must be re-read rather than guessed.",
- "patchAudit": "scripts/patch-audit.mjs, added 2026-09-04: resolves every find's offset to its enclosing <pb/> and compares with the declared col, refuses a no-op replace, and warns where a patched column has no recorded plate read. chunk-work.mjs checks UNIQUENESS only, and uniqueness is not location — a find can match exactly once in the wrong column, leaving the real defect and corrupting a column nobody collated (9003, 2026-08-28). Run on Band A's 43 it found 1 mis-recorded column and 24 patches filed with NO column at all, so the check had never been possible on more than half the file. All now resolved from the TEI itself."
+ "patchAudit": "scripts/patch-audit.mjs, added 2026-09-04: resolves every find's offset to its enclosing <pb/> and compares with the declared col, refuses a no-op replace, and warns where a patched column has no recorded plate read. chunk-work.mjs checks UNIQUENESS only, and uniqueness is not location — a find can match exactly once in the wrong column, leaving the real defect and corrupting a column nobody collated (9003, 2026-08-28). Run on Band A's 43 it found 1 mis-recorded column and 24 patches filed with NO column at all, so the check had never been possible on more than half the file. All now resolved from the TEI itself.",
+ "bandB_pass": "149 patches applied in ONE pass 2026-09-04, after Band B's translation was complete and before the cruces merge, so that no patch rewrote Latin under a stint still writing. Sources: the eight Band B cruces files and their reports in data/briefs/8967-PENDING-TEI-PATCHES.md; every site was read at the plate by the stint that reported it, across 90 columns none of which had been opened when the band began. Rate ~1.4 departures per column, agreeing with Band A and with 9003's independent collation of the sibling PL 114 Psalter. ⛔ FIVE REPORTED SITES WERE DELIBERATELY NOT APPLIED, each because the report itself declined to rule or could not: (1) `Nafrubimus` @0962B — the letter between `Na` and `rubimus` would not settle as `f` or `t` even at 1200 dpi, and a patch must not guess a letter any more than a marker may. (2) `Malivolenti :` @0929A — Migne's is a real word (dative of *malivolens*) and the stint filed it as a departure needing a ruling, not as a defect. (3) 0926B `ei`/`et` — the report contradicts itself about which reading the plate carries; it needs one more leaf read. (4) `res alienas`/`res aliena` @0971D — Pattern 12(2) and the Pattern 9 exemption pull opposite ways and the stint explicitly declined to rule. (5) `(Rom. IX)`→`(Rom. IV)` @0971A — CC CORRECTED Migne's citation, so restoring it is right in principle, but it would push a wrong locus into the scripture index and may be depended on by a following `Ibid.` (a documented false-positive class). It needs a citation-corrections.json entry landed WITH the patch, which is a separate piece of work. ⚑ Also carried forward: the punctuation-only departures the 0044–0048, 0064–0068 and 0069–0072 stints listed 'recorded, not argued' are NOT all applied — the sense-bearing and lemma-internal marks are, the residual prose commas are not. They stay in the pending file so a later collation does not re-derive them."
 }

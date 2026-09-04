@@ -43,7 +43,14 @@ for (const [i, p] of patches.entries()) {
   const n = xml.split(p.find).length - 1;
   if (n !== 1) { console.error(`✗ ${tag}  find matches ${n}×, expected 1`); fail++; continue; }
   if (p.find === p.replace) { console.error(`✗ ${tag}  replace is identical to find (no-op)`); fail++; continue; }
-  const off = xml.indexOf(p.find);
+  // Resolve the column of the EDIT, not of the find string's first character:
+  // a find carries context padding either side, and that padding routinely reaches
+  // back into the previous column. "Which column does this patch change?" is the
+  // question the declared col answers, so that is what must be compared.
+  const base = xml.indexOf(p.find);
+  let d = 0;
+  while (d < Math.min(p.find.length, p.replace.length) && p.find[d] === p.replace[d]) d++;
+  const off = base + d;
   const actual = colAt(off);
   const want = String(p.col).trim();
   // declared col may carry a band letter the match's own pb lacks, or vice versa
