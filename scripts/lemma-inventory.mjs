@@ -146,17 +146,28 @@ for (const f of files) {
   const fmBlock = (raw.match(/^---\n([\s\S]*?)\n---\n/) || [, ''])[1];
   const ctx = fmBlock.match(/^colContext:\s*"?(\d{4}[A-D]?)"?/m);
   let band = ctx ? ctx[1] : manifest.colFirst;
-  // The chapter a lemma belongs to comes from the caput head standing over it. Chunks
+  // The chapter a lemma belongs to comes from the division head standing over it. Chunks
   // repeat the head with `(cont.)` at a division, so this survives our own chunking.
   // ⚑ Migne heads the first chapter CAPUT PRIMUM, not CAPUT I, so a numeral-only test
   // lapses on exactly the chapter a work opens with. Both forms are read here.
-  const capWord = /CAPUT\s+(PRIMUM|[IVXLCDM]+)/;
+  // ⛔⛔ AND THE HEAD WORD IS NOT ALWAYS `CAPUT`. Measured on 8967 (Liber Psalmorum,
+  // 2026-09-04): a psalter commentary heads its divisions `PSALMUS CVI.`, never `CAPUT`,
+  // so `caput` stayed null for all 106 chunks and the ⚑ ownership test silently degraded
+  // to book-only — "occurs somewhere in the Psalter", which in 150 chapters of Hebrew
+  // parallelism answers almost anything. It fired 4 times in 5,999 spans against Luke's
+  // 13 in 1,459, and THE LOW COUNT IS WHAT EXPOSED IT. Same class as the CAPUT PRIMUM
+  // lapse above: a mechanical check that fails by going quiet, not by erroring.
+  // Migne's psalter heads in 8967, all forms actually present on disk:
+  //   PSALMUS PRIMUS. · PSALMUS L (no period) · PSAL. LXXVIII. · PSAMUS CXXIV. (his own
+  //   dropped L) · PSALMUS LXVII. (cont.) · PSALMUS X.-- *Secundum Hebraeos.*
+  const capWord = /(?:CAPUT|PSALMUS|PSALMI|PSAMUS|PSAL\.)\s+(PRIMUM|PRIMUS|[IVXLCDM]+)/;
+  const chapNum = w => (w === 'PRIMUM' || w === 'PRIMUS') ? 1 : roman(w);
   const fmCap = (fmBlock.match(new RegExp('heads: \\["' + capWord.source)) || [])[1];
-  let caput = fmCap ? (fmCap === 'PRIMUM' ? 1 : roman(fmCap)) : null;
+  let caput = fmCap ? chapNum(fmCap) : null;
   // Split on lines so a VERS. address can be attached to the span that opens it.
   for (const line of body.split('\n')) {
-    const capLine = line.match(/^##\s+CAPUT\s+(PRIMUM|[IVXLCDM]+)/);
-    if (capLine) caput = capLine[1] === 'PRIMUM' ? 1 : roman(capLine[1]);
+    const capLine = line.match(new RegExp('^##\\s+' + capWord.source));
+    if (capLine) caput = chapNum(capLine[1]);
     let cursor = 0;
     // track column anchors as we pass them, left to right, so a span gets the band it opens under
     const anchors = [...line.matchAll(/\[(\d{4}[A-D]?)\]/g)];
