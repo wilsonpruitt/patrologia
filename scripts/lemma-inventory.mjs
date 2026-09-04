@@ -43,7 +43,19 @@ const normalize = (s) => s
   // `cael-` to differ from, and a coel/cael split is Pattern 9 orthography anyway,
   // never a variant worth marking.
   .replace(/coel/g, 'cael');
-const flatNorm = normalize(flat.replace(/^[^\t]*\t/gm, ''));
+// ⛔⛔ THE SCAN IS PER VERSE, NOT AGAINST ONE JOINED STRING. Until 2026-09-04 this file
+// stripped the references and normalized the whole Clementine into a single blob, so a
+// span could score ✓ BY MATCHING ACROSS A VERSE BOUNDARY — the end of one verse plus the
+// start of the next. Found by a 9000 stint that re-ran the scan per verse and watched two
+// of its own ✓ spans (0340D, 0353A) fall to no-match; both were the recension splicing two
+// consecutive verses, innocent in themselves, but the mark had been meaningless.
+// ⚑ Verses are kept separate here, so that class cannot occur again.
+const VERSES = flat.split('\n').filter(Boolean).map(line => {
+  const tab = line.indexOf('\t');
+  const ref = tab === -1 ? '' : line.slice(0, tab);
+  const book = ref.replace(/\s+\d+:\d+$/, '');
+  return { ref, book, norm: normalize(tab === -1 ? line : line.slice(tab + 1)) };
+});
 
 // ⛔ THE MATCH MUST END AND BEGIN ON A WORD BOUNDARY. A bare `flatNorm.includes(norm)`
 // is an UNANCHORED substring test, so a span whose last word is a PREFIX of the
@@ -73,6 +85,46 @@ function occursAsWords(hay, needle) {
   return false;
 }
 
+// ---- which book of scripture is this work a commentary ON? --------------------
+// ⛔ THE SECOND FAILURE MODE, AND IT IS THE ONE A GOSPEL COMMENTARY WALKS INTO. A ✓ said
+// only "these words occur SOMEWHERE in the Clementine" — and in a commentary on one gospel,
+// the harmony's own parallels answer that question for the wrong verse. Measured on 9000
+// (Luke), where SIX spans scored ✓ and every one was a real divergence a stint caught by
+// walking the line: `Quid cogitatis MALA in cordibus vestris` cleared off **Mt 9:4** inside
+// a commentary on Lc 5:22; `Gaudete et exsultate` off **Mt 5:12** where Lc 6:23 reads
+// `Gaudete in illa die, et exsultate`; and `Gloria in EXCELSIS Deo` at Lc 2:14 cleared off
+// **Lc 19:38** — the entry song the gloss expounds two lines further down the same column,
+// which the plate then confirmed Migne had conformed it to.
+// ⚑ THE FIX IS NOT A CLEVERER TEST, IT IS PRINTING THE ADDRESS. A mark that says WHERE it
+// matched turns all six of those into visible signals: a reader glossing Luke 2 who sees
+// `✓ Lc 19:38` has been told the thing the bare tick concealed.
+const BOOK_OF_WORK = [
+  [/Genes/i, 'Gn'], [/Exod/i, 'Ex'], [/Levitic/i, 'Lv'], [/Numeri/i, 'Nm'], [/Deuteronom/i, 'Dt'],
+  [/Josue/i, 'Jos'], [/Judicum/i, 'Jdc'], [/Ruth/i, 'Rt'], [/Job/i, 'Job'], [/Psalmo?s?/i, 'Ps'],
+  [/Proverb/i, 'Pr'], [/Ecclesiaste/i, 'Ecl'], [/Cantic/i, 'Ct'], [/Sapient/i, 'Sap'],
+  [/Ecclesiastic/i, 'Sir'], [/Isai/i, 'Is'], [/Jeremi/i, 'Jr'], [/Lamentat/i, 'Lam'],
+  [/Baruch/i, 'Bar'], [/Ezechiel/i, 'Ez'], [/Daniel/i, 'Dn'],
+  [/secundum Matth/i, 'Mt'], [/secundum Marc/i, 'Mc'], [/secundum Luc/i, 'Lc'], [/secundum Joann/i, 'Jo'],
+  [/Actu[us]m? Apostol/i, 'Act'], [/Apocalyps/i, 'Apc'],
+  [/ad Romanos/i, 'Rm'], [/I ad Corinth/i, '1Cor'], [/II ad Corinth/i, '2Cor'], [/ad Galat/i, 'Gal'],
+  [/ad Ephes/i, 'Eph'], [/ad Philipp/i, 'Phlp'], [/ad Colossen/i, 'Col'],
+  [/I ad Thessal/i, '1Thes'], [/II ad Thessal/i, '2Thes'], [/I ad Timoth/i, '1Tim'],
+  [/II ad Timoth/i, '2Tim'], [/ad Titum/i, 'Tit'], [/ad Philemon/i, 'Phlm'], [/ad Hebraeos/i, 'Hbr'],
+  [/Jacobi/i, 'Jac'], [/Petri/i, '1Ptr'], [/Joannis/i, '1Jo'], [/Judae/i, 'Jud'],
+];
+const bookOfWork = (BOOK_OF_WORK.find(([re]) => re.test(manifest.title)) || [])[1] || null;
+
+// Migne's caput heads give the chapter the lemmata under them belong to.
+const ROMAN = { I:1, V:5, X:10, L:50, C:100, D:500, M:1000 };
+function roman(s) {
+  let n = 0;
+  for (let i = 0; i < s.length; i++) {
+    const v = ROMAN[s[i]], next = ROMAN[s[i + 1]];
+    n += (next && v < next) ? -v : v;
+  }
+  return n || null;
+}
+
 // ---- walk the chunks --------------------------------------------------------
 const files = fs.readdirSync(latinDir).filter(f => /^\d+\.md$/.test(f)).sort();
 const rows = [];
@@ -94,8 +146,17 @@ for (const f of files) {
   const fmBlock = (raw.match(/^---\n([\s\S]*?)\n---\n/) || [, ''])[1];
   const ctx = fmBlock.match(/^colContext:\s*"?(\d{4}[A-D]?)"?/m);
   let band = ctx ? ctx[1] : manifest.colFirst;
+  // The chapter a lemma belongs to comes from the caput head standing over it. Chunks
+  // repeat the head with `(cont.)` at a division, so this survives our own chunking.
+  // ⚑ Migne heads the first chapter CAPUT PRIMUM, not CAPUT I, so a numeral-only test
+  // lapses on exactly the chapter a work opens with. Both forms are read here.
+  const capWord = /CAPUT\s+(PRIMUM|[IVXLCDM]+)/;
+  const fmCap = (fmBlock.match(new RegExp('heads: \\["' + capWord.source)) || [])[1];
+  let caput = fmCap ? (fmCap === 'PRIMUM' ? 1 : roman(fmCap)) : null;
   // Split on lines so a VERS. address can be attached to the span that opens it.
   for (const line of body.split('\n')) {
+    const capLine = line.match(/^##\s+CAPUT\s+(PRIMUM|[IVXLCDM]+)/);
+    if (capLine) caput = capLine[1] === 'PRIMUM' ? 1 : roman(capLine[1]);
     let cursor = 0;
     // track column anchors as we pass them, left to right, so a span gets the band it opens under
     const anchors = [...line.matchAll(/\[(\d{4}[A-D]?)\]/g)];
@@ -108,7 +169,7 @@ for (const f of files) {
       const before = line.slice(cursor, a);
       const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+\.--\s*)$/);
       cursor = b + 1;
-      rows.push({ band, vers: vers ? vers[1].trim() : '', span });
+      rows.push({ band, caput, vers: vers ? vers[1].trim() : '', span });
     }
     if (starPositions.length % 2 === 1) unclosed++;
   }
@@ -131,9 +192,16 @@ out.push('');
 out.push('Mechanical phrase search of the normalized span against');
 out.push('`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).');
 out.push('');
-out.push('- **✓ Clementine verbatim** = this exact word sequence occurs SOMEWHERE in the Clementine.');
-out.push('  ⛔ It does **not** mean it occurs at the verse being glossed, and it is **not** clearance.');
-out.push('  A lemma can match some other verse verbatim and still diverge from its own.');
+out.push('- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the');
+out.push('  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is');
+out.push('  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the');
+out.push('  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.');
+out.push('- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma');
+out.push('  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel');
+out.push('  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:');
+out.push('  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the');
+out.push('  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in');
+out.push('  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.');
 out.push('- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be');
 out.push('  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an');
 out.push('  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**');
@@ -146,24 +214,55 @@ out.push('');
 out.push('## The inventory');
 out.push('');
 
-let hits = 0, misses = 0, singles = 0;
+let hits = 0, misses = 0, singles = 0, elsewhere = 0;
 for (const r of rows) {
   const norm = normalize(r.span);
   const words = norm.split(' ').filter(Boolean);
   let mark;
   if (words.length === 0) { continue; }
   else if (words.length === 1) { mark = '— single word, check in place'; singles++; }
-  else if (occursAsWords(flatNorm, norm)) { mark = '✓ Clementine verbatim'; hits++; }
-  else { mark = '⚠ NOT in Clementine verbatim — CHECK'; misses++; }
+  else {
+    // Every verse the span occurs in, as words. Cheap because the substring test rejects
+    // almost every verse before the boundary check is reached.
+    // ⛔ DO NOT STOP EARLY. The first cut of this loop kept the first six matches and
+    // broke — and because VERSES runs in canonical order, a common phrase in a gospel
+    // lemma filled all six slots from Genesis–Maccabees and the loop never reached the
+    // gospel at all. `Et factum est` under CAPUT VII was reported as matching ONLY
+    // elsewhere while standing verbatim at Lc 7:11. The ownership test must see EVERY
+    // match, so only the DISPLAY is capped. Caught by sampling the new flag's output
+    // instead of trusting the count — the same rule this project gives its agents:
+    // check the instrument before reporting the drift.
+    const refs = [];
+    let ownMatch = false;
+    for (const v of VERSES) {
+      if (!v.norm.includes(norm) || !occursAsWords(v.norm, norm)) continue;
+      if (refs.length < 6) refs.push(v.ref);
+      if (bookOfWork && v.book === bookOfWork &&
+          (!r.caput || Number(v.ref.slice(bookOfWork.length + 1).split(':')[0]) === r.caput))
+        ownMatch = true;
+    }
+    if (!refs.length) { mark = '⚠ NOT in Clementine verbatim — CHECK'; misses++; }
+    else {
+      const shown = refs.slice(0, 3).join(', ') + (refs.length > 3 ? ', …' : '');
+      // A VERS. address makes this the verse lemma proper, so it should stand in THIS
+      // work's own book and chapter. Anything else is a parallel, and a parallel that
+      // answers for the lemma is exactly the false ✓ this file used to hand out.
+      const own = bookOfWork ? ownMatch : true;
+      if (r.vers && bookOfWork && !own) {
+        mark = `⚑ MATCHES ONLY ELSEWHERE — ${shown}  (lemma is ${bookOfWork}${r.caput ? ' ' + r.caput : ''}) — CHECK`;
+        elsewhere++;
+      } else { mark = `✓ ${shown}`; hits++; }
+    }
+  }
   const lead = r.vers ? r.vers + ' ' : '';
   out.push(`[${r.band}] ${lead}${r.span}   ${mark}`);
 }
 
 out.push('');
-out.push(`## Totals — ${rows.length} spans: ${hits} ✓ · ${misses} ⚠ · ${singles} single-word`);
+out.push(`## Totals — ${rows.length} spans: ${hits} ✓ · ${elsewhere} ⚑ · ${misses} ⚠ · ${singles} single-word`);
 if (unclosed) out.push(`\n⚠ ${unclosed} line(s) carry an odd number of \`*\` — an italic span may cross a line. Check by eye.`);
 
 fs.mkdirSync('data/briefs', { recursive: true });
 const dest = `data/briefs/${idno}-lemmata.txt`;
 fs.writeFileSync(dest, out.join('\n') + '\n');
-console.log(`${dest} — ${rows.length} spans: ${hits} ✓ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}`);
+console.log(`${dest} — ${rows.length} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}`);

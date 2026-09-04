@@ -44,6 +44,52 @@ These were settled on **Liber Ruth (8968)**, the pilot; the full statement is
    the work page.
 5. **The standard work-page template is sufficient.** No lemma-aware layout. Do not ask.
 
+## ⭐ THE VOCABULARY AXES — settled across four books, and they bind you from your FIRST chunk
+
+⛔ **These lived only in per-work launch briefs until 2026-09-04, re-stated each time from the
+previous work's file, and that is precisely how they drifted.** Measured cost of not carrying them
+in: the cruces merge ran **100+ edits on Mark, 147 on 9004, 15 on John** (the first work whose
+stints were handed the axes before writing a line) and **3 on Luke**. On 9004 *gentes* alone was
+rendered three different ways across four stints — in a work whose whole argument is the
+*Judaei*/*gentes* typology. They are recorded here so the next book inherits them from one place.
+
+1. **The commentator's own voice is NOT archaised.** `dicit`/`ait` → **says**, never *saith*.
+   `-eth` forms are permitted **only inside quoted scripture**; the italic-membership test is how
+   you tell. (9004's stint 4 archaised 168 gloss-side verbs; 9001's stint 5 did eight.)
+2. **`turba` → crowd. `multitudo` → multitude.** Never one English word for both — Mark 0211C
+   prints them in a single sentence.
+3. **`daemonium` → demon. `diabolus` / `satanas` → devil / Satan.** Do not let the Douay "devils"
+   for *daemonia* pull the first into the second.
+4. **The *gentes* family — four settled words and two added on Luke:**
+   - `natio` → **nation**, always.
+   - `gentes` → **Gentiles** in the *Judaei*/*gentes* typological opposition; **nations** where the
+     sense is plainly generic (*in omnes gentes*, Lc 24:47; *omnes gentes*, Mt 28:19).
+   - singular `gens` of the Jewish people → **nation** ("their own nation", *tollent locum nostrum
+     et gentem*).
+   - `ethnicus` → **heathen**, a fourth word and not part of this axis.
+   - ⭐ **`gentilis` → Gentile / Gentiles**, and **`gentilitas` → the Gentile world.** Added
+     2026-09-04 from 9000, where two stints hit words the axis did not rule on and **flagged them
+     rather than deciding silently** — which is the behaviour this section exists to reward. Luke
+     carries 21 `gentil-` and 3 `gentilitas` against 4 `natio`, so this is not a rare corner.
+5. **`mysterium` → mystery; `sacramentum` → sacrament**, 1:1. Settled mechanically where the two
+   stand in one phrase (*novorum mysteriorum sacramenta*, 0259D).
+6. **`usque ad` → "as far as"** — the abridgment's splice formula, marking where the recension cuts
+   a father's sentence short. Not "down to", not "up to", not "as far as the words". Settled on John
+   (within-work majority 26–15 and the form Mark uses).
+   ⛔ **The axis governs the FORMULA, not the words wherever they occur.** At 9000 @0316A the phrase
+   **is Luke 16:16 itself** — *Lex et prophetae usque ad Joannem* — a lemma, and it renders "until
+   John". Temporal uses (*a vespera usque ad vesperam*) take "until"; *a fine usque ad finem* is
+   "from end to end". Take the exception where the Latin forces it and **say so in your cruces with
+   the Latin that forced it** — a silent departure is drift and the merge cannot tell the two apart.
+
+⚑ **BEFORE YOU REPORT DRIFT ON ANY OF THESE, CHECK THE INSTRUMENT.** Every one of these greps
+manufactures a number that reads exactly like a violation, and each has fooled a stint:
+`\bturba` matches the verb *turbare* (*perturbatos*, *turbatam*, *turbine* — a whirlwind);
+`natio` matches *damnatio-*, *inclinatio-*, *examinatio-* (one stint's grep returned nine hits in a
+range containing no *natio* at all); `\bdaemoni` **misses** *daemones*, *daemonum*, *daemone*; a
+raw `usque ad` grep overcounts the italic formula by catching unitalicised prose. Five stints on
+9000 hit these and five caught them before reporting.
+
 ## Context you must read first
 
 1. **`translation-style.md`** — the frozen register rulebook. Follow it exactly. The
