@@ -546,3 +546,353 @@ his*` 0930D against `*Pro iis qui mutabuntur*` five lines later — Migne prints
   plate. The word sits in col 0932's over-inked right margin and the terminal is a blot at 500 dpi
   with autocontrast. `Misericordia est` construes and `Misericordiam est` does not, but that is an
   argument, not a read. **Needs Gallica.** No marker fired; the English renders our TEI.
+
+---
+
+# Stint 0073–0076 · cols 1002B–1011B · Psalms XCIII–C · reported 2026-09-04
+
+**Six leaves read at the plate (PDF 506–511, cols 1001–1012), every corner number checked before
+the page was trusted. All twelve columns CLEAN at the inner margin — including 1001, 1005 and
+1009, which are ≡ 1 (mod 4). That is three more counterexamples to the withdrawn mod-4 rule, and
+this stint fired nothing on the strength of it either way.** No foot-of-page conjecture apparatus
+on any of the six leaves, in either layer. **Fourteen departures over ten columns ≈ 1.4/column**,
+matching the band rate exactly.
+
+## 🅐 CC MOVES MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation
+
+- **1004B** plate `*In psalmi jubilemus.*` → our TEI `*In psalmis jubilemus.*`
+  (Ps 94:2 Clem. `et in psalmis jubilemus ei`). ⭐ **Patching this back UNLOCKS a marker**: Migne's
+  `psalmi` is refuted by his own next words, `Quae dicimus in psalmis` — the gloss expands its
+  lemma into the right case. Candidate `[cj: *psalmi*; read *psalmis*, "in psalms"]`. **No English
+  change is owed** — "in psalms" renders either.
+- **1007B** plate `*Audivi et laetata.*` → our TEI `*Audivit et laetata.*`
+  (Ps 96:8 Clem. `Audivit, et laetata est Sion`). ⭐⭐ **The highest-value site in this range.** CC
+  erased a **first-person/third-person** divergence *before any instrument looked*, and the gloss
+  under it argues in the third plural (`Audierunt apostoli`). Patching it back makes a
+  `[var: Vulg. Ps 96:8 *Audivit*, "she hath heard"]` available. English change owed at patch time:
+  "*He hath heard and was glad.*" → "*I have heard and she was glad.*" — **flagged, not made.**
+- **1007B** plate lemma stub `*Terra... deos.*` → our TEI `*Terram . . . deos.*`
+  (Ps 96:9 Clem. `super omnem terram … super omnes deos`). English unaffected (no case in English).
+- **1005D** plate `ne quis ergo dicat : *Ecce hic Christus esse illic,*` → our TEI
+  `*Ecce hic Christus, ecce illic,*`. CC substituted `ecce` for Migne's `esse`, moving him toward
+  Mt 24:23 (`Ecce hic est Christus, aut illic`). ⭐ **English change owed at patch time** — this is
+  the one site in my range where the two Latins say different things. Our English currently reads
+  "*Lo, here is Christ, lo there,*" which renders **our TEI**, not Migne. After the patch it should
+  read "*Lo, here is Christ to be there,*" with the crux carrying the conjecture (`aut` / a second
+  `ecce`), and a `[var:]` against Mt 24:23 becomes available. **Flagged, not made** — the ordering
+  rule in §3 of the launch brief is exactly what this site is for.
+
+## 🅑 CC REPAIRS MIGNE'S REAL DEFECTS — each patch UNLOCKS a marker we are entitled to fire
+
+- **1010A** the psalm head is printed **`PSLMUS C.`** on the plate → our TEI `PSALMUS C.`
+  ⚑ Note this also stands in the chunk-0076 frontmatter `heads[]`. **No English change is owed**:
+  Pattern 9 normalizes a section label in English precisely because the facing Latin preserves the
+  misprint, so the head must read `PSALM C.` either way — but the Latin column should carry what
+  Migne set.
+- **1009C** plate **`inicipientibus`** (a non-word) → our TEI `incipientibus`.
+  ⭐ Unlocks `[sic: *inicipientibus*]`. English unchanged ("those who are beginning").
+- **1010D** plate **`ibi, *in mututinis.*`** (a non-word) → our TEI `*in matutinis.*`
+  ⭐ Unlocks `[sic: *mututinis*]`. English unchanged ("*in the mornings*").
+- **1006B** plate `atque regnum **adjuraverunt** ei` → our TEI `abjuraverunt`.
+  The 8990 `concilio`→`consilio` class: an alteration to a **different verb**, and CC's is the one
+  the sense wants (the Jews *renounced on oath* the kingdom to him). ⭐ Unlocks
+  `[cj: *adjuraverunt*; read *abjuraverunt*, "renounced on oath"]`. English currently renders our
+  TEI ("abjured the kingdom to him") and needs no change under the additive `[cj:]` form.
+- **1011B** plate `Jam enumeravit quod **et** non adhaeserunt nisi boni` → our TEI `quod **ei** non
+  adhaeserunt`. Same class, same direction: CC's reading is the better Latin. ⭐ Unlocks
+  `[cj: *et*; read *ei*, "to him"]`. English currently renders our TEI ("none clave **to him** but
+  the good"). ⚑ This one is a **reference-binding** site, the class §4 of the launch brief names as
+  invisible to every automated check — worth the patch pass looking at it twice.
+
+## 🅒 CC CREATES NON-WORDS MIGNE DOES NOT PRINT — no `[sic:]` is owed in either state
+
+- **1004A** plate `*Cantus* **hilaritatem** significat.` → our TEI `hilaritarem`.
+  Checked against a known `t` and a known `r` on the same printed line before believing it.
+  Our English renders the sense ("*Song* signifies gladness"), which is right for the patched Latin
+  and is the only thing a non-word can be given.
+- **1008D** plate `*Terra scabellum **pedum** ejus*` → our TEI `vedum`.
+  Our English renders "the footstool of his **feet**" (Is 66:1), right for the patched Latin.
+
+## 🅓 Punctuation and note-placement departures (low value, listed for completeness)
+
+- **1002C** plate `*Psalmus David.*` **with a full stop inside the italic** → CC drops it
+- **1002C** plate `nec optes vindictam : quae si venerit` (colon) → CC semicolon
+- **1003A** plate sets the note **outside** the italic and after a full stop —
+  `*…ut recipiat unusquisque.* (Rom. XIV), etc.` → CC puts `[n: (Rom. XIV)]` **inside** the span
+  and after a comma. ⚑ Worth a look at the patch pass: this changes what the italic span *is*, and
+  the span count is the only detector this project has for that class.
+- **1005C** plate `prius sit sanctus. quod fit ex eo sanctificante:` (full stop, lowercase `quod`)
+  → CC comma
+- **1005C** plate `daret honorem Deo nisi hic alienigena` (no comma) → CC inserts one before `nisi`
+- **1005D** plate `*Regnavit,* Alia littera:` (comma, inside the italic) → CC `*Regnavit.* Alia`
+- **1006C** plate `cum caro ejus resurrexit postquam resurrectionem` (no comma) → CC supplies one
+- **1010C** plate `et perfecisti justitiam, Sed duobus modis` (comma + capital `Sed`) → CC full stop
+- **1010D** plate `*Non proponebam* Quasi ;` → CC `*Non proponebam.* Quasi:`
+- **1011A** plate `vel judicent mecum,` (comma) → CC full stop
+
+## ✅ Checked at the plate and AGREEING with our TEI — so nobody re-opens them
+**These are the checked negatives, and they cost as much as the findings.**
+
+- **1004D `non quas eminus, quia sunt, et oves quas non fecimus`** — read at 500 dpi. **The crux is
+  MIGNE'S, not CC's**, so no patch is owed and no `[sic:]` may be fired (`eminus` is a real word;
+  Pattern 12 excludes real words that are merely wrong). Corpus control: 16 `eminus` against 2
+  `emimus` in `src/latin/`, so the form is not itself suspect. Conjecture `emimus` ("which we
+  bought"), on the parallel with `quas non fecimus` in the very next clause — carried in the
+  cruces, **`[cj:]` declined** under 18a.
+- **1006C `postquam resurrectionem`** set as **ONE word** on the plate. Migne's, not CC's. The
+  syntax wants `post quam resurrectionem`. No `[sic:]` (Pattern 12 excludes real words), crux only.
+- **1010C `si deserit miserum`** — ⚠ **the standing `deservit`/`deserit` check, and it comes back
+  CLEAN in both witnesses.** Plate and TEI both read `deserit`, and the sense confirms it: the
+  contrast is with `si facit miserum`, not a dative construction.
+- **1005C `Non est inventus qui daret honorem Deo`** — the `honorem`-for-`gloriam` divergence from
+  Lc 17:18 is **MIGNE'S**, verified on the leaf. A `[var:]` is therefore owed and is fired.
+- **1008B** the whole Ps 98 opening, including the wrong citation `(Psal. XLVIII)` for what is
+  Ps 84:12 — Migne's, passed through verbatim.
+- **1003C** `(Matth. XXVI)` for what is Mt 14:28, and **1010D** `(Matth. VIII)` for what is Mt 5:6 —
+  both Migne's, passed through verbatim.
+- **1011B** the B band mark stands beside `ubi ostendit / quis finis sit malorum`, which is exactly
+  where our anchor `[1011B]` sits — anchor **position** verified, not merely presence (test 2b).
+- ⚑ **Cross-reference for the patch pass:** an earlier stint left **0932B `*Misericordia* est`
+  vs `Misericordiam est`** in the "cannot be settled on this copy" list. My **1007D** is the same
+  word in the same construction and it **could** be read: the plate sets `*Misericordiae* est quo
+  promisit` in italic with a clear `-ae` ligature. That does not settle 0932B, but it shows the
+  construction Migne uses, which is an oblique case and not the nominative CC gives at either site.
+
+---
+
+# Band B · stint 0069–0072 · cols 0992A–1002B (PDF pp. 501–506) — 2026-09-04
+
+**All six leaves read at 200 dpi full page with 600/900/1200 dpi crops on every candidate; corner
+numbers read first on each (991/992 … 1001/1002, foot of p. 506 reads PATROL. CXIII., signature 32).
+Six columns collated word by word, twelve column-bands.** **No column in this range is clipped at
+the inner margin** — twelve more counterexamples to the withdrawn mod-4 rule. **No foot-of-page
+apparatus of either layer on any of the six pages.**
+
+**16 word-level departures over 11 collated columns ≈ 1.5 per column**, matching Band A's rate.
+
+## 🔴 Class 2 — CC REPAIRS Migne's real defect (each one, once patched, UNLOCKS a `[sic:]` we are entitled to fire)
+
+| col | Migne prints | our TEI | control that was actually run |
+|---|---|---|---|
+| 0993B | `Humilitatus. est perdendo` | `Humiliatus est` | 600 dpi; **and the full stop after the word is Migne's too — CC swallowed both.** No verb *humilitare* is attested; *humiliatus* is the form |
+| 0996A | `*Quis est hemo?*` | `homo` | 600 dpi. The italic `o` of `hemo`'s own last letter and the italic `e` of `est` on the same line are the control; **`*Quis est homo?*` prints correctly eleven lines above at 0995D** |
+| 0996A | `*de manu iuferiori,*` | `inferiori` | 900 dpi. Turned `n`. Controlled against the italic `u` of `manu` (same line, three words earlier) and the `n` of `animas` (same line): the glyph is the cup, not the arch |
+| 0996A | `*Opprobri servorum.*` | `Opprobrii` | 600 dpi; single `i`, and the Vulgate has `opprobrii`, so CC's form is the conformed one |
+| 0996C | `Elcce omnis` | `Ecce` | **1200 dpi: five distinct glyphs**, the `l` a full-height vertical with its own serif foot, clearly separated from the `c` that follows |
+| 0996D | `et *aani* tui non deficient` | `anni` | 1200 dpi; two closed bowls, then `n`, then dotted `i` |
+| 0996D | `qnasi nihil est` | `quasi` | 900 dpi. Turned `u`. Controlled against the `n` of `nihil` on the same line |
+| 0998A | `*et delectatio sumus.*` | `delectati` | 600 dpi; `delectatio` in full |
+| 0998A | `per iniqui-tales dispersi` | `iniquitates` | 600 dpi, hyphenated across the line; cf. Band A's `iniquitetem` @0910C, same shape |
+| 0998C | `quia est jauna per quam` | `janua` | 600 dpi; **`Janua Christus` prints correctly four lines below on the same column** |
+| 1000A | `ut jam speram sequi` | `sperem` | 600 dpi |
+| 1000D | `quibus uior, vel quae miror` | `utor` | 900 dpi. **The glyph carries an i-dot**, so it is a set sort, not an under-inked `t` — this is why it is reported and the `possit`→`rossit` class is not |
+
+## 🟠 Class 1 — CC moves Migne ONTO the Clementine (invisible to any Vulgate collation)
+
+| col | Migne prints | our TEI | why it matters |
+|---|---|---|---|
+| 0999D | `oculis tuis considerabit malum` | `considerabis` | Ps 90:8 has `considerabis`, which is exactly what CC supplies. **The plate keeps both forms in one column** — `considerabit` in Augustine's paraphrase and the lemma `*considerabis.*` at 0999D's foot |
+| 1000B | lemma `*Et conculcabit.*` | `conculcabis` | ⭐ **The gloss is built on the third person**: its very next words are `Serpentem calcat Ecclesia` — *the Church* treads. A conformed lemma destroys the exposition it carries. Once patched, a `[var: Vulg. *conculcabis*]` is owed here |
+
+## 🟡 Class 3 — our Latin carries what the plate does not
+
+| col | Migne prints | our TEI |
+|---|---|---|
+| 0992B | `per Spiritum manifestasti` | `manifestati` — CC drops the `s`, leaving a participle governing nothing where the plate has a second-person perfect parallel to `dixisti` |
+| 0993C | `per synecdochen` | `synedochen` (CC drops the `c`; a non-word Migne does not print, so **no `[sic:]` is owed**) |
+| 0993D | `praecursoris Dominum hospitium praeparantis` | `Domino` |
+| 0996D | `trepidatione, qnasi nihil est` | `et quasi nihil est` — CC **inserts an `et`** the plate does not print |
+| 0999D | `tribunalis, qui quibus sedebunt` | `in quibus` — CC replaces Migne's `qui` with `in`. Whether the plate's `qui quibus` is a compositor's false start (11a) is for the patch pass, not for me |
+| 0999D→1000A | `Ideo-` / `que diligenter adverte`, broken across the column turn | `Ideoque [1000A] que diligenter adverte` — **a dittography CC manufactured at the column break.** No `[d:]` is owed: it is ours, not Migne's. **The English renders `Therefore` once and the anchor stays in place**; the patch pass should not read the English as having dropped a word |
+
+## 🔵 Punctuation-only departures (recorded, not argued — the class is pervasive here)
+0992B `Apostolus ; Dico` → our `:` · 0993B `percusso corde. ubi` → our `,` · 0994D `id est Christo. per
+sanctitatem` → our `,` · 0995A `vel *sprevisti.* quia` → our `,` · 0995A `reputantur, Sepes` → our `.` ·
+0995C `quae nihil nisi per ipsum` → our `nihil,` · 0996B `VERS. 1, —` → our `VERS. 1.--` · 0996D
+`Secundo. exponit` → our `,` · 0996D `Non dicit. saltem` → our `,` · 0996D `*Vespere decidat,* In` → our
+`.` · 0997A `*Vel mane sicut herba.*` → our `*Vel, mane…*` · 0997C `ut a via, ejus` → our no comma ·
+0997D `monet nos,` → our `.` · 0998B `[Describit primo` → our text drops Migne's opening bracket ·
+1001B `Ite maledicti` → our `Ite,`. **None of these is argued as a patch; they are here so a later
+collation does not re-derive them.**
+
+## ✅ Checked at the plate and AGREEING with our TEI (so nobody re-opens them)
+`Diapsalma` set **ROMAN** at 0992D, 0994A, 0994D, 0995C — four more reads confirming §A1.2 ·
+`*Quis novi.*` 0997C is **Migne's**, not CC's (900 dpi) — a `[var:]` against Vulg. `novit`, never a
+`[sic:]`, because *novi* is a real form · `*Splendor … et operamini.*` 0998B is Migne's · `*Cum exorti
+fuerunt.*` 1001A, `*Et ab insurgen-tibus*` 1001B, `*In diem*` 1001D, `*mirabilis ela-tio maris*` 1002B all
+Migne's · `ab emenda-tione` 0995B is Migne's (900 dpi) · `et pascua eveniet` 0998C is Migne's (Jn 10:9
+has `inveniet`; it stands in the gloss's prose, not in an italic lemma, so no marker) · `(CAS.)` 0992D
+against `(CASS.)` elsewhere — Migne alternates · `(HIER.. CASS.)` 0998B and `(CASS )` 1002B — his own
+loose pointing of the sigla · **cols 1001A–1002B carry no word-level departure at all**, the cleanest
+pair in the range.
+
+---
+
+# Stint 0064–0068 (cols 0981A–0991D, Ps LXXXI–LXXXVII) — six pages read at 300 dpi full width plus 600 dpi crops, PDF 496–501, corners 982 / 983-984 / 985-986 / 987-988 / 989-990 / 991-992
+
+**Clipping:** col **0981 is CLIPPED** at the inner margin (3–6 characters). **0983, 0985, 0987, 0989, 0991 are all CLEAN** — and 985 ≡ 1 (mod 4), one more counterexample to the withdrawn mod-4 rule.
+
+## 🔴 Class 2 — CC REPAIRS a real Migne defect (each one, once patched, unlocks a marker)
+
+| col | Migne prints | our TEI | note |
+|---|---|---|---|
+| 0983C | `Ge enim **vallit**, Bal, vana` | `vallis` | 600 dpi; clear `-it` with a dotted i. **A non-word here** — Migne's own line two above prints the gloss `Vallis vana.` in roman, which is the true reading. Once patched, `[sic: *vallit*]` is owed |
+| 0985A | `Egit autem in praedictis **psalmi** de Domini incarnatione` | `psalmis` | 600 dpi. A real word with no grammatical slot (`in praedictis psalmi` does not construe). Once patched, `[sic: *psalmi*]` is arguable under Pattern 12's test 1 |
+| 0986D | `Sed fac praesentia incarnationis eum **ventibus** respici` | `gentibus` | 600 dpi; a clean roman `v`, **no descender**, so not a damaged `g`. **A non-word.** Once patched, `[sic: *ventibus*]` is owed |
+| 0991B | `id est, confusus de peccatis ea **damnado**` | `de peccatis, ea damnando.` | 600 dpi. Non-word `damnado`; CC also supplies the comma after `peccatis` **and the terminal full stop, which the plate does not print at all**. Once patched, `[sic: *damnado*]` is owed and Pattern 8 governs the missing stop |
+| 0991C | `Et alibi : ***Percutium** et sanabo.* occidam` | `Percutiam et sanabo:` | 600 dpi. Non-word inside a quotation of Dt 32:39; CC also turns Migne's full stop after `sanabo` into a colon. Once patched, `[sic: *Percutium*]` is owed |
+| 0991C | `unde amici **et videantur, et** more deserunt` | `unde amici et noti timore deserunt` | ⭐⭐ 600 dpi. **A compositor EYE-SKIP:** the line above ends `circumfluere videantur, et` and the compositor re-set that ending, losing `noti ti-` and leaving the orphan `more`. This is the most consequential site in the range: it is a `[d:]`/`[sic:]` shaped defect, and under 11a the INTRUSIVE copy is the second (`et videantur, et`), the first being the true text |
+| 0982C | `coronabuntur**, :** mali vero, qui eos persequuntur**.** torquebuntur.` | `coronabuntur: mali vero, qui eos persequuntur, torquebuntur.` | 600 dpi. TWO defects on one line: a comma and a colon set together, and a full stop that strands `torquebuntur.` as a sentence. CC tidied both |
+| 0981C | `sed amicus / [clip] stat et audit, et gaudio gaudet **Deorum.** Quos` | `gaudio gaudet. Deorum.` | 600 dpi. **No full stop before `Deorum`** on the plate; CC inserts one, separating the Jn 3:29 quotation from the Ps 81:1 lemma it runs into |
+
+## 🟠 Class 1 — CC alters Migne to a different real word (invisible to any collation)
+
+| col | Migne prints | our TEI | why it matters |
+|---|---|---|---|
+| 0987B | `Prophetice **dixi** futura, ut praeterita` | `dixit` | ⭐⭐ 600 dpi. **The person is load-bearing.** The same sentence continues `quasi dicat, dixi quasi facta. Et quia video futura … oro ut fiant` — first person throughout. CC's `dixit` puts the clause in a third person the passage does not have. Our English reads "He said prophetically" because Pattern 7 requires it; the patch will make it "I said" |
+| 0985A | `et pereant **animo** irreparabiliter` | `omnino` | 600 dpi. Clear `animo` (controlled against `anima` on the line above). CC's `omnino` is a different word entirely |
+| 0985D | `Nidus ad tempus, domus **vera** in aeternum` | `vero` | 600 dpi |
+| 0982A | `Vel **cum** contemptis terrenis sectando` | `eum` | 600 dpi. Roman `c`, controlled against the `c` of `contemptis` and the `e` of `terrenis` on the same line |
+
+## 🟡 Class 3 — our Latin has LOST what the plate prints
+
+| col | Migne prints | our TEI |
+|---|---|---|
+| 0989C | `Ecce alienigenae, id est, gentes **: et** Tyrus,` | `id est, gentes *Tyrus,*` — CC drops both the colon and the `et`, fusing two members of the gloss. **The English currently reads "that is, the Gentiles *Tyre,*" and the seam is CC's, not ours** |
+| 0984A | `(Rom. ii.) ***Assur,*** Deprimens` | `*Assur.*` — a comma turned into a full stop inside the italic run |
+
+## 🔵 Punctuation-only departures (recorded, not argued)
+0982A `Vel in morte` → our `Vel,` · 0987A lemma `*Benedixisti Domine.*` → our `*Benedixisti, Domine.*`
+(**note the direction: CC supplies exactly the comma the Clementine has at Ps 84:2**) · 0987A
+`*Mitigasti.*` → our `*Mitigasti*` (stop dropped) · 0986D `ire de virtute in virtutem.` → our no stop ·
+0986D `Immutabilis, scilicet, sine ortu` → our no second comma · 0990D `Non quos novit ;` → our `:` ·
+0991C `non meo merito (Aug.)` → our `merito.` · 0991C `vivere faciam. (Deut. xxxii).` → our no stop ·
+0991D `Amicum. (Cass.).` → our `*Amicum* [n: (CASS.)]` · 0991D `Proximum et notos etc.` → our `notos,` ·
+0983C `Gebal. Aug., Hier.)` and 0983D `Assur.(Aug., Hier )` — Migne's own unpaired parentheses, which CC
+regularises. **None of these is argued as a patch.**
+
+## ⛔ RAISED, CHECKED AT THE PLATE, AND DECLINED — do not re-open
+- **`omncm` / `opcrantis` @0984A, `Zcb` @0984A, `Eccc alienigenae` @0989C** — all four are the
+  **documented italic-`e`-images-as-`c` hazard**, not Migne's type. Three false candidates in one
+  stint's range, exactly the rate Band B has been measuring. **Our TEI is right in all four.**
+- **A bracket-shaped ink mark before `Antichristus` @0983B** and one before `dixi quasi facta` @0987B
+  — copy condition (broken/inked sorts), not readings. Not restored: the `possit`→`rossit` rule.
+- **A stray `?` after `Sisara,` @0984A**, standing flush at the right margin at the line end. It images
+  as a clean sort identical to the `?` of `Ubi sapiens?` on the line below. **Reported as an
+  observation, not proposed as a patch**, because a mark at the extreme right margin of this scan is
+  where ink bleed lives and one leaf cannot settle it. If a second copy confirms it, our
+  question-mark parity for chunk 0065 changes by one.
+- **`deserit` @0985D** (`sicut passer deserit silvas`) — the standing *deservit*/*deserit* check. **The
+  plate reads `deserit` and our TEI agrees.** A checked negative, recorded so nobody re-runs it.
+- **`filiis Excelsi omnes` @0981C** — the Clementine has `filii`. **CANNOT BE SETTLED ON THIS COPY:**
+  the word opens a line inside col 0981's clipped inner margin. Logged the way Band A logged f443 /
+  f449 / f453; needs Gallica. No `[var:]` fired.
+
+## ✅ Checked at the plate and AGREEING with our TEI
+`Diapsalma` set **ROMAN** at 0981D, 0987A, 0989B, 0989D — four more reads confirming §A1.2 ·
+`Deus quis similis?` @0982C–D: the plate really does clip the lemma before `erit tibi`, which is why
+the gloss can argue `est` against `erit` · `filii et Dei` @0982B is **Migne's**, not CC's (600 dpi) ·
+`Mater Sion dicet, homo.` @0989C is Migne's, comma and all · the `!` closing `qui in me loquitur
+Christus!` @0986C is Migne's · **no foot-of-page conjecture apparatus of either layer on any of the
+six pages** · `In Hebraeo` @0991A — **CLOSED**: the plate prints `In Hebræo non medici, etc.` with **no
+Hebrew type at all**, exactly like 0868A. This is the fourth of Band A's §D.4 clauses to be settled.
+
+---
+
+# Stint 0059–0063 (Band B, cols 0967C–0981A, Psalms LXXVII–LXXX) — 2026-09-04
+
+**Eight PDF pages opened (489–496 = cols 0967–0982), corner numbers read on every one.**
+**15 departures across 15 columns collated word by word = ~1.0 per column**, against the band's
+running ~1.4. Cols **0977 and 0978 came back with ZERO departures** and that negative is recorded in
+`data/plate-reads.json` deliberately.
+
+## A. CC REPAIRED A MIGNE DEFECT — patch restores the defect and UNLOCKS a `[sic:]`
+
+1. **0968D · p. 489 · `factus` → `fuctus`.** Plate: *Ephraim **fuctus** est facti columba insipiens.*
+   Controlled at 5× against the `a` of *facti*, *columba* and *Ephraim* **on the same printed line**;
+   the glyph is an open-topped `u`, the controls are closed-bowl `a`. **Unlocks `[sic: *fuctus*]`.**
+   ⚑ Our English already fires `[sic: facti]` on the *other* corrupt word in the same lemma, which
+   our TEI does carry; the two are independent.
+2. **0969A · p. 490 · `Discite` → `Discit`.** Plate: *…humile mandatum docuit : **Discit** a me, quia
+   mitis sum et humilis corde.* A third-person indicative where Mt 11:29 has the imperative and where
+   *docuit* requires it. **Unlocks `[sic: *Discit*]`.**
+3. **0973D · p. 492 · `propter` → `proptes`.** Plate: *Mores hominum Domino tribuit, **proptes** res
+   explanandas.* A non-word. **Unlocks `[sic: *proptes*]`.**
+4. **0976D · p. 493 · `Illuminatus` → `Illuminatur`.** Plate: *Asaph. **Illuminatur** agit de adventu
+   Christi.* ⭐ **Controlled on the facing column**: at 0977A the parallel gloss prints *Asaph
+   **illuminatus** de adventu Christi* correctly, so both forms stand on one opening and the `-tur`
+   is not an imaging artefact. Two finite verbs with no slot. **Unlocks `[sic: *Illuminatur*]`.**
+
+## B. CC MOVED MIGNE ONTO THE CLEMENTINE — invisible to any Vulgate collation
+
+5. **0973D · p. 492 · `Virtutem eorum.` → `Virtutum eorum.`** Plate sets the lemma **`Virtutum`**;
+   our TEI reads `Virtutem`, which is exactly Ps 77:61 (*tradidit in captivitatem virtutem eorum*).
+   ⭐ Migne's genitive plural is the reading the gloss beneath expounds — *virtutes abstulit in malis*.
+   **Unlocks a `[var: Vulg. *virtutem*]`.**
+   ⚑ **The English as filed renders our TEI's `Virtutem` ("Their strength.").** If this patch lands,
+   the English twin must change to "*Of their virtues.*" — flagged here so the patch pass does both.
+
+## C. CC ALTERED OR ADDED WHAT THE PLATE DOES NOT PRINT
+
+6. **0971A · p. 491 · note `(Rom. IX)` → `(Rom. IV)`.** The plate prints **(Rom. iv)** against
+   *Reliquiae salvae fient*; Rom 9:27 is the true locus, so **CC corrected Migne's citation.** The
+   English carries `[n: (Rom. IX)]` to match the twin as it stands; if patched, both sides change
+   together. No marker is owed either way (Pattern 4 / known false positive on citation tails).
+7. **0971A · p. 491 · `pepercit` → `perpercit`.** Plate: *Sic et illi genti **perpercit***. A
+   normalisation of the 8948 `convivum`→`convivium` class. Corpus: 17 `pepercit`, zero `perpercit`;
+   Clementine: zero. **English unaffected** ("he spared"), and **no `[sic:]` is owed** — Pattern 9,
+   an attested late/medieval perfect, not broken type.
+8. **0971D–0972A · p. 491 · `res alienas auferens` → `res aliena auferens`.** Plate reads **`aliena`**.
+   ⚑ Open for the patch pass rather than decided here: restored, `res aliena auferens` is a
+   number/case disagreement for which **English has no exponent** ("carrying off the goods of
+   another" reads identically), which is the Pattern 12(2) trigger *and* the Pattern 9 exemption
+   pulling opposite ways. I report the reading and decline to rule.
+9. **0972C · p. 491 · `hominis in sua indignatione` → `hominis sua indignatione`.** Our TEI **inserts
+   `in`**; the plate does not print it. English unaffected (ablative either way).
+10. **0973B · p. 492 · `ominus` → `eminus`.** ⭐⭐ **THE REVERSED ONE.** Plate: *arcum pravum, qui non
+    **eminus** jaculatur, sed in se spicula convertit.* Our TEI's `ominus` is a **non-word CC
+    manufactured**, so **NO `[sic:]` is owed** and firing one would have accused Migne of a defect he
+    does not have. **The English is written to the plate**: "which does not shoot from afar".
+11. **0979A · p. 495 · `Super te fundatam` → `Super et fundatam`.** Plate reads **`et`**. ⚑ Restored,
+    the clause does not construe, so a `[sic: *et*]` or a `[cj:]` becomes a live question — but the
+    English as filed renders our TEI's `te` ("Founded upon thee"), because rendering `et` would be
+    our own conjecture. **If patched, the English needs rewriting.** Flagged, not decided.
+12. **0980A · p. 495 · `pene` → `bene`.** ⭐ **CHANGES THE SENSE.** Plate: *Haec est aqua
+    contradictionis, quam senserunt antiqui, sed jam **bene** siccata est.* Controlled at 6× against
+    the descender-bearing `p` of *populorum* on the next line and the `b` of *turbabantur* on the
+    same line — a set `b`, not a damaged `p`, and not the h↔b hazard. **"well dried up" vs "almost
+    dried up".** The English as filed renders our TEI's *pene* ("almost dried up"); **if patched, the
+    English twin must change with it.**
+13. **0980B · p. 495 · missing terminal stop.** Plate: *…ut Judaei contradixerunt titulo crucis.*
+    Our TEI ends the paragraph with no point. **The English supplies the stop on the strength of this
+    read**, per Pattern 8 (the mark is Migne's; its loss is the digitization's).
+14. **0980C · p. 495 · a point CC INVENTED.** Our TEI reads `*In te,* in corde tuo. ubi veritas, non
+    falsitas debet esse.` The plate prints **`In te, in corde tuo ubi veritas`** with no point after
+    *tuo* — hence the impossible lowercase `ubi` after a full stop. **The English drops it** and
+    reads the clause whole.
+15. **0975C · p. 493 · `(CASS)` → `(CASS.)`.** Our TEI carries a bare, unmarked-up `(CASS)` outside
+    any `[n: …]`; the plate prints `(CASS.)` with its point, set exactly like every other siglum on
+    the page. A markup loss as much as a spelling one. The English reproduces `(CASS)` verbatim as
+    our twin has it. **Low value; listed for completeness.**
+
+## ✅ Checked at the plate and AGREEING with our TEI — the negatives
+- **`hunc panem, id est verbum` @0970A** — raised as a suspected CC insertion at 150 dpi and
+  **withdrawn at 400 dpi**: Migne prints *id est verbum*.
+- **`immadidos` @0968D**, **`Nunquid poterimus de petra aquam vobis ejicere?` @0970C**,
+  **`Cynomia` @0971D**, **`Thanis` @0972B**, **`Grandini` @0972C**, **`Igni. Ignis,` @0972C**,
+  **`Manus ejus et de manu tribu;` @0971C** (the truncation is Migne's — `[sic: tribu]` fired),
+  **`Et percussit iniquitatem` @0974A**, **`Exsultat Deo` @0979B**, **`ei acquievit` @0968C**
+  (the affirmative that contradicts its own lemma is Migne's; rendered as printed, logged as a crux).
+- **`deserit` @0973D** (*Sic deserit corpora nostra*) — the standing *deservit*/*deserit* check.
+  **Plate reads `deserit` and our TEI agrees**; the accusative *corpora nostra* confirms it, since
+  *deservio* governs the dative. Second checked negative for this pair in Band B.
+- **`Diapsalma` @0980B set ROMAN** — a sixth plate confirmation of §A1.2.
+- **Cols 0977 and 0978 entire: zero departures**, collated word by word.
+- **No foot-of-page conjecture apparatus of either layer on any of the eight pages read.**
+
+## ⛔ The clipping question — three more counterexamples
+**0981 is clipped** at the inner margin (first 1–3 characters of every line of the left-hand column
+cut by the gutter). **0967, 0969, 0971, 0973, 0975, 0977, 0979 are all clean.** Since 0969, 0973 and
+0977 are each ≡ 1 (mod 4) and clean while 0981 is ≡ 1 and clipped, this stint adds **three clean
+counterexamples from one gathering** to the withdrawn mod-4 rule. No marker of mine rests on a
+line-opening word in 0981.
