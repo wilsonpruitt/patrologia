@@ -224,6 +224,122 @@ instrument.** Check the instrument before reporting the drift.
 
 ---
 
+---
+
+## §1a. THE BLIND POLARITY READ — 26 sites, 19 ours, and it overturned two closed rulings
+
+Three blind Opus readers, disjoint ranges (0000–0009 / 0010–0018 / 0019–0027), **all 28
+chunks**, each fenced from this file and from every `cruces-*.md` until its own findings were on
+disk. Per-reader reports: `data/polarity-findings/8999-reader1.md` … `-reader3.md`. Recorded in
+`data/polarity/8999.json`.
+
+**26 sites adjudicated: 19 ours and repaired, 5 confirmed as Migne's, 2 withdrawn by their own
+reader on the merge's evidence.** Mechanism 5 accounts for **11 of the 19** — a reference
+silently re-bound to the contextually easier noun, the dominant class on 9001 (5 of 6), 9004
+(5 of 8) and 11613 (12 of 25), and dominant again here.
+
+### §1a.1 ⛔ ALL THREE PARTICLE TALLIES FOUND NOTHING, AND THE WORST SITE SCORED CLEAN
+
+Every reader ran a per-chunk tally of `non`/`nec`/`neque`/`nisi`/`haud`/`nunquam`/`nullus`/
+`nihil`. **Not one finding in this work came from a tally.** Chunk 0016 scored exactly 57/57 and
+carries the flattest self-contradiction in its range; chunk 0022 scored clean and carries the
+worst defect in the book.
+
+⭐ **And the reason 0022 scored clean is worth writing down, because it defeats every mechanical
+check we have.** At 0415A the stint correctly diagnosed Migne's `nobis` for `non` and fired a
+`[cj:]` — but **parked the negation inside the bracket**, so the running English read *"they to
+such a degree understand for us"*. The marker's text contains the word "not", so the paragraph
+looks negative to any counter, to `verify-english`, and to the reader's own tally, while the
+sentence a human reads asserts the opposite of itself and of **three neighbours on one line**
+(*"proverbs to men who do not understand"* before it; *"they do not even understand that they do
+not understand"* seven words after). This is `translation-style.md` 7a⁗ in its purest form: **the
+force must be carried in the running text, not in the apparatus.** Repaired.
+
+### §1a.2 ⭐⭐ THE READ OVERTURNED TWO RULINGS THIS FILE HAD ALREADY CLOSED
+
+This is the argument for blindness, and neither could have been found by re-reading the apparatus.
+
+1. **0366C — logged here as MIGNE'S defect, and it is OURS.** The crux ruled the printed `et`
+   might be for `nec` and queued a plate check. But `non` already governs both perfect
+   subjunctives (*si non natus fueris … et [non] susceperis*), and **Chrysostom's Greek has καί
+   under a single μή**. The Latin is sound. The English negated only the first limb, so the page
+   said that a man who *has* received the certainty of the doctrines is the one far from the
+   kingdom — contradicting its own apodosis. Compounding it, `alicubi` had been moved out of the
+   apodosis into the protasis, **which is exactly what made the un-negated limb read tolerably
+   and so hid the fault.** Repaired; the ruling and its plate-check item are struck.
+2. **0409B — the crux's justification was not in the text it justified.** The `[cj:]` was
+   declined on the express ground that *modo* construes as "only" — and the shipped English
+   printed **"presently"**, the construal the crux had rejected. Plate reader D confirmed no
+   negation stands on the page, so the decline was right and the rendering was not. Repaired to
+   "only". ⚑ This is the 9001 @0199A class again: **a crux that records a decision the text does
+   not carry.** No re-reading of the apparatus can ever surface it, because the crux says the
+   right thing.
+
+### §1a.3 The eleven mechanism-5 repairs
+
+The worst four, each of which produced a doctrinally false sentence in fluent English:
+
+| col | what was bound wrongly | what the page ended up saying |
+|---|---|---|
+| **0394A** | *sibi* to the subject instead of to *Filium **Dei*** | Christ made himself "equal to himself" — a charge nobody could bring. ⚑ **Our own English at 0384C renders the identical two words correctly**, so the translation contradicted itself. |
+| **0412B** | *Patrem* to *nescientes* instead of to *oderunt* | the paragraph's whole conclusion — *they hate the Father* — deleted and replaced with a repetition of the previous clause, though 0412A and 0412C both depend on it |
+| **0392C** | three ablatives to *gloriantes* instead of to the Lord's exposition | the Jews glorying **in the true servitude of sin and the true liberty through the Son**, denied by the next clause |
+| **0416B** | *in homine* promoted to subject | a Christological claim about the Son's manhood receiving from the Father flattened into 1 Cor 4:7 as a maxim about mankind |
+
+Also repaired: **0374D** (*inducit*/*affirmat* given to Christ where the speaker is the
+**Samaritan woman** — and two entries earlier the identical formula *Pedetentim … instruit*
+genuinely *is* Christ, which is what made the wrong binding plausible), **0422B** (the Church
+entering after the Church; the subject of *intrabit* is the Synagogue, and the Rom 11
+eschatology was lost), **0387A**, **0395A**, **0403B**, **0411D**, **0397A**.
+
+### §1a.4 Four repairs that are not mechanism 5
+
+- **0366C** — negation scope, above.
+- **0386D** — the `non` sits on the infinitive in Latin (*non solvere vos sabbatum creditis*,
+  "you believe you do **not** break the sabbath") and had been raised to the main verb ("you do
+  not believe that you break"), which is an absence of belief where the argument needs an
+  assertion.
+- **0390C** — ***a silent emendation of the printed Latin, undone.*** Migne prints *ut nos*; the
+  English had quietly corrected it to "as you do". The emendation is almost certainly right in
+  sense (Christ is answering *Vos secundum carnem judicatis*) — but a defect repaired invisibly
+  tells the reader the plate says something it does not. Now rendered literally with a `[cj:]`.
+- **0406A** — passive *cogitur* made active, and `et` ("even") dropped, which is the word
+  carrying the reluctance the whole gloss is about.
+
+### §1a.5 Confirmed as Migne's — two given a `[cj:]` the plate licenses, three logged
+
+- **0385D `audit`** — the sentence says *the world does not hear its own false witnesses*, when
+  the verse glossed is Jo 7:7 *odisse* and the whole point is that the world does **not hate**
+  its own. **Plate reader C confirmed the `au` is unmistakable at 2.3× — the reading is Migne's**
+  — so a `[cj: *audit*; read *odit*]` is exactly right: it conjectures on his text and asserts
+  nothing about whose the defect is. Fired. ⚑ Reader 2 dissented from the stint's "odd, not
+  false" decline and was right; this reads as perfectly smooth English and asserts a falsehood.
+- **0387D `assensionem`** — plate reader C confirmed the doubled `ss`. `[cj: *assensionem*; read
+  *ascensionem*]` fired; the same chunk expounds the ascension throughout.
+- **0422D `Noli peccare`** — the next sentence says what the angels forbid is her **tears**, so
+  the expansion wants *Noli plorare*. `[cj:]` fired on a column recorded read.
+- **0396D**, **0384A**, **0401A** — logged, no marker. 0396D is the clearest
+  contradicts-its-own-neighbour in the book (both halves of an *e contra* antithesis end
+  *sed in fine perseverant*, so the page asserts the reprobate persevere) and **plate reader D
+  confirmed both clauses really do read that way**; no determinate conjecture is available, so
+  none is offered.
+
+### §1a.6 What the readers withdrew, and why that matters
+
+Reader 3 withdrew two of its own findings on seeing this file: the four "silent non-word
+corrections" it flagged are the ruled NORMALIZED policy of §0.5, and the 0410D full stop is
+Migne's own. Reader 1 withdrew its *quodum* objection as deliberate Pattern 7 policy — **and the
+merge then read the plate anyway and found the reader's instinct right**: leaf n191 prints
+*quodam*, so the word was ours and is now patched and translated. Reader 2 conceded 7 of its 15
+as already known and "usually better reasoned" there.
+
+⚑ **A structural observation from reader 2 worth keeping.** This file's mechanism-5 census names
+three sites, **all inside chunks 0010–0011** — and all four of that reader's serious re-bindings
+sit in **0012–0018**, the range that never got a census. A stint's own apparatus is a complete
+record of what it looked for and silent about what it did not.
+
+---
+
 ## §2. THE STINTS' OWN FILES, VERBATIM
 
 Six files, unabridged and in range order. Each states the policy it applied *before* its
