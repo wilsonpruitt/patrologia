@@ -1,7 +1,7 @@
 {
  "note": "TEI patches for 8999 (Glossa ordinaria in Evangelium secundum Joannem, PL 114, cols 0355B-0426B). Read against archive.org patrologiaecursu0114mign -- the SECOND WITNESS established for this volume on 9001: colour, 2215x3603, clean at both margins where our on-disk PL 114 scan clips them. Leaf n = (column + 11) / 2, calibrated on THIS work's own range from the printed corner numbers before any read (n183 = 355/356) and re-read on every leaf used.",
- "class": "CORRUPTED = CC broke or lost what Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently tidied a defect Migne actually printed; Migne's reading restored.",
- "result": "Opened 2026-09-03 at chunking, before translation, with the one patch the <LACUNA> tag forced. The [sic:]/[var:] plate read has NOT been run on this work.",
+ "class": "CORRUPTED = CC broke or lost what Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently TIDIED a defect Migne actually printed; Migne's reading is RESTORED and a [sic:] is OWED but deliberately not fired, because firing one is a fresh public claim per site. ⛔ The reader who found the last two normalizations argued against restoring them on the ground that it 'would introduce two non-words'. That is precisely the reasoning this convention overrides, and 9001 settled it: it restored Tlbi (a wrong dotless-l sort) and cruxifixum. Our Latin is not a corrected Latin, it is Migne's page.",
+ "result": "PLATE READ COMPLETE 2026-09-03, BEFORE the work shipped. Six readers, 18 leaves (n184-n192, n196-n200, n203-n205, n210-n217), all 23 [var:] and all 3 [cj:] read, plus 19 oddities the stints logged unmarked. ⭐ 23 of 23 [var:] CONFIRMED as Migne's, ZERO withdrawn -- with 9004 (46/46) and 9001 (19/19) that is 88 of 88 across three Glossa books. Zero [sic:] were fired by any stint, so nothing could fall. The 17 patches below all come from the SECONDARY pass over declined oddities and from lines read in passing; not one comes from a fired marker.",
  "patches": [
   {
    "col": "0416D",
@@ -16,6 +16,118 @@
    "replace": "quam se esse locutum dicit in mundo.",
    "direction": "corrupted",
    "why": "The orphaned CLOSING tag of the same spurious <LACUNA>, at the end of the paragraph on leaf n214 (cols 417/418), left column, band A. Removed with its opener so no unmatched tag survives to make a later chunk run report a lacuna in this work that the plate does not print. Text unchanged; the tag was stripped harmlessly either way."
+  },
+  {
+   "col": "0361A",
+   "find": "redemptum, nam sciebat\n<pb n=\"0361A\"/>\nbat eum Filium Dei esse",
+   "replace": "redemptum, nam sciebat\n<pb n=\"0361A\"/>\neum Filium Dei esse",
+   "direction": "corrupted",
+   "why": "Leaf n186 (cols 361/362). Migne breaks ONE word across the column break: the foot of col. 360 reads 'nam scie-' with a hyphen, and col. 361 opens 'bat eum Filium Dei esse'. CC resolved the hyphenation to 'sciebat' AND kept the orphan syllable 'bat' as well, so our file printed the syllable twice. The orphan is deleted and the <pb> anchor left between whitespace rather than set mid-word, so the chunker's column-continuity validation is unaffected. English needs no change: 'bat' was never rendered as a word. ⚑ FIRST OF FIVE INSTANCES OF THE HYPHEN-REJOIN CLASS IN THIS WORK."
+  },
+  {
+   "col": "0373D",
+   "find": "id est. quia",
+   "replace": "id est, quia",
+   "direction": "corrupted",
+   "why": "Leaf n192, col. 373 band D. Migne prints a comma; CC set a full stop. The English carried the stop through under Pattern 8, which is no longer warranted."
+  },
+  {
+   "col": "0373D",
+   "find": "et ideo crede:",
+   "replace": "et ideo credere:",
+   "direction": "corrupted",
+   "why": "Leaf n192, col. 373 band D. Migne prints 'qui potest credere et ideo credere :' -- the second credere with its full -re termination, in the same roman type and size as the first four words earlier on the SAME LINE, which makes the comparison direct rather than inferential. CC dropped the -re and turned his infinitive into an imperative."
+  },
+  {
+   "col": "0373D",
+   "find": "<note>(Isa. VII)</note>",
+   "replace": "<note>(Isa.)</note>",
+   "direction": "corrupted",
+   "why": "Leaf n192, col. 373 band D. Migne sets the siglum '(Isa.)' with NO numeral; our note carries 'VII'. ⚑ Unlike the other patches this is an ADDITION of a correct chapter number, not an OCR shape -- an editorial supplement somewhere upstream. Patched because CLAUDE.md rule 9 keeps fontes RAW VERBATIM and derives the controlled vocabulary later FROM the accumulated raws: a silently supplied numeral corrupts that pool with a precision Migne did not print. ⛔ Checked before patching that no following Ibid. depends on this reference (runbook false-positive 2)."
+  },
+  {
+   "col": "0399B",
+   "find": "Ut quatriduum impieretur.",
+   "replace": "Ut quatriduum impleretur.",
+   "direction": "corrupted",
+   "why": "Leaf n205, col. 399 band B. Migne prints the word hyphenated at the line turn, 'im-' / 'pleretur'. CC rejoined it across the break and misread the l. HYPHEN-REJOIN CLASS. English: the stint's Pattern 7 carry-plus-bracketed-sense device ('might impieretur [be fulfilled]') was built only because attribution was unavailable, and is unwound to plain 'might be fulfilled'."
+  },
+  {
+   "col": "0400C",
+   "find": "<hi>Sea propter populum,</hi>",
+   "replace": "<hi>Sed propter populum,</hi>",
+   "direction": "corrupted",
+   "why": "Leaf n205, col. 400 band C. Plate reads 'Sed' with a clean d ascender; CC misread d as a. English: 'Sea for the people' becomes 'But for the people'."
+  },
+  {
+   "col": "0410D",
+   "find": "caeteris liguis",
+   "replace": "caeteris lignis",
+   "direction": "corrupted",
+   "why": "Leaf n210, col. 410 band D. Migne prints 'li-' / 'gnis' across a line break = lignis, 'woods'. CC misread the second half. HYPHEN-REJOIN CLASS. English: the italic Pattern 7 carry of 'liguis' goes and the word is translated, which also restores the Latin-vs-English span parity cruces-0020 flagged."
+  },
+  {
+   "col": "0411C",
+   "find": "<hi>Haec manao,</hi>",
+   "replace": "<hi>Haec mando,</hi>",
+   "direction": "corrupted",
+   "why": "Leaf n211, col. 411 band C. Migne prints 'Haec mando' in italic, set whole on one line, no break and no damage -- the lemma of Jo 15:17. CC misread d as a. ⚑ Explicitly NOT the 9001 @0203A magnitudino case: there the plate itself carried the non-word, here the plate is clean."
+  },
+  {
+   "col": "0415A",
+   "find": "et quae ipsi interrogate",
+   "replace": "et quae ipsi interrogare",
+   "direction": "corrupted",
+   "why": "Leaf n213, col. 415 band A. Migne prints 'inter-' / 'rogare' across a line break -- the plain complementary infinitive with volebant. CC misread r as t in the second half. HYPHEN-REJOIN CLASS. ⚑ The reader noted that the same column prints interroges, interrogeris, interrogavit and interrogatus correctly, AND explicitly refused to rest the verdict on that, because corroboration proves an error exists and never whose it is. The ground is the printed 'inter-' / 'rogare'."
+  },
+  {
+   "col": "0410D",
+   "find": "est vitis. tamen hanc gratiam",
+   "replace": "est vitis, tamen hanc gratiam",
+   "direction": "corrupted",
+   "why": "Leaf n210, col. 410 band D. Migne prints a comma, magnified and unambiguous; CC set a mid-sentence full stop. ⚑ cruces-0020 lists this stop among the punctuation it FAITHFULLY CARRIED from the plate -- it is not on the plate, and that is the shape of the trap: a stint can only be faithful to the file it is given."
+  },
+  {
+   "col": "0416A",
+   "find": "<hi>ut omne quod dedisti ei det eis vitam aeternam:</hi>",
+   "replace": "<hi>ut omne quod ei dedisti ei det eis vitam aeternam:</hi>",
+   "direction": "corrupted",
+   "why": "Leaf n213, col. 416 band A. Migne's italic lemma prints 'ei' TWICE ('ut omne quod ei dedisti ei det eis'), read at 4x; CC dropped the first. A lost word, not a broken one."
+  },
+  {
+   "col": "0365B",
+   "find": "quisque constringitur",
+   "replace": "quisque contringitur",
+   "direction": "normalized",
+   "why": "Leaf n188, col. 365 band B, verified at 5x: Migne prints 'Funiculis peccatorum suorum quisque CONTRINGITUR (Prov. v.)' -- a genuine non-word. CC silently normalised it to the real word constringitur. ⭐ THE CLASS NO VULGATE COLLATION CAN EVER REACH, because the digitization removed the evidence before any collation ran -- the mirror of 9003's manufactured judicabit->judicavit. Migne's reading restored; a [sic:] is owed here and deliberately not fired. ⚑ The existing 0365B [var:] text and its crux both quote the normalised form and are corrected to match."
+  },
+  {
+   "col": "0410D",
+   "find": "cupiditas et infirmitas",
+   "replace": "cupidites et infirmitas",
+   "direction": "normalized",
+   "why": "Leaf n210, col. 410 band D, read at 4x: Migne prints 'sed quod habet CUPIDITES et infirmitas carnis.' -- a non-word for cupiditas. CC tidied it. Migne's reading restored, [sic:] owed and not fired."
+  },
+  {
+   "col": "0414D",
+   "find": "Redit ad patriam",
+   "replace": "Redit sd patriam",
+   "direction": "normalized",
+   "why": "Leaf n212, col. 414 band D, read at 4x: Migne prints 'REDIT SD PATRIAM, quia amatoribus suis se aequalem credendum docuit Patri.' -- 'sd' for ad, a damaged or foul sort. CC tidied it to ad. Migne's reading restored, [sic:] owed and not fired."
+  },
+  {
+   "col": "0420C",
+   "find": "mortalis fieri voluit",
+   "replace": "mortalis fierit voluit",
+   "direction": "normalized",
+   "why": "Leaf n215, col. 420 band C, read at 3x: Migne prints 'pro qua mortalis FIERIT voluit' -- a non-word. CC tidied it to fieri. Migne's reading restored, [sic:] owed and not fired. ⚑ Found while confirming the Jo 1:29 [var:] two lines above, not by hunting."
+  },
+  {
+   "col": "0417B",
+   "find": "sanctificati in veritate",
+   "replace": "sanctificati iu veritate",
+   "direction": "normalized",
+   "why": "Leaf n214, col. 417 band B: Migne prints 'sanctificati IU veritate' -- iu for in, a turned or wrong sort. CC tidied it. Migne's reading restored, [sic:] owed and not fired. ⛔ The reader proposed NO patch for this and the preceding one, reasoning that restoring them 'would introduce two non-words'. That is the reasoning the NORMALIZED convention exists to override, and 9001 settled it by restoring Tlbi and cruxifixum. Recorded here so the disagreement is visible rather than silently resolved."
   }
  ]
 }
