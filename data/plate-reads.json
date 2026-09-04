@@ -4148,6 +4148,147 @@
      "found": "see data/plate-findings/ and src/english/8999/cruces.md"
     }
    ]
+  },
+  "9000": {
+   "series": "pl",
+   "volume": 114,
+   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf + archive.org patrologiaecursu0114mign (second witness)",
+   "page_map": "PDF page = leaf n = (column + 11) / 2, the same map for both copies, calibrated on THIS work's own range from the printed corner numbers before any read (p.130 = 249/250, p.135 = 259/260, p.150 = 289/290, p.156 = 301/302, p.169 = 327/328) and re-read on every leaf.",
+   "note": "2026-09-04. All 33 [var:] of 9000 read at the plate across 22 leaves, BEFORE the work shipped: 32 confirmed as Migne's own printing, 1 withdrawn (0307B confusus -> confessus). ⭐ 12 of the 17 TEI patches came from the stints' DECLINED-ODDITY lists or from reading a page opened for something else -- not one from a fired marker, which is John's finding reproduced. FIVE ARE SILENT REPAIRS (CC tidying a defect Migne printed): quator, propetiae lectonis, invenitur- Qoud, sapipientiae, astritus -- the class no collation can reach, because the digitization removed the evidence first; two of them were in no stint's list at all. ⭐⭐ 0330A CONFIRMED AND IT IS A REAL EDITORIAL FINDING: the plate prints Gloria in EXCELSIS Deo at Luke 2:14 and gloria in excelsis again two lines later at Luke 19:38, so Migne (or his source) conformed the nativity song to the entry song the gloss is expounding on that same page. ⚠ SCAN DEFECTS RECORDED FOR THE VOLUME: leaf n153's left corner is set '9 5' (the medial 9 of 295 is a dropped sort), beside the known n215 mis-numbering where 421 prints twice and 420 never. ⚠ The reads are TARGETED, not word-by-word over every column: one reader found in altera species / specie while checking something else and said plainly that a full pass would turn up more of that class. Full account in src/english/9000/cruces.md §9.",
+   "reads": [
+    {
+     "from": "0249A",
+     "to": "0250D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.130, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n130 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0253A",
+     "to": "0254D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.132, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n132 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0257A",
+     "to": "0258D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.134, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n134 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0259A",
+     "to": "0260D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.135, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n135 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0267A",
+     "to": "0268D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.139, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n139 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0269A",
+     "to": "0270D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.140, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n140 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0279A",
+     "to": "0280D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.145, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n145 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0285A",
+     "to": "0286D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.148, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n148 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0289A",
+     "to": "0290D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.150, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n150 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0291A",
+     "to": "0292D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.151, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n151 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0293A",
+     "to": "0294D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.152, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n152 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0295A",
+     "to": "0296D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.153, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n153 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0297A",
+     "to": "0298D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.154, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n154 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0301A",
+     "to": "0302D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.156, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n156 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0307A",
+     "to": "0308D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.159, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n159 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0321A",
+     "to": "0322D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.166, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n166 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0325A",
+     "to": "0326D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.168, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n168 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0327A",
+     "to": "0328D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.169, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n169 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0329A",
+     "to": "0330D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.170, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n170 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0331A",
+     "to": "0332D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.171, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n171 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0343A",
+     "to": "0344D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.177, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n177 (same map) wherever the on-disk copy clips a margin"
+    },
+    {
+     "from": "0347A",
+     "to": "0348D",
+     "depth": "read",
+     "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.179, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n179 (same map) wherever the on-disk copy clips a margin"
+    }
+   ]
   }
  }
 }

@@ -1,0 +1,126 @@
+{
+ "note": "TEI patches for 9000 (Glossa ordinaria in Evangelium secundum Lucam, PL 114, cols 0243D-0356A). Read on raw/scans/pl114/patrologiaecurs06saingoog.pdf (PDF page = (column + 11) / 2) with the clean second witness archive.org patrologiaecursu0114mign (leaf n = (column + 11) / 2) wherever the on-disk copy clips a margin -- which it does on the odd column of n130/n132/n134, the right margin of n151, the outer margin of 344 and 348 and the inner margin of 337. Every leaf calibrated from the printed corner numbers before any word was judged.",
+ "class": "CORRUPTED = CC broke or lost what Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently TIDIED a defect Migne actually printed; Migne's reading is RESTORED and a [sic:] is OWED but deliberately not fired, because firing one is a fresh public claim per site. The convention is 9001's and was reaffirmed on 8999 against a reader who objected that restoring would 'introduce two non-words' -- our Latin is not a corrected Latin, it is Migne's page.",
+ "result": "PLATE READ COMPLETE 2026-09-04, BEFORE the work shipped. Five readers, 22 leaves, all 33 [var:] read plus ~70 oddities the stints had logged unmarked. ⭐ 32 of 33 [var:] CONFIRMED as Migne's, ONE withdrawn (0307B) -- which keeps the corpus record for [var:] on a quoted clause at 120 of 121 across four Glossa books. ⭐⭐ EVERY OTHER CORRECTION CAME FROM THE DECLINED LIST OR FROM READING A PAGE OPENED FOR SOMETHING ELSE, exactly as on John: 11 of the 17 patches below were never marked by anybody, and five are silent repairs no collation could have reached.",
+ "patches": [
+  {
+   "col": "0307B",
+   "find": "confusus",
+   "replace": "confessus",
+   "direction": "corrupted",
+   "why": "Leaf n159 (cols 307/308), read at 450 dpi and confirmed at 4x. The plate sets confessus -- a clear e after the f (contrast the true u of sum on the same line) and a doubled s. Our confusus is CC's. ⚑ Migne still diverges from Vulg. Ps 87:16 conturbatus, but by a DIFFERENT WORD than the marker claimed, so the [var:] is re-pointed at the plate's reading rather than kept as written or dropped."
+  },
+  {
+   "col": "0302B",
+   "find": "Isa. IX",
+   "replace": "Isa. XI",
+   "direction": "corrupted",
+   "why": "Leaf n156. The plate prints the citation as (Isa. XI); CC transposed the numeral to (Isa. IX). Found with the page open for a marker, not by any collation -- nothing in this pipeline collates the NOTE layer against the plate."
+  },
+  {
+   "col": "0326B",
+   "find": "id est id est",
+   "replace": "id est",
+   "direction": "corrupted",
+   "why": "Leaf n168. A CC dittography: the plate prints a single id est. Invisible to every automated check, because both words are ordinary Latin."
+  },
+  {
+   "col": "0259A",
+   "find": "jejumare",
+   "replace": "jejunare",
+   "direction": "corrupted",
+   "why": "Leaf n135, THE HYPHEN-REJOIN CLASS. Migne breaks the word at the line as jeju- / nare; CC rejoined it and read the initial n of nare as m, manufacturing the non-word jejumare. ⭐ The very next line makes the identical break (je-/junabunt) and was rejoined CORRECTLY -- which is why no internal evidence could ever have caught this, and why the stint was right to log it unmarked rather than guess."
+  },
+  {
+   "col": "0280C",
+   "find": "in altera specie apparuit",
+   "replace": "in altera species apparuit",
+   "direction": "corrupted",
+   "why": "Leaf n145. The plate sets the ungrammatical nominative species; our file carries a tidied ablative specie. CC normalisation. No marker rests on it and the English is unaffected either way, but our Latin is Migne's page, not a corrected Latin."
+  },
+  {
+   "col": "0258D",
+   "find": "remanet ejunus",
+   "replace": "remanet jejunus",
+   "direction": "corrupted",
+   "why": "Leaf n134, settled on the second witness because the on-disk copy clips this column. The plate prints jejunus in full, clean, at a line head. ejunus was UNIQUE IN OUR WHOLE LATIN CORPUS -- a stint noted that and still declined to attribute it, which was correct: uniqueness proves an error exists, never whose."
+  },
+  {
+   "col": "0290B",
+   "find": "Aegyto",
+   "replace": "Aegypto",
+   "direction": "corrupted",
+   "why": "Leaf n150. The plate prints Ægypto; CC dropped the p. The stint declined it because Aegypto prints correctly one column later -- the internal corroboration that was wrong nine times out of fourteen on 9004. Here it happened to point the right way, and the plate is why we know."
+  },
+  {
+   "col": "0290D",
+   "find": "Ephes, IV",
+   "replace": "Ephes. IV",
+   "direction": "corrupted",
+   "why": "Leaf n150. The plate sets a full stop. ⚑ The crux had declined this as 'reproduce verbatim' -- but it was reproducing OUR TRANSCRIPTION, not the type. Verbatim to what is the whole question."
+  },
+  {
+   "col": "0293B",
+   "find": "Repondens",
+   "replace": "Respondens",
+   "direction": "corrupted",
+   "why": "Leaf n152, read at 400 dpi: the plate sets a fully formed medial s. ⭐ THIS DISSOLVES THE POLICY QUESTION the blind reader raised -- our English shipped the hybrid 'Repondens, however.', half Migne's supposed corruption and half English. The corruption was never Migne's, so the lemma is simply Englished and no policy ruling is owed. ⚠ This leaf was in NO reader's assignment: the consolidator's grouping put col 293 on n151/n153 when (293+11)/2 = 152. Reader 3 checked the formula, read the leaf anyway, and said so."
+  },
+  {
+   "col": "0347C",
+   "find": "zelam Dei habentes",
+   "replace": "zelum Dei habentes",
+   "direction": "corrupted",
+   "why": "Leaf n179, 500 dpi x4 and the second witness; the control habentes stands on the same line. Logged by its stint as a possible Migne gender anomaly; it is CC's."
+  },
+  {
+   "col": "0327D",
+   "find": "Et alter,</hi> Bonus ordo",
+   "replace": "Et alter,</hi> etc. Bonus ordo",
+   "direction": "corrupted",
+   "why": "Leaf n169, 500 dpi. The plate prints 'Et alter, etc. Bonus ordo'. The crux had noted that no punctuation closed this italic lemma where every parallel address in the work prints etc. or a stop -- the parallel WAS right and the loss is ours. The next entry in our own file keeps its etc., so this is a one-site drop, not a class."
+  },
+  {
+   "col": "0249D",
+   "find": "(II\nCor. VIII)",
+   "replace": "(II\nCor)",
+   "direction": "corrupted",
+   "why": "Leaf n130, settled on the second witness (the on-disk copy clips this column and the citation was invisible there). Migne prints (II Cor) with NO chapter number; CC supplied VIII. ⚑ The [var:] at this column still stands, but its crux argued partly from 'cited by Migne to the verse' -- a citation Migne never printed. A divergence in the NOTE layer, which nothing in this pipeline collates."
+  },
+  {
+   "col": "0253A",
+   "find": "hi quatuor\nqui hoc loco",
+   "replace": "hi quator\nqui hoc loco",
+   "direction": "normalized",
+   "why": "Leaf n132, second witness, 2x crop: the plate prints the non-word quator at a line end, normal spacing, no hyphen. Restored per the 9001 convention. A [sic:] is owed here and is deliberately NOT fired -- firing one is a fresh public claim per site."
+  },
+  {
+   "col": "0254D",
+   "find": "vel\nprophetiae lectionis attestatione",
+   "replace": "vel\npropetiae lectonis attestatione",
+   "direction": "normalized",
+   "why": "Leaf n132: the plate prints TWO non-words on one line, propetiæ (h dropped) and lectonis (i dropped), set cleanly with no broken sorts or bleed. CC normalised both. Restored; the two [sic:] owed are deliberately not fired."
+  },
+  {
+   "col": "0257B",
+   "find": "invenitur. Quod cum lecto",
+   "replace": "invenitur- Qoud cum lecto",
+   "direction": "normalized",
+   "why": "Leaf n134: the plate sets a HYPHEN where the sentence ends and Qoud for Quod -- a transposed sort, unmistakable at 2x. Restored. Third instance of this class on reader 1's three leaves alone."
+  },
+  {
+   "col": "0292A",
+   "find": "percipiendae sapientiae",
+   "replace": "percipiendae sapipientiae",
+   "direction": "normalized",
+   "why": "Leaf n151 (second witness; the on-disk copy clips this column), confirmed on both copies at the two line-ends. Migne's compositor set sapi- / pientiæ, repeating the syllable across the break, so the hyphenated word does not reassemble into a Latin word. ⭐ CAUGHT IN THE ACT: this is the class the cruces file says its own declined list CANNOT REACH BY CONSTRUCTION, because the digitization removed the evidence before any stint saw the text. It surfaced only because a plate was open for another reason."
+  },
+  {
+   "col": "0329A",
+   "find": "astrictus",
+   "replace": "astritus",
+   "direction": "normalized",
+   "why": "Leaf n169, on BOTH witnesses, with addictus two words earlier printing a full ct. ⭐ THIS WAS IN NO STINT'S DECLINED LIST -- silently normalised by CC, nobody saw it, and it exists in the record only because the leaf was open for a marker."
+  }
+ ]
+}

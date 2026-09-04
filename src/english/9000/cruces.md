@@ -4559,3 +4559,103 @@ Clementine and passes ✓ — but nothing collates the *English* lemma, and that
   the carried-non-word policy. **Not a translation error and not ours to settle: it is a policy
   question for Wilson** — either the whole lemma is carried in Migne's letters or it is Englished
   with the defect noted, but not half of each.
+
+---
+
+# §9. THE PLATE READ — 32 of 33 `[var:]` stand, and 12 of 17 patches came from the DECLINED list
+
+Run 2026-09-04, **before the work shipped**, as the plate ratchet requires of any work absent from
+the frozen backlog baseline. Five readers, **22 leaves / 44 columns**, every `[var:]` plus ~70
+oddities the stints had logged unmarked. Reports: `data/plate-findings/9000-leafread-{1..5}.md`;
+patches with their evidence in `data/tei-patches/9000.json`; reads registered in
+`data/plate-reads.json`.
+
+**Sources.** `raw/scans/pl114/patrologiaecurs06saingoog.pdf` (**PDF page = (column + 11) / 2**),
+with archive.org **`patrologiaecursu0114mign`** (same map) wherever the on-disk copy clips a
+margin — which it does on the odd column of n130/n132/n134, the right margin of n151, the outer
+margin of cols 344 and 348 and the inner margin of col 337. **Every leaf was calibrated from the
+printed corner numbers before any word was judged.**
+
+## §9.1 The verdicts
+
+| class | fired | confirmed | withdrawn |
+|---|---|---|---|
+| `[var:]` — a quoted clause or a witnessed word | 33 | **32** | **1** |
+
+The single withdrawal is **0307B**: the plate sets ***confessus***, not our *confusus* — a clear
+*e* after the *f* against the true *u* of *sum* on the same line, and a doubled *s*. ⚑ **It is not
+a simple withdrawal**, because Migne still diverges from Ps 87:16's *conturbatus* — by a different
+word than we claimed. **The marker was re-pointed at the plate's reading rather than kept or
+dropped**, and the English now follows the type ("have confessed"). A marker can be right that a
+divergence exists and wrong about what diverged.
+
+⭐ **With this work the `[var:]`-on-a-quoted-clause record stands at 120 of 121 across four Glossa
+books** (9004 46/46, 8999 23/23, 9001 19/19, 9000 32/33).
+
+## §9.2 ⭐⭐ Where the corrections actually came from
+
+**Seventeen patches. Not one came from a fired marker.** Twelve came from the stints'
+declined-oddity lists or from a reader's eye falling on something else while a page was open for a
+different question. This is John's finding reproduced on a second work and at larger scale, and it
+is now the strongest operational result this project has: **the markers a stint declines to fire
+are worth more than the ones it fires.**
+
+**Twelve CORRUPTED — Corpus Corporum broke what Migne set correctly:**
+*confessus* · `(Isa. XI)` mis-transposed to `(Isa. IX)` · a dittography *id est id est* ·
+***jejumare*** · *specie* for *species* · ***ejunus*** · ***Aegyto*** · `(Ephes, IV)` for
+`(Ephes. IV)` · ***Repondens*** · ***zelam*** · a dropped *etc.* at 0327D · and `(II Cor. VIII)`
+where **Migne prints `(II Cor)` with no chapter number at all**.
+
+⚑ **0259A is the hyphen-rejoin class caught outright.** Migne breaks the word at the line as
+`jeju-`/`nare`; CC rejoined it reading the initial *n* as *m*. **The very next line makes the
+identical break (`je-`/`junabunt`) and was rejoined correctly** — so no internal evidence could
+ever have caught it, and the stint that logged it unmarked was right not to guess.
+
+⚑ **Two of the twelve sit in the note layer** (`(Isa. IX)`, `(II Cor. VIII)`), **which nothing in
+this pipeline collates against the plate.** Both were found only because a page was open.
+
+**Five NORMALIZED — CC silently tidied a defect Migne actually printed. Migne restored, and the
+`[sic:]` each owes deliberately not fired:** *quator* · *propetiae lectonis* (two non-words on one
+line) · *invenitur- Qoud* (a hyphen doing duty for a full stop, and a transposed sort) ·
+***sapipientiae*** (the compositor repeated the syllable across a line break, so the word does not
+reassemble) · *astritus*.
+
+⭐ **`sapipientiae` and `astritus` were in NO stint's list.** They are the class §0 said the
+declined list *cannot reach by construction* — the digitization removed the evidence before any
+stint saw the text — and they exist in the record only because a leaf was open for a marker.
+
+## §9.3 ⭐⭐⭐ 0330A: the conformation is Migne's, and it is a finding about the recension
+
+At 400 dpi leaf n170 prints ***Gloria in excelsis Deo. Et in terra pax hominibus*** at Luke 2:14 —
+where the Clementine reads *in altissimis* — and **two lines later, on the same page, *Pax in
+cœlo, et gloria in excelsis*** at Luke 19:38, the verse the gloss is expounding. Both quotations
+read in full, no ligature or broken-sort doubt. **Migne, or the recension he prints, conformed the
+nativity song to the entry song.** The lemma-inventory had scored this span ✓ — off Luke 19:38.
+
+## §9.4 A marker the plate LICENSED
+
+**0295C** was declined by its stint as the most consequential word in its range, and a blind reader
+named it too: *verbum **in Filio** hominis* where Lc 12:10 reads *in Filium* — a word spoken **in**
+the Son rather than **against** him. The single-word threshold of §0.1 turns on ownership, and the
+plate settles ownership: **Migne sets the ablative.** A `[var:]` is now evidentially available and
+has been added. **34 `[var:]` now stand.**
+
+## §9.5 What the readers refused to settle, and two corrections to this file's own process
+
+- **The consolidator's leaf grouping was wrong.** Col 293 sits on **n152** — (293+11)/2 — and n152
+  was in no reader's assignment; the brief nonetheless told reader 3 that *Repondens* @0293B was on
+  its leaves. It checked the arithmetic, read the leaf anyway, settled four oddities there, and
+  **reported the discrepancy instead of absorbing it.**
+- **⚠ The reads are TARGETED, not a word-by-word collation of all 44 columns.** One reader found
+  *specie*/*species* while checking something else and said plainly that a full pass would turn up
+  more of that class. **This file may not be read as asserting that the unread words are clean.**
+- **⚠ New scan defect for the volume ledger:** leaf **n153's left corner is set `9 5`** — the
+  medial *9* of 295 is a dropped sort, incomplete rather than mis-numbered — beside the known
+  **n215**, whose corner reads 421 where it should read 420, so that 421 prints twice in PL 114 and
+  420 never.
+- **⛔ For Wilson, an editorial call deliberately not taken:** on col 344 the plate prints
+  **VERS. 2.** and **VERS. 14.** where our file has **VERS. 5.** and **VERS. 11.** — **ours are the
+  correct Luke verses and Migne's are wrong.** Two silent upstream corrections on one column. Every
+  other silent repair in this work was restored to Migne's reading, but these are **verse addresses
+  a reader navigates by**, not words in a sentence, so the consistent answer and the useful answer
+  differ. Left as our file has them, pending a ruling.
