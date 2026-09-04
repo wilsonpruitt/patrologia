@@ -61,7 +61,7 @@ A mechanical sweep of the merged Band A English:
 
 | axis | result |
 |---|---|
-| `usque ad` → "as far as" | **209 occurrences, zero rivals.** Four "down to" are the *non-formula* temporal look-alikes three stints independently identified. **No chunk carries Latin `usque ad` without the English formula.** |
+| `usque ad` → "as far as" | **209 occurrences, zero rivals.** ⚑ **Re-grounded 2026-09-04 — see §A7: the test is now the `etc.` splice, NOT italic membership.** Four "down to" are the *non-formula* temporal look-alikes three stints independently identified. **No chunk carries Latin `usque ad` without the English formula.** |
 | `gentes` family | Gentiles 30 · nations 12 · nation 5 · heathen 0 — the axis working as designed (both renderings licensed by context, decided per site) |
 | `mysterium`/`sacramentum` | mystery 4 · sacrament 10, kept 1:1 |
 | `daemonium`/`diabolus` | demon 6 · devil 30 · Satan 1, no bleed |
@@ -74,14 +74,62 @@ it stands inside **« guillemets »**, quoting Isa 45:1. **Quoted scripture in t
 TWO ways — italic lemmata AND guillemet quotations — so an italic-only test mis-flags.** Use both.
 Confirmed clean otherwise: 1 `saith`, 1 `doth`, both licensed.
 
-## A5. Open — needs a ruling before or during Band B
+## A5. RULED BY WILSON 2026-09-04 — settled, inherit, do not re-open
 
-- **`gens tenebrarum`** @0887D → "nation of darkness". The `gentes` axis does not rule on a
-  **singular `gens` in a non-ethnic metaphor**. The stint flagged rather than deciding silently —
-  the behaviour the axis section exists to reward. **Rule it and add it to the axis.**
+- ⭐ **`gens tenebrarum`** @0887D → **"people of darkness"** (was "nation of darkness"; the English
+  is changed at 0022.md). The Manichaean power of *Non appropiant qui dicunt fatum facit peccare,
+  vel fortuna … vel gens tenebrarum, quae Deo rebellat* — third in a list of determinist excuses.
+  **The `gentes` axis does not reach it**: it rules the ethnic/political plural, and this is a
+  singular `gens` naming a cosmological principle. "Race" was offered and declined. **The axis
+  gains no sixth word — this is a named exception to it, and a singular `gens` in a non-ethnic
+  metaphor is flagged, not folded into the axis.**
 - **`Dominus virtutum`** → "Lord of hosts" (the gloss glosses it by angels). Bands B and C will
   meet it again; recorded so they inherit it.
 - **`sedes` → "seat", not "throne"**, because "throne" collides with the order *Throni*.
+
+## A6. ⭐⭐ RULED 2026-09-04 — WHAT THE ENGLISH IS A TRANSLATION *OF*
+
+**The plate where the leaf has been read; our twin where it has not.** Where a translator has
+opened the column and Migne's type differs from our TEI, **the English renders what Migne printed**,
+and the divergence goes in `data/briefs/<idno>-PENDING-TEI-PATCHES.md` so the Latin converges on the
+English when the patch lands. Where no leaf has been read, the twin is all there is and the twin is
+translated.
+
+**Why this and not "always translate the twin":** at 0973B our twin prints the non-word `ominus`
+(*qui non ominus jaculatur*) and the plate reads `eminus`. Translating the twin there would have
+forced either untranslatable garble or a `[sic:]` **publicly accusing Migne of Corpus Corporum's
+defect**. The doctrine was already stated in the pending-patch file — *on this work the plate is
+the text and our TEI is a witness to it* — and this makes it govern the English too.
+
+⛔ **The gate is the plate read, not the translator's confidence.** This licence exists only for a
+column somebody actually opened; it is never a warrant to emend from the Latin alone. And every
+such site MUST appear in the patch file — an English that silently outruns its Latin, with no
+pending patch to close the gap, is the drift this rule is designed to prevent.
+
+## A7. ⭐⭐ RULED 2026-09-04 — `usque ad`: THE `etc.` SPLICE TEST REPLACES ITALIC MEMBERSHIP
+
+**`usque ad` is Migne's abridgment formula ("as far as") only where it follows an `etc.` and names
+the point at which the quotation resumes. Everywhere else it is ordinary Latin and is rendered by
+sense.**
+
+**Italic membership is WITHDRAWN as the test.** It fails in both directions, and col **0953C**
+carries both cases four words apart *inside one italic run*:
+
+> *Occiduum tempus,* **etc.,** *usque ad* contra quos Dominus: *Vobiscum sum **usque ad**
+> consummationem saeculi,* etc.
+
+The first is the formula; the second is Matthew 28:20. **No italic test can separate them; the
+`etc.` test does.** Measured over the whole work: **777 occurrences, 733 formula, 44 not.** Over the
+translated chunks 0000–0076: **483 formula, 24 not.**
+
+⚑ **This re-grounds Band A's 209 renderings; it does not overturn them.** Only five of the 24
+non-formula sites used the formula's words, and four are legitimate sense-renderings that happen to
+reuse them (*spread as far as the ends of the earth*). **One was repaired**: Mic 4:10 @0984C, *usque
+ad Babylonem venies*, "as far as Babylon" → **"even unto Babylon"**, to agree with 0073's already
+sense-rendered *unto the consummation of the world* — two quoted-scripture sites of one construction
+that had been rendered two ways.
+
+⭐ **Band C inherits this and needs it**: the gradual psalms carry `usque ad` constantly.
 
 ---
 

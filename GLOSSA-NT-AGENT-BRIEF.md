@@ -81,6 +81,10 @@ rendered three different ways across four stints — in a work whose whole argum
    John". Temporal uses (*a vespera usque ad vesperam*) take "until"; *a fine usque ad finem* is
    "from end to end". Take the exception where the Latin forces it and **say so in your cruces with
    the Latin that forced it** — a silent departure is drift and the merge cannot tell the two apart.
+   ⭐⭐ **HOW TO TELL THE FORMULA FROM THE WORDS IS NOW SETTLED MECHANICALLY: the `etc.` splice test,
+   below. Italic membership is WITHDRAWN and must not be used** — it mis-sorts a whole scripture
+   quotation carried in one italic span, and 8967 col 0953C carries a formula and a Mt 28:20
+   `usque ad` four words apart inside the same run.
 
 ⚑ **BEFORE YOU REPORT DRIFT ON ANY OF THESE, CHECK THE INSTRUMENT.** Every one of these greps
 manufactures a number that reads exactly like a violation, and each has fooled a stint:
@@ -159,6 +163,24 @@ recollection.** That rule was written before the text was on disk and it still h
 reader leaned *autem* at Jdt 7:7 from a stylistic inference and **declined to log it**, the lean was
 **wrong** — the Clementine reads *tamen*, exactly as Migne prints it, and there is no divergence at
 all. The decline was right. Now you can simply check.
+
+## ⭐⭐ `usque ad` — THE `etc.` SPLICE TEST (locked, Wilson 2026-09-04)
+
+**`usque ad` is Migne's abridgment formula — "as far as" — ONLY where it follows an `etc.` and
+names the point at which the quotation resumes. Everywhere else it is ordinary Latin and is
+rendered by sense.**
+
+⛔ **Italic membership is WITHDRAWN as the test.** It fails in both directions: a whole scripture
+quotation can sit inside one italic span, and a plain temporal `usque ad` can sit outside every
+span. Col 0953C of 8967 carries **both cases four words apart inside one italic run**:
+
+> *Occiduum tempus,* **etc.,** *usque ad* contra quos Dominus: *Vobiscum sum **usque ad**
+> consummationem saeculi,* etc.
+
+The first is the formula; the second is Mt 28:20. **No italic test can separate them.**
+
+Measured on 8967: **777 occurrences, 733 formula, 44 not.** The formula is overwhelmingly the
+common case — which is exactly why the 44 are easy to sweep up by habit and must be checked.
 
 ## ⚠⚠ 7a″ — NAME THE WORDS. The divergence list IS the deliverable.
 

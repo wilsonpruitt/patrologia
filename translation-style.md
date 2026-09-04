@@ -42,6 +42,26 @@ was considered and rejected — the divergences are the scholarly payload. The
 reader-facing rationale (with what Migne himself did editorially) lives in
 `content/editorial-method.md`.
 
+## ⭐⭐ What the English translates — THE PLATE WHERE READ (locked, Wilson 2026-09-04)
+
+**Where a translator has opened the column at the plate and Migne's type differs from our TEI
+twin, the English renders WHAT MIGNE PRINTED.** Where no leaf has been read, the twin is all
+there is and the twin is translated. Every such divergence MUST be filed in
+`data/briefs/<idno>-PENDING-TEI-PATCHES.md`, so that the Latin converges on the English when the
+patch pass lands.
+
+**The case that forced the ruling** (8967, col 0973B): our twin prints the non-word `ominus`
+(*qui non ominus jaculatur*); the plate reads `eminus`. Translating the twin would have meant
+either rendering garble or firing a `[sic:]` that **publicly accuses Migne of the digitization's
+defect**. Neither is acceptable, and the doctrine was already implicit in the patch discipline —
+**on a collated work the plate is the text and our TEI is a witness to it.** This makes it govern
+the English as well as the apparatus.
+
+⛔ **The gate is a recorded plate read, never the translator's confidence.** This is not a licence
+to emend from the Latin alone — that is precisely the failure `plate-gate.mjs` exists to stop. And
+a site rendered from the plate with **no pending patch filed** is the drift this rule prevents: an
+English that has silently outrun its own Latin, with nothing downstream able to see it.
+
 ## Register (PG / Greek) — pilot-era, calibrating
 
 Codified 2026-07-30 from the Joel pilot (chronicle prose, the only shipped PG
