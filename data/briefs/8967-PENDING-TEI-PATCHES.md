@@ -176,3 +176,59 @@ col 0904 has never been read. Needs PDF **page 458** read and recorded, or the m
 **It cannot ship as it stands.** Chunk 0032 belongs to the 0030–0034 stint, which was still
 running when this was reported; if it does not clear the column itself, the gate must be
 satisfied here before the band closes.
+
+---
+
+# FIFTH REPORT (chunks 0030–0034) — 28 departures in TEN columns, and the class runs BOTH ways
+
+**⭐⭐⭐ THE SINGLE MOST IMPORTANT FINDING IN BAND A**, stated by the stint that read cols
+0903A–0910D line by line:
+
+> Every non-word and unconstruable form in our Latin turned out at the plate to be **Corpus
+> Corporum's, not Migne's** — and, conversely, **every defect Migne actually prints here had
+> already been tidied away before it reached us.**
+
+That is the whole `[sic:]` apparatus of this work described in one sentence, and it is why
+`plate-gate` cannot be relaxed on 8967.
+
+## Direction 1 — CC moves Migne ONTO the Clementine (invisible to every check)
+- **0903D** `Dominum conservet` → `Dominus`
+- **0902D** `Multiplicati sunt numerum` → `super` supplied
+
+## Direction 2 — CC REPAIRS MIGNE'S REAL DEFECTS, destroying `[sic:]` evidence
+- **0910C** the plate prints the non-word **`iniquitetem`** (with `iniquitatem` correct nine words
+  earlier) — **CC silently fixed it. That was a legitimate `[sic:]` on Migne's own type, and we
+  could never have known.** Third erased marker in the band (cf. 0887B, `doc-/ctus`).
+- The head `PSALMUS XL.` carries a period on the plate that our TEI drops.
+
+## ⛔ Direction 3 — the worst: our Latin carries WORDS THE PLATE LACKS
+- **0904A** — CC replaces Migne's `quasi,` with **`sed Deus`** and inserts `in`. **The only site in
+  the band where our text says something Migne did not.** Flagged for a second eye before patching.
+- **0903C** — CC swaps `dicant`/`dicunt` in **opposite directions in adjacent sentences**, which
+  rules out a systematic normalization and points to transcription noise.
+
+## Pure CC debris (the English already follows the plate here, and the cruces says so)
+- **0902B** `In Hebraeol` → plate reads **`In Hebraeo`**. ✅ **This closes a second of the three
+  outstanding `In Hebraeo` candidates — no Hebrew was dropped.** One remains.
+- **0902D** `ἀποπομπάιohgr;ι` → plate reads **`ἀποπομπάιῳ`**. An unconverted `&ohgr;` SGML entity
+  that survived into our published-facing Latin.
+
+## Unreadable on this copy — Gallica owed
+- **0905A** `excrescentibus pilis` — the line break falls exactly at the clip (`f453`).
+
+## One more mod-4 counterexample, and the sharpest one
+**Col 909 is 1 (mod 4) and CLEAN, while col 905 — also 1 (mod 4) — is clipped, on adjacent leaves
+in a single range.** Applied blind, the withdrawn rule would have withheld the 0910B marker.
+
+---
+
+# BAND A TOTALS — the queue, and what it implies for the work
+
+**~67 sites across the ~46 columns actually read ≈ 1.5 per column.** Band A spans ~78 columns and
+the whole work ~240. **If the rate holds, this work carries on the order of 350 CC departures from
+Migne, of which we have seen a fifth.** That is consistent with 9003's independent collation of
+the sibling PL 114 Psalter (~3 sites per page), and it is now measured twice.
+
+⚑ **This is not an argument for a corpus-wide retrofit** (CLAUDE.md: recover going forward, do not
+sweep the done corpus). It is an argument that **on this work the plate is the text and our TEI is
+a witness to it** — and that the marker apparatus must never be built from the twin alone.
