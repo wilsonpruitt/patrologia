@@ -19,6 +19,12 @@
    "find": "<hi></hi><note>([Gen. III] \n)</note>",
    "replace": "<note>(Gen. III)</note>",
    "why": "TWO defects at one site, both CC's encoding rather than Migne's type, and both would have reached the reader. (1) An EMPTY <hi></hi> element: it carries no text, and the chunker renders it as a bare '**' standing in the running prose. (2) The note's content is '([Gen. III] \\n)' — Migne does print this reference in SQUARE brackets inside his parenthesis, so CC is being faithful, but our note syntax OWNS square brackets and the chunker normalizes an interior '[ ]' to '( )'. The two combine to '**[n: ((Gen. III) )]' — doubled parens plus a stray space from the newline. Rendered as '[n: (Gen. III)]', which is exactly how this work prints its other 3,375 references. NOT a silent emendation of Migne: his bracket-vs-paren variation for a bare scripture reference carries no sense our apparatus can lose, and the reference itself is untouched."
+  },
+  {
+   "col": "0847A",
+   "find": "sordibus est, sordescat adhuc <note>(Apoc. X",
+   "replace": "sordibus est, sordescet adhuc <note>(Apoc. X",
+   "why": "CC NORMALIZED MIGNE TOWARD THE VULGATE. The plate at 0847A (PDF p. 429, whose printed corners read 847/848 and were checked before the crop) prints `qui in sordibus est, sordescet adhuc` with an E; our TEI reads `sordescat`, which is the CLEMENTINE's form at Apoc 22:11. Verified directly on the leaf, not taken from a report — col 847 is clean and the word is mid-line. ⛔ THIS CLASS IS INVISIBLE TO EVERY CHECK WE RUN: a Vulgate collation cannot see it, because the digitization has already made Migne agree with the Vulgate, and a [var:] here would have been impossible to detect rather than merely wrong. Found by the chunks 0000-0004 stint. ⚑ A SECOND `sordescat` STANDS AT 0869A and is NOT patched — it is a different column in another stint's range and has not been read at the plate. Do not assume it matches; the whole point of this class is that our copy of the text is not the arbiter."
   }
  ],
  "unread": "The scar sweep across all 106 chunks found 13 stray-space candidates; only this one was read at the plate. The other 12 are NOT claimed as drops — a stray space has ordinary causes too, and hebrew-recovery.md step 1 makes the scan the arbiter, not the scar. Three 'In Hebraeo' clauses also stand in this work, none with surviving Hebrew, and all three are unread candidates. Exposure here is small by the standards of an etymological work; it was worth a sweep and is not worth a campaign.",

@@ -4548,6 +4548,51 @@
      "page": 446,
      "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 300 dpi, full page width; stint 0015-0019",
      "found": "foot of the right column read. Migne prints 'Dedi, enim ait, vobis potestatem conculcare super serpentes.' CONFIRMED (licenses that [var:]). Plate reads 'omne genuo ferarum' where our twin gives 'genus' -- a further CC normalization. No conjecture apparatus"
+    },
+    {
+     "from": "0861A",
+     "to": "0862D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 436,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 150 dpi full page + 400-500 dpi region crops; stint 0010-0014",
+     "found": "no conjecture apparatus of either layer. ⛑ LEFT COLUMN 861 IS CLEAN, though 861 = 1 (mod 4) -- a further counterexample to the mod-4 clipping rule. CONFIRMED at 0862D: Migne prints 'ventilator est impiorum rex sapiens, et immittit illis rotam malorum (Prov. II)', which licenses that [var:] against Prov 20:26. CONFIRMED at 0862B: Migne prints 'Germinatio, duplex cor significat' (read at 500 dpi) -- the printed word is Migne's, not CC's, which licenses the [cj: *Germinatio*; read *Geminatio*]. TWO CC DEPARTURES FOUND: (1) 0862C the plate sets one compound siglum '(AUG., CASS.)' where our TEI gives bare text 'AUG.,' plus a separate [n: (CASS.)]; (2) the plate sets the '(Ibid.)' sigla OUTSIDE the italic lemma throughout this column, where CC wraps them inside the <hi> span."
+    },
+    {
+     "from": "0863A",
+     "to": "0864D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 437,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 150 dpi full page + 400 dpi region crops; stint 0010-0014",
+     "found": "no conjecture apparatus of either layer. Left column 863 (3 mod 4) clean. CONFIRMED: 0863A 'Cupio dissolvi et esse cum Christo (Phil. i.)'; 0863B 'Est peccatum ad mortem, non pro eo dico ut quis oret'; 0864C 'Vade retro, Satanas'; 0864C 'Nec fecit proximo malum' (no 'suo'); 0864D 'Jam non dicam vos servos, sed amicos'. TWO CC DEPARTURES: (1) 0864A the plate prints '(CASS.)' where our TEI gives '(CAS.)' -- note that Migne's own '(CAS.)' at 0863A and 0863C IS his, read at 400 dpi, so the two forms must not be swept together; (2) 0863D the plate prints '(CASS.)' and our TEI gives bare unencoded text '(CASS)' with the point dropped and no [n: ] wrapper."
+    },
+    {
+     "from": "0865A",
+     "to": "0866D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 438,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 150 dpi full page + 400 dpi region crops; stint 0010-0014",
+     "found": "no conjecture apparatus of either layer. ⛑ LEFT COLUMN 865 IS CLEAN, though 865 = 1 (mod 4) -- another counterexample to the mod-4 rule. REFUTED (our suspicion withdrawn): 0866B's doubled 'scilicet' ('Scilicet opera hominum: quas scilicet merentur opera hominum') is Migne's, printed exactly so. CC DEPARTURE FOUND at 0866D: the plate reads 'non humiles, adipem, id est, carnalem sensum retinuerunt' and our TEI INSERTS 'vel' before 'adipem' (read twice at 400 dpi). Patch candidate; no [sic:] is owed, because the defect is not Migne's."
+    },
+    {
+     "from": "0867A",
+     "to": "0868D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 439,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 150 dpi full page width; stint 0010-0014",
+     "found": "no conjecture apparatus of either layer. Left column 867 (3 mod 4) clean. CONFIRMED at 0868A: Migne prints 'Volavit super pennas vento' -- singular -- immediately before his gloss's plural 'Ventos', which licenses that [var:] against Ps 17:11 'pennas ventorum'. CONFIRMED at 0868A: 'Dedit vocem: ut non dixit: Hic est Filius meus dilectus' -- the 'non' is Migne's and is carried. ONE OF THE THREE OUTSTANDING 'In Hebraeo' CLAUSES READ: 0868A prints '(quod in Hebraeo)' with NO Hebrew type of any kind, so nothing was dropped there and none is to be supplied. CC DEPARTURE FOUND at 0867B/C: the plate reads 'captum ab hostibus liberet' and our TEI gives 'captu+m' -- the '+' is CC's, not Migne's; the English renders 'captive' and fires no [sic:]."
+    },
+    {
+     "from": "0869A",
+     "to": "0870D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 440,
+     "source": "on-disk PL 113 scan (patrologiaecurs04migngoog.pdf), 150 dpi full page + 400-500 dpi region crops; stint 0010-0014",
+     "found": "no conjecture apparatus of either layer. ⛑ LEFT COLUMN 869 IS CLEAN, though 869 = 1 (mod 4) -- a third counterexample on this stint's pages. CONFIRMED: 0869B 'tu, Domine, populum humilem salvum facies' (Migne's added vocative against Ps 17:28). TWO CC DEPARTURES: (1) 0870A the plate reads 'et dilatatio. et confirmatio' with a FULL STOP, softened to a comma in our TEI (read at 500 dpi); (2) 0870C the plate reads 'Magnificans salutes' and our TEI inserts a comma, 'Magnificans, salutes'."
     }
    ],
    "scan_defect": "INNER-MARGIN CLIPPING: on many leaves the left-hand column loses 3-5 characters at the start of most lines (`VERS.` prints as `s.`). ⛔⛔ IT IS NOT PREDICTABLE FROM THE COLUMN NUMBER AND MUST NOT BE INFERRED. A mod-4 rule was stated at chunking on five pages (clipped 841, 849, 1045; clean 1043, 1047) and REFUTED on the eleventh: col 901 is 1 (mod 4) and is CLEAN, verified independently after the 0025-0029 stint reported the counterexample. Tally now: clipped 841, 849, 893, 897, 1045 - clean 895, 899, 901, 1043, 1047. Five of six mod-1 columns clip, so the pattern is a strong TENDENCY and a good guide to which leaf to pull first, but it is not an invariant. ⚑ THE FAILURE MODE IS SILENT AND COSTLY IN THE DIRECTION NOBODY CHECKS: applied blind it WITHHOLDS good markers on columns this copy answers perfectly well - it blocked three candidates in cols 0892-0901 before the stint looked. RULE: predict with it, never decide with it. Open the column. If a column really is clipped and the marker rests on a line-opening word, it needs a second copy (Gallica; data/volumes.json) before it may ship."
