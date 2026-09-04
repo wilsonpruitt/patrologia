@@ -1,0 +1,195 @@
+# 8967 — lemma inventory and Clementine pre-scan
+
+**Liber Psalmorum** · PL 113 · cols 0841A–1080B · 106 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the `*…*` spans in your own files and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0102–0105, bands 1071C–1080A (146 spans, = the italic spans in your Latin)
+
+[1071C] VERS. 1.-- *Alleluia.*   — single word, check in place
+[1071D] *Quare tristis es, anima mea, et quare conturbas me?*   ✓ Ps 41:6, Ps 41:12, Ps 42:5
+[1071D] *Spera in Deo,*   ✓ Os 12:6, Ps 41:6, Ps 41:12, …
+[1071D] *Nolite confidere.*   ✓ Jr 7:4, Mch 7:5, Ps 145:2
+[1071D] *Beatus,*   — single word, check in place
+[1071D] VERS. 2.-- *Lauda, anima mea, Dominum.*   ✓ Ps 145:2
+[1072B] *Lauda, anima mea, Dominum.*   ✓ Ps 145:2
+[1072B] *Laudabo in vita.*   ⚠ NOT in Clementine verbatim — CHECK
+[1072B] *aggravat animam, et terrena inhabitatio sensum deprimit multa cogitantem [n: (Sap. IX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1072B] *In vita mea.*   ✓ Ps 62:5, Ps 103:33, Ps 145:2
+[1072B] *Quandiu.*   — single word, check in place
+[1072B] VERS. 3.-- *Nolite confidere,*   ✓ Jr 7:4, Mch 7:5, Ps 145:2
+[1072B] *nolite confidere,*   ✓ Jr 7:4, Mch 7:5, Ps 145:2
+[1072B] *In filiis hominum.*   ✓ Ps 145:3
+[1072D] VERS. 4.-- *Exibit spiritus ejus,*   ✓ Ps 145:4
+[1072D] VERS. 5.-- *Beatus cujus Deus Jacob.*   ✓ Ps 145:5
+[1072D] *Adjutor ejus spes ejus.*   ✓ Ps 145:5
+[1072D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1072D] VERS. 6.-- *Qui fecit coelum et terram.*   ✓ 2Par 2:12, Act 14:14, Apc 14:7, …
+[1073A] *Omnia quae in eis sunt.*   ✓ 1Par 16:32, 2Mcc 7:28, Act 4:24, …
+[1073A] VERS. 7.-- *Qui custodit veritatem in saeculum.*   ✓ Ps 145:7
+[1073A] *Facit judicium.*   ✓ Dt 10:18, Ps 145:7
+[1073A] *Injuriam patientibus.*   ✓ Ps 102:6, Ps 145:7
+[1073A] VERS. 8.-- *Dominus solvit compeditos.*   ✓ Ps 145:7
+[1073A] *Dominus erigit elisos.*   ✓ Ps 145:8
+[1073A] *Diligi justos.*   ⚠ NOT in Clementine verbatim — CHECK
+[1073A] VERS. 9.-- *Pupillum et viduam suscipiet.*   ✓ Ps 145:9
+[1073A] *Pupilli*   — single word, check in place
+[1073A] *vidua*   — single word, check in place
+[1073A] VERS. 10.-- *Regnabit Dominus in saecula.*   ✓ Ps 145:10
+[1073C] VERS. 1.-- *Alleluia.*   — single word, check in place
+[1073C] *Laudate Dominum.*   ✓ Jdt 13:17, Jr 20:13, Ps 116:1, …
+[1073C] *Praecinite.--Laudate Dominum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1073C] *quoniam bonus est psalmus.*   ✓ Ps 146:1
+[1073D] *dispersiones Israel,*   ⚠ NOT in Clementine verbatim — CHECK
+[1073D] *congregabit*   — single word, check in place
+[1073D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1073D] *Deo nostro sit jucunda,*   ✓ Ps 146:1
+[1073D] VERS. 2.-- *Aedificans Jerusalem Dominus.*   ✓ Ps 146:2
+[1073D] *Jerusalem*   — single word, check in place
+[1073D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1073D] VERS. 3.-- *Et alligat.*   ✓ Ps 146:3
+[1073D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1074A] *Non est malagma imponere, neque oleum, neque alligaturas [n: (Isa. I, secundum LXX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1074A] VERS. 4.-- *Qui numerat multitudinem stellarum, et omnibus eis nomina vocat.*   ✓ Ps 146:4
+[1074B] VERS. 5.-- *Sapientiae ejus,*   ✓ Is 40:28, Ps 146:5
+[1074B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1074B] *humilians autem peccat.*   ⚠ NOT in Clementine verbatim — CHECK
+[1074B] VERS. 6.-- *Humilians autem peccatores.*   ✓ Ps 146:6
+[1074B] VERS. 7.-- *Praecinite.*   — single word, check in place
+[1074B] *Praecinite.*   — single word, check in place
+[1074C] *praecinite,*   — single word, check in place
+[1074C] VERS. 8.-- *Qui operit coelum.*   ✓ Ps 146:8
+[1074C] *Servituti hominum.*   ✓ Ps 103:14, Ps 146:8
+[1074C] *Nos autem servos vestros per Jesum Christum [n: (II Cor. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1074C] *excelsis saeculi fenum et herbam,*   ⚠ NOT in Clementine verbatim — CHECK
+[1074C] VERS. 9.-- *Et pullis corvorum.*   ✓ Ps 146:9
+[1074D] *corvi,*   — single word, check in place
+[1074D] VERS. 10.-- *In tibiis viri.*   ✓ Ps 146:10
+[1074D] *in tibiis viri.*   ✓ Ps 146:10
+[1074D] *in tabernaculis viri,*   ⚠ NOT in Clementine verbatim — CHECK
+[1074D] *beneplacitum erit ei.*   ✓ Ps 146:10
+[1075A] *viri,*   — single word, check in place
+[1075A] VERS. 11.-- *Super timentes,*   ✓ Ps 102:11, Ps 102:17, Ps 146:11, …
+[1075A] VERS. 12.-- *Alleluia.*   — single word, check in place
+[1075A] *Lauda, Jerusalem.*   ✓ Ps 147:1
+[1075A] *Qui emittit.*   ✓ Bar 3:33, Ps 147:4, Sir 19:23
+[1075A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1075A] VERS. 13.-- *Confortavit seras portarum tuarum.*   ✓ Ps 147:2
+[1075A] VERS. 14.-- *Adipe frumenti.*   ✓ Ps 80:17, Ps 147:3
+[1075A] VERS. 15.-- *Qui emittit eloquium suum.*   ✓ Ps 147:4
+[1075A] *Terrae.*   — single word, check in place
+[1075A] *qui emittit eloquium,*   ✓ Ps 147:4
+[1075A] *Velociter currit.*   ✓ Ps 147:4
+[1075D] *quae attingit a fine usque ad finem fortiter,*   ⚠ NOT in Clementine verbatim — CHECK
+[1075D] *actus mobilis, certus, incoinquinatus;*   ⚠ NOT in Clementine verbatim — CHECK
+[1075D] VERS. 16.-- *Qui dat nivem,*   ✓ Ps 147:5
+[1075D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1076A] *nebulam sicut cinerem spargit.*   ✓ Ps 147:5
+[1076A] *Nebulam sicut cinerem spargit,*   ✓ Ps 147:5
+[1076A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1076A] *Crystallum suam,*   ✓ Ps 147:6
+[1076A] VERS. 17.-- *Mittit sicut bucellas,*   ⚠ NOT in Clementine verbatim — CHECK
+[1076A] *ut frusta panis,*   ⚠ NOT in Clementine verbatim — CHECK
+[1076B] *Multi unus panis sumus in Christo [n: (I Cor. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1076B] *Ante faciem ejus Dei quis sustinebit?*   ⚠ NOT in Clementine verbatim — CHECK
+[1076B] *Quis me liberabit de corpore mortis hujus? [n: (Rom. VII.)]*   ✓ Rom 7:24
+[1076B] *emittat verbum suum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1076B] VERS. 18.-- *Emittet verbum suum, et liquefaciet eam.*   ⚠ NOT in Clementine verbatim — CHECK
+[1076C] *Omnes sitientes, venite ad aquas [n: (Isa. LV)]*   ✓ Is 55:1
+[1076C] VERS. 19.-- *Jacob . . . Israel.*   ⚠ NOT in Clementine verbatim — CHECK
+[1076C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1076C] *nisi ad oves quae perierunt domus Israel [n: (Matth. XV)]*   ✓ Mt 15:24
+[1076C] *Judicia sua.*   ✓ Ps 147:8, Ps 147:9, Sir 17:10, …
+[1076C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1076C] VERS. 1.-- *Laudate Dominum de coelis.*   ✓ Ps 148:1
+[1076C] VERS. 5.-- *Quia ipse dixit, et facta sunt.*   ✓ Ps 148:5
+[1076C] *Ipse mandavit.*   ✓ Ps 32:9, Ps 148:5
+[1076C] *facta,*   — single word, check in place
+[1076C] *creata.*   — single word, check in place
+[1077A] VERS. 6.-- *Statuit.*   — single word, check in place
+[1077A] *In saeculum et in saeculum saeculi.*   ✓ Ps 20:5, Ps 118:44, Ps 144:1, …
+[1077A] VERS. 7.-- *Laudate Dominum.*   ✓ Jdt 13:17, Jr 20:13, Ps 116:1, …
+[1077A] *Omnes abyssi.*   ✓ Ps 148:7
+[1077A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1077A] VERS. 8.-- *Quae faciunt verbum ejus.*   ✓ Ps 148:8
+[1077A] VERS. 13.-- *Confessio.*   — single word, check in place
+[1077A] *Confessio ejus super coelum et terram.*   ✓ Ps 148:14
+[1077A] VERS. 14.-- *Exaltavit cornu populi sui.*   ✓ Ps 148:14
+[1077C] VERS. 1.-- *Alleluia.*   — single word, check in place
+[1077C] *Cantate Domino,*   ✓ 1Par 16:23, Is 12:5, Is 42:10, …
+[1077C] *Exsultabunt.*   — single word, check in place
+[1077C] *Laus ejus in Ecclesia.*   ✓ Ps 149:1
+[1077C] VERS. 2.-- *In rege suo.*   ✓ Ps 149:2
+[1077C] VERS. 3.-- *In choro.*   ✓ Jr 31:4, Jr 31:13, Ps 149:3
+[1077C] VERS. 4.-- *Quia beneplacitum est Domino.*   ✓ Ps 149:4
+[1077C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1077C] VERS. 5.-- *Exsultabunt sancti.*   ✓ Ps 149:5
+[1077C] *Gloria.*   — single word, check in place
+[1077C] VERS. 6.-- *Exaltationes.*   — single word, check in place
+[1078B] *In domo Patris mei mansiones multae sunt. [n: (Joan. XIV.)]*   ✓ Jo 14:2
+[1078B] *In gutture.*   ✓ Job 20:13, Os 8:1, Pr 23:2, …
+[1078B] *Gladii.*   — single word, check in place
+[1078B] *vindicta et increpatio in populis,*   ⚠ NOT in Clementine verbatim — CHECK
+[1078B] *Nescitis quia angelos judicabimus? [n: (I Cor. VI.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1078B] *gloria haec,*   ✓ Ps 149:9
+[1078B] *Exaltationes Dei in gutture.*   ✓ Ps 149:6
+[1078B] VERS. 8.-- *Ad alligandos.*   ✓ Ps 149:8
+[1078B] VERS. 1.-- *Laudate Dominum.*   ✓ Jdt 13:17, Jr 20:13, Ps 116:1, …
+[1078B] *Laudate eum in firmamento.*   ✓ Ps 150:1
+[1079A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1079A] *In firmamento,*   ✓ 3Rg 8:43, 3Rg 8:49, Dn 3:56, …
+[1079A] VERS. 2.-- *Secundum multitudinem magnitudinis ejus.*   ✓ Ps 150:2
+[1079A] *Tuba*   — single word, check in place
+[1079A] *psalterium*   — single word, check in place
+[1079B] *cithara*   — single word, check in place
+[1079B] VERS. 4.-- *In chordis et organo.*   ✓ Ps 150:4
+[1079B] *Chordas*   — single word, check in place
+[1079B] *Organum*   — single word, check in place
+[1080A] *in chordis et organo*   ✓ Ps 150:4
+[1080A] *Laudate eum in cymbalis,*   ✓ Ps 150:5
+[1080A] *Cymbala*   — single word, check in place
+[1080A] VERS. 6.-- *Omnis spiritus,*   ✓ 1Jo 4:2, 1Jo 4:3, Apc 18:2, …
+[1080A] *laudet Dominum.*   ✓ Ps 150:6
+[1080A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[1080A] *Omnis spiritus laudet Dominum.*   ✓ Ps 150:6

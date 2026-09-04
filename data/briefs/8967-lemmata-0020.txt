@@ -1,0 +1,316 @@
+# 8967 — lemma inventory and Clementine pre-scan
+
+**Liber Psalmorum** · PL 113 · cols 0841A–1080B · 106 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the `*…*` spans in your own files and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0020–0024, bands 0883A–0892B (267 spans, = the italic spans in your Latin)
+
+[0883A] VERS. 1.-- *Psalmus cantici in dedic.*   ⚠ NOT in Clementine verbatim — CHECK
+[0883A] *Domus David.*   ✓ 1Par 17:24, 3Rg 14:8, Is 7:13, …
+[0883B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0883B] VERS. 3.-- *Domine, Deus meus, clamavi ad te,*   ✓ Ps 29:3
+[0883B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0883B] VERS. 4.-- *In lacum.*   ✓ Apc 14:19, Apc 18:17, Dn 6:7, …
+[0883B] VERS. 5.-- *Confitemini,*   — single word, check in place
+[0883B] VERS. 6.-- *Quoniam ira.*   ✓ Ps 29:6
+[0883B] *Ad vesperum.*   ✓ Ex 30:8, Jdc 19:9, Jos 5:10, …
+[0883B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0883B] *Ad vesperum.*   ✓ Ex 30:8, Jdc 19:9, Jos 5:10, …
+[0883B] *Et ad matutinum laetitia.*   ✓ Ps 29:6
+[0883B] *Fletus.*   — single word, check in place
+[0883B] VERS. 7.-- *Ego autem.*   ✓ 1Cor 1:12, 1Cor 7:28, 1Cor 9:15, …
+[0883D] *Non morte morieris [n: (Gen. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0883D] *voluntate tua praestitisti decori meo virtutem;*   ✓ Ps 29:8
+[0883D] *Avertisti faciem tuam,*   ✓ Ps 29:8
+[0883D] *clamabo ad te,*   ⚠ NOT in Clementine verbatim — CHECK
+[0883D] VERS. 8.-- *Avertisti.*   — single word, check in place
+[0883D] *Tristis est anima mea usque ad mortem. [n: (Matth. XVI.)] Conturbatus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0883D] *Ad te, Domine, clamabo.*   ✓ Joel 1:19, Ps 27:1, Ps 29:9
+[0884A] VERS. 10.-- *Quae utilitas in sanguine meo.*   ✓ Ps 29:10
+[0884A] *Dum descendo in corruptionem.*   ✓ Ps 29:10
+[0884A] VERS. 11.-- *Audivit Dominus.*   ✓ 4Rg 19:4, Is 37:4, Ps 29:11, …
+[0884A] VERS. 12.-- *Conscidisti saccum meum.*   ✓ Ps 29:12
+[0884B] *Dum mihi molesti essent, induebar cilicio [n: (Psal. XXXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0884B] VERS. 13.-- *Non compungar.*   ✓ Ps 29:13
+[0884B] *Domine Deus, in aeternum confitebor tibi.*   ⚠ NOT in Clementine verbatim — CHECK
+[0884B] *in aeternum confitebor tibi?*   ✓ Ps 29:13
+[0884C] VERS. 1.-- *In finem psalmus.*   ✓ Ps 10:1, Ps 12:1, Ps 13:1, …
+[0884C] *usque ad: Erunt duo in carne una [n: (Gen. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0884C] VERS. 2.-- *In te, Domine, speravi,*   ✓ Ps 30:2, Ps 37:16, Ps 70:1
+[0884C] VERS. 3.-- *Accelera.*   — single word, check in place
+[0884D] *Esto mihi.*   ✓ Gn 33:10, Jdc 17:10, Lc 18:13, …
+[0884D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0884D] VERS. 5.-- *Educes.*   — single word, check in place
+[0884D] *De laqueo quem absconderunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[0884D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0884D] *Educes me de laqueo.*   ✓ Ps 30:5
+[0884D] VERS. 6.-- *In manus.*   ✓ 1Mcc 3:18, 1Mcc 7:35, 1Par 5:20, …
+[0884D] *In manus.*   ✓ 1Mcc 3:18, 1Mcc 7:35, 1Par 5:20, …
+[0884D] VERS. 8.-- *Ego autem, in Domino,*   ✓ Hab 3:18, Ps 30:7
+[0885A] *Exsultabo et laetabor.*   ✓ Ps 30:8
+[0885A] *Humilitatem meam.*   ✓ Gn 29:32, Ps 9:14, Ps 21:22, …
+[0885A] *Necessitatibus.*   — single word, check in place
+[0885A] *Necessitates*   — single word, check in place
+[0885A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885A] *In loco spatioso.*   ✓ Ps 30:9
+[0885A] *Miserere mei, Domine.*   ✓ Mt 15:22, Ps 6:3, Ps 9:14, …
+[0885A] *Tribulor.*   — single word, check in place
+[0885A] *Statuisti in loco spatioso,*   ✓ Ps 30:9
+[0885A] *Conturbatus.*   — single word, check in place
+[0885B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885B] *In ira oculus.*   ✓ Ps 30:10
+[0885B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885B] VERS. 11.-- *Paupertate.*   — single word, check in place
+[0885B] *egestate.*   — single word, check in place
+[0885C] VERS. 12.-- *Super omnes inimicos meos.*   ✓ Ps 30:12
+[0885C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885C] *vicinis,*   — single word, check in place
+[0885C] *notis,*   — single word, check in place
+[0885C] VERS. 13.-- *Qui videbant me foras.*   ✓ Ps 30:12
+[0885C] *Foras,*   — single word, check in place
+[0885C] *Oblivioni datus sum tanquam mortuus a corde.*   ⚠ NOT in Clementine verbatim — CHECK
+[0885C] *Vas perditum,*   ✓ Ps 30:13
+[0885C] VERS. 14.-- *Vituperationem multorum.*   ✓ Ps 30:14
+[0885D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885D] *In circuitu. In eo dum convenirent simul.*   ✓ Ps 30:14
+[0885D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885D] VERS. 16.-- *Sortes meae.*   ✓ Ps 30:16
+[0885D] *eripe.*   — single word, check in place
+[0885D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0885D] VERS. 17.-- *Illustra.*   — single word, check in place
+[0885D] *Illustra.*   — single word, check in place
+[0885D] *Discerne causam meam [n: (Psal. XLI)]*   ✓ Ps 42:1
+[0886A] *Salvum me fac in misericordia,*   ✓ Ps 30:17
+[0886A] VERS. 18.-- *Invocavi.*   — single word, check in place
+[0886A] VERS. 19.-- *Muta fiant.*   ✓ Ps 30:19
+[0886A] *Quae loquuntur.*   ✓ 1Rg 8:7, 1Tim 1:7, Ps 30:19
+[0886A] *In superbia et in abusione.*   ✓ Ps 30:19
+[0886A] VERS. 20.-- *Quam magna.*   ✓ Bar 3:24, Ps 30:20, Sir 17:28
+[0886A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0886B] *A conturbatione.*   ✓ Ps 30:21
+[0886B] *Proteges.*   — single word, check in place
+[0886B] *proteges,*   — single word, check in place
+[0886B] VERS. 22.-- *Benedictus.*   — single word, check in place
+[0886B] *Mirificavit.*   — single word, check in place
+[0886B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0886B] *Unguentum effusum est nomen tuum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0886B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0886B] *Requievit in corde terrae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0886B] VERS. 23.-- *Ego dixi in excessu.*   ⚑ MATCHES ONLY ELSEWHERE — Ps 115:2  (lemma is Ps 30) — CHECK
+[0886B] *usque ad: Ideo exaudisti vocem orationis [0886C] meae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0886C] *In excessu mentis.*   ✓ Act 11:5, Ps 30:23
+[0886C] *A facie oculorum tuorum.*   ✓ Ps 30:23
+[0886C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0886C] VERS. 24.-- *Diligite Dominum, omnes,*   ✓ Ps 30:24
+[0886C] *Sancti ejus,*   ✓ Is 63:10, Ps 29:5, Ps 30:24, …
+[0886C] *Requiret Dominus,*   ✓ Ps 30:24
+[0886C] *Abundanter facientibus.*   ✓ Ps 30:24
+[0886C] *Superbiam.*   — single word, check in place
+[0886C] VERS. 25.-- *Viriliter agite,*   ✓ 1Cor 16:13, 1Mcc 2:64, 2Par 32:7, …
+[0886D] *Intellectus David.*   ✓ Ps 51:1, Ps 53:1, Ps 54:1, …
+[0887A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0887A] VERS. 1.-- *Beati quorum remissae sunt,*   ✓ Ps 31:1, Rom 4:7
+[0887A] *Iniquitates.*   — single word, check in place
+[0887A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0887A] VERS. 2.-- *Beatus vir.*   ✓ Is 56:2, Jac 1:12, Ps 1:1, …
+[0887A] *Beatus:*   — single word, check in place
+[0887A] VERS. 3.-- *Tacui.*   — single word, check in place
+[0887B] *Beatus cui non imputavit.*   ⚠ NOT in Clementine verbatim — CHECK
+[0887B] *Quoniam tacui,*   ✓ Ps 31:3
+[0887B] *tacui,*   — single word, check in place
+[0887B] *dum clamarem tota die:*   ✓ Ps 31:3
+[0887B] *Dum clamarem tota die,*   ✓ Ps 31:3
+[0887B] *Est justus qui perit in justitia sua.*   ⚠ NOT in Clementine verbatim — CHECK
+[0887B] *Nihil mihi conscius sum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0887C] VERS. 4.-- *Configitur spina.*   ✓ Ps 31:4
+[0887C] *Spina,*   — single word, check in place
+[0887C] *aerumna,*   — single word, check in place
+[0887C] *usque ad: in manibus temulenti.*   ⚠ NOT in Clementine verbatim — CHECK
+[0887C] VERS. 5.-- *Delictum meum.*   ✓ Ps 31:5
+[0887C] *Feci cognitum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0887C] *Dixi*   — single word, check in place
+[0887C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0887C] VERS. 6.-- *Pro hac orabit.*   ✓ Ps 31:6
+[0887C] *Pro hac.*   ✓ 2Rg 13:20, 4Rg 5:18, 4Rg 6:11, …
+[0887C] *Tempore,*   — single word, check in place
+[0887C] *Verumtamen in diluvio,*   ✓ Ps 31:6
+[0887D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0887D] *Tu es refugium. Ad eum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0887D] VERS. 8.-- *Intellectum tibi dabo.*   ✓ Ps 31:8
+[0887D] *Intellectum tibi dabo,*   ✓ Ps 31:8
+[0887D] *Tu, erue.*   ⚠ NOT in Clementine verbatim — CHECK
+[0887D] *intellectum tibi dabo.*   ✓ Ps 31:8
+[0887D] VERS. 9.-- *Nolite fieri sicut equus et mulus,*   ✓ Ps 31:9
+[0888A] *Equus,*   — single word, check in place
+[0888A] *mulus,*   — single word, check in place
+[0888A] *Equus,*   — single word, check in place
+[0888A] *mulus,*   — single word, check in place
+[0888A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0888A] *Maxillas.*   — single word, check in place
+[0888A] *maxillas*   — single word, check in place
+[0888A] *Nolite fieri sicut equus,*   ✓ Ps 31:9
+[0888A] *Qui non approximant ad te.*   ✓ Ps 31:9
+[0888A] VERS. 10.-- *Multa flagella peccatoris,*   ✓ Ps 31:10
+[0888B] *In finem.*   ✓ 1Cor 1:8, 1Thes 2:16, 2Cor 1:13, …
+[0888B] VERS. 1.-- *Exsultate,*   — single word, check in place
+[0888B] VERS. 2.-- *Cithara.*   — single word, check in place
+[0888B] *In psalterio.*   ✓ Ps 32:2, Ps 48:5, Ps 143:9, …
+[0888C] *citharam*   — single word, check in place
+[0888C] *psalterium*   — single word, check in place
+[0888C] VERS. 3.-- *Cantate ei,*   ✓ 1Par 16:9, Ps 32:3, Ps 104:2
+[0888C] *Canticum novum.*   ✓ Apc 5:9, Apc 14:3, Is 42:10, …
+[0888C] *Cantate canticum novum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0888C] VERS. 4.-- *Quia rectum est.*   ✓ Ps 32:4
+[0888C] *Et omnia opera.*   ✓ Gn 39:23, Ps 32:4, Sir 17:16
+[0888D] *Fides tua te salvum fecit [n: (Matth. X)]*   ✓ Lc 17:19, Lc 18:42, Mc 10:52
+[0888D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0888D] *In fide.*   ✓ 1Cor 16:13, 1Par 9:22, 1Ptr 5:9, …
+[0888D] VERS. 5.-- *Terra.*   — single word, check in place
+[0888D] VERS. 6.-- *Verbo.*   — single word, check in place
+[0889A] *Coeli.*   — single word, check in place
+[0889A] *omnis virtus eorum*   ✓ Ps 32:6
+[0889A] *Uter,*   — single word, check in place
+[0889A] *Etiam abyssos,*   ⚠ NOT in Clementine verbatim — CHECK
+[0889A] *Terra.*   — single word, check in place
+[0889A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0889A] *Virtus eorum.*   ✓ Jdt 5:3, Jdt 9:11, Ps 32:6
+[0889A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0889A] VERS. 7.-- *Sicut in utre.*   ✓ Ps 32:7
+[0889B] VERS. 8.-- *Timeat omnis terra.*   ⚠ NOT in Clementine verbatim — CHECK
+[0889B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0889B] *Ab eo,*   ✓ 1Cor 8:3, 1Jo 1:5, 1Jo 2:27, …
+[0889B] *ab eo. Commoveantur.*   ⚠ NOT in Clementine verbatim — CHECK
+[0889B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0889B] VERS. 9.-- *Dixit et facta sunt.*   ✓ Ps 32:9, Ps 148:5
+[0889B] VERS. 10.-- *Dissipat consilia.*   ✓ Ps 32:10
+[0889B] *Gentium.*   — single word, check in place
+[0889B] *Populorum.*   — single word, check in place
+[0889B] *Principum.*   — single word, check in place
+[0889B] VERS. 11.-- *Consilium autem Domini,*   ✓ Ps 32:11
+[0889B] *Manet in aeternum.*   ✓ 1Jo 2:17, 1Ptr 1:25, Is 40:8, …
+[0889B] *Cogitationes.*   — single word, check in place
+[0889B] VERS. 12.-- *Beata gens.*   ✓ Ps 32:12
+[0889B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0889B] VERS. 13.-- *De coelo.*   ✓ 1Cor 15:47, 1Mcc 3:19, 1Mcc 12:15, …
+[0889D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0889D] VERS. 15.-- *Finxit.*   — single word, check in place
+[0889D] *Sigillatim,*   — single word, check in place
+[0889D] *Sigillatim,*   — single word, check in place
+[0889D] VERS. 16.-- *Non salvatur rex.*   ✓ Ps 32:16
+[0890A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0890A] VERS. 17.-- *Fallax equus.*   ✓ Ps 32:17
+[0890A] *equus*   — single word, check in place
+[0890A] *equus*   — single word, check in place
+[0890A] *Equus,*   — single word, check in place
+[0890A] *Gigas,*   — single word, check in place
+[0890A] VERS. 18.-- *Ecce oculi.*   ✓ Am 9:8, Dn 7:8, Ps 32:18
+[0890A] *oculi,*   — single word, check in place
+[0890A] *Oculi,*   — single word, check in place
+[0890B] *Metuentes eum.*   ✓ Ps 32:18
+[0890B] VERS. 19.-- *Ut eruat,*   ✓ Dt 20:4, Dt 23:14, Is 36:20, …
+[0890B] VERS. 20.-- *Anima nostra sustinet Dominum.*   ✓ Ps 32:20
+[0890B] VERS. 21.-- *Quia in eo.*   ✓ Ps 32:21
+[0890B] *Speravimus.*   — single word, check in place
+[0890B] *Speravimus.*   — single word, check in place
+[0890B] *Fiat misericordia tua, Domine, super nos,*   ✓ Ps 32:22
+[0890B] *In te.*   ✓ 1Rg 10:6, 1Rg 24:12, 1Rg 24:13, …
+[0890C] VERS. 1.-- *Psalmus David.*   ⚑ MATCHES ONLY ELSEWHERE — Ps 3:1, Ps 4:1, Ps 5:1, …  (lemma is Ps 33) — CHECK
+[0890C] *Cum immutavit vultum*   ✓ Ps 33:1
+[0890C] *coram*   — single word, check in place
+[0890C] *Et dabit illi Dominus sedem David,*   ⚠ NOT in Clementine verbatim — CHECK
+[0890D] VERS. 2.-- *Benedicam.*   — single word, check in place
+[0890D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0890D] VERS. 3.-- *In Domino laudabitur anima mea.*   ✓ Ps 33:3
+[0890D] *Mansueti.*   — single word, check in place
+[0890D] *Magnificate Dominum.*   ✓ Ps 33:4
+[0890D] *Magnificate*   — single word, check in place
+[0891A] *Exquisivi Dominum. Ex omnibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0891A] *Accedite.*   — single word, check in place
+[0891A] *Magnificate:*   — single word, check in place
+[0891A] *Magnificate,*   — single word, check in place
+[0891A] *Accedite*   — single word, check in place
+[0891A] *Non confundantur.*   ✓ Ps 68:7
+[0891A] VERS. 7.-- *Pauper.*   — single word, check in place
+[0891A] *Iste*   — single word, check in place
+[0891A] VERS. 8.-- *Immittet Angelum. Accedite,*   ⚠ NOT in Clementine verbatim — CHECK
+[0891A] *immittet Angelum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0891A] *Immittet Angelum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0891A] *Circumdat Angelus Domini in gyro timentes eum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0891A] *Immittet Angelum Dominus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0891A] VERS. 9.-- *Gustate et videte.*   ✓ Ps 33:9
+[0891A] *Gustate*   — single word, check in place
+[0891A] *Suavis est Dominus.*   ✓ Ps 33:9, Ps 99:5
+[0891A] VERS. 10.-- *Omnes sancti ejus.*   ✓ Ps 30:24, Ps 33:10
+[0891A] *Quoniam.*   — single word, check in place
+[0891A] *Non est inopia.*   ✓ Ps 33:10
+[0891A] VERS. 11.-- *Divites eguerunt et esurierunt.*   ✓ Ps 33:11
+[0891A] *Esurierunt,*   — single word, check in place
+[0891A] *divites eguerunt,*   ✓ Ps 33:11
+[0891D] VERS. 12.-- *Venite, filii, audite me.*   ✓ Ps 33:12
+[0891D] *Docebo vos,*   ✓ 1Rg 12:23, Job 27:11, Ps 33:12
+[0891D] VERS. 13.-- *Dies videre bonos.*   ✓ 1Ptr 3:10, Ps 33:13
+[0891D] VERS. 14.-- *Prohibe.*   — single word, check in place
+[0891D] *Prohibe*   — single word, check in place
+[0892A] VERS. 15.-- *Diverte a malo.*   ✓ Ps 33:15
+[0892A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0892A] VERS. 16.-- *Oculi Domini,*   ✓ 1Ptr 3:12, Am 9:8, Pr 15:3, …
+[0892A] *Oculi Domini.*   ✓ 1Ptr 3:12, Am 9:8, Pr 15:3, …
+[0892A] *oculi.*   — single word, check in place
+[0892A] *In preces.*   ✓ 1Ptr 3:12, Ps 33:16
+[0892A] VERS. 17.-- *Memoriam.*   — single word, check in place
+[0892A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0892A] VERS. 19.-- *Juxta est Dominus.*   ✓ Ps 33:19
+[0892A] *juxta est;*   ✓ 2Par 6:36, Abd 1:15, Dt 32:35, …
+[0892A] VERS. 20.-- *Multae tribulationes justorum.*   ✓ Ps 33:20
+[0892B] *juxta est, et salvabit,*   ⚠ NOT in Clementine verbatim — CHECK
+[0892B] *multae tribulationes.*   ✓ 1Mcc 12:13, Ps 33:20
+[0892B] *Multae;*   — single word, check in place
+[0892B] *Liberabit.*   — single word, check in place
+[0892B] VERS. 21.-- *Ossa.*   — single word, check in place
+[0892B] *Et unum,*   ✓ 2Rg 8:2, 2Rg 18:11, Apc 15:7, …
+[0892B] VERS. 22.-- *Pessima.*   — single word, check in place
+[0892B] *Qui oderunt.*   ✓ 2Par 19:2, Dt 5:9, Dt 30:7, …
+[0892B] *redimet animas,*   ✓ Ps 71:14

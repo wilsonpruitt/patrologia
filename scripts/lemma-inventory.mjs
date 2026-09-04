@@ -225,7 +225,14 @@ out.push('');
 out.push('## The inventory');
 out.push('');
 
-let hits = 0, misses = 0, singles = 0, elsewhere = 0;
+// ⛔ `printed`, NOT rows.length. An empty span (CC's `<hi></hi>` noise, which the chunker
+// renders as a bare `**`) is COLLECTED as a row and then dropped by the `continue` below, so
+// rows.length totals lines the file does not contain. Measured on 8967: the headline said
+// 5999 while the file held 5997 and the four categories summed to 5997. The runbook makes
+// this total load-bearing -- stints are told to count their own Latin against it, and that
+// count is the ONLY handle on a mis-split brief -- so two phantom spans send a stint hunting
+// for lemmata that never existed.
+let hits = 0, misses = 0, singles = 0, elsewhere = 0, printed = 0;
 for (const r of rows) {
   const norm = normalize(r.span);
   const words = norm.split(' ').filter(Boolean);
@@ -265,15 +272,16 @@ for (const r of rows) {
       } else { mark = `✓ ${shown}`; hits++; }
     }
   }
+  printed++;
   const lead = r.vers ? r.vers + ' ' : '';
   out.push(`[${r.band}] ${lead}${r.span}   ${mark}`);
 }
 
 out.push('');
-out.push(`## Totals — ${rows.length} spans: ${hits} ✓ · ${elsewhere} ⚑ · ${misses} ⚠ · ${singles} single-word`);
+out.push(`## Totals — ${printed} spans: ${hits} ✓ · ${elsewhere} ⚑ · ${misses} ⚠ · ${singles} single-word`);
 if (unclosed) out.push(`\n⚠ ${unclosed} line(s) carry an odd number of \`*\` — an italic span may cross a line. Check by eye.`);
 
 fs.mkdirSync('data/briefs', { recursive: true });
 const dest = `data/briefs/${idno}-lemmata.txt`;
 fs.writeFileSync(dest, out.join('\n') + '\n');
-console.log(`${dest} — ${rows.length} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}`);
+console.log(`${dest} — ${printed} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}`);
