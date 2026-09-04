@@ -4486,3 +4486,76 @@ Ordered by column. Items 1–20 are text; 21–25 are citation addresses. Leaf =
 ⚑ **Eight of these twenty-five are sites where our file alone makes a `[sic:]` or a `[cj:]` look
 obviously right.** None is marked. On John that discipline produced every one of the seventeen
 corrections the work received, and the same wager is made here.
+
+---
+
+# §8. THE BLIND POLARITY READ — three readers, 41 chunks, 13 repairs
+
+Run after the merge, before the plate read. Three Opus readers over disjoint ranges — **A**
+0000–0013, **B** 0014–0027, **C** 0028–0040 — each **fenced off from this file and from every
+`cruces-NNNN.md`** until its findings were on disk. All three said plainly, unprompted, that they
+consulted the apparatus only afterwards. Reports: `data/polarity-findings/9000-reader-{A,B,C}.md`.
+
+**Every one of the 41 chunks was read and named.** Clean on the readers' own accounting: 0000,
+0001, 0002, 0004, 0009, 0010, 0014, 0016, 0017, 0020, 0021, 0023, 0024, 0025, 0029, 0032, 0034,
+0035, 0037, 0038, 0039, 0040 — twenty-two of forty-one.
+
+## §8.1 ⛔ NOT ONE DROPPED OR INTRUDED NEGATION IN 44,075 WORDS
+
+Reader A checked every printed `non/nec/neque/nisi/nunquam/nullus/nihil/ne` in fourteen chunks
+against the running English; B did the same for its range and reports the self-contradictory
+Latin carried intact (*nihil mundamini* @0298B, *nec ipse… et illos excludit* @0294B). **The
+class the check is named for was clean. The class it actually caught was reference-binding** —
+which is now the fourth consecutive work where that is true (11 of 19 on John, 5 of 6 on Mark,
+5 of 8 on 9004).
+
+## §8.2 The thirteen repairs, all OURS
+
+| col | Latin | was | now |
+|---|---|---|---|
+| 0323A | *Deus non faciet vindictam electorum ad se clamantium* | "God will **not** revenge his elect crying to him." | "**Shall not** God revenge his elect crying to him?" |
+| 0270A | *non verbo aliquo, sed factis se esse signavit* | "he signified what he was **not by any word**" | "he signified what he was, **not** by any word" |
+| 0302B | *non qui **adesse** nesciret* | "knew not that it was **absent**" | "did not know that it was **there**" |
+| 0311D | *Quas vocat… ad amorem **sui*** | "**he** calls them… love of **himself**" | "**she** calls them… love of **herself**" |
+| 0341B | *quidquid **illa** scandali* | "that **frailty** had endured" | "that **faith** had endured" |
+| 0329A | *quem Dominum fecerat non natura, sed culpa* | "he could not claim… **whom** fault had made lord" | "**he whom** not nature but fault had made lord could not claim…" |
+| 0342C | *per passionem **redempturus*** | "being about to **be redeemed**" | "being about to **redeem**" |
+| 0327B | *ut spiritualiter intelligat* | "that **he** may understand" | "that **it** may understand" |
+| 0251B | *qui… octavus est* | "she is descended, **who**… is eighth" | "she is descended, **from him who**… is eighth" |
+| 0279D | *vox professionis, **quam** defendit…* | "…of faith, **which** the profession defends" | "…of faith, **a voice which** the profession defends" |
+| 0262C | *fide **praestitit*** | "he **showed it** by faith" | "he **excelled** in faith" |
+| 0258A | *per **missionem** poenae, **remissionem** culpae* | "the **remission** of the penalty… **remission** of the fault" | "the **release** of the penalty… **remission** of the fault" |
+| 0260A | lemma *Sed vinum* | "*But **new** wine.*" | "*But wine.*" |
+
+⭐ **The worst was 0323A, and it is the whole argument of its paragraph.** Migne quotes Luke 18:7,
+which the Vulgate prints as a question (*Deus autem non faciet vindictam electorum suorum…?*), and
+the abridgment drops the mark. Rendered flat, our English said God **will not** avenge his elect —
+in a sentence whose point is that the humble publican **belongs to those God vindicates**, and
+whose immediate twin (*Filius hominis veniens, putas inveniet fidem in terra?*) is kept
+interrogative on the same line. **No word was changed; the interrogative was restored.**
+
+⚑ **Three of the thirteen are the John @0409B class — an apparatus entry that is right while the
+English carries the opposite.** 0251B: the cruces file calls it "the trap of the range" and gets
+the gender right, and the shipped English still handed a reader *she*. 0329A: the crux states
+"*quem* is that same master" and the English split him into two people. **A logged column is not a
+checked column, and this is the second work in a row where the blind read's real yield was
+decisions the prose never carried.**
+
+⚑ **0260A is a class no other check can see.** The lemma's *Latin* is collated against the
+Clementine and passes ✓ — but nothing collates the *English* lemma, and that is where Douay's
+"new" entered. **7a″ guards the Latin side of a lemma only.**
+
+## §8.3 Left standing deliberately
+
+- **0317A *sed ignis inopia purgavit*** — construes both ways (*inopia* nominative with *ignis*
+  genitive, "the want of fire purged it", which is what the English carries; or *ignis* nominative
+  with *inopia* ablative, "fire purged it by want"). Gregory's argument favours poverty as the
+  purging agent, which would want *inopiae ignis*. **Not emended, because choosing here is
+  choosing a text.** One plate leaf (n164) settles whether Migne prints *inopia* or *inopiae*.
+- **0332A *quasi **utile** cadaver*** — almost certainly *inutile*; already declined by its stint
+  under Pattern 18a, English correctly literal.
+- **0321B *Qui interim apparens*** — a probable dropped *non* in Migne; carried literally.
+- **0293B *Repondens, however.*** — a hybrid, half Migne's corrupt Latin and half English, from
+  the carried-non-word policy. **Not a translation error and not ours to settle: it is a policy
+  question for Wilson** — either the whole lemma is carried in Migne's letters or it is Englished
+  with the defect noted, but not half of each.
