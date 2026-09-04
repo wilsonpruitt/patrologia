@@ -4289,6 +4289,61 @@
      "source": "raw/scans/pl114/patrologiaecurs06saingoog.pdf p.179, PDF page = (column + 11) / 2, corner numbers read before judging any word; archive.org patrologiaecursu0114mign leaf n179 (same map) wherever the on-disk copy clips a margin"
     }
    ]
+  },
+  "8967": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2",
+   "page_map_note": "Independently re-derived off running heads at chunking and it AGREES with 8944's map on the same scan. Volume confirmed from the plate itself -- PATROL. CXIII. stands at the foot of PDF 426 -- not inferred from the archive id, whose '04' is the item number.",
+   "reads": [
+    {
+     "from": "0841A",
+     "to": "0842D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 426,
+     "source": "on-disk PL 113 scan, full page width; CALIBRATION PAGE, corner read 842, foot reads PATROL. CXIII.",
+     "found": "no conjecture apparatus. TWO other findings: CC drops the Hebrew nebel the plate sets after the transliteration (zero Hebrew codepoints survive in this work's TEI), and the left column is clipped ~3-5 chars at the inner margin"
+    },
+    {
+     "from": "0849A",
+     "to": "0850D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 430,
+     "source": "on-disk PL 113 scan, full page width",
+     "found": "no conjecture apparatus; left column clipped at the inner margin (VERS. reads as 's.')"
+    },
+    {
+     "from": "1043A",
+     "to": "1044D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 527,
+     "source": "on-disk PL 113 scan, full page width",
+     "found": "no conjecture apparatus; left column CLEAN -- the first read page whose inner margin is whole"
+    },
+    {
+     "from": "1045A",
+     "to": "1046D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 528,
+     "source": "on-disk PL 113 scan, full page width; targeted at the PSAMUS CXXIV head",
+     "found": "SETTLED: the plate reads PSALMUS CXXIV. correctly, so CC's PSAMUS is CC's own dropped L and NOT Migne's type. Silent repair, no [sic:]. Left column clipped"
+    },
+    {
+     "from": "1047A",
+     "to": "1048D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 529,
+     "source": "on-disk PL 113 scan, full page width; clipping control",
+     "found": "no conjecture apparatus; left column CLEAN. Fifth of five pages consistent with the mod-4 rule below"
+    }
+   ],
+   "scan_defect": "INNER-MARGIN CLIPPING, and it is regular: a left-hand column whose number is congruent to 1 (mod 4) loses ~3-5 characters at the start of most lines; 3 (mod 4) is clean. Read 841(clipped) 849(clipped) 1043(clean) 1045(clipped) 1047(clean) -- 5 of 5. That is HALF this work's left columns, so roughly a QUARTER of all its columns cannot license a claim about line-opening type in this copy. A [sic:] or [var:] resting on the first word of a line in such a column needs a second copy (Gallica; data/volumes.json) before it may ship."
   }
  }
 }

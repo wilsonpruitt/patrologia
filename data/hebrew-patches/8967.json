@@ -1,0 +1,39 @@
+{
+ "textIdno": "8967",
+ "work": "Liber Psalmorum",
+ "author": "Anselmus Laudunensis et schola",
+ "volume": 113,
+ "issue": "Corpus Corporum's TEI dropped the Hebrew type Migne sets inline, leaving the documented scar — a DOUBLED SPACE where the glyphs stood. See hebrew-recovery.md. ⚠ ZERO Hebrew codepoints survive anywhere in this work's 96,650-word TEI, so the drop is total rather than selective.",
+ "found_by": "The chunking plate spot check, 2026-09-04 — on the work's own opening page, which the check was already required to read. Same way 8944's three sites were found, one volume over. Not predicted from the Latin.",
+ "source": {
+  "repository": "archive.org (Google scan), on disk",
+  "id": "patrologiaecurs04migngoog",
+  "path": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+  "pageMap": "PDF page = (column + 11) / 2 — re-derived off the printed corner numbers before the read (p. 426 = cols 841/842) and in agreement with the map 8944 recorded on this same scan.",
+  "volumeCheck": "Confirmed FROM THE PLATE: `PATROL. CXIII.` at the foot of p. 426. The id's '04' is the item number, not the volume.",
+  "note": "Full page width at 150 dpi, then a region crop at 600 dpi. Native resolution of this copy is well below 600 dpi, so 600 is upscaling; it was enough for three unpointed consonants and would not be enough for vowel points."
+ },
+ "applied_as": "data/tei-patches/8967.json — a TEI patch, not a chunk edit, so a re-chunk reproduces it. Verified by re-chunking: the Hebrew survives into src/latin/8967/0001.md and word conservation returns to 96,650.",
+ "pointing": "Migne's type here shows NO vowel points at this copy's resolution, and none are supplied. The consonants are read directly and are not inferred. Contrast 8944, where the shin dots were legible and pointing was given per MT.",
+ "patches": [
+  {
+   "chunk": "0001",
+   "column": "0841C",
+   "verse": null,
+   "hebrew": "נבל",
+   "translit_printed": "nebel",
+   "pdfPage": 426,
+   "pointed": false,
+   "verifiedAgainstMT": false,
+   "scar": "doubled space: '<hi>nebel</hi>  , apud Graecos,'",
+   "note": "Migne: 'Psalterium apud Hebraeos vocatur nebel (נבל), apud Graecos, ψαλτήριον, apud Latinos vero organum.' Three consonants nun-bet-lamed, unambiguous at 600 dpi. NOT a scriptural quotation but the common noun נבל (harp/lyre), so hebrew-recovery.md step 5's MT check does not apply; its place is taken by Migne's own three-language gloss standing in the same clause — nebel / ψαλτήριον / organum — which fixes the referent independently of the glyphs. ⚑ The order MIRRORS 8944's: there Hebrew precedes the transliteration, here it follows in parentheses. The parens are Migne's and are kept."
+  }
+ ],
+ "scarSweep": {
+  "method": "grep for whitespace before punctuation across all 106 chunks, then read what matched",
+  "rawCandidates": 13,
+  "realCandidates": 1,
+  "confirmed": 1,
+  "note": "⚑ COUNT THE CANDIDATES, THEN READ THEM. Twelve of the thirteen matches are Migne's OWN ELLIPSIS DOTS inside abbreviated lemmata ('VERS. 9.-- *Terram . . .') and are not scars at all. Only the nebel site was a real doubled-space drop, and it is recovered. Reporting 13 as an exposure figure would have overstated this work by an order of magnitude. Three `In Hebraeo` clauses also stand in the work, none with surviving Hebrew; they are UNREAD candidates and are not claimed — hebrew-recovery.md step 1 makes the scan the arbiter, not the scar, and step 5 records that some `In Hebraeo` sites never carried Hebrew type at all. Exposure here is small by the standards of an etymological work: worth the sweep, not worth a campaign."
+ }
+}
