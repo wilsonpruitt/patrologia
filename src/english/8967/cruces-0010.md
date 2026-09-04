@@ -237,6 +237,12 @@ Per the brief's dominant-defect warning, every pronoun the Latin does not print:
   makes the sword the soul, not God's.
 - **0867A `Populus *catulus leonis*`** — "the people is the young of a lion." The predicate is
   unexpressed; *Populus* is the printed subject.
+- **0865B `sed ab ipso habet omnia`** — subject of *habet* supplied as **Christ the man**, not
+  God: "but Christ the man has all things from him." Added by the polarity pass (chunks
+  0010–0019). The English had carried *Deus* forward as the subject ("but has all things from
+  him"), which made the sentence say God receives all things from a creature — the opposite of
+  the anti-Pelagian conclusion the same sentence draws (*destruitur arrogantia hominum et
+  haeresis Pelagianorum*). §7a mechanism 5 (agency mis-bound); the noun is the sentence's own.
 
 ## 7. Vocabulary axes — every decision in the range
 
