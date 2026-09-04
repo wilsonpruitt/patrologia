@@ -45,6 +45,34 @@ const normalize = (s) => s
   .replace(/coel/g, 'cael');
 const flatNorm = normalize(flat.replace(/^[^\t]*\t/gm, ''));
 
+// ⛔ THE MATCH MUST END AND BEGIN ON A WORD BOUNDARY. A bare `flatNorm.includes(norm)`
+// is an UNANCHORED substring test, so a span whose last word is a PREFIX of the
+// Clementine's word scores ✓ — and that is precisely the shape a real divergence takes.
+// Found 2026-09-03 by a translating stint on 8999 @0401A: the span
+// `Sed ut filios Dei qui erant dispersi congregare` was marked ✓ against Jo 11:52's
+// `... qui erant dispersi, congregaret in unum`, because `congregare` is a prefix of
+// `congregaret`. THE INFINITIVE/SUBJUNCTIVE IS THE DIVERGENCE, and the mark hid it.
+// Measured over every committed brief at the time of the fix: 23 such false ✓ in 8,036
+// (0.29%), including 9001 @0227B `Vae autem praegnantibu` — a word BROKEN mid-form,
+// cleared by matching the prefix of `praegnantibus`.
+// ⚑ The error pushes in the one direction that costs: a false ⚠ only wastes a look,
+// a false ✓ suppresses one, and the brief tells stints a ✓ is not clearance precisely
+// because it cannot be trusted. This makes the mark mean what the brief says it means.
+// ⚑ Boundary = any non-letter, NOT a space: clementine-flat.txt glues the Song of Songs'
+// speaker rubrics to the following word (`<sponsa>osculetur me osculo oris sui`), so a
+// space-only test rejects 38 perfectly good Canticles matches as artifacts.
+const isLetter = (c) => c >= 'a' && c <= 'z';
+function occursAsWords(hay, needle) {
+  let i = 0;
+  while ((i = hay.indexOf(needle, i)) !== -1) {
+    const okBefore = i === 0 || !isLetter(hay[i - 1]);
+    const okAfter = i + needle.length === hay.length || !isLetter(hay[i + needle.length]);
+    if (okBefore && okAfter) return true;
+    i++;
+  }
+  return false;
+}
+
 // ---- walk the chunks --------------------------------------------------------
 const files = fs.readdirSync(latinDir).filter(f => /^\d+\.md$/.test(f)).sort();
 const rows = [];
@@ -125,7 +153,7 @@ for (const r of rows) {
   let mark;
   if (words.length === 0) { continue; }
   else if (words.length === 1) { mark = '— single word, check in place'; singles++; }
-  else if (flatNorm.includes(norm)) { mark = '✓ Clementine verbatim'; hits++; }
+  else if (occursAsWords(flatNorm, norm)) { mark = '✓ Clementine verbatim'; hits++; }
   else { mark = '⚠ NOT in Clementine verbatim — CHECK'; misses++; }
   const lead = r.vers ? r.vers + ' ' : '';
   out.push(`[${r.band}] ${lead}${r.span}   ${mark}`);
