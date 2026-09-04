@@ -1,0 +1,184 @@
+# 9000 — lemma inventory and Clementine pre-scan
+
+**Evangelium secundum Lucam** · PL 114 · cols 0243D–0356A · 41 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every italic span in the Latin of this work, in order, with its column band. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ Clementine verbatim** = this exact word sequence occurs SOMEWHERE in the Clementine.
+  ⛔ It does **not** mean it occurs at the verse being glossed, and it is **not** clearance.
+  A lemma can match some other verse verbatim and still diverge from its own.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the `*…*` spans in your own files and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0021–0025, bands 0298B–0310B (142 spans, = the italic spans in your Latin)
+
+[0298B] VERS. 36.-- *Exspectantibus.*   — single word, check in place
+[0298B] *Quando revertatur.*   ✓ Clementine verbatim
+[0298B] *Ut cum venerit, confestim aperiant ei.*   ⚠ NOT in Clementine verbatim — CHECK
+[0298B] *Beati servi illi, quos cum [0298C] venerit,*   ✓ Clementine verbatim
+[0298B] VERS. 37.-- *Vigilantes.*   — single word, check in place
+[0298B] *Amen dico vobis.*   ✓ Clementine verbatim
+[0298B] *Et si venerit in secunda,*   ✓ Clementine verbatim
+[0298D] *Hoc autem scitote quoniam si sciret paterfamilias.*   ✓ Clementine verbatim
+[0298D] VERS. 40.-- *Qua hora non putatis Filius hominis veniet?*   ✓ Clementine verbatim
+[0299A] VERS. 41.-- *Ait autem ei Petrus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0299A] VERS. 42.-- *Dixit autem Dominus.*   ✓ Clementine verbatim
+[0299A] *Ignem veni mittere in terram. Quis putas esse fidelis dispensator?*   ⚠ NOT in Clementine verbatim — CHECK
+[0299B] *Et prudens quem constituit Dominus super familiam suam, ut,*   ⚠ NOT in Clementine verbatim — CHECK
+[0299B] VERS. 43.-- *Beatus.*   — single word, check in place
+[0299C] VERS. 44.-- *Super omnia quae possidet.*   ⚠ NOT in Clementine verbatim — CHECK
+[0299C] VERS. 45.-- *Quod si dixerit servus.*   ✓ Clementine verbatim
+[0299C] *Et edere.*   ✓ Clementine verbatim
+[0299C] VERS. 46.-- *Partemque.*   — single word, check in place
+[0299C] VERS. 48.-- *Paucis.*   — single word, check in place
+[0299C] *usque ad*   ✓ Clementine verbatim
+[0300A] *Omni autem.*   ✓ Clementine verbatim
+[0300A] VERS. 49.-- *Ignem,*   — single word, check in place
+[0300A] *Baptismo autem habeo,*   ✓ Clementine verbatim
+[0300B] *Et quomodo.*   ✓ Clementine verbatim
+[0300B] *Usque dum perficiatur.*   ✓ Clementine verbatim
+[0300C] VERS. 51.-- *Putatis.*   — single word, check in place
+[0300C] VERS. 52.-- *In domo una.*   ✓ Clementine verbatim
+[0300C] *Divisi.*   — single word, check in place
+[0300C] *Tres in duos.*   ✓ Clementine verbatim
+[0300C] VERS. 54.-- *Dicebat autem.*   ✓ Clementine verbatim
+[0300C] *Cum videritis.*   ✓ Clementine verbatim
+[0300C] *Nimbus venit.*   ✓ Clementine verbatim
+[0300C] VERS. 56.-- *Hypocritae,*   — single word, check in place
+[0300C] VERS. 58.-- *Cum autem vadis.*   ✓ Clementine verbatim
+[0300C] *Cum adversario.*   ✓ Clementine verbatim
+[0301C] *Da operam,*   ✓ Clementine verbatim
+[0301C] VERS. 59.-- *Reddas.*   — single word, check in place
+[0301C] VERS. 1.-- *Aderant autem.*   ✓ Clementine verbatim
+[0301D] *Nuntiantes.*   — single word, check in place
+[0301D] *De Galilaeis.*   ✓ Clementine verbatim
+[0301D] VERS. 3.-- *Omnes,*   — single word, check in place
+[0301D] VERS. 4.-- *Sicut illi decem.*   ✓ Clementine verbatim
+[0302B] *missus,*   — single word, check in place
+[0302B] VERS. 6.-- *Arborem fici.*   ✓ Clementine verbatim
+[0302B] *Qui sedebant sub umbra mortis lumen ortum est eis [n: (Isa. IX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0302B] VERS. 7.-- *Quaerens fructum. Vinea Domini sabaoh, domus Israel est,*   ⚠ NOT in Clementine verbatim — CHECK
+[0302B] *Dixit autem ad cultorem vineae.*   ✓ Clementine verbatim
+[0302B] *Ut quid etiam terram,*   ✓ Clementine verbatim
+[0302D] *Vae vobis, Scribae et Pharisaei,*   ✓ Clementine verbatim
+[0302D] VERS. 8.-- *Usquedum fodiam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0303A] *Mittam stercora.*   ✓ Clementine verbatim
+[0303A] VERS. 9.-- *Et si quidem.*   ✓ Clementine verbatim
+[0303A] *Sin autem.*   ✓ Clementine verbatim
+[0303A] VERS. 10.-- *Erat autem docens.*   ✓ Clementine verbatim
+[0303A] *Sabbatis.*   — single word, check in place
+[0303C] VERS. 11.-- *Ecce mulier,*   ✓ Clementine verbatim
+[0303C] *Annis,*   — single word, check in place
+[0303D] VERS. 14.-- *Quia Sabbato.*   ✓ Clementine verbatim
+[0303D] VERS. 15.-- *Hypocritae.*   — single word, check in place
+[0303D] *Non solvit bovem.*   ✓ Clementine verbatim
+[0303D] VERS. 16.-- *Hanc autem,*   ✓ Clementine verbatim
+[0303D] VERS. 17.-- *Erubescebant omnes.*   ⚠ NOT in Clementine verbatim — CHECK
+[0304B] *Adversarii.*   — single word, check in place
+[0304B] *Omnis populus gaudebat.*   ✓ Clementine verbatim
+[0304B] VERS. 18.-- *Dicebat ergo.*   ✓ Clementine verbatim
+[0304C] VERS. 19.-- *Simile est,*   ✓ Clementine verbatim
+[0304D] VERS. 21.-- *Quod acceptum,*   ✓ Clementine verbatim
+[0304D] VERS. 22.-- *Et ibat,*   ✓ Clementine verbatim
+[0304D] VERS. 24.-- *Contendite intrare,*   ✓ Clementine verbatim
+[0305A] VERS. 25.-- *Cum autem,*   ✓ Clementine verbatim
+[0305A] *Incipietis foris stare.*   ✓ Clementine verbatim
+[0305A] *Nescio vos.*   ✓ Clementine verbatim
+[0305B] VERS. 26.-- *Manducavimus,*   — single word, check in place
+[0305B] *In plateis,*   ✓ Clementine verbatim
+[0305C] VERS. 28.-- *Ibi erit fletus,*   ✓ Clementine verbatim
+[0305C] VERS. 29.-- *Et venient.*   ✓ Clementine verbatim
+[0305C] VERS. 32.-- *Dicite vulpi,*   ✓ Clementine verbatim
+[0305C] *Ecce ejicio daemonia,*   ✓ Clementine verbatim
+[0305C] VERS. 33.-- *Verumtamen oportet.*   ✓ Clementine verbatim
+[0305C] *Hodie et cras,*   ✓ Clementine verbatim
+[0305C] VERS. 34.-- *Jerusalem,*   — single word, check in place
+[0305C] *Quoties volui congregare.*   ✓ Clementine verbatim
+[0306B] *Filios tuos.*   ✓ Clementine verbatim
+[0306B] *Quoties volui congregare filios tuos,*   ✓ Clementine verbatim
+[0306B] *Quemadmodum avis,*   ✓ Clementine verbatim
+[0306B] VERS. 35.-- *Domus vestra.*   ✓ Clementine verbatim
+[0306B] *Non videbitis me,*   ✓ Clementine verbatim
+[0306B] *Cum dicetis,*   ✓ Clementine verbatim
+[0306C] *Et factum est,*   ✓ Clementine verbatim
+[0306C] VERS. 3.-- *Si licet,*   ✓ Clementine verbatim
+[0306C] VERS. 4.-- *At illi tacuerunt.*   ✓ Clementine verbatim
+[0306C] *Ipse vero.*   ✓ Clementine verbatim
+[0306C] *Omne opus servile non facietis in eo [n: (Lev. XXIII)]*   ✓ Clementine verbatim
+[0306C] VERS. 5.-- *Cujus vestrum.*   ✓ Clementine verbatim
+[0307A] *Bos in puteum.*   ✓ Clementine verbatim
+[0307A] *Omnes enim peccaverunt, et egent gratia Dei [n: (Rom. XXXV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0307A] VERS. 7.-- *Dicebat autem.*   ✓ Clementine verbatim
+[0307A] VERS. 8.-- *Cum invitatus fueris:*   ✓ Clementine verbatim
+[0307A] *Ne forte honoratior.*   ✓ Clementine verbatim
+[0307A] *Exaltatus autem humiliatus sum et confusus [n: (Psal. LXXXVII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0307A] VERS. 9.-- *Et tunc incipias,*   ✓ Clementine verbatim
+[0307A] VERS. 10.-- *Tunc erit tibi gloria,*   ✓ Clementine verbatim
+[0307A] *Mihi autem nimis honorificati sunt amici tui, Deus [n: (Psal. CXXXVIII)]*   ✓ Clementine verbatim
+[0307A] VERS. 12.-- *Dicebat autem.*   ✓ Clementine verbatim
+[0307D] *Et ei qui se invitaverat.*   ⚠ NOT in Clementine verbatim — CHECK
+[0307D] *Noli vocare amicos.*   ✓ Clementine verbatim
+[0307D] *Non in comessationibus [0308A] et ebrietatibus [n: (Rom. VIII)]*   ✓ Clementine verbatim
+[0308A] *Ne forte.*   ✓ Clementine verbatim
+[0308A] VERS. 13.-- *Voca pauperes.*   ✓ Clementine verbatim
+[0308A] VERS. 14.-- *In resurrectione.*   ✓ Clementine verbatim
+[0308A] VERS. 15.-- *Haec cum audisset,*   ✓ Clementine verbatim
+[0308A] *Beatus,*   — single word, check in place
+[0308A] *Si quis manducaverit ex hoc pane, vivet in aeternum [n: (Joan. VI)]*   ✓ Clementine verbatim
+[0308A] VERS. 16.-- *Homo quidam,*   ✓ Clementine verbatim
+[0308C] *Coenam magnam.*   ✓ Clementine verbatim
+[0308C] VERS. 17.-- *Et misit servum.*   ✓ Clementine verbatim
+[0308C] *in quos fines saeculorum devenerunt [n: (I Cor. X)]*   ✓ Clementine verbatim
+[0308C] VERS. 18.-- *Et coeperunt,*   ✓ Clementine verbatim
+[0308C] *Villam emi.*   ✓ Clementine verbatim
+[0308C] *usque ad*   ✓ Clementine verbatim
+[0309A] *Rogo te.*   ✓ Clementine verbatim
+[0309A] *Rogo te, habe me excusatum,*   ✓ Clementine verbatim
+[0309A] VERS. 19.-- *Juga boum.*   ✓ Clementine verbatim
+[0309A] *Eo probare illa.*   ✓ Clementine verbatim
+[0309A] VERS. 20.-- *Uxorem duxi.*   ✓ Clementine verbatim
+[0309A] VERS. 22.-- *Factum est,*   ✓ Clementine verbatim
+[0309A] VERS. 23.-- *Exi in vias et sepes,*   ⚠ NOT in Clementine verbatim — CHECK
+[0309A] VERS. 25.-- *Ibant autem turbae,*   ✓ Clementine verbatim
+[0309A] VERS. 26.-- *Si quis venit.*   ✓ Clementine verbatim
+[0309A] *Adhuc.*   — single word, check in place
+[0309D] VERS. 27.-- *Et qui non bajulat.*   ✓ Clementine verbatim
+[0309D] *Et venit post me.*   ✓ Clementine verbatim
+[0309D] VERS. 28.-- *Quis enim ex vobis.*   ✓ Clementine verbatim
+[0309D] *Turrim aedificare.*   ✓ Clementine verbatim
+[0310A] *Computat sumptus.*   ✓ Clementine verbatim
+[0310A] VERS. 29.-- *Omnes qui vident.*   ✓ Clementine verbatim
+[0310A] *Facti sumus spectaculum mundo, angelis et hominibus [n: (II Cor. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0310A] VERS. 31.-- *Aut quis,*   ✓ Clementine verbatim
+[0310B] *Si possit.*   ✓ Clementine verbatim
+[0310B] VERS. 33.-- *Sic ergo,*   ✓ Clementine verbatim
+[0310B] VERS. 34.-- *Bonum.*   — single word, check in place
+[0310B] VERS. 35.-- *Neque in sterquilinium.*   ✓ Clementine verbatim
