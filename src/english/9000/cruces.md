@@ -4653,9 +4653,23 @@ has been added. **34 `[var:]` now stand.**
   medial *9* of 295 is a dropped sort, incomplete rather than mis-numbered — beside the known
   **n215**, whose corner reads 421 where it should read 420, so that 421 prints twice in PL 114 and
   420 never.
-- **⛔ For Wilson, an editorial call deliberately not taken:** on col 344 the plate prints
-  **VERS. 2.** and **VERS. 14.** where our file has **VERS. 5.** and **VERS. 11.** — **ours are the
-  correct Luke verses and Migne's are wrong.** Two silent upstream corrections on one column. Every
-  other silent repair in this work was restored to Migne's reading, but these are **verse addresses
-  a reader navigates by**, not words in a sentence, so the consistent answer and the useful answer
-  differ. Left as our file has them, pending a ruling.
+- **⭐ RULED BY WILSON 2026-09-04 — col 344's verse numbers: RESTORE MIGNE AND MARK THEM.** The
+  plate prints **VERS. 2.** and **VERS. 14.**; our file had **VERS. 5.** and **VERS. 11.**, which
+  are the *correct* Luke verses (23:5, 23:11) — two silent upstream corrections on one column.
+  Migne's numbers are restored **and a `[sic:]` is fired at each**, the only two in the work.
+
+  ⚑ **Two facts decided it, and both cut against the answer that looked obvious.** First, **nothing
+  machine-readable consumes a `VERS.` number**: the resolver keys on columns
+  (`migne.app/pl/114/344b`), `/scripture` is built from the `[n:]` citations, and no builder parses
+  them — so the "addresses a reader navigates by" objection was overstated and nothing breaks
+  either way. Second, **only 44 of ~113 columns of this work were read at the plate (39%)**, so
+  restoring these two makes the edition faithful *at the sites we happened to open a page for*, not
+  faithful on verse numbers generally — which weakened the consistency argument that would
+  otherwise have carried a silent restoration.
+
+  What was left decisive was the reader: a silent restoration prints a wrong verse number with
+  nothing on the page to explain it. **`[sic:]` is defined as type carried from a defective plate,
+  a wrong verse number is exactly that, and the column is now read, so the gate is satisfied.**
+  ⛔ The other five NORMALIZED restorations in this work deliberately carry no `[sic:]`; these two
+  do, and the difference is principled rather than inconsistent — a broken *word* announces itself
+  to any reader, while a wrong *number* looks correct and quietly misdirects.

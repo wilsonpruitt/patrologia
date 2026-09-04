@@ -1,7 +1,7 @@
 {
  "note": "TEI patches for 9000 (Glossa ordinaria in Evangelium secundum Lucam, PL 114, cols 0243D-0356A). Read on raw/scans/pl114/patrologiaecurs06saingoog.pdf (PDF page = (column + 11) / 2) with the clean second witness archive.org patrologiaecursu0114mign (leaf n = (column + 11) / 2) wherever the on-disk copy clips a margin -- which it does on the odd column of n130/n132/n134, the right margin of n151, the outer margin of 344 and 348 and the inner margin of 337. Every leaf calibrated from the printed corner numbers before any word was judged.",
  "class": "CORRUPTED = CC broke or lost what Migne set correctly; repaired here, and no [sic:] may stand against Migne on any of them. NORMALIZED = CC silently TIDIED a defect Migne actually printed; Migne's reading is RESTORED and a [sic:] is OWED but deliberately not fired, because firing one is a fresh public claim per site. The convention is 9001's and was reaffirmed on 8999 against a reader who objected that restoring would 'introduce two non-words' -- our Latin is not a corrected Latin, it is Migne's page.",
- "result": "PLATE READ COMPLETE 2026-09-04, BEFORE the work shipped. Five readers, 22 leaves, all 33 [var:] read plus ~70 oddities the stints had logged unmarked. ⭐ 32 of 33 [var:] CONFIRMED as Migne's, ONE withdrawn (0307B) -- which keeps the corpus record for [var:] on a quoted clause at 120 of 121 across four Glossa books. ⭐⭐ EVERY OTHER CORRECTION CAME FROM THE DECLINED LIST OR FROM READING A PAGE OPENED FOR SOMETHING ELSE, exactly as on John: 11 of the 17 patches below were never marked by anybody, and five are silent repairs no collation could have reached.",
+ "result": "PLATE READ COMPLETE 2026-09-04, BEFORE the work shipped. Five readers, 22 leaves, all 33 [var:] read plus ~70 oddities the stints had logged unmarked. ⭐ 32 of 33 [var:] CONFIRMED as Migne's, ONE withdrawn (0307B) -- which keeps the corpus record for [var:] on a quoted clause at 120 of 121 across four Glossa books. ⭐⭐ EVERY OTHER CORRECTION CAME FROM THE DECLINED LIST OR FROM READING A PAGE OPENED FOR SOMETHING ELSE, exactly as on John: 11 of the 17 patches below were never marked by anybody, and five are silent repairs no collation could have reached. || 2026-09-04, WILSON'S RULING on the col 344 verse numbers: RESTORE Migne's VERS. 2 and VERS. 14 and FIRE A [sic:] AT EACH (option B of three put to him). The reasoning that decided it: nothing machine-readable consumes a VERS number -- the resolver keys on columns, /scripture is built from the [n:] citations, and no builder parses them -- so nothing breaks either way; and only 44 of ~113 columns of this work were read, so restoring these two makes the edition faithful AT THE SITES WE HAPPENED TO OPEN, not faithful on verse numbers generally. That weakened the consistency argument for a silent restoration and left the reader's interest decisive: option A would have printed a wrong verse number with nothing on the page to say so.",
  "patches": [
   {
    "col": "0307B",
@@ -121,6 +121,20 @@
    "replace": "astritus",
    "direction": "normalized",
    "why": "Leaf n169, on BOTH witnesses, with addictus two words earlier printing a full ct. ⭐ THIS WAS IN NO STINT'S DECLINED LIST -- silently normalised by CC, nobody saw it, and it exists in the record only because the leaf was open for a marker."
+  },
+  {
+   "col": "0344B",
+   "find": "VERS. 5.-- <hi>Commovet populum",
+   "replace": "VERS. 2.-- <hi>Commovet populum",
+   "direction": "normalized",
+   "why": "Leaf n177, right column, read at 200 dpi on the on-disk copy and settled on the second witness (both clean there): the plate prints 'VERS. 2. — Commovet populum'. Our VERS. 5 is the CORRECT Luke verse (23:5) and Migne's 2 is wrong, so this is a silent editorial repair upstream of us, not a transcription slip -- two of them on one column, both in the same direction. RESTORED per Wilson's ruling of 2026-09-04, WITH a [sic:] fired in the English at this site: the wrong number is the plate's own defect, [sic:] is the class for exactly that, and the column is now read so the gate is satisfied. ⛔ The other five NORMALIZED patches in this file deliberately do NOT carry a [sic:]; these two do, because a wrong verse number misdirects a reader who checks the reference, and restoring it silently would hand him the fault with nothing to explain it."
+  },
+  {
+   "col": "0344C",
+   "find": "VERS. 11.-- <hi>Et illusit",
+   "replace": "VERS. 14.-- <hi>Et illusit",
+   "direction": "normalized",
+   "why": "The second of the pair on the same column and the same ruling: the plate prints 'VERS. 14. — Et illusit'; our VERS. 11 is the correct Luke verse (23:11). Restored, with a [sic:] in the English."
   }
  ]
 }
