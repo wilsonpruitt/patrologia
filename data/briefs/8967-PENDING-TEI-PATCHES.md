@@ -141,3 +141,38 @@ reverted. Bands B and C inherit **roman**.
 - **`gens tenebrarum`** @0887D → "nation of darkness". The `gentes` axis does not rule on a
   singular `gens` in a non-ethnic metaphor. The stint flagged rather than deciding silently,
   which is the behaviour the axis section exists to reward. Rule it and add it to the axis.
+
+---
+
+# FOURTH REPORT (chunks 0035–0038) — seven more, and six were found sideways
+
+| col | Migne prints | our TEI has |
+|---|---|---|
+| 0912B | `diluculo` | `diliculo` — **our file holds a non-word** |
+| 0914A | `naves Tharsis` | `naves-Tharsis` |
+| 0915A | `concludi` | `concludit` |
+| 0915D | `non alia re` | `non in alia re` — **CC supplies a word** |
+| 0917A | `opere` | `opera` |
+| 0917C | `Hic` | `His` |
+| 0918C | `aliqui` | `aliquid` — **the most substantive: `aliquid` is what makes the clause construe** |
+
+Lesser: TEI's `VERS, 11.` for `VERS. 11.` · `((AUG.)` for `(AUG.)` · a **silent repair of Migne's
+own `doc-/ctus` dittography** (another erased `[d:]`, cf. 0887B).
+
+⭐⭐ **SIX OF THE SEVEN WERE FOUND WHILE READING THE LINE FOR A DIFFERENT WORD.** That is now the
+dominant discovery mode across four stints, and it matches the Luke result exactly: twelve of
+seventeen corrections there came from a reader's eye falling elsewhere while a page stood open.
+**The yield comes from opening the page at all, not from what you opened it to check.**
+
+## The best marker in Band A so far
+**0915A `[var:]`** — Migne prints **`Odite haec, omnes gentes`**, "*hate* these things," where the
+Vulgate (Ps 48:2) reads `Audite`. His own gloss underneath argues from *Audite* (*Nullum excipio*,
+*Nulli sermonem subtraho*). The English renders **"Hate"**, as printed. Conforming it to the
+gloss would have been the textbook 7a″ failure — repairing Migne's text out of his commentary.
+
+# ⛔ BLOCKER — plate-gate FAILS, and it is not in the range that found it
+`node scripts/plate-gate.mjs 8967` fails on **`0904D`, chunk 0032, `[var: Vulg. Ps 41:1 …]`** —
+col 0904 has never been read. Needs PDF **page 458** read and recorded, or the marker withdrawn.
+**It cannot ship as it stands.** Chunk 0032 belongs to the 0030–0034 stint, which was still
+running when this was reported; if it does not clear the column itself, the gate must be
+satisfied here before the band closes.

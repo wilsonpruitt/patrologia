@@ -4638,6 +4638,78 @@
      "page": 451,
      "source": "on-disk PL 113 scan, 200 dpi full page + 500 dpi crops; corners read 891 / 892",
      "found": "no conjecture apparatus. BOTH columns CLEAN. CONFIRMED: 0891A prints *Immittet Angelum. Accedite,* -- the accusative against Ps 33:8's nominative *Immittet angelus Domini in circuitu timentium eum* -- [var:] licensed; 0891A prints *Mendosi codices habent.* with a FULL STOP before *Immittet Angelum Dominus*; 0891C prints *Pascebat Dominus contemnentem se, et deseret timentem.* with NO question mark, so the statement form is Migne's and Pattern 8 forbids supplying one; 0891D prints *Diapsalmus.* in the MASCULINE, confirming the form beside the 37 *Diapsalma* elsewhere in the work; 0891A prints *Non confundantur* against Ps 33:6 *non confundentur*, a one-letter difference left unmarked. ONE CC DEPARTURE: 0891A Migne prints *Circumdat Angelus Domini GYRO timentes eum* and our TEI supplies an *in* before *gyro*. TEI-patch candidate, NOT a marker."
+    },
+    {
+     "from": "0911A",
+     "to": "0912D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 461,
+     "source": "on-disk PL 113 scan, 300 dpi full page width + 600 dpi crops; corners read 911 / 912 before the text",
+     "found": "no conjecture apparatus of either layer. Left column 911 CLEAN (911 = 3 mod 4). CONFIRMED against CC: PSALMUS XLV. head; 0911C *In finem.* (CASS.) Psalmus David; 0911D *Conflabunt gladios suos in vomeres et lanceas suas in falces (Isa. II)*; 0912A Diapsalmus (not Diapsalma) at VERS. 5; 0912D *Subjecit populos nobis* with a two-hyphen VERS. 4.-- where Migne elsewhere sets an em-dash. ONE CC DEPARTURE: 0912B the plate reads *diluculo* where our TEI reads *diliculo* -- CC corruption, not Migne's. Also 0911D the plate closes *Immanitas gentium.* with a period our TEI drops"
+    },
+    {
+     "from": "0913A",
+     "to": "0914D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 462,
+     "source": "on-disk PL 113 scan, 300 dpi full page width + 600 dpi crop at 0914B; corners read 913 / 914",
+     "found": "no conjecture apparatus of either layer. Left column 913 CLEAN. SETTLED: 0914B the plate prints *populi non sucipientis misericordiam* mid-line in a clean column -- Migne's own non-word for *suscipientis*, [sic:] licensed and fired; 0913B *Deus sedet super sedem sanctam.* is Migne's (Clementine Ps 46:9 has *sedem sanctam suam*), a truncated citation, no marker; 0913B *Non ut Jupiter Cretae, Mars Thraciae* confirmed. ONE CC DEPARTURE: 0914A the plate prints *Conteres naves Tharsis.* with a space (line break falls after *Conteres*), our TEI has the hyphenated *naves-Tharsis* -- CC's artifact, no marker owed"
+    },
+    {
+     "from": "0915A",
+     "to": "0916D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 463,
+     "source": "on-disk PL 113 scan, 300 dpi full page width + 600 dpi crops at 0915A, 0915D, 0916D; corners read 915 / 916",
+     "found": "no conjecture apparatus of either layer. Left column 915 CLEAN. SETTLED THREE: (1) 0915A the plate prints *Odite haec, omnes gentes.* at Ps 48:2 where the Clementine has *Audite* -- Migne's, and the gloss under it (*Nullum excipio*, *Nulli sermonem subtraho*) argues from *Audite*; [var:] licensed and fired; (2) 0916D the plate prints *Tempesta valida.* against the Clementine's *tempestas valida* -- Migne's dropped final s, [sic:] licensed and fired; (3) 0916D the plate prints *in circumitu ejus* against the Clementine's *in circuitu* -- Migne's, but the same lexeme and immaterial, no marker. TWO CC DEPARTURES: 0915A the plate reads *sed quae omnia concludi.* where our TEI reads *concludit*; 0915D the plate reads *non alia re, sed in sapientia* where our TEI supplies *non in alia re*"
+    },
+    {
+     "from": "0917A",
+     "to": "0918D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 464,
+     "source": "on-disk PL 113 scan, 300 dpi full page width + 600 dpi crops at 0917A, 0917C, 0918C; corners read 917 / 918",
+     "found": "no conjecture apparatus of either layer. Left column 917 CLEAN. CONFIRMED: 0917D *Nunquid manducabo carnes taurorum?* and 0917C *quod est insania?* both print their question marks; 0918B *Statuam contra tuam.* is Migne's clipped lemma; 0918C *quem novit, qui ... alii quam gratiae Dei attribuit* carries NO negative on the plate. THREE CC DEPARTURES: 0917A the plate reads *qui pluris habent opere charitatis* where our TEI reads *opera*; 0917C the plate reads *Hic similitudinibus figurat Ecclesiam* where our TEI reads *His*; 0918C the plate reads *qui aliqui alii quam* where our TEI reads *aliquid*. Also 0917C the plate sets *VERS. 11.* where our TEI has *VERS, 11.*, 0915B the plate sets a single *(AUG.)* where our TEI has *((AUG.)*, and the plate's line-break dittography *doc-/ctus* at 0918B is silently repaired to *doctus* in our TEI"
+    },
+    {
+     "from": "0903A",
+     "to": "0904D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 457,
+     "source": "on-disk PL 113 scan, 200 dpi full page width + 500 dpi crops at 0903B/C, 0903D, 0904A, 0904C, 0904D; corners read 903 / 904 before the text",
+     "found": "no conjecture apparatus of either layer. Left column 903 CLEAN (903 = 3 mod 4). SETTLED: 0904D the plate prints *In fine intellectus.* exactly as our TEI has it, mid-line in a clean column -- Migne's, and it diverges from the Clementine Ps 41:1 *In finem. Intellectus filiis Core*; [var:] licensed and fired. NINE CC DEPARTURES on this leaf: 0903B the plate reads *bona dicit malo, animo* (comma) where our TEI drops the comma; 0903C the plate's recapitulation reads *Qui dicant mihi : Euge, euge* where our TEI reads *dicunt*; 0903C the plate's VERS. 17 lemma reads *Et dicunt.* where our TEI reads *Et dicant.* (CC swapped the pair in OPPOSITE directions, the second toward the Clementine); 0903C the plate sets a full stop *in aeternum. gaudentes* which our TEI drops; 0903D the plate reads *ne qui gloriam* where our TEI reads *ne quis*; 0903D the head is *PSALMUS XL.* WITH a final period, which our TEI drops; 0903D the plate reads *unius homini vox* where our TEI reads *hominis*; 0903D the plate's VERS. 3 lemma reads *Dominum conservet.* where our TEI reads *Dominus conservet.* -- the Clementine's own form at Ps 40:3, so no Vulgate collation could ever see this one; 0904A the plate reads *infirmitas durio superetur* where our TEI reads *duris*, and *temporalia : quasi, facit haec doloribus plena, ne eis spes habeatur* where our TEI reads *: sed Deus facit haec doloribus plena, ne in eis spes*. Also 0904C the plate reads *in aliquid sperabant* where our TEI supplies *in illum aliquid*, and *malus ingressus. malus egressus.* where our TEI has a comma. All ten are CC's, not Migne's: TEI-patch candidates, no marker owed on any"
+    },
+    {
+     "from": "0905A",
+     "to": "0906D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 458,
+     "source": "on-disk PL 113 scan, 200 dpi full page width + 500 dpi crops at 0905A, 0906A, 0906C; corners read 905 / 906",
+     "found": "no conjecture apparatus of either layer. LEFT COLUMN 905 IS CLIPPED at the inner margin (905 = 1 mod 4): VERS. prints as 's.', *Filii calvi* as 'lii calvi', *Cervus* as 'us.'. Mid-line type in 905 is still legible; line-opening type in 905 is NOT, and no marker may rest on it from this copy. Right column 906 clean. CC DEPARTURES: 0905A the plate reads *fontem ad bibendum* (mid-line, legible despite the clipping) where our TEI reads *ab bibendum*; 0906A the plate reads *nemo. confitetur* with Migne's own mid-sentence full stop, dropped by our TEI, and *quod notantur in modico Jordanis (Ibid.)* where our TEI reads *notatur* and inserts periods inside the italic run (*modico. Jordanis.*). UNREADABLE ON THIS COPY, logged for Gallica ark:/12148/bpt6k5505319w f453: 0905A *excrescentibus pilis et cornibus* -- the line break falls exactly at the clip, so whether Migne prints *pilis* cannot be settled here. No marker fired in either column"
+    },
+    {
+     "from": "0907A",
+     "to": "0908D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 459,
+     "source": "on-disk PL 113 scan, 200 dpi full page width + 500 dpi crops at 0907B, 0908D; corners read 907 / 908",
+     "found": "no conjecture apparatus of either layer. Left column 907 CLEAN (907 = 3 mod 4). SETTLED TWO, both mid-line in clean columns and both fired: (1) 0907D the plate prints *Si vos persecuti fuerint in una civitate fugite in aliam* against the Clementine's Mt 10:23 *Cum autem persequentur vos in civitate ista, fugite in aliam* -- Migne's, [var:] licensed; (2) 0908B the plate prints *In similitudinem gentium.* against the Clementine's dative *in similitudinem gentibus* at Ps 43:15, and the gloss immediately under it paraphrases with the DATIVE (*gentibus sunt appositi*) -- Migne's, [var:] licensed. CONFIRMED AGAINST CC and NOT divergent: 0907D *Diapsalmus* (not Diapsalma), roman not italic; 0908C Migne's own variant note *non declinasti (alia littera)*; 0908A *Dedisti nos tanquam oves escarum* (tanquam/tamquam is orthography only); 0907D *Enumerat mala quae hic fecerunt boni* -- *fecerunt* is Migne's, rendered literally, no marker. THREE CC DEPARTURES: 0907B the plate reads *sibi fieri, etc., etc., usque ad* where our TEI keeps only one *etc.*; 0907B the plate's lemma is *Deus auribus.* with no comma where our TEI reads *Deus, auribus.*; 0908D the plate reads *Nocere dicitur Deus et quod novit et quod te facit noscere* where our TEI reads *Noscere* -- here CC has REPAIRED a genuine Migne defect, the mirror of the class above, and equally invisible from our files alone"
+    },
+    {
+     "from": "0909A",
+     "to": "0910D",
+     "depth": "read",
+     "date": "2026-09-04",
+     "page": 460,
+     "source": "on-disk PL 113 scan, 200 dpi full page width + 500 dpi crops at 0910C; corners read 909 / 910",
+     "found": "no conjecture apparatus of either layer. SECOND COUNTEREXAMPLE TO THE MOD-4 RULE ON THIS LEAF: left column 909 is 1 (mod 4) and is CLEAN to the inner margin (*Obdormis. Negligere videris.* whole). SETTLED: 0910B the plate prints *Pro his qui commutabuntur ex filiis Core.* mid-line in a clean column, against the Clementine's Ps 44:1 *pro iis qui commutabuntur. Filiis Core* -- Migne's added *ex* makes the sons of Core the source of the change rather than the addressees; [var:] licensed and fired. TWO CC DEPARTURES: 0910A the plate closes *vel de populo ad populum.* with a period our TEI drops (our English mirrors the twin and carries no stop); 0910C the plate prints *odit Deus iniquitetem* -- a non-word, with *iniquitatem* correctly set nine words earlier in the same sentence -- where our TEI reads *iniquitatem*. That last is the textbook member of the normalization class: had CC not tidied it, it would have been a [sic:] on Migne's own type"
     }
    ],
    "scan_defect": "INNER-MARGIN CLIPPING: on SOME leaves the left-hand column loses 3-5 characters at the start of most lines (`VERS.` prints as `s.`). ⛔⛔ IT IS SPORADIC AND CANNOT BE PREDICTED FROM THE COLUMN NUMBER. Open the column; never infer. || HISTORY, because the claim was wrong TWICE and each retreat was forced by more reading. (1) At chunking I stated a RULE from five pages: a left-hand column numbered 1 (mod 4) is clipped. (2) Refuted at col 901, and I retreated to 'a strong tendency, 5 of 6'. (3) THAT WAS ALSO WRONG, and by then it was wrong in a way five pages could not have shown. With the reads from cols 0850-0870 in, mod-1 columns stand at 5 CLIPPED (841, 849, 893, 897, 1045) against 6 CLEAN (853, 857, 861, 865, 869, 901). That is a coin flip, not a tendency. ⚑ THE LESSON IS ABOUT THE SAMPLE, NOT THE SCANNER: my five pages were four consecutive leaves plus one, so they sampled one region of one physical gathering and the congruence was an artifact of contiguity. A pattern found in a contiguous sample is a pattern OF THAT SAMPLE until it is tested somewhere else. ⚑ AND THE FAILURE MODE RUNS WHERE NOBODY AUDITS: a wrong 'clipped' does not ship a bad marker, it silently WITHHOLDS a good one and leaves no artifact behind. It blocked three legitimate candidates in cols 0892-0901 before a stint opened the page. || WHAT STANDS: where a column IS actually clipped and a marker rests on a line-opening word, it needs a second copy (Gallica; data/volumes.json) before it may ship.",
