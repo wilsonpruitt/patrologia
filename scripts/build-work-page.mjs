@@ -238,10 +238,17 @@ function inlineHtml(s, { anchorIds, state }) {
     // cross-references rather than conjectures. Same provenance, same column, different
     // thing — so the hover text must not call it a conjecture, and the English column
     // carries a translated [nt: …] of it at the same point.
-    .replace(/\[cn: ([0-9]+(?:-[0-9]+)?\*?|\*) \| ([^\]]*)\]/g, (_, n, note) =>
-      `<span class="${noteCls(note, 'conj')}" title="${esc(n === '*'
-        ? `Migne's own note at the foot of this page, keyed to this word by an asterisk — his editorial cross-reference, not a conjecture`
-        : `Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`)}">${ital(note)}</span>`)
+    // ⭐ And the key may be a LETTER (8950 Liber Genesis, 2026-09-05). Migne keys that book's
+    // foot notes (a), restarting the sequence on every page, and they are sentences that say
+    // something — `In Hebraeo est gahon, quod ventrem et pectus significat.` — so they belong
+    // with the asterisk layer, not with the numbered conjectures. ⛔ This renderer knew only
+    // the first two shapes, so the note SHIPPED AS A RAW BRACKET onto the built page and was
+    // caught by preflight's raw-marker scan, which is exactly the check that exists for it:
+    // teaching one script a new marker shape does not teach the others.
+    .replace(/\[cn: ([0-9]+(?:-[0-9]+)?\*?|\*|[a-z]) \| ([^\]]*)\]/g, (_, n, note) =>
+      `<span class="${noteCls(note, 'conj')}" title="${esc(/^[0-9]/.test(n)
+        ? `Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`
+        : `Migne's own note at the foot of this page, keyed to this word by ${n === '*' ? 'an asterisk' : `the letter (${n})`} — his editorial cross-reference, not a conjecture`)}">${ital(note)}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`), s);
