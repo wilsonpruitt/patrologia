@@ -6843,3 +6843,5445 @@ it asserts what he asserts. The four suspect glyphs named in §2 were all withdr
    copy at 500 dpi. The `f443` / `f449` / `f453` list is unchanged.
 6. **Band B marker totals from this stint: 11 `[var:]` · 0 `[sic:]` · 0 `[cj:]` · 0 `[d:]` ·
    0 `[ed:]`.**
+
+---
+
+# §H · BAND C — THE MERGE (chunks 0077–0105, cols 1011B–1080B, Psalms CI–CL)
+
+Six Opus stints, 29 chunks, 30,038 Latin words — then a patch pass, an English pass, a blind
+polarity read by three fenced readers, and a repair pass. **`verify-english` clean ·
+`plate-gate` OK · `patch-audit` OK (336 patches) · `marker-reconcile` 67 claims, 67 standing,
+0 missing, 0 withheld.** This section is the reconciliation, not the concatenation; the fifteen
+files stand verbatim in §I. **With this band the work is translated end to end: 106 of 106
+chunks.**
+
+## H1. ⭐ SIX FOR SIX ON THE SPAN COUNT — and this time the count REPAIRED something
+
+357 · 389 · 277 · 329 · 234 · 146, every stint's own count of the italic spans in its Latin
+matching its lemma brief **exactly**, first and last entries checked too. **Fourteen stints in a
+row across three bands.**
+
+⭐ And on this band the check stopped being only a check. The 0092–0096 stint's count caught
+**two real span-membership errors** at 1059D and 1060D — invisible to `verify-english`, which
+cannot see a mis-split brief — and repaired them before filing. The count has always been the
+only detector there is; this is the band where it detected.
+
+## H2. ⛔⛔ EVERY COLUMN IN THE BAND WAS READ AT THE PLATE — 70 of 70
+
+Against 46 in Band A and ~90 of ~93 in Band B. **Nothing in this band rests on the twin alone.**
+Six stints, 300–400 dpi full-column slices with 900–1200 dpi crops on every disputed glyph,
+corner numbers checked before the page was trusted.
+
+### What only the leaf could do, again
+- **It reversed a reading outright.** @1035A our twin prints `Barbaro lingua est`, agreeing with
+  its own lemma and ungrammatical; Migne sets **`Barbara lingua est`** — a definition, *that
+  tongue is barbarous which praises not God*. CC had assimilated the gloss's first word to the
+  italic lemma standing immediately before it. ⭐ **The general form is worth more than the site:
+  WHEN OUR LATIN AGREES SUSPICIOUSLY NEATLY WITH AN ADJACENT LEMMA, OPEN THE LEAF.**
+- **It withdrew four `[sic:]` that were already written down.** `Aventus` (plate: `Adventus`),
+  `Ideumaei` (`Idumaei`), `occurit` (`occurrit`), `Diligi justos` (`Diligit`). **Every one is a
+  non-word in OUR file that a stint could have fired a public accusation on.**
+- **It stopped two false `[d:]`.** At 1075B our twin doubles `janam januam` and `scandala.
+  scandala.`; the plate prints each **once**. Both dittographies are Corpus Corporum's — the
+  `Ideo-|que` column-turn class from Band B, recurring.
+- **And the mirror ran on the same leaf-runs**: Migne really does print `VESS. 4.` @1043A and our
+  TEI silently corrected him.
+
+### The clipping rule stays withdrawn, and the real lesson is the opposite of a rule
+**Cols 1037 and 1041 are clipped and were on NO list**, while 1053, 1057, 1061, 1073 and 1077 are
+all ≡ 1 (mod 4) and all clean — about forty more refutations. ⚑ **A CLIPPED COLUMN CANNOT TESTIFY
+TO AN ABSENCE**: a stint nearly filed a "CC dropped a word" site that turned out to sit inside col
+1037's clip. Two `[var:]` at 1045C were **withheld and logged for Gallica**, not fired — the rule's
+failure mode being made visible instead of being allowed to happen. **Gallica list unchanged at
+seven; no Band C column added one.**
+
+## H3. OUR LATIN IS NOT MIGNE'S — ~155 departures over 70 columns, and the rate is RISING
+
+1.9 · 1.6 · 1.8 · 2.6 · 2.2 · 2.6 per column by stint, against the ~1.5 Bands A and B measured and
+9003's ~3/page on the sibling PL 114 Psalter. **The launch brief's budget was too low and the band
+says so.** All three directions ran here, plus a fourth shape:
+
+1. **CC moves Migne ONTO the Clementine** — invisible to any Vulgate collation *by construction*.
+   ⭐⭐ **@1076C it inserts `domus` into the gloss's Mt 15:24 quotation, exactly matching the
+   Vulgate and DESTROYING a real `[var:]`** we are entitled to fire.
+2. **CC REPAIRS Migne's real defects**, suppressing markers. See H5 — this is the band's headline.
+3. **CC MANUFACTURES readings.** The four withdrawn non-words above, the two false dittographies,
+   an unmatched `(` at 1050A, a spurious `etc.` at 1012A that is **material to the `usque ad`
+   splice test because that test keys on `etc.`**
+4. ⭐ **CC repairs Migne into the CONSTRUING form — the hardest class to see, because our Latin
+   reads BETTER than the plate.** At the Psalm CXVIII sentence the plate reads `et quibus` where
+   our TEI has the grammatical `e quibus`, confirmed mid-line, clear of the clip, and independently
+   by the scan's own OCR layer. Same class, different shape: CC split Migne's `Benedicit` into
+   `Bene dicit`, turning *he blesses* into *he rightly says* — **and it construes perfectly.**
+
+## H4. THE PATCH PASS — built MECHANICALLY, and it still had three defects
+
+134 patches (336 on the work). ⛔ **Band B extracted 149 patches from prose reports BY HAND and
+the blind read then found seven defects the pass itself had introduced or left behind; nothing
+reconciled REPORTED sites against APPLIED ones.** `scripts/patch-build.mjs` is that
+reconciliation: a reported site must resolve to exactly ONE location in its DECLARED column or it
+is refused and printed. It refused 51 rows across five rounds and **every refusal was a real error
+in the reading of the report, never a false alarm.**
+
+- ⛔⛔ **Two NESTED finds — the pair that deadlocked the Band B queue.** `cantari debeat` sat inside
+  `cantari debeat hoc canticum`; at 1067D the grown context for `veritati` swallowed the whole find
+  for `similis`. `chunk-work` refuses a find matching zero times, so the second of each pair would
+  have aborted chunking outright after the first landed. **Found by an explicit nesting check, not
+  by running it and watching it break.** 1067D's two defects are now one patch.
+- **Seventeen sites whose column was wrong in the report** — the 9003 failure recurring: the repair
+  aimed right, the RECORD wrong, which sends the next reader to the wrong page. ⭐ 1062B is the
+  instructive one: the stint filed the `VERS. 6`→`9` site at 1062A, but our TEI has `VERS. 3`
+  there; the disagreement is at the psalm's **second** `VERS. 6`, one band later.
+- **Two refusals that are rules.** 1039B `promisit`/`promissit` has **two instances in its declared
+  column and the report does not say which** — a patch must not guess a site any more than a
+  letter. 1037A `ostiosus`/`ostiosns` still will not settle as `u` or `n` at 1200 dpi (the
+  `Nafrubimus` precedent); only the certain half of that clause landed.
+
+### ⛔⛔ And the pass itself failed three ways — every one caught by a refusal downstream
+1. ⭐⭐ **1052C: I IMPORTED THIS COPY'S INK DAMAGE INTO THE EDITION.** The plate images
+   `cxaltaxit` and the whole form was patched in. The stint's own copy-condition note had already
+   declined the initial letter — the crossbar of a roman `e` that failed to ink, against a clean
+   `e` one line above. The `x` for `v` **is** Migne's, because a crossing stroke cannot be produced
+   by ink failing to reach the paper. The word he SET is `exaltaxit`. **This is the `rossit` rule,
+   broken in the very pass that quotes it**, and an agent then fired `[sic: *cxaltaxit*]`,
+   accusing Migne in public of a damaged sort.
+2. **1059A `Ddvid` and 1060A `in est` were reported and NEVER BUILT** — the Band B failure class,
+   one pass after the tooling meant to stop it. ⚑ The builder's uniqueness guard then refused the
+   first repair attempt, because `psalmus David.` occurs twice.
+3. **1026D printed "subjoining," TWICE in the English.** The stint had written its English to the
+   plate; the pre-patch twin's head copy was never removed. **Italic span counts still agreed 5/5,
+   so no automated check could see it** — an agent found it by reading.
+
+⭐ **The detector in all three cases was an agent REFUSING to fire a marker whose content its Latin
+twin did not carry.** That refusal is worth more than any gate in the pipeline.
+
+## H5. ⛔⛔ NO MARKER COUNT MEANS ANYTHING UNTIL THE PATCH PASS HAS RUN — §F2, one band later and larger
+
+Band C's six stints fired **32 `[var:]` · 3 `[sic:]` · 2 `[cj:]`** and reported, between them,
+**roughly SEVENTY-TWO Migne defects confirmed at the plate that they could not fire** — `deis`,
+`qut`, `mugnificatus`, split type `haere ditas`, `Ft` for *Et*, `ete.`, `simlis`, `veriteti`,
+`corectio`, `omnibns`, `Ddvid`, `pecatum`, `musicas`, `suseipiet`, `disper iones`, `ubyssi`,
+`eanticcum`, `mahsiones`, `Neseitis`, `ferrcis` and more. Every one was unreachable because a
+`[sic:]` may wrap only type our twin carries and CC had already repaired it.
+
+**After the patch pass and the English pass the band stands at 33 `[var:]` · 42 `[sic:]` ·
+28 `[cj:]` · 2 `[d:]`.** That movement is the whole point: **the markers were always earned.**
+
+⚠ **`ferrcis` @1078D is flagged in both directions and should be re-opened by a second reader**: it
+is the italic-`e`-images-as-`c` hazard's own shape, and the deciding evidence is that the glyph is
+*well formed* rather than broken.
+
+## H6. ⛔⛔⛔ THE `[cj:]` INVERSION — 19 SITES, AND THE REPAIR WAS ALREADY WRITTEN DOWN
+
+**Pattern 18 is explicit: "the gloss is ADDITIVE. Migne's word keeps its English, and our
+conjecture stands beside it."** Bands A and B obey it at every site (*"put on **corruption**
+[cj: *corruptionem*; read *incorruptionem*]"*). **In Band C, 19 of 28 inverted it**: the running
+English rendered THE CONJECTURE and Migne's printed word reached the reader nowhere.
+
+⭐ **And `data/briefs/8967-PENDING-TEI-PATCHES.md` carries a column headed "English edit owed?"
+answering YES at every one of those sites**, with the 1071C–1080B stint writing the replacement
+out verbatim (*"Praise ye the Lady [cj: …]"*). The Latin patches landed, the markers fired, and
+**the English half of the same patch was never made — because the English pass reasoned that
+markers are "additive" and therefore the existing rendering could stand.** The word was right and
+the reading of it exactly backwards. **A plausible principle overrode a written instruction, and
+the blind read rediscovered a documented, unfinished edit.**
+
+⭐ **The sharpest site, and it shows why this class is invisible:** Migne prints the lemma
+*Laudate **Dominam*** and our English gave "*Praise ye the Lord*" — **the identical string used for
+*Dominum* four columns earlier.** No reader could have seen the defect; no grep could have found it.
+
+### ⛔ The mechanical test fails in BOTH directions, and that is the durable finding
+`scripts/cj-inversion.mjs` exists, and its own header says it shortlists and never decides.
+- **Verbatim comparison UNDER-REPORTS.** It found 19; a repair agent found two more where the echo
+  is *inflected* — "canst" against "thou canst", "does not admit" against "it admits". **The
+  direction nobody audits.**
+- **Stem comparison OVER-REPORTS, and every false positive is an inflectional axis the stemmer
+  flattened**: TENSE (*"hath delivered"* vs *"will deliver"* — the house-form control itself),
+  NUMBER (*"without ends"* vs *"without end"*), SUBJECT (*"they had gone before the head"* vs
+  *"the head had gone before"*).
+- ⭐ **The reason is structural: a `[cj:]` marks a printed form whose faithful English misleads, so
+  the printed word and the conjecture differ most often in tense, number, case or person —
+  precisely what a lexical test cannot see.** Its count is not a measurement of anything.
+
+⚑ The stem test also flags five `[cj:]` in the **merged** Bands A and B, at least one demonstrably
+a false positive. **Recorded as a reading list for a later pass; merged bands were not edited on a
+new instrument's say-so.**
+
+## H7. THE BLIND POLARITY READ — three fenced readers, ~60 sites
+
+Fenced from `cruces.md`, every stint file, every brief, the patch reports and the git log. Split
+0077–0086 / 0087–0096 / 0097–0105. **No chunk in the band came back wholly clean.**
+
+- **The 0087–0096 reader filed the heaviest report — 27 sites, 15 confident, 12 probable, and it
+  judges EVERY ONE OURS.** No site in its range is a Migne error we merely carried.
+- ⛔ **The dominant class is the predicted one: the supplied possessive, twelve sites.** Fourteen in
+  Band B, twelve here. ⭐ **What made it checkable rather than a hunch: in eight of them, a lemma
+  that DOES print the possessive stands within a few words of one that does not, and both were
+  rendered alike** — *Sacerdotes ejus* / *Et sancti* → "Her priests … **her** saints"; *Semitam
+  meum* / *Et funiculum* → "My path … **my** line". Two were verified against the Latin before any
+  repair ran. **A repair agent then found a twelfth the reader had missed, using the reader's own
+  test.**
+- ⭐ **One consequence no other instrument could reach.** At 1055A a `[var:]` quoting the Vulgate's
+  *in servis **suis*** stood on the same line as the lemma into which that *suis* had migrated —
+  **the note was reporting a divergence our English had already erased.** Fixing the lemma makes
+  the marker true again.
+- **The sense class with no grep signature**: *de veteri* read as a time-adverb; *Deo* dative-of-
+  agent re-bound so God **says** rather than **establishes**; the title *ad Goliam* rendered
+  "against Goliath" — **the very Vulgate reading the `[var:]` beside it disowns**; *non tamen
+  prohibet* → "does not **forbid**" where the sense is "does not **prevent**"; an imperative *nota*
+  → "**he** notes", moving the act of observing from the reader to the psalmist.
+
+### What the repair agents REFUSED, and every refusal was right
+- `[cj: *orbi*]` is **not** an inversion: *orbi*/*orbis* differ only in case and English has no
+  exponent. **The echo test cannot tell "inverted" from "no exponent exists."**
+- A reader asked for *Quia persecutis* to be marked. **The plate does not print it — CC does.** A
+  `[sic:]` would have accused Migne of his transcriber's defect.
+- A `[cj:]` was declined for promotion to `[sic:]` because that would be a **new claim against
+  Migne's type on a column nobody has read** — the plate gate reasoning, applied without being told.
+- 1059A's concord disagreement is **Migne's**; forcing it would display our error, not his.
+- Three of five "construing across broken punctuation" sites were rejected on the ground that this
+  work's own plate read records the twin agreeing with the plate **"apart from commas"** — so the
+  claim is about Corpus Corporum's punctuation, not Migne's.
+
+### Two negative results, worth as much as the findings
+- **Both 7a⁗ markers in the band are correct** — `noc` for *non* @1058D and `fungiendum` @1059D
+  leave the negative OUTSIDE the quarantine.
+- **The *gradus* series survives as a series**, first through fifteenth. ⚑ **The missing fifth
+  degree is Migne's own gap at Psalm CXXIII, faithfully carried — not a finding.**
+- **All ten `[var:]` in 0097–0105 check out**, and the instrument vocabulary is right: psaltery and
+  harp keep the gloss's *sounds from above / from below* discriminator, *organum* is the
+  tower-of-pipes organ the gloss describes, cymbals are the small bowls.
+
+## H8. ⭐⭐ RULED BY WILSON, 2026-09-05 — and one of them had ALREADY been ruled
+
+### The omitted negative was never an open question
+Two stints, three English agents and I reported 1029B and 1078B as a class **no marker could
+reach**, and put it up as a ruling. **It was ruled on 2026-08-15 and written into Pattern 18 with
+three worked examples** — 7561 @0648, where Migne DROPS the *non* of *non solum … sed etiam*:
+`only [cj: *solum*; read *non solum*, "not only"]`, with the note that **a dropped word is
+glossable because the gloss opens on the word Migne DID print.**
+
+And **1078B was not even an omission**: Migne prints `unde **nos** sit liberum exire` where sense
+wants `non` — a real Latin form whose faithful English misleads, which is Pattern 18's *founding*
+case and the near-mirror of Wilson's own worked example 11064 @1090B (*apud non* for *apud nos*).
+Both are now fired; 1029B's Latin was patched at last, and its negative correctly lives **inside**
+the conjecture's gloss, because the negative belongs to the conjecture and not to Migne's text.
+
+⭐ **The lesson is the `empty grep` lesson in a new dress.** Everyone reasoned about the apparatus
+from the three marker definitions in front of them and concluded the class was unreachable; nobody
+searched the pattern file for the case. **WHEN THE PIPELINE AGREES THAT SOMETHING IS IMPOSSIBLE,
+CHECK WHETHER IT HAS ALREADY BEEN RULED POSSIBLE.**
+
+### Pattern 7's non-word clause is AMENDED — practice governs
+A non-word carrying a `[sic:]` now has its **sense rendered** in English with Migne's type inside
+the marker: `Whatsoever [sic: *Quaecunquae*]`. The old clause required carrying it untranslated and
+leaving a hole, and said Pattern 7 has no exceptions. **Its whole argument was disclosure, and
+Pattern 12 was ruled the same day and does precisely that job.** Once the marker exists the hole
+buys no information and costs a readable page. ~60 markers across two merged bands had already
+moved; the ruling ratifies practice instead of retrofitting it. ⛔ **Untouched: the `[sic:]` still
+wraps Migne's type VERBATIM and `verify-english` still checks that string against the twin** — the
+guard that makes it impossible to accuse the plate of a defect it does not carry. Split type still
+carries the whole run.
+
+### No `[ed:]` at 1041D — it is copy condition
+The four words recovered from the clipped inner margin of the Psalm CXVIII sentence
+(`[Exp]ositionem`, `[omitti]mus`, `[ration]es`, `[glossa]`) are **not marked**. Pattern 13 reserves
+`[ed:]` for holes in the DIGITIZATION, and there is no hole: our twin carries all four and so does
+Migne's plate. **Only our photograph of this copy is clipped, and copy condition is never restored
+or marked** — the same line that kept `rossit` out.
+
+### The uppercased chapter numerals are DECLARED, not retrofitted
+CC uppercased every lowercase chapter numeral in Migne's citations before we received the corpus —
+thousands of sites, no English exponent, and under the plate gate each would need its column read
+to be a claim rather than a guess. **`content/editorial-method.md` now says so in the Citations
+section**: it changes no reference and no sense, we have not undone it, and it is ours to declare
+rather than the reader's to discover.
+
+### 1075C and 1072A both take the Pattern 18 shape
+They are the same shape and differed only because of how the repair work was split. 1075C now
+renders Migne's infinitive as printed — *"For unless to send his word to the earth … we should not
+be raised"* — mirroring his own broken construction. **The strain is visible, which is what
+Pattern 7 asks for.**
+
+## H9. CONVENTIONS — inherited, confirmed, and what only this band could test
+
+- **`In finem` → "Unto the end"** held throughout.
+- **`Diapsalma` ROMAN** — two more plate confirmations.
+- ⭐⭐ **THE GRADUAL PSALMS ARE PLATE-EVIDENCED FOR THE FIRST TIME.** 14 italic `Canticum graduum`
+  confirmed at cols 1039–1050 against **zero occurrences in Bands A and B combined**, and the
+  ordinal series unbroken through *Duodecimus / In tredecimo / Quartus decimus / Quintus decimus*.
+  **This is why §A1.3's ruling is load-bearing and not stylistic: the gloss numbers the steps in
+  its own voice, and any other rendering of `gradus` breaks the series.**
+  ⭐ **And at Ps CXXIV Migne prints `Canticum.` ALONE. The stump was rendered as printed and NOT
+  completed from its eleven neighbours** — the supplied-completion discipline working before a
+  blind reader had to catch it.
+- **`usque ad`, §A7's `etc.` splice test — and TWO refinements no count could have found.**
+  1. ⛔ **Migne also prints the formula REVERSED, as `ad usque`, and CC normalizes it away.** Our
+     Latin for this whole work carries **zero** `ad usque` against 776 `usque ad`, yet the plate
+     sets `ad usque` at 1015A. **The class is invisible to any census taken from our TEI, by
+     construction.** (`ad usque` survives elsewhere in the corpus, so this is not a global CC
+     policy that could be corrected for.)
+  2. **The `etc.` test is about the TOKEN before, not the character before** — a column anchor can
+     stand between the `etc.` and the formula.
+  ⚑ **And italic membership failed in BOTH directions inside this one band**: the 0077 stint's two
+  non-formula sites fell OUTSIDE the italic, the 0092 stint's two fell INSIDE it. **Two stints,
+  opposite failures, one withdrawn test.**
+- ⭐⭐ **PSALM CXVIII IS NOT COMMENTED, AND MIGNE SAYS SO IN HIS OWN VOICE.** Read at col 1041D:
+  *Expositionem hujus psalmi, ut valde prolixam, omittimus. Vide Ambrosii, Cassiodori, Augustini
+  Enarrationes in psalmos, et quibus ad verbum expressa est glossa ordinaria in hunc locum.*
+  Italic throughout, nothing before it, nothing after it, no exposition anywhere on the leaf.
+  **Our transcription dropped nothing** — but the column is clipped (see H2) and the plate reads
+  `et quibus` where our TEI had the construing `e quibus` (see H3.4). It is rendered as the
+  editorial note it is; the missing exposition is not supplied, summarised or glossed.
+- ⭐ **THE WORK ENDS IN THIS BAND AND THE ENDING IS CLEAN — which is a finding, not the absence of
+  one.** Col 1080B ends *…vitae aeternae vox est: Omnis spiritus laudet Dominum.* and **nothing
+  follows**: no `FINIS`, no subscription, no colophon, no closing siglum. *Liber Proverbiorum*
+  begins on the same leaf beneath Migne's plain full-measure rule. ⚑ **The trap avoided:** the
+  Psalms break off mid-clause at the foot of col 1079 with Proverbs beneath, so a reader of 1079
+  alone would call the work truncated — the text resumes at the head of 1080A.
+
+## H10. ⛔ STILL OWED BEFORE THE WORK SHIPS
+
+1. **`preflight.mjs` and the ratchet**, then the First/New badge check — Band C added **no** unread
+   marker, so the ratchet should be green, but it must be run.
+2. **`ferrcis` @1078D** wants a second reader (H5).
+3. **Seven Gallica sites**, one IIIF request each, and no ruling on spending them: `f443`, `f449`,
+   `f453`, 0932B, 0981C, and the two Isaias quotations at 1045C.
+4. **1059C `justificaui`** — the twin carries it, the English still renders `justificati`. The
+   class was left undecided by its stint; it needs the leaf.
+5. **1039B `promisit`/`promissit`** — two instances in the column, the report does not say which.
+6. **1065C `quia`→`qui`** — ruled no marker, but the English still renders CC's `quia`
+   ("because"). Recorded as a decision, not an oversight.
+7. **1017B `(AUG.)`→`(AU.)`** and the six `(CAS.)`/`(CASS.)` sigla — deliberately not applied, so
+   their English edits stay blocked. Consistent with Band B's precedent on residual sigla.
+8. **1055B `VERS. --`** and **1051B `(CASS.`** — the English keeps `VERS. 18.--` and `(CAS.)`
+   because addresses pass through verbatim and note contents verify as a substring of the twin.
+   Recorded, not fixed.
+9. **The five `[cj:]` the stem test flags in merged Bands A and B** (H6).
+
+## H11. ⚑ THE MARKER TOTALS, COUNTED FROM THE FILES — AND THEY ARE NOT WHAT §D AND §F2 RECORD
+
+| band | `[var:]` | `[sic:]` | `[cj:]` | `[d:]` | `[ed:]` |
+|---|---|---|---|---|---|
+| A (0000–0038) | 38 | 7 | 2 | 1 | 0 |
+| B (0039–0076) | 112 | 56 | 17 | 1 | 0 |
+| C (0077–0105) | 33 | 42 | 33 | 2 | 0 |
+| **work** | **183** | **105** | **52** | **4** | **0** |
+
+⛔ **§D records Band A at 37 · 6 · 2 · 1 and §F2 records Band B at 112 · 53 · 12 · 2. Neither
+matches the files today.** Nothing was lost: **a band's marker total is not stable once a later
+band's pass runs.** Band B's patch pass and this band's both reached columns in earlier bands, and
+each unlocked or corrected markers there — which is the same mechanism §F2 states for a single
+band, operating *across* bands where nobody was watching for it.
+
+⭐ **The rule that follows, and it generalises past this work: A PER-BAND MARKER COUNT IS A
+SNAPSHOT, NOT A FACT ABOUT THE BAND.** Quote the count from the files at ship time, never from the
+band's own merge section — those were true when written and are not true now. §D and §F2 are left
+as written rather than silently reconciled, because what they record is *what that pass found*, and
+that is the thing worth preserving.
+
+---
+
+# §I · THE FIFTEEN BAND C FILES, VERBATIM
+
+Nothing below is abridged: six stint cruces, three English-pass reports, three blind polarity
+reads, three repair reports. Each stands as written, including the reasoning, the declined lists
+and the checks.
+
+
+
+## §I.0077 — file `cruces-0077.md`, verbatim
+
+# Cruces — 8967 *Glossa ordinaria*, **Liber Psalmorum**, chunks 0077–0081
+### Band C, stint 1 · cols 1011B–1025C · Psalms CI–CV · 5,928 Latin words
+
+---
+
+## §0 · SPAN COUNT RECONCILIATION — **357 against 357, exact**
+
+| chunk | `*` in the Latin body | spans |
+|---|---|---|
+| 0077 | 138 | 69 |
+| 0078 | 70 | 35 |
+| 0079 | 174 | 87 |
+| 0080 | 158 | 79 |
+| 0081 | 174 | 87 |
+| **total** | **714** | **357** |
+
+`data/briefs/8967-lemmata-0077.txt` declares **357** and carries **357** `[10xx]`-prefixed entries.
+**They agree exactly.** First entry (`[1011B] VERS. 1.-- *Oratio pauperis.*`) and last
+(`[1025C] *in beneplacita populi tui*`) are the first and last spans of my Latin. The brief is
+correctly split by chunk; nothing is missing at either end.
+
+Every English chunk was then checked against its twin for **column anchors (11/6/12/14/14, verbatim
+and in order), `[n:]` count (35/15/51/48/52), italic-span count and question-mark count** —
+**all five 4-for-4.** `verify-english` reports no error on 0077–0081 (only the MISSING lines for
+chunks other stints hold), `plate-gate` passes with all five of my markers licensed, and my chunks
+contain **zero em-dashes** (two were written and both removed).
+
+---
+
+## §1 · ⭐⭐ THE PLATE — EIGHT LEAVES, ALL OF THEM NEW, AND IT DECIDED 28 SITES
+
+`raw/scans/pl113/patrologiaecurs04migngoog.pdf`, **PDF pp. 511–518 = cols 1011–1026**, map
+`(col+11)/2` re-verified against the printed corner numbers on **every** page. 300 dpi full page,
+then 600 / 900 / 1200 dpi crops. All eight recorded in `data/plate-reads.json` as `depth: full`.
+
+⚑ **Col 1011/1012 (p. 511) had already been read by an earlier stint; I re-read and fully collated
+it, and found two sites it had not** (`deis` @1011D, the spurious `etc.` @1012A). A logged column is
+not a collated column.
+
+⛔ **No column in this range is clipped**, inner margin or outer. That is 15 more refutations of the
+mod-4 rule, and it means **not one marker in my range had to be withheld for a second copy.**
+
+**Result: 28 departures over 15 collated columns, ~1.9 per column** — above Band A's 1.5 and
+Band B's 1.4. Full report appended to `data/briefs/8967-PENDING-TEI-PATCHES.md`.
+
+### The controls that decided the hard glyphs, named
+- **`mugnificatus` @1015D** — the word is its own control: the `a` of *-catus*, four letters later
+  and in the same italic sort, is a closed-bowl `a`; the disputed glyph is a two-stemmed,
+  open-topped `u`. **Migne prints a non-word inside an italic lemma.**
+- **`qut` @1014B** — `qui audiat` on the *next* line and `quis` on the line above both set a dotted
+  `i`; the disputed sort carries a crossbar and a curved foot. A `t`.
+- **`ete.` @1023A** — `vindicantis` on the line above supplies an open, crossbar-less `c`. The
+  glyph here has a crossbar. An `e`. Read at 1200 dpi because the claim runs *opposite* to the
+  briefed italic-`e`-images-as-`c` hazard, and a hazard briefed in one direction is not evidence
+  in the other.
+- **`Ft` @1021B** — the italic `E` of *Et eduxit* two lines above has a bottom bar; this sort has
+  none. An `F`.
+- **`par` @1014D** — `benedicere` (three `e`) on the same line, `posteris` on the next.
+- **`putes` @1015D** — the closed `o` of *non*, same line, three words away.
+
+### ⚠ And the site where the imaging hazard was the RIGHT answer
+**`usque ud` @1012A.** The `d` of *ad* has lost its ascender and images as a `u`. Reported as
+**copy condition, not a reading** — §3's line: a compositor's error is Migne's and gets restored,
+ink damage is this leaf's and does not.
+
+---
+
+## §2 · ⛔⛔ NINE MIGNE DEFECTS I CANNOT FIRE, AND WHY THAT IS THE HEADLINE
+
+`deis` · `qut` · `par` · `dilectum` · `secundam` · `Deus` · `mugnificatus` · `putes` · `haere ditas`
+· `Ft` · `ete.` — **eleven sites where Migne's type is defective and our twin has already been
+repaired**, so a `[sic:]` or `[cj:]` on any of them would be rejected by the content check, and
+firing one anyway would accuse Migne at a word the facing column shows him setting correctly.
+
+**My fired marker count is therefore 5 `[var:]`, 0 `[sic:]`, 0 `[cj:]`, 0 `[d:]`, 0 `[ed:]` — and
+that number means nothing until the patch pass runs.** It is Band B's §F2 lesson recurring
+exactly: one stint there reported zero `[sic:]` on a range containing twelve. **Read this stint's
+marker count only after the eleven owed markers land.**
+
+### ⚑ The rule I applied where the plate and the twin disagree, stated so it can be audited
+§A6 says the English renders the plate where the leaf has been read. That is unambiguous where the
+plate's reading renders cleanly. It deadlocks where the plate's reading **needs a marker the
+content check will not yet accept**: rendering `dilectum` as "the beloved" with no `[cj:]` would
+put on a reading page an assertion the author did not make, with nothing to warn the reader — the
+exact failure Pattern 18 exists to prevent. So:
+
+- **Plate reading renders cleanly → the English renders the PLATE.** 14 sites (##12–25, 26 in the
+  patch report), including the two CC word-division defects, where translating the twin would have
+  produced garble.
+- **Plate reading needs an unfireable marker → the English renders the TWIN, and the marker is
+  filed as owed with the patch.** 9 sites. Every one is named in the patch report with its marker.
+
+**This is a departure from a literal reading of §A6 and I am flagging it rather than taking it
+silently.** If Wilson prefers the other branch, the change is nine one-line English edits, all
+listed.
+
+---
+
+## §3 · MARKERS FIRED — FIVE `[var:]`, EACH ON A COLUMN I COLLATED TODAY
+
+| col | chunk | marker | why it clears the bar |
+|---|---|---|---|
+| 1016D | 0079 | `[var: Vulg. 1 Cor. 12:7 *Unicuique autem datur manifestatio Spiritus ad utilitatem*…]` | Migne prints *Unicuique datur **Spiritus ad manifestationem***, inverting the Clementine's *manifestatio Spiritus* and replacing *ad utilitatem*. **Different assertion**, and the gloss builds on it (*gratia ergo et nitor quidam … ut exhilaretur facies in oleo*) — brightness/manifestation, not profit. |
+| 1018A | 0079 | `[var: Vulg. Gen. 3:14 *cunctis diebus vitae tuae*…]` | ⭐ Migne prints *Terram comedes omnibus diebus **vitae meae***. God is speaking **to the serpent**; *meae* puts the days in the speaker's mouth instead of the serpent's. Rendered as printed ("all the days of my life") under Pattern 7 — the contradiction is the evidence. |
+| 1018C | 0079 | `[var: Vulg. Isa. 1:16-18 *…discite benefacere … et venite, et arguite me*…]` | ⭐⭐ **Load-bearing.** Migne prints *et venite et **disputemus***, and the gloss is built entirely on that word: *Disputatio enim hominis ad Deum, est confessio peccatorum … Disputatio ergo tua, sacrificium humilitatis tuae.* An English that gave the Clementine's *arguite me* would take the argument's keyword out of its own proof-text (7a″ exactly). Migne also prints *dicite* for *discite*. |
+| 1024D | 0081 | `[var: Vulg. Ps. 105:38 *Et infecta est terra in sanguinibus*…]` | ⛔ **The Clementine reads *infecta*, "was defiled" — not *interfecta*.** Both our twin and the plate carry an *interfic-* form, and the gloss is built on it (*ipsi enim **interficiebant** animas suas*). The lemma brief's `⚑ MATCHES ONLY ELSEWHERE — 4Rg 11:16` pointed straight at it. |
+| 1025B | 0081 | `[var: Vulg. Ps. 105:46 *in conspectu omnium qui ceperant eos*…]` | Migne prints no *qui*, leaving a bare finite clause. The Vulgate sense is confirmed from inside the gloss: *Vel, coram daemonibus liberi facti, sub quibus fuere **captivi***. |
+
+⚑ **Every marker was checked against the word it stands on** (§F8's misplaced-`[sic:]` lesson). All
+five sit at the end of the lemma or clause they annotate.
+
+---
+
+## §4 · THE DIVERGENCE LIST — EVERY SCRIPTURE SPAN IN THE RANGE, INCLUDING THE CLEAN ONES
+
+Collated against `sources/vulgate/clementine-flat.txt`, cited by book chapter:verse. **A list of
+findings alone cannot be told from a report by an agent that never looked**, so the clean ones are
+here too.
+
+### Agrees with the Clementine, checked and clean
+- **Is 6:6** @1016A `*Volavit ad me unus de seraphim*` — verbatim.
+- **1 Cor 1:31** @1016C `*qui gloriatur, in Domino glorietur*` — verbatim.
+- **Ps 33:3** @1019A `*In Domino laudabitur anima mea*` + `*audiant mansueti et laetentur*` — both verbatim.
+- **Mt 5:6** @1023B `*Beati qui esuriunt et sitiunt justitiam, quoniam ipsi saturabuntur*` — verbatim.
+- **Ps 101:4** @1011D `*Ossa mea sicut cremium aruerunt*` — verbatim.
+- **Ps 105:2** @1022B `*Quis loquetur*` (twice) · **Ps 105:4** @1025C `*Memento nostri*` — verbatim.
+- **Ps 105:40** @1024D `*Abominatus est*` · **Ps 105:43** @1025A `*Saepe liberavit*`, `*In consilio suo*` — verbatim.
+- The Ps CI–CV lemmata proper agree with the Clementine throughout except where noted below. The
+  titulus **`*Psalmus David.*` @1015C is confirmed at the plate** and is *not* `Psalmus ipsi David`
+  (§A4): Migne's two forms stay two forms, and 1010A four columns back prints the other one.
+
+### Diverges, and the divergence was CHECKED and DECLINED — with the reason
+- **Jo 3:36** @1012B `*Ira Dei manet super eos qui non credunt*` — Clementine `manet super **eum**`
+  (singular, and *qui autem incredulus est Filio* stands earlier in the verse). **Declined**: the
+  gloss turns on *manet* against *veniet*, which is untouched; number is not the sense here.
+- **Is 53:2** @1012D `*Vidimus eum non habentem speciem neque decorem*` — Clementine
+  `Non est species ei, neque decor, et vidimus eum`. A recast, not a variant reading: every word is
+  in the verse. **Declined.**
+- **Mt 28:20** @1013C `*Vobiscum sum usque ad consummationem saeculi*` — Clementine adds
+  `omnibus diebus`. An abridgment. **Declined.**
+- **2 Pt 3:7** @1013D `*Terra autem et coeli qui nunc sunt…*` — Clementine `Caeli autem, qui nunc
+  sunt, **et terra**`. Migne reverses the pair and truncates at *reservati*. ⚑ Worth a second
+  thought because the gloss says *Ipsi coeli peribunt, de proximis terrae hoc constat* — but the
+  argument needs both members present, which they are. **Declined.**
+- **1 Cor 9:19** @1016C `*omnium me feci servum*` — Clementine `omnium me servum feci`. Word order.
+  **Declined.**
+- **Dt 8:3 / Mt 4:4** @1018A `*quod procedit de ore Dei*` — Dt 8:3 has `egreditur`, Mt 4:4 has
+  `procedit`; Migne cites `(Deut. VIII)` and quotes Matthew's verb. **Declined**: no sense change,
+  and a citation-vs-text mismatch of this kind is a `citation-corrections.json` question, not a
+  translation one.
+- **1 Pt 5:8** @1017C `*circumit quaerens quem devoret*` — Clementine `circuit`. Orthographic.
+  **Declined.**
+- **Phil 2:12** @1018B `*Cum tremore operamini vestram salutem*` — Clementine `cum **metu et**
+  tremore vestram salutem operamini`. Abridged, and the gloss is entirely about *tremor*.
+  **Declined.**
+- **Ex 3:6** @1019C `*Ego sum Deus Abraham, Deus Isaac, Deus Jacob*` — Clementine prefixes
+  `Deus patris tui`. Abridged to make the point (`Ecce tres patriarchae … Ecce triplex auctoritas`);
+  restoring the fourth clause would spoil it. **Declined.**
+- **Jo 8:56** @1019D `*Abraham exsultavit, ut videret diem meum, vidit et gavisus est*` — Clementine
+  `Abraham **pater vester** exsultavit`. Abridged. **Declined.**
+- **1 Tim 2:5** @1020A `*unus enim mediator Christus*` — Clementine `unus et mediator Dei et hominum
+  homo Christus Jesus`. Abridged. **Declined.**
+- **Ps 104:16** @1020A `*Ita vocavit, et omne firmamentum panis contritum*`, cited `(Gen. XXXVII)` —
+  the words are the psalm's own v. 16 (`Et vocavit famem super terram, et omne firmamentum panis
+  contrivit`), with `Ita` for `Et` and the participle `contritum` for the finite `contrivit`.
+  ⚑ **Declined for the `[var:]`, reported for the record**: Gen. XXXVII is where Joseph is sold, so
+  Migne's locator points at the narrative rather than at the words, which is his ordinary practice
+  in this recension.
+- **Mt 6:33** @1020A `*primum quaerite regnum Dei, et omnia adjicientur*` — Clementine adds
+  `et justitiam ejus` and `vobis`. Abridged. **Declined.**
+- **Ps 104:30** @1021A `*et dedit terra eorum ranas*` — Clementine `**Edidit** terra eorum ranas`,
+  and Migne's own lemma eight lines above prints `*Edidit terra.*` ⚑ Raised precisely because the
+  two forms stand in one column; **declined** because both construe and give the same English, and
+  because *dedit* for *edidit* is the shape a patch must not guess at.
+- **Mt 6:25** @1023B `*Nonne anima est plus quam esca?*` — Clementine `Nonne anima plus est quam
+  esca`. Word order. **Declined.**
+- **Ex 32:32** @1023D `*Si non dimittis illis, dele me de libro tuo*` — Clementine
+  `aut si non facis, dele me de libro tuo **quem scripsisti**`. A conflation of vv. 31–32, and the
+  gloss argues from the intercession, not the wording. **Declined.**
+- **Ps 105:25** @1024A `*In tabernaculis ejus*` — Clementine `in tabernaculis **suis**`. **Declined**:
+  no sense change (rendered "In his tents" as printed), though it is a real divergence and is logged.
+- **Ps 105:47** @1025B `*Salvos fac nos*` — Clementine `Salvos **nos fac**`. Word order. **Declined.**
+- **Ps 105:4** @1025C `*in beneplacita populi tui*` — Clementine `in beneplacit**o**`. ⭐ Migne's
+  plural is **confirmed at the plate**, so it is his and not CC's; rendered "in the good pleasures
+  of thy people". **Declined** for the marker: the sense of the clause is untouched.
+- **Ps 103:3** @1016A `*Quis tegis.*` — ⛔ **the plate prints `Quis`, our twin `Qui`, and the
+  Clementine `Qui tegis aquis superiora ejus`.** Migne's own gloss two lines below writes
+  `Vel qui *tegis aquis*`. A `[var:]` is owed here and is **unfireable until the patch lands**,
+  because our Latin column would show `Qui` and contradict the note. **Filed, not fired.**
+- **Ps 101:5** @1011D `*Percussus sum ut fenum*` — Clementine `ut **foenum**`. Orthographic.
+  **Declined.**
+- **`*Diligas Deum et proximum*` @1022A** — not a verse; a summary of the two commandments in
+  Migne's own voice. No collation possible, no marker.
+
+---
+
+## §5 · `usque ad` — THE `etc.` SPLICE TEST, COUNTED
+
+**59 occurrences of `usque ad` / `ad usque` in my Latin. 57 formula, 2 not.** (A 60th hit,
+`usque in aeternum` @1024B, is not in the class at all.)
+
+- **57 formula → "as far as."** Each follows an `etc.` and names where the abridged father resumes.
+  ⚑ **Two of them are separated from their `etc.` by a column anchor** (`etc., [1016D] *usque ad*`
+  and `etc., [1017B] *usque ad*`). A naive regex scores both as non-formula. **The `etc.` test is
+  about the token before, not the character before.**
+- **2 non-formula, both at 1013C and both in one sentence:**
+  1. `*Vobiscum sum usque ad consummationem saeculi*` — **Mt 28:20 itself**, rendered
+     **"unto the consummation of the world"**, matching §A7's repair of the Mic 4:10 site at 0984C
+     and 0073's rendering. This is col 0953C's problem recurring: a formula and a quotation of the
+     same two words a few lines apart.
+  2. `Totum tempus **usque ad finem**` — ordinary Latin, rendered **"unto the end."**
+- ⭐ **One typographic finding the counter would have missed: at 1015A Migne prints the formula
+  REVERSED, `*ad usque*`, and CC normalized it to `usque ad`.** It follows an `etc.` and names the
+  resumption point, so it is the formula and is rendered "as far as"; the reversal is filed as a
+  patch. **If the work-wide count of 777 was taken from our TEI, it is short by however many
+  `ad usque` Migne set and CC turned round.** Worth one grep before the count is quoted again.
+
+---
+
+## §6 · THE RULED AXES — WHAT MY RANGE DID WITH EACH
+
+| axis | my range |
+|---|---|
+| `gentes` family | **Gentiles** where the *Judaei*/*gentes* opposition is explicit — @1019A `ibi ex gentibus sumpturus Ecclesiam`, and @1025B where the gloss says `de **Judaeis** fuerunt … id est **gentium**, ut eos **gentes** mirarentur` in one sentence. **nations** where the sense is generic — @1024C `*Gentes.* Septem illos populos` (the seven Canaanite peoples), @1024C `gentium conformitate`, @1025C `de omnibus gentibus congregetur` and `*Et congrega nos de **nationibus***`. `natio` → **nation**, always. Singular `gens` of a people → **nation**: @1019A `in una gente secundum carnem … sed non alii genti`. |
+| `mysterium` / `sacramentum` | `sacramentum` once (@1014C `in baptismi sacramento` → **sacrament**); `mysterium` does not occur. The adverb `mystice` @1022A → "mystically". 1:1 held. |
+| `daemonium` / `diabolus` | **demon** for `daemones` @1017B, `daemoniorum`/`daemonia` @1017C, `daemonibus` @1024B, `daemonibus` @1025B. **devil** for `diaboli` @1018A, @1023A. **Satan** for `Satanae` @1017D. **No bleed in either direction.** |
+| `turba` / `multitudo` | **Neither word occurs in my range.** Reporting the absence rather than a zero that could be read as drift (Band A's instrument check). |
+| `usque ad` | 57 formula / 2 not — §5. |
+| archaism | `-eth`/`saith` used **only inside italic scripture**: `abideth` @1012B, `goeth about` @1017C, `proceedeth` @1018A, `glorieth` @1016C, `saith` @1018C, `doeth` @1014D. **All six are inside an italic span.** Gloss-voice verbs are plain (`says`, `adds`, `admonishes`). No guillemets occur in my range, so the second membership test had nothing to catch here. |
+| `sedes` | Once, @1015B `*Dominus in coelo paravit **sedem** suam*` → **"his seat"**, per §A5. Distinct from `throno` @1014C (`cum rex sederit in throno` → "upon his throne"), which is a different Latin word and keeps "throne". |
+| `Dominus virtutum` | Does not occur. |
+| `In finem` · `Diapsalma` · `Canticum graduum` | **None of the three occurs in my range.** The Ps CI–CV tituli are *Oratio pauperis*, *Benedic anima*, *Psalmus David* and *Alleluia*; the gradual psalms begin later in the band. Recorded so a sweep does not read the absence as an omission. |
+| heads | `PSALMUS CI.`–`PSALMUS CV.` → `PSALM CI.`–`PSALM CV.` **All five numerals left Roman**, per §A3. |
+| `(ID.)` / `(Ibid.)` | Never expanded. 201 notes pass through verbatim across the five chunks, including `[n: (Id. )]` @1021B with Migne's own spacing and `[n: (HIER., CASS.)]` @1017A. |
+
+---
+
+## §7 · CRUCES — RENDERED LITERALLY, WITH THE DIFFICULTY NAMED
+
+1. **`Timebat Israel, ne reliquias eorum consumeret` @1021C.** ⛔ **The subject is Egypt, not
+   Israel, and *Israel* is the OBJECT of *timebat*.** The lemma is Ps 104:38, whose first half is
+   `Laetata est **Aegyptus** in profectione eorum`, and *reliquias eorum* must name someone other
+   than the fearer. Rendered **"Egypt feared Israel, lest he should consume what was left of
+   them."** ⚑ Flagged loudly because "Israel feared" parses, reads perfectly, and is the reading a
+   blind English pass would never question — §F8's exact profile.
+2. **`Laus Dei, qui suos vindicavit qualitas poenae facta indicat` @1023B.** *qualitas … indicat* is
+   the subject and verb; *Laus Dei* is the object, fronted. Rendered **"The quality of the
+   punishment inflicted declares the praise of God, who has avenged his own."** The fronting is why
+   this one is easy to read backwards.
+3. **`Causa est, ne Israel pro debito periret Testamentum Novum` @1025A.** *Testamentum Novum* is
+   the predicate of *Causa est*, with the *ne*-clause between. Rendered **"The cause that Israel did
+   not perish for its debt is the New Testament."** The *ne* is carried.
+4. **`Quia mutavit, quod perdituros eos videbatur` @1025A.** ⛔ **Does not construe as printed** —
+   *perdituros* is accusative plural masculine with nothing to govern it. Rendered as closely as the
+   words allow, **"Because he changed what seemed about to destroy them,"** and the difficulty is
+   recorded rather than repaired. No emendation offered: this is a place where a conjecture would be
+   invention.
+5. **`Fortes, quorum frixorium sunt, qui scandalizantur` @1011D.** Rendered literally, **"The
+   strong, whose frying-pan they are, who are scandalized."** Who is whose frying-pan is left where
+   Migne leaves it; the splice cuts Augustine off before he says.
+6. **`Dux est eorum` @1017A** — the whole gloss is about the *gender* of `eorum`
+   (`quod tamen Latine dici non potest, quia cedri feminini generis sunt`). English carries no
+   gender on "their", so the point would vanish; I rendered **"Is the leader of them, that is, of
+   the sparrows, or of the cedars, which nevertheless cannot be said in Latin, because cedars are
+   of the feminine gender"** — keeping the explanation in the clear rather than adding a marker.
+   **This is Pattern 9's gender case where the Latin itself supplies the exponent.**
+7. **`unde meruit inter alias regni privilegium vel principatum obtinere` @1022D.** The subject is
+   unexpressed and feminine (*inter alias*): the tribe. Rendered **"whence it deserved to obtain
+   among the others the privilege or the princedom of the kingdom"** — "it" for the tribe, and no
+   name supplied, because the splice removed the sentence that named it.
+8. **`Magna oblivio quidem in memoria, si non liberatio` @1023D.** Rendered **"Great forgetfulness
+   indeed in the memory, if not the deliverance."** The negative is carried and the ellipsis left
+   open; smoothing it would decide what the Latin declines to say.
+9. **`Efflorebit … id est deflorebit. Et sic est intentivum, vel privativum` @1015B.** The gloss is
+   about the force of the prefix. Rendered "shall flourish forth … shall shed his flower … it is
+   either intensive or privative", keeping both members so the grammatical point survives.
+
+### Unexpressed subjects supplied, each with its authority
+- @1021C "**Egypt** feared" — Ps 104:38's own first half (see crux 1). The only supplied proper name
+  in the range.
+- @1014C "**He** bestowed when he made me, **he** requites when he justifies" — God, from
+  *retribuit ei **Deus*** in the previous sentence. ⚑ Note that *Tribuit homo* two clauses earlier
+  has a **different** subject, printed; the English keeps them apart.
+- @1022D "whence **it** deserved" — the tribe (crux 7); deliberately not "he".
+- @1024B "**he** delivered him whose destruction was to be the greater" — the subject is God, from
+  the *(AUG.)* gloss it opens; no name supplied.
+- Nowhere did I supply a possessive or a completion the Latin does not print. **Checked
+  specifically against §F8's fourteen**: `*Benedic, anima.*` @1014B stays **"Bless, O soul"** (not
+  "my soul"), `*Potum.*` @1012B stays **"Drink"** (not "my drink"), `*Mei.*` @1012A stays **"My"**,
+  `*Cinerem.*` stays **"Ashes"**, `*In gloria.*` stays **"In glory"**, `*Christos,*` @1019D stays
+  **"The anointed"** (not "my anointed"), `*Possessione.*` @1017D stays **"With possession"** (not
+  "thy possession"), `*Laudamini in nomine*` @1019A stays **"in the name"** (not "in his holy
+  name"), `*filii servorum tuorum habitabunt*` @1014A stays **"shall dwell"** (not "shall dwell
+  **there**"), and `*Et non erat infirmus*` @1021B stays **"And there was no one weak"** (not
+  "no one weak **among their tribes**").
+
+---
+
+## §8 · CANDIDATES RAISED AND **REJECTED** — the instrument, not the leftovers
+
+1. **`[sic: *deis*]` @1011D and the other ten of §2** — the reading is Migne's and confirmed, but
+   the marker content must be verbatim in the twin and is not. **Filed as owed, not fired.**
+2. **`[sic:]` on `VERT. 41.` @1025A, `VERS 28.` @1020D, `VERS, 32.` @1021A** — **declined.**
+   Pattern 9 normalizes a section label in English *precisely because* the facing Latin preserves
+   the misprint. This is §F8's "right about the fact, wrong about the rule" case; the observation
+   goes in the patch report, the English prints `VERS.`
+3. **`[sic:]` on `interfectus` @1024D** — declined. A gender/number mismatch with **no English
+   exponent** (Pattern 12(2) does not reach it, Pattern 9 governs). The `[var:]` against the
+   Clementine's `infecta` is the honest marker and is fired instead.
+4. **`[d:]` on `Alleluia. Alleluia.` @1022A** — **declined, and it is the trap in this range.**
+   Migne prints the word twice adjacently, which is Pattern 11's literal shape; but the entire
+   gloss that follows exists to argue *whether* there should be one or two
+   (`Quidam dicunt, unum *alleluia* ad finem superioris psalmi pertinere, alterum esse sequentis`).
+   **Marking one copy as an intrusion would delete the thing the paragraph is about.**
+5. **`[d:]` on `amen amen` @1022A** — declined for the same reason: Migne is *quoting* the Lord's
+   doubling and says so (`pro majore certitudine rei`).
+6. **`[d:]` on `Concupierunt concupiscentiam` @1023A and `Id est inter medium, etc.` @1016B** —
+   declined. The first is the Hebraism the gloss then explains
+   (`Nimietas desiderii, geminatione verbi ostenditur`); the second is a lemma re-quoted, eight
+   words from its first appearance and in a different clause — `[d:]` marks type printed twice
+   **adjacently**, and §F8 withdrew `[d: videantur, et]` for exactly this.
+7. **`[cj:]` on `dedit` for `Edidit` @1021A** — declined. Both construe, both give the same English,
+   and a patch must not guess a letter (§F7's `Nafrubimus` discipline).
+8. **`[var:]` on the fifteen abridged or reordered quotations in §4** — declined individually, each
+   with its reason. Abridgment is this recension's method, not a variant reading.
+9. **A patch on `Quas consequentur.` @1014D** (Migne's mark reads as a point, the next word is
+   lowercase) — **declined**: it is ambiguous between a point and a worn comma, and *a patch must
+   not guess a mark any more than a letter.*
+10. **`[sic:]` on the bracket-shaped marks at 1019A and 1019C** — declined as ink on this leaf.
+    ⚑ Distinguished from the `[psalmorum` / `[ostendit` stray-sort class reported from cols
+    1039–1041: those are a repeating sort, these two are isolated and shapeless.
+11. **A `[sic:]` or patch on `usque ud` @1012A** — declined; broken ascender, copy condition.
+12. **Column-band arithmetic** — not reported. Migne's A/B/C/D marks sit in the central gutter and
+    serve both columns at the same height; nothing in my range breaks mid-word across an anchor.
+
+---
+
+## §9 · SECTIONS READ CLEAN, AND HOW
+
+- **Ps CII in full (0078, cols 1014B–1015C)** — collated at the plate line by line. Two departures
+  found (`qut`, `par`), both filed; the remaining 33 spans and all 15 notes agree with the leaf.
+- **Cols 1017A–1018C (the second half of 0079)** — the leanest page in the range: **one** departure
+  in two full columns (the siglum `(AU.)` @1017B). Named because a clean page is evidence too.
+- **1025A `afflictis iterum miseretur`** — raised as a possible `misereretur` at 300 dpi and
+  **checked at 600: the plate agrees with our twin.** A checked negative, recorded per the
+  GLOSSA brief's instruction.
+- **Negation sweep (7a, tests 2 and 2a).** Every `non`/`nec`/`nisi`/`nullus`/`nihil`/`nunquam` in
+  the five chunks was located, its host word named, and the English negative checked to be **on
+  that host**. The population test 2a names fired at four sites — `non solum … sed usque in
+  aeternum` @1024B, `nulli Graecorum codices … habeant` @1022B, `non ut … sed ut` @1021D (twice),
+  and `sed non sunt nisi dimidii, si non addantur aeterni` @1013C — and each was proved from the
+  correlative rather than from what read well. ⚑ `nulli … codices` is the one where English word
+  order most wanted to move the negative onto the verb; it stays on the quantifier: **"no codices
+  of the Greeks have"**.
+- **English apposition does not inherit a negative across a comma** (§F8): checked at
+  `Non ait, veniet; sed *manet*` @1012B, `Non ait peccantes … sed *peccatores*` @1023C,
+  `Non ait in similitudinem, sed in similitudine` @1023C and `non vetat laudari, si boni; si non,
+  nisi in Domino` @1019A. **Each negative is stated twice in the English where the Latin marks it
+  once.**
+- **Question marks: 1/1, 1/1, 5/5, 1/1, 4/4** against the twins. No indirect question needed
+  Pattern 8b recasting in this range.
+
+---
+
+## §10 · HANDOFF
+
+1. **The patch queue owes eleven markers, not zero.** They are listed by column in the patch
+   report with the exact marker text. **Do not read this stint's `0 [sic:] / 0 [cj:]` as a clean
+   range.**
+2. **`VERS. 15.` @1016C is the one to land first.** My English prints Migne's address and the
+   Latin twin still prints CC's `VERS. 13.`, so the two columns disagree visibly until the patch
+   runs. It is deliberate (§A6) and it is flagged in three places.
+3. **One English edit is owed with the patch and is not a marker**: `0079.md`, the note at 1017B,
+   `[n: (AUG.)]` → `[n: (AU.)]`. It cannot be made first, because note contents are checked as a
+   substring of the Latin twin.
+4. **`ad usque` @1015A may not be unique.** If the work-wide `usque ad` census (777 / 733 / 44) was
+   taken from our TEI rather than from the plate, it silently counts CC's normalizations. One grep
+   of the plate text layer for `ad usque` would settle it.
+5. **Open for a ruling, not decided by me:** the §2 rule (twin where the plate needs an unfireable
+   marker). Nine sites turn on it, all listed, each a one-line edit either way.
+6. **Nothing was committed, deployed or re-chunked.** `data/plate-reads.json` gained eight entries;
+   `data/briefs/8967-PENDING-TEI-PATCHES.md` gained one section.
+
+
+## §I.0082 — file `cruces-0082.md`, verbatim
+
+# Cruces — 8967 *Glossa ordinaria*, **Liber Psalmorum**, chunks 0082–0086
+### cols 1025C–1039B · Psalms CVI–CXVI · BAND C
+
+---
+
+## §0 · SPAN COUNT RECONCILIATION — **389 = 389, exact**
+
+| chunk | italic spans in my Latin |
+|---|---|
+| 0082 | 71 |
+| 0083 | 96 |
+| 0084 | 75 |
+| 0085 | 83 |
+| 0086 | 64 |
+| **total** | **389** |
+
+`data/briefs/8967-lemmata-0082.txt` declares **389** and carries **389** addressed lines. Counted
+with a newline-tolerant `\*[^*]+\*` sweep over the body (frontmatter excluded), so a span broken
+across a line — and the one broken across a column anchor, `*usque [1033A] ad*` — is counted once.
+**No mis-split.** Band B went eight for eight; this is nine.
+
+⚑ One deliberate span-structure divergence in the ENGLISH, and it is not a count error: at **1026D**
+the plate carries a roman `subdens,` between two italic runs that CC merged into one, so my English
+has one span more than the twin at that site. It is filed as patch #14. `verify-english` does not
+compare span counts, so this note is the only record of it.
+
+---
+
+## §1 · MARKERS FIRED — two, both on col 1036D, both plate-gated
+
+1. **`[var: Vulg. Ps 48:19 *confitebitur tibi*, "he will praise thee," in the third person, which is
+   what the gloss's argument requires]`** — 0086.md, **col 1036D**.
+   Migne prints `*Confitebor tibi cum benefeceris ei [n: (Psal. XLVIII)]*`, the FIRST person. The
+   Clementine has `confitebitur`. **The sense turns on it and the gloss is what turns**: the
+   proof-text is adduced for the proposition *Diligitur Deus et ab infidelibus quia bona dat* — that
+   God is loved even by unbelievers because he gives good things. Third person, the verse proves it
+   (*he* will praise thee when thou dost well to him); first person, it proves nothing about anyone
+   else. Rendered as Migne prints it, per Pattern 14, with the received reading beside it.
+
+2. **`[cj: *eum*; read *cum*, "when"]`** — 0086.md, **col 1036D**.
+   `Diligitur perfecte, eum animus adversis non movetur, sed spe accenditur.` **The plate was read
+   at 900 dpi and confirms `eum`, exactly as our twin has it** — so this is Migne's, not CC's, and
+   the printed word is present in the twin, which is what makes the marker legal.
+   ⚑ **A named departure from Pattern 18's canonical shape.** The pattern says Migne's word keeps
+   its English and the conjecture stands beside it; here the accusative `eum` has no English in this
+   clause at all (`Diligitur … eum animus … non movetur` cannot be construed), so the marker stands
+   beside the conjecture's English rather than Migne's. Recorded because the alternative was a
+   silent repair, which is worse.
+
+**No `[sic:]` was fired in this range.** Ten are *owed* and cannot be written yet — see §3.
+
+---
+
+## §2 · THE PLATE — eight leaves, fifteen columns, every corner number checked
+
+`raw/scans/pl113/patrologiaecurs04migngoog.pdf`, page map `(col + 11) / 2`, calibrated leaf by leaf
+against the printed corner numbers before anything was read off the page. Recorded as eight `full`
+entries in `data/plate-reads.json`.
+
+| PDF page | cols | running head | condition |
+|---|---|---|---|
+| 518 | 1025 / 1026 | GLOSSA ORDINARIA. — LIB. PSALM. | clean |
+| 519 | 1027 / 1028 | WALAFRIDI STRABI FULD. MON. OPP. | clean |
+| 520 | 1029 / 1030 | GLOSSA ORDINARIA. — | clean |
+| 521 | 1031 / 1032 | WALAFRIDI STRABI FULD. MON. O… | clean |
+| 522 | 1033 / 1034 | GLOSSA ORDINARIA. — | clean; `PATROL. CXIII.` signature at the foot |
+| 523 | 1035 / 1036 | WALAFRIDI STRABI FULD. MON. OP… | clean |
+| 524 | 1037 / 1038 | GLOSSA ORDINARIA. — LIB. PSA… | ⛔ **col 1037 CLIPPED**, ~7–9 chars/line at the inner margin |
+| 525 | 1039 / 1040 | WALAFRIDI STRABI FULD. MON. | clean |
+
+**Zero foot-of-page conjecture apparatus on any of the eight leaves, in either layer.**
+
+⛔ **Col 1037 is a new entry for the known-clipped list** (841, 849, 893, 897, 1045, **1037**). And it
+refutes the withdrawn congruence rule once more: 1037 ≡ 1 (mod 4) and is clipped, 1033 ≡ 1 (mod 4)
+and is clean, on facing leaves of the same gathering. **The clip cost one finding and saved one
+false one** — see the `dilector` entry in §5.
+
+### What the plate did that the Latin alone could not have done
+- ⭐ **1035A. The plate reversed a reading, not merely corrected one.** Our twin prints
+  `*Barbaro.* Barbaro lingua est, quae Deum non laudat` — the gloss agreeing with its own lemma, and
+  ungrammatical. **Migne sets `Barbara lingua est`**: a definition, "that tongue is barbarous which
+  praises not God." CC had assimilated the first word of the gloss to the italic lemma standing
+  immediately before it. **From the Latin alone this reads as Migne's slip and would have taken a
+  marker.** The English follows the plate.
+- ⭐ **1027B. `honorum` for `bonorum`, and the control was in the word two lines above.** The h/b
+  hazard fires in both directions, so the reading rests on `inhabitabant` in the preceding sentence,
+  which sets an `h` and two `b`'s in one word: the disputed glyph is an open arch with no bowl, an
+  `h`. Migne prints the non-word.
+- ⭐ **1038D. A same-column control settled a lemma.** `*Vota mea reddum.*` at the VERS. 18, 19
+  address, with the correct `*Vota mea reddam.*` set three lines below in the same column. The `a`'s
+  of `*Vota*`, `*mea*` and `*laudis*` on the same line are closed-bowl; the disputed letter is not.
+- ⭐ **1039A. `Sed ue quis putet`, and the turned-sort excuse does not apply.** The glyph is a clean
+  bottom-arched `u` against the `n` of `nominat` on the line below. Per the band brief's own rule, an
+  `n` cannot become that by failing to ink.
+- ⚑ **1032D. The plate CONFIRMED our TEI where the TEI looked wrong.** `Timor Domini.` stands there
+  as a lemma but is set ROMAN, not italic, in a column where every other lemma is italic. Our twin
+  has it roman. **Migne really does set it roman**, so this is his inconsistency, not CC's, and it is
+  not a departure. The same at 1036C for `Sicut misit me Pater, et ego mittam vos`.
+
+---
+
+## §3 · THE DIVERGENCE LIST — every CC departure, and the ten markers I could not fire
+
+**24 departures over 15 columns, ≈1.6 per column**, which is the rate the band brief predicts.
+The full table with columns and leaves is appended to `data/briefs/8967-PENDING-TEI-PATCHES.md`;
+this section records only what bears on the English.
+
+### The ten owed markers — and why not one of them is on the page
+`[sic:]` content is checked as a substring of the Latin twin, and `[cj:]` requires the printed word
+to be present in it. **Every one of these markers is unreachable until the patch lands**, and per
+§3 of the band brief the honest form is to say so rather than to fire something else:
+
+| col | plate | owed |
+|---|---|---|
+| 1027B | `honorum` | `[sic: *honorum*]` |
+| 1029A | `posueruent` | `[sic: *posueruent*]` |
+| 1030C | `quiquid` | `[sic: *quiquid*]` |
+| 1032B | `glorificatur` | `[cj: *glorificatur*; read *glorificatus*]` |
+| 1033A | `liberavi` | `[sic: *liberavi*]` |
+| 1034B | `laudamus sit` | `[cj: *laudamus*; read *laudandus*]` |
+| 1034B | `Ili` / `domo ejus` | `[sic: *Ili*]` **and** `[cj: *domo*; read *dono*]` |
+| 1037D | `intra` | `[cj: *intra*; read *intrat*]` |
+| 1038D | `reddum` | `[sic: *reddum*]` |
+| 1039A | `ue` / `Psalmus` / `recipi` | `[sic: *ue*]`, `[cj: *Psalmus*]`, `[cj: *recipi*]` |
+
+**At every one of these sites the English renders the reading our TWIN carries**, which is also the
+correct Latin, and the site is filed with the English edit that is owed once the Latin moves. That
+is deliberate: an English that had already moved to Migne's defective reading, with no marker
+available to say so, would be an unannounced defect on the page.
+
+### Where the English DOES follow the plate (§A6 licence, leaf read, patch filed)
+**1026D** (`subdens,` restored, `, etc.` dropped) · **1027B** (`sed` dropped) · **1029A**
+(`quod est Deus judex facit`) · **1029B** (`sub` dropped; `labores`) · **1031B** (`in saeculum
+saeculi`) · **1035A** (`Barbara lingua est`) · **1028C, 1030C** (Migne's full stops where CC set
+commas) · **1038C** (`Ego servus tuus Filius ancillae` as one clause).
+
+### ⛔⛔ The one OPEN site — 1029B, and it is a class, not a case
+Our twin: `Quia **non** thesaurizant in coelo.` **The plate: `Quia thesaurizant in coelo.`**
+Mid-line, unclipped, 900 dpi, unambiguous. The gloss is on the curse of Ps 108:11 and the negative
+is the whole argument. **No marker class reaches an omission**: `[sic:]` may wrap only printed type,
+`[cj:]` needs a printed word to gloss, `[ed:]` confesses our loss and not Migne's. So the choice was
+between an un-markable reversal on the page and a declared repair. **I took the declared repair**:
+the English at 0083.md carries the negative, and the site is filed for Wilson with the class stated.
+This is the same shape as §F8's two left-open sites, and it is left open in the same way.
+
+---
+
+## §4 · SCRIPTURE — every quotation in the range, the clean ones included
+
+**Fired:** Ps 48:19 (see §1). **Declined, with the reason, every one of them:**
+
+| site | Migne | Clementine | why declined |
+|---|---|---|---|
+| 1031C | Phil 2:9-11 *Propter hoc exaltavit illum, et dedit Deus illi nomen … est in gloria Dei Patris* | *Propter quod et Deus exaltavit illum, et donavit illi nomen … in gloria est Dei Patris* | three real differences, **no change of sense**: *dedit*/*donavit*, the position of *Deus*, and *est* moved. Pattern 14's bar is sense, not difference. |
+| 1034A | 1 Cor 14:20 *…ut mentibus perfecti sitis* | *sensibus autem perfecti estote* | a purpose clause for an imperative, and *mentibus* for *sensibus*. The gloss uses it only to gloss *Pueri* as "children in malice, not in sense," which both forms carry. Declined — but it is the closest call in the range. |
+| 1035D | 2 Cor 5:19 *mundum sibi reconcilians* | *mundum reconcilians sibi* | word order only |
+| 1036C | Jn 20:21 *et ego mittam vos* | *et ego mitto vos* | future for present; and **Migne's citation `(Joan. VI)` is wrong** (the verse is Jn 20:21). ⛔ Not corrected — Pattern: do not expand or repair Migne's addresses. |
+| 1036D | Rom 10:14 *Quomodo invocabunt* | *Quomodo ergo invocabunt* | one dropped particle |
+| 1036D | 2 Cor 6:2 *Ecce nunc tempus acceptabile* | identical | **clean** |
+| 1037B | Mt 8:22 *Dimitte mortuos sepelire mortuos suos* | identical | **clean** |
+| 1037B | Ps 113:25 *Non mortui laudabunt te, Domine* | identical | **clean text**; Migne's address `(Psal. CIII)` is wrong (it is Ps 113). Not corrected. |
+| 1038A | Mt 25:21 *Euge, serve bone et fidelis, intra in gaudium Domini tui* | the Vulgate has *quia super pauca fuisti fidelis…* between | an abridgment, not a divergence |
+| 1038B | 1 Cor 10:13 *Fidelis Deus, qui non patitur* | *Fidelis autem Deus est, qui non patietur* | abridged opening + present for future |
+| 1033D | Wis 5:8 *Quid nobis profuit superbia et divitiarum jactantia?* | *Quid nobis profuit superbia? aut divitiarum jactantia quid contulit nobis?* | Migne compresses two clauses into one; the sinner's cry is unchanged |
+| 1035C | Jn 7:37 *Si quis sitit, veniat ad me et bibat* | identical | **clean** (the plate, unlike our twin, has no comma before *et bibat*) |
+| 1035D | Ps 113:11 *Omnia quaecunque voluit fecit* | *quaecumque* | orthography |
+| 1033A | Wis 9:15 *terrena inhabitatio deprimit sensum multa cogitantem* | *deprimit terrena inhabitatio sensum* | word order |
+| 1027C | 1 Cor 10:12 *Qui stat, videat ne cadat* | *qui se existimat stare, videat ne cadat* | abridged |
+| 1027A | Ps 106:34 *In salsugine* | *in salsuginem* | one letter, no exponent in English; §C1 excludes the class |
+| 1027B | Ps 106:34 *A malitia habitantium* | *inhabitantium* | one prefix, same sense |
+| 1030D | Lk 24:47 *et remissio peccatorum per omnes gentes* | *et remissionem peccatorum in omnes gentes* | inside an abridgment splice |
+| 1030A | Jn 7:39 *quia Jesus nondum fuit glorificatus* | *nondum erat glorificatus* | inside an abridgment splice |
+| 1033A | Ps 111:2 *Erit potens in terra* | *Potens in terra erit semen ejus* | word order in a stump |
+
+### ⚑ One internal control worth recording, at 1028C
+Migne's lemma prints `*Quis deducit me in civitatem munitam*` — **present tense** — and his own gloss
+four lines below quotes it back as `singulariter dicendo, deducet me`, **future**, which is the
+Clementine's reading. The English keeps both as printed ("Who bringeth me…" then "he will bring me"),
+because smoothing either would erase Migne's own inconsistency. Declined as a `[var:]`: it is a
+one-letter difference and the gloss does not argue from the tense.
+
+---
+
+## §5 · CANDIDATES REJECTED — the instrument, not the leftovers
+
+**Six candidates that read as confident Migne defects from the Latin alone, and the plate or a
+control withdrew every one:**
+
+1. **`de hærcticis` @1027B, `incipicntibus` @1030D, `saccrdos` @1031A** — the italic/roman `e`→`c`
+   hazard, three times in one stint. Our TEI is right at all three. **Band B withdrew eleven of
+   these; briefing works.**
+2. **`nt nnnquam moveatur` @1039B** — reads as a spectacular Migne failure. It is one over-inked
+   line whose `u` bowls have filled; `quia` on the *same line* prints a clean `u`. Copy condition.
+3. **`eyo` for `ego` @1037C**, italic, in `*O Domine, quia ego,*`. The lower bowl of the italic `g`
+   has not closed. ⛔ **Declined because the control is missing, not because the glyph looked
+   innocent**: there is no italic `g` on that line or the two around it, and a worn descender is ink,
+   not a wrong sort. Recorded here so a later reader does not file it as new.
+4. **`dilector` @1037A missing from the plate** — our twin has it, and the plate's line appears to
+   stop at `ostiosus`. ⛔ **Not filed as a CC insertion.** Col 1037 is clipped ~7–9 characters at the
+   head of each line and `dilector.` sits exactly there. **A clipped column cannot testify to an
+   absence** — this is the one place in the range where the clipping rule earned its keep.
+5. **`tempcre` @1030A, `(Aus.)` @1030A, `(Cass )` @1031C** — damaged sorts on those leaves.
+6. **The bracket-shaped sort before `[psalmorum` @1039A** — this is the already-reported stray-sort
+   class from cols 1039–1041, and I add only a second sighting, not a finding.
+
+**Two markers declined on the RULE, not on the fact:**
+- **`VERS. 2. — 2. —` @1030D**, the verse number set twice adjacently. It is a genuine Migne
+  dittography and it is patchable; **no `[d:]` is owed in the English.** Pattern 9 exempts section
+  labels, and §5 of the band brief declined `PSLMUS` on exactly this ground — normalizing is right
+  *because* the facing Latin will preserve the misprint once the patch lands.
+- **`Cass.)` with no opening parenthesis @1029D.** Note contents are checked against the twin, so
+  the English cannot move; and a `(` that never inked is a copy-condition question, not a reading.
+
+**One patch declined for the same reason a marker would be:** **`ostios[u|n]s` @1037A.** The
+intrusive `s` is certain at 1200 dpi; the penultimate letter will not settle as `u` or `n`, and the
+same-line controls (`non`, `quod`) give one of each. Per the `Nafrubimus` @0962B precedent, **a patch
+must not guess a letter.** Left open, needs a second copy.
+
+---
+
+## §6 · THE RULED AXES, measured over my own five chunks
+
+| axis | count in my Latin | what I did |
+|---|---|---|
+| `usque ad` | **61 occurrences** (62 raw hits, one of them inside `utriusque` @1035B) | **61 formula, 0 non-formula.** Every one follows an `etc.` and names the resumption point, so §A7's splice test passes them all. **All 61 → "as far as"; zero "down to"**, and the English count reconciles per chunk (15 / 20 / 11 / 11 / 4), the 0084 pair being the anchor-split `*as far [1033A] as*`. |
+| `gentes` family | 20 (`gentes` 8, `gentium` 7, `gentibus` 3, `gentilem` 1, `Gentiles` 1) | **Gentiles** where the contrast is with the Jews (`populus gentium` @1029B, `regnat in gentibus` @1034B, `Ecclesiam gentilem` @1034C, `simulacra gentium` @1035D–1036A, `Idumeae gentes` @1028C); **nations** where the reference is the whole world without that contrast (`Judicabit in nationibus` @1031B, `per omnes gentes` in Lk 24:47 @1030D, `Laudate Dominum, omnes gentes` @1039A/B). Decided per site, as the axis intends. |
+| `mysterium` / `sacramentum` | mysterium 1, sacramentum **0** | `Haec tanta mysteria` @1027C → "these mysteries". 1:1 preserved trivially. |
+| `daemonium` / `diabolus` | daemonium **0**, diabolus 5 | **devil** ×5, no bleed. |
+| `turba` / `multitudo` | **0 / 0** | ⚑ The instrument was checked, not just run: this is a Psalter and the Gospel crowds are simply absent — exactly Band A's finding, not evidence of drift. |
+| `Canticum graduum` / `gradus` | **0 / 0** | ⭐ **The gradual psalms are NOT in this stint's range.** My span is Psalms CVI–CXVI; `Canticum graduum` begins at Ps CXIX, which falls in chunks 0087+. The ruling ("A canticle of degrees" / "degree") is untouched by this range and **remains untested against a plate by me.** The stints holding 0087–0096 own it. |
+| `In finem` | 1 (@1028C, `*In finem, Psalmus.*`) | → **"*Unto the end, a psalm.*"** Not "for the choirmaster." |
+| `Diapsalma` | **0** | not engaged in this range |
+| `Psalmus David` / `Psalmus ipsi David` | `Psalmus David` 1 (@1030C), `ipsi David` 0 | → "*A psalm of David.*", kept distinct from 0076's "*A psalm for David himself.*" |
+| `Dominus virtutum` / `sedes` | **0 / 0** | not engaged |
+| `gens` singular, non-ethnic | **0** | not engaged; nothing to flag for Wilson |
+| archaisms | 0 `saith`, 0 `doth`, 0 `-eth` outside quoted scripture | checked against BOTH memberships (italic lemmata and « guillemets »); this range carries no guillemets at all |
+| em-dashes | **0** | none written |
+
+---
+
+## §7 · CRUCES — rendered literally, difficulty named
+
+1. **@1029A `quod est bonum pro malo quod est Deus judex facit`** (plate; CC smooths it to `quod et
+   Deus judex facit`). Two finite verbs, no conjunction. Rendered on the reading that the second
+   `quod est` is the explanatory formula: "which is good for evil, which is, God the judge does."
+   **The strain is Migne's and CC erased it**; the English follows the plate and says so here.
+2. **@1029B `*Viduae,* amisso regno`** — the Clementine has `vidua`. Rendered "*Widows,*", the
+   printed plural, rather than repairing it to agree with `Uxor, id est plebs` two words earlier.
+   No marker: the plate was read and prints `*Viduæ*,`, so it is Migne's, and a concord mismatch
+   with no English exponent takes no marker (Pattern 9, `res aliena` @0971D).
+3. **@1029B `*Mendicent*, regibus gentium`** (plate; CC inserts `sub`). Rendered as a bare dative,
+   "of the kings of the Gentiles," rather than "under," which is what CC's preposition would give.
+4. **@1029C `quia cum essent rami naturales, facti sunt`** — `facti sunt` has no complement. Rendered
+   "because, though they were natural branches, so they became," with nothing supplied.
+5. **@1029D `Nullis enim operum etc.`** — a genitive with no governing noun. Rendered "For by no
+   works, etc.", the ellipsis carried.
+6. **@1030B `Una est maledictio malorum Deus, cum benedicit, facit quod dicit`** — `Deus` stands
+   between two clauses and belongs to neither cleanly. Rendered as printed: "One is the cursing of
+   the wicked; God, when he blesses, does what he says." **The plate was read and reads exactly
+   this**; no repair, no marker.
+7. **@1033C `Vel, si quis mala minatur, non timet, sed paratum`** — an accusative where a nominative
+   is wanted. Rendered "but is ready," and named here.
+8. **@1038A `sed virtus Dei est, si non credit`** — obscure, and the twin and the plate agree.
+   Rendered as printed: "but it is the power of God, if he does not believe." Not conjectured.
+9. **@1038C `Vel ut ancilla, non sibi, sed Domino`** — the verb is elided and is supplied from the
+   following clause (`parturiam`): "as a handmaid brings forth not for herself, but for her lord."
+   **The supplied word is the sentence's own, three words later, and nothing else is added.**
+
+### Copulas and pronouns supplied, each one named
+- **@1030A `*Manus tua haec.*`** → "*This is thy hand.*" The copula is supplied because an English
+  clause cannot stand without a verb; nothing else is added, and the gloss's own next words
+  (`Christus haec manus`) confirm the predication.
+- **@1030A `viderunt pendere in cruce`** → "they saw **him** hanging on the cross." The object is
+  elided in the Latin; the referent is Christ and is not in doubt in the sentence.
+- **@1030A `*Moverunt capita.*`** → "*They moved their heads.*" English requires a possessive with a
+  plural body-part; ⚑ the Clementine's `capita **sua**` would be "their own," and that is precisely
+  the word I have NOT imported.
+
+### ⛔ Stumps rendered SHORT — the fourteen-site failure profile of Band B, checked by name
+Migne prints these lemmata clipped, and the English is clipped with them. **No possessive, subject
+or object has been completed from the Vulgate at any of them:**
+
+`*Et deduxit.*` → "*And he led.*" (not "led **them**") · `*Esurientem.*` → "*Him that is hungry.*"
+(no "soul") · `*Deus laudem.*` @1028D → "*O God, praise.*" (not "**my** praise") · `*Mala adversus
+animam.*` @1029D → "*Evils against the soul.*" (not "**my** soul") · `*Quia egenus et pauper.*`
+@1029D → "*Because needy and poor.*" (no "I am") · `*Dominus Domino.*` @1030C → "*The Lord to the
+Lord.*" (⭐ **not "to MY Lord"** — Ps 109:1 prints `Domino meo` and Migne does not) · `*Virgam
+virtutis.*` @1030D → "*The rod of power.*" (not "**thy** power") · `*Virtutem operum.*` @1032B →
+"*The power of the works.*" (not "**his** works") · `*Fidelia omnia mandata.*` @1032C → "*All the
+commandments are faithful.*" (not "**his** commandments") · `*In mandatis.*` @1033A → "*In the
+commandments.*" · `*Super filios.*` @1036B → "*Upon the children.*" (not "**your** children") ·
+`*Ubi est Deus.*` @1035D → "*Where is God.*" (not "**their** God") · `*De morte oculos.*` @1037B →
+"*From death, the eyes.*" (not "**mine** eyes" — this is the exact shape of Band B's
+*Anticipaverunt vigilias*) · `*Filius ancillae.*` @1038C → "*The son of the handmaid.*" (not "**thy**
+handmaid") · `*Dies pauci.*` @1029A → "*Few days.*" · `*Filii orphani:*` @1029B → "*Children
+fatherless:*" · `*Et non sit illi,*` @1029B → "*And let there not be for him,*"
+
+⚑ **`*Transferatur,*` @1029B** was the hardest of them: a third-singular passive subjunctive with no
+subject. Rendered "*Let it be transferred,*" — neutral — rather than "let **him** be removed," which
+would invent a person the gloss (`ut in captivitate factum est`) does not name.
+
+### Negation scope — where Latin marks it once and English must mark it twice
+- **@1029D `qui dicunt non esse ex Patre, vel minorem Patre`** → "who say **that he is not** of the
+  Father, **or that he is** less than the Father." The `non` governs the first limb only; English
+  apposition would have carried it into the second and made the gloss say the opposite about the
+  Arian charge. Marked twice deliberately.
+- **@1033B `et credunt promittenti, non credunt perisse opera sua`** → "and who **believe** him when
+  he promises, and who **believe not** that their works have perished." Two verbs, opposite polarity,
+  three words apart. Both marked.
+- **@1035C/1036A `inania simulacra probat`** — note that Migne writes `probat` here and `reprobat`
+  eight lines above at 1034D. Both are his; both rendered as printed ("proves the idols empty" /
+  "reproves the empty idols").
+
+### A word order that is Migne's, not a slip
+**@1035A `*Vidit mare,*` and @1035B `*Mare vidit.*`** — Migne sets the same clause in both orders,
+four lines apart, and glosses each. `mare` is neuter, so both are "the sea saw," and **both are
+rendered identically**. Recorded because the natural instinct is to differentiate them, and there is
+nothing there to differentiate.
+
+---
+
+## §8 · HANDOFF
+
+1. **The patch pass owes ten English edits**, each one named with its file and its site in the §3
+   table and in `data/briefs/8967-PENDING-TEI-PATCHES.md`. ⛔ **Reconcile reported sites against
+   applied ones**: seven of Band B's 28 blind-read findings were patch-pass omissions, and two of
+   those were patches a stint reported and nobody built.
+2. **Wilson owes a ruling on the 1029B class** — what the English does when the plate DROPS a
+   negative and no marker class reaches the omission. The site is open and the English currently
+   carries the negative.
+3. **Col 1037 is clipped** and joins the known-clipped list. One site in it (`ostios[u|n]s`) needs a
+   second copy; it is the only Gallica-class site this range produced, and it is a sixth alongside
+   the five standing work-wide.
+4. **The gradual-psalm ruling is still untested against a plate.** It is not engaged anywhere in
+   1025C–1039B. Chunks 0087+ own it; the tituli columns from 1051 onward are where it must be
+   checked.
+5. **For the blind polarity read**, the four places in this range where a reader should look hardest,
+   because they read perfectly in English and rest on a judgement: the supplied copula at 1030A
+   (`*Manus tua haec.*`), the supplied object at 1030A (`viderunt pendere`), the supplied possessive
+   at 1030A (`*Moverunt capita.*` → "their heads"), and the declared repair at 1029B (the restored
+   `non`). ⚑ **Logging them is not checking them** — each is recorded with WHAT was checked, not
+   merely that it was looked at.
+
+
+## §I.0087 — file `cruces-0087.md`, verbatim
+
+# Cruces — 8967 *Glossa ordinaria*, **Liber Psalmorum**, chunks 0087–0091
+### Band C, stint 3 · cols 1039B–1050B · Psalms CXVII–CXXX · 4,683 Latin words
+
+---
+
+## §0 · SPAN COUNT RECONCILIATION — the brief is CORRECT, and I counted it myself
+
+| chunk | italic spans in my Latin |
+|---|---|
+| 0087 | 64 |
+| 0088 | 68 |
+| 0089 | 55 |
+| 0090 | 59 |
+| 0091 | 31 |
+| **total** | **277** |
+
+**Brief total: 277. Mine: 277. They agree exactly.** I also checked the ends: the brief's first
+entry for my range is `[1039B] *Alleluia.*` and my Latin's first span is `*Alleluia.*`; its last is
+`[1050B] VERS. 3.-- *Speret Israel.*` and my last span is `*Speret Israel.*`. **The split is sound.**
+
+English span counts run 67 / 68 / 57 / 60 / 33 — the excess over the Latin is exactly the italic
+inside the six `[var:]` and one `[cj:]` markers (3 / 0 / 2 / 1 / 2), which are English-only and are
+stripped from the ratio count. Anchors: 10 / 11 / 9 / 10 / 4, verbatim and in order. Notes:
+35 / 40 / 41 / 40 / 15 in both twins. (`noteCount` in the frontmatter is one lower in every chunk —
+the known false positive, not reported.)
+
+---
+
+## §1 · ⭐⭐ WHAT THE PLATE SHOWS AT THE PSALM CXVIII EDITORIAL SENTENCE
+
+**Read at col 1041D, PDF p. 526, at 200 dpi full-page and 600 dpi crops.** ⚑ **Col 1041 is CLIPPED at
+the inner margin** — roughly four to six characters per line — and it is **not on the known-clipped
+list**, so this stint adds it. The sentence therefore reaches us with the first word of each line
+lost. Here is the leaf, transcribed exactly as it stands, `[ ]` marking what the margin has taken:
+
+> **PSALMUS CXVIII.**
+> *[Exp]ositionem hujus psalmi, ut valde prolixam,*
+> *[omitti]mus. Vide Ambrosii, Cassiodori, Augustini Enar-*
+> *[ration]es in psalmos, **et** quibus ad verbum expressa est*
+> *[glossa] ordinaria in hunc locum.*
+
+**What the plate settles, point by point, because these were the questions:**
+
+1. **Migne sets the head `PSALMUS CXVIII.` in roman capitals, exactly as every other head**, and the
+   sentence beneath it in **ITALIC, the whole paragraph, with no roman word in it.** Our TEI has the
+   italic right.
+2. **Nothing stands before it and nothing stands after it.** The line above is the last line of the
+   Ps CXVII gloss (`d, quod delectet, quam laus Dei.`); the line below is `PSALMUS CXIX.` There is
+   no rule, no bracket, no signature, no editorial siglum — and **no** exposition of any part of the
+   psalm anywhere on the leaf. **Our transcription has dropped nothing.**
+3. ⛔ **ONE WORD DIVERGES, and it is the hinge of the sentence.** The plate reads **`et quibus`**;
+   our TEI reads `e quibus`. The words sit **mid-line, well clear of the clipped margin**, and the
+   glyph carries a plain crossed `t` with `est` at the end of the same line as control. ⭐ **And it
+   is confirmed by a second, independent witness**: `patrologiaecurs04migngoog_djvu.txt`, the OCR
+   layer of this same scan, reads `et  quibus` — a reading nobody could have got from our TEI.
+   CC has quietly repaired Migne's `et` into the construing `e`. Filed as Class 3.
+4. The three clipped openings are recoverable by the visible-structure rule (13a) and by sense:
+   `Expositionem`, `omittimus`, `Enarrationes`, `glossa`. **No marker is owed for a clipped opening
+   whose word the line-structure fixes.**
+
+**The English renders the plate**, and therefore renders `et`:
+
+> *The exposition of this psalm, as being exceedingly long, we omit. See the Enarrationes on the
+> psalms of Ambrose, Cassiodorus, Augustine, and from these the Glossa ordinaria on this place has
+> been expressed word for word.*
+
+⛔ **Nothing is supplied, summarised or glossed.** The English says what Migne says and stops. The
+longest psalm in the Psalter passes under a single sentence in the editor's own voice, and that is
+the edition's evidence.
+
+---
+
+## §2 · THE PLATE READS I DID — twelve columns, six pages, all recorded
+
+`data/plate-reads.json` held **1043–1048** for my range and nothing else. **I opened all twelve**,
+corner numbers first, at 200 dpi full-page with 600–900 dpi crops on every disputed glyph.
+
+| page | cols | corner read | clipped? | depth |
+|---|---|---|---|---|
+| 525 | 1039 / 1040 | 1039, 1040 | **no** | full |
+| 526 | 1041 / 1042 | 1042 (1041's own corner is inside the clip) | ⚑ **1041 CLIPPED** | full |
+| 527 | 1043 / 1044 | 1043, 1044 | no | full |
+| 528 | 1045 / 1046 | 1046 | **1045 CLIPPED** (as the list has it) | full |
+| 529 | 1047 / 1048 | 1047, 1048 | no | full |
+| 530 | 1049 / 1050 | 1049, 1050 | no | full |
+
+⚑ **Col 1041 is a NEW clipped column** and it is 1041 ≡ 1 (mod 4) — which proves nothing, and I am
+recording it *because* the mod-4 rule has been refuted twice. Its neighbours 1039, 1043, 1047 and
+1049 are all ≡ 3 or 1 (mod 4) in the same gathering and all clean; **1049 is ≡ 1 (mod 4) and is
+CLEAN.** Two clipped columns out of twelve, adjacent-ish and unpredictable. **Open every column.**
+
+### 2a. ⭐ What the gradual-psalm tituli look like at Migne's own plate — the ruling was untested and
+### it holds
+
+Nobody had read a `Canticum graduum` at the plate before this stint. **Every titulus in my range is
+now read.** What the leaf shows:
+
+- **`Canticum graduum` is set in ITALIC at every one of the eleven tituli** in cols 1041D–1050A
+  (Pss CXIX, CXX, CXXI, CXXII, CXXV, CXXVII, CXXVIII, CXXIX, CXXX, plus the second and third
+  occurrences inside the Ps CXIX gloss). Our TEI has the italic right everywhere.
+- ⭐ **At Ps CXXVI (1046D) Migne prints `Canticum graduum Salomonis.`** — read at 600 dpi, italic,
+  and the gloss immediately expounds the added word (`Hic additur *Salomonis,* quia is aedificavit
+  templum`). Rendered "*A canticle of degrees of Solomon.*"
+- ⭐⭐ **At Ps CXXIV (1045B) Migne prints `Canticum.` ALONE — not `Canticum graduum`.** This is the
+  one titulus in the band that breaks the series, and it is Migne's, not our TEI's: the plate is
+  clipped at that column but the word `Canticum.` and the `(CASS.)` after it stand clear of the
+  margin. **The stump is rendered as printed — "*A canticle.*" — and NOT completed to "of degrees"**
+  from the eleven neighbours. That is the §F8 supplied-completion failure in its purest available
+  form, and refusing it here is the point.
+- **The numbered series is Migne's own and it is unbroken across my range**: `Sextus gradus`
+  (1045B) · `Septimus gradus` (1046A) · `Octavus, gradus` (1046D, with the stray comma) ·
+  `Nonus gradus` (1048A) · `Decimus gradus` (1048C) · `Undecimus gradus` (1049B) ·
+  `Duodecimus gradus` (1049D) — plus `Primus gradus` and `Secundus gradus` at 1042A/1042D. **Any
+  rendering of `gradus` but "degree" breaks a series the gloss is counting out loud.** 14
+  `Canticum graduum` + 12 `gradus` + 2 `gradibus` in my Latin; all rendered "degree(s)".
+
+---
+
+## §3 · MARKERS FIRED — seven, every one on a column I opened today
+
+`plate-gate` OK; `verify-english` clean.
+
+| col | chunk | marker | why |
+|---|---|---|---|
+| 1039D | 0087 | `[cj: *revelando*; read *relevando*, "by raising up"]` | see 3a |
+| 1040C | 0087 | `[var: Vulg. *per me si quis introierit, salvabitur*]` | Jn 10:9; Migne prints *per quod … salvus erit* |
+| 1044D | 0089 | `[var: Vulg. *occide*, "kill"]` | Acts 10:13; Migne prints *Macta* |
+| 1046B | 0089 | `[var: Vulg. Mc 7:15 …; Migne's wording is that of Mt 15:11]` | see 3b |
+| 1047C | 0090 | `[var: Vulg. *Fuerunt mihi lacrimae meae panes*]` | Ps 41:4; Migne prints *Factae sunt* |
+| 1049C | 0091 | `[var: Vulg. Prov. 18:3 *impius … peccatorum*]` | Migne prints *Peccator … vitiorum* |
+| 1050A | 0091 | `[var: Vulg. Sir. 3:20 *Quanto magnus es*]` | Migne prints *Quanto major es* |
+
+**Every marker sits on the word it accuses** — checked one by one against §F8's misplaced-`[sic:]`
+finding. There is **no `[sic:]` and no `[d:]` in this stint**, and that is not a claim about Migne:
+see §4.
+
+### 3a. ⭐ The one `[cj:]`, and why it is fireable when six of its siblings are not
+At **1039D** the plate and our twin BOTH read `vel, a casu revelando`. Ten lines below, at **1040A**,
+Migne writes the same clause again — `ostendit etiam quod liberat a casu **relevando**` — and prints
+it correctly. **Both are on page 525 and I read both at 600 dpi.** *Revelando* is a real word, and
+"by revealing from the fall" is a faithful English that misleads; that is Pattern 18 exactly. The
+marker fires because **the twin carries the printed word**, which is the whole difference between
+this site and the six unlockable ones in §4.
+
+### 3b. The Mark 7 `[var:]` is doing two jobs, and says so
+Migne prints `Quod procedit de ore, inquinat` under `(Marc. VII)`. It agrees with **neither** Mark
+7:15 (*quae de homine procedunt, illa communicant hominem*) nor, verbatim, Matthew 15:11 — but the
+wording is Matthew's, not Mark's. The marker names both facts because **the gloss's very next
+sentence turns on the printed noun**: *Non de ore carnis, sed cordis.* Substituting Mark's *de
+homine* would delete the word the exposition exists to qualify.
+
+---
+
+## §4 · ⛔ WHY THERE IS NO `[sic:]` IN THIS STINT — and it is not because Migne is clean
+
+**Migne is not clean in these columns. He is defective at seven sites I can prove**, and **not one
+of the seven is fireable**, because a `[sic:]` may wrap only type our twin carries and CC has
+already repaired every one of them. This is §F2's lesson recurring in a fresh band, so I am stating
+the count rather than letting the marker table imply a clean plate:
+
+| col | plate prints | our twin | marker unlocked by the patch |
+|---|---|---|---|
+| 1039C | `ete.,` | `etc.,` | `[sic: *ete.*]` |
+| 1039C | `et et ad veram vitam` | `et ad` | `[d: et, et]` |
+| 1040A | `spinis pecatorum` | `peccatorum` | `[sic: *pecatorum*]` |
+| 1043C | `et eum Domino judicabunt` | `cum` | `[cj: *eum*; read *cum*]` |
+| 1043C | `in quibus Deum sedet` | `Deus` | `[cj: *Deum*; read *Deus*]` |
+| 1044A | `in hoc hoc quod te diligo` | `in hoc quod` | `[d: hoc, hoc]` |
+| 1044B | `Dat similttudinem` | `similitudinem` | `[sic: *similttudinem*]` |
+| 1047C | `Quasi dieeret :` | `diceret` | `[sic: *dieeret*]` |
+| 1048B | `sancti veniens` | `venient` | `[cj: *veniens*; read *venient*]` |
+
+**Nine, not seven** — and the marker count for my range is therefore `[var:] 6 · [cj:] 1` **before**
+the patch pass and `[var:] 6 · [sic:] 4 · [d:] 2 · [cj:] 4` **after** it. ⛔ **Do not quote the first
+pair as a fact about this Psalter.**
+
+⚑ **Each of the four unlockable `[cj:]` sites carries an English obligation, and I have written it
+into the patch file rather than trusting the merge to notice.** The English at 1043C, 1043C, 1048B
+currently renders the TWIN's reading ("shall judge **with** the Lord", "in whom **God** sits", "the
+saints **shall come**"). When the Latin is restored, an English left as it stands **silently repairs
+a broken column** — §F8's defect number 4, verbatim. The marker and the rendering are one decision.
+
+---
+
+## §5 · THE DEFECT CANDIDATES I DECLINED — the instrument, not the leftovers
+
+**Sixteen candidates raised; nine survived (§4), seven declined.** Every one below read as a
+confident finding before the leaf was opened.
+
+1. ⛔ **`Aventus Domini` @1046C — the most important rejection in the stint.** Our TEI carries the
+   non-word `Aventus`, sitting at the head of a gloss, with `Adventus` obvious. I had it written
+   down as `[sic: *Aventus*]`. **The plate prints `Adventus`, cleanly, at 600 dpi.** CC manufactured
+   the defect. Firing it would have been a false public accusation at a word Migne set correctly —
+   §F8's `[sic: *Eccesiam*]` failure in a new costume.
+2. ⛔ **`PSAMUS CXXIV.` @1045B** — our TEI's head is a non-word, and the temptation to mark it is
+   strong because it is so visible. **The plate prints `PSALMUS CXXIV.`** It is CC's. And even had
+   it been Migne's, **Pattern 9 forbids the marker**: a section label is normalized in English
+   *because* the facing Latin preserves the misprint (the `PSLMUS` precedent, declined in Band B).
+   English reads `PSALM CXXIV.`; the head field in the frontmatter is copied verbatim, misprint and
+   all, because frontmatter is copied and not corrected.
+3. ⛔ **`VESS. 4.` @1043A** — the mirror case, and it went the other way: **Migne really does print
+   `VESS.`** for `VERS.`, and our TEI has silently corrected him. Still **no marker**: same Pattern 9
+   ruling, same reason. Patch, no `[sic:]`. ⚑ Recording both directions together is the point —
+   *neither "trust the text" nor "suspect the transcriber" is a rule.*
+4. ⛔ **The unmatched `(` at 1050A.** Our TEI reads `Nutritus in lacte (quod est Verbum caro factum`
+   with no closing parenthesis anywhere in the sentence — a textbook "Migne lost a bracket". **The
+   plate has no parenthesis at all.** CC inserted it, exactly as it inserted one at 0936D. The
+   English is written without one.
+5. ⛔ **`quorum uterque in tabernaculis legitur habitasse` @1042D** — `uterque` after a sentence
+   naming Ismael, Agar and Sara looked like a numeral defect. It is not: the antecedent is the pair
+   Agar/Sara that the preceding clause contrasts. Read as printed, no marker.
+6. ⛔ **`Non gentes, quia non omnes credunt` @1046B** — flagged as a possibly dropped word (`Non
+   [omnes] gentes`). Migne prints exactly this, and the following clause *supplies* the sense he
+   left implicit. **Supplying it in the English would pre-empt his own next words.** Rendered
+   "Not the Gentiles, because not all believe."
+7. ⛔ **`(Matth. XVIII)` @1047D for *Excutite pulverem de pedibus vestris*, which is Mt 10:14.**
+   Migne's citation is wrong. **No `[var:]`**: Pattern 14 marks divergent *scripture text*, and the
+   quoted words agree with Mt 10:14 verbatim. A wrong locus is Migne's, is left standing, and — per
+   the 0971A precedent — would need a `citation-corrections.json` entry, not a marker, if it were
+   ever repaired. Same ruling for `(Isa. XXI)` at 1045C, which points at Is 2:2.
+
+### 5a. ⛔ WITHHELD, NOT DECLINED — two real divergences the clipped column will not let me fire
+At **1045C** Migne quotes Isaias twice, and both quotations diverge from the Vulgate:
+`Et erit in ea murus, et antemurale` against Is 26:1 *salvator ponetur in ea murus et antemurale*,
+and `Erit in novissimis diebus mons in vertice` against Is 2:2 *praeparatus mons domus Domini in
+vertice montium*. **Both open on a clipped line** — the plate line begins `ea murus, et antemurale`
+and `vertice (Isa. XXI), etc.` — so `Et erit in` and `mons in`, the exact words that carry the
+divergence, are in the lost margin. **The markers are withheld and logged for a second copy
+(Gallica, f528), not fired and not quietly dropped.** A withheld marker leaves no artifact unless
+somebody writes it down; this is the writing down.
+
+---
+
+## §6 · THE DIVERGENCE LIST — every scripture quotation in the range, the clean ones included
+
+### 6a. Divergent, marker FIRED (6) — listed in §3.
+
+### 6b. Divergent, marker DECLINED, with the reason
+- **`Qui dederit calicem aquae frigidae, non perdet mercedem` @1046D** (Mt 10:42 *quicumque potum
+  dederit uni ex minimis istis calicem aquae frigidae … non perdet mercedem suam*). Declined:
+  it stands **inside an `usque ad` splice**, so the shortening is Migne's own abridgment formula
+  doing its work, not a divergent text.
+- **`quia superbis resistit, humilibus dat gratiam` @1050B** (Jas 4:6 / 1 Pt 5:5, *Deus superbis
+  resistit, humilibus autem dat gratiam*). Declined: subject and `autem` dropped by abridgment,
+  inside a splice; the sense is untouched.
+- **`Quaesivi bona tibi propter domum Domini Dei nostri` @1044A** (Ps 121:9, same words in the other
+  order). Declined: Migne inverts the clause **in order to exhibit it as the exposition of the
+  preceding verse**, which is precisely what the surrounding gloss says he is doing.
+- **`Quid tibi detur, aut quid apponatur?` @1042B** (Ps 119:3 *Quid detur tibi, aut quid apponatur
+  tibi*). Declined: Migne re-quotes his own lemma with the pronoun fronted, four words after
+  printing it in the Vulgate order as the lemma proper. The gloss's point is the two verbs.
+- **`longe a me fecerunt injustitiam suam` @1048D.** Not a divergence at all: **Migne labels it
+  `Alias`**, his own variant-reading siglum.
+- **`A Domino factum est ei` @1040D.** Same: labelled `secundum aliam litteram`.
+- **`Ingressus confitebor` @1040B** (Ps 117:19 *ingressus in eas confitebor Domino*). Declined: it is
+  a **stump**, not a divergence — and rendered as a stump, "*Having entered I will confess.*"
+
+### 6c. Collated and found to AGREE with the Clementine — the checked negatives
+`Nemo venit ad Patrem, nisi per me` (Jn 14:6) · `postula a me, et dabo tibi gentes haereditatem
+tuam` (Ps 2:8) · `Excutite pulverem de pedibus vestris` (Mt 10:14, the *text* clean, the *locus*
+wrong) · `Beati qui lugent` (Mt 5:5) · `extrema gaudii luctus occupat` (Prov 14:13) · `Benedictio
+Domini super vos. Benediximus vobis in nomine` (Ps 128:8) · `Fiant sicut fenum tectorum` (Ps 128:6)
+· `Et ipse redimet Israel ex omnibus iniquitatibus ejus` (Ps 129:8) · `Quia apud te propitiatio est`
+(Ps 129:4) · `Domine, libera animam meam a labiis iniquis` (Ps 119:2, abridged, no divergence) ·
+`Aquam intolerabilem` (Ps 123:5) · `cum exsultatione portantes manipulos suos` (Ps 125:6) ·
+`Beati omnes qui timent Dominum` (Ps 127:1) · `Ecce dimidium` (Lk 19:8) · `Speret Israel in Domino`
+(Ps 129:6) · `Sicut ablactatus est` (Ps 130:2) · `Neque ambulavi` (Ps 130:1) · `Ecce sicut oculi`
+(Ps 122:2) · `Montes in circuitu` (Ps 124:2) · `Pax super Israel` (Ps 124:5).
+
+### 6d. The verse numbering was checked, not assumed
+Every `VERS. n.--` in my range was resolved against the Clementine's own versification for the psalm
+named in the head. **All agree; no psalm number in my range needs converting, and none was.** Migne
+skips verses he does not gloss (Ps CXVII runs 14 → 17 → 18; Ps CXXIV runs 3 → 4 → 5 with no 6) —
+**that is non-glossing, not misnumbering**, the same pattern the 0847A read found in Psalm II.
+
+---
+
+## §7 · THE RULED AXES — what my range actually did with each
+
+| axis | my range |
+|---|---|
+| **`Canticum graduum` → "A canticle of degrees"** | **14 occurrences, 14 so rendered, zero rivals.** Plus one bare `Canticum.` @1045B rendered as the stump. |
+| **`gradus`/`gradibus` → "degree"** | **14 occurrences, 14 so rendered.** The ordinal series *Sextus … Duodecimus* is unbroken in the English. |
+| **`usque ad`** | **50 occurrences. 48 formula, 2 not** — and the two are the same phrase, `usque ad fines terrae`, twice at 1047D, neither preceded by an `etc.`; both rendered by sense, "unto the ends of the earth". The §A7 test decided every one of the 50 mechanically; italic membership would have mis-called both non-formula cases, since both sit **outside** the italic. |
+| `gentes` family | **10 occurrences**: `gentes` 5, `gentium` 4, adjectival `gentile` 1. Rendered **Gentiles 7 · Gentile (adj., `mancipium gentile` @1042A) 1 · nations 2**. The two "nations" are the sites where the word is not opposed to the Jews but simply means the peoples of the earth — Ps 117:10 `Omnes gentes` and the Mt 25:32 judgment scene @1045D; everywhere else the Jews are the named other half (`de duobus parietibus Judaeorum et gentium`) and "Gentiles" is the only rendering that keeps the antithesis. Decided per site, as the axis intends. **No singular `gens` in a non-ethnic metaphor occurs in my range**, so §A5's named exception is not engaged. |
+| `mysterium`/`sacramentum` | **mystery 0 · sacrament 1** (`sacramentum corporis et sanguinis` @1041B). No bleed. |
+| `daemonium`/`diabolus` | **demon 0 · devil 4** (`diabolus` ×4, no `daemonium` in the range). |
+| `turba`/`multitudo` | **zero occurrences of either.** The instrument was checked, not assumed: these are gradual psalms, and the Gospel crowds are simply absent — as they were in Bands A and B. |
+| `Diapsalma` | **zero occurrences.** Not engaged. |
+| `In finem` | **zero occurrences** — the gradual psalms carry `Canticum graduum` in that slot. Not engaged. |
+| `Psalmus David` / `Psalmus ipsi David` | **zero occurrences.** Not engaged. |
+| `Dominus virtutum` | **zero occurrences.** Not engaged. |
+| **`sedes` → "seat"** | **one occurrence**, the lemma `*Sedes.*` @1043C (Ps 121:5), rendered "*Seats.*" — plural, because the Vulgate's `sederunt sedes in judicio` is plural and the gloss expounds it as `justi`. **Not "thrones"**, per §A5. |
+| **archaism** | Both memberships checked, not italics alone. 12 `-eth` forms, **all inside italic lemmata** (`keepeth` ×4, `cometh`, `contemneth`, `proceedeth`, `defileth`, `resisteth`, `giveth`, `soweth`, `taketh`); **zero in gloss voice.** ⚑ **The check earned its keep**: a thirteenth, "he that **cometh** in his own name" @1041A, stood in Migne's ROMAN type — an echo of Jn 5:43 that the plate does not mark as quotation — and was changed to "comes". No `« »` guillemets occur anywhere in my range, so the second membership is not engaged. |
+| **em-dashes** | **zero across all five chunks.** |
+
+---
+
+## §8 · CRUCES — passages rendered literally, with the difficulty named
+
+1. ⭐ **`Nesciente Judae rem omnium fecerunt` @1039D–1040A.** Our twin reads `Nescientes Judaei`, a
+   clean plural subject for `fecerunt`. **The plate reads `Nesciente Judae`** — two letters changed
+   in two words, unambiguous at 900 dpi. It is an ablative absolute leaving `fecerunt` with an
+   implicit subject, which is harder Latin but not impossible Latin. Rendered from the plate:
+   "**Judah not knowing, they made God, by his passion, the concern of all**". ⚑ I record this
+   because the twin's reading is the *easier* one and the temptation to prefer it is exactly what
+   §A6 exists to forbid.
+2. **`unde non: Quod procedit de ore, inquinat` @1046B.** The `non` governs a quotation that follows
+   it and is not itself negated — Augustine is denying that the *mouth of the flesh* is meant, and
+   his next words say so (`Non de ore carnis, sed cordis`). **The negative is carried in the English
+   at the place Migne prints it** ("whence not:"), not smoothed into the quotation and not dropped.
+   This is the one negation in my range that a fluent English would silently lose.
+3. **`Heu mihi` @1042C and `Hei mihi` @1042B, 1042C.** Migne prints both spellings of one
+   interjection, one as the lemma and two in the gloss. **Both are rendered "Woe is me."** Forcing a
+   distinction in English would *invent* one: the spellings are orthographic and the gloss treats
+   them as the same cry. Recorded rather than marked.
+4. **`Labores manuum.` @1048A against `Labores manuum tuarum.` @1048A.** ⭐ Migne prints the head
+   lemma SHORT and the second lemma FULL, and **the gloss between them exists to point at exactly
+   that difference** (*a pluribus coepit … sed quia omnes unum sunt in Christo singulariter,
+   sequitur*). Rendered "*The labours of the hands*" and "*The labours of thy hands*" respectively.
+   **Completing the first from the Vulgate would have deleted the observation it introduces** — the
+   0965B `Oculi mei` case, recurring.
+5. **`Domine, non est.` @1050A** (Ps 130:1, *Domine, non est exaltatum cor meum*). Rendered as the
+   stump, "*Lord, it is not.*" — awkward English, and deliberately so.
+6. **`sed quia et labore cum gaudio sumuntur propter spem` @1048A.** The plate's `labore` (ablative
+   singular) leaves `sumuntur` without an expressed subject, which must be carried over from the
+   lemma `Labores`. Rendered "they are taken up with joy even in the labour"; our twin's `labores`
+   would give the smoother "the labours too are taken up with joy". **The plate governs and the
+   strain is recorded** rather than repaired.
+7. **`sic revelabit Deus quod aliter sapit` @1050B.** Phil 3:15 is behind it (*si quid aliter
+   sapitis, et hoc vobis Deus revelabit*), but Migne prints no `vobis` and no `hoc`. Rendered
+   "so shall God reveal that wherein he is otherwise minded" — third person, as printed.
+8. **`Speret vigilia matutina, qui non aliud a Deo quam immortalitatem speret` @1049D.** `vigilia
+   matutina` is read as ablative of time with the masculine `qui` as subject: "Let him hope in the
+   morning watch, who hopes for nothing else from God than immortality." A nominative reading ("let
+   the morning watch hope") is grammatically open and would **reassign the subject**, which is the
+   §F8 class with no grep signature; the ablative is preferred because `A custodia matutina` is the
+   lemma two lines below and is unambiguously a time phrase. Both readings recorded.
+9. **`ne quis tamen putet iniquitatem juxta justitiam` @1048D.** Rendered "lest any suppose iniquity
+   to stand beside justice." `juxta` is spatial here and the whole gloss is about distance
+   (`longe est a me`); "according to" would collapse the figure.
+
+---
+
+## §9 · SECTIONS READ CLEAN, and what I checked in them
+
+⚑ **A logged column is not a checked column**, so this names the check, not the looking.
+
+- **1042A–1042D (Ps CXIX, the first gradual psalm).** Collated word by word against the plate:
+  agrees at every word. Checked specifically: the `Deut. XII` citation (Migne's; Dt 21:12 is the
+  locus, left standing), the `Cedar`/`Agar`/`Sara` genealogy for a reassigned antecedent, and the
+  Mt 13:26 quotation for 7a″ conformation.
+- **1043A–1043B (Ps CXX).** Checked for dropped negation: `Neque dormitet` · `Ecce non dormitabit` ·
+  `sol non uret te, neque luna` · `nihil nocebit` — **five negatives, five carried.**
+- **1049A–1049B (Ps CXXVIII, close).** Checked the four `Et non dixerunt` lemmata against each other
+  and against Ps 128:8: all four identical in Latin, all four rendered identically in English, and
+  none completed from the Vulgate's `benedictio Domini super vos`.
+- **1050A–1050B (Ps CXXX, my last column).** Checked every subject in the `Exaltavi, ut haeretici`
+  sentence, a chain of five verbs with the subject carried across a relative and a `cum` clause;
+  the antecedent stays "the heretics" throughout in the English.
+
+---
+
+## §10 · HANDOFF
+
+1. ⛔ **Nine markers stand unlocked behind the patch pass** (§4), and **four of them carry an English
+   edit that must land in the same commit**. Both are itemised, site by site, in
+   `data/briefs/8967-PENDING-TEI-PATCHES.md` under `BAND C — stint 0087–0091`.
+2. ⚑ **Col 1041 is a newly found clipped column** and belongs on the known-clipped list beside
+   841, 849, 893, 897, 1045. **1049 is ≡ 1 (mod 4) and is clean** — a thirteenth counter-example.
+3. **Two Gallica sites added, both on one leaf (f528, col 1045C)**: the Is 26:1 and Is 2:2
+   quotations, whose divergent opening words are in the clipped margin. That brings the work-wide
+   open list to seven.
+4. **The Psalm CXVIII sentence needs one editorial decision that is not mine**: whether the
+   `[glossa]`, `[Exp]`, `[omitti]`, `[ration]` recovered from the clipped margin should carry an
+   `[ed:]` in the English. I have not marked them — the line-structure fixes each word beyond doubt
+   (13a) — but this is the single most quotable line in the work and Wilson may want the margin's
+   condition visible. **Flagged, not decided.**
+5. ⚑ **`et quibus` @1041D will look like a defect to the next reader** and should not be "fixed"
+   twice: it is Migne's, confirmed by the plate and independently by the scan's own OCR layer, and
+   the English already renders it.
+
+
+## §I.0092 — file `cruces-0092.md`, verbatim
+
+# Cruces — 8967 *Glossa ordinaria*, **Liber Psalmorum**, chunks 0092–0096
+### Band C, stint 4 · cols 1050B–1061C · Psalms CXXXI–CXXXVIII · 4,932 Latin words
+
+---
+
+## §0 · SPAN COUNT RECONCILIATION — the brief is CORRECT, and I counted it myself
+
+| chunk | italic spans in my Latin |
+|---|---|
+| 0092 | 88 |
+| 0093 | 55 |
+| 0094 | 72 |
+| 0095 | 29 |
+| 0096 | 85 |
+| **total** | **329** |
+
+**Brief total: 329. Mine: 329. They agree exactly.** The ends were checked too: the brief's first
+entry for my range is `[1050B] VERS. 1.-- *Canticum graduum.*` and my Latin's first span is
+`*Canticum graduum.*`; its last is `[1061C] *Proba me et scito.*` and my last span is
+`*Proba me et scito.*` **The split is sound at both ends.**
+
+English span counts equal the Latin's **exactly**, 88 / 55 / 72 / 29 / 85, once the italic inside the
+eleven English-only markers is stripped. Anchors 11 / 7 / 10 / 4 / 10, verbatim and in the same order
+(checked by list equality, not by count). Notes 32 / 22 / 38 / 11 / 26 in both twins. Question marks
+1 / 0 / 4 / 0 / 7, matching. Ratio 1.50 / 1.49 / 1.48 / 1.45 / 1.48.
+
+⚑ **Two span-membership errors were found by this check and repaired before filing**, which is
+exactly what it is for: at 1059D I had split Migne's single span
+*Spiritus enim Domini replet omnia. Quo a facie tua fugiam?* into two, and at 1060D I had split
+*scientia tua ex me, nec poteram ad eam;* into two. A count alone would not have located them; the
+per-paragraph comparison did. **`verify-english` sees neither.**
+
+---
+
+## §1 · MARKERS FIRED — eleven, every one on a column I opened today
+
+`plate-gate` reports every one of them ✓ on a `full` read; `verify-english` is clean on all five
+chunks (the only failures in the run are the eight chunks other stints have not yet filed).
+
+| col | chunk | marker | why |
+|---|---|---|---|
+| 1050C | 0092 | `[var: Vulg. Is 66:2 …]` | Migne prints *Super quem requiescet Spiritus meus, nisi super humilem et quietum* where Is 66:2 reads *ad quem autem respiciam, nisi ad pauperculum, et contritum spiritu*. Only the closing *et trementem sermones meos* agrees. See §5a. |
+| 1050D | 0092 | **`[sic: *Sumnum*]`** | Ps 131:4 *somnum*. **Read at 900 dpi: Migne sets `Sumnum` and our twin carries it.** See §2a. |
+| 1054B | 0093 | `[var: Vulg. Ps 134:7 *fulgura in pluviam fecit*]` | Migne prints *Fulgura et pluviam*, and **the gloss is built on the `et`**: *Fulgur terrorem, pluvia gaudium facit* treats them as two coordinate gifts, which *in pluviam* would not license. |
+| 1055A | 0093 | `[var: Vulg. Ps 134:14 *et in servis suis deprecabitur*]` | Migne prints *consolabitur*, a different verb and a different act, and the gloss expounds it (*cum praemia aeterna restituet*). |
+| 1056D | 0094 | `[var: Vulg. Mt 6:26 …]` | Migne prints *quae neque serunt neque congregant* for *quoniam non serunt, neque metunt, neque congregant* — a lost clause and a changed conjunction. |
+| 1059B | 0096 | **`[sic: *egestare*]`** | *egestate confectus* is wanted; **the plate prints `egestare` and so does our twin.** See §2a. |
+| 1059C | 0096 | `[var: Vulg. Ps 138:4 *quia non est sermo in lingua mea*]` | Migne prints *dolus* for *sermo* — guile for speech, a different claim, and the lemma the gloss then glosses. |
+| 1059D | 0096 | `[var: Vulg. Wisd. 1:7 *Spiritus Domini replevit orbem terrarum*]` | Migne prints *Spiritus enim Domini replet omnia*; the proof-text is adduced precisely for *omnia*, which the Clementine's *orbem terrarum* narrows. |
+| 1060C | 0096 | `[var: Vulg. Ps 138:11 *et nox illuminatio mea in deliciis meis*]` | Migne prints *nox facta est illuminatio* — the possessive is gone and a passive is added; the gloss's own preceding words are *nox mihi facta est illuminatio*. |
+| 1060D | 0096 | `[var: Vulg. Ps 138:14 *anima mea cognoscit nimis*]` | Migne prints the future *cognoscet*, **and the gloss immediately contradicts it** with *Jam cognoscit anima mea valde*. The marker is what makes that visible. |
+| 1061C | 0096 | `[var: Vulg. Mt 7:23 …; the opening words are those of Mt 25:12]` | Migne prints *Amen dico vobis, non novi vos, discedite a me* — Mt 25:12's opening welded to Mt 7:23's close, and *non novi* matches neither (*nescio* / *numquam novi*). The marker does two jobs and says so. |
+
+**Every marker sits on the word it accuses** — checked one by one against §F8's misplaced-`[sic:]`
+finding, by reading the English clause with the marker deleted.
+
+⛔ **7a⁗ was applied to both `[sic:]`.** `[sic: *Sumnum*]` follows the rendered lemma (*Sleep*
+[sic: *Sumnum*]), so the clause keeps its noun; `[sic: *egestare*]` follows "worn out with want", so
+the clause keeps its participle and its sense. **Neither marker swallows a verb, a negative or a
+conjunction.**
+
+---
+
+## §2 · ⛔ WHY THERE ARE ONLY TWO `[sic:]` — and it is NOT a claim that Migne is clean
+
+**Migne is defective at fourteen further sites in these twelve columns, and not one of them is
+fireable**, because a `[sic:]` may wrap only type our twin carries and Corpus Corporum has already
+repaired every one. This is §F2's lesson recurring for the third band running, so I state the number
+rather than letting the marker table imply a clean plate.
+
+| col | plate prints | our twin | marker unlocked by the patch |
+|---|---|---|---|
+| 1052C | `cxaltaxit` | `exaltavit` | `[sic: *exaltaxit*]` |
+| 1053B | `iu latitudine` | `in` | `[sic: *iu*]` |
+| 1055C | `totius orbi` | `orbis` | `[cj: *orbi*; read *orbis*]` |
+| 1058C | `ubi dici quomodo` | `dicit` | `[cj: *dici*; read *dicit*]` |
+| 1058D | `poena, noc tantum culpa` | `non` | `[sic: *noc*]` |
+| 1059A | `In finem psalmus Ddvid.` | `David` | `[sic: *Ddvid*]` |
+| 1059B | `Semitam meum,` | `meam` | **none owed** (concord, no English exponent) |
+| 1059C | `justificaui` | `justificati` | class undecided — see below |
+| 1059C | `pecatum` | `peccatum` | `[sic: *pecatum*]` |
+| 1059C | `incomprehensibllis` | `incomprehensibilis` | `[sic: *incomprehensibllis*]` |
+| 1059D | `Quo ibo spiritu tuo?` | `a spiritu` | class undecided — see below |
+| 1059D | `fungiendum` | `fugiendum` | `[sic: *fungiendum*]` |
+| 1060A | `in est efficaciam` | `id est` | `[cj: *in*; read *id*]` |
+| 1060B | `Et dixit forsitan` ×2 | `Et dixi,` | class undecided — see below |
+
+**So the honest marker count for my range is `[var:] 9 · [sic:] 2` before the patch pass and
+`[var:] 9 · [sic:] 7 · [cj:] 3` after it, plus up to three more.** ⛔ Do not quote the first pair as
+a fact about this Psalter.
+
+⚑ **Six of these carry an English obligation, and I have itemised each one, site by site, in
+`data/briefs/8967-PENDING-TEI-PATCHES.md`** rather than trusting the merge to notice — the §F8
+defect number 4. Two of them are **7a⁗ sites where the negative must be written outside the marker**
+(1058D `noc` for *non*, 1059D `fungiendum` for *fugiendum*); one (1058C `dici`) requires the English
+clause to be rebuilt, because "where he tells how" is our repair of a broken verb; one (1060B
+`dixit`) flips the person of a lemma against the gloss's own next word.
+
+### 2a. The two that DID fire, and why they could
+
+Both are sites where **the plate and our twin agree on the defective type**, which is the whole
+difference between them and the fourteen above.
+
+- **`Sumnum` @1050D.** Read at 900 dpi: `S-u-m-n-u-m`, italic, in the VERS. 4 lemma. Ps 131:4 is
+  *Si dedero somnum oculis meis*, and the gloss five lines below prints `somnus venit ad oculos`
+  correctly **twice** in the B band of col 1051 — **the same-clause control, on the facing column of
+  the same opening.** Our twin carries `Sumnum`. Fired.
+- **`egestare` @1059B.** *dixerat egestare confectus* wants the ablative *egestate*; `egestare` is a
+  non-word. Read at 900 dpi, unambiguous, and our twin carries it. Fired.
+
+---
+
+## §3 · THE PLATE READS I DID — twelve columns, seven pages, all recorded
+
+`data/plate-reads.json` held **nothing at all** for cols 1051–1061 when I began; page 530 had been
+read by the 0087–0091 stint and I re-read it for cols 1050B–D. **I opened every column in my range**,
+corner numbers first, at 400 dpi in three vertical slices per column, with 900 dpi crops on every
+disputed glyph.
+
+| page | cols | corner read | margin | depth |
+|---|---|---|---|---|
+| 530 | 1049 / **1050** | 1049, 1050 | **clean** | full (re-read for 1050B–D) |
+| 531 | **1051 / 1052** | 1051, 1052 | **clean** | full |
+| 532 | **1053 / 1054** | 1053, 1054 | **clean** | full |
+| 533 | **1055 / 1056** | 1055, 1056 | **clean** | full |
+| 534 | **1057 / 1058** | 1057, 1058 | **clean** | full |
+| 535 | **1059 / 1060** | 1059, 1060 | **clean** | full |
+| 536 | **1061 / 1062** | 1061, 1062 | **clean** | full |
+
+⭐ **All twelve of my columns are CLEAN at the inner margin** — verified by cropping each page from
+x = 280 px at 400 dpi (≈ 8 % in) and confirming white margin to the left of every line-opening
+character. **No marker in my range rests in a clipped margin, and nothing is owed to Gallica.**
+The known-clipped list (841, 849, 893, 897, 1041, 1045) gains nothing from this run; 1053, 1057 and
+1061 are all ≡ 1 (mod 4) and all three are clean, which is a fourteenth, fifteenth and sixteenth
+counter-example to the withdrawn congruence rule.
+
+⚑ **Page 536 also covers col 1062**, which is not mine; reading it incidentally licensed two markers
+in the 0097–0101 stint's chunk 0097, and `plate-gate` now shows them ✓. Its `[sic: *quae dam*]` at
+**1063D** is still unread and is the only gate failure in the work.
+
+⚑ **No foot-of-page conjecture apparatus, in either layer, on any of the seven pages.** Full page
+width was rendered each time, not a bottom strip.
+
+### 3a. ⭐ The tituli at the plate — the Band C rulings hold, and two are newly evidenced
+
+- **`Canticum graduum` is ITALIC at every one of the five tituli in my range** (1050B, 1052D, 1053A,
+  and the two inside the glosses), and the numbered series continues unbroken in Migne's own voice:
+  **`In tredecimo gradu` (1050B) · `Quartus decimus gradus` (1052D) · `Quintus decimus gradus`
+  (1053B)**, picking up exactly where the 0087–0091 stint's `Duodecimus gradus` @1049D left off.
+  **Any rendering of `gradus` but "degree" breaks a series the gloss is counting out loud.** 5
+  `Canticum graduum` + 4 `gradus`/`gradu` in my Latin; all rendered "degree(s)".
+  ⚑ At **Ps CXXXII (1052D)** Migne prints `Canticum graduum` where the Clementine titulus reads
+  *Canticum graduum **David***. **The stump is rendered as printed** — the 1045B `Canticum.`
+  precedent, and no completion from the Vulgate.
+- ⭐ **`Psalmus David` and `Psalmus ipsi David` both stand in my range, four columns apart, and I
+  read both**: `Psalmus David.` at the Ps CXXXVI titulus (1056D) and `Psalmus ipsi David.` at the
+  Ps CXXXVII titulus (1058A). **Migne sets both forms**, as 1010A already showed; they are rendered
+  "*A psalm of David*" and "*A psalm to David himself*" and are not levelled.
+- ⭐ **`In finem` occurs twice in my range and both are at the plate** — the Ps CXXXVIII titulus
+  `In finem psalmus Ddvid.` (1059A) and its re-quotation. Rendered **"Unto the end"**, per §A1.1.
+  This is the first `In finem` in Band C; the gradual psalms carried `Canticum graduum` in that slot.
+
+---
+
+## §4 · CC-vs-PLATE DEPARTURES — 31 over 12 columns (2.6/col), all filed as patches, none marked
+
+Full itemisation in `data/briefs/8967-PENDING-TEI-PATCHES.md` under **`BAND C — stint 0092–0096`**,
+with the column written in the file's own convention. **2.6 per column is above the ~1.5 budget and
+above the 1.8 the previous stint measured.** All three directions occur, and the two that matter
+most for the reader are these:
+
+- ⭐⭐ **1056B `facit` → `fecit`.** Migne prints the **present**: *quae in Aegypto facit et gente
+  Judaeorum sub figura nostri* — what God **does** in Egypt, as a figure of us now. CC's perfect
+  turns a live typology into past history, and **no Vulgate collation could ever see it**, because
+  the words are the gloss's own.
+- ⭐⭐ **1059A `principes` → `princeps`.** Migne prints the **plural**: *in quo principes mundi
+  peccatum non invenit*. CC's singular makes it the devil; the plural makes it the rulers who killed
+  him, which is what *quare occideret* requires. A number change with no orthographic cover.
+
+Two more are worth naming because they are the *reverse* direction — **a non-word in OUR file that
+Migne does not print**:
+- **1057C `Ideumaei`** (ours) against **`Idumaei`** (the plate). This is the `Aventus` @1046C case
+  exactly, and I had it written down as a `[sic:]` candidate before I opened the leaf.
+- **1059B `occurit`** (ours, one `r`) against **`occurrit`** (the plate). Same class, same stint.
+- **1051B** our TEI's unmatched `(CASS.` against the plate's closed, one-`s` **`(CAS.)`** — the third
+  sighting of CC editing a parenthesis, after 0936D and 1050A.
+
+⛔ **And the strongest Class-4 site in the work so far: at 1055B Migne prints `VERS. —` with NO VERSE
+NUMBER.** Our TEI supplies `VERS. 18.--`. The supplement is *correct* (Ps 134:18 is the verse) and
+completely silent. Pattern 9 governs, so no marker is owed and the English keeps the address; but a
+reader collating our Latin against the plate would find nothing to tell him the number is ours.
+
+---
+
+## §5 · THE DIVERGENCE LIST — every scripture quotation in the range, the clean ones included
+
+### 5a. Divergent, marker FIRED (9) — listed in §1, with the reason each is material.
+The Is 66:2 site deserves its own line: Migne's *Super quem requiescet Spiritus meus* imports the
+verb and the subject of **Is 11:2** (*requiescet super eum spiritus Domini*) into the frame of
+Is 66:2, and the gloss then argues from *requiescet* — the resting — which the Clementine's
+*respiciam* does not contain at all.
+
+### 5b. Divergent, marker DECLINED, with the reason
+- **`Sicut juravit et votum vovit.` @1050C** (Ps 131:2 *sicut juravit Domino ; votum vovit Deo
+  Jacob*). Declined: Migne splices two clauses with `et` and drops both datives — an abridgment of
+  the kind the whole recension is made of, not a divergent text. **Rendered as the splice stands.**
+- **`Cornu David, paravi lucernam Christo.` @1052C** (Ps 131:17 *Illuc producam cornu David; paravi
+  lucernam christo meo*). Declined: same class — a lemma cut at both ends.
+- **`Usque in saeculum saeculi,` @1052B** — Migne quotes Ps 131:12's *usque in saeculum* with
+  131:14's *in saeculum saeculi*. Declined: the gloss is recapitulating two verses it has already
+  quoted separately, and says so (*et hoc*).
+- **`Canticum graduum` @1052D** for Ps 132:1's *Canticum graduum David*. Declined: a titulus stump.
+- **`Omnia in sapientia fecisti, Deus.` @1055D** (Ps 103:24, without the vocative). Declined: an
+  added vocative with no work to do in the argument.
+- **`Multiplicabo semen tuum sicut stellas coeli et sicut arenam maris.` @1061A.** Declined, and the
+  reason is a rule I applied consistently: **the wording is a conflation of two verbatim-attested
+  loci** — Gn 22:17 *multiplicabo semen tuum sicut stellas caeli* and Gn 32:12 *sicut arenam maris*
+  — so there is no single locus it diverges *from*. Compare the Mt 7:23/25:12 site, which I DID
+  mark, because there *non novi vos* matches neither donor verse.
+- **`Proba me, Domine.` @1061C** against Ps 138:23 *Proba me, Deus, et scito cor meum*. Declined:
+  the printed words are **Ps 25:2 verbatim**, and Migne's second lemma four words later restores the
+  Ps 138 form (*Proba me et scito*). A cross-echo, not a corruption.
+- **`Beati qui lugent, vae ridentibus.` @1058D** (Mt 5:5 + Lc 6:25 *Vae vobis, qui ridetis nunc*).
+  Declined: a two-clause allusion inside one italic span, abridged by Migne, with no cited locus.
+- **`Dum recordaremur,` @1057A** for Ps 136:1's *cum recordaremur*. Declined: a conjunction swap
+  with no English exponent and no effect on the gloss.
+- **`Sicut tenebrae ejus, ita et lumen,` @1060C** for *ita et lumen **ejus***. Declined: a stump.
+- **`nec poteram ad eam;` @1060D** for Ps 138:6's *et non potero ad eam*. ⭐ Declined **deliberately**:
+  the gloss has just said *ante erat mira* and goes on *sed modo possum*, so the past tense is the
+  gloss's own re-voicing of the verse, not a variant text. This is the site where a `[var:]` would
+  have been easiest to fire and most wrong.
+- **`Per diem errabunt.` @1061A** and **`Confortata est … invaluit` @1059D** and **`Posuisti …
+  Gravasti` @1059C** and **`Et funiculum … limitem` @1059B** — all four are labelled `(Alias)` by
+  **Migne's own variant siglum**. No marker; rendered "(Otherwise)".
+
+### 5c. Collated and found to AGREE with the Clementine — the checked negatives
+Ps 131: `Memento, Domine, David et omnis` (stump) · `Si introiero in tabernaculum domus meae` ·
+`Et palpebris meis dormitationem` · `Et requiem temporibus meis` · `Ecce audivimus` · `eam in
+Ephrata` · `in campis sylvae` (*silvae*, orthographic) · `Introibimus` · `Surge` · `Sacerdotes` ·
+`Propter David servum` · `Juravit Dominus David` · `Et non frustrabitur` · `De fructu ventris tui` ·
+`Si custodierint testamentum` · `Sedebunt super sedem tuam` · `Haec requies mea` · `Viduam` ·
+`Panibus` · `Sacerdotes ejus` · `Induam salutari` · `Exsultatione exsultabunt` · `Induam confusione`.
+Ps 132: `Ecce quam bonum` · `Habitare in unum` · `Sicut unguentum` · `Barbam` · `Aaron` · `In oram` ·
+`Sicut ros` · `Hermon`. Ps 133: `Canticum graduum` · `Ecce` · `servi Domini` · `Statis` ·
+`In domo Domini` · `In atriis domus Dei nostri` · `Extollite manus vestras` · `in sancta` ·
+`Benedicat te Dominus` · `ex Sion`. Ps 134: `Laudate, servi` · `Laudate Dominum` · `Psallite nomini
+ejus` · `Jacob` · `Israel in possessionem` · `Omnia quaecunque` · `Qui producit ventos de thesauris
+suis` · `Qui percussit primogenita` · `Ab extremo` · `Ab homine usque ad pecus` · `Reges fortes` ·
+`Sehon regem Amorrhaeorum` · `Chanaan` · `Et dedit terram eorum haereditatem` · `Haereditatem
+Israel` · `In generationem et generationem` · `Quia judicabit` · `Simulacra` · `Os habent et non
+loquentur` · `Similes illis fiant` · `Domus Israel benedicite` · `Domus Aaron benedicite` ·
+`Benedictus Dominus`. Ps 135: `Confitemini Domino` · `Confitemini Deo deorum` · `Confitemini Domino
+dominorum` · `Qui facit mirabilia` · `Mirabilia magna solus` · `Qui fecit coelos` · `Coelos in
+intellectu` · `Terram super aquas` · `super aquas` · `Qui fecit luminaria magna` · `Lunam et stellas
+in potestatem noctis` · `Qui percussit Aegyptum` · `Cum primogenitis eorum` · `In manu potenti` ·
+`Divisit mare Rubrum in divisiones` · `Et excussit Pharaonem` · `Israel servo suo` · `Dat escam` ·
+`Omni carni`. Also `Ego dixi, Dii estis et filii Excelsi` (Ps 81:6) and `in medio autem deos
+dijudicat` (Ps 81:1), both exact. Ps 136: `Super flumina` · `In salicibus` · `Quia illic
+interrogaverunt nos` · `Verba cantionum` · `Quomodo cantabimus` · `Si oblitus fuero` · `Dextera
+mea` · `Adhaereat` · `Lingua mea` · `Memor esto` · `in die` · `Filiorum Edom` · `Filia Babylonis
+misera` · `Exinanite` · `Filia` · `Beatus qui tenebit`. Ps 137: `Confitebor tibi, Domine` ·
+`In conspectu` · `angelorum` · `Psallam tibi` · `Super misericordia` · `Universae viae Domini
+misericordia et veritas` (= **Ps 24:10**, exact, and correctly used to gloss Ps 137:2) · `Super omne
+nomen sanctum tuum` · `In anima` · `virtutem` · `Confiteantur tibi, Domine` · `Omnia verba oris
+tui` · `audierunt omnia verba` · `Magna est gloria` · `Quoniam excelsus Dominus` · `Humilia
+respicit` · `Alta a longe cognoscit` · `Si ambulavero in medio tribulationis` · `Super iram` ·
+`Dextera tua` · `Retribuet`. Ps 138: `Domine, probasti me` · `Intellexisti` · `De longe` ·
+`Semitam meam` · `Et funiculum` · `Et omnes vias meas` · `Novissima` · `Antiqua` · `Formasti me` ·
+`Posuisti` · `Mirabilis` · `Facta est scientia` · `Ex me` · `Confortata est` · `Et non potero` ·
+`Quo a facie tua fugiam` · `Si ascendero in coelum, tu illic es` · `Si descendero` · `Ad infernum` ·
+`Ades` · `Si sumpsero pennas` · `diluculo` · `Et habitavero in extremis` · `Etenim illuc manus tua` ·
+`Conculcaverunt me` · `Non obscurabuntur` · `et nox` · `Sicut dies` · `Quia tenebrae` · `Quia tu
+possedisti renes meos` · `Confitebor tibi` · `Non est occultatum os meum a te quod fecisti in
+occulto` · `Substantia mea in inferioribus terrae` · `Imperfectum meum viderunt oculi tui, et in
+libro tuo omnes` · `Dies formabuntur` · `Adhuc sum tecum` · `Si occideris, Deus, peccatores` ·
+`Nonne qui oderunt te, Domine` · `Proba me et scito`. Plus `Surgam et ibo ad patrem meum` (Lc 15:18,
+exact) and `Quasi tristes, semper autem gaudentes` (2 Cor 6:10, exact) and `mors ultra non
+dominabitur` (Rom 6:9, exact) and `Erat illis cor unum, et anima una` (Act 4:32, exact but for the
+supplied `illis`, which is Migne's own resumption of *Multitudinis autem credentium*).
+
+### 5d. The verse numbering was checked, not assumed
+Every `VERS. n.--` in my range was resolved against the Clementine's own versification for the psalm
+named in the head. **All agree; no psalm number in my range needs converting, and none was.** Migne
+skips verses he does not gloss (Ps CXXXI runs 12 → 14; Ps CXXXIV runs 4 → 6 → 7 → 8 → 10 → 11;
+Ps CXXXV runs 7 → 9 → 10 → 12 → 13 → 15 → 21; Ps CXXXVII runs 5 → 7 → 8; Ps CXXXVIII runs 1 → 3 and
+16 → 18 → 19 → 21) — **that is non-glossing, not misnumbering.** ⚑ The one genuine anomaly is at
+1055B, where Migne prints **no verse number at all** (§4); the number in our Latin is CC's.
+
+---
+
+## §6 · THE CANDIDATES I REJECTED — the instrument, not the leftovers
+
+**Twenty-three defect candidates were raised; fourteen survived as unlockable (§2), two fired, and
+seven were withdrawn at the leaf.** Every one below read as a confident finding before the plate
+was opened at 900 dpi.
+
+1. ⛔ **`Ideumaei` @1057C — the most important rejection in the stint.** A non-word in our TEI,
+   sitting in a proper name, with `Idumaei` obvious. I had it written down as `[sic: *Ideumaei*]`.
+   **The plate prints `Idumaei`.** CC manufactured it. Firing would have been a false public
+   accusation against Migne at a word he set correctly.
+2. ⛔ **`occurit` @1059B** — one `r` in our TEI, in *ut filio minori redeunti occurit pater*. **The
+   plate prints `occurrit`.** Ours. Declined and patched.
+3. ⛔ **The unmatched `(` at 1051B.** Our TEI reads `(CASS. Secunda pars` with no closing bracket
+   anywhere in the sentence — a textbook "Migne lost a bracket". **The plate closes it, and prints
+   the siglum with one `s`: `(CAS.)`.** CC's, twice over.
+4. ⛔ **`uterigat` @1059C.** The plate looks fused (`ut erigat` set as one run), which under Pattern
+   10 would be a `[sic:]` swallowing a whole verb. **Declined**: the neighbouring words on the same
+   line carry the same narrow inter-word space, so this is the leaf's setting, not a fusion. The
+   9004 @0897C rule cuts both ways and here the leaf does not support the claim.
+5. ⛔ **`cxaltaxit` @1052C — a split decision, and the split is the point.** The initial glyph is an
+   open `c` against a clean crossed `e` in `etc.,` one line above, so the crossbar has not inked —
+   **ink damage, this copy's condition, not restorable.** But the seventh glyph is an unmistakable
+   `x` where *exaltavit* wants `v`, and **a crossing stroke cannot be produced by ink failing to
+   reach the paper.** So the site is reported as `exaltaxit`, with the lost crossbar named, and the
+   `c` is not carried into the patch.
+6. ⛔ **`amein` @1060A, `id es` @1056A, `Benedietus` @1055C** — a broken `m`, an uninked `t`, a broken
+   `c`. All three are the copy's condition. Declined and recorded so a later reader does not file
+   them.
+7. ⛔ **`justificaui` @1059C — the reading is certain, the correction is not, and I did not guess.**
+   The disputed glyph is a bottom-arched `u` against the tall crossed `t` of *gratia* on the same
+   line, so `justificaui` is what Migne set. Whether he meant *justificavi* (u for v, which he sets
+   nowhere else on these leaves) or a broken *justificati* cannot be decided from the leaf. **The
+   reading is patched; the marker class is left to the pass.** *A patch must not guess a letter any
+   more than a marker may.*
+
+---
+
+## §7 · THE RULED AXES — what my range actually did with each
+
+| axis | my range |
+|---|---|
+| **`Canticum graduum` → "A canticle of degrees"** | **5 occurrences, 5 so rendered, zero rivals.** All five read at the plate and all five italic there. |
+| **`gradus` → "degree"** | **4 occurrences** (`gradu`, `gradus` ×3), all "degree". The ordinal series *In tredecimo … Quartus decimus … Quintus decimus* is unbroken in the English and continues the 0087–0091 stint's count. |
+| **`usque ad`** | **54 occurrences. 52 formula, 2 not**, decided mechanically by the `etc.` splice test. The two non-formula sites are both in 0093 and both **inside italic**, which is the mirror of the previous stint's pair (both of theirs fell outside it) — a second demonstration that italic membership fails in both directions: `quae extenditur usque ad inimicos` @1053B ("extends even to enemies") and the Ps 134:8 lemma `*Ab homine usque ad pecus*` @1054C ("from man even to beast"). Neither is preceded by an `etc.` ⚑ **Three bare `usque` besides**, none of them the formula: `*Si introiero* usque *donec inveniam locum Domino*` @1050D (a splice, but without `ad`; rendered "as far as" because it does the formula's work) · `subditos usque concordiae utilitas pervenit` @1053A (postpositive, "even to them that are subject") · the lemma `*Usque in saeculum saeculi*` @1052B. And three look-alikes that are different words: `quousque` @1059B, `hucusque` @1061A and @1061C. |
+| `gentes` family | **8 occurrences**, rendered **Gentiles 3 · nations 3 · nation 2**, decided per site. The three "Gentiles" are the sites where the Jews are the named other half (*propter fidem gentium* @1051C, *a Judaeis … ad gentes* @1052A, *Israel et gentium* @1056D). The three "nations" are generic (*Caeteras gentes sub angelis* @1054A, *gentes Israel* @1054D, *ad omnes gentes missa* @1058C). The two singular `gente` are both *gente Judaeorum* @1055C/1056B → "the nation of the Jews", which is the axis's own settled treatment of a singular `gens` of the Jewish people. **No singular `gens` in a non-ethnic metaphor occurs**, so §A5's named exception is not engaged. |
+| `mysterium`/`sacramentum` | **mystery 1 · sacrament 0** (`profunditate mysteriorum` @1059A). No bleed. |
+| `daemonium`/`diabolus` | **demon 2 · devil 4 · Satan 0**: `daemones` @1054D → "the demons"; `Diabolum`/`diabolus` ×3 @1056C and `Diabolus` @1057B → "the devil". No `daemonium` in the range; no bleed either way. |
+| `turba`/`multitudo` | **zero occurrences of either.** The instrument was checked, not assumed: these are psalms of ascent and of exile, and the Gospel crowds are absent, as they were in Bands A and B and in the previous stint. |
+| `Diapsalma` | **zero occurrences.** Not engaged. |
+| **`In finem` → "Unto the end"** | **2 occurrences, both at the Ps CXXXVIII titulus** (the head lemma and its re-quotation), both read at the plate, both so rendered. Zero rivals. |
+| **`Psalmus David` / `Psalmus ipsi David`** | **Both occur and both are read at the plate**: `Psalmus David.` @1056D → "*A psalm of David*", `Psalmus ipsi David.` @1058A → "*A psalm to David himself*". Kept distinct. |
+| `Dominus virtutum` | **zero occurrences.** Not engaged. |
+| **`sedes` → "seat"** | **one occurrence**, `*Sedebunt super sedem tuam*` @1052B → "*They shall sit upon thy seat.*" **Not "throne."** (`sedere in domo domini` @1053B and `super puteum sedit` @1056A are the verb and are rendered "sit".) |
+| **archaism** | **Both memberships checked, not italics alone.** 11 `-eth`/`doth` forms in the running English, **every one inside an italic lemma** (*trembleth, bringeth, judgeth, doth, endureth, giveth, feedeth, looketh, knoweth, filleth*); **zero in gloss voice.** A twelfth, "my soul knoweth right well", stands inside a `[var:]` marker — it is my English of the Clementine's wording, i.e. quoted scripture inside the apparatus, and is licensed on the same ground. **No `« »` guillemets occur anywhere in my Latin**, so the second membership is not engaged in the other direction. |
+| **em-dashes** | **zero across all five chunks.** |
+
+---
+
+## §8 · CRUCES — passages rendered literally, with the difficulty named
+
+1. ⭐ **`Charitas saeculi` @1053B, the fifteenth degree.** The series has just given the fourteenth
+   as *Charitas quae facit fratres habitare in unum*, and the very next sentence says this psalm is
+   *de charitate Dei*. So "the charity of the world" sits oddly between them. **The plate prints
+   `saeculi` at 900 dpi and I have rendered it as printed.** Two readings are open — *saeculi* as
+   "of this present age" (charity exercised in the world, over against the cloister of the
+   fourteenth degree), or a defect for something like *coeli* — and **neither is a reading I can
+   license from this leaf.** Recorded, not repaired.
+2. ⭐ **`Non alia gratia sit qua diligitur Deus, et alia qua proximus.` @1053B.** Our twin reads the
+   construing `Non **quod** alia gratia sit`; **the plate has no `quod`.** Rendered from the plate as
+   a flat statement, "There is not one grace whereby God is loved, and another whereby the
+   neighbour", which keeps the negation exactly where Migne prints it. ⚑ This is §A6's licence used
+   in the direction it was written for, and the patch is filed.
+3. **`Os ab osse, non ab ore` @1060D.** An etymology of the Latin word, and Migne sets it in ROMAN,
+   not italic. Translating it destroys it; italicising it would break span parity. **The Latin words
+   are carried through as printed, in roman**, exactly as Pattern 7's non-word class prescribes for
+   type that cannot be Englished, and the reader has the facing column. *Os* is *bone*, not *mouth*;
+   that is the whole gloss, and it cannot be said in English without becoming the translator's.
+4. **`Invenit consilium, sed sic potero fugere iratum.` @1060A.** Migne prints no question mark, and
+   the sentence wants one: "He found a counsel, but thus shall I be able to flee from him angered."
+   **The mark is not supplied** (Pattern 8) and the strain is recorded here. The preceding clauses
+   are all first-person deliberation, so the shift to `Invenit` is Migne's too.
+5. **`et ubi et precatur qui exaltentur` @1051B.** A doubled `et` with a bare relative. Rendered
+   "and where he also prays that they may be exalted"; `qui` is read as the subject of *exaltentur*
+   with an unexpressed antecedent, the Jews of the next clause. **A second reading — `qui` for
+   `ut` — would be a Pattern 7 repair and is not taken.**
+6. **`Hoc in hominibus fecit propter poculum suum.` @1054C.** *poculum* ("his own cup") is confirmed
+   at the plate. Rendered literally, "for his own cup's sake." The image is unexplained by anything
+   in the surrounding gloss and I have not supplied an explanation.
+7. **`et in servis, id est, fidelibus, consolabitur` @1055A.** *consolabitur* is deponent and Migne
+   gives it no object. Rendered **"*he will comfort,*"** with no object supplied — "he will comfort
+   himself" and "he will be comforted" were both considered and both **supply** something the Latin
+   does not print, which is the §F8 class this band keeps meeting. The `[var:]` beside it names the
+   Clementine's *deprecabitur* so the reader can see what the substitution cost.
+8. **`Nonne qui oderunt te, Domine.` @1061C** (Ps 138:21, *…oderam*). ⛔ **Rendered as the stump —
+   "*Have not they that hate thee, O Lord.*"** — and NOT completed with "did I not hate them",
+   although the very next line prints the fuller form *Nonne qui oderunt te oderam?* and would make
+   the completion look obvious. **That is exactly why it is refused**: Migne prints the head lemma
+   short and then expounds it, the 0965B *Oculi mei* case.
+9. **`Memento, Domine, David et omnis.` @1050C** (Ps 131:1, *…omnis mansuetudinis ejus*). Same
+   ruling: rendered "*Remember, O Lord, David, and all.*" as printed. Likewise `*Ab extremo*`
+   @1054B, `*Terram super aquas*` @1056A, `*Dat escam*` @1056D, `*Dextera mea*` @1057B,
+   `*Cornu David*` @1052C — **six truncated lemmata rendered short.**
+10. **`quia quatenus agnoscit, eatenus ignoscit` @1060C.** The plate's third person is rendered
+    "in so far as **he** acknowledges, in so far he pardons" — the sinner acknowledges, God pardons,
+    two different unexpressed subjects in one clause. Our twin's `agnoscis` would have given "thou
+    acknowledgest", a second-person address with no other second person in the paragraph. **The
+    subject was named before it was supplied**, per the unexpressed-subject rule.
+11. **`quas Israel excolit conformando sibi` @1054D.** `quas` is feminine plural and its antecedent
+    is `gentes` two clauses back, across an intervening `quem pascunt`. Rendered "or which Israel
+    cultivates by conforming them to himself" — **the noun is not repeated in the English**, so the
+    antecedent stays where Migne left it.
+
+---
+
+## §9 · SECTIONS READ CLEAN, and what I checked in them
+
+⚑ **A logged column is not a checked column**, so this names the check, not the looking.
+
+- **1051A–1051D (Ps CXXXI, verses 4–9).** Collated word by word against the plate: agrees at every
+  word except the punctuation listed in the patch file. Checked specifically for negation —
+  *non amplius credatur mihi* · *Est qui non dormit* · *somnus non venit ad oculos* · *si sua non
+  quaerit* · *ne fiat locus Dei* · *ne Judaei sint penitus alieni* · *non audit Deus ad vitam
+  aeternam* · *ut jam non conturberis* · *mors ultra non dominabitur* — **nine negatives, nine
+  carried**, and none moved across a comma.
+- **1053C–1054A (Ps CXXXIII close and Ps CXXXIV opening).** Checked every unexpressed subject in
+  the `Benedicat` gloss, a chain of five verbs (*hortatur … benedicit … sint … sunt … convenit*)
+  whose subject changes from the psalmist to the many to the blessing; the English names each once
+  and does not carry one over.
+- **1057B–1057D (Ps CXXXVI, the Edom gloss).** Checked the *Esau / Jacob / major / minor* chain for
+  a reassigned subject — the elder is the carnal man and the younger the spiritual, and the English
+  keeps that order against the pull of *prius … postea*. Also checked *dum putant nocere mali,
+  coronas dant*: **`mali` is the nominative subject**, not a genitive with *nocere*, so the wicked
+  give the crowns; reading it the other way would reverse who does what.
+- **1058B–1058D (Ps CXXXVII).** Checked the two `Non sunt aliae viae` clauses for the §F8
+  apposition trap: the negative is marked **twice** in the English, once in each limb, because
+  English apposition does not inherit it across the comma.
+- **1060B–1060C (Ps CXXXVIII, the darkness gloss).** Checked *nox mihi facta est illuminatio* against
+  the lemma *nox facta est illuminatio* four lines below: **Migne prints the dative in the gloss and
+  not in the lemma**, and the English keeps that difference, which is what the `[var:]` at 1060C
+  exists to expose.
+- **1061B (the `Adhuc sum tecum` gloss).** Checked the three unexpressed subjects across
+  *agnoscunt / agnoverunt / reveletur*: the first two are the Jews, the third is Christ, and the
+  English says so without supplying a pronoun that could resolve to the wrong one.
+
+---
+
+## §10 · HANDOFF
+
+1. ⛔ **Fourteen markers stand unlocked behind the patch pass (§2), and six of them carry an English
+   edit that must land in the same commit.** Both are itemised site by site in
+   `data/briefs/8967-PENDING-TEI-PATCHES.md` under `BAND C — stint 0092–0096`. **Two are 7a⁗ sites**
+   where the negative has to be written outside the marker (1058D, 1059D); one (1058C `dici`)
+   requires the English clause to be rebuilt because the present rendering is our repair.
+2. ⚑ **Three sites need a RULING at the patch pass, not a mechanical application**: 1059C
+   `justificaui` (reading certain, correction not), 1059D `Quo ibo spiritu tuo?` (the patch makes
+   Migne's lemma contradict his own gloss, which may be right but should be chosen), and 1060B
+   `Et dixit` ×2 (third person against the gloss's first-person *Deliberavi*).
+3. **All twelve of my columns are CLEAN at the inner margin, and nothing is owed to Gallica from
+   this range.** The work-wide open list stands unchanged at seven.
+4. ⭐ **1055B is the first place in the work where Migne prints an address with NO VERSE NUMBER and
+   our TEI silently supplies one.** No marker is owed (Pattern 9), but a later collator will find
+   nothing in our Latin to tell him the `18` is ours until the patch lands.
+5. **The CC departure rate in these twelve columns is 2.6 per column**, up from 1.8 in cols
+   1039–1050 and ~1.4–1.5 in Bands A and B. If the next stints measure the same, the budget quoted
+   in the launch brief is low for Band C specifically and should be restated.
+6. ⚑ **Reading page 536 licensed two markers in chunk 0097** (1062B, 1062C) that were not mine.
+   `plate-gate` now fails on exactly one marker work-wide: **`[sic: *quae dam*]` @1063D in 0097**,
+   which needs page 537.
+
+
+## §I.0097 — file `cruces-0097.md`, verbatim
+
+# Cruces — 8967 *Glossa ordinaria*, **Liber Psalmorum**, chunks 0097–0101
+### Band C, stint 5 · cols 1061D–1071C · Psalms CXXXIX–CXLIV · 4,163 Latin words
+
+---
+
+## §0 · SPAN COUNT RECONCILIATION — 234 against 234, exact
+
+| chunk | `*` in the Latin body | spans |
+|---|---|---|
+| 0097 | 150 | 75 |
+| 0098 | 64 | 32 |
+| 0099 | 62 | 31 |
+| 0100 | 94 | 47 |
+| 0101 | 98 | 49 |
+| **total** | **468** | **234** |
+
+`data/briefs/8967-lemmata-0097.txt` declares **234** and carries **234** `[10xx]`-prefixed entries.
+**They agree exactly.** Ends checked as well: the brief's first entry is
+`[1061D] VERS. 1.-- *In finem Psalmus David.*` and my Latin's first span is
+`*In finem Psalmus David.*`; its last is `[1071C] VERS. 21.-- *Laudationem.*` and my last span is
+`*Laudationem.*` **The split is sound at both ends.**
+
+English spans, with the English-only markers stripped from the ratio count, are **75 / 32 / 31 /
+47 / 49** — 1:1 with the Latin in every chunk. Anchors **12 / 6 / 5 / 7 / 10**, verbatim and in
+order (each mid-sentence anchor placed at the word-break Migne prints it at, including the two
+inside italic spans, `*I have [1066D] meditated.*` and
+`*For thy name's sake, [1067B] O Lord…*`). Notes **37 / 16 / 16 / 22 / 37**, byte-identical to the
+Latin by `diff`. Question marks **1 / 1 / 1 / 1 / 1** in both twins. Heads **2 / 1 / 1 / 1 / 1**.
+`verify-english` reports no error on my five chunks (only the MISSING lines for 0102–0105, another
+stint's); `plate-gate` passes with all eight markers licensed. **Zero em-dashes** in the five files.
+
+---
+
+## §1 · ⭐⭐ THE PLATE — SIX LEAVES, ELEVEN COLUMNS, NONE OF THEM EVER OPENED, AND EVERY MARGIN CLEAN
+
+`raw/scans/pl113/patrologiaecurs04migngoog.pdf`, **PDF pp. 536–541 = cols 1061–1072**, map
+`(col+11)/2` re-verified against the printed corner numbers on **every** page (1061/1062,
+1063/1064, 1065/1066, 1067/1068, 1069/1070, 1071/1072). 300 dpi full page, then 900–1200 dpi crops
+on every disputed glyph. All six recorded in `data/plate-reads.json` as `depth: full`.
+
+⛔ **NOT ONE COLUMN IN 1061–1071 IS CLIPPED.** I looked at the inner margin of every leaf before
+reading a word of text: every line begins with a whole word in both columns of all six pages. That
+matters twice over. **(a)** No marker in my range had to be withheld for a second copy — nothing is
+added to the Gallica list. **(b)** It is eleven more counter-examples to the mod-4 rule, three of
+them (**1061, 1065, 1069**) ≡ 1 (mod 4) and all three clean; stint 0087 found 1041 clipped and
+**1041 is also ≡ 1 (mod 4)**, which is exactly why the congruence is worthless. **Open every column.**
+
+**Result: 24 departures over 11 collated columns, ~2.2 per column** — above Band A's 1.5, Band B's
+1.4 and stint 0077's 1.9. Full report appended to `data/briefs/8967-PENDING-TEI-PATCHES.md`.
+
+### The control named for every hard call
+- **`omnibns` @1071B** — `operibus`, two words later **on the same line**, sets a `u` whose arch is
+  at the bottom; the disputed sort's arch is cleanly at the top. **A turned sort, and per the launch
+  brief that is NOT in the imaging-hazard class.** An `n` cannot become a bottom-arched `u` by
+  failing to ink.
+- **`lingua` @1062A** (our TEI has the non-word `linqua`) — the descender closes into a lower loop.
+  A `q` in this face carries a straight descender; the `q` of `quae` on the line above supplies it.
+- **`Dixit Domino` @1061D** — ⭐ **the control is Migne himself**: he sets `Dixi Domino` correctly at
+  1062B and again at 1062B in the full lemma, twelve lines down the facing column.
+- **`Fortius … qui non vult` @1065B** — the control is the argument, not a glyph: **Migne's own next
+  clause is `Periit fuga concluso vel forti`**, a dative pair naming *Circumclusus* and *Fortis*.
+- **`bis actus` @1068B** — `acumine` opens the very next line and shows what `acu-` looks like.
+- **`eum ipsi sint` @1068D** — the disputed sort carries a closed crossbar; `macri` one line above
+  supplies an open `c`, and `veritate` on the same line supplies `e`.
+- **`veriteti` @1067D** — the same line prints `vanitati` twice over with unmistakable `a`.
+- **`simlis` @1067D** — `Vanitati` on the same line sets two dotted `i` where `simlis` sets none.
+- **`Frov.` @1071A** — the glyph has a **mid-arm**, which a `P` does not possess at all; and Migne
+  sets `(Prov. XXVII)` correctly at 1070A. Not a broken `P`.
+- **`VERS. 9.` for 6 @1062A** — the digit has a closed bowl **above** a descending tail; the `6` of
+  the running head `1061` on the same leaf has its bowl **below** an ascending stroke. ⭐ **And the
+  sequence itself is the second control: a real `VERS. 9.` stands three glosses further down the
+  same column**, so Migne prints the number twice.
+
+---
+
+## §2 · ⛔⛔ THIRTEEN MIGNE DEFECTS I CANNOT FIRE — and that is the headline, not the marker table
+
+`VERS. 9.` (for 6) · `Dixit` · `apponit` · `Fortius` · `simlis` · `veriteti` · `actus` · `laboro` ·
+`eum` · `corectio` · `fines` · `etc,,` · `omnibns` — **thirteen sites where Migne's type is
+defective and our twin has already been repaired**, so a `[sic:]` or `[cj:]` on any of them is
+rejected by the content check, and firing one anyway would accuse Migne at a word the facing column
+shows him setting correctly.
+
+**My fired marker count is 7 `[var:]` + 1 `[sic:]`, 0 `[cj:]`, 0 `[d:]`, 0 `[ed:]` — and it will be
+7 `[var:]` · 5 `[sic:]` · 6 `[cj:]` after the patch pass.** ⛔ **Do not quote the first pair as a
+fact about this Psalter.** It is §F2's lesson recurring for the third time in Band C.
+
+⚑ **Seven of the thirteen carry an English edit that must land in the same commit**, because the
+English currently renders the TWIN at those sites (see §3). Each is itemised in the patch file with
+the exact edit, rather than left for the merge to notice — §F8's defect number 4, verbatim.
+
+---
+
+## §3 · THE RULE I APPLIED WHERE PLATE AND TWIN DISAGREE — and it is stint 0077's, not a new one
+
+§A6 says the English renders the plate where the leaf has been read. Stint 0077 found that this
+deadlocks where the plate's reading **needs a marker the content check will not yet accept**, and
+split the class in two. **I applied the same split, so the band is consistent:**
+
+- **Plate reading renders cleanly → the English renders the PLATE.** Five sites:
+  `spiritus` @1067A ("their **spirits**"), `Quia persecutus` @1066B ("*Because he has
+  persecuted.*"), `Benedicit` @1069C ("**He blesses** now *every day*"), `quia visione` @1069C
+  ("**because** nothing is more delightful than that vision"), and the address **`VERS. 9.` @1062A**,
+  which the English prints as Migne numbers it.
+- **Plate reading needs an unfireable marker → the English renders the TWIN, and the marker is
+  filed as owed.** Seven sites: `Dixit`, `apponit`, `Fortius`, `actus`, `laboro`, `eum`, `fines`.
+
+⚑ **`Benedicit`/`Bene dicit` is the one where the choice changes what the page says**, and it is
+worth naming: CC's split gives "he **rightly says** *per singulos dies*" (a remark about Augustine's
+diction); the plate's one word gives "**he blesses** now day by day" (a remark about the psalmist's
+act). The plate governs, and the patch is filed.
+
+⚑ **`VERS. 9.` is deliberate and it will look wrong.** My English prints Migne's misnumber while the
+Latin twin still prints CC's `VERS. 6.`, so the two columns disagree visibly until the patch runs.
+That is the ruled class (Migne's wrong numbers are restored **and** marked); it is flagged here, in
+the patch file and in the handoff.
+
+---
+
+## §4 · MARKERS FIRED — 7 `[var:]` and 1 `[sic:]`, every one on a column I collated today
+
+| col | chunk | marker | why it clears the bar |
+|---|---|---|---|
+| 1062B | 0097 | `[var: Vulg. Isa. 5:18 *Vae qui trahitis iniquitatem in funiculis vanitatis, et quasi vinculum plaustri peccatum*…]` | ⭐⭐ Migne prints *Vae his qui trahunt **peccata** sicut vestem longam* — an Old-Latin form sharing scarcely a word with the Clementine. **Load-bearing:** the gloss's next words are *quia addunt **peccata** peccatis*, and the Clementine's *iniquitatem* would take the argument's keyword out of its own proof-text. |
+| 1062C | 0097 | `[var: Vulg. Ps. 139:9 *Ne tradas*, a prohibitive subjunctive]` | Migne prints ***Non** tradas me, Domine, a desiderio* at the VERS. 9 lemma. A negation particle swapped for another in a lemma; not a letter-level corruption of one word, so the settled single-word exclusion does not reach it. |
+| 1063D | 0097 | **`[sic: *quae dam*]`** | see §4a |
+| 1064C | 0098 | `[var: Vulg. Prov. 21:20 *Thesaurus desiderabilis, et oleum in habitaculo justi*…]` | ⭐⭐ Migne prints *Thesaurus desiderabilis **requiescit in ore sapientis*** — the LXX form. **Load-bearing:** the gloss is built entirely on the mouth and the eating (*sapiens, quae audierit, cogitat; retractando ruminat; vir autem stultus **glutit** illum*), and the Clementine's *oleum in habitaculo justi* has no mouth in it at all. |
+| 1065C | 0098 | `[var: Vulg. Mt 10:23 *Cum autem persequentur vos in civitate ista, fugite in aliam*…]` | Migne prints *Si vos persecuti fuerint **in una** civitate*. Not an abridgment: a different protasis and a different demonstrative, in the sentence that licenses bodily flight from city to city. |
+| 1067B | 0100 | `[var: Vulg. Ps. 143:1 *Psalmus David. Adversus Goliath*]` | The titulus. Migne prints *Psalmus David **ad Goliam***. Three stints in Bands A and B fired `[var:]` on divergent tituli, consistently; this is the same class. ⚑ **Confirmed at the plate**, so it is Migne's and not CC's. |
+| 1070A | 0101 | `[var: Vulg. Prov. 27:2 *Laudet te alienus, et non os tuum ; extraneus, et non labia tua*…]` | ⭐⭐ **The most load-bearing of the seven.** Migne prints *Non te laudet os tuum, **ne arrogans videaris***, and the gloss's reply is *Sed non est **arrogantia**, quia Deum in te, non te laudas.* **The purpose clause exists nowhere in the Vulgate, and the keyword of the answer exists only inside it.** 7a″'s exact profile. |
+| 1070C | 0101 | `[var: Vulg. Mt 25:41 *Discedite a me maledicti in ignem aeternum*…]` | Migne prints ***Ite,** maledicti* — a different verb and no *a me*. |
+
+**Every marker was checked against the word it stands on** (§F8's misplaced-`[sic:]` lesson): the
+seven `[var:]` sit at the end of the lemma or quotation they annotate, and the `[sic:]` wraps the
+broken run and nothing else.
+
+### 4a. The one `[sic:]`, and why it is fireable when thirteen of its siblings are not
+At **1063D** both the plate and our twin read **`Sunt quae dam contemptibilia`**. The gap between
+`quae` and `dam` measures the same as the gaps `Sunt`–`quae` and `dam`–`contem-` on that justified
+line, and a compositor does not open a space inside a word to justify. **Split type, Pattern 10, and
+the twin carries it** — which is the whole difference between this site and the thirteen in §2. The
+whole broken run is carried untranslated in italics, spacing included:
+"There are [sic: *quae dam*] contemptible things from which nevertheless the earth receives its
+fatness." ⚑ **The quarantine takes nothing with it** (7a⁗): *quaedam* governs no verb, negation or
+preposition, so the English beside it says everything the Latin says.
+
+---
+
+## §5 · THE DIVERGENCE LIST — EVERY SCRIPTURE SPAN IN THE RANGE, INCLUDING THE CLEAN ONES
+
+Collated against `sources/vulgate/clementine-flat.txt`. **A list of findings alone cannot be told
+from a report by an agent that never looked**, so the clean ones are here too.
+
+### 5a. Divergent, marker FIRED (7) — listed in §4.
+
+### 5b. Divergent, marker DECLINED, with the reason
+- **Ps 139:8** @1062C `*Virtus salutis meae obumbrasti super caput meum.*` — Clementine
+  `**Domine, Domine,** virtus salutis meae, obumbrasti super caput meum **in die belli**`. Abridged
+  at both ends. **Declined**; every printed word is the verse's own.
+- **Ps 139:14** @1063A `*Habitabunt cum vultu tuo.*` — Clementine `habitabunt **recti** cum vultu
+  tuo`. **Declined**: a stump, and the gloss (*Quia Deum, sicut est, videbunt*) does not argue from
+  *recti*. **Rendered as the stump**, "They shall dwell with thy countenance."
+- **2 Cor 2:16** @1062D `*Aliis **sumus** odor **vitae in vitam**, aliis odor mortis in mortem*` —
+  Clementine `aliis quidem odor **mortis in mortem** : aliis autem odor **vitae in vitam**`.
+  ⚑ Migne **reverses the two members**, drops *quidem/autem* and supplies *sumus* from v. 15.
+  **Declined**: a recast, not a variant reading (stint 0077's Is 53:2 precedent); both members are
+  present and the gloss adduces it for the double effect, not for the order.
+- **1 Rg 15:23** @1063B `*Quasi peccatum **hariolandi** est repugnare, et quasi scelus idololatriae
+  **est** nolle acquiescere*` — Clementine `quasi peccatum **ariolandi** est, repugnare : et quasi
+  scelus idololatriae, **nole** acquiescere`. **Declined**: an attested orthography (Pattern 9) plus
+  a supplied copula in the second member. ⚑ Note the Clementine's own `nole` is the defective form
+  here, not Migne's `nolle`.
+- **Mt 6:6** @1065A `*…et clauso ostio ora Patrem tuum qui videt in abscondito,* etc.` — Clementine
+  `…ora Patrem tuum **in abscondito : et Pater tuus,** qui videt in abscondito, **reddet tibi**`.
+  **Declined**: an abridgment closed with `etc.`; every word is in the verse.
+- **Jn 10:12** @1065C `*Videt lupum venientem et fugit*` — Clementine adds `**et dimittit oves**`.
+  Abridgment. **Declined.**
+- **Lk 15:19** @1066C `*non sum dignus vocari filius tuus*` — Clementine `**jam** non sum dignus`.
+  Abridgment. **Declined.**
+- **Jer 2:29** @1066C `*Quid vultis mecum **in** judicio contendere?*` — Clementine `mecum judicio
+  contendere`. A supplied preposition. **Declined.**
+- **Zach 1:3** @1067A `*Convertimini ad me, et **ego** convertar ad vos*` — Clementine drops the
+  *ego* and interposes `ait Dominus exercituum`. An abridgment plus an emphatic pronoun.
+  **Declined**; the gloss argues from the turning, not the pronoun.
+- **Ps 103:29** @1067A `*Auferes **spiritus** eorum, et deficient*` — Clementine `spiritum`.
+  ⭐ **Migne's plural is confirmed at the plate and CC had moved him onto the Clementine.**
+  **Declined for the marker** (number alone, and the gloss's argument is the failing, not the
+  number) but **filed as a Class-1 patch**, and the English renders the plate.
+- **Ps 143:4** @1067D `*Vanitati similis factus est: dies ejus sicut umbra.*` — Clementine
+  `**Homo** vanitati similis factus est ; dies ejus sicut umbra **praetereunt**`. A stump at the
+  head, abridged at the tail. **Declined**; see the crux at §8.2 for the supplied "he".
+- **Ps 143:13** @1068D `*Oves eorum **fetosae**.*` — Clementine `foetosae`. Orthographic.
+  **Declined.**
+- **Ps 144:18** @1071C `*Prope est omnibus invocantibus eum.*` — Clementine `Prope est **Dominus**
+  omnibus invocantibus eum`. **Declined**: a stump, rendered as one ("He is near to all that call
+  upon him") with no name supplied.
+- **Ps 83:5** @1069C `*In saecula saeculorum laudabunt*`, cited `(Psal. XXXVIII)` — the words are
+  Ps 83:5's own, minus its `te`; **the locus is wrong** (Ps 83, not 38). **No `[var:]`**: Pattern 14
+  marks divergent scripture *text*, and a wrong locus is Migne's and stands (stint 0087's
+  `(Matth. XVIII)` ruling, and the 0971A precedent for repairing one).
+- **Prov 24:16** @1071A `quia septies **cadit** justus et **resurgit**; impii autem **infirmantur in
+  malis**` — Clementine `Septies enim **cadet** justus, et **resurget** : impii autem **corruent in
+  malum**`. A real divergence, **declined**: Migne does **not** set it as a quotation (no italic
+  anywhere in the run) and absorbs it into his own `quia` clause, so it is paraphrase in the gloss's
+  voice. Logged rather than marked.
+- **Jas 4:6 / 1 Pt 5:5** @1071A `quia superbis resistit` — Clementine `**Deus** superbis resistit,
+  humilibus **autem** dat gratiam`. **Declined**, and this is the same phrase stint 0087 declined at
+  1050B for the same reason: unitalicised, subjectless, in gloss voice.
+- **Ps 142:11** @1067B `*Propter nomen tuum, Domine, vivificabis me in aequitate tua.*` — the
+  Clementine's colon falls after `vivificabis me` and the verse continues `educes de tribulatione
+  animam meam`. Punctuation and abridgment, no word divergence. **Declined.**
+- **Ps 141:4** @1065A `*defecit spiritus meus,*` re-quoted in the gloss — Ps 141:4 reads
+  `in deficiendo ex me spiritum meum`; the words Migne quotes are **Ps 142:7's** verbatim, and he is
+  glossing Ps 141. **Declined**: a cross-quotation, not a variant, and the gloss turns on the
+  failing spirit, not on the case.
+- **Ps 142:1** @1066B `*O Domine,* etc.` — Migne prefixes a vocative `O` the Clementine has nowhere
+  (`Domine, exaudi orationem meam`). **Declined**; logged because it is an addition and not an
+  abridgment.
+
+### 5c. Collated and found to AGREE with the Clementine — the checked negatives
+`In finem. Psalmus David` (Ps 139:1) · `Eripe me, Domine, ab homine [malo]` and `A viro iniquo`
+(139:2) · `Qui cogitaverunt` (139:3) · `Acuerunt` · `Sicut serpentis` · `Venenum aspidum sub labiis
+eorum` (139:4, **verbatim**) · `Custodi me, Domine` (139:5) · `Superbi` · `Et funes extenderunt in
+laqueum` (139:6, **verbatim**) · `Dixi Domino` · `Dixi Domino: Deus meus` · `Exaudi, Domine, vocem
+deprecationis meae` (139:7, **verbatim**) · `Caput circuitus` and `Labor labiorum ipsorum operiet
+eos` (139:10, **verbatim**) · `Cadent super eos` (139:11) · `Vir linguosus`, `Injustum`, `in
+interitu` (139:12) · `confitebuntur`, `Et habitabunt`, `Verumtamen` (139:14) · `Dirigatur oratio`,
+`Oratio`, `incensum`, `Elevatio manuum mearum` (140:2) · `Pone, Domine, custodiam`, `Ostium`
+(140:3) · `Non declines`, `Ad excusandas excusationes`, `Non communicabo`, `Cum electis` (140:4) ·
+`Corripiet me`, `Oleum autem peccatoris` (140:5) · `Judices`, `Audient` (140:6) · `Crassitudo
+terrae`, `Secus infernum` (140:7) · `Quia ad te, Domine` (140:8) · `Custodi me a laqueo`, `quem
+statuerunt mihi`, `A scandalis operantium iniquitatem` (140:9, **verbatim**) · `Cadent in
+retiaculo`, `Singulariter sum ego donec transeam`, `Transeam` (140:10, **verbatim**) · `Intellectus
+David` (141:1) · `Voce mea ad Dominum clamavi`, `Deprecatus sum` (141:2) · `In conspectu ejus`
+(141:3) · `Et tu cognovisti`, `Semitas`, `In via` (141:4) · `Considerabam ad dexteram`, `et non erat
+qui cognosceret`, `Periit fuga`, `Et non est qui requirat [animam]` (141:5) · `Clamavi ad te,
+Domine`, `Spes mea`, `Portio` (141:6) · `A persequentibus me` (141:7) · `Educ de custodia` (141:8) ·
+`Hodie mecum eris in paradiso` (Lk 23:43, **verbatim**) · `Psalmus David` (142:1) · `In veritate
+tua`, `in tua justitia` (142:1) · `Et non intres in judicium`, `Cum servo tuo` (142:2) · `Quia
+persecutus` (142:3) · `Memor fui`, `Meditatus sum`, `In factis manuum`, `Memor fui dierum` (142:5) ·
+`Velociter`, `Defecit spiritus`, `In lacum` (142:7) · `Mane`, `Notam fac mihi viam`, `Animam`
+(142:8) · `Spiritus tuus bonus` (142:10) · `Benedictus`, `Qui docet manus meas` (143:1) ·
+`Misericordia mea` (143:2) · `Domine, quid est homo quia`, `Quia reputas eum?` (143:3) · `Domine,
+inclina` (143:5) · `Emitte manum`, `de alto`, `Emitte manum tuam de alto`, `Eripe me`, `Et libera`
+(143:7) · `Deus, canticum novum cantabo tibi`, `Canticum` (143:9, **verbatim**) · `Gladio`,
+`Maligno` (143:10) · `Et erue me de manu filiorum alienorum` (143:11, **verbatim**) · `Quorum
+filii`, `Filiae`, `Compositae` (143:12) · `Promptuaria`, `Ex hoc in illud`, `In egressibus` (143:13)
+· `Boves`, `Maceriae`, `Neque transitus, neque clamor` (143:14, **verbatim**) · `Beatum` (143:15) ·
+`Lingua eorum gladius acutus` (Ps 56:5, **verbatim**) · `Non veni pacem mittere, sed gladium`
+(Mt 10:34, **verbatim**) · `Laudatio ipsi David`, `Exaltabo te`, `In saeculum saeculi` (144:1,
+**verbatim**) · `Per singulos dies` (144:2) · `Nimis` (144:3) · `Generatio et generatio`, `Opera
+tua`, `Et potentiam tuam` (144:4) · `Et virtutem` (144:6) · `Memoriam abundantiae suavitatis tuae
+eructabunt`, `Eructabunt` (144:7, **verbatim**) · `Miserator et misericors`, `miserator`, `Patiens`
+(144:8) · `Miserationes`, `Misericors`, `Et miserationes ejus` (144:9) · `Confiteantur tibi, Domine,
+omnia opera tua`, `Et sancti tui` (144:10, **verbatim**) · `Gloriam regni` (144:11) · `Ut notam`
+(144:12) · `Regnum tuum`, `Fidelis Dominus in omnibus`, `Fidelis` (144:13) · `Qui corruunt`, `Et
+erigit omnes elisos` (144:14, **verbatim**) · `Oculi omnium in te sperant, Domine`, `Et tu das escam
+illorum in tempore opportuno` (144:15, **verbatim**) · `Aperis tu manum` (144:16) · `Justus`,
+`Viae`, `Viis suis, et sanctus in omnibus operibus suis` (144:17, **verbatim** apart from the
+plate's `omnibns`) · `Voluntatem timentium se faciet` (144:19, **verbatim**) · `Laudationem`
+(144:21).
+
+### 5d. The verse numbering was checked, not assumed
+Every `VERS. n.--` in my range was resolved against the Clementine's versification for the psalm
+named in the head. **All agree except one, and that one is Migne's own defect**: at **1062A** he
+runs 3, 4, 5, **9**, 7, 8, 9, 10, 11, 12, 14 — the first `9` is the Ps 139:6 lemma `*Superbi*`
+(`absconderunt superbi laqueum mihi`), and a second, genuine `VERS. 9.` follows three glosses later.
+**Restored as printed and marked** (§2, §3). The gaps elsewhere (139 skips 13; 140 skips 1; 141
+skips 9–10; 142 skips 4, 5, 9, 11, 12; 143 skips 2, 6, 8, 11; 144 skips 5, 20) are **non-glossing,
+not misnumbering** — the same pattern the 0847A read found in Psalm II.
+
+---
+
+## §6 · `usque ad` — THE `etc.` SPLICE TEST, COUNTED, AND THE REVERSAL CHECKED FOR
+
+**29 occurrences of `usque ad` in my Latin. 29 formula, 0 non-formula.** Every one follows an `etc.`
+and names where the abridged father resumes; every one is rendered **"as far as."** By chunk:
+13 / 1 / 2 / 9 / 4.
+
+- ⚑ **One is separated from its `etc.` by an intervening column anchor** — `etc., [1069B] *usque
+  ad*` @0101 — and a naive regex scores it non-formula. **The test is about the TOKEN before, not
+  the character before**, exactly as stint 0077 found; I applied it across the anchor.
+- ⭐ **Zero `ad usque`, and I checked the PLATE for it, not our TEI.** Stint 0077's finding is that
+  the reversal is invisible to any count taken from our file by construction. On all six leaves I
+  read the italic pair as printed at each of the 29 sites: **Migne sets `usque ad` at every one.**
+  The reversal exists (1015A) but does not occur in cols 1061–1071.
+- **No look-alike in the range.** The only other `usque` in my Latin is inside `quibusque`
+  (@1063C), which is not in the class; there is no temporal or spatial `usque ad`, and no scripture
+  quotation containing the two words.
+
+---
+
+## §7 · THE RULED AXES — what my range actually did with each
+
+| axis | my range |
+|---|---|
+| `gentes` family | ⛔ **ZERO occurrences.** The instrument was checked, not trusted: a `gent` grep returns exactly one hit in my five chunks, **`diligentes`** — the documented false positive. No `gentes`, `gentium`, `gentilis`, `gentilitas`, `ethnicus`, and no singular `gens`, so §A5's named exception is not engaged either. |
+| `natio` | **Zero.** The grep's only hits are `dominationis` ×2 — the second documented false positive. |
+| `mysterium` / `sacramentum` | **mystery 0 · sacrament 1.** ⚑ The one site is a strain and I am naming it rather than hiding it: @1069B `juxta illud **sacramentum** quod praecepit Dominus Moysi in tabernaculo septem lucernas ponere`. The sense is the older "sacred sign / mystery", not a sacrament of the Church. **The axis is binding and I obeyed it** — "according to that sacrament wherein the Lord commanded Moses…" — but if Wilson wants a named exception for `sacramentum` of an Old-Testament type, this is the site that asks for it. **Flagged, not decided.** |
+| `daemonium` / `diabolus` | **demon 1** (`daemones` @1067B, "the demons") · **devil 6** (`diabolus` ×4, `diaboli`, `diabolum`) · Satan 0 (`satanas` does not occur). **No bleed in either direction.** |
+| `turba` / `multitudo` | **Neither word occurs.** Reporting the absence rather than a zero that could be read as drift: these are psalms of complaint and praise, and the Gospel crowds are simply absent, as in Bands A and B and in every Band C stint so far. |
+| `usque ad` | 29 formula / 0 not — §6. |
+| **`Diapsalma`** | ⭐ **Two occurrences, both @1062B and @1062D, both ROMAN and unitalicised in our TEI, and I confirmed both at the plate**: Migne sets the word upright in both places. **Two more plate confirmations for §A2**, which now stands on five reads in Band A, twelve in Band B and these two. Rendered **Diapsalma**, roman, never "Selah", never italic. |
+| **`In finem`** | **One body occurrence**, the Ps CXXXIX titulus @1061D, rendered **"Unto the end."** Zero rivals. |
+| **`Canticum graduum` / `gradus`** | ⛔ **NOT ENGAGED — zero occurrences of either.** The three `canticum` in my range are Ps 143:9's `canticum novum` (×2) and its stump `*Canticum.*`, rendered "a new canticle" and "*A canticle.*" **The gradual psalms end at Ps CXXXIII, before my range opens.** Recorded so a sweep does not read the absence as an omission. |
+| `Psalmus David` / `Psalmus ipsi David` | ⭐ **Both forms occur, and both are confirmed at the plate.** `*In finem Psalmus David.*` @1061D and `*Psalmus David.*` @1066A → "A psalm of David"; `*Psalmus David ad Goliam.*` @1067B → "A psalm of David against Goliath" (with a `[var:]`); and **`*Laudatio ipsi David.*` @1069A → "Praise, for David himself."** They stay different English. |
+| `Dominus virtutum` | Does not occur. |
+| `sedes` | Does not occur (`sedes`, `sedem`, `sede` all zero), so §A5's "seat" ruling is not engaged. |
+| heads | `PSALMUS CXXXIX.`–`PSALMUS CXLIV.` → `PSALM CXXXIX.`–`PSALM CXLIV.` **All six numerals left Roman**, per §A3. |
+| **archaism** | ⛔ **ZERO `-eth`, zero `saith`, zero `doth` in all five chunks.** I checked both memberships and then simply did not need the form: `thou/thy/thee` carries Pattern 17's number marking, and `-est` on a second-person singular verb (`thou givest`, `thou deferrest`) is grammar, not register. **No guillemets occur anywhere in my range**, so the second membership test had nothing to catch. |
+| em-dashes | **Zero across all five chunks.** |
+| `(ID.)` / `(Ibid.)` | Never expanded. 128 notes pass through verbatim, `(ID.)` and `(CAS.)`/`(CASS.)` included, **and the two malformed ones are passed through as the twin has them**: `(CAS).` @1067A and `(ID).` @1071C are printed in the English as body text exactly as our Latin carries them. ⭐ **The plate prints both correctly** — the misplaced point is CC's — so both are patch sites with an English edit owed. |
+| **Pattern 17** | Checked site by site. The one place it decides a rendering is the Jer 2:29 quotation @1066C: `vultis` and `dereliquistis` are **plural** ("Why will **you** contend… **you** have all forsaken me") while `servo **tuo**` in the same italic run is **singular** ("with **thy** servant"). Both are in one span, and the number shift is Migne's. |
+
+---
+
+## §8 · CRUCES — rendered literally, with the difficulty named
+
+1. ⭐⭐ **`AUG.)` @1065B, with no opening parenthesis.** Both the plate and our twin print it, and CC
+   could not parse it, so it is not an `[n:]` in the Latin at all — it stands as body text. **I have
+   rendered it as printed**, `AUG.)`, and fired **no marker**. The reasoning, so it can be audited:
+   Pattern 8 carries printed punctuation as printed and never marks it, and Pattern 9 keeps a
+   structural label out of the marker system precisely because the facing Latin preserves the
+   defect. ⚑ **A reader will think we lost a bracket.** If Wilson prefers a `[sic: *AUG.)*]` — the
+   content check would accept it, since the twin carries the run — it is one edit. **Flagged, not
+   decided.**
+2. **`*Vanitati similis factus est*` @1067D — the one supplied subject in my range, and its
+   authority is on the same line.** Migne prints the Ps 143:4 lemma without the Vulgate's `Homo`,
+   so English has to supply something. **The authority is the gloss's own next sentence**, *Quando
+   **homo** conditus est, veriteti similis factus est*. Rendered "He is become like to vanity" — and
+   nothing else in the range supplies a subject the Latin does not print.
+3. ⭐ **`Vel, *combinabor.*` @1063C — where a negative must NOT be pulled inside an italic span.**
+   The lemma is `*Non communicabo.*`; Migne offers the alternative reading as the bare verb, without
+   repeating the negative. Rendering the span "I shall **not** be coupled" would put a negation
+   inside an italic span that does not print one. **Rendered "*I shall be coupled.*"**, and Migne
+   himself supplies the negative two clauses later in roman type (`Non combinabor ad similitudinem
+   carnis`), which the English carries at the place he prints it. This is §F8's apposition rule read
+   in the other direction.
+4. **`non ut homines Domini, qui emunt saccello, tu sanguine` @1062C.** Rendered literally, "not as
+   the men of the Lord, who buy with a purse, thou with blood." The splice cuts Augustine off before
+   the construction closes; `Domini` is genitive or nominative plural and cannot be a vocative
+   (`Domine`). **No word supplied, and the difficulty is here rather than smoothed.**
+5. **`Custodi me, quia per multa fallit, quae nequit praecavere` @1062B.** ⚑ **The subject of
+   `nequit` is not the subject of `fallit`.** The deceiver deceives; the one who cannot forestall is
+   the one praying. Rendered "because he deceives through many things which he cannot guard against
+   beforehand," with the shift of subject named here — this is precisely §F8's "a case or a subject
+   silently reassigned", and it parses either way.
+6. **`Sicut Absalom David, sic Judas Christum, falsi fratres corpus ejus` @1066A.** No verb is
+   printed anywhere in the sentence. Rendered "As Absalom did to David, so Judas to Christ, false
+   brethren to his body" — **"did" is the only word supplied, and it is supplied from the psalm's own
+   titulus** (*quando persequebatur eum Absalom*), which Migne prints two lines above as the head
+   lemma. Naming a stronger verb ("persecuted") would decide what he leaves open.
+7. **`Novem sunt opera` @1069D, followed by EIGHT.** Migne lists *potentia, magnificentia, sanctitas,
+   mirabilia, virtus, terribilium magnitudo, memoria, justitia* — eight items under the word "nine".
+   **Both the twin and the plate agree**, so it is his. Rendered as printed, nothing supplied, no
+   marker: a miscount in the author's own prose is not broken type.
+8. **`Quae de solis saxis in hortis sed vel vineis` @1068D.** ⛔ **Does not construe as printed** —
+   `sed vel` has no slot and no verb governs `Quae`. Twin and plate agree word for word. Rendered as
+   closely as the words allow, "Which are of stones alone in gardens but or in vineyards," and the
+   difficulty recorded rather than repaired. **No conjecture offered: here it would be invention.**
+9. **`id est vita ejus notoria, id est transitoria` @1067D.** `notoria` glossed by `transitoria` is
+   strained (one expects *nocturna* or *notata*), but twin and plate agree. Rendered "his notorious
+   life, that is, his transitory life", literally, with the strain named.
+10. **`Quod dicit *clamavi, exponit, deprecatus sum.*` @1064D.** ⚑ **Migne's italic runs across his
+    own gloss verb.** The span is one span and contains `exponit`, which is not scripture. Rendered
+    as one span, "*I have cried, he expounds, I have made supplication.*" — deliberately awkward,
+    because splitting it would break span parity and silently correct his compositor.
+11. **`Qui hic per singulos dies, in aeterno die merebitur laudare` @1069B.** The first clause has no
+    verb at all. Rendered "He who here every day **does so**, shall deserve in the eternal day to
+    praise" — "does so" is the minimum English needs, and it is flagged rather than dressed up.
+12. **`inde nos ejus` @1070A.** Elliptical: "thence we [are mindful] of him". Rendered "and thence
+    we of him", the ellipsis left open.
+13. **`Si opera laudas, et te qui es Dei opus` @1070A.** The second limb has no verb; rendered "If
+    thou praisest the works, thou praisest thyself also, who art the work of God" — the verb carried
+    over by zeugma from the printed first limb, nothing new introduced.
+14. **`Dicent ergo virtutem disciplinantis et punientis, si praedicant regnum aeternum, non tacent
+    ignem aeternum` @1070A.** Two coordinate clauses that English wants to subordinate. **Rendered
+    with Migne's commas and both clauses left coordinate**, per Pattern 8, rather than smoothed into
+    "if they preach… and do not keep silent" — which would have supplied a conjunction he does not
+    print.
+15. ⭐ **`eructabunt` → "shall belch forth", and it is a deliberate register call.** The Douay's
+    "shall publish" is the received English of Ps 144:7, and it would break the gloss, whose whole
+    argument is alimentary: *Manducat qui discit, **eructat** qui docet… Sic ergo manduca ut
+    eructes.* **7a″ requires the exposition to rest on the word on the page**, so all five
+    occurrences read "belch forth". Recorded because it is the least comfortable rendering in the
+    stint and a later sweep should not "fix" it.
+16. **`*Ut notam.*` @1070D rendered "*That known.*"** Migne prints two words of Ps 144:12 (`ut notam
+    faciant filiis hominum`) and stops. Completing it to "That they may make known" would supply the
+    verb the Vulgate has and Migne does not — the §F8 class. **Rendered as the stump, awkwardly and
+    on purpose**, the way stint 0087 rendered `*Domine, non est.*` at 1050A.
+
+### 8a. Every stump checked against §F8's fourteen, by name
+`*Eripe me, Domine, ab homine.*` stays **"from the man"** (not "the **evil** man" — and Migne's own
+gloss quotes `*Ab homine malo*` three lines later, so completing the head would pre-empt it) ·
+`*Non tradas me, Domine, a desiderio.*` stays **"from desire"** (not "from **my** desire") ·
+`*Dirigatur oratio.*` stays **"Let prayer be directed"** (not "**my** prayer") · `*Caput
+circuitus.*` stays **"The head of the compassing"** (not "of **them**") · `*Cadent in retiaculo.*`
+stays **"in the net"** (not "in **his** net") · `*Considerabam ad dexteram.*` stays **"to the right
+hand"** (not "**my** right hand") · `*et non erat qui cognosceret.*` stays **"none that knew"** (not
+"knew **me**") · `*Et non est qui requirat animam.*` stays **"the soul"** (not "**my** soul") ·
+`*Defecit spiritus.*` stays **"The spirit hath failed"** (not "**my** spirit" — where the SAME
+words with `meus` printed do get "my spirit" at 1065A) · `*In factis manuum.*` stays **"of the
+hands"** (not "of **thy** hands") · `*velociter exaudi;*` stays **"hear speedily"** (not "hear
+**me**") · `*Emitte manum.*` stays **"Send forth the hand"** while the full lemma `*Emitte manum
+tuam de alto*` twelve words later keeps its "thy" — **the gloss expounds the two differently and the
+English keeps them apart** · `*Promptuaria.*` stays **"Storehouses"** (not "**their**") ·
+`*In egressibus.*` stays **"In the goings out"** (not "**their**") · `*Aperis tu manum.*` stays
+**"Thou openest the hand"** (not "**thy** hand") · `*Prope est omnibus invocantibus eum.*` stays
+without **"the Lord"** · `*Ostium.*` stays **"A door"** (not "the door **of circumstance**").
+**Nowhere did I supply a possessive or a completion the Latin does not print.**
+
+---
+
+## §9 · CANDIDATES RAISED AND **REJECTED** — the instrument, not the leftovers
+
+1. ⛔ **`[cj:]` or a patch on `retiaculo`/`retiuculo` @1064C — the most important rejection in the
+   stint.** The Ps 140:10 lemma looked to me like `retiuculo`, a non-word, at 300 and again at 900
+   dpi; the vowel between `reti` and `culo` reads open-topped where an italic `a` should close.
+   **REFUSED.** The scan does not resolve italic `a` from `u` at this size with a control I trust,
+   and the form our twin carries is the correct Latin. **A patch needs positive evidence, and an
+   ambiguous glyph whose printed form is correct Latin is refused** — the `locutus`/`locutos` rule
+   exactly. Recorded so the next reader does not present it as a new finding.
+2. ⛔ **`[sic:]` on the thirteen of §2** — the readings are Migne's and confirmed, but the marker
+   content must be verbatim in the twin and is not. **Filed as owed, not fired.**
+3. ⛔ **`[sic:]` on `VERS 8.` @1066A and `VERS. 19,` @1071B** — **declined.** Pattern 9 normalizes a
+   section label in English *precisely because* the facing Latin preserves the misprint. This is
+   §F8's "right about the fact, wrong about the rule" case; the observation goes in the patch
+   report, the English prints `VERS. 8.--` and `VERS. 19.--`. ⚑ **Distinguished from the `VERS. 9.`
+   case at 1062A, which is NOT this class**: a misspelt label has no English exponent, but a wrong
+   *number* is an address a reader can follow to the wrong verse, and Wilson has ruled that class.
+4. ⛔ **`[sic:]` on the sigla `(AUG,)` @1067A, `(CAS).` @1067A, `(ID).` @1071C** — declined, all
+   three, and for two different reasons. `(AUG,)` is Migne's comma and takes no marker (Pattern 9).
+   `(CAS).` and `(ID).` are **CC's**, not Migne's — the plate prints both correctly — so a marker
+   there would be a false public accusation, the `Aventus` @1046C failure in a new costume.
+5. ⛔ **`[d:]` on `Domine, Domine` — not present.** Checked because Ps 139:8 and 142:1 both double
+   the vocative in the Clementine; **Migne prints it once in each place**, so there is nothing to
+   mark and nothing to restore.
+6. ⛔ **`[d:]` on `in saeculum et in saeculum saeculi` @1069C and `Generatio et generatio` @1069A.**
+   Both are the psalm's own figure, expounded as such by the gloss (*ut repetendo confirmet*
+   reasoning at the parallel site). **Declined**: `[d:]` marks a compositor's doubling, not a
+   Hebraism the text argues from — the `Concupierunt concupiscentiam` precedent.
+7. ⛔ **`[var:]` on the eighteen abridged, reordered or re-cast quotations of §5b** — declined
+   individually, each with its reason. **Abridgment is this recension's method, not a variant
+   reading.**
+8. ⛔ **`[var:]` on `spiritus`/`spiritum` @1067A** — declined although it is a genuine, plate-
+   confirmed divergence from the Clementine: number alone, with no argumentative weight in the
+   gloss. **The patch is filed and the English renders the plate**; the marker is not owed.
+9. ⛔ **`[sic:]` on the seven bracket-shaped stray sorts** (1062C ×2, 1067D, 1068A, 1070A, 1070C,
+   1071B) — declined as furniture of this gathering, and **explicitly matched to stint 0087's
+   `[psalmorum` / `[ostendit` class at 1039–1041**: a repeating sort, not a reading. ⚑ They are
+   reported as copy condition, not suppressed.
+10. ⛔ **Word fusions at 1062A (`Eripeme`, `impugnantenim`), 1068A (`venerit,ei`)** — declined. Each
+    stands on a tightly justified line whose neighbouring word spaces are equally narrow. ⭐ **The
+    contrast with `quae dam` @1063D is the whole point**: there the internal gap *equals* the
+    neighbouring word spaces, here it is visibly smaller than them. **The rule cuts both ways and I
+    ran it in both directions on the same leaf-run.**
+11. ⛔ **`Ex per|sona` @1066A** — a line break with no hyphen. Declined: a hyphenation failure at a
+    turn is not a word-division defect, and CC correctly joins it. The `Ideo-|que` precedent.
+12. ⛔ **Column-band arithmetic** — not reported. Migne's A–D marks sit in the central gutter and
+    serve both columns at the same height; **nothing in my range breaks mid-word across an anchor.**
+13. ⛔ **The `(Psal. XXXVIII)` @1069C and `(Prov. XII)` @1064C wrong loci** — no `[var:]` (§5b), and
+    no patch either: they are Migne's own citations and stand. Only the **`Frov.`** at 1071A is a
+    patch, because that is broken type rather than a wrong reference.
+14. ⛔ **`[nt:]` on any note** (Pattern 15) — none owed. **All 128 notes in my range are attribution
+    sigla or scripture locators**; not one is editorial prose. Checked, not assumed.
+
+---
+
+## §10 · SECTIONS READ CLEAN, AND WHAT I CHECKED IN THEM
+
+⚑ **A logged column is not a checked column**, so this names the check, not the looking.
+
+- **1063A–1063C (Ps CXL, vv. 2–4).** Collated word by word against the plate: two departures
+  (`apponit`, `(CASS.)`), the remaining run agreeing at every word. Checked specifically: the
+  double negation `ut **nec** cogitatio iniqua sapiat, **nec** prava voluntas … erumpat` — **both
+  carried, and scoped twice in English** ("that neither may… nor may…"), because English apposition
+  does not inherit a negative; and the `combinabor`/`combinari` chain for a supplied negative
+  (§8.3).
+- **1064D–1065A (Ps CXLI, the opening).** Checked the Prov 21:20 quotation word by word against the
+  Clementine before writing the `[var:]`, and the Mt 6:6 quotation against it before declining one.
+  Also checked that `David … significat Christum. Spelunca vero carnem` keeps its three appositions
+  distinct in English (flesh / world / sepulchre) and that none of the three is collapsed.
+- **1066C–1067A (Ps CXLII, vv. 2–7).** Negation sweep run in full: `non justificabitur` (not
+  printed — the lemma stops at `Cum servo tuo`), `**ne** cum rogante disceptet, **ne** eum qui se
+  damnat judicet`, `quod **non** iste humilis`, `**non** petivit justitiam judicii`, `**non** sum
+  dignus`, `**non** ex meritis`, `**non** audit Deum dicentem`, `licet Deus omnia gratis faciat`
+  (concessive, not negative — checked and not treated as one). **Eight negatives, eight carried, and
+  each checked against the word it governs rather than against the sentence.**
+- **1069D–1070A (Ps CXLIV, the nine works).** Checked every one of the five conditional clauses in
+  the `Si in magnitudine deficimus … Si opera laudas` chain for a reassigned subject: the subject
+  stays "we"/"thou" as printed at each turn, and `laudatur magis in illo qui fecit` keeps the
+  passive with the beauty as its subject rather than being turned into "he praises".
+- **1070C (the Mt 25:41 gloss).** Checked the three negatives of `si … non in te remaneant **nisi**
+  opera ejus, **non** te dimittet miseratio ejus: si autem tu **non** dimittas opera tua` for scope,
+  because the sentence turns entirely on which of the two lets the other go. **The subject of
+  `dimittet` is his mercy, and of `dimittas` is thou** — the English keeps them apart.
+- **1071A–1071C (my last column).** Checked `aequum est enim **et** diligentes custodire **et**
+  peccatores perdere` as a correlative pair (both limbs kept), and the `Viae … opera` distinction
+  through `haec secundum nos dividuntur. Sed apud illum, hoc est velle, quod facere` — the antecedent
+  of `haec` is the *distinction*, not the works, and the English says so.
+
+---
+
+## §11 · HANDOFF
+
+1. ⛔ **The patch queue owes THIRTEEN markers from this stint, not one**, and **seven of them carry
+   an English edit that must land in the same commit**. Both are itemised site by site in
+   `data/briefs/8967-PENDING-TEI-PATCHES.md` under `BAND C — stint 0097–0101`. **Do not read this
+   stint's `7 [var:] / 1 [sic:] / 0 [cj:]` as a clean range.**
+2. ⚑ **`VERS. 9.` @1062A is the one to land first.** My English prints Migne's misnumber and the
+   Latin twin still prints CC's `VERS. 6.`, so the two columns disagree visibly until the patch
+   runs. It is deliberate, it is the ruled class, and it is flagged in three places.
+3. ⭐ **Cols 1061–1071 are ALL CLEAN at the inner margin** — eleven more counter-examples to the
+   mod-4 rule, three of them ≡ 1 (mod 4). **No Gallica site is added by this stint**; the work-wide
+   open list stands where stint 0087 left it, at seven.
+4. **Two open questions that are not mine to settle**, both flagged rather than decided:
+   - **`AUG.)` @1065B** (§8.1) — render as printed with no marker, as I have, or fire
+     `[sic: *AUG.)*]`? The content check would accept it.
+   - **The lowercase chapter numerals** — Migne sets `(I Reg. xv)`, `(Joan. x)`, `(Psal. ciii)` and
+     the rest with the chapter in **lowercase roman**, and **CC has uppercased every one in this
+     work.** That is an editorial decision about the whole edition, not thirty separate patches, and
+     I have filed it as one flag rather than thirty rows.
+   - **`sacramentum` @1069B** of an Old-Testament type (§7) — the axis binds and I obeyed it, but
+     this is the site that would ask for a named exception.
+5. ⚑ **`quia visione` @1069C and `Benedicit` @1069C will look like defects to the next reader** and
+   should not be "fixed" twice: both are Migne's, both confirmed at 900 dpi, and the English already
+   renders them.
+6. ⭐ **One inconsistency in the already-merged bands, found while settling my own rendering and
+   worth one line to the merge:** `in saeculum saeculi` is rendered **"For ever and for ever and
+   ever"** at 0039 and **"Unto the age of the age"** at 0092. I have followed the traditional form
+   ("For ever and ever" / "For ever, and for ever and ever"). **Two renderings of one phrase across
+   Bands A and B — the merge should pick one.**
+7. **Nothing was committed, deployed or re-chunked.** `data/plate-reads.json` gained six entries;
+   `data/briefs/8967-PENDING-TEI-PATCHES.md` gained one section.
+
+
+## §I.0102 — file `cruces-0102.md`, verbatim
+
+# Cruces — 8967 *Glossa ordinaria*, **Liber Psalmorum**, chunks 0102–0105
+### Band C, stint 6 (the LAST) · cols 1071C–1080B · Psalms CXLV–CL · 3,404 Latin words
+### ⭐ THE WORK ENDS IN THIS RANGE, and the last leaf was read for that reason.
+
+---
+
+## §0 · SPAN COUNT RECONCILIATION — **146 against 146, exact**
+
+| chunk | spans in my Latin |
+|---|---|
+| 0102 | 30 |
+| 0103 | 34 |
+| 0104 | 45 |
+| 0105 | 37 |
+| **total** | **146** — the brief's header says 146 |
+
+**Head and tail checked, not just the total.** The brief's first entry is
+`[1071C] VERS. 1.-- *Alleluia.*` and that is the first span in `0102.md`'s Latin; its last entry is
+`[1080B] *Omnis spiritus laudet Dominum.*` and that is the last span in `0105.md`'s Latin, and the
+last italic span in the work. **Twelve stints in a row now match exactly.**
+
+English span totals are **30 · 35 · 48 · 37**. The three surplus are the italic Vulgate readings
+inside my three `[var:]` markers in 0103 and 0104 (0104 carries three markers but one of them —
+Ps 148:6 — is the third; see §3), which is the established relation `EN = LA + count([var:])`,
+checked against the shipped 0090 (59→60, one marker) and 0091 (31→33, two).
+
+Column anchors 8 · 6 · 10 · 9, verbatim and in order. Note counts 20 · 20 · 23 · 21, matching the
+Latin exactly (the frontmatter `noteCount` runs one low on three of the four — the known false
+positive).
+
+---
+
+## §1 · ⭐⭐⭐ WHAT STANDS AT THE END OF THE WORK, ON THE PLATE
+
+**Read on purpose, at 300 dpi with 1200 dpi crops, PDF 545 = cols 1079/1080, corners checked.**
+
+The Glossa on the Psalter ends in the **1080B** band with, verbatim:
+
+> `(AUG.) Tria sunt genera, etc., usque ad vitae aeternae vox est : Omnis spiritus laudet Dominum.`
+
+**And nothing follows it.** No `FINIS`. No subscription. No colophon. No closing siglum, no
+editor's closing note, no "Explicit", no rule of the kind Migne sometimes sets beneath a finished
+work. Beneath the ordinary **full-measure rule that separates one work from the next**, and on the
+same leaf, in both columns, the next work begins:
+
+> **LIBER PROVERBIORUM**
+> *Quem Hebraei* MISLE (משלי) *appellant.*
+> **B. HIERONYMI EPISTOLA ET PROLOGUS DUPLEX DE LIBRIS SALOMONIS.**
+> (Vide inter ejus Opera, tom. I, III et VIII.)
+> **CAPUT PRIMUM.**
+> VERS. 1. — *Parabolae Salomonis.* Notandum quod vulgata editio paraboles, quae Hebraice *misle*
+> (משלי), Graece παροιμιας *paroemias*, id est, proverbia dicit; sed satis convenit. …
+
+**PDF 546 (cols 1081/1082) is Liber Proverbiorum throughout**, checked to be sure the Psalms do not
+resume after an interpolated prologue.
+
+⭐ **This is a finding and it is recorded as one: our twin's ending is COMPLETE and nothing was
+dropped there.** The one thing the layout could have hidden — that the Psalms break off mid-clause
+at the foot of col 1079 (`…flatu follium sonans; et ut haec`) and Proverbs starts immediately
+beneath it on the *same* column — is not a loss: the Psalms run across the **top of both columns**
+of the leaf and resume at the head of **1080A** (`omnia de hominibus acciperes…`), exactly as our
+twin has them. A reader of col 1079 alone would have concluded the work was truncated. It is not.
+
+---
+
+## §2 · THE PLATE — FIVE LEAVES, TEN COLUMNS, **EVERY MARGIN CLEAN**
+
+`data/plate-reads.json` held **nothing** for 1073–1080, and for 1071/1072 held one entry that
+records col 1072 as *scanned, not collated*. **I opened all ten columns and collated all ten word
+by word**, corner numbers first, at 300 dpi full-column with 900–1800 dpi crops on every disputed
+glyph. Five new entries recorded; `plate-gate` passes.
+
+| page | cols | corner read | margin | depth |
+|---|---|---|---|---|
+| 541 | 1071 / 1072 | 1071, 1072 | **clean** | full (independent re-collation; 1072 first collated here) |
+| 542 | 1073 / 1074 | 1073, 1074 | **clean** | full |
+| 543 | 1075 / 1076 | 1075, 1076 | **clean** | full |
+| 544 | 1077 / 1078 | 1077, 1078 | **clean** | full |
+| 545 | 1079 / 1080 | 1079, 1080 | **clean** | full |
+
+⛔ **Ten columns, zero clipped.** Two of them are ≡ 1 (mod 4) — **1073 and 1077 — and both are
+clean**, which makes fourteen and fifteen counter-examples to the withdrawn rule. **This is not
+evidence of a new rule either**; it is why I opened every column instead of inferring, and why the
+0087–0091 stint's newly-found 1041 and stint 0082's 1037 belong on the known-clipped list. ⚑ **No
+site in my range was withheld for want of a second copy. I add no Gallica site; the list stands at
+seven.**
+
+### 2a. ⭐ The plate reversed me in both directions, which is the point of opening it
+
+- **It withdrew nothing that I had already believed** — because I formed no `[sic:]` candidate from
+  the Latin alone in this range: our twin reads smoothly almost everywhere. **That silence was
+  false.** The plate produced **fifteen** Migne defects in ten columns that our twin does not
+  carry, and I could not have guessed one of them.
+- **It stopped TWO false `[d:]` markers.** Our twin prints `janam januam` and `scandala. scandala.`
+  at 1075B, four lines apart. Both are the classic dittography shape, both are in a single
+  paragraph, and both are **Corpus Corporum's**: the plate prints each word once. Had I trusted the
+  twin, this stint would have shipped two public accusations against a page Migne set correctly.
+- **It reversed a reading that construes.** Our twin's `Diligi justos.` at 1073B is a non-word, and
+  the natural inference is that Migne dropped a sort. **The plate prints `Diligit justos.`** with a
+  clear `t`: the non-word is ours. The same site is one of the lemma brief's four ⚠ NOT-in-
+  Clementine flags for this range, and the plate closes it as clean agreement with Ps 145:8.
+
+---
+
+## §3 · MARKERS FIRED — FOUR `[var:]`, every one on a column I collated today
+
+| col | chunk | marker |
+|---|---|---|
+| 1074C | 0103 | `[var: Vulg. 2 Cor. 4:5 *nos autem servos vestros per Jesum*, "your servants through Jesus"]` |
+| 1076B | 0104 | `[var: Vulg. 1 Cor. 10:17 *unus panis, unum corpus multi sumus*, "one bread, one body, we being many"]` |
+| 1076B | 0104 | `[var: Vulg. Ps. 147:6 *ante faciem frigoris ejus quis sustinebit*, "before the face of his cold who shall stand?"]` |
+| 1077A | 0104 | `[var: Vulg. Ps. 148:6 *Statuit ea in aeternum, et in saeculum saeculi*, "he hath established them for ever, and for ages of ages"]` |
+
+**Every one rests on `sources/vulgate/clementine-flat.txt`, cited by book chapter:verse, never on
+recollection.** And every one sits on the word it accuses — checked, because §F8's audit found a
+`[sic:]` standing after the wrong word.
+
+⭐ **The Ps 147:6 marker is the one worth reading twice.** Migne prints
+`Ante faciem ejus Dei quis sustinebit?` where the Clementine has `ante faciem **frigoris** ejus`.
+The word Migne has lost is the word **his own next gloss expounds**: `(AUG.) Frigus est, qui
+deserit, non vocat, non infundit gratiam` — *it is COLD when he forsakes*. The exposition rests on
+a word that is no longer in the lemma it expounds, and only the collation shows it.
+
+⛔ **ZERO `[sic:]`, ZERO `[cj:]`, ZERO `[d:]` — AND THAT IS NOT A STATEMENT ABOUT MIGNE.** See §4.
+
+---
+
+## §4 · ⛔⛔ FIFTEEN MARKERS I CANNOT FIRE, AND THAT IS THE HEADLINE OF THIS STINT
+
+**Ten of my ten columns carry at least one Migne defect that our twin does not carry**, because
+Corpus Corporum repaired the type before any instrument of ours looked at it. A `[sic:]` may wrap
+only type the twin carries and a `[cj:]` needs the printed word present, so **fifteen markers are
+unreachable until the patch pass runs.** Each is filed in
+`data/briefs/8967-PENDING-TEI-PATCHES.md` under `BAND C — stint 0102–0105` **with its exact marker
+text and the exact English edit it owes**, so the patch pass can fire them without re-deriving
+anything.
+
+The eleven `[sic:]` and four `[cj:]` in short:
+
+`musicas` (1071D) · `laudatio` (1072A) · `suseipiet` (1072D) · `disper iones` (1073D, split type) ·
+`mittere` (1075C) · `Dominam` (1077A) · `ubyssi` (1077A) · `benficus` (1077C) · `eanticcum` (1077C) ·
+`debat` (1077D) · `mahsiones` (1078B) · `nos` (1078B) · `Neseitis` (1078B) · `ferrcis` (1078D) ·
+plus the address `VERS. 16.` (1076C), which CC renumbers to `VERS. 19.`
+
+⭐ **The rate is 2.6 departures per column — the highest reported in this band** (0077–0081 and
+0087–0091 ran ~1.6–1.9). Three of the ten columns carry four or more.
+
+### 4a. ⛔ The site that would have reversed the sense, and how it was handled
+
+**1078B: the plate reads `unde nos sit liberum exire`; our twin reads `unde NON sit liberum
+exire`.** The gloss is about the kings of the earth bound in iron fetters so that they *cannot* get
+out — `unde non sit liberum exire`, and the very next clause says the fetters *cannot be broken*.
+Migne's `nos` (a clean `s`, controlled against `sit` on the same line) is a wrong sort for `non`.
+
+**This is the mirror of the open 1029B site**, where the twin carried a `non` the plate does not
+print — except that here CC has supplied the negative rather than the plate having lost it, and the
+direction of the repair is what makes it invisible.
+
+**What I did, and why:** the English follows the TWIN, and reads "whence it may not be free to go
+out". Following the plate would have put on the page the opposite of the argument Migne's own next
+clause makes, **with no marker able to quarantine it** — which is precisely the 7a′ failure ("a
+marker becomes a place to hide a repair", and here there is not even a marker). This is stint
+0082's rule at 1029B, applied a second time. **It is flagged rather than settled**: the owed
+`[cj: *nos*; read *non*, "whence it is not free to go out"]` and its English edit are written out
+in the patch file, and **Wilson still owes the ruling on the class.**
+
+### 4b. Where the English DOES follow the plate (§A6 licence, leaf read, patch filed)
+
+Seven sites, every one filed:
+
+- **1071D `Haec spe erecta anima`** (TEI `Hac`) → "This soul, lifted up by hope, praises God here."
+- **1072B `per tot saeculorum rerum amores`** (TEI `saecularium`) → "so many loves of the things of
+  the ages".
+- **1073B `Diligit justos`** (TEI's non-word `Diligi`) → "*He loveth the just.*"
+- **1075B `januam` once and `scandala.` once** (TEI doubles both) → the English carries neither
+  doubling and no `[d:]`.
+- **1076C `VERS. 16.`** (TEI `VERS. 19.`) → the English prints **Migne's** address. ⚑ The two
+  columns will disagree visibly until the patch lands; that is deliberate, it is the 1016C
+  precedent, and the owed `[sic: VERS. 16.]` is filed.
+- **1076C `quae perierunt Israel`, no `domus`** (TEI inserts it) → "to the sheep that were lost of
+  Israel". The owed `[var: Vulg. Mt 15:24 *domus Israel*]` is filed.
+- **1076C `gratias Trinitatis`** (TEI `gratia`) → "the graces of the Trinity". **No marker**: the
+  case has no English exponent (Pattern 9), the number does, and the English carries the number.
+- **1079A `secundum eam laudatur. Deus, cum sine fine laudetur.`** — Migne sets a **full stop** where
+  CC runs the clause on. Pattern 8: the English follows the plate, and the short second sentence
+  that results is Migne's, not ours.
+
+---
+
+## §5 · THE DIVERGENCE LIST — every scripture quotation in the range, the clean ones included
+
+### 5a. Divergent, marker FIRED (4) — listed in §3.
+
+### 5b. Divergent, marker DECLINED, with the reason
+
+- **Sap. 9:15 @1072B** — Migne `aggravat animam, et terrena inhabitatio **sensum deprimit** multa
+  cogitantem`; Clementine `…**deprimit sensum**…`. **Word order only, and nothing in the gloss turns
+  on it.** Contrast 7914 @1079B, where a reversed *cinis et pulvis* WAS material because the gloss
+  expounded the ashes. Declined; the English keeps Migne's order.
+- **1 Cor. 6:3 @1078B** — Migne `Nescitis **quia** angelos judicabimus?`; Clementine
+  `Nescitis **quoniam**…`. A real lexical substitution, **but it has no English exponent**: both are
+  rendered "that". Declined on the Pattern 9 ground, and recorded so nobody re-derives it.
+- **Ps. 146:2 @1073D** — Migne `dispersiones **Israel**`; Clementine `dispersiones **Israelis**`.
+  *Israel* indeclinable is the ordinary form, the difference has no English exponent, and the gloss
+  argues from the noun (`id est fidelium`), not its case. Declined.
+- **Ps. 147:7 @1076B** — Migne `et liquefaciet **eam**`; Clementine `**ea**`. Single word, and English
+  renders "it" either way. Declined — the settled single-word rule.
+- **Ps. 149:7 @1078B** — Migne `vindicta et increpatio in populis`; Clementine `ad faciendam
+  vindictam in nationibus, increpationes in populis`. ⚑ **Declined, and the reason is grammatical,
+  not cosmetic:** Migne's nominatives are governed by his own `fiet` (`tunc vere fiet vindicta et
+  increpatio`). This is the gloss **bending the verse into its sentence**, which is adaptation, not
+  a divergent text. Firing it would have accused Migne of a reading he is not asserting.
+- **Sap. 8:1 @1075D** — Migne `**quae** attingit a fine usque ad finem fortiter`; Clementine
+  `Attingit **ergo**…`. Same class: the relative is bound to Migne's own *Haec est sapientia*.
+  Declined.
+- **Sap. 7:22–23 @1075D** — Migne `actus mobilis, **certus, incoinquinatus**`; Clementine
+  `…mobilis, **incoinquinatus, certus**…`, and the Clementine has no `actus` in the list.
+  ⚑ A compressed florilegic citation of a long adjective-string, reordered. Declined as adaptation;
+  see §7 for how `actus` is rendered.
+- **Isa. 1:6 @1074A** — `Non est malagma imponere, neque oleum, neque alligaturas`. ⛔ **NOT
+  compared**: Migne's own note reads `(Isa. I, secundum LXX)`. He names the version; a `[var:]`
+  against the Clementine here would accuse him of not being the text he says he is not.
+- **Ps. 146:10 @1074D** — `in tabernaculis viri`. Migne introduces it himself as
+  `secundum aliam litteram`. Declined for the same reason.
+
+### 5c. Collated and found to AGREE with the Clementine — the checked negatives
+
+**Ps 145:** *Nolite confidere* (145:2) · *In filiis hominum* (145:3) · *Exibit spiritus ejus*
+(145:4) · *Beatus cujus Deus Jacob* + *Adjutor ejus spes ejus* (145:5) · *Qui fecit coelum et
+terram* + *Omnia quae in eis sunt* (145:6) · *Qui custodit veritatem in saeculum*, *Facit judicium*,
+*Injuriam patientibus*, *Dominus solvit compeditos* (145:7) · *Dominus erigit elisos* + *Diligit
+justos* (145:8, on the plate's reading) · *Pupillum et viduam suscipiet* (145:9, the plate's
+`suseipiet` being Migne's type, not a variant) · *Regnabit Dominus in saecula* (145:10).
+**Ps 146:** *Laudate Dominum*, *quoniam bonus est psalmus*, *Deo nostro sit jucunda* (146:1) ·
+*Aedificans Jerusalem Dominus* + *congregabit* (146:2) · *Et alligat* (146:3) · *Qui numerat
+multitudinem stellarum, et omnibus eis nomina vocat* (146:4) · *Sapientiae ejus* (146:5) ·
+*Humilians autem peccatores* (146:6) · *Praecinite* (146:7) · *Qui operit coelum* + *Servituti
+hominum* (146:8) · *Et pullis corvorum* (146:9) · *In tibiis viri* + *beneplacitum erit ei*
+(146:10) · *Super timentes* (146:11).
+**Ps 147:** *Lauda, Jerusalem* (147:1) · *Confortavit seras portarum tuarum* (147:2) · *Adipe
+frumenti* (147:3) · *Qui emittit* / *Qui emittit eloquium suum* / *Terrae* / *Velociter currit*
+(147:4) · *Qui dat nivem* + *nebulam sicut cinerem spargit* (147:5) · *Crystallum suam* +
+*Mittit sicut buccellas* (147:6, on the plate's spelling) · *emittat verbum suum* (147:7) ·
+*Jacob . . . Israel* + *Judicia sua* (147:8–9).
+**Ps 148:** *Laudate Dominum de coelis* (148:1) · *Quia ipse dixit, et facta sunt* + *Ipse mandavit*
++ *facta* + *creata* (148:5) · *Statuit* (148:6) · *Laudate Dominum* + *Omnes abyssi* (148:7, the
+plate's `Dominam` and `ubyssi` being Migne's type) · *Quae faciunt verbum ejus* (148:8) ·
+*Confessio* + *Confessio ejus super coelum et terram* + *Exaltavit cornu populi sui* (148:14).
+**Ps 149:** *Cantate Domino* + *Laus ejus in Ecclesia* (149:1) · *In rege suo* (149:2) · *In choro*
+(149:3) · *Quia beneplacitum est Domino* (149:4) · *Exsultabunt* / *Exsultabunt sancti* / *Gloria*
+(149:5) · *Exaltationes* / *In gutture* / *Gladii* / *Exaltationes Dei in gutture* (149:6) ·
+*Ad alligandos* (149:8) · *gloria haec* (149:9).
+**Ps 150:** *Laudate Dominum* + *Laudate eum in firmamento* + *In firmamento* (150:1) · *Secundum
+multitudinem magnitudinis ejus* (150:2) · *Tuba* / *psalterium* / *cithara* (150:3) · *In chordis et
+organo* / *Chordas* / *Organum* (150:4) · *Laudate eum in cymbalis* / *Cymbala* (150:5) · *Omnis
+spiritus* / *laudet Dominum* / *Omnis spiritus laudet Dominum* (150:6).
+**Elsewhere:** Rom. 7:24 @1076B, **verbatim** · Joan. 14:2 @1078B, verbatim on the plate's own
+`mahsiones` · Isa. 55:1 @1076C, verbatim as far as Migne carries it (*venite ad aquas*).
+
+### 5d. The verse numbering was checked, not assumed
+
+**Every psalm in my range is Vulgate-numbered and agrees with the Clementine head for head**: the
+first lemma under `PSALMUS CXLV.` is Ps 145:2 (*Lauda, anima mea, Dominum*), under `PSALMUS CXLVI.`
+Ps 146:1, under `PSALMUS CXLVII.` Ps 147:1 (*Lauda, Jerusalem*), under `PSALMUS CXLVIII.` Ps 148:1,
+under `PSALMUS CXLIX.` Ps 149:1, under `PSALMUS CL.` Ps 150:1. **Six for six, no offset. No psalm
+number was converted.**
+
+⚑ **Migne's own `VERS.` addresses are reproduced as printed, including where they are odd.** Ps
+CXLVII runs 12, 13, 14, 15, 16, 17, 18, **16** — the last being the site at 1076C, restored from
+the plate. And Ps CXLVIII's `VERS. 13.` and `VERS. 14.` both stand over material the Clementine
+holds at 148:14; that is Migne's own verse division, it is in sequence, and it takes no marker.
+
+---
+
+## §6 · THE NAMED WORDS, ANSWERED ONE BY ONE
+
+- **`In finem`** — ⛔ **not engaged.** Zero occurrences in 1071C–1080B; the Hallelujah psalms carry
+  no such titulus. Reported rather than left silent.
+- **`Diapsalma` / `Diapsalmus`** — **zero occurrences.** Not engaged.
+- **`Canticum graduum` / `gradus`** — ⭐ **ZERO of each.** As the launch brief predicted, the gradual
+  series ends at Ps CXXXIII, well before my range; the 0087–0091 stint owns the ruling and has now
+  tested it at the plate. **My range neither confirms nor strains it.**
+- **`usque ad`** — **16 occurrences, and the `etc.` splice test sorts them 14 / 2.**
+  **14 formula** (each literally `etc., *usque ad*`), rendered "as far as" without exception.
+  **2 not**, and both are ordinary Latin rendered by sense:
+  1. `*quae attingit a fine usque ad finem fortiter,*` @1075D — **Wisdom 8:1 itself**, inside one
+     italic span, → "which reacheth from end to end mightily". The 0953C case exactly: an italic
+     test would have mis-sorted it, the `etc.` test does not.
+  2. `per similitudines mysticas usque ad finem psalmi dicit` @1079A — gloss voice, unitalicised
+     → "by mystical similitudes even to the end of the psalm".
+- **`ad usque`** — ⚑ **zero on the plate in all ten columns, checked by eye and not by grep**, since
+  the class is invisible to any count taken from our TEI. The 1015A occurrence remains the only one
+  known in the work.
+- **`Dominus virtutum`** — zero occurrences. Not engaged.
+- **`sedes`** — one occurrence, `sedentes super duodecim sedes` @1078B → **"sitting upon twelve
+  seats"**. **Zero "throne" in my four chunks**, checked mechanically.
+- **Musical and instrumental vocabulary** — see §7.
+
+---
+
+## §7 · THE RULED AXES, MEASURED OVER MY OWN FOUR CHUNKS
+
+⚑ **Every one of these greps was run against the documented trap first.** `natio` returned exactly
+one hit and it was **`peregrinatione`**; `turba` returned five and **every one was *turbare***
+(*conturbas*, *perturbationem*, *perturbatur* ×2, *turbari*), in a range with no crowd in it; and
+`\bdaemoni` would have **missed** the range's only occurrence, which is `daemonum`.
+
+| axis | Latin in my range | English |
+|---|---|---|
+| `gentes` family | `gentium` ×2, `gentes` ×1, `gentilitas` ×1, `natio` **0** | **Gentiles** ×4 (`Ecclesia gentium` → "Church of the Gentiles"; `omnibus gentibus` and `omnes gentes` in the Judaei/gentes opposition; `gentium reges` → "kings of the Gentiles") and **the Gentile world** for `gentilitas` @1072D, the form added to the axis on 9000. **No singular non-ethnic `gens`; the `gens tenebrarum` exception is not engaged.** |
+| `mysterium` / `sacramentum` | mysterium 0 · `sacramenta` ×1 | **sacraments** ×1, 1:1. ⚑ `per similitudines **mysticas**` @1079A is the adjective, not the noun, and is rendered "mystical" — outside the axis. |
+| `daemonium` / `diabolus` | `daemonum` ×1 · `diabolus`/`diabolum` ×3 · satanas 0 | **demons** ×1, **devil** ×3, no bleed |
+| `turba` / `multitudo` | turba **0** (see above) · `multitudinem` ×2 | **multitude** ×2, crowd 0 |
+| `usque ad` | 16 | **as far as** ×14 (formula), sense ×2 — §6 |
+| `sedes` | 1 | **seat** ×1, throne 0 |
+
+**Archaism, both memberships checked (§A4).** 25 `-eth`/`hath` forms stand in the four chunks and
+**every one is inside an italic scripture span** or inside the English gloss of a `[var:]` marker,
+which is quoted scripture by construction. **Three were caught and de-archaised in the gloss
+voice**: `and the Lord bindeth up their bruises` @1074A and `who hath predestinated and hath called`
+@1076A are the *resumption text of an abridged father's sentence*, which Migne sets **roman**, and
+`because he hath predestinated us` @1075D is plain gloss. ⚑ **The resumption after `usque ad` looks
+like scripture and is not marked as scripture** — an italic-only check passes it, and it is where
+the two archaisms in this range wanted to hide. **No guillemets occur in my range.**
+
+---
+
+## §8 · CRUCES — rendered literally, with the difficulty named
+
+- ⭐ **`humilians autem peccat.` @1074B** — Migne's cue for the next lemma, and the plate confirms
+  `peccat.` with a point. **The literal English is a disaster**: *humilians autem peccat* reads
+  "but humbling, he sins", which makes God the sinner in a sentence about God humbling sinners, and
+  Migne's very next lemma is `Humilians autem peccatores.` in full. **Read as a printer's
+  truncation-with-point, `peccat.` = `peccat[ores]`**, and rendered under Convention 3 as the phrase
+  it stands for: "*but humbling sinners.*" ⚑ **Recorded because it is a judgement, not a reading**,
+  and because the alternative was a Pattern 7a polarity failure of the purest kind.
+- **`actus mobilis, certus, incoinquinatus;` @1075D** — Migne's `actus` has no counterpart in the
+  Clementine's Wisdom 7:22 list. Taken as the participle of *ago* and rendered **"driven, moveable,
+  sure, undefiled"**, which keeps it inside the adjective-string rather than promoting it to a noun
+  ("a motion") that would make the clause govern differently. Flagged, not settled.
+- **`Ante faciem ejus Dei quis sustinebit?` @1076B** — rendered flatly, "*Before the face of him, of
+  God, who shall stand?*", with the apposition left as awkward in English as it is in Latin.
+  Smoothing it to "before the face of God" would have erased the very seam the `[var:]` exists to
+  show, and the `Alias, subsistet` that follows is Migne's own alternative, kept as "Otherwise,
+  shall subsist."
+- **`Frigus est, qui deserit, non vocat, non infundit gratiam` @1076B** — three negations, and
+  **all three carried**: "It is cold when he forsakes, calls not, pours not in grace."
+- **`nec frigus, nec obscuritas, nec duritia desperare potest` @1076B** — likewise: "neither cold,
+  nor darkness, nor hardness can despair", including the strangeness of hardness being the subject
+  of *desperare*. Not repaired.
+- **`Non caro et sanguis, non habitus saeculi` @1080A** — both `non`s carried into a construction
+  English would happily reduce to one.
+- **`Non datur ergo consilium animae a carne … Nec etiam caro mortalis immortali consulit animae`
+  @1072A–B** — a four-clause negative chain, each negative rendered separately. ⚑ **And the
+  apposition rule (§F8) applied**: `quae tamen mortua est propter peccatum` follows a comma after a
+  negated main clause, and it is rendered as a positive relative ("which nevertheless is dead
+  because of sin"), because English apposition does not inherit the negative and the Latin does not
+  give it one.
+- **`et ipsa infinita, vicina est substantiae Dei` @1072A** — `infinita` of the soul rendered
+  "unbounded" rather than "infinite", to keep the soul from being given an attribute of God in a
+  sentence whose whole claim is that it is merely *near* to God's substance. Flagged.
+- **`in composito habitu praesumptuosi et audacis … In tibiis notatur incessus incompositus`
+  @1074D** — Migne says the bearing is *composed* and three lines later that the gait is
+  *uncomposed*. **Rendered as printed, both times.** The strain is his.
+
+### 8a. ⭐ The instruments, rendered as the gloss construes them and NOT modernised
+
+This range is the densest instrumental passage in the Psalter and every name is a figure the
+exposition depends on:
+
+- **`Tuba`** → **trumpet**, because Migne's own gloss makes it *terribilis*, taken up in war or made
+  ready at the coming of kings.
+- **`psalterium`** → **psaltery**, **`cithara`** → **harp**, and the pair is kept distinct because
+  the gloss's entire point is positional: *psalterium a summo, cithara ab imo sonat*.
+- **`chordis` / `Chordas`** → **strings**, since the gloss immediately defines it as *every musical
+  instrument which sounds by the stretching of strings*.
+- **`Organum`** → **organ**, and the description is left as Migne writes it — *quasi turris fistulis
+  diversis fabricata, flatu follium sonans*, "as it were a tower framed of divers pipes, sounding
+  by the blast of bellows". ⛔ **A modern reader's organ is exactly what must not be substituted
+  here**; the tower is the figure.
+- **`cymbalis` / `Cymbala bene sonantia` / `Cymbala bene tinnientia`** → **cymbals well sounding**
+  and **cymbals well tinkling**, kept as two different phrases because Migne gives two different
+  glosses (lips tuned to the heart; *parvissimae phialae* of mingled metals, "very small bowls").
+- **`tympano`** → **timbrel**; **`in choro`** → **in choir**, with the gloss's *nulla dispersio, sed
+  charissima unitas* left to explain why.
+- **`flatus in tuba, pulsus in cithara et in cymbalis, vox in choro`** → "breath in the trumpet,
+  striking in the harp and in the cymbals, voice in the choir" — three physical actions, each kept
+  physical, because the sentence's conclusion is that the harmony *is not perceived by the ears*.
+
+### 8b. Stumps rendered SHORT — the fourteen-site failure profile, checked by name
+
+Every truncated lemma in the range was rendered as Migne prints it, **not completed from the
+Vulgate**:
+
+- **`*Laudabo in vita.*` @1072B → "I will praise in life."** ⛔ NOT "I will praise the Lord in my
+  life" (Ps 145:2 *Laudabo Dominum in vita mea*). ⭐ **The proof is on the page**: *In vita mea.* is
+  **itself the next lemma**, with its own gloss, exactly the 0965B *Oculi mei* shape.
+- **`*Quandiu.*` → "As long as."** Not "as long as I shall be" (*quamdiu fuero*).
+- **`*Adjutor ejus spes ejus.*` → "His helper is his hope."** Not completed with *in Domino Deo
+  ipsius*.
+- **`*Laus ejus in Ecclesia.*` → "His praise in the Church."** Not "in the church **of the saints**".
+- **`*Cantate Domino,*` → "Sing ye to the Lord,"** not "a new canticle".
+- **`*Lauda, Jerusalem.*` → "Praise, O Jerusalem."** Not "praise **the Lord**, O Jerusalem".
+- **`*Mittit sicut bucellas,*` → "He sendeth as morsels,"** not "he sendeth **his crystal** as
+  morsels" — and *Crystallum suam* is, again, the lemma immediately before it.
+- **`*Beatus,*`, `*Statuit.*`, `*Terrae.*`, `*Gloria.*`, `*Gladii.*`, `*Confessio.*`,
+  `*Exaltationes.*`, `*Ad alligandos.*`, `*In gutture.*`** — all rendered as bare stumps.
+- **`*Alleluia.*` at four tituli** — rendered bare; Ps 145's Clementine titulus continues
+  *Aggaei et Zachariae*, and Migne does not print it there. ⚑ He prints those names **in his own
+  gloss prose** at 1075A instead, which is where they are rendered.
+
+### 8c. Subjects, copulas and pronouns supplied — each one named
+
+- @1072A `Anima enim, licet vituperata quia peccatrix` — "**it** is a sinner", the subject supplied
+  from *Anima*, which stands two words away.
+- @1072B `Se ergo secundum sensualitatem exhortans dicit` — "**it** says", subject = the *mens* of
+  the preceding clause, not the soul it is exhorting. ⚑ **This is the §F8 subject-reassignment
+  class**: the mind speaks and the soul answers, and the following *Deinde respondet anima menti*
+  is the control that fixes it.
+- @1072C `in qua quodammodo vivens laudat` — "**it** praises", subject = *anima*, not *spes*.
+- @1074B `Haec facit his qui volunt irridere legem` — "**he** does", subject = God, from *Deo
+  incorporeo* in the preceding sentence.
+- @1076B `Hanc autem Deus solvit` — "But God dissolved **this**", the feminine referring to Migne's
+  own feminine *crystallum suam*, not to Paul.
+- @1076C `Judicium incipit a domo Dei` — no subject supplied; rendered impersonally.
+- @1077A `O vos qui de terra` — **`vos` is plural**: "O ye that are of the earth", against the
+  singular *thou* used throughout 1072B where the mind addresses one soul (§17).
+
+---
+
+## §9 · CANDIDATES RAISED AND **REJECTED** — the instrument, not the leftovers
+
+1. ⛔ **`[d: januam]` @1075B — REJECTED at the plate.** Our twin's `janam januam` is CC's. See §2a.
+2. ⛔ **`[d: scandala.]` @1075B — REJECTED at the plate.** Same paragraph, same cause.
+3. ⛔ **`[sic: *Diligi*]` @1073B — REJECTED at the plate.** The non-word is ours; Migne prints
+   `Diligit`.
+4. **`[sic: *saeculorum*]` @1072B — never formed.** Both `saeculorum` (plate) and `saecularium`
+   (twin) are good Latin. **A patch needs positive evidence and a marker needs a defect**; there is
+   a departure here and no defect. Patch filed, marker refused.
+5. **`[cj:]` on `gratias` @1076C — REJECTED.** The accusative cannot govern *eluceat*, but Pattern 9
+   is decisive: **case has no English exponent.** The number does, and the English carries it
+   ("the graces of the Trinity"). A `[cj:]` would annotate a difference the reader cannot see.
+6. **`[sic:]` on `Secunda` @1077C — REJECTED.** It construes perfectly as *secunda [pars]*, the
+   phrase Migne uses a dozen times in this very work. CC's `Secundo` is the alteration.
+7. **`[var:]` on Ps 149:7 @1078B — REJECTED**, and this is the closest call in the stint. See §5b:
+   the case of Migne's nouns is governed by his own verb.
+8. **`[var:]` on 1 Cor. 6:3 `quia`/`quoniam` @1078B — REJECTED**, no English exponent (§5b).
+9. **`[var:]` on Ps 146:2 `Israel`/`Israelis` @1073D — REJECTED** (§5b).
+10. **Seven bracket-shaped stray sorts and one ink blot (1075B, 1075D)** — **copy condition, not
+    readings**, and the same recurring piece of furniture stints 0087 and 0097–0101 met at
+    1039–1041 and 1062–1071. Not reported as patches.
+11. **`de tymp: no` @1078A** — the running head's descender crowding the line. The word is
+    *tympano*; the twin has it right. Declined.
+12. ⚠ **`ferrcis` @1078D — FIRED, but flagged for a second reader.** It is the exact shape of the
+    hazard that withdrew eleven false accusations in Band B. **What decided it is that the glyph is
+    *well formed*, not broken**: a clean open `c` with both terminals, no ink remnant where a bar
+    would be, against three fully-inked barred `e`s on the same line. **If a second reader disagrees
+    at 1800 dpi, drop it; nothing else in the report depends on it.**
+13. **`Alias.` @1076A with a point** — not a defect, because Migne sets `Alias,` with a comma four
+    lines below in the same column. Both forms are his. Recorded as punctuation only.
+
+---
+
+## §10 · SECTIONS READ CLEAN, AND WHAT I CHECKED IN THEM
+
+⚑ **A logged column is not a checked column**, so each entry says what was checked, not that it was
+looked at.
+
+- **1073A–1073C (Ps CXLV, VERS. 6–10)** — collated word for word against the plate: zero departures
+  of any kind, and six lemmata collated against the Clementine, all clean. The stretch with the
+  fewest departures in my range.
+- **1074B–1074D (Ps CXLVI, VERS. 5–10)** — two punctuation departures and nothing else; the
+  `corvi` / `pulli corvorum` passage checked for a supplied possessive (there is none) and for the
+  negation chain `Corvus non invocat, nos vero dimissi invocamus`, which is carried.
+- **1080A–1080B (Ps CL, VERS. 4–6)** — ⭐ **the last two bands of the work, and they are the
+  cleanest in the range**: not one departure from our twin, in either direction, over the whole
+  instrument passage and the closing gloss. Checked for supplied completions in *Cymbala*,
+  *Omnis spiritus* and *laudet Dominum*; there are none.
+- **1077B–1077C (Ps CXLVIII, VERS. 8–14)** — checked for the subject of *haec agit Deus* and of
+  *attendentes laudent eum*; both carried as printed. One punctuation departure.
+
+---
+
+## §11 · HANDOFF
+
+1. ⛔⛔ **FIFTEEN markers stand unlocked behind the patch pass**, every one itemised with its marker
+   text **and its English edit** in `data/briefs/8967-PENDING-TEI-PATCHES.md` under
+   `BAND C — stint 0102–0105`. **Do not read this stint's `0 [sic:] / 0 [cj:]` as a clean range** —
+   it is the highest departure rate reported in the band. ⚑ **Reconcile reported sites against
+   applied ones**: two of Band B's blind-read findings were patches a stint reported and nobody
+   built.
+2. ⭐ **The end of the work is confirmed CLEAN** (§1). No colophon, no `FINIS`, nothing dropped.
+   **This question is now closed and needs no second look.**
+3. ⛔ **Wilson still owes the 1029B-class ruling**, and my range produces its mirror at **1078B**
+   (`nos` for `non`): the plate drops a negative the twin supplies, and no marker class reaches it
+   before the patch. My English follows the twin and says so. **Two sites now turn on this ruling,
+   in two different stints.**
+4. **Cols 1071–1080 are all CLEAN at the inner margin** and belong in the record as ten more
+   counter-examples, including 1073 and 1077, both ≡ 1 (mod 4). **No new Gallica site; the
+   work-wide open list stands at seven.**
+5. **For the blind polarity read**, the four places in this range where a reader should look
+   hardest, because they read perfectly in English and rest on a judgement:
+   **(a)** `humilians autem peccat.` @1074B, rendered "*but humbling sinners*" as a truncation
+   rather than "he sins" (§8);
+   **(b)** the supplied subject at 1072B, where the **mind** speaks and the **soul** answers;
+   **(c)** the plate-following `Haec spe erecta anima` @1071D, "This soul, lifted up by hope";
+   **(d)** `unde non sit liberum exire` @1078B, where the English carries a negative **the plate
+   does not print** and the reason is written out in §4a.
+   ⚑ Each is logged with WHAT was checked, not merely that it was looked at.
+6. **`actus` @1075D** is rendered "driven" inside the Wisdom 7:22 string and is a flagged guess, not
+   a settled reading.
+7. **Nothing was committed, deployed, patched or re-chunked.** `data/plate-reads.json` gained five
+   entries; `data/briefs/8967-PENDING-TEI-PATCHES.md` gained one section. `verify-english` OK,
+   `plate-gate` OK.
+
+
+## §I.bandC-english-0077 — file `cruces-bandC-english-0077.md`, verbatim
+
+# Band C — the ENGLISH side of the patch pass, chunks 0077–0086 (cols 1011C–1039B, Psalms CI–CXVI)
+
+**Written 2026-09-05, after the 134-patch Band C pass landed.** The Latin was made right; this
+file records what was then done to the English at every patched site in the range, and what was
+looked at and deliberately left alone. ⚑ **A logged site is not a checked site** — every entry
+below was read against the *patched* Latin twin, not against the patch report.
+
+**Totals for the range: 23 markers fired (13 `[sic:]`, 10 `[cj:]`), 21 sites checked and left
+unchanged, 1 site left untouched under a standing ruling, 1 finding raised and NOT acted on, 1
+claim that cannot be made to reconcile for a reason that is not a missing marker.**
+
+Checks at close: `verify-english` **OK** · `plate-gate` **OK** (every marker in this range stands
+on a column the 0077 and 0082 stints read at the plate) · `marker-reconcile --band 10`
+— **every claim in cols 1011C–1039B now stands except one**, and that one is a chunk-boundary
+artifact in the reconciler rather than a missing marker (see §4). The remaining misses in its
+output belong to columns outside this range. (It reported 64 claims / 0 standing before the pass.)
+
+---
+
+## §1 · MARKERS FIRED — 23, with the word each one sits on
+
+⛔ Every marker below was placed **immediately after the English word it accuses**, and each was
+re-read with the marker's contents deleted (7a⁗ questions 1–3). §F8's misplaced
+`[sic: *Eccesiam*]` is the failure this column of the table exists to prevent.
+
+| col | chunk | marker | the English word it sits on | 7a⁗ check |
+|---|---|---|---|---|
+| 1011D | 0077 | `[sic: *deis*]` | "the days" (*deis* for *dies*) | verb *fail* stands outside |
+| 1014B | 0078 | `[sic: *qut*]` | "who" (*qut* for *qui*) | relative supplied in the clear — see §1a |
+| 1014D | 0078 | `[cj: *par*; read *per*, "through"]` | "through" | preposition stated outside the marker |
+| 1015A | 0078 | `[cj: *dilectum*; read *delictum*, "the offence"]` | "the offence" | subject of *abound* stands |
+| 1015A | 0078 | `[cj: *secundam*; read *secundum*, "according to"]` | "according to" | preposition outside |
+| 1015C | 0079 | `[cj: *Deus*; read *Deum*, "to bless God"]` | "God" (object of *benedicere*) | — |
+| 1015D | 0079 | `[sic: *mugnificatus*]` | the lemma "*magnified.*" | — |
+| 1015D | 0079 | `[cj: *putes*; read *potes*, "thou canst"]` | "canst" | ⭐ **the negative "not" stands OUTSIDE the marker** (7a⁗-2 / 7a⁗) |
+| 1016C | 0079 | `[sic: *VERS. 15.*]` | the address itself — see §2 | — |
+| 1019C | 0080 | `[sic: *haere ditas*]` | "an inheritance" | ⭐ split type, **whole run carried** (Pattern 10); "is promised" stands outside |
+| 1021B | 0080 | `[sic: *Ft*]` | "And", inside the italic lemma | conjunction stated in the clear |
+| 1023A | 0081 | `[sic: *ete.*]` | the "etc." | the `etc.` itself is kept, so the A7 splice test still keys |
+| 1027B | 0082 | `[sic: *honorum*]` | "good" (*honorum* for *bonorum*) | — |
+| 1029A | 0083 | `[sic: *posueruent*]` | "set", inside the italic lemma | — |
+| 1030C | 0083 | `[sic: *quiquid*]` | "whatsoever" | — |
+| 1032A | 0084 | `[cj: *glorificatur*; read *glorificatus*, "glorified"]` | "glorified" | — |
+| 1033A | 0084 | `[sic: *liberavi*]` | "delivered" | — |
+| 1034A | 0085 | `[cj: *laudamus*; read *laudandus*, "to be praised"]` | "to be praised" | — |
+| 1037D | 0086 | `[cj: *intra*; read *intrat*, "he enters"]` | "he enters" | ⚑ the Mt 25:21 lemma three words later prints the true imperative *intra* and is **untouched** |
+| 1038D | 0086 | `[sic: *reddum*]` | "pay", in the FIRST *I will pay my vows.* | ⚑ the second, correct *reddam* at 1038D–1039A is untouched — that is the same-page control |
+| 1039A | 0086 | `[sic: *ue*]` | "lest" (*ue* for *ne*) | ⭐ **7a⁗ — the negative purpose-word "lest" stands OUTSIDE the marker** |
+| 1039A | 0086 | `[cj: *Psalmus*; read *Psalmum*, "the following psalm"]` | "psalm" | — |
+| 1039A | 0086 | `[cj: *recipi*; read *recipit*, "it admits"]` | "admit" | ⭐ **"does not" stands OUTSIDE the marker** |
+
+*(23 markers across 21 patched sites — 1015D carries two and 1039A carries three.)*
+
+### 1a. ⚑ ONE WORDING CHANGE WAS MADE TO GIVE A MARKER ITS WORD — 1014B, and it is declared
+
+Migne prints `si est homo qut audiat`. The English read **"if there is a man to hear"**, in which
+*qui* has no exponent at all — the infinitive absorbs the relative. There was therefore no word for
+`[sic: *qut*]` to sit on, and the only two places to put it were after "man" (which accuses *homo*,
+a word Migne set correctly — the §F8 error exactly) or after "hear" (which accuses *audiat*, ditto).
+
+**The English now reads "if there is a man who [sic: *qut*] hears."** This is the minimum change
+that lets the marker stand on its own word, and it is recorded here because it is a wording edit the
+worklist did not name. The parallel clause four words later (`si non est qui audiat homo` → "if
+there is no man to hear") was **not** touched: Migne sets that *qui* correctly, and there is nothing
+there to mark.
+
+### 1b. Where the [sic:] wraps a real word — the licence, stated
+
+`*honorum*` (1027B), `*liberavi*` (1033A) and `*ete.*` (1023A) are or contain real forms. They are
+marked, not rendered silently, on Pattern 12's **"does it render IN PLACE?"** test and on the
+`[sic: *disertum*]` precedent already standing in this work at col 0923B (chunk 0041): the English gives the
+sense the passage requires and the marker carries Migne's type immediately behind it. Both stint
+files (`cruces-0077.md` §8.1, `cruces-0082.md` §3) had already named each of these as *owed*; the
+patch is what made them fireable, and nothing about the bar was loosened to fire them.
+
+---
+
+## §2 · 1016C — MIGNE'S OUT-OF-SEQUENCE ADDRESS, RESTORED **AND** MARKED
+
+Migne's sequence at Ps 103 runs **12, 15, 14, 16, 17**; CC silently renumbered his `VERS. 15.` to
+`VERS. 13.`. The patch restores it and the English now reads:
+
+> `VERS. 15.-- [sic: *VERS. 15.*] *Of the fruit of thy works.*`
+
+⚑ **This does not reopen the Pattern 9 decline recorded at `cruces-0077.md` §8.2.** That decline
+covers `VERT. 41.`, `VERS 28.` and `VERS, 32.` — misprints **of the label**, which English
+normalizes precisely because the facing Latin preserves them. **A wrong NUMBER is not a label
+misprint**: it is a fact about Migne's ordering of the psalm, it survives normalization, and
+Wilson's ruling is that it is restored *and* marked. The two classes are now visibly distinct in
+this range: three unmarked labels, one marked number.
+
+The English and its twin, which disagreed visibly from the moment the 0077 stint wrote the address
+to the plate (`cruces-0077.md` §10.2), now agree.
+
+---
+
+## §3 · CHECKED AGAINST THE PATCHED LATIN AND DELIBERATELY UNCHANGED — 21 sites
+
+Every one of these was read in place against the twin as patched. **Nothing was edited at any of
+them.**
+
+| col | what the patch restored | what the English says, and why it stands |
+|---|---|---|
+| 1012A | `*Pelicano,* (AUG.)` — CC's `etc.` removed | the English prints no "etc." here ✔ ⚑ material to the A7 splice test: the real splice is four words later and still keys on its own `etc.` |
+| 1013C | `et Paganus credit` | "which the Pagan also believes" ✔ |
+| 1013D | `transeant` for `transeunt` | "which do not pass away" — a mood change with **no English exponent** (Pattern 9) ✔ |
+| 1015A | `Per Moysen omnes` (CC had fused it) | "By Moses, all the saints" ✔ — translating the fused twin would have forced garble or a false `[sic:]` |
+| 1015C | `Aggratulando` for CC's `Agratulando` | "He speaks by way of congratulation" — no exponent ✔ |
+| 1015D | `quia semper magnus` for `qui semper` | "because thou art always great by nature" ✔ |
+| 1021B | `ut hic adjuti` for `ut his adjuti` | "that being helped here" ✔ |
+| 1022C | `Id est, quod` for `quid` | "That is, what thou didst will to give them" ✔ |
+| 1023C | `quod est boni` for `quod et boni` | "which belongs to a good man too" ✔ |
+| 1024B | `adinventionibus` as ONE word | "in their own devices" ✔ |
+| 1024D | `et his et supra` for `et hic` | "both in these places and above" ✔ |
+| 1025B | `caeperant` for CC's `coeperant` | "they had taken them" ✔ ⭐ and the `[var:]` already standing beside it quotes the Clementine *ceperant*, so the page now says the same thing twice over |
+| 1025C | `oratum est` for CC's non-word `eratum` | "which was prayed" ✔ — **the non-word was ours** |
+| 1026D | `spiritus procellae.` — CC's `, etc.` dropped | the English prints no "etc." after "*the spirit of the storm.*" ✔ (but see §5 for the other half of this site) |
+| 1027A | `conmendatur` | "the Church is commended" — attested assimilation, Pattern 9, no marker ✔ |
+| 1027B | `usque ad` with CC's inserted `sed` dropped | "*as far as* they were not of the fewness of the elect" — no "but" ✔ |
+| 1029A | `quod est Deus judex facit` | "which is, God the judge does" ✔ — the hard clause is rendered hard, not smoothed |
+| 1029B | `regibus gentium`, CC's `sub` dropped | "of the kings of the Gentiles" ✔ |
+| 1029B | `Diripiant labores ejus` (plural) | "Let them plunder his labours" ✔ |
+| 1031D | `manet in saeculum saeculi` | "*for his justice remaineth for ever and ever*" ✔ |
+| 1035A | `Barbara lingua est` | ⭐ "**That tongue is barbarous which praises not God**" — a definition, not an agreement error ✔ exactly what the restored Latin now carries |
+
+---
+
+## §4 · THE ONE CLAIM THAT WILL NOT RECONCILE, AND IT IS NOT A MISSING MARKER
+
+`marker-reconcile --band 10` still reports:
+
+> `⛔ 1015C 0078.md — CLAIMED [cj: *Deus*; read *Deum*] but the English does not carry it`
+
+**The marker is fired, and it is in `0079.md`, which is where the text is.** Column 1015C straddles
+the chunk boundary: `0078.md` ends inside it (its body carries the `[1015C]` anchor) and `0079.md`
+opens inside it (`colContext: "1015C"`). `marker-reconcile`'s `colToChunk` map takes the **first**
+chunk in which a column appears, so it looks for this marker in 0078 and cannot find it.
+`Item benedicere Deus monet, primo` is the first sentence of 0079.
+
+⛔ **Do not "fix" this by moving the marker into 0078.** That would put a conjecture on a column of
+text that is not there. The defect is in the reconciler's boundary heuristic — it should prefer the
+chunk whose *body* carries the patched find-string — and it is recorded here rather than worked
+around.
+
+---
+
+## §5 · RAISED AND **NOT** ACTED ON — 1026D, the doubled "subjoining,"
+
+Migne prints, restored:
+
+> `exponit procellas eorum, *dixit et stetit. In profundo. Dixit et stetit* subdens, *spiritus procellae.*`
+
+— one roman `subdens,` and it stands **between** the two italic runs. **The English prints
+"subjoining," twice:**
+
+> "he expounds their storms, **subjoining,** *he spoke, and there stood. In the deep. He spoke, and
+> there stood,* **subjoining,** *the spirit of the storm.*"
+
+The italic span counts agree (5 EN / 5 LA at that paragraph), which is what `cruces-0082.md` §0's
+note about a deliberate span-structure divergence covers. **The doubled roman word is a separate
+thing and appears to be a leftover**: the pre-patch twin carried `subdens,` at the *head* of the
+passage, the 0082 stint wrote the plate's copy in *between*, and the head copy was never removed.
+Our page therefore prints a word twice that Migne prints once.
+
+**No edit was made.** The worklist's disposition for 1026D is "confirm the English still reads
+correctly", it names no wording change, and deleting a word on my own reading is exactly the kind of
+unlicensed edit this pass exists to prevent. ⭐ **It is filed for a ruling.** If it is a leftover,
+the fix is one deletion — the first "subjoining," — and it belongs to whoever owns 0082.
+
+---
+
+## §6 · UNTOUCHED UNDER A STANDING RULING — 1029B
+
+Our twin: `Quia **non** thesaurizant in coelo.` **The plate: `Quia thesaurizant in coelo.`**
+Read mid-line, unclipped, at 900 dpi by the 0082 stint. **No patch was applied and none is owed
+here from me.** No marker class reaches an omission (`[sic:]` may wrap only printed type, `[cj:]`
+needs a printed word to open on, `[ed:]` confesses *our* loss and not Migne's), the class is open
+for Wilson's ruling, and the English at `0083.md` keeps the negative — "Because they lay not up
+treasure in heaven" — with the divergence standing on the record. **Left exactly as it was.**
+
+---
+
+## §7 · REFUSED — one marker the range could have carried and does not
+
+**1036D `nota` for `notat`.** The patch restores Migne's `nota quod non est otiosus dilector`; the
+English reads **"he notes that the lover is not idle"**, which renders `notat`. The worklist gives
+this site no disposition beyond the plate reading, `marker-reconcile` makes no claim on it, and the
+patch note itself says only that "the nota/notat half is certain at the plate".
+
+**No marker was fired.** `[sic:]` on a real imperative would be arguable under Pattern 12(1) — an
+imperative stranded among indicatives is the *Pecte*/*ama* shape — but **the worklist does not
+license it**, and a marker nobody authorised is a public accusation against Migne made on my own
+authority. Raised here so the Band C merge can decide; a wrong marker is worse than a missing one.
+
+⚑ The other half of the same clause (`ostiosus`/`ostiosns`) was refused at the patch pass itself
+and remains refused: the penultimate letter will not settle as u or n, and a patch must not guess a
+letter (the *Nafrubimus* discipline).
+
+---
+
+## §8 · WHAT WAS DELIBERATELY NOT DONE
+
+- **No `[var:]` fired.** Vulgate divergences in this range were settled by the 0077 and 0082 stints
+  and are outside a patch-completion pass.
+- **No `[d:]` fired.** The two `[d:]` claims in the patch file (1039C `et, et`, 1044A `hoc, hoc`)
+  belong to the next stint's chunks (0087, 0088), not to 0077–0086.
+- **No frontmatter, column anchor or `[n: …]` note content was altered.** ⚑ `cruces-0077.md` §10.3
+  lists one owed note edit — `0079.md` @1017B, `[n: (AUG.)]` → `[n: (AU.)]`. **The corresponding TEI
+  patch is not in the Band C pass**, and note contents are checked as a substring of the Latin twin,
+  so making the edit now would break verification. **Still owed, still blocked on the Latin.**
+- **No wording was "improved"** anywhere the worklist did not name it, with the single declared
+  exception at §1a.
+
+
+## §I.bandC-english-0087 — file `cruces-bandC-english-0087.md`, verbatim
+
+# Band C — the ENGLISH side of the patch pass, chunks 0087–0096 (cols 1039C–1061C)
+
+**Range:** `src/english/8967/0087.md` … `0096.md`, Psalms CXVII–CXXXVIII.
+**Input:** `data/briefs/8967-bandC-PATCH-WORKLIST.md`, sites in cols 1039–1061.
+**Rule obeyed throughout:** a patch is not done when the Latin is right. Every site below was
+either given its marker, or read against the newly patched Latin and deliberately left alone,
+or refused with the reason written out. ⛔ **Every marker was checked against the word it
+accuses** (§F8 defect 1) and against 7a⁗ (does the clause still have its verb, its negation,
+its conjunction with the marker's contents deleted?).
+
+**Totals for the range: 17 unlock claims in the applied patch file, and 17 markers fired
+(`[sic:]` 10 · `[cj:]` 5 · `[d:]` 2) · 3 English wording edits made · 22 patched sites checked
+and deliberately left unchanged · 3 further claims that could NOT be fired, each refused with
+its reason in §4.** `marker-reconcile` reports 12 of the 17 standing; the other five are fired
+and are §4.1–4.3 tool/claim artifacts, not missing markers.
+
+---
+
+## §1 · MARKERS FIRED — 12, each on the word it accuses
+
+| col | chunk | marker as fired | sits on | 7a⁗ check |
+|---|---|---|---|---|
+| 1039C | 0087 | `[sic: *ete.*]` | the abridgment sign `etc.,` itself | nothing governed; the `as far as` formula follows intact. Form follows the `etc., [sic: *atc.*]` precedent already standing in Band A. |
+| 1039C | 0087 | `[d: et]` | the intrusive second `et` of `evadit, et et ad` | the rendered "and" stands outside the marker; deleting the marker leaves "and comes to the true life". |
+| 1040A | 0087 | `[sic: *pecatorum*]` | **"sins"** (= *pecatorum*), not "thorns" | noun only; clause keeps verb and sense. ⚑ The correctly-set `peccata` eleven words later — the same-line control — is left unmarked. |
+| 1043C | 0088 | `[cj: *eum*; read *cum*, "with"]` | **"him"**, the English of the printed *eum* | additive per Pattern 18; the ablative *Domino* keeps "with the Lord". |
+| 1043C | 0088 | `[cj: *Deum*; read *Deus*, "God sits"]` | **"God"** (= *Deum*) | additive; "sits" stands outside. English has no case exponent, so without the marker the rendering silently repairs the accusative — Pattern 12(2)'s reasoning, met here with the additive marker Pattern 18 provides. |
+| 1044A | 0088 | `[d: hoc]` | the intrusive second `hoc` of `in hoc hoc quod` | "in this … that I love thee" is intact with the marker deleted. |
+| 1044B | 0088 | `[sic: *similttudinem*]` | **"a similitude"** | noun only. |
+| 1047A | 0090 | `[sic: *dieeret*]` | **"As if he should say"** (= *Quasi dieeret*) | the sense stands in plain English outside the marker; the second, correctly-set *diceret* at 1047D is untouched. |
+| 1048B | 0090 | `[cj: *veniens*; read *venient*, "shall come"]` | **"coming"**, the English of the printed singular participle | ⚑ **English edit made with it**: "when the saints shall come" → "when the saints, coming […], *carrying their sheaves with joyfulness.*" The old wording rendered the TWIN's *venient* and would have silently repaired the column (§F8 defect 4). The main clause keeps its verb ("shall their fruit be"); the anacoluthon is Migne's. |
+| 1052C | 0092 | `[sic: *cxaltaxit*]` — **not** `*exaltaxit*`, see §4.1 | **"he has exalted"** | the clause's only verb is rendered in plain words beside the marker, per 7a⁗ rule 1. |
+| 1053A | 0093 | `[sic: *iu*]` | **"in"** (= *iu* for *in*) | ⛔ 7a⁗: the preposition's force stands OUTSIDE the marker — "in [sic: *iu*] the breadth of charity". Fired in **0093.md**, which is where the Latin twin carries `iu` (see §4.2). |
+| 1055B | 0094 | `[cj: *orbi*; read *orbis*, "of the whole world"]` | **"world"** (= *orbi*) | additive; fired in **0094.md**, where the Latin carries it (§4.2). |
+| 1058C | 0095 | `[cj: *dici*; read *dicit*, "he tells"]` | **"it is said"**, the English of the printed passive infinitive | ⚑ **English edit made with it**, as the worklist required: "where he tells how" → "where it is said [cj: …] how". The old wording was our repair of a broken verb. |
+| 1058D | 0095 | `[sic: *noc*]` | it sits **after the English negative**: "a punishment, **not** [sic: *noc*] only a fault" | ⛔ **7a⁗**: *noc* IS the negative, so the English "not" stands OUTSIDE the marker. Deleting the marker leaves "a punishment, not only a fault" — the negation survives. |
+| 1059C | 0096 | `[sic: *incomprehensibllis*]` | **"incomprehensible"** | adjective only. |
+| 1059C | 0096 | `[sic: *pecatum*]` | **"sin"** (= *pecatum*), not "ancient" | noun only. |
+| 1059D | 0096 | `[sic: *fungiendum*]` | **"flee"** (= *fungiendum* for *fugiendum*) | ⛔ **7a⁗**: the `non` is rendered "must **not** flee" and stands OUTSIDE the marker. |
+
+(Seventeen rows, seventeen markers: `[sic:]` 10 · `[cj:]` 5 · `[d:]` 2.)
+
+⚑ **Marker content is verbatim in the Latin twin at every one** — `verify-english` check 9 (and
+check 12 for the `[cj:]` opening word) is the mechanical proof, and it passes.
+
+---
+
+## §2 · THE ENGLISH WORDING EDITS THE WORKLIST NAMED — all three made
+
+1. **1059D `Quo ibo spiritu tuo`** (0096). Migne drops the `a` our twin carried. The lemma now
+   reads **"*Whither shall I go by thy spirit?*"** where it read "from thy spirit".
+   ⭐ **Taken deliberately, and this is the log the worklist asked for:** the gloss's own next
+   clause is *jam deliberat non esse ab eo fugiendum* — "he must not FLEE FROM him" — so the
+   English lemma and the English gloss now contradict each other on the page. **That
+   contradiction is Migne's, and Pattern 7 exists to show it.** No `[var:]` is added (Band C's
+   `[var:]` are settled by the stints, and I was told not to open them), but a reader who
+   collates Ps 138:7 will find the Vulgate's `a spiritu tuo` — the divergence is visible, which
+   is the point.
+2. **1060B `Et dixit` ×2** (0096). Both lemmata now read **"*And he said*"** for "And I said".
+   ⚑ The gloss beneath the second is *Deliberavi* = "I deliberated", first person, so Migne's
+   plate now argues against its own gloss. That is what the plate does; nothing was smoothed.
+3. **1048B** — the `venient`→`veniens` rewording, logged with its marker in §1.
+
+---
+
+## §3 · CHECKED AND DELIBERATELY LEFT ALONE — 14 sites. ⚑ A logged site is not a checked site
+
+Each of these was read in the English **against the newly patched Latin**, word by word.
+
+| col | chunk | what the patch did | what the English says, and why it stands |
+|---|---|---|---|
+| 1039D | 0087 | `Nesciente Judae rem omnium` | "Judah not knowing, they made…" — renders the plate. No marker owed. |
+| 1041D | 0087 | `e quibus` → **`et quibus`** (the Psalm CXVIII editorial sentence) | "…of Ambrose, Cassiodorus, Augustine, **and from these** the Glossa ordinaria on this place has been expressed word for word." Renders `et quibus` as printed. **Unchanged.** ⛔ **No `[ed:]` added** to the four words recovered from col 1041's clipped inner margin — that ruling is Wilson's and is still open. |
+| 1043A | 0088 | `VERS.` → **`VESS. 4.`** | Section label: Pattern 9 governs, English normalizes to `VERS. 4.--` **precisely because** the facing Latin now preserves Migne's misprint. No marker either way. |
+| 1044A | 0088 | CC's inserted `et` removed (`proximos fratres`) | "*I spoke peace of thee, for neighbours, brethren*" — already without "and". |
+| 1045B | 0089 | our TEI's `PSAMUS` → **`PSALMUS CXXIV.`** (CC's non-word, not Migne's) | Head stays `PSALM CXXIV.` No `[sic:]` in either direction (Pattern 9). |
+| 1046C | 0089 | `Aventus` → **`Adventus`** — CC manufactured the non-word | "The redemption of the coming of the Lord having been foretold…" The English does not accuse Migne here, and must not. |
+| 1048A | 0090 | `omne`→`omnes`, `labores`→`labore` | "*Blessed are all they that fear the Lord*" · "taken up with joy even in the labour" — both render the plate. |
+| 1050A | 0091 | CC's unmatched `(` removed | "Nourished in milk, which is the Word made flesh" — written without a parenthesis. |
+| 1050C | 0092 | `quo`→`quod` | English already renders it. |
+| 1052A | 0092 | `in` → `tu` before the column turn | "etc., *as far as* [1052B] for thou doest it because thou hadst erred" — renders the plate. |
+| 1053A | 0093 | `Non quod alia gratia` → `Non alia gratia` | English already renders the plate. |
+| 1055B | 0093 | `quasi dicat:` → **`quasi :`** | "as it were: Let the worshippers of idols become like unto them." Renders the plate. |
+| 1055B | 0093 | `VERS. 18.--` → **`VERS. --`** (the plate prints NO verse number) | ⛔ **The English keeps `VERS. 18.--`** — addresses pass through verbatim; the patch is Latin-only. **Unchanged.** |
+| 1056A | 0094 | `qui`→`cui` | "to whom he granted not only to believe" — renders the plate. |
+| 1056B | 0094 | `fecit` → **`facit`** (present) | "what things he **does** in Egypt" — the live typology, already right. |
+| 1056D | 0094 | `mente et desiderio` → `mente desiderio` | "who in mind, in desire are citizens of Jerusalem" — no "and". |
+| 1057C | 0094 | `Ideumaei` → **`Idumaei`** — CC's non-word | "that is, the Idumeans". No accusation stands there. |
+| 1058B | 0095 | `exspecto`→`expecto` | Orthographic; no English exponent. Unchanged. |
+| 1059A | 0095 | `princeps` → **`principes`** | "in whom **the princes of the world** found no sin, wherefore they should kill him" — the plural, against *quare occideret*. Already right. |
+| 1059B | 0096 | `Semitam meam` → **`Semitam meum`** | ⛔ **NO marker.** Migne's concord defect has no English exponent (the `res aliena` @0971D precedent, Pattern 12's exemption). "*My path,* namely the evil one" stands. |
+| 1059B | 0096 | `occurit` → **`occurrit`** — CC's non-word | "as the father ran to meet the younger son returning". No accusation. |
+| 1060C | 0096 | `agnoscis`→`agnoscit` | "in so far as **he** acknowledges" — already the third person. |
+
+---
+
+## §4 · REFUSED, AND WHY — three claims I did not fire, plus two that the reconciler cannot see
+
+⛔ **A wrong marker is worse than a missing one, because it accuses Migne in public.**
+
+### 4.1 `[sic: *exaltaxit*]` @1052C — **fired as `[sic: *cxaltaxit*]` instead**
+The worklist's claim string is `[sic: *exaltaxit*]`, but the patch actually applied — and the
+Latin twin now actually carries — **`cxaltaxit`** (`secure ⏎ cxaltaxit.`, 0092.md). A
+`[sic: *exaltaxit*]` would (a) be a hard `verify-english` error, since the content is not
+verbatim in the twin, and (b) accuse Migne of type he does not set. **I fired what the plate,
+as patched, prints.** The stint's own table (`cruces-0092.md` §2) records the plate reading as
+`cxaltaxit` too, so the claim string in the patch file is the outlier. **This is a one-word
+correction owed to `data/tei-patches/8967.json`'s `why` field, not to the English.**
+
+### 4.2 Two markers the reconciler reports missing that ARE standing — a column→chunk artifact
+- **1053A `[sic: *iu*]`** is fired in **0093.md**; the reconciler looks in **0092.md**.
+- **1055B `[cj: *orbi*…]`** is fired in **0094.md**; the reconciler looks in **0093.md**.
+Both columns straddle a chunk boundary. `marker-reconcile.mjs` maps a column to the **first**
+chunk whose body carries its `[anchor]`, and never to a later chunk whose `colContext` is that
+same column. The Latin `iu latitudine` stands in `src/latin/8967/0093.md` and `totius orbi` in
+`src/latin/8967/0094.md`, so the markers **cannot** be placed where the reconciler looks
+without failing the `[sic:]`/`[cj:]` substring test. **The English is right; the mapping is
+coarse.** (Fix, if wanted: prefer a chunk whose `colContext` equals the column when the anchor
+chunk's Latin twin does not carry the word. I did not edit the script.)
+
+### 4.3 The two `[d:]` claims can never be reported standing — a `key()` limitation
+`[d: et, et]` @1039C and `[d: hoc, hoc]` @1044A are both **fired** (`[d: et]`, `[d: hoc]`).
+`marker-reconcile.mjs` extracts a claim's first *italic* word; a `[d:]` claim has none, so it
+falls back to the raw claim string and builds the regex `\[d:[^\]]*\[d: et, et\]`, which no
+text can match. **Structurally unsatisfiable, not an English defect.**
+⚑ **On the marker itself:** Pattern 11 wraps the **intrusive copy only, never both**, so
+`[d: et, et]` is a description of the site, not a marker. Both doublings are **identical
+runs**, so 11a does not apply and the marker goes on the **second** copy. Both copies stand
+mid-line and adjacent (1044A explicitly not at a column turn), so the manufactured-dittography
+trap does not apply, and **neither firing deletes a finite verb** — the withdrawal of
+`[d: videantur, et]` @0991C in Band B is not repeated. Content is Migne's own token
+(`et`, `hoc`), following this work's two standing precedents `[d: in]` @0890A and
+`[d: unde]` @0934C.
+
+### 4.4 `[sic: *Ddvid*]` @1059A — **REFUSED: the patch was never applied**
+`cruces-0092.md` and `8967-PENDING-TEI-PATCHES.md` both report the plate as
+`In finem psalmus Ddvid.`, but **`src/latin/8967/0096.md` reads `David`** and the site is
+absent from the applied worklist. A `[sic: *Ddvid*]` would fail the substring test and would
+accuse Migne of type our own Latin does not carry. **The Latin patch is owed first.**
+
+### 4.5 `[cj: *in*; read *id*]` @1060A — **REFUSED: the patch was never applied**
+Same shape. The stint reports `in est efficaciam`; `src/latin/8967/0096.md` reads
+`id est efficaciam`. A `[cj:]` may only be offered against a word Migne actually prints (and
+the verifier enforces it). English left as it stands: "that is, the efficacy of the Godhead."
+
+### 4.6 `justificaui` @1059C — patched, marker deliberately NOT fired, and the site is OPEN
+The Latin twin now carries `jam in tua gratia justificaui`; the English still reads **"now
+justified in thy grace"**, which renders the twin's old `justificati`. I did not change it and
+I did not mark it, because **the worklist itself leaves the class undecided** ("whether Migne
+meant *justificavi* or set a broken *justificati* cannot be decided from the leaf") and my
+range's instructions do not license a marker here. ⚑ **State it plainly rather than let it
+pass:** if the reading is a broken *justificati*, a `[sic: *justificaui*]` is owed on
+"justified"; if it is *justificavi* with the u/v sort, the English owes "now in thy grace I
+have justified" and no marker. **This is the one site in my range where the English still
+renders a word the patched Latin no longer carries.** It needs the leaf, or Wilson.
+
+---
+
+## §5 · CHECKS RUN
+
+- `node scripts/verify-english.mjs 8967` → **verify OK**, 106 chunks (pre-existing advisory
+  warnings only: the em-dash note and the 0043 question-mark warn, neither in my range).
+- `node scripts/plate-gate.mjs 8967` → **gate OK** — every marker I fired stands on a column
+  read at the plate (pages 525–535, read by the 0087–0091 and 0092–0096 stints).
+- `node scripts/marker-reconcile.mjs 8967 --band 10` → **64 claims · 28 standing · 36 missing**,
+  from **0 standing** before this pass. **12 of my range's 17 claims now stand**; the five that
+  do not are §4.1 (a wrong claim string), §4.2 (two standing markers the mapping cannot see) and
+  §4.3 (two claims the key() cannot express). Every remaining MISSING line is outside cols
+  1039C–1061C and belongs to another range.
+
+## §6 · HANDOFF
+1. **Two Latin patches are owed and were never applied**: `David`→`Ddvid` @1059A and
+   `id est`→`in est` @1060A. Two markers are waiting behind them (§4.4, §4.5).
+2. **One `why` string in `data/tei-patches/8967.json` is wrong**: 1052C claims `*exaltaxit*`,
+   the patch applied `cxaltaxit` (§4.1).
+3. **`justificaui` @1059C is open** (§4.6) — the only English in my range that outruns its Latin.
+4. **`marker-reconcile.mjs` has two blind spots** (§4.2 column→chunk, §4.3 `[d:]` keys) that will
+   report false MISSING for any later range as well.
+5. Nothing was committed; no Latin file was touched; no frontmatter, column anchor or `[n: …]`
+   note content was altered.
+
+
+## §I.bandC-english-0097 — file `cruces-bandC-english-0097.md`, verbatim
+
+# Band C — the ENGLISH side of the patch pass, chunks 0097–0105
+
+### cols 1061D–1080B · Psalms CXXXIX–CL · the end of the work
+### Worked 2026-09-05 against `data/briefs/8967-bandC-PATCH-WORKLIST.md`, sites in cols 1061–1080 only.
+
+⛔ **A patch is not done when the Latin is right.** Every patched site in the range was read
+against the newly patched Latin twin, not merely logged. Below: the markers fired and where each
+one sits; the sites checked and deliberately left alone; and three things the worklist asked for
+that I did not do, with the reason.
+
+**Totals: 26 markers fired — 15 `[sic:]`, 10 `[cj:]`, 1 `[var:]`. Two body-text punctuation
+edits. No other wording changed anywhere in the nine chunks.**
+
+---
+
+## §1 · THE GOVERNING DECISION, STATED FIRST BECAUSE EVERYTHING BELOW DEPENDS ON IT
+
+**Every marker in this pass is ADDITIVE: the English rendering stands, and the marker carries
+Migne's type beside it. Not one English word was deleted or replaced to make room for a marker.**
+
+Two independent warrants, and they agree:
+
+1. **The verifier says so for `[cj:]` in as many words** — `verify-english.mjs` check 12: *"the
+   gloss is ADDITIVE — the printed word keeps its English and our conjecture stands beside it."*
+2. **This work's own shipped practice says so for `[sic:]`.** 8967 already carries ~30 `[sic:]`
+   markers standing beside a full English rendering of the defective word — `God is said to harm
+   [sic: *Nocere*]` @0908C, `[sic: *Clamabuut*]` beside *They shall cry out* @0938A,
+   `[sic: *immortalitai*]` beside "immortality", `[sic: *misericodia*]` beside "a great mercy".
+   That form is also the **7a⁗-safe** one: nothing is quarantined, so no verb, negation or
+   conjunction can be swallowed. I checked all fifteen against 7a⁗'s three questions and every
+   clause keeps its predicate, its polarity and its conjunction, because nothing was removed.
+
+⚑ **This is why I did NOT make several wording changes the PENDING-TEI-PATCHES file proposes**
+(`0102.md`: "saving musics" · `0104.md`: "*Praise ye the Lady*" · `0104.md`: "*All* [sic: *ubyssi*]*.*"
+· `0102.md`: "*The fatherless and the widow* [sic: *suseipiet*]*.*" · `0103.md`: "the
+[sic: *disper iones*] *of Israel,*"). Those were drafted by the stints before the additive form was
+settled, and my own brief forbids improving wording it does not name. **The additive form loses
+nothing**: the reader still meets Migne's exact type inside the marker. Deleting "he will receive",
+"deeps", "dispersions" or "the Lord" would have subtracted sense the plate does have in order to
+display type it also has — 7a⁗-b's "hole exactly the size of a lexeme". ⚠ **If Wilson wants the
+substitutive form instead, it is five edits and they are named above.**
+
+---
+
+## §2 · MARKERS FIRED — 26, every one on a column `plate-gate` reports as fully read
+
+### 2a. `[sic:]` — 15
+
+| col | chunk | marker | where it sits, and what it accuses |
+|---|---|---|---|
+| 1062B | 0097 | `[sic: VERS. 9.]` | **replaces the address**, `[sic: VERS. 9.]-- *The proud.*` — the 9000 @0344B form. Migne's second `VERS. 6.` misnumbered as 9; the English already printed it, per the 1016C ruling. |
+| 1067D | 0100 | `[sic: *simlis*]` | after **"like"** in "he was made like [sic: *simlis*] to truth" |
+| 1067D | 0100 | `[sic: *veriteti*]` | after **"truth"** in the same clause. ⚑ Two defects, two markers, each on its own word: `veriteti simlis` in the Latin is "like … to truth" in the English, so the two sit in reversed order and each was placed by the word it accuses, not by position. |
+| 1070A | 0101 | `[sic: *corectio*]` | after **"correction"** |
+| 1071B | 0101 | `[sic: *omnibns*]` | **inside the Ps 144:17 lemma**, `*In his ways, and holy in all* [sic: *omnibns*] *his works.*` — the italic run is split so the marker stands on **"all"**, the turned sort's own word, and not at the end of the lemma where a reader would attach it to "works". Precedent for splitting a lemma: 6963 `*…the vineyard* [sic: *neam*] *I have not kept.*` |
+| 1073B | 0102 | `[sic: *suseipiet*]` | immediately after the lemma, whose last words are **"he will receive"** = *suseipiet* |
+| 1073D | 0103 | `[sic: *disper iones*]` | **the WHOLE split run**, Pattern 10, sitting on **"the dispersions"**: `because *the dispersions* [sic: *disper iones*] *of Israel,*`. Italic run split for the same reason as 1071B. |
+| 1076C | 0104 | `[sic: VERS. 16.]` | **replaces the address**. Migne runs 17, 18, **16**; the English already printed his number. Wilson's ruling: the wrong numbers are restored **and** marked. |
+| 1077A | 0104 | `[sic: *ubyssi*]` | after `*All ye deeps.*`, whose last word **"deeps"** = *ubyssi* |
+| 1077C | 0105 | `[sic: *benficus*]` | after **"bountiful"** |
+| 1077D | 0105 | `[sic: *eanticcum*]` | after the **second "a canticle"** — "a canticle, namely, of peace, a canticle [sic: *eanticcum*] of charity". ⚠ The word occurs four times in that sentence; the defective sort is the one before *charitatis*, and the marker is on that one. |
+| 1077D | 0105 | `[sic: *debat*]` | after **"ought"** in "this canticle ought [sic: *debat*] to be sung" |
+| 1078B | 0105 | `[sic: *mahsiones*]` | after the Jn 14:2 lemma, whose last word is **"mansions"** |
+| 1078B | 0105 | `[sic: *Neseitis*]` | **inside** the 1 Cor 6:3 quotation — `*Know you not* [sic: *Neseitis*] *that we shall judge angels?*`. The defect is the FIRST word of the quotation, so a marker after the whole run would have accused "angels". Split. |
+| 1078D | 0105 | `[sic: *ferrcis*]` | after **"iron"** in "in iron [sic: *ferrcis*] fetters" |
+
+### 2b. `[cj:]` — 10, English unchanged at every one (§1)
+
+| col | chunk | marker | sits after |
+|---|---|---|---|
+| 1063B | 0097 | `[cj: *apponit*; read *apponi*, "to be set"]` | "asks a watch **to be set**" |
+| 1065C | 0098 | `[cj: *Fortius*; read *Fortis*, "the strong man"]` | "**The strong man**" |
+| 1068B | 0100 | `[cj: *actus*; read *acutus*, "sharpened"]` | "the sword twice **sharpened**" |
+| 1068D | 0100 | `[cj: *laboro*; read *labore*, "with labour"]` | "Not lean **with labour**" |
+| 1068D | 0100 | `[cj: *eum*; read *cum*, "whereas"]` | "**whereas** they themselves are" |
+| 1069C | 0101 | `[cj: *fines*; read *fine*, "without end"]` | "the one day **without end**" |
+| 1071C | 0102 | `[cj: *musicas*; read *musica*, "a saving music"]` | "as it were **a saving music**" |
+| 1072A | 0102 | `[cj: *laudatio*; read *laudato*, "that is praised"]` | "lead that is **praised**" — on *praised*, not on "purity" |
+| 1075C | 0104 | `[cj: *mittere*; read *mitteret*, "he were to send"]` | "unless he **sent**" |
+| 1077A | 0104 | `[cj: *Dominam*; read *Dominum*, "the Lord"]` | the VERS. 7 lemma `*Praise ye the Lord.*` — ⚠ **not** the VERS. 1 lemma `*Praise ye the Lord from the heavens.*`, which is a different verse and is not defective |
+
+### 2c. `[var:]` — 1, and it is the only one this pass was licensed to add
+
+**1076C, `0104.md`** — `[var: Vulg. Mt 15:24 *domus Israel*, "of the house of Israel"]`, placed
+after the quotation `*to the sheep that were lost of Israel [n: (Matth. XV)]*.` CC had inserted
+`domus` into Migne's Mt 15:24, exactly matching the Vulgate and destroying a real divergence; the
+patch restores `quae perierunt Israel`. The English already followed the plate, so only the marker
+was outstanding. **No other `[var:]` was added anywhere in the range.**
+
+---
+
+## §3 · CHECKED AND DELIBERATELY UNCHANGED — a logged site is not a checked site
+
+Each of these was read in the English against the newly patched Latin twin. **Nothing was changed
+at any of them.**
+
+| col | what the plate now carries | what the English says | verdict |
+|---|---|---|---|
+| 1062A | `lingua, manu et corde` | "with the tongue, the hand and the heart" | ✓ renders the plate; CC's `linqua` was a non-word |
+| 1066A | `poenitentialium` | "the seventh of the penitential psalms" | ✓ |
+| 1067A | `Auferes spiritus eorum` | "Thou shalt take away their **spirits**" | ✓ plural, already the plate's; the Clementine's `spiritum` is what CC had |
+| 1069C | `Benedicit nunc` (ONE word) | "**He blesses** now *every day*" | ✓ the plate's gloss, not CC's "he rightly says" |
+| 1069C | `quia visione` | "**since** nothing is more delightful than that vision" | ✓ renders `quia` |
+| 1071D | `Haec spe erecta anima` | "This soul, lifted up by hope" | ✓ |
+| 1072B | `saeculorum rerum amores` | "so many loves of the things **of the ages**" | ✓ |
+| 1073B | `Diligit justos.` | "*He loveth the just.*" | ✓ agrees with Ps 145:8 verbatim once patched — **no `[var:]` owed either**, and none was added |
+| 1075B | `januam` ONCE, `scandala.` ONCE | "the gate of Jerusalem shut" · "whence scandals should be" | ✓ **the English carries neither dittography.** A `[d:]` at either would have been a false public accusation against Migne — CC manufactured both |
+| 1076A | `buccellas` | "morsels of white bread" / "*He sendeth as morsels*" | ✓ CC's de-doubled `bucellas` had manufactured a Ps 147:6 divergence; there is none |
+| 1076C | `gratias Trinitatis` | "the **graces** of the Trinity" | ✓ English carries the number; the case has no English exponent (Pattern 9) |
+| 1077A | `Profunditas aquarum` | "The depth of the waters" | ✓ singular |
+| 1077C | `Secunda agit de gaudiis` | "**Secondly** he treats of the joys" | ✓ *secunda [pars]*, not a defect |
+| 1079A | `…laudatur.` **full stop** | "…he is praised according to it. **God, since he is praised without end.**" | ✓ the English follows the plate; **the short sentence that results is Migne's, not ours** (Pattern 8) |
+
+---
+
+## §4 · ⛔ LEFT DELIBERATELY, AND WHY — 1078B `nos` for *non*
+
+**No marker was fired and the English was not changed.** The Latin twin now carries Migne's `nos`
+in `unde nos sit liberum exire`; the English keeps the twin's negative, "whence it may not be free
+to go out."
+
+Following the plate here would put on the page the exact opposite of Migne's own next clause —
+the kings of the earth are bound in fetters *"such as cannot be broken"* — **with nothing able to
+quarantine it**, since `[cj:]` is additive by construction and cannot hold a reversed polarity.
+That is 7a′'s failure mode in its purest form. **The divergence stands recorded here and in the
+patch file; Wilson's ruling on the class is owed.** This and **1029B** are its two sites — they
+are mirrors of each other (there the plate lost a *non*, here CC supplied one).
+
+⚑ `marker-reconcile` will therefore keep reporting `1078B [cj: *nos*; read *non*]` as MISSING.
+**That is correct and intended, not an omission.**
+
+---
+
+## §5 · ⛔ REFUSED — the two note promotions at 1067A and 1071C
+
+The worklist says: *"our TEI had the point misplaced (`(CAS).`), so the chunker did not recognise
+a note and the English prints it as body text. Now that the Latin is fixed these are real
+`[n: (CAS.)]` / `[n: (ID.)]` notes. English edit owed at both."*
+
+**The first half is true and I made it. The second half is not true of the files on disk, and I
+refused it.**
+
+- The Latin chunks were rebuilt after the patch (`0100.md` carries `veriteti simlis`), and
+  **`0099.md` still reads `*Animam.* (CAS.) Ut vas`** and **`0101.md` still reads
+  `*Voluntatem timentium se faciet.* (ID.) Concludit`** — as **plain body text**, not `[n: …]`.
+- The reason is structural: `chunk-work.mjs` derives `[n: …]` from the source's inline
+  **`<note>` elements**, and the patch (`{"find": "m.</hi> (CAS). Ut vas ", "replace": "m.</hi> (CAS.) Ut vas "}`)
+  moved a point inside a **text node**. No `<note>` was created, so no note can be chunked.
+- `verify-english.mjs` check 3 requires **the same note count and order in both twins**. An
+  `[n: (CAS.)]` in the English against plain text in the Latin is a **hard verifier error**, not a
+  warning.
+
+**What I did instead — the part that is achievable and correct:** the English body text now
+matches the patched Latin body text exactly.
+
+- `0099.md` @1067A: `*The soul.* (CAS). As a vessel` → **`*The soul.* (CAS.) As a vessel`**
+- `0101.md` @1071C: `them that fear him.* (ID). He concludes` → **`them that fear him.* (ID.) He concludes`**
+
+⚑ **What is still owed, for whoever can run the chunker:** promoting these two to real notes needs
+the TEI to wrap them in `<note>` elements and the work re-chunked — a Latin-side change, outside
+this pass's remit and explicitly outside my instructions. Until then the two sigla are body text in
+**both** columns, which is at least honest and consistent.
+
+---
+
+## §6 · ⚑ ONE THING I FOUND THAT THE WORKLIST DOES NOT NAME — 1065C `qui` / `quia`
+
+The 1065C patch has **two halves**. The first (`Fortis` → `Fortius`) is marked, above. The second
+is `quia non vult` → **`qui non vult`**, and the worklist rules that **no marker is owed** because
+`qui non vult` construes.
+
+**But our English at that clause reads "because he does not will it", which renders CC's `quia`,
+not Migne's `qui`.** I did not change it: no English edit is named for that half, the two readings
+are identical in force (a causal relative), and an unnamed rewording is exactly what my brief
+forbids. **Recording it so that it is a decision and not an oversight.** If it is to move, the
+text is `0098.md`, "The strong man … does not flee in mind, because he does not will it."
+
+---
+
+## §7 · ⚠ THE `ferrcis` CAVEAT — I HAVE SEEN IT AND FIRED IT AS REPORTED
+
+`[sic: *ferrcis*]` @1078D **is fired.** I record here, as instructed, that I have read the caveat:
+this is **the one call in Band C that a second reader should re-open**, because it has the exact
+shape of the italic-`e`-images-as-`c` hazard, and the deciding evidence is that the disputed glyph
+is **well formed** — a clean open `c` with both terminals against three fully-inked barred `e` on
+the same line — **not that it is broken**. The site is roman, not italic, which is the reported
+control. I have no plate access in this pass and am not in a position to re-open it; the marker
+stands as the reading stint reported it, and this paragraph is the flag.
+
+---
+
+## §8 · TWO COLUMNS THAT STRADDLE A CHUNK BOUNDARY — recorded so nobody "repairs" them
+
+Two of my columns run across a chunk boundary, and the marker sits in the SECOND chunk, not the
+first that carries the anchor:
+
+- **1071C `[cj: *musicas*]` is in `0102.md`** — the Latin `quasi musicas salutaris` is the opening
+  sentence of `0102.md` (`colContext: 1071C`), not the tail of `0101.md`.
+- **1077C `[sic: *benficus*]` is in `0105.md`** — the Latin `benevolus et benficus` is in
+  `0105.md` (`colContext: 1077C`), not `0104.md`.
+
+**Both placements are forced, not chosen:** `verify-english` checks a `[sic:]`/`[cj:]` word as a
+substring of **its own chunk's** Latin twin, so putting either marker in the earlier chunk would be
+a hard verifier error. `plate-gate` resolves both correctly, and `marker-reconcile` did too once its
+column→chunk map was widened mid-session (it had briefly reported both as MISSING against the
+earlier chunk; that was the tool, not the placement).
+
+---
+
+## §9 · CHECKS RUN
+
+- `node scripts/verify-english.mjs 8967` → **verify OK: 106 chunks, columns/notes/sections aligned,
+  no duplicate paragraphs.** (Pre-existing warns only: the 0043 question-mark parity note and the
+  em-dash count, neither in this range.)
+- `node scripts/plate-gate.mjs 8967` → **gate OK — every marker stands on a column that was read.**
+  All 16 new `[sic:]`/`[var:]` in the range report `(read: full)`.
+- `node scripts/marker-reconcile.mjs 8967 --band 10` → **64 claims · 62 standing · 2 MISSING**, from
+  64/0/64 before the English passes began. **Every claim in my range stands except one, and that one
+  is deliberate**: `1078B [cj: *nos*; read *non*]` (§4). The other miss, `1052C [sic: *exaltaxit*]`,
+  is outside my range.
+- Nothing was committed. No Latin file was touched. No frontmatter, column anchor or `[n: …]`
+  content was altered except the two body-text sigla in §5.
+
+
+## §I.polarity-bandC-0077 — file `polarity-bandC-0077.md`, verbatim
+
+# Polarity / blind-reader report — band C, chunks 0077–0086
+
+*Glossa ordinaria* on the Psalms, PL 113, cols 1011B–1039B (Pss CI–CXVI).
+Read blind against the Latin twins: no cruces file, no brief, no patch, no commit
+log, no plate-read report was opened. `translation-style.md` (Patterns 7, 7a–7a⁗,
+8, 12, 14, 18) was read.
+
+**Chunks read:** 0077, 0078, 0079, 0080, 0081, 0082, 0083, 0084, 0085, 0086 — all ten,
+clause by clause, in both languages.
+
+---
+
+## A. THE ONE STRUCTURAL FINDING — Pattern 18 is inverted at EVERY `[cj:]` in the band
+
+**Eleven `[cj: …]` markers stand in these ten chunks. In every one of them the running
+English renders the CONJECTURE and Migne's printed word has no English at all.**
+
+Pattern 18 fixes the form and states the reason: *"The rule: the gloss is ADDITIVE.
+Migne's word keeps its English, and our conjecture stands beside it. Nothing is removed,
+nothing is replaced, and the reader sees both"* — the founding shape being
+`peace purely [cj: *munde*; read *mundo*, "to the world"]`, where the running text is
+**"purely"** (the printed word) and the marker carries the sense of the emendation.
+
+The mechanical tell that this band inverted it: **in all eleven the quoted gloss inside
+the marker is a verbatim copy of the English immediately before it.** In a correctly
+formed `[cj:]` the two must differ, because one is Migne's word and the other is ours.
+Spot-checked against shipped English elsewhere in the corpus, where the printed word is
+what stands in the text (`to presumption [cj: *praesumptioni*; read *praesumptionis*,
+"of presumption"]`; `Babylon was sunk [cj: *mersa*; read *non mersa*, "was not sunk"]`;
+`among not [cj: *non*; read *nos*, "us"]`).
+
+This is exactly the failure 7a′ describes — *"the marker becomes a place to hide a
+repair"* — with the marker rather than the crux doing the hiding. Every printed word
+below was verified to appear verbatim in its own Latin twin, so no marker is accusing a
+word Migne did not set; the defect is on the English side of each one.
+
+| # | chunk | col | Latin as printed | English as printed | what the English says that the Latin does not | proposed |
+|---|---|---|---|---|---|---|
+| A1 | 0078 | 1014D | *monet benedicere **par** eas quae antiquis facta sunt* | "he admonishes men to bless **through** [cj: *par*; read *per*, "through"] those things" | *par* is not a preposition; the page gives it the sense of the emendation. Hardest of the eleven — *par* may have no renderable English here, in which case Pattern 10/12 (`[sic:]`, carried) is the right instrument, not `[cj:]`. | render or carry *par*, marker beside it |
+| A2 | 0078 | 1015A | *ut abundaret **dilectum*** | "that the **offence** [cj: *dilectum*; read *delictum*, "the offence"] might abound" | *dilectum* = "the beloved (thing)". The page prints only the emendation. | "that **the beloved** might abound [cj: *dilectum*; read *delictum*, "the offence"]" |
+| A3 | 0078 | 1015A | *Vel **secundam** aliam litteram* | "Or **according to** [cj: *secundam*; read *secundum*, "according to"] another reading" | *secundam* = "a second". | "Or **a second**, another reading [cj: …]" |
+| A4 | 0079 | 1015C | *Item benedicere **Deus** monet* | "Likewise **he admonishes men to bless God** [cj: *Deus*; read *Deum*, "to bless God"]" | *Deus* is nominative and yields a perfectly good sentence — "**God** admonishes [us] to bless". The page silently reassigns the subject. | "Likewise **God** admonishes men to bless [cj: *Deus*; read *Deum*, "to bless God"]" |
+| A5 | 0079 | 1015D | *qui non **putes** crescere vel minui* | "who **canst** [cj: *putes*; read *potes*, "thou canst"] not grow or be lessened" | *putes* = "thinkest". | "who **thinkest** not to grow or be lessened [cj: …]" |
+| A6 | 0084 | 1032A | *quid in futura **glorificatur** accipiet?* | "what shall he receive, **glorified** [cj: *glorificatur*; read *glorificatus*, "glorified"], in the things to come?" | *glorificatur* is a finite present passive, "he is glorified". | "what, **when he is glorified**, shall he receive…" |
+| A7 | 0085 | 1034A | *Quandiu **laudamus** sit* | "how long **he is to be praised** [cj: *laudamus*; read *laudandus*, "to be praised"]" | *laudamus* = "we praise". | render the printed first person, marker beside it |
+| A8 | 0086 | 1037A | *Diligitur perfecte, **eum** animus adversis non movetur* | "He is loved perfectly **when** [cj: *eum*; read *cum*, "when"] the mind is not moved" | *eum* = "him"; the page prints the conjunction the emendation supplies. | render the printed *eum*, marker beside it |
+| A9 | 0086 | 1037D | *et ideo **intra** in gaudium Domini sui, dicentis: Euge…* | "and therefore **he enters** [cj: *intra*; read *intrat*, "he enters"] into the joy of his Lord" | ⚠ Twice wrong. Not only is the conjecture in the text: **the printed *intra* is very plausibly no error at all** — an imperative echoing the Matthew tag that follows three words later, *intra in gaudium Domini tui*. "Enter thou into the joy of his Lord, who says: Well done…" construes without emendation. | "and therefore **enter thou** into the joy of his Lord"; reconsider whether the `[cj:]` is warranted |
+| A10 | 0086 | 1039A | *audiat sequentem **Psalmus*** | "let him hear the following **psalm** [cj: *Psalmus*; read *Psalmum*, "the following psalm"]" | The weakest of the eleven: English marks case by position, so the printed nominative has no distinct rendering. Flagged for completeness only. | probably leave; consider whether a marker earns its place here |
+| A11 | 0086 | 1039B | *pro sui enim brevitate non **recipi** divisionem* | "it does not **admit** [cj: *recipi*; read *recipit*, "it admits"] of division" | *recipi* is a passive infinitive; the finite verb in the text is the emendation. | render the printed infinitive, marker beside it |
+
+**Judgment: OURS**, all eleven, and it is one decision made eleven times rather than
+eleven slips — which is why it belongs at the head of the report. Migne's plate is not
+implicated anywhere in this class. A2, A4, A5, A8, A9 and A11 each change what the page
+asserts; A1 and A10 are conventions problems more than sense problems.
+
+---
+
+## B. SITES WHERE THE ENGLISH SAYS SOMETHING THE LATIN DOES NOT
+
+### B1. 0078 @1014C — a lemma conformed to the Douay against the printed word ⭐
+
+- **Latin:** *VERS. 4.-- **Qui redimit, de corruptione vitam tuam.***
+- **English:** "*Who redeemeth thy life **from destruction**.*"
+- *corruptione* is "corruption". "Destruction" is the Douay's rendering of the Vulgate's
+  *de **interitu** vitam tuam* — a word that is not on this plate. This is 7a″ exactly:
+  the remembered verse arrived before the printed Latin was read, and the exposition now
+  rests on a word Migne does not print. (Migne's *de corruptione* is itself the
+  interesting reading — it is the Old Latin/Romanum wording — and our English deletes the
+  evidence for it.)
+- **Ours.** Nothing is defective in the Latin; the divergence was introduced in English.
+- **Proposed:** "*Who redeemeth thy life from **corruption**.*" (and consider a `[var:]`,
+  since the divergence from the received text is material).
+- Note also that Migne's comma (*Qui redimit, de corruptione vitam tuam*) is lost when
+  the English re-orders; the printed mark has nowhere to sit.
+
+### B2. 0079 @1017C — a possessive the plate never printed ⭐
+
+- **Latin:** *quia in omnibus non possunt, **in cubilibus,** id est, cordibus pertinacium
+  permanent*
+- **English:** "they abide *in **their** dens,* that is, in the hearts of the obstinate"
+- Migne prints the lemma short, **in cubilibus**. The Vulgate continues *in cubilibus
+  **suis** collocabuntur*, and "their" has been finished in from it. This is the exact
+  class the runbook predicts for verse-by-verse commentary.
+- **Ours.**
+- **Proposed:** "*in the dens,*" — no possessive.
+
+### B3. 0079 @1017D — an object supplied into a truncated lemma
+
+- **Latin:** ***Ad illudendum.*** *[n: (ID.)] Dicitur in Job (Job XL), illudi Satanae ab
+  angelis Dei…*
+- **English:** "*To play **with him**.*"
+- Migne prints two words. The Vulgate's *ad illudendum **ei*** supplies the dative that
+  our "with him" renders; the plate does not. (Secondarily, the same verb is rendered
+  "mocked" three words later in the gloss — *illudi Satanae* → "Satan is mocked" — so the
+  lemma and its own gloss no longer share a word.)
+- **Ours.**
+- **Proposed:** "*For mocking.*" or "*To be mocked.*", with no dative.
+
+### B4. 0084 @1031D–1032A — *prohibet* rendered so as to reverse the charge
+
+- **Latin:** *Nihil superat voluntatem Dei, qui et si vult, ut non pecces, **non tamen
+  prohibet**. Si vult parcere poenitenti, vult et impoenitentem punire; ita de homine
+  semper Deus implet suam voluntatem, quia nihil facit homo, de quo non operetur Deus,
+  quod vult.*
+- **English:** "who, even if he wills that thou sin not, yet **does not forbid** it"
+- *prohibeo* here is "hinder, prevent, hold back". The Augustinian point that the rest of
+  the paragraph makes — God's will is fulfilled *about* man whatever man does — is that
+  God does not **prevent** the sin he wills you not to commit. "Does not forbid it" says
+  the opposite of the first half of its own sentence: if he wills that thou sin not, he
+  does forbid it. The clause contradicts its own neighbour, which is the standing tell.
+- **Ours.**
+- **Proposed:** "yet does not **prevent** it."
+
+### B5. 0086 @1037A — an imperative to the reader turned into a statement about the psalmist
+
+- **Latin:** *Dum ergo ait, invocabunt, **nota** quod non est otiosus dilector.*
+- **English:** "he **notes** that the lover is not idle."
+- *nota* is the imperative — "**note** that the lover is not idle" — addressed to the
+  reader, as the surrounding gloss addresses him throughout. "He notes" renders *notat*,
+  a word not on the plate, and silently reassigns the act of observing from the reader to
+  the psalmist.
+- **Ours.**
+- **Proposed:** "**note** that the lover is not idle."
+
+### B6. 0083 @1031B — *ut ruinas* rendered twice, and the objects turned into manner
+
+- **Latin:** *et nunc **judicabit** in gentibus, **ut ruinas,** non erectos impleat.*
+- **English:** "and now *he shall judge* among the Gentiles, that he may fill them *as
+  ruins,* **not as men upright**."
+- One *ut* is doing the work of two in the English: it is rendered "that" (purpose) and
+  then again "as". *ruinas* and *erectos* are the accusative **objects** of *impleat* —
+  "that he may fill **ruins**, not **upright ones**", i.e. he fills the fallen, not the
+  standing. The English turns both into manner ("as ruins", "as men upright") and adds an
+  object "them" the Latin does not have, which loses the whole point of the antithesis
+  (the humbled are what get filled).
+- **Ours.**
+- **Proposed:** "that he may fill *ruins*, not the upright."
+
+### B7. 0077 @1011D — the frying-pan's subject reassigned
+
+- **Latin:** *Ossa mea sicut cremium aruerunt. Fortes, **quorum frixorium sunt, qui
+  scandalizantur**, etc.*
+- **English:** "The strong, whose frying-pan **they** are, who are scandalized, etc."
+- The subject of *sunt* is *qui scandalizantur*: **those who are scandalized are the
+  frying-pan** of the strong. The English's unbound "they" reads back to the bones/the
+  strong, and "who are scandalized" then floats as a second relative on "the strong" —
+  so the page says the strong are their own frying-pan and are the ones scandalized.
+  Agency inverted (mechanism 5).
+- **Ours.**
+- **Proposed:** "The strong, whose frying-pan are they that are scandalized, etc."
+
+### B8. 0082 @1027C — *multae* rendered singular once and plural once, in one sentence
+
+- **Latin:** *sed iste pauper est **multae familiae, multae Ecclesiae**: tamen et est una
+  Ecclesia, una ovis.*
+- **English:** "but this poor man is **of a great household**, of **many churches**: yet
+  there is also one Church, one sheep."
+- The same word twice, rendered two different ways, and the first also swaps *multae*
+  ("many") for "great". The antithesis that closes the sentence — *una Ecclesia, una
+  ovis* — fixes the number as plural in both limbs.
+- **Ours.**
+- **Proposed:** "but this poor man is many households, many churches".
+
+### B9. 0080 @1021C — a proper name supplied as subject
+
+- **Latin:** ***Quia incubuit timor eorum super eos.** Timebat Israel, ne reliquias eorum
+  consumeret.*
+- **English:** "**Egypt** feared Israel, lest he should consume what was left of them."
+- Migne prints no subject noun but *Israel*, which is indeclinable and can be the
+  nominative ("Israel was afraid"). "Egypt" is nowhere on the plate; the English supplies
+  a proper name to resolve the ambiguity in one direction, unmarked. The reading is
+  probably right on the sense of the lemma, but that is what a crux is for.
+- **Ours.**
+- **Proposed:** render without inventing a subject — "Israel was feared, lest he should
+  consume what was left of them" — or keep the reading and mark it.
+
+### B10. 0077 @1013D — *in* rendered "unto" only where it echoes the Vulgate cadence
+
+- **Latin:** *Vel, **in generatione generationum**.* … and eleven lines later, *Qui erunt
+  **in generatione generationum**.*
+- **English:** "Or, **unto** generation of generations." … "Which shall be **in** the
+  generation of generations."
+- The same three Latin words, rendered two ways in one chunk; the divergent one is the
+  Douay's cadence for Ps 101:25 ("thy years are unto generation and generation"). Low
+  severity, but it is the 7a″ mechanism in miniature: extent substituted for location
+  because the remembered verse arrived first.
+- **Ours.**
+- **Proposed:** "Or, **in** generation of generations."
+
+### B11. 0086 @1038C — two lemmata merged into one
+
+- **Latin:** *Et ut augeat admirationem repetit: **Ego servus tuus. Filius ancillae.**
+  [n: (AUG.)] Jerusalem coelestis…*
+- **English:** "he repeats: *I am thy servant**, the** son of the handmaid.*"
+- Migne prints a full stop between two lemma units, and the AUG. note glosses the second
+  one alone. Replacing it with a comma deletes a printed mark (Pattern 8) and fuses two
+  addresses into one, so the note now appears to gloss the whole.
+- **Ours.**
+- **Proposed:** restore the full stop: "*I am thy servant. The son of the handmaid.*"
+
+### B12. 0086 @1038C — *Domino* decapitalised
+
+- **Latin:** *Vel ut ancilla, non sibi, sed **Domino**; ita et ego in morte mea aliquos
+  tibi parturiam*
+- **English:** "as a handmaid brings forth not for herself, but for **her lord**"
+- Migne capitalises. In this edition that distinguishes the Lord from a human master, and
+  the sentence's own continuation (*aliquos **tibi** parturiam* — the martyr bears
+  children **for God**) needs the capital. Small, but it moves the referent.
+- **Ours.**
+- **Proposed:** "but for **the Lord**".
+
+---
+
+## C. SILENT REPAIRS OF BROKEN LATIN — the English reads smoothly and nothing marks it
+
+These are the sites where Migne's line is defective and our English construes across the
+defect without a marker. None is a mistranslation of a sound Latin clause; all are places
+where the reader cannot tell the plate is damaged. Reported as a class because the
+runbook asks for exactly this.
+
+| chunk | col | Latin as printed | English as printed | the repair |
+|---|---|---|---|---|
+| 0081 | 1023B–C | *Laus Dei, qui suos vindicavit **qualitas poenae facta indicat**.* | "**The quality of the punishment inflicted declares the praise of God,** who has avenged his own" | *Laus* is nominative and cannot be the object of *indicat*; the English silently makes it one and re-orders the sentence around it. |
+| 0083 | 1030B | *Una est maledictio malorum **Deus,** cum benedicit, facit quod dicit.* | "One is the cursing of the wicked**;** God, when he blesses, does what he says." | *Deus* stands on the first clause's side of Migne's comma; the English moves it across and upgrades the comma to a semicolon so the sentence runs. |
+| 0082 | 1028C | *quia hic Christus cum membris patitur **supra,** singulariter dicendo, deducet me* | "because here Christ suffers together with his members; **above,** speaking in the singular, "he will bring me."" | *supra* likewise moved across Migne's comma. |
+| 0080 | 1019B | *…propter terram Chanaam, de qua sequitur**.** Quomodo aeternum est, cum…* | "…on account of the land of Chanaan, of which it follows**:** how is it everlasting, since…" | a printed full stop replaced by a colon and the following capital lowered, joining a sentence Migne broke. |
+| 0083 | 1030C | *A dextris meis. In potioribus meis bonis et occultis**,** donec regnes manifestus.* | "*At my right hand.* Among my better and hidden goods**.** Until thou reign manifest." | the converse: a printed comma raised to a full stop. |
+
+**All ours.** In each the fix is the same shape — either render across Migne's own
+punctuation and grouping, or keep the smooth English and let a marker/crux say that the
+plate is broken. The present text does neither.
+
+There is a further, lower-grade **punctuation-supply** habit through the band: a comma
+of Migne's is silently promoted to a colon or semicolon at 0081 @1024B (*gravior excessus
+et vehementior ira daemonibus devovebant filios*), 0082 @1026C and @1027C, 0084 @1032D
+(twice) and @1033C, 0085 @1036A, 0086 @1037C. Individually invisible; listed so the count
+exists.
+
+---
+
+## D. MARKER AUDIT — every `[sic:]`, `[cj:]`, `[d:]`, `[var:]` in the band
+
+**`[d: …]`:** none in this band.
+
+**`[sic: …]` — twelve. All twelve carry a string that appears verbatim in the Latin twin,
+and all twelve sit on the English word they accuse. No 7a⁗ swallowing: none of them
+quarantines a negation, a verb, an interrogative or a conjunction that governs
+translated text.** Checked one by one:
+
+| chunk | marker | Latin verified | on the right word | force intact |
+|---|---|---|---|---|
+| 0077 | `[sic: *deis*]` | *Elato enim Adam deis deficiunt* | "the days" | yes |
+| 0078 | `[sic: *qut*]` | *si est homo qut audiat* | "who" | yes |
+| 0079 | `[sic: *mugnificatus*]` | *etc., mugnificatus* | "*magnified*" | yes |
+| 0079 | `[sic: *VERS. 15.*]` | *VERS. 15* out of sequence before *VERS. 14* | the address | n/a |
+| 0080 | `[sic: *haere ditas*]` | *promittitur haere ditas* | "an inheritance" | yes (split run, Pattern 10) |
+| 0080 | `[sic: *Ft*]` | *Ft non erat infirmus* | "And" | yes — and note the *non* survives outside the marker |
+| 0081 | `[sic: *ete.*]` | *mutati sunt, ete.* | "etc." | yes |
+| 0082 | `[sic: *honorum*]` | *fructus honorum operum* | "good" | yes |
+| 0083 | `[sic: *posueruent*]` | *Et posueruent adversum* | "they set" | yes |
+| 0083 | `[sic: *quiquid*]` | *quiquid in utroque Testamento* | "whatsoever" | yes |
+| 0084 | `[sic: *liberavi*]` | *tanquam a captivitate liberavi* | "delivered" | yes |
+| 0086 | `[sic: *reddum*]` | *Vota mea reddum* | "I will pay" | yes |
+| 0086 | `[sic: *ue*]` | *Sed ue quis putet* | "lest" | **yes — the negative purpose is carried in plain words outside the marker.** This is 7a⁗ done right. |
+
+**`[cj: …]` — eleven.** Every printed word appears in its own Latin twin (verified), so
+none is smuggling an emendation of our own invention. All eleven fail the *additive*
+half of Pattern 18 — see section A.
+
+**`[var: …]` — six.** Contents checked against both the Latin twin and the Vulgate:
+
+- 0079 @1016D (1 Cor 12:7), 0079 @1018A (Gen 3:14 *meae* for *tuae*), 0079 @1018C
+  (Isa 1:16-18), 0081 @1025A (Ps 105:46), 0086 @1036D (Ps 48:19) — all accurate, all
+  material, all correctly leave the printed wording standing in the English. ✅
+- 0081 @1024D (Ps 105:38) — **substantively right, placed wrong.** The divergence it
+  reports (*Et interfecta* for the Vulgate's *Et infecta*) belongs to the lemma
+  "*And slain.*" at the head of the paragraph, and the whole gloss (*continens pro
+  contento*) exists to explain it. The marker sits ~230 characters downstream, at the end
+  of a clause (*et contaminati sunt in operibus*) that is not the divergent one and that
+  answers to Ps 105:**39**. A reader meets it attached to the wrong words. **Ours.**
+  **Proposed:** move it to immediately after "*And slain.*"
+
+---
+
+## E. CANDIDATES CONSIDERED AND REJECTED
+
+| chunk | site | why rejected |
+|---|---|---|
+| 0077 @1012A | *Domicilio* → "In a dwelling-place" | The supplied "In" looked like the class-3 shape, but a bare Latin ablative cannot reach English without a preposition; nothing from the Vulgate's *in domicilio* is added beyond what the case itself carries. |
+| 0077 @1011C | *quae iniquis* → "which are in the way of the wicked" | Ellipsis of *obstant*; the supply is the only way to render the elided verb, and adds no sense the case does not fix. |
+| 0077 @1013A | *et solutis vertuntur in gloriam* → "and when they are loosed, they are turned into glory" | *solutis* reads equally as ablative absolute or dative; the English picks one defensibly and the sense does not move. |
+| 0077 @1014A | *nedum ipsi* → "not to speak of those themselves" | a fortiori *nedum* after a positive; correct here, and the same word is correctly "much less" in a negative context at 0078 @1015B. Consistency is with the grammar, not with itself. |
+| 0078 @1015A–B | *quod figmentum **conversus** ad Deum dicit* → "which frame, being turned to God, says" | *conversus* is masculine and *figmentum* neuter, so the concord is broken on the plate — but English marks no gender, so no rendering can expose it and none can conceal it. Not reportable in this instrument. |
+| 0079 @1016C | *in disco Petri ter submisso* → "in the dish let down thrice to Peter" | genitive re-cast as a dative, but it names the same vessel in the same vision; no proposition changes. |
+| 0079 @1016D | *justitia est, veritas est Christus* → "is justice, is truth, is Christ" | The English flattens an asyndeton into a list, and "truth is Christ" is a live alternative — but both readings make the same identification and I could not show the sense moves. |
+| 0079 @1018C | *finis bonorum* → "the end of good men" | "the end of good things" (the Ciceronian phrase) is at least as likely, but the gloss is about the psalm's shape and either reading serves it. Genuinely ambiguous; recorded rather than claimed. |
+| 0080 @1019A | *nihil est pudore silendum* → "nothing that shame should keep silent" | ablative of cause promoted to subject; the injunction is unchanged. |
+| 0080 @1020B | *in aestuante et sollicita anima* → "in **his** burning and anxious soul" | supplied possessive, but in a gloss, not a lemma, and with an unambiguous antecedent one clause back. Listed so it is on the record. |
+| 0081 @1023B | *saturitatem, sequitur seditio* → "after fulness there follows sedition" | *sequor* + accusative; restructured but not altered. |
+| 0081 @1023C | *quod est boni* → "which belongs to a good man **too**" | the "too" is supplied and does change emphasis slightly, but the concessive force is genuinely in *quod est boni* here. Marginal. |
+| 0081 @1025A | *ne Israel pro debito periret* → "the cause that Israel did not perish" | negative purpose reported as fact; the negation survives and the proposition is the same. |
+| 0081 @1025A | *quod perdituros eos videbatur* | The Latin is corrupt past clean construing (*perdituros* for *perditurus*); our English picks a reading, but so must any English, and I could not show the alternative is better. Belongs in a crux, not in a findings list. |
+| 0082 @1027B | *persistentes per haereticos* → "those who persevere under heretics" | *per* as agent vs. circumstance; the persons and the affliction are the same either way. |
+| 0083 @1029C | *quia cum essent rami naturales, facti sunt* → "though they were natural branches, **so** they became" | The Latin lacks its complement; the supplied "so" is the minimum needed and does not read smoothly enough to conceal the hole. Borderline against section C — left out because the English does *not* read smoothly. |
+| 0084 @1033D | *thesaurum in coelo servabat* → "was keeping a treasure **for him** in heaven" | supplied beneficiary; contextually forced by the antithesis with *iste emebat*. Recorded. |
+| 0085 @1036A | *Ne autem videatur majoribus jam res* → "a thing **possessed by** the greater" | dative read as agent and "possessed" supplied; interpretive but not contrary. |
+| 0086 @1037D | *sed fidelis* → "but **this one** is faithful" | The English introduces a second servant the Latin does not name. Defensible — the Matt 25 contrast requires it and *ille* two words earlier licenses it — but it is a supply, and it is here so a later reader can re-adjudicate. |
+| 0086 @1038B | *sed virtus Dei est, si non credit* → "but it is the power of God, if he does not believe" | The clause is odd on the plate; the English renders it literally and leaves the oddity visible, which is Pattern 7 working. **Not** a finding. |
+| throughout | Migne's out-of-sequence `VERS.` addresses (0079 VERS. 15 before VERS. 14; 0085/0086 restarting at VERS. 1 and VERS. 10) | Migne's own, reproduced as instructed. |
+| 0083 @1031C | Phil. 2 quotation, *Propter hoc exaltavit illum, et dedit Deus illi nomen…* with no `[var:]` | Migne's wording diverges from the Vulgate, but the English renders **the printed wording faithfully**, and the divergence is not material to the gloss. A missing optional marker is not an English defect. |
+
+---
+
+## F. CHUNKS FOUND CLEAN
+
+**None of the ten is clean.** Every chunk in the band carries at least one site:
+
+| chunk | cols | sites |
+|---|---|---|
+| 0077 | 1011C–1014A | B7, B10 |
+| 0078 | 1014B–1015C | A1, A2, A3, **B1** |
+| 0079 | 1015C–1018C | A4, A5, **B2**, B3 |
+| 0080 | 1018D–1022A | B9, C (1019B) |
+| 0081 | 1022A–1025C | C (1023B–C), D (var placement @1024D) |
+| 0082 | 1025C–1028C | B8, C (1028C) |
+| 0083 | 1028C–1031C | B6, C (1030B, 1030C) |
+| 0084 | 1031C–1033D | A6, **B4** |
+| 0085 | 1033D–1036C | A7 |
+| 0086 | 1036C–1039B | A8, A9, A10, A11, **B5**, B11, B12 |
+
+The nearest thing to a clean chunk is **0085** (PSS CXII–CXIII), which returned one site
+and that one only a member of the section-A class; its lemmata, its negations
+(*non despicit humiles*, *quae Deum non laudat*, *non enim haec ad litteram*) and its
+scripture quotations all survive intact. **0080** is clean of every lexical class and
+carries only a supplied proper name and one repunctuation across four columns.
+
+---
+
+## G. WHAT I WOULD FIX FIRST
+
+1. **Section A** — eleven markers, one rule, and it is the rule whose whole purpose is to
+   stop conjectures reaching the running text. A6, A9 and A11 in particular put an
+   emendation on the page where the printed word construes.
+2. **B1** (*de corruptione* → "destruction") and **B2** ("their dens") — the two purest
+   specimens of the class this instrument was built for, one a conformed lemma and one a
+   possessive finished in from the Vulgate.
+3. **B4** (*prohibet*) and **B5** (*nota*) — the two that change what the page asserts
+   about God and about the reader respectively, and neither has any marker, note or grep
+   signature.
+
+
+## §I.polarity-bandC-0087 — file `polarity-bandC-0087.md`, verbatim
+
+# Polarity / fidelity read — band C, chunks 0087–0096 (PL 113, 1039C–1061C)
+
+Blind read of the Latin against the English, clause by clause, for places where **our English
+says something the Latin beside it does not**. Reader was fenced from `cruces.md`, the briefs,
+the patch files, and the git log. Ten chunks read in full; nothing skipped.
+
+Psalms CXVII–CXXXVIII, lemma-and-gloss. The numbered *gradus* series was tracked across the
+band and is reported under §4.
+
+---
+
+## 1. FINDINGS — confident
+
+### 1.1 @1039D (0087) — the conjecture is in the running text, the printed word has vanished
+- **Latin:** `vel non permittendo cadere, vel, a casu revelando.`
+- **English:** "either by not suffering one to fall, or by **raising up** from the fall
+  `[cj: *revelando*; read *relevando*, "by raising up"]`."
+- **What the English says that the Latin does not:** *revelando* is "by revealing." The running
+  English gives only the conjecture *relevando*, and the `[cj:]` gloss then repeats it word for
+  word — delete the marker and nothing of Migne's word survives. Pattern 18 is explicit that the
+  gloss is **additive**: "Migne's word keeps its English, and our conjecture stands beside it."
+  Here it replaced it.
+- **OURS.** The conjecture itself is sound (the parallel gloss ten lines later at 1040A prints
+  *a casu relevando* and is rendered "by raising up from the fall"), which is exactly why the
+  marker rather than the text is where it belongs.
+- **Proposed:** "…or **by revealing** from the fall `[cj: *revelando*; read *relevando*, "by
+  raising up"]`."
+
+### 1.2 @1046A (0089) — a supplied subject in a truncated lemma, twice
+- **Latin:** `*In convertendo.*` (twice: `ibi, *Converte, Domine. In convertendo.*` and
+  `*In convertendo.* [n: (AUG.)] Vel, cum converterit…`)
+- **English:** "*When **the Lord** turned.*" (both times)
+- Migne prints the lemma short. Ps 125:1 Vulgate supplies the subject — *In convertendo **Dominus**
+  captivitatem Sion* — and the translator finished the lemma from the Vulgate. The printed words
+  carry no subject at all. The predicted failure profile of verse-by-verse commentary.
+- **OURS.**
+- **Proposed:** "*In the turning.*" (or "*When he turned.*" only if a subject is unavoidable —
+  but the plate has none).
+
+### 1.3 @1048D (0090) — a possessive the Latin never printed
+- **Latin:** `*Prolongaverunt iniquitatem.* Alias, *longe a me fecerunt injustitiam suam.*`
+- **English:** "*They have lengthened out **their** iniquity.* Elsewhere, *they have put **their**
+  injustice far from me.*"
+- The second lemma prints *suam* and rightly gets "their." The first does **not** (Vulgate
+  Ps 128:3 has *iniquitatem suam*), and the English supplied it from memory. The two lemmata are
+  three words apart, which is what makes the supply visible.
+- **OURS.**
+- **Proposed:** "*They have lengthened out iniquity.*"
+
+### 1.4 @1050C (0092) — a cross-reference cue conformed to the verse it points at
+- **Latin:** `Secundo, ostendit domum aedificatam, ibi, *Ecce audi.*`
+- **English:** "Secondly, he shows the house built, there, *Behold **we have heard**.*"
+- Migne's cue prints *Ecce audi*. Our English gives *Ecce audivimus* — the VERS. 6 lemma it
+  points to, which is correctly rendered "Behold we have heard" at 1051B. And the **same two
+  words** at 1051B (`Ecce audi, scilicet Dominum nasciturum`) are there rendered literally,
+  "Behold, hear." So the page renders one printed phrase two different ways, and the divergent
+  one is the conformed one.
+- **OURS.**
+- **Proposed:** "…there, *Behold, hear.*"
+
+### 1.5 @1051B (0092) — an attribution silently altered
+- **Latin:** `VERS. 6.-- *Ecce audivimus.* (CASS. Secunda pars ubi…`
+- **English:** "VERS. 6.-- *Behold we have heard.* **(CAS.)** The second part where…"
+- Migne prints `(CASS.` — an unclosed parenthesis, his defect. Our English both closed the
+  parenthesis **and dropped an S**, producing an attribution siglum that appears nowhere on the
+  plate. Attribution sigla are Migne's and reproduced as printed.
+- **OURS** (the unclosed paren is Migne's; "CAS.)" is not).
+- **Proposed:** reproduce `(CASS.` as printed.
+
+### 1.6 @1052A (0092) — "thy" imported into a lemma
+- **Latin:** `VERS. 10.-- *Propter David servum.*`
+- **English:** "*For **thy** servant David's sake.*"
+- Vulgate Ps 131:10 is *propter David servum **tuum***; Migne prints the lemma without it. Nine
+  words later `*propter David*` is correctly rendered "for David's sake," with nothing added —
+  so the supply is local to the fuller lemma, which is the tell.
+- **OURS.**
+- **Proposed:** "*For David the servant's sake.*"
+
+### 1.7 @1052C (0092) — "her" imported into a lemma standing beside one that does print the pronoun
+- **Latin:** `*Sacerdotes ejus,* … *Et sancti,* id est subditi.`
+- **English:** "*Her priests,* … *And **her** saints,* that is, those subject."
+- *Sacerdotes **ejus*** prints the pronoun and rightly gets "her." *Et sancti* does not (Vulgate
+  Ps 131:16: *et sancti **eius** exultatione exultabunt*). Two lemmata in the same sentence, one
+  with the pronoun and one without, both rendered as though both had it.
+- **OURS.**
+- **Proposed:** "*And the saints,*"
+
+### 1.8 @1055A (0093) — "his" imported into a lemma, with the Vulgate quoted on the same line
+- **Latin:** `*judicabit* eos in futuro, *et in servis,* id est, fidelibus, *consolabitur,*`
+- **English:** "*he will judge* them in the time to come, *and in **his** servants,* that is, in
+  the faithful, *he will comfort,* `[var: Vulg. Ps 134:14 *et in servis suis deprecabitur* …]`"
+- Migne prints *et in servis*. The `[var:]` immediately after quotes the Vulgate's *in servis
+  **suis***, so the Vulgate wording was demonstrably in view when the lemma was rendered — and
+  its possessive migrated into the printed lemma while the var note goes on reporting the
+  divergence as though it had not.
+- **OURS.**
+- **Proposed:** "*and in the servants,*"
+
+### 1.9 @1055B (0093) — a VERS. number supplied that the plate does not print
+- **Latin:** `VERS. -- *Similes illis fiant.*`
+- **English:** "**VERS. 18.**-- *Let them become like unto them.*"
+- Migne's VERS. addresses are reproduced as printed, including where a number is absent. Here the
+  plate prints the rubric with no number and our English supplied 18. (It is the right number;
+  that is not the point — the address is Migne's, and this one now silently claims his authority
+  for our arithmetic.)
+- **OURS.**
+- **Proposed:** "VERS. -- *Let them become like unto them.*"
+
+### 1.10 @1060A (0096) — "my" imported into a lemma whose twin four words later has none
+- **Latin:** `*Si sumpsero pennas,* duas alas charitatis` … `*Pennas.* [n: (CASS.)] Quae meae…`
+- **English:** "*If I shall take **my** wings,* the two wings of charity" … "*Wings.*"
+- Vulgate Ps 138:9: *si sumpsero pennas **meas** diluculo*. Migne prints *pennas* bare in both
+  places; the second is correctly rendered "*Wings.*" without a possessive.
+- **OURS.**
+- **Proposed:** "*If I shall take wings,*"
+
+### 1.11 @1059B (0096) — two supplied possessives in one gloss
+- **Latin:** `*Et funiculum.* (Alias) limitem, quousque perveni:`
+- **English:** "*And **my** line.* (Otherwise) **my** boundary, how far I came:"
+- Vulgate Ps 138:3 prints *funiculum **meum***; Migne does not. *limitem* has no possessive
+  either. The preceding lemma, `*Semitam meum*`, does print one and is correctly rendered "My
+  path" — again a printed possessive beside an unprinted one, both rendered alike.
+- **OURS.**
+- **Proposed:** "*And the line.* (Otherwise) the boundary, how far I came:"
+
+### 1.12 @1053A (0092) — subject and number silently reassigned
+- **Latin:** `qui primo fide certaverunt, sed vinci non potuerunt, quia jam caput passum
+  praecesserunt.`
+- **English:** "who first strove in faith, but could not be overcome, because **the head that had
+  suffered had** already gone before them."
+- The printed verb is **plural** (*praecesserunt*) and its only available subject is the apostles
+  and primitive saints; *caput passum* stands as its object. Our English makes *caput* the
+  subject and the verb singular — a repair of both agent and number, with nothing marking it.
+  (The conjecture *praecesserat* is almost certainly right; that belongs in a crux or a `[cj:]`,
+  not silently in the text.)
+- **OURS.**
+- **Proposed:** render the printed plural and gloss it, e.g. "because they had already gone
+  before the head that had suffered `[cj: *praecesserunt*; read *praecesserat*, "the head had
+  gone before"]`."
+
+### 1.13 @1051B (0092) — a garbled clause silently made grammatical
+- **Latin:** `Secunda pars ubi ostenditur aedificata domus, et ubi et precatur **qui** exaltentur,
+  et ne Judaei sint penitus alieni.`
+- **English:** "The second part, where the house is shown built, and where he also prays **that**
+  they may be exalted, and that the Jews be not utterly strangers."
+- The plate prints *qui*; the English reads *ut*. Nothing on the page tells the reader the
+  conjunction was supplied. This is the sentence at 1051B whose attribution siglum is also
+  altered (§1.5) — two silent repairs within eight words.
+- **OURS.**
+- **Proposed:** either render the relative as printed ("prays for those who are to be exalted")
+  or keep the smooth reading with `[cj: *qui*; read *ut*, "that"]`.
+
+### 1.14 @1054B (0093) — a feminine participle attached to a masculine noun
+- **Latin:** `Fides unde incipimus, **qua viva** proficit homo in melius`
+- **English:** "Faith, whence we begin, by which, **being alive**, a man advances unto better
+  things"
+- *viva* is feminine and agrees with *qua* (= *fides*): the faith is what is alive. Our English
+  floats the participle onto *homo*, so the page says the **man** is alive rather than the
+  **faith** — and the gloss's whole point (living faith advances a man) is lost. Gender is
+  decisive here; this is not a judgment call.
+- **OURS.**
+- **Proposed:** "by which, when it is living, a man advances unto better things."
+
+### 1.15 @1058B–C (0095) — "my" imported into a lemma the gloss immediately re-quotes without it
+- **Latin:** `VERS. 3.-- *In anima.* Et quia in anima potest fieri carnalis multiplicatio…`
+- **English:** "*In **my** soul.* And because in **the** soul a carnal multiplication can take
+  place…"
+- Vulgate Ps 137:3: *multiplicabis in anima **mea** virtutem*. The lemma got the Vulgate's
+  possessive; the identical words four words later, in the gloss, did not. Same phrase, same
+  sentence, two treatments.
+- **OURS.**
+- **Proposed:** "*In the soul.*"
+
+---
+
+## 2. FINDINGS — probable, lower confidence
+
+### 2.1 @1056C (0094) — the lemma no longer carries the word its own gloss expounds
+- **Latin:** `*Et excussit Pharaonem.* Diabolum, cum ministris **excussit**, ut pulverem, qui
+  celeriter **excutitur** … illae terrenae sordes indicantur, quas solemus **excutere**.`
+- **English:** "*And he **overthrew** Pharao.* He **shook off** the devil… as dust, which is
+  quickly **shaken off**… defilements… which we are wont to **shake off**."
+- The lemma is conformed to Douay's "overthrew" while the three glosses on the same verb are
+  correctly "shake off." The exposition turns entirely on *excutere*, and after this rendering
+  the keyword is absent from the verse it expounds — 7a″'s exact mechanism.
+- **OURS.** (Lower confidence only because "overthrew" is defensible English for *excussit*;
+  the defect is the inconsistency with its own gloss, not the gloss of the word.)
+- **Proposed:** "*And he shook off Pharao.*"
+
+### 2.2 @1050A (0091) and @1057A–B (0094) — *coeperint / coeperunt* given a supplied infinitive
+- **Latin (0091):** `Qui si utcunque aliquid **coeperint**, vel visi sunt capere, inde superbiunt`
+- **English:** "Who, if they have in any way begun **to grasp** something, or have seemed to
+  grasp it, thereupon grow proud"
+- **Latin (0094):** `Et hinc haud parum emolumenti **coeperunt**`
+- **English:** "And hence they **began to take** no small profit"
+- Both plates print *coep-* (begin), not *cep-* (take/grasp), and in both the printed verb is
+  left with a bare accusative object it cannot govern. The English supplies an infinitive in
+  each case — imported in 0091 from the very next clause (*visi sunt capere*) — and the
+  defective reading disappears. The right reading is almost certainly *ceperint / ceperunt*, but
+  that is a conjecture, and neither site marks anything.
+- **OURS**, two sites, one mechanism.
+- **Proposed:** render the printed verb ("if they have in any way begun something"; "hence they
+  began no small profit") with a `[cj:]` carrying *ceperunt*, or mark the repair.
+
+### 2.3 @1060A (0096) — a malformed `[cj:]` that also replaces rather than glosses
+- **Latin:** `Quae meae potestatis, **in est** efficaciam deitatis, qua corpus de sepulcro levavit.`
+- **English:** "Which are of my own power, **that is** `[cj: *in*; read *id*]`, the efficacy of
+  the Godhead…"
+- Two problems. (a) **Form:** Pattern 18 fixes the shape as printed word / `read *…*` / **a short
+  gloss in double quotes**. This marker has no gloss at all. (b) **Substance:** the running
+  English "that is" *is* the conjecture *id est*; the printed *in* gets no English exponent, so
+  deleting the marker leaves the emended reading standing as our text. Same failure as §1.1.
+- **OURS.**
+- **Proposed:** supply the missing sense-gloss, and let Migne's word show — the run *in est* is
+  arguably a Pattern 10 split/defective run and a candidate for `[sic:]` rather than `[cj:]`,
+  since *in* has no grammatical slot here.
+
+### 2.4 @1048C (0090) — an antecedent chosen for the reader
+- **Latin:** `Decimus gradus, ut qui caste timet, **pro eo** omnia ferat, quod nunc expedit
+  Ecclesiae inter malos.`
+- **English:** "The tenth degree, that he who fears chastely may bear all things **for that
+  fear**, which is now expedient for the Church among the wicked."
+- *eo* is masculine/neuter and has no *timor* to refer back to; the nearest available antecedent
+  is the *pacificus* of the ninth degree (Christ), i.e. "for his sake." Bearing all things **for
+  Christ** and bearing all things **for fear** are different claims, and the plate does not
+  choose between them.
+- **OURS**, medium confidence.
+- **Proposed:** "may bear all things for his sake" (leaving the pronoun as open as the Latin).
+
+### 2.5 @1048C (0090) — the same Latin subject rendered "she" then "he" in consecutive sentences
+- **Latin:** `Ostendens primo quae tulerit, consolatur infirmos. Secundo agit de reprobatione
+  persequentium…`
+- **English:** "Showing first what things **she** has borne, **she** comforts the weak. Secondly
+  **he** treats of the reprobation of the persecutors…"
+- One unbroken series of third-person verbs with one implied subject, split across two referents
+  in English. The parallel formula eight lines later (`Secunda pars, ubi agit de reprobatione`)
+  is again "he." Whichever is right, the pair cannot both be.
+- **OURS**, low-medium — a consistency defect rather than a mistranslation, but a reader meets
+  two agents where the Latin has one.
+
+### 2.6 @1053C (0093) — a grammatical term read as a quantity
+- **Latin:** `Primo, invitat **pluraliter** benedicere Deum; secundo, optat benedici`
+- **English:** "First, he invites **many** to bless God; secondly, he wishes them to be blessed"
+- *pluraliter* is "in the plural," not "many" (*plures*). The passage exists to make exactly this
+  grammatical point — 1053D goes on, `Supra hortatur plures benedicere Deum, ipse vero **unum**
+  benedicit tantum`, plural address answered by singular blessing — and our own English at
+  1048A renders the parallel *a pluribus coepit* as "he began from the plural." So the reading is
+  available to the translator elsewhere and was not used here.
+- **OURS**, medium confidence.
+- **Proposed:** "First, he invites in the plural to bless God."
+
+### 2.7 @1056C–D (0094) — "his" supplied in a gloss quoting a lemma that does print it
+- **Latin:** `VERS. 22.-- *Israel servo suo.* Accipit per *Israel servum,* Christum`
+- **English:** "*To Israel his servant.* He takes by *Israel **his** servant* Christ"
+- The lemma prints *suo* and is right; the gloss's re-quotation prints only *servum* and got the
+  possessive anyway. Same class as §1.7 and §1.11, smaller stakes.
+- **OURS.**
+- **Proposed:** "He takes by *Israel the servant* Christ."
+
+### 2.8 @1060B (0096) — a supplied object in a truncated lemma
+- **Latin:** `*Et dixit forsitan tenebrae conculcabunt,* etc.`
+- **English:** "*And he said, perhaps darkness shall tread **me** down,* etc."
+- Vulgate Ps 138:11 has *conculcabunt **me***; Migne breaks off at *conculcabunt* and prints
+  *etc.* The later lemma `*Conculcaverunt me*` does print the pronoun and is correctly rendered.
+- **OURS**, low-medium (the *etc.* arguably licenses the completion — but the convention is to
+  stop where the plate stops).
+
+### 2.9 @1059C (0096) — an active first-person verb rendered as a passive participle
+- **Latin:** `*Quia non est dolus in lingua mea:* jam in tua gratia **justificaui**.`
+- **English:** "*For there is no guile in my tongue:* now **justified** in thy grace."
+- *justificaui* (= *justificavi*) is first-person perfect **active**, "I have justified" — an
+  object-less transitive, i.e. a defective reading. Our English gives a smooth passive participle
+  agreeing with the speaker, and nothing marks the plate.
+- **OURS**, low-medium; the printed reading is unconstruable and the honest treatment is a crux
+  plus a rendering as close as the words allow, not a silent passive.
+
+### 2.10 @1059A (0095) — a number disagreement harmonized out
+- **Latin:** `in quo **principes** mundi peccatum non **invenit**, quare **occideret**.`
+- **English:** "in whom **the princes** of the world **found** no sin, wherefore **they** should
+  kill him."
+- Both verbs are singular against a plural noun (the source is John 14:30, *princeps mundi*).
+  English past "found" has no number exponent, but "they should kill" does, and choosing the
+  plural makes the disagreement invisible. Pattern 12's second test — a rendering that works only
+  by hiding the defect — points at `[sic:]` or `[cj:]` here.
+- **OURS**, low confidence: this is the least certain item on the list, and reasonable readers
+  will differ about whether English can show the fault at all.
+
+### 2.11 @1041D (0087) — a comparative the Latin does not print
+- **Latin:** `non est salubrius aliquid, **quod delectet**, quam laus Dei`
+- **English:** "there is nothing more wholesome, **nothing that may delight more**, than the
+  praise of God"
+- The Latin has one comparative (*salubrius*) governing one relative clause. The English makes
+  two comparatives and asserts, additionally, that nothing delights more than the praise of God
+  — a claim the plate does not make.
+- **OURS**, low.
+- **Proposed:** "there is nothing more wholesome, which may delight, than the praise of God."
+
+### 2.12 @1059C–D (0096) — three small supplied possessives in glosses
+- `quando partem substantiae petii` → "when I asked for **my** portion of the substance"
+- `quando dixi, da mihi partem substantiae` → "give me **my** portion of the substance"
+- `Gravasti manum, vindicem` → "Thou hast made heavy **thy** hand, the avenging hand"
+- All three read back the possessives of Luke 15:12 / Ps 138:5 into glosses that print none.
+  Individually trivial; listed because they are the same mechanism as §1.3/1.6/1.7/1.10/1.11 and
+  the density in one column is itself the evidence.
+- **OURS**, low.
+
+---
+
+## 3. MARKER AUDIT — result
+
+Every `[sic:]`, `[cj:]`, `[d:]` and `[var:]` in the band was checked three ways: content verbatim
+in the Latin twin, marker seated on the English word it accuses, and the clause read with the
+marker's contents deleted.
+
+- **All 12 `[sic:]` and all 6 `[cj:]` contents verify verbatim in the facing Latin.** Checked
+  mechanically and by eye: `ete.` · `pecatorum` · `similttudinem` · `dieeret` · `Sumnum` ·
+  `exaltaxit` · `iu` · `noc` · `Ddvid` · `egestare` · `pecatum` · `incomprehensibllis` ·
+  `fungiendum`; `revelando` · `eum` · `Deum` · `veniens` · `orbi` · `dici` · `in`.
+- **Both `[d:]` markers sit on the intrusive copy** — `et et` @1039D → "and `[d: et]`";
+  `in hoc hoc quod` @1044A → "in this `[d: hoc]`, that". Correct.
+- **All 15 `[var:]` notes are accurate and none of their quoted Vulgate wording appears in the
+  Latin twin** (the inverted test for that marker class). Spot-verified against the received
+  text: Jn 10:9, Acts 10:13, Mk 7:15/Mt 15:11, Ps 41:4, Prov 18:3, Sir 3:20, Is 66:2, Mt 6:26,
+  Ps 134:7, Ps 134:14, Ps 138:4, Wisd 1:7, Ps 138:11, Ps 138:14, Mt 7:23+25:12. The Mt 7:23 note
+  correctly identifies the spliced opening from Mt 25:12; the Mk 7:15 note correctly identifies
+  Migne's wording as Mt 15:11.
+- ⛔ **The two markers standing where the defective word IS or CARRIES a negative — both are
+  CORRECT, and this is a real negative result:**
+  - `noc` for *non*, @1058D (0095): "For to be angry is to them a punishment, **not**
+    `[sic: *noc*]` only a fault." Delete the marker's contents and the clause stays negative.
+    The "not" is outside the quarantine. ✅
+  - `incomprehensibllis`, @1059D (0096): "*Wonderful,* and **incomprehensible**
+    `[sic: *incomprehensibllis*]` to me." The privative is carried by the English word, which
+    stands outside the marker. ✅
+  - (A third that could have failed and did not: `fungiendum` @1060B, where the governing *non
+    esse … fugiendum* is negative. English: "he must **not** flee `[sic: *fungiendum*]` from
+    him." Negative and verb both outside the marker. ✅)
+- **Two `[cj:]` markers fail Pattern 18 substantively** — §1.1 (`revelando`) and §2.3 (`in`) —
+  because the running English carries the conjecture and not Migne's word. §2.3 additionally
+  omits the required double-quoted sense gloss.
+- **One `[cj:]` is inert but harmless:** `[cj: *orbi*; read *orbis*, "of the whole world"]`
+  @1055B–C — the running English and the gloss are the identical phrase "of the whole world,"
+  because English has no exponent for the case. Not a fidelity defect; noted so a later pass does
+  not mistake it for one.
+
+**On the house shape of `[sic:]` in this work:** every one of the twelve renders the sense in
+English *and* marks the type (`a similitude [sic: *similttudinem*]`, `in [sic: *iu*] the breadth`).
+This is uniform across all ten chunks and it is what 7a⁗ demands — the sense stands outside the
+quarantine. Recorded as observed practice, **not** reported as a defect.
+
+---
+
+## 4. THE GRADUS SERIES — checked, intact
+
+The gloss carries the numbered series in its own voice and it survives as a series in English:
+
+| chunk | col | Latin | English |
+|---|---|---|---|
+| 0088 | 1042A | Primus gradus | The first degree |
+| 0088 | 1042D | Secundus gradus | The second degree |
+| 0088 | 1043B | Tertius gradus | The third degree |
+| 0088 | 1044A | Quartus gradus | The fourth degree |
+| 0089 | 1045B | Sextus gradus | The sixth degree |
+| 0089 | 1046A | Septimus gradus | The seventh degree |
+| 0090 | 1046D | Octavus gradus | The eighth degree |
+| 0090 | 1048A | Nonus gradus | The ninth degree |
+| 0090 | 1048C | Decimus gradus | The tenth degree |
+| 0091 | 1049B | Undecimus gradus | The eleventh degree |
+| 0091 | 1049D | Duodecimus gradus | The twelfth degree |
+| 0092 | 1050C | In tredecimo gradu | In the thirteenth degree |
+| 0092 | 1052D | Quartus decimus gradus | The fourteenth degree |
+| 0093 | 1053C | Quintus decimus gradus | The fifteenth degree |
+
+**The fifth degree is missing from the plate, not from our English.** Psalm CXXIII (0089, 1044C)
+opens with no *gradus* label at all where the sequence requires *Quintus*. That is Migne's gap,
+faithfully carried, and is **not a finding**.
+
+---
+
+## 5. CHUNKS READ AND FOUND CLEAN
+
+No chunk in this band came back with zero sites, so there is no clean-chunk list to record for
+band C. Stated positively so the absence is not mistaken for an omission: **all ten chunks —
+0087, 0088, 0089, 0090, 0091, 0092, 0093, 0094, 0095, 0096 — were read in full against their
+Latin twins, clause by clause.** The lightest are **0088** (one low-grade candidate, all
+rejected — see §6) and **0089** (one finding, §1.2, and otherwise clean through 992 words
+including a long Augustine gloss on Ps 123 that renders *deglutire / manducare / mactare* exactly
+as printed). The heaviest is **0092**, with five findings in three columns.
+
+---
+
+## 6. CANDIDATES CONSIDERED AND REJECTED
+
+**Migne's own, faithfully carried — the edition working:**
+- @1054C (0093) `propter **poculum** suum` → "for his own **cup's** sake." Almost certainly
+  *populum*, and the English renders the plate. Correct under Pattern 7. Not a finding.
+- @1042C (0089) `Post passionem … contra Ecclesiam **gentium** et Judaei exarserunt` — *gentium*
+  is genitive against a sense that wants nominative *gentes*. Our English reads it as printed
+  ("the Church of the Gentiles… the Jews also were enkindled"). Faithful.
+- @1060A (0096) `Invenit consilium, sed sic potero fugere iratum.` — reads as an assertion that
+  the fugitive **can** escape, which the whole gloss denies. But Migne prints a full stop, not a
+  question mark, and the clause is defensible as the fugitive's reported thought. Migne's, or no
+  defect at all. Not ours.
+- @1051A (0092) `dormituris tempora incipiunt` — verbless in Latin, verbless in English ("the
+  temples begin"). Honest.
+- @1050A (0091) `ad Verbum quod apud Deum, **sed non**.` — the sentence simply stops and the
+  English stops with it. Correct.
+- @1057D (0092) `sed vinci non potuerunt. **Ab illis.**` — an orphan phrase carried as printed.
+- @1043A (0088) `**VESS.** 4.` → "VERS. 4." A normalized section label; Pattern 9/12 exempt it
+  explicitly, and the facing Latin column carries the type. **Not** a finding — flagged here
+  only because it looks like one.
+
+**Grammatical judgment calls where the English is defensible:**
+- @1043C (0088) `ubi sancti securi et **eum** Domino judicabunt` with `[cj: *eum*; read *cum*]` —
+  the running English "shall judge him with the Lord" does render the printed *eum* ("him") and
+  reads *Domino* as an ablative. Additive, marker correctly seated. Passes.
+- @1043C (0088) `in quibus **Deum** sedet` with `[cj: *Deum*; read *Deus*]` — the accusative has
+  no grammatical slot as subject, so the English cannot carry it in place; arguably a `[sic:]`
+  case rather than a `[cj:]` one, but the defect is visible and correctly attributed. Not
+  reported.
+- @1048B (0090) `quando sancti **veniens** … portantes manipulos suos` with `[cj: *veniens*;
+  read *venient*]` — English keeps the printed singular participle ("the saints, coming") and
+  preserves the anacoluthon. Exemplary; the shape §1.1 and §2.3 should have had.
+- @1049D (0091) `Speret **vigilia matutina**, qui non aliud a Deo … speret` → "Let **him** hope
+  in the morning watch who hopes…" The masculine *qui* forces a personal subject; supplying "him"
+  is licensed by the relative. Rejected.
+- @1050C (0092) `donec Ecclesia **sancta** praedicatione sit fundata` — *sancta* can agree with
+  either noun; either rendering is faithful.
+- @1051B (0092) `Locus autem Dei est, si suas deserit res` → "**a man** is a place of God if…" —
+  a supplied generalizing subject where the Latin is elliptical. Borderline; the subject is
+  recoverable from the preceding clause. Rejected.
+- @1058B (0095) `quibus aequari sicut nunc, ita post, dignitate expecto` → "to whom I look to be
+  made equal in dignity hereafter, as I am now." The *sicut nunc / ita post* pair picks up the
+  *in spe / in re* contrast three lines earlier, and the English flattens it — but it does not
+  reverse it. Considered at length and rejected as register, not sense.
+- @1057B (0094) `**ut quid** prodest Christus?` → "as, what does Christ profit?" — *ut quid* is
+  the idiom "to what purpose," and the English splits it. The resulting sense is close enough
+  that this is style, not sense. Rejected.
+- @1061C (0096) `fictis **sibi** conjunctis, quos patitur Ecclesia` → "joined to **himself**" —
+  the reflexive more probably refers to the Church, which is the subject of the next clause. Too
+  fine to call; rejected.
+- @1041C (0087) `vesiculam gutturis et **plumam** projici` → "and **the feathers**" (singular
+  → plural), with *plumae* correctly plural two clauses later. Number only, and English has no
+  stake in it. Rejected.
+- @1040A (0087) `Nesciente **Judae**` → "**Judah** not knowing." *Judae* is the same form for
+  Judas and Judah, and the passion context arguably wants Judas — but the plate does not settle
+  it and the English is not wrong. Rejected, with a note for a later pass.
+
+**Punctuation drift — observed, not itemized as findings:**
+Roughly a dozen sites across the band substitute a colon or semicolon for a printed comma or full
+stop (e.g. @1044C `Ut cum dicitur.` → "As when it is said:"; @1045B `ut stupa, tanta fortitudo`
+→ "like tow: so great was"; @1053A `de quibus dicitur.` → "of whom it is said:"; @1055B
+`omnes … Israel, omnes una voce dicamus` → "…Israel: let us all"). Pattern 8 forbids supplying,
+deleting or altering printed marks, so these are real, but none of them changes the sense and
+the class is better swept mechanically than reported one at a time here. Recorded so the class
+is on the books.
+
+---
+
+## 7. SHAPE OF THE RESULT
+
+**27 sites: 15 confident, 12 probable.** All 27 judged **OURS**; no site in this band is a
+Migne error our English merely carried (the six candidates of that kind are in §6, correctly
+carried in every case).
+
+**The dominant class by a wide margin is the supplied possessive or completion in a truncated
+lemma — §§1.2, 1.3, 1.6, 1.7, 1.8, 1.10, 1.11, 1.15, 2.7, 2.8, 2.12: eleven sites.** In eight of
+them a lemma **that does print the possessive stands within a few words of one that does not**,
+and both were rendered alike — which is both the mechanism and the cheapest test for the rest of
+the work. Ps 131 and Ps 138 are the worst-affected psalms.
+
+**Second class: the marker that replaces instead of glossing** — §1.1 and §2.3, both `[cj:]`,
+both leaving Migne's printed word with no English exponent at all.
+
+**Third class: the silent repair of a broken clause** — §1.12, §1.13, §2.2 (×2), §2.9, §2.10:
+six sites where the Latin is defective and the English reads smoothly with nothing marking it.
+
+Neither the negation class nor the swallowed-force class fired in this band: every printed
+`non`, `nec`, `ne`, `nisi`, `nullus`, `nihil` and `haud` was traced into its English, including
+`haud parum` @1057A, `nec poteram ad eam` @1060D, `ne quis ergo timeat` @1048D, and the doubled
+`Non sunt aliae viae … Non sunt aliae` @1058B. The two marker-borne negatives are correct (§3).
+
+
+## §I.polarity-bandC-0097 — file `polarity-bandC-0097.md`, verbatim
+
+# Blind polarity read — 8967, band C (chunks 0097–0105)
+
+*Glossa ordinaria* on the Psalms, PL 113 cols 1061D–1080B, Psalms CXXXIX–CL (the end of
+the work). Read blind: cruces, briefs, patch reports, plate-read records and the git log
+were not opened. Sources read: `translation-style.md` (register, Patterns 5–18) and the
+nine Latin/English chunk pairs, clause by clause.
+
+**Result: no chunk in the band came back clean.** 11 findings + 2 marker classes that run
+across the band. The two classes account for 22 of the 26 `[sic:]`/`[cj:]` markers in the
+range and are, in my judgment, the product of the second (apparatus) pass rather than the
+translation pass.
+
+---
+
+## CLASS 1 — `[cj: …]` INVERTED: the English carries the conjecture, the gloss repeats it
+
+**Ten sites. Every `[cj:]` in the band is built the same way, and the polarity is the
+reverse of Pattern 18.** Pattern 18's founding form is *additive*: Migne's printed word
+keeps its English in the running text, and our conjecture stands beside it —
+
+> the angels announce peace **purely** `[cj: *munde*; read *mundo*, "to the world"]`
+
+In all ten of these sites the running English gives **the conjecture's** sense, and the
+marker's quoted gloss then **restates the same words that are already in the text**. The
+tell is mechanical and it fires ten times out of ten: *the gloss's double-quoted phrase is
+verbatim the English immediately before it.* The consequence is the one Pattern 18 exists
+to prevent — **Migne's printed word reaches the reader nowhere in the English**, and the
+marker, whose job is to add a reading, is doing the work of concealing a repair (7a′: "the
+marker becomes a place to hide a repair").
+
+| # | col | Latin as printed | English as printed | what the English says that the Latin does not | proposed correction |
+|---|---|---|---|---|---|
+| 1.1 | 1063B | *Nota, quod et cordi et ori petit **apponit** custodiam* | "he asks a watch **to be set** [cj: *apponit*; read *apponi*, "to be set"]" | *apponit* is a finite indicative — "he **sets** a watch". The English gives only the infinitive of the conjecture. | "Note that he asks for both heart and mouth: he sets a watch [cj: *apponit*; read *apponi*, "to be set"]" |
+| 1.2 | 1065C | *Fortius non fugit mente, qui non vult.* | "**The strong man** [cj: *Fortius*; read *Fortis*, "the strong man"] does not flee in mind" | *Fortius* is a comparative adverb and renders in place — "**more strongly** he does not flee in mind". The printed reading is not even unconstruable here. | "More strongly [cj: *Fortius*; read *Fortis*, "the strong man"] does he not flee in mind, who does not will it." |
+| 1.3 | 1068B | *Hic est gladius bis **actus*** | "the sword twice **sharpened** [cj: *actus*; read *acutus*, "sharpened"]" | *actus* = driven, wielded. "Sharpened" is only the conjecture. | "the sword twice driven [cj: …]" |
+| 1.4 | 1068D | *Non **laboro** macri, sed otio pingues* | "Not lean **with labour** [cj: *laboro*; read *labore*, "with labour"]" | *laboro* is 1 sg. indicative and has no slot in the clause — this is a Pattern 12 (1) case, not a `[cj:]` case at all. | carry it: "Not lean [sic: *laboro*], but fat with idleness" |
+| 1.5 | 1068D | *ut his qui affluunt divitiis, **eum** ipsi sint a veritate jejuni* | "**whereas** [cj: *eum*; read *cum*, "whereas"] they themselves are fasting" | *eum* is a pronoun, not a conjunction; the English asserts a concessive the plate does not print. | render the pronoun as the words allow, or mark it `[sic:]`; do not let the marker supply the conjunction (7a⁗ q. 3). |
+| 1.6 | 1069C | *cum venerit unus sine **fines** dies* | "the one day **without end** [cj: *fines*; read *fine*, "without end"]" | the printed *sine fines* is rendered by the conjecture only. | "the one day without ends [cj: …]" or carry the run. |
+| 1.7 | 1071C | *quasi **musicas** salutaris* | "as it were **a saving music** [cj: *musicas*; read *musica*, "a saving music"]" | same shape; gloss = text. | render the printed form as the words allow, gloss beside it. |
+| 1.8 | 1072A | *praeest plumbo in puritate **laudatio*** | "lead **that is praised** [cj: *laudatio*; read *laudato*, "that is praised"]" | same shape; gloss = text. | as above. |
+| 1.9 | 1075C | *Nisi enim **mittere** verbum terrae* | "unless **he sent** [cj: *mittere*; read *mitteret*, "he were to send"]" | same shape; gloss = text. | "For unless to send his word to the earth [cj: …]" — or carry. |
+| 1.10 | 1077A | *VERS. 7.-- **Laudate Dominam.*** | "*Praise ye the Lord.* [cj: *Dominam*; read *Dominum*, "the Lord"]" | **the sharpest of the ten.** *Dominam* is "the **Lady**" — a real word meaning something else. The English prints the identical string it used for *Laudate Dominum* at VERS. 1 of the same psalm, so the defect is completely invisible; and the marker sits **outside** the italic lemma it accuses. | "*Praise ye the Lady* [cj: *Dominam*; read *Dominum*, "the Lord"]", marker inside or immediately after the lemma word. |
+
+**Ours** in every case. The `[cj:]` content check (printed word verbatim in the Latin twin)
+passes at all ten — I ran it — so nothing here is a false accusation against Migne's type;
+what is wrong is that the *English text* has been emended and the marker left to carry the
+plate's reading, which is the exact inversion of the convention.
+
+---
+
+## CLASS 2 — `[sic: …]` on type that was TRANSLATED anyway
+
+**Twelve sites.** Pattern 7's non-word ruling is that type which is not a word cannot be
+rendered, so it is **carried into the English untranslated, in italics, with a crux**, and
+Pattern 12 wraps *that carried run*: `the [sic: *ur sam*] which came`. In twelve sites here
+the English **renders the defective type into ordinary English and then appends the marker
+beside it**, so the reader meets a smooth, fully translated sentence with a decorative
+badge on it and no way to see that anything on the plate is broken.
+
+Sites: 1067D *simlis*, *veriteti* ("he was made like [sic: *simlis*] to truth [sic:
+*veriteti*]") · 1070A *corectio* ("no correction [sic: *corectio*]") · 1071B *omnibns* ·
+1073B *suseipiet* · 1073D *disper iones* · 1077A *ubyssi* · 1077D *benficus*, *eanticcum* ·
+1077D *debat* · 1078B *mahsiones* · 1078B *Neseitis* · 1078D *ferrcis*.
+
+**The band's one correctly-formed instance is the counter-example that proves the class:**
+1063D *Sunt **quae dam** contemptibilia* → "There are [sic: *quae dam*] contemptible
+things" — the run is **not** translated ("certain" is absent) and the marker stands in its
+place. That is the convention; the other twelve depart from it.
+
+⚑ **One of the twelve is also misplaced.** At 1078B the marker sits **after the closing
+italic, after the sentence's full stop and after the `[n: (Joan. XIV.)]` note**:
+
+> *In my Father's house there are many mansions. [n: (Joan. XIV.)]* [sic: *mahsiones*]
+
+so it accuses no word at all. It belongs on "mansions". (`[sic: *suseipiet*]` at 1073B and
+`[sic: *ubyssi*]` at 1077A sit outside their lemmata too, though adjacent to them.)
+
+**Judgment: OURS.** All twelve accused strings are verbatim in the Latin twin (checked
+mechanically), so none is a false claim about *which* type is defective; the defect is that
+the English silently repairs it and the marker is left standing over a repair.
+
+*(Whether *corectio* and *debat* merit any marker at all is a separate question — Pattern 9
+exempts attested medieval spellings, and *corectio* is one. I raise it, I do not press it.)*
+
+---
+
+## INDIVIDUAL FINDINGS
+
+### F1. 1078B — a negation the Latin does not print ⭐ the band's one true polarity site
+
+- **Latin:** *tunc reges terrae ligabuntur: unde **nos** sit liberum exire.*
+- **English:** "then shall the kings of the earth be bound: whence it may **not** be free to go out."
+- **What the English says that the Latin does not:** the plate prints **`nos`**, not `non`.
+  The English has turned a dative-of-advantage into a negative and reversed the clause. And
+  the printed reading is the one that makes sense of the passage: the kings being bound,
+  *"whence it may be free **for us** to go out."* The English currently says the opposite of
+  what the gloss is arguing, with nothing on the page marking it.
+- **Proposed:** "whence it may be free for us to go out." If a conjecture is wanted, it goes
+  in a marker — `[cj: *nos*; read *non*, "it may not be free to go out"]` — never in the text.
+- **Ours.** The plate is defensible as printed; the English is not.
+
+### F2. 1077C — *de veteri* read as a time-adverb
+
+- **Latin:** *haec est sanctificatio Israel, per quam **de veteri** factus est novus.*
+- **English:** "this is the sanctification of Israel, whereby **of old** it was made new."
+- *de veteri* is "**out of an old one**" — the old Israel/old man, the very antithesis the
+  next paragraph builds on (*Vetus enim homo vetus canticum cantat … Novus homo novum*).
+  "Of old" turns it into *olim*, a date, and the antithesis vanishes.
+- **Proposed:** "whereby out of an old people it was made new" (or "whereby from being old
+  it was made new").
+- **Ours.**
+
+### F3. 1077A — agent re-bound: who established, and who said so
+
+- **Latin:** *Et si coelum novum, **Deo tamen bene statuta** dicuntur, quae novantur per
+  Christum et meliorata permanent.*
+- **English:** "And though the heaven be new, yet they are **rightly said by God** to be
+  established…"
+- *Deo* is the dative of agent with the participle *statuta*, and *bene* modifies *statuta*:
+  "yet they are said to be **well established by God**." The English has moved *Deo* onto
+  *dicuntur* (God becomes the speaker) and *bene* onto *dicuntur* ("rightly said"). Mechanism
+  5 of Pattern 7a — reference/agency mis-bound; no negation-aware check would see it.
+- **Proposed:** "yet they are said to be well established by God, which are made new through
+  Christ and remain bettered."
+- **Ours.**
+
+### F4. 1077B — the lemma *Confessio* rendered "Praise", and the gloss then explains a word that is gone
+
+- **Latin:** *VERS. 13.-- **Confessio.*** … *Confessio ejus super coelum et terram.* Illum
+  omnia **confitentur** in se vel in aliis; pulchritudo omnium vox est **confitentium**…
+- **English:** "*Praise.* … *His praise above heaven and earth.* All things **confess** him
+  in themselves or in others; the beauty of all things is the voice of them that **confess**…"
+- The exposition is a chain on *confiteri*, and the lemma is its head. Rendered "praise", the
+  head of the chain no longer matches its own gloss — and the same English chunk renders
+  *Confiteantur … omnia opera tua* (1070C) as "**confess**", so the work is inconsistent with
+  itself inside four columns. This is 7a″ in its usual dress: the Douay's "his praise above
+  heaven and earth" arrived before the printed word was read.
+- **Proposed:** "*Confession.* … *His confession is above heaven and earth.*"
+- **Ours.** (Judgment call, and I flag it as one: *confessio* does mean praise in the Psalter.
+  The argument is not the lexicon, it is that **this gloss expounds the word**.)
+
+### F5. 1067B — the title rendered from the Vulgate the `[var:]` beside it disowns
+
+- **Latin:** *VERS. 1.-- **Psalmus David ad Goliam.***
+- **English:** "*A psalm of David **against** Goliath.* [var: Vulg. Ps. 143:1 *Psalmus David.
+  Adversus Goliath*]"
+- The `[var:]` exists to say that Migne prints *ad Goliam* where the Vulgate has *adversus
+  Goliath* — and the English then renders *ad* by the Vulgate's *adversus*. The marker and
+  the text contradict each other, and the divergence the marker announces is invisible.
+- **Proposed:** "*A psalm of David to Goliath.*" with the `[var:]` unchanged (and it wants a
+  gloss, per Pattern 14's "give the received reading and, if the sense turns on it, a
+  two-or-three-word gloss" — it is the only `[var:]` in the band with no gloss).
+- **Ours.**
+
+### F6. 1066C — a defective lemma rendered smoothly, unmarked
+
+- **Latin:** *VERS. 3.-- **Quia persecutis.***
+- **English:** "*Because he has persecuted.*"
+- At 1066B the same lemma is cited in full and correctly — *ibi, **quia persecutus est*** —
+  and rendered by the identical English. So the English at VERS. 3 is rendering *persecutus
+  est*, which the plate does not print at that point. Broken Latin, smooth English, nothing
+  marking it.
+- **Proposed:** carry the run — "*Because* [sic: *persecutis*]" — or, if a plate read shows
+  Migne setting it whole, patch the twin. Either way the present state is drift.
+- **Ours** as it stands; the underlying type may be Migne's or the digitization's, which a
+  plate read settles and I have not seen.
+
+### F7. 1076C — *gratias* silently made a nominative
+
+- **Latin:** *tres alios psalmos laudis subjungens, ut in hoc opere **gratias** Trinitatis eluceat.*
+- **English:** "…that in this work the **graces** of the Trinity may shine forth."
+- *gratias* is accusative plural and cannot be the subject of singular intransitive *eluceat*;
+  the English promotes it to subject and the sentence reads perfectly. That is Pattern 12's
+  second failure test exactly — "it renders only by **hiding** the defect", since English has
+  no exponent for the case.
+- **Proposed:** either mark it (`[sic: *gratias*]`) or render the grace singular with a `[cj:]`
+  beside the printed accusative. Low sense-cost, but it is an unmarked repair.
+- **Ours** (low–medium confidence: I cannot exclude that the plate prints *gratia*).
+
+### F8. 1074D — "In the composed bearing", three words before "an uncomposed gait"
+
+- **Latin:** *In tibiis viri.* **In composito habitu** praesumptuosi et audacis. Per virum enim
+  audacem praesumptorem notat. **In tibiis notatur incessus incompositus.**
+- **English:** "In the **composed** bearing of the presumptuous and bold. … In the legs is
+  noted an **uncomposed** gait."
+- The English is a faithful rendering of the printed *In composito* and is therefore correct
+  under Pattern 7 — **I am not asking for it to be changed.** But the page now makes the gloss
+  assert and deny the same thing two sentences apart, with nothing telling the reader which is
+  the plate. This is a textbook Pattern 18 `[cj:]` candidate (word division, *In composito* /
+  *Incomposito*), and the psalm's sense — God takes no pleasure in the legs of a man — settles
+  which way it runs.
+- **Proposed:** keep the English, add `[cj: *In composito*; read *Incomposito*, "in the
+  uncomposed bearing"]`.
+- **Migne's** (or the digitization's) reading; **ours** is only the missing apparatus.
+
+### F9 / F10. 1062B and 1076C — `[sic:]` fired on Migne's own VERS. addresses
+
+- `[sic: VERS. 9.]-- *The proud.*` (1062B) and `[sic: VERS. 16.]-- *Jacob . . . Israel.*` (1076C).
+- Three objections, in order of weight:
+  1. **Inconsistent inside the band.** The `VERS. 7` that follows `VERS. 9` at 1062B–C is
+     equally out of sequence and carries no marker; so does the `VERS. 12` that opens Psalm
+     CXLVII. Two of four out-of-sequence addresses are publicly accused and two are not.
+  2. **Wrong instrument.** A verse address is neither carried type nor a translated word.
+     Pattern 12 marks "carried, untranslated type"; a numeral that is merely wrong is
+     Pattern 7 matter and rides as printed.
+  3. It is a **public accusation against Migne** on a class the edition elsewhere reproduces
+     silently, and it sits on a structural siglum rather than on prose.
+- **Proposed:** withdraw both; if the misnumbering is worth recording, it is crux matter.
+- **Ours.**
+
+---
+
+## CHUNKS READ, AND WHAT EACH RETURNED
+
+All nine read in full, Latin against English, clause by clause, including 0105 which ends
+the work. **None came back wholly clean**, which is itself the band's headline: every chunk
+carries at least one site.
+
+| chunk | cols | verdict |
+|---|---|---|
+| 0097 | 1061D–1064C | 3 sites — F9 (`[sic: VERS. 9.]`), class 1 (*apponit*). Prose otherwise **clean**; the one correctly-formed `[sic: *quae dam*]` in the band is here. |
+| 0098 | 1064C–1066A | 1 site — class 1 (*Fortius*). Prose otherwise **clean**; both `[var:]` sound. |
+| 0099 | 1066A–1067B | 1 site — F6 (*Quia persecutis*). No markers at all in the chunk. Prose otherwise **clean**. |
+| 0100 | 1067B–1069A | 6 sites — F5, class 1 ×3, class 2 ×2. The most marker-dense chunk in the band. |
+| 0101 | 1069A–1071C | 3 sites — class 1 (*fines*), class 2 ×2. Prose **clean** — incl. the eight-item list Migne calls nine, correctly carried, and *memor nostri est* correctly "mindful **of us**". |
+| 0102 | 1071C–1073C | 3 sites — class 1 ×2, class 2 (*suseipiet*). Prose otherwise **clean**. |
+| 0103 | 1073C–1075A | 2 sites — F8, class 2 (*disper iones*). Prose otherwise **clean**. |
+| 0104 | 1075A–1077C | 7 sites — F3, F4, F7, F10, class 1 ×2, class 2 (*ubyssi*). |
+| 0105 | 1077C–1080B | 8 sites — F1, F2, class 2 ×6 (incl. the misplaced *mahsiones*). |
+
+### ⚑ The instruments came back clean, and I checked them as instructed
+
+Every instrument in the Hallelujah psalms is the one the gloss then describes:
+
+- *tympano et psalterio* → "timbrel and psaltery" (1078A) — the pair of Ps 149:3.
+- *Tuba … psalterium … cithara* → trumpet / psaltery / harp (1079A–B), and the gloss's own
+  discriminator survives intact: **"the psaltery sounds from above, the harp from below"**
+  (*psalterium a summo, cithara ab imo*), which is the whole point of keeping *cithara* a
+  harp and not a lyre or a lute. *Tuba* is then "terrible, taken up in war or made ready at
+  the coming of kings" — a trumpet, correctly.
+- *chordis* → "strings", glossed as "every musical instrument which sounds by the stretching
+  of strings" (1080A) — the English word supports the gloss.
+- *organum* → "organ", glossed as "a tower framed of divers pipes, sounding by the blast of
+  bellows" — a pipe organ, correctly, and not an *organon* in the generic sense.
+- *cymbala* → "cymbals", glossed as "very small bowls of mingled metals which render a shrill
+  sound" — the picture and the word agree.
+- The closing summary keeps them straight: *flatus in tuba, pulsus in cithara et in cymbalis,
+  vox in choro* → "breath in the trumpet, striking in the harp and in the cymbals, voice in
+  the choir."
+
+### Truncated lemmata — the predicted failure profile, and it did not recur
+
+I checked every short lemma in the band word for word, this being the class that produced
+fourteen sites in the previous band. **I found no completed lemma anywhere in the nine
+chunks.** Migne prints short and the English stops where he stops, throughout:
+*Custodi me, Domine* (1062B), *Caput circuitus* (1062D), *Virtus salutis meae obumbrasti
+super caput meum* (1062C), *In factis manuum* (1066D), *Memor fui dierum* (1066D),
+*Notam fac mihi viam* (1067A), *Emitte manum* (1068A), *Educ de custodia* (1065D),
+*Ut notam* (1070D), *Laudate Dominum* / *Laudate eum in firmamento* (1078D–1079A),
+*Laudate Dominum* at Ps 148:7 (1077A). No supplied "thy", "us", "my", or "his" in any of
+them. This is a real negative result and I record it as one.
+
+---
+
+## CANDIDATES CONSIDERED AND REJECTED
+
+1. **1062D "vel de assertione superantur" → "or they are overcome out of *their own*
+   assertion."** A possessive the Latin does not print — but the very next sentence glosses
+   it *de sua falsa assertione*, so the antecedent is on the page and the addition costs
+   nothing. Rejected as style.
+2. **1062B "quia per multa fallit, quae nequit praecavere" → "because he deceives through
+   many things which he cannot guard against."** The English leaves the two subjects
+   ambiguous — but **so does the Latin**, identically. Not a finding under "English says what
+   Latin does not."
+3. **1063A "*Injustum,* etc., *in interitu*" → "*unto destruction*."** *in interitu* is
+   ablative; "unto" reads it as accusative. But the gloss ten words later prints *non tamen in
+   interitum* and the English renders that one correctly, so the pair is visible to the reader
+   and the sense is not at stake. Rejected as marginal.
+4. **1067A "quia etiam perdit confessionem" → "who loses even confession."** A causal clause
+   turned into a relative (mechanism 3, connective smoothed). The proposition is unchanged and
+   nothing hangs on it. Rejected; noted because mechanism 3 leaves no lexical trace and I want
+   the near-miss on record.
+5. **1067A "*Auferes spiritus eorum*" (Vulg. *spiritum*).** Migne's plural is rendered
+   faithfully as "spirits". An unmarked `[var:]` candidate at most — and Pattern 14 is
+   explicitly not retroactive. Not a defect.
+6. **1076A "*actus mobilis, certus, incoinquinatus*" → "driven, moveable, sure, undefiled."**
+   Wisdom 7:22 has no *actus*; but *actus* renders in place as a participle, which is what the
+   English does. Faithful. Rejected.
+7. **1076B "Hanc autem Deus solvit" → "But God dissolved **him**."** *Hanc* is feminine and
+   points to *crystallum*; the English resolves it to Paul. The next clause (*factus est panis,
+   qui … docuit*) is masculine and is unquestionably Paul, so the referent chain lands in the
+   same place. Rejected as marginal; "dissolved it" would be tighter.
+8. **1077A "ipsa ergo, id est, nos consideratione eorum hortatur laudare" → "these therefore,
+   that is, **he** exhorts us…"** A supplied "he" against a neuter-plural subject — but the
+   Latin clause is itself broken (*ipsa* + deponent singular), and the English does not resolve
+   it any further than the Latin does. Rejected; a `[sic:]`/crux candidate at most.
+9. **1076A "Frigus est, qui deserit" → "It is cold when he forsakes."** A masculine relative
+   rendered as a temporal clause. The identification (cold = God's withdrawal) survives whole.
+   Rejected as style.
+10. **1078C *frameas bis acutas* → "two-edged swords", against 1068B *gladius bis actus* →
+    "twice sharpened".** Within-work inconsistency on *bis acut-*; "two-edged" is the received
+    English but not what *bis acutas* says. Not a sense error (the same weapon is meant) — but
+    if a merge-time reconciliation pass is run, this is one for it.
+11. **1075B "qui audivimus sic ructantem" → "we who have heard him thus pouring it forth."**
+    *ructare* softened, in a work that spends a whole paragraph at 1070A on eructation
+    (*Manducat qui discit, eructat qui docet*) and renders it "belch forth" there. Register,
+    not sense; and it sits inside an *usque ad* tail. Rejected, flagged for the same
+    reconciliation pass.
+12. **1072A "*Sed quaeritur, a quo, cui hoc consulitur?*" → "But it is asked, by whom, and to
+    whom, is this counsel given?"** Pattern 8b prescribes the colon-plus-direct-question form
+    ("It is asked: by whom…?"). The mark is preserved either way, so nothing is deleted.
+    Rejected as style, noted because 8b is a written rule.
+13. **Supplied possessives at 1072B ("to *thy* Author"), 1075C ("*his* word"), 1076D ("praise
+    from *his* works"), 1079A ("in *his* powers").** Each is idiomatic English for a bare
+    Latin noun whose owner is unambiguous in the immediate clause. None completes a truncated
+    scripture lemma — which is the class that matters — so all four are rejected.
+14. **Migne's own contradictions, carried correctly.** Not reported, per the brief, and worth
+    naming so a later reader knows they were seen: the eight items Migne calls *novem*
+    (1069D); the Samaritan who *descendebat a Jerusalem in Jericho* (1074A) where Luke's
+    traveller does; *in hortis sed vel vineis* (1068D), carried as "in gardens but or in
+    vineyards"; the bare `AUG.)` note-opening at 1065B, reproduced as printed; the bare
+    `(CAS.)` at 1067A, likewise. All four Englishes follow the plate. **The edition is working
+    here.**
+15. **All ten `[var: …]` markers in the band.** Checked one by one against the Vulgate: Isa
+    5:18, Ps 139:9, Prov 21:20, Mt 10:23, Ps 143:1, Prov 27:2, Mt 25:41, 2 Cor 4:5, 1 Cor
+    10:17, Ps 147:6, Mt 15:24, Ps 148:6. **Every accused divergence is real, every English
+    renders Migne and not the Vulgate, and no `[var:]` content appears in the Latin twin.**
+    The Ps 147:6 citation is right in Migne's own verse-numbering of Ps 147 (a place it would
+    be easy to get wrong) and Mt 15:24's *domus* is correctly identified as the missing word.
+    The only complaint is F5, where the marker is right and the text beside it is not.
+
+---
+
+## SUMMARY OF ATTRIBUTION
+
+- **Ours: F1–F7, F9, F10, and both marker classes (22 sites).** All are defects in our
+  English or our apparatus, and every one of them is invisible to a mechanical check:
+  `verify-english` passes the class-1 and class-2 markers (their contents *are* verbatim in
+  the twin), and no negation counter sees F1, because the negation it would count is in the
+  English and not the Latin.
+- **Migne's (or the digitization's), with our apparatus owed: F8.**
+- **Migne's, carried correctly and reported only so it is on record: rejected item 14.**
+
+⚑ The two classes are structural, not per-site: they look like one pass's convention applied
+uniformly, which is why they should be fixed as a pass and not sentence by sentence. **F1 is
+the one site I would fix first** — the page currently asserts the negative of what the gloss
+argues, and it is the only site in the band where a reader is actively misinformed about the
+sense.
+
+
+## §I.repair-bandC-0077 — file `repair-bandC-0077.md`, verbatim
+
+# Repair pass — band C, chunks 0077–0086 (cols 1011C–1039B)
+
+*Glossa ordinaria* on the Psalms, PL 113. Written against
+`polarity-bandC-0077.md`. Every proposal below was checked against the Latin twin in
+`src/latin/8967/` **and** against `data/plate-reads.json` before anything was changed.
+No Latin file was touched; no `[sic:]`, no `[var:]`, no `[n:]`, no frontmatter, no column
+anchor, no `VERS.` address was touched; 1029B was not touched.
+
+**Gates after the pass:** `verify-english` OK (106 chunks) · `plate-gate` OK · 
+`marker-reconcile --band 10` = 65 standing, **0 MISSING**, 1 withheld by ruling. Unchanged
+from before the pass.
+
+⭐ **A load-bearing fact the reader could not see, and it decides most of this file:
+EVERY column in this range was collated word by word at the plate** (`plate-reads.json`,
+runs `1011A–1026D` and `1027A–1040D`), and each of the eleven printed words a `[cj:]`
+accuses is **named in a plate-read entry as Migne's own**: `1014D par` · `1015A dilectum`,
+`secundam` · `1015C Deus` · `1015D putes` · `1032B glorificatur` · `1034B laudamus` ·
+`1036D eum` · `1037D intra` · `1039A Psalmus` · `1039A recipi`. So no marker in the band is
+accusing a word Migne did not set, and the whole defect really was on the English side.
+
+---
+
+## 1 · Pattern 18 inversion — the settled class
+
+Repaired at **ten** of the eleven sites. The running English now renders **Migne's printed
+word**; the conjecture's sense lives in the marker's quoted gloss. One site has no exponent
+and was left alone, as instructed.
+
+| # | chunk | col | printed | English NOW reads | note |
+|---|---|---|---|---|---|
+| A1 | 0078 | 1014D | *par* | "he admonishes men to bless **like** [cj: *par*; read *per*, "through"] those things which were done for the men of old" | see the caveat below |
+| A2 | 0078 | 1015A | *dilectum* | "that **the beloved** [cj: …] might abound" | |
+| A3 | 0078 | 1015A | *secundam* | "Or **a second** [cj: …] **other reading**:" | *secundam* agrees with *aliam litteram*; the accusative is left dangling, as on the plate |
+| A4 | 0079 | 1015C | *Deus* | "Likewise **God** [cj: …] **admonishes men to bless**, first through heaven and earth" | the exponent is the SYNTAX, not the word — see below |
+| A5 | 0079 | 1015D | *putes* | "who **thinkest** [cj: …] not to grow or be lessened" | ⚑ **not in the brief's nine** |
+| A6 | 0084 | 1032A | *glorificatur* | "what shall he receive, **he is glorified** [cj: …], in the things to come?" | the intrusive finite verb is now visible; Migne's commas are untouched |
+| A7 | 0085 | 1034A | *laudamus* | "how long **we praise** [cj: *laudamus*; read *laudandus*, "**is to be praised**"], namely always" | gloss re-worded per the brief; the stranded *sit* has no English and gets none |
+| A8 | 0086 | 1037A | *eum* | "He is loved perfectly**, him** [cj: …] the mind is not moved by adverse things" | also restores Migne's comma after *perfecte*, which the old English had absorbed |
+| A9 | 0086 | 1037D | *intra* | "and therefore **enter thou** [cj: …] into the joy of his Lord" | marker KEPT — see §1a |
+| A10 | 0086 | 1039A | *Psalmus* | **unchanged** | **no exponent** — see §1b |
+| A11 | 0086 | 1039B | *recipi* | "for by reason of its brevity **not to be received** [cj: …] division" | ⚑ **not in the brief's nine** |
+
+### ⚠ 1a. *intra* (A9) — the `[cj:]` STANDS; I did not remove it
+
+The reader's case is real and I nearly took it: Migne's *intra* is an imperative and an
+imperative is printed **three words later** in the Matthew 25 tag (*intra in gaudium Domini
+**tui***), so "Enter thou into the joy of his Lord, who says: Well done…" construes.
+
+**It falls on one word: *sui*.** Migne writes *intra in gaudium Domini **sui***. His own tag
+shows what an imperative here takes — ***tui***, second person, because you are being told to
+enter **your** lord's joy. A third-person reflexive *sui* has no possible antecedent under an
+imperative reading; it needs a third-person subject, and the only one available is the faithful
+servant of the preceding clause (*sed fidelis: quod accepit, impendit, et lucratur*), whose
+whole sentence is third-person narrative. So the printed *intra* is best explained as exactly
+what its neighbourhood predicts — the compositor's eye running ahead to the *intra* of the
+quotation he was about to set. **A genuine error, and the emendation stands.** The repair is
+therefore the inversion, not the removal: the running text now reads "enter thou", and *intrat*
+lives in the marker.
+
+### 1b. *Psalmus* (A10) — no exponent, marker left alone
+
+*audiat sequentem **Psalmus***. English marks the object by position, so *Psalmum* and
+*Psalmus* both reach English as "the following psalm". There is nothing in the running text to
+invert. The marker is left exactly as it stands — this is the brief's ⚑ case, and it is the
+only one in the band.
+
+### ⚠ 1c. A5 and A11 are inversions too, and the brief's mechanical test could not see them
+
+The brief's tell — *the marker's quoted gloss must not be a verbatim echo of the English before
+it* — **has a false-negative class: an inflected echo.** Both misses are of that shape:
+
+- **A5**: text "canst", gloss `"thou canst"` — the added pronoun defeats a verbatim match.
+- **A11**: text "does not admit", gloss `"it admits"` — person/number inflection defeats it.
+
+Both are the same inversion as the other nine (the running text carried *potes* / *recipit*, and
+Migne's *putes* / *recipi* had no English at all), and both printed words are confirmed at the
+plate. I repaired them.
+
+⭐ **This matters past my range.** If the corpus-wide count of 19 failures in 43 glossed `[cj:]`
+came from the verbatim test, **it is a floor, not a total** — re-run it with the gloss and the
+preceding English both lemmatised/case-folded, at minimum stripping a leading pronoun, over the
+rest of Band C (0087–0105) before the class is called closed.
+
+### ⚠ 1d. Two sites where the printed word CONSTRUES, flagged not fixed
+
+- **A4 *Deus*.** ⛔ **The brief's ⚑ exemption does NOT apply here** (it names *Deum*/*Deus* → "God"
+  as a no-exponent case). The exponent is not the word, it is the sentence: *Deus* nominative
+  makes God the one who admonishes, *Deum* accusative makes God the one blessed. Two different
+  claims, both renderable, so the inversion was real and is repaired. **But *Item benedicere Deus
+  monet* is perfectly good Latin** — "Likewise God admonishes [us] to bless" — and under Pattern
+  18's own bar (the printed word must make the sentence say something *the author is arguing
+  against*) this marker is arguable. I did not remove it: an inverted marker misleads, a standing
+  one merely reports. **Wilson's, if anyone wants the bar applied strictly.**
+- **A1 *par*.** *par* is a real word ("equal, like"), so Pattern 7's non-word rule does not reach
+  it and it cannot be quarantined as a `[sic:]` — and I would not add a `[sic:]` in any case
+  while that class is frozen. It is rendered **"like"**, its nearest lexical value; the sentence
+  ("to bless like those things which were done for the men of old") is visibly odd, which is
+  Pattern 7 working. If Wilson prefers the reader's instinct here, the alternative is a `[sic:]`
+  and it needs his ruling on the frozen class first.
+
+---
+
+## 2 · Sense defects — verified and repaired
+
+| # | chunk | col | was | now | why it holds |
+|---|---|---|---|---|---|
+| B1 | 0078 | 1014C | "*from destruction*" | "*from corruption*" | Migne prints *de corruptione*; "destruction" is the Douay's word for the Vulgate's *de interitu*, which is not on this plate. 7a″ exactly. |
+| B2 | 0079 | 1017C | "*in their dens*" | "*in the dens*" | plate and twin print the lemma short, *in cubilibus*; "their" is finished in from the Vulgate's *suis*. |
+| B3 | 0079 | 1017D | "*To play with him.*" | "*For mocking.*" | Migne prints two words, *Ad illudendum*; the dative *ei* is the Vulgate's, not his. Also re-joins the lemma to its own gloss, which reads *illudi* as "mocked". |
+| B4 | 0084 | 1031D | "does not **forbid** it" | "does not **prevent** it" | *prohibet* = hinder. "Forbid" contradicts its own protasis (*si vult, ut non pecces*) and destroys the Augustinian point the rest of the paragraph makes. |
+| B5 | 0086 | 1037A | "**he notes** that" | "**note** that" | *nota* is the imperative, confirmed at the plate (`@1037A nota for notat`), and the gloss addresses the reader throughout. |
+| B6 | 0083 | 1031B | "fill **them** *as ruins,* not as men upright" | "fill *ruins,* not the upright" | *ruinas*/*erectos* are the accusative objects of *impleat*; one *ut* was doing duty twice and "them" was supplied. Italic-span count preserved. |
+| B7 | 0077 | 1011D | "whose frying-pan **they are**, who are scandalized" | "whose frying-pan **are they that are scandalized**" | *sunt* is plural against the singular predicate *frixorium*, so its subject can only be *qui scandalizantur*. Agency was inverted. |
+| B8 | 0082 | 1027C | "is **of a great household**, of many churches" | "is **many households, many churches**: yet **he** is also one Church, one sheep" | see the partial rejection below |
+| B9 | 0080 | 1021C | "**Egypt** feared Israel" | "**They** feared Israel" | see the partial rejection below |
+| B10 | 0077 | 1013D | "**unto** generation of generations" | "**in** generation of generations" | same three Latin words eleven lines from their twin, which already reads "in"; the divergent one was the Douay's cadence. |
+| B11 | 0086 | 1038C | "*I am thy servant, the son…*" | "*I am thy servant. The son of the handmaid.*" | Migne prints a full stop between two lemma units and the AUG. note glosses the second alone. Pattern 8. |
+| B12 | 0086 | 1038C | "for **her lord**" | "for **the Lord**" | Migne capitalises *Domino*, and the continuation (*aliquos **tibi** parturiam*) needs the capital. |
+
+**B8 — finding accepted, proposed rendering examined and then adopted with one extra change.**
+I first read *multae familiae, multae Ecclesiae* as genitives of quality ("of a numerous
+household"), which would have made the reader's plural wrong. What settles it is the second
+limb: *tamen et **est** una Ecclesia, una ovis* uses predicate nominatives **of the poor man**,
+so the first limb is parallel and nominative too. The antithesis is many-yet-one, and the
+sentence's own subject carries it. That forced one change the reader did not propose: "yet
+**there** is also one Church" → "yet **he** is also one Church", because on this construal *est*
+has the same subject throughout. Flagged because it is mine, not the reader's.
+
+**B9 — finding accepted, proposed rendering REJECTED.** "Egypt" is indeed nowhere on the plate
+and had to go. But the reader's "Israel was feared" is a passive the Latin does not have either
+(*Timebat Israel* is active, and *reliquias **eorum*** points at the Egyptians as the fearers).
+English cannot render a subjectless finite verb, so a subject must be supplied; **"They"** is
+the minimum supply, takes its antecedent from the lemma's own *super eos*, and keeps exactly the
+ambiguity Migne keeps.
+
+---
+
+## 3 · The silent-repair class — TWO accepted, THREE rejected
+
+⭐ **The reason three fall is one fact about our sources, and it is recorded in this work's own
+plate reads: our twin does not carry Migne's commas reliably.** The 1017A–1018D collation says
+in terms that the twin agrees with the plate "**apart from commas**." So a finding of the form
+*"the English moved a word across Migne's comma"* is, at a comma, **a claim about Corpus
+Corporum's punctuation, not Migne's** — and none of the three comma sites is named in any plate
+read. A charge against the English cannot rest on a layer we know is not the plate's.
+
+**Accepted (both are sentence-level marks, which do transmit):**
+
+- **0080 @1019B** — Migne prints a full stop after *de qua sequitur*; the English had a colon and
+  a lowered capital, which fused the sentence he broke and quietly supplied an apodosis to a *si*
+  clause that has none. Restored: "…of which it follows**. How** is it everlasting…". The
+  fragment is now visible, which is the point.
+- **0083 @1030C** — the converse: a printed comma had been raised to a full stop, splitting
+  *In potioribus meis bonis et occultis, donec regnes manifestus* into two. Restored to
+  "…hidden goods**,** until thou reign manifest."
+
+**Rejected:**
+
+- **0083 @1030B (*Deus*).** The finding misreads the punctuation. Migne's comma stands **after**
+  *Deus*, not before it, so *Deus, cum benedicit, facit quod dicit* is the ordinary
+  comma-around-a-subordinate-clause shape and **the English matches Migne's commas exactly**.
+  The only English supply is the sentence break between *malorum* and *Deus*, where Migne prints
+  **no mark at all** — English cannot run two clauses together without one, and the alternative
+  ("the cursing of the wicked God, when he blesses…") would assert something false.
+- **0082 @1028C (*supra*).** Rests on a comma, per the caveat above. On the substance the
+  English is also right: *hic … supra* is a here/earlier contrast (the *supra* is Ps 59:11's
+  *deducet me*), and attaching *supra* to *patitur* would have Christ suffering "above".
+- **0081 @1023B–C (*Laus Dei*).** The English does **not** assert anything the Latin does not:
+  the proposition — the quality of the punishment declares God's praise — is identical under
+  either construal, and *Laus Dei* fronted as a *nominativus pendens* is ordinary gloss Latin.
+  What differs is **case**, and English marks none. This is the reader's own accepted principle
+  at 0078 @1015A–B (*conversus*/*figmentum*): a defect no rendering can expose and none can
+  conceal is not reportable in this instrument. Restoring the fronting would also have cost a
+  supplied pronoun and a supplied colon, both of which Migne does not print.
+- **The lower-grade punctuation-supply list** (0081 @1024B, 0082 @1026C/@1027C, 0084
+  @1032D×2/@1033C, 0085 @1036A, 0086 @1037C). Left, deliberately. Each is a comma read as a
+  colon before a quotation or a semicolon between clauses; none asserts anything the Latin does
+  not, and all of them stand on the comma layer that our twin is known not to carry faithfully.
+
+---
+
+## 4 · Not touched, by instruction — and one that still wants Wilson
+
+- **All twelve `[sic:]`** — untouched, and the English around them untouched. The reader
+  judged them sound and I did not re-open them; the Pattern 7 non-word question is Wilson's and
+  the class is frozen.
+- **1029B** (the omitted *non*) — untouched.
+- **No `[var:]` added.** B1's suggested one (Migne's *de corruptione* is the Old Latin/Romanum
+  reading, and materially so) is recorded here and not fired.
+- ⬜ **The misplaced `[var:]` at 0081 @1024D — VERIFIED, NOT MOVED, needs one word from
+  Wilson.** The reader is right: the marker reports Migne's lemma against the Vulgate's *Et
+  infecta*, the whole gloss (*continens pro contento*) exists to explain that lemma, and the
+  marker sits ~230 characters downstream on *et contaminati sunt in operibus*, a clause that
+  answers to Ps 105:**39**. Moving it is a one-line edit inside the same column, so no gate is
+  affected. I left it because my brief fenced the `[var:]` class and did not assign this site.
+  ⚠ **And there is a second thing in it:** the plate read for that column records Migne printing
+  **`Et INTERFECTUS`** where our twin has *interfecta* — so the marker's own Latin side may need
+  the pending-TEI-patch treatment (§A6) before it is moved. **Recommend: settle the patch, then
+  move the marker to sit immediately after "*And slain.*"**
+- ⬜ **A4 *Deus* and A1 *par*** (§1d) — both stand repaired but both raise a question of marker
+  policy rather than of English, and both are noted there for a ruling.
+
+
+## §I.repair-bandC-0087 — file `repair-bandC-0087.md`, verbatim
+
+# Repair pass — band C, chunks 0087–0096 (PL 113, cols 1039B–1061C)
+
+Answers `polarity-bandC-0087.md` (27 sites: 15 confident, 12 probable, all judged OURS).
+Every proposal was checked against the Latin twin in `src/latin/8967/` before anything was
+changed. **Result: 24 of 27 accepted and repaired, 2 recorded-only by standing convention,
+1 rejected. One site the reader did not list was found by the same test and repaired.**
+
+Gates after the pass: `verify-english` **OK** (106 chunks) · `plate-gate` **OK** ·
+`marker-reconcile --band 10` **65 claims · 65 standing · 0 MISSING · 1 withheld by ruling**.
+
+⚑ No `[sic:]` or `[var:]` was added, moved or deleted anywhere in the band, so the plate
+ratchet is untouched. Two `[cj:]` were **added** (both verified verbatim in the Latin twin);
+none was removed.
+
+---
+
+## 1 · The supplied possessive / completion — the dominant class
+
+All eleven verified and repaired. In every case the Latin twin prints the stump bare, and in
+eight of them a lemma that *does* print the possessive stands within a few words.
+
+| § | col | chunk | Latin as printed | was | now |
+|---|---|---|---|---|---|
+| 1.2 | 1046A ×2 | 0089 | `*In convertendo.*` | *When the Lord turned.* | *In the turning.* |
+| 1.3 | 1048D | 0090 | `*Prolongaverunt iniquitatem.*` | …lengthened out **their** iniquity | …lengthened out iniquity |
+| 1.6 | 1052A | 0092 | `*Propter David servum.*` | For **thy** servant David's sake | For David the servant's sake |
+| 1.7 | 1052C | 0092 | `*Et sancti,*` | And **her** saints | And the saints |
+| 1.8 | 1055A | 0093 | `*et in servis,*` | and in **his** servants | and in the servants |
+| 1.10 | 1060A | 0096 | `*Si sumpsero pennas,*` | If I shall take **my** wings | If I shall take wings |
+| 1.11 | 1059B | 0096 | `*Et funiculum.* … limitem` | And **my** line … **my** boundary | And the line … the boundary |
+| 1.15 | 1058B | 0095 | `*In anima.*` | *In **my** soul.* | *In the soul.* |
+| 2.7 | 1056C | 0094 | `*Israel servum,*` | *Israel **his** servant* | *Israel the servant* |
+| 2.8 | 1060B | 0096 | `*…tenebrae conculcabunt,* etc.` | shall tread **me** down | shall tread down |
+| 2.12 | 1059C–D | 0096 | `partem substantiae` ×2, `Gravasti manum` | **my** portion ×2, **thy** hand | the portion ×2, the hand |
+
+Controls left alone because the possessive IS printed: `*Semitam meum*` → "My path" (1059B),
+`*Sacerdotes ejus*` → "Her priests" (1052C), `*Israel servo suo*` → "To Israel his servant"
+(1056C), `*Novissima mea*` → "My last things" (1059C), `injustitiam suam` → "their injustice"
+(1048D), `meae potestatis` → "of my own power" (1060A).
+
+### ⭐ The consequence at 1055A — the `[var:]` is true again
+The Latin prints `*et in servis,*` and the `[var: Vulg. Ps 134:14 *et in servis suis
+deprecabitur*]` sits on the same line. Our English had already absorbed the Vulgate's *suis*
+into the lemma, so the note reported a divergence the text had erased. **Verified and fixed:
+the lemma now reads "and in the servants," and the note's contrast stands.**
+
+### ⭐ One site the reader did not list, found by its own test — repaired
+**@1048D (0090)** `VERS. 3.-- *Supra dorsum.*` → our English read "*Upon **my** back.*"
+Vulgate Ps 128:3 is *supra dorsum **meum***; Migne prints the stump bare, in the *same line*
+as §1.3. Changed to "*Upon the back.*" Recorded as an addition beyond the reader's 27, not a
+sweep: no other lemma in the band was touched without a verified bare stump.
+
+---
+
+## 2 · The two inverted `[cj:]` markers — both verified, both repaired
+
+**§1.1 @1039D (0087).** Latin: `vel, a casu revelando.` The running English gave only the
+conjecture's sense ("by raising up") and the gloss echoed it verbatim. Repaired to Pattern 18's
+additive shape:
+
+> either by not suffering one to fall, or **by revealing** from the fall
+> `[cj: *revelando*; read *relevando*, "by raising up"]`
+
+Migne's *revelando* now has an English exponent; the conjecture stands beside it. (The
+conjecture is sound — 1040A prints *a casu relevando* and is rendered "by raising up from the
+fall" — which is exactly why it belongs in the marker and not in the text.)
+
+**§2.3 @1060A (0096).** Latin: `Quae meae potestatis, in est efficaciam deitatis`. The running
+English read "that is" — which *is* the conjecture *id est* — and the marker carried no
+double-quoted sense gloss at all. Both faults repaired:
+
+> Which are of my own power, **in** `[cj: *in*; read *id*, "that is"]` **is** the efficacy of
+> the Godhead
+
+The English is now as strained as the Latin (`in est` + accusative *efficaciam* does not
+construe), which is Pattern 7 working rather than failing. ⚑ The reader's alternative — that
+this is a Pattern 10 split run and a `[sic:]` candidate — was **not** taken: a `[sic:]` accuses
+Migne's type and would have put a new unread-column marker into the ratchet. Flagged for
+Wilson below.
+
+### ❌ REJECTED — `[cj: *orbi*; read *orbis*, "of the whole world"]` @1055B–C (0094)
+Latin: `totius orbi conditionem`. The brief listed this as a third inversion; **it is not one,
+and the brief's own escape clause covers it** ("where Migne's word and the conjecture yield the
+SAME English there is no exponent to change"). *orbi* and *orbis* differ only in case, and the
+genitive *totius* has nothing to agree with either way — any attempt to render *orbi* as a
+dative would manufacture a sense the plate does not carry. The reader's §3 reached the same
+verdict independently ("inert but harmless"). **Marker left exactly as it stands.**
+
+---
+
+## 3 · The silent repairs
+
+**Accepted and repaired:**
+
+- **§1.12 @1053A (0092)** `quia jam caput passum praecesserunt` — verified plural. Our English
+  had made *caput* the subject and the verb singular. Now renders the printed plural with the
+  conjecture beside it: "because **they had already gone before the head that had suffered**
+  `[cj: *praecesserunt*; read *praecesserat*, "the head had gone before"]`." **New `[cj:]`;
+  content verifies verbatim in the twin.**
+- **§1.13 @1051B (0092)** `et ubi et precatur qui exaltentur` — the plate prints *qui*, the
+  English read *ut*. Repaired **without** a marker, by rendering the relative as printed:
+  "and where he also prays **for those who are to be exalted**." No conjecture is asserted, so
+  none is marked.
+- **§2.2 @1050A (0091) and @1057A–B (0094)** — *coeperint / coeperunt* given supplied
+  infinitives. Both verified: the plates print *coep-*, and both verbs are left with a bare
+  accusative. Handled differently on purpose:
+  - **0091** `si utcunque aliquid coeperint` → "if they have in any way **begun something**"
+    (the imported "to grasp" is gone). *coepi* + accusative is construable, so **no marker** —
+    there is nothing to conjecture.
+  - **0094** `haud parum emolumenti coeperunt` → "they **began** no small profit
+    `[cj: *coeperunt*; read *ceperunt*, "they took"]`." Here the accusative genuinely will not
+    go, so the conjecture is named. **New `[cj:]`; verifies verbatim.**
+- **§2.9 @1059C (0096)** `jam in tua gratia justificaui` — verified first-person perfect
+  **active**. Our English gave a smooth passive participle ("now justified in thy grace").
+  Now "now **I have justified** in thy grace" — object-less, as printed.
+- **§1.14 @1054B (0093)** `qua viva proficit homo in melius` — gender is decisive: *viva* is
+  feminine and agrees with *qua* (= *fides*). Repaired to "by which, **when it is living**, a
+  man advances unto better things." (Listed by the reader as confident; I agree — this is not
+  a judgment call.)
+
+**❌ REJECTED — §2.10 @1059A (0095)**, `in quo principes mundi peccatum non invenit, quare
+occideret`. The reader's own least-confident item, and it does not hold as a defect *of ours*.
+The disagreement is real and it is **Migne's**: our English renders the printed plural noun and
+the printed sense. English past "found" carries no number at all, and forcing "wherefore **he**
+should kill him" onto the plural subject would not display Migne's fault — it would read as our
+own grammatical error, which is precisely what Pattern 7a forbids. Marking it would require a
+`[sic:]` (a claim about the type, unlicensed without a plate read) or a `[cj:]` (there is no
+single printed word to conjecture against). **Left as it stands; recorded for Wilson below.**
+
+---
+
+## 4 · Recorded, NOT changed — by standing convention
+
+Both are the reader seeing correctly and the convention overriding the proposal.
+
+- **§1.5 @1051B (0092) — `(CAS.)` against Migne's `(CASS.`.** Confirmed: the Latin twin prints
+  `(CASS.` with the parenthesis never closed, and our English prints `(CAS.)` — a closed paren
+  and a dropped **S**. **Not changed:** the siglum is note content, checked as a substring of
+  the Latin twin, and the brief rules the class out of this pass. ⚑ It is a genuine defect and
+  it is two defects, not one (the added `)` and the lost `S`). **Wilson's.**
+- **§1.9 @1055B (0093) — a supplied `VERS. 18.`** Confirmed: the plate prints `VERS. --` with
+  no number. **Not changed:** `VERS.` addresses pass through verbatim by convention. The number
+  supplied is arithmetically right, which is not the point — it borrows Migne's authority for
+  our count. **Wilson's.**
+
+---
+
+## 5 · Everything else the reader accepted or rejected — checked, no action
+
+- **§1.4 @1050C (0092)** cue `*Ecce audi.*` conformed to *Ecce audivimus*: **verified and
+  repaired** to "there, *Behold, hear.*" The identical two words at 1051B were already rendered
+  "Behold, hear," so the page no longer renders one printed phrase two ways.
+- **§2.1 @1056C (0094)** `*Et excussit Pharaonem.*` rendered "overthrew" while its own three
+  glosses on *excutere* read "shake off": **accepted** (7a″ exactly — the keyword had vanished
+  from the verse it expounds). Lemma now "*And he shook off Pharao.*"
+- **§2.4 @1048C (0090)** `pro eo omnia ferat` → was "for that fear"; no *timor* noun is printed.
+  **Accepted**, now "for his sake," leaving the pronoun as open as the Latin.
+- **§2.5 @1048C (0090)** one Latin subject rendered "she … she … he." **Accepted**; harmonised
+  to "he" throughout, matching the work's divisio formula eight lines later and elsewhere.
+- **§2.6 @1053C (0093)** `invitat pluraliter benedicere Deum` → was "invites **many**."
+  **Accepted**: *pluraliter* is "in the plural," the whole passage exists to make that
+  grammatical point (1053D answers plural address with singular blessing), and our own English
+  at 1048A already renders the parallel "from the plural." Now "he invites in the plural to
+  bless God."
+- **§2.11 @1041D (0087)** `non est salubrius aliquid, quod delectet` — **accepted**; the English
+  had two comparatives where the Latin has one. Now "there is nothing more wholesome, which may
+  delight, than the praise of God."
+- **The 7a⁗ markers — left untouched, as instructed and as independently confirmed:**
+  `noc` @1058D and `incomprehensibllis` @1059D both leave the negative/privative outside the
+  quarantine, as does `fungiendum` @1060B. ✅
+- **The `gradus` series — not touched.** The missing fifth degree at Psalm CXXIII is Migne's own
+  gap, faithfully carried, and is not a finding.
+- **No `[sic:]` marker or its surrounding English was altered anywhere**, per the frozen class.
+
+---
+
+## 6 · The reader's twelve "probable" items — my verdict, one by one
+
+| § | verdict |
+|---|---|
+| 2.1 *excussit* lemma | **ACCEPTED** — repaired |
+| 2.2 *coeperint / coeperunt* (×2) | **ACCEPTED** — repaired, one with a new `[cj:]`, one without |
+| 2.3 malformed `[cj: *in*]` | **ACCEPTED** — repaired (as `[cj:]`, not as `[sic:]`) |
+| 2.4 *pro eo* antecedent | **ACCEPTED** — repaired |
+| 2.5 "she"/"he" split | **ACCEPTED** — repaired |
+| 2.6 *pluraliter* | **ACCEPTED** — repaired |
+| 2.7 *Israel servum* | **ACCEPTED** — repaired |
+| 2.8 *conculcabunt* | **ACCEPTED** — repaired |
+| 2.9 *justificaui* | **ACCEPTED** — repaired |
+| **2.10 *principes … invenit*** | **❌ REJECTED** — see §3; English has no exponent that shows Migne's fault rather than inventing ours |
+| 2.11 double comparative | **ACCEPTED** — repaired |
+| 2.12 three small possessives | **ACCEPTED** — all three repaired |
+
+Eleven of twelve probables accepted; one rejected. All fifteen confident items verified; thirteen
+repaired, two recorded-only by convention (§4), none rejected on the facts.
+
+---
+
+## 7 · ⚑ FOR WILSON
+
+1. **`(CAS.)` for Migne's `(CASS.` @1051B.** An attribution siglum that appears nowhere on the
+   plate, plus a closing parenthesis Migne never printed. Frozen out of this pass by the
+   siglum/note-content convention — but it is a real defect and it needs a ruling, because the
+   convention that protects it is what let it through.
+2. **The supplied `VERS. 18.` @1055B.** Same shape: the convention is doing its job by refusing
+   my edit, and the result is a rubric on our page that Migne does not print.
+3. **`in est` @1060A (0096).** I kept it as `[cj: *in*; read *id*, "that is"]`. The reader's
+   alternative reading — Pattern 10 split/defective run, hence `[sic:]` — is at least as good,
+   and I declined it only because a `[sic:]` is a public claim against Migne's type that needs a
+   plate read this column has not had. **If col. 1060 is ever read, this is the first thing to
+   look at.**
+4. **§2.10 @1059A** stands unmarked. If Wilson wants Migne's `principes … invenit … occideret`
+   visible, the apparatus that reaches it is a plate-licensed `[sic:]`, not an English rewrite.
+5. **The `[sic:]` / Pattern 7 non-word question is still owed a ruling** and the class remains
+   frozen; nothing here touched it.
+6. **The punctuation-drift class** the reader logged (≈a dozen colons/semicolons for printed
+   commas and stops, Pattern 8) was not swept — it is a mechanical class and, as the reader
+   said, better swept mechanically than repaired one site at a time.
+
+
+## §I.repair-bandC-0097 — file `repair-bandC-0097.md`, verbatim
+
+# Repair pass — band C, chunks 0097–0105 (PL 113, cols 1061D–1080B, the end of the work)
+
+Answers `polarity-bandC-0097.md` (11 individual findings + 2 marker classes). Every proposal
+was checked against the Latin twin in `src/latin/8967/` **and against the recorded plate reads
+for cols 1061–1080** (`data/plate-reads.json`, all ten leaves read `full`) before anything was
+changed.
+
+**Result: 15 edits made across 9 chunks · 1 `[cj:]` added · 1 `[sic:]` moved · 4 proposals
+rejected outright · 3 recorded for Wilson.**
+
+Gates after the pass: `verify-english` **OK** (106 chunks) · `plate-gate` **OK**
+(288 markers, all on read columns) · `marker-reconcile --band 10` **65 claims · 65 standing ·
+0 MISSING · 1 withheld by ruling**.
+
+⚑ **No `[sic:]` or `[var:]` was added or deleted**; exactly one was **moved** (§2). No `[cj:]`
+was removed. The `[cj:]` marker *contents* were left untouched throughout — in every class-1
+site the marker was already well formed and only the running English was wrong.
+
+---
+
+## ⭐ The class-1 finding is not the reader's opinion — it is a documented, unfinished edit
+
+`data/briefs/8967-PENDING-TEI-PATCHES.md` carries, for both Band C plate stints, a column
+headed **"English edit owed?"**. For every one of the nine sites it says **yes**, and names the
+reason in the same words the reader independently reached: *"`0100.md` 'the sword twice
+**sharpened**' renders the twin"*, *"`0101.md` 'the one day **without end**' renders the
+twin"*. The 1071C–1080B stint even writes the replacement English out site by site
+(*"`0102.md`: 'as it were saving musics [cj: …]' for 'as it were a saving music'"* ·
+*"`0104.md`: '*Praise ye the Lady* [cj: …]' for '*Praise ye the Lord.*'"*).
+
+**So the Latin patches landed, the markers fired, and the English half of the same patch was
+never made.** That is the whole of class 1. The blind reader rediscovered it from the text
+alone, and the two accounts agree site for site.
+
+---
+
+## 1 · The nine inverted `[cj:]` — all nine repaired
+
+The running English now renders **Migne's printed word**; the conjecture's sense stays where it
+already was, in the marker's quoted gloss. Every printed form was confirmed against the plate
+read as well as the twin.
+
+| # | col | chunk | Migne prints | was (the conjecture) | now (the plate) |
+|---|---|---|---|---|---|
+| 1 | 1063B | 0097 | *petit apponit custodiam* | "he asks a watch **to be set**" | "he asks, **he sets** a watch" |
+| 2 | 1065C | 0098 | *Fortius … qui non vult* | "**The strong man** … **because** he does not will it" | "**More strongly** … **who** does not will it" |
+| 3 | 1068B | 0100 | *gladius bis actus* | "the sword twice **sharpened**" | "the sword twice **driven**" |
+| 4 | 1068D | 0100 | *Non laboro macri* | "Not lean **with labour**" | "Not **I labour** lean" |
+| 5 | 1068D | 0100 | *eum ipsi sint* | "**whereas** they themselves are" | "**him** they themselves are" |
+| 6 | 1069C | 0101 | *sine fines dies* | "the one day without **end**" | "the one day without **ends**" |
+| 7 | 1071D | 0102 | *quasi musicas salutaris* | "as it were **a saving music**" | "as it were **saving musics**" |
+| 8 | 1072A | 0102 | *praeest plumbo in puritate laudatio* | "surpasses lead **that is praised** for its purity" | "surpasses lead **in purity, praise**" |
+| 9 | 1077A | 0104 | *Laudate Dominam.* | "*Praise ye the **Lord**.*" | "*Praise ye the **Lady** [cj: …].*" |
+
+⭐ **Site 9 is the one the reader called sharpest and it was right about why.** "*Praise ye the
+Lord*" is the identical string this same chunk uses for *Laudate Dominum* at Ps 148:1, so the
+defect was invisible on the page. **The marker has also been moved inside the italic lemma**,
+onto the word it accuses (precedent: `*Let the desert [sic: *disertum*] rejoice*`, 0041.md).
+
+### ⚑ Sites 4, 5 and 8 — the three where Migne's word has no grammatical slot
+*laboro* (1 sg. indic.), *eum* (acc. pronoun) and *laudatio* (stranded nom.) cannot be
+construed in place, so their faithful English is ungrammatical. **They are rendered literally
+anyway**, on the Pattern 18 precedent of **11064 @1090B**, where *apud non* is set on the page
+as "**among not** [cj: *non*; read *nos*, "us"]". Rendering them smoothly is what produced the
+inversion in the first place. **I did not reclassify any of them to `[sic:]`** — that would
+have added markers to the class Wilson has yet to rule on (see §5).
+
+### ⛔ REJECTED — the reader's tenth class-1 site, 1075C *mittere* (0104)
+"For unless **he sent** his word to the earth" for *Nisi enim mittere verbum terrae*. **Already
+adjudicated and declined**: the plate stint's own entry reads *"`0104.md`: **no wording change**;
+marker beside 'unless he sent his word'"* — the clause has no finite verb under Migne's reading
+and the stint judged that rendering the infinitive in place would put garble on the page. Left
+as it stands.
+
+⚠ **This is the one place where the standing record and the repair I was asked to make pull
+against each other, and Wilson should see it.** The same brief writes *"no wording change"* for
+**1072A *laudatio*** as well — but 1072A is inside the nine, so it has now been changed, while
+1075C has not. **The two sites are the same shape** (a real form that construes nowhere). One is
+repaired and one is not, on my instruction rather than on a principle. Either both should be
+rendered literally or both left; it is a one-line ruling.
+
+---
+
+## 2 · The misplaced `[sic: *mahsiones*]` @1078B (0105) — moved
+
+Was:
+
+> *In my Father's house there are many mansions. [n: (Joan. XIV.)]* [sic: *mahsiones*]
+
+— outside the italic, past the full stop, past the note, accusing nothing. Now:
+
+> *In my Father's house there are many mansions [sic: *mahsiones*]. [n: (Joan. XIV.)]*
+
+The marker's content, the English, and the note are all untouched; only the position moved.
+
+⚑ The reader also notes `[sic: *suseipiet*]` @1073B and `[sic: *ubyssi*]` @1077A sit outside
+their lemmata. **Left alone** — they are adjacent to what they accuse, not detached from it,
+and they fall inside the frozen class (§5).
+
+---
+
+## 3 · The sense findings — verified one by one
+
+### ✅ F5 @1067B (0100) — *ad Goliam* rendered "against Goliath". REPAIRED.
+The `[var:]` on the same line exists to say that Migne prints *ad Goliam* where the Vulgate has
+*Adversus Goliath* — and the English rendered *ad* by the Vulgate's *adversus*, erasing the very
+divergence the marker announces. Now "*A psalm of David **to** Goliath.*" The `[var:]` itself is
+untouched.
+
+### ✅ F3 @1077A (0104) — *Deo* re-bound. REPAIRED.
+*Et si coelum novum, **Deo tamen bene statuta** dicuntur, quae novantur per Christum.* *Deo* is
+the dative of agent with *statuta* and *bene* modifies *statuta*; the English had moved both onto
+*dicuntur*, making God the speaker. Was "yet they are **rightly said by God** to be established";
+now "yet they are said to be **well established by God**". The lemma above it is Ps 148:6
+*Statuit ea in aeternum* — the gloss is arguing about who **established**, not who spoke.
+
+### ✅ F4 @1077B (0104) — the lemma *Confessio* rendered "Praise". REPAIRED.
+The reader flagged this as a judgment call; **the work has already ruled on the class twice** and
+both rulings run its way:
+- `cruces.md` §6 records the chain `confiteor` → **confess** *everywhere* in this work, "because
+  the gloss argues from them";
+- `cruces.md` §1a ("the three the GLOSS ITSELF depends on") establishes that a lemma is **not**
+  conformed to Douay where the exposition expounds the printed word — 1005D *honorem*, 1003A
+  *erudit*.
+
+Here the exposition is a chain on *confitentur / confitentium*, already rendered "confess". Now
+"*Confession.*" and "*His confession above heaven and earth.*"
+
+### ✅ F8 @1074D (0103) — the `[cj:]` the reader thought was owed. VERIFIED AND ADDED.
+Checked against the parent's ⛔ test first: *In composito* is a real ablative, clearly set (the
+1073A–1074D plate read logs nine departures on that spread and **this is not among them**, so the
+twin and the plate agree), and "In the composed bearing of the presumptuous and bold" is its
+faithful English. It is therefore **not** a case of the English being wrong about a word Migne
+set clearly — the English is right and the page still contradicts itself, because *In tibiis
+notatur incessus **incompositus*** stands three sentences later. That is Pattern 18's trigger
+exactly, and the bar in 18a is met: the printed word makes the sentence say what the gloss is
+arguing against. Added, English unchanged:
+
+> In the composed bearing `[cj: *In composito*; read *Incomposito*, "in the uncomposed bearing"]`
+> of the presumptuous and bold.
+
+### ✅ F2 @1077C (0105) — *de veteri* as a time-adverb. REPAIRED.
+*haec est sanctificatio Israel, per quam **de veteri** factus est novus.* Was "whereby **of old**
+it was made new" — which reads *de veteri* as *olim* and destroys the antithesis the very next
+paragraph is built on (*Vetus enim homo vetus canticum cantat … Novus homo novum*). Now "whereby
+**out of the old** it was made new." No noun supplied.
+
+### ⛔ REJECTED — F6 @1066C (0099), the "defective lemma" *Quia persecutis*
+**The plate does not print it.** The 1065A–1066D plate read records `Quia persecutus (CC gives
+persecutis)`, and the pending-patch file already carries the row, with the adjudication written
+out: *"⚑ **English renders the PLATE** … the plate's reading construes and needs no marker, so
+§A6's licence applies cleanly here."* The English "*Because he has persecuted.*" is **correct**,
+a `[sic:]` there would be a **public accusation against Migne for Corpus Corporum's defect**, and
+the Latin twin converges when the patch lands. Nothing changed.
+
+⚑ This is the reader's blindness working exactly as designed: it could not see the plate record,
+so it correctly reported that the English outran its Latin, and was correctly wrong about who
+was at fault.
+
+### ⛔ REJECTED — F7 @1076C (0104), *gratias* silently promoted to subject
+**Already ruled, and the ruling is right.** The pending-patch file's Class 4 entry: *"`gratias`
+is accusative and cannot be the subject of `eluceat`, but **the case has no English exponent and
+the number does**: English renders the plural, 'the graces of the Trinity'. **No marker** —
+Pattern 9."* The English is a faithful rendering of Migne's plural; what is invisible is the
+case, which is precisely what Pattern 9 exempts. Nothing changed.
+
+---
+
+## 4 · Left exactly as found, by instruction — and confirmed as reported
+
+- **⛔ F1 @1078B `nos` for *non* (0105).** The reader is right that the English carries a
+  negation the plate does not ("whence it may **not** be free to go out" for *unde **nos** sit
+  liberum exire"*). **Untouched.** The site is already recorded in the patch file as
+  `[cj: *nos*; read *non*]` **DELIBERATELY NOT FIRED**, and `marker-reconcile` reports it as
+  *withheld by ruling, not missing*. No marker class reaches an omission; the class ruling is
+  Wilson's. Its sibling is 1029B.
+- **⛔ Class 2, the twelve `[sic:]` on translated type.** Untouched. The reader states Pattern
+  7's non-word rule accurately, but the question is not settled by the rule's text: ~60 shipped
+  markers in this work do it the other way (*"Whatsoever [sic: *Quaecunquae*]"*, *"a people not
+  receiving [sic: *sucipientis*]"*) across both merged bands, and Band C matches them. Frozen
+  pending Wilson.
+- **⭐ The `[var:]`, the instruments and the truncated lemmata.** Not disturbed. The reader's
+  three negative results stand as filed: ten `[var:]` all sound, the Hallelujah instruments all
+  matching their own glosses (incl. the *psalterium a summo / cithara ab imo* discriminator),
+  and eleven short lemmata with nothing completed from the Vulgate.
+
+---
+
+## 5 · ⚑ FOR WILSON — four rulings owed, none of them acted on here
+
+1. **The `[sic:]` class (frozen).** Does a `[sic:]` sit beside *translated* English (this work's
+   ~60 shipped markers, both bands) or beside *carried, untranslated* type (Pattern 7/12 as
+   written)? **Twelve markers in this band and the whole corpus convention hang on it.** Two
+   further sites (F6-adjacent *gratias*, and the three slotless `[cj:]` at §1) would move class
+   if the answer is the strict one.
+2. **1075C *mittere* vs 1072A *laudatio*** — the same shape, now treated differently (§1, ⛔
+   box). One line settles it.
+3. **The `VERS.` addresses.** Recorded, not resolved, per instruction: Migne is out of sequence
+   at **four** places in this band and `[sic:]` fired at **two** — `[sic: VERS. 9.]` @1062B and
+   `[sic: VERS. 16.]` @1076C — while the `VERS. 7` that follows the first at 1062B–C and the
+   `VERS. 12` opening Psalm CXLVII carry nothing. Both fired markers are backed by patch-file
+   rows citing "the 1016C ruling", so the inconsistency is in *which* sites were fired, not in
+   the convention. It belongs with the address ruling.
+4. **The `[var:]` at 1067B has no gloss** — the only one of the ten without one, where Pattern 14
+   asks for "a two-or-three-word gloss if the sense turns on it", and after §3/F5 the sense now
+   visibly turns on it (*ad* vs *adversus*). **Not added**, because the `[var:]` set was ruled
+   not to be disturbed. One line of text if wanted.
+
+---
+
+## 6 · Files touched
+
+`0097.md` · `0098.md` · `0100.md` (×4) · `0101.md` · `0102.md` (×2) · `0103.md` · `0104.md` (×4) ·
+`0105.md` (×2). No Latin file, no frontmatter, no column anchor, no `[n:]` note, no section head,
+and no `chunk-work.mjs` run.

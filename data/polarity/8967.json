@@ -2,10 +2,10 @@
   "idno": "8967",
   "method": "blind-opus-read-of-pair",
   "sweep": "ad-hoc",
-  "chunksRead": 38,
-  "sites": 28,
-  "ours": 24,
+  "chunksRead": 106,
+  "sites": 94,
+  "ours": 86,
   "units": [],
-  "date": "2026-09-04",
-  "note": ""
+  "date": "2026-09-05",
+  "note": "All three bands read blind. Band A (39 chunks): 10 sites, 6 ours. Band B (38 chunks, 4 fenced readers): 28 sites, 24 ours -- and SEVEN of those were defects the patch pass that preceded it had introduced or left behind. Band C (29 chunks, 3 fenced readers): ~56 sites, no chunk wholly clean, and the 0087-0096 reader judged all 27 of its sites OURS. Band C's dominant class was the predicted supplied possessive (12 sites, 14 in Band B); its structural finding was that 19 of 28 [cj:] markers had Pattern 18 INVERTED -- the running English rendering our conjecture while Migne's printed word reached the reader nowhere, at sites whose English repair was already written out verbatim in the pending-patch file. The blind read remains the only instrument in this pipeline that audits the pass before it."
 }
