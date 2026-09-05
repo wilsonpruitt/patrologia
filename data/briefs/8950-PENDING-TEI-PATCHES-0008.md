@@ -27,14 +27,14 @@ requires the marker's content to be a verbatim substring of the Latin twin.
 | 0098A | `usque ad* sed **post** in exsilio generata` | **`sed potest in exsilio generata`** | alteration | English follows the plate: "but it can [be] begotten in exile" |
 | 0098C | `« Abel quoque obtulit, » **etc.** Quia justus` | **`» et. Quia justus`** | normalization (plate's broken *etc.*) | "etc." either way; `[sic: *et.*]` OWED after patch |
 | 0099C | `propter **dilicta** nostra` | **`propter delicta nostra`** | **OUR corruption** (twin has the non-word) | rendered normally; no marker ever |
-| 0100A | `Aquila, « septempliciter**;** »` | **`« septempliciter: »`** | punctuation | English carries the colon |
+| 0100A | `Aquila, « septempliciter**;** »` | **`« septempliciter: »`** | punctuation | ⛔ English follows the TWIN — see cruces §1(c) |
 | 0100A | `Symmachus, « **septuplum**; »` | **`« septulum; »`** | normalization | rendered "sevenfold"; `[sic: *septulum*]` OWED after patch |
 | 0100A | `« per hebdomadem » **interpretantur**` | **`interpretatur`** | alteration (sg. → pl.) | English follows the plate: "Theodotion renders it" |
 | 0101C | `id est **vulnere** quod infixi` | **`id est vulnera quod infixi`** | normalization (plate form has no slot) | rendered "by the wound which I inflicted"; `[sic: *vulnera*]` OWED |
 | 0102C | `**intellecta** diligeret` | **`intellectu diligeret`** | alteration | English follows the plate: "might love with understanding" |
 | 0103B | `Joan. **V**:` | **`Joan. v :`** | case + spacing | English prints "John V" (see cruces §4 — the words are Job 5:3) |
-| 0103C | `Seth, *positio* vel *resurrectio;*` | **`Seth, *positio* ; vel *resurrectio*;`** | deleted semicolon | English carries the semicolon after *placing* |
-| 0103C | `Enoch, *dedicatio**;*** Mathusalam` | **`Enoch, *dedicatio* Mathusalam`** | **supplied** semicolon | English omits it, as the plate does |
+| 0103C | `Seth, *positio* vel *resurrectio;*` | **`Seth, *positio* ; vel *resurrectio*;`** | deleted semicolon | ⛔ English follows the TWIN — see cruces §1(c) |
+| 0103C | `Enoch, *dedicatio**;*** Mathusalam` | **`Enoch, *dedicatio* Mathusalam`** | **supplied** semicolon | ⛔ English follows the TWIN — see cruces §1(c) |
 | 0104B | Hebrew word absent before `( *Elohim* )` | **`Hebraicum אלהים (Elohim)`** | dropped Hebrew | see `hebrew-recovery.md`; no English effect |
 | 0104C | `[n: (HIER., **ibid.**)]` | **`(HIER., Hebr. ibid.)`** | dropped word in a siglum | note passes verbatim from the twin (parity) |
 | 0104C | Hebrew word absent before `( *loiadon* )` | **`Hebr. לאידון (loiadon)`** | dropped Hebrew | no English effect |

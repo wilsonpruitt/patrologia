@@ -5560,6 +5560,108 @@
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
     }
    ]
+  },
+  "8950": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2 — calibrated on this work's own range from the printed corner numbers before any reading (p.39 reads 67/68), and the corners re-read on every page below",
+   "reads": [
+    {
+     "from": "0067A",
+     "to": "0068D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 39,
+     "source": "on-disk PL 113 scan, full page at 200 dpi plus 400 dpi crops of the foot and the anchor; CALIBRATION PAGE, corners read 67/68",
+     "found": "the work's opening. Migne's foot note (a) Revocantur lector ad tomos Patrologiae nostrae. EDIT., keyed to the raised a in (BEDA, Hexaem. lib. I, tom. II, col. 13 a.) — recovered to plate-notes, not placeable as [cn:] because the anchor sits inside an [n: …] citation. `Revocantur` with singular `lector` left as a lead, unadopted"
+    },
+    {
+     "from": "0069A",
+     "to": "0070D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 40,
+     "source": "on-disk PL 113 scan, full page at 200 dpi, corners read 69/70 first",
+     "found": "THREE [var:] CONFIRMED AS MIGNE'S TYPE — 0069A « Qui fecisti mundum de materia informi (Sap. XI) » against Sap 11:18 ex materia invisa; 0070A « Et spiritus Domini ferebatur super aquas » against Gn 1:2 Spiritus Dei, and the plate's own Augustine gloss five lines below reads Spiritus DEI superferebatur; 0070C Psal. CIII « Emitte, ait, Spiritum tuum » against Ps 103:30 Emittes. ⛔ AND ONE OF OURS: our Latin prints the non-word `recerunt` at 0069B where the plate reads `se fecerunt deformes` — a Corpus Corporum defect, TEI patch owed, and the 0000-0003 stint was right to decline a [sic:] on it"
+    },
+    {
+     "from": "0081A",
+     "to": "0082D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 46,
+     "source": "on-disk PL 113 scan, full page at 200 dpi, corners read 81/82 first",
+     "found": "[var:] CONFIRMED AS MIGNE'S — 0081A « Seminavimus spiritualia vobis, magnum est si carnalia vestra metamus (I Cor. IX) », where the Vulgate sets the whole as a conditional question. Also confirms Migne pads a VERS. address with ellipsis dots before its lemma (VERS. 28. —..... « Et dominamini piscibus, »), the shape that had defeated the lemma-inventory address regex"
+    },
+    {
+     "from": "0093A",
+     "to": "0094D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 52,
+     "source": "on-disk PL 113 scan, full page at 200 dpi plus a 400 dpi crop of the foot; corners read 93/94 first",
+     "found": "THREE [var:] CONFIRMED AS MIGNE'S TYPE — 0093A « Tunc viderunt quod nudi essent » against Gn 3:7 cumque cognovissent; 0093B Joan. I « Cum esses sub ficus vidi te, et descendi » with the added clause; 0093D « Adam, ubi es? » with a vocative the Vulgate lacks. Also Migne's second foot note, a In Hebraeo est gahon, quod ventrem et pectus significat., keyed to « pectus a » at 0094D — recovered and PLACED as [cn: a | …]"
+    },
+    {
+     "from": "0095A",
+     "to": "0096D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 53,
+     "source": "on-disk PL 113 scan, full page width at 300 dpi + 600 dpi crops; corner numbers 95/96 read first",
+     "found": "no foot-of-page apparatus of either layer; twin/plate divergences: none confirmed in these columns beyond punctuation seen at 300 dpi only (Spinae antea erant sed non)"
+    },
+    {
+     "from": "0097A",
+     "to": "0098D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 54,
+     "source": "on-disk PL 113 scan; corner numbers 97/98 read first; 600-1200 dpi crops at four sites",
+     "found": "no foot-of-page apparatus; plate reads Deos (twin Deus) @0097A, Remotum est (twin Remotus) @0097D, sed potest (twin sed post) @0098A, et. (twin etc.) @0098C"
+    },
+    {
+     "from": "0099A",
+     "to": "0100D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 55,
+     "source": "on-disk PL 113 scan; corner numbers 99/100 read first; 600 dpi crop at 0100A",
+     "found": "no foot-of-page apparatus; plate reads delicta (twin dilicta, OUR corruption) @0099C, septulum (twin septuplum) and interpretatur (twin interpretantur) and septempliciter: (twin ;) @0100A; unclosed guillemet @0100C confirmed as MIGNE'S"
+    },
+    {
+     "from": "0101A",
+     "to": "0102D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 56,
+     "source": "on-disk PL 113 scan; corner numbers 101/102 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus; plate reads vulnera (twin vulnere) @0101C, intellectu (twin intellecta) @0102C; unclosed guillemet before Tubalcain @0101C confirmed as MIGNE'S; Posuit mihi Dominus @0102B confirmed (Vulg. Deus)"
+    },
+    {
+     "from": "0103A",
+     "to": "0104D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 57,
+     "source": "on-disk PL 113 scan; corner numbers 103/104 read first; 600-1200 dpi crops at four sites",
+     "found": "no foot-of-page apparatus; Joan. v @0103B confirmed (the words are Job 5:3); plate omits the semicolon after dedicatio and prints one after positio @0103C; (HIER., Hebr. ibid.) @0104C; two Hebrew words dropped by CC; contesimo (twin centesimo) @0104D; VERS. 5 « Videns autem Dominus » CONFIRMED @0104D"
+    },
+    {
+     "from": "0105A",
+     "to": "0106D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 58,
+     "source": "on-disk PL 113 scan; corner numbers 105/106 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus (foot carries only PATROL. CXIII. and signature 4); plate reads Potet (twin Potest) and treeentis (twin trecentis) @0105D; « Ostium autem arcae @0106A — the plate is BALANCED and our twin has DROPPED the opening guillemet"
+    }
+   ],
+   "deliberately_not_recorded": "⛔ SEVEN MORE PAGES OF THIS WORK WERE PUT ON SCREEN ON 2026-09-05 (PDF 53, 60, 67, 74, 82, 89, 96) AND ARE NOT RECORDED HERE, ON PURPOSE. Those were the conjecture-layer spot check and only the HEAD STRIP AND FOOT ZONE were read — enough to see that a page foot is blank, which is what coverage.json records, and NOT enough to license a [sic:] or a [var:] on their columns. Both depths in this file mean a human eye met the running text; a foot-only look is neither. Recording them would hand the gate a pass it was never given. Same principle as 8988 col 0636A above: a read that cannot settle the words is not a read for this purpose.",
+   "merged_from": [
+    "data/briefs/8950-PLATE-READS-0008.json — the 0008-0011 stint read its whole range (pp.53-58, cols 0095-0106) at 300-1200 dpi and recorded separately to avoid racing peer stints. Merged 2026-09-05."
+   ]
   }
  }
 }

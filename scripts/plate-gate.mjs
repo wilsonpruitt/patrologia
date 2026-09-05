@@ -43,11 +43,25 @@ const parseCol = s => {
   const m = String(s).match(/^([0-9]{3,5})([A-D]?)$/);
   return m ? key(m[1], m[2]) : null;
 };
+// ⛔⛔ THE END OF A RANGE IS WIDENED ONLY WHEN IT NAMES NO BAND. `hi` used to be
+// `parseCol(r.to) + 3` unconditionally — right for a bare `0719`, which must cover bands A–D
+// of its own column, and WRONG for a banded `0094D`, which is already at band D: the +3 then
+// spilled into bands A–C OF THE NEXT COLUMN. So a read recorded as 0093A–0094D silently
+// licensed markers at 0095A, 0095B and 0095C. Found 2026-09-05 on 8950, where the gate passed
+// a [var:] at 0095B against reads that stopped at 0094D. ⚑ THE FAILURE IS IN THE UNSAFE
+// DIRECTION: it does not block work, it GRANTS a public claim about a page nobody read, which
+// is the one thing this gate exists to prevent. It cannot be seen in a status code — the gate
+// prints ✓ and exits 0 — and it is invisible to the ratchet, which counts the same wrong set.
+const parseColEnd = s => {
+  const m = String(s).match(/^([0-9]{3,5})([A-D]?)$/);
+  if (!m) return null;
+  return m[2] ? key(m[1], m[2]) : key(m[1], m[2]) + 3;
+};
 
 const readsFor = idno => {
   const rec = registry.works[String(idno)];
   if (!rec) return [];
-  return rec.reads.map(r => ({ ...r, lo: parseCol(r.from), hi: parseCol(r.to) + 3 }));
+  return rec.reads.map(r => ({ ...r, lo: parseCol(r.from), hi: parseColEnd(r.to) }));
 };
 
 // Every [sic:]/[var:] in a work's English, resolved to the column it stands in: the last

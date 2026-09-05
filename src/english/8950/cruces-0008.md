@@ -4,7 +4,7 @@ Translated 2026-09-05, one translator, 4 chunks (5,041 Latin words). `verify-eng
 **zero errors on 0008–0011** (column anchors, `[n:]` notes, guillemets and question marks all
 1:1 with the Latin twins; 0007's two errors are a neighbouring stint's and are untouched here).
 
-**Apparatus fired: 4 `[var:]` · 0 `[sic:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
+**Apparatus fired: 5 `[var:]` · 0 `[sic:]` · 0 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
 Per-chunk parity (English / Latin): anchors 12/12 · 14/14 · 11/11 · 10/10 · notes 23/23 ·
 23/23 · 13/13 · 14/14 · `«` 29/29 · 46/46 · 29/29 · 25/25 · `»` 28/28 · 44/44 · 29/29 ·
 25/25 · `?` 3/3 · 1/1 · 0/0 · 0/0.
@@ -48,7 +48,26 @@ Worked pair at 0095B, which is exactly why the rule was needed: Jerome's first q
 given bare, under a naked `(HIERON.)`, so it **took the marker**; his second is introduced
 *Melius in Hebraeo habetur*, so it **did not**.
 
-### (c) The *gentes* axis in this range
+### (c) ⛔ WORDS follow the plate; PUNCTUATION follows the TWIN
+Nineteen twin/plate divergences were confirmed in this range (patch file, Part A), and they
+split into two classes that must be handled differently:
+
+- **A divergent WORD** — the English renders what Migne printed, per the locked "plate where
+  read" rule. Five sites: *Deos* (0097A), *potest* (0098A), *interpretatur* (0100A),
+  *intellectu* (0102C), plus the four non-words whose SENSE the English renders.
+- **A divergent MARK** — ⛔ **the English follows the TWIN, not the plate.** Three sites were
+  first set from the plate and then reverted: `« septempliciter: »` at 0100A (twin `;`), the
+  semicolon after *positio* and the absent one after *dedicatio* at 0103C, and the dropped
+  opening `«` at 0106A. **The reason is mechanical and not a softening of Pattern 8:**
+  `verify-english` compares guillemets against the twin as a hard check, and the band-by-band
+  colon/semicolon comparison (the test that caught 8989 and Tobit) partitions on the twin's
+  anchors — so an English that follows the plate on a mark manufactures a mismatch in exactly
+  the instrument that exists to find real ones, for a difference no reader can act on. The
+  plate readings are in the patch file; when the patch lands, both columns move together.
+  ⚑ **Band comparison run and clean:** colons, semicolons, question marks and guillemets match
+  the Latin twin in **every band of all four chunks**, zero mismatches.
+
+### (d) The *gentes* axis in this range
 `gentes` of the peoples subdued by Rome, and of "all nations" out of which the Church gathers
 (0100B, 0106A) → **nations**, generic. `sub gentibus sive sub Christianis regibus` (0100B) →
 **Gentiles**, the *Judaei*/*gentes* opposition, with *gens Judaea* → **the Jewish nation** in
@@ -58,7 +77,7 @@ the same sentence. `Dispersus in gentibus` of the scattered Jews (0099C) → **n
 *damnatio-/condemnatio-/generatio-/interpretatio-*); `turba`/`multitudo` — one *multitudine*
 (0099C) and one *multitudinem* (0106A), both **multitude**, no *turba* at all.
 
-### (d) `usque ad` — 20 formulas, 6 ordinary. Decided per occurrence, per the `etc.` splice test
+### (e) `usque ad` — 20 formulas, 6 ordinary. Decided per occurrence, per the `etc.` splice test
 **Formula (italic, after an `etc.`, 20×):** 0095B, 0095C, 0095D, 0096A, 0096B, 0096C ×2,
 0098A, 0098B, 0098D, 0100B ×2, 0100C, 0101B, 0103D, 0104B, 0104D, 0105D ×2, 0106B.
 **Ordinary Latin, unitalicised (6×), and each takes its own English:** 0097A *usque ad ultimum
@@ -67,7 +86,7 @@ judicium* → "until the last judgment"; 0099D and 0100A *usque ad septimam gene
 0103B *per denarium usque ad Noe* → "up to Noah"; 0102D *usque ad diluvium* → "up to the
 flood". Not one of the six sits inside an italic span, and not one follows an `etc.`
 
-### (e) The abridgment's tails are parsed as strictly as prose, and none was completed
+### (f) The abridgment's tails are parsed as strictly as prose, and none was completed
 Three resumption tails land mid-clause and stay there: 0095C *sed prius reluctatum est cum
 dolore consuetudini malae*; 0096C *quae falsum verum esse putavit*; **0098A**, where the plate
 reads *sed **potest** in exsilio generata* and the complementary infinitive has been cut out by
@@ -142,7 +161,7 @@ Collated against `sources/vulgate/clementine-flat.txt`, never from memory. **Agr
 listed because a list of findings alone cannot be told from a report by an agent that never
 looked.**
 
-### Fired — 4 `[var:]`
+### Fired — 5 `[var:]`
 
 | col | Migne prints | Clementine | why it is material |
 |---|---|---|---|
@@ -150,6 +169,7 @@ looked.**
 | 0099C | `« Mortuus est enim propter delicta nostra, et resurrexit propter justificationem nostram: »` | Rom 4:25 ***qui traditus est** propter delicta nostra…* | "he died" for "who was delivered up"; the gloss builds on the death (*crucifigendo sunt operati*), so the substituted verb is load-bearing |
 | 0102B | `« Posuit mihi Dominus semen aliud, »` | Gn 4:25 *Posuit mihi **Deus** semen aliud pro Abel* | *Dominus* for *Deus*; plate-confirmed, see §2 |
 | 0103B | `« Vidit stultum firma radice, et maledixit pulchritudini ejus statim. »` | Job 5:3 ***Ego vidi** stultum firma radice, et **maledixi** pulchritudini ejus statim* | first person turned to third — Eliphaz's testimony becomes an anonymous report. **And Migne cites it `Joan. V`: the words are Job's, and there is no such verse in John.** Plate read at 1200 dpi (p. 57): the type is `Joan. v`, so the misattribution is his, not the digitization's. Reproduced uncorrected per the sigla rule; the marker names the real source. |
+| 0104D | `« Videns autem Dominus, »` | Gn 6:5 *Videns autem **Deus*** | the flagged site; plate-confirmed. Full argument at §2. |
 
 ### Checked and DECLINED, with the reason — these are not defects
 
@@ -277,7 +297,7 @@ having (brief §4 asks for exactly these):**
   decides it**, not because it reads worse; it reads better, which is the point.
 - **0098A `sed post in exsilio generata`** — construes cleanly ("but afterwards begotten in
   exile"). **The plate reads `sed potest`**, read at 1200 dpi. The tidy twin reading was the
-  suspect and the rough plate reading won. See §1(e) for the bracketed supply.
+  suspect and the rough plate reading won. See §1(f) for the bracketed supply.
 - **0100A `interpretantur`** — plural, distributing over Aquila, Symmachus and Theodotion.
   **The plate reads `interpretatur`**, singular, so the verb belongs to Theodotion alone and
   the first two clauses are elliptical. English follows the plate.
