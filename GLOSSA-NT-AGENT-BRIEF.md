@@ -450,6 +450,38 @@ taught what this brief says: **count the marked spans in your own Latin against 
 in your brief, and say the number in your report.** Two 9001 stints doing exactly that are the
 only reason a mis-split was ever caught.
 
+## ⛔⛔ THE DIGITIZATION CORRECTS MIGNE — measured on 8950, 2026-09-05
+
+Everyone knows Corpus Corporum *corrupts* the plate; 9003 measured it at ~3 sites per page. **This
+is the other direction, and it is worse, because it leaves nothing to notice.** The 0012–0018
+stint of 8950 read eight leaves and found **nine sites in seven chunks where the twin had tidied
+Migne into good Latin**:
+
+    plate  uspue   → twin  usque      (0108C)
+    plate  es      → twin  est        (0110B)   plate  num  → twin  non   (0110B)
+    plate  debito  → twin  debita     (0120D)   plate  utilitatum → twin utilitatem (0120D)
+    plate  Japhet  → twin  Japheth    (0113A, twice)
+    plate  ridiculum ei visum ET FACIMUS → twin  visum EST FACINUS          (0112B)
+
+⛔ **Not one is detectable from the Latin alone.** A passage that construes perfectly may still not
+be what Migne printed, and the last one is the shape to fear: **two words repaired at once into good
+Latin**, on a line where the stint had suspected a different word entirely and would have reported
+the wrong site with confidence.
+
+⚑ **And the twin normalizes QUOTATION MARKS in whichever direction balances the pair** — it
+*supplies* a `»` at 0113C where Migne prints none, and *drops* an opener at 0115D where the plate is
+balanced. Same work, opposite directions, two columns apart; a third case at 0125C found
+independently by another stint. **So a balanced pair in our Latin is not evidence Migne's was
+balanced, and an unbalanced one is not evidence he was unbalanced.** Never adopt a policy about an
+unpaired mark without looking at the column.
+
+⭐ **What follows for you.** Where the plate is read and the twin has tidied a defect away, what is
+owed is a **TEI patch, not a `[sic:]`** — the marker would fail the verbatim-substring guard anyway,
+because the word it accuses is no longer in our Latin. Both 8950 stints that read their own ranges
+reported the same thing: **every defect they found was Corpus Corporum's**, and the `[sic:]` each
+owed becomes fireable only after the patch lands. Zero `[sic:]` in ~28,000 words of that work is not
+timidity; it is what the class looks like when it is measured instead of guessed at.
+
 ## ⚑ ADDENDUM — carried from the 2026-08-23 batch (Baruch · Joshua · Wisdom · Galatians)
 
 Four findings from that batch's 17 plate reads. Each changes what you should raise and how.
