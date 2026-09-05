@@ -1195,6 +1195,810 @@
    "find": "<note>(CASS.)</note> Malivolentia: <hi>peccatum,</hi> \n",
    "replace": "<note>(CASS.)</note> Malivolenti : <hi>peccatum,</hi> \n",
    "why": "🔴 CLASS 2 — CC repaired a defect Migne printed. ⭐ SETTLED AT THE PLATE 2026-09-04 (PDF 470) at 700 dpi: `VERS. 5. — *Iniquitas.* (CASS.) Malivolenti : *pecca*tum, operis.` The word ends `-i`, not `-ia`, and Migne sets his usual space before the colon. ⚑ Filed by its stint as `a departure needing a ruling, not a defect`, because `Malivolenti` is a real form (dat./abl. of *malivolens*). THE RULING: the parallel member is `peccatum, operis`, a GENITIVE, so the construction wants `malivolentiae` and the printed form has no slot. Unlocks `[cj: *Malivolenti*; read *malivolentiae*]`. ⚑ Column corrected at the patch pass: filed as 0929A, the reading stands in 0929B. Same printed column, adjacent band — Migne's A–D marks are positional, not four per column, so a band letter read off a leaf drifts by one easily. The plate read covers it; only the record moved."
+  },
+  {
+   "col": "1044A",
+   "find": "proximos et fratres",
+   "replace": "proximos fratres",
+   "why": "Class 1: CC inserts `et`, a step toward Ps 121:8 `propter fratres meos ET proximos meos`. English already renders the plate."
+  },
+  {
+   "col": "1039C",
+   "find": "solutus, etc.,",
+   "replace": "solutus, ete.,",
+   "why": "Class 2: third letter carries a full crossbar, identical to the first `e` of the same word at 600 dpi. Unlocks [sic: *ete.*]."
+  },
+  {
+   "col": "1040A",
+   "find": "spinis peccatorum",
+   "replace": "spinis pecatorum",
+   "why": "Class 2: `peccata` set CORRECTLY eleven words later on the SAME LINE — the same-line control. Unlocks [sic: *pecatorum*]."
+  },
+  {
+   "col": "1044B",
+   "find": "Dat similitudinem",
+   "replace": "Dat similttudinem",
+   "why": "Class 2: unlocks [sic: *similttudinem*]."
+  },
+  {
+   "col": "1041D",
+   "find": "e quibus ad verbum",
+   "replace": "et quibus ad verbum",
+   "why": "⭐⭐ THE PSALM CXVIII EDITORIAL SENTENCE. CC repaired Migne's `et` into the construing `e`. Mid-line, clear of col 1041's clipped inner margin, and the scan's own djvu OCR reads `et quibus` independently. English renders the plate."
+  },
+  {
+   "col": "1046C",
+   "find": "Aventus",
+   "replace": "Adventus",
+   "why": "Class 3: CC MANUFACTURED the non-word. A [sic:] here would have been a false public accusation against a word Migne set correctly."
+  },
+  {
+   "col": "1011D",
+   "find": "dies deficiunt",
+   "replace": "deis deficiunt",
+   "why": "Class 2: metathesis. Unlocks [sic: *deis*]. No English edit — both readings yield \"the days fail\"."
+  },
+  {
+   "col": "1014B",
+   "find": "homo qui audiat",
+   "replace": "homo qut audiat",
+   "why": "Class 2: `qui audiat` on the next line and `quis` on the line above both set a dotted i; the disputed glyph carries a crossbar and a curved foot. Unlocks [sic: *qut*]."
+  },
+  {
+   "col": "1014D",
+   "find": "benedicere per eas",
+   "replace": "benedicere par eas",
+   "why": "Class 2: three clean e-controls on the same and next line; the glyph is an open-topped a. Unlocks [cj: *par*; read *per*]."
+  },
+  {
+   "col": "1015D",
+   "find": "non potes crescere",
+   "replace": "non putes crescere",
+   "why": "Class 2: control is the closed o of *non* on the same line. Unlocks [cj: *putes*; read *potes*]."
+  },
+  {
+   "col": "1023A",
+   "find": "mutati sunt, etc.,",
+   "replace": "mutati sunt, ete.,",
+   "why": "Class 2: control is the open crossbar-less c of *vindicantis* on the line above, against a clear crossbar here. 1200 dpi. Unlocks [sic: *ete.*]."
+  },
+  {
+   "col": "1015C",
+   "find": "Agratulando",
+   "replace": "Aggratulando",
+   "why": "Class 1: the plate sets `Ag-|gratulando` across a line break. No exponent."
+  },
+  {
+   "col": "1021B",
+   "find": "ut his adjuti",
+   "replace": "ut hic adjuti",
+   "why": "Class 1: English already follows the plate (\"being helped here\")."
+  },
+  {
+   "col": "1023C",
+   "find": "peccantes, quod et boni",
+   "replace": "peccantes, quod est boni",
+   "why": "Class 1: English already follows the plate (\"which belongs to a good man too\")."
+  },
+  {
+   "col": "1024D",
+   "find": "et hic et supra",
+   "replace": "et his et supra",
+   "why": "Class 1: English already follows the plate (\"both in these places and above\")."
+  },
+  {
+   "col": "1016C",
+   "find": "mnantur.</p>\n<p>VERS. 13.-- <hi>De fructu",
+   "replace": "mnantur.</p>\n<p>VERS. 15.-- <hi>De fructu",
+   "why": "⛔ HIGHEST PRIORITY. The lemma is *De fructu operum tuorum* = Ps 103:13 and Migne's own next address is `VERS. 14.`, so his sequence runs 12, 15, 14, 16, 17. CC silently renumbered him. Wilson's ruling: restore his number AND mark it. The English already prints `VERS. 15.--` and differs visibly from its twin until this lands."
+  },
+  {
+   "col": "1027B",
+   "find": "fructus bonorum operum",
+   "replace": "fructus honorum operum",
+   "why": "Class 1: unlocks [sic: *honorum*]. English edit owed in 0082.md."
+  },
+  {
+   "col": "1030C",
+   "find": "quidquid in utroque",
+   "replace": "quiquid in utroque",
+   "why": "Class 1: unlocks [sic: *quiquid*]. English edit owed in 0083.md."
+  },
+  {
+   "col": "1033A",
+   "find": "a captivitate liberati",
+   "replace": "a captivitate liberavi",
+   "why": "Class 1: unlocks [sic: *liberavi*]. English edit owed in 0084.md."
+  },
+  {
+   "col": "1037D",
+   "find": "ideo intrat in gaudium",
+   "replace": "ideo intra in gaudium",
+   "why": "Class 1: unlocks [cj: *intra*; read *intrat*]. English edit owed in 0086.md."
+  },
+  {
+   "col": "1039A",
+   "find": "sequentem Psalmum",
+   "replace": "sequentem Psalmus",
+   "why": "Class 1: unlocks [cj: *Psalmus*; read *Psalmum*]. English edit owed in 0086.md."
+  },
+  {
+   "col": "1039A",
+   "find": "non recipit divisionem",
+   "replace": "non recipi divisionem",
+   "why": "Class 1: unlocks [cj: *recipi*; read *recipit*]. English edit owed in 0086.md."
+  },
+  {
+   "col": "1027A",
+   "find": "cclesia\ncommendatur, etc., ",
+   "replace": "cclesia\nconmendatur, etc., ",
+   "why": "Class 2: attested assimilation; Pattern 9, no marker."
+  },
+  {
+   "col": "1035A",
+   "find": "Barbaro lingua est",
+   "replace": "Barbara lingua est",
+   "why": "⭐ Class 2: CC assimilated the gloss's first word to the italic lemma *Barbaro.* immediately before it, turning a DEFINITION (\"that tongue is barbarous which praises not God\") into an agreement error. English follows the plate. WHEN OUR LATIN AGREES SUSPICIOUSLY NEATLY WITH AN ADJACENT LEMMA, OPEN THE LEAF."
+  },
+  {
+   "col": "1052C",
+   "find": " secure\nexaltavit.</p>\n<p",
+   "replace": " secure\ncxaltaxit.</p>\n<p",
+   "why": "Class 1: the x for v cannot be produced by ink failing to reach the paper. Unlocks [sic: *exaltaxit*]. English edit owed."
+  },
+  {
+   "col": "1058D",
+   "find": "poena, non tantum culpa",
+   "replace": "poena, noc tantum culpa",
+   "why": "Class 1: unlocks [sic: *noc*]. ⛔ 7a⁗ — the English negative must stand OUTSIDE the marker."
+  },
+  {
+   "col": "1059C",
+   "find": "incomprehensibilis",
+   "replace": "incomprehensibllis",
+   "why": "Class 1: unlocks [sic: *incomprehensibllis*]. English edit owed."
+  },
+  {
+   "col": "1059D",
+   "find": "ab eo fugiendum",
+   "replace": "ab eo fungiendum",
+   "why": "Class 1: unlocks [sic: *fungiendum*]. ⛔ 7a⁗ — the `non` must stay outside the marker."
+  },
+  {
+   "col": "1059B",
+   "find": "Semitam meam",
+   "replace": "Semitam meum",
+   "why": "Class 1: Migne's concord defect on the Ps 138:3 lemma. Patch yes, NO marker — the mismatch has no English exponent (the `res aliena` @0971D precedent, Pattern 12(2))."
+  },
+  {
+   "col": "1059C",
+   "find": " gratia justificati.</p>\n<p",
+   "replace": " gratia justificaui.</p>\n<p",
+   "why": "Class 1: the disputed glyph is a bottom-arched u at 900 dpi against the tall crossed t of *gratia* on the same line. Whether Migne meant *justificavi* or set a broken *justificati* cannot be decided from the leaf; the reading is patched, the marker left to the pass."
+  },
+  {
+   "col": "1056A",
+   "find": "sanctos, qui non modo credere",
+   "replace": "sanctos, cui non modo credere",
+   "why": "Class 2: English already renders the plate (\"to whom he granted not only to believe\")."
+  },
+  {
+   "col": "1056B",
+   "find": "in Aegypto fecit",
+   "replace": "in Aegypto facit",
+   "why": "⭐ Class 2: a TENSE change with no orthographic cover, invisible to any Vulgate collation — present typology turned into past history. English renders the plate."
+  },
+  {
+   "col": "1056D",
+   "find": "mente et desiderio",
+   "replace": "mente desiderio",
+   "why": "Class 2: English already renders the plate."
+  },
+  {
+   "col": "1060C",
+   "find": "quatenus agnoscis",
+   "replace": "quatenus agnoscit",
+   "why": "Class 2: English already renders the plate (\"in so far as HE acknowledges\")."
+  },
+  {
+   "col": "1057C",
+   "find": "Ideumaei",
+   "replace": "Idumaei",
+   "why": "Class 3: our TEI carries the non-word; the plate prints it cleanly at 900 dpi. The `Aventus` @1046C case exactly — CC's, not Migne's."
+  },
+  {
+   "col": "1059B",
+   "find": "occurit",
+   "replace": "occurrit",
+   "why": "Class 3: same class. CC's non-word."
+  },
+  {
+   "col": "1058B",
+   "find": "exspecto",
+   "replace": "expecto",
+   "why": "Class 3: orthographic, no English exponent."
+  },
+  {
+   "col": "1067A",
+   "find": "Auferes spiritum eorum",
+   "replace": "Auferes spiritus eorum",
+   "why": "Class 1: CC CONFORMS MIGNE TO THE VULGATE — the TEI's `spiritum` IS the Clementine's own reading at Ps 103:29. Final s clear at 900 dpi, control the m of *eorum* immediately after. English already renders the plate."
+  },
+  {
+   "col": "1063B",
+   "find": "i petit apponi custodi",
+   "replace": "i petit apponit custodi",
+   "why": "Class 2: unlocks [cj: *apponit*; read *apponi*]. English edit owed in 0097.md."
+  },
+  {
+   "col": "1068B",
+   "find": "gladius bis acutus <note>(",
+   "replace": "gladius bis actus <note>(",
+   "why": "Class 2: control is *acumine* on the very next line. Unlocks [cj: *actus*; read *acutus*]. English edit owed."
+  },
+  {
+   "col": "1068D",
+   "find": "Non labore macri",
+   "replace": "Non laboro macri",
+   "why": "Class 2: unlocks [cj: *laboro*; read *labore*]. English edit owed."
+  },
+  {
+   "col": "1068D",
+   "find": "cum ipsi sint",
+   "replace": "eum ipsi sint",
+   "why": "Class 2: the SAME compositor slip stint 0087 found at 1043C. Crossbar clear at 900 dpi against the open c of *macri* one line above. Unlocks [cj: *eum*; read *cum*]. English edit owed."
+  },
+  {
+   "col": "1070A",
+   "find": "a\nesset correctio; si ver",
+   "replace": "a\nesset corectio; si ver",
+   "why": "Class 2: unlocks [sic: *corectio*]."
+  },
+  {
+   "col": "1069C",
+   "find": "sine fine dies",
+   "replace": "sine fines dies",
+   "why": "Class 2: unlocks [cj: *fines*; read *fine*]. English edit owed."
+  },
+  {
+   "col": "1071B",
+   "find": "ctus in omnibus operibu",
+   "replace": "ctus in omnibns operibu",
+   "why": "Class 2: inside the Ps 144:17 lemma. ⭐ A TURNED SORT, not the imaging hazard — *operibus* two words later on the SAME LINE shows a bottom-arched u where the disputed sort is cleanly top-arched. Unlocks [sic: *omnibns*]."
+  },
+  {
+   "col": "1062A",
+   "find": "cilicet linqua, manu e",
+   "replace": "cilicet lingua, manu e",
+   "why": "Class 3: our non-word; the plate has a double-storey g with a closed lower loop at 900 dpi."
+  },
+  {
+   "col": "1066A",
+   "find": "poenitentialum",
+   "replace": "poenitentialium",
+   "why": "Class 3: CC dropped the i (the plate hyphenates `poeniten-|tialium`)."
+  },
+  {
+   "col": "1069C",
+   "find": "Bene dicit nunc",
+   "replace": "Benedicit nunc",
+   "why": "⭐ Class 3: the gap to *nunc* is a full word space, the gap inside is none. CC's split gives \"he rightly says\", A DIFFERENT GLOSS. English already renders the plate (\"He blesses now\")."
+  },
+  {
+   "col": "1069C",
+   "find": "qua visione",
+   "replace": "quia visione",
+   "why": "Class 3: dotted i clear at 900 dpi. English already renders the plate (\"because nothing is more delightful than that vision\")."
+  },
+  {
+   "col": "1077C",
+   "find": "benevolus et beneficus",
+   "replace": "benevolus et benficus",
+   "why": "Class 1: unlocks [sic: *benficus*]. English edit owed in 0105.md."
+  },
+  {
+   "col": "1077D",
+   "find": "cantari debeat hoc canticum",
+   "replace": "cantari debat hoc canticum",
+   "why": "Class 1: unlocks [sic: *debat*]. English edit owed."
+  },
+  {
+   "col": "1076C",
+   "find": "  </hi>.</p>\n<p>VERS. 19.-- <hi>Jacob . .",
+   "replace": "  </hi>.</p>\n<p>VERS. 16.-- <hi>Jacob . .",
+   "why": "Class 1: the plate runs 17, 18, 16. The 1016C ruling. English already prints Migne's `VERS. 16.`"
+  },
+  {
+   "col": "1073B",
+   "find": "Diligi justos.",
+   "replace": "Diligit justos.",
+   "why": "Class 2: our twin's `Diligi` is a non-word CC made, and it is the lemma brief's ⚠ \"NOT in Clementine verbatim\" entry. Once patched the lemma agrees with Ps 145:8 EXACTLY and no [var:] is owed either. English already renders the plate."
+  },
+  {
+   "col": "1076A",
+   "find": "bucellas",
+   "replace": "buccellas",
+   "why": "Class 2: `buccellas` is the Clementine's own spelling. CC de-doubled the c and so MANUFACTURED the appearance of a divergence at Ps 147:6."
+  },
+  {
+   "col": "1076C",
+   "find": "perierunt domus Israel",
+   "replace": "perierunt Israel",
+   "why": "⭐⭐ Class 3: Migne prints NO `domus`; CC inserted it, exactly matching Mt 15:24, DESTROYING a real [var:]. The English already follows the plate (\"to the sheep that were lost of Israel\"), so only the marker is outstanding."
+  },
+  {
+   "col": "1071D",
+   "find": "Hac spe erecta",
+   "replace": "Haec spe erecta",
+   "why": "Class 4: English already follows the plate (\"This soul, lifted up by hope\")."
+  },
+  {
+   "col": "1072B",
+   "find": "saecularium rerum amores",
+   "replace": "saeculorum rerum amores",
+   "why": "Class 4: English already follows the plate."
+  },
+  {
+   "col": "1076C",
+   "find": "gratia Trinitatis eluceat",
+   "replace": "gratias Trinitatis eluceat",
+   "why": "Class 4: `gratias` cannot be the subject of *eluceat*, but the CASE has no English exponent and the NUMBER does — English renders the plural. Pattern 9, no marker."
+  },
+  {
+   "col": "1077A",
+   "find": "Profunditates aquarum",
+   "replace": "Profunditas aquarum",
+   "why": "Class 4: English already follows the plate (\"The depth of the waters\")."
+  },
+  {
+   "col": "1077C",
+   "find": "Secundo agit de gaudiis",
+   "replace": "Secunda agit de gaudiis",
+   "why": "Class 4: `Secunda` construes as *secunda [pars]* and is not a defect."
+  },
+  {
+   "col": "1047A",
+   "find": "</note> Quasi diceret:\njam ve",
+   "replace": "</note> Quasi dieeret:\njam ve",
+   "why": "Class 2: `Ecce haereditas` on the same line supplies two c-controls. Unlocks [sic: *dieeret*]. ⚑ Column corrected from the stint's 1047C — the find resolves in 1047A, which is also where the control it names stands."
+  },
+  {
+   "col": "1048B",
+   "find": "sancti venient",
+   "replace": "sancti veniens",
+   "why": "Class 2: unlocks [cj: *veniens*; read *venient*]. English edit owed."
+  },
+  {
+   "col": "1015A",
+   "find": "undaret\ndelictum.</p>\n<p",
+   "replace": "undaret\ndilectum.</p>\n<p",
+   "why": "Class 2: Rom 5:20 is the source; 900 dpi. Unlocks [cj: *dilectum*; read *delictum*]."
+  },
+  {
+   "col": "1024B",
+   "find": "ad inventionibus suis",
+   "replace": "adinventionibus suis",
+   "why": "Class 3: the plate sets ONE word, opening the line; CC split it. English already follows the plate. ⚑ Column corrected from the stint's 1024C."
+  },
+  {
+   "col": "1025C",
+   "find": "eratum est",
+   "replace": "oratum est",
+   "why": "Class 3: clear round o at 900 dpi. THE NON-WORD IS OURS. English already follows the plate (\"which was prayed\")."
+  },
+  {
+   "col": "1013D",
+   "find": "transeunt, id est aeternitas",
+   "replace": "transeant, id est aeternitas",
+   "why": "Class 1: English already follows the plate; no English exponent."
+  },
+  {
+   "col": "1022C",
+   "find": "Id est, quid",
+   "replace": "Id est, quod",
+   "why": "Class 1: English already follows the plate. ⚑ Column corrected from the stint's 1022D."
+  },
+  {
+   "col": "1034A",
+   "find": "laudandus sit",
+   "replace": "laudamus sit",
+   "why": "Class 1: unlocks [cj: *laudamus*; read *laudandus*]. English edit owed in 0085.md. ⚑ Column corrected from the stint's 1034B."
+  },
+  {
+   "col": "1039A",
+   "find": "te> Sed ne quis\nputet p",
+   "replace": "te> Sed ue quis\nputet p",
+   "why": "Class 1: unlocks [sic: *ue*]. English edit owed in 0086.md."
+  },
+  {
+   "col": "1031D",
+   "find": "manet saeculum saeculi",
+   "replace": "manet in saeculum saeculi",
+   "why": "Class 2: CC dropped `in`. English follows the plate. ⚑ Column corrected from the stint's 1031B."
+  },
+  {
+   "col": "1036D",
+   "find": "notat quod non est",
+   "replace": "nota quod non est",
+   "why": "Class 2: the nota/notat half is certain at the plate. ⛔ The `ostiosus`/`ostiosns` half of the same clause is REFUSED — the penultimate letter will not settle as u or n and a patch must not guess a letter (the Nafrubimus precedent). ⚑ Column corrected from the stint's 1037A."
+  },
+  {
+   "col": "1053A",
+   "find": "id est in latitudine",
+   "replace": "id est iu latitudine",
+   "why": "Class 1: unlocks [sic: *iu*]. English edit owed. ⚑ Column corrected from the stint's 1053B."
+  },
+  {
+   "col": "1055B",
+   "find": "totius orbis conditionem",
+   "replace": "totius orbi conditionem",
+   "why": "Class 1: unlocks [cj: *orbi*; read *orbis*]. English edit owed. ⚑ Column corrected from the stint's 1055C."
+  },
+  {
+   "col": "1058C",
+   "find": "dicit quomodo haec bona",
+   "replace": "dici quomodo haec bona",
+   "why": "Class 1: unlocks [cj: *dici*; read *dicit*]. ⛔ English must become \"where it is said [cj: ...] how\"."
+  },
+  {
+   "col": "1050C",
+   "find": "quo nihil gratius",
+   "replace": "quod nihil gratius",
+   "why": "Class 2: the plate is good Latin and the English already renders it. ⚑ Column corrected from the stint's 1050D."
+  },
+  {
+   "col": "1053A",
+   "find": "Non quod alia gratia sit",
+   "replace": "Non alia gratia sit",
+   "why": "Class 2: English already renders the plate. ⚑ Column corrected from the stint's 1053B."
+  },
+  {
+   "col": "1062B",
+   "find": "VERS. 6.-- <hi>Superbi.</hi>",
+   "replace": "VERS. 9.-- <hi>Superbi.</hi>",
+   "why": "Class 2: unlocks [sic: *VERS. 9.*]. The English ALREADY prints Migne's `VERS. 9.--` per the 1016C ruling, so the columns disagree visibly until this lands. ⚑ Column corrected from the stint's 1062A — the English/Latin disagreement is at the second VERS. 6 of the psalm, in 1062B."
+  },
+  {
+   "col": "1071C",
+   "find": "quasi musica",
+   "replace": "quasi musicas",
+   "why": "Class 1: unlocks [cj: *musicas*; read *musica*]. English edit owed in 0102.md. ⚑ Column corrected from the stint's 1071D."
+  },
+  {
+   "col": "1073B",
+   "find": "viduam suscipiet",
+   "replace": "viduam suseipiet",
+   "why": "Class 1: the disputed glyph carries a CROSSBAR and the documented hazard runs the other way — a c cannot grow a bar by failing to ink. Unlocks [sic: *suseipiet*]. English edit owed. ⚑ Column corrected from the stint's 1072D."
+  },
+  {
+   "col": "1075C",
+   "find": "mitteret verbum",
+   "replace": "mittere verbum",
+   "why": "Class 1: unlocks [cj: *mittere*; read *mitteret*]."
+  },
+  {
+   "col": "1077D",
+   "find": "canticum charitatis",
+   "replace": "eanticcum charitatis",
+   "why": "Class 1: crossbar control. Unlocks [sic: *eanticcum*]. English edit owed. ⚑ Column corrected from the stint's 1077C."
+  },
+  {
+   "col": "1043A",
+   "find": "</p>\n<p>VERS. 4.--<note>",
+   "replace": "</p>\n<p>VESS. 4.--<note>",
+   "why": "Class 2: ⛔ SECTION LABEL — Pattern 9 governs and NO marker is owed; the English normalizes it precisely BECAUSE the facing Latin preserves it."
+  },
+  {
+   "col": "1043C",
+   "find": "securi et cum Domino",
+   "replace": "securi et eum Domino",
+   "why": "Class 2: `securi` on the same line gives the c-control. Unlocks [cj: *eum*; read *cum*]. ⚑ English edit owed — it now reads \"shall judge with the Lord\" (the twin); with the patch it must take the marker or it silently repairs a broken column (§F8 defect 3)."
+  },
+  {
+   "col": "1044A",
+   "find": "in hoc quod te diligo",
+   "replace": "in hoc hoc quod te diligo",
+   "why": "Class 2: both copies mid-line — ⛔ NOT a column turn, so the manufactured-dittography trap does not apply. Unlocks [d: hoc, hoc]."
+  },
+  {
+   "col": "1048A",
+   "find": "Beati omne",
+   "replace": "Beati omnes",
+   "why": "Class 2: the FIRST, unabridged occurrence. Migne is correct; no marker owed in either direction once patched."
+  },
+  {
+   "col": "1048A",
+   "find": "labores cum gaudio",
+   "replace": "labore cum gaudio",
+   "why": "Class 2: English renders the plate (\"taken up with joy even in the labour\")."
+  },
+  {
+   "col": "1039D",
+   "find": "Nescientes Judaei rem omnium",
+   "replace": "Nesciente Judae rem omnium",
+   "why": "Class 2: two letters in two words, unambiguous at 900 dpi. English renders the plate (\"Judah not knowing, they made...\"). No marker owed."
+  },
+  {
+   "col": "1045B",
+   "find": "PSAMUS CXXIV.",
+   "replace": "PSALMUS CXXIV.",
+   "why": "Class 3: our TEI carries the non-word — CC's defect, not Migne's. No [sic:] either way (Pattern 9); the head is normalized in English."
+  },
+  {
+   "col": "1015D",
+   "find": "<hi>magnificatus.</hi>",
+   "replace": "<hi>mugnificatus.</hi>",
+   "why": "Class 2: ⚠ the same word supplies its own control — the a of *-catus* four letters later is a closed-bowl italic a, the disputed glyph a two-stemmed open-topped u. 1200 dpi. Unlocks [sic: *mugnificatus*]."
+  },
+  {
+   "col": "1019C",
+   "find": "promittitur haereditas",
+   "replace": "promittitur haere ditas",
+   "why": "Class 2: SPLIT TYPE. The gap equals the inter-word spacing of `huic fidei promittitur` on the same line. Unlocks [sic: *haere ditas*] (Pattern 10, whole run)."
+  },
+  {
+   "col": "1021B",
+   "find": "Et non erat infirmus",
+   "replace": "Ft non erat infirmus",
+   "why": "Class 2: control is the italic E of *Et eduxit* two lines above, which has a bottom bar; this sort has none. Unlocks [sic: *Ft*]."
+  },
+  {
+   "col": "1015A",
+   "find": "Per Moysenomnes",
+   "replace": "Per Moysen omnes",
+   "why": "Class 3: the plate prints two clean words; CC ran them together. ⚠ Translating the twin here would have produced garble or a false [sic:] against Migne. English already follows the plate."
+  },
+  {
+   "col": "1015D",
+   "find": "otitia, qui semper\nmagnus ",
+   "replace": "otitia, quia semper\nmagnus ",
+   "why": "Class 1: English already follows the plate (\"because thou art always great\")."
+  },
+  {
+   "col": "1025B",
+   "find": "coeperant eos",
+   "replace": "caeperant eos",
+   "why": "⭐ Class 1: the twin's `coeperant` reads as *coepi* \"they had begun\", nonsense in the lemma; Migne's is *ceperant* \"they had taken\", and the gloss's own last clause (`sub quibus fuere captivi`) confirms it. English follows the plate."
+  },
+  {
+   "col": "1029A",
+   "find": "Et posuerunt adversum",
+   "replace": "Et posueruent adversum",
+   "why": "Class 1: unlocks [sic: *posueruent*]. English edit owed in 0083.md."
+  },
+  {
+   "col": "1029B",
+   "find": "sub regibus gentium",
+   "replace": "regibus gentium",
+   "why": "Class 2: CC inserted `sub`. English follows the plate (\"of the kings of the Gentiles\")."
+  },
+  {
+   "col": "1029B",
+   "find": "Diripiant labore ejus",
+   "replace": "Diripiant labores ejus",
+   "why": "Class 2: the plate agrees with Clementine Ps 108:11 `labores`; CC's singular is its own. English follows the plate."
+  },
+  {
+   "col": "1059D",
+   "find": "Quo ibo a spiritu tuo",
+   "replace": "Quo ibo spiritu tuo",
+   "why": "Class 1: Migne drops the `a` our twin carries. ⚠ An English edit rides with this: \"Whither shall I go FROM thy spirit?\" becomes \"by thy spirit\", which the gloss's own next clause (*non esse ab eo fugiendum*) contradicts. That contradiction is Migne's and is what Pattern 7 exists to show — taken deliberately, not by omission."
+  },
+  {
+   "col": "1059A",
+   "find": "princeps mundi peccatum",
+   "replace": "principes mundi peccatum",
+   "why": "⭐ Class 2: a NUMBER change with no orthographic cover, invisible to any Vulgate collation — plural rulers turned into the devil, against *quare occideret*. English renders the plate."
+  },
+  {
+   "col": "1075B",
+   "find": "janam januam",
+   "replace": "januam",
+   "why": "⛔⛔ Class 2: the plate prints `januam` ONCE. CC MANUFACTURED the dittography — a [d: januam] would have been a false public accusation, the `Ideo-|que` class from the Band B merge."
+  },
+  {
+   "col": "1075B",
+   "find": "scandala. scandala.",
+   "replace": "scandala.",
+   "why": "⛔⛔ Class 2: the plate prints it ONCE, at the end of the paragraph. Same class."
+  },
+  {
+   "col": "1078B",
+   "find": "Nescitis quia angelos",
+   "replace": "Neseitis quia angelos",
+   "why": "Class 1: crossbar control. Unlocks [sic: *Neseitis*]."
+  },
+  {
+   "col": "1072A",
+   "find": "in puritate laudato",
+   "replace": "in puritate laudatio",
+   "why": "Class 1: unlocks [cj: *laudatio*; read *laudato*]. Marker rides beside \"praised for its purity\"."
+  },
+  {
+   "col": "1073D",
+   "find": "dispersiones Israel",
+   "replace": "disper iones Israel",
+   "why": "Class 1: SPLIT TYPE, a full word-space on the plate. Unlocks [sic: *disper iones*] (Pattern 10, carry the whole run). English edit owed."
+  },
+  {
+   "col": "1039C",
+   "find": "evadit, et ad veram",
+   "replace": "evadit, et et ad veram",
+   "why": "Class 2: both copies mid-line and adjacent on the plate. Unlocks [d: et, et]."
+  },
+  {
+   "col": "1043C",
+   "find": "in quibus Deus",
+   "replace": "in quibus Deum",
+   "why": "Class 2: unlocks [cj: *Deum*; read *Deus*]. ⚑ English edit owed — it reads \"in whom God sits\"; with the patch it must take the marker."
+  },
+  {
+   "col": "1015A",
+   "find": "</note> Vel secundum\naliam l",
+   "replace": "</note> Vel secundam\naliam l",
+   "why": "Class 2: the plate hyphenates `secun-|dam`. Unlocks [cj: *secundam*; read *secundum*]."
+  },
+  {
+   "col": "1013C",
+   "find": "et paganus credit",
+   "replace": "et Paganus credit",
+   "why": "Class 1: English already follows the plate (\"the Pagan\"). ⚑ Column corrected from the stint's 1013D."
+  },
+  {
+   "col": "1032A",
+   "find": "in futura glorificatus",
+   "replace": "in futura glorificatur",
+   "why": "Class 1: unlocks [cj: *glorificatur*; read *glorificatus*]. English edit owed in 0084.md. ⚑ Column corrected from the stint's 1032B."
+  },
+  {
+   "col": "1038D",
+   "find": "VERS. 18, 19.-- <hi>Vota mea reddam.</hi>",
+   "replace": "VERS. 18, 19.-- <hi>Vota mea reddum.</hi>",
+   "why": "Class 1: ⭐ the correct `reddam` stands three lines below IN THE SAME COLUMN — the same-page control, and the reason this is Migne's defect and not a reading. Unlocks [sic: *reddum*]. English edit owed in 0086.md after the FIRST \"*I will pay my vows.*\""
+  },
+  {
+   "col": "1027B",
+   "find": "c., <hi>usque ad</hi> sed\nnon era",
+   "replace": "c., <hi>usque ad</hi>\nnon era",
+   "why": "Class 2: CC inserted `sed`. English follows the plate."
+  },
+  {
+   "col": "1052A",
+   "find": "r Deus, etc., <hi>usque ad</hi> in\n<pb n=\"",
+   "replace": "r Deus, etc., <hi>usque ad</hi> tu\n<pb n=\"",
+   "why": "Class 2: English already renders the plate (\"as far as for thou doest it\"). ⚑ Column corrected from the stint's 1052B — CC's `in` stands before the column turn."
+  },
+  {
+   "col": "1078B",
+   "find": "mansiones",
+   "replace": "mahsiones",
+   "why": "Class 1: the disputed glyph has a TALL ASCENDER to the height of the d of *domo* and the P of *Patris* on the same line; an n has none. Unlocks [sic: *mahsiones*]."
+  },
+  {
+   "col": "1079A",
+   "find": "secundum eam laudatur",
+   "replace": "secundum eam laudatur.",
+   "why": "Class 4: a FULL STOP where CC runs the clause on. Pattern 8 — the English follows the plate, and the resulting short sentence is Migne's, not ours."
+  },
+  {
+   "col": "1050A",
+   "find": "lacte (quod est Verbum",
+   "replace": "lacte quod est Verbum",
+   "why": "Class 3: the plate prints NO parenthesis; our TEI carries an unmatched opening `(`. CC inserted it (the @0936D class). The English is written without a parenthesis."
+  },
+  {
+   "col": "1012A",
+   "find": "<hi>Pelicano,</hi> etc. <note>(AUG.)</note>",
+   "replace": "<hi>Pelicano,</hi> <note>(AUG.)</note>",
+   "why": "Class 3: the plate prints `*Pelicano,* (AUG.) Tres aves` with NO `etc.` — CC inserted one. ⚑ MATERIAL TO THE `usque ad` SPLICE TEST, which keys on `etc.`: the real splice stands four words later. English already follows the plate."
+  },
+  {
+   "col": "1055B",
+   "find": "quasi dicat: Cultores",
+   "replace": "quasi : Cultores",
+   "why": "Class 2: English already renders the plate (\"as it were: Let the worshippers of idols...\")."
+  },
+  {
+   "col": "1060B",
+   "find": "Et dixi, forsitan",
+   "replace": "Et dixit forsitan",
+   "why": "Class 1: the plate has the THIRD person; the gloss's own next word is `Deliberavi`, first person, so the patch makes Migne argue against his own gloss. English edit owed (\"And he said\")."
+  },
+  {
+   "col": "1060B",
+   "find": "<hi>Et dixi.</hi> <note>(AUG.)</note> Deliberavi",
+   "replace": "<hi>Et dixit.</hi> <note>(AUG.)</note> Deliberavi",
+   "why": "Class 1: the second lemma, same site, same reading. English edit owed."
+  },
+  {
+   "col": "1065C",
+   "find": "Fortis non fugit",
+   "replace": "Fortius non fugit",
+   "why": "Class 2: ⭐ THE INTERNAL CONTROL IS MIGNE'S OWN NEXT CLAUSE — `Periit fuga concluso vel forti`, whose dative pair names *Circumclusus* and *Fortis*, so `Fortis` is what the argument requires. Unlocks [cj: *Fortius*; read *Fortis*]. ⚑ Column corrected from the stint's 1065B."
+  },
+  {
+   "col": "1065C",
+   "find": "mente, quia non vult",
+   "replace": "mente, qui non vult",
+   "why": "Class 2: the second half of the same site; `qui non vult` construes, so NO marker is owed on this one."
+  },
+  {
+   "col": "1078B",
+   "find": "unde non sit liberum",
+   "replace": "unde nos sit liberum",
+   "why": "Class 1: unlocks [cj: *nos*; read *non*]. ⛔ WILSON'S RULING OWED — following the plate here would put the opposite of Migne's own next clause on the page with nothing able to quarantine it, so the English follows the twin and says so."
+  },
+  {
+   "col": "1077A",
+   "find": "VERS. 7.-- <hi>Laudate Dominum.</hi>",
+   "replace": "VERS. 7.-- <hi>Laudate Dominam.</hi>",
+   "why": "Class 1: the Ps 148:7 lemma. Unlocks [cj: *Dominam*; read *Dominum*]. English edit owed in 0104.md."
+  },
+  {
+   "col": "1077A",
+   "find": "<hi>Omnes abyssi.</hi>",
+   "replace": "<hi>Omnes ubyssi.</hi>",
+   "why": "Class 1: italic u with two stems and a bottom arch, no bowl; roman a/u control on the same column at 1077C. NOT the turned-sort class. Unlocks [sic: *ubyssi*]. English edit owed."
+  },
+  {
+   "col": "1029A",
+   "find": "quod et Deus judex",
+   "replace": "quod est Deus judex",
+   "why": "Class 2: CC turned `est` into `et`, SMOOTHING a hard clause. English follows the plate (\"which is, God the judge does\") and the strain is logged in the cruces."
+  },
+  {
+   "col": "1055B",
+   "find": "VERS. 18.-- <hi>Similes illis fiant.</hi>",
+   "replace": "VERS. -- <hi>Similes illis fiant.</hi>",
+   "why": "⭐⭐ Class 4: THE PLATE PRINTS NO VERSE NUMBER AT ALL — the em-rule follows `VERS.` directly, confirmed at 900 dpi. Ps 134:18 is the right verse, so CC's supplement is correct and SILENT. The English keeps `VERS. 18.--` (addresses pass through verbatim); the patch is Latin-only."
+  },
+  {
+   "col": "1067A",
+   "find": "m.</hi> (CAS). Ut vas ",
+   "replace": "m.</hi> (CAS.) Ut vas ",
+   "why": "Class 3: the misplaced point is CC's, and it stops the chunker recognising a note, so it prints as body text. English edit owed in 0099.md."
+  },
+  {
+   "col": "1071C",
+   "find": "t.</hi> (ID).\nConclud",
+   "replace": "t.</hi> (ID.)\nConclud",
+   "why": "Class 3: same. English edit owed in 0101.md."
+  },
+  {
+   "col": "1026D",
+   "find": "subdens, <hi>dixit et stetit. In profundo. Dixit et stetit",
+   "replace": "<hi>dixit et stetit. In profundo. Dixit et stetit</hi> subdens, <hi>",
+   "why": "⭐ Class 2: CC dropped a whole roman `subdens,` from BETWEEN the two italic runs — an eye-skip on the *subdens* eight words earlier — and moved it to the head of the passage. English follows the plate, and the span structure of the English differs from the twin here by design."
+  },
+  {
+   "col": "1026D",
+   "find": "spiritus procellae,</hi> etc.",
+   "replace": "spiritus procellae.</hi>",
+   "why": "Class 2: the second half of the same site — CC added `, etc.` where Migne sets a full stop."
+  },
+  {
+   "col": "1015C",
+   "find": "Deum monet, primo",
+   "replace": "Deus monet, primo",
+   "why": "Class 2: ⚑ *Deus* DOES construe as the subject of *monet*, which is why the twin's repair is invisible; but the parallel gloss at 1014B is *hortatur benedicere Deum* and the psalm is *Benedic, anima mea, Domino*. The English renders the twin and the marker is owed. Unlocks [cj: *Deus*; read *Deum*]."
+  },
+  {
+   "col": "1059C",
+   "find": "peccatum lapsi sumus",
+   "replace": "pecatum lapsi sumus",
+   "why": "Class 1: unlocks [sic: *pecatum*]. English edit owed."
+  },
+  {
+   "col": "1078D",
+   "find": "ferreis, ne progrederentur",
+   "replace": "ferrcis, ne progrederentur",
+   "why": "Class 1: roman, and the disputed glyph is a clean open c with both terminals against three fully-inked barred e's on the same line. ⚠ THE ONE CALL IN THIS BAND A SECOND READER SHOULD RE-OPEN — it is the italic-e-images-as-c hazard's own shape, and the deciding evidence is that the glyph is WELL FORMED, not broken. Unlocks [sic: *ferrcis*]."
+  },
+  {
+   "col": "1067D",
+   "find": "conditus est, veritati\nsimilis factus est",
+   "replace": "conditus est, veriteti\nsimlis factus est",
+   "why": "Class 2 — TWO Migne defects in one clause, patched as ONE entry because they are adjacent across a line break and two separate patches would have NESTED, which is the pair that deadlocked the Band B queue. `veriteti` is the `iniquitetem` class exactly; `simlis` stands inside the Ps 143:4 lemma with the two dotted i of *Vanitati* on the same line as its control. Unlocks [sic: *veriteti*] and [sic: *simlis*]."
   }
  ],
  "unread": "The scar sweep across all 106 chunks found 13 stray-space candidates; only this one was read at the plate. The other 12 are NOT claimed as drops — a stray space has ordinary causes too, and hebrew-recovery.md step 1 makes the scan the arbiter, not the scar. Three 'In Hebraeo' clauses also stand in this work, none with surviving Hebrew, and all three are unread candidates. Exposure here is small by the standards of an etymological work; it was worth a sweep and is not worth a campaign.",
@@ -1202,5 +2006,10 @@
  "bandA_pass": "39 patches applied in ONE pass 2026-09-04, after Band A's translation was complete and before the cruces merge, so that no patch rewrote Latin under a stint that was still writing. Sources: the eight Band A cruces files, each site read at the plate by the stint that reported it. ⛔ TWO REPORTED SITES WERE DELIBERATELY NOT APPLIED. (1) `locutus egomet` -> `locutos`: at 900 dpi the glyph is ambiguous, and `locutus` (perfect deponent, 'and afterwards I myself spoke') is correct Latin where `locutos` is a solecism -- a patch needs positive evidence, and applying this would have corrupted good Latin into an error. (2) `possit` -> `rossit` and the like: THE PLATE'S BROKEN SORTS ARE NOT MIGNE'S ERRORS. A damaged `p` that images as `r` is the condition of THIS COPY's inking, not a reading of the edition; restoring it would import a defect that exists nowhere but in one physical leaf. Compositor errors (wrong sorts SET) are restored; ink damage is not. That line is new and is the reason `iniquitetem` and `Nocere` ARE restored while `rossit` is not. (3) `Desiderabilia` -> `Desiderabillia` deferred: two occurrences stand in col 0871D and the report does not say which, so the leaf must be re-read rather than guessed.",
  "patchAudit": "scripts/patch-audit.mjs, added 2026-09-04: resolves every find's offset to its enclosing <pb/> and compares with the declared col, refuses a no-op replace, and warns where a patched column has no recorded plate read. chunk-work.mjs checks UNIQUENESS only, and uniqueness is not location — a find can match exactly once in the wrong column, leaving the real defect and corrupting a column nobody collated (9003, 2026-08-28). Run on Band A's 43 it found 1 mis-recorded column and 24 patches filed with NO column at all, so the check had never been possible on more than half the file. All now resolved from the TEI itself.",
  "bandB_pass": "149 patches applied in ONE pass 2026-09-04, after Band B's translation was complete and before the cruces merge, so that no patch rewrote Latin under a stint still writing. Sources: the eight Band B cruces files and their reports in data/briefs/8967-PENDING-TEI-PATCHES.md; every site was read at the plate by the stint that reported it, across 90 columns none of which had been opened when the band began. Rate ~1.4 departures per column, agreeing with Band A and with 9003's independent collation of the sibling PL 114 Psalter. ⛔ FIVE REPORTED SITES WERE DELIBERATELY NOT APPLIED, each because the report itself declined to rule or could not: (1) `Nafrubimus` @0962B — the letter between `Na` and `rubimus` would not settle as `f` or `t` even at 1200 dpi, and a patch must not guess a letter any more than a marker may. (2) `Malivolenti :` @0929A — Migne's is a real word (dative of *malivolens*) and the stint filed it as a departure needing a ruling, not as a defect. (3) 0926B `ei`/`et` — the report contradicts itself about which reading the plate carries; it needs one more leaf read. (4) `res alienas`/`res aliena` @0971D — Pattern 12(2) and the Pattern 9 exemption pull opposite ways and the stint explicitly declined to rule. (5) `(Rom. IX)`→`(Rom. IV)` @0971A — CC CORRECTED Migne's citation, so restoring it is right in principle, but it would push a wrong locus into the scripture index and may be depended on by a following `Ibid.` (a documented false-positive class). It needs a citation-corrections.json entry landed WITH the patch, which is a separate piece of work. ⚑ Also carried forward: the punctuation-only departures the 0044–0048, 0064–0068 and 0069–0072 stints listed 'recorded, not argued' are NOT all applied — the sense-bearing and lemma-internal marks are, the residual prose commas are not. They stay in the pending file so a later collation does not re-derive them. ⛔ TWO MORE ADDED AFTER THE BLIND POLARITY READ, 2026-09-04: `biatu`→`hiatu` @0924B and the unmatched CC parenthesis @0936D. Both were REPORTED BY THEIR STINTS and dropped on the floor at the patch pass — my omission, not the stints'. Both were recovered by blind readers who could see the English/Latin mismatch without ever seeing the reports. The lesson is that the patch pass had no checklist reconciling reported sites against applied ones; the reports are prose and I extracted them by hand.",
- "plateClosures2026_09_04": "FIVE SITES THE BAND B PATCH PASS LEFT OPEN WERE CLOSED BY RE-OPENING THE LEAF, after the blind polarity read. Every one had been correctly refused earlier — a patch must not guess a letter, and a report that contradicts itself must not be acted on — and every one fell to a single render of the on-disk scan at 500–1200 dpi. Nafrubimus (f settled against the b of `bimus` and the shorter t of `tua` on the same line, with Migne's own correct `Narrabimus` a few lines above as the control); (Rom. iv); res aliena; et attribuam; Malivolenti. ⚑ The lesson for Band C: the sites a stint declines are not necessarily hard — several were simply never re-opened, and the scan was on disk the whole time."
+ "plateClosures2026_09_04": "FIVE SITES THE BAND B PATCH PASS LEFT OPEN WERE CLOSED BY RE-OPENING THE LEAF, after the blind polarity read. Every one had been correctly refused earlier — a patch must not guess a letter, and a report that contradicts itself must not be acted on — and every one fell to a single render of the on-disk scan at 500–1200 dpi. Nafrubimus (f settled against the b of `bimus` and the shorter t of `tua` on the same line, with Migne's own correct `Narrabimus` a few lines above as the control); (Rom. iv); res aliena; et attribuam; Malivolenti. ⚑ The lesson for Band C: the sites a stint declines are not necessarily hard — several were simply never re-opened, and the scan was on disk the whole time.",
+ "bandC_pass": {
+  "date": "2026-09-05",
+  "applied": 134,
+  "note": "Band C, chunks 0077-0105. Built MECHANICALLY by scripts/patch-build.mjs from the six stint reports rather than extracted by hand — the Band B pass hand-extracted 149 patches and the blind polarity read then found seven defects the pass itself had introduced or left behind. Every reported site either resolves to exactly one location in its declared column or is REFUSED and recorded."
+ }
 }
