@@ -1,6 +1,106 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-04 (late) — 8967 *LIBER PSALMORUM*, **BAND C IS SET UP AND READY TO LAUNCH**
+## ▶▶▶▶▶ START HERE 2026-09-05 — 8950 *LIBER GENESIS* IS IN FLIGHT (Wilson: Genesis next, not Matthew)
+
+**Wilson's call: Genesis instead of Matthew. Approved Opus + the spot check.** 8967 Psalms shipped,
+deployed and pushed earlier the same day, so the queue was genuinely at the next volume.
+
+**8950 = Anselm of Laon and his school, *Glossa ordinaria* on Genesis, PL 113 cols 0067B–0182D,
+47,910 Latin words, 47 chunks.** Estimate quoted at the hard stop: **~2.5M tokens** — ~1.9M for
+translation at the runbook's recalibrated ~40K/chunk, plus ~0.3–0.5M for the blind polarity read
+(budget it: lemma-and-gloss is the richest genre for that class) and ~0.3M for patches, plate reads
+and the merge.
+
+### Where the work stands
+- ✅ Chunked, validated (460 column marks, 722 notes, words conserved).
+- ✅ **Plate spot check DONE and it was NOT a checked zero** — see below. `coverage.json` = `partial`,
+  2 notes recovered, 1 injected.
+- ✅ Lemma inventory rebuilt: **1,805 spans, 1,002 ✓ / 2 ⚑ / 398 ⚠ / 403 single-word.**
+- ✅ Split into **nine stints**, balanced by words, all 1,805 spans allocated:
+  `0-3 · 4-7 · 8-11 · 12-18 · 19-23 · 24-30 · 31-35 · 36-41 · 42-46`.
+- ⬜ **Stints 1–3 (chunks 0000–0011) LAUNCHED on Opus, throttled 3 at a time** per CLAUDE.md rule 5
+  (multi-million-token run). **Six stints remain to launch: 12-18, 19-23, 24-30, 31-35, 36-41, 42-46.**
+- ⬜ Then: `verify-english`, cruces merge, blind polarity read, patch pass, plate gate, preflight.
+
+⛔ Nothing is deployed and nothing is pushed for 8950. `master` is ahead of `origin/master`.
+
+### ⭐⭐⭐ THE HEADLINE: THE LEMMA INSTRUMENT WAS BLIND ON THIS BOOK, AND IT FAILED BY GOING QUIET
+
+`lemma-inventory.mjs` was written for the gospel books, where the lemma is italic, and harvested
+`*…*` only. **Genesis sets its verse lemmata in guillemets — 1,207 of them — and italicizes only
+second lemmata, Hebrew words and the *Historice/Allegorice* tags.** So the first brief listed 600
+spans and missed every verse lemma, i.e. exactly the spans 7a″ exists to collate. **The only symptom
+was the ownership test firing 0 times in 600 spans.** Third instance of the class that file already
+documents twice (CAPUT PRIMUM, then PSALMUS).
+
+⚑ **It is not a house style and may not be assumed for the next book: 1,277 « in 8950 against 0 in
+9000 (Luke).** Whichever book follows gets checked the same way.
+⭐ **And the convention was settled for TRANSLATORS years before the instrument knew it** — the
+guillemet section in `GLOSSA-NT-AGENT-BRIEF.md` (Tobit 8970 §1) is older than the bug. A tool being
+newer than a rule is not the same as a tool knowing it.
+
+Two more fell out of the revived test rather than out of inspection:
+- The `VERS.` address regex took a single numeral only; Genesis prints ranges and lists
+  (`VERS. 8, 9.--`, `VERS. 11-13.--`) and pads the gap with ellipsis dots. It matched **228 of 487**.
+- ⛔ **Migne abbreviates**: one head reads `CAP. XLIV.` among fifty `CAPUT` heads, so the chapter
+  counter sat on 43 through all of Genesis 44 and reported three of that chapter's lemmata as
+  matching "only elsewhere" at their own correct addresses. Fourth lapse of that regex, and the
+  first that failed LOUDLY instead of silently.
+
+### ⭐⭐ THE SPOT CHECK FOUND NOTES, AND OUR TEI KEPT THEIR ANCHORS
+
+Ten pages read at the plate before translation (PDF 39, 40, 46, 52, 53, 60, 67, 74, 82, 89, 96;
+page = (col+11)/2, corners checked FIRST every time). Eight feet blank; p.74 carries the signature
+line `PATROL. CXIII.` + gathering 5, which is not apparatus. **Two notes recovered, both re-read at
+400 dpi**, keyed by a **raised letter** — a third key class beside the numbered and asterisk layers:
+
+    p.39 col 0068B  (a) Revocantur lector ad tomos Patrologiae nostrae. EDIT.
+    p.52 col 0094D  (a) In Hebraeo est *gahon*, quod *ventrem* et *pectus* significat.
+
+⭐ **Corpus Corporum drops the note and KEEPS the raised key** (`col. 13 ª`, `« pectus ª »`), which no
+previous work's did. So on this book the layer is findable by grep, not by sampling: exactly 2 in
+8950, **0 across 8967/9000/9001**. That is what licenses reading two plates instead of 58.
+⛑ **The 0068B note is recovered but NOT placed** — its anchor sits inside Migne's own
+`[n: (BEDA, Hexaem. …)]` citation, which the injector's search view strips, and marker syntax forbids
+nested brackets. Reported as skipped on every run rather than placed by a guess. The 0094D note,
+which carries text a reader needs, IS placed and gets a translated `[nt:]` opposite per Wilson's
+2026-08-24 ruling.
+⚑ **Lead, not a finding:** the plate prints `Revocantur lector` — plural verb, singular subject. The
+same standing note in this volume's Prothemata (a different work) OCRs singular, but **that plate is
+unread**, so the pair is a lead. Left unadopted for a stint to adjudicate.
+
+Recorded **`partial`, deliberately not tier 3**: a per-page letter layer has no sequence to verify, so
+tier 3's guarantee cannot honestly be given, and a note whose anchor glyph the digitization dropped
+would still be invisible.
+
+### ⛔ AND A RULE WAS WRITTEN TWICE, WHICH IS HOW THIS PROJECT LOSES THINGS
+
+`split-lemma-brief.mjs` re-derived chunk membership with **its own copy of the harvest rule** —
+correct for exactly as long as the harvest was italic-only. On the new inventory it allocated **603 of
+1,805 spans** and labelled the last stint's bands `0106D–0109D` for a range that runs to `0182D`.
+Same class as the `first-english.mjs` triple failure in CLAUDE.md rule 8. Membership is now computed
+once, in `lemma-inventory.mjs`, and READ from `data/briefs/<idno>-lemmata.counts.json`.
+⭐ **Nothing downstream could see it except that script's own sum assertion, which is what fired.**
+The check earned itself. Keep it.
+
+Tools taught, all committed: `inject-plate-notes.mjs` (letter keys; and because our TEI carries this
+key, the glyph stays INSIDE the search window — cutting it out the way a number is cut would have
+asked our Latin for `« pectus » tantum` and reported a plate/text divergence that does not exist),
+`lemma-inventory.mjs` (strips ALL bracketed apparatus, treats the raised key as apparatus, emits the
+membership sidecar), `split-lemma-brief.mjs` (reads it).
+
+### Carried forward
+- ⚑ Two `⚑ MATCHES ONLY ELSEWHERE` candidates are live and named in the stint briefs: **0104D**
+  `« Videns autem Dominus, »` (gloss is on Gn 6; Gn 6:5 reads *Deus*) in chunk 0011, and **0121A**
+  `« Suspice coelum, »` in chunk 0019.
+- ✅ The axis-4 `gentilis`/`gentilitas` addition that the Luke session left open **was already made**
+  in `GLOSSA-NT-AGENT-BRIEF.md` on 2026-09-04. That open item is closed.
+- The `[sic:]`/`[var:]` backlog hunt remains **PAUSED** per Wilson. Do not resume without him asking.
+- Volume queue after Genesis: 9002 Matthew (45,922) — still the last gospel — then 8963 Numbers
+  (26,336), 8961 Leviticus (32,205), 8956 Isaiah (32,299), 8957 Job (38,206), 8949 Exodus (46,328).
+
+
+## ▶ HISTORY 2026-09-04 (late) — 8967 *LIBER PSALMORUM* Band C launch brief ✅ **BAND C DONE; 8967 SHIPPED, DEPLOYED AND PUSHED 2026-09-05.** Kept for its method notes only.
 
 **Read `data/briefs/8967-bandC-launch-brief.md` first. It is written, current, and complete.**
 Everything below is context for it. ⚑ **The Band A/Band B sections of this file are now HISTORY —
