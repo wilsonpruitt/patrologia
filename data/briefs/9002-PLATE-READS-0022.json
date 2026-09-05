@@ -1,0 +1,127 @@
+{
+  "note": "STINT-SCOPED plate reads for 9002 (Glossa ordinaria, Ev. sec. Matthaeum), chunks 0022-0026, cols 0124A-0137C. Written by the 0022-0026 translation stint per launch-brief §1. NOT to be written into data/plate-reads.json by this stint -- peers run concurrently; the orchestrator merges.",
+  "work": "9002",
+  "series": "pl",
+  "volume": 114,
+  "stint": "0022-0026",
+  "range": "0124A-0137C",
+  "date": "2026-09-05",
+  "witnesses": {
+    "archive": {
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "calibration": "corner numbers read FIRST on every page, before any other reading. p.67 read 123/124, p.68 125/126, p.69 127/128, p.70 129/130, p.71 131/132, p.72 133/134, p.73 135/136, p.74 137/138 -- all eight exactly as the map predicts.",
+      "render": "pdftoppm -f N -l N -r 300 -png",
+      "pages": "67-74"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "page_map": "f = (column + 1) / 2",
+      "calibration": "corner numbers read FIRST on every leaf. f62 read 123/124, f63 125/126, f64 127/128, f65 129/130, f66 131/132, f67 133/134, f68 135/136, f69 137/138 -- all eight exactly as the map predicts.",
+      "endpoint": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/2200,/0/native.jpg for the page; .../f<N>/<x,y,w,h>/full/0/native.jpg for a native-resolution crop; .../f<N>/info.json for dims (f65 is 1920 x 3100). User-Agent header required.",
+      "leaves": "f62-f69"
+    }
+  },
+  "coverage": "ALL SIXTEEN COLUMNS of the range were read on BOTH witnesses, column by column, in three vertical slices each. This is not a candidate-driven Gallica check: every Gallica column was read whether or not the archive raised anything, precisely so that a Gallica-only divergence (the direction a candidate-driven check cannot see) had a chance to surface. One did: @0125A accipendum/accipiendum, below.",
+  "headline": "SIXTEEN candidates raised on the archive copy; FOURTEEN refuted by Gallica; TWO confirmed on both witnesses and BOTH FIRED as [sic:] (@0131A Excaevavit, @0135B Constristatus). Separately, FOUR sites where our Corpus Corporum Latin diverges from a plate both witnesses agree on -- filed as TEI patches, not markers. And ONE press variant where the two copies differ and both are clean (@0125A), which is crux-only per launch brief §6.",
+  "structural_finding": "THE 12:1 AND 20:1 RATIOS HOLD ON pp.67-74: fourteen of sixteen archive candidates refuted. The classes the archive manufactured here are the same ones the two earlier stints catalogued -- turned/lost letters (saderdotes, trangressor, Beelzebud, cruxiferunt, accendit for ascendit, testitudine, duitinae, quiquid x2, Domum illus, Andraeas, extinguit/exstinguit x3), a lost word (the 'in' of 'Si autem ego in spiritu Dei'), a lost roman numeral stroke ((Ose. iv) for (Ose. vi)), a split run ('a nimi' for 'animi'), a supplied period, and a colon read as a semicolon. NOT ONE survived Gallica. ==> AND A NEW CLASS FOR THIS WORK'S LEDGER: THE DASH IN 'VERS. n.--' DIFFERS BETWEEN THE TWO PRINTINGS, IN BOTH DIRECTIONS. Archive prints a dash where Gallica and our twin have none (VERS. 33 @0127C, VERS. 37 @0128A, VERS. 22 @0136B); Gallica and our twin print a dash where the archive has none (VERS. 2 @0130A, VERS. 13 @0130D, VERS. 28 @0137A); and at VERS. 28 @0132A the archive transposes it ('VERS. -- 28.'). Our twin follows Gallica at every one of the six. This reproduces the 0000-0005 stint's @0075A finding and generalises it: a VERS. address's punctuation may not be altered on one witness, and here the witnesses disagree, which is weaker still.",
+  "foot_of_page_apparatus": "CHECKED ZERO. The foot of all eight archive pages and all eight Gallica leaves carries no apparatus layer -- no numbered 'Forte' note, no asterisked cross-reference, no lettered note. Recorded as a checked negative for cols 0123-0138, consistent with PL 114's recorded sample.",
+  "reads": [
+    {
+      "pages": "archive p.67 / gallica f62",
+      "cols": "0123D-0124D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "Three archive candidates, all three refuted at Gallica: @0124A '(Ose. iv)' (Gallica prints '(Ose. vi)', as our twin has); @0124B 'omnes saderdotes sumus' (Gallica 'sacerdotes'); @0124D 'trangressor majori subjacet culpae' (Gallica 'transgressor'). CONFIRMED on both witnesses and carried: the CAPUT XII head stands at the foot of col 123, and the opening lemma 'In illo tempore' with 'Esurientes, etc.' is set exactly as our twin has it. CONFIRMED on both: 'Macta et manduca' (Act 10:13 has occide) and 'Misericordiam malo quam sacrificium' (Os 6:6 has volui ... et non) -- both [var:] fired."
+    },
+    {
+      "pages": "archive p.68 / gallica f63",
+      "cols": "0125A-0126D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "PRESS VARIANT, both copies clean: @0125A the archive prints 'ad accipiendum porrecta' and Gallica prints 'ad accipendum porrecta'; our twin follows Gallica. Both are normally spaced and neither is over-inked. Crux only, no [sic:], no patch -- launch brief §6's Bethehem/Bethlehem class. Five archive candidates refuted at Gallica: @0125C/D 'extinguit', 'extincto' (Gallica 'exstinguit', 'exstincto', as our twin); @0126B 'Si autem ego spiritu Dei' with the 'in' lost (Gallica prints 'in'); @0126C 'Unde alibi ;' (Gallica prints a colon); @0126D 'Domum illus' (Gallica 'Domum illius'). CONFIRMED on both: @0126C 'appropinquabit' for the Vulgate's 'appropinquavit', and 'Medius inter vos stetit' for 'medius autem vestrum stetit'."
+    },
+    {
+      "pages": "archive p.69 / gallica f64",
+      "cols": "0127A-0128D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "One archive candidate refuted: @0128A 'esse Beelzebud' (Gallica 'Beelzebub'). Two VERS.-dash disagreements, both leaving our twin alone: @0127C archive 'VERS. 33. --', Gallica and twin 'VERS. 33.'; @0128A archive 'VERS. 37. --', Gallica and twin 'VERS. 37.'. One Gallica-side punctuation oddity: @0127C the archive prints '(parvae scilicet)' in parentheses as our twin has, and so does Gallica -- checked because the parenthesis is exactly the sort of mark ink removes. @0128D: Gallica prints 'Viri Ninivitae,' with a comma where the archive and our twin print a period; witnesses disagree, twin left alone. CONFIRMED on both: @0127A prints 'Excaecavit oculos eorum' CORRECTLY -- the internal control for the defective spelling four columns later."
+    },
+    {
+      "pages": "archive p.70 / gallica f65",
+      "cols": "0129A-0130D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "==> THE MOST IMPORTANT PAGE IN THE RANGE. @0130C both witnesses print the lemma 'Sexagesimum' where our twin prints the non-word 'Scaagesimum'. Unmistakable on the archive at 300 dpi; the Gallica setting is blurrier there but carries the same eleven-glyph shape and was re-fetched at native resolution to check. A Corpus Corporum corruption, filed as TEI patch 1; the English renders 'Sixtyfold'. Three archive candidates refuted: @0130A '(RAB).' (Gallica '(RAB.)'); @0130B 'quia mentibus hominum' with the 'a' lost (Gallica 'a mentibus'); @0130C 'probitas a nimi' split (Gallica 'animi'). Two VERS.-dash disagreements: @0130A archive 'VERS. 2.' bare, Gallica and twin 'VERS. 2. --'; @0130D archive 'VERS. 13.' bare, Gallica and twin 'VERS. 13. --'. CONFIRMED on both: @0130A 'usque ad ad quae Judaei non intraverunt' -- the doubled 'ad' is the formula's own 'ad' followed by the resumption tail's, not a dittography."
+    },
+    {
+      "pages": "archive p.71 / gallica f66",
+      "cols": "0131A-0132D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "==> [sic:] FIRED. @0131A BOTH WITNESSES print 'Excaevavit oculos eorum' inside the Jo 12:39-40 quotation -- a non-word for 'Excaecavit', which the same work prints correctly at 0127A. Gallica re-fetched at native resolution (f66, crop 380,480,480,70) and the letters Ex-c-ae-v-a-v-i-t are unambiguous. Our twin carries it verbatim, so the marker is fireable and is fired. Two archive candidates refuted: @0131A 'et sic cruxiferunt' (Gallica 'crucifixerunt'); @0131B a terminal period after 'motus suos bene regunt' (Gallica prints NONE, as our twin) -- Pattern 8, the English carries no stop. One archive VERS.-dash transposition: @0132A archive 'VERS. -- 28. Vis imus.' against Gallica and twin 'VERS. 28. -- Vis, imus.' (the archive also loses the comma). @0132B archive 'Et ait Non' without the colon; Gallica and twin print 'Et ait: Non'."
+    },
+    {
+      "pages": "archive p.72 / gallica f67",
+      "cols": "0133A-0134D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "==> TEI patch 2. @0134A both witnesses print 'quae a fluctibus saeculi ad coelum trahit' with NO comma; our twin prints 'ad, coelum'. A stray comma inserted by the digitization. English renders the plate. Four archive candidates refuted: @0133A 'surrexit et accendit in coelum' (Gallica 'ascendit' -- and this one would have been a substantive false finding, since 'accendit' is a real word); @0133D 'carnis testitudine' (Gallica 'testudine'); @0133D 'Petrus et Andraeas' (Gallica 'Andreas'); @0134A/B 'quiquid' twice (Gallica 'quidquid' twice). One diacritic difference recorded and not pursued: @0133C archive 'Israël', Gallica and twin 'Israel'. CONFIRMED on both: @0134C 'Prophetam suscitabit vobis Dominus de semine vestro' under a Deut. XVIII siglum -- [var:] fired."
+    },
+    {
+      "pages": "archive p.73 / gallica f68",
+      "cols": "0135A-0136D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "==> [sic:] FIRED. @0135B BOTH WITNESSES print the lemma 'Constristatus' for Mt 14:9's 'contristatus'. Gallica re-fetched at native resolution (f68, crop 150,1030,500,60): 'Constristatus', with the intruded s, is unambiguous. Our twin carries it verbatim; marker fired, sense rendered beside it per the 2026-09-05 amendment to Pattern 7. ==> TEI patch 3. @0134D both witnesses print 'Quod ergo ait :' with a COLON; our twin prints a semicolon. The English carries the colon and it is this stint's single deliberate band-level punctuation mismatch. One archive candidate refuted: @0136D 'duitinae tribulationis' (Gallica 'diutinae'). One VERS.-dash disagreement: @0136B archive 'VERS. 22. --', Gallica and twin 'VERS. 22.'. CONFIRMED on both: @0135D 'Omnes gentes quasi non sint, sed sunt coram eo' (Is 40:17 has 'sic sunt'), @0136A 'Animalis enim homo' (1 Cor 2:14 'autem'), @0136A 'in lege et prophetis plurimis de me' (Lc 24:44 'psalmis'), @0136D 'Vidit eos laborantes remigando' (Mc 6:48 'videns ... in remigando') -- four [var:] fired."
+    },
+    {
+      "pages": "archive p.74 / gallica f69",
+      "cols": "0137A-0137C",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "Nothing attributable to Migne beyond one VERS.-dash disagreement: @0137A archive 'VERS. 28. Domine, si tu es.' bare, Gallica and twin 'VERS. 28. -- Domine, si tu es.'. CONFIRMED on both: @0137B Migne prints the question mark on 'cur ergo Arius creaturam esse perducat?' and it rides. My range ends at the close of VERS. 36 (0137C); CAPUT XV opens below it on the same column and belongs to the next stint."
+    }
+  ],
+  "refuted_candidates": [
+    {"col": "0124A", "archive": "(Ose. iv)", "gallica": "(Ose. vi)", "twin": "(Ose. VI)"},
+    {"col": "0124B", "archive": "saderdotes", "gallica": "sacerdotes", "twin": "sacerdotes"},
+    {"col": "0124D", "archive": "trangressor", "gallica": "transgressor", "twin": "transgressor"},
+    {"col": "0125C", "archive": "extinguit", "gallica": "exstinguit", "twin": "exstinguit"},
+    {"col": "0125D", "archive": "extincto / extinxit", "gallica": "exstincto / exstinxit", "twin": "exstincto / exstinxit"},
+    {"col": "0126B", "archive": "Si autem ego spiritu Dei", "gallica": "Si autem ego in spiritu Dei", "twin": "Si autem ego in spiritu Dei"},
+    {"col": "0126C", "archive": "Unde alibi ;", "gallica": "Unde alibi :", "twin": "Unde alibi:"},
+    {"col": "0126D", "archive": "Domum illus", "gallica": "Domum illius", "twin": "Domum illius"},
+    {"col": "0128A", "archive": "Beelzebud", "gallica": "Beelzebub", "twin": "Beelzebub"},
+    {"col": "0130A", "archive": "(RAB).", "gallica": "(RAB.)", "twin": "(RAB.)"},
+    {"col": "0130B", "archive": "quia mentibus hominum", "gallica": "quia a mentibus hominum", "twin": "quia a mentibus hominum"},
+    {"col": "0130C", "archive": "probitas a nimi", "gallica": "probitas animi", "twin": "probitas animi"},
+    {"col": "0131A", "archive": "cruxiferunt", "gallica": "crucifixerunt", "twin": "crucifixerunt"},
+    {"col": "0131B", "archive": "bene regunt.", "gallica": "bene regunt (no stop)", "twin": "bene regunt (no stop)"},
+    {"col": "0133A", "archive": "surrexit et accendit in coelum", "gallica": "surrexit et ascendit in coelum", "twin": "surrexit et ascendit in coelum"},
+    {"col": "0133D", "archive": "carnis testitudine / Andraeas", "gallica": "carnis testudine / Andreas", "twin": "carnis testudine / Andreas"},
+    {"col": "0134A", "archive": "quiquid (x2, 0134A and 0134B)", "gallica": "quidquid", "twin": "quidquid"},
+    {"col": "0136D", "archive": "duitinae", "gallica": "diutinae", "twin": "diutinae"}
+  ],
+  "witness_disagreements_left_alone": [
+    {"col": "0125A", "archive": "accipiendum", "gallica": "accipendum", "twin": "accipendum", "verdict": "press variant, both clean -- crux only, no [sic:], no patch (launch brief §6)"},
+    {"col": "0127C", "archive": "VERS. 33. --", "gallica": "VERS. 33.", "twin": "VERS. 33.", "verdict": "dash; twin follows Gallica, left alone"},
+    {"col": "0128A", "archive": "VERS. 37. --", "gallica": "VERS. 37.", "twin": "VERS. 37.", "verdict": "dash; twin follows Gallica, left alone"},
+    {"col": "0128D", "archive": "Viri Ninivitae.", "gallica": "Viri Ninivitae,", "twin": "Viri Ninivitae.", "verdict": "terminal mark; twin follows the archive, left alone"},
+    {"col": "0130A", "archive": "VERS. 2.", "gallica": "VERS. 2. --", "twin": "VERS. 2.--", "verdict": "dash; twin follows Gallica, left alone"},
+    {"col": "0130D", "archive": "VERS. 13.", "gallica": "VERS. 13. --", "twin": "VERS. 13.--", "verdict": "dash; twin follows Gallica, left alone"},
+    {"col": "0132A", "archive": "VERS. -- 28. Vis imus.", "gallica": "VERS. 28. -- Vis, imus.", "twin": "VERS. 28.-- Vis, imus.", "verdict": "dash transposed and comma lost on the archive; twin follows Gallica, left alone"},
+    {"col": "0133C", "archive": "Israël", "gallica": "Israel", "twin": "Israel", "verdict": "diaeresis; twin follows Gallica, left alone"},
+    {"col": "0136B", "archive": "VERS. 22. --", "gallica": "VERS. 22.", "twin": "VERS. 22.", "verdict": "dash; twin follows Gallica, left alone"},
+    {"col": "0137A", "archive": "VERS. 28.", "gallica": "VERS. 28. --", "twin": "VERS. 28.--", "verdict": "dash; twin follows Gallica, left alone"}
+  ],
+  "confirmed_on_both_witnesses": [
+    {"col": "0131A", "reading": "Excaevavit", "verdict": "[sic:] FIRED -- non-word, both witnesses, verbatim in our twin"},
+    {"col": "0135B", "reading": "Constristatus", "verdict": "[sic:] FIRED -- non-word, both witnesses, verbatim in our twin"},
+    {"col": "0130C", "reading": "Sexagesimum", "verdict": "TEI patch 1 -- our twin has the non-word Scaagesimum"},
+    {"col": "0134A", "reading": "ad coelum trahit (no comma)", "verdict": "TEI patch 2 -- our twin inserts a comma"},
+    {"col": "0134D", "reading": "Quod ergo ait :", "verdict": "TEI patch 3 -- our twin prints a semicolon"},
+    {"col": "0131B", "reading": "bene regunt with no terminal stop", "verdict": "our twin is right; the archive's stop is refuted. No patch, no marker."}
+  ]
+}

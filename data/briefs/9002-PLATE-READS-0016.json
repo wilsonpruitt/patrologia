@@ -1,0 +1,75 @@
+{
+  "note": "STINT-SCOPED plate reads for 9002 (Glossa ordinaria, Ev. sec. Matthaeum), chunks 0016-0021, cols 0107C-0123D. Written by the 0016-0021 translation stint per launch-brief §1. NOT to be written into data/plate-reads.json by this stint -- peers run concurrently; the orchestrator merges.",
+  "work": "9002",
+  "series": "pl",
+  "volume": 114,
+  "stint": "0016-0021",
+  "range": "0107C-0123D",
+  "date": "2026-09-05",
+  "witnesses": {
+    "archive": {
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "calibration": "corner numbers read FIRST on every page, before any other reading: p.59 read 107/108, p.60 109/110, p.61 111/112, p.62 113/114, p.63 115/116, p.64 117/118, p.65 119/120, p.66 121/122, p.67 123/124 -- all as the map predicts",
+      "render": "pdftoppm -f N -l N -r 300 -png",
+      "pages": "59-67"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "page_map": "f = (column + 1) / 2",
+      "calibration": "corner numbers read FIRST on every leaf: f54 read 107/108, f55 109/110, f56 111/112, f57 113/114, f58 115/116, f59 117/118, f60 119/120, f61 121/122, f62 123/124 -- all as the map predicts",
+      "endpoint": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/2000,/0/native.jpg (User-Agent required)",
+      "leaves": "f54-f62"
+    }
+  },
+  "headline": "EVERY page of this range was read on BOTH witnesses, nine pages against nine leaves. ZERO [sic:] are fireable and none was fired. Seven defects were found and ALL SEVEN are Corpus Corporum's, filed as TEI patches. Eight archive-only candidates and one Gallica-only candidate were refuted by the other copy. Two further sites are PRESS VARIANTS between the two printings (terminal stops at 0121D and 0122A) and take no marker.",
+  "structural_finding": "Launch-brief §6 is confirmed on a second, non-overlapping range. The archive copy again manufactured readings Gallica refutes -- 8 of them here (curabo CUM for eum; two commas for full stops at 0112D; VERS. --27 for VERS. 27.--; VERS. 25.-- for VERS. 25.; VERS. 24. for VERS. 21.; and two supplied terminal stops) -- against ONE that ran the other way (Gallica's 'ut sni' for 'ut sui' at 0112D). Read on the archive alone this file would have carried eight confident claims about Migne's type, seven or eight of them false, INCLUDING A CHANGED VERSE NUMBER at 0122B, which is exactly the 8950 class: over-inking filled the counter of a 1 and made VERS. 21 read as VERS. 24.",
+  "reads": [
+    {
+      "from": "0107C", "to": "0108D", "depth": "full", "pages": "archive p.59 / Gallica f54",
+      "found": "Corner numbers 107/108 on both; running head WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA. CAPUT VII. opens in the left column. CONFIRMED ON BOTH WITNESSES: Migne prints a mark between 'temere judicant' and 'haec judicia prohibet' which our twin has lost entirely -- the archive prints an unambiguous COLON, Gallica a single mid-height dot (an under-inked colon). TEI patch 1. Also confirmed on both: 'Salutem in eo quod temere judicant in oculo habent trabem' at 0108B, an accusative governed by nothing -- Migne's, rendered literally, crux logged. No foot-of-page apparatus on either copy of this page."
+    },
+    {
+      "from": "0109A", "to": "0110D", "depth": "full", "pages": "archive p.60 / Gallica f55",
+      "found": "Corner numbers 109/110. NOTHING DIVERGENT ON EITHER COLUMN -- a checked zero, recorded as a result. Both witnesses agree with our twin line for line, including 'nondum est foetus persecutus' (0109B), 'Domini enim est terra (Psal. XXIII)' with Migne's inserted enim (0109C), and the three-times-repeated 'Attendite' with its colon-after-colon at 0110B. The line breaks of the two copies happen to coincide on this page, which they do not elsewhere in the range."
+    },
+    {
+      "from": "0111A", "to": "0112D", "depth": "full", "pages": "archive p.61 / Gallica f56",
+      "found": "Corner numbers 111/112. THREE archive-only candidates, all refuted by Gallica, our twin right at each: 'prodantur inviti, Nemini dixeris' and 'factus sit, Vade' -- the archive prints COMMAS where Gallica and our twin print full stops (0112D); and 'VERS. --27.' with the dash before the number where Gallica prints the normal 'VERS. 27. --' (0112B). ONE Gallica-only candidate refuted by the archive: Gallica prints 'ut sni in magnis' for 'ut sui' (0112D) -- the traffic runs both ways. CONFIRMED ON BOTH WITNESSES and rendered literally: 'Tetigit. Non quia sine tactu sanare posset' (0112D), where the argument wants a second non and neither copy prints one; and 'quae sensum rigorem fidei emollit' (0112A), a double accusative."
+    },
+    {
+      "from": "0113A", "to": "0114D", "depth": "full", "pages": "archive p.62 / Gallica f57",
+      "found": "Corner numbers 113/114. TWO archive-only candidates refuted by Gallica, our twin right at both: 'Ego veniam et curabo CUM' for 'eum' (0113A); and 'VERS. 25. -- Suscitaverunt' with a dash where Gallica and our twin print the bare 'VERS. 25.' (0114B). CONFIRMED ON BOTH WITNESSES: 'si impietatis lepra DISCENDAT' (0113A) -- an attested medieval spelling, no marker, crux logged; 'Et ecce magno' (0114D), the [var:] on Mt 8:32; and the wrong Psalm siglum '(Psal. VIII)' on Ps 18:13 at 0113C, which is Migne's citing practice and passes through verbatim."
+    },
+    {
+      "from": "0115A", "to": "0116D", "depth": "full", "pages": "archive p.63 / Gallica f58",
+      "found": "Corner numbers 115/116. CONFIRMED ON BOTH WITNESSES: 'Non enim veni VOCARE justos' (0116B), where our twin prints the non-word 'vocure' -- Corpus Corporum's corruption, TEI patch 2, and the English renders vocare. Both witnesses also confirm 'Euntes autem DICITE' (0116B) against the Clementine's discite, which is the [var:] fired there; and the Greek Τέλος at 0115D, printed on both. No other divergence on either column."
+    },
+    {
+      "from": "0117A", "to": "0118D", "depth": "full", "pages": "archive p.64 / Gallica f59",
+      "found": "Corner numbers 117/118. TWO CONFIRMED CORPUS CORPORUM CORRUPTIONS: 'Tibicines sunt carmen lugubre CANENTES' (0117A), where our twin prints the non-word 'canantes' -- TEI patch 7; and 'NEQUITIAM ejus supprimit Dominus' (0118A), where our twin prints the non-word 'neguitiam' -- TEI patch 3. Both read on both witnesses. CONFIRMED ON BOTH and rendered as printed: 'de domo principis in TUAM domum' (0117B), a second-person possessive four words before 'sua domus' -- Migne's, crux logged; and 'Appropinquabit regnum coelorum' (0118A), the [var:] on Mt 10:7. The Greek Κωφὸς at 0117C prints on both."
+    },
+    {
+      "from": "0119A", "to": "0120D", "depth": "full", "pages": "archive p.65 / Gallica f60",
+      "found": "Corner numbers 119/120. TWO CONFIRMED CORPUS CORPORUM DEFECTS: 'quo dictum est : In via gentium' (0119A), where our twin prints a spurious full stop before the colon ('est.:') -- TEI patch 4; and 'Zebub, musca, etc.,' (0119B), where our twin prints a full stop for Migne's comma -- TEI patch 5. Both read on both witnesses. CONFIRMED ON BOTH: Migne prints 'In VIA gentium' here against his own 'In VIAM gentium' at 0116A -- his own orthographic variation within one work, declined; and 'Dipondio enim est ex duobus assibus' (0119C), an ablative standing as subject, rendered as printed."
+    },
+    {
+      "from": "0121A", "to": "0122D", "depth": "full", "pages": "archive p.66 / Gallica f61",
+      "found": "Corner numbers 121/122. ⛔ THE VERSE-NUMBER SITE: the archive prints 'VERS. 24. -- Vae tibi' at 0122B and GALLICA PRINTS 'VERS. 21.' -- over-inking has filled the counter of the 1. Our twin has 21, which is also the correct address for Mt 11:21. A verse address may not be altered on one witness, and this is why. CONFIRMED CORPUS CORPORUM CORRUPTION: 'RESPONDENS Jesus. Respondens tacitae objectionis' (0122D), where our twin prints the non-word 'Respodens' -- TEI patch 6, read on both witnesses. TWO PRESS VARIANTS, both clean on both copies and neither anyone's defect: the archive prints a terminal full stop after 'et hujusmodi' (0121D) and after 'sed praedicit ventura' (0122A) where Gallica prints none; our twin follows Gallica, and Pattern 8 forbids supplying either. CONFIRMED ON BOTH: 'cum et jejunium et saturitatem PETITUR spernunt' (0121D) -- a finite passive with no grammatical slot, Migne's, rendered as closely as the words allow, crux logged."
+    },
+    {
+      "from": "0123A", "to": "0123D", "depth": "full", "pages": "archive p.67 / Gallica f62",
+      "found": "Corner numbers 123/124 (col. 124 belongs to the next stint; CAPUT XII opens in the archive's left column at 0123D/0124A). CONFIRMED ON BOTH WITNESSES: 'per omnia COOMNIPOTENTEM nota' (0123A) -- a coinage, printed identically on both copies at normal letter spacing, no marker, rendered 'co-omnipotent'; and 'operatur in COELIS (I Cor. IV)' at 0123D, the [var:] on 2 Cor 4:17's 'in nobis', with Migne's own siglum I Cor. IV passing through verbatim. Nothing else divergent on either column."
+    }
+  ],
+  "markers_fired_in_range": {
+    "sic": 0,
+    "var": 6,
+    "cj": 0,
+    "d": 0,
+    "ed": 0
+  },
+  "tei_patches_filed": 7,
+  "patches_file": "data/briefs/9002-PENDING-TEI-PATCHES-0016.md",
+  "cruces_file": "src/english/9002/cruces-0016.md"
+}

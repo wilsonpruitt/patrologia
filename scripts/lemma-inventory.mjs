@@ -260,7 +260,19 @@ for (const f of files) {
       // narrow regex would have disarmed the ownership test for more than half of even the
       // spans it did see. Trailing filler is dots and space ONLY, so it cannot swallow prose.
       const before = line.slice(cursor, a);
-      const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+(?:\s*[-,]\s*[IVXLCDM\d]+)*\.--[\s.]*)$/);
+      // ⛔⛔ THE `.--` IS NOT ALWAYS THERE. Until 2026-09-05 this pattern REQUIRED it, so a verse
+      // lemma Migne addressed `VERS. 25. *Suscitaverunt.*` — no dash — was filed as an ordinary
+      // second lemma, and because the ⚑ ownership test fires only on a span carrying a VERS.
+      // address, THE TEST SILENTLY SKIPPED IT. Found by the 9002 stint that counted its own verse
+      // lemmata against the brief and got 134 where a mechanical read gave 132.
+      // ⚑ Measured on 9002: 8 spans work-wide. Six cleared in Matthew's own chapter, and the two
+      // that did not were both real findings the ⚑ would otherwise never have surfaced — @0114C
+      // *Gerazenorum* against the Clementine's *Gerasenorum* (four times, all three synoptics), and
+      // @0172D, a comma-only artefact (*Peccavi, tradens*). So the miss was not cosmetic: it hid
+      // one genuine candidate per four missed spans.
+      // ⚑ Same class as CAPUT PRIMUM, PSALMUS and CAP. XLIV. before it — FOURTH time this file has
+      // assumed one of Migne's addressing forms is the only one. The dash is now optional.
+      const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+(?:\s*[-,]\s*[IVXLCDM\d]+)*\.(?:--)?[\s.]*)$/);
       cursor = b + 1;
       rows.push({ file: f, band, caput, openEnded, vers: vers ? vers[1].trim().replace(/[\s.]+$/, '') : '', span });
     }

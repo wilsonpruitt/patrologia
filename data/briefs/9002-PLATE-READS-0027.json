@@ -1,0 +1,148 @@
+{
+  "work": "9002",
+  "title": "Glossa ordinaria — Evangelium secundum Matthaeum (PL 114)",
+  "stint": "0027-0031",
+  "columns": "0137C-0150A",
+  "recordedBy": "translation stint 0027-0031, 2026-09-05",
+  "maps": {
+    "archive": {
+      "id": "patrologiaecurs06saingoog",
+      "path": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "formula": "pdfPage = (column + 11) / 2",
+      "confirmedThisSession": "p.74 corners read 137 / 138",
+      "render": "pdftoppm -f N -l N -r 300 -png"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "formula": "f = (column + 1) / 2",
+      "confirmedThisSession": "f69 corners read 137 / 138",
+      "fetch": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/2400,/0/native.jpg (User-Agent required)"
+    }
+  },
+  "summary": {
+    "pagesRead": 7,
+    "columnsRead": 14,
+    "bothWitnesses": true,
+    "cornerNumbersCheckedFirst": true,
+    "archiveOnlyCandidatesRaised": 17,
+    "archiveOnlyCandidatesRefutedByGallica": 17,
+    "archiveOnlyCandidatesConfirmed": 0,
+    "ourTeiDivergencesFromBothPlates": 4,
+    "footOfPageApparatusFound": 0,
+    "sicFired": 0,
+    "varFired": 7,
+    "cjFired": 1
+  },
+  "reads": [
+    {
+      "page": 74,
+      "gallicaLeaf": 69,
+      "columns": ["0137", "0138"],
+      "cornersRead": "137 / 138",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "col 137 foot: signature line PATROL. CXIV. — col 138 foot: printer's signature 5. No numbered notes, no asterisk layer, on either witness.",
+      "findings": [
+        "@0137D archive prints 'VERS. 3 —' with no period after the digit; Gallica prints 'VERS. 3. —'. Archive ink. Our TEI right.",
+        "@0138A-0138D read clean on both; our TEI agrees at every word checked (Quicunque dixerit, Vel tibi proderit:, idolothitum, Σκάνδαλον, Haereticum hominem ... devita)."
+      ]
+    },
+    {
+      "page": 75,
+      "gallicaLeaf": 70,
+      "columns": ["0139", "0140"],
+      "cornersRead": "139 / 140",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "nothing below the text on either column, on either witness",
+      "findings": [
+        "@0140B archive appears to read 'palman' for palmam; Gallica prints 'palmam'. Archive ink. Our TEI right.",
+        "@0140C archive appears to read 'interpratur' for interpretatur; Gallica prints 'interpretatur'. Archive ink. Our TEI right.",
+        "@0140B archive shows split letterspacing 'utriu sque' and 'pr acceptorum'; Gallica prints 'utriusque' and 'praeceptorum'. Archive ink/spacing. Our TEI right.",
+        "@0139B Gallica prints 'Israël' with diaeresis, archive 'Israel'; a diacritic, not a divergence."
+      ]
+    },
+    {
+      "page": 76,
+      "gallicaLeaf": 71,
+      "columns": ["0141", "0142"],
+      "cornersRead": "141 / 142",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "nothing below the text on either column, on either witness",
+      "findings": [
+        "@0142A BOTH witnesses print 'alii autem Eliam' in the re-quoted Mt 16:14 lemma; our TEI prints the non-word 'Etiam'. OUR corruption — TEI patch filed. The English renders the plate ('Elias').",
+        "@0142A BOTH witnesses print 'a Domino sortiti sunt apostoli, sic Simoni'; our TEI inserts a comma after 'sunt'. OUR corruption (punctuation) — TEI patch filed.",
+        "@0142B archive appears to read 'quodcumque' twice; Gallica prints 'quodcunque' twice, with our TEI. Not adopted; declined.",
+        "@0142C archive prints 'Jesus-Chri-|stus' with a compound hyphen; Gallica prints 'Jesus Chri-|stus'. Line-break setting, no divergence.",
+        "@0141C archive shows 'Qnid ergo' (Q with a filled counter); Gallica 'Quid'. Archive ink."
+      ]
+    },
+    {
+      "page": 77,
+      "gallicaLeaf": 72,
+      "columns": ["0143", "0144"],
+      "cornersRead": "143 / 144",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "nothing below the text on either column, on either witness",
+      "findings": [
+        "@0143C archive appears to read 'debet esset Petrus'; Gallica prints 'debet esse Petrus'. Archive ink. Our TEI right.",
+        "@0143D BOTH witnesses print 'nondum apparuit quod erimus'; our TEI prints the non-word 'enimus'. OUR corruption — TEI patch filed. The English renders the plate ('what we shall be').",
+        "@0144A archive appears to read 'Spiritus sanctis gratia'; Gallica prints 'Spiritus sancti gratia'. Archive ink. Our TEI right.",
+        "@0144D archive appears to read 'viderant recessisset'; Gallica prints 'recessisse'. Archive ink. Our TEI right."
+      ]
+    },
+    {
+      "page": 78,
+      "gallicaLeaf": 73,
+      "columns": ["0145", "0146"],
+      "cornersRead": "145 / 146",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "nothing below the text on either column, on either witness",
+      "findings": [
+        "@0145C archive prints 'VERS. 24. Quid tibi videtur' with no em-dash; Gallica prints 'VERS. 24. — Quid tibi videtur'. Archive ink. Our TEI right.",
+        "@0146B BOTH witnesses print 'qui non perseverat in ira : Jesus non meminit : visam mulierem non cupit'. 'Jesus' is Migne's own type on both copies — no [sic:] (real word, occupies its slot); a [cj:] fired, conjecture 'laesus'.",
+        "@0146C archive appears to read 'Videte ne condemnatis'; Gallica prints 'Videte ne contemnatis'. Archive ink. Our TEI right.",
+        "@0146C archive prints '(HIER)' without the point; Gallica '(HIER.)'. Archive ink. Our TEI right.",
+        "@0146D BOTH witnesses print 'Nonne relinquet' (future) and 'Gaudebit' (future). Migne's, confirmed twice."
+      ]
+    },
+    {
+      "page": 79,
+      "gallicaLeaf": 74,
+      "columns": ["0147", "0148"],
+      "cornersRead": "147 / 148",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "col 147 foot: a short printer's rule only. col 148: nothing. No apparatus on either witness.",
+      "findings": [
+        "@0147A archive appears to read 'vel ab abjiciendum contumacem'; Gallica prints 'vel ad abjiciendum'. Archive ink. Our TEI right.",
+        "@0147B BOTH witnesses print the lemma 'Ibi sum in me.' (Mt 18:20 has 'ibi sum in medio eorum'). Migne's — [var:] fired.",
+        "@0148B archive appears to read 'Disciplicet peccatoribus'; Gallica prints 'Dis-|plicet'. Archive ink. Our TEI right.",
+        "@0148D BOTH witnesses print 'qui, cum possent esse viri'; our TEI prints 'eum possent'. OUR corruption — TEI patch filed. The English renders the plate.",
+        "@0148D archive appears to read 'computantur etiam hic qui'; Gallica prints 'etiam hi qui'. Archive ink. Our TEI right."
+      ]
+    },
+    {
+      "page": 80,
+      "gallicaLeaf": 75,
+      "columns": ["0149", "0150"],
+      "cornersRead": "149 / 150",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "nothing below the text on either column, on either witness",
+      "findings": [
+        "@0149B archive appears to read 'Dicit et adolescens'; Gallica prints 'Dicit ei adolescens'. Archive ink. Our TEI right, and the [var:] against Vulg. 'illi' rests on Gallica plus our twin.",
+        "@0149A archive capitalises 'Contra non ait'; Gallica prints 'contra non ait'. Archive ink. Our TEI right.",
+        "@0149C archive appears to read 'VERS. 28. — In generatione'; Gallica prints 'In regeneratione'. Archive ink. Our TEI right — and this one would have manufactured a divergence against Mt 19:28 if read on one witness.",
+        "@0150A BOTH witnesses print the citation '(Luc. XV)' on 'Multi autem erunt primi' (the words are Mt 19:30 / Mc 10:31; the Lucan parallel is Lc 13:30). Migne's reference, passed through verbatim."
+      ]
+    }
+  ],
+  "asteriskLayerCheck": {
+    "result": "checked zero",
+    "note": "Feet of all seven pages inspected on BOTH copies for the numbered [cn: n | ...] layer and the raised-asterisk [cn: * | ...] layer. Nothing but the volume signature (PATROL. CXIV. under col 137), a printer's signature 5 under col 138, and a short rule under col 147. No apparatus anywhere in cols 0137-0150."
+  }
+}
