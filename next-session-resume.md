@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-05 — 8950 *LIBER GENESIS* IS IN FLIGHT (Wilson: Genesis next, not Matthew)
+## ▶▶▶▶▶ START HERE 2026-09-05 — 8950 *LIBER GENESIS* ✅ SHIPPED · ✅ DEPLOYED + SMOKE-TESTED · ✅ PUSHED
 
 **Wilson's call: Genesis instead of Matthew. Approved Opus + the spot check.** 8967 Psalms shipped,
 deployed and pushed earlier the same day, so the queue was genuinely at the next volume.
@@ -11,31 +11,32 @@ translation at the runbook's recalibrated ~40K/chunk, plus ~0.3–0.5M for the b
 (budget it: lemma-and-gloss is the richest genre for that class) and ~0.3M for patches, plate reads
 and the merge.
 
-### Where the work stands (updated as stints land)
-- ✅ Stints 1–3 DONE: **chunks 0000–0011, 16,975 Latin words, verify-clean.** 13 `[var:]`, **zero `[sic:]`**.
-- ⬜ Stints 4 (0012–0018) and 5 (0019–0023) RUNNING. Stint 2 resumed for two lemmata its brief lacked.
-- ⬜ **Four stints left to launch: 24-30, 31-35, 36-41, 42-46.**
-- ✅ `plate-gate.mjs 8950` is **GREEN** — 10 recorded reads covering every marker.
-- ⛔ **DEFERRED ON PURPOSE — the TEI patches.** ~20 twin/plate divergences are filed in
-  `data/briefs/8950-PENDING-TEI-PATCHES-0008.md` plus `recerunt`→`fecerunt` at 0069B, which I
-  confirmed at the plate on p.40. **Do not apply them while stints are running**: applying means
-  re-chunking, and re-chunking rewrites every chunk, including the ones agents are reading. Apply
-  after the last stint lands, then re-run `inject-plate-notes` and re-verify. **Seven `[sic:]` are
-  OWED once the patches land** and are named in that file — the 0008–0011 stint could not fire them
-  because our twin had already tidied the plate's defect away, so the marker would fail the
-  verbatim-substring guard.
+### Where the work stands — DONE
 
-- ✅ Chunked, validated (460 column marks, 722 notes, words conserved).
-- ✅ **Plate spot check DONE and it was NOT a checked zero** — see below. `coverage.json` = `partial`,
-  2 notes recovered, 1 injected.
-- ✅ Lemma inventory rebuilt twice: **1,811 spans, 1,013 ✓ / 2 ⚑ / 391 ⚠ / 405 single-word** (the
-  second rebuild recovered 21 spans a pairing bug had been dropping — see below).
-- ✅ Split into **nine stints**, balanced by words, all 1,811 spans allocated:
-  `0-3 · 4-7 · 8-11 · 12-18 · 19-23 · 24-30 · 31-35 · 36-41 · 42-46`.
-- ⬜ Remaining pipeline: `verify-english`, cruces merge, blind polarity read, patch pass, plate gate,
-  preflight, deploy.
+Corpus **157 → 158**, `/glossa` **51 → 52 of 58**. Live at `migne.app/pl/113/liber-genesis/`,
+aliased and smoke-tested on the real domain (work page, cruces, `/glossa`, `/authors`,
+`/scripture`, `/latina`, landing, resolver `/pl/113/141b` — all 200, zero raw brackets).
 
-⛔ Nothing is deployed and nothing is pushed for 8950. `master` is ahead of `origin/master`.
+**47 chunks, ~46,600 Latin words → ~70,800 English (1.52×), nine Opus stints.** Badge **New English
+translation** — and that is a fact, not caution: **Emmaus Academic published the Glossa on GENESIS
+in English in 2023.** `workStatus` left null and untouched; only `englishState` set to `ours`.
+
+Apparatus: **96 `[var:]` · 2 `[sic:]` · 8 `[ed:]` · 1 `[cj:]` · 1 `[nt:]`.** 50 plate reads
+covering **96 of 116 columns (83%)**; every marker stands on a column that was read. Polarity
+recorded: 47 chunks, 17 sites, 5 ours. 21 TEI patches applied, all two-witness confirmed.
+
+⚠ **Open, and worth a later session — none blocks anything:**
+- **Three `[sic:]` candidates unfired**: `dilicta` @0099C, `uque ad` @0131C, `virginet` @0130D.
+  All three were filed by their stints as OUR corruptions and Gallica shows they are **Migne's**.
+- **One convention wants a single ruling, not five patches**: Migne sets lowercase chapter numerals
+  (`Joan. v`, `II Cor. ii`, `Jer. v`, `Marci xix`) which the digitization capitalizes throughout.
+  One is patched (0103B); the rest are not.
+- **Two Hebrew readings want a Hebraist** before anyone trusts the letters: 0155B reads `ולאם`
+  where `אולם` was expected, and 0159B has *he* where the MT has *ḥet*. Presence is not in doubt.
+- ⛔ **There is no build-all script, and preflight cannot see a stale index.** The first deploy of
+  this work shipped with Genesis missing from `/glossa` because three builders were run and nine
+  were needed; preflight passed 6 of 6 over that half-built site, because it checks that a built
+  page EXISTS, not that the indexes listing it were regenerated. **Fix before the next work ships.**
 
 ### ⭐⭐⭐ THE HEADLINE: THE LEMMA INSTRUMENT WAS BLIND ON THIS BOOK, AND IT FAILED BY GOING QUIET
 
