@@ -226,3 +226,34 @@ our Latin first, then both plates, and settle it.**
 full fidelity routinely. If you find yourself writing "context budget" at chunk 2, you are
 repeating a documented failure pattern — push through your full batch. **If a tool call fails,
 that is transport, not a limit you hit: retry, and do not shorten your work because of it.**
+
+---
+
+## §6. ⭐⭐⭐ ADDENDUM, 2026-09-05 — MEASURED BY THE 0000–0005 STINT ON ITS OWN RANGE
+
+**The two copies of PL 114 are two PRINTINGS, not two photographs.** Their line breaks diverge
+from the first page of this work (archive p.37 / Gallica f32). That is a stronger statement than
+"we have a second scan", and it changes what the second witness is *for*: it is not a better
+photograph of the same ink, it is an independent setting.
+
+⛔⛔ **AND IN THIS WORK THE ARCHIVE COPY IS THE WORSE WITNESS. THE NUMBER IS 12 TO 1.** Over eight
+pages the archive copy manufactured **twelve letter-level readings that Gallica refutes** —
+`memorian` · `sa cramentum` · `Aminabad` · `Eclesiam` · `ei` for `et` · `ressuscitans` ·
+`Solomonen` · `lector` · `dicat ur` · `Henoch` · and two more — against **one** it confirms.
+
+⚑ **Read on the archive alone, that stint's file would have carried a dozen confident claims
+about Migne's type, and twelve of them would have been false.** This is the 8950 episode
+reproduced prospectively, on a different volume, by a stint that had been warned. **Do not skip
+the Gallica fetch because the archive page looks clean.** A clean-looking over-inked letter is
+precisely the thing that has fooled every reader who has met it.
+
+⭐ **The corollary, also from that stint: a disagreement between the copies is not automatically
+the archive's fault.** @0073A Gallica prints the lemma `Bethehem` and the archive prints
+`Bethlehem`, **both clean, our twin following Gallica**. That is 8950's `Mititte`/`Mittite` —
+a press variant, **no `[sic:]`, no patch, crux only.** Two printings can simply differ, and when
+both are clean neither is a defect to accuse anyone of.
+
+⚑ Also established on that range, for your prior: **6 `[var:]`, zero `[sic:]`, zero `[cj:]`** in
+5,831 words, and **three TEI patches, all Corpus Corporum's, none Migne's** (@0068D a lost full
+stop · @0071D `oerum` · @0076C `pesecutio`). Zero `[sic:]` is what this class looks like when it
+is measured rather than guessed at.

@@ -1,0 +1,69 @@
+{
+  "note": "STINT-SCOPED plate reads for 9002 (Glossa ordinaria, Ev. sec. Matthaeum), chunks 0000-0005, cols 0063A-0078D. Written by the 0000-0005 translation stint per launch-brief §1. NOT to be written into data/plate-reads.json by this stint -- peers run concurrently; the orchestrator merges.",
+  "work": "9002",
+  "series": "pl",
+  "volume": 114,
+  "stint": "0000-0005",
+  "range": "0063A-0078D",
+  "date": "2026-09-05",
+  "witnesses": {
+    "archive": {
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "calibration": "corner numbers read FIRST on every page; p.37 read 63/64 and p.44 read 77/78, both as the map predicts",
+      "render": "pdftoppm -f N -l N -r 300 -png",
+      "pages": "37-44"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "page_map": "f = (column + 1) / 2",
+      "calibration": "corner numbers read FIRST on every leaf; f32 read 63/64 and f39 read 77/78, both as the map predicts",
+      "endpoint": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/1400,/0/native.jpg (User-Agent required)",
+      "leaves": "f32-f39"
+    }
+  },
+  "headline": "EVERY page of this range was read on BOTH witnesses. Zero [sic:] are fireable. Three defects found, ALL of them Corpus Corporum's, filed as TEI patches. Twelve archive-only candidates were refuted by Gallica. One genuine PRESS VARIANT between the two copies (0073A Bethehem/Bethlehem) takes no marker under the two-witness rule.",
+  "structural_finding": "THE TWO COPIES ARE TWO PRINTINGS, NOT TWO PHOTOGRAPHS. Their line breaks differ from the first page of the range onward (p.37/f32: the archive breaks the Baruch praefatio after 'Propter / notitiam', Gallica after 'Propter' with 'notitiam' opening the right column). This is the 8950 'Mititte/Mittite' situation as a standing property of this volume, and it means a disagreement between the copies is not automatically the archive's fault. It also means the archive copy of PL 114 is markedly the WORSE witness in this range: it manufactured 12 letter-level readings that Gallica refutes, against 1 that Gallica confirms.",
+  "reads": [
+    {
+      "from": "0063A", "to": "0064D", "depth": "full", "pages": "archive p.37 / Gallica f32",
+      "found": "Work division page: five stub entries and PROPHETIA BARUCH close above a full-width rule, Matthew opens below it. The asterisk-keyed foot note on this page belongs to Baruch (8996) and was NOT adopted. No foot-of-page apparatus belonging to Matthew. Archive prints 'ad memorian reliquit'; GALLICA PRINTS 'memoriam' and our twin agrees -- archive-only, refuted, no marker."
+    },
+    {
+      "from": "0065A", "to": "0066D", "depth": "full", "pages": "archive p.38 / Gallica f33",
+      "found": "Running head confirmed 'GLOSSA ORDINARIA. -- EVANG. MATTH.' FOUR archive-only candidates, ALL REFUTED BY GALLICA, our twin right at each: 'sa cramentum' (split type) vs sacramentum; 'Aminabad' vs Aminadab; 'Eclesiam' vs Ecclesiam; 'ei novissima mors' vs 'et'. Two further archive-only oddities also refuted: 'gentes Domini' (Gallica and Ps 112:4 read Dominus) and 'incipit ad exordio' (Gallica reads 'ab exordio')."
+    },
+    {
+      "from": "0067A", "to": "0068D", "depth": "full", "pages": "archive p.39 / Gallica f34",
+      "found": "CONFIRMED ON BOTH WITNESSES: 'alter in principio sequentis. Sed mystice' -- Migne prints a FULL STOP after sequentis which our twin has lost. TEI patch filed. Gallica's 'tesseratlecadis' is ink; the archive prints tesseradecadis, as our twin does. Archive prints 'generandus.' with a terminal stop at 0067A where Gallica and our twin have none -- archive-only, declined."
+    },
+    {
+      "from": "0069A", "to": "0070D", "depth": "full", "pages": "archive p.40 / Gallica f35",
+      "found": "Both witnesses confirm the two readings a [var:] rests on: 'Ipse invocavit me' (0069A, perfect for the Vulgate's future invocabit) and 'Ecce Deus adjuvit me' (0069B, perfect for the Vulgate's present adjuvat, beside Migne's own etymology 'Adjutus'). THREE archive-only oddities refuted by Gallica, our twin right at each: 'ressuscitans' vs resuscitans; 'Mathan, qui per Solomonen descendit' vs 'Salomonem'; 'suspicio lector.' vs 'lectori'. Both witnesses confirm the doubled 'Non quod postea convenerint' at 0070C -- it is Migne's, and the two copies have distinct continuations, so it is a splice of two glosses, not an eye-skip."
+    },
+    {
+      "from": "0071A", "to": "0072D", "depth": "full", "pages": "archive p.41 / Gallica f36",
+      "found": "CONFIRMED ON BOTH WITNESSES: 'sic prophetia non necessitatem EORUM facit' at 0071D, where our twin prints the non-word 'oerum'. Corpus Corporum's corruption; TEI patch filed; the English renders eorum per the PLATE-WHERE-READ rule. Nothing else divergent on either column."
+    },
+    {
+      "from": "0073A", "to": "0074D", "depth": "full", "pages": "archive p.42 / Gallica f37",
+      "found": "PRESS VARIANT, and the only one in the range: at 0073A Gallica prints the lemma 'Bethehem Judae' (no l) and the ARCHIVE prints 'Bethlehem Judae'. Both are clean, legible, normally spaced; the very next line of both copies prints Bethlehem correctly three times. Our twin follows Gallica's printing. NO [sic:] -- it fails the two-witness bar in the same way 8950 @0171D Mititte/Mittite did. Also confirmed on both: 'Explorabat etiam, si rex eorum', 'Rex injustus omnes ministros impios habet' with injustus set in ROMAN between Migne's italics."
+    },
+    {
+      "from": "0075A", "to": "0076D", "depth": "full", "pages": "archive p.43 / Gallica f38",
+      "found": "CONFIRMED ON BOTH WITNESSES: 'incepit in eum PERSECUTIO' at 0076C, where our twin prints the non-word 'pesecutio'. Corpus Corporum's corruption; TEI patch filed. Both witnesses confirm 'Puer natus est nobis' at 0075B (the [var:] on Isa 9:6 Parvulus) and 'quem actum esse hominem intelligunt' at 0075B (a real word, rendered as printed, crux logged). Archive-only and refuted: 'Ex Aegypto, vocavi' with a comma (Gallica and our twin have none); 'VERS. 11. --' with a dash (Gallica and our twin have none). Gallica f38 is faint and foxed but legible throughout."
+    },
+    {
+      "from": "0077A", "to": "0078D", "depth": "full", "pages": "archive p.44 / Gallica f39",
+      "found": "TWO archive-only candidates refuted by Gallica, our twin right at both: 'flere dicat ur' (split type) vs dicatur; 'Helia et Henoch' vs Enoch. Gallica also refutes the archive's 'Juaedorum' (ink). Both witnesses confirm 'ideo Josephus intellexit Judaeam' at 0077D -- a real word, rendered as printed, crux logged. Both confirm the direct question already set behind a colon at 0078B ('Quaeritur: quare non timuit...?'), so Pattern 8b needed no recasting."
+    }
+  ],
+  "foot_of_page_apparatus": "NONE anywhere in cols 0063A-0078D, on either witness, numbered or asterisk-keyed. This agrees with the chunking spot check (pp. 37/47/55/63/70/78/86/94). The one asterisk note on p.37 belongs to Baruch, above the work-division rule, and was not adopted.",
+  "markers_fired_in_range": {
+    "sic": 0,
+    "var": 6,
+    "cj": 0,
+    "d": 0,
+    "columns": ["0067D", "0068C", "0069A", "0069B", "0074B", "0075B"]
+  }
+}
