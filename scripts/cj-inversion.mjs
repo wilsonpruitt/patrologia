@@ -11,6 +11,18 @@
 // "thou canst", "does not admit" against "it admits". Exact-string tests on natural language
 // have that failure mode by construction, and its direction is the dangerous one (silent
 // under-reporting). This version compares CONTENT-WORD STEMS with an overlap threshold.
+//
+// ⛔⛔ AND IT FAILS THE OTHER WAY, WHICH IS WHY THIS SCRIPT SHORTLISTS AND NEVER DECIDES.
+// Stemming erases exactly the contrast a Pattern 18 marker usually exists to record. Verified
+// on 8967 after the Band C repair: every remaining flag is a FALSE POSITIVE, and each is a
+// different inflectional axis the stemmer flattened —
+//   0042 "hath delivered" vs gloss "will deliver"  — TENSE (and that site is the house-form control)
+//   0101 "without ends"   vs gloss "without end"   — NUMBER
+//   0092 "they had gone before the head" vs "the head had gone before" — WHO IS THE SUBJECT
+// A [cj:] marks a printed form whose faithful English misleads, so the printed form and the
+// conjecture differ most often in tense, number, case or person — precisely what a lexical
+// overlap test cannot see. TREAT THE OUTPUT AS A READING LIST. The count it prints is not a
+// measurement of anything and must never be quoted as one.
 import fs from 'node:fs';
 
 const dir = process.argv[3] || 'src/english/8967';
