@@ -565,6 +565,29 @@ meets *bonorem* in italics learns something true about Migne's plate, and the
 conjecture (*honorem*, near-certain) is one click away in the crux. Pattern 7 has
 no exceptions.
 
+#### ⭐⭐ AMENDED BY WILSON, 2026-09-05 — the marker now does the disclosing, so the SENSE may be rendered
+
+**The clause above is superseded for any non-word that carries a `[sic:]`.** Where the
+marker stands, the English **renders the sense the printed form is defective for**, and
+Migne's type sits inside the marker: `Whatsoever [sic: *Quaecunquae*]`, `a people not
+receiving [sic: *sucipientis*]`, `God is said to harm [sic: *Nocere*]`.
+
+**Why the rule moved.** Pattern 7's untranslated-carry was ruled on 2026-07-28 and its
+whole argument was disclosure — *"it leaves the reader no way to know the plate is
+defective."* Pattern 12 was ruled **the same day** and does exactly that job: a `[sic:]`
+tells the reader, in as many words, that the defect is Migne's and not ours. Once the
+marker exists, leaving a hole in the sentence buys no information and costs the reader a
+readable page. Practice had already moved — ~60 markers across two merged bands of 8967
+render the sense — and the ruling ratifies the practice rather than retrofitting it.
+
+⛔ **What did NOT change.** The `[sic:]` still wraps **Migne's type verbatim**, and
+`verify-english` still checks that string against the Latin twin — that guard is what makes
+it impossible to accuse the plate of a defect it does not carry, and it is untouched.
+Split type still carries the **whole run** (Pattern 10). And this amendment reaches only
+the non-word clause: a printed form that is a real Latin word is still rendered literally
+under Pattern 7's main rule, marked `[sic:]` if the type is defective and `[cj:]` if the
+type is sound but the faithful English misleads (Pattern 18).
+
 #### 7a⁗. The marker that quarantines the SENSE — measured as a class, 2026-08-14
 
 7a′ ruled this once, on one site, in 2026-07-30: *quarantining a fragment does not

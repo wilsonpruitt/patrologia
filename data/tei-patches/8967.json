@@ -1926,7 +1926,7 @@
    "col": "1078B",
    "find": "unde non sit liberum",
    "replace": "unde nos sit liberum",
-   "why": "Class 1: unlocks [cj: *nos*; read *non*]. ⛔ WILSON'S RULING OWED — following the plate here would put the opposite of Migne's own next clause on the page with nothing able to quarantine it, so the English follows the twin and says so. ⛔ THE MARKER IS DELIBERATELY NOT FIRED, and that is not an omission: following the plate here would put the opposite of Migne's own next clause on the page with nothing able to quarantine it. The English keeps the twin's negative and the divergence stands recorded. Wilson's ruling on the class is owed — this and 1029B are its two sites."
+   "why": "Class 1 — Migne prints `unde nos sit liberum exire` where our twin reads `non`. ⭐⭐ FIRED 2026-09-05. It was withheld through the Band C pass on the belief that no marker class reaches it, and that belief was simply wrong: THIS IS NOT AN OMISSION AT ALL BUT A SUBSTITUTION, `nos` for `non`, which is Pattern 18's founding case — a real Latin form whose faithful English misleads — and it is the near-mirror of Wilson's own worked example 11064 @1090B (*apud non* for *apud nos*). Unlocks [cj: *nos*; read *non*, \"not\"]. The English now renders Migne (\"whence it is free for us to go out\") with the conjecture beside it."
   },
   {
    "col": "1077A",
@@ -2011,6 +2011,12 @@
    "find": "potestatis, id est efficaciam",
    "replace": "potestatis, in est efficaciam",
    "why": "Class 1 — ⛔ REPORTED BY THE 0092 STINT AND NEVER BUILT in the first pass; same omission, same detector. Unlocks [cj: *in*; read *id*]."
+  },
+  {
+   "col": "1029B",
+   "find": "Quia non thesaurizant",
+   "replace": "Quia thesaurizant",
+   "why": "Class 3 — MIGNE OMITS THE NEGATIVE. The plate reads `Quia thesaurizant in coelo` with no `non`, confirmed at 900 dpi, mid-line, column not clipped; CC supplied it. Held unpatched through the Band C pass because the whole pipeline reported this as a class no marker could reach. ⭐⭐ THAT WAS WRONG AND THE APPARATUS ALREADY HAD IT: Wilson ruled on 2026-08-15 (Pattern 18, worked example 7561 @0648) that A DROPPED WORD IS GLOSSABLE, because the gloss opens on the word Migne DID print and the verbatim-in-the-Latin-twin guard is satisfied by it. Unlocks [cj: *thesaurizant*; read *non thesaurizant*, \"lay not up\"]. ⚑ Note the negative here belongs to the CONJECTURE, not to Migne's text, so 7a⁗ is satisfied by putting it inside the gloss: the printed reading is the affirmative one."
   }
  ],
  "unread": "The scar sweep across all 106 chunks found 13 stray-space candidates; only this one was read at the plate. The other 12 are NOT claimed as drops — a stray space has ordinary causes too, and hebrew-recovery.md step 1 makes the scan the arbiter, not the scar. Three 'In Hebraeo' clauses also stand in this work, none with surviving Hebrew, and all three are unread candidates. Exposure here is small by the standards of an etymological work; it was worth a sweep and is not worth a campaign.",

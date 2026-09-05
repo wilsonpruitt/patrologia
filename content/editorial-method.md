@@ -213,6 +213,16 @@ Citations Migne prints inline rather than in notes are kept verbatim in Latin
 rather than expanded into English titles, on the same grounds: expanding *De
 consid.* into a title would put words on the page that Migne does not print.
 
+**One normalisation we inherited and did not make.** Migne sets the chapter
+numeral of a citation in lowercase roman and the book numeral in italic
+capitals — *(Luc. xviii)*, *(II Cor. ii)*. The digitised transcription this
+edition is built on had already uppercased every chapter numeral before we
+received it, and our pages carry that form: *(Luc. XVIII)*. It changes no
+reference and no sense, and we have not gone back over the corpus to undo it;
+but it is a departure from the printed page, it is ours to declare rather than
+the reader's to discover, and it is recorded here for anyone collating our
+citations against a copy of Migne.
+
 ## What is checked, and by what
 
 Nothing ships on the strength of the English reading well. Before a work is
