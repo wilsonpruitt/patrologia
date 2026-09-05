@@ -641,3 +641,25 @@ expanded and as a stump), **resolve it by EXPANDING the stump, not by contractin
 
 ⚑ The general form, worth carrying beyond lemmata: **a control has to be the same class as the
 thing it controls.** State what class your control belongs to before you let it convict anything.
+
+## ⛔ CORRECTION TO ADDENDUM A — the non-word rule was measured on ONE WITNESS (2026-09-05, 9002)
+
+Addendum A above records 10 for 10: every suspicion aimed at a **non-word** confirmed as our
+corruption, every one aimed at a **real, well-formed word** refuted. The second half stands. **The
+first half does not survive a second witness.**
+
+Measured on 9002 (Matthew), cols 0096C–0107B: **three non-words raised, one stood and two fell.**
+`nomo` @0097A is on both copies and is Migne's; `homnibus` @0099B and `fiilius` @0097D are the
+archive copy's ink and Gallica prints both correctly. In the same work three stints reading three
+non-overlapping stretches on two copies refuted **12 of 13, 20 of 21, and 15 of 16** archive
+readings respectively.
+
+⭐ **What addendum A really established, and it is still worth having: a non-word is worth
+RAISING.** All three of these were raised, correctly. What it cannot establish — and could never
+have established from a single photograph — is **whose the non-word is**. That is
+`reference_plate-read-triage`'s own rule (frequency proves an error EXISTS, never whose it is) and
+the same rule applies to the form of the word as to its frequency.
+
+⛔ **So: the non-word heuristic is a reason to fetch the second witness, never a substitute for
+it.** And a corpus control can point the wrong way while doing so — 8991 @0599D prints `nomo` for
+*nemo*, which argued that 9002's `nomo` was ours, and **the plates overruled it.**

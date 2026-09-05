@@ -303,3 +303,37 @@ records three of those, one of which manufactured a ⚑ on 8950 — and a fourth
 2026-09-05 from this work, `Mt 5:15` *accedunt* for *accendunt*, found because Migne, our twin and
 sense all agreed against the comparand). **Before you call a ⚑ a divergence, say which of the four
 causes you have excluded.**
+
+---
+
+## §8. TWO CORRECTIONS TO RULES THIS BRIEF ITSELF GAVE YOU (0012–0015 stint, 2026-09-05)
+
+### ⛔ "A NON-WORD HAS BEEN RIGHT EVERY TIME" IS NO LONGER TRUE. In one range it was right ONCE IN THREE.
+
+`GLOSSA-NT-AGENT-BRIEF.md`'s addendum A reports 10 for 10: every suspicion aimed at a non-word
+confirmed as our corruption, every one aimed at a real word refuted. **Cols 0096C–0107B went 1 for
+3.** `nomo` @0097A stood — a non-word on **both** copies, and Migne's. `homnibus` @0099B and
+`fiilius` @0097D both **fell at Gallica**.
+
+⚑ The 10-for-10 was measured on a batch that had **one witness**. What it actually established is
+that a non-word is worth RAISING, which remains true and is why all three of these were raised.
+What it cannot establish, and never could from one copy, is **whose** the non-word is. ⛔ So the
+non-word heuristic keeps its old job (raise it) and loses the one it was drifting toward (settle
+it). **It is not a substitute for the second witness. It is the reason to go and fetch it.**
+
+### ⛔⛔ AND THE ASTERISK LAYER CAN BE MANUFACTURED BY INK — one HTTP request from inventing apparatus
+
+At **@0103C** the archive copy shows a **raised asterisk** after *diebus abstinentiae* with an
+empty page-foot. That is CLAUDE.md's asterisk layer exactly — Migne's second foot-of-page
+apparatus — and the correct response to finding one is to recover it as `[cn: * | …]` with a
+translated `[nt:]` twin. **Gallica prints a plain colon.** There is no note, and there never was.
+
+⛔ **A speck of ink in the right place does not merely corrupt a word; it fabricates an APPARATUS
+LAYER, in Migne's own editorial voice, keyed to a note that does not exist.** Nothing downstream
+could have caught it: `[cn:]` recovery has no comparand, a fabricated note has no sequence number
+to break, and the work's coverage would have flipped from a checked zero to a false `partial`.
+**Never recover a `[cn:]` or an `[nt:]` from one witness.** The rule was written for `[sic:]`; it
+applies with more force here, because a `[sic:]` at least quotes a word a reader can go and check.
+
+⚑ Feet of all seven pages in that range were then inspected on **both** copies: checked zero, no
+apparatus anywhere in cols 0096–0108. That is the right way to close it.

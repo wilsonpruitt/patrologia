@@ -34,7 +34,12 @@ const normalize = (r, date) => {
   }
   if (!from) return null;
   const { cols, ...rest } = r;
-  return { from, to: to || from, date: r.date || date, ...rest };
+  // `depth` is what plate-gate PRINTS beside a licensed marker, so a stint that omitted the key
+  // makes the gate report "read: undefined" over a read that is perfectly good. Default it to
+  // "read" — the weaker of the two values, and the one the gate's own definition of a read means:
+  // the page on screen with the corner numbers checked first, found or not found. Never default it
+  // to "full": that would claim a word-by-word collation nobody performed.
+  return { from, to: to || from, depth: r.depth || 'read', date: r.date || date, ...rest };
 };
 
 let added = 0, skipped = 0, bad = 0;
