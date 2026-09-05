@@ -52,12 +52,26 @@ if (!fs.existsSync(latDir)) { console.error(`no Latin chunks for ${idno} — chu
 // super Baruch, exponitur in prologo super Ezechielem. Caetera plana sunt." Our source
 // carries neither layer. An asterisk row takes no part in the numeric sequence check
 // below, because it belongs to no sequence.
-const NOTE_NO = /^(?:[0-9]+(?:-[0-9]+)?\*?|\*)$/;
+// ⭐ A LETTER is a key in its own right too (8950 Liber Genesis, read 2026-09-05). Migne
+// keys this book's foot notes with a raised letter — `(a) Revocantur lector ad tomos
+// Patrologiae nostrae. EDIT.` at the foot of col 67/68, and `a In Hebraeo est gahon, quod
+// ventrem et pectus significat.` at the foot of col 93/94. The sequence RESTARTS on each
+// page, so like the asterisk layer it takes no part in the numeric run check below.
+// ⚑ And unlike either other layer, OUR TEI CARRIES THE ANCHOR: Corpus Corporum keeps the
+// raised letter (`col. 13 ª`, `« pectus ª »`) while dropping the note it points to — so on
+// this book the anchors are findable mechanically and the layer need not be sampled for.
+const NOTE_NO = /^(?:[0-9]+(?:-[0-9]+)?\*?|\*|[a-z])$/;
 const MARKER_IN_ANCHOR = /\s*\(([0-9]+(?:-[0-9]+)?\*?)\)/;
 // The asterisk layer is not parenthesised: Migne sets a raised * directly against the
 // word. Kept as a separate pattern rather than an alternation so that the numeric path
 // is byte-for-byte what it was before this class existed.
 const MARKER_ASTERISK = /\s*(\*)(?![\w*])/;
+// The letter layer as our TEI spells it: Migne's raised `a` arrives as the ordinal
+// indicator ª or as a true superscript letter, depending on the transcription. Both are
+// mapped to the plain letter before the key is compared, so the TSV always records the
+// letter Migne printed rather than whichever glyph the digitization happened to choose.
+const MARKER_LETTER = /\s*([\u00aa\u1d43\u1d47\u1d9c\u1d48\u1d49])(?![\w])/;
+const LETTER_OF = { '\u00aa': 'a', '\u1d43': 'a', '\u1d47': 'b', '\u1d9c': 'c', '\u1d48': 'd', '\u1d49': 'e' };
 
 // ── normalisation for MATCHING ONLY. The plate reader transcribes Migne's ligatures
 // (præsentiæ); the TEI spells them out (praesentiae). Neither is wrong and neither is
@@ -137,13 +151,25 @@ for (const f of files) {
 const injected = [], skipped = [], trimmed = [], headPlaced = [];
 for (const r of rows) {
   if (!/^yes/i.test(r.found)) { skipped.push({ ...r, why: 'anchor not in our Latin (per the plate reader)' }); continue; }
-  const m = r.note_no === '*' ? r.anchor.match(MARKER_ASTERISK) : r.anchor.match(MARKER_IN_ANCHOR);
+  const isLetterKey = /^[a-z]$/.test(r.note_no);
+  const m = r.note_no === '*' ? r.anchor.match(MARKER_ASTERISK)
+          : isLetterKey ? r.anchor.match(MARKER_LETTER)
+          : r.anchor.match(MARKER_IN_ANCHOR);
   if (!m) { skipped.push({ ...r, why: 'anchor does not show Migne\'s (n) marker, so the note has no place to attach' }); continue; }
-  if (m[1] !== r.note_no) { skipped.push({ ...r, why: `anchor marker (${m[1]}) disagrees with note_no ${r.note_no}` }); continue; }
+  const key = isLetterKey ? LETTER_OF[m[1]] : m[1];
+  if (key !== r.note_no) { skipped.push({ ...r, why: `anchor marker (${key}) disagrees with note_no ${r.note_no}` }); continue; }
   if (!r.note_text) { skipped.push({ ...r, why: 'no note text' }); continue; }
 
-  const prefix = r.anchor.slice(0, m.index);
-  const suffix = r.anchor.slice(m.index + m[0].length);
+  // ⚑ THE LETTER LAYER IS THE ONE CASE WHERE OUR TEXT ALREADY CARRIES MIGNE'S KEY. His
+  // numbers are absent from the TEI entirely, so for those the marker is cut out of the
+  // anchor and the two halves are searched as one phrase. Do that to a letter row and the
+  // search asks our Latin for `« pectus » tantum` while the file reads `« pectus ª »
+  // tantum`, and the row is reported as a divergence between plate and text that does not
+  // exist. So the glyph stays INSIDE the left window: the phrase then matches as printed,
+  // and the [cn:] lands immediately after the raised letter — where Migne's key stands.
+  const markerEnd = m.index + m[0].length;
+  const prefix = r.anchor.slice(0, isLetterKey ? markerEnd : m.index);
+  const suffix = r.anchor.slice(markerEnd);
   const norm = s => fold(s).replace(/\s+/g, '');
   const wordsOf = s => s.split(/\s+/).filter(Boolean);
 

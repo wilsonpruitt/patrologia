@@ -1,0 +1,236 @@
+# 8950 — lemma inventory and Clementine pre-scan
+
+**Liber Genesis** · PL 113 · cols 0067B–0182D · 47 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0008–0011, bands 0095A–0106C (183 spans, = the marked spans in your Latin)
+
+[0095A] VERS. 15.-- « Inimicitias ponam inter te et mulierem . . . Ipsa conteret caput tuum, »   ⚠ NOT in Clementine verbatim — CHECK
+[0095B] « Ipsa servabit calcaneum tuum, et tu conteres ejus calcaneum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0095B] « Ipsa conteret caput tuum, et tu conteres calcaneum ejus, »   ⚠ NOT in Clementine verbatim — CHECK
+[0095B] VERS. 16.-- « Mulieri quoque, »   ✓ Gn 3:16
+[0095B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0095C] « Multiplicabo aerumnas, »   ✓ Gn 3:16
+[0095C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0095C] VERS. 17-18.-- « Maledicta terra, »   ✓ Gn 3:17
+[0095C] « Maledictus eris super terram, »   ✓ Gn 4:11
+[0095D] « Maledicta terra in opere tuo. »   ✓ Gn 3:17
+[0095D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0095D] « In laboribus, »   ✓ 2Cor 6:5, 2Cor 11:23, Ecl 2:19, …
+[0096A] « Maledicta terra in opere tuo; »   ✓ Gn 3:17
+[0096A] « Multiplicabo aerumnas tuas, »   ✓ Gn 3:16
+[0096A] VERS. 19.-- « Pulvis es, »   ✓ Gn 3:19
+[0096A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0096A] VERS. 20.-- « Et vocavit Adam nomen uxoris suae Eva, »   ⚠ NOT in Clementine verbatim — CHECK
+[0096A] *Mystice. [n: (AUG., de Gen. contra Manich., l. II, c. 21.)]*   — single word, check in place
+[0096B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0096B] VERS. 21.-- « Fecit quoque, »   ✓ 1Par 15:1, 2Par 3:8, 2Par 3:14, …
+[0096C] VERS. 22.-- « Et ait: Ecce Adam quasi unus ex nobis, »   ✓ Gn 3:22
+[0096C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0096C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0096C] « Quasi unus ex nobis. »   ✓ Gn 3:22
+[0096C] « quasi unus ex nobis, »   ✓ Gn 3:22
+[0096C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0096D] « quasi unus ex nobis; »   ✓ Gn 3:22
+[0097A] « quasi unus ex nobis; »   ✓ Gn 3:22
+[0097B] VERS. 23.-- « Et emisit eum, »   ✓ Gn 3:23
+[0097B] VERS. 24.-- « Ejecitque Adam. »   ✓ Gn 3:24
+[0097B] « Et ejecit, et habitare fecit contra paradisum voluptatis, et statuit cherubin, et flammeam rhompheam, quae vertitur ad custodiendam ligni vitae viam. »   ⚠ NOT in Clementine verbatim — CHECK
+[0097B] « et ejecit Dominus, »   ⚠ NOT in Clementine verbatim — CHECK
+[0097B] « et [0097C] habitare fecit ante paradisum voluptatis cherubin, et flammeum gladium. »   ⚠ NOT in Clementine verbatim — CHECK
+[0097C] « Et collocavit, »   ✓ 1Mcc 4:61, 1Mcc 10:62, 1Mcc 14:34, …
+[0097C] « Collocavit, »   — single word, check in place
+[0097D] « flammeum gladium: »   ✓ Gn 3:24
+[0097D] « Et collocavit, »   ✓ 1Mcc 4:61, 1Mcc 10:62, 1Mcc 14:34, …
+[0098A] VERS. 1.-- « Adam vero, »   ✓ Gn 4:1
+[0098A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0098A] « Concepit et peperit, »   ✓ 1Par 7:23, 1Rg 2:21, Ex 2:2, …
+[0098A] *possessio.*   — single word, check in place
+[0098B] *luctus,*   — single word, check in place
+[0098B] « agricola, »   — single word, check in place
+[0098B] « pastor ovium, »   ✓ Gn 4:2
+[0098B] *Allegorice.*   — single word, check in place
+[0098B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0098B] VERS. 2.-- « Fuit autem Abel, »   ✓ Gn 4:2
+[0098B] *luctus*   — single word, check in place
+[0098B] *vapor,*   — single word, check in place
+[0098C] VERS. 3, 4.-- « Factum est autem, »   ✓ 1Par 18:1, 1Par 20:1, 1Rg 1:12, …
+[0098C] « Abel quoque obtulit, »   ✓ Gn 4:4
+[0098C] « Sicut adipe et pinguedine repleatur anima mea. »   ✓ Ps 62:6
+[0098C] « Et respexit Dominus ad Abel, »   ✓ Gn 4:4
+[0098C] « Et inflammavit Dominus super Abel, et super sacrificium ejus, super Cain, et sacrificium suum non inflammavit? »   ⚠ NOT in Clementine verbatim — CHECK
+[0098D] VERS. 5, 6, 7.-- « In foribus. »   ✓ Dn 2:49, Est 3:2, Ex 35:17, …
+[0098D] VERS. 8.-- « Dixitque Cain, »   ✓ Gn 4:8, Gn 4:13
+[0098D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0098D] VERS. 9.-- « Et ait Dominus ad Cain. »   ✓ Gn 4:9
+[0098D] *(ISID., ubi [0099A] supra.)*   ⚠ NOT in Clementine verbatim — CHECK
+[0099A] VERS. 10.-- « Vox sanguinis, »   ✓ Gn 4:10
+[0099A] VERS. 11.-- « Nunc igitur maledictus eris, »   ✓ Gn 4:11
+[0099A] VERS. 11.-- « Nunc igitur maledictus eris, »   ✓ Gn 4:11
+[0099B] VERS. 12.-- « Cum operatus, »   ✓ Gn 4:12
+[0099C] « Mortuus est enim propter dilicta nostra, et resurrexit propter justificationem nostram: »   ⚠ NOT in Clementine verbatim — CHECK
+[0099C] « Vagus et profugus, »   ✓ Gn 4:12, Gn 4:14
+[0099C] « gemens et tremens. »   ⚠ NOT in Clementine verbatim — CHECK
+[0099C] « Major est iniquitas mea, »   ✓ Gn 4:13
+[0099C] VERS. 13.-- « Major est iniquitas mea. »   ✓ Gn 4:13
+[0099D] VERS. 14.-- « Omnis igitur qui invenerit me, »   ✓ Gn 4:14
+[0099D] VERS. 15.-- « Nequaquam ita fiet. »   ✓ 1Par 21:24, Gn 4:15
+[0100A] « Omnis qui occiderit Cain septem vindictas exsolvet, »   ⚠ NOT in Clementine verbatim — CHECK
+[0100A] « Omnis qui occiderit Cain, »   ✓ Gn 4:15
+[0100A] « Septem vindictas exsolvet. »   ⚠ NOT in Clementine verbatim — CHECK
+[0100A] « septempliciter; »   — single word, check in place
+[0100A] « septuplum; »   — single word, check in place
+[0100A] « per hebdomadem »   ⚠ NOT in Clementine verbatim — CHECK
+[0100B] « Qui occiderit Cain, »   ✓ Gn 4:15
+[0100B] « septuplum punietur, »   ✓ Gn 4:15
+[0100B] « Sed omnis qui occiderit Cain. »   ✓ Gn 4:15
+[0100B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0100B] « Disperge illos in virtute tua [n: (Psal. LIII)]. »   ✓ Ps 58:12
+[0100B] « septempliciter, »   — single word, check in place
+[0100B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0100B] « Posuitque Dominus Cain signum, »   ✓ Gn 4:15
+[0100C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0100C] « Habitavit in terra ad orientalem plagam Eden. »   ⚠ NOT in Clementine verbatim — CHECK
+[0100C] *nod*   — single word, check in place
+[0100C] VERS. 17.-- « Cognovit autem Cain uxorem suam. »   ✓ Gn 4:17
+[0100C] *dedicatio,*   — single word, check in place
+[0100D] « Et aedificavit civitatem, »   ✓ Gn 4:17, Jos 19:50
+[0100D] VERS. 18.-- « Porro Enoch, »   ⚠ NOT in Clementine verbatim — CHECK
+[0101A] VERS. 19.-- « Qui accepit duas uxores, »   ✓ Gn 4:19
+[0101A] *voluptas.*   — single word, check in place
+[0101B] VERS. 20.-- « Genuitque Ada Jabel, »   ✓ Gn 4:20
+[0101B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0101B] VERS. 21.-- « Et nomen fratris ejus Jubal. »   ✓ Gn 4:21
+[0101C] VERS. 23.-- « Dixitque Lamech, »   ✓ Gn 4:23
+[0101C] « Occidi virum in vulnus meum, »   ✓ Gn 4:23
+[0101C] VERS. 23.-- « Occidi virum, »   ✓ Gn 4:23
+[0101C] « in vulnus meum, »   ✓ Gn 4:23
+[0101C] « et adolescentulum in livorem meum, »   ✓ Gn 4:23
+[0101C] VERS. 24.-- « Septuplum ultio dabitur, »   ✓ Gn 4:24
+[0101D] *Allegorice.*   — single word, check in place
+[0101D] *humiliatus*   — single word, check in place
+[0101D] « Non dico tibi septies, sed usque septuagies septies, »   ⚠ NOT in Clementine verbatim — CHECK
+[0102A] « Non enim judicabit Deus bis in idipsum, »   ⚠ NOT in Clementine verbatim — CHECK
+[0102A] VERS. 25.-- « Cognovit quoque adhuc, »   ✓ Gn 4:25
+[0102A] *resurrectio,*   — single word, check in place
+[0102B] « Posuit mihi Dominus semen aliud, »   ⚠ NOT in Clementine verbatim — CHECK
+[0102B] VERS. 26.-- « Quem vocavit Enos, »   ✓ Gn 4:26
+[0102B] *homo:*   — single word, check in place
+[0102B] « coepit invocare nomen Domini, »   ✓ Gn 4:26
+[0102B] « Quem vocavit Enos. »   ✓ Gn 4:26
+[0102B] *homo,*   — single word, check in place
+[0102B] « coepit invocare nomen Domini: »   ✓ Gn 4:26
+[0102B] *homo*   — single word, check in place
+[0102B] *homo,*   — single word, check in place
+[0102B] *vir;*   — single word, check in place
+[0102C] VERS. 1, 2.-- « Hic est liber generationis Adam. »   ✓ Gn 5:1
+[0102C] « In die qua creavit Deus hominem. »   ✓ Gn 5:1
+[0102C] « Ad similitudinem Dei. »   ✓ Gn 5:1, Jac 3:9
+[0102D] VERS. 3-23.-- « Vixit autem Adam, »   ✓ Gn 5:3
+[0102D] « ducentorum »   — single word, check in place
+[0103A] « centum annos »   ⚠ NOT in Clementine verbatim — CHECK
+[0103A] « Et genuit, »   ✓ 1Par 8:7, 2Par 11:21, Gn 5:3, …
+[0103A] *Christum*   — single word, check in place
+[0103A] « genuit filios et filias. »   ✓ 2Par 24:3, Gn 5:10, Gn 5:16, …
+[0103B] *dedicatio*   — single word, check in place
+[0103B] « Vidit stultum firma radice, et maledixit pulchritudini ejus statim. »   ⚠ NOT in Clementine verbatim — CHECK
+[0103C] *homo*   — single word, check in place
+[0103C] *rubra terra;*   ⚠ NOT in Clementine verbatim — CHECK
+[0103C] *positio*   — single word, check in place
+[0103C] *resurrectio;*   — single word, check in place
+[0103C] *homo;*   — single word, check in place
+[0103C] *lamentatio;*   — single word, check in place
+[0103C] *laudans Deum;*   ✓ Act 3:8
+[0103C] *roboratus;*   — single word, check in place
+[0103C] *dedicatio;*   — single word, check in place
+[0103C] *mortis emissio;*   ⚠ NOT in Clementine verbatim — CHECK
+[0103C] *humiliatus;*   — single word, check in place
+[0103C] *requies.*   — single word, check in place
+[0103D] *requies*   — single word, check in place
+[0103D] VERS. 24.-- « Ambulavitque cum Deo, »   ✓ Gn 5:24
+[0103D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0103D] VERS. 25-30.-- « Vixit quoque Mathusala, »   ✓ Gn 5:25
+[0104A] VERS. 31.-- « Et facti sunt omnes dies, »   ✓ Gn 5:8, Gn 5:14, Gn 5:17, …
+[0104A] « Et fuerunt omnes dies Mathusalae quos vixit anni nongenti sexaginta novem, et mortuus est. »   ⚠ NOT in Clementine verbatim — CHECK
+[0104B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0104B] « Noe vero cum quingentorum esset annorum, »   ✓ Gn 5:31
+[0104B] *requies,*   — single word, check in place
+[0104B] VERS. 1.-- « Cumque coepissent homines multiplicari super terram. »   ✓ Gn 6:1
+[0104B] *Elohim*   — single word, check in place
+[0104B] *Deum*   — single word, check in place
+[0104B] *deos*   — single word, check in place
+[0104B] « filios deorum »   ⚠ NOT in Clementine verbatim — CHECK
+[0104B] « Videntes filii potentum filias hominum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0104C] VERS. 2.-- « Videntes filii Dei, »   ✓ Gn 6:2
+[0104C] VERS. 3, 4.-- « Dixitque Deus: Non permanebit Spiritus meus, »   ✓ Gn 6:3
+[0104C] *loiadon*   — single word, check in place
+[0104C] « Non judicabit spiritus meus homines in sempiternum, quoniam caro sunt. »   ⚠ NOT in Clementine verbatim — CHECK
+[0104D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0104D] « Eruntque dies illius, »   ✓ Gn 6:3
+[0104D] VERS. 5.-- « Videns autem Dominus, »   ⚑ MATCHES ONLY ELSEWHERE — Gn 29:31  (lemma is Gn 6) — CHECK
+[0105A] VERS. 6-8.-- « Poenituit eum quia, »   ⚠ NOT in Clementine verbatim — CHECK
+[0105A] VERS. 9-12.-- « Noe vir justus. »   ✓ Gn 6:9
+[0105A] « Discite a me quia mitis sum et humilis corde. »   ✓ Mt 11:29
+[0105B] « In generationibus suis. »   ✓ 1Mcc 2:51, Ex 12:42, Ex 31:16, …
+[0105B] VERS. 13.-- « Disperdam eos cum, »   ✓ Gn 6:13
+[0105B] VERS. 14.-- « Fac tibi arcam de lignis. »   ✓ Gn 6:14
+[0105B] « quadrata, »   — single word, check in place
+[0105C] « Mansiunculas, »   — single word, check in place
+[0105C] « Bicamerata et tricamerata in arca facies: bicamerata in inferioribus, tricamerata in superioribus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0105D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0105D] « Trecentorum cubitorum, »   ✓ Gn 6:15
+[0105D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0106A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0106A] VERS. 16-18.-- « In cubito consummabis summitatem ejus. »   ✓ Gn 6:16
+[0106A] « Qui non colligit mecum, dispergit. »   ✓ Lc 11:23
+[0106A] « Coenacula et tristega, »   ✓ Gn 6:16
+[0106A] « Bicamerata et tricamerata. »   ⚠ NOT in Clementine verbatim — CHECK
+[0106B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0106C] VERS. 19-20.-- « Et ex cunctis, »   ✓ Gn 6:19
+[0106C] VERS. 21, 22.-- « Tolles igitur, »   ✓ Gn 6:21

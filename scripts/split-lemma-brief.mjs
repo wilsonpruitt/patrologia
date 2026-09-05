@@ -37,19 +37,26 @@ if (cut < 0) { console.error('inventory header not found in ' + master); process
 const preamble = src.slice(0, cut);
 const entries = src.slice(cut).split('\n').filter((l) => l.startsWith('['));
 
-// Italic spans per chunk, counted from the Latin — the same rule lemma-inventory.mjs uses.
-const spanRe = /(?<!\*)\*(?!\*)([\s\S]+?)(?<!\*)\*(?!\*)/g;
-const countSpans = (file) => {
-  const text = fs.readFileSync(file, 'utf8');
-  const body = text.split(/^---$/m).slice(2).join('---');
-  return (body.match(spanRe) || []).length;
-};
-
-const latinDir = path.join('src/latin', idno);
-const perChunk = new Map();
-for (const f of fs.readdirSync(latinDir).filter((f) => /^\d{4}\.md$/.test(f)).sort()) {
-  perChunk.set(parseInt(f.slice(0, 4), 10), countSpans(path.join(latinDir, f)));
+// ⛔ MEMBERSHIP IS READ, NOT RE-DERIVED. This file used to count `*…*` spans in each chunk
+// with its own copy of the harvest rule. That copy was correct for exactly as long as the
+// harvest was italic-only: the day lemma-inventory.mjs learned that 8950 sets its lemmata in
+// « … », the counter here allocated 603 of 1805 spans and labelled the last stint's bands
+// 0106D–0109D for a range that actually runs to 0182D. Nothing downstream could see it
+// except the sum assertion at the foot of this file, which is what fired. So the counts now
+// come from the sidecar the inventory writes, and the two can no longer drift.
+const countsPath = `data/briefs/${idno}-lemmata.counts.json`;
+if (!fs.existsSync(countsPath)) {
+  console.error(`no ${countsPath} — re-run: node scripts/lemma-inventory.mjs ${idno}`);
+  process.exit(1);
 }
+const counts = JSON.parse(fs.readFileSync(countsPath, 'utf8'));
+if (counts.total !== entries.length) {
+  console.error(`⛔ ${countsPath} counts ${counts.total} spans but ${master} holds ${entries.length}.`);
+  console.error(`   The sidecar is stale. Re-run: node scripts/lemma-inventory.mjs ${idno}`);
+  process.exit(1);
+}
+const perChunk = new Map();
+for (const c of counts.chunks) perChunk.set(parseInt(c.file.slice(0, 4), 10), c.spans);
 
 const ranges = rangeArgs.map((a) => {
   const [first, last] = a.split('-').map(Number);
@@ -76,7 +83,7 @@ const NOTE = `
 ## ⛔ Check this file's count against your own Latin before you rely on it
 
 This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
-spans in YOUR chunks' Latin. **Count the \`*…*\` spans in your own files and compare.** If
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both \`*…*\` and \`« … »\` — and compare.** If
 the totals disagree, say so in your report rather than working around it.
 
 That instruction is here because the count is the ONLY handle on this class. An earlier
@@ -97,7 +104,7 @@ for (const { first, last } of ranges) {
   fs.writeFileSync(out,
     preamble + NOTE +
     `\n## The inventory — chunks ${String(first).padStart(4, '0')}–${String(last).padStart(4, '0')}, ` +
-    `bands ${band(body[0])}–${band(body[body.length - 1])} (${n} spans, = the italic spans in your Latin)\n\n` +
+    `bands ${band(body[0])}–${band(body[body.length - 1])} (${n} spans, = the marked spans in your Latin)\n\n` +
     body.join('\n') + '\n');
   console.log(`${out} — ${n} spans, chunks ${first}–${last}, bands ${band(body[0])}–${band(body[body.length - 1])}`);
 }

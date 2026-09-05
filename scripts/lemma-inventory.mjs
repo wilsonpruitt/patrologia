@@ -26,9 +26,17 @@ const manifest = JSON.parse(fs.readFileSync(path.join(latinDir, 'manifest.json')
 // ---- Clementine index -------------------------------------------------------
 const flat = fs.readFileSync('sources/vulgate/clementine-flat.txt', 'utf8');
 const normalize = (s) => s
-  .replace(/\[n:[^\]]*\]/g, ' ')      // Migne's inline citation notes
+  // ⛔ EVERY bracketed apparatus, not just [n:]. Once plate notes are injected the Latin
+  // carries [cn: …] too, and a [cn:] landing inside a lemma made the whole note text part
+  // of the span being searched — 8950 @0094D « pectus ª [cn: a | In Hebraeo est gahon…] »
+  // scored ⚠ NOT-IN-CLEMENTINE against a lemma that is simply `pectus`. A ⚠ only wastes a
+  // look, but it wastes it on an artifact of our own apparatus, which is the worst kind.
+  .replace(/\[(?:n|cn|nt|f):[^\]]*\]/g, ' ')  // Migne's inline citations, plate notes, tags
   .replace(/\[[0-9]{4}[A-D]?\]/g, ' ') // column anchors inside a span
-  .replace(/[*«»]/g, ' ')
+  // ⚑ Migne's raised note key is apparatus too. Our TEI keeps it (« pectus ª ») where it
+  // drops the note itself, so leaving it in made a one-word lemma unsearchable against
+  // the Clementine and scored the span ⚠ on the strength of a footnote marker.
+  .replace(/[*«»\u00aa\u1d43\u1d47\u1d9c\u1d48\u1d49]/g, ' ')
   .replace(/[.,;:?!()]/g, ' ')
   .replace(/\s+/g, ' ')
   .trim()
@@ -195,6 +203,7 @@ for (const f of files) {
       for (let i = 0; i < n; i++) if (closes[i] > opens[i]) quotePairs.push([opens[i], closes[i]]);
       if (opens.length !== closes.length) unclosedQuote++;
     }
+    const notePairs = [...line.matchAll(/\[(?:cn|nt): [^\]]*\]/g)].map(m => [m.index, m.index + m[0].length - 1]);
     const spans = quotePairs.map(([a, b]) => ({ a, b }));
     for (let i = 0; i + 1 < starPositions.length; i += 2) {
       const a = starPositions[i], b = starPositions[i + 1];
@@ -202,6 +211,12 @@ for (const f of files) {
       // again would double-count a total the runbook makes load-bearing (stints count their
       // own Latin against it). Measured on 8950: 2 of 1,207.
       if (quotePairs.some(([qa, qb]) => a > qa && b < qb)) continue;
+      // Nor an italic inside an injected plate note: `[cn: a | … *gahon*, quod *ventrem* …]`
+      // is MIGNE'S FOOT NOTE, not a lemma of his text, and its three italics would be three
+      // phantom spans in a total that stints are told to count their own Latin against.
+      // (At 8950 they happened to fall inside a quoted lemma and were caught by the rule
+      // above — a coincidence of that one site, not a guarantee.)
+      if (notePairs.some(([na, nb]) => a > na && b < nb)) continue;
       spans.push({ a, b });
     }
     spans.sort((x, y) => x.a - y.a);
@@ -218,7 +233,7 @@ for (const f of files) {
       const before = line.slice(cursor, a);
       const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+(?:\s*[-,]\s*[IVXLCDM\d]+)*\.--[\s.]*)$/);
       cursor = b + 1;
-      rows.push({ band, caput, vers: vers ? vers[1].trim().replace(/[\s.]+$/, '') : '', span });
+      rows.push({ file: f, band, caput, vers: vers ? vers[1].trim().replace(/[\s.]+$/, '') : '', span });
     }
     // ⛔⛔ ADVANCE THE BAND PAST A LINE THAT HAS ANCHORS BUT NO SPANS. The loop above only
     // updates `band` from anchors standing before a span ON THE SAME LINE, so a line carrying
@@ -288,6 +303,14 @@ out.push('');
 // count is the ONLY handle on a mis-split brief -- so two phantom spans send a stint hunting
 // for lemmata that never existed.
 let hits = 0, misses = 0, singles = 0, elsewhere = 0, printed = 0;
+// ⛔ MEMBERSHIP IS COMPUTED HERE AND NOWHERE ELSE. split-lemma-brief.mjs used to re-derive
+// it by counting `*…*` spans in each chunk with its own copy of the harvest rule — and the
+// moment this file learned to harvest « … » too, that copy allocated 603 of 1805 spans and
+// mis-labelled every band. Same class as the first-english.mjs triple failure in CLAUDE.md
+// rule 8: a rule written twice drifts the day one copy is improved. The splitter now READS
+// this tally instead of re-deriving it, so a future span class cannot desynchronise them.
+// (The splitter's own sum assertion is what caught it, and it stays.)
+const perChunk = new Map();
 for (const r of rows) {
   const norm = normalize(r.span);
   const words = norm.split(' ').filter(Boolean);
@@ -328,6 +351,7 @@ for (const r of rows) {
     }
   }
   printed++;
+  perChunk.set(r.file, (perChunk.get(r.file) || 0) + 1);
   const lead = r.vers ? r.vers + ' ' : '';
   out.push(`[${r.band}] ${lead}${r.span}   ${mark}`);
 }
@@ -342,4 +366,10 @@ if (unclosedQuote) out.push(`\n⚠ ${unclosedQuote} line(s) carry unbalanced \`�
 fs.mkdirSync('data/briefs', { recursive: true });
 const dest = `data/briefs/${idno}-lemmata.txt`;
 fs.writeFileSync(dest, out.join('\n') + '\n');
+const countsDest = `data/briefs/${idno}-lemmata.counts.json`;
+fs.writeFileSync(countsDest, JSON.stringify({
+  idno, generated: new Date().toISOString(), total: printed,
+  note: 'Spans PRINTED in <idno>-lemmata.txt per chunk file, in file order. Written by lemma-inventory.mjs; read by split-lemma-brief.mjs. Never hand-edit, and never re-derive these counts by re-parsing the Latin.',
+  chunks: files.map(f => ({ file: f, spans: perChunk.get(f) || 0 })),
+}, null, 1) + '\n');
 console.log(`${dest} — ${printed} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}${unclosedQuote ? ` · ⚠ ${unclosedQuote} unbalanced-guillemet line(s)` : ''}`);

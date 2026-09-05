@@ -1,0 +1,220 @@
+# 8950 — lemma inventory and Clementine pre-scan
+
+**Liber Genesis** · PL 113 · cols 0067B–0182D · 47 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0000–0003, bands 0067B–0081D (167 spans, = the marked spans in your Latin)
+
+[0067B] VERS. 1.-- « In principio creavit, »   ✓ Gn 1:1
+[0067B] « Fiat lux, et facta est lux, »   ✓ Gn 1:3
+[0067B] « Dixit Deus, Fiat, »   ⚠ NOT in Clementine verbatim — CHECK
+[0067B] « Dixit Deus, Fiat; »   ⚠ NOT in Clementine verbatim — CHECK
+[0067B] « fiat, »   — single word, check in place
+[0067B] « Dixit Deus, Fiat, »   ⚠ NOT in Clementine verbatim — CHECK
+[0067C] « In principio fecit Deus coelum et terram, »   ⚠ NOT in Clementine verbatim — CHECK
+[0067C] « Dixit Deus, Fiat, »   ⚠ NOT in Clementine verbatim — CHECK
+[0068B] « In principio, »   ✓ 2Rg 17:9, Am 7:1, Dn 8:1, …
+[0068B] « In principio creavit, »   ✓ Gn 1:1
+[0068C] « Initio tu, Domine, terram fundasti, »   ✓ Ps 101:26
+[0068C] « In principio, »   ✓ 2Rg 17:9, Am 7:1, Dn 8:1, …
+[0068C] « Ubi eras cum me laudarent astra matutina, »   ⚠ NOT in Clementine verbatim — CHECK
+[0069A] « In principio. »   ✓ 2Rg 17:9, Am 7:1, Dn 8:1, …
+[0069A] « Qui fecisti mundum de materia informi [n: (Sap. XI)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0069B] *Mystice.*   — single word, check in place
+[0069B] « In principio creavit Deus coelum. »   ✓ Gn 1:1
+[0069B] « Et terram, »   ✓ 1Mcc 8:10, 1Par 4:40, 1Par 21:16, …
+[0069B] « Terra autem erat inanis, »   ✓ Gn 1:2
+[0069C] « Et vacua, »   ✓ Gn 1:2, Sap 3:11
+[0069C] « Et tenebrae erant, »   ✓ Gn 1:2
+[0069C] « super faciem abyssi, »   ✓ Gn 1:2
+[0069C] VERS. 2.-- « Terra autem erat inanis, »   ✓ Gn 1:2
+[0069C] « Ubi eras cum me laudarent astra matutina, et jubilarent omnes filii Dei? »   ⚠ NOT in Clementine verbatim — CHECK
+[0069D] « Inanis et vacua. »   ✓ Gn 1:2
+[0069D] « Tenebrae erant, »   ✓ Gn 1:2
+[0070A] « Et Spiritus Domini ferebatur super aquas. »   ⚠ NOT in Clementine verbatim — CHECK
+[0070B] « Spiritus Domini ferebatur super aquas. »   ⚠ NOT in Clementine verbatim — CHECK
+[0070B] « Et Spiritus Domini ferebatur, »   ⚠ NOT in Clementine verbatim — CHECK
+[0070B] *merahephet,*   — single word, check in place
+[0070C] « Emitte, ait, Spiritum tuum et creabuntur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0070C] « Et Spiritus, »   ✓ 1Cor 3:16, 1Cor 14:32, 1Jo 5:6, …
+[0070C] « Et Spiritus Domini ferebatur super aquas, »   ⚠ NOT in Clementine verbatim — CHECK
+[0070C] « Et Spiritus, »   ✓ 1Cor 3:16, 1Cor 14:32, 1Jo 5:6, …
+[0071A] VERS. 3.-- « Dixitque Deus: Fiat lux. »   ✓ Gn 1:3
+[0071A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0071B] « Dixitque Deus: Fiat lux. »   ✓ Gn 1:3
+[0071B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0071B] « Fiat lux. »   ✓ Gn 1:3
+[0071B] « Et facta est lux, »   ✓ Gn 1:3
+[0071C] « Fiat lux. »   ✓ Gn 1:3
+[0071C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0071C] VERS. 4.-- « Et vidit Deus lucem, »   ✓ Gn 1:4
+[0071C] « Benedicite, lux et tenebrae, Domino, »   ✓ Dn 3:72
+[0071C] « Factumque est vespere. »   ✓ Gn 1:5
+[0071D] VERS. 5.-- « Factumque est vespere, »   ✓ Gn 1:5
+[0072A] « Facta est lux; »   ✓ Gn 1:3
+[0072A] « Factum est vespere. »   ✓ Gn 1:8, Gn 1:13, Gn 1:19, …
+[0072A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0072B] VERS. 6.-- « Fiat firmamentum, »   ✓ Gn 1:6
+[0072B] « Fiat firmamentum, »   ✓ Gn 1:6
+[0072B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0072C] « Fiat firmamentum, »   ✓ Gn 1:6
+[0072C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0072C] « Fiat firmamentum in medio. »   ✓ Gn 1:6
+[0072C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0072C] VERS. 7.-- « Et fecit Deus firmamentum, »   ✓ Gn 1:7
+[0072C] « Fiat firmamentum et factum est ita, »   ⚠ NOT in Clementine verbatim — CHECK
+[0072C] « Et fecit Deus firmamentum, »   ✓ Gn 1:7
+[0072C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0072C] « Dixitque Deus fiat, »   ✓ Gn 1:3
+[0072C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0072D] « Fiat lux, »   ✓ Gn 1:3
+[0072D] « facta est lux, »   ✓ Gn 1:3
+[0072D] « fiat, »   — single word, check in place
+[0072D] « fecit Deus, »   ✓ 1Cor 1:20, Act 2:22, Act 2:36, …
+[0072D] « factum est ita »   ✓ Gn 1:7, Gn 1:9, Gn 1:11, …
+[0073A] « Congregentur aquae, »   ✓ Gn 1:9
+[0073B] « Coelum sicut liber plicabitur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0073C] « Divisitque aquas quae erant, »   ✓ Gn 1:7
+[0073C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0073C] VERS. 8.-- « Et factum est vespere, »   ✓ Gn 1:8, Gn 1:13, Gn 1:19, …
+[0073C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0073C] VERS. 9.-- « Dixit vero Deus, »   ✓ Gn 1:9
+[0073C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0073C] « Congregentur aquae? »   ✓ Gn 1:9
+[0073D] VERS. 10.-- « Et vocavit Deus aridam terram. »   ✓ Gn 1:10
+[0073D] « In principio creavit Deus coelum et terram. »   ✓ Gn 1:1
+[0074A] « Congregationesque aquarum appellavit maria. »   ✓ Gn 1:10
+[0074B] VERS. 11.-- « Et ait: Germinet terra, »   ✓ Gn 1:11
+[0074C] « Germinet terra herbam, »   ✓ Gn 1:11
+[0074D] « pariet tibi, »   ✓ Gn 17:19, Gn 17:21, Lc 1:13
+[0074D] « Facientem semen. »   ✓ Gn 1:11, Gn 1:12
+[0074D] « lignum pomiferum. »   ✓ Ez 47:12, Gn 1:11
+[0074D] VERS. 12.-- « Et protulit terra herbam, »   ✓ Gn 1:12
+[0075A] « Lignumque. »   — single word, check in place
+[0075A] « Quod tibi non vis fieri, alii non feceris [n: (Tob. IV)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0075A] « Quaecunque vultis ut faciant vobis homines, et vos eadem illis facite [n: (Matth. VII)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0075B] VERS. 13.-- « Et factum est vespere et mane. »   ✓ Gn 1:8, Gn 1:13, Gn 1:19, …
+[0075B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0075C] VERS. 14.-- « Dixit autem Deus: Fiant luminaria, »   ✓ Gn 1:14
+[0075C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0075D] « Et sint in signa, »   ✓ Gn 1:14
+[0076A] « in signa, »   ✓ Gn 1:14
+[0076A] VERS. 15.-- « Ut luceant, »   ✓ Apc 21:23, Ex 25:37, Gn 1:15
+[0076A] VERS. 16.-- « Fecit Deus duo luminaria. »   ⚠ NOT in Clementine verbatim — CHECK
+[0076B] « Luminare majus, »   ✓ Gn 1:16
+[0076C] « Et luminare minus, »   ✓ Gn 1:16
+[0076C] « Ut lucerent, »   ✓ 2Par 4:20, Gn 1:17
+[0076C] « ut praeessent diei, »   ⚠ NOT in Clementine verbatim — CHECK
+[0076D] « et nocti, »   ⚠ NOT in Clementine verbatim — CHECK
+[0076D] « dividerent lucem ac tenebras, »   ✓ Gn 1:18
+[0076D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0077A] VERS. 19.-- « Et factum est vespere et mane, »   ✓ Gn 1:8, Gn 1:13, Gn 1:19, …
+[0077A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0077A] « Et factum est vespere, »   ✓ Gn 1:8, Gn 1:13, Gn 1:19, …
+[0077B] VERS. 20.-- « Dixit etiam Deus, »   ✓ Gn 1:20
+[0077B] « Dixit etiam Deus: Producant aquae reptile, »   ✓ Gn 1:20
+[0077B] *(AUG., lib. II de Gen. ad litt., ex c. 1, 2, 3, 4, [0077C] 5 et 6, tom. III.)*   ⚠ NOT in Clementine verbatim — CHECK
+[0077C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0077C] « Animae viventis. »   ✓ Gn 1:20, Gn 2:19, Lv 11:46
+[0077C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0077D] « Sub firmamento »   ✓ Ez 1:23, Gn 1:7, Gn 1:20
+[0077D] « Secus firmamentum coeli, »   ⚠ NOT in Clementine verbatim — CHECK
+[0077D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0077D] VERS. 21.-- « Creavitque Deus cete grandia, »   ✓ Gn 1:21
+[0078B] « Et omnem animam, »   ✓ 1Mcc 10:33, Gn 1:21, Gn 9:16, …
+[0078C] VERS. 22.-- « Benedixitque illis, »   ✓ Gn 1:28
+[0078C] « Crescite. »   — single word, check in place
+[0078C] « Crescite et multiplicamini, »   ✓ Gn 1:22, Gn 1:28, Gn 8:17, …
+[0078D] *Mystice. [n: (ISID. et AUG., ubi supra.)]*   — single word, check in place
+[0079A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0079A] VERS. 24.-- « Dixit quoque Deus: Producat « terra, »   ✓ Gn 1:24
+[0079B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0079B] « Producat terra, »   ✓ Gn 1:24
+[0079B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0079B] « In genere suo. »   ✓ Dt 14:18, Gn 1:24, Gn 1:25, …
+[0079C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0079C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0079C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0079D] « Benedixitque eis Deus dicens: Crescite et multiplicamini, »   ⚠ NOT in Clementine verbatim — CHECK
+[0080A] VERS. 25.-- « Et fecit Deus bestias terrae, »   ✓ Gn 1:25
+[0080A] « Imitatores mei estote, »   ✓ 1Cor 4:16, 1Cor 11:1, Phlp 3:17
+[0080B] VERS. 26.-- « Faciamus hominem. »   ✓ Gn 1:26
+[0080B] « Et fecit Deus hominem ad imaginem Dei, »   ⚠ NOT in Clementine verbatim — CHECK
+[0080B] « Fecit Deus hominem ad imaginem Dei, »   ⚠ NOT in Clementine verbatim — CHECK
+[0080B] « ad imaginem suam. »   ✓ Gn 1:27
+[0080B] « ad imaginem Dei, »   ✓ Gn 1:27
+[0080B] « ad imaginem nostram, »   ⚠ NOT in Clementine verbatim — CHECK
+[0080C] « Faciamus hominem. »   ✓ Gn 1:26
+[0080C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0080C] « Et praesit, »   ✓ Gn 1:26
+[0080C] « ad imaginem nostram, »   ⚠ NOT in Clementine verbatim — CHECK
+[0080C] « Et praesit piscibus maris et volatilibus coeli. »   ✓ Gn 1:26
+[0080D] VERS. 27.-- « Et creavit Deus hominem ad imaginem, »   ✓ Gn 1:27
+[0080D] « Et creavit Deus, »   ✓ Gn 1:27
+[0080D] « Fiat lux, »   ✓ Gn 1:3
+[0080D] « et facta est lux; »   ✓ Gn 1:3
+[0080D] « Faciamus hominem, »   ✓ Gn 1:26
+[0080D] « et fecit Deus hominem ad imaginem Dei: »   ⚠ NOT in Clementine verbatim — CHECK
+[0081A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0081A] « Masculum et feminam creavit eos, »   ✓ Gn 1:27, Gn 5:2
+[0081A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0081A] « fecit Deus hominem ad imaginem et similitudinem suam, »   ⚠ NOT in Clementine verbatim — CHECK
+[0081A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0081A] « Seminavimus spiritualia vobis, magnum est si carnalia vestra metamus [n: (I Cor. IX)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0081A] VERS. 28.-- « Et dominamini piscibus, »   ✓ Gn 1:28
+[0081B] « Et dominamini piscibus maris. »   ✓ Gn 1:28
+[0081B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0081B] VERS. 29.-- « Dixitque Deus: Ecce dedi, »   ✓ Gn 1:29
+[0081B] VERS. 30.-- « Et factum est ita. »   ✓ Gn 1:7, Gn 1:9, Gn 1:11, …
+[0081C] « et factum est ita: »   ✓ Gn 1:7, Gn 1:9, Gn 1:11, …
+[0081C] « et factum est ita, »   ✓ Gn 1:7, Gn 1:9, Gn 1:11, …
+[0081C] VERS. 31.-- « Viditque Deus, »   ✓ Gn 1:31
+[0081D] « Et factum est vespere et mane, »   ✓ Gn 1:8, Gn 1:13, Gn 1:19, …
+[0081D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0081D] *Moraliter. [n: (AUG., de Gen. contra Manich., lib. I in fine.)]*   — single word, check in place

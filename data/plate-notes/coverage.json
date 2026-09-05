@@ -1348,6 +1348,23 @@
    "tier": 2,
    "coverage": "none",
    "notes_recovered": 0
+  },
+  {
+   "idno": "8950",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "partial",
+   "notes_recovered": 2,
+   "columns": "0067B-0182D (whole work)",
+   "method": "Plate spot check at chunking (step 1a, Wilson 2026-08-19), read 2026-09-05 BEFORE translation, from the on-disk scan raw/scans/pl113/patrologiaecurs04migngoog.pdf. Map PDF page = (column + 11) / 2, the same as 8967's, re-confirmed from the printed corner numbers BEFORE any note was read (p.39 reads 67 / 68) and re-read on every page. TEN pages read across the whole work, weighted to the caput divisions, which fall mid-page throughout: 39 (67/68, the work's opening), 40, 46, 52, 53, 60, 67, 74, 82, 89, 96 (181/182, the work's end). Head strip plus a generous foot zone at full page width on each, which reached the true page foot every time; the two pages carrying notes were then re-read at 400 dpi.",
+   "result": "NOT a checked zero. Migne prints a foot-of-page layer in this book keyed by a RAISED LETTER, and two notes were recovered: (a) at the foot of p.39, cols 67/68, `Revocantur lector ad tomos Patrologiae nostrae. EDIT.`, keyed to the raised a in the citation (BEDA, Hexaem. lib. I, tom. II, col. 13 a.) in col 0068B; and (a) again at the foot of p.52, cols 93/94, `In Hebraeo est *gahon*, quod *ventrem* et *pectus* significat.`, keyed to « pectus a » in col 0094D. The letter sequence RESTARTS per page, so both are (a) and there is no run to check for gaps. The other eight pages carry no apparatus of any layer -- blank paper below the last line, except p.74, whose foot carries the signature line PATROL. CXIII. and gathering number 5, which is not apparatus.",
+   "mechanical_handle": "⭐ UNLIKE THE NUMBERED LAYER, OUR TEI CARRIES THE ANCHOR. Corpus Corporum keeps Migne's raised letter (as the ordinal indicator ª) while dropping the note it points to, so the anchors are findable by grep instead of by sampling: `grep -c ª` over src/latin/8950 returns exactly 2, at the two sites above, and 0 across 8967, 9000 and 9001. That is what licenses reading only two plates for the notes themselves rather than all 58.",
+   "why_not_tier_3": "Tier 3 asks for the sequence verified unbroken, and a per-page letter layer HAS no sequence to verify -- so the guarantee tier 3 names cannot be given here, and claiming it would assert a check that was not performed. The evidence actually in hand is the two surviving anchors plus a 10-of-58-page sample; a note whose anchor glyph the digitization dropped would be invisible to both. Recorded as `partial` for that reason: absence of a third note here means nothing.",
+   "caveat": "⛑ NOTE (a) AT COL 0068B IS RECOVERED BUT NOT PLACED. Its anchor sits INSIDE Migne's own citation -- [n: (BEDA, Hexaem. lib. I, tom. II, col. 13 ª.)] -- and the injector's search view strips [n: …] wholesale, while marker syntax across this corpus forbids nested brackets, so there is no [cn:] position for it that a reader of the marker would survive. It is recorded in data/plate-notes/8950.tsv and reported as skipped on every run rather than being placed by a guess. ⚑ It is also the lower-stakes of the two: it is Migne's EDIT. note explaining that his `col. 13` cross-reference points at the volumes of his own Patrologia. The note at 0094D, which does carry text a reader needs, IS placed.",
+   "sic_candidate": "⚑ The 0068B note prints `Revocantur lector` -- plural verb, singular subject -- read at 400 dpi with the corners checked first. The same standing note in this volume's Prothemata (a DIFFERENT work, not ours) OCRs as `Revocatur lector`, singular, which would make the Genesis setting a compositor's slip; that plate has NOT been read, so the pair is a lead and not a finding. Left for the translating stint to adjudicate, unadopted.",
+   "verified": "2026-09-05",
+   "notes_placed": 1
   }
  ],
  "fields": {
