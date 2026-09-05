@@ -32,6 +32,18 @@ const normalize = (r, date) => {
     const [a, b] = r.cols.split(/\s*[-–]\s*/);
     from = a; to = b || a;
   }
+  // Third shape seen in the wild (0027–0031): columns: ["0137","0138"] — a PAGE read, listed as the
+  // bare column numbers the corners print, with no band letter. Expand to the full page: 0137A–0138D.
+  // ⚑ That expansion is the faithful record, not a convenience: the stint read the whole page, both
+  // columns, all four bands of each. Leaving it as bare "0137" would let plate-gate fail to match a
+  // marker at 0137C and report an unread column over a page that was read end to end — the exact
+  // silent failure this file exists to prevent, arriving from the opposite direction.
+  if (!from && Array.isArray(r.columns) && r.columns.length) {
+    const bare = c => /^\d+$/.test(String(c));
+    const a = String(r.columns[0]), b = String(r.columns[r.columns.length - 1]);
+    from = bare(a) ? a + 'A' : a;
+    to = bare(b) ? b + 'D' : b;
+  }
   if (!from) return null;
   const { cols, ...rest } = r;
   // `depth` is what plate-gate PRINTS beside a licensed marker, so a stint that omitted the key

@@ -301,8 +301,15 @@ is now general enough to state: **the ownership test is a phrase search, so it f
 word, on a word division, and on a defect in our own Clementine copy** (`sources/vulgate/README.md`
 records three of those, one of which manufactured a ⚑ on 8950 — and a fourth was added
 2026-09-05 from this work, `Mt 5:15` *accedunt* for *accendunt*, found because Migne, our twin and
-sense all agreed against the comparand). **Before you call a ⚑ a divergence, say which of the four
+sense all agreed against the comparand). **Before you call a ⚑ a divergence, say which of the five
 causes you have excluded.**
+
+⛔ **THE FIFTH CAUSE, added 2026-09-05 by the 0027–0031 stint, and it is the only one that reads as
+evidence AGAINST Migne: our own twin's corruption.** @0142A our Latin prints `Etiam`; both plates
+print **`Eliam`**, and with `Eliam` restored the lemma matches Mt 16:14 word for word. Until the
+patch lands, the phrase search fails, the lemma looks divergent, and every instinct points at
+Migne's plate. **A failed ✓ is a fact about the search, not about Migne** — and one of its five
+causes is a defect on OUR side of the comparison, which no Vulgate collation can see.
 
 ---
 
