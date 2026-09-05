@@ -1,0 +1,12 @@
+{
+  "note": "CONFIRMED rows from data/briefs/8950-PENDING-TEI-PATCHES-0019.md, verified against a SECOND WITNESS (Gallica ark:/12148/bpt6k5505319w, leaf = (col+1)/2). 11 of the file's 12 rows were REFUTED, including the file's starred finding, the 'VERS. 27-19.' verse address at 0127D, which Gallica prints as VERS. 17-19. exactly as our twin does. Verdict table: data/briefs/8950-PATCH-VERDICTS-0019.md.",
+  "patches": [
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0131B",
+      "find": "in angelis agno\nscebat, sicut",
+      "replace": "in angelis agnoscebat, sicut",
+      "why": "CONFIRMED, but on CORRECTED evidence -- read the whole note before applying. Gallica f66 (printed corners 131/132), left column band B, cropped to 7x. The word 'agnoscebat' is broken across a line, 'agno' at the end of one line and 'scebat' at the head of the next. Our twin renders that break as an interior SPACE ('agno scebat'), which is a non-word and a Pattern-10 failure to rejoin; the join to 'agnoscebat' is right on both witnesses. HOWEVER the claim as filed -- that the plate hyphenates, 'agno-scebat' -- is FALSE: at 7x there is no hyphen after 'agno', the line simply ends. The patch stands; its stated evidence did not. The archive copy's hyphen is ink."
+    }
+  ]
+}

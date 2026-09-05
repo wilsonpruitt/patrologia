@@ -35,8 +35,12 @@ these was checked mechanically across all 47 chunks at merge time:
 ⭐ The `usque ad` result is the one worth naming, because it is the convention most likely to drift
 and the hardest to check: **two ranges appeared to disagree and neither did.** Chunk 0016 carries
 Migne's own abbreviated `etc., *usque,*` (no *ad*), correctly read as the formula; chunk 0023 carries
-our twin's typo `*uque ad*`, correctly read as the formula and already filed as a TEI patch. Both
-stints had documented their reasoning, so the merge only had to confirm it.
+`*uque ad*`, also correctly read as the formula. Both stints had documented their reasoning, so the
+merge only had to confirm it.
+⛔ **Correction, 2026-09-05, from the Gallica check:** the merge first recorded that second site as
+*our twin's* typo. It is **Migne's** — Gallica prints `uque ad` at 0131C exactly as our twin has it.
+The *rendering* is unaffected and still right (it is the splice formula either way), but the
+attribution was backwards: there is no patch here, and a `[sic:]` is a live candidate instead.
 
 ### ⚑ THE ONE REAL DRIFT, AND WHY IT MATTERED — `pactum`
 
@@ -104,6 +108,11 @@ Stated once here; the reasoning is in the stint section named.
   — ink can turn one letter into another, but it cannot put on the page a word that is not there.
 - **The two `[sic:]` that stand met that bar**: `pinguedidine` @0152A (on the plate *and* verbatim in
   our twin) and `trangressionis` @0169B (read on both copies).
+- ⛔ **THREE NON-WORDS WERE FILED AS OURS AND ARE MIGNE'S** (Gallica, 2026-09-05): `dilicta` @0099C,
+  `uque ad` @0131C, `virginet` @0130D. The stints that met them declined a `[sic:]` on the ground
+  that our twin had corrupted a clean plate — the plate carries all three. **No patch; three live
+  `[sic:]` candidates**, which is the exact reverse of how they were filed. Anything in the stint
+  sections below that calls these "ours" is superseded here.
 - **Our Vulgate comparand has typos** that manufacture divergences no plate read can catch — *Suscipe*
   for *Suspice* at Gn 15:5, *trienem* for *triennem* at Gn 15:9, both inside one column of this work.
   See the ERRATA in `sources/vulgate/README.md`.

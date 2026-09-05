@@ -1,0 +1,26 @@
+{
+  "note": "CONFIRMED and STRUCTURAL rows from data/briefs/8950-PENDING-TEI-PATCHES-0008.md, verified against a SECOND WITNESS (Gallica ark:/12148/bpt6k5505319w, leaf = (col+1)/2) per data/briefs/8950-PATCH-GATE-READ-FIRST.md. 17 of the file's 20 rows were REFUTED at Gallica -- the archive.org copy's letter-level divergences in cols 0095-0106 are over-inking, not type. Verdict table: data/briefs/8950-PATCH-VERDICTS-0008.md.",
+  "patches": [
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0103B",
+      "find": "dicitur Joan. V:  « Vidit stultum",
+      "replace": "dicitur Joan. v :  « Vidit stultum",
+      "why": "CONFIRMED on a second witness. Gallica ark bpt6k5505319w leaf f52, printed corners read 103/104, left column band B, read at native 300 dpi and cropped to ~4.5x: the plate sets 'dicitur Joan. v : « Vidit stultum firma radice', with a LOWERCASE small-cap chapter numeral and a thin space before the colon, which is Migne's house form for chapter numerals throughout this work (cf. 'Matth. v' at 0125B, 'II Cor. ii' at 0128A, 'Jer. v' at 0129C, 'Marci xix' at 0131A, all on the same witness). Corpus Corporum normalized the numeral to capital V and closed up the space. Not a defect in Migne and not a [sic:] site: a case-and-spacing normalization by the digitization. The archive.org copy shows the same thing, so both witnesses agree against our twin."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0104B",
+      "find": "Verbum\nHebraicum   ( <hi>Elohim</hi> )",
+      "replace": "Verbum\nHebraicum <foreign xml:lang=\"hebrew\">אלהים</foreign> ( <hi>Elohim</hi> )",
+      "why": "STRUCTURAL, settled on a single good read: ink cannot put a word on the page that is not there. Gallica f52 (printed corners 103/104), right column band B, cropped to 6x: the plate prints 'Verbum Hebraicum אלהים ( Elohim ) utriusque numeri est'. Unpointed, five letters aleph-lamed-he-yod-final mem, read letter by letter at 6x. The TEI kept the transliteration and dropped the type, leaving the TRIPLED SPACE that hebrew-recovery.md step 1 describes. The archive copy shows the same Hebrew."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0104C",
+      "find": "Hebr.  \n( <hi>loiadon</hi> )",
+      "replace": "Hebr. <foreign xml:lang=\"hebrew\">לאידון</foreign>\n( <hi>loiadon</hi> )",
+      "why": "STRUCTURAL, settled on a single good read. Gallica f52 (printed corners 103/104), right column band C, cropped to 5x: the plate prints '(HIER., ibid.) Hebr. לאידון (loiadon).' Unpointed, six letters lamed-aleph-yod-dalet-vav-final nun, read at 5x. The TEI dropped the type and left a DOUBLED SPACE before the line break. NOTE: the same 5x crop REFUTES the companion claim filed at this column that the plate reads '(HIER., Hebr. ibid.)' -- the plate reads '(HIER., ibid.)' exactly as our twin does, with 'Hebr.' standing OUTSIDE the parenthesis in the running text, where our twin also puts it. Only the Hebrew is owed."
+    }
+  ]
+}
