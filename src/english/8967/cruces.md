@@ -3540,6 +3540,79 @@ The standing pattern for a fenced reader, and both instances are instructive:
 
 ---
 
+# §F9 · ⭐ THE OPEN SITES, CLOSED — and the scan was on disk the whole time
+
+After the blind polarity read, **seven open sites were closed by re-opening the leaf** on the
+on-disk scan (`raw/scans/pl113/patrologiaecurs04migngoog.pdf`), rendered at 150–1200 dpi. Every one
+had been correctly refused earlier — *a patch must not guess a letter*, and *a report that
+contradicts itself must not be acted on* — and every one fell to a single render.
+
+⚑ **The lesson for Band C: a site a stint declines is not necessarily hard. Several of these were
+simply never re-opened.**
+
+## Closed at the plate
+
+- ⭐⭐ **`Nafrubimus` @0962C.** The 0054–0058 stint declined to transcribe the marker because the
+  letter between `Na` and `rubimus` would not resolve as `f` or `t` even at 1200 dpi. Re-read at 600
+  and 1200 dpi: **the glyph carries a tall ascender with the hooked top of an italic `f`**, standing
+  to the height of the `b` of `bimus`, against the shorter straight-stemmed `t` of `tua` on the same
+  line. ⭐ **And the leaf supplies the control the stint lacked**: Migne sets `Narrabimus. Invocabimus
+  nomen tuum.` CORRECTLY a few lines above in the B band, so both forms stand in one column.
+  `[sic: *Nafrubimus*]` now fired.
+- **`(Rom. iv)` @0971A.** Migne prints `iv`; Rom 9:27 is the true locus, so **CC had corrected him.**
+  Restored, with a `citation-corrections.json` entry so the index still resolves to Rom 9:27 — the
+  policy of 2026-07-18 exactly. ⚑ **The `Ibid.` hazard was checked, not assumed**: the next note in
+  the chunk is an explicit `(Prov. II)`, so nothing inherits a corrected key. ⛔ The column is written
+  **`971a`, without its leading zero** — the normalisation that otherwise matches nothing while still
+  reporting 0 unparsed.
+- **`res aliena` @0971D.** Confirmed as Migne's. **No marker**: the concord mismatch has no English
+  exponent (Pattern 12(2)), and with the reading confirmed his, Pattern 9 governs. English unchanged.
+- **`et attribuam` @0926B.** Its stint's report contradicted itself about which form the plate
+  carried; at 500 dpi Migne prints `id est, et attribuam`. CC's `ei` is the reading that construes,
+  which is why it was substituted. `[cj: *et*; read *ei*]` fired.
+- **`Malivolenti :` @0929A/B.** Filed as "a departure needing a ruling, not a defect", because
+  *Malivolenti* is a real form. At 700 dpi Migne prints `Malivolenti :`, ending `-i`, with his usual
+  space before the colon. **The ruling:** the parallel member is `peccatum, operis`, a GENITIVE, so
+  the construction wants *malivolentiae* and the printed form has no slot.
+  `[cj: *Malivolenti*; read *malivolentiae*]` fired.
+
+## ⭐ The site whose QUESTION was misdiagnosed — `quidam mundi` @0995B
+
+The blind reader raised it and said it **needs the plate**. The plate settles nothing: it prints
+`quidam mundi defecerunt` exactly as our TEI has it. **Both readings use the same letters, so no
+transcription check could ever have decided it** — it is a parse, not a reading.
+
+What decides it is internal. `mundi` is either the genitive of *mundus* (world) or the nominative
+plural of *mundus* "clean". Two things favour "clean": (a) the lemma it glosses is
+`ab emendatione`, where **the Vulgate reads *ab emundatione*** — our own `[var:]` two words away
+records it — so the gloss's `mundi` picks up the cleansing root its lemma has lost; and (b)
+`mundi … in terram redacti sunt` is a real antithesis (clean → earth), while "certain **of the
+world** failed and were brought down to **the earth**" is close to tautologous.
+**Rendered "certain clean ones have failed."** The alternative is recorded here, not buried.
+
+## Confirmed in passing, from leaves opened for other reasons
+
+`Super et fundatam` @0979A · `bene siccata` @0980A · the lemma `manus in cophino` with no *ejus* ·
+`perpercit` @0971A · `Cynomia` · `Spiritus vadens et non revertens` · `De manu tribulationis` ·
+and ⭐ **`Quoniam qui audivit?` @0929C with `Quis audivit?` quoted twice below it** — the Class-1
+patch verified independently from the leaf rather than from the report.
+
+## ⛔ What the plate could NOT close
+
+- **Col 0981 is genuinely clipped**, verified by rendering from x=0: characters are missing from the
+  line starts and the loss is ragged, which no rectangular crop produces. **`filiis`/`filii Excelsi
+  omnes` @0981C stays owed to Gallica**, and the 0064–0068 stint's report is vindicated rather than
+  taken on trust.
+- **`Non per agentes promissa` @0980D** — the plate confirms the words verbatim, so this too is a
+  parse and not a reading. Migne prints the `non` on the prepositional phrase; moving it inside would
+  be a Pattern 7 repair. **English unchanged, strain recorded**, as its reader recommended.
+
+**The Gallica list is unchanged at five** — `f443`, `f449`, `f453` (Band A), `0932B` and `0981C`.
+None of the seven sites closed above was a Gallica site: all seven were answerable from the copy
+already on disk, which is precisely why they should not have stayed open.
+
+---
+
 # §G · THE EIGHT BAND B STINT FILES, VERBATIM
 
 Nothing below is abridged. Each stint's own reasoning, declined list and checks stand as written —
