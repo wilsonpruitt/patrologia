@@ -1602,6 +1602,19 @@ exponitur in prologo super Ezechielem. Caetera plana sunt.*
 ⛔ **A NUMBERED `[cn:]` still takes no English twin.** *Forte earum* is a reading, and a reading
 needs no translating. `verify-english.mjs` enforces the split.
 
+**⭐ AND A THIRD KEY SHAPE: A LETTER (8950 *Liber Genesis*, read at the plate 2026-09-05).**
+Migne keys that book's foot notes `(a)`, restarting on every page, so the key carries no sequence
+and there is no run to check for gaps. It takes the **same English twin as the asterisk layer**,
+and for the same reason — these are sentences, not readings: col 0094D keys `« pectus ª »` to
+*In Hebraeo est gahon, quod ventrem et pectus significat.* ⚑ **The split is by WHAT THE NOTE SAYS,
+not by which glyph keys it.** A number that carried a sentence would take a twin too; the numbered
+layer is exempt because *Forte earum* is a reading, not because it is numbered.
+⚑ **Migne's raised key itself is NOT carried into the English** (following 9005/0000 and 8996/0001).
+⭐ **This is also the first work whose TEI KEPT the raised key while dropping the note** — Corpus
+Corporum gives us `col. 13 ª` and `« pectus ª »` with no note attached. So on such a book the
+anchors are greppable and the layer need not be sampled for; and a raised letter you meet in your
+Latin is **Migne's apparatus**, never a defect and never yours to mark.
+
 **What a translator does with it:**
 
 - **The printed reading still stands and is still what the English renders.** Pattern 7 is

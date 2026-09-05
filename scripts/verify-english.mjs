@@ -91,7 +91,14 @@ for (const c of manifest.chunks) {
   // reading, not a statement, and needs no English twin. Including them here failed
   // 11613, the one work with a recovered numbered sequence, which is how the
   // distinction got drawn in code rather than only in prose.
-  const inSequence = n => n.kind !== 'cn' || /^\*\s*\|/.test(n.text);
+  // ⭐ A LETTER-KEYED note joins the sequence for the same reason the asterisk one does
+  // (8950 Liber Genesis, 2026-09-05). Migne keys that book's foot notes `(a)`, and they are
+  // SENTENCES that say something — `In Hebraeo est gahon, quod ventrem et pectus significat.`
+  // — not bare readings like `Forte earum`. An English-only reader left without it is left
+  // with a line he cannot read, which is precisely the test Wilson's 2026-08-24 ruling set.
+  // So the split is by WHAT THE NOTE SAYS, not by which glyph keys it: numbered conjectures
+  // stay Latin-only; the asterisk and letter layers get a translated [nt: …] twin.
+  const inSequence = n => n.kind !== 'cn' || /^(?:\*|[a-z])\s*\|/.test(n.text);
   const latNotes = [...lat.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() })).filter(inSequence);
   const engNotes = [...eng.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() }));
 
@@ -180,8 +187,10 @@ for (const c of manifest.chunks) {
   if (cnRe.test(eng.body))
     errs.push(`${name}: [cn: …] marker found in the ENGLISH chunk — Migne's foot-of-page note belongs to the Latin only`);
   for (const m of [...lat.body.matchAll(cnRe)]) {
-    if (!/^(?:[0-9]+(?:-[0-9]+)?\*?|\*) \| \S/.test(m[1]))
-      errs.push(`${name}: [cn: ${m[1]}] is malformed — the form is [cn: <Migne's note number> | <his note>]`);
+    // The key has three shapes, all attested: a number (11613), an asterisk (9005), and a
+    // letter (8950, whose sequence restarts on every page).
+    if (!/^(?:[0-9]+(?:-[0-9]+)?\*?|\*|[a-z]) \| \S/.test(m[1]))
+      errs.push(`${name}: [cn: ${m[1]}] is malformed — the form is [cn: <Migne's note key: a number, * or a letter> | <his note>]`);
   }
 
   // 10. Pattern-13 [ed: …] — the EDITION's own voice, used where the digitization

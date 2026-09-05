@@ -136,7 +136,7 @@ function roman(s) {
 // ---- walk the chunks --------------------------------------------------------
 const files = fs.readdirSync(latinDir).filter(f => /^\d+\.md$/.test(f)).sort();
 const rows = [];
-let unclosed = 0, unclosedQuote = 0;
+let unclosed = 0, unclosedQuote = 0, strayClose = 0;
 
 for (const f of files) {
   const raw = fs.readFileSync(path.join(latinDir, f), 'utf8');
@@ -195,13 +195,32 @@ for (const f of files) {
     // mechanical check that fails by GOING QUIET, never by erroring. Counts across the
     // Glossa books on disk: 8950 = 1,277 « against 0 in 9000 (Luke) — so this is not a
     // house style, it varies BY BOOK, and neither form may be assumed.
+    // ⛔⛔ PAIR BY SCANNING, NEVER BY INDEX. The first cut of this paired opens[i] with
+    // closes[i] and dropped any pair whose close came first. That is wrong on the commonest
+    // line shape in the book: a quote OPENED IN THE PREVIOUS PARAGRAPH closes at the head of
+    // this one, so the line's first delimiter is a `»` with no `«` before it, and every pair
+    // after it is shifted by one. Measured on 8950 chunk 0002: the line `» [n: (STRAB., RAB.)]
+    // … ut dicere possit: « Mente servio legi Dei, » etc.` runs »«» — opens[0] paired with the
+    // close STANDING BEFORE IT, failed the ordering test, and the lemma vanished from the
+    // inventory entirely. ⭐ Found by the 0000-0003 stint counting 168 spans against its
+    // brief's 167 and diffing line for line — the count is the only handle there is, which is
+    // exactly why the brief asks for it. A silent DROP is worse than a mis-split: a mis-split
+    // moves a span to a neighbouring file, a drop removes it from every file.
+    // ⚑ A second `«` while a quote is open is Migne repeating the mark at the head of a
+    // continued line (his house style throughout this book), not a nested quotation — so it
+    // is absorbed and the OUTERMOST span is what gets inventoried.
     const quotePairs = [];
     {
-      const opens = [...line.matchAll(/«/g)].map(m => m.index);
-      const closes = [...line.matchAll(/»/g)].map(m => m.index);
-      const n = Math.min(opens.length, closes.length);
-      for (let i = 0; i < n; i++) if (closes[i] > opens[i]) quotePairs.push([opens[i], closes[i]]);
-      if (opens.length !== closes.length) unclosedQuote++;
+      let openAt = null;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (ch === '«') { if (openAt === null) openAt = i; }
+        else if (ch === '»') {
+          if (openAt !== null) { quotePairs.push([openAt, i]); openAt = null; }
+          else strayClose++;   // closes a quote opened in an earlier paragraph — not a defect
+        }
+      }
+      if (openAt !== null) unclosedQuote++;  // runs past this line and is NOT inventoried
     }
     const notePairs = [...line.matchAll(/\[(?:cn|nt): [^\]]*\]/g)].map(m => [m.index, m.index + m[0].length - 1]);
     const spans = quotePairs.map(([a, b]) => ({ a, b }));
