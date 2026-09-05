@@ -49,7 +49,13 @@ head-of-range spans into the previous stint's file — the master inventory stay
 the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
 short at the head of their own range, and both found it by doing exactly this count.
 
-## The inventory — chunks 0012–0018, bands 0106D–0120D (245 spans, = the marked spans in your Latin)
+## The inventory — chunks 0012–0018, bands 0106D–0120D (245 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
 
 [0106D] VERS. 1-3.-- « Dixitque Dominus, »   ✓ 1Rg 16:1, 2Par 18:21, 2Rg 21:1, …
 [0106D] « Ex omnibus animantibus mundis tolles septena et septena, »   ⚠ NOT in Clementine verbatim — CHECK

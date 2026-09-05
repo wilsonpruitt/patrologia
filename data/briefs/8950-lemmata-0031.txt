@@ -49,7 +49,13 @@ head-of-range spans into the previous stint's file — the master inventory stay
 the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
 short at the head of their own range, and both found it by doing exactly this count.
 
-## The inventory — chunks 0031–0035, bands 0147C–0160A (221 spans, = the marked spans in your Latin)
+## The inventory — chunks 0031–0035, bands 0147C–0160A (222 spans, of which 1 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
 
 [0147C] VERS. 1-7.-- « Orta autem fame super terram, »   ✓ Gn 26:1
 [0147C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
@@ -162,6 +168,7 @@ short at the head of their own range, and both found it by doing exactly this co
 [0154A] « quoniam suavis est Dominus. »   ✓ Ps 33:9, Ps 99:5
 [0154A] VERS. 11.-- « Tulit de lapidibus, »   ✓ Gn 28:11
 [0154A] *unctus*   — single word, check in place
+[0154A] « Caput enim viri Christus, caput Christi Deus [n: (I Cor. XI.)]   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
 [0154A] VERS. 12.-- « Viditque in somnis, »   ✓ Gn 28:12, Gn 31:24
 [0154B] *Moraliter.*   — single word, check in place
 [0154C] « In quacunque die comederitis, aperientur oculi vestri [n: (Gen. III)]. »   ⚠ NOT in Clementine verbatim — CHECK

@@ -220,10 +220,20 @@ for (const f of files) {
           else strayClose++;   // closes a quote opened in an earlier paragraph — not a defect
         }
       }
-      if (openAt !== null) unclosedQuote++;  // runs past this line and is NOT inventoried
+      // ⛔ AN UNCLOSED « USED TO YIELD NO SPAN AT ALL, so the lemma it opens was in NOBODY'S
+      // inventory — not the master, not any stint file, and not the stints' own counts either.
+      // Reported by the 0004-0007 stint, 2026-09-05: 8950 @0088A `« Et custodiret` and @0088C
+      // `« Praecepitque ei dicens` are real lemmata that every instrument on both sides of the
+      // work was blind to. Counting the line as an anomaly (which this did) is not the same as
+      // inventorying the span, and only the second puts it in front of a translator. So the
+      // span is emitted to the end of its paragraph and MARKED, rather than dropped and tallied.
+      if (openAt !== null) {
+        unclosedQuote++;
+        quotePairs.push([openAt, line.length - 1, 'unclosed']);
+      }
     }
     const notePairs = [...line.matchAll(/\[(?:cn|nt): [^\]]*\]/g)].map(m => [m.index, m.index + m[0].length - 1]);
-    const spans = quotePairs.map(([a, b]) => ({ a, b }));
+    const spans = quotePairs.map(([a, b, flag]) => ({ a, b, unclosed: flag === 'unclosed' }));
     for (let i = 0; i + 1 < starPositions.length; i += 2) {
       const a = starPositions[i], b = starPositions[i + 1];
       // An italic INSIDE a quoted lemma is already listed as part of that lemma; listing it
@@ -239,7 +249,7 @@ for (const f of files) {
       spans.push({ a, b });
     }
     spans.sort((x, y) => x.a - y.a);
-    for (const { a, b } of spans) {
+    for (const { a, b, unclosed: openEnded } of spans) {
       for (const an of anchors) if (an.index < a) band = an[1];
       const span = line.slice(a, b + 1);
       // A VERS. n.-- address immediately preceding the span is carried with it.
@@ -252,7 +262,7 @@ for (const f of files) {
       const before = line.slice(cursor, a);
       const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+(?:\s*[-,]\s*[IVXLCDM\d]+)*\.--[\s.]*)$/);
       cursor = b + 1;
-      rows.push({ file: f, band, caput, vers: vers ? vers[1].trim().replace(/[\s.]+$/, '') : '', span });
+      rows.push({ file: f, band, caput, openEnded, vers: vers ? vers[1].trim().replace(/[\s.]+$/, '') : '', span });
     }
     // ⛔⛔ ADVANCE THE BAND PAST A LINE THAT HAS ANCHORS BUT NO SPANS. The loop above only
     // updates `band` from anchors standing before a span ON THE SAME LINE, so a line carrying
@@ -330,6 +340,8 @@ let hits = 0, misses = 0, singles = 0, elsewhere = 0, printed = 0;
 // this tally instead of re-deriving it, so a future span class cannot desynchronise them.
 // (The splitter's own sum assertion is what caught it, and it stays.)
 const perChunk = new Map();
+const perChunkOpen = new Map();
+let openEndedTotal = 0;
 for (const r of rows) {
   const norm = normalize(r.span);
   const words = norm.split(' ').filter(Boolean);
@@ -371,12 +383,22 @@ for (const r of rows) {
   }
   printed++;
   perChunk.set(r.file, (perChunk.get(r.file) || 0) + 1);
+  if (r.openEnded) {
+    openEndedTotal++;
+    perChunkOpen.set(r.file, (perChunkOpen.get(r.file) || 0) + 1);
+    mark = `⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (${mark})`;
+  }
   const lead = r.vers ? r.vers + ' ' : '';
   out.push(`[${r.band}] ${lead}${r.span}   ${mark}`);
 }
 
 out.push('');
 out.push(`## Totals — ${printed} spans: ${hits} ✓ · ${elsewhere} ⚑ · ${misses} ⚠ · ${singles} single-word`);
+// ⭐ PRINT THE UNMATCHED COUNT BESIDE THE TOTAL. The 0004-0007 stint reconciled 215 against 215
+// and the agreement was FALSE: two of its own counting errors, both caused by unmatched
+// delimiters, had cancelled. `215, 5 unmatched` would have exposed it instantly. A bare total
+// on a guillemet book is not a checkable number.
+out.push(`\n**${openEndedTotal} of those spans are open-ended** (Migne's quotation runs past its paragraph). Count yours paragraph-bounded and report BOTH numbers.`);
 if (unclosed) out.push(`\n⚠ ${unclosed} line(s) carry an odd number of \`*\` — an italic span may cross a line. Check by eye.`);
 // A « with no » on its line is a quoted lemma running past a paragraph break, and it is NOT
 // inventoried — it is the one span class this file can lose silently, so it is reported.
@@ -389,6 +411,7 @@ const countsDest = `data/briefs/${idno}-lemmata.counts.json`;
 fs.writeFileSync(countsDest, JSON.stringify({
   idno, generated: new Date().toISOString(), total: printed,
   note: 'Spans PRINTED in <idno>-lemmata.txt per chunk file, in file order. Written by lemma-inventory.mjs; read by split-lemma-brief.mjs. Never hand-edit, and never re-derive these counts by re-parsing the Latin.',
-  chunks: files.map(f => ({ file: f, spans: perChunk.get(f) || 0 })),
+  openEnded: openEndedTotal,
+  chunks: files.map(f => ({ file: f, spans: perChunk.get(f) || 0, openEnded: perChunkOpen.get(f) || 0 })),
 }, null, 1) + '\n');
-console.log(`${dest} — ${printed} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}${unclosedQuote ? ` · ⚠ ${unclosedQuote} unbalanced-guillemet line(s)` : ''}`);
+console.log(`${dest} — ${printed} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}${openEndedTotal ? ` · ${openEndedTotal} open-ended` : ''}${unclosedQuote ? ` · ⚠ ${unclosedQuote} unbalanced-guillemet line(s)` : ''}`);

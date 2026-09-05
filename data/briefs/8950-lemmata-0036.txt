@@ -49,7 +49,13 @@ head-of-range spans into the previous stint's file — the master inventory stay
 the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
 short at the head of their own range, and both found it by doing exactly this count.
 
-## The inventory — chunks 0036–0041, bands 0160B–0173C (234 spans, = the marked spans in your Latin)
+## The inventory — chunks 0036–0041, bands 0160B–0173C (235 spans, of which 1 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
 
 [0160B] VERS. 1-9.-- « Elevans autem Jacob oculos. . . . divisitque filios Liae et Rachel, »   ⚠ NOT in Clementine verbatim — CHECK
 [0160B] *dimidiavit,*   — single word, check in place
@@ -95,6 +101,7 @@ short at the head of their own range, and both found it by doing exactly this co
 [0162D] *domus panis,*   ⚠ NOT in Clementine verbatim — CHECK
 [0162D] VERS. 18-20.-- « Egrediente autem, »   ✓ Gn 35:18
 [0162D] *filium doloris mei?*   ⚠ NOT in Clementine verbatim — CHECK
+[0163A] « Sanguis ejus super nos, et super filios nostros [n: (Matth. XXVII)].   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (✓ Mt 27:25)
 [0163A] « Et factum est cum dimitteret animam. »   ⚠ NOT in Clementine verbatim — CHECK
 [0163A] « vocavit nomen ejus, filius doloris mei: pater vero ejus vocavit nomen ejus Benjamin. »   ⚠ NOT in Clementine verbatim — CHECK
 [0163A] *filius enim doloris mei,*   ⚠ NOT in Clementine verbatim — CHECK

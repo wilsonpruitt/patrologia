@@ -55,8 +55,11 @@ if (counts.total !== entries.length) {
   console.error(`   The sidecar is stale. Re-run: node scripts/lemma-inventory.mjs ${idno}`);
   process.exit(1);
 }
-const perChunk = new Map();
-for (const c of counts.chunks) perChunk.set(parseInt(c.file.slice(0, 4), 10), c.spans);
+const perChunk = new Map(), perChunkOpen = new Map();
+for (const c of counts.chunks) {
+  perChunk.set(parseInt(c.file.slice(0, 4), 10), c.spans);
+  perChunkOpen.set(parseInt(c.file.slice(0, 4), 10), c.openEnded || 0);
+}
 
 const ranges = rangeArgs.map((a) => {
   const [first, last] = a.split('-').map(Number);
@@ -95,8 +98,8 @@ short at the head of their own range, and both found it by doing exactly this co
 
 let i = 0;
 for (const { first, last } of ranges) {
-  let n = 0;
-  for (let k = first; k <= last; k++) n += perChunk.get(k);
+  let n = 0, openN = 0;
+  for (let k = first; k <= last; k++) { n += perChunk.get(k); openN += perChunkOpen.get(k) || 0; }
   const body = entries.slice(i, i + n);
   i += n;
   const band = (l) => l.slice(1, l.indexOf(']'));
@@ -104,9 +107,14 @@ for (const { first, last } of ranges) {
   fs.writeFileSync(out,
     preamble + NOTE +
     `\n## The inventory — chunks ${String(first).padStart(4, '0')}–${String(last).padStart(4, '0')}, ` +
-    `bands ${band(body[0])}–${band(body[body.length - 1])} (${n} spans, = the marked spans in your Latin)\n\n` +
+    `bands ${band(body[0])}–${band(body[body.length - 1])} (${n} spans, of which ${openN} OPEN-ENDED, = the marked spans in your Latin)\n\n` +
+    `⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span\n` +
+    `counter in both directions — an unmatched \`«\` run forward across a paragraph swallows the next\n` +
+    `span, an unmatched \`»\` shifts the pairing backwards — and on a guillemet book both are common.\n` +
+    `The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own\n` +
+    `errors of exactly this kind had cancelled. A bare total is not a checkable number here.\n\n` +
     body.join('\n') + '\n');
-  console.log(`${out} — ${n} spans, chunks ${first}–${last}, bands ${band(body[0])}–${band(body[body.length - 1])}`);
+  console.log(`${out} — ${n} spans (${openN} open-ended), chunks ${first}–${last}, bands ${band(body[0])}–${band(body[body.length - 1])}`);
 }
 
 if (i !== entries.length) {

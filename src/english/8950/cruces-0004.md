@@ -468,3 +468,128 @@ sixteen consecutive abridged notes, the densest `usque ad` stretch in the range)
 Greek words ὄνυξ and πράσον carried in Greek script as printed), **0090C–0091B** (Rupert on
 nakedness, the longest continuous prose in the range and the only paragraph with no lemma at
 all), and **0094A–0095A**. No findings in any of them beyond what is logged above.
+
+---
+
+## §7 · ADDENDUM (added after the coordinator's harvester fix) — two recovered spans, collated
+
+The lemma harvester paired guillemets positionally and lost spans on any line whose first
+delimiter was a `»` closing a quotation opened in an earlier paragraph. Regenerated, my brief
+prints **216**, and two spans in my range were absent from the file I worked against:
+
+    [0085D] « flavit, vel sufflavit, »
+    [0088A] « delicias »
+
+**Both were translated in the delivered English** — they were never missing from the page,
+only from the inventory — but neither had been collated under 7a″. That is done below.
+**No English text changed as a result.**
+
+### 7.1 ⭐ THE RECOUNT — 216/216, and my own 215 was one short by the SAME class of bug
+
+Re-run with the span scan **bounded to the paragraph**, my four chunks give **216**: 0004
+27 `« »` + 27 `*…*`; 0005 35 + **26**; 0006 20 + 12; 0007 43 + 26.
+
+⛔ **My original 215/215 was a false reconciliation, and the fault was mine as well as the
+file's.** My scan ran an open cursor across the *whole chunk* rather than stopping at the
+paragraph, so an **unclosed `«` swallowed the next paragraph's span**. The exact site:
+
+> 0088A … *Ex eo quod additum est,* **«** *Et custodiret, innuitur qualis operatio* [0088B]
+> *esset: …vetitum violarent.*
+>
+> 0088B **VERS. 16.-- « Praecipitque ei, »** *etc.*
+
+The `«` before *Et custodiret* never closes in its own paragraph (§4.3, site 2), so my cursor
+ran on, ignored the `«` of the next paragraph's lemma, and closed on **its** `»` — fusing two
+paragraphs into one span and deleting **« Praecipitque ei, »** from my tally. The same thing
+happened one paragraph later at 0088C's unclosed `« Praecepitque ei dicens: Ex omni, etc.`,
+which swallowed 0088D's « Priusquam sciat puer… » — there the two errors cancelled, which is
+why the total came out one short rather than two.
+
+⚑ **The lesson, and it is the general one:** an unclosed guillemet is a hazard for *any* span
+counter, not only for a positional pairer, and **the two bugs are the same bug wearing
+different clothes** — mine let an unclosed open run forward, the harvester's let an unmatched
+close shift the pairing. This work carries **five** unmatched delimiters in my range alone
+(§4.2, §4.3), all in chunks 0004–0005, which is why the class bit here rather than elsewhere.
+**Any future count on a guillemet book should be paragraph-bounded and should report its
+unmatched-delimiter count alongside the total** — had I printed "5 unmatched" beside "215",
+the disagreement would have been visible immediately instead of looking like agreement.
+
+⚠ Note also that **an unclosed `«` produces NO span at all** under the paragraph-bounded rule,
+so 0088A's *« Et custodiret* and 0088C's *« Praecepitque ei dicens* are in nobody's inventory —
+mine or the brief's. They are logged at §4.3 and are not lemmata anyone can collate; recording
+that here so a later reader does not go looking for them in the brief.
+
+### 7.2 [0085D] « flavit, vel sufflavit, » — a MENTION, not a quotation. No marker.
+
+> Et inspiravit in faciem ejus spiraculum vitae, et factus est homo in animam viventem. »
+> [n: (AUG., ibid., l. VII, c. 3, 5, 7.)] Sine dubitatione, **« flavit, vel sufflavit, »**
+> dicendum est, etc., *usque ad* poenam si contemneret?
+
+**Collation.** Neither word stands in Gn 2:7, which reads *et **inspiravit** in faciem ejus
+spiraculum vitae* — and **the lemma printed immediately above carries `inspiravit`, verbatim
+and correct** (already recorded clean at §3.4). So the two are not competing readings of the
+same line: the lemma quotes the verse, and this span quotes **two Latin verbs Augustine says
+ought to be used instead**. *De Gen. ad litt.* VII.3 is arguing that the Greek ἐνεφύσησεν is
+better Latinized *sufflavit* than *inspiravit*, because *inspiravit* imports something the
+text does not say.
+
+**Therefore no `[var:]`, and the reason is categorical, not evidential: Pattern 14 fires where
+*Migne's printed scripture* diverges from the received text, and this is not printed scripture
+at all — it is a discussion of how to render it.** It is the mention-vs-use distinction the PG
+register section already draws (never silently English a *mentioned* particle into its
+meaning), applied to a Latin verb. Firing a marker here would tell a reader that Migne's
+Genesis reads *flavit*, which it does not, four words away.
+
+**Corroboration that the type is sound** — both forms are ordinary Latin and the Clementine
+itself carries them: *sufflavit* at Is 40:7, *insufflavit* at Jo 20:22 and Sap 15:11, bare
+*flavit* at Is 40:24 and Sir 43:22. **No non-word, nothing to `[sic:]`, no plate read owed.**
+
+⭐ **What the English had to protect, and did.** The whole point of the sentence is the
+preposition. Our rendering keeps *inspiravit* as **"he breathed into"** ("And he breathed into
+his face the breath of life") against *sufflavit* as **"he breathed upon"** — so Augustine's
+distinction survives in English. Collapsing both into a single "breathed" would have been 7a″
+conformation in its purest form: the exposition would have rested on a contrast the page no
+longer made. Recorded because it was got right by accident of literalism rather than by the
+brief, which did not list the span.
+
+### 7.3 [0088A] « delicias » — Jerome reporting Symmachus. No marker.
+
+> Symmachus vero, qui « paradisum florentem ante transtulerat, hic « amoenitatem, » vel
+> **« delicias »** posuit.
+
+**Collation.** Gn 2:8 reads *paradisum **voluptatis** a principio*; *delicias* is not the
+Vulgate's word there, nor anywhere in Genesis 2–3 (the Clementine's only Genesis instance of
+the noun is Gn 49:20, *praebebit **delicias** regibus*). But the span is **explicitly framed as
+a report** — *Symmachus vero … posuit* — so it belongs with §3.3's labelled alternatives and
+takes no `[var:]` by construction, exactly like « Eden ad Ortum » and « carbunculum et
+prasium ». **No plate read owed.**
+
+Two things worth recording:
+- ⭐ **The Vulgate does use this very word of paradise elsewhere**: Ez 28:13, *In **deliciis
+  paradisi** Dei fuisti*. So Jerome's report is not an exotic reading but the Latin Bible's own
+  alternative vocabulary for Eden, which is precisely why he offers it.
+- ⭐ **Internal consistency, and the English keeps it.** Two columns earlier, at 0086B, the
+  gloss itself renders *in Eden* as **« …in Eden. » Id est *in deliciis*** — the same word,
+  unmarked, in the commentator's own voice. Our English gives "in delights" there and
+  "« delights »" here, so a reader can see that Jerome's report of Symmachus and the gloss's
+  own paraphrase land on the same Latin word. Had the two been varied ("pleasures" / "delights")
+  the connection would have been silently destroyed — the within-work reconciliation rule.
+
+### 7.4 Consequential amendments to what I filed above
+
+- **§1's span figure and §3's opening claim now read against 216, not 215.** The two spans join
+  §3.3 (Migne's own labelled alternatives) — « delicias » — and a new category the file did not
+  previously need: **a mentioned word that is neither lemma nor citation** — « flavit, vel
+  sufflavit, ». Nothing in §3.1 or §3.2 changes; **no `[var:]` is added or withdrawn**, and the
+  apparatus total for my range stands at **3 `[var:]` · 1 `[nt:]` · 0 `[sic:]` · 0 `[cj:]`**.
+- **§3.0's warning about `data/plate-reads.json` is now spent**: the entry exists, pp. 39, 40,
+  46 and 52 are read, and **all three `[var:]` at 0093A/0093B/0093D are confirmed as Migne's own
+  type**. The paragraph stays as filed as a record of the state at delivery.
+- **§2's verifier finding is likewise spent**: the letter-keyed `[cn:]` is now accepted in both
+  places, and Pattern 19 documents the letter as a third key shape. Chunk 0007 verifies clean.
+- **⛔ §4.1 — 0091C `Quod nudi erant et erubescebant` — IS NOT SETTLED AND STAYS DECLINED.**
+  Its column is on **p. 51, which nobody has read.** One page render (or Gallica `f46`) decides
+  whether this is a tei-patch restoring a dropped *non* or a `[sic:]` on Migne's own type. It
+  remains the most important unresolved item in this range, and it is deliberately unmarked.
+- **The band range in §Preamble** (launch message said 0071B–0079C; the chunks are
+  0082A–0095A) is confirmed as a launch-message error, not a translation one. Left as filed.
