@@ -475,6 +475,28 @@ independently by another stint. **So a balanced pair in our Latin is not evidenc
 balanced, and an unbalanced one is not evidence he was unbalanced.** Never adopt a policy about an
 unpaired mark without looking at the column.
 
+### ⭐⭐ IT ALSO NORMALIZES MIGNE'S VERSE ADDRESSES, AND THAT ONE IS SYSTEMATIC
+
+Not a stray slip like `es`→`est`. Four stints of 8950 hit it independently and the direction never
+varies: **Migne's `VERS.` ranges overlap or skip, and the twin prints the tidy partition.**
+
+    plate  VERS. 5-13   16-19   19-24   (0150B/C/D)     twin  6-13   15-19   20-24
+    plate  VERS. 11-19  (0155D)                         twin  11-16
+    plate  VERS. 27-19  (0127D)                         twin  17-19
+    plate  VERS 13.     (0145A)                         twin  VERS. 12.--
+
+Measured: the 0031–0035 stint checked **46 addresses and found 4 divergent**. ⛔ **The English
+renders the plate** — a verse number out of sequence is Migne's, and `[sic:]` is impossible because
+the accused text is not in our Latin.
+
+⚑ **You cannot detect this from our Latin, because tidiness is the symptom.** An overlapping or
+skipping range is the evidence, and only the plate has one; our file looks correct precisely where
+it has been altered. So on a lemma-and-gloss book, **check the `VERS.` addresses against the plate
+while you are reading it for anything else** — they are cheap to check once the leaf is open, and
+nothing downstream will ever flag them. Nothing machine-readable consumes a `VERS.` number (the
+resolver keys on columns, `/scripture` on the `[n:]` citations), so this is faithfulness at the
+sites you happen to open, which is exactly why it has to be done while the page is up.
+
 ⭐ **What follows for you.** Where the plate is read and the twin has tidied a defect away, what is
 owed is a **TEI patch, not a `[sic:]`** — the marker would fail the verbatim-substring guard anyway,
 because the word it accuses is no longer in our Latin. Both 8950 stints that read their own ranges
