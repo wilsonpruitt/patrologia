@@ -87,6 +87,35 @@ upstream project asks for, and the place to look before a marker rests on one le
   own typo as the standard**. Found by the 9000 stint that was translating cols 0325C–0340C; it
   refused to cite the verse and said why, which is the behaviour this note exists to reward.
 
+- **`Gn 15:5` prints *Suscipe cælum*.** The Clementine reads ***Suspice*** (*Suspice cælum, et
+  numera stellas*). ⚑ **The internal control is in this same file and one book away**: `Job 35:5`
+  carries *Suspice cælum, et intuere* spelled correctly, and every other *Suscipe* here governs an
+  accusative of RECEIVING (*Suscipe ex ore illius legem*, `Job 22:22`; *Suscipe me secundum
+  eloquium tuum*, `Ps 118:116`) — the sense at Gn 15:5 is *look up at*, which is *suspicere*.
+  ⛔ **This one manufactured a `⚑ MATCHES ONLY ELSEWHERE` flag in a lemma brief.** 8950 @0121A
+  prints Migne's *« Suspice coelum, »* — which IS Gn 15:5, under `CAPUT XV`, addressed `VERS. 5-8.`,
+  flanked by Gn 15:2 and 15:9, with the same paragraph's next lemma quoting Gn 15:5's own closing
+  words verbatim. Because our copy reads *Suscipe*, the phrase search found nothing in Genesis and
+  fell through to Job 35:5, and the ownership test reported the lemma as matching "only elsewhere".
+  Found and disproved by the 0019–0023 stint, which walked it at the line instead of trusting the
+  flag.
+- **`Gn 15:9` prints *vaccam trienem*.** The Clementine reads ***triennem*** (three-year-old, beside
+  *capram trimam* and *arietem annorum trium* in the same verse). ⚑ **Frequency settles it without
+  leaving the file**: *trienem* occurs exactly ONCE in the whole Clementine and *triennem* zero
+  times — a form attested once and never again, in a verse whose two neighbouring phrases both say
+  "three years old". It produced a false `⚠ NOT in Clementine verbatim` on the same column as the
+  entry above, **nine lines below it**.
+
+⛔⛔ **THE CLASS, AND WHY IT IS THE ONE NO PLATE READ CAN CATCH.** Both entries above were found in
+ONE COLUMN of one work. A defect in this copy does not merely fail to clear a good lemma — it
+**manufactures a divergence that looks exactly like a real one**, and the instrument that would
+normally settle it is useless here: reading Migne's plate confirms what Migne printed, which is
+already not in doubt. It is the Vulgate-side twin of 9003's `judicabit`→`judicavit`, where the
+digitization created the divergence a collation then dutifully "found". ⚑ **So a `⚠` or a `⚑` on a
+lemma that IS demonstrably its own verse by address, chapter head and neighbours is evidence about
+THIS FILE first, and the correct response is to check the comparand before writing anything about
+Migne.**
+
 ⚑ **How to check one yourself, and why the internal control is the cheap move:** the Clementine
 repeats its own formulae across books, so a suspect reading usually has a correctly-spelled twin
 somewhere in this file. Grep the phrase, not the word. Where no twin exists, say the call rests on
