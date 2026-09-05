@@ -11,16 +11,29 @@ translation at the runbook's recalibrated ~40K/chunk, plus ~0.3–0.5M for the b
 (budget it: lemma-and-gloss is the richest genre for that class) and ~0.3M for patches, plate reads
 and the merge.
 
-### Where the work stands
+### Where the work stands (updated as stints land)
+- ✅ Stints 1–3 DONE: **chunks 0000–0011, 16,975 Latin words, verify-clean.** 13 `[var:]`, **zero `[sic:]`**.
+- ⬜ Stints 4 (0012–0018) and 5 (0019–0023) RUNNING. Stint 2 resumed for two lemmata its brief lacked.
+- ⬜ **Four stints left to launch: 24-30, 31-35, 36-41, 42-46.**
+- ✅ `plate-gate.mjs 8950` is **GREEN** — 10 recorded reads covering every marker.
+- ⛔ **DEFERRED ON PURPOSE — the TEI patches.** ~20 twin/plate divergences are filed in
+  `data/briefs/8950-PENDING-TEI-PATCHES-0008.md` plus `recerunt`→`fecerunt` at 0069B, which I
+  confirmed at the plate on p.40. **Do not apply them while stints are running**: applying means
+  re-chunking, and re-chunking rewrites every chunk, including the ones agents are reading. Apply
+  after the last stint lands, then re-run `inject-plate-notes` and re-verify. **Seven `[sic:]` are
+  OWED once the patches land** and are named in that file — the 0008–0011 stint could not fire them
+  because our twin had already tidied the plate's defect away, so the marker would fail the
+  verbatim-substring guard.
+
 - ✅ Chunked, validated (460 column marks, 722 notes, words conserved).
 - ✅ **Plate spot check DONE and it was NOT a checked zero** — see below. `coverage.json` = `partial`,
   2 notes recovered, 1 injected.
-- ✅ Lemma inventory rebuilt: **1,805 spans, 1,002 ✓ / 2 ⚑ / 398 ⚠ / 403 single-word.**
-- ✅ Split into **nine stints**, balanced by words, all 1,805 spans allocated:
+- ✅ Lemma inventory rebuilt twice: **1,811 spans, 1,013 ✓ / 2 ⚑ / 391 ⚠ / 405 single-word** (the
+  second rebuild recovered 21 spans a pairing bug had been dropping — see below).
+- ✅ Split into **nine stints**, balanced by words, all 1,811 spans allocated:
   `0-3 · 4-7 · 8-11 · 12-18 · 19-23 · 24-30 · 31-35 · 36-41 · 42-46`.
-- ⬜ **Stints 1–3 (chunks 0000–0011) LAUNCHED on Opus, throttled 3 at a time** per CLAUDE.md rule 5
-  (multi-million-token run). **Six stints remain to launch: 12-18, 19-23, 24-30, 31-35, 36-41, 42-46.**
-- ⬜ Then: `verify-english`, cruces merge, blind polarity read, patch pass, plate gate, preflight.
+- ⬜ Remaining pipeline: `verify-english`, cruces merge, blind polarity read, patch pass, plate gate,
+  preflight, deploy.
 
 ⛔ Nothing is deployed and nothing is pushed for 8950. `master` is ahead of `origin/master`.
 
