@@ -36,6 +36,32 @@ corpus-as-control disciplines are what cost the difference, and they are worth i
 (they produced 46 `[var:]` and settled seven markers that would otherwise have been
 guesses). Do not quote the cheaper number to make a launch easier to approve.
 
+**⚠⚠ RE-CALIBRATED AGAIN 2026-09-05 on 8950 (Genesis) — quote ~58K/chunk for translation alone
+and ~73K/chunk when the stint reads its own plates.** The ~40K figure above is a translation-only
+rate from before step 4a″ existed. Measured across seven stints of one work, 38 chunks:
+
+    translation only, no plate read      57,779 tok/chunk   (3 stints, 15 chunks)
+    translation + plates read INLINE     72,801 tok/chunk   (3 stints, 16 chunks)
+    the SAME range done as two passes   114,233 tok/chunk   (stint 4: 47,727 then 66,506)
+
+⭐⭐ **THE SPLIT COSTS 57% MORE THAN DOING IT INLINE, and that is the number that settles 4a″.**
+Stint 4 translated its seven chunks without reading plates (correctly — its columns were unread),
+collated 26 divergences it could fire none of, and had to be sent back; the second pass re-read the
+range's whole context to recover which words were at stake. Stint 6 did the same amount of work in
+one pass at 63,950/chunk. **Same work, same model; the only difference is whether the plate read
+happened while the words were still in view.**
+⚑ Quote the inline rate, not the cheap one: a work whose plates are unread WILL need them read, and
+budgeting 40K/chunk for it under-states the real cost by nearly two-thirds.
+
+⛔ **AND BUDGET THE USAGE WINDOW, NOT ONLY THE TOKENS.** Three stints running at the sanctioned
+3-at-a-time died together on a session limit mid-batch on this run — the rule-5 failure mode
+(*"the run gets stuck waiting on a usage reset, which is worse than slow"*) reached at THREE
+concurrent, not six, because each stint now costs roughly double what rule 5 was written against.
+On a work this size expect the run to span usage windows and plan the stint boundaries so a death
+costs one batch, not the fleet. One stint had written all five English chunks and **no cruces and no
+plate-read file** when it died — the documented shape: `verify-english` passes and the apparatus
+hole is invisible. **Check disk before resuming, and name the missing files.**
+
 **The polarity read is a second burn and belongs in the same statement.** Six blind
 readers over 48 chunks is its own fleet; state it at launch rather than discovering it
 after the translation is paid for.
