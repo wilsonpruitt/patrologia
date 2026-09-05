@@ -257,3 +257,49 @@ both are clean neither is a defect to accuse anyone of.
 5,831 words, and **three TEI patches, all Corpus Corporum's, none Migne's** (@0068D a lost full
 stop · @0071D `oerum` · @0076C `pesecutio`). Zero `[sic:]` is what this class looks like when it
 is measured rather than guessed at.
+
+---
+
+## §7. THE FIVE REMAINING ⚑ FLAGS — THE INSTRUMENT'S SIDE PRE-CHECKED, THE PLATE CALL STILL YOURS
+
+The three flags in cols 0079A–0096B were adjudicated by the 0006–0011 stint and **all three are
+real divergences**, confirmed on both plates: @0080B *fructus dignos* (Mt 3:8 has singular
+*fructum dignum*, and Migne's own prose uses the plural twice more within two columns), @0093A
+*Dico autem vobis* (Mt 5:20 has *Dico **enim** vobis*), @0095B *Det illi* (Mt 5:31 has *det
+**ei***). ⚑ In two of the three the "harmony parallel" explanation **failed on inspection** — Lc
+9:27/12:4/12:8 are not parallels of Mt 5:20 at all, merely other places three common words
+co-occur, and 2 Tim 1:18 is a two-word coincidence about Onesiphorus. **A reference list is not a
+parallel; read the verses.**
+
+For the remaining five the Clementine side has been checked in advance so that nobody spends a
+stint re-deriving it. **This settles what the flag's CAUSE is. It does not settle the plate, and
+the reading and the marker call are still yours.**
+
+    @0106B  Et de vestimentis     Mt 6:28  Et de vestiMENTO quid solliciti estis
+                                  → a real candidate: singular in the Vulgate, plural in Migne.
+    @0161D  Si fieri posset       Mt 24:24 ita ut ... (si fieri POTEST) etiam electi
+                                  → a real candidate: tense. Note Migne's words are the verse's
+                                    own parenthesis, so check the surrounding clause too.
+    @0165B  Posuit autem          Mt 25:19 venit dominus ... ET POSUIT rationem cum eis
+                                  → a candidate, but a SINGLE WORD (autem/et). Launch brief §2's
+                                    bar applies: it stands only if the gloss argues from it, or
+                                    the form is one letter-level corruption cannot manufacture.
+
+⛔⛔ **AND TWO OF THE FIVE ARE ARTIFACTS OF THE INSTRUMENT, NOT DIVERGENCES AT ALL. Do not fire a
+`[var:]` on either.**
+
+    @0157D  Tunc locutus est      Mt 23:1  Tunc JESUS locutus est ad turbas
+                                  → Migne's lemma is CLIPPED, and the phrase search fails only
+                                    because a word stands between his two halves. This is
+                                    convention 3's ordinary fragment. NOT a divergence.
+    @0169D  Etsi omnes            Mt 26:33 ET SI omnes scandalizati fuerint in te
+                                  → a WORD DIVISION, nothing more. The search fails on the space.
+                                    NOT a divergence, and not a `[sic:]` either.
+
+⚑ **This is the third time the `⚑` has fired on something other than a divergence**, and the class
+is now general enough to state: **the ownership test is a phrase search, so it fails on an elided
+word, on a word division, and on a defect in our own Clementine copy** (`sources/vulgate/README.md`
+records three of those, one of which manufactured a ⚑ on 8950 — and a fourth was added
+2026-09-05 from this work, `Mt 5:15` *accedunt* for *accendunt*, found because Migne, our twin and
+sense all agreed against the comparand). **Before you call a ⚑ a divergence, say which of the four
+causes you have excluded.**

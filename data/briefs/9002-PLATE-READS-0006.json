@@ -1,0 +1,140 @@
+{
+  "note": "STINT-SCOPED plate reads for 9002 (Glossa ordinaria, Ev. sec. Matthaeum), chunks 0006-0011, cols 0079A-0096B. Written by the 0006-0011 translation stint per launch-brief §1. NOT to be written into data/plate-reads.json by this stint -- peers run concurrently; the orchestrator merges.",
+  "work": "9002",
+  "series": "pl",
+  "volume": 114,
+  "stint": "0006-0011",
+  "range": "0079A-0096B",
+  "date": "2026-09-05",
+  "witnesses": {
+    "archive": {
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "calibration": "corner numbers read FIRST on every page; p.45 read 79/80 and p.53 read 95/96, both as the map predicts",
+      "render": "pdftoppm -f N -l N -r 300 -png",
+      "pages": "45-53"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "page_map": "f = (column + 1) / 2",
+      "calibration": "corner numbers read FIRST on every leaf; f40 read 79/80 and f48 read 95/96, both as the map predicts",
+      "endpoint": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/full/0/native.jpg (User-Agent required; f<N>/info.json gives native dims; HTTP 429 on bursts -- space the requests)",
+      "leaves": "f40-f48"
+    }
+  },
+  "headline": "EVERY column of this range was read on the archive copy, and every candidate raised there was then checked on Gallica. TWENTY-ONE candidates raised; TWENTY refuted by the second witness; ONE confirmed. Zero [sic:] are fireable in this range. The one confirmed defect is Corpus Corporum's (@0090D maledieta for maledicta) and is filed as a TEI patch, plus one punctuation patch at @0081D.",
+  "structural_finding": "THE ARCHIVE COPY OF pp.45-53 IS HEAVILY OVER-INKED AND IS THE WORSE WITNESS BY 20:1 IN THIS RANGE. That independently reproduces, on a different eight-page stretch and by a different reader, the 12:1 measured by the 0000-0005 stint on pp.37-44 -- so the ratio is a property of this copy across Matthew's opening, not of one page run. Every class of letter-level 'finding' the archive manufactured here is in the refuted list below: turned letters (u->e, e->c, m->n, c->o, c->e, u->n), lost letters (s, t, c), split runs (n on, e st, signifi cantia, po-estas), a filled counter turning AUG. into ARG., and a broken sentence-final period read as a comma. NOT ONE survived. ⛔ The most instructive is @0088A: the archive prints what reads unmistakably as '(ARG.) Quaeritur quomodo Mathaeus', with TWO cleanly-printed '(AUG.)' on the same page as an internal control -- and Gallica prints '(AUG.) ... Matthaeus'. An internal control on a shared photograph is not a second witness.",
+  "reads": [
+    {
+      "pages": "archive p.45 / gallica f40",
+      "cols": "0079A-0080D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "Nothing attributable to Migne. Two archive candidates raised and both refuted at Gallica: @0080B 'jebemur' (Gallica: jubemur) and @0080D 'hnmanitate' (Gallica: humanitate). Archive also shows a speck between 'venenati' and 'venenatorum' that Gallica has as clean space. CONFIRMED on both witnesses and carried into the English: @0079B 'qui vere poenitet, in se praeteritos errores, deinde erigit animum' -- Migne's own sentence has NO verb governing 'in se praeteritos errores'. CONFIRMED on both witnesses: @0080B lemma 'Facite ergo fructus dignos', the Lucan plural under a Mt 3 address."
+    },
+    {
+      "pages": "archive p.46 / gallica f41",
+      "cols": "0081A-0082D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "Two archive candidates refuted at Gallica: @0081D 'n on' for 'non' (Gallica sets it closed up) and @0082C 'Inextinguibili' (Gallica prints 'Inexstinguibili', with the s, matching our twin). Also refuted: '(BEDA)' without the internal period at 0084B-style sigla -- Gallica prints '(BEDA.)'. ONE divergence between our twin and BOTH plates: @0081D our twin prints 'Ac si dicat.' where both copies print 'Ac si dicat :'. Filed as a patch."
+    },
+    {
+      "pages": "archive p.47 / gallica f42",
+      "cols": "0083A-0084D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "Two archive candidates refuted at Gallica: @0083C 'cum in quem descendebat' (Gallica: 'eum in quem descendebat', which is also the only reading that construes) and @0084D 'hoc non e st' (Gallica sets 'est' closed up). CONFIRMED on both witnesses: @0084A the lemma is the dative '*Spiritui* Sancto' with only 'Spiritui' in italic, against Mt 4:1's ablative 'a Spiritu'."
+    },
+    {
+      "pages": "archive p.48 / gallica f43",
+      "cols": "0085A-0086D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "One archive candidate refuted at Gallica: @0085A 'non infirmatas fuit' (Gallica: 'non infirmitas fuit'). Nothing else. The Greek at @0086B (λατρεύσεις, λατρεία, δουλεία) is legible and correct on both copies."
+    },
+    {
+      "pages": "archive p.49 / gallica f44",
+      "cols": "0087A-0088D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "The range's strongest-looking archive candidate, refuted in both halves: @0088A archive reads '(ARG.) Quaeritur quomodo Mathaeus et Marcus', Gallica reads '(AUG.) Quaeritur quomodo Matthaeus et Marcus'. Our twin is right on both counts. CONFIRMED on both witnesses and carried as a [var:]: @0087A the lemma 'Habitantibus in regione' against Mt 4:16's 'sedentibus in regione'. CONFIRMED on both: @0087B 'quod clamat in Jordane organo', where the argument wants 'in Joanne'."
+    },
+    {
+      "pages": "archive p.50 / gallica f45",
+      "cols": "0089A-0090D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "THE ONE CONFIRMED DEFECT IN THE RANGE: @0090D our twin reads the non-word 'maledieta'; BOTH plates read 'maledicta'. Corpus Corporum's, filed as a TEI patch; the English renders 'maledicta' per the plate-where-read rule. Two archive candidates refuted at Gallica: @0089A 'altiora virtutem culmina' (Gallica: 'virtutum') and @0089C '(CHRYSOS.)' (Gallica: '(CHRYSOST.)'). CONFIRMED on both witnesses: Migne's own '(Psal. CLXI)' for Ps 141:6."
+    },
+    {
+      "pages": "archive p.51 / gallica f46",
+      "cols": "0091A-0092D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "Three archive candidates refuted at Gallica: @0091B 'dootrina' (Gallica: 'doctrina'), @0092B 'candelabrun crux est' (Gallica: 'candelabrum'), @0092C 'signifi cantia' split across a space (Gallica sets 'significantia' closed up). CONFIRMED on both witnesses: @0091B Migne's conflated Isa 49:6 / Act 13:47, 'Posui te in lucem gentium, ut sis salus mea usque ad extrema terrae'."
+    },
+    {
+      "pages": "archive p.52 / gallica f47",
+      "cols": "0093A-0094D",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "Three archive candidates refuted at Gallica: @0093C 'homieidium' (Gallica: 'homicidium'), @0094C 'quadranten novissimum' (Gallica: 'quadrantem'), and @0093D, which mattered most because it would have changed the English -- the archive prints 'si praesens est, *offeres*.' with a comma and a lower-case o, Gallica prints 'si praesens est. *Offeres*.' exactly as our twin has it. Also refuted: 'afferet' (Gallica: 'afferret'). CONFIRMED on both witnesses: @0093A lemma 'Dico autem vobis' against Mt 5:20's 'Dico enim vobis'; @0094B Migne's own contradiction 'ut poenitentiae locum non afferret' immediately followed by 'Sed et locum poenitentiae reliquit'; @0094C Migne's citation '(Marc. XI)' for Mt 5:17."
+    },
+    {
+      "pages": "archive p.53 / gallica f48",
+      "cols": "0095A-0096B",
+      "witnesses": [
+        "archive",
+        "gallica"
+      ],
+      "corner_numbers_checked": true,
+      "found": "Four archive candidates refuted at Gallica: @0095A 'silicet' (Gallica: 'scilicet'), @0095D 'per quod jura quilibet veneratur' (Gallica: 'jurat'), @0096A 'ili debet juramentum' (Gallica: 'illi'), @0096A 'Non est po-estas nisi a Deo' with the t lost at the line break (Gallica prints the t). Also refuted: the archive's missing period after the VERS. 31 lemma (Gallica prints '*Det illi.*' as our twin has it). CONFIRMED on both witnesses: @0095B lemma 'Det illi' against Mt 5:31's 'det ei'; @0095A 'Abscinde eam' against the Vulgate's 'abscide eam'; @0095A 'Dextera manus tua' against 'dextra'."
+    }
+  ],
+  "sic_fireable": 0,
+  "var_fired": 13,
+  "var_columns": [
+    "0080B",
+    "0082A",
+    "0082A",
+    "0085C",
+    "0086C",
+    "0087A",
+    "0087A",
+    "0089B",
+    "0091B",
+    "0092C",
+    "0093A",
+    "0093A",
+    "0095B"
+  ],
+  "tei_patches_filed": 2,
+  "candidates_raised_on_archive": 21,
+  "candidates_refuted_by_gallica": 20,
+  "candidates_confirmed": 1
+}

@@ -87,6 +87,18 @@ upstream project asks for, and the place to look before a marker rests on one le
   own typo as the standard**. Found by the 9000 stint that was translating cols 0325C–0340C; it
   refused to cite the verse and said why, which is the behaviour this note exists to reward.
 
+- **`Mt 5:15` prints *neque **accedunt** lucernam*.** The Clementine reads ***accendunt***
+  (*neque accendunt lucernam, et ponunt eam sub modio*). *Accedere* is intransitive and cannot
+  take *lucernam* — the phrase does not construe at all, which is the tell. ⚑ **The internal
+  control is the synoptic parallel, in this same file**: `Lc 11:33` has *Nemo lucernam **accendit***
+  and `Lc 8:16` *lucernam **accendens***, both spelled correctly, and the whole point of the verse
+  is a lamp being LIT. ⛔ Found 2026-09-05 by the 9002 stint translating cols 0079A–0096B, which
+  noticed that **Migne and our own Latin twin agree on the standard reading** and the comparand is
+  the odd one out. That is the shape to watch for: where the plate, the twin and sense all agree
+  against `clementine-flat.txt`, suspect the comparand before you suspect Migne — a `[var:]` there
+  would have accused him of a divergence from the Vulgate using our own typo as the standard, which
+  is the identical failure the 1Thes 5:3 entry above records.
+
 - **`Gn 15:5` prints *Suscipe cælum*.** The Clementine reads ***Suspice*** (*Suspice cælum, et
   numera stellas*). ⚑ **The internal control is in this same file and one book away**: `Job 35:5`
   carries *Suspice cælum, et intuere* spelled correctly, and every other *Suscipe* here governs an

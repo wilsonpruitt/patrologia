@@ -419,6 +419,489 @@
     }
    ]
   },
+  "8950": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2 — calibrated on this work's own range from the printed corner numbers before any reading (p.39 reads 67/68), and the corners re-read on every page below",
+   "reads": [
+    {
+     "from": "0067A",
+     "to": "0068D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 39,
+     "source": "on-disk PL 113 scan, full page at 200 dpi plus 400 dpi crops of the foot and the anchor; CALIBRATION PAGE, corners read 67/68",
+     "found": "the work's opening. Migne's foot note (a) Revocantur lector ad tomos Patrologiae nostrae. EDIT., keyed to the raised a in (BEDA, Hexaem. lib. I, tom. II, col. 13 a.) — recovered to plate-notes, not placeable as [cn:] because the anchor sits inside an [n: …] citation. `Revocantur` with singular `lector` left as a lead, unadopted"
+    },
+    {
+     "from": "0069A",
+     "to": "0070D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 40,
+     "source": "on-disk PL 113 scan, full page at 200 dpi, corners read 69/70 first",
+     "found": "THREE [var:] CONFIRMED AS MIGNE'S TYPE — 0069A « Qui fecisti mundum de materia informi (Sap. XI) » against Sap 11:18 ex materia invisa; 0070A « Et spiritus Domini ferebatur super aquas » against Gn 1:2 Spiritus Dei, and the plate's own Augustine gloss five lines below reads Spiritus DEI superferebatur; 0070C Psal. CIII « Emitte, ait, Spiritum tuum » against Ps 103:30 Emittes. ⛔ AND ONE OF OURS: our Latin prints the non-word `recerunt` at 0069B where the plate reads `se fecerunt deformes` — a Corpus Corporum defect, TEI patch owed, and the 0000-0003 stint was right to decline a [sic:] on it"
+    },
+    {
+     "from": "0081A",
+     "to": "0082D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 46,
+     "source": "on-disk PL 113 scan, full page at 200 dpi, corners read 81/82 first",
+     "found": "[var:] CONFIRMED AS MIGNE'S — 0081A « Seminavimus spiritualia vobis, magnum est si carnalia vestra metamus (I Cor. IX) », where the Vulgate sets the whole as a conditional question. Also confirms Migne pads a VERS. address with ellipsis dots before its lemma (VERS. 28. —..... « Et dominamini piscibus, »), the shape that had defeated the lemma-inventory address regex"
+    },
+    {
+     "from": "0093A",
+     "to": "0094D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 52,
+     "source": "on-disk PL 113 scan, full page at 200 dpi plus a 400 dpi crop of the foot; corners read 93/94 first",
+     "found": "THREE [var:] CONFIRMED AS MIGNE'S TYPE — 0093A « Tunc viderunt quod nudi essent » against Gn 3:7 cumque cognovissent; 0093B Joan. I « Cum esses sub ficus vidi te, et descendi » with the added clause; 0093D « Adam, ubi es? » with a vocative the Vulgate lacks. Also Migne's second foot note, a In Hebraeo est gahon, quod ventrem et pectus significat., keyed to « pectus a » at 0094D — recovered and PLACED as [cn: a | …]"
+    },
+    {
+     "from": "0095A",
+     "to": "0096D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 53,
+     "source": "on-disk PL 113 scan, full page width at 300 dpi + 600 dpi crops; corner numbers 95/96 read first",
+     "found": "no foot-of-page apparatus of either layer; twin/plate divergences: none confirmed in these columns beyond punctuation seen at 300 dpi only (Spinae antea erant sed non)"
+    },
+    {
+     "from": "0097A",
+     "to": "0098D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 54,
+     "source": "on-disk PL 113 scan; corner numbers 97/98 read first; 600-1200 dpi crops at four sites",
+     "found": "no foot-of-page apparatus; plate reads Deos (twin Deus) @0097A, Remotum est (twin Remotus) @0097D, sed potest (twin sed post) @0098A, et. (twin etc.) @0098C"
+    },
+    {
+     "from": "0099A",
+     "to": "0100D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 55,
+     "source": "on-disk PL 113 scan; corner numbers 99/100 read first; 600 dpi crop at 0100A",
+     "found": "no foot-of-page apparatus; plate reads delicta (twin dilicta, OUR corruption) @0099C, septulum (twin septuplum) and interpretatur (twin interpretantur) and septempliciter: (twin ;) @0100A; unclosed guillemet @0100C confirmed as MIGNE'S"
+    },
+    {
+     "from": "0101A",
+     "to": "0102D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 56,
+     "source": "on-disk PL 113 scan; corner numbers 101/102 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus; plate reads vulnera (twin vulnere) @0101C, intellectu (twin intellecta) @0102C; unclosed guillemet before Tubalcain @0101C confirmed as MIGNE'S; Posuit mihi Dominus @0102B confirmed (Vulg. Deus)"
+    },
+    {
+     "from": "0103A",
+     "to": "0104D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 57,
+     "source": "on-disk PL 113 scan; corner numbers 103/104 read first; 600-1200 dpi crops at four sites",
+     "found": "no foot-of-page apparatus; Joan. v @0103B confirmed (the words are Job 5:3); plate omits the semicolon after dedicatio and prints one after positio @0103C; (HIER., Hebr. ibid.) @0104C; two Hebrew words dropped by CC; contesimo (twin centesimo) @0104D; VERS. 5 « Videns autem Dominus » CONFIRMED @0104D"
+    },
+    {
+     "from": "0105A",
+     "to": "0106D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 58,
+     "source": "on-disk PL 113 scan; corner numbers 105/106 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus (foot carries only PATROL. CXIII. and signature 4); plate reads Potet (twin Potest) and treeentis (twin trecentis) @0105D; « Ostium autem arcae @0106A — the plate is BALANCED and our twin has DROPPED the opening guillemet"
+    },
+    {
+     "from": "0106D",
+     "to": "0106D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 58,
+     "source": "on-disk PL 113 scan, corner numbers 105/106 read first; 600 dpi crop at the foot of col 106D. Cols 0105A-0106C were read by the 0008-0011 stint; only 106D is claimed here.",
+     "found": "no foot-of-page apparatus (foot carries only the signature 4); CAPUT VII. confirmed with terminal period; Gn 7:2 lemma CONFIRMED as *tolles* (Vulg. *tolle*); Migne prints TWO repeated line-head guillemets inside the lemma («Ex «omnibus ... septe-«ptena,») which our twin drops"
+    },
+    {
+     "from": "0107A",
+     "to": "0108D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 59,
+     "source": "on-disk PL 113 scan; corner numbers 107/108 read first; 600-1200 dpi crops at five sites",
+     "found": "no foot-of-page apparatus of either layer. CONFIRMED as Migne's: Gn 8:18 lemma cut back to « Egressus est Noe et uxor ejus. » @0107C; Ecl 3:5 as *amplectendi/abstinendi* @0107C; Gn 2:7 as *insufflavit ... spiritum vitae* @0108B; Gn 8:1 as *Recordatus est autem Deus « Noe* with the repeated guillemet @0108C. TWIN DEFECTS: plate prints *uspue ad ad tenendam* @0108C where our twin has normalized to *usque ad ad* (1200 dpi, the p-bowl is unambiguous); plate prints VERS. 20-22. with terminal period where twin has VERS. 20-22--; plate prints « Ingressus est Noe et filii ejus,. « uxor, » with a stray period and a repeated guillemet @0107C"
+    },
+    {
+     "from": "0109A",
+     "to": "0110D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 60,
+     "source": "on-disk PL 113 scan; corner numbers 109/110 read first; 1200 dpi crops at the 0110B crux",
+     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: (Psal. XIX) siglum on Ps 119:7 @0109C; Gal 5:17 as *nunc ... et* @0110D; Gn 8:21 without *ultra* @0110D; *vicesima septima* as the entry date @0110B, which contradicts Gn 7:11 and this paragraph's own next sentence; *intraverunt* @0110D (the archive OCR's *intraverant* was OCR noise — a checked negative). TWIN DEFECTS: plate reads *Ingressus EST enim* where twin has *es*; plate reads *NON dicit* where twin has *num*; plate reads *in arca, ipsa die* without the twin's *et*; plate siglum is (Ibid ) without period @0110B"
+    },
+    {
+     "from": "0111A",
+     "to": "0112D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 61,
+     "source": "on-disk PL 113 scan; corner numbers 111/112 read first; 1200 dpi crop at 0112B",
+     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Gn 9:1 without *ejus* @0111A; 1Cor 1:23-24 with *gentibus* for *Graecis* and *Dei virtus* for *Christum Dei virtutem* @0112A; Gn 9:18 as *Erant igitur* @0112A; Gn 9:25 as *Maledictus Chanaan PUER* at both 0112C and 0112D; *Illi enim non pereunt diluvio separati ab Ecclesia* @0111C, so that ambiguity is his. TWIN DEFECT: plate reads *ridiculum ei visum ET FACIMUS cui minime debebat* @0112B where our twin has normalized BOTH words to *est facinus* — the twin's reading is good Latin and the plate's does not construe; plate prints capital X for chi @0112A where twin has lowercase"
+    },
+    {
+     "from": "0113A",
+     "to": "0114D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 62,
+     "source": "on-disk PL 113 scan; corner numbers 113/114 read first; 1200 dpi crops at four sites",
+     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Is 14:13 as *Ascendam super astra coeli* @0113D; Gn 10:13 as *Nephetuim* @0114A; Gn 11:2 as *viderunt* for *invenerunt* @0114C; VERS. 8. printed twice, the first on Gn 10:7's *Regma et Saba* @0113C. TWO HEBREW WORDS DROPPED BY CC @0113C: the plate prints *in Hebraeo habetur [heb] et [heb] scheba et seba*, the Hebrew being SIN-BETH-ALEPH and SAMECH-BETH-ALEPH, and our twin retains only *habetur et ... et ...*. TWIN DEFECTS: plate reads *Japhet* (no h) at BOTH « Dilatet Deus Japhet. » and VERS. 27-29 « Dilatet Deus Japhet, » @0113A, and *Japheth* at the third occurrence, so Migne is inconsistent within three lines and our twin has made all three uniform; plate has NO closing guillemet on « Regma et Saba, etc. @0113C and our twin supplies one; head is CAPUT .X. with a raised stop"
+    },
+    {
+     "from": "0115A",
+     "to": "0116D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 63,
+     "source": "on-disk PL 113 scan; corner numbers 115/116 read first; 1200 dpi crops at three sites",
+     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Gn 1:27 as *Fecit ... et similitudinem suam* @0115A; the Greek EN RABDO SIDERA with *in raudo sidera* / *sidera* / *ferrea* / *astra* exactly as our twin @0115B; Gn 11:10 word order @0115C; Gn 15:7 as *Ego sum qui* @0115D; Gn 11:29 as *Aram* @0115D; Gn 12:3 as *omnes gentes terrae* @0116C; the orphan closing guillemet at VERS. 2-3.--Faciamque @0116B is HIS (no opener on the plate either). HEBREW DROPPED BY CC @0115C: the plate prints *in Ur Chesdim (ALEPH-VAV-RESH-KAPH-SIN-DALET-YOD-MEM)* and our twin leaves the parentheses EMPTY. TWIN DEFECTS: plate reads *usque* WITHOUT a comma and OPENS a guillemet before *facti* @0115D, so the plate is balanced there and our twin has dropped the opener; plate repeats the line-head guillemet in « Thare genuit Abram et Na-«chor. » @0115C; plate has a space after VERS. 2-3. — where twin has none"
+    },
+    {
+     "from": "0117A",
+     "to": "0118D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 64,
+     "source": "on-disk PL 113 scan; corner numbers 117/118 read first; 1200 dpi crops at three sites",
+     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Tit 3:10 as *primam ... correctionem* @0117D; the anacoluthic *Pastores ejus, haereticos et schismaticos, qui ... pacem et unitatem continentes;* @0117D; the LXX/Hebrew pair at 0117B; *ab Helia* @0117B. HEBREW DROPPED BY CC at two sites: *habetur [KAPH-BETH-DALETH] gravis vehementer* @0117A, and *civitas quatuor; [QOPH-RESH-YOD-TAV] CHARIAT enim Hebraice civitas, [ALEPH-RESH-BETH-AYIN] arbe quatuor* @0118C, where the loss has also FUSED two of Migne's italic phrases into our twin's single span *civitas, arbe quatuor*. TWIN DEFECTS: plate prints CAPUT XIII. WITH the terminal period, which our twin and its frontmatter both lack; plate reads *ponitur. ideo fit quia* with a full stop and lower case @0118B where our twin has a comma"
+    },
+    {
+     "from": "0119A",
+     "to": "0120D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 65,
+     "source": "on-disk PL 113 scan; corner numbers 119/120 read first; 1200 dpi crops at five sites",
+     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Gn 14:5 as *Raphaim in Astaroch* @0119D; the Jos 24 conflation *Quid vultis servire diis patrum vestrorum qui sunt trans flumen?* @0119D; Hbr 7:3 as *sine patre et matre* @0120C; Tit 1:12 word order *pigri ventres* @0120D; Is 22:13's words under the (I Cor. XV) siglum @0119C. TWIN DEFECTS: plate reads *versa est, quod* with a COMMA @0119B where our twin has a full stop, and *primum Bara. qui* with a PERIOD where our twin has a comma — CC has swapped both marks, in opposite directions, four lines apart; plate prints *Mystice* and *Allegorice* WITHOUT the terminal period @0119B where our twin adds one to each; plate reads *stipendia legitime pugnantibus DEBITO non abnegans* @0120D where our twin has normalized to *debita*; plate reads *ad utilitatum fidelium* @0120D where our twin has *utilitatem*; plate closes the Tit 1:12 quotation with a SEMICOLON inside the guillemets @0120D where our twin has a comma"
+    },
+    {
+     "from": "0121A",
+     "to": "0122D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 66,
+     "source": "on-disk PL 113 scan, full page width at 150 dpi + 600 dpi crops; corner numbers 121/122 read first",
+     "found": "no foot-of-page apparatus of either layer (page foot carries only a centred dot). Plate confirms « Suspice coelum » @0121A (see cruces-0019 §2 — NOT a divergence), « Pavor irruit » @0121C, « Videbis posteriora mea, nam facies non apparebit tibi » and « Non enim homo videbit faciem meam et vivet » @0122C. Plate sets a CLOSING » before Ego vado @0121A where our twin sets « ; plate prints (HIERON, in Q. Hebr.) with a comma and VERS. 2, — with a comma. Marks follow the twin."
+    },
+    {
+     "from": "0123A",
+     "to": "0124D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 67,
+     "source": "on-disk PL 113 scan; corner numbers 123/124 read first; 600 dpi crops at three sites",
+     "found": "no foot-of-page apparatus. ⭐ (RAB. STRAR.) @0123B is MIGNE'S OWN broken small-cap sort — read at 600 dpi, the plate sets STRAR. and our twin is faithful; a suspicion withdrawn. Plate confirms pueri circumcisi @0123D (no in- prefix) and « Ascendit Deus ad Abraham » @0124D. Plate sets « Sarai uxorem tuam, etc. » with the close after etc. where the twin closes before it (mark; twin followed)."
+    },
+    {
+     "from": "0125A",
+     "to": "0126D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 68,
+     "source": "on-disk PL 113 scan; corner numbers 125/126 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus. ⛔ Plate has NO opening « before Fide purificans corda eorum @0125C — it prints 'mundabantur : unde : Fide purificans corda eorum. »'; our TEI has SUPPLIED an opening guillemet and DROPPED the colon after mundabantur. Plate prints (Math. v) @0125B where the twin reads (Matth. V), and (HIERON. STRAB.) @0125C."
+    },
+    {
+     "from": "0127A",
+     "to": "0128D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 69,
+     "source": "on-disk PL 113 scan; corner numbers 127/128 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus. ⭐⭐ Plate reads VERS. 27-19 @0127D (read at 600 dpi against the plainly-different 1 of the adjacent 19, and against VERS. 17-19 set correctly on p. 71) — our TEI has NORMALIZED it to VERS. 17-19. Plate reads (II Cor) @0128A with no chapter numeral where our twin reads (II Cor. II). Plate confirms Abrahae and gessurus @0127D, « in eo benedicentur omnes gentes terrae » @0128A, and the unclosed « at 0127B and 0127D as MIGNE'S. Plate prints « VERS. 10. — «|Et habebit filium » @0127A with a repeated line-head « our twin drops."
+    },
+    {
+     "from": "0129A",
+     "to": "0130D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 70,
+     "source": "on-disk PL 113 scan; corner numbers 129/130 read first; 600 dpi crops at three sites",
+     "found": "no foot-of-page apparatus (foot carries only a centred dot). Plate reads eic. @0129B (twin etc.) and Sodomorm. @0129C (twin Sodomorum) — both MIGNE'S defects our TEI has tidied away. Plate reads virgines @0130D (twin virginet — OURS). Unclosed « @0129D confirmed as Migne's. Plate confirms « Videte si inveniatis hominem facientem justitiam » @0129D, « Hospitalitatem nolite oblivisci … placuerunt quidam Deo » @0130A, « Ecce duae filiae meae quae non cognoverunt virum » @0130D, and (Psal. x) @0129A."
+    },
+    {
+     "from": "0131A",
+     "to": "0132D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 71,
+     "source": "on-disk PL 113 scan; corner numbers 131/132 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus. Plate reads usque ad @0131C (our twin: the non-word uque ad — OURS), agno-scebat hyphenated across the line break @0131B (twin: agno scebat, a split run — OURS), and supplicio ignis aeterni with a space @0131A (twin: supplicio-ignis — OURS). Plate confirms Marci XIX @0131A and « Si vis perfectus esse, vade et vende omnia quae habes ». Plate prints « Igitur Dominus pluit super Sodo- « nam. » @0131D with a repeated line-head « our twin drops."
+    },
+    {
+     "from": "0133A",
+     "to": "0133D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 72,
+     "source": "on-disk PL 113 scan; corner numbers 133/134 read first; 600 dpi crop at one site",
+     "found": "no foot-of-page apparatus. Plate reads susperstites @0133A (twin superstites) — MIGNE'S defect our TEI has tidied away. Hebrew words at 0133B (Moab, benammi) present on the plate and dropped by Corpus Corporum, which leaves the empty ( ) our twin prints."
+    },
+    {
+     "from": "0133A",
+     "to": "0134D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 72,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 500 dpi crops at three sites; corner numbers 133/134 read first",
+     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `dixit sonorem` @0133C where our twin reads `dixit sororem` — 500 dpi, unambiguous; MIGNE'S defect, tidied by Corpus Corporum. Plate prints NO opening guillemet before `Visitavit autem Deus Saram, »` @0134C — our twin supplies it. Plate prints the Hebrew after *vegam* @0134A which our TEI drops as `( )`. Plate prints `VERS. 14 —` without the period our twin gives. [var:] CONFIRMED as Migne's: 0133D « Et peperci tibi ne peccares in me » against Gn 20:6 *custodivi te*; 0134C « Visitavit autem Deus Saram » against Gn 21:1 *Dominus*."
+    },
+    {
+     "from": "0135A",
+     "to": "0136D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 73,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 500-600 dpi crops at four sites; corner numbers 135/136 read first",
+     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `quam pollicitus erat futurum in gentem magnam` @0136C where our twin reads `quem` — CC normalization, no English exponent. ⭐ PLATE READS `par quem populus crediturus est` @0136D where our twin reads `per quem` — Migne's broken sort, tidied by CC. Plate prints no closing » after `« Dure accepit,` @0135C and no opening « before `Non filii carnis` @0135D; our twin supplies both. [var:] CONFIRMED as Migne's: 0136A « Sumpsit panem et utrem aquae » against Gn 21:14 *tollens*; 0136C « Et projecit puerum subter unam abietem … quasi jactus sagittae » against Gn 21:15-16; 0136D « Angelus Domini » against Gn 21:17 *angelus Dei*; 0136D « Qui sitit, veniat ad me et bibat » against Jo 7:37 *Si quis sitit*; 0136D « Ecce ego mittam vobis Eliam, qui convertat corda patrum in filios » against Mal 4:5-6."
+    },
+    {
+     "from": "0137A",
+     "to": "0138D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 74,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 600-900 dpi crops at four sites; corner numbers 137/138 read first",
+     "found": "no foot-of-page apparatus (foot carries only PATROL. CXIII. and signature 5). ⭐⭐ PLATE READS `probare` @0137C (hyphenless line wrap, 600 dpi) where our twin prints the non-word split `pro are` — OURS, not Migne's. ⭐ PLATE READS the non-word `accdperat` @0137C where our twin reads `acceperat` — MIGNE'S, tidied by CC. ⭐ PLATE prints `non hæ-` with a hyphen at the line end @0138D, i.e. *haesitavit* wrapped normally, where our twin prints the split `hae sitavit` — OURS. Plate prints the Hebrew after *sabaa* @0137B and after *Alon* and *debir* which our TEI drops as `( )` or omits. [var:] CONFIRMED as Migne's: 0137D « Tentat vos Deus vester, ut sciat si diligatis eum » against Dt 13:3; 0138A « Coeperunt aedificare templum … secunda die mensis » against 2Par 3:1-2; 0138C « adversatrix Israel, et praevaricatrix Juda » against Jr 3:11 *aversatrix … comparatione praevaricatricis Judae*; 0138D « Fide Abraham non haesitavit » against Hbr 11:17,19."
+    },
+    {
+     "from": "0139A",
+     "to": "0140D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 75,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 600 dpi crops at four sites; corner numbers 139/140 read first",
+     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS the non-word `incana-tionem` @0139C where our twin reads `incarnationem` — MIGNE'S, tidied by CC. ⭐ PLATE READS `« Et mortua est in civitate Arbee, » est.` @0140A where our twin reads `etc.` — MIGNE'S (600 dpi; the parallel lemma four words earlier prints `etc.` correctly). ⭐⭐ PLATE READS `sed femore manum ponere jubet` @0140C — NO `sub` — where our twin reads `sed sub femore`; the same gloss's opening sentence prints *Manum sub femore jubet ponere*. Plate prints a semicolon after `Unde Habac. III` @0139B where the twin has a colon; plate prints no opening « before `Non peperceris` @0139C, before `Surrexit Abraham` and `Quod cum audisset` @0140A (it prints » in both places), and drops the second « before `Dixitque ad servum seniorem` @0140C — our twin supplies all four."
+    },
+    {
+     "from": "0141A",
+     "to": "0142D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 76,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 600 dpi crops at five sites; corner numbers 141/142 read first",
+     "found": "no foot-of-page apparatus (checked zero). ⭐⭐⭐ PLATE READS `quia NON in eo quod credidit, vacua non remansit` @0141B — our twin has DROPPED the first `non`. 600 dpi, the word well-formed and normally spaced. This is the highest-value finding of the stint and it runs the unexpected direction: the plate carries MORE negation than the twin. ⭐ PLATE READS `quia electorem Ecclesia` @0141A where our twin reads `electorum` — MIGNE'S, tidied by CC. ⭐ PLATE READS `Quia praedi-cator auditum Ecclesiae` @0141C-D where our twin reads `praedicato:` — OURS (CC lost the `r` at the column break and set a colon). ⭐ PLATE READS the non-word `caanem` @0141C in Eph 5:29 where our twin reads `carnem` — MIGNE'S, tidied by CC. ⭐ CONFIRMED MIGNE'S: the 1Cor 9:11 quotation @0141D is UNCLOSED on the plate too — the one open-ended span in this range is his, not our TEI's. Plate prints the Hebrew after *Beka* and *Schekel* @0141C which our TEI drops as `( )`. Plate guillemets @0141B bracket only `« Pauxillum, »`, not the whole `Occurritque ei servus, et ait: Pauxillum,` our twin brackets; plate prints no opening « before `Non comedam` @0142B. [var:] CONFIRMED as Migne's: 0142A « Non angustiamini in nobis, sed in visceribus vestris » against 2Cor 6:12 *angustiamini autem*."
+    },
+    {
+     "from": "0143A",
+     "to": "0144D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 77,
+     "source": "on-disk PL 113 scan, full page at 200 dpi; corner numbers 143/144 read first",
+     "found": "no foot-of-page apparatus (checked zero). No twin/plate WORD divergence found on this page — a checked negative, recorded as such. Mark-level only: the plate prints `« Inclinata, » etc. … unde psal. CXL : » Elevatio manuum …` @0143C, i.e. TWO spans, where our twin has lost the » after `Inclinata,` and the » before `Elevatio` and runs them into one span; plate prints `« teristrum, «` @0143D (twin: `»`); plate prints no closing » after `« Et intantum dilexit eam,` @0144A; plate prints no period after `Judaea pro nihilo habetur` @0144A-B; plate repeats « at the head of the continued line in `« Abraham vero aliam duxit uxo- « rem, »` @0144B, Migne's line-continuation mark, which our TEI drops."
+    },
+    {
+     "from": "0145A",
+     "to": "0146D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 78,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 600-900 dpi crops at six sites; corner numbers 145/146 read first",
+     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `si simpliciter ponatur « plenius. »` @0145A where our twin reads `« plenus. »` — MIGNE'S (600 dpi), an eye-skip from the *plenius* eight words above; CC tidied it. ⭐ PLATE READS `quia prius est quod animale est` @0145A where our twin reads `quod animae est` — OURS; the plate's *animale* is 1Cor 15:46's own word. ⭐ PLATE PRINTS THE ADDRESS `VERS 13.` @0145A (900 dpi, no period after VERS, the numeral a clear 3) where our twin prints `VERS. 12.--`; the next address is `VERS. 13-15.`, so Migne's page repeats 13 and CC silently corrected the first to 12. ⭐ PLATE READS `(IV Reg. VII)` @0146C where our twin's [n:] reads `(IV Reg. VIII)` — MIGNE'S slip (Edom revolts under Joram at IV Reg 8:20), tidied by CC. ⭐ PLATE READS `segr` @0146C where our twin reads `seyr,` in the SECOND of the two occurrences (the first prints `seyr` on both) — MIGNE'S, tidied by CC. ⭐ PLATE READS `quod annorum fuerit Isaac` @0146A where our twin reads `quot` — MIGNE'S, tidied by CC, no English exponent. Plate prints `..` (two dots) after `Deprecatusque` @0145D where the twin has three; plate prints no closing » after `« Perrexitque` @0146A. [var:] CONFIRMED as Migne's: 0145B « et Abel » against Gn 25:13 *Adbeel*; 0145C « Ponatur coram fratribus meis … et dijudicent inter nos » against Gn 31:37; 0146A « Qui exaudivit eam » against Gn 25:21 *eum* (900 dpi — *eam* is unambiguous, and Chrysostom's gloss below is about ISAAC's twenty years of prayer)."
+    },
+    {
+     "from": "0147A",
+     "to": "0148D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 79,
+     "source": "on-disk PL 113 scan, full page at 200 dpi + 600 dpi crops at two sites; corner numbers 147/148 read first. ⚠ Cols 0148A-D lie OUTSIDE this stint's range (they belong to chunk 0031) and were read only incidentally as the facing column; the depth claim above is honest for 0147 and should be treated as incidental for 0148.",
+     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `vestis erat sacerdotalis, quo induti` @0147B where our twin reads `qua induti` — MIGNE'S gender slip (vestis is feminine), tidied by CC; Pattern 9, no English exponent. Plate prints `« Simplex. «` @0147A (twin: `»`). [var:] CONFIRMED as Migne's: 0147B « Auferetur a vobis regnum Dei et dabitur gentibus » against Mt 21:43 *dabitur genti facienti fructus ejus* (and Migne cites it as Matth. XII, where it is Matt 21 — reproduced verbatim, uncorrected)."
+    },
+    {
+     "from": "0149A",
+     "to": "0150D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 80,
+     "source": "on-disk PL 113 scan; corner numbers 149/150 read first; 600 dpi crops at six sites",
+     "found": "no foot-of-page apparatus. ⭐⭐ THREE VERSE ADDRESSES OUR TWIN HAS NORMALIZED: plate VERS. 5-13 @0150B (twin 6-13), plate VERS. 16-19 @0150C (twin 15-19), plate VERS. 19-24 @0150D (twin 20-24) — in each the plate's range overlaps or skips and the twin's is the tidy one. MIGNE'S defect our twin has tidied: mediatabatur @0149C (twin meditabatur). Plate has NO opening « before Ecce autem venerunt @0149A and none before Et vestibus Esau @0150C — our twin supplies both. Plate prints a closing » after Deum placabat @0150A and none opening before Jacob simplex, where the twin prints an opening « before Jacob and no orphan close. Plate sets Mystice, with a comma @0149B (twin Mystice.) and sets only 'epist. ad Damasum' in italic, not the whole siglum."
+    },
+    {
+     "from": "0151A",
+     "to": "0152D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 81,
+     "source": "on-disk PL 113 scan; corner numbers 151/152 read first; 600 dpi crops at five sites plus one 1200 dpi crop",
+     "found": "no foot-of-page apparatus. ⭐ pinguedidine @0152A CONFIRMED AS MIGNE'S at 1200 dpi: the plate breaks the line « In pinguedi- | dine terrae, » and the join is a doubled syllable; the internal control is eleven words earlier on the same plate, where he sets « In pinguedine terrae » correctly. Our twin carries the defect verbatim, so the [sic:] is licensed and passes the verbatim-substring guard. Plate reads benedicetur @0151A and benedicetur @0151B where the twin reads benedicitur in both (OUR normalization, e->i, twice). Plate reads 'Alter venandum mittitur' @0151B with NO 'ad' — our twin supplies it. Plate sets a nested line-head « before 'set, » @0151A, before 'Jacob @0152D and before 'ejus. » @0152D, all dropped by our twin. A bracket-shaped sort stands before 'de cervicibus' @0152B which our twin does not carry. Plate confirms « Et benedixi eum, et benedictus est » @0152A, « Et servies fratri tuo minori » @0152B and « Ponite nomen meum super filios Israel. Ego Dominus benedicam eos » @0152C — all three [var:] licensed."
+    },
+    {
+     "from": "0153A",
+     "to": "0154D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 82,
+     "source": "on-disk PL 113 scan; corner numbers 153/154 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus. MIGNE'S defects our twin has tidied away: Chrisri @0154A (twin Christi), menbra @0154B and illus @0154B (twin membra illius). Plate reads Graece @0154A where the twin reads Grece. The unclosed « before « Caput enim viri Christus @0154A is MIGNE'S — he prints no closing mark, exactly as the twin has it (this is the stint's one open-ended span). Plate prints « Viditque in somnis, etc. @0154A with NO closing » — our twin supplies one. Plate sets Mystice in ITALIC @0154D where our twin sets it roman; italic parity therefore follows the twin. Plate sets the AUG. and GREG. sigla @0153C/@0153D in roman parentheses with only the work-title italic, where the twin wraps the whole siglum in one italic span."
+    },
+    {
+     "from": "0155A",
+     "to": "0156D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 83,
+     "source": "on-disk PL 113 scan; corner numbers 155/156 read first; 600 dpi crops at five sites",
+     "found": "no foot-of-page apparatus. ⭐ A FOURTH NORMALIZED VERSE ADDRESS: plate VERS. 11-19 @0155D (twin 11-16), again overlapping the following VERS. 16-19. OUR defect, plate clean: idolol triae @0155A is a SPLIT RUN of ours — the plate sets idololatriae whole. Plate reads olam @0155B at the first occurrence where the twin reads ulam. Plate prints the Hebrew ולאם after 'ulam vel olam' @0155B; our twin drops it entirely and the sentence still construes, so no [ed:] (the 0117A class, not the 0115C class). Plate reads cooperata @0156A, agreeing with the twin — a real word that reads oddly, rendered as printed, no marker. Plate reads 'usque ab' @0156D for the abridgment formula where our twin reads 'usque ad'. Plate sets Bethel, @0155B where our twin sets Bethel., with a spurious extra period (mark; twin followed), and prints 'HIER., de locis Hebraicis.)' with no opening parenthesis. Plate prints nested line-head « at @0155B, @0156A and @0156D, all dropped by our twin."
+    },
+    {
+     "from": "0157A",
+     "to": "0158D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 84,
+     "source": "on-disk PL 113 scan; corner numbers 157/158 read first; 600 dpi crops at two sites",
+     "found": "no foot-of-page apparatus. Plate prints the Hebrew מנים after 'monim' @0157C and תרפים after 'theraphim' @0158A; our twin drops both and both sentences construe, so no [ed:]. Plate reads remisse @0158C where the twin reads remissae. Plate has NO opening « before 'mutavit mercedem meam decem vicibus' @0157C — our twin supplies it. Plate prints (GREG.,) @0158B with a comma inside the parenthesis, and nested line-head « at @0158A, @0158D twice. Bracket-shaped sorts stand before 'ad decem vices' and 'in contrarium' @0157C-D and before 'psal. cxxvi' @0158C, none carried by our twin — the same recurring artifact as @0152B. Verse addresses on this page (1-11, 12, 13-31, 32-39, 40-45, 46-52) all AGREE with the twin."
+    },
+    {
+     "from": "0159A",
+     "to": "0160D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 85,
+     "source": "on-disk PL 113 scan; corner numbers 159/160 read first",
+     "found": "no foot-of-page apparatus. Plate confirms « Vidi Dominum facie ad faciem? » @0160A against the Vulgate's Deum ([var:] licensed), and « Nemo videbit faciem meam » and « Deum nemo vidit unquam » in the same paragraph. Plate prints the Hebrew מהנים after 'mahanaim' @0159B; our twin drops it and leaves the space before the semicolon, sentence sound, so no [ed:]. Plate sets Mystice in italic with no period @0159D and the GREG. siglum roman with a comma after GREG.; the twin wraps note+tag in one italic span with a period. Plate prints 'dicens.' with a period @0159A where the twin prints a comma, and a stray ! before 'sunt in salutis praesidium' @0159C. Verse addresses on this page (53-54, 55, 2-6, 7-9, 10, 11-19, 20-27, 28-29, 30-32) all AGREE with the twin."
+    },
+    {
+     "from": "0161A",
+     "to": "0162D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 86,
+     "gallica_f": 81,
+     "source": "archive 300 dpi by column-third + 600 dpi crops at four sites; Gallica f81 whole page + native crops at three sites; corner numbers 161/162 read first on both",
+     "found": "no foot-of-page apparatus. « Tristemque blanditus delinivit. » @0161A CONFIRMED on both witnesses (Vulg. Gn 34:3 tristemque delinivit blanditiis) — [var:] fired. « Venit igitur Jacob Suzam, » @0162A CONFIRMED on both (Vulg. Luzam) — [var:] fired. « Regesque de lumbis ejus egredientur, » @0162C CONFIRMED on both (Vulg. tuis) — [var:] fired. ⛔ THREE archive-copy readings REFUTED by Gallica and withdrawn: expurgationi (Gallica and twin: expugnationi) @0161C, seu sensu (Gallica and twin: sed sensu) @0162A, cum legatur (Gallica and twin: cur legatur) @0162B. Migne repeats « at the head of a continued line at 0161D and 0162C; our TEI drops both."
+    },
+    {
+     "from": "0163A",
+     "to": "0164D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 87,
+     "gallica_f": 82,
+     "source": "archive 300 dpi by column-third + 600 dpi crops at three sites; Gallica f82 whole page; corner numbers 163/164 read first on both",
+     "found": "no foot-of-page apparatus. The Mt 27:25 quotation at 0163A is UNCLOSED on both plates — Migne's, not ours. « Et factum est cum dimitteret animam. » and « vocavit nomen ejus … Benjamin. » @0163A CONFIRMED on both — two [var:] fired. « Abraham duos filios habuit … et alterum de libera, » @0163B CONFIRMED (Vulg. Gal 4:22 et unum de libera) — [var:] fired. filii Ismael @0164B (for Israel, with Saul named as the first king) CONFIRMED on both witnesses as MIGNE'S — rendered as printed, no marker. (STRAB ) @0163C is a note on the plate, with Migne's internal space; our TEI carries it as plain text with no note markup. ⛔ FOUR archive-copy readings REFUTED by Gallica and withdrawn: Sanguinis (Gallica and twin: Sanguis) @0163A, Pilius (Gallica and twin: Filius) @0163A, parente without a (Gallica and twin: a parente) @0163D, unica varia (Gallica and twin: tunica varia) @0164D."
+    },
+    {
+     "from": "0165A",
+     "to": "0166D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 88,
+     "gallica_f": 83,
+     "source": "archive 300 dpi by column-third + 600 dpi crops at three sites; Gallica f83 whole page + native crops at three sites; corner numbers 165/166 read first on both",
+     "found": "no foot-of-page apparatus. « Misit Deus Filium suum in similitudinem carnis peccati. » and « Non veni nisi ad oves quae perierant domus Israel. » @0165C CONFIRMED on both — two [var:] fired. 0166C: plate reads ἀρχιμαγείρους where our twin prints sb;αρχιμαγείρους — the sb; is an artifact of our transform and is not carried into the English. 0166A: plate reads exspoliatus where our twin prints exspolitus (OURS). Ismaelitis venditis venditur @0166A CONFIRMED as Migne's, rendered as printed. ⛔ FOUR archive-copy readings REFUTED by Gallica and withdrawn: tularem (Gallica and twin: talarem), colcbiis (colobiis), in est (id est) — all @0165A — and VERS. 4-6 (Gallica and twin: VERS. 4-9) @0165A. The (GREG., hom. XXV in Evang.) siglum IS parenthesized on the plate; my archive crop had clipped the opening bracket."
+    },
+    {
+     "from": "0167A",
+     "to": "0168D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 89,
+     "gallica_f": 84,
+     "source": "archive 200 dpi head/foot strips + Gallica f84 whole page; corner numbers 167/168 read first on both",
+     "found": "no foot-of-page apparatus. ⚑ This page had been sampled foot-only by an earlier pass; its running text is now READ. 0167D: Migne prints the Hebrew עינים after Enaiim; our TEI has lost it — the loss leaves the sentence sound, so NO [ed:] (Pattern 13a clause 1), patch only. The orphan » at 0168B (Qui agnitis, ») is MIGNE'S, on both witnesses. descendit ab baptismum @0166D-0167A CONFIRMED as Migne's on the Gallica native crop — rendered as printed, [cj:] declined per 18a's 11535 @1360C precedent."
+    },
+    {
+     "from": "0169A",
+     "to": "0170D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 90,
+     "gallica_f": 85,
+     "source": "archive 300 dpi by column-third + 600 dpi crop at trangressionis; Gallica f85 whole page + native crops at four sites; corner numbers 169/170 read first on both",
+     "found": "no foot-of-page apparatus (the foot carries only PATROL. CXIII. and signature 6). ⭐ trangressionis @0169B CONFIRMED on BOTH witnesses and present in our twin — the stint's one [sic:]. Hebrew משקה @0169B and שריגים @0169C are on both plates and dropped by our TEI, each leaving a floating mark — two [ed:] fired. Plate reads veritatis @0170A where our twin prints veritalis (OURS). Plate reads tunc sancti habeant @0170C — our twin has DROPPED sancti. Plate reads « Spiritus Dei ferebatur super aquas, » @0170C — our twin has DROPPED Dei. « Non permanebit Spiritus meus in hominibus istis, » @0170C and « Dedit ei nomen quod est super omne nomen, » @0170D CONFIRMED on both — two [var:] fired. Migne repeats « at the head of a continued line at 0169A twice and 0169B; the orphan » at 0169A (Qui relicto, ») is MIGNE'S."
+    },
+    {
+     "from": "0171A",
+     "to": "0172D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 91,
+     "gallica_f": 86,
+     "source": "archive 300 dpi by column-third + 600 dpi crop at Mititte; Gallica f86 whole page + 1600 px native blow-up at Mititte; corner numbers 171/172 read first on both",
+     "found": "no foot-of-page apparatus. « Reus ero peccati in patrem omni tempore, » @0172B CONFIRMED on both (Vulg. Gn 43:9 ero peccati reus in te) — [var:] fired. The abridgment tail at 0172A ends without a full stop (…sed habebitur) on both plates — Migne's. ⛔⛔ THE TWO WITNESSES DISAGREE AT 0171D: Gallica prints Mititte, the archive copy prints Mittite, both crisply, in a letter ORDER that no inking artifact can produce. Our twin follows the Gallica reading. NO [sic:] fired — a marker cannot stand where one witness shows sound type."
+    },
+    {
+     "from": "0173A",
+     "to": "0174D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 92,
+     "gallica_f": 87,
+     "source": "archive 300 dpi by column-third + 600 dpi crops at two sites; Gallica f87 whole page + native crops at two sites; corner numbers 173/174 read first on both",
+     "found": "no foot-of-page apparatus. Plate reads seorsum @0173A on both witnesses where our twin prints scorsum (OURS). CAP. XLIV. is abbreviated on both plates and is reproduced. sedjoco @0173C: the archive copy shows a clear space (sed joco), Gallica shows the letters touching — read as OUR lost space, patch only, no [sic:]. Cols 0173D-0174D are beyond this stint's range and were read only in passing."
+    },
+    {
+     "from": "0175A",
+     "to": "0176D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 93,
+     "gallica_leaf": 88,
+     "witnesses": 2,
+     "source": "archive copy, both columns at 400 dpi + 1200 dpi crop at 0175C, corner numbers 175/176 read first; all calls re-checked on Gallica f88",
+     "found": "foot-of-page apparatus: CHECKED ZERO. CONFIRMED on both witnesses: 'Quaeritur, cum Joseph frumenta colligeret' @0175C — OUR TWIN is the corrupt witness, reading 'eum'; the English renders the plate. REFUTED by Gallica: 'iuvaluisset' @0175C is 'invaluisset'; 'capnt' @0176D is 'caput'; 'Dei deditus' @0176D is 'Deo deditus'; the two apparently-absent 'etc.' before *usque ad* @0175A and @0176D are BOTH PRESENT on Gallica; the unclosed quotation @0176C-D is closed on Gallica."
+    },
+    {
+     "from": "0177A",
+     "to": "0178D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 94,
+     "gallica_leaf": 89,
+     "witnesses": 2,
+     "source": "archive copy, both columns at 400 dpi + 3x-4x crops at four sites, corner numbers 177/178 read first; letter-level calls re-checked on Gallica f89",
+     "found": "foot-of-page apparatus: CHECKED ZERO. CONFIRMED on both witnesses: @0178D the plate prints 'rex alienigena fuit Herodes' with NO period after 'fuit' — our twin's period breaks the sentence and changes the sense, and the English follows the plate. Migne's Hebrew after 'mittha' @0177B is present on the archive and DROPPED by our twin (structural; no [ed:], the sentence stays sound). REFUTED by Gallica: 'allis verbis' @0178B is 'aliis verbis'; ⭐ 'VERS. — « Non auferetur sceptrum »' @0178D DOES carry its number, 'VERS. 10.', which the archive's ink had swallowed entirely — the 0036-0041 stint's blotted-verse-address class, one step worse."
+    },
+    {
+     "from": "0179A",
+     "to": "0180D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 95,
+     "gallica_leaf": 90,
+     "witnesses": 1,
+     "source": "archive copy, both columns at 400 dpi, corner numbers 179/180 read first; Gallica f90 fetched and the leaf map confirmed, but no call on this page needed adjudicating",
+     "found": "foot-of-page apparatus: CHECKED ZERO. No plate/twin WORD divergence found in either column — the only clean pair of columns in the range, and the only page here with nothing to adjudicate. Mark-level observations (a stray period in 'candidiores.', an unclosed Jer. XVI quotation, a ')' for a '»' after 'omnem carnem', a missing opening '«' before 'Appositusque') are ARCHIVE-ONLY and, after this stint's refutation rate, are not to be trusted or patched without a second witness; the English follows the twin at every one."
+    },
+    {
+     "from": "0181A",
+     "to": "0182D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 96,
+     "gallica_leaf": 91,
+     "witnesses": 2,
+     "source": "archive copy, both columns at 400 dpi + 3x-4x crops at three sites, corner numbers 181/182 read first on both copies. THIS IS THE LAST PAGE OF THE WORK; its foot had been sampled before, its running text had not.",
+     "found": "⚑ foot-of-page apparatus: CHECKED ZERO — the text closes at 0182D with « Adimplebis me laetitia cum vultu tuo. » and BELOW IT stands a single short centred rule, set under the gutter and about a third of a column wide, and NOTHING ELSE: no numbered or letter-keyed note, no catchword, no signature, no colophon, no FINIS, no head of a following work; the lower third of the page is blank. CONFIRMED: the UNCLOSED '«' at 0181A (the Jon. 3:4 quotation, which runs on four sentences and is never closed) is MIGNE'S, and our twin reproduces the plate exactly, unbalanced pair included. 'Nos quosque moraliter instruit' @0182C is Migne's and our twin carries it verbatim — one of the few defective-looking forms in this book the twin did NOT tidy. REFUTED by Gallica: 'quia traditus est' @0181B is 'qui traditus est'; 'Pater maus' @0182A is 'Pater meus'; 'Tanto ergo luctus' @0182B is 'Tanto ergo luctu'."
+    }
+   ],
+   "deliberately_not_recorded": "⛔ SEVEN MORE PAGES OF THIS WORK WERE PUT ON SCREEN ON 2026-09-05 (PDF 53, 60, 67, 74, 82, 89, 96) AND ARE NOT RECORDED HERE, ON PURPOSE. Those were the conjecture-layer spot check and only the HEAD STRIP AND FOOT ZONE were read — enough to see that a page foot is blank, which is what coverage.json records, and NOT enough to license a [sic:] or a [var:] on their columns. Both depths in this file mean a human eye met the running text; a foot-only look is neither. Recording them would hand the gate a pass it was never given. Same principle as 8988 col 0636A above: a read that cannot settle the words is not a read for this purpose.",
+   "merged_from": [
+    "data/briefs/8950-PLATE-READS-0008.json — the 0008-0011 stint read its whole range (pp.53-58, cols 0095-0106) at 300-1200 dpi and recorded separately to avoid racing peer stints. Merged 2026-09-05.",
+    "data/briefs/8950-PLATE-READS-0019.json — the 0019-0023 stint read pp.66-72 (cols 0121-0133), corners first, 600 dpi at 14 sites. APPENDED, not substituted. Merged 2026-09-05.",
+    "data/briefs/8950-PLATE-READS-0012.json — the 0012-0018 stint's SECOND pass, sent back to read pp.58-65 (cols 0105-0120) after collating 26 divergences it could not fire. depth full, corners first on all eight. Merged 2026-09-05.",
+    "data/briefs/8950-PLATE-READS-0024.json — the 0024-0030 stint read pp.72-79 (cols 0133-0148) as it translated, corners first on all eight, 500-900 dpi at 22 sites, foot a checked zero throughout. Merged 2026-09-05.",
+    "data/briefs/8950-PLATE-READS-0031.json — the 0031-0035 stint read pp.79-85 (cols 0147-0160), corners first, 600 dpi at 20 sites and one at 1200. Foot a checked zero on all seven, all three key shapes. Merged 2026-09-05 after the stint was resumed from a session-limit death.",
+    "data/briefs/8950-PLATE-READS-0036.json — the 0036-0041 stint read pp.85-92 on the archive.org copy AND ff.80-87 on GALLICA, corners first on all sixteen. Merged 2026-09-05.",
+    "data/briefs/8950-PLATE-READS-0042.json — the 0042-0046 stint read pp.92-96 (cols 0173-0182, the work's end) on BOTH witnesses, corners first, 400 and 1200 dpi. Merged 2026-09-05."
+   ]
+  },
   "8954": {
    "series": "pl",
    "volume": 113,
@@ -3349,6 +3832,186 @@
     }
    ]
   },
+  "9002": {
+   "series": "pl",
+   "volume": 114,
+   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2 — calibrated on this work's own range from the printed corner numbers before any reading (p.37 reads 63/64, p.94 reads 177/178), corners re-read on every page. ⭐ SECOND WITNESS, calibrated 2026-09-05: Gallica ark:/12148/bpt6k54939667, f = (column + 1) / 2 (f37 = 73/74, f89 = 177/178) — SIX LEAVES off the archive map. Every read below says which witness(es) it used.",
+   "reads": [
+    {
+     "from": "0063A",
+     "to": "0064D",
+     "depth": "full",
+     "pages": "archive p.37 / Gallica f32",
+     "found": "Work division page: five stub entries and PROPHETIA BARUCH close above a full-width rule, Matthew opens below it. The asterisk-keyed foot note on this page belongs to Baruch (8996) and was NOT adopted. No foot-of-page apparatus belonging to Matthew. Archive prints 'ad memorian reliquit'; GALLICA PRINTS 'memoriam' and our twin agrees -- archive-only, refuted, no marker.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0065A",
+     "to": "0066D",
+     "depth": "full",
+     "pages": "archive p.38 / Gallica f33",
+     "found": "Running head confirmed 'GLOSSA ORDINARIA. -- EVANG. MATTH.' FOUR archive-only candidates, ALL REFUTED BY GALLICA, our twin right at each: 'sa cramentum' (split type) vs sacramentum; 'Aminabad' vs Aminadab; 'Eclesiam' vs Ecclesiam; 'ei novissima mors' vs 'et'. Two further archive-only oddities also refuted: 'gentes Domini' (Gallica and Ps 112:4 read Dominus) and 'incipit ad exordio' (Gallica reads 'ab exordio').",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0067A",
+     "to": "0068D",
+     "depth": "full",
+     "pages": "archive p.39 / Gallica f34",
+     "found": "CONFIRMED ON BOTH WITNESSES: 'alter in principio sequentis. Sed mystice' -- Migne prints a FULL STOP after sequentis which our twin has lost. TEI patch filed. Gallica's 'tesseratlecadis' is ink; the archive prints tesseradecadis, as our twin does. Archive prints 'generandus.' with a terminal stop at 0067A where Gallica and our twin have none -- archive-only, declined.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0069A",
+     "to": "0070D",
+     "depth": "full",
+     "pages": "archive p.40 / Gallica f35",
+     "found": "Both witnesses confirm the two readings a [var:] rests on: 'Ipse invocavit me' (0069A, perfect for the Vulgate's future invocabit) and 'Ecce Deus adjuvit me' (0069B, perfect for the Vulgate's present adjuvat, beside Migne's own etymology 'Adjutus'). THREE archive-only oddities refuted by Gallica, our twin right at each: 'ressuscitans' vs resuscitans; 'Mathan, qui per Solomonen descendit' vs 'Salomonem'; 'suspicio lector.' vs 'lectori'. Both witnesses confirm the doubled 'Non quod postea convenerint' at 0070C -- it is Migne's, and the two copies have distinct continuations, so it is a splice of two glosses, not an eye-skip.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0071A",
+     "to": "0072D",
+     "depth": "full",
+     "pages": "archive p.41 / Gallica f36",
+     "found": "CONFIRMED ON BOTH WITNESSES: 'sic prophetia non necessitatem EORUM facit' at 0071D, where our twin prints the non-word 'oerum'. Corpus Corporum's corruption; TEI patch filed; the English renders eorum per the PLATE-WHERE-READ rule. Nothing else divergent on either column.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0073A",
+     "to": "0074D",
+     "depth": "full",
+     "pages": "archive p.42 / Gallica f37",
+     "found": "PRESS VARIANT, and the only one in the range: at 0073A Gallica prints the lemma 'Bethehem Judae' (no l) and the ARCHIVE prints 'Bethlehem Judae'. Both are clean, legible, normally spaced; the very next line of both copies prints Bethlehem correctly three times. Our twin follows Gallica's printing. NO [sic:] -- it fails the two-witness bar in the same way 8950 @0171D Mititte/Mittite did. Also confirmed on both: 'Explorabat etiam, si rex eorum', 'Rex injustus omnes ministros impios habet' with injustus set in ROMAN between Migne's italics.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0075A",
+     "to": "0076D",
+     "depth": "full",
+     "pages": "archive p.43 / Gallica f38",
+     "found": "CONFIRMED ON BOTH WITNESSES: 'incepit in eum PERSECUTIO' at 0076C, where our twin prints the non-word 'pesecutio'. Corpus Corporum's corruption; TEI patch filed. Both witnesses confirm 'Puer natus est nobis' at 0075B (the [var:] on Isa 9:6 Parvulus) and 'quem actum esse hominem intelligunt' at 0075B (a real word, rendered as printed, crux logged). Archive-only and refuted: 'Ex Aegypto, vocavi' with a comma (Gallica and our twin have none); 'VERS. 11. --' with a dash (Gallica and our twin have none). Gallica f38 is faint and foxed but legible throughout.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0077A",
+     "to": "0078D",
+     "depth": "full",
+     "pages": "archive p.44 / Gallica f39",
+     "found": "TWO archive-only candidates refuted by Gallica, our twin right at both: 'flere dicat ur' (split type) vs dicatur; 'Helia et Henoch' vs Enoch. Gallica also refutes the archive's 'Juaedorum' (ink). Both witnesses confirm 'ideo Josephus intellexit Judaeam' at 0077D -- a real word, rendered as printed, crux logged. Both confirm the direct question already set behind a colon at 0078B ('Quaeritur: quare non timuit...?'), so Pattern 8b needed no recasting.",
+     "date": "2026-09-05"
+    },
+    {
+     "from": "0079A",
+     "to": "0080D",
+     "date": "2026-09-05",
+     "pages": "archive p.45 / gallica f40",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "Nothing attributable to Migne. Two archive candidates raised and both refuted at Gallica: @0080B 'jebemur' (Gallica: jubemur) and @0080D 'hnmanitate' (Gallica: humanitate). Archive also shows a speck between 'venenati' and 'venenatorum' that Gallica has as clean space. CONFIRMED on both witnesses and carried into the English: @0079B 'qui vere poenitet, in se praeteritos errores, deinde erigit animum' -- Migne's own sentence has NO verb governing 'in se praeteritos errores'. CONFIRMED on both witnesses: @0080B lemma 'Facite ergo fructus dignos', the Lucan plural under a Mt 3 address."
+    },
+    {
+     "from": "0081A",
+     "to": "0082D",
+     "date": "2026-09-05",
+     "pages": "archive p.46 / gallica f41",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "Two archive candidates refuted at Gallica: @0081D 'n on' for 'non' (Gallica sets it closed up) and @0082C 'Inextinguibili' (Gallica prints 'Inexstinguibili', with the s, matching our twin). Also refuted: '(BEDA)' without the internal period at 0084B-style sigla -- Gallica prints '(BEDA.)'. ONE divergence between our twin and BOTH plates: @0081D our twin prints 'Ac si dicat.' where both copies print 'Ac si dicat :'. Filed as a patch."
+    },
+    {
+     "from": "0083A",
+     "to": "0084D",
+     "date": "2026-09-05",
+     "pages": "archive p.47 / gallica f42",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "Two archive candidates refuted at Gallica: @0083C 'cum in quem descendebat' (Gallica: 'eum in quem descendebat', which is also the only reading that construes) and @0084D 'hoc non e st' (Gallica sets 'est' closed up). CONFIRMED on both witnesses: @0084A the lemma is the dative '*Spiritui* Sancto' with only 'Spiritui' in italic, against Mt 4:1's ablative 'a Spiritu'."
+    },
+    {
+     "from": "0085A",
+     "to": "0086D",
+     "date": "2026-09-05",
+     "pages": "archive p.48 / gallica f43",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "One archive candidate refuted at Gallica: @0085A 'non infirmatas fuit' (Gallica: 'non infirmitas fuit'). Nothing else. The Greek at @0086B (λατρεύσεις, λατρεία, δουλεία) is legible and correct on both copies."
+    },
+    {
+     "from": "0087A",
+     "to": "0088D",
+     "date": "2026-09-05",
+     "pages": "archive p.49 / gallica f44",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "The range's strongest-looking archive candidate, refuted in both halves: @0088A archive reads '(ARG.) Quaeritur quomodo Mathaeus et Marcus', Gallica reads '(AUG.) Quaeritur quomodo Matthaeus et Marcus'. Our twin is right on both counts. CONFIRMED on both witnesses and carried as a [var:]: @0087A the lemma 'Habitantibus in regione' against Mt 4:16's 'sedentibus in regione'. CONFIRMED on both: @0087B 'quod clamat in Jordane organo', where the argument wants 'in Joanne'."
+    },
+    {
+     "from": "0089A",
+     "to": "0090D",
+     "date": "2026-09-05",
+     "pages": "archive p.50 / gallica f45",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "THE ONE CONFIRMED DEFECT IN THE RANGE: @0090D our twin reads the non-word 'maledieta'; BOTH plates read 'maledicta'. Corpus Corporum's, filed as a TEI patch; the English renders 'maledicta' per the plate-where-read rule. Two archive candidates refuted at Gallica: @0089A 'altiora virtutem culmina' (Gallica: 'virtutum') and @0089C '(CHRYSOS.)' (Gallica: '(CHRYSOST.)'). CONFIRMED on both witnesses: Migne's own '(Psal. CLXI)' for Ps 141:6."
+    },
+    {
+     "from": "0091A",
+     "to": "0092D",
+     "date": "2026-09-05",
+     "pages": "archive p.51 / gallica f46",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "Three archive candidates refuted at Gallica: @0091B 'dootrina' (Gallica: 'doctrina'), @0092B 'candelabrun crux est' (Gallica: 'candelabrum'), @0092C 'signifi cantia' split across a space (Gallica sets 'significantia' closed up). CONFIRMED on both witnesses: @0091B Migne's conflated Isa 49:6 / Act 13:47, 'Posui te in lucem gentium, ut sis salus mea usque ad extrema terrae'."
+    },
+    {
+     "from": "0093A",
+     "to": "0094D",
+     "date": "2026-09-05",
+     "pages": "archive p.52 / gallica f47",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "Three archive candidates refuted at Gallica: @0093C 'homieidium' (Gallica: 'homicidium'), @0094C 'quadranten novissimum' (Gallica: 'quadrantem'), and @0093D, which mattered most because it would have changed the English -- the archive prints 'si praesens est, *offeres*.' with a comma and a lower-case o, Gallica prints 'si praesens est. *Offeres*.' exactly as our twin has it. Also refuted: 'afferet' (Gallica: 'afferret'). CONFIRMED on both witnesses: @0093A lemma 'Dico autem vobis' against Mt 5:20's 'Dico enim vobis'; @0094B Migne's own contradiction 'ut poenitentiae locum non afferret' immediately followed by 'Sed et locum poenitentiae reliquit'; @0094C Migne's citation '(Marc. XI)' for Mt 5:17."
+    },
+    {
+     "from": "0095A",
+     "to": "0096B",
+     "date": "2026-09-05",
+     "pages": "archive p.53 / gallica f48",
+     "witnesses": [
+      "archive",
+      "gallica"
+     ],
+     "corner_numbers_checked": true,
+     "found": "Four archive candidates refuted at Gallica: @0095A 'silicet' (Gallica: 'scilicet'), @0095D 'per quod jura quilibet veneratur' (Gallica: 'jurat'), @0096A 'ili debet juramentum' (Gallica: 'illi'), @0096A 'Non est po-estas nisi a Deo' with the t lost at the line break (Gallica prints the t). Also refuted: the archive's missing period after the VERS. 31 lemma (Gallica prints '*Det illi.*' as our twin has it). CONFIRMED on both witnesses: @0095B lemma 'Det illi' against Mt 5:31's 'det ei'; @0095A 'Abscinde eam' against the Vulgate's 'abscide eam'; @0095A 'Dextera manus tua' against 'dextra'."
+    }
+   ]
+  },
   "9003": {
    "series": "pl",
    "volume": 114,
@@ -5558,561 +6221,6 @@
      "page": 305,
      "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
-    }
-   ]
-  },
-  "8950": {
-   "series": "pl",
-   "volume": 113,
-   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
-   "page_map": "PDF page = (column + 11) / 2 — calibrated on this work's own range from the printed corner numbers before any reading (p.39 reads 67/68), and the corners re-read on every page below",
-   "reads": [
-    {
-     "from": "0067A",
-     "to": "0068D",
-     "depth": "read",
-     "date": "2026-09-05",
-     "page": 39,
-     "source": "on-disk PL 113 scan, full page at 200 dpi plus 400 dpi crops of the foot and the anchor; CALIBRATION PAGE, corners read 67/68",
-     "found": "the work's opening. Migne's foot note (a) Revocantur lector ad tomos Patrologiae nostrae. EDIT., keyed to the raised a in (BEDA, Hexaem. lib. I, tom. II, col. 13 a.) — recovered to plate-notes, not placeable as [cn:] because the anchor sits inside an [n: …] citation. `Revocantur` with singular `lector` left as a lead, unadopted"
-    },
-    {
-     "from": "0069A",
-     "to": "0070D",
-     "depth": "read",
-     "date": "2026-09-05",
-     "page": 40,
-     "source": "on-disk PL 113 scan, full page at 200 dpi, corners read 69/70 first",
-     "found": "THREE [var:] CONFIRMED AS MIGNE'S TYPE — 0069A « Qui fecisti mundum de materia informi (Sap. XI) » against Sap 11:18 ex materia invisa; 0070A « Et spiritus Domini ferebatur super aquas » against Gn 1:2 Spiritus Dei, and the plate's own Augustine gloss five lines below reads Spiritus DEI superferebatur; 0070C Psal. CIII « Emitte, ait, Spiritum tuum » against Ps 103:30 Emittes. ⛔ AND ONE OF OURS: our Latin prints the non-word `recerunt` at 0069B where the plate reads `se fecerunt deformes` — a Corpus Corporum defect, TEI patch owed, and the 0000-0003 stint was right to decline a [sic:] on it"
-    },
-    {
-     "from": "0081A",
-     "to": "0082D",
-     "depth": "read",
-     "date": "2026-09-05",
-     "page": 46,
-     "source": "on-disk PL 113 scan, full page at 200 dpi, corners read 81/82 first",
-     "found": "[var:] CONFIRMED AS MIGNE'S — 0081A « Seminavimus spiritualia vobis, magnum est si carnalia vestra metamus (I Cor. IX) », where the Vulgate sets the whole as a conditional question. Also confirms Migne pads a VERS. address with ellipsis dots before its lemma (VERS. 28. —..... « Et dominamini piscibus, »), the shape that had defeated the lemma-inventory address regex"
-    },
-    {
-     "from": "0093A",
-     "to": "0094D",
-     "depth": "read",
-     "date": "2026-09-05",
-     "page": 52,
-     "source": "on-disk PL 113 scan, full page at 200 dpi plus a 400 dpi crop of the foot; corners read 93/94 first",
-     "found": "THREE [var:] CONFIRMED AS MIGNE'S TYPE — 0093A « Tunc viderunt quod nudi essent » against Gn 3:7 cumque cognovissent; 0093B Joan. I « Cum esses sub ficus vidi te, et descendi » with the added clause; 0093D « Adam, ubi es? » with a vocative the Vulgate lacks. Also Migne's second foot note, a In Hebraeo est gahon, quod ventrem et pectus significat., keyed to « pectus a » at 0094D — recovered and PLACED as [cn: a | …]"
-    },
-    {
-     "from": "0095A",
-     "to": "0096D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 53,
-     "source": "on-disk PL 113 scan, full page width at 300 dpi + 600 dpi crops; corner numbers 95/96 read first",
-     "found": "no foot-of-page apparatus of either layer; twin/plate divergences: none confirmed in these columns beyond punctuation seen at 300 dpi only (Spinae antea erant sed non)"
-    },
-    {
-     "from": "0097A",
-     "to": "0098D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 54,
-     "source": "on-disk PL 113 scan; corner numbers 97/98 read first; 600-1200 dpi crops at four sites",
-     "found": "no foot-of-page apparatus; plate reads Deos (twin Deus) @0097A, Remotum est (twin Remotus) @0097D, sed potest (twin sed post) @0098A, et. (twin etc.) @0098C"
-    },
-    {
-     "from": "0099A",
-     "to": "0100D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 55,
-     "source": "on-disk PL 113 scan; corner numbers 99/100 read first; 600 dpi crop at 0100A",
-     "found": "no foot-of-page apparatus; plate reads delicta (twin dilicta, OUR corruption) @0099C, septulum (twin septuplum) and interpretatur (twin interpretantur) and septempliciter: (twin ;) @0100A; unclosed guillemet @0100C confirmed as MIGNE'S"
-    },
-    {
-     "from": "0101A",
-     "to": "0102D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 56,
-     "source": "on-disk PL 113 scan; corner numbers 101/102 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus; plate reads vulnera (twin vulnere) @0101C, intellectu (twin intellecta) @0102C; unclosed guillemet before Tubalcain @0101C confirmed as MIGNE'S; Posuit mihi Dominus @0102B confirmed (Vulg. Deus)"
-    },
-    {
-     "from": "0103A",
-     "to": "0104D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 57,
-     "source": "on-disk PL 113 scan; corner numbers 103/104 read first; 600-1200 dpi crops at four sites",
-     "found": "no foot-of-page apparatus; Joan. v @0103B confirmed (the words are Job 5:3); plate omits the semicolon after dedicatio and prints one after positio @0103C; (HIER., Hebr. ibid.) @0104C; two Hebrew words dropped by CC; contesimo (twin centesimo) @0104D; VERS. 5 « Videns autem Dominus » CONFIRMED @0104D"
-    },
-    {
-     "from": "0105A",
-     "to": "0106D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 58,
-     "source": "on-disk PL 113 scan; corner numbers 105/106 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus (foot carries only PATROL. CXIII. and signature 4); plate reads Potet (twin Potest) and treeentis (twin trecentis) @0105D; « Ostium autem arcae @0106A — the plate is BALANCED and our twin has DROPPED the opening guillemet"
-    },
-    {
-     "from": "0106D",
-     "to": "0106D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 58,
-     "source": "on-disk PL 113 scan, corner numbers 105/106 read first; 600 dpi crop at the foot of col 106D. Cols 0105A-0106C were read by the 0008-0011 stint; only 106D is claimed here.",
-     "found": "no foot-of-page apparatus (foot carries only the signature 4); CAPUT VII. confirmed with terminal period; Gn 7:2 lemma CONFIRMED as *tolles* (Vulg. *tolle*); Migne prints TWO repeated line-head guillemets inside the lemma («Ex «omnibus ... septe-«ptena,») which our twin drops"
-    },
-    {
-     "from": "0107A",
-     "to": "0108D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 59,
-     "source": "on-disk PL 113 scan; corner numbers 107/108 read first; 600-1200 dpi crops at five sites",
-     "found": "no foot-of-page apparatus of either layer. CONFIRMED as Migne's: Gn 8:18 lemma cut back to « Egressus est Noe et uxor ejus. » @0107C; Ecl 3:5 as *amplectendi/abstinendi* @0107C; Gn 2:7 as *insufflavit ... spiritum vitae* @0108B; Gn 8:1 as *Recordatus est autem Deus « Noe* with the repeated guillemet @0108C. TWIN DEFECTS: plate prints *uspue ad ad tenendam* @0108C where our twin has normalized to *usque ad ad* (1200 dpi, the p-bowl is unambiguous); plate prints VERS. 20-22. with terminal period where twin has VERS. 20-22--; plate prints « Ingressus est Noe et filii ejus,. « uxor, » with a stray period and a repeated guillemet @0107C"
-    },
-    {
-     "from": "0109A",
-     "to": "0110D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 60,
-     "source": "on-disk PL 113 scan; corner numbers 109/110 read first; 1200 dpi crops at the 0110B crux",
-     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: (Psal. XIX) siglum on Ps 119:7 @0109C; Gal 5:17 as *nunc ... et* @0110D; Gn 8:21 without *ultra* @0110D; *vicesima septima* as the entry date @0110B, which contradicts Gn 7:11 and this paragraph's own next sentence; *intraverunt* @0110D (the archive OCR's *intraverant* was OCR noise — a checked negative). TWIN DEFECTS: plate reads *Ingressus EST enim* where twin has *es*; plate reads *NON dicit* where twin has *num*; plate reads *in arca, ipsa die* without the twin's *et*; plate siglum is (Ibid ) without period @0110B"
-    },
-    {
-     "from": "0111A",
-     "to": "0112D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 61,
-     "source": "on-disk PL 113 scan; corner numbers 111/112 read first; 1200 dpi crop at 0112B",
-     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Gn 9:1 without *ejus* @0111A; 1Cor 1:23-24 with *gentibus* for *Graecis* and *Dei virtus* for *Christum Dei virtutem* @0112A; Gn 9:18 as *Erant igitur* @0112A; Gn 9:25 as *Maledictus Chanaan PUER* at both 0112C and 0112D; *Illi enim non pereunt diluvio separati ab Ecclesia* @0111C, so that ambiguity is his. TWIN DEFECT: plate reads *ridiculum ei visum ET FACIMUS cui minime debebat* @0112B where our twin has normalized BOTH words to *est facinus* — the twin's reading is good Latin and the plate's does not construe; plate prints capital X for chi @0112A where twin has lowercase"
-    },
-    {
-     "from": "0113A",
-     "to": "0114D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 62,
-     "source": "on-disk PL 113 scan; corner numbers 113/114 read first; 1200 dpi crops at four sites",
-     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Is 14:13 as *Ascendam super astra coeli* @0113D; Gn 10:13 as *Nephetuim* @0114A; Gn 11:2 as *viderunt* for *invenerunt* @0114C; VERS. 8. printed twice, the first on Gn 10:7's *Regma et Saba* @0113C. TWO HEBREW WORDS DROPPED BY CC @0113C: the plate prints *in Hebraeo habetur [heb] et [heb] scheba et seba*, the Hebrew being SIN-BETH-ALEPH and SAMECH-BETH-ALEPH, and our twin retains only *habetur et ... et ...*. TWIN DEFECTS: plate reads *Japhet* (no h) at BOTH « Dilatet Deus Japhet. » and VERS. 27-29 « Dilatet Deus Japhet, » @0113A, and *Japheth* at the third occurrence, so Migne is inconsistent within three lines and our twin has made all three uniform; plate has NO closing guillemet on « Regma et Saba, etc. @0113C and our twin supplies one; head is CAPUT .X. with a raised stop"
-    },
-    {
-     "from": "0115A",
-     "to": "0116D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 63,
-     "source": "on-disk PL 113 scan; corner numbers 115/116 read first; 1200 dpi crops at three sites",
-     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Gn 1:27 as *Fecit ... et similitudinem suam* @0115A; the Greek EN RABDO SIDERA with *in raudo sidera* / *sidera* / *ferrea* / *astra* exactly as our twin @0115B; Gn 11:10 word order @0115C; Gn 15:7 as *Ego sum qui* @0115D; Gn 11:29 as *Aram* @0115D; Gn 12:3 as *omnes gentes terrae* @0116C; the orphan closing guillemet at VERS. 2-3.--Faciamque @0116B is HIS (no opener on the plate either). HEBREW DROPPED BY CC @0115C: the plate prints *in Ur Chesdim (ALEPH-VAV-RESH-KAPH-SIN-DALET-YOD-MEM)* and our twin leaves the parentheses EMPTY. TWIN DEFECTS: plate reads *usque* WITHOUT a comma and OPENS a guillemet before *facti* @0115D, so the plate is balanced there and our twin has dropped the opener; plate repeats the line-head guillemet in « Thare genuit Abram et Na-«chor. » @0115C; plate has a space after VERS. 2-3. — where twin has none"
-    },
-    {
-     "from": "0117A",
-     "to": "0118D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 64,
-     "source": "on-disk PL 113 scan; corner numbers 117/118 read first; 1200 dpi crops at three sites",
-     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Tit 3:10 as *primam ... correctionem* @0117D; the anacoluthic *Pastores ejus, haereticos et schismaticos, qui ... pacem et unitatem continentes;* @0117D; the LXX/Hebrew pair at 0117B; *ab Helia* @0117B. HEBREW DROPPED BY CC at two sites: *habetur [KAPH-BETH-DALETH] gravis vehementer* @0117A, and *civitas quatuor; [QOPH-RESH-YOD-TAV] CHARIAT enim Hebraice civitas, [ALEPH-RESH-BETH-AYIN] arbe quatuor* @0118C, where the loss has also FUSED two of Migne's italic phrases into our twin's single span *civitas, arbe quatuor*. TWIN DEFECTS: plate prints CAPUT XIII. WITH the terminal period, which our twin and its frontmatter both lack; plate reads *ponitur. ideo fit quia* with a full stop and lower case @0118B where our twin has a comma"
-    },
-    {
-     "from": "0119A",
-     "to": "0120D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 65,
-     "source": "on-disk PL 113 scan; corner numbers 119/120 read first; 1200 dpi crops at five sites",
-     "found": "no foot-of-page apparatus. CONFIRMED as Migne's: Gn 14:5 as *Raphaim in Astaroch* @0119D; the Jos 24 conflation *Quid vultis servire diis patrum vestrorum qui sunt trans flumen?* @0119D; Hbr 7:3 as *sine patre et matre* @0120C; Tit 1:12 word order *pigri ventres* @0120D; Is 22:13's words under the (I Cor. XV) siglum @0119C. TWIN DEFECTS: plate reads *versa est, quod* with a COMMA @0119B where our twin has a full stop, and *primum Bara. qui* with a PERIOD where our twin has a comma — CC has swapped both marks, in opposite directions, four lines apart; plate prints *Mystice* and *Allegorice* WITHOUT the terminal period @0119B where our twin adds one to each; plate reads *stipendia legitime pugnantibus DEBITO non abnegans* @0120D where our twin has normalized to *debita*; plate reads *ad utilitatum fidelium* @0120D where our twin has *utilitatem*; plate closes the Tit 1:12 quotation with a SEMICOLON inside the guillemets @0120D where our twin has a comma"
-    },
-    {
-     "from": "0121A",
-     "to": "0122D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 66,
-     "source": "on-disk PL 113 scan, full page width at 150 dpi + 600 dpi crops; corner numbers 121/122 read first",
-     "found": "no foot-of-page apparatus of either layer (page foot carries only a centred dot). Plate confirms « Suspice coelum » @0121A (see cruces-0019 §2 — NOT a divergence), « Pavor irruit » @0121C, « Videbis posteriora mea, nam facies non apparebit tibi » and « Non enim homo videbit faciem meam et vivet » @0122C. Plate sets a CLOSING » before Ego vado @0121A where our twin sets « ; plate prints (HIERON, in Q. Hebr.) with a comma and VERS. 2, — with a comma. Marks follow the twin."
-    },
-    {
-     "from": "0123A",
-     "to": "0124D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 67,
-     "source": "on-disk PL 113 scan; corner numbers 123/124 read first; 600 dpi crops at three sites",
-     "found": "no foot-of-page apparatus. ⭐ (RAB. STRAR.) @0123B is MIGNE'S OWN broken small-cap sort — read at 600 dpi, the plate sets STRAR. and our twin is faithful; a suspicion withdrawn. Plate confirms pueri circumcisi @0123D (no in- prefix) and « Ascendit Deus ad Abraham » @0124D. Plate sets « Sarai uxorem tuam, etc. » with the close after etc. where the twin closes before it (mark; twin followed)."
-    },
-    {
-     "from": "0125A",
-     "to": "0126D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 68,
-     "source": "on-disk PL 113 scan; corner numbers 125/126 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus. ⛔ Plate has NO opening « before Fide purificans corda eorum @0125C — it prints 'mundabantur : unde : Fide purificans corda eorum. »'; our TEI has SUPPLIED an opening guillemet and DROPPED the colon after mundabantur. Plate prints (Math. v) @0125B where the twin reads (Matth. V), and (HIERON. STRAB.) @0125C."
-    },
-    {
-     "from": "0127A",
-     "to": "0128D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 69,
-     "source": "on-disk PL 113 scan; corner numbers 127/128 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus. ⭐⭐ Plate reads VERS. 27-19 @0127D (read at 600 dpi against the plainly-different 1 of the adjacent 19, and against VERS. 17-19 set correctly on p. 71) — our TEI has NORMALIZED it to VERS. 17-19. Plate reads (II Cor) @0128A with no chapter numeral where our twin reads (II Cor. II). Plate confirms Abrahae and gessurus @0127D, « in eo benedicentur omnes gentes terrae » @0128A, and the unclosed « at 0127B and 0127D as MIGNE'S. Plate prints « VERS. 10. — «|Et habebit filium » @0127A with a repeated line-head « our twin drops."
-    },
-    {
-     "from": "0129A",
-     "to": "0130D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 70,
-     "source": "on-disk PL 113 scan; corner numbers 129/130 read first; 600 dpi crops at three sites",
-     "found": "no foot-of-page apparatus (foot carries only a centred dot). Plate reads eic. @0129B (twin etc.) and Sodomorm. @0129C (twin Sodomorum) — both MIGNE'S defects our TEI has tidied away. Plate reads virgines @0130D (twin virginet — OURS). Unclosed « @0129D confirmed as Migne's. Plate confirms « Videte si inveniatis hominem facientem justitiam » @0129D, « Hospitalitatem nolite oblivisci … placuerunt quidam Deo » @0130A, « Ecce duae filiae meae quae non cognoverunt virum » @0130D, and (Psal. x) @0129A."
-    },
-    {
-     "from": "0131A",
-     "to": "0132D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 71,
-     "source": "on-disk PL 113 scan; corner numbers 131/132 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus. Plate reads usque ad @0131C (our twin: the non-word uque ad — OURS), agno-scebat hyphenated across the line break @0131B (twin: agno scebat, a split run — OURS), and supplicio ignis aeterni with a space @0131A (twin: supplicio-ignis — OURS). Plate confirms Marci XIX @0131A and « Si vis perfectus esse, vade et vende omnia quae habes ». Plate prints « Igitur Dominus pluit super Sodo- « nam. » @0131D with a repeated line-head « our twin drops."
-    },
-    {
-     "from": "0133A",
-     "to": "0133D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 72,
-     "source": "on-disk PL 113 scan; corner numbers 133/134 read first; 600 dpi crop at one site",
-     "found": "no foot-of-page apparatus. Plate reads susperstites @0133A (twin superstites) — MIGNE'S defect our TEI has tidied away. Hebrew words at 0133B (Moab, benammi) present on the plate and dropped by Corpus Corporum, which leaves the empty ( ) our twin prints."
-    },
-    {
-     "from": "0133A",
-     "to": "0134D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 72,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 500 dpi crops at three sites; corner numbers 133/134 read first",
-     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `dixit sonorem` @0133C where our twin reads `dixit sororem` — 500 dpi, unambiguous; MIGNE'S defect, tidied by Corpus Corporum. Plate prints NO opening guillemet before `Visitavit autem Deus Saram, »` @0134C — our twin supplies it. Plate prints the Hebrew after *vegam* @0134A which our TEI drops as `( )`. Plate prints `VERS. 14 —` without the period our twin gives. [var:] CONFIRMED as Migne's: 0133D « Et peperci tibi ne peccares in me » against Gn 20:6 *custodivi te*; 0134C « Visitavit autem Deus Saram » against Gn 21:1 *Dominus*."
-    },
-    {
-     "from": "0135A",
-     "to": "0136D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 73,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 500-600 dpi crops at four sites; corner numbers 135/136 read first",
-     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `quam pollicitus erat futurum in gentem magnam` @0136C where our twin reads `quem` — CC normalization, no English exponent. ⭐ PLATE READS `par quem populus crediturus est` @0136D where our twin reads `per quem` — Migne's broken sort, tidied by CC. Plate prints no closing » after `« Dure accepit,` @0135C and no opening « before `Non filii carnis` @0135D; our twin supplies both. [var:] CONFIRMED as Migne's: 0136A « Sumpsit panem et utrem aquae » against Gn 21:14 *tollens*; 0136C « Et projecit puerum subter unam abietem … quasi jactus sagittae » against Gn 21:15-16; 0136D « Angelus Domini » against Gn 21:17 *angelus Dei*; 0136D « Qui sitit, veniat ad me et bibat » against Jo 7:37 *Si quis sitit*; 0136D « Ecce ego mittam vobis Eliam, qui convertat corda patrum in filios » against Mal 4:5-6."
-    },
-    {
-     "from": "0137A",
-     "to": "0138D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 74,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 600-900 dpi crops at four sites; corner numbers 137/138 read first",
-     "found": "no foot-of-page apparatus (foot carries only PATROL. CXIII. and signature 5). ⭐⭐ PLATE READS `probare` @0137C (hyphenless line wrap, 600 dpi) where our twin prints the non-word split `pro are` — OURS, not Migne's. ⭐ PLATE READS the non-word `accdperat` @0137C where our twin reads `acceperat` — MIGNE'S, tidied by CC. ⭐ PLATE prints `non hæ-` with a hyphen at the line end @0138D, i.e. *haesitavit* wrapped normally, where our twin prints the split `hae sitavit` — OURS. Plate prints the Hebrew after *sabaa* @0137B and after *Alon* and *debir* which our TEI drops as `( )` or omits. [var:] CONFIRMED as Migne's: 0137D « Tentat vos Deus vester, ut sciat si diligatis eum » against Dt 13:3; 0138A « Coeperunt aedificare templum … secunda die mensis » against 2Par 3:1-2; 0138C « adversatrix Israel, et praevaricatrix Juda » against Jr 3:11 *aversatrix … comparatione praevaricatricis Judae*; 0138D « Fide Abraham non haesitavit » against Hbr 11:17,19."
-    },
-    {
-     "from": "0139A",
-     "to": "0140D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 75,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 600 dpi crops at four sites; corner numbers 139/140 read first",
-     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS the non-word `incana-tionem` @0139C where our twin reads `incarnationem` — MIGNE'S, tidied by CC. ⭐ PLATE READS `« Et mortua est in civitate Arbee, » est.` @0140A where our twin reads `etc.` — MIGNE'S (600 dpi; the parallel lemma four words earlier prints `etc.` correctly). ⭐⭐ PLATE READS `sed femore manum ponere jubet` @0140C — NO `sub` — where our twin reads `sed sub femore`; the same gloss's opening sentence prints *Manum sub femore jubet ponere*. Plate prints a semicolon after `Unde Habac. III` @0139B where the twin has a colon; plate prints no opening « before `Non peperceris` @0139C, before `Surrexit Abraham` and `Quod cum audisset` @0140A (it prints » in both places), and drops the second « before `Dixitque ad servum seniorem` @0140C — our twin supplies all four."
-    },
-    {
-     "from": "0141A",
-     "to": "0142D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 76,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 600 dpi crops at five sites; corner numbers 141/142 read first",
-     "found": "no foot-of-page apparatus (checked zero). ⭐⭐⭐ PLATE READS `quia NON in eo quod credidit, vacua non remansit` @0141B — our twin has DROPPED the first `non`. 600 dpi, the word well-formed and normally spaced. This is the highest-value finding of the stint and it runs the unexpected direction: the plate carries MORE negation than the twin. ⭐ PLATE READS `quia electorem Ecclesia` @0141A where our twin reads `electorum` — MIGNE'S, tidied by CC. ⭐ PLATE READS `Quia praedi-cator auditum Ecclesiae` @0141C-D where our twin reads `praedicato:` — OURS (CC lost the `r` at the column break and set a colon). ⭐ PLATE READS the non-word `caanem` @0141C in Eph 5:29 where our twin reads `carnem` — MIGNE'S, tidied by CC. ⭐ CONFIRMED MIGNE'S: the 1Cor 9:11 quotation @0141D is UNCLOSED on the plate too — the one open-ended span in this range is his, not our TEI's. Plate prints the Hebrew after *Beka* and *Schekel* @0141C which our TEI drops as `( )`. Plate guillemets @0141B bracket only `« Pauxillum, »`, not the whole `Occurritque ei servus, et ait: Pauxillum,` our twin brackets; plate prints no opening « before `Non comedam` @0142B. [var:] CONFIRMED as Migne's: 0142A « Non angustiamini in nobis, sed in visceribus vestris » against 2Cor 6:12 *angustiamini autem*."
-    },
-    {
-     "from": "0143A",
-     "to": "0144D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 77,
-     "source": "on-disk PL 113 scan, full page at 200 dpi; corner numbers 143/144 read first",
-     "found": "no foot-of-page apparatus (checked zero). No twin/plate WORD divergence found on this page — a checked negative, recorded as such. Mark-level only: the plate prints `« Inclinata, » etc. … unde psal. CXL : » Elevatio manuum …` @0143C, i.e. TWO spans, where our twin has lost the » after `Inclinata,` and the » before `Elevatio` and runs them into one span; plate prints `« teristrum, «` @0143D (twin: `»`); plate prints no closing » after `« Et intantum dilexit eam,` @0144A; plate prints no period after `Judaea pro nihilo habetur` @0144A-B; plate repeats « at the head of the continued line in `« Abraham vero aliam duxit uxo- « rem, »` @0144B, Migne's line-continuation mark, which our TEI drops."
-    },
-    {
-     "from": "0145A",
-     "to": "0146D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 78,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 600-900 dpi crops at six sites; corner numbers 145/146 read first",
-     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `si simpliciter ponatur « plenius. »` @0145A where our twin reads `« plenus. »` — MIGNE'S (600 dpi), an eye-skip from the *plenius* eight words above; CC tidied it. ⭐ PLATE READS `quia prius est quod animale est` @0145A where our twin reads `quod animae est` — OURS; the plate's *animale* is 1Cor 15:46's own word. ⭐ PLATE PRINTS THE ADDRESS `VERS 13.` @0145A (900 dpi, no period after VERS, the numeral a clear 3) where our twin prints `VERS. 12.--`; the next address is `VERS. 13-15.`, so Migne's page repeats 13 and CC silently corrected the first to 12. ⭐ PLATE READS `(IV Reg. VII)` @0146C where our twin's [n:] reads `(IV Reg. VIII)` — MIGNE'S slip (Edom revolts under Joram at IV Reg 8:20), tidied by CC. ⭐ PLATE READS `segr` @0146C where our twin reads `seyr,` in the SECOND of the two occurrences (the first prints `seyr` on both) — MIGNE'S, tidied by CC. ⭐ PLATE READS `quod annorum fuerit Isaac` @0146A where our twin reads `quot` — MIGNE'S, tidied by CC, no English exponent. Plate prints `..` (two dots) after `Deprecatusque` @0145D where the twin has three; plate prints no closing » after `« Perrexitque` @0146A. [var:] CONFIRMED as Migne's: 0145B « et Abel » against Gn 25:13 *Adbeel*; 0145C « Ponatur coram fratribus meis … et dijudicent inter nos » against Gn 31:37; 0146A « Qui exaudivit eam » against Gn 25:21 *eum* (900 dpi — *eam* is unambiguous, and Chrysostom's gloss below is about ISAAC's twenty years of prayer)."
-    },
-    {
-     "from": "0147A",
-     "to": "0148D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 79,
-     "source": "on-disk PL 113 scan, full page at 200 dpi + 600 dpi crops at two sites; corner numbers 147/148 read first. ⚠ Cols 0148A-D lie OUTSIDE this stint's range (they belong to chunk 0031) and were read only incidentally as the facing column; the depth claim above is honest for 0147 and should be treated as incidental for 0148.",
-     "found": "no foot-of-page apparatus (checked zero). ⭐ PLATE READS `vestis erat sacerdotalis, quo induti` @0147B where our twin reads `qua induti` — MIGNE'S gender slip (vestis is feminine), tidied by CC; Pattern 9, no English exponent. Plate prints `« Simplex. «` @0147A (twin: `»`). [var:] CONFIRMED as Migne's: 0147B « Auferetur a vobis regnum Dei et dabitur gentibus » against Mt 21:43 *dabitur genti facienti fructus ejus* (and Migne cites it as Matth. XII, where it is Matt 21 — reproduced verbatim, uncorrected)."
-    },
-    {
-     "from": "0149A",
-     "to": "0150D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 80,
-     "source": "on-disk PL 113 scan; corner numbers 149/150 read first; 600 dpi crops at six sites",
-     "found": "no foot-of-page apparatus. ⭐⭐ THREE VERSE ADDRESSES OUR TWIN HAS NORMALIZED: plate VERS. 5-13 @0150B (twin 6-13), plate VERS. 16-19 @0150C (twin 15-19), plate VERS. 19-24 @0150D (twin 20-24) — in each the plate's range overlaps or skips and the twin's is the tidy one. MIGNE'S defect our twin has tidied: mediatabatur @0149C (twin meditabatur). Plate has NO opening « before Ecce autem venerunt @0149A and none before Et vestibus Esau @0150C — our twin supplies both. Plate prints a closing » after Deum placabat @0150A and none opening before Jacob simplex, where the twin prints an opening « before Jacob and no orphan close. Plate sets Mystice, with a comma @0149B (twin Mystice.) and sets only 'epist. ad Damasum' in italic, not the whole siglum."
-    },
-    {
-     "from": "0151A",
-     "to": "0152D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 81,
-     "source": "on-disk PL 113 scan; corner numbers 151/152 read first; 600 dpi crops at five sites plus one 1200 dpi crop",
-     "found": "no foot-of-page apparatus. ⭐ pinguedidine @0152A CONFIRMED AS MIGNE'S at 1200 dpi: the plate breaks the line « In pinguedi- | dine terrae, » and the join is a doubled syllable; the internal control is eleven words earlier on the same plate, where he sets « In pinguedine terrae » correctly. Our twin carries the defect verbatim, so the [sic:] is licensed and passes the verbatim-substring guard. Plate reads benedicetur @0151A and benedicetur @0151B where the twin reads benedicitur in both (OUR normalization, e->i, twice). Plate reads 'Alter venandum mittitur' @0151B with NO 'ad' — our twin supplies it. Plate sets a nested line-head « before 'set, » @0151A, before 'Jacob @0152D and before 'ejus. » @0152D, all dropped by our twin. A bracket-shaped sort stands before 'de cervicibus' @0152B which our twin does not carry. Plate confirms « Et benedixi eum, et benedictus est » @0152A, « Et servies fratri tuo minori » @0152B and « Ponite nomen meum super filios Israel. Ego Dominus benedicam eos » @0152C — all three [var:] licensed."
-    },
-    {
-     "from": "0153A",
-     "to": "0154D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 82,
-     "source": "on-disk PL 113 scan; corner numbers 153/154 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus. MIGNE'S defects our twin has tidied away: Chrisri @0154A (twin Christi), menbra @0154B and illus @0154B (twin membra illius). Plate reads Graece @0154A where the twin reads Grece. The unclosed « before « Caput enim viri Christus @0154A is MIGNE'S — he prints no closing mark, exactly as the twin has it (this is the stint's one open-ended span). Plate prints « Viditque in somnis, etc. @0154A with NO closing » — our twin supplies one. Plate sets Mystice in ITALIC @0154D where our twin sets it roman; italic parity therefore follows the twin. Plate sets the AUG. and GREG. sigla @0153C/@0153D in roman parentheses with only the work-title italic, where the twin wraps the whole siglum in one italic span."
-    },
-    {
-     "from": "0155A",
-     "to": "0156D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 83,
-     "source": "on-disk PL 113 scan; corner numbers 155/156 read first; 600 dpi crops at five sites",
-     "found": "no foot-of-page apparatus. ⭐ A FOURTH NORMALIZED VERSE ADDRESS: plate VERS. 11-19 @0155D (twin 11-16), again overlapping the following VERS. 16-19. OUR defect, plate clean: idolol triae @0155A is a SPLIT RUN of ours — the plate sets idololatriae whole. Plate reads olam @0155B at the first occurrence where the twin reads ulam. Plate prints the Hebrew ולאם after 'ulam vel olam' @0155B; our twin drops it entirely and the sentence still construes, so no [ed:] (the 0117A class, not the 0115C class). Plate reads cooperata @0156A, agreeing with the twin — a real word that reads oddly, rendered as printed, no marker. Plate reads 'usque ab' @0156D for the abridgment formula where our twin reads 'usque ad'. Plate sets Bethel, @0155B where our twin sets Bethel., with a spurious extra period (mark; twin followed), and prints 'HIER., de locis Hebraicis.)' with no opening parenthesis. Plate prints nested line-head « at @0155B, @0156A and @0156D, all dropped by our twin."
-    },
-    {
-     "from": "0157A",
-     "to": "0158D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 84,
-     "source": "on-disk PL 113 scan; corner numbers 157/158 read first; 600 dpi crops at two sites",
-     "found": "no foot-of-page apparatus. Plate prints the Hebrew מנים after 'monim' @0157C and תרפים after 'theraphim' @0158A; our twin drops both and both sentences construe, so no [ed:]. Plate reads remisse @0158C where the twin reads remissae. Plate has NO opening « before 'mutavit mercedem meam decem vicibus' @0157C — our twin supplies it. Plate prints (GREG.,) @0158B with a comma inside the parenthesis, and nested line-head « at @0158A, @0158D twice. Bracket-shaped sorts stand before 'ad decem vices' and 'in contrarium' @0157C-D and before 'psal. cxxvi' @0158C, none carried by our twin — the same recurring artifact as @0152B. Verse addresses on this page (1-11, 12, 13-31, 32-39, 40-45, 46-52) all AGREE with the twin."
-    },
-    {
-     "from": "0159A",
-     "to": "0160D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 85,
-     "source": "on-disk PL 113 scan; corner numbers 159/160 read first",
-     "found": "no foot-of-page apparatus. Plate confirms « Vidi Dominum facie ad faciem? » @0160A against the Vulgate's Deum ([var:] licensed), and « Nemo videbit faciem meam » and « Deum nemo vidit unquam » in the same paragraph. Plate prints the Hebrew מהנים after 'mahanaim' @0159B; our twin drops it and leaves the space before the semicolon, sentence sound, so no [ed:]. Plate sets Mystice in italic with no period @0159D and the GREG. siglum roman with a comma after GREG.; the twin wraps note+tag in one italic span with a period. Plate prints 'dicens.' with a period @0159A where the twin prints a comma, and a stray ! before 'sunt in salutis praesidium' @0159C. Verse addresses on this page (53-54, 55, 2-6, 7-9, 10, 11-19, 20-27, 28-29, 30-32) all AGREE with the twin."
-    },
-    {
-     "from": "0161A",
-     "to": "0162D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 86,
-     "gallica_f": 81,
-     "source": "archive 300 dpi by column-third + 600 dpi crops at four sites; Gallica f81 whole page + native crops at three sites; corner numbers 161/162 read first on both",
-     "found": "no foot-of-page apparatus. « Tristemque blanditus delinivit. » @0161A CONFIRMED on both witnesses (Vulg. Gn 34:3 tristemque delinivit blanditiis) — [var:] fired. « Venit igitur Jacob Suzam, » @0162A CONFIRMED on both (Vulg. Luzam) — [var:] fired. « Regesque de lumbis ejus egredientur, » @0162C CONFIRMED on both (Vulg. tuis) — [var:] fired. ⛔ THREE archive-copy readings REFUTED by Gallica and withdrawn: expurgationi (Gallica and twin: expugnationi) @0161C, seu sensu (Gallica and twin: sed sensu) @0162A, cum legatur (Gallica and twin: cur legatur) @0162B. Migne repeats « at the head of a continued line at 0161D and 0162C; our TEI drops both."
-    },
-    {
-     "from": "0163A",
-     "to": "0164D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 87,
-     "gallica_f": 82,
-     "source": "archive 300 dpi by column-third + 600 dpi crops at three sites; Gallica f82 whole page; corner numbers 163/164 read first on both",
-     "found": "no foot-of-page apparatus. The Mt 27:25 quotation at 0163A is UNCLOSED on both plates — Migne's, not ours. « Et factum est cum dimitteret animam. » and « vocavit nomen ejus … Benjamin. » @0163A CONFIRMED on both — two [var:] fired. « Abraham duos filios habuit … et alterum de libera, » @0163B CONFIRMED (Vulg. Gal 4:22 et unum de libera) — [var:] fired. filii Ismael @0164B (for Israel, with Saul named as the first king) CONFIRMED on both witnesses as MIGNE'S — rendered as printed, no marker. (STRAB ) @0163C is a note on the plate, with Migne's internal space; our TEI carries it as plain text with no note markup. ⛔ FOUR archive-copy readings REFUTED by Gallica and withdrawn: Sanguinis (Gallica and twin: Sanguis) @0163A, Pilius (Gallica and twin: Filius) @0163A, parente without a (Gallica and twin: a parente) @0163D, unica varia (Gallica and twin: tunica varia) @0164D."
-    },
-    {
-     "from": "0165A",
-     "to": "0166D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 88,
-     "gallica_f": 83,
-     "source": "archive 300 dpi by column-third + 600 dpi crops at three sites; Gallica f83 whole page + native crops at three sites; corner numbers 165/166 read first on both",
-     "found": "no foot-of-page apparatus. « Misit Deus Filium suum in similitudinem carnis peccati. » and « Non veni nisi ad oves quae perierant domus Israel. » @0165C CONFIRMED on both — two [var:] fired. 0166C: plate reads ἀρχιμαγείρους where our twin prints sb;αρχιμαγείρους — the sb; is an artifact of our transform and is not carried into the English. 0166A: plate reads exspoliatus where our twin prints exspolitus (OURS). Ismaelitis venditis venditur @0166A CONFIRMED as Migne's, rendered as printed. ⛔ FOUR archive-copy readings REFUTED by Gallica and withdrawn: tularem (Gallica and twin: talarem), colcbiis (colobiis), in est (id est) — all @0165A — and VERS. 4-6 (Gallica and twin: VERS. 4-9) @0165A. The (GREG., hom. XXV in Evang.) siglum IS parenthesized on the plate; my archive crop had clipped the opening bracket."
-    },
-    {
-     "from": "0167A",
-     "to": "0168D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 89,
-     "gallica_f": 84,
-     "source": "archive 200 dpi head/foot strips + Gallica f84 whole page; corner numbers 167/168 read first on both",
-     "found": "no foot-of-page apparatus. ⚑ This page had been sampled foot-only by an earlier pass; its running text is now READ. 0167D: Migne prints the Hebrew עינים after Enaiim; our TEI has lost it — the loss leaves the sentence sound, so NO [ed:] (Pattern 13a clause 1), patch only. The orphan » at 0168B (Qui agnitis, ») is MIGNE'S, on both witnesses. descendit ab baptismum @0166D-0167A CONFIRMED as Migne's on the Gallica native crop — rendered as printed, [cj:] declined per 18a's 11535 @1360C precedent."
-    },
-    {
-     "from": "0169A",
-     "to": "0170D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 90,
-     "gallica_f": 85,
-     "source": "archive 300 dpi by column-third + 600 dpi crop at trangressionis; Gallica f85 whole page + native crops at four sites; corner numbers 169/170 read first on both",
-     "found": "no foot-of-page apparatus (the foot carries only PATROL. CXIII. and signature 6). ⭐ trangressionis @0169B CONFIRMED on BOTH witnesses and present in our twin — the stint's one [sic:]. Hebrew משקה @0169B and שריגים @0169C are on both plates and dropped by our TEI, each leaving a floating mark — two [ed:] fired. Plate reads veritatis @0170A where our twin prints veritalis (OURS). Plate reads tunc sancti habeant @0170C — our twin has DROPPED sancti. Plate reads « Spiritus Dei ferebatur super aquas, » @0170C — our twin has DROPPED Dei. « Non permanebit Spiritus meus in hominibus istis, » @0170C and « Dedit ei nomen quod est super omne nomen, » @0170D CONFIRMED on both — two [var:] fired. Migne repeats « at the head of a continued line at 0169A twice and 0169B; the orphan » at 0169A (Qui relicto, ») is MIGNE'S."
-    },
-    {
-     "from": "0171A",
-     "to": "0172D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 91,
-     "gallica_f": 86,
-     "source": "archive 300 dpi by column-third + 600 dpi crop at Mititte; Gallica f86 whole page + 1600 px native blow-up at Mititte; corner numbers 171/172 read first on both",
-     "found": "no foot-of-page apparatus. « Reus ero peccati in patrem omni tempore, » @0172B CONFIRMED on both (Vulg. Gn 43:9 ero peccati reus in te) — [var:] fired. The abridgment tail at 0172A ends without a full stop (…sed habebitur) on both plates — Migne's. ⛔⛔ THE TWO WITNESSES DISAGREE AT 0171D: Gallica prints Mititte, the archive copy prints Mittite, both crisply, in a letter ORDER that no inking artifact can produce. Our twin follows the Gallica reading. NO [sic:] fired — a marker cannot stand where one witness shows sound type."
-    },
-    {
-     "from": "0173A",
-     "to": "0174D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 92,
-     "gallica_f": 87,
-     "source": "archive 300 dpi by column-third + 600 dpi crops at two sites; Gallica f87 whole page + native crops at two sites; corner numbers 173/174 read first on both",
-     "found": "no foot-of-page apparatus. Plate reads seorsum @0173A on both witnesses where our twin prints scorsum (OURS). CAP. XLIV. is abbreviated on both plates and is reproduced. sedjoco @0173C: the archive copy shows a clear space (sed joco), Gallica shows the letters touching — read as OUR lost space, patch only, no [sic:]. Cols 0173D-0174D are beyond this stint's range and were read only in passing."
-    },
-    {
-     "from": "0175A",
-     "to": "0176D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 93,
-     "gallica_leaf": 88,
-     "witnesses": 2,
-     "source": "archive copy, both columns at 400 dpi + 1200 dpi crop at 0175C, corner numbers 175/176 read first; all calls re-checked on Gallica f88",
-     "found": "foot-of-page apparatus: CHECKED ZERO. CONFIRMED on both witnesses: 'Quaeritur, cum Joseph frumenta colligeret' @0175C — OUR TWIN is the corrupt witness, reading 'eum'; the English renders the plate. REFUTED by Gallica: 'iuvaluisset' @0175C is 'invaluisset'; 'capnt' @0176D is 'caput'; 'Dei deditus' @0176D is 'Deo deditus'; the two apparently-absent 'etc.' before *usque ad* @0175A and @0176D are BOTH PRESENT on Gallica; the unclosed quotation @0176C-D is closed on Gallica."
-    },
-    {
-     "from": "0177A",
-     "to": "0178D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 94,
-     "gallica_leaf": 89,
-     "witnesses": 2,
-     "source": "archive copy, both columns at 400 dpi + 3x-4x crops at four sites, corner numbers 177/178 read first; letter-level calls re-checked on Gallica f89",
-     "found": "foot-of-page apparatus: CHECKED ZERO. CONFIRMED on both witnesses: @0178D the plate prints 'rex alienigena fuit Herodes' with NO period after 'fuit' — our twin's period breaks the sentence and changes the sense, and the English follows the plate. Migne's Hebrew after 'mittha' @0177B is present on the archive and DROPPED by our twin (structural; no [ed:], the sentence stays sound). REFUTED by Gallica: 'allis verbis' @0178B is 'aliis verbis'; ⭐ 'VERS. — « Non auferetur sceptrum »' @0178D DOES carry its number, 'VERS. 10.', which the archive's ink had swallowed entirely — the 0036-0041 stint's blotted-verse-address class, one step worse."
-    },
-    {
-     "from": "0179A",
-     "to": "0180D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 95,
-     "gallica_leaf": 90,
-     "witnesses": 1,
-     "source": "archive copy, both columns at 400 dpi, corner numbers 179/180 read first; Gallica f90 fetched and the leaf map confirmed, but no call on this page needed adjudicating",
-     "found": "foot-of-page apparatus: CHECKED ZERO. No plate/twin WORD divergence found in either column — the only clean pair of columns in the range, and the only page here with nothing to adjudicate. Mark-level observations (a stray period in 'candidiores.', an unclosed Jer. XVI quotation, a ')' for a '»' after 'omnem carnem', a missing opening '«' before 'Appositusque') are ARCHIVE-ONLY and, after this stint's refutation rate, are not to be trusted or patched without a second witness; the English follows the twin at every one."
-    },
-    {
-     "from": "0181A",
-     "to": "0182D",
-     "depth": "full",
-     "date": "2026-09-05",
-     "page": 96,
-     "gallica_leaf": 91,
-     "witnesses": 2,
-     "source": "archive copy, both columns at 400 dpi + 3x-4x crops at three sites, corner numbers 181/182 read first on both copies. THIS IS THE LAST PAGE OF THE WORK; its foot had been sampled before, its running text had not.",
-     "found": "⚑ foot-of-page apparatus: CHECKED ZERO — the text closes at 0182D with « Adimplebis me laetitia cum vultu tuo. » and BELOW IT stands a single short centred rule, set under the gutter and about a third of a column wide, and NOTHING ELSE: no numbered or letter-keyed note, no catchword, no signature, no colophon, no FINIS, no head of a following work; the lower third of the page is blank. CONFIRMED: the UNCLOSED '«' at 0181A (the Jon. 3:4 quotation, which runs on four sentences and is never closed) is MIGNE'S, and our twin reproduces the plate exactly, unbalanced pair included. 'Nos quosque moraliter instruit' @0182C is Migne's and our twin carries it verbatim — one of the few defective-looking forms in this book the twin did NOT tidy. REFUTED by Gallica: 'quia traditus est' @0181B is 'qui traditus est'; 'Pater maus' @0182A is 'Pater meus'; 'Tanto ergo luctus' @0182B is 'Tanto ergo luctu'."
-    }
-   ],
-   "deliberately_not_recorded": "⛔ SEVEN MORE PAGES OF THIS WORK WERE PUT ON SCREEN ON 2026-09-05 (PDF 53, 60, 67, 74, 82, 89, 96) AND ARE NOT RECORDED HERE, ON PURPOSE. Those were the conjecture-layer spot check and only the HEAD STRIP AND FOOT ZONE were read — enough to see that a page foot is blank, which is what coverage.json records, and NOT enough to license a [sic:] or a [var:] on their columns. Both depths in this file mean a human eye met the running text; a foot-only look is neither. Recording them would hand the gate a pass it was never given. Same principle as 8988 col 0636A above: a read that cannot settle the words is not a read for this purpose.",
-   "merged_from": [
-    "data/briefs/8950-PLATE-READS-0008.json — the 0008-0011 stint read its whole range (pp.53-58, cols 0095-0106) at 300-1200 dpi and recorded separately to avoid racing peer stints. Merged 2026-09-05.",
-    "data/briefs/8950-PLATE-READS-0019.json — the 0019-0023 stint read pp.66-72 (cols 0121-0133), corners first, 600 dpi at 14 sites. APPENDED, not substituted. Merged 2026-09-05.",
-    "data/briefs/8950-PLATE-READS-0012.json — the 0012-0018 stint's SECOND pass, sent back to read pp.58-65 (cols 0105-0120) after collating 26 divergences it could not fire. depth full, corners first on all eight. Merged 2026-09-05.",
-    "data/briefs/8950-PLATE-READS-0024.json — the 0024-0030 stint read pp.72-79 (cols 0133-0148) as it translated, corners first on all eight, 500-900 dpi at 22 sites, foot a checked zero throughout. Merged 2026-09-05.",
-    "data/briefs/8950-PLATE-READS-0031.json — the 0031-0035 stint read pp.79-85 (cols 0147-0160), corners first, 600 dpi at 20 sites and one at 1200. Foot a checked zero on all seven, all three key shapes. Merged 2026-09-05 after the stint was resumed from a session-limit death.",
-    "data/briefs/8950-PLATE-READS-0036.json — the 0036-0041 stint read pp.85-92 on the archive.org copy AND ff.80-87 on GALLICA, corners first on all sixteen. Merged 2026-09-05.",
-    "data/briefs/8950-PLATE-READS-0042.json — the 0042-0046 stint read pp.92-96 (cols 0173-0182, the work's end) on BOTH witnesses, corners first, 400 and 1200 dpi. Merged 2026-09-05."
-   ]
-  },
-  "9002": {
-   "series": "pl",
-   "volume": 114,
-   "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
-   "page_map": "PDF page = (column + 11) / 2 — calibrated on this work's own range from the printed corner numbers before any reading (p.37 reads 63/64, p.94 reads 177/178), corners re-read on every page. ⭐ SECOND WITNESS, calibrated 2026-09-05: Gallica ark:/12148/bpt6k54939667, f = (column + 1) / 2 (f37 = 73/74, f89 = 177/178) — SIX LEAVES off the archive map. Every read below says which witness(es) it used.",
-   "reads": [
-    {
-     "from": "0063A",
-     "to": "0064D",
-     "depth": "full",
-     "pages": "archive p.37 / Gallica f32",
-     "found": "Work division page: five stub entries and PROPHETIA BARUCH close above a full-width rule, Matthew opens below it. The asterisk-keyed foot note on this page belongs to Baruch (8996) and was NOT adopted. No foot-of-page apparatus belonging to Matthew. Archive prints 'ad memorian reliquit'; GALLICA PRINTS 'memoriam' and our twin agrees -- archive-only, refuted, no marker.",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0065A",
-     "to": "0066D",
-     "depth": "full",
-     "pages": "archive p.38 / Gallica f33",
-     "found": "Running head confirmed 'GLOSSA ORDINARIA. -- EVANG. MATTH.' FOUR archive-only candidates, ALL REFUTED BY GALLICA, our twin right at each: 'sa cramentum' (split type) vs sacramentum; 'Aminabad' vs Aminadab; 'Eclesiam' vs Ecclesiam; 'ei novissima mors' vs 'et'. Two further archive-only oddities also refuted: 'gentes Domini' (Gallica and Ps 112:4 read Dominus) and 'incipit ad exordio' (Gallica reads 'ab exordio').",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0067A",
-     "to": "0068D",
-     "depth": "full",
-     "pages": "archive p.39 / Gallica f34",
-     "found": "CONFIRMED ON BOTH WITNESSES: 'alter in principio sequentis. Sed mystice' -- Migne prints a FULL STOP after sequentis which our twin has lost. TEI patch filed. Gallica's 'tesseratlecadis' is ink; the archive prints tesseradecadis, as our twin does. Archive prints 'generandus.' with a terminal stop at 0067A where Gallica and our twin have none -- archive-only, declined.",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0069A",
-     "to": "0070D",
-     "depth": "full",
-     "pages": "archive p.40 / Gallica f35",
-     "found": "Both witnesses confirm the two readings a [var:] rests on: 'Ipse invocavit me' (0069A, perfect for the Vulgate's future invocabit) and 'Ecce Deus adjuvit me' (0069B, perfect for the Vulgate's present adjuvat, beside Migne's own etymology 'Adjutus'). THREE archive-only oddities refuted by Gallica, our twin right at each: 'ressuscitans' vs resuscitans; 'Mathan, qui per Solomonen descendit' vs 'Salomonem'; 'suspicio lector.' vs 'lectori'. Both witnesses confirm the doubled 'Non quod postea convenerint' at 0070C -- it is Migne's, and the two copies have distinct continuations, so it is a splice of two glosses, not an eye-skip.",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0071A",
-     "to": "0072D",
-     "depth": "full",
-     "pages": "archive p.41 / Gallica f36",
-     "found": "CONFIRMED ON BOTH WITNESSES: 'sic prophetia non necessitatem EORUM facit' at 0071D, where our twin prints the non-word 'oerum'. Corpus Corporum's corruption; TEI patch filed; the English renders eorum per the PLATE-WHERE-READ rule. Nothing else divergent on either column.",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0073A",
-     "to": "0074D",
-     "depth": "full",
-     "pages": "archive p.42 / Gallica f37",
-     "found": "PRESS VARIANT, and the only one in the range: at 0073A Gallica prints the lemma 'Bethehem Judae' (no l) and the ARCHIVE prints 'Bethlehem Judae'. Both are clean, legible, normally spaced; the very next line of both copies prints Bethlehem correctly three times. Our twin follows Gallica's printing. NO [sic:] -- it fails the two-witness bar in the same way 8950 @0171D Mititte/Mittite did. Also confirmed on both: 'Explorabat etiam, si rex eorum', 'Rex injustus omnes ministros impios habet' with injustus set in ROMAN between Migne's italics.",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0075A",
-     "to": "0076D",
-     "depth": "full",
-     "pages": "archive p.43 / Gallica f38",
-     "found": "CONFIRMED ON BOTH WITNESSES: 'incepit in eum PERSECUTIO' at 0076C, where our twin prints the non-word 'pesecutio'. Corpus Corporum's corruption; TEI patch filed. Both witnesses confirm 'Puer natus est nobis' at 0075B (the [var:] on Isa 9:6 Parvulus) and 'quem actum esse hominem intelligunt' at 0075B (a real word, rendered as printed, crux logged). Archive-only and refuted: 'Ex Aegypto, vocavi' with a comma (Gallica and our twin have none); 'VERS. 11. --' with a dash (Gallica and our twin have none). Gallica f38 is faint and foxed but legible throughout.",
-     "date": "2026-09-05"
-    },
-    {
-     "from": "0077A",
-     "to": "0078D",
-     "depth": "full",
-     "pages": "archive p.44 / Gallica f39",
-     "found": "TWO archive-only candidates refuted by Gallica, our twin right at both: 'flere dicat ur' (split type) vs dicatur; 'Helia et Henoch' vs Enoch. Gallica also refutes the archive's 'Juaedorum' (ink). Both witnesses confirm 'ideo Josephus intellexit Judaeam' at 0077D -- a real word, rendered as printed, crux logged. Both confirm the direct question already set behind a colon at 0078B ('Quaeritur: quare non timuit...?'), so Pattern 8b needed no recasting.",
-     "date": "2026-09-05"
     }
    ]
   }
