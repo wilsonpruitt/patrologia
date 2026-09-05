@@ -1,83 +1,107 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-04 — 8967 *LIBER PSALMORUM*, **BAND B IS SET UP AND READY TO LAUNCH**
+## ▶▶▶▶▶ START HERE 2026-09-04 (late) — 8967 *LIBER PSALMORUM*, **BAND C IS SET UP AND READY TO LAUNCH**
 
-**Read `data/briefs/8967-bandB-launch-brief.md` first. It is written, current, and complete.**
-Everything below is context for it.
+**Read `data/briefs/8967-bandC-launch-brief.md` first. It is written, current, and complete.**
+Everything below is context for it. ⚑ **The Band A/Band B sections of this file are now HISTORY —
+both bands are closed.**
 
 ### Where the work stands
 **8967 is the Glossa on the Psalms, PL 113 cols 0841A–1080B, 96,646 words, 106 chunks, run in
 THREE BANDS.** Wilson's call, 2026-09-04: Opus, split by bands.
 
-- ✅ **BAND A DONE** — chunks 0000–0038, Psalms I–XLIX, 39 chunks, 32,160 Latin → ~50,400 English.
-  Translated (8 Opus stints), 43 TEI patches applied, 8 cruces merged into
-  `src/english/8967/cruces.md` (3,222 lines), blind polarity read recorded.
-  `verify-english` clean · `plate-gate` OK · **polarity gate green corpus-wide**.
-  Markers: 38 `[var:]` · 7 `[sic:]` · 2 `[cj:]` · 1 `[d:]`. 46 columns read at the plate.
-- ⬜ **BAND B READY** — chunks 0039–0076, Psalms LI–C, 38 chunks, 39,328 words, 8 stints.
-  Lemma briefs regenerated post-patch and current (`8967-lemmata-0039/0044/0049/0054/0059/0064/
-  0069/0073`). ⚑ Verified that **no Band B brief changed in the patch pass** — all 43 patches fell
-  in Band A columns.
-- ⬜ **BAND C** — chunks 0077–0105, Psalms CI–CL, 29 chunks, 28,516 words. Carries the gradual
-  psalms (`Canticum graduum`, the numbered `gradus` series from Ps 119) — ruling already recorded.
+- ✅ **BAND A DONE** — chunks 0000–0038, Psalms I–XLIX, 39 chunks, 32,160 Latin words. 43 TEI
+  patches, cruces §A–§D, blind polarity read (6 sites, all ours).
+  Markers: 37 `[var:]` · 6 `[sic:]` · 2 `[cj:]` · 1 `[d:]`.
+- ✅ **BAND B DONE** — chunks 0039–0076, Psalms L–C, 38 chunks, 39,328 words, 8 Opus stints.
+  **199 TEI patches**, cruces §F (merge) + §G (stint files verbatim), blind polarity read by four
+  fenced readers (**28 sites, 24 ours — and it audited my own patch pass, which failed seven ways**),
+  then seven remaining open sites closed on the local scan.
+  Markers: 112 `[var:]` · 53 `[sic:]` · 12 `[cj:]` · 2 `[d:]`. ~90 columns read at the plate.
+- ⬜ **BAND C READY — the last band.** Chunks 0077–0105, cols 1011B–1080B, Psalms CI–CL,
+  **29 chunks, 30,038 words, six stints**: 0077–0081 · 0082–0086 · 0087–0091 · 0092–0096 ·
+  0097–0101 · 0102–0105 (357 · 389 · 277 · 329 · 234 · 146 spans).
+  ⚑ Lemma briefs verified current — re-chunking with all 192 patches left **Band C's Latin
+  byte-identical**, so nothing needs regenerating.
+  ⚑ **Only 8 of its ~70 columns have been read at the plate** (1011, 1012, 1043–1048).
 
-⛔ **NOTHING IS PUSHED AND NOTHING IS DEPLOYED.** Both are protected actions and were not asked for.
-`master` is ahead of `origin/master` by this whole session's commits.
+**77 of 106 chunks translated. ~29% of the work remains.**
 
-### ⚑ THE BURN, MEASURED — my launch estimate was 26% low
-Eight Band A stints self-reported **2.22M tokens over 39 chunks = ~57K/chunk**, against the
-runbook's ~45K for a Glossa book. **The note density is why: 1 note per 28.6 words, against Luke's
-1 per 158 and John's 1 per 254 — 3,377 notes in this work where Luke had 278.**
+⛔ **NOTHING IS PUSHED AND NOTHING IS DEPLOYED.** Both are protected. `master` is ahead of
+`origin/master` by this whole session's commits. **Nothing ships until all three bands are merged.**
 
-**Quote ~57K/chunk for this work, not 45K.** Band B ≈ **2.2M** translation + a blind polarity read
-(~0.7M) as its own second burn. Band C ≈ 1.7M + 0.5M. **Whole work ≈ 8.5M, of which ~2.9M is spent.**
-⛔ Each band still needs its own hard-stop statement before launch.
+### ⚑ THE BURN, MEASURED — quote ~57K/chunk for THIS work, not the runbook's 45K
+Band A's eight stints self-reported **2.22M tokens over 39 chunks = ~57K/chunk**. **The note density
+is why: 1 note per 28.6 words, against Luke's 1 per 158 and John's 1 per 254** — 3,377 notes here
+where Luke had 278. Band C ≈ **1.7M** translation + **~0.5M** blind polarity read + **~0.4M** patch
+pass and three-band merge ≈ **2.6M**. ⛔ Each band still needs its own hard-stop statement.
 
-### ⭐⭐⭐ THE THREE FINDINGS BAND B MUST INHERIT
+### ⭐⭐⭐ WHAT BAND C MUST INHERIT (all of it is in the launch brief, in full)
+1. **OUR LATIN IS NOT MIGNE'S, at ~1.5 sites per column** — 67 sites in A, 149 patches in B, agreeing
+   with 9003's independent collation of the sibling PL 114 Psalter. The class runs THREE ways: CC
+   moves Migne **onto** the Clementine (invisible to any Vulgate collation *by construction*); CC
+   **repairs** Migne's real defects, destroying markers we may fire; and CC **manufactures**
+   readings — at 0942A inserting a word whose absence is the gloss's whole point.
+2. **NEITHER "TRUST THE TEXT" NOR "SUSPECT THE TRANSCRIBER" IS A RULE. ONLY THE LEAF IS.**
+   ⚠ Two imaging hazards, both measured: **italic `e` images as `c`** (withdrew ELEVEN false
+   accusations in Band B) and `h`/`b`, which fired in reverse. **The defeater is a same-letter
+   control on the same line** — that is how `Nafrubimus` fired and how `omncm` was withdrawn. A
+   turned sort is NOT in that class.
+3. **A LOGGED COLUMN IS NOT A CHECKED COLUMN**, and **the blind read is the only instrument that
+   audits the pass before it.** Seven of Band B's 28 sites were mine — including a `[sic:]` fired on
+   the WRONG WORD, a false public accusation against Migne at a word he set correctly.
+4. **NO MARKER COUNT MEANS ANYTHING UNTIL THE PATCH PASS HAS RUN** (§F2). Band B looked like
+   106 `[var:]`/4 `[sic:]` before the pass and 112/53 after; the suppression was patch ORDERING, not
+   Migne's cleanliness. Quoting a count earlier is quoting the digitization's opinion of Migne.
+5. **The supplied-completion class (§F8)** — 14 sites where Migne prints the lemma SHORT and the
+   English completed it from the Vulgate. **This is the predicted failure profile of verse-by-verse
+   commentary.** Render the stump as printed.
 
-1. **OUR LATIN IS NOT MIGNE'S, at ~1.5 sites per column.** 67 sites over 46 columns, agreeing with
-   9003's independent collation of the sibling PL 114 Psalter (~3/page). The class runs THREE ways:
-   CC moves Migne **onto** the Clementine (invisible to any Vulgate collation *by construction*);
-   CC **repairs Migne's real defects**, destroying markers we are entitled to fire; and in one case
-   our Latin **carried words the plate lacks**. Only the plate reaches any of it.
-2. **NEITHER "TRUST THE TEXT" NOR "SUSPECT THE TRANSCRIBER" IS A RULE. ONLY THE LEAF IS.** One stint
-   had six `[sic:]` candidates and the plate withdrew five — each read as a confident Migne defect
-   *from the Latin alone*. Another declined a doubled word as "the classic CC artifact" and the
-   plate showed Migne sets it plainly.
-3. **A LOGGED COLUMN IS NOT A CHECKED COLUMN.** The blind polarity read found six of our own
-   defects; four were invisible to every other check. One stood in a column the cruces had already
-   logged as "negation carried without smoothing" — true, and beside the point, because the defect
-   was the **subject**, not the negative.
+### ⭐ WHAT ONLY BAND C HAS
+- **The gradual psalms.** 19 `Canticum graduum`, 17 `gradus`; **zero in Bands A and B combined.**
+  Ruling recorded (§A1.3, "a canticle of degrees", `gradus` → degree) and **never yet tested at a
+  plate.** The gloss numbers the steps in its own voice (`Primus`…`Duodecimus gradus`), which is why
+  the ruling is load-bearing rather than stylistic.
+- **⭐⭐ Psalm CXVIII is NOT COMMENTED** — chunk 0087 carries the whole psalm as one italic editorial
+  sentence in Migne's own voice (*Expositionem hujus psalmi, ut valde prolixam, omittimus…*). It is
+  the EDITOR, not the Glossa. Read that column at the plate.
+- **The work ENDS** at Ps 150:6, col 1080B, chunk 0105. No colophon in our twin — **check the plate
+  for one.** No other band can catch a dropped ending.
+- **Book V of the Psalter falls entirely inside the band.**
 
-### Rules settled this session that outlive this work
+### Rules settled across A and B that outlive this work
 - ⭐ **Compositor errors are Migne's and get restored; INK DAMAGE IS THE COPY'S AND DOES NOT.** A
   damaged `p` imaging as `r` (`possit`→`rossit`) is one leaf's condition, not a reading of the
   edition. This is why `iniquitetem` and `Nocere` were restored and `rossit` was not.
 - ⭐ **A TEI patch is not done when the Latin is right — every patched site owes its twin a
-  re-read.** 0899B was missed exactly this way and no gate caught it; a blind reader mentioned it
-  in passing.
-- ⭐ **A patch can be a PRECONDITION for an apparatus entry, not a cleanup after it.** At 0876B no
-  marker could reach the crux (`Seb isti`/`Sedisti`) until the Latin was patched: `[sic:]` may wrap
-  only type the twin carries, `[cj:]` needs the printed word present.
-- ⭐ **English apposition does not inherit a negative across a comma.** Scope Latin marks once must
-  be marked twice in English.
-- ⭐ **Quoted scripture is marked TWO ways** (italic lemmata AND « guillemets »), so an
-  italic-only archaism check mis-flags.
+  re-read.** Band B's blind read found four such omissions that no gate caught.
+- ⭐ **A patch can be a PRECONDITION for an apparatus entry, not a cleanup after it** (0876B).
+- ⭐ **`patch-audit.mjs` exists because uniqueness is not location.** `chunk-work.mjs` refuses a
+  `find` matching zero or many times; that does not mean the patch is filed at the right column.
+  Its first run found 24 Band A patches with no column recorded, one filed at the wrong column, and
+  a patch PAIR at 0928B that would have deadlocked the queue.
+- ⭐ **English apposition does not inherit a negative across a comma.**
+- ⭐ **Quoted scripture is marked TWO ways** (italic lemmata AND « guillemets »), so an italic-only
+  archaism check mis-flags.
 - ⛔ **A pattern found in a CONTIGUOUS sample is a pattern of that sample.** The "column ≡ 1 (mod 4)
-  is clipped" rule came from four consecutive leaves, was stated as a rule, retreated to "a strong
-  tendency", and was wrong both times — mod-1 columns run 5 clipped to 10 clean. Its failure mode
-  is the one nobody audits: it silently **withholds** good markers.
+  is clipped" rule came from four consecutive leaves and was refuted twice; Band B opened ~90 columns
+  and found exactly one clipped column. Its failure mode is the one nobody audits: applied blind it
+  silently **withholds** good markers.
+- ⭐ **The local scan answers more than it looks like it does.** Seven sites filed as needing Gallica
+  fell to a single re-render at 500–1200 dpi. Open the leaf harder before declaring it unreadable.
 
 ### ⬜ OWED BY WILSON — small, and they block nothing
-- **`gens tenebrarum`** — a singular `gens` in a **non-ethnic metaphor**; the `gentes` axis does not
-  rule on it. Band A rendered "nation of darkness" and flagged rather than deciding silently.
-- Whether to spend three Gallica IIIF requests on sites this copy cannot answer: `quae non est nisi
-  [inquieta] mente` @0885B (`f443`) · `enumerantur`/`emunerantur` @0898D (`f449`) ·
-  `excrescentibus pilis` @0905A (`f453`). Each is one request.
-- One `In Hebraeo` clause still unread. Two of three closed: 0868A prints `(quod in Hebraeo)` with
-  no Hebrew type at all, and 0902B's `In Hebraeol` was CC debris.
+- **Five Gallica sites**, one IIIF request each, and no ruling on spending them:
+  `quae non est nisi [inquieta] mente` @0885B (`f443`) · `enumerantur`/`emunerantur` @0898D (`f449`) ·
+  `excrescentibus pilis` @0905A (`f453`) · `Misericordia`/`Misericordiam` @0932B · **0981C**, whose
+  column is **genuinely clipped** (verified by rendering from x=0; the loss is ragged, which no
+  rectangular crop produces).
+- Two sites left as parses rather than readings, English unchanged and strain recorded:
+  `quidam mundi defecerunt` @0995B and `Non per agentes promissa` @0980D.
 - `Desiderabilia`→`Desiderabillia` deferred: two occurrences in col 0871D, the report does not say
   which. Re-read the leaf; do not guess.
+- One `In Hebraeo` clause still unread. Two of three closed: 0868A prints `(quod in Hebraeo)` with
+  no Hebrew type at all, and 0902B's `In Hebraeol` was CC debris.
 
 ### Other 8967 facts worth not rediscovering
 - ⭐ **CC drops Hebrew from this work ENTIRELY** — zero Hebrew codepoints in 96,646 words. One site
@@ -88,6 +112,7 @@ runbook's ~45K for a Glossa book. **The note density is why: 1 note per 28.6 wor
   Anselm of Laon and his school; that question is closed (9003's correction shipped). Do not reopen.
 - **Volume confirmed FROM THE PLATE** (`PATROL. CXIII.` at the foot of PDF 426), not from the
   archive id — whose `04` is the ITEM number.
+- Scan on disk: `raw/scans/pl113/patrologiaecurs04migngoog.pdf`. **Page map `PDF page = (col+11)/2`.**
 - The `[sic:]`/`[var:]` backlog hunt remains **PAUSED** per Wilson and is unrelated to this work.
 
 ---
@@ -108,9 +133,9 @@ need Wilson's own ruling first, independent of the pause: 11550 @0436C (*caminus
 see that work's cruces.md) and 9033's 22 unreadable columns (lead: Lyon's numelyo library may hold
 PL 115 where Gallica/HathiTrust/Google Books do not).
 
-**Volume translation queue is UNCHANGED and not paused.** ⚠ **This paragraph is STALE below this
-line — see the 2026-09-04 section at the top of this file.** Deuteronomy, Mark, John and **Luke**
-are done; **Psalms (8967) is IN PROGRESS, Band A of three complete**. Remaining after it: 9002
+**Volume translation queue is UNCHANGED and not paused.** Deuteronomy, Mark, John and **Luke**
+are done; **Psalms (8967) is IN PROGRESS, Bands A and B of three complete — see the top of this
+file.** Remaining after it: 9002
 Matthew (45,922) — the last gospel — then 8963 Numbers (26,336), 8961 Leviticus (32,205), 8956
 Isaiah (32,299), 8957 Job (38,206), 8949 Exodus (46,328), 8950 Genesis (47,910).
 
