@@ -140,10 +140,12 @@ with the fourteenth — @0122D — belonging to §(c) C4 because the divergence 
   sentence asserts, and the gloss expounds *ruina* and *conscientia*, not the pronoun.
 - **0113A Mt 8:7** *Ego veniam et curabo eum. Et respondens centurio ait,* etc. — the lemma splices
   across the 8:7/8:8 verse break, which is why the per-verse scan cannot match it. Not a divergence.
-- **0114C Mt 8:28** *In regionem **Gerazenorum**.* — Clementine *Gerasenorum*. Orthography of a
-  transliterated place-name; **Migne is internally consistent**, printing *Geraza urbs est Arabiae*
-  in the next clause, which is why the English keeps his *z* (Gerazenes / Geraza) rather than
-  normalising to the received English form. Policy 2, and recorded under §(e).
+- **0114C Mt 8:28** *In regionem **Gerazenorum**.* — Clementine *Gerasenorum*. ⭐ **Re-read on both
+  witnesses at the coordinator's request, 2026-09-05, and adjudicated under §2 rather than swept
+  under Policy 2 — see §(d) 6a for the ruling.** Both copies print the *z*, twice each; our twin
+  agrees; the divergence is Migne's beyond doubt and it is still **declined**, because it is the
+  form of a transliterated place-name and nothing any sentence says turns on the letter. The English
+  keeps his *z* (Gerazenes / Geraza) rather than normalising to the received English form.
 - **0116C Mt 9:15** *Lugere **quandiu** cum illis est sponsus.* — *quandiu* for *quamdiu*;
   orthography.
 - **0117D Mt 10:4** *Et Judas **Scariothis**.* — Clementine *Judas Iscariotes*. The ordinary
@@ -440,6 +442,71 @@ the priests are to believe*, and it is the removal of the leprosy that is the si
 descending; and Migne uses *apparet* elsewhere in this very chunk (@0112D) rather than *paret*, so
 he is not a writer who drops prefixes casually. The reading is recorded rather than concealed.
 
+### 6a. @0114C — `Gerazenorum`, the span the ownership test never saw, adjudicated
+
+⚑ **Added 2026-09-05 at the coordinator's request, after `lemma-inventory.mjs` was found to require
+the address form `VERS. n.--`.** My range holds two lemmata Migne prints **without** the dash, and
+the inventory therefore filed both as second lemmata — which I reported in §(b) as an arithmetic
+correction. **What I could not see from my own file is the consequence: the ⚑ `MATCHES ONLY
+ELSEWHERE` ownership test fires only on a span carrying a `VERS.` address, so it silently skipped
+both.** The count was right and the instrument was wrong.
+
+⭐ **The per-verse collation in §(c) C5 was not blind to it.** That collation takes its chapter from
+the `CAPUT` head and its verse from the `VERS.` address **in my own Latin**, not from the brief, so
+both dashless lemmata were in its 134 and this one is already among its sixteen misses. That is the
+argument for rebuilding the check rather than reading the pre-scan: a tool bug in the brief did not
+propagate into the collation, because the collation did not consume the brief.
+
+**The read.** Archive **p.62** and Gallica **f57** — col. 114, not p.63/f58; corner numbers 113/114
+confirmed on both, as in my original pass.
+
+| | |
+|---|---|
+| **archive p.62** | `VERS. 28. *In regionem Gerazenorum.* Geraza urbs est Arabiae` |
+| **Gallica f57** | `VERS. 28. *In regionem Gerazenorum.* Geraza urbs est Arabiae` |
+| **our twin** | `VERS. 28. *In regionem Gerazenorum.* Geraza urbs est Arabiae` |
+
+**All three agree, and the `z` stands twice on each copy** — once in the italic lemma, once in the
+roman gloss four words later. Both copies also print the address as the bare `VERS. 28.` with no
+dash, so the dashless form is Migne's and not an artefact either.
+
+**What the read settles, and what it does not.** It settles **ownership** completely: two witnesses
+eliminate Corpus Corporum, and `s`→`z` is a different sort, not a filled counter or a thickened
+stroke, so it is not the over-inking class that produced my @0122B verse number. **The divergence is
+Migne's.** What it does not settle is whether the divergence is worth a public claim, and that is
+§2's question.
+
+⛔ **DECLINED, and here is why the rival lost.** §2 lets a single-word `[var:]` stand on either of
+two limbs, and it fails both:
+
+1. **The gloss does not argue from the word.** It says only *Geraza urbs est Arabiae* — it names the
+   city and spells it the same way. There is no etymology, no play on the letter, nothing the *z*
+   carries. Contrast the 0000 stint's @0069B, where the lemma *Adjutus* is the etymology that
+   answers the verb's aspect and the marker fired on one letter; here the second occurrence is
+   corroboration of Migne's spelling, not an argument from it.
+2. **It is the form of a transliterated proper name**, which the 0000 stint's Policy 4 declined
+   across five instances (*Esrom · Josaphat · Eliachim · Sadoch · Nazareus*) on the ground that such
+   spellings "are not different readings, and none changes what any sentence says." Γερασηνῶν has no
+   settled Latin transliteration; the Clementine's uniform *s* across its four occurrences is
+   evidence about **that edition's** normalising hand, not about Migne being wrong. The English is
+   the same word either way.
+
+⚑ **The one consideration that cuts the other way, stated so it can be argued with.** *Nazareus* was
+declined partly because **Migne varied within his own column** (*Nazaraeus* twice on the next two
+columns), which made it visibly his own loose practice. Here he does **not** vary: he is uniform in
+*z*. Uniformity is the harder case, because a consistent spelling looks more like a deliberate
+reading than a slip. I take it the other way — **a consistent orthography is house style, not a
+reading** — and I would rather be argued out of that than have applied it silently. Firing here
+would also breach the standing reason for the class: five name-spellings marked in this work would
+bury the six substitutions that are the range's real payload.
+
+**No `[var:]` fired; `0018.md` is unchanged.** The English continues to render Migne's own
+transliteration, "Into the country of the Gerazenes … Geraza is a city of Arabia".
+
+⚑ **The other span the bug hid in my range clears.** `VERS. 25. *Suscitaverunt.*` @0114B is verbatim
+in Mt 8:25 and is already listed among §(c) C5's 118; it was read on both witnesses in my original
+pass (the archive prints a dash before it, Gallica and our twin do not — §(d) 15).
+
 ### 7. @0114D — `Et ecce magno`, and how far convention 3 expanded it
 
 The lemma is a three-word fragment of Mt 8:32 as Migne's text reads it, *et ecce magno impetu abiit
@@ -734,7 +801,7 @@ Migne's type, and every one of them would have been false — including a **chan
 | 0121D | *cum et jejunium et saturitatem **petitur** spernunt* | Real word with no grammatical slot; **both witnesses**; `[cj:]` fails 18a's bar. §(d) 11. |
 | 0123A | *per omnia **coomnipotentem** nota* | A coinage, not a non-word; closed up at normal spacing on **both witnesses**; renderable, so no marker. §(d) 12. |
 | 0122D | *Respondens **tacitae objectionis*** — a genitive where the sense wants a case-object | Both witnesses; rendered with the genitive visible. §(d) 13. |
-| 0114C | *Gerazenorum* / *Geraza* against the Clementine's *Gerasenorum* | Name orthography, and **internally consistent within Migne's own column**, which is why the English keeps his *z*. Policy 2. |
+| 0114C | *Gerazenorum* / *Geraza* against the Clementine's *Gerasenorum* — **a verse lemma proper, and the one span in my range the brief's ⚑ ownership test never ran on** | **Both witnesses print the *z*, twice each**, and our twin agrees: the divergence is Migne's, not ours, and not either copy's ink. Declined all the same, under §2's own bar. Full ruling at §(d) 6a. |
 | 0117D | *Judas **Scariothis*** against Mt 10:4's *Iscariotes* | Name form; the ordinary medieval one. Policy 2. |
 | 0116B | *Euntes autem **dicite*** | **Not** declined — this one FIRED. Listed here only so the two *dicite/discite*-shaped calls are not confused. |
 | 0121A | *Christi opera non **auctorisantur*** | A medieval formation (*auctorizare*), attested; Pattern 9. Rendered "are given no authority". |

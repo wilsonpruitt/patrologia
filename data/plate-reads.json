@@ -4150,6 +4150,18 @@
      "found": "Corner numbers 113/114. TWO archive-only candidates refuted by Gallica, our twin right at both: 'Ego veniam et curabo CUM' for 'eum' (0113A); and 'VERS. 25. -- Suscitaverunt' with a dash where Gallica and our twin print the bare 'VERS. 25.' (0114B). CONFIRMED ON BOTH WITNESSES: 'si impietatis lepra DISCENDAT' (0113A) -- an attested medieval spelling, no marker, crux logged; 'Et ecce magno' (0114D), the [var:] on Mt 8:32; and the wrong Psalm siglum '(Psal. VIII)' on Ps 18:13 at 0113C, which is Migne's citing practice and passes through verbatim."
     },
     {
+     "from": "0114C",
+     "to": "0114C",
+     "depth": "targeted re-read",
+     "date": "2026-09-05, after the original pass",
+     "pages": "archive p.62 / Gallica f57",
+     "why": "Coordinator's request. lemma-inventory.mjs required the address form 'VERS. n.--', so the two lemmata Migne prints WITHOUT the dash in this range were filed as second lemmata -- and the ⚑ MATCHES ONLY ELSEWHERE ownership test fires only on a span carrying a VERS. address, so it silently skipped both. This stint reported the count discrepancy (134 verse lemmata, not 132) but could not see that consequence. ⚑ Note the coordinator's page numbers were off by one: col. 114 is archive p.62 / Gallica f57 under both maps, not p.63/f58.",
+     "found": "BOTH WITNESSES PRINT 'Gerazenorum' WITH A z, AND PRINT 'Geraza' WITH A z FOUR WORDS LATER -- twice on each copy, in the italic lemma and in the roman gloss. Our twin agrees with both. Corner numbers 113/114 re-confirmed on both before reading. Both copies also print the bare 'VERS. 28.' with no dash, so the dashless address is Migne's too. OWNERSHIP IS SETTLED: the divergence from the Clementine's 'Gerasenorum' (which that edition spells with s at Mt 8:28, Mc 5:1, Lc 8:26 and one place more) is MIGNE'S, and it is not the over-inking class -- s to z is a different sort, not a filled counter, unlike the VERS. 21/24 site at 0122B on this same range.",
+     "ruling": "DECLINED under launch-brief §2, which lets a single-word [var:] stand only where the gloss argues from the word or the form is one letter-level corruption cannot manufacture. Limb 1 fails: the gloss says only 'Geraza urbs est Arabiae' and leans on nothing in the letter. Limb 2 is satisfied as to OWNERSHIP but that is not the same as materiality: this is the form of a transliterated place-name, the class the 0000-0005 stint declined five times under its Policy 4 (Esrom, Josaphat, Eliachim, Sadoch, Nazareus). Γερασηνῶν has no settled Latin transliteration and the English is the same word either way. ⚑ Recorded as arguable: unlike Nazareus, Migne does NOT vary within his own column here, and uniformity is the harder case; the decline rests on reading a consistent orthography as house style rather than as a reading.",
+     "marker": "none. 0018.md unchanged; the English renders Migne's own transliteration, 'Gerazenes' / 'Geraza'.",
+     "also_cleared": "VERS. 25. *Suscitaverunt.* @0114B, the other dashless lemma the same bug hid in this range: verbatim in Mt 8:25, and read on both witnesses in the original pass."
+    },
+    {
      "from": "0115A",
      "to": "0116D",
      "depth": "full",
