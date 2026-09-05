@@ -1,0 +1,270 @@
+# 9002 — lemma inventory and Clementine pre-scan
+
+**Evangelium secundum Matthaeum** · PL 114 · cols 0063A–0178D · 42 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0022–0026, bands 0123D–0137C (211 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0123D] VERS. 1.-- *In illo tempore.*   ✓ 2Par 5:11, Dt 4:14, Gn 14:1, …
+[0123D] *Esurientes,*   — single word, check in place
+[0124A] *manibus confricasse [n: (Luc. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0124A] *Macta et manduca [n: (Act. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0124A] VERS. 2.-- *Non licet.*   ✓ 2Cor 12:4, Act 16:21, Dn 6:12, …
+[0124A] *Misericordiam malo quam sacrificium [n: (Ose. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0124A] VERS. 3.-- *At ille dixit,*   ✓ 3Rg 22:34, 4Rg 4:19, 4Rg 4:42, …
+[0124A] *Non legistis.*   ✓ Gal 4:21, Mc 12:26, Mt 12:3, …
+[0124B] VERS. 4.-- *Panes propositionis.*   ✓ 1Par 23:29, 1Rg 21:6, 2Mcc 10:3, …
+[0124B] VERS. 5.-- *Quia sabbatis sacerdotes.*   ✓ Mt 12:5
+[0124C] VERS. 6.-- *Dico autem vobis.*   ✓ Lc 9:27, Lc 12:4, Lc 12:8, …
+[0124C] VERS. 7.-- *Si autem.*   ✓ 1Cor 4:7, 1Cor 7:28, 1Cor 9:17, …
+[0124C] *Si autem sciretis,*   ✓ Mt 12:7
+[0124C] VERS. 8.-- *Dominus est enim.*   ⚠ NOT in Clementine verbatim — CHECK
+[0124C] VERS. 10.-- *Et ecce homo.*   ✓ Lc 2:25, Lc 14:2, Mt 12:10
+[0124D] *Ecce homo manum,*   ✓ Mt 12:10
+[0124D] *Interrogabant.*   — single word, check in place
+[0124D] *Sabbatis,*   — single word, check in place
+[0125A] VERS. 11.-- *Quis erit.*   ✓ Jdc 20:18, Jr 49:19, Jr 50:44, …
+[0125A] *Omne opus servile non facietis in eo [n: (Levit. XXIII)]*   ✓ Lv 23:7, Lv 23:21, Lv 23:25, …
+[0125A] VERS. 13.-- *Extende.*   — single word, check in place
+[0125A] *Non sit manus tua ad accipendum porrecta, sed ad dandum collecta [n: (Eccl. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0125B] *Sicut altera.*   ✓ Mt 12:13
+[0125B] VERS. 15.-- *Recessit inde.*   ✓ Mt 12:15
+[0125B] *Si vos persecuti sunt in una civitate, fugite in aliam [n: (Matth. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0125B] *Secuti sunt.*   ✓ 1Mcc 9:16, 1Rg 25:13, 3Rg 9:9, …
+[0125B] VERS. 16.-- *Et praecepit.*   ✓ 1Mcc 5:19, 1Mcc 5:49, 1Mcc 5:58, …
+[0125C] VERS. 18.-- *Animae meae.*   ✓ 1Mcc 13:5, 1Rg 24:12, 1Rg 28:9, …
+[0125C] VERS. 20.-- *Arundinem.*   — single word, check in place
+[0125C] *Arundinem quassatam.*   ✓ Mt 12:20
+[0125D] *Linum fumigans.*   ✓ Is 42:3, Mt 12:20
+[0125D] *Donec.*   — single word, check in place
+[0125D] *Fiat voluntas tua, sicut in coelo et in terra.*   ✓ Mt 6:10
+[0125D] VERS. 22.-- *Et curavit.*   ✓ Mc 1:34, Mt 4:24, Mt 12:15, …
+[0126A] VERS. 24.-- *In Beelzebub.*   ✓ Lc 11:15, Lc 11:18, Lc 11:19, …
+[0126A] VERS. 25.-- *Omne regnum.*   ✓ 3Rg 11:34, Dn 6:4, Jdt 2:5, …
+[0126A] VERS. 26.-- *Et omnis civitas.*   ✓ Mt 12:25
+[0126B] VERS. 27.-- *Et si ego in Beelzebub.*   ✓ Mt 12:27
+[0126B] *Ipsi,*   — single word, check in place
+[0126B] VERS. 28.-- *Si autem ego.*   ✓ 1Rg 17:9, Lc 11:19, Mt 12:28
+[0126B] *Si ego in Beelzebub ejicio daemones,*   ✓ Mt 12:27
+[0126B] *Si autem ego in spiritu Dei.*   ✓ Mt 12:28
+[0126B] *in digito [n: (Luc. XI)]*   ✓ Lc 11:20, Lv 4:30
+[0126C] *Medius inter vos stetit, quem vos nescitis [n: (Luc. XI, Joan. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0126C] *Poenitentiam agite: appropinquabit enim regnum coelorum [n: (Matth. XXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0126C] VERS. 29.-- *Aut quomodo potest.*   ✓ Mt 12:29
+[0126D] *Qui non est mecum,*   ✓ Lc 11:23, Mt 12:30
+[0126D] *Domum illius.*   ✓ Dt 6:22, Gn 19:3, Mt 12:29, …
+[0126D] VERS. 30.-- *Qui non est mecum,*   ✓ Lc 11:23, Mt 12:30
+[0126D] VERS. 31.-- *Omne peccatum et blasphemia.*   ✓ Mt 12:31
+[0126D] *[n: (HIER.)] Omne peccatum.*   ✓ 1Cor 6:18, Mt 12:31
+[0127A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0127A] *Spiritus autem.*   ✓ 1Rg 16:14, 1Tim 4:1, 2Cor 3:6, …
+[0127A] *Propterea non poterant credere [n: (Joan. X)]*   ✓ Jo 12:39
+[0127A] *Excaecavit oculos eorum [n: (Isa. VI)]*   ✓ Jo 12:40
+[0127B] *Quoniam dicebant, spiritum immundum habet [n: (Matth. III)]*   ✓ Mc 3:30
+[0127B] VERS. 32.-- *Et quicunque. [n: (AMBR.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0127B] *Qui autem.*   ✓ 1Cor 3:8, 1Cor 4:4, 1Cor 6:17, …
+[0127C] *Neque in hoc saeculo.*   ✓ Mt 12:32
+[0127C] *Neque in futuro.*   ✓ Mt 12:32
+[0127C] *Aut facite.*   ✓ Mt 12:33
+[0127C] *Aut facite,*   ✓ Mt 12:33
+[0127D] VERS. 34.-- *Progenies viperarum,*   ✓ Mt 3:7, Mt 12:34
+[0127D] *Ex abundantia.*   ✓ Lc 6:45, Mt 12:34
+[0127D] VERS. 35.-- *Bonus homo.*   ✓ Lc 6:45, Mt 12:35
+[0128A] VERS. 36.-- *Verbum otiosum.*   ✓ Mt 12:36
+[0128A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0128A] *Ex verbis.*   ✓ Mt 12:37
+[0128A] VERS. 38.-- *Tunc responderunt.*   ✓ Mt 12:38
+[0128B] VERS. 39.-- *Nisi signum Jonae.*   ✓ Lc 11:29, Mt 12:39, Mt 16:4
+[0128B] VERS. 40.-- *Sicut enim fuit Jonas.*   ✓ Mt 12:40
+[0128B] *Tribus diebus.*   ✓ 1Par 12:39, 1Par 21:12, 1Rg 30:12, …
+[0128C] *Tres dies,*   ✓ 1Mcc 10:34, 2Par 10:5, 2Par 20:25, …
+[0128C] VERS. 41.-- *Viri Ninivitae.*   ✓ Jon 3:5, Lc 11:32, Mt 12:41
+[0128D] *speciosa:*   — single word, check in place
+[0128D] VERS. 43.-- *Cum autem,*   ✓ 1Cor 13:10, 1Cor 15:26, 1Cor 15:28, …
+[0129A] *Ambulat per loca.*   ✓ Lc 11:24, Mt 12:43
+[0129A] VERS. 44.-- *Revertar in domum.*   ✓ Lc 11:24, Mt 12:44
+[0129A] VERS. 45.-- *Septem alios spiritus.*   ✓ Lc 11:26, Mt 12:45
+[0129A] *Nequiores.*   — single word, check in place
+[0129B] *Sic erit,*   ✓ Act 27:25, Gn 15:5, Hab 2:5, …
+[0129C] VERS. 46.-- *Ecce mater ejus. [n: (RAB.)]*   ✓ Mt 12:46
+[0129C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0129C] VERS. 47.-- *Dixit autem ei.*   ✓ 2Rg 13:20, 4Rg 2:6, Act 5:8, …
+[0129C] VERS. 48.-- *Quae est mater mea?*   ✓ Mc 3:33, Mt 12:48
+[0129D] *Qui amat patrem aut matrem plus quam me, non est me dignus [n: (Matth. X)]*   ✓ Mt 10:37
+[0129D] *Ecce mater mea,*   ✓ Mc 3:34, Mt 12:49
+[0129D] VERS. 1.-- *In illo die.*   ✓ 1Par 16:7, Dt 31:17, Gn 15:18, …
+[0130A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0130A] VERS. 2.-- *Turba stabat.*   ✓ 2Par 6:3, Mt 13:2
+[0130A] VERS. 3.-- *Locutus est multa.*   ⚠ NOT in Clementine verbatim — CHECK
+[0130A] *Qui seminat.*   ✓ 2Cor 9:6, Gal 6:8, Jo 4:36, …
+[0130A] VERS. 4.-- *Secus viam.*   ✓ 1Mcc 11:4, Lc 8:5, Lc 8:12, …
+[0130B] *Et venerunt.*   ✓ 1Mcc 2:15, 1Mcc 3:40, 1Mcc 3:41, …
+[0130B] *Et comederunt.*   ✓ 1Par 29:22, 2Par 30:22, 3Rg 19:21, …
+[0130B] VERS. 5.-- *In petrosa.*   ✓ Mt 13:5
+[0130C] *Fulgebunt justi sicut sol [n: (Matth. XIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0130C] *Altitudinem terrae.*   ✓ Mc 4:5, Mt 13:5
+[0130C] VERS. 8.-- *Scaagesimum.*   — single word, check in place
+[0130C] VERS. 9.-- *Qui habet aures audiendi.*   ✓ Lc 8:8, Lc 14:35, Mc 4:9, …
+[0130C] VERS. 10.-- *Et accedentes discipuli,*   ✓ Mt 13:10, Mt 14:12, Mt 15:23
+[0130D] VERS. 11.-- *Vobis datum est.*   ✓ Lc 8:10, Mc 4:11, Mt 13:11
+[0130D] VERS. 12.-- *Qui enim habet.*   ✓ Lc 8:18, Mc 4:25, Mt 13:12
+[0130D] *Auferetur ab eo.*   ✓ Is 33:24, Lc 19:26, Mc 4:25, …
+[0130D] VERS. 13.-- *Ideo in parabolis.*   ✓ Mt 13:13
+[0131A] *Propterea non poterant credere, quia iterum dixit Isaias: Excaevavit oculos eorum, ut non videant [n: (Joan. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0131A] *Videntes non vident.*   ✓ Mt 13:13
+[0131B] VERS. 14.-- *Auditu audietis.*   ✓ Mt 13:14
+[0131B] VERS. 15.-- *Oculos suos.*   ✓ 1Mcc 4:12, 1Mcc 5:30, 1Mcc 9:39, …
+[0131B] *Ne quando.*   ⚠ NOT in Clementine verbatim — CHECK
+[0131B] VERS. 16.-- *Beati.*   — single word, check in place
+[0131B] VERS. 17.-- *Et justi.*   ✓ 2Rg 15:3, Mt 13:17, Os 14:10, …
+[0131B] VERS. 18.-- *Vos ergo audite.*   ✓ Jr 29:20, Mt 13:18
+[0131C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0131C] VERS. 20.-- *Super petrosa.*   ✓ Mc 4:5, Mc 4:16, Mt 13:20
+[0131C] VERS. 22.-- *Fallacia divitiarum. [n: (CHRYSOST.)]*   ✓ Mt 13:22
+[0131C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0131D] VERS. 23.-- *Aliud quidem centesimum. [n: (RAB.)]*   ✓ Mt 13:23
+[0131D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0131D] VERS. 24.-- *Aliam parabolam.*   ✓ Mt 13:24, Mt 13:31, Mt 13:33, …
+[0132A] VERS. 25.-- *Homines.*   — single word, check in place
+[0132A] VERS. 28.-- *Vis, imus.*   ✓ Mt 13:28
+[0132B] VERS. 29.-- *Et ait: Non,*   ✓ 1Rg 28:23, 2Rg 20:1, Gn 18:28, …
+[0132B] *Ne forte.*   ✓ 1Cor 8:9, 1Cor 9:27, 1Mcc 4:45, …
+[0132C] VERS. 30.-- *Sinite.*   — single word, check in place
+[0132C] *Auferte malum ex vobis [n: (I Cor. V)]*   ✓ 1Cor 5:13
+[0132C] *Et in tempore.*   ✓ Dn 11:40, Dn 12:1, Joel 3:1, …
+[0132D] *Et alligate.*   ✓ Mt 13:30
+[0132D] VERS. 31.-- *Simile est regnum,*   ✓ Lc 13:18, Mt 13:44, Mt 13:45, …
+[0132D] *Auferetur a vobis regnum Dei, et dabitur genti facienti fructum ejus [n: (Matth. XXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0132D] *Grano sinapis.*   ✓ Lc 13:19, Mt 13:31
+[0133A] VERS. 32.-- *Cum autem creverit.*   ✓ Mt 13:32
+[0133A] *Oleribus et fit arbor.*   ✓ Mt 13:32
+[0133B] VERS. 33.-- *In farinae satis.*   ✓ Mt 13:33
+[0133B] *Donec fermentatum.*   ✓ Mt 13:33
+[0133B] VERS. 34.-- *In parabolis ad turbas.*   ✓ Mt 13:34
+[0133C] VERS. 44.-- *Thesauro abscondito in agro.*   ✓ Mt 13:44
+[0133C] *Abscondit et prae gaudio illius.*   ✓ Mt 13:44
+[0133C] VERS. 45.-- *Negotiatori.*   — single word, check in place
+[0133D] *Bonas margaritas.*   ✓ Mt 13:45
+[0133D] VERS. 46.-- *Inventa autem.*   ✓ Mt 13:46
+[0133D] VERS. 47.-- *Sagenae missae.*   ✓ Mt 13:47
+[0133D] *Ecce ego mitto ad vos piscatores multos [n: (Jer. XVI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0133D] *Sequimini me, faciam vos piscatores hominum:*   ⚠ NOT in Clementine verbatim — CHECK
+[0134A] *Sic erit in consummatione saeculi,*   ✓ Mt 13:40, Mt 13:49
+[0134A] VERS. 48.-- *Et secus littus.*   ✓ Mt 13:48
+[0134A] VERS. 52.-- *Ideo omnis Scriba doctus,*   ✓ Mt 13:52
+[0134B] VERS. 54.-- *Ut mirarentur.*   ✓ Mc 2:12, Mt 13:54
+[0134B] VERS. 55.-- *Fabri filius.*   ✓ Mt 13:55
+[0134C] VERS. 57.-- *Propheta.*   — single word, check in place
+[0134C] *Prophetam suscitabit vobis Dominus de semine vestro [n: (Deut. XVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0134C] *In patria.*   ✓ Lc 4:23, Lc 4:24, Mc 6:4, …
+[0134C] VERS. 58.-- *Et non fecit.*   ✓ 2Par 21:19, Jon 3:10, Mt 13:58, …
+[0134C] VERS. 1.-- *In illo tempore audivit Herodes.*   ✓ Mt 14:1
+[0134C] *Audivit autem Herodes tetrarcha [n: (Luc. IX)]*   ✓ Lc 9:7
+[0134C] *Hic est Joannes [n: (Joan. IV)]*   ✓ Mt 14:2
+[0134D] VERS. 2.-- *Et ait.*   ✓ 1Mcc 3:14, 1Mcc 3:18, 1Mcc 3:58, …
+[0134D] *Et ideo.*   ✓ 1Cor 14:13, 2Cor 5:9, Gn 20:6, …
+[0134D] VERS. 3.-- *Herodes enim.*   ✓ Mc 6:20, Mt 14:3
+[0134D] *Herodiadem uxorem.*   ✓ Mc 6:17, Mt 14:3
+[0134D] VERS. 4.-- *Non licet.*   ✓ 2Cor 12:4, Act 16:21, Dn 6:12, …
+[0135A] VERS. 5.-- *Timuit populum.*   ✓ Mt 14:5
+[0135A] VERS. 7.-- *Cum juramento.*   ✓ 2Mcc 7:24, 2Mcc 14:32, Mt 14:7, …
+[0135A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0135B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0135B] VERS. 9.-- *Constristatus.*   — single word, check in place
+[0135B] VERS. 10.-- *Et decollavit.*   ✓ Mc 6:27, Mt 14:10
+[0135B] *Illum oportet crescere, me autem minui [n: (Joan. III)]*   ✓ Jo 3:30
+[0135C] VERS. 13.-- *Quod cum audisset Jesus.*   ✓ Mt 14:13
+[0135C] *Secessit.*   — single word, check in place
+[0135C] *secessit,*   — single word, check in place
+[0135C] *Et cum audissent turbae,*   ✓ Mt 14:13
+[0135C] *Pedestres.*   — single word, check in place
+[0135C] VERS. 15.-- *Vespere autem facto,*   ✓ Mc 1:32, Mc 14:17, Mt 8:16, …
+[0135D] *Discipuli ejus.*   ✓ Jo 2:2, Jo 2:11, Jo 2:12, …
+[0135D] *In viam gentium ne abieritis [n: (Matth. X)]*   ✓ Mt 10:5
+[0135D] *Ecce gentes quasi stilla situlae.*   ✓ Is 40:15
+[0135D] *Omnes gentes quasi non sint, sed sunt coram eo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0135D] *Jesus autem,*   ✓ Jo 5:17, Jo 8:1, Jo 8:6, …
+[0135D] *Dimitte turbas.*   ✓ Lc 9:12, Mt 14:15
+[0136A] VERS. 16.-- *Date illis.*   ✓ Lc 9:13, Mc 6:37, Mt 14:16
+[0136A] VERS. 17.-- *Quinque panes et duos pisces.*   ✓ Mt 14:17
+[0136A] *Animalis enim homo non percipit ea quae sunt spiritus Dei [n: (I Cor. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0136A] *Quae scripta sunt in lege et prophetis plurimis de me [n: (Luc. XXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0136A] VERS. 19.-- *Acceptis quinque,*   ✓ Mc 6:41, Mt 14:19
+[0136B] *Benedixit.*   — single word, check in place
+[0136B] VERS. 20.-- *Reliquias.*   — single word, check in place
+[0136B] *Et infirma mundi elegit Deus, ut confundat fortia [n: (I Cor. I)]*   ✓ 1Cor 1:27
+[0136B] VERS. 21.-- *Exceptis mulieribus et parvulis.*   ✓ Mt 14:21
+[0136B] *Et statim compulit,*   ✓ Mt 14:22
+[0136C] *venturi erant ut facerent eum regem [n: (Joan. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0136C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0136C] VERS. 23.-- *Ascendit.*   — single word, check in place
+[0136C] *Vespere autem.*   ✓ Mc 1:32, Mc 14:17, Mt 8:16, …
+[0136C] VERS. 24.-- *Navicula autem.*   ✓ Mt 14:24
+[0136D] *Vidit eos laborantes remigando [n: (Marc. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0136D] VERS. 25.-- *Quarta autem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0136D] *Venit ad eos.*   ✓ Esr 5:3, Jr 36:14, Mc 6:48, …
+[0136D] *Volens praeterire eos,*   ⚠ NOT in Clementine verbatim — CHECK
+[0136D] VERS. 26.-- *Et videntes,*   ✓ 1Mcc 6:47, 1Mcc 12:51, Act 8:6, …
+[0137A] VERS. 27.-- *Ego sum, nolite timere.*   ✓ Jo 6:20, Lc 24:36, Mc 6:50, …
+[0137A] *Qui est misit me ad vos [n: (Exod. III)]*   ✓ Ex 3:14
+[0137A] VERS. 28.-- *Domine, si tu es.*   ✓ Mt 14:28
+[0137A] VERS. 29.-- *Et descendens.*   ✓ Act 10:11, Act 18:22, Jdc 15:8, …
+[0137A] *Ambulabat,*   — single word, check in place
+[0137B] VERS. 30.-- *Et cum coepisset,*   ✓ Act 21:37, Mt 14:30, Mt 18:24
+[0137B] VERS. 32.-- *Cessavit ventus.*   ✓ Mc 4:39, Mc 6:51, Mt 14:32
+[0137B] VERS. 33.-- *Et adoraverunt,*   ✓ 1Mcc 4:55, 1Par 29:20, 1Rg 1:19, …
+[0137B] VERS. 34.-- *In terram Genesar.*   ✓ Mt 14:34
+[0137B] *hortus principum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0137C] VERS. 36.-- *Fimbriam vestimenti,*   ✓ Lc 8:44, Mc 6:56, Mt 9:20, …

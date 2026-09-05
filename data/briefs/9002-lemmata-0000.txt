@@ -1,0 +1,263 @@
+# 9002 — lemma inventory and Clementine pre-scan
+
+**Evangelium secundum Matthaeum** · PL 114 · cols 0063A–0178D · 42 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0000–0005, bands 0065A–0078D (204 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0065A] *Incipit Evangelium secundum Matthaeum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0065A] VERS. 1.-- *Liber generationis. [n: (HIER.)]*   ✓ Gn 5:1, Mt 1:1
+[0065A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0065A] *Filii David.*   ✓ 1Par 3:9, 1Par 18:17, 2Par 11:18, …
+[0065B] *Filii David filii Abraham.*   ✓ Mt 1:1
+[0065B] *et benedicentur in semine tuo omnes gentes terrae [n: (Gen. XXII)]*   ✓ Gn 22:18, Gn 26:4
+[0065C] VERS. 2.-- *Abraham genuit Isaac: Isaac autem genuit Jacob.*   ✓ Mt 1:2
+[0065D] *Genuit.*   — single word, check in place
+[0065D] *genuit:*   — single word, check in place
+[0065D] *Qui fuit:*   ✓ 1Par 4:11, 1Par 4:19, 1Rg 29:3, …
+[0065D] *Ego hodie genui te [n: (Psal. II)]*   ✓ Act 13:33, Hbr 1:5, Hbr 5:5, …
+[0065D] *Judam et fratres.*   ✓ 1Mcc 5:10, 1Mcc 5:61, Mt 1:2
+[0066B] VERS. 3.-- *Judas autem.*   ✓ 2Mcc 5:27, 2Mcc 8:12, 2Mcc 12:12, …
+[0066B] *Phares autem genuit Esrom.*   ⚠ NOT in Clementine verbatim — CHECK
+[0066C] VERS. 4.-- *Aram autem.*   ✓ Mt 1:4
+[0066C] *Christus electus*   ⚠ NOT in Clementine verbatim — CHECK
+[0066C] *excelsus*   — single word, check in place
+[0066C] *Ecce puer meus quem elegi [n: (Ose. XI)]*   ✓ Mt 12:18
+[0066C] *Excelsus super omnes gentes Dominus [n: (Psal. CXII)]*   ✓ Ps 112:4
+[0066C] *Voluntarie sacrificabo tibi [n: (Ibid. XXXIII)]*   ✓ Ps 53:8
+[0066C] VERS. 5.-- *Salmon autem genuit Booz.*   ✓ Mt 1:5
+[0066C] *sensibilis,*   — single word, check in place
+[0066C] *fames,*   — single word, check in place
+[0066C] *beatitudo,*   — single word, check in place
+[0066C] *impetus:*   — single word, check in place
+[0066D] *in novissima tuba*   ✓ 1Cor 15:52
+[0066D] *Booz autem.*   ✓ Mt 1:5
+[0066D] *Ecce Dominus Deus in fortitudine veniet [n: (Isa. XL)]*   ✓ Is 40:10
+[0067A] *Ex Ruth.*   ✓ Mt 1:5
+[0067A] *Emitte agnum, Domine, dominatorem terrae [n: (Isa. XVI)]*   ✓ Is 16:1
+[0067B] *quia nihil ad perfectum adduxit lex [n: (Hebr. VII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0067B] *videns*   — single word, check in place
+[0067B] *festinans;*   — single word, check in place
+[0067B] *Jesse autem.*   ✓ Mt 1:5
+[0067B] *Egredietur virga de radice Jesse [n: (Isa. XI)]*   ✓ Is 11:1
+[0067B] *Ecce odor filii mei sicut odor agri pleni [n: (Gen. XXVII)]*   ✓ Gn 27:27
+[0067C] *Regem.*   — single word, check in place
+[0067C] VERS. 6.-- *David autem rex.*   ✓ Mt 1:6
+[0067C] *Dominus fortis et potens [n: (Psal. XXIII)]*   ✓ Ps 23:8
+[0067C] *Speciosus forma prae filiis hominum [n: (Ibid. XLIV)]*   ✓ Ps 44:3
+[0067C] *Uriae.*   — single word, check in place
+[0067C] *Similis ero Altissimo [n: (Isa. XIV)]*   ✓ Is 14:14
+[0067D] *lux mea Deus*   ⚠ NOT in Clementine verbatim — CHECK
+[0067D] VERS. 7.-- *Salomon autem.*   ✓ 3Rg 2:12, 3Rg 4:21, 3Rg 5:11, …
+[0067D] *pacificus,*   — single word, check in place
+[0067D] *Roboam.*   — single word, check in place
+[0067D] *Dabo ipsi Roboam tribum Judam, ut remaneat lucerna David cunctis diebus in Israel [n: (III Reg. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0068A] *Abias.*   — single word, check in place
+[0068A] *Ego ero illi in Patrem, quia tanquam Dominus omnia quaecunque voluit fecit [n: (Psal. CXIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0068A] VERS. 8.-- *Josaphat,*   — single word, check in place
+[0068A] *Judicans*   — single word, check in place
+[0068A] *judicium Dei,*   ✓ Is 58:2, Jr 5:4, Jr 5:5, …
+[0068A] *Joram autem genuit.*   ✓ Mt 1:8
+[0068A] *Nemo ascendit in coelum nisi qui descendit de coelo filius hominis qui est in coelo [n: (Joan. III)]*   ✓ Jo 3:13
+[0068A] VERS. 9.-- *Ozias autem.*   ✓ Mt 1:9
+[0068B] *Ezechias.*   — single word, check in place
+[0068B] *Nolite timere.*   ✓ 1Rg 12:20, 2Par 20:15, 2Par 20:17, …
+[0068B] *Dispone domui tuae, quia morieris tu et non vives [n: (Isa. XXXVIII)]*   ✓ Is 38:1
+[0068B] *Non videbo Dominum Deum,*   ✓ Is 38:11
+[0068B] *non aspiciam hominem ultra,*   ✓ Is 38:11
+[0068B] VERS. 10.-- *Manasses.*   — single word, check in place
+[0068C] *Omnium iniquitatum ejus non recordabor [n: (Ezech. XVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0068C] *Amon,*   — single word, check in place
+[0068C] *fidelis*   — single word, check in place
+[0068C] *nutritius,*   — single word, check in place
+[0068C] *Fidelis Dominus in omnibus viis suis, qui convocat filios, ut gallina pullos suos [n: (Psal. CXLIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0068C] VERS. 11.-- *Josias,*   — single word, check in place
+[0068C] *salus Domini*   ⚠ NOT in Clementine verbatim — CHECK
+[0068C] *incensum.*   — single word, check in place
+[0068C] *Dirigatur oratio mea sicut incensum [n: (Psal. CXL)]*   ✓ Ps 140:2
+[0068D] *Jechonias.*   — single word, check in place
+[0068D] *resurrectio Domini,*   ⚠ NOT in Clementine verbatim — CHECK
+[0068D] *praeparatio Domini*   ⚠ NOT in Clementine verbatim — CHECK
+[0069A] *resurrectio et vita [n: (Joan. XI)]*   ✓ Jo 11:25
+[0069A] VERS. 12.-- *Salathiel.*   — single word, check in place
+[0069A] *Pater sancte, serva eos quos dedisti mihi, ut sint unum sicut et nos [n: (Joan. XVII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0069A] VERS. 13.-- *Zorobabel autem genuit Abiud.*   ✓ Mt 1:13
+[0069A] *Abiud,*   — single word, check in place
+[0069A] *pater meus.*   ✓ 1Rg 9:5, 1Rg 14:29, 1Rg 19:2, …
+[0069A] *Ipse invocavit me: pater meus es tu*   ⚠ NOT in Clementine verbatim — CHECK
+[0069B] *Eliachim.*   — single word, check in place
+[0069B] *Omnis qui videt Filium et credit in eum, habebit vitam aeternam, et ego resuscitabo eum [n: (Joan. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0069B] VERS. 14.-- *Azor.*   — single word, check in place
+[0069B] *Ecce Deus adjuvit me, Dominus susceptor est animae meae [n: (Psal. LIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0069B] *Sadoch.*   — single word, check in place
+[0069B] *Justus Dominus et justitias dilexit [n: (Ibid. X)]*   ✓ Ps 10:8
+[0069B] *Achim,*   — single word, check in place
+[0069B] *frater meus iste.*   ⚠ NOT in Clementine verbatim — CHECK
+[0069B] *Nuntiabo nomen tuum fratribus meis [n: (Ibid. XXI)]*   ✓ Hbr 2:12
+[0069B] *Eliud,*   — single word, check in place
+[0069B] *Deus meus ut quid dereliquisti me [n: (Matth. XXVII)]*   ✓ Mc 15:34, Mt 27:46
+[0069B] VERS. 15.-- *Eleazar,*   — single word, check in place
+[0069B] *Deus meus adjutor.*   ✓ Ps 17:3
+[0069C] *Deus meus sperabo in eum [n: (Psal. XC)]*   ✓ Ps 90:2
+[0069C] *Mathan.*   — single word, check in place
+[0069C] *Sic Deus dilexit mundum, ut Filium suum daret [n: (Joan. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0069C] VERS. 16.-- *Joseph.*   — single word, check in place
+[0069C] *Joseph*   — single word, check in place
+[0069D] *Virum Mariae.*   ✓ Mt 1:16
+[0070B] VERS. 17.-- *Omnes itaque.*   ✓ 2Mcc 12:41, Jdc 20:33, Mt 1:17
+[0070B] VERS. 18.-- *Christi autem generatio.*   ✓ Mt 1:18
+[0070B] *Unxit te Deus tuus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0070B] *Sic erat.*   ✓ 2Rg 16:23, Mt 1:18
+[0070C] *Cum esset desponsata. [n: (ORIG.)]*   ✓ Mt 1:18
+[0070C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0070C] *Antequam convenirent.*   ✓ Mt 1:18
+[0070D] *Inventa est in utero habens.*   ✓ Mt 1:18
+[0070D] VERS. 19.-- *Justus.*   — single word, check in place
+[0071A] *Et nollet eam.*   ✓ Mt 1:19
+[0071A] VERS. 20.-- *Haec autem eo cogitante.*   ✓ Mt 1:20
+[0071A] *Ecce angelus Domini.*   ✓ 3Rg 19:5, Act 12:7, Gn 22:11, …
+[0071B] *Fili David.*   ✓ Lc 18:38, Lc 18:39, Mc 10:47, …
+[0071B] *Noli timere.*   ✓ 1Rg 28:13, 3Rg 17:13, 4Rg 6:16, …
+[0071B] *Conjugem.*   — single word, check in place
+[0071B] *In ea natum est.*   ✓ Mt 1:20
+[0071C] *De Spiritu sancto est.*   ✓ Mt 1:20
+[0071C] VERS. 21.-- *Pariet.*   — single word, check in place
+[0071C] *Pariet.*   — single word, check in place
+[0071C] *Et vocabis nomen ejus Jesum.*   ✓ Lc 1:31, Mt 1:21
+[0071C] *Ipse enim.*   ✓ 1Par 16:30, 1Rg 18:16, 2Cor 11:14, …
+[0071C] VERS. 22.-- *Hoc autem,*   ✓ 1Cor 1:12, 1Cor 7:6, 1Cor 11:17, …
+[0071D] *Ut adimpleretur.*   ✓ Mt 1:22, Mt 2:15, Mt 2:23, …
+[0072A] VERS. 23.-- *Ecce virgo.*   ✓ Is 7:14, Mt 1:23
+[0072A] *Ecce virgo in utero habebit [n: (Isa. VII)]*   ✓ Mt 1:23
+[0072A] *Ecce virgo,*   ✓ Is 7:14, Mt 1:23
+[0072A] *In utero habebit:*   ✓ Mt 1:23
+[0072B] *Emmanuel.*   — single word, check in place
+[0072B] VERS. 24.-- *Exsurgens autem Joseph,*   ✓ Mt 1:24
+[0072B] *Fecit sicut praecepit.*   ✓ Mt 1:24
+[0072C] *Angelus Domini.*   ✓ 1Par 21:15, 2Rg 24:16, 3Rg 19:5, …
+[0072C] *Et accepit conjugem,*   ✓ Mt 1:24
+[0072C] VERS. 25.-- *Donec peperit.*   ✓ Mt 1:25
+[0072C] *donec,*   — single word, check in place
+[0072C] *et,*   — single word, check in place
+[0072C] *aeterno,*   — single word, check in place
+[0072C] *Donec ponam inimicos tuos scabellum pedum tuorum [n: (Psal. CIX)]*   ✓ Act 2:35, Lc 20:43, Mc 12:36, …
+[0072D] *Primogenitum,*   — single word, check in place
+[0072D] VERS. 1.-- *Cum ergo natus,*   ✓ Mt 2:1
+[0072D] *Cum ergo. [n: (RAB.)]*   ✓ 1Rg 17:48, 1Rg 25:4, 1Rg 25:20, …
+[0072D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0073A] *Bethehem Judae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0073A] *In diebus. [n: (HIER.)]*   ✓ 1Mcc 1:12, 1Mcc 2:1, 1Mcc 5:55, …
+[0073A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0073A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0073B] *Venerunt.*   — single word, check in place
+[0073C] VERS. 2.-- *Ubi est, qui natus est rex,*   ✓ Mt 2:2
+[0073C] *Vidimus enim stellam.*   ✓ Mt 2:2
+[0074A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0074A] VERS. 3.-- *Audiens autem Herodes,*   ✓ Mt 2:3
+[0074A] *Audiens autem Herodes.*   ✓ Mt 2:3
+[0074A] *Turbatus est,*   ✓ Jo 13:21, Lc 1:12, Mt 2:3, …
+[0074B] *Cum illo.*   ✓ 1Cor 7:12, 1Thes 5:10, 2Cor 8:18, …
+[0074B] *Rex*   — single word, check in place
+[0074B] *omnes ministros impios habet [n: (Prov. XXIX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0074B] VERS. 4.-- *Et congregans omnes principes sacerdotum.*   ✓ Mt 2:4
+[0074B] *Ubi Christus nasceretur.*   ✓ Mt 2:4
+[0074B] VERS. 5.-- *In Bethlehem Judae.*   ✓ Mt 2:5
+[0074C] VERS. 6.-- *Et tu, Bethlehem.*   ✓ Mch 5:2, Mt 2:6
+[0074C] VERS. 7.-- *Clam vocatis Magis.*   ✓ Mt 2:7
+[0074C] VERS. 8.-- *Adorem eum.*   ✓ Mt 2:8
+[0074D] VERS. 9.-- *Et ecce stella quam viderant.*   ✓ Mt 2:9
+[0074D] *si Moysen et prophetas non audiunt: neque si quis ex mortuis,*   ✓ Lc 16:31
+[0075A] VERS. 10.-- *Gavisi sunt gaudio magno,*   ✓ Mt 2:10
+[0075A] *Et intrantes domum,*   ✓ Act 21:8, Mt 2:11
+[0075A] *Puerum cum Maria matre ejus,*   ✓ Mt 2:11
+[0075B] *Puer natus est nobis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0075B] *Adoraverunt eum.*   ✓ 2Par 20:18, 4Rg 2:15, Gn 43:28, …
+[0075B] *Et apertis,*   ✓ Dn 13:39, Mt 2:11
+[0075B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0075B] VERS. 12.-- *Et responso accepto.*   ✓ Mt 2:12
+[0075C] *Ego sum via, veritas, et vita.*   ⚠ NOT in Clementine verbatim — CHECK
+[0075C] *Per aliam viam,*   ✓ 3Rg 13:10, Mt 2:12
+[0075D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0075D] VERS. 13.-- *Accipe puerum,*   ✓ Mt 2:13, Mt 2:20
+[0075D] VERS. 14, 15.-- *Qui consurgens.*   ✓ 1Rg 3:8, Jdc 16:14, Mt 2:14, …
+[0075D] *Nocte.*   — single word, check in place
+[0076A] *In Aegyptum, et erat ibi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0076B] *Ecce Dominus ascendet super nubem levem,*   ✓ Is 19:1
+[0076B] *ingredieturque Aegyptum [n: (Isa. XIX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0076B] *Ex Aegypto vocavi.*   ✓ Mt 2:15, Os 11:1
+[0076B] VERS. 16.-- *Tunc Herodes videns.*   ✓ Mt 2:16
+[0076C] *Occidit omnes pueros.*   ✓ Mt 2:16
+[0076D] *Et in omnibus finibus ejus.*   ✓ 1Mcc 10:43, Mt 2:16
+[0076D] *A bimatu.*   ✓ Mt 2:16
+[0077A] VERS. 17.-- *Tunc adimpletum est.*   ✓ Mt 2:17
+[0077A] VERS. 18.-- *Vox in Rama.*   ✓ Mt 2:18
+[0077A] *Vox in Rama.*   ✓ Mt 2:18
+[0077B] *Audita.*   — single word, check in place
+[0077B] *Rachel.*   — single word, check in place
+[0077C] *Rachel.*   — single word, check in place
+[0077D] *Vos plorabitis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0077D] *Tristitia vestra vertetur in gaudium [n: (Joan. XVI)]*   ✓ Jo 16:20
+[0077D] VERS. 19.-- *Defuncto autem Herode, ecce,*   ✓ Mt 2:19
+[0077D] VERS. 20.-- *In terram.*   ✓ 1Mcc 1:24, 1Mcc 2:63, 1Mcc 3:24, …
+[0077D] *Defuncti.*   — single word, check in place
+[0078A] VERS. 21.-- *Qui consurgens.*   ✓ 1Rg 3:8, Jdc 16:14, Mt 2:14, …
+[0078B] VERS. 22.-- *Timuit illo ire.*   ✓ Mt 2:22
+[0078B] *Secessit in partes.*   ✓ Mt 2:22, Mt 15:21
+[0078C] VERS. 23.-- *Nazareth.*   — single word, check in place
+[0078C] *germen novellum*   ⚠ NOT in Clementine verbatim — CHECK
+[0078C] *flos campi*   ✓ Ct 2:1
+[0078C] *flos*   — single word, check in place
+[0078D] *Per prophetas.*   ✓ 1Rg 28:6, Jdt 11:8, Lc 18:31, …
+[0078D] *Nazaraeus de radice ejus ascendet [n: (Isa. XI)]*   ⚠ NOT in Clementine verbatim — CHECK

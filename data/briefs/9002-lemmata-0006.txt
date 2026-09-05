@@ -1,0 +1,300 @@
+# 9002 — lemma inventory and Clementine pre-scan
+
+**Evangelium secundum Matthaeum** · PL 114 · cols 0063A–0178D · 42 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0006–0011, bands 0078D–0096B (241 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0078D] VERS. 1.-- *In diebus autem.*   ✓ 1Par 5:10, Dn 2:44, Mt 3:1, …
+[0078D] *In diebus.*   ✓ 1Mcc 1:12, 1Mcc 2:1, 1Mcc 5:55, …
+[0078D] *Praedicans.*   — single word, check in place
+[0079A] *In deserto Judaeae.*   ✓ Mt 3:1
+[0079A] VERS. 2.-- *Poenitentiam.*   — single word, check in place
+[0079B] *Poenitentiam agite.*   ✓ Mt 3:2, Mt 4:17
+[0079B] *Regnum coelorum.*   ✓ Mt 3:2, Mt 4:17, Mt 5:3, …
+[0079C] *Appropinquavit enim,*   ✓ Mt 3:2, Mt 4:17
+[0079C] VERS. 3.-- *Vox clamantis.*   ✓ Is 40:3, Jo 1:23, Lc 3:4, …
+[0079C] *Paravi lucernam Christo meo [n: (Psal. CXXXI)]*   ✓ Ps 131:17
+[0079C] *In deserto.*   ✓ 1Cor 10:5, 1Mcc 2:31, 1Mcc 9:62, …
+[0079D] *Viam Domini.*   ✓ Act 18:25, Act 18:26, Act 19:9, …
+[0079D] VERS. 4.-- *Ipse autem Joannes.*   ✓ Mt 3:4
+[0079D] VERS. 5.-- *Tunc exibat ad eum,*   ✓ Mt 3:5
+[0079D] *Baptizabantur ab eo in Jordane:*   ✓ Mt 3:6
+[0079D] *descensio*   — single word, check in place
+[0080A] VERS. 6.-- *In Jordane.*   ✓ 4Rg 5:10, 4Rg 5:14, Mc 1:9, …
+[0080A] *Confitentes.*   — single word, check in place
+[0080A] VERS. 7.-- *Multos Pharisaeorum,*   ✓ Mt 3:7
+[0080B] *Progenies viperarum,*   ✓ Mt 3:7, Mt 12:34
+[0080B] VERS. 8.-- *Facite ergo fructus dignos. [n: (BEDA.)]*   ⚑ MATCHES ONLY ELSEWHERE — Lc 3:8  (lemma is Mt 3) — CHECK
+[0080C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0080C] VERS. 9.-- *Dico enim.*   ✓ Lc 3:8, Lc 7:28, Lc 10:24, …
+[0080C] *De lapidibus.*   ✓ 3Rg 6:7, 3Rg 7:10, 3Rg 7:12, …
+[0080D] VERS. 10.-- *Jam enim securis.*   ✓ Lc 3:9, Mt 3:10
+[0080D] *Securis.*   — single word, check in place
+[0080D] *Posita est:*   ✓ Apc 21:16, Gal 3:19, Is 21:4, …
+[0081A] *Ad radicem.*   ✓ Ex 32:19, Lc 3:9, Mt 3:10
+[0081A] *Ad radicem.*   ✓ Ex 32:19, Lc 3:9, Mt 3:10
+[0081B] *Omnis ergo arbor,*   ✓ Lc 3:9, Mt 3:10
+[0081B] VERS. 11.-- *Ego quidem.*   ✓ 1Cor 1:12, 1Cor 3:4, 1Cor 5:3, …
+[0081B] *Ego quidem baptizo vos in aqua.*   ✓ Mt 3:11
+[0081B] *Post me venturus est.*   ✓ Jo 1:15, Jo 1:27, Mt 3:11
+[0081B] *Fortior me est.*   ✓ Mt 3:11, Nm 22:6
+[0081C] *Cujus non sum,*   ✓ Act 13:25, Lc 3:16, Mc 1:7, …
+[0082A] *Et vos mundi estis propter verbum quod locutus sum vobis [n: (Joan. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0082A] *Mundans eos lavacro aquae in verbo vitae sanctificatae [n: (Ephes. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0082A] *In Spiritu sancto.*   ✓ 1Cor 12:3, 1Thes 1:5, 2Cor 6:6, …
+[0082B] VERS.12.-- *Cujus ventilabrum.*   ✓ Lc 3:17, Mt 3:12
+[0082B] *In manu,*   ✓ 1Mcc 2:8, 1Mcc 3:6, 1Mcc 4:30, …
+[0082B] *Permundabit,*   — single word, check in place
+[0082B] *Permundabit,*   — single word, check in place
+[0082B] *Paleas autem.*   ✓ Lc 3:17, Mt 3:12
+[0082B] *Qui non credit, jam judicatus est,*   ⚠ NOT in Clementine verbatim — CHECK
+[0082B] *Inexstinguibili.*   — single word, check in place
+[0082C] *Igne nos examinasti [n: (Psal. LXV)]*   ✓ Ps 65:10
+[0082C] VERS. 13.-- *Tunc venit.*   ✓ Mt 3:13, Mt 26:36, Mt 26:45
+[0082D] *A Galilaea in Jordanem.*   ✓ Mt 3:13
+[0082D] VERS. 15.-- *Sine modo.*   ✓ Mt 3:15
+[0082D] *Tunc dimisit.*   ✓ 1Rg 6:6, Mt 3:15, Mt 27:26
+[0083A] VERS. 16.-- *Baptizatus autem.*   ✓ Mt 3:16
+[0083A] *Aperti sunt,*   ✓ Apc 20:12, Dn 7:10, Ez 1:1, …
+[0083B] *Sicut columbam.*   ✓ Mt 3:16
+[0083D] *Complacui.*   — single word, check in place
+[0083D] VERS. 1.-- *Tunc Jesus.*   ✓ Mt 4:1, Mt 16:24, Mt 21:1, …
+[0084A] *Tunc Jesus ductus est,*   ✓ Mt 4:1
+[0084A] *Spiritui*   — single word, check in place
+[0084A] *Ut tentaretur a diabolo.*   ✓ Mt 4:1
+[0084A] VERS. 2.-- *Et cum jejunasset. [n: (BEDA.)]*   ✓ Mt 4:2
+[0084B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0084B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0084B] *Postea esuriit.*   ✓ Mt 4:2
+[0084B] VERS. 3.-- *Et accedens.*   ✓ 3Rg 20:28, Dt 2:19, Mc 1:31, …
+[0084B] *Si Filius [0084C] Dei es.*   ✓ Lc 4:3, Lc 4:9, Mt 4:3, …
+[0084C] *Si Filius Dei es.*   ✓ Lc 4:3, Lc 4:9, Mt 4:3, …
+[0084D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0084D] VERS. 4.-- *Scriptum est.*   ✓ 1Cor 1:19, 1Cor 1:31, 1Cor 2:9, …
+[0084D] *Non in solo pane vivit homo.*   ✓ Lc 4:4, Mt 4:4
+[0084D] *Sed in omni verbo,*   ✓ Dt 8:3, Lc 4:4, Mt 4:4
+[0085A] VERS. 5.-- *Tunc assumpsit.*   ✓ Mt 4:5
+[0085B] *Supra pinnaculum. [n: (RAB.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0085B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0085B] *Si filius. [n: (BEDA.)]*   ✓ Gal 4:7, Jr 31:20, Lc 4:3, …
+[0085B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0085B] *Mitte.*   — single word, check in place
+[0085C] *Si persecuti vos fuerint in civitate ista, fugite in aliam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0085C] *Quia angelis suis mandavit de te. [n: (BEDA.)]*   ✓ Mt 4:6
+[0085C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0085C] VERS. 8.-- *Iterum assumpsit.*   ✓ Mt 4:8
+[0085D] *Ostendit,*   — single word, check in place
+[0085D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0085D] VERS. 9.-- *Haec omnia tibi dabo.*   ✓ Mt 4:9
+[0086A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0086A] VERS. 10.-- *Scriptum est.*   ✓ 1Cor 1:19, 1Cor 1:31, 1Cor 2:9, …
+[0086A] *Dominum Deum tuum.*   ✓ 1Rg 12:19, 1Rg 15:30, 1Rg 25:29, …
+[0086A] *Non tentabis Dominum Deum tuum,*   ✓ Dt 6:16, Lc 4:12, Mt 4:7
+[0086B] *Servies.*   — single word, check in place
+[0086B] *Eritis sicut dii.*   ✓ Gn 3:5
+[0086B] *Scientes bonum et malum.*   ✓ Gn 3:5
+[0086B] VERS. 11.-- *Accesserunt.*   — single word, check in place
+[0086C] VERS. 12.-- *Cum autem audisset. [n: (RAB.)]*   ✓ 1Mcc 14:24, 2Rg 13:21, Mt 4:12
+[0086C] *usque ad, Hoc fecit initium signorum Jesus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0086C] *Nondum Joannes missus erat in carcerem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0086C] *Joannes,*   — single word, check in place
+[0086C] *In Galilaeam.*   ✓ 1Mcc 5:20, 1Mcc 5:21, 1Mcc 12:47, …
+[0086D] VERS. 13.-- *Nazareth. [n: (RAB.)]*   — single word, check in place
+[0086D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0086D] VERS. 15.-- *Terra Zabulon. [n: (ID.)]*   ✓ Is 9:1, Mt 4:15
+[0086D] *Primo tempore alleviata est terra Zabulon et terra Nephtalim [n: (Isa. IX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0086D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0086D] VERS. 16.-- *Populus. [n: (AUG.)]*   — single word, check in place
+[0087A] *Habitantibus in regione.*   ✓ Is 9:2
+[0087A] *Umbrae mortis.*   ✓ Is 9:2, Mt 4:16, Ps 22:4
+[0087A] VERS. 17.-- *Exinde.*   — single word, check in place
+[0087A] *Exinde,*   — single word, check in place
+[0087A] *Si cui revelatum fuerit, prior taceat.*   ⚠ NOT in Clementine verbatim — CHECK
+[0087A] *Poenitentiam agite.*   ✓ Mt 3:2, Mt 4:17
+[0087B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0087C] VERS. 18.-- *Qui vocatur Petrus.*   ✓ Mt 4:18
+[0087C] *Tu vocaberis Cephas [n: (Joan. I)]*   ✓ Jo 1:42
+[0087C] *Petrus:*   — single word, check in place
+[0087C] *Tu es Christus Filius Dei vivi,*   ✓ Jo 11:27, Mt 16:16
+[0087C] *Tu es Petrus et super hanc petram aedificabo Ecclesiam meam [n: (Matth. XVI)]*   ✓ Mt 16:18
+[0087C] *agnoscens:*   — single word, check in place
+[0087C] *virilis:*   — single word, check in place
+[0087C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0087C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0087D] *Mittentes rete.*   ✓ Mt 4:18
+[0087D] *Venite post me, et faciam vos fieri piscatores hominum [n: (Joan. I)]*   ✓ Mc 1:17, Mt 4:19
+[0087D] VERS. 19.-- *Piscatores.*   — single word, check in place
+[0087D] VERS. 20.-- *Continuo.*   — single word, check in place
+[0088A] VERS. 21.-- *Vidit alios duos.*   ✓ Mt 4:21
+[0088A] *Quos vocavit [n: (Rom. VIII)]*   ✓ Rom 8:30
+[0088A] *Multi sunt vocati [n: (Matth. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0088A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0088B] *Zebedaei et Joannem.*   ✓ Mc 1:19, Mc 3:17, Mt 4:21
+[0088B] *Et vocavit eos. Illi autem,*   ⚠ NOT in Clementine verbatim — CHECK
+[0088B] VERS. 23.-- *Et circumibat Jesus totam Galilaeam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0088B] *Docens in synagogis.*   ✓ Mt 4:23, Mt 9:35
+[0088C] *In synagogis.*   ✓ Act 9:20, Act 13:5, Act 15:21, …
+[0088C] *Evangelium.*   — single word, check in place
+[0088C] *Et sanans.*   ✓ Mt 4:23
+[0088C] VERS. 24.-- *Et abiit opinio. [n: (BEDA.)]*   ✓ Mt 4:24
+[0088D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0088D] VERS. 25.-- *Secutae sunt. [n: (AUG.)]*   ✓ Gn 24:61, Lc 9:11, Mt 4:25, …
+[0088D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0088D] VERS. 1.-- *Videns autem Jesus. [n: (AUG.)]*   ✓ Lc 18:24, Mt 5:1, Mt 8:18
+[0088D] *Factum est autem in illis diebus, exiit in montem orare [n: (Luc. VI)]*   ✓ Lc 6:12
+[0088D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0089A] *Ascendit.*   — single word, check in place
+[0089A] *Sedisset.*   — single word, check in place
+[0089A] *Et mundus eum non cognovit,*   ✓ Jo 1:10
+[0089A] *Accesserunt.*   — single word, check in place
+[0089B] VERS. 2.-- *Et aperiens.*   ✓ Dn 10:16, Gn 8:13, Mt 5:2, …
+[0089B] *usque ad, Omnis qui audit verba mea haec et faciat, assimilabo eum viro sapienti [n: (Matth. VII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0089B] VERS. 3.-- *Beati. [n: (GREG. NYSS.)]*   — single word, check in place
+[0089B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0089C] *Beati pauperes.*   ✓ Lc 6:20, Mt 5:3
+[0089C] *[n: (HIER.)] Beati pauperes spiritu.*   ✓ Mt 5:3
+[0089C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0089C] VERS. 4.-- *Beati mites.*   ✓ Mt 5:4
+[0089D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0089D] *Possidebunt terram. [n: (AUG.)]*   ✓ Mt 5:4
+[0089D] *Spes mea es tu, portio mea in terra viventium [n: (Psal. CLXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0089D] VERS. 5.-- *Beati qui lugent.*   ✓ Mt 5:5
+[0090A] *Beati qui lugent.*   ✓ Mt 5:5
+[0090A] VERS. 6.-- *Beati qui esuriunt.*   ✓ Mt 5:6
+[0090B] VERS. 7.-- *Beati misericordes.*   ✓ Mt 5:7
+[0090C] *Estote misericordes sicut et Pater vester misericors est [n: (Luc. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0090C] VERS. 9.-- *Beati pacifici. [n: (RAB.)]*   ✓ Mt 5:9
+[0090C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0090C] VERS. 10.-- *Beati qui persecutionem.*   ✓ Mt 5:10
+[0090D] VERS. 11.-- *Beati estis cum maledixerint.*   ✓ Mt 5:11
+[0090D] *Vos estis sal terrae, vos estis lux mundi;*   ⚠ NOT in Clementine verbatim — CHECK
+[0090D] *Maledixerint.*   — single word, check in place
+[0090D] *Cum oderint vos homines, et dixerint omne malum, et expulerint.*   ⚠ NOT in Clementine verbatim — CHECK
+[0091A] *Mentientes.*   — single word, check in place
+[0091A] *Propter me,*   ✓ 1Rg 23:10, 4Rg 19:34, 4Rg 20:6, …
+[0091A] VERS. 12.-- *Quoniam merces vestra copiosa est in coelis.*   ✓ Mt 5:12
+[0091B] *Sic enim persecuti,*   ✓ Mt 5:12
+[0091B] VERS. 13.-- *Vos estis sal terrae.*   ✓ Mt 5:13
+[0091B] *Posui te in lucem gentium, ut sis salus mea usque ad extrema terrae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0091B] *Quod si sal,*   ✓ Mc 9:49, Mt 5:13
+[0091C] *Hic homo coepit aedificare, et non potuit consummare. Si sal evanuerit [n: (Luc. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0091C] *Ad nihilum valet ultra,*   ✓ Mt 5:13
+[0091C] *Nisi abundaverit justitia,*   ✓ Mt 5:20
+[0091C] *Et conculcetur ab hominibus.*   ✓ Mt 5:13
+[0091D] VERS. 14.-- *Vos estis lux mundi.*   ✓ Mt 5:14
+[0091D] *Lux mundi.*   ✓ Jo 8:12, Mt 5:14
+[0091D] *Non potest civitas,*   ✓ Mt 5:14
+[0091D] *Supra montem.*   ✓ 1Rg 17:3, Apc 14:1, Mt 5:14
+[0092A] VERS. 15.-- *Neque accendunt lucernam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0092A] *Castigo corpus meum,*   ✓ 1Cor 9:27
+[0092B] *Sic luceat,*   ✓ Mt 5:16
+[0092B] *Candelabrum.*   — single word, check in place
+[0092B] VERS. 16.-- *Sic luceat,*   ✓ Mt 5:16
+[0092B] *Ut videant,*   ✓ 4Rg 6:20, Dn 12:2, Is 41:20, …
+[0092B] VERS. 17.-- *Nolite putare.*   ✓ Jo 5:45, Mt 5:17
+[0092C] *Non veni solvere legem, sed adimplere,*   ⚠ NOT in Clementine verbatim — CHECK
+[0092C] VERS. 18.-- *Iota. [n: (BEDA.)]*   — single word, check in place
+[0092C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0092C] *Omnia fiant.*   ✓ Lc 21:32, Mt 5:18
+[0092D] VERS. 19.-- *Qui ergo solverit,*   ✓ Mt 5:19
+[0092D] *Minimus vocabitur,*   ✓ Mt 5:19
+[0093A] *Qui autem fecerit.*   ✓ 1Mcc 14:45, Mt 5:19
+[0093A] *Soli enim factores legis justi sunt apud Deum [n: (Rom. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0093A] VERS. 20.-- *Dico autem vobis.*   ⚑ MATCHES ONLY ELSEWHERE — Lc 9:27, Lc 12:4, Lc 12:8, …  (lemma is Mt 5) — CHECK
+[0093A] *Nisi,*   — single word, check in place
+[0093B] *Justitia vestra.*   ✓ Mt 5:20
+[0093B] VERS. 21.-- *Audistis,*   — single word, check in place
+[0093B] VERS. 22.-- *Ego autem,*   ✓ 1Cor 1:12, 1Cor 7:28, 1Cor 9:15, …
+[0093B] *Omnis qui irascitur.*   ✓ Mt 5:22
+[0093C] VERS. 23.-- *Si ergo offers munus tuum.*   ✓ Mt 5:23
+[0093C] *Si ergo offers.*   ✓ Mt 5:23
+[0093C] *Et ibi,*   ✓ 1Rg 7:17, 3Rg 17:4, Act 9:7, …
+[0093D] VERS. 24.-- *Relinque ibi,*   ✓ Mt 5:24
+[0093D] *Vade.*   — single word, check in place
+[0093D] *Offeres.*   — single word, check in place
+[0094A] VERS. 25.-- *Esto consentiens.*   ✓ Mt 5:25
+[0094A] *Si fieri potest quod ex vobis est cum omnibus hominibus pacem habentes [n: (Rom. XII)]*   ✓ Rom 12:18
+[0094A] *Cito,*   — single word, check in place
+[0094A] *Dum es in via,*   ✓ Mt 5:25
+[0094A] *In via cum eo.*   ✓ Mt 5:25
+[0094B] *Viam mandatorum tuorum cucurri, cum dilatasti cor meum [n: (Psal. CXVIII)]*   ✓ Ps 118:32
+[0094B] *Ne forte tradat.*   ✓ Mt 5:25
+[0094B] *Tradat,*   — single word, check in place
+[0094B] VERS. 26.-- *Novissimum quadrantem.*   ✓ Mt 5:26
+[0094C] VERS. 27.-- *Audistis. [n: (RAB.)]*   — single word, check in place
+[0094C] *Non veni solvere legem, sed adimplere [n: (Marc. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0094C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0094C] *Viderit mulierem. [n: (BEDA.)]*   ✓ Mt 5:28
+[0094C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0094C] *Ad concupiscendum.*   ✓ Mt 5:28
+[0094D] VERS. 29.-- *Erue eum.*   ✓ Mt 5:29, Mt 18:9
+[0095A] VERS. 30.-- *Dextera manus tua.*   ⚠ NOT in Clementine verbatim — CHECK
+[0095A] *Abscinde eam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0095A] *In gehennam.*   ✓ Lc 12:5, Mc 9:42, Mc 9:44, …
+[0095B] VERS. 31.-- *Det illi. [n: (AUG.)]*   ⚑ MATCHES ONLY ELSEWHERE — 2Tim 1:18  (lemma is Mt 5) — CHECK
+[0095B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0095C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0095C] VERS. 32.-- *Causa fornicationis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0095C] *Fornicationis causa.*   ✓ Mt 5:32
+[0095D] *Et qui,*   ✓ 1Cor 3:8, 1Cor 7:29, 1Cor 7:30, …
+[0095D] VERS. 33.-- *Reddes autem.*   ✓ Mt 5:33
+[0095D] *Ego autem,*   ✓ 1Cor 1:12, 1Cor 7:28, 1Cor 9:15, …
+[0096A] *Per coelum.*   ✓ Jac 5:12, Mt 5:34
+[0096A] *Neque per terram.*   ✓ Jac 5:12, Mt 5:35
+[0096A] *Non est potestas nisi a Deo [n: (Rom. XIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0096B] *Neque,*   — single word, check in place
+[0096B] VERS. 36.-- *Quia non potes,*   ✓ Apc 2:2, Mt 5:36
+[0096B] VERS. 37.-- *Est, est; non, non.*   ✓ Jac 5:12, Mt 5:37
