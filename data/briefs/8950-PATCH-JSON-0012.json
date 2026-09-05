@@ -1,0 +1,75 @@
+{
+  "note": "Second-witness verdicts for 8950-PENDING-TEI-PATCHES-0012.md (cols 0106D-0120D). Only CONFIRMED / STRUCTURAL rows appear here; the 21 refuted rows are in 8950-PATCH-VERDICTS-0012.md and must NOT be patched. Second witness: Gallica ark bpt6k5505319w, leaf = floor((column+1)/2); printed corner numbers read first on every leaf (f53=105/106, f54=107/108, f55=109/110, f56=111/112, f57=113/114, f58=115/116, f59=117/118, f60=119/120). Crops at 2x-12x of a 1900x3120 300-dpi scan.",
+  "patches": [
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0106D",
+      "find": "« Ex\nomnibus animantibus mundis tolles septena et septena, »",
+      "replace": "« Ex\n« omnibus animantibus mundis tolles septena et « septena, »",
+      "provenance": "STRUCTURAL, confirmed on Gallica f53 (corners 105/106) right column, bottom quarter, at 2x. Migne repeats the guillemet at the head of each continued line: « Ex / « omnibus animantibus mundis tolles septena et se- / « ptena, » etc. Our twin drops both repeats. Ink cannot destroy a printed mark, so a single good read settles it. NOTE the archive stint's own reading of this line (`tolles septe-«ptena`) is WRONG — Gallica prints `septena et se-`/`ptena` in full, exactly the twin's word. The second repeat falls inside a word CC has already joined, so it is set before the joined word."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0107C",
+      "find": "VERS. 7-9.-- « Ingressus est Noe et filii ejus,\nuxor, »",
+      "replace": "VERS. 7-9.-- « Ingressus est Noe et filii ejus,\n« uxor, »",
+      "provenance": "STRUCTURAL, confirmed on Gallica f54 (corners 107/108) left column, quarter C, at 2x. The plate prints « uxor, » at the line head. The archive stint ALSO claimed a stray period after `ejus,` — Gallica shows no such period, and that half of the row is refuted; only the guillemet is patched."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0113C",
+      "find": "in Hebraeo habetur   et   <hi>scheba</hi> et <hi>seba.</hi>",
+      "replace": "in Hebraeo habetur שבא et סבא <hi>scheba</hi> et <hi>seba.</hi>",
+      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f57 (corners 113/114) left column, quarter C, at 2x and again at 8x. The plate prints two Hebrew words, שבא and סבא, in the two gaps our TEI leaves as bare spaces. No shin-dot is visible at 8x on the cleaner copy, so the archive stint's שׂבא is not reproduced. Ink cannot put words on a page that are not there."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0115C",
+      "find": "VERS. 26-30.-- « Thare genuit Abram et Nachor. »",
+      "replace": "VERS. 26-30.-- « Thare genuit Abram et « Nachor. »",
+      "provenance": "STRUCTURAL, confirmed on Gallica f58 (corners 115/116) left column, quarter C, at 2x: « Thare genuit Abram et Na- / « chor. » (AUG. quaest. 25 in Gen.). Our twin drops the line-head repeat. The mark falls inside a word CC has joined, so it is set before the joined word."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0115C",
+      "find": "<hi>in Ur Chesdim</hi> ( ),",
+      "replace": "<hi>in Ur Chesdim</hi> (אורכשדים),",
+      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f58 left column, quarter C, at 2x and at 10x. The plate prints אורכשדים inside the parentheses our TEI leaves empty. Read letter by letter right to left at 10x: aleph, vav, resh, kaph, shin, daleth, yod, final mem. No pointing visible."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0115D",
+      "find": "etc., <hi>usque,</hi> facti\nsunt dies Thare ducentorum quinque annorum, et\nmortuus est in Haran. »",
+      "replace": "etc., <hi>usque,</hi> « facti\n« sunt dies Thare ducentorum quinque annorum, et\n« mortuus est in Haran. »",
+      "provenance": "STRUCTURAL, confirmed on Gallica f58 left column, quarter D, at 2x. The plate reads: « Tulit itaque Thare Abram, » etc., usque, « facti / « sunt dies Thare ducentorum quinque annorum, et / « mortuus est in Haran. » (AUG.) — an opening mark and two line-head repeats, all three missing from our twin, whose closing » is therefore orphaned. ⚠ The archive stint ALSO claimed the plate has no comma after usque and that our twin inserted it; Gallica prints the comma. That half of the row is REFUTED and the comma stands."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0116B",
+      "find": "VERS. 2-3.--Faciamque te in gentem magnam, »",
+      "replace": "VERS. 2-3.-- Faciamque te in gentem magnam, »",
+      "provenance": "Confirmed on Gallica f58 right column, quarter B, at 2x: VERS. 2-3. — Faciamque te in gentem magnam, » etc. The plate sets a space after the dash, as at every other address on the page; our twin has closed it up. The absence of an opening « is Migne's and is not touched."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0117A",
+      "find": "Sed in Hebraica veritate habetur   <hi>gravis\nvehementer:</hi>",
+      "replace": "Sed in Hebraica veritate habetur כבד <hi>gravis\nvehementer:</hi>",
+      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f59 (corners 117/118) left column, quarter A, at 2x. The plate prints כבד in the gap our TEI leaves as bare spaces. (The plate also sets the colon outside the italic, `vehementer :`; that is punctuation and is left to the twin.)"
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0118C",
+      "find": "id est, <hi>civitas quatuor;</hi> \n CHARIAT enim Hebraice <hi>civitas,   arbe\nquatuor.</hi>",
+      "replace": "id est, <hi>civitas quatuor</hi>; \n קרית CHARIAT enim Hebraice <hi>civitas</hi>, ארבע <hi>arbe\nquatuor</hi>.",
+      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f59 right column, quarter C, at 2x. The plate prints: id est, civitas quatuor; קרית CHARIAT enim Hebraice civitas, ארבע arbe quatuor. Two Hebrew words are lost in our twin, and the loss has fused Migne's italic phrases: the italic ends at *quatuor* before the semicolon, resumes at *civitas* alone, and resumes again at *arbe quatuor*. Reading of ארבע follows the archive stint's consonants; possible pointing under the bet is not resolvable even at 12x and is not reproduced."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0120D",
+      "find": "« Malae bestiae, pigri ventres, »",
+      "replace": "« Malae bestiae, pigri ventres; »",
+      "provenance": "Confirmed on Gallica f60 (corners 119/120) right column, quarter D, at 2x and at 8x: the plate prints a semicolon, not a comma, inside the Tit 1:12 quotation. Both witnesses agree against the twin, and at 8x the upper dot and lower comma of the semicolon are separately resolved. Migne sets it with his usual French space before the mark; the space is not reproduced."
+    }
+  ]
+}

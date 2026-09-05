@@ -1,0 +1,54 @@
+{
+  "note": "Verified against a SECOND WITNESS (Gallica BnF ark bpt6k5505319w, leaf map f=(col+1)/2, printed corner numbers read first on every leaf) per data/briefs/8950-PATCH-GATE-READ-FIRST.md. These are the only rows of data/briefs/8950-PENDING-TEI-PATCHES-0031.md that need a find/replace after the second witness. Of the 54 assertions the file's 42 rows carry, 16 were CONFIRMED and 38 REFUTED; nine of the confirmations (pinguedidine, the eleven line-head guillemets, Migne's two unpaired marks, five Corpus Corporum markup findings) are real but take no patch. In particular the four claimed 'normalized verse addresses' and every claimed Migne letter-defect (pertradsissent, phisophi, apperuit, mediatabatur, Chrisri, menbra illus, usque ab) were manufactured by over-inking on the archive scan and are NOT patched and NOT marked. Full verdict table: data/briefs/8950-PATCH-VERDICTS-0031.md.",
+  "patches": [
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0148C",
+      "find": "profunda penetremus, et quosque verae\nintelligentiae aqua redeat",
+      "replace": "profunda penetremus, et quousque verae\nintelligentiae aqua redeat",
+      "provenance": "Corpus Corporum dropped a 'u': the twin reads 'quosque', which does not construe ('et quosque verae intelligentiae aqua redeat'), where Migne prints 'quousque'. CONFIRMED ON TWO WITNESSES: archive.org patrologiaecurs04migngoog p. 79 (600 dpi) and Gallica bpt6k5505319w f74 (printed corners 147/148, read at 4.5x on a 300 dpi scan). On Gallica the word sets as 'quou[s]que' with the 's' lightly inked but four letters standing before 'que'; 'quosque' would give three. Migne is not emended: the plate's own letter is restored."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0155A",
+      "find": "oleum, nihil fecit idolol triae simile:",
+      "replace": "oleum, nihil fecit idololatriae simile:",
+      "provenance": "A Corpus Corporum SPLIT RUN, not a word: the twin breaks the lexeme as 'idolol triae'. Migne prints 'idololatriae' as one word. CONFIRMED ON TWO WITNESSES: archive.org p. 82 (600 dpi) and Gallica bpt6k5505319w f78 (printed corners 155/156), band A, read at 1.7x. Note for any future Pattern 10 sweep: quarantining 'idolol triae' would take the whole lexeme out of 'nihil fecit idololatriae simile' and leave the sentence saying Jacob did nothing like to nothing. It is ours, not Migne's, and is repaired here rather than marked."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0148C",
+      "find": "In Hebraeo <hi>Rehobot</hi> \n( ), <hi>latitudines.</hi>",
+      "replace": "In Hebraeo <hi>Rehobot</hi> \n(רחבות), <hi>latitudines.</hi>",
+      "provenance": "STRUCTURAL: Hebrew type Migne sets inline, dropped by Corpus Corporum, leaving the visible scar of an EMPTY PAIR OF PARENTHESES in our Latin. Read on Gallica bpt6k5505319w f74 (printed corners 147/148) at 9x: five glyphs, clean. Matches Migne's own Latin gloss 'latitudines' and Gn 26:22 Rehoboth. Ink cannot add type that is not on the page, so one good read settles presence; the letters here are unambiguous. The 0031 stint's [ed:] marker rests on this row and stands."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0155B",
+      "find": "vero scripturae verbo <hi>ulam</hi> vel <hi>olam</hi>   plenae",
+      "replace": "vero scripturae verbo <hi>ulam</hi> vel <hi>olam</hi> ולאם plenae",
+      "provenance": "STRUCTURAL: Hebrew present on the plate, absent from the twin (the twin's tell is a tripled space). Read on Gallica bpt6k5505319w f78 (printed corners 155/156) at 9x. ⚠ HOLD FOR A HEBRAIST BEFORE APPLYING: the four glyphs read, right to left, vav-lamed-aleph-final mem = ולאם, NOT the expected אולם ('ulam' of Jerome, Quaest. Hebr. in Gen.). Two independent readings (the archive stint's at 600 dpi and mine at Gallica) agree on the order as printed, which points to a transposition in Migne's own Hebrew type rather than a misreading -- but this is a claim about letter ORDER, the one thing ink cannot cause, and it should be checked against Jerome before it is published. The PRESENCE of the Hebrew is not in doubt."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0157C",
+      "find": "cum verbum Hebraicum <hi>monim</hi> \n   numerum magis quam annos sonat;",
+      "replace": "cum verbum Hebraicum <hi>monim</hi> \nמנים numerum magis quam annos sonat;",
+      "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum mid-sentence (no visible scar, so a silent patch and a crux, per Pattern 13a clause 1). Read on Gallica bpt6k5505319w f79 (printed corners 157/158) at 9x: four glyphs, clean, mem-nun-yod-final mem, matching Migne's own transliteration 'monim' and Jerome's argument that the Hebrew says 'number' rather than 'years'."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0158A",
+      "find": "in Hebraeo <hi>theraphim</hi>   scriptum est;",
+      "replace": "in Hebraeo <hi>theraphim</hi> תרפים scriptum est;",
+      "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum (tell: a tripled space). Read on Gallica bpt6k5505319w f79 (printed corners 157/158) at 9x. Reads tav-resh-pe-yod-final mem = תרפים, matching Migne's transliteration 'theraphim' and the standard form; the final mem is lightly inked but the word is not otherwise in doubt."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0159B",
+      "find": "in Hebraeo <hi>mahanaim</hi>  ; ut sciamus,",
+      "replace": "in Hebraeo <hi>mahanaim</hi> מהנים ; ut sciamus,",
+      "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum, leaving a floating space before the semicolon. Read on Gallica bpt6k5505319w f80 (printed corners 159/160) at 9x. ⚠ HOLD FOR A HEBRAIST BEFORE APPLYING: the second glyph shows the detached left leg of a HE, giving מהנים, where the Masoretic form of Mahanaim is מחנים with het. Two independent readings agree on he. If Migne set het and both readings are wrong, the replace string becomes מחנים. The PRESENCE of the Hebrew is not in doubt. Note also that Migne sets a space before the semicolon here; the twin's spacing is preserved."
+    }
+  ]
+}

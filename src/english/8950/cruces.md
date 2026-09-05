@@ -127,11 +127,25 @@ Stated once here; the reasoning is in the stint section named.
   reading `LXX:` himself and the properly-closed lemma four words earlier agrees with Gn 4:16
   exactly. ⚑ On a guillemet book an unclosed `«` often opens a quotation of ANOTHER VERSION rather
   than a lemma, and what settles it is the closed lemma standing beside it.
-- **The TEI patch pass has not run**, and it is gated as above. Structural patches are safe on one
-  witness and are the ones that matter most: the **dropped `non` at 0141B**, the dropped *sancti* and
-  *Dei* at 0170C, and **twelve Hebrew words** Migne prints that our twin has lost.
-- **The blind polarity read has not run.** ⚑ It cannot reach the 0141B class: that pass compares our
-  English against our Latin, and there our Latin is the thing at fault.
+- **The TEI patch pass is VERIFIED against a second witness and its result is mostly negative.**
+  125 single-witness claims were checked at Gallica (`bpt6k5505319w`, `f = (col+1)/2`, corners read
+  first on every leaf): **~100 REFUTED, and not one letter-level claim survived in any file.** What
+  stands is a narrow set — **lost Hebrew** (whole non-Latin words), **Migne's line-head `«`
+  repeats**, a few **defects in our own transcription against a clean plate**, and two spacing/mark
+  forms. ⛔ **The `[sic:]` backlog those files predicted has evaporated**: no `[sic:]` is owed
+  anywhere in cols 0095–0160, because the defects they accused Migne of are not on his page.
+- ⛔⛔ **THE DROPPED `non` AT 0141B DOES NOT EXIST**, and it was reported as this work's most
+  important finding. Gallica f71 prints *quia in eo quod credidit, **vacua non remansit***: no `non`
+  after *quia*, the phrase closed up at normal spacing, and **the sentence's only `non` standing in
+  the next clause**. The reader attributed a word that is genuinely on the page to the wrong slot,
+  in a sentence whose argument wanted a negative there — **7a″ conformation operating inside a plate
+  read**, where nothing downstream checks for it. The English has been reverted.
+- **Three non-words are MIGNE'S, filed as ours** — `dilicta` @0099C, `uque ad` @0131C, `virginet`
+  @0130D — so three `[sic:]` are available where three patches were expected. Not fired; a later
+  session may.
+- **The blind polarity read has not run.** ⚑ Its premise is now cleaner than when this file was
+  written: our Latin is no longer believed to be missing a negation, so the pass compares an English
+  against a Latin twin that two witnesses agree with.
 
 
 ---

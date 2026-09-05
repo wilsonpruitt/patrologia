@@ -1,0 +1,33 @@
+{
+  "note": "Second-witness verdicts for 8950-PENDING-TEI-PATCHES-0024.md (cols 0133C-0147C). Only CONFIRMED rows appear here; the 15 refuted rows are in 8950-PATCH-VERDICTS-0024.md and must NOT be patched — including 0141B, whose claimed printed `non` Gallica shows is not on the page. Second witness: Gallica ark bpt6k5505319w, leaf = floor((column+1)/2); printed corner numbers read first on every leaf (f67=133/134, f68=135/136, f69=137/138, f70=139/140, f71=141/142, f73=145/146, f74=147/148). Crops at 2x-4x of a ~1900x3120 300-dpi scan. Every confirmed row here is a defect in OUR transcription against a clean plate (the file's Part B); not one of the file's fourteen claims that MIGNE's type is defective survived the second witness.",
+  "patches": [
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0137C",
+      "find": "pro eo quod est\npro are, dicimus.",
+      "replace": "pro eo quod est\nprobare, dicimus.",
+      "provenance": "Confirmed on Gallica f69 (corners 137/138) left column, quarter C, at 2x: `sed usualiter, tentare, pro eo quod est / probare, dicimus.` One word, whole, at the head of its line, no wrap and no hyphen. Corpus Corporum has split a real word into the non-word `pro are`. Our defect, not Migne's; the English (\"for that which is 'to prove'\") already renders it correctly."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0138D",
+      "find": "« Fide Abraham non hae\nsitavit, cum unicum offerret",
+      "replace": "« Fide Abraham non haesitavit,\ncum unicum offerret",
+      "provenance": "Confirmed on Gallica f69 right column, quarter D, at 2x: `« Fide Abraham non hæ / sitavit, cum unicum offerret` — one word broken by an ordinary line wrap, which our TEI has turned into a split run. ⚠ The two copies differ on the HYPHEN: the archive stint read one at 900 dpi, Gallica prints none (this printing is inconsistent about wrap hyphens — `certis/sime` two lines above has none, `occide-/retur` has one). The divergence is immaterial: on either copy the letters are one word."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0141C",
+      "find": "<note>(GREG.)</note> Quia praedicato:\n<pb n=\"0141D\"/>\nauditum Ecclesiae",
+      "replace": "<note>(GREG.)</note> Quia praedicator\n<pb n=\"0141D\"/>\nauditum Ecclesiae",
+      "provenance": "Confirmed on Gallica f71 (corners 141/142) left column, at the C/D break, at 2x: `(GREG.) Quia praedi- / cator auditum Ecclesiae per obedientiam`. Corpus Corporum lost the final r at the column break and set a colon. Our defect; the English (\"Because the preacher …\") already renders it correctly."
+    },
+    {
+      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+      "col": "0145A",
+      "find": "quia prius est quod animae est, deinde quod\nspirituale.",
+      "replace": "quia prius est quod animale est, deinde quod\nspirituale.",
+      "provenance": "Confirmed on Gallica f73 (corners 145/146) left column, quarter A, at 2x: `quia prius est quod animale est; deinde quod spirituale.` — 1 Cor 15:46's own word and the sentence's argument. Our defect. (The plate also has a semicolon where the twin has a comma; punctuation is left to the twin per the stint's own §1(c), so only the word is patched.)"
+    }
+  ]
+}

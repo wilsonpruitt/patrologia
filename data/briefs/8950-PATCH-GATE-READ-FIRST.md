@@ -34,9 +34,15 @@ fetch. The second witness:
 
 1. Every patch in the five single-witness files whose claim turns on **letters** — a changed,
    doubled, dropped or transposed character — is **UNCONFIRMED** and must be checked at Gallica.
-2. Patches that do not turn on letters are unaffected: **a dropped `non`** (0141B), **dropped words**
-   (`sancti`, `Dei` at 0170C), **lost Hebrew**, **normalized verse addresses**, and **quotation marks
-   supplied or dropped** are structural, and over-inking cannot create or destroy them.
+2. ⛔ **THIS CLAUSE WAS WRONG AND IS WITHDRAWN.** It said structural claims — a dropped `non`,
+   dropped words, lost Hebrew, verse addresses, quotation marks — were safe on one witness because
+   ink cannot create or destroy them. **The verse addresses were all ink** (five of five refuted),
+   and **the dropped `non` at 0141B does not exist**: Gallica prints *quia in eo quod credidit,
+   vacua non remansit*, with the sentence's only `non` in the NEXT CLAUSE. The reader attributed a
+   word that is genuinely on the page to the wrong slot, in a sentence whose sense wanted it there.
+   **Nothing stands on one witness.** Of the structural classes only **lost Hebrew** survived the
+   check — whole non-Latin words, which ink neither adds nor removes — and even those were
+   confirmed at Gallica rather than assumed.
 3. ⚑ **Ink is not the only way two copies differ.** At 0171D Gallica prints `Mititte` and the archive
    `Mittite` — a letter *order*, which no amount of ink can produce. That is **two printings, not two
    photographs**, and it takes neither a patch nor a `[sic:]`. Do not assume a disagreement between

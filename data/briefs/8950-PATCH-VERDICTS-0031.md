@@ -13,7 +13,13 @@ Reading scale: leaves are 1868–1898 × 3096–3112 px (~300 dpi). Band crops w
 
 ## Headline
 
-**42 rows checked. 8 CONFIRMED / STRUCTURAL · 34 REFUTED · 0 two-printings · 0 unsettled.**
+**All 42 rows of the pending file checked — 54 separate assertions, since several rows carry more
+than one claim. Split: 16 CONFIRMED / STRUCTURAL · 38 REFUTED · 0 two-printings · 0 unsettled.**
+
+**Only 7 of the 16 need a patch** (`data/briefs/8950-PATCH-JSON-0031.json`): two Latin repairs
+(`quousque` @0148C, `idololatriae` @0155A) and five Hebrew recoveries. The other nine confirmations
+— `pinguedidine`, the eleven line-head `«`, Migne's two unpaired marks, and five Corpus Corporum
+markup findings — are real but take no `find`/`replace`.
 
 ⭐ **The four "normalized VERSE ADDRESSES" — the stint's largest claimed finding — are ALL REFUTED.**
 Gallica prints `6-13`, `15-19`, `20-24`, `11-16`: exactly our twin's numbers, digit for digit.
