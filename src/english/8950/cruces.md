@@ -110,9 +110,14 @@ Stated once here; the reasoning is in the stint section named.
 
 ### Open at merge time
 
-- **`data/briefs/8950-OPEN-ENDED-FOR-MERGE.md`** — six lemmata in the already-translated 0000–0011
-  range that no instrument could see until the harvester was fixed. They belong to no stint's fault
-  and are still to be collated under 7a″.
+- ✅ **CLOSED at the merge — the six open-ended lemmata** (`data/briefs/8950-OPEN-ENDED-FOR-MERGE.md`),
+  which no instrument could see until the harvester was fixed. All six collated under 7a″:
+  **zero new markers.** Four agree with their verse verbatim as far as Migne's `etc.`; one (0069A,
+  Sir 18:1 *vivit*/*vivet*) is the site the 0000–0003 stint had already declined by name; and 0100C
+  only looked like a divergence — *terra Naid* is absent from the Clementine, but Migne labels the
+  reading `LXX:` himself and the properly-closed lemma four words earlier agrees with Gn 4:16
+  exactly. ⚑ On a guillemet book an unclosed `«` often opens a quotation of ANOTHER VERSION rather
+  than a lemma, and what settles it is the closed lemma standing beside it.
 - **The TEI patch pass has not run**, and it is gated as above. Structural patches are safe on one
   witness and are the ones that matter most: the **dropped `non` at 0141B**, the dropped *sancti* and
   *Dei* at 0170C, and **twelve Hebrew words** Migne prints that our twin has lost.

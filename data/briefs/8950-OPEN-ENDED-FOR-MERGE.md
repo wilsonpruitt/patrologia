@@ -25,3 +25,40 @@ plate-confirmed `[var:]` at 0081A (Migne flattens the Vulgate's conditional ques
 assertion). If the second setting agrees with the first, that is a recension habit and not two
 accidents — the 0008–0011 stint found the same shape when its `⛑` site at 0104D turned out to
 recur unflagged at 0102B. That one is outside this list's range; check it at the merge.
+
+
+---
+
+## ✅ COLLATED AT THE MERGE, 2026-09-05 — **six sites, ZERO new markers**
+
+Each collated under 7a″ against `sources/vulgate/`, cited by book chapter:verse.
+
+| site | lemma proper | verdict |
+|---|---|---|
+| 0069A | *Qui vivit in aeternum, creavit omnia simul* | **Already collated.** Sir 18:1 reads *vivet*. This is the same site the 0000–0003 stint declined by name — one letter, and the README errata caveat governs. No new finding. |
+| 0079A | *Et factum est vespere et mane* | **Agrees**, Gn 1:23, verbatim as far as Migne's `etc.` |
+| 0088A | *Et custodiret* | **Agrees**, Gn 2:15 (*ut operaretur, et custodiret illum*) — a fragment, cut mid-phrase. |
+| 0088C | *Praecepitque ei dicens: Ex omni* | **Agrees**, Gn 2:16, verbatim as far as the `etc.` |
+| 0100C | *Habitavit in terra Naid* | **No marker — Migne labels it `LXX:` himself.** See below. |
+| 0101B | *Tubalcain* | **Agrees**, Gn 4:22. Single word. |
+
+### ⭐ Why 0100C looked like a divergence and is not
+
+The span reads *« Habitavit in terra Ναΐδ Naid, in Hebraeo ( nod ) dicitur…* and **Naid appears
+nowhere in the Clementine**, which at Gn 4:16 reads *habitavit profugus in terra ad orientalem
+plagam Eden*. That is the shape of a real `[var:]` — and it is not one, for two independent reasons:
+
+1. **The lemma proper is four words earlier and is properly closed**: *« Habitavit in terra ad
+   orientalem plagam Eden. »* — which agrees with Gn 4:16 exactly, and was in the inventory all
+   along. The open-ended span is Jerome's *comment on* that lemma, not a second lemma.
+2. **Migne labels the reading `LXX:` in his own type**, so the standing convention (no `[var:]` on a
+   version Migne announces) declines it by construction. His gloss then argues *against* taking
+   Naid as a place name at all — *Non est terra Naid, ut vulgus nostrum putat*.
+
+⚑ **The general lesson for a guillemet book:** an unclosed `«` frequently opens a quotation of
+another version, not a lemma. The recovered span is worth collating precisely because it can look
+like a divergence — and the thing that settles it is the properly-closed lemma standing beside it.
+The English at 0100C renders all of this correctly, keeps the `LXX:` label and the Greek Ναΐδ,
+mirrors the unclosed mark, and fires nothing.
+
+**This open item is CLOSED. No English was changed and no marker added.**
