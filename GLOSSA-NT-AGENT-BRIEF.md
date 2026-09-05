@@ -439,6 +439,17 @@ you should reuse them rather than re-derive them: `src/english/8970/cruces.md` �
 guillemet-lemma handling, the `*usque ad*` abridgment formula with **no verb ever supplied** to complete
 it, Tyconius vocabulary, and sigla with Migne's own internal spacing. Read that section first.
 
+⛔ **AND YOUR LEMMA BRIEF NOW COVERS THEM — it did not until 2026-09-05.** `lemma-inventory.mjs`
+was written for the gospel books, where the lemma is italic, and it harvested `*…*` only. On 8950
+(Genesis) that listed 600 second lemmata and Hebrew words while **missing all 1,207 quoted verse
+lemmata** — i.e. every span 7a″ exists to collate — and the ownership check fired 0 times in 600
+spans, which was the only symptom. Fixed: both span types are inventoried, and the file's header
+now says which book uses which. ⚑ **The convention above was settled for TRANSLATORS long before
+the instrument knew it** — this section is older than the bug. So do not assume a tool has been
+taught what this brief says: **count the marked spans in your own Latin against the total printed
+in your brief, and say the number in your report.** Two 9001 stints doing exactly that are the
+only reason a mis-split was ever caught.
+
 ## ⚑ ADDENDUM — carried from the 2026-08-23 batch (Baruch · Joshua · Wisdom · Galatians)
 
 Four findings from that batch's 17 plate reads. Each changes what you should raise and how.
