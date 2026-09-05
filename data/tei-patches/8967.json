@@ -1343,8 +1343,8 @@
   {
    "col": "1052C",
    "find": " secure\nexaltavit.</p>\n<p",
-   "replace": " secure\ncxaltaxit.</p>\n<p",
-   "why": "Class 1: the x for v cannot be produced by ink failing to reach the paper. Unlocks [sic: *exaltaxit*]. English edit owed."
+   "replace": " secure\nexaltaxit.</p>\n<p",
+   "why": "Class 1 — ⛔⛔ CORRECTED 2026-09-05, and the correction IS the rule. The plate images `cxaltaxit`, and I first patched that whole form in, which imports a broken sort into the edition. The stint's own copy-condition note had already declined the initial letter: the crossbar of a roman `e` has not inked, against a clean `e` in `etc.,` one line above. **COMPOSITOR ERRORS ARE MIGNE'S AND GET RESTORED; INK DAMAGE IS THIS COPY'S AND DOES NOT** — the `rossit` rule. The `x` for `v` IS in the first class (a crossing stroke cannot be produced by ink failing to reach the paper), so the word Migne SET is `exaltaxit`. Unlocks [sic: *exaltaxit*]. Found because an English-pass agent refused to fire a marker whose content its Latin twin did not carry."
   },
   {
    "col": "1058D",
@@ -1926,7 +1926,7 @@
    "col": "1078B",
    "find": "unde non sit liberum",
    "replace": "unde nos sit liberum",
-   "why": "Class 1: unlocks [cj: *nos*; read *non*]. ⛔ WILSON'S RULING OWED — following the plate here would put the opposite of Migne's own next clause on the page with nothing able to quarantine it, so the English follows the twin and says so."
+   "why": "Class 1: unlocks [cj: *nos*; read *non*]. ⛔ WILSON'S RULING OWED — following the plate here would put the opposite of Migne's own next clause on the page with nothing able to quarantine it, so the English follows the twin and says so. ⛔ THE MARKER IS DELIBERATELY NOT FIRED, and that is not an omission: following the plate here would put the opposite of Migne's own next clause on the page with nothing able to quarantine it. The English keeps the twin's negative and the divergence stands recorded. Wilson's ruling on the class is owed — this and 1029B are its two sites."
   },
   {
    "col": "1077A",
@@ -1999,6 +1999,18 @@
    "find": "conditus est, veritati\nsimilis factus est",
    "replace": "conditus est, veriteti\nsimlis factus est",
    "why": "Class 2 — TWO Migne defects in one clause, patched as ONE entry because they are adjacent across a line break and two separate patches would have NESTED, which is the pair that deadlocked the Band B queue. `veriteti` is the `iniquitetem` class exactly; `simlis` stands inside the Ps 143:4 lemma with the two dotted i of *Vanitati* on the same line as its control. Unlocks [sic: *veriteti*] and [sic: *simlis*]."
+  },
+  {
+   "col": "1059A",
+   "find": "In finem psalmus David.</hi> <note>(CASS.)</note>",
+   "replace": "In finem psalmus Ddvid.</hi> <note>(CASS.)</note>",
+   "why": "Class 1 — ⛔ REPORTED BY THE 0092 STINT AND NEVER BUILT in the first pass; my omission, found when an English-pass agent refused to fire the marker because the twin still read `David`. This is exactly the Band B failure class (two patches simply never made). Unlocks [sic: *Ddvid*]."
+  },
+  {
+   "col": "1060A",
+   "find": "potestatis, id est efficaciam",
+   "replace": "potestatis, in est efficaciam",
+   "why": "Class 1 — ⛔ REPORTED BY THE 0092 STINT AND NEVER BUILT in the first pass; same omission, same detector. Unlocks [cj: *in*; read *id*]."
   }
  ],
  "unread": "The scar sweep across all 106 chunks found 13 stray-space candidates; only this one was read at the plate. The other 12 are NOT claimed as drops — a stray space has ordinary causes too, and hebrew-recovery.md step 1 makes the scan the arbiter, not the scar. Three 'In Hebraeo' clauses also stand in this work, none with surviving Hebrew, and all three are unread candidates. Exposure here is small by the standards of an etymological work; it was worth a sweep and is not worth a campaign.",
@@ -2010,6 +2022,7 @@
  "bandC_pass": {
   "date": "2026-09-05",
   "applied": 134,
-  "note": "Band C, chunks 0077-0105. Built MECHANICALLY by scripts/patch-build.mjs from the six stint reports rather than extracted by hand — the Band B pass hand-extracted 149 patches and the blind polarity read then found seven defects the pass itself had introduced or left behind. Every reported site either resolves to exactly one location in its declared column or is REFUSED and recorded."
+  "note": "Band C, chunks 0077-0105. Built MECHANICALLY by scripts/patch-build.mjs from the six stint reports rather than extracted by hand — the Band B pass hand-extracted 149 patches and the blind polarity read then found seven defects the pass itself had introduced or left behind. Every reported site either resolves to exactly one location in its declared column or is REFUSED and recorded.",
+  "corrections": "2026-09-05: 1052C's replacement corrected from `cxaltaxit` to `exaltaxit` (the first form imported this copy's ink damage into the edition, against the rossit rule), and two sites the 0092 stint reported were found NEVER BUILT (1059A `Ddvid`, 1060A `in est`). All three were surfaced by English-pass agents REFUSING to fire a marker whose content the Latin twin did not carry — the refusal is the detector."
  }
 }
