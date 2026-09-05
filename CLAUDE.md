@@ -225,6 +225,24 @@ download. There is no longer a reason to leave a candidate unread because our co
 ⚠ **Never guess a conjecture.** An illegible note is recorded as illegible; a wrong one would
 enter our apparatus wearing Migne's own voice.
 
+**PL 114 second witness — Gallica `ark:/12148/bpt6k54939667`.** Calibrated 2026-09-05 while
+chunking 9002 (Matthew), against the printed corners at both ends of that work's range:
+**`f = (column + 1) / 2`** (f37 = cols 73/74, f89 = 177/178), against `(column + 11) / 2` for the
+on-disk archive PDF — **six leaves apart**. Same IIIF URL forms and User-Agent requirement as
+PL 113 above.
+
+⭐⭐ **AND ON PL 114 THE TWO COPIES ARE TWO PRINTINGS, NOT TWO PHOTOGRAPHS** — their line breaks
+diverge. ⛔ **In Matthew's opening range the archive copy is the worse witness by TWELVE TO ONE:**
+over eight pages it manufactured twelve letter-level readings Gallica refutes (`memorian`,
+`sa cramentum`, `Aminabad`, `Eclesiam`, `ei` for `et`, `ressuscitans`, `Solomonen`, `lector`,
+`dicat ur`, `Henoch`, and two more) against one it confirmed. **Mark, Luke and John were all
+translated and plate-read on the archive copy alone.** That is not a reason to re-open them (the
+no-retrofit rule stands) but it is the size of the doubt their apparatus carries, and it is why
+no new PL 114 work may fire a `[sic:]` on that copy by itself.
+⚑ **The converse, same range:** where the two copies differ and **both are clean**, that is a
+press variant and there is no one to accuse — @0073A `Bethehem`/`Bethlehem`. Crux only, no
+`[sic:]`, no patch. Same class as 8950's `Mititte`/`Mittite`.
+
 ## Session cadence
 
 Bonaventure convention: each session = one logical unit, commit as you go, and END by updating `next-session-resume.md` (current pointer, open flags, what's next). Memory (`patrologia.md`, NOW.md) stays high-level — repo files are authoritative.
