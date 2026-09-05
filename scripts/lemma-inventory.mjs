@@ -128,7 +128,7 @@ function roman(s) {
 // ---- walk the chunks --------------------------------------------------------
 const files = fs.readdirSync(latinDir).filter(f => /^\d+\.md$/.test(f)).sort();
 const rows = [];
-let unclosed = 0;
+let unclosed = 0, unclosedQuote = 0;
 
 for (const f of files) {
   const raw = fs.readFileSync(path.join(latinDir, f), 'utf8');
@@ -160,7 +160,12 @@ for (const f of files) {
   // Migne's psalter heads in 8967, all forms actually present on disk:
   //   PSALMUS PRIMUS. · PSALMUS L (no period) · PSAL. LXXVIII. · PSAMUS CXXIV. (his own
   //   dropped L) · PSALMUS LXVII. (cont.) · PSALMUS X.-- *Secundum Hebraeos.*
-  const capWord = /(?:CAPUT|PSALMUS|PSALMI|PSAMUS|PSAL\.)\s+(PRIMUM|PRIMUS|[IVXLCDM]+)/;
+  // ⛔ AND MIGNE ABBREVIATES. 8950 heads one division `CAP. XLIV.` among 50 `CAPUT` heads
+  // (2026-09-05), so `caput` stayed on 43 across the whole of Genesis 44 and the ownership
+  // test reported three of that chapter's lemmata as matching "only elsewhere" — at their
+  // own correct addresses, Gn 44:5/44:15/44:16. Fourth lapse of this regex and the first
+  // that fired LOUDLY rather than going quiet; a single odd head is enough to do it.
+  const capWord = /(?:CAPUT|CAP\.|PSALMUS|PSALMI|PSAMUS|PSAL\.)\s+(PRIMUM|PRIMUS|[IVXLCDM]+)/;
   const chapNum = w => (w === 'PRIMUM' || w === 'PRIMUS') ? 1 : roman(w);
   const fmCap = (fmBlock.match(new RegExp('heads: \\["' + capWord.source)) || [])[1];
   let caput = fmCap ? chapNum(fmCap) : null;
@@ -172,15 +177,48 @@ for (const f of files) {
     // track column anchors as we pass them, left to right, so a span gets the band it opens under
     const anchors = [...line.matchAll(/\[(\d{4}[A-D]?)\]/g)];
     const starPositions = [...line.matchAll(/\*/g)].map(m => m.index);
+    // ⛔⛔ THE LEMMA IS NOT ALWAYS ITALIC. Measured on 8950 (Liber Genesis, 2026-09-05):
+    // Migne sets this book's verse lemmata in GUILLEMETS — « Nec ultra vocabitur nomen tuum
+    // Abram. » — and italicizes only second lemmata, Hebrew words and the Historice/Allegorice
+    // tags. An italic-only harvest therefore inventoried 600 spans and MISSED ALL 1,207
+    // QUOTED LEMMATA, i.e. every span the 7a″ Vulgate collation exists to check. The ⚑
+    // ownership test went to 0 fires in 600 spans and that silence is the only symptom there
+    // was. Third instance of the same class in this file (CAPUT PRIMUM, then PSALMUS): a
+    // mechanical check that fails by GOING QUIET, never by erroring. Counts across the
+    // Glossa books on disk: 8950 = 1,277 « against 0 in 9000 (Luke) — so this is not a
+    // house style, it varies BY BOOK, and neither form may be assumed.
+    const quotePairs = [];
+    {
+      const opens = [...line.matchAll(/«/g)].map(m => m.index);
+      const closes = [...line.matchAll(/»/g)].map(m => m.index);
+      const n = Math.min(opens.length, closes.length);
+      for (let i = 0; i < n; i++) if (closes[i] > opens[i]) quotePairs.push([opens[i], closes[i]]);
+      if (opens.length !== closes.length) unclosedQuote++;
+    }
+    const spans = quotePairs.map(([a, b]) => ({ a, b }));
     for (let i = 0; i + 1 < starPositions.length; i += 2) {
       const a = starPositions[i], b = starPositions[i + 1];
+      // An italic INSIDE a quoted lemma is already listed as part of that lemma; listing it
+      // again would double-count a total the runbook makes load-bearing (stints count their
+      // own Latin against it). Measured on 8950: 2 of 1,207.
+      if (quotePairs.some(([qa, qb]) => a > qa && b < qb)) continue;
+      spans.push({ a, b });
+    }
+    spans.sort((x, y) => x.a - y.a);
+    for (const { a, b } of spans) {
       for (const an of anchors) if (an.index < a) band = an[1];
       const span = line.slice(a, b + 1);
       // A VERS. n.-- address immediately preceding the span is carried with it.
+      // ⚑ The address is not always a single numeral: Genesis prints ranges and lists
+      // (`VERS. 8, 9.--`, `VERS. 11-13.--`) and pads the gap to its lemma with Migne's
+      // ellipsis dots (`VERS. 1-4.-- . . . . . . « Ponamque foedus, »`). The single-numeral
+      // form matched only 228 of 8950's 487 addressed quoted lemmata — so on this book the
+      // narrow regex would have disarmed the ownership test for more than half of even the
+      // spans it did see. Trailing filler is dots and space ONLY, so it cannot swallow prose.
       const before = line.slice(cursor, a);
-      const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+\.--\s*)$/);
+      const vers = before.match(/(VERS\.\s*[IVXLCDM\d]+(?:\s*[-,]\s*[IVXLCDM\d]+)*\.--[\s.]*)$/);
       cursor = b + 1;
-      rows.push({ band, caput, vers: vers ? vers[1].trim() : '', span });
+      rows.push({ band, caput, vers: vers ? vers[1].trim().replace(/[\s.]+$/, '') : '', span });
     }
     // ⛔⛔ ADVANCE THE BAND PAST A LINE THAT HAS ANCHORS BUT NO SPANS. The loop above only
     // updates `band` from anchors standing before a span ON THE SAME LINE, so a line carrying
@@ -207,7 +245,11 @@ out.push(`**${manifest.title}** · PL ${manifest.volume} · cols ${manifest.colF
 out.push('');
 out.push('Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**');
 out.push('');
-out.push('Every italic span in the Latin of this work, in order, with its column band. Spans opening a');
+out.push('Every marked span in the Latin of this work, in order, with its column band — **both the');
+out.push('italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse');
+out.push('lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets');
+out.push('its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes');
+out.push('only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a');
 out.push('`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up');
 out.push('mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**');
 out.push('');
@@ -293,8 +335,11 @@ for (const r of rows) {
 out.push('');
 out.push(`## Totals — ${printed} spans: ${hits} ✓ · ${elsewhere} ⚑ · ${misses} ⚠ · ${singles} single-word`);
 if (unclosed) out.push(`\n⚠ ${unclosed} line(s) carry an odd number of \`*\` — an italic span may cross a line. Check by eye.`);
+// A « with no » on its line is a quoted lemma running past a paragraph break, and it is NOT
+// inventoried — it is the one span class this file can lose silently, so it is reported.
+if (unclosedQuote) out.push(`\n⚠ ${unclosedQuote} line(s) carry unbalanced \`«\`/\`»\` — a quoted lemma runs past the line and is NOT in the list above. Check by eye.`);
 
 fs.mkdirSync('data/briefs', { recursive: true });
 const dest = `data/briefs/${idno}-lemmata.txt`;
 fs.writeFileSync(dest, out.join('\n') + '\n');
-console.log(`${dest} — ${printed} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}`);
+console.log(`${dest} — ${printed} spans: ${hits} ✓ / ${elsewhere} ⚑ / ${misses} ⚠ / ${singles} single${unclosed ? ` · ⚠ ${unclosed} unclosed-star line(s)` : ''}${unclosedQuote ? ` · ⚠ ${unclosedQuote} unbalanced-guillemet line(s)` : ''}`);
