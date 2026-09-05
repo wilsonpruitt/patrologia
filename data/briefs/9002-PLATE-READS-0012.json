@@ -1,0 +1,86 @@
+{
+  "note": "STINT-SCOPED plate reads for 9002 (Glossa ordinaria, Ev. sec. Matthaeum), chunks 0012-0015, cols 0096C-0107B. Written by the 0012-0015 translation stint per launch-brief §1. NOT to be written into data/plate-reads.json by this stint -- peers run concurrently; the orchestrator merges.",
+  "work": "9002",
+  "series": "pl",
+  "volume": 114,
+  "stint": "0012-0015",
+  "range": "0096C-0107B",
+  "date": "2026-09-05",
+  "witnesses": {
+    "archive": {
+      "scan": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "calibration": "corner numbers read FIRST on every page; p.53 read 95/96, p.54 read 97/98, p.55 read 99/100, p.56 read 101/102, p.57 read 103/104, p.58 read 105/106, p.59 read 107/108 -- all as the map predicts",
+      "render": "pdftoppm -f N -l N -r 300 -png (600 dpi on p.54 for the fiili/filii letterforms)",
+      "pages": "53-59"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "page_map": "f = (column + 1) / 2",
+      "calibration": "corner numbers or first-line text checked FIRST on every leaf; f50 read 99/100, f52 read 103/104, f54 read 107/108, and f48/f49/f51/f53 matched their archive twins line for line",
+      "endpoint": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/full/0/native.jpg (User-Agent required; f<N>/<x,y,w,h>/full/0/native.jpg for a native-resolution crop; HTTP 429 on bursts -- space the requests by ~20s after the first five)",
+      "leaves": "f48-f54"
+    }
+  },
+  "headline": "EVERY column of this range was read on the archive copy, and every candidate raised there was then checked on Gallica. SIXTEEN candidates raised; FIFTEEN refuted by the second witness; ONE confirmed as our twin's error. ONE [sic:] is fireable (@0097A nomo, a non-word on BOTH copies). One [cj:] and eleven [var:] stand on columns read on both witnesses. The handed-over lead @0099B homnibus is SETTLED as a press variant: the archive copy prints homnibus, Gallica prints hominibus, our twin follows Gallica -- no marker, no patch.",
+  "structural_finding": "THE ARCHIVE COPY OF pp.53-59 IS OVER-INKED AND IS THE WORSE WITNESS BY 11:1 IN THIS RANGE. That independently reproduces the 12:1 (pp.37-44) and 20:1 (pp.45-53) figures measured by the two earlier stints, on a third, non-overlapping seven-page stretch, by a reader who had not seen those files when the reads were made. Classes the archive manufactured here: filled counters (c->s in poscimus->possimus, o->e in cibo->cibe), lost letters (r in perturbant->pertubant, s in exsistas->existas), added strokes (Quidquid->Quiquid read as a lost d, inveniet->invenient), lost tittles (hominibus->homnibus, filius->fiilius -- in OPPOSITE directions on the same two pages), tight setting read as fusion (in via->invia) or as division (etsi->et si), lower-cased capitals (Christus->christus, Pater->pater), an added period (VERS 20.->VERS. 20.), a comma read for a full stop with the following capital lower-cased (sententia. Supra -> sententia, supra), and A SPURIOUS RAISED ASTERISK after 'diebus abstinentiae' @0103C which Gallica prints as a plain colon. ⛔ That last one is the most instructive: it is Pattern 19's asterisk foot-note key exactly, the foot of the page carries nothing, and a [cn: * | ...] plus its [nt:] twin were one HTTP request from being invented out of ink. ⚑ AND THE TWO COPIES ARE TWO PRINTINGS, NOT TWO PHOTOGRAPHS: at @0099B the archive sets 'haec sententia, supra dixerat' with a LOWER-CASE s where Gallica sets 'haec sententia. Supra dixerat' with a CAPITAL. Over-inking can close a counter; it cannot turn S into s.",
+  "foot_of_page_apparatus": "The feet of pp.53-59 were inspected on both copies, full page width. NO foot-of-page apparatus of either layer (numbered conjectures or asterisk cross-references) anywhere in cols 0096-0108. The only mark below the text block in the range is a printer's signature '4' under col 0106 (archive p.58 / gallica f53). This is a CHECKED ZERO for cols 0096-0108 and is offered as such.",
+  "reads": [
+    {
+      "pages": "archive p.53 / gallica f48",
+      "cols": "0095A-0096D",
+      "in_range": "0096C-0096D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "Two archive candidates refuted at Gallica: @0096D '(Math. XI)' (Gallica: '(Matth. XI)', matching our twin) and '(Psal VII)' without the period (Gallica: '(Psal. VII)'). CONFIRMED on both witnesses and marked [var:]: @0096D 'Et maxillam dedi percutienti (Thren. III)' against Clementine Lam 3:30 'Dabit percutienti se maxillam'. CONFIRMED on both and NOT marked: @0096D 'oculum pro oculo, dentem pro dente' without Mt 5:38's 'et' -- this is the Lv 24:20 / Dt 19:21 form, and the gloss is quoting the law, not the evangelist."
+    },
+    {
+      "pages": "archive p.54 / gallica f49",
+      "cols": "0097A-0098D",
+      "in_range": "0097A-0098C",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "ONE CONFIRMED DEFECT IN MIGNE'S TYPE: @0097A 'nomo fidelis' for 'homo fidelis'. Archive at 300 dpi reads 'nomo' unambiguously (initial n, no ascender); Gallica's initial letter is blotted into a closed bowl reading n or o but CARRIES NO ASCENDER AND CANNOT BE h. Our twin carries 'nomo' verbatim, so [sic: *nomo*] is fireable and is fired. FOUR archive candidates refuted at Gallica: @0097A 'victor existas' (Gallica: 'exsistas'), @0097B 'Da ei,' with a comma (Gallica: 'Da ei.'), @0098A 'cum et si' (Gallica: 'cum etsi'), and the whole-word question at @0097D. OUR TWIN'S ERROR, PROPOSED AS A PATCH: @0097D our twin reads 'Ut sitis fiili'; the archive at 600 dpi puts the tall l in third position (f-i-l-i-i) and Gallica reads fili/filii, NEITHER showing our twin's form. CONFIRMED on both and marked [var:]: @0098B 'Sol justitiae non illuxit nobis (Sap. V)' against Sap 5:6 'justitiae lumen non luxit nobis', and 'Super unam civitatem pluit, et non super alteram (Amos. IV)' against Am 4:7."
+    },
+    {
+      "pages": "archive p.55 / gallica f50",
+      "cols": "0099A-0100D",
+      "in_range": "0099A-0100D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "THE HANDED-OVER LEAD, SETTLED. @0099B the archive prints 'coram homnibus' -- real at 300 dpi, an m followed directly by an n with no dotted i, against dotted i's in 'stitiam' and 'faciatis' on the same line, so NOT a 150 dpi artefact. Gallica f50 prints 'coram hominibus' with the i plainly there, matching our twin. TWO LINES ABOVE, on the same two lines, the archive prints 'haec sententia, supra dixerat' and Gallica 'haec sententia. Supra dixerat' -- a capital/lower-case difference no ink can produce. VERDICT: two printings of PL 114, not two photographs; our twin follows the Gallica printing. NO [sic:] (needs two witnesses, has one) and NO patch (our Latin is correct). One further archive candidate refuted: @0100C 'qui fiilius est' (Gallica: 'filius', matching our twin) -- note this is the OPPOSITE direction from the fiili/filii site on the preceding page. CONFIRMED on both and marked [var:]: @0100C 'Filios genui et exaltavi (Isa. I)' against Is 1:2 'Filios enutrivi, et exaltavi'. CONFIRMED and NOT marked: @0100C 'Vado ad Patrem meum (Joan. VII)', keyed to a chapter containing none of these words -- Migne's locator, passed through under convention 4."
+    },
+    {
+      "pages": "archive p.56 / gallica f51",
+      "cols": "0101A-0102D",
+      "in_range": "0101A-0102C",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "Two archive candidates refuted at Gallica: @0101B 'jure possimus' (Gallica: 'poscimus', matching our twin -- the c is filled with ink) and @0102A 'Quia christus' lower-case (Gallica: 'Christus'). CONFIRMED on both and marked [var:]: @0101B 'Percipite regnum quod vobis paratum (Matth. XXV)' against Mt 25:34 'possidete paratum vobis regnum'; @0102A 'Hic est panis vivus qui de coelo descendit (Joan. VI)' against Jo 6:51 'Ego sum panis vivus, qui de caelo descendi' (the speaker changes); @0102C 'Cum oratis, remittite si quid habetis adversus aliquem: aliter enim Pater vester non dimittet vobis peccata vestra' against Mc 11:25, where a positive purpose clause becomes a negative consequence. CONFIRMED on both and NOT marked: @0100D 'primus' (nominative singular in a first-person-plural clause -- real word, awkward not false); @0102C 'veniam promittit' twice in one sentence (not a doubling: each clause has its own dative)."
+    },
+    {
+      "pages": "archive p.57 / gallica f52",
+      "cols": "0103A-0104D",
+      "in_range": "0103A-0104D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "THE SPURIOUS ASTERISK. @0103C the archive prints what reads as a raised * after 'diebus abstinentiae', immediately before the colon -- Pattern 19's asterisk key exactly -- and the foot of the page carries nothing, which is the shape of a lost note. Gallica prints 'abstinentiae : ut' with a plain colon and no asterisk. NO [cn: * | ...], no [nt:]. Two further archive candidates refuted: @0104A 'VERS. 20.' with a period after VERS (Gallica: 'VERS 20.', matching our twin -- a verse address, and the class 8950 proved cannot be corrected on one witness); @0103D 'in novo Testamento' lower-case (Gallica: 'Novo'). CONFIRMED on both and marked [var:]: @0104A lemma 'Thesaurizare autem' against Mt 6:20 'Thesaurizate autem' -- an imperative printed as an infinitive in a verse-lemma with its own VERS. address; this was NOT flagged by the pre-scan and is the find in this range I would most want a second opinion on. CONFIRMED on both and NOT marked: @0104A 'charitatem amplectantes' (not a form of amplector; treated as an ordinary medieval a/e participle spelling under Pattern 9 -- the strongest non-word candidate in the range that was not fired on); @0104B 'Si etenim illa in genere suo munda tamen sordescit' (verbless si-clause, rendered as an ellipsis)."
+    },
+    {
+      "pages": "archive p.58 / gallica f53",
+      "cols": "0105A-0106D",
+      "in_range": "0105A-0106D",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "OUR TWIN'S ERROR, CONFIRMED AND FILED AS A PATCH: @0105C our twin prints 'eleborata' (no Latin word); BOTH copies print 'elaborata' (Gallica line-broken as ela-borata). The English renders what Migne printed. Five archive candidates refuted at Gallica: @0105A 'Quiquid facis' twice (Gallica: 'Quidquid' both times); @0105D 'Animalitas cibe alitur' (Gallica: 'cibo'); @0105D 'invenient eam' (Gallica: 'inveniet'); @0106A 'Et pater vester' lower-case (Gallica: 'Pater'); @0106D 'haec invia sua' (Gallica: 'in via sua', three words). CONFIRMED on both and marked [var:]: @0106B lemma 'Et de vestimentis' against Mt 6:28 'Et de vestimento' -- the launch brief's ⚑ candidate, adjudicated as a real divergence; @0106B lemma 'Si enim fenum agri' against Mt 6:30 'Si autem foenum agri' (connective reversed); @0106C 'Exaudiet me cras justitia mea (Gen. XXX)' against Gn 30:33 'Respondebitque mihi cras justitia mea'. CONFIRMED and NOT marked: @0106A 'Qui sunt hi' against Is 60:8 'Qui sunt isti' -- real but immaterial; @0106B 'fenum' for 'foenum' -- orthography. Printer's signature '4' below the right column on both copies; no notes."
+    },
+    {
+      "pages": "archive p.59 / gallica f54",
+      "cols": "0107A-0108D",
+      "in_range": "0107A-0107B",
+      "witnesses": ["archive", "gallica"],
+      "corner_numbers_checked": true,
+      "found": "One archive candidate refuted at Gallica: @0107A 'quae mentem pertubant' (Gallica: 'perturbant', matching our twin). CONFIRMED ON BOTH WITNESSES AND MARKED [cj:]: @0107B 'non debet germinari malitia Dei' -- both copies print 'Dei'. The lemma being glossed is 'Sufficit', i.e. Mt 6:34 'sufficit DIEI malitia sua', and the preceding lemma is 'Dies'; the conjecture diei is printed twice on the same page. CONFIRMED on both and marked [var:]: @0107B 'Nocte ac die operabamur ne quem gravaremus (I Thes. II)' against 1Thes 2:9 'nocte ac die operantes, ne quem vestrum gravaremus'. CONFIRMED on both and NOT marked: @0107B 'cura praesenti mentes obruitur' -- plural subject with singular verb; declined because English has no exponent for the concord and the plural noun IS carried into the English ('minds'), so unlike 11632 @0304A nothing is hidden."
+    }
+  ]
+}

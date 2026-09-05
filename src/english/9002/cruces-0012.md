@@ -6,7 +6,7 @@ four; column anchors (44), `[n:]` notes (30), italic spans (161), `VERS.` addres
 paragraph counts are all 1:1 with the Latin twins, and **question marks, colons and semicolons
 match paragraph by paragraph** — a finer partition than the column bands (Test 3).
 
-**Apparatus fired: 1 `[sic:]` · 11 `[var:]` · 1 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
+**Apparatus fired: 1 `[sic:]` · 12 `[var:]` · 1 `[cj:]` · 0 `[d:]` · 0 `[ed:]` · 0 `[nt:]`.**
 Guillemets: zero in either language, either direction.
 
 **Plates read: 7 pages / 12 columns on BOTH witnesses** — archive `patrologiaecurs06saingoog`
@@ -195,7 +195,7 @@ because 18a's declines are **mood, voice, number and person anomalies that merel
 construe**, and this is none of those: it is a noun substitution that construes perfectly and
 says something false, which is the ✅ side of the list (10703 @1126B, *Oro* for *Pro*).
 
-### 3c. The eleven `[var:]`, each with the printed reading and the Clementine's
+### 3c. The twelve `[var:]`, each with the printed reading and the Clementine's
 
 Every one is a **quoted scripture** (the class that stands 120 times in 121 across four Glossa
 books), and every one was read on **both** plates before firing.
@@ -226,7 +226,7 @@ for chunks 0012–0015. Counting the marked spans in my own Latin, **paragraph-b
 are the same number and cannot have cancelled. The file's first entry (`[0096C] *A malo est.*`)
 and last (`[0107B] *Sufficit.*`) are the first and last spans of my Latin. **The cut is right.**
 
-Of the 161: **13 diverge from the Clementine materially and are marked `[var:]` (§3c) —
+Of the 161: **12 diverge from the Clementine materially and are marked `[var:]` (§3c) —
 one of them, 0104A, was not flagged by the pre-scan.** The rest are set out below by class.
 ⛔ Nothing on this list is a report of a search; every span was read against
 `sources/vulgate/clementine-flat.txt` by hand.
@@ -384,6 +384,13 @@ patch lands, and the patch file says so.
   doubling, and this is not one — each clause has its own dative (*peccantibus in se* / *nobis
   et … aliis*) and each says something the other does not. Both copies print both. Recorded
   because a later reader will see the repetition and wonder.
+- **@0102D** *Et ne nos, etc., deserens in tentatione sinas vinci* — the `ne` that governs
+  *sinas vinci* is printed **inside the quoted lemma**, and the clause it governs is Migne's own
+  prose. A first draft rendered it "deserting us in temptation, suffer us to be overcome", which
+  an English reader parses as a positive command: **7a′ exactly — quarantining a fragment does
+  not quarantine what it governs.** The English now reads "**do not** suffer us to be overcome".
+  Supplying that negative is not an emendation; it renders the `ne` Migne prints, which was
+  being dropped.
 - **@0103B** *Demoliri est quasi dissipare* — a definition of *demoliri* inside a gloss whose
   lemma is *Exterminant*, with no *demolitur* anywhere near it (Mt 6:19–20's *demolitur* is
   eleven lines below, in a different verse). Rendered as printed; the abridgment has plainly
@@ -430,6 +437,13 @@ patch lands, and the patch file says so.
   can carry — is lost. Marking it would put a `[sic:]` on a sound word to record a fact the
   facing Latin column already shows.
 - **@0107B** *malitia Dei* — §3b, the one `[cj:]`.
+
+### ⚑ The ship test, and what the gate will say
+
+`plate-gate.mjs` will flag all fourteen markers in this range until the orchestrator merges
+`data/briefs/9002-PLATE-READS-0012.json` into `data/plate-reads.json` — every one of them stands
+on a column read on **both** witnesses, and none was written before that read was made. This
+stint did **not** touch the shared file (peers run concurrently).
 
 ---
 
