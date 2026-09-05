@@ -74,6 +74,41 @@ run('rendered markers — nothing shipped as raw [brackets]', () => {
   return 'clean across the built pages';
 });
 
+// 3a. Every index page is at least as new as the newest work page. ⛔ THIS CHECK EXISTS
+//     BECAUSE PREFLIGHT PASSED 6 OF 6 OVER A HALF-BUILT SITE. Shipping 8950 on 2026-09-05
+//     meant remembering nine builders; three were run, the deploy went out, and the work was
+//     live and correct at its own URL while being absent from /glossa. Check 4 below could not
+//     see it — it asks whether a built page EXISTS, never whether the indexes that link to it
+//     were regenerated — and no other check looks at an index at all. It was caught by grepping
+//     the DEPLOYED html for the new work's slug, which is not a thing anyone remembers to do.
+//     ⚑ mtime is the right instrument here and only here: preflight runs on a working tree
+//     immediately after building, so a stale index really is an older file. Fix by running
+//     `node scripts/build-site.mjs`, which is what this check is really asking for.
+run('index freshness — no index older than the newest work page', () => {
+  const newest = (dir, depth = 0) => {
+    let t = 0;
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      const q = path.join(dir, e.name);
+      if (e.isDirectory() && depth < 3) t = Math.max(t, newest(q, depth + 1));
+      else if (e.name === 'index.html') t = Math.max(t, fs.statSync(q).mtimeMs);
+    }
+    return t;
+  };
+  const worksDir = path.join(ROOT, 'site/pl');
+  if (!fs.existsSync(worksDir)) return 'no built work pages yet';
+  const newestWork = newest(worksDir);
+  const INDEXES = ['index.html', 'glossa/index.html', 'authors/index.html', 'scripture/index.html',
+                   'latina/index.html', 'graeca/index.html', 'queue/index.html', 'sources/index.html'];
+  const stale = INDEXES.filter(rel => {
+    const q = path.join(ROOT, 'site', rel);
+    return fs.existsSync(q) && fs.statSync(q).mtimeMs < newestWork - 1000;
+  });
+  if (stale.length) throw new Error(
+    `these indexes are older than the newest work page and may not list it:\n  ${stale.join('\n  ')}\n` +
+    `  fix: node scripts/build-site.mjs`);
+  return `all ${INDEXES.length} indexes current`;
+});
+
 // 4. Every englished work actually has a built page. Catches a work marked `ours`
 //    whose page was never generated — invisible on the landing page, which lists
 //    RECENT explicitly rather than deriving it.
