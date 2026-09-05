@@ -450,7 +450,43 @@ taught what this brief says: **count the marked spans in your own Latin against 
 in your brief, and say the number in your report.** Two 9001 stints doing exactly that are the
 only reason a mis-split was ever caught.
 
-## ⛔⛔ THE DIGITIZATION CORRECTS MIGNE — measured on 8950, 2026-09-05
+## ⛔⛔ RETRACTED IN PART, SAME DAY — read this box before the section under it
+
+**The section below was written on 2026-09-05 from ONE witness, and later that day two stints
+reading the SAME work on TWO witnesses refuted most of a comparable set.** The 0036–0041 stint found
+the archive.org copy's pp. 85–88 over-inked, manufacturing **12 letter-level divergences, all 12
+refuted by Gallica**; the 0042–0046 stint then re-checked its own calls across pp. 92–96 and found
+**13 of 15 refuted, with our TEI twin right every time** — and **four of its thirteen had already
+been written up as findings about the digitization.** A false discovery with a thesis, which
+survived its author's own audit and died on five HTTP fetches.
+
+⛔ **So every letter-level and digit-level claim in the section below is UNCONFIRMED**, including the
+nine "silent corrections" and the four normalized verse addresses. They were all read on the archive
+copy alone. They are not withdrawn — they may well be real — but they may not be cited, and no
+`[sic:]` may rest on one, until a second witness is consulted.
+
+⭐ **THE RULE THAT SURVIVES, AND IT IS ABOUT DIRECTION.** Over-inking can turn one letter into
+another, blot a `9` into a `6`, and merge or hide a mark. **It cannot put on the page a word that is
+not there.** So:
+
+- **ROBUST on one witness — the plate has MORE than our twin.** A dropped `non` (0141B), dropped
+  words (`sancti`, `Dei` at 0170C), lost Hebrew (twelve words in this work), a lemma our twin
+  truncates. Ink cannot create these, so a single good read settles them, and these are the
+  patches that matter most anyway.
+- **NOT ROBUST — the plate shows a DIFFERENT letter, digit, or mark.** Every "silent correction"
+  below, every verse-address range, every supplied or dropped quotation mark. **One HTTP fetch
+  settles it: Gallica ark `bpt6k5505319w`, `f = (column + 1) / 2`.**
+
+⚑ And a disagreement between copies is not automatically the archive's fault: at 8950 @0171D
+Gallica prints `Mititte` and the archive `Mittite`, a letter **order** no ink can produce — **two
+printings, not two photographs.**
+
+⭐ The honest summary of what this work measured: **a `[sic:]` needs two witnesses, a dropped word
+needs one.** The two `[sic:]` that stand in 8950 are exactly the two that met that bar —
+`pinguedidine` @0152A (in the twin verbatim as well as on the plate) and `trangressionis` @0169B
+(read on both copies).
+
+## ⛔⛔ THE DIGITIZATION CORRECTS MIGNE — measured on 8950, 2026-09-05 (SINGLE WITNESS — see the box above)
 
 Everyone knows Corpus Corporum *corrupts* the plate; 9003 measured it at ~3 sites per page. **This
 is the other direction, and it is worse, because it leaves nothing to notice.** The 0012–0018

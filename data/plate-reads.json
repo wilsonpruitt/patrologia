@@ -5987,6 +5987,50 @@
      "gallica_f": 87,
      "source": "archive 300 dpi by column-third + 600 dpi crops at two sites; Gallica f87 whole page + native crops at two sites; corner numbers 173/174 read first on both",
      "found": "no foot-of-page apparatus. Plate reads seorsum @0173A on both witnesses where our twin prints scorsum (OURS). CAP. XLIV. is abbreviated on both plates and is reproduced. sedjoco @0173C: the archive copy shows a clear space (sed joco), Gallica shows the letters touching — read as OUR lost space, patch only, no [sic:]. Cols 0173D-0174D are beyond this stint's range and were read only in passing."
+    },
+    {
+     "from": "0175A",
+     "to": "0176D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 93,
+     "gallica_leaf": 88,
+     "witnesses": 2,
+     "source": "archive copy, both columns at 400 dpi + 1200 dpi crop at 0175C, corner numbers 175/176 read first; all calls re-checked on Gallica f88",
+     "found": "foot-of-page apparatus: CHECKED ZERO. CONFIRMED on both witnesses: 'Quaeritur, cum Joseph frumenta colligeret' @0175C — OUR TWIN is the corrupt witness, reading 'eum'; the English renders the plate. REFUTED by Gallica: 'iuvaluisset' @0175C is 'invaluisset'; 'capnt' @0176D is 'caput'; 'Dei deditus' @0176D is 'Deo deditus'; the two apparently-absent 'etc.' before *usque ad* @0175A and @0176D are BOTH PRESENT on Gallica; the unclosed quotation @0176C-D is closed on Gallica."
+    },
+    {
+     "from": "0177A",
+     "to": "0178D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 94,
+     "gallica_leaf": 89,
+     "witnesses": 2,
+     "source": "archive copy, both columns at 400 dpi + 3x-4x crops at four sites, corner numbers 177/178 read first; letter-level calls re-checked on Gallica f89",
+     "found": "foot-of-page apparatus: CHECKED ZERO. CONFIRMED on both witnesses: @0178D the plate prints 'rex alienigena fuit Herodes' with NO period after 'fuit' — our twin's period breaks the sentence and changes the sense, and the English follows the plate. Migne's Hebrew after 'mittha' @0177B is present on the archive and DROPPED by our twin (structural; no [ed:], the sentence stays sound). REFUTED by Gallica: 'allis verbis' @0178B is 'aliis verbis'; ⭐ 'VERS. — « Non auferetur sceptrum »' @0178D DOES carry its number, 'VERS. 10.', which the archive's ink had swallowed entirely — the 0036-0041 stint's blotted-verse-address class, one step worse."
+    },
+    {
+     "from": "0179A",
+     "to": "0180D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 95,
+     "gallica_leaf": 90,
+     "witnesses": 1,
+     "source": "archive copy, both columns at 400 dpi, corner numbers 179/180 read first; Gallica f90 fetched and the leaf map confirmed, but no call on this page needed adjudicating",
+     "found": "foot-of-page apparatus: CHECKED ZERO. No plate/twin WORD divergence found in either column — the only clean pair of columns in the range, and the only page here with nothing to adjudicate. Mark-level observations (a stray period in 'candidiores.', an unclosed Jer. XVI quotation, a ')' for a '»' after 'omnem carnem', a missing opening '«' before 'Appositusque') are ARCHIVE-ONLY and, after this stint's refutation rate, are not to be trusted or patched without a second witness; the English follows the twin at every one."
+    },
+    {
+     "from": "0181A",
+     "to": "0182D",
+     "depth": "full",
+     "date": "2026-09-05",
+     "page": 96,
+     "gallica_leaf": 91,
+     "witnesses": 2,
+     "source": "archive copy, both columns at 400 dpi + 3x-4x crops at three sites, corner numbers 181/182 read first on both copies. THIS IS THE LAST PAGE OF THE WORK; its foot had been sampled before, its running text had not.",
+     "found": "⚑ foot-of-page apparatus: CHECKED ZERO — the text closes at 0182D with « Adimplebis me laetitia cum vultu tuo. » and BELOW IT stands a single short centred rule, set under the gutter and about a third of a column wide, and NOTHING ELSE: no numbered or letter-keyed note, no catchword, no signature, no colophon, no FINIS, no head of a following work; the lower third of the page is blank. CONFIRMED: the UNCLOSED '«' at 0181A (the Jon. 3:4 quotation, which runs on four sentences and is never closed) is MIGNE'S, and our twin reproduces the plate exactly, unbalanced pair included. 'Nos quosque moraliter instruit' @0182C is Migne's and our twin carries it verbatim — one of the few defective-looking forms in this book the twin did NOT tidy. REFUTED by Gallica: 'quia traditus est' @0181B is 'qui traditus est'; 'Pater maus' @0182A is 'Pater meus'; 'Tanto ergo luctus' @0182B is 'Tanto ergo luctu'."
     }
    ],
    "deliberately_not_recorded": "⛔ SEVEN MORE PAGES OF THIS WORK WERE PUT ON SCREEN ON 2026-09-05 (PDF 53, 60, 67, 74, 82, 89, 96) AND ARE NOT RECORDED HERE, ON PURPOSE. Those were the conjecture-layer spot check and only the HEAD STRIP AND FOOT ZONE were read — enough to see that a page foot is blank, which is what coverage.json records, and NOT enough to license a [sic:] or a [var:] on their columns. Both depths in this file mean a human eye met the running text; a foot-only look is neither. Recording them would hand the gate a pass it was never given. Same principle as 8988 col 0636A above: a read that cannot settle the words is not a read for this purpose.",
@@ -5996,7 +6040,8 @@
     "data/briefs/8950-PLATE-READS-0012.json — the 0012-0018 stint's SECOND pass, sent back to read pp.58-65 (cols 0105-0120) after collating 26 divergences it could not fire. depth full, corners first on all eight. Merged 2026-09-05.",
     "data/briefs/8950-PLATE-READS-0024.json — the 0024-0030 stint read pp.72-79 (cols 0133-0148) as it translated, corners first on all eight, 500-900 dpi at 22 sites, foot a checked zero throughout. Merged 2026-09-05.",
     "data/briefs/8950-PLATE-READS-0031.json — the 0031-0035 stint read pp.79-85 (cols 0147-0160), corners first, 600 dpi at 20 sites and one at 1200. Foot a checked zero on all seven, all three key shapes. Merged 2026-09-05 after the stint was resumed from a session-limit death.",
-    "data/briefs/8950-PLATE-READS-0036.json — the 0036-0041 stint read pp.85-92 on the archive.org copy AND ff.80-87 on GALLICA, corners first on all sixteen. Merged 2026-09-05."
+    "data/briefs/8950-PLATE-READS-0036.json — the 0036-0041 stint read pp.85-92 on the archive.org copy AND ff.80-87 on GALLICA, corners first on all sixteen. Merged 2026-09-05.",
+    "data/briefs/8950-PLATE-READS-0042.json — the 0042-0046 stint read pp.92-96 (cols 0173-0182, the work's end) on BOTH witnesses, corners first, 400 and 1200 dpi. Merged 2026-09-05."
    ]
   }
  }
