@@ -511,27 +511,41 @@ independently by another stint. **So a balanced pair in our Latin is not evidenc
 balanced, and an unbalanced one is not evidence he was unbalanced.** Never adopt a policy about an
 unpaired mark without looking at the column.
 
-### ⭐⭐ IT ALSO NORMALIZES MIGNE'S VERSE ADDRESSES, AND THAT ONE IS SYSTEMATIC
+### ⛔⛔ WITHDRAWN — "IT ALSO NORMALIZES MIGNE'S VERSE ADDRESSES" WAS INK, ALL OF IT
 
-Not a stray slip like `es`→`est`. Four stints of 8950 hit it independently and the direction never
-varies: **Migne's `VERS.` ranges overlap or skip, and the twin prints the tidy partition.**
+**This section claimed a systematic class and the class does not exist.** Four stints of 8950 hit it
+independently, the direction never varied, and it was checked at 46 addresses with 4 divergent — and
+**every one of the five sites was refuted at Gallica**, digit for digit:
 
-    plate  VERS. 5-13   16-19   19-24   (0150B/C/D)     twin  6-13   15-19   20-24
-    plate  VERS. 11-19  (0155D)                         twin  11-16
-    plate  VERS. 27-19  (0127D)                         twin  17-19
-    plate  VERS 13.     (0145A)                         twin  VERS. 12.--
+    claimed plate  VERS. 27-19  (0127D)   →  Gallica prints  VERS. 17-19
+    claimed plate  VERS. 5-13   (0150B)   →  Gallica prints  6-13
+    claimed plate  VERS. 16-19  (0150C)   →  Gallica prints  15-19
+    claimed plate  VERS. 19-24  (0150D)   →  Gallica prints  20-24
+    claimed plate  VERS. 11-19  (0155D)   →  Gallica prints  11-16
 
-Measured: the 0031–0035 stint checked **46 addresses and found 4 divergent**. ⛔ **The English
-renders the plate** — a verse number out of sequence is Migne's, and `[sic:]` is impossible because
-the accused text is not in our Latin.
+Over-inking blotted 6→5, 15→16, 20→19, 16→19 and filled the counter of a `1` to make a `2`. On
+Gallica's f75 the sequence runs `3-5 · 6-13 · 14 · 15-19 · 20-24` — **the tidy, non-overlapping one
+our twin has.** Our twin was right at every site.
 
-⚑ **You cannot detect this from our Latin, because tidiness is the symptom.** An overlapping or
-skipping range is the evidence, and only the plate has one; our file looks correct precisely where
-it has been altered. So on a lemma-and-gloss book, **check the `VERS.` addresses against the plate
-while you are reading it for anything else** — they are cheap to check once the leaf is open, and
-nothing downstream will ever flag them. Nothing machine-readable consumes a `VERS.` number (the
-resolver keys on columns, `/scripture` on the `[n:]` citations), so this is faithfulness at the
-sites you happen to open, which is exactly why it has to be done while the page is up.
+⚑⚑ **AND THE FAILURE MODE IS THE ONE THIS BRIEF EXISTS TO TEACH, SO READ IT TWICE.** The evidence
+for the class was *the uniformity of its direction* — Migne's ranges always overlapping, ours always
+tidy. That looked like a printer's habit and it is exactly what **a systematic scanning artefact**
+looks like: one copy, one press run, one kind of ink spread, repeated down the volume. **Four
+independent stints corroborating each other did not make it true; they were all reading the same
+photograph.** Convergence across readers is not independence when the witness is shared.
+
+⛔ **The instruction this section used to give — "check the VERS. addresses against the plate while
+you are reading it for anything else" — is WITHDRAWN as written.** A digit is the single thing
+over-inking alters most readily, and a verse number has no internal control: unlike a word, it
+cannot be checked against sense, grammar, or a Vulgate collation. **A verse address may not be
+altered on one witness. Ever.** If you believe our twin has a number wrong, fetch the second copy
+before you write it down, and if you cannot, leave the twin alone and say why.
+
+⭐ **What the episode did establish, and it is worth more than the class was:** nothing machine-
+readable consumes a `VERS.` number — the resolver keys on columns and `/scripture` on the `[n:]`
+citations — so a wrong one costs a reader a moment and costs the edition nothing. **That asymmetry
+is the argument for leaving it alone.** A silent "restoration" from a bad photograph is a change to
+the text with no upside and a permanent downside.
 
 ⭐ **What follows for you.** Where the plate is read and the twin has tidied a defect away, what is
 owed is a **TEI patch, not a `[sic:]`** — the marker would fail the verbatim-substring guard anyway,
