@@ -141,6 +141,26 @@ after the translation is paid for.
    lists and calendars are nearly immune: independent list items, no neighbour to
    contradict. Do not read a cartulary as slowly as a Victorine commentary.
 
+4a″. **⭐ ON A WORK WHOSE PLATES ARE UNREAD, FOLD THE PLATE READ INTO THE TRANSLATION STINT —
+   do not leave it to step 4b.** This pipeline separates translating (step 2) from reading the
+   plate (4b), and on a work with no reads on file that separation costs a whole second pass.
+   **Measured on 8950, 2026-09-05, inside one work:** the 0008–0011 stint read its own range as
+   it went (pp. 53–58, corners first, 300–1200 dpi) and delivered **five `[var:]` that passed the
+   gate immediately**, plus 19 TEI patches and a checked zero on the foot apparatus. The
+   0012–0018 stint, launched being told only p. 39 was recorded, collated **26 real divergences
+   and fired NOTHING** — correctly, since a marker on an unread column cannot ship — and every
+   one of them then had to be sent back for a second pass that reloads the whole range's context
+   to recover which words were at stake. Same work, same model, same brief but for that one line.
+   ⚑ **The stint is the cheapest reader there is, because it already has the words in view.**
+   A later plate pass must reconstruct that, and a reader who was not the translator does not
+   know which of a page's four hundred words the apparatus turns on.
+   ⛔ Say so IN THE LAUNCH MESSAGE, with the page map, the stint's own page range, "read the
+   corner numbers FIRST", and a **stint-scoped** output file
+   (`data/briefs/<idno>-PLATE-READS-<firstChunk>.json`) — never `data/plate-reads.json` itself,
+   which peers would race. The orchestrator merges.
+   ⚠ And state what IS recorded accurately: telling a stint the work is unread when a peer has
+   just recorded reads makes it decline markers it could have fired.
+
 4b. **⛔ THE PLATE GATE — `node scripts/plate-gate.mjs <idno>`, before the work is marked
    `ours`.** It exits non-zero and names every `[sic:]` or `[var:]` standing on a column
    nobody has read at Migne's plate. **Record reads in `data/plate-reads.json`**; a read is
