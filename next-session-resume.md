@@ -6139,3 +6139,62 @@ Migne biography read-through: APPROVED by Wilson 2026-07-04 — no open decision
 - PG 075 scan series check; author-tail triage; biography read-through — all unchanged.
 - Scan artifacts: `raw/scans/pg139/` (~210MB, two copies) + `raw/scans/pl139/` (57MB), all gitignored, re-downloadable.
 - No git remote (ask Wilson before creating).
+
+---
+
+## ✅ 8967 *LIBER PSALMORUM* — SHIPPED, DEPLOYED, PUSHED 2026-09-05
+
+Corpus **156 → 157**, `/glossa` **50 → 51 of 58**. `origin/master` = `12c089f` (36 commits).
+Deployed from `site/` as `dpl_Fvo76hvrvdCivuNTaPHVVSCFKdJr`, smoke-tested on the real domain:
+work page, cruces page, `/glossa` and the landing all 200; badge reads **New English
+translation** (correct — `workStatus` stayed `null`); **zero raw brackets, 235 apparatus notes
+rendered**; the Psalm CXVIII sentence live with Migne's `et quibus`, and *Praise ye the Lady*
+live at 1077A.
+
+⚑ **DEPLOY GOTCHA, and it refines the memory:** `npx vercel --prod --archive=tgz` from `site/`
+returned **"Not authorized"** while signed in as the *correct* account. The standing note says
+`vercel teams ls` is the diagnostic and that if the linked org is absent no `--scope` will help.
+**Here the org WAS present, the project WAS visible (`vercel project ls` showed `migne` bound to
+migne.app), and adding `--scope wilson-pruitts-projects` fixed it immediately.** So: "Not
+authorized" has (at least) two causes — wrong account, and a missing explicit scope on a CLI
+session that can otherwise see the team. **Try `--scope` before concluding it is the account.**
+
+**Marker totals counted from the files at ship time** (⭐ never quote them from a merge section —
+see cruces.md §H11): Band A 38 `[var:]` · 7 `[sic:]` · 2 `[cj:]` · 1 `[d:]` · Band B 112 · 56 ·
+17 · 1 · Band C 33 · 42 · 33 · 2 · **work 183 · 105 · 52 · 4**.
+
+### ⬜ Left open on this work, none of it blocking
+1. **`ferrcis` @1078D** — fired, and flagged in both directions as the one call a second reader
+   should re-open: it is the italic-`e`-images-as-`c` hazard's own shape.
+2. **Seven Gallica sites**, one IIIF request each, no ruling on spending them: `f443`, `f449`,
+   `f453`, 0932B, 0981C, and the two Isaias quotations at 1045C.
+3. **1059C `justificaui`** — the twin carries it, the English still renders `justificati`.
+4. **1039B `promisit`/`promissit`** — two instances in the column, the report does not say which.
+5. **1065C `quia`→`qui`** — ruled no marker; the English still renders CC's `quia`.
+6. **1017B `(AUG.)`→`(AU.)`** and six `(CAS.)`/`(CASS.)` sigla — not applied, English edits blocked.
+7. **The five `[cj:]` `cj-inversion.mjs` flags in the MERGED bands A and B** — a reading list, at
+   least one a demonstrable false positive. Merged bands were not edited on a new tool's say-so.
+8. ⚑ **NOT OURS:** `build-cruces` warns a passage of `oecumenius-philippians`' `cruces-0010.md`
+   never reached that work's `cruces.md` and is unpublished. Somebody's merge dropped it.
+
+### ⭐ What this work taught that outlives it
+- **A per-band marker count is a SNAPSHOT, not a fact** (§H11). §D and §F2 both disagree with the
+  files today, because a later band's patch pass reaches columns in earlier bands.
+- **NO MARKER COUNT MEANS ANYTHING UNTIL THE PATCH PASS HAS RUN**, now measured twice: Band C
+  fired 3 `[sic:]` and reported ~72 unfireable Migne defects; it ended at 42.
+- **Compositor errors are Migne's and get restored; ink damage is the copy's and does not** — and
+  I broke that rule at 1052C in the very pass that quotes it, importing `cxaltaxit` when the word
+  he set is `exaltaxit`.
+- **`scripts/patch-build.mjs`** builds a patch pass mechanically and refuses any site that does
+  not resolve uniquely in its declared column; **`scripts/marker-reconcile.mjs`** checks every
+  "unlocks" claim against the English and distinguishes MISSING from WITHHELD-by-ruling;
+  **`scripts/cj-inversion.mjs`** shortlists Pattern 18 inversions and its header says it never
+  decides.
+- ⛔ **WHEN THE PIPELINE AGREES SOMETHING IS IMPOSSIBLE, CHECK WHETHER IT HAS ALREADY BEEN RULED
+  POSSIBLE.** Two stints, three agents and I reported the omitted negative as unreachable; Wilson
+  had ruled it on 2026-08-15 and it was written into Pattern 18 with three worked examples.
+
+### ▶ NEXT IN THE GLOSSA QUEUE (smallest first)
+9002 Matthew (45,922) — the last gospel — then 8963 Numbers (26,336), 8961 Leviticus (32,205),
+8956 Isaiah (32,299), 8957 Job (38,206), 8949 Exodus (46,328), 8950 Genesis (47,910).
+⚑ Quote **~57K/chunk** for a Glossa book of this note density, not the runbook's 45K.
