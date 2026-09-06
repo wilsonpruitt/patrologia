@@ -1,0 +1,77 @@
+{
+  "note": "STINT-SCOPED plate reads for 8963 chunks 0005-0009 (cols 0391B-0404A). Merge into data/plate-reads.json; do NOT write that file from this stint. Every page below was rendered with the printed CORNER NUMBERS read first, and every one was read on BOTH witnesses: the on-disk archive.org PL 113 scan (page = (column + 11) / 2) and Gallica ark:/12148/bpt6k5505319w (leaf f = (column + 1) / 2). Checked zeroes are recorded: no page in this range carries any foot-of-page apparatus, numbered or asterisked.",
+  "works": {
+    "8963": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2  — RE-CALIBRATED this stint: p.201 corners print 391/392.",
+      "second_witness": "Gallica ark:/12148/bpt6k5505319w, leaf f = (column + 1) / 2 — RE-CALIBRATED this stint: f196 corners print 391/392.",
+      "reads": [
+        {
+          "from": "0391A",
+          "to": "0392D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 201,
+          "source": "archive PDF p.201 at 300 dpi in four column-half crops, corners read first (391/392); Gallica f196 at 1400px, corners read first (391/392). Two witnesses.",
+          "found": "No foot-of-page apparatus (checked zero). No divergence between either witness and our TEI twin. Both copies print `peccata mundi` (Jo 1:29), `in quo signati estis omnes` (Eph 4:30), `Non enim qui inchoat, sed qui consummat, coronabitur` (2 Tim 2) and `Qui autem perseveraverit, salvus erit` (Mt 10:22) — so the four [var:] fired against the Clementine in these bands rest on two witnesses, not on our TEI alone."
+        },
+        {
+          "from": "0393A",
+          "to": "0394D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 202,
+          "source": "archive PDF p.202 at 300 dpi in four column-half crops plus 600 dpi line crops, corners read first (393/394); Gallica f197 at 1400px plus IIIF native crops, corners read first (393/394). Two witnesses.",
+          "found": "No foot-of-page apparatus (checked zero). THREE archive-only readings, all REFUTED by Gallica, our TEI right every time: archive `digni operantur` / Gallica+TEI `digne operantur` (0394B); archive `Si enim seminent spiritualia` / Gallica+TEI `seminant` (0394A); archive drops the `ad` of `Varia vasa ad offerenda libamina` / Gallica+TEI carry it (0394D). Nothing fired."
+        },
+        {
+          "from": "0395A",
+          "to": "0396D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 203,
+          "source": "archive PDF p.203 at 300 dpi in four column-half crops, corners read first (395/396); Gallica f198 at 1400px plus two IIIF native crops, corners read first (395/396). Two witnesses.",
+          "found": "No foot-of-page apparatus (checked zero). ONE archive-only reading, REFUTED and important: archive prints `consona voce ad fidem veritatis NON erudit` (0396A) where Gallica and our TEI print `nos erudit` — over-inking manufacturing a NEGATION in a doctrinal sentence. Refuted at 1800 dpi on Gallica f198. Also a press variant, not a defect: the chapter head prints `CAPUT VIII.` with a period on the archive copy and `CAPUT VIII` without one on Gallica; our TEI has no period and the English mirrors it. Nothing fired."
+        },
+        {
+          "from": "0397A",
+          "to": "0398D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 204,
+          "source": "archive PDF p.204 at 300 dpi in four column-half crops, corners read first (397/398); Gallica f199 at 1400px plus an IIIF native crop, corners read first (397/398). Two witnesses.",
+          "found": "No foot-of-page apparatus (checked zero). ONE TWO-WITNESS finding against OUR file: at 0398C both copies print `qui recta opera sine corruptione vanae gloriae facit`; our TEI reads `qui recta, opera sine corruptione` — a comma neither printing has. Filed as a pending TEI patch; the English renders the plate. ONE press variant: archive `ut sive poenitentia SIT agenda` (0397B/C) against Gallica+TEI `si agenda`; Gallica's `si` does not construe, the archive's `sit` does. Rendered by sense, crux logged, no marker (divided witness). Two archive-only comma/period differences at 0398B, both refuted."
+        },
+        {
+          "from": "0399A",
+          "to": "0400D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 205,
+          "source": "archive PDF p.205 at 300 dpi in four column-half crops, corners read first (399/400); Gallica f200 at 1400px plus an IIIF native crop, corners read first (399/400). Two witnesses.",
+          "found": "No foot-of-page apparatus (checked zero). FOUR archive-only readings, all refuted, our TEI right: `mirericordiam` for `misericordiam` (0400A); `ardebet` for `ardebit` (0399B); `abicritis` for `abieritis` (0399C); a doubled `etc., etc.,` at 0399D where Gallica and the TEI have one. ONE archive-only VERSE DIGIT: archive prints `VERS. 13.-- Nubes` where Gallica and our TEI print `VERS. 15.` (0399A) — Nm 9:15 is the verse, so the TEI is right; left alone per the withdrawn verse-address rule, logged only. ONE press variant: Gallica+TEI `exnortantis` (a non-word) against archive `exhortantis` at 0400A; rendered by sense, crux logged, no marker."
+        },
+        {
+          "from": "0401A",
+          "to": "0402D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 206,
+          "source": "archive PDF p.206 at 300 dpi in four column-half crops, corners read first (401/402); Gallica f201 at 1400px plus two IIIF native crops, corners read first (401/402). Two witnesses.",
+          "found": "No foot-of-page apparatus (checked zero). TWO archive-only readings, refuted, our TEI right: `spiritum reputantur` for `sputum reputantur` (0402B — and the Isaiah lemma four lines above requires `sputum`); `perfectus est` for `profectus est` (0402C). ONE press variant where OUR TEI FOLLOWS THE ARCHIVE and Gallica is the odd one out: `eum glorificemus` (TEI + archive) against Gallica `cum` (0401D). ONE defect on BOTH printings: 0401A `Non negligentia PRAECEPIT Domini` (Gallica + TEI) / `praecipit` (archive) — a finite verb where the sense demands the genitive `praecepti`; rendered literally, crux logged, [cj:] declined. Migne prints a bare `VERS.--` with no number at 0402A; reproduced as printed."
+        },
+        {
+          "from": "0403A",
+          "to": "0404D",
+          "depth": "read",
+          "date": "2026-09-06",
+          "page": 207,
+          "source": "archive PDF p.207 at 300 dpi in four column-half crops plus 600 dpi line crops, corners read first (403/404); Gallica f202 at 1400px plus three IIIF native crops, corners read first (403/404). Two witnesses. Only 0403A-0404A falls in this stint; the rest of col 404 was read in passing and is recorded as a read.",
+          "found": "No foot-of-page apparatus (checked zero). TWO press variants where Gallica and our TEI carry a non-word the archive prints correctly: `commmatio` (Gallica + TEI) against archive `comminatio` at 0403C, the same word printing correctly as `Comminatio` six lines above; and `vermanseris` (Gallica + TEI) against archive `permanseris` at 0403D. Both rendered by sense, cruces logged, no marker (divided witness). Migne prints `VERS. 24.` twice in succession (0403A/B) on BOTH copies — his own, reproduced as printed."
+        }
+      ]
+    }
+  }
+}
