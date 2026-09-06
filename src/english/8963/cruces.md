@@ -20,7 +20,7 @@ thirty-third, the thirty-fifth, the thirty-seventh station*. **A reader cannot s
 one series.** Swept to **"station"** at all 16 sites. `castra` is a separate word and keeps
 "camp"/"camps" (20 Latin forms, 23 English), so nothing collided.
 
-⚑ **One `mansio` is deliberately NOT "station" and must stay as it is:** @0433D
+⚑ **One `mansio` is deliberately NOT "station" and must stay as it is:** @0434A–B (chunk 0021; **NOT 0433D** — the stint report gave that column and it is wrong, which matters because the next reader will grep 0433D and find nothing)
 *mansionis ei meritum deputabitur* is the Johannine sense — a dwelling-place, not a stage of a
 journey — and is rendered **"the merit of his dwelling."** Different word, different sense; the
 sweep was checked against the Latin at every site rather than run blind.
