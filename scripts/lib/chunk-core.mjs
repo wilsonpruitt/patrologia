@@ -35,6 +35,14 @@ const UNIT = '\x01'; // unit (div) boundary
 const HEAD = '\x02'; // block-is-a-<head> marker
 const NL = '\x03';   // intra-block line break (verse) — not \s, survives whitespace collapse
 const ATOM = '\x04'; // pre-rendered atomic block (list/table) placeholder prefix
+// ⭐ BTITLE — Migne opens each book of the Glossa with a display line under the `LIBER …` banner
+// giving the book's Hebrew (and sometimes Greek) name: `Hebraice VAIEDABBER (וידבר), id est : ET
+// LOCUTUS EST.` Corpus Corporum drops the whole line in all five Pentateuch books; it is restored
+// by TEI patch as <head type="book-title">. It is NOT a section head and must never become the
+// unit head — otherwise it would displace `PRAEFATIO.` — and it is not a paragraph of the
+// praefatio either. It stands ABOVE the first head, which is where the plate sets it.
+// Ruled by Wilson 2026-09-06, and shaped so ONE convention covers all five books.
+const BTITLE = '\x05';
 
 const words = s => s.split(/\s+/).filter(Boolean).length;
 
@@ -171,6 +179,7 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
   body = body
     .replace(/<\/div[0-9]?>/g, '')
     .replace(/<div[0-9]?(?:\s[^>]*)?>/g, SEN + UNIT + SEN)
+    .replace(/<head\s[^>]*type="book-title"[^>]*>/g, SEN + BTITLE)
     .replace(/<head(?:\s[^>]*)?>/g, SEN + HEAD)
     .replace(/<\/head>/g, SEN)
     .replace(/<\/p>/g, SEN)
@@ -184,11 +193,18 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
   const atomRe = new RegExp(`^${ATOM}(\\d+)$`);
   for (const seg of segments) {
     const blocks = [];
-    let head = null, sawText = false;
+    let head = null, sawText = false, bookTitle = null;
     for (const piece of seg.split(SEN)) {
       let block;
       const am = piece.match(atomRe);
       if (am) block = expandAtomics(atomics[Number(am[1])]);
+      else if (piece.startsWith(BTITLE)) {
+        // Never a head, never text: it neither claims the unit head nor sets sawText, so a
+        // book-title line cannot change which <head> the unit reports.
+        const t = inline(piece.slice(1));
+        if (t) bookTitle = t;
+        continue;
+      }
       else if (piece.startsWith(HEAD)) {
         const h = inline(piece.slice(1));
         if (!h) continue;
@@ -201,7 +217,7 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
     }
     if (head === null && !blocks.length) continue;
     const text = blocks.join('\n\n');
-    divs.push({ head, text, words: words(colM.strip(text)) });
+    divs.push({ head, bookTitle, text, words: words(colM.strip(text)) });
   }
   if (!divs.length) return { errors: ['no content units found in <body>'], warnings, chunks: [], manifest: null };
 
@@ -242,7 +258,7 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
   const manifest = [];
   let colContext = null;
   groups.forEach((group, ci) => {
-    const text = group.map(u => (u.head ? `## ${u.head}\n\n` : '') + u.text).join('\n\n');
+    const text = group.map(u => (u.bookTitle ? `${u.bookTitle}\n\n` : '') + (u.head ? `## ${u.head}\n\n` : '') + u.text).join('\n\n');
     const cols = colM.extract(text);
     const noteCount = (text.match(/\[n: /g) || []).length;
     const wc = words(colM.strip(text));

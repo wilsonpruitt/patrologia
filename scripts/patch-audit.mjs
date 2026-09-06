@@ -57,6 +57,22 @@ for (const [i, p] of patches.entries()) {
   // a find carries context padding either side, and that padding routinely reaches
   // back into the previous column. "Which column does this patch change?" is the
   // question the declared col answers, so that is what must be compared.
+  // ⭐ A patch may legitimately edit text that stands BEFORE the work's first <pb>: Migne's
+  // book-title banner sits between the previous work's last band and this work's first column
+  // mark, so there is no enclosing column to declare. Declaring one would be a false claim about
+  // where the edit lands. Such a patch declares `col: null` and the audit VERIFIES the position
+  // rather than waiving it — the edit offset must really precede the first column mark.
+  // Added 2026-09-06 for the Glossa Pentateuch book-title recovery (Wilson's ruling).
+  if (p.col === null) {
+    const at = xml.indexOf(p.find);
+    if (at === -1) { console.error(`✗ ${tag}  find not present`); fail++; continue; }
+    if (marks.length && at > marks[0].at) {
+      console.error(`✗ ${tag}  declares col null (before the first column mark) but lands AFTER ${marks[0].n}`);
+      fail++; continue;
+    }
+    console.log(`✓ ${tag}  pre-column banner, verified before the first <pb> (${marks[0]?.n ?? 'no marks'})`);
+    continue;
+  }
   const base = xml.indexOf(p.find);
   let d = 0;
   while (d < Math.min(p.find.length, p.replace.length) && p.find[d] === p.replace[d]) d++;

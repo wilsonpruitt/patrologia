@@ -6,6 +6,13 @@
  "patches": [
   {
    "work": "8963 Glossa ordinaria, Liber Numeri (PL 113)",
+   "col": null,
+   "find": "<div2>\n        <head>PRAEFATIO.</head>",
+   "replace": "<div2>\n        <head type=\"book-title\">Hebraice VAIEDABBER (<foreign xml:lang=\"hebrew\">וידבר</foreign>), id est : ET LOCUTUS EST.</head>\n        <head>PRAEFATIO.</head>",
+   "why": "STRUCTURAL RECOVERY, two-witness confirmed. Migne sets a display line under the LIBER NUMERI banner and Corpus Corporum drops it entirely; our body opened straight at PRAEFATIO. Archive p.195 and Gallica f190, printed corners 379/380 read first on both. ⭐ The Hebrew was NOT settled on the archive copy, which blots the third letter toward a resh and would give the non-word ויר בר: Gallica sets it cleanly vav-yod-DALET-bet-resh, and MIGNE'S OWN PRINTED TRANSLITERATION VAIEDABBER is an on-plate control agreeing with Gallica. This is the one class 8950's two-witness audit found survives a single read (lost non-Latin type) and it was checked on both anyway. Encoded <head type=\"book-title\"> per Wilson's ruling 2026-09-06: it is not a section head (a second <head> would displace PRAEFATIO as the unit head) and not a paragraph of the praefatio; chunk-core.mjs now routes that type above the first head, where the plate sets it. The banner stands between the end of Leviticus at 0379A and <pb n=\"0379B\"/>, so it precedes this file's first column mark and declares col null, which patch-audit verifies positionally."
+  },
+  {
+   "work": "8963 Glossa ordinaria, Liber Numeri (PL 113)",
    "col": "0383C",
    "find": "eupiunt",
    "replace": "cupiunt",
