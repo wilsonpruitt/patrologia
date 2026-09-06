@@ -1,6 +1,86 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-05 — 8950 *LIBER GENESIS* ✅ SHIPPED · ✅ DEPLOYED + SMOKE-TESTED · ✅ PUSHED
+## ▶▶▶▶▶ START HERE 2026-09-06 — 8963 *LIBER NUMERI* · PREPPED, GATE CLEARED, **NOT LAUNCHED**
+
+⚠ **The queue moved twice while this file said Genesis.** 9002 Matthew was translated, marked
+`ours`, built, **pushed and deployed** — corpus **159**, `/glossa` **53 of 58** — and this note never
+caught up. Preflight re-run 2026-09-06: **7 of 7, clear**. Check `git log` before trusting the
+START HERE block; it is the second time it has gone stale mid-book.
+
+**8963 = Anselm of Laon and his school, *Glossa ordinaria* on Numbers, PL 113 cols 0379B–0446D,
+26,336 Latin words, 26 chunks.** Smallest work left in the Glossa block.
+
+### DONE — pipeline steps 1, 1a, 1b are complete and committed
+
+- **Chunked**, validator clean: 26 chunks, 270 column marks, 705 notes, words conserved.
+- **Lemma inventory**: `data/briefs/8963-lemmata.txt`, **1,172 spans — 782 ✓ / 13 ⚑ / 251 ⚠ / 126
+  single**, plus the membership sidecar. ⚑ **The Genesis blindness does NOT recur here and it was
+  checked, not assumed: 8963 has ZERO guillemets** and sets its lemmata in italic like the gospel
+  books, and the ownership test fired 782 times rather than 0. Also checked: **every chapter head in
+  this work spells `CAPUT` in full** (78 + 2 `CAPUT PRIMUM`), so the `CAP. XLIV.` counter trap that
+  bit Genesis has no site here.
+- **Split into six stints**, all 1,172 spans allocated, each chunk in exactly one range:
+
+      0000-0004  0379B-0391B  4,682w  192 spans  pp.195-201
+      0005-0009  0391C-0404A  4,979w  246 spans  pp.201-207
+      0010-0013  0404B-0414D  4,331w  190 spans  pp.207-212
+      0014-0018  0415A-0427B  5,237w  258 spans  pp.213-219
+      0019-0022  0427C-0438D  4,544w  184 spans  pp.219-224
+      0023-0025  0439A-0446D  3,109w  102 spans  pp.225-228
+
+- **Plate spot check DONE and recorded** — coverage `spot`, 3 pages (pp. 195, 213, 228 = cols
+  379/380, 415/416, 445/446), corners read FIRST on each, **no foot-of-page apparatus on any**.
+  Page map `(col+11)/2` calibrated at three widely separated points. Reads are in
+  `data/plate-reads.json`; **the other 31 pages are unread, so rule 4a″ applies — the stints read
+  their own plates INLINE.** Second witness for PL 113 is Gallica `bpt6k5505319w`, leaf `f=(col+1)/2`.
+
+### ⭐⭐⭐ THE SPOT CHECK FOUND A CLASS, AND IT REACHES TWO SHIPPED BOOKS
+
+`data/briefs/8963-PENDING-TEI-PATCHES-HEAD.md` — **read it before launching.**
+
+**Migne opens every book of the Glossa with a display line under the `LIBER …` banner giving the
+book's Hebrew name (and sometimes its Greek). Corpus Corporum drops the whole line, in all five
+Pentateuch books.** Verified at the plate, corners first, one page each:
+
+    8950 Genesis  (SHIPPED)  Hebraice dictus בראשית, BERESIT, id est PRINCIPIO; Græce ΓΕΝΕΣΙΣ…
+    8949 Exodus              Hebraice VEELLE SEMOTH (ואלה שמות), id est, HÆC SUNT NOMINA; Græce ΕΞΟΔΟΣ…
+    8961 Leviticus           Hebraice VAIICRA (ויקרא).
+    8963 Numbers             Hebraice VAIEDABBER (וידבר), id est : ET LOCUTUS EST.
+    8945 Deuteronomy (SHIPPED)  Hebraice ELLEH HADDEBARIM (אלה הדברים), id est HÆC SUNT VERBA.
+
+⛔⛔ **Genesis's p.39 had already been read — it is the very page the `(a) Revocantur lector…` foot
+note was recovered from.** That read was scoped to the FOOT and walked past a dropped line in the
+HEAD of the same page, set in display type. **A plate read is scoped to the question it was sent to
+answer**; corner-first gets the reader to the right page, it does not make the reader see the page.
+
+▶ **TWO RULINGS OWED FROM WILSON, and neither blocks the translation** (see the hard stop below):
+the **encoding** (the chunker takes a unit's first `<head>` as its head, so a second `<head>` would
+displace `PRAEFATIO.`, and a `<p>` calls a banner a paragraph), and whether **Genesis and
+Deuteronomy get retrofitted + rebuilt + redeployed** or the line simply starts with Numbers.
+
+### ⚑ AND THE FIRST PATCH CANDIDATE THIS WORK PRODUCED WAS REFUTED BY THE SECOND WITNESS
+
+**0379B — the archive copy prints `quadripartitum`, Gallica prints `quadripertitum`, and OUR TEI
+reads `quadripertitum` and is right.** A clean `a` on one copy against a clean `e` on the other is
+not ink: **two printings, not two photographs** — same class as `Mititte`/`Mittite` at 8950 0171D.
+Read at 600 dpi the archive's `a` was unambiguous and the patch felt safe; applying it would have
+moved our Latin, permanently and silently, to a reading one printing of Migne does not carry.
+⭐ The gate caught the very first candidate. `8950-PATCH-GATE-READ-FIRST.md` governs PL 113: **nothing
+stands on one witness**, and of the structural classes only **lost non-Latin type** survives a single
+read — which is exactly what the title-line patch is, and it was confirmed on Gallica anyway.
+
+### ⛔ NOT LAUNCHED — the hard stop is owed
+Translation has not started. `src/english/8963/` does not exist. Estimate at the recalibrated
+**inline** rate (~73K/chunk, because this work's plates are unread and 4a″ says the stint reads
+them while the words are still in view): **~1.9M translation + ~0.3M blind polarity read + ~0.25M
+patches/merge/build ≈ 2.4M tokens**, six stints at **three concurrent** (rule 5). Note density is
+**1 per 37.4 words** — between Genesis and the Psalms, so budget the polarity read as rich.
+
+### Queue after Numbers
+8961 Leviticus (29,882) → 8956 Isaiah (30,254) → 8957 Job (34,107) → 8949 Exodus (43,440).
+Then the PL 113 leftovers: 8971/8972/8973 prologues, 8974 *Additiones*, 8975 *Ad lectorem*.
+
+## ▶ HISTORY 2026-09-05 — 8950 *LIBER GENESIS* ✅ SHIPPED · ✅ DEPLOYED + SMOKE-TESTED · ✅ PUSHED
 
 **Wilson's call: Genesis instead of Matthew. Approved Opus + the spot check.** 8967 Psalms shipped,
 deployed and pushed earlier the same day, so the queue was genuinely at the next volume.

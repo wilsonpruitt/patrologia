@@ -1,0 +1,251 @@
+# 8963 — lemma inventory and Clementine pre-scan
+
+**Liber Numeri** · PL 113 · cols 0379B–0446D · 26 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0000–0004, bands 0379C–0391B (192 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0379C] *Miserere mei, Deus,*   ✓ Ps 50:3, Ps 55:2, Ps 56:2
+[0379C] *quia omnia in figura contingebant illis [n: (I Cor. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0380D] *Benedicetis filiis Israel et dicetis,*   ✓ Nm 6:23
+[0381A] *Quod ipse praestare dignetur qui cum Patre et Spiritu sancto vivit,*   ⚠ NOT in Clementine verbatim — CHECK
+[0381A] *ne [0381B] temporis re. p. t.*   ⚠ NOT in Clementine verbatim — CHECK
+[0381B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0381B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0381C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382D] VERS. 3.-- *Omnium virorum. [n: (ORIG., hom. 1 in Num.)]*   ✓ 2Rg 19:14, Nm 1:3
+[0382D] *Omnis qui procedit in virtute Israel,*   ⚠ NOT in Clementine verbatim — CHECK
+[0382D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382D] VERS. 4.-- *Principes tribuum,*   ✓ 2Par 5:2, Dt 5:23, Gn 25:16, …
+[0382D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382D] VERS. 5.-- *De tribu Ruben. [n: (RAB. in Num., tom. II.)]*   ⚑ MATCHES ONLY ELSEWHERE — 1Par 6:63, 1Par 6:78, Dt 4:43, …  (lemma is Nm 1) — CHECK
+[0382D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0382D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0383A] VERS. 6.-- *De tribu Simeon.*   ⚑ MATCHES ONLY ELSEWHERE — Jdt 6:11, Nm 2:12, Nm 13:6, …  (lemma is Nm 1) — CHECK
+[0383A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0383A] *Ad te levavi oculos meos, qui habitas in coelis [n: (Psal. CXXII)]*   ✓ Ps 122:1
+[0383A] VERS. 7.-- *De tribu Juda.*   ⚑ MATCHES ONLY ELSEWHERE — Apc 5:5, Ex 31:2, Ex 35:30, …  (lemma is Nm 1) — CHECK
+[0383A] *Castigo corpus meum et in servitutem redigo,*   ✓ 1Cor 9:27
+[0383A] *confessio*   — single word, check in place
+[0383A] *laudatio,*   — single word, check in place
+[0383B] *serpentinus,*   — single word, check in place
+[0383B] *augurium,*   — single word, check in place
+[0383B] *spontanei populi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0383B] *Sicut exaltavit Moyses serpentem in deserto, sic exaltari oportet filium hominis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0383B] VERS. 8.-- *De tribu Issachar.*   ⚑ MATCHES ONLY ELSEWHERE — 1Par 6:62, 1Par 6:72, Jos 21:28, …  (lemma is Nm 1) — CHECK
+[0383C] *Nathanael filius Suar.*   ✓ Nm 1:8, Nm 2:5, Nm 7:18, …
+[0383C] *Deus meus*   ✓ 1Par 17:25, 1Par 21:17, 1Par 28:20, …
+[0383C] *donum Dei, Filius Suar,*   ⚠ NOT in Clementine verbatim — CHECK
+[0383C] VERS. 9.-- *De tribu Zabulon.*   ⚑ MATCHES ONLY ELSEWHERE — 1Par 6:63, 1Par 6:77, Jos 21:34, …  (lemma is Nm 1) — CHECK
+[0383C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0383C] VERS. 10.-- *Joseph.*   — single word, check in place
+[0383D] *Amen dico vobis, non inveni tantam fidem in Israel [n: (Matth. VIII)]*   ✓ Mt 8:10
+[0383D] *Elisama.*   — single word, check in place
+[0383D] *Factus est obediens Patri usque ad mortem,*   ⚠ NOT in Clementine verbatim — CHECK
+[0383D] *Quae audivi ab eo haec loquor in mundo [n: (Joan. VIII)]*   ✓ Jo 8:26
+[0383D] *populi inclyti,*   ⚠ NOT in Clementine verbatim — CHECK
+[0383D] *Manasses,*   — single word, check in place
+[0383D] *Obliviosus,*   — single word, check in place
+[0383D] *quae retro sunt obliviscens et in anteriora se extendens: ut acci piat coronam vitae, quam retribuet Deus diligentibus se [n: (Philip. III; Jac. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0384A] *Gamaliel.*   — single word, check in place
+[0384A] *reddidit mihi Deus,*   ✓ Jdc 1:7
+[0384A] *redemptionis validae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0384A] *oblitus,*   — single word, check in place
+[0384A] *obliviosus:*   — single word, check in place
+[0384A] *plenitudo gentium intraverit, omnis Israel salvus fiet [n: (Rom. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0384A] VERS. 11.-- *De tribu Benjamin.*   ⚑ MATCHES ONLY ELSEWHERE — 1Rg 9:21, 2Mcc 3:4, Act 13:21, …  (lemma is Nm 1) — CHECK
+[0384A] *filius doloris*   ✓ Gn 35:18
+[0384A] *Sanguis ejus super nos et [0384B] super filios nostros [n: (Matth. XXVII)]*   ✓ Mt 27:25
+[0384B] *filius dextrae.*   ✓ Gn 35:18
+[0384B] *pater meus,*   ✓ 1Rg 9:5, 1Rg 14:29, 1Rg 19:2, …
+[0384B] *tentatio iniquitatis*   ⚠ NOT in Clementine verbatim — CHECK
+[0384B] *humilitatis;*   — single word, check in place
+[0384B] *filius dextrae,*   ✓ Gn 35:18
+[0384C] VERS. 12.-- *De tribu Dan.*   ⚑ MATCHES ONLY ELSEWHERE — Ex 31:6, Ex 35:34, Ex 38:23, …  (lemma is Nm 1) — CHECK
+[0384C] *judicium,*   — single word, check in place
+[0384C] *judicans.*   — single word, check in place
+[0384C] *fratrem adjutorem,*   ⚠ NOT in Clementine verbatim — CHECK
+[0384C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0384C] VERS. 13.-- *De tribu Aser.*   ⚑ MATCHES ONLY ELSEWHERE — 1Par 6:62, Lc 2:36, Nm 2:27, …  (lemma is Nm 1) — CHECK
+[0384C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0384C] VERS. 14.-- *De tribu Gad.*   ⚑ MATCHES ONLY ELSEWHERE — 1Par 6:63, 1Par 6:80, Jos 20:8, …  (lemma is Nm 1) — CHECK
+[0384C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0384C] *Gallus succinctus lumbos et aries, nec est rex qui resistat ei [n: (Prov. XXX)]*   ✓ Pr 30:31
+[0384C] VERS. 15.-- *De tribu Nephthali.*   ⚑ MATCHES ONLY ELSEWHERE — 1Par 6:62, 1Par 6:76, 3Rg 7:14, …  (lemma is Nm 1) — CHECK
+[0384C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0384C] *Jam non dicam vos servos, sed amieos,*   ⚠ NOT in Clementine verbatim — CHECK
+[0384D] VERS. 16.-- *Per cognationes. [n: (AUG., quaest. 2 in Num.)]*   ✓ 1Par 6:60, 1Par 6:62, 1Par 6:63, …
+[0384D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0384D] VERS. 18.-- *A vicesimo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0384D] VERS. 37.-- *Triginta quinque millia.*   ✓ 2Mcc 15:27, Nm 1:37, Nm 2:23
+[0384D] VERS. 59.-- *Septingenti.*   — single word, check in place
+[0385A] *Jam dextera computat annos.*   ⚠ NOT in Clementine verbatim — CHECK
+[0385A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385A] VERS. 51.-- *Cumque proficiscendum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0385A] *Quisquis externorum,*   ✓ Nm 1:51
+[0385A] *[n: (AUG., quaest. 3.)] Alienigena qui accesserit, moriatur.*   ⚠ NOT in Clementine verbatim — CHECK
+[0385A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385B] *Allegorice.*   — single word, check in place
+[0385B] *Nemo enim debet sibi sumere honorem, nisi qui vocatur a Deo, tanquam Aaron [n: (Hebr. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0385B] VERS. 52.-- *Unusquisque per turmas,*   ✓ Nm 1:52
+[0385B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385B] VERS. 1.-- *Locutusque est Dominus. [n: (ORIG., hom. 2 in Num.)] Homo secundum ordinem suum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0385B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385C] *Secundum sua signa,*   ⚠ NOT in Clementine verbatim — CHECK
+[0385C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385C] VERS. 2.-- *Per gyrum tabernaculi,*   ✓ Ex 40:31, Nm 1:50, Nm 1:53, …
+[0385C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385C] VERS. 9.-- *Universi qui in castris Judae.*   ✓ Nm 2:9
+[0385C] VERS. 10.-- *Meridianam plagam erit princeps.*   ✓ Nm 2:10
+[0385D] VERS. 17.-- *Levabitur autem tabernaculum testimonii,*   ✓ Nm 2:17
+[0385D] *Ad occidentalem plagam erunt,*   ✓ Nm 2:18
+[0385D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0385D] VERS. 18.-- *Occidentalem.*   — single word, check in place
+[0386A] VERS. 25.-- *Ad aquilonis partem castrametati sunt filii Dan.*   ✓ Nm 2:25
+[0386A] VERS. 3.-- *Sacerdotum qui uncti sunt,*   ✓ Nm 3:3
+[0386A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0386A] VERS. 6.-- *Applica tribum. [n: (AUG., quaest. 4 in Num.)] Accipe tribum Levi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0386A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0386B] VERS. 10.-- *Externus.*   — single word, check in place
+[0386B] *Alienigena qui tetigerit, morietur.*   ⚠ NOT in Clementine verbatim — CHECK
+[0386B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0386B] VERS. 12.-- *Ego tuli Levitas. [n: (ID., quaest. 6.)]*   ✓ Nm 3:12
+[0386B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0386B] *[n: (ORIG. hom. 3 in Num.)] Ego assumpsi Levitas de medio filiorum Israel pro omni primogenito,*   ⚠ NOT in Clementine verbatim — CHECK
+[0386B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0386B] *Ex medio filiorum Israel,*   ⚠ NOT in Clementine verbatim — CHECK
+[0386B] *In medio populi mei ego habito*   ⚠ NOT in Clementine verbatim — CHECK
+[0386C] *Medius vestrum stat, quem vos nescitis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0386C] *qui peccatum non fecit, nec inventus est dolus in ore ejus [n: (Isa. LIII)]*   ✓ 1Ptr 2:22
+[0386C] *Nemo enim mundus a sorde, nec si unius diei fuerit vita ejus [n: (Job XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0386D] *Aperit.*   — single word, check in place
+[0386D] *Alienati sunt peccatores a vulva, erraverunt ab utero, locuti sunt falsa [n: (Psal. LVII)]*   ✓ Ps 57:4
+[0386D] *Alicnati sunt peccatores a vulva,*   ⚠ NOT in Clementine verbatim — CHECK
+[0387A] *Ex quo.*   ✓ 1Cor 8:6, 1Mcc 1:12, 1Mcc 9:29, …
+[0387A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0387A] VERS. 15.-- *Numera filios Levi.*   ✓ Nm 3:15
+[0387A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0387B] VERS. 17.-- *Levi per nomina sua.*   ✓ Nm 3:17
+[0387B] *Ego vos elegi de mundo [n: (Joan. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0387B] *Sed sunt sicut angeli Dei in coelo [n: (Matth. XXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0387B] *Gerson et Caath et Merari.*   ✓ Ex 6:16, Gn 46:11, Nm 3:17
+[0387C] *Oportet episcopum irreprehensibilem esse,*   ⚠ NOT in Clementine verbatim — CHECK
+[0387C] VERS. 23.-- *Hi post tabernaculum metabuntur.*   ✓ Nm 3:23
+[0387D] VERS. 24.-- *Ad occidentem sub principe Eliasaph filio Lael.*   ⚠ NOT in Clementine verbatim — CHECK
+[0387D] *Mihi autem absit gloriari nisi in cruce Domini nostri Jesus Christi [n: (Gal. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0388A] VERS. 29.-- *Ad meridianam.*   ✓ Nm 2:10, Nm 3:29
+[0388A] *Nisi Dominus aedificaverit domum, in vanum laboraverunt qui aedificant eam.*   ✓ Ps 126:1
+[0388A] VERS. 35.-- *In plaga.*   ✓ Am 3:12, Ez 24:16, Nm 3:35, …
+[0388B] *Cor ejus indurabitur quasi lapis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0388B] VERS. 38.-- *Ad orientalem plagam.*   ✓ 1Par 12:15, 2Par 5:12, Dt 4:41, …
+[0388C] VERS. 39.-- *Viginti duo millia.*   ✓ 1Par 7:2, 1Par 7:7, 1Par 18:5, …
+[0388C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0388C] VERS. 47.-- *Quinque siclos.*   ✓ Nm 3:47
+[0388D] VERS. 2.-- *Tolle summam.*   ✓ Nm 4:2, Nm 4:22
+[0388D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0388D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0388D] VERS. 3.-- *In taber.*   ⚠ NOT in Clementine verbatim — CHECK
+[0388D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0389A] *Invoiventque eo arcam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0389A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0389A] VERS. 6.-- *Et operient.*   ✓ Jr 47:2, Mch 3:7, Nm 4:6
+[0389A] VERS. 7.-- *Panes semper. [n: (AUG., quaest. 7 in Num.)] Et panes qui semper super eam erunt.*   ⚠ NOT in Clementine verbatim — CHECK
+[0389B] VERS. 11.-- *Nec non et altare.*   ⚠ NOT in Clementine verbatim — CHECK
+[0389B] *et super altare aureum adoperient vestimentum hyacinthinum: et adoperient illud operimento pelliceo ianthino.*   ⚠ NOT in Clementine verbatim — CHECK
+[0389C] VERS. 15.-- *Tunc intrabunt filii Caath. [n: (ORIG., hom. 4.)]*   ✓ Nm 4:15
+[0389C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0389C] VERS. 18.-- *Nolite perdere.*   ✓ Nm 4:18
+[0389C] *Nolite exterminare plebem Caath,*   ⚠ NOT in Clementine verbatim — CHECK
+[0389C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0389D] VERS. 20.-- *Alii nulla,*   ✓ Nm 4:20
+[0389D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0389D] VERS. 23.-- *A triginta.*   ✓ 1Par 23:3, Nm 4:23, Nm 4:30, …
+[0390A] *Quinquaginta,*   — single word, check in place
+[0390A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0390A] *Omnes qui ingrediuntur,*   ✓ 1Rg 5:5, Nm 4:23, Nm 4:30, …
+[0390A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0390A] VERS. 35.-- *Ad annum quinquagesimum.*   ✓ Nm 4:35, Nm 4:43, Nm 4:47
+[0390A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0390A] VERS. 2.-- *Omnem leprosum.*   ✓ Nm 5:2
+[0390B] VERS. 6.-- *Vir sive mulier. [n: (RAB. in Num.)]*   ✓ Est 4:11, Lv 13:29, Lv 13:38, …
+[0390C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0390C] VERS. 7.-- *Reddent ipsum. [n: (AUG., quaest. 10 in Num.)]*   ✓ Nm 5:7
+[0390C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0390C] VERS. 8.-- *Exceptio ariete.*   ⚠ NOT in Clementine verbatim — CHECK
+[0390C] *(Job XV)*   ⚠ NOT in Clementine verbatim — CHECK
+[0390C] VERS. 9 *Ad sacerdotem.*   ✓ 1Rg 14:19, Dt 26:3, Jr 6:13, …
+[0390C] *Tu es sacerdos in aeternum secundum ordinem [0390D] Melchisedech [n: (Psal. CIX)]*   ✓ Hbr 5:6, Hbr 7:17, Ps 109:4
+[0390D] *Nolite ante tempus judicare quoadusque veniat Dominus,*   ✓ 1Cor 4:5
+[0390D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0390D] VERS. 15.-- *Non fundet.*   ✓ Nm 5:15
+[0390D] VERS. 17.-- *Aquam sanctam.*   ✓ Nm 5:17
+[0391A] VERS. 23.-- *Scribetque sacerdos in libello,*   ✓ Nm 5:23
+[0391A] VERS. 24.-- *Dabit ei bibere,*   ✓ Nm 5:24
+[0391B] *Nihil enim occultum, quod non reveletur [n: (Matt. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0391B] *Sermo quem locutus sum vobis, ille vos judicabit in novissimo die [n: (Joan XII)]*   ⚠ NOT in Clementine verbatim — CHECK

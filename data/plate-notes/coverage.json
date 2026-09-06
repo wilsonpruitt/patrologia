@@ -244,6 +244,23 @@
    "verified": "2026-08-18"
   },
   {
+   "idno": "8950",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "partial",
+   "notes_recovered": 2,
+   "columns": "0067B-0182D (whole work)",
+   "method": "Plate spot check at chunking (step 1a, Wilson 2026-08-19), read 2026-09-05 BEFORE translation, from the on-disk scan raw/scans/pl113/patrologiaecurs04migngoog.pdf. Map PDF page = (column + 11) / 2, the same as 8967's, re-confirmed from the printed corner numbers BEFORE any note was read (p.39 reads 67 / 68) and re-read on every page. TEN pages read across the whole work, weighted to the caput divisions, which fall mid-page throughout: 39 (67/68, the work's opening), 40, 46, 52, 53, 60, 67, 74, 82, 89, 96 (181/182, the work's end). Head strip plus a generous foot zone at full page width on each, which reached the true page foot every time; the two pages carrying notes were then re-read at 400 dpi.",
+   "result": "NOT a checked zero. Migne prints a foot-of-page layer in this book keyed by a RAISED LETTER, and two notes were recovered: (a) at the foot of p.39, cols 67/68, `Revocantur lector ad tomos Patrologiae nostrae. EDIT.`, keyed to the raised a in the citation (BEDA, Hexaem. lib. I, tom. II, col. 13 a.) in col 0068B; and (a) again at the foot of p.52, cols 93/94, `In Hebraeo est *gahon*, quod *ventrem* et *pectus* significat.`, keyed to « pectus a » in col 0094D. The letter sequence RESTARTS per page, so both are (a) and there is no run to check for gaps. The other eight pages carry no apparatus of any layer -- blank paper below the last line, except p.74, whose foot carries the signature line PATROL. CXIII. and gathering number 5, which is not apparatus.",
+   "mechanical_handle": "⭐ UNLIKE THE NUMBERED LAYER, OUR TEI CARRIES THE ANCHOR. Corpus Corporum keeps Migne's raised letter (as the ordinal indicator ª) while dropping the note it points to, so the anchors are findable by grep instead of by sampling: `grep -c ª` over src/latin/8950 returns exactly 2, at the two sites above, and 0 across 8967, 9000 and 9001. That is what licenses reading only two plates for the notes themselves rather than all 58.",
+   "why_not_tier_3": "Tier 3 asks for the sequence verified unbroken, and a per-page letter layer HAS no sequence to verify -- so the guarantee tier 3 names cannot be given here, and claiming it would assert a check that was not performed. The evidence actually in hand is the two surviving anchors plus a 10-of-58-page sample; a note whose anchor glyph the digitization dropped would be invisible to both. Recorded as `partial` for that reason: absence of a third note here means nothing.",
+   "caveat": "⛑ NOTE (a) AT COL 0068B IS RECOVERED BUT NOT PLACED. Its anchor sits INSIDE Migne's own citation -- [n: (BEDA, Hexaem. lib. I, tom. II, col. 13 ª.)] -- and the injector's search view strips [n: …] wholesale, while marker syntax across this corpus forbids nested brackets, so there is no [cn:] position for it that a reader of the marker would survive. It is recorded in data/plate-notes/8950.tsv and reported as skipped on every run rather than being placed by a guess. ⚑ It is also the lower-stakes of the two: it is Migne's EDIT. note explaining that his `col. 13` cross-reference points at the volumes of his own Patrologia. The note at 0094D, which does carry text a reader needs, IS placed.",
+   "sic_candidate": "⚑ The 0068B note prints `Revocantur lector` -- plural verb, singular subject -- read at 400 dpi with the corners checked first. The same standing note in this volume's Prothemata (a DIFFERENT work, not ours) OCRs as `Revocatur lector`, singular, which would make the Genesis setting a compositor's slip; that plate has NOT been read, so the pair is a lead and not a finding. Left for the translating stint to adjudicate, unadopted.",
+   "verified": "2026-09-05",
+   "notes_placed": 1
+  },
+  {
    "idno": "8951",
    "series": "pl",
    "volume": 113,
@@ -326,6 +343,15 @@
    "coverage": "spot",
    "notes_recovered": 0,
    "method": "Plate spot check at chunking (step 1a). Pages: p.362 cols 713/714 division I Esdrae->Nehemiah (opens at the HEAD); p.365 cols 719/720 interior. Read 2026-08-19 at 300 dpi, FULL page width, from the on-disk scan (patrologiaecurs04migngoog); corner numbers checked against the map before the read; division examined MID-PAGE as well as at the foot. Checked zero: no numbered Forte/F. apparatus and no asterisk-keyed EDIT. note. Foot matter present is bookbinding only (PATROL. CXIII. + gathering number). | EXTENDED 2026-08-19: p.367 (cols 723/724) read at 400 dpi to adjudicate the unconstruable 0724D. THE PLATE CARRIED MORE TEXT THAN OUR SOURCE: a clean eye-skip over one whole typeset line plus the orphan turnover syllable of 'Piscis au-|tem'. Eight words restored via data/tei-patches/8962.json; a second witnessed one-letter fix (coangustatis, ablative) on the same page. Foot: zero, so the restoration rests on the main-text plate alone. NB col. 721 is still UNREAD and carries this work's two remaining [sic:] - the likeliest survivors of the same class."
+  },
+  {
+   "idno": "8963",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "note": "3 pages read at the plate 2026-09-05 (pp. 195, 213, 228 = cols 379/380, 415/416, 445/446), corners checked first on each; no foot-of-page apparatus on any. The head-of-book Hebrew title line that CC drops is NOT this layer -- it is display type in the running head, not foot apparatus."
   },
   {
    "idno": "8964",
@@ -686,6 +712,20 @@
    "result": "Migne prints NO foot-of-page apparatus anywhere on these pages: no foot rule, no numbered Forte/F. notes, no asterisk-keyed EDIT. note; the columns simply end. Recorded as a checked zero, not a skip. Fourth sampling of PL 114, and the first in this volume outside the Pauline/Catholic epistle range.",
    "caveat": "⚠ THE SCAN CLIPS BOTH MARGINS ON SOME LEAVES OF THIS RANGE, and it clips them badly enough to eat whole words: p.95 loses 2-4 characters off the RIGHT column's line-ends throughout, and pp.114 and 118 lose 3-6 characters off the LEFT column's line-starts. This does not touch the checked zero (the feet are blank, and blankness survives a crop) but it WILL bite at step 3, the [sic:]/[var:] plate read. Expect the PL 196 remedy to be needed: a second archive.org copy with clean margins, per the 2026-08-31d note. ✅ SECOND WITNESS FOUND AND CALIBRATED 2026-09-03, before it was needed, so the plate read does not have to stop and hunt one: archive.org **patrologiaecursu0114mign** — a different copy of PL 114, colour, 2215x3603, and CLEAN AT BOTH MARGINS where ours is clipped. https://archive.org/download/patrologiaecursu0114mign/page/n<N>.jpg (follow redirects and send a browser UA; a bare curl returns an empty body with no error). **leaf n = (column + 11) / 2** — the same map as our local PDF — verified at THREE points across the work by the printed corner numbers, not by the ID's digits: n95 = 179/180 (the work's opening), n115 = 219/220, n126 = 241/242. Running heads alternate WALAFRIDI STRABI FULD. MON. OPP. PARS I. — THEOLOGICA. (recto) and GLOSSA ORDINARIA. — EVANG. MARCI. (verso), which also confirms that Mark IS printed under the Glossa head — unlike 9003 and 9004, whose bylines were corrected off it. A second candidate, patrologiaecur114mign, is also vol. 114 and unrestricted if this one fails. ⚑ This is a CALIBRATION, not a read: no column of this work has been read at either plate for the [sic:]/[var:] layer yet, and nothing is recorded in data/plate-reads.json.",
    "verified": "2026-09-03"
+  },
+  {
+   "idno": "9002",
+   "series": "pl",
+   "volume": 114,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "columns": "0063A-0178D (whole work)",
+   "method": "Plate spot check at chunking (step 1a, Wilson 2026-08-19 rule), read 2026-09-05 at chunking, BEFORE translation. EIGHT pages read at 150 dpi from the on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, weighted to the caput divisions, which fall mid-page throughout: p.37 (cols 63/64, the WORK division -- MACHABAEORUM LIBRI DUO and four other stub entries close above a full-width rule and EVANGELIUM SECUNDUM MATTHAEUM opens below it with the PROLOGUS), 47 (83/84, CAPUT IV mid-page), 55 (99/100), 63 (115/116, CAPUT IX mid-page), 70 (129/130, CAPUT XIII mid-page), 78 (145/146, CAPUT XVIII mid-page), 86 (161/162), 94 (177/178, the work's END -- CAPUT XXVIII opens mid-page and the work closes above a full-width rule with blank paper below). Full page width read on every one, foot band included. Map PDF page = (column + 11) / 2 re-confirmed on THIS work's own range from the printed corner numbers BEFORE any note was read (p.37 reads 63 / 64) and re-read on every subsequent page.",
+   "result": "Migne prints NO foot-of-page apparatus anywhere on these pages: no foot rule, no numbered Forte/F. conjecture, no asterisk-keyed cross-reference. The columns simply end with blank paper below the last line on all eight. Recorded as a checked zero, not a skip. Seventh sampling of PL 114.",
+   "caveat": "⚑ p.37 DOES carry an asterisk-keyed note -- `* Vulgata editio, de qua fit mentio in prologo super Baruch, exponitur in prologo super Ezechielem. Caetera plana sunt.` -- but it belongs to PROPHETIA BARUCH (8996), a different work that closes at the head of the same page, and it is set MID-PAGE under that work's preface, not at the page foot. It is the note already recorded under 8996. So the asterisk layer demonstrably exists in this volume and on this very leaf; its absence from Matthew's own eight pages is a checked zero for THIS work and nothing more. ⚠ The sample is 8 of the work's 58 pages; `spot` licenses shipping without [cn:] recovery and does NOT license a claim that the work has no notes.",
+   "verified": "2026-09-05",
+   "notes_placed": 0
   },
   {
    "idno": "9003",
@@ -1348,37 +1388,6 @@
    "tier": 2,
    "coverage": "none",
    "notes_recovered": 0
-  },
-  {
-   "idno": "8950",
-   "series": "pl",
-   "volume": 113,
-   "tier": 3,
-   "coverage": "partial",
-   "notes_recovered": 2,
-   "columns": "0067B-0182D (whole work)",
-   "method": "Plate spot check at chunking (step 1a, Wilson 2026-08-19), read 2026-09-05 BEFORE translation, from the on-disk scan raw/scans/pl113/patrologiaecurs04migngoog.pdf. Map PDF page = (column + 11) / 2, the same as 8967's, re-confirmed from the printed corner numbers BEFORE any note was read (p.39 reads 67 / 68) and re-read on every page. TEN pages read across the whole work, weighted to the caput divisions, which fall mid-page throughout: 39 (67/68, the work's opening), 40, 46, 52, 53, 60, 67, 74, 82, 89, 96 (181/182, the work's end). Head strip plus a generous foot zone at full page width on each, which reached the true page foot every time; the two pages carrying notes were then re-read at 400 dpi.",
-   "result": "NOT a checked zero. Migne prints a foot-of-page layer in this book keyed by a RAISED LETTER, and two notes were recovered: (a) at the foot of p.39, cols 67/68, `Revocantur lector ad tomos Patrologiae nostrae. EDIT.`, keyed to the raised a in the citation (BEDA, Hexaem. lib. I, tom. II, col. 13 a.) in col 0068B; and (a) again at the foot of p.52, cols 93/94, `In Hebraeo est *gahon*, quod *ventrem* et *pectus* significat.`, keyed to « pectus a » in col 0094D. The letter sequence RESTARTS per page, so both are (a) and there is no run to check for gaps. The other eight pages carry no apparatus of any layer -- blank paper below the last line, except p.74, whose foot carries the signature line PATROL. CXIII. and gathering number 5, which is not apparatus.",
-   "mechanical_handle": "⭐ UNLIKE THE NUMBERED LAYER, OUR TEI CARRIES THE ANCHOR. Corpus Corporum keeps Migne's raised letter (as the ordinal indicator ª) while dropping the note it points to, so the anchors are findable by grep instead of by sampling: `grep -c ª` over src/latin/8950 returns exactly 2, at the two sites above, and 0 across 8967, 9000 and 9001. That is what licenses reading only two plates for the notes themselves rather than all 58.",
-   "why_not_tier_3": "Tier 3 asks for the sequence verified unbroken, and a per-page letter layer HAS no sequence to verify -- so the guarantee tier 3 names cannot be given here, and claiming it would assert a check that was not performed. The evidence actually in hand is the two surviving anchors plus a 10-of-58-page sample; a note whose anchor glyph the digitization dropped would be invisible to both. Recorded as `partial` for that reason: absence of a third note here means nothing.",
-   "caveat": "⛑ NOTE (a) AT COL 0068B IS RECOVERED BUT NOT PLACED. Its anchor sits INSIDE Migne's own citation -- [n: (BEDA, Hexaem. lib. I, tom. II, col. 13 ª.)] -- and the injector's search view strips [n: …] wholesale, while marker syntax across this corpus forbids nested brackets, so there is no [cn:] position for it that a reader of the marker would survive. It is recorded in data/plate-notes/8950.tsv and reported as skipped on every run rather than being placed by a guess. ⚑ It is also the lower-stakes of the two: it is Migne's EDIT. note explaining that his `col. 13` cross-reference points at the volumes of his own Patrologia. The note at 0094D, which does carry text a reader needs, IS placed.",
-   "sic_candidate": "⚑ The 0068B note prints `Revocantur lector` -- plural verb, singular subject -- read at 400 dpi with the corners checked first. The same standing note in this volume's Prothemata (a DIFFERENT work, not ours) OCRs as `Revocatur lector`, singular, which would make the Genesis setting a compositor's slip; that plate has NOT been read, so the pair is a lead and not a finding. Left for the translating stint to adjudicate, unadopted.",
-   "verified": "2026-09-05",
-   "notes_placed": 1
-  },
-  {
-   "idno": "9002",
-   "series": "pl",
-   "volume": 114,
-   "tier": 2,
-   "coverage": "spot",
-   "notes_recovered": 0,
-   "columns": "0063A-0178D (whole work)",
-   "method": "Plate spot check at chunking (step 1a, Wilson 2026-08-19 rule), read 2026-09-05 at chunking, BEFORE translation. EIGHT pages read at 150 dpi from the on-disk scan raw/scans/pl114/patrologiaecurs06saingoog.pdf, weighted to the caput divisions, which fall mid-page throughout: p.37 (cols 63/64, the WORK division -- MACHABAEORUM LIBRI DUO and four other stub entries close above a full-width rule and EVANGELIUM SECUNDUM MATTHAEUM opens below it with the PROLOGUS), 47 (83/84, CAPUT IV mid-page), 55 (99/100), 63 (115/116, CAPUT IX mid-page), 70 (129/130, CAPUT XIII mid-page), 78 (145/146, CAPUT XVIII mid-page), 86 (161/162), 94 (177/178, the work's END -- CAPUT XXVIII opens mid-page and the work closes above a full-width rule with blank paper below). Full page width read on every one, foot band included. Map PDF page = (column + 11) / 2 re-confirmed on THIS work's own range from the printed corner numbers BEFORE any note was read (p.37 reads 63 / 64) and re-read on every subsequent page.",
-   "result": "Migne prints NO foot-of-page apparatus anywhere on these pages: no foot rule, no numbered Forte/F. conjecture, no asterisk-keyed cross-reference. The columns simply end with blank paper below the last line on all eight. Recorded as a checked zero, not a skip. Seventh sampling of PL 114.",
-   "caveat": "⚑ p.37 DOES carry an asterisk-keyed note -- `* Vulgata editio, de qua fit mentio in prologo super Baruch, exponitur in prologo super Ezechielem. Caetera plana sunt.` -- but it belongs to PROPHETIA BARUCH (8996), a different work that closes at the head of the same page, and it is set MID-PAGE under that work's preface, not at the page foot. It is the note already recorded under 8996. So the asterisk layer demonstrably exists in this volume and on this very leaf; its absence from Matthew's own eight pages is a checked zero for THIS work and nothing more. ⚠ The sample is 8 of the work's 58 pages; `spot` licenses shipping without [cn:] recovery and does NOT license a claim that the work has no notes.",
-   "verified": "2026-09-05",
-   "notes_placed": 0
   }
  ],
  "fields": {

@@ -1050,6 +1050,42 @@
     }
    ]
   },
+  "8963": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+   "page_map": "PDF page = (column + 11) / 2",
+   "second_witness": "Gallica ark:/12148/bpt6k5505319w, leaf f = (column + 1) / 2",
+   "reads": [
+    {
+     "from": "0379A",
+     "to": "0380D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 195,
+     "source": "on-disk PL 113 scan, full page at 300 dpi with 600/900/1800 dpi crops; CALIBRATION PAGE, printed corners read FIRST and give 379/380. Second witness Gallica f190 fetched and read for both findings.",
+     "found": "No foot-of-page apparatus (checked zero). TWO findings at the head. (1) STRUCTURAL, two-witness confirmed: Migne sets a book-title line under LIBER NUMERI -- \"Hebraice VAIEDABBER (וידבר), id est : ET LOCUTUS EST.\" -- and Corpus Corporum drops it entirely; our TEI body opens at <head>PRAEFATIO.</head>. Hebrew read letter by letter on Gallica at ~8x: vav-yod-DALET-bet-resh, agreeing with Migne own transliteration VAIEDABBER; the archive copy blots the dalet toward a resh, which is why the letter was NOT settled on the archive alone. (2) REFUTED, and it is a PRESS VARIANT, not a defect: the archive copy prints quadripartitum at 0379B where Gallica prints quadripertitum. Our TEI reads quadripertitum, i.e. it agrees with Gallica. Two printings, not two photographs -- cf. Mititte/Mittite at 8950 0171D. No patch, no [sic:], no [var:]."
+    },
+    {
+     "from": "0415A",
+     "to": "0416D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 213,
+     "source": "on-disk PL 113 scan, 300 dpi full page; printed corners read FIRST and give 415/416.",
+     "found": "No foot-of-page apparatus (checked zero). Confirms the work sets its verse lemmata in ITALIC with VERS. n. -- addresses and uses NO guillemets, and that Migne sets chapter numerals in lowercase small caps (Rom. x, Joan. iv, Gen. xxiv, Apoc. iii, Isa. l.) -- the convention already declared on /method."
+    },
+    {
+     "from": "0445A",
+     "to": "0446D",
+     "depth": "read",
+     "date": "2026-09-05",
+     "page": 228,
+     "source": "on-disk PL 113 scan, 300 dpi full page; printed corners read FIRST and give 445/446.",
+     "found": "No foot-of-page apparatus (checked zero). This page carries the END of Numbers (CAPUT XXXV-XXXVI) and the LIBER DEUTERONOMII banner, whose own Hebrew title line -- Hebraice ELLEH HADDEBARIM (אלה הדברים), id est HAEC SUNT VERBA -- is likewise absent from 8945 TEI. 8945 is SHIPPED."
+    }
+   ]
+  },
   "8967": {
    "series": "pl",
    "volume": 113,
