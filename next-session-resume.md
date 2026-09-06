@@ -1,6 +1,142 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-06 — 8963 *LIBER NUMERI* · PREPPED, GATE CLEARED, **NOT LAUNCHED**
+## ▶▶▶▶▶ START HERE 2026-09-06 — 8963 *LIBER NUMERI* ✅ SHIPPED · ✅ PUSHED · ✅ DEPLOYED + SMOKE-TESTED
+
+**Corpus 160 englished works. `/glossa` 54 of 58.** Live at `migne.app/pl/113/liber-numeri/`,
+aliased and smoke-tested on the real domain (work page, cruces, `/glossa`, `/authors`,
+`/scripture`, `/latina`, landing, resolver `/pl/113/435a` — all 200, zero raw brackets).
+`origin/master` at `2af2837`.
+
+**8963 = Anselm of Laon and his school, *Glossa ordinaria* on Numbers, PL 113 cols 0379B–0446D,
+26,346 Latin words, 26 chunks, six Opus stints.** Badge **New English translation** (fail-safe;
+`workStatus` left null, no hunting done). 288 scripture citations, 427 fontes, 2 unparsed recorded.
+
+**56 markers, ZERO on unread columns** — 55 `[var:]` · 2 `[sic:]` · 2 `[ed:]` · 1 `[cj:]`, every one
+on a column read at the plate on **both** printings, every read `full` depth. 33 pages read; **no
+foot-of-page apparatus anywhere in the book**. 12 TEI patches. Polarity: 26 chunks / 13 sites /
+13 ours.
+
+⭐ **ALSO DEPLOYED, and they are NOT new works: 8950 Genesis and 8945 Deuteronomy** now carry the
+Hebrew book-title line (see the class below). Verified live.
+
+---
+
+### ⭐⭐⭐ THE TWO FINDINGS THAT OUTLIVE THE WORK — both written up in the repo, read them first
+
+**1. `data/briefs/PL113-WITNESS-ENCODING.md` — WHAT THE TWO WITNESSES PHYSICALLY ARE.**
+
+    archive  3892x6106 @ 600 ppi — **jbig2, gray, 1 BIT per component** (all 34 pages, uniform)
+    Gallica  1868x3092, 8 bits/sample, ~300 ppi — IIIF full/full IS the ceiling
+
+- ⛔ **There is no higher resolution to go to.** Every crop above 600 dpi (archive) or ~300 ppi
+  (Gallica) is INTERPOLATION. **Do not ask for a higher-resolution render of a PL 113 plate.**
+- ⭐⭐ **"Over-inking" is the wrong name.** A 1-bpc image has no ink gradations. **JBIG2 is a lossy
+  SYMBOL-SUBSTITUTION codec** — it replaces a character with a different, visually similar,
+  *well-formed* one. That predicts this run's class better than ink: archive-only readings that are
+  **sound Latin** (`Applica`/`Accipe`, `lux`/`lex`, `non`/`nos`, `ne`/`nec`, `59`/`39`, `12`/`42`).
+  **Ink smears toward illegibility; a substituting codec smears toward PLAUSIBILITY**, which is far
+  more dangerous, because the product construes.
+- ⛔ **CORRECTION carried forward:** this run repeatedly called archive/Gallica disagreements "two
+  printings". Every 8963 site offered for that is a **single-symbol** difference, which substitution
+  can produce. Two printings stay established corpus-wide by 8950 @0171D `Mititte`/`Mittite`, a
+  **transposition**, which substitution cannot make. **Which of 8963's divergences are press variants
+  is UNDETERMINED.** Do not call one a press variant without a class of evidence substitution cannot
+  produce; otherwise say only *the copies disagree and our TEI follows Gallica*.
+- ✅ **Untouched and strengthened: OUR TEI'S EXEMPLAR IS THE GALLICA PRINTING** (16 agreements to 1).
+  The gate is now vindicated by a MECHANISM, not a tally: **105 archive-only candidates raised, 99
+  refuted, 6 stood, and NOT ONE of the six was Migne's.** The archive may never be the sole witness
+  for a letter, a digit or a point — not "unreliable in practice" but by construction.
+
+**2. `data/briefs/8963-PENDING-TEI-PATCHES-HEAD.md` — THE BOOK-TITLE CLASS, and it is not finished.**
+
+Migne opens every Glossa book with a display line under the `LIBER …` banner giving the book's
+Hebrew (sometimes Greek) name. **Corpus Corporum drops it in all five Pentateuch books.**
+
+    8950 Genesis      ✅ RECOVERED + LIVE   Hebraice dictus בראשית, BERESIT, id est In principio…
+    8945 Deuteronomy  ✅ RECOVERED + LIVE   Hebraice ELLEH HADDEBARIM (אלה הדברים)…
+    8963 Numbers      ✅ RECOVERED + LIVE   Hebraice VAIEDABBER (וידבר), id est : ET LOCUTUS EST.
+    8961 Leviticus    ⬜ OWED, free         Hebraice VAIICRA (ויקרא).           plate p.153 / f148
+    8949 Exodus       ⬜ OWED, free         Hebraice VEELLE SEMOTH (ואלה שמות); Græce ΕΞΟΔΟΣ…  p.97 / f92
+
+⭐ **Encoding RULED by Wilson 2026-09-06: `<head type="book-title">`**, which `chunk-core.mjs` routes
+ABOVE the first head. Do the remaining two the same way; `patch-audit` accepts `col: null` for a
+banner and VERIFIES it precedes the first `<pb>`.
+⛔ **Genesis's p.39 had already been read** — it is the page the `(a) Revocantur lector…` foot note
+came from. That read went to the FOOT and walked past a dropped line in the HEAD of the same page.
+**A plate read is scoped to the question it was sent to answer.**
+⚑ **The second witness changed the Genesis text**: the archive gives `id est PRINCIPIO`, Gallica
+`id est In principio` — the phrase the whole first column glosses.
+⚑ **And it settled the 8950 session's open lead**: Gallica f34 prints **`Revocatur`**, singular and
+grammatical, against the archive's `Revocantur`. `data/plate-notes/8950.tsv` corrected. (That note is
+still the one reported unplaceable, so nothing live turns on it.)
+
+---
+
+### ⛔⛔ THREE TOOL DEFECTS FOUND AND FIXED, ALL THE SAME SHAPE
+
+**A check whose failure mode is a plausible-looking message.** Each was caught by looking at output,
+never by a gate.
+
+1. **`merge-stint-plate-reads.mjs` dropped FOUR OF SIX files in silence.** It normalizes the shape of
+   a READ and assumed the shape of the FILE (`s.reads || []`); six stints wrote four different file
+   shapes. It printed *"merged 6 reads (0 unusable) — 9 total"* over a merge that had lost 28 of 34.
+   **Caught only by the count** (stints had reported ~33 pages). Fixed with an unwrapper AND — the
+   half that matters — **a file yielding zero reads is now an ERROR**.
+2. **`patch-audit.mjs` knew only a read's ENDPOINTS.** A read of 0406D–0408D registered 0406 and 0408
+   and not 0407 — it warned over a column read end to end and would have been SILENT about a real
+   gap mid-range. Ranges now expanded.
+3. **`chunk-core.mjs` dropped the book-title line for any work whose FIRST division exceeds `max`.**
+   The split branch builds fresh unit objects instead of spreading the div. Numbers' short praefatio
+   kept it; Genesis's long CAPUT PRIMUM lost it — **patch applied, audit clean, verify OK, and the
+   line simply was not in the chunked Latin.** Also fixed: `build-work-page.mjs` `sections()` did
+   `.split(/\n## /).slice(1)`, binning everything before the first head; and the incipit took the
+   banner as the work's opening words.
+
+⚑ `patch-build.mjs` also gained `\n` unescaping — a TSV cannot carry a newline and CC wraps
+MID-WORD, so the whole de-hyphenation class was unexpressible (8963 @0383D could not have been filed).
+
+---
+
+### ⚑ WHAT THE BLIND POLARITY READ ACTUALLY CAUGHT — 13 sites, 13 OURS, 0 polarity
+
+Four fenced readers, none allowed to open `cruces.md` first. **Zero dropped or intrusive negations
+work-wide**, checked token by token. The real classes, all invisible to every automated check:
+
+- ⭐ **A crux that diagnosed a defect correctly and the English rendered it the opposite way.**
+  @0402D `venit ad eum QUEM … non credidit` → "came to him WHO had not before believed", making
+  **Christ** the one who did not believe. The cruces entry states the right analysis directly above
+  the wrong English. **The 8967 Pattern-18 shape again: the repair was written out and not carried in.**
+- **Axis breaks that CROSS STINT BOUNDARIES**, which no single stint can see: `plenitudo gentium` →
+  "nations" against the work's own three "Gentiles"; the itinerary lemma split **In X / At X** down
+  the middle of one CAPUT; `castrametati sunt` and `applicare` both → "encamped" in one chunk.
+- **Received English over the plate**: `mons uber` given Douay's "fat" for a *pinguis* Migne does not
+  print; a **verbless** `Quis enim consensus templo Dei cum idolis?` where the English supplied "hath".
+- ⛔ **One finding was a defect I had introduced an hour earlier** — "The sixth is an station", from my
+  own `mansio` sweep replacing across an article. **I reported that sweep as done.**
+- ⭐ **One reader was right about the English and wrong about the cause**, and Gallica settled it:
+  `condescendit` @0435A is what the plate prints; OUR "does not condescend" was the false friend.
+  `feedback_blind-reader-fact-vs-rule` exactly.
+
+⚑ **Count the construction, never the word.** Raw counts looked like drift three times and were not
+(`Aliter` 3/2, `Mystice` 8/6, `Tropologice` 1/0 — ordinary adverbs, not section tags). And my crude
+`-eth` detector threw ~15 false positives; sweeping on it would have wrecked a dozen correct
+scripture quotations.
+
+### Open, none blocking
+- **Two lost Hebrew words @0427B and @0437C stay `[ed:]` holes** (Pattern 13a clause 3). Neither
+  witness resolves the letters and no better capture exists. Do not guess them.
+- Whether `-eth` is licensed in an `*as far as*` **splice tail** (quoted matter, usually a Father, not
+  scripture) is undecided; axis 1's italic test does not cover it. Recorded in the cruces, not swept.
+- 8950's Genesis three unfired `[sic:]` candidates and the lowercase-chapter-numeral convention are
+  unchanged from the 2026-09-05 note below.
+
+### Volume queue
+**8961 Leviticus (29,882)** → 8956 Isaiah (30,254) → 8957 Job (34,107) → 8949 Exodus (43,440).
+Then the PL 113 leftovers: 8971/8972/8973 prologues, 8974 *Additiones*, 8975 *Ad lectorem*.
+⚑ Quote the runbook's **inline** rate (~73K/chunk) for any work whose plates are unread — Numbers
+came in at roughly 2.3M all-in for 26 chunks including the polarity read.
+
+## ▶ HISTORY 2026-09-06 — 8963 prep (superseded by the block above; kept for its gate notes)
 
 ⚠ **The queue moved twice while this file said Genesis.** 9002 Matthew was translated, marked
 `ours`, built, **pushed and deployed** — corpus **159**, `/glossa` **53 of 58** — and this note never
