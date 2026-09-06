@@ -5206,3 +5206,98 @@ stands below it, and the remaining two-fifths of the leaf is blank paper on **bo
 single-witness spot check is now confirmed by a second witness. There is no closing apparatus, no
 colophon and no note to recover: **the Glossa's Matthew, and with it the last gospel in the
 Glossa, ends where our chunk 0041 ends.**
+
+---
+
+# §10. THE BLIND POLARITY READ (step 4a) — four fenced readers, 42 chunks, 17 sites, 13 ours
+
+Run after the merge, by four readers who were fenced from this file, from the pending-patch and
+plate-read files, and from each other. **That fence is why the pass is worth its cost**: in the
+2026-07-28 sweep every agent given the cruces file returned "all already logged" and found nothing,
+while blind readers on the same works found four live defects.
+
+**Yield by range: 3 sites / 11 chunks · 5 / 11 · 1 / 10 · 8 / 10.** The last range is the passion
+and it is the richest, which is what the genre predicts. **Thirteen of the seventeen were OURS**,
+and — the point of the whole step — **not one was visible to any mechanical check this pipeline
+runs.** In every case nothing was added and nothing dropped, so parity, marker counts, band
+punctuation and the ratio all passed; several times **the false reading was the smoother English**.
+
+## The one marker the pass added
+
+**`[sic: justitiam]` @0077D.** Migne prints *dum parit, **justitiam** habet* where the allusion is
+Jo 16:21 *mulier cum parit **tristitiam** habet* — and his own next clause, four words later in his
+own type, prints *Tristitia vestra vertetur in gaudium (Joan. XVI)*. Read at the plate before
+firing, both copies, corners first (archive p.44 at 400 dpi, Gallica f39 at native resolution):
+**both print `justitiam`**, so it is Migne's, and our Latin carries it verbatim, which is what makes
+the marker writable at all.
+⚑ **That column had already been read by the translating stint**, which found and refuted `Henoch`
+on the same page. **A read column is not a read word.**
+
+## The thirteen repairs, by class
+
+**Mis-construal, nothing added or dropped (8):** @0085A *media … historialiter ultima fuit* — the
+middle temptation was HISTORICALLY the last, against an English that contradicted its own clause six
+words earlier · @0164C *aliorum virtutes, aliorum vitia sublevare* — *aliorum vitia* is the object,
+not a second subject, so our page had vices doing the lifting · @0166A *sine qua non sunt virtutes*
+— *qua* is feminine singular and is *fides*, so the English said "the virtues … without which there
+are no virtues", self-contradictory in six words and with faith deleted from the sentence · @0151D
+*Has Dominus pergens, Jerusalem … sublimat* — the object is *has*, the two towns whose etymologies
+(*domus buccae*, *domus obedientiae*) the *quia*-clause then expounds as confession and obedience ·
+@0155B *sicut de praesenti Ecclesia* attached to *repellitur*, not to *Lucas dicit* · @0154A *debuit
+… signare* rendered "ought to have marked", which in English asserts he did not, against *unde et
+mirabantur* · @0153C *Christi* pulled back onto *miraculorum*, so that "Christ's infants" — the very
+phrase the sentence defines — vanished · @0176C "so great an interval" for *tanto intervallo*, which
+made the clause explain *a longe* when it is explaining *juxta*.
+
+**Negation relocated or mis-hosted (2):** @0130A *necdum … cum Christo ascendunt* — the `necdum` was
+hung on the participle and the finite verb left affirmative, so the page said the newly-arrived
+crowd **does** ascend with Christ, against the lemma itself (Mt 13:2, the crowd on the shore) and
+against Migne twice more on the same plate · @0119C the splice tail *parva otiosaque dicta eum
+lateant*, whose `lateant` is subjunctive, had become a flat assertion reversing the gloss.
+
+**A case ending read wrong (1):** @0121A *Christus **aliis** praedicatur, et **ab aliis** recipitur*
+— "preached **by** some" for "**to** some". The dative is fixed by the deliberate *ab* on the second
+member and by the next clause, *sui respuunt, inimici accipiunt*.
+
+**An invented supply carrying a polarity (1):** @0117A *Quia Synagoga laetitiam Dominicae
+inhabitationis, etc.* — the verb is inside what the `etc.` cut away, and our English had supplied
+"**[lost]**", while the surviving tail (*paruit in susceptione*) points the other way. **No verb is
+ever supplied to complete the splice.**
+
+**A subject supplied without warrant (1):** @0089A *idem utriusque … factus* had become "the same
+**day**"; `factus` is masculine and the subject is *sermo*.
+
+## ⛔ ONE FINDING DECLINED, AND IT IS THE DOCUMENTED FALSE POSITIVE
+
+**@0173D `*Nihil tibi.*` rendered "Have thou nothing to do with that just man"** was reported as an
+over-expansion, on the ground that every other lemma in the chunk is at Migne's length. **Declined.**
+Mt 27:19 reads *Nihil tibi et justo illi*, so the lemma is **clipped**, and convention 3 renders a
+clipped lemma as the phrase it stands for — Ruth's *Non te* → "Let no man see thee" is the precedent
+the convention was written on. ⚑ The controlling ruling: **the defect is never expansion or its
+absence, it is CONFORMATION**, and where a work treats the same stump two ways it is resolved **by
+expanding, never by contracting its twin**. Three readers in one earlier batch raised this same class
+and all three were declined; a control has to be the same class as the thing it controls, and a
+complete one-word lemma is not the same class as a clipped one.
+
+## Deliberately left alone
+
+⚑ **No negative was supplied at @0119C**, although the Glossa on Luke in this repo prints the same
+sentence as *NEC parva NEC otiosa dicta eum lateant* and our `otiosaque` does look like the fused
+residue of *nec otiosa*. **A rendering found in another BOOK is a hint, never an authority** — each
+book is its own plate, and this plate prints no negative.
+
+⚑ **The lemma `*Infantium et lac*` @0153C is left as it stands** and the question recorded rather
+than decided: Ps 8:3 reads *infantium et **lactentium***, so "sucklings" may be convention 3 doing
+its job on a clip, or may be conformation against a *lac* Migne meant — and the gloss argues from
+BOTH words (*Lactentes quasi lacte … quae dicuntur lac*). Two readings both construe; per the
+standing rule that is a crux, not a silent choice.
+
+⚑ **Three readers each flagged "silently normalised" plate defects with no `[sic:]`** (fifteen
+instances between them). **All are the filed TEI-patch class**, where the marker cannot be written
+until the patch lands because it would have to quote a word no longer in our Latin. A fenced reader
+cannot know that, and each said so. **Re-deriving a settled question is the price of blindness and
+it is worth paying.**
+
+⚑ One reader ran the corroborating count and recorded that **every chunk carries more English
+negatives than Latin, with no deficits anywhere** — logged so the counts could never later be read
+as a clean bill of health.
