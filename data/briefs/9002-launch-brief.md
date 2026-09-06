@@ -344,3 +344,38 @@ applies with more force here, because a `[sic:]` at least quotes a word a reader
 
 ⚑ Feet of all seven pages in that range were then inspected on **both** copies: checked zero, no
 apparatus anywhere in cols 0096–0108. That is the right way to close it.
+
+---
+
+## §9. THE SECOND WITNESS IS NOT A CORRECT WITNESS — 0022–0026, 2026-09-05
+
+Five stints have now measured the archive copy against Gallica and it has lost 12/13, 20/21,
+15/16, 8/9, 17/17 and 14/16. **That is a fact about a photograph, and it must not harden into
+"Gallica is right."**
+
+⛔ **Gallica has its own divergences, and this stint found them only because it read every Gallica
+column whether or not the archive had raised anything.** At **@0131B the ARCHIVE prints a terminal
+stop that Gallica and our twin both lack** — so a reader working the other way round, checking
+Gallica only where the archive looked odd, would have **supplied a mark Migne did not print**. An
+earlier stint found Gallica's own `sni` for `sui`.
+
+⚑ **The method that produced this is the point: read the second witness across your whole range,
+not only at your candidates.** A witness consulted only where you already suspect something can
+confirm and refute; it cannot surprise you, and the divergences it would have shown you never
+enter the ledger.
+
+### ⚑ AND A NEW CLASS, LEFT ALONE DELIBERATELY: THE TWO PRINTINGS DISAGREE ABOUT THE `VERS.` DASH
+
+At **six addresses in one range** the `VERS. n.--` dash is present in one printing and absent in
+the other, **in both directions**. This is the same fact as the dashless addresses
+`lemma-inventory.mjs` did not know about (§7) seen from the other side: **the dash is not stable
+type, so it is evidence of nothing.** Do not mark it, do not patch it, and do not let its presence
+or absence decide whether a span is a verse lemma — **the `VERS.` number and the CAPUT head decide
+that.**
+
+⭐ Also from this range, and it is the register's job rather than the plate's: an axis departure
+**declared and argued** at @0135B, where Isidore's `sacramentum` is Herod's **oath** — the
+passage's own words are *jurasse*, *perjurio*, *promittitur*, *stupro* — so "sacrament" there
+would not merely be awkward, it would be **false**. Rendered "oath", the rival named, and every
+other `sacramentum` in the range kept to the axis. **That is what a declared departure looks like:
+the axis holds until the Latin forces it, and the cruces says what forced it.**

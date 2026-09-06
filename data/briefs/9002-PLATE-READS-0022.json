@@ -74,7 +74,7 @@
       "cols": "0135A-0136D",
       "witnesses": ["archive", "gallica"],
       "corner_numbers_checked": true,
-      "found": "==> [sic:] FIRED. @0135B BOTH WITNESSES print the lemma 'Constristatus' for Mt 14:9's 'contristatus'. Gallica re-fetched at native resolution (f68, crop 150,1030,500,60): 'Constristatus', with the intruded s, is unambiguous. Our twin carries it verbatim; marker fired, sense rendered beside it per the 2026-09-05 amendment to Pattern 7. ==> TEI patch 3. @0134D both witnesses print 'Quod ergo ait :' with a COLON; our twin prints a semicolon. The English carries the colon and it is this stint's single deliberate band-level punctuation mismatch. One archive candidate refuted: @0136D 'duitinae tribulationis' (Gallica 'diutinae'). One VERS.-dash disagreement: @0136B archive 'VERS. 22. --', Gallica and twin 'VERS. 22.'. CONFIRMED on both: @0135D 'Omnes gentes quasi non sint, sed sunt coram eo' (Is 40:17 has 'sic sunt'), @0136A 'Animalis enim homo' (1 Cor 2:14 'autem'), @0136A 'in lege et prophetis plurimis de me' (Lc 24:44 'psalmis'), @0136D 'Vidit eos laborantes remigando' (Mc 6:48 'videns ... in remigando') -- four [var:] fired."
+      "found": "==> [sic:] FIRED. @0135B BOTH WITNESSES print the lemma 'Constristatus' for Mt 14:9's 'contristatus'. Gallica re-fetched at native resolution (f68, crop 150,1030,500,60): 'Constristatus', with the intruded s, is unambiguous. Our twin carries it verbatim; marker fired, sense rendered beside it per the 2026-09-05 amendment to Pattern 7. ==> TEI patch 3. @0134C (chunk 0026 head band) both witnesses print 'Quod ergo ait :' with a COLON; our twin prints a semicolon. The English carries the colon and it is this stint's single deliberate band-level punctuation mismatch. One archive candidate refuted: @0136D 'duitinae tribulationis' (Gallica 'diutinae'). One VERS.-dash disagreement: @0136B archive 'VERS. 22. --', Gallica and twin 'VERS. 22.'. CONFIRMED on both: @0135D 'Omnes gentes quasi non sint, sed sunt coram eo' (Is 40:17 has 'sic sunt'), @0136A 'Animalis enim homo' (1 Cor 2:14 'autem'), @0136A 'in lege et prophetis plurimis de me' (Lc 24:44 'psalmis'), @0136D 'Vidit eos laborantes remigando' (Mc 6:48 'videns ... in remigando') -- four [var:] fired."
     },
     {
       "pages": "archive p.74 / gallica f69",
@@ -121,7 +121,7 @@
     {"col": "0135B", "reading": "Constristatus", "verdict": "[sic:] FIRED -- non-word, both witnesses, verbatim in our twin"},
     {"col": "0130C", "reading": "Sexagesimum", "verdict": "TEI patch 1 -- our twin has the non-word Scaagesimum"},
     {"col": "0134A", "reading": "ad coelum trahit (no comma)", "verdict": "TEI patch 2 -- our twin inserts a comma"},
-    {"col": "0134D", "reading": "Quod ergo ait :", "verdict": "TEI patch 3 -- our twin prints a semicolon"},
+    {"col": "0134C", "reading": "Quod ergo ait :", "verdict": "TEI patch 3 -- our twin prints a semicolon"},
     {"col": "0131B", "reading": "bene regunt with no terminal stop", "verdict": "our twin is right; the archive's stop is refuted. No patch, no marker."}
   ]
 }

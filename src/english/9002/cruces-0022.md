@@ -56,7 +56,7 @@ participle is his construction and not a reading. That is the 0000–0005 stint'
 
 **4. Where the plate was read and our twin diverges, the English renders the plate.** Three sites,
 all three Corpus Corporum's, all three filed as pending patches: @0130C `Scaagesimum` → **plate
-`Sexagesimum`**; @0134A a comma our file inserts in `ad, coelum`; @0134D a semicolon where both
+`Sexagesimum`**; @0134A a comma our file inserts in `ad, coelum`; @0134C a semicolon where both
 plates print a colon. **The third is this stint's single deliberate band-level punctuation
 mismatch** and is declared as such in §(d) 12.
 
@@ -80,6 +80,8 @@ ordinary.** Every one of the ten is preceded immediately by `etc.,` and every on
 **"as far as"**: @0127A, @0128A, @0129C, @0130A, @0131C ×2, @0131D, @0135A, @0135B, @0136C.
 **The one ordinary use carries no `etc.` and is named here as the axis requires:** @0124D
 *manus … arida erat **usque ad tempus Christi***, temporal, rendered "**until** the time of Christ".
+⚑ A twelfth occurrence is bare *usque*, not *usque ad*: @0134A *quae **usque hodie** trahitur*,
+rendered "which is drawn **even to this day**".
 ⚑ And @0130A is worth a line of its own: the formula there is followed by a resumption tail that
 itself begins *ad quae* — `etc., usque ad ad quae Judaei non intraverunt`. **Both witnesses print
 the doubled *ad*, and it is not a dittography**: the first belongs to the formula, the second to the
@@ -96,9 +98,11 @@ dies*) and for Peter to Christ (0137A *Domine, si tu es … ad tuam imitationem*
 way of the Gentiles*, *It is I, fear ye not*, *And bind ye*. The scripture-echo licence covers the
 quoted words and stops where they stop.
 
-**8. Nothing supplied.** No bracketed conjecture stands in the running text anywhere in this stint,
-and where Migne's sentence lacks a word English cannot do without, the English is left as broken as
-the Latin and the site is logged in §(d).
+**8. Nothing supplied but one bracketed word, and it is named.** No bracketed **conjecture** stands
+in the running text anywhere in this stint, and where Migne's sentence lacks a word English cannot do
+without, the English is left as broken as the Latin and the site is logged in §(d). **The single
+exception is @0132B `[good]`**, argued in §(d) 24 — a supplied English complement in the corpus's
+bracket convention, not a reading.
 
 ---
 
@@ -442,6 +446,24 @@ subjects is ordinary Latin usage, not a fact about this printing** — the class
 evidence for is a disagreement Latin does not license, and this is not one. "David and Abimelech is
 not reproved" would read as our error, which is Pattern 9's own argument.
 
+⚑ **The same construction recurs at @0135C** — *Postquam apud Judaeos lex et propheta caput **perdit**
+et vocem* — and is rendered the same way ("the law and the prophet lose their head and their voice"),
+on both witnesses, for the same reason. Recorded so the pair is visible as a class rather than as two
+unrelated normalizations.
+
+### 24. @0132B — the one bracketed word in the stint
+
+*ideo eos non esse tollendos, **ne forte interficiantur, qui forte futuri sunt***. The relative
+clause has no complement: *futuri sunt* is "are going to be", and Latin leaves what they are going
+to be to the argument. English cannot. Rendered "lest perhaps they be slain **who perhaps are yet to
+be [good]**", in the corpus's square-bracket convention for our own supplied words.
+
+Naming the supply, as the brief requires: it is **good**, and Migne's own next clause fixes it —
+*vel ne bonis obsit, quibus prosunt*, and the paragraph before it *Non nosse hominem in hac vita
+**qualis futurus sit** qui modo errat*. The whole argument is that today's tares may be tomorrow's
+wheat. The rival supply ("who perhaps are yet to be **such**", i.e. still tares) inverts the reason
+for sparing them and is rejected on that ground. **Nothing else in five chunks is bracketed.**
+
 ### 6. @0126B — the unexpressed reference of `in se`, named
 
 *quod innuit eos sibi elegisse, dum **in se** non credunt.* Rendered "while they do not believe **in
@@ -496,13 +518,13 @@ in a construction that parses, so `[sic:]` is closed to it, and the English is o
 false, which 18a's ❌ covers. **Migne's question mark rides**, as it does at every one of the range's
 seven interrogatives.
 
-### 12. @0134D — the one deliberate band-level punctuation mismatch
+### 12. @0134C — the one deliberate band-level punctuation mismatch
 
 Our twin prints *Quod ergo ait**;*** where **both witnesses print a colon**, with Migne's usual space
 before it. Under `translation-style.md` §"What the English translates — THE PLATE WHERE READ" the
 English carries the colon ("What therefore he says: *This is John*"), and the site is filed as
-pending patch 3. That single change is why the 0134D band shows one colon more and one semicolon
-fewer than the Latin twin. It is declared, not swept.
+pending patch 3. That single change is why chunk 0026's head band (col 0134C) shows one colon more
+and one semicolon fewer than the Latin twin. It is declared, not swept.
 
 ### 13. @0131B — a terminal stop the archive has and Gallica has not
 
@@ -574,9 +596,9 @@ of my five chunks:
 - **guillemets: zero, in both** — this book prints none.
 - **colons: zero mismatched bands**, after I removed five I had supplied (@0128C, @0128D, @0131D,
   @0133B, @0134B) and restored two I had destroyed (@0126C *Neque enim possunt esse concordes**:***,
-  and the head band of chunk 0023, *Ostendit eos malam arborem**:***). ⚑ **The two restorations are
+  and @0127D, the head band of chunk 0023, *Ostendit eos malam arborem**:***). ⚑ **The two restorations are
   the finding**, not the removals: both were marks of Migne's that my first draft had quietly
-  swallowed, and only the band comparison found them. **One deliberate exception stands**, @0134D,
+  swallowed, and only the band comparison found them. **One deliberate exception stands**, @0134C,
   declared in §(d) 12.
 - **semicolons: 11 bands where the English has one more than the Latin, and none where it has
   fewer** (@0125B, @0126B, @0129A, @0130D, @0131A, @0132B ×2, @0134A, @0135A, @0136A, @0136C,
@@ -679,7 +701,7 @@ the other, i.e. a textbook Pattern 18 site with nothing behind it at all.
 The class that leaves nothing to notice is the one where the digitization has **corrected** Migne. I
 looked for it deliberately at the places where our Latin reads smoothly in rough surroundings, and I
 read whole lines rather than target words. **In this range the answer is: none found, and the three
-patches all run the other way** — @0130C, @0134A and @0134D are the digitization corrupting, not
+patches all run the other way** — @0130C, @0134A and @0134C are the digitization corrupting, not
 tidying.
 
 ⭐ **The negatives are worth more than the search**, and the brief asks for them explicitly. The four

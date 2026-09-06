@@ -49,7 +49,7 @@ ownership, and it is ours.
 
 Chunk 0025. The English reads "which draws from the waves of the world to heaven", with no comma.
 
-## 3. @0134D — a semicolon where both plates print a colon
+## 3. @0134C — a semicolon where both plates print a colon
 
 | | |
 |---|---|
@@ -60,8 +60,8 @@ Chunk 0025. The English reads "which draws from the waves of the world to heaven
 | **marker after patch** | none |
 
 Chunk 0026. The English reads "What therefore he says: *This is John…*". **This is the single
-deliberate band-level punctuation mismatch in this stint** — the 0134D band shows the English with
-one colon more and one semicolon fewer than the Latin twin, and it is the plate-where-read rule
+deliberate band-level punctuation mismatch in this stint** — chunk 0026's head band (col 0134C)
+shows the English with one colon more and one semicolon fewer than the Latin twin, and it is the plate-where-read rule
 operating, not a supplied mark. It is the same class as the 0006–0011 stint's @0081D.
 
 ---
