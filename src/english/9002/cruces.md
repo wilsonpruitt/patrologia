@@ -45,8 +45,8 @@ formula). Where a claim in a stint's file could be checked against the chunks, i
    285 of them. Migne's attributions in this recension are unreliable and passing one through is
    not endorsing it.
 4. **`## ` heads: numerals mirror the plate.** `CAPUT PRIMUM.` → `CHAPTER ONE.`, `CAPUT XIII.` →
-   `CHAPTER XIII.` Checked chunk by chunk across all 42: **one spelled form (PRIMUM/ONE) and
-   twenty-six numeral forms, and not one stint spelled a numeral out.** `PROLOGUS.` → `PROLOGUE.`
+   `CHAPTER XIII.` Checked chunk by chunk across all 42: **28 CAPUT heads — one spelled
+   (PRIMUM/ONE) and 27 in numerals (II–XXVIII) — and not one stint spelled a numeral out.** `PROLOGUS.` → `PROLOGUE.`
 5. **Italic spans are 1:1 with the Latin, in the same place.** Verified mechanically at the merge,
    after markers are stripped: **exact parity in all 42 chunks.** Two supplied spans were found and
    removed — see §1.4.
@@ -61,7 +61,7 @@ Every figure below is a count over the whole work, Latin against English, made a
 
 **Axis 1 — the commentator's own voice is NOT archaised.** `dicit`/`ait`/`dixit` → *says*/*said*
 throughout; no *saith*. Third-person `-eth` forms outside an italic span number **four** in 74,630
-English words (*asketh*, *taketh* @0012; *believeth* @0135C; *knoweth* @0123B) and **all four sit
+English words (*taketh* @0097A, *asketh* @0097C, *believeth* @0135C, *knoweth* @0123B) and **all four sit
 inside quoted scripture carried in roman** — Mt 5:42, Lc 6:29, Rom 10:4, Mt 11:27. The `-est` forms
 are second-person singular and are Pattern 17's, not archaism.
 ⚑ **The recorded test is italic membership; the practice is slightly wider, and deliberately so:**
@@ -228,11 +228,14 @@ actually conflict about the gloss's voice, which is what matters: "ye" never onc
 commentator's own prose, in any of the eight ranges.**
 
 Where they do differ is finer, and it is real: a **bare plural imperative lemma** is rendered
-without "ye" in five stints (*Petite.* "Ask." · *Attendite.* "Beware." ×3 · *Sinite.* "Suffer." ·
-*Nuntiate.* "Tell." · *Docete.* "Teach." · *Orate.* "Pray." · *Diligite.* "Love." · *Benefacite.*
-"Do good." · *Nolite judicare.* "Judge not.") and **with** it at three sites in three others
-(*Intrate.* "Enter ye." @0110A · *Et alligate.* "And bind ye." @0132D · *Vigilate.* "Watch ye."
-@0164D) — and the 0022–0026 and 0032–0037 stints are each internally split on it.
+**without** "ye" at every site but three (*Petite.* "Ask." · *Attendite.* "Beware." ×3 ·
+*Nolite judicare.* "Judge not." · *Sinite.* "Suffer." · *Orate.* "Pray." · *Diligite.* "Love." ·
+*Benefacite.* "Do good." · *Nuntiate.* "Tell." · *Docete.* "Teach."), and **with** it at exactly
+three (*Intrate.* "Enter ye." @0110A · *Et alligate.* "And bind ye." @0132D · *Vigilate.*
+"Watch ye." @0164D). ⚑ **All three of those stints are internally split on it** — 0016–0021 prints
+"Ask." and "Beware." beside "Enter ye."; 0022–0026 prints "Suffer." beside "And bind ye.";
+0032–0037 prints "Give us of your oil," and "And give it to him," beside "Watch ye." So this is not
+one stint's house style against another's; it is the same hand choosing per verse.
 
 **RULING: this is not swept, and the reason is a rule of this edition and not fatigue.** Both forms
 are plural and both satisfy Pattern 17, so neither is a defect; and the two available sweeps are
@@ -297,11 +300,19 @@ method this work should be cited for.
 
 ## 1.8 THE TALLIES
 
+⚠ **These counts are AS OF THE MERGE, and the step-4a polarity pass is running concurrently and is
+adding to them.** It has already landed one `[sic:]` this file's own stint files do not have —
+@0077D *justitiam* for *tristitiam* (Jn 16:21, *mulier cum parit **tristitiam** habet*, which is the
+verse the clause quotes and which its own next words answer). ⭐ That site is worth naming for a
+reason bigger than the count: **four earlier readers walked past it**, and it is the class
+runbook 4a exists for — *the plate hands a lemma-and-gloss commentary its own contradicting
+neighbour.* ⛔ **Re-derive these numbers before deploy; do not read them off this table.**
+
 **Markers, by stint (chunks · `[var:]` · `[sic:]` · `[cj:]` · `[d:]` · `[ed:]` · `[n:]`):**
 
 | stint | cols | var | sic | cj | d | ed | n |
 |---|---|---|---|---|---|---|---|
-| 0000–0005 | 0063A–0078D | 6 | 0 | 0 | 0 | 0 | 52 |
+| 0000–0005 | 0063A–0078D | 6 | 0 *(+1 from 4a: @0077D)* | 0 | 0 | 0 | 52 |
 | 0006–0011 | 0079A–0096B | 13 | 0 | 0 | 0 | 0 | 58 |
 | 0012–0015 | 0096C–0107B | 12 | 1 | 1 | 0 | 0 | 30 |
 | 0016–0021 | 0107C–0123D | 6 | 0 | 0 | 0 | 0 | 26 |
@@ -309,17 +320,19 @@ method this work should be cited for.
 | 0027–0031 | 0137C–0150A | 7 | 0 | 1 | 0 | 0 | 30 |
 | 0032–0037 | 0150B–0166D | 7 | 1 | 0 | 0 | 0 | 22 |
 | 0038–0041 | 0167A–0178D | 9 | 0 | 1 | 0 | 0 | 25 |
-| **work** | **0063A–0178D** | **73** | **4** | **3** | **0** | **0** | **285** |
+| **work (stints)** | **0063A–0178D** | **73** | **4** | **3** | **0** | **0** | **285** |
+| **+ step 4a so far** | | | **+1** | | | | |
 
-Zero `[d:]`, zero `[ed:]`, zero `[nt:]`, zero `[cn:]`. **`plate-gate.mjs 9002` passes on all 77
-`[sic:]`/`[var:]`.**
+Zero `[d:]`, zero `[ed:]`, zero `[nt:]`, zero `[cn:]`. **`plate-gate.mjs 9002` passes on all of
+them** — 78 markers standing on 64 recorded reads at the time of writing.
 
-**The four `[sic:]`, each on two witnesses and each quoting a word still verbatim in our Latin:**
-@0097A *nomo* · @0131A *Excaevavit* · @0135B *Constristatus* · @0158D *in est*.
-⚑ Four in 45,922 words is what this class looks like when it is measured. Four of the eight stints
-report **zero**, and each says why: every defect they found was the digitization's, and at those
-sites the marker cannot even be written — it would fail the verbatim-substring guard and would
-accuse Migne of Corpus Corporum's error.
+**The `[sic:]` — each on two witnesses and each quoting a word still verbatim in our Latin:**
+@0097A *nomo* · @0131A *Excaevavit* · @0135B *Constristatus* · @0158D *in est*, and from the
+polarity pass @0077D *justitiam*.
+⚑ Four or five in 45,922 words is what this class looks like when it is measured. Four of the eight
+stints report **zero**, and each says why: every defect they found was the digitization's, and at
+those sites the marker cannot even be written — it would fail the verbatim-substring guard and
+would accuse Migne of Corpus Corporum's error.
 
 **The three `[cj:]`:** @0107B *Dei* for *diei* · @0146B *Jesus* for *laesus* · @0170B *non occidant*
 for *occidant*. All three keep Migne's word in the English and stand the conjecture beside it.
