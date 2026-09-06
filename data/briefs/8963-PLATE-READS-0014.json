@@ -1,0 +1,75 @@
+{
+  "_note": "Stint-scoped plate-read record for 8963 chunks 0014-0018 (cols 0415A-0427B). MERGE INTO data/plate-reads.json under works.8963 — written separately because peer stints were running concurrently and a shared write would have raced. Printed corner numbers were read FIRST on every page of BOTH witnesses. Includes checked zeroes. ⭐ p.213 was already recorded from the chunking spot check at depth 'read'; it is re-recorded here at depth 'full' because this stint collated both its columns word by word against both witnesses.",
+  "8963": {
+    "series": "pl",
+    "volume": 113,
+    "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+    "page_map": "PDF page = (column + 11) / 2 — VERIFIED against the printed corner numbers on all seven pages read here (p.213=415/416, 214=417/418, 215=419/420, 216=421/422, 217=423/424, 218=425/426, 219=427/428)",
+    "second_witness": "Gallica ark:/12148/bpt6k5505319w, leaf f = (column + 1) / 2 — VERIFIED against the printed corners on every leaf fetched: f208 (415/416), f209 (417/418), f210 (419/420), f211 (421/422), f212 (423/424), f213 (425/426), f214 (427/428)",
+    "reads": [
+      {
+        "from": "0415A",
+        "to": "0416D",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 213,
+        "source": "on-disk PL 113 scan, corner numbers 415/416 read first, both columns collated word by word at 300 dpi with a 600 dpi re-crop at the VERS. 14 siglum; Gallica f208 read column by column",
+        "found": "NO foot-of-page apparatus of either layer (checked zero — the foot of p.213 is blank below the text). CONFIRMED as Migne's ON BOTH WITNESSES: *quod est esca et nutrimentum ignis Si gustaveris* @0416C with NO full stop after *ignis*, exactly as our twin has it; the OUT-OF-SEQUENCE head VERS. 16 printed AFTER VERS. 17 at 0416D; *Hanc quaesivi mihi ducere uxorem* (Sap. VIII) @0415D against the Clementine's *quaesivi sponsam mihi eam assumere*; *Congrega populum et dabo ei aquam de puteo* @0416A, where Nm 21:16 ends at *aquam*. ONE ARCHIVE READING REFUTED at Gallica: (AUG., quaest. 12.) @0415C — Gallica prints 42, as our twin has, and 42 also fits the sequence after quaest. 40 at VERS. 3."
+      },
+      {
+        "from": "0417A",
+        "to": "0418D",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 214,
+        "source": "on-disk PL 113 scan, corner numbers 417/418 read first, both columns collated word by word at 300 dpi with 600 dpi re-crops at two sites; Gallica f209 read column by column with two 1800 px crops",
+        "found": "⭐⭐ LOST HEBREW, CONFIRMED ON BOTH WITNESSES @0418B: the plate prints *In Jasa, Hebraice iahtsah* followed by a pointed Hebrew word (yod-he-tsade-he), read at 600 dpi on the archive and 1800 px on Gallica; our twin has dropped it entirely. TEI patch filed; no marker, because the loss leaves the sentence sound and Migne's transliteration stands beside it (Pattern 13a clause 1, and the 8950 @0167D precedent). Our Latin for this whole stint carries NO Hebrew or Greek character, so any non-Latin type here is by definition a loss; both columns of all seven pages were checked and this is the only one in cols 0415A-0427B. NO foot-of-page apparatus of either layer (checked zero). ⭐ TWO SITES WHERE THE TWO PRINTINGS DIFFER AT WORD LEVEL AND OUR TWIN FOLLOWS GALLICA: @0417A Gallica prints the non-word *putenm* and the archive prints a clean *puteum* — our twin has *putenm*, so the non-word is MIGNE'S TYPE IN OUR EXEMPLAR, not the digitization's; no patch, no [sic:], rendered by sense (the word is *puteum* either way). @0418A Gallica prints *Quia omnis mundus in maligno positus ES* and the archive prints *positus EST* — our twin has *es*; rendered by sense, no marker, because the witnesses disagree. CONFIRMED as Migne's on both witnesses: *alta Dei* for 1 Cor 2:10's *profunda Dei* @0416D-0417A; the conflated Mt 5:19 *Qui fecerit et docuerit sic homines, magnus vocabitur* @0417B; *Ecce princeps hujus mundi mittetur foras* for Jn 12:31's *nunc ... ejicietur* @0418A; *Munera mea data mea* cited to (Levit. II) @0417D, a phrase in no Clementine verse."
+      },
+      {
+        "from": "0419A",
+        "to": "0420D",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 215,
+        "source": "on-disk PL 113 scan, corner numbers 419/420 read first, both columns collated word by word at 300 dpi; Gallica f210 read column by column with an 1800 px crop at the 0419A candidate",
+        "found": "NO foot-of-page apparatus of either layer (checked zero). ⭐ ONE SITE WHERE THE PRINTINGS DIFFER AND OUR TWIN FOLLOWS GALLICA: @0419A *ut de eorum. correctione et profectu* — Gallica prints a FULL STOP after *eorum*, the archive prints a comma, and our twin has the stop. It is Migne's own mark in our exemplar and it rides into the English under Pattern 8; no patch, no marker. CONFIRMED as Migne's on both witnesses: *Non erit auguratio in Jacob, neque divinatio in Israel* @0419C against Nm 23:23's *Non est augurium ... nec divinatio* — [var:] fired; *Secuti viam Balaam filii Beor, qui mercedem iniquitatis dilexit* @0420B against 2 Pt 2:15's *ex Bosor ... amavit* — [var:] fired; *Scrutare Scripturas et vide quia propheta a Galilaea non surgit* @0420B, Jn 7:52 in Migne's word order; *Angelus meus ibit tecum* cited to (Exod. XXXII) @0420C; the singular *nec daemones SCIT benedicere* @0419C. ONE ARCHIVE READING REFUTED at Gallica: *finisque REGUI Sehon* @0418D (Gallica *regni*, as our twin)."
+      },
+      {
+        "from": "0421A",
+        "to": "0422D",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 216,
+        "source": "on-disk PL 113 scan, corner numbers 421/422 read first, both columns collated word by word at 300 dpi with a 600 dpi re-crop at the 0422B line end; Gallica f211 read column by column",
+        "found": "NO foot-of-page apparatus of either layer (checked zero). CONFIRMED as Migne's on both witnesses: *Et quomodo cecidit Lucifer qui mane oriebatur?* @0421B against Isa 14:12's second-person *cecidisti ... oriebaris* — [var:] fired; *Quia stulta mundi elegit Deus, ut confunderet sapientes* @0421B for 1 Cor 1:27; *Maledictus tu ab omnibus bestiis terrae* cited to (Gen. III) @0422B; the terminal question mark on the abridgment tail *haec vero a perfectioribus secretius advertenda sunt?* @0422D; *non potest abscondi civitas supra montem posita* @0422C in Migne's word order. TWO ARCHIVE READINGS REFUTED at Gallica: a terminal period after *in Israel orituram* @0422B (Gallica has NONE, as our twin — so the missing stop is Migne's and rides into the English); *Populus TOTUS habitabit* @0421D (Gallica *solus*, as our twin, and as Nm 23:9)."
+      },
+      {
+        "from": "0423A",
+        "to": "0424D",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 217,
+        "source": "on-disk PL 113 scan, corner numbers 423/424 read first, both columns collated word by word at 300 dpi; Gallica f212 read column by column with two crops at 1800 px",
+        "found": "NO foot-of-page apparatus of either layer (checked zero). CONFIRMED as Migne's on both witnesses: *sed verbum quod DEUM posuit in ore ejus respuere non audet* @0423B, where the parallel at 0421C (*verbum Dei positum in ore ejus*) wants *Deus* — a real word in a real slot, so rendered literally, crux only, no [cj:]; *In tempore dicetur Jacob, et Israeli quod perficiet Deus* @0423B against Nm 23:23's *temporibus suis ... quid operatus sit Deus* — [var:] fired; *Non est augurium in Jacob* @0423A, printed here in the Clementine's own wording, four columns after the divergent *Non erit auguratio* at 0419C; *Erigendum dicit populum futurum, de eo enim quae videbat, dixisset, erectus est* @0423C. FOUR ARCHIVE READINGS REFUTED at Gallica: *Admonitio PRAECATIONIS* @0423A (Gallica *praedicationis*, as our twin); *non audet Nisi enim* with no stop @0423B (Gallica has the stop, as our twin); *OON accubabit* @0423C (Gallica *Non*, as our twin); *fundavit in GLORIN* @0424C (Gallica *gloria*, as our twin). ⚠ A FIFTH candidate was raised against GALLICA and withdrawn: *super illam* @0423D read at 1400 px is *super illum* at 1800 px, agreeing with the archive and our twin — the same low-resolution trap the launch brief records for Gallica's digits."
+      },
+      {
+        "from": "0425A",
+        "to": "0426D",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 218,
+        "source": "on-disk PL 113 scan, corner numbers 425/426 read first, both columns collated word by word at 300 dpi; Gallica f213 read column by column",
+        "found": "NO foot-of-page apparatus of either layer (checked zero — the only matter below the text is the gathering signature PATROL. CXIII. and the sheet number 14). ⭐ ONE SITE WHERE THE PRINTINGS DIFFER AND OUR TWIN FOLLOWS GALLICA: @0425D the head is printed with an UNCLOSED OPENING PARENTHESIS, *(VERS. 16.-- Qui cadens apertos habet oculos.*, on Gallica and in our twin, while the archive prints no paren at all. It is Migne's own unbalanced mark in our exemplar; preserved in the English, no patch, no marker. CONFIRMED as Migne's on both witnesses: *(Joan. 9)* with an ARABIC numeral @0425A; *Discessurus tamen BALAM* @0425C, the short form, matching *Quod ait Balam* at 0420B; *Discede de medio Amalec et non percutiam te, quia fecisti misericordiam Israel* cited to (I Reg. XV) @0426C, well away from 1 Sam 15:6's wording; the lowercase siglum *(Id.)* at VERS. 18 @0426B against *(ID.)* elsewhere; the truncated lemma *Non potero praeterire sermonem Domini Dei mei, ut vel boni* @0425B. FIVE ARCHIVE READINGS REFUTED at Gallica: *VASTUBITQUE omnes* @0426A (Gallica *Vastabitque*, as our twin); *BALAAM* for *Balam* @0425C (Gallica *Balam*, as our twin); a missing terminal period after *(Eccli. xxiv)* @0426D (Gallica has it, as our twin); a missing comma after *qui tunc salvabitur* @0426A (Gallica has it, as our twin); *lib xv Moral.* without the point @0425C (Gallica *lib.*, as our twin)."
+      },
+      {
+        "from": "0427A",
+        "to": "0427B",
+        "depth": "full",
+        "date": "2026-09-06",
+        "page": 219,
+        "source": "on-disk PL 113 scan, corner numbers 427/428 read first, LEFT column (427) collated word by word at 300 dpi; the right column (428) was on screen and its corner read but it falls in the next stint's range and was NOT collated; Gallica f214 read for col 427",
+        "found": "NO foot-of-page apparatus of either layer (checked zero). CONFIRMED as Migne's on both witnesses: the whole of VERS. 24-25 agrees with our twin word for word, including *secundum statuam Danielis (Dan., II)* and the doubled lemma *Etiam ipsi peribunt* / *Et ipsi pariter peribunt* @0427B, which is Migne setting the Vulgate and the Alia littera side by side and NOT a dittography. ONE ARCHIVE READING REFUTED at Gallica: a terminal comma for a period after *rex vero Balac continuo consilio paruit* @0427B (Gallica has the period, as our twin)."
+      }
+    ]
+  }
+}
