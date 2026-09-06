@@ -1,0 +1,38 @@
+[
+  {
+    "from": "0439A",
+    "to": "0440D",
+    "depth": "full",
+    "date": "2026-09-06",
+    "page": 225,
+    "source": "raw/scans/pl113/patrologiaecurs04migngoog.pdf + gallica ark:/12148/bpt6k5505319w f220",
+    "found": "Printed corner numbers read first: 439 / 440, confirming page = (column + 11) / 2. NO foot-of-page apparatus, either column: no numbered conjecture, no asterisk note. Collated word by word against src/latin/8963/0023.md on both witnesses. Four archive-only candidates raised and taken to Gallica f220 (corners 439/440, confirming f = (column + 1) / 2): 0439B raised dot after 'discretio' = dirt (Gallica prints 'discretio fit  crescente', no comma, so NEITHER witness carries the comma our TEI has); 0439C archive 'vere lucis', Gallica 'verae lucis' - REFUTED, our TEI right; 0440A archive 'frutres', Gallica 'fratres,' - REFUTED, our TEI right (Gallica prints a comma after fratres that the archive and our TEI lack: press variant); 0440B archive 'Thabath' in the VERS. 26 lemma, Gallica 'Thahath' - REFUTED, our TEI right. ONE STANDS: at 0440C BOTH witnesses print 'Thabath' (Post haec fit mansio in Thabath) where our TEI reads 'Thahath' - our file's normalization, filed as a pending TEI patch. Same apparent defect twice in one column, once manufactured by ink and once really printed."
+  },
+  {
+    "from": "0441A",
+    "to": "0442D",
+    "depth": "full",
+    "date": "2026-09-06",
+    "page": 226,
+    "source": "raw/scans/pl113/patrologiaecurs04migngoog.pdf + gallica ark:/12148/bpt6k5505319w f221",
+    "found": "Printed corner numbers read first: 441 / 442. NO foot-of-page apparatus, either column. Collated word by word against src/latin/8963/0023.md and 0024.md. Six archive-only candidates raised, ALL SIX REFUTED at Gallica f221, our TEI right at every one: 0441C 'victos' for 'vinctos'; 0441C 'collo' for 'colla'; 0442A 'confandar' for 'confundar'; 0442B 'praeteribunt' for 'praeteribant'; 0442C 'antem' for 'autem'; 0442D 'alius campis' where both Gallica and our TEI have 'alius in campis' (over-inking swallowed a two-letter word at normal spacing). Confirmed on BOTH witnesses and therefore Migne's own: 0441A 'Sinistra ejus sub capite meo' (Vulg. Laeva); 0441B 'potestatem habenti ... ne dimittas' (Vulg. habentis ... ne demiseris); 0441D 'opus Dei negligenter' (Vulg. opus Domini fraudulenter); 0442A 'Pastor enim, bonus ponit animam suam' with Migne's comma after enim; 0442A 'Transiens, videbo visionem hanc magnam' (Vulg. Vadam, et videbo); 0442B 'decimas octavas continet mansiones'; 0442C 'Aqua alta consilium' (Vulg. aqua profunda)."
+  },
+  {
+    "from": "0443A",
+    "to": "0444D",
+    "depth": "full",
+    "date": "2026-09-06",
+    "page": 227,
+    "source": "raw/scans/pl113/patrologiaecurs04migngoog.pdf + gallica ark:/12148/bpt6k5505319w f222",
+    "found": "Printed corner numbers read first: 443 / 444. NO foot-of-page apparatus, either column. Collated word by word against src/latin/8963/0024.md. Four archive-only candidates raised at Gallica f222: 0443C archive 'quamvis nou invenerimus', Gallica 'non' - REFUTED, and it is a NEGATION, so believing the archive would have cost a negative in a concessive clause; 0443D archive '(Luc. XV)', Gallica '(Luc. XVI)' - REFUTED, ink filled the final i, exactly the digit class; 0444A archive 'et ne carne habitare', Gallica 'et in carne habitare' - REFUTED. ONE PRESS VARIANT, no marker and no patch: 0444B the archive printing reads 'post montana enim TAM ad campestria Moab' and the Gallica printing reads 'post montana enim ad campestria Moab', which our TEI follows; a whole word cannot be manufactured by ink, so the two copies are two printings here. Confirmed on BOTH witnesses: 0444A 'Venerunt ad MONTEM Abarim contra Nabo' (Vulg. montes); 0444C 'Versatus sum in miseria, dum mihi configitur spina' (Vulg. conversus sum in aerumna mea); 0444C 'allidet parvulos SUOS ad petram' (Vulg. tuos); the CAPUT XXXIV. head at 0444D."
+  },
+  {
+    "from": "0445A",
+    "to": "0446D",
+    "depth": "full",
+    "date": "2026-09-06",
+    "page": 228,
+    "source": "raw/scans/pl113/patrologiaecurs04migngoog.pdf + gallica ark:/12148/bpt6k5505319w f223",
+    "found": "Re-read of a page already recorded as read; corner numbers re-checked first: 445 / 446, running head GLOSSA ORDINARIA. -- LIB. DEUT. NO foot-of-page apparatus, either column, and NO mid-page note at the work division, which matters because this is the page where the Glossa on Numbers ENDS (col 0446D, 'ambulans de virtute in virtutem') and LIBER DEUTERONOMII begins below a full-width rule - the shape that sets notes mid-page elsewhere in PL. Collated word by word against src/latin/8963/0024.md and 0025.md. Two archive-only candidates, BOTH REFUTED at Gallica f223: 0445B archive 'id est Hena', Gallica and our TEI 'id est atrio Hena' (over-inking swallowed a five-letter word); 0446D archive 'solomnitatem', Gallica and our TEI 'solemnitatem'. Confirmed on the archive plate: VERS. 28. is printed BEFORE VERS. 26. at 0446A, Migne's own ordering; and 0445D prints a full stop after '(I Joan. III)' which our TEI lacks. Left as printed in our Latin: 0445A 'vel Graecorum sed in virtute' (our TEI supplies a semicolon), 0445A 'littoribus,,' (doubled comma on the archive), 0445B 'divisa est. etc ,'."
+  }
+]
