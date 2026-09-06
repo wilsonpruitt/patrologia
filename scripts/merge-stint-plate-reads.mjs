@@ -54,10 +54,41 @@ const normalize = (r, date) => {
   return { from, to: to || from, depth: r.depth || 'read', date: r.date || date, ...rest };
 };
 
-let added = 0, skipped = 0, bad = 0;
+// ⛔⛔ SECOND FAILURE, 2026-09-06 ON 8963, AND IT IS THIS FILE'S OWN LESSON ONE LEVEL UP.
+// The code above normalizes the shape of a READ and assumed the shape of the FILE: it did
+// `for (const raw of s.reads || [])`, so a stint file that was a bare ARRAY, or wrapped its reads
+// under `works`, or keyed them by idno, yielded NOTHING — and the run reported "0 unusable".
+// Six stints wrote FOUR different file shapes on one work. Four of the six were dropped in silence
+// and the summary line said the merge had succeeded.
+// ⚑ The harm is the same silent one the header describes: plate-gate then goes red over markers
+// that ARE licensed, which reads exactly like a stint firing on an unread column — and the
+// tempting repair is to widen a recorded range, i.e. to claim a read nobody performed.
+// ⭐ THE FIX IS NOT ONLY THE UNWRAPPER. It is that a file yielding zero reads is now an ERROR.
+// "I could not understand this file" and "this file records nothing" must never again print the
+// same line, because only the second is a legitimate result and it never actually happens: a
+// stint that read nothing does not write a plate-reads file at all.
+const extractReads = (s, f) => {
+  if (Array.isArray(s)) return s;                                  // bare array
+  if (Array.isArray(s.reads)) return s.reads;                      // {reads:[...]}
+  if (Array.isArray(s.pages)) return s.pages;                      // {pages:[...]}
+  const out = [];
+  for (const [k, v] of Object.entries(s)) {                        // {works:{...}} / {"<idno>":{...}}
+    if (!v || typeof v !== 'object' || k.startsWith('_') || k === 'note') continue;
+    if (Array.isArray(v)) { out.push(...v); continue; }
+    if (Array.isArray(v.reads)) { out.push(...v.reads); continue; }
+    for (const vv of Object.values(v)) {
+      if (vv && typeof vv === 'object' && Array.isArray(vv.reads)) out.push(...vv.reads);
+    }
+  }
+  return out;
+};
+
+let added = 0, skipped = 0, bad = 0, empty = [];
 for (const f of files) {
   const s = JSON.parse(readFileSync(f, 'utf8'));
-  for (const raw of s.reads || []) {
+  const found = extractReads(s, f);
+  if (!found.length) { empty.push(f); continue; }
+  for (const raw of found) {
     const r = normalize(raw, s.date);
     if (!r) { bad++; console.error(`  ⚠ ${f}: read with no column range, skipped: ${JSON.stringify(raw).slice(0, 120)}`); continue; }
     if (work.reads.some(x => x.from === r.from && x.to === r.to)) { skipped++; continue; }
@@ -67,4 +98,5 @@ for (const f of files) {
 work.reads.sort((a, b) => String(a.from).localeCompare(String(b.from)));
 writeFileSync(MASTER, JSON.stringify(master, null, 1) + '\n');
 console.log(`merged ${added} reads into ${idno} (${skipped} already present, ${bad} unusable) — ${work.reads.length} total`);
-if (bad) process.exit(1);
+for (const f of empty) console.error(`  ⛔ ${f}: NO READS FOUND. A stint that read nothing writes no file, so this is an unrecognized file shape, not an empty result. Merge NOT complete.`);
+if (bad || empty.length) process.exit(1);
