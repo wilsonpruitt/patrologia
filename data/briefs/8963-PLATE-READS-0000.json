@@ -1,0 +1,53 @@
+{
+  "note": "STINT-SCOPED plate reads for 8963 (Glossa ordinaria, Liber Numeri), chunks 0000-0004, cols 0379B-0391B. Written by the 0000-0004 translation stint per the launch brief. NOT to be written into data/plate-reads.json by this stint -- peers run concurrently; the orchestrator merges.",
+  "work": "8963",
+  "series": "pl",
+  "volume": 113,
+  "stint": "0000-0004",
+  "range": "0379B-0391B",
+  "date": "2026-09-06",
+  "witnesses": {
+    "archive": {
+      "scan": "raw/scans/pl113/patrologiaecurs04migngoog.pdf",
+      "page_map": "PDF page = (column + 11) / 2",
+      "calibration": "corner numbers read FIRST on every page. p.196 read 381/382, p.197 read 383/384, p.198 read 385/386, p.199 read 387/388, p.200 read 389/390, p.201 read 391/392 -- all six exactly as the map predicts.",
+      "render": "pdftoppm -f N -l N -r 300 -png, re-rendered at 600 dpi for every letter-level look",
+      "pages": "196-201 (p.195 = cols 379/380 was already read and recorded before this stint)"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k5505319w",
+      "page_map": "f = (column + 1) / 2",
+      "calibration": "corner numbers read FIRST on every leaf. f191 read 381/382, f192 read 383/384, f193 read 385/386, f194 read 387/388, f195 read 389/390 -- all five exactly as the map predicts. f196 (cols 391/392) was NOT fetched: no candidate arose on p.201 within this stint's range, so no letter-level call rested on it.",
+      "endpoint": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5505319w/f<N>/full/1400,/0/native.jpg (User-Agent required); server-side crops at .../f<N>/<x,y,w,h>/1800,/0/native.jpg used for every single-letter call",
+      "leaves": "f191-f195"
+    }
+  },
+  "headline": "NO FOOT-OF-PAGE APPARATUS ON ANY OF THE SIX PAGES, on either witness -- a checked zero, consistent with the three pages already recorded for this work. ONE [sic:] is fireable and fired (0381B, two witnesses). SEVEN defects found, ALL of them Corpus Corporum's, filed as TEI patches. NINE archive-only candidates were refuted by Gallica, our twin right at every one. FIVE genuine press variants between the two copies take no marker and no patch.",
+  "structural_finding": "THE TWO COPIES OF PL 113 ARE TWO PRINTINGS, NOT TWO PHOTOGRAPHS, in this range as in 8950's. Five sites differ in a way ink cannot produce: 0384C lumbos (Gallica, = our twin, = Pr 30:31) against archive lumbo; 0384C amieos (Gallica, = our twin) against archive amicos; 0384D dexteram (Gallica, = our twin) against archive dextram; 0386A the LEMMA 'Applica tribum' (Gallica, = our twin, = Nm 3:6) against archive 'Accipe tribum' -- a whole word; 0387D 'Jesus Christi' (Gallica, = our twin) against archive 'Jesu Christi'. In this range OUR TWIN FOLLOWS THE GALLICA PRINTING at every one of the five. ⚑ That has a consequence for the stint's own apparatus: at 0384C the reading our twin carries (amieos, Jo 15:15) is a NON-WORD that only ONE printing has, so it may not take a [sic:] -- the two-witness bar for accusing Migne's type is not met when the two witnesses disagree. It is rendered by sense (friends) with a crux and no marker. ⚑ The archive copy is again the worse witness here: 9 archive-only readings refuted against 0 confirmed.",
+  "reads": [
+    {
+      "from": "0381A", "to": "0382D", "depth": "full", "pages": "archive p.196 / Gallica f191", "source": "both",
+      "found": "Corner numbers 381/382 both copies. No foot-of-page apparatus, either copy. CONFIRMED ON BOTH WITNESSES, and it is the stint's one [sic:]: 0381B prints, in italic, the un-construable abbreviated run 'ne temporis re. p. t.' after 'deinde praecepit', with the column anchor falling inside it. Four archive-only candidates, ALL REFUTED BY GALLICA, our twin right at each: 'Cauta omnia provisa' (Gallica and twin: Caute); 'Licer Numeri appellatur' (Gallica and twin: Liber); 'poctores gentium' (Gallica and twin: doctores); 'Decima, ctc.' (Gallica and twin: etc.). Latin twin's '[n: (RAB. in Num. )]' carries a stray space before the paren that the plate does not; too small to patch, recorded only."
+    },
+    {
+      "from": "0383A", "to": "0384D", "depth": "full", "pages": "archive p.197 / Gallica f192", "source": "both",
+      "found": "Corner numbers 383/384 both copies. No foot-of-page apparatus, either copy. THREE defects CONFIRMED ON BOTH WITNESSES as OUR TWIN'S, all filed as TEI patches: 0383C plate 'cupiunt', twin 'eupiunt'; 0383D plate 'ut acci-piat' broken at the line end, twin 'acci piat' (a de-hyphenation failure, Pattern 10 shape but NOT Migne's); 0384D plate 'VERS. 39.', twin 'VERS. 59.' -- the archive digit is unambiguous at 600 dpi and Gallica agrees, and Nm 1:39 (Dan, 62,700) is the verse 'Septingenti' belongs to. Three press variants here (lumbos/lumbo, amieos/amicos, dexteram/dextram) -- see structural_finding; no marker, no patch."
+    },
+    {
+      "from": "0385A", "to": "0386D", "depth": "full", "pages": "archive p.198 / Gallica f193", "source": "both",
+      "found": "Corner numbers 385/386 both copies. No foot-of-page apparatus, either copy. ONE defect CONFIRMED ON BOTH WITNESSES as OUR TWIN'S: 0386D plate 'Alienati sunt peccatores a vulva', twin 'Alicnati' -- a non-word, and the same clause prints correctly nine lines above in the twin itself. TEI patch filed. Three archive-only candidates, ALL REFUTED BY GALLICA, our twin right at each: 'Quid ad sacrum ministerium indignus accedit' (Gallica and twin: Qui); 'de illis Israel' (Gallica and twin: de illis filiis Israel); and the archive's lemma 'Accipe tribum' at 0386A, which is a press variant rather than ink -- Gallica, our twin and Nm 3:6 all read 'Applica tribum'. ⚑ Calibration note for anyone reading this leaf: on the Gallica scan the printed digit 3 renders very like a 5 at 1400px (its 'VERS. 5. -- Sacerdotum' is Nm 3:3 and its 'quaest. 5' is Augustine's quaest. 3); every digit call in this stint was therefore settled on the archive copy at 600 dpi with Gallica used only to corroborate."
+    },
+    {
+      "from": "0387A", "to": "0388D", "depth": "full", "pages": "archive p.199 / Gallica f194", "source": "both",
+      "found": "Corner numbers 387/388 both copies. No foot-of-page apparatus, either copy. NO defect attributable to either party. Two archive-only candidates, BOTH REFUTED BY GALLICA, our twin right at each: 0388A archive 'impendere. ub Eleazaro, Sid est Dei adjutorio' -- a displaced S that reads exactly like the 8955 'ulit/Tulit' broken sort, and Gallica prints 'Sub Eleazaro, id est Dei adjutorio' cleanly; 0388C archive 'ne otiosus et inutilis adjiciatur' (Gallica and twin: abjiciatur). One press variant at 0387D (Jesus/Jesu Christi) -- see structural_finding. Migne's 'Quatuor fili Aaron' at 0386A-0387A stands on both copies and is the ordinary medieval -ii > -i contraction, Pattern 9: no marker."
+    },
+    {
+      "from": "0389A", "to": "0390D", "depth": "full", "pages": "archive p.200 / Gallica f195", "source": "both",
+      "found": "Corner numbers 389/390 both copies. No foot-of-page apparatus, either copy. THREE defects CONFIRMED ON BOTH WITNESSES as OUR TWIN'S, all filed as TEI patches: 0389A plate 'Involventque eo arcam', twin 'Invoiventque'; 0390A plate 'invenitur perfectus', twin 'invonitur'; 0390C plate 'VERS. 8. -- Excepto ariete', twin 'Exceptio ariete' (and Nm 5:8 reads 'excepto ariete'). No archive-only candidate arose on this page that Gallica did not confirm."
+    },
+    {
+      "from": "0391A", "to": "0391B", "depth": "read", "pages": "archive p.201", "source": "archive",
+      "found": "CHECKED ZERO. Corner numbers 391/392 read first. No foot-of-page apparatus. Cols 0391A-0391B (this stint's tail, ending at 'Sermo quem locutus sum vobis, ille vos judicabit in novissimo die') collate word for word against our twin with no divergence at all, including 'quod non reveletur' at 0391B, which the running text sets broken across a line as 're-veletur'. No second witness was fetched because no letter-level call rests on this page. Cols 0391C-0392D lie in the NEXT stint's range and were not collated."
+    }
+  ]
+}
