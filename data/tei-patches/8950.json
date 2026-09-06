@@ -1,177 +1,186 @@
 {
-  "note": "Corrections to the Corpus Corporum TEI for 8950 (Glossa ordinaria, Liber Genesis, PL 113), applied to the XML stream by chunk-work.mjs BEFORE the transform, so a re-harvest + re-chunk reproduces them. A patch names what the SOURCE gets wrong, what the plate shows, and the evidence. These correct a DIGITIZATION, never Migne: a defect in his own plate is rendered literally and logged as a crux (translation-style.md Pattern 7).",
-  "witness_rule": "⛔ EVERY patch here was confirmed on TWO witnesses — the on-disk archive.org copy (patrologiaecurs04migngoog, page = (col+11)/2) AND Gallica ark bpt6k5505319w (f = (col+1)/2), printed corner numbers read first on every leaf. This is not optional discipline on PL 113: of 125 single-witness claims filed by the translating stints, roughly 100 were REFUTED at Gallica and NOT ONE letter-level claim survived. The archive copy is over-inked across several gatherings and manufactures divergences that read as sound Latin. See data/briefs/8950-PATCH-GATE-READ-FIRST.md.",
-  "what_survived": "Three classes only: (1) lost HEBREW — whole non-Latin words our twin drops, which ink neither adds nor removes; (2) defects in OUR OWN transcription against a clean plate (split runs, joined runs, a letter dropped); (3) two mark/spacing forms. Every claimed defect in MIGNE'S type in cols 0095-0160 was refuted, so no [sic:] is owed there.",
-  "rejected_class": "⛔ FOUR PATCHES WERE REJECTED AT ASSEMBLY, and the reason is editorial rather than evidential: Migne repeats « at the head of a continued line, and those repeats are real on his page (0106D, 0107C, 0115C, 0115D). But the TEI's newlines are HIS column breaks, and chunk-work.mjs REFLOWS the text — `« Ex\\nomnibus animantibus` becomes one continuous sentence. Restoring the repeat would drop a stray, unmatched « into the middle of flowing prose, marking nothing, and would break guillemet parity against the English. A mark whose only job was to say 'this quotation continues over the line break' has no referent once the line break is gone. Recorded, not applied.",
-  "patches": [
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0103B",
-      "find": "dicitur Joan. V:  « Vidit stultum",
-      "replace": "dicitur Joan. v :  « Vidit stultum",
-      "why": "CONFIRMED on a second witness. Gallica ark bpt6k5505319w leaf f52, printed corners read 103/104, left column band B, read at native 300 dpi and cropped to ~4.5x: the plate sets 'dicitur Joan. v : « Vidit stultum firma radice', with a LOWERCASE small-cap chapter numeral and a thin space before the colon, which is Migne's house form for chapter numerals throughout this work (cf. 'Matth. v' at 0125B, 'II Cor. ii' at 0128A, 'Jer. v' at 0129C, 'Marci xix' at 0131A, all on the same witness). Corpus Corporum normalized the numeral to capital V and closed up the space. Not a defect in Migne and not a [sic:] site: a case-and-spacing normalization by the digitization. The archive.org copy shows the same thing, so both witnesses agree against our twin.",
-      "_source": "8950-PATCH-JSON-0008.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0104B",
-      "find": "Verbum\nHebraicum   ( <hi>Elohim</hi> )",
-      "replace": "Verbum\nHebraicum <foreign xml:lang=\"hebrew\">אלהים</foreign> ( <hi>Elohim</hi> )",
-      "why": "STRUCTURAL, settled on a single good read: ink cannot put a word on the page that is not there. Gallica f52 (printed corners 103/104), right column band B, cropped to 6x: the plate prints 'Verbum Hebraicum אלהים ( Elohim ) utriusque numeri est'. Unpointed, five letters aleph-lamed-he-yod-final mem, read letter by letter at 6x. The TEI kept the transliteration and dropped the type, leaving the TRIPLED SPACE that hebrew-recovery.md step 1 describes. The archive copy shows the same Hebrew.",
-      "_source": "8950-PATCH-JSON-0008.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0104C",
-      "find": "Hebr.  \n( <hi>loiadon</hi> )",
-      "replace": "Hebr. <foreign xml:lang=\"hebrew\">לאידון</foreign>\n( <hi>loiadon</hi> )",
-      "why": "STRUCTURAL, settled on a single good read. Gallica f52 (printed corners 103/104), right column band C, cropped to 5x: the plate prints '(HIER., ibid.) Hebr. לאידון (loiadon).' Unpointed, six letters lamed-aleph-yod-dalet-vav-final nun, read at 5x. The TEI dropped the type and left a DOUBLED SPACE before the line break. NOTE: the same 5x crop REFUTES the companion claim filed at this column that the plate reads '(HIER., Hebr. ibid.)' -- the plate reads '(HIER., ibid.)' exactly as our twin does, with 'Hebr.' standing OUTSIDE the parenthesis in the running text, where our twin also puts it. Only the Hebrew is owed.",
-      "_source": "8950-PATCH-JSON-0008.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0113C",
-      "find": "in Hebraeo habetur   et   <hi>scheba</hi> et <hi>seba.</hi>",
-      "replace": "in Hebraeo habetur שבא et סבא <hi>scheba</hi> et <hi>seba.</hi>",
-      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f57 (corners 113/114) left column, quarter C, at 2x and again at 8x. The plate prints two Hebrew words, שבא and סבא, in the two gaps our TEI leaves as bare spaces. No shin-dot is visible at 8x on the cleaner copy, so the archive stint's שׂבא is not reproduced. Ink cannot put words on a page that are not there.",
-      "_source": "8950-PATCH-JSON-0012.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0115C",
-      "find": "<hi>in Ur Chesdim</hi> ( ),",
-      "replace": "<hi>in Ur Chesdim</hi> (אורכשדים),",
-      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f58 left column, quarter C, at 2x and at 10x. The plate prints אורכשדים inside the parentheses our TEI leaves empty. Read letter by letter right to left at 10x: aleph, vav, resh, kaph, shin, daleth, yod, final mem. No pointing visible.",
-      "_source": "8950-PATCH-JSON-0012.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0116B",
-      "find": "VERS. 2-3.--Faciamque te in gentem magnam, »",
-      "replace": "VERS. 2-3.-- Faciamque te in gentem magnam, »",
-      "provenance": "Confirmed on Gallica f58 right column, quarter B, at 2x: VERS. 2-3. — Faciamque te in gentem magnam, » etc. The plate sets a space after the dash, as at every other address on the page; our twin has closed it up. The absence of an opening « is Migne's and is not touched.",
-      "_source": "8950-PATCH-JSON-0012.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0117A",
-      "find": "Sed in Hebraica veritate habetur   <hi>gravis\nvehementer:</hi>",
-      "replace": "Sed in Hebraica veritate habetur כבד <hi>gravis\nvehementer:</hi>",
-      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f59 (corners 117/118) left column, quarter A, at 2x. The plate prints כבד in the gap our TEI leaves as bare spaces. (The plate also sets the colon outside the italic, `vehementer :`; that is punctuation and is left to the twin.)",
-      "_source": "8950-PATCH-JSON-0012.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0118C",
-      "find": "id est, <hi>civitas quatuor;</hi> \n CHARIAT enim Hebraice <hi>civitas,   arbe\nquatuor.</hi>",
-      "replace": "id est, <hi>civitas quatuor</hi>; \n קרית CHARIAT enim Hebraice <hi>civitas</hi>, ארבע <hi>arbe\nquatuor</hi>.",
-      "provenance": "STRUCTURAL (source loss), confirmed on Gallica f59 right column, quarter C, at 2x. The plate prints: id est, civitas quatuor; קרית CHARIAT enim Hebraice civitas, ארבע arbe quatuor. Two Hebrew words are lost in our twin, and the loss has fused Migne's italic phrases: the italic ends at *quatuor* before the semicolon, resumes at *civitas* alone, and resumes again at *arbe quatuor*. Reading of ארבע follows the archive stint's consonants; possible pointing under the bet is not resolvable even at 12x and is not reproduced.",
-      "_source": "8950-PATCH-JSON-0012.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0120D",
-      "find": "« Malae bestiae, pigri ventres, »",
-      "replace": "« Malae bestiae, pigri ventres; »",
-      "provenance": "Confirmed on Gallica f60 (corners 119/120) right column, quarter D, at 2x and at 8x: the plate prints a semicolon, not a comma, inside the Tit 1:12 quotation. Both witnesses agree against the twin, and at 8x the upper dot and lower comma of the semicolon are separately resolved. Migne sets it with his usual French space before the mark; the space is not reproduced.",
-      "_source": "8950-PATCH-JSON-0012.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0131B",
-      "find": "in angelis agno\nscebat, sicut",
-      "replace": "in angelis agnoscebat, sicut",
-      "why": "CONFIRMED, but on CORRECTED evidence -- read the whole note before applying. Gallica f66 (printed corners 131/132), left column band B, cropped to 7x. The word 'agnoscebat' is broken across a line, 'agno' at the end of one line and 'scebat' at the head of the next. Our twin renders that break as an interior SPACE ('agno scebat'), which is a non-word and a Pattern-10 failure to rejoin; the join to 'agnoscebat' is right on both witnesses. HOWEVER the claim as filed -- that the plate hyphenates, 'agno-scebat' -- is FALSE: at 7x there is no hyphen after 'agno', the line simply ends. The patch stands; its stated evidence did not. The archive copy's hyphen is ink.",
-      "_source": "8950-PATCH-JSON-0019.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0137C",
-      "find": "pro eo quod est\npro are, dicimus.",
-      "replace": "pro eo quod est\nprobare, dicimus.",
-      "provenance": "Confirmed on Gallica f69 (corners 137/138) left column, quarter C, at 2x: `sed usualiter, tentare, pro eo quod est / probare, dicimus.` One word, whole, at the head of its line, no wrap and no hyphen. Corpus Corporum has split a real word into the non-word `pro are`. Our defect, not Migne's; the English (\"for that which is 'to prove'\") already renders it correctly.",
-      "_source": "8950-PATCH-JSON-0024.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0138D",
-      "find": "« Fide Abraham non hae\nsitavit, cum unicum offerret",
-      "replace": "« Fide Abraham non haesitavit,\ncum unicum offerret",
-      "provenance": "Confirmed on Gallica f69 right column, quarter D, at 2x: `« Fide Abraham non hæ / sitavit, cum unicum offerret` — one word broken by an ordinary line wrap, which our TEI has turned into a split run. ⚠ The two copies differ on the HYPHEN: the archive stint read one at 900 dpi, Gallica prints none (this printing is inconsistent about wrap hyphens — `certis/sime` two lines above has none, `occide-/retur` has one). The divergence is immaterial: on either copy the letters are one word.",
-      "_source": "8950-PATCH-JSON-0024.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0141C",
-      "find": "<note>(GREG.)</note> Quia praedicato:\n<pb n=\"0141D\"/>\nauditum Ecclesiae",
-      "replace": "<note>(GREG.)</note> Quia praedicator\n<pb n=\"0141D\"/>\nauditum Ecclesiae",
-      "provenance": "Confirmed on Gallica f71 (corners 141/142) left column, at the C/D break, at 2x: `(GREG.) Quia praedi- / cator auditum Ecclesiae per obedientiam`. Corpus Corporum lost the final r at the column break and set a colon. Our defect; the English (\"Because the preacher …\") already renders it correctly.",
-      "_source": "8950-PATCH-JSON-0024.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0145A",
-      "find": "quia prius est quod animae est, deinde quod\nspirituale.",
-      "replace": "quia prius est quod animale est, deinde quod\nspirituale.",
-      "provenance": "Confirmed on Gallica f73 (corners 145/146) left column, quarter A, at 2x: `quia prius est quod animale est; deinde quod spirituale.` — 1 Cor 15:46's own word and the sentence's argument. Our defect. (The plate also has a semicolon where the twin has a comma; punctuation is left to the twin per the stint's own §1(c), so only the word is patched.)",
-      "_source": "8950-PATCH-JSON-0024.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0148C",
-      "find": "profunda penetremus, et quosque verae\nintelligentiae aqua redeat",
-      "replace": "profunda penetremus, et quousque verae\nintelligentiae aqua redeat",
-      "provenance": "Corpus Corporum dropped a 'u': the twin reads 'quosque', which does not construe ('et quosque verae intelligentiae aqua redeat'), where Migne prints 'quousque'. CONFIRMED ON TWO WITNESSES: archive.org patrologiaecurs04migngoog p. 79 (600 dpi) and Gallica bpt6k5505319w f74 (printed corners 147/148, read at 4.5x on a 300 dpi scan). On Gallica the word sets as 'quou[s]que' with the 's' lightly inked but four letters standing before 'que'; 'quosque' would give three. Migne is not emended: the plate's own letter is restored.",
-      "_source": "8950-PATCH-JSON-0031.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0148B",
-      "find": "In Hebraeo <hi>Rehobot</hi> \n( ), <hi>latitudines.</hi>",
-      "replace": "In Hebraeo <hi>Rehobot</hi> \n(רחבות), <hi>latitudines.</hi>",
-      "provenance": "STRUCTURAL: Hebrew type Migne sets inline, dropped by Corpus Corporum, leaving the visible scar of an EMPTY PAIR OF PARENTHESES in our Latin. Read on Gallica bpt6k5505319w f74 (printed corners 147/148) at 9x: five glyphs, clean. Matches Migne's own Latin gloss 'latitudines' and Gn 26:22 Rehoboth. Ink cannot add type that is not on the page, so one good read settles presence; the letters here are unambiguous. The 0031 stint's [ed:] marker rests on this row and stands.",
-      "_source": "8950-PATCH-JSON-0031.json",
-      "note": "[col label corrected 0148C→0148B at assembly: patch-audit places the match in band B.]"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0155A",
-      "find": "oleum, nihil fecit idolol triae simile:",
-      "replace": "oleum, nihil fecit idololatriae simile:",
-      "provenance": "A Corpus Corporum SPLIT RUN, not a word: the twin breaks the lexeme as 'idolol triae'. Migne prints 'idololatriae' as one word. CONFIRMED ON TWO WITNESSES: archive.org p. 82 (600 dpi) and Gallica bpt6k5505319w f78 (printed corners 155/156), band A, read at 1.7x. Note for any future Pattern 10 sweep: quarantining 'idolol triae' would take the whole lexeme out of 'nihil fecit idololatriae simile' and leave the sentence saying Jacob did nothing like to nothing. It is ours, not Migne's, and is repaired here rather than marked.",
-      "_source": "8950-PATCH-JSON-0031.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0155B",
-      "find": "vero scripturae verbo <hi>ulam</hi> vel <hi>olam</hi>   plenae",
-      "replace": "vero scripturae verbo <hi>ulam</hi> vel <hi>olam</hi> ולאם plenae",
-      "provenance": "STRUCTURAL: Hebrew present on the plate, absent from the twin (the twin's tell is a tripled space). Read on Gallica bpt6k5505319w f78 (printed corners 155/156) at 9x. ⚠ HOLD FOR A HEBRAIST BEFORE APPLYING: the four glyphs read, right to left, vav-lamed-aleph-final mem = ולאם, NOT the expected אולם ('ulam' of Jerome, Quaest. Hebr. in Gen.). Two independent readings (the archive stint's at 600 dpi and mine at Gallica) agree on the order as printed, which points to a transposition in Migne's own Hebrew type rather than a misreading -- but this is a claim about letter ORDER, the one thing ink cannot cause, and it should be checked against Jerome before it is published. The PRESENCE of the Hebrew is not in doubt.",
-      "_source": "8950-PATCH-JSON-0031.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0157C",
-      "find": "cum verbum Hebraicum <hi>monim</hi> \n   numerum magis quam annos sonat;",
-      "replace": "cum verbum Hebraicum <hi>monim</hi> \nמנים numerum magis quam annos sonat;",
-      "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum mid-sentence (no visible scar, so a silent patch and a crux, per Pattern 13a clause 1). Read on Gallica bpt6k5505319w f79 (printed corners 157/158) at 9x: four glyphs, clean, mem-nun-yod-final mem, matching Migne's own transliteration 'monim' and Jerome's argument that the Hebrew says 'number' rather than 'years'.",
-      "_source": "8950-PATCH-JSON-0031.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0158A",
-      "find": "in Hebraeo <hi>theraphim</hi>   scriptum est;",
-      "replace": "in Hebraeo <hi>theraphim</hi> תרפים scriptum est;",
-      "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum (tell: a tripled space). Read on Gallica bpt6k5505319w f79 (printed corners 157/158) at 9x. Reads tav-resh-pe-yod-final mem = תרפים, matching Migne's transliteration 'theraphim' and the standard form; the final mem is lightly inked but the word is not otherwise in doubt.",
-      "_source": "8950-PATCH-JSON-0031.json"
-    },
-    {
-      "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
-      "col": "0159B",
-      "find": "in Hebraeo <hi>mahanaim</hi>  ; ut sciamus,",
-      "replace": "in Hebraeo <hi>mahanaim</hi> מהנים ; ut sciamus,",
-      "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum, leaving a floating space before the semicolon. Read on Gallica bpt6k5505319w f80 (printed corners 159/160) at 9x. ⚠ HOLD FOR A HEBRAIST BEFORE APPLYING: the second glyph shows the detached left leg of a HE, giving מהנים, where the Masoretic form of Mahanaim is מחנים with het. Two independent readings agree on he. If Migne set het and both readings are wrong, the replace string becomes מחנים. The PRESENCE of the Hebrew is not in doubt. Note also that Migne sets a space before the semicolon here; the twin's spacing is preserved.",
-      "_source": "8950-PATCH-JSON-0031.json"
-    }
-  ]
+ "note": "Corrections to the Corpus Corporum TEI for 8950 (Glossa ordinaria, Liber Genesis, PL 113), applied to the XML stream by chunk-work.mjs BEFORE the transform, so a re-harvest + re-chunk reproduces them. A patch names what the SOURCE gets wrong, what the plate shows, and the evidence. These correct a DIGITIZATION, never Migne: a defect in his own plate is rendered literally and logged as a crux (translation-style.md Pattern 7).",
+ "witness_rule": "⛔ EVERY patch here was confirmed on TWO witnesses — the on-disk archive.org copy (patrologiaecurs04migngoog, page = (col+11)/2) AND Gallica ark bpt6k5505319w (f = (col+1)/2), printed corner numbers read first on every leaf. This is not optional discipline on PL 113: of 125 single-witness claims filed by the translating stints, roughly 100 were REFUTED at Gallica and NOT ONE letter-level claim survived. The archive copy is over-inked across several gatherings and manufactures divergences that read as sound Latin. See data/briefs/8950-PATCH-GATE-READ-FIRST.md.",
+ "what_survived": "Three classes only: (1) lost HEBREW — whole non-Latin words our twin drops, which ink neither adds nor removes; (2) defects in OUR OWN transcription against a clean plate (split runs, joined runs, a letter dropped); (3) two mark/spacing forms. Every claimed defect in MIGNE'S type in cols 0095-0160 was refuted, so no [sic:] is owed there.",
+ "rejected_class": "⛔ FOUR PATCHES WERE REJECTED AT ASSEMBLY, and the reason is editorial rather than evidential: Migne repeats « at the head of a continued line, and those repeats are real on his page (0106D, 0107C, 0115C, 0115D). But the TEI's newlines are HIS column breaks, and chunk-work.mjs REFLOWS the text — `« Ex\\nomnibus animantibus` becomes one continuous sentence. Restoring the repeat would drop a stray, unmatched « into the middle of flowing prose, marking nothing, and would break guillemet parity against the English. A mark whose only job was to say 'this quotation continues over the line break' has no referent once the line break is gone. Recorded, not applied.",
+ "patches": [
+  {
+   "work": "8950 Glossa ordinaria (PL 113)",
+   "col": null,
+   "find": "<div2>\n        <head>CAPUT PRIMUM.</head>",
+   "replace": "<div2>\n        <head type=\"book-title\">Hebraice dictus <foreign xml:lang=\"hebrew\">בראשית</foreign>, BERESIT, id est In principio; Graece ΓΕΝΕΣΙΣ, id est Generatio.</head>\n        <head>CAPUT PRIMUM.</head>",
+   "why": "RETROFIT of a SHIPPED work, per Wilson's ruling 2026-09-06. Migne sets this display line under the LIBER GENESIS banner and Corpus Corporum drops it; 8950 went live opening one line short of its own plate. Two witnesses: archive p.39 (corners 67/68) and Gallica f34. ⭐ THE ARCHIVE COPY LOSES A WORD HERE: it gives 'id est PRINCIPIO' where Gallica prints 'id est In principio', and In principio is the phrase the whole first column glosses. Same class as the three archive word-losses the 8963 stints found. Hebrew read on Gallica; Migne's own transliteration BERESIT is the on-plate control and agrees. Encoded <head type=\"book-title\"> per the ruling; declares col null because the banner precedes this file's first column mark, which patch-audit verifies positionally."
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0103B",
+   "find": "dicitur Joan. V:  « Vidit stultum",
+   "replace": "dicitur Joan. v :  « Vidit stultum",
+   "why": "CONFIRMED on a second witness. Gallica ark bpt6k5505319w leaf f52, printed corners read 103/104, left column band B, read at native 300 dpi and cropped to ~4.5x: the plate sets 'dicitur Joan. v : « Vidit stultum firma radice', with a LOWERCASE small-cap chapter numeral and a thin space before the colon, which is Migne's house form for chapter numerals throughout this work (cf. 'Matth. v' at 0125B, 'II Cor. ii' at 0128A, 'Jer. v' at 0129C, 'Marci xix' at 0131A, all on the same witness). Corpus Corporum normalized the numeral to capital V and closed up the space. Not a defect in Migne and not a [sic:] site: a case-and-spacing normalization by the digitization. The archive.org copy shows the same thing, so both witnesses agree against our twin.",
+   "_source": "8950-PATCH-JSON-0008.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0104B",
+   "find": "Verbum\nHebraicum   ( <hi>Elohim</hi> )",
+   "replace": "Verbum\nHebraicum <foreign xml:lang=\"hebrew\">אלהים</foreign> ( <hi>Elohim</hi> )",
+   "why": "STRUCTURAL, settled on a single good read: ink cannot put a word on the page that is not there. Gallica f52 (printed corners 103/104), right column band B, cropped to 6x: the plate prints 'Verbum Hebraicum אלהים ( Elohim ) utriusque numeri est'. Unpointed, five letters aleph-lamed-he-yod-final mem, read letter by letter at 6x. The TEI kept the transliteration and dropped the type, leaving the TRIPLED SPACE that hebrew-recovery.md step 1 describes. The archive copy shows the same Hebrew.",
+   "_source": "8950-PATCH-JSON-0008.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0104C",
+   "find": "Hebr.  \n( <hi>loiadon</hi> )",
+   "replace": "Hebr. <foreign xml:lang=\"hebrew\">לאידון</foreign>\n( <hi>loiadon</hi> )",
+   "why": "STRUCTURAL, settled on a single good read. Gallica f52 (printed corners 103/104), right column band C, cropped to 5x: the plate prints '(HIER., ibid.) Hebr. לאידון (loiadon).' Unpointed, six letters lamed-aleph-yod-dalet-vav-final nun, read at 5x. The TEI dropped the type and left a DOUBLED SPACE before the line break. NOTE: the same 5x crop REFUTES the companion claim filed at this column that the plate reads '(HIER., Hebr. ibid.)' -- the plate reads '(HIER., ibid.)' exactly as our twin does, with 'Hebr.' standing OUTSIDE the parenthesis in the running text, where our twin also puts it. Only the Hebrew is owed.",
+   "_source": "8950-PATCH-JSON-0008.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0113C",
+   "find": "in Hebraeo habetur   et   <hi>scheba</hi> et <hi>seba.</hi>",
+   "replace": "in Hebraeo habetur שבא et סבא <hi>scheba</hi> et <hi>seba.</hi>",
+   "provenance": "STRUCTURAL (source loss), confirmed on Gallica f57 (corners 113/114) left column, quarter C, at 2x and again at 8x. The plate prints two Hebrew words, שבא and סבא, in the two gaps our TEI leaves as bare spaces. No shin-dot is visible at 8x on the cleaner copy, so the archive stint's שׂבא is not reproduced. Ink cannot put words on a page that are not there.",
+   "_source": "8950-PATCH-JSON-0012.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0115C",
+   "find": "<hi>in Ur Chesdim</hi> ( ),",
+   "replace": "<hi>in Ur Chesdim</hi> (אורכשדים),",
+   "provenance": "STRUCTURAL (source loss), confirmed on Gallica f58 left column, quarter C, at 2x and at 10x. The plate prints אורכשדים inside the parentheses our TEI leaves empty. Read letter by letter right to left at 10x: aleph, vav, resh, kaph, shin, daleth, yod, final mem. No pointing visible.",
+   "_source": "8950-PATCH-JSON-0012.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0116B",
+   "find": "VERS. 2-3.--Faciamque te in gentem magnam, »",
+   "replace": "VERS. 2-3.-- Faciamque te in gentem magnam, »",
+   "provenance": "Confirmed on Gallica f58 right column, quarter B, at 2x: VERS. 2-3. — Faciamque te in gentem magnam, » etc. The plate sets a space after the dash, as at every other address on the page; our twin has closed it up. The absence of an opening « is Migne's and is not touched.",
+   "_source": "8950-PATCH-JSON-0012.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0117A",
+   "find": "Sed in Hebraica veritate habetur   <hi>gravis\nvehementer:</hi>",
+   "replace": "Sed in Hebraica veritate habetur כבד <hi>gravis\nvehementer:</hi>",
+   "provenance": "STRUCTURAL (source loss), confirmed on Gallica f59 (corners 117/118) left column, quarter A, at 2x. The plate prints כבד in the gap our TEI leaves as bare spaces. (The plate also sets the colon outside the italic, `vehementer :`; that is punctuation and is left to the twin.)",
+   "_source": "8950-PATCH-JSON-0012.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0118C",
+   "find": "id est, <hi>civitas quatuor;</hi> \n CHARIAT enim Hebraice <hi>civitas,   arbe\nquatuor.</hi>",
+   "replace": "id est, <hi>civitas quatuor</hi>; \n קרית CHARIAT enim Hebraice <hi>civitas</hi>, ארבע <hi>arbe\nquatuor</hi>.",
+   "provenance": "STRUCTURAL (source loss), confirmed on Gallica f59 right column, quarter C, at 2x. The plate prints: id est, civitas quatuor; קרית CHARIAT enim Hebraice civitas, ארבע arbe quatuor. Two Hebrew words are lost in our twin, and the loss has fused Migne's italic phrases: the italic ends at *quatuor* before the semicolon, resumes at *civitas* alone, and resumes again at *arbe quatuor*. Reading of ארבע follows the archive stint's consonants; possible pointing under the bet is not resolvable even at 12x and is not reproduced.",
+   "_source": "8950-PATCH-JSON-0012.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0120D",
+   "find": "« Malae bestiae, pigri ventres, »",
+   "replace": "« Malae bestiae, pigri ventres; »",
+   "provenance": "Confirmed on Gallica f60 (corners 119/120) right column, quarter D, at 2x and at 8x: the plate prints a semicolon, not a comma, inside the Tit 1:12 quotation. Both witnesses agree against the twin, and at 8x the upper dot and lower comma of the semicolon are separately resolved. Migne sets it with his usual French space before the mark; the space is not reproduced.",
+   "_source": "8950-PATCH-JSON-0012.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0131B",
+   "find": "in angelis agno\nscebat, sicut",
+   "replace": "in angelis agnoscebat, sicut",
+   "why": "CONFIRMED, but on CORRECTED evidence -- read the whole note before applying. Gallica f66 (printed corners 131/132), left column band B, cropped to 7x. The word 'agnoscebat' is broken across a line, 'agno' at the end of one line and 'scebat' at the head of the next. Our twin renders that break as an interior SPACE ('agno scebat'), which is a non-word and a Pattern-10 failure to rejoin; the join to 'agnoscebat' is right on both witnesses. HOWEVER the claim as filed -- that the plate hyphenates, 'agno-scebat' -- is FALSE: at 7x there is no hyphen after 'agno', the line simply ends. The patch stands; its stated evidence did not. The archive copy's hyphen is ink.",
+   "_source": "8950-PATCH-JSON-0019.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0137C",
+   "find": "pro eo quod est\npro are, dicimus.",
+   "replace": "pro eo quod est\nprobare, dicimus.",
+   "provenance": "Confirmed on Gallica f69 (corners 137/138) left column, quarter C, at 2x: `sed usualiter, tentare, pro eo quod est / probare, dicimus.` One word, whole, at the head of its line, no wrap and no hyphen. Corpus Corporum has split a real word into the non-word `pro are`. Our defect, not Migne's; the English (\"for that which is 'to prove'\") already renders it correctly.",
+   "_source": "8950-PATCH-JSON-0024.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0138D",
+   "find": "« Fide Abraham non hae\nsitavit, cum unicum offerret",
+   "replace": "« Fide Abraham non haesitavit,\ncum unicum offerret",
+   "provenance": "Confirmed on Gallica f69 right column, quarter D, at 2x: `« Fide Abraham non hæ / sitavit, cum unicum offerret` — one word broken by an ordinary line wrap, which our TEI has turned into a split run. ⚠ The two copies differ on the HYPHEN: the archive stint read one at 900 dpi, Gallica prints none (this printing is inconsistent about wrap hyphens — `certis/sime` two lines above has none, `occide-/retur` has one). The divergence is immaterial: on either copy the letters are one word.",
+   "_source": "8950-PATCH-JSON-0024.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0141C",
+   "find": "<note>(GREG.)</note> Quia praedicato:\n<pb n=\"0141D\"/>\nauditum Ecclesiae",
+   "replace": "<note>(GREG.)</note> Quia praedicator\n<pb n=\"0141D\"/>\nauditum Ecclesiae",
+   "provenance": "Confirmed on Gallica f71 (corners 141/142) left column, at the C/D break, at 2x: `(GREG.) Quia praedi- / cator auditum Ecclesiae per obedientiam`. Corpus Corporum lost the final r at the column break and set a colon. Our defect; the English (\"Because the preacher …\") already renders it correctly.",
+   "_source": "8950-PATCH-JSON-0024.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0145A",
+   "find": "quia prius est quod animae est, deinde quod\nspirituale.",
+   "replace": "quia prius est quod animale est, deinde quod\nspirituale.",
+   "provenance": "Confirmed on Gallica f73 (corners 145/146) left column, quarter A, at 2x: `quia prius est quod animale est; deinde quod spirituale.` — 1 Cor 15:46's own word and the sentence's argument. Our defect. (The plate also has a semicolon where the twin has a comma; punctuation is left to the twin per the stint's own §1(c), so only the word is patched.)",
+   "_source": "8950-PATCH-JSON-0024.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0148B",
+   "find": "profunda penetremus, et quosque verae\nintelligentiae aqua redeat",
+   "replace": "profunda penetremus, et quousque verae\nintelligentiae aqua redeat",
+   "provenance": "Corpus Corporum dropped a 'u': the twin reads 'quosque', which does not construe ('et quosque verae intelligentiae aqua redeat'), where Migne prints 'quousque'. CONFIRMED ON TWO WITNESSES: archive.org patrologiaecurs04migngoog p. 79 (600 dpi) and Gallica bpt6k5505319w f74 (printed corners 147/148, read at 4.5x on a 300 dpi scan). On Gallica the word sets as 'quou[s]que' with the 's' lightly inked but four letters standing before 'que'; 'quosque' would give three. Migne is not emended: the plate's own letter is restored.",
+   "_source": "8950-PATCH-JSON-0031.json",
+   "why": "⚑ COLUMN BAND CORRECTED 2026-09-06: filed under the other band; patch-audit had warned about it since the work shipped. The find is unique and the edit is right — only the declared band was wrong."
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0148C",
+   "find": "In Hebraeo <hi>Rehobot</hi> \n( ), <hi>latitudines.</hi>",
+   "replace": "In Hebraeo <hi>Rehobot</hi> \n(רחבות), <hi>latitudines.</hi>",
+   "provenance": "STRUCTURAL: Hebrew type Migne sets inline, dropped by Corpus Corporum, leaving the visible scar of an EMPTY PAIR OF PARENTHESES in our Latin. Read on Gallica bpt6k5505319w f74 (printed corners 147/148) at 9x: five glyphs, clean. Matches Migne's own Latin gloss 'latitudines' and Gn 26:22 Rehoboth. Ink cannot add type that is not on the page, so one good read settles presence; the letters here are unambiguous. The 0031 stint's [ed:] marker rests on this row and stands.",
+   "_source": "8950-PATCH-JSON-0031.json",
+   "note": "[col label corrected 0148C→0148B at assembly: patch-audit places the match in band B.]",
+   "why": "⚑ COLUMN BAND CORRECTED 2026-09-06: filed under the other band; patch-audit had warned about it since the work shipped. The find is unique and the edit is right — only the declared band was wrong."
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0155A",
+   "find": "oleum, nihil fecit idolol triae simile:",
+   "replace": "oleum, nihil fecit idololatriae simile:",
+   "provenance": "A Corpus Corporum SPLIT RUN, not a word: the twin breaks the lexeme as 'idolol triae'. Migne prints 'idololatriae' as one word. CONFIRMED ON TWO WITNESSES: archive.org p. 82 (600 dpi) and Gallica bpt6k5505319w f78 (printed corners 155/156), band A, read at 1.7x. Note for any future Pattern 10 sweep: quarantining 'idolol triae' would take the whole lexeme out of 'nihil fecit idololatriae simile' and leave the sentence saying Jacob did nothing like to nothing. It is ours, not Migne's, and is repaired here rather than marked.",
+   "_source": "8950-PATCH-JSON-0031.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0155B",
+   "find": "vero scripturae verbo <hi>ulam</hi> vel <hi>olam</hi>   plenae",
+   "replace": "vero scripturae verbo <hi>ulam</hi> vel <hi>olam</hi> ולאם plenae",
+   "provenance": "STRUCTURAL: Hebrew present on the plate, absent from the twin (the twin's tell is a tripled space). Read on Gallica bpt6k5505319w f78 (printed corners 155/156) at 9x. ⚠ HOLD FOR A HEBRAIST BEFORE APPLYING: the four glyphs read, right to left, vav-lamed-aleph-final mem = ולאם, NOT the expected אולם ('ulam' of Jerome, Quaest. Hebr. in Gen.). Two independent readings (the archive stint's at 600 dpi and mine at Gallica) agree on the order as printed, which points to a transposition in Migne's own Hebrew type rather than a misreading -- but this is a claim about letter ORDER, the one thing ink cannot cause, and it should be checked against Jerome before it is published. The PRESENCE of the Hebrew is not in doubt.",
+   "_source": "8950-PATCH-JSON-0031.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0157C",
+   "find": "cum verbum Hebraicum <hi>monim</hi> \n   numerum magis quam annos sonat;",
+   "replace": "cum verbum Hebraicum <hi>monim</hi> \nמנים numerum magis quam annos sonat;",
+   "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum mid-sentence (no visible scar, so a silent patch and a crux, per Pattern 13a clause 1). Read on Gallica bpt6k5505319w f79 (printed corners 157/158) at 9x: four glyphs, clean, mem-nun-yod-final mem, matching Migne's own transliteration 'monim' and Jerome's argument that the Hebrew says 'number' rather than 'years'.",
+   "_source": "8950-PATCH-JSON-0031.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0158A",
+   "find": "in Hebraeo <hi>theraphim</hi>   scriptum est;",
+   "replace": "in Hebraeo <hi>theraphim</hi> תרפים scriptum est;",
+   "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum (tell: a tripled space). Read on Gallica bpt6k5505319w f79 (printed corners 157/158) at 9x. Reads tav-resh-pe-yod-final mem = תרפים, matching Migne's transliteration 'theraphim' and the standard form; the final mem is lightly inked but the word is not otherwise in doubt.",
+   "_source": "8950-PATCH-JSON-0031.json"
+  },
+  {
+   "work": "8950 Glossa ordinaria, Liber Genesis (PL 113)",
+   "col": "0159B",
+   "find": "in Hebraeo <hi>mahanaim</hi>  ; ut sciamus,",
+   "replace": "in Hebraeo <hi>mahanaim</hi> מהנים ; ut sciamus,",
+   "provenance": "STRUCTURAL: Hebrew present on the plate, dropped by Corpus Corporum, leaving a floating space before the semicolon. Read on Gallica bpt6k5505319w f80 (printed corners 159/160) at 9x. ⚠ HOLD FOR A HEBRAIST BEFORE APPLYING: the second glyph shows the detached left leg of a HE, giving מהנים, where the Masoretic form of Mahanaim is מחנים with het. Two independent readings agree on he. If Migne set het and both readings are wrong, the replace string becomes מחנים. The PRESENCE of the Hebrew is not in doubt. Note also that Migne sets a space before the semicolon here; the twin's spacing is preserved.",
+   "_source": "8950-PATCH-JSON-0031.json"
+  }
+ ]
 }

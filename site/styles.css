@@ -505,6 +505,8 @@ a { color: inherit; }
 [lang="la"] { font-feature-settings: "locl" 0; }
 .passage { border-top: 0; margin-bottom: .5rem; }
 .columns .passage:first-child { border-top: 2px solid var(--encre); }
+.book-title .coltext { text-align: center; font-variant: small-caps; letter-spacing: .02em; }
+.book-title { border-bottom: 1px solid var(--rule, #d9cdb4); padding-bottom: .6rem; margin-bottom: 1rem; }
 .canon-head {
   font-family: var(--didot); font-weight: 400; font-size: 1.05rem;
   letter-spacing: .04em; margin: 1.6rem 0 .8rem;

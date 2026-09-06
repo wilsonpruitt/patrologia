@@ -46,9 +46,17 @@ const CONT_HEAD = /\((?:cont\.|continued)\)$/;
 // found). Merging restores the section to one head with continuous text.
 // Latin and English chunk at identical boundaries, so both sides merge in step and
 // the parallel columns stay aligned.
+// ⭐ `.slice(1)` below DISCARDS everything before the first `## ` head, and until 2026-09-06
+// nothing ever stood there. Migne's book-title banner does — `Hebraice VAIEDABBER (וידבר), id
+// est : ET LOCUTUS EST.` — restored by TEI patch as <head type="book-title"> and emitted by the
+// chunker ABOVE the first head, which is where the plate sets it. Dropping it here would have
+// carried the line all the way through patching, chunking, translation and verify and then
+// silently binned it at the last step, with every check green. It is returned as `preamble`.
 function sections(text) {
   const out = [];
-  for (const part of ('\n' + text).split(/\n## /).slice(1)) {
+  const parts = ('\n' + text).split(/\n## /);
+  out.preamble = parts[0].trim();
+  for (const part of parts.slice(1)) {
     const nl = part.indexOf('\n');
     const head = part.slice(0, nl).trim();
     const body = part.slice(nl).trim();
@@ -282,7 +290,14 @@ if (latSecs.length !== engSecs.length) {
 const latState = { col: String(manifest.colFirst ?? '').toLowerCase() };
 const engState = { col: String(manifest.colFirst ?? '').toLowerCase() };
 
-const passages = latSecs.map((ls, i) => `
+// The banner is one line of display type standing above the first section, in both columns.
+const bookTitle = (latSecs.preamble || engSecs.preamble) ? `
+<div class="col-rules passage book-title">
+  <div><div class="coltext latin" lang="la">${blockHtml(latSecs.preamble, { anchorIds: false, state: { col: latState.col } })}</div></div>
+  <div><div class="coltext english" lang="en">${blockHtml(engSecs.preamble, { anchorIds: false, state: { col: engState.col } })}</div></div>
+</div>` : '';
+
+const passages = bookTitle + latSecs.map((ls, i) => `
 <div class="col-rules passage">
   <div>
     <h2 class="canon-head" lang="la">${inlineHtml(ls.head, { anchorIds: false, state: latState })}</h2>
@@ -493,6 +508,8 @@ css += `
 [lang="la"] { font-feature-settings: "locl" 0; }
 .passage { border-top: 0; margin-bottom: .5rem; }
 .columns .passage:first-child { border-top: 2px solid var(--encre); }
+.book-title .coltext { text-align: center; font-variant: small-caps; letter-spacing: .02em; }
+.book-title { border-bottom: 1px solid var(--rule, #d9cdb4); padding-bottom: .6rem; margin-bottom: 1rem; }
 .canon-head {
   font-family: var(--didot); font-weight: 400; font-size: 1.05rem;
   letter-spacing: .04em; margin: 1.6rem 0 .8rem;

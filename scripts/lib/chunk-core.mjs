@@ -234,12 +234,17 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
     for (const p of paras) {
       const w = words(p);
       if (curW + w > max && cur.length) {
-        units.push({ head: part === 1 ? d.head : contHead(d.head), text: cur.join('\n\n'), words: curW, splitPart: part++ });
+        // ⛔ bookTitle belongs to the FIRST part only, and it must be carried explicitly: this
+        // branch builds fresh unit objects instead of spreading `d`, so a book-title line was
+        // silently dropped for any work whose first division is longer than `max`. 8963's
+        // PRAEFATIO is short and kept it; 8950's CAPUT PRIMUM is long and lost it, with no
+        // warning anywhere — the line simply was not in the chunked Latin. Found 2026-09-06.
+        units.push({ head: part === 1 ? d.head : contHead(d.head), bookTitle: part === 1 ? d.bookTitle : null, text: cur.join('\n\n'), words: curW, splitPart: part++ });
         cur = []; curW = 0;
       }
       cur.push(p); curW += w;
     }
-    if (cur.length) units.push({ head: part === 1 ? d.head : contHead(d.head), text: cur.join('\n\n'), words: curW, splitPart: part === 1 ? null : part });
+    if (cur.length) units.push({ head: part === 1 ? d.head : contHead(d.head), bookTitle: part === 1 ? d.bookTitle : null, text: cur.join('\n\n'), words: curW, splitPart: part === 1 ? null : part });
   }
 
   const groups = [];
@@ -262,7 +267,10 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
     const cols = colM.extract(text);
     const noteCount = (text.match(/\[n: /g) || []).length;
     const wc = words(colM.strip(text));
-    const incipit = colM.strip(text.replace(/^## .*\n+/, '')).replace(/\*/g, '').split(/\s+/).filter(Boolean).slice(0, 8).join(' ');
+    // ⚑ Skip a leading book-title banner as well as a leading `## ` head: the incipit is what the
+    // work's TEXT begins with, and a display line naming the book in Hebrew is not that. Without
+    // this, 8950's incipit became "Hebraice dictus בראשית , BERESIT, id est In".
+    const incipit = colM.strip(text.replace(/^(?!## )[^\n]*\n+(?=## )/, '').replace(/^## .*\n+/, '')).replace(/\*/g, '').split(/\s+/).filter(Boolean).slice(0, 8).join(' ');
     const meta = {
       workIdno: Number(work.workIdno),
       textIdno: Number(idno),

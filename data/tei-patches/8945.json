@@ -4,6 +4,13 @@
  "result": "7 CORRUPTED, 0 NORMALIZED this session.",
  "patches": [
   {
+   "work": "8945 Glossa ordinaria (PL 113)",
+   "col": null,
+   "find": "<div2>\n        <head>PRAEFATIO.</head>",
+   "replace": "<div2>\n        <head type=\"book-title\">Hebraice ELLEH HADDEBARIM (<foreign xml:lang=\"hebrew\">אלה הדברים</foreign>), id est Haec sunt verba.</head>\n        <head>PRAEFATIO.</head>",
+   "why": "RETROFIT of a SHIPPED work, per Wilson's ruling 2026-09-06. Migne sets this display line under the LIBER DEUTERONOMII banner and Corpus Corporum drops it; 8945 went live opening one line short of its own plate. Two witnesses: archive p.228 (corners 445/446) and Gallica f223, read at ~8x. Migne's own transliteration ELLEH HADDEBARIM is the on-plate control for the Hebrew and agrees. Encoded <head type=\"book-title\"> per the ruling; declares col null because the banner precedes this file's first column mark, which patch-audit verifies positionally."
+  },
+  {
    "col": "0471C",
    "find": "operari. Sicque religiose coversans in mundo, qui\nsenario conditus est numero, post perfectionem bonorum",
    "replace": "operari. Sicque religiose conversans in mundo, qui\nsenario conditus est numero, post perfectionem bonorum",
