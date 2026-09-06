@@ -87,6 +87,21 @@ upstream project asks for, and the place to look before a marker rests on one le
   own typo as the standard**. Found by the 9000 stint that was translating cols 0325C–0340C; it
   refused to cite the verse and said why, which is the behaviour this note exists to reward.
 
+- **`Mt 28:10` prints *ite, **nuntiare** fratribus meis*.** The Clementine reads ***nuntiate***.
+  *Ite, nuntiare* does not construe at all — an imperative followed by a bare infinitive — which is
+  the tell. ⚑ **The controls are the file's own**: it carries `nuntiate` correctly 24 times, and the
+  angel's parallel command three verses earlier at `Mt 28:7` is the imperative *dicite discipulis
+  ejus*. Found 2026-09-05 by the 9002 stint translating cols 0167A–0178D.
+
+- **`Mt 27:16` prints *qui dicebatur **Barrabas***, with a doubled r.** The Clementine reads
+  ***Barabbas***. ⚑ **This copy is internally inconsistent about the name**: it has `Barabbam`
+  **eight** times (including `Mt 27:17`, `27:20`, `27:21`, `27:26`, the same pericope) and
+  `Barabbas` at `Jo 18:40`, against `Barrabas` twice. ⚠ **And the two doubled spellings are not
+  random — both stand after *qui dicebatur*** (here and `Mc 15:7`), which is a pattern rather than
+  a slip and is recorded as such rather than explained away. Either way the operative point is the
+  one this section exists for: **a marker turning on that r cannot rest on this file**, because the
+  file disagrees with itself nine times to two.
+
 - **`Mt 5:15` prints *neque **accedunt** lucernam*.** The Clementine reads ***accendunt***
   (*neque accendunt lucernam, et ponunt eam sub modio*). *Accedere* is intransitive and cannot
   take *lucernam* — the phrase does not construe at all, which is the tell. ⚑ **The internal

@@ -1,0 +1,163 @@
+{
+  "work": "9002",
+  "title": "Glossa ordinaria — Evangelium secundum Matthaeum (PL 114)",
+  "stint": "0038-0041",
+  "columns": "0167A-0178D",
+  "recordedBy": "translation stint 0038-0041, 2026-09-05",
+  "note": "Final stint of the work. Cols 0177-0178 are the last columns of Matthew and of the Glossa's last gospel; the foot of that page was re-read on both copies at 300 dpi.",
+  "maps": {
+    "archive": {
+      "id": "patrologiaecurs06saingoog",
+      "path": "raw/scans/pl114/patrologiaecurs06saingoog.pdf",
+      "formula": "pdfPage = (column + 11) / 2",
+      "computedThisSession": "0167 -> p.89 ... 0177 -> p.94",
+      "confirmedThisSession": "p.89 corners read 167 / 168; p.90 169/170; p.91 171/172; p.92 173/174; p.93 175/(right corner physically cropped by this copy); p.94 177/178",
+      "render": "pdftoppm -f N -l N -r 300 -png"
+    },
+    "gallica": {
+      "ark": "ark:/12148/bpt6k54939667",
+      "formula": "f = (column + 1) / 2",
+      "computedThisSession": "0167 -> f84 ... 0177 -> f89",
+      "confirmedThisSession": "f84 corners read 167 / 168; f85 169/170; f86 171/172; f87 173/174; f88 175/176; f89 177/178",
+      "fetch": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54939667/f<N>/full/full/0/native.jpg (User-Agent required; f<N>.highres returns 403; a 429 on a burst of six is transient — retry)"
+    }
+  },
+  "summary": {
+    "pagesRead": 6,
+    "columnsRead": 12,
+    "bothWitnesses": true,
+    "cornerNumbersCheckedFirst": true,
+    "archiveOnlyCandidatesRaised": 19,
+    "archiveOnlyCandidatesRefutedByGallica": 19,
+    "archiveOnlyCandidatesConfirmed": 0,
+    "pressVariantsBothCopiesClean": 2,
+    "ourTeiDivergencesFromBothPlates": 3,
+    "footOfPageApparatusFound": 0,
+    "sicFired": 0,
+    "varFired": 9,
+    "cjFired": 1,
+    "edFired": 0,
+    "cnFired": 0
+  },
+  "reads": [
+    {
+      "page": 89,
+      "gallicaLeaf": 84,
+      "columns": ["0167", "0168"],
+      "cornersRead": "167 / 168",
+      "runningHead": "recto: WALAFRIDI STRABI FULD. MON. OPP. PARS I. — THEOLOGICA.",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "Both columns, both witnesses: blank below the text. No numbered note, no asterisk, no editorial line.",
+      "findings": [
+        "@0167B archive prints 'Per eam domun accipe'; Gallica prints 'domum'. Archive ink. Our TEI right.",
+        "@0167C archive prints 'omnibus diebus uque ad consummationem'; Gallica prints 'usque ad'. Archive ink, and a non-word. Our TEI right.",
+        "@0167D archive prints 'illum compendi insinuavit'; Gallica prints 'compendio'. Archive ink. Our TEI right.",
+        "@0168A archive prints 'de angustiis littera egrediens'; Gallica prints 'litterae'. Archive ink. Our TEI right.",
+        "@0168A 'Et fecerunt discipuli sicuti' and 'Invenerunt coenaculum grande stratum' read letter by letter on BOTH copies and identical on both — Migne's, not ours. [var:] fired on the second, declined on the first.",
+        "@0168B archive prints 'designat specialiter ne, impudentior'; Gallica prints 'specialiter, ne impudentior'. Archive ink. Our TEI right.",
+        "@0168C archive prints 'Multo melius esset omino non esse'; Gallica prints 'omnino'. Archive ink, and a non-word. Our TEI right.",
+        "@0168D Greek πίστις present and clean on both. Note contents (HIER.), (Psal. CIX) identical on both.",
+        "Everything else in cols 0167-0168 agrees word for word with our TEI on both copies."
+      ]
+    },
+    {
+      "page": 90,
+      "gallicaLeaf": 85,
+      "columns": ["0169", "0170"],
+      "cornersRead": "169 / 170",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "col 169 foot: signature line PATROL. CXIV. — col 170 foot: printer's signature 6. No notes, no asterisk, on either witness.",
+      "findings": [
+        "@0169B archive sets 'Ethymno' as one fused word; Gallica sets 'Et hymno'. Archive kerning/ink. Our TEI right.",
+        "@0169D archive prints 'Etsi homnes'; Gallica prints 'Etsi omnes'. Archive ink (the same added initial h as homnibus @0099B). Our TEI right. THIS IS THE ⚑ FLAGGED SPAN: the plate reads 'Etsi omnes' closed up, the Vulgate 'Et si omnes' — a word division and nothing else. No [var:], no [sic:].",
+        "@0169D archive prints 'apte orant in valle pinguedinis'; Gallica prints 'orat'. Archive ink. Our TEI right.",
+        "@0169D archive prints 'Vere constristatus est'; Gallica prints 'contristatus'. Archive ink, and a doubled syllable. Our TEI right.",
+        "@0169D archive prints 'verum pro passio est' split across a space; Gallica prints 'propassio'. Archive ink. Our TEI right. A word-division defect, 7a⁗-b's most dangerous shape had it stood.",
+        "@0170B 'ne Judaei, qui excusationem ignorantiae non habent, non occidant' — zoomed on BOTH copies. Both non present on both. Migne's, and the ground of this stint's one [cj:].",
+        "@0170B archive prints 'dirigere justa divinam'; Gallica prints 'juxta'. Archive ink. Our TEI right.",
+        "@0170C archive prints 'Tribus viribus oravit'; Gallica prints 'vicibus'. Archive ink, and a well-formed real word for another — the class no non-word heuristic can catch. Our TEI right.",
+        "@0170C 'a poenitentibus malis tutelam' and 'timor utilitatis' zoomed on BOTH copies and identical on both. Migne's. Rendered as printed; praesentibus and vilitatis declined.",
+        "@0170D archive prints 'cum non meum palam tradidit'; Gallica prints 'eum'. Archive ink. Our TEI right.",
+        "@0170D 'Dedit eis signum' zoomed on BOTH copies and identical on both. Migne's. [var:] fired against Mt 26:48 'dedit illis signum'."
+      ]
+    },
+    {
+      "page": 91,
+      "gallicaLeaf": 86,
+      "columns": ["0171", "0172"],
+      "cornersRead": "171 / 172",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "Both columns, both witnesses: blank below the text.",
+      "findings": [
+        "@0171B our TEI sets a comma after 'perdiderunt'; NEITHER plate has it — the word is hyphenated across a line break on both, so the comma cannot have stood there. Pending TEI patch. English unaffected.",
+        "@0171B archive prints 'quia potesta vestra in tenebris'; Gallica prints 'potestas'. Archive ink, and a non-word. Our TEI right.",
+        "@0171C archive lacks the comma after 'id est' in 'Caiphas, id est, investigator' and the comma before 'sed Christus pro Ecclesia'; Gallica has both, as our TEI does. Archive ink. Our TEI right.",
+        "@0172A PRESS VARIANT, both copies clean, neither at fault: Gallica prints 'rerurrectionis' (split re- / rurrectionis) and the archive prints 'resurrectionis'. Our TEI follows Gallica. No [sic:] (it would need two witnesses and the second refutes it), no patch (the twin reproduces its own copy faithfully). Crux only. The first site in this range where the archive copy is the cleaner of the two.",
+        "@0172C archive prints 'ut inde caetera contexereunt'; Gallica prints 'contexerent'. Archive ink, and a non-word. Our TEI right.",
+        "@0172D VERSE-ADDRESS PRESS VARIANT: archive prints 'VERS. 4. — Peccavi tradens'; Gallica prints 'VERS. 4. Peccavi tradens' with NO dash. Our TEI follows Gallica. The two copies disagree about a dash, not about a digit; nothing machine-readable consumes it; the twin is left exactly as it stands."
+      ]
+    },
+    {
+      "page": 92,
+      "gallicaLeaf": 87,
+      "columns": ["0173", "0174"],
+      "cornersRead": "173 / 174",
+      "runningHead": "verso: GLOSSA ORDINARIA. — EVANG. MATTH.",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "footContents": "Both columns, both witnesses: blank below the text.",
+      "findings": [
+        "@0173B '(Zac. II)' on a quotation of Mt 22:21 and '(Marc. XXIV)' on a sixteen-chapter gospel are on BOTH copies. Migne's own citations; reproduced verbatim.",
+        "@0173B 'Et non erant convenientia testimonia eorum' read on both; identical. [var:] fired against Mc 14:56.",
+        "@0173D archive prints 'pro filio Dei' lower-case; Gallica prints 'pro Filio Dei'. Archive ink. Our TEI right.",
+        "@0174A archive prints 'Crucifige, crucifige eum !' with an exclamation mark; Gallica prints a full stop, as our TEI does. Archive ink. Our TEI right — and a sentence-type mark is exactly what Pattern 8 forbids supplying from one witness.",
+        "@0174A 'Quid ergo faciam de Jesu' (against the lemma's own 'Quid igitur' nine words above) read on both; identical on both. [var:] fired.",
+        "@0174B 'Jesum vero flagellatum' read on both; identical. [var:] fired against Mt 27:26 'Jesum autem flagellatum'.",
+        "Cols 0173-0174 otherwise agree word for word with our TEI on both copies."
+      ]
+    },
+    {
+      "page": 93,
+      "gallicaLeaf": 88,
+      "columns": ["0175", "0176"],
+      "cornersRead": "archive: 175 only — this copy's scan physically crops the outer margin of the recto, taking the 176 corner and 2-4 characters off the line ends of col 176; Gallica f88 reads 175 / 176 cleanly",
+      "witnesses": ["archive", "gallica"],
+      "witnessNote": "Col 0176 is legible in full ONLY on Gallica in the archive copy's state. Read there.",
+      "footInspected": true,
+      "footContents": "Both columns, both witnesses: blank below the text.",
+      "findings": [
+        "@0175A 'Pro qua eum Judaei Pilato tradiderunt' on BOTH plates; our TEI prints 'Pro quam'. OUR defect. Pending TEI patch; the English renders the plate.",
+        "@0175A the Wisdom quotation ('de manu contrariorum', 'respectus in sermonibus illius', 'Si enim vere Filius Dei est') read letter by letter on both; identical on both. [var:] fired against Sap 2:20 and 2:18.",
+        "@0175A the paragraph on Blasphemabant ENDS IN A COLON ('et caput agitant:') on both copies — the archive's ink makes it look like a full stop; Gallica is decisive. Our TEI right. Preserved in the English.",
+        "@0175B 'Et credemus ei' read letter by letter on both; future tense on both. [var:] fired against Mt 27:42 'et credimus ei'.",
+        "@0176D 'In syndone munda' and 'Sindone munda' — Migne's own two spellings, four words apart, on BOTH copies. Reproduced.",
+        "The archive copy's running head on this page prints 'THOLOGICA' for THEOLOGICA; Gallica f88 prints it correctly. Running heads are not part of our TEI; recorded only as a further measurement of that copy's condition."
+      ]
+    },
+    {
+      "page": 94,
+      "gallicaLeaf": 89,
+      "columns": ["0177", "0178"],
+      "cornersRead": "177 / 178",
+      "witnesses": ["archive", "gallica"],
+      "footInspected": true,
+      "lastPageOfWork": true,
+      "footContents": "THE WORK'S LAST PAGE, re-read on BOTH copies at full resolution as the launch message required. Matthew closes at 'Sic veniet quemadmodum vidistis eum euntem in coelum (Act. I).' in col 0178D; a short centred rule stands below it; the remaining ~two-fifths of the leaf is blank paper. NO note, NO asterisk, NO colophon, on EITHER copy. The single-witness 150 dpi spot check is hereby confirmed by a second witness at 300 dpi.",
+      "findings": [
+        "@0177A archive prints 'VERS. 66. — Munierum sepulcrum'; Gallica prints 'Munierunt'. Archive ink, and a non-word. Our TEI right.",
+        "@0178A both plates print the note as '(Joan. XX)' with a period after Joan; our TEI prints '(Joan XX)'. OUR defect, minor. Pending TEI patch.",
+        "@0178D archive prints 'Et ecce ego vobiscum suum'; Gallica prints 'sum'. Archive ink. Our TEI right — and this is the work's closing lemma, so a false claim here would have stood at the most conspicuous point in the book.",
+        "The two abridgment-formula 'usque ad' spans (@0177B and @0178D) are italic on both copies and both follow an 'etc.', as our TEI has them."
+      ]
+    }
+  ],
+  "methodNotes": [
+    "Both maps were computed from the columns wanted and then checked against the printed corner numbers before anything on the page was read.",
+    "Nineteen candidates raised on the archive copy; nineteen refuted at Gallica; none confirmed. Nine of the nineteen were non-words, which under the CORRECTION TO ADDENDUM A is a reason to fetch the second witness and not a substitute for it — it was right nine times out of nine here.",
+    "Two disagreements between the copies are press variants with both copies clean (@0172A rerurrectionis/resurrectionis, @0172D the VERS. 4 dash). Neither is a defect to accuse anyone of; crux only.",
+    "Feet of all six pages inspected on both copies. Checked zero: no apparatus of any kind in cols 0167-0178."
+  ]
+}
