@@ -47,7 +47,16 @@ function unique(needle, wantCol) {
 const rows = fs.readFileSync(tsvPath, 'utf8').split('\n')
   .map(l => l.replace(/\r$/, ''))
   .filter(l => l.trim() && !l.startsWith('#'))
-  .map((l, i) => { const [col, find, replace, ...why] = l.split('\t'); return { line: i + 1, col, find, replace, why: why.join('\t') }; });
+  // ⚑ A TSV cannot carry a literal newline, and Corpus Corporum's TEI wraps lines MID-WORD, so
+  // the whole de-hyphenation class (Migne prints `acci-` / `piat`; our file keeps the break and
+  // drops the hyphen) is unexpressible without an escape. Added 2026-09-06 on 8963 @0383D, which
+  // could not otherwise have been filed at all. `\n` and `\t` only -- nothing else is unescaped,
+  // because a find string is matched against the raw file and must stay literal.
+  .map((l, i) => {
+    const [col, find, replace, ...why] = l.split('\t');
+    const unesc = t => t === undefined ? t : t.replace(/\\n/g, '\n').replace(/\\t/g, '\t');
+    return { line: i + 1, col, find: unesc(find), replace: unesc(replace), why: why.join('\t') };
+  });
 
 const patches = [], refused = [];
 for (const r of rows) {

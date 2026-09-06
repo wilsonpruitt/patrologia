@@ -1,0 +1,68 @@
+[
+ {
+  "col": "0383C",
+  "find": "eupiunt",
+  "replace": "cupiunt",
+  "why": "Non-word for *cupiunt*. Both witnesses print `cupiunt` (archive p.197 600 dpi, Gallica f192). Our file only; no [sic:] is owed and after the patch the word is not in our Latin to carry one."
+ },
+ {
+  "col": "0383D",
+  "find": "acci\npiat",
+  "replace": "accipiat",
+  "why": "DE-HYPHENATION FAILURE, not a Pattern 10 split of Migne's. The plate breaks *accipiat* across a line end as `acci-` / `piat`; Corpus Corporum kept the break as a space and dropped the hyphen. Both witnesses. It wears Pattern 10's exact shape and must not be marked as one."
+ },
+ {
+  "col": "0384D",
+  "find": "VERS. 59.",
+  "replace": "VERS. 39.",
+  "why": "Digit, and made against the withdrawn verse-address class deliberately, on THREE lines, two of them outside the photographs: the archive prints an unambiguous 39 at 600 dpi, Gallica f192 agrees, and the lemma is *Septingenti* -- Nm 1:39 is Dan's 62,700 while Nm 1:59 does not exist (Numbers 1 ends at v. 54). Direction is the opposite of the withdrawn class: OUR number is wrong, not Migne's."
+ },
+ {
+  "col": "0386D",
+  "find": "Alicnati",
+  "replace": "Alienati",
+  "why": "Non-word for *Alienati*, e->c. Both witnesses."
+ },
+ {
+  "col": "0389A",
+  "find": "Invoiventque",
+  "replace": "Involventque",
+  "why": "Non-word for *Involventque*, l->i. Both witnesses."
+ },
+ {
+  "col": "0390A",
+  "find": "invonitur",
+  "replace": "invenitur",
+  "why": "Non-word for *invenitur*, e->o. Both witnesses."
+ },
+ {
+  "col": "0390C",
+  "find": "Exceptio ariete",
+  "replace": "Excepto ariete",
+  "why": "Real word in the wrong form -- ablative absolute *Excepto ariete* required. Both witnesses. The class Addendum A calls worthless for frequency and decisive only at the plate."
+ },
+ {
+  "col": "0398C",
+  "find": "recta, opera",
+  "replace": "recta opera",
+  "why": "A comma NEITHER printing has (archive p.204, Gallica f199). Punctuation compared by column band, not by total. NOTE: the first two attempts at this row were REFUSED -- `qui recta, opera` spans a line break in the TEI (`qui\\nrecta, opera`) and my \"fix\" put the escape on the wrong side of the comma. The tool refused both rather than matching something near enough."
+ },
+ {
+  "col": "0407A",
+  "find": "Omnia quae sanctificatur",
+  "replace": "Omnia quae sanctificantur",
+  "why": "Our file drops the `n`, leaving a singular verb under a plural subject; both witnesses print *sanctificantur*, and the Clementine Nm 18:8 agrees. English already renders the plate; no [sic:] owed, the defect is ours."
+ },
+ {
+  "col": "0412A",
+  "find": "manifestati mihi",
+  "replace": "manifestasti mihi",
+  "why": "*manifestati* has no grammatical slot; Ps 50:8 reads *manifestasti*. Read at 600 dpi on the archive and at native resolution on Gallica f206. English already renders the plate."
+ },
+ {
+  "col": "0440B",
+  "find": "mansio in Thahath",
+  "replace": "mansio in Thabath",
+  "why": "Both witnesses print *Thabath* in the GLOSS while the VERS. 26 lemma prints *Thahath*; Migne sets both, and the English follows him at each. Only the gloss occurrence is patched -- the VERS. 26 lemma is left exactly as it stands. COLUMN CORRECTED: the stint declared 0440C and patch-build refused it, because the <pb n=\"0440C\"/> mark falls AFTER this sentence -- the site is in 0440B. Same page (225 = cols 439/440), so the read covers it either way."
+ }
+]

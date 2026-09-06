@@ -24,15 +24,25 @@ const marks = [...xml.matchAll(/<pb n="([^"]+)"\s*\/>/g)].map(m => ({ n: m[1], a
 const colAt = off => { let cur = null; for (const m of marks) { if (m.at > off) break; cur = m.n; } return cur; };
 
 let fail = 0, warn = 0;
+// ⛔ FIXED 2026-09-06 (8963). This walked the file collecting every 4-digit column STRING it saw,
+// which means it only ever knew a read's ENDPOINTS. A read recorded as 0406D-0408D put 0406 and
+// 0408 in the set and NOT 0407 — so it warned "no recorded plate read" over a column read end to
+// end, and, far worse, it would have stayed silent about a genuine gap in the middle of any range.
+// A check that cries wolf on every mid-range column is a check nobody reads.
+// ⚑ Ranges are now EXPANDED from `from` to `to`, which is what a read record means: the page was
+// on screen, both its columns, all four bands.
 const reads = (() => {
   const p = path.join(ROOT, 'data/plate-reads.json');
   if (!fs.existsSync(p)) return null;
   const raw = JSON.parse(fs.readFileSync(p, 'utf8'));
   const set = new Set();
+  const bare = v => typeof v === 'string' && /^\d{4}[A-D]?$/.test(v) ? +v.slice(0, 4) : null;
   const walk = v => {
-    if (Array.isArray(v)) v.forEach(walk);
-    else if (v && typeof v === 'object') { for (const [k, x] of Object.entries(v)) { if (/^\d{4}[A-D]?$/.test(k)) set.add(k.replace(/[A-D]$/, '')); walk(x); } }
-    else if (typeof v === 'string' && /^\d{4}[A-D]?$/.test(v)) set.add(v.replace(/[A-D]$/, ''));
+    if (Array.isArray(v)) return v.forEach(walk);
+    if (!v || typeof v !== 'object') return;
+    const a = bare(v.from), b = bare(v.to);
+    if (a !== null) for (let c = a; c <= (b ?? a); c++) set.add(String(c).padStart(4, '0'));
+    for (const [k, x] of Object.entries(v)) { const kk = bare(k); if (kk !== null) set.add(String(kk).padStart(4, '0')); walk(x); }
   };
   walk(raw);
   return set;
