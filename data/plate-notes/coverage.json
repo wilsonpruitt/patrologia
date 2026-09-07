@@ -1388,6 +1388,16 @@
    "tier": 2,
    "coverage": "none",
    "notes_recovered": 0
+  },
+  {
+   "idno": "8961",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "note": "2 pages read at the plate 2026-09-07 on Gallica ark:/12148/bpt6k5505319w -- f148 (cols 295/296, the work's opening, where the Leviticus/Praefatio division falls MID-PAGE, so the rule's two-page case applies) and f168 (cols 335/336, interior, Lev. XIII-XIV). Corners read first on both, confirming f = (column + 1) / 2. No foot-of-page apparatus of EITHER layer on either page -- no numbered Forte conjectures, no asterisk cross-references; both pages run clean to the last line with blank paper below. ⚑ The head-of-book Hebrew title line that CC drops is NOT this layer (display type in the head, not foot apparatus) and is handled by data/tei-patches/8961.json.",
+   "caveat": "A sample of 2 of the work's ~43 pages. Consistent with the sibling PL 113 zeros (8963 3 pages, 8945 8 pages) but NOT inheriting them: these two pages are this work's own. Does not license a claim that Leviticus carries no notes on its unread pages."
   }
  ],
  "fields": {

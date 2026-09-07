@@ -1,0 +1,11 @@
+{
+  "patches": [
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": null,
+      "find": "<div2>\n        <head>PRAEFATIO.</head>",
+      "replace": "<div2>\n        <head type=\"book-title\">Hebraice VAIICRA (<foreign xml:lang=\"hebrew\">ויקרא</foreign>).</head>\n        <head>PRAEFATIO.</head>",
+      "why": "STRUCTURAL RECOVERY, read at the plate 2026-09-07. Migne sets a display line under the LIBER LEVITICUS banner giving the book's Hebrew name and Corpus Corporum drops the whole line; our TEI body opened straight at PRAEFATIO. Fifth and last of the Glossa Pentateuch book-title class (8950 Genesis, 8945 Deuteronomy, 8963 Numbers recovered and live; 8949 Exodus still owed). Gallica ark:/12148/bpt6k5505319w f148, printed corners read FIRST and give 295/296, confirming the PL 113 map f = (column + 1) / 2. Hebrew read letter by letter at ~5x from the native crop, right to left: vav-yod-QOF (descender visible)-resh-aleph = ויקרא. Migne's own printed transliteration VAIICRA is the on-plate control and agrees. ⚑ Unlike 8963, this word needed no disambiguation between the two copies -- no letter here is of the class that jbig2 substitution turns into a different well-formed letter -- but it was read on Gallica anyway, which is the better witness for non-Latin type by construction (data/briefs/PL113-WITNESS-ENCODING.md). Encoded <head type=\"book-title\"> per Wilson's ruling 2026-09-06, which chunk-core.mjs routes above the first head: it is not a section head (a second <head> would displace PRAEFATIO as the unit head) and not a paragraph of the praefatio. The banner precedes this file's first column mark <pb n=\"0295D\"/>, so it declares col null, which patch-audit verifies positionally."
+    }
+  ]
+}

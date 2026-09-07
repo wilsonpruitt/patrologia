@@ -7273,6 +7273,33 @@
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
     }
    ]
+  },
+  "8961": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+   "page_map": "Gallica leaf f = (column + 1) / 2",
+   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these two reads; see the note on each.",
+   "reads": [
+    {
+     "from": "0295D",
+     "to": "0296D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f148",
+     "source": "Gallica f148 at native IIIF resolution (1908x3118), full page plus native crops of the banner and of the foot strip at full page width. CALIBRATION PAGE: printed corners read FIRST and give 295/296, confirming f = (column + 1) / 2 for this tome.",
+     "found": "Foot of page: CHECKED ZERO, both layers -- no numbered Forte conjecture, no asterisk cross-reference; both columns run to the last line with blank paper below. Head of page: ONE STRUCTURAL FINDING, the fifth of the Glossa Pentateuch book-title class. Migne sets a display line under LIBER LEVITICUS -- 'Hebraice VAIICRA (ויקרא).' -- which Corpus Corporum drops entirely; our body opened at <head>PRAEFATIO.</head>. Hebrew read letter by letter right to left at ~5x on the native crop: vav-yod-QOF (descender clearly visible)-resh-aleph. Migne's own printed transliteration VAIICRA is the on-plate control and agrees. Recovered as data/tei-patches/8961.json. ⚑ The archive copy was NOT consulted: no letter in this word belongs to the class jbig2 substitution turns into a different well-formed letter (contrast 8963's dalet/resh), and Gallica is the better witness for non-Latin type by construction. That is a stated reason, not an omission."
+    },
+    {
+     "from": "0335",
+     "to": "0336",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f168",
+     "source": "Gallica f168 at native IIIF resolution, full page. Corners read first and give 335/336.",
+     "found": "CHECKED ZERO. Interior page of the work (Lev. XIII 51 - XIV 9, the leprosy chapters, CAPUT XIV opening mid-column). No foot-of-page apparatus of either layer; both columns run to the last line. Read for the foot question and the running text scanned, NOT collated word by word -- depth 'read', so this range licenses a marker but not silence about a column."
+    }
+   ]
   }
  }
 }
