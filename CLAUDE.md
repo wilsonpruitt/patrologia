@@ -222,6 +222,24 @@ difference in front matter. Verified against the printed corner numbers before e
 ⚑ Server-side IIIF cropping means a second-witness check costs **one HTTP request**, not a 38 MB
 download. There is no longer a reason to leave a candidate unread because our copy is poor.
 
+⭐⭐ **AND THE PRIVILEGE RUNS BOTH WAYS — MEASURED ON 8956, 2026-09-07.** `PL113-WITNESS-ENCODING.md`
+establishes that the archive copy is 1-bit JBIG2 and may never be a **sole** witness for a letter,
+digit or point, and that guidance has been read as *Gallica is the good copy*. It is not a property
+of the copies. In 8956 cols 1291–1305 the **Gallica copy is the worse witness**: five worn sorts in
+fourteen columns — `tribuatus`, `lauaem`, `funiculu`, `Matih.`, `irruguus` — each a real non-word on
+Gallica **and** in our TEI, each **clean on the archive**. Four `[sic:]` candidates were withdrawn
+there. Earlier in the same book the traffic went the other way (`potet`/`potest` at 1265A, Gallica
+wrong). **So: nothing stands on one witness, in either direction, and "our copy is poor" is a claim
+about a page, never about a scan.**
+
+⛔ **A THIRD CLASS THAT IS OURS AND READS AS MIGNE'S: A HYPHEN AT A LINE OR COLUMN BREAK.** Also
+8956, five instances in five chunks — `cruceis, crucis` is *cru-|cis*, ONE WORD, and from our file
+alone it satisfies Pattern 11a exactly and would have put a `[d:]` on a doubling **Migne never set**.
+Likewise `exallabitur` (*exal-|tabitur*, across the column break our own anchor marks), `supereum`,
+`me moriter` (= *memoriter*), `sub coelo 1304est`. **The class is invisible without the plate and it
+wears Migne's face.** When a candidate defect sits at or near a line or column break, the break is
+the first hypothesis, not the last.
+
 ⚠ **Never guess a conjecture.** An illegible note is recorded as illegible; a wrong one would
 enter our apparatus wearing Migne's own voice.
 
