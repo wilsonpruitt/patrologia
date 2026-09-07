@@ -117,6 +117,20 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
   // `<` reaches the tag-stripper below and its content is swallowed as an unknown
   // element. So markup-significant entities — named AND their numeric spellings
   // (38, 60, 62) — are left alone until after all tags are gone, in inline().
+  // ⛔ A SECOND, OPPOSITE CORRUPTION, AND NO DECODER CAN FIX IT: upstream has lost the
+  // AMPERSAND, leaving a bare entity name in the text (`VERS. 10.emdash;`). There is
+  // nothing to decode -- the `&` is gone before we see the file -- so the only honest
+  // move is to make it loud at chunk time instead of letting it ride into the Latin,
+  // where it reads as a typographic oddity of Migne's rather than damage. Measured
+  // 2026-09-07: 6 sites in 5 works corpus-wide (8956, 8966, 10721, 6871, 7808 x2), so
+  // it is bounded, but 8966 shipped seven of them into a live column before anyone
+  // noticed and 8956 reached the English before a stint caught it by eye.
+  const bareEntities = [...body.matchAll(/[^&](emdash|mdash|ndash|nbsp|hellip|rsquo|lsquo|ldquo|rdquo);/g)].map(m => m[1]);
+  if (bareEntities.length) {
+    const counts = bareEntities.reduce((m, n) => m.set(n, (m.get(n) || 0) + 1), new Map());
+    warnings.push(`\u26d4 ${bareEntities.length} BARE ENTITY NAME(S) in the source -- the ampersand is lost UPSTREAM and cannot be decoded: ${[...counts].map(([n, c]) => `${n};\u00d7${c}`).join(', ')}. Patch the TEI (a dash for emdash;) before translating; do not let it reach the English.`);
+  }
+
   const entityCounts = new Map();
   const bump = k => entityCounts.set(k, (entityCounts.get(k) || 0) + 1);
   const NAMED = { quot: '"', apos: "'", nbsp: ' ', laquo: '\u00ab', raquo: '\u00bb' };
