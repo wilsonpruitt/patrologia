@@ -1,0 +1,76 @@
+{
+  "note": "STINT-SCOPED plate reads for 8961 (Glossa ordinaria, Liber Leviticus, PL 113), chunks 0000-0004, cols 0295D-0308D. Written by the 0000-0004 translation stint, 2026-09-07. To be merged into data/plate-reads.json by the orchestrator -- peers are writing their own stint files at the same time, so this file must NOT be merged by hand-editing plate-reads.json from a stint.",
+  "works": {
+    "8961": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "PRIMARY: Gallica ark:/12148/bpt6k5505319w (IIIF, native-resolution crops). CORROBORATION: raw/scans/pl113/patrologiaecurs04migngoog.pdf (archive.org, jbig2 -- never sole witness for a letter).",
+      "page_map": "Gallica leaf f = (column + 1) / 2. Archive PDF page = (column + 11) / 2. BOTH calibrated in this stint against printed corner numbers: Gallica f148 read 295/296, f150 read 299, f151 read 301, f152 read 303, f154 read 307/308; archive p.155 read 299/300.",
+      "reads": [
+        {
+          "from": "0295D",
+          "to": "0296D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f148 (foot of both columns -- the Leviticus title block and the opening of the PRAEFATIO; the rest of the leaf is the end of Exodus and out of range)",
+          "source": "Gallica IIIF, full-page render at 900px plus a native crop of the bottom block; CALIBRATION PAGE, printed corners read 295 / 296",
+          "found": "ZERO. Display line confirmed as Migne sets it: *Hebraice* Vaiicra (ויקרא). -- with NO 'id est' gloss, unlike Numbers and Deuteronomy. Running text of 0295D-0296D collated word for word against our TEI with no divergence. No foot-of-page apparatus of either layer."
+        },
+        {
+          "from": "0297A",
+          "to": "0298D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f149",
+          "source": "Gallica IIIF, four native-resolution half-column crops",
+          "found": "ZERO divergences from our TEI in the running text. Confirms Migne's own readings behind three [var:] fired in chunk 0000 (Gal 4:24 secundum allegoriam; Ez 20:25 mandata / non vivant; Ex 32:9 Scio). Confirms 'prescrutari' and 'Fortassis' (the latter looked like 'Forassis' only under a clipped crop -- a caution about crop boxes, not a finding)."
+        },
+        {
+          "from": "0299A",
+          "to": "0300D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f150 (Gallica) + p.155 (archive)",
+          "source": "Gallica IIIF native crops; corroborated on the on-disk archive.org PDF rendered at 300 dpi, whose printed corners read 299 / 300",
+          "found": "ONE defect, confirmed on BOTH printings: 0300A prints 'trangressus' for transgressus -- a non-word, marked [sic: *trangressus*] with the sense rendered beside it (Pattern 7 as amended 2026-09-05). Nothing else diverges from our TEI."
+        },
+        {
+          "from": "0301A",
+          "to": "0302D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f151 (Gallica) + p.156 (archive)",
+          "source": "Gallica IIIF native crops, plus 3x-4x enlargements of two disputed words; archive.org PDF at 300 dpi for corroboration",
+          "found": "TWO PRESS VARIANTS -- the two printings differ and both are clean, so no marker was fired on either (see cruces): 0301C Gallica 'ingessae' / archive 'ingressae'; 0301D Gallica 'occuli' / archive 'oculi'. Also confirmed as Migne's own, not ours: the UNCLOSED parenthesis at 0301A '( Isich. in Levit. Admirabilis...', and the MISSING terminal stop at 0302C 'et ad perfectionem exaltans'."
+        },
+        {
+          "from": "0303A",
+          "to": "0304D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f152",
+          "source": "Gallica IIIF, four native-resolution half-column crops",
+          "found": "ZERO divergences from our TEI. Notable non-finding: at 0304A the gloss itself contrasts 'non imponentur' with 'non ponentur' -- the Clementine reads inponentur, so Migne agrees with the received text here and NO [var:] was fired."
+        },
+        {
+          "from": "0305A",
+          "to": "0306D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f153",
+          "source": "Gallica IIIF, four native-resolution half-column crops",
+          "found": "ZERO type defects. Confirmed as Migne's: 0305D 'Ideo aut omnino additur' (a real word in its slot, rendered literally under Pattern 7, conjecture *autem* in the cruces); 0305D 'nescibat' (attested late imperfect, Pattern 9, no marker); the UNCLOSED parenthesis at 0305D-0306A '(ORIG. Observandum est...'."
+        },
+        {
+          "from": "0307A",
+          "to": "0308D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f154",
+          "source": "Gallica IIIF, four native-resolution half-column crops; printed corners read 307 / 308",
+          "found": "ZERO divergences from our TEI. Confirms Migne's readings behind four [var:] in chunk 0004 (1 Cor 8:6 conflation at 0307C; Lk 23:34 ignosce/quia nesciunt at 0308A; Mt 5:13 infatuatum/projiciatur at 0308A-B; Mt 3:2 present appropinquat at 0308C)."
+        }
+      ]
+    }
+  }
+}

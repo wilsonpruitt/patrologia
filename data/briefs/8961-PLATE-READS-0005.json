@@ -1,0 +1,82 @@
+{
+  "_stint": "8961 chunks 0005-0009 (cols 0309A-0323D). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8961.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- CONSULTED for cols 0315/0316 (p.163) and 0317/0318 (p.164); both maps re-calibrated against the printed corner numbers in this stint.",
+  "reads": [
+    {
+      "from": "0309A",
+      "to": "0310D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f155",
+      "source": "Gallica f155, native IIIF (1864x3096), four column-half crops at native resolution. CALIBRATION PAGE: printed corners read FIRST and give 309 / 310, confirming f = (column + 1) / 2 for this tome.",
+      "found": "Running text collated word by word against src/latin/8961/0005.md: no divergence between plate and our TEI. Vulgate divergences logged as cruces (Lv 5:2 lemma printed *Anima qui tetigerit* for Clementine *quae*; Lv 5:11 *Non mittet in eum* for *in eam*; Mt 18:22 printed *Non dico tibi septies* without the first *usque*, and cited (Matth. XXVIII)). Foot of both columns blank -- no numbered or asterisk conjecture."
+    },
+    {
+      "from": "0311A",
+      "to": "0312D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f156",
+      "source": "Gallica f156, native IIIF, four column-half crops plus a wide-left re-crop of the col-311 head after the first crop clipped the left margin.",
+      "found": "Two candidate defects in col 0311 REFUTED by re-cropping with the left margin included: the plate reads *vicenarius* (line break vice-narius) and *Aegypto* (Aegy-pto), both as our TEI has them. Otherwise no plate/TEI divergence. Cruces: Lv 6:12-13 quoted *Ignis in altari semper ardeat et nunquam deficiat* against the Clementine futures (fired [var:]); 1 Cor 2:2 printed *nihil judicavi me scire inter vos*; Lv 6:12 lemma abbreviated *Quem nutriet sacer.*; *renovati* in the AUG. 12 gloss will not construe. Foot of both columns blank."
+    },
+    {
+      "from": "0313A",
+      "to": "0314D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f157",
+      "source": "Gallica f157, native IIIF, four column-half crops.",
+      "found": "No plate/TEI divergence. Pattern 8 confirmed at 0314C: the sentence ending *mundatur ab originali* carries NO terminal stop on the plate, exactly as our TEI has it -- the English leaves it unstopped. Cruces: Phil 2:7-8 printed with *totum* and *patri* (fired [var:]); 1 Tim 4:5 *Sanctificatur autem* for Vulg. *enim*; Is 9:5 *in combustione* for *in combustionem*; Heb 12:29 quoted but cited (Deut. IV). Foot of both columns blank."
+    },
+    {
+      "from": "0315A",
+      "to": "0316D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f158 + archive p.163",
+      "source": "Gallica f158, native IIIF, four column-half crops; archive.org patrologiaecurs04migngoog p.163 rendered at 300 dpi as second witness (corners read: 317/318 on p.164 confirm the (column+11)/2 map, and p.163 = 315/316).",
+      "found": "ONE DIGITIZATION LOSS, confirmed on BOTH printings: 0315C prints *Sacrificium SALUTARE jubetur fieri in oleo*; our TEI drops *salutare*. English renders the plate; pending TEI patch filed. Two archive-only candidates REFUTED by Gallica (*debens* for *debent* 0315C, *offerenti.* for *offerentis* 0315C) -- jbig2 artefacts. 0315B *Non bonum scilicet aut ovium* stands on BOTH printings (*boum* conjectured, declined under 18a). Cruces: Job 2:4 *omnia* for Vulg. *cuncta*; Rom 9:16 word order. Foot of both columns blank."
+    },
+    {
+      "from": "0317A",
+      "to": "0318D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f159 + archive p.164",
+      "source": "Gallica f159, native IIIF, four column-half crops plus a line-level native crop at 0317D; archive.org p.164 rendered at 300 dpi as second witness, printed corners 317/318 read first.",
+      "found": "TWO SITES WHERE THE TWO PRINTINGS DIVERGE. (1) 0317D: Gallica sets *conten nat* with a clear word space, archive sets *contemnat* clean; our TEI has *contemnat*. Press variant with a defective member -- crux only, NO [sic:], per the single-word rule. (2) 0318D: Gallica sets *habeba*, archive sets *habebat*; our TEI has *habeba*. [sic: *habeba*] fired on the exemplar printing, with both readings in the crux. Cruces: Jas 1:12 *sustinet*/*quia* for Vulg. *suffert*/*quoniam* (fired [var:]); Rom 11 conflation (fired [var:]); Sir 45:9 *tunicam talarem*. Foot of both columns blank on both printings."
+    },
+    {
+      "from": "0319A",
+      "to": "0320D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f160",
+      "source": "Gallica f160, native IIIF, four column-half crops plus a 3x native crop of the Greek word at 0320A.",
+      "found": "ONE PLATE/TEI DIVERGENCE: 0320A prints the Greek as GREEK UPSILON-PI-OMEGA-RHO-IOTA-SIGMA (hypōris), read at 3x on a native crop -- rho, with a full descender, not mu; our TEI silently gives hypōmis. English renders the plate; pending TEI patch filed. Otherwise no divergence. Cruces: Gal 5:2 *circumcidimini* for Vulg. *circumcidamini*; *magaritae* at 0319D left unmarked as an attested medieval form (Pattern 9). Foot of both columns blank."
+    },
+    {
+      "from": "0321A",
+      "to": "0322D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f161",
+      "source": "Gallica f161, native IIIF, four column-half crops.",
+      "found": "No plate/TEI divergence. Cruces: Eph 3:10 printed *ut notum fieret principibus et potestatibus per ecclesiam* against Vulg. *ut innotescat principatibus et potestatibus in caelestibus* (fired [var:]); Is 61:1 drops *Dominus*; Ps 4:7 drops *tui*; Mk 14:23 *Et sumens* for *Et accepto calice*. Foot of both columns blank."
+    },
+    {
+      "from": "0323A",
+      "to": "0323D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f162",
+      "source": "Gallica f162, native IIIF, left-column crops at native resolution. CALIBRATION: printed corners read FIRST and give 323 / 324. Col 0324 (right column, next stint's range) was on screen but is NOT claimed as collated here.",
+      "found": "No plate/TEI divergence. The plate's own *VERS 39.* (no period after VERS) at 0323A is confirmed and preserved. Cruces: Is 33:16 printed *Panis ejus dabitur* against Vulg. *panis ei datus est* (fired [var:]); 1 Cor 12:28 *deinde* for *secundo*; Ex 16:15 word order, cited (Exod. XXVI). Foot of the page blank."
+    }
+  ]
+}
