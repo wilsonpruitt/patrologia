@@ -1,6 +1,78 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-07 — 8961 *LIBER LEVITICUS* PREPARED · PL 122 ERIUGENA QUEUED
+## ▶▶▶▶▶ START HERE 2026-09-07 (late) — 8961 LEVITICUS IS BUILT AND STAGED, UNDEPLOYED · 8956 ISAIAH IS PREPARED
+
+**Two things are owed from Wilson and nothing else blocks.** The repo is **14 commits ahead of
+`origin/master`** and **nothing has gone to migne.app since 8963 Numbers**, so `/queue` and
+`/glossa` on the live site are stale by one whole book.
+
+### 1. ⛔ 8961 *LIBER LEVITICUS* — DONE, GATED AT THE DEPLOY
+
+30 chunks / 32,210 words translated over six Opus stints; 22 TEI patches applied; plate reads
+merged and **plate gate GREEN**; cruces merged with one real convention drift swept; blind
+polarity read across all 30 chunks (**7 sites, 6 ours, all fixed — and not one of the six was a
+missing negation; five were mis-bound grammar and one a word supplied where the plate prints
+none**, which is a finding `translation-style.md` 7a does not yet carry). Built, indexed,
+**preflight 8/8**, verified in the built HTML: `/glossa` reads **55 Englished, up from 54**.
+Badge is the fail-safe **New English translation** (`workStatus` left null, `englishState: ours`).
+
+▶ **What is owed: `git push origin master`, then the production deploy** —
+`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects` (rule 6b: the
+`--scope` is not optional and its absence fails as *"Not authorized"*), then smoke-test the
+**alias**, not the deployment URL.
+
+### 2. ✅ 8956 *LIBER ISAIAE PROPHETAE* — PREPARED THIS SESSION, READY TO TRANSLATE
+
+**35 chunks, 32,299 words, 343 column marks, 699 notes, validation OK.** PL 113 cols
+**1231B–1316C**. Lemma inventory built (**2,054 spans**: 1,416 ✓ / 4 ⚑ / 301 ⚠ / 333 single) and
+split into **seven stint briefs** (`data/briefs/8956-lemmata-{0000,0005,…,0030}.txt`), every chunk
+in exactly one range, all 2,054 spans allocated.
+
+✅ **Plate spot check DONE and CLEAN — coverage `spot`, recorded in both ledgers.** Gallica
+`bpt6k5505319w`, corners read FIRST on both pages: **f616 = cols 1231/1232** (the work-division
+page — the banner falls mid-column, so the two-page case applies) and **f635 = cols 1269/1270**
+(interior). **Checked zero at the foot on both, both layers.** The map `f = (column + 1) / 2`
+re-calibrated at two points 38 leaves apart. The zeros were **not** inherited from 8963/8961.
+
+⭐ **The Pentateuch book-title class STOPS at the Pentateuch.** Migne prints **no** Hebrew or Greek
+display line under `LIBER ISAIAE PROPHETAE` — the banner is followed straight by
+`PROLOGUS S. HIERONYMI`. Nothing is dropped here, so **8949 Exodus remains the only book still
+owing that line** (plate p.97 / f92). ⚑ And the display block Corpus Corporum *could* have lost —
+**VITA ISAIAE (Ex Epiphanio, lib. de Vitis prophetarum.)** — is present in our TEI, head and body,
+collated against the plate.
+
+⚑ The chunker logs `unrecognized tags stripped … foreign` for this work (text kept). Greek type
+survives in chunks 0001, 0002, 0008 — the LXX citations Migne prints in Greek.
+
+### 3. ⛔ THE HARD STOP THAT IS OWED BEFORE ISAIAH LAUNCHES
+
+Nothing has been launched. `src/english/8956/` does not exist. At the recalibrated **inline** rate
+(~73K/chunk — 4a″ applies, since 33 of this work's 35 chunks stand on unread columns):
+
+    35 chunks × ~73K            ≈ 2.55M   translation, seven stints at THREE concurrent (rule 5)
+    blind polarity read          ≈ 0.35M   seven readers, none shown cruces.md
+    patches / merge / build      ≈ 0.25M
+    ------------------------------------
+                                 ≈ 3.15M tokens
+
+Note density is **1 per 46.2 words** — thinner than Numbers (1 per 37.4), so budget the polarity
+read slightly lighter than that book. **Expect the run to span usage windows**; plan stint
+boundaries so a death costs one batch, and check disk for the documented failure shape (English
+written, no cruces and no plate-read file, `verify-english` silent).
+
+### 4. Queue after Isaiah
+**8957 Job (34,107) → 8949 Exodus (43,440)**, and `/glossa` closes at 58 of 58. Then the PL 113
+leftovers (8971/8972/8973 prologues, 8974 *Additiones*, 8975 *Ad lectorem*) and **PL 122 Eriugena**
+— for which `data/briefs/PL122-WITNESSES.md` must be read first, and whose *Variae lectiones*
+apparatus still needs its own encoding ruling from Wilson (`[cn:]` was defined for Migne's own
+conjectures; a manuscript variant is a different thing).
+
+⚑ Untracked and unrelated: `src/latin/7089/`, `7090/`, `7091/` (Innocent I, PL 20) are chunked but
+not committed and belong to no live thread.
+
+---
+
+## 2026-09-07 (earlier in the day) — 8961 LEVITICUS PREPARED · PL 122 ERIUGENA QUEUED *(superseded above: Leviticus is translated, built and staged)*
 
 **Not shipped, not deployed.** Two commits, both local: `8e12410` (Eriugena) and `b13c47f`
 (Leviticus). Nothing went to migne.app this session, so `/queue` on the live site is one

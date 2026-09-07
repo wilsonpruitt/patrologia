@@ -1398,6 +1398,15 @@
    "notes_recovered": 0,
    "note": "2 pages read at the plate 2026-09-07 on Gallica ark:/12148/bpt6k5505319w -- f148 (cols 295/296, the work's opening, where the Leviticus/Praefatio division falls MID-PAGE, so the rule's two-page case applies) and f168 (cols 335/336, interior, Lev. XIII-XIV). Corners read first on both, confirming f = (column + 1) / 2. No foot-of-page apparatus of EITHER layer on either page -- no numbered Forte conjectures, no asterisk cross-references; both pages run clean to the last line with blank paper below. ⚑ The head-of-book Hebrew title line that CC drops is NOT this layer (display type in the head, not foot apparatus) and is handled by data/tei-patches/8961.json.",
    "caveat": "A sample of 2 of the work's ~43 pages. Consistent with the sibling PL 113 zeros (8963 3 pages, 8945 8 pages) but NOT inheriting them: these two pages are this work's own. Does not license a claim that Leviticus carries no notes on its unread pages."
+  },
+  {
+   "idno": "8956",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "note": "2 pages read at the plate 2026-09-07 on Gallica bpt6k5505319w (f616 = cols 1231/1232, the work-division page, and f635 = cols 1269/1270, interior), corners read FIRST on each; no foot-of-page apparatus on either -- both columns run to the last line with blank paper below. NOT inherited from 8963/8961: read in this book. Structural check made at the same time: Migne prints NO Hebrew book-title line under LIBER ISAIAE PROPHETAE, so the Pentateuch title-line class does not extend here and nothing is dropped; the display block Corpus Corporum could have lost -- VITA ISAIAE (Ex Epiphanio, lib. de Vitis prophetarum.) -- is present in our TEI, head and body."
   }
  ],
  "fields": {

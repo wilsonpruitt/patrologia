@@ -7799,6 +7799,33 @@
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
     }
    ]
+  },
+  "8956": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+   "page_map": "Gallica leaf f = (column + 1) / 2",
+   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these reads; no single letter was at stake, and per PL113-WITNESS-ENCODING.md the archive copy is 1-bit jbig2 and may never be a sole witness for a letter.",
+   "reads": [
+    {
+     "from": "1231A",
+     "to": "1232D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f616",
+     "source": "Gallica IIIF at 1400px width (native is ~1868 wide; 1400 is comfortably legible for running text and was not used to settle any single letter). CALIBRATION: printed corners read FIRST on both pages -- f616 gives 1231/1232 and f635 gives 1269/1270, confirming f = (column + 1) / 2 at two points 38 leaves apart.",
+     "found": "CHECKED ZERO at the foot, both layers -- no numbered Forte conjecture, no asterisk cross-reference. This is the work-division page: LIBER ISAIAE PROPHETAE falls mid-column in 1231, so the two-page case applies and an interior page was read as well. Head of page: NO Hebrew/Greek book-title line under the banner -- the Pentateuch class (8950/8949/8961/8963/8945) does NOT extend to Isaiah, and nothing is dropped here. Our chunk 0000 collated against the plate for the head material: PROLOGUS S. HIERONYMI, the VITA ISAIAE block with its (Ex Epiphanio) note, and PRAEFATIO IN ISAIAM are all present and in Migne's order."
+    },
+    {
+     "from": "1269A",
+     "to": "1270D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f635",
+     "source": "Gallica IIIF at 1400px width (native is ~1868 wide; 1400 is comfortably legible for running text and was not used to settle any single letter). CALIBRATION: printed corners read FIRST on both pages -- f616 gives 1231/1232 and f635 gives 1269/1270, confirming f = (column + 1) / 2 at two points 38 leaves apart.",
+     "found": "CHECKED ZERO at the foot, both layers. Interior page (Isa. XXIV-XXVII glosses); running text read, nothing anomalous, no apparatus below the type."
+    }
+   ]
   }
  }
 }
