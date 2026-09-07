@@ -102,6 +102,45 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
   if (bodyStart < 0 || bodyEnd < 0) return { errors: ['no <body> element'], warnings, chunks: [], manifest: null };
   let body = xml.slice(bodyStart + 6, bodyEnd);
 
+  // ---- XML entities ----
+  // ⛔ The reader is regex-based, not an XML parser, so nothing decoded entities and
+  // they rode into the Latin chunks as literal text. Measured 2026-09-07 across all
+  // 5,276 PL TEI: 21 files carry them, and the exposure is NOT the stray `&gt;` that
+  // exposed it. The 217xx block encodes CONTENT this way — Greek letters, macrons,
+  // accented Latin, and 40 `&#171;` / 39 `&#187;` GUILLEMETS. Guillemets are the
+  // lemma layer in half the Glossa books, and `lemma-inventory.mjs` matches the
+  // character: a work whose lemmata arrived as `&#171;` would report its whole verse
+  // layer missing, silently, and the brief would look merely thin rather than wrong.
+  //
+  // ⚠ ORDER IS LOAD-BEARING, and it is why this is two passes rather than one.
+  // Decoding `&lt;` `&gt;` `&amp;` HERE would manufacture tags out of text: a decoded
+  // `<` reaches the tag-stripper below and its content is swallowed as an unknown
+  // element. So markup-significant entities — named AND their numeric spellings
+  // (38, 60, 62) — are left alone until after all tags are gone, in inline().
+  const entityCounts = new Map();
+  const bump = k => entityCounts.set(k, (entityCounts.get(k) || 0) + 1);
+  const NAMED = { quot: '"', apos: "'", nbsp: ' ', laquo: '\u00ab', raquo: '\u00bb' };
+  body = body
+    .replace(/&#x([0-9a-fA-F]+);/g, (m, h) => {
+      const cp = parseInt(h, 16);
+      if (cp === 38 || cp === 60 || cp === 62) return m;
+      bump(m); return cp === 160 ? ' ' : String.fromCodePoint(cp);
+    })
+    .replace(/&#0*([0-9]+);/g, (m, d) => {
+      const cp = parseInt(d, 10);
+      if (cp === 38 || cp === 60 || cp === 62) return m;
+      bump(m); return cp === 160 ? ' ' : String.fromCodePoint(cp);
+    })
+    .replace(/&([a-zA-Z]+);/g, (m, name) => {
+      if (!(name in NAMED)) return m;
+      bump(m); return NAMED[name];
+    });
+  if (entityCounts.size) {
+    const top = [...entityCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8)
+      .map(([k, n]) => `${k}\u00d7${n}`).join(', ');
+    warnings.push(`${[...entityCounts.values()].reduce((a, b) => a + b, 0)} XML entities decoded to their characters (${top})`);
+  }
+
   // Structural-note transparency BEFORE source-truth counts, so the validator
   // and the transformer agree on what an inline note is.
   const [unwrapped, structuralNotes, selfClosingNotes] = unwrapStructuralNotes(body);
@@ -145,6 +184,12 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
       .replace(/<hi>([\s\S]*?)<\/hi>/g, (_, h) => `*${h.replace(/\s+/g, ' ').trim()}*`)
       // safety net: strip any unhandled tag rather than leak it, but log it
       .replace(/<\/?([a-zA-Z][\w-]*)\b[^>]*>/g, (m, tag) => { unknownTagsSeen.add(tag); return ' '; })
+      // markup-significant entities decode LAST, once every real tag is gone, so a
+      // decoded `<` can no longer be mistaken for one. `&amp;` is last of the last:
+      // decode it earlier and `&amp;lt;` would collapse to `<`.
+      .replace(/&(?:lt|#0*60|#x3[cC]);/g, '<')
+      .replace(/&(?:gt|#0*62|#x3[eE]);/g, '>')
+      .replace(/&(?:amp|#0*38|#x26);/g, '&')
       .replace(/\s+/g, ' ')
       .trim()
       .replace(new RegExp(`\\s*${NL}\\s*`, 'g'), '\n');
