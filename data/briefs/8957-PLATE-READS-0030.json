@@ -1,0 +1,77 @@
+{
+  "note": "Stint-scoped plate reads for 8957 chunks 0030-0034 (cols 0820C-0833A). Same shape as an entry in data/plate-reads.json works.8957.reads[]. Orchestrator merges.",
+  "reads": [
+    {
+      "from": "819A",
+      "to": "820D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f410",
+      "source": "Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2, calibrated by reading the PRINTED CORNER NUMBERS FIRST on the leaf itself: this leaf prints 819 (left) and 820 (right), which is the map. Whole page at /full/1400,/0/native.jpg for running text; columns never crossed.",
+      "found": "Cols 0820C-0820D (my range's head, CAPUT XXIV opening through VERS. 5) collated word by word against our TEI: NO divergence, no defect, no marker. Guillemets on both lemma sets normally delimited. FOOT OF PAGE: checked zero, both apparatus layers (no numbered Forte notes, no asterisk- or letter-keyed notes). This leaf was already recorded as depth 'read' for the 0819C guillemet question; this entry adds the running-text collation of the 820 band."
+    },
+    {
+      "from": "821A",
+      "to": "822D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f411",
+      "source": "Gallica f411, corner numbers read first (821 left / 822 right). Whole page at 1400px for collation; native-resolution crops of ONE column at a time for the two candidates (right col 950,395,950,105; left col 150,1795,830,110). Native page 1916x3132.",
+      "found": "TWO FINDINGS AND ONE CHECKED ZERO AT THE FOOT. (1) 0822A: Migne prints 'ita hae-|ritici, cum fidelem animam' - NATIVE CROP CONFIRMS 'ritici', so the printed word is *haeritici*, a non-word for haeretici. The line break splits hae|ritici, so the break is NOT the source of the error (a break would give hae-retici); and 'de haereti-cis' prints correctly THREE LINES ABOVE on the same column. Fired [sic: *haeritici*]. (2) 0821C: Migne prints 'De civitatibus fecerunt vi geme-|re.' - NATIVE CROP CONFIRMS a clean, normally spaced 'vi', against the Clementine's 'viros' at Job 24:12. Fired [var:]. (3) 0821C also confirms the stray closing guillemet after 'in eorum actibus quasi in meridie quiescunt. »' - Migne's own, the unopened class, NOT marked. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+      "from": "823A",
+      "to": "824D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f412",
+      "source": "Gallica f412, corner numbers read first (823 left / 824 right). Whole page at 1400px, columns read separately.",
+      "found": "Cols 0823A-0824D collated word by word: no divergence between the plate and our TEI, no defect, NO MARKER. Confirmed as Migne's and carried as printed: the '?' closing the indirect question at 0823C ('quando careat, nescit?'), the '!' at 0823D ('quanto magis homo putredo!'), the [n: (Ibid.)] standing BEFORE the lemma at 0824A, the double negative 'non possumus non' at 0824B, and the absence of VERS. 2 between VERS. 1 and VERS. 3 at 0824A-B. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+      "from": "825A",
+      "to": "826D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f413",
+      "source": "Gallica f413, corner numbers read first (825 left / 826 right). Whole page at 1400px; native-resolution crop of the LEFT column only (150,215,830,100) for the candidate.",
+      "found": "ONE FINDING. 0825A: Migne prints 'qui modo non plene possunt congnosci; vel' - NATIVE CROP CONFIRMS *congnosci*, MID-LINE, clean type, nowhere near a line or column break; a non-word for cognosci, which prints correctly at 0822A in this same work. Fired [sic: *congnosci*]. ALSO CONFIRMED, no marker: 0826A 'VERS. 7. -- « Sicut impius inimicus meus.' opens a guillemet and never closes it on the plate, exactly as our TEI has it - the standing unclosed class, site 4 or 5 for this book. 0826C prints 'VERS. 17 --' with no period after the numeral, as our TEI has it. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+      "from": "827A",
+      "to": "828D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f414",
+      "source": "Gallica f414, corner numbers read first (827 left / 828 right). Whole page at 1400px; native crops of one column at a time (left 150,1490,830,180; right 1000,2090,870,110). Native page 1872x3100.",
+      "found": "TWO FINDINGS. (1) 0827C: Migne prints 'Hoc loco haeritici, etc.,' - NATIVE CROP CONFIRMS *haeritici*, MID-LINE, no break anywhere near it, while 'haeretici de justitia gloriari' prints correctly THREE LINES BELOW in the same column. Second site of the same defect (see f411 @0822A). Fired [sic: *haeritici*]. (2) 0828D: the plate prints 'VERS. 14. « Abyssus dicit. »' with NO '--' after the numeral, where our TEI has 'VERS. 14.-- «'. NATIVE CROP CONFIRMS. This is a divergence on OUR side, not Migne's: no marker, English follows the plate, TEI patch proposed. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+      "from": "829A",
+      "to": "830D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f415",
+      "source": "Gallica f415, corner numbers read first (829 left / 830 right). Whole page at 1400px; native crop of the RIGHT column only (1000,2760,880,90). Native page 1905x3129.",
+      "found": "ONE FINDING, on our side. 0830D: the plate prints 'usque ad quod et Job fecit.' WITH a terminal full stop - NATIVE CROP CONFIRMS - where our TEI drops it. English carries the stop, TEI patch proposed; no marker and no Pattern 8 crux, because the missing mark is ours and not Migne's. ALSO CONFIRMED, no marker: 0829A-B '« Et nescis unde veniat aut quo [0829B] vadat. »' spans the column break exactly as our TEI has it; 0829B '*(GREG. in Job, l. XIX.)*' is set in italic in the running text, not as a note, as our TEI has it; 0830D 'in circumitu' (against 'in circuitu' in its own lemma four words earlier) is Migne's. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+      "from": "831A",
+      "to": "832D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f416",
+      "source": "Gallica f416, corner numbers read first (831 left / 832 right). Whole page at 1400px; native crops of the RIGHT column only (1000,1000,880,90 and 1300,2580,580,70). Native page 1903x3123.",
+      "found": "TWO FINDINGS, BOTH ON OUR SIDE, AND THE SECOND WOULD HAVE BEEN A FALSE ACCUSATION. (1) 0832B: the plate prints 'VERS. 20. « Gloria mea semper innovabitur. »' with NO '--' after the numeral, where our TEI has 'VERS. 20.--'. NATIVE CROP CONFIRMS. Second instance of the same class as 0828D. (2) 0832D: the plate prints 'et cum venit, primus sedet : quia et adventus ejus' with a COLON - NATIVE CROP CONFIRMS - where our TEI reads 'primus sedet. quia', a full stop followed by a lower-case word. Read from our file alone that is a textbook Pattern 8 site ('a sentence Migne breaks with a full stop and does not capitalise'); it is Corpus Corporum's, not Migne's. No marker, English follows the plate, TEI patch proposed. ALSO CONFIRMED as Migne's and carried: 0831A 'nullus pressus terroribus', 0831D 'cogitatio mentis aperitur' with NO terminal stop at 0832A, and the raised dot the plate sets between 'fulciuntur' and 'senes' at 0831A which our TEI does not carry (not marked - a point of punctuation on a photograph is not enough to accuse either side). FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+      "from": "833A",
+      "to": "833A",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f417",
+      "source": "Gallica f417, corner numbers read first (833 left / 834 right). Whole page at 1400px, left column only for my range's tail.",
+      "found": "Col 0833A (the eight lines of my range's tail, ending 'virga districtionis, et manna dulcedinis.') collated word by word against our TEI: NO divergence, no defect, no marker. FOOT OF PAGE: checked zero, both layers. Cols 0833B-0834D belong to the next stint and were not collated."
+    }
+  ]
+}

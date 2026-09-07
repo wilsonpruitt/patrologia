@@ -98,6 +98,25 @@ head-of-range spans into the previous stint's file — the master inventory stay
 the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
 short at the head of their own range, and both found it by doing exactly this count.
 
+
+⭐ **AND THE COUNT IN YOUR BRIEF IS A FLOOR, NOT AN EXACT NUMBER — measured on chunks 5–9.**
+The harvester works from the marks, so the unbalanced guillemets above bend the count two ways:
+an **unclosed** `«` makes it swallow the following span into one entry, and an **unopened** lemma
+is **invisible to it entirely** — `VERS. 20.-- De mane usque ad vesperam. »` at 0767A appears
+nowhere in the inventory. That stint counted 125 spans against a stated 122 and every unit of the
+delta was one of those two shapes. **So: count your own Latin, report both numbers, and do not
+read a small excess as a mis-split — but DO read it as a hole in the mechanical Vulgate pre-scan.
+An unopened lemma was never phrase-searched, so it is exactly the lemma you must collate by hand.**
+
+
+⭐⭐ **THE MECHANISM BEHIND THE IMBALANCE, FOUND AT THE PLATE IN CHUNKS 0–4: A `«` AT THE START
+OF A LINE IS MIGNE'S CONTINUATION MARK, NOT A NEW QUOTATION.** He sets one at the head of each
+line a quotation runs onto (0751B, 0754B are the read instances). Our TEI carries them, so a
+quotation spanning three printed lines can show three `«` and one `»` and be perfectly faithful.
+**Do not read an interior `«` as opening a second span, do not pair it with the next `»`, and
+never mark it.** This, plus the unopened and unclosed lemmata, accounts for essentially all of
+this book's apparent guillemet imbalance.
+
 ## The inventory — chunks 0025–0029, bands 0811A–0820C (191 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
 
 ⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span

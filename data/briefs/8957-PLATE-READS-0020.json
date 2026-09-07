@@ -1,0 +1,91 @@
+{
+  "stint": "8957 chunks 0020-0024 (cols 0796D-0811A)",
+  "agent": "translation stint 0020",
+  "works": {
+    "8957": {
+      "reads": [
+        {
+          "from": "0795",
+          "to": "0796",
+          "depth": "read",
+          "date": "2026-09-07",
+          "page": "f398",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 795/796 confirmed (f=(795+1)/2=398). CAPUT XV opens at 0796D; VERS. 2-4 collated word by word against our TEI — no divergence. FOOT: checked ZERO, both apparatus layers (no numbered Forte notes, no asterisk/letter-keyed notes)."
+        },
+        {
+          "from": "0797",
+          "to": "0798",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f399",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 797/798 confirmed. Whole leaf collated word by word. (1) 0798B VERS. 21 opens « and never closes ON THE PLATE — the book's known unbalanced-guillemet class, confirmed a 4th time; lemmata above and below normally delimited. (2) 0798D VERS. 28 prints `Habitavit in civitatibus. »` with NO opening « on the plate — the unopened class, and this lemma is absent from the mechanical inventory. (3) ⛔ our TEI's `mala quae in ferat` is OUR artifact: the plate sets `mala quæ in-` at the line end with a hyphen and `ferat,` on the next line — ONE word, *inferat*. Confirmed at native resolution (Gallica f399 crop 1000,1080,880,220) AND on the archive copy (patrologiaecurs04migngoog p. 404, cols 797/798). No [sic:] fired; TEI patch filed. FOOT: checked ZERO, both layers."
+        },
+        {
+          "from": "0799",
+          "to": "0800",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f400",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 799/800 confirmed. Whole leaf collated word by word; no divergence from our TEI found. (This leaf's FOOT question was already settled by the chunking spot check — checked zero, both layers — and is not re-claimed here; the text collation is new.)"
+        },
+        {
+          "from": "0801",
+          "to": "0802",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f401",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 801/802 confirmed. Whole leaf collated word by word; our TEI agrees throughout. Confirms `« Terra es et in terram ibis; »` at 0802C (Gn 3:19 divergence, [var:] fired) and Migne's OWN duplicated verse number: `VERS. 16.` prints twice at 0802A/0802B (Saccum consui = Clem 16:16, Facies mea intumuit = Clem 16:17). FOOT: checked ZERO, both layers."
+        },
+        {
+          "from": "0803",
+          "to": "0804",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f402",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 803/804 confirmed. Whole leaf collated word by word. Confirms `caligavit ad indignationem oculus meus` at 0804A (against the plate's own `ab indignatione` at 0803D) and `Putasne saltem sibi erit requies mihi ?` at 0804D — both [var:] sites, and BOTH independently confirmed on the archive copy (patrologiaecurs04migngoog p. 407, corner 804 read). Also confirms `supplantat.Potuit` set without a space at 0806C-adjacent 0803/0804 setting habit, and `si superbus minime fuisset` with no terminal stop. A small raised mark after `Ad caput` at 0803C was examined at native resolution (crop 150,1690,880,130) and is a speck, NOT an asterisk key — there is no foot note on the page. FOOT: checked ZERO, both layers."
+        },
+        {
+          "from": "0805",
+          "to": "0806",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f403",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 805/806 confirmed. Whole leaf collated word by word. Confirms `« Intellige prius. »` (SINGULAR, against Clem 18:2 intelligite) at native resolution (crop 110,470,780,120), and `« Quid perdis animam tuam. »` (against Clem 18:4 Qui perdis) — the latter also confirmed on the archive copy p. 408. Confirms `si superbus minime fuisset` closing with NO terminal stop (0806C) and `supplantat.Potuit` fused without a space. FOOT: checked ZERO, both layers."
+        },
+        {
+          "from": "0807",
+          "to": "0808",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f404",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 807/808 confirmed. Whole leaf collated word by word. Confirms `unde scriptum est. :` at 0807B — a period AND a colon, exactly as our TEI has it (native crop 120,1350,760,90). ⚠ The Gallica copy CLIPS THE LEFT MARGIN on this page: the first word of the last line of the left column reads as `]os`; the archive copy (p. 409, corners 807/808 read) sets it plainly as `vos`, which is what our TEI has. No marker either way. Also confirms `omne corpus ejus ulceribus attriverunt` closing with no terminal stop (0808D). FOOT: checked ZERO, both layers."
+        },
+        {
+          "from": "0809",
+          "to": "0810",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f405",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 809/810 confirmed. Whole leaf collated word by word. Confirms `« Ore proprio decorabat. »` at 0809B standing eight words before Migne's own gloss `ore proprio deprecabar` — [var:] site, independently confirmed on the archive copy p. 410. Confirms `Judeae` (0810D) as the plate's own spelling. FOOT: checked ZERO, both layers — the only matter below the text is the signature line `PATROL. CXIII.` and the gathering number `26`, which is not apparatus."
+        },
+        {
+          "from": "0811",
+          "to": "0812",
+          "depth": "read",
+          "date": "2026-09-07",
+          "page": "f406",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corner 811 confirmed. The head of the leaf (0811A, the tail of my range) collated word by word: confirms `« Ego ipse, et oculi mei conspecturi sunt, et non aliis. »` against Clem 19:27 `et non alius` — [var:] site, independently confirmed on the archive copy p. 411 (corner 811 read). FOOT: checked ZERO, both layers (native crop 60,2650,1820,480)."
+        }
+      ]
+    }
+  }
+}

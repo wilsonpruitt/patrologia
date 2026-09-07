@@ -1,0 +1,82 @@
+{
+  "_note": "Stint-scoped plate reads for 8957 chunks 0000-0004 (bands 0748D-0762C). Merge into data/plate-reads.json works.8957.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download; User-Agent header required, f<N>.highres returns 403)",
+  "page_map": "Gallica leaf f = (column + 1) / 2",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for this stint. No finding below rests on a single letter that the 1-bit JBIG2 copy could have manufactured; every letter-level call was settled on a native-resolution Gallica crop.",
+  "reads": [
+    {
+      "from": "747A",
+      "to": "748D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f374",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST, before any text on the page -- left 747, right 748, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Confirms f = (column + 1) / 2. Whole page at 1400px width, plus a native-resolution RIGHT-COLUMN crop (1000,2480,880,230); no crop crossed the centre gutter.",
+      "found": "CHECKED ZERO at the foot, both apparatus layers (no numbered notes, no asterisk/letter layer). Collated word by word against chunk 0000 across the LIBER JOB division, the ARGUMENTUM and the head of the PROTHEMATA. DECISIVE FINDING: our TEI's 'Per eat dies in qua natus sum' at 0748D is NOT a Pattern 10 split run. The plate sets '« Per' at a line end and '« eat dies in qua natus sum (Ibid, III), » etc.' at the start of the next line -- the word is Pereat, broken at a line end with NO hyphen, while suspen-|dium two lines above IS hyphenated. A [sic: *Per eat*] was therefore withdrawn. Migne's line-start continuation '«' is visible here and recurs through the range. Also confirmed as printed: the italic lemma '« *Sub quo curvantur qui portant orbem (Job IX)*, »', the roman '« Elegit suspendium anima mea (Ibid. VII), »', and the italic parenthetical '(Ibid, III)' with its comma."
+    },
+    {
+      "from": "749A",
+      "to": "750D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f375",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 749, right 750, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0000. Confirmed as printed: 'Unde (Isa. XXIII) : « Erubesce, Sidon, » id est, stabilitas in lege positorum, « ait mare : »'; 'Balach filio Beor'; the Ps 41 quotation with 'et nocte declaravit eam' (the [var:] site -- Migne genuinely departs from the Clementine's 'canticum ejus'); the name-etymologies 'Domini contemptus', 'vetustas sola', 'dissipatio speculae', 'dissipans speculatorem'; 'Per Elihu qui recto sensu loquitur'; the double negation 'ut non nisi per eum quem despexerant, ad gratiam reciperet'; and 'Post omnia mala, ob duplicia recepit' -- the ob is Migne's, not a transcription slip, and the clause does not construe as printed."
+    },
+    {
+      "from": "751A",
+      "to": "752D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f376",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 751, right 752, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page at 1400px width.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against the tail of chunk 0000 and the head of chunk 0001. Confirmed as printed: 'Afflicto Job dicitur' at 0751A (the [cj:] site -- Afflicto, not Afflictus, is Migne's type); 'VERS. 1. -- « Vir erat in terra Hus. » (GREG. in Job, tom. I.)'; the camel gloss 'quorum alterum habent cameli, alterum vero deest eis, et sic legi congruunt et dissident'; '« Oriens nomen ejus (Zach. VI): »'; '(GREG., lib. II, Moral., cap. 2.)'; 'Hyems erat, cum praedicatur non credituris'; '« Ecce universa substantia quam habet in manu tua est. »' at 0752D (the [var:] site). A second instance of Migne's line-start continuation mark is visible at 0751B ('« Qui in uno offendit, multa « bona perdet'), which our TEI drops there and keeps at 0754B."
+    },
+    {
+      "from": "753A",
+      "to": "754D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f377",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 753, right 754, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width, plus three native-resolution crops, each inside ONE column: left (140,300,850,200), right (1000,2690,880,110). No crop crossed the centre gutter.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0001 and the head of 0002. FOUR FINDINGS. (1) The note siglum at 0753A reads 'GREC.', NOT 'GREG.' -- native crop shows an open terminal C with no spur. Migne's own defect; note contents ride verbatim on both sides so no marker fires and nothing changes in the English. (2) REJECTED CANDIDATE, a checked zero: 'non quod nesciat' appeared as 'bon quod nesciat' at 1400px and was a live [sic:] candidate; the native crop reads 'non' plainly -- it is a line-initial non after 'dici-|tur,' and the b was a render artifact of the reduced scale. (3) The unbalanced guillemets at 0753A are Migne's: '« unde venis? vias ejus est quasi incognitas reprobare. « Circumivi terram. »' and '« In circumitu impii ambulant (Psal. XI), id est ...' running unclosed past the end of the paragraph, both printed exactly as our TEI has them, with normally delimited lemmata around them. Same for the interior '«' at 0754B ('filii et « filiae'), which is the line-start continuation mark. (4) At 0754D Migne prints NO punctuation mark between 'claruit' and 'zelus' (native crop 1000,2690,880,110): 'quia vera dixisse prophe-|tiam claruit zelus apprehendit populum ineruditum.' Our TEI is correct; the English supplies a comma and says so in the cruces."
+    },
+    {
+      "from": "755A",
+      "to": "756D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f378",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 755, right 756, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page at 1400px width, plus two native-resolution RIGHT-COLUMN crops (1000,2520,880,120) and (1000,2410,880,120); no crop crossed the centre gutter.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunks 0002 and the head of 0003. REJECTED CANDIDATE, a checked zero: our twin prints '» , id est' at 0756D with a space between the closing guillemet and the comma, which looked like a doubled or stray mark; the native crop reads '(Jer. xi), », id est' -- TWO commas on the plate exactly as in our twin, differing only in whitespace, which is a transform artifact and not a mark. No patch, no marker. Also confirmed as printed: '(GREG.), Filii et filiae' with the comma outside the parenthesis at 0755B; '« Proximi mei a longe steterunt (Psal. XXXVII). »'; 'Judaea dum venturum credidit, abstulit' with no expressed object; 'tempus quo necdum ista habuit praevidet qualis exiturus'. Noted: the plate breaks 'dete-|ctus' across the CENTRE GUTTER at the 0755D/0756A column boundary while our twin sets the whole word before the [0756A] anchor -- anchor placement, not text, and not a defect."
+    },
+    {
+      "from": "757A",
+      "to": "758D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f379",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 757, right 758, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width, plus a native-resolution RIGHT-COLUMN crop (980,350,880,120); no crop crossed the centre gutter.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0003. DECISIVE FINDING: at 0758A the plate prints a FULL STOP where our TEI prints a colon -- 'insipientiam conjugis arguendo docens . et sic victus ardentius hostis instigatur'. The native crop shows a single low dot with spacing either side, unmistakably not a colon. Under the locked plate rule the English renders the full stop, and the divergence is filed as a pending TEI patch. Also confirmed as printed: the parenthesis 'excidens (aeterna despice)' at 0757C is Migne's own, not our supply and not a TEI artifact; 'Sed haec passi sunt illi forma rectitudinis' with forma ungoverned; '« Benedic Domino et morere. »' with Domino, where the Clementine has Deo; 'non conditione naturae'; 'Qua sancti in omnibus'; '« Amice, ad quid venisti (Matth. XXVI)? »'."
+    },
+    {
+      "from": "759A",
+      "to": "760D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f380",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 759, right 760, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page at 1400px width.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0004. POLARITY FINDING: at 0760C Migne prints 'sed jam idolis reprobatis, nox est laude digna' -- with est and no non -- in a gloss on the lemma '« Nec laude digna. »' (Job 3:7), so the gloss asserts the opposite of the verse it expounds. The plate carries no negative and none was supplied; the contradiction ships as printed and is logged as a crux. Also confirmed as printed and ONE WORD: 'VERS. 3. -- « Pereat dies in qua natus sum. »' at 0759C, which is the internal control for the 0748D line-break finding on f374. Further confirmed: the mixed-case italic note '(Greg. in Job l. IV.)' at 0759D, against the small-cap GREG. elsewhere; '« Est enim confusio adducens gloriam. (Eccli. IV.) »' with the period inside the guillemets; '« Caligine » Ejus noctis' with no period after the lemma; '« Non computetur in die anni. »' in the singular against the Clementine's diebus; 'Homo cum substratus, idola coluit' with cum lacking its verb."
+    },
+    {
+      "from": "761A",
+      "to": "762D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f381",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 761, right 762, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against the tail of chunk 0004 (my range ends at 0762C; 0762D was read as well and is clean). GUILLEMET FINDING: at 0762B the plate prints 'VERS. 19. -- Parvus et magnus ibi sunt. »' with NO opening guillemet, and the lemmata above and below it on the same column are normally delimited -- a fifth plate-confirmed instance of this book's unbalanced-guillemet class, matching the 0767B and 0819C shape. No marker, no patch. The same column carries the unclosed '« Qui non audierunt, etc. « Exactor diabolus ...' at 0762A/B, also exactly as our TEI has it. CITATION FINDING: at 0762A the plate prints '(Psal. XXXVIII)' keyed to text that is Ps 83:3 verbatim -- a misbound reference in Migne, plausibly LXXXIII with the L lost. Reproduced verbatim and NOT corrected: refDisplay keeps what Migne prints, and this book leans hard on (Ibid.) chains. Also confirmed as printed: '(GREG. in lib. Job lib. V.)' with the doubled lib. at 0762C; 'ut sanati dolorum sine dolore recordamur' with the indicative after ut; 'liber a Domino despicit saeculi prospera'."
+    }
+  ]
+}

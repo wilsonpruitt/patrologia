@@ -1,0 +1,53 @@
+{
+ "works": {
+  "8957": {
+   "reads": [
+    {
+     "from": "0811A",
+     "to": "0812D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f406",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunks 0025-0026. ONE divergence, and it is OURS: at 0812C our TEI prints 'sed cetat in gutture'; the plate reads 'sed celat' -- confirmed at native resolution (crop 1000,1540,880,200), a clear l with ascender, mid-line, no line break near it. English renders the plate ('conceals'); no [sic:], TEI patch filed in data/briefs/8957-PENDING-TEI-PATCHES-0025.md. Everything else in cols 811-812 stands as our TEI has it, guillemets included; no unbalanced lemma on this leaf. CHECKED ZERO at the foot of both columns, both note layers (no numbered conjecture, no asterisk note)."
+    },
+    {
+     "from": "0813A",
+     "to": "0814A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f407",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunks 0026-0027. ONE divergence, and it is OURS: 0813C our TEI prints 'praevidere comtempsit'; the plate reads 'contempsit' (native crop 140,1700,860,160). English renders the plate; TEI patch filed. THREE readings CONFIRMED as Migne's: 0813B 'Non remansit de civitate ejus' (native crop 140,1060,860,140 -- civitate is unmistakable, and the gloss on the very next line reads 'de cibo ejus'), 0813A 'quod concupierat' for the Vulgate's 'quae', and 0813C 'Gladius eductus' where the Clementine has bare 'Eductus'. 0813A 'non erubescit' ends with no terminal stop on the plate, as in our TEI. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0814B",
+     "to": "0816D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f408",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunk 0027. ONE divergence, and it is OURS: 0815B our TEI prints 'cum eadem sevientibus deesse conspiciunt'; the plate reads 'servientibus' (native crop 140,1490,880,160), which restores the servientibus/servire play the next clause turns on. English renders the plate; TEI patch filed. ONE DEFECT THAT IS MIGNE'S: 0815D 'exaliqua' for 'ex aliqua', fused mid-line with normal word spacing either side, confirmed at native resolution (crop 140,2290,880,120) -- [sic: *exaliqua*] fired, with the sense carried in plain words beside it per 7a-quadruple-prime. GUILLEMET CLASS, fourth site in this book: 0815C 'Et superveniet eis inundatio. »' begins its line with 'Et' and NO opening « on the plate (native crop 140,2100,880,220) -- same class as 0767B / 0819C, no marker, no patch. Also confirmed as Migne's: 0816A 'Nunquid Deum quispiam docebit scientiam?' (Clementine has the nominative Deus), 0816C 'de via' where the Clementine has 'de viatoribus' and the gloss expounds 'Viator', 0816C 'vias ejus' for 'viam ejus', 0815C 'Consilium eorum' for 'Consilium impiorum'. NOTE ON THIS SCAN: the printed digit 3 in the VERS. numbers renders as a 5 at 1400px on this leaf (VERS. 23 / 33 look like 25 / 53); at native resolution they are 3s, and our TEI's numbering is right. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0817A",
+     "to": "0819A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f409",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunks 0027-0028. ONE divergence, and it is OURS: 0817C our TEI prints 'pro peccatis dicunt retribui er?'; at native resolution (crop 140,1630,880,180) the plate's second character is a plain vertical with no r-shoulder -- the type reads 'ei', with a worn or dotless i. English renders 'to him'; no [sic:] (the non-word is ours), TEI patch filed. CONFIRMED as Migne's: 0817B '« Nunquid tibi arguet? »' (dative where the Vulgate has 'arguet te'), 0817D 'nisi quod omnes' appended to Job 22:16, 0818A 'Si reversus fuerit' in the third person against the Vulgate's second. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0819B",
+     "to": "0820C",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f410",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunk 0029 -- the leaf was already read for the 0819C guillemet question, the running text was not. CHECKED ZERO: not one divergence between plate and TEI anywhere in 0819B-0820C. Confirmed as Migne's: 0819A 'Respondens autem Job dixit' where the Clementine has 'ait', 0819B 'Ponam coram Deo judicium' for 'coram eo', 0819D '« Et proba me quasi aurum. »' in the imperative eight words after '« Et probavit. »' in the indicative (Migne's own two settings of Job 23:10 disagreeing on one column), 0820B 'reddentis rationibus'. The 0819C lemma 'VERS. 5.--Ut sciam verba quae, » etc.' again shows NO opening «, as already recorded. CHECKED ZERO at both feet, both note layers."
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,61 @@
+{
+  "_note": "Stint-scoped plate reads for 8957 chunks 0015-0019 (cols 0785A-0796C). Merge into data/plate-reads.json works.8957.reads[].",
+  "idno": "8957",
+  "stint": "0015-0019",
+  "reads": [
+    {
+      "from": "785A",
+      "to": "786D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f393",
+      "source": "Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2. CALIBRATED ON THIS LEAF: printed corner numbers read FIRST and read 785 (left) / 786 (right), confirming the map. Whole page at /full/1400,/0/native.jpg, then native-resolution crops of one column at a time (no gutter crossed): left col (100,1720,820,220), right col (1000,1690,870,120).",
+      "found": "Collated word by word against our TEI; no divergence found. CHECKED ZERO at the foot of the page, BOTH apparatus layers (no numbered Forte notes, no asterisk/letter-keyed notes). Positive confirmations: 0786C prints « Pelle et carnalibus. » at native resolution (clean type, no broken sort), so the divergence from Clementine Job 10:11 carnibus is MIGNE'S; 0785C prints « Nunquid bonum. »; 0786A prints the mid-sentence '?' in 'quae est per spiritum ? est infirmitas per carnem' that our TEI carries. CANDIDATE CONSIDERED AND REJECTED: at 0785C the glyph after 'negatio' in 'negationem exigit' is a worn/over-inked sort on the Gallica copy and reads ambiguously; our TEI has the correct 'negationem', so no [sic:] is possible (the marker must wrap type verbatim in the twin) and none is fired. Recorded as an inking artifact of this copy, not a claim about Migne's type."
+    },
+    {
+      "from": "787A",
+      "to": "788D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f394",
+      "source": "Gallica f394, whole page at 1400px; printed corner numbers read FIRST and read 787 / 788.",
+      "found": "CHECKED ZERO at the foot, both apparatus layers. MIGNE'S OWN UNBALANCED GUILLEMET, a FOURTH site for this book and the same class as 0767B/0781A/0819C: 0787A prints 'VERS. 16. — Propter superbiam. »' with NO opening guillemet and a closing one, exactly as our TEI has it, with VERS. 17 and VERS. 19 immediately below normally delimited. No [sic:], no [cj:], no patch. Also confirmed as Migne's: 0788A « Et intelligeres quod multa minora. » (multa, against Clementine Job 11:6 multo); 0788C « Si iniquitates. » (plural, against Clementine Job 11:14 iniquitatem); 0788B '« Longior terra. » Quia modum creaturae perennitate aeternitatis excedit' ends with NO terminal stop, as our TEI has it (Pattern 8, nothing supplied); 0787A 'vel, qui concepti non viderunt lumen' (lumen, against Clementine Job 3:16 lucem)."
+    },
+    {
+      "from": "789A",
+      "to": "790D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f395",
+      "source": "Gallica f395, whole page at 1400px; printed corner numbers read FIRST and read 789 / 790.",
+      "found": "CHECKED ZERO at the foot, both apparatus layers, and a CHECKED ZERO for text divergence: every line of cols 0789C-0790D collated against our TEI with no difference found. 0790C 'septiformem gratiam retulit' ends with no terminal stop on the plate, as our TEI has it."
+    },
+    {
+      "from": "791A",
+      "to": "792D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f396",
+      "source": "Gallica f396, whole page at 1400px plus native-resolution crops of the LEFT column only (100,2490,820,110) and the RIGHT column only (1000,690,880,180); printed corner numbers read FIRST and read 791 / 792.",
+      "found": "CHECKED ZERO at the foot, both apparatus layers. Three divergences from the Clementine confirmed AT NATIVE RESOLUTION as Migne's own setting, clean type in every case: 0791D « Secundum scientiam veram. » (veram, against Clementine Job 13:2 vestram — and the Gloss's own exposition reads 'secundum eorum scientiam', so the sense turns on it; this licenses the one [var:] fired in this stint); 0792A « Prius vos ostendam, » and 'prius vos ostendam fabricatores' (ostendam twice, against Clementine Job 13:4 ostendens); 0792A « Audite ergo correctionem meam. » with 'correctionem' twice more in the gloss below it (against Clementine Job 13:6 correptionem)."
+    },
+    {
+      "from": "793A",
+      "to": "794D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f397",
+      "source": "Gallica f397, whole page at 1400px; printed corner numbers read FIRST and read 793 / 794.",
+      "found": "CHECKED ZERO at the foot, both apparatus layers. MIGNE'S OWN UNBALANCED GUILLEMET, a FIFTH site for this book: 0793C prints 'Aut certe loquar. »' as its own indented paragraph with NO opening guillemet, between « Voca me et ego respondebo tibi. » above and VERS. 23 below, both normally delimited. Exactly as our TEI has it; no marker, no patch. Also confirmed: 0793C 'VERS. 23.' and 0794B 'VERS. 28.' print without the '--' that the other verse addresses on the page carry."
+    },
+    {
+      "from": "795A",
+      "to": "796D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f398",
+      "source": "Gallica f398, whole page at 1400px; printed corner numbers read FIRST and read 795 / 796.",
+      "found": "CHECKED ZERO at the foot, both apparatus layers. Confirmed as Migne's, all clean type: 0795B « Et in pulvere truncus emoritur, » (against Clementine Job 14:8 'et in pulvere emortuus fuerit truncus illius'); 0795C « ubi ergo est, » (ergo, against Clementine Job 14:10 quaeso); 0796C « Attamen caro ejus dum vivit dolebit. » (vivit, against Clementine Job 14:22 vivet). Also 0795A 'et bona aeternae quietis ostende' and 'pro recompensatione sui laboris accipit' and 0794D 'et quem feriat videre' all end with NO terminal stop on the plate, as our TEI has them."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "works": {
+    "8957": {
+      "reads": [
+        {
+          "from": "0771A",
+          "to": "0772D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 386,
+          "source": "Gallica bpt6k5505319w f386, full page at 1400px; page map f=(col+1)/2 CALIBRATED on this leaf -- printed corners read 771 (left) / 772 (right) before any text was read. Columns read one at a time, gutter never crossed.",
+          "found": "col 0772 collated word by word against our TEI for chunk 0010: ZERO divergences. Double negative 'non ut non erectus in defensionem contumax caderet' (0772B) is Migne's own and stands. 'staturae adventum' (0772C) is Migne's. Checked zero at the foot of the page, BOTH apparatus layers (no numbered note, no asterisk note)."
+        },
+        {
+          "from": "0773A",
+          "to": "0774D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 387,
+          "source": "Gallica bpt6k5505319w f387, full page at 1400px plus a native-resolution left-column crop at 100,1480,780,220; printed corners read 773 / 774 first.",
+          "found": "ONE divergence, ours: at 0773C our TEI carries a stray ']' after 'affligens. »' that the plate does not print. Filed as a pending TEI patch. PLATE-CONFIRMED at native resolution: 0773C 'Cum enim dolor vel tentatio NON percutit, elatio mentis succisa cadit' -- the 'non' is Migne's own and makes the sentence contradict its own argument; carried into the English, crux logged. 0773C VERS. 10 and 0773D VERS. 11 both print with NO opening guillemet, exactly as our TEI has them (the known unbalanced-guillemet class). Checked zero at the foot of the page, both apparatus layers."
+        },
+        {
+          "from": "0775A",
+          "to": "0776D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 388,
+          "source": "Gallica bpt6k5505319w f388, full page at 1400px; printed corners read 775 / 776 first.",
+          "found": "ZERO divergences between plate and our TEI across both columns (chunks 0010 tail and 0011 head). 'Mundus esse debet' (0775A), 'lacessit' (0776A) and 'Cutis sunt in Ecclesia' (0776C) all confirmed as printed. Checked zero at the foot of the page, both apparatus layers."
+        },
+        {
+          "from": "0777A",
+          "to": "0778D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 389,
+          "source": "Gallica bpt6k5505319w f389, full page at 1400px; printed corners read 777 / 778 first.",
+          "found": "ZERO divergences plate vs TEI. Three findings, all Migne's own and all now licensed markers or logged cruces: (1) 0777A the note reads '(GERG.)' on the plate, not '(GREG.)' -- Migne's misprint, reproduced verbatim inside [n: ] per the notes-verbatim rule, no marker stacked on it; (2) 0777A 'substiti' confirmed printed, a wrong-person form with no grammatical slot -> [sic: *substiti*]; (3) 0777C the unconstruable run 'de eodem intulit, parce: quod est, mortem ossa: hoc est, non ultra vivant hoc tertio' is printed exactly as our TEI has it. 0778A 'Cinis es, et in cinerem reverteris' confirmed (Gen 3:19 divergence -> [var:]); 0778A 'cum in corruptionem homo mutabitur' confirmed as two words -> [cj:]. 0778C 'et spiritus multiplex . . . . .' confirmed, the ellipsis is Migne's. Checked zero at the foot of the page, both apparatus layers."
+        },
+        {
+          "from": "0779A",
+          "to": "0780D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 390,
+          "source": "Gallica bpt6k5505319w f390, full page at 1400px plus a native-resolution right-column crop at 1000,2680,880,180; printed corners read 779 / 780 first.",
+          "found": "ONE plate defect: 0780D 'a necessatibus quasi ab aestu et imbre defendant' -- 'necessatibus' confirmed at native resolution, mid-line, NOT at a line or column break, so the break hypothesis is excluded. Migne's own non-word for 'necessitatibus' -> [sic: *necessatibus*] with the sense supplied beside it. Also confirmed as printed: 0779C the citation '(Isa. XLVIII)' for 'omnis caro fenum' (Isa 40:6 -- Migne's reference, left as printed); 0780B '« Tollentur omnes in Babylonem (II Reg. XX); »' -> [var:]; 0780C '« Non induas vestem ex lana linoque contextam. »' (Deut 22:11 loose, sense unchanged, NO marker fired); 0780B and 0780D both open a guillemet that never closes, exactly as our TEI has them. Checked zero at the foot of the page, both apparatus layers."
+        },
+        {
+          "from": "0781A",
+          "to": "0782D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 391,
+          "source": "Gallica bpt6k5505319w f391, full page at 1400px; printed corners read 781 / 782 first. (0781A had been read on this leaf earlier the same day for the guillemet question; this is the word-by-word collation of both whole columns.)",
+          "found": "ZERO divergences plate vs TEI across both columns. Confirmed as printed: 0781B 'Quis restitit ei et pacem habuit.' opening a lemma that never closes, and 'Quis creat ut sibi creata conveniant' with 'Quis' not 'Qui' (declined for a marker -- incoherent, not falsely assertive, per 18a); 0781A 'compositus perdit'; 0782A '« Qui facit mihi. »' -> [var: Vulg. qui facit magna]; 0782A '« Et mirabilia quorum non » multiplicitate' cut mid-phrase; 0782B '*usque ad,*' with the comma inside the italics; 0782C 'haberi de illa, « Quidpiam, » dicitur'. Checked zero at the foot of the page, both apparatus layers."
+        },
+        {
+          "from": "0783A",
+          "to": "0784D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 392,
+          "source": "Gallica bpt6k5505319w f392, full page at 1400px; printed corners read 783 / 784 first.",
+          "found": "ZERO divergences plate vs TEI across both columns. Confirmed as printed: 0783B '« Si flagellat, occidat se. »' -> [var: Vulg. occidat semel]; 0784C '« Neque enim viso. »' -> [var: Vulg. viro]; 0783D 'de quibus etiam addit' with NO terminal stop (not supplied in the English); 0784B '« Frustra: » dico quia.'; 0784D 'Voluit ut Deus timeri, sed ut pater amari.' Checked zero at the foot of the page, both apparatus layers."
+        },
+        {
+          "from": "0785A",
+          "to": "0785A",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": 393,
+          "source": "Gallica bpt6k5505319w f393, full page at 1400px; printed corners read 785 / 786 first. Only col 785 falls in this stint's range; 786 was not collated.",
+          "found": "ZERO divergences plate vs TEI for col 0785A. The question mark on 'sed beneficiis Dei nemo serviliter timens respondet?' is Migne's and is carried into the English; the run-on 'quae prius dulcis erat etiam moerens eam tolerat' is printed with no mark between the clauses. Checked zero at the foot of the page, both apparatus layers."
+        }
+      ]
+    }
+  }
+}
