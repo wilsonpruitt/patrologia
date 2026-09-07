@@ -1,0 +1,82 @@
+{
+  "_stint": "8956 chunks 0025-0029 (cols 1292B-1305B). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8956.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2. Printed corner numbers read FIRST on all eight leaves and they confirm the map: f646 = 1291/1292, f647 = 1293/1294, f648 = 1295/1296, f649 = 1297/1298, f650 = 1299/1300, f651 = 1301/1302, f652 = 1303/1304, f653 = 1305/1306. Band letters A-D print in the centre gutter and mark the RIGHT column, confirmed on every leaf.",
+  "second_witness": "archive.org patrologiaecurs04migngoog (on disk, raw/scans/pl113/), PDF page = (column + 11) / 2. CONSULTED at five sites on pp.652, 653, 654, 656, 658, and it WITHDREW FOUR [sic:] candidates -- see the per-page notes. This copy is the BETTER witness in this range: it prints clean type at four places where the Gallica copy has a worn or broken sort.",
+  "reads": [
+    {
+      "from": "1292A",
+      "to": "1292D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f646",
+      "source": "Gallica f646, IIIF full/1400 whole page, legible at that scale. CALIBRATION PAGE: printed corners read first and give 1291 / 1292.",
+      "found": "Col 1292 (Is 49:1-8, the head of chunk 0025) collated word by word against src/latin/8956/0025.md: NO divergence between plate and our TEI. The plate sets a comma after *in cruce* that our twin does not carry (*pendens in cruce, longe a salute mea*); immaterial, not patched. Foot of both columns blank -- no numbered conjecture, no asterisk note."
+    },
+    {
+      "from": "1293A",
+      "to": "1294D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f647",
+      "source": "Gallica f647 (native 1893x3108) whole page plus two native crops (the Mt 16:19 note line; the Joannem Baptistam line). Archive.org p.652 rendered at 300 dpi for both.",
+      "found": "THREE our-side findings, all patched forward. (1) 1293A: the plate reads *Joannem Baptistam* on BOTH printings; our TEI has the non-word *Baptismam*. (2) 1294D: our TEI's column anchor reads [1240D]; the plate prints the D band exactly where our twin sets it, in col 1294, at VERS. 9 *Consurge* -- the digits are a digitization corruption of 1294. The anchor is reproduced VERBATIM in the English (marker parity) and the patch is filed. (3) 1294C: our twin has *antidotum,etc.* with no space; the plate spaces it. ONE Gallica-copy defect REFUTED by the second printing: the note at 1293B prints (Matih. XVI) on Gallica -- a transposed *Matth.* -- and archive p.652 prints (Matth. XVI) clean, so no accusation stands and our twin's reading is right. Vulgate divergences fired at 1293A (Ps 98:5 adorate), 1293B (Mt 10:14 de pedibus vestris), 1293C (Rom 6:12 mortali corpore), 1293D (Jo 7:37 ad me), 1294B twice (Ez 33:11 impii; Mt 25:41 Discedite a me). Foot of both columns blank."
+    },
+    {
+      "from": "1295A",
+      "to": "1296D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f648",
+      "source": "Gallica f648 whole page plus a wide native crop across both column feet and a 3x blow-up of the single word *funiculu*. Archive.org p.653 rendered at 300 dpi.",
+      "found": "THE RICHEST PAGE IN THE STINT, and every finding is OURS, not Migne's. (1) 1295D: our twin prints *ante scandalum cruceis, crucis, praemisit* -- which reads as a Pattern 11a dittography with variation. IT IS NOT. The plate hyphenates *cru-* / *cis* across a line break and reads *crucis*, once, on BOTH printings. Our digitization manufactured the doubling. (2) 1295D-1296A: our twin prints the non-word *exallabitur*; the plate hyphenates *exal-* / *tabitur* across the COLUMN break and reads *exaltabitur*, on both printings. A textbook [sic:] withdrawn. (3) 1296D-1297A: our twin ends an *usque ad* tail *qui funiculu.*; archive p.653 prints *qui funiculus.* clean, and the Gallica copy's final s is worn to a dot at 3x. No [sic:]. (4) 1297A: the plate prints VERS. 16. -- with the dash our twin drops. Vulgate divergences fired at 1295D (Is 52:13 verb order), 1296B (Jo 1:29 peccatum sing.), 1296C three times (Lc 8:5 seminat; 1 Pet 2:24 pertulit...super lignum; 1 Cor 9:22 facerem salvos). Foot of both columns blank."
+    },
+    {
+      "from": "1297A",
+      "to": "1298D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f649",
+      "source": "Gallica f649 whole page plus a 2x native crop of the *tribu-atus* line break. Archive.org p.654 rendered at 300 dpi and cropped over the same two lines.",
+      "found": "ONE [sic:] CANDIDATE WITHDRAWN AT THE SECOND PRINTING. At 1297B our twin and the Gallica copy both read *Ne justus tribu-atus deficiat* -- the non-word *tribuatus*, hyphenated at the line break, with *tribulatus* obviously wanted. Archive p.654 prints *tribu-latus* CLEAN over the same break. Two printings, one sound: no marker fired, and the English renders 'lest the just man, being afflicted, fail'. Otherwise no plate/TEI divergence in either column. Vulgate divergences fired at 1297D (Eccle 11:1 transeuntes aquas / post tempora multa) and 1298C (Rom 12:1 hostiam viventem, sanctam, Deo placentem); three more logged as immaterial and declined (Jo 15:19 essetis for fuissetis and idcirco for propterea; Rom 10:12 Sed non est for Non enim est). Pattern 8 confirmed at the foot of col 1297: the sentence ending *praemia recipies* carries NO terminal stop on the plate, exactly as our twin has it. Foot of both columns blank."
+    },
+    {
+      "from": "1299A",
+      "to": "1300D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f650",
+      "source": "Gallica f650, IIIF full/1400 whole page, fully legible at that scale.",
+      "found": "CLEAN. Both columns collated word by word against src/latin/8956/0027.md and 0028.md: no divergence between plate and our TEI anywhere on the leaf, and no defect candidate arose. Pattern 8 confirmed again at 1300A: *opere complevi* is unstopped on the plate. One Vulgate divergence fired at 1299C (Is 55:8, quoted as *Non sicut viae meae sunt viae vestrae* and cited (Isa. XL) -- the mis-citation is Migne's and rides verbatim). Foot of both columns blank."
+    },
+    {
+      "from": "1301A",
+      "to": "1302D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f651",
+      "source": "Gallica f651 whole page. Archive.org p.656 rendered at 300 dpi and cropped over the Is 58:11 gloss.",
+      "found": "TWO our-side fusions at a line break, both patched forward, both of the same class as the f648 findings. (1) 1302C: our twin prints *Requiescit supereum Spiritus Domini*; the plate hyphenates *super-* / *eum* and reads *super eum*. (2) 1302C: our twin prints *et me moriter teneant*; the plate hyphenates *me-* / *moriter* and reads *memoriter* -- 'and hold me in memory'. Neither is Migne's, and neither takes a [sic:]. ONE press variant recorded and NOT patched: at 1301A the Is 58:11 lemma prints *Hortus irruguus* on Gallica and *Hortus irriguus* on archive p.656, with the gloss's second occurrence *irriguus* on both. Our twin follows the Gallica setting faithfully; no marker, no patch, crux only. Vulgate divergences fired at 1301A (Is 58:11 *erit* for *eris*, the person changed) and 1302C (Is 11:2 *requiescet*, a future). Foot of both columns blank."
+    },
+    {
+      "from": "1303A",
+      "to": "1304D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f652",
+      "source": "Gallica f652, IIIF full/1400 whole page, fully legible at that scale.",
+      "found": "TWO our-side findings. (1) 1303A: our twin prints *quae sub coelo 1304est* inside the Acts 2:5 quotation -- a stray column number fused into a word, and out of sequence besides (it stands between [1303A] and [1303B]). The plate reads *quae sub coelo est*, clean, with nothing in the margin there. Restored silently in the English under Pattern 13a clause 1; patch filed. (2) 1303D: the plate prints VERS. 10. -- with the dash our twin drops. Also recorded, from the head of chunk 0029 on f651's right column: our twin sets Migne's attribution INSIDE the italic lemma span (*Surge, illuminare. (HIER)*.) where the plate sets it outside (*Surge, illuminare.* (HIER).). The English preserves our twin's span structure so the 352-span count holds, and the patch is filed. Otherwise no plate/TEI divergence. Foot of both columns blank."
+    },
+    {
+      "from": "1305A",
+      "to": "1305B",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f653",
+      "source": "Gallica f653 whole page plus a 2x native crop of the VERS. 11 lemma. Archive.org p.658 rendered at 300 dpi and cropped over the same line. (Col 1306 is on this leaf but belongs to the next stint and was not collated.)",
+      "found": "ONE [sic:] CANDIDATE WITHDRAWN AT THE SECOND PRINTING. At 1305B the Gallica copy prints the Is 61:11 lemma as *Et lauaem* -- an italic a where the d belongs, with *laudis* printing cleanly two lines below, which is exactly the shape that licenses a plate-defect claim. Archive p.658 prints *Et laudem* CLEAN. No marker; our twin's *laudem* is right. Otherwise col 1305 collated word by word with no plate/TEI divergence. Foot of the left column blank."
+    }
+  ]
+}
