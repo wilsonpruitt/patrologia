@@ -1377,6 +1377,537 @@
     }
    ]
   },
+  "8957": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+   "page_map": "Gallica leaf f = (column + 1) / 2",
+   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these reads; no single letter was at stake.",
+   "reads": [
+    {
+     "from": "0771A",
+     "to": "0772D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 386,
+     "source": "Gallica bpt6k5505319w f386, full page at 1400px; page map f=(col+1)/2 CALIBRATED on this leaf -- printed corners read 771 (left) / 772 (right) before any text was read. Columns read one at a time, gutter never crossed.",
+     "found": "col 0772 collated word by word against our TEI for chunk 0010: ZERO divergences. Double negative 'non ut non erectus in defensionem contumax caderet' (0772B) is Migne's own and stands. 'staturae adventum' (0772C) is Migne's. Checked zero at the foot of the page, BOTH apparatus layers (no numbered note, no asterisk note)."
+    },
+    {
+     "from": "0773A",
+     "to": "0774D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 387,
+     "source": "Gallica bpt6k5505319w f387, full page at 1400px plus a native-resolution left-column crop at 100,1480,780,220; printed corners read 773 / 774 first.",
+     "found": "ONE divergence, ours: at 0773C our TEI carries a stray ']' after 'affligens. »' that the plate does not print. Filed as a pending TEI patch. PLATE-CONFIRMED at native resolution: 0773C 'Cum enim dolor vel tentatio NON percutit, elatio mentis succisa cadit' -- the 'non' is Migne's own and makes the sentence contradict its own argument; carried into the English, crux logged. 0773C VERS. 10 and 0773D VERS. 11 both print with NO opening guillemet, exactly as our TEI has them (the known unbalanced-guillemet class). Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0775A",
+     "to": "0776D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 388,
+     "source": "Gallica bpt6k5505319w f388, full page at 1400px; printed corners read 775 / 776 first.",
+     "found": "ZERO divergences between plate and our TEI across both columns (chunks 0010 tail and 0011 head). 'Mundus esse debet' (0775A), 'lacessit' (0776A) and 'Cutis sunt in Ecclesia' (0776C) all confirmed as printed. Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0777A",
+     "to": "0778D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 389,
+     "source": "Gallica bpt6k5505319w f389, full page at 1400px; printed corners read 777 / 778 first.",
+     "found": "ZERO divergences plate vs TEI. Three findings, all Migne's own and all now licensed markers or logged cruces: (1) 0777A the note reads '(GERG.)' on the plate, not '(GREG.)' -- Migne's misprint, reproduced verbatim inside [n: ] per the notes-verbatim rule, no marker stacked on it; (2) 0777A 'substiti' confirmed printed, a wrong-person form with no grammatical slot -> [sic: *substiti*]; (3) 0777C the unconstruable run 'de eodem intulit, parce: quod est, mortem ossa: hoc est, non ultra vivant hoc tertio' is printed exactly as our TEI has it. 0778A 'Cinis es, et in cinerem reverteris' confirmed (Gen 3:19 divergence -> [var:]); 0778A 'cum in corruptionem homo mutabitur' confirmed as two words -> [cj:]. 0778C 'et spiritus multiplex . . . . .' confirmed, the ellipsis is Migne's. Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0779A",
+     "to": "0780D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 390,
+     "source": "Gallica bpt6k5505319w f390, full page at 1400px plus a native-resolution right-column crop at 1000,2680,880,180; printed corners read 779 / 780 first.",
+     "found": "ONE plate defect: 0780D 'a necessatibus quasi ab aestu et imbre defendant' -- 'necessatibus' confirmed at native resolution, mid-line, NOT at a line or column break, so the break hypothesis is excluded. Migne's own non-word for 'necessitatibus' -> [sic: *necessatibus*] with the sense supplied beside it. Also confirmed as printed: 0779C the citation '(Isa. XLVIII)' for 'omnis caro fenum' (Isa 40:6 -- Migne's reference, left as printed); 0780B '« Tollentur omnes in Babylonem (II Reg. XX); »' -> [var:]; 0780C '« Non induas vestem ex lana linoque contextam. »' (Deut 22:11 loose, sense unchanged, NO marker fired); 0780B and 0780D both open a guillemet that never closes, exactly as our TEI has them. Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0781A",
+     "to": "0782D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 391,
+     "source": "Gallica bpt6k5505319w f391, full page at 1400px; printed corners read 781 / 782 first. (0781A had been read on this leaf earlier the same day for the guillemet question; this is the word-by-word collation of both whole columns.)",
+     "found": "ZERO divergences plate vs TEI across both columns. Confirmed as printed: 0781B 'Quis restitit ei et pacem habuit.' opening a lemma that never closes, and 'Quis creat ut sibi creata conveniant' with 'Quis' not 'Qui' (declined for a marker -- incoherent, not falsely assertive, per 18a); 0781A 'compositus perdit'; 0782A '« Qui facit mihi. »' -> [var: Vulg. qui facit magna]; 0782A '« Et mirabilia quorum non » multiplicitate' cut mid-phrase; 0782B '*usque ad,*' with the comma inside the italics; 0782C 'haberi de illa, « Quidpiam, » dicitur'. Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0783A",
+     "to": "0784D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 392,
+     "source": "Gallica bpt6k5505319w f392, full page at 1400px; printed corners read 783 / 784 first.",
+     "found": "ZERO divergences plate vs TEI across both columns. Confirmed as printed: 0783B '« Si flagellat, occidat se. »' -> [var: Vulg. occidat semel]; 0784C '« Neque enim viso. »' -> [var: Vulg. viro]; 0783D 'de quibus etiam addit' with NO terminal stop (not supplied in the English); 0784B '« Frustra: » dico quia.'; 0784D 'Voluit ut Deus timeri, sed ut pater amari.' Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0785A",
+     "to": "0785A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 393,
+     "source": "Gallica bpt6k5505319w f393, full page at 1400px; printed corners read 785 / 786 first. Only col 785 falls in this stint's range; 786 was not collated.",
+     "found": "ZERO divergences plate vs TEI for col 0785A. The question mark on 'sed beneficiis Dei nemo serviliter timens respondet?' is Migne's and is carried into the English; the run-on 'quae prius dulcis erat etiam moerens eam tolerat' is printed with no mark between the clauses. Checked zero at the foot of the page, both apparatus layers."
+    },
+    {
+     "from": "0795",
+     "to": "0796",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f398",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 795/796 confirmed (f=(795+1)/2=398). CAPUT XV opens at 0796D; VERS. 2-4 collated word by word against our TEI — no divergence. FOOT: checked ZERO, both apparatus layers (no numbered Forte notes, no asterisk/letter-keyed notes)."
+    },
+    {
+     "from": "0797",
+     "to": "0798",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f399",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 797/798 confirmed. Whole leaf collated word by word. (1) 0798B VERS. 21 opens « and never closes ON THE PLATE — the book's known unbalanced-guillemet class, confirmed a 4th time; lemmata above and below normally delimited. (2) 0798D VERS. 28 prints `Habitavit in civitatibus. »` with NO opening « on the plate — the unopened class, and this lemma is absent from the mechanical inventory. (3) ⛔ our TEI's `mala quae in ferat` is OUR artifact: the plate sets `mala quæ in-` at the line end with a hyphen and `ferat,` on the next line — ONE word, *inferat*. Confirmed at native resolution (Gallica f399 crop 1000,1080,880,220) AND on the archive copy (patrologiaecurs04migngoog p. 404, cols 797/798). No [sic:] fired; TEI patch filed. FOOT: checked ZERO, both layers."
+    },
+    {
+     "from": "0799",
+     "to": "0800",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f400",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 799/800 confirmed. Whole leaf collated word by word; no divergence from our TEI found. (This leaf's FOOT question was already settled by the chunking spot check — checked zero, both layers — and is not re-claimed here; the text collation is new.)"
+    },
+    {
+     "from": "0801",
+     "to": "0802",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f401",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 801/802 confirmed. Whole leaf collated word by word; our TEI agrees throughout. Confirms `« Terra es et in terram ibis; »` at 0802C (Gn 3:19 divergence, [var:] fired) and Migne's OWN duplicated verse number: `VERS. 16.` prints twice at 0802A/0802B (Saccum consui = Clem 16:16, Facies mea intumuit = Clem 16:17). FOOT: checked ZERO, both layers."
+    },
+    {
+     "from": "0803",
+     "to": "0804",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f402",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 803/804 confirmed. Whole leaf collated word by word. Confirms `caligavit ad indignationem oculus meus` at 0804A (against the plate's own `ab indignatione` at 0803D) and `Putasne saltem sibi erit requies mihi ?` at 0804D — both [var:] sites, and BOTH independently confirmed on the archive copy (patrologiaecurs04migngoog p. 407, corner 804 read). Also confirms `supplantat.Potuit` set without a space at 0806C-adjacent 0803/0804 setting habit, and `si superbus minime fuisset` with no terminal stop. A small raised mark after `Ad caput` at 0803C was examined at native resolution (crop 150,1690,880,130) and is a speck, NOT an asterisk key — there is no foot note on the page. FOOT: checked ZERO, both layers."
+    },
+    {
+     "from": "0805",
+     "to": "0806",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f403",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 805/806 confirmed. Whole leaf collated word by word. Confirms `« Intellige prius. »` (SINGULAR, against Clem 18:2 intelligite) at native resolution (crop 110,470,780,120), and `« Quid perdis animam tuam. »` (against Clem 18:4 Qui perdis) — the latter also confirmed on the archive copy p. 408. Confirms `si superbus minime fuisset` closing with NO terminal stop (0806C) and `supplantat.Potuit` fused without a space. FOOT: checked ZERO, both layers."
+    },
+    {
+     "from": "0807",
+     "to": "0808",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f404",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 807/808 confirmed. Whole leaf collated word by word. Confirms `unde scriptum est. :` at 0807B — a period AND a colon, exactly as our TEI has it (native crop 120,1350,760,90). ⚠ The Gallica copy CLIPS THE LEFT MARGIN on this page: the first word of the last line of the left column reads as `]os`; the archive copy (p. 409, corners 807/808 read) sets it plainly as `vos`, which is what our TEI has. No marker either way. Also confirms `omne corpus ejus ulceribus attriverunt` closing with no terminal stop (0808D). FOOT: checked ZERO, both layers."
+    },
+    {
+     "from": "0809",
+     "to": "0810",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f405",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 809/810 confirmed. Whole leaf collated word by word. Confirms `« Ore proprio decorabat. »` at 0809B standing eight words before Migne's own gloss `ore proprio deprecabar` — [var:] site, independently confirmed on the archive copy p. 410. Confirms `Judeae` (0810D) as the plate's own spelling. FOOT: checked ZERO, both layers — the only matter below the text is the signature line `PATROL. CXIII.` and the gathering number `26`, which is not apparatus."
+    },
+    {
+     "from": "0811",
+     "to": "0812",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f406",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corner 811 confirmed. The head of the leaf (0811A, the tail of my range) collated word by word: confirms `« Ego ipse, et oculi mei conspecturi sunt, et non aliis. »` against Clem 19:27 `et non alius` — [var:] site, independently confirmed on the archive copy p. 411 (corner 811 read). FOOT: checked ZERO, both layers (native crop 60,2650,1820,480)."
+    },
+    {
+     "from": "0811A",
+     "to": "0812D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f406",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunks 0025-0026. ONE divergence, and it is OURS: at 0812C our TEI prints 'sed cetat in gutture'; the plate reads 'sed celat' -- confirmed at native resolution (crop 1000,1540,880,200), a clear l with ascender, mid-line, no line break near it. English renders the plate ('conceals'); no [sic:], TEI patch filed in data/briefs/8957-PENDING-TEI-PATCHES-0025.md. Everything else in cols 811-812 stands as our TEI has it, guillemets included; no unbalanced lemma on this leaf. CHECKED ZERO at the foot of both columns, both note layers (no numbered conjecture, no asterisk note)."
+    },
+    {
+     "from": "0813A",
+     "to": "0814A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f407",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunks 0026-0027. ONE divergence, and it is OURS: 0813C our TEI prints 'praevidere comtempsit'; the plate reads 'contempsit' (native crop 140,1700,860,160). English renders the plate; TEI patch filed. THREE readings CONFIRMED as Migne's: 0813B 'Non remansit de civitate ejus' (native crop 140,1060,860,140 -- civitate is unmistakable, and the gloss on the very next line reads 'de cibo ejus'), 0813A 'quod concupierat' for the Vulgate's 'quae', and 0813C 'Gladius eductus' where the Clementine has bare 'Eductus'. 0813A 'non erubescit' ends with no terminal stop on the plate, as in our TEI. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0814B",
+     "to": "0816D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f408",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunk 0027. ONE divergence, and it is OURS: 0815B our TEI prints 'cum eadem sevientibus deesse conspiciunt'; the plate reads 'servientibus' (native crop 140,1490,880,160), which restores the servientibus/servire play the next clause turns on. English renders the plate; TEI patch filed. ONE DEFECT THAT IS MIGNE'S: 0815D 'exaliqua' for 'ex aliqua', fused mid-line with normal word spacing either side, confirmed at native resolution (crop 140,2290,880,120) -- [sic: *exaliqua*] fired, with the sense carried in plain words beside it per 7a-quadruple-prime. GUILLEMET CLASS, fourth site in this book: 0815C 'Et superveniet eis inundatio. »' begins its line with 'Et' and NO opening « on the plate (native crop 140,2100,880,220) -- same class as 0767B / 0819C, no marker, no patch. Also confirmed as Migne's: 0816A 'Nunquid Deum quispiam docebit scientiam?' (Clementine has the nominative Deus), 0816C 'de via' where the Clementine has 'de viatoribus' and the gloss expounds 'Viator', 0816C 'vias ejus' for 'viam ejus', 0815C 'Consilium eorum' for 'Consilium impiorum'. NOTE ON THIS SCAN: the printed digit 3 in the VERS. numbers renders as a 5 at 1400px on this leaf (VERS. 23 / 33 look like 25 / 53); at native resolution they are 3s, and our TEI's numbering is right. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0817A",
+     "to": "0819A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f409",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunks 0027-0028. ONE divergence, and it is OURS: 0817C our TEI prints 'pro peccatis dicunt retribui er?'; at native resolution (crop 140,1630,880,180) the plate's second character is a plain vertical with no r-shoulder -- the type reads 'ei', with a worn or dotless i. English renders 'to him'; no [sic:] (the non-word is ours), TEI patch filed. CONFIRMED as Migne's: 0817B '« Nunquid tibi arguet? »' (dative where the Vulgate has 'arguet te'), 0817D 'nisi quod omnes' appended to Job 22:16, 0818A 'Si reversus fuerit' in the third person against the Vulgate's second. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0819B",
+     "to": "0820C",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f410",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w. CALIBRATION: printed corner numbers read FIRST on every page opened, before any text on it -- f406 gives 811/812, f407 813/814, f408 815/816, f409 817/818, f410 819/820, confirming f = (column + 1) / 2 across the whole stint range. Whole page at 1400px width for running text, plus native-resolution single-column crops (never across the gutter) for every letter-level claim.",
+     "found": "Collated word by word against chunk 0029 -- the leaf was already read for the 0819C guillemet question, the running text was not. CHECKED ZERO: not one divergence between plate and TEI anywhere in 0819B-0820C. Confirmed as Migne's: 0819A 'Respondens autem Job dixit' where the Clementine has 'ait', 0819B 'Ponam coram Deo judicium' for 'coram eo', 0819D '« Et proba me quasi aurum. »' in the imperative eight words after '« Et probavit. »' in the indicative (Migne's own two settings of Job 23:10 disagreeing on one column), 0820B 'reddentis rationibus'. The 0819C lemma 'VERS. 5.--Ut sciam verba quae, » etc.' again shows NO opening «, as already recorded. CHECKED ZERO at both feet, both note layers."
+    },
+    {
+     "from": "0833",
+     "to": "0834",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f417",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 833/834 read FIRST and confirmed (f=(833+1)/2=417); running head 'GLOSSA ORDINARIA. -- LIB. JOB.'. Whole leaf collated word by word against our TEI. (1) ⭐ 0833B: the plate sets a SECOND, interior opening guillemet where our TEI has none — `« Qui rodebant in solitudine, « etc. Hæretici qui ab universalis…` — confirmed at native resolution (crop 150,1230,830,120 and 150,1255,560,45) and distinguished from a closing mark by direct comparison with the closing » on the `Quocum virtus manuum erat. »` line (crop 150,795,700,60): both marks on the Qui-rodebant line point the same way. This is the book's known interior/unbalanced-guillemet class; NO [sic:], NO [cj:], NO TEI patch, per the standing rule. (2) 0834B `« Et frenum posuit in os me. »` confirmed at native resolution (crop 1000,1055,870,55): clean type, no broken sort, Migne prints `me`, not `meum`. (3) The doubled `usque ad usque ad mala descendit` at 0833D is on the plate exactly as our TEI has it — the abridgment formula followed by a resumption that itself begins `usque ad`; not a dittography. (4) The D column-mark stands beside `sunt` mid-paragraph, our TEI places [0833D] after the lemma — positional quarter-guide, known false-positive class 1. FOOT: checked ZERO, both apparatus layers (no numbered Forte notes, no asterisk- or letter-keyed notes)."
+    },
+    {
+     "from": "0835",
+     "to": "0836",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f418",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 835/836 read FIRST and confirmed; running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'. Whole leaf collated word by word; our TEI is a faithful witness throughout, no divergence found. Two negation-critical sites checked at native resolution: 0835C `In Deo nec crudelitas nec mutabilitas venit` (crop 150,2085,880,80) — both negatives present on the plate; and 0836D `« Quam enim partem haberet Deus in me desuper. »` (crop 1000,2410,880,75) — Migne's word order is `haberet Deus in me desuper`, clean type. `Exspectabam`/`exstinguere` are Pattern 9 spellings, checked and declined. FOOT: checked ZERO, both apparatus layers."
+    },
+    {
+     "from": "0837",
+     "to": "0838",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f419",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 837/838 read FIRST and confirmed; running head 'GLOSSA ORDINARIA. -- LIB. JOB.'. Whole leaf collated word by word. TWO findings, both plate-verified at native resolution. (1) ⛔ 0838A `VERS. 23.-- « Semper enim quasi tu mentes. »` — `tu mentes` is set as TWO WORDS, MID-LINE, with ordinary word spacing, NOT at a line or column break (the line runs on to the closing » and a comma). Native crop 1000,595,880,90. It is *tumentes* split: the gloss's own next line sets `tumentes` as one word (`Fluctus, cum tumentes desuper imminent`) and the Clementine has Job 31:23 `quasi tumentes … fluctus`. Pattern 10 split run, Pattern 12 marker fired as [sic: *tu mentes*] — the run has no grammatical slot ('thou minds') and cannot render in place. Our TEI carries it identically, so the defect is Migne's, not ours. (2) 0837A `Ideo dicit : « Si ambis. »` confirmed at native resolution (crop 150,365,880,60): clean type, `ambis` and not `ambulavi`; a real word in the wrong sense, so Pattern 12 declines it and it is recorded as an unmarked Vulgate divergence. (3) 0838C `« Et non est lætatum in abscondito cor meum. »` — the `non` is plainly on the plate at native resolution (crop 1000,1660,880,80), and Migne re-quotes the same clause WITHOUT it eight words later as VERS. 27 `« Et lætatum est, etc. »`. Carried as printed per 7a; [var:] fired. FOOT: checked ZERO, both apparatus layers."
+    },
+    {
+     "from": "0839",
+     "to": "0840",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f420",
+     "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+     "found": "Corners 839/840 read FIRST and confirmed; running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'. Whole leaf collated word by word; this is the last leaf of the work. (1) 0840A `VERS. 1.-- « Miserunt autem tres. »` confirmed at native resolution (crop 1000,760,880,60): the M is unambiguous and there is clear space between the guillemet and it — Migne prints `Miserunt`, not the Clementine's `Omiserunt`. No dropped or broken initial. (2) ⭐ THE WORK'S ENDING IS MIGNE'S OWN DECISION AND IS NOT A TRUNCATION. Under CAPUT XXXIII the plate prints, in italics inside parentheses and set as a note, an editorial statement that the exposition of chapters 33 and following, taken word for word from Gregory, is omitted compendii causa, with the reference `Vide Greg., Moralium in Job, lib. XXIII, cap. 7 et seq., Opp. tom. II.` Confirmed at native resolution (crops 1000,2590,890,180 and 1000,2700,890,110). It is editorial PROSE, so Pattern 15 applies: translated and re-marked [nt: …] at the same position. No [ed:] supplied, nothing reported as missing. (3) Also confirmed: the inline italic `Vide Greg. loc. cit. usque ad fin. cap.` closing VERS. 15 at 0840D. (4) ⛔ ONE TEI-SIDE DIVERGENCE: the plate reads `Moralium in Job, lib. XXIII` with a COMMA; our TEI prints a period, `in Job. lib. XXIII`. Ours, not Migne's — the class the peers found at 0758A. Patch filed; no marker. FOOT: checked ZERO, both apparatus layers."
+    },
+    {
+     "from": "0747A",
+     "to": "0748D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f374",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST on both spot-check pages -- f374 gives 747/748 and f400 gives 799/800, confirming f = (column + 1) / 2 at two points 26 leaves apart. Whole page at 1400px width plus a native-resolution foot crop (0,2600,1919,529).",
+     "found": "CHECKED ZERO at the foot, both layers. Work-division page. No Hebrew/Greek book-title line under the LIBER JOB banner. Col 748D collated in passing against our chunk 0000: Migne's guillemet lemmata print as our TEI has them (« Elegit suspendium anima mea (Ibid. VII), »)."
+    },
+    {
+     "from": "0749A",
+     "to": "0750D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f375",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 749, right 750, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0000. Confirmed as printed: 'Unde (Isa. XXIII) : « Erubesce, Sidon, » id est, stabilitas in lege positorum, « ait mare : »'; 'Balach filio Beor'; the Ps 41 quotation with 'et nocte declaravit eam' (the [var:] site -- Migne genuinely departs from the Clementine's 'canticum ejus'); the name-etymologies 'Domini contemptus', 'vetustas sola', 'dissipatio speculae', 'dissipans speculatorem'; 'Per Elihu qui recto sensu loquitur'; the double negation 'ut non nisi per eum quem despexerant, ad gratiam reciperet'; and 'Post omnia mala, ob duplicia recepit' -- the ob is Migne's, not a transcription slip, and the clause does not construe as printed."
+    },
+    {
+     "from": "0751A",
+     "to": "0752D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f376",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 751, right 752, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page at 1400px width.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against the tail of chunk 0000 and the head of chunk 0001. Confirmed as printed: 'Afflicto Job dicitur' at 0751A (the [cj:] site -- Afflicto, not Afflictus, is Migne's type); 'VERS. 1. -- « Vir erat in terra Hus. » (GREG. in Job, tom. I.)'; the camel gloss 'quorum alterum habent cameli, alterum vero deest eis, et sic legi congruunt et dissident'; '« Oriens nomen ejus (Zach. VI): »'; '(GREG., lib. II, Moral., cap. 2.)'; 'Hyems erat, cum praedicatur non credituris'; '« Ecce universa substantia quam habet in manu tua est. »' at 0752D (the [var:] site). A second instance of Migne's line-start continuation mark is visible at 0751B ('« Qui in uno offendit, multa « bona perdet'), which our TEI drops there and keeps at 0754B."
+    },
+    {
+     "from": "0753A",
+     "to": "0754D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f377",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 753, right 754, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width, plus three native-resolution crops, each inside ONE column: left (140,300,850,200), right (1000,2690,880,110). No crop crossed the centre gutter.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0001 and the head of 0002. FOUR FINDINGS. (1) The note siglum at 0753A reads 'GREC.', NOT 'GREG.' -- native crop shows an open terminal C with no spur. Migne's own defect; note contents ride verbatim on both sides so no marker fires and nothing changes in the English. (2) REJECTED CANDIDATE, a checked zero: 'non quod nesciat' appeared as 'bon quod nesciat' at 1400px and was a live [sic:] candidate; the native crop reads 'non' plainly -- it is a line-initial non after 'dici-|tur,' and the b was a render artifact of the reduced scale. (3) The unbalanced guillemets at 0753A are Migne's: '« unde venis? vias ejus est quasi incognitas reprobare. « Circumivi terram. »' and '« In circumitu impii ambulant (Psal. XI), id est ...' running unclosed past the end of the paragraph, both printed exactly as our TEI has them, with normally delimited lemmata around them. Same for the interior '«' at 0754B ('filii et « filiae'), which is the line-start continuation mark. (4) At 0754D Migne prints NO punctuation mark between 'claruit' and 'zelus' (native crop 1000,2690,880,110): 'quia vera dixisse prophe-|tiam claruit zelus apprehendit populum ineruditum.' Our TEI is correct; the English supplies a comma and says so in the cruces."
+    },
+    {
+     "from": "0755A",
+     "to": "0756D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f378",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 755, right 756, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page at 1400px width, plus two native-resolution RIGHT-COLUMN crops (1000,2520,880,120) and (1000,2410,880,120); no crop crossed the centre gutter.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunks 0002 and the head of 0003. REJECTED CANDIDATE, a checked zero: our twin prints '» , id est' at 0756D with a space between the closing guillemet and the comma, which looked like a doubled or stray mark; the native crop reads '(Jer. xi), », id est' -- TWO commas on the plate exactly as in our twin, differing only in whitespace, which is a transform artifact and not a mark. No patch, no marker. Also confirmed as printed: '(GREG.), Filii et filiae' with the comma outside the parenthesis at 0755B; '« Proximi mei a longe steterunt (Psal. XXXVII). »'; 'Judaea dum venturum credidit, abstulit' with no expressed object; 'tempus quo necdum ista habuit praevidet qualis exiturus'. Noted: the plate breaks 'dete-|ctus' across the CENTRE GUTTER at the 0755D/0756A column boundary while our twin sets the whole word before the [0756A] anchor -- anchor placement, not text, and not a defect."
+    },
+    {
+     "from": "0757A",
+     "to": "0758D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f379",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 757, right 758, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width, plus a native-resolution RIGHT-COLUMN crop (980,350,880,120); no crop crossed the centre gutter.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0003. DECISIVE FINDING: at 0758A the plate prints a FULL STOP where our TEI prints a colon -- 'insipientiam conjugis arguendo docens . et sic victus ardentius hostis instigatur'. The native crop shows a single low dot with spacing either side, unmistakably not a colon. Under the locked plate rule the English renders the full stop, and the divergence is filed as a pending TEI patch. Also confirmed as printed: the parenthesis 'excidens (aeterna despice)' at 0757C is Migne's own, not our supply and not a TEI artifact; 'Sed haec passi sunt illi forma rectitudinis' with forma ungoverned; '« Benedic Domino et morere. »' with Domino, where the Clementine has Deo; 'non conditione naturae'; 'Qua sancti in omnibus'; '« Amice, ad quid venisti (Matth. XXVI)? »'."
+    },
+    {
+     "from": "0759A",
+     "to": "0760D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f380",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 759, right 760, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page at 1400px width.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against chunk 0004. POLARITY FINDING: at 0760C Migne prints 'sed jam idolis reprobatis, nox est laude digna' -- with est and no non -- in a gloss on the lemma '« Nec laude digna. »' (Job 3:7), so the gloss asserts the opposite of the verse it expounds. The plate carries no negative and none was supplied; the contradiction ships as printed and is logged as a crux. Also confirmed as printed and ONE WORD: 'VERS. 3. -- « Pereat dies in qua natus sum. »' at 0759C, which is the internal control for the 0748D line-break finding on f374. Further confirmed: the mixed-case italic note '(Greg. in Job l. IV.)' at 0759D, against the small-cap GREG. elsewhere; '« Est enim confusio adducens gloriam. (Eccli. IV.) »' with the period inside the guillemets; '« Caligine » Ejus noctis' with no period after the lemma; '« Non computetur in die anni. »' in the singular against the Clementine's diebus; 'Homo cum substratus, idola coluit' with cum lacking its verb."
+    },
+    {
+     "from": "0761A",
+     "to": "0762D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f381",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 761, right 762, running head 'GLOSSA ORDINARIA. -- LIB. JOB.' Whole page at 1400px width.",
+     "found": "CHECKED ZERO at the foot of both columns, both apparatus layers. Collated word by word against the tail of chunk 0004 (my range ends at 0762C; 0762D was read as well and is clean). GUILLEMET FINDING: at 0762B the plate prints 'VERS. 19. -- Parvus et magnus ibi sunt. »' with NO opening guillemet, and the lemmata above and below it on the same column are normally delimited -- a fifth plate-confirmed instance of this book's unbalanced-guillemet class, matching the 0767B and 0819C shape. No marker, no patch. The same column carries the unclosed '« Qui non audierunt, etc. « Exactor diabolus ...' at 0762A/B, also exactly as our TEI has it. CITATION FINDING: at 0762A the plate prints '(Psal. XXXVIII)' keyed to text that is Ps 83:3 verbatim -- a misbound reference in Migne, plausibly LXXXIII with the L lost. Reproduced verbatim and NOT corrected: refDisplay keeps what Migne prints, and this book leans hard on (Ibid.) chains. Also confirmed as printed: '(GREG. in lib. Job lib. V.)' with the doubled lib. at 0762C; 'ut sanati dolorum sine dolore recordamur' with the indicative after ut; 'liber a Domino despicit saeculi prospera'."
+    },
+    {
+     "from": "0762C",
+     "to": "0762D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f381",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w, f = (column + 1) / 2; printed corner numbers read FIRST on every leaf before any text on it (f381=761/762, f382=763/764, f383=765/766, f384=767/768, f385=769/770, f386=771/772). Whole page at 1400px width, then native-resolution crops of ONE column at a time (no crop crosses the gutter).",
+     "found": "Corners 761/762 confirmed. CHECKED ZERO at the foot, both apparatus layers. Cols 762C-D collated word by word against chunk 0005: our TEI agrees with the plate throughout, including exspectant (Clementine expectant)."
+    },
+    {
+     "from": "0763A",
+     "to": "0764D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f382",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w, f = (column + 1) / 2; printed corner numbers read FIRST on every leaf before any text on it (f381=761/762, f382=763/764, f383=765/766, f384=767/768, f385=769/770, f386=771/772). Whole page at 1400px width, then native-resolution crops of ONE column at a time (no crop crosses the gutter).",
+     "found": "Corners 763/764 confirmed. CHECKED ZERO at the foot, both apparatus layers. ONE DIVERGENCE, ours not Migne's: at 0764A the plate sets 'dicentes eos vel prava dicere, vel bona quae dicunt non tenere' -- our TEI carries an intrusive non-word 'bel' (vel bel bona) that the plate does not print (native crop 990,760,890,220). English renders the plate; NO marker fired; TEI patch filed. Plate confirms 0763D 'Ecce docuisti plurimos' (Clementine multos) and 0763B 'dum qui apud Deum decernatur'."
+    },
+    {
+     "from": "0765A",
+     "to": "0766D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f383",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w, f = (column + 1) / 2; printed corner numbers read FIRST on every leaf before any text on it (f381=761/762, f382=763/764, f383=765/766, f384=767/768, f385=769/770, f386=771/772). Whole page at 1400px width, then native-resolution crops of ONE column at a time (no crop crosses the gutter).",
+     "found": "Corners 765/766 confirmed. CHECKED ZERO at the foot, both apparatus layers. Plate confirms 0766C 'Imago coram oculis me' -- clean type, no broken sort, native crop 980,1560,890,130 (Clementine Job 4:16 'meis'); a [var:] stands on it. Plate confirms the unclosed guillemet at 0766A ('« Stetit quidam.' opens, never closes) with normally delimited lemmata above and below on the same page -- the book's known class, no marker. Plate confirms 0766D ending without a terminal stop, and 0766C 'Nunquid homo comparatione Dei justificabitur?' (Clementine order 'Dei comparatione')."
+    },
+    {
+     "from": "0767A",
+     "to": "0767B",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f384",
+     "source": "Gallica f384, native-resolution crop of the LEFT column only (150,250,900,900) -- no gutter crossed.",
+     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 1 of 3. The plate prints 'VERS. 20. -- De mane usque ad vesperam. »' with NO opening guillemet and a closing one, exactly as our TEI has it. The lemmata immediately above and below on the same page are normally delimited. Our text is faithful; nothing to patch."
+    },
+    {
+     "from": "0767A",
+     "to": "0768D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f384",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w, f = (column + 1) / 2; printed corner numbers read FIRST on every leaf before any text on it (f381=761/762, f382=763/764, f383=765/766, f384=767/768, f385=769/770, f386=771/772). Whole page at 1400px width, then native-resolution crops of ONE column at a time (no crop crosses the gutter).",
+     "found": "Corners 767/768 confirmed. CHECKED ZERO at the foot, both apparatus layers. Plate confirms the unopened guillemet at 0767A ('VERS. 20.--De mane usque ad vesperam. »') -- the site the lemma brief records at 0767B; same class, no marker. Plate confirms 0768D 'Quamobrem ego te' (Clementine 'ego deprecabor Dominum'), 0768C 'Et de humo non egredietur' (Clementine 'de humo non oritur dolor') and the doubled lemma at 0768C as Migne's own announce-then-gloss, NOT a dittography."
+    },
+    {
+     "from": "0769A",
+     "to": "0770D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f385",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w, f = (column + 1) / 2; printed corner numbers read FIRST on every leaf before any text on it (f381=761/762, f382=763/764, f383=765/766, f384=767/768, f385=769/770, f386=771/772). Whole page at 1400px width, then native-resolution crops of ONE column at a time (no crop crosses the gutter).",
+     "found": "Corners 769/770 confirmed. CHECKED ZERO at the foot, both apparatus layers. ONE DEFECT: at 0770D the plate sets 'Vastitas e s' at the end of the line, with a clear space between e and s, 'gehenna' beginning the next line (native crop 1550,2755,340,70 rendered at 1360px). Our twin fuses it to 'es'. A [sic: *es*] is fired on the twin's form (verify-english checks the marker against the twin) and the sense is rendered beside it; the spacing is filed as a pending TEI patch, after which the marker should carry the whole run 'e s'."
+    },
+    {
+     "from": "0771A",
+     "to": "0772A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f386",
+     "source": "Gallica IIIF ark:/12148/bpt6k5505319w, f = (column + 1) / 2; printed corner numbers read FIRST on every leaf before any text on it (f381=761/762, f382=763/764, f383=765/766, f384=767/768, f385=769/770, f386=771/772). Whole page at 1400px width, then native-resolution crops of ONE column at a time (no crop crosses the gutter).",
+     "found": "Corners 771/772 confirmed. CHECKED ZERO at the foot, both apparatus layers. Plate confirms 0771A 'ecclesiae moribus et linguas distantes' (accusative linguas beside ablative moribus; native crop 150,630,760,70) -- Migne's own reading, crux only, no marker. Plate confirms the unclosed guillemet at 0771D ('« Ingredieris in abundantia sepulcrum.' opens, never closes; the next closing » belongs to '« Sicut infertur acervus tritici. »') -- the book's known class, no marker."
+    },
+    {
+     "from": "0781A",
+     "to": "0781A",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f391",
+     "source": "Gallica f391, native-resolution crop of the LEFT column only (150,250,900,1000).",
+     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 2 of 3, and the OPPOSITE direction: 'VERS. 4. -- « Quis restitit ei et pacem habuit.' opens and never closes on the plate, the gloss running straight on, exactly as our TEI has it. VERS. 1 and VERS. 3 on the same page are normally delimited."
+    },
+    {
+     "from": "0785A",
+     "to": "0786D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f393",
+     "source": "Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2. CALIBRATED ON THIS LEAF: printed corner numbers read FIRST and read 785 (left) / 786 (right), confirming the map. Whole page at /full/1400,/0/native.jpg, then native-resolution crops of one column at a time (no gutter crossed): left col (100,1720,820,220), right col (1000,1690,870,120).",
+     "found": "Collated word by word against our TEI; no divergence found. CHECKED ZERO at the foot of the page, BOTH apparatus layers (no numbered Forte notes, no asterisk/letter-keyed notes). Positive confirmations: 0786C prints « Pelle et carnalibus. » at native resolution (clean type, no broken sort), so the divergence from Clementine Job 10:11 carnibus is MIGNE'S; 0785C prints « Nunquid bonum. »; 0786A prints the mid-sentence '?' in 'quae est per spiritum ? est infirmitas per carnem' that our TEI carries. CANDIDATE CONSIDERED AND REJECTED: at 0785C the glyph after 'negatio' in 'negationem exigit' is a worn/over-inked sort on the Gallica copy and reads ambiguously; our TEI has the correct 'negationem', so no [sic:] is possible (the marker must wrap type verbatim in the twin) and none is fired. Recorded as an inking artifact of this copy, not a claim about Migne's type."
+    },
+    {
+     "from": "0787A",
+     "to": "0788D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f394",
+     "source": "Gallica f394, whole page at 1400px; printed corner numbers read FIRST and read 787 / 788.",
+     "found": "CHECKED ZERO at the foot, both apparatus layers. MIGNE'S OWN UNBALANCED GUILLEMET, a FOURTH site for this book and the same class as 0767B/0781A/0819C: 0787A prints 'VERS. 16. — Propter superbiam. »' with NO opening guillemet and a closing one, exactly as our TEI has it, with VERS. 17 and VERS. 19 immediately below normally delimited. No [sic:], no [cj:], no patch. Also confirmed as Migne's: 0788A « Et intelligeres quod multa minora. » (multa, against Clementine Job 11:6 multo); 0788C « Si iniquitates. » (plural, against Clementine Job 11:14 iniquitatem); 0788B '« Longior terra. » Quia modum creaturae perennitate aeternitatis excedit' ends with NO terminal stop, as our TEI has it (Pattern 8, nothing supplied); 0787A 'vel, qui concepti non viderunt lumen' (lumen, against Clementine Job 3:16 lucem)."
+    },
+    {
+     "from": "0789A",
+     "to": "0790D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f395",
+     "source": "Gallica f395, whole page at 1400px; printed corner numbers read FIRST and read 789 / 790.",
+     "found": "CHECKED ZERO at the foot, both apparatus layers, and a CHECKED ZERO for text divergence: every line of cols 0789C-0790D collated against our TEI with no difference found. 0790C 'septiformem gratiam retulit' ends with no terminal stop on the plate, as our TEI has it."
+    },
+    {
+     "from": "0791A",
+     "to": "0792D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f396",
+     "source": "Gallica f396, whole page at 1400px plus native-resolution crops of the LEFT column only (100,2490,820,110) and the RIGHT column only (1000,690,880,180); printed corner numbers read FIRST and read 791 / 792.",
+     "found": "CHECKED ZERO at the foot, both apparatus layers. Three divergences from the Clementine confirmed AT NATIVE RESOLUTION as Migne's own setting, clean type in every case: 0791D « Secundum scientiam veram. » (veram, against Clementine Job 13:2 vestram — and the Gloss's own exposition reads 'secundum eorum scientiam', so the sense turns on it; this licenses the one [var:] fired in this stint); 0792A « Prius vos ostendam, » and 'prius vos ostendam fabricatores' (ostendam twice, against Clementine Job 13:4 ostendens); 0792A « Audite ergo correctionem meam. » with 'correctionem' twice more in the gloss below it (against Clementine Job 13:6 correptionem)."
+    },
+    {
+     "from": "0793A",
+     "to": "0794D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f397",
+     "source": "Gallica f397, whole page at 1400px; printed corner numbers read FIRST and read 793 / 794.",
+     "found": "CHECKED ZERO at the foot, both apparatus layers. MIGNE'S OWN UNBALANCED GUILLEMET, a FIFTH site for this book: 0793C prints 'Aut certe loquar. »' as its own indented paragraph with NO opening guillemet, between « Voca me et ego respondebo tibi. » above and VERS. 23 below, both normally delimited. Exactly as our TEI has it; no marker, no patch. Also confirmed: 0793C 'VERS. 23.' and 0794B 'VERS. 28.' print without the '--' that the other verse addresses on the page carry."
+    },
+    {
+     "from": "0795A",
+     "to": "0796D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f398",
+     "source": "Gallica f398, whole page at 1400px; printed corner numbers read FIRST and read 795 / 796.",
+     "found": "CHECKED ZERO at the foot, both apparatus layers. Confirmed as Migne's, all clean type: 0795B « Et in pulvere truncus emoritur, » (against Clementine Job 14:8 'et in pulvere emortuus fuerit truncus illius'); 0795C « ubi ergo est, » (ergo, against Clementine Job 14:10 quaeso); 0796C « Attamen caro ejus dum vivit dolebit. » (vivit, against Clementine Job 14:22 vivet). Also 0795A 'et bona aeternae quietis ostende' and 'pro recompensatione sui laboris accipit' and 0794D 'et quem feriat videre' all end with NO terminal stop on the plate, as our TEI has them."
+    },
+    {
+     "from": "0799A",
+     "to": "0800D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f400",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST on both spot-check pages -- f374 gives 747/748 and f400 gives 799/800, confirming f = (column + 1) / 2 at two points 26 leaves apart. Whole page at 1400px width plus a native-resolution foot crop.",
+     "found": "CHECKED ZERO at the foot, both layers. Interior page. Foot of col 800 shows a normally-delimited lemma (VERS. 11. -- « Aperuerunt super me ora, » etc.), the control for the unbalanced-guillemet reads below."
+    },
+    {
+     "from": "0819A",
+     "to": "0820D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f410",
+     "source": "Gallica ark:/12148/bpt6k5505319w, f = (column + 1) / 2, calibrated by reading the PRINTED CORNER NUMBERS FIRST on the leaf itself: this leaf prints 819 (left) and 820 (right), which is the map. Whole page at /full/1400,/0/native.jpg for running text; columns never crossed.",
+     "found": "Cols 0820C-0820D (my range's head, CAPUT XXIV opening through VERS. 5) collated word by word against our TEI: NO divergence, no defect, no marker. Guillemets on both lemma sets normally delimited. FOOT OF PAGE: checked zero, both apparatus layers (no numbered Forte notes, no asterisk- or letter-keyed notes). This leaf was already recorded as depth 'read' for the 0819C guillemet question; this entry adds the running-text collation of the 820 band."
+    },
+    {
+     "from": "0819C",
+     "to": "0819C",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f410",
+     "source": "Gallica f410, native-resolution crop of the LEFT column only (150,900,900,1000).",
+     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 3 of 3: 'VERS. 5. -- Ut sciam verba quae, » etc.' prints with no opening guillemet, between VERS. 4 and VERS. 6 which both carry theirs. 26 leaves from site 1, in a different chunk and a different quire."
+    },
+    {
+     "from": "0821A",
+     "to": "0822D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f411",
+     "source": "Gallica f411, corner numbers read first (821 left / 822 right). Whole page at 1400px for collation; native-resolution crops of ONE column at a time for the two candidates (right col 950,395,950,105; left col 150,1795,830,110). Native page 1916x3132.",
+     "found": "TWO FINDINGS AND ONE CHECKED ZERO AT THE FOOT. (1) 0822A: Migne prints 'ita hae-|ritici, cum fidelem animam' - NATIVE CROP CONFIRMS 'ritici', so the printed word is *haeritici*, a non-word for haeretici. The line break splits hae|ritici, so the break is NOT the source of the error (a break would give hae-retici); and 'de haereti-cis' prints correctly THREE LINES ABOVE on the same column. Fired [sic: *haeritici*]. (2) 0821C: Migne prints 'De civitatibus fecerunt vi geme-|re.' - NATIVE CROP CONFIRMS a clean, normally spaced 'vi', against the Clementine's 'viros' at Job 24:12. Fired [var:]. (3) 0821C also confirms the stray closing guillemet after 'in eorum actibus quasi in meridie quiescunt. »' - Migne's own, the unopened class, NOT marked. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+     "from": "0823A",
+     "to": "0824D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f412",
+     "source": "Gallica f412, corner numbers read first (823 left / 824 right). Whole page at 1400px, columns read separately.",
+     "found": "Cols 0823A-0824D collated word by word: no divergence between the plate and our TEI, no defect, NO MARKER. Confirmed as Migne's and carried as printed: the '?' closing the indirect question at 0823C ('quando careat, nescit?'), the '!' at 0823D ('quanto magis homo putredo!'), the [n: (Ibid.)] standing BEFORE the lemma at 0824A, the double negative 'non possumus non' at 0824B, and the absence of VERS. 2 between VERS. 1 and VERS. 3 at 0824A-B. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+     "from": "0825A",
+     "to": "0826D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f413",
+     "source": "Gallica f413, corner numbers read first (825 left / 826 right). Whole page at 1400px; native-resolution crop of the LEFT column only (150,215,830,100) for the candidate.",
+     "found": "ONE FINDING. 0825A: Migne prints 'qui modo non plene possunt congnosci; vel' - NATIVE CROP CONFIRMS *congnosci*, MID-LINE, clean type, nowhere near a line or column break; a non-word for cognosci, which prints correctly at 0822A in this same work. Fired [sic: *congnosci*]. ALSO CONFIRMED, no marker: 0826A 'VERS. 7. -- « Sicut impius inimicus meus.' opens a guillemet and never closes it on the plate, exactly as our TEI has it - the standing unclosed class, site 4 or 5 for this book. 0826C prints 'VERS. 17 --' with no period after the numeral, as our TEI has it. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+     "from": "0827A",
+     "to": "0828D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f414",
+     "source": "Gallica f414, corner numbers read first (827 left / 828 right). Whole page at 1400px; native crops of one column at a time (left 150,1490,830,180; right 1000,2090,870,110). Native page 1872x3100.",
+     "found": "TWO FINDINGS. (1) 0827C: Migne prints 'Hoc loco haeritici, etc.,' - NATIVE CROP CONFIRMS *haeritici*, MID-LINE, no break anywhere near it, while 'haeretici de justitia gloriari' prints correctly THREE LINES BELOW in the same column. Second site of the same defect (see f411 @0822A). Fired [sic: *haeritici*]. (2) 0828D: the plate prints 'VERS. 14. « Abyssus dicit. »' with NO '--' after the numeral, where our TEI has 'VERS. 14.-- «'. NATIVE CROP CONFIRMS. This is a divergence on OUR side, not Migne's: no marker, English follows the plate, TEI patch proposed. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+     "from": "0829A",
+     "to": "0830D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f415",
+     "source": "Gallica f415, corner numbers read first (829 left / 830 right). Whole page at 1400px; native crop of the RIGHT column only (1000,2760,880,90). Native page 1905x3129.",
+     "found": "ONE FINDING, on our side. 0830D: the plate prints 'usque ad quod et Job fecit.' WITH a terminal full stop - NATIVE CROP CONFIRMS - where our TEI drops it. English carries the stop, TEI patch proposed; no marker and no Pattern 8 crux, because the missing mark is ours and not Migne's. ALSO CONFIRMED, no marker: 0829A-B '« Et nescis unde veniat aut quo [0829B] vadat. »' spans the column break exactly as our TEI has it; 0829B '*(GREG. in Job, l. XIX.)*' is set in italic in the running text, not as a note, as our TEI has it; 0830D 'in circumitu' (against 'in circuitu' in its own lemma four words earlier) is Migne's. FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+     "from": "0831A",
+     "to": "0832D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f416",
+     "source": "Gallica f416, corner numbers read first (831 left / 832 right). Whole page at 1400px; native crops of the RIGHT column only (1000,1000,880,90 and 1300,2580,580,70). Native page 1903x3123.",
+     "found": "TWO FINDINGS, BOTH ON OUR SIDE, AND THE SECOND WOULD HAVE BEEN A FALSE ACCUSATION. (1) 0832B: the plate prints 'VERS. 20. « Gloria mea semper innovabitur. »' with NO '--' after the numeral, where our TEI has 'VERS. 20.--'. NATIVE CROP CONFIRMS. Second instance of the same class as 0828D. (2) 0832D: the plate prints 'et cum venit, primus sedet : quia et adventus ejus' with a COLON - NATIVE CROP CONFIRMS - where our TEI reads 'primus sedet. quia', a full stop followed by a lower-case word. Read from our file alone that is a textbook Pattern 8 site ('a sentence Migne breaks with a full stop and does not capitalise'); it is Corpus Corporum's, not Migne's. No marker, English follows the plate, TEI patch proposed. ALSO CONFIRMED as Migne's and carried: 0831A 'nullus pressus terroribus', 0831D 'cogitatio mentis aperitur' with NO terminal stop at 0832A, and the raised dot the plate sets between 'fulciuntur' and 'senes' at 0831A which our TEI does not carry (not marked - a point of punctuation on a photograph is not enough to accuse either side). FOOT OF PAGE: checked zero, both layers."
+    },
+    {
+     "from": "0833A",
+     "to": "0833A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f417",
+     "source": "Gallica f417, corner numbers read first (833 left / 834 right). Whole page at 1400px, left column only for my range's tail.",
+     "found": "Col 0833A (the eight lines of my range's tail, ending 'virga districtionis, et manna dulcedinis.') collated word by word against our TEI: NO divergence, no defect, no marker. FOOT OF PAGE: checked zero, both layers. Cols 0833B-0834D belong to the next stint and were not collated."
+    }
+   ]
+  },
   "8959": {
    "series": "pl",
    "volume": 113,
@@ -8238,60 +8769,6 @@
      "page": 305,
      "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
-    }
-   ]
-  },
-  "8957": {
-   "series": "pl",
-   "volume": 113,
-   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
-   "page_map": "Gallica leaf f = (column + 1) / 2",
-   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these reads; no single letter was at stake.",
-   "reads": [
-    {
-     "from": "747A",
-     "to": "748D",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f374",
-     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST on both spot-check pages -- f374 gives 747/748 and f400 gives 799/800, confirming f = (column + 1) / 2 at two points 26 leaves apart. Whole page at 1400px width plus a native-resolution foot crop (0,2600,1919,529).",
-     "found": "CHECKED ZERO at the foot, both layers. Work-division page. No Hebrew/Greek book-title line under the LIBER JOB banner. Col 748D collated in passing against our chunk 0000: Migne's guillemet lemmata print as our TEI has them (« Elegit suspendium anima mea (Ibid. VII), »)."
-    },
-    {
-     "from": "799A",
-     "to": "800D",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f400",
-     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST on both spot-check pages -- f374 gives 747/748 and f400 gives 799/800, confirming f = (column + 1) / 2 at two points 26 leaves apart. Whole page at 1400px width plus a native-resolution foot crop.",
-     "found": "CHECKED ZERO at the foot, both layers. Interior page. Foot of col 800 shows a normally-delimited lemma (VERS. 11. -- « Aperuerunt super me ora, » etc.), the control for the unbalanced-guillemet reads below."
-    },
-    {
-     "from": "767A",
-     "to": "767B",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f384",
-     "source": "Gallica f384, native-resolution crop of the LEFT column only (150,250,900,900) -- no gutter crossed.",
-     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 1 of 3. The plate prints 'VERS. 20. -- De mane usque ad vesperam. »' with NO opening guillemet and a closing one, exactly as our TEI has it. The lemmata immediately above and below on the same page are normally delimited. Our text is faithful; nothing to patch."
-    },
-    {
-     "from": "781A",
-     "to": "781A",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f391",
-     "source": "Gallica f391, native-resolution crop of the LEFT column only (150,250,900,1000).",
-     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 2 of 3, and the OPPOSITE direction: 'VERS. 4. -- « Quis restitit ei et pacem habuit.' opens and never closes on the plate, the gloss running straight on, exactly as our TEI has it. VERS. 1 and VERS. 3 on the same page are normally delimited."
-    },
-    {
-     "from": "819C",
-     "to": "819C",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f410",
-     "source": "Gallica f410, native-resolution crop of the LEFT column only (150,900,900,1000).",
-     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 3 of 3: 'VERS. 5. -- Ut sciam verba quae, » etc.' prints with no opening guillemet, between VERS. 4 and VERS. 6 which both carry theirs. 26 leaves from site 1, in a different chunk and a different quire."
     }
    ]
   }

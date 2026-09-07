@@ -1,0 +1,102 @@
+{
+  "patches": [
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0758A",
+      "find": "insipientiam conjugis arguendo\ndocens: et sic victus",
+      "replace": "insipientiam conjugis arguendo\ndocens . et sic victus",
+      "why": "OUR punctuation, not Migne's. Gallica f379 (printed corners 757/758 read FIRST), right column, native crop: a single low dot seated on the baseline with space either side. Migne's colons on the same column (dicit :, Unde :) show two clearly separated dots at this resolution. Corpus Corporum set a colon. Punctuation only; no word of Migne moves; the English already renders the plate. Paired with 0832D below: this book gives TWO instances of CC substituting for Migne's own point, in OPPOSITE directions, so his practice cannot be inferred from our Latin -- which is why every Pattern 8 finding in this work must rest on a plate read."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0764A",
+      "find": "vel prava dicere, vel bel bona\nquae dicunt non tenere",
+      "replace": "vel prava dicere, vel bona\nquae dicunt non tenere",
+      "why": "OUR corruption. The twin carries an intrusive non-word 'bel' the plate does not set (Gallica f382, corners read first, native crop 990,760,890,220). The English renders the plate and NO marker was fired: a [d:] or [sic:] here would have accused Migne of a doubling he never printed. First of four withdrawn false accusations in this work."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0770D",
+      "find": "Vastitas es\ngehenna",
+      "replace": "Vastitas e s\ngehenna",
+      "why": "WORD DIVISION, MIGNE'S OWN. The plate sets 'Vastitas e s gehenna' with a space between e and s, MID-LINE -- the line breaks after s, before gehenna, so the break is not the explanation (Gallica f385, native crop 1550,2755,340,70). Our twin fused it. The English carries [sic: *e s*] for the whole broken run per Pattern 10; it read [sic: *es*] against the fused twin before this patch and was updated in the same pass. The counter-case to the Pereat and in-/ferat withdrawals: a spaced run that IS the plate's."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0773C",
+      "find": "consolatio ut affligens. » ] <note>",
+      "replace": "consolatio ut affligens. » <note>",
+      "why": "OUR markup noise. A stray ] stands alone after the closing guillemet; it is not one of Migne's bracketed variants and nothing on the leaf carries its opening mate (Gallica f387, corners 773/774 read first). The plate prints no bracket and the English carries none."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0798B",
+      "find": "molitur mala quae in\nferat",
+      "replace": "molitur mala quae inferat",
+      "why": "OUR word division -- ONE word, inferat. Migne sets 'mala quae in-' at a line end WITH the compositor's hyphen and 'ferat,' at the head of the next. Confirmed on BOTH witnesses (Gallica f399 native crop 1000,1080,880,220; archive patrologiaecurs04migngoog p.404, corners 797/798 read). From our file alone this is a textbook Pattern 10 split run and would have taken a [sic: *in ferat*] against type Migne set correctly. The hyphen-at-a-break class of CLAUDE.md; invisible without the plate."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0812C",
+      "find": "sed cetat in gutture",
+      "replace": "sed celat in gutture",
+      "why": "OURS. Gallica f406 native crop 1000,1540,880,200: a clear l with ascender, mid-line, no line or column break near it. 'cetat' is not a word; 'celat' is what the clause needs (ut nunquam proferat in voce). One of four [sic:] candidates in this range the plate withdrew -- that stint went 0-for-4 on its own confidence."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0813C",
+      "find": "praevidere comtempsit",
+      "replace": "praevidere contempsit",
+      "why": "OURS. Gallica f407 native crop 140,1700,860,160."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0815B",
+      "find": "eadem sevientibus deesse",
+      "replace": "eadem servientibus deesse",
+      "why": "OURS, and the one that mattered most in its range: the plate's reading restores the servientibus/servire play the very next clause turns on (ipsi servire contemnunt), which our reading destroyed. Gallica f408 native crop 140,1490,880,160. A [sic:] here would have printed a defect marker over Migne's own wordplay."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0817C",
+      "find": "pro peccatis dicunt retribui er?",
+      "replace": "pro peccatis dicunt retribui ei?",
+      "why": "OURS. Gallica f409 native crop 140,1630,880,180: the second character is a plain vertical stroke with NO r-shoulder; the i is worn or dotless. Recorded by the stint as 'reads ei, type worn' rather than as a clean ei -- the letter is damaged on the plate but is certainly not an r."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0828C",
+      "find": "VERS. 14.-- « Abyssus dicit. »",
+      "replace": "VERS. 14. « Abyssus dicit. »",
+      "why": "OUR regularisation of Migne's own inconsistency. The plate prints the numeral, a full stop, then the guillemet directly -- no em-rule -- while VERS. 13. and VERS. 15. on the same column both carry the rule (Gallica f414, right column, native crop 1000,2090,870,110). The English already reads 'VERS. 14. « The deep saith. »'."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0832B",
+      "find": "VERS. 20.-- « Gloria mea semper innovabitur. »",
+      "replace": "VERS. 20. « Gloria mea semper innovabitur. »",
+      "why": "Second site of the 0828D class (Gallica f416, right column, native crop 1000,1000,880,90). The transcription is inconsistent about this separator in BOTH directions -- a peer recorded our TEI already lacking the rule where the plate lacks it -- so Migne's practice cannot be inferred from our Latin. A volume-wide check of the VERS. n. addresses against the plates would settle it; it changes no word and is not urgent."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0830D",
+      "find": "usque ad</hi> quod et Job fecit</p>",
+      "replace": "usque ad</hi> quod et Job fecit.</p>",
+      "why": "OURS, and it matters beyond the mark. Our TEI drops a terminal full stop the plate prints (Gallica f415, right column, native crop 1000,2760,880,90). Pattern 8 makes a MISSING terminal stop a reportable fact about Migne's page, and this book genuinely has such sites -- a peer logged five. Left unpatched, our Latin manufactures a sixth Migne did not set."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0832D",
+      "find": "primus sedet.\nquia et adventus",
+      "replace": "primus sedet :\nquia et adventus",
+      "why": "OURS, and the reason the plate gate exists. The plate prints a colon (Gallica f416, right column, native crop 1300,2580,580,70). Read from our file alone, 'sedet. quia' is a perfect Pattern 8 specimen -- a sentence Migne breaks with a full stop and resumes in lower case. With 0758A it makes a CLASS: Corpus Corporum substituting for Migne's own point in this book, in both directions."
+    },
+    {
+      "work": "8957 Glossa ordinaria, Liber Job (PL 113)",
+      "col": "0840D",
+      "find": "Moralium in Job. lib.",
+      "replace": "Moralium in Job, lib.",
+      "why": "OURS. Gallica f420 (corners 839/840 read first), right column, native crops 1000,2590,890,180 and 1000,2700,890,110: the comma is unambiguous at native resolution, and 1400px is exactly where a period and a comma stop being distinguishable. Inside the work's closing editorial note, which the English carries as [nt:] under pattern 15 with the plate's comma."
+    }
+  ]
+}

@@ -30,12 +30,24 @@ Following the 0005–0009 stint's conventions except where noted; nothing here d
 - `*usque ad*` → **as far as**, in italics. Where the abridgment formula is broken by a column
   anchor (0788A, `*usque [0788B] ad*`) the anchor stays inside the italic run in the English too:
   `*as far [0788B] as*`.
-- **This is a guillemet book and the lemmata stay in Latin, verbatim, inside `« »`** — including
-  second lemmata re-quoted mid-gloss (« et eris stabilis, », « qui immutat cor, », « ubi ergo est, »,
-  « verum esse ») and the Gloss's own guilleted paraphrase (0788B « Quis contradicet ei? vel, quis
-  ei dicere potest cur ita facias? »). Guillemets reproduced 1:1, spacing included; the
-  `VERS. n.-- ` address kept exactly as printed, including 0793C `VERS. 23. «` and 0794B
+- **This is a guillemet book and the words inside `« »` are TRANSLATED**, following 8950 Genesis
+  and the majority of this work's shipped chunks (0013 among them). The marks themselves are
+  reproduced 1:1 with the Latin twin, spacing included — translating a lemma is a substitution
+  *inside* the existing marks, never a change to them. This covers second lemmata re-quoted
+  mid-gloss (« and thou shalt be steadfast, », « who changeth the heart, », « where then is he, »,
+  « true being ») and the Gloss's own guilleted paraphrase at 0788B (« Who shall contradict him?
+  or, who can say to him why thou doest thus? »), whose second half is not scripture at all.
+  The `VERS. n.-- ` address is kept exactly as printed, including 0793C `VERS. 23. «` and 0794B
   `VERS. 28. «`, which the plate sets without the `--`.
+  ⚠ **An earlier draft of these five chunks left the lemmata untranslated.** That was wrong for
+  this corpus and has been repaired; the guillemet counts (41/42 · 31/31 · 36/36 · 43/44 · 42/42)
+  are unchanged by the repair, which is the check that proves no mark moved.
+- **Truncated lemmata are rendered as the fragments they are, never completed** (Pattern 8's
+  "never supply", at phrase scale). Where Migne cuts before the governing verb the English cuts
+  with him: « Doth he who many things. » (0787C) · « A vain man unto pride. » (0788C) ·
+  « And when thee consumed. » (0789A, twice) · « He himself shall reprove you, because. » (0792B) ·
+  « Thinkest thou that a dead man again. » (0795D). These read abruptly because the plate is
+  abrupt; the full verse is one click away in the Latin column.
 - `flagellum/flagella` → **scourge(s)** · `percussio` → **stroke** · `elatio` → **elation** ·
   `tumor` → **swelling** · `reprobi` → **the reprobate** · `electi` → **the elect** ·
   `praedicatio` → **preaching** · `praedicator` → **preacher** · `solidatur/solidetur` →
@@ -64,7 +76,8 @@ below is plate-confirmed**; the marks in the brief ordered the work but decided 
    Migne prints *veram*.** The divergence is material and the exposition proves it: the gloss two
    lines later reads *et secundum eorum scientiam se nosse confirmat* — "according to **their**
    knowledge" — which is *vestram*, not *veram*. So the page's own argument rests on a word the
-   lemma no longer carries. Rendered as printed and marked
+   lemma no longer carries. **Rendered as printed — « According to true knowledge. », never "your
+   knowledge" —** and marked
    `[var: Vulg. Job 13:2 *vestram*, "according to your knowledge"]`. Pattern 18a routes a
    divergence inside quoted scripture to Pattern 14, never to `[cj:]`. **The only marker fired in
    this stint.**
@@ -75,8 +88,9 @@ below is plate-confirmed**; the marks in the brief ordered the work but decided 
    **Plate-confirmed at native resolution (f393 right column).** *carnalibus* for *carnibus* is a
    real lexical divergence, and unlike (1) it is **internally consistent**: the gloss expounds it
    at once as *carnalium motuum obsidione mens vallatur*. The sense is not turned against the
-   author, so no `[var:]`; the English renders the lemma's Latin verbatim, as this book's lemmata
-   all are, and the divergence lives here.
+   author, so no `[var:]` — but **the English must not read "flesh"**: the lemma is rendered
+   « With skin and carnal things. », which is what Migne printed, and the gloss's "carnal motions"
+   then follows from it on the page.
 3. **0788A** `« Et intelligeres quod multa minora. »` ‖ Clem Job 11:6 `quod multo minora exigaris`.
    Plate-confirmed f394. *multa* for *multo*, one letter and both sound Latin; the gloss is
    abridged past the point where it would decide. No marker.
@@ -100,9 +114,10 @@ below is plate-confirmed**; the marks in the brief ordered the work but decided 
 7. **0795B** `« Et in pulvere truncus emoritur, »` ‖ Clem Job 14:8 `et in pulvere emortuus fuerit
    truncus illius`. Plate-confirmed f398. Different verb form and word order, same sense.
 8. **0795C** `« ubi ergo est, »` ‖ Clem Job 14:10 `ubi, quaeso, est?`. Plate-confirmed f398.
-   *ergo* for *quaeso*. The gloss weaves the lemma into its own sentence, and the guilleted
-   `« verum esse »` beside it is **the Gloss's own phrase, not scripture** — it does not stand in
-   Job 14 at all (the brief's ✓ points at Dt 17:4, a different book).
+   *ergo* for *quaeso*; rendered « where then is he, », never "where, I beseech thee". The gloss
+   weaves the lemma into its own sentence, and the guilleted `« verum esse »` beside it
+   (« true being ») is **the Gloss's own phrase, not scripture** — it does not stand in Job 14 at
+   all (the brief's ✓ points at Dt 17:4, a different book).
 9. **0796C** `« Attamen caro ejus dum vivit dolebit. »` ‖ Clem Job 14:22 `dum vivet`.
    Plate-confirmed f398. Present for future; the gloss uses the present (*qui spiritualiter
    vivunt*). No marker.
@@ -114,6 +129,29 @@ below is plate-confirmed**; the marks in the brief ordered the work but decided 
     ‖ Clem Mt 13:55 `Nonne hic est fabri filius?`. Plate-confirmed f396. Word order only.
 12. **0792C** `« Sola vexatio intellectum dabit auditui [n: (Isa. XXVIII)]: »` ‖ Clem Is 28:19
     `et tantummodo sola vexatio intellectum dabit auditui` — agrees, abridged at the head.
+
+### ⭐ Where each divergence lands in the English — the checkable form of the list above
+
+Now that the lemmata are translated, every entry above has a *word on the page* that a reader can
+check, and each one must be Migne's word and not the Vulgate's. This table is what a later sweep
+should read; if any right-hand cell ever drifts to the parenthesised reading, a lemma has been
+silently conformed and 7a″ has been broken.
+
+| col | Migne | the English carries | NOT (the conventional reading) |
+|---|---|---|---|
+| 0786C | *carnalibus* | « With skin and **carnal things**. » | ~~and flesh~~ |
+| 0788A | *multa minora* | « that **many lesser** things » | ~~much less~~ |
+| 0788C | *iniquitates* | « If **iniquities**. » | ~~If iniquity~~ |
+| 0791D | *veram* | « According to **true** knowledge. » + `[var:]` | ~~your knowledge~~ |
+| 0792A | *ostendam* ×2 | « First **I will show** you, » · « first **I will show** you to be framers; » | ~~showing you first~~ |
+| 0792A | *correctionem* | « Hear therefore my **correction**. » | ~~my reproof~~ |
+| 0795B | *truncus emoritur* | « And in the dust **the trunk dieth**, » | ~~the trunk shall have died~~ |
+| 0795C | *ergo* | « **where then** is he, » | ~~where, I beseech thee~~ |
+| 0796C | *dum vivit* | « while he **liveth** » | ~~while he shall live~~ |
+| 0787A | *lumen* (unmarked prose) | "did not see the **light**" | — (both words are "light"; no English exponent) |
+| 0791C | *filius fabri* | « the **son of the carpenter** » | ~~the carpenter's son~~ |
+| 0787A | *Propter superbiam* (unopened) | Because of pride. » | — |
+| 0793C | *Aut certe loquar* (unopened) | Or else I will speak. » | — |
 
 ### Truncations, orthography and re-ordered lemmata — recorded, all innocent
 

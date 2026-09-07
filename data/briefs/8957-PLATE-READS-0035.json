@@ -1,0 +1,64 @@
+{
+  "stint": "8957 chunks 0035-0037 (cols 0833A-0840D) — the closing stint of the work",
+  "agent": "translation stint 0035",
+  "works": {
+    "8957": {
+      "reads": [
+        {
+          "from": "0833",
+          "to": "0834",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f417",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 833/834 read FIRST and confirmed (f=(833+1)/2=417); running head 'GLOSSA ORDINARIA. -- LIB. JOB.'. Whole leaf collated word by word against our TEI. (1) ⭐ 0833B: the plate sets a SECOND, interior opening guillemet where our TEI has none — `« Qui rodebant in solitudine, « etc. Hæretici qui ab universalis…` — confirmed at native resolution (crop 150,1230,830,120 and 150,1255,560,45) and distinguished from a closing mark by direct comparison with the closing » on the `Quocum virtus manuum erat. »` line (crop 150,795,700,60): both marks on the Qui-rodebant line point the same way. This is the book's known interior/unbalanced-guillemet class; NO [sic:], NO [cj:], NO TEI patch, per the standing rule. (2) 0834B `« Et frenum posuit in os me. »` confirmed at native resolution (crop 1000,1055,870,55): clean type, no broken sort, Migne prints `me`, not `meum`. (3) The doubled `usque ad usque ad mala descendit` at 0833D is on the plate exactly as our TEI has it — the abridgment formula followed by a resumption that itself begins `usque ad`; not a dittography. (4) The D column-mark stands beside `sunt` mid-paragraph, our TEI places [0833D] after the lemma — positional quarter-guide, known false-positive class 1. FOOT: checked ZERO, both apparatus layers (no numbered Forte notes, no asterisk- or letter-keyed notes)."
+        },
+        {
+          "from": "0835",
+          "to": "0836",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f418",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 835/836 read FIRST and confirmed; running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'. Whole leaf collated word by word; our TEI is a faithful witness throughout, no divergence found. Two negation-critical sites checked at native resolution: 0835C `In Deo nec crudelitas nec mutabilitas venit` (crop 150,2085,880,80) — both negatives present on the plate; and 0836D `« Quam enim partem haberet Deus in me desuper. »` (crop 1000,2410,880,75) — Migne's word order is `haberet Deus in me desuper`, clean type. `Exspectabam`/`exstinguere` are Pattern 9 spellings, checked and declined. FOOT: checked ZERO, both apparatus layers."
+        },
+        {
+          "from": "0837",
+          "to": "0838",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f419",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 837/838 read FIRST and confirmed; running head 'GLOSSA ORDINARIA. -- LIB. JOB.'. Whole leaf collated word by word. TWO findings, both plate-verified at native resolution. (1) ⛔ 0838A `VERS. 23.-- « Semper enim quasi tu mentes. »` — `tu mentes` is set as TWO WORDS, MID-LINE, with ordinary word spacing, NOT at a line or column break (the line runs on to the closing » and a comma). Native crop 1000,595,880,90. It is *tumentes* split: the gloss's own next line sets `tumentes` as one word (`Fluctus, cum tumentes desuper imminent`) and the Clementine has Job 31:23 `quasi tumentes … fluctus`. Pattern 10 split run, Pattern 12 marker fired as [sic: *tu mentes*] — the run has no grammatical slot ('thou minds') and cannot render in place. Our TEI carries it identically, so the defect is Migne's, not ours. (2) 0837A `Ideo dicit : « Si ambis. »` confirmed at native resolution (crop 150,365,880,60): clean type, `ambis` and not `ambulavi`; a real word in the wrong sense, so Pattern 12 declines it and it is recorded as an unmarked Vulgate divergence. (3) 0838C `« Et non est lætatum in abscondito cor meum. »` — the `non` is plainly on the plate at native resolution (crop 1000,1660,880,80), and Migne re-quotes the same clause WITHOUT it eight words later as VERS. 27 `« Et lætatum est, etc. »`. Carried as printed per 7a; [var:] fired. FOOT: checked ZERO, both apparatus layers."
+        },
+        {
+          "from": "0839",
+          "to": "0840",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f420",
+          "source": "Gallica ark:/12148/bpt6k5505319w (PL 113), IIIF; page map f = (column + 1) / 2, calibrated against the printed corner numbers on EVERY leaf opened, read before any body text",
+          "found": "Corners 839/840 read FIRST and confirmed; running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'. Whole leaf collated word by word; this is the last leaf of the work. (1) 0840A `VERS. 1.-- « Miserunt autem tres. »` confirmed at native resolution (crop 1000,760,880,60): the M is unambiguous and there is clear space between the guillemet and it — Migne prints `Miserunt`, not the Clementine's `Omiserunt`. No dropped or broken initial. (2) ⭐ THE WORK'S ENDING IS MIGNE'S OWN DECISION AND IS NOT A TRUNCATION. Under CAPUT XXXIII the plate prints, in italics inside parentheses and set as a note, an editorial statement that the exposition of chapters 33 and following, taken word for word from Gregory, is omitted compendii causa, with the reference `Vide Greg., Moralium in Job, lib. XXIII, cap. 7 et seq., Opp. tom. II.` Confirmed at native resolution (crops 1000,2590,890,180 and 1000,2700,890,110). It is editorial PROSE, so Pattern 15 applies: translated and re-marked [nt: …] at the same position. No [ed:] supplied, nothing reported as missing. (3) Also confirmed: the inline italic `Vide Greg. loc. cit. usque ad fin. cap.` closing VERS. 15 at 0840D. (4) ⛔ ONE TEI-SIDE DIVERGENCE: the plate reads `Moralium in Job, lib. XXIII` with a COMMA; our TEI prints a period, `in Job. lib. XXIII`. Ours, not Migne's — the class the peers found at 0758A. Patch filed; no marker. FOOT: checked ZERO, both apparatus layers."
+        },
+        {
+          "from": "0837",
+          "to": "0838",
+          "depth": "read",
+          "date": "2026-09-07",
+          "page": "archive n423 (cols 837/838)",
+          "source": "archive.org patrologiaecurs04migngoog, second witness; page map RE-CALIBRATED against the printed corner numbers on this quire: n424 = cols 839/840 and n423 = cols 837/838, i.e. page n = (column + 9) / 2, ONE LEAF off the (column + 11) / 2 map recorded for earlier stints",
+          "found": "Second witness opened for the ONE letter-level claim of this stint. `« Semper enim quasi tu mentes. »` prints with the same mid-line space on the 1-bit archive copy as on Gallica, with the same word spacing as its neighbours — so the [sic:] rests on two independent scans and not on the JBIG2 copy alone. Right corner 838 legible; left corner clipped, the known Gallica/archive margin asymmetry in reverse. Also confirms VERS. 21-22 above it word for word."
+        },
+        {
+          "from": "0839",
+          "to": "0840",
+          "depth": "read",
+          "date": "2026-09-07",
+          "page": "archive n424 (cols 839/840)",
+          "source": "archive.org patrologiaecurs04migngoog, second witness; page map RE-CALIBRATED against the printed corner numbers on this quire: n424 = cols 839/840 and n423 = cols 837/838, i.e. page n = (column + 9) / 2, ONE LEAF off the (column + 11) / 2 map recorded for earlier stints",
+          "found": "Opened to CALIBRATE the second witness before using it, and the calibration is a finding: n424 carries corners 839/840, so this copy's page map here is n = (column + 9) / 2, ONE LEAF off the (column + 11) / 2 map recorded for the earlier stints of this work. Anyone reaching for the archive copy in cols 833-840 should re-read the corner numbers rather than trust the stored offset."
+        }
+      ]
+    }
+  }
+}
