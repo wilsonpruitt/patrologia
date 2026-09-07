@@ -1,5 +1,70 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ START HERE 2026-09-07 — 8961 *LIBER LEVITICUS* PREPARED · PL 122 ERIUGENA QUEUED
+
+**Not shipped, not deployed.** Two commits, both local: `8e12410` (Eriugena) and `b13c47f`
+(Leviticus). Nothing went to migne.app this session, so `/queue` on the live site is one
+session stale and will refresh with the next deploy.
+
+### 1. THE NEXT GLOSSA IS READY TO TRANSLATE — 8961 Leviticus
+
+**30 chunks, 32,210 words, 332 column marks, 707 notes, every validator green.** Four Glossa
+books remain and this is the smallest: **Leviticus 29,882 · Isaiah 30,254 · Job 34,107 ·
+Exodus 43,440** (source words; the chunker counts 8961 at 32,210 after the patch). `/glossa`
+goes 54 → 55 of 58 when it ships.
+
+⭐ **The book-title line is recovered — 5th and last of the Pentateuch class.** Migne prints
+*Hebraice VAIICRA (ויקרא).* under the LIBER LEVITICUS banner; Corpus Corporum drops it.
+`data/tei-patches/8961.json`, `<head type="book-title">`, patch-audit green. Read on Gallica
+f148 with the corners checked first (295/296), Hebrew letter by letter right to left —
+vav-yod-**qof** (descender visible)-resh-aleph — with Migne's own printed transliteration
+VAIICRA as the on-plate control. **⬜ Only 8949 Exodus still owes this line** (plate p.97 /
+f92, *Hebraice VEELLE SEMOTH (ואלה שמות)… Græce ΕΞΟΔΟΣ…*).
+
+✅ **Plate spot check done and clean.** f148 (the work division, which falls mid-page, so the
+two-page case applies) and f168 (interior, Lev. XIII–XIV). Checked zero on **both** layers.
+Recorded as coverage `spot` + two `read`-depth entries in `data/plate-reads.json`. The 8963
+and 8945 zeros were **not** inherited.
+
+**Next move on it: translation stints per `translation-runbook.md`.** Nothing blocks them.
+
+### 2. PL 122 ERIUGENA IS IN THE QUEUE — 7 works, 73,315 words
+
+Gap map: **`data/briefs/PL122-ERIUGENA-GAP-MAP.md`** — read it before touching PL 122.
+Chunked and queued smallest-first: **9175** (182w) · **9178** (282) · **9181** (459) ·
+**21405** (4,907) · **9174** (4,239) · **9176** (20,650) · **9180** (44,167).
+
+The finding worth carrying: author triage says Eriugena is `mostly` translated, and that is
+true only because the *Periphyseon* is 55% of the tome by words and everybody has done it.
+**Underneath it, 69,474 words of Eriugena's own work have never been Englished at all** — the
+whole *Expositiones in Ierarchiam caelestem* (Rorem's PIMS book is a study with "major
+sections" appended, not a translation) and the *Commentarius in Ioannem*, read in French since
+Jeauneau's SC 180 and never in English. ⛔ **9177 *Periphyseon* (213,674w) is deliberately NOT
+queued** — well translated, in print, half the tome.
+
+⛔⛔ **TWO RULINGS OWED BEFORE ANY PL 122 WORK IS TRANSLATED:**
+
+1. **PL 122 has ONE archive.org witness (`patrologiaecurs113unkngoog`) and NO Gallica copy.**
+   Checked by SRU this session. **The one-request second-witness check that settled PL 113 and
+   PL 114 does not exist for this tome.** After the jbig2 finding (a single witness smears
+   toward *plausibility*, the dangerous direction), decide: calibrate one of the eight Google
+   Books copies as a second witness, or accept single-copy apparatus and say so on the page.
+   **Until this is settled, no PL 122 work may fire a `[sic:]`.**
+2. **The PL 122 column→page map is uncalibrated.** One page render, corners read first. All
+   seven works print ⬜ PLATE SPOT CHECK OWED and will keep printing it until this is done.
+
+⚑ **9176 is preserved as THREE fragments** (Cap. I,11–29 · III,1–IV,28 · VI,5–14) — the work
+page must say so; it is not a continuous commentary.
+⚑ **9181 opens with Floss's manuscript sigla list** (*Cod. ms. bibl. Univers. Lipsien. 188…*) —
+editorial front matter, belongs in a head, not the translated body.
+⚑ **21405 is spurious.** Byline must read **Ps.-Eriugena**.
+⚑ **9174's existing `workStatus: none` rests on the wrong evidence** — its triage note
+describes the PL 19/186 Optatian Porphyrius testimonia, not this one. Re-verify before badging.
+⛔ **No `workStatus` was written this session**, so nothing in PL 122 can claim
+**First English translation** today. That is the fail-safe working, not an oversight.
+
+---
+
 ## ▶▶▶▶▶ START HERE 2026-09-06 — 8963 *LIBER NUMERI* ✅ SHIPPED · ✅ PUSHED · ✅ DEPLOYED + SMOKE-TESTED
 
 **Corpus 160 englished works. `/glossa` 54 of 58.** Live at `migne.app/pl/113/liber-numeri/`,
