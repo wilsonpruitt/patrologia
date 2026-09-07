@@ -109,6 +109,87 @@ in **both** twins, because `verify-english` content-checks `[n: …]`.
 
 
 
+---
+
+## The blind polarity read — six readers, 2026-09-07
+
+Step 4a of the runbook, run **blind**: no reader saw this file until its findings were formed, because
+a reader given it first returns "all already logged" (measured, 2026-07-28). All thirty chunks were
+read against the Latin twin, paragraph by paragraph.
+
+**Result: 7 sites, 6 of them OURS.** Every one survived `verify-english`, the two-printing plate
+collation, the 90-marker Vulgate check and the cruces merge — because **not one of them is a missing
+negation.** Five are mis-bound grammar and two are words supplied or altered where the plate does
+not print them. `translation-style.md` 7a is written around dropped negations; this run says the
+richer seam in a lemma-and-gloss commentary is **agency**.
+
+### Corrected — ours
+
+| col | Migne prints | the English had | corrected to |
+|---|---|---|---|
+| 0310B | *nec confidendum est **ei** in orationibus* | "neither is **he to be trusted** in his prayers" | "neither ought **he to have confidence** in his prayers" |
+| 0326B | a bare lemma *Capita,*, then *Capita vestra,* eight lines later | "*Your heads,*" for **both** | "*Heads,*" / "*Your heads,*" |
+| 0346D | *sicut gentes … Israel, **qui** adeo **dissolutus** et **deditus*** | "**a people** so dissolute" (= the nations) | "— **Israel** being so dissolute" |
+| 0347A | ***Non** … videatur prohibere* | "**That it may not seem** to forbid" (construing *Ne*) | "**Let it not seem** to forbid" |
+| 0361A | *et **quicunque** Deo **consecrat*** (masc. sg.) | "**whatsoever things anyone** consecrates" | "**whosoever** consecrates" |
+| 0377D | *ille tamen offeret eum **qui ad poenitendum excitavit*** | "he shall offer **him who stirred him up**" | "**he who stirred him up** to repentance shall offer him" |
+
+⭐ **0310B and 0377D are one class, and it is the class to hunt next time.** A gerundive with dative
+of agent, and a postponed relative bound to the object instead of the subject. Both leave every
+negation in place, so nothing mechanical can see them. **0377D has three controls on its own plate** —
+the lemma it expounds (*dabit ille **qui voverat eum***), the clause after it (*huic enim obediet*),
+and the identical construction three sentences earlier at 0377C (*Ille enim … novit, **qui correxit***)
+which the same translator rendered correctly. That inconsistency inside one paragraph is what proves
+it a slip rather than a reading.
+
+⚑ 0360D was corrected in the same pass: *sed ubi **et ipsi** fideles persistamus* is "where **they
+too** were faithful", not "let **us ourselves also** persist".
+
+### Migne's — rendered as printed, logged, no marker
+
+- **0340C** — *Superius **fluxum sanguinis** patientem … et hic quoque eum qui patitur **fluxum
+  sanguinis***. The first must be *seminis*: the same chunk sets out the scheme four paragraphs
+  earlier (*fluxum **seminis** patientem, obscena et corrumpentia docentem diximus* … *restant qui
+  Gentilium doctrinam spargunt, quae opportune **fluxus sanguinis** dicitur*), so as printed the
+  sentence reads "above, blood-flux … and here likewise, blood-flux" and destroys the *et hic quoque*
+  it is built on. ⚑ **No `[sic:]`:** it is a single word, and on 9004 eight of twenty-seven `[sic:]`
+  fell at the plate, every fall a single word. Whose it is has not been established.
+- **0315A** — *delictum cum **non** facimus quod debemus: peccatum vero cum **non** facimus quod
+  **non** debemus*. The second `non` makes sin a second kind of omission and cancels the distinction
+  the sentence exists to draw. Migne's own page refutes it two paragraphs down: *Peccatum est
+  perpetratio mali, delictum desertio boni.* Rendered literally.
+- **0337A** — *Et dimittet passerem. Quia **quodammodo tenetur** sub contemplatione humani
+  intellectus.* The lemma releases the bird and the gloss gives its being *held* as the reason. A
+  dropped negation is likely; *quodammodo* may be doing that work. **Flagged, not asserted.**
+- **0372A** — the gloss *Et dabo, **et** superfluum est* discusses an *et* its own lemma
+  (*Dabo vobis pluvias*) does not print. Settled by one look at whether Migne's lemma reads *Et dabo*.
+  Unresolved; no English consequence.
+
+### ⛔ Raised and REFUTED — 0344A *ad **fortem** Domini destinantur*
+
+A reader called this its highest-priority finding: an unmarked silent emendation of *fortem* to
+*sortem*, invisible to every gate. **It is not an error.** *fortem* is the accusative of ***fors***,
+"lot" — and the proof is one column earlier in the same exposition of the two goats of Lv 16:8,
+where Migne prints *super quem cadit **fors** diaboli*. The reader's own corroboration ("the work
+uses the right word twice nearby") pointed the opposite way: *fors diaboli* is the **same** word.
+
+⭐ This is CLAUDE.md 8a with another data point: **internal corroboration proves an error exists,
+never whose it is — and here it did not even prove that much.** Acting on it would have put a
+`[sic:]` on type Migne sets correctly.
+
+### What the readers checked and found clean
+
+Four of six ranges came back genuine negatives, each naming the sentences where the class would have
+shown and did not: the Lv 11–13 clean/unclean and leprosy diagnostics (including the paradoxical
+*toto corpore leprosum Gentilem … **non** expellit; sed eum **mundum** judicat*, rendered as printed);
+the Lv 18 prohibition chain, checked one by one rather than as a rhythm; the Lv 22 eat/not-eat pairs;
+and the Lv 26 blessing/curse hinge, whose confirmed Migne negation at **0372D** (*quia caro **non**
+concupiscet adversus spiritum*) is carried with its `[var:]` and not smoothed.
+
+⚑ **Every reader ran a negation-particle count as a cross-check and every one reported it useless** —
+English exceeds Latin in all thirty chunks (periphrasis, *un-* compounds, marker text), and in the one
+chunk containing a real Migne defect the count ran four in the wrong direction. It is not a detector.
+
 ## Stint 0000 — `cruces-0000.md`
 
 *As filed by the stint, unchanged.*
