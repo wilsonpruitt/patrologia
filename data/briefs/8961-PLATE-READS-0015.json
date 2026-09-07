@@ -1,0 +1,76 @@
+{
+  "note": "STINT-SCOPED plate reads for 8961 (Glossa ordinaria, Liber Leviticus, PL 113), chunks 0015-0019, cols 0336A-0348C. Written by the 0015-0019 translation stint, 2026-09-07. To be merged into data/plate-reads.json by the orchestrator -- peers are writing their own stint files at the same time, so this file must NOT be merged by hand-editing plate-reads.json from a stint.",
+  "works": {
+    "8961": {
+      "series": "pl",
+      "volume": 113,
+      "scan": "PRIMARY: Gallica ark:/12148/bpt6k5505319w (IIIF, native-resolution crops; page is 1935x3134 native). CORROBORATION: raw/scans/pl113/patrologiaecurs04migngoog.pdf (archive.org, jbig2 -- never sole witness for a letter).",
+      "page_map": "Gallica leaf f = (column + 1) / 2. Archive PDF page = (column + 11) / 2. Gallica map re-calibrated in this stint against the printed corner numbers of ALL SEVEN leaves in range: f168 = 335/336, f169 = 337/338, f170 = 339/340, f171 = 341/342, f172 = 343/344, f173 = 345/346, f174 = 347/348. Archive map re-calibrated on p.178 (corners 345/346) and p.179 (corners 347/348).",
+      "reads": [
+        {
+          "from": "0336A",
+          "to": "0336D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f168 right column only (cols 0335A-0335D are the previous stint's; CAPUT XIV opens partway down col 336)",
+          "source": "Gallica IIIF, two native-resolution half-column crops; CALIBRATION PAGE, printed corners read 335 / 336",
+          "found": "ZERO divergences from our TEI. Confirms Migne's own readings behind two [var:] in chunk 0015 (Ps 50:9 'Asperges me, Domine, hyssopo'; Jn 6:54 'nisi manducaverimus ... in nobis'). Confirms the un-construable 'Quomodo enim rasis pilis succedunt novi, si ...' at 0336D as printed. Note the plate sets 'VERS 7.' without the point after VERS, as our twin has it."
+        },
+        {
+          "from": "0337A",
+          "to": "0338D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f169",
+          "source": "Gallica IIIF, four native-resolution half-column crops (right-column crops re-fetched at x=930 after the first pass clipped ~40px of the left edge)",
+          "found": "ZERO divergences from our TEI. Confirms Migne's readings behind three [var:] (Ps 41:4 'Factae sunt lacrymae'; Zech 9:16 'Lapides vivi volvuntur'; and, at the column break, 1 Cor 3:12 'Quicunque aedificaverit'). Confirms as Migne's the out-of-sequence verse address VERS. 20 at 0338D standing after VERS. 21, and the note (Psal. XIV.) covering Ps 41:4 + Ps 6:7. 'muniat' at 0337D is ink-damaged, not broken type."
+        },
+        {
+          "from": "0339A",
+          "to": "0340D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f170",
+          "source": "Gallica IIIF, four native-resolution half-column crops",
+          "found": "ONE our-file divergence, no marker: at 0339C the plate's Greek reads the smooth breathing, 'epsilon-psili + PI-IOTA-SIGMA-ALPHA-GAMMA-MU-ALPHA' i.e. the accents of our twin's Greek are wrong; the plate has the smooth-breathing forms. Otherwise ZERO. Confirms Migne's 'et habitabit in nobis' (future) at 0340C-D behind a [var:]. 'ffuxum' at 0340C is the fl-ligature, not a doubled f: the same word prints clean twice in the neighbouring lines."
+        },
+        {
+          "from": "0341A",
+          "to": "0342D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f171",
+          "source": "Gallica IIIF, four native-resolution half-column crops plus a narrow left-edge strip of the right column",
+          "found": "ZERO divergences from our TEI. Confirms Migne's readings behind four [var:] (Mt 11:27 compressed; Rom 7:4 without 'legi'; Ex 20:3 'Non erunt tibi alieni'; Gal 4:4-5 without 'factum sub lege'). Confirms as Migne's the note (Psal. XV.) attached to 'Ecce vir, oriens' -- a repeat of the citation four lines above, where the phrase is Zech 6:12 -- and the stranded ablative 'et non morietur immoderatis, scilicet quaestionibus' at 0342C."
+        },
+        {
+          "from": "0343A",
+          "to": "0344D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f172",
+          "source": "Gallica IIIF, four native-resolution half-column crops, plus a 3x enlargement of one disputed word at 0343D",
+          "found": "ONE our-file divergence: at 0343D our twin prints the non-word 'vetrorsum' (Ego autem non contradico, vetrorsum non abii); THE PLATE PRINTS 'retrorsum', the reading of Isa 50:5. Verified at native resolution and again at 3x -- the initial is an italic r. NO [sic:] fired; the English renders the plate and a TEI patch is filed. Otherwise ZERO. Confirms Migne's readings behind three [var:] (1 Cor 15:49 'imaginem terrae'; Heb 9:23 'majoribus hostiis expiantur'; Ex 20:4 'idolum ... sursum'). Confirms as Migne's the UNCLOSED parenthesis at 0344B '(ORIG., ubi supra. In qua solemnitas ...'."
+        },
+        {
+          "from": "0345A",
+          "to": "0346D",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f173 (Gallica) + p.178 (archive)",
+          "source": "Gallica IIIF native crops plus two targeted enlargements at 0346D; corroborated on the on-disk archive.org PDF rendered at 300 dpi, whose printed corners read 345 / 346",
+          "found": "ONE our-file divergence, and the archive is the defective witness. Our twin prints 'Talium con junctionem' with a space at 0346D. GALLICA breaks the word across a line with NO hyphen -- the line ends 'Talium con', the next begins 'junctionem' -- so Migne's word is 'conjunctionem', entire, and the space is our transcription's. THE ARCHIVE at p.178 prints 'con-' / 'unctionem', having lost the j and supplied a hyphen: a well-formed jbig2 substitution that construes, and would have drawn a [sic:] from a stint working on the archive alone. No marker fired; TEI patch filed. Otherwise ZERO. Confirms Migne's readings behind three [var:] (Ex 20:4; Jn 14:9 'Qui enim videt Filium'; Ps 93:21 'Captabant ... condemnabant') and the UNCLOSED parenthesis at 0345B '(secundum illud: Qui devorant plebem meam ...'."
+        },
+        {
+          "from": "0347A",
+          "to": "0348C",
+          "depth": "full",
+          "date": "2026-09-07",
+          "page": "f174 (Gallica) + p.179 (archive)",
+          "source": "Gallica IIIF, four native-resolution half-column crops plus one enlargement; corroborated on the on-disk archive.org PDF at 300 dpi, printed corners 347 / 348",
+          "found": "ONE our-file divergence, confirmed on BOTH printings: our twin supplies a terminal stop after '... confessione deletum vel detectum.' at 0347A; NEITHER Gallica nor the archive prints one -- the paragraph simply ends. Under Pattern 8 the English ends without a period and a TEI patch is filed. Otherwise ZERO. Confirms Migne's readings behind two [var:] (Jas 1:15 compressed; the 1 Cor 7:15 + Rom 12:18 splice at 0347C) and the note (Prov. XIII.) on Prov 31:10 at 0348B. The chunk boundary at 0348C, before CAPUT XIX, was checked against the plate and falls where our twin puts it."
+        }
+      ]
+    }
+  }
+}
