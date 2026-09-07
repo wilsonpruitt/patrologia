@@ -6,6 +6,160 @@
       "find": "<div2>\n        <head>PRAEFATIO.</head>",
       "replace": "<div2>\n        <head type=\"book-title\">Hebraice VAIICRA (<foreign xml:lang=\"hebrew\">ויקרא</foreign>).</head>\n        <head>PRAEFATIO.</head>",
       "why": "STRUCTURAL RECOVERY, read at the plate 2026-09-07. Migne sets a display line under the LIBER LEVITICUS banner giving the book's Hebrew name and Corpus Corporum drops the whole line; our TEI body opened straight at PRAEFATIO. Fifth and last of the Glossa Pentateuch book-title class (8950 Genesis, 8945 Deuteronomy, 8963 Numbers recovered and live; 8949 Exodus still owed). Gallica ark:/12148/bpt6k5505319w f148, printed corners read FIRST and give 295/296, confirming the PL 113 map f = (column + 1) / 2. Hebrew read letter by letter at ~5x from the native crop, right to left: vav-yod-QOF (descender visible)-resh-aleph = ויקרא. Migne's own printed transliteration VAIICRA is the on-plate control and agrees. ⚑ Unlike 8963, this word needed no disambiguation between the two copies -- no letter here is of the class that jbig2 substitution turns into a different well-formed letter -- but it was read on Gallica anyway, which is the better witness for non-Latin type by construction (data/briefs/PL113-WITNESS-ENCODING.md). Encoded <head type=\"book-title\"> per Wilson's ruling 2026-09-06, which chunk-core.mjs routes above the first head: it is not a section head (a second <head> would displace PRAEFATIO as the unit head) and not a paragraph of the praefatio. The banner precedes this file's first column mark <pb n=\"0295D\"/>, so it declares col null, which patch-audit verifies positionally."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0315C",
+      "find": "Sacrificium jubetur fieri in oleo",
+      "replace": "Sacrificium salutare jubetur fieri in oleo",
+      "why": "DROPPED WORD, confirmed on BOTH printings (Gallica f158 left col, archive p.163 left col, read independently). The lemma under exposition is Lv 7:10 and Origen's distinction in this homily is between the sacrificium SALUTARE and the other kinds, so the dropped adjective is the one word naming which sacrifice is meant; the same work glosses 'Sacrificium quod dicitur salutare' two paragraphs later at 0317B. Not Migne's defect, so no [sic:]."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0320A",
+      "find": "ὑπωμίς",
+      "replace": "ὑπωρίς",
+      "why": "GREEK LETTER ALTERED. Gallica f160 right col at native resolution and again at 3x on the single word: the fourth letter carries a full descender below the baseline with the bowl to its right -- a RHO. A mu in this fount sits on the baseline. ⛔ Do NOT 'correct' it to ἐπωμίς (the shoulder-piece, which is the word the gloss wants): ὑπωρίς is what Migne set and is HIS defect to keep. Our TEI printed a form Migne did not set, which would have made any future [sic:] on this word an accusation the plate cannot license. Archive not consulted: it is the jbig2 copy and may never be sole witness for a letter, and at 3x Gallica is unambiguous."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0325D",
+      "find": " Misael, <hi>Dei attrectatio.</hi>",
+      "replace": " <foreign xml:lang=\"hebrew\">מישאל</foreign> Misael, <hi>Dei attrectatio.</hi>",
+      "why": "DROPPED HEBREW (hebrew-recovery.md). Migne sets the Hebrew inline before the transliteration; Corpus Corporum drops the type. Gallica f163, bottom of the left column, read at 1900px native blow-up. MT-verified: Ex 6:22 has מִישָׁאֵל; Migne prints it unpointed. Pattern 13a clause 1 -- the loss leaves the sentence sound, so NO [ed:] was fired. Provenance: data/hebrew-patches/8961.json."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0325D",
+      "find": "Elisaphan,\n<pb n=\"0326A\"/>\nsive Elzaphan,",
+      "replace": "<foreign xml:lang=\"hebrew\">אלצפן</foreign> Elisaphan,\n<pb n=\"0326A\"/>\nsive Elzaphan,",
+      "why": "DROPPED HEBREW, same site and same read as the preceding patch. MT-verified: Ex 6:22 has אֶלְצָפָן, unpointed on the plate. No English effect, no [ed:]. ⛑ The insertion point precedes a <pb> that falls inside the gloss; the Hebrew stands with 'Elisaphan' in col 0325D, before the break."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0330B",
+      "find": "Falsa dicendo testimonia. dignum",
+      "replace": "Falsa dicendo testimonia, dignum",
+      "why": "PUNCTUATION. Our TEI sets a full stop before a lower-case word, which is its own tell. The plate (Gallica f165) prints a COMMA: one sentence, 'Falsa dicendo testimonia, dignum dicendo indignum, et mundum immundum.' The English already follows the plate."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0343D",
+      "find": "vetrorsum",
+      "replace": "retrorsum",
+      "why": "NON-WORD in our file only. Gallica f172, native crop and a 3x enlargement: the initial is an italic r. Also the Clementine reading of Isa 50:5. Plate clean, so no [sic:] -- a marker here would have accused Migne of the digitization's defect."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0346D",
+      "find": "Talium con\njunctionem",
+      "replace": "Talium conjunctionem",
+      "why": "WORD SPLIT BY A LINE BREAK the transcription preserved as a space. Gallica f173 prints 'conjunctionem' broken across a line with NO hyphen (line ends 'Talium con', next begins 'junctionem'). ⭐ Do NOT patch toward the archive: at p.178 the archive has lost the j AND SUPPLIED A HYPHEN, giving con-/unctionem -- a well-formed jbig2 substitution that construes, and an archive-only stint would have fired [sic:] on a word Migne sets correctly."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0339C",
+      "find": "έπισαγμα ὅνον,",
+      "replace": "ἐπίσαγμα ὄνον,",
+      "why": "GREEK DIACRITICS. Our TEI gives a tonos where the plate sets a smooth breathing, misplaces the accent, and puts a rough breathing on the second word. Gallica f170, native crop: the plate reads ἐπίσαγμα ὄνον. The English carries the plate's accents."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0347A",
+      "find": "detectum.</p>",
+      "replace": "detectum</p>",
+      "why": "SPURIOUS TERMINAL STOP. The paragraph ends bare on BOTH printings -- Gallica f174 (enlargement) and archive p.179 agree. Under Pattern 8 the English ends without a period; the Latin must too."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0352A",
+      "find": "edehat",
+      "replace": "edebat",
+      "why": "NON-WORD in our file only. Gallica f176 read at 4x; archive p.181 agrees. English renders 'did not yet eat'. Plate clean, no [sic:]."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0352D",
+      "find": "tornicantur",
+      "replace": "fornicantur",
+      "why": "NON-WORD in our file only. Gallica f176; archive p.181. English renders 'commit fornication'. Plate clean, no [sic:]."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0352D",
+      "find": "I Cor. XL.)",
+      "replace": "I Cor. XI.)",
+      "why": "CITATION NUMBER, ours not Migne's. Gallica f176 read at 4x; archive p.181: both print (I Cor. xi.), which is the correct locus for 'Inter vos multi infirmi et imbecilles' (1 Cor 11:30). ⚠ The ENGLISH twin must be patched in the same pass -- verify-english content-checks [n: ...] against the Latin, so the two sides move together or not at all."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0354A",
+      "find": "(Psal.\nXXXVIII)",
+      "replace": "(Psal. XXXIII)",
+      "why": "CITATION NUMBER, OURS NOT MIGNE'S -- and this one is the trap. Gallica f177 read at 4x; archive p.182: both print (Psal. xxxiii.), and Migne's reference to Ps 33:17 is CORRECT. ⭐ Read in our file alone it looks exactly like the five citation misfires in this same range that genuinely ARE his, and it would have been reproduced as his. Corroborated inside our own file: the identical verse is cited at 0345C as (Psal. XXXIII). ⚠ Patch the English twin in the same pass."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0356A",
+      "find": "nommetur",
+      "replace": "nominetur",
+      "why": "NON-WORD in our file only. The i is undotted on Gallica f178 but unambiguous on archive p.183. English renders 'lest he be named a man'."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0363D",
+      "find": "habitunt",
+      "replace": "habitant",
+      "why": "NON-WORD in our file only. Both plates (Gallica f182, archive p.187) read habitant, which is also the Clementine reading of Ps 83:5. English renders 'they that dwell'."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0367C",
+      "find": "sagitae",
+      "replace": "sagittae",
+      "why": "NON-WORD in our file only. Both plates (Gallica f184 at 3x, archive p.189). Ps 56:5. English renders 'arrows'."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0368A",
+      "find": "terrum",
+      "replace": "terram",
+      "why": "NON-WORD in our file only, and the accusative the verb requires. Both plates (Gallica f184, archive p.189). Ps 142:10. English renders 'into the land'."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0374A",
+      "find": "VERS. 23.-- <hi>Gladium,</hi>",
+      "replace": "VERS. 25.-- <hi>Gladium,</hi>",
+      "why": "VERSE NUMBER, ours not Migne's. Both plates read VERS. 25 (Gallica f187 at 3x, archive p.192 at 4x), which is the correct locus: Lv 26:25 'inducam super vos gladium ultorem'. ⚠ Patch the English twin in the same pass. ⛔ And note the neighbouring hazard recorded by the 0020 stint: THE NUMERAL 3 IN THIS FOUNT READS AS 5 AT SCAN RESOLUTION, so a digit read off a PL 113 plate must be checked before it is believed -- this site was read at 3x and 4x on both copies for exactly that reason."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0374D",
+      "find": "poliuti",
+      "replace": "polluti",
+      "why": "NON-WORD in our file only. Both plates (Gallica f187, archive p.192). English renders 'defiled'."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0374D",
+      "find": "<hi>incircumcisa mens eorum.</hi>",
+      "replace": "<hi>Incircumcisa mens eorum.</hi>",
+      "why": "CASE. Both plates capitalize the lemma. Cosmetic, but it is the only lower-case lemma opening a VERS. address in the whole range, which is what made it visible."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0375A",
+      "find": "Et alibi- <hi>Ex",
+      "replace": "Et alibi : <hi>Ex",
+      "why": "PUNCTUATION. Neither printing prints a hyphen: the archive p.193 sets a clean colon, Gallica f188 the same mark degraded to a single mid-height dot. The parallel construction earlier in our own file (0363D) is 'Et alibi:'. English renders the colon. ⚑ Declared column corrected from 0375B to 0375A by patch-audit: the match sits under the 0375A anchor. Band letters are positional quarter-guides, and the audit's placement (last <pb> before the match) is the mechanical authority."
+    },
+    {
+      "work": "8961 Glossa ordinaria, Liber Leviticus (PL 113)",
+      "col": "0376A",
+      "find": "duplices sensus sensus habeat",
+      "replace": "duplices sensus habeat",
+      "why": "DITTOGRAPHY, AND IT IS OURS. Both plates print 'sensus' ONCE (Gallica f188 at 3x, archive p.193): 'ut masculus duplices sensus habeat.' ⛔ A [d: ...] here would have publicly accused Migne's plate of a doubling it does not carry; none was fired. English renders it once."
     }
   ]
 }

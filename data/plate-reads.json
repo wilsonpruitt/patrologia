@@ -1033,6 +1033,532 @@
     }
    ]
   },
+  "8961": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+   "page_map": "Gallica leaf f = (column + 1) / 2",
+   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these two reads; see the note on each.",
+   "reads": [
+    {
+     "from": "0295D",
+     "to": "0296D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f148",
+     "source": "Gallica f148 at native IIIF resolution (1908x3118), full page plus native crops of the banner and of the foot strip at full page width. CALIBRATION PAGE: printed corners read FIRST and give 295/296, confirming f = (column + 1) / 2 for this tome.",
+     "found": "Foot of page: CHECKED ZERO, both layers -- no numbered Forte conjecture, no asterisk cross-reference; both columns run to the last line with blank paper below. Head of page: ONE STRUCTURAL FINDING, the fifth of the Glossa Pentateuch book-title class. Migne sets a display line under LIBER LEVITICUS -- 'Hebraice VAIICRA (ויקרא).' -- which Corpus Corporum drops entirely; our body opened at <head>PRAEFATIO.</head>. Hebrew read letter by letter right to left at ~5x on the native crop: vav-yod-QOF (descender clearly visible)-resh-aleph. Migne's own printed transliteration VAIICRA is the on-plate control and agrees. Recovered as data/tei-patches/8961.json. ⚑ The archive copy was NOT consulted: no letter in this word belongs to the class jbig2 substitution turns into a different well-formed letter (contrast 8963's dalet/resh), and Gallica is the better witness for non-Latin type by construction. That is a stated reason, not an omission."
+    },
+    {
+     "from": "0297A",
+     "to": "0298D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f149",
+     "source": "Gallica IIIF, four native-resolution half-column crops",
+     "found": "ZERO divergences from our TEI in the running text. Confirms Migne's own readings behind three [var:] fired in chunk 0000 (Gal 4:24 secundum allegoriam; Ez 20:25 mandata / non vivant; Ex 32:9 Scio). Confirms 'prescrutari' and 'Fortassis' (the latter looked like 'Forassis' only under a clipped crop -- a caution about crop boxes, not a finding)."
+    },
+    {
+     "from": "0299A",
+     "to": "0300D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f150 (Gallica) + p.155 (archive)",
+     "source": "Gallica IIIF native crops; corroborated on the on-disk archive.org PDF rendered at 300 dpi, whose printed corners read 299 / 300",
+     "found": "ONE defect, confirmed on BOTH printings: 0300A prints 'trangressus' for transgressus -- a non-word, marked [sic: *trangressus*] with the sense rendered beside it (Pattern 7 as amended 2026-09-05). Nothing else diverges from our TEI."
+    },
+    {
+     "from": "0301A",
+     "to": "0302D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f151 (Gallica) + p.156 (archive)",
+     "source": "Gallica IIIF native crops, plus 3x-4x enlargements of two disputed words; archive.org PDF at 300 dpi for corroboration",
+     "found": "TWO PRESS VARIANTS -- the two printings differ and both are clean, so no marker was fired on either (see cruces): 0301C Gallica 'ingessae' / archive 'ingressae'; 0301D Gallica 'occuli' / archive 'oculi'. Also confirmed as Migne's own, not ours: the UNCLOSED parenthesis at 0301A '( Isich. in Levit. Admirabilis...', and the MISSING terminal stop at 0302C 'et ad perfectionem exaltans'."
+    },
+    {
+     "from": "0303A",
+     "to": "0304D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f152",
+     "source": "Gallica IIIF, four native-resolution half-column crops",
+     "found": "ZERO divergences from our TEI. Notable non-finding: at 0304A the gloss itself contrasts 'non imponentur' with 'non ponentur' -- the Clementine reads inponentur, so Migne agrees with the received text here and NO [var:] was fired."
+    },
+    {
+     "from": "0305A",
+     "to": "0306D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f153",
+     "source": "Gallica IIIF, four native-resolution half-column crops",
+     "found": "ZERO type defects. Confirmed as Migne's: 0305D 'Ideo aut omnino additur' (a real word in its slot, rendered literally under Pattern 7, conjecture *autem* in the cruces); 0305D 'nescibat' (attested late imperfect, Pattern 9, no marker); the UNCLOSED parenthesis at 0305D-0306A '(ORIG. Observandum est...'."
+    },
+    {
+     "from": "0307A",
+     "to": "0308D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f154",
+     "source": "Gallica IIIF, four native-resolution half-column crops; printed corners read 307 / 308",
+     "found": "ZERO divergences from our TEI. Confirms Migne's readings behind four [var:] in chunk 0004 (1 Cor 8:6 conflation at 0307C; Lk 23:34 ignosce/quia nesciunt at 0308A; Mt 5:13 infatuatum/projiciatur at 0308A-B; Mt 3:2 present appropinquat at 0308C)."
+    },
+    {
+     "from": "0309A",
+     "to": "0310D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f155",
+     "source": "Gallica f155, native IIIF (1864x3096), four column-half crops at native resolution. CALIBRATION PAGE: printed corners read FIRST and give 309 / 310, confirming f = (column + 1) / 2 for this tome.",
+     "found": "Running text collated word by word against src/latin/8961/0005.md: no divergence between plate and our TEI. Vulgate divergences logged as cruces (Lv 5:2 lemma printed *Anima qui tetigerit* for Clementine *quae*; Lv 5:11 *Non mittet in eum* for *in eam*; Mt 18:22 printed *Non dico tibi septies* without the first *usque*, and cited (Matth. XXVIII)). Foot of both columns blank -- no numbered or asterisk conjecture."
+    },
+    {
+     "from": "0311A",
+     "to": "0312D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f156",
+     "source": "Gallica f156, native IIIF, four column-half crops plus a wide-left re-crop of the col-311 head after the first crop clipped the left margin.",
+     "found": "Two candidate defects in col 0311 REFUTED by re-cropping with the left margin included: the plate reads *vicenarius* (line break vice-narius) and *Aegypto* (Aegy-pto), both as our TEI has them. Otherwise no plate/TEI divergence. Cruces: Lv 6:12-13 quoted *Ignis in altari semper ardeat et nunquam deficiat* against the Clementine futures (fired [var:]); 1 Cor 2:2 printed *nihil judicavi me scire inter vos*; Lv 6:12 lemma abbreviated *Quem nutriet sacer.*; *renovati* in the AUG. 12 gloss will not construe. Foot of both columns blank."
+    },
+    {
+     "from": "0313A",
+     "to": "0314D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f157",
+     "source": "Gallica f157, native IIIF, four column-half crops.",
+     "found": "No plate/TEI divergence. Pattern 8 confirmed at 0314C: the sentence ending *mundatur ab originali* carries NO terminal stop on the plate, exactly as our TEI has it -- the English leaves it unstopped. Cruces: Phil 2:7-8 printed with *totum* and *patri* (fired [var:]); 1 Tim 4:5 *Sanctificatur autem* for Vulg. *enim*; Is 9:5 *in combustione* for *in combustionem*; Heb 12:29 quoted but cited (Deut. IV). Foot of both columns blank."
+    },
+    {
+     "from": "0315A",
+     "to": "0316D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f158 + archive p.163",
+     "source": "Gallica f158, native IIIF, four column-half crops; archive.org patrologiaecurs04migngoog p.163 rendered at 300 dpi as second witness (corners read: 317/318 on p.164 confirm the (column+11)/2 map, and p.163 = 315/316).",
+     "found": "ONE DIGITIZATION LOSS, confirmed on BOTH printings: 0315C prints *Sacrificium SALUTARE jubetur fieri in oleo*; our TEI drops *salutare*. English renders the plate; pending TEI patch filed. Two archive-only candidates REFUTED by Gallica (*debens* for *debent* 0315C, *offerenti.* for *offerentis* 0315C) -- jbig2 artefacts. 0315B *Non bonum scilicet aut ovium* stands on BOTH printings (*boum* conjectured, declined under 18a). Cruces: Job 2:4 *omnia* for Vulg. *cuncta*; Rom 9:16 word order. Foot of both columns blank."
+    },
+    {
+     "from": "0317A",
+     "to": "0318D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f159 + archive p.164",
+     "source": "Gallica f159, native IIIF, four column-half crops plus a line-level native crop at 0317D; archive.org p.164 rendered at 300 dpi as second witness, printed corners 317/318 read first.",
+     "found": "TWO SITES WHERE THE TWO PRINTINGS DIVERGE. (1) 0317D: Gallica sets *conten nat* with a clear word space, archive sets *contemnat* clean; our TEI has *contemnat*. Press variant with a defective member -- crux only, NO [sic:], per the single-word rule. (2) 0318D: Gallica sets *habeba*, archive sets *habebat*; our TEI has *habeba*. [sic: *habeba*] fired on the exemplar printing, with both readings in the crux. Cruces: Jas 1:12 *sustinet*/*quia* for Vulg. *suffert*/*quoniam* (fired [var:]); Rom 11 conflation (fired [var:]); Sir 45:9 *tunicam talarem*. Foot of both columns blank on both printings."
+    },
+    {
+     "from": "0319A",
+     "to": "0320D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f160",
+     "source": "Gallica f160, native IIIF, four column-half crops plus a 3x native crop of the Greek word at 0320A.",
+     "found": "ONE PLATE/TEI DIVERGENCE: 0320A prints the Greek as GREEK UPSILON-PI-OMEGA-RHO-IOTA-SIGMA (hypōris), read at 3x on a native crop -- rho, with a full descender, not mu; our TEI silently gives hypōmis. English renders the plate; pending TEI patch filed. Otherwise no divergence. Cruces: Gal 5:2 *circumcidimini* for Vulg. *circumcidamini*; *magaritae* at 0319D left unmarked as an attested medieval form (Pattern 9). Foot of both columns blank."
+    },
+    {
+     "from": "0321A",
+     "to": "0322D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f161",
+     "source": "Gallica f161, native IIIF, four column-half crops.",
+     "found": "No plate/TEI divergence. Cruces: Eph 3:10 printed *ut notum fieret principibus et potestatibus per ecclesiam* against Vulg. *ut innotescat principatibus et potestatibus in caelestibus* (fired [var:]); Is 61:1 drops *Dominus*; Ps 4:7 drops *tui*; Mk 14:23 *Et sumens* for *Et accepto calice*. Foot of both columns blank."
+    },
+    {
+     "from": "0323A",
+     "to": "0323D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f162",
+     "source": "Gallica f162, native IIIF, left-column crops at native resolution. CALIBRATION: printed corners read FIRST and give 323 / 324. Col 0324 (right column, next stint's range) was on screen but is NOT claimed as collated here.",
+     "found": "No plate/TEI divergence. The plate's own *VERS 39.* (no period after VERS) at 0323A is confirmed and preserved. Cruces: Is 33:16 printed *Panis ejus dabitur* against Vulg. *panis ei datus est* (fired [var:]); 1 Cor 12:28 *deinde* for *secundo*; Ex 16:15 word order, cited (Exod. XXVI). Foot of the page blank."
+    },
+    {
+     "from": "0324A",
+     "to": "0324D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 167,
+     "gallica_f": 162,
+     "source": "Gallica f162 right column, two native crops covering A-D; corner numbers 323/324 read first. Archive p167 at 400 dpi at two sites, corner numbers 323/324 read first.",
+     "found": "No foot-of-page apparatus of either layer. 0324C: Gallica prints tranferente, archive prints transferente — PRESS VARIANT, no marker (see _press_variants). 0324C: the Ex 16:15-16 quotation CONFIRMED on Gallica as Hic est panis quem dedit vobis Dominus ad comedendum, hic est sermo quem constituit Dominus — [var:] fired. The archive copy appears to read condendum for comedendum at that spot; jbig2, single witness, NOT reportable. 0324B: Convertimini et agite poenitentiam CONFIRMED — [var:] fired. Everything else in the column agrees with our twin word for word."
+    },
+    {
+     "from": "0325A",
+     "to": "0325D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 168,
+     "gallica_f": 163,
+     "source": "Gallica f163 left column, two native crops covering A-D; corner numbers 325/326 read first.",
+     "found": "No foot-of-page apparatus. 0325C: Dominus Deus noster ignis consumens est (Deut. IV) CONFIRMED on the plate — [var:] fired against Dt 4:24 tuus. ⭐ 0325D: Migne prints the Hebrew מישאל before Misael and אלצפן before Elisaphan; our TEI has lost BOTH. The loss leaves the sentence sound, so no [ed:] (Pattern 13a clause 1) — filed as a pending TEI patch. Everything else agrees with our twin."
+    },
+    {
+     "from": "0326A",
+     "to": "0326D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 168,
+     "gallica_f": 163,
+     "source": "Gallica f163 right column, two native crops covering A-D; corner numbers 325/326 read first.",
+     "found": "No foot-of-page apparatus. 0326A: Deus meus et Dominus meus (Joan. XX) CONFIRMED on the plate with the order reversed against Vulg. Jo 20:28 — [var:] fired. 0326B: nolite eum recipere in domum CONFIRMED (Vulg. nolite recipere eum); word order only, no marker, logged. Vel Misadai et Elisaphan … specula Dei mei is Migne's, on the plate, beside the earlier Dei speculum — rendered as printed, logged. Everything else agrees with our twin."
+    },
+    {
+     "from": "0327A",
+     "to": "0327D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 169,
+     "gallica_f": 164,
+     "source": "Gallica f164 left column, two native crops covering A-D; corner numbers 327/328 read first. Archive p169 at 400 dpi at three sites, corner numbers 327/328 read first.",
+     "found": "No foot-of-page apparatus. ⭐ 0327B: sacricium CONFIRMED on BOTH witnesses and present in our twin — the stint's one [sic:]. 0327D: Gallica prints ministare, archive prints ministrare — PRESS VARIANT, no marker. Archive appears to read Moyes for Moyses at 0327C; jbig2, single witness, NOT reportable — Gallica and the twin both read Moyses. Everything else agrees with our twin."
+    },
+    {
+     "from": "0328A",
+     "to": "0328D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 169,
+     "gallica_f": 164,
+     "source": "Gallica f164 right column, two native crops covering A-D; corner numbers 327/328 read first.",
+     "found": "No foot-of-page apparatus. Checked zero: every word of cols 0328A-D agrees with our twin, including relabantur, cum his nec cibum sumere, and the Gen 1:31 quotation Vidit Deus cuncta quae fecerat (Vulg. Viditque — the -que only, no marker)."
+    },
+    {
+     "from": "0329A",
+     "to": "0329D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 170,
+     "gallica_f": 165,
+     "source": "Gallica f165 left column, two native crops covering A-D; corner numbers 329/330 read first.",
+     "found": "No foot-of-page apparatus; the foot carries only PATROL. CXIII. Checked zero: every word agrees with our twin, Nycticorax and Vespertilio included."
+    },
+    {
+     "from": "0330A",
+     "to": "0330D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 170,
+     "gallica_f": 165,
+     "source": "Gallica f165 right column, two native crops covering A-D; corner numbers 329/330 read first.",
+     "found": "No foot-of-page apparatus; the foot carries only the signature 11. 0330A: Crura eorum recta, et pennati pedes eorum (Ezech. I) CONFIRMED on the plate — [var:] fired; no received verse reads crura eorum recta, and the gloss is built on crura. 0330B: ut in ore duorum testium stet omne verbum CONFIRMED without Vulg. Mt 18:16's vel trium — [var:] fired. ⚑ 0330B: the plate prints a COMMA after Falsa dicendo testimonia; our TEI prints a full stop followed by lowercase dignum. The English follows the PLATE — pending TEI patch filed. 0330C: Si naturaliter essent immunda, immundus esset viventia etiam qui tangeret CONFIRMED as Migne's — rendered as printed, no marker, logged as a crux. Migne prints VERS. 34 twice (0330D and 0330D again, the second for Lv 11:38) — his, on the plate."
+    },
+    {
+     "from": "0331A",
+     "to": "0331D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 171,
+     "gallica_f": 166,
+     "source": "Gallica f166 left column, two native crops covering A-D; corner numbers 331/332 read first.",
+     "found": "No foot-of-page apparatus. Checked zero against our twin. 0331A: Scripsi vobis non commisceri fornicariis (I Cor. III) CONFIRMED as printed, reference and all — the words are 1 Cor 5:9-10 and the construction is indirect where the Vulgate has a subjunctive; sense identical, no marker, logged. Moab olla spei meae (Rom. II) CONFIRMED as printed — the words are Ps 59:10, no marker (a note is Migne's and passes verbatim)."
+    },
+    {
+     "from": "0332A",
+     "to": "0332D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 171,
+     "gallica_f": 166,
+     "source": "Gallica f166 right column, two native crops covering A-D; corner numbers 331/332 read first.",
+     "found": "No foot-of-page apparatus. 0332D: ipse loquetur ad populum, et erit os tuum, tu autem eris in his quae ad Deum pertinent (Exod. IV) CONFIRMED on the plate, without Vulg. Ex 4:16's pro te and ei — [var:] fired. 0332A: In loco sancto edent ea CONFIRMED as printed (Vulg. Lv 6:16 comedetque illam, Lv 10:13 Comedetis autem eam) — no marker, logged. Corinthiani at 0332D is Migne's — rendered as printed. Everything else agrees with our twin."
+    },
+    {
+     "from": "0333A",
+     "to": "0333D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 172,
+     "gallica_f": 167,
+     "source": "Gallica f167 left column, two native crops covering A-D; corner numbers 333/334 read first.",
+     "found": "No foot-of-page apparatus. 0333B: capilli capitis vestri omnes numerati sunt (Matth. X) CONFIRMED on the plate in Luke's word order, not Matthew's — [var:] fired. 0333C: (Joan. XI) for Peter's threefold interrogation CONFIRMED as printed (the passage is Jo 21:15-17); a note, so it passes verbatim — no marker, logged. Everything else agrees with our twin."
+    },
+    {
+     "from": "0334A",
+     "to": "0334D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 172,
+     "gallica_f": 167,
+     "source": "Gallica f167 right column, two native crops covering A-D; corner numbers 333/334 read first.",
+     "found": "No foot-of-page apparatus. 0334A: Date eleemosynam et omnia munda erunt vobis CONFIRMED with the future erunt against Vulg. Lc 11:41 sunt — [var:] fired. 0334C: Ignis adversarios consumet (Isa. LXXIV) CONFIRMED on the plate, chapter number and all — [var:] fired; Isaiah has sixty-six chapters and no verse reads thus. Everything else agrees with our twin."
+    },
+    {
+     "from": "0335",
+     "to": "0336",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f168",
+     "source": "Gallica f168 at native IIIF resolution, full page. Corners read first and give 335/336.",
+     "found": "CHECKED ZERO. Interior page of the work (Lev. XIII 51 - XIV 9, the leprosy chapters, CAPUT XIV opening mid-column). No foot-of-page apparatus of either layer; both columns run to the last line. Read for the foot question and the running text scanned, NOT collated word by word -- depth 'read', so this range licenses a marker but not silence about a column."
+    },
+    {
+     "from": "0335A",
+     "to": "0335D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 173,
+     "gallica_f": 168,
+     "source": "Gallica f168 left column, three native crops covering A-D (the right edge of the column re-cropped separately); corner numbers 335/336 read first.",
+     "found": "No foot-of-page apparatus — this AGREES with the earlier 2026-09-07 foot-scoped read of f168, which is now superseded by a word-by-word collation. 0335A: Qui peccat in Spiritum sanctum, non remittetur ei CONFIRMED (Vulg. Mt 12:32 qui autem dixerit contra) — [var:] fired. 0335C: Qui hanc doctrinam non affert, non recipiatis eum in domum, et ave ei non dixeritis (II Joan. 10) CONFIRMED — [var:] fired; note that Migne quotes the SAME verse differently at 0326B, and both forms are on the plate. 0335C: VERS. 48 is printed with NO period after the numeral, alone in the range — Migne's, carried. 0335C: in filiorum tenuitatem CONFIRMED on the plate (filorum, 'of threads', is the sense the spinning image needs) — rendered as printed, [cj:] DECLINED, logged. 0335B: Simplex, non stultis CONFIRMED — rendered as printed. 0335D: Viridans atque flavescens CONFIRMED."
+    },
+    {
+     "from": "0336A",
+     "to": "0336A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": 173,
+     "gallica_f": 168,
+     "source": "Gallica f168 right column, native crop of the head of the column; corner numbers 335/336 read first.",
+     "found": "Checked zero. VERS. 57 Lepra volatilis (GREG., hom. X in Ezech.) and its usque ad splice agree with our twin word for word; CAPUT XIV. begins immediately after and belongs to the next stint."
+    },
+    {
+     "from": "0336A",
+     "to": "0336D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f168 right column only (cols 0335A-0335D are the previous stint's; CAPUT XIV opens partway down col 336)",
+     "source": "Gallica IIIF, two native-resolution half-column crops; CALIBRATION PAGE, printed corners read 335 / 336",
+     "found": "ZERO divergences from our TEI. Confirms Migne's own readings behind two [var:] in chunk 0015 (Ps 50:9 'Asperges me, Domine, hyssopo'; Jn 6:54 'nisi manducaverimus ... in nobis'). Confirms the un-construable 'Quomodo enim rasis pilis succedunt novi, si ...' at 0336D as printed. Note the plate sets 'VERS 7.' without the point after VERS, as our twin has it."
+    },
+    {
+     "from": "0337A",
+     "to": "0338D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f169",
+     "source": "Gallica IIIF, four native-resolution half-column crops (right-column crops re-fetched at x=930 after the first pass clipped ~40px of the left edge)",
+     "found": "ZERO divergences from our TEI. Confirms Migne's readings behind three [var:] (Ps 41:4 'Factae sunt lacrymae'; Zech 9:16 'Lapides vivi volvuntur'; and, at the column break, 1 Cor 3:12 'Quicunque aedificaverit'). Confirms as Migne's the out-of-sequence verse address VERS. 20 at 0338D standing after VERS. 21, and the note (Psal. XIV.) covering Ps 41:4 + Ps 6:7. 'muniat' at 0337D is ink-damaged, not broken type."
+    },
+    {
+     "from": "0339A",
+     "to": "0340D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f170",
+     "source": "Gallica IIIF, four native-resolution half-column crops",
+     "found": "ONE our-file divergence, no marker: at 0339C the plate's Greek reads the smooth breathing, 'epsilon-psili + PI-IOTA-SIGMA-ALPHA-GAMMA-MU-ALPHA' i.e. the accents of our twin's Greek are wrong; the plate has the smooth-breathing forms. Otherwise ZERO. Confirms Migne's 'et habitabit in nobis' (future) at 0340C-D behind a [var:]. 'ffuxum' at 0340C is the fl-ligature, not a doubled f: the same word prints clean twice in the neighbouring lines."
+    },
+    {
+     "from": "0341A",
+     "to": "0342D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f171",
+     "source": "Gallica IIIF, four native-resolution half-column crops plus a narrow left-edge strip of the right column",
+     "found": "ZERO divergences from our TEI. Confirms Migne's readings behind four [var:] (Mt 11:27 compressed; Rom 7:4 without 'legi'; Ex 20:3 'Non erunt tibi alieni'; Gal 4:4-5 without 'factum sub lege'). Confirms as Migne's the note (Psal. XV.) attached to 'Ecce vir, oriens' -- a repeat of the citation four lines above, where the phrase is Zech 6:12 -- and the stranded ablative 'et non morietur immoderatis, scilicet quaestionibus' at 0342C."
+    },
+    {
+     "from": "0343A",
+     "to": "0344D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f172",
+     "source": "Gallica IIIF, four native-resolution half-column crops, plus a 3x enlargement of one disputed word at 0343D",
+     "found": "ONE our-file divergence: at 0343D our twin prints the non-word 'vetrorsum' (Ego autem non contradico, vetrorsum non abii); THE PLATE PRINTS 'retrorsum', the reading of Isa 50:5. Verified at native resolution and again at 3x -- the initial is an italic r. NO [sic:] fired; the English renders the plate and a TEI patch is filed. Otherwise ZERO. Confirms Migne's readings behind three [var:] (1 Cor 15:49 'imaginem terrae'; Heb 9:23 'majoribus hostiis expiantur'; Ex 20:4 'idolum ... sursum'). Confirms as Migne's the UNCLOSED parenthesis at 0344B '(ORIG., ubi supra. In qua solemnitas ...'."
+    },
+    {
+     "from": "0345A",
+     "to": "0346D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f173 (Gallica) + p.178 (archive)",
+     "source": "Gallica IIIF native crops plus two targeted enlargements at 0346D; corroborated on the on-disk archive.org PDF rendered at 300 dpi, whose printed corners read 345 / 346",
+     "found": "ONE our-file divergence, and the archive is the defective witness. Our twin prints 'Talium con junctionem' with a space at 0346D. GALLICA breaks the word across a line with NO hyphen -- the line ends 'Talium con', the next begins 'junctionem' -- so Migne's word is 'conjunctionem', entire, and the space is our transcription's. THE ARCHIVE at p.178 prints 'con-' / 'unctionem', having lost the j and supplied a hyphen: a well-formed jbig2 substitution that construes, and would have drawn a [sic:] from a stint working on the archive alone. No marker fired; TEI patch filed. Otherwise ZERO. Confirms Migne's readings behind three [var:] (Ex 20:4; Jn 14:9 'Qui enim videt Filium'; Ps 93:21 'Captabant ... condemnabant') and the UNCLOSED parenthesis at 0345B '(secundum illud: Qui devorant plebem meam ...'."
+    },
+    {
+     "from": "0347A",
+     "to": "0348C",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f174 (Gallica) + p.179 (archive)",
+     "source": "Gallica IIIF, four native-resolution half-column crops plus one enlargement; corroborated on the on-disk archive.org PDF at 300 dpi, printed corners 347 / 348",
+     "found": "ONE our-file divergence, confirmed on BOTH printings: our twin supplies a terminal stop after '... confessione deletum vel detectum.' at 0347A; NEITHER Gallica nor the archive prints one -- the paragraph simply ends. Under Pattern 8 the English ends without a period and a TEI patch is filed. Otherwise ZERO. Confirms Migne's readings behind two [var:] (Jas 1:15 compressed; the 1 Cor 7:15 + Rom 12:18 splice at 0347C) and the note (Prov. XIII.) on Prov 31:10 at 0348B. The chunk boundary at 0348C, before CAPUT XIX, was checked against the plate and falls where our twin puts it."
+    },
+    {
+     "from": "0348D",
+     "to": "0348D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f174 (right column, foot only -- the rest of the leaf is cols 0347-0348C and out of range)",
+     "source": "Gallica IIIF native crop; CALIBRATION PAGE, printed corners read 347 / 348",
+     "found": "ZERO. Running text collated word for word against our TEI with no divergence. Confirms (Isich.) and (Exod. xxxi) as Migne sets them."
+    },
+    {
+     "from": "0349A",
+     "to": "0350D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f175",
+     "source": "Gallica IIIF, four native-resolution half-column crops taken with the full column margin in",
+     "found": "ZERO divergences from our TEI. Confirms Migne's own readings behind three [var:] fired in chunk 0020: Ex 16:25 (Sabbata hodie Domino, non invenietis illud in agro), Jac 4:13 (Hodie et crastino ibimus in civitatem), and the bare (Isich). at 0350D VERS. 15, which Migne sets WITHOUT the [n:]-style parentheses our other notes carry. Two apparent single-letter defects (1eliquiis at 0349C, cauumniam at 0350B) are inking on this printing only and were not pursued: our TEI reads reliquiis / calumniam."
+    },
+    {
+     "from": "0351A",
+     "to": "0352D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f176 (Gallica) + p.181 (archive)",
+     "source": "Gallica IIIF native crops plus 4x enlargements of three disputed words; archive.org PDF rendered at 100 dpi whole-page and 400 dpi crops, printed corners read 351 / 352",
+     "found": "THREE DIGITIZATION LOSSES -- the two printings AGREE and our TEI does not, so all three are TEI patches, not Migne's defects, and no [sic:] was fired: 0352A plate 'edebat' vs our 'edehat'; 0352D plate 'fornicantur' vs our 'tornicantur'; 0352D plate note '(I Cor. xi.)' vs our '(I Cor. XL.)'. Also observed: Gallica prints NO terminal stop after 'sanctorum vindicans injuriam' where our TEI supplies one (the archive appears to carry a stop; treated as a press variant and left alone). Confirms Migne's own '(Eccli. xix)' on the 3 Rg 1:33 quotation and '(Matth. viii)' on the Mt 9:8 allusion -- both misfired citations are HIS."
+    },
+    {
+     "from": "0353A",
+     "to": "0354D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f177 (Gallica) + p.182 (archive)",
+     "source": "Gallica IIIF native crops plus 4x enlargements; archive.org PDF at 100 dpi whole-page and 400 dpi crop, printed corners read 353 / 354",
+     "found": "ONE DIGITIZATION LOSS, confirmed on BOTH printings: 0354A the note reads '(Psal. xxxiii.)' -- Migne's citation of Ps 33:17 is CORRECT and our TEI's '(Psal. XXXVIII)' is the corruption. TEI patch filed; the English keeps the twin's form because verify-english content-checks [n:] against the Latin. ONE PRESS VARIANT: 0354C Gallica breaks 'tan' / 'git' across the line with NO hyphen (our TEI's 'tan git'), while the archive prints 'tan-' cleanly; one printing only, so no marker and no patch -- the English renders 'touches'. Nothing else diverges."
+    },
+    {
+     "from": "0355A",
+     "to": "0356D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f178 (Gallica) + p.183 (archive)",
+     "source": "Gallica IIIF native crops plus a 4x enlargement of one disputed word; archive.org PDF at 100 dpi, printed corners read 355 / 356",
+     "found": "ONE DIGITIZATION LOSS, confirmed on BOTH printings: 0356A plate 'nominetur' (undotted i on Gallica, unambiguous on the archive) vs our TEI's 'nommetur'. TEI patch filed; no [sic:]. Confirms Migne's own first-person Rom 8:13 and his Mt 6:31 'Ne cogitetis dicentes: Quid comedemus'. Our TEI's note '(AUG., quaest. 76. in Lev.)' carries a stop after 76 that the plate does not print; too slight to patch, logged only."
+    },
+    {
+     "from": "0357A",
+     "to": "0358D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f179 (Gallica) + p.184 (archive)",
+     "source": "Gallica IIIF native crops plus a 4x enlargement of one line end; archive.org PDF at 100 dpi, printed corners read 357 / 358",
+     "found": "ONE PRESS VARIANT: 0358D Gallica breaks 'dis' / 'cernimus' across the line with NO hyphen (our TEI's 'dis cernimus'), the archive prints 'dis-'; one printing only, so no marker and no patch -- the English renders 'we distinguish'. Same mechanism as 0354C. Otherwise ZERO. Confirms Malachias 1:12 'Mensa Domini deserta est', Isa 1:8 'Relinquetur filia Sion sicut umbraculum vineae', and Col 3:1-2 'Si consurreximus cum Christo, quae sursum sunt sapiamus' as Migne's own."
+    },
+    {
+     "from": "0359A",
+     "to": "0360D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f180 (Gallica)",
+     "source": "Gallica IIIF native crops plus 4x enlargements of two disputed spots",
+     "found": "ZERO divergences from our TEI. Two things settled here that would otherwise read as findings: (1) 0359A the sentence 'non ut claudus, qui saltem cum infirmitate tenebat' BREAKS OFF on the plate itself, with no terminal stop and no completion before the next VERS. -- Migne's own truncation, not a digitization loss, so no [ed:]; (2) the numeral 3 in this fount prints with a flat top and reads as '5' at scan resolution -- 'Vers. 5. -- Omnis homo qui accesserit' at 0360A is Migne's Vers. 3, exactly as our TEI has it, and the same glyph accounts for 'Vers. 15' = 13 at 0350B and 'Vers. 25' = 23 at 0351C. Confirms Migne's own '(I Tim. ii.)' on the Titus 1:7 quotation at 0359C."
+    },
+    {
+     "from": "0361A",
+     "to": "0362B",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f181 (both columns, upper two thirds; the remainder of the leaf is CAPUT XXIII and out of range)",
+     "source": "Gallica IIIF native crops",
+     "found": "ZERO divergences from our TEI. Confirms Migne's own Isa 56:10 'Videte quoniam omnes nesciverunt', Ps 41:10 'Utquid tristis incedo', Ps 49:16 'Peccatori dixit Deus', and Dt 16:2 'Immolabis pascha Domino Deo tuo; oves'. The printer's signature 'PATROL. CXIII.' stands at the foot of col. 0361D and is correctly absent from our TEI. No foot-of-page apparatus of either layer anywhere in f174-f181."
+    },
+    {
+     "from": "0362C",
+     "to": "0362D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f181 (Gallica, right column) + archive p.186; CALIBRATION LEAF for both maps",
+     "source": "Gallica IIIF full-page plus two native crops enlarged 4x; archive 300 dpi column crop",
+     "found": "TWO ARCHIVE-ONLY READINGS, both refused as jbig2 artefacts and NOT reportable: the archive prints 'VERS. 56.' for 'VERS. 5.' at the Quartadecima die lemma (an inked blot merged with the stop), and 'holocautomata' for 'holocaustomata'. Gallica is clean at both and agrees with our TEI. No other divergence in the running text; no foot-of-page apparatus."
+    },
+    {
+     "from": "0363A",
+     "to": "0364D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f182 (Gallica) + archive p.187",
+     "source": "Gallica IIIF native column crops plus 3x enlargements of four disputed words; archive 300 dpi column crops",
+     "found": "ONE DIGITIZATION LOSS confirmed on BOTH printings and filed as a pending TEI patch: 0363D 'habitunt' where both plates read 'habitant' (Ps 82:5). TWO archive-only readings refused as jbig2: 0364C 'agni mandatorem' for 'mandatorum', and 'Non secabis' for 'Non secabitis' -- Gallica has the TEI reading at both. Confirms Migne's own text behind three [var:] fired in chunk 0025 (Mt 19:21 with 'omnia' and cited Matth. IX; 2 Cor 2:14 'odorem scientiae suae'; Rom 11:33 without 'divitiarum'). Confirms the misfired citation '(Joan. X)' on a Leviticus lemma at 0364C. One press-variant spelling: archive 'Parthi', Gallica and our TEI 'Parti'. No foot-of-page apparatus."
+    },
+    {
+     "from": "0365A",
+     "to": "0366A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f183 (Gallica, left column) + archive p.188",
+     "source": "Gallica IIIF native column crop; archive 300 dpi column crop",
+     "found": "ZERO divergences from our TEI. Migne's own square bracket at 0365A -- 'Quasi [sicut] non est opus servilia agendi' -- is confirmed on BOTH printings and is his, not ours; it is carried into the English untranslated. Confirms Heb 4:10 printed 'in illam requiem' (the [var:] fired at 0364D-0365A). No foot-of-page apparatus."
+    },
+    {
+     "from": "0366B",
+     "to": "0366D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f183 (Gallica, right column) + archive p.188",
+     "source": "Gallica IIIF native crops, the last three lines of the column re-cropped with the full left margin in and enlarged 3x; archive 300 dpi",
+     "found": "ONE PRESS VARIANT, GALLICA DEFECTIVE: at 0366D the archive prints 'interdum enim qui foras mittitur', Gallica and our TEI print the non-word 'interdura'. Rendered by sense ('sometimes'), NO [sic:] fired, no patch filed. One archive-only reading refused as jbig2 in the same sentence: archive 'intur videtur retineri' where Gallica and our TEI read 'intus'. Migne's own square bracket confirmed later at 0372C. Confirms the [var:] fired on Prv 3:28/27:1 at 0366C and on 1 Pt 2:22-for-Isa 53:9. No foot-of-page apparatus."
+    },
+    {
+     "from": "0367A",
+     "to": "0367D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f184 (Gallica, left column) + archive p.189",
+     "source": "Gallica IIIF native crops taken from x=0 so the full left margin is in frame, enlarged 3x; archive 300 dpi",
+     "found": "THE STINT'S PRINCIPAL PRESS FINDING, GALLICA DEFECTIVE, THREE SITES IN ONE PARAGRAPH: at 0367D the Gallica copy drops the word-initial letter on three consecutive lines -- 'egem' for legem, 'imeres' for timeres, and 'prin-/eps' for princeps. The archive prints all three whole. Verified with the full column margin in frame, so it is not a crop artefact: the affected lines begin at the same left margin as their neighbours. ALL THREE RENDERED BY SENSE, NO [sic:] FIRED, no patch filed -- a stint working from Gallica alone would have fired two false [sic:] against Migne here. SEPARATELY, one digitization loss confirmed on BOTH printings and filed as a pending TEI patch: 0367C 'sagitae' where both read 'sagittae'. Confirms as Migne's own the impossible citation '(Joan. XXXI)' at 0367A and the misfired '(Psal. LIX)' for Ps 56:5 at 0367C. No foot-of-page apparatus."
+    },
+    {
+     "from": "0368A",
+     "to": "0368D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f184 (Gallica, right column) + archive p.189",
+     "source": "Gallica IIIF native crops plus 4x enlargement of the verse number at Seres agrum; archive 300 dpi plus a 3x enlargement of the same",
+     "found": "ONE DIGITIZATION LOSS confirmed on BOTH printings, filed as a pending TEI patch: 0368A 'terrum' where both read 'terram' (Ps 142:10). ONE UNRESOLVED PRESS VARIANT: the archive prints 'VERS. 4.' at the Seres agrum lemma (the correct locus, Lv 25:4), Gallica and our TEI print 'VERS. 3.', repeating the number of the preceding gloss. Both readings are well-formed at 4x. The English follows the twin and the variant is logged; no marker. One archive-only reading refused as jbig2: 'siue qua' for 'sine qua' at 0368D. Confirms 1 Th 4:15 printed 'descendent ... incorrupti' (the [var:] fired at 0368C). No foot-of-page apparatus."
+    },
+    {
+     "from": "0369A",
+     "to": "0370D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f185 (Gallica) + archive p.190",
+     "source": "Gallica IIIF native column crops plus a 3x enlargement at 0370C; archive 300 dpi column crops",
+     "found": "ZERO divergences from our TEI. ONE archive-only reading refused as jbig2, and it is the most dangerous kind because it construes: at 0370C the archive prints 'et adjectis peccatoribus' where Gallica and our TEI print 'abjectis' -- b/d substitution, and 'the sinners being added' would have inverted the sense of the whole clause. Confirms Migne's own text behind three [var:] (1 Cor 3:22 as 'Omnia vestra sumus sicut et vos nostra'; Mt 6:34 as 'Nolite cogitare de crastino'; Mt 7:2 with 'in quo judicas' and cited Matth. XVII). No foot-of-page apparatus."
+    },
+    {
+     "from": "0371A",
+     "to": "0372D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f186 (Gallica) + archive p.191",
+     "source": "Gallica IIIF native column crops plus five 3x enlargements; archive 300 dpi column crops",
+     "found": "ZERO divergences from our TEI. FIVE archive-only readings refused as jbig2, Gallica clean at all five: 0371A 'reparatis' for 'reparastis' and 'histronum' for 'histrionum'; 0372C 'Ea vera' for 'Ea vero'; 0372D 'Quasi pax erit' for 'Quia pax erit'. ONE PRESS VARIANT of punctuation: the archive closes 'non det escam.' with a full stop at 0372B, Gallica and our TEI print none; the English supplies the stop the archive carries and the variant is logged. ⭐ CONFIRMS ON BOTH PRINTINGS the headline divergence of this stint: 0372D prints 'quia caro NON concupiscet adversus spiritum (Galat. IV)', a printed negation reversing Gal 5:17. Migne's own square bracket 'obscura [occulta] explanantur' at 0372C confirmed on both. No foot-of-page apparatus."
+    },
+    {
+     "from": "0373A",
+     "to": "0374D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f187 (Gallica) + archive p.192",
+     "source": "Gallica IIIF native column crops plus six 3x-4x enlargements; archive 300 dpi column crops",
+     "found": "ONE DIGITIZATION LOSS confirmed on BOTH printings, filed as a pending TEI patch: 0374D 'poliuti' where both read 'polluti' (and both capitalize the lemma 'Incircumcisa', which our TEI lower-cases -- also filed). ONE FURTHER PATCH: 0374A, both plates read 'VERS. 25.' at the Gladium lemma where our TEI reads 'VERS. 23.'; 25 is the correct locus. FOUR archive-only readings refused as jbig2, Gallica clean at all four, and two of them would have been serious: 0373B 'Venit ad NON Deus' for 'ad nos Deus' (the s/n substitution of the 11064 apud-non class) and 0374A 'nomini servivimus' for 'nemini servivimus' (which would have swallowed the negation of Jo 8:33); also 0373B 'Si quod et aliud' for 'est aliud', and a stray unclosed '(' before 'Non solum legislator' at 0374B. Confirms Migne's own text behind four [var:] and the misfired '(Joan. III)' for Jo 8:33. No foot-of-page apparatus."
+    },
+    {
+     "from": "0375A",
+     "to": "0376D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f188 (Gallica) + archive p.193",
+     "source": "Gallica IIIF native column crops plus five 3x-4x enlargements; archive 300 dpi column crops",
+     "found": "TWO DIGITIZATION LOSSES confirmed on BOTH printings and filed as pending TEI patches: 0375B, both plates punctuate 'Et alibi :' where our TEI prints 'Et alibi-'; and 0376A, ⭐ both plates print 'duplices sensus habeat' ONCE where our TEI doubles 'sensus sensus' -- so the doubling is ours and NO [d: …] was fired. ONE PRESS VARIANT, ARCHIVE DEFECTIVE: at 0376D the archive drops the word-initial i of 'intelligibilem' (printing 'ntelligibilem', verified with the full column margin in frame); Gallica and our TEI are whole. Rendered by sense, no marker. ONE archive-only reading refused as jbig2: '(Matth. xxxv)' for '(Matth. xxv)' at 0376C. Confirms Rom 11:25 printed 'contingit ... subintraret' and cited (I Tim. II) at 0375A, and 1 Pt 2:2 printed 'infantes rationabiles' at 0375D. No foot-of-page apparatus."
+    },
+    {
+     "from": "0377A",
+     "to": "0378D",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f189 (Gallica) + archive p.194",
+     "source": "Gallica IIIF native column crops plus three 3x enlargements; archive 300 dpi column crops",
+     "found": "ZERO divergences from our TEI. TWO archive-only readings refused as jbig2: '(Joan. xvi)' for '(Joan. xiv)' at 0377A, and a terminal stop after 'fuerat' at 0377C which Gallica and our TEI lack. Confirms as Migne's own the citation '(Joan. XIV)' for Jo 15:1 at 0377A, and confirms Lv 27:25 printed 'siclo sanctuarii pondera' (for ponderabitur) at 0377D, on which a [var:] was fired. Confirms 1 Cor 4:17 printed 'filius meus dilectus' at 0378B. No foot-of-page apparatus."
+    },
+    {
+     "from": "0379A",
+     "to": "0380A",
+     "depth": "full",
+     "date": "2026-09-07",
+     "page": "f190 (Gallica) + archive p.195; the leaf where Leviticus ends and LIBER NUMERI begins mid-page",
+     "source": "Gallica IIIF native column crops; archive 300 dpi column crops; printed corners read first, 379 / 380",
+     "found": "ZERO divergences from our TEI in the last two bands of the work. Confirms the band sequence: Leviticus occupies only band A of col. 0379 (left column) and resumes at band A of col. 0380 (right column), the LIBER NUMERI title block and PRAEFATIO standing between them on the same leaf -- so the 0379A -> 0380A anchor jump in our chunk 0029 is the page's own layout and NOT a gap. Confirms 'frustra conatis hunc subducere' (an anacoluthon, rendered literally and logged) and 2 Tim 4:11 printed 'Assumens Marcum, deduc tecum'. No foot-of-page apparatus. This supersedes the shallower 'read' recorded for f190 on 2026-09-05, which was scoped to the head-of-book banner and the foot apparatus only."
+    }
+   ]
+  },
   "8962": {
    "series": "pl",
    "volume": 113,
@@ -7271,33 +7797,6 @@
      "page": 305,
      "source": "on-disk PL 203 scan raw/scans/pl203/patrologiaecurs191unkngoog.pdf; half-column crop at 300 dpi with the page’s running head and corner numbers stacked above every crop and read before the text. Piecewise page map, calibrated against the printed corners: page = (col+27)/2 up to col 494, (col+31)/2 for cols 495-514, (col+27)/2 from col 519; cols 491-494 appear twice (pp.259-260 and again pp.261-262) and cols 515-518 are missing.",
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
-    }
-   ]
-  },
-  "8961": {
-   "series": "pl",
-   "volume": 113,
-   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
-   "page_map": "Gallica leaf f = (column + 1) / 2",
-   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these two reads; see the note on each.",
-   "reads": [
-    {
-     "from": "0295D",
-     "to": "0296D",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f148",
-     "source": "Gallica f148 at native IIIF resolution (1908x3118), full page plus native crops of the banner and of the foot strip at full page width. CALIBRATION PAGE: printed corners read FIRST and give 295/296, confirming f = (column + 1) / 2 for this tome.",
-     "found": "Foot of page: CHECKED ZERO, both layers -- no numbered Forte conjecture, no asterisk cross-reference; both columns run to the last line with blank paper below. Head of page: ONE STRUCTURAL FINDING, the fifth of the Glossa Pentateuch book-title class. Migne sets a display line under LIBER LEVITICUS -- 'Hebraice VAIICRA (ויקרא).' -- which Corpus Corporum drops entirely; our body opened at <head>PRAEFATIO.</head>. Hebrew read letter by letter right to left at ~5x on the native crop: vav-yod-QOF (descender clearly visible)-resh-aleph. Migne's own printed transliteration VAIICRA is the on-plate control and agrees. Recovered as data/tei-patches/8961.json. ⚑ The archive copy was NOT consulted: no letter in this word belongs to the class jbig2 substitution turns into a different well-formed letter (contrast 8963's dalet/resh), and Gallica is the better witness for non-Latin type by construction. That is a stated reason, not an omission."
-    },
-    {
-     "from": "0335",
-     "to": "0336",
-     "depth": "read",
-     "date": "2026-09-07",
-     "page": "f168",
-     "source": "Gallica f168 at native IIIF resolution, full page. Corners read first and give 335/336.",
-     "found": "CHECKED ZERO. Interior page of the work (Lev. XIII 51 - XIV 9, the leprosy chapters, CAPUT XIV opening mid-column). No foot-of-page apparatus of either layer; both columns run to the last line. Read for the foot question and the running text scanned, NOT collated word by word -- depth 'read', so this range licenses a marker but not silence about a column."
     }
    ]
   }

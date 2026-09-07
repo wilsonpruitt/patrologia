@@ -1,0 +1,38 @@
+{
+  "textIdno": "8961",
+  "work": "Liber Leviticus (Glossa ordinaria)",
+  "author": "Anselmus Laudunensis et schola",
+  "volume": 113,
+  "issue": "Corpus Corporum's TEI dropped the Hebrew type Migne sets inline before each Latin transliteration in the onomastic gloss on Lv 10:4. Recovered from the plate and re-inserted into both twins. See hebrew-recovery.md.",
+  "source": {
+    "repository": "Gallica (BnF)",
+    "ark": "ark:/12148/bpt6k5505319w",
+    "iiif": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5505319w/f{folio}/{region}/full/0/native.jpg",
+    "note": "PL 113 leaf map f = (column + 1) / 2, calibrated against the printed corner numbers on every leaf read. Native page 1908x3118 (~300 ppi); that is the ceiling, anything larger is interpolation. A User-Agent header is required."
+  },
+  "patches": [
+    {
+      "chunk": "0011",
+      "column": "0325D",
+      "verse": "Exod 6:22",
+      "hebrew": "מישאל",
+      "folio": "f163",
+      "pointed": false,
+      "verifiedAgainstMT": true,
+      "note": "Unpointed, as Migne sets it; MT has מִישָׁאֵל. Read at a 1900px native blow-up of the bottom of the left column. Migne's own transliteration Misael is the on-plate control. Pattern 13a clause 1: the loss left the sentence sound, so no [ed:] was fired when the gloss was translated."
+    },
+    {
+      "chunk": "0011",
+      "column": "0325D",
+      "verse": "Exod 6:22",
+      "hebrew": "אלצפן",
+      "folio": "f163",
+      "pointed": false,
+      "verifiedAgainstMT": true,
+      "note": "Unpointed; MT has אֶלְצָפָן. Same read as the preceding entry. Migne's transliterations Elisaphan / Elzaphan are the on-plate control. The insertion point precedes a <pb n=\"0326A\"/> falling inside the gloss; the Hebrew stands with Elisaphan in col 0325D, before the break."
+    }
+  ],
+  "notLacuna": [
+    "No other Hebrew was dropped in this work. The only other non-Latin type is the Greek at 0339C and 0320A, both handled as TEI patches (diacritics and a rho misread as a mu), and the book-title line at the head of the work, recovered separately as <head type=\"book-title\"> with ויקרא."
+  ]
+}
