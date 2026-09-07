@@ -1,0 +1,313 @@
+# 8957 — lemma inventory and Clementine pre-scan
+
+**Liber Job** · PL 113 · cols 0747D–0840D · 38 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## ⛔ THIS BOOK'S GUILLEMETS ARE UNBALANCED AND THE PLATE SAYS THEY ARE MIGNE'S
+
+The inventory reports **9 unbalanced-guillemet line(s)** and about twenty more turn up on a
+raw scan of the Latin: a `VERS. n.--` lemma that closes with `»` but never opened, or opens
+with `«` and never closes. **Three of them were read at the plate on 2026-09-07 and all three
+are Migne's own setting, faithfully carried by our text** (Gallica `bpt6k5505319w`, left-column
+native crops, no gutter crossed):
+
+    0767B  f384  `VERS. 20.-- De mane usque ad vesperam. »`        no opening « on the plate
+    0781A  f391  `VERS. 4.-- « Quis restitit ei et pacem habuit.`   no closing » on the plate
+    0819C  f410  `VERS. 5.-- Ut sciam verba quae, » etc.`           no opening « on the plate
+
+In each case the lemmata immediately above and below on the SAME page are normally delimited
+(`VERS. 4.-- « Os meum replebo. »`, `VERS. 6.-- « Nolo multa fortitudine contendat. »`), so this
+is compositor's inconsistency, not a damaged page and not a Corpus Corporum corruption.
+
+⛔ **Consequences, and they are the point of this section:**
+
+1. **Do not fire `[sic:]`, `[cj:]` or a TEI patch on a missing guillemet.** The class is
+   plate-confirmed at three sites in three chunks and three quires. If you meet a fourth, it
+   is the same class until a plate read says otherwise — and a plate read is the only thing
+   that may say otherwise.
+2. **Do not take the marks as the lemma boundary.** Where the opening `«` is absent the lemma
+   still runs from the `VERS. n.--` address to the closing `»`; where the closing is absent,
+   read the sense and Migne's own italics. 7a″ applies to the lemma, not to the punctuation
+   around it, and this inventory harvests by the marks — so a span here can be short or long
+   at one end. **Count your own Latin against your brief's total anyway** (see below): the
+   count is unaffected by which end is ragged.
+3. This is a **guillemet book** (the lemmata are in `« »`, not italic). Do not carry Genesis's
+   or Luke's convention over.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0000–0004, bands 0748D–0762C (205 spans, of which 2 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0748D] « *Sub quo curvantur qui portant orbem [n: (Job IX)]*, »   ✓ Job 9:13
+[0748D] « Elegit suspendium anima mea [n: (Ibid. VII)], »   ✓ Job 7:15
+[0748D] « Per eat dies in qua natus sum *(Ibid, III)*, »   ⚠ NOT in Clementine verbatim — CHECK
+[0748D] « Si negavi quod volebant, pauperibus [0749A] [n: (Job. XXXI)], »   ✓ Job 31:16
+[0749A] « Erubesce, Sidon, »   ✓ Is 23:4
+[0749A] « ait mare: »   ⚠ NOT in Clementine verbatim — CHECK
+[0749B] « Attendite, popule meus, legem meam [n: (Psal. LXXVII)]. »   ✓ Ps 77:1
+[0749C] « In die mandavit Dominus misericordiam suam, et nocte declaravit eam [n: (Psal. XLI)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0750B] *dolens*   — single word, check in place
+[0750B] *Domini contemptus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750B] *vetustas sola,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750C] *dissipatio speculae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750C] *dissipans speculatorem,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750D] *Deus meus iste,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750D] *Deus noster*   ✓ 1Par 16:14, 1Par 29:13, 1Par 29:16, …
+[0751A] « In terra sua possidebunt duplicia [n: (Isa. LXI)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0751A] « Non est vestrum nosse tempora vel momenta quae Pater in sua posuit potestate [n: (Act. I)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0751A] VERS. 1.-- « Vir erat in terra Hus. »   ✓ Job 1:1
+[0751A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0751B] « Simplex. »   — single word, check in place
+[0751B] « Timens Deum. »   ✓ Act 10:2, Act 10:22, Jdt 8:29, …
+[0751B] « Qui timet Deum nihil negligit [n: (Eccle. VII)]. »   ✓ Ecl 7:19
+[0751B] « Qui in uno offendit, multa bona perdet [n: (Eccle. IX)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0751C] « Ac familia multa. »   ✓ Job 1:3
+[0751C] « Inter omnes, »   ✓ 1Rg 9:21, Dt 7:14, Est 2:4, …
+[0751C] « Oriens nomen ejus [n: (Zach. VI)]: »   ✓ Zach 6:12
+[0751C] VERS. 4.-- « Et faciebant convivium, »   ✓ Job 1:4
+[0751C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0751D] « Per domos, unusquisque, »   ✓ Job 1:4
+[0751D] « Tres sorores, »   ✓ Job 1:4
+[0751D] « Cumque in orbem transissent dies. »   ✓ Job 1:5
+[0752A] VERS. 5.-- « Cumque in orbem, »   ✓ Job 1:5
+[0752B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752B] VERS. 6.-- « Quadam autem die. »   ✓ Job 1:6
+[0752C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752C] « Affuit inter eos. »   ✓ Job 1:6
+[0752C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752C] « Inter eos etiam Satan. »   ✓ Job 1:6
+[0752C] « Unde venis? »   ✓ 2Rg 1:3, 4Rg 5:25, Gn 16:8, …
+[0752C] « Circumivi terram. »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] « Nunquid considerasti servum meum, »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] « Nunquid frustra? »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] « Ecce universa substantia quam habet in manu tua est. »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] VERS. 7.-- « Cui dixit Dominus, »   ✓ Job 1:7
+[0753A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0753A] « Unde venis? »   ✓ 2Rg 1:3, 4Rg 5:25, Gn 16:8, …
+[0753A] « unde venis? vias ejus est quasi incognitas reprobare. « Circumivi terram. »   ⚠ NOT in Clementine verbatim — CHECK
+[0753A] « In circumitu impii ambulant [n: (Psal. XI)], id est, in exteriorum labore fatigantur. Diabolus non contra Job, [0753B] sed in Job medio, contra Deum certat. Unde non prius Job a Deo petiit, sed illum Deus in conspectu ejus laudavit.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0753B] VERS. 9.-- « Nunquid frustra Job timet Deum? etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0753B] « Nonne vallasti? »   ⚠ NOT in Clementine verbatim — CHECK
+[0753B] « Possessio illius crevit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0753C] « Sed extende, »   ✓ Job 1:11
+[0753C] « Manum. »   — single word, check in place
+[0753C] VERS. 11.-- « Tange. »   — single word, check in place
+[0753C] « In faciem. »   ✓ 1Cor 14:25, 1Mcc 4:40, 1Mcc 4:55, …
+[0753D] VERS. 12.-- « Dixit ergo Dominus. »   ✓ Ex 4:19, Job 1:12, Job 2:6
+[0753D] « Ecce omnia quae habet, »   ⚠ NOT in Clementine verbatim — CHECK
+[0753D] « Ecce universa . . . tantum in eum, etc., »   ⚠ NOT in Clementine verbatim — CHECK
+[0754A] « Sed extende. »   ✓ Job 1:11
+[0754A] « Ecce universa quae habet in manu tua sunt. »   ✓ Job 1:12
+[0754A] « Egressus. »   — single word, check in place
+[0754A] « Egressus Satan. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754B] « Egressusque a facie. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754B] VERS. 13.-- « Cum autem quadam die filii et « filiae, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754B] « In viam gentium ne abieritis [0754C] [n: (Matth. X)]. »   ✓ Mt 10:5
+[0754C] « Comederent et biberent, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754C] « Fratris sui primogeniti, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0754C] VERS. 14.-- « Boves arabant, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754C] « Captivus ductus est populus meus: quia non habuit [0754D] scientiam [n: (Isa. V)]; »   ✓ Is 5:13
+[0754D] VERS. 15.-- « Et pueros. »   ✓ 1Mcc 3:41, 1Mcc 13:17, 1Mcc 13:18, …
+[0754D] VERS. 16.-- « Ignis Dei cecidit e coelo. »   ✓ Job 1:16
+[0755A] VERS. 17.-- « Chaldaei fecerunt, »   ✓ Job 1:17
+[0755A] *feroces,*   — single word, check in place
+[0755A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755A] « Camelos, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755A] « Ut nuntiarem tibi, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755B] VERS. 18.-- « Filiis tuis, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755B] « Ventus, »   — single word, check in place
+[0755B] « Dilectus meus in domo mea fecit [0755C] scelera multa [n: (Jer. XI)], »   ✓ Jr 11:15
+[0755C] « Proximi mei a longe steterunt [n: (Psal. XXXVII)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755C] « Percutiam pastorem, et dispergentur oves [n: (Matth. XXVI)], »   ✓ Mc 14:27, Mt 26:31
+[0755C] « In domo fratris, »   ✓ Job 1:13, Job 1:18
+[0755C] VERS. 19.-- « Repente ventus. »   ✓ Job 1:19
+[0755D] « A regione deserti. »   ✓ Job 1:19
+[0755D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755D] VERS. 20.-- « Tunc surrexit Job, et scidit vestimenta sua. »   ✓ Job 1:20
+[0755D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755D] « Et tonso capite. »   ✓ Job 1:20
+[0755D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755D] « Corruens in terram. »   ✓ Job 1:20
+[0755D] « Nudus egressus sum de utero matris meae. »   ✓ Job 1:21
+[0756A] VERS. 21.-- « Nudus egressus sum. »   ✓ Job 1:21
+[0756A] « De utero matris meae. »   ✓ Jdc 16:17, Job 1:21, Job 31:18, …
+[0756B] « Dominus dedit. »   ✓ 1Cor 3:5, 1Par 14:17, 2Cor 13:10, …
+[0756B] « Sicut Domino placuit. »   ✓ Job 1:21
+[0756B] VERS. 22.-- « In omnibus his non peccavit Job. »   ✓ Job 1:22, Job 2:10
+[0756B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0756B] VERS. 1, 2.-- « Factum est autem, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0756B] « Unde [0756C] venis? »   ✓ 2Rg 1:3, 4Rg 5:25, Gn 16:8, …
+[0756C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0756C] VERS. 3.-- « Innocentiam. »   — single word, check in place
+[0756C] VERS. 4.-- « Pellem pro pelle. »   ✓ Job 2:4
+[0756D] « Mittamus lignum in panem ejus [n: (Jer. XI)], »   ✓ Jr 11:19
+[0756D] « Pellem pro pelle, et cuncta quae habet homo »   ✓ Job 2:4
+[0757A] « Mitte manum tuam, »   ✓ Ex 4:6, Job 2:5
+[0757A] VERS. 5.-- « Alioquin mitte manum tuam. »   ✓ Job 2:5
+[0757A] « Et tange os ejus. »   ✓ Job 2:5
+[0757A] VERS. 6.-- « Ecce in manu tua est. »   ✓ Job 2:6
+[0757B] « Ecce in manu tua. »   ✓ Job 2:6
+[0757B] VERS. 7.-- « Egressus igitur Satan. »   ✓ Job 2:7
+[0757B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0757B] VERS. 8.-- « Qui testa saniem radebat. »   ✓ Job 2:8
+[0757B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0757B] VERS. 9.-- « Dixit autem illi uxor sua. »   ✓ Job 2:9
+[0757B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0757B] « Adhuc tu permanes in simplicitate tua. »   ✓ Job 2:9
+[0757C] « Quasi una de stultis, etc., »   ⚠ NOT in Clementine verbatim — CHECK
+[0757C] « Adhuc tu permanes. »   ✓ Job 2:9
+[0757C] « Benedic Domino et morere. »   ⚠ NOT in Clementine verbatim — CHECK
+[0757D] VERS. 10.-- « Quasi una de stultis, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0757D] « de stultis mulieribus: »   ✓ Job 2:10
+[0757D] « Si bona suscepimus, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0757D] « Si bona, »   ✓ Job 2:10
+[0757D] « In omnibus his, »   ✓ Dn 10:21, Ez 16:43, Is 9:12, …
+[0758A] « In omnibus. »   ✓ 1Cor 1:5, 1Cor 7:17, 1Cor 8:7, …
+[0758A] VERS. 11.-- « Igitur. »   — single word, check in place
+[0758A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0758A] « Audientes. »   — single word, check in place
+[0758A] « Tres amici. »   ✓ Job 2:11
+[0758B] « Condixerant, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0758B] « Amice, ad quid venisti [n: (Matth. XXVI)]? »   ✓ Mt 26:50
+[0758B] « Condixerant. »   — single word, check in place
+[0758B] VERS. 12.-- « Cumque elevassent procul oculos. »   ✓ Job 2:12
+[0758B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0758C] « Exclamantes ploraverunt. »   ✓ Job 2:12
+[0758C] « Sparserunt pulverem. »   ✓ Job 2:12
+[0758D] VERS. 13.-- « In terra. »   ✓ 1Cor 8:5, 1Jo 5:8, 1Mcc 1:10, …
+[0758D] « Septem diebus. »   ✓ 1Par 10:12, 1Rg 10:8, 1Rg 13:8, …
+[0758D] « Diebus et noctibus. »   ✓ Dt 9:18, Ecl 8:16
+[0759A] « Nemo loquebatur ei verbum. »   ✓ Job 2:13
+[0759A] « Nemo loquebatur. »   ✓ Job 2:13
+[0759A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0759A] « Videbant enim dolorem. »   ✓ Job 2:13
+[0759B] VERS. 1.-- « Post haec, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0759B] « Maledixit diei suo. »   ✓ Job 3:1
+[0759C] « Post haec. »   ✓ 1Mcc 1:6, 1Mcc 3:55, 1Mcc 5:37, …
+[0759C] « Maledixit. »   — single word, check in place
+[0759C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0759C] VERS. 3.-- « Pereat dies in qua natus sum. »   ✓ Job 3:3
+[0759C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0759C] « Pereat dies. »   ✓ Job 3:3
+[0759D] « Et nox. »   ✓ Apc 22:5, Is 21:12, Job 3:3, …
+[0759D] VERS. 4.-- « Dies illa, »   ⚑ MATCHES ONLY ELSEWHERE — Est 11:8, Jr 30:7, Lc 21:34, …  (lemma is Job 3) — CHECK
+[0759D] « Non requirat. »   ✓ Job 3:4
+[0760A] « Quorum tecta sunt peccata [n: (Psal. XXXI)], »   ✓ Ps 31:1, Rom 4:7
+[0760A] VERS. 5.-- « Non illustretur, etc., obscurent eum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0760A] « Tenebrae. »   — single word, check in place
+[0760A] « Et umbra mortis. »   ✓ Job 3:5, Ps 106:10, Ps 106:14
+[0760A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760A] « Occupet eum caligo. »   ✓ Job 3:5
+[0760A] « Est enim confusio adducens gloriam. [n: (Eccli. IV.)] »   ⚠ NOT in Clementine verbatim — CHECK
+[0760A] « Et involvatur. »   ✓ Job 3:5
+[0760A] « Amaritudine. »   — single word, check in place
+[0760B] VERS. 6.-- « Noctem illam tenebrosus turbo possideat. »   ✓ Job 3:6
+[0760B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760B] « Non computetur in die anni. »   ⚠ NOT in Clementine verbatim — CHECK
+[0760B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760B] VERS. 7.-- « Sit nox illa solitaria. »   ✓ Job 3:7
+[0760B] « Nec laude digna. »   ✓ Job 3:7
+[0760C] VERS. 8.-- « Maledicant ei. »   ✓ Job 3:8
+[0760C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760C] « Leviathan. »   — single word, check in place
+[0760C] VERS. 9.-- « Caligine »   — single word, check in place
+[0760C] « Obtenebrentur stellae. »   ✓ Job 3:9
+[0760D] « Exspectet lucem. »   ⚠ NOT in Clementine verbatim — CHECK
+[0760D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760D] « Nec ortum surgentis aurorae. »   ✓ Job 3:9
+[0761A] VERS. 10.-- « Quia non conclusit ostia ventris, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0761A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761A] VERS. 11.-- « Quare non in vulva mortuus sum. »   ✓ Job 3:11
+[0761A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761A] « Et egressus ex utero. »   ⚠ NOT in Clementine verbatim — CHECK
+[0761A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761A] VERS. 13, 14.-- « Nunc enim. »   ✓ 1Rg 2:16, Dn 10:11, Ex 9:15, …
+[0761B] « Requiescerem cum regibus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0761B] « Qui aedificant, »   ✓ Job 3:14, Ps 126:1
+[0761C] VERS. 15.-- « Cum principibus qui possident aurum. »   ✓ Job 3:15
+[0761C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761C] VERS. 16.-- « Aut sicut abortivum. »   ✓ Job 3:16
+[0761D] « Absconditum. »   — single word, check in place
+[0761D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761D] VERS. 17.-- « Ibi impii. »   ✓ Job 3:17
+[0761D] « Et ibi requieverunt. »   ✓ Job 3:17
+[0762A] « Concupiscit, et deficit anima mea in atria Domini [n: (Psal. XXXVIII)]. »   ✓ Ps 83:3
+[0762A] VERS. 18.-- « Et quondam vincti. »   ✓ Job 3:18
+[0762A] « Qui non audierunt, [0762B] etc. « Exactor diabolus, qui semel nummum deceptionis homini contulit, et quotidie debitum mortis exigit, vox ejus est tentatio. Audit qui tentatur, et resistit: exaudit qui consentit. Idem de interna pace, quia quod mens valde amat, saepius replicat.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0762B] « In domo Patris mei mansiones multae sunt. [n: (Joan. XIV.)] »   ✓ Jo 14:2
+[0762B] « Et servus. »   ✓ 2Ptr 2:19, 3Rg 3:8, Dt 12:18, …
+[0762C] VERS. 20.-- « Quare misero data est lux? »   ✓ Job 3:20
+[0762C] « Quare misero data est lux, »   ✓ Job 3:20
+[0762C] « Et vita his qui, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0762C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …

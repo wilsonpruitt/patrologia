@@ -8240,6 +8240,60 @@
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
     }
    ]
+  },
+  "8957": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+   "page_map": "Gallica leaf f = (column + 1) / 2",
+   "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted for these reads; no single letter was at stake.",
+   "reads": [
+    {
+     "from": "747A",
+     "to": "748D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f374",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST on both spot-check pages -- f374 gives 747/748 and f400 gives 799/800, confirming f = (column + 1) / 2 at two points 26 leaves apart. Whole page at 1400px width plus a native-resolution foot crop (0,2600,1919,529).",
+     "found": "CHECKED ZERO at the foot, both layers. Work-division page. No Hebrew/Greek book-title line under the LIBER JOB banner. Col 748D collated in passing against our chunk 0000: Migne's guillemet lemmata print as our TEI has them (« Elegit suspendium anima mea (Ibid. VII), »)."
+    },
+    {
+     "from": "799A",
+     "to": "800D",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f400",
+     "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST on both spot-check pages -- f374 gives 747/748 and f400 gives 799/800, confirming f = (column + 1) / 2 at two points 26 leaves apart. Whole page at 1400px width plus a native-resolution foot crop.",
+     "found": "CHECKED ZERO at the foot, both layers. Interior page. Foot of col 800 shows a normally-delimited lemma (VERS. 11. -- « Aperuerunt super me ora, » etc.), the control for the unbalanced-guillemet reads below."
+    },
+    {
+     "from": "767A",
+     "to": "767B",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f384",
+     "source": "Gallica f384, native-resolution crop of the LEFT column only (150,250,900,900) -- no gutter crossed.",
+     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 1 of 3. The plate prints 'VERS. 20. -- De mane usque ad vesperam. »' with NO opening guillemet and a closing one, exactly as our TEI has it. The lemmata immediately above and below on the same page are normally delimited. Our text is faithful; nothing to patch."
+    },
+    {
+     "from": "781A",
+     "to": "781A",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f391",
+     "source": "Gallica f391, native-resolution crop of the LEFT column only (150,250,900,1000).",
+     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 2 of 3, and the OPPOSITE direction: 'VERS. 4. -- « Quis restitit ei et pacem habuit.' opens and never closes on the plate, the gloss running straight on, exactly as our TEI has it. VERS. 1 and VERS. 3 on the same page are normally delimited."
+    },
+    {
+     "from": "819C",
+     "to": "819C",
+     "depth": "read",
+     "date": "2026-09-07",
+     "page": "f410",
+     "source": "Gallica f410, native-resolution crop of the LEFT column only (150,900,900,1000).",
+     "found": "MIGNE'S OWN UNBALANCED GUILLEMET, site 3 of 3: 'VERS. 5. -- Ut sciam verba quae, » etc.' prints with no opening guillemet, between VERS. 4 and VERS. 6 which both carry theirs. 26 leaves from site 1, in a different chunk and a different quire."
+    }
+   ]
   }
  }
 }

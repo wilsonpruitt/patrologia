@@ -1,6 +1,80 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-07 (late) — 8961 LEVITICUS IS BUILT AND STAGED, UNDEPLOYED · 8956 ISAIAH IS PREPARED
+## ▶▶▶▶▶ START HERE 2026-09-07 (evening) — 8957 *LIBER JOB* IS PREPARED · NOTHING IS OWED ON THE SHIPPED BOOKS
+
+⭐ **The two books the previous note called owed are DONE and LIVE.** 8961 Leviticus and 8956
+Isaiah are both translated, built, pushed and deployed — local `master` == `origin/master` at
+`7fc8769`, working tree clean, and **migne.app/glossa reads 56 Englished of 58**. Everything below
+the next section in this file that says otherwise is history.
+
+### 1. ✅ 8957 *LIBER JOB* — PREPARED THIS SESSION, READY TO TRANSLATE
+
+**38 chunks, 38,206 words, 369 column marks, 384 notes, validation OK.** PL 113 cols
+**0747D–0840D**. Lemma inventory built (**1,746 spans**: 1,368 ✓ / 3 ⚑ / 268 ⚠ / 107 single ·
+9 open-ended) and split into **eight stint briefs**
+(`data/briefs/8957-lemmata-{0000,0005,0010,0015,0020,0025,0030,0035}.txt`), chunk ranges
+0-4 / 5-9 / 10-14 / 15-19 / 20-24 / 25-29 / 30-34 / 35-37 — every chunk in exactly one range,
+all 1,746 spans allocated, the sum assertion green.
+
+✅ **Plate spot check DONE and CLEAN — coverage `spot`, recorded in both ledgers.** Gallica
+`bpt6k5505319w`, corners read FIRST: **f374 = cols 747/748** (the work-division page — the
+LIBER JOB banner falls mid-column 747, so the two-page case applies) and **f400 = cols 799/800**
+(interior). **Checked zero at the foot on both, both layers.** Map re-calibrated at two points
+26 leaves apart. Not inherited from 8956/8961/8963.
+
+⭐ **No Hebrew/Greek book-title line under the LIBER JOB banner**, as with Isaiah. **8949 Exodus
+is still the only book owing that line** (plate p.97 / f92).
+
+⭐⭐ **THE FINDING OF THE PREP: THIS BOOK'S UNBALANCED GUILLEMETS ARE MIGNE'S OWN, AND THREE
+PLATE READS PROVE IT.** The inventory flags 9 unbalanced-guillemet lines and a raw scan of the
+Latin turns up ~22 more: a `VERS. n.--` lemma that closes with `»` having never opened, or opens
+and never closes. Three were read at the plate — **0767B (f384), 0781A (f391), 0819C (f410)**,
+three chunks and three quires apart, one of them in the opposite direction — and **all three
+print exactly as our TEI has them**, with normally-delimited lemmata immediately above and below
+on the same page. **So: no `[sic:]`, no `[cj:]`, no TEI patch on a missing guillemet, and the
+marks are not the lemma boundary.** The full statement is in the head of every stint brief, under
+*THIS BOOK'S GUILLEMETS ARE UNBALANCED*. Without it, eight independent stints would each have
+rediscovered the same class and some would have fired on it.
+
+⚑ **The work ends at CAPUT XXXIII and that is Migne's own doing, not a truncation.** His editorial
+note at the head of that chapter says the exposition of capp. 33 ff., taken word for word from
+Gregory, is omitted *compendii causa* (`Vide Greg., Moralium in Job. lib. XXIII, cap. 7 et seq.`).
+Nothing is missing from our text; do not go looking for Job XXXIV–XLII.
+
+⚑ Note density is **1 per 99.5 words** — far thinner than Isaiah (46.2) or Numbers (37.4).
+Budget the polarity read lighter than either.
+
+### 2. ⛔ THE HARD STOP THAT IS OWED BEFORE JOB LAUNCHES
+
+Nothing has been launched. `src/english/8957/` does not exist. At the recalibrated **inline**
+rate (~73K/chunk — 4a″ applies: every column of this work is unread except the five leaves above):
+
+    38 chunks × ~73K            ≈ 2.77M   translation, eight stints at THREE concurrent (rule 5)
+    blind polarity read          ≈ 0.30M   eight readers, none shown cruces.md
+    patches / merge / build      ≈ 0.25M
+    ------------------------------------
+                                 ≈ 3.30M tokens
+
+**Expect the run to span usage windows**; plan stint boundaries so a death costs one batch, and
+check disk for the documented failure shape (English written, no cruces and no plate-read file,
+`verify-english` silent).
+
+### 3. Queue after Job
+**8949 Exodus (43,440)** closes `/glossa` at 58 of 58 — and it is the last book owing the Hebrew
+book-title line. Then the PL 113 leftovers (8971/8972/8973 prologues, 8974 *Additiones*,
+8975 *Ad lectorem*) and **PL 122 Eriugena** — `data/briefs/PL122-WITNESSES.md` first, and the
+*Variae lectiones* apparatus still needs its own encoding ruling from Wilson.
+
+⚑ Untracked and unrelated: `src/latin/7089/`, `7090/`, `7091/` (Innocent I, PL 20) are chunked
+but not committed and belong to no live thread.
+
+---
+
+## 2026-09-07 (late) — 8961 Leviticus staged, 8956 Isaiah prepared *(SUPERSEDED: both are translated, shipped and LIVE; /glossa reads 56)*
+
+### stale header preserved below
+
+#### (was: START HERE) 2026-09-07 (late) — 8961 LEVITICUS IS BUILT AND STAGED, UNDEPLOYED · 8956 ISAIAH IS PREPARED
 
 **Two things are owed from Wilson and nothing else blocks.** The repo is **14 commits ahead of
 `origin/master`** and **nothing has gone to migne.app since 8963 Numbers**, so `/queue` and

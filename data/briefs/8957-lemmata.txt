@@ -1,0 +1,1841 @@
+# 8957 — lemma inventory and Clementine pre-scan
+
+**Liber Job** · PL 113 · cols 0747D–0840D · 38 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## ⛔ THIS BOOK'S GUILLEMETS ARE UNBALANCED AND THE PLATE SAYS THEY ARE MIGNE'S
+
+The inventory reports **9 unbalanced-guillemet line(s)** and about twenty more turn up on a
+raw scan of the Latin: a `VERS. n.--` lemma that closes with `»` but never opened, or opens
+with `«` and never closes. **Three of them were read at the plate on 2026-09-07 and all three
+are Migne's own setting, faithfully carried by our text** (Gallica `bpt6k5505319w`, left-column
+native crops, no gutter crossed):
+
+    0767B  f384  `VERS. 20.-- De mane usque ad vesperam. »`        no opening « on the plate
+    0781A  f391  `VERS. 4.-- « Quis restitit ei et pacem habuit.`   no closing » on the plate
+    0819C  f410  `VERS. 5.-- Ut sciam verba quae, » etc.`           no opening « on the plate
+
+In each case the lemmata immediately above and below on the SAME page are normally delimited
+(`VERS. 4.-- « Os meum replebo. »`, `VERS. 6.-- « Nolo multa fortitudine contendat. »`), so this
+is compositor's inconsistency, not a damaged page and not a Corpus Corporum corruption.
+
+⛔ **Consequences, and they are the point of this section:**
+
+1. **Do not fire `[sic:]`, `[cj:]` or a TEI patch on a missing guillemet.** The class is
+   plate-confirmed at three sites in three chunks and three quires. If you meet a fourth, it
+   is the same class until a plate read says otherwise — and a plate read is the only thing
+   that may say otherwise.
+2. **Do not take the marks as the lemma boundary.** Where the opening `«` is absent the lemma
+   still runs from the `VERS. n.--` address to the closing `»`; where the closing is absent,
+   read the sense and Migne's own italics. 7a″ applies to the lemma, not to the punctuation
+   around it, and this inventory harvests by the marks — so a span here can be short or long
+   at one end. **Count your own Latin against your brief's total anyway** (see below): the
+   count is unaffected by which end is ragged.
+3. This is a **guillemet book** (the lemmata are in `« »`, not italic). Do not carry Genesis's
+   or Luke's convention over.
+
+## The inventory
+
+[0748D] « *Sub quo curvantur qui portant orbem [n: (Job IX)]*, »   ✓ Job 9:13
+[0748D] « Elegit suspendium anima mea [n: (Ibid. VII)], »   ✓ Job 7:15
+[0748D] « Per eat dies in qua natus sum *(Ibid, III)*, »   ⚠ NOT in Clementine verbatim — CHECK
+[0748D] « Si negavi quod volebant, pauperibus [0749A] [n: (Job. XXXI)], »   ✓ Job 31:16
+[0749A] « Erubesce, Sidon, »   ✓ Is 23:4
+[0749A] « ait mare: »   ⚠ NOT in Clementine verbatim — CHECK
+[0749B] « Attendite, popule meus, legem meam [n: (Psal. LXXVII)]. »   ✓ Ps 77:1
+[0749C] « In die mandavit Dominus misericordiam suam, et nocte declaravit eam [n: (Psal. XLI)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0750B] *dolens*   — single word, check in place
+[0750B] *Domini contemptus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750B] *vetustas sola,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750C] *dissipatio speculae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750C] *dissipans speculatorem,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750D] *Deus meus iste,*   ⚠ NOT in Clementine verbatim — CHECK
+[0750D] *Deus noster*   ✓ 1Par 16:14, 1Par 29:13, 1Par 29:16, …
+[0751A] « In terra sua possidebunt duplicia [n: (Isa. LXI)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0751A] « Non est vestrum nosse tempora vel momenta quae Pater in sua posuit potestate [n: (Act. I)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0751A] VERS. 1.-- « Vir erat in terra Hus. »   ✓ Job 1:1
+[0751A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0751B] « Simplex. »   — single word, check in place
+[0751B] « Timens Deum. »   ✓ Act 10:2, Act 10:22, Jdt 8:29, …
+[0751B] « Qui timet Deum nihil negligit [n: (Eccle. VII)]. »   ✓ Ecl 7:19
+[0751B] « Qui in uno offendit, multa bona perdet [n: (Eccle. IX)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0751C] « Ac familia multa. »   ✓ Job 1:3
+[0751C] « Inter omnes, »   ✓ 1Rg 9:21, Dt 7:14, Est 2:4, …
+[0751C] « Oriens nomen ejus [n: (Zach. VI)]: »   ✓ Zach 6:12
+[0751C] VERS. 4.-- « Et faciebant convivium, »   ✓ Job 1:4
+[0751C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0751D] « Per domos, unusquisque, »   ✓ Job 1:4
+[0751D] « Tres sorores, »   ✓ Job 1:4
+[0751D] « Cumque in orbem transissent dies. »   ✓ Job 1:5
+[0752A] VERS. 5.-- « Cumque in orbem, »   ✓ Job 1:5
+[0752B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752B] VERS. 6.-- « Quadam autem die. »   ✓ Job 1:6
+[0752C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752C] « Affuit inter eos. »   ✓ Job 1:6
+[0752C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0752C] « Inter eos etiam Satan. »   ✓ Job 1:6
+[0752C] « Unde venis? »   ✓ 2Rg 1:3, 4Rg 5:25, Gn 16:8, …
+[0752C] « Circumivi terram. »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] « Nunquid considerasti servum meum, »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] « Nunquid frustra? »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] « Ecce universa substantia quam habet in manu tua est. »   ⚠ NOT in Clementine verbatim — CHECK
+[0752D] VERS. 7.-- « Cui dixit Dominus, »   ✓ Job 1:7
+[0753A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0753A] « Unde venis? »   ✓ 2Rg 1:3, 4Rg 5:25, Gn 16:8, …
+[0753A] « unde venis? vias ejus est quasi incognitas reprobare. « Circumivi terram. »   ⚠ NOT in Clementine verbatim — CHECK
+[0753A] « In circumitu impii ambulant [n: (Psal. XI)], id est, in exteriorum labore fatigantur. Diabolus non contra Job, [0753B] sed in Job medio, contra Deum certat. Unde non prius Job a Deo petiit, sed illum Deus in conspectu ejus laudavit.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0753B] VERS. 9.-- « Nunquid frustra Job timet Deum? etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0753B] « Nonne vallasti? »   ⚠ NOT in Clementine verbatim — CHECK
+[0753B] « Possessio illius crevit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0753C] « Sed extende, »   ✓ Job 1:11
+[0753C] « Manum. »   — single word, check in place
+[0753C] VERS. 11.-- « Tange. »   — single word, check in place
+[0753C] « In faciem. »   ✓ 1Cor 14:25, 1Mcc 4:40, 1Mcc 4:55, …
+[0753D] VERS. 12.-- « Dixit ergo Dominus. »   ✓ Ex 4:19, Job 1:12, Job 2:6
+[0753D] « Ecce omnia quae habet, »   ⚠ NOT in Clementine verbatim — CHECK
+[0753D] « Ecce universa . . . tantum in eum, etc., »   ⚠ NOT in Clementine verbatim — CHECK
+[0754A] « Sed extende. »   ✓ Job 1:11
+[0754A] « Ecce universa quae habet in manu tua sunt. »   ✓ Job 1:12
+[0754A] « Egressus. »   — single word, check in place
+[0754A] « Egressus Satan. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754B] « Egressusque a facie. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754B] VERS. 13.-- « Cum autem quadam die filii et « filiae, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754B] « In viam gentium ne abieritis [0754C] [n: (Matth. X)]. »   ✓ Mt 10:5
+[0754C] « Comederent et biberent, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754C] « Fratris sui primogeniti, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0754C] VERS. 14.-- « Boves arabant, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0754C] « Captivus ductus est populus meus: quia non habuit [0754D] scientiam [n: (Isa. V)]; »   ✓ Is 5:13
+[0754D] VERS. 15.-- « Et pueros. »   ✓ 1Mcc 3:41, 1Mcc 13:17, 1Mcc 13:18, …
+[0754D] VERS. 16.-- « Ignis Dei cecidit e coelo. »   ✓ Job 1:16
+[0755A] VERS. 17.-- « Chaldaei fecerunt, »   ✓ Job 1:17
+[0755A] *feroces,*   — single word, check in place
+[0755A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755A] « Camelos, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755A] « Ut nuntiarem tibi, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755B] VERS. 18.-- « Filiis tuis, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755B] « Ventus, »   — single word, check in place
+[0755B] « Dilectus meus in domo mea fecit [0755C] scelera multa [n: (Jer. XI)], »   ✓ Jr 11:15
+[0755C] « Proximi mei a longe steterunt [n: (Psal. XXXVII)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0755C] « Percutiam pastorem, et dispergentur oves [n: (Matth. XXVI)], »   ✓ Mc 14:27, Mt 26:31
+[0755C] « In domo fratris, »   ✓ Job 1:13, Job 1:18
+[0755C] VERS. 19.-- « Repente ventus. »   ✓ Job 1:19
+[0755D] « A regione deserti. »   ✓ Job 1:19
+[0755D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755D] VERS. 20.-- « Tunc surrexit Job, et scidit vestimenta sua. »   ✓ Job 1:20
+[0755D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755D] « Et tonso capite. »   ✓ Job 1:20
+[0755D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0755D] « Corruens in terram. »   ✓ Job 1:20
+[0755D] « Nudus egressus sum de utero matris meae. »   ✓ Job 1:21
+[0756A] VERS. 21.-- « Nudus egressus sum. »   ✓ Job 1:21
+[0756A] « De utero matris meae. »   ✓ Jdc 16:17, Job 1:21, Job 31:18, …
+[0756B] « Dominus dedit. »   ✓ 1Cor 3:5, 1Par 14:17, 2Cor 13:10, …
+[0756B] « Sicut Domino placuit. »   ✓ Job 1:21
+[0756B] VERS. 22.-- « In omnibus his non peccavit Job. »   ✓ Job 1:22, Job 2:10
+[0756B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0756B] VERS. 1, 2.-- « Factum est autem, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0756B] « Unde [0756C] venis? »   ✓ 2Rg 1:3, 4Rg 5:25, Gn 16:8, …
+[0756C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0756C] VERS. 3.-- « Innocentiam. »   — single word, check in place
+[0756C] VERS. 4.-- « Pellem pro pelle. »   ✓ Job 2:4
+[0756D] « Mittamus lignum in panem ejus [n: (Jer. XI)], »   ✓ Jr 11:19
+[0756D] « Pellem pro pelle, et cuncta quae habet homo »   ✓ Job 2:4
+[0757A] « Mitte manum tuam, »   ✓ Ex 4:6, Job 2:5
+[0757A] VERS. 5.-- « Alioquin mitte manum tuam. »   ✓ Job 2:5
+[0757A] « Et tange os ejus. »   ✓ Job 2:5
+[0757A] VERS. 6.-- « Ecce in manu tua est. »   ✓ Job 2:6
+[0757B] « Ecce in manu tua. »   ✓ Job 2:6
+[0757B] VERS. 7.-- « Egressus igitur Satan. »   ✓ Job 2:7
+[0757B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0757B] VERS. 8.-- « Qui testa saniem radebat. »   ✓ Job 2:8
+[0757B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0757B] VERS. 9.-- « Dixit autem illi uxor sua. »   ✓ Job 2:9
+[0757B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0757B] « Adhuc tu permanes in simplicitate tua. »   ✓ Job 2:9
+[0757C] « Quasi una de stultis, etc., »   ⚠ NOT in Clementine verbatim — CHECK
+[0757C] « Adhuc tu permanes. »   ✓ Job 2:9
+[0757C] « Benedic Domino et morere. »   ⚠ NOT in Clementine verbatim — CHECK
+[0757D] VERS. 10.-- « Quasi una de stultis, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0757D] « de stultis mulieribus: »   ✓ Job 2:10
+[0757D] « Si bona suscepimus, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0757D] « Si bona, »   ✓ Job 2:10
+[0757D] « In omnibus his, »   ✓ Dn 10:21, Ez 16:43, Is 9:12, …
+[0758A] « In omnibus. »   ✓ 1Cor 1:5, 1Cor 7:17, 1Cor 8:7, …
+[0758A] VERS. 11.-- « Igitur. »   — single word, check in place
+[0758A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0758A] « Audientes. »   — single word, check in place
+[0758A] « Tres amici. »   ✓ Job 2:11
+[0758B] « Condixerant, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0758B] « Amice, ad quid venisti [n: (Matth. XXVI)]? »   ✓ Mt 26:50
+[0758B] « Condixerant. »   — single word, check in place
+[0758B] VERS. 12.-- « Cumque elevassent procul oculos. »   ✓ Job 2:12
+[0758B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0758C] « Exclamantes ploraverunt. »   ✓ Job 2:12
+[0758C] « Sparserunt pulverem. »   ✓ Job 2:12
+[0758D] VERS. 13.-- « In terra. »   ✓ 1Cor 8:5, 1Jo 5:8, 1Mcc 1:10, …
+[0758D] « Septem diebus. »   ✓ 1Par 10:12, 1Rg 10:8, 1Rg 13:8, …
+[0758D] « Diebus et noctibus. »   ✓ Dt 9:18, Ecl 8:16
+[0759A] « Nemo loquebatur ei verbum. »   ✓ Job 2:13
+[0759A] « Nemo loquebatur. »   ✓ Job 2:13
+[0759A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0759A] « Videbant enim dolorem. »   ✓ Job 2:13
+[0759B] VERS. 1.-- « Post haec, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0759B] « Maledixit diei suo. »   ✓ Job 3:1
+[0759C] « Post haec. »   ✓ 1Mcc 1:6, 1Mcc 3:55, 1Mcc 5:37, …
+[0759C] « Maledixit. »   — single word, check in place
+[0759C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0759C] VERS. 3.-- « Pereat dies in qua natus sum. »   ✓ Job 3:3
+[0759C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0759C] « Pereat dies. »   ✓ Job 3:3
+[0759D] « Et nox. »   ✓ Apc 22:5, Is 21:12, Job 3:3, …
+[0759D] VERS. 4.-- « Dies illa, »   ⚑ MATCHES ONLY ELSEWHERE — Est 11:8, Jr 30:7, Lc 21:34, …  (lemma is Job 3) — CHECK
+[0759D] « Non requirat. »   ✓ Job 3:4
+[0760A] « Quorum tecta sunt peccata [n: (Psal. XXXI)], »   ✓ Ps 31:1, Rom 4:7
+[0760A] VERS. 5.-- « Non illustretur, etc., obscurent eum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0760A] « Tenebrae. »   — single word, check in place
+[0760A] « Et umbra mortis. »   ✓ Job 3:5, Ps 106:10, Ps 106:14
+[0760A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760A] « Occupet eum caligo. »   ✓ Job 3:5
+[0760A] « Est enim confusio adducens gloriam. [n: (Eccli. IV.)] »   ⚠ NOT in Clementine verbatim — CHECK
+[0760A] « Et involvatur. »   ✓ Job 3:5
+[0760A] « Amaritudine. »   — single word, check in place
+[0760B] VERS. 6.-- « Noctem illam tenebrosus turbo possideat. »   ✓ Job 3:6
+[0760B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760B] « Non computetur in die anni. »   ⚠ NOT in Clementine verbatim — CHECK
+[0760B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760B] VERS. 7.-- « Sit nox illa solitaria. »   ✓ Job 3:7
+[0760B] « Nec laude digna. »   ✓ Job 3:7
+[0760C] VERS. 8.-- « Maledicant ei. »   ✓ Job 3:8
+[0760C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760C] « Leviathan. »   — single word, check in place
+[0760C] VERS. 9.-- « Caligine »   — single word, check in place
+[0760C] « Obtenebrentur stellae. »   ✓ Job 3:9
+[0760D] « Exspectet lucem. »   ⚠ NOT in Clementine verbatim — CHECK
+[0760D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0760D] « Nec ortum surgentis aurorae. »   ✓ Job 3:9
+[0761A] VERS. 10.-- « Quia non conclusit ostia ventris, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0761A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761A] VERS. 11.-- « Quare non in vulva mortuus sum. »   ✓ Job 3:11
+[0761A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761A] « Et egressus ex utero. »   ⚠ NOT in Clementine verbatim — CHECK
+[0761A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761A] VERS. 13, 14.-- « Nunc enim. »   ✓ 1Rg 2:16, Dn 10:11, Ex 9:15, …
+[0761B] « Requiescerem cum regibus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0761B] « Qui aedificant, »   ✓ Job 3:14, Ps 126:1
+[0761C] VERS. 15.-- « Cum principibus qui possident aurum. »   ✓ Job 3:15
+[0761C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761C] VERS. 16.-- « Aut sicut abortivum. »   ✓ Job 3:16
+[0761D] « Absconditum. »   — single word, check in place
+[0761D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0761D] VERS. 17.-- « Ibi impii. »   ✓ Job 3:17
+[0761D] « Et ibi requieverunt. »   ✓ Job 3:17
+[0762A] « Concupiscit, et deficit anima mea in atria Domini [n: (Psal. XXXVIII)]. »   ✓ Ps 83:3
+[0762A] VERS. 18.-- « Et quondam vincti. »   ✓ Job 3:18
+[0762A] « Qui non audierunt, [0762B] etc. « Exactor diabolus, qui semel nummum deceptionis homini contulit, et quotidie debitum mortis exigit, vox ejus est tentatio. Audit qui tentatur, et resistit: exaudit qui consentit. Idem de interna pace, quia quod mens valde amat, saepius replicat.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0762B] « In domo Patris mei mansiones multae sunt. [n: (Joan. XIV.)] »   ✓ Jo 14:2
+[0762B] « Et servus. »   ✓ 2Ptr 2:19, 3Rg 3:8, Dt 12:18, …
+[0762C] VERS. 20.-- « Quare misero data est lux? »   ✓ Job 3:20
+[0762C] « Quare misero data est lux, »   ✓ Job 3:20
+[0762C] « Et vita his qui, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0762C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0762C] VERS. 21.-- « Qui exspectant mortem. »   ⚠ NOT in Clementine verbatim — CHECK
+[0762D] « Quasi effodientes thesaurum. »   ✓ Job 3:21
+[0762D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0762D] VERS. 22.-- « Viro cujus. »   ✓ Gn 38:25, Job 3:23
+[0763A] VERS. 23.-- « Circumdedit eum Deus. »   ✓ Job 3:23
+[0763A] VERS. 24.-- « Antequam comedam. »   ✓ Job 3:24
+[0763A] « Et quasi inundantes aquae, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0763B] VERS. 25.-- « Quia timor. »   ✓ Job 3:25
+[0763B] « Quis novit potestatem irae tuae? [n: (Psal. LXXXIX.)] »   ✓ Ps 89:11
+[0763B] VERS. 26.-- « Dissimulavi. »   — single word, check in place
+[0763C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0763C] « Nonne dissimulavi? »   ✓ Job 3:26
+[0763C] « Nonne silui? »   ✓ Job 3:26
+[0763C] « Nonne quievi? »   ✓ Job 3:26
+[0763C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0763C] « Et venit super me indignatio. »   ✓ Job 3:26
+[0763D] VERS. 2.-- « Si coeperimus loqui tibi. »   ✓ Job 4:2
+[0763D] « Sed conceptum. »   ✓ Job 4:2
+[0763D] « Tenere quis poterit. »   ✓ Job 4:2
+[0763D] VERS. 3.-- « Ecce docuisti plurimos. »   ⚠ NOT in Clementine verbatim — CHECK
+[0764A] VERS. 5.-- « Nunc autem venit, etc., quasi non servasti recta quae dicebas. »   ⚠ NOT in Clementine verbatim — CHECK
+[0764B] « Defecisti, etc. Ubi est timor tuus? »   ⚠ NOT in Clementine verbatim — CHECK
+[0764C] VERS. 7.-- « Recordare, obsecro te. »   ✓ Job 4:7
+[0764C] VERS. 8.-- « Quin potius vidi eos. »   ✓ Job 4:8
+[0764D] *recordare,*   — single word, check in place
+[0764D] VERS. 9.-- « Flante Deo perisse. »   ✓ Job 4:9
+[0765A] « Rugitus leonis, »   ✓ Job 4:10, Pr 20:2
+[0765A] « vox leaenae, »   ✓ Job 4:10
+[0765A] « dentes catulorum, »   ✓ Job 4:10
+[0765B] VERS. 11.-- « Tigris periit. »   ✓ Job 4:11
+[0765B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0765B] VERS. 12.-- « Porro ad me dictum est verbum absconditum. »   ✓ Job 4:12
+[0765B] « Furtive, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0765B] VERS. 13.-- « In horrore visionis nocturnae. »   ✓ Job 4:13
+[0765C] « Quando solet sopor occupare. »   ✓ Job 4:13
+[0765C] VERS. 14.-- « Pavor tenuit me. »   ✓ Job 4:14
+[0765C] « Ad me dictum est verbum. »   ✓ Job 4:12
+[0765D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0765D] « In horrore visionis nocturnae, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0765D] « Quando solet sopor occupare homines. »   ✓ Job 4:13
+[0766A] « Vacate et videte: quoniam ego sum Deus [n: (Psal. XLV)]. »   ✓ Ps 45:11
+[0766A] « Pavor tenuit me et tremor et omnia ossa. »   ✓ Job 4:14
+[0766A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0766A] VERS. 16.-- « Stetit quidam. [n: (Ibid.)] Ut incomprehensibilia se novisse judicent, etc., *usque ad* quia bonum commune specialiter sibi arrogavit.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0766A] « Inhorruerunt pili carnis meae. »   ✓ Job 4:15
+[0766A] « Levitae radant omnes pilos carnis suae [0766B] [n: (Levit. XIV)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0766B] « Cum spiritus transiret. »   ⚠ NOT in Clementine verbatim — CHECK
+[0766B] « Stetit quidam cujus non agnoscebam vultum. »   ✓ Job 4:16
+[0766B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0766C] « Imago coram oculis me. »   ⚠ NOT in Clementine verbatim — CHECK
+[0766C] « Et vocem quasi aurae lenis audivi. »   ✓ Job 4:16
+[0766C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0766C] VERS. 17.-- « Nunquid homo comparatione Dei justificabitur? »   ⚠ NOT in Clementine verbatim — CHECK
+[0766C] « Aut factore suo purior? »   ✓ Job 4:17
+[0766D] « Ecce qui serviunt ei. »   ✓ Job 4:18
+[0767A] « Et in angelis suis reperit pravitatem. »   ✓ Job 4:18
+[0767A] « Quanto magis hi qui habitant domos luteas. »   ✓ Job 4:19
+[0767A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0767A] « qui de mane usque ad vesperam succidentur »   ⚠ NOT in Clementine verbatim — CHECK
+[0767B] « Qui autem reliqui fuerint. »   ✓ Job 4:21
+[0767B] « Auferentur ex eis. »   ✓ Job 4:21
+[0767B] « Morientur, et non in sapientia. »   ✓ Job 4:21
+[0767C] VERS. 1.-- « Voca ergo. »   ✓ Job 5:1
+[0767C] « Voca ergo, »   ✓ Job 5:1
+[0767C] « ad aliquem sanctorum, »   ✓ Job 5:1
+[0767D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0767D] « Et parvulum occidit. »   ✓ Job 5:2
+[0767D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0767D] VERS. 3.-- « Et maledixi pulchritudini ejus. »   ✓ Job 5:3
+[0768A] VERS. 4.-- « Longe fient filii ejus. »   ✓ Job 5:4
+[0768A] « In porta. »   ✓ 1Par 9:18, 1Par 11:17, 1Par 11:18, …
+[0768A] VERS. 5.-- « Et non erit qui eruat. »   ✓ Is 5:29, Job 5:4
+[0768B] « Cujus messem. »   ✓ Job 5:5
+[0768B] « Quae dicunt, facite [n: (Matth. XXIII)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0768B] « Et ipsum rapiet armatus. »   ✓ Job 5:5
+[0768B] « Et bibent. »   ✓ Abd 1:16, Am 9:14, Job 5:5, …
+[0768B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0768B] VERS. 6.-- « Nihil in terra fit sine causa. »   ⚠ NOT in Clementine verbatim — CHECK
+[0768C] « Et de humo non egredietur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0768C] « Et de humo non egredietur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0768C] « Pugnabit pro eo, »   ⚠ NOT in Clementine verbatim — CHECK
+[0768C] VERS. 7.-- « Homo ad laborem nascitur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0768C] « Vel homo, »   ⚠ NOT in Clementine verbatim — CHECK
+[0768D] VERS. 8.-- « Quamobrem ego te. »   ⚠ NOT in Clementine verbatim — CHECK
+[0768D] VERS. 9.-- « Mirabilia absque numero. »   ✓ Job 5:9
+[0768D] VERS. 10.-- « Qui dat pluviam. »   ✓ Job 5:10
+[0768D] « Dat pluviam terrae: »   ⚠ NOT in Clementine verbatim — CHECK
+[0768D] « Irrigat autem aquis universa. »   ⚠ NOT in Clementine verbatim — CHECK
+[0769A] VERS. 11.-- « Qui ponit humiles in sublime. »   ✓ Job 5:11
+[0769A] « Moerentes. »   — single word, check in place
+[0769B] VERS. 12.-- « Qui dissipat cogitationes. »   ✓ Job 5:12
+[0769B] VERS. 13.-- « Qui apprehendit sapientes. »   ✓ Job 5:13
+[0769B] « Omnia quaecunque voluit, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0769C] VERS. 14.-- « Per diem incurrent. »   ✓ Job 5:14
+[0769C] « Quasi in nocte. »   ✓ Job 5:14
+[0769C] « Si tu es Christus, dic nobis palam [n: (Joan. X)]. »   ✓ Jo 10:24
+[0769C] « Per diem incurrent tenebras. »   ✓ Job 5:14
+[0769C] « Et quasi in nocte sic palpabunt in meridie. »   ✓ Job 5:14
+[0769D] « Palpabunt. »   — single word, check in place
+[0769D] VERS. 15.-- « Porro salvum faciet egenum a gladio oris. »   ✓ Job 5:15
+[0770A] « De manu violenti pauperem. »   ✓ Job 5:15
+[0770A] VERS. 17.-- « Increpationem ergo Domini ne reprobes. »   ✓ Job 5:17
+[0770B] VERS. 18.-- « Quia ipse vulnerat. »   ✓ Job 5:18
+[0770C] VERS. 19.-- « In sex tribulationibus. »   ✓ Job 5:19
+[0770C] VERS. 20.-- « In fame. »   ✓ 2Cor 11:27, 2Par 32:11, Bar 2:25, …
+[0770C] « Et in bello. »   ✓ Job 5:20, Os 1:7, Sap 8:15
+[0770D] VERS. 21.-- « A flagello linguae. »   ✓ Job 5:21
+[0770D] « Et a verbo aspero. »   ✓ Ps 90:3
+[0770D] « Et non timebis calamitatem. »   ✓ Job 5:21
+[0770D] VERS. 22.-- « In vastitate et fame. »   ✓ Job 5:22
+[0770D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0770D] « Et [0771A] bestias terrae. »   ✓ Gn 1:24, Gn 3:14, Job 5:22, …
+[0771A] VERS. 23.-- « Sed cum lapidibus regionum pactum. »   ✓ Job 5:23
+[0771A] « Et bestiae terrae. »   ✓ Job 5:23
+[0771B] VERS. 24.-- « Et scies quod pacem. »   ✓ Job 5:24
+[0771C] « Et visitans speciem tuam non peccabis. »   ✓ Job 5:24
+[0771C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0771C] VERS. 25.-- « Scies quoque quoniam multiplex erit semen tuum. »   ✓ Job 5:25
+[0771D] « Et progenies tua, quasi herba terrae. »   ✓ Job 5:25
+[0771D] VERS. 26.-- « Ingredieris in abundantia sepulcrum. [n: (Ibid.)] Sepulcrum est contemplatio, etc., *usque ad* quod utilitati proximorum refundant. « Sicut infertur acervus tritici. »   ⚠ NOT in Clementine verbatim — CHECK
+[0772A] VERS. 27.-- « Investigavimus. »   — single word, check in place
+[0772A] « Quod auditum mente pertracta. »   ✓ Job 5:27
+[0772B] VERS. 2.-- « Utinam appenderentur. »   ✓ Job 6:2
+[0772B] « utinam appenderentur peccata. »   ✓ Job 6:2
+[0772B] « Statera. »   — single word, check in place
+[0772B] « Utinam appenderentur. »   ✓ Job 6:2
+[0772B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0772C] VERS. 3.-- « Unde et verba mea dolore sunt plena, quia sagittae Domini. »   ⚠ NOT in Clementine verbatim — CHECK
+[0772C] VERS. 4.-- « Ebibit spiritum. »   ✓ Job 6:4
+[0772C] « Defecit spiritus meus [n: (Psal. LXXVI)]. »   ✓ Ps 76:4, Ps 142:7
+[0772C] « Terrores Domini militant: »   ✓ Job 6:4
+[0772C] VERS. 5.-- « Nunquid rugiet onager, »   ⚠ NOT in Clementine verbatim — CHECK
+[0772C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0772D] VERS. 6.-- « Aut poterit comedi insulsum. »   ✓ Job 6:6
+[0772D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0772D] « Nunquid rugiet onager. »   ⚠ NOT in Clementine verbatim — CHECK
+[0772D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0773A] « Aut poterit comedi insulsum. »   ✓ Job 6:6
+[0773A] « Aut potest aliquis gustare. »   ✓ Job 6:6
+[0773A] VERS. 7.-- « Quae prius nolebat tangere, »   ✓ Job 6:7
+[0773A] « Quis det ut veniat petitio mea? »   ✓ Job 6:8
+[0773B] VERS. 9.-- « Qui coepit, ipse me conterat. »   ✓ Job 6:9
+[0773B] « Qui coepit, ipse conterat, »   ⚠ NOT in Clementine verbatim — CHECK
+[0773B] « Solvat manum, »   ✓ Job 6:9
+[0773B] « Succidat me. »   ✓ Job 6:9
+[0773C] « Nec contradicam sermonibus. »   ✓ Job 6:10
+[0773C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0773D] « Quae est enim fortitudo, aut quis finis? »   ⚠ NOT in Clementine verbatim — CHECK
+[0773D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0773D] VERS. 13.-- « Ecce non est auxilium. »   ✓ Job 6:13
+[0773D] « Necessarii quoque. »   ✓ Job 6:13
+[0773D] « Qui tollit, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0773D] VERS. 14.-- « Qui tollit ab amico suo. »   ✓ Job 6:14
+[0773D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0773D] VERS. 17.-- « Et ut incaluerint, »   ⚠ NOT in Clementine verbatim — CHECK
+[0774A] « Tantummodo vexatio sola intellectum dabit auditui »   ⚠ NOT in Clementine verbatim — CHECK
+[0774A] VERS. 18.-- « Involutae sunt. »   ✓ Job 6:18
+[0774B] « Ambulabunt in vacuum et peribunt. »   ✓ Job 6:18
+[0774B] « Considerate semitas, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0774B] VERS. 19.-- « Considerate semitas. »   ✓ Job 6:19
+[0774B] *auster,*   — single word, check in place
+[0774B] *remissio;*   — single word, check in place
+[0774C] « Considerate, »   — single word, check in place
+[0774C] « Exspectate paulisper. »   ⚠ NOT in Clementine verbatim — CHECK
+[0774C] VERS. 20.-- « Confusi sunt. »   ✓ 4Rg 19:26, Is 30:5, Is 37:27, …
+[0774C] « Venerunt quoque. »   ✓ 2Rg 5:3, Gn 47:18, Job 6:20
+[0774D] VERS. 21.-- « Nunc venistis, et modo videntes plagam meam. »   ✓ Job 6:21
+[0774D] VERS. 22.-- « Nunquid dixi. »   ⚠ NOT in Clementine verbatim — CHECK
+[0775A] « Manus hostis »   ⚠ NOT in Clementine verbatim — CHECK
+[0775A] « Robusti »   — single word, check in place
+[0775A] « Nunquid dixi: Afferte. »   ⚠ NOT in Clementine verbatim — CHECK
+[0775A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0775A] VERS. 24.-- « Docete me. »   ✓ Job 6:24
+[0775A] VERS. 25.-- « Quare detraxistis. »   ✓ Job 6:25
+[0775A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0775B] VERS. 26.-- « Et in ventum. »   ✓ Job 6:26
+[0775B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0775B] VERS. 27.-- « Super pupillum. »   ✓ Job 6:27, Job 31:21
+[0775B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0775B] VERS. 28.-- « Videte an mentiar. »   ✓ Job 6:28
+[0775B] VERS. 29.-- « Respondete, obsecro absque contentione. »   ✓ Job 6:29
+[0775C] « Et loquentes, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0775C] VERS. 30.-- « Et non invenietis in lingua mea. »   ✓ Job 6:30
+[0775C] « linguam »   — single word, check in place
+[0775C] « fauces »   — single word, check in place
+[0775D] VERS. 1.-- « Et sicut dies mercenarii. »   ✓ Job 7:1
+[0775D] VERS. 2.-- « Sicut servus. »   ✓ 3Rg 14:8, Is 24:2, Job 7:2, …
+[0775D] « Et sicut mercenarius. »   ✓ Job 7:2
+[0776A] VERS. 3.-- « Menses vacuos. »   ✓ Job 7:3
+[0776A] « Noctes laboriosas. »   ✓ Job 7:3
+[0776A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0776A] VERS. 4.-- « Si dormiero. »   ✓ Job 7:4
+[0776B] « Et replebor doloribus. »   ✓ Job 7:4
+[0776B] VERS. 5.-- « Induta est. »   ✓ Est 5:1, Gn 38:19, Job 7:5
+[0776B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0776B] « Et replebor doloribus usque ad tenebras. »   ✓ Job 7:4
+[0776B] « Induta est caro, »   ✓ Job 7:5
+[0776C] « Cutis mea. »   ✓ Job 7:5, Job 30:30
+[0776C] VERS. 6.-- « Dies mei velocius. »   ✓ Job 7:6
+[0776C] « Et consumpti sunt, »   ✓ Job 7:6, Sir 45:23
+[0776D] VERS. 7.-- « Memento. »   — single word, check in place
+[0776D] « Quia ventus est. »   ✓ Job 7:7
+[0776D] « Et non revertitur. »   ✓ 4Rg 9:18, 4Rg 9:20
+[0777A] VERS. 8.-- « Nec aspiciet me visus hominis. »   ✓ Job 7:8
+[0777A] « Oculi tui in. »   ✓ Job 7:8
+[0777A] VERS. 9.-- « Sicut consumitur nubes. »   ✓ Job 7:9
+[0777B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0777B] VERS. 10.-- « Neque cognoscet eum amplius locus. »   ✓ Job 7:10
+[0777B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0777B] VERS. 12.-- « Nunquid mare sum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0777B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0777B] VERS. 15.-- « Quamobrem elegit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0777B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0777B] « si hoc mihi facturus es interfice me. »   ⚠ NOT in Clementine verbatim — CHECK
+[0777B] VERS. 16.-- « Parce mihi, Domine, »   ⚠ NOT in Clementine verbatim — CHECK
+[0777C] « Nihil enim sunt dies mei. »   ✓ Job 7:16
+[0777C] VERS. 17.-- « Quid est homo. »   ✓ Hbr 2:6, Job 7:17, Job 15:14, …
+[0777C] VERS. 18.-- « Visitas eum diluculo. »   ✓ Job 7:18
+[0777D] « Usquequo non parcis mihi. »   ✓ Job 7:19
+[0777D] VERS. 19.-- « Salivam. »   — single word, check in place
+[0777D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0777D] « Peccavi, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0777D] VERS. 20.-- « Peccavi, quid faciam tibi. »   ✓ Job 7:20
+[0777D] « quid faciam tibi, »   ✓ Ex 33:5, Job 7:20, Os 6:4
+[0777D] « O custos hominum. »   ✓ Job 7:20
+[0778A] « Quare posuisti me contrarium. »   ✓ Job 7:20
+[0778A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0778A] VERS. 21.-- « Cur non tollis. »   ✓ Job 7:21
+[0778A] « Quare posuisti me contrarium. »   ✓ Job 7:20
+[0778B] « Mane, »   — single word, check in place
+[0778B] VERS. 1.-- « Respondens autem. »   ✓ 1Rg 4:17, 1Rg 9:21, 1Rg 20:32, …
+[0778C] VERS. 2.-- « Usquequo loqueris talia. »   ✓ Job 8:2
+[0778C] « Usque loqueris talia. »   ⚠ NOT in Clementine verbatim — CHECK
+[0778C] « Et spiritus multiplex. »   ✓ Job 8:2
+[0778D] VERS. 3.-- « Nunquid Deus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0778D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0778D] VERS. 4, 5.-- « Etiamsi filii tui peccaverunt, etc. Si diluculo: »   ⚠ NOT in Clementine verbatim — CHECK
+[0778D] « si mundus »   ✓ Jo 15:18, Job 8:6
+[0778D] « rectus »   — single word, check in place
+[0779A] VERS. 6.-- « Evigilabit. »   — single word, check in place
+[0779A] « Et pacatum reddet. »   ✓ Job 8:6
+[0779A] « Habitaculum justi. »   ⚠ NOT in Clementine verbatim — CHECK
+[0779A] VERS. 7.-- « In tantum. »   ✓ 1Rg 1:6, 2Mcc 4:3, 3Rg 3:12, …
+[0779A] « Ut priora. »   ⚠ NOT in Clementine verbatim — CHECK
+[0779A] VERS. 8.-- « Interroga enim genera. »   ⚠ NOT in Clementine verbatim — CHECK
+[0779B] VERS. 9.-- « Hesterni: »   — single word, check in place
+[0779B] « hesterni. »   — single word, check in place
+[0779B] VERS. 10.-- « Ipsi docebunt. »   ✓ Job 8:10
+[0779B] « De corde. »   ✓ 1Tim 1:5, 2Tim 2:22, 3Rg 12:33, …
+[0779C] VERS. 11.-- « Nunquid vivere potest. »   ⚠ NOT in Clementine verbatim — CHECK
+[0779C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0779C] « Ante omnes herbas. »   ✓ Job 8:12
+[0779C] « fenum tectorum, quod priusquam evellatur, exaruit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0779C] VERS. 13.-- « Sic viae omnium. »   ✓ Job 8:13
+[0779D] VERS. 14.-- « Non ei placebit vecordia. »   ✓ Job 8:14
+[0779D] « Et sicut tela aranearum fiducia ejus. »   ✓ Job 8:14
+[0779D] VERS. 15.-- « Innitetur super domum suam. »   ✓ Job 8:15
+[0780A] VERS. 16.-- « Humectus videtur. »   ✓ Job 8:16
+[0780A] « Et in ortu suo germen. »   ✓ Job 8:16
+[0780A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0780A] VERS. 17.-- « Super acervum petrarum. »   ✓ Job 8:17
+[0780B] « Tollentur omnes in Babylonem [n: (II Reg. XX)]; »   ⚠ NOT in Clementine verbatim — CHECK
+[0780B] « Et inter lapides commorabitur. »   ✓ Job 8:17
+[0780B] « Haec est enim laetitia, etc. [n: (Ibid.)] Ut et pro illorum [0780C] reatu puniatur, sed:   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0780C] VERS. 20.-- « Deus non projiciet simplicem. »   ✓ Job 8:20
+[0780C] « Nec porriget manum. »   ✓ Job 8:20
+[0780C] « Non induas vestem ex lana linoque contextam. »   ⚠ NOT in Clementine verbatim — CHECK
+[0780C] VERS. 21.-- « Donec impleatur. »   ✓ Job 8:21, Lc 22:16
+[0780C] « Impleatur risu os tuum, »   ✓ Job 8:21
+[0780D] « aeternae securitatis, unde:   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0780D] « Et labia tua jubilo. »   ✓ Job 8:21
+[0780D] VERS. 22.-- « Qui oderunt. »   ✓ 2Par 19:2, Dt 5:9, Dt 30:7, …
+[0780D] « Et tabernaculum, »   ✓ 2Mcc 2:5, 2Rg 15:25, 3Rg 8:4, …
+[0781A] « Et respondens Job ait. »   ✓ Job 9:1
+[0781A] « Nunquid Deus supplantat judicium »   ⚠ NOT in Clementine verbatim — CHECK
+[0781A] VERS. 3.-- « Si voluerit contendere cum eo, »   ✓ Job 9:3
+[0781B] « Non poterit ei respondere unum pro mille. »   ✓ Job 9:3
+[0781B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0781B] VERS. 4.-- « Quis restitit ei et pacem habuit. Quis creat ut sibi creata conveniant, ordinat in quo sit eis pax, et qui ejus dispositioni repugnare conatur, pacem perdit, ut angelus, qui, sua inquietudine elatus, homo qui carnis molestia vexatur, quia conditori subesse noluit, pacem uterque amisit.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0781B] VERS. 5.-- « Qui transtulit montes, »   ✓ Job 9:5
+[0781C] VERS. 6.-- « Commovet terram de loco. »   ✓ Job 9:6
+[0781C] « Columnae. »   — single word, check in place
+[0781C] VERS. 7.-- « Qui praecipit soli. »   ✓ Job 9:7
+[0781C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0781C] VERS. 8.-- « Qui extendit coelos. »   ✓ Job 9:8
+[0781C] « Solus. »   — single word, check in place
+[0781D] « Graditur super fluctus, »   ✓ Job 9:8
+[0781D] « Posui arenam terminum mari [n: (Jer. 5)], »   ✓ Jr 5:22
+[0781D] VERS. 9.-- « Qui facit arcturum. »   ✓ Job 9:9
+[0781D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0781D] « Oriona. »   — single word, check in place
+[0781D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0781D] « Hyadas. »   — single word, check in place
+[0781D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0781D] « Et interiora austri. »   ✓ Job 9:9
+[0782A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0782A] VERS. 10.-- « Qui facit mihi. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782A] « Magna »   — single word, check in place
+[0782A] « Et incomprehensibilia »   ✓ Job 9:10
+[0782A] « Et mirabilia quorum non »   ✓ Job 9:10
+[0782A] VERS. 11.-- « Si venerit ad me. »   ✓ Job 9:11
+[0782A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0782A] VERS. 12.-- « Si repente inter. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782A] *usque ad,*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0782B] « Quis dicere potest, cur ita facis? »   ✓ Job 9:12
+[0782B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0782B] VERS. 13.-- « Deus cujus irae resistere nemo potest. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0782B] VERS. 14.-- « Quantus ergo se. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782B] VERS. 15.-- « Qui etiam si habuero, etc., deprecabor. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782C] « Quidpiam, »   — single word, check in place
+[0782C] VERS. 16.-- « Cum invocantem exaudierit me non. »   ✓ Job 9:16
+[0782C] « modo ascendunt usque ad coelos [n: (Psal. CVI)], »   ⚠ NOT in Clementine verbatim — CHECK
+[0782C] « Quantus ergo. »   ✓ Job 9:14
+[0782D] « Cum invocantem. »   ✓ Job 9:16
+[0782D] VERS. 17.-- « In turbine etiam conteret me. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782D] « Turbine: »   — single word, check in place
+[0782D] « Multiplicabit vulnera mea. »   ✓ Job 9:17
+[0782D] « Non est mundus in conspectu ejus, nec infans unius diei. »   ⚠ NOT in Clementine verbatim — CHECK
+[0782D] « Sine causa. »   ✓ 1Mcc 6:12, Gal 3:4, Gal 4:11, …
+[0783A] « Et multiplicabit vulnera mea sine causa, »   ⚠ NOT in Clementine verbatim — CHECK
+[0783A] « ut affligerem eum frustra. »   ✓ Job 2:3
+[0783A] VERS. 18.-- « Non concedit. »   ✓ Job 9:18
+[0783A] VERS. 19.-- « Si fortitudo quaeritur. »   ✓ Job 9:19
+[0783B] VERS. 20.-- « Si justificare. »   ✓ Job 9:20
+[0783B] VERS. 21.-- « Si simplex fuero. »   ✓ Job 9:21
+[0783B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0783B] « Et taedebit me vitae meae. »   ✓ Job 9:21
+[0783B] VERS. 22.-- « Unum est quod locutus sum. »   ✓ Job 9:22
+[0783B] « innocens »   — single word, check in place
+[0783B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0783B] VERS. 23.-- « Si flagellat, occidat se. »   ⚠ NOT in Clementine verbatim — CHECK
+[0783C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0783C] VERS. 24.-- « Terra data. »   ✓ Job 9:24
+[0783C] « tradita. »   — single word, check in place
+[0783C] « Manus »   — single word, check in place
+[0783C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0783C] VERS. 25.-- « Dies mei velociores fuerunt cursore. »   ✓ Job 9:25
+[0783C] VERS. 26.-- « Quasi naves. »   ✓ Job 9:26
+[0783D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0783D] VERS. 27.-- « Cum dixero: nequaquam. »   ✓ Job 9:27
+[0783D] « Dies mei velocius transierunt. »   ✓ Job 7:6
+[0783D] « Fugerunt, »   — single word, check in place
+[0784A] « Quasi naves poma portantes. »   ✓ Job 9:26
+[0784A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0784A] « Nequaquam ita loquar. »   ✓ Job 9:27
+[0784A] « Verebar omnia, »   ✓ Job 9:28
+[0784A] VERS. 28.-- « Verebar omnia opera. »   ✓ Job 9:28
+[0784A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0784B] VERS. 29.-- « Si autem et sic impius sum. »   ✓ Job 9:29
+[0784B] « Frustra: »   — single word, check in place
+[0784B] VERS. 30.-- « Si lotus fuero quasi aquis nivis. »   ✓ Job 9:30
+[0784B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0784B] « Manus, »   — single word, check in place
+[0784B] « Velut mundissimae, »   ✓ Job 9:30
+[0784B] VERS. 31.-- « Intinges »   — single word, check in place
+[0784B] « Vestimenta. »   — single word, check in place
+[0784C] « Abominabuntur, »   — single word, check in place
+[0784C] « Possedit agrum de mercede iniquitatis, »   ✓ Act 1:18
+[0784C] VERS. 32.-- « Neque enim viso. »   ⚠ NOT in Clementine verbatim — CHECK
+[0784C] VERS. 33.-- « Utrumque valeat: »   ✓ Job 9:33
+[0784D] « Arguere. »   — single word, check in place
+[0784D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0784D] VERS. 34.-- « Auferat a me virgam »   ✓ Job 9:34
+[0784D] VERS. 35.-- « Loquar et non timebo eum. »   ✓ Job 9:35
+[0785A] « Respondere »   — single word, check in place
+[0785A] VERS. 1.-- « Taedet animam meam vitae meae. »   ✓ Job 10:1
+[0785A] « Dimittam eloquium »   ⚠ NOT in Clementine verbatim — CHECK
+[0785B] « Adversum me, »   ✓ 1Rg 17:35, 1Rg 22:8, 1Rg 22:13, …
+[0785B] « Loquar in amaritudine, »   ✓ Job 10:1
+[0785B] VERS. 2.-- « Dicam Deo: Noli me condemnare, »   ✓ Job 10:2
+[0785B] « Indica mihi cur me ita judices, »   ✓ Job 10:2
+[0785C] « Cur me ita judices. »   ✓ Job 10:2
+[0785C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0785C] VERS. 3.-- « Nunquid bonum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0785C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0785C] « Opus manuum. »   ✓ Agg 2:15, Dt 27:15, Is 2:8, …
+[0785C] « Impiorum, »   — single word, check in place
+[0785D] VERS. 4.-- « Nunquid oculi carnei. »   ⚠ NOT in Clementine verbatim — CHECK
+[0785D] VERS. 5.-- « Dies. »   — single word, check in place
+[0785D] VERS. 6.-- « Ut quaeras iniquitatem meam. »   ✓ Job 10:6
+[0785D] VERS. 7.-- « Cum sit nemo »   ✓ Job 10:7
+[0786A] VERS. 8.-- « Manus tuae. »   ✓ 2Rg 3:34, Bar 3:5, Dt 16:10, …
+[0786A] « Fecerunt. »   — single word, check in place
+[0786A] « Totum in circuitu. »   ✓ Job 10:8
+[0786A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0786A] *fiat.*   — single word, check in place
+[0786A] « Et sic repente. »   ✓ Job 10:8
+[0786A] VERS. 9.-- « Memento, quaeso, »   ✓ 4Rg 20:3, Is 38:3, Job 10:9, …
+[0786B] « Et in pulverem, »   ✓ Gn 3:19, Job 10:9, Ps 21:16, …
+[0786B] VERS. 10.-- « Nonne sicut lac, »   ✓ Job 10:10
+[0786B] « Nonne sicut lac, »   ✓ Job 10:10
+[0786C] VERS. 11.-- « Pelle et carnalibus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0786C] VERS. 12.-- « Vitam et misericordiam. »   ✓ Job 10:12
+[0786C] « Et visitatio tua. »   ✓ Job 10:12
+[0786D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0786D] « Vitam et misericordiam. »   ✓ Job 10:12
+[0786D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0786D] VERS. 13.-- « Tamen scio, quia universorum memineris »   ✓ Job 10:13
+[0786D] « Licet haec celes in corde. »   ✓ Job 10:13
+[0786D] VERS. 14.-- « Si peccavi. »   ✓ Job 10:14
+[0786D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0787A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0787A] VERS. 17.-- « Multiplicas iram tuam adversum me, »   ✓ Job 10:17
+[0787A] VERS. 19.-- « Fuissem quasi non essem, de utero. »   ✓ Job 10:19
+[0787A] « sicut abortivum absconditum, »   ✓ Job 3:16
+[0787A] VERS. 20.-- « Nunquid non paucitas dierum meorum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0787B] « Dimitte ergo me . . . dolorem meum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0787B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0787B] VERS. 21.-- « Antequam vadam. »   ✓ Job 10:21
+[0787B] « Antequam vadam. »   ✓ Job 10:21
+[0787B] « Non revertar. »   ✓ 1Rg 15:26, Job 10:21, Job 16:23
+[0787B] VERS. 22.-- « Miseriae et tenebrarum. »   ✓ Job 10:22
+[0787C] « Umbra mortis. »   ✓ Job 3:5, Job 10:22, Job 34:22, …
+[0787C] « Nullus ordo. »   ✓ Job 10:22
+[0787C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0787C] « Sempiternus horror. »   ✓ Job 10:22
+[0787C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0787C] VERS. 2.-- « Nunquid qui multa. »   ⚠ NOT in Clementine verbatim — CHECK
+[0787C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0787C] « Aut vir verbosus. »   ✓ Job 11:2
+[0787D] VERS. 3.-- « Tibi soli tacebunt homines, »   ✓ Job 11:3
+[0787D] VERS. 4.-- « Dixisti enim: Purus est sermo meus. »   ✓ Job 11:4
+[0787D] VERS. 5.-- « Atque utinam Deus loqueretur tecum, »   ✓ Job 11:5
+[0788A] « Utinam Deus loqueretur. »   ✓ Job 11:5
+[0788A] « Labia, »   — single word, check in place
+[0788A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788A] VERS. 6.-- « Et intelligeres quod multa minora. »   ⚠ NOT in Clementine verbatim — CHECK
+[0788A] VERS. 7.-- « Forsitan vestigia Dei comprehendes. »   ✓ Job 11:7
+[0788A] *usque [0788B] ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788B] VERS. 8.-- « Excelsior. »   — single word, check in place
+[0788B] « Profundior inferno. »   ✓ Job 11:8
+[0788B] VERS. 9.-- « Longior terra. »   ✓ Job 11:9
+[0788B] « Latior mari. »   ✓ Job 11:9
+[0788B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788B] VERS. 10.-- « Si subverterit. »   ✓ Job 11:10
+[0788B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788B] « Quis contradicet ei? vel, quis ei dicere potest cur ita facias? »   ⚠ NOT in Clementine verbatim — CHECK
+[0788C] VERS. 11.-- « Ipse enim novit. »   ✓ Job 11:11, Ps 43:22
+[0788C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788C] VERS. 12.-- « Vir vanus in superbiam. »   ✓ Job 11:12
+[0788C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788C] VERS. 13.-- « Tu autem firmasti. »   ✓ Job 11:13
+[0788C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788C] « et eris stabilis, »   ✓ Job 11:15
+[0788C] VERS. 14.-- « Si iniquitates. »   ⚑ MATCHES ONLY ELSEWHERE — Jr 14:7, Ps 129:3  (lemma is Job 11) — CHECK
+[0788C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0788D] VERS. 15.-- « Et eris stabilis. »   ✓ Job 11:15
+[0788D] VERS. 16.-- « Miseriae quoque. »   ✓ Job 11:16
+[0788D] « Et quasi aquarum. »   ✓ Job 11:16
+[0789A] VERS. 17.-- « Et quasi meridianus. »   ✓ Job 11:17
+[0789A] « Et cum te consumptum. »   ✓ Job 11:17
+[0789A] « Et cum te consumptum. »   ✓ Job 11:17
+[0789A] VERS. 18.-- « Et habebis fiduciam. »   ✓ Job 11:18
+[0789A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0789A] VERS. 19.-- « Requiesces et non erit. »   ✓ Job 11:19
+[0789B] « Et deprecabuntur. »   ✓ Job 11:19
+[0789B] VERS. 20.-- « Oculi autem impiorum. »   ✓ Job 11:20
+[0789B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0789B] « Et spes illorum abominatio, »   ✓ Job 11:20
+[0789B] VERS. 1.-- « Respondens autem Job. »   ✓ Job 6:1, Job 12:1, Job 16:1, …
+[0789C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0789C] VERS. 2.-- « Ergo vos estis soli homines. »   ✓ Job 12:2
+[0789C] « Ergo vos estis soli homines. »   ✓ Job 12:2
+[0789C] VERS. 3.-- « Et mihi est cor sicut. »   ✓ Job 12:3
+[0789C] « Quis enim haec quae nostis ignorat? »   ✓ Job 12:3
+[0789D] VERS. 4.-- « Qui deridetur. »   ✓ Job 12:4
+[0789D] VERS. 5.-- « Lampas contempta. »   ✓ Job 12:5
+[0789D] « Parata ad tempus statutum. »   ✓ Job 12:5
+[0789D] VERS. 6.-- « Abundant tabernacula praedonum. »   ✓ Job 12:6
+[0790A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790A] « Nimirum interroga jumenta, »   ✓ Job 12:7
+[0790A] VERS. 8.-- « Pisces. »   — single word, check in place
+[0790A] VERS. 10.-- « In cujus manu anima. »   ✓ Job 12:10
+[0790A] « Spiritus universae carnis. »   ✓ Job 12:10
+[0790A] VERS. 11.-- « Nonne auris verba dijudicat. »   ✓ Job 12:11
+[0790B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790B] VERS. 13.-- « Apud ipsum est sapientia, »   ✓ Job 12:13
+[0790B] VERS. 14.-- « Si destruxerit, nemo est qui aedificet. »   ✓ Job 12:14
+[0790B] « Si incluserit hominem. »   ✓ Job 12:14
+[0790B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790B] VERS. 15.-- « Si continuerit aquas, omnia siccabuntur. »   ✓ Job 12:15
+[0790C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790C] « Si emiserit eas, subvertent. »   ✓ Job 12:15
+[0790C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790C] VERS. 16.-- « Apud ipsum est fortitudo. »   ✓ Job 12:16
+[0790C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790C] « Novit et decipientem et eum qui decipitur. »   ✓ Job 12:16
+[0790C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0790C] VERS. 17.-- « Adducit consiliarios in stultum finem. »   ✓ Job 12:17
+[0790D] « Et judices. »   ✓ 4Rg 24:15, Dn 3:2, Dn 3:3, …
+[0790D] VERS. 18.-- « Balteum regum dissolvit. »   ✓ Job 12:18
+[0790D] VERS. 19.-- « Ducit sacerdotes inglorios. »   ✓ Job 12:19
+[0791A] « Et optimates supplantat. »   ✓ Job 12:19
+[0791A] VERS. 20.-- « Commutans labium veracium. »   ✓ Job 12:20
+[0791A] « Et doctrinam. »   ✓ Job 12:20, Pr 23:23, Sir 8:10
+[0791A] VERS. 21.-- « Effundit despectionem super principes. »   ✓ Job 12:21
+[0791B] VERS. 22.-- « Revelat profunda de tenebris; »   ✓ Job 12:22
+[0791B] « Et producit in lucem umbram mortis. »   ✓ Job 12:22
+[0791B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0791B] VERS. 23.-- « Qui multiplicat gentes. »   ✓ Job 12:23
+[0791C] « qui immutat cor, »   ✓ Job 12:24
+[0791C] VERS. 24.-- « Qui immutat cor principum. »   ✓ Job 12:24
+[0791C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0791C] VERS. 25.-- « Palpabunt quasi in tenebris. »   ✓ Job 12:25
+[0791C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0791C] « Nonne hic est filius fabri? »   ⚠ NOT in Clementine verbatim — CHECK
+[0791C] VERS. 1.-- « Ecce omnia. »   ✓ Job 13:1, Lc 11:41
+[0791C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0791C] « Haec vidit oculus meus, et audivit auris mea. »   ✓ Job 13:1
+[0791D] « Et intellexi singula. »   ✓ Job 13:1
+[0791D] VERS. 2.-- « Secundum scientiam veram. »   ⚠ NOT in Clementine verbatim — CHECK
+[0791D] VERS. 3.-- « Sed tamen ad Omnipotentem loquar. »   ✓ Job 13:3
+[0792A] VERS. 4.-- « Prius vos ostendam, »   ⚠ NOT in Clementine verbatim — CHECK
+[0792A] « prius vos ostendam fabricatores; »   ⚠ NOT in Clementine verbatim — CHECK
+[0792A] VERS. 5.-- « Atque utinam taceretis. »   ✓ Job 13:5
+[0792A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0792A] VERS. 6.-- « Audite ergo correctionem meam. »   ⚠ NOT in Clementine verbatim — CHECK
+[0792B] VERS. 9.-- « Decipietur ut homo vestris fraudulentiis. »   ✓ Job 13:9
+[0792B] VERS. 10.-- « Ipse vos arguet quoniam. »   ✓ Job 13:10
+[0792B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0792B] VERS. 11.-- « Statim. »   — single word, check in place
+[0792B] « Et terror ejus irruet. »   ✓ Job 13:11
+[0792C] « Sola vexatio intellectum dabit auditui [n: (Isa. XXVIII)]: »   ✓ Is 28:19
+[0792C] VERS. 12.-- « Memoria vestra. »   ✓ Bar 4:27, Job 13:12
+[0792C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0792C] VERS. 13.-- « Tacete paulisper ut loquar. »   ✓ Job 13:13
+[0792C] VERS. 14.-- « Quare lacero carnes meas dentibus. »   ✓ Job 13:14
+[0792D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0792D] « Dentibus meis. »   ✓ Job 13:14
+[0792D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0792D] « Et animam meam porto in manibus. »   ✓ Job 13:14
+[0792D] VERS. 15.-- « Etiamsi occiderit me, in ipso sperabo, »   ⚠ NOT in Clementine verbatim — CHECK
+[0793A] « Verumtamen vias meas. »   ✓ Job 13:15
+[0793A] VERS. 16.-- « Non enim veniet in conspectu ejus omnis hypocrita. »   ✓ Job 13:16
+[0793A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0793A] VERS. 17.-- « Audite sermonem meum. »   ✓ Job 13:17
+[0793A] VERS. 18.-- « Si fuero judicatus, scio quod justus, »   ✓ Job 13:18
+[0793A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0793B] VERS. 19.-- « Quis est qui judicetur mecum. »   ✓ Job 13:19
+[0793B] « Quare tacens consumor? »   ✓ Job 13:19
+[0793B] VERS. 20.-- « Duo tantum ne facias. »   ✓ Job 13:20
+[0793B] VERS. 21.-- « Manum tuam longe fac a me. »   ✓ Job 13:21
+[0793C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0793C] VERS. 22.-- « Voca. »   — single word, check in place
+[0793C] « Voca me et ego respondebo tibi. »   ✓ Job 13:22
+[0793C] VERS. 23 « Quantas habeo iniquitates, »   ✓ Job 13:23
+[0793D] VERS. 24.-- « Cur faciem tuam abscondis? »   ✓ Job 13:24
+[0793D] « Et arbitraris. »   ✓ Job 13:24
+[0793D] VERS. 25.-- « Contra folium, »   ✓ Job 13:25
+[0793D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0793D] VERS. 26.-- « Scribis. »   — single word, check in place
+[0794A] « Et consumere. »   ✓ Job 13:26
+[0794A] VERS. 27.-- « Posuisti in nervo pedem meum. »   ✓ Job 13:27
+[0794A] « Et observasti omnes semitas meas. »   ✓ Job 13:27
+[0794A] « Et vestigia pedum meorum considerasti. »   ✓ Job 13:27
+[0794B] VERS. 28 « Qui quasi putredo. »   ✓ Job 13:28
+[0794B] « Quantas habeo iniquitates. »   ✓ Job 13:23
+[0794B] « Contra folium. »   ✓ Job 13:25
+[0794C] « Consumere me vis, »   ✓ Job 13:26
+[0794C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0794C] VERS. 1.-- « Homo natus de muliere. »   ✓ Job 14:1
+[0794C] VERS. 2.-- « Qui quasi flos egreditur. »   ✓ Job 14:2
+[0794C] « Conteritur, »   — single word, check in place
+[0794C] « Et fugit velut umbra. »   ✓ Job 14:2
+[0794D] « Et nunquam in eodem statu, »   ⚠ NOT in Clementine verbatim — CHECK
+[0794D] VERS. 3.-- « Et dignum ducis super hujuscemodi, »   ✓ Job 14:3
+[0794D] VERS. 4.-- « Quis potest facere, »   ✓ Job 14:4
+[0794D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0794D] VERS. 5.-- « Breves dies hominis, »   ✓ Job 14:5
+[0795A] « Constituisti terminos ejus. »   ✓ Job 14:5
+[0795A] VERS. 6.-- « Recede paululum ab eo. »   ✓ Job 14:6
+[0795A] « Donec optata veniat, »   ✓ Job 14:6
+[0795A] VERS. 7.-- « Lignum habet spem. »   ✓ Job 14:7
+[0795B] « Et rami ejus pullulant, »   ✓ Job 14:7
+[0795B] VERS. 8.-- « Si senuerit in terra radix. »   ✓ Job 14:8
+[0795B] « Et in pulvere truncus emoritur, »   ⚠ NOT in Clementine verbatim — CHECK
+[0795B] VERS. 9.-- « Ad odorem aquae germinabit, »   ✓ Job 14:9
+[0795C] « Et faciet comam, »   ✓ Job 14:9
+[0795C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0795C] VERS. 10.-- « Homo vero cum mortuus fuerit. »   ✓ Job 14:10
+[0795C] « ubi ergo est, »   ⚠ NOT in Clementine verbatim — CHECK
+[0795C] « verum esse »   ✓ Dt 17:4
+[0795C] VERS. 11.-- « Quomodo si recedant aquae de mari. »   ✓ Job 14:11
+[0795C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0795C] VERS. 12.-- « Donec atteratur coelum non evigilabit. »   ✓ Job 14:12
+[0795C] VERS. 13.-- « Quis mihi hoc. »   ✓ Job 14:13
+[0795D] « Constituas mihi tempus in quo recorderis mei. »   ✓ Job 14:13
+[0795D] VERS. 14.-- « Putasne mortuus homo rursum. »   ✓ Job 14:14
+[0795D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0795D] « Cunctis diebus. »   ✓ 1Par 22:9, 1Rg 1:28, 1Rg 2:35, …
+[0795D] VERS. 15.-- « Vocabis me et ego respondebo. »   ✓ Job 14:15
+[0796A] « Operi manuum tuarum porriges dexteram, »   ✓ Job 14:15
+[0796A] VERS. 16.-- « Tu quidem gressus, »   ✓ Job 14:16
+[0796A] « Dinumerasti, sed parce. »   ✓ Job 14:16
+[0796A] VERS. 17.-- « Signasti quasi in sacculo, »   ✓ Job 14:17
+[0796A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0796B] VERS. 18.-- « Mons cadens defluit. »   ✓ Job 14:18
+[0796B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0796B] « Saxum, »   — single word, check in place
+[0796B] « De loco, »   ✓ 1Mcc 3:35, 1Rg 20:41, 2Rg 15:19, …
+[0796B] VERS. 19.-- « Lapides, »   — single word, check in place
+[0796B] « aquae »   — single word, check in place
+[0796B] « Terra, »   — single word, check in place
+[0796B] VERS. 20.-- « Roborasti eum paululum, »   ✓ Job 14:20
+[0796C] « Immutabis faciem ejus, et emittes. »   ✓ Job 14:20
+[0796C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0796C] VERS. 21.-- « Sive nobiles fuerint filii. »   ✓ Job 14:21
+[0796C] VERS. 22.-- « Attamen caro ejus dum vivit dolebit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0796C] « Et anima illius super. »   ✓ Job 14:22
+[0796D] VERS. 2.-- « Nunquid sapiens respondebit? »   ⚠ NOT in Clementine verbatim — CHECK
+[0796D] « Et implebit ardore. »   ✓ Job 15:2
+[0796D] VERS. 3.-- « Arguis verbis eum. »   ✓ Job 15:3
+[0796D] VERS. 4.-- « Quantum in te est, »   ✓ Job 15:4
+[0797A] VERS. 5.-- « Docuit enim iniquitas. »   ✓ Job 15:5
+[0797A] « Imitaris linguam blasphemantium »   ✓ Job 15:5
+[0797A] VERS. 6.-- « Condemnabit te, »   ✓ Job 15:6
+[0797A] VERS. 7.-- « Nunquid primus homo. »   ⚠ NOT in Clementine verbatim — CHECK
+[0797A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0797B] VERS. 9.-- « Quid nosti. »   ✓ Job 15:9, Job 34:33
+[0797B] VERS. 10.-- « Et senes et antiqui. »   ✓ Job 15:10
+[0797B] VERS. 11, 12.-- « Nunquid grande est? »   ⚠ NOT in Clementine verbatim — CHECK
+[0797B] « Quid te elevat cor tuum. »   ✓ Job 15:12
+[0797B] VERS. 13.-- « Quid tumet contra Deum spiritus? »   ✓ Job 15:13
+[0797C] « Hujusmodi sermones. »   ⚠ NOT in Clementine verbatim — CHECK
+[0797C] VERS. 14.-- « Quid est homo? »   ✓ Hbr 2:6, Job 7:17, Job 15:14, …
+[0797D] « Et ut justus appareat natus, »   ✓ Job 15:14
+[0797D] VERS. 15.-- « Et coeli non sunt mundi. »   ✓ Job 15:15
+[0797D] VERS. 16.-- « Quanto magis abominabilis. »   ✓ Job 15:16
+[0797D] « Inutilis, »   — single word, check in place
+[0797D] « bibere iniquitatem »   ⚠ NOT in Clementine verbatim — CHECK
+[0798A] VERS. 17.-- « Ostendam tibi. »   ✓ 1Rg 10:8, 1Rg 16:3, Apc 4:1, …
+[0798A] « Quod vidi narrabo tibi. »   ✓ Job 15:17
+[0798A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798A] VERS. 18.-- « Sapientes confitentur. »   ✓ Job 15:18
+[0798A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798A] VERS. 20.-- « Cunctis diebus. »   ✓ 1Par 22:9, 1Rg 1:28, 1Rg 2:35, …
+[0798B] « Et numerus annorum tyrannidis ejus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0798B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798B] VERS. 21.-- « Sonitus terroris semper. [n: (Ibid.)] Prava mens semper in laboribus est, sicut bona semper tranquilla: quia aut molitur mala quae in ferat, aut metuit, ne sibi haec ab aliis inferantur.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0798B] VERS. 22.-- « Non credit quod reverti possit de tenebris ad: »   ✓ Job 15:22
+[0798B] VERS. 23.-- « Cum se moverit, »   ✓ Job 15:23
+[0798B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798C] VERS. 24.-- « Terrebit, »   — single word, check in place
+[0798C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798C] VERS. 25.-- « Tetendit, »   — single word, check in place
+[0798C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798C] VERS. 26.-- « Cucurrit, »   — single word, check in place
+[0798C] « Et pingui cervice armatus est. »   ✓ Job 15:26
+[0798C] VERS. 27.-- « Operuit faciem ejus. »   ✓ Job 15:27
+[0798C] « Et de lateribus ejus. »   ✓ Job 15:27
+[0798D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0798D] VERS. 29.-- « Non ditabitur, »   ✓ Job 15:29, Pr 21:17
+[0798D] « Nec perseverabit. »   ✓ Job 15:29
+[0798D] « Nec mittet in terram, »   ⚠ NOT in Clementine verbatim — CHECK
+[0799A] « in terram non mittet, »   ⚠ NOT in Clementine verbatim — CHECK
+[0799A] VERS. 30.-- « Non recedet de tenebris. »   ✓ Job 15:30
+[0799A] « Ramos ejus, »   ✓ Dn 4:11, Job 15:30
+[0799A] « Et auferetur spiritu, »   ✓ Job 15:30
+[0799A] VERS. 31.-- « Non credet. »   ✓ Job 15:31, Job 24:22
+[0799B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0799B] VERS. 32.-- « Antequam dies ejus. »   ✓ Job 15:32
+[0799B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0799B] VERS. 33.-- « Manus ejus »   ✓ 1Rg 5:7, 1Rg 6:3, 1Rg 6:9, …
+[0799B] « Laedetur quasi, »   ✓ Job 15:33
+[0799B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0799B] « Et quasi oliva projiciens. »   ✓ Job 15:33
+[0799B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0799B] « in primo flore. »   ✓ Job 15:33
+[0799C] VERS. 34.-- « Congregatio enim hypocritae, »   ✓ Job 15:34
+[0799C] « Et ignis devorabit tabernacula eorum, »   ✓ Job 15:34
+[0799C] « Tabernacula. »   — single word, check in place
+[0799D] VERS. 35.-- « Concepit dolorem. »   ✓ Job 15:35, Ps 7:15
+[0799D] « Uterus ejus praeparat dolos, »   ✓ Job 15:35
+[0800A] VERS. 2.-- « Audivi frequenter talia. »   ✓ Job 16:2
+[0800A] « Consolatores onerosi omnes vos. »   ✓ Job 16:2
+[0800A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0800A] VERS. 3.-- « Nunquid habebunt finem verba ventosa? »   ⚠ NOT in Clementine verbatim — CHECK
+[0800A] « Aut aliquid tibi molestum est si loquaris? »   ✓ Job 16:3
+[0800B] VERS. 4.-- « Poteram et ego similia vestri loqui. »   ✓ Job 16:4
+[0800B] VERS. 5.-- « Atque utinam esset anima vestra pro anima mea. »   ✓ Job 16:4
+[0800B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0800B] VERS. 6.-- « Quasi parcens. »   ✓ Job 16:6
+[0800B] *quasi,*   — single word, check in place
+[0800B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0800B] VERS. 8.-- « Nunc autem oppressit me dolor, »   ✓ Job 16:8
+[0800B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0800B] VERS. 9.-- « Rugae meae, »   ✓ Job 16:9
+[0800C] « Et suscitatur falsiloquus adversus faciem, »   ✓ Job 16:9
+[0800D] VERS. 10.-- « Collegit furorem suum. »   ✓ Job 16:10
+[0800D] VERS. 11.-- « Aperuerunt super me ora, »   ✓ Job 16:11
+[0801A] « Percusserunt maxillam meam. »   ✓ Job 16:11
+[0801A] « Maxillam meam. »   ✓ Job 16:11
+[0801B] VERS. 12.-- « Conclusit me Deus, »   ✓ Job 16:12
+[0801B] VERS. 13.-- « Ego ille quondam opulentus. »   ✓ Job 16:13
+[0801B] « Tenuit cervicem meam. »   ✓ Job 16:13
+[0801B] *tenet*   — single word, check in place
+[0801B] « constringit, »   — single word, check in place
+[0801C] « Et posuit me quasi in signum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0801C] « Ipsi enim scitis, quod in hoc positi sumus [n: (I Thess. III)]. »   ✓ 1Thes 3:3
+[0801C] VERS. 14.-- « Circumdedit me. »   ✓ Is 61:10, Job 16:14, Jon 2:4, …
+[0801D] « Convulneravit lumbos meos. »   ✓ Job 16:14
+[0801D] « Convulnerare »   — single word, check in place
+[0801D] « Non pepercit et effudit in terra viscera mea. »   ✓ Job 16:14
+[0802A] « Non pepercit, »   ✓ 2Ptr 2:4, 2Ptr 2:5, Ez 16:5, …
+[0802A] VERS. 15.-- « Concidit me. »   ✓ Job 16:15
+[0802A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0802A] « Irruit in me quasi gigas. »   ✓ Job 16:15
+[0802A] VERS. 16.-- « Saccum consui super cutem. »   ✓ Job 16:16
+[0802B] VERS. 16.-- « Facies mea intumuit. »   ✓ Job 16:17
+[0802B] VERS. 17.-- « Et palpebrae. »   ✓ Job 16:17, Jr 9:18, Pr 4:25, …
+[0802B] VERS. 18.-- « Haec passus sum. »   ✓ Job 16:18
+[0802B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0802B] VERS. 19.-- « Terra ne operias sanguinem meum. »   ✓ Job 16:19
+[0802C] « Terra es et in terram ibis; »   ⚠ NOT in Clementine verbatim — CHECK
+[0802C] « Neque inveniat in te locum latendi clamor meus. »   ✓ Job 16:19
+[0802C] « sanguis redemptionis, »   ⚠ NOT in Clementine verbatim — CHECK
+[0802D] VERS. 20.-- « Ecce enim in, »   ✓ Job 16:20, Ps 50:7
+[0802D] « Et qui misit me Pater, ipse testimonium perhibuit de me. »   ✓ Jo 5:37
+[0802D] « Et conscius meus. »   ✓ Job 16:20
+[0802D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0802D] VERS. 21.-- « Verbosi amici mei. »   ✓ Job 16:21
+[0802D] VERS. 22.-- « Atque utinam, »   ✓ Est 7:4, Job 11:5, Job 13:5, …
+[0803A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0803A] VERS. 23.-- « Ecce enim breves anni transeunt. »   ✓ Job 16:23
+[0803A] VERS. 1.-- « Spiritus meus attenuabitur. »   ✓ Job 17:1
+[0803A] « Et solum mihi [0803B] superest sepulcrum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0803B] VERS. 2.-- « Non peccavi. »   ✓ Job 17:2, Jr 2:35
+[0803B] VERS. 3.-- « Pone me juxta te. »   ✓ Job 17:3
+[0803B] « Cujusvis manus. »   ✓ Job 17:3
+[0803B] VERS. 4.-- « Cor eorum longe. »   ✓ Job 17:4
+[0803B] « Propterea non, »   ✓ Is 27:11, Is 57:10, Jo 12:39, …
+[0803C] VERS. 5.-- « Praedam pollicetur, »   ✓ Job 17:5
+[0803C] « socii »   — single word, check in place
+[0803C] « Filii, »   — single word, check in place
+[0803C] « Praedam igitur sociis pollicetur, »   ⚠ NOT in Clementine verbatim — CHECK
+[0803C] « Oculi filiorum ejus deficient. »   ✓ Job 17:5
+[0803C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0803C] VERS. 6.-- « Posuit me. »   ✓ Is 49:2, Job 16:13, Job 17:6, …
+[0803C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0803D] VERS. 7.-- « Caligavit ab indignatione. »   ✓ Job 17:7
+[0803D] « Et membra mea quasi in nihilum. »   ✓ Job 17:7
+[0803D] VERS. 8.-- « Stupebunt justi super hoc. »   ✓ Job 17:8
+[0804A] « caligavit ad indignationem oculus meus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0804A] « Et innocens contra hypocritam suscitabitur. »   ✓ Job 17:8
+[0804A] VERS. 9.-- « Et tenebit justus viam suam. »   ✓ Job 17:9
+[0804A] « Et mundis manibus addet fortitudinem. »   ✓ Job 17:9
+[0804A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0804B] VERS. 10.-- « Igitur omnes vos. »   ✓ Job 17:10
+[0804B] VERS. 11.-- « Et non in vobis. »   ⚠ NOT in Clementine verbatim — CHECK
+[0804B] « Dies mei transierunt. »   ✓ Job 17:11
+[0804B] « Dies, »   — single word, check in place
+[0804B] « Cogitationes cor torquentes, »   ⚠ NOT in Clementine verbatim — CHECK
+[0804C] VERS. 12.-- « Noctem verterunt in diem. »   ✓ Job 17:12
+[0804C] « noctem in diem »   ⚠ NOT in Clementine verbatim — CHECK
+[0804C] « Et rursum post tenebras. »   ✓ Job 17:12
+[0804C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0804C] VERS. 13.-- « Si sustinuero. »   ✓ Job 17:13
+[0804C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0804C] VERS. 14.-- « Putredini dixi. »   ✓ Job 17:14
+[0804C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0804D] VERS. 15.-- « Ubi est ergo nunc praestolatio mea. »   ✓ Job 17:15
+[0804D] « Et patientiam meam quis considerat? »   ✓ Job 17:15
+[0804D] VERS. 16.-- « In profundissimum infernum descendent omnia mea. »   ✓ Job 17:16
+[0804D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0804D] « Putasne saltem sibi erit requies mihi? »   ⚠ NOT in Clementine verbatim — CHECK
+[0805A] VERS. 2.-- « Usque ad quem finem verba jactabitis. »   ✓ Job 18:2
+[0805A] « Intellige prius. »   ⚠ NOT in Clementine verbatim — CHECK
+[0805A] VERS. 3.-- « Quare reputati sumus. »   ✓ Job 18:3
+[0805A] VERS. 4.-- « Quid perdis animam tuam. »   ⚠ NOT in Clementine verbatim — CHECK
+[0805B] « Nunquid propter te derelinquetur terra. »   ⚠ NOT in Clementine verbatim — CHECK
+[0805B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0805B] VERS. 5.-- « Nonne lux impii exstinguetur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0805B] *Lucem*   — single word, check in place
+[0805B] « Nec splendebit flamma ignis ejus. »   ✓ Job 18:5
+[0805C] VERS. 6.-- « Lux obtenebrescet in tabernaculo. »   ✓ Job 18:6
+[0805C] « Et lucerna quae super eum est exstinguetur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0805C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0805C] VERS. 7.-- « Arctabuntur gressus virtutis, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0805C] « Et praecipitabit eum. »   ✓ Job 18:7
+[0805C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0805C] VERS. 8.-- « Immisit enim in rete. »   ✓ Job 18:8
+[0805D] « Et in maculis ejus ambulat. »   ✓ Job 18:8
+[0805D] VERS. 9.-- « Tenebitur planta illius, »   ✓ Job 18:9
+[0805D] « Et exardescet contra eum. »   ✓ Job 18:9
+[0805D] VERS. 10.-- « Abscondita est in terra. »   ✓ Job 18:10
+[0806A] « Et decipula illius. »   ✓ Job 18:10
+[0806A] VERS. 11.-- « Undique terrebunt. »   ✓ Job 18:11
+[0806B] VERS. 12.-- « Attenuetur fame. »   ✓ Job 18:12
+[0806B] « Et inedia invadat costas illius. »   ✓ Job 18:12
+[0806B] « Devoret pulchritudinem cutis ejus et consumat brachia illius. [n: (Idem.)] »   ⚠ NOT in Clementine verbatim — CHECK
+[0806B] *brachia*   — single word, check in place
+[0806C] *Mortem*   — single word, check in place
+[0806C] VERS. 13.-- « Primogenita mors. »   ✓ Job 18:13
+[0806C] VERS. 14.-- « Avellatur de tabernaculo suo fiducia ejus. »   ✓ Job 18:14
+[0806C] « Et calcet super eum quasi rex interitus. »   ✓ Job 18:14
+[0806C] VERS. 15.-- « Habitent in tabernaculo. »   ✓ Job 18:15
+[0806D] « Aspergatur in tabernaculo. »   ✓ Job 18:15
+[0806D] VERS. 16.-- « Deorsum radices ejus siccentur. »   ✓ Job 18:16
+[0806D] « radices, »   — single word, check in place
+[0806D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0806D] VERS. 17.-- « Memoria pereat. »   ⚠ NOT in Clementine verbatim — CHECK
+[0807A] VERS. 18.-- « Expellet eum de luce. »   ✓ Job 18:18
+[0807A] « Et de orbe transferet, »   ✓ Job 18:18
+[0807B] VERS. 19.-- « Non erit semen, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0807B] VERS. 20.-- « In die ejus stupebunt. »   ✓ Job 18:20
+[0807B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0807B] « Et primos invadet horror, »   ✓ Job 18:20
+[0807B] « Ita ut in errorem inducantur, si fieri potest, etiam electi [n: (Matth. XXIV)], »   ✓ Mt 24:24
+[0807B] VERS. 21.-- « Haec sunt ergo tabernacula. »   ✓ Job 18:21
+[0807B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0807B] VERS. 2.-- « Usquequo affligitis, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0807B] VERS. 3.-- « En decies confunditis me. »   ✓ Job 19:3
+[0807D] « En decies »   ✓ Job 19:3
+[0807D] « Et non erubescitis opprimentes me. »   ✓ Job 19:3
+[0807D] VERS. 4.-- « Nempe et si ignoravi. »   ⚠ NOT in Clementine verbatim — CHECK
+[0808A] VERS. 5.-- « At vos contra me erigimini. »   ✓ Job 19:5
+[0808A] « Et arguitis me. »   ✓ Job 19:5
+[0808A] VERS. 6.-- « Saltem nunc intelligite. »   ✓ Job 19:6
+[0808A] *commovisti me adversus eum frustra*   ⚠ NOT in Clementine verbatim — CHECK
+[0808A] « Quia Deus non aequo judicio. »   ✓ Job 19:6
+[0808B] « Et flagellis suis me cinxerit. »   ✓ Job 19:6
+[0808B] VERS. 7.-- « Ecce clamabo vim patiens. »   ✓ Job 19:7
+[0808B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0808B] VERS. 8.-- « Semitam meam circumsepsit, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0808C] VERS. 9.-- « Spoliavit me gloria mea. »   ✓ Job 19:9
+[0808C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0808C] VERS. 10.-- « Destruxit me undique et pereo, et quasi evulsae arbori, »   ✓ Job 19:10
+[0808C] VERS. 11.-- « Iratus est contra me. »   ✓ Job 19:11
+[0808D] « Plaga inimici percussi te, castigatione crudeli [n: (Jerem. XXX)]. »   ⚠ NOT in Clementine verbatim — CHECK
+[0808D] VERS. 12.-- « Simul venerunt latrones. »   ✓ Job 19:12
+[0808D] « Et obsederunt in gyro tabernaculum, »   ✓ Job 19:12
+[0808D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0808D] VERS. 13.-- « Fratres meos longe. »   ✓ Job 19:13
+[0809A] VERS. 15.-- « Inquilini domus meae. »   ✓ Job 19:15
+[0809A] « ancillae. »   — single word, check in place
+[0809A] « Et quasi peregrinus fui, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0809A] « Quasi colonus futurus es in terra, et quasi viator declinans ad manendum [0809B] [n: (Jer. XIV)]. »   ✓ Jr 14:8
+[0809B] « colonus »   — single word, check in place
+[0809B] « Qui quasi viator ad manendum declinavit, »   ⚠ NOT in Clementine verbatim — CHECK
+[0809B] VERS. 16.-- « Servum meum vocavi. »   ✓ Job 19:16
+[0809B] « Ore proprio decorabat. »   ⚠ NOT in Clementine verbatim — CHECK
+[0809B] VERS. 17.-- « Halitum meum exhorruit uxor, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0809C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0809C] « Et orabam filios uteri. »   ✓ Job 19:17
+[0809C] VERS. 18.-- « Stulti quoque despiciebant, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0809C] « Stulti quoque; »   ✓ Job 19:18
+[0809C] « Et cum ab eis recessissem. »   ✓ Job 19:18
+[0809D] VERS. 19.-- « Abominati sunt me, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0809D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0809D] « Et quem maxime diligebam. »   ✓ Job 19:19
+[0809D] VERS. 20.-- « Pelli meae consumptis. »   ✓ Job 19:20
+[0809D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0810A] « Carnibus »   — single word, check in place
+[0810A] « Et derelicta. »   ✓ Job 19:20
+[0810A] « Tantummodo. »   — single word, check in place
+[0810A] VERS. 21.-- « Miseremini mei. »   ✓ Job 19:21
+[0810B] « Mitte manum tuam, et tange os ejus. »   ✓ Job 2:5
+[0810B] VERS. 22.-- « Quare persequimini me. »   ✓ Job 19:22
+[0810B] « Sicut Deus. »   ✓ 1Rg 2:2, Dt 4:7, Job 19:22, …
+[0810C] « Et de carnibus meis saturamini. »   ⚠ NOT in Clementine verbatim — CHECK
+[0810C] « Quis mihi tribuat, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0810C] « Quis mihi tribuat. »   ✓ 2Rg 18:33, Job 19:23, Job 23:3, …
+[0810C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0810C] « Quis mihi det, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0810D] VERS. 25.-- « Scio enim quod Redemptor, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0810D] « Et in novissimo die de terra surrecturus sum, et rursum, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0811A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0811A] VERS. 27.-- « Quem visurus sum, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0811A] « Ego ipse, et oculi mei conspecturi sunt, et non aliis. »   ⚠ NOT in Clementine verbatim — CHECK
+[0811A] « Reposita est haec spes mea in sinu meo. »   ✓ Job 19:27
+[0811A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0811B] VERS. 28.-- « Quare ergo nunc. »   ✓ Job 19:28
+[0811B] VERS. 29.-- « Fugite ergo. »   ✓ Job 19:29
+[0811B] « Et scitote esse judicium. »   ✓ Job 19:29
+[0811B] « Idcirco cogitationes. »   ✓ Job 20:2
+[0811C] « Et mens in diversa rapitur. »   ✓ Job 20:2
+[0811C] VERS. 3.-- « Doctrinam qua, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0811C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0811C] « laus impiorum, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0811C] VERS. 4.-- « Hoc scio a principio. »   ✓ Job 20:4
+[0811D] VERS. 5.-- « Et gaudium hypocritae. »   ✓ Job 20:5
+[0811D] « Ad instar puncti, »   ✓ Job 20:5
+[0811D] VERS. 6.-- « Si ascenderit, »   ✓ 3Rg 12:27, Job 20:6, Jr 51:53, …
+[0812A] VERS. 7.-- « Et qui eum viderant, dicent. »   ✓ Job 20:7
+[0812A] VERS. 8.-- « Velut somnium avolans. »   ✓ Job 20:8
+[0812A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0812A] VERS. 9.-- « Oculus qui eum viderat. »   ✓ Job 20:9
+[0812A] « Neque ultra intuebitur. »   ✓ Job 20:9
+[0812B] VERS. 10.-- « Filii ejus atterentur, »   ✓ Job 20:10
+[0812B] VERS. 11.-- « Ossa ejus implebuntur. »   ✓ Job 20:11
+[0812B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0812B] VERS. 12.-- « Cum enim dulce fuerit. »   ✓ Job 20:12
+[0812B] « Parcet illi et non. »   ✓ Job 20:13
+[0812C] VERS. 14.-- « Panis ejus in utero. »   ✓ Job 20:14
+[0812C] VERS. 15.-- « Divitias. »   — single word, check in place
+[0812D] « Caput aspidum. »   ✓ Job 20:16
+[0812D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0812D] VERS. 17.-- « Non videat rivulos. »   ✓ Job 20:17
+[0812D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0812D] VERS. 18.-- « Luet quae fecit omnia. »   ✓ Job 20:18
+[0812D] « luet quae fecit omnia, »   ✓ Job 20:18
+[0813A] VERS. 19.-- « Quoniam confringens. »   ✓ Job 20:19
+[0813A] VERS. 20.-- « Nec est satiatus venter. »   ✓ Job 20:20
+[0813A] « Et cum habuerit quod concupierat. »   ⚠ NOT in Clementine verbatim — CHECK
+[0813B] VERS. 21.-- « Non remansit de civitate ejus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0813B] « Propterea nihil, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0813B] VERS. 22.-- « Cum satiatus fuerit, arctabitur. »   ✓ Job 20:22
+[0813B] « Aestuabit, et omnis dolor. »   ✓ Job 20:22
+[0813B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0813C] VERS. 23.-- « Utinam impleatur venter ejus, etc., pluat super illum bellum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0813C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0813C] VERS. 24.-- « Fugiet arma. »   ✓ Job 20:24
+[0813C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0813C] VERS. 25.-- « Gladius eductus, »   ⚠ NOT in Clementine verbatim — CHECK
+[0813C] « Vadent et venient, »   ✓ Job 20:25
+[0813C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0813D] VERS. 26.-- « Omnes tenebrae absconditae sunt. »   ✓ Job 20:26
+[0813D] « Devorabit eum, »   ✓ Job 20:26
+[0813D] « Affligetur relictus. »   ✓ Job 20:26
+[0814A] VERS. 27.-- « Revelabunt; »   — single word, check in place
+[0814A] VERS. 28.-- « Apertum erit. »   ✓ Job 20:28
+[0814A] « Detrahetur in: »   ✓ Job 20:28
+[0814A] VERS. 29.-- « Haec est pars hominis impii. »   ✓ Job 20:29, Job 27:13
+[0814B] VERS. 4.-- « Nunquid contra. »   ⚠ NOT in Clementine verbatim — CHECK
+[0814B] « Nunquid contra hominem. »   ⚠ NOT in Clementine verbatim — CHECK
+[0814B] « Vos autem attendite me, »   ⚠ NOT in Clementine verbatim — CHECK
+[0814B] VERS. 5.-- « Attendite, »   — single word, check in place
+[0814C] « Et superponite digitum ori vestro, »   ✓ Job 21:5
+[0814C] VERS. 6.-- « Et ego quando recordatus fuero. »   ✓ Job 21:6
+[0814C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0814C] VERS. 7.-- « Quare ergo impii vivunt. »   ✓ Job 21:7
+[0814C] « Confortatique divitiis, »   ✓ Job 21:7
+[0814C] VERS. 8.-- « Semen eorum permanet. »   ✓ Job 21:8
+[0814D] « Coram eis. »   ✓ 1Par 5:25, 1Rg 21:13, 2Par 18:9, …
+[0814D] « Propinquorum turba et nepotum in conspectu eorum. »   ✓ Job 21:8
+[0814D] VERS. 9.-- « Domus eorum securae sunt, et pacatae, et non est. »   ✓ Job 21:9
+[0814D] « Bos eorum concepit. »   ✓ Job 21:10
+[0814D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0815A] « Egrediuntur quasi greges. »   ✓ Job 21:11
+[0815A] « Et infantes eorum exsultant lusibus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0815A] VERS. 12.-- « Tenent tympanum et citharam. »   ✓ Job 21:12
+[0815A] VERS. 13.-- « Ducunt in bonis dies suos. »   ✓ Job 21:13
+[0815A] « Et in puncto ad inferna descendunt. »   ✓ Job 21:13
+[0815B] VERS. 14.-- « Qui dixerunt Deo: Recede a nobis. »   ✓ Job 21:14
+[0815B] « Scientiam viarum tuarum. »   ✓ Job 21:14
+[0815B] VERS. 15.-- « Quis est Omnipotens? »   ✓ Job 21:15
+[0815B] « Dixit enim insipiens in corde suo: Non est Deus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0815B] « Et quid nobis prodest si oraverimus? »   ✓ Job 21:15
+[0815C] VERS. 16.-- « Verumtamen quia non sunt. »   ✓ Job 21:16
+[0815C] « Consilium eorum longe. »   ⚠ NOT in Clementine verbatim — CHECK
+[0815C] VERS. 17.-- « Quoties lucerna impiorum exstinguetur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0815D] « Et dolores dividet, »   ✓ Job 21:17
+[0815D] VERS. 18.-- « Erunt sicut paleae. »   ✓ Job 21:18
+[0815D] « Et sicut favilla quam, »   ✓ Job 21:18
+[0815D] VERS. 19.-- « Deus servabit filiis illius. »   ✓ Job 21:19
+[0816A] « Et cum reddiderit. »   ✓ Job 21:19
+[0816A] VERS. 20.-- « Videbunt oculi ejus. »   ✓ Is 33:17, Job 21:20
+[0816A] VERS. 21.-- « Quid enim ad. »   ✓ Job 21:21
+[0816A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0816A] VERS. 22.-- « Nunquid Deum quispiam docebit scientiam? »   ⚠ NOT in Clementine verbatim — CHECK
+[0816A] VERS. 23.-- « Iste moritur. »   ✓ Job 21:23
+[0816B] VERS. 24.-- « Viscera ejus plena sunt adipe. »   ✓ Job 21:24
+[0816B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0816B] VERS. 26.-- « Et tamen simul in pulvere dormient. »   ✓ Job 21:26
+[0816B] « Et tamen simul in pulvere. »   ✓ Job 21:26
+[0816B] « Et vermes, »   ✓ Jdt 16:21, Job 21:26, Sir 10:13, …
+[0816C] VERS. 27.-- « Certe novi cogitationes vestras. »   ✓ Job 21:27
+[0816C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0816C] VERS. 29.-- « Interrogate quemlibet de via. »   ⚠ NOT in Clementine verbatim — CHECK
+[0816C] VERS. 31.-- « Quis arguet coram eo vias ejus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0816C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0816C] VERS. 32.-- « Ipse ad sepulcra. »   ⚠ NOT in Clementine verbatim — CHECK
+[0816C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0816D] « Et in congerie. »   ✓ Job 21:32
+[0816D] VERS. 33.-- « Dulcis fuit. »   ✓ Job 21:33
+[0816D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0816D] « Et post se omnem. »   ✓ Job 21:33
+[0816D] VERS. 34.-- « Quomodo igitur consolamini, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0817A] « Cum responsio vestra, »   ✓ Job 21:34
+[0817A] VERS. 1, 2.-- « Respondens, etc. Nunquid Deo. »   ⚠ NOT in Clementine verbatim — CHECK
+[0817B] « Nunquid Deo comparari? »   ⚠ NOT in Clementine verbatim — CHECK
+[0817B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817B] VERS. 3.-- « Quid prodest? »   ✓ Ecl 5:10, Hab 2:18, Job 22:3, …
+[0817B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817B] VERS. 4.-- « Nunquid timens arguet te? »   ⚠ NOT in Clementine verbatim — CHECK
+[0817B] « Nunquid tibi arguet? »   ⚠ NOT in Clementine verbatim — CHECK
+[0817B] VERS. 5.-- « Et non propter malitiam tuam plurimam. »   ✓ Job 22:5
+[0817B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817C] VERS. 6.-- « Abstulisti enim pignus. »   ✓ Job 22:6
+[0817C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817C] VERS. 9.-- « Viduas. »   — single word, check in place
+[0817C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817C] « Propterea circumdatus es laqueis. »   ✓ Job 22:10
+[0817C] VERS. 11.-- « Et putabas te. »   ✓ Job 22:11
+[0817C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817C] VERS. 12.-- « An non cogitas quod Deus. »   ✓ Job 22:12
+[0817C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817C] VERS. 15.-- « Nunquid semitam? »   ⚠ NOT in Clementine verbatim — CHECK
+[0817D] VERS. 16.-- « Qui sublati sunt ante tempus suum; nisi quod omnes. »   ⚠ NOT in Clementine verbatim — CHECK
+[0817D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817D] « Et fluvius subvertit fundamentum eorum. »   ✓ Job 22:16
+[0817D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0817D] VERS. 18.-- « Cum ille implesset. »   ✓ Job 22:18
+[0817D] « Quorum sententia procul. »   ✓ Job 22:18
+[0817D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0818A] VERS. 19.-- « Videbunt justi, »   ✓ Job 22:19, Ps 51:8
+[0818A] « Et laetabuntur. »   ✓ Job 22:19, Ps 106:42, Ps 118:74, …
+[0818A] VERS. 20.-- « Nonne succisa. »   ✓ Job 22:20
+[0818A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0818A] « Et reliquias eorum devoravit. »   ✓ Job 22:20
+[0818A] VERS. 21.-- « Acquiesce igitur. »   ✓ Job 22:21
+[0818A] VERS. 23.-- « Si reversus fuerit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0818B] « Et longe facies. »   ✓ Job 22:23
+[0818B] VERS. 24.-- « Dabit pro terra. »   ✓ Job 22:24
+[0818B] « silicem »   — single word, check in place
+[0818B] « pro silice torrentes aureos. »   ✓ Job 22:24
+[0818B] « Pro. »   — single word, check in place
+[0818B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0818B] VERS. 25.-- « Eritque Omnipotens contra. »   ✓ Job 22:25
+[0818C] VERS. 26.-- « Tunc super. »   ✓ Job 22:26
+[0818C] « Et elevabis ad Deum. »   ✓ Job 22:26
+[0818C] VERS. 27.-- « Et vota tua reddes. »   ✓ Job 22:27
+[0818D] VERS. 28.-- « Decernes. »   — single word, check in place
+[0818D] « Et veniet. »   ✓ 3Rg 1:35, 4Rg 8:1, Agg 2:8, …
+[0818D] « Et in viis. »   ✓ 2Par 21:12, Job 22:28, Sap 6:17, …
+[0818D] VERS. 29.-- « Qui enim humiliatus. »   ✓ Job 22:29
+[0818D] « Et qui. »   ✓ 1Cor 3:8, 1Cor 7:29, 1Cor 7:30, …
+[0818D] VERS. 30.-- « Salvabitur innocens. »   ✓ Job 22:30
+[0819A] VERS. 1.-- « Respondens autem Job dixit: Nunc quoque in amaritudine. »   ⚠ NOT in Clementine verbatim — CHECK
+[0819A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0819A] VERS. 2.-- « Et manus plagae meae. »   ✓ Job 23:2
+[0819A] VERS. 3.-- « Quis mihi tribuat. »   ✓ 2Rg 18:33, Job 19:23, Job 23:3, …
+[0819B] « Inveniam illum. »   ✓ Job 23:3
+[0819B] « Et veniam usque ad solium ejus. »   ✓ Job 23:3
+[0819B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0819B] « Ponam coram Deo judicium. »   ⚠ NOT in Clementine verbatim — CHECK
+[0819B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0819B] VERS. 4.-- « Os meum replebo. »   ✓ Job 23:4
+[0819C] VERS. 6.-- « Nolo multa fortitudine contendat. »   ✓ Job 23:6
+[0819C] « Nec magnitudinis. »   ✓ Job 23:6
+[0819C] VERS. 7.-- « Proponat aequitatem. »   ✓ Job 23:7
+[0819C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0819D] VERS. 8.-- « Si ad orientem. »   ✓ Job 23:8
+[0819D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0819D] VERS. 10.-- « Ipse vero scit viam. »   ✓ Job 23:10
+[0819D] « Et probavit. »   ✓ Job 23:10
+[0819D] « Et proba me quasi aurum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0819D] VERS. 11.-- « Vestigia ejus secutus est. »   ✓ Job 23:11
+[0819D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0820A] VERS. 12.-- « Et in sinu meo abscondi. »   ✓ Job 23:12
+[0820A] VERS. 13.-- « Ipse enim solus est. »   ✓ Job 23:13
+[0820A] « Et nemo avertere. »   ✓ Job 23:13
+[0820A] « Et anima ejus. »   ✓ Is 29:8, Job 23:13
+[0820B] VERS. 14.-- « Cum expleverit. »   ✓ Job 23:14
+[0820B] « multa similia praesto sunt ei, »   ✓ Job 23:14
+[0820B] VERS. 15.-- « Et idcirco a facie. »   ✓ Job 23:15
+[0820B] VERS. 16.-- « Deus mollivit. »   ✓ Job 23:16
+[0820B] « Conturbavit me. »   ✓ Ct 6:11, Job 23:16
+[0820B] « Non enim perii. »   ✓ Job 23:17
+[0820C] VERS. 17.-- « Non enim. »   ✓ 1Cor 1:17, 1Cor 2:2, 1Cor 4:20, …
+[0820C] VERS. 1.-- « Qui autem. »   ✓ 1Cor 3:8, 1Cor 4:4, 1Cor 6:17, …
+[0820C] VERS. 2.-- « Alii terminos. »   ✓ Job 24:2
+[0820C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0820D] VERS. 3.-- « Asinum pupillorum. »   ✓ Job 24:3
+[0820D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0820D] « Et abstulerunt. »   ✓ Job 24:3
+[0820D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0820D] VERS. 4.-- « Subverterunt pauperum. »   ✓ Job 24:4
+[0820D] VERS. 5.-- « Alii quasi onagri. »   ✓ Job 24:5
+[0821A] « Egrediuntur. »   — single word, check in place
+[0821A] « Vigilantesque ad praedam. »   ⚠ NOT in Clementine verbatim — CHECK
+[0821A] VERS. 6.-- « Agrum non suum. »   ✓ Job 24:6
+[0821B] VERS. 7.-- « Nudos dimittunt homines. »   ✓ Job 24:7
+[0821B] « Quibus non. »   ✓ 1Rg 6:7, Act 13:38, Act 15:24, …
+[0821B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0821B] « Quos imbres montium rigant. »   ✓ Job 24:8
+[0821B] « Et non habentes. »   ✓ Job 24:8
+[0821B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0821B] VERS. 10.-- « Nudis et incedentibus absque vestitu. »   ✓ Job 24:10
+[0821C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0821C] VERS. 11.-- « Qui calcatis torcularibus. »   ✓ Job 24:11
+[0821C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0821C] VERS. 12.-- « De civitatibus fecerunt vi gemere. »   ⚠ NOT in Clementine verbatim — CHECK
+[0821C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0821C] VERS. 13.-- « Et anima vulneratorum clamavit. »   ✓ Job 24:12
+[0821C] « Ipsi fuerunt rebelles lumini. »   ✓ Job 24:13
+[0821D] « Nescierunt vias ejus. »   ✓ Job 24:13
+[0821D] « Nec reversi sunt. »   ✓ Job 24:13, Neh 9:35, Os 7:10
+[0821D] VERS. 14.-- « Mane primo consurgit homicida. »   ✓ Job 24:14
+[0822A] VERS. 15.-- « Oculus adulteri. »   ✓ Job 24:15
+[0822A] « Et operiet vultum suum. »   ✓ Job 24:15
+[0822A] « Nunquam novi vos. »   ⚠ NOT in Clementine verbatim — CHECK
+[0822A] VERS. 16.-- « Perfodit. »   — single word, check in place
+[0822A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0822B] « Sicut in. »   ✓ 1Cor 7:17, 1Cor 15:22, 1Mcc 4:38, …
+[0822B] VERS. 17.-- « Si subito. »   ✓ Job 24:17
+[0822B] « si subito apparuerit aurora, »   ✓ Job 24:17
+[0822B] « arbitrantur umbram mortis, »   ✓ Job 24:17
+[0822B] « Et sic in. »   ✓ Gal 6:4, Job 24:17, Sir 24:15
+[0822B] VERS. 18.-- « Levis est super faciem aquae. »   ✓ Job 24:18
+[0822C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0822C] « Maledicta sit pars. »   ✓ Job 24:18
+[0822C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0822C] « Nec ambulet per viam vinearum. »   ✓ Job 24:18
+[0822C] VERS. 19.-- « Ad nimium calorem transiet. »   ⚠ NOT in Clementine verbatim — CHECK
+[0822C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0822C] VERS. 20.-- « Et usque ad inferos peccatum illius. »   ✓ Job 24:19
+[0822D] VERS. 21.-- « Dulcedo illius. »   ✓ Job 24:20
+[0822D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0822D] « Non sit in recordatione. »   ✓ Job 24:20
+[0822D] VERS. 22.-- « Pavit enim sterilem. »   ✓ Job 24:21
+[0822D] « Et viduae. »   ✓ Dt 10:18, Dt 26:12, Dt 27:19, …
+[0822D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0822D] VERS. 23.-- « Detraxit fortes. »   ✓ Job 24:22
+[0823A] « Et cum steterit. »   ✓ Dn 11:4, Job 24:22
+[0823A] « Oculi autem ejus. »   ✓ Apc 19:12, Job 24:23
+[0823A] VERS. 24.-- « Elevati sunt ad modicum. »   ✓ Job 24:24
+[0823A] « Et humiliabuntur sicut omnia. »   ✓ Job 24:24
+[0823B] « Et sicut summitates spicarum, »   ✓ Job 24:24
+[0823B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0823B] VERS. 25.-- « Quod si non est ita, »   ✓ Job 24:25
+[0823B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0823B] « Quis me potest arguere esse mentitum. »   ✓ Job 24:25
+[0823C] VERS. 1.-- « Respondens autem, »   ✓ 1Rg 4:17, 1Rg 9:21, 1Rg 20:32, …
+[0823C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0823C] VERS. 2.-- « Qui facit concordiam. »   ✓ Job 25:2
+[0823C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0823C] VERS. 3.-- « Nunquid est. »   ⚠ NOT in Clementine verbatim — CHECK
+[0823C] « Et super. »   ✓ 1Mcc 6:37, 1Mcc 10:42, 1Mcc 13:29, …
+[0823D] VERS. 4.-- « Nunquid justificari. »   ⚠ NOT in Clementine verbatim — CHECK
+[0823D] VERS. 5.-- « Ecce enim. »   ⚑ MATCHES ONLY ELSEWHERE — 1Mcc 9:45, 2Cor 7:11, 4Rg 6:32, …  (lemma is Job 25) — CHECK
+[0823D] « quanto magis homo putredo! »   ✓ Job 25:6
+[0823D] VERS. 6.-- « Et filius, »   ✓ 1Rg 22:8, 1Rg 22:13, 3Rg 1:21, …
+[0823D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0824A] VERS. 1.-- « Respondens autem Job. »   ✓ Job 6:1, Job 12:1, Job 16:1, …
+[0824A] « Cujus adjutor? Nunquid imbecillis. »   ⚠ NOT in Clementine verbatim — CHECK
+[0824A] VERS. 3.-- « Cui dedisti. »   ✓ Job 26:3
+[0824B] « Et prudentiam, »   ✓ 1Cor 1:19, 3Rg 4:29, Abd 1:8, …
+[0824B] « Plurimam. »   — single word, check in place
+[0824B] VERS. 4.-- « Quem docere. »   ✓ Job 26:4
+[0824B] « Spiramentum. [n: (AUG.)] »   — single word, check in place
+[0824B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0824B] « Nonne eum qui. »   ✓ Job 26:4
+[0824B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0824C] « Ecce gigantes gemunt sub aquis. »   ✓ Job 26:5
+[0824C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0824C] VERS. 5.-- « Et qui habitant cum. »   ✓ Job 26:5
+[0824C] VERS. 6.-- « Nudus est infernus. »   ✓ Job 26:6
+[0824C] VERS. 7.-- « Qui extendit. »   ✓ 4Rg 6:7, Is 40:22, Job 9:8, …
+[0824D] « Et appendit terram. »   ✓ Job 26:7
+[0824D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0824D] « Omnes gentes velut nihilum et inane reputatae sunt. »   ⚠ NOT in Clementine verbatim — CHECK
+[0824D] VERS. 8.-- « Qui ligat. »   ✓ Job 26:8
+[0824D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0824D] VERS. 9.-- « Qui tenet vultum. »   ✓ Job 26:9
+[0825A] « Vultum solii. »   ✓ Job 26:9
+[0825A] VERS. 10.-- « Terminum circumdedit aquis. »   ✓ Job 26:10
+[0825A] VERS. 11.-- « Columnae. »   — single word, check in place
+[0825A] VERS. 12.-- « In fortitudine. »   ✓ 1Mcc 2:46, 1Rg 2:9, 3Rg 19:8, …
+[0825B] « Et prudentia ejus. »   ✓ Job 26:12
+[0825B] VERS. 13.-- « Spiritus ejus ornavit coelos. »   ✓ Job 26:13
+[0825B] « Et obstetricante manu ejus. »   ✓ Job 26:13
+[0825C] VERS. 14.-- « Et ecce haec ex parte dicta sunt viarum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0825C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0825C] « Et cum vix parvam. »   ✓ Job 26:14
+[0825C] VERS. 1.-- « Addidit quoque, »   ✓ Job 27:1, Job 29:1
+[0825C] VERS. 2.-- « Vivit Deus. »   ✓ Am 8:14, Job 27:2
+[0825D] « Vivit Deus. »   ✓ Am 8:14, Job 27:2
+[0825D] « Qui abstulit judicium meum, »   ✓ Job 27:2
+[0825D] VERS. 4.-- « Non loquentur labia mea. »   ✓ Job 27:4
+[0825D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0825D] VERS. 5.-- « Absit a me. »   ✓ Gn 44:17, Job 27:5
+[0825D] « Qui justificat impium, et qui condemnat justum, uterque abominabilis est ante Deum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0825D] « Absit a me. »   ✓ Gn 44:17, Job 27:5
+[0826A] VERS. 6.-- « Justificationem meam. »   ✓ Job 27:6
+[0826A] « Neque enim reprehendit me cor meum. »   ✓ Job 27:6
+[0826A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0826A] VERS. 7.-- « Sicut impius inimicus meus. [n: (Ibid.)] Impius, infidelis dicitur, etc., *usque ad* qui mihi opere non concordat.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0826A] VERS. 8.-- « Quae est enim spes hypocrisis. »   ⚠ NOT in Clementine verbatim — CHECK
+[0826A] VERS. 9.-- « Nunquid Deus audiet? »   ⚠ NOT in Clementine verbatim — CHECK
+[0826B] VERS. 10.-- « Aut poterit in Omnipotente delectari. »   ✓ Job 27:10
+[0826B] « Et invocare Deum in omni. »   ⚠ NOT in Clementine verbatim — CHECK
+[0826B] VERS. 11.-- « Docebo vos per manus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0826B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0826B] VERS. 14.-- « Si multiplicati fuerint. »   ✓ Job 27:14
+[0826B] « Et nepotes. »   ✓ 4Rg 17:41, Gn 46:7, Is 65:23, …
+[0826C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0826C] VERS. 15.-- « Qui reliqui fuerint. »   ✓ Hab 2:8, Job 27:15, Zach 14:16
+[0826C] « Et viduae illius non plorabunt. »   ✓ Job 27:15
+[0826C] VERS. 16.-- « Si comportaverit. »   ✓ Job 27:16
+[0826C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0826C] « Praeparabit quidem. »   ✓ Job 27:17
+[0826D] « Et argentum innocens dividet. »   ✓ Job 27:17
+[0826D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0826D] VERS. 18.-- « Aedificavit sicut tinea domum. »   ✓ Job 27:18
+[0826D] « Et sicut custos. »   ✓ Job 27:18
+[0826D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0826D] VERS. 19.-- « Dives cum dormierit. »   ✓ Job 27:19
+[0827A] VERS. 20.-- « Apprehendet eum. »   ✓ Job 27:20
+[0827A] « Nocte opprimet eum. »   ✓ Job 27:20
+[0827A] VERS. 21.-- « Tollet eum ventus. »   ✓ Job 27:21
+[0827A] « Et velut turbo rapiet. »   ✓ Job 27:21
+[0827A] VERS. 22.-- « Et mittet super eum. »   ✓ Job 27:22
+[0827B] « De manu ejus. »   ✓ 1Rg 25:35, 2Rg 13:5, 2Rg 13:6, …
+[0827B] VERS. 23.-- « Stringet super eum. »   ✓ Job 27:23
+[0827B] VERS. 1.-- « Habet argentum venarum suarum principia. »   ✓ Job 28:1
+[0827B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827C] « Et auro locus est. »   ✓ Job 28:1
+[0827C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827C] VERS. 2.-- « Ferrum de terra tollitur. »   ✓ Job 28:2
+[0827C] « Ferrum de terra tollitur. »   ✓ Job 28:2
+[0827C] « Et lapis solutus. »   ✓ Job 28:2
+[0827C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827C] VERS. 3.-- « Tempus posuit tenebris. »   ✓ Job 28:3
+[0827C] « Et universorum. »   ✓ Act 16:26, Job 28:3
+[0827C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827D] « Lapidem quoque caliginis. »   ✓ Job 28:3
+[0827D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827D] VERS. 4.-- « Dividet torrens a populo. »   ⚠ NOT in Clementine verbatim — CHECK
+[0827D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827D] « Eos quos oblitus, »   ✓ Job 28:4
+[0827D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0827D] VERS. 5.-- « Terra de qua oriebatur. »   ✓ Job 28:5
+[0827D] VERS. 6.-- « Locus sapphiri lapides ejus. »   ✓ Job 28:6
+[0828A] « Et glebae illius. »   ✓ Job 28:6
+[0828A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828A] VERS. 7.-- « Semitam ignoravit. »   ✓ Job 28:7
+[0828A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828A] « Nec intuitus est oculus. »   ⚠ NOT in Clementine verbatim — CHECK
+[0828A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828A] VERS. 8.-- « Non calcaverunt eam filii institorum. »   ✓ Job 28:8
+[0828A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828B] « Nec pertransivit per eam leaena. »   ✓ Job 28:8
+[0828B] *Macta et manduca.*   ⚠ NOT in Clementine verbatim — CHECK
+[0828B] VERS. 9.-- « Ad silicem extendit manum suam. »   ✓ Job 28:9
+[0828B] « Subvertit a radicibus montes. »   ✓ Job 28:9
+[0828B] VERS. 10.-- « In petris rivos excidit, »   ✓ Job 28:10
+[0828C] « Et omne pretiosum vidit oculus ejus. »   ✓ Job 28:10
+[0828C] VERS. 11.-- « Profunda quoque. »   ✓ Job 28:11
+[0828C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828C] VERS. 13.-- « Nec invenitur in terra. »   ✓ Job 28:13
+[0828C] VERS. 14.-- « Abyssus dicit. »   ✓ Job 28:14
+[0828C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828D] « Mare loquitur: non, »   ✓ Job 28:14
+[0828D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828D] VERS. 15.-- « Non dabitur aurum obrizum pro ea. »   ✓ Job 28:15
+[0828D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0828D] « Nec appendetur argentum in commutatione ejus. »   ✓ Job 28:15
+[0828D] VERS. 16.-- « Non conferetur tinctis Indiae coloribus. »   ✓ Job 28:16
+[0828D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829A] « Nec lapidi sardonicho. »   ⚠ NOT in Clementine verbatim — CHECK
+[0829A] VERS. 17.-- « Non adaequabitur ei aurum vel. »   ✓ Job 28:17
+[0829A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829A] « Nec commutabuntur pro ea vasa. »   ✓ Job 28:17
+[0829A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829A] VERS. 18.-- « Nec commemorabuntur in comparatione. »   ⚠ NOT in Clementine verbatim — CHECK
+[0829A] « Trahitur autem sapientia. »   ✓ Job 28:18
+[0829A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829A] « Et nescis unde veniat aut quo [0829B] vadat. »   ⚠ NOT in Clementine verbatim — CHECK
+[0829B] VERS. 19.-- « Non adaequabitur ei topazius. »   ✓ Job 28:19
+[0829B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829B] « Nec tincturae mundissimae. »   ✓ Job 28:19
+[0829B] VERS. 20.-- « Unde ergo sapientia venit? »   ✓ Job 28:20
+[0829B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829B] « et quis est locus intelligentiae? »   ✓ Job 28:12, Job 28:20
+[0829B] VERS. 21.-- « Abscondita est. »   ✓ 1Cor 2:7, Hab 3:4, Is 40:27, …
+[0829B] « Volucres quoque coeli latet. »   ✓ Job 28:21
+[0829B] *(GREG. in Job, [0829C] l. XIX.)*   ⚠ NOT in Clementine verbatim — CHECK
+[0829C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829C] VERS. 22.-- « Perditio et mors dixerunt, »   ✓ Job 28:22
+[0829C] VERS. 23.-- « Deus intelligit viam. »   ✓ Job 28:23
+[0829C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829C] VERS. 24.-- « Ipse enim mundi fines intuetur. »   ⚠ NOT in Clementine verbatim — CHECK
+[0829C] VERS. 25.-- « Qui fecit ventis pondus. »   ✓ Job 28:25
+[0829D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829D] « Et aquas appendit, »   ✓ Job 28:25
+[0829D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829D] VERS. 26.-- « Quando ponebat pluviis legem. »   ✓ Job 28:26
+[0829D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0829D] VERS. 27.-- « Tunc vidit illam, et enarravit. »   ✓ Job 28:27
+[0830A] « Vidit illam, »   ✓ Job 28:27
+[0830A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0830A] VERS. 28.-- « Et dixit homini, »   ✓ Job 28:28
+[0830A] « Ecce timor Domini ipsa, »   ✓ Job 28:28
+[0830A] « Et recedere a malo intelligentia. »   ✓ Job 28:28
+[0830B] VERS. 1.-- « Addidit quoque Job, »   ✓ Job 27:1, Job 29:1
+[0830B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0830B] VERS. 2.-- « Quis mihi tribuat, ut sim, »   ✓ Job 29:2
+[0830B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0830B] « Menses pristinos. »   ✓ Job 29:2
+[0830B] « Secundum dies, »   ✓ Job 29:2, Mch 7:15
+[0830C] VERS. 3.-- « Quando splendebat lucerna, »   ✓ Job 29:3
+[0830C] « Et ad lumen ejus, »   ✓ Job 29:3
+[0830C] VERS. 4.-- « Sicut fui in diebus adolescentiae. »   ✓ Job 29:4
+[0830C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0830D] « Quando secreto Deus erat in tabernaculo. »   ✓ Job 29:4
+[0830D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0830D] « Quando erat omnipotens mecum. »   ✓ Job 29:5
+[0830D] « Et in circuitu, »   ✓ 4Rg 23:5, Apc 4:4, Apc 4:6, …
+[0830D] VERS. 6.-- « Quando lavabam pedes meos. »   ✓ Job 29:6
+[0830D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0830D] « Et petra fundebat mihi, »   ✓ Job 29:6
+[0830D] VERS. 7.-- « Quando procedebam, »   ✓ Job 29:7
+[0830D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0831A] « Et in platea parabant, »   ✓ Job 29:7
+[0831A] VERS. 8.-- « Videbant me juvenes, »   ✓ Job 29:8
+[0831A] VERS. 9.-- « Principes cessabunt loqui. »   ⚠ NOT in Clementine verbatim — CHECK
+[0831B] VERS. 10.-- « Vocem suam cohibebant duces. »   ✓ Job 29:10
+[0831B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0831B] VERS. 11.-- « Auris audiens. »   ✓ Job 29:11
+[0831B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0831B] VERS. 12.-- « Eo quod liberassem pauperem vociferantem. »   ✓ Job 29:12
+[0831B] « Et pupillum cui non esset adjutor. »   ✓ Job 29:12
+[0831C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0831C] VERS. 13.-- « Benedictio perituri. »   ✓ Job 29:13
+[0831C] « Et cor viduae consolatus sum. »   ✓ Job 29:13
+[0831C] VERS. 14.-- « Justitia indutus sum. »   ✓ Job 29:14
+[0831C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0831C] « Et diademate judicio meo. »   ✓ Job 29:14
+[0831D] « Indutus sum judicio: »   ⚠ NOT in Clementine verbatim — CHECK
+[0831D] VERS. 15.-- « Oculus fui caeco et pes claudo, »   ✓ Job 29:15
+[0831D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0831D] VERS. 16.-- « Pater eram pauperum. »   ✓ Job 29:16
+[0831D] « Et causam quam nesciebam. »   ✓ Job 29:16
+[0832A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832A] VERS. 17.-- « Conterebam molas, »   ✓ Job 29:17
+[0832A] VERS. 18.-- « Dicebamque: In nidulo meo moriar. »   ✓ Job 29:18
+[0832A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832A] VERS. 19.-- « Radix, »   — single word, check in place
+[0832A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832B] « Et ros morabitur, »   ✓ Job 29:19
+[0832B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832B] VERS. 20.-- « Gloria mea semper innovabitur. »   ✓ Job 29:20
+[0832B] « Et arcus meus. »   ✓ Job 29:20
+[0832B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832B] VERS. 21.-- « Qui me audiebant. »   ✓ Job 29:21
+[0832B] « Et intenti tacebant. »   ✓ Job 29:21
+[0832C] VERS. 22.-- « Verbis meis addere. »   ✓ Job 29:22
+[0832C] « Et super illos stillabat. »   ✓ Job 29:22
+[0832C] VERS. 23.-- « Exspectabant me sicut pluviam. »   ⚠ NOT in Clementine verbatim — CHECK
+[0832C] « Et os suum aperiebant quasi ad imbrem. »   ✓ Job 29:23
+[0832C] VERS. 24.-- « Si quando ridebam ad eos non credebant. »   ⚠ NOT in Clementine verbatim — CHECK
+[0832D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832D] « Et lux vultus mei non cadebat. »   ✓ Job 29:24
+[0832D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832D] VERS. 25.-- « Si voluissem ire, »   ✓ Job 29:25
+[0832D] « Cumque sederem, quasi, »   ✓ Job 29:25
+[0832D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0832D] « Moerentium consolator. »   ✓ Job 29:25
+[0833A] VERS. 1.-- « Nunc autem me juniores. »   ⚠ NOT in Clementine verbatim — CHECK
+[0833A] « Quorum patres non dignabar, »   ⚠ NOT in Clementine verbatim — CHECK
+[0833A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833A] VERS. 2.-- « Quocum virtus manuum erat. »   ⚠ NOT in Clementine verbatim — CHECK
+[0833A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833B] VERS. 3.-- « Egestate. »   — single word, check in place
+[0833B] « Et fame steriles. »   ✓ Job 30:3
+[0833B] « Qui rodebant in solitudine, etc. Haeretici qui ab universalis, etc., *usque ad* Lambunt vero qui blandimento linguae tollunt.   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0833B] « Squalentes calamitate. »   ⚠ NOT in Clementine verbatim — CHECK
+[0833C] VERS. 4.-- « Et mandebant herbas, »   ✓ Job 30:4
+[0833C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833C] « Et radix juniperorum. »   ✓ Job 30:4
+[0833C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833C] VERS. 5.-- « Qui de convallibus ista rapientes. »   ✓ Job 30:5
+[0833C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833C] VERS. 6.-- « In desertis habitant torrentium. »   ⚠ NOT in Clementine verbatim — CHECK
+[0833D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833D] « Et in cavernis terrae. »   ✓ Hbr 11:38, Job 30:6
+[0833D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833D] « Vel super glaream. »   ✓ Job 30:6
+[0833D] VERS. 7.-- « Qui inter hujuscemodi laeta. »   ⚠ NOT in Clementine verbatim — CHECK
+[0833D] *sentium,*   — single word, check in place
+[0833D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0833D] « Et esse sub sentibus, »   ✓ Job 30:7
+[0833D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834A] VERS. 8.-- « Filii stultorum et ignobilium. »   ✓ Job 30:8
+[0834A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834A] VERS. 9.-- « Nunc in eorum canticum, »   ✓ Job 30:9
+[0834A] « Et factus sum eis proverbium. »   ⚠ NOT in Clementine verbatim — CHECK
+[0834A] VERS. 10.-- « Abominantur me, et longe fugiunt a me. »   ✓ Job 30:10
+[0834A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834A] VERS. 11.-- « Pharetram enim suam aperuit. »   ✓ Job 30:11
+[0834B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834B] « Et frenum posuit in os me. »   ⚠ NOT in Clementine verbatim — CHECK
+[0834B] VERS. 12.-- « Ad dexteram Orientis calamitates. »   ✓ Job 30:12
+[0834B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834B] « Pedes meos subverterunt. »   ✓ Job 30:12
+[0834C] « Et oppresserunt quasi fluctibus semitis. »   ✓ Job 30:12
+[0834C] VERS. 13.-- « Dissipaverunt itinera mea. »   ✓ Job 30:13
+[0834C] « Insidiati sunt mihi et praevaluerunt. »   ✓ Job 30:13
+[0834D] « Et non fuit qui ferret auxilium. »   ✓ Job 30:13
+[0834D] VERS. 14.-- « Quasi rupto muro. »   ✓ Job 30:14
+[0834D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834D] « Et aperta janua irruerunt super me. »   ✓ Job 30:14
+[0834D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0834D] « Et ad meas miserias devoluti sunt. »   ✓ Job 30:14
+[0835A] VERS. 15.-- « Redactus sum in nihilum. »   ✓ Job 30:15
+[0835A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835A] « Abstulisti quasi ventus desiderium meum. »   ✓ Job 30:15
+[0835A] « Velut nubes pertransiit. »   ✓ Job 30:15
+[0835A] VERS. 16.-- « Nunc autem in memetipso. »   ✓ Job 30:16
+[0835B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835B] VERS. 17.-- « Nocte os meum perforatur doloribus. »   ✓ Job 30:17
+[0835B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835B] « Et qui me comedunt. »   ✓ Job 30:17
+[0835B] VERS. 18.-- « In multitudine. »   ✓ 1Mcc 1:18, 1Mcc 1:22, 1Mcc 3:19, …
+[0835B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835B] « Et quasi capitio tunicae. »   ⚠ NOT in Clementine verbatim — CHECK
+[0835B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835C] VERS. 19.-- « Comparatus sum luto. »   ✓ Job 30:19
+[0835C] VERS. 20.-- « Clamo ad te. »   ✓ Job 30:20
+[0835C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835C] VERS. 21.-- « Mutatus es mihi in crudelem. »   ✓ Job 30:21
+[0835C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835C] « Et in duritia manus tuae. »   ✓ Job 30:21
+[0835D] VERS. 22.-- « Elevasti me et quasi. »   ✓ Job 30:22
+[0835D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835D] VERS. 23.-- « Scio quia morti trades me. »   ✓ Job 30:23
+[0835D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835D] VERS. 24.-- « Verumtamen non ad consumptionem eorum. »   ✓ Job 30:24
+[0835D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0835D] VERS. 25.-- « Flebam quondam. »   ✓ Job 30:25
+[0835D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836A] VERS. 26.-- « Exspectabam bona, et venerunt mihi mala. »   ⚠ NOT in Clementine verbatim — CHECK
+[0836A] « Praestolabar lucem, et eruperunt tenebrae. »   ✓ Job 30:26
+[0836A] VERS. 27.-- « Interiora mea efferbuerunt absque ulla requie. »   ✓ Job 30:27
+[0836A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836A] « interiora ejus efferbuerunt. »   ⚠ NOT in Clementine verbatim — CHECK
+[0836A] « Praevenerunt me dies afflictionis. »   ✓ Job 30:27
+[0836B] VERS. 28.-- « Moerens incedebam. »   ✓ Job 30:28
+[0836B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836B] « Sine furore consurgens. »   ✓ Job 30:28
+[0836B] VERS. 29.-- « Frater fui draconum. »   ✓ Job 30:29
+[0836C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836C] VERS. 30.-- « Cutis mea denigrata est. »   ✓ Job 30:30
+[0836C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836C] VERS. 31.-- « Versa est in luctum cithara. »   ✓ Job 30:31
+[0836C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836C] VERS. 1.-- « Pepigi foedus cum oculis meis. »   ✓ Job 31:1
+[0836C] « Pepigi foedus cum oculis meis. »   ✓ Job 31:1
+[0836D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0836D] VERS. 2.-- « Quam enim partem haberet Deus in me desuper. »   ⚠ NOT in Clementine verbatim — CHECK
+[0836D] VERS. 3.-- « Nunquid non perditio est iniquo. »   ⚠ NOT in Clementine verbatim — CHECK
+[0836D] VERS. 4.-- « Nonne ipse considerat vias meas et cunctos. »   ✓ Job 31:4
+[0836D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0837A] « Si ambis. »   ⚠ NOT in Clementine verbatim — CHECK
+[0837A] VERS. 6.-- « Appendat, »   — single word, check in place
+[0837A] « In statera justa. »   ✓ Job 31:6
+[0837A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0837A] VERS. 7.-- « Si declinavit gressus meus de via. »   ✓ Job 31:7
+[0837A] « Et si secutum est oculos meos cor. »   ✓ Job 31:7
+[0837B] VERS. 8.-- « Et progenies mea eradicetur. »   ✓ Job 31:8
+[0837B] VERS. 9.-- « Si deceptum est. »   ✓ Job 31:9
+[0837B] « Et si ad ostium. »   ✓ Job 31:9
+[0837B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0837B] VERS. 11.-- « Hoc enim nefas est. »   ✓ Job 31:11
+[0837B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0837C] VERS. 12.-- « Et omnia eradicans genimina. »   ✓ Job 31:12
+[0837C] VERS. 13.-- « Si contempsi subire. »   ✓ Job 31:13
+[0837C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0837C] « Quid enim faciam. »   ✓ Job 31:14
+[0837C] VERS. 15.-- « Nunquid non in utero fecit. »   ⚠ NOT in Clementine verbatim — CHECK
+[0837C] VERS. 16.-- « Si negavi quod volebant. »   ✓ Job 31:16
+[0837D] « Et oculos viduae. »   ✓ Job 31:16
+[0837D] VERS. 17.-- « Si comedi buccellam meam solus. »   ✓ Job 31:17
+[0837D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0837D] VERS. 19.-- « Si despexi praetereuntem. »   ⚠ NOT in Clementine verbatim — CHECK
+[0838A] VERS. 21.-- « Si levavi super pusillum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0838A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0838A] VERS. 22.-- « Humerus meus. »   ✓ Job 31:22
+[0838A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0838A] VERS. 23.-- « Semper enim quasi tu mentes. »   ⚠ NOT in Clementine verbatim — CHECK
+[0838A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0838A] « Pondus ejus ferre non potui, »   ✓ Job 31:23
+[0838B] VERS. 24.-- « Si putavi aurum. »   ✓ Job 31:24
+[0838B] VERS. 25.-- « Si laetatus sum. »   ✓ Job 31:25
+[0838B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0838B] « Si laetatus sum. »   ✓ Job 31:25
+[0838B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0838B] VERS. 26.-- « Si vidi solem. »   ✓ Job 31:26
+[0838B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0838C] « Et lunam incedentem. »   ✓ Job 31:26
+[0838C] « Et non est laetatum in abscondito cor meum. »   ⚠ NOT in Clementine verbatim — CHECK
+[0838C] VERS. 27.-- « Et laetatum est, etc. »   ⚠ NOT in Clementine verbatim — CHECK
+[0838C] « Et osculatus sum: »   ✓ Job 31:27
+[0838C] VERS. 28.-- « Quae est iniquitas. »   ✓ 1Rg 20:1, Job 31:28
+[0838C] « Maxima. »   — single word, check in place
+[0838D] VERS. 29.-- « Si gavisus sum ad. »   ✓ Job 31:29
+[0838D] VERS. 30.-- « Non enim dedi. »   ✓ Job 31:30
+[0838D] VERS. 31.-- « Si non dixerunt viri. »   ✓ Job 31:31
+[0839A] « Quis det de. »   ✓ Job 31:31
+[0839A] VERS. 32.-- « Foris non mansit peregrinus. »   ✓ Job 31:32
+[0839A] VERS. 33.-- « Si abscondi quasi homo. »   ✓ Job 31:33
+[0839A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839A] VERS. 34.-- « Si expavi ad multitudinem. »   ✓ Job 31:34
+[0839B] « Et despectio. »   ✓ Job 31:34, Ps 122:4
+[0839B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839B] « Et non magis tacui. »   ✓ Job 31:34
+[0839B] « tacui, »   — single word, check in place
+[0839B] VERS. 35.-- « Quis mihi tribuat auditorem, ut desiderium meum audiat? »   ✓ Job 31:35
+[0839B] « Et librum scribat; unde: Pater non judicat [0839C] quemquam, sed omne judicium dedit Filio. »   ⚠ NOT in Clementine verbatim — CHECK
+[0839C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839C] VERS. 36.-- « Ut in humero meo portem illum. »   ✓ Job 31:36
+[0839C] VERS. 37.-- « Per singulos gradus meos. »   ✓ Job 31:37
+[0839C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839C] « Et quasi principi offeram eum. »   ✓ Job 31:37
+[0839D] VERS. 38.-- « Si adversum me. »   ✓ Job 31:38
+[0839D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839D] « Et cum ipsa sulci. »   ✓ Job 31:38
+[0839D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839D] VERS. 39.-- « Si fructus ejus comedi. »   ✓ Job 31:39
+[0839D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0839D] « Animam agricolarum ejus afflixi. »   ✓ Job 31:39
+[0840A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840A] VERS. 40.-- « Pro frumento. »   ✓ Job 31:40
+[0840A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840A] « Gloria ejus quasi flos feni. »   ⚠ NOT in Clementine verbatim — CHECK
+[0840A] « Pro frumento. »   ✓ Job 31:40
+[0840A] VERS. 1.-- « Miserunt autem tres. »   ⚠ NOT in Clementine verbatim — CHECK
+[0840A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840B] VERS. 2.-- « Et iratus indignatusque est Eliu. »   ✓ Job 32:2
+[0840B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840B] « Iratus est autem adversus Job. »   ⚠ NOT in Clementine verbatim — CHECK
+[0840B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840B] VERS. 6.-- « Respondensque Eliu filius. »   ✓ Job 32:6
+[0840B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840B] VERS. 11.-- « Exspectavi enim sermones vestros, [0840C] audivi prudentiam vestram. »   ⚠ NOT in Clementine verbatim — CHECK
+[0840C] « exspectavi, etc., »   ⚠ NOT in Clementine verbatim — CHECK
+[0840C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840C] VERS. 12.-- « Sed, ut video, non est qui arguere possit Job. »   ⚠ NOT in Clementine verbatim — CHECK
+[0840C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840C] VERS. 13.-- « Ne forte dicatis. »   ✓ Job 32:13
+[0840C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840C] VERS. 14.-- « Nihil locutus est mihi. »   ✓ Job 32:14
+[0840C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840C] « Et ego non secundum sermones vestros respondebo. »   ✓ Job 32:14
+[0840C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0840D] VERS. 15.-- « Extimuerunt nec responderunt ultra. »   ✓ Job 32:15
+[0840D] *Vide Greg. loc. cit. usque ad fin. cap.*   ⚠ NOT in Clementine verbatim — CHECK
+
+## Totals — 1746 spans: 1368 ✓ · 3 ⚑ · 268 ⚠ · 107 single-word
+
+**9 of those spans are open-ended** (Migne's quotation runs past its paragraph). Count yours paragraph-bounded and report BOTH numbers.
+
+⚠ 9 line(s) carry unbalanced `«`/`»` — a quoted lemma runs past the line and is NOT in the list above. Check by eye.
