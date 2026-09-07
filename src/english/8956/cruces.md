@@ -104,6 +104,80 @@ fired against a corrupt Clementine is a false public claim about Migne's text. N
 changes `noteCount` on the Latin side alone and breaks twin parity; it wants a paired edit, not a
 patch. Recorded here so it is not lost and not re-proposed as new.
 
+## ⭐⭐ The blind polarity read — 35 chunks, four readers, **17 sites, ALL OURS, and NOT ONE A MISSING NEGATION**
+
+Step 4a, run after the merge. Four readers over the whole book, **none shown this file until its own
+findings were written down** — the answer-key effect is measured (2026-07-28: every agent given the
+cruces first returned "all already logged" and found nothing).
+
+**Every one of the seventeen survived `verify-english`, the two-printing plate collation, the
+36-patch pass, the 103-marker Vulgate check and the merge above.** That is what this step is for.
+
+⛔ **`translation-style.md` 7a is written around a dropped `non`/`nec`/`nisi`. On this book it caught
+nothing, because in a lemma-and-gloss commentary the live seam is AGENCY** — who does what to whom.
+8961 Leviticus said the same on its own read (7 sites, 6 ours, zero negations); Isaiah is the second
+book to say it, on four times the readers. **The rulebook should be widened, and the classes below
+are the evidence.**
+
+### The classes, with the sharpest instance of each
+
+**A sentence reversed against its own neighbour.** 1272A — Gregory's gloss is built on *Non suum,
+sed alienum est*, and the English made *alienum ab ipso* read "his strange work is **from** himself":
+the exact reverse, one line after "not his own but strange", with the *enim* clause then explaining
+the opposite of what stood. Repaired to "that work of his is alien to him."
+
+**A lemma silently conformed to the Vulgate.** 1299C — Migne prints *montem sanctum **tuum***; the
+English printed "**my** holy mountain", the Vulgate's reading, unmarked. The plate now stands, with a
+`[var:]` naming the divergence. ⚑ Two more of the same shape: `*His* fire is in Sion` (1275B, Migne
+prints no possessive) and `Behold *a king* shall reign` (1275C — Douay's Is 32:1 verbatim, where the
+plate prints no *rex*). **This is the 11632 hazard exactly: Douay wording arriving over the plate,
+here inside the lemmata, where it is least visible and most load-bearing.**
+
+**A verb or clause supplied to make a truncated incipit read.** 1297A — Migne's lemma stops dead at
+*Ecce accola* and the English supplied "shall come" from the Vulgate. 1237C — Migne's comma orphans
+the accusative *Judaeos* and the English resolved it **twice**, once as the participle's object and
+again as "in place of the Jews", a phrase the plate does not print in any form.
+
+**Identifications swapped, in sentences whose only job is to identify.** 1265B *Domum David vocat
+domum Domini* had the gloss and the lemma change places. 1249A *Ordo: Reges sunt mei principes*
+reversed the very word order the gloss exists to supply — against its own next clause, *multos enim
+reges secum adduxit, quos subjugaverat*.
+
+**An agent invented, or deleted.** 1282C read the dative *Illi* as a demonstrative and **deleted God**
+from a sentence about what is numbered *to him*. 1291A supplied a "he" that made God call a burning
+to repentance. 1238B bound two instrumental relatives (*ab eo quoque quo*) to an unnamed personal
+crusher.
+
+**Voice flipped mid-sentence.** 1293D — *nubes levari* and *solis splendorem abscondi* are both
+passive in one acc.+inf.; the English kept the first and made the second active, so the clouds became
+the agent and the sentence half-anticipated its own next clause. 1314C — the second, active *dicere*
+became an impersonal passive, so a claim its claimants make about themselves turned into a report
+about them.
+
+**Two words flattened into one, or one word split into two.** 1302C — *occidisti* (of a light, going
+down) and *cecidisti* (falling) were both "fall", in a solar context (*Surge, illuminare*; *sicut sol
+ortus*) where the distinction is the point. 1301D — *regulus, qui et basiliscus* is a gloss whose
+whole business is that one creature has two names, and the English asserted the identity and then
+contradicted it three lines later.
+
+**A name normalised.** 1245C — our Latin prints *Rasim* and the English printed the familiar *Rasin*,
+which our own Latin prints two columns later. So at the one place the twins differ, the English
+quietly conformed. ⚑ No marker fired: a single letter cannot stand on one witness, and this one was
+not put to the second printing.
+
+### What the readers rejected, and why that matters
+
+Each reader named its clean chunks and its rejected candidates with reasons — the check that tells a
+real pass from a tidy "nothing new". Three rejections are worth keeping: one reader **withdrew** its
+own finding on *Domini gentium* after this file answered it; another **withdrew** three normalisation
+flags (`tribuatus`, `Chrito`, `fatres`) on finding them recorded here as Gallica-copy broken sorts
+that print clean on the archive; and a third confirmed positively that the two deliberately
+unrepaired 7a sites — **1311D**, which prints no negation where its own *sed* demands one, and
+**1314D**, whose governed noun is absent — **were not quietly mended**. That last is the check that
+had to come back clean, and it did.
+
+---
+
 ---
 
 # The stint files, merged in order
