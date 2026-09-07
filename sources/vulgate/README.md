@@ -22,7 +22,29 @@ make clear any modifications. This file is that acknowledgement, and the normali
 disclosure. Nothing here is a Zelzer-rule problem: the text is PD and may be committed and quoted.
 
 ⚠ The upstream project published later correction diffs (`clemtext/source/*.diff`, dated after 2005).
-**They are not applied here.** For collating whether Migne's lemma diverges from the Clementine, a
+**They are not applied here.**
+
+## ⚠ Confirmed defects in this copy — found by collation, not by audit
+
+The warning below is not hypothetical. Instances found by stints, in BOTH forms of the file
+(`clementine/<Book>.lat` and `clementine-flat.txt`), so they are upstream and not our flattening:
+
+    Is 22:18   `Coronas cornonabit te tribulatione`   — read `Coronans coronabit te tribulatione`
+
+Found 2026-09-07 by a 8956 Isaiah stint, which could not collate Migne's lemma against it and
+**correctly declined to fire a marker** rather than reporting Migne as divergent. That is the
+behaviour this section exists to make routine: **if the Clementine reading is not itself sound
+Latin, the defect is on our side of the collation.** `cornonabit` is not a word.
+
+⛔ **A `[var:]` fired against a corrupt comparand is a false public claim about Migne's text** —
+the same class as the divergence 9003 found the digitization *manufacturing*, and no amount of
+care in reading the plate catches it, because the plate is not the thing that is wrong. Add every
+new instance here and to the list `scripts/lemma-inventory.mjs` prints into each work's brief.
+
+▶ **Applying the upstream correction diffs would close this class and has NOT been done** — it
+changes the comparand for the whole corpus, so it is a decision, not a chore.
+
+ For collating whether Migne's lemma diverges from the Clementine, a
 handful of typographic corrections is immaterial; if a call ever turns on a single letter, say so
 rather than trusting this copy to that precision.
 
