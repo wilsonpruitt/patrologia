@@ -1,0 +1,64 @@
+{
+  "_stint": "8956 chunks 0030-0034 (cols 1305C-1316C, the end of the book). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8956.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2. Printed corner numbers read FIRST on every one of the six leaves and all six confirm the map: f653=1305/1306, f654=1307/1308, f655=1309/1310, f656=1311/1312, f657=1313/1314, f658=1315/1316.",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- CONSULTED for cols 1305/1306 (p.658), 1307/1308 (p.659), 1311/1312 (p.661), 1313/1314 (p.662) and 1315/1316 (p.663); corners read on each and all confirm the map. p.660 (cols 1309/1310) not needed and not opened.",
+  "reads": [
+    {
+      "from": "1305C",
+      "to": "1306D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f653 + archive p.658",
+      "source": "Gallica f653, native IIIF (1876x3096), four column-half crops at native resolution; archive p.658 rendered at 100 dpi as second witness. CALIBRATION PAGE: printed corners read first and give 1305 / 1306.",
+      "found": "Running text collated word by word against src/latin/8956/0030.md: NO divergence between plate and our TEI in the running words. TWO formal divergences: (1) the plate prints VERS. 5. -- Et gaudebit with the em rule, our TEI prints 'VERS. 5.' with no rule (confirmed on both printings; patch filed, English renders the plate). (2) Gallica's 1305C 'impe dio' was a candidate defect and is REFUTED: the archive prints 'impendio', as our TEI has it. Vulgate divergences fired as [var:]: Lc 12:49 ardeat for accendatur (1305C, and again at 1308B); Eph 5:32 without ego autem dico (1305D); Hbr 1:14 turned from question to assertion, without in ministerium, capiunt for capient (1305D); Is 62:12 Et vocabunt eum for eos (1306C). Crux only: Eph 5:31 quoted but cited (Gen. II; Matth. XIX); Jo 6:56 without enim. Foot of both columns blank on both printings -- no numbered Forte layer, no asterisk layer."
+    },
+    {
+      "from": "1307A",
+      "to": "1308D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f654 + archive p.659",
+      "source": "Gallica f654, native IIIF (1891x3105), four column-half crops plus a 1800px zoom on 'Commotio aeris' at 1308D; archive p.659 at 100 dpi as second witness, corners 1307/1308 read first.",
+      "found": "ONE DIGITIZATION DEFECT, confirmed on BOTH printings: 1308D prints 'Commotio AERIS' (a motion of the AIR); our TEI reads 'Commotio acris'. English renders the plate; pending TEI patch filed. One Migne reading confirmed on both printings and kept: 1306C-1307A 'Videtur tamen AUGUSTUS dicere super Genesim' -- Augustus, not Augustinus, on Gallica AND archive, so a [cj:] and not a [sic:]. VERS. 5. -- Et non fuit again carries the em rule on the plate where our TEI has none. Archive-only readings REFUTED by Gallica and not carried: '(Jer. XVIII)' for the correct '(Jer. XXIII)' at 1307D, 'augelus' for 'angelus' at 1307D -- both jbig2 substitutions. [var:] fired: Dn 10:21 conflated with Dn 12:1 uncited (1307B); Ps 105:16 Exacerbaverunt for irritaverunt (1307B); Zach 2:8 with quasi (1307C); Ex 23:20/32:34 wording cited to Exod. XIV (1307D); Jr 23:24 question turned to assertion (1307D); Is 66:1 quoted in the Act 7:49 form Coelum mihi sedes (1307D); Mt 12:24 with the Vulgate's non...nisi frame dropped (1308B); Jo 17:3 without solum (1308C). Foot of both columns blank on both printings."
+    },
+    {
+      "from": "1309A",
+      "to": "1310D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f655",
+      "source": "Gallica f655, native IIIF (1902x3112), four column-half crops. Printed corners 1309 / 1310 read first. Archive p.660 not consulted -- nothing on these columns needed a second witness.",
+      "found": "No plate/TEI divergence: every word of cols 1309 and 1310 collated and agreeing, including the two readings that most invited a marker and are Migne's own -- 1309C 'Omnis haereticus Deum ad iracundiam PROCAT' (hyphenated pro-/cat across the line, so no letters are hidden) and 1310B-C 'Achor filius Charmi', the man named Achan in Jos 7. Pattern 8 confirmed at 1309B: 'VERS. 11. --Domus. Allegorice.' -- the Allegorice stop is on the plate. [var:] fired: Is 42:14 Tacui, semper silui (comma moved, 1309C); Is 65:9 Montes SANCTOS meos (1310A); Ps 28:9 Dominus revelabit condensa SILVARUM cited (Psal. XVIII) (1310B). Crux only: Rom 9:29 quasi for sicut; Rom 8:15 with filiorum DEI, cited (Rom. IX); the vallis effundens / vallis fundens doublet at 1310B-C, both on the plate. Foot of both columns blank."
+    },
+    {
+      "from": "1311A",
+      "to": "1312D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f656 + archive p.661",
+      "source": "Gallica f656, native IIIF (1916x3114), four column-half crops; archive p.661 rendered at 100 dpi and again at 300 dpi on the single word at 1312C. Corners 1311 / 1312 read first on both.",
+      "found": "⭐ A [sic:] CANDIDATE WITHDRAWN AT THE SECOND PRINTING. Gallica 1312C sets 'a CHRITO Christiani dicti' -- a non-word, our TEI agreeing, a textbook Pattern 12 site. The archive prints 'a Christo Christiani dicti', clean, at 300 dpi. No marker fired; the English renders the sense and the crux carries both readings. Also confirmed: 1312C 'Alii sibi alium principem praeponentes Pars autem populi' has NO stop before the capital P on the plate (Pattern 8, preserved); 1312A prints 'Coelum sedes mea' where our TEI normalises to 'Caelum' (patch filed, English unaffected); 1312D prints 'VERS. 5. -- Odientes vos' with normal spacing where our TEI runs it together as 'VERS.5--' (patch filed). One Gallica-only blemish REFUTED: 'in praesen i.' at 1312D reads 'in praesenti' on the archive, as our TEI has it. Foot of both columns blank on both printings."
+    },
+    {
+      "from": "1313A",
+      "to": "1314D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f657 + archive p.662",
+      "source": "Gallica f657, native IIIF (1880x3100), four column-half crops plus 1900px zooms on 'reddentis reddentes' (1313A) and on the my-/steria line break (1314C); archive p.662 at 100 dpi plus a 300 dpi crop at 1313D. Corners 1313 / 1314 read first on both.",
+      "found": "⭐ A SECOND [sic:] CANDIDATE WITHDRAWN AT THE SECOND PRINTING. Gallica 1313D sets 'Obsecro vos, FATRES' -- a non-word, our TEI agreeing; the archive prints 'fratres', clean. No marker fired; crux carries both. DITTOGRAPHY CONFIRMED ON BOTH PRINTINGS at 1313A: 'reddentIS reddentES retributionem inimicis suis', two forms of the same participle with no punctuation between them (a speck above the second is dirt, not a mark). Marked [d:] on the FIRST copy per Pattern 11a: the sentence's frame is 'in Romanis exsultantibus, qui... venerunt', which needs the nominative plural reddentes; reddentis is the genitive of the Vulgate lemma vox Domini reddentis and is the eye-skip. One candidate REFUTED at the plate: 1314C 'my-/steria' is an ordinary line-break hyphenation, so our TEI's 'mysteria' is right. Pattern 8 confirmed twice: 1314A 'scripsere naturis' and 'per quem omnia operatur' both end with NO terminal stop on the plate; the English leaves both unstopped. Also on the plate: 1313B prints 'VERS. 10. -- Laetamini' with a normal em rule, so our TEI's 'VERS. 10.emdash;' is a mangled entity on OUR side (patch filed). [var:] fired: Rm 12:1 corda vestra for corpora vestra (1313D); Am 9:10 Gladio Dei peribunt for In gladio morientur, without populi mei (1314B); Is 34:5 et usque ad terram descendit for ecce super Idumaeam descendet (1314D). Foot of both columns blank on both printings."
+    },
+    {
+      "from": "1315A",
+      "to": "1316C",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f658 + archive p.663",
+      "source": "Gallica f658, native IIIF (1910x3115), left and right column crops at native plus 1900px zooms on '(HIER ]' and on the meridia/nam line break, plus a crop of the foot below the FINIS line; archive p.663 at 100 dpi plus a 300 dpi crop of the meridia line. Corners 1315 / 1316 read first on both. THE LAST PAGE OF THE WORK.",
+      "found": "⭐ A THIRD [sic:] CANDIDATE WITHDRAWN AT THE SECOND PRINTING. Gallica 1315A breaks the line after 'meridia' with NO hyphen and resumes 'nam, scilicet plagam', which reads as Pattern 10 split type; the archive prints 'meridia-' WITH the hyphen, so it is an ordinary line-break and the word is meridianam. No marker fired; our TEI's 'meridia nam' is a transcription loss (patch filed). CONFIRMED AS MIGNE'S at 1315A: the attribution reads '(HIER ]' -- open paren, no stop, closing SQUARE bracket -- where our TEI prints '(HIER.]'; the English carries the plate's form and the added stop is filed as a patch. LAST-PAGE CHECK: the work ends at 1316C with 'agentes gratias visa impiorum ineffabili poena.' There is NO colophon, subscription or EXPLICIT for the Glossa itself and no editor's closing note. Below a full-measure rule the page carries the tome's own table of contents, ORDO RERUM QUAE IN HOC TOMO CONTINENTUR (which is also the running head already printed at the top of this leaf), closing 'FINIS TOMI CENTESIMI DECIMI TERTII.' ⭐ THE TWO PRINTINGS DIVERGE IN THAT TABLE: Gallica prints 0000 against Liber Ecclesiastes, Canticum canticorum and Liber Ecclesiastici and 0090 against Liber Sapientiae -- unset placeholders -- where the archive prints 1115, 1125, 1183 and 1167. Prophetia Isaiae reads 1231 on both, which is this work's true opening column. The archive alone carries a printer's imprint under the FINIS line ('Imprimerie generale de Chatillon-sur-Seine. -- Jeanne Robert.'); the Gallica copy's foot below FINIS is blank. Band letters: cols 1315 and 1316 carry A, B and C only and no D, because the work ends two thirds of the way down -- a real absence, not a gap. FOOT OF BOTH COLUMNS BLANK ON BOTH PRINTINGS: no numbered Forte layer, no asterisk cross-reference layer, on the final page of the work as on every other. [var:] fired: Gal 6:2 Invicem onera vestra portate for Alter alterius (1315B); 1Cor 3:16 wording with Spiritus sanctus for Spiritus Dei, cited (II Cor. VI) (1315B); Pr 25:20 expanded with three verbs and a fire clause the Vulgate does not have (1316B); Apc 6:10 compressed (1316C)."
+    }
+  ]
+}
