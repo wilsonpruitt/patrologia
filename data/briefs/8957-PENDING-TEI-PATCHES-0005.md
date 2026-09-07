@@ -18,10 +18,13 @@ Corpus Corporum's transcription and Migne's type.
 
 ## Part A — CONFIRMED at native resolution. Patch these.
 
+✅ **0770D has been applied** (the twin now reads `Vastitas e s gehenna`) and the English marker was
+corrected to `[sic: *e s*]` in the same edit. 0764A remains outstanding.
+
 | col | our TEI reads | Migne's plate reads | class | English treatment |
 |---|---|---|---|---|
 | 0764A | `dicentes eos vel prava dicere, vel **bel** bona quae dicunt non tenere` | **`dicentes eos vel prava dicere, vel bona quae dicunt non tenere`** | **OUR corruption** — the twin carries an intrusive non-word `bel` that the plate does not set | English renders the plate: "saying that they either speak depraved things, or do not hold the good things which they speak." **No marker, ever** — a `[d:]` or `[sic:]` here would accuse Migne of a doubling he never printed. Native crop: f382 region `990,760,890,220`. |
-| 0770D | `Vastitas **es** gehenna quae foris` | **`Vastitas e s gehenna quae foris`** (a space between *e* and *s*, mid-line; the line breaks after *s*, before *gehenna*) | word division — the plate's own broken/spaced setting for *est*; our twin has fused it | English fires `[sic: *es*]` (the twin's form, which is what `verify-english` can check) and renders the sense: "The wasting is [sic: *es*] the gehenna which is without". **After this patch lands the marker should become `[sic: *e s*]`**, the whole broken run per Pattern 10. Native crop: f385 region `1550,2755,340,70` at 1360px. |
+| 0770D | `Vastitas **es** gehenna quae foris` | **`Vastitas e s gehenna quae foris`** (a space between *e* and *s*, mid-line; the line breaks after *s*, before *gehenna*) | word division — the plate's own broken/spaced setting for *est*; our twin has fused it | English renders the sense with the type beside it: "The wasting is [sic: *e s*] the gehenna which is without". ✅ **Patch applied; the marker carries the whole run**, the whole broken run per Pattern 10. Native crop: f385 region `1550,2755,340,70` at 1360px. |
 
 ## Part B — checked and NOT patched
 

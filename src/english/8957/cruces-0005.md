@@ -8,12 +8,16 @@ f381–f386 = cols 761–772. **Checked zero at the foot of all six leaves, both
 ## Load-bearing vocabulary, fixed for this stint
 
 - `*usque ad*` (the abridgment formula) → **as far as**, in italics, matching 8950/8955.
-- `« … »` reproduced 1:1 with the Latin twin, spacing included; the `VERS. n.-- ` address kept
-  as printed. This is a **guillemet book**: no lemma is italicized.
+- **The words inside `« … »` are TRANSLATED** (the shipped convention of this corpus — 8950
+  Genesis is the reference guillemet book). The marks themselves are reproduced 1:1 with the
+  Latin twin, spacing included, and never move; the `VERS. n.-- ` address is kept as printed.
+  This is a **guillemet book**: no lemma is italicized. ⚠ The frontmatter `incipit:` field is a
+  verbatim copy of the Latin twin's and stays Latin — translating the lemma inside it breaks
+  `verify-english`'s frontmatter check.
 - `flagellum/flagella` → **scourge(s)** · `percussio` → **stroke** · `verbera` → **stripes** ·
-  `increpatio` → **rebuke** (and `increpationem … ne reprobes` → "reject not the chastening",
-  Migne's own noun kept as "chastening" only inside the lemma; the gloss's `increpationem`
-  renders "rebuke", following the Latin's own two uses).
+  `increpatio` → **rebuke**, in lemma and gloss alike (0770A `« Reject not therefore the rebuke
+  of the Lord. »`, glossed `He rejects it who complains…`) — one English word, because the gloss
+  argues from the lemma's noun.
 - `sospitas` → **soundness** · `compunctio` → **compunction** · `praedicatio` → **preaching** ·
   `electi` → **the elect** · `reprobi` → **the reprobate** · `insensati` → **the senseless**.
 - `dissimulare` → **dissemble** throughout (lemma and gloss), because the gloss at 0763C turns
@@ -84,9 +88,10 @@ Collated against `sources/vulgate/clementine-flat.txt`, book chapter:verse cited
   required. The line break falls after *s*, so the break is not the explanation for the space
   between *e* and *s*. *es* is a real word with no grammatical slot in the clause (Pattern 12
   test 1), so the marker stands and the sense is rendered beside it:
-  "The wasting is [sic: *es*] the gehenna which is without". The marker wraps the **twin's**
-  form because `verify-english` checks it as a substring of the twin; when the spacing patch
-  lands it should become `[sic: *e s*]` (Pattern 10, the whole run).
+  "The wasting is [sic: *e s*] the gehenna which is without". ✅ **The spacing patch has landed**
+  (the twin now reads `Vastitas e s gehenna`), so the marker carries **the whole broken run** per
+  Pattern 10, which is what `verify-english` now checks against the twin. It was fired as
+  `[sic: *es*]` while the twin still fused the run, and corrected in the same edit as the patch.
 - **0771A `ecclesiae moribus et linguas distantes`** — plate-confirmed `linguas` (f386, native
   crop). Accusative beside the coordinate ablative *moribus*, both governed by *distantes*.
   **No marker**: English has no exponent for the case, "differing in customs and tongues" is the
