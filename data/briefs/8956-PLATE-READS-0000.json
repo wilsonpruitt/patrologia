@@ -1,0 +1,64 @@
+{
+  "_stint": "8956 chunks 0000-0004 (cols 1231B-1242D). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8956.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2. CALIBRATED IN THIS STINT: the printed corner numbers were read FIRST on every one of the six leaves before any collation, and give f616=1231/1232, f617=1233/1234, f618=1235/1236, f619=1237/1238, f620=1239/1240, f621=1241/1242.",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2 -- NOT consulted in this stint. No finding here rests on a single ambiguous glyph that the jbig2 copy could have settled: the two letter-level findings (Affectu at 1234A, the colon at 1234D) were each resolved on Gallica at native resolution and again on an upscaled crop, and the Affectu reading is additionally corroborated by the work's own parallel Affectu pii patris at 1236B.",
+  "reads": [
+    {
+      "from": "1231B",
+      "to": "1232D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f616",
+      "source": "Gallica f616, native IIIF (1868x3104). Printed corners read first. Read as three full-width bands (head, middle, foot) rather than column halves, because the LIBER ISAIAE banner, the PROLOGUS head, the VITA ISAIAE head and the PRAEFATIO head all run the full measure across both columns; the body beneath each is two-column as usual. Re-read here independently of the 2026-09-07 head collation already on record.",
+      "found": "No plate/TEI divergence in cols 1231 or 1232. Confirms three anchor placements that could not be checked from the TEI alone: [1232B] falls exactly at the top of the right column at 'ctum, ut exigua lympha scaturiret'; [1232C] falls exactly at 'revelante, intelligimus quodlibet'; the band letters print in the CENTRE gutter on this page and mark the RIGHT column. The bare [1231] anchor stands at the full-width PRAEFATIO head, as our TEI has it. Vulgate divergence logged and marked: 1232D quotes Lc 17:10 in the SINGULAR (Servus inutilis sum; quod debui facere, feci) against the Clementine plural -- [var:] fired. Foot of both columns blank: no numbered and no asterisk conjecture."
+    },
+    {
+      "from": "1233A",
+      "to": "1234D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f617",
+      "source": "Gallica f617, native IIIF, four column-half crops at native resolution, plus three upscaled single-word crops (900px wide) on the three glyphs at stake.",
+      "found": "ONE DIGITIZATION LOSS and ONE DROPPED MARK, both in col 1234. (1) 1234A: the plate reads 'Affectu piissimi patris' (line-broken Affect-u at the right edge); our TEI reads 'Affecta'. Read at native resolution and again at 900px: the final glyph has two stems joined at the foot, not a closed bowl -- a u, not an a. Corroborated internally by 'Affectu pii patris' at 1236B in the same work. Pending TEI patch filed; the English renders the plate. (2) 1234D: the plate prints a COLON after 'putant legem esse servandam' (two dots, vertically ranged, confirmed on a 900px crop); our TEI has no mark there. Pending TEI patch filed; the English carries the colon. One candidate REFUTED by re-cropping: 1233C 'clavem scientiae' looked like 'clarem' at column-half scale; the line-broken run 'cla-' + 'vem' at native resolution is a v, as our TEI has it. Vulgate divergence marked: 1233B quotes Dt 22:10 as 'Non arabis in vitulo simul et asino' where the Clementine reads 'in bove' -- [var:] fired, and the divergence is load-bearing, since the lemma under exposition is Is 1:3 'Cognovit bos'. Foot of both columns blank."
+    },
+    {
+      "from": "1235A",
+      "to": "1236D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f618",
+      "source": "Gallica f618, native IIIF, four column-half crops plus a right-edge strip of the left column (this leaf's columns run wider than f617's and the first crop clipped the line ends), plus four upscaled word crops.",
+      "found": "TWO DIGITIZATION LOSSES, both HEBREW TYPE our TEI drops entirely. (1) 1235D: the plate prints 'in Hebraeo sedek TSADE-DALET-QOF, quod magis justum significat'; our TEI has the transliteration alone. (2) 1235D: the plate prints 'Scoria, Hebraice siggim (SAMEKH-GIMEL-YOD-MEM SOFIT) : quod est rubigo metallorum'; our TEI has the transliteration alone. Both Hebrew words were read on dedicated crops, and both are confirmed by Migne's own transliteration standing beside them. Pending TEI patches filed; the English carries the Hebrew. The Greek at 1235A is CONFIRMED as our TEI has it: the plate prints the non-word ANTHROPOSPATHOS (sigma-pi where the Greek word wants pi alone) -- our twin reproduces it exactly, so this is Migne's, not ours; crux logged, no marker. One candidate REFUTED: 1235D 'per Oolibam' reads Oolibam, not Ooliban, at native resolution. Foot of both columns blank."
+    },
+    {
+      "from": "1237A",
+      "to": "1238D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f619",
+      "source": "Gallica f619, native IIIF, four column-half crops plus two upscaled word crops.",
+      "found": "No plate/TEI divergence: both readings that carry a marker in this range are confirmed as MIGNE'S, present identically on the plate and in our twin. (1) 1237A prints 'Et constabunt gladios suos' where the Clementine Is 2:4 has 'conflabunt'; confirmed on a dedicated crop -- constabunt, with s-t. The printed verb is intransitive and will not govern the accusative, so the clause does not construe; [var:] fired, [sic:] declined because the plate may be reporting a copy-text and the class is not mine to guess. (2) 1238A prints 'alii impiorum montes, allii colles' -- allii, double l, confirmed on a dedicated crop, three words after alii is set correctly on the same line. [sic:] fired. Also confirmed on the plate: the Greek phi at 1237C, and 'circumitu' (not circuitu) at 1236D-1237 in the Ps 124:2 quotation, which is an attested form and takes no marker. Foot of both columns blank."
+    },
+    {
+      "from": "1239A",
+      "to": "1240D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f620",
+      "source": "Gallica f620, native IIIF, four column-half crops plus two upscaled word crops on the line-broken word at 1240A.",
+      "found": "No plate/TEI divergence. 1240A's 'signamur ad malitiam Christi' is CONFIRMED on the plate, read across the line break as 'mali-' + 'tiam Christi' on two separate crops: the word is malitiam, and it is Migne's, not our transcription. A [cj:] is fired there (read militiam) because the printed word is a real Latin form whose faithful English -- sealed unto the MALICE of Christ -- asserts what the passage is plainly not saying; the ring of enlistment and the prodigal's ring follow immediately. Vulgate divergences marked: 1239B quotes Sir 7:6 as 'Ne quaeras judex fieri, ne forte non possis offerre iniquitates' against the Clementine 'Noli quaerere fieri judex, nisi valeas virtute irrumpere iniquitates' ([var:] fired); 1240D quotes Jo 4:34 as 'voluntatem Patris mei' where the Clementine has 'voluntatem ejus qui misit me', and the gloss's whole argument rests on the word Patris ([var:] fired). Foot of both columns blank."
+    },
+    {
+      "from": "1241A",
+      "to": "1242D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f621",
+      "source": "Gallica f621, native IIIF, four column-half crops.",
+      "found": "No plate/TEI divergence. 1241C's 'Vox sanguis fratris tui Abel clamat ad me de terra' is CONFIRMED on the plate: sanguis, nominative, where Gn 4:10 has the genitive sanguinis, and the plate also supplies Abel, which the Clementine does not. The nominative has no slot beside vox and cannot be carried by any English, so [sic:] is fired on sanguis alone and the sense is rendered beside it; the added Abel is logged as a crux and takes no marker, the referent being unambiguous. The chunk-0004 tail is confirmed to end at 1242D 'obscurata est', with CAPUT VI opening below it on the same column. Foot of both columns blank."
+    }
+  ]
+}

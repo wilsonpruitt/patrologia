@@ -1,0 +1,73 @@
+{
+  "_stint": "8956 chunks 0015-0019 (cols 1267B-1280D). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8956.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- CALIBRATED IN THIS STINT: the printed top-corner numbers were read FIRST on all seven leaves and give f634=1267/1268, f635=1269/1270, f636=1271/1272, f637=1273/1274, f638=1275/1276, f639=1277/1278, f640=1279/1280.",
+  "second_witness": "archive.org patrologiaecurs04migngoog NOT consulted in this stint. Nothing here rests on a single letter that Gallica leaves ambiguous; the two candidates that turned on letters (Thaphnis at 1273B, velmors at 1280B) were settled on native-resolution Gallica crops.",
+  "reads": [
+    {
+      "from": "1267A",
+      "to": "1268D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f634",
+      "source": "Gallica f634, native IIIF (1892x3112), four column-half crops at native resolution plus a line crop at 1268D. CALIBRATION PAGE: printed corners read FIRST and give 1267 / 1268.",
+      "found": "Running text collated word by word against src/latin/8956/0015.md: no divergence between the plate and our TEI. Foot of BOTH columns blank -- no numbered and no asterisk conjecture. Vulgate divergences fired as [var:]: Is 24:7 *qui laetabuntur* for Clementine *qui laetabantur corde* (1267C); Job 15:15 *Astra non sunt munda* for *caeli non sunt mundi* (1268C); the Daniel quotation *Exiit in occursum mihi princeps regni Persarum, et princeps regni Medorum*, which stands nowhere in Dan. 10 (1268D); Mt 25:46 *Ibunt impii* for *Et ibunt hi* (1268D); Is 24:22 *Unus fascis in lacum* for *unius fascis*, verified on a native crop of the single word (1268D). Cruces logged: Migne's (Luc. XIX) for the Lazarus parable (Luc. XVI) at 1267C; Mt 13:30 *per fasciculos* for *in fasciculos*; the Eph 6:12 abridgment at 1268D."
+    },
+    {
+      "from": "1269A",
+      "to": "1270D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f635",
+      "source": "Gallica f635, native IIIF, four column-half crops plus a wide-left re-crop of the whole left column (this leaf sits ~50px right of f634, so the first left-column crop clipped the margin) and a 3x crop of *fontem* at 1269D. Printed corners read first: 1269 / 1270. Previously recorded by another reader at depth 'read'; collated word by word here, so the depth is raised to 'full'.",
+      "found": "No plate/TEI divergence. Foot of both columns blank. [var:] fired: Ez 14:4 *Homo homo filiorum Israel* for *Homo, homo de domo Israel* (1269C); Nm 5:12 *Vir vir cujus uxor cubile maculaverit* for *Vir cujus uxor erraverit* (1269C); Ps 41:3 *ad Deum fontem vivum* for *ad Deum fortem, vivum* -- the f is unambiguous at 3x and our TEI agrees with the plate (1269D); Is 26:18 *salutem non fecimus* for *Salutes non fecimus* (1270B). Cruces: Migne's (Luc. I) for Lc 14:11 at 1269C; *distingunt* for *distinguunt* at 1270B (renders in place, no marker); the catchword *Spiritum: salute,* at 1270B, where the ablative has no English exponent; Gal 5:17 quoted without *enim*."
+    },
+    {
+      "from": "1271A",
+      "to": "1272D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f636",
+      "source": "Gallica f636, native IIIF, four column-half crops. Printed corners read first: 1271 / 1272.",
+      "found": "No plate/TEI divergence. Foot of both columns blank. [var:] fired: Is 28:11 *loquentur* for *loquetur* (1271C); Is 28:29 *a Domino Deo exivit* for *a Domino Deo exercituum exivit* (1272A); 1 Cor 1:19 *intellectum prudentium reprobabo* for *prudentiam prudentium reprobabo* (1272D); Rom 9:20 *figmentum factori suo: Quare me fecisti?* for *figmentum ei qui se finxit: Quid me fecisti sic?* (1272D). Cruces: Ps 117:22 quoted at 1271D with *quem aedificantes reprobaverunt* against the Clementine's *quem reprobaverunt aedificantes* (word order only); 1 Cor 3:2 *Lac dedi vobis potum* for *lac vobis potum dedi*; Is 29:3 *in circumitu tuo* for *in circuitu tuo*, a spelling the plate and our TEI share."
+    },
+    {
+      "from": "1273A",
+      "to": "1274D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f637",
+      "source": "Gallica f637, native IIIF, four column-half crops plus a line-level native crop at 1273B. Printed corners read first: 1273 / 1274.",
+      "found": "ONE DIGITIZATION LOSS. 1273B: the plate sets *Thaphnis civitas in qua magi contra Moysen signa fecerunt*; our TEI drops the h and reads *Thapnis*, while spelling the other three occurrences in the same paragraph *Thaphnis*. Read at native resolution on a crop of that line; the h is unambiguous. English renders the plate; pending TEI patch filed. Otherwise no plate/TEI divergence; foot of both columns blank. Confirmed as MIGNE'S OWN, not ours: the split italic *usque* et *ad* at 1274A (the plate sets exactly that), and the unstopped head CAPUT XXXI at 1274D. [var:] fired: Is 30:19 *Plorans nequaquam plorabit* for *plorabis* (1273D). Cruces: Is 30:21 *verbum monentis post tergum* for *verbum post tergum monentis*; Is 30:24 *Commixtum migma* for *commistum migma*; Mt 13:43 *Quia justi fulgebunt* for *Tunc justi fulgebunt*."
+    },
+    {
+      "from": "1275A",
+      "to": "1276D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f638",
+      "source": "Gallica f638, native IIIF, four column-half crops. Printed corners read first: 1275 / 1276.",
+      "found": "No plate/TEI divergence, including the mid-sentence capital *sicut In Pentecoste* at 1275D, which the plate sets. Foot of both columns blank. [var:] fired: Is 32:12, where after *Super ubera plangite* Migne sets the words of Lc 23:28 in place of the Clementine's *super regione desiderabili, super vinea fertili* -- a cross-book conflation inside one italic lemma, with no citation (1275D); Tob 4:23 *Habebis multa bona si timueris Deum* for *multa bona habebimus si timuerimus Deum*, a change of person (1276C); Gn 22:17 *sicut stellae* for *sicut stellas caeli* (1276C); *Judicabit orbem terrae in justitia* for the Clementine's *in aequitate* at Ps 9:9 and Ps 95:13 (1276D). Cruces: the Jer 42 paraphrase *Ora pro nobis Dominum quid agere debeamus?* at 1275A; Migne's (Zach. XI) at 1276C for words that are not in Zacharias."
+    },
+    {
+      "from": "1277A",
+      "to": "1278D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f639",
+      "source": "Gallica f639, native IIIF, four column-half crops. Printed corners read first: 1277 / 1278.",
+      "found": "No plate/TEI divergence. Foot of both columns blank. Pattern 8 confirmed at 1278D: the sentence ending *quanta de imminentibus cura* carries NO terminal stop on the plate, exactly as our TEI has it; the English leaves it unstopped. [var:] fired: Is 34:8 *annus retributionis* for *annus retributionum judicii Sion* (1277B); Is 33:9 *Erit Saron sicut desertum* for *factus est Saron sicut desertum*, cited by Migne as Isa. XXXII (1277C); Dt 17:16-17 *Non multiplicabis tibi equos, et currus, nec uxores plurimas* against the Clementine's third-person *non multiplicabit sibi equos ... Non habebit uxores plurimas*, which mentions no chariots (1277D). Cruces: Is 37:1 *audivisset* for *audisset* and the comma inside *Et factum, est*, both on the plate."
+    },
+    {
+      "from": "1279A",
+      "to": "1280D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f640",
+      "source": "Gallica f640, native IIIF, four column-half crops plus native line crops of *velmors* at 1280B and of the Hebrew at 1280C. Printed corners read first: 1279 / 1280.",
+      "found": "TWO DIGITIZATION LOSSES, both filed as pending TEI patches. (1) 1280A: the plate sets a plain *VERS. 15. --*; our TEI carries a spurious *&gt;* after the dash (*VERS. 15.--&gt;*), which is markup escaping, not type. (2) 1280C: the plate sets *Sehin (Hebrew) ulcus sonare*, with the Hebrew word in Hebrew type between the parentheses; our TEI drops the word and the parentheses entirely. Read on a native crop; the four letters are shin-heth-yod-final nun. The English does not carry it (inserting non-Latin type on our side alone would break the twin pair) -- it goes in with the patch. ONE PLATE DEFECT, confirmed at native resolution: 1280B sets *Non infernus velmors.* as one fused token with no word space; [sic: *velmors*] fired, with the disjunction and the noun both carried in plain words beside the marker per 7a''''. Foot of both columns blank. [var:] fired: Is 38:7 *quia fecit Dominus* for *quia faciet Dominus* (1279D). Cruces: Mt 19:12 *qui se castraverunt* for *qui seipsos castraverunt*; Ex 32:32 quoted at 1280D without *tuo* and without the conditional clause."
+    }
+  ]
+}

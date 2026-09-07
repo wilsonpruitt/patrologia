@@ -1,0 +1,73 @@
+{
+  "_stint": "8956 chunks 0005-0009 (cols 1243A-1255D). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8956.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- CALIBRATED on f622, whose printed top corners read 1243 (left) and 1244 (right), before any collation was done.",
+  "second_witness": "archive.org patrologiaecurs04migngoog (PDF page = (column + 11) / 2) NOT consulted in this stint: every Gallica leaf was legible at native resolution and no candidate turned on a single ambiguous letter that Gallica left open.",
+  "reads": [
+    {
+      "from": "1243A",
+      "to": "1244D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f622",
+      "source": "Gallica f622, native IIIF (1893x3108), four column-half crops at native resolution. CALIBRATION PAGE: printed corners read FIRST and give 1243 / 1244, confirming f = (column + 1) / 2 for this tome.",
+      "found": "Running text collated word by word against src/latin/8956/0005.md: no divergence between plate and our TEI anywhere on the leaf. Migne's '3' glyph in the VERS. numerals prints in a shape easily misread as '5' (VERS. 3 for Et clamabant, Is 6:3) -- noted so a later reader does not report it. Vulgate divergence found and marked: Ps 119:3 printed *adjiciatur* for Clementine *apponatur* (1244C, fired [var:]). Cruces only: Is 6:5+6:6 conflated into one lemma, wording exact. Foot of both columns blank -- no numbered and no asterisk conjecture."
+    },
+    {
+      "from": "1245A",
+      "to": "1246D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f623",
+      "source": "Gallica f623, native IIIF, four column-half crops at native resolution.",
+      "found": "ONE plate/TEI divergence, ours: at 1245D the plate reads *tanquam auctoritatem habens* and our TEI prints *auctoritatatem* (an extra syllable). Filed in 8956-PENDING-TEI-PATCHES-0005.md; the English renders the plate. Vulgate divergence marked: Lc 2:52 printed *Puer autem proficiebat aetate et sapientia* against Clementine *Et Jesus proficiebat sapientia, et aetate, et gratia* (1246A, fired [var:]). Otherwise the running text matches our TEI word for word, Genezareth/Genesareth variation included. Foot of both columns blank."
+    },
+    {
+      "from": "1247A",
+      "to": "1248D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f624",
+      "source": "Gallica f624, native IIIF, four column-half crops plus a top-strip re-crop of col 1247 (the first crop began below the column's opening line) and a 4x crop of the Hebrew at 1248D.",
+      "found": "ONE source loss, ours: at 1248D the plate sets HEBREW TYPE -- *Verbum Hebraicum (דבר) Dabar* -- and our TEI carries only the transliteration. Unpointed, three letters, read at 4x. Filed in 8956-PENDING-TEI-PATCHES-0005.md as a hebrew-recovery candidate; not inserted into the English alone, because the standing recipe patches both twins together. Plate confirms *Siole* at 1247A (Migne's spelling, not our defect) and *Non eris eis* at 1247C. Vulgate divergences marked: Is 8:6, Is 8:18, Is 9:6 (*Puer natus est nobis* for *Parvulus enim natus est nobis*), all fired [var:]. Otherwise no plate/TEI divergence. Foot of both columns blank."
+    },
+    {
+      "from": "1249A",
+      "to": "1250D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f625",
+      "source": "Gallica f625, native IIIF, four column-half crops (right column re-cropped from x=930 after the first pass clipped the left edge of the measure) plus a tight crop of the *apotolos* line break.",
+      "found": "ONE plate defect confirmed: at 1250C Migne prints *reprehendentes apotolos*, broken over a line as apo-/tolos, with no s. Our TEI carries the same form, so the defect is the plate's and takes [sic: *apotolos*]. Vulgate divergences marked at 1250A (Is 10:26 *in mare* for *super mare*) and 1250D (Mt 3:2 *appropinquabit* for *appropinquavit*; Mt 3:10 *fructus bonos eradicetur* for *fructum bonum, excidetur*), all fired [var:]. No other plate/TEI divergence on the leaf. Foot of both columns blank."
+    },
+    {
+      "from": "1251A",
+      "to": "1252D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f626",
+      "source": "Gallica f626, native IIIF, four column-half crops plus tight crops of *Et requiscere* (1252B) and of the Greek δορκὰς (1252C).",
+      "found": "Plate confirms *Et requiscere* at 1252B, exactly as our TEI has it -- so the syncopated stem is Migne's, not ours. NO [sic:] fired on it: our own Clementine flat file prints *quiscere* at Is 13:11, so a syncopated *-quiscere* is attested outside this plate and Pattern 9 governs; logged as a crux instead. Greek read at native resolution and again on a 3x crop: δορκὰς, grave over the alpha, exactly as our TEI has it. Vulgate divergence marked at 1252B (2 Cor 3:18 *Nos autem ... contemplantes* for *Nos vero omnes ... speculantes*, fired [var:]). No other plate/TEI divergence. Foot of both columns blank."
+    },
+    {
+      "from": "1253A",
+      "to": "1254D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f627",
+      "source": "Gallica f627, native IIIF, four column-half crops plus a tight crop of *in profundum quas lapis* (1254A).",
+      "found": "ONE plate defect confirmed: at 1254A Migne prints *descendunt in profundum quas lapis*, and the tight crop shows *quas* with no final i and a clear word space before *lapis* on the next line. A real Latin word with no grammatical slot in its clause (Pattern 12 test 1), so [sic: quas] stands, inside the italic lemma and therefore without a second italic marker. Our TEI has the same form. Vulgate divergences marked at 1253B (Mt 25:41 *Ite in ignem aeternum* for *Discedite a me maledicti in ignem aeternum*) and 1253C (Ps 28:5 *Conteret* for *confringet*), both fired [var:]. Plate confirms the double negative *nisi superbia tua non fuisset* at 1254C and the punctuation of *Invitus Christus; descendit voluntarius* at 1254B; both carried through and logged as cruces. Foot of both columns blank."
+    },
+    {
+      "from": "1255A",
+      "to": "1255D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f628 (LEFT column only -- col 1256, the right column, falls outside this stint and was not collated)",
+      "source": "Gallica f628, native IIIF, two column-half crops of the left column.",
+      "found": "No plate/TEI divergence in col 1255. Plate confirms *Ne laeteris* at 1255B against Clementine *Ne laetaris* (Is 14:29) and *Non est qui effugiat* at 1255C against Clementine *effugiet* (Is 14:31); both are one-letter mood variants with no English exponent, logged as cruces and NOT marked. Foot of the left column blank."
+    }
+  ]
+}

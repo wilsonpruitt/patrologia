@@ -1,0 +1,73 @@
+{
+  "_stint": "8956 chunks 0010-0014 (cols 1256A-1267A). Stint-scoped file for the orchestrator to merge into data/plate-reads.json under works.8956.reads. Do not merge blindly: peers own the other ranges.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- calibrated against the printed corner numbers on f628 (1255/1256), f629 (1257/1258), f630 (1259), f631 (1261/1262), f632 (1263), f633 (1265/1266) and f634 (1267/1268) BEFORE any reading was recorded.",
+  "second_witness": "archive.org patrologiaecurs04migngoog (local PDF raw/scans/pl113/), PDF page = (column + 11) / 2 -- calibrated on p.636 = cols 1261/1262 and p.638 = 1265/1266. CONSULTED at cols 1258 (p.634), 1262 (p.636) and 1265 (p.638). It is the 1-bit JBIG2 copy and is never a sole witness for a letter.",
+  "reads": [
+    {
+      "from": "1256A",
+      "to": "1256D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f628 (right column only; cols 1255A-1255D belong to the previous stint)",
+      "source": "Gallica f628, native IIIF (1868x3096), three column-height crops of the right column at native resolution. CALIBRATION PAGE: printed corners read FIRST and give 1255 / 1256, confirming f = (column + 1) / 2 for this tome.",
+      "found": "Running text collated word by word against src/latin/8956/0010.md: no divergence between plate and our TEI. The plate really does set 'VERS. -- 1.' (dash before the number) at the head of CAPUT XVI, as our TEI has it. Vulgate divergences logged as cruces (Is 15:9 lemma printed *Aqua Dibon* for Clementine *aquae Dibon*). Foot of both columns blank -- no numbered or asterisk conjecture."
+    },
+    {
+      "from": "1257A",
+      "to": "1258C",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f629",
+      "source": "Gallica f629, native IIIF, six column-height crops (both columns, three bands each); archive.org p.634 re-read at 200 dpi over col 1258C to settle *Mercenari.*",
+      "found": "No plate/TEI divergence. *Mercenari.* at 1258C stands on BOTH printings, so it is Migne's own clipped lemma and not a digitization loss; no marker fired, crux logged. Vulgate divergences: Jo 10:8 quoted *Omnes qui venerunt ad te ante me fures fuerunt et latrones* (fired [var:]); Is 16:3 *Coge consilium* for *coge concilium* (fired [var:]); Is 16:5 *Et praeparabit* for the passive *Et praeparabitur* (fired [var:]); Is 16:10 quoted *Auferetur laetitia et exsultatio de Carmelo* and cited (III Reg. XVIII), which is Elijah on Carmel and not the verse (crux). Foot of both columns blank; signature 40 at the foot of col 1258."
+    },
+    {
+      "from": "1258D",
+      "to": "1260B",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f630",
+      "source": "Gallica f630, native IIIF, six column-height crops, plus a 4x upscaled crop of col 1260C line 'magicam destrueret artem'.",
+      "found": "ONE plate/TEI divergence: col 1260C, the plate reads *destrueret* where our TEI has *destruerat*; read at 4x, the final letters are unambiguous. Patch filed. Vulgate divergences: Mt 15:13 quoted without *caelestis* (fired [var:]); Is 18:1 lemma *cymbalae alarum* for *cymbalo alarum* (fired [var:]); Mt 9:37 punctuated *Messis quidem multa operarii, autem pauci* (crux); Is 17:6 *duarum aut trium* for *vel trium* (crux). Foot of both columns blank."
+    },
+    {
+      "from": "1260C",
+      "to": "1262B",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f631, with archive.org p.636 as second witness",
+      "source": "Gallica f631, native IIIF, six column-height crops, plus a 3x upscaled crop of col 1262D 'Quid post mensam ingruat ei'; archive.org p.636 rendered at 200 dpi and read over the whole right column.",
+      "found": "ONE plate/TEI divergence, confirmed on BOTH printings: col 1262D reads *ingruat ei* where our TEI has *ingruat et*. The letter has no crossbar and no ascender on Gallica and is plainly an i on the archive copy. Patch filed. Vulgate divergences: Is 19:11 *Principes Thaneos* for *Taneos* (crux, name spelling); Is 19:18 *Lingua Chananaea* for *lingua Chanaan* (fired [var:], the gloss turns on the name); Mt 10:34-35 quoted *in terram* and *a patre suo* for *adversus patrem suum* (fired [var:]); Is 20:6 lemma *Haeccine erat* for *Ecce haec erat* (fired [var:]); Dn 5:25 *Mane, Tethel, Phares* for *Thecel*, on both printings (fired [var:]). Also noted: the archive copy sets *expugnant* in col 1262A where Gallica and our TEI have *expugnat* -- a press variant or a jbig2 artifact, nothing marked. Foot of both columns blank."
+    },
+    {
+      "from": "1262C",
+      "to": "1264D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f632",
+      "source": "Gallica f632, native IIIF, six column-height crops.",
+      "found": "No plate/TEI divergence. Pattern 8 confirmed at 1264D: the sentence ending *unde ei Dominus haec mala minatur* carries NO terminal stop on the plate, exactly as our TEI has it -- the English leaves it unstopped. Vulgate divergences: Is 21:13 *in semitis Dodanim* for *Dedanim* (fired [var:]); Is 21:12 quoted *Si me quaeritis, studiosius quaerite* and cited (Joan. IX) (fired [var:] on the text, crux on the citation); Is 21:14 *Occurentes* for *Occurrentes* (crux); Is 22:1 *Quidnam tibi quoque* for *Quidnam quoque tibi est* (crux); Is 63:17 quoted *Quare nos errare fecisti a via tua?* (fired [var:]); Ps 10:3 quoted *ut sagittet* for the plural *ut sagittent* (fired [var:]); Is 22:6 *Elam* for *Aelam* (crux); Is 22:13 quoted correctly but cited (Jerem. XXXIV) (crux). Foot of both columns blank."
+    },
+    {
+      "from": "1265A",
+      "to": "1266D",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f633, with archive.org p.638 as second witness",
+      "source": "Gallica f633, native IIIF, six column-height crops, plus a 3.6x upscaled crop of col 1265A 'stare non potet'; archive.org p.638 rendered at 200 dpi over the left column.",
+      "found": "THE TWO PRINTINGS DIFFER AT COL 1265A AND NO MARKER IS FIRED. Gallica sets *stare non potet* with the word unmistakably ending -et, and our TEI has *potet*; the archive copy sets *potest* clean. A single word defective on only one printing does not license a public accusation against Migne's type (the 8961 @0317D precedent, and 8950's *Mititte*/*Mittite*), so the English reads 'cannot stand', nothing is marked and nothing is patched. Otherwise no plate/TEI divergence. Vulgate divergences: Is 22:18 *Coronans coronabit te* -- OUR OWN Clementine flat file is corrupt at that verse (*Coronas cornonabit*), so no claim is made either way (crux); Is 22:24 lemma *Et suspendam super* for *Et suspendent super eum* (fired [var:]); Lc 19:48 quoted *Omnis populus pendebat ex eo* (fired [var:]); Is 23:7 *Nunquid non haec vestra est* for *Numquid non vestra haec est* (crux, word order); Ps 136:1 *dum recordaremur* for *cum recordaremur* (crux). Foot of both columns blank."
+    },
+    {
+      "from": "1267A",
+      "to": "1267A",
+      "depth": "full",
+      "date": "2026-09-07",
+      "page": "f634 (left column only; col 1267B onward and col 1268 belong to the next stint)",
+      "source": "Gallica f634, native IIIF, column-height crop of the left column head. CALIBRATION PAGE at the far end of the range: printed corners read FIRST and give 1267 / 1268.",
+      "found": "ONE plate/TEI divergence: the plate sets the lemma *Et erunt negotiationes ejus, et mercedes ejus* with no stop between *mercedes* and *ejus* (the word breaks 'merce-des' across the line); our TEI carries an intrusive full stop, *mercedes. ejus*. Patch filed; the English renders the plate. Vulgate divergences: Is 23:16 *Sume tibi citharam* for *Sume citharam* (fired [var:]); Is 23:16 *Bene cane, frequenter* for *bene cane, frequenta canticum* (fired [var:]). Foot of the column blank."
+    }
+  ]
+}
