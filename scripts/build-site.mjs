@@ -25,7 +25,15 @@ const idnos = process.argv.slice(2).filter(a => /^\d+$/.test(a));
 const SPINE = ['build-supplements.mjs', 'build-volumes.mjs'];
 // Per-work pages. Skipped entirely when no idno is named (a full run rebuilds only indexes,
 // because regenerating 158 work pages is slow and they do not go stale on their own).
-const PERWORK = ['build-work-page.mjs', 'build-cruces.mjs'];
+// ⛔ index-work.mjs BELONGS HERE AND WAS MISSING UNTIL 2026-09-07 (8956 Isaiah).
+// This script exists precisely so that nobody has to remember the builder list -- and it
+// forgot one, in the same shape as the failure that created it. The work's own page and its
+// cruces built fine, so six of preflight's seven checks passed over the gap; what broke was
+// data/index/<series>/<idno>.json, which build-cruces resolves a work's slug THROUGH. The
+// symptom was a cruces page silently not published, i.e. an apparatus link that would have
+// 404'd on a live page that looked completely healthy -- the 2026-08-05 Glabas failure again.
+// ⚑ It must run BEFORE build-cruces, which reads what it writes.
+const PERWORK = ['build-work-page.mjs', 'index-work.mjs', 'build-cruces.mjs'];
 // Indexes. ⚑ Every one of these lists works, so every one goes stale the moment a work ships.
 // build-landing.mjs is LAST: it asserts that each built page is in its RECENT list and exits
 // non-zero if not, which is the one check that wants everything else already in place.
