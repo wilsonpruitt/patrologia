@@ -42,16 +42,33 @@ sections" appended, not a translation) and the *Commentarius in Ioannem*, read i
 Jeauneau's SC 180 and never in English. ⛔ **9177 *Periphyseon* (213,674w) is deliberately NOT
 queued** — well translated, in print, half the tome.
 
-⛔⛔ **TWO RULINGS OWED BEFORE ANY PL 122 WORK IS TRANSLATED:**
+✅ **BOTH RULINGS ANSWERED 2026-09-07 — see `data/briefs/PL122-WITNESSES.md` before touching PL 122.**
 
-1. **PL 122 has ONE archive.org witness (`patrologiaecurs113unkngoog`) and NO Gallica copy.**
-   Checked by SRU this session. **The one-request second-witness check that settled PL 113 and
-   PL 114 does not exist for this tome.** After the jbig2 finding (a single witness smears
-   toward *plausibility*, the dangerous direction), decide: calibrate one of the eight Google
-   Books copies as a second witness, or accept single-copy apparatus and say so on the page.
-   **Until this is settled, no PL 122 work may fire a `[sic:]`.**
-2. **The PL 122 column→page map is uncalibrated.** One page render, corners read first. All
-   seven works print ⬜ PLATE SPOT CHECK OWED and will keep printing it until this is done.
+1. **Six independent second witnesses exist** (Princeton, Michigan, Penn State, Lyon, Barcelona,
+   a second Harvard), all full view on Google Books. ⛔ **But our archive copy IS Google
+   `q2mQHvy4_usC`** — the archive metadata names it — so that id is the SAME photographs and
+   collating against it would prove nothing. General rule: an archive id ending `goog` is a Google
+   scan and `archive.org/metadata/<id>` names which one.
+2. **The column map needs no arithmetic: `pg=PA<n>` is the page whose left column is n.**
+   Calibrated at PA125 (corners 125/126) and PA1023 (corners 1023/1024), 900 columns apart.
+   Page ids step by 2. A bare content URL returns a 9,103-byte placeholder — the real image needs
+   a per-page `sig` from `jscmd=click3`; recipe in the brief.
+
+⚠ **THE RESOLUTION SPLITS THE RULING.** Google caps at **575 px wide** (~287 px per column against
+Gallica's ~950), uniformly across all seven ids; `&w=1600+` returns a full-size PNG reading "image
+not available", which passes a size check — **look at the image.** Running text is comfortably
+legible word by word. So: **`[var:]` gets a second witness on PL 122; `[sic:]` does not.** A single
+broken letter is not resolvable at this scale, so it stays single-copy and must be withdrawn or
+logged as a crux, not fired. HathiTrust (likely higher res) is 403 behind Cloudflare from here.
+
+⛔⛔ **AND PL 122 HAS A *VARIAE LECTIONES* APPARATUS — a THIRD foot-of-page layer, and it is
+FLOSS'S, not Migne's.** Col. 125 prints, under a rule: *VARIAE LECTIONES. ¹ A dyonisii. sic ubique.
+B* dionisii, sic ubique. ² A B C ariovagitae.* — keyed to sigla declared in the work's own title
+block (Cod. Vat. 652 = A, Cod. Mon. lat. 580 = B, B*, B**, Cod. Brugensis = C). **PL 122 is an
+edition, not a reprint.** So: the plate spot check here will NOT be a checked zero and the
+PL 113/114 experience does not transfer; Corpus Corporum drops the whole layer, as it drops every
+foot apparatus; and it needs its own encoding ruling — **`[cn:]` was defined for Migne's own
+conjectures and a manuscript variant is a different thing. Do not reuse it by default; ask.**
 
 ⚑ **9176 is preserved as THREE fragments** (Cap. I,11–29 · III,1–IV,28 · VI,5–14) — the work
 page must say so; it is not a continuous commentary.
