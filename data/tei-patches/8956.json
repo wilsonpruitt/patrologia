@@ -1,0 +1,256 @@
+{
+ "patches": [
+  {
+   "col": "1294C",
+   "find": "fidelis populi\n<pb n=\"1240D\"/>",
+   "replace": " fidelis populi\n<pb n=\"1294D\"/>",
+   "why": "A CORRUPTED COLUMN ANCHOR, not a word. Read at the plate: the anchor sits in the right place and only its digits are wrong -- this passage stands in col 1294D, and 1240D belongs 54 columns earlier in a different chapter. Left uncorrected it would resolve migne.app/pl/113/1240d to the wrong text and break the citation unit.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1234A",
+   "find": "Affecta\npiissimi patris",
+   "replace": "Affectu\npiissimi patris",
+   "why": "Wrong letter. Gallica f617 right col, word broken Affect-/u at the line edge; final glyph has two stems joined at the foot (u), not the closed bowl this fount gives a. Corroborated independently of the letter by the work's own Affectu pii patris at 1236B, same ablative of manner. Affecta agrees with nothing and leaves the sentence without a construction.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1234D",
+   "find": "servandam\naudiant",
+   "replace": "servandam :\naudiant",
+   "why": "Dropped mark, Pattern 8. Gallica f617 right col, last line of the band: two dots vertically ranged, clear at native resolution and on a 900px upscale. Without it the parallel imperatives audiant ... audiant run together with no mark at all.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1235D",
+   "find": "<hi>sedek</hi>   quod",
+   "replace": "<hi>sedek</hi> <foreign xml:lang=\"hebrew\">צדק</foreign>, quod",
+   "why": "Hebrew type Migne sets and Corpus Corporum drops. Read at the plate; the three orphaned spaces in our file are the scar the loss left. Third of the class in this book.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1235D",
+   "find": "<hi>siggim</hi>  :",
+   "replace": "<hi>siggim</hi> <foreign xml:lang=\"hebrew\">(סגים)</foreign> :",
+   "why": "Hebrew type dropped by the digitization, read at the plate; the doubled space before the colon is the scar of the loss.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1245D",
+   "find": "auctoritatatem",
+   "replace": "auctoritatem",
+   "why": "An extra syllable in our file, not on the plate. Confirmed at the plate on the printing our TEI follows.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1248C",
+   "find": "Hebraicum   <hi>Dabar,</hi>",
+   "replace": "Hebraicum <foreign xml:lang=\"hebrew\">(דבר)</foreign> <hi>Dabar,</hi>",
+   "why": "Hebrew type dropped. The gloss is ABOUT the Hebrew word, so the loss removes the thing being glossed; the orphaned triple space is the scar.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1260C",
+   "find": "destruerat",
+   "replace": "destrueret",
+   "why": "A mood altered. Gallica at 4x. Subjunctive of characteristic: qui magicam destrueret artem, who should destroy the magic art.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1262D",
+   "find": "ingruat et,",
+   "replace": "ingruat ei,",
+   "why": "A word altered, confirmed on BOTH printings. Gives the verb its object (Balthasar); our et leaves the verb with no complement and a stray conjunction.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1267A",
+   "find": "et mercedes.\nejus.",
+   "replace": "et mercedes\nejus.",
+   "why": "An intrusive full stop inside a lemma, from a line break.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1273B",
+   "find": "Thapnis civitas",
+   "replace": "Thaphnis civitas",
+   "why": "A dropped letter in a proper name; the same paragraph spells it with h three other times, in both witnesses.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1280A",
+   "find": "VERS. 15.--&gt;",
+   "replace": "VERS. 15.--",
+   "why": "Markup escaping carried into the text. The entity is upstream in Corpus Corporum; Migne prints no > at all, read at the plate. Separate from the chunker entity fix, which only decoded it.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1280C",
+   "find": "Sehin   ulcus sonare",
+   "replace": "Sehin <foreign xml:lang=\"hebrew\">(שחין)</foreign> ulcus sonare",
+   "why": "Hebrew type dropped entirely; the triple space is the scar. The gloss reports what the Hebrews call the thing, so the dropped word is its subject.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1282A",
+   "find": "Hebraice mesuchan ,",
+   "replace": "Hebraice mesuchan <foreign xml:lang=\"hebrew\">(מסכן)</foreign>,",
+   "why": "Hebrew type dropped, confirmed on BOTH printings; the orphaned space before the comma is the scar.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1281B",
+   "find": "VERS. 4--",
+   "replace": "VERS. 4.--",
+   "why": "A lost point in a verse address; every other address in the work carries it.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1290A",
+   "find": "(I Cor.. X)",
+   "replace": "(I Cor. X)",
+   "why": "A doubled point inside a citation, both printings clean.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1291A",
+   "find": "docem tribubus",
+   "replace": "decem tribubus",
+   "why": "A word altered: the ten tribes. Both printings.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1291C",
+   "find": "plerosquo tentari",
+   "replace": "plerosque tentari",
+   "why": "A word altered; plerosque is the accusative subject of tentari. Both printings.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1293A",
+   "find": "Baptismam",
+   "replace": "Baptistam",
+   "why": "A non-word for a real one: usque ad Joannem Baptistam.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1294D",
+   "find": "antidotum,etc.",
+   "replace": "antidotum, etc.",
+   "why": "A lost space. Gallica f647 right col. Cosmetic, filed for completeness.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1296D",
+   "find": "cruceis, crucis,",
+   "replace": "crucis,",
+   "why": "A MANUFACTURED dittography: the plate prints cru-/cis across a line break and our digitization made two words of it. From our file alone it satisfies Pattern 11a exactly and would have put a [d:] on a doubling Migne never set.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1296D",
+   "find": "exallabitur",
+   "replace": "exaltabitur",
+   "why": "A fusion across the COLUMN break our own anchor marks: exal-/tabitur. Our file, not Migne's.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1297A",
+   "find": "funiculu.",
+   "replace": "funiculus.",
+   "why": "A truncated word at the column break; archive reading clean. [audit: the edit resolves to 1297A once prior patches are applied; the stint read it as spanning 1296D-1297A at the plate.]",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1297A",
+   "find": "VERS. 16. <hi>Ecce ego.</hi>",
+   "replace": "VERS. 16.-- <hi>Ecce ego.</hi>",
+   "why": "A dropped em rule after the verse address; every other address in the work carries it.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1302C",
+   "find": "supereum",
+   "replace": "super eum",
+   "why": "A fusion at a line break. Ours, not Migne's.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1302C",
+   "find": "me\nmoriter",
+   "replace": "memoriter",
+   "why": "A fusion at a line break the other way -- our file split one word across the break: memoriter.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1303A",
+   "find": "1304est",
+   "replace": "est",
+   "why": "A stray column number fused into a word by the digitization.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1303D",
+   "find": "VERS. 10. <hi>Filii peregrinorum.</hi>",
+   "replace": "VERS. 10.-- <hi>Filii peregrinorum.</hi>",
+   "why": "A dropped em rule after the verse address.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1308D",
+   "find": "Commotio acris",
+   "replace": "Commotio aeris",
+   "why": "A word altered: the movement of AIR, not of a sharp thing. Both printings.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1315A",
+   "find": "meridia\nnam",
+   "replace": "meridianam",
+   "why": "A hyphen lost at a line break: meridianam, the southern region. Ours, not Migne's.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1315A",
+   "find": "(HIER.]",
+   "replace": "(HIER ]",
+   "why": "A stop supplied inside Migne's own broken bracket. Migne prints no stop; do NOT repair the bracket to ) and do not promote it to a note -- the breakage is his.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1313B",
+   "find": "VERS. 10.emdash;",
+   "replace": "VERS. 10.-- ",
+   "why": "A mangled entity whose ampersand is lost UPSTREAM, so no decoder can reach it. Sixth of six such sites corpus-wide.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1305D",
+   "find": "VERS. 5. <hi>Et gaudebit,</hi>",
+   "replace": "VERS. 5.-- <hi>Et gaudebit,</hi>",
+   "why": "The em rule dropped after the verse address.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1307A",
+   "find": "VERS. 5. <hi>Et non fuit,</hi>",
+   "replace": "VERS. 5.-- <hi>Et non fuit,</hi>",
+   "why": "The em rule dropped after the verse address.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1312C",
+   "find": "VERS.5--",
+   "replace": "VERS. 5.--",
+   "why": "Spacing and point lost in a verse address.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  },
+  {
+   "col": "1312A",
+   "find": "Caelum\nsedes mea",
+   "replace": "Coelum\nsedes mea",
+   "why": "A spelling normalised away from Migne's; the plate prints Coelum, and our corpus follows the plate not the modern orthography.",
+   "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
+  }
+ ]
+}

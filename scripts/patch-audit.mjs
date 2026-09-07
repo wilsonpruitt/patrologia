@@ -19,8 +19,20 @@ const ROOT = path.join(import.meta.dirname, '..');
 const xml = fs.readFileSync(path.join(ROOT, 'sources/pl/tei', `${idno}.xml`), 'utf8');
 const { patches } = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/tei-patches', `${idno}.json`), 'utf8'));
 
-// column mark offsets, in document order
-const marks = [...xml.matchAll(/<pb n="([^"]+)"\s*\/>/g)].map(m => ({ n: m[1], at: m.index }));
+// ⛔ PATCHES ARE APPLIED IN ORDER, AND THIS AUDIT MUST APPLY THEM TOO (2026-09-07, 8956).
+// chunk-work.mjs walks the patch list applying each to the running xml, so a patch can
+// legitimately depend on an earlier one. This script resolved every patch against the
+// PRISTINE file, which is fine until the defect being patched IS THE COLUMN MAP: 8956
+// carried a corrupted anchor, <pb n="1240D"/> printed in place of 1294D, and until that
+// patch is applied colAt() reports 1240D for every site after it. The audit then failed a
+// correctly-aimed patch and would have passed a wrongly-aimed one declaring 1240D --
+// a check that is wrong in BOTH directions on exactly the class it exists to catch.
+// So: one working copy, patched as we go, with the column marks rebuilt whenever a patch
+// touches a <pb>. Same order, same semantics as the chunker.
+let working = xml;
+let marks = [];
+const rebuildMarks = () => { marks = [...working.matchAll(/<pb n="([^"]+)"\s*\/>/g)].map(m => ({ n: m[1], at: m.index })); };
+rebuildMarks();
 const colAt = off => { let cur = null; for (const m of marks) { if (m.at > off) break; cur = m.n; } return cur; };
 
 let fail = 0, warn = 0;
@@ -48,9 +60,17 @@ const reads = (() => {
   return set;
 })();
 
+// Applied exactly as chunk-work.mjs applies it: first occurrence, in list order. A patch
+// whose find did not resolve uniquely is NOT applied — the run is failing anyway, and
+// applying it would misreport every position after it.
+const apply = p => {
+  working = working.replace(p.find, p.replace);
+  if (p.find.includes('<pb') || p.replace.includes('<pb')) rebuildMarks();
+};
+
 for (const [i, p] of patches.entries()) {
   const tag = `#${String(i + 1).padStart(3)} ${p.col}`;
-  const n = xml.split(p.find).length - 1;
+  const n = working.split(p.find).length - 1;
   if (n !== 1) { console.error(`✗ ${tag}  find matches ${n}×, expected 1`); fail++; continue; }
   if (p.find === p.replace) { console.error(`✗ ${tag}  replace is identical to find (no-op)`); fail++; continue; }
   // Resolve the column of the EDIT, not of the find string's first character:
@@ -64,16 +84,17 @@ for (const [i, p] of patches.entries()) {
   // rather than waiving it — the edit offset must really precede the first column mark.
   // Added 2026-09-06 for the Glossa Pentateuch book-title recovery (Wilson's ruling).
   if (p.col === null) {
-    const at = xml.indexOf(p.find);
+    const at = working.indexOf(p.find);
     if (at === -1) { console.error(`✗ ${tag}  find not present`); fail++; continue; }
     if (marks.length && at > marks[0].at) {
       console.error(`✗ ${tag}  declares col null (before the first column mark) but lands AFTER ${marks[0].n}`);
       fail++; continue;
     }
     console.log(`✓ ${tag}  pre-column banner, verified before the first <pb> (${marks[0]?.n ?? 'no marks'})`);
+    apply(p);
     continue;
   }
-  const base = xml.indexOf(p.find);
+  const base = working.indexOf(p.find);
   let d = 0;
   while (d < Math.min(p.find.length, p.replace.length) && p.find[d] === p.replace[d]) d++;
   const off = base + d;
@@ -83,10 +104,11 @@ for (const [i, p] of patches.entries()) {
   const same = actual === want || actual?.replace(/[A-D]$/, '') === want.replace(/[A-D]$/, '');
   if (!same) {
     console.error(`✗ ${tag}  MATCHES IN COLUMN ${actual} — declared ${want}. Uniqueness is not location; re-aim this find.`);
-    fail++; continue;
+    fail++; apply(p); continue;
   }
   if (actual !== want) { console.warn(`⚠ ${tag}  band differs: match sits in ${actual}`); warn++; }
   if (reads && !reads.has(want.replace(/[A-D]$/, ''))) { console.warn(`⚠ ${tag}  no recorded plate read for this column`); warn++; }
+  apply(p);
 }
 console.log(`\n${patches.length} patches · ${fail} failed · ${warn} warning(s)`);
 if (fail) { console.error('PATCH AUDIT FAILED — do not chunk.'); process.exit(1); }
