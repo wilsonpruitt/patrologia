@@ -155,10 +155,10 @@
    "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
   },
   {
-   "col": "1297A",
+   "col": "1296D",
    "find": "funiculu.",
    "replace": "funiculus.",
-   "why": "A truncated word at the column break; archive reading clean. [audit: the edit resolves to 1297A once prior patches are applied; the stint read it as spanning 1296D-1297A at the plate.]",
+   "why": "A truncated word at the column break; archive reading clean. [audit corrected 2026-09-08: the edit lands in 1296D, where the word is broken at the column break, and the stint's own plate read said 1296D-1297A. The earlier note here ('resolves to 1297A once prior patches are applied') was written to satisfy patch-audit, which was reporting a drifted column: it rebuilt its <pb> offset table only for patches that touched a <pb>, so 22 prior insertions had slid every later offset forward. The tool is fixed; the text of the patch is unchanged and no shipped English or Latin moves.]",
    "work": "8956 Glossa ordinaria, Liber Isaiae prophetae (PL 113)"
   },
   {

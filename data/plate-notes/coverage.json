@@ -1417,6 +1417,16 @@
    "notes_recovered": 0,
    "note": "2 pages read at the plate 2026-09-07 on Gallica ark:/12148/bpt6k5505319w -- f374 (cols 747/748, the work-division page: the LIBER JOB banner falls mid-column in 747, so the rule's two-page case applies) and f400 (cols 799/800, interior, Job XVI). Printed corners read FIRST on both, confirming f = (column + 1) / 2 for this book. No foot-of-page apparatus of EITHER layer on either page -- no numbered Forte conjectures, no asterisk cross-references; both columns run to the last line with blank paper below. Read in THIS book, not inherited from 8956/8961/8963. Structural check made at the same time: Migne prints no Hebrew or Greek book-title line under the LIBER JOB banner, so the Pentateuch title-line class does not extend here (as with Isaiah) and 8949 Exodus remains the only book still owing that line.",
    "caveat": "A sample of 2 of the work's ~47 pages. Does not license a claim that Job carries no notes on its unread pages."
+  },
+  {
+   "idno": "8949",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "note": "FIVE pages read at the plate 2026-09-08 on Gallica ark:/12148/bpt6k5505319w -- f92 (cols 183/184, the work-division page, also read on the archive copy p.97 as a second witness), f97 (193/194), f110 (219/220), f133 (265/266) and f148 (295/296, where Exodus ends and LIBER LEVITICUS begins mid-page). Printed corners read FIRST on every leaf. No foot-of-page apparatus of EITHER layer on any of the five -- no numbered Forte conjectures, no asterisk cross-references; every column runs to the last line with blank paper below. Read in THIS book, not inherited from 8961/8957/8963. ⚑ The five pages were not a sample chosen at random: each is a page this work's own Hebrew lacunae sent us to, so the foot check rode along with the recovery. The head-of-book Hebrew/Greek title line and the six inline Hebrew words that Corpus Corporum drops are NOT this layer and are handled by data/tei-patches/8949.json + data/hebrew-patches/8949.json.",
+   "caveat": "A sample of 5 of the work's ~57 pages. Does not license a claim that Exodus carries no notes on its unread pages."
   }
  ],
  "fields": {

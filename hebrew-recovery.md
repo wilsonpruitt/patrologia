@@ -15,9 +15,24 @@ provenance in `data/hebrew-patches/11059.json`.
 ## Recipe
 
 1. **Spot the scars.** In a work's chunks, grep the surviving transliterations / the
-   artifacts: a stray space before `;`, a doubled comma `, ,`, an `In Hebraeo` clause whose
-   Hebrew is missing. Each is a candidate — but the scan is the arbiter (see step 5: some
-   `In Hebraeo` spots carry only a transliteration and never had Hebrew type).
+   artifacts: an empty `( )`, a stray space before `;`, a doubled comma `, ,`, an
+   `In Hebraeo` clause whose Hebrew is missing. Each is a candidate — but the scan is the
+   arbiter (see step 5: some `In Hebraeo` spots carry only a transliteration and never had
+   Hebrew type).
+
+   ⛔⛔ **THAT LIST IS NOT SUFFICIENT ON ITS OWN — measured on 8949 Exodus, 2026-09-08.**
+   The work has **seven** sites and only **four** left a `( )`. The other three left nothing
+   the documented greps can see: a **double space** before a comma (0219A `Pesach  ,`), a
+   **triple space** mid-sentence (0296A `Graece,   veelle semoth`), and the **book-title
+   banner**, which left no scar at all because Corpus Corporum dropped the whole display
+   line. **A work whose scars are all whitespace passes this sweep in silence.** So:
+   - grep `[ ]{2,}` (runs of two or more spaces) as well as `( )` and `, ,`;
+   - grep the surviving TRANSLITERATIONS, which is the one signal that survives every
+     scar shape — Migne almost always sets the Hebrew beside its Latin form, so
+     `Hebraice`, `Hebraeo`, and the italicized transliteration itself are the reliable hooks;
+   - **read the head of the book against the plate.** A dropped display line leaves no
+     artifact in the text at all, and the five Glossa Pentateuch book-title lines were all
+     lost this way.
 
 2. **Get the scan.** Prefer **Gallica (BnF)** — best quality, open IIIF *image* API.
    For PL 175: `ark:/12148/bpt6k55331558`. The image API works even though `info.json`

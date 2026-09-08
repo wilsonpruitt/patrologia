@@ -8771,6 +8771,69 @@
      "found": "0584C [sic: *praeter missis*] CONFIRMED, but as a DROPPED HYPHEN: the plate breaks *praetermissis* across a line and prints no hyphen, while hyphens print normally elsewhere on the same page."
     }
    ]
+  },
+  "8949": {
+   "series": "pl",
+   "volume": 113,
+   "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, no download)",
+   "page_map": "Gallica leaf f = (column + 1) / 2 -- calibrated against the printed corners on ALL FIVE leaves read, not carried in from 8961/8957.",
+   "second_witness": "archive.org patrologiaecurs04migngoog (on disk, raw/scans/pl113/), PDF page = (column + 11) / 2 -- consulted at p.97 only; see that read.",
+   "reads": [
+    {
+     "from": "0183A",
+     "to": "0184D",
+     "depth": "read",
+     "date": "2026-09-08",
+     "page": "f92 (Gallica) + p.97 (archive)",
+     "source": "Gallica f92 at native IIIF (1914x3121) plus native crops at 7-8x; archive p.97 rendered at 400 dpi with pdftoppm. TWO WITNESSES. CALIBRATION PAGE: printed corners read FIRST on both and both give 183/184, confirming f = (column + 1)/2 and p = (column + 11)/2 at this leaf. This is the work-division page -- the LIBER EXODUS banner stands at the head of col 183 -- so the rule's two-page case applies and f148 below is the second.",
+     "found": "Foot of page: CHECKED ZERO, both layers, on both copies -- no numbered Forte conjecture, no asterisk cross-reference; both columns run to the last line with blank paper below. Head of page: THE BOOK-TITLE LINE, last of the Glossa Pentateuch class -- 'Hebraice VEELLE SEMOTH (ואלה שמות), id est, HAEC SUNT NOMINA; Graece ΕΞΟΔΟΣ, id est EXITUS.' -- dropped whole by Corpus Corporum, recovered as <head type=\"book-title\">. Plus one inline Hebrew lacuna at 0183B (Bede's gloss, same word in a heavier face). ⚑ The two copies disagree on a shin-dot in the banner Hebrew: the archive prints one, Gallica does not. Gallica is preferred for non-Latin type (PL113-WITNESS-ENCODING.md) and the word is encoded unpointed."
+    },
+    {
+     "from": "0191A",
+     "to": "0192D",
+     "depth": "read",
+     "date": "2026-09-08",
+     "page": "f96",
+     "source": "Gallica f96 at native IIIF (1903x3115) plus a 2.2x native crop of the quotation. Printed corners read FIRST: 191/192.",
+     "found": "Foot: CHECKED ZERO, both layers. THE BOOK'S ONLY GUILLEMET, and it is Migne's own: at 0192A he sets 'De quo Joannes ait : « Cujus non sum dignus solvere corrigiam calceamenti (Joan. I).' with an opening « and NO closing » -- the sentence ends at the full stop after the citation. Our Latin has it exactly as the plate prints it. Same class as 8957 Job's twelve plate-confirmed unbalanced lemmata: no [sic:], no [cj:], no TEI patch, and the mark is not a quotation boundary a stint may 'repair'."
+    },
+    {
+     "from": "0193A",
+     "to": "0194D",
+     "depth": "read",
+     "date": "2026-09-08",
+     "page": "f97",
+     "source": "Gallica f97 at native IIIF (1912x3124) plus an 8x native crop of the Hebrew. Printed corners read FIRST: 193/194.",
+     "found": "Foot: CHECKED ZERO, both layers. One inline Hebrew lacuna recovered at 0193A: אהיה in Jerome's ten-names gloss (Exod 3:14)."
+    },
+    {
+     "from": "0219A",
+     "to": "0220D",
+     "depth": "read",
+     "date": "2026-09-08",
+     "page": "f110",
+     "source": "Gallica f110 at native IIIF (1868x3096) plus a 9x native crop. Printed corners read FIRST: 219/220.",
+     "found": "Foot: CHECKED ZERO, both layers. One inline Hebrew lacuna recovered at 0219A: פסח beside Migne's transliteration Pesach. ⚑ This scar was a DOUBLE SPACE before a comma, not a ( ) -- a sweep for ( ) alone would have missed it."
+    },
+    {
+     "from": "0265A",
+     "to": "0266D",
+     "depth": "read",
+     "date": "2026-09-08",
+     "page": "f133",
+     "source": "Gallica f133 at native IIIF (1889x3112) plus 5-8x native crops of both Hebrew words. Printed corners read FIRST: 265/266.",
+     "found": "Foot: CHECKED ZERO, both layers (the page carries only the signature PATROL. CXIII. and the quire mark 9). TWO inline Hebrew lacunae recovered at 0266A: אהרן and חור in Bede, De tabernaculo I.1. The ח of חור is the ח/ה class the witness brief says one copy must not settle; it rests on two controls -- Migne's own Hur and MT Exod 17:10 -- not on the impression alone."
+    },
+    {
+     "from": "0295A",
+     "to": "0296D",
+     "depth": "read",
+     "date": "2026-09-08",
+     "page": "f148",
+     "source": "Gallica f148 at native IIIF (1908x3118) plus an 8x native crop. Printed corners read FIRST: 295/296. Same leaf 8961 read for the Leviticus banner -- read again here for THIS work's columns and question.",
+     "found": "Foot: CHECKED ZERO, both layers. One inline Hebrew lacuna recovered at 0296A: ואלה שמות in the work's closing recapitulation, which names the book in all three languages and mirrors the banner. ⚑ A TRIPLE-SPACE scar, again not a ( ). Second work-division page: Exodus ends and LIBER LEVITICUS begins mid-page."
+    }
+   ]
   }
  }
 }

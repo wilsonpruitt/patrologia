@@ -1,0 +1,90 @@
+{
+ "textIdno": "8949",
+ "work": "Liber Exodus (Glossa ordinaria)",
+ "author": "Anselmus Laudunensis et schola",
+ "volume": 113,
+ "issue": "Corpus Corporum's TEI drops every piece of Hebrew type Migne sets inline in this book -- six words at five sites -- and drops the whole Hebrew/Greek book-title line under the LIBER EXODUS banner. All recovered from the plate 2026-09-08 and re-inserted by TEI patch (data/tei-patches/8949.json), which is what chunking applies; this file is the provenance. See hebrew-recovery.md.",
+ "source": {
+  "repository": "Gallica (BnF)",
+  "ark": "ark:/12148/bpt6k5505319w",
+  "iiif": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5505319w/f{folio}/{region}/{size}/0/native.jpg",
+  "note": "PL 113 leaf map f = (column + 1) / 2, calibrated against the printed corner numbers on every one of the five leaves read. ⛔ IIIF region coordinates are in the FULL image's own pixel space (~1870-1915 wide on this ark, and it VARIES page to page), not in the space of whatever size you request -- a region aimed by eye off a scaled render lands somewhere else. Fetch /full/full/ once and crop locally instead. Second witness for this work: the on-disk archive PDF raw/scans/pl113/patrologiaecurs04migngoog.pdf, page = (column + 11) / 2, rendered with pdftoppm."
+ },
+ "patches": [
+  {
+   "chunk": "0000",
+   "column": "0183A",
+   "verse": "Exod 1:1",
+   "hebrew": "ואלה שמות",
+   "folio": "f92 + archive p.97",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "The book-title banner, not an inline word: a whole display line Corpus Corporum drops. Recovered as <head type=\"book-title\"> per Wilson's ruling 2026-09-06; LAST of the five Glossa Pentateuch book-title lines, so that class is now closed. Migne's own VEELLE SEMOTH is the on-plate control. ⚑ The archive copy prints a shin-dot the Gallica impression does not; Gallica wins for non-Latin type and the word is encoded unpointed."
+  },
+  {
+   "chunk": "0000",
+   "column": "0183B",
+   "verse": "Exod 1:1",
+   "hebrew": "ואלה שמות",
+   "folio": "f92",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "Bede's gloss three lines under the banner, set in a heavier Hebrew face; same letters. Scar was ( )."
+  },
+  {
+   "chunk": "0004",
+   "column": "0193A",
+   "verse": "Exod 3:14",
+   "hebrew": "אהיה",
+   "folio": "f97",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "Jerome ad Marcellam, sixth of the ten names of God. MT has אֶהְיֶה; Migne sets it bare. Transliteration ehieh is the on-plate control. Scar was ( )."
+  },
+  {
+   "chunk": "0014",
+   "column": "0219A",
+   "verse": "Exod 12:11",
+   "hebrew": "פסח",
+   "folio": "f110",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "⚑ Scar was a DOUBLE SPACE before the comma, not ( ). MT has פֶּסַח; transliteration Pesach is the control."
+  },
+  {
+   "chunk": "0031",
+   "column": "0266A",
+   "verse": "Exod 17:10",
+   "hebrew": "אהרן",
+   "folio": "f133",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "Bede, De tabernaculo I.1. aleph-he-resh-final nun; the final nun's descender is unmistakable at 5x. Scar was ( )."
+  },
+  {
+   "chunk": "0031",
+   "column": "0266A",
+   "verse": "Exod 17:10",
+   "hebrew": "חור",
+   "folio": "f133",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "Same line as the preceding entry. ⚠ The opening letter is the ח/ה pair -- the class the witness brief says a single copy must not settle. Read as ח (left leg joined to the roof) and confirmed by BOTH controls: Migne's own Hur and MT Exod 17:10 חוּר. Scar was ( )."
+  },
+  {
+   "chunk": "0043",
+   "column": "0296A",
+   "verse": "Exod 1:1",
+   "hebrew": "ואלה שמות",
+   "folio": "f148",
+   "pointed": false,
+   "verifiedAgainstMT": true,
+   "note": "⚑ Scar was a TRIPLE SPACE, not ( ). The work's closing recapitulation names the book in Greek, Hebrew and Latin, mirroring the banner at 0183A."
+  }
+ ],
+ "notLacuna": [
+  "No other Hebrew is dropped in this work. After patching, `( )` occurs zero times in the chunked Latin and there is no `, ,`.",
+  "⭐ THE ( ) SWEEP IS NOT SUFFICIENT ON ITS OWN AND THIS BOOK PROVES IT. Four of the seven sites left an empty ( ); the other three left only WHITESPACE -- a double space before a comma (0219A) and a triple space mid-sentence (0296A), plus the book-title line, which left no scar at all because the whole line went. A work whose scars are all whitespace would pass a ( ) grep silently. Grep for runs of two or more spaces as well, and read the head of the book against the plate.",
+  "The Greek is a separate question and is NOT dropped: 15 <foreign xml:lang=\"greek\"> spans survive in the TEI. The only Greek that went missing is the ΕΞΟΔΟΣ of the book-title line, which went with the whole line."
+ ]
+}

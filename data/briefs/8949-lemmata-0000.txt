@@ -1,0 +1,209 @@
+# 8949 — lemma inventory and Clementine pre-scan
+
+**Liber Exodus** · PL 113 · cols 0183A–0296C · 44 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⚑ THE HEBREW IN YOUR LATIN IS RECOVERED TYPE — KEEP IT VERBATIM
+
+Corpus Corporum drops every piece of Hebrew Migne sets inline. All of it was read at the plate on
+2026-09-08 and restored before chunking (`data/tei-patches/8949.json`, provenance in
+`data/hebrew-patches/8949.json`): the book-title banner at the head of chunk 0000, and six words
+at 0183B, 0193A, 0219A, 0266A (two) and 0296A.
+
+**Carry any Hebrew you meet across into the English verbatim, like an `[n:]` note** — do not
+transliterate it, do not translate it, do not drop it. Migne's own transliteration always stands
+beside it (`Veelle Semoth`, `ehieh`, `Pesach`, `Aaron`, `Hur`) and that is what gets translated.
+⛔ Do not fire a marker on Hebrew that looks odd to you: it is unpointed because Migne sets it
+unpointed, and it has already been checked against the Masoretic text.
+
+## ⛔ THIS BOOK SETS ITS LEMMATA IN ITALIC, AND ITS ONE GUILLEMET IS MIGNE'S OWN
+
+Which mark carries the lemma varies by book and must not be assumed. **Exodus is at the far end
+of the range: the whole work contains exactly ONE guillemet** — an opening `«` at **0192A**, with
+no `»` anywhere in the book. Genesis (8950), the same commentary on the neighbouring book, sets
+1,207 lemmata in guillemets. Here every lemma is italic, and the inventory below is an inventory
+of italic spans.
+
+That one mark was read at the plate 2026-09-08 (Gallica `bpt6k5505319w` f96, printed corners
+191/192 read first). Migne sets:
+
+    De quo Joannes ait : « Cujus non sum dignus solvere corrigiam calceamenti (Joan. I).
+
+— an opening guillemet on a quotation he never closes; the sentence simply ends at the full stop
+after the citation. **Our Latin has it exactly as the plate prints it.**
+
+⛔ **Consequences:**
+
+1. **Do not fire `[sic:]`, `[cj:]` or a TEI patch on that guillemet, and do not add a closing
+   `»`.** It is the same class as 8957 Job's twelve plate-confirmed unbalanced lemmata: the mark
+   is Migne's, and it is not a boundary you may repair.
+2. **Do not read the absence of guillemets as a defect either.** Nothing was lost in transmission;
+   this book was set that way.
+3. Translate the quotation as a quotation — the `« ` is a quotation mark, not part of the text.
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0000–0004, bands 0183A–0193C (94 spans, of which 1 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0183A] *Hic est panis qui de coelo descendit [n: (Joan. VI)]*   ✓ Jo 6:59
+[0183B] *Omnes eamdem escam spiritualem manducaverunt, et omnes eumdem potum spiritualem biberunt,*   ⚠ NOT in Clementine verbatim — CHECK
+[0183B] *Facta sunt haec,*   ✓ 1Mcc 14:28
+[0183B] *ut Scriptura impleretur: Os non comminuetis ex eo [n: (Joan. XIX)]*   ✓ Jo 19:36
+[0183B] *Veelle Semoth*   ⚠ NOT in Clementine verbatim — CHECK
+[0183B] *exodus, exitus*   ⚠ NOT in Clementine verbatim — CHECK
+[0183B] *egressus*   — single word, check in place
+[0183B] VERS. 5.-- *Erant igitur omnes animae eorum qui [0183C] egressi sunt de femore Jacob, septuaginta,*   ✓ Ex 1:5
+[0183C] VERS. 6, 7.-- *Quo mortuo,*   ✓ 4Rg 8:15, Ex 1:6, Gn 50:15
+[0183D] *Permanere autem [0184A] in carne magis necessarium est propter vos.*   ⚠ NOT in Clementine verbatim — CHECK
+[0184A] VERS. 8-10.-- *Surrexit interea rex novus super Aegyptum,*   ✓ Ex 1:8
+[0184A] *Allegorice.*   — single word, check in place
+[0184A] *dixit in corde suo: Non est Deus;*   ⚠ NOT in Clementine verbatim — CHECK
+[0184A] *Ecce populus filiorum Israel,*   ✓ Ex 1:9
+[0184A] *Venite, opprimamus eum sapienter.*   ⚠ NOT in Clementine verbatim — CHECK
+[0184B] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0184B] *[n: (ORIG. homil. 1.)] Moraliter.*   — single word, check in place
+[0184D] *scripta sunt ad nostram doctrinam scripta sunt [n: (Rom. XV)]*   ✓ Rom 15:4
+[0185A] VERS. 11-13.-- *Praeposuit itaque eis,*   ✓ Ex 1:11
+[0185B] *Commisti sunt inter gentes, et didicerunt opera eorum.*   ✓ Ps 105:35
+[0185B] *os defectionis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0185B] *abyssi;*   — single word, check in place
+[0185B] *commotio tineae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0185B] *os abyssi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0185B] *commotio tineae:*   ⚠ NOT in Clementine verbatim — CHECK
+[0185B] *transfigurans se [0185C] in angelum lucis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0185C] *Vade retro, Satana: scriptum est enim: Dominum Deum tuum adorabis, et illi soli servies [n: (Matth. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0185D] *Clamavit perdix, congregavit quae non peperit, fecit divitias, et non in judicio: in dimidio dierum ejus derelinquent eum, et in novissimis suis erit stultus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0186B] VERS. 15.-- *Dixit autem rex Aegypti obstetricibus,*   ✓ Ex 1:15
+[0186C] *Obstetricibus. [n: (ORIG., ibid.)]*   — single word, check in place
+[0186C] *Quarum una vocabatur Sephora,*   ✓ Ex 1:15
+[0186D] *passer; altera Phua,*   ⚠ NOT in Clementine verbatim — CHECK
+[0186D] *rubens*   — single word, check in place
+[0186D] *verecunda;*   — single word, check in place
+[0186D] *passer,*   — single word, check in place
+[0187A] *altera, rubens*   ⚠ NOT in Clementine verbatim — CHECK
+[0187A] *verecunda,*   — single word, check in place
+[0187A] *timuerunt Deum, et non fecerunt juxta praeceptum regis Aegypti*   ⚠ NOT in Clementine verbatim — CHECK
+[0187A] *passer*   — single word, check in place
+[0187A] *rubens*   — single word, check in place
+[0187A] *verecunda,*   — single word, check in place
+[0187C] VERS. 16-21.-- *Si masculus fuerit,*   ✓ Ex 1:16
+[0187C] *Allegorice.*   — single word, check in place
+[0187D] VERS. 19.-- *Quae responderunt,*   ✓ Ex 1:19
+[0187D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0187D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0188A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0188A] VERS. 22.-- *Praecepit ergo Pharao,*   ✓ Ex 1:22
+[0188B] *Quidquid feminini [n: (HIERON., in Ecclesiasten., c. 3)]*   ✓ Ex 1:22
+[0188C] VERS. 1-5.-- *Egressus est,*   ✓ 1Par 6:15, 1Par 14:8, 1Par 14:15, …
+[0188C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0188C] *Alleg.*   — single word, check in place
+[0188C] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0188C] *Vir de domo,*   ✓ Ex 2:1
+[0188D] VERS. 2.-- *Et videns,*   ✓ 1Mcc 11:38, Act 14:8, Act 16:27, …
+[0188D] *Nunquid me occidere tu vis?*   ⚠ NOT in Clementine verbatim — CHECK
+[0188D] *[n: (ORIG., hom. 2.)] Allegorice.*   — single word, check in place
+[0188D] *Obliviscere populum tuum, et domum patris tui, quia concupivit rex speciem tuam [n: (Psal. XLIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0189B] *Ego in non gentem in aemulationem vos inducam: in gentem insipientem, in iram vos concitabo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0189C] VERS. 6-8.-- *Cernensque in ea parvulum,*   ✓ Ex 2:6
+[0189C] *Mystice.*   — single word, check in place
+[0189D] *Considerabo omnes praeputium circumsecantes, Aegyptios et filios Edom. [n: (Jer. IX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0189D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0189D] VERS. 9-11.-- *Adultumque tradidit,*   ✓ Ex 2:9
+[0190A] VERS. 12.-- *Cumque circumspexisset huc atque illuc.*   ✓ Ex 2:12
+[0190B] *Allegorice.*   — single word, check in place
+[0190C] VERS. 13.-- *Et egressus die altero,*   ✓ Ex 2:13
+[0190C] *Tu discipulus illius sis, nos discipuli Mosi.*   ⚠ NOT in Clementine verbatim — CHECK
+[0190C] VERS. 14-21.-- *Timuit Moses,*   ⚠ NOT in Clementine verbatim — CHECK
+[0190D] VERS. 22.-- *Quae peperit,*   ✓ 1Par 2:19, 1Par 2:21, 1Par 2:24, …
+[0190D] *Allegorice.*   — single word, check in place
+[0190D] *Una est columba mea;*   ✓ Ct 6:8
+[0190D] *advena,*   — single word, check in place
+[0190D] *Dei adjutorium:*   ⚠ NOT in Clementine verbatim — CHECK
+[0190D] VERS. 23-25.-- *Post multum vero temporis,*   ⚑ MATCHES ONLY ELSEWHERE — Mt 25:19, Tob 1:18  (lemma is Ex 2) — CHECK
+[0191A] *Ingemiscentes.*   — single word, check in place
+[0191A] VERS. 2, 3.-- *Apparuitque ei.*   ✓ Ex 3:2, Gn 26:2
+[0191A] *Allegorice.*   — single word, check in place
+[0191C] VERS. 4.-- *Cernens autem Dominus,*   ✓ Ex 3:4
+[0191C] *Vocavit eum de medio,*   ✓ Ex 3:4, Ex 24:16
+[0191D] VERS. 5-7.-- *Solve calceamentum,*   ✓ Act 7:33, Ex 3:5
+[0192A] « Cujus non sum dignus solvere corrigiam calceamenti [n: (Joan. I)].   ⚠ UNCLOSED « — Migne's quotation runs past this paragraph, so the span shown ends where the paragraph does and may be SHORT. Collate it at the line. (⚠ NOT in Clementine verbatim — CHECK)
+[0192A] VERS. 6.-- *Ego sum Deus,*   ✓ Act 7:32, Ex 3:6, Gn 26:24, …
+[0192B] VERS. 7.-- *Vidi afflictionem,*   ✓ Act 7:34, Ecl 3:10, Ex 3:7
+[0192C] VERS. 8-13.-- *Et educam de terra,*   ✓ Ex 3:8
+[0192D] *In terram bonam et spatiosam, in terra quae fluit lacte,*   ⚠ NOT in Clementine verbatim — CHECK
+[0192D] *Et dedit illis regiones gentium, et labores populorum possederunt, ut custodiant justificationes ejus, et legem requirant.*   ⚠ NOT in Clementine verbatim — CHECK
+[0193A] VERS. 14-16.-- *Qui est, misit me ad vos,*   ✓ Ex 3:14
+[0193A] *ehieh*   — single word, check in place
+[0193A] *Qui est, misit me ad vos.*   ✓ Ex 3:14
+[0193B] VERS. 17-20.-- *Ad terram fluentem lacte et melle,*   ✓ Ex 3:17
+[0193B] VERS. 21.-- *Non exibitis,*   ✓ Ex 3:21, Lv 8:33
+[0193B] *et praedabimini eos,*   ⚠ NOT in Clementine verbatim — CHECK
+[0193C] VERS. 22.-- *Vasa argentea.*   ✓ 2Par 9:24, 2Rg 8:10, 3Rg 10:25, …

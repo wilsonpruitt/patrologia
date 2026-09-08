@@ -63,9 +63,17 @@ const reads = (() => {
 // Applied exactly as chunk-work.mjs applies it: first occurrence, in list order. A patch
 // whose find did not resolve uniquely is NOT applied — the run is failing anyway, and
 // applying it would misreport every position after it.
+// ⛔ FIXED 2026-09-08 (8949). Marks are BYTE OFFSETS into `working`, so ANY patch that changes
+// the text length invalidates every mark after it — not just one that moves a <pb>. The old
+// condition rebuilt only when a <pb> was in the find or replace, so a run of pure insertions
+// (the Glossa Hebrew recoveries: a book-title banner plus five <foreign> insertions, ~330 chars
+// before the last patch) slid later offsets forward and reported patch #6 in 0296B when it plainly
+// stands in 0296A. The drift is monotone and unbounded, so it can also turn a correct declaration
+// into a hard MATCHES IN COLUMN failure, or hide a wrong one. Rebuild after every apply; the file
+// is small and the scan is cheap.
 const apply = p => {
   working = working.replace(p.find, p.replace);
-  if (p.find.includes('<pb') || p.replace.includes('<pb')) rebuildMarks();
+  rebuildMarks();
 };
 
 for (const [i, p] of patches.entries()) {

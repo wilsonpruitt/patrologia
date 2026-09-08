@@ -1,0 +1,258 @@
+# 8949 — lemma inventory and Clementine pre-scan
+
+**Liber Exodus** · PL 113 · cols 0183A–0296C · 44 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⚑ THE HEBREW IN YOUR LATIN IS RECOVERED TYPE — KEEP IT VERBATIM
+
+Corpus Corporum drops every piece of Hebrew Migne sets inline. All of it was read at the plate on
+2026-09-08 and restored before chunking (`data/tei-patches/8949.json`, provenance in
+`data/hebrew-patches/8949.json`): the book-title banner at the head of chunk 0000, and six words
+at 0183B, 0193A, 0219A, 0266A (two) and 0296A.
+
+**Carry any Hebrew you meet across into the English verbatim, like an `[n:]` note** — do not
+transliterate it, do not translate it, do not drop it. Migne's own transliteration always stands
+beside it (`Veelle Semoth`, `ehieh`, `Pesach`, `Aaron`, `Hur`) and that is what gets translated.
+⛔ Do not fire a marker on Hebrew that looks odd to you: it is unpointed because Migne sets it
+unpointed, and it has already been checked against the Masoretic text.
+
+## ⛔ THIS BOOK SETS ITS LEMMATA IN ITALIC, AND ITS ONE GUILLEMET IS MIGNE'S OWN
+
+Which mark carries the lemma varies by book and must not be assumed. **Exodus is at the far end
+of the range: the whole work contains exactly ONE guillemet** — an opening `«` at **0192A**, with
+no `»` anywhere in the book. Genesis (8950), the same commentary on the neighbouring book, sets
+1,207 lemmata in guillemets. Here every lemma is italic, and the inventory below is an inventory
+of italic spans.
+
+That one mark was read at the plate 2026-09-08 (Gallica `bpt6k5505319w` f96, printed corners
+191/192 read first). Migne sets:
+
+    De quo Joannes ait : « Cujus non sum dignus solvere corrigiam calceamenti (Joan. I).
+
+— an opening guillemet on a quotation he never closes; the sentence simply ends at the full stop
+after the citation. **Our Latin has it exactly as the plate prints it.**
+
+⛔ **Consequences:**
+
+1. **Do not fire `[sic:]`, `[cj:]` or a TEI patch on that guillemet, and do not add a closing
+   `»`.** It is the same class as 8957 Job's twelve plate-confirmed unbalanced lemmata: the mark
+   is Migne's, and it is not a boundary you may repair.
+2. **Do not read the absence of guillemets as a defect either.** Nothing was lost in transmission;
+   this book was set that way.
+3. Translate the quotation as a quotation — the `« ` is a quotation mark, not part of the text.
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0015–0019, bands 0221B–0234D (143 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0221B] *De Ramesse in Socoth,*   ✓ Ex 12:37
+[0221B] *tabernacula.*   — single word, check in place
+[0221B] *signa eis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0221C] *Non eatis longius.*   ⚠ NOT in Clementine verbatim — CHECK
+[0221C] *Resuscitabit nos Deus post biduum, et in die tertia resurgemus, et vivemus in conspectu ejus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0221C] *Necessarium est ergo ut qui baptizantur in Christo, in morte ipsius baptizentur, et cum ipso sepeliantur, et die tertia resurgant, quos scilicet secum suscitavit et fecit consedere in coelestibus [n: (Rom. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0221C] *Sexcenta fere millia,*   ✓ Ex 12:37
+[0221D] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0221D] VERS. 46-51.-- *Nec illius,*   ⚑ MATCHES ONLY ELSEWHERE — Dn 11:17  (lemma is Ex 12) — CHECK
+[0221D] VERS. 2-8.-- *Sanctifica mihi omne primogenitum,*   ✓ Ex 13:2
+[0221D] VERS. 9-12.-- *Et erit quasi signum,*   ✓ Ex 13:9
+[0222A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0222A] VERS. 13-15.-- *Omne autem primogenitum hominis,*   ✓ Ex 13:13
+[0222B] VERS. 16.-- *Et quasi appensum.*   ✓ Ex 13:16
+[0222B] VERS. 17.-- *Igitur cum emisisset,*   ✓ Ex 13:17
+[0222C] VERS. 18-20.-- *Non eos duxit Deus,*   ✓ Ex 13:17
+[0222D] *Et armati ascenderunt filii,*   ✓ Ex 13:18
+[0222D] *quinta autem generatione ascenderunt filii Israel de terra Aegypti,*   ⚠ NOT in Clementine verbatim — CHECK
+[0222D] *et armati ascenderunt filii Israel de terra Aegypti,*   ✓ Ex 13:18
+[0222D] *armati*   — single word, check in place
+[0222D] *instructi*   — single word, check in place
+[0222D] *muniti*   — single word, check in place
+[0222D] *quinta generatione*   ⚠ NOT in Clementine verbatim — CHECK
+[0223A] *[n: (AUG., quaest. 53.)] Quinta autem progenie,*   ⚠ NOT in Clementine verbatim — CHECK
+[0223A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0223A] VERS. 21-22.-- *Dominus autem praecedebat eos,*   ✓ Ex 13:21
+[0223A] *Fuistis aliquando tenebrae, nunc autem [0223B] lux in Domino,*   ⚠ NOT in Clementine verbatim — CHECK
+[0223B] *ut qui non vident, videant; et qui vident, caeci fiant [n: (Joan. IX)]*   ✓ Jo 9:39
+[0223C] VERS. 2.-- *Phihahiroth, quae est inter Magdalum,*   ✓ Ex 14:2
+[0223C] *ascensio tortuosa,*   ⚠ NOT in Clementine verbatim — CHECK
+[0223C] *turris,*   — single word, check in place
+[0223C] *ascensio speculae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0223C] *habens speculam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0223D] *Arcta est enim et angusta via quae ducit ad vitam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0223D] *ascensio tortuosa,*   ⚠ NOT in Clementine verbatim — CHECK
+[0223D] *ascensio speculae*   ⚠ NOT in Clementine verbatim — CHECK
+[0223D] *habens speculam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0223D] *Quis vestrum volens turrim aedificare, non prius sedens computat sumptus, si habet unde perficiat?*   ⚠ NOT in Clementine verbatim — CHECK
+[0224B] *Fuisset.*   — single word, check in place
+[0224B] *Qui enim volunt pie vivere in Christo, persecutionem patiuntur,*   ⚠ NOT in Clementine verbatim — CHECK
+[0224B] *Levavit,*   — single word, check in place
+[0224B] *angelus Domini, qui antecedebat castra Israel, et abiit post illos. Elevavit et columnam nubis a facie eorum, et stetit post illos, et intravit inter castra Aegyptiorum et Israel.*   ⚠ NOT in Clementine verbatim — CHECK
+[0224C] *Tanquam non essent sepulcra in Aegypto, ita eduxisti nos.*   ⚠ NOT in Clementine verbatim — CHECK
+[0224C] VERS. 11-12.-- *Forsitan non erant sepulcra,*   ⚠ NOT in Clementine verbatim — CHECK
+[0224C] *Modicae fidei, quare dubitasti?*   ✓ Mt 14:31
+[0224D] VERS. 13-14.-- *Aegyptios enim quos nunc,*   ✓ Ex 14:13
+[0224D] *[n: (AUG. quaest. 5 in Exod.)] Sicut enim vidistis Aegyptios hodie, non apponetis amplius videre eos in aeternum tempus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0225A] VERS. 15-17.-- *Quid clamas ad me?*   ✓ Ex 14:15
+[0225B] *Quid clamas ad me?*   ✓ Ex 14:15
+[0225B] *Quid clamas ad me?*   ✓ Ex 14:15
+[0225B] *Quia dabit Deus Spiritum Filii sui in cordibus nostris clamantem: Abba, Pater.*   ⚠ NOT in Clementine verbatim — CHECK
+[0225B] *ipse Spiritus interpellat pro nobis gemitibus inenarrabilibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0225B] *Qui autem scrutatur corda, scit quid desideret spiritus.*   ✓ Rom 8:27
+[0225C] *Qui divisit mare Rubrum in divisiones,*   ✓ Ps 135:13
+[0225C] *Ibi Benjamin minor in stupore. Principes Juda, duces eorum, principes Zabulon et principes Nephthali:*   ⚠ NOT in Clementine verbatim — CHECK
+[0226B] VERS. 19-20.-- *Tollensque se angelus Dei,*   ✓ Ex 14:19
+[0226B] *nuntius*   — single word, check in place
+[0226B] VERS. 21-31.-- *Tota nocte,*   ✓ 1Mcc 5:50, 1Mcc 12:27, 1Rg 15:11, …
+[0226C] *Cantemus Domino, gloriose enim,*   ✓ Ex 15:1, Ex 15:21
+[0226C] VERS. 1.-- *Tunc cecinit Moyses,*   ✓ Ex 15:1
+[0226D] *Cantemus Domino gloriose,*   ✓ Ex 15:1, Ex 15:21
+[0226D] *Gloriose enim,*   ✓ Ex 15:1, Ex 15:21
+[0226D] *glorificatus [0227A] est;*   ✓ Jo 12:16
+[0227A] *Pater, venit hora, glorifica Filium tuum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0227A] *Humiliavit semetipsum, factus obediens usque ad mortem, mortem autem crucis.*   ✓ Phlp 2:8
+[0227A] *Morte turpissima condemnemus eum.*   ✓ Sap 2:20
+[0227A] *Quia oportebat pati Christum, et sic intrare in gloriam suam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0227B] *Magnificatus est, equum et ascensorem dejecit in mare,*   ✓ Ex 15:1
+[0227B] *Equum,*   — single word, check in place
+[0227C] *Equitatus tuus salus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0227C] VERS. 2.-- *Iste Deus meus,*   ✓ Ex 15:2
+[0227D] *Vado ad Patrem meum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0227D] VERS. 3.-- *Dominus quasi vir pugnator,*   ✓ Ex 15:3
+[0227D] *Dominus conteret bella.*   ⚠ NOT in Clementine verbatim — CHECK
+[0227D] *Dominus nomen est illi.*   ✓ Jdt 16:3
+[0227D] *principatus, et potestates, et rectores tenebrarum harum.--Dominus*   ⚠ NOT in Clementine verbatim — CHECK
+[0227D] *nomen est illi,*   ✓ Jdt 16:3
+[0228B] *Qui aedificat supra fundamentum argentum, aurum, lapides pretiosos,*   ⚠ NOT in Clementine verbatim — CHECK
+[0228C] VERS. 5, 6.-- *Descenderunt in profundum quasi lapis.*   ✓ Ex 15:5
+[0228C] *Demersi sunt quasi plumbum in aqua validissima.*   ⚠ NOT in Clementine verbatim — CHECK
+[0228D] *Modicae fidei, quare dubitasti?*   ✓ Mt 14:31
+[0229A] *quasi plumbum in aqua validissima.*   ⚠ NOT in Clementine verbatim — CHECK
+[0229A] VERS. 7-10.-- *Misisti iram tuam,*   ✓ Bar 2:20, Ex 15:7
+[0229A] *Misisti spiritum tuum et cooperuit eos mare,*   ⚠ NOT in Clementine verbatim — CHECK
+[0229A] *usque ad*   ✓ 1Cor 16:8, 1Mcc 1:3, 1Mcc 2:38, …
+[0229A] VERS. 11.-- *Quis similis tui,*   ✓ Dt 33:29, Ex 15:11
+[0229B] *Ego dixi: Dii estis.*   ✓ Jo 10:34, Ps 81:6
+[0229B] *Deus stetit in synagoga deorum.*   ✓ Ps 81:1
+[0229B] *similes ei erimus,*   ✓ 1Jo 3:2
+[0229C] VERS. 12, 13.-- *Extendisti,*   — single word, check in place
+[0229C] *Extendisti dexteram tuam et devoravit eos terra,*   ⚠ NOT in Clementine verbatim — CHECK
+[0229C] *Crucifige, crucifige eum [n: (Joan. XIX)]*   ✓ Jo 19:6, Lc 23:21
+[0229C] *extendit dexteram, et devoravit eos terra.*   ⚠ NOT in Clementine verbatim — CHECK
+[0229D] VERS. 14, 15.-- *Ascenderunt,*   — single word, check in place
+[0230A] *cadentes poculo;*   ⚠ NOT in Clementine verbatim — CHECK
+[0230A] *terrenus,*   — single word, check in place
+[0230A] *mutabiles*   — single word, check in place
+[0230A] *mobiles,*   — single word, check in place
+[0230B] *Tota die expandi manus meas ad populum non credentem,*   ✓ Rom 10:21
+[0230B] *Mihi autem absit gloriari, nisi in cruce Domini nostri Jesu Christi [n: (Gal. VI)]*   ✓ Gal 6:14
+[0230B] VERS. 15, 16.-- *Fiant immobiles quasi lapis,*   ✓ Ex 15:16
+[0230C] *donec pertranseat populus tuus.*   ✓ Ex 15:16
+[0230C] *Caecitas enim ex parte contigit in Israel, donec plenitudo gentium intraret, et tunc Israel salvus fieret;*   ⚠ NOT in Clementine verbatim — CHECK
+[0230C] *Potens est enim Deus de lapidibus istis suscitare filios Abrahae.*   ⚠ NOT in Clementine verbatim — CHECK
+[0230D] *Nonne hic ipse Dominus Deus tuus, qui fecit et creavit te, et acquisivit te? [n: (Deut. XXXII.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0230D] *Pretio empti estis.*   ✓ 1Cor 7:23
+[0230D] *Peccatis vestris venundati estis, et pro iniquitatibus vestris dimisi matrem vestram [n: (Isa. L)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0231B] VERS. 17.-- *Introduces eos et plantabis,*   ✓ Ex 15:17
+[0231B] *Vineam de Aegypto transtulisti, ejecisti gentes et plantasti eam: dux itineris fuisti in conspectu ejus, et plantasti radices ejus, et replevit terram. Operuit montes umbra ejus, et arbusta ejus cedros Dei.*   ⚠ NOT in Clementine verbatim — CHECK
+[0231C] *Nam omnis arbor quae non facit fructum bonum excidetur et in ignem mittetur [n: (Matth. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0231C] *Firmissimo habitaculo tuo,*   ✓ 2Par 6:33, Ex 15:17
+[0231D] *Alii laboraverunt, et vos in labores eorum introistis.*   ✓ Jo 4:38
+[0231D] *Sanctuarium tuum,*   ✓ Dn 9:17, Ex 15:17, Ps 73:7
+[0231D] *Sanctimonium tuum, Domine,*   ⚠ NOT in Clementine verbatim — CHECK
+[0231D] *Dei agricultura, Dei aedificatio estis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0231D] *Sapientia aedificavit sibi domum,*   ✓ Pr 9:1
+[0232A] VERS. 18.-- *Dominus regnabit,*   ✓ Ex 15:18, Ps 9:37
+[0232A] *Domine, qui regnas in saeculum et in saeculum et adhuc.*   ⚠ NOT in Clementine verbatim — CHECK
+[0232A] *in saeculum,*   ✓ 1Mcc 3:7, 1Mcc 4:24, 2Cor 9:9, …
+[0232A] *et adhuc,*   ✓ 1Cor 12:31, 1Mcc 4:19, 1Mcc 5:14, …
+[0232B] *et adhuc;*   ✓ 1Cor 12:31, 1Mcc 4:19, 1Mcc 5:14, …
+[0232B] *et adhuc.*   ✓ 1Cor 12:31, 1Mcc 4:19, 1Mcc 5:14, …
+[0232B] VERS. 19.-- *Filii autem Israel,*   ✓ 1Par 2:1, 1Par 27:1, Dt 10:6, …
+[0232B] *filius es Israel, potes ambulare per siccum in medio maris.*   ⚠ NOT in Clementine verbatim — CHECK
+[0232C] *Cantemus Domino,*   ✓ Ex 15:1, Ex 15:21, Jdt 16:15
+[0232C] VERS. 20, 21.-- *Tympanum.*   — single word, check in place
+[0232D] *Laudate eum in tympano et choro,*   ✓ Ps 150:4
+[0232D] VERS. 22.-- *Tulit autem Moses Israel,*   ⚠ NOT in Clementine verbatim — CHECK
+[0233A] VERS. 23, 24.-- *Et venerunt,*   ✓ 1Mcc 2:15, 1Mcc 3:40, 1Mcc 3:41, …
+[0233A] *aquam*   — single word, check in place
+[0233A] *amaram,*   — single word, check in place
+[0233A] *ostendit illi lignum Deus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0233B] *Sapientia lignum vitae est in omnibus amplectentibus eam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0233C] *Habemus thesaurum istum in vasis fictilibus [n: (II Cor. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0233C] *Littera occidit,*   ⚠ NOT in Clementine verbatim — CHECK
+[0233D] VERS. 25-27.-- *Qui ostendit ei,*   ✓ Ex 15:25
+[0233D] *ostendit ei,*   ✓ Ex 15:25, Mt 4:8
+[0233D] *Ibi constituit ei praecepta. [n: (ORIG., hom. 7 in Exod.)]*   ✓ Ex 15:25
+[0234A] *posuit illi Deus justitias et judicia, ibi tentabat eum dicens: Si audieris vocem Domini Dei tui.*   ⚠ NOT in Clementine verbatim — CHECK
+[0234A] *Dedi vobis praecepta et justificationes non bonas in quibus non vivent [n: (Ezech. XX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[0234B] *Cunctum languorem quem posui in Aegypto, non inducam super te.*   ✓ Ex 15:26
+[0234C] *Venerunt autem,*   ✓ 1Par 12:16, 2Rg 12:17, Act 11:12, …
+[0234D] *nisi crediderint, non intelligent [n: (Isa. VII)]*   ⚠ NOT in Clementine verbatim — CHECK

@@ -1,0 +1,46 @@
+{
+ "patches": [
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": null,
+   "find": "<div1>\n        <head>PROTHEMATA IN EXODUM.</head>",
+   "replace": "<div1>\n        <head type=\"book-title\">Hebraice VEELLE SEMOTH (<foreign xml:lang=\"hebrew\">ואלה שמות</foreign>), id est, HAEC SUNT NOMINA; Graece ΕΞΟΔΟΣ, id est EXITUS.</head>\n        <head>PROTHEMATA IN EXODUM.</head>",
+   "why": "STRUCTURAL RECOVERY, read at the plate 2026-09-08, two witnesses. Migne sets a display line under the LIBER EXODUS banner giving the book's Hebrew and Greek names and Corpus Corporum drops the whole line; our TEI body opened straight at PROTHEMATA. This is the LAST of the five Glossa Pentateuch book-title lines (8950 Genesis, 8945 Deuteronomy, 8963 Numbers, 8961 Leviticus already recovered and live), and it closes that class. Witnesses: Gallica ark:/12148/bpt6k5505319w f92 and the archive copy patrologiaecurs04migngoog p.97, printed corners read FIRST on both and both give 183/184, confirming the Gallica map f = (column + 1) / 2 and the archive map p = (column + 11) / 2 at this leaf. Hebrew read letter by letter right to left at ~7x from the native Gallica crop: vav-aleph-lamed-he, shin-mem-vav-tav = ואלה שמות, unpointed; MIGNE'S OWN PRINTED TRANSLITERATION VEELLE SEMOTH is the on-plate control and agrees, as does MT Exod 1:1 וְאֵלֶּה שְׁמוֹת. ⚑ THE TWO COPIES DISAGREE ON A POINT: the archive copy shows a dot above the right arm of the shin (a shin-dot) that Gallica's cleaner impression does not print. Gallica is the better witness for non-Latin type by construction (data/briefs/PL113-WITNESS-ENCODING.md: the archive copy is 1-bit jbig2, a symbol-substitution codec), so the word is encoded unpointed. Greek ΕΞΟΔΟΣ is set in capitals on the plate, unaccented, and is transcribed as it stands; AE for the plate's Æ per the corpus convention (Graece, HAEC). Small caps rendered as caps, as in 8963. Declares col null because the banner precedes this file's first column mark, which patch-audit verifies positionally."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0183B",
+   "find": "<hi>Veelle Semoth</hi> ( ) Hebraice:",
+   "replace": "<hi>Veelle Semoth</hi> (<foreign xml:lang=\"hebrew\">ואלה שמות</foreign>) Hebraice:",
+   "why": "HEBREW RECOVERY (hebrew-recovery.md). Corpus Corporum drops Migne's inline Hebrew type and leaves a scar; the Hebrew is restored as <foreign xml:lang=\"hebrew\">. ואלה שמות at Exod 1:1, read on Gallica ark:/12148/bpt6k5505319w f92. Bede's gloss repeats the book's Hebrew name three lines under the banner, in a heavier Hebrew face; read on the same leaf as the banner and giving the same four-plus-four letters. Migne's own transliteration Veelle Semoth is the on-plate control."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0193A",
+   "find": "<hi>ehieh</hi> ( ),",
+   "replace": "<hi>ehieh</hi> (<foreign xml:lang=\"hebrew\">אהיה</foreign>),",
+   "why": "HEBREW RECOVERY (hebrew-recovery.md). Corpus Corporum drops Migne's inline Hebrew type and leaves a scar; the Hebrew is restored as <foreign xml:lang=\"hebrew\">. אהיה at Exod 3:14, read on Gallica ark:/12148/bpt6k5505319w f97. Jerome ad Marcellam on the ten names of God. Read right to left aleph-he-yod-he at ~8x from the native crop; unpointed, MT has אֶהְיֶה. Migne's transliteration ehieh is the on-plate control. Printed corners 193/194 read first."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0219A",
+   "find": "<hi>Pesach</hi>  , Graece",
+   "replace": "<hi>Pesach</hi> <foreign xml:lang=\"hebrew\">פסח</foreign>, Graece",
+   "why": "HEBREW RECOVERY (hebrew-recovery.md). Corpus Corporum drops Migne's inline Hebrew type and leaves a scar; the Hebrew is restored as <foreign xml:lang=\"hebrew\">. פסח at Exod 12:11, read on Gallica ark:/12148/bpt6k5505319w f110. ⚑ NOT a ( ) scar — this one left only a DOUBLE SPACE before the comma, the other artifact hebrew-recovery.md names, and a sweep for ( ) alone would have missed it. Read pe-samek-het at ~9x; unpointed, MT has פֶּסַח. Transliteration Pesach is the on-plate control. Corners 219/220."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0266A",
+   "find": "Aaron\n( ) <hi>mons fortitudinis,</hi> Hur ( ) interpretatur",
+   "replace": "Aaron\n(<foreign xml:lang=\"hebrew\">אהרן</foreign>) <hi>mons fortitudinis,</hi> Hur (<foreign xml:lang=\"hebrew\">חור</foreign>) interpretatur",
+   "why": "HEBREW RECOVERY (hebrew-recovery.md). Corpus Corporum drops Migne's inline Hebrew type and leaves a scar; the Hebrew is restored as <foreign xml:lang=\"hebrew\">. אהרן / חור at Exod 17:10, read on Gallica ark:/12148/bpt6k5505319w f133. TWO lacunae in one line, from Bede De tabernaculo I.1. Aaron = aleph-he-resh-final nun (the descender is unmistakable at 5x). Hur = het-vav-resh: the first letter's left leg joins the roof, which is what separates ח from ה, and BOTH controls agree — Migne's own Hur and MT Exod 17:10 חוּר. That letter is exactly the class the witness brief says a single copy must not settle, so it rests on the two controls, not on the impression alone. Corners 265/266 read first."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0296A",
+   "find": "Graece,   veelle semoth Hebraice, exitus",
+   "replace": "Graece, <foreign xml:lang=\"hebrew\">ואלה שמות</foreign> veelle semoth Hebraice, exitus",
+   "why": "HEBREW RECOVERY (hebrew-recovery.md). Corpus Corporum drops Migne's inline Hebrew type and leaves a scar; the Hebrew is restored as <foreign xml:lang=\"hebrew\">. ואלה שמות at Exod 1:1, read on Gallica ark:/12148/bpt6k5505319w f148. ⚑ A TRIPLE-SPACE scar, again not a ( ). The work's closing recapitulation names the book in all three languages, mirroring the banner at 0183A. Read on f148, the leaf where Exodus ends and LIBER LEVITICUS begins — the same leaf already read for 8961's book-title line — corners 295/296. Same word as the banner and the same on-plate transliteration control."
+  }
+ ]
+}

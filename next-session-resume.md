@@ -1,5 +1,77 @@
 # Next session — resume note
 
+## ▶▶▶▶▶ START HERE 2026-09-08 — 8949 *LIBER EXODUS* PREPARED · NOT LAUNCHED · HARD STOP OWED
+
+Nothing is owed on the shipped books: local `master` was clean and level with `origin/master`
+at `c6e1b09` when this session began, and 8957 Job is live.
+
+### 1. ✅ 8949 *LIBER EXODUS* — PREPARED THIS SESSION, READY TO TRANSLATE
+
+**44 chunks, 46,353 words, 450 column marks, 796 notes, validation OK.** PL 113 cols
+**0183A–0296C**. Lemma inventory built (**1,523 spans**: 936 ✓ / 2 ⚑ / 433 ⚠ / 152 single ·
+1 open-ended) and split into **nine stint briefs**
+(`data/briefs/8949-lemmata-{0000,0005,…,0040}.txt`), chunk ranges 0-4 / 5-9 / 10-14 / 15-19 /
+20-24 / 25-29 / 30-34 / 35-39 / 40-43 — every chunk in exactly one range, all 1,523 spans
+allocated, the sum assertion green.
+
+✅ **Plate spot check DONE and CLEAN — coverage `spot`, recorded in both ledgers.** SIX leaves
+read on Gallica `bpt6k5505319w`, corners read FIRST on every one: **f92** (183/184, the
+work-division page, also read on the archive copy p.97 as a second witness), **f96** (191/192),
+**f97** (193/194), **f110** (219/220), **f133** (265/266), **f148** (295/296, where Exodus ends
+and LIBER LEVITICUS begins mid-page). **Checked zero at the foot on all six, both layers.** Not
+inherited from 8961/8957/8963. ⚑ The six leaves were not a random sample — each is a page this
+book's own Hebrew lacunae sent us to, so the foot check rode along with the recovery for free.
+
+### 2. ⭐⭐⭐ THE FINDING OF THE PREP: THE ( ) SWEEP IS NOT SUFFICIENT, AND THIS BOOK PROVES IT
+
+`hebrew-recovery.md` names two scars for dropped Hebrew — an empty `( )` and a doubled comma.
+**Exodus has SEVEN sites and only four left a `( )`.** The other three left nothing a `( )` grep
+can see: a **double space** before a comma (0219A, *Pesach* פסח), a **triple space** mid-sentence
+(0296A, the closing recapitulation's ואלה שמות), and the **book-title banner**, which left no scar
+at all because Corpus Corporum dropped the whole line. **A work whose scars are all whitespace
+passes the documented sweep in silence.** Grep for runs of two or more spaces as well, and read
+the head of the book against the plate. All seven are now recovered and in
+`data/tei-patches/8949.json`; provenance in `data/hebrew-patches/8949.json`.
+
+⭐⭐ **THE PENTATEUCH BOOK-TITLE CLASS IS CLOSED.** `Hebraice VEELLE SEMOTH (ואלה שמות), id est,
+HAEC SUNT NOMINA; Graece ΕΞΟΔΟΣ, id est EXITUS.` recovered as `<head type="book-title">` — the
+fifth and last of the five (8950, 8945, 8963, 8961 already live). Two witnesses; Migne's own
+transliteration is the on-plate control. ⚑ **The two copies disagree on a shin-dot** the archive
+prints and Gallica does not — jbig2 again, opposite direction to the 8957 finding — so the word
+is encoded unpointed on Gallica's authority.
+
+⛔ **PATCH-AUDIT WAS DRIFTING ITS COLUMNS AND A SHIPPED WORK CARRIED THE MARK OF IT.**
+`scripts/patch-audit.mjs` holds `<pb>` positions as byte offsets into the working text but rebuilt
+them **only** when a patch's find or replace contained a `<pb>`. Any patch that changes length —
+every insertion — slid every later offset forward. Caught here because patch #6 was reported in
+0296B when it plainly stands in 0296A. **Fixed: rebuild after every apply.** Re-auditing the
+shipped books then failed **8956 Isaiah #23**, whose declared `1297A` is really **1296D** — and
+its `why` had been written to explain the tool's artifact (*"the edit resolves to 1297A once prior
+patches are applied"*) against the stint's own plate read of 1296D–1297A. Column label corrected,
+note rewritten; no Latin, no English and no shipped page changes. All six Glossa books now audit
+0 failed / 0 warnings.
+
+⚑ **The book's ONE guillemet is Migne's own.** Exactly one `«` in 46,353 words (0192A, an
+unclosed quotation of John 1:27), no `»` anywhere — read at f96 and printed exactly as our text
+has it. Genesis, the neighbouring book of the same commentary, sets 1,207 lemmata in guillemets;
+**Exodus sets every lemma in italic.** The statement is in the head of all nine stint briefs, with
+the Hebrew instruction, so nine stints do not each rediscover it.
+
+### 3. ⛔ OWED FROM WILSON BEFORE ANY AGENT RUNS — the hard stop
+
+**8949 Exodus · 44 chunks · 46,353 words · nine stints at THREE concurrent (3 rounds).**
+Estimated burn at the runbook's own inline rate (~73K/chunk, step 4a″ — every stint reads its own
+plates): **≈3.2M translation + ~0.4M blind polarity read + ~0.25M build/index = ≈3.9M.**
+For calibration, not to make the ask easier: 8957 Job came in at **55K/chunk** against the same
+quote, so the likely figure is **≈3.1M**. **Which model, and go?**
+
+### 4. Queue after Exodus
+`/glossa` closes at **58 of 58**. Then the PL 113 leftovers (8971/8972/8973 prologues, 8974
+*Additiones*, 8975 *Ad lectorem*) and **PL 122 Eriugena** — `data/briefs/PL122-WITNESSES.md`
+first, and the *Variae lectiones* apparatus still needs its own encoding ruling from Wilson.
+
+---
+
 ## ▶▶▶▶▶ START HERE 2026-09-07 (night) — 8957 *LIBER JOB* IS LIVE · NOTHING IS OWED
 
 ✅ **PUSHED AND DEPLOYED 2026-09-07** (Wilson's OK, both actions). `origin/master` at `3bf10aa`,
