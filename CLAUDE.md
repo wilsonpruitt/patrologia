@@ -161,20 +161,27 @@ cols 563/564). **PL 114 `patrologiaecurs06saingoog`: PDF page = (column + 11) / 
 ⚑ **The check costs one page render.** Render one page, read the corner numbers, confirm. Never
 carry a map between a leaf-numbered source and a PDF without it.
 
-### ⭐ THE ASTERISK LAYER — Migne's SECOND foot-of-page apparatus (ruled by Wilson, 2026-08-24)
+### ⭐ THE ASTERISK LAYER — Migne's SECOND foot-of-page apparatus (ruled by Wilson, 2026-08-24; extended 2026-09-08)
 
-Beside the numbered conjectures, Migne prints a second foot-of-page layer **keyed by a raised
-asterisk**: editorial cross-references rather than textual conjectures. **Corpus Corporum carries it
-no more than it carries the numbered one.** Worked case, PL 114 p. 37 — the preface of *Prophetia
+Beside the numbered conjectures, Migne prints a second foot-of-page layer of **editorial
+cross-references rather than textual conjectures**, keyed not by number but by whatever mark the
+printer's footnote sequence is on — a raised **asterisk** in the worked case below, a raised
+**LETTER** on 8949 Exodus (PL 113 f128, a note on the division of the Decalogue: ruled 2026-09-08,
+full case in `data/briefs/8949-ADJUDICATIONS.md` §4). **The mark is not the class — the CONTENT
+is: a sentence that says something, as opposed to a bare conjecture.** Print convention runs
+asterisk, dagger, double-dagger, then letters, as one footnote family, so a letter key here is the
+same apparatus continuing, not a third layer. **Corpus Corporum carries none of it, whatever the
+mark.** Worked case, PL 114 p. 37 — the preface of *Prophetia
 Baruch*, a work we had already shipped, prints *in Vulgata editione\** and keys it to
 *\* Vulgata editio, de qua fit mentio in prologo super Baruch, exponitur in prologo super
 Ezechielem. Caetera plana sunt.*
 
 **The ruling: recover it with the numbered notes at chunking, and give it BOTH columns.**
 
-- **Latin:** `[cn: * | …]`, injected exactly where Migne sets the asterisk. Same machinery, same
-  file (`data/plate-notes/<idno>.tsv`), key `*` instead of a number; it takes no part in the numeric
-  sequence check, because it belongs to no sequence.
+- **Latin:** `[cn: * | …]`, injected exactly where Migne sets the mark — `*` for an asterisk,
+  the printed letter itself (`ª`, `b`, …) for a letter key. Same machinery, same file
+  (`data/plate-notes/<idno>.tsv`); the key column carries whatever Migne prints. None of these
+  keys takes part in the NUMBERED sequence check, because none belongs to that sequence.
 - **English:** a **translated `[nt: …]`** at the same point. ⚑ **This is where it differs from the
   numbered layer, and the reason is the content:** *Forte earum* is a reading, and a reading needs no
   translation — but these notes are **sentences that say something**, and leaving one Latin-only

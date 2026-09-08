@@ -9,7 +9,7 @@
   "volume": 113,
   "colFirst": "0183A",
   "colLast": "0296C",
-  "sourceWords": 46354,
+  "sourceWords": 46355,
   "sourceNotes": 796,
   "sourcePbMarks": 450,
   "chunkCount": 44,
@@ -600,7 +600,7 @@
       "heads": [
         "CAPUT XX. (cont.)"
       ],
-      "words": 90,
+      "words": 91,
       "noteCount": 1,
       "incipit": "VERS. 25, 26.-- De sectis lapidibus. [n: (ISID.)]"
     },
@@ -946,5 +946,14 @@
       "noteCount": 11,
       "incipit": "VERS. 1.-- Locutusque est Dominus ad Moysen dicens:"
     }
-  ]
+  ],
+  "plateNotes": {
+    "source": "data/plate-notes/8949.tsv",
+    "rows": 1,
+    "injected": 1,
+    "trimmedAnchor": 0,
+    "headAnchored": 0,
+    "skipped": 0,
+    "sequenceOk": true
+  }
 }

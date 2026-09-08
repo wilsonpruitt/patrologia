@@ -251,6 +251,13 @@
    "find": "annuns erant",
    "replace": "annulis erant",
    "why": "OUR DIGITIZATION, not Migne. Opened by stint 0040-0043 as PROVISIONAL because Gallica is under-inked at the letter, HELD BACK by the orchestrator at first merge for want of a confirming read, then CONFIRMED at the plate 2026-09-08: Gallica f148 (printed corners 295/296) at 14x on the word shows a-n-n-u-l-i-s — the l's ascender is under-inked at the top but present, and the i carries its dot. ⭐ THE HOLD WAS RIGHT AND SO WAS LIFTING IT: a blind polarity reader independently flagged this as the one site in its range where our English silently repairs Migne ('rings' against the twin's non-word `annuns`) — exactly the inconsistency the hold created. Ex 26:29's rings for the bars are the sense; the English is now correct against the patched Latin instead of silently ahead of it."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0256C",
+   "find": "faciunt in unitate fidei et concordia charitatis.</p>",
+   "replace": "faciunt in unitate fidei et concordia charitatis ª.</p>",
+   "why": "STRUCTURAL RECOVERY — Migne's raised-letter foot-note key, dropped by Corpus Corporum along with the note it points to (data/plate-reads.json 8949 read entry for f128; full case in data/briefs/8949-ADJUDICATIONS.md section 4, ruled by Wilson 2026-09-08: the raised letter joins the ASTERISK layer per CLAUDE.md, since the note is editorial prose, not a textual conjecture). Read at the plate, Gallica f128 (printed corners 255/256), foot of the right column, band D: 'faciunt in unitate fidei et concordia charitatis a.' with the note beginning 'a In praeceptis decalogi enumerandis Origenes et Augustinus...' at the foot. UNLIKE 8950 GENESIS, our TEI here carries NEITHER the note NOR its anchor glyph -- confirmed zero superscript-letter characters anywhere in the 46,354-word source, so this book's class is 'anchor also dropped', not '8950's anchor survives, note does not'. The letter is restored here so inject-plate-notes.mjs can place [cn: a | ...] immediately after it, exactly as it does for 8950's surviving anchors -- this patch is what makes this book's letter layer match that machinery instead of needing a bespoke path. Sequence restarts on each page; single note here, so no sequence to break."
   }
  ]
 }

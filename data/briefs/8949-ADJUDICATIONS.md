@@ -43,7 +43,7 @@ Kept because each is a class that will recur in this book:
 - `(ORIG.) hom. 4 in Exod.)` — the unbalanced parenthesis is **Migne's own**; a TEI patch had
   been drafted for it and was withdrawn.
 
-## 4. ⛔⛔ OPEN — PL 113 EXODUS HAS A FOOT-OF-PAGE NOTE LAYER, AND WE CARRY NONE OF IT
+## 4. ✅ CLOSED 2026-09-08 — PL 113 EXODUS' FOOT-OF-PAGE NOTE, RECOVERED
 
 Raised by stint 0025–0029; **verified independently at the plate by the orchestrator before it
 was written into any brief** (the 8957 rule: a stint's self-report must be measured, not
@@ -83,6 +83,28 @@ an injection before chunking is erased silently), and re-verify. The English alr
 ⛔ **Do NOT let this block the translation run.** It is additive: it inserts notes, it does not
 change a word of the text or of the English. But the work must not ship claiming a checked-zero
 foot, and `preflight` should be run with the corrected coverage in place.
+
+
+### ✅ RULING AND RECOVERY, 2026-09-08
+
+**Wilson ruled: fold the raised-letter key into the asterisk layer** — `[cn: a | …]` on the
+Latin plus a translated `[nt: …]` on the English, per the recommendation above. CLAUDE.md's
+asterisk-layer section is generalised accordingly: the layer is defined by CONTENT (an editorial
+sentence, not a bare conjecture), not by which mark the printer happened to use for it.
+
+**Full 57-leaf sweep run, f92–f148, every leaf reviewed at the foot, both columns.** One note
+found — the f128 note transcribed above, and nothing else. f129 confirmed clean at its head; the
+note does not run over.
+
+⚑ **8949's TEI carries neither the note nor its anchor glyph** — 0 superscript-letter characters
+anywhere in the 46,354-word source, unlike 8950 Genesis where the anchor survived. The glyph was
+restored by TEI patch so `inject-plate-notes.mjs` places the note through the same machinery as
+every other letter-keyed work, rather than needing a bespoke path.
+
+**Recovered:** `data/plate-notes/8949.tsv` (transcription) → `data/tei-patches/8949.json` (glyph
+restoration) → `inject-plate-notes.mjs` (placement, 1 injected / 0 skipped) → `[nt:]` translated
+into `src/english/8949/0027.md`. `verify-english`, `patch-audit` (37/0/0) and `plate-gate` all
+pass. Coverage corrected `partial` → **`full`**, 1 note recovered.
 
 ## 5. ⚠ NOT "TWO PRINTINGS" — the 0249A disagreement is UNRESOLVED, and the likelier reading is jbig2
 
