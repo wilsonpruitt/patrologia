@@ -168,3 +168,24 @@ Appended as stints report. These are facts about THIS tome and THIS scan, paid f
   both are standard medieval orthographic alternations (`di-`/`de-`, `sc`→`c`) that Pattern 9
   exempts. At 0184B **Migne had already flagged the place himself** with a bracketed
   `[devicto eo]` — never stack ours on top of his own mark.
+
+### From stint 0005–0009 — ⭐ FOUR APPARENT DEFECTS OF MIGNE'S WERE OURS
+
+That stint fired **zero** `[sic:]` and that is its finding, not a gap. Four readings looked like
+Migne's broken type from our twin alone — `guam` for *quam*, a stray point in `apud. Deum`,
+`reunquenqus` for *relinquendus*, `vasa.` for *vasa,* — and **all four were Corpus Corporum's
+digitization**, not the plate. They are filed as pending TEI patches; the English renders the
+plate. **Assume nothing from the twin. `[sic:]` is a public accusation against Migne and this
+book has so far produced none.**
+
+- ⛔ **A page proved under-inked at ONE site is suspect at EVERY site on it.** At 0198D Gallica
+  shows a single point where our twin has a colon — the 8957 @0758A shape exactly — and the
+  archive prints a clear colon. That same Gallica page is the one `relinquendus` proved
+  under-inked. **The patch was refused on purpose.** When you catch a page under-inking, go back
+  and re-weigh every call you made on it.
+- ⚑ **Small caps decide whose a defect is.** `Vers. 9.` at 0202D is OURS (Migne sets small caps
+  everywhere) and is patched; `VERS 20.` at 0201C, missing its period, is HIS and must never be
+  patched. A Pattern 9 normalization would have produced the right English for the wrong reason
+  and left the Latin permanently wrong.
+- ⚑ **Migne often discloses a divergence himself** — *Alia littera* (0197A), an `LXX.` label
+  (0201B), his own abridging *etc.* **Take no marker where he has already marked it.**

@@ -1,0 +1,73 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0005-0009 (bands 0193C-0205C). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, User-Agent header required; f<N>.highres returns 403). Whole pages fetched at /full/full/ and cropped locally with PIL, never by IIIF region; no crop crossed the centre gutter (located per page by ink-column profile, x approx 940-990).",
+  "page_map": "Gallica leaf f = (column + 1) / 2. CONFIRMED on all seven leaves against the printed corner numbers, read FIRST on every page before any text.",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2, rendered with pdftoppm -r 400. CONSULTED, and decisive three times (0195A apud Deum, 0198A relinquendus, 0204C vasa,). Also used to REFUSE a patch at 0198D. Corner numbers read first on each of the three pages opened.",
+  "reads": [
+    {
+      "from": "0193A",
+      "to": "0194D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f97",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 193, right 194, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Whole page at native resolution, read in three vertical slices per column at 2.3x LANCZOS.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers (no numbered Forte notes, no asterisk or letter layer). Collated word by word against chunk 0005 over 0193C-0194D; our TEI agrees with the plate throughout. Confirmed as printed: the citation 'Joan. IV' for the serpent verse (John 3:14) and its wording 'Sicut exaltavit Moses serpentem in deserto'; 'VERS. 6, 8.-- . . . Mitte manum tuam' with the ellipsis; 'Aquas, quas vidisti, populi sunt et gentes' in the accusative; 'non sum eloquens ante hesternum neque ante nudiustertianum diem'. NOTE: this range was already read during prep; this read is independent and concurs."
+    },
+    {
+      "from": "0195A",
+      "to": "0196D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f98",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 195, right 196. Whole page native, three slices per column at 2.3-2.4x; targeted crops at 6-9x for the letter-level calls. Second witness: archive PDF p. 103, corner numbers 195/196 read first.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. FOUR FINDINGS. (1) 0195A: the plate reads 'multo amplius QUAM apud nos pendens'; our TEI reads 'guam', a non-word. A [sic:] against Migne was WITHDRAWN and a TEI patch filed. (2) 0195A: our TEI reads 'in principio apud. Deum'; the Gallica impression carries a faint low speck between the words, and the ARCHIVE COPY at p. 103 prints 'apud Deum' with nothing between them. The point is ours; [sic:] withdrawn, patch filed. (3) 0195A: 'Ut jumentum ACTUS sum apud te' CONFIRMED as Migne's italic against the Clementine's 'factus' -- the [var:] site. (4) 0196A and 0196C CONFIRMED as printed: 'Sed nunc vade tu, et ego aperiam os tuum et instruam te quae locuturus es' and 'Vade, perge in Aegyptum' (twice), both [var:] sites. Also confirmed: 'Dilata os tuum, et ego implebo illud' at 0195B, 'et ego adimplebo illud' at 0196A and 'et implebo illud' at 0196B -- three correct quotations of Ps 80:11 that make the Aperi at 0203A visible as a departure; the unitalicized 'Ne recipias auditum vanum' at 0195C beside the italic 'Non recipies auditum vanum' at 0195D; 'Ego indurabo cor ejus.' with its note set after the full stop."
+    },
+    {
+      "from": "0197A",
+      "to": "0198D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f99",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 197, right 198. Whole page native, three slices per column at 2.3x; 9-12x crops for two letter-level calls. Second witness: archive PDF p. 104, corner numbers 197/198 read first.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. TWO FINDINGS, going opposite ways. (1) 0198A: our TEI reads 'reunquenqus est mundus', a flat non-word. The Gallica impression at this point is WORN -- a broken long word whose l-ascender and d have failed -- and the ARCHIVE COPY at p. 104 prints 'relinquendus' cleanly. The strongest-looking [sic:] of the stint was WITHDRAWN; the English renders the plate and a patch is filed. (2) 0198D: Gallica shows a SINGLE baseline point in 'proficiscantur, dicens . Ne longe abeatis' where our TEI has a colon -- the 8957 @0758A shape exactly. The ARCHIVE COPY prints an unambiguous COLON. Because this same Gallica page is the one proved under-inked by finding (1), a dropped upper dot is the likelier explanation: NO PATCH, our colon stands. Recorded so it is not re-opened from the Gallica image alone. Also examined: the note at 0197D renders 'Matih.' on Gallica for 'Matth.', a member of the attested Gallica worn-sort class -- no action, note contents are verbatim. Migne's figure 3 renders as a 5 throughout this fount ('VERS. 27-51', 'hom. 52', 'hom. 5 in Exod.'): systematic, so a rendering artifact, not a reading."
+    },
+    {
+      "from": "0199A",
+      "to": "0200D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f100",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 199, right 200, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Whole page native, three slices per column at 2.3x.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers, and CHECKED ZERO for divergence: collated word by word against chunk 0007 and our TEI agrees with the plate at every point across both columns. Confirmed as printed: 'Ego sum via, veritas et vita' (Jn 14:6 without the second et); 'pervenerunt Ethan, qui locus etiam Mara vocatur'; 'ubi erectum est et tabernaculum'; 'non enim omnes qui ex Israel, hi sunt Israelitae'; the sense-tag sequence 'Mystice.' at 0200A and '(ORIG. Hom. 3.) Allegorice.' at 0200B, with Allegorice italic and the source roman; 'Cui resistite fortes in fide: ut cito conteratur Satanas sub pedibus nostris' cited I Petr. V; 'Resistite diabolo et fugiet a vobis (Jac. III)'; 'tanto Pharao infirmius'. A checked zero over two full columns."
+    },
+    {
+      "from": "0201A",
+      "to": "0202D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f101",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 201, right 202, running head '...A. -- LIB. EXOD.' Whole page native, three slices per column at 2.3x.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. TWO FINDINGS. (1) 0202B: 'Ex quibus Christus secundum carnem natus est, qui est Deus benedictus in saecula' CONFIRMED as printed -- Migne genuinely omits Rom 9:5's 'super omnia' two lines before Gregory's gloss insists on it. The [var:] site, and the most consequential of the stint. (2) 0202D: the plate sets 'VERS. 9.' in the SAME SMALL CAPS as every other verse address, where our TEI has lower-case 'Vers. 9.'. The case is the digitization's, not Migne's; patch filed. A Pattern 9 normalization would have produced the right English for the wrong reason. Also confirmed as MIGNE'S OWN and left alone: 'VERS 20.--' at 0201C with no period after VERS; the paragraph at 0201D ending 'significat futuros' with no terminal stop; the stray comma in 'ut quisque, de tribu sua uxorem acciperet'. Confirmed as printed: 'LXX. Ecce ego gracili voce sum et quomodo exaudiet me Pharao' with the LXX label roman before the italic lemma (so the divergence is Migne's own disclosure and takes no marker); 'Applica illum ad deos'; 'Deus stetit in synagoga deorum'; 'Constitui te deum Pharaonis'; the note 'AUG. Quaest. 17 in Exod., tom III.' with no period after tom. Gallica's italic 'a' in 'pater excelsus' at 0201C reads as 'u' -- inking, not type, no action."
+    },
+    {
+      "from": "0203A",
+      "to": "0204D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f102",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 203, right 204. Whole page native, three slices per column at 2.3x; a 12x crop for the punctuation call. Second witness: archive PDF p. 107, corner numbers 203/204 read first.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. THREE FINDINGS. (1) 0203A: 'psal. LXXX : Aperi os tuum et implebo illud' CONFIRMED as printed, against Ps 80:11's 'Dilata' -- and against this same commentary's three correct quotations of the verse on f98. The [var:] site. (2) 0203B: 'Et Gen. III : Serpens erat prudentior cunctis animalibus' CONFIRMED as printed, against Gn 3:1's 'callidior cunctis animantibus terrae', with the gloss 'Serpens vero pro sapientia vel prudentia poni solet' standing immediately above it. The [var:] site. (3) 0204C: our TEI reads 'ad diripienda vasa. et liberandas animas'. At 12x the Gallica mark carries a descending tail, unlike the true full stops elsewhere on the leaf, and the ARCHIVE COPY at p. 107 prints an unambiguous 'vasa, et liberandas'. BOTH WITNESSES AGREE ON A COMMA: the period is ours, patch filed. Also confirmed as printed: 'Aemulamini spiritualia dona magis autem ut prophetetis' with the added dona; 'usque ad : Ero mors tua, o mors'; the Greek 'Apo tou (delta-epsilon-rho-kappa-epsilon-iota-nu) dicuntur, id est videre' at 0204A with the preposition and article in roman letters and the infinitive in Greek type; 'Cor ejus indurabitur quasi lapis'; 'Projecit Aaron virgam suam:' with the colon inside the italic."
+    },
+    {
+      "from": "0205A",
+      "to": "0206D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f103",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 205, running head 'GLOSSA ORDINARI...'. Whole page native, three slices per column at 2.3x. Columns 0206A-D fall outside this stint's text but were on the leaf and were read.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers, and CHECKED ZERO for divergence over 0205A-0205C: collated word by word against the tail of chunk 0009 and our TEI agrees with the plate throughout. Confirmed as printed: 'Omnis sanguis qui effusus est super terram, requiretur a generatione hac (Matth. XXIII)'; 'Non erunt tibi dii alii praeter me'; 'commutaverunt gloriam Dei incorruptibilis in similitudinem imaginis corruptibilis hominis' with Migne's word order against Rom 1:23; 'Et induratum est cor Pharaonis.' with its note set after the full stop; the chunk's last sentence closing 'Qui sitit, veniat ad me et bibat (Joan. VII).' immediately before the CAPUT VIII head, so the 0009/0010 chunk boundary falls on a clean division and not mid-construction."
+    }
+  ]
+}
