@@ -1,0 +1,75 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0035-0039 (bands 0276B-0288B). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF; User-Agent header required, f<N>.highres returns 403)",
+  "page_map": "Gallica leaf f = (column + 1) / 2. CONFIRMED on all seven leaves of this range by reading the printed corner numbers before any text. No quire drift.",
+  "second_witness": "archive.org patrologiaecurs04migngoog. Its OCR text layer (patrologiaecurs04migngoog_djvu.txt) was consulted across the whole range BEFORE the Gallica reads. It settled nothing on its own and it was WRONG at every one of the three letter-level sites in this range -- see _witness_finding.",
+  "_witness_finding": "THE ARCHIVE COPY REPAIRED MIGNE THREE TIMES IN THIRTEEN COLUMNS. At 0277A it prints 'Sicut tibi' where the plate sets the fused 'Sicuttibi'; at 0283C it prints 'supra' where the plate sets 'snpra'; at 0284B it prints 'usque ad' where the plate sets 'uque ad'. In all three our Corpus Corporum twin agrees with the PLATE, not with the archive. Had the archive been treated as corroboration, three genuine defects of Migne's would have been withdrawn as our own digitization noise -- the exact inverse of the 0005-0009 finding, and the jbig2 symbol-substitution mechanism of PL113-WITNESS-ENCODING.md running in the repair direction. It also produced two false alarms of its own that cost a plate check each: 'Vers. 25' for VERS. 35 and 'lib. X Moral.' for lib. I Moral., both at 0285C, both refuted at the plate.",
+  "_gallica_availability": "Leaves f138-f144 returned HTTP 404 on /full/full/ for roughly ten minutes at the start of this stint while neighbouring leaves (f100, f145) served normally; the manifest listed all seven throughout. A patient retry loop (25-40s backoff) cleared it. It is transient and leaf-scoped, not an ark problem and not purely rate limiting -- a peer stint had already fallen back to the archive PDF on the same symptom.",
+  "reads": [
+    {
+      "from": "0275A",
+      "to": "0276D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f138",
+      "source": "Gallica IIIF, /full/full/ fetched once (1893x3108) and cropped locally with PIL/LANCZOS at 2.2-4x. CALIBRATION: printed corner numbers read FIRST, before any text -- left 275, right 276, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Confirms f = (column + 1) / 2. No crop crossed the centre gutter.",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both apparatus layers (no numbered note, no asterisk, no raised letter). Col 276 collated word for word against chunk 0035. Confirmed as printed: the head 'CAPUT XXVII.'; 'VERS 1.' with NO period after VERS (Migne's own -- the archive copy prints it the same way, and it is the 0201C class: never patch it); 'Facies et altare de lignis. (BED., de Tabernac., lib. II, cap. 11, tom. II.)'; the Greek 'kreagrai' at 276C, unpointed and matching our twin; 'exstinguenda'; 'Qui etiam ferventia pietate' with a capital Q; and 'Craticulumque in modum' at 276D, where Migne's masculine/neuter form stands against the Clementine's Craticulamque (Ex 27:4) -- plate-confirmed, marker declined under Pattern 9, see cruces. 'VLRS. 3.' at 276C is a broken small-cap E in a structural label; normalized in English per Pattern 9, no marker, no patch."
+    },
+    {
+      "from": "0277A",
+      "to": "0278D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f139",
+      "source": "Gallica IIIF, /full/full/ (1864x3100), local crops at 2.2-4.5x. CALIBRATION: corner numbers read FIRST -- left 277, right 278, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both layers. DECISIVE FINDING at 0277A: Migne prints 'VERS. 8. -- Sicuttibi in monte. (BEDA, ibid.)' with Sicut and tibi FUSED into one word, unambiguously, at normal letter spacing with clear space either side. Our twin agrees; the archive copy prints them apart. The Clementine reads 'sicut tibi in monte monstratum est' (Ex 27:8), so the fusion is Migne's type, not a variant. [sic: Sicuttibi] fired. Also confirmed as printed: 'Facies et atrium' (277B); 'Argentea. (ID.) Capita non argentata, sed tota argentea'; 'in unam fidei gratiam' with the in the archive drops; 'Ipsa quoque textura ... coccoque bis tincto, et bysso retorta. Sumesque.' at 278D, which the Clementine matches word for word at Ex 28:8 apart from ac/et -- the brief's warning flag on that span explained and cleared."
+    },
+    {
+      "from": "0279A",
+      "to": "0280D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f140",
+      "source": "Gallica IIIF, /full/full/ (1876x3096), local crops at 2.2-7x. CALIBRATION: corner numbers read FIRST -- left 279, right 280, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both layers. Confirmed as printed: 'per arma justitae a dextris et a sinistris' at 0279A, where Migne sets the AE LIGATURE -- justitae for justitiae is his own contracted form, Pattern 9, and a [sic:] candidate raised from our twin alone was withdrawn on this reading (the maechaberis class, ADJUDICATIONS section 3). 'Facies et uncinos ex auro, et duas catenulas auri purissimi sibi invicem cohaerentes quas inseres uncinis' at 0279B, against the Clementine's 'catenulas ex auro purissimo' (Ex 28:14) -- plate-confirmed divergence, marker declined, see cruces. 'Portabitque Aaron nomina filiorum Israel in rationali judicii super' at 0280A."
+    },
+    {
+      "from": "0281A",
+      "to": "0282D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f141",
+      "source": "Gallica IIIF, /full/full/ (1864x3096), local crops at 2.2-4.5x. CALIBRATION: corner numbers read FIRST -- left 281, right 282, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both layers. Confirmed as printed: 'Tiara quae cidaris et mitra vocatur' at 0282A; 'VERS. 40. -- Porro filiis Aaron tunicas parabis lineas, etc. (Ibid.)' at 0282A-B, against the Clementine's 'tunicas lineas parabis' (Ex 28:40) -- a transposition only, plate-confirmed, marker declined; 'Cumque laveris patrem, etc. (ID.) Prius lavari jubentur' closing col 282."
+    },
+    {
+      "from": "0283A",
+      "to": "0284D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f142",
+      "source": "Gallica IIIF, /full/full/ (1941x3137), local crops at 2.2-5.5x. CALIBRATION: corner numbers read FIRST -- left 283, right 284, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both layers. TWO DECISIVE FINDINGS. (1) 0283C: Migne prints '(BEDA, ubi snpra, cap. 11.)' -- snpra for supra, the n unmistakable beside the u of 'ubi' on the same line. Our twin agrees; the archive prints supra. Migne's own defect. Carried verbatim, untranslated, because the run sits inside one of his citations; see cruces for why no [sic:] was stacked on it. (2) 0284B: Migne prints 'uque ad potest accipi', with the band letter B in the margin beside it -- the s of usque is simply absent. Our twin agrees; the archive prints usque. [sic: *uque ad*] fired. Also confirmed as printed: 'Non neophytum in superbiam elatus, in judicium incidat diaboli (I Tim. III)' at 0283A, with NO ne, against Clementine 1Tim 3:6 -- [var:] fired; 'Ego in patre et pater in me est: et qui videt me, videt et patrem (Joan. IV)' at 0283A, the citation itself plate-confirmed as Joan. IV for words that are John 14 -- [var:] fired; 'Superexaltat misericordia judicium (Jac. II)' at 0283B, without the Clementine's autem -- declined; 'VERS. 23. -- Sume tibi (STRAB.) smyrna Graece' at 0284D, the Greek present and matching our twin."
+    },
+    {
+      "from": "0285A",
+      "to": "0286D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f143",
+      "source": "Gallica IIIF, /full/full/ (1864x3100), local crops at 2.2-6x. CALIBRATION: corner numbers read FIRST -- left 285, right 286, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both layers. DECISIVE FINDING at 0286A: Migne prints 'q. d. Dominus illuminatio mea et salus mea quem (Psal. LXII).' -- LXII, in small caps, unambiguous. The words are Ps 26:1, and Migne's OWN next citation eleven lines below, for the second half of the same verse, is '(Psal. XXVI)'. [var:] fired: the wrong-address class with an internal control on the same column. Also confirmed as printed: 'VERS. 35.' for Faciesque thymiama and '(GREG., lib. I Moral., cap. 39, tom. I.)' at 0285C -- BOTH archive-OCR false alarms ('Vers. 25', 'lib. X') refuted, our twin right in both; 'quamvis quatuor elementa haec quatuor videant significare :' at 0285C, videant active where the sense wants videantur, and the colon Migne's -- rendered actively per Pattern 7 and logged, no marker; 'VERS. VI.' at 0286B, Migne's own Roman numeral in small caps, the only one in this range; 'de quo dicitur.' with a FULL STOP before the quotation at 0286C; and the closing 'ne caro hominis ungatur ex eo.'"
+    },
+    {
+      "from": "0287A",
+      "to": "0288D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f144",
+      "source": "Gallica IIIF, /full/full/ (1935x3134), local crops at 2.2-5x. CALIBRATION: corner numbers read FIRST -- left 287, right 288, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.'",
+      "found": "CHECKED ZERO at the foot, BOTH columns, both layers. Four [var:] sites all plate-confirmed: 'Et sedit populus comedere' at 0287A against Clementine Ex 32:6 manducare; 'Qui modica spernit, paulatim decidit.' at 0287A against Sir 19:1 'qui spernit modica paulatim decidet'; 'Spoliaverat enim eum Aaron in igno-|miniam sordis et inter hostes' broken across the 287/288 column break against Ex 32:25 'propter ignominiam sordis, et inter hostes nudum constituerat'; and at 0288B 'VERS. 35. -- Quem fecit Aaron. (AUG. quaest. 148.)' against Ex 32:35 fecerat, with 'Quam inscrutabilia enim sunt judicia ejus:' against Rom 11:33 incomprehensibilia. ALSO: at the very foot of col 287 Migne prints 'VERS. 25 --' with NO PERIOD after the number, where our twin supplies one; filed as a pending TEI patch. The (AUG. quaest. 148.) with no comma after AUG. is Migne's and matches our twin."
+    }
+  ]
+}

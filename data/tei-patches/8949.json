@@ -41,6 +41,27 @@
    "find": "Graece,   veelle semoth Hebraice, exitus",
    "replace": "Graece, <foreign xml:lang=\"hebrew\">ואלה שמות</foreign> veelle semoth Hebraice, exitus",
    "why": "HEBREW RECOVERY (hebrew-recovery.md). Corpus Corporum drops Migne's inline Hebrew type and leaves a scar; the Hebrew is restored as <foreign xml:lang=\"hebrew\">. ואלה שמות at Exod 1:1, read on Gallica ark:/12148/bpt6k5505319w f148. ⚑ A TRIPLE-SPACE scar, again not a ( ). The work's closing recapitulation names the book in all three languages, mirroring the banner at 0183A. Read on f148, the leaf where Exodus ends and LIBER LEVITICUS begins — the same leaf already read for 8961's book-title line — corners 295/296. Same word as the banner and the same on-plate transliteration control."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0263B",
+   "find": "thisri,   Macedones",
+   "replace": "thisri, <foreign xml:lang=\"hebrew\">תשרי</foreign> Macedones",
+   "why": "HEBREW RECOVERY, SECOND PASS (hebrew-recovery.md). ⛔ MISSED BY THE PREP SWEEP AND FOUND BY A TRANSLATION STINT (0030-0034), then verified at the plate by the orchestrator before patching. תשרי. Rabanus on the seventh month. Read right to left tav-shin-resh-yod = תשרי (Tishri) on Gallica f132 at 11x, printed corners 263/264 read first. Migne's own transliteration *thisri* is the on-plate control. Scar was a TRIPLE SPACE."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0267D",
+   "find": "<hi>cherub,</hi>   plurali",
+   "replace": "<hi>cherub,</hi> <foreign xml:lang=\"hebrew\">כרוב</foreign> plurali",
+   "why": "HEBREW RECOVERY, SECOND PASS (hebrew-recovery.md). ⛔ MISSED BY THE PREP SWEEP AND FOUND BY A TRANSLATION STINT (0030-0034), then verified at the plate by the orchestrator before patching. כרוב. Bede, singular form. Gallica f134, corners 267/268 read first."
+  },
+  {
+   "work": "8949 Glossa ordinaria, Liber Exodus (PL 113)",
+   "col": "0267D",
+   "find": "<hi>cherubim</hi>   dicitur",
+   "replace": "<hi>cherubim</hi> <foreign xml:lang=\"hebrew\">כרובים</foreign> dicitur",
+   "why": "HEBREW RECOVERY, SECOND PASS (hebrew-recovery.md). ⛔ MISSED BY THE PREP SWEEP AND FOUND BY A TRANSLATION STINT (0030-0034), then verified at the plate by the orchestrator before patching. כרובים. Bede, plural form, same sentence. ⭐ THIS PAIR IS LOAD-BEARING: the gloss IS the contrast between the two HEBREW forms (*Numero singulari cherub, כרוב, plurali autem cherubim כרובים dicitur*). Without them the English tells the reader only that one Latin word is singular and the other plural, which is not what Bede says. Scar was a TRIPLE SPACE."
   }
  ]
 }

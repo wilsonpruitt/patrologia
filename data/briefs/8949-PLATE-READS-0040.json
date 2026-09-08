@@ -1,0 +1,56 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0040-0043 (bands 0288C-0296C, CAPUT XXXIII to the end of Exodus). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF). Whole page fetched at /full/full/0/native.jpg and cropped LOCALLY with PIL; no IIIF region coordinates used, no crop crossed the centre gutter.",
+  "page_map": "Gallica leaf f = ceil(column / 2). CONFIRMED with no quire drift across f144-f148: printed corner numbers read FIRST on every leaf, before any text -- 287/288, 289/290, 291/292, 293/294, 295/296.",
+  "second_witness": "archive.org patrologiaecurs04migngoog. The greppable OCR TEXT LAYER (patrologiaecurs04migngoog_djvu.txt) was consulted at six sites; the PDF was NOT rendered. Used only to CORROBORATE a Gallica reading, never to overturn one. It disagreed with Gallica at two sites (0290C, 0291C) and in both cases moved toward the expected word, which is the documented jbig2 symbol-substitution behaviour -- Gallica, as the photograph, was followed.",
+  "foot_apparatus": "THE FOOT OF BOTH COLUMNS WAS OPENED ON ALL FIVE LEAVES (bottom 10% of each page, whole width, 2x). CHECKED ZERO on every one: no numbered layer, no asterisk layer, no raised-letter layer. This is a recorded zero, not an assumption, and it does not license any claim about leaves outside f144-f148 (ADJUDICATIONS section 4: absence means nothing anywhere in this work).",
+  "reads": [
+    {
+      "from": "0287A",
+      "to": "0288D",
+      "depth": "partial",
+      "date": "2026-09-08",
+      "page": "f144",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST, before any text -- left 287, right 288, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Header band and foot band read at 2.0-2.2x. Column 287 belongs to the preceding stint; only 288 is mine.",
+      "found": "CHECKED ZERO at the foot, both columns, all apparatus layers. Foot of the right column confirmed as printed: 'Vel aliud tabernaculum fuit, ad quod jam conveniebant ad judicandum.' -- the end of chunk 0040's VERS. 7 gloss, matching our twin word for word. No marker fired on this leaf."
+    },
+    {
+      "from": "0289A",
+      "to": "0290D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f145",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 289, right 290, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Four native-resolution column crops at 2.6x (left col y 0.26-0.40, 0.395-0.53, 0.60-0.74; right col y 0.52-0.68) plus header and foot bands. Every crop bounded to one column; the gutter was never crossed.",
+      "found": "CHECKED ZERO at the foot, both columns. THREE DECISIVE FINDINGS. (1) 0289A/B: the plate sets 'Sciendum ergo quod ali-' at a line end and 'quam partem ingrediebatur' at the start of the next -- ONE hyphenated word, aliquam. Our twin's 'aliquam quam partem' is Corpus Corporum's doubling, NOT Migne's; a [d:] was drafted and WITHDRAWN, and the site is filed as a pending TEI patch. The archive OCR corroborates ('Sciendum ergo quod ali-'). (2) 0290C: the plate prints, in italic, 'ac nepotibus iu tertiam et quartam' -- 'iu' for 'in' is MIGNE'S OWN TYPE. The archive prints 'in iertiam', moving the defect to the next word, which is exactly the jbig2 substitution class; Gallica the photograph plus our own twin both read 'iu', so [sic: iu] fires here. (3) 0290C: confirmed as printed, 'Et protegam (AUG., ubi supra.) et tegam manu mea super te, etc., usque ad deinde contexit quid Dominus postea dicat : Excide tibi duas tabulas lapideas, etc.' -- both [var:] sites verified at the plate. ALSO CONFIRMED AS PRINTED: 'Lucem habitat inaccessibilem, etc. (I Tim. I, VI)' at 0289B (Migne's habitat for the Vulgate's inhabitat is his, and has no English exponent -- no marker); 'Quoniam scio te prae omnibus, etc. Nunquid Deus plus aliqua scit et aliqua minus?' at 0289C ([var:] site); '(AUG., lib. de Praedestinatione et Gratia, cap. 10.)' at the foot of the left column."
+    },
+    {
+      "from": "0291A",
+      "to": "0292D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f146",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 291, right 292, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Five native-resolution column crops at 2.6-3.0x (left col y 0.26-0.40, 0.58-0.72; right col y 0.08-0.24, 0.255-0.35, 0.34-0.50, 0.53-0.66) plus header and foot bands. Every crop bounded to one column.",
+      "found": "CHECKED ZERO at the foot, both columns. FOUR FINDINGS. (1) 0291B: the plate prints 'ut decem quater DUCTA quadragenarium numerum signent' -- our twin's 'dueta' is Corpus Corporum's, not Migne's. A [sic:] was drafted and WITHDRAWN; filed as a pending TEI patch. Archive corroborates 'ducta'. (2) 0291C: the plate prints, in italic, 'Et tunc loquebatur ad filios ISAEL omnia quae sibi fuerant' -- 'Isael' is MIGNE'S OWN TYPE, clearly set, no under-inking at that letter. The archive prints 'Israel', repairing toward the expected word; Gallica the photograph wins and [sic: Isael] fires. (3) 0292A: confirmed as printed, 'Induite vos Dominum Jesum Christum, et carnis curam ne feceritis in deliciis (Rom. XIII)' -- deliciis, not the Vulgate's desideriis; [var:] site, archive corroborates. (4) 0292A/B: 'VERS. 21. -- Quidquid ad cultum, etc. (GREG., ubi supra.)' is set on the plate exactly as every other siglum citation in the work, and there is no band mark inside it. Our twin leaves this one citation unwrapped by [n:] and drops a rogue [0292B] anchor inside the italic run -- a Corpus Corporum markup artifact, filed as a pending TEI patch. ALSO CONFIRMED AS PRINTED: the head of col 291, 'fermentum sanguinem immolatorum meorum? An illa hoc loco dicit immolata sua, quae per pascha occiduntur' ([var:] site, and the wording the question is built on); 'Vers. 30. -- Videns autem Aaron' at 0291B, singular, [var:] site; 'Coccumque bis tinctum. (ID. homil. 13 in Exod.)' at the foot of the left column, balanced and clean, against the archive's unbalanced parenthesis -- no marker; 'Et qui sponte, etc. (AUG., quaest. 170 in Exod.) Et omnes qui sponte vellent ire ad opera, ut consummarent ea' at 0292C ([var:] site, Migne setting Vulgate and Augustine side by side)."
+    },
+    {
+      "from": "0293A",
+      "to": "0294D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f147",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 293, right 294, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Three native-resolution column crops at 2.4-2.8x (left col y 0.55-0.72, 0.74-0.93; right col y 0.30-0.44) plus header and foot bands. Every crop bounded to one column.",
+      "found": "CHECKED ZERO at the foot, both columns. CONFIRMED AS PRINTED: 'CAPUT XXXIX.' followed by a single row of widely spaced points and then 'CAPUT XL.' -- Migne prints no gloss whatever on chapter XXXIX, so chunk 0042's row of dots is faithful and is not a hole in the digitization. No [ed:] is warranted. Also confirmed: 'VERS. 1. -- Locutusque est Dominus ad Moysen dicens : Mense primo, etc. (STRAB.) Primus anni mensis ipse est Nisan, qui et Aprilis, in quo Judaei' at 0293C/D; 'Benedices coronae anni benignitatis tuae (Psal. LXIV)' at 0293D, which agrees with the Clementine verbatim; and at 0294B, in italic, 'Caput viri Christus est (II Cor. XI)' -- Migne's citation names II Corinthians while his printed words are 1Cor 11:3's, reordered. [var:] fires there. Archive corroborates the II Cor. attribution."
+    },
+    {
+      "from": "0295A",
+      "to": "0296C",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f148",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 295, right 296, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Native-resolution crops at 2.4-16x (left col head band; right col y 0.36-0.54, 0.53-0.72) plus header and foot bands. Every crop bounded to one column. THIS IS THE WORK-DIVISION LEAF: Exodus ends and LIBER LEVITICUS begins on it; nothing past 0296C was translated.",
+      "found": "CHECKED ZERO at the foot, both columns -- and the foot of this leaf is already Leviticus matter ('Tribus Levi tabernaculi ministerium sortita est'; 'Latine Offertorius vel sacrificativus dicitur'), which independently confirms the division. FINDING at 0295A, read at 16x: the plate does NOT print our twin's 'annuns'. It shows 'annu' followed by three minim-and-ascender strokes and then 's', the second stroke taller than the first -- an under-inked 'annulis'. The archive OCR reads the same word as 'anQiilis', i.e. annulis, and the sense requires it (rings, into which the bars are fixed). Filed as a pending TEI patch to 'annulis'; NO [sic:] fired, because what is shown is a difference between our twin and BOTH witnesses, not a defect Migne carries. ALSO CONFIRMED AS PRINTED: 'spiritualis exitus sanctus sanctorum de mundo' at 0296A -- 'sanctus' beside 'sanctorum' is Migne's, and it is rendered as printed under Pattern 7 with no marker (a real word in a real slot); 'deinde de plagis' at a line end and 'Aegypti' at the next line start, with NO hyphen, at 0296C -- our twin's 'plagis-Aegypti' hyphen is Corpus Corporum's and is filed as a pending TEI patch; 'Nota quod cum eadem sit et indivisa historia'. The Hebrew at 0296A was NOT re-opened: it is settled recovered type, carried into the English verbatim."
+    }
+  ]
+}

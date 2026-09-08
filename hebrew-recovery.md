@@ -34,6 +34,22 @@ provenance in `data/hebrew-patches/11059.json`.
      artifact in the text at all, and the five Glossa Pentateuch book-title lines were all
      lost this way.
 
+   ⛔⛔⛔ **AND RUN THE SCAN ON THE SOURCE TEI, NOT ON THE CHUNKS — the chunker collapses
+   whitespace, so a whitespace scar is INVISIBLE in `src/latin/`.** Measured on 8949, same day,
+   both directions:
+
+       grep -o '[A-Za-z,;.)>]  \+[A-Za-z(,;.<]' sources/pl/tei/8949.xml   → all 5 scars
+       grep -o '[A-Za-z,;.)>]  \+[A-Za-z(,;.<]' src/latin/8949/*.md       → 0
+
+   ⭐ **This is how the 8949 prep pass missed three of the book's seven sites** (תשרי at 0263B,
+   כרוב/כרובים at 0267D — the last pair load-bearing, since Bede's gloss IS the contrast between
+   the two Hebrew forms). That pass greped the CHUNKS for `( )`, which survives chunking, and the
+   TEI only for `Hebraice|Hebraeo` and `, ,`. The two whitespace scars it did find it found
+   through the `Hebraice` hook **by luck**. It then wrote the whitespace rule above as its own
+   headline finding **and never ran it.** The three were found weeks-cheap by a translation stint
+   that had the words in view, which is the 4a″ argument over again — but they should not have
+   needed finding twice.
+
 2. **Get the scan.** Prefer **Gallica (BnF)** — best quality, open IIIF *image* API.
    For PL 175: `ark:/12148/bpt6k55331558`. The image API works even though `info.json`
    and the viewer return 403:

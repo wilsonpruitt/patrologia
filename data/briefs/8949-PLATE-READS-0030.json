@@ -1,0 +1,82 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0030-0034 (bands 0262B-0276B). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "TWO witnesses, both consulted on every leaf. (1) Gallica ark:/12148/bpt6k5505319w (IIIF): whole pages fetched once at /full/full/0/native.jpg and cropped LOCALLY with PIL (Image.LANCZOS, 3-18x); no IIIF region parameter was used. Gallica returned 429 and 404-shaped throttle pages for roughly twenty minutes mid-stint; requests were serialised with 25-45s back-off until every leaf in the range was on disk. (2) The archive copy on disk, raw/scans/pl113/patrologiaecurs04migngoog.pdf, rendered at 350 dpi with pdftoppm. No crop crossed the centre gutter: left column x 0.06-0.52 of page width, right column x 0.53-0.93.",
+  "page_map": "Gallica leaf f = ceil(column / 2). CONFIRMED on all eight leaves against the printed corner numbers, which were read FIRST on every page before any text: f131=261/262, f132=263/264, f133=265/266, f134=267/268, f135=269/270, f136=271/272, f137=273/274, f138=275/276. Archive PDF page = (column + 11) / 2, likewise confirmed against the printed corners on all eight: p136=261/262 ... p143=275/276. No quire drift anywhere in the range, on either copy.",
+  "second_witness": "The archive copy was rendered in full (pp. 136-143) rather than grepped, and it is the reason this stint fired ZERO [sic:]. ⛔ MEASURED HERE: on this quire the archive copy is by far the worse witness. It manufactured NINE letter-, digit- and point-level readings that Gallica refutes -- 0263B seculo (Gallica sedulo), 0263B amplus (amplius), 0263C Ecce ergo (Ecce ego), 0263D invidita (invidia), 0268A labium , (labium.,), 0269D Omnes opus (Omne opus), 0271B Fecit et quinquaginta circulos (Facies et), 0272A VERS. 6 (VERS. 9), 0274B Marc. XLVI (Marc. XVI) -- and confirmed Gallica against our twin at only two sites (0262D annos, 0272C ad altera). Every one of the nine would have produced a false public claim against Migne if the archive had been the sole witness. This is the jbig2 symbol-substitution class of PL113-WITNESS-ENCODING.md, and its errors here are well-formed words that construe: 'Ecce ergo mittam angelum' reads perfectly and is not what Migne set.",
+  "reads": [
+    {
+      "from": "0262A",
+      "to": "0262D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f131 (Gallica) / p136 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 261 left, 262 right, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Archive page read whole; Gallica right column read in slices at 3.2x with targeted crops at 9x and 18x on the VERS. 14-18 lemma.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers (no numbered Forte notes, no asterisk or letter layer). ⭐ THE RANGE'S ONE APPARENT [sic:] CANDIDATE, WITHDRAWN HERE: our twin prints 'Tribus vicibus per singulos a mos,' at 0262D. The archive copy prints 'per singulos annos' cleanly, with no gap; the Gallica copy shows the same five letters a-n-n-o-s (read at 18x, four distinct strokes, not an m) with an abnormal space after the initial a -- a loose sort in that copy. The letters agree across both copies, so Migne's text is 'annos'; our twin is wrong about both the space and the letters. English renders 'years'; filed as a pending TEI patch; NO [sic:]. CONFIRMED as printed at 0262D: 'usque ad qui seminat in benedictionibus, in benedictionibus et metet' -- Migne repeats 'in' where 2Cor 9:6 has 'de', which is the 0262D [var:]. Also confirmed: 'Mendacium fugies', 'Sex annis seminabis terram tuam', 'quia non est personarum acceptor', and the whole Et per nomen externorum deorum paragraph."
+    },
+    {
+      "from": "0263A",
+      "to": "0264D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f132 (Gallica) / p137 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 263 left, 264 right, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Both columns read whole on the archive copy at 2.0x; both columns re-read on Gallica at 3.0x with 12-14x crops on five letter-level calls and on the Hebrew.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ⭐⭐ ONE RECOVERY: at 0263B the plate prints a HEBREW WORD our TEI drops -- 'quem Hebraei Chaldaico vocabulo thisri, תשרי Macedones ὑπερβεραῖον vocant'. Both copies show it; it is NOT among the six Hebrew words the pre-chunk recovery pass restored, so the Hebrew layer of this book is not complete. Consonants certain (ת-ש-ר-י, matching Migne's own transliteration 'thisri'); the plate appears to set at least one sub-letter point, which neither copy resolves at maximum available resolution, so the consonantal form is what is carried and the vocalisation is flagged open in the pending-patches file. FOUR ARCHIVE READINGS REFUTED BY GALLICA, all four leaving our twin correct: 'seculo curantes' (Gallica 'sedulo', which is also what construes), 'amplus tuba canunt' (Gallica 'amplius'), 'Ecce ergo mittam angelum' (Gallica 'Ecce ego', so NO [var:] against Ex 23:20 -- this one would have been a false public claim), 'invidita' (Gallica 'invidia'). CONFIRMED as printed: 'Solemnitatem vero mensis primitivorum' at 0263A, where the Vulgate has 'messis' (crux, no marker -- it is Migne's, in Rabanus's own prose, and it construes); 'unde justo, judicio Dei expulsi sunt' at 0264B, comma and all (Migne's own pointing, carried); 'Initium omnis peccati superbia' without 'est'; 'Alia littera: Benedicam panem et vinum tuum' and 'Alia littera. Emittam vespas ante te, et ejiciet Amorrhaeos' at 0264B-C -- Migne labels both divergences himself, so no marker is stacked on his own mark."
+    },
+    {
+      "from": "0265A",
+      "to": "0266D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f133 (Gallica) / p138 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 265 left, 266 right. Archive page read whole; Gallica read for the corner numbers and for the Bede citation and the Hebrew. (0265A-0266D was also read during prep, 2026-09-08.)",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING AND IT IS OURS: at 0265D our twin prints '(BED., lib. I de Tabarnac., cap. 11, tom. II.)'; BOTH copies print 'Tabernac.' The non-word is the digitization's, not Migne's -- filed as a pending TEI patch, NO [sic:]. The Hebrew at 0266A -- Aaron ( אהרן ) and Hur ( חור ) in Bede's De tabernaculo I.1 -- is present exactly as the recovery pass restored it, unpointed, and is carried into the English verbatim; not re-opened. CONFIRMED as printed: 'Assume tibi septuaginta viros' at 0265A against Nm 11:16's 'Congrega mihi septuaginta viros de senibus Israel' (the 0265A [var:]); 'de quibus Heldad et Meldad fuerunt' (Migne's spellings for Eldad and Medad, crux only); 'Cratera, sive crater, dicitur ἀπὸ τοῦ κρατεῖν, quod est capere, eo quod sit multi vini capax' at 0265C; the whole Deus non loco continetur paragraph at 0265C. EXAMINED AND LEFT UNRESOLVED at 0266C: a small raised mark stands before 'nec nisi Domino donante laxanda' on the archive copy. It is not resolvable as either an ink speck or a foot-of-page key at the resolution available, and the foot of the page carries no note it could key to. Recorded as unresolved; nothing marked, nothing patched."
+    },
+    {
+      "from": "0267A",
+      "to": "0268D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f134 (Gallica) / p139 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 267 left, 268 right. Archive page read whole at 2.0x with 4-5x crops; Gallica read at 3.4x and 6x on the four decisive sites.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ⭐⭐ SECOND AND THIRD HEBREW RECOVERIES: at 0267D the plate prints 'Numero singulari cherub, כרוב plurali autem cherubim כרובים dicitur' -- BOTH Hebrew words are dropped by our TEI, and both copies show them, unpointed. They are Bede's own point (the gloss IS about the singular and plural forms), so their loss took the evidence out of the gloss. Filed as pending TEI patches; carried into the English verbatim. CONFIRMED as printed: 'unde Habacuc ait: In medio duorum animalium innotesces (Habac. III)' at 0267D -- the range's most valuable divergence, since Hab 3:2 reads 'in medio annorum notum facies' and Bede's whole exposition of the two cherubim over the propitiatory rests on the Old Latin reading; 'unde Cant. II: Introduxit me rex in cellam vinariam, et ordinavit in me charitatem' at 0268A, with 'rex' and 'et' that Ct 2:4 has not; 'VERS. 23.' printed a SECOND time at 0268A over words that are Ex 25:24, with 'VERS. 24.' following over Ex 25:25 -- Migne's own numbering, confirmed on both copies. ONE ARCHIVE READING REFUTED: the archive prints 'Faciesque illi labium , etc.' where Gallica prints 'labium.,' -- so the period-plus-comma IS Migne's and our twin is faithful. No patch; the English carries the pointing."
+    },
+    {
+      "from": "0269A",
+      "to": "0270D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f135 (Gallica) / p140 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 269 left, 270 right. Archive page read whole at 2.0x with 5x crops; Gallica read at 3.4x on the two decisive sites.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE ARCHIVE READING REFUTED: 'Omnes opus candelabri' on the archive at 0269D, 'Omne opus candelabri' on Gallica -- our twin correct, no patch. CONFIRMED as printed: 'Gratia Domini nostri Jesu Christi et charitas Dei, et communicatio sancti Spiritus, sit semper cum omnibus vobis' at 0269A, with a 'semper' 2Cor 13:13 has not; 'Descendit in hortum nucum' at 0269B, third person where Ct 6:10 has the Bride's 'Descendi'; 'Si circumcidimini, Christus nihil vobis proderit' at 0270A (indicative for Gal 5:2's 'circumcidamini' -- crux only, the sense does not turn); 'Laeva ejus sub capite meo, et dextera ejus amplexabitur me' at 0269D ('ejus' for 'illius' -- crux only); 'usque ad omnis plenitudo divinitatis corporaliter' at 0269D; 'Tabernaculum vero ita et fiet' at 0270B, against Ex 26:1's 'Tabernaculum vero ita facies' (the 0270B [var:]); 'omnes in ordine numeros pleno ordine numeraveris' at 0270D, which reads as a doubling in our twin and is exactly what both plates print -- no [d:]."
+    },
+    {
+      "from": "0271A",
+      "to": "0272D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f136 (Gallica) / p141 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 271 left, 272 right. Archive page read whole at 2.0x; Gallica read at 3.4-3.6x on the four decisive sites, including the running head, which prints '272' beside the VERS. 9 line.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. TWO ARCHIVE READINGS REFUTED, both leaving our twin correct: 'Fecit et quinquaginta circulos' at 0271B (Gallica 'Facies et quinquaginta circulos', which is also Ex 26:6 -- so NO [var:]) and 'VERS. 6.' at 0272A (Gallica 'VERS. 9.', which is the right verse for 'Sextum sagum in fronte'). CONFIRMED as printed on BOTH copies: 'nec ad altera declinabant' at 0272C, in a sentence that prints 'ad latera' twice within four lines -- the [cj:] candidate, declined, because 'altera' is a real word in its slot and the English it yields is vague rather than false (Pattern 18a's declining class); 'ne inter pressuras deficiant, muniunt' at 0272D with NO terminal stop, Migne's own, not supplied in the English; 'Ad operiendum, scilicet ne interiora tenera clara qualibet adversitate turbentur' at 0271C, the asyndetic pair 'tenera clara' exactly as our twin has it; 'Domine, (inquit) exaudi orationem meam' at 0272B, with the inquit inside the quotation (Pattern 5, kept in place); 'Undecim sunt vela capillacea' at 0271C; the whole 'De pellibus' paragraph at 0272D including 'helin, id est arietes'."
+    },
+    {
+      "from": "0273A",
+      "to": "0274D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f137 (Gallica) / p142 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 273 left, 274 right. Archive page read whole at 2.0x; Gallica read at 3.4x on the two decisive sites.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE ARCHIVE READING REFUTED: '(Marc. XLVI)' at 0274B, an impossible chapter number, against Gallica's '(Marc. XVI)' -- our twin correct, no patch, and no accusation against Migne. CONFIRMED as printed on both copies: 'Unde: Tunc adimpletum est quod dictum est per prophetas. Et alibi: Hoc autem totum factum est, ut adimplerentur scripturae prophetarum (Matth. XXI)' at 0273B -- the words are Mt 26:56 and the address Migne prints points to Mt 21:4, which reads otherwise; that is the 0273B [var:] and it is the wrong-verse class the common brief names. Also confirmed: 'Dicam Aquiloni, Da: et Austro, Noli prohibere (Isa. XLIII)' at 0274A; 'Basis est fundamentum a Graeco βασεία, id est fundo' at 0274B, Greek and all; 'Qui crediderit et baptizatus fuerit salvus erit' at 0274B; 'alius negaret' at 0274D with NO terminal stop, on BOTH copies -- Migne's, not supplied in the English (the archive appears to set one, which is a tenth substitution)."
+    },
+    {
+      "from": "0275A",
+      "to": "0276D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f138 (Gallica) / p143 (archive)",
+      "source": "CALIBRATION: printed corner numbers read FIRST on both copies -- 275 left, 276 right. Archive page read whole at 2.0x; Gallica read for the corner numbers and for the head of CAPUT XXVII, which falls on this page and marks the end of this stint's range.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers, including the work division at 0276A-B where CAPUT XXVII begins mid-page -- the place the chunking rule warns Migne sets notes mid-page. Nothing there. Our TEI agrees with the plate word for word over 0275A-0276B with no exceptions found. CONFIRMED as printed: 'Eruntque sibi conjunctae' at 0274D-0275A (the [var:] against Ex 26:24's 'Eruntque conjunctae a deorsum usque sursum'); '(GREG., Moral. lib. XXVIII, cap. 6).' at 0275C with the stop outside the parenthesis; 'usque ad: in die judicii.' at 0275D and 'usque ad: sed Jesum Christum.' at 0276A, both with the colon Migne prints inside the italic; 'mille trahentem et varios averso sole colores' at 0275B."
+    }
+  ]
+}

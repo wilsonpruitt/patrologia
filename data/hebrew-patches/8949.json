@@ -80,11 +80,42 @@
    "pointed": false,
    "verifiedAgainstMT": true,
    "note": "⚑ Scar was a TRIPLE SPACE, not ( ). The work's closing recapitulation names the book in Greek, Hebrew and Latin, mirroring the banner at 0183A."
+  },
+  {
+   "chunk": "0030 / 0032",
+   "column": "0263B",
+   "verse": "—",
+   "hebrew": "תשרי",
+   "folio": "f132 / f134",
+   "pointed": false,
+   "verifiedAgainstMT": false,
+   "note": "Second pass. Missed by the prep sweep, found by the 0030-0034 translation stint, verified at the plate before patching. Rabanus on the seventh month. Read right to left tav-shin-resh-yod = תשרי (Tishri) on Gallica f132 at 11x, printed corners 263/264 read first. Migne's own transliteration *thisri* is the on-plate control. Scar was a TRIPLE SPACE."
+  },
+  {
+   "chunk": "0030 / 0032",
+   "column": "0267D",
+   "verse": "—",
+   "hebrew": "כרוב",
+   "folio": "f132 / f134",
+   "pointed": false,
+   "verifiedAgainstMT": false,
+   "note": "Second pass. Missed by the prep sweep, found by the 0030-0034 translation stint, verified at the plate before patching. Bede, singular form. Gallica f134, corners 267/268 read first."
+  },
+  {
+   "chunk": "0030 / 0032",
+   "column": "0267D",
+   "verse": "—",
+   "hebrew": "כרובים",
+   "folio": "f132 / f134",
+   "pointed": false,
+   "verifiedAgainstMT": false,
+   "note": "Second pass. Missed by the prep sweep, found by the 0030-0034 translation stint, verified at the plate before patching. Bede, plural form, same sentence. ⭐ THIS PAIR IS LOAD-BEARING: the gloss IS the contrast between the two HEBREW forms (*Numero singulari cherub, כרוב, plurali autem cherubim כרובים dicitur*). Without them the English tells the reader only that one Latin word is singular and the other plural, which is not what Bede says. Scar was a TRIPLE SPACE."
   }
  ],
  "notLacuna": [
-  "No other Hebrew is dropped in this work. After patching, `( )` occurs zero times in the chunked Latin and there is no `, ,`.",
-  "⭐ THE ( ) SWEEP IS NOT SUFFICIENT ON ITS OWN AND THIS BOOK PROVES IT. Four of the seven sites left an empty ( ); the other three left only WHITESPACE -- a double space before a comma (0219A) and a triple space mid-sentence (0296A), plus the book-title line, which left no scar at all because the whole line went. A work whose scars are all whitespace would pass a ( ) grep silently. Grep for runs of two or more spaces as well, and read the head of the book against the plate.",
-  "The Greek is a separate question and is NOT dropped: 15 <foreign xml:lang=\"greek\"> spans survive in the TEI. The only Greek that went missing is the ΕΞΟΔΟΣ of the book-title line, which went with the whole line."
+  "⛔⛔ THE FIRST-PASS CLAIM ON THIS LINE WAS FALSE AND IS WITHDRAWN. It read: 'No other Hebrew is dropped in this work. After patching, ( ) occurs zero times in the chunked Latin and there is no , ,.' THREE more dropped words were found by a translation stint and confirmed at the plate: תשרי at 0263B and כרוב / כרובים at 0267D. The work has SEVEN inline sites plus the banner, not four plus the banner.",
+  "⭐⭐⭐ THE ROOT CAUSE, AND IT IS THE WHOLE LESSON: THE CHUNKER COLLAPSES WHITESPACE, SO A WHITESPACE SCAR IS INVISIBLE IN THE CHUNKS AND SURVIVES ONLY IN THE SOURCE TEI. The first pass greped the CHUNKS for ( ) -- which survives chunking -- and greped the TEI only for 'Hebraice|Hebraeo' and ', ,'. The two whitespace scars it did find (0219A, 0296A) were found through the 'Hebraice' hook by luck, not by a whitespace scan. The same pass then WROTE THE WHITESPACE RULE INTO hebrew-recovery.md as its headline finding and never ran it. Running `grep -o '[A-Za-z,;.)>]  \\+[A-Za-z(,;.<]' sources/pl/tei/8949.xml` returns all five whitespace sites in one command; the same grep over src/latin/8949/*.md returns ZERO. ⛔ RUN THE SCAN ON THE SOURCE, NOT ON THE CHUNKS.",
+  "After the second pass: all five whitespace scars and all four ( ) scars are accounted for, and the TEI-wide scan is clean apart from the patched sites themselves.",
+  "The Greek is NOT dropped: 15 <foreign xml:lang=\"greek\"> spans survive. The only Greek that went missing is the ΕΞΟΔΟΣ of the book-title line, which went with the whole line."
  ]
 }
