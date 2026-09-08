@@ -83,3 +83,42 @@ an injection before chunking is erased silently), and re-verify. The English alr
 ⛔ **Do NOT let this block the translation run.** It is additive: it inserts notes, it does not
 change a word of the text or of the English. But the work must not ship claiming a checked-zero
 foot, and `preflight` should be run with the corrected coverage in place.
+
+## 5. ⚠ NOT "TWO PRINTINGS" — the 0249A disagreement is UNRESOLVED, and the likelier reading is jbig2
+
+Stint 0020–0024 reported that at 0249A "the two copies of PL 113 are two printings," citing the
+PL 114 press-variant class. **The observation is exact and I confirmed both readings myself at
+native resolution. The conclusion goes further than the evidence.**
+
+    Gallica f125 (photograph)   ut videntes non VIDEANT, et audientes NOS intelligant (Isa. VI).
+    archive p130 (jbig2)        ut videntes non VIDENT,  et audientes NON intelligant (Isa. VI).
+    our twin                    …non videant, et audientes nos intelligant…   [= Gallica]
+
+⛔ **Both archive readings move TOWARD the expected scriptural text.** The verse is Lc 8:10 /
+Is 6:9, whose received wording is *non intelligant*. A 1-bit **symbol-substitution** codec
+producing a frequent, well-formed, contextually expected word in place of a rare one — `non` for
+`nos` — is not an exotic hypothesis about this file: it is the documented mechanism in
+`data/briefs/PL113-WITNESS-ENCODING.md`, and 8957 already recorded the archive **repairing** one
+of Migne's real defects the same way (`congnosci` → `cognosci` @0825A). A stop-press correction
+of two words in one line is possible, but it is the second explanation, not the first, and one
+line cannot carry it.
+
+▶ **Do not enter this in the witness brief as a press variant.** It is one disagreement, on one
+line, with a known competing mechanism. Settling it needs a **third witness** — Google Books
+`YfwQAAAAYAAJ`, listed for PL 113 in `data/volumes.json`. Until then it is an open disagreement.
+
+### ⭐ And it points the other way on the marker, which is the part that affects the page
+
+Gallica is a **photograph of a physical copy**; it is not a symbol-substituting codec. So Gallica
+is good evidence that a real copy prints **`nos intelligant`** — a defect: the clause does not
+construe, and the English can only render it as the words stand. The archive's disagreement has a
+mechanism that explains it away; Gallica's reading does not.
+
+**On that balance the site probably warrants `[sic: *nos*]`** at 0249A, on a column the stint
+itself read. The stint declined it under "never a sole witness for a letter" — a defensible and
+cautious call, but the rule exists to stop the ARCHIVE being the sole witness, and here the
+archive is the copy whose reading has an alternative explanation.
+
+▶ **Owed at merge:** decide the `[sic:]`. Do not edit the stint's chunk unilaterally — either
+rule it in at merge with the reasoning above, or resume the 0020–0024 stint (SendMessage) with
+the site named. The `[var:]` it fired for Lc 8:10 stands either way.

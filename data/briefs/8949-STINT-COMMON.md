@@ -222,3 +222,15 @@ what you do not** in your plate-reads file. A checked zero is a result and this 
 proved why. If you find a note: transcribe it and the raised key and the exact point it is keyed
 from, and file it in your PENDING-TEI-PATCHES file under a `FOOT NOTE` heading — **do not invent
 a marker for it**; the encoding is an open ruling (`data/briefs/8949-ADJUDICATIONS.md` §4).
+
+### ⚠ From stint 0020–0024 — the two PL 113 copies DISAGREE at 0249A, cause unsettled
+
+Gallica prints `non videant … nos intelligant`; the archive prints `non vident … non intelligant`.
+**Both archive readings move toward the expected scriptural text (Lc 8:10), which is exactly what
+a symbol-substitution codec does** — so this is NOT established as a press variant, whatever you
+may hear. See `data/briefs/8949-ADJUDICATIONS.md` §5.
+
+⛔ **The operational rule is unchanged and this strengthens it:** Gallica is a photograph, the
+archive is jbig2. Where they disagree on a letter, **Gallica is the witness and the archive is
+the one needing an explanation** — not the reverse. Use the archive to CORROBORATE a Gallica
+reading, never to overturn one, and never to clear a defect Gallica shows.

@@ -1,0 +1,91 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0020-0024 (bands 0234D-0249C). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF, User-Agent header required). Whole pages fetched once at /full/full/ and cropped locally with PIL at 2.2x LANCZOS (targeted crops 4-10x); never by IIIF region. Column boundaries found per page by an ink-column profile, so no crop crossed the centre gutter.",
+  "page_map": "Gallica leaf f = ceil(column / 2). CONFIRMED on all nine leaves against the printed corner numbers, read FIRST on every page before any text: f117=233/234, f118=235/236, f119=237/238, f120=239/240, f121=241/242, f122=243/244, f123=245/246, f124=247/248, f125=249/250. No quire drift.",
+  "second_witness": "archive.org patrologiaecurs04migngoog. Its OCR TEXT LAYER (patrologiaecurs04migngoog_djvu.txt) was consulted for word-level corroboration throughout; the PDF was RENDERED at 400-500 dpi for the three calls that turned on a mark or a letter (p. 123 = cols 235/236, p. 130 = cols 249/250), corner numbers read first on each. The rendered image was decisive at 0249A, where the OCR layer and the image agree against Gallica.",
+  "reads": [
+    {
+      "from": "0233A",
+      "to": "0234D",
+      "depth": "partial",
+      "date": "2026-09-08",
+      "page": "f117",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 233, right 234, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Only col 234 carries text of this stint (the chunk 0020 head), and the foot of both columns was read.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers (no numbered Forte notes, no asterisk or letter layer); the foot of col 234 carries only the quire signature. Confirmed as printed at 0234D: 'VERS. 2. -- Et murmuravit omnis congregatio Israel, etc. (ORIG., homil. 7 in Exod.) O ingratus' -- our TEI agrees, and the 0019/0020 chunk boundary falls on a clean verse division."
+    },
+    {
+      "from": "0235A",
+      "to": "0236D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f118",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x; 6x crops for two punctuation calls. Second witness: archive PDF p. 123 RENDERED at 400 dpi, corner numbers 235/236 read first.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE REFUSED PATCH and no marker against Migne. (1) 0236A: our TEI reads 'et panis coelestis, qui est sermo Dei'; at 6x the Gallica mark after 'coelestis' is a squared blob with no descending tail and reads as a FULL STOP, while the comma after 'coelo' on the same line shows a clear tail. The ARCHIVE COPY at p. 123 prints an unambiguous COMMA. Two witnesses split, our TEI agrees with the archive: NO PATCH, our comma stands, and f118 is recorded as a page that under-inks a comma tail so that every other call on it was re-weighed. Collated word by word otherwise: our TEI agrees with the plate across both columns. Confirmed as printed and used by markers: the 1 Cor X quotation at 0235A 'Neque murmuraveritis ... et a serpentibus perierunt. Scripta sunt haec propter nos, in quos fines saeculorum devenerunt.' (the [var:] site); 'Diebus multis sedebunt filii Israel sine rege, sine principe, sine hostia, sine sacrificio, sine sacerdote' cited Ose. III at 0236A (the [var:] site). Also confirmed: 'et secundo et fortassis tertio'; 'Etenim pascha nostrum immolatus est Christus, qui verus homo panis de coelo descendit'; 'Infirmus enim olus manducat (Rom. XIV)'; 'amat autem Scriptura pluraliter magis panes quam singulariter dicere panem.' Gallica's 'sine piincipe' at 0236A is a worn r of the attested Gallica class, not a reading."
+    },
+    {
+      "from": "0237A",
+      "to": "0238D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f119",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x; 5-9x crops for three letter- and mark-level calls. Corroborated word by word against the archive OCR text layer.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. THREE FINDINGS, TWO OF THEM OURS. (1) 0237C: our TEI reads '(ORIG., ut surpra. )'; the plate sets a clean 'ut supra' in italic. A candidate [sic:] WITHDRAWN, patch filed. (2) 0238A: our TEI reads 'Dominus sanat languores tues omnes'; at 9x the plate sets a round 'o' -- 'tuos' -- and the archive OCR layer prints 'languores tuos'. A candidate [sic:] WITHDRAWN, patch filed. (3) 0238A: our TEI reads 'sed abscondit, vermes ex eo ebulliunt'; the Gallica mark after 'abscondit' has no tail against a clear comma on the same line, but the archive layer prints a comma. THE SAME PAGE-CLASS AS f118: two witnesses split, NO PATCH, our comma stands. Confirmed as printed and used by markers: 'Vermis eorum non moritur' cited Isa. LXVI at 0237A, present tense (the [var:] site); 'Cor contritum et humiliatum Deus non spernit (Psal. L)' at 0237D (the [var:] site); 'Fiat tibi secundum fidem tuam' cited Matth. IX (the [var:] site); 'Pueri, novissima hora est (I Joan. II)' at 0238C (the [var:] site). Also confirmed: 'Scriptum est autem.' with Migne's own full stop before the quotation; 'his qui acquiescentes vobis, in coturnicibus putant agnosci Deum'; 'cremat spinas de terra mala, id est, malas cogitationes' (the archive OCR drops 'malas' here and Gallica carries it -- our TEI is right)."
+    },
+    {
+      "from": "0239A",
+      "to": "0240D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f120",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers, and CHECKED ZERO for divergence: collated word by word against chunks 0021-0022 and our TEI agrees with the plate at every point across both columns. Confirmed as MIGNE'S OWN and left unmarked: 'Nono die quando Christus, sol justitiae' at 0239A; the unclosed attribution '(AUG., ibid., quaest. 62.' at 0240C, which the plate really does leave without its closing parenthesis; '(I Cor. 13)' set in arabic at 0240C where the same citation is roman at 0240A; 'Est una quidem Synagoga Domini. sed in quatuor castris dividitur' at 0240D, a full stop followed by lower-case 'sed'; 'non jam murmuranti et tentati Synagogae' at 0239B. Confirmed as printed and used by a marker: 'Non timebo quid faciat caro' at 0239D against the same paragraph's 'quid faciat mihi homo' (the [var:] site)."
+    },
+    {
+      "from": "0241A",
+      "to": "0242D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f121",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x; 8x crop for the 0242A call.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. TWO FINDINGS, BOTH OURS. (1) 0241A: our TEI reads 'circa tabernaculum Domini postia'; the plate sets 'posita'. Candidate [sic:] WITHDRAWN, patch filed. (2) 0242A: our TEI reads 'ut ostendat eis petrum ex qua bibant'; at 8x the plate sets 'petram' with an unmistakable 'a', which is also what 'ex qua' requires and what the parallel at 0241C prints. Candidate [sic:] WITHDRAWN, patch filed. Confirmed as printed and used by markers: 'Sitivit anima mea ad te, Deus (Psal. XLI)' at 0241C (the [var:] site); 'Unde Zach. VIII : Percutiam pastorem, et dispergentur oves gregis' at 0241D, with the Zacharias address printed against Matthew's wording (the [var:] site). Also confirmed as Migne's own: 'qui ait Joan. XV : Non vos me elegistis, sed ego vos elegi (Matth. XII)' at 0242D, a Johannine quotation carrying a Matthew citation; '(ORIG., hom. II in Exod.)' in roman numerals at 0242C where the same homily is '11' in arabic at 0240D and 0244B."
+    },
+    {
+      "from": "0243A",
+      "to": "0244D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f122",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x; 7-8x crops for the verse-address call. Second witness: the archive OCR text layer, decisive for the 0244C address.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, OURS. (1) 0244C: our TEI reads 'VERS. 12-25.-- Obtulit ergo Jethro'; the plate sets 'VERS. 12-15.' and the archive layer prints '12-15'. The reading is settled independently by the sequence, since the next address in the same column is 'VERS. 16-18' and 12-25 would swallow it. Patch filed; the English renders 12-15. (This leaf is also where the fount's figure 3 reads as a 5 -- 'VERS. 12, 13' at 0243D renders as '12, 15' -- so the archive layer, which distinguishes the two, was the check.) Confirmed as printed and used by markers: 'Extendi manus ad populum non credentem (Isa. LXV)' at 0243A, standing three words after the gloss 'Moyses elevat manus, non extendit' that turns on the verb (the [var:] site); 'unde Isa. XXXV : Remissas manus et genua debilia erigite' at 0243B (the [var:] site). Also confirmed as Migne's own and left unmarked: 'populus Dei non tam manum et armis quam voce et lingua pugnabat' at 0243B, an accusative where the sense wants an ablative; 'exonustare' at 0244A."
+    },
+    {
+      "from": "0245A",
+      "to": "0246D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f123",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x; 4-10x crops for the two letter-level calls. Corroborated against the archive OCR text layer at both.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. TWO FINDINGS, BOTH MIGNE'S. (1) 0245D: the plate sets 'et indicabunt populum omni hora' -- at 4x the first letters are a clean 'in' with no descender -- and the archive layer prints 'indicabunt' too. The gloss two lines below reads 'qui debent omni hora populum judicare'. Both witnesses agree, so the reading is Migne's: [cj:] fired, not [sic:], because 'indicabunt' is a real word that renders in place. (2) 0246C: the plate sets 'acce-|pti consilium inferioris' and at 10x the second line unmistakably opens 'pti'; the archive layer prints 'accepti'. 'accepti' has no grammatical slot -- the clause 'sed Moyses ... accepti consilium inferioris, ut ... daret' is left with no finite verb -- so [sic:] fired. Also confirmed as printed: 'Unde psal. I : Tibi soli peccavi' at 0245A, Migne's own address for Ps 50:6; 'Non satiabitur oculus visu, nec auris auditu' cited Eccle. I at 0246B, with the gloss picking up 'satiari' from it (the [var:] site); 'Matth. XII : Regina quoque austri surget in judicio cum viris generationis hujus, et condemnabit eam' at 0246A-B (the [var:] site); '(Exod. XXXIII)' at 0246B, ambiguous on Gallica between XXVIII and XXXIII and settled as XXXIII by the archive layer, which agrees with our TEI; 'et non quis dicat, sed quid dicatur auscultat' at 0246C; 'non cum auctoris nomine spernamus et dicta' at 0246C."
+    },
+    {
+      "from": "0247A",
+      "to": "0248D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f124",
+      "source": "Gallica IIIF, whole page native, four slices per column at 2.2x.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, OURS. (1) 0247A: our TEI reads 'non crubescens a minori et gentili doceri'; the plate sets 'erubescens', with 'erubescant erudiri' printing cleanly on the next line of the same paragraph. Candidate [sic:] WITHDRAWN, patch filed. Confirmed as printed and used by markers: 'Eccle. IX : In omni tempore sint vestimenta tua munda' at 0248B; 'II Cor. VII : Purificatus es corpore, mundatus ab omni inquinamento carnis et spiritus' at 0248B-C; 'Act. XI : Quae ergo Deus mundavit, tu immunda ne feceris' at 0248C -- all three [var:] sites, and all three standing inside a gloss built on cleanness of garments. Also confirmed as Migne's own and left unmarked: 'ac per hoc in ista umbra futuri secundum agni immolati diem festum;' at 0247C, a clause with no verb; 'quinquaginta dies numerantur. digitus enim Dei' at 0248D, a full stop followed by lower-case 'digitus'; 'quasi voti rei' at 0248A. Gallica's 'interpretati eunt' at 0247A is a broken s of the attested worn-sort class, not a reading."
+    },
+    {
+      "from": "0249A",
+      "to": "0250D",
+      "depth": "partial",
+      "date": "2026-09-08",
+      "page": "f125",
+      "source": "Gallica IIIF, whole page native, four slices of the left column at 2.2x plus a 9x crop of the first line; the foot of both columns read. Second witness: archive PDF p. 130 RENDERED at 500 dpi, corner numbers 249/250 read first, and its OCR text layer. Only col 249 carries text of this stint (the chunk ends mid-column, before CAPUT XX).",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, AND IT IS A PRESS VARIANT, NOT A DEFECT. At 0249A the GALLICA copy prints 'ut videntes non videant, et audientes nos intelligant (Isa. VI)'; the ARCHIVE copy, read as an IMAGE and not merely as OCR, prints 'ut videntes non vident, et audientes non intelligant'. The two copies differ at TWO words on one line, both impressions are clean, and neither is worn: at 9x the Gallica 'nos' is a fully formed italic s, nothing like an n. Our TEI agrees with Gallica at both words. Per the standing rule that where two clean copies differ there is no one to accuse, NO PATCH and NO [sic:]; the English renders the Gallica reading our TEI carries, and a [var:] records the received text. This is the PL 114 'two printings, not two photographs' shape appearing in PL 113. Also confirmed as printed: 'vel a bucca' at 0249A closing with NO terminal stop; '(GREG. lib. VI Moral., cap. 27.)' at 0249B with no comma after GREG; the chunk 0024 end at 'eum aliquatenus balbutiendo resonamus.' immediately before the CAPUT XX head, so the 0024/0025 boundary is a clean division."
+    }
+  ]
+}
