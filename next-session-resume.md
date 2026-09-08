@@ -1,6 +1,76 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-07 (evening) — 8957 *LIBER JOB* IS PREPARED · NOTHING IS OWED ON THE SHIPPED BOOKS
+## ▶▶▶▶▶ START HERE 2026-09-07 (night) — 8957 *LIBER JOB* IS DONE AND STAGED, UNDEPLOYED
+
+**One thing is owed from Wilson and nothing else blocks: the push and the deploy.**
+`/glossa` goes **56 → 57 of 58** when it ships. Built HTML confirms 57.
+
+### 1. ⛔ 8957 *LIBER JOB* — DONE, GATED AT THE DEPLOY
+
+38 chunks / 38,206 words over eight Opus stints, every one reading its own plates inline (4a″).
+14 TEI patches applied, patch-audit **14/0/0 warnings**, plate gate green, blind polarity read by
+four fenced readers over all 38 chunks (**16 sites, 2 ours, both repaired**), cruces merged from
+eight stint files with a work-wide conventions header, built + indexed, **preflight 8/8**.
+Badge is the fail-safe **New English translation** (`workStatus` left null, `englishState: ours`).
+
+▶ **What is owed:** `git push origin master`, then
+`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects` (rule 6b: the
+`--scope` is not optional and its absence fails as *"Not authorized"*), then smoke-test the
+**alias** — and the **cruces URL** as well as the work URL (`/cruces/pl/113/liber-job/`).
+
+⭐ **Burn came in at ~2.1M against a 3.30M hard stop** — 55K/chunk against the 73K inline rate
+quoted at launch. Eight stints at three concurrent, no usage window hit, no stint died.
+
+### 2. What this book taught, worth carrying to 8949 Exodus
+
+⭐⭐⭐ **THE ARCHIVE COPY REPAIRED ONE OF MIGNE'S DEFECTS — first measured instance.** At 0825A
+Gallica prints `congnosci` and the archive prints a clean `cognosci`. The standing worry about
+`patrologiaecurs04migngoog` has always been that its jbig2 symbol substitution *manufactures*
+defects; here it **normalised a real one out of existence**, and had it been the only witness the
+defect would have been invisible and unmarkable. Same rule (`never a sole witness for a letter`),
+opposite direction. Full ruling in `data/briefs/8957-ADJUDICATIONS.md`.
+
+⭐⭐ **A `«` at the start of a line is Migne's CONTINUATION mark.** Three `«` and one `»` can be
+perfectly faithful. With unopened and unclosed lemmata that accounts for all of this book's
+guillemet imbalance — twelve sites plate-confirmed as his, in both directions, plus one mid-line
+opening nothing. ⛔ **And the lemma inventory is BLIND to an unopened lemma**: it harvests by the
+marks, so those lemmata were never phrase-searched against the Clementine and had to be collated
+by hand. **A chunk whose `«` and `»` counts differ is pointing at one** — but the counts can also
+cancel within a chunk, so only a paragraph-bounded walk finds them all.
+
+⭐ **Corpus Corporum substitutes for Migne's own point, in BOTH directions** (0758A colon for his
+full stop, 0832D full stop for his colon). Either one read from our file alone is a textbook
+Pattern 8 finding *about Migne*. **In this book his punctuation cannot be inferred from our Latin
+at all.**
+
+⛔ **A single agent's self-report became a briefing instruction, and four stints inherited it.**
+One stint said this book's lemmata "stay Latin, this book's convention"; that went into four later
+briefs unchecked. Nothing downstream could see it — `verify-english` is silent, guillemet counts
+are unaffected. It was caught only because a later stint **checked the claim against the other
+chunks and declared a divergence instead of complying**, and then a measurement of all 38 chunks
+showed the affected set was *larger* than that stint had said. **Measure before briefing.**
+
+⚑ **Second-witness page map DRIFTS by quire.** The recorded archive map is `p = (col + 11) / 2`
+and it holds at p416/418/419, but the closing stint found `n = (col + 9) / 2` in the last quire —
+one leaf off. Read the printed corners on every page, every time.
+
+⚑ Operational: the stints wrote column labels both padded (`0827A`) and unpadded (`827A`); the
+plate gate normalises and **patch-audit did not**, so four patches standing on fully-read columns
+were reported as standing on unread ones. 64 labels normalised in `data/plate-reads.json`.
+
+### 3. Queue after Job
+**8949 Exodus (43,440 words)** closes `/glossa` at 58 of 58 — and it is the **last book owing the
+Hebrew book-title line** (plate p.97 / f92, *Hebraice VEELLE SEMOTH (ואלה שמות)… Græce ΕΞΟΔΟΣ…*).
+Then the PL 113 leftovers (8971/8972/8973 prologues, 8974 *Additiones*, 8975 *Ad lectorem*) and
+**PL 122 Eriugena** — `data/briefs/PL122-WITNESSES.md` first, and the *Variae lectiones* apparatus
+still needs its own encoding ruling from Wilson.
+
+⚑ Untracked and unrelated: `src/latin/7089/`, `7090/`, `7091/` (Innocent I, PL 20) are chunked
+but not committed and belong to no live thread.
+
+---
+
+## 2026-09-07 (evening) — 8957 Job prepared *(SUPERSEDED: translated, built, staged; preflight 8/8)* · NOTHING IS OWED ON THE SHIPPED BOOKS
 
 ⭐ **The two books the previous note called owed are DONE and LIVE.** 8961 Leviticus and 8956
 Isaiah are both translated, built, pushed and deployed — local `master` == `origin/master` at
