@@ -473,7 +473,7 @@ describes the PL 19/186 Optatian Porphyrius testimonia, not this one. Re-verify 
 
 ---
 
-## ▶▶▶▶▶ START HERE 2026-09-06 — 8963 *LIBER NUMERI* ✅ SHIPPED · ✅ PUSHED · ✅ DEPLOYED + SMOKE-TESTED
+#### (was: START HERE) 2026-09-06 — 8963 *LIBER NUMERI* ✅ SHIPPED · ✅ PUSHED · ✅ DEPLOYED + SMOKE-TESTED
 
 **Corpus 160 englished works. `/glossa` 54 of 58.** Live at `migne.app/pl/113/liber-numeri/`,
 aliased and smoke-tested on the real domain (work page, cruces, `/glossa`, `/authors`,
