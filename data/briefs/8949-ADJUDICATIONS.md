@@ -42,3 +42,44 @@ Kept because each is a class that will recur in this book:
 - `circum venit` — one word broken at a line end **with no hyphen**; not a Pattern 10 split run.
 - `(ORIG.) hom. 4 in Exod.)` — the unbalanced parenthesis is **Migne's own**; a TEI patch had
   been drafted for it and was withdrawn.
+
+## 4. ⛔⛔ OPEN — PL 113 EXODUS HAS A FOOT-OF-PAGE NOTE LAYER, AND WE CARRY NONE OF IT
+
+Raised by stint 0025–0029; **verified independently at the plate by the orchestrator before it
+was written into any brief** (the 8957 rule: a stint's self-report must be measured, not
+inherited). Gallica f128, cols 255/256: a long editorial note in smaller type runs across the
+foot of **both** columns and continues onto f129 — Augustine's enumeration of the Decalogue and
+the scholastic doctors who follow it, Athanasius, Gregory Nazianzen, Chrysostom, Jerome and
+Ambrose on the other side, and Origen conjoining the two concupiscence prohibitions. **It answers
+the question the columns above it are arguing about.**
+
+**What this overturns.** Prep read six leaves and found a clean foot on all six, and recorded
+coverage `spot`. That was accurate about those six leaves and too confident as a claim about the
+book. **Six of the stint's own seven leaves were also clean** — so the layer is **sparse, not
+absent**, which is precisely the distribution a spot check cannot see. `coverage.json` is
+corrected: **`spot` → `partial`**, notes known present, sequence unread, absence now means
+nothing anywhere in this work.
+
+⚑ **The `[sic:]`/`[var:]` plate reads are unaffected** — those columns were read, and reading a
+column is what licenses a marker. Only the foot-apparatus claim was wrong.
+
+▶ **Owed from Wilson, an ENCODING RULING, before recovery can start.** The key in the text is a
+**raised LETTER** (`ª`), which is neither layer CLAUDE.md rules on:
+- the **numbered** layer (`Forte …` conjectures) → `[cn: n | …]`, **Latin-only**, no English twin;
+- the **asterisk** layer (editorial cross-references) → `[cn: * | …]` **plus a translated
+  `[nt: …]`**, because those notes are sentences that say something and a Latin-only note strands
+  an English-only reader.
+
+**Recommendation: treat the raised-letter key as the asterisk layer** — `[cn: ª | …]` with a
+translated `[nt: …]` opposite it. This note is prose that says something, and Pattern 15's
+existing prose-vs-locator test is the test being applied; no new marker is invented, only a new
+key character admitted to the layer that already exists for prose. But it is Wilson's ruling.
+
+▶ **Then the recovery task:** sweep the work's ~57 leaves for the raised-letter key, recover to
+`data/plate-notes/8949.tsv`, **re-chunk** (`chunk-work.mjs` runs `inject-plate-notes.mjs` last, so
+an injection before chunking is erased silently), and re-verify. The English already shipped for
+0027 stays correct after recovery.
+
+⛔ **Do NOT let this block the translation run.** It is additive: it inserts notes, it does not
+change a word of the text or of the English. But the work must not ship claiming a checked-zero
+foot, and `preflight` should be run with the corrected coverage in place.

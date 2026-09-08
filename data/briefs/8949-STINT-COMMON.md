@@ -209,3 +209,16 @@ A ✓ is the beginning of the check, not the end of it.
   because the intrusive fragment `ver` has no English exponent for Pattern 11 to wrap.
 - ⚑ **Do not stack a marker on Migne's own bracket.** `concludit [condidit]` at 0233C is his
   conjecture, printed as such.
+
+### ⛔ From stint 0025–0029 — WATCH THE FOOT OF EVERY PAGE. THIS BOOK HAS NOTES.
+
+**The prep record said this book's foot is clean. It was wrong** — six leaves happened to be
+clean, and the layer is sparse rather than absent. At **f128 (cols 255/256)**, running onto f129,
+Migne sets a long editorial note across the foot of both columns on the division of the Decalogue,
+keyed in the text by a **raised LETTER** (not an asterisk, not a number). Verified at the plate.
+
+**So, on every leaf you open:** look at the foot, both columns, and **record what you find AND
+what you do not** in your plate-reads file. A checked zero is a result and this book has just
+proved why. If you find a note: transcribe it and the raised key and the exact point it is keyed
+from, and file it in your PENDING-TEI-PATCHES file under a `FOOT NOTE` heading — **do not invent
+a marker for it**; the encoding is an open ruling (`data/briefs/8949-ADJUDICATIONS.md` §4).
