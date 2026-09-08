@@ -145,3 +145,26 @@ Name **every chunk you translated**, every page you opened at the plate **and it
 numbers**, your span count against the brief's declared total, your `[var:]` / `[sic:]` /
 `[ed:]` / `[d:]` markers with columns, and the candidates you **rejected and why**. A report that
 lists only findings cannot be told apart from a report by a stint that never looked.
+
+---
+
+## 11. ⭐ Learned inside this run — read before you fetch a plate
+
+Appended as stints report. These are facts about THIS tome and THIS scan, paid for once.
+
+- **Gallica returns 429 on concurrent fetches.** Serialize your requests and back off
+  (`curl --retry --retry-delay`). Three stints are reading the same ark at the same time.
+- **The archive copy's OCR TEXT LAYER covers this volume and is greppable.**
+  `raw/scans/pl113/patrologiaecurs04migngoog_djvu.txt` — corroborating a Gallica reading against
+  it is nearly free, and much cheaper than rendering the PDF page. ⚠ It is still the jbig2 copy:
+  useful as a second witness for a WORD, never decisive for a LETTER.
+- **The archive copy manufactures punctuation too, not just letters.** At 0184B it prints
+  parentheses where the plate sets square brackets. Do not fire on a bracket class from it alone.
+- **The `f = ceil(column / 2)` map held with no quire drift across f92–f97.** That is not
+  permission to skip the corner numbers — 8957 found drift in its last quire — but it means a
+  mismatch is a signal, not the expected case.
+- **Pattern 9 is doing real work in this book.** Two `[sic:]` candidates were correctly declined
+  at 0184B (`divictis`) and 0185A (`concientiam`): both are Migne's, both plate-confirmed, and
+  both are standard medieval orthographic alternations (`di-`/`de-`, `sc`→`c`) that Pattern 9
+  exempts. At 0184B **Migne had already flagged the place himself** with a bracketed
+  `[devicto eo]` — never stack ours on top of his own mark.

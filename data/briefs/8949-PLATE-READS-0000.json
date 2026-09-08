@@ -1,0 +1,64 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0000-0004 (bands 0183A-0193C). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF). Fetched /full/full/0/native.jpg once per leaf and cropped locally with PIL; region coordinates were never sent to IIIF. Gallica returns 429 on concurrent fetches -- serialize with curl --retry/--retry-delay.",
+  "page_map": "Gallica leaf f = ceil(column / 2). CONFIRMED on all six leaves of this range by reading the printed corner numbers before any text: f92=183/184, f93=185/186, f94=187/188, f95=189/190, f96=191/192, f97=193/194. No quire drift in this range.",
+  "second_witness": "archive.org patrologiaecurs04migngoog. Its OCR text layer (raw/scans/pl113/patrologiaecurs04migngoog_djvu.txt) DOES cover this range and was consulted at four sites. It is 1-bit JBIG2 (symbol substitution) so it is never a sole witness here: at 0183D, 0189C and 0191D it corroborates a clean Gallica reading; at 0186D, where Gallica is under-inked, its reading is reported as provisional and the marker was withdrawn rather than fired. It was also seen to MANUFACTURE a defect at 0184B, printing parentheses where the plate prints square brackets.",
+  "reads": [
+    {
+      "from": "0183A",
+      "to": "0184D",
+      "depth": "targeted",
+      "date": "2026-09-08",
+      "page": "f92",
+      "source": "Gallica IIIF, native 1914x3121. CALIBRATION: printed corner numbers read FIRST, before any text -- left 183, right 184, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Crops: left column head (banner + PROTHEMATA head) at 2.2x; left column 0183A body at 2.4x; left column 0183A mid at 4.0x; left column foot 0183D at 2.4x and one line at 6.0x; right column 0184B at 3.0x and 3.4x. No crop crossed the centre gutter.",
+      "found": "FOUR RESULTS. (1) The book-title banner is confirmed on the plate, set above and across the PROTHEMATA head, with the Hebrew present as type -- it is a display line, not a section head, exactly as the brief states. (2) 0183A prints 'corporalis noster exitus de Aegypto spirituali' -- our twin is correct and the odd word is Migne's; carried as a [cj:], no patch. (3) 0183A prints the genitive plural 'et Hebraeorum liberationum' among accusatives -- Migne's own; rendered literally, no marker. (4) DIVERGENCE: 0183D prints 'et terra te multiplicat in operibus bonis' where our twin has 'et'; patch filed. Also confirmed at 0184B: 'et divictis eis [devicto eo]' with SQUARE brackets, verbatim as our twin -- the second witness's parentheses are its own noise."
+    },
+    {
+      "from": "0185A",
+      "to": "0186D",
+      "depth": "targeted",
+      "date": "2026-09-08",
+      "page": "f93",
+      "source": "Gallica IIIF, native 1868x3096. CALIBRATION: printed corner numbers read FIRST -- left 185, right 186, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Crops: left column bands A, C and D at 3.2x; right column band D at 3.6x and 4.2x, plus a 9x and a 13x autocontrast crop of a single word. No crop crossed the centre gutter.",
+      "found": "FOUR RESULTS. (1) 0185A prints 'intra con-' / 'cientiam flagitiosa committere', hyphenated across a line -- 'concientiam' is Migne's own orthography, twin correct; NO [sic:] fired (see cruces). (2) 0185C prints 'Vade retro, Satana' -- 'retro' is on the plate, so the divergence from the Vulgate's 'Vade Satana' is Migne's and a [var:] stands. (3) 0185D prints the whole Jeremias XVII partridge verse verbatim as our twin has it, including 'Clamavit ... congregavit ... derelinquent eum ... erit stultus'; [var:] stands. (4) 0186D is UNDER-INKED at the disputed letter of 'divi?orum' and could not be decided by eye; recorded as a checked-but-undecided letter, marker withdrawn, provisional patch filed."
+    },
+    {
+      "from": "0187A",
+      "to": "0188D",
+      "depth": "targeted",
+      "date": "2026-09-08",
+      "page": "f94",
+      "source": "Gallica IIIF, native 1887x3105. CALIBRATION: printed corner numbers read FIRST -- left 187, right 188, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Crops: page head strip at 1.6x (which itself carries the first lines of column 187); right column band D at 3.2x. No crop crossed the centre gutter.",
+      "found": "TWO RESULTS, both confirming the twin. (1) The head of column 187 prints 'altera, rubens vel verecunda, moralis est, mores componit, verecundiam docet et honestatem.' -- our twin verbatim, italics included. (2) 0188D prints 'Nunquid me occidere tu vis?' and 'Obliviscere populum tuum, et domum patris tui, quia concupivit rex speciem tuam (Psal. XLIV)' -- both verbatim as our twin, so the Psalm 44 divergence from the Vulgate is Migne's and a [var:] stands. CHECKED ZERO for carried type on both columns' sampled bands."
+    },
+    {
+      "from": "0189A",
+      "to": "0190D",
+      "depth": "targeted",
+      "date": "2026-09-08",
+      "page": "f95",
+      "source": "Gallica IIIF, native 1911x3121. CALIBRATION: printed corner numbers read FIRST -- left 189, right 190, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Crops: left column bands B, C (twice) and D (twice) at 3.4x-3.8x; right column band D at 4.0x and 4.4x. No crop crossed the centre gutter.",
+      "found": "FIVE RESULTS. (1) DIVERGENCE: 0189C prints 'regalia colloce-' / 'mus' where our twin has 'collecemus'; patch filed. (2) 0189B prints the Romans X quotation verbatim as our twin ('inducam ... concitabo'); [var:] stands. (3) 0189D prints the Jeremias IX quotation verbatim as our twin; [var:] stands. (4) 0190D prints 'Post multum vero temporis, etc' with NO full stop after 'etc' at a line end -- twin correct, mark not supplied in the English. (5) 0190D confirms 'temporis', which is where the brief's Clementine pre-scan flagged a match-only-elsewhere: the Clementine prints the ablative 'tempore'. Recorded, no marker (no sense turns on it, and the comparand's own reading is ungrammatical)."
+    },
+    {
+      "from": "0191A",
+      "to": "0192D",
+      "depth": "targeted",
+      "date": "2026-09-08",
+      "page": "f96",
+      "source": "Gallica IIIF, native 1903x3115. CALIBRATION: printed corner numbers read FIRST -- left 191, right 192, running head 'WALAFRIDI STRABI FULD. MON. OPP. PARS I. -- THEOLOGICA.' Crops: left column band D at 3.8x; right column bands B and D at 3.4x-3.6x. No crop crossed the centre gutter.",
+      "found": "THREE RESULTS. (1) DIVERGENCE: 0191D prints 'qua ratione sacerdotes in tabernaculo Dei ministrent' where our twin has 'sacertodes'; patch filed. The same column prints 'sacerdo-' / 'tale' two lines later, giving a same-column control for the letters. (2) 0192B prints 'tanto delectabiliter tenent, quanto quod libuerit, non licet.' verbatim as our twin, comma included -- the positive degree where Gregory has 'delectabilius' is Migne's; declined as a [cj:] under Pattern 18a, logged as a crux. (3) 0192D prints 'In terram bonam et spatiosam, in terra quae fluit lacte, etc.' -- the accusative/ablative shift is really on the plate; twin correct, carried by a [var:]."
+    },
+    {
+      "from": "0193A",
+      "to": "0193C",
+      "depth": "targeted",
+      "date": "2026-09-08",
+      "page": "f97",
+      "source": "Gallica IIIF, native 1912x3124. CALIBRATION: printed corner numbers read FIRST -- left 193, right 194, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.' Crops: left column head strip at 1.6x, and left column bands B-C at 3.4x. A crop taken lower on the same column landed in CAPUT IV, i.e. past this stint's range, and was discarded. No crop crossed the centre gutter.",
+      "found": "TWO RESULTS, both confirming the twin. (1) Column 193 opens with 'VERS. 14-16. -- Qui est, misit me ad vos, etc. Mittitur Moses ad Pharaonem puniendum et tandem' -- confirming both the chunk-0004 boundary and the [0193A] anchor position. (2) 0193B-C prints 'atque addidit, et praedabimini eos, mandati hujus non potest esse injustum judicium ... ad servum pertinet obedienter facere quod mandavit. VERS. 22. -- Vasa argentea.' verbatim as our twin, italics included -- so the Exodus 3:22 divergence from the Vulgate's 'et spoliabitis Aegyptum' is Migne's and a [var:] stands. CHECKED ZERO for carried type across the read band."
+    }
+  ]
+}
