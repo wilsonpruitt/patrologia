@@ -1,6 +1,102 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-08 — 8949 *LIBER EXODUS* PREPARED · NOT LAUNCHED · HARD STOP OWED
+## ▶▶▶▶▶ START HERE 2026-09-08 (late) — 8949 *LIBER EXODUS* IS DONE AND STAGED · TWO THINGS OWED FROM WILSON
+
+✅ **Translated, merged, read, built, indexed. `preflight 8/8`. `/glossa` reads 58 of 58 — the
+Glossa ordinaria block is CLOSED.** Local `master` is **14 commits ahead of `origin/master`** and
+nothing has been pushed or deployed.
+
+### ▶ OWED FROM WILSON — 1. push + deploy (each its own OK)
+
+    git push origin master
+    cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects
+
+⛔ The `--scope` is not optional; without it the deploy fails as *"Not authorized"*. **Smoke-test
+the ALIAS, not the deployment URL**: `/pl/113/liber-exodus/`, `/cruces/pl/113/liber-exodus/`,
+`/glossa` (must read **58**), `/queue`, `/`.
+
+### ▶ OWED FROM WILSON — 2. AN ENCODING RULING, and it gates the shipping CLAIM not the text
+
+**This book has a foot-of-page note layer and we carry none of it.** Full statement in
+`data/briefs/8949-ADJUDICATIONS.md` §4. The key is a **raised LETTER**, which is neither layer
+CLAUDE.md rules on. Recommendation: treat it as the asterisk layer — `[cn: ª | …]` plus a
+translated `[nt: …]`, since the note is prose that says something and Pattern 15's existing
+prose-vs-locator test is the test being applied. Coverage is already corrected to `partial`, so
+the work does **not** ship claiming a checked-zero foot. Recovery is additive and changes no word
+of the English.
+
+### 1. What the run was
+
+44 chunks / 46,356 words over **nine Opus stints**, every one reading its own plates inline (4a″),
+then **four fenced polarity readers** over the whole book. **~3.5M burn against a ≈3.9M hard stop**
+(the runbook's 73K/chunk inline rate; the stints ran 55K–103K, averaging ~77K).
+
+**113 of the work's 114 columns were read at the plate**, corners checked first on every leaf —
+effectively a full collation. Only col 218 is unread and nothing stands on it. 149 markers, all
+gate-clean: **123 `[var:]`, 7 `[sic:]`, 5 `[cj:]`, 1 `[ed:]`, 1 `[d:]`, 1 `[nt:]`.**
+
+### 2. ⭐⭐⭐ THE RESULT WORTH CARRYING: 36 TEI PATCHES AND EVERY ONE IS OURS
+
+Not one is a defect of Migne's. Each was a candidate `[sic:]` — a public accusation against the
+printer — that died when a translator opened the plate **while the words were still in view**.
+That is the whole argument for 4a″, paid out 36 times in one book.
+
+⛔ **And the two witnesses lie in BOTH directions, one stint apart:**
+- 0005–0009: four readings looked like his broken type from our twin alone; **all four were ours.**
+- 0035–0039: the archive copy **silently repaired him three times in thirteen columns**
+  (`Sicuttibi`, `snpra`, `uque ad` — all genuinely on the plate). Trusting its agreement would have
+  cleared him of what he did; trusting its disagreement would have convicted him of what he did not.
+- **Rule, now evidenced both ways: Gallica is the photograph and it decides. The archive is jbig2 —
+  corroborate a WORD with it, never settle a LETTER, never clear a defect Gallica shows.**
+- ⚠ 0249A is an OPEN disagreement, **not** the press variant a stint called it: both archive
+  readings move toward the expected Lc 8:10 wording, which is what a symbol-substitution codec
+  does. Google Books `YfwQAAAAYAAJ` would settle it. ADJUDICATIONS §5.
+
+### 3. What the blind read found, and why it must stay human
+
+Six sites, all new. **Two were OURS** — 0018 @0230C, a dropped `nisi` that reversed Origen's
+argument, and 0025 @0251B, a `quia` read as causal where it is indirect statement.
+⛔ **On the first, the negation-particle counts MATCHED on both sides.** No mechanical check could
+have seen it, and that is the standing case against automating step 4a.
+Migne's own: `[cj: injustus; read justus]` @0253C, settled by **his own doublet of the same Origen
+passage at 0254B**; `Nono`/`Novo` @0239A; a dropped `non` @0199D (logged, conjecture arguable);
+`aere` for `auro` @0283D — **plate-checked, the `ære` is his**, and the `usque ad` abridgment hides
+the clause that would settle it.
+
+### 4. ⛔ THE HEBREW SWEEP WAS RUN WRONG THE FIRST TIME — the lesson is in `hebrew-recovery.md`
+
+Prep found four sites and declared the work clean. A translation stint found **three more**
+(תשרי 0263B, כרוב/כרובים 0267D — the last pair load-bearing, since Bede's gloss IS the contrast
+between the two Hebrew forms). **THE CHUNKER COLLAPSES WHITESPACE, so a whitespace scar is
+invisible in `src/latin/` and survives only in the source TEI.** The same grep returns all five
+scars against the TEI and **zero** against the chunks. The prep pass greped the chunks, found its
+two whitespace scars through the `Hebraice` hook by luck, then wrote the whitespace rule as its own
+headline finding **and never ran it**. Recipe updated with both grep results.
+
+⭐ **The Pentateuch book-title class is CLOSED** — *Hebraice VEELLE SEMOTH (ואלה שמות)…* recovered
+on two witnesses, fifth and last of the five.
+
+### 5. Held back deliberately (an uncertain read does not move the Latin)
+0186D `divirorum` (provisional, Gallica under-inked), 0219B (a Greek iota needing a second
+witness), and three markup-only sites where a citation should be a `<note>` but carries a `<pb>`
+inside it. ⭐ A fourth, 0295A `annuns`, was held and then **confirmed at 14× and applied** — a
+blind reader had independently flagged it as the one place our English silently repaired Migne,
+which is exactly the inconsistency the hold created.
+
+### 6. Tool fix, and it had already bitten a shipped work
+`scripts/patch-audit.mjs` held `<pb>` offsets stale across length-changing patches, so a run of
+insertions drifted every later column. Fixed to rebuild after every apply. The fix then failed
+**8956 Isaiah #23**, whose declared `1297A` is really `1296D` and whose rationale had been written
+to explain the tool's artifact. Corrected; no Latin, no English, no shipped page moved.
+
+### 7. Queue after Exodus
+`/glossa` is closed at 58/58. Next: the PL 113 leftovers (8971/8972/8973 prologues, 8974
+*Additiones*, 8975 *Ad lectorem*), then **PL 122 Eriugena** — `data/briefs/PL122-WITNESSES.md`
+first, and the *Variae lectiones* apparatus still needs its own encoding ruling.
+
+---
+
+## 2026-09-08 (morning) — 8949 Exodus prepared *(SUPERSEDED: translated, merged, read, built; preflight 8/8)*
 
 Nothing is owed on the shipped books: local `master` was clean and level with `origin/master`
 at `c6e1b09` when this session began, and 8957 Job is live.
