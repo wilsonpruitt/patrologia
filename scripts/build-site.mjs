@@ -46,6 +46,7 @@ const INDEXES = [
   'build-sources.mjs',
   'build-queue.mjs',
   'build-rights.mjs',
+  'build-export-page.mjs',
   'build-polarity-report.mjs',
   'build-landing.mjs',
 ];

@@ -1,0 +1,28 @@
+# Migne
+
+> English translation of Jacques-Paul Migne's Patrologia Latina (1844-1855)
+> and Patrologia Graeca (1857-1866), with the Latin/Greek source printed
+> alongside, by column.
+
+Source text (Latin, Greek) is public domain. The English translation,
+editorial apparatus ("On this text", headnotes, cruces), and encoding
+(column-anchor citation scheme, work keys, segmentation) are CC BY-NC 4.0,
+attribution "migne.app (Wilson Pruitt, Wroot Press)". Machine-learning
+training and retrieval are explicitly permitted under those terms,
+including for commercial model development — see the Machine use section
+at https://migne.app/rights
+
+## Structure
+- One canonical page per work: https://migne.app/pl/<volume>/<slug>/ and
+  https://migne.app/pg/<volume>/<slug>/
+- Every work page has plain-text and JSON siblings: append .txt or .json
+  to the work URL, e.g. https://migne.app/pl/<volume>/<slug>.txt
+- Bulk export (all englished works, one JSON record each, source text and
+  English aligned): https://migne.app/export
+
+## Credits
+Greek (PG) from the CGPG corpus (Calfa GREgORI Patrologia Graeca,
+UCLouvain), CC BY 4.0. Latin (PL) from the University of Zurich's Corpus
+Corporum (mlat.uzh.ch), TEI encoding by Ph. Roelli.
+
+Sitemap: https://migne.app/sitemap.xml

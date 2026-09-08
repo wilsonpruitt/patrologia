@@ -13,6 +13,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
 import { isFirstEnglishPG } from './lib/first-english.mjs';
+import { canonicalTag, jsonLdScript, workJsonLd, writeWorkSiblings } from './lib/reading-layer.mjs';
 
 const key = process.argv[2];
 if (!key) { console.error('usage: node scripts/build-work-page-pg.mjs <workKey>'); process.exit(1); }
@@ -295,6 +296,13 @@ const crucesLink = hasCruces
   ? `    <p class="cruces-link"><a href="/cruces/pg/${vol}/${slug}/">Cruces for this work &mdash; where the plate is defective or the reading uncertain &rarr;</a></p>`
   : '';
 
+const canonical = `https://migne.app/pg/${vol}/${slug}/`;
+const sourceEdition = `Migne, Patrologia Graeca, vol. ${vol}, coll. ${colFirst}–${colLast}`;
+const jsonLd = workJsonLd({
+  canonical, title: work.title, author: work.author, sourceEdition, sourceLang: 'grc',
+  isPartOf: 'https://migne.app/graeca/',
+});
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -302,10 +310,12 @@ const html = `<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="migne-pg-key" content="${esc(String(work.key))}">
 <title>${esc(work.author)}, ${esc(work.title)} — PG ${vol}, ${colFirst}–${colLast} · Migne</title>
+${canonicalTag(canonical)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+${jsonLdScript(jsonLd)}
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -371,6 +381,14 @@ document.addEventListener('DOMContentLoaded', function () {
 const outDir = path.join(ROOT, 'site/pg', String(vol), slug);
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, 'index.html'), html);
+
+writeWorkSiblings({
+  outParentDir: path.join(ROOT, 'site/pg', String(vol)),
+  slug, canonical, title: work.title, author: work.author, sourceEdition, sourceLang: 'grc',
+  sourceText: grcText,
+  englishText: engText,
+  extra: { key, volume: vol },
+});
 
 // append PG-specific styles to site/styles.css once
 const cssPath = path.join(ROOT, 'site/styles.css');

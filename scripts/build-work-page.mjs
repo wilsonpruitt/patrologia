@@ -13,6 +13,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { nav } from './lib/chrome.mjs';
 import { isFirstEnglishPL, loadPlStatusByIdno, badgeHtml } from './lib/first-english.mjs';
+import { canonicalTag, jsonLdScript, workJsonLd, writeWorkSiblings } from './lib/reading-layer.mjs';
 
 const idno = process.argv[2];
 if (!idno) { console.error('usage: node scripts/build-work-page.mjs <textIdno>'); process.exit(1); }
@@ -388,6 +389,13 @@ const crucesLink = hasCruces
   ? `    <p class="cruces-link"><a href="/cruces/pl/${vol}/${slug}/">Cruces for this work &mdash; where the plate is defective or the reading uncertain &rarr;</a></p>`
   : '';
 
+const canonical = `https://migne.app/pl/${vol}/${slug}/`;
+const sourceEdition = `Migne, Patrologia Latina, vol. ${vol}, coll. ${colFirstDisp}–${colLastDisp}`;
+const jsonLd = workJsonLd({
+  canonical, title, author: authorNames, sourceEdition, sourceLang: 'la',
+  isPartOf: 'https://migne.app/latina/',
+});
+
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -397,10 +405,12 @@ const html = `<!DOCTYPE html>
      instead of by volume-plus-title, a key that collides on 176 pairs. -->
 <meta name="migne-idno" content="${esc(String(idno))}">
 <title>${esc(authorNames)}, ${title} — PL ${vol}, ${parseInt(manifest.colFirst, 10)}–${parseInt(manifest.colLast, 10)} · Migne</title>
+${canonicalTag(canonical)}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
+${jsonLdScript(jsonLd)}
 <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
@@ -467,6 +477,14 @@ document.addEventListener('DOMContentLoaded', function () {
 const outDir = path.join(ROOT, 'site/pl', String(vol), slug);
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, 'index.html'), html);
+
+writeWorkSiblings({
+  outParentDir: path.join(ROOT, 'site/pl', String(vol)),
+  slug, canonical, title, author: authorNames, sourceEdition, sourceLang: 'la',
+  sourceText: joined(latDir),
+  englishText: joined(engDir),
+  extra: { idno: String(idno), volume: vol },
+});
 
 // styles: sketch base + reading-page additions
 let css = fs.readFileSync(path.join(ROOT, 'sketch/styles.css'), 'utf8');
