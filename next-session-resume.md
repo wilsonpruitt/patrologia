@@ -1,11 +1,20 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-07 (night) — 8957 *LIBER JOB* IS DONE AND STAGED, UNDEPLOYED
+## ▶▶▶▶▶ START HERE 2026-09-07 (night) — 8957 *LIBER JOB* IS LIVE · NOTHING IS OWED
 
-**One thing is owed from Wilson and nothing else blocks: the push and the deploy.**
-`/glossa` goes **56 → 57 of 58** when it ships. Built HTML confirms 57.
+✅ **PUSHED AND DEPLOYED 2026-09-07** (Wilson's OK, both actions). `origin/master` at `3bf10aa`,
+production `dpl_3GZwbgztE7uZpyqkWo6CesrSxsWb`, **aliased to migne.app**. Smoke-tested on the
+ALIAS, not the deployment URL: `/pl/113/liber-job/`, `/cruces/pl/113/liber-job/`, `/glossa`,
+`/queue` and `/` all 200; **`/glossa` reads 57 Englished**; the landing page lists the work; the
+work page carries the body (`the land of Hus`), the fail-safe **New English translation** badge,
+and **zero raw `[brackets]`**. The cruces page quotes its markers as literal text, which is the
+normal convention (Isaiah 82, Leviticus 75, Job 125).
 
-### 1. ⛔ 8957 *LIBER JOB* — DONE, GATED AT THE DEPLOY
+⚑ The deploy command was issued twice — the first run also completed and produced
+`migne-kkggbffh6…`; the second is the one holding the alias. No harm, but check the alias, never
+assume the first invocation failed because its output scrolled.
+
+### 1. ✅ 8957 *LIBER JOB* — SHIPPED
 
 38 chunks / 38,206 words over eight Opus stints, every one reading its own plates inline (4a″).
 14 TEI patches applied, patch-audit **14/0/0 warnings**, plate gate green, blind polarity read by
@@ -13,10 +22,8 @@ four fenced readers over all 38 chunks (**16 sites, 2 ours, both repaired**), cr
 eight stint files with a work-wide conventions header, built + indexed, **preflight 8/8**.
 Badge is the fail-safe **New English translation** (`workStatus` left null, `englishState: ours`).
 
-▶ **What is owed:** `git push origin master`, then
-`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects` (rule 6b: the
-`--scope` is not optional and its absence fails as *"Not authorized"*), then smoke-test the
-**alias** — and the **cruces URL** as well as the work URL (`/cruces/pl/113/liber-job/`).
+✅ Nothing owed. (Deployed with `npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`
+from `site/` — rule 6b: the `--scope` is not optional and its absence fails as *"Not authorized"*.)
 
 ⭐ **Burn came in at ~2.1M against a 3.30M hard stop** — 55K/chunk against the 73K inline rate
 quoted at launch. Eight stints at three concurrent, no usage window hit, no stint died.
