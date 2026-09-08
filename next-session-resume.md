@@ -168,7 +168,7 @@ first, and the *Variae lectiones* apparatus still needs its own encoding ruling 
 
 ---
 
-## ▶▶▶▶▶ START HERE 2026-09-07 (night) — 8957 *LIBER JOB* IS LIVE · NOTHING IS OWED
+#### (was: START HERE) 2026-09-07 (night) — 8957 *LIBER JOB* IS LIVE · NOTHING IS OWED
 
 ✅ **PUSHED AND DEPLOYED 2026-09-07** (Wilson's OK, both actions). `origin/master` at `3bf10aa`,
 production `dpl_3GZwbgztE7uZpyqkWo6CesrSxsWb`, **aliased to migne.app**. Smoke-tested on the
