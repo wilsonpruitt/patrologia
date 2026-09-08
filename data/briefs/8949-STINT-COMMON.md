@@ -189,3 +189,23 @@ book has so far produced none.**
   and left the Latin permanently wrong.
 - ⚑ **Migne often discloses a divergence himself** — *Alia littera* (0197A), an `LXX.` label
   (0201B), his own abridging *etc.* **Take no marker where he has already marked it.**
+
+### From stint 0015–0019 — the ✓-against-the-wrong-VERSE class is live in this book
+
+Two of its 33 `[var:]` are cases where **Migne's own citation names one place and his printed
+words are another's**: at 0227D he cites *Amos IX* and prints Jdt 16:3's wording; at 0230B he
+cites *Isa. LXV* and prints Rom 10:21 verbatim. Your brief's ✓ tells you the words occur
+somewhere in the Clementine — **read the address it gives you against the address Migne prints.**
+A ✓ is the beginning of the check, not the end of it.
+
+- ⭐ **The divergences worth most are the ones the gloss is BUILT ON.** Rank them that way in your
+  report: 0229C (*dexteram* for *manum* — the very crux Origen sets out to solve) and 0232A
+  (*in saeculum … et adhuc* against *in aeternum et ultra* — a full column of exposition with
+  nothing left standing) are worth more than a dozen word-order variants.
+- ⚑ **Verse is set as PROSE in this book.** Ex 15, the canticle of Moses, is continuous prose on
+  every leaf, so it ships unlineated (style 8a). Do not lineate what Migne sets as prose.
+- ⚑ **`[sic:]` vs `[d:]` on a doubled fragment:** 0224D ends `haec ver-` hyphenated and 0225A
+  opens `verba,` — `ververba`, doubled in BOTH copies, so Migne's. Marked `[sic:]` and not `[d:]`
+  because the intrusive fragment `ver` has no English exponent for Pattern 11 to wrap.
+- ⚑ **Do not stack a marker on Migne's own bracket.** `concludit [condidit]` at 0233C is his
+  conjecture, printed as such.

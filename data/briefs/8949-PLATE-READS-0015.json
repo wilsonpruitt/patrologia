@@ -1,0 +1,73 @@
+{
+  "_note": "Stint-scoped plate reads for 8949 chunks 0015-0019 (bands 0221B-0234D). Merge into data/plate-reads.json works.8949.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF). Whole pages fetched once at /full/full/0/native.jpg, serialized with curl --retry/--retry-delay per the 429 warning in the common brief, and cropped LOCALLY with PIL; no IIIF region was used. Each page read as four vertical slices per column at ~2.4x LANCZOS, with 7-14x crops for the six letter-level calls. No crop crossed the centre column division (left column x 0.045-0.515 of page width, right column x 0.498-0.985; band letters sit between).",
+  "page_map": "Gallica leaf f = (column + 1) / 2. CONFIRMED on all seven leaves against the printed corner numbers, which were read FIRST on every page before any text: f111=221/222, f112=223/224, f113=225/226, f114=227/228, f115=229/230, f116=231/232, f117=233/234. No quire drift anywhere in the range.",
+  "second_witness": "archive.org patrologiaecurs04migngoog. Consulted via its OCR TEXT LAYER (raw/scans/pl113/patrologiaecurs04migngoog_djvu.txt), per section 11 of the common brief, at five sites: 0221C resurgant, 0225A ververba (both halves), 0225D id est comma, 0228C iniqui, 0230C scili-, 0229D dicite, 0234A the point after Domini Dei. Decisive four times. Used as a witness for a WORD only, never alone for a letter.",
+  "reads": [
+    {
+      "from": "0221A",
+      "to": "0222D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f111",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 221, right 222, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both apparatus layers (no numbered Forte notes, no asterisk or letter layer). Collated word by word against chunk 0015 over 0221B-0222D; our TEI agrees with the plate throughout with no exceptions. CONFIRMED as printed: the Osee VI quotation 'Resuscitabit nos Deus post biduum, et in die tertia resurgemus, et vivemus in conspectu ejus' (the 0221C [var:] site); 'pictatia vel phylacteria' at 0222B; the whole Aquila/Seventy paragraph at 0222D including 'quinta autem generatione', 'et armati ascenderunt', 'instructi vel muniti' and 'non quinta, sed quinque'. EXAMINED AND DECLINED at 0221C: our twin's 'resurgant' sets a heavily inked bowl on Gallica that can be read as an 'o'; a 14x crop did not settle it, the archive copy prints 'resurgant' cleanly, and the ut-clause requires the subjunctive. No marker, no patch."
+    },
+    {
+      "from": "0223A",
+      "to": "0224D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f112",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 223, right 224, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, and it is MIGNE'S. The last line of column 0224D reads 'Quomodo autem sunt accipienda haec ver-' with a line-end hyphen, and the first line of 0225A (leaf f113) reads 'verba, cum viderint postea Israelitae Aegyptios? An' -- the compositor set the catch-fragment and then reset the whole word. Read through, the plate prints 'haec ververba', which is exactly what our twin has; the archive copy shows the same doubling independently. [sic: *ververba*] fired at 0225A. Also CONFIRMED as printed: 'Arcta est enim et angusta via quae ducit ad vitam' (Matth. VII) and 'Quis vestrum volens turrim aedificare ... si habet unde perficiat?' (Luc XIV) at 0223D; the single-word lemma 'Fuisset.' at 0224B; 'Qui enim volunt pie vivere in Christo, persecutionem patiuntur' (II Tim. III); the whole Levavit ... Elevavit clause at 0224B; 'Tanquam non essent sepulcra in Aegypto, ita eduxisti nos' at 0224C standing six lines above Migne's own Vulgate-form lemma 'Forsitan non erant sepulcra'; the citation 'Matth. XIII' for Mt 14:31 at 0224C (Migne's own error, left as printed); 'Sicut enim vidistis Aegyptios hodie, non apponetis amplius videre eos in aeternum tempus' at 0224D. 'Fuistis aliquando tenebrae, nunc autem lux in Domino' confirmed at 0223A-B (the [var:] site)."
+    },
+    {
+      "from": "0225A",
+      "to": "0226D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f113",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 225, right 226, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, and it is OURS. At 0225D the plate reads 'percute et tu obluctantes undas virga, id est, verbo legis' with a COMMA after 'id est'; our twin prints a full stop ('id est. verbo'). The archive copy prints a comma too (l. 17364). TEI patch filed; the English renders the comma. Also CONFIRMED as printed: the head line of 0225A ('verba, cum viderint postea Israelitae Aegyptios? An'), which is what settles the ververba call on the previous leaf; 'Quia dabit Deus Spiritum Filii sui in cordibus nostris clamantem: Abba, Pater' and 'ipse Spiritus interpellat pro nobis gemitibus inenarrabilibus' at 0225B (both [var:] sites); the Psalm LXVII quotation 'Ibi Benjamin minor in stupore ...' at 0225C; the unitalicized Eph. VI quotation 'Assumentes scutum fidei ...' at 0226A; 'homil. 6 n Exod.' -- checked and the plate reads 'homil. 6 IN Exod.' at 0226C, so the missing 'i' is ours; patch filed, the note itself rides verbatim in the English."
+    },
+    {
+      "from": "0227A",
+      "to": "0228D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f114",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 227, right 228, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, and it is OURS. At 0228C our twin reads 'inde miqui merguntur in profundum', a non-word; the plate breaks the word at the line as 'inde ini-' / 'qui merguntur', i.e. INIQUI, and a 12x crop shows three strokes with the dot on the third. The archive copy agrees (ll. 17502-17503). A [sic:] against Migne was WITHDRAWN and a TEI patch filed. Also CONFIRMED as printed: 'Pater, venit hora, glorifica Filium tuum' at 0227A and 'Quia oportebat pati Christum, et sic intrare in gloriam suam' (Lucae XXIV) -- both [var:] sites; 'Equitatus tuus salus' (Habac. III) at 0227C; 'Vado ad Patrem meum' (Joan. XVI) at 0227D; the citation 'Amos IX' with the wording 'Dominus nomen est illi' at 0227D, and Migne's own 'Alia littera: Dominus conteret bella' immediately before it (no marker taken where he has marked it himself); the em-dash run 'rectores tenebrarum harum.--Dominus' at 0227D, which our twin reproduces exactly; 'ternistratores' at all four occurrences (0228A twice, 0228B twice); 'Qui aedificat supra fundamentum argentum, aurum, lapides pretiosos' at 0228B with silver before gold; 'Demersi sunt quasi plumbum in aqua validissima' at 0228C; 'Matth. XIV' correctly cited for Modicae fidei at 0228D."
+    },
+    {
+      "from": "0229A",
+      "to": "0230D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f115",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 229, right 230, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. ONE FINDING, and it is OURS. At 0230C our twin prints 'mensuram dominationis, scili cet donec pertranseat' as two tokens. The Gallica impression ends the line at 'scili' with NO hyphen and no visible ink damage; the archive copy prints 'scili-' with the hyphen (ll. 17643-17644). Since the two copies differ and the word is plainly scilicet broken at a line end, this is the line-break class named in CLAUDE.md and NOT a defect of Migne's: no [sic:], TEI patch filed to 'scilicet', the English renders 'namely'. The Gallica/archive disagreement is recorded so it is not re-opened from either image alone. Also CONFIRMED as printed: Migne's own 'Alia littera: Misisti spiritum tuum et cooperuit eos mare' at 0229A (no marker); 'Ego dixi: Dii estis' and 'Deus stetit in synagoga deorum' at 0229B, both verbatim Clementine, so no marker; 'Extendisti dexteram tuam et devoravit eos terra' at 0229C and its repetition 'extendit dexteram, et devoravit eos terra' -- the [var:] site, and the gloss turns on 'dexteram'; the plural imperative 'dicite' beside the singular 'dicito' at 0229D (archive agrees; rendered as printed, no marker); 'cadentes poculo', 'terrenus', 'mutabiles et mobiles' at 0230A; the citation 'Isa. LXV' with Rom 10:21 wording at 0230B; 'Nonne hic ipse Dominus Deus tuus ... et acquisivit te?' at 0230D; 'Peccatis vestris venundati estis ...' at 0230D."
+    },
+    {
+      "from": "0231A",
+      "to": "0232D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f116",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 231, right 232, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers. NO FINDINGS: our TEI agrees with the plate word for word across both columns. CONFIRMED as printed: the four-verse Psalm LXXIX quotation at 0231B including 'et replevit terram' (the [var:] site) against the Clementine's 'implevit'; 'Nam omnis arbor quae non facit fructum bonum ...' at 0231C; the pair 'Sanctuarium tuum' / 'Sanctimonium tuum, Domine' at 0231D; 'Quid est ergo hoc sanctimonium non manu hominum, sed Dei praeparatum.' closed with a FULL STOP on an interrogative clause, kept as printed under Pattern 8; 'Domine, qui regnas in saeculum et in saeculum et adhuc' at 0232A and all six later occurrences of 'et adhuc'; 'licet ignotus nobis' at 0232A (not 'vobis'); the Strabo timbrel-and-choir gloss at 0232C-D with 'duabus cicutis' and 'quasi coaevorum cantus'; 'Tulit autem Moses Israel' at 0232D with the house spelling Moses. The whole canticle across this leaf is set as CONTINUOUS PROSE with no lineation, which is why the English is not lineated."
+    },
+    {
+      "from": "0233A",
+      "to": "0234D",
+      "depth": "full",
+      "date": "2026-09-08",
+      "page": "f117",
+      "source": "Gallica IIIF. CALIBRATION: printed corner numbers read FIRST -- left 233, right 234, running head 'GLOSSA ORDINARIA. -- LIB. EXOD.'. Whole page at native resolution, read in four vertical slices per column; targeted crops at 7-14x for letter-level calls.",
+      "found": "CHECKED ZERO at the foot of both columns, both layers; what stands at the foot is the signature 'PATROL. CXIII.' under the left column and the sheet number '8' under the right. NO FINDINGS: our TEI agrees with the plate throughout. CONFIRMED as printed: 'concludit [condidit]' at 0233C with MIGNE'S OWN SQUARE BRACKETS -- his inline conjecture layer, the [devicto eo] class, carried into the English untranslated and unmarked; the citation 'II Cor. III' for 2 Cor 4:7 at 0233C, left as printed; 'Sapientia lignum vitae est in omnibus amplectentibus eam' (Prov. III) at 0233B; 'Sed in tali etiam ligno quis nisi creator et demonstrator laudandus est.' at 0233D, an interrogative closed with a full stop, kept; 'posuit illi Deus justitias et judicia, ibi tentabat eum dicens' at 0234A standing immediately below Migne's own Vulgate-form lemma 'Ibi constituit ei praecepta'; 'Dedi vobis praecepta et justificationes non bonas in quibus non vivent' (Ezech. XX) at 0234A; 'Cunctum languorem quem posui in Aegypto, non inducam super te' at 0234B, verbatim Clementine, so no marker; 'nisi crediderint, non intelligent' (Isa. VII) at 0234D. EXAMINED AND DECLINED at 0234A: the mark after 'audirent vocem Domini Dei' looks like a full stop on Gallica, but the archive copy prints a comma (l. 17856) and our twin has a comma; the standing caution against firing on a single small mark from one impression applies. No patch."
+    }
+  ]
+}
