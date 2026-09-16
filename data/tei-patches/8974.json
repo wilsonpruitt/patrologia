@@ -13,6 +13,118 @@
    "find": "bonae naturae legis, quam interserit Paulus",
    "replace": "bonae naturae legis ª, quam interserit Paulus",
    "why": "FOOT-OF-PAGE NOTE ANCHOR RESTORED, read at the plate 2026-09-16 (prep spot check). Gallica ark:/12148/bpt6k5505319w f25, corners read FIRST = 49/50. Migne prints (a) after legis in col 50B, keyed to a note set under both columns: (a) Id est in eadem arbore nascentem in qua ramusculus. Corpus Corporum dropped both the key and the note. The key is encoded as the raised-letter glyph ª, the form inject-plate-notes.mjs reads for the letter layer (precedent 8949 @0256C), though Migne sets it in parentheses on the line. The note is recovered in data/plate-notes/8974.tsv and belongs to the asterisk/letter layer (editorial prose: [cn:] plus translated [nt:])."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0038A",
+   "find": "secundum Apostolum III Cor",
+   "replace": "secundum Apostolum II Cor",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f19 (37/38) right column line 2 prints II Cor. III; the twin's III Cor. names no epistle, and the same verse is cited (II Cor. III) at 0047B. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0038A",
+   "find": "spiritus autem viviticat",
+   "replace": "spiritus autem vivificat",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f19 (37/38) col 38 line 3: vivificat. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0038C",
+   "find": "non reperfuntur",
+   "replace": "non reperiuntur",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f19 (37/38) col 38 band C: reperiuntur. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0038D",
+   "find": "intus et toris",
+   "replace": "intus et foris",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f19 (37/38) col 38 band D: intus et foris (Apoc 5:1). Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0038D",
+   "find": "minoris diguitatis",
+   "replace": "minoris dignitatis",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f19 (37/38) col 38 band D: di-|gnitatis. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0040A",
+   "find": "aliquisita praecise",
+   "replace": "aliquis ita praecise",
+   "why": "Word division. Gallica ark:/12148/bpt6k5505319w f20 (39/40) right column sets a narrow space, the width of the one in praecise inhaereat on the same tight line; archive patrologiaecurs04migngoog p.25 sets the words clearly apart. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0040D",
+   "find": "una de praecipius partibus",
+   "replace": "una de praecipuis partibus",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f20 (39/40) col 40 band D: praecipuis. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0043D",
+   "find": "ubi pluralitus sensuum",
+   "replace": "ubi pluralitas sensuum",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f22 (43/44) left column band D: broken sort between t and s, remains fit a; archive patrologiaecurs04migngoog p.27 prints pluralitas clean. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0045A",
+   "find": "ex dignitati materiae",
+   "replace": "ex dignitate materiae",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f23 (45/46) left column: ex dignitate materiae. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0046C",
+   "find": "fuisse sufficientur eruditus",
+   "replace": "fuisse sufficienter eruditus",
+   "why": "Digitization defect. Gallica ark:/12148/bpt6k5505319w f23 (45/46) col 46 band C: sufficienter erudi-|tus. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0049A",
+   "find": "proceditur ad aliqua probanda",
+   "replace": "proceditur ad aliqua alia probanda",
+   "why": "DROPPED WORD. Gallica ark:/12148/bpt6k5505319w f25 (49/50) left column line 7 prints proceditur ad aliqua alia probanda. English already reads \"some other things\". Adds one word to the chunk count. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0049B",
+   "find": "deficiat in aliquo, loco sic",
+   "replace": "deficiat in aliquo loco, sic",
+   "why": "Punctuation, misplaced comma. Gallica ark:/12148/bpt6k5505319w f25 (49/50) col 49 band C: in aliquo loco, sic ut. Plate-read by stint C0, 2026-09-16; corner numbers read FIRST on every leaf cited. Column label is the band our TEI anchors carry at the find (0049B); the stint cited the plate band (0049C)."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0051A",
+   "find": "sed pene mysticus",
+   "replace": "sed bene mysticus",
+   "why": "Digitization defect, on BOTH witnesses: Gallica ark:/12148/bpt6k5505319w f26 (51/52) left column line 1, worn; archive patrologiaecurs04migngoog p.31 sed bene clean. Internal control: the reply quotes the sentence at 0057A as sed bene mysticus multiplicatur. Plate-read by stint C6, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0057B",
+   "find": "capiunt spritualia",
+   "replace": "capiunt spiritualia",
+   "why": "Digitization defect, both witnesses: Gallica ark:/12148/bpt6k5505319w f29 (57/58) col 57 band B spiri-|tualia; archive patrologiaecurs04migngoog p.34 the same. Plate-read by stint C6, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0058A",
+   "find": "seu spritualem, sacrae",
+   "replace": "seu spiritualem, sacrae",
+   "why": "Digitization defect, both witnesses: Gallica ark:/12148/bpt6k5505319w f29 (57/58) col 58 band A line 4; archive patrologiaecurs04migngoog p.34. Plate-read by stint C6, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0058B",
+   "find": "sacrae Sripturae et divinae",
+   "replace": "sacrae Scripturae et divinae",
+   "why": "Digitization defect, both witnesses: Gallica ark:/12148/bpt6k5505319w f29 (57/58) col 58 above band C; archive patrologiaecurs04migngoog p.34. Plate-read by stint C6, 2026-09-16; corner numbers read FIRST on every leaf cited."
   }
  ]
 }

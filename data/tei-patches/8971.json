@@ -6,6 +6,20 @@
    "find": "<div1>\n        <head>Prologus de commendatione Sacrae Scripturae</head>",
    "replace": "<div1>\n        <head type=\"book-title\">IN NOMINE SANCTAE TRINITATIS, INCIPIT PROLOGUS Venerabilis Patris, fratris Nicolai de Lira ordinis seraphici sancti Francisci, de commendatione sacrae Scripturae in generali.</head>\n        <head>Prologus de commendatione Sacrae Scripturae</head>",
    "why": "STRUCTURAL RECOVERY, read at the plate 2026-09-16 (prep spot check). Migne sets a display heading above this work and Corpus Corporum drops the whole line; our TEI body opened at CC's own catalogue title, which Migne does not print. Same class as the five Glossa Pentateuch book-title lines (Wilson's ruling 2026-09-06), encoded by the same convention: <head type=\"book-title\"> above the first head, before the first column mark, so col is null. Witness: Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2 (corners read FIRST: f6 = 11/12, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36); this heading on f13 (cols 25/26). Transcribed with ae for the ligature as the TEI does; Migne's capitals, small capitals and italics are not encoded. Read at native resolution from a server-side crop."
+  },
+  {
+   "work": "8971 (PL 113)",
+   "col": "0026D",
+   "find": "duo decimo Metaphys. probat",
+   "replace": "duodecimo Metaphys. probat",
+   "why": "Word division, our split. archive patrologiaecurs04migngoog p.18 prints duodecimo fused mid-line; Gallica ark:/12148/bpt6k5505319w f13 (25/26) right column shows a worn hairline but no word space. No marker moves. Plate-read by stint B, 2026-09-16; corner numbers read FIRST on every leaf cited."
+  },
+  {
+   "work": "8971 (PL 113)",
+   "col": "0029A",
+   "find": "quinto: Vidi in dextera",
+   "replace": "quinto: « Vidi in dextera",
+   "why": "Dropped opening guillemet. Both printings (Gallica ark:/12148/bpt6k5505319w f15, corners 29/30, left column; archive patrologiaecurs04migngoog p.20) set « quinto : « Vidi in dextera sedentis; the first « is a line-start continuation mark, the second is the real opening of the Apoc 5:1 quotation, which the TEI dropped. The English gains the matching « in the same commit. Continuation marks are not patched (8957 ruling). Plate-read by stint B, 2026-09-16; corner numbers read FIRST on every leaf cited."
   }
  ]
 }

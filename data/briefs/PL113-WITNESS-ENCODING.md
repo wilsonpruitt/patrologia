@@ -96,3 +96,31 @@ and which are codec artifacts is UNDETERMINED, and this file does not pretend to
   dominates**, which is the real argument for reading both rather than picking one.
 - ⚠ Both have a known under-resolution failure: Gallica's printed `3` reads as `5`, and its
   `illum` as `illam`, when a crop is upscaled past its native size.
+
+## ⚑ ADDENDUM 2026-09-16 — two printings OBSERVED on cols 25–40 (PL 113 leftovers run)
+
+**Scope: cols 25–40 only (Gallica f13–f20, archive pp. 18–25). Not a finding about the volume.**
+
+Stint B (8971/8972), reading Gallica f13–f17 against archive pp. 18–21 with corners checked
+first, reports that **the two copies set these leaves differently — the display titles are
+typographically different.** That is a difference of *setting*, which is the class this file's
+operating rules require before "press variant" may be said: a symbol-substitution codec swaps a
+glyph bitmap for a similar one, it cannot re-set a title. Corroboration from stint C0 @0039B:
+Gallica *summi*, archive *sumi*, **both clean** (a dropped glyph, not a similar-glyph swap).
+⚠ The setting observation is the stint's report; the merge accepted it as the working finding
+and did not re-render the leaves.
+
+**What it does and does not settle.**
+- It establishes that two printings exist on these leaves. It does **not** sort the individual
+  single-symbol disagreements there into press variant vs codec artifact — Consequence 3 still
+  holds site by site. The word-level ones (0028C *est*/*et*, 0028D *dilatata*/*dilata*, 0032D
+  *nisi in*/*nisi*, 0039B *summi*/*sumi*) are the stronger variant candidates, being more than one
+  similar-glyph swap.
+- ⭐ **Wherever the two copies disagreed on cols 25–34, our TEI agreed with the ARCHIVE.** Corpus
+  Corporum is an independent transcription, so that agreement is corroboration for the archive's
+  reading on those sites and weakens the codec explanation for them.
+- **The operating consequence is the same either way, and it was applied:** where both copies are
+  clean and differ, there is no one to accuse — **no patch, no `[sic:]`, no `[var:]`, crux only**,
+  and the English follows our TEI (the PL 114 converse). Patches were applied only where our TEI
+  departs from BOTH copies (8971 @0026D, 8971 @0029A, 8972 @0032A).
+- It does NOT relax the rule that the archive is never a sole witness for a letter.
