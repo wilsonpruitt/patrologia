@@ -1,6 +1,41 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-08 (late) — 8949 *LIBER EXODUS* IS DONE AND STAGED · TWO THINGS OWED FROM WILSON
+## ▶▶▶▶▶ START HERE 2026-09-16 — PL 113 LEFTOVERS (8971–8975) PREPARED · LAUNCH OWED FROM WILSON
+
+✅ **8949 Exodus is LIVE** (deployed with the open-corpus rollout `90268871`, 2026-09-08; `/glossa`
+reads 58 of 58, verified on the alias 2026-09-16). Both "owed" items in the banner below are closed.
+
+### What was prepared (commit `02780d61`)
+**19 chunks / 20,909 words.** 8975 *Ad lectorem* (Douai theologians, 1617) 3 · 8971 Lyra *Prologus
+de commendatione* 2 · 8972 Lyra *Prologus secundus* 2 · 8973 Lyra *Prologus in moralitates* 1 ·
+8974 Paul of Burgos *Additiones* (with the Franciscan's letter and Burgos's reply) 11.
+- **Hebrew sweep on the SOURCE TEI** (multispace, `( )`, `, ,`, Hebr- hooks): clean. Every Hebrew
+  mention is ABOUT Hebrew; no dropped type. Greek survives in `<foreign>` (text kept).
+- **Plate spot check, Gallica `bpt6k5505319w`, map `f = (col+1)/2` confirmed on every leaf's
+  corners:** f6, f10, f13, f15, f17, f18, f25, f26, f30 — every division, all mid-page. Survey
+  resolution only (1100–1400 px) → **coverage `spot`, NOTHING recorded in `plate-reads.json`.**
+  Stints must read their own plates inline (4a″); no leaf of these works is word-collated yet.
+- ⭐ **EVERY ONE of the five works had lost its display heading** (e.g. *IN NOMINE SANCTAE
+  TRINITATIS, INCIPIT PROLOGUS Venerabilis Patris, fratris Nicolai de Lira…*; the long Burgos rubric
+  naming Alphonsus and announcing Doring's *Replicae*). Restored as `<head type="book-title">`
+  under the 2026-09-06 convention — ⚑ an extension of that ruling from Glossa book banners to work
+  headings; Wilson has not ruled on the extension.
+- **8974 carries one lettered foot note** at 50B, *(a) Id est in eadem arbore nascentem in qua
+  ramusculus.* → letter layer: `[cn: a | …]` injected; stint owes the translated `[nt:]`. Coverage
+  is spot, so more lettered notes are possible — stints check the foot of every leaf.
+- ⚑ For the stint: our twin reads *Homil. 35 Evangeliorum* @0025C; at 1400 px the plate looked
+  like *55*. Gregory has 40 homilies (the quotation is Hom. 37). Read at native resolution.
+
+### ⛔ A GAP CORPUS CORPORUM CANNOT FILL — Wilson's call, not blocking the launch
+PL 113's front matter has **two stretches in no CC file at all** (index and TEI both searched):
+**cols 20C–25B** (Douai Prolegomena cont.: *DE CANONICIS ET NON CANONICIS LIBRIS*, then the ancient
+translations) and **cols 60B–67A** (Doring's *Replicae defensivae* against Burgos from 60B, then
+prefatory matter before Genesis 67B). ~11–12 columns, roughly 6–7K words, needing our own plate
+transcription before translation. Doring's *Replicae* is the third voice of the Burgos dispute.
+
+---
+
+## (was: START HERE) 2026-09-08 (late) — 8949 *LIBER EXODUS* IS DONE AND STAGED · TWO THINGS OWED FROM WILSON *(CLOSED: deployed 2026-09-08, ruling closed `f84cfe26`)*
 
 ✅ **Translated, merged, read, built, indexed. `preflight 8/8`. `/glossa` reads 58 of 58 — the
 Glossa ordinaria block is CLOSED.** Local `master` is **14 commits ahead of `origin/master`** and
