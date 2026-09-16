@@ -1,6 +1,46 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-16 — PL 113 LEFTOVERS (8971–8975) PREPARED · LAUNCH OWED FROM WILSON
+## ▶▶▶▶▶ START HERE 2026-09-16 (late) — PL 113 LEFTOVERS (8971–8975) DONE AND STAGED · PUSH + DEPLOY OWED FROM WILSON
+
+✅ **Translated (4 Opus stints, plates read inline), merged, blind-read, built, indexed, marked `ours`,
+in RECENT. `preflight` 12/12.** Local `master` is ahead of `origin/master`; nothing pushed or deployed.
+Burn ≈ 1.29M translation + 0.34M merge + 0.45M polarity read ≈ **2.1M** against a ~1.7M quote (the
+merge fork was not in the quote).
+
+### ▶ OWED FROM WILSON — push + deploy (each its own OK)
+
+    git push origin master
+    cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects
+
+Smoke-test the ALIAS: `/pl/113/ad-lectorem/`, `/pl/113/prologus-de-commendatione-sacrae-scripturae/`,
+`/pl/113/prologus-de-intentione-auctoris/`, `/pl/113/prologus-in-moralitates-bibliorum/`,
+`/pl/113/additiones/`, `/cruces/pl/113/additiones/`, `/`.
+
+### What the run found
+- **25 TEI patches**, every one ours (e.g. *poena*→*poeta* 8975 @0017C; a dropped *alia* 8974 @0049A).
+- ⭐ **Two PRINTINGS, not two photographs, on cols 25–40** (display titles set differently; clean
+  *summi*/*sumi* @0039B). Clean disagreements = press variants, crux only. Addendum in
+  `data/briefs/PL113-WITNESS-ENCODING.md`, scoped to those columns.
+- **Blind read: 8 sites, 7 ours, all fixed; none a dropped negation.** Two `[cj:]` added:
+  8971 @0028A *leguntur*→*legunt* (the stint had rendered it active, hiding the clash — 7a class),
+  8974 @0048C *potentior*→*patentior* (Burgos quotes Lyra 8971 @0029A, which prints *patentior*).
+- ⚑ My launch brief wrongly told stints to copy `[cn:]` into the English; C6 caught it (Pattern 19,
+  verify rejects). Brief corrected.
+
+### ⚑ Open for Wilson (not blocking deploy)
+1. **Verse lineation** (8975 @0019A distichs, 8973 @0033D mnemonic): TEI marks the verse; the
+   chunker runs the first line on from the prose (shipped 11057 does the same). A fix is a chunker
+   change that re-flows shipped works. Logged in both cruces.
+2. **Book-title extension:** work headings restored as `<head type="book-title">`, extending the
+   2026-09-06 Glossa banner ruling.
+3. **The CC gap:** cols 20C–25B and 60B–67A (below) — our own transcription needed.
+
+### Queue after this
+**PL 122 Eriugena** — `data/briefs/PL122-WITNESSES.md` first; *Variae lectiones* needs its ruling.
+
+---
+
+## (was: START HERE) 2026-09-16 — PL 113 LEFTOVERS (8971–8975) PREPARED · LAUNCH OWED FROM WILSON *(SUPERSEDED: done and staged)*
 
 ✅ **8949 Exodus is LIVE** (deployed with the open-corpus rollout `90268871`, 2026-09-08; `/glossa`
 reads 58 of 58, verified on the alias 2026-09-16). Both "owed" items in the banner below are closed.
