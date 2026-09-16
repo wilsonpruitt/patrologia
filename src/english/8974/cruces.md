@@ -158,7 +158,7 @@ Every column below was read at the plate.
 - **0036C.** *a cujus memoria haec excidere nullo unquam tempore vellem*: "from whose memory I would wish these things to fall away at no time ever". The negation stays on the time phrase, as printed.
 - **0037A.** *jam bis praeelegisse* (plate): "twice chosen it beforehand". A lawyer's *praelegasse* ("pre-bequeathed") would fit *praelegatum* at 0037C. Rendered as printed. Conjecture only.
 - **0037A.** *quod legare conceperam, inter vivos nunc nude donarem: sed paterna additamenta … cumularem*: *nude* taken as "outright" (a bare *donatio inter vivos*), with *sed* = "but". Rendered with no supplied negative.
-- **0037B.** *nec opulentior debitor est, cum nihil habeat quod non receperit*: "nor is the wealthier man a debtor, since he has nothing that he has not received". Both negations carried.
+- **0037B.** *nec opulentior debitor est, cum nihil habeat quod non receperit*: "nor is any debtor the wealthier, since he has nothing that he has not received". Both negations carried. ⚑ **Corrected by the blind polarity read 2026-09-16 (R2 F1):** the stint's first rendering, "nor is the wealthier man a debtor", inverted subject and predicate and so said the rich owe nothing, two clauses after every man is a debtor.
 - **0037D.** *Gratanter igitur donum hoc tui parentis paterna accepta affectione, et laeta manu donatum.* *accepta* is read as the imperative of *acceptare* set inside the ablative phrase (*paterna … affectione, et laeta manu donatum*). As a participle it has nothing to agree with. Rendered "Gratefully therefore accept this gift of thy parent, given with fatherly affection and with a glad hand."
 - **0038A (twin `III Cor. III`).** Plate prints *II Cor. III*; English follows the plate; patch filed.
 - **0038A, 0038C, 0038D (twin `viviticat`, `reperfuntur`, `toris`, `diguitatis`).** Transcription errors. The plate is sound. English renders the plate; patches filed. No `[sic:]`.
@@ -417,3 +417,19 @@ aedificationem* (1Tim 1:4), 0058C; *qui mollibus vestiuntur, in domibus regum su
 - **Interior guillemets.** 0057B *« sum* is in the twin and kept 1:1. The plate also sets line-start
   continuation `«` inside many other quotations in this range (e.g. 0053B *« quem misisti*) which the twin
   drops; guillemet parity follows the twin and no patch is filed (8957 precedent: never patch a guillemet).
+
+
+---
+
+## Blind polarity read, 2026-09-16 (readers R2 on 0000–0003, R3 on 0004–0010; reports `data/briefs/PL113L-POLARITY-R2.md`, `-R3.md`)
+
+Six sites, **five ours, all fixed in the English**; one Migne's, now marked.
+
+- **0037B (ours).** *nec opulentior debitor est*: subject/predicate inverted. Now "nor is any debtor the wealthier". Entry above corrected.
+- **0041D (ours).** *et non successive, sic ut femina esset … subtracta*: the subjunctive of the rejected alternative had been rendered as fact ("was taken"), so the sentence asserted both simultaneous and successive creation. Now "in such a way that the woman would have been taken out of his side after the creation of the male".
+- **0044D (ours).** *Quod tamen postillator … videtur observare*: "which the postillator seems to observe" read as Lyra keeping the rule the next clause says he breaks. *Quod* takes up the question whether an effective argument can be drawn from the sense; now "Which question, nevertheless, the postillator seems to attend to". No negation is missing on the plate.
+- **0048C (Migne's) — `[cj: *potentior*; read *patentior*]` ADDED.** The stint declined a conjecture on a real word. The merge re-opened it on R3's report and on evidence neither had in view: Burgos here quotes Lyra's first prologue nearly verbatim, and Lyra prints at 8971 @0029A *sensus litteralis, qui est **patentior**, quia per voces immediate significatur*. Burgos's *qui dicitur esse potentior, eo quod per voces immediate significatur* is that sentence, so *potentior* misquotes it, and "more powerful" would tell the reader Lyra said so. The open/hidden (*patentior*/*latentior*) contrast is the point. Pattern 18 bar met.
+- **0052D (ours).** *licet in utroque Testamento invenitur sensus litteralis et spiritualis vita, tamen non conceditur nisi spirituali intelligentiae*: the English followed Migne's comma after *vita* and made "spiritual life" a thing found in both Testaments, leaving "it is not granted" without a clear subject. *Vita* is the subject of the main clause (the proof-text is *spiritus vitae*). Now "the literal and spiritual sense is found, yet life is not granted except to spiritual understanding". Words unchanged; only the construal of Migne's punctuation.
+- **0058C (ours).** *Laudamus seipsos vituperantes*: "We praise ourselves in blaming" left *per oppositum* with nothing to be opposite to. Now "We praise those who blame themselves", so that praising oneself is the opposite and not commendable.
+- **0053A `[cj: *contra*; read *secundum*]`:** R3 independently agrees (Augustine, *De Trin.* I.2.4 reads *secundum*). Kept.
+- Declined from R3's low-confidence list: *occasionaliter* @0047C "occasionally" (no polarity at stake).

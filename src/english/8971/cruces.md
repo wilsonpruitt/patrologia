@@ -141,3 +141,14 @@ see above); Aristotle *De anima* III and I, *Metaph.* II (*In foribus quis delin
   the same commit: "And in Apocalypse « five: « I saw in the right hand …". The press variants in §0
   take no patch and no marker; the two-printings finding is recorded, scoped to cols 25–40, in
   `data/briefs/PL113-WITNESS-ENCODING.md`.
+
+
+---
+
+## Blind polarity read, 2026-09-16 (reader R1; report `data/briefs/PL113L-POLARITY-R1.md`)
+
+Two sites, **both ours, both fixed**, neither previously logged.
+
+- **0026B (ours).** *quod notat pronomen singulare, cum dicitur, haec*: Lyra reads *haec* in *Haec omnia liber vitae* as the singular, "this" (Scripture), and the English quoted it as "*these*", plural, inside the sentence that calls it singular. Now "when it is said, *haec* ("this")". The lemma's own rendering, "All these things", stands: it is Migne's verse, and Lyra's reading of it is the gloss.
+- **0028A (Migne's, and the English had hidden it) — `[cj: *leguntur*; read *legunt*]` ADDED.** Migne prints the passive, *in quo libro leguntur sancti apostoli et prophetae*, "in which book are read the holy apostles and prophets", while the gloss he immediately quotes has the prophets READING in the book of foreknowledge (*Prophetae in ipso libro praescientiae legere possunt*). The stint had rendered it active, which repaired the clash silently: the class 7a forbids. Now rendered as printed, with the conjecture.
+- **0028C *speciale et huic libro*.** R1 judged "special also to this book" to weaken the common-to-all/special-to-this contrast the sentence turns on (the press variant, Gallica *est*, is logged above). *Et* is intensive here; now "but special indeed to this book".
