@@ -1,0 +1,50 @@
+{
+  "_note": "Stint-scoped plate reads for 8974 chunks 0000-0005 (cols 0035B-0050A), stint C0. Merge into data/plate-reads.json works.8974.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF full/full native.jpg, User-Agent header; heavy 429 throttling from parallel stints, fetched sequentially with backoff and size-validated)",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- confirmed on every leaf f18-f25 by the printed corner numbers, read first",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2, rendered at 400 dpi for pp. 25, 27, 28 only (cols 39/40, 43/44, 45/46) to settle three letter-level candidates. Never used as a sole witness.",
+  "reads": [
+    {
+      "from": "35B", "to": "36D", "depth": "full", "date": "2026-09-16", "page": "f18",
+      "source": "Gallica IIIF. Corner numbers 35 / 36, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Top third of page is the end of Lyra's third prologue (not this stint's text). Title block (ADDITIONES / AD / POSTILLAM ...) and both columns below it read at native resolution in column-bounded crops; no crop crossed the gutter.",
+      "found": "CHECKED ZERO at the foot (no numbered, asterisk or letter note). Collated word by word against chunk 0000: no divergence. Confirmed on the plate: no full stop after MCCCCXXIX before Quibus; 'veritatem suam' (Isa 38:19, Vulg. tuam); 'a caliginosa turbine' (Migne's gender mismatch); 'Tribui Levi non fuisse datam possessionem'."
+    },
+    {
+      "from": "37A", "to": "38D", "depth": "full", "date": "2026-09-16", "page": "f19",
+      "source": "Gallica IIIF. Corner numbers 37 / 38, running head '... PROLEGOMENA.' Both columns read at native resolution in three column-bounded crops each.",
+      "found": "CHECKED ZERO at the foot. Col 37 matches the twin ('praeelegisse' is on the plate). Col 38: FIVE twin divergences, all transcription errors, filed as pending patches: 'III Cor. III' -> plate 'II Cor. III'; 'viviticat' -> 'vivificat'; 'reperfuntur' -> 'reperiuntur'; 'toris' -> 'foris'; 'diguitatis' -> 'dignitatis'. Head 'SEQUITUR ADDITIO SUPER UTRUMQUE PROLOGUM.' is set in roman small capitals on the plate (twin italicises it; markup only, not patched)."
+    },
+    {
+      "from": "39A", "to": "40D", "depth": "full", "date": "2026-09-16", "page": "f20",
+      "source": "Gallica IIIF. Corner numbers 39 / 40, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Native-resolution crops, plus 3x zooms on two words. Second witness: archive PDF p. 25 at 400 dpi, corner numbers 39 / 40 checked.",
+      "found": "CHECKED ZERO at the foot. 39B 'posset summi efficax argumentum': Gallica prints SUMMI (clean), archive prints SUMI (clean) -- two copies differ and both are clean, so a press variant, not a [sic:]; crux only, English renders 'be taken'. 40A twin 'aliquisita': Gallica sets 'aliquis ita' with a narrow space (same width as 'praecise inhaereat' on that line), archive sets 'aliquis ita' clearly -- twin fusion, pending patch. 40D twin 'praecipius' -> plate 'praecipuis', pending patch. Punctuation at 38A 'digniores . tenet' and 39D 'falsa . ut' looks like a worn colon on Gallica (archive p. 25 not decisive at 39D); not patched."
+    },
+    {
+      "from": "41A", "to": "42D", "depth": "full", "date": "2026-09-16", "page": "f21",
+      "source": "Gallica IIIF. Corner numbers 41 / 42, running head '... PROLEGOMENA.' Native-resolution crops.",
+      "found": "CHECKED ZERO for notes. Foot of col 41 carries the printer's signature 'PATROL. CXIII.' and foot of col 42 the signature numeral '2' -- gathering signatures, not apparatus. Both columns match the twin, including 42C 'impassibiles' (Migne's word, crux) and 42A the II Esdr. VIII wording with 'apposuerunt' ([var:])."
+    },
+    {
+      "from": "43A", "to": "44D", "depth": "full", "date": "2026-09-16", "page": "f22",
+      "source": "Gallica IIIF. Corner numbers 43 / 44, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Native-resolution crops plus a 4x zoom. Second witness: archive PDF p. 27 at 400 dpi.",
+      "found": "CHECKED ZERO at the foot. 43D twin 'pluralitus': Gallica has a broken sort between t and s, unreadable by itself; archive prints 'pluralitas' cleanly and the Gallica damage is consistent with a; twin misreading, pending patch. Everything else matches, including 43A '« Est Deus mortuorum vel vivorum, »' without non ([var:])."
+    },
+    {
+      "from": "45A", "to": "46D", "depth": "full", "date": "2026-09-16", "page": "f23",
+      "source": "Gallica IIIF. Corner numbers 45 / 46, running head '... PROLEGOMENA.' Native-resolution crops. Second witness: archive PDF p. 28 at 400 dpi.",
+      "found": "CHECKED ZERO at the foot. 45A twin 'dignitati materiae' -> plate 'dignitate', pending patch. 45B 'a certitudine sensu litteralis': SENSU on BOTH Gallica and archive -- Migne's type, [sic: *sensu*] fired. 46C twin 'sufficientur' -> plate 'sufficienter', pending patch. No Hebrew type on either column; the Hebrew authorities (Rabbi Salomon, Rabbi Moyses Aegyptius, Rabbi Moyses Gerundensis, Rabbi Abenhazra) are Latin-set names only."
+    },
+    {
+      "from": "47A", "to": "48D", "depth": "full", "date": "2026-09-16", "page": "f24",
+      "source": "Gallica IIIF. Corner numbers 47 / 48, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Native-resolution crops.",
+      "found": "CHECKED ZERO at the foot. Both columns match the twin. 48C 'qui dicitur esse potentior' is on the plate (Migne's word; crux, no marker)."
+    },
+    {
+      "from": "49A", "to": "50A", "depth": "full", "date": "2026-09-16", "page": "f25",
+      "source": "Gallica IIIF. Corner numbers 49 / 50, running head '... PROLEGOMENA.' Col 49 read whole at native resolution; col 50 read only through band A (the end of 8974 chunk 0005, '... quae valde attendenda est.'). Shared leaf: col 50B onward belongs to the next stint and is NOT recorded here.",
+      "found": "Col 49 twin 'ad aliqua probanda' -> plate 'ad aliqua alia probanda' (twin dropped a word), pending patch. 49C twin 'deficiat in aliquo, loco sic ut' -> plate 'in aliquo loco, sic ut', pending patch (punctuation). 49D 'Isa. XVIII' printed as in twin. FOOT OF COL 49: a lettered note '(a) Id est in eadem arbore nascentem in qua ram[usculus] ...', running under the page -- this is the note already recovered as [cn: a | ...] in chunk 0006 at 0050B (anchor 'ramusculo bonae naturae legis ª'); it belongs to the next stint's range and nothing is added for it here. No other foot note on f18-f25."
+    }
+  ]
+}
