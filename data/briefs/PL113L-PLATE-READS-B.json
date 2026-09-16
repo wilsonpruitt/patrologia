@@ -1,0 +1,68 @@
+{
+  "_note": "Stint-B plate reads for 8971 (chunks 0000-0001) and 8972 (chunks 0000-0001), PL 113 cols 0025B-0034B. Merge into data/plate-reads.json works.<idno>.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF full native image, User-Agent required; cropped locally)",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- verified on f13-f17 by the printed corners",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2, pdftoppm 400 dpi, pp.18-21 consulted. FINDING: on these pages the two copies are two different PRINTINGS (display titles set differently); the Corpus Corporum twin matches the ARCHIVE printing at every disagreement.",
+  "works": {
+    "8971": [
+      {
+        "from": "25B",
+        "to": "26D",
+        "depth": "full",
+        "date": "2026-09-16",
+        "page": "f13",
+        "source": "Gallica IIIF, full native image (1872x3100) cropped locally, never across the gutter. CALIBRATION: printed corners read FIRST -- left 25, right 26, running head 'PROLEGOMENA.' Confirms f=(column+1)/2. Only the lower part of the page (below the rule ending the Douai Prolegomena, which is not this stint's) was collated. Second witness archive PDF p.18 (400 dpi).",
+        "found": "CHECKED ZERO at the foot, both apparatus layers. Collated word by word against 8971/0000. BRIEF FLAG SETTLED: 'Homil. 35 Evangeliorum' -- at 8x native crop the first digit is the fount's flat-topped 3, the second a 5; archive printing reads a round-topped 35. Twin correct, no patch. Confirmed as printed: '(Eccli. xxiii)' (wrong chapter, Migne's; Sir 24:32); 'In quo quidem processis' (also archive) -> [sic: *processis*]; the inline note '(secundum quod dicitur secundo Metaphys. : « In foribus quis delinquet »)'. REJECTED: twin 'duo decimo' is our split -- archive prints 'duodecimo' fused; Gallica shows a worn mark, no space; patch filed, no [sic:]. NOTE: the two copies are two PRINTINGS (title italic on Gallica, small caps on archive)."
+      },
+      {
+        "from": "27A",
+        "to": "28D",
+        "depth": "full",
+        "date": "2026-09-16",
+        "page": "f14",
+        "source": "Gallica IIIF, native. CALIBRATION: corners 27 / 28, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Second witness archive PDF p.19.",
+        "found": "CHECKED ZERO at the foot, both layers. Collated word by word against 8971/0000 (0027A-0028D) and head of 0001. Press variants Gallica vs archive, the TWIN MATCHING ARCHIVE at every one: 0027B 'illis.'/'illis,'; 0027B 'judicatur;'/'judicatur. ;'; 0028B 'tertio Sed'/'tertio. Sed'; 0028C 'sumus.'/'sumus,'; 0028C 'speciale est huic'/'speciale et huic'; 0028D 'dilatata'/'dilata'. No patches for any (press variants). Confirmed: Greek 'ἀνάγω' with acute on alpha, both printings; the verse couplet lineated on both printings."
+      },
+      {
+        "from": "29A",
+        "to": "30B",
+        "depth": "full",
+        "date": "2026-09-16",
+        "page": "f15",
+        "source": "Gallica IIIF, native. CALIBRATION: corners 29 / 30, running head 'PROLEGOMENA.' Upper part of page = 8971 tail (29A-29B, 30A-30B); lower part below the rule = 8972 (recorded under 8972). Second witness archive PDF p.20.",
+        "found": "CHECKED ZERO at the foot, both layers. Collated against 8971/0001. Press variants (twin = archive): 0029A 'mater nostra.'/'nostra,'; 0029A 'oratione .'/'oratione:' (Gallica a worn colon). GUILLEMET LOST BY TWIN: both printings set 'Et Apocalypsis / « quinto : « Vidi in dextera' -- twin drops the « before Vidi; patch filed. Confirmed: '« Scrutamini' at foot of 29B, 'Scripturas' at head of 30A; 'Galatarum quarto'; 'Ecclesiastici vigesimo quarto'."
+      }
+    ],
+    "8972": [
+      {
+        "from": "29B",
+        "to": "30D",
+        "depth": "full",
+        "date": "2026-09-16",
+        "page": "f15",
+        "source": "Gallica IIIF, native. Same page as 8971 f15 read (corners 29 / 30); this record covers the lower part below the rule: book-title 'PROLOGUS SECUNDUS. / De intentione auctoris et modo procedendi.' and both columns to the foot. Second witness archive PDF p.20.",
+        "found": "CHECKED ZERO at the foot, both layers. Collated against 8972/0000 (0029B-0030D). Book title confirmed. Press variants (twin = archive): 0029B 'Scriptura.'/'Scriptura,' (Gallica worn); 0029D Gallica 'in libro de Hebraicis quaestionibus' vs archive/twin 'in libro : de Hebraicis, quaestionibus'. Confirmed: '(Apoc. v.)'; 'Rabbi Salomonis'; 'in secundo prologo super Genesim'; marginal letters C and D at 'cum nec causam' and 'dicta doctorum' match the twin's anchors."
+      },
+      {
+        "from": "31A",
+        "to": "32D",
+        "depth": "full",
+        "date": "2026-09-16",
+        "page": "f16",
+        "source": "Gallica IIIF, native. CALIBRATION: corners 31 / 32, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Second witness archive PDF p.21.",
+        "found": "CHECKED ZERO at the foot, both layers. Collated against 8972/0000 (0031A-0032B) and 0001 (0032B-0032D). [var:] sites confirmed on BOTH printings: 0031C 'filia Jerusalem' (Ct 1:4 filiae); 0032B 'super vos Medos' (Is 13:17 eos). Confirmed Migne's own unopened » at 0031D 'sicut tabernacula Cedar, » ad malos'. MARK LOST BY TWIN: 0032A 'simpliciter, secunda' (Gallica comma, archive point, twin none); patch filed. Press variants (twin = archive): 0031D 'mysticus .'/'mysticus :' (Gallica worn colon); 0032A 'Regum XII.'/'Regum XII'; 0032C 'Gen. XII'/'Gen XII'; 0032D 'nisi in prophetiae'/'nisi prophetiae'."
+      },
+      {
+        "from": "33A",
+        "to": "34B",
+        "depth": "full",
+        "date": "2026-09-16",
+        "page": "f17",
+        "source": "Gallica IIIF, native. CALIBRATION: corners 33 / 34, running head 'PROLEGOMENA.' Only the upper part (8972 tail, above the rule before 'EJUSDEM NICOLAI DE LIRA / PROLOGUS. / In moralitatibus Bibliorum.', which is 8973 and not this stint's) was collated. Page shared by layout; only 33A-33B and 34A-34B recorded here.",
+        "found": "CHECKED ZERO at the foot of the 8972 portion (no apparatus above the rule; the page foot belongs to 8973's columns and was seen clean at survey only, not claimed). Collated against 8972/0001 (0033A-0034B). Confirmed: 'beatus Gregorius hom. 10,' (8x crop); 'Isa. cap. xiv'; 'Ezech. xxviii'; 'mane oriebaris?'; '[0033B] ... dicitur : B' then '« Istae sunt' at 34A."
+      }
+    ]
+  }
+}
