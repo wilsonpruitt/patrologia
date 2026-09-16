@@ -1,6 +1,13 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-16 (late) — PL 113 LEFTOVERS (8971–8975) DONE AND STAGED · PUSH + DEPLOY OWED FROM WILSON
+## ▶▶▶▶▶ START HERE 2026-09-16 (late) — PL 113 LEFTOVERS (8971–8975) ✅ LIVE ON migne.app · NOTHING OWED BUT THE OPEN RULINGS
+
+✅ **PUSHED (`c0d4f62b`) AND DEPLOYED 2026-09-16** with Wilson's OK, production `migne-6pnyul2ef`,
+aliased to migne.app. Smoke-tested on the ALIAS: all five work URLs, two cruces pages, `/glossa`, `/`
+return 200; landing lists the works; *Additiones* carries the "New English translation" badge, the
+polarity fixes and the `[cj:]`, and zero raw brackets. The "push + deploy owed" section below is CLOSED.
+
+(previous banner, kept for the record:) PL 113 LEFTOVERS DONE AND STAGED
 
 ✅ **Translated (4 Opus stints, plates read inline), merged, blind-read, built, indexed, marked `ours`,
 in RECENT. `preflight` 12/12.** Local `master` is ahead of `origin/master`; nothing pushed or deployed.
