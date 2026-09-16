@@ -1,0 +1,53 @@
+{
+  "_note": "Stint A plate reads for 8975 (Ad lectorem, cols 0011B-0020C) and 8973 (Lyra, Prologus in moralitates, cols 0033B-0036A). Merge into data/plate-reads.json works.8975.reads[] and works.8973.reads[].",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF full/full native.jpg, User-Agent header; 429 rate-limit met once, retried with backoff)",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- confirmed on every leaf below by the printed corner numbers",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2, pdftoppm -r 400 -- consulted for pp. 13, 14, 15 (cols 15-20) and 22 (cols 33/34); corner numbers checked on each (15/16, 17/18, 19/20, 33/34).",
+  "works": {
+    "8975": {
+      "reads": [
+        {
+          "from": "11B", "to": "12D", "depth": "full", "date": "2026-09-16", "page": "f6",
+          "source": "Gallica IIIF native (1915x3123). CALIBRATION: corners read FIRST -- left 11, right 12, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Whole-page overview plus native column crops, each within one column.",
+          "found": "CHECKED ZERO at the foot, both apparatus layers. Top of page = tail of the preceding bibliography notes, then Migne's MONITUM EDITORIS PATROLOGIAE (NOT part of 8975, not translated), then the book-title block DUACENSIUM THEOLOGORUM / IN GLOSSAM ORDINARIAM PROLEGOMENA. / (Ex editione Duacensi anni 1617.) / LECTORI CATHOLICO SALUTEM ET FELICITATEM., matching our chunk-0000 preamble. Text collated word by word against 0000 from 'Sunt nonnulli' to 'saltem damnosae': agrees. Band B printed at the head of both columns (twin [0011B], [0012B] correct). Guillemets '« In antiquis enim esse sapientiam »' confirmed."
+        },
+        {
+          "from": "13A", "to": "14D", "depth": "full", "date": "2026-09-16", "page": "f7",
+          "source": "Gallica IIIF native (1897x3116). CALIBRATION: corners FIRST -- left 13, right 14, running head 'PROLEGOMENA.' Column crops in quarters; 6x LANCZOS crops of the Greek at 14B and of a mark at 14A.",
+          "found": "CHECKED ZERO at the foot. Collated against 0000: agrees. Greek at 14B read letter by letter at 6x: 'ἔσθλα' smooth breathing + acute on epsilon; 'ϰαὶ' (kappa variant; iota accent too worn to call grave vs acute); 'ὕργα' rough breathing + acute on upsilon -- all consistent with our twin. Stray raised tick after 'solebant' before the comma at 14A: a speck, not a semicolon. Confirmed as printed: 'aliorum piorum consensui praeferre audet et propterea submittunt' with no punctuation; 'divino nempe (non humano)'; '(quinti scilicet)'; 'Lypomannus'."
+        },
+        {
+          "from": "15A", "to": "16D", "depth": "full", "date": "2026-09-16", "page": "f8",
+          "source": "Gallica IIIF native (1927x3129). CALIBRATION: corners FIRST -- left 15, right 16, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Column quarters; 6x crop at 16D. Second witness archive PDF p. 13 (corners 15/16).",
+          "found": "CHECKED ZERO at the foot. Collated against end of 0000 and 0001 to 'praeseferat aperte non'. FINDING 16D: our twin 'petulantiz'; Gallica's final sort is worn to a z-like shape; archive prints 'petulantia.' cleanly -> pending patch (twin error; worn sort on Gallica). No [sic:]. Confirmed: '« Sane vero » (inquit in verbo Glossa ordinaria),' (italic title; our twin's space before ')' is whitespace only); 'non nisi maximam causam'; 'vel non satis securo judice electa'; 'Mathiae Tornigi'."
+        },
+        {
+          "from": "17A", "to": "18D", "depth": "full", "date": "2026-09-16", "page": "f9",
+          "source": "Gallica IIIF native (1903x3119). CALIBRATION: corners FIRST -- left 17, right 18, running head 'PROLEGOMENA.' Column quarters; zoom crops at 17C (poeta; Greek) and 18D (elucidans), 18B (vera). Second witness archive PDF p. 14 (corners 17/18).",
+          "found": "CHECKED ZERO at the foot. Collated against 0001. FINDING 17C: our twin 'poena etiam pro illo aevo non infelix'; plate 'poeta' (Gallica worn t; archive clean) -> pending patch, English renders 'poet'. FINDING 18D: our twin 'clucidans'; Gallica reads c (worn e), archive clean 'elucidans' -> pending patch; English 'elucidating'; no [sic:]. Greek 17C 'κατ' ἕξοχὴν': acute on epsilon, grave on eta confirmed; breathing too worn to call smooth/rough at 8x -- twin kept, no patch. Confirmed as printed (both witnesses): 'Utraque vera glossa' (vera, not vero); 'qui ipso Strabo posterior'; 'WALAFRIDUS STRABUS' in small caps."
+        },
+        {
+          "from": "19A", "to": "20D", "depth": "full", "date": "2026-09-16", "page": "f10",
+          "source": "Gallica IIIF native (1895x3113). CALIBRATION: corners FIRST -- left 19, right 20, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Column quarters. Second witness archive PDF p. 15 (corners 19/20).",
+          "found": "CHECKED ZERO at the foot (and at the mid-page division). WORK END: 8975 ends in the RIGHT column (col 20) at '... ea duntaxat in indicem conjecimus.', above a full-width rule; below the rule the head DE CANONICIS ET NON CANONICIS LIBRIS spans both columns and its text 'Quoniam plerique...' begins at left-column band D and continues in the right column -- out of scope, not translated. The left column (col 19) above the rule ends '...ut nemo deinceps', continuing at the head of col 20 ('ex iis aut eorum posteris'). FINDINGS (both witnesses agree): 19A 'nonnullis' (twin 'nonnulis') -> patch; 20A 'in suis consiliis Navarrus.' with NO stop after consiliis (twin has 'consiliis. Navarrus.') -> patch; 19A both distichs are LINEATED in small indented type (twin runs first verse line into the prose line) -> patch filed, English mirrors twin line structure for column alignment. After 'epitaphium' Gallica shows a mid-dot, archive nothing: unresolved, nothing supplied."
+        }
+      ]
+    },
+    "8973": {
+      "reads": [
+        {
+          "from": "33A", "to": "34D", "depth": "full", "date": "2026-09-16", "page": "f17",
+          "source": "Gallica IIIF native (1909x3125). CALIBRATION: corners FIRST -- left 33, right 34, running head 'PROLEGOMENA.' Gutter located at x=1003 by column-brightness scan; crops re-cut on each side of it (first quarter-crops clipped the left column's right edge and were redone). 6x crop at 34D. Second witness archive PDF p. 22 (corners 33/34).",
+          "found": "CHECKED ZERO at the foot of both columns. Upper half of the page is the end of 8972 (Septima regula ... ad litteram exponendam) -- not in range. Mid-page rule, then 'EJUSDEM NICOLAI DE LIRA / PROLOGUS. / In moralitates Bibliorum.' (italic subtitle) spanning both columns, matching our preamble. Collated 8973 word by word to 'Apoc. V: « Ecce': agrees except FINDING 34D 'duos flios' in twin, plate 'filios' (Gallica worn fi, archive clean) -> patch. The mnemonic 'Littera gesta docet ... / Moralis quid agas, quo tendas anagogia,' is LINEATED, small type, indented (twin fuses line 1 into prose) -> patch filed. Confirmed as printed: '(Apoc. v)'; 'Dominus Deus tuus' at the foot of col 33 (the [var:] site vs Vulg. noster); 'Ierunt ligna, ut ungerent supra se regem'; 'Si manus tua scandalizat te, abscinde eam'; 'per manum abscindendum'; 'collatione octava'; 'III Regum xiv'; Greek 'ἀναγωγικὸς'."
+        },
+        {
+          "from": "35A", "to": "36D", "depth": "full", "date": "2026-09-16", "page": "f18",
+          "source": "Gallica IIIF native (1880x3100). CALIBRATION: corners FIRST -- left 35, right 36, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Gutter at x=900; crops cut on each side.",
+          "found": "CHECKED ZERO at the foot. 8973 ends in the right column (col 36) at '... quandiu Dominus donabit sua gratia mihi vitam.' above a full-width rule; below it ADDITIONES AD POSTILLAM (8974) begins -- out of range. Collated '« vicit leo de tribu Juda' to the end: agrees. Confirmed: 'circumit quaerens quem devoret'; '« Dederunt fructum : aliud centesimum, aliud sexagesimum, aliud tricesimum, »'; 'Matthaei xiii et Marci iv'."
+        }
+      ]
+    }
+  }
+}
