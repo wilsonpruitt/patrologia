@@ -47,9 +47,9 @@ Your `<stintTag>` is in your launch message. **A stint that writes English and n
 - Column anchors `[0029B]`: **verbatim, in order, in place.** Count against the frontmatter.
 - Notes `[n: …]`: verbatim, untranslated, same count and order. Pattern 15: editorial PROSE → `[nt:]`.
 - ⭐ **Recovered foot note `[cn: a | …]` in 8974 chunk 0006 (@0050B):** Latin-side apparatus from
-  the plate. Reproduce the `[cn: a | …]` verbatim in the English at the same point **and add a
-  translated `[nt: …]` immediately after it** — this note is editorial prose (asterisk/letter
-  layer, CLAUDE.md). The `ª` before it is Migne's key: keep it.
+  the plate. ⛔ **CORRECTED by stint C6: the `[cn:]` and its `ª` key stay LATIN-ONLY.** The
+  English carries only a translated `[nt: …]` at that point (Pattern 19; `verify-english` rejects
+  a `[cn:]` in an English chunk). This brief originally said to copy the `[cn:]` across — wrong.
 - ⭐ **Book-title preamble.** Chunk 0000 of every work opens with a line ABOVE its first `## `
   head: Migne's display heading, dropped by Corpus Corporum and restored at the plate on
   2026-09-16. Translate it as a plain line in the same place (see the 8949 example). Keep Migne's

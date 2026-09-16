@@ -1,0 +1,40 @@
+{
+  "_note": "Stint-scoped plate reads for 8974 chunks 0006-0010 (cols 0050B-0060A), stint C6. Merge into data/plate-reads.json works.8974.reads[]. f25 is shared with C0: only col 50 is recorded here.",
+  "series": "pl",
+  "volume": 113,
+  "scan": "Gallica ark:/12148/bpt6k5505319w (IIIF full/full native.jpg, User-Agent header), leaves f25-f30 downloaded once each (approx. 1890 x 3100 px) and cropped locally, column-bounded, 1.6x LANCZOS; images deleted after the stint.",
+  "page_map": "Gallica leaf f = (column + 1) / 2 -- confirmed on every leaf f25-f30 by the printed corner numbers, read first",
+  "second_witness": "archive.org patrologiaecurs04migngoog, PDF page = (column + 11) / 2, rendered at 300 dpi for pp. 30, 31, 34, 35 (cols 49/50, 51/52, 57/58, 59/60) to settle letter-level and punctuation candidates. Never used as a sole witness; corner numbers checked (p. 31 = 51/52, p. 35 = 60).",
+  "reads": [
+    {
+      "from": "50A", "to": "50D", "depth": "full", "date": "2026-09-16", "page": "f25",
+      "source": "Gallica IIIF. Corner numbers 49 / 50, running head '... PROLEGOMENA.' Right column only (col 49 is C0's). Four column-bounded crops at native resolution; no crop crossed the gutter. Archive p. 30 right column as second witness.",
+      "found": "FOOT NOTE CONFIRMED: full-width under both columns, '(a) Id est in eadem arbore nascentem in qua ramusculus.', keyed in col 50 band B at 'bonae naturae legis (a), quam interserit Paulus'. Migne prints the key as italic '(a)' in parentheses; the twin's 'ª' stands for it. The same note and key on archive p. 30. No other note on the page. Head 'Copia cujusdem litterae ... fuit missa.' in italics as in the twin. Collated word by word against chunk 0006: three copy-level differences, all press variants (both copies clean): 'Alme praesul, ut' (Gallica comma; archive and twin full stop); 'etsi magna' (Gallica one word; twin 'et si'); 'simpliciter comparatus' (Gallica; archive and twin 'sempliciter'). No patch filed for any. Confirmed as printed: 'octo rationibus Achilleis'; 'sub numero senario'; 'attamen non ingeniosa subtilitas mentem reficit elevatam, non satiat'; '« Omnia in figura illis contingebant, »' (no 'Haec autem': the [var:] site); 'per spirationem'."
+    },
+    {
+      "from": "51A", "to": "52D", "depth": "full", "date": "2026-09-16", "page": "f26",
+      "source": "Gallica IIIF. Corner numbers 51 / 52, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Both columns, three column-bounded crops each; line 1 of col 51 zoomed 4x. Archive p. 31 (corners 51 / 52) as second witness.",
+      "found": "CHECKED ZERO at the foot of both columns, all apparatus layers. Col 51: our twin's 'sed pene mysticus' is a transcription error; both copies print 'sed bene' (Gallica worn) -- PATCH FILED. The letter ends 'Vive cum gratia, ut vivas semper in gloria.' at 51C; head 'Copia responsionis ad praedictam epistolam.' follows in italics. Col 52: '« Ego Dominus docens te utilia (Isa. XLVIII), »'; 'sensus naturalis praeeminet' is Migne's type on both copies (crux, no marker); 'ut dicit' (third person) as printed; 'exemplum nullum videtur habere locum'; 'Homeliis'. Otherwise matches the twin."
+    },
+    {
+      "from": "53A", "to": "54D", "depth": "full", "date": "2026-09-16", "page": "f27",
+      "source": "Gallica IIIF. Corner numbers 53 / 54, running head '... PROLEGOMENA.' Both columns, three column-bounded crops each.",
+      "found": "CHECKED ZERO at the foot of both columns. Collated against chunks 0007 and 0008: no twin divergence. Confirmed as printed: 'Primo contra auctoritates sacrarum Scripturarum' and 'in libro IV de Trinitate' (the [cj:] site); '« Haec est vita aeterna, ut cognoscant te Deum, et, « quem misisti, Filium tuum (Joan. XVII), »' (the [var:] site); '(Marc. XIX)' for Si vis perfectus; '(Jac. III)' for Confitemini; 'secundum sensum litteralem doctorum hujusmodi'; '« Et tu Beth-« lehem? »', '« Ecce virgo concipiet? »', '« Ecce rex tuus venit tibi? »' each with Migne's question mark; 'Isa. LIV' for Sicut ovis; 'Gen. penult.'"
+    },
+    {
+      "from": "55A", "to": "56D", "depth": "full", "date": "2026-09-16", "page": "f28",
+      "source": "Gallica IIIF. Corner numbers 55 / 56, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Both columns, three column-bounded crops each.",
+      "found": "CHECKED ZERO at the foot of both columns. No twin divergence. Confirmed as printed: '« ... praevarica-« tores autem corruerunt in eis (Ose. XIV); »' (the [var:] site); the gloss's own 'corruent in eis'; 'Isaiae LXI' with the Lucan wording 'propter quod unxit me evangelizare pauperibus'; '« Omnia in figuris contingebant illis « (I Cor. X), »' (second [var:] site); '« Haec autem omnia contingebant illis in « figura. »'; '« Audi, Israel, Deus tuus unus est (Deut. VI), »'. Chunk boundary 0008/0009 at 56B/56C falls between paragraphs, as on the plate."
+    },
+    {
+      "from": "57A", "to": "58D", "depth": "full", "date": "2026-09-16", "page": "f29",
+      "source": "Gallica IIIF. Corner numbers 57 / 58, running head '... PROLEGOMENA.' Both columns, three column-bounded crops each. Archive p. 34 (cols 57/58) for the three twin divergences and two Migne-type candidates.",
+      "found": "CHECKED ZERO at the foot of both columns. THREE twin divergences, all transcription errors confirmed on both copies, PATCHES FILED: 'spritualia' -> 'spiri-|tualia' (57B); 'spritualem' -> 'spiritualem' (58A); 'Sripturae' -> 'Scripturae' (58B). Confirmed as Migne's type on BOTH copies: 'Attribuis enim sensus spirituali' (57D, case error, [sic: *sensus*] fired); 'sed est rectitudo experientiae' (57D; the letter at 51A had 'certitudo'; crux only). Also as printed: '« Sapientibus et insipientibus debitor « sum (Rom. I); »' with the interior guillemet; 'etymologicam et anagogicam'; 'septem claves suae regulae'; 'Laudamus seipsos vituperantes'; 'et Prov. XXVII'."
+    },
+    {
+      "from": "59A", "to": "60A", "depth": "full", "date": "2026-09-16", "page": "f30",
+      "source": "Gallica IIIF. Corner numbers 59 / 60, running head 'WALAFRIDUS STRABUS FULDENSIS MONACHUS.' Top third of both columns read in column-bounded crops; whole page at survey resolution. Archive p. 35 (corner 60) for one punctuation mark.",
+      "found": "END OF TEXT CONFIRMED: Burgos's reply runs col 59 lines 1-17 ('... esse simpli-') and col 60 lines 1-15, ending 'Vale, frater in Domino: et meliora charismata semper aemulare, etc.' A full-width rule follows, then 'INCIPIT PROLOGUS IN Replicas defensivas Postillae ... a ... fratre Matthia THORING ...' (Doring), which is in no file we hold and out of scope. The apparent 59A -> 60A band gap in our chunks is this layout, not lost text. CHECKED ZERO at the foot (no note on the page). 60A: Gallica 'Scriptura divina. semper', archive and twin 'divina, semper' -- press variant or worn comma, no patch, English follows the comma. No other divergence."
+    }
+  ]
+}
