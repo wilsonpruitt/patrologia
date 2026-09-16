@@ -1,0 +1,18 @@
+{
+ "patches": [
+  {
+   "work": "8974 (PL 113)",
+   "col": null,
+   "find": "<div1>\n        <head>Additiones</head>",
+   "replace": "<div1>\n        <head type=\"book-title\">ADDITIONES AD POSTILLAM magistri Nicolai de Lira super Biblia, editae a reverendo Patre domino Paulo de Sancta Maria, magistro in theologia, episcopo Burgensi, archicancellario serenissimi principis domini Joannis regis Castellae et Legionis, incipiunt. Quas venerabili viro Alphonso legum doctori, decano Compostellano, filio suo ex legitimo matrimonio genito, direxit: praemittens ei prologum sub forma sequenti. Finivit autem eas anno Domini MCCCCXXIX Quibus etiam et insertae sunt Replicae magistri Matthiae Doring, ejusdem ordinis Minorum fratris, et theologi optimi, prout clarius videbitur in processu.</head>\n        <head>Additiones</head>",
+   "why": "STRUCTURAL RECOVERY, read at the plate 2026-09-16 (prep spot check). Migne sets a display heading above this work and Corpus Corporum drops the whole line; our TEI body opened at CC's own catalogue title, which Migne does not print. Same class as the five Glossa Pentateuch book-title lines (Wilson's ruling 2026-09-06), encoded by the same convention: <head type=\"book-title\"> above the first head, before the first column mark, so col is null. Witness: Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2 (corners read FIRST: f6 = 11/12, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36); this heading on f18 (cols 35/36). Transcribed with ae for the ligature as the TEI does; Migne's capitals, small capitals and italics are not encoded. Read at native resolution from a server-side crop. ⚑ Migne prints NO full stop after MCCCCXXIX before Quibus; transcribed as printed. The rubric is load-bearing: it names the addressee (Alphonsus, dean of Compostela, the author's son) and announces that Doring's Replicae are inserted. ⚑ Those Replicae (INCIPIT PROLOGUS IN Replicas defensivas, col 60B onward) are in no Corpus Corporum file."
+  },
+  {
+   "work": "8974 (PL 113)",
+   "col": "0050B",
+   "find": "bonae naturae legis, quam interserit Paulus",
+   "replace": "bonae naturae legis ª, quam interserit Paulus",
+   "why": "FOOT-OF-PAGE NOTE ANCHOR RESTORED, read at the plate 2026-09-16 (prep spot check). Gallica ark:/12148/bpt6k5505319w f25, corners read FIRST = 49/50. Migne prints (a) after legis in col 50B, keyed to a note set under both columns: (a) Id est in eadem arbore nascentem in qua ramusculus. Corpus Corporum dropped both the key and the note. The key is encoded as the raised-letter glyph ª, the form inject-plate-notes.mjs reads for the letter layer (precedent 8949 @0256C), though Migne sets it in parentheses on the line. The note is recovered in data/plate-notes/8974.tsv and belongs to the asterisk/letter layer (editorial prose: [cn:] plus translated [nt:])."
+  }
+ ]
+}

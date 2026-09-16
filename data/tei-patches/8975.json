@@ -1,0 +1,11 @@
+{
+ "patches": [
+  {
+   "work": "8975 (PL 113)",
+   "col": null,
+   "find": "<div1>\n        <head>Ad lectorem</head>",
+   "replace": "<div1>\n        <head type=\"book-title\">DUACENSIUM THEOLOGORUM IN GLOSSAM ORDINARIAM PROLEGOMENA. (Ex editione Duacensi anni 1617.) LECTORI CATHOLICO SALUTEM ET FELICITATEM.</head>\n        <head>Ad lectorem</head>",
+   "why": "STRUCTURAL RECOVERY, read at the plate 2026-09-16 (prep spot check). Migne sets a display heading above this work and Corpus Corporum drops the whole line; our TEI body opened at CC's own catalogue title, which Migne does not print. Same class as the five Glossa Pentateuch book-title lines (Wilson's ruling 2026-09-06), encoded by the same convention: <head type=\"book-title\"> above the first head, before the first column mark, so col is null. Witness: Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2 (corners read FIRST: f6 = 11/12, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36); this heading on f6 (cols 11/12). Transcribed with ae for the ligature as the TEI does; Migne's capitals, small capitals and italics are not encoded. The heading stands immediately under Migne's own MONITUM EDITORIS PATROLOGIAE (cols 11A-B), which is Migne's editorial notice and NOT part of this work. ⚑ The 1617 Douai Prolegomena continue past this letter: cols 20C-25B (DE CANONICIS ET NON CANONICIS LIBRIS, then a section on the ancient translations) are in no Corpus Corporum file."
+  }
+ ]
+}

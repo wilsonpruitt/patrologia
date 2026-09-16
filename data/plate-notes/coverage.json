@@ -1427,6 +1427,52 @@
    "notes_recovered": 1,
    "note": "FULL SWEEP COMPLETE 2026-09-08. Every leaf of the work read at the foot, both columns, Gallica bpt6k5505319w f92-f148 (57 leaves, cols 0183A-0296C) -- corner numbers confirmed on the six calibration leaves already on file, the letter-class survey run across the rest at ~700px full-page renders (sufficient to distinguish a text block reaching the foot margin from blank paper, which is what this sweep is for) and every leaf reviewed by eye. ONE note found, at f128 (cols 255/256): a raised-letter key 'a' after 'concordia charitatis', an editorial note on the numbering of the Decalogue (Augustine vs Origen). Recovered per Wilson's ruling 2026-09-08 (data/briefs/8949-ADJUDICATIONS.md section 4): the raised letter joins the ASTERISK layer -- [cn: a | ...] on the Latin plus a translated [nt: ...] on the English, since the note is editorial prose and not a bare textual conjecture. The anchor glyph itself was also dropped by Corpus Corporum (0 superscript characters anywhere in the source, unlike 8950 Genesis where the anchor survived); restored by TEI patch (data/tei-patches/8949.json) so inject-plate-notes.mjs places the note by the same machinery as every other letter-keyed work. f129 confirmed clean at its head -- the note does not run over. No numbered conjecture sequence and no second asterisk-layer note anywhere else in the work.",
    "notes_placed": 1
+  },
+  {
+   "idno": "8975",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-09-16 over all five PL 113 leftovers together, on Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2, confirmed on the printed corners of every leaf read BEFORE the text (f6 = 11/12, f10 = 19/20, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36, f25 = 49/50, f26 = 51/52, f30 = 59/60). Full page width at 1100-1400 px, which is enough to tell a foot note from blank paper and to read display lines; it is NOT a word-level collation, so none of these leaves is recorded in data/plate-reads.json and no [sic:]/[var:] is licensed by it. Every work division in this run falls MID-PAGE, and every one was read. This work: f6 (its opening, under Migne own MONITUM) and f10 (its end at 20C, where DE CANONICIS ET NON CANONICIS LIBRIS begins mid-page). Checked zero at the foot, both layers. Dropped display heading recovered by TEI patch."
+  },
+  {
+   "idno": "8971",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-09-16 over all five PL 113 leftovers together, on Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2, confirmed on the printed corners of every leaf read BEFORE the text (f6 = 11/12, f10 = 19/20, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36, f25 = 49/50, f26 = 51/52, f30 = 59/60). Full page width at 1100-1400 px, which is enough to tell a foot note from blank paper and to read display lines; it is NOT a word-level collation, so none of these leaves is recorded in data/plate-reads.json and no [sic:]/[var:] is licensed by it. Every work division in this run falls MID-PAGE, and every one was read. This work: f13 (its opening at 25C, mid-page) and f15 (its end at 29B, mid-page). Checked zero at the foot, both layers. Dropped display heading recovered by TEI patch."
+  },
+  {
+   "idno": "8972",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-09-16 over all five PL 113 leftovers together, on Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2, confirmed on the printed corners of every leaf read BEFORE the text (f6 = 11/12, f10 = 19/20, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36, f25 = 49/50, f26 = 51/52, f30 = 59/60). Full page width at 1100-1400 px, which is enough to tell a foot note from blank paper and to read display lines; it is NOT a word-level collation, so none of these leaves is recorded in data/plate-reads.json and no [sic:]/[var:] is licensed by it. Every work division in this run falls MID-PAGE, and every one was read. This work: f15 (its opening, mid-page) and f17 (its end, mid-page). Checked zero at the foot, both layers. Dropped display heading recovered by TEI patch."
+  },
+  {
+   "idno": "8973",
+   "series": "pl",
+   "volume": 113,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-09-16 over all five PL 113 leftovers together, on Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2, confirmed on the printed corners of every leaf read BEFORE the text (f6 = 11/12, f10 = 19/20, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36, f25 = 49/50, f26 = 51/52, f30 = 59/60). Full page width at 1100-1400 px, which is enough to tell a foot note from blank paper and to read display lines; it is NOT a word-level collation, so none of these leaves is recorded in data/plate-reads.json and no [sic:]/[var:] is licensed by it. Every work division in this run falls MID-PAGE, and every one was read. This work: f17 (its opening, mid-page) and f18 (its end at 35A, mid-page). Checked zero at the foot, both layers. Dropped display heading recovered by TEI patch."
+  },
+  {
+   "idno": "8974",
+   "series": "pl",
+   "volume": 113,
+   "tier": 3,
+   "coverage": "spot",
+   "notes_recovered": 1,
+   "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-09-16 over all five PL 113 leftovers together, on Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2, confirmed on the printed corners of every leaf read BEFORE the text (f6 = 11/12, f10 = 19/20, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36, f25 = 49/50, f26 = 51/52, f30 = 59/60). Full page width at 1100-1400 px, which is enough to tell a foot note from blank paper and to read display lines; it is NOT a word-level collation, so none of these leaves is recorded in data/plate-reads.json and no [sic:]/[var:] is licensed by it. Every work division in this run falls MID-PAGE, and every one was read. This work: f18 (opening, mid-page), f25 (49/50, where the Franciscan letter begins mid-column), f26 (51/52, where the reply begins mid-column), f30 (59/60, its end at 60A, where Doring Replicae begin mid-page). ONE NOTE FOUND at f25: a letter key (a) after legis in col 50B, note under both columns: (a) Id est in eadem arbore nascentem in qua ramusculus. Editorial prose, so the asterisk/letter layer: [cn: a | ...] plus a translated [nt:]. Recovered to data/plate-notes/8974.tsv; key glyph restored by TEI patch. Coverage is spot, NOT full: 13 of this work leaves were not surveyed, so the work may carry more lettered notes, and the translation stints must check the foot of every leaf they read.",
+   "notes_placed": 1
   }
  ],
  "fields": {
