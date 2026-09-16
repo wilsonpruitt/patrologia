@@ -131,3 +131,13 @@ printings (see `data/briefs/PL113L-PENDING-TEI-PATCHES-B.md`).
 Non-scripture authorities, rendered as printed, not checked for correction: Gregory *Hom. 35* (=37,
 see above); Aristotle *De anima* III and I, *Metaph.* II (*In foribus quis delinquet*), I, XII, IV,
 *Phys.* VIII; Jerome, Ep. to Paulinus; Augustine, *De Trin.* XIV.1; "the Gloss" on Jn 16:13 and Is 38:1.
+
+---
+
+## Merge, 2026-09-16
+
+- **TEI patches applied** (`data/tei-patches/8971.json`, re-chunked, verify OK): *duo decimo*→*duodecimo*
+  @0026D, and the dropped opening « before *Vidi* @0029A. The English (0001) gained the matching « in
+  the same commit: "And in Apocalypse « five: « I saw in the right hand …". The press variants in §0
+  take no patch and no marker; the two-printings finding is recorded, scoped to cols 25–40, in
+  `data/briefs/PL113-WITNESS-ENCODING.md`.

@@ -66,3 +66,14 @@ No `[sic:]`, `[cj:]`, `[ed:]` or `[d:]`.
 *sensus litteralis / mysticus* → literal / mystical sense; *allegoricus, moralis, anagogicus* →
 allegorical, moral, anagogical; *sacra Scriptura* → Holy Scripture (Pattern 3). *voces* → "words"
 throughout (the sign/thing distinction). *subjective* → "as subject". Every term held.
+
+---
+
+## Merge, 2026-09-16
+
+- **TEI patch applied** (`data/tei-patches/8973.json`, re-chunked, verify OK): *flios*→*filios* @0034D.
+- ⚑ **FOR WILSON — the mnemonic's lineation @0033D, not resolved at merge.** Migne sets *Littera gesta
+  docet, quid credas allegoria, / Moralis quid agas, quo tendas anagogia,* as two lines of its own. Our
+  TEI encodes both as `<l>`, but the chunker breaks only after each `<l>`, so the first line runs on
+  from *unde versus:* — same limitation and same decision as 8975 @0019A (see that work's cruces):
+  a chunker change, not a patch, and not made here.

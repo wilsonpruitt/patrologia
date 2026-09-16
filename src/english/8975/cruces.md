@@ -102,3 +102,22 @@ No `[sic:]`, `[var:]`, `[cj:]`, `[ed:]` or `[d:]` markers were fired in this wor
 *Additions*; *Replicas* / *replicis* → the *Replies*; *sacra/divina Scriptura* → Holy/divine Scripture
 (Pattern 3 for *sacra*). *Burgensis* for Paul of Burgos is kept as a name ("the venerable
 Burgensis"). Every term held.
+
+---
+
+## Merge, 2026-09-16
+
+- **TEI patches applied** (`data/tei-patches/8975.json`, re-chunked, verify OK): *petulantiz*→*petulantia*
+  @0016D, *poena*→*poeta* @0017C, *nonnulis*→*nonnullis* @0019A, the stop after *consiliis* removed
+  @0020A, and ***clucidans*→*elucidans* @0018C–D, APPLIED at merge**: Gallica's sort is a worn *e* (the
+  bar gone), not a *c*, and the archive prints *e* clean, so both witnesses point to *e*. No marker was
+  ever fired; the English already read "elucidating".
+- ⚑ **FOR WILSON — verse lineation @0019A, not resolved at merge.** Both witnesses set each distich
+  (*Cui veteris … / Cognomen …*; *Hierophanta … / Et Brabantiaco …*) on lines of its own. Our TEI
+  already encodes them as `<l>` lines, but the chunker's `<l>` convention (`scripts/lib/chunk-core.mjs`:
+  `</l>` → line break, `<l>` → nothing) breaks only AFTER each verse line, so the first line of each
+  distich runs on from the preceding prose — the same rendering shipped works carry (e.g. 11057
+  @0370A). Matching the plate needs a chunker change (a break before the first `<l>` of a run), which
+  would also re-flow verse in shipped works on their next rebuild. Not invented here. Pattern 8a says
+  lineate where Migne lineates; this is the one place the machinery falls short of it. English mirrors
+  the Latin line structure.

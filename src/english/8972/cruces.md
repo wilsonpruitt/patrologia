@@ -107,3 +107,12 @@ English follows the twin.** Patches are filed only where the twin departs from b
 | 0034A | *Istae sunt generationes coeli et terrae in die quo creati sunt* | Gen. II | Gn 2:4 *quando creata sunt, in die quo fecit* | conflation, no sense change |
 | 0034A | *Quomodo cecidisti de coelo, Lucifer, qui mane oriebaris?* | Isa. XIV | Is 14:12 | ✓ |
 | 0034A | *Tu signaculum similitudinis, plenus sapientia, perfectus decore, in deliciis paradisi Dei fuisti* | Ezech. XXVIII | Ez 28:12–13 | ✓ (two verses joined) |
+
+---
+
+## Merge, 2026-09-16
+
+- **TEI patch applied** (`data/tei-patches/8972.json`, re-chunked, verify OK): the comma after
+  *simpliciter* @0032A (Gallica's clean comma; the archive's point may be a codec rendering of one).
+  The press variants recorded above take no patch and no marker (see 8971's cruces and
+  `data/briefs/PL113-WITNESS-ENCODING.md`, addendum 2026-09-16).
