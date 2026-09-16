@@ -245,5 +245,23 @@
     "latin": "Auctor incertus (Walafridus Strabo?)",
     "attributionFlag": "Migne prints this commentary under Walafrid Strabo’s name, among his Opera in PL 113–114, though it is not part of the Glossa ordinaria. The ascription is the edition’s own rather than the manuscripts’, and the editor Migne reprints sets out his grounds for it at the head of the work, printed and translated here.",
     "_note": "Shared anonymous key with a Walafridian attribution flag. No popover; per-work provenance goes in work-about.json. Added 2026-09-02 when 9004’s byline was corrected off the Glossa author. GENERALISED 2026-09-03 when 9003 took the same byline: the flag named Martianay, his Jerome manuscripts and his auctor esse potuerit, all of which belong to 9004 and are false of 9003, whose text comes from Pez’s Thesaurus. A shared key may carry only what is true of every work under it — and nothing is lost, because each editor’s own preface (Martianay’s Admonitio, Pez’s Monitum praevium) is printed and Englished at the head of its own work."
+  },
+  "Nicolaus de Lira": {
+    "displayName": "Nicholas of Lyra",
+    "latin": "Nicolaus de Lira",
+    "dates": "c. 1270–1349",
+    "bio": "Franciscan friar and master of theology at Paris, named from Lyre in Normandy. His Postilla litteralis, a running commentary on the literal sense of the whole Bible completed in the 1330s, drew openly on Jewish exegesis, above all Rashi (\"Rabbi Solomon\"), and on the Hebrew text itself. It became the most widely read Bible commentary of the later Middle Ages and was printed with the Glossa ordinaria in the great glossed Bibles. His two prologues set out his account of the literal and mystical senses; a later Postilla moralis supplied the mystical sense he had held back."
+  },
+  "Paulus de Sancta Maria": {
+    "displayName": "Paul of Burgos",
+    "latin": "Paulus de Sancta Maria",
+    "dates": "c. 1351–1435",
+    "bio": "Born Solomon ha-Levi, a leading rabbi of Burgos, he was baptized about 1390 and took the name Pablo de Santa María. He became bishop of Cartagena and then of Burgos, and served as chancellor of Castile. His Additiones to Nicholas of Lyra’s Postilla, finished in 1429 and addressed to his son Alfonso, dean of Compostela, correct Lyra from a convert’s knowledge of Hebrew and of rabbinic tradition; they provoked a defence of Lyra by the Franciscan Matthias Doring, and all three were thereafter printed together. He also wrote the Scrutinium Scripturarum against Judaism."
+  },
+  "Theologi Duacenses": {
+    "displayName": "The theologians of Douai",
+    "latin": "Theologi Duacenses",
+    "dates": "1617",
+    "bio": "The Catholic theologians of Douai who prepared the 1617 Douai edition of the Bible with the Glossa ordinaria and Nicholas of Lyra’s Postilla, printed with Paul of Burgos’s Additions and Matthias Doring’s Replies. Migne reprinted their prefatory matter, addressed to the Catholic reader, at the head of his edition of the Glossa."
   }
 }
