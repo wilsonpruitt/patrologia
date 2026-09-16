@@ -1,0 +1,851 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3951,
+  "textIdno": 8974,
+  "title": "Additiones",
+  "authors": [
+    "Paulus de Sancta Maria"
+  ],
+  "authorsDisplay": [
+    "Paul of Burgos"
+  ],
+  "series": "pl",
+  "volume": 113,
+  "colFirst": "35b",
+  "colLast": "60a",
+  "counts": {
+    "scripture": 23,
+    "fontes": 1,
+    "heads": 4,
+    "headnotes": 108,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Prov.30",
+      "refDisplay": "Prov. XXX",
+      "column": "37b",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rom.15",
+      "refDisplay": "Rom. XV",
+      "column": "38a",
+      "chunk": 1
+    },
+    {
+      "refKey": "Ps.32",
+      "refDisplay": "Psal. XXXII",
+      "column": "44c",
+      "chunk": 3
+    },
+    {
+      "refKey": "2Cor.3",
+      "refDisplay": "II Cor. III",
+      "column": "47b",
+      "chunk": 4
+    },
+    {
+      "refKey": "Isa.48",
+      "refDisplay": "Isa. XLVIII",
+      "column": "52a",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.17",
+      "refDisplay": "Joan. XVII",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.1",
+      "refDisplay": "Joan. I",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Mark.15",
+      "refDisplay": "Marc. XV",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Ibid.",
+      "antecedent": "Matth. XII",
+      "antecedentColumn": "53b",
+      "ibidResolved": true,
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "refKey": "Mark.19",
+      "refDisplay": "Marc. XIX",
+      "column": "53c",
+      "chunk": 7
+    },
+    {
+      "refKey": "Mark.16",
+      "refDisplay": "Marc. XVI",
+      "column": "53c",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.6",
+      "refDisplay": "Joan. VI",
+      "column": "53d",
+      "chunk": 7
+    },
+    {
+      "refKey": "Jas.3",
+      "refDisplay": "Jac. III",
+      "column": "53d",
+      "chunk": 7
+    },
+    {
+      "refKey": "John.5",
+      "refDisplay": "Joan. V",
+      "column": "54a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Ps.117",
+      "refDisplay": "Psal. CXVII",
+      "column": "54b",
+      "chunk": 8
+    },
+    {
+      "refKey": "Hos.14",
+      "refDisplay": "Ose. XIV",
+      "column": "55a",
+      "chunk": 8
+    },
+    {
+      "refKey": "Matt.12",
+      "refDisplay": "Matth. XII",
+      "column": "55a",
+      "chunk": 8
+    },
+    {
+      "refKey": "1Cor.10",
+      "refDisplay": "I Cor. X",
+      "column": "56c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Deut.6",
+      "refDisplay": "Deut. VI",
+      "column": "56d",
+      "chunk": 9
+    },
+    {
+      "refKey": "Rom.1",
+      "refDisplay": "Rom. I",
+      "column": "57b",
+      "chunk": 9
+    },
+    {
+      "refKey": "1Cor.2",
+      "refDisplay": "I Cor. II",
+      "column": "58a",
+      "chunk": 9
+    },
+    {
+      "refKey": "2Cor.10",
+      "refDisplay": "II Cor. X",
+      "column": "58c",
+      "chunk": 9
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "de quo Ezechielis II et Apocal. V",
+      "column": "48c",
+      "chunk": 5
+    }
+  ],
+  "heads": [
+    {
+      "la": "Additiones",
+      "column": "35b",
+      "chunk": 0,
+      "en": "Additions"
+    },
+    {
+      "la": "Super prologum primum Postillae, qui incipit: Haec omnia liber vitae. Similiter super secundum prologum ejusdem Postillae qui incipit: Vidi in dextera sedentis super thronum, etc.",
+      "column": "37d",
+      "chunk": 1,
+      "en": "On the first prologue of the Postill, which begins: All these things are the book of life. Likewise on the second prologue of the same Postill, which begins: I saw in the right hand of him that sat upon the throne, etc."
+    },
+    {
+      "la": "Copia cujusdem litterae, quae contra determinationem praedictae quaestionis a quodam magistro in sacra pagina de ordine Minorum, auctori additionum fuit missa.",
+      "column": "50a",
+      "chunk": 6,
+      "en": "Copy of a certain letter, which was sent to the author of the Additions against the determination of the aforesaid question by a certain master of the sacred page of the order of Minors."
+    },
+    {
+      "la": "Copia responsionis ad praedictam epistolam.",
+      "column": "51c",
+      "chunk": 7,
+      "en": "Copy of the reply to the aforesaid letter."
+    }
+  ],
+  "headnotes": [
+    {
+      "la": "… quod ad sacrarum Scripturarum notitiam conferat, et gressus tuos in catholicae veritatis solidissimo fervore confirmet. Haec est enim quam corde gesto ac ore profiteor, et de qua puto scriptum fuisse",
+      "en": "… sacred Scriptures, and may confirm thy steps in the most solid fervour of catholic truth? For this is the truth which I bear in my heart and profess with my mouth, and of which I think it was written",
+      "column": "35b",
+      "chunk": 0
+    },
+    {
+      "la": "…avit, ego non referam, vos ipsi cognoscite. Unum est quod silentio committere non possum, nobis ex Levitico sanguine descendentibus aliquantulum demonstratum fuisse, quod ante tot saecula scriptum est",
+      "en": "…recognize it yourselves. One thing there is which I cannot commit to silence: that to us, who descend from Levitical blood, there has been shown in some small measure what was written so many ages ago",
+      "column": "36b",
+      "chunk": 0
+    },
+    {
+      "la": "…scurrissem, et si solemnissime, et miranda copiositate scriptam conspicio: quia tamen nullum opus humanum adeo perfectum est, quin ei superaddi aliquid possit, et de sola Scriptura divina scriptum est",
+      "en": "… although I see it written most solemnly and with wonderful copiousness: yet because no human work is so perfect but that something may be added over to it, and of divine Scripture alone it is written",
+      "column": "37b",
+      "chunk": 0
+    },
+    {
+      "la": "…asione quod scriptum erat retinere volui, imo in quasdam arrhas commercii nostri illico tradere. Hoc est ergo, fili mi, testamentum meum, hi sunt codicilli mei, hoc ex illis praelegatum agnosce, ut in",
+      "en": "…ather to hand it over forthwith as a kind of earnest of our exchange. This then, my son, is my testament, these are my codicils; recognize this as a legacy set aside in advance out of them, so that in",
+      "column": "37c",
+      "chunk": 0
+    },
+    {
+      "la": "…ue versatur circa sensum litteralem, ideo ante omnia quaerendum videtur utrum sensus litteralis caeteris sensibus sacrae Scripturae sit dignior; et videtur quod non. Nam secundum Apostolum II Cor. III",
+      "en": "…t seems that before all else it must be asked whether the literal sense of sacred Scripture is more worthy than the other senses; and it seems that it is not. For according to the Apostle, II Cor. III",
+      "column": "38a",
+      "chunk": 1
+    },
+    {
+      "la": "…r caeteris sensibus. Praeterea, dignior est doctrina quae habetur per sensus spirituales, quam illa quae habetur per sensum litteralem, ergo spirituales sensus sunt digniores: tenet consequentia, quia",
+      "en": "…, the teaching which is had through the spiritual senses is more worthy than that which is had through the literal sense; therefore the spiritual senses are more worthy: the consequence holds, because",
+      "column": "38a",
+      "chunk": 1
+    },
+    {
+      "la": "…ologo: sed secundum primam significationem, qua voces res significant, multa falsa reperiuntur in sacra Scriptura, specialiter attribuendo Deo quod Deo minime competit, sicut motus localis, ut Gen. XI",
+      "en": "…the first signification, by which words signify things, many false things are found in sacred Scripture, especially by attributing to God what in no way befits God, such as local motion, as in Gen. XI",
+      "column": "38c",
+      "chunk": 1
+    },
+    {
+      "la": "…iter III Reg. VIII. Idem patet in sacramentis Ecclesiae, in quibus invisibilis gratia, quae interius datur, dignior est quam visibilis forma, quae apparet exterius. Cum autem sensus litteralis dicitur",
+      "en": "…s plain in the sacraments of the Church, in which the invisible grace, which is given inwardly, is more worthy than the visible form, which appears outwardly. Now since the literal sense is said to be",
+      "column": "38d",
+      "chunk": 1
+    },
+    {
+      "la": "sensus vero mysticus",
+      "en": "and the mystical sense",
+      "column": "38d",
+      "chunk": 1
+    },
+    {
+      "la": "ut patet Apoc. V in auctoritate allegata per Postillam, ubi dicitur",
+      "en": "as is plain in Apoc. V in the authority cited by the *Postill*, where it is said",
+      "column": "38d",
+      "chunk": 1
+    },
+    {
+      "la": "…fecta, prout patet non solum in humanis scientiis, quae procedunt a sensibus et particularibus et terminantur in summis rerum causis, sed etiam in his quae ad notitiam divinorum pertinent; unde Rom. I",
+      "en": "… the human sciences, which proceed from the senses and from particulars and end in the highest causes of things, but also in those things which pertain to the knowledge of divine things; whence Rom. I",
+      "column": "38d",
+      "chunk": 1
+    },
+    {
+      "la": "…est dignior. Praeterea, ille sensus Scripturae debet dici dignior, qui alterius defectum supplet; sed sensus spiritualis quandoque supplet defectum litteralis sensus; dicit enim Gregorius in Moralibus",
+      "en": "…hat sense of Scripture ought to be called more worthy which supplies the defect of another; but the spiritual sense sometimes supplies the defect of the literal sense; for Gregory says in the *Morals*",
+      "column": "39a",
+      "chunk": 1
+    },
+    {
+      "la": "…uum signum virtutis, ut in I Ethic.: Sed sensus litteralis sacrae Scripturae est hujusmodi; ergo sensus litteralis inter caeteros est dignior. Minor patet secundum Augustinum in epistola ad Hieronymum",
+      "en": "…*Ethics*: But the literal sense of sacred Scripture is of this kind; therefore the literal sense is the more worthy among the others. The minor is plain according to Augustine in the epistle to Jerome",
+      "column": "39a",
+      "chunk": 1
+    },
+    {
+      "la": "… dicendum quod sensus litteralis quandoque dicitur ille, secundum quem aliqua historia narratur ad litteram: et hoc videntur sonare verba Gregorii in III Moralium, qui de sensu litterali loquens dicit",
+      "en": "…es that is called the literal sense according to which some history is narrated to the letter: and the words of Gregory in III *Morals* seem to sound this way, who, speaking of the literal sense, says",
+      "column": "39c",
+      "chunk": 1
+    },
+    {
+      "la": "Similiter, et in versu praeallegato dicitur",
+      "en": "Likewise, in the verse cited before it is said",
+      "column": "39c",
+      "chunk": 1
+    },
+    {
+      "la": "…siae auctoritati seu determinationi, quantumcunque talis sensus sit conformis significationi litterae: talis enim sensus non solum non intenditur ab auctore, sed potius est haereticus; unde Hieronymus",
+      "en": "…mination of the Church, however much such a sense may be conformable to the signification of the letter: for such a sense not only is not intended by the author, but rather is heretical; whence Jerome",
+      "column": "40a",
+      "chunk": 1
+    },
+    {
+      "la": "…tterali, ille qui rationi rectae repugnat; talis enim sensus non intenditur ab auctore, scilicet, Deo, qui est prima veritas, a quo omnis veritas derivatur; et ideo Augustinus super Genesi ad litteram",
+      "en": "…which is repugnant to right reason; for such a sense is not intended by the author, namely God, who is the first truth, from whom all truth is derived; and therefore Augustine on Genesis to the letter",
+      "column": "40a",
+      "chunk": 1
+    },
+    {
+      "la": "…ntummodo sensum litteralem. Quod patet in multis, et specialiter in duobus praeceptis charitatis, in quibus tota lex pendet et prophetae, ut habetur Matth. XXII. Licet enim in his praeceptis, scilicet",
+      "en": "…nse only. Which is plain in many things, and especially in the two precepts of charity, on which the whole law hangs, and the prophets, as is had in Matth. XXII. For although in these precepts, namely",
+      "column": "40c",
+      "chunk": 2
+    },
+    {
+      "la": "… causa brevitatis omitto. In Evangeliis etiam multa traduntur, quibus non oportet assignare sensum mysticum, sed tantum litteralem: sicut in his quae traduntur ut praecepta, ut cum Joannis XIV dicitur",
+      "en": "…the Gospels also many things are handed down to which one need not assign a mystical sense, but only a literal one: as in those things which are handed down as precepts, as when it is said in John XIV",
+      "column": "40d",
+      "chunk": 2
+    },
+    {
+      "la": "et similibus. Similiter in his quae dantur ut consilia, sicut cum dicitur Matthaei XIX",
+      "en": "and the like. Likewise in those things which are given as counsels, as when it is said in Matthew XIX",
+      "column": "40d",
+      "chunk": 2
+    },
+    {
+      "la": "…i ex rebus signatis per voces accipiatur: sed tantum sensus litteralis, qui ex significatione vocum accipitur, ut est manifestum. Similiter cum Lucae VIII Christus interpretatur parabolam suam, dicens",
+      "en": "…from the things signified by the words: but only the literal sense, which is taken from the signification of the words, as is manifest. Likewise when in Luke VIII Christ interprets his parable, saying",
+      "column": "40d",
+      "chunk": 2
+    },
+    {
+      "la": "…um litteraliter; ipse enim historialiter loquendo seu litteraliter, ostendit de quibusdam Scripturis quomodo sint intelligendae in sensu spirituali: ut cum Galatarum IV dicit de duobus filiis Abrahae,",
+      "en": "…rally; for he himself, speaking historically or literally, shows of certain Scriptures how they are to be understood in the spiritual sense: as when in Galatians IV he says of the two sons of Abraham,",
+      "column": "41a",
+      "chunk": 2
+    },
+    {
+      "la": "… seu exponitur; quem sensum vocat etymologicum. Tertium est, cum veritas illius litterae ostenditur veritati alterius Scripturae non repugnare; quem vocat anagogicum. Verbi gratia, cum legitur Gen. II",
+      "en": "…h sense he calls etymological. The third is when the truth of that letter is shown not to be repugnant to the truth of another Scripture; which he calls anagogical. For example, when one reads Gen. II",
+      "column": "41c",
+      "chunk": 2
+    },
+    {
+      "la": "… sit costa, prout tractatur in secundo, dist. 18. Sensus vero anagogicus est, cum ostenditur quod veritas hujus dicti non repugnat veritati alterius Scripturae, ubi dicitur Gen. I de creatione hominis",
+      "en": "… second book, dist. 18. But the anagogical sense is when it is shown that the truth of this saying is not repugnant to the truth of another Scripture, where it is said in Gen. I of the creation of man",
+      "column": "41d",
+      "chunk": 2
+    },
+    {
+      "la": "…perficitur seu elucidatur: non tamen sunt sensus litterales proprie dicendi. De quibus tribus generibus expositionum ad sensum litteralem pertinentium potest intelligi illud II Esdr. VIII, ubi dicitur",
+      "en": "…ucidated, are nevertheless not properly to be called literal senses. Of which three kinds of exposition pertaining to the literal sense may be understood that saying of II Esdr. VIII, where it is said",
+      "column": "42a",
+      "chunk": 2
+    },
+    {
+      "la": "In hoc enim quod dicitur,",
+      "en": "For in that it is said,",
+      "column": "42a",
+      "chunk": 2
+    },
+    {
+      "la": "potest intelligi ipsa expositio litterae, quae est quasi janua omnium expositionum sequentium, sine cujus apertione non potest quis recte intrare ad alias expositiones. Cum autem dicitur,",
+      "en": "…exposition itself of the letter, which is as it were the door of all the expositions that follow, without the opening of which no one can rightly enter into the other expositions. And when it is said,",
+      "column": "42a",
+      "chunk": 2
+    },
+    {
+      "la": "intelligitur sensus anagogicus ab Augustino nominatus, quia per proprias et veras distinctiones solvuntur contrarietates quae in sacris Scripturis quandoque apparent. In hoc autem quod sequitur",
+      "en": "…derstood the sense named anagogical by Augustine, because through proper and true distinctions are resolved the contrarieties which sometimes appear in the sacred Scriptures. And in that which follows",
+      "column": "42a",
+      "chunk": 2
+    },
+    {
+      "la": "…n cujus voluminis expositione doctores postremi seu scriptores omnia quodammodo theologica introduxerunt, in hujus sensus litteralis testimoniis totum suum opus fundavit; dicit enim in suo prologo sic",
+      "en": "…on of which volume the later doctors or writers have brought in, in a manner, all theological matters, founded his whole work on the testimonies of this literal sense; for he says thus in his prologue",
+      "column": "42d",
+      "chunk": 2
+    },
+    {
+      "la": "…significatione intelligantur: sed requiritur quandoque additio alicujus veri, ex quo vero, adjuncto sensui litterali, aliud verum deducatur. Sicut cum Christus Lucae XX ex testimonio litterae dicentis",
+      "en": "…times there is required the addition of some truth, from which truth, joined to the literal sense, another truth may be deduced. As when Christ, in Luke XX, from the testimony of the letter which says",
+      "column": "43a",
+      "chunk": 3
+    },
+    {
+      "la": "concludit contra Sadducaeos, aliam vitam esse negantes hominum post praesentem, sic arguens",
+      "en": "concludes against the Sadducees, who denied that there is another life of men after the present one, arguing thus",
+      "column": "43a",
+      "chunk": 3
+    },
+    {
+      "la": "…ectu alicujus existentis in rerum natura: ergo sequitur quod Abraham, et Isaac essent in rerum natura, quod negabant Sadducaei. Constat autem quod haec conclusio non deducitur ex sensu illius litterae",
+      "en": "…ure of things: therefore it follows that Abraham and Isaac were in the nature of things, which the Sadducees denied. And it is certain that this conclusion is not deduced from the sense of that letter",
+      "column": "43a",
+      "chunk": 3
+    },
+    {
+      "la": "…s his, quae supra in articulo primo de sensu litterali dicuntur. Primum est, quod ille sensus videtur praeferendus, cujus sententia magis innititur rationi. Unde in decretis dist. 20, c. *Decretales:*",
+      "en": "…hich are said above, in the first article, about the literal sense. The first is that that sense seems preferable whose opinion rests more upon reason. Hence in the Decrees, dist. 20, c. *Decretales:*",
+      "column": "43b",
+      "chunk": 3
+    },
+    {
+      "la": "…praedicta; praesertim si talis expositio prius emanavit a catholicis: cujus contrarium reperitur aliquo modo in Postilla, sicut patebit infra, Genesis I, ubi quaeritur quare in secunda die non dicitur",
+      "en": "… an exposition issued first from catholics: the contrary of which is found in some manner in the *Postill*, as will be plain below, in Genesis I, where it is asked why on the second day it is not said",
+      "column": "43d",
+      "chunk": 3
+    },
+    {
+      "la": "…t quod unus praedictorum sensuum caeteris praecellat secundum omnia dicta, sed potius unus illorum sensuum praecellit uno modo, et alius alio; idcirco in talibus videtur habere locum illud ad Rom. XIV",
+      "en": "… the aforesaid senses excels the others in all respects, but rather one of those senses excels in one way, and another in another; therefore in such matters that saying of Rom. XIV seems to have place",
+      "column": "44a",
+      "chunk": 3
+    },
+    {
+      "la": "… sumatur efficax argumentum contra infideles seu haereticos, sed ex hoc non tolletur quin talis sensus catholicorum sit verus et litteralis apud catholicos censendus. Verbi gratia, cum Psalmista dicit",
+      "en": "… it against unbelievers or heretics, but it will not be taken away by this that such a sense of the catholics is true and is to be reckoned literal among catholics. For example, when the Psalmist says",
+      "column": "44c",
+      "chunk": 3
+    },
+    {
+      "la": "…verus et litteralis apud catholicos est quod verbo Domini, id est, Filio Patris, coeli sunt firmati: quae quidem expositio apud catholicos est quasi necessaria, etiam consona huic quod dicitur Joan. I",
+      "en": "…y the word of the Lord, that is, by the Son of the Father, the heavens were established: which exposition is indeed among catholics as it were necessary, and consonant also with what is said in John I",
+      "column": "44c",
+      "chunk": 3
+    },
+    {
+      "la": "id est per Verbum",
+      "en": "that is, by the Word,",
+      "column": "44c",
+      "chunk": 3
+    },
+    {
+      "la": "…recipientes Evangelium: illi enim non concedunt aliquam esse distinctionem realem in divinis, sic ut sit aliqua divina persona aeternaliter procedens ab alio per modum verbi mentalis. Unde cum dicitur",
+      "en": "…spel: for they do not grant that there is any real distinction in divine things, such that there is some divine person proceeding eternally from another by way of a mental word. Hence, when it is said",
+      "column": "44c",
+      "chunk": 3
+    },
+    {
+      "la": "…tum, quod sensus litteralis est dignior, cum sit caeteris certior. Tota enim certitudo aliorum sensuum sacrae Scripturae a certitudine sensu litteralis dependet. Unde Augustinus de Doctrina Christiana",
+      "en": "… is more certain than the others. For the whole certainty of the other senses of sacred Scripture depends on the certainty of the literal sense [sic: *sensu*]. Hence Augustine, *On Christian Doctrine*",
+      "column": "45b",
+      "chunk": 4
+    },
+    {
+      "la": "…uaedam particularia loca sacrae Scripturae, sic manifestum est quod in pluribus locis sensus spiritualis est dignior, ex eo quod de altiori materia tractat; sicut cum legitur de Abraham Gen. XXI, quod",
+      "en": "…n particular places of sacred Scripture, then it is manifest that in many places the spiritual sense is more worthy, because it treats of a higher matter; as when one reads of Abraham in Gen. XXI that",
+      "column": "45c",
+      "chunk": 4
+    },
+    {
+      "la": "…rticularia loca tunc manifestum est quod in quibusdam locis sensus spiritualis est dignior, tanquam propinquior ultimo fini, ut patet in multis praeceptis caerimonialibus, sicut cum dicitur Deut. XXV.",
+      "en": "…icular places, then it is manifest that in some places the spiritual sense is more worthy, as being nearer to the ultimate end, as is plain in many ceremonial precepts, as when it is said in Deut. XXV",
+      "column": "45d",
+      "chunk": 4
+    },
+    {
+      "la": "quod exponitur ab Apostolo I Cor. IX spiritualiter, ostendente quod sensus praecepti illius litteralis modicae utilitatis est, de quo dicit",
+      "en": "which is expounded spiritually by the Apostle, I Cor. IX, who shows that the literal sense of that precept is of small usefulness, of which he says",
+      "column": "45d",
+      "chunk": 4
+    },
+    {
+      "la": "Ad primum, dicendum, quod Apostolus dicit",
+      "en": "To the first, it must be said that the Apostle says",
+      "column": "47b",
+      "chunk": 4
+    },
+    {
+      "la": "…ccati dabat, ex qua augebatur concupiscentia occasionaliter ex malitia humana, quae semper nititur in vetitum; non autem dabat gratiam, qua homo adjuvaretur ad implenda divina praecepta: idcirco dicit",
+      "en": "…ce was increased occasionally through human malice, which always strives toward what is forbidden; but did not give grace, by which man might be helped to fulfil the divine precepts: therefore he says",
+      "column": "47c",
+      "chunk": 4
+    },
+    {
+      "la": "…etiam quae sunt agenda, ut patet ex praeceptis charitatis, in quibus secundum doctrinam Christi tota lex pendet. Similiter per sensum litteralem habentur quae sunt credenda, ut de unitate Dei Deut. VI",
+      "en": "… of charity, on which, according to the teaching of Christ, the whole law hangs. Likewise through the literal sense are had the things that are to be believed, as concerning the unity of God, Deut. VI",
+      "column": "47d",
+      "chunk": 4
+    },
+    {
+      "la": "Et de Trinitate personarum, ut Matth. XXVIII",
+      "en": "And concerning the Trinity of persons, as Matth. XXVIII",
+      "column": "47d",
+      "chunk": 4
+    },
+    {
+      "la": "…mentum in spiritualibus saepe dicitur esse nobilius seu dignius quam aedificium: Christus enim, qui caeteris suppositis Ecclesiae incomparabiliter dignior existit, fundamentum dicitur; unde I Cor. III",
+      "en": "…oundation is often said to be nobler or more worthy than the building: for Christ, who exists incomparably more worthy than the other members of the Church, is called the foundation; whence I Cor. III",
+      "column": "47d",
+      "chunk": 5
+    },
+    {
+      "la": "…scilicet, ut rudibus qui ad capienda intelligibilia non sunt idonei, saltem sub similitudinibus corporalibus spiritualia proponantur. Unde Salvator Matth. XIII, postquam proposuit similitudinem dicens",
+      "en": "…arned, who are not fit to grasp intelligible things, spiritual things may be set forth at least under corporeal likenesses. Hence the Saviour, in Matth. XIII, after he had set forth a likeness, saying",
+      "column": "48b",
+      "chunk": 5
+    },
+    {
+      "la": "etc., postea discipulis ait",
+      "en": "etc., afterwards says to the disciples",
+      "column": "48b",
+      "chunk": 5
+    },
+    {
+      "la": "Ad quintum, sciendum quod etsi liber sacrae Scripturae [n: (de quo Ezechielis II et Apocal. V)] dicatur",
+      "en": "To the fifth, it must be known that, although the book of sacred Scripture [n: (de quo Ezechielis II et Apocal. V)] is said to be",
+      "column": "48c",
+      "chunk": 5
+    },
+    {
+      "la": "ratione sensus litteralis qui dicitur esse potentior, eo quod per voces immediate significatur; et dicatur",
+      "en": "…ich is said to be more powerful [cj: *potentior*; read *patentior*, \"more open\", as Lyra's own words quoted here print it at 0029A], because it is signified immediately by the words; and is said to be",
+      "column": "48c",
+      "chunk": 5
+    },
+    {
+      "la": "…onsideratione habetur, quod sensus litteralis simpliciter loquendo sit dignior, eo quod ejus notitia se extendat non solum ad sapientes, qui mystica intelligunt, sed etiam ad rudes, juxta illud Rom. I",
+      "en": "… literal sense, speaking simply, is more worthy, because the knowledge of it extends not only to the wise, who understand mystical things, but also to the unlearned, according to that saying of Rom. I",
+      "column": "48d",
+      "chunk": 5
+    },
+    {
+      "la": "… se habent ut scientia, scilicet, quae deducuntur a principiis, quam etiam illa quae sunt de summis causis rerum, quae pertinent ad sapientiam, ut in III Ethic. Illud autem quod dicit Apostolus Rom. I",
+      "en": "…as science, namely the things deduced from principles, and also those which concern the highest causes of things, which pertain to wisdom, as in III *Ethics*. But that which the Apostle says in Rom. I",
+      "column": "49b",
+      "chunk": 5
+    },
+    {
+      "la": "proprie intelligitur de his quae cognoscuntur de Deo per creaturas, ut philosophi cognoverunt; unde ibidem dicit",
+      "en": "is properly understood of the things which are known of God through creatures, as the philosophers knew them; whence in the same place he says",
+      "column": "49b",
+      "chunk": 5
+    },
+    {
+      "la": "…t in aliquo loco, sic ut vel falsum includat, vel aliquid penitus inutile: primum enim esset infirmare totam auctoritatem sacrae Scripturae, ut Augustinus dicit; secundum contra Apostolum sic dicentem",
+      "en": "…ther includes something false or something wholly useless: for the first would be to weaken the whole authority of sacred Scripture, as Augustine says; the second is against the Apostle, who says thus",
+      "column": "49c",
+      "chunk": 5
+    },
+    {
+      "la": "…peciem mali inducere seu approbare, et ideo in tali historia requirendus est necessario sensus secundum mysticam significationem accommodatus et utilis ad aliquid praedictorum; juxta illud Isa. XVIII;",
+      "en": "…therefore in such a history there must of necessity be sought a sense according to the mystical signification, fitted and useful for something of the aforesaid; according to that saying of Isa. XVIII;",
+      "column": "49d",
+      "chunk": 5
+    },
+    {
+      "la": "Et hoc insinuant verba Gregorii in praedicta auctoritate cum dicit",
+      "en": "And the words of Gregory in the aforesaid authority hint at this when he says",
+      "column": "49d",
+      "chunk": 5
+    },
+    {
+      "la": "…anifestat, cum pulchrius ista depingit sub metaphora rotae in medio rotae. Rota in medio rotae, littera gratiae in littera legis: quibus non concedit vitam, sed spirituali intelligentiae cum subjungit",
+      "en": "…etaphor of a wheel in the midst of a wheel. A wheel in the midst of a wheel, the letter of grace in the letter of the law: to which it does not grant life, but to spiritual understanding, when it adds",
+      "column": "50c",
+      "chunk": 6
+    },
+    {
+      "la": "Haec enim est vera vita, quam Verbum vitae caecitati Judaicae praedicavit, cum dixit",
+      "en": "For this is the true life, which the Word of life preached to Jewish blindness, when he said",
+      "column": "50c",
+      "chunk": 6
+    },
+    {
+      "la": "…ratus est dignior, scilicet, ex parte extensionis: fallit istud cum cuncta sacra eloquia plena sint Dominicis sacramentis. Hanc longiorem extensionem spiritus supra litteram cognovit Paulus cum dixit,",
+      "en": "…e worthy, namely, on the side of extension: this fails, since all the sacred utterances are full of the Lord's sacraments. This longer extension of the spirit beyond the letter Paul knew when he said,",
+      "column": "50d",
+      "chunk": 6
+    },
+    {
+      "la": "Dicis enim primo de quaestione mea in generali sic",
+      "en": "For thou sayest first of my question in general thus",
+      "column": "51d",
+      "chunk": 7
+    },
+    {
+      "la": "…ca quod non modicum de tua discretione admiror: verba enim quae in sacrae Scripturae expositionibus magnam exuberant utilitatem, quid si non reficiant mentem elevatam? Quidam enim prophetarum scripsit",
+      "en": "…I wonder not a little at thy discretion: for words which in the expositions of sacred Scripture abound in great usefulness, what if they do not refresh the uplifted mind? For one of the prophets wrote",
+      "column": "52a",
+      "chunk": 7
+    },
+    {
+      "la": "… in utraque rota, invenitur sensus litteralis. Sed dicis, licet in utroque Testamento invenitur sensus litteralis et spiritualis vita, tamen non conceditur nisi spirituali intelligentiae, cum subditur",
+      "en": "…heels, the literal sense is found. But thou sayest: although in both Testaments the literal and spiritual sense is found, yet life is not granted except to spiritual understanding, when there is added",
+      "column": "52d",
+      "chunk": 7
+    },
+    {
+      "la": "…net locum, in auctoritatibus sacrae Scripturae secundum sensum litteralem intellectis fundatur. Unde Augustinus, tractans de ordine servando cum de Trinitate agitur, in libro IV de Trinitate sic dicit",
+      "en": "…ded in authorities of sacred Scripture understood according to the literal sense. Hence Augustine, treating of the order to be kept when the Trinity is treated, in book IV *On the Trinity* speaks thus",
+      "column": "53a",
+      "chunk": 7
+    },
+    {
+      "la": "…1, distinct. 2, ad hoc mysterium fundandum deducuntur, intelliguntur secundum sensum litteralem, ut ibidem patet. De mysterio autem incarnationis Verbi, in cujus agnitione vita aeterna consistit, unde",
+      "en": "…ystery, are understood according to the literal sense, as is plain in the same place. And concerning the mystery of the incarnation of the Word, in the knowledge of which eternal life consists, whence",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "la": "etc., manifestum est quod omnia circa hoc de necessitate salutis credenda, in sensu litterali principaliter traduntur; ut cum de incarnatione dicitur",
+      "en": "etc., it is manifest that all the things concerning this that are to be believed of necessity for salvation are handed down principally in the literal sense; as when it is said of the incarnation",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "la": "quod secundum sensum litteralem incarnationem veram significat; et cum de morte dicitur",
+      "en": "which according to the literal sense signifies a true incarnation; and when it is said of the death",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "la": "…im obligatoriam, ut dictum est. De his vero quae agenda sunt de necessitate salutis, solum accipio illa duo manifesta: in quibus tota lex pendet et prophetae, secundum testimonium Salvatoris, scilicet",
+      "en": "…t of those things which are to be done of necessity for salvation, I take only those two manifest ones, on which the whole law hangs and the prophets, according to the testimony of the Saviour, namely",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "la": "etc.; et",
+      "en": "etc.; and",
+      "column": "53b",
+      "chunk": 7
+    },
+    {
+      "la": "…t attende quod non solum praedicta, quae de necessitate salutis sunt agenda, sed etiam illa quae ad statum perfectionis pertinent, et ut consilia dantur, habentur per sensum litteralem, ut cum dicitur",
+      "en": "…esaid things, which are to be done of necessity for salvation, but also those which pertain to the state of perfection, and are given as counsels, are had through the literal sense, as when it is said",
+      "column": "53c",
+      "chunk": 7
+    },
+    {
+      "la": "…mentorum Ecclesiae, quibus gratia justificans datur seu augetur, quaero per quem sensum datur nobis in Scripturis? Per litteralem seu mysticum? Non est dubitabile quod per litteralem. Cum enim dicitur",
+      "en": "…grace is given or increased: I ask, through which sense is it given to us in the Scriptures? Through the literal or the mystical? It is not doubtful that it is through the literal. For when it is said",
+      "column": "53c",
+      "chunk": 7
+    },
+    {
+      "la": "etc. [n: (Marc. XVI)], secundum sensum litteralem institutio sacramenti baptismi intelligitur; similiter cum dicitur",
+      "en": "etc. [n: (Marc. XVI)], according to the literal sense the institution of the sacrament of baptism is understood; likewise when it is said",
+      "column": "53d",
+      "chunk": 7
+    },
+    {
+      "la": "etc. [n: (Joan. VI)], secundum sensum litteralem doctorum hujusmodi habetur virtus, seu efficacia sacramenti Eucharistiae. Similiter per sensum litteralem hujusmodi dicti",
+      "en": "…tc. [n: (Joan. VI)], according to the literal sense of doctors of this kind the virtue, or efficacy, of the sacrament of the Eucharist is had. Likewise through the literal sense of this kind of saying",
+      "column": "53d",
+      "chunk": 7
+    },
+    {
+      "la": "…. Ad quod dicendum quod nihil sub sensu spirituali continetur fidei vel moribus necessarium, quod Scriptura alicubi per litteralem sensum manifeste non tradat. Unde Augustinus ad Vincentium Donatistam",
+      "en": "…t nothing necessary to faith or morals is contained under the spiritual sense which Scripture does not somewhere manifestly hand down through the literal sense. Hence Augustine to Vincent the Donatist",
+      "column": "54a",
+      "chunk": 8
+    },
+    {
+      "la": "Sed ulterius de sensu mystico videris dicere sic: Haec enim est vera vita, quam Verbum vitae caecitati Judaicae praedicavit, cum dixit",
+      "en": "But further, concerning the mystical sense, thou seemest to speak thus: For this is the true life, which the Word of life preached to Jewish blindness, when he said",
+      "column": "54a",
+      "chunk": 8
+    },
+    {
+      "la": "… tota Postilla sua Veteris Testamenti, ubi occurrit aliquis textus allegatus in Novo a Christo et a discipulis, semper exponit eum secundum sensum litteralem, in tantum quod etiam vel illud Psalmistae",
+      "en": "…n the Old Testament, wherever there occurs any text alleged in the New by Christ and by the disciples, always expounds it according to the literal sense, insomuch that even that saying of the Psalmist",
+      "column": "54b",
+      "chunk": 8
+    },
+    {
+      "la": "…ditur contra te: ipsos enim sensus mandabat Christus scrutari; de quibus ipse quotidie docebat, praedicabat, seu disputabat: qui sunt tantummodo litterales, ut dictum est; et ideo illud verbum Christi",
+      "en": "…hee: for Christ commanded those very senses to be searched, concerning which he himself daily taught, preached, or disputed: which are only literal, as has been said; and therefore that word of Christ",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "… pro te allegas, secundum magistrum praedictum, exponitur de mysteriis Christi, quae in sacris Scripturis secundum sensum litteralem intellectis reperiuntur. Dicit enim super praedicto verbo, scilicet",
+      "en": "… expounded, according to the aforesaid master, of the mysteries of Christ, which are found in the sacred Scriptures understood according to the literal sense. For he says on the aforesaid word, namely",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "Sic Scriptura Veteris Testamenti designat tempus adventus ejus; Gen. penult.",
+      "en": "Thus the Scripture of the Old Testament designates the time of his coming; Gen. penult.",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "etc.; et Dan. IX, ubi determinatur adventus Sancti sanctorum sub numero certo hebdomadarum. Determinat etiam locum nativitatis Mich. V",
+      "en": "etc.; and Dan. IX, where the coming of the Holy of holies is determined under a certain number of weeks. It determines also the place of the nativity, Mich. V",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "Determinat etiam modum nascendi Isa. VII",
+      "en": "It determines also the manner of being born, Isa. VII",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "Et modum conversandi, Zach. IX",
+      "en": "And the manner of his conversation, Zach. IX",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "Et modum moriendi, Isa. LIV",
+      "en": "And the manner of dying, Isa. LIV",
+      "column": "54c",
+      "chunk": 8
+    },
+    {
+      "la": "…t in Christo completa. Haec ille. Constat autem quod omnes auctoritates praedictae, allegatae per Postillatorem secundum sensum litteralem praedicta mysteria significant. Et sic patet quod cum dicitur",
+      "en": "…rist. Thus he. And it is certain that all the aforesaid authorities, alleged by the Postillator, signify the aforesaid mysteries according to the literal sense. And so it is plain that when it is said",
+      "column": "54d",
+      "chunk": 8
+    },
+    {
+      "la": "…t scrutinio, cum ex significatis per vocem accipitur, sic statim offert se intellectui, cum modico scrutinio, seu rationis indagine: unde hoc superfluum videtur caecitati Judaicae Christum praedicasse",
+      "en": "…gs signified by the word, so that it offers itself at once to the understanding, with little searching, or investigation of reason: whence it seems superfluous that Christ preached to Jewish blindness",
+      "column": "54d",
+      "chunk": 8
+    },
+    {
+      "la": "…ti tamen in ejus inventione vel acquisitione erraverunt, tam in Veteri quam in Novo Testamento. Cujus ratio est: Nam sicut de viis Domini, quae sunt ejus praecepta, seu consilia, legitur per prophetam",
+      "en": "…ding or acquiring it, both in the Old and in the New Testament. The reason for which is: For just as it is read through the prophet concerning the ways of the Lord, which are his precepts, or counsels",
+      "column": "54d",
+      "chunk": 8
+    },
+    {
+      "la": "…rvatione sabbati intelligebant prohiberi ad litteram, ne quis in sabbato proximum suum curaret, quod est inhumanum; de quo confutabat eos Christus, ostendens quod licet in sabbatis bona facere, dicens",
+      "en": "… to be forbidden to the letter that anyone should cure his neighbour on the sabbath, which is inhuman; on which point Christ confuted them, showing that it is lawful to do good on the sabbaths, saying",
+      "column": "55a",
+      "chunk": 8
+    },
+    {
+      "la": "…peruit Dominus sensum, asserens omnem iniquum motum ad nocendum fratri in homicidii genere debere deputari. Hoc idem declarat Augustinus contra Faustum de omnibus illis, de quibus dicitur in Evangelio",
+      "en": "…ry unjust motion toward harming a brother ought to be reckoned in the kind of homicide. Augustine declares this same thing against Faustus concerning all those things of which it is said in the Gospel",
+      "column": "55b",
+      "chunk": 8
+    },
+    {
+      "la": "… etiam circa praeceptum de honoratione parentum, irritum facientes Dei mandatum propter traditionem suam, ut testificatur Matthaei XV et Marci VII; qua ratione ostendit de eis dictum fuisse per Isaiam",
+      "en": "…ng the precept of the honouring of parents, making void the commandment of God for their tradition, as Matthew XV and Mark VII testify; by which reason he shows that it was said of them through Isaiah",
+      "column": "55b",
+      "chunk": 8
+    },
+    {
+      "la": "etc. Super quo et aliis erroribus quibus adhaerebant in sensu litterali sacrae Scripturae deficientes, de eis ibidem concludit",
+      "en": "etc. Upon which, and upon other errors to which they adhered, failing in the literal sense of sacred Scripture, he concludes of them in the same place",
+      "column": "55b",
+      "chunk": 8
+    },
+    {
+      "la": "…as Judaica, quam Christus reprobat, circa falsum intellectum sensus litteralis consistit. Patet etiam hoc per praedictas auctoritates Veteris Testamenti, quas Postillator allegavit, super illud verbum",
+      "en": "…dness which Christ reproves consists in a false understanding of the literal sense. This is plain also through the aforesaid authorities of the Old Testament which the Postillator alleged on that word",
+      "column": "55b",
+      "chunk": 8
+    },
+    {
+      "la": "…itteralem mysteria Christi significant, ut supra dictum est: quem quidem sensum litteralem Judaei multifarie pervertentes, veritatem fidei per eas expressam non verentur negare; unde recte eis dicitur",
+      "en": "… mysteries of Christ, as has been said above: which literal sense the Jews perverting in manifold ways, do not fear to deny the truth of faith expressed through them; whence it is rightly said to them",
+      "column": "55c",
+      "chunk": 8
+    },
+    {
+      "la": "…ndendum quod quia inter praedictos errores periculosior erat error circa cognitionem Christi, circa quam pertinacissime se habebant; testatur enim Lucas quod cum eis semel in synagoga illud Isaiae LXI",
+      "en": "…s was the error concerning the knowledge of Christ, in which they held themselves most pertinaciously; for Luke testifies that when once in the synagogue he expounded to them that saying of Isaiah LXI",
+      "column": "55c",
+      "chunk": 8
+    },
+    {
+      "la": "etc., exponeret, de seipso fuisse dictum, finaliter ejecerunt illum extra civitatem, ut praecipitarent eum; merito igitur talibus Christus dicebat",
+      "en": "etc., as said of himself, they finally cast him out of the city, to throw him down headlong; rightly therefore did Christ say to such",
+      "column": "55c",
+      "chunk": 8
+    },
+    {
+      "la": "quia si talium Scripturarum sensum litteralem verum habuissent, testimonium verum invenissent de Christo, et ideo subjungit",
+      "en": "because if they had had the true literal sense of such Scriptures, they would have found true testimony of Christ, and therefore he adds",
+      "column": "55c",
+      "chunk": 8
+    },
+    {
+      "la": "Idem patet in Novo Testamento. Nam si Arius verum litteralem sensum habuisset hujus dicti",
+      "en": "The same is plain in the New Testament. For if Arius had had the true literal sense of this saying",
+      "column": "55d",
+      "chunk": 8
+    },
+    {
+      "la": "hanc autem unitatem intelligendo in divina natura; similiter et hujus dicti",
+      "en": "understanding this unity, moreover, in the divine nature; and likewise had had the true understanding of this saying",
+      "column": "55d",
+      "chunk": 8
+    },
+    {
+      "la": "…tat in suo vigore; sed ad probationem tui assumpti, scilicet quod sensus mystici extendantur ad totam sacram Scripturam, sic allegas: Hanc extensionem spiritus supra litteram cognovit Paulus cum dixit",
+      "en": "… but for the proof of thy assumption, namely that the mystical senses extend to the whole of sacred Scripture, thou allegest thus: This extension of the spirit beyond the letter Paul knew when he said",
+      "column": "56c",
+      "chunk": 9
+    },
+    {
+      "la": "… gestis populi tantum sub antiquo Testamento degentis, quorum vita erat prophetica: unde narratis in eodem capitulo quibusdam eorum gestis, tam in transitu maris quam sub nube, et hujusmodi, concludit",
+      "en": "…g under the old Testament, whose life was prophetic: whence, having narrated in the same chapter certain of their deeds, both in the crossing of the sea and under the cloud, and the like, he concludes",
+      "column": "56d",
+      "chunk": 9
+    },
+    {
+      "la": "Non enim dixit solum, omnia contingebant, sed cum hac additione,",
+      "en": "For he did not say only, all things happened, but with this addition,",
+      "column": "56d",
+      "chunk": 9
+    },
+    {
+      "la": "ut ostenderet se de illis et similibus tantummodo loqui. Similiter non dicitur quod omnia dicebantur illis in figura, sed",
+      "en": "to show that he speaks only of those and similar things. Likewise it is not said that all things were said to them in figure, but",
+      "column": "56d",
+      "chunk": 9
+    },
+    {
+      "la": "in quo manifeste ostendit quod loquitur de gestis contingentibus, non autem revelatis seu praeceptis eisdem. Nunquid quod dicitur in veteri lege",
+      "en": "in which he manifestly shows that he speaks of deeds that happened, but not of things revealed or commanded to them. Did what is said in the old law",
+      "column": "56d",
+      "chunk": 9
+    },
+    {
+      "la": "contingebat eis in figura? vel quod dicitur",
+      "en": "happen to them in figure? or what is said",
+      "column": "56d",
+      "chunk": 9
+    },
+    {
+      "la": "…itterati, seu sapientes, sed etiam rudes, qui ad intelligibilia capienda non sunt idonei, tamen per sensum litteralem capiunt spiritualia, saltem sub similitudinibus corporalibus, juxta istud Apostoli",
+      "en": "…but also the unlearned, who are not fit to grasp intelligible things, yet grasp spiritual things through the literal sense, at least under corporeal likenesses, according to that saying of the Apostle",
+      "column": "57b",
+      "chunk": 9
+    },
+    {
+      "la": "…, qui ad intelligibilia capienda non sunt idonei, tamen per sensum litteralem capiunt spiritualia, saltem sub similitudinibus corporalibus, juxta istud Apostoli: « Sapientibus et insipientibus debitor",
+      "en": "… grasp intelligible things, yet grasp spiritual things through the literal sense, at least under corporeal likenesses, according to that saying of the Apostle: « To the wise and to the unwise a debtor",
+      "column": "57b",
+      "chunk": 9
+    },
+    {
+      "la": "…ex hoc illum commendasse, quod sententias suas dictis sanctorum praeposuit, ut ais, ad auctorizandum opus suum, cum huic commendationi non solum sacra Scriptura repugnet; legitur enim [n: (II Cor. X)]",
+      "en": "… that he set his own opinions before the sayings of the saints, as thou sayest, for authorizing his work, since not only does sacred Scripture oppose this commendation; for it is read [n: (II Cor. X)]",
+      "column": "58c",
+      "chunk": 9
+    },
+    {
+      "la": "et Prov. XXVII",
+      "en": "and Prov. XXVII",
+      "column": "58c",
+      "chunk": 9
+    }
+  ],
+  "unparsed": [],
+  "proseNotes": []
+}
