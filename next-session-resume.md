@@ -1,6 +1,61 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE 2026-09-16 (late) — PL 113 LEFTOVERS (8971–8975) ✅ LIVE ON migne.app · NOTHING OWED BUT THE OPEN RULINGS
+## ▶▶▶▶▶ START HERE (next session) — ERIUGENA, FOUR WORKS DONE MAXIMALLY · THEN A QUEUE OF OTHER VARIETIES
+
+**Wilson's direction, 2026-09-16:** *slow down shipping on PL 122; do not run all of Eriugena. Do a
+few of them maximally, then set up the queue for other varieties of untranslated texts.* Plan
+approved the same day (*"love to have that commentary done"*). Nothing below has started.
+
+Read first: `data/briefs/PL122-WITNESSES.md` (incl. the 2026-09-16 addendum) and
+`data/briefs/PL122-ERIUGENA-GAP-MAP.md`.
+
+### The slate — Eriugena's own, genuine, never in English (~21K words)
+| idno | work | cols | words |
+|---|---|---|---|
+| **9176** | ⭐ *Commentarius in Evangelium secundum Joannem* — **the flagship** | 0297A–0348B | 20,121 |
+| 9175 | *Commentarii in Ev. Joannis* (fragment) | 1243–1244B | 175 |
+| 9178 | *De egressu et regressu animae ad Deum* (fragment) | 1023A–1024B | 262 |
+| 9181 | *Expositiones super Ierarchiam ecclesiasticam* (prologue fragment) | 0265D–0268A | 450 |
+
+Deferred, deliberately: 21405 (spurious), 9174 *Testimonia*, 9180 (43K Dionysius commentary),
+class C versions, 9177 *Periphyseon* (never).
+
+### What "maximally" means — each step beyond the standard pipeline
+1. **Register pilot FIRST (runbook: new genre → top-tier mini-pilot).** One session fixes Eriugena's
+   technical vocabulary in `translation-style.md` — *theophania, processio, superessentialis,
+   natura, causae primordiales*, his transliterated Greek — before any stint runs. ⚠ This is the
+   judgment-dense step; check the model before starting it.
+2. **Full collation, not a spot check.** Every column read on the archive page images
+   (`https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg`,
+   **leaf = (col + 73) / 2**, ~2150 px/column, no download). Word-level divergences get a second
+   witness on an independent Google copy (Princeton `YkVOAAAAYAAJ` first; never `q2mQHvy4_usC`,
+   which IS the archive photographs). **No `[sic:]` on a single letter** — crux instead.
+3. **Floss's *Variae lectiones* recovered IN FULL** (Wilson chose maximal over consult-only). Needs
+   a NEW Latin-only marker — ⛔ **not `[cn:]`**, which is Migne's conjecture layer. Draft the form in
+   the pilot session and get Wilson's OK on it before chunking; it touches the injector, verifier,
+   page builder and `scan-raw-markers` (the four places the asterisk layer had to learn). Letters
+   the bitonal scan cannot settle are FLAGGED uncertain, never guessed (the n99 test read
+   *ariovugitae* against Google's *ariovagitae*). Floss's lettered PROSE notes → translated `[nt:]`.
+4. **Front matter kept.** The sigla table as a head (not translated body); every work page notes
+   Floss's 1853 edition; **9176's page must say it survives as three fragments** (Cap. I,11–29 ·
+   III,1–IV,28 · VI,5–14).
+5. **Deeper blind read** — more readers, fewer chunks each.
+
+Rough burn: **~2.5–3M** for the four at this depth (more per word than a Glossa book). Hard stop
+before launch as always. Suggested order: pilot → fragments (prove the apparatus machinery on 887
+words) → 9176.
+
+### Then: the queue of OTHER VARIETIES (research, not translation; a cheaper model)
+Survey the verified-none frontier (`data/triage/authors-status.json`: 73 authors / 8.3M words) and
+bucket it by GENRE — letters, sermons, hagiography, canon law, hymns/verse, chronicles, liturgical
+*ordines*, scholastic *quaestiones*, PG homilies. For each bucket name 1–2 small pilot works and the
+new conventions the genre will need (verse lineation — cf. the open chunker issue on 8975/8973;
+canon numbering; tabular layouts the chunker currently fails on). Output: a queue brief Wilson can
+pick from. A few hundred K tokens.
+
+---
+
+## (was: START HERE) 2026-09-16 (late) — PL 113 LEFTOVERS (8971–8975) ✅ LIVE ON migne.app · NOTHING OWED BUT THE OPEN RULINGS
 
 ✅ **PUSHED (`c0d4f62b`) AND DEPLOYED 2026-09-16** with Wilson's OK, production `migne-6pnyul2ef`,
 aliased to migne.app. Smoke-tested on the ALIAS: all five work URLs, two cruces pages, `/glossa`, `/`
