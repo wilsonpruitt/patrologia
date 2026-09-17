@@ -1,5 +1,21 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶ START HERE (2026-09-16, end) — ERIUGENA FOUR WORKS DONE MAXIMALLY · STAGED, PREFLIGHT OK, NOT DEPLOYED
+
+**9176 (all 15 chunks), 9175, 9178, 9181: translated, plate-collated in full (0297A–0348B + all fragment
+columns), Floss's apparatus injected (9176 49/51 · 9175 5 · 9178 4 · 9181 25), blind-read by 6 readers
+with 22 fixes applied, polarity recorded, marked `ours`, site built, `preflight` exit 0** (commit `0de4e046`).
+Badges read "New" (workStatus null; not hunted, per rule 8). Burn: stints ~965K + readers ~805K.
+
+**Owed, in order:** (1) **Wilson's OK to deploy** + push (15 commits ahead). (2) Wilson's rulings: 0347A
+`[cj:]` on the transposed *facti/dicti* (keep or demote to crux); should the 3 sentence-length `[vl:]` notes (9175 ⁵,
+9178 ¹, 9181 ¹⁸) get an English `[nt:]`; move 9181's sigla table into a head (+ 9176's lost title block). (3) Open
+for a better witness (HathiTrust): 0326D *audit cum/eum*, n204 VL 2–3, unplaced keys n193 ¹ and n198 ¹.
+(4) **Then the research survey** of the verified-none frontier bucketed by GENRE (below: "the queue of OTHER
+VARIETIES"). Cheaper model.
+⚑ Learned: the archive map shifts to **leaf = (col+77)/2 beyond ~col 1000** on PL 122. Princeton reproduces
+the archive's broken sorts (same stereotype plates), so it is weak as a second witness for letters.
+
 ## ▶▶▶▶▶▶ START HERE (2026-09-16, later) — 9176 MERGE DONE, `[vl:]`/`[fn:]` LIVE IN CODE · NEXT IS THE RUN (hard stop)
 
 Steps 1–3 of the list below are **done and committed** (`287dace1`, `176ea34f`):
