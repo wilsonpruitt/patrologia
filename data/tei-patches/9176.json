@@ -147,6 +147,13 @@
    "find": "traditam; secundum, quam et mediam dicimus",
    "replace": "traditam; secundam, quam et mediam dicimus",
    "why": "PLATE READ 2026-09-16 (blind reader R1's collation of 0297A–0300B, data/briefs/PL122-BLIND-READ-R1.md): archive n186 + Princeton PA299 both print secundam, agreeing with unam … traditam; the twin's secundum does not construe. Letter-level (a/u), and R1 notes Princeton reproduces the archive copy's broken sorts (same stereotype plates), so the second witness is weak for letters; accepted because only the plate reading construes."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": null,
+   "find": "<div1>\n        <head>FRAGMENTUM I. CAP. I, 11-29</head>",
+   "replace": "<div1>\n<head type=\"book-title\">JOANNIS SCOTI COMMENTARIUS IN S. EVANGELIUM SECUNDUM JOANNEM.</head>\n<head type=\"book-title\">Ex cod. ms. 81 bibl. Laudunensis, membran., sec. IX, 4°; primus edid. Felix Ravaisson in libro qui inscribitur Catalogue général des manuscrits des bibliothèques publiques des départements, Tom. I, Paris. 1849, 4°, p. 505 seqq.</head>\n        <head>FRAGMENTUM I. CAP. I, 11-29</head>",
+   "why": "TEXT LOST FROM THE DIGITIZATION + FRONT MATTER TO HEADS, Wilson's ruling 2026-09-17. Floss's title and source block stands at the top of col. 297 above FRAGMENTUM I and is absent from the TEI entirely. Read at the plate twice: the Eriugena pilot (archive n185) and blind reader R1 (archive n185 + Princeton PA297, data/briefs/PL122-BLIND-READ-R1.md), who transcribed it in full. Digits and letters of the Ravaisson citation are not letter-certain on either witness. Encoded as two <head type=\"book-title\"> lines (the title, then the source)."
   }
  ]
 }

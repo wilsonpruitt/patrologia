@@ -100,3 +100,9 @@ erases it silently.
   printing (E11). 0302C *sinum* and 0306D's line restored in the English, their patches withdrawn.
 - **Single-letter non-words:** sense + crux, no marker (E12).
 - **E4 additions:** *theorica scientia* "theoric knowledge", *humanatio* "humanation".
+
+## Addendum 2026-09-17 — rulings
+
+- Sentence-length variant notes take `[vl: n+ | …]` + English `[nt:]` (TSV layer `vl-prose`); style file E13.
+- Front matter done: 9176 title/source block and 9181 sigla table are `<head type="book-title">` banners.
+- Transpositions settled by the author's own text take `[cj:]` (9176 @0347A).

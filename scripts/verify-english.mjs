@@ -88,7 +88,7 @@ for (const c of manifest.chunks) {
   // ⭐ Floss's NOTAE [fn: a | …] (PL 122, E10) are prose and pair with an [nt:] exactly as the
   // asterisk/letter [cn:] layers do. His VARIAE LECTIONES [vl:] are readings, Latin-only like a
   // numbered [cn:], and are not matched here at all.
-  const anyNoteRe = /\[(n|nt|cn|fn): ([^\]]*)\]/g;
+  const anyNoteRe = /\[(n|nt|cn|fn|vl): ([^\]]*)\]/g;
   // ⛔ ONLY the asterisk-keyed [cn: * | …] joins the sequence. Migne's NUMBERED
   // conjectures stay Latin-only exactly as ruled on 2026-08-18 — "Forte earum" is a
   // reading, not a statement, and needs no English twin. Including them here failed
@@ -101,9 +101,10 @@ for (const c of manifest.chunks) {
   // with a line he cannot read, which is precisely the test Wilson's 2026-08-24 ruling set.
   // So the split is by WHAT THE NOTE SAYS, not by which glyph keys it: numbered conjectures
   // stay Latin-only; the asterisk and letter layers get a translated [nt: …] twin.
-  const inSequence = n => n.kind !== 'cn' || /^(?:\*|[a-z])\s*\|/.test(n.text);
+  // A [vl:] joins only when its key carries `+` (a prose variant note, Wilson 2026-09-17); a bare reading stays Latin-only.
+  const inSequence = n => n.kind === 'vl' ? /^[0-9]+\+\s*\|/.test(n.text) : (n.kind !== 'cn' || /^(?:\*|[a-z])\s*\|/.test(n.text));
   const latNotes = [...lat.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() })).filter(inSequence);
-  const engNotes = [...eng.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() }));
+  const engNotes = [...eng.body.matchAll(anyNoteRe)].map(m => ({ kind: m[1], text: m[2].replace(/\s+/g, ' ').trim() })).filter(n => n.kind !== 'vl');
 
   const latTranslated = latNotes.filter(n => n.kind === 'nt');
   if (latTranslated.length)
@@ -113,7 +114,7 @@ for (const c of manifest.chunks) {
     errs.push(`${name}: note markers — Latin ${latNotes.length}, English ${engNotes.length}`);
   else latNotes.forEach((n, i) => {
     const e = engNotes[i];
-    if (n.kind === 'cn' || n.kind === 'fn') {
+    if (n.kind === 'cn' || n.kind === 'fn' || n.kind === 'vl') {
       if (e.kind !== 'nt')
         errs.push(`${name}: note ${i} is a plate note [${n.kind}: …] in the Latin but [${e.kind}: …] in the English — it must be a translated [nt: …]`);
       else if (!e.text)
@@ -201,7 +202,7 @@ for (const c of manifest.chunks) {
   if (/\[(?:vl|fn): /.test(eng.body))
     errs.push(`${name}: [vl:]/[fn:] marker found in the ENGLISH chunk — Floss's apparatus belongs to the Latin only (a NOTAE's English is [nt: …])`);
   for (const m of [...lat.body.matchAll(vlRe)])
-    if (!/^[0-9]+ \| \S/.test(m[1])) errs.push(`${name}: [vl: ${m[1]}] is malformed — the form is [vl: <Floss's raised number> | <his note>]`);
+    if (!/^[0-9]+\+? \| \S/.test(m[1])) errs.push(`${name}: [vl: ${m[1]}] is malformed — the form is [vl: <Floss's raised number>[+ if prose] | <his note>]`);
   for (const m of [...lat.body.matchAll(fnRe)])
     if (!/^[a-z] \| \S/.test(m[1])) errs.push(`${name}: [fn: ${m[1]}] is malformed — the form is [fn: <Floss's raised letter> | <his note>]`);
 
@@ -279,7 +280,7 @@ for (const c of manifest.chunks) {
   // note counts as English the author never wrote and pushes the ratio up — on Baruch,
   // 51 Latin words against a 25-word note, it read as 1.92 and failed a work that had
   // gained nothing but Migne's own footnote.
-  const cnPositions = latNotes.map((n, i) => (n.kind === 'cn' || n.kind === 'fn' ? i : -1)).filter(i => i >= 0);
+  const cnPositions = latNotes.map((n, i) => (n.kind === 'cn' || n.kind === 'fn' || n.kind === 'vl' ? i : -1)).filter(i => i >= 0);
   const stripEng = b => cnPositions.reduce((acc, i) => {
     const t = engNotes[i] && engNotes[i].text;
     return t ? acc.replace(`[${engNotes[i].kind}: ${t}]`, '') : acc;

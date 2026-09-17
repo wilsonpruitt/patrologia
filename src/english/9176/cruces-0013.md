@@ -135,6 +135,8 @@ Testamenta* (Vulg. *Haec enim sunt duo testamenta*). Same sense. No marker.
 
 ## Col 0347A — `[cj:]` *allegoria facti, non autem dicti* ⚑ FOR A HUMAN
 
+✅ **RULED by Wilson 2026-09-17: the `[cj:]` stands** (style file E13, transpositions settled by the author's own text).
+
 The plate (both copies) prints *In symbolis itaque, hoc est in dictionibus spiritualis doctrinae,
 quas sola allegoria facti, non autem dicti, tradit*: symbols are handed down "by the allegory of
 deed alone, not of word". Eriugena's own definition, three times in these columns, is the

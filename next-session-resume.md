@@ -7,9 +7,10 @@ columns), Floss's apparatus injected (9176 49/51 · 9175 5 · 9178 4 · 9181 25)
 with 22 fixes applied, polarity recorded, marked `ours`, site built, `preflight` exit 0** (commit `0de4e046`).
 Badges read "New" (workStatus null; not hunted, per rule 8). Burn: stints ~965K + readers ~805K.
 
-**Owed, in order:** (1) **Wilson's OK to deploy** + push (15 commits ahead). (2) Wilson's rulings: 0347A
-`[cj:]` on the transposed *facti/dicti* (keep or demote to crux); should the 3 sentence-length `[vl:]` notes (9175 ⁵,
-9178 ¹, 9181 ¹⁸) get an English `[nt:]`; move 9181's sigla table into a head (+ 9176's lost title block). (3) Open
+**Owed, in order:** (1) **Wilson's OK to deploy** + push (15 commits ahead). (2) ✅ **Rulings done 2026-09-17** (style file E13): 0347A `[cj:]`
+stands; the 3 prose variant notes are `[vl: n+]` with English `[nt:]` twins (code: TSV layer `vl-prose`); 9176's title
+block + 9181's sigla restored as book-title banners (chunk-core now stacks multiple banner lines; Glossa books unchanged).
+Rebuilt, preflight OK again. (3) Open
 for a better witness (HathiTrust): 0326D *audit cum/eum*, n204 VL 2–3, unplaced keys n193 ¹ and n198 ¹.
 (4) **Then the research survey** of the verified-none frontier bucketed by GENRE (below: "the queue of OTHER
 VARIETIES"). Cheaper model.

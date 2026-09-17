@@ -261,7 +261,9 @@ export function chunkWork({ xml, work, textRec, idno, target = 1200, max = 1600 
         // Never a head, never text: it neither claims the unit head nor sets sawText, so a
         // book-title line cannot change which <head> the unit reports.
         const t = inline(piece.slice(1));
-        if (t) bookTitle = t;
+        // Several banner lines stack in plate order (PL 122's title + source block, 9181's sigla table, 2026-09-17);
+        // this used to keep only the last one, silently dropping the rest.
+        if (t) bookTitle = bookTitle ? `${bookTitle}\n\n${t}` : t;
         continue;
       }
       else if (piece.startsWith(HEAD)) {

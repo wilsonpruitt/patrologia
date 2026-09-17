@@ -464,6 +464,21 @@ non-word differs by one letter from the only word the sentence can be (*quonium*
 0319D), render the sense ("that") and log a crux naming the printed form. Where more than one reading
 is possible, carry the non-word literally as Pattern 7 says.
 
+### E13. A transposition takes `[cj:]`; a sentence-length variant note takes an English twin (Wilson, 2026-09-17)
+
+- **Transposition.** Pattern 18's `[cj:]` covers two words the page prints in swapped order, not only a
+  single wrong word, **when the author's own text settles it**. Worked case, 9176 @0347A: the page (both copies)
+  prints *quas sola allegoria facti, non autem dicti, tradit*, while Eriugena defines the same allegory the
+  other way three times nearby (0345A, 0345B, 0346D) and the very next sentence agrees with him. The printed
+  words stay in the text; the marker reads `[cj: *facti, non autem dicti*; read *dicti, non autem facti*, …]`.
+  A swap argued only from sense, with no such internal control, stays a crux.
+- **Prose `[vl:]`.** A *Variae lectiones* note that is a SENTENCE, not a bare reading, keys `[vl: 5+ | …]` (TSV
+  layer `vl-prose`) and gets a translated `[nt: …]` at the same point, by the content test that governs the
+  asterisk and letter layers. First three: 9175 ⁵, 9178 ¹, 9181 ¹⁸. A bare `Cod. *ei*.` stays Latin-only.
+- **Heads.** Floss's title and source block, and a sigla table, are restored as `<head type="book-title">`
+  lines (one per line, in plate order) and render as the banner above the work. The title is translated in
+  the English banner; shelfmarks, sigla and the bibliographic citation are carried verbatim.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"

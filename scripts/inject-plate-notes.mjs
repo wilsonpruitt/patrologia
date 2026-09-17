@@ -82,7 +82,9 @@ const LETTER_OF = { '\u00aa': 'a', '\u1d43': 'a', '\u1d47': 'b', '\u1d9c': 'c', 
 // Both keys are ABSENT from our TEI, so the anchor carries them parenthesised, `(1)` / `(a)`, and they
 // are cut out and the halves searched as one phrase, like Migne's numbers. Neither layer runs a
 // sequence: the numbering restarts on every page.
-const LAYERS = new Set(['cn', 'vl', 'fn']);
+// vl-prose (Wilson, 2026-09-17): a VARIAE LECTIONES note that is a SENTENCE, not a bare reading, takes the key
+// suffix `+` → [vl: 5+ | …] and a translated English [nt:], by the same content test as the asterisk layer.
+const LAYERS = new Set(['cn', 'vl', 'fn', 'vl-prose']);
 const MARKER_FN = /\s*\(([a-z])\)/;
 
 // ── normalisation for MATCHING ONLY. The plate reader transcribes Migne's ligatures
@@ -128,7 +130,7 @@ for (const [i, line] of lines.slice(1).entries()) {
   const [page, col, note_no, note_text, anchor_words, anchor_in_our_latin, layerCell] = line.split('\t');
   const layer = (hasLayer && (layerCell || '').trim()) || 'cn';
   if (!LAYERS.has(layer)) layerErrors.push(`line ${i + 2}: layer "${layer}" is not cn / vl / fn`);
-  else if (layer === 'vl' && !/^[0-9]+$/.test(note_no)) layerErrors.push(`line ${i + 2}: a [vl:] key is Floss's raised number, not "${note_no}"`);
+  else if ((layer === 'vl' || layer === 'vl-prose') && !/^[0-9]+$/.test(note_no)) layerErrors.push(`line ${i + 2}: a [vl:] key is Floss's raised number, not "${note_no}"`);
   else if (layer === 'fn' && !/^[a-z]$/.test(note_no)) layerErrors.push(`line ${i + 2}: an [fn:] key is Floss's raised letter, not "${note_no}"`);
   rows.push({ line: i + 2, page, col, note_no, note_text, anchor: anchor_words || '', found: (anchor_in_our_latin || '').trim(), layer });
 }
@@ -247,7 +249,7 @@ for (const r of rows) {
   // one note fewer than the run before it. The TSV keeps the reader's words verbatim; the
   // marker carries them in parentheses.
   const noteText = r.note_text.trim().replace(/\[/g, '(').replace(/\]/g, ')').replace(/\s+/g, ' ');
-  const marker = ` [${r.layer}: ${r.note_no} | ${noteText}]`;
+  const marker = r.layer === 'vl-prose' ? ` [vl: ${r.note_no}+ | ${noteText}]` : ` [${r.layer}: ${r.note_no} | ${noteText}]`;
   bodies.set(f, body.slice(0, orig) + marker + body.slice(orig));
   injected.push({ ...r, file: f });
 }
