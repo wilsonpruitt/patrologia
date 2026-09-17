@@ -1,5 +1,26 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶ START HERE (2026-09-17, later) — GENRE QUEUE SURVEY DONE · NOTHING OWED, PICK A PILOT
+
+Step 4 from the banner below (research, not translation; ran on Sonnet per its own "cheaper model"
+note). **`data/briefs/GENRE-QUEUE-SURVEY-2026-09-17.md`** buckets the 76-author / 8.49M-word
+verified-none frontier by genre with word counts, and names 5 pilots ordered smallest-new-problem-
+first: Egbertus *Poenitentiale* (13K, clean prose, proves canon-law bucket with zero new
+machinery) → Usuardus *Martyrologium* (26K combined, needs one new ruling: how to render
+Kalends/Nones/Ides day-headings) → Jacobus Caietanus *Ordo Romanus XIV* (61K, Migne's own
+footnote numbers already present, reuses existing `[cn:]` machinery) → Joannes diaconus *Vita S.
+Gregorii Magni* (67K, flagship of the hagiography bucket, no new machinery) → a chronicle (130K+,
+flagged for register work first, not a first pilot).
+
+Two open items carried, not resolved: **verse lineation** (scattered, never a standalone work in
+this frontier, but will fire the first time any chronicle/hagiography piece with a verse inset is
+chunked) and **`authors-status.json` is stale** (generated 2026-07-02; a real re-triage would want
+the live `workStatus`/`englishState` union, not this frozen file — not needed to pick a pilot, but
+don't trust the exact word counts past ±a few works shipped since July).
+
+**Next: Wilson picks a pilot (or several) from the brief; the register-pilot-first convention
+applies to whichever bucket goes first**, same as Eriugena's E1–E9 pass.
+
 ## ▶▶▶▶▶▶▶ START HERE (2026-09-17) — ERIUGENA FOUR WORKS DONE MAXIMALLY · ✅ LIVE ON migne.app (deployed + pushed 2026-09-17)
 
 **9176 (all 15 chunks), 9175, 9178, 9181: translated, plate-collated in full (0297A–0348B + all fragment
