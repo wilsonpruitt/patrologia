@@ -1,5 +1,39 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶ START HERE (2026-09-17, even later) — CURSORY TRIAGE TIER BUILT · 4 OF 6 PILOTS NOW BADGE-ELIGIBLE
+
+New, cheap per-work triage tier, distinct from the 2026-07 rigorous batches (Wilson: cursory over
+exhaustive; a couple of clean-miss queries should be enough to flip a work to verified-none).
+**2 WebSearch queries per work; a clean miss on both → `workStatus: 'none'` + `triageMethod:
+'cursory-2-query'`; any hit/partial coverage/attribution tangle → `unclear`, never forced.**
+
+- **`scripts/merge-cursory-triage.mjs`** — merges a `data/triage/perwork/cursory-*.json` results
+  file into `data/works.json` (the field the badge actually reads, per `scripts/lib/first-english.mjs`).
+  Refuses to run over anything but `method: "cursory-2-query"`; never overwrites a work that already
+  carries a rigorous-tier verdict (no `triageMethod` = original 2026-07 batch).
+- **`scripts/refresh-authors-status.mjs`** — recomputes `worksTotal`/`worksShipped`/`worksTriaged`/
+  `perWorkExceptions` per author in `data/triage/authors-status.json` live from `works.json`, without
+  touching the original `status`/`verified`/`batch`/`words` fields (that's the 2026-07 author-level
+  research and a per-work pass can't overwrite it). **This also explains the genre-survey brief's
+  "73 vs 76 authors" mismatch: 3 of the 76 `none`-status authors (Atto Vercellensis, Philippus de
+  Harveng, Angelomus Luxovensis) already have shipped work — 73 is the count with zero shipped,
+  the actually-untouched frontier. Now a field (`worksShipped`), not tribal knowledge.**
+- **Ran the cursory tier on the 6 genre-survey pilot works** (`data/triage/perwork/cursory-2026-09-17.json`):
+  Ordo Romanus XIV (8096), Ordo Romanus XV (8100), Usuardus Martyrologium 1+2 (9198/9215) all came
+  back clean → verified `none`, badge-eligible for "First English translation" once shipped.
+  Egbertus's *Poenitentiale* (8382) and Joannes diaconus's *Vita S. Gregorii Magni* (8047) came back
+  `unclear` — the Egbert text is tangled with the disputed pseudo-Egbert attribution and Thorpe's
+  *Ancient Laws and Institutes of England* (English translations of related Anglo-Saxon penitential
+  material, not confirmed same text); the Gregory *Vita* has "translated passages" inside Dudden's
+  *Gregory the Great*, partial coverage through a secondary work. Both stay `unclear`, not `none` —
+  the protocol never forces an ambiguous hit into a clean verdict.
+
+**Next: pick a pilot from `data/briefs/GENRE-QUEUE-SURVEY-2026-09-17.md`** — the 4 verified-none
+ones can carry "First" honestly once translated; Egbertus and the Gregory *Vita* would ship as
+"New" unless someone wants to spend real (rigorous-tier) research time on the two open questions
+above. Re-run the cursory tier on more of the 76-author frontier any time with the same two scripts
+— cost is ~2 WebSearch calls/work, no agent fleet needed at this scale.
+
 ## ▶▶▶▶▶▶▶▶ START HERE (2026-09-17, later) — GENRE QUEUE SURVEY DONE · NOTHING OWED, PICK A PILOT
 
 Step 4 from the banner below (research, not translation; ran on Sonnet per its own "cheaper model"

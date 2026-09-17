@@ -109767,8 +109767,12 @@
    "colLast": "436A",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": null
+    "workStatus": "unclear",
+    "englishState": null,
+    "note": "No direct English translation of the PL/Corpus Corporum text found in 2 queries, but the material is entangled with the 'Paenitentiale Ecgberhti' tradition: modern scholarship treats the attribution to Egbert as doubtful (largely a 9th-c. Frankish compilation per Wikipedia's Paenitentiale Ecgberhti), and Thorpe's 'Ancient Laws and Institutes of England' vol. 2 collects English translations of related Anglo-Saxon penitential material that may overlap. Too tangled for a cursory call either way.",
+    "confidence": "cursory-ambiguous",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -155245,8 +155249,12 @@
    "colLast": "1274B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": null
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "Both queries returned only the Latin text (Wikisource) and a JSTOR article on textual interpolations (Mabillon et les interpolations de son 'Ordo Romanus XIV') — no translation. Clean miss.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -159519,8 +159527,12 @@
    "colLast": "242B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": null
+    "workStatus": "unclear",
+    "englishState": null,
+    "note": "No complete modern English translation identified, but Dudden's 'Gregory the Great' is described as containing translated passages from this text — partial coverage through a secondary scholarly work, not a clean miss.",
+    "confidence": "cursory-ambiguous",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -183683,8 +183695,12 @@
    "colLast": "1362D",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": null
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation found. One adjacent lead not followed up at cursory depth: a Semantic Scholar PDF 'Pierre Ameil and Papal Funerals' discusses the author/work but reads as a secondary study, not a translation edition.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -215370,8 +215386,12 @@
    "colLast": "987",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": null
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation of Usuard's Martyrology found; sources discuss the Latin editions (Dom Bouillant 1718) and secondary scholarship only. Clean miss. (Query covered 'Martyrologium' generally, not recension-specific — see 9215 note.)",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -215411,8 +215431,12 @@
    "colLast": "857",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": null
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "Same author/genre query as 9198 (both recensions of the same martyrology) — no English translation found in either query. Clean miss.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {

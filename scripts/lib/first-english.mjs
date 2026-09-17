@@ -62,6 +62,14 @@ export const NOT_VERIFIED_NONE = new Set(['unclear', 'ours', 'partial', 'mixed',
 // 'unclear', or a prior English never reaches the strong claim. If a NEW rule about
 // timestamping is ever wanted, it is a decision about future triage, not a licence
 // to retract verdicts that were actually researched.
+//
+// 2026-09-17: a second, CHEAPER triage tier now exists alongside the 2026-07
+// rigorous batches — see scripts/merge-cursory-triage.mjs and
+// data/triage/perwork/cursory-*.json. Both tiers write the same `workStatus`
+// value this function reads, on purpose (a verified 'none' grants the claim
+// either way); they are kept distinguishable in the data via
+// `translation.triageMethod` for anyone auditing HOW a verdict was reached,
+// not for this function, which treats them identically.
 
 // PL lookup is BY IDNO, and that is load-bearing. build-landing keyed it by
 // `${volume}/${title}` under a comment asserting that pair is unique. It is not:

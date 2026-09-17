@@ -1,0 +1,55 @@
+{
+  "generated": "2026-09-17",
+  "method": "cursory-2-query",
+  "note": "First run of the cursory (cheap) per-work triage tier: 2 WebSearch queries per work (exact Latin title + author; then author + approximate English gloss/known-corpus check). Distinct from the 2026-07 rigorous per-work batches (data/triage/perwork/result-*.json), which ran deeper multi-database searches. A clean miss on both queries -> none; any hit, partial coverage, or attribution ambiguity -> unclear, never forced to none. Scope: the 6 genre-survey pilot works from data/briefs/GENRE-QUEUE-SURVEY-2026-09-17.md.",
+  "results": [
+    {
+      "workIdno": "3366",
+      "textIdno": "8382",
+      "title": "Poenitentiale (Egbertus Eboracensis)",
+      "status": "unclear",
+      "note": "No direct English translation of the PL/Corpus Corporum text found in 2 queries, but the material is entangled with the 'Paenitentiale Ecgberhti' tradition: modern scholarship treats the attribution to Egbert as doubtful (largely a 9th-c. Frankish compilation per Wikipedia's Paenitentiale Ecgberhti), and Thorpe's 'Ancient Laws and Institutes of England' vol. 2 collects English translations of related Anglo-Saxon penitential material that may overlap. Too tangled for a cursory call either way.",
+      "confidence": "cursory-ambiguous"
+    },
+    {
+      "workIdno": "3093",
+      "textIdno": "8096",
+      "title": "Ordo Romanus XIV (Jacobus Caietanus)",
+      "status": "none",
+      "note": "Both queries returned only the Latin text (Wikisource) and a JSTOR article on textual interpolations (Mabillon et les interpolations de son 'Ordo Romanus XIV') — no translation. Clean miss.",
+      "confidence": "cursory"
+    },
+    {
+      "workIdno": "3097",
+      "textIdno": "8100",
+      "title": "Ordo Romanus XV (Petrus Amelius / Pierre Ameil)",
+      "status": "none",
+      "note": "No English translation found. One adjacent lead not followed up at cursory depth: a Semantic Scholar PDF 'Pierre Ameil and Papal Funerals' discusses the author/work but reads as a secondary study, not a translation edition.",
+      "confidence": "cursory"
+    },
+    {
+      "workIdno": "3045",
+      "textIdno": "8047",
+      "title": "Vita S. Gregorii Magni (Joannes diaconus)",
+      "status": "unclear",
+      "note": "No complete modern English translation identified, but Dudden's 'Gregory the Great' is described as containing translated passages from this text — partial coverage through a secondary scholarly work, not a clean miss.",
+      "confidence": "cursory-ambiguous"
+    },
+    {
+      "workIdno": "4173",
+      "textIdno": "9198",
+      "title": "Martyrologium 1 (Usuardus Sangermanensis)",
+      "status": "none",
+      "note": "No English translation of Usuard's Martyrology found; sources discuss the Latin editions (Dom Bouillant 1718) and secondary scholarship only. Clean miss. (Query covered 'Martyrologium' generally, not recension-specific — see 9215 note.)",
+      "confidence": "cursory"
+    },
+    {
+      "workIdno": "4190",
+      "textIdno": "9215",
+      "title": "Martyrologium 2 (Usuardus Sangermanensis)",
+      "status": "none",
+      "note": "Same author/genre query as 9198 (both recensions of the same martyrology) — no English translation found in either query. Clean miss.",
+      "confidence": "cursory"
+    }
+  ]
+}
