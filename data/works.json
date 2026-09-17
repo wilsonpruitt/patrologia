@@ -157761,8 +157761,12 @@
    "colLast": "1244B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "Third Laon 81 fragment of the same untranslated Commentary as 9176 (cols 1243-1244B vs 9176's 0297A-0348B) -- same verdict carries over; no fragment-specific translation found either.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -157802,8 +157806,12 @@
    "colLast": "348B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation of the full Commentary found. Confirmed the one adjacent hit is a DIFFERENT, shorter work by the same author: Eriugena's Homilia in Johannem (Homily on the Prologue, PL cols 283B-296D) has two English translations (Bamford's 'The Voice of the Eagle', 1990; a D.P. Curtin translation) -- neither is the Commentary itself (cols 297A-348B), which multiple sources describe as untranslated/fragmentary in English. Matches the PL122-WITNESSES.md brief's own prior finding.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -157884,8 +157892,12 @@
    "colLast": "1024B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "Confirmed as a fragmentary treatise (only a few fragments survive) with no English translation identified in either query. Clean miss.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -158007,8 +158019,12 @@
    "colLast": "268A",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "unclear",
+    "englishState": "ours",
+    "note": "TITLE COLLISION RISK, not a clean miss: Paul Rorem's 2005 PIMS volume translates major sections of Eriugena's 'Expositiones in Ierarchiam COELESTEM' (Celestial Hierarchy) plus his prologue to the Dionysian corpus. Our text is titled 'Ierarchiam ECCLESIASTICAM' (Ecclesiastical Hierarchy) -- likely a different Dionysian treatise, but a cursory pass can't rule out a cataloguing variant/mislabel between the two. Needs a rigorous look (compare column range/incipit against Barbet's 1975 Brepols edition of the Celestial Hierarchy commentary) before this one claims 'none' at all, let alone 'First'.",
+    "confidence": "cursory-ambiguous",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -174348,8 +174364,12 @@
    "colLast": "30B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation found. (Unrelated hits: Lyra's Song of Songs Postilla was translated by Kiecker 1998, and his Apocalypse commentary by Krey 1997 -- neither is this prologue.)",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -174389,8 +174409,12 @@
    "colLast": "34B",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation found. One adjacent hit: a ResearchGate PDF pairs this prologue's Latin with a PORTUGUESE translation ('Prologo sobre a intencao do autor') -- not English, doesn't count as prior English.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -174430,8 +174454,12 @@
    "colLast": "36A",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation found in either query. Clean miss.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -182547,8 +182575,12 @@
    "colLast": "60A",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation found; sources document only the Latin print history (Nuremberg/Venice incunable editions). Clean miss.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
@@ -213725,8 +213757,12 @@
    "colLast": "20C",
    "cpl": null,
    "translation": {
-    "workStatus": null,
-    "englishState": "ours"
+    "workStatus": "none",
+    "englishState": "untranslated",
+    "note": "No English translation of this specific front-matter preface found. Adjacent, not a hit: John Litteral's ongoing 'Glossa Ordinaria In English' series (Epistles of John, Jonah, etc.) translates the exegetical apparatus on individual biblical books, not the 1617 Douai editors' preface -- confirmed 'the complete Glossa Ordinaria text has never appeared in translation in any language' per the search summary.",
+    "confidence": "cursory",
+    "triageMethod": "cursory-2-query",
+    "triageDate": "2026-09-17"
    },
    "texts": [
     {
