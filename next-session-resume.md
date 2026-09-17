@@ -1,13 +1,13 @@
 # Next session — resume note
 
-## ▶▶▶▶▶▶▶ START HERE (2026-09-16, end) — ERIUGENA FOUR WORKS DONE MAXIMALLY · STAGED, PREFLIGHT OK, NOT DEPLOYED
+## ▶▶▶▶▶▶▶ START HERE (2026-09-17) — ERIUGENA FOUR WORKS DONE MAXIMALLY · ✅ LIVE ON migne.app (deployed + pushed 2026-09-17)
 
 **9176 (all 15 chunks), 9175, 9178, 9181: translated, plate-collated in full (0297A–0348B + all fragment
 columns), Floss's apparatus injected (9176 49/51 · 9175 5 · 9178 4 · 9181 25), blind-read by 6 readers
 with 22 fixes applied, polarity recorded, marked `ours`, site built, `preflight` exit 0** (commit `0de4e046`).
 Badges read "New" (workStatus null; not hunted, per rule 8). Burn: stints ~965K + readers ~805K.
 
-**Owed, in order:** (1) **Wilson's OK to deploy** + push (15 commits ahead). (2) ✅ **Rulings done 2026-09-17** (style file E13): 0347A `[cj:]`
+**Owed, in order:** (1) ✅ Deployed 2026-09-17 (`migne-oef2xkype`), all 4 work + cruces URLs 200 on the alias, landing lists them; pushed `bb0e8751`. (2) ✅ **Rulings done 2026-09-17** (style file E13): 0347A `[cj:]`
 stands; the 3 prose variant notes are `[vl: n+]` with English `[nt:]` twins (code: TSV layer `vl-prose`); 9176's title
 block + 9181's sigla restored as book-title banners (chunk-core now stacks multiple banner lines; Glossa books unchanged).
 Rebuilt, preflight OK again. (3) Open
