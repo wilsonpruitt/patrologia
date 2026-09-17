@@ -75,6 +75,15 @@ Stint records kept unedited beside this: `cruces-0010.md` (cols 0329B–0340A) a
 - **For Wilson:** 0347A `[cj:]` on the transposed *facti, non autem dicti* (keep it, or demote to a crux); A's
   n204 VL 2–3 codex words, unreadable on both copies.
 
+## Blind read (2026-09-16): fixes applied and cruces added
+
+Readers' reports are in `data/briefs/PL122-BLIND-READ-R*.md`.
+- **R3 (0006–0008):** applied 0319C *ad quem intendebat* → "toward whom he was gazing" (was "directing them", which read as the
+  onlookers); 0319B *divina Scriptura* → "Holy Scripture" (Pattern 3); 0322D Floss note b *interpretatur aquis* →
+  "interprets *waters*". **Crux, no marker:** 0319C *Dominum surrexisse in caelum* is carried as "rose into heaven",
+  though the next sentences speak only of raising his eyes (*suspexisse* would fit). The column was collated at the plate
+  (n196) with no divergence, so the plate prints *surrexisse*; a conjecture would be ours, and none is fired.
+
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
 *Saepe sapientes viri vocabulo hominem solent appellare.* The lemma *neque ex voluntate viri*
