@@ -39,7 +39,7 @@ read, and a human should decide whether that is the printing we want the Latin t
 - **English:** "by the virtue of the most purified souls and intellects" (genitive plural).
   Our TEI's `intellectum` would not construe with *virtute … animarum*.
 
-## 0302C — our twin reads `in sinum Patris`, the plate reads `in sinu   Patris` (a blank the width of one letter)
+## ⛔ WITHDRAWN (printings ruling, Wilson 2026-09-16) — 0302C — our twin reads `in sinum Patris`, the plate reads `in sinu   Patris` (a blank the width of one letter)
 
 - **Find (TEI l. 383):** `in sinum Patris, vel in sinibus Patris.`
 - **Replace:** `in sinu Patris, vel in sinibus Patris.`
@@ -65,7 +65,7 @@ read, and a human should decide whether that is the printing we want the Latin t
 - ⚠ Letter-level Greek on a bitonal scan; the case of the initial and the ω/ο are visible on both
   copies, the accent less certainly. English carries `φωσφόρος`.
 
-## 0306D — the plate OMITS a whole line our twin carries
+## ⛔ WITHDRAWN (printings ruling, Wilson 2026-09-16) — 0306D — the plate OMITS a whole line our twin carries
 
 - **Find (TEI l. 646–648):** `Si itaque calceamentum Verbi caro Verbi\nest, non incongrue corrigiam calceamenti ejus\nsubtilitatem,`
 - **Replace:** `Si itaque calceamentum Verbi caro Verbi\nsubtilitatem,`

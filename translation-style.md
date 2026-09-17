@@ -390,6 +390,8 @@ interpretatur locusta* → "for Ἀκρὶς is interpreted *locust*" — italic
 | *Gregorius theologus* | **Gregory the Theologian** | never expanded to Nazianzen (identification, not translation); *Maximus* as printed |
 | *sanctus / beatus* + name | **saint Dionysius / blessed Augustine**, lower-case | corpus habit (17 *blessed Augustine*) |
 | *perfidi Judaei* | **the faithless Jews** | as printed; Pattern 7, no softening |
+| *theorica scientia* | **theoric knowledge** | ratified Wilson 2026-09-16 |
+| *humanatio* | **humanation** | ratified 2026-09-16; kept apart from *inhumanatio* "inhumanation" and *incarnatio* "incarnation" |
 
 ### E5. The scholastic question forms keep their impersonal passive
 
@@ -427,7 +429,36 @@ anew" — and Eriugena comments on the switch. Thou/you by NUMBER, without excep
 PL 122 is an edition, not a reprint. Floss's *Variae lectiones* at the foot record the codex's
 reading against the text he printed (*notitiam ejus¹* … `¹ Cod. ei.`). The English renders
 Floss's text (what Migne prints); it never adopts the codex reading; a crux may cite it. Marker
-form: `data/briefs/PL122-VARIAE-LECTIONES-RULING.md` (owed Wilson's OK).
+`[vl: key | note]`, Latin-only — ✅ approved 2026-09-16, `data/briefs/PL122-VARIAE-LECTIONES-RULING.md`.
+
+### E10. Floss's NOTAE — his prose notes take `[fn:]` in the Latin and `[nt:]` in the English (Wilson, 2026-09-16)
+
+Below the *Variae lectiones* Floss prints a second foot layer headed **NOTAE**, keyed by raised
+letters restarting per page: sentences, often doctrinal (*J. Scotus pessime omnino docet…*) or
+Jerome's etymologies with Hebrew. Found independently by all three 0001–0009 stints. **They are
+Floss's, not Migne's** (inside Floss's edition, unsigned, never *EDIT.*), so they do NOT take `[cn:]`,
+which would print Floss's words in Migne's voice. Latin: **`[fn: a | …]`** at the key; English: a
+**translated `[nt: …]`** at the same point (Pattern 15 content test: they say something). Page label
+**"Floss, notae"**. Hebrew is carried only where letter-certain; otherwise `[Hebrew]` and a crux.
+
+### E11. Two printings of PL 122 — the English follows the reading that CONSTRUES (Wilson, 2026-09-16)
+
+Our TEI follows the scanned plates line for line yet sometimes carries the better reading, including a
+whole line the Harvard and Princeton copies omit (0306D): Corpus Corporum's copy-text was a different
+printing of Migne with the same layout (cf. PL 114). **Both printings are Migne.** Where they differ,
+the English follows the one that construes, the cruces record the other, and **no TEI patch is filed
+toward the defective printing.** Where the plate is the sound one, patch toward the plate as before.
+⚠ This overrides "What the English translates — THE PLATE WHERE READ" for PL 122 only, and only
+where the two readings are a printing difference, never on a guess: the scanned reading must be read
+at the plate, and the construing one must be printed somewhere (TEI or a copy), not conjectured.
+
+### E12. A single-letter non-word with an obvious reading — sense plus crux, no marker (Wilson, 2026-09-16)
+
+PL 122 bars a `[sic:]` resting on one letter (the witnesses can't settle letters), and Pattern 7 allows
+a sense rendering only beside a `[sic:]`. **For PL 122 the collision resolves this way:** where the
+non-word differs by one letter from the only word the sentence can be (*quonium* for *quoniam*,
+0319D), render the sense ("that") and log a crux naming the printed form. Where more than one reading
+is possible, carry the non-word literally as Pattern 7 says.
 
 ## Patterns
 

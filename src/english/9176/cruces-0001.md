@@ -48,6 +48,8 @@ Rendered from the plate, "by the virtue of the most purified souls and intellect
 
 ## Col 0302C (chunk 0001) — the plate prints *in sinu⎵Patris* where the argument needs *in sinum* ⚑
 
+**✅ RULED (Wilson, 2026-09-16): the printings rule — both printings are Migne, the English follows the one that construes.** The TEI's *sinum* stands, the English now reads "into the bosom of the Father" (the accusative against the lemma's *in*), the patch below is WITHDRAWN, and the scanned printing's *sinu⎵* is recorded here as the other printing's reading. The stint's original entry follows for the record.
+
 *vel ut in Graeco scribitur: qui est in sinu⎵Patris, vel in sinibus Patris.* The TEI has *sinum*,
 the accusative that renders the Greek εἰς τὸν κόλπον, and that is plainly what Eriugena is pointing
 at: he sets "as is written in the Greek" against the lemma's *in sinu*. **Both copies print *sinu*
@@ -123,6 +125,8 @@ Confirmed on the plate. "disputation" is odd for God's decree before the world; 
 false. Rendered literally, "in the divine disputation and predication". No marker.
 
 ## Col 0306D (chunk 0002) — the plate DROPS A LINE: *Si itaque calceamentum Verbi caro Verbi subtilitatem* ⚑⚑
+
+**✅ RULED (Wilson, 2026-09-16): the printings rule.** The line is Migne's; the printing we scanned dropped it. The English now renders the full sentence ("If therefore the shoe of the Word is the flesh of the Word, not unfittingly understand the latchet of his shoe as the subtlety and unsearchable perplexity…"), the TEI patch is WITHDRAWN, and the omission in the Harvard and Princeton copies is recorded here. The stint's original entry follows for the record.
 
 Our TEI reads *Si itaque calceamentum Verbi caro Verbi est, non incongrue corrigiam calceamenti ejus
 subtilitatem, et investigabilem perplexionem mysteriorum incarnationis intellige*: "If then the shoe

@@ -87,10 +87,16 @@ carried literally. **E4 additions to ratify/merge:** *theorica scientia* → "th
 📏 **BURN RECALIBRATED: ~100K/chunk** (stints 299K / 307K / ~300K for 3 chunks each), vs the 73K
 quote. Remaining: 0010–0014 (5) + fragments (3) ≈ **~800K**, plus the blind read.
 
-**Next session, in order:** (1) Wilson's rulings — which printing (0306D), *sinu*/*sinum*, NOTAE
-voice + marker, *quonium* collision, E4 additions; (2) merge the three stint plate-reads into
-`data/plate-reads.json` and fold `cruces-000{1,4,7}.md` into `cruces.md`; (3) implement `[vl:]` +
-the NOTAE marker and inject; (4) run 0010–0014 + fragments.
+✅ **ALL FIVE RULED by Wilson 2026-09-16** → style file E4 (+2 terms), E10 NOTAE `[fn:]`+`[nt:]`,
+E11 two printings (follow what construes; 0302C + 0306D fixed in the English, patches withdrawn),
+E12 single-letter non-word = sense + crux. ⚑ **Re-adjudicate the remaining 14 pending TEI patches
+(0001/0004/0007 files) under E11 at merge**: withdraw any where the TEI is the construing reading
+(stint 1 named *remote*/*remota* and the Greek normalization as TEI-better; 0322C *demoratur*,
+0310D *vivificantur*, 0318D *ergo* etc. need a look).
+
+**Next session, in order:** (1) re-adjudicate patches under E11; (2) merge the three stint plate-reads into
+`data/plate-reads.json` and fold `cruces-000{1,4,7}.md` into `cruces.md`; (3) implement `[vl:]` + `[fn:]`
+and inject, adding the `[nt:]` twins to the English for the NOTAE; (4) run 0010–0014 + fragments.
 
 Still owed after that: implement `[vl:]` (approved) and inject the
 stints' recorded `variae_lectiones`, 0010–0014, the three fragments, the blind read.

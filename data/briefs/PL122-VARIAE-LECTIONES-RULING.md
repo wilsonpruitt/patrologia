@@ -88,3 +88,15 @@ erases it silently.
   address, exactly the 2026-08-18 argument.
 
 **Ruled: approved as drafted, 2026-09-16.**
+
+---
+
+## Addendum 2026-09-16 (later) — rulings from the first three 9176 stints
+
+- **NOTAE:** Floss's lettered prose layer → `[fn: a | …]` Latin + translated `[nt:]` English, label
+  "Floss, notae" (style file E10). The injector, verifier, builder and scan-raw-markers all need the
+  class alongside `[vl:]`; implement both together.
+- **Two printings:** English follows the reading that construes; no TEI patch toward the defective
+  printing (E11). 0302C *sinum* and 0306D's line restored in the English, their patches withdrawn.
+- **Single-letter non-words:** sense + crux, no marker (E12).
+- **E4 additions:** *theorica scientia* "theoric knowledge", *humanatio* "humanation".
