@@ -1,0 +1,26 @@
+{
+ "_note": "Stint C plate reads for 9175 (single chunk 0000, cols 1243-1244B). Merge into data/plate-reads.json works.9175.reads[]. [vl:] rows injected by stint C (5 of 5).",
+ "series": "pl",
+ "volume": 122,
+ "scan": "archive.org patrologiaecurs113unkngoog, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg (4309x6684). One leaf at a time to the stint-C scratchpad, cropped locally with PIL at 1.0x in column strips of ~450 px (no crop crossed the gutter), foot cropped full width, leaf and crops deleted after use.",
+ "page_map": "leaf = (col+73)/2 would give n658; not used. Calibrated from the n550 finding (+2 leaves): (1243+77)/2 = n660, corners read 1243/1244 on the first fetch. Running head ADDITAMENTUM.",
+ "second_witness": "Not fetched for 9175: no word divergence was found at the plate, so nothing needed a second witness.",
+ "reads": [
+  {
+   "from": "1243",
+   "to": "1244B",
+   "depth": "full",
+   "date": "2026-09-16",
+   "page": "n660",
+   "source": "archive n660, corners 1243/1244, running head ADDITAMENTUM. The fragment sits below Floss's column-by-column corrigenda for cols 337-346 under the head II. JOANNIS SCOTI COMMENTARII IN S. EVANGELIUM SECUNDUM JOANNEM. FRAGMENTUM IV. E codice eodem. Both columns of the fragment read line by line at 1.0x; VL block full width.",
+   "found": "CHECKED ZERO word divergences against our twin. Shared by plate and twin: 'quaudo' (1244B, broken n: E12, rendered 'when', crux, no marker), 'suspendor virorum ac piorum Patrum', 'solempnitate', 'quicquid', 'pra.......st' (the plate sets the points close and they are hard to count, ~6-7; twin carries 7 spaced, carried). Neither Floss's head 'FRAGMENTUM IV. E codice eodem.' nor the Additamentum corrigenda above it are in our TEI (the head is structural front matter, owed to the title-block ruling). VL keys 1-5 placed. No NOTAE (checked zero)."
+  }
+ ],
+ "variae_lectiones": "see data/plate-notes/9175.tsv (5 rows, all placed)",
+ "floss_notae": [
+  {
+   "leaf": "n660",
+   "status": "CHECKED ZERO: no NOTAE rule."
+  }
+ ]
+}

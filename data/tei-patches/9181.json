@@ -1,0 +1,19 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 9181 (Eriugena, Expositiones super Ierarchiam ecclesiasticam, prologue fragment, PL 122), applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne/Floss. Added 2026-09-16 from stint C's plate read (data/briefs/9181-PENDING-TEI-PATCHES.md).",
+ "patches": [
+  {
+   "work": "9181 Eriugena, Expositiones super Ierarchiam ecclesiasticam (PL 122)",
+   "col": "0268A",
+   "find": "chrismatis, initiatione",
+   "replace": "chrismatis initiatione",
+   "why": "PLATE READ 2026-09-16 (stint C): archive n170 (corners 267/268) right col band A and Princeton YkVOAAAAYAAJ PA267 both print 'chrismatis initiatione' with no comma (Floss's VL key 13 after initiatione). The twin's comma cuts the genitive from its noun; the plate construes (E11: patch toward the sound plate)."
+  },
+  {
+   "work": "9181 Eriugena, Expositiones super Ierarchiam ecclesiasticam (PL 122)",
+   "col": "0268A",
+   "find": "liquido\nmanifestat.</p>",
+   "replace": "liquido\nmanifestat.</p>\n<p><hi>Haec insunt in hoc de ecclesiastica ierarchia totum\n<pb n=\"0268B\"/>\ncapitula</hi> VII.</p>\n<p>I. <hi>Quae sit ecclesiasticae ierarchiae traditio, et quae ejusdem speculatio.</hi></p>\n<p>II. <hi>De perficiendis in baptismate.</hi></p>\n<p>III. <hi>De perficiendis in synaxi.</hi></p>\n<p>IV. <hi>De perficiendis in miro et in ipso offerendis.</hi></p>\n<p>V. <hi>De sacerdotalibus confirmationibus.</hi></p>\n<p>VI. <hi>De perficiendorum ordinibus.</hi></p>\n<p>VII. <hi>De perficiendis in dormientibus.</hi></p>\n<p>Praecumbentium capitulorum doctrinam secundum duplicem perficit modum. Primum enim exponit hoc : quomodo perficitur mysterium capituli ; ac deinde theoria quadam traditionem : utputa\n<pb n=\"0268C\"/>\nmysterii illuminationis expositio primum, deinde secunda theoria ejus, iterum mysterii synaxeos expositio, deinde theoria ejus, et eodem modo de ceteris.</p>\n<p><hi>Cetera desiderantur.</hi></p>",
+   "why": "TEXT LOST FROM THE DIGITIZATION, PLATE READ 2026-09-16 (stint C): our TEI ends at 'liquido manifestat.' while both witnesses (archive n170 right col, bands A-C; Princeton PA267, line for line) continue with the italic 'Haec insunt ... capitula VII.', the seven chapter titles, the paragraph 'Praecumbentium capitulorum ... de ceteris.' and 'Cetera desiderantur.' Band letters placed where the plate sets B and C (C stands against 'rii illuminationis', inside the hyphenated myste-rii; the anchor is placed before the whole word). Floss's VL keys 18-20 in this passage are recovered in data/plate-notes/9181.tsv. Chapter numerals set roman, titles italic, as on the plate."
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 9178 (Eriugena, De egressu et regressu animae ad Deum, fragment, PL 122), applied by chunk-work.mjs BEFORE the transform. Corrections to the DIGITIZATION only. Added 2026-09-16 from stint C's plate read.",
+ "patches": [
+  {
+   "work": "9178 Eriugena, De egressu et regressu animae ad Deum (PL 122)",
+   "col": "1023A",
+   "find": "<hi>Alia in idipsum theoria</hi>",
+   "replace": "<hi>Alia in idipsum theoria.</hi>",
+   "why": "PLATE READ 2026-09-16 (stint C): archive n550 (corners 1023/1024; map here is leaf = (col+77)/2) and Princeton PA1023 both print the first rubric with a full stop. Punctuation only; the plate is sound (E11)."
+  }
+ ]
+}

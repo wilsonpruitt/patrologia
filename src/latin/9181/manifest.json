@@ -8,10 +8,10 @@
   "series": "pl",
   "volume": 122,
   "colFirst": "0265D",
-  "colLast": "0268A",
-  "sourceWords": 459,
+  "colLast": "0268C",
+  "sourceWords": 557,
   "sourceNotes": 0,
-  "sourcePbMarks": 6,
+  "sourcePbMarks": 8,
   "chunkCount": 1,
   "chunks": [
     {
@@ -27,13 +27,27 @@
       "chunkCount": 1,
       "colContext": "0265D",
       "colFirst": "0265D",
-      "colLast": "0268A",
+      "colLast": "0268C",
       "heads": [
         "Expositiones super Ierarchiam ecclesiasticam S. Dionysii"
       ],
-      "words": 462,
+      "words": 560,
       "noteCount": 0,
       "incipit": "Cod. ms. bibl. Univers. Lipsien. 188, membran., sec."
     }
-  ]
+  ],
+  "plateNotes": {
+    "source": "data/plate-notes/9181.tsv",
+    "rows": 25,
+    "injected": 25,
+    "byLayer": {
+      "cn": 0,
+      "vl": 25,
+      "fn": 0
+    },
+    "trimmedAnchor": 0,
+    "headAnchored": 0,
+    "skipped": 0,
+    "sequenceOk": true
+  }
 }
