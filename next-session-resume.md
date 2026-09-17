@@ -16,9 +16,10 @@ between the two titles, so it stays "New" until someone checks the column range/
 Barbet's 1975 Brepols edition.
 
 Rebuilt locally (`node scripts/build-site.mjs 8971 8972 8973 8974 8975 9176 9175 9178 9181`),
-badges confirmed in the built HTML, **`preflight.mjs` 7/7**. Committed and pushed (`1f084926`).
-**Not deployed — `cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects` is
-owed, Wilson's call**, then smoke-test the 8 flipped URLs on the alias for the corrected badge.
+badges confirmed in the built HTML, **`preflight.mjs` 7/7**. Committed and pushed (`1f084926`,
+`0aba1652`). ✅ **Deployed 2026-09-17** (`migne-f5mirowy0`), smoke-tested on the ALIAS: all 9 work
+URLs 200, all 8 flipped ones read "First English translation," 9181 correctly still reads "New",
+`/glossa` still 58 Englished, `/` 200. Nothing owed.
 
 ## ▶▶▶▶▶▶▶▶▶ START HERE (2026-09-17, even later) — CURSORY TRIAGE TIER BUILT · 4 OF 6 PILOTS NOW BADGE-ELIGIBLE
 
