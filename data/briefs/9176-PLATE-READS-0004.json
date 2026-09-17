@@ -1,0 +1,103 @@
+{
+  "_note": "Stint-scoped plate reads for 9176 chunks 0004-0006 (bands 0309D-0320C). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES per leaf (drafted [vl:] marker NOT approved; nothing injected) and a separate record of the lettered NOTAE layer found on these leaves.",
+  "series": "pl",
+  "volume": 122,
+  "scan": "archive.org patrologiaecurs113unkngoog, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg, 4309x6684 bitonal-looking JPEG. Each leaf cropped locally with PIL into column halves split at the measured gutter, five vertical strips per column; every strip read on screen. WARNING: on n192, n194 and n196 the archive image CLIPS the right-hand ~20% of the RIGHT column (cols 312, 316, 320); those columns were read in full on the second witness below.",
+  "page_map": "leaf = (odd column + 73) / 2. CONFIRMED on all six leaves by reading the printed corner numbers before any text: n191=309/310, n192=311/312 (312 read on Google), n193=313/314, n194=315/316 (316 read on Google), n195=317/318, n196=319/320 (320 read on Google).",
+  "second_witness": "Google Books Princeton YkVOAAAAYAAJ, pg=PA<odd column>, signed-src fetch per PL122-WITNESSES.md, zoom=3 (575 px wide), right column enlarged 3x LANCZOS. Word-level only; never used for a single letter. Corners read on each: PA311=311/312 (head JOANNIS SCOTI), PA313=313/314, PA315=315/316, PA319=319/320.",
+  "reads": [
+    {
+      "from": "0309D",
+      "to": "0310D",
+      "depth": "full-collation",
+      "date": "2026-09-16",
+      "page": "n191",
+      "corners_as_read": "309 / 310; running head COMMENT. IN EVANG. SEC. JOAN.",
+      "source": "archive leaf n191, both columns, 5 strips each; foot cropped full width.",
+      "found": "Collated word by word from 'Altera die' (0309D) to the foot of col 310. THREE DIVERGENCES filed in 9176-PENDING-TEI-PATCHES-0004.md: 0309D stop after 'venientem ad se.'; 0310B 'immolatus est, ideoque'; 0310D 'omnes vivificantur' (twin 'vivificatur'). No VARIAE LECTIONES rule. A NOTAE block (Floss's lettered notes) begins at the foot, key a (see notae)."
+    },
+    {
+      "from": "0311A",
+      "to": "0312D",
+      "depth": "full-collation",
+      "date": "2026-09-16",
+      "page": "n192",
+      "corners_as_read": "311 (archive) / 312 (Google PA311; clipped on archive); running head JOANNIS SCOTI",
+      "source": "archive leaf n192 col 311 in full and col 312 left ~80%; Princeton PA311 col 312 in full at 3x.",
+      "found": "No divergences in the running text. No VARIAE LECTIONES rule. NOTAE: note a continued; key b set after 'mente, non dente, comedimus' (0311B)."
+    },
+    {
+      "from": "0313A",
+      "to": "0314D",
+      "depth": "full-collation",
+      "date": "2026-09-16",
+      "page": "n193",
+      "corners_as_read": "313 / 314; running head COMMENT. IN EVANG. SEC. JOAN.",
+      "source": "archive leaf n193 both columns; Princeton PA313 for the foot and for col 313B-C at 3x.",
+      "found": "ONE DIVERGENCE filed: 0314D the plate prints 'nisi fuerit Deus cum eo »' with no stop (both witnesses). Head 'FRAGMENTUM II. / CAP. III, 1 — IV, 28.' confirmed. Floss's lacuna dots after 'tribuitur.' counted by ink blobs: 10 + 17, matching the twin. 'Hierosolomis' (0314D) is printed. VARIAE LECTIONES rule PRESENT, one note; its raised key was NOT located in the running text on either witness (see variae_lectiones)."
+    },
+    {
+      "from": "0315A",
+      "to": "0316D",
+      "depth": "full-collation",
+      "date": "2026-09-16",
+      "page": "n194",
+      "corners_as_read": "315 (archive) / 316 (Google PA315; clipped on archive); running head JOANNIS SCOTI",
+      "source": "archive leaf n194 col 315 in full and col 316 left ~80%; Princeton PA315 col 316 in full at 3x, and its foot.",
+      "found": "ONE DIVERGENCE filed: 0316B twin 'nis quis', plate 'nisi quis' (Princeton; archive clipped at that point). 0316A the plate prints '[re]nasci' with Floss's key 1: the brackets are his supplement, not a digitization artifact. 'ἄνωθεν' printed twice at 0315A. VARIAE LECTIONES: one note. No NOTAE on this page."
+    },
+    {
+      "from": "0317A",
+      "to": "0318D",
+      "depth": "full-collation",
+      "date": "2026-09-16",
+      "page": "n195",
+      "corners_as_read": "317 / 318; running head COMMENT. IN EVANG. SEC. JOAN.",
+      "source": "archive leaf n195 both columns in full (left margin of col 317 ink-blotched, legible).",
+      "found": "THREE DIVERGENCES filed: 0318B stop after 'mysteria.'; 0318D 'Inspice ergo' (twin 'erga'); 0318D lemma 'et non creditis quomodo' without the twin's comma. Also 0318D an inverted opening guillemet (plate sets » before 'Sermo, quem locutus sum'), crux only. No VARIAE LECTIONES rule and no NOTAE: checked zero (agrees with the pilot's foot read of n195)."
+    },
+    {
+      "from": "0319A",
+      "to": "0320C",
+      "depth": "full-collation",
+      "date": "2026-09-16",
+      "page": "n196",
+      "corners_as_read": "319 (archive) / 320 (Google PA319; clipped on archive); running head JOANNIS SCOTI",
+      "source": "archive leaf n196 col 319 in full and col 320 bands A-C left ~80%; Princeton PA319 col 320 A-C in full at 3x and the page foot.",
+      "found": "No divergences to the end of the range ('ambulemus ».' at 0320C). 'quonium' (0319D) is printed on the plate. 'nisi in mortem' (0320C, Rom 6:4) is printed. No VARIAE LECTIONES, no NOTAE: checked zero."
+    }
+  ],
+  "variae_lectiones": [
+    {"leaf": "n191", "cols": "309/310", "checked_zero": true},
+    {"leaf": "n192", "cols": "311/312", "checked_zero": true},
+    {
+      "leaf": "n193",
+      "cols": "313/314",
+      "key": "1",
+      "note_text_as_printed": "Sic cod., forte leg. *humanae naturae?*",
+      "anchor_words": null,
+      "anchor_status": "KEY NOT FOUND in the running text on the archive leaf (full resolution, cols 313B-D re-cropped) or on Princeton PA313. Most probable site on sense: 0313B 'jam ab originali peccato humana natura neque in omnibus communiter' (nominative where the clause wants a genitive with abolitio). UNCONFIRMED; not used as evidence in the English.",
+      "uncertain_letters": "key glyph read as a raised 1, small; note text itself clean on both witnesses"
+    },
+    {
+      "leaf": "n194",
+      "cols": "315/316",
+      "key": "1",
+      "note_text_as_printed": "Corr., cor. *nasci*",
+      "anchor_words": "secundo introire et [re]nasci ¹ ? Carnaliter intellexit, qui adhuc",
+      "anchor_status": "located, 0316A, key after '[re]nasci' inside the italic lemma, before the roman '?'",
+      "uncertain_letters": "'cor.' reads so on both witnesses; the sense expects 'cod.' — the final letter r/d is flagged, not guessed"
+    },
+    {"leaf": "n195", "cols": "317/318", "checked_zero": true},
+    {"leaf": "n196", "cols": "319/320", "checked_zero": true}
+  ],
+  "notae": {
+    "_note": "A SECOND foot layer headed NOTAE, keyed by raised lowercase letters, prose notes (Floss's). Not in the TEI (keys dropped too). Recorded for the orchestrator; nothing injected, no [nt:] written (no Latin anchor exists for parity).",
+    "items": [
+      {"leaf": "n191-n193", "key": "a (n191)", "anchor_words": "poena generalis peccati est a, quo simul totum genus humanum", "col": "0310D", "note_text_as_printed": "J. Scotus pessime omnino docet, primum hominem ante praevaricationem simplicem hominem fuisse, at demum post peccatum humanam naturam in masculum et feminam divisam esse. Ex qua divisione sexuum natam esse generis humani multiplicationem, quae fiat generatione per corruptionem. Quem errorem in libris de div. Nat. uberius exposuit. Recensetur illa doctrina in commentatione de J. Scoto supra posita P. II § 50 sqq.", "uncertain": "section number 50 read at archive resolution"},
+      {"leaf": "n192", "key": "b", "anchor_words": "intellectualiter mente, non dente, comedimus b. Itaque unusquisque credentium", "col": "0311B", "note_text_as_printed": "En ineptiarum, quas, teste Adrevaldo, J. Scotus de SS. Eucharistia docuit, vestigia. E contra Berengarius Romanae subscribere debuit formulae: « Panem et vinum, quae in altari ponuntur, post consecrationem non solum sacramentum, sed etiam verum corpus et sanguinem Domini nostri esse; et sensualiter non solum sacramento, sed in veritate manibus sacerdotum tractari, et frangi et fidelium dentibus atteri ». Quae quidem de specie dicta sunt; nam nulla rei fit scissura. Nec non J. Scotus supra in expositionibus caelestis Ierarchiae docuerat, sanctissimam Eucharistiam in interiora naturae nostrae viscera sumi, ad nostram ineffabilem deificationem.", "uncertain": "italic spans approximate"},
+      {"leaf": "n193", "key": "a", "anchor_words": "nisi poena originalis peccati, nasci non possunt a ? Si enim causa", "col": "0313A", "note_text_as_printed": "Ea, quae J. Scotus usque ad finem fragmenti de peccato originali cet. disputat, cum veritate Christiana non satis convenire, nemo non intelligit. Quae ipsius de his capitibus falsissima doctrina fuerit, copiosius disceptatur in commentatione supra typis expressa P. II § 57 sqq.", "uncertain": "none material"},
+      {"leaf": "n193", "key": "b", "anchor_words": "interpretatur; Pharisaei, divisi b. Secta namque eorum divisa", "col": "0314A", "note_text_as_printed": "S. Hieronymus: *Pherezaei* [?], *separantes, sive disseminati, vel fructificantes.* Illud enim nomen derivatur a radice [Hebrew פרש, pointed], *separare,* id est *dividere.*", "uncertain": "first word Pherez?i: vowel before final i unreadable (Pherezati/Pherezaei); Hebrew pointing not transcribed"}
+    ]
+  }
+}

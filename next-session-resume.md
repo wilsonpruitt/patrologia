@@ -73,6 +73,25 @@ eleven lines earlier — the archive shows e as c elsewhere; English follows TEI
 ("heareth with"); a HathiTrust look would settle it. 0326C *missus est* where *es* is meant,
 logged below the `[cj:]` bar. 0323B note ¹ with no visible key.
 
+✅ **Stint 0004–0006 DONE and committed** → **9176 chunks 0000–0009 all translated; verify clean
+across all ten** (only 0010–0014 MISSING). n191–n196 collated (Princeton for clipped cols
+312/316/320); 8 TEI patches, 2 `[var:]`, 2 VL + 4 checked zeros; NOTAE on n191–n193 (doctrinal
+warnings on original sin + Eucharist) — **all three stints found NOTAE independently.**
+For review: 0313B *humana natura* won't construe (Floss's unplaced note *forte leg. humanae
+naturae?* likely belongs there, key not found); ⚑ **0319D *quonium* rendered "that" with no marker
+— a sense rendering of a non-word, which Pattern 7 allows only beside a `[sic:]`, and PL 122 bars
+single-letter `[sic:]`: the two rules collide, needs a ruling**; 0320C Rom 6:4 *nisi in mortem*
+carried literally. **E4 additions to ratify/merge:** *theorica scientia* → "theoric knowledge",
+*humanatio* → "humanation" (distinct from inhumanation/incarnation).
+
+📏 **BURN RECALIBRATED: ~100K/chunk** (stints 299K / 307K / ~300K for 3 chunks each), vs the 73K
+quote. Remaining: 0010–0014 (5) + fragments (3) ≈ **~800K**, plus the blind read.
+
+**Next session, in order:** (1) Wilson's rulings — which printing (0306D), *sinu*/*sinum*, NOTAE
+voice + marker, *quonium* collision, E4 additions; (2) merge the three stint plate-reads into
+`data/plate-reads.json` and fold `cruces-000{1,4,7}.md` into `cruces.md`; (3) implement `[vl:]` +
+the NOTAE marker and inject; (4) run 0010–0014 + fragments.
+
 Still owed after that: implement `[vl:]` (approved) and inject the
 stints' recorded `variae_lectiones`, 0010–0014, the three fragments, the blind read.
 
