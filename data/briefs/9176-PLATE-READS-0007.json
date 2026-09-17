@@ -1,0 +1,84 @@
+{
+  "_note": "Stint-scoped plate reads for 9176 chunks 0007-0009 (bands 0320C-0329B). Merge into data/plate-reads.json works.9176.reads[]. variae_lectiones arrays are recorded per the PL122 ruling draft; NOTHING was injected into the Latin and no apparatus marker is in the English.",
+  "series": "pl",
+  "volume": 122,
+  "scan": "archive.org patrologiaecurs113unkngoog, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg (4309x6684, bitonal-looking). One leaf fetched at a time to the stint scratchpad, cropped locally with PIL (column halves, 0.5x segments of six per column, 0.7-1.3x zooms on sites and on the foot), deleted after use. No crop crossed the centre gutter.",
+  "page_map": "leaf = (odd column + 73) / 2. CONFIRMED on all six leaves by reading the printed corner numbers before any text: n196 = 319 / 320 (right corner clipped on archive; 320 read on Princeton PA319), n197 = 321 / 322, n198 = 323 / 324 (right corner clipped; 324 read on PA323 head strip as '324'), n199 = 325 / 326, n200 = 327 / 328 (right corner clipped; 328 read on PA327), n201 = 329 / 330.",
+  "second_witness": "Google Books Princeton YkVOAAAAYAAJ (NOT q2mQHvy4_usC), zoom=3, 575 px, signed src via jscmd=click3. Pages PA319, PA321, PA323, PA325, PA327. Used (a) to collate the right-column line-ends that the ARCHIVE COPY CLIPS on n196, n198 and n200 (the archive image stops 3-8 characters short of the right margin of cols 320, 324, 328; one word per line lost), and (b) for the word-level divergence at 0322C. Word-level only; no letter-level claim rests on it.",
+  "reads": [
+    {
+      "from": "0320C",
+      "to": "0320D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n196",
+      "source": "archive n196, corners 319 / [320 clipped], running head JOANNIS SCOTI. Right column from the lemma 'Sic enim Deus dilexit mundum' to the foot, 0.4-0.6x. Line-ends lost to the archive clip read on Princeton PA319 (corners 319 / 320) at 2.6x.",
+      "found": "CHECKED ZERO divergences against our twin in 0320C-D (both copies). Foot: no VARIAE LECTIONES rule on this page."
+    },
+    {
+      "from": "0321A",
+      "to": "0322D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n197",
+      "source": "archive n197, corners 321 / 322, running head COMMENT. IN EVANG. SEC. JOAN. Both columns read top to foot in six 0.5x segments each; zooms at 0.8x on 0322C line and the foot, 1.2x on the Greek of the 0322D lemma. Princeton PA321 (corners 321 / 322) at 2.6x on 0322C.",
+      "found": "ONE DIVERGENCE: 0322C plate 'ibique demoratur et purgat' where our twin has 'demorabatur'; confirmed on Princeton PA321; patch filed, English renders the plate. Otherwise word for word as our twin, including 'homo κόσμος vocatur' / 'Κόσμος quippe graece ornatus', the 0322D lemma 'in Αἰνὼν juxta Saleim' (Greek in Greek type, key 1 after it) and 'In Aennon, hoc est in aquis; enos enim hebraice aqua dicitur'. Floss's NOTAE keys a (after 'confessio interpretatur', 0322B) and b (after 'in aquis', 0322D) are on the plate and absent from the twin."
+    },
+    {
+      "from": "0323A",
+      "to": "0324D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n198",
+      "source": "archive n198, corners 323 / [324 clipped], running head JOANNIS SCOTI. Left column full in six 0.5x segments plus 0.7-0.8x zooms hunting note key 1; right column read on archive where visible and IN FULL on Princeton PA323 (three 2.6x crops, corner 324 on its head).",
+      "found": "CHECKED ZERO divergences against our twin across 0323A-0324D. Confirmed Floss's brackets 'Non[dum]' (0323B) as printed. The plate carries VL keys 2 ('contulisse') and 3 ('baptizatis') and NOTAE key a ('famam', 0323A); VL key 1 could not be located on either copy (see variae_lectiones)."
+    },
+    {
+      "from": "0325A",
+      "to": "0326D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n199",
+      "source": "archive n199, corners 325 / 326, running head COMMENT. IN EVANG. SEC. JOAN. Both columns in six 0.5x segments; 0.8x zooms on 0326A line 1, 0326C 'ab eo' / 'quantus', 0326D last line, and the foot. Princeton PA325 at 2.6x on 0326A head and the foot.",
+      "found": "ONE PROPOSED PATCH: 0326D plate 'gaudio' where our twin has 'gaudi,' (one copy; filed). TWO NOTED, NOT PATCHED: 0326A lemma sets 'nisi fuerit e' with no visible i on BOTH copies (twin 'ei'); 0326D 'audit cum' is c/e-undecidable on this copy (the same copy prints 'in cum' for twin-correct 'eum' at 0329A). Confirmed as printed: 0326C 'et tu dicis, quia missus est ante illum' (third person, logged as crux)."
+    },
+    {
+      "from": "0327A",
+      "to": "0328D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n200",
+      "source": "archive n200, corners 327 / [328 clipped], running head JOANNIS SCOTI. Left column full in six 0.5x segments plus a 1.3x zoom on the 0327C lemma; right column on archive where visible and IN FULL on Princeton PA327 (three 2.6x crops; corners 327 / 328).",
+      "found": "CHECKED ZERO transcription divergences against our twin. NOTED, NOT PATCHED: 0327C lemma prints 'Qui de ursum venit' (gap for the second s; the gloss two lines on prints 'desursum' cleanly); single letter, one copy, crux only. Confirmed as printed: 0327B 'Putatis majorem [me]' (Floss's conjecture, VL key 1), 0327D lemma 'Qui est de terra, terra est' and 'Terra es et in terram ibis', 0328B 'recte credendus est' (VL key 2 on PA327)."
+    },
+    {
+      "from": "0329A",
+      "to": "0329B",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n201",
+      "source": "archive n201, corners 329 / 330, running head COMMENT. IN EVANG. SEC. JOAN. Left column bands A-B in 0.5x segments (read on through the start of 0329C to the stint boundary 'Quem enim misit Deus'); 0.8-1.0x zooms on line 2 and the foot.",
+      "found": "ONE PROPOSED PATCH: 0329A plate 'unigeniti Filii Dei' where our twin has 'Filius' (clean, one copy). Confirmed as printed: 'a se ipsis [ad] interitum' (Floss's bracket), lemma 'signavit quia Deus verax est' and the Greek-derived 'Quia Deus verus est'. VL key 1 after 'credituri sunt'."
+    }
+  ],
+  "variae_lectiones": [
+    {"leaf": "n196", "cols": "319/320", "key": null, "note_text_as_printed": null, "anchor_words": null, "uncertain_letters": null, "status": "CHECKED ZERO: no VARIAE LECTIONES rule on this page (foot cropped full width)."},
+    {"leaf": "n197", "cols": "321/322", "key": "1", "note_text_as_printed": "Cod. Aeunon.", "anchor_words": "Erat autem Joannes baptizans in Αἰνὼν ¹ juxta Saleim, quia aquae (0322D)", "uncertain_letters": "Aeu?non: the third letter reads u on the archive copy but u/n is exactly the class this copy blurs (brief: ariovugitae/ariovagitae)."},
+    {"leaf": "n197", "cols": "321/322", "key": "2", "note_text_as_printed": "Sic cod. pro Aennon.", "anchor_words": "hoc est in aquis ᵇ; enos ² enim hebraice aqua dicitur (0322D)", "uncertain_letters": "Aenno?: final letter damaged (reads like 'Aennoil'); 'Aennon' is the reading consistent with the text's own 'In Aennon'. Not guessed further."},
+    {"leaf": "n198", "cols": "323/324", "key": "1", "note_text_as_printed": "Cod. non.", "anchor_words": "KEY NOT LOCATED on either copy (archive n198 left column read at 0.7x twice; Princeton PA323 at 2.6x). Probable anchor 'Non[dum] enim missus fuerat in carcerem Joannes' (0323B), where Floss's bracket supplies -dum to a codex 'non', but no raised 1 is visible there.", "uncertain_letters": null},
+    {"leaf": "n198", "cols": "323/324", "key": "2", "note_text_as_printed": "Cod. non contulisse.", "anchor_words": "verum etiam propriorum delictorum remissionem contulisse ². Quid ergo contulit? (0323B)", "uncertain_letters": null},
+    {"leaf": "n198", "cols": "323/324", "key": "3", "note_text_as_printed": "Cod. baptismatis.", "anchor_words": "Quantum enim catechumenis nondum baptizatis ³ doctrina fidei prodest (0323B)", "uncertain_letters": "note text crosses the archive clip ('baptism' | 'atis'); completed from Princeton PA323."},
+    {"leaf": "n199", "cols": "325/326", "key": "1", "note_text_as_printed": "Cod. quicquam accipere.", "anchor_words": "Respondit Joannes et dixit: Non potest homo accipere quicquam ¹, nisi fuerit ei datum (0325A)", "uncertain_letters": null},
+    {"leaf": "n199", "cols": "325/326", "key": "2", "note_text_as_printed": "Corr., cod. qu??n?ies.", "anchor_words": "dic, quaesumus, quid es praeter hominem, aut quantus ², et quid gratiae accepisti (0326C)", "uncertain_letters": "codex word illegible on archive and Princeton: 'qu' + 2 letters + 'n' + 1 letter + 'ies' as far as it can be seen. NOT guessed."},
+    {"leaf": "n200", "cols": "327/328", "key": "1", "note_text_as_printed": "me om. cod., add. ex conj.", "anchor_words": "Putatis majorem [me] ¹ esse, quam sum, illum vero minorem (0327B)", "uncertain_letters": "'add.' partly broken ('a ld.'); abbreviation certain from context."},
+    {"leaf": "n200", "cols": "327/328", "key": "2", "note_text_as_printed": "Corr.; cod. credendum.", "anchor_words": "quoniam vero peccato caruit, recte credendus ² est hominem ante peccatum (0328B)", "uncertain_letters": "note crosses the archive clip ('credend' | 'um'); key and note end read on Princeton PA327."},
+    {"leaf": "n201", "cols": "329/330", "key": "1", "note_text_as_printed": "Corr., pro sunt cod. sed.", "anchor_words": "De his, qui non credunt neque credituri sunt ¹, a se ipsis [ad] interitum (0329A)", "uncertain_letters": "'sunt' and 'sed' are italic and thin; letters not individually certain, word shapes clear."},
+    {"leaf": "n201", "cols": "329/330", "key": "2", "note_text_as_printed": "Cod. nunquid.", "anchor_words": "verba Dei loquitur. Nonne ² et pro- (0329B/C) -- OUTSIDE this stint's range (chunk 0010); recorded because the leaf was read.", "uncertain_letters": null},
+    {"leaf": "n201", "cols": "329/330", "key": "3", "note_text_as_printed": "Cod. nunquid.", "anchor_words": "NOT COLLATED: anchor lies in col. 329C-330, outside this stint's range.", "uncertain_letters": null}
+  ],
+  "floss_notae": [
+    {"_note": "A SECOND Floss foot layer, headed NOTAE, keyed by raised LETTERS restarting per page, set below the VARIAE LECTIONES. These are prose editorial notes (Pattern 15 content test: sentences). Not covered by the [vl:] draft; recorded for the orchestrator, nothing injected. Hebrew in them is not transcribed letter-exact.", "leaf": "n197", "cols": "321/322", "key": "a", "note_text_as_printed": "De hac interpretatione verbi Judaea vide supra Col. 303.", "anchor_words": "Judaea quippe confessio interpretatur ª. Confessio autem duplex est (0322B)"},
+    {"leaf": "n197", "cols": "321/322", "key": "b", "note_text_as_printed": "Recte J. Scotus interpretatur aquis. Nam derivatur [Hebrew] a [Hebrew], fons, puteus. S. Hieronymus: Aenon, oculus, aut fons eorum.", "anchor_words": "In Aennon, hoc est in aquis ᵇ; enos enim hebraice (0322D)", "uncertain_letters": "Hebrew words not transcribed; 'Hieronymus' and 'eorum' damaged but certain."},
+    {"leaf": "n198", "cols": "323/324", "key": "a", "note_text_as_printed": "S. Hieronymus: Jerusalem, visio pacis, timebit perfecte. Derivatio verbi [Hebrew] ab [Hebrew] et [Hebrew], id est, domus pacis, praeferenda est alteri a [Hebrew] et [Hebrew], id est, possessio pacis.", "anchor_words": "divulgatam in fines mundi gloriosissimam famam ª. Alii vero, quibus (0323A)", "uncertain_letters": "Hebrew not transcribed; 'perfecte' partly broken."}
+  ]
+}

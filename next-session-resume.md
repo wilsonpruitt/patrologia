@@ -65,6 +65,14 @@ notes recorded, not injected). ⚑ **Three things it raised that need Wilson:**
    Recorded under `notae` in `data/briefs/9176-PLATE-READS-0001.json`. Hebrew not reliable.
 Small: pilot's clean *Ariopagitam* (n186) re-read as possibly *Ariovagitam* — unsettled.
 
+✅ **Stint 0007–0009 DONE and committed** (verify clean; n196–n201 all collated, archive clips the
+right edge on n196/n198/n200 → Princeton PA319–327; 3 TEI patches, 3 `[var:]`, 11 VL + 1 zero,
+3 more NOTAE recorded as `floss_notae`). ⭐ **Independent confirmation of the NOTAE layer** — so
+that ruling is real, not one agent's misreading. For review: 0326D *audit cum* (TEI) vs *eum*
+eleven lines earlier — the archive shows e as c elsewhere; English follows TEI literally
+("heareth with"); a HathiTrust look would settle it. 0326C *missus est* where *es* is meant,
+logged below the `[cj:]` bar. 0323B note ¹ with no visible key.
+
 Still owed after that: implement `[vl:]` (approved) and inject the
 stints' recorded `variae_lectiones`, 0010–0014, the three fragments, the blind read.
 
