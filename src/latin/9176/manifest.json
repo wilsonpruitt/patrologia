@@ -329,5 +329,19 @@
       "noteCount": 0,
       "incipit": "Homines ergo videntes, quod fecit signum Jesus, dicebant:"
     }
-  ]
+  ],
+  "plateNotes": {
+    "source": "data/plate-notes/9176.tsv",
+    "rows": 34,
+    "injected": 30,
+    "byLayer": {
+      "cn": 0,
+      "vl": 20,
+      "fn": 10
+    },
+    "trimmedAnchor": 0,
+    "headAnchored": 0,
+    "skipped": 4,
+    "sequenceOk": true
+  }
 }

@@ -2,7 +2,7 @@
 
 **Written 2026-09-16 in the Eriugena register pilot (Fable).** ✅ **APPROVED by Wilson 2026-09-16
 ("we are good with your note decisions") — the marker, Latin-only rule, "Floss, var. lect." label,
-and the front-matter handling below all stand as drafted.** Not yet implemented in code.
+and the front-matter handling below all stand as drafted.** ✅ **Implemented 2026-09-16** (with `[fn:]`): an optional 7th TSV column `layer` = cn|vl|fn in `data/plate-notes/<idno>.tsv`; Floss's keys are absent from the TEI, so anchors carry them as `(1)` / `(a)`. Injector, verifier (Latin-only forms, [fn:]↔[nt:] pairing, ratio + question-mark parity strip both), builder (`.notecite.floss`, labels "Floss, var. lect." / "Floss, notae"), scan-raw-markers and lemma-inventory all know both. Zero drift on the six existing [cn:] works. ⬜ Still owed from this brief: the title-block / sigla heads and the per-page "Floss's 1853 edition" line.
 Background: `PL122-WITNESSES.md` (the layer's discovery and why `[cn:]` must not be reused
 by default).
 

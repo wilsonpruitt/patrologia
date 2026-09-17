@@ -440,6 +440,10 @@ Floss's, not Migne's** (inside Floss's edition, unsigned, never *EDIT.*), so the
 which would print Floss's words in Migne's voice. Latin: **`[fn: a | …]`** at the key; English: a
 **translated `[nt: …]`** at the same point (Pattern 15 content test: they say something). Page label
 **"Floss, notae"**. Hebrew is carried only where letter-certain; otherwise `[Hebrew]` and a crux.
+⚑ **What a stint meets (implemented 2026-09-16):** the Latin chunk already carries `[vl: 1 | Cod. *…*.]`
+(Floss's variant: Latin-only, write NOTHING for it in the English, and the English follows Floss's
+printed text, never the codex) and `[fn: a | …]` (write a translated `[nt: …]` at the same point, in
+the same order as any `[n:]`). Inside a marker, write `(Hebrew)`, not `[Hebrew]`: markers can't nest brackets.
 
 ### E11. Two printings of PL 122 — the English follows the reading that CONSTRUES (Wilson, 2026-09-16)
 

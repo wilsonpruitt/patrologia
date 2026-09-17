@@ -31,7 +31,7 @@ const normalize = (s) => s
   // of the span being searched — 8950 @0094D « pectus ª [cn: a | In Hebraeo est gahon…] »
   // scored ⚠ NOT-IN-CLEMENTINE against a lemma that is simply `pectus`. A ⚠ only wastes a
   // look, but it wastes it on an artifact of our own apparatus, which is the worst kind.
-  .replace(/\[(?:n|cn|nt|f):[^\]]*\]/g, ' ')  // Migne's inline citations, plate notes, tags
+  .replace(/\[(?:n|cn|vl|fn|nt|f):[^\]]*\]/g, ' ')  // Migne's inline citations, plate notes, tags
   .replace(/\[[0-9]{4}[A-D]?\]/g, ' ') // column anchors inside a span
   // ⚑ Migne's raised note key is apparatus too. Our TEI keeps it (« pectus ª ») where it
   // drops the note itself, so leaving it in made a one-word lemma unsearchable against
@@ -232,7 +232,7 @@ for (const f of files) {
         quotePairs.push([openAt, line.length - 1, 'unclosed']);
       }
     }
-    const notePairs = [...line.matchAll(/\[(?:cn|nt): [^\]]*\]/g)].map(m => [m.index, m.index + m[0].length - 1]);
+    const notePairs = [...line.matchAll(/\[(?:cn|vl|fn|nt): [^\]]*\]/g)].map(m => [m.index, m.index + m[0].length - 1]);
     const spans = quotePairs.map(([a, b, flag]) => ({ a, b, unclosed: flag === 'unclosed' }));
     for (let i = 0; i + 1 < starPositions.length; i += 2) {
       const a = starPositions[i], b = starPositions[i + 1];

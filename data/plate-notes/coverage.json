@@ -1473,6 +1473,20 @@
    "notes_recovered": 1,
    "method": "Plate spot check at chunking (Wilson, 2026-08-19), run 2026-09-16 over all five PL 113 leftovers together, on Gallica ark:/12148/bpt6k5505319w, map f = (column + 1) / 2, confirmed on the printed corners of every leaf read BEFORE the text (f6 = 11/12, f10 = 19/20, f13 = 25/26, f15 = 29/30, f17 = 33/34, f18 = 35/36, f25 = 49/50, f26 = 51/52, f30 = 59/60). Full page width at 1100-1400 px, which is enough to tell a foot note from blank paper and to read display lines; it is NOT a word-level collation, so none of these leaves is recorded in data/plate-reads.json and no [sic:]/[var:] is licensed by it. Every work division in this run falls MID-PAGE, and every one was read. This work: f18 (opening, mid-page), f25 (49/50, where the Franciscan letter begins mid-column), f26 (51/52, where the reply begins mid-column), f30 (59/60, its end at 60A, where Doring Replicae begin mid-page). ONE NOTE FOUND at f25: a letter key (a) after legis in col 50B, note under both columns: (a) Id est in eadem arbore nascentem in qua ramusculus. Editorial prose, so the asterisk/letter layer: [cn: a | ...] plus a translated [nt:]. Recovered to data/plate-notes/8974.tsv; key glyph restored by TEI patch. Coverage is spot, NOT full: 13 of this work leaves were not surveyed, so the work may carry more lettered notes, and the translation stints must check the foot of every leaf they read.",
    "notes_placed": 1
+  },
+  {
+   "idno": "9176",
+   "series": "pl",
+   "volume": 122,
+   "tier": 3,
+   "coverage": "partial",
+   "columns": "0297A-0329B read (chunks 0000-0009); 0329C-0348B NOT yet read",
+   "method": "PL 122 is Floss's 1853 edition: its foot apparatus is FLOSS'S (VARIAE LECTIONES, numbered, and NOTAE, lettered, both restarting per page), not Migne's, so it is injected as [vl:] / [fn:] (layer column in data/plate-notes/9176.tsv), never [cn:]. Recovered by the full collation of leaves n185-n201 (archive patrologiaecurs113unkngoog, leaf = (col+73)/2, corners read first; Princeton YkVOAAAAYAAJ second witness for clipped right columns), records in data/briefs/9176-PLATE-READS-*.json. Key positions the stints did not state were read at the plate at merge (2026-09-16).",
+   "result": "34 rows (23 vl, 11 fn incl. one unplaced vl key at n186). Checked zeros for VARIAE LECTIONES: n191, n192, n195, n196. Unplaced: n186 vl1 (no key visible), n193 vl1 (key not found), n198 vl1 (key not located), n201 vl3 (anchor in col 329C-330, for the 0010 stint).",
+   "why_partial": "Per-page keys have no sequence to verify, and cols 0329C-0348B (chunks 0010-0014) have not been read.",
+   "verified": "2026-09-16",
+   "notes_recovered": 34,
+   "notes_placed": 30
   }
  ],
  "fields": {

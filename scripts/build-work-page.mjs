@@ -258,6 +258,13 @@ function inlineHtml(s, { anchorIds, state }) {
       `<span class="${noteCls(note, 'conj')}" title="${esc(/^[0-9]/.test(n)
         ? `Migne's own note (${n}) at the foot of this page — a conjecture; his printed reading stands in the text`
         : `Migne's own note at the foot of this page, keyed to this word by ${n === '*' ? 'an asterisk' : `the letter (${n})`} — his editorial cross-reference, not a conjecture`)}">${ital(note)}</span>`)
+    // [vl: n | …] / [fn: a | …]: FLOSS'S apparatus in PL 122 (his 1853 edition, which Migne
+    // reprints). Not Migne's voice, so NOT .conj: a class of its own and a visible label,
+    // "Floss, var. lect." / "Floss, notae", so no reader takes it for Migne's (ruling 2026-09-16).
+    .replace(/\[vl: ([0-9]+) \| ([^\]]*)\]/g, (_, n, note) =>
+      `<span class="${noteCls(note, 'floss')}" title="${esc(`Floss's variant reading (${n}) at the foot of this page — the codex's reading; his printed text stands`)}"><span class="floss-label">Floss, var. lect.</span> ${ital(note)}</span>`)
+    .replace(/\[fn: ([a-z]) \| ([^\]]*)\]/g, (_, n, note) =>
+      `<span class="${noteCls(note, 'floss')}" title="${esc(`Floss's note (${n}) at the foot of this page — the editor's, not Migne's`)}"><span class="floss-label">Floss, notae</span> ${ital(note)}</span>`)
     .replace(/\*([^*]+)\*/g, '<i>$1</i>')
     // wrap runs of Hebrew (incl. maqaf/niqqud, U+0590–U+05FF) for correct RTL shaping
     .replace(/[֐-׿]+(?:\s+[֐-׿]+)*/g, m => `<span class="hebrew" dir="rtl" lang="he">${m}</span>`), s);
@@ -549,6 +556,10 @@ css += `
    flow and must wrap, exactly as .fonscite does below.
    Run scripts/scan-nowrap-apparatus.mjs to check the class is clear. */
 .notecite.wraps { white-space: normal; }
+/* Floss's apparatus in PL 122 ([vl:] variae lectiones, [fn:] notae): the EDITOR's, not
+   Migne's, so it is labelled in words and kept off the maroquin that marks Migne's own notes. */
+.notecite.floss { border-bottom: 1px dotted var(--encre-douce); cursor: help; }
+.notecite.floss .floss-label { font-variant: small-caps; letter-spacing: .03em; }
 /* Migne's foot-of-page conjecture notes ([cn: …]), recovered from the plate: his
    apparatus, so it sits in the .notecite family — but his CONJECTURES must not read
    like his CITATIONS, so this one carries the maroquin and a dotted rule. It appears

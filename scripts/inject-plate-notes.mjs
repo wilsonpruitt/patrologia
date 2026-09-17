@@ -73,6 +73,18 @@ const MARKER_ASTERISK = /\s*(\*)(?![\w*])/;
 const MARKER_LETTER = /\s*([\u00aa\u1d43\u1d47\u1d9c\u1d48\u1d49])(?![\w])/;
 const LETTER_OF = { '\u00aa': 'a', '\u1d43': 'a', '\u1d47': 'b', '\u1d9c': 'c', '\u1d48': 'd', '\u1d49': 'e' };
 
+// ⭐ FLOSS'S TWO LAYERS (PL 122, Wilson 2026-09-16; data/briefs/PL122-VARIAE-LECTIONES-RULING.md,
+// translation-style.md E10). PL 122 reprints Floss's 1853 edition, whose apparatus is HIS, not
+// Migne's, so it must not wear [cn:]. An optional 7th TSV column `layer` says which:
+//   cn (default) — Migne's own note, exactly as before this column existed
+//   vl — Floss's VARIAE LECTIONES, keyed by a raised NUMBER restarting per page → [vl: 1 | …], Latin-only
+//   fn — Floss's NOTAE, keyed by a raised LETTER restarting per page → [fn: a | …], paired with an English [nt:]
+// Both keys are ABSENT from our TEI, so the anchor carries them parenthesised, `(1)` / `(a)`, and they
+// are cut out and the halves searched as one phrase, like Migne's numbers. Neither layer runs a
+// sequence: the numbering restarts on every page.
+const LAYERS = new Set(['cn', 'vl', 'fn']);
+const MARKER_FN = /\s*\(([a-z])\)/;
+
 // ── normalisation for MATCHING ONLY. The plate reader transcribes Migne's ligatures
 // (præsentiæ); the TEI spells them out (praesentiae). Neither is wrong and neither is
 // rewritten — we only need them to compare equal while we look for the anchor.
@@ -86,7 +98,7 @@ const fold = s => s
 // Everything in brackets is apparatus that can fall in the MIDDLE of an anchor phrase
 // ([1148A] column marks, [n: …] citations, an earlier [cn: …]) — invisible to the plate
 // reader, so it must be invisible to the search too.
-const APPARATUS = /\[(?:[0-9]{3,5}[A-D]?|n: [^\]]*|nt: [^\]]*|f: [^\]]*|cn: [^\]]*)\]/g;
+const APPARATUS = /\[(?:[0-9]{3,5}[A-D]?|n: [^\]]*|nt: [^\]]*|f: [^\]]*|cn: [^\]]*|vl: [^\]]*|fn: [^\]]*)\]/g;
 // Whitespace is dropped from the view entirely, not merely collapsed: Migne sets French
 // spacing before ; : ? » and the TEI does not, and an anchor read off the plate carries
 // his spacing. Matching on letters alone removes a whole class of false misses that have
@@ -106,20 +118,27 @@ const rows = [];
 const lines = fs.readFileSync(tsvPath, 'utf8').split('\n').filter(l => l.trim());
 const header = lines[0].split('\t');
 const want = ['page', 'col', 'note_no', 'note_text', 'anchor_words', 'anchor_in_our_latin'];
-if (want.some((w, i) => header[i] !== w)) {
-  console.error(`${path.relative(ROOT, tsvPath)}: header must be ${want.join(' / ')}`);
+const hasLayer = header[6] === 'layer';
+if (want.some((w, i) => header[i] !== w) || (header.length > 6 && !hasLayer)) {
+  console.error(`${path.relative(ROOT, tsvPath)}: header must be ${want.join(' / ')} [/ layer]`);
   process.exit(1);
 }
+const layerErrors = [];
 for (const [i, line] of lines.slice(1).entries()) {
-  const [page, col, note_no, note_text, anchor_words, anchor_in_our_latin] = line.split('\t');
-  rows.push({ line: i + 2, page, col, note_no, note_text, anchor: anchor_words || '', found: (anchor_in_our_latin || '').trim() });
+  const [page, col, note_no, note_text, anchor_words, anchor_in_our_latin, layerCell] = line.split('\t');
+  const layer = (hasLayer && (layerCell || '').trim()) || 'cn';
+  if (!LAYERS.has(layer)) layerErrors.push(`line ${i + 2}: layer "${layer}" is not cn / vl / fn`);
+  else if (layer === 'vl' && !/^[0-9]+$/.test(note_no)) layerErrors.push(`line ${i + 2}: a [vl:] key is Floss's raised number, not "${note_no}"`);
+  else if (layer === 'fn' && !/^[a-z]$/.test(note_no)) layerErrors.push(`line ${i + 2}: an [fn:] key is Floss's raised letter, not "${note_no}"`);
+  rows.push({ line: i + 2, page, col, note_no, note_text, anchor: anchor_words || '', found: (anchor_in_our_latin || '').trim(), layer });
 }
+if (layerErrors.length) { for (const e of layerErrors) console.error(`  ⛔ ${e}`); process.exit(1); }
 
 // ── sequence check. The numbers run consecutively down the volume, so a GAP means a
 // page was cropped short or a note was missed — this is the detector that caught a
 // narrow-crop losing 3 of the first 10 on PL 202. It reports; it never fixes.
 const seqErrors = [];
-const nums = rows.map(r => r.note_no).filter(Boolean);
+const nums = rows.filter(r => r.layer === 'cn').map(r => r.note_no).filter(Boolean);
 for (const n of nums) if (!NOTE_NO.test(n)) seqErrors.push(`note_no "${n}" is not a Migne note number`);
 const plain = nums.filter(n => /^[0-9]+$/.test(n)).map(Number);
 const spans = nums.filter(n => /^[0-9]+-[0-9]+$/.test(n));
@@ -145,14 +164,16 @@ const files = fs.readdirSync(latDir).filter(f => /^\d{4}\.md$/.test(f)).sort();
 const bodies = new Map();
 for (const f of files) {
   const raw = fs.readFileSync(path.join(latDir, f), 'utf8');
-  bodies.set(f, raw.replace(/ ?\[cn: [^\]]*\]/g, ''));
+  bodies.set(f, raw.replace(/ ?\[(?:cn|vl|fn): [^\]]*\]/g, ''));
 }
 
 const injected = [], skipped = [], trimmed = [], headPlaced = [];
 for (const r of rows) {
   if (!/^yes/i.test(r.found)) { skipped.push({ ...r, why: 'anchor not in our Latin (per the plate reader)' }); continue; }
-  const isLetterKey = /^[a-z]$/.test(r.note_no);
-  const m = r.note_no === '*' ? r.anchor.match(MARKER_ASTERISK)
+  // isLetterKey is MIGNE'S letter layer only, whose glyph our TEI keeps; Floss's fn letters are not in it.
+  const isLetterKey = r.layer === 'cn' && /^[a-z]$/.test(r.note_no);
+  const m = r.layer === 'fn' ? r.anchor.match(MARKER_FN)
+          : r.note_no === '*' ? r.anchor.match(MARKER_ASTERISK)
           : isLetterKey ? r.anchor.match(MARKER_LETTER)
           : r.anchor.match(MARKER_IN_ANCHOR);
   if (!m) { skipped.push({ ...r, why: 'anchor does not show Migne\'s (n) marker, so the note has no place to attach' }); continue; }
@@ -226,7 +247,7 @@ for (const r of rows) {
   // one note fewer than the run before it. The TSV keeps the reader's words verbatim; the
   // marker carries them in parentheses.
   const noteText = r.note_text.trim().replace(/\[/g, '(').replace(/\]/g, ')').replace(/\s+/g, ' ');
-  const marker = ` [cn: ${r.note_no} | ${noteText}]`;
+  const marker = ` [${r.layer}: ${r.note_no} | ${noteText}]`;
   bodies.set(f, body.slice(0, orig) + marker + body.slice(orig));
   injected.push({ ...r, file: f });
 }
@@ -239,6 +260,7 @@ if (!DRY) {
     source: `data/plate-notes/${idno}.tsv`,
     rows: rows.length,
     injected: injected.length,
+    ...(rows.some(r => r.layer !== 'cn') && { byLayer: Object.fromEntries([...LAYERS].map(l => [l, injected.filter(r => r.layer === l).length])) }),
     trimmedAnchor: trimmed.length,
     headAnchored: headPlaced.length,
     skipped: skipped.length,
