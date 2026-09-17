@@ -89,6 +89,11 @@ Readers' reports are in `data/briefs/PL122-BLIND-READ-R*.md`.
   day" (Douay's "The next day" hid the gloss); 0311A *debitores sumus* → "all of us men"; 0314C *conformans eos* →
   "conforming those". **Rejected:** 0310B *Agnus dicitur Christus Dei* as "The Christ of God is called Lamb"; the split
   *Agnus … Dei* against the lemma *Ecce Agnus Dei* supports the reading as it stands.
+- **R4 (0009–0011):** applied 0327B–C, the solstice figure misparsed: *luce inchoante crescere … tenebris autem
+  decrescere natus sit* → "born with the light beginning to increase, but the darkness to decrease" (the infinitives go
+  with *inchoante*, not *natus*: Christ is born as the days lengthen, John as they shorten). 0326D *audit cum* stays open
+  for a better witness (already logged). R4 adds: if a witness still shows *cum*, fire `[cj: *cum*; read *eum*, "him"]`.
+  0010 and 0011 clean.
 
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
