@@ -9707,6 +9707,202 @@
      "found": "END OF TEXT CONFIRMED: Burgos's reply runs col 59 lines 1-17 ('... esse simpli-') and col 60 lines 1-15, ending 'Vale, frater in Domino: et meliora charismata semper aemulare, etc.' A full-width rule follows, then 'INCIPIT PROLOGUS IN Replicas defensivas Postillae ... a ... fratre Matthia THORING ...' (Doring), which is in no file we hold and out of scope. The apparent 59A -> 60A band gap in our chunks is this layout, not lost text. CHECKED ZERO at the foot (no note on the page). 60A: Gallica 'Scriptura divina. semper', archive and twin 'divina, semper' -- press variant or worn comma, no patch, English follows the comma. No other divergence."
     }
    ]
+  },
+  "9176": {
+   "series": "pl",
+   "volume": 122,
+   "scan": "archive.org patrologiaecurs113unkngoog page images, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg, 4309x6684, one fetch per leaf, cropped locally with PIL (column halves at 0.32x, single lines at 0.6-2.0x). No crop crossed the centre gutter. Leaves and crops deleted after use.",
+   "page_map": "leaf = (odd column + 73) / 2 -- confirmed by printed corners on every leaf n186-n201 across all three stints (clipped right corners on n188/n190/n192/n194/n196/n198/n200 read on Princeton).",
+   "second_witness": "Google Books Princeton YkVOAAAAYAAJ, pg=PA<odd col>, 575 px; word-level only per PL122-WITNESSES.md. Never q2mQHvy4_usC (it IS the archive photographs).",
+   "note": "Merged 2026-09-16 from stints 0001-0003, 0004-0006, 0007-0009 (data/briefs/9176-PLATE-READS-*.json, which also hold the VARIAE LECTIONES and NOTAE arrays for injection). Chunk 0000 (register pilot) read heads/feet only and records no range here. Stint-scoped plate reads for 9176 chunks 0001-0003 (bands 0300C-0309D). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES (per brief) and a 'notae' array for a SECOND foot layer headed NOTAE that the brief did not anticipate (see its _note). | Stint-scoped plate reads for 9176 chunks 0004-0006 (bands 0309D-0320C). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES per leaf (drafted [vl:] marker NOT approved; nothing injected) and a separate record of the lettered NOTAE layer found on these leaves. | Stint-scoped plate reads for 9176 chunks 0007-0009 (bands 0320C-0329B). Merge into data/plate-reads.json works.9176.reads[]. variae_lectiones arrays are recorded per the PL122 ruling draft; NOTHING was injected into the Latin and no apparatus marker is in the English.",
+   "reads": [
+    {
+     "from": "0300C",
+     "to": "0300D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n186",
+     "source": "archive n186. CALIBRATION: corners 299 (inked blotchy) / 300 (clean), head 'JOANNIS SCOTI'. Crops: right column lower half at 0.3x; lines 'plenitudinis Christi additur quod ait ;' and 'hoc est in toto homine' at 0.6x; foot at 0.4x and 1.0x. Only the part of col 300 from 'in qua purae veritatis' (end of chunk 0000) to the foot was collated by this stint.",
+     "found": "Running text 'Deum nemo vidit unquam. Ad cumulum ... Verbo vero incarnato domi-' matches the twin word for word. Migne prints em-dashes round 'ipsius namque contemplatio vera est beatitudo' (twin '--'). Punctuation only: 'hoc est in toto' without the twin's comma; 'quod ait ;'. Band D printed beside 'solum se ipsum aperuit', twin anchor two words earlier (band arithmetic, not reported). No divergence filed.",
+     "stint": "0001-0003"
+    },
+    {
+     "from": "0301A",
+     "to": "0302D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n187",
+     "source": "archive n187. CALIBRATION: corners 301 / 302, head 'COMMENT. IN EVANG. SEC. JOAN.' Crops: all four column halves at 0.32x; 'intellectuum' line at 0.7x; 'in sinu   Patris' at 0.7x and 2.0x; foot note at 0.9x. Princeton PA301 right column at 2.2x.",
+     "found": "Both columns collated word by word. TWO DIVERGENCES filed: 0302B plate 'intellectuum' (twin 'intellectum'), Princeton agrees; 0302C plate 'in sinu' + one-letter blank (twin 'sinum'), Princeton shows the same blank. Confirmed as printed: Floss's bracketed '[dicatur de]' (0301C); 'possidebunt' with singular 'unusquisque' (0302D); 'diligetur' at 0301D. Scripture sites confirmed for [var:]: 0300D (n186) Matt 11:27 'Nemo vidit Filium'; 0302A 1 John 3:2 'Scimus autem quia, cum ipse apparuerit, videbimus eum'.",
+     "stint": "0001-0003"
+    },
+    {
+     "from": "0303A",
+     "to": "0304D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n188",
+     "source": "archive n188. CALIBRATION: left corner 303, head 'JOANNIS SCOTI'; right corner NOT on the archive image (margin clipped), read '304' on Princeton PA303. Crops: left column halves at 0.32x; right column halves re-cropped to the clipped edge at 0.32x. Princeton PA303 right column at 2.2x, used to read the clipped line ends of the whole of col 304.",
+     "found": "Both columns collated word by word (col 304 line ends on Princeton). No divergence. Confirmed as printed: 'Helias es tu? Et dixit: Non sum.'; 'Propheta es tu? Respondit: Non.'; 'Dixerunt ergo ei ; Quis es?'; 'Ego sum vox clamantis in deserto.'; 'Ipse enim vocat ea, quae sunt, tanquam quae non sunt' (0304D, the reversal of Rom 4:17 is on the plate, [var:] fired); 'Judaea enim confessio interpretatur' with raised key a (NOTAE, below).",
+     "stint": "0001-0003"
+    },
+    {
+     "from": "0305A",
+     "to": "0306D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n189",
+     "source": "archive n189. CALIBRATION: corners 305 / 306, head 'COMMENT. IN EVANG. SEC. JOAN.' Crops: four column halves at 0.32x; Greek lines at 0.7x and 1.2x; foot at 0.8x; col 306 foot at 0.7x. Princeton PA305 left column Greek at 3.0x, right column foot at 2.4x.",
+     "found": "Both columns collated. TWO DIVERGENCES filed: 0305B plate 'φωσφόρος' (twin 'Φόσφορος'), Princeton agrees (letter-level Greek, flagged); 0306D plate OMITS the whole line 'est, non incongrue corrigiam calceamenti ejus' after 'caro Verbi', Princeton identical (word-level, seven words). Confirmed as printed: 'quis vos liberabit a superventura ira' (0305C, [var:] fired); 'Medius autem vestrum stat' (0306A, [var:] fired); 'in divina disputatione et praedicatione' (0306A); 'Et qui missi fuerunt' (0305C).",
+     "stint": "0001-0003"
+    },
+    {
+     "from": "0307A",
+     "to": "0308D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n190",
+     "source": "archive n190. CALIBRATION: left corner 307 (last digit blotched, '30?'), head 'JOANNIS SCOTI'; right corner clipped off the archive image; Princeton PA307 head read FIRST: '307' / '308'. Crops: left column halves at 0.32x; right column halves to the clipped edge at 0.32x. Princeton PA307 right column at 2.3x for all of col 308's line ends.",
+     "found": "Both columns collated word by word (col 308 line ends on Princeton). No divergence. Confirmed as printed: 'Lex et prophetae usque ad Joannem, et ab eo regnum caelorum' (0308B, [var:] fired); 'ad integram plenissimamque divinae speculationis humana natura introducetur' (0308A, no noun for the adjectives, crux); 'tres τελεταί ... altera συνάξεως' with raised key 1; 'obtinet' with key 2; 'Bethania interpretatur domus obedientiae' key a; 'Jerusalem quippe visio pacis interpretatur' key b.",
+     "stint": "0001-0003"
+    },
+    {
+     "from": "0309A",
+     "to": "0309D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n191",
+     "source": "archive n191. CALIBRATION: corners 309 / 310, head 'COMMENT. IN EVANG. SEC. JOAN.' Crops: left column halves at 0.32x; 'remota' line at 0.7x; whole foot at 0.45x; right column at 0.18x ONLY to locate the NOTAE key (col 310 is not this stint's range and was not collated). Princeton PA309 left column at 3.0x.",
+     "found": "Col 309 collated word by word. ONE DIVERGENCE filed: 0309C plate 'remota' (twin 'remote'), Princeton agrees (single letter, flagged). Confirmed as printed: 'Et ab eo regnum caelorum' (0309D, [var:] fired). Col 310 NOT collated.",
+     "stint": "0001-0003"
+    },
+    {
+     "from": "0309D",
+     "to": "0310D",
+     "depth": "full-collation",
+     "date": "2026-09-16",
+     "page": "n191",
+     "corners_as_read": "309 / 310; running head COMMENT. IN EVANG. SEC. JOAN.",
+     "source": "archive leaf n191, both columns, 5 strips each; foot cropped full width.",
+     "found": "Collated word by word from 'Altera die' (0309D) to the foot of col 310. THREE DIVERGENCES filed in 9176-PENDING-TEI-PATCHES-0004.md: 0309D stop after 'venientem ad se.'; 0310B 'immolatus est, ideoque'; 0310D 'omnes vivificantur' (twin 'vivificatur'). No VARIAE LECTIONES rule. A NOTAE block (Floss's lettered notes) begins at the foot, key a (see notae).",
+     "stint": "0004-0006"
+    },
+    {
+     "from": "0311A",
+     "to": "0312D",
+     "depth": "full-collation",
+     "date": "2026-09-16",
+     "page": "n192",
+     "corners_as_read": "311 (archive) / 312 (Google PA311; clipped on archive); running head JOANNIS SCOTI",
+     "source": "archive leaf n192 col 311 in full and col 312 left ~80%; Princeton PA311 col 312 in full at 3x.",
+     "found": "No divergences in the running text. No VARIAE LECTIONES rule. NOTAE: note a continued; key b set after 'mente, non dente, comedimus' (0311B).",
+     "stint": "0004-0006"
+    },
+    {
+     "from": "0313A",
+     "to": "0314D",
+     "depth": "full-collation",
+     "date": "2026-09-16",
+     "page": "n193",
+     "corners_as_read": "313 / 314; running head COMMENT. IN EVANG. SEC. JOAN.",
+     "source": "archive leaf n193 both columns; Princeton PA313 for the foot and for col 313B-C at 3x.",
+     "found": "ONE DIVERGENCE filed: 0314D the plate prints 'nisi fuerit Deus cum eo »' with no stop (both witnesses). Head 'FRAGMENTUM II. / CAP. III, 1 — IV, 28.' confirmed. Floss's lacuna dots after 'tribuitur.' counted by ink blobs: 10 + 17, matching the twin. 'Hierosolomis' (0314D) is printed. VARIAE LECTIONES rule PRESENT, one note; its raised key was NOT located in the running text on either witness (see variae_lectiones).",
+     "stint": "0004-0006"
+    },
+    {
+     "from": "0315A",
+     "to": "0316D",
+     "depth": "full-collation",
+     "date": "2026-09-16",
+     "page": "n194",
+     "corners_as_read": "315 (archive) / 316 (Google PA315; clipped on archive); running head JOANNIS SCOTI",
+     "source": "archive leaf n194 col 315 in full and col 316 left ~80%; Princeton PA315 col 316 in full at 3x, and its foot.",
+     "found": "ONE DIVERGENCE filed: 0316B twin 'nis quis', plate 'nisi quis' (Princeton; archive clipped at that point). 0316A the plate prints '[re]nasci' with Floss's key 1: the brackets are his supplement, not a digitization artifact. 'ἄνωθεν' printed twice at 0315A. VARIAE LECTIONES: one note. No NOTAE on this page.",
+     "stint": "0004-0006"
+    },
+    {
+     "from": "0317A",
+     "to": "0318D",
+     "depth": "full-collation",
+     "date": "2026-09-16",
+     "page": "n195",
+     "corners_as_read": "317 / 318; running head COMMENT. IN EVANG. SEC. JOAN.",
+     "source": "archive leaf n195 both columns in full (left margin of col 317 ink-blotched, legible).",
+     "found": "THREE DIVERGENCES filed: 0318B stop after 'mysteria.'; 0318D 'Inspice ergo' (twin 'erga'); 0318D lemma 'et non creditis quomodo' without the twin's comma. Also 0318D an inverted opening guillemet (plate sets » before 'Sermo, quem locutus sum'), crux only. No VARIAE LECTIONES rule and no NOTAE: checked zero (agrees with the pilot's foot read of n195).",
+     "stint": "0004-0006"
+    },
+    {
+     "from": "0319A",
+     "to": "0320C",
+     "depth": "full-collation",
+     "date": "2026-09-16",
+     "page": "n196",
+     "corners_as_read": "319 (archive) / 320 (Google PA319; clipped on archive); running head JOANNIS SCOTI",
+     "source": "archive leaf n196 col 319 in full and col 320 bands A-C left ~80%; Princeton PA319 col 320 A-C in full at 3x and the page foot.",
+     "found": "No divergences to the end of the range ('ambulemus ».' at 0320C). 'quonium' (0319D) is printed on the plate. 'nisi in mortem' (0320C, Rom 6:4) is printed. No VARIAE LECTIONES, no NOTAE: checked zero.",
+     "stint": "0004-0006"
+    },
+    {
+     "from": "0320C",
+     "to": "0320D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n196",
+     "source": "archive n196, corners 319 / [320 clipped], running head JOANNIS SCOTI. Right column from the lemma 'Sic enim Deus dilexit mundum' to the foot, 0.4-0.6x. Line-ends lost to the archive clip read on Princeton PA319 (corners 319 / 320) at 2.6x.",
+     "found": "CHECKED ZERO divergences against our twin in 0320C-D (both copies). Foot: no VARIAE LECTIONES rule on this page.",
+     "stint": "0007-0009"
+    },
+    {
+     "from": "0321A",
+     "to": "0322D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n197",
+     "source": "archive n197, corners 321 / 322, running head COMMENT. IN EVANG. SEC. JOAN. Both columns read top to foot in six 0.5x segments each; zooms at 0.8x on 0322C line and the foot, 1.2x on the Greek of the 0322D lemma. Princeton PA321 (corners 321 / 322) at 2.6x on 0322C.",
+     "found": "ONE DIVERGENCE: 0322C plate 'ibique demoratur et purgat' where our twin has 'demorabatur'; confirmed on Princeton PA321; patch filed, English renders the plate. Otherwise word for word as our twin, including 'homo κόσμος vocatur' / 'Κόσμος quippe graece ornatus', the 0322D lemma 'in Αἰνὼν juxta Saleim' (Greek in Greek type, key 1 after it) and 'In Aennon, hoc est in aquis; enos enim hebraice aqua dicitur'. Floss's NOTAE keys a (after 'confessio interpretatur', 0322B) and b (after 'in aquis', 0322D) are on the plate and absent from the twin.",
+     "stint": "0007-0009"
+    },
+    {
+     "from": "0323A",
+     "to": "0324D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n198",
+     "source": "archive n198, corners 323 / [324 clipped], running head JOANNIS SCOTI. Left column full in six 0.5x segments plus 0.7-0.8x zooms hunting note key 1; right column read on archive where visible and IN FULL on Princeton PA323 (three 2.6x crops, corner 324 on its head).",
+     "found": "CHECKED ZERO divergences against our twin across 0323A-0324D. Confirmed Floss's brackets 'Non[dum]' (0323B) as printed. The plate carries VL keys 2 ('contulisse') and 3 ('baptizatis') and NOTAE key a ('famam', 0323A); VL key 1 could not be located on either copy (see variae_lectiones).",
+     "stint": "0007-0009"
+    },
+    {
+     "from": "0325A",
+     "to": "0326D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n199",
+     "source": "archive n199, corners 325 / 326, running head COMMENT. IN EVANG. SEC. JOAN. Both columns in six 0.5x segments; 0.8x zooms on 0326A line 1, 0326C 'ab eo' / 'quantus', 0326D last line, and the foot. Princeton PA325 at 2.6x on 0326A head and the foot.",
+     "found": "ONE PROPOSED PATCH: 0326D plate 'gaudio' where our twin has 'gaudi,' (one copy; filed). TWO NOTED, NOT PATCHED: 0326A lemma sets 'nisi fuerit e' with no visible i on BOTH copies (twin 'ei'); 0326D 'audit cum' is c/e-undecidable on this copy (the same copy prints 'in cum' for twin-correct 'eum' at 0329A). Confirmed as printed: 0326C 'et tu dicis, quia missus est ante illum' (third person, logged as crux).",
+     "stint": "0007-0009"
+    },
+    {
+     "from": "0327A",
+     "to": "0328D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n200",
+     "source": "archive n200, corners 327 / [328 clipped], running head JOANNIS SCOTI. Left column full in six 0.5x segments plus a 1.3x zoom on the 0327C lemma; right column on archive where visible and IN FULL on Princeton PA327 (three 2.6x crops; corners 327 / 328).",
+     "found": "CHECKED ZERO transcription divergences against our twin. NOTED, NOT PATCHED: 0327C lemma prints 'Qui de ursum venit' (gap for the second s; the gloss two lines on prints 'desursum' cleanly); single letter, one copy, crux only. Confirmed as printed: 0327B 'Putatis majorem [me]' (Floss's conjecture, VL key 1), 0327D lemma 'Qui est de terra, terra est' and 'Terra es et in terram ibis', 0328B 'recte credendus est' (VL key 2 on PA327).",
+     "stint": "0007-0009"
+    },
+    {
+     "from": "0329A",
+     "to": "0329B",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n201",
+     "source": "archive n201, corners 329 / 330, running head COMMENT. IN EVANG. SEC. JOAN. Left column bands A-B in 0.5x segments (read on through the start of 0329C to the stint boundary 'Quem enim misit Deus'); 0.8-1.0x zooms on line 2 and the foot.",
+     "found": "ONE PROPOSED PATCH: 0329A plate 'unigeniti Filii Dei' where our twin has 'Filius' (clean, one copy). Confirmed as printed: 'a se ipsis [ad] interitum' (Floss's bracket), lemma 'signavit quia Deus verax est' and the Greek-derived 'Quia Deus verus est'. VL key 1 after 'credituri sunt'.",
+     "stint": "0007-0009"
+    }
+   ]
   }
  }
 }

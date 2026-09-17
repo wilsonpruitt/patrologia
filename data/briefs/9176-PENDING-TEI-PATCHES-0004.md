@@ -69,7 +69,12 @@ Opened by: stint 0004–0006, 2026-09-16.
 - **English:** "Consider therefore the force of the words"
 - **Proposed patch:** find `Inspice\nerga vim verborum` → replace `Inspice\nergo vim verborum`
 
-## 0318D — lemma punctuation, John 3:12
+## ⛔ WITHDRAWN (E11, re-adjudicated 2026-09-16) — 0318D — lemma punctuation, John 3:12
+
+The twin's comma after *creditis* is the reading that construes (*and you believe not: how, if…*);
+the plate without it does not. Under E11 no patch goes toward the printing that doesn't construe, and the
+English now follows the twin.
+
 
 - **Twin:** `<hi>dicebam\nvobis, et non creditis, quomodo, si dicam vobis caeles…`
 - **Plate (n195, right col, foot):** `dicebam, vobis, et non creditis quomodo, si dicam vobis cae-|lestia, credetis?` — **no comma after *creditis***. A mark after *dicebam* is also visible but faint and may be a speck; it is **not** proposed.

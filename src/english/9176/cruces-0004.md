@@ -130,9 +130,9 @@ open *Sermo, quem locutus sum*; the twin normalizes to `«`, and the English fol
 ## Col 0318D (chunk 0006) — John 3:12 lemma punctuation
 
 The plate prints *dicebam, vobis, et non creditis quomodo, si dicam vobis caelestia, credetis?*,
-with no comma after *creditis* (twin has one). Rendered as printed: "*I was telling you, and you
-believe not how, if I shall tell you heavenly things, will you believe?*" The English reads
-awkwardly because the plate runs *creditis* straight into *quomodo*; not repaired. The faint mark
+with no comma after *creditis* (twin has one). ⚑ **E11 (2026-09-16):** the twin's comma is the
+reading that construes, so the English follows it: "*I was telling you, and you believe not: how, if I
+shall tell you heavenly things, will you believe?*" Patch withdrawn; the plate's form is recorded here. The faint mark
 after *dicebam* was not trusted and is not reflected.
 
 ## Col 0319C (chunk 0006) — *humanatio*

@@ -25,6 +25,11 @@ copy-text was a later, corrected printing of PL 122 with the same lineation. Sam
 PL 114 "two printings" finding in `CLAUDE.md`. So these patches bring our Latin to the printing we
 read, and a human should decide whether that is the printing we want the Latin to follow.
 
+⚑ **Re-adjudicated under E11, 2026-09-16:** the paragraph above names *remote* and the Greek as
+TEI-better, but the entries below show the plate construing at both: *remota* is needed for the
+ablative absolute, and φωσφόρος is the correct Greek, where the twin's Φόσφορος has an omicron. Both patches
+STAND. Only 0302C and 0306D (already withdrawn) were printing differences where the TEI construes.
+
 ---
 
 ## 0302B — our twin reads `intellectum`, the plate reads `intellectuum`

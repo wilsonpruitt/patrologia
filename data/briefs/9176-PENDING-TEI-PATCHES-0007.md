@@ -19,6 +19,11 @@ Second witness: Google Books Princeton `YkVOAAAAYAAJ`, PA319/PA321/PA323/PA325/P
 characters short of the right margin of cols 320, 324, 328). Those columns' line-ends were
 collated on the Princeton copy instead; see the plate-reads JSON.
 
+⚑ **Re-adjudicated under E11, 2026-09-16:** all three proposals STAND, since the plate is the reading that construes
+at each. The three noted sites fit E11 as already handled: the English follows the TEI's *ei* (0326A)
+and *desursum* (0327C; TEI checked, it prints *desursum*), and 0326D *cum* has no construing reading
+printed at that site, so it stays literal.
+
 ---
 
 ## 0322C: our twin reads `demorabatur`, the plate reads `demoratur` — PROPOSED

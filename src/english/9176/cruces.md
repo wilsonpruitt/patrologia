@@ -25,6 +25,38 @@ carried dot for dot.
   foot of leaves n185–n186 (the map, the apparatus) and one column region, **not the running
   text column by column** — so no column of this work is recorded in `plate-reads.json`, and
   under the ratchet no marker may stand. Candidates are logged below for the collation stint.
+  *(Chunk 0000 only. Cols 0300C–0329B are now read in full, see the merge section below.)*
+
+## Merge, chunks 0001–0009 (2026-09-16)
+
+This section is a merge layer. The three stints' own records stay beside it, unedited:
+`cruces-0001.md` (cols 0300D–0309D), `cruces-0004.md` (0309D–0320C) and `cruces-0007.md`
+(0320C–0329B). What follows is only what had to be settled across them.
+
+- **Plate reads.** All eighteen read ranges (leaves n186–n201, cols 0300C–0329B, all `full`) are merged
+  into `data/plate-reads.json` under `works.9176`. `plate-gate 9176` passes: every `[var:]` in
+  0001–0009 stands on a column that was read. Chunk 0000 still records no range.
+- **Vocabulary holds across the stints.** It was checked at merge by a per-chunk count:
+  *theoria* italic; inhumanation / incarnation / humanation kept apart (E4, with *humanatio* added
+  2026-09-16); Elias, Isaias, latchet and forerunner throughout (no Elijah, Isaiah, strap, precursor);
+  Pasch (no Passover); Holy Spirit (no Holy Ghost). Nothing was regularised.
+- **E4 additions ratified by Wilson:** *theorica scientia* → "theoric knowledge" (0004),
+  *humanatio* → "humanation" (0006).
+- **E11, two printings.** 0302C *sinum* and 0306D, the line the scanned copies drop, both follow the
+  TEI (which construes), and their patches are withdrawn. **Re-adjudicated at merge:** of the 14
+  remaining pending patches, 13 stand because the plate is the reading that construes or the two
+  readings are neutral. **0318D (John 3:12, the comma after *creditis*) is withdrawn.** The twin's
+  comma construes, so the English in 0006 now reads "and you believe not: how, if…". Stint 1's
+  header lumped *remote* and the Greek in with the TEI-better sites, but its own entries show the
+  plate construing at both (*remota*, φωσφόρος). Those patches stand.
+- **E12.** 0319D *quonium* is rendered "that" with a crux and no marker, as already written.
+- **E10, the NOTAE layer.** All three stints found it independently: n188, n190, n191 (stint 1);
+  n191–n193 (stint 2); three more in 0007–0009. These are Floss's lettered prose notes and go to
+  `[fn:]` + `[nt:]`. **Not yet injected.** The texts are in `data/briefs/9176-PLATE-READS-*.json`
+  (`notae` / `floss_notae`), next to the `variae_lectiones` owed to `[vl:]`.
+- **Open for a human look (unchanged):** 0326D *audit cum* (c/e can't be settled on the archive copy; HathiTrust
+  would settle it); 0313B *humana natura* with Floss's unplaced *forte leg. humanae naturae?*;
+  0323B VL note ¹ with no visible key; n186 *Ariopagitam* / *Ariovagitam*.
 
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
