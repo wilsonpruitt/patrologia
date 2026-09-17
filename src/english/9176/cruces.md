@@ -83,6 +83,12 @@ Readers' reports are in `data/briefs/PL122-BLIND-READ-R*.md`.
   "interprets *waters*". **Crux, no marker:** 0319C *Dominum surrexisse in caelum* is carried as "rose into heaven",
   though the next sentences speak only of raising his eyes (*suspexisse* would fit). The column was collated at the plate
   (n196) with no divergence, so the plate prints *surrexisse*; a conjecture would be ours, and none is fired.
+- **R2 (0003–0005):** applied **0316C, a dropped *non*** (*spiritum … non perceperit* → "and do not perceive the spirit");
+  0312C *ipsum depellit* → "that Christ himself is a rational mind" (the next sentence's *ipsius anima* makes *ipsum*
+  Christ); 0316C *Sed et hoc dicendum* → "But this also must be said" (no *ad*); 0310A lemma *Altera die* → "On the second
+  day" (Douay's "The next day" hid the gloss); 0311A *debitores sumus* → "all of us men"; 0314C *conformans eos* →
+  "conforming those". **Rejected:** 0310B *Agnus dicitur Christus Dei* as "The Christ of God is called Lamb"; the split
+  *Agnus … Dei* against the lemma *Ecce Agnus Dei* supports the reading as it stands.
 
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
