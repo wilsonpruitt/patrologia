@@ -38,6 +38,17 @@
 Open rulings carried: verse lineation · book-title head extension (now also needed for 9176's
 title block) · PL 113 CC gaps.
 
+### ⏳ IN FLIGHT at session end (2026-09-16, Wilson's go; ONE wave only, no follow-ups)
+Wilson approved launching before the `[vl:]` ruling. Three Opus stints on **9176 chunks
+0001–0003, 0004–0006, 0007–0009**, plates read inline (~660K). Each writes, UNCOMMITTED:
+`src/english/9176/<chunk>.md`, `src/english/9176/cruces-<first>.md`,
+`data/briefs/9176-PLATE-READS-<first>.json` (incl. a `variae_lectiones` array — **nothing
+injected**, marker unapproved), `data/briefs/9176-PENDING-TEI-PATCHES-<first>.md`.
+**Next session: check disk for all four files per stint (a stalled agent can leave a hole the
+verifier won't see), run `verify-english 9176`, merge plate reads into `data/plate-reads.json`,
+fold cruces files, commit.** Still owed after that: 0010–0014, the three fragments, the `[vl:]`
+ruling + implementation, the blind read.
+
 ---
 
 ## (was: START HERE) 2026-09-16 — ERIUGENA, FOUR WORKS DONE MAXIMALLY · THEN A QUEUE OF OTHER VARIETIES
