@@ -75,3 +75,7 @@ Doubtful letters flagged, not guessed: n170 ⁷ *sacrament[u?]m*, ¹³ *u[n?]iti
 extant.*), keyed by a number on the VL layer. The ruling foresaw this ("a note that is a sentence would be `[nt:]`")
 but the injector gives `[nt:]` twins only to lettered `[fn:]` rows. It is recorded as `vl` (and is unplaced anyway).
 No NOTAE on either leaf (checked zeros).
+
+## Blind read (R6, 2026-09-16)
+
+Applied: 0265D *ordinatam* agrees with *unitatem*, not with *naturae … redemptae* → "a unity ordered, namely, after the likeness". The restored ending was read and is complete. Report: `data/briefs/PL122-BLIND-READ-R6.md`.

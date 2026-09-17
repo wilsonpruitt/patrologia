@@ -50,3 +50,7 @@ literally, not repaired.
 ## 1244B — *Cetera desunt.* → *The rest is lacking.* (E7)
 
 ## Floss's *Variae lectiones* — 5 rows, 5 placed. No NOTAE on n660 (checked zero).
+
+## Blind read (R6, 2026-09-16)
+
+Applied: 1244B *postulatio … pro absolutione peccatorum* is one noun phrase → "the request for the absolution of sins is placed by saint Ambrose" (the comma and the bare "request" made it read as the term being placed). Report: `data/briefs/PL122-BLIND-READ-R6.md`.

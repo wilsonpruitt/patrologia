@@ -71,3 +71,7 @@ lacuna as printed. **Needs a human eye if the fragment is ever set against the G
 ⚑ **For a human: note ¹ is a SENTENCE** (a gloss history with a Graff citation), numbered, on the VL layer. By the
 ruling's own content test it would want an English `[nt:]`; the machinery gives twins only to lettered `[fn:]`.
 Recorded as `vl`, Latin-only. No NOTAE on n550 (checked zero).
+
+## Blind read (R6, 2026-09-16), a parse recorded, not applied
+
+1024A *magis vero nos ipsos utpote repulsos et tenere et teneri non valentium*: R6 proposes (low confidence) that *valentium* agrees with the material things and that *nos ipsos* is governed by *tenere* alone, giving "of things unable both to hold us ourselves, as being repulsed, and to be held". The clause is already carried word for word as ungoverned (above), and a low-confidence reparse of Eriugena's Latin of Maximus is not applied. Worth settling against PG 91 (*Ambigua*) if that text is ever collated.
