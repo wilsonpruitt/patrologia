@@ -24,8 +24,8 @@
   the anchor's leaves are tabled in the cruces file.
 
 ### ▶ OWED FROM WILSON
-1. **The marker: `[vl: key | note]`, Latin-only, no English twin, rendered with the label
-   "Floss, var. lect." — OK?** (Brief above; it touches injector, verifier, page builder,
+1. ✅ **RULED 2026-09-16 — the marker `[vl: key | note]`, Latin-only, no English twin, label
+   "Floss, var. lect.", approved as drafted** (also the title-block/sigla head handling). Owed: implement it. (Brief above; it touches injector, verifier, page builder,
    scan-raw-markers, and the TSV gets a layer flag.)
 2. **The run.** 17 chunks remain (9176 0001–0014 + the three fragments), Opus, from
    `translation-runbook.md` with E1–E9 and the 9176 anchor in every prompt. Quote unchanged at
@@ -46,8 +46,8 @@ Wilson approved launching before the `[vl:]` ruling. Three Opus stints on **9176
 injected**, marker unapproved), `data/briefs/9176-PENDING-TEI-PATCHES-<first>.md`.
 **Next session: check disk for all four files per stint (a stalled agent can leave a hole the
 verifier won't see), run `verify-english 9176`, merge plate reads into `data/plate-reads.json`,
-fold cruces files, commit.** Still owed after that: 0010–0014, the three fragments, the `[vl:]`
-ruling + implementation, the blind read.
+fold cruces files, commit.** Still owed after that: implement `[vl:]` (approved) and inject the
+stints' recorded `variae_lectiones`, 0010–0014, the three fragments, the blind read.
 
 ---
 

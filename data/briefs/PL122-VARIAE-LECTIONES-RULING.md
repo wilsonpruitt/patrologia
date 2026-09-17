@@ -1,7 +1,8 @@
 # PL 122 — Floss's *Variae lectiones*: the marker, drafted for Wilson's OK
 
-**Written 2026-09-16 in the Eriugena register pilot (Fable).** Nothing below is implemented;
-this is the form to approve or amend before any PL 122 work is chunked with the apparatus.
+**Written 2026-09-16 in the Eriugena register pilot (Fable).** ✅ **APPROVED by Wilson 2026-09-16
+("we are good with your note decisions") — the marker, Latin-only rule, "Floss, var. lect." label,
+and the front-matter handling below all stand as drafted.** Not yet implemented in code.
 Background: `PL122-WITNESSES.md` (the layer's discovery and why `[cn:]` must not be reused
 by default).
 
@@ -86,4 +87,4 @@ erases it silently.
 - **An English twin** — no; a variant reading is scholars' business and has its Latin-side
   address, exactly the 2026-08-18 argument.
 
-**Answerable in one word: `[vl: key | note]`, Latin-only, labelled Floss — OK?**
+**Ruled: approved as drafted, 2026-09-16.**
