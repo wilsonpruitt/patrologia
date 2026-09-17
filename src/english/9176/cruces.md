@@ -94,6 +94,12 @@ Readers' reports are in `data/briefs/PL122-BLIND-READ-R*.md`.
   with *inchoante*, not *natus*: Christ is born as the days lengthen, John as they shorten). 0326D *audit cum* stays open
   for a better witness (already logged). R4 adds: if a witness still shows *cum*, fire `[cj: *cum*; read *eum*, "him"]`.
   0010 and 0011 clean.
+- **R5 (0012–0014):** applied 0345B/0345C *divinae Scripturae* → "Holy Scripture" ×2 (Pattern 3); 0337A *de eo dicitur* →
+  "said of him"; 0346A the double dative → "Before this multitude … are set five loaves"; 0341B *adhuc* restored ("has
+  still not"). **E4, *intellectus* as a reading:** 0013–0014 had rendered it "meaning(s)" at all 15 sites (each checked
+  against the Latin: all *intellectus*). Normalized to "understanding(s)" per E4 and chunks 0000–0012; "sense" was not used,
+  because the argument there also turns on the bodily *sensus*. R5's F5 (*tentator*) was withdrawn by the reader: both
+  copies print it.
 
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
