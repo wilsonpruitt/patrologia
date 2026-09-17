@@ -528,6 +528,10 @@ a { color: inherit; }
    flow and must wrap, exactly as .fonscite does below.
    Run scripts/scan-nowrap-apparatus.mjs to check the class is clear. */
 .notecite.wraps { white-space: normal; }
+/* Floss's apparatus in PL 122 ([vl:] variae lectiones, [fn:] notae): the EDITOR's, not
+   Migne's, so it is labelled in words and kept off the maroquin that marks Migne's own notes. */
+.notecite.floss { border-bottom: 1px dotted var(--encre-douce); cursor: help; }
+.notecite.floss .floss-label { font-variant: small-caps; letter-spacing: .03em; }
 /* Migne's foot-of-page conjecture notes ([cn: …]), recovered from the plate: his
    apparatus, so it sits in the .notecite family — but his CONJECTURES must not read
    like his CITATIONS, so this one carries the maroquin and a dotted rule. It appears
