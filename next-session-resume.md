@@ -1,5 +1,25 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-17, latest) — CURSORY TRIAGE ON ERIUGENA + PL 113 · 8/9 FLIP TO "FIRST" · DEPLOY OWED
+
+Ran the cursory tier on the just-shipped works themselves (Eriugena 9176/9175/9178/9181, PL 113
+leftovers 8971/8972/8973/8974/8975 — all shipped `ours` with `workStatus` null, so all badged
+"New" at ship time). **8 of 9 came back clean → verified `none` → badge now computes "First
+English translation"**: both Lyra-prologue trios' worth (8971/8972/8973), Paul of Burgos's
+*Additiones* (8974), the 1617 Douai *Ad lectorem* (8975), Eriugena's John commentary (9176) and
+its Laon 81 fragment (9175), and *De egressu et regressu* (9178).
+
+**9181 stayed `unclear`, correctly** — Rorem's 2005 PIMS translation covers Eriugena's
+*Expositiones in Ierarchiam COELESTEM* (Celestial Hierarchy); our text is titled *Ierarchiam
+ECCLESIASTICAM* (Ecclesiastical Hierarchy). A cursory pass can't rule out a cataloguing variant
+between the two titles, so it stays "New" until someone checks the column range/incipit against
+Barbet's 1975 Brepols edition.
+
+Rebuilt locally (`node scripts/build-site.mjs 8971 8972 8973 8974 8975 9176 9175 9178 9181`),
+badges confirmed in the built HTML, **`preflight.mjs` 7/7**. Committed and pushed (`1f084926`).
+**Not deployed — `cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects` is
+owed, Wilson's call**, then smoke-test the 8 flipped URLs on the alias for the corrected badge.
+
 ## ▶▶▶▶▶▶▶▶▶ START HERE (2026-09-17, even later) — CURSORY TRIAGE TIER BUILT · 4 OF 6 PILOTS NOW BADGE-ELIGIBLE
 
 New, cheap per-work triage tier, distinct from the 2026-07 rigorous batches (Wilson: cursory over
