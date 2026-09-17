@@ -1,5 +1,28 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶ START HERE (2026-09-16, later) — 9176 MERGE DONE, `[vl:]`/`[fn:]` LIVE IN CODE · NEXT IS THE RUN (hard stop)
+
+Steps 1–3 of the list below are **done and committed** (`287dace1`, `176ea34f`):
+1. **E11 re-adjudication:** 13 of 14 pending patches stand; **0318D (John 3:12 comma) withdrawn**,
+   English 0006 now follows the twin. The 13 are still PENDING in the three brief files, not yet in
+   `data/tei-patches/9176.json`. Merge them at the 9176 re-chunk (none touches a plate-note anchor).
+2. **Plate reads merged** (`works.9176`, 18 ranges, 0300C–0329B; `plate-gate 9176` OK). Cruces use
+   the **layer** merge form: a merge section in `cruces.md`, stint files kept.
+3. **`[vl:]`/`[fn:]` implemented** (TSV `layer` column; see the ruling brief's ✅ line). 9176:
+   **30 of 34 notes injected** (20 vl, 10 fn), **10 NOTAE translated as `[nt:]`**; verify clean on
+   0000–0009. Ten unstated key positions were read at the plate. ⚑ **Unplaced, 4:** n186 vl1
+   *Cod. possidet.* (no key after *possideo* at the plate; unresolved mark over *gratiae* on the
+   next line) · n193 vl1 · n198 vl1 · **n201 vl3 (for the 0010 stint to locate, col 329C–330)**.
+   Coverage `partial` (0329C–0348B unread).
+
+**▶ NEXT: step 4, the run. Hard stop: which model, and go?** Chunks **0010–0014** (Opus, plates read
+inline, at the recalibrated **~100K/chunk ≈ 500K**, in two stints: 0010–0012 and 0013–0014) + the **three
+fragments** (9175/9178/9181, 887 words, needing chunk-time prep first: 9181's sigla head, spot checks)
+≈ **~200K** → **~700K**, then the deeper blind read. Stint prompts now say `[vl:]` = write nothing, `[fn:]` =
+translated `[nt:]` (style file E10 ⚑ line); each stint adds its leaves' VL/NOTAE rows to
+`data/plate-notes/9176.tsv` **with the key read at the plate**, and re-runs the injector.
+Still owed from the brief: 9176 title-block head, the "Floss's 1853 edition" page line.
+
 ## ▶▶▶▶▶ START HERE — ERIUGENA REGISTER PILOT DONE (Fable, 2026-09-16) · TWO THINGS OWED FROM WILSON BEFORE THE RUN
 
 **Done this session (Fable):** the register pilot for 9176, step 1 of the "maximally" plan below.
