@@ -1,0 +1,460 @@
+# 9176 — lemma inventory and Clementine pre-scan
+
+**Commentarius in Evangelium secundum Joannem** · PL 122 · cols 0297A–0348B · 15 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+## The inventory
+
+[0297A] *In propria ergo venit,*   ⚠ NOT in Clementine verbatim — CHECK
+[0297A] *Et sui eum non receperunt.*   ✓ Jo 1:11
+[0297A] *Quotquot autem receperunt eum,*   ✓ Jo 1:12
+[0297A] *dedit eis potestatem filios Dei fieri.*   ✓ Jo 1:12
+[0297B] *His qui credunt in nomine ejus,*   ✓ Jo 1:12
+[0297B] *Qui non ex sanguinibus,*   ✓ Jo 1:13
+[0297B] *neque ex voluntate carnis,*   ✓ Jo 1:13
+[0297B] *neque ex voluntate viri,*   ✓ Jo 1:13
+[0297B] *neque ex voluntate carnis,*   ✓ Jo 1:13
+[0297B] *neque ex voluntate viri.*   ✓ Jo 1:13
+[0297C] *neque ex voluntate viri,*   ✓ Jo 1:13
+[0297C] *Sed ex Deo nati sunt,*   ✓ Jo 1:13
+[0297C] *Et Verbum caro factum est.*   ✓ Jo 1:14
+[0298A] *Verbum caro factum sit,*   ⚠ NOT in Clementine verbatim — CHECK
+[0298A] *Et Verbum caro factum est,*   ✓ Jo 1:14
+[0298A] *Et habitavit in nobis,*   ✓ Jo 1:14
+[0298A] *Et vidimus gloriam ejus;*   ✓ Jo 1:14
+[0298B] *gloriam unigeniti a Patre. Plenum gratiae,*   ⚠ NOT in Clementine verbatim — CHECK
+[0298B] *et veritatis*   ✓ 1Cor 5:8, Jo 1:14, Jr 33:6, …
+[0298B] *Joannes testatur de ipso,*   ⚠ NOT in Clementine verbatim — CHECK
+[0298B] *et clamat,*   ✓ Jo 1:15
+[0298B] *et clamavit dicens: Hic erat quem dixi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0298B] *quem dicebam,*   ⚠ NOT in Clementine verbatim — CHECK
+[0298B] *dixi,*   — single word, check in place
+[0298B] *dicebam,*   — single word, check in place
+[0298C] *Hic erat;*   ✓ Act 18:25, Ez 1:28, Jo 1:15, …
+[0298C] *Hic erat quem dixi.*   ✓ Jo 1:15
+[0298C] *erat,*   — single word, check in place
+[0298C] *hic erat,*   ✓ Act 18:25, Ez 1:28, Jo 1:15, …
+[0298C] *hic est,*   ✓ 1Jo 2:22, 1Jo 4:3, 1Jo 5:6, …
+[0299A] *Ecce Agnus Dei qui post me venturus est,*   ⚠ NOT in Clementine verbatim — CHECK
+[0299A] *qui post me venit.*   ⚠ NOT in Clementine verbatim — CHECK
+[0299A] *Ante me factus est.*   ✓ Jo 1:15, Jo 1:27, Jo 1:30
+[0299A] *Quia prior me erat,*   ✓ Jo 1:15, Jo 1:30
+[0299B] *qui post me venturus est,*   ✓ Jo 1:15, Jo 1:27
+[0299B] *ante me factus est,*   ✓ Jo 1:15, Jo 1:27, Jo 1:30
+[0299B] *coram me,*   ✓ 1Par 22:8, 1Rg 2:28, 2Par 6:16, …
+[0299C] *Et de plenitudine ejus nos omnes accepimus.*   ✓ Jo 1:16
+[0299C] *Et vidimus gloriam ejus, gloriam quasi unigeniti a Patre, plenum gratiae et veritatis.*   ✓ Jo 1:14
+[0299D] « Ego sum via, veritas et vita »   ⚠ NOT in Clementine verbatim — CHECK
+[0299D] *Nos omnes*   ✓ Act 28:2, Eph 2:3, Jdt 7:15, …
+[0299D] *Gratiam pro gratia,*   ✓ Jo 1:16
+[0300A] *Quia lex per Moysen data est.*   ✓ Jo 1:17
+[0300A] *Gratia et veritas per Jesum Christum facta est.*   ✓ Jo 1:17
+[0300C] *Deum nemo vidit unquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0300D] « Manifestavi nomen tuum hominibus, quos dedisti mihi »   ✓ Jo 17:6
+[0300D] « Ostende nobis Patrem, et sufficit nobis »   ✓ Jo 14:8
+[0300D] « Philippe, qui me videt, et patrem videt meum »   ⚠ NOT in Clementine verbatim — CHECK
+[0300D] « Nemo vidit Filium nisi Pater, neque Patrem nisi Filius, et cui voluerit Filius revelare »   ⚠ NOT in Clementine verbatim — CHECK
+[0301A] « In quo restaurata sunt omnia, quae in caelo et in terra »   ⚠ NOT in Clementine verbatim — CHECK
+[0301A] « Deum nemo vidit unquam »   ⚠ NOT in Clementine verbatim — CHECK
+[0301B] « Deum nemo vidit unquam »   ⚠ NOT in Clementine verbatim — CHECK
+[0301D] « Deum nemo vidit »   ✓ 1Jo 4:12, Jo 1:18
+[0301D] « Deum nullus vidit »   ⚠ NOT in Clementine verbatim — CHECK
+[0301D] *nemo*   — single word, check in place
+[0301D] *nullus*   — single word, check in place
+[0301D] « Angeli eorum semper vident faciem Patris mei, qui in caelis est »   ⚠ NOT in Clementine verbatim — CHECK
+[0301D] « Qui diligit me, diligetur a Patre meo, et ego diligam eum, et manifestabo me [0302A] ipsum ei »   ⚠ NOT in Clementine verbatim — CHECK
+[0302A] « Scimus quia filii Dei sumus, sed nondum apparuit quid erimus. Scimus autem quia, cum ipse apparuerit, videbimus eum, sicuti est »   ⚠ NOT in Clementine verbatim — CHECK
+[0302A] « Videmus nunc per speculum in aenigmate, tunc autem faciem ad faciem »   ⚠ NOT in Clementine verbatim — CHECK
+[0302B] « Rapiemur in nubibus obviam Christo »   ⚠ NOT in Clementine verbatim — CHECK
+[0302B] « Et si quis eum, Deum videlicet, vidisse dixerit, non eum vidit, sed aliquid ab eo factum. Ipse enim omnino invisibilis est, qui melius nesciendo scitur, et cujus ignorantia vera est sapientia »   ⚠ NOT in Clementine verbatim — CHECK
+[0302B] *Unigenitus Filius, qui est in sinu Patris;*   ✓ Jo 1:18
+[0302C] *Ipse enarravit.*   ✓ Jo 1:18
+[0302C] « Qui est in sinu Patris »   ✓ Jo 1:18
+[0302C] « in sinibus Patris »   ⚠ NOT in Clementine verbatim — CHECK
+[0302D] « Ego in Patre, et Pater in me est »   ✓ Jo 14:10, Jo 14:11
+[0302D] « In domo Patris mei mansiones multae sunt »   ✓ Jo 14:2
+[0303A] *Enarravit;*   — single word, check in place
+[0303A] « Qui diligit me, diligitur a Patre meo, et ego diligam eum, et manifestabo me ipsum ei »   ⚠ NOT in Clementine verbatim — CHECK
+[0303A] *Et hoc est testimonium Joannis.*   ✓ Jo 1:19
+[0303A] « Joannes testimonium perhibet »   ✓ Jo 1:15
+[0303A] « ille enarravit »   ⚠ NOT in Clementine verbatim — CHECK
+[0303A] *Quando miserunt Judaei ab Jerosolimis*   ⚠ NOT in Clementine verbatim — CHECK
+[0303A] *Et confessus est, et non negavit, quando miserunt Judaei ab Jerosolimis sacerdotes et levitas,*   ⚠ NOT in Clementine verbatim — CHECK
+[0303B] *Quia non sum ego Christus.*   ✓ Jo 1:20
+[0303B] « Non sum ego »   ✓ Act 13:25, Jo 1:20, Jo 3:28
+[0303B] « Christus, quia Christi praecursor sum et vox clamantis in deserto »   ⚠ NOT in Clementine verbatim — CHECK
+[0303B] *Helias es tu? Et dixit: Non sum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0303C] *Propheta es tu? Respondit: Non.*   ⚠ NOT in Clementine verbatim — CHECK
+[0303C] *Dixerunt ergo ei: Quis es?*   ✓ Jo 1:22
+[0303D] *Quid dicis de te ipso?*   ⚠ NOT in Clementine verbatim — CHECK
+[0303D] *Ego sum vox clamantis in deserto.*   ⚠ NOT in Clementine verbatim — CHECK
+[0303D] « quia ego sum homo »   ⚠ NOT in Clementine verbatim — CHECK
+[0304A] « ego sum Joannes filius Zachariae »   ⚠ NOT in Clementine verbatim — CHECK
+[0304A] « Ego sum vox »   ⚠ NOT in Clementine verbatim — CHECK
+[0304B] *In deserto.*   ✓ 1Cor 10:5, 1Mcc 2:31, 1Mcc 9:62, …
+[0304B] *confessio*   — single word, check in place
+[0304C] « Ecce agnus Dei »   ✓ Jo 1:29, Jo 1:36
+[0304C] « Dixit Deus: Fiat lux »   ⚠ NOT in Clementine verbatim — CHECK
+[0304D] « Firmamentum »   — single word, check in place
+[0304D] « dixit Deus »   ✓ 2Rg 23:3, Act 22:14, Dn 13:42, …
+[0304D] « dixit »   — single word, check in place
+[0305A] *Dirigite viam Domini.*   ✓ Jo 1:23
+[0305A] « Dirigite viam Domini »   ✓ Jo 1:23
+[0305A] « rectas facite semitas »   ✓ Lc 3:4, Mc 1:3, Mt 3:3
+[0305A] « Ego sum via et veritas et vita »   ✓ Jo 14:6
+[0305A] « Dirigite viam Domini »   ✓ Jo 1:23
+[0305A] *Sicut dixit Esaias propheta.*   ⚠ NOT in Clementine verbatim — CHECK
+[0305C] *locusta,*   — single word, check in place
+[0305C] *mel,*   — single word, check in place
+[0305C] *esca;*   — single word, check in place
+[0305C] *Et qui missi fuerunt, erant ex Pharisaeis*   ⚠ NOT in Clementine verbatim — CHECK
+[0305C] « genimina viperarum, quis vos liberabit a superventura ira »   ⚠ NOT in Clementine verbatim — CHECK
+[0305D] *Quid ergo baptizas, si tu non es Christus, neque Helias, neque propheta?*   ⚠ NOT in Clementine verbatim — CHECK
+[0306A] « Prophetarum unus es tu »   ⚠ NOT in Clementine verbatim — CHECK
+[0306A] « Propheta es tu »   ✓ Jo 1:21, Jo 4:19
+[0306A] *Ego baptizo in aqua;*   ✓ Jo 1:26
+[0306A] *Medius autem vestrum stat,*   ⚠ NOT in Clementine verbatim — CHECK
+[0306A] *quem vos nescitis,*   ✓ Jo 1:26, Jo 4:32, Jo 7:28
+[0306A] *Ipse est, qui post me venturus est.*   ✓ Jo 1:27
+[0306A] *Qui ante me factus est;*   ✓ Jo 1:27, Jo 1:30
+[0306C] *Cujus ego non sum dignus,*   ✓ Jo 1:27
+[0307A] « cujus corrigiam calceamenti non solvam »   ⚠ NOT in Clementine verbatim — CHECK
+[0307A] « Non sum dignus, ut solvam corrigiam calceamenti »   ⚠ NOT in Clementine verbatim — CHECK
+[0307B] *Haec in Bethania facta sunt trans Jordanem, ubi [0307C] erat Joannes baptizans.*   ✓ Jo 1:28
+[0307C] *domus obedientiae*   ⚠ NOT in Clementine verbatim — CHECK
+[0308A] *visio pacis*   ⚠ NOT in Clementine verbatim — CHECK
+[0308B] « Lex et prophetae usque ad Joannem, et ab eo regnum caelorum »   ⚠ NOT in Clementine verbatim — CHECK
+[0309B] *Ubi erat Joannes baptizans.*   ✓ Jo 1:28, Jo 10:40
+[0309D] « lex enim et prophetae usque ad Joannem »   ⚠ NOT in Clementine verbatim — CHECK
+[0309D] « Et ab eo regnum caelorum »   ⚠ NOT in Clementine verbatim — CHECK
+[0309D] *Altera die,*   ✓ 1Rg 5:3, Act 25:6, Ex 9:6, …
+[0309D] *alia die videt Joannes Jesum venientem ad se*   ⚠ NOT in Clementine verbatim — CHECK
+[0310A] « Hic erat, quem dicebam vobis »   ⚠ NOT in Clementine verbatim — CHECK
+[0310A] *Ecce Agnus Dei, ecce qui tollit peccatum mundi.*   ✓ Jo 1:29
+[0310A] « Ecce Agnus Dei »   ✓ Jo 1:29, Jo 1:36
+[0310B] *Ecce qui tollit peccatum mundi.*   ✓ Jo 1:29
+[0310C] « sicut enim [0310D] in Adam omnes moriuntur, ita in Christo omnes vivificatur »   ⚠ NOT in Clementine verbatim — CHECK
+[0311A] « Ecce Agnus Dei, qui tollit peccatum mundi »   ⚠ NOT in Clementine verbatim — CHECK
+[0311B] « Panem et vinum, quae in altari ponuntur, post consecrationem non solum sacramentum, sed etiam verum corpus et sanguinem Domini nostri esse; et sensualiter non solum sacramento, sed in veritate manibus sacerdotum tractari, et frangi et fidelium dentibus atteri »   ⚠ NOT in Clementine verbatim — CHECK
+[0313C] « Ero mors tua, o mors, et morsus tuus, o inferne »   ⚠ NOT in Clementine verbatim — CHECK
+[0314A] *Erat homo ex Pharisaeis, Nicodemus nomine, princeps Judaeorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0314A] *divisus*   — single word, check in place
+[0314A] *divisi*   — single word, check in place
+[0314B] *victoria populi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0314B] *victor populus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0314B] *Princeps Judaeorum,*   ✓ Jo 3:1
+[0314B] *Hic venit ad Jesum nocte.*   ✓ Jo 3:2
+[0314C] « Hic venit ad eum nocte »   ⚠ NOT in Clementine verbatim — CHECK
+[0314C] *Et dixit ei: Rabbi, scimus, quia a Deo magister venisti; nemo enim potest haec signa facere, quae tu facis, nisi fuerit Deus cum eo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0314C] « Cum autem esset [0314D] Hierosolomis in Pascha in die festo, multi crediderunt in nomine ejus, videntes signa ejus quae faciebat »   ⚠ NOT in Clementine verbatim — CHECK
+[0314D] « Nemo potest haec signa facere quae tu facis, nisi fuerit Deus cum eo »   ⚠ NOT in Clementine verbatim — CHECK
+[0314D] *Respondit Jesus, et dixit ei: Amen, amen dico tibi, nisi quis natus fuerit denuo, non potest videre regnum*   ⚠ NOT in Clementine verbatim — CHECK
+[0315A] *Dei.*   — single word, check in place
+[0315A] *denuo*   — single word, check in place
+[0315B] « Primus homo de terra terrenus, secundus homo de caelo caelestis »   ✓ 1Cor 15:47
+[0315C] « Et fecit Deus hominem ad imaginem et similitudinem suam »   ⚠ NOT in Clementine verbatim — CHECK
+[0315C] « Masculum et feminam fecit eos »   ✓ Mc 10:6, Mt 19:4
+[0315C] « Nisi quis natus fuerit denuo »   ⚠ NOT in Clementine verbatim — CHECK
+[0315D] *Non potest videre regnum Dei.*   ✓ Jo 3:3
+[0315D] « Regnum Dei inter vos est »   ⚠ NOT in Clementine verbatim — CHECK
+[0316A] « a fine usque ad finem adtingit fortiter et disponit omnia suaviter »   ⚠ NOT in Clementine verbatim — CHECK
+[0316A] *non potest videre regnum Dei,*   ✓ Jo 3:3
+[0316A] *Dicit ad eum Nicodemus: Quomodo potest homo nasci cum senex sit? Numquid potest in ventrem matris suae secundo introire et [re] nasci*   ⚠ NOT in Clementine verbatim — CHECK
+[0316B] *Respondit Jesus: Amen, amen dico tibi, nis quis natus fuerit ex aqua et spiritu, non potest introire in regnum Dei.*   ⚠ NOT in Clementine verbatim — CHECK
+[0316B] *Nisi quis natus fuerit ex aqua et spiritu,*   ⚠ NOT in Clementine verbatim — CHECK
+[0316D] « Nescitis, quia corpora vestra templum sancti Spiritus sunt »   ⚠ NOT in Clementine verbatim — CHECK
+[0316D] *Quod natum est ex carne, caro est, et quod natum est ex spiritu, spiritus est.*   ✓ Jo 3:6
+[0317A] « Caro concupiscit adversus spiritum, et spiritus adversus carnem »   ⚠ NOT in Clementine verbatim — CHECK
+[0317B] *Non mireris, quia dixi tibi: Oportet vos nasci denuo.*   ✓ Jo 3:7
+[0317B] *Spiritus ubi vult spirat.*   ✓ Jo 3:8
+[0317B] *Et vocem ejus audis.*   ✓ Jo 3:8
+[0317B] « Nemo videt spiritum; quomodo audimus vocem spiritus? Sonat psalmus, vox est spiritus. Sonat [0317C] Evangelium, vox est spiritus. Sonat sermo divinus, vox est spiritus. *Vocem ejus audis, et nescis, unde veniat et quo vadat.* Si nasceris et tu de spiritu, hoc eris ut ille. Qui non est natus adhuc de spiritu, nescit de te, unde venias et quo vadas; hoc enim ait secutus: *Sic est et omnis qui natus est ex spiritu* »   ⚠ NOT in Clementine verbatim — CHECK
+[0317C] *Sed nescis, unde veniat et quo vadat,*   ⚠ NOT in Clementine verbatim — CHECK
+[0317D] *Sic est omnis qui natus est ex spiritu.*   ✓ Jo 3:8
+[0317D] *sic est omnis natus ex spiritu,*   ⚠ NOT in Clementine verbatim — CHECK
+[0318A] « Quem mittet Pater in nomine meo, ut ex se credentes in Christum nascantur »   ⚠ NOT in Clementine verbatim — CHECK
+[0318A] *Respondit Nicodemus et dixit ei: Quomodo possunt haec fieri?*   ✓ Jo 3:9
+[0318B] « Littera occidit, spiritus autem vivificat »   ⚠ NOT in Clementine verbatim — CHECK
+[0318B] *Respondit Jesus et dixit ei: Tu es magister Israel et haec ignoras?*   ⚠ NOT in Clementine verbatim — CHECK
+[0318B] *tu es magister Israel,*   ⚠ NOT in Clementine verbatim — CHECK
+[0318C] *Amen, amen dico tibi, quia quod scimus loquimur, et quod vidimus testamur, et testimonium nostrum non accipitis.*   ✓ Jo 3:11
+[0318C] « velociter currit sermo ejus »   ✓ Ps 147:4
+[0318D] « Sermo, quem locutus sum vobis, non est meus, sed mittentis me Patris »   ⚠ NOT in Clementine verbatim — CHECK
+[0318D] *quod scimus loquimur,*   ✓ Jo 3:11
+[0318D] *et quod vidimus testamur,*   ✓ Jo 3:11
+[0318D] *Et testimonium nostrum non accipitis,*   ✓ Jo 3:11
+[0318D] *Si terrena dixi,*   ✓ Jo 3:12
+[0318D] *dicebam vobis, et non creditis, quomodo, si dicam vobis caelestia, credetis?*   ⚠ NOT in Clementine verbatim — CHECK
+[0318D] *quomodo possunt haec fieri?*   ✓ Jo 3:9
+[0318D] *si terrena dicebam [0319A] vobis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0319A] *si terrena dicebam vobis?*   ⚠ NOT in Clementine verbatim — CHECK
+[0319A] « Solvite templum hoc, et in tribus diebus suscitabo illud »   ⚠ NOT in Clementine verbatim — CHECK
+[0319B] *Et nemo ascendit in caelum, nisi qui de caelo descendit, Filius hominis, qui est in caelo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0319C] *nemo ascendit in caelum, nisi qui de caelo descendit, filius hominis, qui est in caelo,*   ⚠ NOT in Clementine verbatim — CHECK
+[0319C] « Exivi a Patre et veni in mundum, et iterum relinquo mundum et vado ad Patrem »   ⚠ NOT in Clementine verbatim — CHECK
+[0319D] « Scimus quonium filii Dei sumus; nondum apparuit quid erimus; cum autem apparuerit, similes ei erimus; videbimus enim eum, sicuti est »   ⚠ NOT in Clementine verbatim — CHECK
+[0320A] *Et sicut Moyses exaltavit serpentem in deserto, sic exaltari oportet Filium hominis, ut omnis credens in eum non pereat, sed habeat vitam aeternam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0320C] « Consepulti sumus cum Christo per baptismum, nisi in mortem, ut, quemadmodum Christus surrexit a mortuis in gloriam Patris, ita et nos in novitate vitae ambulemus »   ⚠ NOT in Clementine verbatim — CHECK
+[0320C] *Sic enim Deus dilexit mundum, ut Filium suum unigenitum daret.*   ✓ Jo 3:16
+[0321A] *ornatus*   — single word, check in place
+[0321A] *Non enim misit Deus Filium suum in mundum,*   ✓ Jo 3:17
+[0321A] *ut judicet,*   ✓ 1Rg 8:5, 1Rg 8:6, Jo 3:17
+[0321B] *mundum,*   — single word, check in place
+[0321B] *sed ut salvetur mundus*   ✓ Jo 3:17
+[0321B] *per ipsum.*   ✓ 1Cor 8:6, 1Ptr 1:21, 2Cor 1:20, …
+[0321B] *Qui credit non judicatur, qui autem non credit jam judicatus est.*   ⚠ NOT in Clementine verbatim — CHECK
+[0321B] *Jam judicatus est. Jam*   ⚠ NOT in Clementine verbatim — CHECK
+[0321C] « Haec est autem vita aeterna, ut cognoscant te verum ac solum Deum, et quem misisti Jesum Christum »   ⚠ NOT in Clementine verbatim — CHECK
+[0321C] *Hoc est autem judicium, quia lux venit in mundum.*   ✓ Jo 3:19
+[0321C] « Si non venissem et locutus fuissem, peccatum non haberent »   ⚠ NOT in Clementine verbatim — CHECK
+[0321D] *Et dilexerunt homines magis tenebras quam lucem.*   ✓ Jo 3:19
+[0321D] *homines,*   — single word, check in place
+[0322A] *Erant enim eorum mala opera.*   ✓ Jo 3:19
+[0322A] *Omnis enim mala agens odit lucem, nec venit ad lucem, ut non redarguantur opera ejus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0322A] *Qui autem facit veritatem, venit ad lucem, ut manifestentur sua opera, quia in Deo sunt facta.*   ⚠ NOT in Clementine verbatim — CHECK
+[0322B] *Post haec venit Jesus et discipuli ejus in Judaeam terram,*   ⚠ NOT in Clementine verbatim — CHECK
+[0322B] *confessio*   — single word, check in place
+[0322C] *Et illic demorabatur cum eis et baptizavit.*   ⚠ NOT in Clementine verbatim — CHECK
+[0322C] *demorabatur cum eis,*   ✓ Jo 3:22
+[0322C] *Et baptizavit.*   ✓ Act 8:38
+[0322C] « Quanquam Jesus non baptizaret, sed discipuli ejus »   ⚠ NOT in Clementine verbatim — CHECK
+[0322D] *Erat autem Joannes baptizans in*   ⚠ NOT in Clementine verbatim — CHECK
+[0322D] *juxta Saleim, quia aquae multae erant illic.*   ⚠ NOT in Clementine verbatim — CHECK
+[0322D] *In Aennon,*   ✓ Jo 3:23
+[0322D] *in aquis*   ✓ Dn 3:79, Dt 4:18, Dt 5:8, …
+[0322D] *enos*   — single word, check in place
+[0322D] *aqua*   — single word, check in place
+[0323A] *quia aquae multae erant illic.*   ✓ Jo 3:23
+[0323A] *templum pacis,*   ⚠ NOT in Clementine verbatim — CHECK
+[0323B] *Non[dum] enim missus fuerat in carcerem Joannes.*   ⚠ NOT in Clementine verbatim — CHECK
+[0324B] « Jesus autem proficiebat sapientia et aetate et gratia apud Deum et homines »   ⚠ NOT in Clementine verbatim — CHECK
+[0324C] *Facta est ergo quaestio ex discipulis Joannis cum Judaeis de purificatione.*   ⚠ NOT in Clementine verbatim — CHECK
+[0324D] *Et venerunt ad Joannem,*   ✓ Jo 3:26
+[0324D] *et dixerunt ei: Rabbi, qui erat tecum trans Jordanem,*   ✓ Jo 3:26
+[0324D] *cui tu testimonium perhibuisti,*   ✓ Jo 3:26
+[0324D] « Ecce agnus Dei, ecce qui tollit peccatum mundi »   ✓ Jo 1:29
+[0324D] *ecce hic baptizat,*   ✓ Jo 3:26
+[0324D] *et omnes veniunt ad eum.*   ✓ Jo 3:26
+[0325A] *Respondit Joannes et dixit: Non potest homo accipere quicquam*   ⚠ NOT in Clementine verbatim — CHECK
+[0325A] *nisi fuerit ei datum de caelo.*   ✓ Jo 3:27
+[0325A] *nisi fuerit ei datum desursum de caelo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0325A] *Non potest,*   ✓ 1Cor 2:14, 1Cor 12:21, 1Jo 3:9, …
+[0325A] *homo accipere quicquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0325A] *Non potest homo accipere quicquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0325A] « De plenitudine ejus nos omnes [0325B] accepimus »   ✓ Jo 1:16
+[0325C] « O homo, quid habes quod non accepisti »   ⚠ NOT in Clementine verbatim — CHECK
+[0325C] *Non potest homo,*   ✓ Jo 3:27
+[0325D] *accipere quicquam*   ⚠ NOT in Clementine verbatim — CHECK
+[0325D] *nisi fuerit ei datum de caelo.*   ✓ Jo 3:27
+[0325D] *Nisi fuerit datum de caelo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0325D] « Omne datum optimum et omne donum perfectum desursum est, descendens a Patre luminum »   ✓ Jac 1:17
+[0326A] *Non potest homo accipere quicquam [vl: 1 | Cod. *   ⚠ NOT in Clementine verbatim — CHECK
+[0326A] *.], nisi fuerit ei datum de caelo,*   ⚠ NOT in Clementine verbatim — CHECK
+[0326A] *Ipsi vos mihi testimonium perhibetis.*   ✓ Jo 3:28
+[0326A] *Quod dixerim: Ego non sum Christus, sed quia missus sum ante illum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0326A] « Qui erat tecum trans Jordanem, cui testimonium perhibuisti »   ⚠ NOT in Clementine verbatim — CHECK
+[0326B] *Qui habet sponsam, sponsus est.*   ✓ Jo 3:29
+[0326B] « Non potest homo accipere quicquam »   ⚠ NOT in Clementine verbatim — CHECK
+[0326C] *Qui habet sponsam sponsus est.*   ✓ Jo 3:29
+[0326C] *Amicus autem sponsi.*   ✓ Jo 3:29
+[0326D] *Qui stat et audit eum, gaudio gaudet.*   ✓ Jo 3:29
+[0326D] *propter vocem sponsi.*   ✓ Jo 3:29
+[0326D] *Amicus autem sponsi, qui stat et audit cum, gaudi, [0327A] gaudet propter vocem sponsi,*   ⚠ NOT in Clementine verbatim — CHECK
+[0327A] *Hoc ergo gaudium meum impletum est.*   ✓ Jo 3:29
+[0327A] *Illum oportet crescere, me autem minui.*   ✓ Jo 3:30
+[0327C] *Illum oportet crescere, me autem minui.*   ✓ Jo 3:30
+[0327C] *Qui desursum venit, super omnes est.*   ✓ Jo 3:31
+[0327C] *Qui desursum venit,*   ✓ Jo 3:31
+[0327D] *super omnes est,*   ✓ Jo 3:31
+[0327D] *Qui est de terra, terra est, et de terra loquitur.*   ⚠ NOT in Clementine verbatim — CHECK
+[0327D] « Terra es et in terram ibis »   ⚠ NOT in Clementine verbatim — CHECK
+[0328A] *Et de terra loquitur,*   ✓ Jo 3:31
+[0328A] *Qui de caelo venit, super omnes est.*   ✓ Jo 3:31
+[0328A] *desursum venit,*   ✓ Jo 3:31
+[0328A] *de caelo venit.*   ✓ Jo 3:31
+[0328A] « desursum venit »   ✓ Jo 3:31
+[0328A] « de caelo venit »   ✓ Jo 3:31
+[0328B] « desursum venit »   ✓ Jo 3:31
+[0328B] « de caelo venit »   ✓ Jo 3:31
+[0328B] « desursum venit »   ✓ Jo 3:31
+[0328C] « qui desursum venit »   ✓ Jo 3:31
+[0328C] *qui de caelo venit, super omnes est,*   ✓ Jo 3:31
+[0328C] « Exivi a Patre, et veni in mundum »   ✓ Jo 16:28
+[0328D] *Et quod vidit et audivit, hoc testatur.*   ✓ Jo 3:32
+[0328D] *Et audivit.*   ✓ 1Mcc 3:13, 1Mcc 4:3, 1Mcc 6:1, …
+[0328D] « Ego hodie genui te »   ✓ Act 13:33, Hbr 1:5, Hbr 5:5, …
+[0328D] *Hoc testatur.*   ✓ Jo 3:32
+[0328D] « Non enim misit Deus Filium suum [0329A] in mundum, ut judicet mundum, sed ut salvetur mundus per ipsum. Qui credit in eum, non judicatur. Qui autem non credit, jam judicatus est, quia non credit in nomine unigeniti Filius Dei »   ⚠ NOT in Clementine verbatim — CHECK
+[0329A] *Et testimonium ejus nemo accipit.*   ✓ Jo 3:32
+[0329B] *Qui accipit ejus testimonium, signavit quia Deus verax est,*   ⚠ NOT in Clementine verbatim — CHECK
+[0329B] *Quia Deus verus est,*   ⚠ NOT in Clementine verbatim — CHECK
+[0329B] *Quem enim misit Deus, verba Dei loquitur.*   ✓ Jo 3:34
+[0329C] *Quem misit Deus, verba Dei loquitur?*   ⚠ NOT in Clementine verbatim — CHECK
+[0329C] *Quem misit Deus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0329C] *verba Dei loquitur;*   ✓ Jo 3:34
+[0329D] *Non enim ex mensura dat Deus spiritum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0329D] « Alii datur per Spiritum sermo sapientiae, alii sermo scientiae »   ⚠ NOT in Clementine verbatim — CHECK
+[0329D] « Unus autem operatur [0330A] atque idem Spiritus, dividens singulis propria, prout vult »   ⚠ NOT in Clementine verbatim — CHECK
+[0330A] *Pater diligit Filium et omnia dedit in manu ejus.*   ✓ Jo 3:35
+[0330A] *Pater diligit Filium,*   ✓ Jo 3:35
+[0330B] « Omnia in sapientia fecisti »   ✓ Ps 103:24
+[0330B] *omnia dedit in manu ejus,*   ✓ Jo 3:35
+[0330B] *Qui credit in Filium, habet vitam aeternam.*   ✓ Jo 3:36
+[0330B] « Ego sum veritas et vita »   ⚠ NOT in Clementine verbatim — CHECK
+[0330B] *qui credit in Filium, habet vitam aeternam.*   ✓ Jo 3:36
+[0330B] *Qui autem non credit in Filio, non videbit vitam aeternam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0330B] *Sed ira Dei manet super eum.*   ✓ Jo 3:36
+[0330C] *manet super eum.*   ✓ Jo 3:36
+[0330C] *ira Dei?*   ✓ 1Thes 2:16, 2Mcc 5:20, Apc 15:1, …
+[0330C] « Maledicta terra in operibus tuis »   ⚠ NOT in Clementine verbatim — CHECK
+[0330C] « Fuistis aliquando filii irae sicut et ceteri »   ⚠ NOT in Clementine verbatim — CHECK
+[0330C] *Ut ergo cognovit Jesus, quia audierant Pharisaei, quia Jesus plures discipulos facit, et baptizat, quam Joannes, etsi Jesus ipse non baptizavit, sed discipuli [0330D] ejus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0330D] *Reliquit Judaeam, et abiit iterum in Galilaeam,*   ✓ Jo 4:3
+[0331C] *Abiit iterum in Galilaeam.*   ✓ Jo 4:3
+[0331C] « Posthac venit Jesus et discipuli ejus in Judaeam terram »   ⚠ NOT in Clementine verbatim — CHECK
+[0331C] « Dum autem venit plenitudo temporum, misit Deus Filium suum factum ex muliere, factum sub lege »   ⚠ NOT in Clementine verbatim — CHECK
+[0331C] « ut eos, qui sub lege erant, redimeret »   ✓ Gal 4:5
+[0331C] *abiit in Galilaeam.*   ✓ Jo 4:43
+[0331D] *Oportebat autem transire per Samariam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0332A] *transmigratio facta*   ⚠ NOT in Clementine verbatim — CHECK
+[0332A] *revolutio*   — single word, check in place
+[0332B] *Venit autem Jesus in civitatem Samariae, quae dicitur Sichar, juxta praedium, quod dedit Jacob Joseph filio suo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0332C] *conclusio*   — single word, check in place
+[0332C] *ramus*   — single word, check in place
+[0332C] *numeri*   — single word, check in place
+[0332C] *fons Jacob,*   ✓ Jo 4:6
+[0332D] *Jesus ergo fatigatus ex itinere sedit sic super fontem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0333A] *Sedit super fontem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0333B] *Hora erat quasi sexta.*   ✓ Jo 4:6
+[0333C] *Venit mulier ex Samaria haurire aquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0333D] *Dicit ei Jesus: Da mihi bibere. Discipuli enim ejus abierant in civitatem, ut cibos emerent.*   ⚠ NOT in Clementine verbatim — CHECK
+[0334A] *Dicit ergo ei mulier Samaritana: Quomodo tu, Judaeus cum sis, a me bibere petis, dum sim mulier Samaritana? Non enim coutuntur Judaei Samaritanis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0334B] *non enim coutuntur Judaei Samaritanis,*   ✓ Jo 4:9
+[0334C] *Respondit Jesus et dixit ei: Si scires donum Dei, et quis est, qui dicit tibi: Da mihi bibere, tu petisses eum, et dedisset tibi aquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0334C] *Dicit ei mulier: Domine, neque hauritorium habes, et puteus altus est. Quomodo ergo habes aquam vivam?*   ⚠ NOT in Clementine verbatim — CHECK
+[0335A] *Numquid tu major es patre nostro Jacob, qui dedit nobis puteum, et ipse ex eo bibebat, et filii sui, et pecora sua?*   ⚠ NOT in Clementine verbatim — CHECK
+[0335A] *Numquid tu major es patre nostro Jacob?*   ✓ Jo 4:12
+[0335B] *Respondit Jesus et dixit ei: Omnis qui bibit ex aqua hac,*   ✓ Jo 4:13
+[0335B] *sitiet iterum,*   ✓ Jo 4:13
+[0335B] *Quicumque autem biberit ex aqua, quam ego dabo ei, non sitiet in aeternum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0335B] « Satiabor, cum apparuerit gloria tua »   ✓ Ps 16:15
+[0335B] *Sed aqua, quam dabo ei, fiet in eo fons aquae salientis in vitam aeternam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0335C] *Dicit ad eum mulier: Domine, da mihi hanc aquam ut non sitiam, neque veniam huc haurire.*   ✓ Jo 4:15
+[0335C] *Dicit ei Jesus: Vade, voca virum tuum, et veni huc.*   ✓ Jo 4:16
+[0336A] « Caput mulieris vir, caput viri Christus, caput Christi Deus »   ⚠ NOT in Clementine verbatim — CHECK
+[0336C] *voca virum tuum et veni huc;*   ✓ Jo 4:16
+[0336C] *Respondit mulier et dixit ei: Non habeo virum. Dicit ei Jesus: Bene dixisti, quia virum non habes.*   ⚠ NOT in Clementine verbatim — CHECK
+[0336D] *Quinque enim viros habuisti, et nunc quem habes, non est tuus vir; hoc vere dixisti.*   ✓ Jo 4:18
+[0337A] *et nunc quem habes non est tuus vir;*   ✓ Jo 4:18
+[0337C] « Virtus peccati lex »   ⚠ NOT in Clementine verbatim — CHECK
+[0337C] « Lex autem subintravit, ut abundaret peccatum »   ⚠ NOT in Clementine verbatim — CHECK
+[0337C] *Et nunc quem habes non est tuus vir;*   ✓ Jo 4:18
+[0337D] *Dicit ei mulier: Domine, video, quia propheta es tu.*   ✓ Jo 4:19
+[0338A] *Patres nostri in monte hoc adorabant.*   ⚠ NOT in Clementine verbatim — CHECK
+[0338B] *Dicit ei Jesus: Mulier, crede mihi, quia venit hora quando neque in monte hoc, neque in Hierosolimis adorabitis Patrem. Vos adoratis, quod nescitis, nos adoramus, quod scimus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0338C] « Philippe, qui me videt, et Patrem meum videt »   ⚠ NOT in Clementine verbatim — CHECK
+[0338C] *Quia salus ex Judaeis.*   ✓ Jo 4:22
+[0338C] *quia salus ex Judaeis,*   ✓ Jo 4:22
+[0338C] *Sed venit hora et nunc est.*   ✓ Jo 4:23
+[0338D] *Quando veri adoratores adorabunt Patrem in spiritu et veritate.*   ✓ Jo 4:23
+[0339A] *Etenim Pater tales quaerit adorantes se,*   ⚠ NOT in Clementine verbatim — CHECK
+[0339A] *Spiritus Deus, et adorantes se in spiritu et veritate oportet adorare.*   ⚠ NOT in Clementine verbatim — CHECK
+[0339A] *Dicit ei mulier: Scio, quia Messias venit, qui dicitur Christus.*   ✓ Jo 4:25
+[0339A] « venit hora et nunc est »   ✓ Jo 4:23, Jo 5:25
+[0339B] *Scio quia Messias venit. Venit*   ⚠ NOT in Clementine verbatim — CHECK
+[0339B] « veniet »   — single word, check in place
+[0339B] *venit,*   — single word, check in place
+[0339B] *Cum venerit ille, adnuntiabit nobis omnia.*   ⚠ NOT in Clementine verbatim — CHECK
+[0339B] *Adnuntiabit nobis omnia,*   ⚠ NOT in Clementine verbatim — CHECK
+[0339C] *Dicit ei Jesus: Ego sum, qui loquor tibi.*   ⚠ NOT in Clementine verbatim — CHECK
+[0339C] *Ego sum*   ✓ 1Par 17:16, 1Par 21:17, 1Rg 1:15, …
+[0339C] *Et continuo venerunt discipuli ejus, et mirabantur, quia cum muliere loquebatur.*   ✓ Jo 4:27
+[0339D] *Nemo tamen dicebat: Quid quaeris aut quid loqueris cum ea?*   ⚠ NOT in Clementine verbatim — CHECK
+[0339D] *Reliquit ergo hydriam suam mulier.*   ✓ Jo 4:28
+[0340B] *Dicit ad Philippum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0340B] *os lampadis*   ⚠ NOT in Clementine verbatim — CHECK
+[0340B] *Unde ememus panes ut manducent hi? Hoc autem dicebat tentans eum,*   ⚠ NOT in Clementine verbatim — CHECK
+[0340C] *Ipse enim sciebat, quid futurum erat facere.*   ⚠ NOT in Clementine verbatim — CHECK
+[0340C] *ipse enim sciebat,*   ✓ Jo 2:25, Jo 6:6
+[0340C] *Respondit ei Philippus: Ducentorum denariorum panes non sufficiunt his, ut unusquisque modicum quid accipiat.*   ⚠ NOT in Clementine verbatim — CHECK
+[0341A] *Dicit ei unus discipulorum ejus Andreas, frater Simonis Petri: Est puerulus unus hic, qui habet quinque [0341B] panes hordeaceos, et duos pisciculos, sed haec quid sunt in tantos?*   ⚠ NOT in Clementine verbatim — CHECK
+[0341B] *Hic*   — single word, check in place
+[0341B] *Qui habet [0341C] quinque panes hordeaceos;*   ✓ Jo 6:9
+[0341C] « Homo, cum in honore esset, non intellexit, comparatus est jumentis insipientibus, et similis factus est illis »   ✓ Ps 48:13, Ps 48:21
+[0342A] *sed hoc quid est in tantos?*   ⚠ NOT in Clementine verbatim — CHECK
+[0342A] « Nec enim oculus vidit, nec auris audivit, nec in cor hominis ascendit, quae praeparavit Deus diligentibus se »   ⚠ NOT in Clementine verbatim — CHECK
+[0342B] *Dicit autem Jesus: Facite homines recumbere. Erat autem foenum multum in loco.*   ⚠ NOT in Clementine verbatim — CHECK
+[0342C] *Recubuerunt ergo viri numero quasi quinque millia.*   ⚠ NOT in Clementine verbatim — CHECK
+[0342D] *Accepit autem panes Jesus, et gratias agens, distribuit recumbentibus, similiter et ex piscibus quantum volebant.*   ⚠ NOT in Clementine verbatim — CHECK
+[0342D] *Et gratias agens, distribuit recumbentibus;*   ⚠ NOT in Clementine verbatim — CHECK
+[0343A] *Ut autem saturati sunt, dicit discipulis suis: Colligite, quae superaverunt, fragmenta, ne quid pereat.*   ⚠ NOT in Clementine verbatim — CHECK
+[0343B] *Colligebant ergo, et impleverunt duodecim cophinos fragmentorum ex quinque panibus hordeaceis, qui superaverant manducantibus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0344B] *Homines ergo videntes, quod fecit signum Jesus, dicebant: Quia ipse est vere propheta, qui venit in mundum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0344B] *quia ipse est vere propheta, qui venit in mundum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0344C] « tulerunt fragmentorum duodecim cophinos plenos, et a piscibus »   ⚠ NOT in Clementine verbatim — CHECK
+[0344C] « et a piscibus »   ⚠ NOT in Clementine verbatim — CHECK
+[0345B] « Non coques haedum in lacte matris suae »   ✓ Dt 14:21, Ex 23:19, Ex 34:26
+[0345B] « Montes exultaverunt ut arietes, et colles sicut agni ovium »   ⚠ NOT in Clementine verbatim — CHECK
+[0345D] « Omnis quippe caro foenum, et omnis gloria ejus flos foeni »   ⚠ NOT in Clementine verbatim — CHECK
+[0346A] « reversus in montem ipse solus »   ⚠ NOT in Clementine verbatim — CHECK
+[0346C] « Abraham »   — single word, check in place
+[0346C] « duos filios habuit, unum quidem de ancilla, alterum de libera »   ⚠ NOT in Clementine verbatim — CHECK
+[0346D] « Haec autem sunt duo Testamenta »   ⚠ NOT in Clementine verbatim — CHECK
+[0346D] « Non coques haedum in lacte matris suae »   ✓ Dt 14:21, Ex 23:19, Ex 34:26
+[0348A] « In principio erat Verbum, et Verbum erat apud Deum et Deus erat Verbum »   ✓ Jo 1:1
+[0348B] *Cetera desunt.*   ⚠ NOT in Clementine verbatim — CHECK
+
+## Totals — 398 spans: 182 ✓ · 0 ⚑ · 186 ⚠ · 30 single-word
+
+**0 of those spans are open-ended** (Migne's quotation runs past its paragraph). Count yours paragraph-bounded and report BOTH numbers.

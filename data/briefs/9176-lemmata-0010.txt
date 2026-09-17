@@ -1,0 +1,160 @@
+# 9176 — lemma inventory and Clementine pre-scan
+
+**Commentarius in Evangelium secundum Joannem** · PL 122 · cols 0297A–0348B · 15 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0010–0012, bands 0329B–0339D (83 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[0329B] *Quem enim misit Deus, verba Dei loquitur.*   ✓ Jo 3:34
+[0329C] *Quem misit Deus, verba Dei loquitur?*   ⚠ NOT in Clementine verbatim — CHECK
+[0329C] *Quem misit Deus,*   ⚠ NOT in Clementine verbatim — CHECK
+[0329C] *verba Dei loquitur;*   ✓ Jo 3:34
+[0329D] *Non enim ex mensura dat Deus spiritum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0329D] « Alii datur per Spiritum sermo sapientiae, alii sermo scientiae »   ⚠ NOT in Clementine verbatim — CHECK
+[0329D] « Unus autem operatur [0330A] atque idem Spiritus, dividens singulis propria, prout vult »   ⚠ NOT in Clementine verbatim — CHECK
+[0330A] *Pater diligit Filium et omnia dedit in manu ejus.*   ✓ Jo 3:35
+[0330A] *Pater diligit Filium,*   ✓ Jo 3:35
+[0330B] « Omnia in sapientia fecisti »   ✓ Ps 103:24
+[0330B] *omnia dedit in manu ejus,*   ✓ Jo 3:35
+[0330B] *Qui credit in Filium, habet vitam aeternam.*   ✓ Jo 3:36
+[0330B] « Ego sum veritas et vita »   ⚠ NOT in Clementine verbatim — CHECK
+[0330B] *qui credit in Filium, habet vitam aeternam.*   ✓ Jo 3:36
+[0330B] *Qui autem non credit in Filio, non videbit vitam aeternam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0330B] *Sed ira Dei manet super eum.*   ✓ Jo 3:36
+[0330C] *manet super eum.*   ✓ Jo 3:36
+[0330C] *ira Dei?*   ✓ 1Thes 2:16, 2Mcc 5:20, Apc 15:1, …
+[0330C] « Maledicta terra in operibus tuis »   ⚠ NOT in Clementine verbatim — CHECK
+[0330C] « Fuistis aliquando filii irae sicut et ceteri »   ⚠ NOT in Clementine verbatim — CHECK
+[0330C] *Ut ergo cognovit Jesus, quia audierant Pharisaei, quia Jesus plures discipulos facit, et baptizat, quam Joannes, etsi Jesus ipse non baptizavit, sed discipuli [0330D] ejus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0330D] *Reliquit Judaeam, et abiit iterum in Galilaeam,*   ✓ Jo 4:3
+[0331C] *Abiit iterum in Galilaeam.*   ✓ Jo 4:3
+[0331C] « Posthac venit Jesus et discipuli ejus in Judaeam terram »   ⚠ NOT in Clementine verbatim — CHECK
+[0331C] « Dum autem venit plenitudo temporum, misit Deus Filium suum factum ex muliere, factum sub lege »   ⚠ NOT in Clementine verbatim — CHECK
+[0331C] « ut eos, qui sub lege erant, redimeret »   ✓ Gal 4:5
+[0331C] *abiit in Galilaeam.*   ✓ Jo 4:43
+[0331D] *Oportebat autem transire per Samariam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0332A] *transmigratio facta*   ⚠ NOT in Clementine verbatim — CHECK
+[0332A] *revolutio*   — single word, check in place
+[0332B] *Venit autem Jesus in civitatem Samariae, quae dicitur Sichar, juxta praedium, quod dedit Jacob Joseph filio suo.*   ⚠ NOT in Clementine verbatim — CHECK
+[0332C] *conclusio*   — single word, check in place
+[0332C] *ramus*   — single word, check in place
+[0332C] *numeri*   — single word, check in place
+[0332C] *fons Jacob,*   ✓ Jo 4:6
+[0332D] *Jesus ergo fatigatus ex itinere sedit sic super fontem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0333A] *Sedit super fontem.*   ⚠ NOT in Clementine verbatim — CHECK
+[0333B] *Hora erat quasi sexta.*   ✓ Jo 4:6
+[0333C] *Venit mulier ex Samaria haurire aquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0333D] *Dicit ei Jesus: Da mihi bibere. Discipuli enim ejus abierant in civitatem, ut cibos emerent.*   ⚠ NOT in Clementine verbatim — CHECK
+[0334A] *Dicit ergo ei mulier Samaritana: Quomodo tu, Judaeus cum sis, a me bibere petis, dum sim mulier Samaritana? Non enim coutuntur Judaei Samaritanis.*   ⚠ NOT in Clementine verbatim — CHECK
+[0334B] *non enim coutuntur Judaei Samaritanis,*   ✓ Jo 4:9
+[0334C] *Respondit Jesus et dixit ei: Si scires donum Dei, et quis est, qui dicit tibi: Da mihi bibere, tu petisses eum, et dedisset tibi aquam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0334C] *Dicit ei mulier: Domine, neque hauritorium habes, et puteus altus est. Quomodo ergo habes aquam vivam?*   ⚠ NOT in Clementine verbatim — CHECK
+[0335A] *Numquid tu major es patre nostro Jacob, qui dedit nobis puteum, et ipse ex eo bibebat, et filii sui, et pecora sua?*   ⚠ NOT in Clementine verbatim — CHECK
+[0335A] *Numquid tu major es patre nostro Jacob?*   ✓ Jo 4:12
+[0335B] *Respondit Jesus et dixit ei: Omnis qui bibit ex aqua hac,*   ✓ Jo 4:13
+[0335B] *sitiet iterum,*   ✓ Jo 4:13
+[0335B] *Quicumque autem biberit ex aqua, quam ego dabo ei, non sitiet in aeternum.*   ⚠ NOT in Clementine verbatim — CHECK
+[0335B] « Satiabor, cum apparuerit gloria tua »   ✓ Ps 16:15
+[0335B] *Sed aqua, quam dabo ei, fiet in eo fons aquae salientis in vitam aeternam.*   ⚠ NOT in Clementine verbatim — CHECK
+[0335C] *Dicit ad eum mulier: Domine, da mihi hanc aquam ut non sitiam, neque veniam huc haurire.*   ✓ Jo 4:15
+[0335C] *Dicit ei Jesus: Vade, voca virum tuum, et veni huc.*   ✓ Jo 4:16
+[0336A] « Caput mulieris vir, caput viri Christus, caput Christi Deus »   ⚠ NOT in Clementine verbatim — CHECK
+[0336C] *voca virum tuum et veni huc;*   ✓ Jo 4:16
+[0336C] *Respondit mulier et dixit ei: Non habeo virum. Dicit ei Jesus: Bene dixisti, quia virum non habes.*   ⚠ NOT in Clementine verbatim — CHECK
+[0336D] *Quinque enim viros habuisti, et nunc quem habes, non est tuus vir; hoc vere dixisti.*   ✓ Jo 4:18
+[0337A] *et nunc quem habes non est tuus vir;*   ✓ Jo 4:18
+[0337C] « Virtus peccati lex »   ⚠ NOT in Clementine verbatim — CHECK
+[0337C] « Lex autem subintravit, ut abundaret peccatum »   ⚠ NOT in Clementine verbatim — CHECK
+[0337C] *Et nunc quem habes non est tuus vir;*   ✓ Jo 4:18
+[0337D] *Dicit ei mulier: Domine, video, quia propheta es tu.*   ✓ Jo 4:19
+[0338A] *Patres nostri in monte hoc adorabant.*   ⚠ NOT in Clementine verbatim — CHECK
+[0338B] *Dicit ei Jesus: Mulier, crede mihi, quia venit hora quando neque in monte hoc, neque in Hierosolimis adorabitis Patrem. Vos adoratis, quod nescitis, nos adoramus, quod scimus.*   ⚠ NOT in Clementine verbatim — CHECK
+[0338C] « Philippe, qui me videt, et Patrem meum videt »   ⚠ NOT in Clementine verbatim — CHECK
+[0338C] *Quia salus ex Judaeis.*   ✓ Jo 4:22
+[0338C] *quia salus ex Judaeis,*   ✓ Jo 4:22
+[0338C] *Sed venit hora et nunc est.*   ✓ Jo 4:23
+[0338D] *Quando veri adoratores adorabunt Patrem in spiritu et veritate.*   ✓ Jo 4:23
+[0339A] *Etenim Pater tales quaerit adorantes se,*   ⚠ NOT in Clementine verbatim — CHECK
+[0339A] *Spiritus Deus, et adorantes se in spiritu et veritate oportet adorare.*   ⚠ NOT in Clementine verbatim — CHECK
+[0339A] *Dicit ei mulier: Scio, quia Messias venit, qui dicitur Christus.*   ✓ Jo 4:25
+[0339A] « venit hora et nunc est »   ✓ Jo 4:23, Jo 5:25
+[0339B] *Scio quia Messias venit. Venit*   ⚠ NOT in Clementine verbatim — CHECK
+[0339B] « veniet »   — single word, check in place
+[0339B] *venit,*   — single word, check in place
+[0339B] *Cum venerit ille, adnuntiabit nobis omnia.*   ⚠ NOT in Clementine verbatim — CHECK
+[0339B] *Adnuntiabit nobis omnia,*   ⚠ NOT in Clementine verbatim — CHECK
+[0339C] *Dicit ei Jesus: Ego sum, qui loquor tibi.*   ⚠ NOT in Clementine verbatim — CHECK
+[0339C] *Ego sum*   ✓ 1Par 17:16, 1Par 21:17, 1Rg 1:15, …
+[0339C] *Et continuo venerunt discipuli ejus, et mirabantur, quia cum muliere loquebatur.*   ✓ Jo 4:27
+[0339D] *Nemo tamen dicebat: Quid quaeris aut quid loqueris cum ea?*   ⚠ NOT in Clementine verbatim — CHECK
+[0339D] *Reliquit ergo hydriam suam mulier.*   ✓ Jo 4:28
