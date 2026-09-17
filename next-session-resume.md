@@ -46,7 +46,26 @@ Wilson approved launching before the `[vl:]` ruling. Three Opus stints on **9176
 injected**, marker unapproved), `data/briefs/9176-PENDING-TEI-PATCHES-<first>.md`.
 **Next session: check disk for all four files per stint (a stalled agent can leave a hole the
 verifier won't see), run `verify-english 9176`, merge plate reads into `data/plate-reads.json`,
-fold cruces files, commit.** Still owed after that: implement `[vl:]` (approved) and inject the
+fold cruces files, commit.**
+
+✅ **Stint 0001–0003 DONE and committed** (verify clean for its chunks; plate reads n186–n191
+with Princeton PA301–309 for clipped right margins; 5 TEI divergences filed, 7 `[var:]`, 7 VL
+notes recorded, not injected). ⚑ **Three things it raised that need Wilson:**
+1. **0306D: both plate copies LACK a line the TEI has** (*est, non incongrue corrigiam calceamenti
+   ejus*), and at all 5 divergences the TEI is the better reading → CC likely used a later,
+   corrected printing set line-for-line (cf. PL 114's two printings). The English followed the
+   rule and renders the plate, so that sentence does not construe. Which printing does the
+   English follow on PL 122?
+2. **0302C: plate *sinu* + a one-letter blank** in both copies; the argument needs *sinum* (TEI).
+   Dropped sort (render *sinum*) vs plate as printed.
+3. ⭐ **A FOURTH foot layer: *NOTAE*, lettered, prose** (n188, n190, n191; Jerome's etymologies
+   with Hebrew; n191's opens *J. Scotus pessime omnino docet…* — an editor censuring Eriugena).
+   By content = the lettered prose class → `[cn: a | …]` Latin + `[nt:]` English under the
+   2026-09-08 ruling, but whose voice (Floss's? Migne's?) must be settled before labelling.
+   Recorded under `notae` in `data/briefs/9176-PLATE-READS-0001.json`. Hebrew not reliable.
+Small: pilot's clean *Ariopagitam* (n186) re-read as possibly *Ariovagitam* — unsettled.
+
+Still owed after that: implement `[vl:]` (approved) and inject the
 stints' recorded `variae_lectiones`, 0010–0014, the three fragments, the blind read.
 
 ---

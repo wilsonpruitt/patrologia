@@ -1,0 +1,183 @@
+{
+  "_note": "Stint-scoped plate reads for 9176 chunks 0001-0003 (bands 0300C-0309D). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES (per brief) and a 'notae' array for a SECOND foot layer headed NOTAE that the brief did not anticipate (see its _note).",
+  "series": "pl",
+  "volume": 122,
+  "scan": "archive.org patrologiaecurs113unkngoog page images, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg, 4309x6684, one fetch per leaf, cropped locally with PIL (column halves at 0.32x, single lines at 0.6-2.0x). No crop crossed the centre gutter. Leaves and crops deleted after use.",
+  "page_map": "leaf = (odd column + 73) / 2. CONFIRMED on all six leaves by the printed corners read before any text: n186=299/300, n187=301/302, n188=303/304 (right corner clipped off the archive image; 304 read on Princeton PA303), n189=305/306, n190=307/308 (right corner clipped; 308 read on Princeton PA307), n191=309/310.",
+  "second_witness": "Google Books Princeton YkVOAAAAYAAJ, signed-src fetch per PL122-WITNESSES.md (a fresh cookie jar per page; reusing the jar returned pages without src). pg=PA<odd col> held: PA301, PA303, PA305, PA307, PA309 all fetched and used. Used (a) for every word-level TEI divergence, (b) to READ the right-hand column words that the archive image clips on n188 and n190 (the archive photographs cut 1-10 characters off the right column's line ends on those two leaves; every clipped line was read in full on Princeton and matched the TEI). Never q2mQHvy4_usC.",
+  "reads": [
+    {
+      "from": "0300C",
+      "to": "0300D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n186",
+      "source": "archive n186. CALIBRATION: corners 299 (inked blotchy) / 300 (clean), head 'JOANNIS SCOTI'. Crops: right column lower half at 0.3x; lines 'plenitudinis Christi additur quod ait ;' and 'hoc est in toto homine' at 0.6x; foot at 0.4x and 1.0x. Only the part of col 300 from 'in qua purae veritatis' (end of chunk 0000) to the foot was collated by this stint.",
+      "found": "Running text 'Deum nemo vidit unquam. Ad cumulum ... Verbo vero incarnato domi-' matches the twin word for word. Migne prints em-dashes round 'ipsius namque contemplatio vera est beatitudo' (twin '--'). Punctuation only: 'hoc est in toto' without the twin's comma; 'quod ait ;'. Band D printed beside 'solum se ipsum aperuit', twin anchor two words earlier (band arithmetic, not reported). No divergence filed."
+    },
+    {
+      "from": "0301A",
+      "to": "0302D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n187",
+      "source": "archive n187. CALIBRATION: corners 301 / 302, head 'COMMENT. IN EVANG. SEC. JOAN.' Crops: all four column halves at 0.32x; 'intellectuum' line at 0.7x; 'in sinu   Patris' at 0.7x and 2.0x; foot note at 0.9x. Princeton PA301 right column at 2.2x.",
+      "found": "Both columns collated word by word. TWO DIVERGENCES filed: 0302B plate 'intellectuum' (twin 'intellectum'), Princeton agrees; 0302C plate 'in sinu' + one-letter blank (twin 'sinum'), Princeton shows the same blank. Confirmed as printed: Floss's bracketed '[dicatur de]' (0301C); 'possidebunt' with singular 'unusquisque' (0302D); 'diligetur' at 0301D. Scripture sites confirmed for [var:]: 0300D (n186) Matt 11:27 'Nemo vidit Filium'; 0302A 1 John 3:2 'Scimus autem quia, cum ipse apparuerit, videbimus eum'."
+    },
+    {
+      "from": "0303A",
+      "to": "0304D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n188",
+      "source": "archive n188. CALIBRATION: left corner 303, head 'JOANNIS SCOTI'; right corner NOT on the archive image (margin clipped), read '304' on Princeton PA303. Crops: left column halves at 0.32x; right column halves re-cropped to the clipped edge at 0.32x. Princeton PA303 right column at 2.2x, used to read the clipped line ends of the whole of col 304.",
+      "found": "Both columns collated word by word (col 304 line ends on Princeton). No divergence. Confirmed as printed: 'Helias es tu? Et dixit: Non sum.'; 'Propheta es tu? Respondit: Non.'; 'Dixerunt ergo ei ; Quis es?'; 'Ego sum vox clamantis in deserto.'; 'Ipse enim vocat ea, quae sunt, tanquam quae non sunt' (0304D, the reversal of Rom 4:17 is on the plate, [var:] fired); 'Judaea enim confessio interpretatur' with raised key a (NOTAE, below)."
+    },
+    {
+      "from": "0305A",
+      "to": "0306D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n189",
+      "source": "archive n189. CALIBRATION: corners 305 / 306, head 'COMMENT. IN EVANG. SEC. JOAN.' Crops: four column halves at 0.32x; Greek lines at 0.7x and 1.2x; foot at 0.8x; col 306 foot at 0.7x. Princeton PA305 left column Greek at 3.0x, right column foot at 2.4x.",
+      "found": "Both columns collated. TWO DIVERGENCES filed: 0305B plate 'φωσφόρος' (twin 'Φόσφορος'), Princeton agrees (letter-level Greek, flagged); 0306D plate OMITS the whole line 'est, non incongrue corrigiam calceamenti ejus' after 'caro Verbi', Princeton identical (word-level, seven words). Confirmed as printed: 'quis vos liberabit a superventura ira' (0305C, [var:] fired); 'Medius autem vestrum stat' (0306A, [var:] fired); 'in divina disputatione et praedicatione' (0306A); 'Et qui missi fuerunt' (0305C)."
+    },
+    {
+      "from": "0307A",
+      "to": "0308D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n190",
+      "source": "archive n190. CALIBRATION: left corner 307 (last digit blotched, '30?'), head 'JOANNIS SCOTI'; right corner clipped off the archive image; Princeton PA307 head read FIRST: '307' / '308'. Crops: left column halves at 0.32x; right column halves to the clipped edge at 0.32x. Princeton PA307 right column at 2.3x for all of col 308's line ends.",
+      "found": "Both columns collated word by word (col 308 line ends on Princeton). No divergence. Confirmed as printed: 'Lex et prophetae usque ad Joannem, et ab eo regnum caelorum' (0308B, [var:] fired); 'ad integram plenissimamque divinae speculationis humana natura introducetur' (0308A, no noun for the adjectives, crux); 'tres τελεταί ... altera συνάξεως' with raised key 1; 'obtinet' with key 2; 'Bethania interpretatur domus obedientiae' key a; 'Jerusalem quippe visio pacis interpretatur' key b."
+    },
+    {
+      "from": "0309A",
+      "to": "0309D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n191",
+      "source": "archive n191. CALIBRATION: corners 309 / 310, head 'COMMENT. IN EVANG. SEC. JOAN.' Crops: left column halves at 0.32x; 'remota' line at 0.7x; whole foot at 0.45x; right column at 0.18x ONLY to locate the NOTAE key (col 310 is not this stint's range and was not collated). Princeton PA309 left column at 3.0x.",
+      "found": "Col 309 collated word by word. ONE DIVERGENCE filed: 0309C plate 'remota' (twin 'remote'), Princeton agrees (single letter, flagged). Confirmed as printed: 'Et ab eo regnum caelorum' (0309D, [var:] fired). Col 310 NOT collated."
+    }
+  ],
+  "variae_lectiones": [
+    {
+      "leaf": "n186",
+      "cols": "299/300",
+      "key": "1",
+      "note_text_as_printed": "Cod possidet.",
+      "anchor_words": "Quidquid gratia possideo, non aliunde (0299B/C, chunk 0000)",
+      "uncertain_letters": "Initial p renders v-like ('vossidet') on the bitonal scan; the pilot recorded 'Cod. possidet.' Period after Cod not visible at 1.0x. Re-read here only because the leaf was open; the note belongs to chunk 0000."
+    },
+    {
+      "leaf": "n186",
+      "cols": "299/300",
+      "key": "2",
+      "note_text_as_printed": "Cod. Ariopagitam.",
+      "anchor_words": "legat sanctum Dionysium Areopagitam (0300C, chunk 0000)",
+      "uncertain_letters": "⚠ the letter after 'Ario' reads v-like at 1.0x ('Ariovagitam'); the pilot recorded 'Ariopagitam' as clean. Given that the p of 'possidet' in the same line renders identically, p is the likelier reading, but it is NOT settled by this read. Same a/u doubt class as n99's 'ariovugitae'."
+    },
+    {
+      "leaf": "n187",
+      "cols": "301/302",
+      "key": "1",
+      "note_text_as_printed": "Cod. cur cum.",
+      "anchor_words": "Sed non immerito quaeritur, cur in Veteri Testamento et in Novo (0301A)",
+      "uncertain_letters": "none; 'cur cum' italic, clean at 0.9x"
+    },
+    {
+      "leaf": "n188",
+      "cols": "303/304",
+      "key": "1",
+      "note_text_as_printed": "cod. doctrinam et manifestationem.",
+      "anchor_words": "Enarravit; hoc est, doctrina et manifestatione suae incarnationis Deum invisibilem (0303A)",
+      "uncertain_letters": "'cod.' appears lower-case at 0.32x (other pages print 'Cod.'); not confirmed at higher zoom. Key sits after 'manifestatione'."
+    },
+    {
+      "leaf": "n189",
+      "cols": "305/306",
+      "key": "1",
+      "note_text_as_printed": "Cod θρέφος.",
+      "anchor_words": "Ἀκρὶς quippe interpretatur locusta, μελὶ mel, τροφὴ esca; ἀκριδομελιτροφὸς itaque (0305C)",
+      "uncertain_letters": "⚠ Greek second vowel undecided between ε and ο ('θρέφος' / 'θρόφος') at 0.8x; the aspirate θ is clear. Period after Cod not visible. Key sits after τροφὴ."
+    },
+    {
+      "leaf": "n189",
+      "cols": "305/306",
+      "key": "2",
+      "note_text_as_printed": "Cod. Fariseis.",
+      "anchor_words": "Et qui missi fuerunt, erant ex Pharisaeis. Quaeritur, quare Pharisaei (0305C)",
+      "uncertain_letters": "none"
+    },
+    {
+      "leaf": "n189",
+      "cols": "305/306",
+      "key": "3",
+      "note_text_as_printed": "Cod. diffinitus.",
+      "anchor_words": "priusquam fieret mundus, definitus est, quod post me venturus (0306A)",
+      "uncertain_letters": "'ffi' ligature cluster read at 0.8x; 'diffinitus' is the expected medieval spelling, but the middle letters are blotched"
+    },
+    {
+      "leaf": "n190",
+      "cols": "307/308",
+      "key": "1",
+      "note_text_as_printed": "Cod. synaxios.",
+      "anchor_words": "quarum una baptismatis est, altera συνάξεως, hoc est, communionis corporis (0308C)",
+      "uncertain_letters": "none at 0.32x; Latin letters, italic"
+    },
+    {
+      "leaf": "n190",
+      "cols": "307/308",
+      "key": "2",
+      "note_text_as_printed": "Cod. optinet.",
+      "anchor_words": "inter praeteritum legis, et futurum beatae vitae obtinet. In quibusdam quippe (0308C)",
+      "uncertain_letters": "none"
+    },
+    {
+      "leaf": "n191",
+      "cols": "309/310",
+      "key": "-",
+      "note_text_as_printed": "(no VARIAE LECTIONES rule on this page)",
+      "anchor_words": "-",
+      "uncertain_letters": "CHECKED ZERO: the foot carries only a NOTAE rule (below)"
+    }
+  ],
+  "notae": {
+    "_note": "⚠ NOT anticipated by the brief or by PL122-VARIAE-LECTIONES-RULING.md. Below the VARIAE LECTIONES on n188, n190 and n191 Floss prints a SECOND rule headed NOTAE, keyed by raised LETTERS (a, b) in the running text: explanatory PROSE notes (Jerome's etymologies with Hebrew, and on n191 a doctrinal censure of Eriugena). By content this is the 8950 letter-key class in CLAUDE.md (a sentence, so it would take [cn: a | ...] in the Latin and a translated [nt:] in the English) — but the brief forbids injecting anything, so NOTHING was placed in either twin. Recorded for the orchestrator's ruling. Hebrew is NOT letter-exact on either witness.",
+    "items": [
+      {
+        "leaf": "n188",
+        "cols": "303/304",
+        "key": "a",
+        "note_text_as_printed": "Hieronymus : Juda, laudatio, confessio. Nam [Hebrew, read as יהודה] dicitur a verbo [Hebrew, read as ידה] Hiph. [Hebrew, read as הודה], id est, confiteri.",
+        "anchor_words": "quae prius confessio dicta est, Judaea enim confessio interpretatur, in negationem omnino veritatis (0304B)",
+        "uncertain_letters": "all Hebrew; the note runs across both columns and its right half was read on Princeton PA303"
+      },
+      {
+        "leaf": "n190",
+        "cols": "307/308",
+        "key": "a",
+        "note_text_as_printed": "Hieronymus : Bethania, domus afflictionis ejus, vel domus obedientiae. Bethania derivatur a verbo [Hebrew, read as ענה] respondere, obedire, depressus esse.",
+        "anchor_words": "trans Jordanem, hoc est ultra Jordanem. Bethania interpretatur domus obedientiae. Sunt autem duae Bethaniae (0307C)",
+        "uncertain_letters": "Hebrew verb; 'respondere' partly blotched"
+      },
+      {
+        "leaf": "n190",
+        "cols": "307/308",
+        "key": "b",
+        "note_text_as_printed": "S. Hieronymus : Jerosolyma, visio pacis. J. Scotus vocem infra interpretatur templum pacis. Vox derivatur a [Hebrew, read as ראה שלם].",
+        "anchor_words": "juxta Jerusalem posita est. Jerusalem quippe visio pacis interpretatur. Quae caelestem civitatem significat (0308A)",
+        "uncertain_letters": "Hebrew; read on Princeton PA307"
+      },
+      {
+        "leaf": "n191",
+        "cols": "309/310",
+        "key": "a",
+        "note_text_as_printed": "J. Scotus pessime omnino docet, primum hominem ante praevaricationem simplicem hominem [continues; not read further]",
+        "anchor_words": "per corruptionem generatio, poena generalis peccati est, quo simul totum genus humanum (col 0310, NOT this stint's range)",
+        "uncertain_letters": "only the first line was read; the note and its key belong to the peer stint covering col 310"
+      }
+    ]
+  }
+}
