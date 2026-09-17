@@ -100,6 +100,13 @@ Readers' reports are in `data/briefs/PL122-BLIND-READ-R*.md`.
   against the Latin: all *intellectus*). Normalized to "understanding(s)" per E4 and chunks 0000–0012; "sense" was not used,
   because the argument there also turns on the bodily *sensus*. R5's F5 (*tentator*) was withdrawn by the reader: both
   copies print it.
+- **R1 (0000–0002 + plate collation of 0297A–0300B, the columns the pilot had not collated):** applied 0297A *omnes homines
+  eum non recepisse* → "that all men had failed to receive him" ("all men did not" reads as "not all"); 0302D *pro suis
+  meritis et ipsius gratia* → "his own merits and Christ's grace"; 0302B *in eis quaerentibus et diligentibus* → "in them,
+  as they seek and love him". **Plate:** VL ¹ on n186 is keyed after ***habitat*** (`habitat ¹?`), not after *possideo*, so the
+  pilot's table above was wrong. Now placed, **49/51**. Patched toward the plate: 0300B *secundam* (agrees with *unam …
+  traditam*), 0298A *fieret?*, 0297A **16** leader dots (was 17). **Crux only (E11):** 0299D plate *ipse est veritatis*; the
+  TEI's *veritas* construes and stands. `[var:]` fired at 0299A (Jn 1:29 splice). Chunk 0002 clean.
 
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
@@ -124,6 +131,8 @@ inter nos homines*) — but his second gloss, *naturam nostram possedit*, only w
 literal *in nobis*. Rendered literally so both glosses stand (E6).
 
 ## Col 0299A (chunk 0000) — `[var:]` CANDIDATE for the collation stint
+
+✅ **FIRED 2026-09-16** after R1's full plate collation of 0297A–0300B.
 
 *Ecce Agnus Dei qui post me venturus est.* The Vulgate has *Ecce agnus Dei, ecce qui tollit
 peccatum mundi* (John 1:29) and *Hic est de quo dixi: Post me venit vir* (1:30); Eriugena's

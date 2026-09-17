@@ -9717,6 +9717,15 @@
    "note": "Merged 2026-09-16 from stints 0001-0003, 0004-0006, 0007-0009 (data/briefs/9176-PLATE-READS-*.json, which also hold the VARIAE LECTIONES and NOTAE arrays for injection). Chunk 0000 (register pilot) read heads/feet only and records no range here. Stint-scoped plate reads for 9176 chunks 0001-0003 (bands 0300C-0309D). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES (per brief) and a 'notae' array for a SECOND foot layer headed NOTAE that the brief did not anticipate (see its _note). | Stint-scoped plate reads for 9176 chunks 0004-0006 (bands 0309D-0320C). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES per leaf (drafted [vl:] marker NOT approved; nothing injected) and a separate record of the lettered NOTAE layer found on these leaves. | Stint-scoped plate reads for 9176 chunks 0007-0009 (bands 0320C-0329B). Merge into data/plate-reads.json works.9176.reads[]. variae_lectiones arrays are recorded per the PL122 ruling draft; NOTHING was injected into the Latin and no apparatus marker is in the English. | Stint-scoped plate reads for 9176 chunks 0010-0012 (bands 0329B-0340A). Merge into data/plate-reads.json works.9176.reads[]. Floss rows are in data/briefs/9176-PLATE-NOTES-0010.tsv; nothing injected. | Stint-scoped plate reads for 9176 chunks 0013-0014 (bands 0340A-0348B, the end of the work). Merge into data/plate-reads.json works.9176.reads[]. Floss rows are in data/briefs/9176-PLATE-NOTES-0013.tsv; nothing injected into the Latin.",
    "reads": [
     {
+     "from": "0297A",
+     "to": "0300B",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n185, n186",
+     "source": "archive.org patrologiaecurs113unkngoog page/n185.jpg + n186.jpg, leaf=(col+73)/2, corners 297/298 and 299/300 read first; second witness Princeton YkVOAAAAYAAJ PA297/PA299 (reproduces the archive's broken sorts: same stereotype plates, weak for letters)",
+     "found": "Blind reader R1. Title block absent from TEI (head matter, owed); 0299C VL key 1 after habitat (placed); 0299D plate veritatis vs TEI veritas (E11: TEI construes, crux only); 0300B secundam (patched); 0298A fieret? (patched); 0297A 16 leader dots (patched); minor commas not actioned."
+    },
+    {
      "from": "0300C",
      "to": "0300D",
      "depth": "full",

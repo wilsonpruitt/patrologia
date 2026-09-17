@@ -126,6 +126,27 @@
    "find": "una ea lemque evangelistae",
    "replace": "una eademque evangelistae",
    "why": "PLATE READ 2026-09-16 (stint 0013, data/briefs/9176-PENDING-TEI-PATCHES-0013.md): archive n210 + Princeton PA347: eademque. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0297A",
+   "find": "<emph>. . . . . . . . . . . . . . . . .</emph>",
+   "replace": "<emph>. . . . . . . . . . . . . . . .</emph>",
+   "why": "PLATE READ 2026-09-16 (blind reader R1's collation of 0297A–0300B, data/briefs/PL122-BLIND-READ-R1.md): archive n185 shows a thickened first mark + 15 dots; Princeton PA297 prints 16 clearly. Floss's lacuna dots carried dot for dot (E7)."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0298A",
+   "find": "ut homo filius Dei fieret! Descendit",
+   "replace": "ut homo filius Dei fieret? Descendit",
+   "why": "PLATE READ 2026-09-16 (blind reader R1's collation of 0297A–0300B, data/briefs/PL122-BLIND-READ-R1.md): archive n185 + Princeton PA297 both print '?': the sentence is the rhetorical quid mirum, si … question."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0300B",
+   "find": "traditam; secundum, quam et mediam dicimus",
+   "replace": "traditam; secundam, quam et mediam dicimus",
+   "why": "PLATE READ 2026-09-16 (blind reader R1's collation of 0297A–0300B, data/briefs/PL122-BLIND-READ-R1.md): archive n186 + Princeton PA299 both print secundam, agreeing with unam … traditam; the twin's secundum does not construe. Letter-level (a/u), and R1 notes Princeton reproduces the archive copy's broken sorts (same stereotype plates), so the second witness is weak for letters; accepted because only the plate reading construes."
   }
  ]
 }
