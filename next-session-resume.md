@@ -1,6 +1,46 @@
 # Next session — resume note
 
-## ▶▶▶▶▶ START HERE (next session) — ERIUGENA, FOUR WORKS DONE MAXIMALLY · THEN A QUEUE OF OTHER VARIETIES
+## ▶▶▶▶▶ START HERE — ERIUGENA REGISTER PILOT DONE (Fable, 2026-09-16) · TWO THINGS OWED FROM WILSON BEFORE THE RUN
+
+**Done this session (Fable):** the register pilot for 9176, step 1 of the "maximally" plan below.
+- **`translation-style.md` → new section "Eriugena — register rules E1–E9"** (before `## Patterns`).
+  ⚠ The vocabulary the plan guessed (*processio, superessentialis, causae primordiales*) is
+  *Periphyseon* vocabulary and occurs ZERO times in 9176; E4's table is calibrated on what the
+  work prints (*natura* 110, *hoc est* 118, *theoria*, *inhumanatio* beside *incarnatio*,
+  *deificatio*, *ierarchia*, the Greek quoted 23 times).
+- **Anchor pair: `src/english/9176/0000.md`** (1,355 → 1,922 words, verify-english clean for the
+  chunk; the other 14 are simply missing) **+ `src/english/9176/cruces.md`** with the standing
+  decisions and one `[var:]` candidate (0299A) parked for the collation stint. **No marker fired**
+  — the pilot read heads/feet, not running text column by column; `plate-reads.json` untouched.
+- **Plates:** map `leaf = (col + 73) / 2` re-confirmed at BOTH ends of 9176 (n185 = 297/298;
+  n210 = 347/348, where Floss's full-width *De praedestinatione* preface begins on the same
+  leaf). Leaves n185/n186/n195/n205/n210 fetched to the session scratchpad only (2–3 MB each;
+  do not commit).
+- **`data/briefs/PL122-VARIAE-LECTIONES-RULING.md`** — the marker draft. Findings that shaped it:
+  the apparatus is **sparse** (~0.5–1 note/leaf → ~15–25 for 9176); **numbering restarts every
+  page**; every 9176 note reads `Cod. <word>` because Floss edited from ONE manuscript (Laon 81,
+  named in a title block **absent from the TEI entirely**), so **the printed text is Floss's
+  emendation and the note is the witness** — the mirror of Migne's *Forte*. Three notes read on
+  the anchor's leaves are tabled in the cruces file.
+
+### ▶ OWED FROM WILSON
+1. **The marker: `[vl: key | note]`, Latin-only, no English twin, rendered with the label
+   "Floss, var. lect." — OK?** (Brief above; it touches injector, verifier, page builder,
+   scan-raw-markers, and the TSV gets a layer flag.)
+2. **The run.** 17 chunks remain (9176 0001–0014 + the three fragments), Opus, from
+   `translation-runbook.md` with E1–E9 and the 9176 anchor in every prompt. Quote unchanged at
+   **~2.5–3M** (73K/chunk with plates read inline ≈ 1.3M, plus full-column collation of all 26
+   leaves with Google second-witness fetches, `[vl:]` recovery, and the deeper blind read).
+   Order: implement `[vl:]` → chunk-time prep (title-block head patch for 9176, sigla head for
+   9181, spot checks recorded in `coverage.json`) → fragments (prove the machinery on 887
+   words) → 9176 in 3-chunk stints, 3 agents at a time. **"Which model, and go?"**
+
+Open rulings carried: verse lineation · book-title head extension (now also needed for 9176's
+title block) · PL 113 CC gaps.
+
+---
+
+## (was: START HERE) 2026-09-16 — ERIUGENA, FOUR WORKS DONE MAXIMALLY · THEN A QUEUE OF OTHER VARIETIES
 
 **Wilson's direction, 2026-09-16:** *slow down shipping on PL 122; do not run all of Eriugena. Do a
 few of them maximally, then set up the queue for other varieties of untranslated texts.* Plan

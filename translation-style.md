@@ -331,6 +331,104 @@ contents untranslated (they are variant Latin, same family as the bracketed-vari
 convention). The printed word outside the parenthesis is what gets rendered — or
 carried, if it is not a word.
 
+## Eriugena — register rules (Fable mini-pilot on 9176, 2026-09-16)
+
+Calibrated on the *Commentarius in Evangelium secundum Joannem* (PL 122, Floss 1853, from the
+single Laon codex 81), with 9175/9178/9181 read alongside. The genre is lemma-and-gloss
+commentary, which the corpus knows — but Eriugena glosses with a Greek-trained ear and a fixed
+Dionysian vocabulary, and his arguments move BY those words. These rules extend Tier-2; nothing
+here relaxes Patterns 7–19. ⚠ The resume note's guess at his vocabulary (*processio,
+superessentialis, causae primordiales*) is *Periphyseon* vocabulary and occurs **zero** times in
+9176; the rules below are calibrated on what the work actually prints. Anchor pair:
+`src/latin/9176/0000.md` + `src/english/9176/0000.md`.
+
+### E1. *hoc est* is the spine — "that is," every time
+
+118 instances in 20K words: italic lemma, then *hoc est*, then the gloss. Render **"that is,"**
+uniformly — never "i.e.", "in other words", "meaning", and never dropped or fused into the
+lemma. *id est* (35) is also "that is,"; the twin keeps the distinction. The formula is what
+makes a sentence readable as commentary rather than prose, so its shape must be invariant.
+*subauditur / ut subaudiatur* → "it is to be understood:" / "so that it be understood:".
+
+### E2. *Ac si diceret* — the evangelist ventriloquised, no quotation marks
+
+*Ac si diceret* / *dixisset* / *aperte diceret* → "As if he said:" / "As if he had said:" /
+"As if he openly said:", colon as printed, and the paraphrase that follows takes **no
+quotation marks** unless Migne prints them (Pattern 6). It is Eriugena's voice standing in for
+the evangelist's; supplying " " would turn a paraphrase into a citation.
+
+### E3. Greek stays Greek, and his Latin gloss of it is what gets rendered
+
+Eriugena quotes the Greek himself (23 sites: ἐρχόμενος, ἔμπροσθέν μου, ἄνωθεν, ἔρημος,
+Πρόδρομος, ἀκριδομελιτροφός…). **Carry the Greek verbatim in the English, in Greek script,
+never transliterated, never translated away**; render his Latin gloss beside it. *sicut in
+Graeco legitur / habetur / scriptum est* → "as is read in the Greek" / "as the Greek has it" /
+"as is written in the Greek". Where the argument turns on the Greek against the Latin lemma
+(ἄνωθεν *desursum* "from above" against *denuo* "anew", 0315A), **both renderings must stay
+distinct in the English** — the whole point is that they differ. Etymologies keep their form:
+*Judaea confessio interpretatur* → "Judaea is interpreted *confession*"; *Ἀκρὶς quippe
+interpretatur locusta* → "for Ἀκρὶς is interpreted *locust*" — italics where printed.
+
+### E4. The fixed vocabulary — one English word per term, for the whole work
+
+| Latin | English | note |
+|---|---|---|
+| *natura* (110) | **nature** | never "being", "creation"; *humana natura* "human nature" |
+| *theoria* (8; 9178 heads) | ***theoria***, italic | *contemplatio* (19) takes "contemplation", so *theoria* cannot; it is his term for the spiritual reading. Glossed ONCE per work in the cruces "standing decisions" |
+| *theophania* | **theophany** | his own gloss *divinis apparitionibus* "divine appearances" carries it |
+| *deificatio / deificari* | **deification / are deified** | never "divinization", never "theosis" |
+| *inhumanatio / inhumanatus* | **inhumanation / inhumanated** | his calque of ἐνανθρώπησις, used BESIDE *incarnatio* (→ "incarnation") in the same work; the two must stay apart |
+| *ierarchia / ierarcha* | **hierarchy / hierarch** | Floss's spelling stays in the Latin (Pattern 7) |
+| *symbolum · sacramentum · mysterium · figura* | **symbol · sacrament · mystery · figure** | Dionysian set; never "sign" for *symbolum* |
+| *littera · spiritualis intellectus* | **the letter · spiritual understanding** | |
+| *intellectus* | **intellect** where it names the mind (*intellectus omnium*, the Son); **understanding / sense** where it names a reading (*alius intellectus in his verbis*) | |
+| *species* (vs *fides*) | **sight** | *per speciem in altera* "by sight in the other [life]" |
+| *virtus* | **virtue** (moral) · **power** (*virtus baptismatis*) · **heavenly powers** (*caelestes virtutes*, the angelic orders) | context decides; say which in a crux only if it was a real call |
+| *substantia / persona* | **substance / person** | he flags his own usage (*in unitatem substantiae, vel, ut usitatius dicam, personae*, 0299C) — render it literally, it is a doctrinal marker |
+| *Verbum / Dei Verbum* | **the Word / the Word of God** | |
+| *praecursor* | **forerunner** | never "precursor" |
+| *Gregorius theologus* | **Gregory the Theologian** | never expanded to Nazianzen (identification, not translation); *Maximus* as printed |
+| *sanctus / beatus* + name | **saint Dionysius / blessed Augustine**, lower-case | corpus habit (17 *blessed Augustine*) |
+| *perfidi Judaei* | **the faithless Jews** | as printed; Pattern 7, no softening |
+
+### E5. The scholastic question forms keep their impersonal passive
+
+*Quaeritur, cur…* → "It is asked why…"; *Sed respondendum / Sed ad hoc dicendum* → "But it
+must be answered:" / "But to this it must be said:"; *Potest et sic intelligi* → "It can also be
+understood thus:"; *Notandum, quod* → "It is to be noted that"; *Sciendum quoque* → "It is
+also to be known"; *Ubi datur intelligi* → "Where it is given to understand". These recur in
+every chunk; one form each.
+
+### E6. The lemma is the Laon codex's John, not the Vulgate's — render it as printed
+
+Eriugena's italic lemma is his codex's text and he says so (*vel, sicut in aliis codicibus
+scribitur*, 0299A). Old Latin readings are expected. Render the lemma as printed, echoing
+Douay/KJV wording only where the Latin matches it (Scripture policy); where his gloss exploits
+a literal reading, keep the literal — *habitavit in nobis* is "dwelt **in** us" (0298A), because
+the gloss *naturam nostram possedit* needs it. Pattern 14 `[var:]` applies but **only on a
+plate-read column** (the ratchet): the collation stint fires it, the pilot logs candidates in
+the cruces. The Vulgate/Old Latin question is never argued in the marker.
+
+### E7. Fragments and lacunae — Floss's leader dots are carried, dot for dot
+
+9176 survives as three fragments and 9178/9175 as scraps; Floss marks the codex's lacunae with
+runs of spaced dots (39 runs in 9176) and rubrics like *Cetera desunt.* **Carry every dot run
+exactly as printed** (Pattern 8 — never supply, never delete), in italics where Floss sets it
+so; render the rubric (*Cetera desunt.* → *The rest is lacking.*). Heads keep their form:
+*FRAGMENTUM I. CAP. I, 11-29* → *FRAGMENT I. CHAP. I, 11-29*.
+
+### E8. Pattern 17 is load-bearing here, not decorative
+
+Christ's *dico tibi* → "I say to thee", then *Oportet vos nasci denuo* → "you must be born
+anew" — and Eriugena comments on the switch. Thou/you by NUMBER, without exception.
+
+### E9. The Floss apparatus — the printed text is his emendation, the note is the manuscript
+
+PL 122 is an edition, not a reprint. Floss's *Variae lectiones* at the foot record the codex's
+reading against the text he printed (*notitiam ejus¹* … `¹ Cod. ei.`). The English renders
+Floss's text (what Migne prints); it never adopts the codex reading; a crux may cite it. Marker
+form: `data/briefs/PL122-VARIAE-LECTIONES-RULING.md` (owed Wilson's OK).
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
