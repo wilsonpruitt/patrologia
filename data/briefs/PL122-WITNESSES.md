@@ -122,3 +122,36 @@ numbered `Forte` conjectures and the asterisk cross-references, both Migne's own
    guess and may want its own marker. **Do not reuse `[cn:]` by default — ask.**
 4. The sigla block itself is part of each work's head (9181 already opens with the same kind of
    list, noted at chunking) and belongs in a head, not the translated body.
+
+---
+
+## ⭐ Addendum 2026-09-16 — the ARCHIVE copy's page images, calibrated (prep for the Eriugena session)
+
+**No download needed.** `https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg`
+serves each leaf at **4309 × 6684** (≈2150 px per column — seven times Google's public 575 px
+ceiling), one fetch per leaf. ⚑ Disk is at ~2 GB free; do not pull the whole PDF.
+
+**Map: `leaf = (column + 73) / 2`** for an odd column. Printed corners read FIRST at two points:
+**n70 = cols 67/68** (Floss's *Commentatio*, head *DE J. SCOTO COMMENTATIO*) and **n99 = cols
+125/126** (head *EXPOS. J. SCOTI SUPER IERARCHIAM CAELESTEM S. DIONYSII*). Read the corners on the
+first leaf of every range anyway.
+
+**What the extra pixels do and do not buy.** The image is **bitonal and thickened** (84 grey
+levels in a text patch, but strokes are blown out as in a binarized scan upscaled). Running text and
+the *Variae lectiones* are legible word by word. **Letters inside the apparatus are not reliable:**
+the n99 foot reads `² A B C ariovugitae` where the Google read in this brief gave `ariovagitae` —
+an a/u split in exactly the class a variant apparatus turns on. And this is **the same photographs
+as Google `q2mQHvy4_usC`** (trap above), so it is never a second witness to Google's copy.
+
+So the witness ruling stands unchanged, now with a better primary: **archive page images = the
+working plate for reading and `[var:]`; one of the six independent Google copies = the second
+witness for a word; no `[sic:]` on a single letter.** And it bears directly on the open
+*Variae lectiones* ruling: **a letter-exact transcription of Floss's apparatus is not something
+either witness supports**, which argues against recovering it wholesale.
+
+Also seen on n99: the sigla block is set as a centred table under the title
+(`Cod. Vat. 652, sec. XI … A` / `Cod. Mon. ms. lat. 580, sec. XII … B` / `Ejusdem codicis altera
+manus … B*` / `— tertia — … B**` / `Cod. Brugensis n. 1, sec. XIV vel XV C]`), and the work opens
+under a blackletter title *Ierarchias sancti Dionysii* carrying note key ¹. Floss's own foot-note
+layer (lettered, e.g. *(a) Nec dissimili ratione…*, *(b) Cf. praef. Schluet.*) also exists on n70
+in the *Commentatio* — prefatory matter, not an Eriugena work.
