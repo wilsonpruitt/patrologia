@@ -1,0 +1,73 @@
+{
+  "_note": "Stint-scoped plate reads for 9176 chunks 0013-0014 (bands 0340A-0348B, the end of the work). Merge into data/plate-reads.json works.9176.reads[]. Floss rows are in data/briefs/9176-PLATE-NOTES-0013.tsv; nothing injected into the Latin.",
+  "series": "pl",
+  "volume": 122,
+  "scan": "archive.org patrologiaecurs113unkngoog, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg (4309x6684). One leaf at a time to the stint scratchpad, cropped locally with PIL (column halves in six 0.52x segments; zooms on sites and on the full-width foot), deleted after use. No crop crossed the gutter.",
+  "page_map": "leaf = (odd column + 73) / 2. CONFIRMED on all five leaves by the printed corners read first: n206 = 339 / [340 clipped on archive; 340 read on Princeton PA339], n207 = 341 / 342, n208 = 343 / [344 clipped; read on PA343], n209 = 345 / 346, n210 = 347 / [348 clipped; read on PA347].",
+  "second_witness": "Google Books Princeton YkVOAAAAYAAJ (not q2mQHvy4_usC), zoom=3 (575 px), signed src via jscmd=click3, fresh cookie jar per page: PA339, PA343, PA345, PA347. Used for the right-column line-ends the archive copy clips on n206, n208, n210 (cols 340, 344, 348 read IN FULL on Princeton), and for the word-level divergences at 0347A and 0348B. Word level only.",
+  "reads": [
+    {
+      "from": "0340A",
+      "to": "0340D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n206",
+      "source": "archive n206, corner 339 / [340 clipped], head JOANNIS SCOTI. Right column (col 340) from the dot run above FRAGMENTUM III to the foot in six 0.55x segments; archive clips 3-8 characters per line, so the whole column was also read on Princeton PA339 (corners 339 / 340) at 3x. Left column (339) belongs to the 0010-0012 stint and was not collated.",
+      "found": "CHECKED ZERO divergences in 0340A-D on both copies (incl. 'tentans eum, hoc est fidem ipsius', 'Deus tentator malorum est', 'quid futurum ei erat facere', 'ac per hoc [0341A] etiam laudanti'). Head set as printed: dot line, FRAGMENTUM III., CAP. VI, 5-14., dot line. Foot: VARIAE LECTIONES key 1 'Corr., cod. qui a spiritu.' belongs to col 339 (stint A's range, not placed here); NOTAE key a after 'os lampadis' (0340B), placed."
+    },
+    {
+      "from": "0341A",
+      "to": "0342D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n207",
+      "source": "archive n207, corners 341 / 342, head COMMENT. IN EVANG. SEC. JOAN. Both columns top to foot in six 0.52x segments each; foot full width at 0.45x.",
+      "found": "CHECKED ZERO divergences against our twin (plate also prints 'panes distribuit hordaceos' and the lemma 'sed haec quid sunt in tantos?'). VARIAE LECTIONES key 1 'Cod. satiati.' after 'satiatos' (0342A), placed. No NOTAE on this page."
+    },
+    {
+      "from": "0343A",
+      "to": "0344D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n208",
+      "source": "archive n208, corner 343 / [344 clipped], head JOANNIS SCOTI. Left column in six 0.52x segments; right column on archive in six segments where visible and IN FULL on Princeton PA343 (corners 343 / 344) at 3x.",
+      "found": "CHECKED ZERO divergences at word level. 0344B lemma 'quod fe?it signum': the c is broken on BOTH copies (reads 'fe it'); our twin 'fecit'; single worn sort, no patch, no marker. 0343D 'in quo lex pendunt et prophetae' as printed. 'non XII, sed XXIIII' set in small capitals as 'xii / xxiiii'. No VARIAE LECTIONES on this page (checked zero); NOTAE key a after 'diatessaron' (0343C), placed."
+    },
+    {
+      "from": "0345A",
+      "to": "0346D",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n209",
+      "source": "archive n209, corners 345 / 346, head COMMENT. IN EVANG. SEC. JOAN. Both columns in six 0.52x segments; 0.6x zooms on 0346B 'transitus carnalis Israel' and 0346B 'Aegyptiaci'; Princeton PA345 (corners 345 / 346) at 3x on the same lines.",
+      "found": "CHECKED ZERO divergences at word level. 'transitus carnalis Israel' and 'Aegyptiaci' are worn on BOTH copies (same damaged type), consistent with the twin; no patch. Floss's bracket '[non]' (0345C) confirmed as printed. VARIAE LECTIONES keys 1 ('non om. cod.', after [non]) and 2 ('Una linea deest.', after 'conveniunt' at the lacuna, 0346C), both placed. No NOTAE."
+    },
+    {
+      "from": "0347A",
+      "to": "0348B",
+      "depth": "full",
+      "date": "2026-09-16",
+      "page": "n210",
+      "source": "archive n210, corner 347 / [348 clipped], head JOANNIS SCOTI. Eriugena occupies only the top of the leaf (cols 347A-B / 348A-B); both columns read in three 0.52x segments; Princeton PA347 (corners 347 / 348) at 3x on both columns and the foot.",
+      "found": "TWO TEI DIVERGENCES, both the plate sound, both confirmed on Princeton: 0347A plate 'accipiamus' (twin 'accipiam]us', stray bracket) and 0348B plate 'una eademque' (twin 'una ea lemque'); patches filed. Confirmed as printed: 0347A 'quas sola allegoria facti, non autem dicti, tradit' (logged, [cj:]); 0347B 'investigatur cerebrum (?)' with Floss's own query. THE WORK ENDS at 0348B: 'duobus sensibus conveniens. .' + a full dot line, then centred 'Cetera desunt.' in italic; then a double rule across the full width and Floss's next work begins full width: 'JOANNIS SCOTI / de praedestinatione / LIBER / Ad fidem codicis ms. S. Germani 1314 ...', 'MONITUM AD LECTOREM'. Nothing below the rule was collated or harvested. No VARIAE LECTIONES or NOTAE for Eriugena on this leaf (checked zero on both copies; the page foot is running Monitum text with no rule)."
+    }
+  ],
+  "floss_apparatus_summary": {
+    "placed": 5,
+    "unplaced": 0,
+    "outside_range": [
+      "n206 VL key 1 'Corr., cod. qui a spiritu.' (col 339, stint 0010-0012)"
+    ],
+    "checked_zero_pages": {
+      "variae_lectiones": [
+        "n208",
+        "n210"
+      ],
+      "notae": [
+        "n207",
+        "n209",
+        "n210"
+      ]
+    }
+  }
+}

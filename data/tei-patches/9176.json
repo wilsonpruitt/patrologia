@@ -1,0 +1,131 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 9176 (Eriugena, Commentarius in Evangelium secundum Joannem, PL 122), applied by chunk-work.mjs BEFORE the transform. Corrections to the DIGITIZATION only. Merged 2026-09-16 from the five stint pending-patch files. Withdrawn under E11 (English follows the TEI, no patch): 0302C sinum, 0306D the dropped line, 0318D John 3:12 comma.",
+ "patches": [
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0302B",
+   "find": "animarum et\nintellectum theophaniae sunt",
+   "replace": "animarum et\nintellectuum theophaniae sunt",
+   "why": "PLATE READ 2026-09-16 (stint 0001, data/briefs/9176-PENDING-TEI-PATCHES-0001.md): archive n187 + Princeton PA301 both print intellectuum; the twin's intellectum does not construe. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0305B",
+   "find": "<foreign xml:lang=\"greek\">Φόσφορος</foreign>",
+   "replace": "<foreign xml:lang=\"greek\">φωσφόρος</foreign>",
+   "why": "PLATE READ 2026-09-16 (stint 0001, data/briefs/9176-PENDING-TEI-PATCHES-0001.md): archive n189 + Princeton PA305: lower-case φωσφόρος with omega on both copies (accent less certain). Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0309C",
+   "find": "contagione remote,",
+   "replace": "contagione remota,",
+   "why": "PLATE READ 2026-09-16 (stint 0001, data/briefs/9176-PENDING-TEI-PATCHES-0001.md): archive n191 + Princeton PA309 print remota (ablative absolute with contagione); the twin's adverb does not construe. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0309D",
+   "find": "venientem ad se</hi> \nAlia, inquit",
+   "replace": "venientem ad se.</hi> \nAlia, inquit",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): archive n191: the stop is printed. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0310B",
+   "find": "immolatus est; ideoque sequitur",
+   "replace": "immolatus est, ideoque sequitur",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): archive n191 prints a comma. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0310D",
+   "find": "ita in Christo omnes vivificatur",
+   "replace": "ita in Christo omnes vivificantur",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): archive n191 prints vivificantur cleanly (1 Cor 15:22); the twin's singular does not agree with omnes. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0314D",
+   "find": "nisi fuerit Deus cum eo » .</p>",
+   "replace": "nisi fuerit Deus cum eo »</p>",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): archive n193 + Princeton PA313: no stop. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0316B",
+   "find": "dico tibi, nis quis",
+   "replace": "dico tibi, nisi quis",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): Princeton PA315 prints nisi (archive n194 clips the line end); nis is not a word. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0318B",
+   "find": "redolent divina mysteria\nAc per hoc",
+   "replace": "redolent divina mysteria.\nAc per hoc",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): archive n195 prints the stop. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0318D",
+   "find": "Inspice\nerga vim verborum",
+   "replace": "Inspice\nergo vim verborum",
+   "why": "PLATE READ 2026-09-16 (stint 0004, data/briefs/9176-PENDING-TEI-PATCHES-0004.md): archive n195 prints ergo cleanly. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0322B",
+   "find": "ibique demorabatur et purgat",
+   "replace": "ibique demoratur et purgat",
+   "why": "PLATE READ 2026-09-16 (stint 0007, data/briefs/9176-PENDING-TEI-PATCHES-0007.md): archive n197 + Princeton PA321 both print demoratur; the twin's imperfect was pulled in from the following lemma. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0326D",
+   "find": "audit cum, gaudi,",
+   "replace": "audit cum, gaudio",
+   "why": "PLATE READ 2026-09-16 (stint 0007, data/briefs/9176-PENDING-TEI-PATCHES-0007.md): archive n199: gaudio, no comma (the lemma quoted six lines earlier); letter-level on one copy, a transcription fix to a non-word, not an accusation against the plate. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0329A",
+   "find": "unigeniti Filius Dei",
+   "replace": "unigeniti Filii Dei",
+   "why": "PLATE READ 2026-09-16 (stint 0007, data/briefs/9176-PENDING-TEI-PATCHES-0007.md): archive n201 clean Filii (the Vulgate's own form); the twin's nominative does not construe. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0330D",
+   "find": "abiit iterum in Galilaeam,</hi> Postquam",
+   "replace": "abiit iterum in Galilaeam.</hi> Postquam",
+   "why": "PLATE READ 2026-09-16 (stint 0010, data/briefs/9176-PENDING-TEI-PATCHES-0010.md): archive n201/202 + Princeton: full stop. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0336A",
+   "find": "participantis figuram praetendit",
+   "replace": "participantis figuram praetendit.",
+   "why": "PLATE READ 2026-09-16 (stint 0010, data/briefs/9176-PENDING-TEI-PATCHES-0010.md): Princeton PA335 prints the stop (archive n204 clips col 336). Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0338A",
+   "find": "nobis non contuntur",
+   "replace": "nobis non coutuntur",
+   "why": "PLATE READ 2026-09-16 (stint 0010, data/briefs/9176-PENDING-TEI-PATCHES-0010.md): archive n205 + Princeton PA337 both print coutuntur, the Vulgate's own word at John 4:9 (non enim coutuntur Judaei Samaritanis); contuntur is a non-word. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0347A",
+   "find": "exemplum accipiam]us",
+   "replace": "exemplum accipiamus",
+   "why": "PLATE READ 2026-09-16 (stint 0013, data/briefs/9176-PENDING-TEI-PATCHES-0013.md): archive n210 + Princeton PA347: accipiamus; the stray bracket is a digitization artifact. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  },
+  {
+   "work": "9176 Eriugena, Commentarius in Evangelium secundum Joannem (PL 122)",
+   "col": "0348B",
+   "find": "una ea lemque evangelistae",
+   "replace": "una eademque evangelistae",
+   "why": "PLATE READ 2026-09-16 (stint 0013, data/briefs/9176-PENDING-TEI-PATCHES-0013.md): archive n210 + Princeton PA347: eademque. Re-adjudicated under E11 at merge: the plate is the sound reading."
+  }
+ ]
+}

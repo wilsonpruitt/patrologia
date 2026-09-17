@@ -9714,7 +9714,7 @@
    "scan": "archive.org patrologiaecurs113unkngoog page images, https://archive.org/download/patrologiaecurs113unkngoog/page/n<LEAF>.jpg, 4309x6684, one fetch per leaf, cropped locally with PIL (column halves at 0.32x, single lines at 0.6-2.0x). No crop crossed the centre gutter. Leaves and crops deleted after use.",
    "page_map": "leaf = (odd column + 73) / 2 -- confirmed by printed corners on every leaf n186-n201 across all three stints (clipped right corners on n188/n190/n192/n194/n196/n198/n200 read on Princeton).",
    "second_witness": "Google Books Princeton YkVOAAAAYAAJ, pg=PA<odd col>, 575 px; word-level only per PL122-WITNESSES.md. Never q2mQHvy4_usC (it IS the archive photographs).",
-   "note": "Merged 2026-09-16 from stints 0001-0003, 0004-0006, 0007-0009 (data/briefs/9176-PLATE-READS-*.json, which also hold the VARIAE LECTIONES and NOTAE arrays for injection). Chunk 0000 (register pilot) read heads/feet only and records no range here. Stint-scoped plate reads for 9176 chunks 0001-0003 (bands 0300C-0309D). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES (per brief) and a 'notae' array for a SECOND foot layer headed NOTAE that the brief did not anticipate (see its _note). | Stint-scoped plate reads for 9176 chunks 0004-0006 (bands 0309D-0320C). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES per leaf (drafted [vl:] marker NOT approved; nothing injected) and a separate record of the lettered NOTAE layer found on these leaves. | Stint-scoped plate reads for 9176 chunks 0007-0009 (bands 0320C-0329B). Merge into data/plate-reads.json works.9176.reads[]. variae_lectiones arrays are recorded per the PL122 ruling draft; NOTHING was injected into the Latin and no apparatus marker is in the English.",
+   "note": "Merged 2026-09-16 from stints 0001-0003, 0004-0006, 0007-0009 (data/briefs/9176-PLATE-READS-*.json, which also hold the VARIAE LECTIONES and NOTAE arrays for injection). Chunk 0000 (register pilot) read heads/feet only and records no range here. Stint-scoped plate reads for 9176 chunks 0001-0003 (bands 0300C-0309D). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES (per brief) and a 'notae' array for a SECOND foot layer headed NOTAE that the brief did not anticipate (see its _note). | Stint-scoped plate reads for 9176 chunks 0004-0006 (bands 0309D-0320C). Merge into data/plate-reads.json works.9176.reads[]. Also carries Floss's VARIAE LECTIONES per leaf (drafted [vl:] marker NOT approved; nothing injected) and a separate record of the lettered NOTAE layer found on these leaves. | Stint-scoped plate reads for 9176 chunks 0007-0009 (bands 0320C-0329B). Merge into data/plate-reads.json works.9176.reads[]. variae_lectiones arrays are recorded per the PL122 ruling draft; NOTHING was injected into the Latin and no apparatus marker is in the English. | Stint-scoped plate reads for 9176 chunks 0010-0012 (bands 0329B-0340A). Merge into data/plate-reads.json works.9176.reads[]. Floss rows are in data/briefs/9176-PLATE-NOTES-0010.tsv; nothing injected. | Stint-scoped plate reads for 9176 chunks 0013-0014 (bands 0340A-0348B, the end of the work). Merge into data/plate-reads.json works.9176.reads[]. Floss rows are in data/briefs/9176-PLATE-NOTES-0013.tsv; nothing injected into the Latin.",
    "reads": [
     {
      "from": "0300C",
@@ -9901,6 +9901,116 @@
      "source": "archive n201, corners 329 / 330, running head COMMENT. IN EVANG. SEC. JOAN. Left column bands A-B in 0.5x segments (read on through the start of 0329C to the stint boundary 'Quem enim misit Deus'); 0.8-1.0x zooms on line 2 and the foot.",
      "found": "ONE PROPOSED PATCH: 0329A plate 'unigeniti Filii Dei' where our twin has 'Filius' (clean, one copy). Confirmed as printed: 'a se ipsis [ad] interitum' (Floss's bracket), lemma 'signavit quia Deus verax est' and the Greek-derived 'Quia Deus verus est'. VL key 1 after 'credituri sunt'.",
      "stint": "0007-0009"
+    },
+    {
+     "from": "0329B",
+     "to": "0330D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n201",
+     "source": "archive n201, corners 329 / 330, head COMMENT. IN EVANG. SEC. JOAN. Left column from the lemma 'Quem enim misit Deus' to the foot at 0.75x; right column top to foot at 0.7x; zooms 2-2.5x on the two Nonne keys and on 'd?norum'. Princeton PA329 (corners 329/330) at 3x on the same sites and on the lemma 'Galilaeam.'.",
+     "found": "ONE PROPOSED PATCH: 0330D lemma closes 'Galilaeam.' with a full stop (both copies) where our twin has a comma. NOTED, NOT PATCHED: 0329D twin 'denorum' (non-word): the second letter is a broken sort on BOTH copies (e/o unsettled), so E12 sense + crux. VL keys: 2 after the first Nonne (already placed), 3 after the second Nonne (0329C, the orchestrator's open item, now placed). Foot: VARIAE LECTIONES 1-3 only, no NOTAE.",
+     "stint": "0010"
+    },
+    {
+     "from": "0331A",
+     "to": "0332D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n202",
+     "source": "archive n202, corners 331 / 332, head JOANNIS SCOTI. Both columns top to foot at 0.72x; foot at 0.45x and 1.0x. Princeton PA331 at 3x on the NOTAE.",
+     "found": "CHECKED ZERO divergences against our twin. Confirmed as printed: Floss's bracket 'iterum [abiit]' (VL 1), the doubled 'venit in / in Judaeam' across a line break at 0331C (both 'in' set on the plate), 'transmigratio facta vel revolutio interpretatur' (NOTAE a), 'conclusio seu ramus' (b), 'numeri' (c). Foot: VARIAE LECTIONES 1; NOTAE a, b, c (a and c carry pointed Hebrew, not transcribed).",
+     "stint": "0010"
+    },
+    {
+     "from": "0333A",
+     "to": "0334D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n203",
+     "source": "archive n203, corners 333 / 334, head COMMENT. IN EVANG. SEC. JOAN. Both columns top to foot at 0.72x (left margin slightly blotched but readable); foot full width.",
+     "found": "CHECKED ZERO divergences against our twin, including the verbless 'in quo Abraham jussus a Deo immolare Isaac' (0333B) and the lemma 'tu petisses eum, et dedisset tibi aquam.' (0334C, no 'vivam'). Foot: VARIAE LECTIONES 1 (key after 'delectationem', 0334D); no NOTAE.",
+     "stint": "0010"
+    },
+    {
+     "from": "0335A",
+     "to": "0336D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n204",
+     "source": "archive n204, corners 335 / [336 clipped]. Left column at 0.72x; right column on archive where visible, and IN FULL on Princeton PA335 (corner 336) at 2.8x, since the archive image clips the right margin of col 336 on every line; foot on both.",
+     "found": "ONE PROPOSED PATCH: 0336A Princeton sets a full stop after 'figuram praetendit' (line end; archive clipped) where our twin runs on into 'Mulier itaque'. Otherwise word for word, including Floss's '[potest]' (VL 4). Foot: VARIAE LECTIONES 1-5, letters in 1-3 flagged; no NOTAE.",
+     "stint": "0010"
+    },
+    {
+     "from": "0337A",
+     "to": "0338D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n205",
+     "source": "archive n205, corners 337 / 338, head COMMENT. IN EVANG. SEC. JOAN. Both columns at 0.72x (left margin curled at 0337C-D, words recoverable); foot full width. Princeton PA337 at 3x on 0338A and 0337C.",
+     "found": "ONE PROPOSED PATCH: 0338A 'nobis non coutuntur' on both copies where our twin has the non-word 'contuntur' (n/u, but the two copies agree and the plate form is the verb used throughout the passage). NOTED, NOT PATCHED: 0337C both copies set a stop mark (colon or semicolon, not settled) after 'Samaritanae' before the lemma; our twin has none; English uses a colon. Foot: VARIAE LECTIONES 1 only; no NOTAE.",
+     "stint": "0010"
+    },
+    {
+     "from": "0339A",
+     "to": "0340A",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n206",
+     "source": "archive n206, corners 339 / [340 clipped], head JOANNIS SCOTI. Left column top to foot at 0.72x; right column top to 'reliquit ... studium carnalis scientiae' and Floss's dot run at 0.72x; foot full width.",
+     "found": "CHECKED ZERO divergences against our twin in 0339A-0340A. VL 1 key after 'spiritus' (0339A, 'Jam quia spiritus est'), the note B flagged to this stint. NOTAE a (Philippus, col 340) belongs to chunk 0013 and is stint B's.",
+     "stint": "0010"
+    },
+    {
+     "from": "0340A",
+     "to": "0340D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n206",
+     "source": "archive n206, corner 339 / [340 clipped], head JOANNIS SCOTI. Right column (col 340) from the dot run above FRAGMENTUM III to the foot in six 0.55x segments; archive clips 3-8 characters per line, so the whole column was also read on Princeton PA339 (corners 339 / 340) at 3x. Left column (339) belongs to the 0010-0012 stint and was not collated.",
+     "found": "CHECKED ZERO divergences in 0340A-D on both copies (incl. 'tentans eum, hoc est fidem ipsius', 'Deus tentator malorum est', 'quid futurum ei erat facere', 'ac per hoc [0341A] etiam laudanti'). Head set as printed: dot line, FRAGMENTUM III., CAP. VI, 5-14., dot line. Foot: VARIAE LECTIONES key 1 'Corr., cod. qui a spiritu.' belongs to col 339 (stint A's range, not placed here); NOTAE key a after 'os lampadis' (0340B), placed.",
+     "stint": "0013"
+    },
+    {
+     "from": "0341A",
+     "to": "0342D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n207",
+     "source": "archive n207, corners 341 / 342, head COMMENT. IN EVANG. SEC. JOAN. Both columns top to foot in six 0.52x segments each; foot full width at 0.45x.",
+     "found": "CHECKED ZERO divergences against our twin (plate also prints 'panes distribuit hordaceos' and the lemma 'sed haec quid sunt in tantos?'). VARIAE LECTIONES key 1 'Cod. satiati.' after 'satiatos' (0342A), placed. No NOTAE on this page.",
+     "stint": "0013"
+    },
+    {
+     "from": "0343A",
+     "to": "0344D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n208",
+     "source": "archive n208, corner 343 / [344 clipped], head JOANNIS SCOTI. Left column in six 0.52x segments; right column on archive in six segments where visible and IN FULL on Princeton PA343 (corners 343 / 344) at 3x.",
+     "found": "CHECKED ZERO divergences at word level. 0344B lemma 'quod fe?it signum': the c is broken on BOTH copies (reads 'fe it'); our twin 'fecit'; single worn sort, no patch, no marker. 0343D 'in quo lex pendunt et prophetae' as printed. 'non XII, sed XXIIII' set in small capitals as 'xii / xxiiii'. No VARIAE LECTIONES on this page (checked zero); NOTAE key a after 'diatessaron' (0343C), placed.",
+     "stint": "0013"
+    },
+    {
+     "from": "0345A",
+     "to": "0346D",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n209",
+     "source": "archive n209, corners 345 / 346, head COMMENT. IN EVANG. SEC. JOAN. Both columns in six 0.52x segments; 0.6x zooms on 0346B 'transitus carnalis Israel' and 0346B 'Aegyptiaci'; Princeton PA345 (corners 345 / 346) at 3x on the same lines.",
+     "found": "CHECKED ZERO divergences at word level. 'transitus carnalis Israel' and 'Aegyptiaci' are worn on BOTH copies (same damaged type), consistent with the twin; no patch. Floss's bracket '[non]' (0345C) confirmed as printed. VARIAE LECTIONES keys 1 ('non om. cod.', after [non]) and 2 ('Una linea deest.', after 'conveniunt' at the lacuna, 0346C), both placed. No NOTAE.",
+     "stint": "0013"
+    },
+    {
+     "from": "0347A",
+     "to": "0348B",
+     "depth": "full",
+     "date": "2026-09-16",
+     "page": "n210",
+     "source": "archive n210, corner 347 / [348 clipped], head JOANNIS SCOTI. Eriugena occupies only the top of the leaf (cols 347A-B / 348A-B); both columns read in three 0.52x segments; Princeton PA347 (corners 347 / 348) at 3x on both columns and the foot.",
+     "found": "TWO TEI DIVERGENCES, both the plate sound, both confirmed on Princeton: 0347A plate 'accipiamus' (twin 'accipiam]us', stray bracket) and 0348B plate 'una eademque' (twin 'una ea lemque'); patches filed. Confirmed as printed: 0347A 'quas sola allegoria facti, non autem dicti, tradit' (logged, [cj:]); 0347B 'investigatur cerebrum (?)' with Floss's own query. THE WORK ENDS at 0348B: 'duobus sensibus conveniens. .' + a full dot line, then centred 'Cetera desunt.' in italic; then a double rule across the full width and Floss's next work begins full width: 'JOANNIS SCOTI / de praedestinatione / LIBER / Ad fidem codicis ms. S. Germani 1314 ...', 'MONITUM AD LECTOREM'. Nothing below the rule was collated or harvested. No VARIAE LECTIONES or NOTAE for Eriugena on this leaf (checked zero on both copies; the page foot is running Monitum text with no rule).",
+     "stint": "0013"
     }
    ]
   },

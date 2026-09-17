@@ -58,6 +58,23 @@ This section is a merge layer. The three stints' own records stay beside it, une
   would settle it); 0313B *humana natura* with Floss's unplaced *forte leg. humanae naturae?*;
   0323B VL note ¹ with no visible key; n186 *Ariopagitam* / *Ariovagitam*.
 
+## Merge, chunks 0010–0014 (2026-09-16, run stints A and B)
+
+Stint records kept unedited beside this: `cruces-0010.md` (cols 0329B–0340A) and `cruces-0013.md` (0340B–0348B).
+- **9176 fully translated, 15 of 15 chunks; verify clean.** Leaves n201–n210 read, corners first; reads merged
+  into `works.9176` (0300C–0348B now continuous). The work ends at 0348B with *Cetera desunt*; nothing
+  below the rule on n210 (Floss's *De praedestinatione* preface) was collated.
+- **TEI patches landed:** 18, all in `data/tei-patches/9176.json` (the 13 that stood at re-adjudication, plus
+  0330D, 0336A, 0338A, 0347A and 0348B). **0338A *coutuntur*** rests on one letter (n/u), but both copies agree, and it is
+  the Vulgate's own word at John 4:9 (*non enim coutuntur Judaei Samaritanis*), where the twin's
+  *contuntur* is a non-word. Withdrawn, as before: 0302C, 0306D, 0318D. Re-chunked: 202 anchors, words conserved.
+- **Floss's apparatus:** 51 rows, **48 placed**. The n201 ³ key was found by A (*Nonne ³ et apostoli*), and B's
+  n206 ¹ was placed by A (*spiritus* at 0339A). Still unplaced (no key found at the plate): n186 ¹, n193 ¹, n198 ¹.
+- **Vocabulary held** (per-chunk counts at merge): no Elijah/Isaiah/strap/precursor/Passover/Holy Ghost.
+  *adorare* → "adore" and *colere* → "worship" (John 4); *vir* → "husband" through the Samaritan dialogue.
+- **For Wilson:** 0347A `[cj:]` on the transposed *facti, non autem dicti* (keep it, or demote to a crux); A's
+  n204 VL 2–3 codex words, unreadable on both copies.
+
 ## Col 0297C (chunk 0000) — *vir* / *homo*: a lexical point English cannot carry
 
 *Saepe sapientes viri vocabulo hominem solent appellare.* The lemma *neque ex voluntate viri*
