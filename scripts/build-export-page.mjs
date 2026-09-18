@@ -12,7 +12,7 @@ const MANIFEST_PATH = path.join(ROOT, 'export/manifest.json');
 // PLACEHOLDER until the shared wroot-corpus-export R2 bucket (PLAN.md item
 // 8) is actually provisioned and its public dev URL is known — update this
 // the same session the bucket is created, before the first export goes live.
-export const EXPORT_R2_BASE_URL = 'https://pub-wroot-corpus-export.r2.dev/migne';
+export const EXPORT_R2_BASE_URL = 'https://pub-f3e5babb712240c981d8afc263f23ecf.r2.dev/migne';
 
 const manifest = fs.existsSync(MANIFEST_PATH)
   ? JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'))
