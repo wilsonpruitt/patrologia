@@ -1,6 +1,11 @@
 # Next session — resume note
 
-## ▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-19) — EGBERT *POENITENTIALE* (8382) DONE · BUILT, PREFLIGHT OK · ⛔ DEPLOY OWED (Wilson's OK)
+## ▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-19) — EGBERT *POENITENTIALE* (8382) · ✅ LIVE ON migne.app
+
+✅ **Deployed 2026-09-19** (`migne-lf28n5m0j`), smoke-tested on the ALIAS: `/`, `/pl/89/poenitentiale/`,
+`/cruces/pl/89/poenitentiale/`, `/pl/113/liber-genesis/` and `/scripture/` all return 200. The landing
+page lists the work, the badge reads "New", and the mid-page Wilkins note renders. Nothing owed
+(the deploy line below is history).
 
 The first genre-survey pilot, canon law, is done. **8382 Egbert of York, *Poenitentiale*** (PL 89,
 cols 401A–436A, 11 chunks, 13.1K words). It is marked `ours`, and `workStatus` stays `unclear`, so the
