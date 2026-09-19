@@ -15,7 +15,7 @@
   "colLast": "182d",
   "counts": {
     "scripture": 50,
-    "fontes": 671,
+    "fontes": 672,
     "heads": 50,
     "headnotes": 1234,
     "unparsed": 0
@@ -1464,6 +1464,11 @@
     {
       "raw": "HIERON.",
       "column": "94d",
+      "chunk": 7
+    },
+    {
+      "raw": "GREG., lib. XXI Mor., c. 2.",
+      "column": "95a",
       "chunk": 7
     },
     {
@@ -11505,11 +11510,5 @@
     }
   ],
   "unparsed": [],
-  "proseNotes": [
-    {
-      "raw": "(GREG., lib. XXI Mor., c. 2.)",
-      "column": "95a",
-      "chunk": 7
-    }
-  ]
+  "proseNotes": []
 }

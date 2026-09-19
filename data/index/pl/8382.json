@@ -1,0 +1,927 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 3366,
+  "textIdno": 8382,
+  "title": "Poenitentiale",
+  "authors": [
+    "Egbertus Eboracensis"
+  ],
+  "authorsDisplay": [
+    "Egbert of York"
+  ],
+  "series": "pl",
+  "volume": 89,
+  "colFirst": "401a",
+  "colLast": "436a",
+  "counts": {
+    "scripture": 4,
+    "fontes": 0,
+    "heads": 144,
+    "headnotes": 0,
+    "unparsed": 1
+  },
+  "scripture": [
+    {
+      "refKey": "Matt.25",
+      "refDisplay": "Matth. XXV",
+      "column": "433b",
+      "chunk": 9
+    },
+    {
+      "refKey": "Matt.18",
+      "refDisplay": "Matth. XVIII",
+      "column": "433c",
+      "chunk": 9
+    },
+    {
+      "refKey": "Ps.5",
+      "refDisplay": "Psalm. V",
+      "column": "434c",
+      "chunk": 10
+    },
+    {
+      "refKey": "Matt.1",
+      "refDisplay": "Matth. I",
+      "column": "434d",
+      "chunk": 10
+    }
+  ],
+  "fontes": [],
+  "heads": [
+    {
+      "la": "PRAEFATIO.",
+      "column": "401a",
+      "chunk": 0,
+      "en": "PREFACE."
+    },
+    {
+      "la": "LIBRI PRIMI PARS PRIMA.",
+      "column": "402b",
+      "chunk": 0,
+      "en": "THE FIRST PART OF THE FIRST BOOK."
+    },
+    {
+      "la": "CAPUT PRIMUM. De presbyteri prudentia.",
+      "column": "402b",
+      "chunk": 0,
+      "en": "CHAPTER ONE. On the prudence of the presbyter."
+    },
+    {
+      "la": "CAPUT II. Jus de variis peccatis.",
+      "column": "401c",
+      "chunk": 0,
+      "en": "CHAPTER II. The law concerning various sins."
+    },
+    {
+      "la": "CAPUT III. De episcopi adulterio.",
+      "column": "403c",
+      "chunk": 0,
+      "en": "CHAPTER III. On the adultery of a bishop."
+    },
+    {
+      "la": "CAPUT IV. De presbyteri adulterio.",
+      "column": "403d",
+      "chunk": 0,
+      "en": "CHAPTER IV. On the adultery of a presbyter."
+    },
+    {
+      "la": "CAPUT V. De sacerdote qui seipsum impuris sermonibus vel aliquibus aliis vitiis polluit.",
+      "column": "403d",
+      "chunk": 0,
+      "en": "CHAPTER V. On a priest who pollutes himself with impure speech or with any other vices."
+    },
+    {
+      "la": "CAPUT VI. De presbytero qui baptizare detrectat ob itineris sui necessitatem.",
+      "column": "404a",
+      "chunk": 0,
+      "en": "CHAPTER VI. On a presbyter who refuses to baptize because of the necessity of his journey."
+    },
+    {
+      "la": "CAPUT VII. De non baptizato presbytero et de eo quem ipse baptizat.",
+      "column": "404b",
+      "chunk": 0,
+      "en": "CHAPTER VII. On a presbyter not baptized, and on him whom he himself baptizes."
+    },
+    {
+      "la": "CAPUT VIII. De episcopo et presbytero qui ordinem suum perdit.",
+      "column": "404b",
+      "chunk": 1,
+      "en": "CHAPTER VIII. On a bishop and a presbyter who loses his order."
+    },
+    {
+      "la": "CAPUT IX. De iis quibus indutus esse debet sacerdos cum missam celebrat.",
+      "column": "404c",
+      "chunk": 1,
+      "en": "CHAPTER IX. On the things in which a priest ought to be clothed when he celebrates Mass."
+    },
+    {
+      "la": "CAPUT X. De sacerdote, cum calicem effundit, et de cibo ante Eucharistiam.",
+      "column": "404c",
+      "chunk": 1,
+      "en": "CHAPTER X. On a priest, when he spills the chalice, and on food before the Eucharist."
+    },
+    {
+      "la": "CAPUT XI. De presbytero, si aliquid magni pretii auferat.",
+      "column": "404d",
+      "chunk": 1,
+      "en": "CHAPTER XI. On a presbyter, if he carries off anything of great price."
+    },
+    {
+      "la": "CAPUT XII. De diacono et monacho, si fornicentur.",
+      "column": "404d",
+      "chunk": 1,
+      "en": "CHAPTER XII. On a deacon and a monk, if they fornicate."
+    },
+    {
+      "la": "CAPUT XIII. De monachis et monialibus, si fornicentur.",
+      "column": "405a",
+      "chunk": 1,
+      "en": "CHAPTER XIII. On monks and nuns, if they fornicate."
+    },
+    {
+      "la": "CAPUT XIV. De laicis, si fornicentur.",
+      "column": "405a",
+      "chunk": 1,
+      "en": "CHAPTER XIV. On lay people, if they fornicate."
+    },
+    {
+      "la": "CAPUT XV. De injustis operibus juniorum.",
+      "column": "405b",
+      "chunk": 1,
+      "en": "CHAPTER XV. On the unlawful deeds of the young."
+    },
+    {
+      "la": "CAPUT XVI. De menstruae consuetudinis fornicatione, et de alia injusta fornicatione.",
+      "column": "405c",
+      "chunk": 1,
+      "en": "CHAPTER XVI. On fornication in the menstrual custom, and on other unlawful fornication."
+    },
+    {
+      "la": "CAPUT XVII. De ethnicorum fornicatione, et de eo qui nesciens esse bis baptizatus, et de eo qui ab illegitime fornicante presbytero baptizatus est, et de eo qui bis sua sponte baptizatus est.",
+      "column": "405d",
+      "chunk": 1,
+      "en": "CHAPTER XVII. On the fornication of heathens, and on him who unknowing was baptized twice, and on him who was baptized by a presbyter unlawfully fornicating, and on him who was baptized twice of his own will."
+    },
+    {
+      "la": "CAPUT XVIII. De eo quod vir mulierem in baptismate suscipere debet et mulier virum.",
+      "column": "406a",
+      "chunk": 1,
+      "en": "CHAPTER XVIII. On this, that a man ought to receive a woman in baptism, and a woman a man."
+    },
+    {
+      "la": "CAPUT XIX. De viri et mulieris promissis.",
+      "column": "406b",
+      "chunk": 1,
+      "en": "CHAPTER XIX. On the vows of a man and a woman."
+    },
+    {
+      "la": "CAPUT XX. De eo quod virum non deceat uxorem suam nudam videre; et de eo quod cum ipsa rem habere nequeat.",
+      "column": "406c",
+      "chunk": 1,
+      "en": "CHAPTER XX. On this, that it does not befit a man to see his wife naked; and on this, that he cannot have dealings with her."
+    },
+    {
+      "la": "CAPUT XXI. De injusta fornicatione.",
+      "column": "406d",
+      "chunk": 1,
+      "en": "CHAPTER XXI. On unlawful fornication."
+    },
+    {
+      "la": "CAPUT XXII. De diversis homicidiis.",
+      "column": "406d",
+      "chunk": 1,
+      "en": "CHAPTER XXII. On diverse homicides."
+    },
+    {
+      "la": "CAPUT XXIII. De episcopi, et presbyteri, et monachi occisione.",
+      "column": "407b",
+      "chunk": 1,
+      "en": "CHAPTER XXIII. On the killing of a bishop, and of a presbyter, and of a monk."
+    },
+    {
+      "la": "CAPUT XXIV. De variis homicidiis.",
+      "column": "407b",
+      "chunk": 1,
+      "en": "CHAPTER XXIV. On various homicides."
+    },
+    {
+      "la": "CAPUT XXV. De fratribus, quomodo cognatam uxorem sumere possunt, et de variis rebus aliis.",
+      "column": "407c",
+      "chunk": 1,
+      "en": "CHAPTER XXV. On brothers, how they can take a kinswoman as wife, and on various other matters."
+    },
+    {
+      "la": "CAPUT XXVI. De viri lotione post coitum.",
+      "column": "407d",
+      "chunk": 2,
+      "en": "CHAPTER XXVI. On the washing of a man after coition."
+    },
+    {
+      "la": "CAPUT XXVII. De adolescentibus et puellis, in qua aetate seipsos gubernare possunt.",
+      "column": "408a",
+      "chunk": 2,
+      "en": "CHAPTER XXVII. On youths and girls, at what age they can govern themselves."
+    },
+    {
+      "la": "CAPUT XXVIII. De eo quod cognati coeant, et quandiu mulier gravida a viro abstinere debet.",
+      "column": "408c",
+      "chunk": 2,
+      "en": "CHAPTER XXVIII. On this, that kinsfolk lie together, and how long a pregnant woman ought to abstain from a man."
+    },
+    {
+      "la": "CAPUT XXIX. De uxore quae artem magicam exercet.",
+      "column": "408c",
+      "chunk": 2,
+      "en": "CHAPTER XXIX. On a wife who practises the magic art."
+    },
+    {
+      "la": "CAPUT XXX. De muliere si infantem suum recens natum arte magica occidit.",
+      "column": "408d",
+      "chunk": 2,
+      "en": "CHAPTER XXX. On a woman, if she kills her newly born infant by the magic art."
+    },
+    {
+      "la": "CAPUT XXXI. De muliere quae infantem suum occidit, et de eucharistia ac esu sanguinis.",
+      "column": "409a",
+      "chunk": 2,
+      "en": "CHAPTER XXXI. On a woman who kills her infant, and on the Eucharist and the eating of blood."
+    },
+    {
+      "la": "CAPUT XXXII. De immolatione inimicorum, et de fascinatione ubi frumentum ardet.",
+      "column": "409b",
+      "chunk": 2,
+      "en": "CHAPTER XXXII. On the sacrificing of enemies, and on the enchantment where grain is burned."
+    },
+    {
+      "la": "CAPUT XXXIII. De fascinatione mulieris, et de eo si illa fornicetur, et de voto ejus post mariti sui obitum.",
+      "column": "409c",
+      "chunk": 2,
+      "en": "CHAPTER XXXIII. On the enchantment of a woman, and on this, if she fornicates, and on her vow after the death of her husband."
+    },
+    {
+      "la": "CAPUT XXXIV. De perjurio.",
+      "column": "409d",
+      "chunk": 2,
+      "en": "CHAPTER XXXIV. On perjury."
+    },
+    {
+      "la": "CAPUT XXXV. De injustis operibus diei solis.",
+      "column": "410a",
+      "chunk": 2,
+      "en": "CHAPTER XXXV. On unlawful works of Sunday."
+    },
+    {
+      "la": "CAPUT XXXVI. De missae celebratione pro monacho et laico.",
+      "column": "410c",
+      "chunk": 2,
+      "en": "CHAPTER XXXVI. On the celebration of Mass for a monk and a layman."
+    },
+    {
+      "la": "CAPUT XXXVII. De mulieris perceptione sanctae eucharistiae.",
+      "column": "410d",
+      "chunk": 2,
+      "en": "CHAPTER XXXVII. On a woman's receiving of the holy Eucharist."
+    },
+    {
+      "la": "CAPUT XXXVIII. De vulpibus, et de avibus, et equis, ac feris bestiis quae comedendae sunt.",
+      "column": "411a",
+      "chunk": 2,
+      "en": "CHAPTER XXXVIII. On foxes, and on birds, and horses, and wild beasts which are to be eaten."
+    },
+    {
+      "la": "CAPUT XXXIX. De apibus quae pungunt homines et de variis rebus.",
+      "column": "411b",
+      "chunk": 3,
+      "en": "CHAPTER XXXIX. On bees which sting men, and on various matters."
+    },
+    {
+      "la": "CAPUT XL. De violatis porcis, et de aliis impuris animalibus.",
+      "column": "411c",
+      "chunk": 3,
+      "en": "CHAPTER XL. On violated pigs, and on other unclean animals."
+    },
+    {
+      "la": "CAPUT XLI. De sancti Dyonisii et sancti Augustini dictis.",
+      "column": "412b",
+      "chunk": 3,
+      "en": "CHAPTER XLI. On the sayings of saint Dionysius and saint Augustine."
+    },
+    {
+      "la": "LIBRI PRIMI PARS ALTERA.",
+      "column": "412c",
+      "chunk": 3,
+      "en": "THE SECOND PART OF THE FIRST BOOK."
+    },
+    {
+      "la": "CAPUT PRIMUM. Hic incipit primum caput (quomodo) aliquem deceat sibi praecavere juxta peccatorum rationem.",
+      "column": "412c",
+      "chunk": 3,
+      "en": "CHAPTER ONE. Here begins the first chapter (how) it befits one to take precaution for himself according to the reckoning of sins."
+    },
+    {
+      "la": "CAPUT II. De eo qui in extremo (vitae) suae die ad poenitentiam peccatorum suorum se convertere velit, ut hoc illi non negetur.",
+      "column": "411",
+      "chunk": 3,
+      "en": "CHAPTER II. On him who on the last day of his (life) wishes to turn to penance for his sins, that this be not denied him."
+    },
+    {
+      "la": "CAPUT III. De eo qui desiderat poenitentiam agere, et viaticum, hoc est Christi corpus, ex timore mortis; et de eo cui sermo ademptus est antequam confessarius venerit.",
+      "column": "412d",
+      "chunk": 3,
+      "en": "CHAPTER III. On him who desires to do penance, and the viaticum, that is, the body of Christ, out of fear of death; and on him whose speech has been taken away before the confessor came."
+    },
+    {
+      "la": "CAPUT IV. De eo qui peccatorum suorum confessionem meditatur.",
+      "column": "413a",
+      "chunk": 3,
+      "en": "CHAPTER IV. On him who meditates the confession of his sins."
+    },
+    {
+      "la": "CAPUT V. De eo quod quis in multis rebus a desiderio vitae suae abstinere debeat, si peccatorum suorum emendationem facere velit.",
+      "column": "413b",
+      "chunk": 3,
+      "en": "CHAPTER V. On this, that one ought to abstain in many things from the desire of his life, if he wishes to make amendment of his sins."
+    },
+    {
+      "la": "CAPUT VI. De eo quod poenitentiam agenti non est licitum aliquam mercaturam exercere.",
+      "column": "413c",
+      "chunk": 3,
+      "en": "CHAPTER VI. On this, that it is not lawful for one doing penance to practise any trade."
+    },
+    {
+      "la": "CAPUT VII. De eo quod poenitens post poenitentiae suae contritionem, non debeat reverti ad eam.",
+      "column": "413c",
+      "chunk": 3,
+      "en": "CHAPTER VII. On this, that the penitent, after the contrition of his penance, ought not to return to it."
+    },
+    {
+      "la": "CAPUT VIII. De eo quod poenitens non observet id quod confessarius ipsi annotat.",
+      "column": "413d",
+      "chunk": 3,
+      "en": "CHAPTER VIII. On this, that the penitent does not observe that which the confessor notes for him."
+    },
+    {
+      "la": "CAPUT IX. De eo quod poenitenti per episcopi intercessionem remissio non detur.",
+      "column": "414a",
+      "chunk": 3,
+      "en": "CHAPTER IX. On this, that remission is not given to a penitent through the intercession of a bishop."
+    },
+    {
+      "la": "CAPUT X. De eo qui sacramentum desiderat in extremitate vitae, et de malo quod inde oritur.",
+      "column": "414b",
+      "chunk": 3,
+      "en": "CHAPTER X. On him who desires the sacrament at the extremity of life, and on the evil which arises from it."
+    },
+    {
+      "la": "CAPUT XI. De eo quod presbyter poenitentem non debeat suscipere absque venia episcopi, nisi cum episcopum adire nequit.",
+      "column": "414c",
+      "chunk": 3,
+      "en": "CHAPTER XI. On this, that a presbyter ought not to receive a penitent without the leave of the bishop, unless when he cannot reach the bishop."
+    },
+    {
+      "la": "CAPUT XII. De poenitentibus, quibus temporibus remissio eis danda sit.",
+      "column": "414d",
+      "chunk": 4,
+      "en": "CHAPTER XII. On penitents: at what times remission is to be given them."
+    },
+    {
+      "la": "CAPUT XIII. De eo cui eucharistia prohibita est et sub hoc (interdicto) obit.",
+      "column": "415a",
+      "chunk": 4,
+      "en": "CHAPTER XIII. On him to whom the eucharist is forbidden and who dies under this (interdict)."
+    },
+    {
+      "la": "CAPUT XIV. De eo qui pro diversis peccatis suis ad poenitentiam convertere velit cum plena compunctione.",
+      "column": "415b",
+      "chunk": 4,
+      "en": "CHAPTER XIV. On him who, for his divers sins, wishes to turn to penance with full compunction."
+    },
+    {
+      "la": "CAPUT XV. De Jacobi sancti apostoli Epistola, in qua dicit quomodo pro aegroto homine orandum, et ipse oleo ungendus sit.",
+      "column": "416a",
+      "chunk": 4,
+      "en": "CHAPTER XV. On the Epistle of the holy apostle James, in which he says how one is to pray for a sick man, and he himself is to be anointed with oil."
+    },
+    {
+      "la": "LIBER SECUNDUS.",
+      "column": "416b",
+      "chunk": 4,
+      "en": "BOOK TWO."
+    },
+    {
+      "la": "CAPUT PRIMUM. De eo qui sponte hominem occidit.",
+      "column": "416b",
+      "chunk": 4,
+      "en": "CHAPTER ONE. On him who kills a man of his own will."
+    },
+    {
+      "la": "CAPUT II. De muliere quae fornicata est et deinde ex timore infantem suum occidit.",
+      "column": "415d",
+      "chunk": 4,
+      "en": "CHAPTER II. On a woman who has committed fornication and then out of fear kills her infant."
+    },
+    {
+      "la": "CAPUT III. De eo qui servum suum furti causa occidit, absque hundredi sui testimonio.",
+      "column": "415d",
+      "chunk": 4,
+      "en": "CHAPTER III. On him who kills his own slave for the sake of theft, without the witness of his hundred."
+    },
+    {
+      "la": "CAPUT IV. Do eo quod mulier ex rancore occidat servam suam.",
+      "column": "416c",
+      "chunk": 4,
+      "en": "CHAPTER IV. On a woman who out of rancour kills her bondwoman."
+    },
+    {
+      "la": "CAPUT V. De eo qui seipsum occidit ex incuria aliqua; et de eo qui pro peccatis suis est punitus.",
+      "column": "416c",
+      "chunk": 4,
+      "en": "CHAPTER V. On him who kills himself out of some carelessness; and on him who is punished for his sins."
+    },
+    {
+      "la": "CAPUT VI. De eo qui indecenter fornicatur, hoc est cum bestiis, vel se cum juvenibus polluit, vel masculus cum masculo.",
+      "column": "416d",
+      "chunk": 4,
+      "en": "CHAPTER VI. On him who commits fornication indecently, that is, with beasts, or pollutes himself with youths, or male with male."
+    },
+    {
+      "la": "CAPUT VII. De eo qui adulteratur vel adulterium commiserat.",
+      "column": "417a",
+      "chunk": 4,
+      "en": "CHAPTER VII. On him who commits adultery or had committed adultery."
+    },
+    {
+      "la": "CAPUT VIII. De marito qui conjugem suam deserit, et de uxore quae maritum suum deserit et alium eligit.",
+      "column": "417a",
+      "chunk": 4,
+      "en": "CHAPTER VIII. On a husband who deserts his wife, and on a wife who deserts her husband and chooses another."
+    },
+    {
+      "la": "CAPUT IX. De marito qui uxorem et pellicem habet.",
+      "column": "417b",
+      "chunk": 4,
+      "en": "CHAPTER IX. On a husband who has a wife and a concubine."
+    },
+    {
+      "la": "CAPUT X. De eo qui legitimam uxorem habet et adhaeret extraneis mulieribus.",
+      "column": "417b",
+      "chunk": 4,
+      "en": "CHAPTER X. On him who has a lawful wife and cleaves to strange women."
+    },
+    {
+      "la": "CAPUT XI. De viro qui duas sorores in matrimonium ducit, vel de uxore fratrem unum post alium sumente.",
+      "column": "417c",
+      "chunk": 4,
+      "en": "CHAPTER XI. On a man who takes two sisters in marriage, or on a wife taking one brother after another."
+    },
+    {
+      "la": "CAPUT XII. De eo, si aliqua uxor desponsata sit, quod non permissum sit alteri unquam viro rebus suis eam spoliare.",
+      "column": "417d",
+      "chunk": 4,
+      "en": "CHAPTER XII. On this: if any wife has been betrothed, that it is not permitted to any other man ever to despoil her of her things."
+    },
+    {
+      "la": "CAPUT XIII. De viro qui uxorem vel puellam assumit cum injustis rebus.",
+      "column": "417d",
+      "chunk": 4,
+      "en": "CHAPTER XIII. On a man who takes a wife or a girl with unjust things."
+    },
+    {
+      "la": "CAPUT XIV. De viro qui ob injustum concubitum servam procuratricem a domino suo allicit.",
+      "column": "418a",
+      "chunk": 4,
+      "en": "CHAPTER XIV. On a man who, for the sake of unlawful intercourse, entices a bondwoman, a stewardess, away from her lord."
+    },
+    {
+      "la": "CAPUT XV. De eo si puella viro desponsata sit, et alius vir illam spoliet invitam.",
+      "column": "418a",
+      "chunk": 4,
+      "en": "CHAPTER XV. On this: if a girl has been betrothed to a man, and another man despoils her unwilling."
+    },
+    {
+      "la": "CAPUT XVI. De eo, si puella consecrata ad fornicationem alliciatur. De non consecrata puella quae ad injustum concubitum allicitur.",
+      "column": "418b",
+      "chunk": 4,
+      "en": "CHAPTER XVI. On this: if a consecrated girl is enticed to fornication. On an unconsecrated girl who is enticed to unlawful intercourse."
+    },
+    {
+      "la": "CAPUT XVII. De viro cognatam in uxorem ducente.",
+      "column": "418c",
+      "chunk": 4,
+      "en": "CHAPTER XVII. On a man taking a kinswoman to wife."
+    },
+    {
+      "la": "CAPUT XVIII. De eo quod sanctus Gregorius de injusto concubitu dicit.",
+      "column": "418d",
+      "chunk": 5,
+      "en": "CHAPTER XVIII. On what saint Gregory says concerning unlawful intercourse."
+    },
+    {
+      "la": "CAPUT XIX. De viro crebros coitus committente.",
+      "column": "418d",
+      "chunk": 5,
+      "en": "CHAPTER XIX. On a man committing frequent couplings."
+    },
+    {
+      "la": "CAPUT XX. Prior et posterior sententia eadem est, licet ita divisa appareat.",
+      "column": "419a",
+      "chunk": 5,
+      "en": "CHAPTER XX. The former and the latter sentence are the same, although it appears so divided."
+    },
+    {
+      "la": "CAPUT XXI. De eo quomodo conjuges se gerere debeant coram Deo.",
+      "column": "419b",
+      "chunk": 5,
+      "en": "CHAPTER XXI. On how spouses ought to conduct themselves before God."
+    },
+    {
+      "la": "CAPUT XXII. De eo qui rem seducentem committit.",
+      "column": "419c",
+      "chunk": 5,
+      "en": "CHAPTER XXII. On him who commits a seducing thing."
+    },
+    {
+      "la": "CAPUT XXIII. Et de eo cui permissum non est vanam divinationem exercere.",
+      "column": "419d",
+      "chunk": 5,
+      "en": "CHAPTER XXIII. And on this: to whom it is not permitted to practise vain divination."
+    },
+    {
+      "la": "CAPUT XXIV. De perjurio, quomodo emendari debeat.",
+      "column": "419d",
+      "chunk": 5,
+      "en": "CHAPTER XXIV. On perjury, how it ought to be amended."
+    },
+    {
+      "la": "CAPUT XXV. De furto.",
+      "column": "420a",
+      "chunk": 5,
+      "en": "CHAPTER XXV. On theft."
+    },
+    {
+      "la": "CAPUT XXVI. De falso testimonio.",
+      "column": "420b",
+      "chunk": 5,
+      "en": "CHAPTER XXVI. On false witness."
+    },
+    {
+      "la": "CAPUT XXVII. De discordia cum proximo suo.",
+      "column": "420c",
+      "chunk": 5,
+      "en": "CHAPTER XXVII. On discord with one's neighbour."
+    },
+    {
+      "la": "CAPUT XXVIII. De furore.",
+      "column": "420c",
+      "chunk": 5,
+      "en": "CHAPTER XXVIII. On fury."
+    },
+    {
+      "la": "CAPUT XXIX. De eo qui juramentum praestat quod in gratiam cum proximo suo redire nolit.",
+      "column": "420d",
+      "chunk": 5,
+      "en": "CHAPTER XXIX. On him who takes an oath that he will not return into favour with his neighbour."
+    },
+    {
+      "la": "CAPUT XXX. De eo cui permissum non est ut aliquis pecuniam suam ad injustum tributum tradat.",
+      "column": "420d",
+      "chunk": 5,
+      "en": "CHAPTER XXX. On this: that it is not permitted that anyone hand over his money for unjust tribute."
+    },
+    {
+      "la": "LIBER TERTIUS.",
+      "column": "422a",
+      "chunk": 5,
+      "en": "BOOK THREE."
+    },
+    {
+      "la": "CAPUT PRIMUM. Hic incipit primum caput de ordinatorum hominum matrimonio.",
+      "column": "422a",
+      "chunk": 5,
+      "en": "CHAPTER ONE. Here begins the first chapter, on the marriage of ordained men."
+    },
+    {
+      "la": "CAPUT II. De iis qui sacerdotalem ordinem rite servare desiderant.",
+      "column": "421b",
+      "chunk": 5,
+      "en": "CHAPTER II. On those who desire to keep the priestly order duly."
+    },
+    {
+      "la": "CAPUT III. Deinde, de presbyteris.",
+      "column": "421b",
+      "chunk": 5,
+      "en": "CHAPTER III. Next, on presbyters."
+    },
+    {
+      "la": "CAPUT IV. Deinde, de ministris Dei.",
+      "column": "421c",
+      "chunk": 5,
+      "en": "CHAPTER IV. Next, on the ministers of God."
+    },
+    {
+      "la": "CAPUT V. De eo quomodo sacerdos et diaconus se gerere debeant.",
+      "column": "421c",
+      "chunk": 5,
+      "en": "CHAPTER V. On how a priest and a deacon ought to conduct themselves."
+    },
+    {
+      "la": "CAPUT VI. De episcopis et de aliis Dei ministris.",
+      "column": "421d",
+      "chunk": 5,
+      "en": "CHAPTER VI. On bishops and on other ministers of God."
+    },
+    {
+      "la": "CAPUT VII. De hominibus ordinatis qui possessionem suam mercede aliis exponunt.",
+      "column": "422a",
+      "chunk": 5,
+      "en": "CHAPTER VII. On ordained men who put out their possessions to others for hire."
+    },
+    {
+      "la": "CAPUT VIII. De ordinatorum procurationibus.",
+      "column": "422b",
+      "chunk": 5,
+      "en": "CHAPTER VIII. On the stewardships of ordained men."
+    },
+    {
+      "la": "CAPUT IX. De eo quod ordinatus complacitum sumat cum muliere.",
+      "column": "422b",
+      "chunk": 6,
+      "en": "CHAPTER IX. On this: that an ordained man makes a compact with a woman."
+    },
+    {
+      "la": "CAPUT X. Deinde, de eodem.",
+      "column": "422c",
+      "chunk": 6,
+      "en": "CHAPTER X. Next, on the same."
+    },
+    {
+      "la": "CAPUT XI. De monachi et monachae delictis.",
+      "column": "422d",
+      "chunk": 6,
+      "en": "CHAPTER XI. On the offences of a monk and of a nun."
+    },
+    {
+      "la": "CAPUT XII. De mulieris ministerio ad altare, quod ad eam non pertinet.",
+      "column": "422d",
+      "chunk": 6,
+      "en": "CHAPTER XII. On a woman's ministry at the altar, which does not pertain to her."
+    },
+    {
+      "la": "CAPUT XIII. De eo quod quilibet sacerdos statuta sua nosse debeat.",
+      "column": "423a",
+      "chunk": 6,
+      "en": "CHAPTER XIII. On this: that every priest ought to know his ordinances."
+    },
+    {
+      "la": "CAPUT XIV. De eo quod sanctus Augustinus Romam miserit ad sanctum Gregorium, et sanctus Gregorius ei responsum miserit.",
+      "column": "423a",
+      "chunk": 6,
+      "en": "CHAPTER XIV. On this: that saint Augustine sent to Rome to saint Gregory, and saint Gregory sent him an answer."
+    },
+    {
+      "la": "CAPUT XV. De eo quod sacerdoti nihil prosit quod justus sit, si injustos ab injustitia sua deducere nolit.",
+      "column": "424a",
+      "chunk": 6,
+      "en": "CHAPTER XV. On this: that it profits a priest nothing that he is just, if he will not lead the unjust away from their injustice."
+    },
+    {
+      "la": "CAPUT XVI. De conversatione presbyterorum.",
+      "column": "424b",
+      "chunk": 6,
+      "en": "CHAPTER XVI. On the manner of life of presbyters."
+    },
+    {
+      "la": "LIBER QUARTUS. Sciendum est quomodo hic quartus liber non sit divisus in capita, cum priores libri sunt in capita divisi; hoc est, quoniam hic quartus liber desumptus est ex tribus: si quis cito aliquid in tribus (libris) invenire nequit, hoc in quarto invenitur tam de majoribus quam minoribus rebus, manifestius et quantocius.",
+      "column": "424c",
+      "chunk": 7,
+      "en": "BOOK FOUR. It is to be known how this fourth book is not divided into chapters, though the former books are divided into chapters; that is, because this fourth book is drawn from the three: if anyone cannot quickly find something in the three (books), it is found in the fourth, concerning greater as well as lesser matters, more plainly and as speedily as may be."
+    },
+    {
+      "la": "EX EJUSDEM EGBERTI POENITENTIALIS LIBRO SECUNDO IN PUBLICA BIBLIOTHECA OXONIENSI, SUB TITULO [cn: a | De his canonibus vide superius Praemonitionem meam ad Collectiones canonicas Egberti. MANSI.] ABHINC DIVERSA EX DIVERSIS EXCESSIBUS JUDICIA.",
+      "column": "432b",
+      "chunk": 9,
+      "en": "FROM THE SECOND BOOK OF THE PENITENTIAL OF THE SAME EGBERT, IN THE PUBLIC LIBRARY AT OXFORD, UNDER THE TITLE [nt: On these canons see above my Prefatory Notice to the canonical Collections of Egbert. Mansi.] HENCEFORTH DIVERSE JUDGMENTS FOR DIVERSE EXCESSES."
+    },
+    {
+      "la": "I.",
+      "column": "431",
+      "chunk": 9,
+      "en": "I."
+    },
+    {
+      "la": "II.",
+      "column": "431c",
+      "chunk": 9,
+      "en": "II."
+    },
+    {
+      "la": "III.",
+      "column": "431c",
+      "chunk": 9,
+      "en": "III."
+    },
+    {
+      "la": "IV.",
+      "column": "431c",
+      "chunk": 9,
+      "en": "IV."
+    },
+    {
+      "la": "V.",
+      "column": "431c",
+      "chunk": 9,
+      "en": "V."
+    },
+    {
+      "la": "VI.",
+      "column": "431d",
+      "chunk": 9,
+      "en": "VI."
+    },
+    {
+      "la": "VII.",
+      "column": "431d",
+      "chunk": 9,
+      "en": "VII."
+    },
+    {
+      "la": "VIII.",
+      "column": "432c",
+      "chunk": 9,
+      "en": "VIII."
+    },
+    {
+      "la": "IX.",
+      "column": "432c",
+      "chunk": 9,
+      "en": "IX."
+    },
+    {
+      "la": "X.",
+      "column": "432c",
+      "chunk": 9,
+      "en": "X."
+    },
+    {
+      "la": "XI.",
+      "column": "432c",
+      "chunk": 9,
+      "en": "XI."
+    },
+    {
+      "la": "XII.",
+      "column": "432d",
+      "chunk": 9,
+      "en": "XII."
+    },
+    {
+      "la": "XIII.",
+      "column": "432d",
+      "chunk": 9,
+      "en": "XIII."
+    },
+    {
+      "la": "XIV.",
+      "column": "433a",
+      "chunk": 9,
+      "en": "XIV."
+    },
+    {
+      "la": "XV.",
+      "column": "433a",
+      "chunk": 9,
+      "en": "XV."
+    },
+    {
+      "la": "XVI.",
+      "column": "433a",
+      "chunk": 9,
+      "en": "XVI."
+    },
+    {
+      "la": "XVII.",
+      "column": "433a",
+      "chunk": 9,
+      "en": "XVII."
+    },
+    {
+      "la": "XVIII.",
+      "column": "433b",
+      "chunk": 9,
+      "en": "XVIII."
+    },
+    {
+      "la": "XIX.",
+      "column": "433b",
+      "chunk": 9,
+      "en": "XIX."
+    },
+    {
+      "la": "XX.",
+      "column": "433c",
+      "chunk": 9,
+      "en": "XX."
+    },
+    {
+      "la": "XXI.",
+      "column": "433c",
+      "chunk": 9,
+      "en": "XXI."
+    },
+    {
+      "la": "XXII.",
+      "column": "433c",
+      "chunk": 9,
+      "en": "XXII."
+    },
+    {
+      "la": "XXIII.",
+      "column": "433d",
+      "chunk": 9,
+      "en": "XXIII."
+    },
+    {
+      "la": "XXIV.",
+      "column": "433d",
+      "chunk": 9,
+      "en": "XXIV."
+    },
+    {
+      "la": "XXV.",
+      "column": "433d",
+      "chunk": 9,
+      "en": "XXV."
+    },
+    {
+      "la": "XXVI.",
+      "column": "434a",
+      "chunk": 9,
+      "en": "XXVI."
+    },
+    {
+      "la": "XXVII.",
+      "column": "434a",
+      "chunk": 9,
+      "en": "XXVII."
+    },
+    {
+      "la": "XXVIII.",
+      "column": "434a",
+      "chunk": 9,
+      "en": "XXVIII."
+    },
+    {
+      "la": "XXIX.",
+      "column": "434a",
+      "chunk": 9,
+      "en": "XXIX."
+    },
+    {
+      "la": "XXX.",
+      "column": "434b",
+      "chunk": 9,
+      "en": "XXX."
+    },
+    {
+      "la": "XXXI.",
+      "column": "434b",
+      "chunk": 9,
+      "en": "XXXI."
+    },
+    {
+      "la": "XXXII.",
+      "column": "434b",
+      "chunk": 10,
+      "en": "XXXII."
+    },
+    {
+      "la": "XXXIII.",
+      "column": "434b",
+      "chunk": 10,
+      "en": "XXXIII."
+    },
+    {
+      "la": "XXXIV.",
+      "column": "434c",
+      "chunk": 10,
+      "en": "XXXIV."
+    },
+    {
+      "la": "XXXV.",
+      "column": "434d",
+      "chunk": 10,
+      "en": "XXXV."
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [
+    {
+      "raw": "Mansi, Conc. Collect. tom. XII.",
+      "reason": "unparsed-shape",
+      "column": "401a",
+      "chunk": 0,
+      "inline": true
+    }
+  ],
+  "proseNotes": []
+}

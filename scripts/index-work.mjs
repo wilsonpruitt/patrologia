@@ -145,7 +145,17 @@ for (const c of manifest.chunks) {
   if (!fs.existsSync(f)) continue;
   const body = fs.readFileSync(f, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
   const set = new Set();
-  [...body.matchAll(/\[(n|nt): ([^\]]*)\]/g)].forEach((m, i) => { if (m[1] === 'nt') set.add(i); });
+  // ⚠ The English sequence also carries the [nt:] TWINS of Migne's plate notes ([cn: a|*],
+  // Floss's [fn:], a prose [vl: n+]), which have no [n:] on the Latin side. Counting them
+  // shifted every later [n:] by one, and 8382's Matt 25 / Matt 18 / Ps 5 citations were filed
+  // as prose (2026-09-19). So walk both sequences together, as verify-english.mjs pairs them,
+  // and index the prose set by the Latin [n:] ordinal, which is what routeNote counts.
+  const latBody = fs.readFileSync(path.join(latDir, `${String(c.chunk).padStart(4, '0')}.md`), 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '');
+  const inSeq = m => m[1] === 'n' || m[1] === 'fn' || (m[1] === 'cn' && /^(?:\*|[a-z])\s*\|/.test(m[2])) || (m[1] === 'vl' && /^[0-9]+\+\s*\|/.test(m[2]));
+  const latSeq = [...latBody.matchAll(/\[(n|cn|fn|vl): ([^\]]*)\]/g)].filter(inSeq).map(m => m[1]);
+  const engSeq = [...body.matchAll(/\[(n|nt): ([^\]]*)\]/g)].map(m => m[1]);
+  let nOrd = 0;
+  latSeq.forEach((k, i) => { if (k !== 'n') return; if (engSeq[i] === 'nt') set.add(nOrd); nOrd++; });
   if (set.size) proseNotePositions.set(c.chunk, set);
 }
 const proseNotes = [];

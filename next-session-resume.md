@@ -1,5 +1,40 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-19) — EGBERT *POENITENTIALE* (8382) DONE · BUILT, PREFLIGHT OK · ⛔ DEPLOY OWED (Wilson's OK)
+
+The first genre-survey pilot, canon law, is done. **8382 Egbert of York, *Poenitentiale*** (PL 89,
+cols 401A–436A, 11 chunks, 13.1K words). It is marked `ours`, and `workStatus` stays `unclear`, so the
+badge reads **"New"**, correctly. Built with `build-site.mjs 8382 8950 8996`, and **preflight 8/8**.
+**Owed: the deploy** (`cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`), then
+smoke-test `/pl/89/poenitentiale/`, `/cruces/pl/89/poenitentiale/` and `/` on the ALIAS.
+
+- **Pipeline as run:**
+  - Three Opus stints read their plates inline (archive `patrologiaecurs74unkngoog`, **which the
+    catalogue MISLABELS as Augustine**; page = (odd col + 13)/2). They used ~875K tokens and made
+    19 page reads, all `full`.
+  - The Latin catches up through **20 TEI patches**, and the title banner is restored.
+  - **7 Migne letter notes** were recovered, each as a `[cn:]` with an `[nt:]` twin: Wilkins and
+    Mansi, one of them inside a `## ` head.
+  - Markers: 1 `[cj:]` and 4 `[var:]`. **No `[sic:]`: there is one witness on disk.**
+  - The blind read used three Opus readers (~390K tokens). It found 0 polarity sites and made
+    4 grammar fixes. Merge layer: `src/english/8382/cruces.md`.
+- ⚑ **Prep MISSED a foot note, and stint C caught it.** At p. 222, col 0432A, Migne sets a note full
+  width MID-PAGE, under the Book IV section and above the rule opening the *Ex ejusdem* excerpt. My
+  sweep cropped each page from 55% of its height down. **A foot sweep must look at every section
+  break on the page, not only the bottom strip.** CLAUDE.md already says so, and I didn't follow it.
+- **Two code fixes:**
+  - `inject-plate-notes.mjs`:
+    - A Migne letter key ABSENT from the TEI now takes the `(a)` anchor form.
+    - The search skips frontmatter, which was double-counting notes keyed in heads and banners.
+  - `index-work.mjs`: the prose-note pairing counted the English `[nt:]` twins of plate notes, which
+    shifted every later `[n:]`. Real citations had been filed as prose: 8382's Matt/Ps, and one each
+    in shipped **8950** and **8996**. Both are re-indexed; those two index changes ship with this deploy.
+- **Open, not blocking:** single-witness candidates (0409C *fre-|mentum*, 0416C *Do eo*, and others)
+  want a second PL 89 copy. volumes.json lists five untested Google Books IDs. 0409B's two-tier
+  *magnum/magnum* is logged, with no `[cj:]` (it rests on an outside text).
+- **Next pilot from the survey:** Usuardus's *Martyrologium* (9198/9215). It needs Wilson's ruling
+  on the Kalends/Nones/Ides day-headings first.
+
 ## ▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-17, latest) — CURSORY TRIAGE ON ERIUGENA + PL 113 · 8/9 FLIP TO "FIRST" · DEPLOY OWED
 
 Ran the cursory tier on the just-shipped works themselves (Eriugena 9176/9175/9178/9181, PL 113

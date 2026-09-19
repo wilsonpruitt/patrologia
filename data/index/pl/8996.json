@@ -15,7 +15,7 @@
   "colLast": "520b",
   "counts": {
     "scripture": 48,
-    "fontes": 122,
+    "fontes": 123,
     "heads": 17,
     "headnotes": 0,
     "unparsed": 0
@@ -350,9 +350,14 @@
       "chunk": 1
     },
     {
+      "raw": "AUG.",
+      "column": "470b",
+      "chunk": 1
+    },
+    {
       "raw": "ID. Expos. in hanc epist.",
-      "antecedent": "HAYM.",
-      "antecedentColumn": "470a",
+      "antecedent": "AUG.",
+      "antecedentColumn": "470b",
       "ibidResolved": true,
       "column": "470b",
       "chunk": 1
@@ -1043,11 +1048,5 @@
   ],
   "headnotes": [],
   "unparsed": [],
-  "proseNotes": [
-    {
-      "raw": "(AUG.)",
-      "column": "470b",
-      "chunk": 1
-    }
-  ]
+  "proseNotes": []
 }

@@ -71,3 +71,17 @@ Words attributed to *Salvator* that are Ezekiel (two sites in Book I part two, `
 Leviticus (0421C, *Estote sancti*); Migne's *(Matth. I)* for Matt 12:36 (0434D). The work quotes
 from memory through an Old English intermediary, so most of its "quotations" are paraphrase and
 carry no `[var:]`.
+
+### Blind read (three Opus readers, 2026-09-19): 0 polarity sites, 4 grammar fixes applied
+
+Readers worked without the cruces (reports `data/briefs/8382-BLIND-READ-R1..R3.md`). Every tariff,
+numeral, list and negative in all eleven chunks was checked against the Latin, and all hold. Applied:
+
+- 0417D, Book II cap. XII head: *rebus suis eam spoliare* is now "despoil her **of her things**"; it was "with his things" (R2; with *spoliare* the ablative is what she is stripped of).
+- 0429B: *et ipsi remissionem apud Deum obtinere* is now "and obtain remission **for him** with God"; it was "and themselves obtain remission" (R3; the list is of remissions for the penitent).
+- 0434B cap. XXXII: the English now supplies the subject "he ought to be excommunicated", which the Latin carries over from *si quis* (R3).
+- 0434D: *pertimescat* governs *assistere*: "let him greatly fear to stand before the tribunal of the strict judge, to render an account for these" (R3).
+
+Logged, not changed:
+- **0409B cap. XXXII**, *Si quis praemium aliquod magnum saltem diabolis immolet, jejunet per annum; si aliquid magnum sacrificet, jejunet decem hiemes*. As printed, the two tiers do not contrast: "great" earns one year and "great" earns ten winters. Theodore's parallel (*in minimis* a year, *in magnis* ten) and the *saltem* both point to "small" in the first tier (R1). **No `[cj:]`:** the reading rests on an outside text, not on the printed context alone. Rendered as printed.
+- 0406D *haereditatis ejus* is rendered "her inheritance", an ordinary disambiguation (R1). 0423A *animae suae commodum* is rendered "their soul", given this Latin's loose *suus* (R2). 0426A *duobus diebus Mercurii et Veneris* is rendered "two days, Wednesday and Friday"; the tariff pattern hints at "two [years]", but that word is not printed (R2).
