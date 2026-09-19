@@ -1,0 +1,73 @@
+{
+  "_note": "Stint-scoped plate reads for 8382 chunks 0000-0003 (cols 0401A-0414D), stint A. Merge into data/plate-reads.json works.8382.reads[].",
+  "series": "pl",
+  "volume": 89,
+  "scan": "raw/scans/pl089/patrologiaecurs74unkngoog.pdf (archive.org patrologiaecurs74unkngoog), rendered locally with pdftoppm -r 300 (p.211 also at -r 400 for the frumentum and immolet checks); crops made with PIL inside one column, the gutter never crossed; renders deleted after use.",
+  "page_map": "PDF page = (odd column + 13) / 2, confirmed on every page of this range by the printed corner numbers (p.207 = 401/402 ... p.213 = 413/414).",
+  "second_witness": "none on disk. Every letter-level finding below is single-witness. No [sic:] was fired in this range. One [var:] (0411B, a quoted verse whose WORDS diverge) and one [cj:] (0411A, Migne's double negative) were fired, both on columns read here.",
+  "reads": [
+    {
+      "from": "401A",
+      "to": "402D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p207",
+      "source": "archive PDF p.207. CALIBRATION: printed corner numbers read FIRST -- left 401, right 402, running head 'POENITENTIALIS LIB. I.' Whole page at 1/3 scale, then eight 300 dpi strips (four per column) plus 2.5-3x zooms at 0402A and 0402C.",
+      "found": "Foot of page: Migne's note (a) on the title banner, 'Affert Wilkins, tom. I Conc. Britan. ... ut indocti ea facile intelligere possent.', running across both columns. This is one of the six recovered notes; our [cn: a] matches it. No other note. Collated word by word against chunk 0000 from the title to CAPUT II ('consideret in tribus'). Title banner set as SANCTI EGBERTI / EBORACENSIS ARCHIEPISCOPI / (a) POENITENTIALE. / (Mansi, Conc. Collect. tom. XII.). The LIBRI PRIMI PARS PRIMA heading is set mid-page across both columns, so the anchors step back 0402B -> 0401 (known false positive 1). TWO PLATE-vs-TEI DIFFERENCES, both filed as pending patches and followed in the English: (1) 0402A 'qui quovis anno' (TEI 'quovit'); (2) 0402C 'et utatur omnibus aliis cibis' (TEI 'uratur'; the t is damaged but has no r-ear, and the same canon has 'utatur' nine lines lower). Confirmed as printed: '(in) pane et aqua' with Migne's parenthesis; 'licet studio adulterium non committant'; 'qualibet hebdomade'; 'et observa duodecim quadragesimae dies'. Worn sort, not a finding: 'mihi' at 0401B looks like 'mibi'."
+    },
+    {
+      "from": "403A",
+      "to": "404D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p208",
+      "source": "archive PDF p.208. CALIBRATION: corner numbers read FIRST -- left 403, right 404, running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page at 1/3 scale, then twelve 300 dpi strips (six per column), plus a 2.5x zoom at 0404A.",
+      "found": "CHECKED ZERO at the foot of both columns. Collated against the rest of chunk 0000 (CAPUT II from 'illis quadragesimis' to CAPUT VII) and the head of chunk 0001 (CAPUT VIII to CAPUT XII, 'si in-'). No plate-vs-TEI difference. Confirmed as printed: *Hodie domui huic salus facta est* (italic, Luke 19:9 word order differs); *Qui per corpus suum peccat, per corpus suum hoc compenset* (italic); 'Prima abstinentia est baptismus ignis'; 'tria jejunia per hebdomadam jejunet duobus diebus ad Vesperam'; 'psalterii psalmum'; 'maxillam suam'; 'vel si volens in somno moechatus sit'; 'detineatur in itinere suo'; 'caracallam cassiatam'. Not readable on this copy: 'nonnulli volunt annum' at 0404A is blotted solid; TEI stands. Worn sort: 'Dei honorem' at 0403C reads like 'Doi'."
+    },
+    {
+      "from": "405A",
+      "to": "406D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p209",
+      "source": "archive PDF p.209. CALIBRATION: corner numbers read FIRST -- left 405, right 406, running head 'POENITENTIALIS LIB. I.' Whole page at 1/3 scale, then twelve 300 dpi strips, plus a 2.2x zoom at 0406B.",
+      "found": "CHECKED ZERO at the foot. Collated against chunk 0001 from CAPUT XII ('fantem genuerit') to CAPUT XXI. ONE PLATE-vs-TEI DIFFERENCE: 0406B 'flagitia sua committere velit' (TEI 'commitere'), orthographic, filed as a pending patch. Confirmed as printed: 'Baptizatus [Lege baptizans]' (Migne's bracket with italic Lege); *Infidelis si discedit, discedat.* (italic); 'sive ipse (baptisma) habeat sive non'; 'hoc est quasi Christum suspenderet'; 'suspendantur' (0405D); 'si autem caelebs sit, jejunet septem hiemes'; 'et se injusto matrimonio (alii) adjungat'; 'si cum extis ejus coeat' (0406D; the letters are spaced slightly on this copy but it is one word)."
+    },
+    {
+      "from": "407A",
+      "to": "408D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p210",
+      "source": "archive PDF p.210. CALIBRATION: corner numbers read FIRST -- left 407, right 408, running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page at 1/3 scale, then twelve 300 dpi strips, plus a 2.2x zoom at 0407C.",
+      "found": "CHECKED ZERO at the foot. Collated against the end of chunk 0001 (CAPUT XXII-XXV) and the head of chunk 0002 (CAPUT XXVI-XXX, to 'conceptu sui in utero'). ONE PLATE-vs-TEI DIFFERENCE: 0407C 'mutua voluntate se conjungant' (TEI 'conjungat'), filed as a pending patch. Confirmed as printed: 'Si quis alterum occiderit, nequaquam in homicidio'; 'hoc sit juris episcopalis an arma deponat'; 'vel sit sanus' (0407D); *Domini est terra.* (italic); 'uxori suae familiae'; 'post hanc aetatem dominus ejus illam capere potest, cum sua voluntate'; 'antequam eam cognoscat'; 'conceptu sui in utero'."
+    },
+    {
+      "from": "409A",
+      "to": "410D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p211",
+      "source": "archive PDF p.211. CALIBRATION: corner numbers read FIRST -- left 409, right 410, running head 'POENITENTIALIS LIB. I.' Whole page at 1/3 scale, then twelve 300 dpi strips, plus a separate 400 dpi render for the 0409B-C checks (3x and 8x crops) and 0410C.",
+      "found": "Foot of left column: Migne's note (a) '(a) In domo vertendum est, WILKINS.' keyed after 'urit' at 0409C. This is one of the six recovered notes; our [cn: a] matches it (the plate has a comma, not a full stop, before WILKINS). No other note. Collated against chunk 0002 from 'et in quadraginta diebus' to CAPUT XXXVII ('unum pro omni'). TWO PLATE-vs-TEI DIFFERENCES, filed as pending patches and followed in the English: (1) 0409B 'saltem diabolis immolet, jejunet' (TEI garble 'immo' et jejunet'); (2) 0410C 'eucharistiae gratia accedere' (TEI 'gratiae'). THE PREP CANDIDATE at 0409C: the plate sets 'Quicunque fre-|mentum urit'. At 400 dpi and 8x the third glyph is ink-filled with no open eye and has a foot at lower right (a u feature). The chapter head on the same page sets 'fru-|mentum'. INDETERMINATE on this copy: crux, single-witness, no patch, no marker. Confirmed as printed: 'quicunque inimicis assignatum cibum sacrificat'; 'in salutem vivorum, et masculi'; 'et tres jejunium legale'; 'nisi quod excommunicet eum qui nequeunt' (0410B); 'In uno eodemque altari quotidie duas missas celebrare debes'; 'corpus consumpti hominis et mariti'; 'Mulieres sub Brunonis regulis'."
+    },
+    {
+      "from": "411A",
+      "to": "412D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p212",
+      "source": "archive PDF p.212. CALIBRATION: corner numbers read FIRST -- left 411 (the final 1 prints broken, like 'f'), right 412, running head 'EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page at 1/3 scale, then twelve 300 dpi strips, plus a 2.5x zoom at 0412B.",
+      "found": "CHECKED ZERO at the foot. Collated against the end of chunk 0002 (CAPUT XXXVII end, XXXVIII) and chunk 0003 from CAPUT XXXIX to CAPUT III ('et ei'). LIBRI PRIMI PARS ALTERA is set mid-page across both columns, so the anchors step back 0412C -> 0411 (known false positive 1). ONE PLATE-vs-TEI DIFFERENCE: 0411C 'nihil ei doleat. Si in parvam' (TEI has a comma), filed as a pending patch and followed in the English. Confirmed as printed: 'neque quas accipiter momorderit, si mortuae inveniantur, non sunt edendae' (the double negative, [cj:] fired); *Abstinete vos a fornicatione, et a suffocato, sanguine et idololatria.* (italic, the [var:] site at 0411A-B); 'Pisces emi possunt'; '(sanandam)'; 'Theodorius dicebat'; 'nesciens devocet'; 'nisi excipe, si omnia non sint quam certissime pura'; '(testium)'; *Quocunque die homo ad piam vitam revertitur, vivet, et non morietur* (italic); 'Furi necesse est'. Not settled on this copy: 'et postea sciat' at 0412B looks like 'sciet', but 'cantet' in the same line looks like 'cantot'. TEI stands."
+    },
+    {
+      "from": "413A",
+      "to": "414D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p213",
+      "source": "archive PDF p.213. CALIBRATION: corner numbers read FIRST -- left 413, right 414, running head 'POENITENTIALIS LIB. I.' Whole page at 1/3 scale, then twelve 300 dpi strips.",
+      "found": "CHECKED ZERO at the foot. A raised speck after 'accipere,' at 0414A (right column, line 11) is not a note key: nothing is set at the foot. Collated against chunk 0003 from 'saltem eucharistiam' to the end of CAPUT XI. THREE PLATE-vs-TEI DIFFERENCES, filed as pending patches: (1) 0413A 'eucharistiam' (TEI 'cucharistiam'); (2) 0413A 'ast dubitant' (TEI 'duditant'); (3) head of CAPUT X 'De eo qui sacramentum' (TEI 'Deo eo'). Confirmed as printed: *Omnia mihi licita sunt, sed non mihi expediunt omnia* (italic); 'Sanctus Isidorus, qui librum hunc composuit'; 'Qui Deo vult servire non debet occupari in mundanis negotiis' (roman); 'ut nullus homo eam assequi non possit'; 'Confitere injustitiam tuam, ut sis justificatus' (roman); 'portione sua bona utatur'; 'sanctus Augustinus dicit in alio loco'. The page runs on into CAPUT XII, which belongs to stint B."
+    }
+  ]
+}

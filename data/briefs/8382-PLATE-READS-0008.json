@@ -1,0 +1,55 @@
+{
+  "_note": "Stint-scoped plate reads for 8382 chunks 0008-0010 (cols 0428B-0436A), stint C. Merge into data/plate-reads.json works.8382.reads[].",
+  "series": "pl",
+  "volume": 89,
+  "scan": "archive.org patrologiaecurs74unkngoog (on disk: raw/scans/pl089/patrologiaecurs74unkngoog.pdf), rendered locally with pdftoppm at 300 dpi, 400 dpi for single letters",
+  "page_map": "PDF page = (odd column + 13) / 2 -- confirmed on every page below by the printed corner numbers",
+  "second_witness": "none on disk. Every letter-level observation below is single-witness and fires no [sic:].",
+  "reads": [
+    {
+      "from": "428B",
+      "to": "428D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p220",
+      "source": "CALIBRATION: corner numbers read FIRST -- left 427 (worn, prints like '127'), right 428; running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page at half scale, then two RIGHT-COLUMN crops at full 300 dpi (x 1140-2242); no crop crossed the gutter. Left column 427 (stint B's) seen only in the overview.",
+      "found": "CHECKED ZERO at the foot (a stray dot only). Col 428 collated word by word from 'Si quis alterius domum comburat' to the foot ('…dictum est quod omnipotens'). Every word agrees with chunk 0008. Confirmed as printed: 'reliquos dies jejunet contra'; 'si hoc nesciret'; the tariff ladder 'si non adeo dives … si nec adeo dives … ut nec decem habeat'; 'verus solidus sit semper duodecim obolorum'; italic '*Miserere mei Deus*' (broken 'Misere-|re' at the D band) and italic '*Pater noster*' twice; 'quinquaginta (psalmos) vesperi'; 'cum decem (missis)'."
+    },
+    {
+      "from": "429A",
+      "to": "430D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p221",
+      "source": "CALIBRATION: corners read FIRST -- left 429, right 430; running head 'POENITENTIALIS LIB. IV.' Overview at half scale, then three crops per column at 300 dpi, each inside one column.",
+      "found": "CHECKED ZERO at the foot, both columns. Collated word by word against chunk 0008 (and the head of 0009 at the foot of col 430). No divergence from the twin. Confirmed: italic '*Remittite et remittetur vobis.*' and '*Verum est quod tibi dico, nunc hodie tu eris mecum in Patris mei regno.*' (the non-Vulgate Luke 23:43 is Migne's, not the transcription's); 'hoc est anima pro pia habeatur' with no comma after anima; 'a perjuris' (not perjuriis) at 0430C; '(tempus)', '(gratiam)', '( o homo )' parentheses as printed; italic '*Petite et dabitur vobis :*'; 'in non consecrata Christi cruce pejerat'; the page ends 'jejunet de-|' so 'decem' is broken across the 430/431 column change, where our [0431A] sits."
+    },
+    {
+      "from": "431A",
+      "to": "432D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p222",
+      "source": "CALIBRATION: corners read FIRST -- left 431, right 432; running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Overview, then crops at 300 dpi inside each column for the upper (Book IV) and lower (EX EJUSDEM…) sections, a full-width crop of the mid-page note line and division head, and 400 dpi crops of three single letters.",
+      "found": "⚑ FOOT NOTE NOT AMONG THE SIX: at the foot of the UPPER section, keyed at 0432A 'quae haec opponit ª': 'ª Mallem legere : quoniam illorum matri convenit huic se opponere. WILKINS.' Not in our Latin; reported, not added (see PENDING-TEI-PATCHES-0008). The division head confirmed exactly: 'EX EJUSDEM EGBERTI POENITENTIALIS LIBRO SECUNDO / IN PUBLICA BIBLIOTHECA OXONIENSI, / SUB TITULO ª / ABHINC DIVERSA EX DIVERSIS EXCESSIBUS JUDICIA.' and its foot note 'ª De his canonibus vide superius Praemonitionem meam ad Collectiones canonicas Egberti. MANSI.' matches the injected [cn: a]. Text collated word by word against chunk 0009: agrees throughout, incl. 'quindecim hiemes', 'si sit non ordinatus', 'vel suspendatur', 'nunquam desistat, nisi die Solis', 'quoniam mater illorum conti-|git ea, quae haec opponit', 'si hoc frustra fecerit', canons I-XIII. Single-witness worn sorts, no marker, no patch: 'Domiuo' (0431C, 400 dpi), 'stiοendio' (0431D), 'subjaccbit' (0432C). Canon VII breaks 'ad ec-|clesiam' across the 431/432 column change."
+    },
+    {
+      "from": "433A",
+      "to": "434D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p223",
+      "source": "CALIBRATION: corners read FIRST -- left 433 (worn), right 434; running head 'POENITENTIALIS EXCERPTUM.' Overview, three crops per column at 300 dpi (right column re-cropped from x 1080 after the first crop clipped its left edge; gutter not crossed), foot crops, and a 400 dpi crop of the XVIII 'gradu ecclesiastico' line.",
+      "found": "Foot notes: 'ª Id est, populi confluentias.' 'ᵇ Vide infra cap. 32.' (left) and 'ᶜ Al., proprio excommunicetur cibo, ut supra cap. 25.' (right) -- all three match the injected [cn:]s. TWO PLATE/TWIN DIVERGENCES, both pending patches: (1) 0434B 'excitavit,' COMMA on the plate where the twin has a full stop (known from prep; confirmed); (2) 0434D italic '*De omni verbo otioso*' where the twin has 'otiosa'. Confirmed as printed: '*Hospes fui, et non recepistis me* (*Matth.* xxv)'; '*Si autem non audierit, sit nobis sicut gentilis et publicanus* (*Matth.* xviii)'; '*Perdes omnes qui loquuntur mendacium.* Et, *omne mendacium a diabolo est* (*Psalm.* v)'; 'quod locuti fuerunt homines, reddent rationem Deo in die judicii (*Matth.* ı)' -- the citation numeral is a single stroke; '*Nihil impunitum derelinquet Deus.*'; 'saepius proprio ᵇ excommunicetur cibo'. Single-witness: 'com lacrymis' (0433B, worn u). Indeterminate: whether 'in' stands before 'ecclesiastico' at 0433B (left margin blotted on this copy)."
+    },
+    {
+      "from": "435A",
+      "to": "436A",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p224",
+      "source": "CALIBRATION: corners read FIRST -- left 435, right 436; running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Overview plus crops of the two opening lines of each column at 300 dpi.",
+      "found": "Our text is only the first two lines of each column: 'respondens, et omnino quidquid contra Scriptura-|rum sacrarum auctoritatem est; secundum men-' / 'suram opusque peccati, ad sacerdotis arbitrium poe-|niteat.' Agrees with chunk 0010 ('men-|suram' broken across the 435/436 column change, where our [0436A] sits). The page then opens the NEXT work (De institutione catholica dialogus); its foot note 'ª Editus primum Dublinii 1664, opera Joan. Waraei equitis.' belongs to that work and was not read as ours."
+    }
+  ]
+}

@@ -7,6 +7,146 @@
    "find": "<div1>\n        <head>PRAEFATIO.</head>",
    "replace": "<div1>\n<head type=\"book-title\">SANCTI EGBERTI EBORACENSIS ARCHIEPISCOPI POENITENTIALE.</head>\n<head type=\"book-title\">(Mansi, Conc. Collect. tom. XII.)</head>\n        <head>PRAEFATIO.</head>",
    "why": "TEXT LOST FROM THE DIGITIZATION, PLATE READ 2026-09-19 (archive patrologiaecurs74unkngoog p. 207, corners 401/402). Migne's title block stands at the head of col. 401 above PRAEFATIO and carries the raised-a key of his first foot note (Wilkins on the title); absent from the TEI. Encoded as two book-title banner lines, the 9176 convention (Wilson 2026-09-17)."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0402A",
+   "find": "quovit",
+   "replace": "quovis",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *quovit* for *quovis*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0402C",
+   "find": "et uratur omnibus",
+   "replace": "et utatur omnibus",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *uratur* for *utatur*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0407C",
+   "find": "se conjungat,",
+   "replace": "se conjungant,",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *conjungat* for *conjungant*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0406B",
+   "find": "commitere velit",
+   "replace": "committere velit",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *commitere* for *committere*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0409B",
+   "find": "immo' et jejunet",
+   "replace": "immolet, jejunet",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *immo' et* for *immolet,*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0410C",
+   "find": "eucharistiae gratiae",
+   "replace": "eucharistiae gratia",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *gratiae* for *gratia*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0411C",
+   "find": "nihil ei doleat,",
+   "replace": "nihil ei doleat.",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): comma for full stop. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0413A",
+   "find": "cucharistiam",
+   "replace": "eucharistiam",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *cucharistiam* for *eucharistiam*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0413A",
+   "find": "duditant",
+   "replace": "dubitant",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *duditant* for *dubitant*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0414B",
+   "find": "Deo eo qui sacramentum",
+   "replace": "De eo qui sacramentum",
+   "why": "PLATE READ 2026-09-19, stint 0000 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): 0414B (head of CAPUT X) — *Deo eo* for *De eo*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0416A",
+   "find": "sacerdotem suum, et alios.",
+   "replace": "sacerdotem suum, et alios",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): spurious full stop. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0415D",
+   "find": "infantem infra se",
+   "replace": "infantem intra se",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *infra* for *intra*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0415D",
+   "find": "praescribere volit",
+   "replace": "praescribere velit",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *volit* for *velit*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0418D",
+   "find": "uti non lit",
+   "replace": "uti non fit",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *lit* for *fit*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0419A",
+   "find": "contrabant",
+   "replace": "contrahant",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *contrabant* for *contrahant*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0420A",
+   "find": "confesarius",
+   "replace": "confessarius",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *confesarius* for *confessarius*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0422D",
+   "find": "pronti episcopus",
+   "replace": "prouti episcopus",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *pronti* for *prouti*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0427C",
+   "find": "edere incoepit",
+   "replace": "edere incepit",
+   "why": "PLATE READ 2026-09-19, stint 0004 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *incoepit* for *incepit*. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0434B",
+   "find": "ad orationem illum excitavit.",
+   "replace": "ad orationem illum excitavit,",
+   "why": "PLATE READ 2026-09-19, stint 0008 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): full stop in our twin, COMMA on the plate (known from prep). Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0434D",
+   "find": "De omni verbo otiosa\nquod",
+   "replace": "De omni verbo otioso\nquod",
+   "why": "PLATE READ 2026-09-19, stint 0008 (archive patrologiaecurs74unkngoog, single witness; plate type sound, digitization wrong): *otiosa* in our twin, *otioso* on the plate (Matt 12:36). Find adjusted for the XML line break. Full entry in data/briefs/8382-PENDING-TEI-PATCHES-0008.md."
   }
  ]
 }

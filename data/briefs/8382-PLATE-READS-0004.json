@@ -1,0 +1,73 @@
+{
+  "_note": "Stint-scoped plate reads for 8382 chunks 0004-0007 (cols 0415A-0428B), stint B. Merge into data/plate-reads.json works.8382.reads[].",
+  "series": "pl",
+  "volume": 89,
+  "scan": "raw/scans/pl089/patrologiaecurs74unkngoog.pdf (archive.org patrologiaecurs74unkngoog), rendered locally with pdftoppm -r 300 (400 dpi for single-word checks); crops made with PIL inside one column, gutter never crossed.",
+  "page_map": "PDF page = (odd column + 13) / 2 -- confirmed on every page of this range by the printed corner numbers (p.214 = 415/416 ... p.220 = 427/428).",
+  "second_witness": "none on disk. Every letter-level finding below is single-witness; none fires a [sic:] (no [sic:] or [var:] was fired in this range at all).",
+  "reads": [
+    {
+      "from": "415A",
+      "to": "416D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p214",
+      "source": "archive PDF p.214. CALIBRATION: printed corner numbers read FIRST -- left 415, right 416, running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page at 150 dpi-equivalent, plus 300 dpi crops of the right column (rows 700-1400) and the left column foot (rows 2600-3150).",
+      "found": "CHECKED ZERO at the foot (no apparatus layer of any kind). Collated against chunk 0004 from CAPUT XII to CAPUT VI. LIBER SECUNDUS is set mid-page across both columns, which is why the anchor sequence steps back 0416B -> 0415B (known false positive 1). THREE PLATE-vs-TEI DIFFERENCES, all our transcription's, all filed as pending patches and followed in the English: (1) 0416A right column 'et alios Dei ministros' -- NO full stop after alios on the plate (TEI 'et alios. Dei'); (2) 0415D left column CAPUT II 'infantem intra se occidat' -- plate intra, TEI infra; (3) same sentence 'misericorditer ei praescribere velit' -- plate velit, TEI non-word volit. Confirmed as printed: head 'Do eo quod mulier ex rancore occidat servam suam' (Do for De is Migne's type -- single-witness crux, no marker); 'Si quis (hominem) possessionem suam occidat'; 'absque hundredi sui testimonio'; 'et episcopus super eos cantat, et remissionem dat (illis)'."
+    },
+    {
+      "from": "417A",
+      "to": "418D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p215",
+      "source": "archive PDF p.215. CALIBRATION: corner numbers read FIRST -- left 417, right 418, running head 'POENITENTIALIS LIB. II.' Whole page, plus 300 dpi crop of the right-column foot (rows 2750-3100).",
+      "found": "CHECKED ZERO at the foot. Collated against chunk 0004 (CAPUT VI end to CAPUT XVII) and the head of chunk 0005 (CAPUT XVIII). ONE PLATE-vs-TEI DIFFERENCE: 0418D 'uti non fit' -- the plate sets the fi ligature (same sort as in 'fidelium' two lines up); our TEI's non-word 'lit' is a misread of it. Pending patch; English renders 'as it does not happen'. Examined and NOT a finding: 'confes arius' at CAPUT XI (0417C) prints with a wide gap -- a spacing/worn-sort effect of this copy; our TEI's confessarius is right, no patch."
+    },
+    {
+      "from": "419A",
+      "to": "420D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p216",
+      "source": "archive PDF p.216. CALIBRATION: corner numbers read FIRST -- left 419, right 420, running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page, 300 dpi crops of left column top (rows 330-700) and right column (rows 800-1050), and 400 dpi strips of the 'contrahant' line.",
+      "found": "CHECKED ZERO at the foot. Collated against chunk 0005 (CAPUT XIX to CAPUT XXIX). TWO PLATE-vs-TEI DIFFERENCES: (1) 0419A 'matrimonium contrahant' -- at 400 dpi the letter is h, drawn exactly as the worn h of 'Christianis' in the line above; TEI 'contrabant' (a non-word) is a transcription misread. Pending patch; English 'contract'. (2) 0420A 'prouti confessarius ejus ipsi adnotaverit' -- plate confessarius with ss; TEI 'confesarius'. Pending patch; no change to the English. Confirmed as printed: 'et absque eucharistia, sumatur' (comma and all, the crux at 0419B); 'ut ad nullum jus mundi et pacem redire nolit' (the double negative, 0420D); the Matt 5 paraphrase with roman 'hoc est: quilibet Christianus' interrupting the italic; 'si sit communis conditionis homo, jejunet quinquennium'."
+    },
+    {
+      "from": "421A",
+      "to": "422D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p217",
+      "source": "archive PDF p.217. CALIBRATION: corner numbers read FIRST -- left 421, right 422, running head 'POENITENTIALIS LIB. III.' Whole page, 300 dpi crop of the left column (rows 2080-2340, the Lev 19 quotation) and right column foot (rows 2800-2960), 400 dpi strip of the CAPUT XI line.",
+      "found": "CHECKED ZERO at the foot. LIBER TERTIUS set mid-page across both columns (anchor step-back 0422A -> 0421A is known false positive 1). Collated against the tail of chunk 0005 and the head of chunk 0006 (to CAPUT XII). ONE PLATE-vs-TEI DIFFERENCE: 0422D 'prouti episcopus provinciae iis' -- plate prouti, TEI non-word 'pronti'. Pending patch. CONFIRMED AS PRINTED, and it corrects the launch brief's paraphrase of it: 'Estote sancti, quia ego Dominus Deus et Dominus vester sum sanctus' -- the plate carries 'Deus et Dominus vester', exactly as our TEI. Also confirmed: the Ps 14 paraphrase 'Tunc divitiis ejus uti debetis, qui pecuniam suam ad nullum injustum tributum tradit' in italics. Examined, NOT a finding: a dot after 'et emendent' at a line end (CAPUT XI, 0422D) sits well to the right of the word and the next line begins lower-case 'quandiu' -- a speck, not a stop; our TEI's comma stands, no patch."
+    },
+    {
+      "from": "423A",
+      "to": "424D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p218",
+      "source": "archive PDF p.218. CALIBRATION: corner numbers read FIRST -- left 423, right 424, running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page, 300 dpi crop of the right column (rows 1560-2230, the Ezekiel quotation) and of the LIBER QUARTUS heading across both columns (a full-width heading block, not a text crop across the gutter).",
+      "found": "CHECKED ZERO at the foot (the page ends in the two Liber IV columns; no notes). LIBER QUARTUS heading and its italic rubric set mid-page, full width -- the bare anchor [0423] and the step-back 0424C -> 0423 -> 0423D/0424D are known false positive 1. Collated against chunk 0006 (CAPUT XII to XVI) and the head of chunk 0007. NO plate-vs-TEI difference. Confirmed as printed: the Ezek 34 paraphrase word for word ('Vae vobis pastoribus, qui gregis lacte utimini ... Nunc omnis grex meus seditiosus est, quoniam non habent pastorem aliquem, et cibus facti sunt omnibus bestiis feris'); 'Latine significat sacrum dans' with sacrum dans in italics; 'ita ut non praedicet omnibus hominibus'; the rubric '... in tribus (libris) invenire nequit ...'. Wear noted on this copy, not findings: 'sed o,us habet' at 0424A (TEI opus, correct), a stray dot in 'de pastoribus .populi'."
+    },
+    {
+      "from": "425A",
+      "to": "426D",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p219",
+      "source": "archive PDF p.219. CALIBRATION: corner numbers read FIRST -- left 425 (first digit worn), right 426, running head 'POENITENTIALIS LIB. IV.' Signature 'PATROL. LXXXIX. 14' at the foot. Whole page, 300 dpi crops of the left column (rows 2280-2400, 2380-2900) and right column (rows 2880-3000).",
+      "found": "CHECKED ZERO at the foot (only the signature line). Collated against chunk 0007 from 0425A to 0426D. NO patch filed. EXAMINED AND LEFT: three places where our TEI has 'in pane, et aqua' -- at 0425C/D (self-pollution line and the cudgel line) the plate shows a WIDE GAP after pane with no ink, while at 0426D ('quatuor hebdomadas in pane, et aqua :') the comma prints. The gap is the width of a comma sort; an uninked comma is not evidence of no comma, so the TEI is left alone and the English keeps the comma at all three. Confirmed as printed: 'et septem quolibet anno' after 'quindecim annos, septem in pane et aqua' (the 15 = 7 + 7 crux); 'exceptis dominicis diebus Solis'; 'vel (eum) ad compita et per terram trahit'; 'octo et viginti hebdomadas'; 'alius generis fera'."
+    },
+    {
+      "from": "427A",
+      "to": "428B",
+      "depth": "full",
+      "date": "2026-09-19",
+      "page": "p220",
+      "source": "archive PDF p.220. CALIBRATION: corner numbers read FIRST -- left 427, right 428, running head 'S. EGBERTI EBORACENSIS ARCHIEPISCOPI'. Whole page, 300 dpi crop of the left column (rows 1680-1860) and 400 dpi strips of the 'evomat' and 'projiciat' lines. Read to 0428B (end of chunk 0007); 0428C onward is stint C's.",
+      "found": "No foot notes on this page (confirmed across the full width; the page's text runs to the foot). Collated against chunk 0007 from 0427A to 0428B. ONE PLATE-vs-TEI DIFFERENCE, spelling only: 0427C 'vel edere incepit' -- plate incepit, TEI incoepit. Pending patch; the English is unaffected. Examined, NOT a finding: a small low mark before the comma in 'in ignem projiciat‚,' (0427D) is a speck/broken sort, not a letter or a second mark worth recording. Confirmed as printed: 'si vivus sit vendatur aqua', 'vendatur (cibus)', 'si laicus, cum permissu ex ebrietate vomat', 'si per fraudem alium inebrietur', 'Si ea non consecrata ex incuria in terram cadat', 'jejunet (vomens) centum diebus'."
+    }
+  ]
+}
