@@ -108,6 +108,9 @@ const APPARATUS = /\[(?:[0-9]{3,5}[A-D]?|n: [^\]]*|nt: [^\]]*|f: [^\]]*|cn: [^\]
 function searchView(body) {
   const skip = new Uint8Array(body.length);
   for (const m of body.matchAll(APPARATUS)) skip.fill(1, m.index, m.index + m[0].length);
+  // The frontmatter repeats heads[] and the incipit, so a note keyed inside a head or a
+  // title banner matched twice and was skipped as ambiguous (8382, 2026-09-19). Search the body.
+  if (body.startsWith('---\n')) { const end = body.indexOf('\n---\n', 4); if (end > 0) skip.fill(1, 0, end + 5); }
   let view = '', map = [];
   for (let i = 0; i < body.length; i++) {
     if (skip[i] || /\s/.test(body[i])) continue;
@@ -173,8 +176,12 @@ const injected = [], skipped = [], trimmed = [], headPlaced = [];
 for (const r of rows) {
   if (!/^yes/i.test(r.found)) { skipped.push({ ...r, why: 'anchor not in our Latin (per the plate reader)' }); continue; }
   // isLetterKey is MIGNE'S letter layer only, whose glyph our TEI keeps; Floss's fn letters are not in it.
-  const isLetterKey = r.layer === 'cn' && /^[a-z]$/.test(r.note_no);
-  const m = r.layer === 'fn' ? r.anchor.match(MARKER_FN)
+  // ⚑ But not every TEI keeps it (8382 Egbert, PL 89, 2026-09-19: six letter notes, no glyph in
+  // our Latin). Where the plate reader writes the key parenthesised, `(a)`, the key is ABSENT from
+  // our text and is cut out like Floss's letters; a bare glyph in the anchor means the TEI has it.
+  const letterAbsent = r.layer === 'cn' && /^[a-z]$/.test(r.note_no) && !MARKER_LETTER.test(r.anchor) && MARKER_FN.test(r.anchor);
+  const isLetterKey = r.layer === 'cn' && /^[a-z]$/.test(r.note_no) && !letterAbsent;
+  const m = r.layer === 'fn' || letterAbsent ? r.anchor.match(MARKER_FN)
           : r.note_no === '*' ? r.anchor.match(MARKER_ASTERISK)
           : isLetterKey ? r.anchor.match(MARKER_LETTER)
           : r.anchor.match(MARKER_IN_ANCHOR);

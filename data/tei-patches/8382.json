@@ -1,0 +1,12 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 8382 (Egbertus Eboracensis, Poenitentiale, PL 89), applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne.",
+ "patches": [
+  {
+   "work": "8382 Egbertus Eboracensis, Poenitentiale (PL 89)",
+   "col": "0401A",
+   "find": "<div1>\n        <head>PRAEFATIO.</head>",
+   "replace": "<div1>\n<head type=\"book-title\">SANCTI EGBERTI EBORACENSIS ARCHIEPISCOPI POENITENTIALE.</head>\n<head type=\"book-title\">(Mansi, Conc. Collect. tom. XII.)</head>\n        <head>PRAEFATIO.</head>",
+   "why": "TEXT LOST FROM THE DIGITIZATION, PLATE READ 2026-09-19 (archive patrologiaecurs74unkngoog p. 207, corners 401/402). Migne's title block stands at the head of col. 401 above PRAEFATIO and carries the raised-a key of his first foot note (Wilkins on the title); absent from the TEI. Encoded as two book-title banner lines, the 9176 convention (Wilson 2026-09-17)."
+  }
+ ]
+}

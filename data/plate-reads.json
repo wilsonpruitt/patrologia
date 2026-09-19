@@ -10088,6 +10088,15 @@
      "found": "TWO DIVERGENCES. (1) 0268A: plate 'In qua videlicet chrismatis initiatione' with NO comma after chrismatis (both copies); twin 'chrismatis, initiatione'. Patch filed; English follows the plate. (2) 0268A-C: the plate continues after 'liquido manifestat.' with 'Haec insunt in hoc de ecclesiastica ierarchia totum capitula VII.', seven italic chapter titles I-VII, the paragraph 'Praecumbentium capitulorum doctrinam ... et eodem modo de ceteris.' and the rubric 'Cetera desiderantur.' (both copies). ALL ABSENT from our TEI (sources/pl/tei/9181.xml ends at manifestat.). Patch filed; English restores it under [ed:] (Pattern 13a clause 2). The band anchors [0268B]/[0268C] that the plate prints in that stretch cannot enter the English until the Latin carries them. Otherwise word for word, incl. Epygramma, Tymotheum, uniordo, multilauda ymnologia. VL keys 1-20 read; 18-20 sit in the lost stretch. No NOTAE on this page (checked zero). || merge 2026-09-16: extended 0268A→0268C, the stint read and transcribed bands B–C of this same right column (the ending CC had dropped, now restored by TEI patch) on both copies."
     }
    ]
+  },
+  "8382": {
+   "series": "pl",
+   "volume": 89,
+   "scan": "raw/scans/pl089/patrologiaecurs74unkngoog.pdf (archive.org patrologiaecurs74unkngoog; the archive catalogue MISLABELS it as Augustine — the running heads and title page confirm PL 89). Render with pdftoppm -r 300, crop locally with PIL, never across the gutter.",
+   "page_map": "PDF page = (odd column + 13)/2. Calibrated 2026-09-19 against printed corners: p.207 = 401/402, p.210 = 407/408, p.211 = 409/410, p.222 = 431/432, p.223 = 433/434.",
+   "second_witness": "none on disk. volumes.json lists five Google Books copies (B2mpmx6QFRoC, qvoQAAAAYAAJ, k0owAAAAYAAJ, K8UUAAAAQAAJ, Us4_AAAAcAAJ), untested.",
+   "note": "Foot-of-page apparatus swept pp.207-224 on 2026-09-19 (orchestrator): 6 letter notes recovered to data/plate-notes/8382.tsv. That sweep read the FOOT only; column-text reads are recorded by the translation stints.",
+   "reads": []
   }
  }
 }
