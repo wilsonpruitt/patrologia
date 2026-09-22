@@ -1,0 +1,289 @@
+{
+ "_note": "Stint-scoped plate reads for 9215 chunks 0008-0011 (cols 0439-0689), stint E. Merge into data/plate-reads.json works.9215.reads[].",
+ "series": "pl",
+ "volume": 124,
+ "scan": "archive.org patrologiaecurs76unkngoog, page/n<leaf>.jpg (3834x6136; n250 served at 1119x1725); leaf = (odd col + 9)/2, held without drift n224..n347",
+ "page_map": "archive leaf n = (odd col + 9)/2: corners read on every page opened n224..n347, no drift (n230 right corner and n345/n347 left corners clipped by the scan; running heads and the surviving corner agree). Gallica bpt6k54939860 f = (col + 1)/2, confirmed at f226, f239, f247, f274, f278, f299, f305, f311, f315, f343.",
+ "second_witness": "Gallica consulted at 10 sites. Confirms stint C: the two copies are two printings (line breaks differ at f311). Our TEI follows the Gallica printing in its worn states (jujuriam -> iujuriam at 0609, broken Emilianı -> Emiliam at 0685A, comma at 0621, faint point at 0547). The archive copy has its own faults: clipped margins (n230 right, n345 and n347 left) and, in the NOTAE, a keyed note printed without its key letter (n303).",
+ "reads": [
+  {
+   "from": "0439",
+   "to": "0440",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n224",
+   "source": "archive.org patrologiaecurs76unkngoog n224. Printed corner numbers read FIRST: 439/440. Map leaf = (odd col + 9)/2 holds. Why opened: first page chunk 0008; OCR cands gloriose/glorioso, Portu/porta.",
+   "found": "Band (5 Sept) at top of page, collated vs TEI: matches. 'gloriose' final e worn (open, bar faint) but e: TEI right. 'in Portu' clear: TEI right. KEYED NOTE a after '[Apud Bouillart.,' before 'in pago Tarvenensi'."
+  },
+  {
+   "from": "0451",
+   "to": "0452",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n230",
+   "source": "archive.org patrologiaecurs76unkngoog n230. Printed corner numbers read FIRST: 451/(clipped). Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand ultimum/ult.",
+   "found": "Archive copy CLIPS the right margin on this page (right corner number and line ends cut: 'ad ult'). OCR 'ult' = clipping. Band otherwise matches TEI (Jacincti printed)."
+  },
+  {
+   "from": "0451",
+   "to": "0452",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f226",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f226 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 451/452. Map f = (col + 1)/2 holds. Why opened: second witness for clipped line ends of n230.",
+   "found": "Calibration f=(col+1)/2 holds at f226. Band reads 'atque ad ultimum laqueo necari': TEI right. 'In territorio Taruanensi, (a) sancti Autmari': KEYED NOTE a. Note read on Gallica (right col) + archive (left col)."
+  },
+  {
+   "from": "0477",
+   "to": "0478",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n243",
+   "source": "archive.org patrologiaecurs76unkngoog n243. Printed corner numbers read FIRST: 477/478. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand Narcissi/marcelli.",
+   "found": "Band (17 Sept) collated. 'Narcissi et Crescentionis' printed: TEI right (OCR 'marcelli' = misalignment into Solier). PLATE DIFFERS: 'beati Lamberti episcopi Tungrensis' where TEI has 'Lambertii' -> P1. No keyed note in band."
+  },
+  {
+   "from": "0477",
+   "to": "0478",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f239",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f239 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 477/478. Map f = (col + 1)/2 holds. Why opened: second witness Lamberti.",
+   "found": "Calibration holds (f239 = 477/478). Gallica also prints 'Lamberti': both printings agree, TEI alone differs -> ordinary patch P1."
+  },
+  {
+   "from": "0491",
+   "to": "0492",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n250",
+   "source": "archive.org patrologiaecurs76unkngoog n250. Printed corner numbers read FIRST: 491/492. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand Alexandri/quirini.",
+   "found": "archive served a reduced image (1119x1725) but legible. Band (21 Sept) collated: 'passio sancti Alexandri episcopi' printed: TEI right (OCR misalignment). Band matches TEI. No keyed note."
+  },
+  {
+   "from": "0493",
+   "to": "0494",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n251",
+   "source": "archive.org patrologiaecurs76unkngoog n251. Printed corner numbers read FIRST: 493/494. Map leaf = (odd col + 9)/2 holds. Why opened: first page chunk 0009.",
+   "found": "Band (22 Sept) collated. PLATE DIFFERS: 'Apud Beuuariam,' where TEI has 'Beuuarriam' -> P2. Rest matches (Thebeorum, sex millibus quingentis, Emerammi, presbiteri). KEYED NOTE a after 'Apud Beuuariam,' before 'sancti Emerammi'. Solier VL on same page: 'Puto Usuardum scripsisse Beuuariam'."
+  },
+  {
+   "from": "0493",
+   "to": "0494",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f247",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f247 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 493/494. Map f = (col + 1)/2 holds. Why opened: second witness Beuuariam.",
+   "found": "Calibration holds. Gallica also 'Beuuariam': both printings agree -> ordinary patch P2. Keyed note confirmed."
+  },
+  {
+   "from": "0503",
+   "to": "0504",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n256",
+   "source": "archive.org patrologiaecurs76unkngoog n256. Printed corner numbers read FIRST: 503/504. Map leaf = (odd col + 9)/2 holds. Why opened: site check: 'Rictionaro' (A/C have Rictiovarus).",
+   "found": "Band (25 Sept, start) matches TEI: 'sub praeside Rictionaro' printed so -> name kept as printed (Rictionarus), crux. 'capitis decollatione marty-|rium' hyphenated. Band runs on to n257 (not opened). No keyed note in this page's part of the band."
+  },
+  {
+   "from": "0529",
+   "to": "0530",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n269",
+   "source": "archive.org patrologiaecurs76unkngoog n269. Printed corner numbers read FIRST: 529/530. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand variis/uanis.",
+   "found": "Band (2 Oct) collated: 'quem variis injuriis' printed, the i-dots worn (OCR 'uanis' is noise): TEI right. Band matches TEI. No keyed note."
+  },
+  {
+   "from": "0547",
+   "to": "0548",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n278",
+   "source": "archive.org patrologiaecurs76unkngoog n278. Printed corner numbers read FIRST: 547/548. Map leaf = (odd col + 9)/2 holds. Why opened: site check: 'consummavit Eodem die' (no stop in TEI).",
+   "found": "Band (7 Oct) collated. PLATE: 'martyrium consummavit. Eodem die,' with a clear full stop -> P3. Rest matches TEI (Eufratesia, Bachi, coturnis, Apulei). KEYED NOTE a before 'Romae via Appia' (first word of the day's band)."
+  },
+  {
+   "from": "0547",
+   "to": "0548",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f274",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f274 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 547/548. Map f = (col + 1)/2 holds. Why opened: second witness, stop after consummavit.",
+   "found": "Calibration holds. Gallica shows a faint, worn point after 'consummavit' (weak sort; TEI transcribes this state as no stop). Both printings carry the mark -> P3. Keyed note confirmed."
+  },
+  {
+   "from": "0551",
+   "to": "0552",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n280",
+   "source": "archive.org patrologiaecurs76unkngoog n280. Printed corner numbers read FIRST: 551/552. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand sanctae/sancta.",
+   "found": "Band (8 Oct) collated: 'sanctae Benedictae virginis et martyris' printed: TEI right (OCR noise). Band matches TEI. No keyed note."
+  },
+  {
+   "from": "0555",
+   "to": "0556",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n282",
+   "source": "archive.org patrologiaecurs76unkngoog n282. Printed corner numbers read FIRST: 555/556. Map leaf = (odd col + 9)/2 holds. Why opened: site check: 'gratia-directus' (hyphen in TEI).",
+   "found": "Band (9 Oct) collated. PLATE: 'praedicandi gratia directus,' with a plain space, no hyphen -> P4. Head 'VII Idus.' (stop) on this copy. Rest matches TEI. No keyed note."
+  },
+  {
+   "from": "0555",
+   "to": "0556",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f278",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f278 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 555/556. Map f = (col + 1)/2 holds. Why opened: second witness, gratia-directus.",
+   "found": "Calibration holds. Gallica also 'gratia directus' with no hyphen: P4 ordinary. Gallica head prints 'VII Idus,' (comma: the TEI's comma is this printing's); head normalizes in English anyway."
+  },
+  {
+   "from": "0557",
+   "to": "0558",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n283",
+   "source": "archive.org patrologiaecurs76unkngoog n283. Printed corner numbers read FIRST: 557/558. Map leaf = (odd col + 9)/2 holds. Why opened: first page chunk 0010.",
+   "found": "Band (10 Oct, opening) at the foot, collated vs TEI: matches ('Piniti', 'Mallosi', 'trecen-|tis decem et Octo' with capital O as printed). Band runs on to n284 (col 559, not opened). No keyed note in this page's part of the band."
+  },
+  {
+   "from": "0589",
+   "to": "0590",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n299",
+   "source": "archive.org patrologiaecurs76unkngoog n299. Printed corner numbers read FIRST: 589/590. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand Romae/rom.",
+   "found": "Band (18 Oct) collated: 'Item Romae, sanctae Triphoniae' printed: TEI right (OCR noise). Band matches TEI ('septuaginta et trium', 'Bithinia', 'vicesimo Constantii anno'). No keyed note."
+  },
+  {
+   "from": "0597",
+   "to": "0598",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n303",
+   "source": "archive.org patrologiaecurs76unkngoog n303. Printed corner numbers read FIRST: 597/598. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand diaconi/etc.",
+   "found": "Band (20 Oct) collated: 'Georgii diaconi et Aurelii' printed: TEI right (OCR misalignment). Band matches TEI. KEYED NOTE a after 'Aurelii' (band's last word, before the stop). On THIS copy the note itself prints with NO key letter at its head ('Addit Dervensis codex'), and reads 'contemplus', 'perfete', and a broken word before 'de salo' (illegible here)."
+  },
+  {
+   "from": "0597",
+   "to": "0598",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f299",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f299 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 597/598. Map f = (col + 1)/2 holds. Why opened: second witness for the keyed note.",
+   "found": "Calibration holds. Gallica prints the key at the note's head ('a Addit Dervensis codex'), and 'contemptus', 'perfecte', 'utrasque manus de salo': the archive's damaged word is 'manus'. Note transcribed from Gallica, checked against archive."
+  },
+  {
+   "from": "0609",
+   "to": "0610",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n309",
+   "source": "archive.org patrologiaecurs76unkngoog n309. Printed corner numbers read FIRST: 609/610. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand conditus/conditas; site 'iujuriam'.",
+   "found": "Heavy ink bleed on this page, but legible at full resolution. 'Servandus vero Hispali conditus est' printed: TEI right on 'conditus' (OCR noise). 'sitis ac famis injuriam' printed SOUND on this copy, where TEI has 'iujuriam' -> P5 (press variant). 'Ex quibus Germanus Emeritae Servandus' with no comma, as TEI. No keyed note."
+  },
+  {
+   "from": "0609",
+   "to": "0610",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f305",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f305 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 609/610. Map f = (col + 1)/2 holds. Why opened: second witness, iujuriam.",
+   "found": "Calibration holds. Gallica prints 'jujuriam' (an n turned to u): a non-word on this printing, which the TEI transcribes as 'iujuriam'. One printing sound, one not -> English 'injury', no [sic:], P5 press variant, orchestrator's call. Also 'Emeritae Servandus' without comma."
+  },
+  {
+   "from": "0575",
+   "to": "0576",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n292",
+   "source": "archive.org patrologiaecurs76unkngoog n292. Printed corner numbers read FIRST: 575/576. Map leaf = (odd col + 9)/2 holds. Why opened: site check: 'sancti Fortunati Lugduni, sancti Antiochi' (no stop).",
+   "found": "Band (15 Oct) collated: the plate prints 'Romae via Aurelia, sancti Fortunati Lugduni, sancti Antiochi episcopi' exactly as TEI, with no stop between the two entries. TEI right; crux only. 'marty rum' set with a wide space inside the word (one word). No keyed note."
+  },
+  {
+   "from": "0621",
+   "to": "0622",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n315",
+   "source": "archive.org patrologiaecurs76unkngoog n315. Printed corner numbers read FIRST: 621/622. Map leaf = (odd col + 9)/2 holds. Why opened: site check: 'ad confessores, Civitate Narbona' (comma + capital in TEI).",
+   "found": "Band (26 Oct) collated. This copy prints 'in epistola ad con-|fessores. Civitate Narbona' with a FULL STOP. Rest matches TEI. No keyed note."
+  },
+  {
+   "from": "0621",
+   "to": "0622",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f311",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f311 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 621/622. Map f = (col + 1)/2 holds. Why opened: second witness, confessores punctuation.",
+   "found": "Corners read 621/622. Gallica breaks the line differently ('confesso-|res, Civitate Narbona') and prints a COMMA, as TEI. Both copies clean and different: press variant, crux only, no patch. English keeps TEI's comma."
+  },
+  {
+   "from": "0629",
+   "to": "0630",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n319",
+   "source": "archive.org patrologiaecurs76unkngoog n319. Printed corner numbers read FIRST: 629/630. Map leaf = (odd col + 9)/2 holds. Why opened: first page chunk 0011; site 'multitudinem. Christo' (stop in TEI).",
+   "found": "Band (28 Oct) at the head of the page, collated. PLATE: 'innumeram gentis ipsius multitudinem Christo subdidissent,' with NO stop -> P6. Rest matches TEI (Chananei, Thadei, Persidam, Cirillae, Genovefae). No keyed note."
+  },
+  {
+   "from": "0629",
+   "to": "0630",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f315",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f315 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 629/630. Map f = (col + 1)/2 holds. Why opened: second witness, stop after multitudinem.",
+   "found": "Corners 629/630. Gallica also has no stop, only a speck above the C of Christo (likely what the digitization read as a point). Both printings agree -> P6 ordinary."
+  },
+  {
+   "from": "0641",
+   "to": "0642",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n325",
+   "source": "archive.org patrologiaecurs76unkngoog n325. Printed corner numbers read FIRST: 641/642 (corner digits smudged: '64-' both sides; running head MARTYROLOGIUM. - MENS. NOV. confirms; map holds). Map leaf = (odd col + 9)/2 holds. Why opened: site check: month head 'MENSIS NOVEMBER HABET DIES XXXI.'.",
+   "found": "The plate sets the month head in display lines 'MENSIS NOVEMBER.' / 'HABET DIES XXXI.' : XXXI is Migne's (November has 30). TEI right; English follows the printed number, crux. Band (1 Nov) collated: matches TEI ('In Pago Vuastinensi' capital P as TEI). No keyed note."
+  },
+  {
+   "from": "0655",
+   "to": "0656",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n332",
+   "source": "archive.org patrologiaecurs76unkngoog n332. Printed corner numbers read FIRST: 655/656. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand fuit/fait.",
+   "found": "Band (4 Nov) collated: 'doctor Ecclesiae incomparabilis fuit' printed: TEI right (OCR noise). Band matches TEI ('Rotenus', 'Vilcasino', 'Augustuduni'). No keyed note."
+  },
+  {
+   "from": "0681",
+   "to": "0682",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n345",
+   "source": "archive.org patrologiaecurs76unkngoog n345. Printed corner numbers read FIRST: (left clipped)/682. Map leaf = (odd col + 9)/2 holds. Why opened: OCR cand publicum/publicam.",
+   "found": "Archive copy CLIPS the LEFT margin on this page (left corner and line openings lost); right corner 682, running head MENS. NOV. 'procedens ad publicum' printed, fully visible: TEI right (OCR noise). Visible band matches TEI. No keyed note visible (left edge lost)."
+  },
+  {
+   "from": "0685",
+   "to": "0686",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n347",
+   "source": "archive.org patrologiaecurs76unkngoog n347. Printed corner numbers read FIRST: (left clipped)/686. Map leaf = (odd col + 9)/2 holds. Why opened: site check: 'beati Emiliam presbiteri' (TEI).",
+   "found": "Left margin clipped again (line openings lost); right corner 686. PLATE: 'beati Emiliani presbiteri et confessoris', clean -> P7. Rest matches TEI (Tirassona, Braulio Caesaraugustanus, Miliduno). No keyed note visible."
+  },
+  {
+   "from": "0685",
+   "to": "0686",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f343",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f343 (1880px native), User-Agent sent. Printed corner numbers read FIRST: 685/686. Map f = (col + 1)/2 holds. Why opened: second witness, Emiliam/Emiliani.",
+   "found": "Corners 685/686. Gallica prints 'Emilianı' with the final i broken so that 'ni' reads like 'm': the state TEI transcribes as 'Emiliam'. One printing sound -> English 'Emilianus', no [sic:], P7 press/wear variant, orchestrator's call."
+  }
+ ]
+}
