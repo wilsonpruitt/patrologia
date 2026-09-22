@@ -1,6 +1,43 @@
 # Next session — resume note
 
-## ▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-22) — USUARDUS 9198 + 9215 · TRANSLATED, NOTES DONE, BLIND READ RUNNING · SHIP OWED
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-22) — USUARDUS *MARTYROLOGIUM* 9198 + 9215 · ✅ LIVE ON migne.app · NOTHING OWED
+
+✅ **Deployed and pushed 2026-09-22** (`migne-fe87zmhk9`, commits through `86f70bac`). Smoke-tested on
+the real domain: `/`, both work pages, both cruces pages, `/scripture/` all 200; both badge **First
+English translation**; the landing page lists them; the November `[cj:]` renders.
+
+**What shipped:** ONE work across two tomes, 22 chunks / ~26.7K words, the whole church year, plus
+**101 of Bouillart's keyed notes** recovered from the plate with English twins. Preflight 7/7.
+
+**The passes, and what each cost:**
+- 6 Opus translating stints, ~2.3M tokens. Targeted plate reads (the OCR-diff candidate list in
+  `scripts/ocr-diff-candidates.py` + `data/briefs/*-OCR-CANDIDATES.tsv`).
+- 6 Sonnet sweeps over EVERY page for the keyed layer, ~1.8M. **40 notes → 101.** The measurement
+  that produced CLAUDE.md's "BIAS TO EXHAUSTIVENESS".
+- 1 Opus garble check (~50 forms at the plate) + 4 Opus proofreaders over all 101 notes word for
+  word, ~1M. Caught: one note that had lost 4 printed lines (0487), one that had picked up a phrase
+  from the facing column (0247), and 4 silent repairs of Migne's own spelling.
+- 5 Opus blind readers, ~800K. **0 polarity sites**; 12 fixes applied.
+- 71 TEI patches total (43 on 9198, 28 on 9215).
+
+**Standing rules added this session — READ THEM BEFORE THE NEXT WORK:**
+- `CLAUDE.md` **BIAS TO EXHAUSTIVENESS**: every pass done in full, first time. **The exhaustive
+  version is the only one planned; never offer Wilson a cheaper option to adjudicate.**
+- `translation-runbook.md` **4a‴**: download the volume scan ONCE at chunking
+  (`raw/scans/pl<vol>/`), never page by page. Cost scales with PAGES, not words.
+- `translation-style.md` **Martyrologies M0–M2** (scope, day heads, the inline Bouillart brackets).
+
+**Loose ends, none blocking:**
+- 9198 0769: the note is recovered but NOT placed — two readers searched the band and found no key.
+- The English note twins mark quoted codex readings inconsistently (italics vs single quotes).
+- `data/briefs/9215-HELD-PRESS-VARIANT-PATCHES.json` is history now (ruled and applied).
+
+**Next pilot from the genre survey** (`data/briefs/GENRE-QUEUE-SURVEY-2026-09-17.md`): Jacobus
+Caietanus *Ordo Romanus XIV* (8096, 61K w, verified none), or Joannes diaconus *Vita S. Gregorii
+Magni* (8047, 67K w, `unclear`). Both are much longer than Usuardus: plan the plate read from the
+page count at chunking, per 4a‴.
+
+## ▶▶▶▶▶▶▶▶▶▶▶▶ Usuardus prep (2026-09-21) — superseded by the banner above
 
 **All 22 chunks are translated and merged, and verify + plate-gate are OK on both.** Every page of
 both volumes has been read for Bouillart's keyed notes: 9198 has 40 (39 placed; 0769 has no findable
