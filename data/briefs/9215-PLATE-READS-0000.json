@@ -1,0 +1,307 @@
+{
+ "_note": "Stint-scoped plate reads for 9215 chunks 0000-0003 (cols 0009-0213), stint C. Merge into data/plate-reads.json works.9215.reads[].",
+ "series": "pl",
+ "volume": 124,
+ "scan": "archive.org patrologiaecurs76unkngoog, page/n<leaf>.jpg (3834x6136); leaf = (odd col + 9)/2, held without drift n9..n112",
+ "page_map": "archive leaf n = (odd col + 9)/2: corners read on every page opened, n9..n112, no drift. Gallica bpt6k54939860 f = (col + 1)/2 (calibrated this stint at f41 = 81/82 and confirmed at f55, f57).",
+ "second_witness": "Gallica ark:/12148/bpt6k54939860, consulted at 6 sites. FINDING: the two copies are two PRINTINGS (line breaks differ at f60); our TEI consistently follows the Gallica printing (mu tos, Hi, praecipatus, santae, Passecratis., ad caput), while the archive copy shows corrected or variant states at the same sites and its own worn sorts (Die 14, ab caput).",
+ "reads": [
+  {
+   "from": "0009",
+   "to": "0010",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n9",
+   "source": "archive.org patrologiaecurs76unkngoog n9. Printed corner numbers read FIRST: 9 / 10 (opening page of the work: no printed corner numbers; title SEQUITUR USUARDI MARTYROLOGIUM, foot 'PATROL. CXXIV.' + signature 1; calibrated at prep as col 9). Why opened: first page of chunk 0000; book-title banner. Full-width band crop, whole page overview.",
+   "found": "Band collated word by word against chunk 0000 (1 May): matches our TEI throughout (Hieremiae, Taphnas, Schytiam, Hierosolimorum, Policarpus, ense lignato, Orientis). Solier's VARIANTES confirm Schytiam/Hierosolimorum/Policarpus/Autisiodoro are left in the text on purpose as codex spellings. No keyed note in the band."
+  },
+  {
+   "from": "0013",
+   "to": "0014",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n11",
+   "source": "archive.org patrologiaecurs76unkngoog n11. Printed corner numbers read FIRST: 13 / 14. Why opened: OCR candidate 0013 dum/dam. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'dum ad investigandum' (OCR 'dam' is noise); 'cojerunt' printed. No keyed note."
+  },
+  {
+   "from": "0015",
+   "to": "0016",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n12",
+   "source": "archive.org patrologiaecurs76unkngoog n12. Printed corner numbers read FIRST: 15 / 16. Why opened: site check 0015 'ungula'. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'equuleum, ungula et ignes', 'presbiterorum' printed. Band continues to n13 (not opened). No keyed note on this page."
+  },
+  {
+   "from": "0019",
+   "to": "0020",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n14",
+   "source": "archive.org patrologiaecurs76unkngoog n14. Printed corner numbers read FIRST: 19 / 20. Why opened: site check 0019 'in metalla Fanensi'. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'Item in metalla Fanensi' printed; Solier's VARIANTES: 'In metalla Fanensi (non Fatensi...) legunt constanter codices'. Curcodemi printed. No keyed note."
+  },
+  {
+   "from": "0027",
+   "to": "0028",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n18",
+   "source": "archive.org patrologiaecurs76unkngoog n18. Printed corner numbers read FIRST: 27 / 28. Why opened: OCR candidate 0027 die/dio. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'Ubi festum eadem die concursum' (OCR 'dio' is noise); Solier quotes 'festum eadem die concursum'. No keyed note."
+  },
+  {
+   "from": "0033",
+   "to": "0034",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n21",
+   "source": "archive.org patrologiaecurs76unkngoog n21. Printed corner numbers read FIRST: 33 / 34. Why opened: OCR candidate 0033 Christianus. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'a primaeva aetate Christianus'. No keyed note."
+  },
+  {
+   "from": "0035",
+   "to": "0036",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n22",
+   "source": "archive.org patrologiaecurs76unkngoog n22. Printed corner numbers read FIRST: 35 / 36. Why opened: site check 0035 missing name. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'Castro Vindicino, depositio beati confessoris.' printed, no saint's name (beati at line end, confessoris next line); 'Hermen', 'Nazanzi' printed. No keyed note."
+  },
+  {
+   "from": "0043",
+   "to": "0044",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n26",
+   "source": "archive.org patrologiaecurs76unkngoog n26. Printed corner numbers read FIRST: 43 / 44. Why opened: site check 0043 'confessori'. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'sancti Mamerti episcopi et confessori' printed (case slip, single witness, crux only). No keyed note."
+  },
+  {
+   "from": "0055",
+   "to": "0056",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n32",
+   "source": "archive.org patrologiaecurs76unkngoog n32. Printed corner numbers read FIRST: 55 / 56. Why opened: first page of chunk 0001. Full-width band crop, whole page overview.",
+   "found": "Band matches TEI. Page heavily worn ('or linati', 'ver jum'); after 'quieverunt' no point is visible before 'Apud' but the gap is present; worn type, TEI's full stop kept, no patch. No keyed note."
+  },
+  {
+   "from": "0081",
+   "to": "0082",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n45",
+   "source": "archive.org patrologiaecurs76unkngoog n45. Printed corner numbers read FIRST: 81 / 82. Why opened: site check 0081 'tetrachae'. Full-width band crop, whole page overview.",
+   "found": "'tetrachae' printed (TEI right). DAY HEAD: this copy prints 'IX Kal. ... Die 14.' where TEI has 'Die 24.'; Gallica f41 prints 'Die 24.' cleanly, so TEI right and the archive's '1' is a worn/variant sort. English 24 May. No keyed note."
+  },
+  {
+   "from": "0085",
+   "to": "0086",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n47",
+   "source": "archive.org patrologiaecurs76unkngoog n47. Printed corner numbers read FIRST: 85 / 86. Why opened: site check 0085 'Passecratis.'. Full-width band crop, whole page overview.",
+   "found": "This copy prints 'Passecratis, Valentionis' (comma); TEI has a full stop; Gallica f43 prints the full stop. Press variant, both clean: crux only, TEI stands. No keyed note."
+  },
+  {
+   "from": "0093",
+   "to": "0094",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n51",
+   "source": "archive.org patrologiaecurs76unkngoog n51. Printed corner numbers read FIRST: 93 / 94. Why opened: site check 0093 'civiate'. Full-width band crop, whole page overview.",
+   "found": "PLATE DIFFERS: 'Apud Mesiam civitate Dorostorensi' (clean); TEI 'civiate'. English follows the plate; pending patch P1. No keyed note."
+  },
+  {
+   "from": "0099",
+   "to": "0100",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n54",
+   "source": "archive.org patrologiaecurs76unkngoog n54. Printed corner numbers read FIRST: 99 / 100. Why opened: site check 0099 'ignis penuriam'. Full-width band crop, whole page overview.",
+   "found": "Band matches TEI ('ac ignis penuriam passi'). KEYED NOTE in band: raised 'a' after 'malleo ad extremum ligneo', note at head of NOTAE signed BOUILLART (full text in cruces ## Keyed notes). Not injected."
+  },
+  {
+   "from": "0101",
+   "to": "0102",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n55",
+   "source": "archive.org patrologiaecurs76unkngoog n55. Printed corner numbers read FIRST: 101 / 102. Why opened: OCR candidate 0101 Sardiniae. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'Turribus Sardiniae' (OCR 'sardinia' noise); 'Hucberti' printed. No keyed note."
+  },
+  {
+   "from": "0105",
+   "to": "0106",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n57",
+   "source": "archive.org patrologiaecurs76unkngoog n57. Printed corner numbers read FIRST: 105 / 106. Why opened: site check 0105 'una pedagogo'. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'una pedagogo suo Proto'; Solier: 'Reliqui in textu pedagogo'. No keyed note."
+  },
+  {
+   "from": "0109",
+   "to": "0110",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n59",
+   "source": "archive.org patrologiaecurs76unkngoog n59. Printed corner numbers read FIRST: 109 / 110. Why opened: first page of chunk 0002; OCR candidate 0109 quae/qua. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'quae tanto, inquit' (OCR 'qua' noise). This copy prints 'ab caput vero sanctorum martyrum' where TEI has 'ad caput'; Gallica f55 prints 'ad caput' -> TEI right, archive sort. Bouillart bracket '[Addit Bouill. :' is NOT closed on the plate either (carried unclosed). KEYED NOTE: raised 'a' after 'Addit Bouill. :', long note signed BOUILLART (full text in cruces). Not injected."
+  },
+  {
+   "from": "0113",
+   "to": "0114",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n61",
+   "source": "archive.org patrologiaecurs76unkngoog n61. Printed corner numbers read FIRST: 113 / 114. Why opened: OCR candidate 0113 Hi/illi; site 'mu tos'. Full-width band crop, whole page overview.",
+   "found": "PLATE DIFFERS from TEI at two sites: (1) 'qui multos in carcere' clean here, TEI 'mu tos'; Gallica f57 prints 'mu·tos' with a broken l -> press/wear variant, sound reading multos, pending patch P2. (2) This copy prints 'Illi omnes famuli Christi', TEI and Gallica f57 'Hi omnes' -> press variant, both clean, crux only, TEI stands. Running head misprints 'MENS. JUD.' (commentary, out of scope). No keyed note."
+  },
+  {
+   "from": "0119",
+   "to": "0120",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n64",
+   "source": "archive.org patrologiaecurs76unkngoog n64. Printed corner numbers read FIRST: 119 / 120. Why opened: site check 0119 'praecipatus'. Full-width band crop, whole page overview.",
+   "found": "This copy prints 'in flumen praecipitatus' clean; TEI 'praecipatus'; Gallica f60 prints 'praecipatus' (different line breaks: a different printing) -> press variant, one state a non-word; pending patch P3 (orchestrator's call). 'ne ejus ter-|rentur' printed (hyphenated break; 'terrentur' is the printed word). KEYED NOTE: raised 'a' after 'Addit Bouillart. :', note signed BOUILLART (full text in cruces). Not injected."
+  },
+  {
+   "from": "0123",
+   "to": "0124",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n66",
+   "source": "archive.org patrologiaecurs76unkngoog n66. Printed corner numbers read FIRST: 123 / 124. Why opened: OCR candidate 0123 passi. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'passi, sed Romae' (OCR 'finem' misalignment). No keyed note."
+  },
+  {
+   "from": "0143",
+   "to": "0144",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n76",
+   "source": "archive.org patrologiaecurs76unkngoog n76. Printed corner numbers read FIRST: 143 / 144. Why opened: OCR candidate 0143 eorum. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'latera eorum appositae' (OCR 'eoram' noise). No keyed note."
+  },
+  {
+   "from": "0159",
+   "to": "0160",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n84",
+   "source": "archive.org patrologiaecurs76unkngoog n84. Printed corner numbers read FIRST: 159 / 160. Why opened: first page of chunk 0003. Full-width band crop, whole page overview.",
+   "found": "Band matches TEI (Vesuntionem, Ferrutionis, Hireneo, Namnetis). No keyed note."
+  },
+  {
+   "from": "0183",
+   "to": "0184",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n96",
+   "source": "archive.org patrologiaecurs76unkngoog n96. Printed corner numbers read FIRST: 183 / 184. Why opened: OCR candidate 0183 santae/sancte. Full-width band crop, whole page overview.",
+   "found": "This copy prints 'natalis sanctae Ediltrudis' clean; TEI 'santae'; Gallica f92 prints 'santae' -> press variant as at 0119; pending patch P4 (orchestrator's call). No keyed note."
+  },
+  {
+   "from": "0193",
+   "to": "0194",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n101",
+   "source": "archive.org patrologiaecurs76unkngoog n101. Printed corner numbers read FIRST: 193 / 194. Why opened: OCR candidate 0193 secundus. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'secundus primicerius' (both occurrences). No keyed note."
+  },
+  {
+   "from": "0199",
+   "to": "0200",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n104",
+   "source": "archive.org patrologiaecurs76unkngoog n104. Printed corner numbers read FIRST: 199 / 200. Why opened: OCR candidates 0199 Cordubae, nomine. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'Cordubae', 'nomine Agapio'. A small raised mark stands after 'cujus corpus' with no matching note in this page's NOTAE ('Puros censeo ...'): reported, not interpreted."
+  },
+  {
+   "from": "0203",
+   "to": "0204",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n106",
+   "source": "archive.org patrologiaecurs76unkngoog n106. Printed corner numbers read FIRST: 203 / 204. Why opened: OCR candidate 0203 est./pii. Full-width band crop, whole page overview.",
+   "found": "TEI right: band ends 'igni consumpta est.' OCR 'pii' is misalignment into the next head. No keyed note."
+  },
+  {
+   "from": "0213",
+   "to": "0214",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n111",
+   "source": "archive.org patrologiaecurs76unkngoog n111. Printed corner numbers read FIRST: 213 / 214. Why opened: OCR candidate 0213 collectus; site 'primis'; month head MENSIS JULIUS. Full-width band crop, whole page overview.",
+   "found": "TEI right: 'collectus est ad patres' (OCR 'collectas' noise); 'qui primis illic' printed; final i of 'Domitiani' set slightly raised (displaced type, not a key). KEYED NOTE: raised 'a' before 'In pago Cinomannico' inside the Apud Bouillart bracket; note runs over to n112 (full text in cruces). Not injected."
+  },
+  {
+   "from": "0215",
+   "to": "0216",
+   "depth": "band",
+   "date": "2026-09-21",
+   "page": "n112",
+   "source": "archive.org patrologiaecurs76unkngoog n112. Printed corner numbers read FIRST: 215 / 216. Why opened: keyed-note continuation. Full-width band crop, whole page overview.",
+   "found": "Opened only for the continuation of the n111 keyed note (top of both columns, 'controversiam posita ... non est instituti.'). Out of stint C's band range (cols 215/216 belong to no chunk of mine; chunk 0004 begins 0219). Band not collated."
+  },
+  {
+   "from": "0081",
+   "to": "0082",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f41",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f41 (1400px), User-Agent sent. CALIBRATION: corners read 81 / 82; map f = (col + 1)/2 (verified at f41 = 81/82, f55 = 109, f57 = 113). Why opened: second witness, 0081 day number.",
+   "found": "Day head prints 'Die 24.' cleanly -> TEI right, archive n45's 'Die 14.' is that copy's sort. 'tetrachae' printed here too."
+  },
+  {
+   "from": "0085",
+   "to": "0086",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f43",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f43 (1400px), User-Agent sent. CALIBRATION: corners read 85 / 86; map f = (col + 1)/2 (verified at f41 = 81/82, f55 = 109, f57 = 113). Why opened: second witness, 0085 punctuation.",
+   "found": "Prints 'Passecratis. Valentionis' (full stop) -> TEI matches this printing; press variant against archive's comma."
+  },
+  {
+   "from": "0109",
+   "to": "0110",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f55",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f55 (1400px), User-Agent sent. CALIBRATION: corners read 109 / 110; map f = (col + 1)/2 (verified at f41 = 81/82, f55 = 109, f57 = 113). Why opened: second witness, 0109 ab/ad.",
+   "found": "Prints 'ad caput vero' -> TEI right, archive 'ab' is that copy's sort."
+  },
+  {
+   "from": "0113",
+   "to": "0114",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f57",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f57 (1400px), User-Agent sent. CALIBRATION: corners read 113 / 114; map f = (col + 1)/2 (verified at f41 = 81/82, f55 = 109, f57 = 113). Why opened: second witness, 0113 multos / Hi-Illi.",
+   "found": "Prints 'mu·tos' (broken l) and 'Hi omnes' -> TEI transcribes this printing; archive clean 'multos' / 'Illi omnes'."
+  },
+  {
+   "from": "0119",
+   "to": "0120",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f60",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f60 (1400px), User-Agent sent. CALIBRATION: corners read 119 / 120; map f = (col + 1)/2 (verified at f41 = 81/82, f55 = 109, f57 = 113). Why opened: second witness, 0119 praecipatus.",
+   "found": "Prints 'praecipatus' (line breaks differ from archive: separate printing) -> TEI transcribes this printing."
+  },
+  {
+   "from": "0183",
+   "to": "0184",
+   "depth": "site",
+   "date": "2026-09-21",
+   "page": "Gallica f92",
+   "source": "Gallica ark:/12148/bpt6k54939860 IIIF f92 (1400px), User-Agent sent. CALIBRATION: corners read 183 / 184; map f = (col + 1)/2 (verified at f41 = 81/82, f55 = 109, f57 = 113). Why opened: second witness, 0183 santae.",
+   "found": "Prints 'santae Ediltrudis' -> TEI transcribes this printing; archive has 'sanctae'."
+  }
+ ]
+}

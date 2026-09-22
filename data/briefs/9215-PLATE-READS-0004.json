@@ -1,0 +1,411 @@
+{
+  "_note": "Stint-scoped plate reads for 9215 chunks 0004-0007 (cols 0219-0435), stint D. Merge into data/plate-reads.json works.9215.reads[].",
+  "series": "pl",
+  "volume": 124,
+  "scan": "archive.org patrologiaecurs76unkngoog (page images, one at a time) + Gallica ark:/12148/bpt6k54939860 (IIIF)",
+  "page_map": "archive leaf = (column + 9) / 2, held n114 (219/220) to n218 (427/428), no drift; Gallica f = (column + 1) / 2, held f117 (233/234) to f214 (427/428)",
+  "second_witness": "Gallica read at every site where a divergence was found. PL 124 is two printings (stint C): TEI follows Gallica. No [sic:] fired in this range.",
+  "lost_displays": "Early in the stint several crops (n114, n131, n143, n145, n150, n172, n173, n176, n182, n183, n187, n199, n201, and a Gallica f179 fetch) returned without their image being retained. Every one of those pages was re-fetched and re-read; the entries above record the re-reads only. f179 was not re-read and nothing rests on it.",
+  "reads": [
+    {
+      "from": "0219",
+      "to": "0220",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n114",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n114 (full size 3834x6136); corners read first",
+      "chunk": "0004",
+      "found": "FIRST PAGE of chunk 0004. Corners 219/220, running head USUARDI MONACHI. Calibration leaf=(col+9)/2 confirmed. Band (VI Non. Die 2) collated against the twin: no divergence. Keyed note (a) inside the band at '[Bouillart. (a) Deo sacratae]': transcribed to cruces-0004 ## Keyed notes; not injected."
+    },
+    {
+      "from": "0221",
+      "to": "0222",
+      "depth": "overview",
+      "date": "2026-09-21",
+      "page": "n115",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n115 (full size 3834x6136); corners read first",
+      "chunk": "0004",
+      "found": "Corners 221/222. Whole-page view of the V Non. Die 3 band; *Cneocaesaream* confirmed as printed. No finding."
+    },
+    {
+      "from": "0233",
+      "to": "0234",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n121",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n121 (full size 3834x6136); corners read first",
+      "chunk": "0004",
+      "found": "Corners 233/234. Band (Nonis Die 7) read: the bracket prints *Addit Bouillart.*, not our twin's *Badillart* -> pending patch (class A, with f117)."
+    },
+    {
+      "from": "0233",
+      "to": "0234",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f117",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f117 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0004",
+      "found": "Corners 233/234; Gallica map f=(col+1)/2 confirmed. *Addit Bouillart.* confirmed."
+    },
+    {
+      "from": "0253",
+      "to": "0254",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n131",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n131 (full size 3834x6136); corners read first",
+      "chunk": "0004",
+      "found": "OCR candidate 0253 *Cartaginensis*/*carthaginensis*. Corners 253/254. Archive prints *Carthaginensis*."
+    },
+    {
+      "from": "0253",
+      "to": "0254",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f127",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f127 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0004",
+      "found": "Corners 253/254. Gallica prints *Cartaginensis* = TEI. Press variant between two sound printings: crux only, no patch."
+    },
+    {
+      "from": "0261",
+      "to": "0262",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n135",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n135 (full size 3834x6136); corners read first",
+      "chunk": "0004",
+      "found": "Corners 261/262. Band (Idibus Die 15): *damnarunt.* with a full stop, missing in our twin -> pending patch (class A)."
+    },
+    {
+      "from": "0261",
+      "to": "0262",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f131",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f131 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0004",
+      "found": "Corners 261/262. *damnarunt.* with a stop confirmed."
+    },
+    {
+      "from": "0277",
+      "to": "0278",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n143",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n143 (full size 3834x6136); corners read first",
+      "chunk": "0005",
+      "found": "FIRST PAGE of chunk 0005. Corners 277/278. Band collated. Bouillart's bracket prints *sanctae Margaritae* (twin *sanctae garitae*). Keyed note (a) at '. . . . . cum aliis decem. (a) In pago Bononiensi': transcribed in full to cruces ## Keyed notes."
+    },
+    {
+      "from": "0277",
+      "to": "0278",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f139",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f139 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0005",
+      "found": "Corners 277/278. Gallica breaks the line after *sanctae* and opens the next with *garitae*: the non-word our TEI carries. Press variant -> pending patch class B (orchestrator's call); English gives Margaret, no [sic:]."
+    },
+    {
+      "from": "0281",
+      "to": "0282",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n145",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n145 (full size 3834x6136); corners read first",
+      "chunk": "0005",
+      "found": "OCR candidates 0281 *cum*/*cura* and *milites,*/*scilicet*. Corners 281/282. Plate: *qui, cum esset miles* and *tres milites, Alexander*: TEI right on both; OCR noise."
+    },
+    {
+      "from": "0291",
+      "to": "0292",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n150",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n150 (full size 3834x6136); corners read first",
+      "chunk": "0005",
+      "found": "OCR candidate 0291 *beati*/*beat*. Corners 291/292. Archive wears the final i at line end. Also read: *Vincen tii* (spacing inside one word) against twin *Vicentii*; *Bouillard. add. in margine* confirmed as printed (the d is the plate's)."
+    },
+    {
+      "from": "0291",
+      "to": "0292",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f146",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f146 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0005",
+      "found": "Corners 291/292. *beati* clean (TEI right). *Vincentii* clean -> pending patch class A (twin *Vicentii*)."
+    },
+    {
+      "from": "0335",
+      "to": "0336",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n172",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n172 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "FIRST PAGE of chunk 0006. Corners 335/336. OCR candidate 0335 *sunt*/*autem*: plate *Decollati sunt cum eo*, TEI right. Opening Bouillart bracket (In monte Thabor…) confirmed as printed."
+    },
+    {
+      "from": "0337",
+      "to": "0338",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n173",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n173 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "OCR candidate 0337 *tenere*/*teneri*. Corners 337/338. Plate *teneri jussi*."
+    },
+    {
+      "from": "0337",
+      "to": "0338",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f169",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f169 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0006",
+      "found": "Corners 337/338. *teneri jussi* confirmed -> pending patch class A."
+    },
+    {
+      "from": "0339",
+      "to": "0340",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n174",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n174 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "Corners 339/340. Band (VII Idus Die 7): *ad missam morando restauravit* (morando, a real word, rendered literally, crux) and *martyrizati* with no stop (TEI right)."
+    },
+    {
+      "from": "0339",
+      "to": "0340",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f170",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f170 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0006",
+      "found": "Corners 339/340. *martyrizati* without stop confirmed; *morando* on this copy too."
+    },
+    {
+      "from": "0343",
+      "to": "0344",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n176",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n176 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "OCR candidate 0343 *natalis*/*passio*. Corners 343/344. Plate *natalis beati Ciriaci*: TEI right. Keyed note (a) at 'imperatoris. (a) Apud Viennam': transcribed in full to cruces ## Keyed notes."
+    },
+    {
+      "from": "0355",
+      "to": "0356",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n182",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n182 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "OCR candidate 0355 *viginti.*/*nempe*. Corners 355/356. Plate *cum aliis viginti. Item urbe Falari*: TEI right. Archive sets *diein* fused; twin's *die in* right. Keyed note (a) at '[Bouillart. : (a) eodem die passi sunt Romae': transcribed in full."
+    },
+    {
+      "from": "0357",
+      "to": "0358",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n183",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n183 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "OCR candidate 0357 *vocatis*/*uocalis*. Corners 357/358. Plate *vocatis pueris*: TEI right. Keyed note (a) at 'faciebat. (a) Pictavis, sanctae Radegundis': begins at foot of this page."
+    },
+    {
+      "from": "0359",
+      "to": "0360",
+      "depth": "notes",
+      "date": "2026-09-21",
+      "page": "n184",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n184 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "Corners 359/360. Continuation and end of the keyed note (a) on Radegundis, signed BOUILLART. Transcribed in full. No band on this page."
+    },
+    {
+      "from": "0365",
+      "to": "0366",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n187",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n187 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "OCR candidate 0365 *Romae*/*rom*: plate *docere. Romae via Appia*, TEI right. Also read: archive prints *frivolum*, twin *frivorum*."
+    },
+    {
+      "from": "0365",
+      "to": "0366",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f183",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f183 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0006",
+      "found": "Corners 365/366. Gallica prints *frivorum* = TEI. Press variant -> pending patch class B (orchestrator's call); English 'frivolous', no [sic:]."
+    },
+    {
+      "from": "0371",
+      "to": "0372",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n190",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n190 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "Corners 371/372. Band (XVI Kal. Die 17) read in full against the twin: no divergence."
+    },
+    {
+      "from": "0379",
+      "to": "0380",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n194",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n194 (full size 3834x6136); corners read first",
+      "chunk": "0006",
+      "found": "Corners 379/380. Band (XIII Kal. Die 20): archive *igni tradita sunt.* with a stop; twin none."
+    },
+    {
+      "from": "0379",
+      "to": "0380",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f190",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f190 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0006",
+      "found": "Corners 379/380. Gallica *igni tradita sunt* with no stop = TEI. Press variant between sound printings: crux only, English carries no stop."
+    },
+    {
+      "from": "0389",
+      "to": "0390",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n199",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n199 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "FIRST PAGE of chunk 0007. Corners 389/390. OCR candidate 0389 *cum*/*cura*: plate *cum aliis duodecim*, TEI right. Archive prints *sanctorum Claudii* (twin *sanctornm*). Keyed note (a) at 'Neonis, (a) Domninae et Theonillae' inside Bouillart's bracket: transcribed in full."
+    },
+    {
+      "from": "0389",
+      "to": "0390",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f195",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f195 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0007",
+      "found": "Corners 389/390. Gallica prints *sanctornm* = TEI. Press variant -> pending patch class B."
+    },
+    {
+      "from": "0393",
+      "to": "0394",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n201",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n201 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "OCR candidates 0393 *translatum,*/*translatam*, *sunt*/*sont*, *adeptus*/*adeptos*. Corners 393/394. Plate *translatum*, *passi sunt*, *adeptus est*: TEI right on all three. Plate *Dei filium* lower-case (capitalization only)."
+    },
+    {
+      "from": "0401",
+      "to": "0402",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n205",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n205 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "OCR candidate 0401 *ducis*/*dacis*. Corners 401/402. Plate *ducis ex legione*: TEI right. Line 4 prints *legione Thebeorum* (twin *logione*). Keyed note (a) at '[Bouillart.:… complevit. (a) In territorio Lemovicensi': transcribed in full."
+    },
+    {
+      "from": "0401",
+      "to": "0402",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f201",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f201 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0007",
+      "found": "Corners 401/402. Native-resolution crop: *legione*, first e worn c-shaped like every e on the line -> pending patch class A."
+    },
+    {
+      "from": "0405",
+      "to": "0406",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n207",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n207 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "Corners 405/406. Band (VI Kal. Die 27): *ex eadem urbe* (twin *ex cadem*)."
+    },
+    {
+      "from": "0405",
+      "to": "0406",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f203",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f203 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0007",
+      "found": "Corners 405/406. *ex eadem urbe* confirmed -> pending patch class A."
+    },
+    {
+      "from": "0407",
+      "to": "0408",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n208",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n208 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "Corners 407/408. Band (V Kal. Die 28): *In Africa,* with a comma (twin *In Africa.*)."
+    },
+    {
+      "from": "0407",
+      "to": "0408",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f204",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f204 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0007",
+      "found": "Corners 407/408. Comma confirmed -> pending patch class A."
+    },
+    {
+      "from": "0415",
+      "to": "0416",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n212",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n212 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "OCR candidate 0415 *quidam*/*quidem*. Corners 415/416. Archive prints *quidem*."
+    },
+    {
+      "from": "0415",
+      "to": "0416",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f208",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f208 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0007",
+      "found": "Corners 415/416. Gallica prints *quidam* = TEI. Press variant between sound printings: crux only."
+    },
+    {
+      "from": "0427",
+      "to": "0428",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n218",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n218 (full size 3834x6136); corners read first",
+      "chunk": "0007",
+      "found": "Corners 427/428 (map still leaf=(col+9)/2 at the end of the range). Band (IV Non. Die 2): *lucro promeruit* (twin *promerunt*)."
+    },
+    {
+      "from": "0427",
+      "to": "0428",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "f214",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f214 (1400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0007",
+      "found": "Corners 427/428 (Gallica map still f=(col+1)/2). *promeruit* confirmed -> pending patch class A."
+    }
+  ]
+}
