@@ -190,6 +190,26 @@ after the translation is paid for.
    ⚠ And state what IS recorded accurately: telling a stint the work is unread when a peer has
    just recorded reads makes it decline markers it could have fired.
 
+4a‴. ⛔ **DOWNLOAD THE VOLUME'S SCAN ONCE, AT CHUNKING. NEVER FETCH PAGE BY PAGE** (CLAUDE.md rule 6;
+   measured on Usuardus 9198/9215, 2026-09-22). Before any stint launches:
+   - Put the whole tome on disk: `https://archive.org/download/<ID>/<ID>.pdf`, or `<ID>_jp2.zip`,
+     under `raw/scans/pl<vol>/`.
+   - Calibrate the PDF page map at the printed corners (a PDF page is NOT an archive leaf; see
+     CLAUDE.md).
+   - Give every stint `pdftoppm -f <p> -l <p> -r 300 -png` as its render command.
+   - Where a second witness is needed (a second printing, a clipped margin), download it too when
+     it offers a whole-volume file.
+   ⚑ **Why.** PL 123/124 had no scan on disk, so the stints and sweeps fetched ~620 archive.org page
+   images one at a time (`page/n<LEAF>.jpg`), plus Gallica twins for PL 124's second printing.
+   - Sweeps ran 116–182 min each, against 53–121 min for the translating stints.
+   - S3 made 429 tool calls in ~3 hours, ~25 s per round trip.
+   - Most of that was waiting on the network, not reading.
+   The cost scales with PAGES, not words, so a **sparse work** makes it bite hardest. Usuardus runs
+   ~20 words a column under Solier's commentary: 26K words over ~620 pages, ~30× Egbert's pages per
+   word. Estimate a run's plate cost from its page count at chunking.
+   ⚑ **Also:** give each agent its own scratch subdirectory from the first launch. A shared scratchpad
+   let one stint delete another's image mid-crop, and the pages had to be re-read.
+
 4b. **⛔ THE PLATE GATE — `node scripts/plate-gate.mjs <idno>`, before the work is marked
    `ours`.** It exits non-zero and names every `[sic:]` or `[var:]` standing on a column
    nobody has read at Migne's plate. **Record reads in `data/plate-reads.json`**; a read is
