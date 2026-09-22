@@ -75,9 +75,15 @@ commemorations are Usuardus's own (erasures, later hands, first-hand testimony o
 codex). **A sample tells you a layer EXISTS. It never tells you you have it.**
 
 **How to apply:**
-- When planning a work, **cost the exhaustive version and propose that.** If the budget can't carry
-  it, say so and let Wilson rule. Never quietly substitute a sample. The Usuardus run did exactly
-  that ("targeted, NOT page by page"), and it cost an extra sweep.
+- **The exhaustive version is the ONLY version planned. Do not offer Wilson a cheaper alternative to
+  choose between** (Wilson, 2026-09-22: *"I mostly don't want to adjudicate whether to do a cheaper
+  run in order to save tokens but possibly miss what is on the text."*). The token hard stop still
+  applies: state the burn of the full run and ask "which model, and go?". Nothing more. No
+  "targeted" or "sampled" option on the menu, and never a quiet substitution either. The Usuardus
+  run did exactly that ("targeted, NOT page by page"), and it cost an extra sweep.
+- **Concretely, for a PL work: every page the work spans is opened at the plate, by the translating
+  stint.** It collates the text AND reads every keyed or foot note in the same visit. One visit per
+  page, all layers at once.
 - The plate spot check at chunking (below) stays. It is how a layer is **discovered**. Once a layer
   is found, recover ALL of it before shipping, not the part a sample happened to hit.
 - ⚖ **Scope.** This governs work IN PROGRESS. It does **not** reopen the completed corpus (the
