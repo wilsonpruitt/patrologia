@@ -1,0 +1,805 @@
+{
+  "generated": "scripts/index-work.mjs",
+  "workIdno": 4173,
+  "textIdno": 9198,
+  "title": "Martyrologium 1",
+  "authors": [
+    "Usuardus Sangermanensis"
+  ],
+  "authorsDisplay": [
+    "Usuard of Saint-Germain"
+  ],
+  "series": "pl",
+  "volume": 123,
+  "colFirst": "599a",
+  "colLast": "987",
+  "counts": {
+    "scripture": 2,
+    "fontes": 1,
+    "heads": 126,
+    "headnotes": 0,
+    "unparsed": 0
+  },
+  "scripture": [
+    {
+      "refKey": "Acts.14.14",
+      "refDisplay": "Act. XIV, 14",
+      "column": "602a",
+      "chunk": 0
+    },
+    {
+      "refKey": "Rev.19.10",
+      "refDisplay": "Apoc. XIX, 10",
+      "column": "602a",
+      "chunk": 0
+    }
+  ],
+  "fontes": [
+    {
+      "raw": "AUG, l. XX, contr. Faust., c. 21",
+      "column": "599c",
+      "chunk": 0
+    }
+  ],
+  "heads": [
+    {
+      "la": "PROLOGUS [cn: a | Deerat iste prologus in eo, quem publici juris facimus, codice manuscripto, propterea quod exciderat prae vetustate primum ejus folium. Eum vero nobis suppeditavit V. C. Pithaei exemplar ejusdem fere, tum characteris, tum aetatis, teste D. Jacobo du Breul, hujusce coenobii monacho, qui Prologi istius fronti observationem hanc praefixit. Notandum praeterea non reperiri in Solleriata Usuardi editione. BOUILLART.] AD CAROLUM CALVUM.",
+      "column": "599a",
+      "chunk": 0,
+      "en": "PROLOGUE [nt: This prologue was lacking in the manuscript codex which we are making public, because its first leaf had fallen out through age. It was supplied to us, however, by the copy of the most distinguished man (V. C.) Pithou, of almost the same character both of script and of age, on the witness of Dom Jacques du Breul, a monk of this monastery, who prefixed this observation to the front of that Prologue. It is to be noted besides that it is not found in Sollerius's edition of Usuardus. Bouillart.] TO CHARLES THE BALD."
+    },
+    {
+      "la": "PROLOGUS [cn: a | Desideratur secundus iste prologus in ea quam Sollerius adornavit Usuardi editione; at reperitur in Usuardi ejusdem codicibus fere omnibus manu exaratis, qui in bibliotheca Pratensi asservantur et in multis aliis. BOUILLART.] ALTER EX LIBRIS BEATI AUGUSTI. Qualiter colendi sint sancti.",
+      "column": "600b",
+      "chunk": 0,
+      "en": "ANOTHER PROLOGUE [nt: This second prologue is missing in the edition of Usuardus which Sollerius prepared; but it is found in almost all the handwritten codices of the same Usuardus which are kept in the library of the Prés, and in many others. Bouillart.], FROM THE BOOKS OF BLESSED AUGUSTUS [cj: AUGUSTI; read AUGUSTINI, \"of Augustine\"]. How the saints are to be honoured."
+    },
+    {
+      "la": "MENSIS JANUARIUS HABET DIES XXXI.",
+      "column": "602a",
+      "chunk": 0,
+      "en": "JANUARY HAS 31 DAYS."
+    },
+    {
+      "la": "Kalendis. Die 1.",
+      "column": "601",
+      "chunk": 0,
+      "en": "On the Kalends · 1 January"
+    },
+    {
+      "la": "IV Nonas. Die 2.",
+      "column": "601",
+      "chunk": 0,
+      "en": "The fourth day before the Nones · 2 January"
+    },
+    {
+      "la": "III Nonas. Die 3.",
+      "column": "607",
+      "chunk": 0,
+      "en": "The third day before the Nones · 3 January"
+    },
+    {
+      "la": "II Nonas. Die 4.",
+      "column": "609",
+      "chunk": 0,
+      "en": "The day before the Nones · 4 January"
+    },
+    {
+      "la": "Nonis. Die 5.",
+      "column": "613",
+      "chunk": 0,
+      "en": "On the Nones · 5 January"
+    },
+    {
+      "la": "VIII Idus. Die 6.",
+      "column": "617",
+      "chunk": 0,
+      "en": "The eighth day before the Ides · 6 January"
+    },
+    {
+      "la": "VII Idus. Die 7.",
+      "column": "619",
+      "chunk": 0,
+      "en": "The seventh day before the Ides · 7 January"
+    },
+    {
+      "la": "VI Idus. Die 8.",
+      "column": "623",
+      "chunk": 0,
+      "en": "The sixth day before the Ides · 8 January"
+    },
+    {
+      "la": "V Idus. Die 9.",
+      "column": "627",
+      "chunk": 1,
+      "en": "The fifth day before the Ides · 9 January"
+    },
+    {
+      "la": "IV Idus. Die 10.",
+      "column": "631",
+      "chunk": 1,
+      "en": "The fourth day before the Ides · 10 January"
+    },
+    {
+      "la": "III Idus. Die 11.",
+      "column": "635",
+      "chunk": 1,
+      "en": "The third day before the Ides · 11 January"
+    },
+    {
+      "la": "Pridie Idus. Die 12.",
+      "column": "637",
+      "chunk": 1,
+      "en": "The day before the Ides · 12 January"
+    },
+    {
+      "la": "Idus. Die 13.",
+      "column": "641",
+      "chunk": 1,
+      "en": "On the Ides · 13 January"
+    },
+    {
+      "la": "XIX Kal. Die 14.",
+      "column": "645",
+      "chunk": 1,
+      "en": "The nineteenth day before the Kalends · 14 January"
+    },
+    {
+      "la": "XVIII Kal. Die 15.",
+      "column": "649",
+      "chunk": 1,
+      "en": "The eighteenth day before the Kalends · 15 January"
+    },
+    {
+      "la": "XVII Kal. Die 16.",
+      "column": "655",
+      "chunk": 1,
+      "en": "The seventeenth day before the Kalends · 16 January"
+    },
+    {
+      "la": "XVI Kal. Die 17.",
+      "column": "657",
+      "chunk": 1,
+      "en": "The sixteenth day before the Kalends · 17 January"
+    },
+    {
+      "la": "XV Kal. Die 18.",
+      "column": "663",
+      "chunk": 1,
+      "en": "The fifteenth day before the Kalends · 18 January"
+    },
+    {
+      "la": "XIV Kal. Die 19.",
+      "column": "665",
+      "chunk": 1,
+      "en": "The fourteenth day before the Kalends · 19 January"
+    },
+    {
+      "la": "XIII Kal. Die 20.",
+      "column": "669",
+      "chunk": 1,
+      "en": "The thirteenth day before the Kalends · 20 January"
+    },
+    {
+      "la": "XII Kal. Die 21.",
+      "column": "673",
+      "chunk": 1,
+      "en": "The twelfth day before the Kalends · 21 January"
+    },
+    {
+      "la": "XI Kal. Die 22.",
+      "column": "677",
+      "chunk": 1,
+      "en": "The eleventh day before the Kalends · 22 January"
+    },
+    {
+      "la": "X Kal. Die 23.",
+      "column": "681",
+      "chunk": 1,
+      "en": "The tenth day before the Kalends · 23 January"
+    },
+    {
+      "la": "IX Kal. Die 23.",
+      "column": "683",
+      "chunk": 1,
+      "en": "The ninth day before the Kalends · 23 January"
+    },
+    {
+      "la": "VIII Kal. Die 25.",
+      "column": "687",
+      "chunk": 1,
+      "en": "The eighth day before the Kalends · 25 January"
+    },
+    {
+      "la": "VII Kal. Die 26.",
+      "column": "691",
+      "chunk": 2,
+      "en": "The seventh day before the Kalends · 26 January"
+    },
+    {
+      "la": "VI Kal. Die 27.",
+      "column": "695",
+      "chunk": 2,
+      "en": "The sixth day before the Kalends · 27 January"
+    },
+    {
+      "la": "V. Kal. Die 28.",
+      "column": "699",
+      "chunk": 2,
+      "en": "The fifth day before the Kalends · 28 January"
+    },
+    {
+      "la": "IV Kal. Die 29.",
+      "column": "703",
+      "chunk": 2,
+      "en": "The fourth day before the Kalends · 29 January"
+    },
+    {
+      "la": "III Kal. Die 30.",
+      "column": "707",
+      "chunk": 2,
+      "en": "The third day before the Kalends · 30 January"
+    },
+    {
+      "la": "Pridie Kal. Die 31.",
+      "column": "709",
+      "chunk": 2,
+      "en": "The day before the Kalends · 31 January"
+    },
+    {
+      "la": "MENSIS FEBRUARIUS HABET DIES XXVIII.",
+      "column": "713",
+      "chunk": 2,
+      "en": "FEBRUARY HAS 28 DAYS."
+    },
+    {
+      "la": "Kalendis. Die 1.",
+      "column": "717",
+      "chunk": 2,
+      "en": "On the Kalends · 1 February"
+    },
+    {
+      "la": "IV Non. Die 2.",
+      "column": "719",
+      "chunk": 2,
+      "en": "The fourth day before the Nones · 2 February"
+    },
+    {
+      "la": "III Non. Die 3.",
+      "column": "723",
+      "chunk": 2,
+      "en": "The third day before the Nones · 3 February"
+    },
+    {
+      "la": "H Non. Die 4.",
+      "column": "725",
+      "chunk": 2,
+      "en": "The day before the Nones · 4 February"
+    },
+    {
+      "la": "Nonis Die 5.",
+      "column": "729",
+      "chunk": 2,
+      "en": "On the Nones · 5 February"
+    },
+    {
+      "la": "VIII Idus. Die 6.",
+      "column": "729",
+      "chunk": 2,
+      "en": "The eighth day before the Ides · 6 February"
+    },
+    {
+      "la": "VII Idus. Die 7.",
+      "column": "729",
+      "chunk": 2,
+      "en": "The seventh day before the Ides · 7 February"
+    },
+    {
+      "la": "VI Idus. Die 8.",
+      "column": "739",
+      "chunk": 2,
+      "en": "The sixth day before the Ides · 8 February"
+    },
+    {
+      "la": "V Idus. Die 9.",
+      "column": "739",
+      "chunk": 2,
+      "en": "The fifth day before the Ides · 9 February"
+    },
+    {
+      "la": "IV Idus. Die 10.",
+      "column": "745",
+      "chunk": 2,
+      "en": "The fourth day before the Ides · 10 February"
+    },
+    {
+      "la": "III Idus. Die 11.",
+      "column": "747",
+      "chunk": 2,
+      "en": "The third day before the Ides · 11 February"
+    },
+    {
+      "la": "Prid. Idus. Die 12.",
+      "column": "751",
+      "chunk": 2,
+      "en": "The day before the Ides · 12 February"
+    },
+    {
+      "la": "Idibus. Die 13.",
+      "column": "753",
+      "chunk": 2,
+      "en": "On the Ides · 13 February"
+    },
+    {
+      "la": "XVI Kal. Die 14.",
+      "column": "755",
+      "chunk": 3,
+      "en": "The sixteenth day before the Kalends · 14 February"
+    },
+    {
+      "la": "XV Kal. Die 15.",
+      "column": "759",
+      "chunk": 3,
+      "en": "The fifteenth day before the Kalends · 15 February"
+    },
+    {
+      "la": "XIV Kal. Die 16.",
+      "column": "763",
+      "chunk": 3,
+      "en": "The fourteenth day before the Kalends · 16 February"
+    },
+    {
+      "la": "XIII Kal. Die 17.",
+      "column": "767",
+      "chunk": 3,
+      "en": "The thirteenth day before the Kalends · 17 February"
+    },
+    {
+      "la": "XII Kal. Die 18.",
+      "column": "769",
+      "chunk": 3,
+      "en": "The twelfth day before the Kalends · 18 February"
+    },
+    {
+      "la": "XI Kal. Die 19.",
+      "column": "773",
+      "chunk": 3,
+      "en": "The eleventh day before the Kalends · 19 February"
+    },
+    {
+      "la": "X Kal. Die 20.",
+      "column": "777",
+      "chunk": 3,
+      "en": "The tenth day before the Kalends · 20 February"
+    },
+    {
+      "la": "IX Kal. Die 21.",
+      "column": "779",
+      "chunk": 3,
+      "en": "The ninth day before the Kalends · 21 February"
+    },
+    {
+      "la": "VIII Kal. Die 22.",
+      "column": "781",
+      "chunk": 3,
+      "en": "The eighth day before the Kalends · 22 February"
+    },
+    {
+      "la": "VII Kal. Die 23.",
+      "column": "785",
+      "chunk": 3,
+      "en": "The seventh day before the Kalends · 23 February"
+    },
+    {
+      "la": "VI Kal. Die 24.",
+      "column": "787",
+      "chunk": 3,
+      "en": "The sixth day before the Kalends · 24 February"
+    },
+    {
+      "la": "V Kal. Die 25.",
+      "column": "791",
+      "chunk": 3,
+      "en": "The fifth day before the Kalends · 25 February"
+    },
+    {
+      "la": "IV Kal. Die 26.",
+      "column": "793",
+      "chunk": 3,
+      "en": "The fourth day before the Kalends · 26 February"
+    },
+    {
+      "la": "III Kal. Die 27.",
+      "column": "797",
+      "chunk": 3,
+      "en": "The third day before the Kalends · 27 February"
+    },
+    {
+      "la": "Pridie Kal. Die 28.",
+      "column": "799",
+      "chunk": 3,
+      "en": "The day before the Kalends · 28 February"
+    },
+    {
+      "la": "MENSIS MARTIUS HABET DIES XXXI.",
+      "column": "803",
+      "chunk": 3,
+      "en": "MARCH HAS 31 DAYS."
+    },
+    {
+      "la": "Kalendis Die 1.",
+      "column": "805",
+      "chunk": 3,
+      "en": "On the Kalends · 1 March"
+    },
+    {
+      "la": "VI Non. Die 2.",
+      "column": "805",
+      "chunk": 3,
+      "en": "The sixth day before the Nones · 2 March"
+    },
+    {
+      "la": "V Non. Die 3.",
+      "column": "809",
+      "chunk": 4,
+      "en": "The fifth day before the Nones · 3 March"
+    },
+    {
+      "la": "IV Non. Die 4.",
+      "column": "811",
+      "chunk": 4,
+      "en": "The fourth day before the Nones · 4 March"
+    },
+    {
+      "la": "III Non. Die 5.",
+      "column": "815",
+      "chunk": 4,
+      "en": "The third day before the Nones · 5 March"
+    },
+    {
+      "la": "Pridie Non. Die 6.",
+      "column": "817",
+      "chunk": 4,
+      "en": "The day before the Nones · 6 March"
+    },
+    {
+      "la": "Nonis. Die 7.",
+      "column": "819",
+      "chunk": 4,
+      "en": "On the Nones · 7 March"
+    },
+    {
+      "la": "VIII Idus. Die 8.",
+      "column": "821",
+      "chunk": 4,
+      "en": "The eighth day before the Ides · 8 March"
+    },
+    {
+      "la": "VII Idus. Die 9.",
+      "column": "825",
+      "chunk": 4,
+      "en": "The seventh day before the Ides · 9 March"
+    },
+    {
+      "la": "VI Idus. Die 10.",
+      "column": "827",
+      "chunk": 4,
+      "en": "The sixth day before the Ides · 10 March"
+    },
+    {
+      "la": "V Idus. Die 11.",
+      "column": "829",
+      "chunk": 4,
+      "en": "The fifth day before the Ides · 11 March"
+    },
+    {
+      "la": "IV Idus. Die 12.",
+      "column": "833",
+      "chunk": 4,
+      "en": "The fourth day before the Ides · 12 March"
+    },
+    {
+      "la": "III Idus. Die 13.",
+      "column": "835",
+      "chunk": 4,
+      "en": "The third day before the Ides · 13 March"
+    },
+    {
+      "la": "Pridie Idus. Die 14.",
+      "column": "839",
+      "chunk": 4,
+      "en": "The day before the Ides · 14 March"
+    },
+    {
+      "la": "Idibus. Die 15.",
+      "column": "841",
+      "chunk": 4,
+      "en": "On the Ides · 15 March"
+    },
+    {
+      "la": "XVII Kal. Die 16.",
+      "column": "843",
+      "chunk": 4,
+      "en": "The seventeenth day before the Kalends · 16 March"
+    },
+    {
+      "la": "XVI Kal. Die 17.",
+      "column": "847",
+      "chunk": 4,
+      "en": "The sixteenth day before the Kalends · 17 March"
+    },
+    {
+      "la": "XV Kal. Die 18.",
+      "column": "851",
+      "chunk": 4,
+      "en": "The fifteenth day before the Kalends · 18 March"
+    },
+    {
+      "la": "XIV Kal. Die 19.",
+      "column": "853",
+      "chunk": 4,
+      "en": "The fourteenth day before the Kalends · 19 March"
+    },
+    {
+      "la": "XIII Kal. Die 20.",
+      "column": "855d",
+      "chunk": 4,
+      "en": "The thirteenth day before the Kalends · 20 March"
+    },
+    {
+      "la": "XII Kal. Die 21.",
+      "column": "859",
+      "chunk": 4,
+      "en": "The twelfth day before the Kalends · 21 March"
+    },
+    {
+      "la": "XI Kal. Die 22.",
+      "column": "861",
+      "chunk": 4,
+      "en": "The eleventh day before the Kalends · 22 March"
+    },
+    {
+      "la": "X Kal. Die 23.",
+      "column": "865",
+      "chunk": 4,
+      "en": "The tenth day before the Kalends · 23 March"
+    },
+    {
+      "la": "IX Kal. Die 24.",
+      "column": "867",
+      "chunk": 4,
+      "en": "The ninth day before the Kalends · 24 March"
+    },
+    {
+      "la": "VIII Kal. Die 25.",
+      "column": "869",
+      "chunk": 4,
+      "en": "The eighth day before the Kalends · 25 March"
+    },
+    {
+      "la": "VII Kal. Die 26.",
+      "column": "871",
+      "chunk": 5,
+      "en": "The seventh day before the Kalends · 26 March"
+    },
+    {
+      "la": "VI Kal. Die 27.",
+      "column": "875",
+      "chunk": 5,
+      "en": "The sixth day before the Kalends · 27 March"
+    },
+    {
+      "la": "V Kal. Die 28.",
+      "column": "879",
+      "chunk": 5,
+      "en": "The fifth day before the Kalends · 28 March"
+    },
+    {
+      "la": "IV Kal Die 29.",
+      "column": "881",
+      "chunk": 5,
+      "en": "The fourth day before the Kalends · 29 March"
+    },
+    {
+      "la": "III Kal. Die 30.",
+      "column": "885",
+      "chunk": 5,
+      "en": "The third day before the Kalends · 30 March"
+    },
+    {
+      "la": "Pridie Kal. Die 31.",
+      "column": "887",
+      "chunk": 5,
+      "en": "The day before the Kalends · 31 March"
+    },
+    {
+      "la": "MENSIS APRILIS HABET DIES XXX.",
+      "column": "891",
+      "chunk": 5,
+      "en": "APRIL HAS 30 DAYS."
+    },
+    {
+      "la": "Kalendis Die 1.",
+      "column": "893",
+      "chunk": 5,
+      "en": "On the Kalends · 1 April"
+    },
+    {
+      "la": "IV Non. Die 2.",
+      "column": "893",
+      "chunk": 5,
+      "en": "The fourth day before the Nones · 2 April"
+    },
+    {
+      "la": "III Non. Die 3.",
+      "column": "897",
+      "chunk": 5,
+      "en": "The third day before the Nones · 3 April"
+    },
+    {
+      "la": "II Non. Die 4.",
+      "column": "901",
+      "chunk": 5,
+      "en": "The day before the Nones · 4 April"
+    },
+    {
+      "la": "Nonis. Die 5.",
+      "column": "903",
+      "chunk": 5,
+      "en": "On the Nones · 5 April"
+    },
+    {
+      "la": "VIII Idus. Die 6.",
+      "column": "905",
+      "chunk": 5,
+      "en": "The eighth day before the Ides · 6 April"
+    },
+    {
+      "la": "VII Idus. Die 7.",
+      "column": "909",
+      "chunk": 5,
+      "en": "The seventh day before the Ides · 7 April"
+    },
+    {
+      "la": "VI Idus. Die 8.",
+      "column": "911",
+      "chunk": 5,
+      "en": "The sixth day before the Ides · 8 April"
+    },
+    {
+      "la": "V Idus. Die 9.",
+      "column": "915",
+      "chunk": 5,
+      "en": "The fifth day before the Ides · 9 April"
+    },
+    {
+      "la": "IV Idus. Die 10.",
+      "column": "917",
+      "chunk": 5,
+      "en": "The fourth day before the Ides · 10 April"
+    },
+    {
+      "la": "III Idus. Die 11.",
+      "column": "919",
+      "chunk": 5,
+      "en": "The third day before the Ides · 11 April"
+    },
+    {
+      "la": "II Idus. Die 12.",
+      "column": "923",
+      "chunk": 5,
+      "en": "The day before the Ides · 12 April"
+    },
+    {
+      "la": "Idibus. Die 13.",
+      "column": "925",
+      "chunk": 5,
+      "en": "On the Ides · 13 April"
+    },
+    {
+      "la": "XVIII Kal. Die 14.",
+      "column": "929",
+      "chunk": 5,
+      "en": "The eighteenth day before the Kalends · 14 April"
+    },
+    {
+      "la": "XVII Kal. Die 15.",
+      "column": "933",
+      "chunk": 5,
+      "en": "The seventeenth day before the Kalends · 15 April"
+    },
+    {
+      "la": "XVI Kal. Die 16.",
+      "column": "935",
+      "chunk": 5,
+      "en": "The sixteenth day before the Kalends · 16 April"
+    },
+    {
+      "la": "XV Kal. Die 17.",
+      "column": "939",
+      "chunk": 5,
+      "en": "The fifteenth day before the Kalends · 17 April"
+    },
+    {
+      "la": "XIV Kal. Die 18.",
+      "column": "941",
+      "chunk": 6,
+      "en": "The fourteenth day before the Kalends · 18 April"
+    },
+    {
+      "la": "XIII Kal. Die 19.",
+      "column": "945",
+      "chunk": 6,
+      "en": "The thirteenth day before the Kalends · 19 April"
+    },
+    {
+      "la": "XII Kal. Die 20.",
+      "column": "947",
+      "chunk": 6,
+      "en": "The twelfth day before the Kalends · 20 April"
+    },
+    {
+      "la": "XI Kal. Die 21.",
+      "column": "951",
+      "chunk": 6,
+      "en": "The eleventh day before the Kalends · 21 April"
+    },
+    {
+      "la": "X Kal. Die 22.",
+      "column": "955",
+      "chunk": 6,
+      "en": "The tenth day before the Kalends · 22 April"
+    },
+    {
+      "la": "IX Kal. Die 23.",
+      "column": "959",
+      "chunk": 6,
+      "en": "The ninth day before the Kalends · 23 April"
+    },
+    {
+      "la": "VIII Kal. Die 24.",
+      "column": "963",
+      "chunk": 6,
+      "en": "The eighth day before the Kalends · 24 April"
+    },
+    {
+      "la": "VII Kal. Die 25.",
+      "column": "967",
+      "chunk": 6,
+      "en": "The seventh day before the Kalends · 25 April"
+    },
+    {
+      "la": "VI Kal. Die 26.",
+      "column": "969",
+      "chunk": 6,
+      "en": "The sixth day before the Kalends · 26 April"
+    },
+    {
+      "la": "V Kal Die 27.",
+      "column": "973",
+      "chunk": 6,
+      "en": "The fifth day before the Kalends · 27 April"
+    },
+    {
+      "la": "IV Kal. Die 28.",
+      "column": "977",
+      "chunk": 6,
+      "en": "The fourth day before the Kalends · 28 April"
+    },
+    {
+      "la": "III Kal. Die 29.",
+      "column": "979",
+      "chunk": 6,
+      "en": "The third day before the Kalends · 29 April"
+    },
+    {
+      "la": "Pridie Kal. Die 30.",
+      "column": "983",
+      "chunk": 6,
+      "en": "The day before the Kalends · 30 April"
+    }
+  ],
+  "headnotes": [],
+  "unparsed": [],
+  "proseNotes": []
+}
