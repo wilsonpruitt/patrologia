@@ -1,0 +1,271 @@
+{
+  "_note": "Stint-B plate reads for 9198 chunks 0004-0006 (cols 0811-0987), Usuardus Martyrologium, PL 123. Merge into data/plate-reads.json works.9198.reads[]. Targeted reads per USUARDUS-STINT-COMMON.md section 9 (first page of every chunk, every OCR-candidate leaf, every marker/crux site); NOT a page-by-page collation.",
+  "series": "pl",
+  "volume": 123,
+  "scan": "archive.org patrologiaecurs29goog (Google scan), page/n<LEAF>.jpg",
+  "page_map": "leaf = (odd column + 29) / 2 -- held across the whole range n420 (811/812) to n508 (987/988); no drift",
+  "second_witness": "none consulted (PL 123 has no calibrated second witness to hand). Single-letter plate readings are logged single-witness; no [sic:] fired on any of them. The one [sic:] fired (0987 dixerit) stands on a clean multi-letter form that our twin also carries, with Solier's VARIANTES on the same page indicating direxit.",
+  "reads": [
+    {
+      "from": "0811",
+      "to": "0812",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n420",
+      "source": "archive.org patrologiaecurs29goog page/n420.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 811 / 812, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n420 corners 811/812. head USUARDI MONACHI. band V Non Die 3 (0811). Chunk-first page. Die numeral flat-topped italic 3 (per stint A's shape rule) -> TEI right. Band text as TEI (Emetherii, Celedonii, Calagurrim). No keyed notes in band."
+    },
+    {
+      "from": "0815",
+      "to": "0816",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n422",
+      "source": "archive.org patrologiaecurs29goog page/n422.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 815 / 816, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n422 corners 815/816. head USUARDI MONACHI. band IV Non Die 4 (0815). Cand Romae(0815) TEI right (both Romae print). Plate 'ad sanctam Gæciliam' (G, clear spur, zoomed) for TEI Caeciliam: single letter, single witness -> log only, no patch, no marker; English Cecilia. Solier VL same page lists Caeciliam among codex spellings. No keyed notes."
+    },
+    {
+      "from": "0821",
+      "to": "0822",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n425",
+      "source": "archive.org patrologiaecurs29goog page/n425.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 821 / 822, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n425 corners 821/822. head MARTYROLOGIUM -- MENS. MART. band Nonis Die 7 (0821). Cand cum(0821) TEI right ('et cum eis'). 'omnes' worn final s, reads omnes. No keyed notes."
+    },
+    {
+      "from": "0827",
+      "to": "0828",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n428",
+      "source": "archive.org patrologiaecurs29goog page/n428.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 827 / 828, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n428 corners 827/828. head USUARDI MONACHI. band VII Idus Die 9 (0827). Cand vitae(0827) TEI right. PATCH: plate 'Nisenam civitatem depositio' (no comma), 'Cæsariensis tam vita' (no comma), 'episcopi qui tempore' (no comma). Plate 'Basilli' (native-res zoom: i dotted, then two ascenders, then i) for TEI Basilii: one letter, single witness, log only. No keyed notes."
+    },
+    {
+      "from": "0829",
+      "to": "0830",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n429",
+      "source": "archive.org patrologiaecurs29goog page/n429.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 829 / 830, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n429 corners 829/830. head MARTYROLOGIUM -- MENS. MART. band VI Idus Die 10 (0829). Cand Columbani.](0829) TEI right (OCR 'translati' = Solier/commentary misalignment). Plate 'Apud Apaniam' (n for m, zoomed, clear) vs TEI Apamiam: one letter, single witness, log only; English Apamia. PATCH: plate 'coronati sunt In Perside' (no stop; TEI 'sunt. In'); 'abbatis discipuli' (no comma; TEI 'abbatis, discipuli'). Bracket prints '[Bouillart addit: Ipso die a sancti Attali abba.is' (Bouillart without stop; not patched, bracket label). 'num ro' broken e = numero. KEYED NOTE a: key 'a' set at baseline after 'Ipso die' inside the Bouillart bracket; note mid-page under NOTAE line, two columns."
+    },
+    {
+      "from": "0847",
+      "to": "0848",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n438",
+      "source": "archive.org patrologiaecurs29goog page/n438.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 847 / 848, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n438 corners 847/848. head USUARDI MONACHI. band XVII Kal Die 16 (0847). Opened as crux site 'reliquata pice': plate prints reliquata (TEI right); Solier VL same page: 'Reliquata passim scribunt codices. Pratens. non bene legit'. Band otherwise as TEI. KEYED NOTE a at start of band before 'Apud Aquileiam'."
+    },
+    {
+      "from": "0855",
+      "to": "0856",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n442",
+      "source": "archive.org patrologiaecurs29goog page/n442.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 855 / 856, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n442 corners 855/856. head USUARDI MONACHI. band XIV Kal Die 19 (0855D). Opened as [d:] site: plate prints 'constructo monasterio' ONCE -> TEI doubling 'constructo constructo' is the digitization's: PATCH, no [d:]. Plate 'virtudibus' (d for t, zoomed) vs TEI virtutibus: one letter, single witness, log only. KEYED NOTE a after 'Caloceri' in band; note begins at page foot and runs over to n443."
+    },
+    {
+      "from": "0857",
+      "to": "0858",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n443",
+      "source": "archive.org patrologiaecurs29goog page/n443.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 857 / 858, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n443 corners 857/858. head MARTYROLOGIUM. -- MENS. MART. No Usuardus band on this page (Solier only). Opened for the run-over of the 0855 keyed note a."
+    },
+    {
+      "from": "0869",
+      "to": "0870",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n449",
+      "source": "archive.org patrologiaecurs29goog page/n449.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 869 / 870, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n449 corners 869/870. head MARTYROLOGIUM. -- MENS. MART. band IX Kal Die 24 (0869). Cand passi(0869): PLATE DIFFERS, prints 'qui pro Christo nati sunt' (clean, zoomed) -> PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) passi->nati; English follows plate. PATCH 'Romuli, et Secundoli' -> 'Romuli et Secundoli' (no comma on plate). 'natalls' broken i (natalis). No keyed notes."
+    },
+    {
+      "from": "0871",
+      "to": "0872",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n450",
+      "source": "archive.org patrologiaecurs29goog page/n450.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 871 / 872, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n450 corners 871/872. head USUARDI MONACHI. band VIII Kal Die 25 (0871). Cand ancillae(0871) TEI right. PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) 'Cyrini martyris. qui a rege' (full stop; TEI comma); PATCH 'In Antro insula sancti Hermelandi' (no comma; TEI 'insula, sancti'). Stray speck before NOTAE, not a key. No keyed notes."
+    },
+    {
+      "from": "0875",
+      "to": "0876",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n452",
+      "source": "archive.org patrologiaecurs29goog page/n452.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 875 / 876, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n452 corners 875/876. head USUARDI MONACHI. band VII Kal Die 26 (0875). Chunk 0005 first page. Cands Romae(0875), Maximae(0875) TEI right. Band as TEI. No keyed notes."
+    },
+    {
+      "from": "0881",
+      "to": "0882",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n455",
+      "source": "archive.org patrologiaecurs29goog page/n455.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 881 / 882, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n455 corners 881/882. head MARTYROLOGIUM. -- MENS. MART. band V Kal Die 28 (0881). Cand Tharso(0881) TEI right. Band as TEI. No keyed notes."
+    },
+    {
+      "from": "0883",
+      "to": "0884",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n456",
+      "source": "archive.org patrologiaecurs29goog page/n456.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 883 / 884, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n456 corners 883/884. head USUARDI MONACHI. band IV Kal Die 29 (0883), two lines at page foot, runs over at 'oppro-' to 885. Cand Satyri(0883) TEI right. No keyed notes."
+    },
+    {
+      "from": "0885",
+      "to": "0886",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n457",
+      "source": "archive.org patrologiaecurs29goog page/n457.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 885 / 886, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n457 corners 885/886. head MARTYROLOGIUM. -- MENS. MART. band top: end of IV Kal Die 29 (0885). Cand depositio(0885) TEI right ('Ipso die, depositio Eustasii'; OCR 'sancti' is misalignment). Bracket italic 'post martyres' has a worn a ('murtyres' look). KEYED NOTE a inside Bouillart bracket before 'Civitate Nicomedia'."
+    },
+    {
+      "from": "0901",
+      "to": "0902",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n465",
+      "source": "archive.org patrologiaecurs29goog page/n465.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 901 / 902, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n465 corners 901/902. head MARTYROLOGIUM. -- MENS. APRIL. Opened as crux site (two consecutive 'II Non.' heads in TEI). PLATE HEAD 'III Non. ... Die. 3' -> PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) head II->III (TEI line 1206 '<head>II <hi>Non. Die</hi> 3. </head>'). Band (0901) otherwise as TEI. No keyed notes."
+    },
+    {
+      "from": "0911",
+      "to": "0912",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n470",
+      "source": "archive.org patrologiaecurs29goog page/n470.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 911 / 912, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n470 corners 911/912. head USUARDI MONACHI. band VII Idus Die 7 (0911). Cand actuum(0911): PLATE DIFFERS, 'ecclesiasticorum actum textuit' (clean, zoomed) -> NOT patched: one letter, single witness, a sound syncopated gen. pl. of actus; English unchanged 'of ecclesiastical deeds'; orchestrator's call. No keyed notes."
+    },
+    {
+      "from": "0915",
+      "to": "0916",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n472",
+      "source": "archive.org patrologiaecurs29goog page/n472.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 915 / 916, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n472 corners 915/916. head USUARDI MONACHI. band VI Idus Die 8 (0915) at page top. Cand admirandae(0915) TEI right. Cand '*Idus.' (listed 0915): not in the band on n472 (the V Idus head is on col 917); OCR 'vocatur' is Solier misalignment -> TEI right / not in band. No keyed notes."
+    },
+    {
+      "from": "0919",
+      "to": "0920",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n474",
+      "source": "archive.org patrologiaecurs29goog page/n474.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 919 / 920, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n474 corners 919/920. head USUARDI MONACHI. band IV Idus Die 10 (0919). Cand vetustae(0919) TEI right. PLATE 'sancti Appolonii presby-|teri' (clean, zoomed) vs TEI Apollonii -> PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) (medieval spelling, sound; English Appolonius). No keyed notes."
+    },
+    {
+      "from": "0921",
+      "to": "0922",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n475",
+      "source": "archive.org patrologiaecurs29goog page/n475.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 921 / 922, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n475 corners 921/922. head MARTYROLOGIUM. -- MENS. APRIL. band III Idus Die 11 (0921), two lines at foot, runs to 923. Cand qui(0921) TEI right. PLATE 'qui magis virtutibus et optimis studiis' (clean, zoomed) vs TEI magnis -> real word, one letter, single witness (class of stint A's 0649 edictus): NOT patched, English follows the twin ('great virtues'), crux logged; orchestrator's call. Plate 'extiti' (TEI extitit; a 1st-person form with no slot; one letter, single witness) -> log only, English 'there was', no marker. No keyed notes."
+    },
+    {
+      "from": "0929",
+      "to": "0930",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n479",
+      "source": "archive.org patrologiaecurs29goog page/n479.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 929 / 930, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n479 corners 929/930. head MARTYROLOGIUM. -- MENS. APRIL. band Idibus Die 13 (0929). Cands sanctae, beatissimae (0929) TEI right. PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) 'Carpi episcopi. Papirii' (full stop; TEI comma). PLATE 'regnum coeleste pro ter-|terreno' (syllable doubled across the line-break hyphen, zoomed both halves) vs TEI 'pro terreno' -> PATCH to 'terterreno'; deferred [sic: *terterreno*]. Bouillart bracket (ad oram paginae) as TEI. No keyed notes."
+    },
+    {
+      "from": "0933",
+      "to": "0934",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n481",
+      "source": "archive.org patrologiaecurs29goog page/n481.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 933 / 934, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n481 corners 933/934. head MARTYROLOGIUM. -- MENS. APRIL. band XVIII Kal Die 14 (0933) at page top. Cand sanctae(0933, 'sanctae Domninae') TEI right. PLATE 'fustibus caesi in gladio percussi' (clean, zoomed) vs TEI 'caesi et gladio' -> PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) et->in; English follows plate. 'exa-|laret' as TEI. No keyed notes."
+    },
+    {
+      "from": "0935",
+      "to": "0936",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n482",
+      "source": "archive.org patrologiaecurs29goog page/n482.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 935 / 936, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n482 corners 935/936. head USUARDI MONACHI. band XVII Kal Die 15 (0935). Cand beatorum(0935) TEI right. 'Euticetis' as TEI. Plate 'posmodum' (TEI postmodum): one letter, attested medieval spelling, single witness -> log only. 'tunsa' as TEI (Solier VL: 'Pro tunsa scribunt tonsa'). No keyed notes."
+    },
+    {
+      "from": "0945",
+      "to": "0946",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n487",
+      "source": "archive.org patrologiaecurs29goog page/n487.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 945 / 946, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n487 corners 945/946. head MARTYROLOGIUM. -- MENS. APRIL. band XIV Kal Die 18 (0945). Chunk 0006 first page. Band as TEI (jugulatur printed with worn j). No keyed notes."
+    },
+    {
+      "from": "0951",
+      "to": "0952",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n490",
+      "source": "archive.org patrologiaecurs29goog page/n490.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 951 / 952, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n490 corners 951/952. head USUARDI MONACHI. band XII Kal Die 20 (0951). Cand Romae(0951) TEI right. PLATE 'maximam pratem Alpium maritimarum' (a/r transposed, clean, zoomed) vs TEI partem -> PATCH B16, deferred [sic: *pratem*] (single witness, transposed pair; flagged). Stray raised sort after 'divino jussu,' and a speck after 'Domitillae' - not keys (no keyed note on page; NOTAE 'Puri sunt ...' only). Bouillart bracket as TEI. No keyed notes. PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) plate 'Alpium maritimarum, verbo' (comma; TEI none)."
+    },
+    {
+      "from": "0959",
+      "to": "0960",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n494",
+      "source": "archive.org patrologiaecurs29goog page/n494.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 959 / 960, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n494 corners 959/960. head USUARDI MONACHI. band top: X Kal Die 22 continued (0959). Cand Lucae(0959) TEI right. Band and Bouillart bracket as TEI. KEYED NOTE a inside bracket before 'Senones'."
+    },
+    {
+      "from": "0969",
+      "to": "0970",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n499",
+      "source": "archive.org patrologiaecurs29goog page/n499.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 969 / 970, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n499 corners 969/970. head MARTYROLOGIUM. -- MENS. APRIL. (sheet signature 'PATROL. CXXIII. 31' at foot). band VII Kal Die 25 (0969). Cands evangelistae, Alexandriae (0969) TEI right. Plate 'Hic discipulis et interpres' = TEI discipulis (a dative/ablative plural with no slot; one letter from discipulus; single witness, same in twin) -> no [sic:] (single-letter, single copy), English 'disciple', crux. PATCH (see 9198-PENDING-TEI-PATCHES-0004.md) 'Evodii et Hermogenis [Bouillart.' (no stop; TEI 'Hermogenis. ['). Bracket as TEI. No keyed notes."
+    },
+    {
+      "from": "0979",
+      "to": "0980",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n504",
+      "source": "archive.org patrologiaecurs29goog page/n504.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 979 / 980, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n504 corners 979/980. head USUARDI MONACHI. band IV Kal Die 28 (0979). Cand quae(0979) TEI right. Band as TEI ('honestate sepelisset' printed; Solier VL same page reports codices 'cum honestate'). No keyed notes."
+    },
+    {
+      "from": "0983",
+      "to": "0984",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n506",
+      "source": "archive.org patrologiaecurs29goog page/n506.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 983 / 984, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n506 corners 983/984. head USUARDI MONACHI. band III Kal Die 29 (0983). Cand exilium(0983) TEI right. Plate 'Tertulia' (second l reads as a short dotted i at native res: a broken l or an i; one letter, single witness) vs TEI Tertulla -> log only, English Tertulla. No keyed notes."
+    },
+    {
+      "from": "0987",
+      "to": "0988",
+      "depth": "band",
+      "date": "2026-09-21",
+      "page": "n508",
+      "source": "archive.org patrologiaecurs29goog page/n508.jpg (full size 4050x6174), PIL crops local, none crossing the gutter (the Usuardus band is full width; Bouillart notes cropped per column). CALIBRATION: printed corner numbers read FIRST: 987 / 988, matching leaf = (odd col + 29)/2. Scope per brief section 9 / M0: the full-width Usuardus band only; Solier's NOTAE / VARIANTES / OBSERVATIONES / AUCTARIA not collated.",
+      "found": "n508 corners 987/988. head USUARDI MONACHI. band Pridie Kal Die 30 (0987). Opened as [sic:] site: plate prints 'consecratum, dixerit in Gallias' (clean, = TEI). Solier VL same page: 'Male legit Molanus, quem cum sanctus, alii pejus direxisset, pro direxit, quae sensum perturbant' -> the band is meant as direxit. FIRED [sic: *dixerit*]. Band otherwise as TEI. No keyed notes."
+    }
+  ]
+}
