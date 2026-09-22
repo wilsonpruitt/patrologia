@@ -1,0 +1,491 @@
+{
+  "_note": "Stint-scoped plate reads for 9215 chunks 0012-0014 (cols 0693-0857), stint F. Merge into data/plate-reads.json works.9215.reads[].",
+  "series": "pl",
+  "volume": 124,
+  "scan": "archive.org patrologiaecurs76unkngoog (page images, one at a time) + Gallica ark:/12148/bpt6k54939860 (IIIF)",
+  "page_map": "archive leaf = (column + 9) / 2, held n351 (693/694) to n434 (859/860), no drift; Gallica f = (column + 1) / 2, held f348 (695/696) to f429 (857/858)",
+  "second_witness": "Gallica read at every site where the archive printing differed from the twin (8 sites) and for the clipped or low-res archive pages. PL 124 is two printings: the TEI follows Gallica. One class-A divergence (both printings against the twin). No [sic:] fired.",
+  "unread": "Gallica f378 (the December month head, 755/756) timed out twice and was not read: the stop after DECEMBER on the archive is single-witness and nothing rests on it.",
+  "reads": [
+    {
+      "from": "0693",
+      "to": "0694",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n351",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n351 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "FIRST PAGE of chunk 0012. Corners 693/694; map leaf=(col+9)/2 holds. Band (XVIII Kal. Die 14) collated against the twin: no divergence. No keyed note."
+    },
+    {
+      "from": "0695",
+      "to": "0696",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n352",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n352 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "OCR candidate *qui*/*quid*: the archive printing sets *quid apud pagum* and *quia quinto decimo* (twin *qui apud*, *qui a quinto*), *Christophori* (twin *Cristophori*), *complevit.Ipso die* (no comma). Read Gallica before any verdict (f348)."
+    },
+    {
+      "from": "0695",
+      "to": "0696",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f348",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f348 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Corners 695/696; Gallica map f=(col+1)/2 holds. Gallica = twin: *qui a quinto decimo*, *Ipso die,*, *qui apud*, *Cristophori*. Verdict: TEI right (follows the Gallica printing); *quid*/*quia* are archive-printing faults; *Christophori*/*Cristophori* a press variant between two sound printings (crux only)."
+    },
+    {
+      "from": "0699",
+      "to": "0700",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n354",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n354 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "Read for a text crux: *Christo servivit deinde, apud praefatam urbem, revelante angelo, in pontificali cathedra* = twin (no conjunction before the second verb). No keyed note."
+    },
+    {
+      "from": "0703",
+      "to": "0704",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n356",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n356 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "OCR candidate *pretiosae*/*pretiosa*: plate prints *pretiosae mortis*. TEI right (OCR noise). Band = twin. No keyed note."
+    },
+    {
+      "from": "0711",
+      "to": "0712",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n360",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n360 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "Band (XIII Kal. Die 19): the archive head prints *XII Kal.* (one I short) with *Die 19.*; band text and the Bouillart bracket (*in textu charactere cursivo* ... *ad oram paginae* ... *Germani.]*) = twin. No keyed note."
+    },
+    {
+      "from": "0711",
+      "to": "0712",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f356",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f356 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Gallica head *XIII Kal.* ... *Die 19.* = twin. The archive's *XII* is that printing's fault; no M1 disagreement arises."
+    },
+    {
+      "from": "0715",
+      "to": "0716",
+      "depth": "overview",
+      "date": "2026-09-22",
+      "page": "n362",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n362 (served at 1119x1725 only); corners read first",
+      "chunk": "0012",
+      "found": "Corners 715/716. The archive served this leaf LOW-RES only (1119x1725): band not collatable. Read on Gallica (f358)."
+    },
+    {
+      "from": "0715",
+      "to": "0716",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f358",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f358 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Band (XII Kal. Die 20) = twin, including *ubique fustibus mactatus* (text crux, no marker). NOTAE unkeyed. No keyed note."
+    },
+    {
+      "from": "0719",
+      "to": "0720",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n364",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n364 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "OCR candidate *Hostia*/*ostia*: plate prints *Civitate Hostia* in the Bouillart bracket. TEI right. Archive bracket prints *beatissima Rufi* (twin *beatissimi*) -> Gallica f360. KEYED NOTE (a) inside the bracket after *scribit.*, before *Apud Neocorensem*: transcribed in full to cruces-0012 ## Keyed notes; not injected."
+    },
+    {
+      "from": "0719",
+      "to": "0720",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f360",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f360 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Gallica bracket *beatissimi* = twin; key before *Apud Neocorensem* confirmed. Archive *beatissima* is that printing's fault; TEI right."
+    },
+    {
+      "from": "0725",
+      "to": "0726",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n367",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n367 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "Band (IX Kal. Die 23) = twin; archive left margin partly clipped. KEYED NOTE (a) at the head of the *Interserit* bracket before *In Italia, beati Columbani*: transcribed; not injected."
+    },
+    {
+      "from": "0725",
+      "to": "0726",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f363",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f363 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Gallica bracket *... fundatoris coenobiorum].* = twin; key confirmed; the note re-read on Gallica for the words the archive clips at the left margin."
+    },
+    {
+      "from": "0729",
+      "to": "0730",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n369",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n369 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "Right corner 730 read (left corner clipped). OCR candidate *Tusciae*/*tuscia*: plate *Tusciae civitatem*. TEI right. Archive prints *Item Romae, sancti Crescentiani* (comma) -> Gallica f365. No keyed note."
+    },
+    {
+      "from": "0729",
+      "to": "0730",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f365",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f365 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Gallica *Item Romae. sancti Crescentiani* (full stop) = twin. Press variant between two sound printings: crux only."
+    },
+    {
+      "from": "0733",
+      "to": "0734",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n371",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n371 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "Band (VII Kal. Die 25) = twin, incl. *sexcenti sexaginta* and the Bouillart *ad oram paginae* bracket (*Chaterinae*). No keyed note."
+    },
+    {
+      "from": "0745",
+      "to": "0746",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n377",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n377 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "Right corner 746 read (left corner clipped; the image masks the left margin of the band). OCR candidate *cum*/*com*: plate *quem cum omni domo sua*. TEI right. Hidden line-starts read on Gallica f373."
+    },
+    {
+      "from": "0745",
+      "to": "0746",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f373",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f373 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Gallica: *tempore Wandalicae ... adusti, gloriosum ... punitum Christo martyrem fecit.* = twin. TEI right."
+    },
+    {
+      "from": "0747",
+      "to": "0748",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n378",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n378 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "OCR candidate *omni*/*toto*: plate *omni corpore dilaniato* (the *et* before it worn to *ei* on the archive). TEI right. No keyed note."
+    },
+    {
+      "from": "0747",
+      "to": "0748",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f374",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f374 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0012",
+      "found": "Gallica *et omni corpore dilaniato*, *et depositos de equuleo* = twin. TEI right."
+    },
+    {
+      "from": "0751",
+      "to": "0752",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n380",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n380 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0012",
+      "found": "OCR candidate *ultimum*/*ultimam*: plate *ad ultimum vero*. TEI right. Band = twin. No keyed note."
+    },
+    {
+      "from": "0755",
+      "to": "0756",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n382",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n382 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "FIRST PAGE of chunk 0013. Month head set on two display lines, *MENSIS DECEMBER.* / *HABET DIES XXXI.* (a stop after DECEMBER; the twin has none; the English head normalizes). OCR candidates *Dariae*/*dari* and *obrui.*/*uiginti*: plate = twin (OCR noise / misalignment). No keyed note."
+    },
+    {
+      "from": "0765",
+      "to": "0766",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n387",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n387 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "Band (Pridie Non. Die 4) = twin incl. the Bouillart bracket (*in textu* ... *Et in margine* ...). KEYED NOTE (a) after *sancti Syrani*, before *abbatis*: transcribed; not injected. Single witness for the note."
+    },
+    {
+      "from": "0771",
+      "to": "0772",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n390",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n390 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "Read for a text crux: *gravissimis in innumeris suppliciis excruciati* = twin; *Mirorum Liciae*, *Emiliani* = twin. No keyed note."
+    },
+    {
+      "from": "0775",
+      "to": "0776",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n392",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n392 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "OCR candidate head *Idus.* (OCR *kal*): plate *VII Idus.* ... *Die 7.* = twin (misalignment). Band = twin incl. *Meldicensi*. No keyed note."
+    },
+    {
+      "from": "0777",
+      "to": "0778",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n393",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n393 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "Right corner 778 read (left corner clipped). Band VI Idus Die 8 begins at the foot: *anno uno*, *trecentos quadraginta duos* = twin. No keyed note on this page."
+    },
+    {
+      "from": "0779",
+      "to": "0780",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n394",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n394 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "Band cont. (0779A) = twin, incl. *[Bouillart., ad oram paginae: Conceptio ... Mariae.]*. NOTAE unkeyed. No keyed note."
+    },
+    {
+      "from": "0781",
+      "to": "0782",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n395",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n395 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "Right corner 782 read (left corner clipped). Band V Idus Die 9 begins at the foot: *... apud Toletum dura [Bouillart.* (the archive sets a stop after the name). No keyed note on this page."
+    },
+    {
+      "from": "0781",
+      "to": "0782",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f391",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f391 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0013",
+      "found": "Gallica *[Bouillart ,* (comma) = twin. Press variant, immaterial to the English."
+    },
+    {
+      "from": "0783",
+      "to": "0784",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n396",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n396 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "Band cont. (0783) = twin. KEYED NOTE (a) after *macerata*, before the comma: transcribed; not injected. Single witness for the note."
+    },
+    {
+      "from": "0801",
+      "to": "0802",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n405",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n405 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "OCR candidate head *Die* (OCR *xii*): plate *XIX Kal.* ... *Die 14.* = twin. Archive prints *flagellatus, divino nutu* (comma) -> Gallica f401. No keyed note."
+    },
+    {
+      "from": "0801",
+      "to": "0802",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f401",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f401 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0013",
+      "found": "Gallica *flagellatus. divino nutu* (stop) = twin. Press variant between two sound printings: crux only."
+    },
+    {
+      "from": "0807",
+      "to": "0808",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n408",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n408 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0013",
+      "found": "OCR candidate *Tuscia,*/*nicomedie*: plate *In Tuscia, passio* (OCR misalignment into the Observationes). TEI right. Archive prints *Valentini, Naulis et Agricolae.*; the twin has *Valentini. Naulis et Agricofae.* -> Gallica f404. No keyed note."
+    },
+    {
+      "from": "0807",
+      "to": "0808",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f404",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f404 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0013",
+      "found": "Gallica *Valentini. Naulis et Agricolae.* *Agricolae* on BOTH printings: pending patch P1 (class A). The stop after *Valentini* (Gallica = twin) vs comma (archive): press variant, crux only."
+    },
+    {
+      "from": "0809",
+      "to": "0810",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f405",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f405 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0013",
+      "found": "Band (XVI Kal. Die 17) = twin throughout (*Damniticam*, *e vicino*, *Sarracenis*). NOTAE unkeyed. No keyed note. (Opened while seeking f404; kept as a read.)"
+    },
+    {
+      "from": "0813",
+      "to": "0814",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n411",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n411 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "FIRST PAGE of chunk 0014. Band (XV Kal. Die 18) = twin, incl. *Moysetis martyris, Turonis* (comma). No keyed note."
+    },
+    {
+      "from": "0819",
+      "to": "0820",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n414",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n414 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "OCR candidate *illum*/*illam*: plate *conabantur illum erigere*. TEI right. Band = twin. No keyed note."
+    },
+    {
+      "from": "0825",
+      "to": "0826",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n417",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n417 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "Band (XI Kal. Die 22) = twin. KEYED NOTE (a) inside the Bouillart bracket before *Civitate Hostia*: transcribed; not injected. Single witness for the note."
+    },
+    {
+      "from": "0829",
+      "to": "0830",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n419",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n419 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "OCR candidate *nec*/*neo*: the archive prints *nec nubere vellet, neo sacrificare* and *depositio Domini Childeberti* (twin *nec*, *Domni*) -> Gallica f415. No keyed note."
+    },
+    {
+      "from": "0829",
+      "to": "0830",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f415",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f415 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0014",
+      "found": "Gallica *nec sacrificare*, *Domni Childeberti* = twin. Verdict: TEI right; *neo* is an archive-printing fault; *Domini*/*Domni* a press variant between two sound printings (crux only)."
+    },
+    {
+      "from": "0833",
+      "to": "0834",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n421",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n421 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "Band (IX Kal. Die 24): head note *(Hic in editione Bouillartii incipit annus.)* = twin. KEYED NOTE (a) at the start of the band before *Vigilia natalis Domini*: transcribed; not injected. Archive prints *fustibus modosis* (twin *nodosis*) -> Gallica f417."
+    },
+    {
+      "from": "0833",
+      "to": "0834",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f417",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f417 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0014",
+      "found": "Gallica *fustibus nodosis caesus* = twin; key and note confirmed. Archive *modosis* is that printing's fault; TEI right, nothing to patch."
+    },
+    {
+      "from": "0835",
+      "to": "0836",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n422",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n422 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "Band (VIII Kal. Die 25) = twin except the archive's *socros virginum choros* (twin *sacros*) -> Gallica f418. KEYED NOTE (a) inside the *interserit* bracket before *ebdomada*; the note runs onto n423."
+    },
+    {
+      "from": "0835",
+      "to": "0836",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f418",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f418 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0014",
+      "found": "Gallica *sacros* (worn initial) = twin: archive *socros* is that printing's fault, TEI right. Bracket *sexta.],* = twin. Note start re-read (Gallica *XLII*, *juxta* where the archive shows *XIII*, *justa*)."
+    },
+    {
+      "from": "0837",
+      "to": "0838",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n423",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n423 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "No Usuardus band on this page. Top of page carries the end of the Christmas keyed note (*... ne quid incerti traderet. BOUILLART.*): transcribed with n422."
+    },
+    {
+      "from": "0857",
+      "to": "0858",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n433",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n433 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "OCR candidate *fecerunt.*/*fecerant*: plate *illustrem fecerunt.* TEI right. KEYED NOTE (a) before *Et in eadem urbe*: transcribed; not injected. The archive sets the Bouillart bracket with no closing *]* -> Gallica f429."
+    },
+    {
+      "from": "0857",
+      "to": "0858",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "f429",
+      "source": "Gallica ark:/12148/bpt6k54939860 IIIF f429 (2400px / pct crops, User-Agent header); corners read first",
+      "chunk": "0014",
+      "found": "Gallica closes the bracket *principis.]* = twin (press variant: crux only). Key confirmed."
+    },
+    {
+      "from": "0859",
+      "to": "0860",
+      "depth": "band",
+      "date": "2026-09-22",
+      "page": "n434",
+      "source": "archive.org patrologiaecurs76unkngoog, page/n434 (full size 3834x6136 unless noted); corners read first",
+      "chunk": "0014",
+      "found": "End of the work. The closing line *Et tandem claudunt extremum festa Decembrem.* and *AD MAJOREM DEI GLORIAM.* are set centred after the Auctaria = twin. Molan's auctarium on the page calls the line *ultimum Wandalberti versiculum*. No band; no keyed note."
+    }
+  ]
+}
