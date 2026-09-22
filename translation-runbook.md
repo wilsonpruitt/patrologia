@@ -167,7 +167,10 @@ after the translation is paid for.
    lists and calendars are nearly immune: independent list items, no neighbour to
    contradict. Do not read a cartulary as slowly as a Victorine commentary.
 
-4a″. **⭐ ON A WORK WHOSE PLATES ARE UNREAD, FOLD THE PLATE READ INTO THE TRANSLATION STINT —
+4a″. ⭐⭐ **EVERY PAGE, NOT A SAMPLE (Wilson, 2026-09-22; CLAUDE.md "BIAS TO EXHAUSTIVENESS"):** the stint
+   opens every page its range spans, collating the text and reading every keyed or foot note in one
+   visit. The Usuardus "targeted" read missed ~70% of Bouillart's notes. Never offer a cheaper read.
+   4a″. **⭐ ON A WORK WHOSE PLATES ARE UNREAD, FOLD THE PLATE READ INTO THE TRANSLATION STINT —
    do not leave it to step 4b.** This pipeline separates translating (step 2) from reading the
    plate (4b), and on a work with no reads on file that separation costs a whole second pass.
    **Measured on 8950, 2026-09-05, inside one work:** the 0008–0011 stint read its own range as
