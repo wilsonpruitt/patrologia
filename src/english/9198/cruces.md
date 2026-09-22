@@ -21,3 +21,13 @@ placed. Stint working files: `cruces-0000.md` (stint A) and `cruces-0004.md` (st
   - 0987: *consecratum* agrees with *quem* (Euprobus), not Clement.
   - 0941: *cum aliis pluribus* → "with many others", not "very many".
   - 0905: *Hirenis* → Hirene, matching 9215 (5 May).
+
+## Note proofread against the plate (2026-09-22)
+Every one of the 101 notes in the work was read word for word against the printed page after the
+0487 line-loss was found (`data/briefs/USUARDUS-NOTE-PROOFREAD-P*.md`).
+- **Signature variant, 0655: the plate signs BOUILLARD., with a d**, read at 600 dpi. The Latin keeps
+  what Migne prints. **The English twin keeps "Bouillart."**, because a second spelling in English
+  reads as a second man, and the name is not what the note says. Same treatment as any misprint of
+  his in the Latin: carried, not repaired.
+- Two silent repairs by the transcriber were reverted at 0695 (*Lizinio* both times, as Migne sets it)
+  and 0735 (*autogragho*, Migne's own misprint).
