@@ -14,6 +14,293 @@
    "find": "PROLOGUS ALTER EX LIBRIS BEATI AUGUSTINI, <hi>Qualiter",
    "replace": "PROLOGUS ALTER EX LIBRIS BEATI AUGUSTI. <hi>Qualiter",
    "why": "DIGITIZATION SILENTLY REPAIRED MIGNE, PLATE READ 2026-09-21 (archive patrologiaecurs29goog leaf n314, corners 599/600; map leaf = (col + 29)/2, calibrated at n310 = 591/592 and n317 = 605/606). The head of the second prologue sets 'Ex libris beati AUGUSTI.' in small caps, with a full stop, read on a full-resolution crop. Corpus Corporum prints AUGUSTINI with a comma. Augustine is plainly meant: the prologue cites Aug. l. xx contr. Faust. c. 21 in its first sentence. But the plate prints a REAL word, so this is Pattern 18 [cj:] business in the English and never a silent repair in the Latin. Punctuation restored with it (Pattern 8)."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0600C",
+   "find": "adjuvante possimus Colimus",
+   "replace": "adjuvante possimus. Colimus",
+   "why": "PLATE READ 2026-09-21 by stint A (P1 · 0600C — missing full stop (Augustine prologue)). n314, corners 599 / 600, right column. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0601",
+   "find": "superstitionibus idolorum",
+   "replace": "superstitionibus idorum",
+   "why": "PLATE READ 2026-09-21 by stint A (P2 · 0601 (Kal. Jan.) — *idorum* for *idolorum* ⚑ DEFERRED `[sic:]`). n315, corners 601 / 602, Usuardus band line 2. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0669",
+   "find": "gradio percussus",
+   "replace": "gladio percussus",
+   "why": "PLATE READ 2026-09-21 by stint A (P3 · 0669 — *gladio*, not *gradio*). n349, corners 669 / 670. The *g* is slightly broken but the word is *gladio*. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0669",
+   "find": "confortari - post quae",
+   "replace": "confortari, post quae",
+   "why": "PLATE READ 2026-09-21 by stint A (P4 · 0669 — comma, not a dash). n349. **Plate:** `meruit confortari, post quae plumbo` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0713",
+   "find": "coliiserunt",
+   "replace": "colliserunt",
+   "why": "PLATE READ 2026-09-21 by stint A (P5 · 0713 — *colliserunt*). n371, corners 713 / 714. **Plate:** `omne corpus ejus fustibus colliserunt ;` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0687",
+   "find": "24. </head>\n\n<pb n=\"0687\"/>",
+   "replace": "23. </head>\n\n<pb n=\"0687\"/>",
+   "why": "PLATE READ 2026-09-21 by stint A (P6 · 0687 — day head: the plate prints *Die 23.*). n358, corners 687 / 688; zoomed. A flat-topped italic 3 with no stem, against the Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0729",
+   "find": "<head>Id <hi>Non.",
+   "replace": "<head>H <hi>Non.",
+   "why": "PLATE READ 2026-09-21 by stint A (P7 · 0729 — day head: the plate prints *H Non.*). n379, corners 729 / 730. A roman capital H, then italic *Non.* Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0739",
+   "find": "Moysetis episcopi. Hic",
+   "replace": "Moysetis episcopi, Hic",
+   "why": "PLATE READ 2026-09-21 by stint A (P8 · 0739 — comma before *Hic*). n384, corners 739 / 740. **Plate:** `sancti Moysetis episcopi, Hic primum` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0739",
+   "find": "Bouillart.:</hi> In provincia",
+   "replace": "Brouillart.:</hi> In provincia",
+   "why": "PLATE READ 2026-09-21 by stint A (P9 · 0739 (VI Id. Feb. band, on n385) — Bouillart's name, as printed in his bracket). n385, corners 741 / 742. **Plate:** `[Brouillart. : ª In provincia Lusitania` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "",
+   "find": "Corduba, sancti Salomonis martyris. <hi>Et",
+   "replace": "Corduba, sancti Salominis martyris. <hi>Et",
+   "why": "PLATE READ 2026-09-21 by stint A (P10 · same bracket — *Salominis*).  Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0745",
+   "find": "incensures",
+   "replace": "incensuros",
+   "why": "PLATE READ 2026-09-21 by stint A (P11 · 0745 — *incensuros*). n387, corners 745 / 746. **Plate:** `vivam se eam incensuros, nisi` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0745",
+   "find": "paululum\nquid intra semetipsam",
+   "replace": "paululum\nquid semetipsam",
+   "why": "PLATE READ 2026-09-21 by stint A (P12 · 0745 — the plate has no *intra*).  Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0753",
+   "find": "In Africa, sanctorum martyrum Saturnini",
+   "replace": "In Africa. sanctorum martyrum Saturnini",
+   "why": "PLATE READ 2026-09-21 by stint A (P13 · 0753 — full stop after *Africa*). n391, corners 753 / 754. **Plate:** `In Africa. sanctorum martyrum Saturnini` (same Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0759",
+   "find": "custodiae mancipatus,\ncum superari",
+   "replace": "custodiae mancipatus.\ncum superari",
+   "why": "PLATE READ 2026-09-21 by stint A (P14 · 0759 — full stop after *mancipatus*). n394, corners 759 / 760; line end, next line opens lower-case *cum*. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0767",
+   "find": "sanctus Pauli scribit",
+   "replace": "sanctus Paulus scribit",
+   "why": "PLATE READ 2026-09-21 by stint A (P15 · 0767 — *Paulus*, not *Pauli*). n398, corners 767 / 768. **Plate:** `de quo sanctus Paulus scribit Philemoni` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0769",
+   "find": "Secundiani. Romuli",
+   "replace": "Secundiani, Romuli",
+   "why": "PLATE READ 2026-09-21 by stint A (P16 · 0769 — comma, and *caelum*). n399, corners 769 / 770. **Plate:** `Donati, Secundiani, Romuli cum aliis` and Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0769",
+   "find": "ad coelum elevans",
+   "replace": "ad caelum elevans",
+   "why": "PLATE READ 2026-09-21 by stint A (P16 · 0769 — comma, and *caelum*). n399, corners 769 / 770. **Plate:** `Donati, Secundiani, Romuli cum aliis` and Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0769",
+   "find": "In pago Tarvenensi sancti Silvini",
+   "replace": "Ipso die, sancti Silvini",
+   "why": "PLATE READ 2026-09-21 by stint A (P17 · 0769 — Bouillart's bracket reads *Ipso die*, not *In pago Tarvenensi*).  Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0785",
+   "find": "Policarpi autem",
+   "replace": "Polycarpi autem",
+   "why": "PLATE READ 2026-09-21 by stint A (P18 · 0785 — *Polycarpi*). n407, corners 785 / 786. **Plate:** `Polycarpi autem condiscipulus et sodalis fuit.` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0785",
+   "find": "dicipulis",
+   "replace": "discipulis",
+   "why": "PLATE READ 2026-09-21 by stint A (P19 · 0785 — *discipulis*).  Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0785",
+   "find": "conspicuus ministravit.\n[",
+   "replace": "conspicuus ministravit,\n[",
+   "why": "PLATE READ 2026-09-21 by stint A (P20 · 0785 — comma before the Bouillart bracket).  Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0791",
+   "find": "Evangelium praedicavit",
+   "replace": "Evangelium, praedicavit",
+   "why": "PLATE READ 2026-09-21 by stint A (P21 · 0791 — comma before *praedicavit*). n410, corners 791 / 792. **Plate:** `apud Judaeam Christi Evangelium, praedicavit.` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0793",
+   "find": "flammis incensi, Serapion\net Papias",
+   "replace": "flammis incensi. Serapionis\net Papias",
+   "why": "PLATE READ 2026-09-21 by stint A (P22 · 0793 — *incensi. Serapionis* ⚑ DEFERRED `[sic:]`). n411, corners 793 / 794. **Plate:** `flammis incensi. Serapionis et Papias gladio caesi sunt.` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0799",
+   "find": "impietate conversa est\nLugduni",
+   "replace": "impietate conversa est.\nLugduni",
+   "why": "PLATE READ 2026-09-21 by stint A (P23 · 0799 — full stop after *conversa est*). n414, corners 799 / 800. **Plate:** `ab Ariana impietate conversa est.` (line end) Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0827",
+   "find": "Nisenam civitatem, depositio",
+   "replace": "Nisenam civitatem depositio",
+   "why": "PLATE READ 2026-09-21 by stint B (B1 · 0827 — no comma after *civitatem*). n428, corners 827 / 828, band line 1. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0827",
+   "find": "Basilii Caesariensis, tam",
+   "replace": "Basilii Caesariensis tam",
+   "why": "PLATE READ 2026-09-21 by stint B (B2 · 0827 — no comma after *Caesariensis*). n428. **Plate:** `fratris beati Basilli Cæsariensis tam vita` (for *Basilli* see \"not patched\"). Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0827",
+   "find": "Patiani episcopi, qui",
+   "replace": "Patiani episcopi qui",
+   "why": "PLATE READ 2026-09-21 by stint B (B3 · 0827 — no comma after *episcopi*). n428. **Plate:** `sancti Patiani episcopi qui tempore Theodosii principis,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0829",
+   "find": "glorioso martyrio coronati sunt.\nIn Perside",
+   "replace": "glorioso martyrio coronati sunt\nIn Perside",
+   "why": "PLATE READ 2026-09-21 by stint B (B4 · 0829 — no full stop before *In Perside*). n429, corners 829 / 830; line end zoomed to the page edge: *sunt* ends the line bare. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0829",
+   "find": "depositio sancti Droctovei abbatis,\ndiscipuli",
+   "replace": "depositio sancti Droctovei abbatis\ndiscipuli",
+   "why": "PLATE READ 2026-09-21 by stint B (B5 · 0829 — no comma after *abbatis*). n429. **Plate:** `depositio sancti Droctovei abbatis` / `discipuli beati Germani episcopi.` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0855D",
+   "find": "constructo constructo monasterio",
+   "replace": "constructo monasterio",
+   "why": "PLATE READ 2026-09-21 by stint B (B6 · 0855D — *constructo* printed ONCE (the twin's doubling is the digitization's)). n442, corners 855 / 856, band line 2: `Penarensem urbem constructo monasterio,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0869",
+   "find": "Romuli, et Secundoli",
+   "replace": "Romuli et Secundoli",
+   "why": "PLATE READ 2026-09-21 by stint B (B7 · 0869 — no comma after *Romuli*). n449, corners 869 / 870. **Plate:** `Romuli et Secundoli fratrum,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0869",
+   "find": "pro Christo passi sunt",
+   "replace": "pro Christo nati sunt",
+   "why": "PLATE READ 2026-09-21 by stint B (B8 · 0869 — *nati*, not *passi* (OCR candidate, confirmed)). n449, band line 3, zoomed; clean type. **Plate:** `qui pro Christo nati sunt.` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0871",
+   "find": "Cyrini martyris, qui",
+   "replace": "Cyrini martyris. qui",
+   "why": "PLATE READ 2026-09-21 by stint B (B9 · 0871 — full stop after *martyris*). n450, corners 871 / 872. **Plate:** `sancti Cyrini martyris. qui a rege Claudio,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0871",
+   "find": "In Antro insula,",
+   "replace": "In Antro insula",
+   "why": "PLATE READ 2026-09-21 by stint B (B10 · 0871 — no comma after *insula*). n450, line end zoomed to the page edge. **Plate:** `In Antro insula` / `sancti Hermelandi abbatis` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0901",
+   "find": "<head>II <hi>Non. Die</hi> 3.",
+   "replace": "<head>III <hi>Non. Die</hi> 3.",
+   "why": "PLATE READ 2026-09-21 by stint B (B11 · 0901 — day head: the plate prints *III Non.*). n465, corners 901 / 902. Roman III, italic *Non.*, *Die. 3* at right. Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0919",
+   "find": "sancti Apollonii presbyteri",
+   "replace": "sancti Appolonii presbyteri",
+   "why": "PLATE READ 2026-09-21 by stint B (B12 · 0919 — *Appolonii*). n474, corners 919 / 920; zoomed, clean type. **Plate:** `sancti Appolonii presby-` / `teri` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0929",
+   "find": "Carpi episcopi, Papirii",
+   "replace": "Carpi episcopi. Papirii",
+   "why": "PLATE READ 2026-09-21 by stint B (B13 · 0929 — full stop after *episcopi*). n479, corners 929 / 930. **Plate:** `natalis sanctorum Carpi episcopi. Papirii diaconis et Agathonicæ,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0929",
+   "find": "coeleste pro terreno",
+   "replace": "coeleste pro terterreno",
+   "why": "PLATE READ 2026-09-21 by stint B (B14 · 0929 — *ter-|terreno* ⚑ DEFERRED `[sic:]`). n479; both halves zoomed. The line ends `regnum cœleste pro ter-` and the next begins Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0933",
+   "find": "caesi et gladio percussi",
+   "replace": "caesi in gladio percussi",
+   "why": "PLATE READ 2026-09-21 by stint B (B15 · 0933 — *in gladio*, not *et gladio*). n481, corners 933 / 934; zoomed, clean. **Plate:** `quorum primi fustibus cæsi in gladio percussi,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0951",
+   "find": "maximam partem Alpium maritimarum verbo",
+   "replace": "maximam pratem Alpium maritimarum, verbo",
+   "why": "PLATE READ 2026-09-21 by stint B (B16 · 0951 — *pratem*, and a comma after *maritimarum* ⚑ DEFERRED `[sic:]`, flagged). n490, corners 951 / 952; zoomed, clean type. **Plate:** `maximam pratem Alpium maritimarum, verbo et signis admirandis,` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0969",
+   "find": "et Hermogenis. [ <hi>Bouillart., ad oram",
+   "replace": "et Hermogenis [ <hi>Bouillart., ad oram",
+   "why": "PLATE READ 2026-09-21 by stint B (B17 · 0969 — no full stop before Bouillart's bracket). n499, corners 969 / 970. **Plate:** `sanctorum Evodii et Hermogenis [Bouillart., ad oram paginæ :` Full entry: data/briefs/9198-PENDING-TEI-PATCHES-0004.md."
   }
  ]
 }
