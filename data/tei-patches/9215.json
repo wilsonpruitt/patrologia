@@ -14,6 +14,111 @@
    "find": "ab ense ligneo",
    "replace": "ab ense lignato",
    "why": "DIGITIZATION MISREADING, PLATE READ 2026-09-21 (archive patrologiaecurs76unkngoog leaf n9, the opening page of the work: SEQUITUR USUARDI MARTYROLOGIUM / MENSIS MAIUS, signature PATROL. CXXIV at the foot; map leaf = (col + 9)/2, calibrated at n20 = cols 31/32). Kalends of May, the Andeolus entry: the plate sets 'et sic demum ab ense lignato, in crucis modum caput ejus scindi', read on a full-resolution crop of the full-width Usuardus band. Corpus Corporum has 'ligneo'. One word, one site."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0093",
+   "find": "Mesiam civiate Dorostorensi",
+   "replace": "Mesiam civitate Dorostorensi",
+   "why": "PLATE READ 2026-09-21 by stint C (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P1 · 0093 — `civiate` in our twin, `civitate` on the plate. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0233",
+   "find": "Addit Badillart., ex margine",
+   "replace": "Addit Bouillart., ex margine",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0233: *Badillart* → *Bouillart*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0261",
+   "find": "oppositione damnarunt",
+   "replace": "oppositione damnarunt.",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0261: missing full stop after *damnarunt*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0291",
+   "find": "sancti Vicentii.",
+   "replace": "sancti Vincentii.",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0291: *Vicentii* → *Vincentii*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0337",
+   "find": "Daciano tenere jussi",
+   "replace": "Daciano teneri jussi",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0337: *tenere* → *teneri*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0401",
+   "find": "logione Thebeorum",
+   "replace": "legione Thebeorum",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0401: *logione* → *legione*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0405",
+   "find": "ex cadem urbe",
+   "replace": "ex eadem urbe",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0405: *cadem* → *eadem*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0407",
+   "find": "condemnatus est. In Africa.",
+   "replace": "condemnatus est. In Africa,",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0407: *In Africa.* → *In Africa,*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0427",
+   "find": "lucro promerunt.",
+   "replace": "lucro promeruit.",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0427: *promerunt* → *promeruit*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0477",
+   "find": "beati Lambertii episcopi",
+   "replace": "beati Lamberti episcopi",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P1 · 0477 — `Lambertii` in our twin, `Lamberti` on both plates. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0493",
+   "find": "Apud Beuuarriam",
+   "replace": "Apud Beuuariam",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P2 · 0493 — `Beuuarriam` in our twin, `Beuuariam` on both plates. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0547",
+   "find": "praeside martyrium consummavit Eodem",
+   "replace": "praeside martyrium consummavit. Eodem",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P3 · 0547 — no stop in our twin, `consummavit. Eodem` on the plates. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0555",
+   "find": "gratia-directus",
+   "replace": "gratia directus",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P4 · 0555 — `gratia-directus` in our twin, `gratia directus` on both plates. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0629",
+   "find": "multitudinem. Christo subdidissent",
+   "replace": "multitudinem Christo subdidissent",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P6 · 0629 — `multitudinem. Christo` in our twin, no stop on both plates. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0807",
+   "find": "Naulis et Agricofae",
+   "replace": "Naulis et Agricolae",
+   "why": "PLATE READ 2026-09-21 by stint F (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P1 · 0807: *Agricofae* → *Agricolae*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0012.md."
   }
  ]
 }
