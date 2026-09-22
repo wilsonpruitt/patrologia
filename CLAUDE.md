@@ -60,6 +60,30 @@ it fused with normal spacing either side. ⚑ And the class split is the reliabl
 agent's hunch: on that work **46 of 46 `[var:]` stood and 8 of 27 `[sic:]` fell, every fall a
 single word and not one a quoted clause.**
 
+### ⭐⭐ BIAS TO EXHAUSTIVENESS — DO IT ONCE, COMPLETELY (Wilson, 2026-09-22)
+
+**On a work in progress, every pass is done in full the first time: every page, every note, every
+column.** No sampled or "targeted" pass stands in for a complete one. The point is that **there is
+never a second, more thorough version of the same work later.** A partial pass does not save its
+cost. It defers the cost, and the later pass has to reload a whole work's context to redo it.
+
+**The measurement that set the rule (Usuardus 9198, 2026-09-22).** The translating stints read the
+plate "targeted": first page of each chunk, OCR-diff leads, marker sites. On cols 811–987 they
+opened 29 pages and found 5 of Bouillart's keyed notes. The full sweep of the other 66 pages found
+**11 more**, so **the targeted pass missed ~70%.** What it missed was the evidence for which
+commemorations are Usuardus's own (erasures, later hands, first-hand testimony on the Pratensis
+codex). **A sample tells you a layer EXISTS. It never tells you you have it.**
+
+**How to apply:**
+- When planning a work, **cost the exhaustive version and propose that.** If the budget can't carry
+  it, say so and let Wilson rule. Never quietly substitute a sample. The Usuardus run did exactly
+  that ("targeted, NOT page by page"), and it cost an extra sweep.
+- The plate spot check at chunking (below) stays. It is how a layer is **discovered**. Once a layer
+  is found, recover ALL of it before shipping, not the part a sample happened to hit.
+- ⚖ **Scope.** This governs work IN PROGRESS. It does **not** reopen the completed corpus (the
+  no-retrofit ruling of 2026-08-18 stands), and it does **not** license hunting for a "First" badge
+  (rule 8: the badge is garnish). It is about the text and its apparatus, done once.
+
 ### ⛔⛔ THE RATCHET — THE BACKLOG MAY FALL, NEVER RISE (Wilson, 2026-09-02)
 
 **`node scripts/preflight.mjs` before every deploy, and it must exit 0.** Its first check is
