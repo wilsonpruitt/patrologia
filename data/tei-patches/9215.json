@@ -119,6 +119,62 @@
    "find": "Naulis et Agricofae",
    "replace": "Naulis et Agricolae",
    "why": "PLATE READ 2026-09-21 by stint F (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P1 · 0807: *Agricofae* → *Agricolae*. Both printings agree against our twin. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0012.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0113",
+   "find": "qui mu tos in carcere",
+   "replace": "qui multos in carcere",
+   "why": "PLATE READ 2026-09-21 by stint C (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P2 · 0113 — `mu tos` in our twin, `multos` on the archive plate (press/wear variant). CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0119",
+   "find": "in flumen praecipatus",
+   "replace": "in flumen praecipitatus",
+   "why": "PLATE READ 2026-09-21 by stint C (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P3 · 0119 — `praecipatus` in our twin, `praecipitatus` on the archive plate (press variant). CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0183",
+   "find": "natalis santae Ediltrudis",
+   "replace": "natalis sanctae Ediltrudis",
+   "why": "PLATE READ 2026-09-21 by stint C (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P4 · 0183 — `santae` in our twin, `sanctae` on the archive plate (press variant). CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0000.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0277",
+   "find": "sanctae garitae",
+   "replace": "sanctae Margaritae",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0277: *sanctae garitae* → *sanctae Margaritae*. CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0365",
+   "find": "aliquid frivorum et",
+   "replace": "aliquid frivolum et",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0365: *frivorum* → *frivolum*. CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0389",
+   "find": "sanctornm Claudii",
+   "replace": "sanctorum Claudii",
+   "why": "PLATE READ 2026-09-21 by stint D (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). 0389: *sanctornm* → *sanctorum*. CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0004.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0609",
+   "find": "sitis ac famis iujuriam",
+   "replace": "sitis ac famis injuriam",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P5 · 0609 — `iujuriam` in our twin, `injuriam` on the archive plate (press/wear variant). CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0685A",
+   "find": "beati Emiliam presbiteri",
+   "replace": "beati Emiliani presbiteri",
+   "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P7 · 0685A — `Emiliam` in our twin, `Emiliani` on the archive plate (press/wear variant). CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
   }
  ]
 }

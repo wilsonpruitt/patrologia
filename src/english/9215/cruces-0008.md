@@ -341,3 +341,7 @@ No verse is quoted AS a quotation anywhere in 0439–0689. Allusions, phrase-sea
   to C's *Augustodunum*.** The brief's §6 rule: the spelling Migne prints is the text.
 - **A comma after *Fortunati* (0575) or after *Africa* / *Syriae* (0579, 0593).** Pattern 8: never
   supply.
+
+## E1 RULED (Wilson, 2026-09-22)
+The November head takes a `[cj:]`: "NOVEMBER HAS 31 DAYS. [cj: *XXXI*; read *XXX*, "thirty"]". The
+number is Migne's, printed on both copies, and the faithful English would otherwise read as our slip.
