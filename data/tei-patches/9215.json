@@ -175,6 +175,13 @@
    "find": "beati Emiliam presbiteri",
    "replace": "beati Emiliani presbiteri",
    "why": "PLATE READ 2026-09-21 by stint E (archive patrologiaecurs76unkngoog + Gallica bpt6k54939860). P7 · 0685A — `Emiliam` in our twin, `Emiliani` on the archive plate (press/wear variant). CLASS B: Gallica = our TEI prints a non-word, archive sound; RULED 2026-09-22 (Wilson): correct the Latin to the sound printing; Migne's own copies disagree, so this chooses his good copy and accuses no one. Full entry: data/briefs/9215-PENDING-TEI-PATCHES-0008.md."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0581",
+   "find": "sancti Amorosii Caturcensis",
+   "replace": "sancti Ambrosii Caturcensis",
+   "why": "PRESS VARIANT, ruled class (Wilson 2026-09-22: correct to the sound printing). Inside Bouillart's bracket at 0581. Archive patrologiaecurs76unkngoog n295 (read by sweep S5, 2026-09-22) prints Ambrosii; Gallica f291 (read by the orchestrator at 2400 px, 2026-09-22) prints the non-word Amorosii, which our TEI follows. Bouillart's keyed note on the same page names 'sanctum Ambrosium Caturcensem'."
   }
  ]
 }

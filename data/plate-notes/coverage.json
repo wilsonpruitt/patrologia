@@ -1546,14 +1546,16 @@
    "idno": "9215",
    "series": "pl",
    "volume": 124,
-   "tier": 2,
-   "coverage": "spot",
-   "notes_recovered": 0,
-   "notes_placed": 0,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 62,
+   "notes_placed": 62,
    "columns": "0009-0857 (whole work: May-December)",
-   "method": "Plate spot check at chunking, read 2026-09-21, archive patrologiaecurs76unkngoog page images. Map leaf = (col + 9)/2, calibrated at n20 = cols 31/32. Read n9, the work's opening page (SEQUITUR USUARDI MARTYROLOGIUM / MENSIS MAIUS, signature PATROL. CXXIV). Full width.",
-   "result": "Checked zero IN THE USUARDUS BAND: no keyed note. The page's NOTAE / VARIANTES LECTIONES / OBSERVATIONES are Solier's, out of scope per M0. The same read found one digitization departure, ab ense ligneo for the plate's lignato (col 0009), now data/tei-patches/9215.json.",
-   "verified": "2026-09-21"
+   "method": "EVERY page of the work read for the keyed layer (Wilson 2026-09-22: full sweep). 425 pages, archive patrologiaecurs76unkngoog leaves 9-433, map leaf = (col + 9)/2 held throughout, with one missing capture (col 327, n168, all Solier; read on Gallica f164). 105 pages opened by translating stints C-F (2026-09-21), 320 by Sonnet sweep agents S3-S6 (2026-09-22, data/briefs/9215-SWEEP-S*-PAGES.json). Second printing Gallica bpt6k54939860 (f = (col + 1)/2) read wherever the archive clipped or a mark was doubtful.",
+   "result": "62 keyed notes, all Bouillart's. Key a throughout; at 0445 the key is printed as a raised dot. Four were settled on the second printing by the orchestrator: 0689 (key and note head hidden by an archive clipped margin, sweep had recorded band, no key), 0487 (key position), 0593 (key confirmed), and 0613 (archive mark is a stray: Gallica has no key and there is no note). The same check found 0581 Amorosii/Ambrosii, a press variant, now patched.",
+   "verified": "2026-09-22",
+   "why_tier_3": "A letter layer has no numbered sequence; 'full' asserts that every page the work spans was read for it, with a per-page record. Replaces the 2026-09-21 'spot' record.",
+   "caveat": "0547 and 0833: the key opens its line, so the injector places it after the first word (one-word offset, documented). 18 sweep anchors quoted the plate's bracket lead-ins and were re-taken from our Latin 2026-09-22."
   }
  ],
  "fields": {
