@@ -1523,6 +1523,36 @@
    "coverage": "full",
    "notes_recovered": 7,
    "notes_placed": 7
+  },
+  {
+   "idno": "9198",
+   "series": "pl",
+   "volume": 123,
+   "tier": 3,
+   "coverage": "partial",
+   "notes_recovered": 2,
+   "notes_placed": 2,
+   "columns": "0599A-0987 (whole work: prologues + January-April)",
+   "method": "Plate spot check at chunking, read 2026-09-21 BEFORE translation, off archive patrologiaecurs29goog page images. Map leaf = (col + 29)/2, calibrated at the printed corners BEFORE any note was read (n310 = 591/592, n314 = 599/600, n317 = 605/606). THREE pages read: n314 (599/600, the work's opening, where the prologue-1/prologue-2 division falls MID-PAGE), n315 (601/602, the prologue/January division, also mid-page), n317 (605/606). Full page width each.",
+   "result": "NOT a checked zero. Two LETTER-layer notes by Bouillart (the 1718 Saint-Germain edition), each keyed (a) to a prologue head on n314: one mid-page under prologue 1, one at the page foot. Both prose, so [cn: a | …] with an English [nt:] twin (asterisk/letter-layer rule). n315 and n317 carry no keys in the Usuardus band.",
+   "scope": "Per translation-style.md Martyrologies M0 (Wilson 2026-09-21): Solier's NOTAE / VARIANTES LECTIONES / OBSERVATIONES / AUCTARIA that fill most of every page are OUT OF SCOPE and were not recovered. They are commentary, not the foot-note apparatus. Only keys INSIDE the full-width Usuardus band count.",
+   "mechanical_handle": "NONE. Unlike 8950, our TEI keeps no ª anchors (grep -c ª = 0 in both 9198 and 9215), so the letter layer is findable only by sampling.",
+   "why_not_tier_3": "Corrected by hand from the chunker's auto-recorded full/tier 3 (the known over-claim on a spot check that finds something, see 8996). A per-note letter layer has no sequence to verify, and only 3 of ~195 pages were read.",
+   "caveat": "The second note's key sits BEFORE 'PROLOGUS ALTER' on the plate; the injector places a key that opens its excerpt after the first word, so the chunk reads 'PROLOGUS [cn: a | …] ALTER'. Same head, same note, a one-word offset, left deliberately.",
+   "verified": "2026-09-21"
+  },
+  {
+   "idno": "9215",
+   "series": "pl",
+   "volume": 124,
+   "tier": 2,
+   "coverage": "spot",
+   "notes_recovered": 0,
+   "notes_placed": 0,
+   "columns": "0009-0857 (whole work: May-December)",
+   "method": "Plate spot check at chunking, read 2026-09-21, archive patrologiaecurs76unkngoog page images. Map leaf = (col + 9)/2, calibrated at n20 = cols 31/32. Read n9, the work's opening page (SEQUITUR USUARDI MARTYROLOGIUM / MENSIS MAIUS, signature PATROL. CXXIV). Full width.",
+   "result": "Checked zero IN THE USUARDUS BAND: no keyed note. The page's NOTAE / VARIANTES LECTIONES / OBSERVATIONES are Solier's, out of scope per M0. The same read found one digitization departure, ab ense ligneo for the plate's lignato (col 0009), now data/tei-patches/9215.json.",
+   "verified": "2026-09-21"
   }
  ],
  "fields": {

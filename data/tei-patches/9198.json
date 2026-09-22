@@ -1,0 +1,19 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 9198 (Usuardus Sangermanensis, Martyrologium 1 = prologues + January-April, PL 123), applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne.",
+ "patches": [
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0599A",
+   "find": "<div1>\n        <head>PROLOGUS AD CAROLUM CALVUM.</head>",
+   "replace": "<div1>\n<head type=\"book-title\">INCIPIT USUARDI MARTYROLOGIUM PER ANNI CIRCULUM.</head>\n        <head>PROLOGUS AD CAROLUM CALVUM.</head>",
+   "why": "TEXT LOST FROM THE DIGITIZATION, PLATE READ 2026-09-21 (archive patrologiaecurs29goog leaf n314, corners 599/600). Migne's title block, INCIPIT / USUARDI MARTYROLOGIUM / PER ANNI CIRCULUM, stands at the head of col. 599 above PROLOGUS (a) AD CAROLUM CALVUM and is absent from the TEI. Restored as a book-title banner, the 8382 precedent. Not one word of the text changed."
+  },
+  {
+   "work": "9198 Usuardus Sangermanensis, Martyrologium 1 (PL 123)",
+   "col": "0599C",
+   "find": "PROLOGUS ALTER EX LIBRIS BEATI AUGUSTINI, <hi>Qualiter",
+   "replace": "PROLOGUS ALTER EX LIBRIS BEATI AUGUSTI. <hi>Qualiter",
+   "why": "DIGITIZATION SILENTLY REPAIRED MIGNE, PLATE READ 2026-09-21 (archive patrologiaecurs29goog leaf n314, corners 599/600; map leaf = (col + 29)/2, calibrated at n310 = 591/592 and n317 = 605/606). The head of the second prologue sets 'Ex libris beati AUGUSTI.' in small caps, with a full stop, read on a full-resolution crop. Corpus Corporum prints AUGUSTINI with a comma. Augustine is plainly meant: the prologue cites Aug. l. xx contr. Faust. c. 21 in its first sentence. But the plate prints a REAL word, so this is Pattern 18 [cj:] business in the English and never a silent repair in the Latin. Punctuation restored with it (Pattern 8)."
+  }
+ ]
+}

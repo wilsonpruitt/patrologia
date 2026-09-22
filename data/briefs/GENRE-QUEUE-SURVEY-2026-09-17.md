@@ -44,12 +44,13 @@ own long tail.)
    confessor's-manual dialogue form (`sources/pl/tei/8382.xml` checked this session — no numbered
    canons in this particular text, straight `<div1>`/`<p>`). Cheapest way to prove the bucket
    ships clean with zero new machinery.
-2. **Martyrology — Usuardus Sangermanensis, *Martyrologium* (idno 9198, first recension, 8,345w;
-   idno 9215, second, 17,773w).** Checked this session (`9215.xml`): one `<div1>` per calendar day,
+2. **Martyrology — Usuardus Sangermanensis, *Martyrologium* (idno 9198 = prologues + Jan–Apr, PL 123, 8,345w;
+   idno 9215 = May–Dec, PL 124, 17,773w — ONE work split across two volumes, NOT two recensions;
+   corrected 2026-09-21).** Checked this session (`9215.xml`): one `<div1>` per calendar day,
    headed by the Roman date (`Kalendis Die 1.`, `VI Non. Die 2.`) — clean `<pb>`/`<p>` structure,
    no table markup, so the chunker should take it as-is. **New convention needed: how to render
    Kalends/Nones/Ides day-headings in English** (transliterate vs. convert to a modern date vs.
-   both) — decide before chunking, it will recur across all four martyrologies in this frontier
+   both) — ✅ RULED 2026-09-21: both, Roman first (`translation-style.md` → Martyrologies M1). Decided before chunking; it will recur across all four martyrologies in this frontier
    plus any later PL saints'-calendar work. Historically the highest-value pilot in the whole
    survey: Usuardus's martyrology is the direct ancestor of the modern Roman Martyrology, so this
    is a foundational, citable text, not an obscure one.

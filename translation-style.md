@@ -479,6 +479,58 @@ is possible, carry the non-word literally as Pattern 7 says.
   lines (one per line, in plate order) and render as the banner above the work. The title is translated in
   the English banner; shelfmarks, sigla and the bibliographic citation are carried verbatim.
 
+## Martyrologies — calendar headings (Wilson, 2026-09-21)
+
+Set for the Usuardus pilot (9198 + 9215, one work split across PL 123/124) and binding on every
+martyrology or saints'-calendar work after it (Ado, Wandalbertus, the anonymous one). Migne heads
+each day with the Roman date plus an editor's day number, under a month head:
+`MENSIS MAIUS HABET DIES XXXI.` / `VI Non. Die 2.`
+
+**M0. Scope: the martyrology's text only (Wilson, 2026-09-21).** In PL 123/124 each day's entry is
+set full width, and under it runs Solier's two-column *Observatio* (1714): his collation of the
+entry against Antwerp, Brussels, Greven, Molanus and the rest. Corpus Corporum carries only the
+full-width band. **The Observationes are not translated.** The About page says they are present in
+Migne and left out. They are commentary on the text, not Migne's foot-note apparatus, so the `[cn:]`
+recovery rule does not reach them. The plate spot check reads the full-width band for notes keyed
+INSIDE it. Map for PL 123 `patrologiaecurs29goog`: **leaf = (col + 29)/2** (n310 = cols 591/592,
+n317 = 605/606, corners read 2026-09-21).
+
+**M1. Both dates, ROMAN FIRST, then the modern date after a middle dot.** The Roman reckoning is
+part of the text and keeps the source's order. The modern date comes from Migne's own `Die n` and
+the month head, so it is a reading of the page, not a conversion of ours.
+
+    MAY HAS 31 DAYS.
+    On the Kalends · 1 May
+    The sixth day before the Nones · 2 May
+    The day before the Nones · 6 May
+    On the Nones · 7 May
+    The eighth day before the Ides · 8 May
+    On the Ides · 15 May
+    The seventeenth day before the Kalends · 16 May
+
+- Kalendis / Nonis / Idibus → **On the Kalends / On the Nones / On the Ides**.
+- A numeral n → **The nth day before the …** (inclusive Roman count, as printed; never recompute).
+- II (or *pridie*) → **The day before the …**, never "the second day before".
+- **Don't supply the month the Roman form leaves out.** After the Ides, *Kal.* means the NEXT
+  month's Kalends. The modern date already disambiguates, so the English adds no "of June".
+- Month head: *Mensis Maius habet dies XXXI* → **MAY HAS 31 DAYS.** (Arabic numerals, caps kept).
+- If `Die n` and the Roman date disagree, print the Roman date as printed, take the modern date
+  from `Die n`, and raise a crux. Never silently reconcile them.
+
+**M2. The inline Bouillart brackets are the EDITOR'S apparatus. Translate them in place, never mark
+them as ours.** Corpus Corporum keeps 93 of them in the running text (40 in 9198, 53 in 9215):
+`[Bouillart., Augendi]`, `[Bouillart. om. natalis]`, `[Interserit Bouillart.: In Mauritania
+Caesariensi, sanctae Martianae virginis et martyris]`. They give the 1718 Saint-Germain edition's
+readings, and several add whole commemorations, so an English-only reader needs them. Same class as
+the inline bracketed *Forte* (CLAUDE.md, 9004): Migne's page, not our marker.
+- Keep the square brackets and the name. Render the verb: *Bouillart., X* → **[Bouillart: X]** ·
+  *om.* → **[Bouillart omits *natalis*]** · *add.* / *Addit* → **[Bouillart adds: …]** ·
+  *Interserit* → **[Bouillart inserts: …]** · *Apud Bouillart.:* → **[In Bouillart: …]**.
+- A bare VARIANT WORD stays Latin, italic, in the case printed (*[Bouillart: Augendi]*), because it is a
+  reading, like *Forte earum*. An added CLAUSE or entry is translated in full, because it says something.
+- Leader dots inside a bracket (`. . . . .`) are carried dot for dot (E7).
+- ⛔ No `[sic:]`, `[var:]` or `[cj:]` on a Bouillart reading. It is a witness, not a defect.
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"

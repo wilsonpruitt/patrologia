@@ -1,5 +1,42 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-21) — USUARDUS *MARTYROLOGIUM* (9198 + 9215) · PREPARED, THE RUN IS A HARD STOP
+
+**Chunked, patched, spot-checked, conventions ruled. Nothing is translated yet.** The next step
+is the translation run, which needs Wilson's model + go (est. ~2.5–3M tokens, see below).
+
+- ⚑ **The survey was wrong: 9198 and 9215 are ONE work split across two tomes, not two
+  recensions.** 9198 = PL 123 cols 599A–987, the two prologues + Jan–Apr (7 chunks, 8.6K w).
+  9215 = PL 124 cols 9–857, May–Dec (15 chunks, 18.1K w). The PL 124 plate itself says
+  *SEQUITUR USUARDI MARTYROLOGIUM*. The pipeline keeps two idnos (two pages); cross-link them at ship.
+- **Rulings (Wilson, 2026-09-21), `translation-style.md` → Martyrologies:**
+  - **M0 scope: Usuardus's text only.** Every page is mostly Solier's two-column NOTAE /
+    VARIANTES LECTIONES / OBSERVATIONES / AUCTARIA, which Corpus Corporum doesn't carry. They're
+    not translated, and the About page must say they are in Migne and left out.
+  - **M1 day heads: both dates, Roman first.** *VI Non. Die 2.* → "The sixth day before the Nones · 2 May".
+  - M2 (mine, from the M0 logic; Wilson can overrule): the **93 inline `[Bouillart …]`
+    brackets** are the editor's apparatus. They're translated in place and never marked.
+- **Plate work (maps calibrated at the printed corners):**
+  - PL 123 `patrologiaecurs29goog` leaf = (col+29)/2.
+  - PL 124 `patrologiaecurs76unkngoog` leaf = (col+9)/2.
+  - Four pages read in total.
+  - **9198: 2 Bouillart letter notes** on the prologue page, injected as `[cn: a | …]`, and each
+    needs an English `[nt:]` twin. Coverage is hand-corrected from the auto `full` to `partial`.
+    The 2nd note's key sits one word late (after PROLOGUS), deliberately.
+  - **9215: spot, zero in the band.**
+  - **No ª anchors survive in the TEI**, so the letter layer can only be found by sampling.
+- **4 TEI patches:**
+  - Two title banners restored (INCIPIT… / SEQUITUR…).
+  - 9215 0009 *ligneo* → plate *lignato*.
+  - **9198 0599C *AUGUSTINI,* → plate *AUGUSTI.***: CC had silently repaired Migne. It's a REAL
+    word, so the stint should weigh a `[cj:]` on the head (Augustine meant; the prologue cites
+    *contra Faustum*).
+- **The run, when authorized:** 22 chunks, ~26.7K w, about 2× Egbert. Egbert's measured burn was
+  ~875K in stints + ~390K for the blind read, so estimate **~1.8M stints + ~0.8M readers**. Stints
+  read their own plates inline (the band is sparse, ~20 words/col, so page reads are cheap in
+  words but numerous). Style anchor: pick one of the Egbert chunks or `src/latin/9215/0000.md`
+  once its English exists.
+
 ## ▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-19) — EGBERT *POENITENTIALE* (8382) · ✅ LIVE ON migne.app
 
 ✅ **Deployed 2026-09-19** (`migne-lf28n5m0j`), smoke-tested on the ALIAS: `/`, `/pl/89/poenitentiale/`,

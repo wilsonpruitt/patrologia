@@ -1,0 +1,19 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 9215 (Usuardus Sangermanensis, Martyrologium 2 = May-December, PL 124), applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne.",
+ "patches": [
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0009",
+   "find": "<div1>\n        <head>MENSIS MAIUS HABET DIES XXXI.</head>",
+   "replace": "<div1>\n<head type=\"book-title\">SEQUITUR USUARDI MARTYROLOGIUM.</head>\n        <head>MENSIS MAIUS HABET DIES XXXI.</head>",
+   "why": "TEXT LOST FROM THE DIGITIZATION, PLATE READ 2026-09-21 (archive patrologiaecurs76unkngoog leaf n9). The volume's resumption banner, SEQUITUR / USUARDI MARTYROLOGIUM., stands above MENSIS MAIUS and is absent from the TEI. Restored as a book-title banner, the 8382 precedent. It is also the plate's own statement that 9215 CONTINUES 9198, one work across two tomes."
+  },
+  {
+   "work": "9215 Usuardus Sangermanensis, Martyrologium 2 (PL 124)",
+   "col": "0009",
+   "find": "ab ense ligneo",
+   "replace": "ab ense lignato",
+   "why": "DIGITIZATION MISREADING, PLATE READ 2026-09-21 (archive patrologiaecurs76unkngoog leaf n9, the opening page of the work: SEQUITUR USUARDI MARTYROLOGIUM / MENSIS MAIUS, signature PATROL. CXXIV at the foot; map leaf = (col + 9)/2, calibrated at n20 = cols 31/32). Kalends of May, the Andeolus entry: the plate sets 'et sic demum ab ense lignato, in crucis modum caput ejus scindi', read on a full-resolution crop of the full-width Usuardus band. Corpus Corporum has 'ligneo'. One word, one site."
+  }
+ ]
+}
