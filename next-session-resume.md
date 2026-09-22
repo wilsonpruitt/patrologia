@@ -1,5 +1,40 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-22) — USUARDUS 9198 + 9215 · TRANSLATED, NOTES DONE, BLIND READ RUNNING · SHIP OWED
+
+**All 22 chunks are translated and merged, and verify + plate-gate are OK on both.** Every page of
+both volumes has been read for Bouillart's keyed notes: 9198 has 40 (39 placed; 0769 has no findable
+key), and 9215 has 62, all placed. Every note has its English `[nt:]` twin. Coverage is `full` on both.
+
+**In flight when this was written:**
+- **(a) Note garble check:** `data/briefs/USUARDUS-NOTE-GARBLE-CHECK.md` gives ~50 odd forms in the
+  notes, each to be settled at the plate as Migne's or ours. Verdicts go to
+  `USUARDUS-NOTE-GARBLE-VERDICTS.md`.
+- **(b) Blind read, R1–R5:** `data/briefs/USUARDUS-BLIND-READ-BRIEF.md`, with reports at
+  `data/briefs/USUARDUS-BLIND-READ-R{1..5}.md`.
+
+**To finish:**
+1. Adjudicate and apply the blind-read findings. Record the merge layer in each work's `cruces.md`.
+2. Re-run `chunk-work` for both works if any TSV changed. Then `verify-english`, `plate-gate`, and the
+   frontmatter sync.
+3. Mark both works `ours` (never touch `workStatus`: both are `none`, so the badge reads "First").
+   Write the bio and about text, including the M0 line that says Solier's Observationes are present
+   in Migne and left out. Cross-link 9198 ↔ 9215 as one work.
+4. `node scripts/build-site.mjs 9198 9215` → `node scripts/preflight.mjs` → **the deploy needs
+   Wilson's OK**. Then smoke-test on the ALIAS.
+
+**Rulings this run (Wilson):**
+- M0: the text only; Solier's Observationes are out of scope.
+- M1: day heads carry both dates, Roman first.
+- PL 124 press variants: the Latin is corrected to the sound printing.
+- The November XXXI head takes a `[cj:]`.
+- The full Bouillart sweep, on Sonnet.
+- **BIAS TO EXHAUSTIVENESS** (CLAUDE.md), and the scan is downloaded once (runbook 4a‴).
+
+**Scans are now ON DISK:**
+- `raw/scans/pl123/patrologiaecurs29goog.pdf`, PDF page = (odd col + 29)/2 + 1.
+- `raw/scans/pl124/patrologiaecurs76unkngoog.pdf`, PDF page = (odd col + 9)/2 + 1.
+
 ## ▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-21) — USUARDUS *MARTYROLOGIUM* (9198 + 9215) · PREPARED, THE RUN IS A HARD STOP
 
 **Chunked, patched, spot-checked, conventions ruled. Nothing is translated yet.** The next step
