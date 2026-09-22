@@ -27,3 +27,16 @@ keyed notes: every page was read, and all 62 are placed. Stint working files: `c
   plate as *assimilis* on both printings. The sense arguably wants *dissimilis*, since Bouillart is
   explaining how Castellanus mistook the hand. A `[cj:]` cannot stand inside an `[nt:]`, so the
   literal rendering stands and the doubt is logged here.
+
+## Note proofread against the plate (2026-09-22)
+All 62 notes read word for word against the printed page (`data/briefs/USUARDUS-NOTE-PROOFREAD-P{3,4}.md`),
+after the 0487 line-loss was found. **No other note had lost a clause or a line.** Corrections were
+italics Migne sets and our transcription flattened, small-cap numerals, and three word errors:
+- 0247 *lituram* → *litura*, and a stray *hoc* **picked up from the facing column's first line** —
+  the gutter hazard producing an ADDITION, not a loss.
+- 0309 *litura superinducta* → *liturae*.
+- 0411 *Augustoduni fuerat* → *erant* (plural subject, *duobus monasteriis*).
+- 0309 *Sollarius* stands: both printings print it, so it is Migne's.
+- Ligatures in the note texts normalized to plain letters (ae, oe), our standing convention.
+- ⚑ Left for a later pass: the English twins mark a quoted codex reading inconsistently, some with
+  italics and some with single quotes. Cosmetic, and not worth touching the 101 twins for now.
