@@ -1,0 +1,17 @@
+{
+  "_note": "Stint-scoped plate-read record for 7091 chunks 0000-0001 (stint T7). MERGE INTO data/plate-reads.json under works.7091. Every page opened once at 300 dpi full width, corners read first, text (Latin and Greek) collated and all foot notes read in the same visit; 600 dpi on p. 320 where letters were in doubt. p. 324 (cols 637/638) opened and holds no 7091 text (Sirmond's notes, Zosimus).",
+  "7091": {
+    "series": "pl",
+    "volume": 20,
+    "scan": "raw/scans/pl020/pl020.pdf",
+    "page_map": "PDF page = floor((column + 11) / 2)",
+    "reads": [
+      { "page": 319, "cols": ["0627","0628"], "from": "0627D", "to": "0628D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "Monitum opening; no notes; factorumque as printed" },
+      { "page": 320, "cols": ["0629","0630"], "from": "0629A", "to": "0630D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-b (a placed by eye in the Ep. I head; b text corrected to Greek); TEI INOCENTII for plate INNOCENTII" },
+      { "page": 321, "cols": ["0631","0632"], "from": "0631A", "to": "0632D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-d (c, d placed by eye; b text corrected to Greek); Greek ano teleia printed where TEI has ';' twice" },
+      { "page": 322, "cols": ["0633","0634"], "from": "0633A", "to": "0634C", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-g; f key one word early in TEI (moved); a text nec/ne corrected; Greek ';' for '·' once" },
+      { "page": 323, "cols": ["0635","0636"], "from": "0635A", "to": "0636A", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "note a (Ep. IV); TEI agrees; rest of page is Sirmond's notes, not 7091" },
+      { "page": 324, "cols": ["0637","0638"], "from": "0637A", "to": "0638D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "no 7091 text on this page" }
+    ]
+  }
+}

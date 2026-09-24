@@ -1,0 +1,208 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 7090, applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne. Held (worn glyph, need second witness): 0545A impletas, 0575B misimus.",
+ "patches": [
+  {
+   "col": "0468B",
+   "find": "latam tradunt curiae",
+   "replace": "latam tradant curiae",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0474A",
+   "find": "virum</hi> Et iterum",
+   "replace": "virum</hi>. Et iterum",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0481B",
+   "find": "Epistolam hauc alii",
+   "replace": "Epistolam hanc alii",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0485B",
+   "find": "asseclas indulgetiam\nnunc",
+   "replace": "asseclas indulgentiam\nnunc",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0486A",
+   "find": "quae haectenus usurpata",
+   "replace": "quae hactenus usurpata",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0489A",
+   "find": "scripta, sint, accipiant",
+   "replace": "scripta sint, accipiant",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0490B",
+   "find": "reprebendimus",
+   "replace": "reprehendimus",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0492B",
+   "find": "Quales vero elegendi sint",
+   "replace": "Quales vero eligendi sint",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0498A",
+   "find": "remittetur. Ita ut de caetero",
+   "replace": "remittetur, ita ut de caetero",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0502A",
+   "find": "ipsorummel sententia",
+   "replace": "ipsorummet sententia",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0502A",
+   "find": "aecumenica synodus",
+   "replace": "oecumenica synodus",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0506A",
+   "find": "βεῳαιότητα",
+   "replace": "βεβαιότητα",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0526A",
+   "find": "anima illa sola,\nquae peceaverat",
+   "replace": "anima illa sola,\nquae peccaverat",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0525B",
+   "find": "</foreign>:\n<pb n=\"0525C\"/>",
+   "replace": "</foreign>\n<pb n=\"0525C\"/>",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0529A",
+   "find": "unius axoris virum",
+   "replace": "unius uxoris virum",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0530A",
+   "find": "qualibet\nratione cripuerit",
+   "replace": "qualibet\nratione eripuerit",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0540A",
+   "find": "communionem expelere festinavit",
+   "replace": "communionem expetere festinavit",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0558A",
+   "find": "nisi episcopus\nanctoritatem dederit",
+   "replace": "nisi episcopus\nauctoritatem dederit",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0560A",
+   "find": "et orent super\ncum, ungentes",
+   "replace": "et orent super\neum, ungentes",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0571A",
+   "find": "dignatur, auctoritate sanctitatis\ntuae",
+   "replace": "dignatur, auctoritati sanctitatis\ntuae",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0582A",
+   "find": "sententiam laudet et confirmat",
+   "replace": "sententiam laudat et confirmat",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0582A",
+   "find": "OCTAVIANO, PRAETENTATO, SIXTO",
+   "replace": "OCTAVIANO, PRAETEXTATO, SIXTO",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0583B",
+   "find": "constabilita regulis.\n<pb n=\"0583C\"/>",
+   "replace": "constabilita regulis\n<pb n=\"0583C\"/>",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0592A",
+   "find": "prava doctrina\nceferi veritatis",
+   "replace": "prava doctrina\nceleri veritatis",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0597B",
+   "find": "Innocentius familiaritae resalutat",
+   "replace": "Innocentius familiariter resalutat",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0598A",
+   "find": "ab ejus commmunione abstinebant",
+   "replace": "ab ejus communione abstinebant",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0607A",
+   "find": "nostris litteris admonium te",
+   "replace": "nostris litteris admonitum te",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0608A",
+   "find": "Tuum est, trater charissime",
+   "replace": "Tuum est, frater charissime",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  },
+  {
+   "col": "0609A",
+   "find": "sed it, solis Christianis",
+   "replace": "sed in solis Christianis",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Epistolae et decreta (PL 20)"
+  }
+ ]
+}

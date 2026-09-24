@@ -28,7 +28,7 @@ const MAX = Number(argVal('--max', 1600));
 const ROOT = path.join(import.meta.dirname, '..');
 const teiPath = path.join(ROOT, 'sources/pl/tei', `${idno}.xml`);
 const works = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/works.json'), 'utf8'));
-const work = works.works.find(w => w.texts?.some(t => String(t.idno) === String(idno)));
+let work = works.works.find(w => w.texts?.some(t => String(t.idno) === String(idno)));
 if (!work) { console.error(`text idno ${idno} not found in works.json`); process.exit(1); }
 const textRec = work.texts.find(t => String(t.idno) === String(idno));
 
@@ -53,6 +53,13 @@ if (fs.existsSync(patchPath)) {
     xml = xml.replace(p.find, p.replace);
   }
   console.log(`applied ${patches.length} TEI patch(es) from data/tei-patches/${idno}.json`);
+}
+// Byline override (translation-style.md P2): a work Migne prints under an ascription we treat as
+// pseudonymous credits a distinct author key, keyed by workIdno. authorIdno stays as triage had it.
+const ovPath = path.join(ROOT, 'data/author-overrides.json');
+if (fs.existsSync(ovPath)) {
+  const ov = JSON.parse(fs.readFileSync(ovPath, 'utf8'))[String(work.workIdno)];
+  if (ov) work = { ...work, attributions: (work.attributions ?? [{}]).map((a, i) => (i === 0 ? { ...a, author: ov } : a)) };
 }
 const { errors, warnings, chunks, manifest } = chunkWork({ xml, work, textRec, idno, target: TARGET, max: MAX });
 

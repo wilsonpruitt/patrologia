@@ -1,0 +1,28 @@
+{
+  "_note": "Stint-scoped plate-read record for 7090 chunks 0006-0011 (stint T2). MERGE INTO data/plate-reads.json under works.7090. Every page opened once at 300 dpi full width, corners read first, text collated and all foot notes read in the same visit; 600 dpi crops where a letter or digit was in doubt.",
+  "7090": {
+    "series": "pl",
+    "volume": 20,
+    "scan": "raw/scans/pl020/pl020.pdf",
+    "page_map": "PDF page = floor((column + 11) / 2)",
+    "reads": [
+      { "page": 249, "cols": ["0487","0488"], "from": "0488A", "to": "0488D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "col 0488 only is in this stint (0487 = T1); note e ok" },
+      { "page": 250, "cols": ["0489","0490"], "from": "0489A", "to": "0490D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-i complete; h placed; i completed from p.251; plate scripta sint (TEI scripta, sint), reprehendimus (TEI reprebendimus)" },
+      { "page": 251, "cols": ["0491","0492"], "from": "0491A", "to": "0492D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-i complete; d completed; editiotiones is Migne's (sic); plate eligendi (TEI elegendi)" },
+      { "page": 252, "cols": ["0493","0494"], "from": "0493A", "to": "0494D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-d complete; text matches" },
+      { "page": 253, "cols": ["0495","0496"], "from": "0495A", "to": "0496D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-k complete; c, f placed; a, b corrected" },
+      { "page": 254, "cols": ["0497","0498"], "from": "0497A", "to": "0498D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-g complete; c, d placed; e truncated as printed; plate remittetur, ita (TEI remittetur. Ita)" },
+      { "page": 255, "cols": ["0499","0500"], "from": "0499A", "to": "0500D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-d complete; unkeyed paragraph = run-on of a; text matches" },
+      { "page": 256, "cols": ["0501","0502"], "from": "0501A", "to": "0502D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-g complete; e moved after Martias; plate ipsorummet, oecumenica (TEI ipsorummel, aecumenica)" },
+      { "page": 257, "cols": ["0503","0504"], "from": "0503A", "to": "0504D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-c complete; stray raised d inside note c quotation is Migne's; text matches" },
+      { "page": 258, "cols": ["0505","0506"], "from": "0505A", "to": "0506D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-d complete; a restored (sweep eye-skip); Greek plate βεβαιότητα (TEI βεῳαιότητα)" },
+      { "page": 259, "cols": ["0507","0508"], "from": "0507A", "to": "0508D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-f complete; text matches" },
+      { "page": 260, "cols": ["0509","0510"], "from": "0509A", "to": "0510D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-f complete; text matches" },
+      { "page": 261, "cols": ["0511","0512"], "from": "0511A", "to": "0512D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-e complete; a, e placed; c moved after scriptae and completed" },
+      { "page": 262, "cols": ["0513","0514"], "from": "0513A", "to": "0514D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-e complete; c placed; text matches" },
+      { "page": 263, "cols": ["0515","0516"], "from": "0515A", "to": "0516D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-g complete; e placed; a ending corrected, anno 413; g runs onto p.264" },
+      { "page": 264, "cols": ["0517","0518"], "from": "0517A", "to": "0518D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "notes a-m complete; b placed (anno 453); h prints Paschu; text matches" },
+      { "page": 265, "cols": ["0519","0520"], "from": "0519A", "to": "0519A", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "only 0519A (to end of Ep. XV) is this stint's; note a moved after gratiae; notes b-j belong to chunk 0012" }
+    ]
+  }
+}

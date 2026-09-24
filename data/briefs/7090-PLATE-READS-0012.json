@@ -1,0 +1,140 @@
+{
+ "_note": "Stint T3 plate reads for 7090 chunks 0012-0017 (cols 0519B-0544A). Merge into data/plate-reads.json works.7090.reads[].",
+ "series": "pl",
+ "volume": 20,
+ "scan": "raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina, Patrologia Latina Vol. 20.pdf), pdftoppm -r 300, spot zooms at 400/600 dpi; renders deleted after use.",
+ "page_map": "PDF page = (col + 11)/2, confirmed on every page by the printed corner numbers (p.265 = 519/520 ... p.277 = 543/544).",
+ "second_witness": "none used. No [sic:] fired on a single letter; the one [sic:] (0525A Macedodonas) is a whole-syllable doubling at a line break visible on the plate.",
+ "reads": [
+  {
+   "from": "519A",
+   "to": "520D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p265",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.265, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 519/520. Keys b–j (a belongs to chunk 0011: Ep. XV close). b (EPISTOLA XVI) and i (aut ille sic) placed by hand; c, e, h note text corrected (Nonnulli autem ut apud Merlin. sentence restored; respuenda; revocatur; pag. 1251 read at 600 dpi). Key sequence a–j gapless (j used as a key letter after i). Text collated: no divergence in the letter."
+  },
+  {
+   "from": "521A",
+   "to": "522D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p266",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.266, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 521/522. One key only (a, augerentur), matching our [cn: a]; tail of note j from p.265 at foot. Monitum §§1–3 collated: Navatianos, Anisii, Bonosio are the plate's forms (= TEI)."
+  },
+  {
+   "from": "523A",
+   "to": "524D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p267",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.267, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 523/524. NO foot notes on this page (checked zero). Monitum §§4–6 collated; no divergence found."
+  },
+  {
+   "from": "525A",
+   "to": "526D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p268",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.268, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 525/526. Keys a, b only. a (EPISTOLA XVII) and b (INNOCENTIUS inscription) placed by hand. The sweep's \"c\" (dici concinit) is the middle of b, not a key. Text: Macedo-|donas at a line break (Migne's doubling); plate has no colon after χειροθετουμένους (TEI stray); χειρονουμένους printed (400 dpi); peccaverat (TEI peceaverat)."
+  },
+  {
+   "from": "527A",
+   "to": "528D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p269",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.269, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 527/528. Keys a–h gapless; a text corrected (Eustathium, Macedoniane, Marciani, finitimi ac vicini Bonoso); tail of p.268 note b at head of foot; d completed (continues ...ante baptismum. Probabile autem est ... tractantur.); b read reperiremus."
+  },
+  {
+   "from": "529A",
+   "to": "530D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p270",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.270, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 529/530. Keys a–j gapless. j (in dante remanserat) was MISSED by the sweep; added to 0015. i: sweep text carried a stray tail that the injector left in the Latin; removed. Text: plate uxoris (TEI axoris, 0529A), eripuerit (TEI cripuerit, 0530A)."
+  },
+  {
+   "from": "531A",
+   "to": "532D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p271",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.271, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 531/532. Keys a–g gapless. c text corrected (ab Apostolis apostolicisve viris); e corrected (Jam e Siricii). honor.m at 0531A worn (a/e uncertain)."
+  },
+  {
+   "from": "533A",
+   "to": "534D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p272",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.272, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 533/534. Keys a–f gapless. d (damnatum) placed by hand; c completed from the foot (convincitur fuisse perversus ... inveniat.) and a sweep commentary string removed from the Latin note."
+  },
+  {
+   "from": "535A",
+   "to": "536D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p273",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.273, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 535/536. Keys a–h gapless. d (inultum solet) and e (et vel veniam) placed by hand; c (Docet quippe; Et hic igitur), d (disciplinam), e (quem reum non esse contestamini), g (initium), h (quod in altero) text corrected."
+  },
+  {
+   "from": "537A",
+   "to": "538D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p274",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.274, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 537/538. Keys a–n gapless. a was a duplicate of e in the injected Latin; replaced with the plate's real note a (Verbum aestimatur ...). e moved from after \"non fictam\" to the plate key after \"reparatus\". f (Flavio Constantio) placed by hand. g completed (tractaretur ... facerent.); m (Illius), l (Hadrianus II), h (nec omnes) corrected."
+  },
+  {
+   "from": "539A",
+   "to": "540D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p275",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.275, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 539/540. Keys a–c; c (EPISTOLA XIX) matches. Col 540 carries no key. b corrected (socientur)."
+  },
+  {
+   "from": "541A",
+   "to": "542D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p276",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.276, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 541/542. Keys a–h gapless. h moved from before \"Subscripserunt\" to the plate key after it. a (exprimat, duas, successit), b (precationibus) corrected."
+  },
+  {
+   "from": "543A",
+   "to": "544D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p277",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.277, 300 dpi, six tiles (three per column, full page width for the foot); printed corners read first.",
+   "found": "Corners 543/544. Keys a–g gapless (g belongs to Ep. XXII, chunk 0018). a (EPISTOLA XX) and c (EPISTOLA XXI) placed by hand. d has one worn word (ro....i in synodo), left unread. f corrected (cognoscat, Nicephorum)."
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 7089, applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne. Held (worn glyph, need second witness): 0545A impletas, 0575B misimus.",
+ "patches": [
+  {
+   "col": "0623C",
+   "find": "singularem\nepitolam de Nicaenis",
+   "replace": "singularem\nepistolam de Nicaenis",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Innocentius I, Decreta (PL 20)"
+  }
+ ]
+}

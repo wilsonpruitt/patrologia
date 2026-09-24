@@ -1,0 +1,149 @@
+{
+  "_note": "Stint-scoped plate reads for 7090 chunks 0000-0005 (cols 0463D-0488A), stint T1. Merge into data/plate-reads.json works.7090.reads[].",
+  "series": "pl",
+  "volume": 20,
+  "scan": "raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina, Patrologia Latina Vol. 20.pdf), pdftoppm 300 dpi, one page at a time; 400 dpi re-renders for single words and digits.",
+  "page_map": "PDF page = (col + 11)/2, confirmed by the printed corner numbers on every page 237-250 (p. 245's left corner prints 379 for 479, Migne's misprint).",
+  "reads": [
+    {
+      "from": "0463",
+      "to": "0464",
+      "page": 237,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 463/464. Page is mostly Coustant's Prolegomena; Epistle I head and incipit at foot of right col (0463D). Notes a–i key the Prolegomena (out of scope); a second (a), keyed to the EPISTOLA I head, belongs to this work and was placed in the Latin head of 0000 (sweep had filed it as out of scope)."
+    },
+    {
+      "from": "0465",
+      "to": "0466",
+      "page": 238,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 465/466. Text collated 0464D–0466D. One note (a), on 'viro optimo', present and correct. 0466B prints 'asbcessurus' (Migne's type; [sic:] fired)."
+    },
+    {
+      "from": "0467",
+      "to": "0468",
+      "page": 239,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 467/468. Text collated 0466D–0468B; no foot notes on this page (checked zero). 0468B plate 'tradant' vs TEI 'tradunt' (patch filed)."
+    },
+    {
+      "from": "0469",
+      "to": "0470",
+      "page": 240,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 469/470. Notes a–k, sequence complete. a, b, k placed by hand; c corrected (Latin carried the anchor, not the note); d, g, j moved to printed key; f completed."
+    },
+    {
+      "from": "0471",
+      "to": "0472",
+      "page": 241,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 471/472. Notes a–i, sequence complete. d, e, i placed by hand; h moved from i's key to its own; b, c moved to printed key; e and i completed (i runs to p. 242)."
+    },
+    {
+      "from": "0473",
+      "to": "0474",
+      "page": 242,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 473/474. Notes a–g, sequence complete. a, b, e, g placed by hand (a keyed at 'apostolicam, sicut synodus statuit', not at 0470A as the unplaced list said); a completed; g runs to p. 243. 0474A plate prints a stop after 'Unius uxoris virum' (patch filed)."
+    },
+    {
+      "from": "0475",
+      "to": "0476",
+      "page": 243,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 475/476. Notes a–h, sequence complete. e, g, h placed by hand; f moved to printed key."
+    },
+    {
+      "from": "0477",
+      "to": "0478",
+      "page": 244,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 477/478. Notes a–g, sequence complete; g truncated at page foot ('cum et an-') and completed from p. 245. 0477A plate prints 'nom estis' (400 dpi; [sic:] fired)."
+    },
+    {
+      "from": "0479",
+      "to": "0480",
+      "page": 245,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 379 (Migne's misprint for 479)/480. Notes a–h, sequence complete; top of foot area carries the end of p. 244's note g. All present and at printed keys."
+    },
+    {
+      "from": "0481",
+      "to": "0482",
+      "page": 246,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 481/482. Notes a–b, sequence complete. 0481B plate 'hanc' vs TEI 'hauc' (patch filed)."
+    },
+    {
+      "from": "0483",
+      "to": "0484",
+      "page": 247,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 483/484. Text collated 0482D–0484D; no foot notes on this page (checked zero)."
+    },
+    {
+      "from": "0485",
+      "to": "0486",
+      "page": 248,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 485/486. Notes a–e, sequence complete, all at printed keys. 0485B 'indulgen-|tiam' and 0486A 'hactenus' on the plate (patches filed)."
+    },
+    {
+      "from": "0487",
+      "to": "0488",
+      "page": 249,
+      "depth": "full",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "full",
+      "found": "Corners 487/488. Notes a–e, sequence complete. c completed from the right foot column (our Latin had a placeholder); d corrected 'supprimi'. Note e keys 0488A §3 ('Num quod non aliquid'), which falls in chunk 0006 (T2): not placed by T1."
+    },
+    {
+      "from": "0489",
+      "to": "0490",
+      "page": 250,
+      "depth": "notes-only",
+      "date": "2026-09-24",
+      "corners_checked": true,
+      "result": "partial",
+      "found": "Corners 489/490. Opened only to confirm no note from p. 249 runs over: p. 250's notes begin afresh at (a). Text not collated (T2's range)."
+    }
+  ]
+}

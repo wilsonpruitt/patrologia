@@ -1,0 +1,110 @@
+{
+ "_note": "Stint T5 plate reads for 7090 chunks 0024-0027 (cols 0576B-0594A). Merge into data/plate-reads.json works.7090.reads[].",
+ "series": "pl",
+ "volume": 20,
+ "scan": "raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina, Patrologia Latina Vol. 20.pdf), pdftoppm -r 300, four full-width tiles per page, spot zooms at 300/400 dpi; renders deleted after use.",
+ "page_map": "PDF page = (col + 11)/2, confirmed on every page by the printed corner numbers (p.293 = 575/576 ... p.302 = 593/594).",
+ "second_witness": "none used. One [sic:] fired on a whole-word non-word (beattiudini, printed so and identical in our TEI) and one on a split word (in quam); no [sic:] on a single worn letter.",
+ "reads": [
+  {
+   "from": "575A",
+   "to": "576D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p293",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.293, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 575/576. Keys a-d; a,b key col 575/576A (chunk 0023, T4); c,d mine: placement and text match the plate. Collated from 'De hac gratia' (0576A): no divergence; 0576D 'evacuatum' prints like 'evacuutum' (worn glyph), crux only."
+  },
+  {
+   "from": "577A",
+   "to": "578D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p294",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.294, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 577/578. Keys a-c gapless. a (unplaced) placed at 'Num enim'; b, c text and placement verified. Text collated: no divergence."
+  },
+  {
+   "from": "579A",
+   "to": "580D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p295",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.295, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 579/580. Keys a-i gapless. c moved to 'discat | Ecclesiae', i moved to 'nunc | per'; h (unplaced) placed at 'et a | via reproba'; note e 'c. 52' read 'c. 32'; note b 'induguae' read 'indiguae' (400 dpi). 'beattiudini' is on the plate (Migne's type)."
+  },
+  {
+   "from": "581A",
+   "to": "582D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p296",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.296, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 581/582. Keys a-h gapless. a (unplaced) placed; h moved from the section head into the text ('In | requirendis'); note b 'Augusti.' prints 'Auguts.'. Head of Ep. XXIX prints 'laudat' (TEI 'laudet'); inscription prints 'Praetextato' (TEI 'PRAETENTATO'): patches filed."
+  },
+  {
+   "from": "583A",
+   "to": "584D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p297",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.297, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 583/584. Keys a-h gapless. b moved to before Migne's '[Forte leg. praeciperent]'. Plate has no stop after 'regulis' (TEI 'regulis.'): patch filed. Note c 'parete' ambiguous at zoom, left."
+  },
+  {
+   "from": "585A",
+   "to": "586D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p298",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.298, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 585/586. Keys a-k gapless. 8 keys moved one word later (b,c,d,e,f,i,j,k; i out of the '## 6.' head); g (unplaced) placed at 'tantum in | sua'."
+  },
+  {
+   "from": "587A",
+   "to": "588D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p299",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.299, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 587/588. Keys a-k gapless. g and d moved; k (unplaced) placed in head EPISTOLA XXX; note a 'matius' prints 'matilus'. Gutter letter prints C twice in the lower half (no D), matching our doubled [0587C]/[0588C]."
+  },
+  {
+   "from": "589A",
+   "to": "590D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p300",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.300, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 589/590. Keys a-m gapless. c, e, h, k moved. 'in quam' (for inquam) printed split: [sic:]."
+  },
+  {
+   "from": "591A",
+   "to": "592D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p301",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.301, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 591/592. Keys a-o gapless. b,c,d,f,h,i,j,k,l,m moved; n (unplaced) placed after (Rom. I, 32) and its truncated text completed; 'celeri' on plate (TEI 'ceferi'): patch filed."
+  },
+  {
+   "from": "593A",
+   "to": "594A",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p302",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.302, 300 dpi, four full-width tiles; printed corners read first.",
+   "found": "Corners 593/594. Keys a-n gapless; a-g in this range (a,b,c moved; f placed in head EPISTOLA XXXI; g moved before the comma), h-n key col 594 (chunk 0028, T6). Notes e, f text corrected (adjectum; autem). Col 594 text not collated by this stint (T6)."
+  }
+ ]
+}

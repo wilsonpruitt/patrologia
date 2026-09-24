@@ -1,0 +1,33 @@
+{
+ "note": "Corrections to the Corpus Corporum TEI for 7091, applied by chunk-work.mjs BEFORE the transform. These correct the DIGITIZATION, never Migne. Held (worn glyph, need second witness): 0545A impletas, 0575B misimus.",
+ "patches": [
+  {
+   "col": "0629",
+   "find": "INOCENTII ARCHIEPISCOPI",
+   "replace": "INNOCENTII ARCHIEPISCOPI",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Ps.-Innocentius I, Epistolae (PL 20)"
+  },
+  {
+   "col": "0632C",
+   "find": "ἀξίωμα βιωτικόν τινα ὠφελῆσαι;",
+   "replace": "ἀξίωμα βιωτικόν τινα ὠφελῆσαι·",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Ps.-Innocentius I, Epistolae (PL 20)"
+  },
+  {
+   "col": "0632C",
+   "find": "ἐγγραφέσθω\nτοῖς ἱεροῖς διπτύχοις;",
+   "replace": "ἐγγραφέσθω\nτοῖς ἱεροῖς διπτύχοις·",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Ps.-Innocentius I, Epistolae (PL 20)"
+  },
+  {
+   "col": "0634A",
+   "find": "οὔτε νόμοι κολάζουσιν;",
+   "replace": "οὔτε νόμοι κολάζουσιν·",
+   "why": "Corpus Corporum transcription error against the plate, read at the plate 2026-09-24 by the Innocent I translating stints (pl020.pdf). Never Migne's type. See data/briefs/*PENDING-TEI-PATCHES*.",
+   "work": "Ps.-Innocentius I, Epistolae (PL 20)"
+  }
+ ]
+}

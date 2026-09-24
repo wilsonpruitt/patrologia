@@ -1,0 +1,14 @@
+{
+  "_note": "Stint-scoped plate-read record for 7089 chunks 0000-0001 (stint T7). MERGE INTO data/plate-reads.json under works.7089. Every page opened once at 300 dpi full width, corners read first, text collated and foot of page checked in the same visit. Pages 319-320 shared with 7091 (read once).",
+  "7089": {
+    "series": "pl",
+    "volume": 20,
+    "scan": "raw/scans/pl020/pl020.pdf",
+    "page_map": "PDF page = floor((column + 11) / 2)",
+    "reads": [
+      { "page": 317, "cols": ["0623","0624"], "from": "0623C", "to": "0624D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "no foot notes; one TEI divergence (epitolam/epistolam, 0623C)" },
+      { "page": 318, "cols": ["0625","0626"], "from": "0625A", "to": "0626D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "no foot notes; TEI agrees" },
+      { "page": 319, "cols": ["0627","0628"], "from": "0627A", "to": "0628D", "depth": "full", "date": "2026-09-24", "corners_checked": true, "found": "no foot notes for 7089; TEI agrees; 7091 Monitum begins at foot" }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+ "_note": "Stint T6 plate reads for 7090 chunks 0028-0031 (cols 0594B-0612C). Merge into data/plate-reads.json works.7090.reads[].",
+ "series": "pl",
+ "volume": 20,
+ "scan": "raw/scans/pl020/pl020.pdf, pdftoppm -r 300, renders deleted after use.",
+ "page_map": "PDF page = (col + 11)/2, confirmed on every page by the printed corner numbers.",
+ "second_witness": "none used; no [sic:] fired.",
+ "reads": [
+  {
+   "from": "593A",
+   "to": "594D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p302",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.302, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 593/594. Keys f,g belong to chunk 0027 (Ep. XXXI head and inscription); h-n are T6's: h,j,k,l,m moved to the printed key positions, i placed by hand (was unplaced). Sequence a-n gapless. Text of Ep. XXXI §§1-2 collated from 0594A: no divergence."
+  },
+  {
+   "from": "595A",
+   "to": "596D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p303",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.303, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 595/596. Keys a-l, all in 0028; c,d,e,f,g,j,k,l moved to printed positions. Sequence gapless. Text collated: no divergence."
+  },
+  {
+   "from": "597A",
+   "to": "598D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p304",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.304, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 597/598. Keys a-i. d (after the date citation), e (head of Ep. XXXII), i (second Data line) placed by hand; b,c,f,g,h moved; d text completed. Text: plate familiariter vs TEI familiaritae (head), plate communione vs TEI commmunione (Monitum): patches filed. fratrer is Migne's."
+  },
+  {
+   "from": "599A",
+   "to": "600D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p305",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.305, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 599/600. Keys a-i (i runs onto p.306). h placed by hand; b,d,g moved. Text collated: Cathaginensi is Migne's; no divergence."
+  },
+  {
+   "from": "601A",
+   "to": "602D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p306",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.306, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 601/602. Keys a-l (l runs onto p.307); head of page carries the tail of p.305's i. a,i (Ep. XXXV/XXXVI heads) placed by hand; b,c,d,e,f,g,k,l moved; i and e text corrected. Text: head Joannem Hieronymum Hierosolymitanum and conqueruntur are Migne's."
+  },
+  {
+   "from": "603A",
+   "to": "604D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p307",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.307, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 603/604. Keys a-j; tail of p.306's l at head of foot. e moved; g text corrected. Text collated: no divergence."
+  },
+  {
+   "from": "605A",
+   "to": "606D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p308",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.308, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 605/606. Keys a-k (g and k run on). c moved; b,g text corrected. epicopis Apulis is Migne's."
+  },
+  {
+   "from": "607A",
+   "to": "608D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p309",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.309, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 607/608. Keys a-g; foot opens with the tail of p.308's k. a,b,c,d text corrected/completed. Text: plate admonitum vs TEI admonium; plate frater vs TEI trater: patches filed."
+  },
+  {
+   "from": "609A",
+   "to": "610D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p310",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.310, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 609/610. Keys a-h; e not cut off, continues in the right note column. e,g text corrected. Text: plate 'sed in solis' vs TEI 'sed it, solis': patch filed."
+  },
+  {
+   "from": "611A",
+   "to": "612D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p311",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.311, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 611/612. No foot notes (checked zero). Monitum and Ep. XLIII collated to the end of the work at 0612C; no divergence. Appendix (Notitia) begins below."
+  },
+  {
+   "from": "613A",
+   "to": "614D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p312",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.312, 300 dpi, tiles per column (full page width for the foot), zooms 1.6-3x where noted; printed corners read first.",
+   "found": "Corners 613/614. Appendix Notitia only (not part of 7090); no foot notes."
+  }
+ ]
+}

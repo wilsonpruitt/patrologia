@@ -1,0 +1,180 @@
+{
+ "_note": "Stint T4 plate reads for 7090 chunks 0018-0023 (cols 0544C-0576A). Merge into data/plate-reads.json works.7090.reads[].",
+ "series": "pl",
+ "volume": 20,
+ "scan": "raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina, Patrologia Latina Vol. 20.pdf), pdftoppm -r 300, spot zooms 1.5-3x; renders deleted after use.",
+ "page_map": "PDF page = (col + 11)/2, confirmed on every page by the printed corner numbers (p.277 = 543/544 ... p.293 = 575/576).",
+ "second_witness": "none used. No [sic:] fired anywhere in the range. The two worn-glyph patch candidates (0545A impletas, 0575B misimus) are flagged for a second witness.",
+ "reads": [
+  {
+   "from": "544C",
+   "to": "544D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p277",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.277, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 543/544. Only 0544C onward is T4's (the rest was read by T3). Key g (EPISTOLA XXII) was unplaced and has been placed by hand; the note runs on to p.278. Text 544C collated: no divergence."
+  },
+  {
+   "from": "545A",
+   "to": "546D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p278",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.278, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 545/546. Keys a–h, gapless, plus the tail of p.277 g at the head of the left foot. d was unplaced and has been placed at 'eamdem ᵈ postulaturis'. Note text corrected: a, b, e, f, h (h ends on this page: 'Promittit praeterea.'). Text: 0545A impleras/plate impletas (worn; patch filed); 0546B '). etiam' point without tail (not patched)."
+  },
+  {
+   "from": "547A",
+   "to": "548D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p279",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.279, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 547/548. Keys a–h, gapless. Keys moved: Ep. XXIV a (after XXIV), d (before prima). Note text corrected: a, b, c, e, g, h. Text collated: no divergence."
+  },
+  {
+   "from": "549A",
+   "to": "550D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p280",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.280, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 549/550. Keys a–g, gapless (g runs to p.281). c moved before caeterasque. Note text corrected: b, d. Text collated: (I, q. I, c, 73) = plate."
+  },
+  {
+   "from": "551A",
+   "to": "552D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p281",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.281, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 551/552. Keys a–f, gapless, plus the tail of p.280 g. f was unplaced and has been placed at 'sufficere ᶠ ad'. Moved: Ep. XXV b (before De pacis) and d (before ab Apostolis). Note text corrected: a, d, e; p.280 g replaced whole. Text collated: no divergence."
+  },
+  {
+   "from": "553A",
+   "to": "554D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p282",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.282, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 553/554. Keys a–d, gapless (d runs to p.283). d moved before pontificium. Note text corrected: a, b (dropped words restored, Greek εὐχάς). Text collated: no divergence."
+  },
+  {
+   "from": "555A",
+   "to": "556D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p283",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.283, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 555/556. Keys a–f, gapless, plus the tail of p.282 d. d moved after forma. b gains a second sentence (head of right foot); f 'verendum'. Text collated: no divergence."
+  },
+  {
+   "from": "557A",
+   "to": "558D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p284",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.284, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 557/558. Keys a–e, gapless, plus the tail of p.283 f. d gains two paragraphs from the right foot that the sweep missed. Note b corrected. Text: 0558A anctoritatem/plate auctoritatem (patch filed)."
+  },
+  {
+   "from": "559A",
+   "to": "560D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p285",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.285, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 559/560. Keys a–h, gapless, plus the tail of p.284 e. Text: 0560A orent super cum/plate eum (patch filed). The note text matches the sweep."
+  },
+  {
+   "from": "561A",
+   "to": "562D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p286",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.286, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 561/562. Keys a–b only, gapless. Monitum §§1–4 collated. Note a: inunguant→inungant."
+  },
+  {
+   "from": "563A",
+   "to": "564D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p287",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.287, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 563/564. Keys a–p, gapless. h is NOT truncated: it continues at the head of the right foot. e, l corrected. Monitum §§4–5 and the Ep. XXVI inscription collated: no divergence."
+  },
+  {
+   "from": "565A",
+   "to": "566D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p288",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.288, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 565/566. Keys a–g, gapless. d moved before Quod auxilium. a, b, f corrected (a dropped clause is restored in f). Text collated: no divergence."
+  },
+  {
+   "from": "567A",
+   "to": "568D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p289",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.289, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 567/568. Keys a–f, gapless (f runs to p.290). d corrected (Quapropter et). Text collated: no divergence."
+  },
+  {
+   "from": "569A",
+   "to": "570D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p290",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.290, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 569/570. Keys a–l, gapless, plus the tail of p.289 f. a moved before PONTICANUS. Note texts match the sweep. Text collated: no divergence."
+  },
+  {
+   "from": "571A",
+   "to": "572D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p291",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.291, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 571/572. Keys a–g, gapless. f moved after tunc. g corrected. Text: 0571A auctoritate/plate auctoritati (patch filed)."
+  },
+  {
+   "from": "573A",
+   "to": "574D",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p292",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.292, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 573/574. Keys a–d, gapless. d was unplaced and has been placed at 'ubi dicitur, ᵈ Cum scirem'; its text is completed (the sweep had truncated it). c corrected (Hinc et). Text collated: no divergence."
+  },
+  {
+   "from": "575A",
+   "to": "576A",
+   "depth": "full",
+   "date": "2026-09-24",
+   "page": "p293",
+   "corners_checked": true,
+   "source": "raw/scans/pl020/pl020.pdf p.293, 300 dpi, column tiles plus full-width foot tiles; printed corners read first.",
+   "found": "Corners 575/576. The page was read whole; T4's range ends at 0576A. Keys a–d, gapless (a, b are T4's; c, d key §§8–9, chunk 0024, T5). a, b match. Text: 0575B misimur/plate misimu? (broken sort; patch filed, flagged worn)."
+  }
+ ]
+}
