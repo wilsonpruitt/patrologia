@@ -27,7 +27,7 @@ were corrected at the plate. A `]` inside a note (0574 d) is written fullwidth �
 
 `[sic:]` at 0466B *asbcessurus*, 0477A *nom*, 0483B *patres* (added after the blind read), 0491A
 *editiotiones*, 0525A *Macedodonas*, 0525C χειρονουμένους, ~0586A *beattiudini*, *in quam*, 0598A
-*fratrer*, 0599A *Cathaginensi*. `[var:]` at 0470B (II Thess. *tradidi*), 0529A (Prov. 19:14), 0578A
+*fratrer*, 0599A *Cathaginensi*, 0606A *epicopis* (added 2026-09-24, below). `[var:]` at 0470B (II Thess. *tradidi*), 0529A (Prov. 19:14), 0578A
 (Jn 8:56), 0591A (Ps 51:9), 0592B (Lk 18:16). No marker sits on a Coustant reading.
 
 ### TEI patches — 29 applied
@@ -81,15 +81,13 @@ had silently adopted Coustant's *maximis*.
   not a repair. No marker.
 - **7089 0628B *inergumeno* (R7 F9).** The plate (p. 319) prints *iner-|gumeno*, hyphenated at the line
   end. *Inergumenus* is an attested variant of *energumenus*, so Pattern 9 applies: no `[sic:]`.
-- **0606A *epicopis Apulis* (R6).** Kept as ruled by the stint (a head whose facing Latin shows the
-  misspelling). Note the inconsistency with *fratrer* and *Cathaginensi*, which were marked.
+- **0606A *epicopis Apulis* (R6).** First kept unmarked as ruled by the stint; reversed 2026-09-24 for
+  consistency with *fratrer* and *Cathaginensi* (see "Held items settled").
 
 ### Held
 
-- **R2 B7 (the one numbered finding held):** see the first item below.
-- **0497B note c *manendam / manendum*** (R2 B7): the plate (p. 254) is too worn; wants a 600 dpi read.
-- **0519 note a (Pelagius, *sibi / tibi*)**: not checked at the plate.
-- **0526D note g, Dionysius's number "55" or "35"**: 1-bit plate, unresolved.
+- **R2 B7, 0497B note c; 0519 note a; Dionysius's number in Ep. XVIII's note g**: moved to "Held items
+  settled" below (2026-09-24). The Dionysius digit is still open.
 - **The second `[cn: a]` in 0527 (Ep. XVII inscription)** is keyed before `[0527A]` in our anchors, but
   on the plate the key belongs to p. 527/528. Anchor placement, not a translation matter.
 - **Coustant's own figures**, rendered as printed and not corrected: the Monitum's "Baronius … 308" and
@@ -100,3 +98,36 @@ had silently adopted Coustant's *maximis*.
 Migne prints each letter twice (Greek block, Latin block, each with its own column anchors), and the
 English translates each from its own language. The Greek-versus-Latin differences are in
 `src/english/7091/cruces-0000.md`.
+
+## Held items settled (plate, 2026-09-24)
+
+Scan `raw/scans/pl020/pl020.pdf`. Each page was rendered on its own, and the printed corners were read before anything else. The
+disputed glyphs were read at 600 dpi against other sorts of the same face on the same page.
+
+1. **0606A *epicopis Apulis*: `[sic: *epicopis*]` added** in 0030 at "bishops of Apulia", in the same form as *fratrer* and
+   *Cathaginensi*. The plate (p. 308, corners 605/606) was already read and recorded in `data/plate-reads.json`, and it prints
+   Migne's own misprint for *episcopis*. plate-gate passes.
+2. **0497B note c: the plate reads *manendum*** (p. 254, corners 497/498). The sort after *-mend-* has two arms with an open
+   notch at the top, which is the italic *u* of *officium* in note a on the same page. The italic *a* on the page (*ad*,
+   *sacrificia*, *fas*) has a closed, rounded top. Fixed in `data/plate-notes/7090.tsv` (*propter manendam* → *propter
+   manendum*) and re-injected. The Latin diff is that one word in 0007. The English twin was fixed to match.
+3. **0519 note a: the plate reads *sibi*** (p. 265, corners 519/520): *Spiritales divitias nullus sibi praeter te conferre
+   poterit*, clean italic, with the initial the same sort as the *s* of *nullus*. The TSV and the Latin already had *sibi*. The English
+   had rendered *tibi* ("confer on thee"). It now renders the printed *sibi*: "confer on himself". That is a real word and it
+   construes, so no marker (Pattern 7; P0, no marker on a Coustant reading).
+4. **Ep. XVIII note g, Dionysius's number: UNRESOLVED.** The note is on p. 274 (corners 537/538), col 0537 left foot, not
+   0526D as logged above: *Apud hunc inter Innocentii decreta locum ?5 obtinet*. **The second digit is a 5**: it has the
+   left upright of the known 5 in the corner "537". **The first digit is not settled**: its top bar stands detached from
+   the bowl at both ends, and the joint is the one feature that tells this face's flat-topped 3 (joined top right, like
+   the known 3 in "(13 Decemb." = *Idibus Decembris*, same page) from its 5 (joined top left). Second witness: `volumes.json`
+   lists for PL 20 only the archive item `patrologiaecurs75unkngoog` (an Augustine volume, per the style file) and Google Books
+   IDs with no calibrated fetch method, so no second witness was read. The Latin keeps *55* and the English "55th"
+   as transcribed. A reading of 35 or 55 stays open.
+5. **TEI patches 0545A *impletas* and 0575B *misimus*: NOT APPLIED, still held.**
+   - 0545A (p. 278, corners 545/546): *imple?as*. The sort is a short thin stroke in the upper half of the x-height and
+     nothing more. On the next line a worn *r* in *detersas* is the same kind of thin upright, and every *t* on these lines is a full sort.
+     So the plate does not tell *t* from *r*.
+   - 0575B (p. 293, corners 575/576): *misi-|mu?*. The last sort is an upper hook plus a detached dot. That fits a broken *s*
+     (spine lost) or a broken *r* (stem lost) equally well. Not clear.
+   Neither is clear at the plate, so `data/tei-patches/7090.json` is unchanged and there was no re-chunk. The English
+   ("have been fulfilled", "We have sent both") is unchanged. Both want a second witness.
