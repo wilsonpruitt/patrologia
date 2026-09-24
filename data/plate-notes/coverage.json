@@ -1568,6 +1568,30 @@
    "columns": "0623C-0628D (whole work)",
    "method": "EVERY page of the work read for a foot-of-page layer, 2026-09-23 at chunk prep: PDF pp. 317-319 of raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina \"Patrologia Latina Vol. 20.pdf\"), map PDF page = (col + 11)/2, calibrated at the printed corners on pp. 250 (489/490) and 319 (627/628). Corners read first.",
    "result": "Zero keyed or numbered notes on all three pages. NB the Labbe OBSERVATIO at 0628C-D and the DISSERTATIO at 0625-0626 are running text, not foot apparatus, and are already in the TEI."
+  },
+  {
+   "idno": "7090",
+   "series": "pl",
+   "volume": 20,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 537,
+   "notes_placed": 475,
+   "columns": "0463D-0612C (whole work)",
+   "method": "EVERY page of the work read for Coustant (1721) lettered foot notes, 2026-09-23: 76 pages, PDF pp.237-312 of raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina), map (col+11)/2, held throughout with no drift. Six Sonnet sweep agents S1-S6, one page range each, data/briefs/7090-7091-SWEEP-BRIEF.md + 7090-7091-SWEEP-PAGES.json. Corners read first on every page. Class (variant/explanatory) recorded per note per translation-style.md Papal letters P0.",
+   "result": "537 notes recovered (letters a-... restarting every page), 475 auto-placed by the injector. 9 are Coustant Prolegomena keys before the chunked text begins (out of scope, not owed). The other 53 unplaced need the translating stint to locate by eye with the plate open (abbreviation/punctuation drift from the TEI, or a genuine divergence) — list in data/briefs/7090-UNPLACED-NOTES.md. One sweep agent (S5) used a literal \"(a)\" placeholder in its anchor marker on 124 of 138 rows regardless of the true key; verified against the plate (p.293) that only the label was wrong, not the word position, and corrected by substitution before injection."
+  },
+  {
+   "idno": "7091",
+   "series": "pl",
+   "volume": 20,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 14,
+   "notes_placed": 11,
+   "columns": "0627D-0636A (whole work)",
+   "method": "EVERY page read for Coustant lettered foot notes, 2026-09-23: 6 pages, PDF pp.319-324, same map and method as 7090. Sweep agent S6.",
+   "result": "14 notes recovered, 11 auto-placed. 3 unplaced (list in data/briefs/7091-UNPLACED-NOTES.md), all near col 0629-0632 where our Latin/Greek TEI and the anchor phrase read off the plate differ slightly. p.323 also carries a separate Sirmondi posthumous-notes apparatus on OTHER Innocent letters, not part of this idno — correctly excluded by the sweep."
   }
  ],
  "fields": {
