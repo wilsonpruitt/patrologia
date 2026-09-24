@@ -1,5 +1,21 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-24) — INNOCENT I, PL 20 (7089 · 7090 · 7091) · PHASE 1 DONE, PHASE 2 = TRANSLATION, NEEDS WILSON'S GO
+
+**Wilson ruled all four questions (2026-09-23) and wrote them into `translation-style.md` → "Papal letters — Innocent I" (P0–P3). READ IT FIRST.**
+P0 Coustant's lettered foot notes IN, every one with an English `[nt:]` twin (bare variant word stays Latin italic; expand editors' names Merl.→Merlin, Crab.→Crabbe, Quesn.→Quesnel, Garn.→Garnier; manuscript sigla stay) · P1 7091 translated FROM THE GREEK where Migne prints it, Latin as check · P2 7091 byline **Ps.-Innocent I** · P3 7090 badge **New**, via `translation.priorEnglishKnown` (already in works.json + `scripts/lib/first-english.mjs`); 7089 and 7091 keep First.
+
+**Phase 1 (note recovery) is DONE and committed (`d379184a`).** Scan `raw/scans/pl020/pl020.pdf` (620 pp), **PDF page = (col+11)/2**, calibrated at both ends. ⚠ `volumes.json`'s listed archive item for PL 20 is an Augustine volume; ignore it. 82 pages swept once each by 6 Sonnet agents: **551 notes** (7090: 537, 7091: 14), **486 injected** as `[cn: <letter> | …]`. 7089 read in full at the plate: zero notes.
+- **55 notes are UNPLACED** (anchor mismatch, not missing): `data/briefs/7090-UNPLACED-NOTES.md` (52) and `7091-UNPLACED-NOTES.md` (3). The translating stint places them BY EYE with the page open, never by guess; one it cannot place goes in cruces.md. 10 more are Coustant's Prolegomena keys before the text starts — out of scope, listed at the foot of the brief.
+- ⚠ **Sweep files are the audit trail**, `data/briefs/7090-SWEEP-S{1..6}.tsv`. S5 had a placeholder bug (literal `(a)` in the anchor on 124 rows); fixed by substitution before injection, verified at the plate p.293.
+- **Recurring scan defect:** at least six Coustant notes are cut off at the physical page foot with no continuation (p.244 g, p.269 d, p.272 c, p.287 h, p.306 l, p.310 e). Recorded as truncated, never completed by guess. The stint should look at the same page in a second witness if one is found (none checked yet for PL 20).
+- Page 245's left corner prints 379 for 479 — Migne's own misprint, not map drift.
+
+**PHASE 2 — the translating run, HARD STOP: Wilson must say "which model, and go" in the new session.**
+Quote it as before: 36 chunks (7090 = 32, 7091 = 2, 7089 = 2), **Opus, ~4.2M tokens** at the inline plate-read rate, three stints at a time, plus the blind polarity read (~1.2M, Opus) after. Each stint: opens EVERY page in its range once, collates text + reads the notes in the same visit, places its share of the unplaced list, writes English chunks with `[nt:]` twins, and writes `cruces-<firstChunk>.md` and its OWN `data/briefs/<idno>-PLATE-READS-<firstChunk>.json` (never `data/plate-reads.json`). Give each stint its own scratch subdirectory, and **pre-render its pages first** (`pdftoppm -f N -l N -r 300 -png`; the sweep's 88 PNGs were in the session scratchpad and are gone). 7091 stint: PG register rules apply; one letter (Latin-only) from the Latin.
+Then: `verify-english` → polarity blind read (cruces file withheld) → `polarity-record` → author bio for Innocent I (none exists: `data/author-bios.json`) → `plate-gate` → build → `index-work` → preflight 7/7 → STAGE ONLY; deploy needs Wilson's OK.
+
+
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-22) — USUARDUS *MARTYROLOGIUM* 9198 + 9215 · ✅ LIVE ON migne.app · NOTHING OWED
 
 ✅ **Deployed and pushed 2026-09-22** (`migne-fe87zmhk9`, commits through `86f70bac`). Smoke-tested on
