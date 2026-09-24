@@ -1556,6 +1556,18 @@
    "verified": "2026-09-22",
    "why_tier_3": "A letter layer has no numbered sequence; 'full' asserts that every page the work spans was read for it, with a per-page record. Replaces the 2026-09-21 'spot' record.",
    "caveat": "0547 and 0833: the key opens its line, so the injector places it after the first word (one-word offset, documented). 18 sweep anchors quoted the plate's bracket lead-ins and were re-taken from our Latin 2026-09-22."
+  },
+  {
+   "idno": "7089",
+   "series": "pl",
+   "volume": 20,
+   "tier": 3,
+   "coverage": "full",
+   "notes_recovered": 0,
+   "notes_placed": 0,
+   "columns": "0623C-0628D (whole work)",
+   "method": "EVERY page of the work read for a foot-of-page layer, 2026-09-23 at chunk prep: PDF pp. 317-319 of raw/scans/pl020/pl020.pdf (archive.org PatrologiaLatina \"Patrologia Latina Vol. 20.pdf\"), map PDF page = (col + 11)/2, calibrated at the printed corners on pp. 250 (489/490) and 319 (627/628). Corners read first.",
+   "result": "Zero keyed or numbered notes on all three pages. NB the Labbe OBSERVATIO at 0628C-D and the DISSERTATIO at 0625-0626 are running text, not foot apparatus, and are already in the TEI."
   }
  ],
  "fields": {
