@@ -102,6 +102,15 @@ export function isFirstEnglishPL(idno, byIdno, warn = () => {}) {
     warn(`${idno}: workStatus "${tr.workStatus}" means a prior English EXISTS — using "New English translation"`);
     return false;
   }
+  // A collection triaged 'none' as a WHOLE ("no complete English") whose parts are
+  // known to be in English. Wilson, 2026-09-23, on 7090 Innocent I: ship the weak
+  // claim rather than a first we know is partly wrong. This field sits BESIDE the
+  // triage verdict so workStatus is never overwritten (rule 8); it only ever
+  // withholds the claim, never grants it.
+  if (tr.priorEnglishKnown) {
+    warn(`${idno}: priorEnglishKnown — parts already in English — using "New English translation"`);
+    return false;
+  }
   return true;
 }
 

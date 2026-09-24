@@ -531,6 +531,51 @@ the inline bracketed *Forte* (CLAUDE.md, 9004): Migne's page, not our marker.
 - Leader dots inside a bracket (`. . . . .`) are carried dot for dot (E7).
 - ⛔ No `[sic:]`, `[var:]` or `[cj:]` on a Bouillart reading. It is a witness, not a defect.
 
+## Papal letters — Innocent I, PL 20 (Wilson, 2026-09-23)
+
+Set for 7089 *Decreta*, 7090 *Epistolae et decreta* and 7091 *Epistolae* (the letters Coustant
+rejects), and binding on any later PL decretal collection printed from Coustant's *Epistolae
+Romanorum Pontificum* (1721). Scan: `raw/scans/pl020/pl020.pdf` (archive.org `PatrologiaLatina`,
+*Patrologia Latina Vol. 20.pdf*). **PDF page = (col + 11)/2**, calibrated at the printed corners on
+p. 250 (489/490) and p. 319 (627/628). ⚠ The `patrologiaecurs75unkngoog` item listed for PL 20 in
+`volumes.json` is an Augustine volume, so don't use it.
+
+**P0. Coustant's lettered foot notes are IN SCOPE, in full, and every one gets an English twin
+(Wilson, 2026-09-23).** Every page of 7090 carries about 12 notes keyed a, b, c… under both
+columns, around 40% of the page: variant readings from the manuscripts and editions (Colb., Crab.,
+Merl., Isid., Quesn., Rom., Garn.…) plus explanatory notes. Corpus Corporum carries none of them,
+not even the keys. It's the same class as Bouillart on Usuardus and the CLAUDE.md asterisk and
+letter layer, and unlike Solier's Observationes (M0) because these notes are KEYED INTO the text.
+- Latin: `[cn: a | …]` at the printed key, via `data/plate-notes/<idno>.tsv` and a re-chunk.
+- English: an `[nt: …]` opposite every note. Inside the twin, M2's rule applies: **a bare variant
+  word stays Latin, italic, in the case printed** (*Merl., sive; Crab., saevae* → *Merlin: sive;
+  Crabbe: saevae*). A note that says something is translated in full.
+- Sigla: expand an editor's or edition's name the first time it appears in each note (Merl. →
+  Merlin, Crab. → Crabbe, Quesn. → Quesnel, Garn. → Garnier, Isid. → the Isidorian collection, Rom. →
+  the Roman edition). A manuscript siglum stays as printed (*Colb.*, *Corb.*, *Thuan.*).
+- ⛔ No `[sic:]`, `[var:]` or `[cj:]` on a Coustant reading. It's a witness, not a defect.
+- The key letters restart on every page. The sequence check runs per page: a gap in a–m on one
+  page is the detector for a crop that came up short.
+
+**P1. 7091: translate the GREEK where Migne prints it, and use the Latin only as a check
+(Wilson, 2026-09-23).** The forged letters to Arcadius and others were composed in Greek and come
+down through Nicephorus Callistus and Glycas. Migne sets the Greek facing his Latin. The PG register
+rules apply to those letters (above: "Translate the Greek; the Latin column is a verifier"). The one
+letter that Coustant says survives only in Latin is translated from the Latin. Where the Latin
+departs from the Greek, the English follows the Greek and the difference goes in the cruces file.
+
+**P2. Byline: 7091 is Ps.-Innocent I (Wilson, 2026-09-23).** Migne heads it *Epistolae S.
+Innocentio I attributae*, and Coustant's Monitum argues they're forgeries (Eudoxia is assumed alive
+after Chrysostom's death, which she did not live to see). Same treatment as Ps.-Eriugena on 21405.
+7089 and 7090 are bylined Innocent I. Where 7089's *Monitum* or Labbe's *Observatio* doubts a
+particular canon, that doubt goes in the About text, not the byline.
+
+**P3. Badge: 7090 ships "New English translation" (Wilson, 2026-09-23).** Triage judged the
+collection as a whole ("no complete English"). But single letters have long been in English (Ep.
+XXV to Decentius, Ep. VI to Exuperius, and Epp. XXIX–XXXI, which are Augustine Epp. 181–183).
+Recorded as `translation.priorEnglishKnown` on the work, which `scripts/lib/first-english.mjs`
+reads. `workStatus` stays as triage wrote it (CLAUDE.md rule 8). 7089 and 7091 keep "First".
+
 ## Patterns
 
 ### 1. Partitive genitive fronted — never "of Xs some"
