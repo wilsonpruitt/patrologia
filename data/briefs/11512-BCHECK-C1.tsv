@@ -1,0 +1,48 @@
+kind	chunk_or_file	col	pageB	our_or_marked_form	B_reads	A_reads	verdict	note
+sic	0013	1045D	527	*grem um*	grem um	not viewed	STANDS	B corners 1045/1046; clear space between m and u, no i printed
+sic	0016	1059B	534	*approba um*	approba um	not viewed	STANDS	B corners 1059/1060; gap after a, no t printed (approbatum)
+sic	0016	1059C	534	*pulchritudinem*	pulchritudinem	not viewed	STANDS	final -em legible (for pulchritudine); m clear, no abbreviation mark
+sic	0016	1059D	534	*santissimae*	san-|tissimæ	not viewed	STANDS	line break san-/tissimae; no c before t on either line
+sic	0017	1060C	534	*Israelitci*	Israelitci	not viewed	STANDS	t before c, then i; letters distinct at 600 dpi
+sic	0017	1061A	535	*equitus*	equi-|tus	not viewed	STANDS	B corners 1061/1062; line break equi-/tus iste?, no -ta- printed
+sic	0017	1061B	535	*antiquitatus*	antiquitatus	not viewed	STANDS	Ille ergo antiquus Domini antiquitatus per im-; ant- plainly printed (for equitatus)
+sic	0017	1061D	535	*sacra dandarum*	sacra dandarum	not viewed	STANDS	wide space between sacra and dandarum mid-line, no hyphen
+sic	0017	1062C	535	*Eccelsia*	Eccelsia	not viewed	STANDS	transposition decided by l before s (-elsia), legible regardless of c/e
+sic	0017	1062D	535	*inedicibilis*	ine-|dicibilis	not viewed	STANDS	line break ine-/dicibilis; e after in- (not d), extra syllable printed
+sic	0017	1063D	536	Aethiopia	trans flumina Æthiopia (italic)	not viewed	STANDS	B corners 1063/1064; second trans flumina: final italic a, no æ ligature (cf. Æthiopiæ two lines above)
+sic	0017	1064A	536	*corde*	corde	not viewed	STANDS	Vasa papyri sunt corde; final letter e-shaped (bowl with bar), not a
+sic	0018	1064C	536	*ego*	ego	not viewed	STANDS	Cum armis ego suis; no r printed (for ergo)
+sic	0018	1065C	537	*pugnativum*	pugnativum	not viewed	STANDS	B corners 1065/1066; -tivum clear: t, i, v (for pugnantium)
+sic	0018	1065D	537	*proportior*	proportior	not viewed	STANDS	tantumque proportior est; -tior with r clear
+sic	0050	1170A	589	etrespondebit	etrespondebit	not viewed	STANDS	B corners 1169/1170; italic, no space between et and respondebit
+sic	0050	1172D	590	*virtu e*	virtu' e	not viewed	STANDS	B corners 1171/1172; t-width gap between u and e holding only a pinpoint at t-head height (re-checked at 4x high contrast); no t body printed. SAME PHENOMENON as patch 1225C dici(t), which is confirmed on a larger t-tip: orchestrator should apply one policy to both
+sic	0051	1175A	592	*exipsius*	exipsius	not viewed	STANDS	B corners 1175/1176; quae exipsius Ecclesiae, no space between ex and ipsius
+patch	cruces-0050.md	1175A	592	aqua rum → aquarum	aqua|rum (line break)	not viewed	CONFIRMED	aqua ends line (hyphen not visible, italic), rum virentium begins next line; no word space
+sic	0051	1176C	592	*nostrae*	nostræ	not viewed	STANDS	captivitas enim nostræ quae; æ ligature clear (for nostra)
+sic	0052	1178C	593	*corum*	corum	corum (p. 595)	STANDS	B corners 1177/1178; initial letter open c, no eye or bar (B has a speck inside the bowl low, not a crossbar); A same, clean open c
+patch	cruces-0050.md	1179D	594	inebriata fuerat, qualem → inebriata fuerat. qualem	fuerat. qua-|lem	not viewed	CONFIRMED	round point on baseline after fuerat, no comma tail (zoomed)
+patch	cruces-0050.md	1179B	594	eflicit → efficit	e(ff)i-|cit (ligature, crossbars worn)	e(ff)i- same wear (p. 596)	CONFIRMED	line break effi-/cit; two tall strokes after e, 1st with broken hook top, 2nd bending right at top = worn ff ligature, not f+l; A identical
+sic	0052	1180B	594	*ab*	ab om-|nino	not viewed	STANDS	in uno eodemque 176 ab om-; b with ascender clear (for aut)
+patch	cruces-0050.md	1184C	596	montis et corporis → mentis et corporis	m(e)ntis (e ink-filled below bar)	not viewed	CONFIRMED	B corners 1183/1184; 2nd letter shows a horizontal bar with open upper-right eye and filled lower bowl = inked e, unlike the hollow o of corporis in the same line
+patch	cruces-0050.md	1185A	597	Exspoliavi → Exspoliari (re-quotation before VERS. 3)	Exspoliari	not viewed	CONFIRMED	B corners 1185/1186; italic r (stem + shoulder) in dicens: Exspoliari, contrasted with looped italic v in the VERS. 3 lemma Exspoliavi on the next line
+patch	cruces-0050.md	1186A	597	mentem refiert → mentem reficit	reficit (f crossbar faint)	not viewed	CONFIRMED	first line of col 1186: mentem re-f-i-c-i-t, ut; ends -icit with t, no e-r sequence
+sic	0054	1186D	597	inferrus	inferrus (italic)	not viewed	STANDS	last line of col 1186: italic inferrus aemulatio, double r clear
+patch	cruces-0055.md	1188B	598	cognoscere, neque → cognoscere. neque	cognoscere. neque	not viewed	CONFIRMED	B corners 1187/1188; round point on baseline, no comma tail (zoomed)
+sic	0055	1191B	600	*pereunctantium*	percunctantium	percunctantium (p. 602)	OURS	B corners 1191/1192; 4th letter is an open c (no eye, no bar), unlike the 2nd letter e which shows its eye speck; A same; plate prints the correct percunctantium
+sic	0056	1194A	601	*qui a*	qui a	not viewed	STANDS	B corners 1193/1194; dicuntur, qui a fidelium: clear word space between qui and a (for quia)
+sic	0056	1194A	601	*ub*	ub	not viewed	STANDS	sublevantur, et ub spi-: u then b with ascender (for ut)
+sic	0057	1196A (list col None)	602	*secundam*	secundam	not viewed	STANDS	B corners 1195/1196; vitae secundam dant praeceptum: letter after d is a two-storey a, final m
+sic	0058	1200B	604	*secerdotium*	secerdotium	not viewed	STANDS	B corners 1199/1200; 2nd letter is e (eye like the 4th letter), certainly not the two-storey a; c/e ambiguity irrelevant here
+sic	0058	1201C	605	*tranquil itate*	tranquil itate	not viewed	STANDS	B corners 1201/1202; word space after tranquil, then dotted i + tate; the second l is not printed
+patch	cruces-0055.md	1201D	605	labore. Unde → labore Unde	labore Unde (no stop)	not viewed	CONFIRMED	nothing printed between labore and the (worn) U of Unde at 2x zoom
+patch	cruces-0055.md	1198A	603	sapphiris. Si → sapphiris: Si	sapphiris. Si (single baseline point)	sapphiris: Si (p. 605, colon)	UNDECIDABLE	B corners 1197/1198; B at 4x high-contrast shows only the baseline point, no upper dot; A shows a legible colon; the witnesses disagree, so the colon is not established by B (if one must be chosen, B supports our full stop = REJECTED)
+patch	cruces-0055.md	1203D	606	candidatio → candidutio	candidutio (italic)	not viewed	CONFIRMED	B corners 1203/1204; italic letter after -did- is open-topped u, unlike the closed-bowl italic a of can-
+sic	0059	1205D	607	*ad ipisci*	ad ipisci	not viewed	STANDS	B corners 1205/1206; line-initial ad ipisci. Dicunt: visible space between d and i (narrower than a full word space but clearly open)
+patch	cruces-0060.md	1207A	608	dilectus, meus → dilectus meus	dilectus meus (italic, no comma)	not viewed	CONFIRMED	B corners 1207/1208; congrue respondit, quia dilectus meus descendit: plain word space, no comma after dilectus
+patch	cruces-0060.md	1209A	609	tertia coelestis → tertia coelestus	cœlestus	not viewed	CONFIRMED	B corners 1209/1210; after -est- a two-stem u (width of the u in tertia-line, not a single i stem), then s;
+sic	0061	1213B	611	*begninitas*	beg[n/u]initas	not viewed	STANDS	B corners 1213/1214; g is legibly the 3rd letter (b-e-g), so the plate is defective whatever follows; 4th letter two stems with hairlines lost, n vs u not separable (OCR layer reads u)
+patch	cruces-0060.md	1214B	611	misericord *i* am → misericordiam	misericordiam (roman, one word)	not viewed	CONFIRMED	word printed whole in roman, no spacing or italic i, before quippe
+sic	0062	1215C	612	*Christianonorum*	Christiano-|norum	not viewed	STANDS	B corners 1215/1216; syllable no repeated across the line break (Christiano- / norum animus)
+patch	cruces-0060.md	1220C	614	Descendit qnoque → Descendit quoque	quo[q]ue (2nd q damaged: descender only, bowl lost)	not viewed	CONFIRMED	B corners 1219/1220; the damaged letter is a descending stem at q position, not an x-height n; reading quoque
+patch	cruces-0060.md	1225C	617	quidam dici: → quidam dicit:	dici + t-tip only (t body unprinted)	dici + t-tip only (p. 619)	CONFIRMED	B corners 1225/1226; after final i a pointed t-head at ascender height (not an i-dot shape) in a t-width space before the spaced colon; no stem on either scan; confirmed as worn t, but see 1172D virtu e (same phenomenon, called STANDS)
+patch	cruces-0015.md	1066C	537	veritate aeterna adipiscenda → veritate et aeterna adipiscenda	(dili-)|re pro justitia et veritate et æterna adipiscenda vit[æ?]	not viewed	CONFIRMED	B corners 1065/1066; second et printed legibly between veritate and æterna (patch confirmed). SEPARATE FLAG: the last letter of vita at line end looks wide like the æ of æterna (vitæ?), not the narrow italic a of adipiscenda; the patch line keeps vita, worth one more look

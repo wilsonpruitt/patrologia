@@ -1,0 +1,26 @@
+kind	chunk_or_file	col	form_or_line
+sic	0063	1221B	*Evangeiii*
+sic	0068	1235A	*bone*
+sic	0069	1239C	*beatudinis*
+sic	0070	1243C	*inexusabilis*
+sic	0072	1249B	*tui*
+sic	0074	1257D	obrumbratio
+sic	0075	1262D	*cliguntur*
+sic	0079	1274A	*in suavem*
+sic	0079	1274C	*testitudinis*
+sic	0080	1278A	*aeterna liter*
+patch	cruces-0065.md	?	1226C · *quo alibi dicit *Faciamus hominem* → *quo alibi dicit. *Faciamus hominem* (full stop printed; same on scan B p. 617) · p. 619
+patch	cruces-0065.md	?	1226C · *pluralitatem personarum in sancta Trinitate.* → *pluralitatem personarum in sancta Trinitate,* (comma printed at the chapter's end; same on scan B p. 617) · p. 619
+patch	cruces-0065.md	?	1230A · *in spritualis exercitii robur* → *in spiritualis exercitii robur* (*spi-|ritualis* across the line break) · p. 621
+patch	cruces-0065.md	?	1233C · *VERS. 3.-- *Caput tuum sicut Carmelus* → *VERS. 5.-- *Caput tuum sicut Carmelus* (same on scan B p. 621) · p. 623
+patch	cruces-0065.md	?	1233D · *sicut purpura regis juncta carnalibus* → *sicut purpura regis juncta canalibus* (no *r*; same on scan B p. 621) · p. 623
+patch	cruces-0065.md	?	1234D · *semper se respicere, debere ad vitam* → *semper se respicere debere ad vitam* (no comma; same on scan B p. 621) · p. 623
+patch	cruces-0065.md	?	⚑ Candidate, NOT ready: 1231C · *ex altera dilectionis cingitur* → plate prints *dil?tionis* (no *c*; *e* or *a* undecidable on A p. 622 and B p. 620) — needs a third witness before patching.
+patch	cruces-0070.md	?	1245D · *in quibus eum benedicitis* → *in quibus cum benedicitis* (c confirmed on scan B p. 627 at 600 dpi) · p. 629
+patch	cruces-0070.md	?	1246B · VERS. 5 *ibi corrupta est mater tua* → *ibi corruvta est mater tua* (same on scan B p. 627 at 600 dpi; a `[sic: corruvta]` may then be fired in 0071) · p. 629
+patch	cruces-0070.md	?	1248D · *Si animadvertis quid in primo parente* → *Si anidmavertis quid in primo parente* (same on scan B p. 628; a `[sic: *anidmavertis*]` may then be fired in 0072) · p. 630
+patch	cruces-0070.md	?	1248D · *ad disciplinae et obedientiae studium* → *ad di ciplinas et obedientiae studium* (same on scan B p. 628; the English already renders *disciplinas*) · p. 630
+patch	cruces-0070.md	?	1257D · *ex Judaeis et pentibus congregatam* → *ex Judaeis et gentibus congregatam* (g worn on A; B crop not seen, so confirm on B before applying) · p. 635
+patch	cruces-0070.md	?	Candidate, not filed: 1249A *concupivit* / plate A *concapivit* (a/u, A only); 1254A *dieitur cumponenda* / plate *dieitur com-|ponenda* (c/e undecidable on A; the *cum-* looks like a line-break artifact of ours).
+patch	cruces-0075.md	?	1276A · *nidificant [n: (Psal. CIII)], quorum abundantia* → the plate prints *nidificant (Psal. CIII, quorum abundantia*, with no closing parenthesis. This is markup-level only: the patch would sit inside the `[n:]`. Low priority; recorded so the Latin can converge if the orchestrator wishes · p. 644
+patch	cruces-0075.md	?	⚑ Candidate, NOT ready: 1262C · *Longa debet esse, quia* → the plate shows a baseline point after *esse* on both A p. 637 and B p. 635, and it cannot be decided between a full stop and a broken comma. It needs a third witness before patching.

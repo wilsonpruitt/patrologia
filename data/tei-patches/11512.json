@@ -1,0 +1,426 @@
+{
+  "note": "Corpus Corporum's transcription only — Migne's plate is not touched. Wolbero translating run 2026-09-25/26: every page (PDF pp. 507-645 of raw/scans/pl195/patrologiaecursu0195mign.pdf) read at the plate by stints T01-T16; every proposed patch then re-read on the second copy (raw/scans/pl195/patrologiaecur195mign.pdf) at 600 dpi (ledgers data/briefs/11512-BCHECK-*.tsv). 4 proposed patches REJECTED and 5 UNDECIDABLE there are not applied.",
+  "class": "Plate-verified corrections of the digitization, in both directions: 'plate prints X' where our text had drifted from Migne, and Migne's own defects restored where the digitization had silently corrected them (those take a [sic:] in the English). Two sites were OURS where the English had accused Migne (1191B percunctantium; 1215D necessariam). 1070D removes a heading the digitization invented.",
+  "patches": [
+    {
+      "col": "1003C",
+      "find": "gratulater",
+      "replace": "gratularer",
+      "why": "plate prints *gratularer* (T01 A; B-check confirmed)"
+    },
+    {
+      "col": "1011D",
+      "find": "dimicavit <note>(Jud. V)</note>\n          </hi> Superatis",
+      "replace": "dimicavit <note>(Jud. V)</note>\n          </hi>. Superatis",
+      "why": "plate prints a full stop after the citation"
+    },
+    {
+      "col": "1012B",
+      "find": "Materia es sponsalia",
+      "replace": "Materia est sponsalia",
+      "why": "plate prints *est*"
+    },
+    {
+      "col": "1017D",
+      "find": "sibi porrigi",
+      "replace": "sibipo rrigi",
+      "why": "plate prints *sibipo rrigi* (Migne's misplaced space; [sic:] owed)"
+    },
+    {
+      "col": "1019D",
+      "find": "approbunt",
+      "replace": "approbant",
+      "why": "plate prints *approbant*"
+    },
+    {
+      "col": "1020C",
+      "find": "as erit",
+      "replace": "asserit",
+      "why": "plate prints *asserit*"
+    },
+    {
+      "col": "1020D",
+      "find": "repento",
+      "replace": "repente",
+      "why": "plate prints *repente*"
+    },
+    {
+      "col": "1024C",
+      "find": "Joanne;",
+      "replace": "Joannes",
+      "why": "plate prints *Joannes*"
+    },
+    {
+      "col": "1026D",
+      "find": "et laborat,",
+      "replace": "et labora ,",
+      "why": "plate prints *labora ,* (Migne's; [sic:] already on it)"
+    },
+    {
+      "col": "1029C",
+      "find": "praerogavita",
+      "replace": "praerogativa",
+      "why": "plate prints *praerogativa*"
+    },
+    {
+      "col": "1029D",
+      "find": "nulla enus",
+      "replace": "nullatenus",
+      "why": "plate prints *nullatenus*"
+    },
+    {
+      "col": "1030D",
+      "find": "virtu quin",
+      "replace": "virtus quin",
+      "why": "plate prints *virtus*"
+    },
+    {
+      "col": "1035D",
+      "find": "in legem videlicet",
+      "replace": "in Legem videlicet",
+      "why": "plate prints capital *Legem*"
+    },
+    {
+      "col": "1037C",
+      "find": "agit meus Deo",
+      "replace": "agit mens Deo",
+      "why": "plate prints *mens*"
+    },
+    {
+      "col": "1044D",
+      "find": "au in spiritu",
+      "replace": "an in spiritu",
+      "why": "plate prints *an*"
+    },
+    {
+      "col": "1046C",
+      "find": "custodit.",
+      "replace": "custodivi.",
+      "why": "plate prints *custodivi*"
+    },
+    {
+      "col": "1051A",
+      "find": "requiescat, cujus",
+      "replace": "requiescat. cujus",
+      "why": "plate prints a full stop"
+    },
+    {
+      "col": "1058C",
+      "find": "privatoria actione injustitiae",
+      "replace": "privatoria actione. injustitiae",
+      "why": "plate prints a full stop"
+    },
+    {
+      "col": "1066C",
+      "find": "veritate aeterna adipiscenda",
+      "replace": "veritate et aeterna adipiscenda",
+      "why": "plate prints *et*"
+    },
+    {
+      "col": "1070D",
+      "find": "<div3 moved_from_p=\"true\">\n              <head>.</head>",
+      "replace": "<div3 moved_from_p=\"true\">",
+      "why": "NO HEADING on the plate (p.541): Migne prints *59 ..... Axa quippe* as running text; the <head>.</head> is a digitization artifact"
+    },
+    {
+      "col": "1080A",
+      "find": "sua vitatem",
+      "replace": "suavitatem",
+      "why": "plate prints *suavitatem*"
+    },
+    {
+      "col": "1082C",
+      "find": "protantium",
+      "replace": "portantium",
+      "why": "plate prints *portantium*"
+    },
+    {
+      "col": "1089C",
+      "find": "Mundamus est",
+      "replace": "Mundanus est",
+      "why": "plate prints *Mundanus*"
+    },
+    {
+      "col": "1093A",
+      "find": "runc natum",
+      "replace": "runcinatum",
+      "why": "plate prints *runcinatum* (broken i visible on both copies)"
+    },
+    {
+      "col": "1106C",
+      "find": "ipsa vetit",
+      "replace": "ipsa velit",
+      "why": "plate prints *velit*"
+    },
+    {
+      "col": "1107A",
+      "find": "semper flagrans, confirmari",
+      "replace": "semper flagrans, gaudeat se confirmari",
+      "why": "plate prints *gaudeat se*"
+    },
+    {
+      "col": "1107B",
+      "find": "hujus mei, comparem",
+      "replace": "hujus mei comparem",
+      "why": "no comma on the plate"
+    },
+    {
+      "col": "1110D",
+      "find": "Ea dilectus",
+      "replace": "En dilectus",
+      "why": "plate prints *En*"
+    },
+    {
+      "col": "1115D",
+      "find": "fortitudine, divinitatis",
+      "replace": "fortitudine divinitatis",
+      "why": "no comma on the plate"
+    },
+    {
+      "col": "1118C",
+      "find": "confirmant <hi>Capite,</hi>",
+      "replace": "confirmant. <hi>Capite,</hi>",
+      "why": "plate prints a full stop"
+    },
+    {
+      "col": "1123D",
+      "find": "quasi augusta via",
+      "replace": "quasi angusta via",
+      "why": "plate prints *angusta*"
+    },
+    {
+      "col": "1141A",
+      "find": "Columnus ejus",
+      "replace": "Columnas ejus",
+      "why": "plate prints *Columnas*"
+    },
+    {
+      "col": "1146B",
+      "find": "conpositione",
+      "replace": "compositione",
+      "why": "plate prints *compositione*"
+    },
+    {
+      "col": "1148C",
+      "find": "it, <hi>columbarum, absque\neo quod",
+      "replace": "it, <hi>colnmbarum, absque\neo quod",
+      "why": "plate prints *colnmbarum* (turned u, both copies; [sic:] owed)"
+    },
+    {
+      "col": "1159D",
+      "find": "faciam illud",
+      "replace": "faciam illua",
+      "why": "plate prints *illua* (both copies; [sic:] owed)"
+    },
+    {
+      "col": "1161D",
+      "find": "non permittitur",
+      "replace": "non permittimur",
+      "why": "plate prints *permittimur*"
+    },
+    {
+      "col": "1162B",
+      "find": "Vulnerasti eor",
+      "replace": "Vulnerasti cor",
+      "why": "plate prints *cor* (open c on B)"
+    },
+    {
+      "col": "1179B",
+      "find": "eflicit",
+      "replace": "efficit",
+      "why": "plate prints *efficit*"
+    },
+    {
+      "col": "1179D",
+      "find": "inebriata fuerat, qualem",
+      "replace": "inebriata fuerat. qualem",
+      "why": "plate prints a full stop"
+    },
+    {
+      "col": "1184C",
+      "find": "montis et corporis",
+      "replace": "mentis et corporis",
+      "why": "plate prints *mentis*"
+    },
+    {
+      "col": "1185A",
+      "find": "Exspoliavi me tunica mea,</hi> etc.",
+      "replace": "Exspoliari me tunica mea,</hi> etc.",
+      "why": "plate prints *Exspoliari* in the re-quotation ([sic:] territory: the lemma itself reads Exspoliavi)"
+    },
+    {
+      "col": "1186A",
+      "find": "mentem refiert",
+      "replace": "mentem reficit",
+      "why": "plate prints *reficit*"
+    },
+    {
+      "col": "1188B",
+      "find": "cognoscere, neque",
+      "replace": "cognoscere. neque",
+      "why": "plate prints a full stop"
+    },
+    {
+      "col": "1191B",
+      "find": "pereunctantium",
+      "replace": "percunctantium",
+      "why": "OUR ERROR: plate prints *percunctantium* (B-check C1: 4th letter open c, 2nd letter e with its eye); the [sic:] against Migne is withdrawn"
+    },
+    {
+      "col": "1201D",
+      "find": "labore. Unde",
+      "replace": "labore Unde",
+      "why": "no stop on the plate"
+    },
+    {
+      "col": "1203D",
+      "find": "tur <hi>candidatio.</hi> <",
+      "replace": "tur <hi>candidutio.</hi> <",
+      "why": "plate prints *candidutio* (both copies; [sic:] owed)"
+    },
+    {
+      "col": "1207A",
+      "find": "dilectus, meus",
+      "replace": "dilectus meus",
+      "why": "no comma on the plate"
+    },
+    {
+      "col": "1209A",
+      "find": "tertia coelestis",
+      "replace": "tertia coelestus",
+      "why": "plate prints *coelestus* ([sic:] owed)"
+    },
+    {
+      "col": "1214B",
+      "find": "misericord <hi>i</hi> am",
+      "replace": "misericordiam",
+      "why": "plate prints *misericordiam*, one roman word; the italic i is a markup artifact"
+    },
+    {
+      "col": "1215D",
+      "find": "neeessariam",
+      "replace": "necessariam",
+      "why": "OUR ERROR: plate prints *necessariam* (B-check C2, clean c at 6x)"
+    },
+    {
+      "col": "1220C",
+      "find": "qnoque",
+      "replace": "quoque",
+      "why": "plate prints *quoque*"
+    },
+    {
+      "col": "1225C",
+      "find": "quidam dici:",
+      "replace": "quidam dicit:",
+      "why": "plate prints *dicit* (t-head visible on both copies)"
+    },
+    {
+      "col": "1226C",
+      "find": "quo alibi dicit <hi>Faciamus",
+      "replace": "quo alibi dicit. <hi>Faciamus",
+      "why": "plate prints a point after *dicit*"
+    },
+    {
+      "col": "1226C",
+      "find": "sancta Trinitate.</p>",
+      "replace": "sancta Trinitate,</p>",
+      "why": "plate prints a comma"
+    },
+    {
+      "col": "1230A",
+      "find": "spritualis",
+      "replace": "spiritualis",
+      "why": "plate prints *spiritualis*"
+    },
+    {
+      "col": "1233C",
+      "find": "VERS. 3.-- <hi>Caput tuum",
+      "replace": "VERS. 5.-- <hi>Caput tuum",
+      "why": "plate prints VERS. 5"
+    },
+    {
+      "col": "1233D",
+      "find": "juncta carnalibus",
+      "replace": "juncta canalibus",
+      "why": "plate prints *canalibus* (lemma)"
+    },
+    {
+      "col": "1245D",
+      "find": "quibus eum benedicitis",
+      "replace": "quibus cum benedicitis",
+      "why": "plate prints *cum* (c confirmed on B)"
+    },
+    {
+      "col": "1246B",
+      "find": "te; ibi corrupta est mater tua,\nib",
+      "replace": "te; ibi corruvta est mater tua,\nib",
+      "why": "plate prints *corruvta* ([sic:] owed)"
+    },
+    {
+      "col": "1248D",
+      "find": "Si animadvertis",
+      "replace": "Si anidmavertis",
+      "why": "plate prints *anidmavertis* ([sic:] owed)"
+    },
+    {
+      "col": "1248D",
+      "find": "ad disciplinae et",
+      "replace": "ad di ciplinas et",
+      "why": "plate prints *di ciplinas* ([sic:] owed)"
+    },
+    {
+      "col": "1249A",
+      "find": "enim et\nconcupivit, obediv",
+      "replace": "enim et\nconcapivit, obediv",
+      "why": "plate prints *concapivit* ([sic:] owed)"
+    },
+    {
+      "col": "1254A",
+      "find": "cumponenda",
+      "replace": "componenda",
+      "why": "plate prints *com-|ponenda*"
+    },
+    {
+      "col": "1039B",
+      "find": "recti diligunt.\nte.</hi> </p>",
+      "replace": "recti diligunt\nte.</hi> </p>",
+      "why": "no stop after *diligunt* on the plate"
+    },
+    {
+      "col": "1039B",
+      "find": "super vinum;\nrecti diligunt te.",
+      "replace": "super vinnm;\nrecti diligunt te.",
+      "why": "plate prints *vinnm* (turned u) in the second subdistinction lemma; [sic:] owed"
+    },
+    {
+      "col": "1088D",
+      "find": "seriem.\nScripturarum",
+      "replace": "seriem\nScripturarum",
+      "why": "no stop on the plate"
+    },
+    {
+      "col": "1137B",
+      "find": "determinatur\nnon enim nihil",
+      "replace": "determinatur :\nnon enim nihil",
+      "why": "plate prints a colon"
+    },
+    {
+      "col": "1175A",
+      "find": "puteus aqua\nrum viventium",
+      "replace": "puteus aquarum\nviventium",
+      "why": "plate prints *aquarum*, one word"
+    },
+    {
+      "col": "1234D",
+      "find": "respicere,\ndebere",
+      "replace": "respicere\ndebere",
+      "why": "no comma on the plate"
+    },
+    {
+      "col": "1154B",
+      "find": "(I Reg.\nXV)</note>\n            </hi>. si",
+      "replace": "(I Reg.\nXV)</note>\n            </hi> : si",
+      "why": "plate prints a colon, not a full stop"
+    }
+  ]
+}

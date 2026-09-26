@@ -1,0 +1,14 @@
+kind	chunk_or_file	col	pageB	our_or_marked_form	B_reads	A_reads	verdict	note
+sic	0049	1169B	589	husjusmodi	husjusmodi	—	STANDS	B 600dpi: h-u-s-j-u-s-m-o-d-i clear, s after hu (orchestrator read, OCR-bbox crop)
+sic	0048	1162D	585	soculorum	soculorum	—	STANDS	B 600dpi: s-o-c-u-l-o-r-u-m clear, "unus soculorum idem est animi vultus"
+sic	0046	1157D	583	montitibus	monti-|[2 worn strokes]bus	—	STANDS	B 600dpi: lemma line ends *de monti-*, next line opens with two worn vertical strokes before *bus pardorum ?* — i.e. *ti*+bus; a *montibus* would open at the b. Worn, but the strokes are there (orchestrator read).
+sic	0046	1157D	583	canditatio	candi-|tatio	—	STANDS	B 600dpi: *Libanus enim candi-* / *tatio interpretatur* — t clear at line start (orchestrator read).
+sic	0046	1155B	582	pavi	pavi	—	STANDS	B 600dpi: *in Eccle-|sia pavi sunt in oculis suis* — p-a-v-i clear, no r (orchestrator read).
+sic	0047	1160D	584	es	[worn stroke]s, no stop	—	STANDS	B 600dpi: paragraph ends *vita animae* + two sorts, first worn to a thin stroke (e most likely), then s; no full stop before *Montes vero*. A two-letter truncation of *est* is on the plate either way (orchestrator read).
+sic	0032	1108C	558	sol	sol	—	STANDS	B 600dpi: *alii vero sic,* sol / unigenito — roman *sol* at line end, clear (orchestrator read).
+sic	0033	1112D	560	se	se	—	STANDS	B 600dpi: *Cur autem ad haec tantopere se invito ?* — s-e clear (orchestrator read).
+patch	cruces-0045.md	1162B	585	eor → cor	cor (open c, italic lemma *Vulnerasti cor meum, soror mea*)	ink-filled	CONFIRMED	B 600dpi, orchestrator read.
+dispute	cruces-0045.md	1152D	580	crubescenti (TEI) vs erubescenti	first glyph c/e not decidable at 600 and 1200 dpi: no clear crossbar, not the open c of *cter* either	A text layer (Google OCR) reads erubescenti — OCR is not evidence	UNDECIDABLE	No TEI patch, no [sic:]; crux only. B2 REJECTED the patch, T10 read erubescenti; the plate settles neither (orchestrator read).
+patch	cruces-0045.md	1159D	584	illud → illua	*ut faciam illua (Jer. I)* — final a clear, italic	—	CONFIRMED	B 600dpi, orchestrator read. [sic:] owed after patch.
+patch	cruces-0045.md	1161D	585	permittitur → permittimur	*discu-|tere non permittimur ;* — m-u-r clear	—	CONFIRMED	B 600dpi, orchestrator read.
+patch	cruces-0020.md	1088D	548	Ezechicle → Ezechiele	Eze?hi?le — the medial letters are ink-filled c/e shapes; cannot choose between -hicle and -hiele	—	UNDECIDABLE	No patch; TEI keeps *Ezechicle*; crux only, no [sic:] (orchestrator read).

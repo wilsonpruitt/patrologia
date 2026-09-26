@@ -1,0 +1,13 @@
+kind	chunk_or_file	col	form_or_line
+sic	0032	1108C	*sol*
+sic	0033	1112D	*se*
+sic	0046	1155B	*pavi*
+sic	0046	1157D	montitibus
+sic	0046	1157D	canditatio
+sic	0047	1160D	*es*
+sic	0048	1162D	*soculorum*
+sic	0049	1169B	*husjusmodi*
+patch	cruces-0020.md	1088D	1088D · *et in Ezechicle* → *et in Ezechiele* · p. 550 (probable, 600 dpi)
+patch	cruces-0045.md	1159D	1159D · *ut faciam illud [n: (Jer. I)]* → *ut faciam illua [n: (Jer. I)]* (A p. 586 and B p. 584 at 600 dpi both print a final *a* with no ascender; once applied, 0047 may fire `[sic: illua]` beside "it") · p. 586
+patch	cruces-0045.md	1161D	1161D · *discutere non permittitur* → *discutere non permittimur* (A p. 587, B p. 585) · p. 587
+patch	cruces-0045.md	1162B	1162B · *Vulnerasti eor meum* → *Vulnerasti cor meum* (open *c* on scan B p. 585 at 600 dpi; ink-filled on A) · p. 587

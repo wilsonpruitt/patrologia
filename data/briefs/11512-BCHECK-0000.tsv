@@ -1,0 +1,52 @@
+kind	chunk_or_file	col	pageB	our_or_marked_form	B_reads	A_reads	verdict	note
+sic	0000	1003D	506	antebac	an-|tebac	an-|tebac	STANDS	B corner cols 1003/1004 read. Letter 3 of line is b: closed bowl at baseline, not the two open legs of h (cf. hanc on same page); same on A.
+sic	0000	1004B	506	protacta	protacta	protacta	STANDS	No r after the t: p-r-o-t-a-c-t-a, second t has its short head; same on A.
+patch	cruces-0000.md	1003C	506	gratulater -> gratularer	gratula?er (thin x-height stem with a hooked flag, no crossbar = r)	same	CONFIRMED	The sort after gratula matches the r of vestris/-er in the same line (stem + flag), not the crossed t earlier in the word; worn on both copies, so probable rather than certain.
+patch	cruces-0000.md	1011D	508	(Jud. V)* Superatis -> (Jud. V)*. Superatis	(Jud. v). Su-	(Jud. v). Su-	CONFIRMED	Full stop set after the closing parenthesis on B.
+patch	cruces-0000.md	1012B	508	Materia es sponsalia -> Materia est sponsalia	Materia es[faint t-width sort] sponsa-	same	CONFIRMED	B shows the same faint half-inked sort after es as A, t-width with a hint of stem; probable, not certain (both copies share the weak impression).
+patch	cruces-0000.md	1013A	511	[n:(cum veste ... exteriores (Matth. XXII))] as note -> running text	charitatis (cum veste nuptiali venire, ne si ista ca-|reamus, in tenebras exteriores [Matth. xxii]) in cæ-|citatem ignorantiæ repellamur.	same	CONFIRMED	Running text; veste nuptiali and in tenebras exteriores italic; citation in square brackets inside the parenthesis, as proposed.
+sic	0003	1010D	509	curi	curi ,	curi ,	STANDS	Final i clear on B, then a space and comma; no s.
+patch	cruces-0005.md	1017D	513	sibi porrigi -> sibipo rrigi	stulat sibipo rrigi osculum	same	CONFIRMED	Split type: space falls after sibipo, before rrigi, on both copies.
+patch	cruces-0005.md	1018	513	Trinitatis *3,* Unde -> Trinitatis *3.* Unde	gratia Trinitatis 3, Unde	gratia Trinitatis 3. Unde (round point, tail not inked)	REJECTED	At 1200 dpi B shows a comma after the 3 with a clear tail below the baseline; A shows only the head of the same sort as a round dot. Our Latin 3, is right; drop the patch.
+sic	0005	1019B	514	praesumes	subli-|miter præsumes proclamatio?	same	STANDS	m-e-s after præsu; no n between e and s on either copy.
+patch	cruces-0005.md	1019D	514	approbunt -> approbant	quam ap-|probant hæc tria	same	CONFIRMED	Bowl a (not u) after b in -bant, clear on both copies.
+sic	0005	1020B	514	quaerat	non quærat, et pro-	same	STANDS	-rat then comma; no n before t on either copy.
+sic	0005	1020B	514	charita em	per charita em perficiat	same	STANDS	Gap where the t should be after charita on both copies; no ink in it.
+patch	cruces-0005.md	1020C	514	as erit -> asserit	as[worn s]erit	same	CONFIRMED	Faint broken traces of a second s fill the gap between as and erit on B, as on A.
+patch	cruces-0005.md	1020D	514	repento -> repente	repente	repente	CONFIRMED	Final sort at 1200 dpi matches the e's earlier in the word (inked eye at top, opening lower right); clearer still on A.
+sic	0006	1021B	515	computrui	Salvatoris computrui'.	same	STANDS	At 1200 dpi: i, then a short raised tick at x-height top (no stem, no crossbar, nothing on the baseline), then the full stop. No t body prints on either copy; the tick may be the head of a broken t, so the note should say Migne's sort is broken or missing rather than that a word is misspelt.
+misc	0006	1024B	516	fecunditata (final letter)	fecunditat[edge]	fecunditat[e/?]	UNDECIDABLE	B's scan cuts this line at the right page edge: the final sort is not on the image at all. A shows a final sort with an e-like eye overlaid by a cross-shaped blot, not a clear bowl a. Neither copy supports final -a; the site cannot be settled on B.
+patch	cruces-0005.md	1024C	516	Joanne; -> Joannes	Joanne[worn s shaped like ;] suis	Joanne[same]	CONFIRMED	After Joanne, a worn sort: a small dot above a comma-like tail, set tight to the e with no space, the shape of a worn s; the space then falls before suis. Same on A.
+sic	0007	1026C	517	ostendi se	ostendi se et	same	STANDS	A clear word space between ostendi and se on both copies; no second s.
+sic	0007	1026D	517	labora	la-|bora , et	same	STANDS	At 1200 dpi the gap between a and the comma is clean paper on B and A: no t, not even a trace.
+patch	cruces-0005.md	1026D	517	et laborat, -> et labora ,	la-|bora , et	same	CONFIRMED	As above: no t sort, space before the comma.
+patch	cruces-0005.md	1027D	518	vobismetipsis [n:(ibid.)]*. -> *:	vobismetipsis (ibid.).	vobismetipsis (ibid.): (upper mark)	REJECTED	At 1200 dpi B has one round point at the baseline and clean paper above it. A's upper mark is a small triangular speck, unlike the round lower point. B shows a full stop: our Latin is right; drop the patch.
+sic	0007	1028B	518	credentes	quia cujusque|credentes anima jam	same	STANDS	The vowel before the final s is a round letter with an eye (e), not the dotted stem of i, on both copies.
+sic	0008	1029B	519	nabeo	operandi|nabeo voluntatem	same	STANDS	At 1200 dpi on both copies the first letter is n: its left stem stops at x-height, with no ascender, unlike the b in the same word.
+patch	cruces-0005.md	1029C	519	praerogavita -> praerogativa	divinæ prærogativa rationa-	same	CONFIRMED	-tiva: t, then i, then v, then a.
+patch	cruces-0005.md	1029D	519	nulla enus -> nullatenus	nulla[worn t]enus sine	same	CONFIRMED	Faint t-shaped traces fill the gap between nulla and enus on B.
+patch	cruces-0005.md	1030D	519	virtu quin -> virtus quin	virtu[worn s] quin	same	CONFIRMED	A worn s is visible as a comma-like trace after virtu on B; the same on A.
+misc	(p. 523 A)	1033-1034	521	scan-A p. 523 corner numbers	1033 | 1034	1033 | 1034	READ	Scan A p. 523 prints 1033 top left and 1034 top right. B p. 521 prints the same, so the formula page = floor((col+13)/2) holds on A there.
+sic	0009	1032C	520	liberamine	æquo justitiæ libe-|ramine vitam	same	STANDS	At 1200 dpi: r-a-m-i-n-e after the hyphen, with an r and no second i; libe-|ramine on both copies.
+sic	0010	1035B	522	justitiaequam	corona justitiæquam reddet	same	STANDS	No space between justitiæ and quam on either copy (italic).
+patch	cruces-0010.md	1035D	522	in legem videlicet -> in Legem videlicet	in Legem videlicet	same	CONFIRMED	Capital L, the height of the T in Testamenta.
+sic	0010	1036B	522	adreverenter	adr?ver?nter (a-d-r-c-v-e-r-[a/turned e]-n-t-e-r)	same	STANDS	The fused ad (d with full ascender) is certain on both copies, so the defective word form stands. At 1600 dpi letter 4 shows as c (no eye) and letter 8 has its closed part at the bottom (a or a turned e), not the e of letter 6. The letter-for-letter spelling of the marked form is uncertain at those two vowels; the fusion is not.
+patch	cruces-0010.md	1037C	523	quam agit meus Deo -> quam agit mens Deo	quam agit mens Deo	same	CONFIRMED	The third letter is n, with its arch at the top and open at the baseline, not a u.
+patch	cruces-0010.md	1039B	524	recti diligunt. te. -> recti diligunt te.	recti dili-|gunt te.	same	CONFIRMED	No point after gunt; the line break falls dili-|gunt.
+patch	cruces-0010.md	1039B	524	super vinum; (2nd lemma) -> super vinnm;	super vinnm;	same	CONFIRMED	Italic v-i-n-n-m: the fourth sort is a turned u, reading as n; clear on both copies.
+sic	0011	1040D	524	persecutionem	persecutionem procellis	same	STANDS	At 1200 dpi the letter before the final m is e, with its eye at the top, not u.
+misc	0011	1040D	524	a regione vs Vulgate e regione	a regione	[blacked out]	READ	B prints the one-letter word as an italic a: a bowl with a right-hand stem and no eye, unlike the italic e in regione beside it. Migne reads a regione, against the Vulgate's e regione.
+sic	0012	1042C	525	Salomanis	veri Salo-|manis tentoria	same	STANDS	At 1200 dpi the second letter after the break is a two-storey a (thin but clear), not a closed round o.
+sic	0012	1044A	526	judicati saeternae	indi-|gnos vos judicati sæternæ vitæ	same	STANDS	Italic: word space after judicati, and the s set against æternæ; no s on judicati.
+sic	0012	1044B	526	fierit	salrus fierit (ibid.).	same	STANDS	Italic f-i-e-r-i-t; the vowel after r is i (dotted stem), not e.
+patch	cruces-0010.md	1044D	526	au in spiritu -> an in spiritu	ad vos, an in spiritu	same	CONFIRMED	At 1200 dpi the italic second letter has the same top-arched form as the n of the following in: n, not u.
+sic	0013	1045D (list: None)	527	grem um	unius Matris grem um pertinere	grem um (stray mark in gap)	STANDS	The list has no column: the site is col. 1045, lower left of B p. 527, above the 1046A marker, so 1045D. A word space splits grem from um, with nothing inked in it on B.
+patch	cruces-0010.md	1046C	527	vineam meam non custodit. -> custodivi.	custodiv[stub].	same	CONFIRMED	At 1200 dpi: italic custodiv, then a short baseline stub (the foot of a broken i), then the point. The v is certain and there is no t.
+sic	0013	1048B	528	alicu	quando alicu	same	STANDS	Line-final alicu: no i, no hyphen, on either copy.
+sic	0013	1048C	528	tacu	quia tacu ,	same	STANDS	Italic tacu, a space, then the comma; no i on either copy.
+patch	cruces-0010.md	1051A	530	requiescat, cujus -> requiescat. cujus	cubat et requiescat. cujus susceptio	same	CONFIRMED	A baseline point, with no comma tail, then lower-case c.
+sic	0015	1055B	532	simultane	hoc|simultane sed veraciter	same	STANDS	The word ends -tane, then a space before sed; there is no -e- or -o- ending.
+sic	0015	1055D	532	sed alium	sed alium simulatorum.	same	STANDS	Two words: sed (the e has an eye), a space, then alium.
+sic	0016	1057A	533	dici	cujusdam dici luce	same	STANDS	At 2400 dpi letter 3 is c: an open curve with a top terminal and no bar, the same form as the c of luce beside it. It is not e.
+sic	0016	1057A	533	dicitur	luce dicitur ad	same	STANDS	The second letter is a dotted i, not u, on both copies.
+patch	cruces-0015.md	1058C	533	privatoria actione injustitiae -> privatoria actione. injustitiae	privatoria actione. inju-|sti-	same	CONFIRMED	A point after actione, and lower-case i.

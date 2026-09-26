@@ -1,0 +1,48 @@
+kind	chunk_or_file	col	form_or_line
+sic	0013	1045D	*grem um*
+sic	0016	1059B	*approba um*
+sic	0016	1059C	*pulchritudinem*
+sic	0016	1059D	*santissimae*
+sic	0017	1060C	*Israelitci*
+sic	0017	1061A	*equitus*
+sic	0017	1061B	*antiquitatus*
+sic	0017	1061D	*sacra dandarum*
+sic	0017	1062C	*Eccelsia*
+sic	0017	1062D	*inedicibilis*
+sic	0017	1063D	Aethiopia
+sic	0017	1064A	*corde*
+sic	0018	1064C	*ego*
+sic	0018	1065C	*pugnativum*
+sic	0018	1065D	*proportior*
+sic	0050	1170A	etrespondebit
+sic	0050	1172D	*virtu e*
+sic	0051	1175A	*exipsius*
+sic	0051	1176C	*nostrae*
+sic	0052	1178C	*corum*
+sic	0052	1180B	*ab*
+sic	0054	1186D	inferrus
+sic	0055	1191B	*pereunctantium*
+sic	0056	1194A	*qui a*
+sic	0056	1194A	*ub*
+sic	0057	None	*secundam*
+sic	0058	1200B	*secerdotium*
+sic	0058	1201C	*tranquil itate*
+sic	0059	1205D	*ad ipisci*
+sic	0061	1213B	*begninitas*
+sic	0062	1215C	*Christianonorum*
+patch	cruces-0015.md	?	1066C · *Deum est diligere pro justitia et veritate aeterna adipiscenda vita toto animo* → *pro justitia et veritate et aeterna adipiscenda vita toto animo* · p. 539
+patch	cruces-0050.md	?	1175A · `aqua rum` → `aquarum` · p. 594 (plate *aqua-|rum*, line break)
+patch	cruces-0050.md	?	1179B · `eflicit` → `efficit` · p. 596 (plate *effi-|cit*, line break)
+patch	cruces-0050.md	?	1179D · `inebriata fuerat, qualem` → `inebriata fuerat. qualem` · p. 596 (full stop; scan B p. 594 the same)
+patch	cruces-0050.md	?	1184C · `montis et corporis` → `mentis et corporis` · p. 598 (inked *e*; scan B p. 596 the same; close read, see column note)
+patch	cruces-0050.md	?	1185A · `dicens: *Exspoliavi me tunica mea,* etc.` → `dicens: *Exspoliari me tunica mea,* etc.` · p. 599 (the re-quotation before VERS. 3 only; the lemma keeps *Exspoliavi*; scan B p. 597 the same)
+patch	cruces-0050.md	?	1186A · `mentem refiert` → `mentem reficit` · p. 599
+patch	cruces-0055.md	?	1188B · *neque ipsa eum legendo perfecte cognoscere, neque praedicando* → *neque ipsa eum legendo perfecte cognoscere. neque praedicando* (full stop printed; same on scan B p. 598) · p. 600
+patch	cruces-0055.md	?	1198A · *Venter ejus eburneus, distinctus sapphiris. Si personam* → *Venter ejus eburneus, distinctus sapphiris: Si personam* (colon printed) · p. 605
+patch	cruces-0055.md	?	1201D · *non sine aliquo labore. Unde Paulus* → *non sine aliquo labore Unde Paulus* (no stop printed; same on scan B p. 605) · p. 607
+patch	cruces-0055.md	?	1203D · *Libani, qui interpretatur candidatio.* → *Libani, qui interpretatur candidutio.* (same on scan B p. 606; a `[sic: *candidutio*]` may then be fired in 0059) · p. 608
+patch	cruces-0060.md	?	1207A · `quia *dilectus, meus descendit in` → `quia *dilectus meus descendit in` · p. 610 (no comma printed)
+patch	cruces-0060.md	?	1209A · `tertia coelestis` → `tertia coelestus` · p. 611 (plate *cœlestus*; scan B p. 609 at 600 dpi the same; a `[sic: *coelestus*]` is owed in the English once applied)
+patch	cruces-0060.md	?	1214B · `misericord *i* am quippe` → `misericordiam quippe` · p. 613 (markup: the word is printed whole in roman)
+patch	cruces-0060.md	?	1220C · `Descendit qnoque ut` → `Descendit quoque ut` · p. 616 (damaged second *q*; scan B p. 614 the same; not *n* on either)
+patch	cruces-0060.md	?	1225C · `Nam sicut quidam dici:` → `Nam sicut quidam dicit:` · p. 619 (worn final *t*; scan B p. 617 the same)
