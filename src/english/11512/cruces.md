@@ -46,3 +46,28 @@ A `[sic:]` is a public claim about Migne's type, so it needs a legible plate. Wh
 - **1040D** *a regione* against the Vulgate's *e regione*. Scan B prints an italic *a* (a bowl with a right-hand stem and no eye). The divergence is real and small, and it is rendered as printed with no marker.
 - **1169C** `[cj: scriptum; read Christum]` is kept. The column has just quoted Christ calling himself the door, and the next pronoun, *per eum*, is masculine. The conjecture is offered, not adopted.
 - **Comparand errors, not Migne's.** `clementine-flat.txt` misprints Ct 2:5 (*Fulcite in me*), Ct 4:4 (*pendant*) and 1 Rg 15:23 (*nole*). No marker was fired on any of them.
+
+## The blind read (2026-09-26)
+
+Twelve readers (R01–R12) read the Latin and English side by side without seeing the cruces. Seventy-six findings were decided one by one; the full ledger is `data/briefs/11512-ADJUDICATION.md`. **Thirty-five fixes were applied** (grammar, speaker, antecedent, lemmata that had drifted toward the familiar Bible wording, and one-voice renderings), **twenty-three sites were promoted to `[cj:]`** (twenty-five markers), six became crux lines only, and twelve were rejected with reasons.
+
+- **One of our own negation errors.** At 1261B the English had dropped a printed *non* (*cum aliud non sit potentia, aliud sapientia…*). It is restored. As printed, the clause strains against the *tamen* that follows ("yet the fruit is one and the same"), and it is left to strain.
+- **Pattern 18, applied at its actual bar.** The stints had declined several misprinted real words as "crux only" on the narrower reading that a conjecture is owed only for a negation or a correlative. The test is whether the faithful English asserts something false. Where it did, the site now carries a `[cj:]` beside the printed word, among them: 1021A *Dei* (read *olei*), 1040A *filiis ancillae*, 1067A *divina* (read *diversa*), 1078B *gratia* (read *gravis*), 1105C–1107A *adjuvare* and three *admirationis* (read *adjurare*, *adjurationis*), 1119A *sacramenta* (read *sarmenta*), 1136B *non habent* (read *nunc*), 1139B *avaritiae contra liberalitatem*, 1187D *Patri* (read *Patris*), 1206D *descendere* (read *ascendere*), 1266C *tertia novem* (read *ter tria*), 1268A *erudit*, 1273C *utilitatis* (read *humilitatis*), and 1276D *tria* (read *tristitia*).
+- **Two silent repairs undone.** At 1143C (*mentem*) and 1223A (*quadrigas*) the English had quietly translated the word the sense wants. It now renders what Migne prints ("chariots", not "charioteers") with the conjecture beside it. The plate was read at both sites and at 1273C and 1276D, and each matches our Latin.
+- **1166B** *bone* now carries `[sic: *bone*]`, as 1235A already did.
+- **Migne's bracketed supplements** are translated inside his brackets: 1117C *[potest]* "[can]" and 1251D *[felicitatis]* "[felicity]". These are the only two in the work.
+- **One voice:** *consuetudo* is "custom" throughout; *filiis* is "sons" at both occurrences of Mt 27:25; *lectulus* is "bed"; *pacificus* "peaceable"; *cyprus* "Cyprus" (the plant Wolbero etymologizes as "sadness"), distinct from *cypressus* "cypress"; *monilia* "necklaces"; and *proportior*, which recurs four times and is Wolbero's own word, "greater in proportion", with no `[sic:]`. The Latin litotes *non absurde* and *non incongrue* are rendered "can, not absurdly, …", because "can not absurdly" reads as "cannot".
+
+### New crux lines (no change to the English)
+
+- **1046B** *gesta* is rendered "borne"; *dejecta* ("cast down") would suit the fall of the angels.
+- **1164A** As printed, the sentence argues against itself. Either *imperfectam* is for *perfectam*, or a *non* before *suscipit* is intrusive.
+- **1167C** *cera mellis*. The work's own gloss at 1178C (*cera est mollis et flexibilis*) supports *mollis*.
+- **1206A** *quempiam moveri*: an *ad* may have dropped.
+- **1222A** *sibi* is rendered "it"; *tibi* is possible.
+- **1260B** *deficiens*, where *deferens* ("bringing") would sit better beside *vir affert*.
+
+### Superseded lines in the stint files
+
+- `cruces-0005.md`, 1027D: the colon patch there was **rejected** on the second copy. Our Latin's full stop is right and the English follows it.
+- `cruces-0070.md`, 1251D: "kept untranslated" is superseded. The supplement is now "[felicity]".

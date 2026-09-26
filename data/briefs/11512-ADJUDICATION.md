@@ -1,0 +1,93 @@
+# Wolbero 11512 — adjudication of blind reads R01–R12 (2026-09-26)
+
+Brief: `data/briefs/11512-ADJUDICATION-BRIEF.md`. Verdicts: APPLIED / PROMOTED-CJ / CRUX-ONLY / REJECTED / TEI-PATCH-NEEDED.
+English chunks only were edited; `node scripts/verify-english.mjs 11512` run after each edited chunk.
+
+| finding | chunk | col | verdict | change | why |
+|---|---|---|---|---|---|
+| R01 F1 | 0003 | 1012C | APPLIED | "speaking of himself" → "speaking by himself" | *per se* = directly, the contrast with *per aenigmata*; reader's parse right |
+| R01 F2 | 0003 | 1013A | APPLIED | "we ought to come to the nuptials" → "we ought to the nuptials" | brief ruling 6: *venire* rendered once, where the Latin prints it (inside the `[nt:]`) |
+| R01 F3 | 0005 | 1020D | APPLIED | "as if reason did not permit one to approach" → "when, as it were, reason does not permit one to approach" | *quasi … non permittat* states the real objection (0006 answers it *non de repente sed paulatim*); "as if" made it counterfactual |
+| R01 F4 | 0005 | 1020B | APPLIED | "she may be brought through charity [sic] to perfection in that highest good" → "she may make her way through charity [sic: *charita em*] to that highest good" | *perficiat* active, *ad* = goal |
+| R01 F5 | 0006 | 1021A | PROMOTED-CJ | "the nature of God [cj: *Dei*; read *olei*, "of oil"] to be borne above all liquids" | English asserts a physical property of God; Wolbero himself says it of oil at 1025D/1032A; the ἔλεος/oil play needs *olei*. Stint decline (cruces-0005) overruled on the corrected bar |
+| R01 F6 | 0006 | 1024B | CRUX-ONLY | none | *fecunditata* already in cruces.md "undecidable on both copies" (scan B cuts the line); no marker without a legible plate |
+| R02 F1 | 0011 | 1040A | PROMOTED-CJ | "inflicted on the sons of the bondwoman [cj: *filiis ancillae*; read *a filiis ancillae*, "by the sons of the bondwoman"]" | reverses who persecutes whom: 1040B *filios … liberae persequuntur filii ancillae*; stint decline rested on the too-narrow "negation/correlative" bar |
+| R02 F2 | 0011 | 1039B | APPLIED | both lemma commas → semicolons ("in thee; mindful", "wine [sic: vinnm]; the right") | Pattern 8; the marks carry the *subdistinctio* argument; plate p. 526 confirms the second |
+| R02 F3 | 0011 | 1040A | APPLIED | "whereas right consideration judges" → "whereas she, by right consideration, judges" | *recta consideratione* is ablative; subject of *decernat* is the Church/soul |
+| R02 F4 | 0007 | 1027D | APPLIED | colon after "(ibid.)]*" → full stop | reader withdrew on cruces-0005's colon patch, but the second copy REJECTED the colon (cruces.md); brief: English follows our Latin's full stop. cruces-0005 1027D line and its patch row are now stale |
+| R02 F5 | 0013 | 1046B | APPLIED | "from which it had been cast down" → "from which it had been borne" | "cast down" was a silent repair of *gesta fuerat*. No `[cj:]`: printed sense (man carried away from the glory he now regains) is odd but not false. Crux: *dejecta* conjectured |
+| R02 F6 | 0012, 0011 | 1042D, 1042A | APPLIED | 1042D "mouth:" → "mouth;"; 1042A "eye:" → "eye," | Pattern 8, our Latin's marks |
+| R02 F7 | 0010–0013 (and 19 others) | various | REJECTED | none | all 24 unitalicized `[sic:]` in the work sit inside italic lemmata (checked by script); cruces-0015 convention, no second italic |
+| R03 F1 | 0018, 0020 | 1065D | REJECTED | none (already applied) | orchestrator withdrew the `[sic: *proportior*]` and aligned "greater in proportion" |
+| R03 F2 | 0018, 0019 | 1069A, 1069D | REJECTED | none (already applied) | *monilia* "necklaces" applied by orchestrator |
+| R03 F3 | 0016 | 1057A–1058C | REJECTED | none (already applied) | capitals lowered by orchestrator |
+| R03 F4 | 0016 | 1056D | PROMOTED-CJ | "God so washed [cj: *diluerit*; read *dilexerit*, "loved"] his nature" | the *tantum … ut* Jn 3:16 frame; "washed … so that he shed his blood" makes the author say what he did not (the 11081 *munde* shape) |
+| R03 F5 | 0018 | 1067A | PROMOTED-CJ | "the cause divine [cj: *divina*; read *diversa*, "diverse"]:" | the colon clause contrasts the two causes (eternal vs transitory life); "divine" for both sides reverses the argument |
+| R03 F6 | 0016 | 1059C | CRUX-ONLY | none | "hold themselves a judge" is opaque, not a false claim; *invicem* stays in cruces-0015 |
+| R03 F7 | 0017 | 1063C | PROMOTED-CJ | "of this name [cj: *nomine*; read *homine*, "man"] exalting itself" | 2 Thess 2 *homo peccati … qui extollitur*; 1063D *ille … homo damnatus*: printed word misassigns who exalts himself |
+| R03 F8 | 0017 | 1063D | REJECTED | none | inside italic lemma (cruces-0015); reader withdrew |
+| R04 F1 | 0022 | 1079B | REJECTED | none (already applied) | litotes commas applied by orchestrator |
+| R04 F2 | 0022 | 1078B | PROMOTED-CJ | "*For charity is grace* [cj: *gratia*; read *gravis*, "heavy"], because it outweighs" | the paragraph takes the root's seven properties in order (1078A *radice gravi …*); "outweighs" glosses *gravis*; with "grace" the author states a property he did not name and the seven count to six |
+| R04 F3 | 0024 | 1087D | APPLIED | "dissembleth injuries" → "dissembleth an injury" | Prov 12:16 printed *injuriam*, singular; 7a″ conformation |
+| R04 F4 | 0024 | 1088B–C | APPLIED | "as to please both God and men; and let this be" → "that one pleases both God and men, and that this is" | *et hoc sit* is the second verb of the *ut* clause, not a jussive |
+| R04 F5 | 0023 | 1082B | APPLIED | "upon our children" → "upon our sons" | one voice with 0027 @1096B, where "sons" is load-bearing; brief ruling 5 |
+| R05 F1 | 0031 | 1105C–D | PROMOTED-CJ | "of the beloved to help [cj: *adjuvare*; read *adjurare*, "to adjure"], but" | the sentence glosses *Adjuro vos*; "help" = "bind by decretal writ" makes him define a verb the lemma lacks; 1109C *obedientiae* precedent in the same range |
+| R05 F2 | 0031 | 1106D, 1106D–1107A, 1107A | PROMOTED-CJ | `[cj: *admirationis*; read *adjurationis*, "adjuration"]` after "admiration" at all three sites | the "force … by which the sons of obedience are constrained" is an oath's; 1107B *vocis adjurantis*; "admiration" asserts a concept the passage never treats. Marked at each site because each is met on its own |
+| R05 F3 | 0031 | 1104D | APPLIED | "his left hand is under my head" → "his left hand under my head" | lemma is verbless as printed and elsewhere in the work |
+| R05 F4 | 0034 | 1119A | PROMOTED-CJ | "the sacraments [cj: *sacramenta*; read *sarmenta*, "the shoots"] of the vices" | pruning-knife figure throughout; "sacraments of the vices" makes the author say what he did not |
+| R05 F5 | 0034 | 1117D | APPLIED | "when it keeps it" → "when one keeps it" | *hanc* is the voice, so the voice cannot be *servat*'s subject |
+| R06 F1 | 0035 | 1121D | APPLIED | "the beloved fails, and cannot long follow the beloved" → "she who is beloved fails, and cannot long follow him who is beloved" | *dilecta*/*dilectum* collapsed into one English noun; the stint's own 1122D solution. 1123B and 1125C left: following pronouns disambiguate |
+| R06 F2 | 0036 | 1126B | APPLIED | "monastic life, which he himself afterwards" → "monastic life; and her he himself afterwards" | the *ut*-clause compares him with the Church, so *quam* = *Ecclesiae*; "which" bound to monastic life |
+| R06 F3 | 0038 | 1130A | PROMOTED-CJ | "but by grace [cj: *vero gratia*; read *verbi gratia*, "for example"]" | "by grace" puts a causal theological claim in his mouth where the sentence is a worked example; stint decline overruled |
+| R06 F4 | 0039 | 1133A | PROMOTED-CJ | "most fortified [cj: *munitissima*; read *minutissima*, "the smallest"]" | the sentence defines the *atomus* by the powder image (*minutissimum pulverem* 1133C–D); "most fortified" says the reverse |
+| R06 F5 | 0039 | 1135A–B | APPLIED | clause re-parsed: "that by loving one another whoever [1135B] partake of that which … to salvation, be of the unity of the body of the Church, whoever, …" | first *quicunque … participantur* is the subject of *sint*; old English made those who partake of the saving *res* "not truly take Christ" |
+| R06 F6 | 0040 | 1136B | PROMOTED-CJ | "when they do not have [cj: *non habent*; read *nunc habent*, "now have"] the Almighty" | printed negation makes the English assert the opposite of 1136A (they share omnipotence *because* they have him); *in ipso et per ipsum* presupposes it |
+| R06 F7 | 0040 | 1139B | PROMOTED-CJ | "of avarice against liberality [cj: *avaritiae contra liberalitatem*; read *liberalitatis contra avaritiam*, "of liberality against avarice"]" | every other pair is virtue vs vice; the English makes avarice the warring virtue (E13: a transposition takes `[cj:]`) |
+| R06 F8 | 0039/0040 | — | REJECTED | none (already applied) | *lectulus* "bed", *pacificus* "peaceable" aligned by orchestrator |
+| R07 F1 | 0042 | 1143C | PROMOTED-CJ | "that which the mind conceives" → "that which conceives the mind [cj: *mentem*; read *mens*, "that which the mind conceives"]" | plate read: scan A p. 578 at 600 dpi prints **mentem**, clean, matching our Latin. A real word silently repaired in the English (brief ruling 9): render the printed accusative, gloss the sense |
+| R07 F2 | 0044 | 1151B | PROMOTED-CJ | "with maternal [cj: *materna*; read *materia*, "matter"] love" | the gloss unpacks *intentione / materia / dilectione*; "maternal love" asserts a love Wolbero never names and drops the triad's middle member |
+| R07 F3 | 0045 | 1153D | PROMOTED-CJ | "adverse father [cj: *patris*; read *partis*, "party"]" | feminine *contrariae et adversae* cannot agree with *patris*; "father" names an adversary the Latin does not |
+| R07 F4 | 0048 | 1162D | REJECTED | none | cruces-0045: the letter is a damaged sort on both copies, so the printed word is not established and a `[cj:]` cannot open on it; reader concurs |
+| R07 F5 | 0048 | 1164A | CRUX-ONLY | none | brief ruling 10. For the cruces: add the reader's alternative diagnosis, an intrusive *non* before *suscipit*, beside *perfectam* for *imperfectam* |
+| R08 F1 | 0049 | 1166B | APPLIED | "works well" → "works well [sic: *bone*]" | plate read: scan B p. 587 at 600 dpi prints **bone** (open *o*, clear *e*), matching our Latin. A vocative with no slot, silently repaired; same treatment as 1235A `[sic: *bone*]` (cruces-0065). No TEI patch |
+| R08 F2 | 0049 | 1167C | CRUX-ONLY | none | "wax is of honey" is odd but true; stint decline stands. For the cruces: the work's own 1178C *cera est mollis et flexibilis* confirms *mollis* |
+| R08 F3 | 0050 | 1172A–C | REJECTED | none (already applied) | *cyprus* "Cyprus" aligned by orchestrator |
+| R08 F4 | 0053 | 1182B | APPLIED | "equal with ourselves" → "equal in ourselves" | *apud nosmetipsos* is where they are found equal to one another, not "equal to us" |
+| R08 F5 | 0054 | 1187D | PROMOTED-CJ | "speaks to the Father [cj: *Patri*; read *Patris*, "of the Father"]" | glosses Mt 10:20 *Spiritus Patris vestri*; the dative makes the Spirit address the Father (wrong addressee); stint declined on the misstated bar |
+| R08 F6 | 0054 | 1186B | REJECTED | none (already applied) | litotes commas applied by orchestrator |
+| R08 F6b | 0055 | 1189B–C | REJECTED | none (already applied) | same |
+| R08 F7 | 0054 | 1187B | APPLIED | "My soul melted when my beloved spoke" → "The soul melted when the beloved spoke" | Migne prints *Anima liquefacta est ut dilectus locutus est*, no possessive; 7a″ conformation undone (brief ruling 4) |
+| R09 F1 | 0056, 0057 | 1195A, 1195D–1196A | APPLIED | "His lips are as lilies" → "His lips are lilies" (both sites) | Migne prints *Labia ejus lilia*, no *sicut*; the gloss itself adds *quasi lilia* (brief ruling 4) |
+| R09 F2 | 0058 | 1200B | APPLIED | "in which God was then alone known" → "in which alone God was then known" | *tantum* restricts *in quo* |
+| R09 F3 | 0058 | 1203B | APPLIED | "Still now the assembly, as it were to …" → "Still now, to the assembly, as it were to …" | *conventum* is accusative of goal, parallel to *ad … montem*; the hanging nominative did not construe. Stint crux (*Adhuc nunc* / *Ad hunc*) stands |
+| R09 F4 | 0059 | 1206A | APPLIED | "is to be moved toward someone by the mercy" → "is for someone to be moved by the mercy" | no *ad* printed; *quempiam* is the accusative subject of *moveri*; "toward" was supplied silently. For the cruces: a dropped *ad* is possible (cf. 1206C *ad quos moveatur*) |
+| R09 F5 | 0060 | 1206D | PROMOTED-CJ | "to descend [cj: *descendere*; read *ascendere*, "to ascend"] to God in mind" | the *ergo* concludes from love drawing the mind *ad superna*; the paragraph pairs soul ascending / God descending; printed word reverses the argument |
+| R09 F6 | 0060 | 1208A | APPLIED | "the return of my obedience, chanting to me, rejoicing, the praise" → "the return of my joyful obedience, chanting to me the praise" | feminine *gratulabundae*: the joy is the Bride's |
+| R09 F7 | 0061, 0062 | 1214A (×2), 1214C | APPLIED | "the only one to her mother" → "one to her mother" (three sites) | Migne prints *una*; the gloss turns on unity (brief ruling 4) |
+| R09 F8 | 0062 | 1217A | APPLIED | "and when, withdrawing" → "and when, often withdrawing" | *plerumque* had no English (brief ruling 6) |
+| R10 F1 | 0063 | 1220C | APPLIED | "whether the faithful of the Church had begun" → "whether the Churches of the faithful had begun" | *fidelium* is genitive; nominative plural *Ecclesiae* is the subject, answering the plural *vineae* |
+| R10 F2 | 0064 | 1223A | PROMOTED-CJ | "two charioteers" → "two chariots [cj: *quadrigas*; read *aurigas*, "charioteers"]" | silent repair undone (brief ruling 1): the English must render the printed *quadrigas*; the sense (masc. *duos*, Christ and the devil) needs *aurigas* |
+| R10 F3 | 0064 | 1222A | APPLIED | "there runs to meet thee" → "there runs to meet it" | *sibi* is third person (medieval = *ei*, picking up 0063's "running to meet it"); "thee" conformed it to the following address. No `[cj:]`: "it" is odd, not false. Crux: *tibi* possible |
+| R10 F4 | 0064 | 1222B | APPLIED | "as through four wheels crying out … exhorting" → "[the chariot] crying out to thee as through four wheels and four times exhorting" | genitive singular *clamantis … adhortantis* agree with *quadrigae meae*, not *rotas* |
+| R10 consuetudo | 0041, 0065 | 1139C–1140A, 1226A–B | APPLIED | "habit" → "custom" (0041 ×2, 0065 ×2) | brief ruling 5: *consuetudo* is "custom" at 12 sites (0009, 0012, 0014, 0031, 0056, 0064 ×3, 0069, 0079 ×3) against "habit" at 4; the suggestio…consuetudo list now reads alike at 0041 and 0064 |
+| R11 F1 | 0072 | 1251D | APPLIED | "the supernal [felicitatis]" → "the supernal [felicity]" | brief ruling 5: Migne's bracketed supplements are translated inside his brackets, as 1117C *[potest]* → "[can]"; these are the only two in the work. cruces-0070 1251D line is now stale |
+| R11 F2 | 0073 | 1253A | APPLIED | "cannot be spoken to" → "cannot speak to [others]" | *alloqui* is deponent, active in sense; the exposition is about her not yet fit to teach and preach |
+| R11 F3 | 0074 | 1257D | REJECTED | none | cruces.md: *pentibus*/*gentibus* undecidable on both copies, English unchanged; reader withdrew |
+| R11 F4 | 0074 | 1259B | APPLIED | "and their contempt and irreverence" → "and the contempt and irreverence of those" | *illorum* = the prelates (vs *isti*); contempt of them is contempt of God (*qui vos spernit me spernit*) |
+| R11 F5 | 0075 | 1261B | APPLIED | "though power is one thing" → "though power is not one thing" | printed *non* restored (brief ruling 2, Pattern 7a mechanism 2). No `[cj:]`: as corrected the English asserts divine simplicity, which is not false. **For the cruces:** with *non* the concessive *cum … tamen* strains (it concedes what the main clause asserts); the affirmative reading the colour simile suggests is conjecture only |
+| R11 1260B | 0075 | 1260B | CRUX-ONLY | none | *hos deficiens* ("lacking these") may be *deferens* ("bringing"), cf. *vir affert*; *deficere* + acc. construes. Crux entry, no English change (brief ruling 10) |
+| R12 F1 | 0076 | 1266C | PROMOTED-CJ | "and the third [cj: *tertia*; read *ter tria*, "thrice three"], nine" | false arithmetic in the illustration the argument rests on (parallel *bis duo quatuor*); plate = TEI per cruces-0075 |
+| R12 F2 | 0076 | 1264A | CRUX-ONLY | none | *recte negavit* already logged crux-only (cruces-0075); possibly deliberate echo; no reading proposed |
+| R12 F3 | 0077 | 1268A | PROMOTED-CJ | "as though he now instructs [cj: *erudit*; read *eruditae*, "to one now instructed"]" | *erudit … et … edoctae* is a pair describing the Bride; the English makes the Bridegroom the instructor (who does what) |
+| R12 F4 | 0079 | 1273C | PROMOTED-CJ | "the new canticle of usefulness [cj: *utilitatis*; read *humilitatis*, "of humility"]" | plate read: scan A p. 643 at 600 dpi prints **utilitatis**, clean, = TEI. The new triad answers *superbia/inobedientia/excusatio*; proof-text *humilis corde*; 1274C *a spiritu humilitatis et obedientiae*. New to the cruces |
+| R12 F5 | 0080 | 1276D | PROMOTED-CJ | "or three [cj: *tria*; read *tristitia*, "sorrow"] according to the Lord" | plate read: scan A p. 644 at 600 dpi prints **tria** whole at line end, no hyphen, = TEI. "three" injects a number into an eight-member count; *luctus sive tristitia secundum Deum* is the stock gloss (2 Cor 7:10) |
+
+## Totals
+
+APPLIED 35 · PROMOTED-CJ 23 (25 markers; 1106D–1107A carries three) · CRUX-ONLY 6 · REJECTED 12 · TEI-PATCH-NEEDED 0. Plate reads this pass (one 600 dpi crop each, deleted): 1143C *mentem* (A p. 578), 1166B *bone* (B p. 587), 1273C *utilitatis* (A p. 643), 1276D *tria* (A p. 644); all four match our Latin. Final `verify-english 11512`: OK. `plate-gate 11512`: OK.
+
+## Owed to the cruces (for the orchestrator)
+
+- Stale stint lines: cruces-0005 1027D (colon, patch row) now contradicts the English and cruces.md; cruces-0070 1251D ("kept untranslated") now reads "[felicity]".
+- Declines overruled by the new `[cj:]`s: cruces-0005 1021A, cruces-0010 1040A, cruces-0015 1056D/1063C/1067A, cruces-0020 1078B, cruces-0030 1105D/1106D–1107A/1119A, cruces-0035 1130A/1133A, cruces-0040 1136B/1139B/1151B, cruces-0045 1153D, cruces-0050 1187D, cruces-0075 1266C/1268A.
+- New crux lines: 1046B (*gesta*, conj. *dejecta*), 1167C (1178C corroborates *mollis*), 1164A (alternative: intrusive *non*), 1206A (possible dropped *ad*), 1222A (*sibi*, possibly *tibi*), 1260B (*deficiens*/*deferens*), 1261B (*non* restored; strain against *tamen*), 1143C, 1166B, 1206D, 1223A, 1273C, 1276D (new plate-read `[cj:]`/`[sic:]` sites).
