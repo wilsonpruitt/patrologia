@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-26) — WOLBERO, PL 195 (11512) · BUILT, STAGED, PREFLIGHT OK · DEPLOY NEEDS WILSON'S OK
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-26) — WOLBERO, PL 195 (11512) · ✅ LIVE ON migne.app (deployed 2026-09-26, `migne-mp4ytnt9w`, smoke-tested on the alias) · PUSHED
 
 **Ready to ship.** `build-site.mjs 11512` ran, `preflight` exits 0 (7 checks), badge **First English translation** (workStatus `none`, englishState `ours`). Page `site/pl/195/commentaria-in-canticum-canticorum/`. RECENT has it at the top.
 **Deploy (Wilson's OK):** `cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`, then smoke-test on the ALIAS: `/`, `/pl/195/commentaria-in-canticum-canticorum/`, `/cruces/pl/195/commentaria-in-canticum-canticorum/`. Then push (`git push origin master`) — also Wilson's OK.
