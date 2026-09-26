@@ -12886,6 +12886,2966 @@
      "found": "no 7091 text on this page"
     }
    ]
+  },
+  "11512": {
+   "series": "pl",
+   "volume": 195,
+   "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf (archive patrologiaecursu0195mign). The volumes.json archive item for PL 195 (patrologiaecurs68unkngoog) is an AUGUSTINE volume; ignore it.",
+   "page_map": "PDF page = floor((column + 13) / 2), calibrated at pp. 503, 510, 520, 628, 642, 645.",
+   "second_witness": "raw/scans/pl195/patrologiaecur195mign.pdf (archive patrologiaecur195mign), PDF page = floor((column + 9) / 2), calibrated at pp. 506, 520, 630, 640. Same printing, different copy. Scan A ink-fills c/e and blacks out one-letter words; reads with \"scan\": \"B\" are on this copy.",
+   "note": "Merged 2026-09-25 from data/briefs/11512-PLATE-READS-*.json (Wolbero translating run, Opus stints T01-T16). Every page of the work (pp. 507-645) read once at 300 dpi, text collated and foot read full width in the same visit; scan B at 600 dpi for ink-filled letters.",
+   "reads": [
+    {
+     "page": 507,
+     "cols": [
+      "1001",
+      "1002"
+     ],
+     "from": "1001",
+     "to": "1002",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "title page, corners unnumbered (sheet signature 32); Notitia and title not in our TEI; motto and dedication opening agree; no foot notes",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 508,
+     "cols": [
+      "1003",
+      "1004"
+     ],
+     "from": "1003A",
+     "to": "1004D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one probable TEI divergence (gratulater/gratularer, 1003C)",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 509,
+     "cols": [
+      "1005",
+      "1006"
+     ],
+     "from": "1005A",
+     "to": "1006B",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "one numbered foot note (1), set full-width mid-page under Gravius's preface, keyed after Vale (1006A band); TEI agrees",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 510,
+     "cols": [
+      "1007",
+      "1008"
+     ],
+     "from": "1007A",
+     "to": "1008D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "one numbered foot note (1), Arator locator, keyed at 1008C; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 511,
+     "cols": [
+      "1009",
+      "1010"
+     ],
+     "from": "1009A",
+     "to": "1010D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees (curi at 1010D confirmed on plate)",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 512,
+     "cols": [
+      "1011",
+      "1012"
+     ],
+     "from": "1011A",
+     "to": "1012D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; two TEI divergences (stop after (Jud. V) 1011D; es/est 1012B, probable)",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 513,
+     "cols": [
+      "1013",
+      "1014"
+     ],
+     "from": "1013A",
+     "to": "1014D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI markup divergence (1013A: running parenthesis wrapped as a note, italics and square-bracket citation lost)",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 514,
+     "cols": [
+      "1015",
+      "1016"
+     ],
+     "from": "1015A",
+     "to": "1016D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 515,
+     "cols": [
+      "1017",
+      "1018"
+     ],
+     "from": "1017",
+     "to": "1018",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "book head only in T01 range; no foot notes on the page",
+     "stint_file": "11512-PLATE-READS-0000.json"
+    },
+    {
+     "page": 515,
+     "cols": [
+      "1017",
+      "1018"
+     ],
+     "from": "1017",
+     "to": "1018D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; plate splits 'sibipo rrigi' (TEI 'sibi porrigi', 1017D); plate 'Trinitatis 3.' (TEI '*3,*', 1018)",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 516,
+     "cols": [
+      "1019",
+      "1020"
+     ],
+     "from": "1019A",
+     "to": "1020D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergences approbunt/approbant (1019D), as erit/asserit worn s (1020C), repento/repente (1020D); plate defects charita em (1020B), praesumes (1019B), quaerat (1020B); oris tui confirmed (1019A)",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 517,
+     "cols": [
+      "1021",
+      "1022"
+     ],
+     "from": "1021A",
+     "to": "1022D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate broken sort computrui' (1021B)",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 518,
+     "cols": [
+      "1023",
+      "1024"
+     ],
+     "from": "1023A",
+     "to": "1024D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI Joanne; vs plate Joannes worn s (1024C); fecunditat[.] final letter smudged, unresolved (1024B); verberum, appropinquabit, docebit confirmed",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 519,
+     "cols": [
+      "1025",
+      "1026"
+     ],
+     "from": "1025A",
+     "to": "1026D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI laborat vs plate 'labora ,' (1026D); plate split 'ostendi se' (1026C); dementia, regalium, addidit, nimis confirmed",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 520,
+     "cols": [
+      "1027",
+      "1028"
+     ],
+     "from": "1027A",
+     "to": "1028D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI '(ibid.).' vs plate '(ibid.):' (1027D); credentes, ambulamus, excidimus confirmed",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 521,
+     "cols": [
+      "1029",
+      "1030"
+     ],
+     "from": "1029A",
+     "to": "1030D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI praerogavita/praerogativa (1029C), nulla enus/nullatenus worn t (1029D), virtu/virtus worn s (1030D); imitando, opertum, nabeo confirmed",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 522,
+     "cols": [
+      "1031",
+      "1032"
+     ],
+     "from": "1031A",
+     "to": "1032D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; liberamine, minuunt, nostris, corpora confirmed",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 523,
+     "cols": [
+      "1033",
+      "1034"
+     ],
+     "from": "1033A",
+     "to": "1034D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (foot carries only the signature 'PATROL. CXCV.' and '33'); TEI agrees; nobilis, 'non possit ... non flecti', 'tristes semper, autem gaudentes' confirmed",
+     "stint_file": "11512-PLATE-READS-0005.json"
+    },
+    {
+     "page": 523,
+     "cols": [
+      "1033",
+      "1034"
+     ],
+     "from": "1034D",
+     "to": "1034D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": false,
+     "found": "partial read (lower right col only, 1034D lead-in to chunk 0010; page belongs to previous stint); TEI agrees; no foot notes in view",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 524,
+     "cols": [
+      "1035",
+      "1036"
+     ],
+     "from": "1035A",
+     "to": "1036D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; justitiaequam and adreverenter fused on plate (sic); Legem capitalized vs our legem (1035D); one-letter words blacked out on this scan",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 525,
+     "cols": [
+      "1037",
+      "1038"
+     ],
+     "from": "1037A",
+     "to": "1038D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergence meus->mens (1037C); ludum est mirabilis confirmed",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 526,
+     "cols": [
+      "1039",
+      "1040"
+     ],
+     "from": "1039A",
+     "to": "1040D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergences: stray stop 'diligunt. te.' (1039B), vinum->vinnm (1039B); servus homo confirmed (1040D var); persecutionem (sic)",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 527,
+     "cols": [
+      "1041",
+      "1042"
+     ],
+     "from": "1041A",
+     "to": "1042D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; Salomanis (sic, 1042C); Prov XVI inversion confirmed",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 528,
+     "cols": [
+      "1043",
+      "1044"
+     ],
+     "from": "1043A",
+     "to": "1044D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergence au->an (1044D); judicati saeternae, fierit (sic)",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 529,
+     "cols": [
+      "1045",
+      "1046"
+     ],
+     "from": "1045A",
+     "to": "1046D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; grem um (sic); lemma 'vineam meam custodivi' without non confirmed (1046D); TEI divergence custodit->custodiv[i] (1046C, final sort damaged)",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 530,
+     "cols": [
+      "1047",
+      "1048"
+     ],
+     "from": "1047A",
+     "to": "1048D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; alicu, tacu (sic); nomine praemonente, adivit, judicasse confirmed",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 531,
+     "cols": [
+      "1049",
+      "1050"
+     ],
+     "from": "1049A",
+     "to": "1050D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; indignationis confirmed (1050C, cj); Is 66:2 Old Latin form confirmed",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 532,
+     "cols": [
+      "1051",
+      "1052"
+     ],
+     "from": "1051A",
+     "to": "1052D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergence 'requiescat, cujus' -> 'requiescat. cujus' (1051A)",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 533,
+     "cols": [
+      "1053",
+      "1054"
+     ],
+     "from": "1053A",
+     "to": "1053A",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "read for 1053A only (to end of chunk 0014); no foot notes on page; TEI agrees for 1053A; rest of page is the next stint's",
+     "stint_file": "11512-PLATE-READS-0010.json"
+    },
+    {
+     "page": 533,
+     "cols": [
+      "1053",
+      "1054"
+     ],
+     "from": "1053B",
+     "to": "1054D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees (read from 'Hujus intellectualis diei', 1053A-B, to foot of 1054)",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 534,
+     "cols": [
+      "1055",
+      "1056"
+     ],
+     "from": "1055A",
+     "to": "1056D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate confirms simultane (1055B), sed alium and ut (1055D), diluerit (1056D)",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 535,
+     "cols": [
+      "1057",
+      "1058"
+     ],
+     "from": "1057A",
+     "to": "1058D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI divergence: 1058C plate prints a full stop after 'privatoria actione' (our Latin has none)",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 536,
+     "cols": [
+      "1059",
+      "1060"
+     ],
+     "from": "1059A",
+     "to": "1060D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate confirms approba um, pulchritudinem, santissimae (1059), Una et / matris suae / genitricis suae (1059A); second 'assimilavi' at 1060B worn/ambiguous",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 537,
+     "cols": [
+      "1061",
+      "1062"
+     ],
+     "from": "1061A",
+     "to": "1062D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate confirms equitus, antiquitatus, sacra dandarum (1061), Eccelsia, inedicibilis (1062)",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 538,
+     "cols": [
+      "1063",
+      "1064"
+     ],
+     "from": "1063A",
+     "to": "1064D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; one-letter/short word blacked at 1063B 'et bestiis' (settled on scan B); plate confirms Aethiopia (1063D), corde (1064A), ego (1064C)",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 539,
+     "cols": [
+      "1065",
+      "1066"
+     ],
+     "from": "1065A",
+     "to": "1066D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (foot carries only the signature 'PATROL. CXCV.' and '34'); one TEI divergence: 1066C first definition reads 'veritate et aeterna' (our Latin drops 'et'); plate confirms pugnativum (1065C), proportior (1065D)",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 540,
+     "cols": [
+      "1067",
+      "1068"
+     ],
+     "from": "1067A",
+     "to": "1068A",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; lower two-thirds of the page is a full-width diagram (56 FIGURA) whose labels the TEI omits; text above it agrees",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 541,
+     "cols": [
+      "1069",
+      "1070"
+     ],
+     "from": "1069A",
+     "to": "1070D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 541,
+     "cols": [
+      "1069",
+      "1070"
+     ],
+     "from": "1070D",
+     "to": "1070D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": false,
+     "found": "lead-in only (lower right column, 1070D: Cologne 59 and the leader dots before Axa quippe, through quali-); page belongs to the previous stint; TEI agrees; no foot notes on the page",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 542,
+     "cols": [
+      "1071",
+      "1072"
+     ],
+     "from": "1071A",
+     "to": "1072D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; se posuit printed as two words (1071D, sic); one-letter words blacked out on this scan",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 543,
+     "cols": [
+      "1073",
+      "1074"
+     ],
+     "from": "1073A",
+     "to": "1074D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; nemoriatur fused on plate (1074A, sic); 1 Cor 5:5 without spiritus (1074C, var)",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 544,
+     "cols": [
+      "1075",
+      "1076"
+     ],
+     "from": "1075A",
+     "to": "1076D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; ornament (1075D, sic) and sive for sine (1075D, sic); Ez 1:21 flantibus flabant (1076C, var)",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 545,
+     "cols": [
+      "1077",
+      "1078"
+     ],
+     "from": "1077A",
+     "to": "1078D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; sponsio (1077B, sic)",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 546,
+     "cols": [
+      "1079",
+      "1080"
+     ],
+     "from": "1079A",
+     "to": "1080D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergence 1080A sua vitatem -> suavitatem; dittography et sponsus et sponsus (1079C); impugnat (1079C, var); stray mark after succumbere (1080D)",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 547,
+     "cols": [
+      "1081",
+      "1082"
+     ],
+     "from": "1081A",
+     "to": "1082D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergence 1082C protantium -> portantium; double comma after commorabitur (1081C)",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 548,
+     "cols": [
+      "1083",
+      "1084"
+     ],
+     "from": "1083A",
+     "to": "1084D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; basalmo (1083B, sic), hotrum (1084D, sic), Beatus est sanctus (1084D, var); manu[s] uncertain at 1084A",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 549,
+     "cols": [
+      "1085",
+      "1086"
+     ],
+     "from": "1085A",
+     "to": "1086D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 550,
+     "cols": [
+      "1087",
+      "1088"
+     ],
+     "from": "1087A",
+     "to": "1088D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI divergences 1088D seriem. Scripturarum -> seriem Scripturarum, Ezechicle -> Ezechiele (probable, 600 dpi); genere (1087C, sic); ira viri (1087D, var)",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 551,
+     "cols": [
+      "1089",
+      "1090"
+     ],
+     "from": "1089A",
+     "to": "1089A",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "own columns only (1089A to privari); page shared with the next stint; TEI agrees; no foot notes on the page",
+     "stint_file": "11512-PLATE-READS-0020.json"
+    },
+    {
+     "page": 551,
+     "cols": [
+      "1089",
+      "1090"
+     ],
+     "from": "1089B",
+     "to": "1090D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (foot read full width); page shared with previous stint, read from 1089B (Sed cum sint) on; TEI Mundamus (1089C) vs plate Mundanus = TEI patch; appetetur (1090C) and pietatis membra (1090D) confirmed as printed; one-letter words blacked out on this scan",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 552,
+     "cols": [
+      "1091",
+      "1092"
+     ],
+     "from": "1091A",
+     "to": "1092D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees throughout (Isa. LXVI, proportionis, caput membrum confirmed); page ends 1092D with the column short",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 553,
+     "cols": [
+      "1093",
+      "1094"
+     ],
+     "from": "1093A",
+     "to": "1094D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; runc'natum (1093A): a broken i sort, the upper stroke visible between runc and natum, TEI has runc natum = TEI patch (runcinatum); gratia spiritualis, vicus, profectum, munditia confirmed as printed",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 554,
+     "cols": [
+      "1095",
+      "1096"
+     ],
+     "from": "1095A",
+     "to": "1096D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; liliuminter (1095A) fused on the plate = [sic:]; ipse tibi (Gregory) confirmed; Filii hominis (Ez 2:6) confirmed = [var:]; movit (1096C) confirmed",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 555,
+     "cols": [
+      "1097",
+      "1098"
+     ],
+     "from": "1097A",
+     "to": "1098D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (foot carries only the signature 35 and PATROL. CXCV.); ani mae (1097A) split on the plate = [sic:]; rex in Ct 2:4 lemma confirmed = [var:]; naturali colore (1098A) confirmed",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 556,
+     "cols": [
+      "1099",
+      "1100"
+     ],
+     "from": "1099A",
+     "to": "1100D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; loribus (1100C, second Fulcite lemma): first letter a damaged hooked sort, not f, read as l = [sic:]; praevalet without non (1100D) confirmed = [cj:]; disso'vi (1100D) a broken l in dissolvi, no marker",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 557,
+     "cols": [
+      "1101",
+      "1102"
+     ],
+     "from": "1101A",
+     "to": "1102D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; non profectu ... verum etiam (1101C, solum absent) confirmed = [cj:]; quae eum amplexetur / quae eum adepta fuerit (1102A) read eum; Book I ends at 1102D with Amen",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 558,
+     "cols": [
+      "1103",
+      "1104"
+     ],
+     "from": "1103A",
+     "to": "1103A",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "top of page only: LIBER SECUNDUS head (last head of chunk 0029) confirmed over the 95 PROOEMIUM; page belongs to the next stint",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 558,
+     "cols": [
+      "1103",
+      "1104"
+     ],
+     "from": "1103A",
+     "to": "1104D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate confirms 'ut quidam fuit' (1104C)",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 559,
+     "cols": [
+      "1105",
+      "1106"
+     ],
+     "from": "1105A",
+     "to": "1106D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI divergence: 1106C plate 'velit' (our Latin 'vetit'); plate confirms praepudiente (1105C), adjuvare (1105D), admirationis and sponsus (1106D); 1106C 'necessa iis' dropped sort, our necessariis taken",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 560,
+     "cols": [
+      "1107",
+      "1108"
+     ],
+     "from": "1107A",
+     "to": "1108D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; two TEI divergences: 1107A plate adds 'gaudeat se' before 'confirmari'; 1107B-C no comma in 'hujus mei comparem studii'; plate confirms sol (1108C), 'en iste stat' (1108C VERS. 9)",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 561,
+     "cols": [
+      "1109",
+      "1110"
+     ],
+     "from": "1109A",
+     "to": "1110D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI divergence: 1110D VERS. 10 plate 'En dilectus meus' (our Latin 'Ea'); plate confirms obedientiae and quoque (1109C), 'per motus' (1110A-B), 'formo sa' (1111A lemma, set at foot of 1110D)",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 562,
+     "cols": [
+      "1111",
+      "1112"
+     ],
+     "from": "1111A",
+     "to": "1112D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate confirms assumunt (1111D), se (1112D)",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 563,
+     "cols": [
+      "1113",
+      "1114"
+     ],
+     "from": "1113A",
+     "to": "1114D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; plate confirms solidaria (1113A), 'iu deserto' (1113B), VERS. 13 'Surge, propera, amica mea' (1113B)",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 564,
+     "cols": [
+      "1115",
+      "1116"
+     ],
+     "from": "1115A",
+     "to": "1116D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI divergence: 1115D plate 'ex fortitudine divinitatis' (no comma); Cologne page number printed '100' at 1116D",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 565,
+     "cols": [
+      "1117",
+      "1118"
+     ],
+     "from": "1117A",
+     "to": "1118D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI divergence: 1118C full stop after 'confirmant'; plate confirms 'exprimi [potest]' (1117C, Migne's bracket), 'confessio sit' (1117B), purvulas (1118B), conturbernium (1118D)",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 566,
+     "cols": [
+      "1119",
+      "1120"
+     ],
+     "from": "1119A",
+     "to": "1120B",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (foot read full width); TEI agrees for 1119A-1120B; plate confirms sacramenta (1119A). Rest of the page (from 'Donec aspiret dies', 1120B) belongs to the next stint",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 566,
+     "cols": [
+      "1119",
+      "1120"
+     ],
+     "from": "1120B",
+     "to": "1120D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; dicautur (1120C) printed thus; e converso with blacked-out e",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 567,
+     "cols": [
+      "1121",
+      "1122"
+     ],
+     "from": "1121A",
+     "to": "1122D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; Huic enim (1121C), servorum hinnulus (1122A) printed thus; worn sorts at qualitate (1121C), cucurristi and sed (1122C-D) where TEI has the full words",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 568,
+     "cols": [
+      "1123",
+      "1124"
+     ],
+     "from": "1123A",
+     "to": "1124D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; one TEI divergence (augusta/angusta, 1123D); praevale (1123C), gradiuntu (1123D), suscitatur (1124B), pro determinatione, sed (1124D, no non) printed thus",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 569,
+     "cols": [
+      "1125",
+      "1126"
+     ],
+     "from": "1125A",
+     "to": "1126D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; operitur (1125D) printed thus",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 570,
+     "cols": [
+      "1127",
+      "1128"
+     ],
+     "from": "1127A",
+     "to": "1128D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; full-width head '123 LIBER TERTIUS' mid-page, reading order 1127A-B, 1128A-B, [head], 1127C-D, 1128C-D; '(an. concussus?)' is an inline parenthetical in the text, not a foot note; Horace 'Omne tulit punctum' set as its own indented line",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 571,
+     "cols": [
+      "1129",
+      "1130"
+     ],
+     "from": "1129A",
+     "to": "1130D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (PATROL. CXCV signature under the left column, gathering number 36 under the right); TEI agrees; 1129D breaks off 'et cordis' without a stop and 1130A opens a new paragraph (no Migne note); testitudinis (1129A) printed thus; right column's left edge slightly clipped",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 572,
+     "cols": [
+      "1131",
+      "1132"
+     ],
+     "from": "1131A",
+     "to": "1132D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; Novem facti (1132B), seperare (1132D) printed thus",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 573,
+     "cols": [
+      "1133",
+      "1134"
+     ],
+     "from": "1133A",
+     "to": "1134D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees; quanto animus circa exteriora occupatur (1133B, no minus) printed thus",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 574,
+     "cols": [
+      "1135",
+      "1136"
+     ],
+     "from": "1135A",
+     "to": "1135D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes (foot read full width); TEI agrees for 1135; right corner number blurred, reads as 1136 by sequence; right column belongs to the next stint",
+     "stint_file": "11512-PLATE-READS-0035.json"
+    },
+    {
+     "page": 574,
+     "cols": [
+      "1135",
+      "1136"
+     ],
+     "from": "1135D",
+     "to": "1136D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1135/1136; page shared with previous stint, collated from Sancti, quoque (foot of col 1135) on; no foot notes (read full width); 1136B quando omnipotentem non habent confirmed (zoom); TEI agrees",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 575,
+     "cols": [
+      "1137",
+      "1138"
+     ],
+     "from": "1137A",
+     "to": "1138D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1137/1138; no foot notes; colon after determinatur (1137B) absent from TEI = TEI patch; Verus est enim sermo Dei (Hbr 4:12, 1138D) confirmed = [var:]; mihi (1137D) confirmed; sexagenari i (1138A) is line-end spacing",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 576,
+     "cols": [
+      "1139",
+      "1140"
+     ],
+     "from": "1139A",
+     "to": "1140D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1139/1140; no foot notes; delectasio, praecito (1139D), insinuaut (1140B) confirmed at zoom = [sic:]; VERS. 9 omits rex; avaritiae contra liberalitatem confirmed",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 577,
+     "cols": [
+      "1141",
+      "1142"
+     ],
+     "from": "1141A",
+     "to": "1142D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1141/1142; no foot notes; VERS. 10 prints Columnas (TEI Columnus) = TEI patch, confirmed at 600 dpi; Cologne 131 after 136 confirmed; fieri (1142D) confirmed",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 578,
+     "cols": [
+      "1143",
+      "1144"
+     ],
+     "from": "1143A",
+     "to": "1144D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1143/1144; no foot notes; omnia et charitate (1143A) confirmed; 1 Jo 4:20 proximum (1144B) confirmed = [var:]",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 579,
+     "cols": [
+      "1145",
+      "1146"
+     ],
+     "from": "1145A",
+     "to": "1146D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1145/1146; no foot notes; Vidimus (Hbr 2:9) confirmed; fide corporalitatis ad corporalitatem (1145C) confirmed; com-|positione vs TEI conpositione = TEI patch; exigit 137 exigit (1146D) = [d:]; vocative o at 1145D prints",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 580,
+     "cols": [
+      "1147",
+      "1148"
+     ],
+     "from": "1147A",
+     "to": "1148D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1147/1148; no foot notes; 138 CAPUT IV head in left column before VERS. 1; colnmbarum (turned u, 1148C) vs TEI columbarum = TEI patch, confirmed at 600 dpi; intrisecus confirmed = [sic:]; quo ea (1148D) confirmed = [sic:]+[var:]; unclosed parenthesis at 1148D",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 581,
+     "cols": [
+      "1149",
+      "1150"
+     ],
+     "from": "1149A",
+     "to": "1150D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1149/1150; no foot notes; ascendunt (1149B) confirmed; insti-|tutis vs TEI instititutis = TEI patch; videbimus eum (Ps 35:10, 1150C) confirmed = [var:]; one-letter a (1149D) and et (1150B) blacked out on this scan",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 582,
+     "cols": [
+      "1151",
+      "1152"
+     ],
+     "from": "1151A",
+     "to": "1151C",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1151/1152; page shared with next stint, collated to the VERS. 3 lemma (1151C); no foot notes (foot read full width); materna dilectione (1151B) confirmed",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 582,
+     "cols": [
+      "1151",
+      "1152"
+     ],
+     "from": "1151C",
+     "to": "1152D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1151/1152; page shared with T09, collated from the 143 VERS. 3 lemma (1151C) on; no foot notes (read full width); crubescenti read on A but scan B p580 at 600dpi prints erubescenti = TEI patch (sic withdrawn); gratiam (A clipped m at margin, B clean); vitta ... vitta, succendunt without stop, quanta species, gloriosa oculorum, foris est ostendere (est confirmed = [sic:]) all confirmed; Jer 3:3 with et",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 583,
+     "cols": [
+      "1153",
+      "1154"
+     ],
+     "from": "1153A",
+     "to": "1154D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1153/1154; no foot notes; Virgil line set centred on its own line (our Latin runs it inline); Horace lines lineated; petus confirmed (A, and B p581 at 600dpi) = [sic:]; patris molimina confirmed; continert = damaged n on A and B, no claim; colon after (I Reg. xv) (TEI full stop) = TEI patch, confirmed on B p581; speck before Sed (1154D) is not a mark (B clean)",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 584,
+     "cols": [
+      "1155",
+      "1156"
+     ],
+     "from": "1155A",
+     "to": "1156D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1155/1156; no foot notes; pavi confirmed (A, and B p582 at 600dpi) = [sic:]; 148; (Gal v) roman on plate; dilectae smudged, no claim; TEI agrees otherwise",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 585,
+     "cols": [
+      "1157",
+      "1158"
+     ],
+     "from": "1157A",
+     "to": "1158D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1157/1158; no foot notes; VERS. 7 without mea confirmed; monti-|tibus (two worn glyphs before bus, same on B p583) = [sic: montitibus]; candi-|tatio (A and B p583, 600dpi) = [sic: canditatio]; lemma closes with ?; profuturi, exiguae, et humana confirmed",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 586,
+     "cols": [
+      "1159",
+      "1160"
+     ],
+     "from": "1159A",
+     "to": "1160D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1159/1160; no foot notes; thalami (Job 40:16) confirmed = [var:]; dixisti (Jr 1:12) confirmed = [var:]; illua for TEI illud (A, and B p584 at 600dpi, no ascender) = TEI patch; vita animae es with no stop (A and B p584) = [sic: es]; super superbiam confirmed; 152, 153",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 587,
+     "cols": [
+      "1161",
+      "1162"
+     ],
+     "from": "1161A",
+     "to": "1162D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1161/1162; foot carries only the signature PATROL. CXCV. and gathering 27, no notes; permittimur (TEI permittitur) = TEI patch, confirmed on B p585; corporatur, supra seducitur confirmed; eor read on A but B p585 at 600dpi prints cor = TEI patch (sic withdrawn); fundamentum. dilectio (stop + lowercase); soculorum confirmed (and B p585 600dpi) = [sic:]; de'iciatur damaged sort on A and B, undecided, no claim",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 588,
+     "cols": [
+      "1163",
+      "1164"
+     ],
+     "from": "1163A",
+     "to": "1164D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1163/1164; no foot notes; indomabili corde (Act 7:51) confirmed = [var:]; Intravit mors per fenestras vestras (Jr 9:21) confirmed = [var:]; imperfectam, quos credit confirmed; virtutem and aeternam paragraph ends without stop confirmed",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 589,
+     "cols": [
+      "1165",
+      "1166"
+     ],
+     "from": "1165A",
+     "to": "1166D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1165/1166; no foot notes; (Ephes. v) after luxuria; incorruptione ... incorruptione confirmed; delecta confirmed; omn es = spacing/damaged n, no claim; TEI agrees otherwise",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 590,
+     "cols": [
+      "1167",
+      "1168"
+     ],
+     "from": "1167A",
+     "to": "1168D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1167/1168; no foot notes; cera mellis est? confirmed; ex humilitate confirmed; in proverbiis Salomonis; metaphor passage (four modes, two listed) as in TEI; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 591,
+     "cols": [
+      "1169",
+      "1170"
+     ],
+     "from": "1169A",
+     "to": "1169D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1169/1170; page shared with the next stint, collated to perdunt. (1169D), foot read full width, no foot notes; husjusmodi confirmed (and B p589 600dpi) = [sic:]; hoc est scriptum confirmed (and B p589) = [cj:]; sanctorum Scripturarum confirmed",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 591,
+     "cols": [
+      "1169",
+      "1170"
+     ],
+     "from": "1169D",
+     "to": "1170D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1169/1170; page shared with previous stint, collated from Porro propter sanctarum Scripturarum (foot of col 1169) on; no foot notes (read full width); Et dabitur liber scienti ... etrespondebit (Is 29, 1170A) confirmed = [var:] + [sic:]; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 592,
+     "cols": [
+      "1171",
+      "1172"
+     ],
+     "from": "1171A",
+     "to": "1172D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1171/1172; no foot notes; (Rom. x)? officii gratiam a Deo consequitur (1171C) confirmed; tanta divinatione providentia, permultimodas orationum confirmed; virtu e (1172D) broken sort confirmed = [sic:]; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 593,
+     "cols": [
+      "1173",
+      "1174"
+     ],
+     "from": "1173A",
+     "to": "1174D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1173/1174; no foot notes; valebit (1174D) closes paragraph without stop, as TEI; Puteus aqua-|rum line break seen on next page; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 594,
+     "cols": [
+      "1175",
+      "1176"
+     ],
+     "from": "1175A",
+     "to": "1176D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1175/1176; no foot notes; aqua-|rum (1175A) = one word, TEI 'aqua rum' = TEI patch; exipsius (1175A) fused on plate = [sic:]; captivitas enim nostrae (1176C) confirmed = [sic:]; Ubi abundavit (Mt 24:12) confirmed = [var:]",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 595,
+     "cols": [
+      "1177",
+      "1178"
+     ],
+     "from": "1177A",
+     "to": "1178D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1177/1178; no foot notes; 172 CAPUT V. head; mandata mea (Jo 14:23), requiescere faciam (Mt 11:28), percipite regnum ... ab origine mundi (Mt 25:34) confirmed = [var:] x3; uni corum (1178C) confirmed = [sic:]",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 596,
+     "cols": [
+      "1179",
+      "1180"
+     ],
+     "from": "1179A",
+     "to": "1180D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1179/1180; no foot notes; Responsum mollius (Pr 15:1), Inebriamur (Ps 35:9) confirmed = [var:]; effi-|cit (1179B) vs TEI eflicit = TEI patch; inebriata fuerat. qualem (1179D) full stop vs TEI comma = TEI patch; ab omnino non esse (1180B) confirmed = [sic:]",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 597,
+     "cols": [
+      "1181",
+      "1182"
+     ],
+     "from": "1181A",
+     "to": "1182D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1181/1182; no foot notes; calore calentibus (1181C) confirmed = [cj:]; Soror ... minime. (1181D) confirmed; loco without stop (1182A) as TEI",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 598,
+     "cols": [
+      "1183",
+      "1184"
+     ],
+     "from": "1183A",
+     "to": "1184D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1183/1184; no foot notes; amiticiae (1183C) as TEI; Greek κατα αντιλεχιν (1184A) as TEI; mentis (1184C, e with inked eye) vs TEI montis = TEI patch",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 599,
+     "cols": [
+      "1185",
+      "1186"
+     ],
+     "from": "1184D",
+     "to": "1186D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1185/1186; no foot notes; Exspoliari me tunica mea, etc. (1185A) vs TEI Exspoliavi = TEI patch; quasi muto quodam (1185C) confirmed; reficit (1186A) vs TEI refiert = TEI patch; inferrus (1186D, Ct 8:6) confirmed = [sic:]",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 600,
+     "cols": [
+      "1187",
+      "1188"
+     ],
+     "from": "1187A",
+     "to": "1188B",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1187/1188; page shared with next stint, collated to et rotae juxta ea ... sublevatur (1188B); no foot notes (read full width); Spiritus Patri loquitur (1187D) confirmed; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 600,
+     "cols": [
+      "1187",
+      "1188"
+     ],
+     "from": "1188B",
+     "to": "1188D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1187/1188; page shared with previous stint, collated from Cum ergo ad hujusmodi (1188B) to the foot of col 1188; no foot notes (read full width); 1188B plate prints a full stop in 'perfecte cognoscere. neque' (TEI comma): TEI patch",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 601,
+     "cols": [
+      "1189",
+      "1190"
+     ],
+     "from": "1189A",
+     "to": "1190D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1189/1190; no foot notes; 1190B 'dilectum alloquuntur' (masc.) confirmed; Pr 22:28 'Ne progrediaris terminos' confirmed; TEI otherwise agrees",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 602,
+     "cols": [
+      "1191",
+      "1192"
+     ],
+     "from": "1191A",
+     "to": "1192D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1191/1192; no foot notes; 1191B 'pereunctantium' (c/e ambiguous on A, e on B); VERS. 11 'Caput ejus sicut aurum optimum' and Sap 7:29 'pulchritudinem stellarum' confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 603,
+     "cols": [
+      "1193",
+      "1194"
+     ],
+     "from": "1193A",
+     "to": "1194D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1193/1194; no foot notes (signature PATROL. CXCV. 38 only); 1194A 'qui a fidelium' split and 'et ub spiritualem' confirmed (also B)",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 604,
+     "cols": [
+      "1195",
+      "1196"
+     ],
+     "from": "1195A",
+     "to": "1196D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1195/1196; no foot notes; 1196A 'secundam dant praeceptum' confirmed; Sap 'constituit (Sap. II)' confirmed; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 605,
+     "cols": [
+      "1197",
+      "1198"
+     ],
+     "from": "1197A",
+     "to": "1198D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1197/1198; no foot notes; 1197B 'incorporea' twice confirmed; 1198A lemma closes 'sapphiris:' (TEI full stop): TEI patch; 1198D '(GREGORIUS). »' unopened guillemet confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 606,
+     "cols": [
+      "1199",
+      "1200"
+     ],
+     "from": "1199A",
+     "to": "1200D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1199/1200; no foot notes; 1200B 'secerdotium' confirmed (also B); 1200A vocative O of Rom 11:33 prints; Greek διαπασον confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 607,
+     "cols": [
+      "1201",
+      "1202"
+     ],
+     "from": "1201A",
+     "to": "1202D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1201/1202; no foot notes; 1201C 'tranquil itate' split confirmed (also B); 1201D 'aliquo labore Unde' with no stop on A and B (TEI 'labore. Unde'): TEI patch; 1Ptr 2:22 'non facit' confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 608,
+     "cols": [
+      "1203",
+      "1204"
+     ],
+     "from": "1203A",
+     "to": "1204D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1203/1204; no foot notes; 1203D plate prints 'candidutio' (TEI 'candidatio'), same on B: TEI patch; 1204B 'attento adjutori' confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 609,
+     "cols": [
+      "1205",
+      "1206"
+     ],
+     "from": "1205A",
+     "to": "1206D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1205/1206; no foot notes; CAPUT VI head at 1206D (next stint); 1205C 'Auribus quippe' and 1205D 'ad ipisci' confirmed (also B); the two verse lines of the Cato distich are lineated on the plate",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 610,
+     "cols": [
+      "1207",
+      "1208"
+     ],
+     "from": "1207A",
+     "to": "1208D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1207/1208; no foot notes (full width); 1207A plate prints *dilectus meus descendit in* with NO comma after dilectus (TEI 'dilectus, meus') = TEI patch; 1207A paragraph ends 'descendit' without stop, as TEI; 208 bold; διαπασον unaccented as TEI; otherwise TEI agrees",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 611,
+     "cols": [
+      "1209",
+      "1210"
+     ],
+     "from": "1209A",
+     "to": "1210D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1209/1210; no foot notes; 1209A plate prints 'cœlestus' (scan B p.609 at 600 dpi the same) vs TEI coelestis = TEI patch; Pax Christi (Phil 4:7) confirmed = [var:]; 209/210/211 bold; otherwise TEI agrees",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 612,
+     "cols": [
+      "1211",
+      "1212"
+     ],
+     "from": "1211A",
+     "to": "1212D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1211/1212; no foot notes; quae pura gloria (1212A) confirmed; 1212C 'diversa vide?tur' damaged (scan B p.610 same damage), TEI videntur followed; 212/213 bold; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 613,
+     "cols": [
+      "1213",
+      "1214"
+     ],
+     "from": "1213A",
+     "to": "1214D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1213/1214; FOOT NOTE (3) 'Deest aliquid.' under left column, key printed at 1213A after 'qui imperfecti demonstrant' -> [cn: 3] placed; no (1) or (2) on the page; begninitas (1213B) confirmed = [sic:]; 1214A plate 'misericordiam' whole in roman (TEI 'misericord *i* am') = TEI patch (markup); Fides et substantia (Heb 11:1) confirmed (scan B p.611 too) = [var:]; matri suae (Ct 6:8) = [var:]; scan B p.611 confirms note, key region and quandoque ad",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 614,
+     "cols": [
+      "1215",
+      "1216"
+     ],
+     "from": "1215A",
+     "to": "1216D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1215/1216; no foot notes; Christiano-|norum (1215C) printed = [sic:]; 1215D neeessariam (c/e ink-filled on A and B, no marker, crux); ἐπιτριτα, διατέσ-|σερον as TEI; 1216A sanctae/approbant/agnoscunt with damaged sorts, TEI followed; 216/217/218 bold",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 615,
+     "cols": [
+      "1217",
+      "1218"
+     ],
+     "from": "1217A",
+     "to": "1218D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1217/1218; no foot notes; gloriam in spe (Rom 5:2), per sanctum (Rom 5:5) confirmed = [var:]; δια τεσσερον (1218A) as TEI; 219/220 bold; sacraments passage 1218A-D collated; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 616,
+     "cols": [
+      "1219",
+      "1220"
+     ],
+     "from": "1219A",
+     "to": "1220D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1219/1220; no foot notes; floruissent vineae (Ct 6:10) = [var:]; deliciae mundi (Rom 11:12) = [var:]; injustitiae (1219C) confirmed = [cj:]; 1220C 'Descendit quo|ue' damaged q (scan B p.614 the same) vs TEI qnoque = TEI patch to quoque; 1220C scan B reads flaruissent (worn o), scan A floruissent, TEI followed; 221/222 bold",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 617,
+     "cols": [
+      "1221",
+      "1222"
+     ],
+     "from": "1221A",
+     "to": "1222D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1221/1222; no foot notes; Evangeiii (1221B) confirmed on A and scan B p.615 = [sic:]; Aminabad x3 printed in the gloss against Aminadab in the lemma; Sunamitis (Ct 6:12) = [var:]; concupivit (Ps 44:12) = [var:]; 223/224 bold",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 618,
+     "cols": [
+      "1223",
+      "1224"
+     ],
+     "from": "1223A",
+     "to": "1224D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1223/1224; no foot notes; labens flegma (1223C) confirmed; poet line with leading dots and the four-line Gaudia pelle verse lineated as TEI; 225/226/227 bold; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 619,
+     "cols": [
+      "1225",
+      "1226"
+     ],
+     "from": "1225A",
+     "to": "1226A",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1225/1226; page shared with next stint, read to 1226A 'damnans et occidens'; foot carries only the signature line, no note; 1225C plate 'dici'' with a worn final t (scan B p.617 the same) vs TEI dici = TEI patch to dicit; HOR. reference on its own line as TEI; 228 bold",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 619,
+     "cols": [
+      "1225",
+      "1226"
+     ],
+     "from": "1226A",
+     "to": "1226D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1225/1226; page shared with previous stint, collated from Nomen quidem aequivocum (1226A) to the foot of col 1226 incl. CAPUT VII head and VERS. 1; no foot notes (read full width); 1226C plate prints 'alibi dicit. Faciamus' (TEI no stop) and 'in sancta Trinitate,' (TEI full stop): TEI patches",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 620,
+     "cols": [
+      "1227",
+      "1228"
+     ],
+     "from": "1227A",
+     "to": "1228D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1227/1228; no foot notes; 1227C lemma 'Junctura feminum tuarum' and 1228C 'non femorum, sed feminum' confirmed; 1228D 'debriantur' confirmed; TEI otherwise agrees",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 621,
+     "cols": [
+      "1229",
+      "1230"
+     ],
+     "from": "1229A",
+     "to": "1230D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1229/1230; no foot notes; 1230A plate prints 'spi-|ritualis' (TEI 'spritualis'): TEI patch; VERS. 3 at 1230A confirmed; TEI otherwise agrees",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 622,
+     "cols": [
+      "1231",
+      "1232"
+     ],
+     "from": "1231A",
+     "to": "1232D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1231/1232; no foot notes; 1231C plate prints 'dil?tionis' with no c (vowel e or a, undecidable; same on B p.620 at 600 dpi) where TEI has 'dilectionis': logged in cruces, no patch proposed as certain; 1232B 'appropinquabit' confirmed",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 623,
+     "cols": [
+      "1233",
+      "1234"
+     ],
+     "from": "1233A",
+     "to": "1234D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1233/1234; no foot notes; 1233C plate prints 'VERS. 5.' (TEI 'VERS. 3.'), 1233D 'juncta canalibus' (TEI 'carnalibus'), 1234D 'se respicere debere' with no comma: TEI patches (all confirmed on B p.621); 1234C 'caput viri Deus' confirmed",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 624,
+     "cols": [
+      "1235",
+      "1236"
+     ],
+     "from": "1235A",
+     "to": "1236D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1235/1236; no foot notes; 1235A 'mentis bone et honeste' and 'istae ista' confirmed; 1235D VERS. 8 'fructum ejus' confirmed; 1236A 'per signi praevaricationem' confirmed; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 625,
+     "cols": [
+      "1237",
+      "1238"
+     ],
+     "from": "1237A",
+     "to": "1238D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1237/1238; no foot notes; 1237C 'Labiis et dentibus ruminando' and 1238B 'Quodcirca' confirmed; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 626,
+     "cols": [
+      "1239",
+      "1240"
+     ],
+     "from": "1239A",
+     "to": "1240D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1239/1240; no foot notes; 1239C 'beatudinis' and Migne's own '(sic)' confirmed; VERS. 12 printed twice (1239A, 1239C) confirmed; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 627,
+     "cols": [
+      "1241",
+      "1242"
+     ],
+     "from": "1241A",
+     "to": "1241B",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1241/1242; page shared with next stint, collated to 'ostendi.' (1241B) above the CAPUT VIII head; foot read full width, no notes; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 627,
+     "cols": [
+      "1241",
+      "1242"
+     ],
+     "from": "1241B",
+     "to": "1242D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees (dictum es., 1242A, printed as our Latin)",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 628,
+     "cols": [
+      "1243",
+      "1244"
+     ],
+     "from": "1243A",
+     "to": "1244D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "split page: Book III ends upper half, LIBER QUARTUS full width below (anchors 1243A-C, 1244A-C, [1243], 1243D, 1244D); no foot notes; inexusabilis 1243C printed; 1244D prints a damaged 'am anquantulum for jam aliquantulum (crux only)",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 629,
+     "cols": [
+      "1245",
+      "1246"
+     ],
+     "from": "1245A",
+     "to": "1246D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; 1245D prints cum benedicitis (our eum) - TEI patch; 1246B VERS. 5 prints corruvta (our corrupta) - TEI patch",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 630,
+     "cols": [
+      "1247",
+      "1248"
+     ],
+     "from": "1247A",
+     "to": "1248D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; 1248D prints anidmavertis (our animadvertis) and ad di ciplinas (our ad disciplinae) - TEI patches",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 631,
+     "cols": [
+      "1249",
+      "1250"
+     ],
+     "from": "1249A",
+     "to": "1250D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; 1249A prints concapivit on A (our concupivit; B not legible to us, candidate only); tui 1249B printed",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 632,
+     "cols": [
+      "1251",
+      "1252"
+     ],
+     "from": "1251A",
+     "to": "1252D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 633,
+     "cols": [
+      "1253",
+      "1254"
+     ],
+     "from": "1253A",
+     "to": "1254D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; aedificemur 1253A printed; dieitur 1254A not decidable on A (c/e)",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 634,
+     "cols": [
+      "1255",
+      "1256"
+     ],
+     "from": "1255A",
+     "to": "1256D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; TEI agrees",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 635,
+     "cols": [
+      "1257",
+      "1258"
+     ],
+     "from": "1257A",
+     "to": "1258D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes; obrumbratio 1257D printed; 1257D prints gentibus with a worn g (our pentibus) - TEI patch candidate; signature PATROL. CXCV. and 40 at foot",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 636,
+     "cols": [
+      "1259",
+      "1260"
+     ],
+     "from": "1259A",
+     "to": "1259C",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "no foot notes on the page; mentuali 1259A printed; collated to end of 0074 at 1259C",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 636,
+     "cols": [
+      "1259",
+      "1260"
+     ],
+     "from": "1259C",
+     "to": "1260D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1259/1260; page shared with previous stint, collated from 'Praecepit autem sermo divinus' (1259C) to foot of col 1260; 1260A 1 Jn 2:19 'Ex nobis quidem exierunt' confirmed; 1260C Job 4:18 'iniquitatem' set roman between italics; 1260D 'attendimus.' full stop before 'procul dubio' confirmed; foot read full width: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 637,
+     "cols": [
+      "1261",
+      "1262"
+     ],
+     "from": "1261A",
+     "to": "1262D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1261/1262; text = TEI; 1261D-1262A Eph 3:18 'longitudo, latitudo, altitudo et profundum' confirmed; 1261B 'efficiunt' looks 'officiunt' on A (ink), settled on B; 1262C 'esse. quia' point undecidable; 1262D 'cliguntur' (c/e: confirmed on B); foot read full width: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 638,
+     "cols": [
+      "1263",
+      "1264"
+     ],
+     "from": "1263A",
+     "to": "1264D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1263/1264; text = TEI; ONE foot note, under col 1263: '(4) Locus obscurus.', keyed in text after 'immortalitatem' before the full stop (1263B, end of the paragraph); number read at 600 dpi on A and B and compared glyph-for-glyph with '141' on p.645 (4 has a left-projecting crossbar and closed counter, the 1s do not): printed (4); no (1)-(3) anywhere on the page; 1263D Gen 4:7 Old Latin form confirmed; 1264A 'cupit nimis' confirmed",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 639,
+     "cols": [
+      "1265",
+      "1266"
+     ],
+     "from": "1265A",
+     "to": "1266D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1265/1266; text = TEI; 1266A VERS. 12 lemma prints 'fructum ejus', second lemma 1266B 'fructus ejus'; 1266A 'aspiciam vos'; 1266B Is 5:4 'uvam, fecit autem labruscas'; 1266C 'et tertia novem' = TEI; foot: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 640,
+     "cols": [
+      "1267",
+      "1268"
+     ],
+     "from": "1267A",
+     "to": "1268D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1267/1268; text = TEI; 1267D 'VERS. 13.' without dash = TEI; 1268A 'tanquam erudit jam' = TEI; 1268C Ps 77 'audiant et narrent' confirmed; foot: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 641,
+     "cols": [
+      "1269",
+      "1270"
+     ],
+     "from": "1269A",
+     "to": "1270D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1269/1270; text = TEI; 1269A Heb 1:14 'in omnem terram' confirmed; 1269B Ps 51 'fructificavi in domo Domini' confirmed; VERS. 14 label printed with broken sorts ('Vene. 14.'), = TEI VERS. 14.; 1270B 'fuge enim subtilium rerum' (confirmed on B); foot: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 642,
+     "cols": [
+      "1271",
+      "1272"
+     ],
+     "from": "1271A",
+     "to": "1272D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1271/1272; split page: Book IV ends 1272C 'Amen.' above a rule; full-width head '282 EPILOGI LOCO / AUCTORIS PARAENESIS / Ad sacras virgines quibus haec commentaria scripsit et inscripsit.' then 1271D, 1272D; text = TEI; 1271B 'digna' roman in Mt 8:8; 1272A-B Rom 11:36 'honor et' roman; foot: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 643,
+     "cols": [
+      "1273",
+      "1274"
+     ],
+     "from": "1273A",
+     "to": "1274D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1273/1274 (running head misprinted 'COMMENT. IN CATICA'); text = TEI; 1273C 'appropinquabit' confirmed; 1273C Ps ref printed '(Psal. CXLVI)' for Ps 140:4; 1274A 'in suavem et immitem' (confirmed on B); 1274A 'elegiaca haec est tristis et misera depositio est' double est; 1274C 'testitudinis' (confirmed on B), 'ca..tu' broken sort = cantu; foot: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 644,
+     "cols": [
+      "1275",
+      "1276"
+     ],
+     "from": "1275A",
+     "to": "1276D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1275/1276; text = TEI; 1275A 'Quam' italic, 'dilecta, inquit,' roman; 'propter aquas multas'; 1276A 'Saturabuntur, inquit, campi et cedri Libani'; 1276A second ref printed '(Psal. CIII, quorum' with no closing parenthesis and first '(Psal CIII)' with no point; foot: no notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 645,
+     "cols": [
+      "1277",
+      "1278"
+     ],
+     "from": "1277A",
+     "to": "1278A",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1277/1278 (running head INDEX IN WOLBERONEM); text ends 1278A 'per omnia saecula saeculorum. Amen.' above a rule; the rest of the page is Migne's INDEX RERUM, VERBORUM ET SENTENTIARUM MEMORABILIUM AD WOLBERONIS COMMENTARIUM IN CANTICA (out of scope); 1278A 'aeterna liter' split as in TEI; no foot notes",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 534,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1059",
+      "1060"
+     ],
+     "from": "1060B",
+     "to": "1060B",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness for 1060B 'assimilavi te' (second occurrence): same worn glyph as scan A, read as v; our assimilavi stands",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 536,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1063",
+      "1064"
+     ],
+     "from": "1063B",
+     "to": "1063B",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness for Apoc. VI lemma: 'et morte, et bestiis terrae' — our Latin agrees",
+     "stint_file": "11512-PLATE-READS-0015.json"
+    },
+    {
+     "page": 549,
+     "cols": [
+      "1089",
+      "1090"
+     ],
+     "from": "1090A",
+     "to": "1090A",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: o dilecte at 1090A prints the vocative o in italic, as our Latin; corners 1089/1090 read; no foot notes; a speck after occidunt (1089C) is a blot, not a key",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 551,
+     "cols": [
+      "1093",
+      "1094"
+     ],
+     "from": "1093A",
+     "to": "1093A",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: runc'natum at 1093A shows the same broken i fragment, same printing; corners 1093/1094",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 553,
+     "cols": [
+      "1097",
+      "1098"
+     ],
+     "from": "1097A",
+     "to": "1097A",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: corporis et ani mae meae refectio, split exactly as scan A; corners 1097/1098",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 554,
+     "cols": [
+      "1099",
+      "1100"
+     ],
+     "from": "1100C",
+     "to": "1100C",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: the same damaged first sort in loribus (1100C), same printing; corners 1099/1100",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0025.json"
+    },
+    {
+     "page": 557,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1105",
+      "1106"
+     ],
+     "from": "1106C",
+     "to": "1106C",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness for 1106C: 'velit', 'portate' + spacing quad (no point), 'necessa iis' gap as on A",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 558,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1107",
+      "1108"
+     ],
+     "from": "1107B",
+     "to": "1107B",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness for Mt 6:33 at 1107B: 'et haec omnia' — our Latin agrees",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 560,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1111",
+      "1112"
+     ],
+     "from": "1111A",
+     "to": "1111D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness: 'formo sa' split as on A (1111A); 'veluti e salute' (1111D) — our Latin agrees",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 562,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1115",
+      "1116"
+     ],
+     "from": "1116D",
+     "to": "1116D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness for 2 Cor 3:18 at 1116D: 'a claritate in claritatem' — our Latin agrees",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 564,
+     "scan": "B",
+     "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf",
+     "cols": [
+      "1119",
+      "1120"
+     ],
+     "from": "1119C",
+     "to": "1119D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "second witness: VERS. 16, 17 'et inclinentur' (1119C); Jo 14:21 'diligetur a Patre' (1119D) — our Latin agrees",
+     "stint_file": "11512-PLATE-READS-0030.json"
+    },
+    {
+     "page": 575,
+     "cols": [
+      "1141",
+      "1142"
+     ],
+     "from": "1141A",
+     "to": "1142D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: corners 1141/1142 read; Columnas confirmed; same printing, no foot notes",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 578,
+     "cols": [
+      "1147",
+      "1148"
+     ],
+     "from": "1148C",
+     "to": "1148D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: corners 1147/1148 read; colnmbarum and intrisecus identical (same printing)",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 579,
+     "cols": [
+      "1149",
+      "1150"
+     ],
+     "from": "1149A",
+     "to": "1150D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, second witness: corners 1149/1150 read; a sanctis Patribus (1149D), et suorum (1150B), institutis, videbimus eum all confirmed; no foot notes",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0040.json"
+    },
+    {
+     "page": 580,
+     "scan": "B",
+     "cols": [
+      "1151",
+      "1152"
+     ],
+     "from": "1151A",
+     "to": "1152D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1151/1152; erubescenti (600dpi, closed-eye e) against A/TEI crubescenti; gratiam clean",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 581,
+     "scan": "B",
+     "cols": [
+      "1153",
+      "1154"
+     ],
+     "from": "1153A",
+     "to": "1154D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1153/1154; petus confirmed (600dpi); colon after (I Reg. xv) confirmed (600dpi); continert same damaged sort as A",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 582,
+     "scan": "B",
+     "cols": [
+      "1155",
+      "1156"
+     ],
+     "from": "1155A",
+     "to": "1156D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1155/1156; pavi confirmed (600dpi)",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 583,
+     "scan": "B",
+     "cols": [
+      "1157",
+      "1158"
+     ],
+     "from": "1157A",
+     "to": "1158D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1157/1158; monti-|[two worn glyphs]bus and candi-|tatio confirmed (600dpi)",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 584,
+     "scan": "B",
+     "cols": [
+      "1159",
+      "1160"
+     ],
+     "from": "1159A",
+     "to": "1160D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1159/1160; illua confirmed (600dpi, final a, no ascender); vita animae es, no stop (600dpi); thalami, dixisti; e contrario and a Deo legible",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 585,
+     "scan": "B",
+     "cols": [
+      "1161",
+      "1162"
+     ],
+     "from": "1161A",
+     "to": "1162D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1161/1162; cor (open c, 600dpi) against A/TEI eor; permittimur confirmed; soculorum confirmed (600dpi); de'iciatur damaged as on A",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 589,
+     "scan": "B",
+     "cols": [
+      "1169",
+      "1170"
+     ],
+     "from": "1169A",
+     "to": "1170D",
+     "depth": "partial",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "corners 1169/1170; husjusmodi and hoc est scriptum confirmed (600dpi)",
+     "stint_file": "11512-PLATE-READS-0045.json"
+    },
+    {
+     "page": 590,
+     "scan": "B",
+     "cols": [
+      "1171",
+      "1172"
+     ],
+     "depth": "targeted",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "1172A O quantae (vocative O, blacked on A) prints; virtu e same",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 593,
+     "scan": "B",
+     "cols": [
+      "1177",
+      "1178"
+     ],
+     "depth": "targeted",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "1178C uni corum same sort as A",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 594,
+     "scan": "B",
+     "cols": [
+      "1179",
+      "1180"
+     ],
+     "depth": "targeted",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "1179D fuerat. qualem same as A",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 596,
+     "scan": "B",
+     "cols": [
+      "1183",
+      "1184"
+     ],
+     "depth": "targeted",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "1184C mentis, same inked e as A; 1183C amiticiae same",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 597,
+     "scan": "B",
+     "cols": [
+      "1185",
+      "1186"
+     ],
+     "depth": "targeted",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "1185A Exspoliari same as A",
+     "stint_file": "11512-PLATE-READS-0050.json"
+    },
+    {
+     "page": 598,
+     "scan": "B",
+     "cols": [
+      "1187",
+      "1188"
+     ],
+     "from": "1188B",
+     "to": "1188D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1187/1188; 'cognoscere. neque' full stop confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 599,
+     "scan": "B",
+     "cols": [
+      "1189",
+      "1190"
+     ],
+     "from": "1190B",
+     "to": "1190B",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1189/1190; 'dilectum alloquuntur' confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 600,
+     "scan": "B",
+     "cols": [
+      "1191",
+      "1192"
+     ],
+     "from": "1191B",
+     "to": "1191B",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1191/1192; 'pereunctantium' reads e",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 601,
+     "scan": "B",
+     "cols": [
+      "1193",
+      "1194"
+     ],
+     "from": "1194A",
+     "to": "1194A",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1193/1194; 'qui a fidelium', 'et ub spiritualem' confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 604,
+     "scan": "B",
+     "cols": [
+      "1199",
+      "1200"
+     ],
+     "from": "1200A",
+     "to": "1200C",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1199/1200; 'secerdotium' confirmed; O altitudo prints",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 605,
+     "scan": "B",
+     "cols": [
+      "1201",
+      "1202"
+     ],
+     "from": "1201C",
+     "to": "1201D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1201/1202; 'tranquil itate' split and 'labore Unde' (no stop) confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 606,
+     "scan": "B",
+     "cols": [
+      "1203",
+      "1204"
+     ],
+     "from": "1203C",
+     "to": "1203D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1203/1204; 'candidutio' confirmed; 'Si naturas' (Si blacked on A) prints",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 607,
+     "scan": "B",
+     "cols": [
+      "1205",
+      "1206"
+     ],
+     "from": "1205B",
+     "to": "1205D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B corners 1205/1206; 'a sapientibus ... et revelasti' (Mt 11:25) one-letter words print; 'Ac si aperte', 'Auribus quippe', 'ad ipisci' confirmed",
+     "stint_file": "11512-PLATE-READS-0055.json"
+    },
+    {
+     "page": 609,
+     "scan": "B",
+     "cols": [
+      "1209",
+      "1210"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, 600 dpi: corners 1209/1210; cœlestus at 1209A confirmed",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 610,
+     "scan": "B",
+     "cols": [
+      "1211",
+      "1212"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B: 1212C vide.-tur same damage as A",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 611,
+     "scan": "B",
+     "cols": [
+      "1213",
+      "1214"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B: corner 1214; foot (3) Deest aliquid, Fides et substantia, quandoque ad, misericordiam all confirmed",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 612,
+     "scan": "B",
+     "cols": [
+      "1215",
+      "1216"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B: corner 1215; Christiano-|norum, neeessariam (c/e ink-filled) as A",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 614,
+     "scan": "B",
+     "cols": [
+      "1219",
+      "1220"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B: corners 1219/1220; quo|ue damaged q; flaruissent (worn o)",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 615,
+     "scan": "B",
+     "cols": [
+      "1221",
+      "1222"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B: Evangciii/Evangeiii with iii confirmed",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 617,
+     "scan": "B",
+     "cols": [
+      "1225",
+      "1226"
+     ],
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B: dici' with worn t trace",
+     "stint_file": "11512-PLATE-READS-0060.json"
+    },
+    {
+     "page": 617,
+     "cols": [
+      "1225",
+      "1226"
+     ],
+     "from": "1226C",
+     "to": "1226D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, corners 1225/1226; confirms 'dicit.' stop and 'Trinitate,' comma",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 618,
+     "cols": [
+      "1227",
+      "1228"
+     ],
+     "from": "1228D",
+     "to": "1228D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, corners 1227/1228; 'respiciens, ut' mark small, comma or stop not decidable on either copy (not claimed)",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 620,
+     "cols": [
+      "1231",
+      "1232"
+     ],
+     "from": "1231B",
+     "to": "1231C",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, corners 1231/1232; 'moeroris,' comma not claimable as stop; 'dil?tionis' has no c (600 dpi crop), vowel undecidable",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 621,
+     "cols": [
+      "1233",
+      "1234"
+     ],
+     "from": "1233C",
+     "to": "1234D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, corners 1233/1234; confirms VERS. 5., 'canalibus' (no r) at 1233D, no comma after 'respicere' at 1234D; 'a summo' prints (blacked on A)",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 622,
+     "cols": [
+      "1235",
+      "1236"
+     ],
+     "from": "1235A",
+     "to": "1235A",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, corners 1235/1236; confirms 'bone et honeste'",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 624,
+     "cols": [
+      "1239",
+      "1240"
+     ],
+     "from": "1239A",
+     "to": "1239C",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B, corners 1239/1240; confirms 'beatudinis'; 'e diverso' prints",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0065.json"
+    },
+    {
+     "page": 625,
+     "scan": "B",
+     "cols": [
+      "1241",
+      "1242"
+     ],
+     "from": "1242A",
+     "to": "1242A",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "600 dpi crop taken at 1242A; image did not display to us, no reading claimed",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 626,
+     "scan": "B",
+     "cols": [
+      "1243",
+      "1244"
+     ],
+     "from": "1243C",
+     "to": "1244D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "600 dpi crops of inexusabilis and 1244D; images partly unreadable to us",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 627,
+     "scan": "B",
+     "cols": [
+      "1245",
+      "1246"
+     ],
+     "from": "1245D",
+     "to": "1246B",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "600 dpi: cum benedicitis quando (confirms c, not e); corruvta in VERS. 5",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 628,
+     "scan": "B",
+     "cols": [
+      "1247",
+      "1248"
+     ],
+     "from": "1248D",
+     "to": "1248D",
+     "depth": "spot",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "600 dpi: anidmavertis; ad di ciplinas",
+     "stint_file": "11512-PLATE-READS-0070.json"
+    },
+    {
+     "page": 635,
+     "cols": [
+      "1261",
+      "1262"
+     ],
+     "from": "1261B",
+     "to": "1262D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B at 600 dpi, corners 1261/1262 read: 1261B 'efficiunt' (e with eye, = TEI; A's 'o' is ink); 1262D 'cliguntur' printed with c (no eye; compared with e of 'et' on the line above): Migne's type; 1262C mark after 'esse' undecidable (point or broken comma)",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 636,
+     "cols": [
+      "1263",
+      "1264"
+     ],
+     "from": "1263B",
+     "to": "1264D",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B at 600 dpi: foot '(4) Locus obscurus.' present, same glyph as A (ink-filled, not independently decisive)",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 639,
+     "cols": [
+      "1269",
+      "1270"
+     ],
+     "from": "1270B",
+     "to": "1270C",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B at 600 dpi: 1270B 'fuge enim subtilium rerum' confirmed (fuge, not fugae)",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    },
+    {
+     "page": 641,
+     "cols": [
+      "1273",
+      "1274"
+     ],
+     "from": "1274A",
+     "to": "1274C",
+     "depth": "full",
+     "date": "2026-09-25",
+     "corners_checked": true,
+     "found": "scan B at 600 dpi: 1274A 'in suavem et immitem' split confirmed; 1274C 'testitudinis' confirmed; 'ca..tu' broken there too",
+     "scan": "B",
+     "stint_file": "11512-PLATE-READS-0075.json"
+    }
+   ]
   }
  }
 }

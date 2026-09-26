@@ -1,0 +1,78 @@
+cruces_file	line
+cruces-0000.md	1003C · *gratulater* → *gratularer* · p. 508 (*non gratularer gloriam*). The letter after *gratula* is x-height, with no crossbar and a hooked top, unlike the *t* earlier in the same word. It's a probable reading on this copy alone. The English "congratulate" is the same under either reading.
+cruces-0000.md	1011D · `[n: (Jud. V)]* Superatis` → `[n: (Jud. V)]*. Superatis` · p. 512. The plate sets a full stop after the citation, and the English follows the plate.
+cruces-0000.md	1012B · *Materia es sponsalia* → *Materia est sponsalia* · p. 512. The plate shows a faint, half-inked sort the width of a *t* after *es*, before the space. This is probable, not certain: if the sort is judged absent, *es* ("thou art") has no slot and becomes a `[sic:]` candidate instead. The English renders "is".
+cruces-0000.md	1013A · markup, not words: our TEI wraps Wolbero's running parenthesis in a `<note>`, as `[n: (cum veste nuptiali venire, ne si ista careamus, in tenebras exteriores (Matth. XXII) )]`. The plate (p. 513) prints it as running text: *charitatis (cum* ***veste nuptiali*** *venire, ne si ista careamus,* ***in tenebras exteriores*** *[Matth. XXII]) in caecitatem ignorantiae repellamur.* The phrases *veste nuptiali* and *in tenebras exteriores* are italic, and the citation sits in square brackets inside the parenthesis. It's the 11085 class: the host sentence (*ne si … repellamur*) doesn't construe without the wrapped words. Proposed patch: drop the note element, restore the text and its two italic spans, and keep only `(Matth. XXII)` as the citation note. Until then the English carries the wrapped words translated at the same position as `[nt: …]`, so that note parity holds and no sentence is lost.
+cruces-0005.md	1017D · `sibi porrigi` → `sibipo rrigi` · p. 515 (split type on the plate; the English then takes `[sic: *sibipo rrigi*]`, see above)
+cruces-0005.md	1018 · `Trinitatis *3,* Unde` → `Trinitatis *3.* Unde` · p. 515
+cruces-0005.md	1019D · `approbunt` → `approbant` · p. 516
+cruces-0005.md	1020C · `as erit` → `asserit` · p. 516 (worn second *s*, visible)
+cruces-0005.md	1020D · `repento` → `repente` · p. 516
+cruces-0005.md	1024C · `Joanne;` → `Joannes` · p. 518 (worn *s* that reads like `;`)
+cruces-0005.md	1026D · `et laborat,` → `et labora ,` · p. 519 (no *t* on the plate; the English already carries `[sic: *labora*]`)
+cruces-0005.md	1027D · `vobismetipsis [n: (ibid.)]*.` → `vobismetipsis [n: (ibid.)]*:` · p. 520 (0007.md; the string `(ibid.)]*.` also occurs in 0006 and 0008, so anchor on *vobismetipsis*)
+cruces-0005.md	1029C · `praerogavita` → `praerogativa` · p. 521
+cruces-0005.md	1029D · `nulla enus` → `nullatenus` · p. 521 (worn *t*, visible)
+cruces-0005.md	1030D · `virtu quin` → `virtus quin` · p. 521 (worn *s*, visible)
+cruces-0010.md	1035D · *in legem videlicet* → *in Legem videlicet* (capital L) · p. 524
+cruces-0010.md	1037C · *quam agit meus Deo* → *quam agit mens Deo* · p. 525
+cruces-0010.md	1039B · *recti diligunt. te.* → *recti diligunt te.* (stray full stop; plate breaks *dili-|gunt te.*) · p. 526
+cruces-0010.md	1039B · *memores uberum tuorum super vinum; recti diligunt te.* (second of the two subdistinction lemmata) → *super vinnm;* (turned *u* on the plate; after patching, the English may take `[sic: vinnm]`) · p. 526
+cruces-0010.md	1044D · *au in spiritu mansuetudinis* → *an in spiritu mansuetudinis* · p. 528
+cruces-0010.md	1046C · *vineam meam non [1046C] custodit.* → *custodivi.* (plate *custodiv.*, final sort broken or uninked; the *v* is certain, a *t* is excluded) · p. 529
+cruces-0010.md	1051A · *cubat et requiescat, cujus susceptio* → *cubat et requiescat. cujus susceptio* · p. 532
+cruces-0015.md	1058C · *privatoria actione injustitiae enim malum* → *privatoria actione. injustitiae enim malum* (full stop, lower-case *i*) · p. 535
+cruces-0015.md	1066C · *Deum est diligere pro justitia et veritate aeterna adipiscenda vita toto animo* → *pro justitia et veritate et aeterna adipiscenda vita toto animo* · p. 539
+cruces-0020.md	1080A · *odoris hujus sua vitatem* → *odoris hujus suavitatem* · p. 546
+cruces-0020.md	1082C · *sicut mos est protantium* → *sicut mos est portantium* · p. 547
+cruces-0020.md	1088D · *sanctarum seriem. Scripturarum* → *sanctarum seriem Scripturarum* · p. 550
+cruces-0020.md	1088D · *et in Ezechicle* → *et in Ezechiele* · p. 550 (probable, 600 dpi)
+cruces-0025.md	1089C · *Mundamus est cessare a bono* → *Mundanus est cessare a bono* · p. 551
+cruces-0025.md	1093A · *ut manu artificis runc natum decorum* → *ut manu artificis runcinatum decorum* (plate *runc'natum*: the *i* sort broken, its upper stroke visible at one letter's width; identical on scan B p. 551) · p. 553
+cruces-0030.md	1106C · *donec ipsa vetit* → *donec ipsa velit* · p. 559
+cruces-0030.md	1107A · *dilecta semper flagrans, confirmari et defendi* → *dilecta semper flagrans, gaudeat se confirmari et defendi* · p. 560
+cruces-0030.md	1107B–C · *quando hujus mei, comparem studii* → *quando hujus mei comparem studii* · p. 560
+cruces-0030.md	1110D · *Ea dilectus meus loquitur mihi* → *En dilectus meus loquitur mihi* · p. 561
+cruces-0030.md	1115D · *quae ex fortitudine, divinitatis erant in Christo* → *quae ex fortitudine divinitatis erant in Christo* · p. 564
+cruces-0030.md	1118C · *verbis et exemplis confirmant *Capite,* inquit* → *verbis et exemplis confirmant. *Capite,* inquit* · p. 565
+cruces-0035.md	1123D · *quae est quasi augusta via* → *quae est quasi angusta via* · p. 568
+cruces-0040.md	1137B · *numerositas sexagenario numero determinatur non enim nihil* → *numerositas sexagenario numero determinatur : non enim nihil* (colon printed) · p. 575
+cruces-0040.md	1141A · *Columnus ejus fecit argenteas* → *Columnas ejus fecit argenteas* (VERS. 10; confirmed at 600-dpi zoom on scan A and on scan B p. 575) · p. 577
+cruces-0040.md	1146B · *in hujus diadematis conpositione* → *in hujus diadematis compositione* (printed *com-|positione*) · p. 579
+cruces-0040.md	1148C · *oculi tui, inquit, columbarum, absque eo quod intrisecus latet* → *oculi tui, inquit, colnmbarum, absque eo quod intrisecus latet* (turned *u*; same on scan B p. 578; a `[sic: colnmbarum]` may then be fired in 0044) · p. 580
+cruces-0040.md	1150B · *suorum praepositorum instititutis* → *suorum praepositorum institutis* (printed *insti-|tutis*; same on scan B p. 579) · p. 581
+cruces-0045.md	1152D · *peccare non crubescenti per prophetam* → *peccare non erubescenti per prophetam* (first letter an *e* with a closed eye on scan B p. 580 at 600 dpi; ink-filled on A) · p. 582
+cruces-0045.md	1154B · *nolle acquiescere [n: (I Reg. XV)]*. si impatientia* → *… [n: (I Reg. XV)]* : si impatientia* (colon printed; A p. 583, B p. 581 at 600 dpi) · p. 583
+cruces-0045.md	1159D · *ut faciam illud [n: (Jer. I)]* → *ut faciam illua [n: (Jer. I)]* (A p. 586 and B p. 584 at 600 dpi both print a final *a* with no ascender; once applied, 0047 may fire `[sic: illua]` beside "it") · p. 586
+cruces-0045.md	1161D · *discutere non permittitur* → *discutere non permittimur* (A p. 587, B p. 585) · p. 587
+cruces-0045.md	1162B · *Vulnerasti eor meum* → *Vulnerasti cor meum* (open *c* on scan B p. 585 at 600 dpi; ink-filled on A) · p. 587
+cruces-0050.md	1175A · `aqua rum` → `aquarum` · p. 594 (plate *aqua-|rum*, line break)
+cruces-0050.md	1179B · `eflicit` → `efficit` · p. 596 (plate *effi-|cit*, line break)
+cruces-0050.md	1179D · `inebriata fuerat, qualem` → `inebriata fuerat. qualem` · p. 596 (full stop; scan B p. 594 the same)
+cruces-0050.md	1184C · `montis et corporis` → `mentis et corporis` · p. 598 (inked *e*; scan B p. 596 the same; close read, see column note)
+cruces-0050.md	1185A · `dicens: *Exspoliavi me tunica mea,* etc.` → `dicens: *Exspoliari me tunica mea,* etc.` · p. 599 (the re-quotation before VERS. 3 only; the lemma keeps *Exspoliavi*; scan B p. 597 the same)
+cruces-0050.md	1186A · `mentem refiert` → `mentem reficit` · p. 599
+cruces-0055.md	1188B · *neque ipsa eum legendo perfecte cognoscere, neque praedicando* → *neque ipsa eum legendo perfecte cognoscere. neque praedicando* (full stop printed; same on scan B p. 598) · p. 600
+cruces-0055.md	1198A · *Venter ejus eburneus, distinctus sapphiris. Si personam* → *Venter ejus eburneus, distinctus sapphiris: Si personam* (colon printed) · p. 605
+cruces-0055.md	1201D · *non sine aliquo labore. Unde Paulus* → *non sine aliquo labore Unde Paulus* (no stop printed; same on scan B p. 605) · p. 607
+cruces-0055.md	1203D · *Libani, qui interpretatur candidatio.* → *Libani, qui interpretatur candidutio.* (same on scan B p. 606; a `[sic: *candidutio*]` may then be fired in 0059) · p. 608
+cruces-0060.md	1207A · `quia *dilectus, meus descendit in` → `quia *dilectus meus descendit in` · p. 610 (no comma printed)
+cruces-0060.md	1209A · `tertia coelestis` → `tertia coelestus` · p. 611 (plate *cœlestus*; scan B p. 609 at 600 dpi the same; a `[sic: *coelestus*]` is owed in the English once applied)
+cruces-0060.md	1214B · `misericord *i* am quippe` → `misericordiam quippe` · p. 613 (markup: the word is printed whole in roman)
+cruces-0060.md	1220C · `Descendit qnoque ut` → `Descendit quoque ut` · p. 616 (damaged second *q*; scan B p. 614 the same; not *n* on either)
+cruces-0060.md	1225C · `Nam sicut quidam dici:` → `Nam sicut quidam dicit:` · p. 619 (worn final *t*; scan B p. 617 the same)
+cruces-0065.md	1226C · *quo alibi dicit *Faciamus hominem* → *quo alibi dicit. *Faciamus hominem* (full stop printed; same on scan B p. 617) · p. 619
+cruces-0065.md	1226C · *pluralitatem personarum in sancta Trinitate.* → *pluralitatem personarum in sancta Trinitate,* (comma printed at the chapter's end; same on scan B p. 617) · p. 619
+cruces-0065.md	1230A · *in spritualis exercitii robur* → *in spiritualis exercitii robur* (*spi-|ritualis* across the line break) · p. 621
+cruces-0065.md	1233C · *VERS. 3.-- *Caput tuum sicut Carmelus* → *VERS. 5.-- *Caput tuum sicut Carmelus* (same on scan B p. 621) · p. 623
+cruces-0065.md	1233D · *sicut purpura regis juncta carnalibus* → *sicut purpura regis juncta canalibus* (no *r*; same on scan B p. 621) · p. 623
+cruces-0065.md	1234D · *semper se respicere, debere ad vitam* → *semper se respicere debere ad vitam* (no comma; same on scan B p. 621) · p. 623
+cruces-0065.md	⚑ Candidate, NOT ready: 1231C · *ex altera dilectionis cingitur* → plate prints *dil?tionis* (no *c*; *e* or *a* undecidable on A p. 622 and B p. 620) — needs a third witness before patching.
+cruces-0070.md	1245D · *in quibus eum benedicitis* → *in quibus cum benedicitis* (c confirmed on scan B p. 627 at 600 dpi) · p. 629
+cruces-0070.md	1246B · VERS. 5 *ibi corrupta est mater tua* → *ibi corruvta est mater tua* (same on scan B p. 627 at 600 dpi; a `[sic: corruvta]` may then be fired in 0071) · p. 629
+cruces-0070.md	1248D · *Si animadvertis quid in primo parente* → *Si anidmavertis quid in primo parente* (same on scan B p. 628; a `[sic: *anidmavertis*]` may then be fired in 0072) · p. 630
+cruces-0070.md	1248D · *ad disciplinae et obedientiae studium* → *ad di ciplinas et obedientiae studium* (same on scan B p. 628; the English already renders *disciplinas*) · p. 630
+cruces-0070.md	1257D · *ex Judaeis et pentibus congregatam* → *ex Judaeis et gentibus congregatam* (g worn on A; B crop not seen, so confirm on B before applying) · p. 635
+cruces-0070.md	Candidate, not filed: 1249A *concupivit* / plate A *concapivit* (a/u, A only); 1254A *dieitur cumponenda* / plate *dieitur com-|ponenda* (c/e undecidable on A; the *cum-* looks like a line-break artifact of ours).
+cruces-0075.md	1276A · *nidificant [n: (Psal. CIII)], quorum abundantia* → the plate prints *nidificant (Psal. CIII, quorum abundantia*, with no closing parenthesis. This is markup-level only: the patch would sit inside the `[n:]`. Low priority; recorded so the Latin can converge if the orchestrator wishes · p. 644
+cruces-0075.md	⚑ Candidate, NOT ready: 1262C · *Longa debet esse, quia* → the plate shows a baseline point after *esse* on both A p. 637 and B p. 635, and it cannot be decided between a full stop and a broken comma. It needs a third witness before patching.
