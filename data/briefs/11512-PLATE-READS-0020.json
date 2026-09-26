@@ -1,0 +1,154 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0020-0024 (stint T05). MERGE INTO data/plate-reads.json under works.11512. Pages 542-550 opened once at 300 dpi, corners read first, text collated and foot of page checked in the same visit; p. 541 read for the 1070D lead-in only; p. 551 read for 1089A (shared with next stint). No scan-B reads were needed (no one-letter word at issue in a scripture collation).",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "reads": [
+      {
+        "page": 541,
+        "cols": [
+          "1069",
+          "1070"
+        ],
+        "from": "1070D",
+        "to": "1070D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": false,
+        "found": "lead-in only (lower right column, 1070D: Cologne 59 and the leader dots before Axa quippe, through quali-); page belongs to the previous stint; TEI agrees; no foot notes on the page"
+      },
+      {
+        "page": 542,
+        "cols": [
+          "1071",
+          "1072"
+        ],
+        "from": "1071A",
+        "to": "1072D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees; se posuit printed as two words (1071D, sic); one-letter words blacked out on this scan"
+      },
+      {
+        "page": 543,
+        "cols": [
+          "1073",
+          "1074"
+        ],
+        "from": "1073A",
+        "to": "1074D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees; nemoriatur fused on plate (1074A, sic); 1 Cor 5:5 without spiritus (1074C, var)"
+      },
+      {
+        "page": 544,
+        "cols": [
+          "1075",
+          "1076"
+        ],
+        "from": "1075A",
+        "to": "1076D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees; ornament (1075D, sic) and sive for sine (1075D, sic); Ez 1:21 flantibus flabant (1076C, var)"
+      },
+      {
+        "page": 545,
+        "cols": [
+          "1077",
+          "1078"
+        ],
+        "from": "1077A",
+        "to": "1078D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees; sponsio (1077B, sic)"
+      },
+      {
+        "page": 546,
+        "cols": [
+          "1079",
+          "1080"
+        ],
+        "from": "1079A",
+        "to": "1080D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergence 1080A sua vitatem -> suavitatem; dittography et sponsus et sponsus (1079C); impugnat (1079C, var); stray mark after succumbere (1080D)"
+      },
+      {
+        "page": 547,
+        "cols": [
+          "1081",
+          "1082"
+        ],
+        "from": "1081A",
+        "to": "1082D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergence 1082C protantium -> portantium; double comma after commorabitur (1081C)"
+      },
+      {
+        "page": 548,
+        "cols": [
+          "1083",
+          "1084"
+        ],
+        "from": "1083A",
+        "to": "1084D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees; basalmo (1083B, sic), hotrum (1084D, sic), Beatus est sanctus (1084D, var); manu[s] uncertain at 1084A"
+      },
+      {
+        "page": 549,
+        "cols": [
+          "1085",
+          "1086"
+        ],
+        "from": "1085A",
+        "to": "1086D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees"
+      },
+      {
+        "page": 550,
+        "cols": [
+          "1087",
+          "1088"
+        ],
+        "from": "1087A",
+        "to": "1088D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergences 1088D seriem. Scripturarum -> seriem Scripturarum, Ezechicle -> Ezechiele (probable, 600 dpi); genere (1087C, sic); ira viri (1087D, var)"
+      },
+      {
+        "page": 551,
+        "cols": [
+          "1089",
+          "1090"
+        ],
+        "from": "1089A",
+        "to": "1089A",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "own columns only (1089A to privari); page shared with the next stint; TEI agrees; no foot notes on the page"
+      }
+    ]
+  }
+}

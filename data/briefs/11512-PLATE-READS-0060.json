@@ -1,0 +1,227 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0060-0064 (stint T13). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 610-619 each opened at 300 dpi, corners read first, text collated and foot read full width; p. 619 shared with the next stint (read to 1226A). Scan B (PDF page = floor((col+9)/2)) opened at 600 dpi at pp. 609, 610, 611, 612, 614, 615, 617. One foot note found: p. 613 (3) Deest aliquid.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 610,
+        "cols": [
+          "1207",
+          "1208"
+        ],
+        "from": "1207A",
+        "to": "1208D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1207/1208; no foot notes (full width); 1207A plate prints *dilectus meus descendit in* with NO comma after dilectus (TEI 'dilectus, meus') = TEI patch; 1207A paragraph ends 'descendit' without stop, as TEI; 208 bold; διαπασον unaccented as TEI; otherwise TEI agrees"
+      },
+      {
+        "page": 611,
+        "cols": [
+          "1209",
+          "1210"
+        ],
+        "from": "1209A",
+        "to": "1210D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1209/1210; no foot notes; 1209A plate prints 'cœlestus' (scan B p.609 at 600 dpi the same) vs TEI coelestis = TEI patch; Pax Christi (Phil 4:7) confirmed = [var:]; 209/210/211 bold; otherwise TEI agrees"
+      },
+      {
+        "page": 612,
+        "cols": [
+          "1211",
+          "1212"
+        ],
+        "from": "1211A",
+        "to": "1212D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1211/1212; no foot notes; quae pura gloria (1212A) confirmed; 1212C 'diversa vide?tur' damaged (scan B p.610 same damage), TEI videntur followed; 212/213 bold; TEI agrees"
+      },
+      {
+        "page": 613,
+        "cols": [
+          "1213",
+          "1214"
+        ],
+        "from": "1213A",
+        "to": "1214D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1213/1214; FOOT NOTE (3) 'Deest aliquid.' under left column, key printed at 1213A after 'qui imperfecti demonstrant' -> [cn: 3] placed; no (1) or (2) on the page; begninitas (1213B) confirmed = [sic:]; 1214A plate 'misericordiam' whole in roman (TEI 'misericord *i* am') = TEI patch (markup); Fides et substantia (Heb 11:1) confirmed (scan B p.611 too) = [var:]; matri suae (Ct 6:8) = [var:]; scan B p.611 confirms note, key region and quandoque ad"
+      },
+      {
+        "page": 614,
+        "cols": [
+          "1215",
+          "1216"
+        ],
+        "from": "1215A",
+        "to": "1216D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1215/1216; no foot notes; Christiano-|norum (1215C) printed = [sic:]; 1215D neeessariam (c/e ink-filled on A and B, no marker, crux); ἐπιτριτα, διατέσ-|σερον as TEI; 1216A sanctae/approbant/agnoscunt with damaged sorts, TEI followed; 216/217/218 bold"
+      },
+      {
+        "page": 615,
+        "cols": [
+          "1217",
+          "1218"
+        ],
+        "from": "1217A",
+        "to": "1218D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1217/1218; no foot notes; gloriam in spe (Rom 5:2), per sanctum (Rom 5:5) confirmed = [var:]; δια τεσσερον (1218A) as TEI; 219/220 bold; sacraments passage 1218A-D collated; TEI agrees"
+      },
+      {
+        "page": 616,
+        "cols": [
+          "1219",
+          "1220"
+        ],
+        "from": "1219A",
+        "to": "1220D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1219/1220; no foot notes; floruissent vineae (Ct 6:10) = [var:]; deliciae mundi (Rom 11:12) = [var:]; injustitiae (1219C) confirmed = [cj:]; 1220C 'Descendit quo|ue' damaged q (scan B p.614 the same) vs TEI qnoque = TEI patch to quoque; 1220C scan B reads flaruissent (worn o), scan A floruissent, TEI followed; 221/222 bold"
+      },
+      {
+        "page": 617,
+        "cols": [
+          "1221",
+          "1222"
+        ],
+        "from": "1221A",
+        "to": "1222D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1221/1222; no foot notes; Evangeiii (1221B) confirmed on A and scan B p.615 = [sic:]; Aminabad x3 printed in the gloss against Aminadab in the lemma; Sunamitis (Ct 6:12) = [var:]; concupivit (Ps 44:12) = [var:]; 223/224 bold"
+      },
+      {
+        "page": 618,
+        "cols": [
+          "1223",
+          "1224"
+        ],
+        "from": "1223A",
+        "to": "1224D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1223/1224; no foot notes; labens flegma (1223C) confirmed; poet line with leading dots and the four-line Gaudia pelle verse lineated as TEI; 225/226/227 bold; TEI agrees"
+      },
+      {
+        "page": 619,
+        "cols": [
+          "1225",
+          "1226"
+        ],
+        "from": "1225A",
+        "to": "1226A",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1225/1226; page shared with next stint, read to 1226A 'damnans et occidens'; foot carries only the signature line, no note; 1225C plate 'dici'' with a worn final t (scan B p.617 the same) vs TEI dici = TEI patch to dicit; HOR. reference on its own line as TEI; 228 bold"
+      },
+      {
+        "page": 609,
+        "scan": "B",
+        "cols": [
+          "1209",
+          "1210"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, 600 dpi: corners 1209/1210; cœlestus at 1209A confirmed"
+      },
+      {
+        "page": 610,
+        "scan": "B",
+        "cols": [
+          "1211",
+          "1212"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B: 1212C vide.-tur same damage as A"
+      },
+      {
+        "page": 611,
+        "scan": "B",
+        "cols": [
+          "1213",
+          "1214"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B: corner 1214; foot (3) Deest aliquid, Fides et substantia, quandoque ad, misericordiam all confirmed"
+      },
+      {
+        "page": 612,
+        "scan": "B",
+        "cols": [
+          "1215",
+          "1216"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B: corner 1215; Christiano-|norum, neeessariam (c/e ink-filled) as A"
+      },
+      {
+        "page": 614,
+        "scan": "B",
+        "cols": [
+          "1219",
+          "1220"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B: corners 1219/1220; quo|ue damaged q; flaruissent (worn o)"
+      },
+      {
+        "page": 615,
+        "scan": "B",
+        "cols": [
+          "1221",
+          "1222"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B: Evangciii/Evangeiii with iii confirmed"
+      },
+      {
+        "page": 617,
+        "scan": "B",
+        "cols": [
+          "1225",
+          "1226"
+        ],
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B: dici' with worn t trace"
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+# 11512 — lemma inventory and Clementine pre-scan
+
+**Commentaria in Canticum canticorum** · PL 195 · cols 1001–1278A · 81 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0015–0019, bands 1053B–1070D (98 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[1053B] *Concaluit cor meum intra me et in meditatione mea exardescit ignis [n: (Psal. XXXVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1053C] *qui enim perseveraverit usque in finem, hic salvus erit [n: (Matth. XXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1053C] *Elevatio,*   — single word, check in place
+[1053C] *manuum mearum sacrificium vespertinum [n: (Psal. CXL)]*   ✓ Ps 140:2
+[1054A] *41*   — single word, check in place
+[1054A] *Vespere, et mane et meridie narrabo et annuntiabo [n: (Psal. LIV)]*   ✓ Ps 54:18
+[1054C] *Vivit,*   — single word, check in place
+[1054C] *Dominus, cujus ignis est in Sion et caminus ejus in Jerusalem [n: (Isa. XXXVI)]*   ✓ Is 31:9
+[1054D] *speculatio,*   — single word, check in place
+[1054D] *visio pacis*   ⚠ NOT in Clementine verbatim — CHECK
+[1054D] *42*   — single word, check in place
+[1054D] *In domo*   ✓ 1Par 4:21, 1Par 4:38, 1Par 6:10, …
+[1054D] *Patris mansiones multae sunt*   ⚠ NOT in Clementine verbatim — CHECK
+[1055B] *Si quis diligit me sermonem meum servabit et Pater meus diligit eum, et ad eum veniemus et mansionem apud eum faciemus [n: (ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1055B] *Ne vagari [1055C] incipiam post greges sodalium tuorum.*   ✓ Ct 1:6
+[1055C] *greges*   — single word, check in place
+[1055C] *invenerunt eum in templo audientem et interrogantem eos [n: (Luc. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1055D] *43*   — single word, check in place
+[1056A] *Si ignoras te, o pulcherrima, inter mulieres?*   ✓ Ct 1:7
+[1056A] VERS. 7.-- *Si ignoras te, o pulcherrima inter mulieres, egredere et abi post vestigia gregum, et pasce haedos tuos juxta tabernacula pastorum.*   ✓ Ct 1:7
+[1056D] *44*   — single word, check in place
+[1057B] *Si ignoras te,*   ✓ Ct 1:7
+[1057B] *o pulcherrima inter mulieres, egredere;*   ✓ Ct 1:7
+[1057C] *egredere,*   — single word, check in place
+[1057C] *omnis ignorans ignorabitur, et nulla participatio luci ad tenebras [n: (I Cor. XIV; II Cor. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1057C] *et abi post vestigia gregum;*   ✓ Ct 1:7
+[1057C] *Et pasce haedos tuos,*   ✓ Ct 1:7
+[1057C] *sive haedos tuos,*   ⚠ NOT in Clementine verbatim — CHECK
+[1057D] *45*   — single word, check in place
+[1057D] *juxta tabernacula pastorum,*   ✓ Ct 1:7
+[1057D] *unus Dominus, una fides, unum baptisma [n: (Ephes. IV)]*   ✓ Eph 4:5
+[1057D] *Nemo potest duobus dominis servire [n: (Matth. VI)]*   ✓ Mt 6:24
+[1057D] *quia omnis qui diligit mundum non est charitas Patris in illo [n: (I Joan. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1058A] *Aut facite arborem bonam et fructum ejus bonum, aut facite arborem malam et fructum ejus malum [n: (Matth. XII)]*   ✓ Mt 12:33
+[1058B] *omnia enim quae fecit Deus erant valde bona [n: (Gen. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1058C] *Si ignoras te, o pulcherrima inter mulieres, egredere et abi post vestigia gregum,*   ✓ Ct 1:7
+[1058C] *46*   — single word, check in place
+[1059A] *sexaginta sunt reginae et octoginta concubinae et adolescentularum non est numerus,*   ✓ Ct 6:7
+[1059A] *Una et columba mea, perfecta mea, una est matris suae electa genitricis suae [n: (Cant. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1059A] *Domine, bonum est nos hic esse, faciamus hic tria tabernacula, tibi unum, Moysi unum et [1059B] Eliae unum [n: (Matth. XVII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1059B] *Aspectus,*   — single word, check in place
+[1059B] *rotarum et opera velut si sit rota in medio rotae [n: (Ezech. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1059C] *47*   — single word, check in place
+[1060A] *Quam dilecta tua tabernacula, Domine virtutum, concupiscit et deficit anima mea in [1060B] atria Domini [n: (Psal. LXXXIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1060B] VERS. 9.-- *Equitatui meo in curribus Pharaonis assimilavi te, amica mea.*   ✓ Ct 1:8
+[1060B] *48*   — single word, check in place
+[1060B] *Equitatui meo in curribus Pharaonis assimilavi te, amica mea.*   ✓ Ct 1:8
+[1061B] *49*   — single word, check in place
+[1062B] *non*   — single word, check in place
+[1062B] *hic manentem civitatem, sed futuram*   ✓ Hbr 13:14
+[1062B] *50*   — single word, check in place
+[1062C] *visio pacis*   ⚠ NOT in Clementine verbatim — CHECK
+[1062C] *confusio*   — single word, check in place
+[1062C] *Currus Dei decem millibus multiplex, millia laetantium in eis [n: (Psal. XLVII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1062C] *qui ascendis super equos tuos; et equitatus tuus sanitas est*   ⚠ NOT in Clementine verbatim — CHECK
+[1063A] *A finibus terrae laudes audivimus gloriam justi [n: (Isa. XXIV)]*   ✓ Is 24:16
+[1063A] *51*   — single word, check in place
+[1063B] *infernus sequebatur eum, et data est ei potestas super quatuor partes terrae occidere et interficere gladio, et fame, et morte, et bestiis terrae [n: (Apoc. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1063C] *supra omne quod dicitur Deus, aut quod colitur [n: (II Thessal. II)]*   ✓ 2Thes 2:4
+[1063C] *Vae terrae cymbalo alarum quae est trans flumina Aethiopiae, qui mittit in mare legatos et in vasis papyri super aquas [n: (Isa. XVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1063D] *vae*   — single word, check in place
+[1063D] *trans flumina Aethiopiae*   ✓ Is 18:1
+[1063D] *Vae*   — single word, check in place
+[1063D] *trans flumina Aethiopia*   ⚠ NOT in Clementine verbatim — CHECK
+[1063D] *Qui mittit in mare legatos,*   ✓ Is 18:2
+[1063D] *in vasis papyri super aquas.*   ✓ Is 18:2
+[1064A] *In vasis*   ✓ 1Rg 21:5, 2Cor 4:7, Esr 1:6, …
+[1064A] *super aquas legatos*   ⚠ NOT in Clementine verbatim — CHECK
+[1064A] *52*   — single word, check in place
+[1064A] *Ibi Assur et omnis multitudo ejus, et in circuitu ejus sepulcra illius [n: (Ezech. XXXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1064A] *Et ipse est rex super omnes filios superbiae? [n: (Job XLI.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1064A] *autem Assur,*   ⚠ NOT in Clementine verbatim — CHECK
+[1064A] *omnis multitudo ejus,*   ✓ Ez 31:18, Ez 32:22, Ez 32:24, …
+[1064B] *Et in circuitu ejus sepulcra illius:*   ⚠ NOT in Clementine verbatim — CHECK
+[1064B] *In circuitu*   ✓ 1Mcc 1:33, 1Mcc 1:57, 1Mcc 3:25, …
+[1064B] *ejus sepulcra illius sunt,*   ⚠ NOT in Clementine verbatim — CHECK
+[1064B] *Qui descendunt ad infernum cum armis suis [n: (Ezech. XXXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1064C] *Non exhibeatis membra vestra arma iniquitatis peccato.*   ⚠ NOT in Clementine verbatim — CHECK
+[1064D] *Vidi,*   — single word, check in place
+[1064D] *civitatem sanctam Jerusalem descendentem de coelo a Deo paratam sicut sponsam ornatam viro suo [n: (Apoc. XXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1064D] *equitatui*   — single word, check in place
+[1064D] *in curribus Pharaonis:*   ✓ Ct 1:8
+[1065A] *53*   — single word, check in place
+[1065B] *qui reliquerit domum, aut patrem, aut matrem, aut filios, aut agros propter nomen meum centuplum accipiet [n: (Matth. XIX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1065B] « sed quod comparatione et merito sui ita sint, quasi parvo numero centenarius comparetur. »   ⚠ NOT in Clementine verbatim — CHECK
+[1065D] *54*   — single word, check in place
+[1066B] *Militia hominis vita ejus,*   ⚠ NOT in Clementine verbatim — CHECK
+[1066C] *Deum est diligere pro justitia et veritate aeterna adipiscenda vita toto animo laborare et pugnare.*   ⚠ NOT in Clementine verbatim — CHECK
+[1066C] *Deum diligere pro justitia [1066D] et veritate et aeterna adipiscenda vita laborare et pugnare,*   ⚠ NOT in Clementine verbatim — CHECK
+[1066D] *55*   — single word, check in place
+[1068A] *Invidia enim diaboli mors intravit in orbem terrarum [n: (Sap. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1068A] *Qui audit, dicat: Veni [n: (Apoc. XXII)]*   ✓ Apc 22:17
+[1068A] *[1067] 56*   — single word, check in place
+[1069A] *57*   — single word, check in place
+[1069A] VERS. 9.-- *Pulchrae sunt genae tuae sicut turturis, collum tuum sicut monilia.*   ✓ Ct 1:9
+[1069B] « Nihil enim est castitas sine bono opere, nec opus bonum est aliquid sine castitate. »   ⚠ NOT in Clementine verbatim — CHECK
+[1069D] *58*   — single word, check in place
+[1070D] *59*   — single word, check in place

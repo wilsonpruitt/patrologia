@@ -1,0 +1,173 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0025-0029 (stint T06). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 551-557 each opened once at 300 dpi, corners read first, text collated and the foot read full width in the same visit; p. 551 shared with the previous stint (read from 1089B); p. 558 top read only for the LIBER SECUNDUS head. Scan B (raw/scans/pl195/patrologiaecur195mign.pdf, PDF page = floor((col+9)/2)) opened at pp. 549, 551, 553, 554 for one-letter words and damaged sorts.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 551,
+        "cols": [
+          "1089",
+          "1090"
+        ],
+        "from": "1089B",
+        "to": "1090D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes (foot read full width); page shared with previous stint, read from 1089B (Sed cum sint) on; TEI Mundamus (1089C) vs plate Mundanus = TEI patch; appetetur (1090C) and pietatis membra (1090D) confirmed as printed; one-letter words blacked out on this scan"
+      },
+      {
+        "page": 549,
+        "cols": [
+          "1089",
+          "1090"
+        ],
+        "from": "1090A",
+        "to": "1090A",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: o dilecte at 1090A prints the vocative o in italic, as our Latin; corners 1089/1090 read; no foot notes; a speck after occidunt (1089C) is a blot, not a key",
+        "scan": "B"
+      },
+      {
+        "page": 552,
+        "cols": [
+          "1091",
+          "1092"
+        ],
+        "from": "1091A",
+        "to": "1092D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI agrees throughout (Isa. LXVI, proportionis, caput membrum confirmed); page ends 1092D with the column short"
+      },
+      {
+        "page": 553,
+        "cols": [
+          "1093",
+          "1094"
+        ],
+        "from": "1093A",
+        "to": "1094D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; runc'natum (1093A): a broken i sort, the upper stroke visible between runc and natum, TEI has runc natum = TEI patch (runcinatum); gratia spiritualis, vicus, profectum, munditia confirmed as printed"
+      },
+      {
+        "page": 551,
+        "cols": [
+          "1093",
+          "1094"
+        ],
+        "from": "1093A",
+        "to": "1093A",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: runc'natum at 1093A shows the same broken i fragment, same printing; corners 1093/1094",
+        "scan": "B"
+      },
+      {
+        "page": 554,
+        "cols": [
+          "1095",
+          "1096"
+        ],
+        "from": "1095A",
+        "to": "1096D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; liliuminter (1095A) fused on the plate = [sic:]; ipse tibi (Gregory) confirmed; Filii hominis (Ez 2:6) confirmed = [var:]; movit (1096C) confirmed"
+      },
+      {
+        "page": 555,
+        "cols": [
+          "1097",
+          "1098"
+        ],
+        "from": "1097A",
+        "to": "1098D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes (foot carries only the signature 35 and PATROL. CXCV.); ani mae (1097A) split on the plate = [sic:]; rex in Ct 2:4 lemma confirmed = [var:]; naturali colore (1098A) confirmed"
+      },
+      {
+        "page": 553,
+        "cols": [
+          "1097",
+          "1098"
+        ],
+        "from": "1097A",
+        "to": "1097A",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: corporis et ani mae meae refectio, split exactly as scan A; corners 1097/1098",
+        "scan": "B"
+      },
+      {
+        "page": 556,
+        "cols": [
+          "1099",
+          "1100"
+        ],
+        "from": "1099A",
+        "to": "1100D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; loribus (1100C, second Fulcite lemma): first letter a damaged hooked sort, not f, read as l = [sic:]; praevalet without non (1100D) confirmed = [cj:]; disso'vi (1100D) a broken l in dissolvi, no marker"
+      },
+      {
+        "page": 554,
+        "cols": [
+          "1099",
+          "1100"
+        ],
+        "from": "1100C",
+        "to": "1100C",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: the same damaged first sort in loribus (1100C), same printing; corners 1099/1100",
+        "scan": "B"
+      },
+      {
+        "page": 557,
+        "cols": [
+          "1101",
+          "1102"
+        ],
+        "from": "1101A",
+        "to": "1102D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; non profectu ... verum etiam (1101C, solum absent) confirmed = [cj:]; quae eum amplexetur / quae eum adepta fuerit (1102A) read eum; Book I ends at 1102D with Amen"
+      },
+      {
+        "page": 558,
+        "cols": [
+          "1103",
+          "1104"
+        ],
+        "from": "1103A",
+        "to": "1103A",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "top of page only: LIBER SECUNDUS head (last head of chunk 0029) confirmed over the 95 PROOEMIUM; page belongs to the next stint"
+      }
+    ]
+  }
+}

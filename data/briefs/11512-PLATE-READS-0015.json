@@ -1,0 +1,22 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0015-0019 (stint T04). MERGE INTO data/plate-reads.json under works.11512. Every page opened once at 300 dpi, corners read first, text collated column by column and the foot read full width in the same visit. Scan B (patrologiaecur195mign.pdf, PDF page = floor((col+9)/2)) opened for two letter-level checks.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "reads": [
+      { "page": 533, "cols": ["1053","1054"], "from": "1053B", "to": "1054D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees (read from 'Hujus intellectualis diei', 1053A-B, to foot of 1054)" },
+      { "page": 534, "cols": ["1055","1056"], "from": "1055A", "to": "1056D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate confirms simultane (1055B), sed alium and ut (1055D), diluerit (1056D)" },
+      { "page": 535, "cols": ["1057","1058"], "from": "1057A", "to": "1058D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; one TEI divergence: 1058C plate prints a full stop after 'privatoria actione' (our Latin has none)" },
+      { "page": 536, "cols": ["1059","1060"], "from": "1059A", "to": "1060D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate confirms approba um, pulchritudinem, santissimae (1059), Una et / matris suae / genitricis suae (1059A); second 'assimilavi' at 1060B worn/ambiguous" },
+      { "page": 534, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1059","1060"], "from": "1060B", "to": "1060B", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness for 1060B 'assimilavi te' (second occurrence): same worn glyph as scan A, read as v; our assimilavi stands" },
+      { "page": 537, "cols": ["1061","1062"], "from": "1061A", "to": "1062D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate confirms equitus, antiquitatus, sacra dandarum (1061), Eccelsia, inedicibilis (1062)" },
+      { "page": 538, "cols": ["1063","1064"], "from": "1063A", "to": "1064D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; one-letter/short word blacked at 1063B 'et bestiis' (settled on scan B); plate confirms Aethiopia (1063D), corde (1064A), ego (1064C)" },
+      { "page": 536, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1063","1064"], "from": "1063B", "to": "1063B", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness for Apoc. VI lemma: 'et morte, et bestiis terrae' — our Latin agrees" },
+      { "page": 539, "cols": ["1065","1066"], "from": "1065A", "to": "1066D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes (foot carries only the signature 'PATROL. CXCV.' and '34'); one TEI divergence: 1066C first definition reads 'veritate et aeterna' (our Latin drops 'et'); plate confirms pugnativum (1065C), proportior (1065D)" },
+      { "page": 540, "cols": ["1067","1068"], "from": "1067A", "to": "1068A", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; lower two-thirds of the page is a full-width diagram (56 FIGURA) whose labels the TEI omits; text above it agrees" },
+      { "page": 541, "cols": ["1069","1070"], "from": "1069A", "to": "1070D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees" }
+    ]
+  }
+}

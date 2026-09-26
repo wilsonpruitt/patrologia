@@ -1,0 +1,203 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0050-0054 (stint T11). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 591-600 each opened at 300 dpi, corners read first, text collated and the foot read full width; p. 591 shared with previous stint (read from 1169D Porro propter), p. 600 shared with next (read to 1188B). Scan B (PDF page = floor((col+9)/2)) opened at pp. 590, 593, 594, 596, 597 (same printing). No foot notes on any page.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 591,
+        "cols": [
+          "1169",
+          "1170"
+        ],
+        "from": "1169D",
+        "to": "1170D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1169/1170; page shared with previous stint, collated from Porro propter sanctarum Scripturarum (foot of col 1169) on; no foot notes (read full width); Et dabitur liber scienti ... etrespondebit (Is 29, 1170A) confirmed = [var:] + [sic:]; TEI agrees"
+      },
+      {
+        "page": 592,
+        "cols": [
+          "1171",
+          "1172"
+        ],
+        "from": "1171A",
+        "to": "1172D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1171/1172; no foot notes; (Rom. x)? officii gratiam a Deo consequitur (1171C) confirmed; tanta divinatione providentia, permultimodas orationum confirmed; virtu e (1172D) broken sort confirmed = [sic:]; TEI agrees"
+      },
+      {
+        "page": 593,
+        "cols": [
+          "1173",
+          "1174"
+        ],
+        "from": "1173A",
+        "to": "1174D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1173/1174; no foot notes; valebit (1174D) closes paragraph without stop, as TEI; Puteus aqua-|rum line break seen on next page; TEI agrees"
+      },
+      {
+        "page": 594,
+        "cols": [
+          "1175",
+          "1176"
+        ],
+        "from": "1175A",
+        "to": "1176D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1175/1176; no foot notes; aqua-|rum (1175A) = one word, TEI 'aqua rum' = TEI patch; exipsius (1175A) fused on plate = [sic:]; captivitas enim nostrae (1176C) confirmed = [sic:]; Ubi abundavit (Mt 24:12) confirmed = [var:]"
+      },
+      {
+        "page": 595,
+        "cols": [
+          "1177",
+          "1178"
+        ],
+        "from": "1177A",
+        "to": "1178D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1177/1178; no foot notes; 172 CAPUT V. head; mandata mea (Jo 14:23), requiescere faciam (Mt 11:28), percipite regnum ... ab origine mundi (Mt 25:34) confirmed = [var:] x3; uni corum (1178C) confirmed = [sic:]"
+      },
+      {
+        "page": 596,
+        "cols": [
+          "1179",
+          "1180"
+        ],
+        "from": "1179A",
+        "to": "1180D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1179/1180; no foot notes; Responsum mollius (Pr 15:1), Inebriamur (Ps 35:9) confirmed = [var:]; effi-|cit (1179B) vs TEI eflicit = TEI patch; inebriata fuerat. qualem (1179D) full stop vs TEI comma = TEI patch; ab omnino non esse (1180B) confirmed = [sic:]"
+      },
+      {
+        "page": 597,
+        "cols": [
+          "1181",
+          "1182"
+        ],
+        "from": "1181A",
+        "to": "1182D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1181/1182; no foot notes; calore calentibus (1181C) confirmed = [cj:]; Soror ... minime. (1181D) confirmed; loco without stop (1182A) as TEI"
+      },
+      {
+        "page": 598,
+        "cols": [
+          "1183",
+          "1184"
+        ],
+        "from": "1183A",
+        "to": "1184D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1183/1184; no foot notes; amiticiae (1183C) as TEI; Greek κατα αντιλεχιν (1184A) as TEI; mentis (1184C, e with inked eye) vs TEI montis = TEI patch"
+      },
+      {
+        "page": 599,
+        "cols": [
+          "1185",
+          "1186"
+        ],
+        "from": "1184D",
+        "to": "1186D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1185/1186; no foot notes; Exspoliari me tunica mea, etc. (1185A) vs TEI Exspoliavi = TEI patch; quasi muto quodam (1185C) confirmed; reficit (1186A) vs TEI refiert = TEI patch; inferrus (1186D, Ct 8:6) confirmed = [sic:]"
+      },
+      {
+        "page": 600,
+        "cols": [
+          "1187",
+          "1188"
+        ],
+        "from": "1187A",
+        "to": "1188B",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1187/1188; page shared with next stint, collated to et rotae juxta ea ... sublevatur (1188B); no foot notes (read full width); Spiritus Patri loquitur (1187D) confirmed; TEI agrees"
+      },
+      {
+        "page": 590,
+        "scan": "B",
+        "cols": [
+          "1171",
+          "1172"
+        ],
+        "depth": "targeted",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "1172A O quantae (vocative O, blacked on A) prints; virtu e same"
+      },
+      {
+        "page": 593,
+        "scan": "B",
+        "cols": [
+          "1177",
+          "1178"
+        ],
+        "depth": "targeted",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "1178C uni corum same sort as A"
+      },
+      {
+        "page": 594,
+        "scan": "B",
+        "cols": [
+          "1179",
+          "1180"
+        ],
+        "depth": "targeted",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "1179D fuerat. qualem same as A"
+      },
+      {
+        "page": 596,
+        "scan": "B",
+        "cols": [
+          "1183",
+          "1184"
+        ],
+        "depth": "targeted",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "1184C mentis, same inked e as A; 1183C amiticiae same"
+      },
+      {
+        "page": 597,
+        "scan": "B",
+        "cols": [
+          "1185",
+          "1186"
+        ],
+        "depth": "targeted",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "1185A Exspoliari same as A"
+      }
+    ]
+  }
+}

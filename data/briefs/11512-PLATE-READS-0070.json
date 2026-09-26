@@ -1,0 +1,25 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0070-0074 (stint T15). MERGE INTO data/plate-reads.json under works.11512. Every page opened at 300 dpi on scan A, corners read first, text collated and the foot read full width in the same visit. Page 627 shared with the previous stint (read from 1241B, CAPUT VIII); page 636 shared with the next stint (collated to 1259C). No foot notes on any page. Scan B entries are 600 dpi crops taken to confirm letter-level readings.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2); scan B raw/scans/pl195/patrologiaecur195mign.pdf: floor((column + 9) / 2)",
+    "reads": [
+      { "page": 627, "cols": ["1241","1242"], "from": "1241B", "to": "1242D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees (dictum es., 1242A, printed as our Latin)" },
+      { "page": 628, "cols": ["1243","1244"], "from": "1243A", "to": "1244D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "split page: Book III ends upper half, LIBER QUARTUS full width below (anchors 1243A-C, 1244A-C, [1243], 1243D, 1244D); no foot notes; inexusabilis 1243C printed; 1244D prints a damaged 'am anquantulum for jam aliquantulum (crux only)" },
+      { "page": 629, "cols": ["1245","1246"], "from": "1245A", "to": "1246D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; 1245D prints cum benedicitis (our eum) - TEI patch; 1246B VERS. 5 prints corruvta (our corrupta) - TEI patch" },
+      { "page": 630, "cols": ["1247","1248"], "from": "1247A", "to": "1248D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; 1248D prints anidmavertis (our animadvertis) and ad di ciplinas (our ad disciplinae) - TEI patches" },
+      { "page": 631, "cols": ["1249","1250"], "from": "1249A", "to": "1250D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; 1249A prints concapivit on A (our concupivit; B not legible to us, candidate only); tui 1249B printed" },
+      { "page": 632, "cols": ["1251","1252"], "from": "1251A", "to": "1252D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees" },
+      { "page": 633, "cols": ["1253","1254"], "from": "1253A", "to": "1254D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; aedificemur 1253A printed; dieitur 1254A not decidable on A (c/e)" },
+      { "page": 634, "cols": ["1255","1256"], "from": "1255A", "to": "1256D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees" },
+      { "page": 635, "cols": ["1257","1258"], "from": "1257A", "to": "1258D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; obrumbratio 1257D printed; 1257D prints gentibus with a worn g (our pentibus) - TEI patch candidate; signature PATROL. CXCV. and 40 at foot" },
+      { "page": 636, "cols": ["1259","1260"], "from": "1259A", "to": "1259C", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes on the page; mentuali 1259A printed; collated to end of 0074 at 1259C" },
+      { "page": 625, "scan": "B", "cols": ["1241","1242"], "from": "1242A", "to": "1242A", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "600 dpi crop taken at 1242A; image did not display to us, no reading claimed" },
+      { "page": 626, "scan": "B", "cols": ["1243","1244"], "from": "1243C", "to": "1244D", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "600 dpi crops of inexusabilis and 1244D; images partly unreadable to us" },
+      { "page": 627, "scan": "B", "cols": ["1245","1246"], "from": "1245D", "to": "1246B", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "600 dpi: cum benedicitis quando (confirms c, not e); corruvta in VERS. 5" },
+      { "page": 628, "scan": "B", "cols": ["1247","1248"], "from": "1248D", "to": "1248D", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "600 dpi: anidmavertis; ad di ciplinas" }
+    ]
+  }
+}

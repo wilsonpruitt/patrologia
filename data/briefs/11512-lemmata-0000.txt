@@ -1,0 +1,168 @@
+# 11512 — lemma inventory and Clementine pre-scan
+
+**Commentaria in Canticum canticorum** · PL 195 · cols 1001–1278A · 81 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0000–0004, bands 1003A–1016C (91 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[1003A] *Cantica canticorum Salomonis*   ⚠ NOT in Clementine verbatim — CHECK
+[1004A] *Commentaria*   — single word, check in place
+[1004C] *Vir qui diligit sapientiam laetificat patrem suum [n: (Prov. XXIX)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1006A] *Commentaria venerabilis domini abbatis Wolberonis, licet devotis ac Deo consecratis virginibus quondam ita postulantibus, ab auctore ipso conscripta et inscripta fuerint, volueritque cum sanctimonialibus solis illa delitescere, neque communem in lucem prodire nisi, ab aliquo correcta in opus elaboratum ac masculinum evaserint: nolim tibi persuasum habeas, lector benevole, quasi opera mea hoc ipsum assecutus fueris. Haec namque vere de se humiliter sentientium virtus est magna et praeclara agere aut scribere et nihilominus parve et mediocriter de se, suisque sentire. Emicat in hac virtutis specie non vulgariter abbas noster Wolbero. in cujus commentariis licet antiquissimis, sed assiduo annorum novem studio congestis tantum abest ut informe aliquid, vel muliebre aut lima emendatiori indigens offenderim (licet in dedicatione religiosis sororibus suis nuncupata, aliisque operis, hujus praefationibus hoc ipsum innuere videatur) ut divino magis quam humano spiritu conceptum et calamo exaratum opusculum hoc videri merito debeat. Quapropter latere te nolim quicunque operis hujus lector futurus es parum me Commentariis hisce de proprio aut addidisse aut miscuisse, nisi ubi sensus ambiguitas, periodorum dissolutio versuumque disjunctio simile quid desiderare visum fuerat. Haec fortassis erant, quae lectorem delicatum in Wolberone antiquo offendere potuissent. Quibus cum labore et conatu meo sat subventum, nescio qua typographi vel correctoris incuria aut festinatione errata nonnulla hinc inde irrepserint, quae sub finem libri hujus emendata, videre liceat, operam hanc meam qualemcunque aequi bonique consulito, et dum ea frueris in tui emolumentum suscipe, et suscipe benigne perpetuum auctoris hujus monumentum. Vale*   ⚠ NOT in Clementine verbatim — CHECK
+[1005B] *Canticum canticorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1006B] *Canticum laudis, canticum laetitiae, canticum novum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1006B] *nemo*   — single word, check in place
+[1006B] *dicere, nisi qui sequuntur Agnum quocunque ierit [n: (Apoc. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1006B] *Canticum*   — single word, check in place
+[1006B] *laudis*   — single word, check in place
+[1006B] *canticum*   — single word, check in place
+[1006B] *laetitiae*   — single word, check in place
+[1007A] *canticum novum,*   ✓ Apc 5:9, Apc 14:3, Is 42:10, …
+[1007B] *canticum novum,*   ✓ Apc 5:9, Apc 14:3, Is 42:10, …
+[1007B] *Canticum canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1007B] *qui sunt ante thronum Dei sine macula, quia non inquinaverunt vestimenta [n: (Apoc. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1007C] *semen*   — single word, check in place
+[1007C] *in terram bonam et fructum*   ⚠ NOT in Clementine verbatim — CHECK
+[1007C] *aliud tricesimum, aliud sexagesimum, et aliud centesimum [n: (Luc. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1007D] *canticum novum,*   ✓ Apc 5:9, Apc 14:3, Is 42:10, …
+[1007D] *Cantica canticorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1008A] *Fungar vice cotis, acutum*   ⚠ NOT in Clementine verbatim — CHECK
+[1008A] *Reddere quae novit ferrum, exsors ipsa secandi:*   ⚠ NOT in Clementine verbatim — CHECK
+[1008B] *Miraturque nihil, nisi quod Libitina sacravit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1008C] *Jejuno sermone quidem, sed pinguia gesta*   ⚠ NOT in Clementine verbatim — CHECK
+[1008C] *Scripsimus, ac pelagi pondere gutta fluit*   ⚠ NOT in Clementine verbatim — CHECK
+[1008D] *cum simplicibus sermocinatio*   ✓ Pr 3:32
+[1009A] *ab ubertate domus Dei et torrente voluptatis*   ⚠ NOT in Clementine verbatim — CHECK
+[1009B] *Cantica canticorum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1009B] *Ut sciam quid mihi desit [n: (Psal. XXXVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1009D] *Canticum Moysi, Canticum Annae, Canticum Habacuc prophetae,*   ⚠ NOT in Clementine verbatim — CHECK
+[1009D] *Cantica canticorum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1010D] *canticum laudis*   ⚠ NOT in Clementine verbatim — CHECK
+[1011A] *Canticum canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1011A] *Canticum canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1011B] *Cantica canticorum;*   ⚠ NOT in Clementine verbatim — CHECK
+[1011B] *Cantica canticorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1011C] *Cantemus Domino, gloriose enim honorificatus est, equum et ascensorem projecit in mare [n: (Exod. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1011C] *Ascendat,*   — single word, check in place
+[1011C] *puteus quem foderunt principes et praeparaverunt duces multitudinis in datore legis et baculis suis [n: (Num. XXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1011D] *Attende, coelum, et loquar; et audiat terra verba ex ore meo [n: (Deut. XXXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1011D] *Salvatae sunt reliquiae populi, Dominus in fortibus dimicavit [n: (Jud. V)]*   ✓ Jdc 5:13
+[1011D] *Dominus, petra [1012A] mea et robur meum et salvator meus [n: (II Reg. XXII)]*   ✓ 2Rg 22:2
+[1012A] *Cantabo dilecto canticum patruelis mei vineae suae [n: (Isai. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1012A] *Nostra autem conversatio in coelis est [n: (Philip. III)]*   ✓ Phlp 3:20
+[1012B] *Canticum canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1012B] *Quod nec [1012C] oculus vidit, nec auris audivit, nec in cor hominis*   ⚠ NOT in Clementine verbatim — CHECK
+[1012C] *quae praeparavit Deus diligentibus se [n: (I Cor. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1012C] *littera occidit, spiritus autem vivificat [n: (I Cor. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1013A] *Proverbiorum,*   — single word, check in place
+[1013A] *Ecclesiasten,*   — single word, check in place
+[1013A] *Cantica canticorum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1013A] *Ecclesiasten*   — single word, check in place
+[1013A] *Proverbiis*   — single word, check in place
+[1013A] *Canticis canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1013B] *Invisibilia,*   — single word, check in place
+[1013B] *ejus a creatura mundi per ea quae facta sunt, intellecta conspiciuntur, sempiterna quoque ejus virtus et divinitas, [1013C] ita ut sint inexcusabiles [n: (Rom. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1013C] *foras mittit timorem [n: (I Joan. IV)]*   ✓ 1Jo 4:18
+[1013D] *sicut*   — single word, check in place
+[1013D] *imaginem terreni*   ✓ 1Cor 15:49
+[1013D] *portet [1014A] et imaginem coelestis [n: (I Cor. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1014B] *in libertate gloriae filiorum Dei [n: (Rom. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1014B] *sapientia quae non introibit in malevolam animam, nec habitabit in corpore subdito peccatis, quia Spiritus sanctus disciplinae effugiet fictum, et auferet se a cogitationibus quae sunt sine intellectu, et corripietur a superveniente iniquitate [n: (Sap. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1014C] *Appropinquate Deo et appropinquabit vobis [n: (Jacob. IV)]*   ✓ Jac 4:8
+[1014C] *Bonitatem et disciplinam et scientiam doce me [n: (Psal. CXVIII)]*   ✓ Ps 118:66
+[1014D] *bonitatem,*   — single word, check in place
+[1014D] *et disciplinam et scientiam doce me.*   ✓ Ps 118:66
+[1015A] *Cantica canticorum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1015A] *Osculetur me osculo oris sui,*   ✓ Ct 1:1
+[1015B] *fasciculus myrrhae, dilectus meus mihi, inter ubera mea commorabitur,*   ✓ Ct 1:12
+[1015B] *botrus cypri, dilectus meus mihi [n: (Cant. I)]*   ✓ Ct 1:13
+[1015B] *Fuge,*   — single word, check in place
+[1015B] *dilecte mi, et assimilare capreae aut hinnulo cervorum super montes aromatum [n: (Cant. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1015C] *Cantica canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1015D] *Adjuro vos, o filiae Jerusalem, per capreas cervosque caprarum, ne suscitetis neque evigilare faciatis dilectam quoadusque ipsa velit.*   ⚠ NOT in Clementine verbatim — CHECK
+[1015D] *Osculetur me osculo oris sui,*   ✓ Ct 1:1
+[1015D] *Adjuro vos, filiae Jerusalem,*   ✓ Ct 2:7, Ct 3:5, Ct 5:8, …
+[1015D] *Vox dilecti mei; ecce iste venit, saliens in montibus, transiliens colles,*   ✓ Ct 2:8
+[1015D] *Adjuro vos, filiae Jerusalem.*   ✓ Ct 2:7, Ct 3:5, Ct 5:8, …
+[1015D] *Quae est ista quae ascendit per desertum,*   ✓ Ct 3:6
+[1015D] *Adjuro vos, filiae Jerusalem.*   ✓ Ct 2:7, Ct 3:5, Ct 5:8, …
+[1015D] *Quae est ista quae ascendit de deserto deliciis affluens,*   ✓ Ct 8:5
+[1016A] *ut*   — single word, check in place
+[1016A] *comprehendere cum omnibus sanctis, quae sit longitudo, latitudo, sublimitas et profundum [n: (Ephes. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1016A] *in charitate radicati et fundati [n: (ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1016A] *Canticum canticorum*   ⚠ NOT in Clementine verbatim — CHECK
+[1016B] *nemo*   — single word, check in place
+[1016B] *cognovit quae sunt Dei, nisi Spiritus Dei [n: (I Cor. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1016B] *cum dilexisset [1016C] suos qui erant in mundo, in finem dilexit eos [n: (Joan. XIII)]*   ✓ Jo 13:1
+[1016C] *Pater,*   — single word, check in place
+[1016C] *ignosce illis, quia nesciunt quid faciunt [n: (Luc. XXIII)]*   ⚠ NOT in Clementine verbatim — CHECK

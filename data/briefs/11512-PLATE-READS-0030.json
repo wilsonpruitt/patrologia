@@ -1,0 +1,25 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0030-0034 (stint T07). MERGE INTO data/plate-reads.json under works.11512. Every page opened once at 300 dpi, corners read first, text collated column by column and the foot read full width in the same visit. Scan B (patrologiaecur195mign.pdf, PDF page = floor((column + 9) / 2)) opened for one-letter and letter-level checks. Page 566 is shared with the next stint: read here for 1119A-1120B only.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "reads": [
+      { "page": 558, "cols": ["1103","1104"], "from": "1103A", "to": "1104D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate confirms 'ut quidam fuit' (1104C)" },
+      { "page": 559, "cols": ["1105","1106"], "from": "1105A", "to": "1106D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; one TEI divergence: 1106C plate 'velit' (our Latin 'vetit'); plate confirms praepudiente (1105C), adjuvare (1105D), admirationis and sponsus (1106D); 1106C 'necessa iis' dropped sort, our necessariis taken" },
+      { "page": 557, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1105","1106"], "from": "1106C", "to": "1106C", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness for 1106C: 'velit', 'portate' + spacing quad (no point), 'necessa iis' gap as on A" },
+      { "page": 560, "cols": ["1107","1108"], "from": "1107A", "to": "1108D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; two TEI divergences: 1107A plate adds 'gaudeat se' before 'confirmari'; 1107B-C no comma in 'hujus mei comparem studii'; plate confirms sol (1108C), 'en iste stat' (1108C VERS. 9)" },
+      { "page": 558, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1107","1108"], "from": "1107B", "to": "1107B", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness for Mt 6:33 at 1107B: 'et haec omnia' — our Latin agrees" },
+      { "page": 561, "cols": ["1109","1110"], "from": "1109A", "to": "1110D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; one TEI divergence: 1110D VERS. 10 plate 'En dilectus meus' (our Latin 'Ea'); plate confirms obedientiae and quoque (1109C), 'per motus' (1110A-B), 'formo sa' (1111A lemma, set at foot of 1110D)" },
+      { "page": 562, "cols": ["1111","1112"], "from": "1111A", "to": "1112D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate confirms assumunt (1111D), se (1112D)" },
+      { "page": 560, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1111","1112"], "from": "1111A", "to": "1111D", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness: 'formo sa' split as on A (1111A); 'veluti e salute' (1111D) — our Latin agrees" },
+      { "page": 563, "cols": ["1113","1114"], "from": "1113A", "to": "1114D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate confirms solidaria (1113A), 'iu deserto' (1113B), VERS. 13 'Surge, propera, amica mea' (1113B)" },
+      { "page": 564, "cols": ["1115","1116"], "from": "1115A", "to": "1116D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; one TEI divergence: 1115D plate 'ex fortitudine divinitatis' (no comma); Cologne page number printed '100' at 1116D" },
+      { "page": 562, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1115","1116"], "from": "1116D", "to": "1116D", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness for 2 Cor 3:18 at 1116D: 'a claritate in claritatem' — our Latin agrees" },
+      { "page": 565, "cols": ["1117","1118"], "from": "1117A", "to": "1118D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; one TEI divergence: 1118C full stop after 'confirmant'; plate confirms 'exprimi [potest]' (1117C, Migne's bracket), 'confessio sit' (1117B), purvulas (1118B), conturbernium (1118D)" },
+      { "page": 566, "cols": ["1119","1120"], "from": "1119A", "to": "1120B", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes (foot read full width); TEI agrees for 1119A-1120B; plate confirms sacramenta (1119A). Rest of the page (from 'Donec aspiret dies', 1120B) belongs to the next stint" },
+      { "page": 564, "scan": "B", "scan_path": "raw/scans/pl195/patrologiaecur195mign.pdf", "cols": ["1119","1120"], "from": "1119C", "to": "1119D", "depth": "spot", "date": "2026-09-25", "corners_checked": true, "found": "second witness: VERS. 16, 17 'et inclinentur' (1119C); Jo 14:21 'diligetur a Patre' (1119D) — our Latin agrees" }
+    ]
+  }
+}

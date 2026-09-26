@@ -1,0 +1,255 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0055-0059 (stint T12). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 600-609 each opened once at 300 dpi, corners read first, text collated and the foot read full width in the same visit; p. 600 shared with the previous stint (read from 1188B Cum ergo), p. 609 shared with the next (read to 1206D). Scan B (PDF page = floor((col+9)/2)) opened at pp. 598-601, 604-607 for one-letter words and doubtful letters. No foot notes on any page.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 600,
+        "cols": [
+          "1187",
+          "1188"
+        ],
+        "from": "1188B",
+        "to": "1188D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1187/1188; page shared with previous stint, collated from Cum ergo ad hujusmodi (1188B) to the foot of col 1188; no foot notes (read full width); 1188B plate prints a full stop in 'perfecte cognoscere. neque' (TEI comma): TEI patch"
+      },
+      {
+        "page": 601,
+        "cols": [
+          "1189",
+          "1190"
+        ],
+        "from": "1189A",
+        "to": "1190D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1189/1190; no foot notes; 1190B 'dilectum alloquuntur' (masc.) confirmed; Pr 22:28 'Ne progrediaris terminos' confirmed; TEI otherwise agrees"
+      },
+      {
+        "page": 602,
+        "cols": [
+          "1191",
+          "1192"
+        ],
+        "from": "1191A",
+        "to": "1192D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1191/1192; no foot notes; 1191B 'pereunctantium' (c/e ambiguous on A, e on B); VERS. 11 'Caput ejus sicut aurum optimum' and Sap 7:29 'pulchritudinem stellarum' confirmed"
+      },
+      {
+        "page": 603,
+        "cols": [
+          "1193",
+          "1194"
+        ],
+        "from": "1193A",
+        "to": "1194D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1193/1194; no foot notes (signature PATROL. CXCV. 38 only); 1194A 'qui a fidelium' split and 'et ub spiritualem' confirmed (also B)"
+      },
+      {
+        "page": 604,
+        "cols": [
+          "1195",
+          "1196"
+        ],
+        "from": "1195A",
+        "to": "1196D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1195/1196; no foot notes; 1196A 'secundam dant praeceptum' confirmed; Sap 'constituit (Sap. II)' confirmed; TEI agrees"
+      },
+      {
+        "page": 605,
+        "cols": [
+          "1197",
+          "1198"
+        ],
+        "from": "1197A",
+        "to": "1198D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1197/1198; no foot notes; 1197B 'incorporea' twice confirmed; 1198A lemma closes 'sapphiris:' (TEI full stop): TEI patch; 1198D '(GREGORIUS). »' unopened guillemet confirmed"
+      },
+      {
+        "page": 606,
+        "cols": [
+          "1199",
+          "1200"
+        ],
+        "from": "1199A",
+        "to": "1200D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1199/1200; no foot notes; 1200B 'secerdotium' confirmed (also B); 1200A vocative O of Rom 11:33 prints; Greek διαπασον confirmed"
+      },
+      {
+        "page": 607,
+        "cols": [
+          "1201",
+          "1202"
+        ],
+        "from": "1201A",
+        "to": "1202D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1201/1202; no foot notes; 1201C 'tranquil itate' split confirmed (also B); 1201D 'aliquo labore Unde' with no stop on A and B (TEI 'labore. Unde'): TEI patch; 1Ptr 2:22 'non facit' confirmed"
+      },
+      {
+        "page": 608,
+        "cols": [
+          "1203",
+          "1204"
+        ],
+        "from": "1203A",
+        "to": "1204D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1203/1204; no foot notes; 1203D plate prints 'candidutio' (TEI 'candidatio'), same on B: TEI patch; 1204B 'attento adjutori' confirmed"
+      },
+      {
+        "page": 609,
+        "cols": [
+          "1205",
+          "1206"
+        ],
+        "from": "1205A",
+        "to": "1206D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1205/1206; no foot notes; CAPUT VI head at 1206D (next stint); 1205C 'Auribus quippe' and 1205D 'ad ipisci' confirmed (also B); the two verse lines of the Cato distich are lineated on the plate"
+      },
+      {
+        "page": 598,
+        "scan": "B",
+        "cols": [
+          "1187",
+          "1188"
+        ],
+        "from": "1188B",
+        "to": "1188D",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1187/1188; 'cognoscere. neque' full stop confirmed"
+      },
+      {
+        "page": 599,
+        "scan": "B",
+        "cols": [
+          "1189",
+          "1190"
+        ],
+        "from": "1190B",
+        "to": "1190B",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1189/1190; 'dilectum alloquuntur' confirmed"
+      },
+      {
+        "page": 600,
+        "scan": "B",
+        "cols": [
+          "1191",
+          "1192"
+        ],
+        "from": "1191B",
+        "to": "1191B",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1191/1192; 'pereunctantium' reads e"
+      },
+      {
+        "page": 601,
+        "scan": "B",
+        "cols": [
+          "1193",
+          "1194"
+        ],
+        "from": "1194A",
+        "to": "1194A",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1193/1194; 'qui a fidelium', 'et ub spiritualem' confirmed"
+      },
+      {
+        "page": 604,
+        "scan": "B",
+        "cols": [
+          "1199",
+          "1200"
+        ],
+        "from": "1200A",
+        "to": "1200C",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1199/1200; 'secerdotium' confirmed; O altitudo prints"
+      },
+      {
+        "page": 605,
+        "scan": "B",
+        "cols": [
+          "1201",
+          "1202"
+        ],
+        "from": "1201C",
+        "to": "1201D",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1201/1202; 'tranquil itate' split and 'labore Unde' (no stop) confirmed"
+      },
+      {
+        "page": 606,
+        "scan": "B",
+        "cols": [
+          "1203",
+          "1204"
+        ],
+        "from": "1203C",
+        "to": "1203D",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1203/1204; 'candidutio' confirmed; 'Si naturas' (Si blacked on A) prints"
+      },
+      {
+        "page": 607,
+        "scan": "B",
+        "cols": [
+          "1205",
+          "1206"
+        ],
+        "from": "1205B",
+        "to": "1205D",
+        "depth": "spot",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B corners 1205/1206; 'a sapientibus ... et revelasti' (Mt 11:25) one-letter words print; 'Ac si aperte', 'Auribus quippe', 'ad ipisci' confirmed"
+      }
+    ]
+  }
+}

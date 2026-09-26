@@ -1,0 +1,20 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0035-0039 (stint T08). MERGE INTO data/plate-reads.json under works.11512. Pages 566-574 each opened once at 300 dpi, printed corner columns read first, text collated line by line and the foot read full width in the same visit. p. 566 read for 1120B-D only (upper half belongs to the previous stint); p. 574 read for 1135A-D (right column 1136 belongs to the next stint, foot of page read full width). No scan-B reads: no one-letter word in this range bears on a scripture collation or a reading.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "reads": [
+      { "page": 566, "cols": ["1119","1120"], "from": "1120B", "to": "1120D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; dicautur (1120C) printed thus; e converso with blacked-out e" },
+      { "page": 567, "cols": ["1121","1122"], "from": "1121A", "to": "1122D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; Huic enim (1121C), servorum hinnulus (1122A) printed thus; worn sorts at qualitate (1121C), cucurristi and sed (1122C-D) where TEI has the full words" },
+      { "page": 568, "cols": ["1123","1124"], "from": "1123A", "to": "1124D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; one TEI divergence (augusta/angusta, 1123D); praevale (1123C), gradiuntu (1123D), suscitatur (1124B), pro determinatione, sed (1124D, no non) printed thus" },
+      { "page": 569, "cols": ["1125","1126"], "from": "1125A", "to": "1126D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; operitur (1125D) printed thus" },
+      { "page": 570, "cols": ["1127","1128"], "from": "1127A", "to": "1128D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; full-width head '123 LIBER TERTIUS' mid-page, reading order 1127A-B, 1128A-B, [head], 1127C-D, 1128C-D; '(an. concussus?)' is an inline parenthetical in the text, not a foot note; Horace 'Omne tulit punctum' set as its own indented line" },
+      { "page": 571, "cols": ["1129","1130"], "from": "1129A", "to": "1130D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes (PATROL. CXCV signature under the left column, gathering number 36 under the right); TEI agrees; 1129D breaks off 'et cordis' without a stop and 1130A opens a new paragraph (no Migne note); testitudinis (1129A) printed thus; right column's left edge slightly clipped" },
+      { "page": 572, "cols": ["1131","1132"], "from": "1131A", "to": "1132D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; Novem facti (1132B), seperare (1132D) printed thus" },
+      { "page": 573, "cols": ["1133","1134"], "from": "1133A", "to": "1134D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; quanto animus circa exteriora occupatur (1133B, no minus) printed thus" },
+      { "page": 574, "cols": ["1135","1136"], "from": "1135A", "to": "1135D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes (foot read full width); TEI agrees for 1135; right corner number blurred, reads as 1136 by sequence; right column belongs to the next stint" }
+    ]
+  }
+}

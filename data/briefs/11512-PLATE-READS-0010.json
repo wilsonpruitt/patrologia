@@ -1,0 +1,154 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0010-0014 (stint T03). MERGE INTO data/plate-reads.json under works.11512. Every page 524-533 opened once at 300 dpi full width, corners read first, text collated and foot of page checked in the same visit. Page 523 read only for the 1034D lead-in; page 533 read for 1053A (shared with next stint).",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "reads": [
+      {
+        "page": 523,
+        "cols": [
+          "1033",
+          "1034"
+        ],
+        "from": "1034D",
+        "to": "1034D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": false,
+        "found": "partial read (lower right col only, 1034D lead-in to chunk 0010; page belongs to previous stint); TEI agrees; no foot notes in view"
+      },
+      {
+        "page": 524,
+        "cols": [
+          "1035",
+          "1036"
+        ],
+        "from": "1035A",
+        "to": "1036D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; justitiaequam and adreverenter fused on plate (sic); Legem capitalized vs our legem (1035D); one-letter words blacked out on this scan"
+      },
+      {
+        "page": 525,
+        "cols": [
+          "1037",
+          "1038"
+        ],
+        "from": "1037A",
+        "to": "1038D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergence meus->mens (1037C); ludum est mirabilis confirmed"
+      },
+      {
+        "page": 526,
+        "cols": [
+          "1039",
+          "1040"
+        ],
+        "from": "1039A",
+        "to": "1040D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergences: stray stop 'diligunt. te.' (1039B), vinum->vinnm (1039B); servus homo confirmed (1040D var); persecutionem (sic)"
+      },
+      {
+        "page": 527,
+        "cols": [
+          "1041",
+          "1042"
+        ],
+        "from": "1041A",
+        "to": "1042D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; Salomanis (sic, 1042C); Prov XVI inversion confirmed"
+      },
+      {
+        "page": 528,
+        "cols": [
+          "1043",
+          "1044"
+        ],
+        "from": "1043A",
+        "to": "1044D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergence au->an (1044D); judicati saeternae, fierit (sic)"
+      },
+      {
+        "page": 529,
+        "cols": [
+          "1045",
+          "1046"
+        ],
+        "from": "1045A",
+        "to": "1046D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; grem um (sic); lemma 'vineam meam custodivi' without non confirmed (1046D); TEI divergence custodit->custodiv[i] (1046C, final sort damaged)"
+      },
+      {
+        "page": 530,
+        "cols": [
+          "1047",
+          "1048"
+        ],
+        "from": "1047A",
+        "to": "1048D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; alicu, tacu (sic); nomine praemonente, adivit, judicasse confirmed"
+      },
+      {
+        "page": 531,
+        "cols": [
+          "1049",
+          "1050"
+        ],
+        "from": "1049A",
+        "to": "1050D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; indignationis confirmed (1050C, cj); Is 66:2 Old Latin form confirmed"
+      },
+      {
+        "page": 532,
+        "cols": [
+          "1051",
+          "1052"
+        ],
+        "from": "1051A",
+        "to": "1052D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "no foot notes; TEI divergence 'requiescat, cujus' -> 'requiescat. cujus' (1051A)"
+      },
+      {
+        "page": 533,
+        "cols": [
+          "1053",
+          "1054"
+        ],
+        "from": "1053A",
+        "to": "1053A",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "read for 1053A only (to end of chunk 0014); no foot notes on page; TEI agrees for 1053A; rest of page is the next stint's"
+      }
+    ]
+  }
+}

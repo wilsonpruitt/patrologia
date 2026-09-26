@@ -1,0 +1,214 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0065-0069 (stint T14). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 619-627 each opened once at 300 dpi, corners read first, text collated and the foot read full width in the same visit; p. 619 shared with the previous stint (read from 1226A Nomen quidem), p. 627 shared with the next (read to 1241B ostendi). Scan B pp. 617, 618, 620, 621, 622, 624 opened for one-letter words, punctuation and doubtful letters. No foot notes on any page.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 619,
+        "cols": [
+          "1225",
+          "1226"
+        ],
+        "from": "1226A",
+        "to": "1226D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1225/1226; page shared with previous stint, collated from Nomen quidem aequivocum (1226A) to the foot of col 1226 incl. CAPUT VII head and VERS. 1; no foot notes (read full width); 1226C plate prints 'alibi dicit. Faciamus' (TEI no stop) and 'in sancta Trinitate,' (TEI full stop): TEI patches"
+      },
+      {
+        "page": 620,
+        "cols": [
+          "1227",
+          "1228"
+        ],
+        "from": "1227A",
+        "to": "1228D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1227/1228; no foot notes; 1227C lemma 'Junctura feminum tuarum' and 1228C 'non femorum, sed feminum' confirmed; 1228D 'debriantur' confirmed; TEI otherwise agrees"
+      },
+      {
+        "page": 621,
+        "cols": [
+          "1229",
+          "1230"
+        ],
+        "from": "1229A",
+        "to": "1230D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1229/1230; no foot notes; 1230A plate prints 'spi-|ritualis' (TEI 'spritualis'): TEI patch; VERS. 3 at 1230A confirmed; TEI otherwise agrees"
+      },
+      {
+        "page": 622,
+        "cols": [
+          "1231",
+          "1232"
+        ],
+        "from": "1231A",
+        "to": "1232D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1231/1232; no foot notes; 1231C plate prints 'dil?tionis' with no c (vowel e or a, undecidable; same on B p.620 at 600 dpi) where TEI has 'dilectionis': logged in cruces, no patch proposed as certain; 1232B 'appropinquabit' confirmed"
+      },
+      {
+        "page": 623,
+        "cols": [
+          "1233",
+          "1234"
+        ],
+        "from": "1233A",
+        "to": "1234D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1233/1234; no foot notes; 1233C plate prints 'VERS. 5.' (TEI 'VERS. 3.'), 1233D 'juncta canalibus' (TEI 'carnalibus'), 1234D 'se respicere debere' with no comma: TEI patches (all confirmed on B p.621); 1234C 'caput viri Deus' confirmed"
+      },
+      {
+        "page": 624,
+        "cols": [
+          "1235",
+          "1236"
+        ],
+        "from": "1235A",
+        "to": "1236D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1235/1236; no foot notes; 1235A 'mentis bone et honeste' and 'istae ista' confirmed; 1235D VERS. 8 'fructum ejus' confirmed; 1236A 'per signi praevaricationem' confirmed; TEI agrees"
+      },
+      {
+        "page": 625,
+        "cols": [
+          "1237",
+          "1238"
+        ],
+        "from": "1237A",
+        "to": "1238D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1237/1238; no foot notes; 1237C 'Labiis et dentibus ruminando' and 1238B 'Quodcirca' confirmed; TEI agrees"
+      },
+      {
+        "page": 626,
+        "cols": [
+          "1239",
+          "1240"
+        ],
+        "from": "1239A",
+        "to": "1240D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1239/1240; no foot notes; 1239C 'beatudinis' and Migne's own '(sic)' confirmed; VERS. 12 printed twice (1239A, 1239C) confirmed; TEI agrees"
+      },
+      {
+        "page": 627,
+        "cols": [
+          "1241",
+          "1242"
+        ],
+        "from": "1241A",
+        "to": "1241B",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1241/1242; page shared with next stint, collated to 'ostendi.' (1241B) above the CAPUT VIII head; foot read full width, no notes; TEI agrees"
+      },
+      {
+        "page": 617,
+        "cols": [
+          "1225",
+          "1226"
+        ],
+        "from": "1226C",
+        "to": "1226D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, corners 1225/1226; confirms 'dicit.' stop and 'Trinitate,' comma",
+        "scan": "B"
+      },
+      {
+        "page": 618,
+        "cols": [
+          "1227",
+          "1228"
+        ],
+        "from": "1228D",
+        "to": "1228D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, corners 1227/1228; 'respiciens, ut' mark small, comma or stop not decidable on either copy (not claimed)",
+        "scan": "B"
+      },
+      {
+        "page": 620,
+        "cols": [
+          "1231",
+          "1232"
+        ],
+        "from": "1231B",
+        "to": "1231C",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, corners 1231/1232; 'moeroris,' comma not claimable as stop; 'dil?tionis' has no c (600 dpi crop), vowel undecidable",
+        "scan": "B"
+      },
+      {
+        "page": 621,
+        "cols": [
+          "1233",
+          "1234"
+        ],
+        "from": "1233C",
+        "to": "1234D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, corners 1233/1234; confirms VERS. 5., 'canalibus' (no r) at 1233D, no comma after 'respicere' at 1234D; 'a summo' prints (blacked on A)",
+        "scan": "B"
+      },
+      {
+        "page": 622,
+        "cols": [
+          "1235",
+          "1236"
+        ],
+        "from": "1235A",
+        "to": "1235A",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, corners 1235/1236; confirms 'bone et honeste'",
+        "scan": "B"
+      },
+      {
+        "page": 624,
+        "cols": [
+          "1239",
+          "1240"
+        ],
+        "from": "1239A",
+        "to": "1239C",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, corners 1239/1240; confirms 'beatudinis'; 'e diverso' prints",
+        "scan": "B"
+      }
+    ]
+  }
+}

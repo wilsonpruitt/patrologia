@@ -1,0 +1,285 @@
+# 11512 — lemma inventory and Clementine pre-scan
+
+**Commentaria in Canticum canticorum** · PL 195 · cols 1001–1278A · 81 chunks.
+
+Generated at launch. **This file is a CANDIDATE LIST, not a findings list.**
+
+Every marked span in the Latin of this work, in order, with its column band — **both the
+italic `*…*` spans and the quoted `« … »` spans.** ⛔ Which of the two carries the verse
+lemma VARIES BY BOOK and may not be assumed: Luke (9000) has no guillemets at all and sets
+its lemmata in italic, while Genesis (8950) sets 1,207 lemmata in guillemets and italicizes
+only second lemmata, Hebrew words and the *Historice/Allegorice* tags. Spans opening a
+`VERS. n.--` address are the verse lemmata proper; the rest are second lemmata picked up
+mid-gloss, and inline scripture the gloss quotes. **7a″ applies to all of them.**
+
+## How the ✓ / ⚠ marks were made, and what they do NOT mean
+
+Mechanical phrase search of the normalized span against
+`sources/vulgate/clementine-flat.txt` (all 73 books, one verse per line).
+
+- **✓ followed by an ADDRESS** = this exact word sequence occurs, as whole words, in the
+  verse(s) named. ⛔ Still **not clearance** — but now you can see WHERE it matched, which is
+  the thing a bare tick used to hide. **Read the address.** If you are glossing Luke 2 and the
+  mark says `✓ Lc 19:38`, the mark has just told you the lemma matches a different verse.
+- **⚑ MATCHES ONLY ELSEWHERE** = the span carries a `VERS.` address, so it is the verse lemma
+  proper, and it occurs in the Clementine — but **not in this book and chapter.** In a gospel
+  commentary that is usually the harmony answering for the wrong evangelist. Measured on 9000:
+  six spans scored a bare ✓ and every one was a real divergence found by a stint walking the
+  line — `Quid cogitatis mala…` off Mt 9:4 inside a commentary on Lc 5:22, and `Gloria in
+  excelsis Deo` at Lc 2:14 off Lc 19:38, the verse the gloss expounds two lines later.
+- **⚠ NOT in Clementine verbatim** = the sequence was not found. Most of these will be
+  innocent: a fragment cut mid-phrase, an `usque ad` abridgment span, a span carrying an
+  editorial `etc.`, a Migne spelling. **A ⚠ is a place to look, never a divergence.**
+- Single words are not searchable this way and are marked for checking in place.
+
+## ⚠ THE COMPARAND ITSELF HAS DEFECTS — CHECK BEFORE YOU ACCUSE MIGNE
+
+`clementine-flat.txt` is Tweedale's 2005 "Quasimodo" release and **the upstream
+correction diffs published after it are deliberately NOT applied** (see
+`sources/vulgate/README.md`). So a divergence can live on OUR side of the collation, and
+a `[var:]` fired against it is a false public claim about Migne's text.
+
+**Confirmed defects in this copy** (found by stints, both forms of the file affected):
+
+    Is 22:18   `Coronas cornonabit te`   — read `Coronans coronabit te`
+
+⛔ **The test is cheap and it is yours to run: if the brief's Clementine reading is not
+itself sound Latin, the defect is in the comparand.** `cornonabit` is not a word. Say so,
+collate against the sense, and do NOT fire a marker on it. Add any new instance to this
+list. ⚑ The same rule applies at one remove to a form that IS sound but looks wrong: a
+peer declined a `[sic:]` on Migne's `requiscere` because this file prints the syncopated
+stem at the verse quoted — the form lives outside Migne's compositor.
+
+⛔ **You still walk every line.** The marks order your work; they do not do it. A `[var:]`
+is a public claim about another text and must rest on the file, cited by book chapter:verse —
+never on this pre-scan and never on recollection.
+
+
+## ⛔ Check this file's count against your own Latin before you rely on it
+
+This file is split by CHUNK MEMBERSHIP, and its span total below is the number of italic
+spans in YOUR chunks' Latin. **Count the marked spans in your own files — both `*…*` and `« … »` — and compare.** If
+the totals disagree, say so in your report rather than working around it.
+
+That instruction is here because the count is the ONLY handle on this class. An earlier
+splitter divided the inventory by the column BAND each span stands under, which slides
+head-of-range spans into the previous stint's file — the master inventory stays complete,
+the English is unaffected, and verify-english cannot see it. On 9001 it left two stints
+short at the head of their own range, and both found it by doing exactly this count.
+
+## The inventory — chunks 0005–0009, bands 1017–1034C (208 spans, of which 0 OPEN-ENDED, = the marked spans in your Latin)
+
+⚠ **Count yours PARAGRAPH-BOUNDED and report both numbers.** An unmatched delimiter defeats a span
+counter in both directions — an unmatched `«` run forward across a paragraph swallows the next
+span, an unmatched `»` shifts the pairing backwards — and on a guillemet book both are common.
+The 0004–0007 stint of 8950 reconciled 215 against 215 and the agreement was FALSE: two of its own
+errors of exactly this kind had cancelled. A bare total is not a checkable number here.
+
+[1017] * 2*   — single word, check in place
+[1017] VERS. 1.-- *Osculetur me osculo oris sui.*   ✓ Ct 1:1
+[1017] *In principio erat Verbum, et Verbum erat [1017B] apud Deum, et Deus erat Verbum [n: (Joan. I)]*   ✓ Jo 1:1
+[1018] *3,*   — single word, check in place
+[1018] *Si quis diligit me sermonem meum servabit et Pater meus diliget eum, et ad eum veniemus et mansionem [1018B] apud eum faciemus [n: (Joan. XIV)]*   ✓ Jo 14:23
+[1018B] *Osculetur me osculo oris sui.*   ✓ Ct 1:1
+[1018B] *Propter hoc sciet populus [1018C] meus nomen meum in die illa, quia ego qui loquebar, ecce adsum [n: (Isa. LII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1018C] *quia multifarie multisque modis olim Deus loquens patribus in prophetis, novissime [1018D] diebus istis locutus est nobis in Filio [n: (Hebr I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1018D] *osculetur me,*   ✓ Ct 1:1
+[1018D] *osculo oris sui.*   ✓ Ct 1:1
+[1018D] *veniens evangelizavit pacem his qui longe et his [1019A] qui prope erant [n: (Ephes. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1019A] *magni consilii Angelus*   ⚠ NOT in Clementine verbatim — CHECK
+[1019A] *Princeps pacis [n: (Isa. IX)]*   ✓ Is 9:6
+[1019A] *Osculetur me osculo oris tui,*   ⚠ NOT in Clementine verbatim — CHECK
+[1019A] *4*   — single word, check in place
+[1019A] *quia meliora sunt,*   ✓ Ct 1:1
+[1019A] *ubera tua vino,*   ✓ Ct 1:1, Ct 4:10
+[1019B] *osculetur me,*   ✓ Ct 1:1
+[1019B] *osculo oris sui.*   ✓ Ct 1:1
+[1019B] *de puro corde et conscientia bona et fide non ficta [n: (I Tim. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1019C] *si oculus tuus fuerit simplex, totum corpus tuum lucidum erit; si autem nequam, tenebrosum erit [n: (Luc. XI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1019C] *quae nec oculus vidit, nec auris audivit, nec in cor hominis*   ⚠ NOT in Clementine verbatim — CHECK
+[1019C] *Mortua fides*   ⚠ NOT in Clementine verbatim — CHECK
+[1019D] *sine operibus est [n: (Jac. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1019D] *in tempore credit, et in tempore tentationis recedit [n: (Luc. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1019D] *fide non ficta*   ✓ 1Tim 1:5
+[1019D] *de corde puro et conscientia bona [n: (I Tim. I)]*   ✓ 1Tim 1:5
+[1019D] *charitas,*   — single word, check in place
+[1019D] *perfecta foras mittit timorem [n: (I Joan. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1020A] *omni custodia servat cor suum [n: (Prov. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1020A] *5*   — single word, check in place
+[1020B] *De corde*   ✓ 1Tim 1:5, 2Tim 2:22, 3Rg 12:33, …
+[1020B] *puro et conscientia bona et fide non ficta [n: (I Tim. I)]*   ✓ 1Tim 1:5
+[1020B] *de virtute in virtutem [n: (Psal. LXXXIII)]*   ✓ Ps 83:8
+[1020B] *excelsus Dominus super omnes gentes [n: (Psal. CXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1020C] *ad tertium coelum,*   ✓ 2Cor 12:2
+[1020C] *raptum*   — single word, check in place
+[1020C] *et*   — single word, check in place
+[1020C] *verba, quae non licet homini loqui [n: (II Cor. XII)]*   ✓ 2Cor 12:4
+[1020C] *charitatem quam aquae multae non*   ⚠ NOT in Clementine verbatim — CHECK
+[1020C] *exstinguere; fortis enim ut mors dilectio [n: (Cant. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1020D] *Secretum meum mihi, secretum meum mihi [n: (Isa. XXIX)]*   ✓ Is 24:16
+[1020D] *carbonibus desolatoriis [n: (Psal. CXIX)]*   ✓ Ps 119:4
+[1020D] *Osculetur me osculo oris sui.*   ✓ Ct 1:1
+[1021A] *6*   — single word, check in place
+[1021A] *Christus*   — single word, check in place
+[1021A] *resurgens ex mortuis jam non moritur, mors illi ultra non dominabitur [n: (Rom. VI)]*   ✓ Rom 6:9
+[1021A] *jugum a facie olei [n: (Isa. X)]*   ✓ Is 10:27
+[1021A] *misericordia*   — single word, check in place
+[1021A] *misericordia*   — single word, check in place
+[1021A] *Domini super omnia opera [1021B] ejus [n: (Psal. CXLIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1021C] *destructo medio pariete, solvens inimicitias in carne sua per sanguinem [n: (Ephes. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1021D] *nec oculus vidit, nec auris audivit, nec in cor hominis ascendit [n: (I Cor. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1022A] *7*   — single word, check in place
+[1022A] *Appropinquate Deo et appropinquabit vobis [n: (Jac. IV)]*   ✓ Jac 4:8
+[1022A] *Domine, ostende mihi faciem tuam [n: (Exod. XXXIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1022A] *Osculetur me osculo oris sui.*   ✓ Ct 1:1
+[1022C] *Remittuntur tibi peccata tua [n: (Luc. VII)]*   ✓ Lc 5:20, Mt 9:2
+[1022C] *Vade in pace [n: (ibid.)]*   ✓ 1Rg 1:17, 1Rg 20:22, 1Rg 20:42, …
+[1022C] *Maria optimam partem elegit quae non auferetur ab ea [n: (Luc. X)]*   ✓ Lc 10:42
+[1022D] *quae non videmus speramus, per patientiam exspectamus [n: (Rom. VIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1022D] *8*   — single word, check in place
+[1022D] *Osculetur me osculo oris sui;*   ✓ Ct 1:1
+[1022D] *sui;*   — single word, check in place
+[1023A] *osculetur me osculo oris sui:*   ✓ Ct 1:1
+[1023A] *nunc*   — single word, check in place
+[1023A] *per speculum in aenigmate, tunc*   ✓ 1Cor 13:12
+[1023A] *facie ad faciem [n: (I Cor. XIII)]*   ✓ 1Cor 13:12, Dt 5:4, Dt 34:10, …
+[1023A] *cum erit Deus omnia in omnibus [n: (I Cor. XV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1023A] VERS. 2.-- *Quia meliora sunt ubera tua vino, fragrantia unguentis optimis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1023B] *Poenitentiam agite, appropinquabit enim regnum coelorum [n: (Matth. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1023B] *Oculum pro oculo, dentem pro dente, et quisquis haec vel illa fecerit, morte moriatur [n: (Exod. XXI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1023C] *Saule,*   — single word, check in place
+[1023C] *frater; misit me Dominus Jesus, qui apparuit tibi in via qua veniebas, ut videas et implearis [1023D] Spiritu sancto [n: (Act. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1023D] *9*   — single word, check in place
+[1024A] *sunt*   — single word, check in place
+[1024A] *ubera tua,*   ✓ Ct 1:1, Ct 4:5, Ct 4:10, …
+[1024A] *Satiabor dum apparuerit gloria tua? [n: (Psal. XVI.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1024A] *quia meliora sunt ubera tua vino;*   ✓ Ct 1:1
+[1024A] *Fragrantia unguentis optimis.*   ✓ Ct 1:2
+[1024B] *fructus,*   — single word, check in place
+[1024B] *spiritus sunt: pax, patientia, bonitas, benignitas, fides, mansuetudo, obedientia, continentia, castitas [n: (Gal. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1024B] *Ego autem sicut oliva [1024C] fructifera in domo Domini [n: (Psal. LI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1024C] *Christi bonus odor sumus Deo in omni loco [n: (II Cor. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1024D] *unctio*   — single word, check in place
+[1024D] *10*   — single word, check in place
+[1024D] *ejus docebit vos de omnibus [n: (I Joan. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1024D] *Nostra autem conversatio in coelis est [n: (Philip. III)]*   ✓ Phlp 3:20
+[1024D] *ab uberibus consolationis Dei,*   ⚠ NOT in Clementine verbatim — CHECK
+[1025A] *ubera*   — single word, check in place
+[1025A] *meliora sunt vino,*   ⚠ NOT in Clementine verbatim — CHECK
+[1025A] *Nihil enim,*   ✓ 1Cor 4:4, 1Tim 6:7, 2Cor 12:11, …
+[1025A] *ad perfectum addidit lex;*   ⚠ NOT in Clementine verbatim — CHECK
+[1025A] *omnia in figura contingebant illis; scripta sunt autem ad correctionem nostram in quos fines saeculorum devenerunt [n: (I Cor. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1025B] *Oleum effusum nomen tuum: ideo adolescentulae dilexerunt te.*   ✓ Ct 1:2
+[1025C] *nomen tuum*   ✓ 1Mcc 4:33, 1Mcc 7:37, 1Par 17:24, …
+[1025C] *oleum effusum,*   ✓ Ct 1:2
+[1025C] *in Judaea notus*   ⚠ NOT in Clementine verbatim — CHECK
+[1025C] *in Israel magnum nomen tuum [n: (Psal. LXXV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1025C] *11*   — single word, check in place
+[1025C] *A solis ortu usque ad occasum magnum nomen tuum in gentibus [n: (Malach. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1025C] *Nomen quod est super omne nomen, ita ut in nomine tuo omne genu flectatur, coelestium, terrestrium et infernorum [n: (Philip. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1025C] *Et non est aliud nomen sub coelo datum hominibus, per [1025D] quod oporteat nos salvari [n: (Act. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1025D] *nomen tuum oleum effusum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1025D] *si linguis hominum loquar et angelorum, charitatem autem non habuero, factus sum velut aes sonans aut cymbalum tinniens; et si habuero prophetiam et noverim mysteria omnia et omnem scientiam, et si habuero fidem ita ut montes transferam, charitatem [1026A] autem non habeam, nihil mihi prodest; et si distribuero in cibos pauperum omnes facultates meas, et si tradidero corpus meum ita ut ardeam, charitatem autem non habeam, nihil sum [n: (I Cor. XIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1026A] *Deus charitas est [n: (I Joan. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1026B] *propter nimiam charitatem suam qua dilexit nos Deus [n: (Ephes. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1026B] *Sicut unguentum in capite, quod descendit in barbam, barbam Aaron, quod descendit in oram vestimenti ejus [n: (Psal. CXXXII)]*   ✓ Ps 132:2
+[1026B] *unxit te Deus, Deus tuus oleo exsultationis [1026C] prae participibus tuis [n: (Psal. XLIV; Hebr. I)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1026C] *12*   — single word, check in place
+[1026C] *Quod descendit in oram vestimenti tui,*   ⚠ NOT in Clementine verbatim — CHECK
+[1026C] *in quos fines saeculorum devenerunt [n: (I Cor. X)]*   ✓ 1Cor 10:11
+[1026D] *Nomen*   — single word, check in place
+[1026D] *tuum est oleum effusum,*   ⚠ NOT in Clementine verbatim — CHECK
+[1026D] *charitas tua diffusa est in cordibus nostris, per Spiritum sanctum qui datus est nobis [n: (Rom. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1026D] *Ideo adolescentulae dilexerunt te nimis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1026D] *ideo adolescentulae dilexerunt te nimis.*   ⚠ NOT in Clementine verbatim — CHECK
+[1027A] *Quasi modo geniti infantes, rationabile sine dolo lac concupiscite, ut in eo crescatis in salutem [n: (I Petr. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1027B] *Nisi,*   — single word, check in place
+[1027B] *conversi fueritis, et efficiamini sicut parvuli, non intrabitis in regnum coelorum [n: (Matth. XVIII)]*   ✓ Mt 18:3
+[1027B] *Malitia,*   — single word, check in place
+[1027B] *parvuli estote, ut sensibus perfecti sitis [n: (I Cor. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1027B] *renovabitur,*   — single word, check in place
+[1027B] *ut aquilae juventus tua [n: (Psal. CII)]*   ✓ Ps 102:5
+[1027B] *Senectus venerabilis est, non diuturna, neque annorum numero computata, cani sunt enim sensus hominis et aetas senectutis vita immaculata [n: (Sap. IV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1027C] *naturale,*   — single word, check in place
+[1027C] *affectuale.*   — single word, check in place
+[1027C] *13*   — single word, check in place
+[1027C] *Et placebit,*   ✓ Mal 3:4, Ps 68:32
+[1027C] *Deo super vitulum novellum: cornua producentem et ungulas [n: (Psal. LXVIII)]*   ✓ Ps 68:32
+[1027D] *Induite novum hominem eum qui renovatur in agnitione, secundum imaginem ejus qui creavit eum [n: (Col. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1027D] *Induite,*   — single word, check in place
+[1027D] *vos sicut electi Dei viscera misericordiae, benignitatem, humilitatem, modestiam, patientiam, supportantes invicem et donantes vobismetipsis [n: (ibid.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1028B] *In carne quidem ambulantes, non secundum carnem ambulamus [n: (II Cor. X)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1028B] *Nostra autem conversatio in coelis est [n: (Philip. III)]*   ✓ Phlp 3:20
+[1028B] *Sive sobrii sumus, sive mente excidimus, Deo [n: (II Cor. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1028C] *Ideo adolescentulae*   ✓ Ct 1:2
+[1028C] *14*   — single word, check in place
+[1028C] *dilexerunt te nimis,*   ⚠ NOT in Clementine verbatim — CHECK
+[1028C] *Trahe me: post te curremus,*   ✓ Ct 1:3
+[1028C] VERS. 3.-- *Trahe me: post te curremus in odorem unguentorum tuorum. Introduxit me rex in cellaria sua: exsultabimus et laetabimur in te, memores uberum [1028D] tuorum super vinum: recti diligunt te.*   ✓ Ct 1:3
+[1028D] *non volentis, neque currentis sed miserentis est Dei [n: (Rom. IX)]*   ✓ Rom 9:16
+[1028D] *nec cogitare,*   ⚠ NOT in Clementine verbatim — CHECK
+[1028D] *aliquid a nobis quasi ex nobis sufficientes simus [n: (II Cor. III)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1029A] *velle et perficere pro bona voluntate [n: (Philip. II)]*   ✓ Phlp 2:13
+[1029A] *velle perficere operatur in*   ⚠ NOT in Clementine verbatim — CHECK
+[1029A] *non volentis, neque currentis, sed miserentis est Dei [n: (Rom. IX)]*   ✓ Rom 9:16
+[1029B] *Deduc me,*   ✓ Ps 5:9, Ps 85:11, Ps 118:35, …
+[1029B] *in semita mandatorum tuorum, quia ipsam volui [n: (Psal. CXVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1029C] *15*   — single word, check in place
+[1029C] *Nemo venit ad me, nisi Pater meus traxerit eum [n: (Joan. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1029C] *Compelle intrare [n: (Luc. XIV)]*   ✓ Lc 14:23
+[1029C] *qui omnes vult salvos fieri [n: (I Tim. II)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1029D] *Trahe me post te: curremus in odorem unguentorum tuorum.*   ✓ Ct 1:3
+[1029D] *Trahe me post te,*   ✓ Ct 1:3
+[1030A] *curremus in odorem unguentorum tuorum;*   ✓ Ct 1:3
+[1030A] *trahe me,*   ✓ Ct 1:3
+[1030A] *post te curremus in odorem unguentorum tuorum,*   ✓ Ct 1:3
+[1030A] *Curremus,*   — single word, check in place
+[1030A] *Ibunt,*   — single word, check in place
+[1030A] *de virtute in virtutem [n: (Psal. LXXXIII)]*   ✓ Ps 83:8
+[1030A] *Videbitur Deus deorum in Sion [n: (ibid.)]*   ✓ Ps 83:8
+[1030B] *Ego sum via, veritas et vita [n: (Joan. XIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1030C] *16*   — single word, check in place
+[1030C] *non quasi in incertum [n: (I Cor. IX)]*   ✓ 1Cor 9:26
+[1030C] *oculus vidit, nec auris audivit, nec in cor hominis ascendit [n: (Isai. LXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1030C] *Curremus*   — single word, check in place
+[1030C] *In odore unguentorum tuorum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1030C] *in odore,*   ⚠ NOT in Clementine verbatim — CHECK
+[1030C] *unguentorum*   — single word, check in place
+[1030D] *Tu autem cum jejunas, unge caput tuum et faciem tuam lava, ne videaris hominibus jejunans, sed Patri tuo qui est in abscondito, et Pater tuus qui videt in abscondito reddet tibi [n: (Matth. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1031A] *in*   — single word, check in place
+[1031A] *nocte,*   — single word, check in place
+[1031A] *duo erunt in lecto uno, duae molentes simul, duo in agro,*   ⚠ NOT in Clementine verbatim — CHECK
+[1031A] *uno assumpto*   ⚠ NOT in Clementine verbatim — CHECK
+[1031A] *alter relinquetur*   ✓ Lc 17:34, Lc 17:35
+[1031B] *17*   — single word, check in place
+[1031C] *quae non agit perperam [n: (I Cor. XIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1031C] « Videte, ait, quanta opera facit superbia, quam similia faciat, et quasi paria charitati. Pascit esurientem charitas, pascit et superbia; charitas ut Deus laudetur superbia ut ipsa laudetur: vestit nudum charitas, vestit et superbia; jejunat charitas, jejunat et superbia; sepelit mortuum charitas, sepelit et superbia. Omnia opera bona quae vult facere et facit charitas, agitat contra superbia et quasi ducit equos [1031D] suos; sed interior est charitas, tollit locum male agitatae superbiae. »   ⚠ NOT in Clementine verbatim — CHECK
+[1031D] « Noli, inquit, attendere quod floret foris, sed quae radix est intra radicata est cupiditas: species potest esse bonorum factorum, vere opera bona esse non possunt. Radicata est charitas, securus esto, nihil mali procedere potest. »   ⚠ NOT in Clementine verbatim — CHECK
+[1031D] *Concaluit cor meum intra me et in meditatione mea exardescet ignis [n: (Psal. XVIII)]*   ✓ Ps 38:4
+[1031D] *ut ignis in altari jugiter ardeat [n: (Lev. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1032A] *ut oleum semper in domo Domini sit ad concinnandas lucernas [n: (Exod. XXXV; Levit. XXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1032A] *Et lucernae ardentes in manibus nostris [n: (Luc. XII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1032A] *Sanctum est,*   ✓ 1Cor 3:17, Ex 30:37, Ex 31:14, …
+[1032A] *templum tuum mirabile in aequitate [n: (Psal. LXIV)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1032B] *Domum tuam decet sanctitudo [n: (Psal. XCII)]*   ✓ Ps 92:5
+[1032B] *Templum,*   — single word, check in place
+[1032B] *Dei sanctum est, quod estis vos [n: (I Cor. III)]*   ✓ 1Cor 3:17
+[1032B] *Nescitis quia corpora vestra templum sunt Spiritus sancti? [n: (I Cor. VI.)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1032B] *Curremus in odorem unguentorum tuorum;*   ✓ Ct 1:3
+[1032C] *18*   — single word, check in place
+[1032C] *ne transgrediaris,*   ✓ Pr 22:28
+[1032C] *terminos quos posuerunt patres tui [n: (Prov. XXII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1032C] *novit Dominus viam justorum [n: (Psal. I)]*   ✓ Ps 1:6
+[1032C] *non plus sapere quam oportet sapere, sed sapere [1032D] ad sobrietatem [n: (Rom. XII)]*   ✓ Rom 12:3
+[1032D] *Maledictus omnis qui facit opus Domini fraudulenter [n: (Jerem. XLVIII)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1033A] *Est modus in rebus, sunt certi denique fines,*   ⚠ NOT in Clementine verbatim — CHECK
+[1033A] *Ultra quos citraque nequit consistere verum.*   ⚠ NOT in Clementine verbatim — CHECK
+[1033A] *in omnibus,*   ✓ 1Cor 1:5, 1Cor 7:17, 1Cor 8:7, …
+[1033A] *exhibeamus nos sicut Dei ministros, in multa patientia, in tribulationibus, in necessitatibus, in angustiis, in plagis, in carceribus, in seditionibus, in laboribus, in vigiliis, in jejuniis, in castitate, in scientia, in longanimitate, in suavitate, in Spiritu sancto, in charitate [1033B] non ficta, in verbo veritatis, in virtute Dei, per arma justitiae, a dextris et a sinistris, per gloriam et ignobilitatem, per infamiam et bonam famam ut seductores et veraces, sicut qui ignoti et cogniti, quasi morientes et ecce vivimus, ut castigati et non mortificati, quasi tristes semper, autem gaudentes, sicut egentes, multos autem locupletantes, tanquam nihil habentes et omnia possidentes [n: (II Cor. VI)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1033C] *19*   — single word, check in place
+[1034A] *Ibunt de virtute in virtutem [n: (Psal. LXXXIII)]*   ✓ Ps 83:8
+[1034B] *in charitate radicati*   ⚠ NOT in Clementine verbatim — CHECK
+[1034B] *20*   — single word, check in place
+[1034C] *Exemplum accipite, fratres, laboris et patientiae per prophetas qui locuti sunt vobis in nomine Domini [n: (Jac. V)]*   ⚠ NOT in Clementine verbatim — CHECK
+[1034C] *Imitatores,*   — single word, check in place
+[1034C] *mei estote sicut et ego Christi [n: (Phil. III)]*   ✓ 1Cor 4:16, 1Cor 11:1

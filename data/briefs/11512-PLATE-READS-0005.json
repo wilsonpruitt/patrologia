@@ -1,0 +1,20 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0005-0009 (stint T02). MERGE INTO data/plate-reads.json under works.11512. Every page opened once at 300 dpi, corners read first, both columns collated line by line against our Latin in crops, and the full page width including the foot checked in the same visit. Page 515 is shared with T01 (read here for cols 1017-1018). Page 523 continues into T03's range (1034D onward, not collated here beyond 1034D).",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "reads": [
+      { "page": 515, "cols": ["1017","1018"], "from": "1017", "to": "1018D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; plate splits 'sibipo rrigi' (TEI 'sibi porrigi', 1017D); plate 'Trinitatis 3.' (TEI '*3,*', 1018)" },
+      { "page": 516, "cols": ["1019","1020"], "from": "1019A", "to": "1020D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI divergences approbunt/approbant (1019D), as erit/asserit worn s (1020C), repento/repente (1020D); plate defects charita em (1020B), praesumes (1019B), quaerat (1020B); oris tui confirmed (1019A)" },
+      { "page": 517, "cols": ["1021","1022"], "from": "1021A", "to": "1022D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; plate broken sort computrui' (1021B)" },
+      { "page": 518, "cols": ["1023","1024"], "from": "1023A", "to": "1024D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI Joanne; vs plate Joannes worn s (1024C); fecunditat[.] final letter smudged, unresolved (1024B); verberum, appropinquabit, docebit confirmed" },
+      { "page": 519, "cols": ["1025","1026"], "from": "1025A", "to": "1026D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI laborat vs plate 'labora ,' (1026D); plate split 'ostendi se' (1026C); dementia, regalium, addidit, nimis confirmed" },
+      { "page": 520, "cols": ["1027","1028"], "from": "1027A", "to": "1028D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI '(ibid.).' vs plate '(ibid.):' (1027D); credentes, ambulamus, excidimus confirmed" },
+      { "page": 521, "cols": ["1029","1030"], "from": "1029A", "to": "1030D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI praerogavita/praerogativa (1029C), nulla enus/nullatenus worn t (1029D), virtu/virtus worn s (1030D); imitando, opertum, nabeo confirmed" },
+      { "page": 522, "cols": ["1031","1032"], "from": "1031A", "to": "1032D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes; TEI agrees; liberamine, minuunt, nostris, corpora confirmed" },
+      { "page": 523, "cols": ["1033","1034"], "from": "1033A", "to": "1034D", "depth": "full", "date": "2026-09-25", "corners_checked": true, "found": "no foot notes (foot carries only the signature 'PATROL. CXCV.' and '33'); TEI agrees; nobilis, 'non possit ... non flecti', 'tristes semper, autem gaudentes' confirmed" }
+    ]
+  }
+}

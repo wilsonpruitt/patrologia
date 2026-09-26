@@ -1,0 +1,241 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0045-0049 (stint T10). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 582-591 each opened once at 300 dpi (single-letter sites re-read at 600 dpi), corners read first, text collated and the foot read full width in the same visit; p. 582 shared with T09 (read from 1151C), p. 591 shared with the next stint (read to 1169D). Scan B (raw/scans/pl195/patrologiaecur195mign.pdf, PDF page = floor((col+9)/2)) opened at pp. 580, 581, 582, 583, 584, 585, 589, corners read, single letters settled at 600 dpi. No foot notes on any page.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 582,
+        "cols": [
+          "1151",
+          "1152"
+        ],
+        "from": "1151C",
+        "to": "1152D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1151/1152; page shared with T09, collated from the 143 VERS. 3 lemma (1151C) on; no foot notes (read full width); crubescenti read on A but scan B p580 at 600dpi prints erubescenti = TEI patch (sic withdrawn); gratiam (A clipped m at margin, B clean); vitta ... vitta, succendunt without stop, quanta species, gloriosa oculorum, foris est ostendere (est confirmed = [sic:]) all confirmed; Jer 3:3 with et"
+      },
+      {
+        "page": 583,
+        "cols": [
+          "1153",
+          "1154"
+        ],
+        "from": "1153A",
+        "to": "1154D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1153/1154; no foot notes; Virgil line set centred on its own line (our Latin runs it inline); Horace lines lineated; petus confirmed (A, and B p581 at 600dpi) = [sic:]; patris molimina confirmed; continert = damaged n on A and B, no claim; colon after (I Reg. xv) (TEI full stop) = TEI patch, confirmed on B p581; speck before Sed (1154D) is not a mark (B clean)"
+      },
+      {
+        "page": 584,
+        "cols": [
+          "1155",
+          "1156"
+        ],
+        "from": "1155A",
+        "to": "1156D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1155/1156; no foot notes; pavi confirmed (A, and B p582 at 600dpi) = [sic:]; 148; (Gal v) roman on plate; dilectae smudged, no claim; TEI agrees otherwise"
+      },
+      {
+        "page": 585,
+        "cols": [
+          "1157",
+          "1158"
+        ],
+        "from": "1157A",
+        "to": "1158D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1157/1158; no foot notes; VERS. 7 without mea confirmed; monti-|tibus (two worn glyphs before bus, same on B p583) = [sic: montitibus]; candi-|tatio (A and B p583, 600dpi) = [sic: canditatio]; lemma closes with ?; profuturi, exiguae, et humana confirmed"
+      },
+      {
+        "page": 586,
+        "cols": [
+          "1159",
+          "1160"
+        ],
+        "from": "1159A",
+        "to": "1160D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1159/1160; no foot notes; thalami (Job 40:16) confirmed = [var:]; dixisti (Jr 1:12) confirmed = [var:]; illua for TEI illud (A, and B p584 at 600dpi, no ascender) = TEI patch; vita animae es with no stop (A and B p584) = [sic: es]; super superbiam confirmed; 152, 153"
+      },
+      {
+        "page": 587,
+        "cols": [
+          "1161",
+          "1162"
+        ],
+        "from": "1161A",
+        "to": "1162D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1161/1162; foot carries only the signature PATROL. CXCV. and gathering 27, no notes; permittimur (TEI permittitur) = TEI patch, confirmed on B p585; corporatur, supra seducitur confirmed; eor read on A but B p585 at 600dpi prints cor = TEI patch (sic withdrawn); fundamentum. dilectio (stop + lowercase); soculorum confirmed (and B p585 600dpi) = [sic:]; de'iciatur damaged sort on A and B, undecided, no claim"
+      },
+      {
+        "page": 588,
+        "cols": [
+          "1163",
+          "1164"
+        ],
+        "from": "1163A",
+        "to": "1164D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1163/1164; no foot notes; indomabili corde (Act 7:51) confirmed = [var:]; Intravit mors per fenestras vestras (Jr 9:21) confirmed = [var:]; imperfectam, quos credit confirmed; virtutem and aeternam paragraph ends without stop confirmed"
+      },
+      {
+        "page": 589,
+        "cols": [
+          "1165",
+          "1166"
+        ],
+        "from": "1165A",
+        "to": "1166D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1165/1166; no foot notes; (Ephes. v) after luxuria; incorruptione ... incorruptione confirmed; delecta confirmed; omn es = spacing/damaged n, no claim; TEI agrees otherwise"
+      },
+      {
+        "page": 590,
+        "cols": [
+          "1167",
+          "1168"
+        ],
+        "from": "1167A",
+        "to": "1168D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1167/1168; no foot notes; cera mellis est? confirmed; ex humilitate confirmed; in proverbiis Salomonis; metaphor passage (four modes, two listed) as in TEI; TEI agrees"
+      },
+      {
+        "page": 591,
+        "cols": [
+          "1169",
+          "1170"
+        ],
+        "from": "1169A",
+        "to": "1169D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1169/1170; page shared with the next stint, collated to perdunt. (1169D), foot read full width, no foot notes; husjusmodi confirmed (and B p589 600dpi) = [sic:]; hoc est scriptum confirmed (and B p589) = [cj:]; sanctorum Scripturarum confirmed"
+      },
+      {
+        "page": 580,
+        "scan": "B",
+        "cols": [
+          "1151",
+          "1152"
+        ],
+        "from": "1151A",
+        "to": "1152D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1151/1152; erubescenti (600dpi, closed-eye e) against A/TEI crubescenti; gratiam clean"
+      },
+      {
+        "page": 581,
+        "scan": "B",
+        "cols": [
+          "1153",
+          "1154"
+        ],
+        "from": "1153A",
+        "to": "1154D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1153/1154; petus confirmed (600dpi); colon after (I Reg. xv) confirmed (600dpi); continert same damaged sort as A"
+      },
+      {
+        "page": 582,
+        "scan": "B",
+        "cols": [
+          "1155",
+          "1156"
+        ],
+        "from": "1155A",
+        "to": "1156D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1155/1156; pavi confirmed (600dpi)"
+      },
+      {
+        "page": 583,
+        "scan": "B",
+        "cols": [
+          "1157",
+          "1158"
+        ],
+        "from": "1157A",
+        "to": "1158D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1157/1158; monti-|[two worn glyphs]bus and candi-|tatio confirmed (600dpi)"
+      },
+      {
+        "page": 584,
+        "scan": "B",
+        "cols": [
+          "1159",
+          "1160"
+        ],
+        "from": "1159A",
+        "to": "1160D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1159/1160; illua confirmed (600dpi, final a, no ascender); vita animae es, no stop (600dpi); thalami, dixisti; e contrario and a Deo legible"
+      },
+      {
+        "page": 585,
+        "scan": "B",
+        "cols": [
+          "1161",
+          "1162"
+        ],
+        "from": "1161A",
+        "to": "1162D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1161/1162; cor (open c, 600dpi) against A/TEI eor; permittimur confirmed; soculorum confirmed (600dpi); de'iciatur damaged as on A"
+      },
+      {
+        "page": 589,
+        "scan": "B",
+        "cols": [
+          "1169",
+          "1170"
+        ],
+        "from": "1169A",
+        "to": "1170D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1169/1170; husjusmodi and hoc est scriptum confirmed (600dpi)"
+      }
+    ]
+  }
+}

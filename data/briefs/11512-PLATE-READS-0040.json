@@ -1,0 +1,172 @@
+{
+  "_note": "Stint-scoped plate-read record for 11512 chunks 0040-0044 (stint T09). MERGE INTO data/plate-reads.json under works.11512. Scan A pages 574-582 each opened once at 300 dpi, corners read first, text collated and the foot read full width in the same visit; p. 574 shared with the previous stint (read from 1135D Sancti, quoque), p. 582 shared with the next (read to 1151C). Scan B (raw/scans/pl195/patrologiaecur195mign.pdf, PDF page = floor((col+9)/2)) opened at pp. 575, 578, 579. No foot notes on any page.",
+  "11512": {
+    "series": "pl",
+    "volume": 195,
+    "scan": "raw/scans/pl195/patrologiaecursu0195mign.pdf",
+    "scan_B": "raw/scans/pl195/patrologiaecur195mign.pdf",
+    "page_map": "PDF page = floor((column + 13) / 2)",
+    "page_map_B": "PDF page = floor((column + 9) / 2)",
+    "reads": [
+      {
+        "page": 574,
+        "cols": [
+          "1135",
+          "1136"
+        ],
+        "from": "1135D",
+        "to": "1136D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1135/1136; page shared with previous stint, collated from Sancti, quoque (foot of col 1135) on; no foot notes (read full width); 1136B quando omnipotentem non habent confirmed (zoom); TEI agrees"
+      },
+      {
+        "page": 575,
+        "cols": [
+          "1137",
+          "1138"
+        ],
+        "from": "1137A",
+        "to": "1138D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1137/1138; no foot notes; colon after determinatur (1137B) absent from TEI = TEI patch; Verus est enim sermo Dei (Hbr 4:12, 1138D) confirmed = [var:]; mihi (1137D) confirmed; sexagenari i (1138A) is line-end spacing"
+      },
+      {
+        "page": 576,
+        "cols": [
+          "1139",
+          "1140"
+        ],
+        "from": "1139A",
+        "to": "1140D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1139/1140; no foot notes; delectasio, praecito (1139D), insinuaut (1140B) confirmed at zoom = [sic:]; VERS. 9 omits rex; avaritiae contra liberalitatem confirmed"
+      },
+      {
+        "page": 577,
+        "cols": [
+          "1141",
+          "1142"
+        ],
+        "from": "1141A",
+        "to": "1142D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1141/1142; no foot notes; VERS. 10 prints Columnas (TEI Columnus) = TEI patch, confirmed at 600 dpi; Cologne 131 after 136 confirmed; fieri (1142D) confirmed"
+      },
+      {
+        "page": 575,
+        "cols": [
+          "1141",
+          "1142"
+        ],
+        "from": "1141A",
+        "to": "1142D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: corners 1141/1142 read; Columnas confirmed; same printing, no foot notes",
+        "scan": "B"
+      },
+      {
+        "page": 578,
+        "cols": [
+          "1143",
+          "1144"
+        ],
+        "from": "1143A",
+        "to": "1144D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1143/1144; no foot notes; omnia et charitate (1143A) confirmed; 1 Jo 4:20 proximum (1144B) confirmed = [var:]"
+      },
+      {
+        "page": 579,
+        "cols": [
+          "1145",
+          "1146"
+        ],
+        "from": "1145A",
+        "to": "1146D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1145/1146; no foot notes; Vidimus (Hbr 2:9) confirmed; fide corporalitatis ad corporalitatem (1145C) confirmed; com-|positione vs TEI conpositione = TEI patch; exigit 137 exigit (1146D) = [d:]; vocative o at 1145D prints"
+      },
+      {
+        "page": 580,
+        "cols": [
+          "1147",
+          "1148"
+        ],
+        "from": "1147A",
+        "to": "1148D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1147/1148; no foot notes; 138 CAPUT IV head in left column before VERS. 1; colnmbarum (turned u, 1148C) vs TEI columbarum = TEI patch, confirmed at 600 dpi; intrisecus confirmed = [sic:]; quo ea (1148D) confirmed = [sic:]+[var:]; unclosed parenthesis at 1148D"
+      },
+      {
+        "page": 578,
+        "cols": [
+          "1147",
+          "1148"
+        ],
+        "from": "1148C",
+        "to": "1148D",
+        "depth": "partial",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: corners 1147/1148 read; colnmbarum and intrisecus identical (same printing)",
+        "scan": "B"
+      },
+      {
+        "page": 581,
+        "cols": [
+          "1149",
+          "1150"
+        ],
+        "from": "1149A",
+        "to": "1150D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1149/1150; no foot notes; ascendunt (1149B) confirmed; insti-|tutis vs TEI instititutis = TEI patch; videbimus eum (Ps 35:10, 1150C) confirmed = [var:]; one-letter a (1149D) and et (1150B) blacked out on this scan"
+      },
+      {
+        "page": 579,
+        "cols": [
+          "1149",
+          "1150"
+        ],
+        "from": "1149A",
+        "to": "1150D",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "scan B, second witness: corners 1149/1150 read; a sanctis Patribus (1149D), et suorum (1150B), institutis, videbimus eum all confirmed; no foot notes",
+        "scan": "B"
+      },
+      {
+        "page": 582,
+        "cols": [
+          "1151",
+          "1152"
+        ],
+        "from": "1151A",
+        "to": "1151C",
+        "depth": "full",
+        "date": "2026-09-25",
+        "corners_checked": true,
+        "found": "corners 1151/1152; page shared with next stint, collated to the VERS. 3 lemma (1151C); no foot notes (foot read full width); materna dilectione (1151B) confirmed"
+      }
+    ]
+  }
+}
