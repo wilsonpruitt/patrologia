@@ -18,6 +18,8 @@ const read = f => fs.readFileSync(path.join(ROOT, f), 'utf8');
 
 // Recently Englished is editorial: newest first. Prepend when a work ships.
 const RECENT = [
+  // — 2026-09-25/26 session: Wolbero of St Pantaleon's Song of Songs, from the list of commentaries Jean-Louis Chrétien studied in *Symbolique du corps*: a twelfth-century abbot of Cologne writing for nuns on an island in the Rhine. Every page was read at the plate while it was translated, which recovered Migne's four foot notes (among them his own 'something is missing' and 'an obscure passage') that the digital source omits. The volume's scan fills c and e with ink, so every place the English accuses Migne's type was read again on a second copy: one accusation turned out to be ours and was withdrawn, and thirteen misprints our source had silently corrected were restored. Twelve readers then went through Latin and English side by side, and found one 'not' our English had dropped and two places where it had quietly translated the word the sense wants instead of the word Migne prints.
+  'pl/195/commentaria-in-canticum-canticorum',                   // Wolbero of St Pantaleon — Commentary on the Song of Songs, for the nuns of the Rhine island, with Gravius's 1630 front matter
   // — 2026-09-24 session: Innocent I, the first long run of papal decretals, in Coustant's edition with his lettered foot notes, and the four letters Coustant refused to admit.
   'pl/20/epistolae-et-decreta',                                  // Innocent I — Letters and Decrees, with Coustant's foot notes, each with an English twin
   'pl/20/decreta',                                               // Innocent I — the Nicene-canons epitome from the Lucca codex and the Gaulish canons (Labbe)

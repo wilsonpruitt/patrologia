@@ -1,5 +1,16 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-26) — WOLBERO, PL 195 (11512) · BUILT, STAGED, PREFLIGHT OK · DEPLOY NEEDS WILSON'S OK
+
+**Ready to ship.** `build-site.mjs 11512` ran, `preflight` exits 0 (7 checks), badge **First English translation** (workStatus `none`, englishState `ours`). Page `site/pl/195/commentaria-in-canticum-canticorum/`. RECENT has it at the top.
+**Deploy (Wilson's OK):** `cd site && npx vercel --prod --archive=tgz --scope wilson-pruitts-projects`, then smoke-test on the ALIAS: `/`, `/pl/195/commentaria-in-canticum-canticorum/`, `/cruces/pl/195/commentaria-in-canticum-canticorum/`. Then push (`git push origin master`) — also Wilson's OK.
+
+**What the passes did:** 16 Opus stints read every page (pp. 507–645) while translating (≈5.97M tok) · 4 Migne foot notes recovered, coverage full, gap (2) documented · second-witness check of every [sic:] and TEI patch on scan B (B1–B3 stalled; C1–C3 + orchestrator finished; ≈1M) → 70 TEI patches, 1 [sic:] withdrawn (ours), 13 owed [sic:] fired, 5 undecidable → cruces · 12 blind readers (≈2.1M) → adjudication (≈0.22M): 35 fixes, 25 [cj:] (Pattern 18 at its real bar — "asserts something false", not only negations; 18a's census closure is about the SHIPPED corpus), 1 dropped *non* restored (1261B), 2 silent repairs undone. Polarity recorded: 6 sites, 1 ours. Totals: var 109 · sic 117 · cj 45 · d 2 · ed 1. Merge layer: `src/english/11512/cruces.md`. **Run total ≈ 9.3M against the 9.5M quoted.**
+**Lessons written down:** plate-image agents must write each verdict as they go and view one crop at a time (stall lesson, below); Pattern 18's bar is "asserts something false" — stint cruces keep misstating it as negations only.
+
+**Chrétien's list after Wolbero:** Honorius 5949 (PL 172, 62K, unprepared) and PL 79 work 3102 WHOLE under Gregory (Robert of Tombelaine's continuation; about-prose names Robert). Or the genre pilot *Ordo Romanus XIV* (8096).
+
+
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-25) — WOLBERO, PL 195 (text 11512 / work 6464) · TRANSLATION RUN IN PROGRESS (Wilson: "opus go")
 
 **Why Wolbero:** the Song commentaries on Chrétien's list (*Symbolique du corps*, which Wilson translated — the seed of this whole project). Left after Wolbero: Honorius 5949 (PL 172) and Robert of Tombelaine's continuation inside PL 79 work 3102 (**translate 3102 WHOLE, under Gregory, as Migne prints it — no split; Robert goes in the about-prose**, Wilson 2026-09-25).
