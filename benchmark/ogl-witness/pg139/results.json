@@ -1,0 +1,96 @@
+{
+ "volume": "PG139_text.txt",
+ "calfa_tokens": 201761,
+ "common_positions": 139018,
+ "coverage": {
+  "coo.31924054870443": 0.920118357859051,
+  "hvd.32044023361710": 0.9096356580310367,
+  "mdp.39015078384214": 0.9195731583408092,
+  "njp.32101077773131": 0.8849381198546795,
+  "nnc1.0046979840": 0.8792581321464505
+ },
+ "depth_any": 0.9884,
+ "depth_ge3": 0.9582,
+ "depth_hist": {
+  "0": 2340,
+  "1": 1964,
+  "2": 4138,
+  "3": 11881,
+  "4": 42420,
+  "5": 139018
+ },
+ "accented (grave=acute, glyph variants folded)": {
+  "pairwise_disagreement": {
+   "calfa~coo.31924054870443": 0.14787,
+   "calfa~hvd.32044023361710": 0.16052,
+   "calfa~mdp.39015078384214": 0.14923,
+   "calfa~njp.32101077773131": 0.16645,
+   "calfa~nnc1.0046979840": 0.17696,
+   "coo.31924054870443~hvd.32044023361710": 0.11496,
+   "coo.31924054870443~mdp.39015078384214": 0.10431,
+   "coo.31924054870443~njp.32101077773131": 0.18006,
+   "coo.31924054870443~nnc1.0046979840": 0.19052,
+   "hvd.32044023361710~mdp.39015078384214": 0.11591,
+   "hvd.32044023361710~njp.32101077773131": 0.1899,
+   "hvd.32044023361710~nnc1.0046979840": 0.20069,
+   "mdp.39015078384214~njp.32101077773131": 0.18101,
+   "mdp.39015078384214~nnc1.0046979840": 0.19208,
+   "njp.32101077773131~nnc1.0046979840": 0.17352
+  },
+  "solved_error_rate_all5_common": {
+   "calfa": 0.07806,
+   "coo.31924054870443": 0.06223,
+   "hvd.32044023361710": 0.07329,
+   "mdp.39015078384214": 0.06344,
+   "njp.32101077773131": 0.10054,
+   "nnc1.0046979840": 0.11124
+  },
+  "calfa_error_by_triple (bigger position sets)": {
+   "min": 0.0726,
+   "max": 0.1071,
+   "mean": 0.08501
+  },
+  "vote_decided_frac": 0.9774,
+  "vote_vs_calfa_disagreement": 0.0963,
+  "vote_error_est (vote~calfa minus calfa err)": 0.01824,
+  "witnesses_unanimous_frac": 0.6989,
+  "unanimous_but_differs_from_calfa (Calfa likely wrong or shared confusion)": 4512
+ },
+ "letters only (accents/breathings ignored)": {
+  "pairwise_disagreement": {
+   "calfa~coo.31924054870443": 0.05951,
+   "calfa~hvd.32044023361710": 0.06725,
+   "calfa~mdp.39015078384214": 0.05957,
+   "calfa~njp.32101077773131": 0.07666,
+   "calfa~nnc1.0046979840": 0.07882,
+   "coo.31924054870443~hvd.32044023361710": 0.04685,
+   "coo.31924054870443~mdp.39015078384214": 0.03951,
+   "coo.31924054870443~njp.32101077773131": 0.084,
+   "coo.31924054870443~nnc1.0046979840": 0.0862,
+   "hvd.32044023361710~mdp.39015078384214": 0.04727,
+   "hvd.32044023361710~njp.32101077773131": 0.09128,
+   "hvd.32044023361710~nnc1.0046979840": 0.09333,
+   "mdp.39015078384214~njp.32101077773131": 0.08413,
+   "mdp.39015078384214~nnc1.0046979840": 0.08598,
+   "njp.32101077773131~nnc1.0046979840": 0.09036
+  },
+  "solved_error_rate_all5_common": {
+   "calfa": 0.03092,
+   "coo.31924054870443": 0.02448,
+   "hvd.32044023361710": 0.03196,
+   "mdp.39015078384214": 0.02458,
+   "njp.32101077773131": 0.05207,
+   "nnc1.0046979840": 0.05414
+  },
+  "calfa_error_by_triple (bigger position sets)": {
+   "min": 0.0308,
+   "max": 0.0495,
+   "mean": 0.03723
+  },
+  "vote_decided_frac": 0.9958,
+  "vote_vs_calfa_disagreement": 0.03735,
+  "vote_error_est (vote~calfa minus calfa err)": 0.00644,
+  "witnesses_unanimous_frac": 0.8472,
+  "unanimous_but_differs_from_calfa (Calfa likely wrong or shared confusion)": 2304
+ }
+}

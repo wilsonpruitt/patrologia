@@ -1,0 +1,941 @@
+{
+ "generated": "2026-10-01",
+ "note": "Tome-level skeleton of the Byzantine PG queue (PG 100-161). Authors are the registry strings from gap-map.json (RelTech list) — NOT verified contents. ogl metrics from benchmark/ogl-witness/coverage-map.json. Work-level entries (column ranges, titles) still to be built into data/pg-works.json; no queue ORDER is implied by this file.",
+ "totals": {
+  "ogl-strong": 41,
+  "calfa": 21,
+  "tomes": 62
+ },
+ "tomes": [
+  {
+   "tome": "100",
+   "pgVolume": 100,
+   "authorsPerRegistry": "Saint Nicephorus (Patriarch of Constantinople.); Nicephorus (Constantinopolitanus, I.)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "101",
+   "pgVolume": 101,
+   "authorsPerRegistry": "Photius (vol. 1): Exegetica: Quaestiones Amphilochiana, Commentary on Novum Testamentum",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "102",
+   "pgVolume": 102,
+   "authorsPerRegistry": "Photius of Constantinople",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.996
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "103",
+   "pgVolume": 103,
+   "authorsPerRegistry": "Photius (patriarch of Constantinople.); Patriarch Photios I. (Konstantinopel, Heiliger)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "104",
+   "pgVolume": 104,
+   "authorsPerRegistry": "Photius of Constantinople; Petrus Siculus; Peter bishop of Argos; Bartholomew of Edessa",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "105",
+   "pgVolume": 105,
+   "authorsPerRegistry": "Nicetas (Byzantinus); Nicetas (David), Nicetas (Byzantinus)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "106",
+   "pgVolume": 106,
+   "authorsPerRegistry": "Joseppus; Nicephorus the Philosopher; Andreas archbishop of Caesarea in Capadoccia; Arethas Bishop of Caesarea in Cappadocia; Joannes Geometra; Cosmas Vestitor; Leo Patricius; Athanasius Bishop of Corinth; other Greek works",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "107",
+   "pgVolume": 107,
+   "authorsPerRegistry": "Leo the Emperor: Theologica: 19 homilies and panegyrics, Letter to Omar, king of the Saracens, Juridical and canonical works; Poems, Apologia, Epigrams, Tactica sive de re militaria, oracula",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "108",
+   "pgVolume": 108,
+   "authorsPerRegistry": "Theophanes Abbot; Confessor; Unknown Author; Leo Grammaticus; Anastasii History; Church Librarian",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "109",
+   "pgVolume": 109,
+   "authorsPerRegistry": "Historical works: continuation of Theophanes; Constantine Porphyrogenitus, *De vita Basilii Macedonis*; John Cameniates, *Narratio de excidio Thessalonicae*; Symeon Magister et Logothetes, *Annales*; Josephus Genesius, *History of Constantinople*; and others",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "110",
+   "pgVolume": 110,
+   "authorsPerRegistry": "Georgius Monachus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "111",
+   "pgVolume": 111,
+   "authorsPerRegistry": "Nikolaos I, Mystikos, Saint, Patriarch of Constantinople, 852-925",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (archive.org",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "112",
+   "pgVolume": 112,
+   "authorsPerRegistry": "Constantine Porphyrogenitus (vol. 1): *De ceremoniis*",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "113",
+   "pgVolume": 113,
+   "authorsPerRegistry": "Constantine Porphyrogenitus (vol. 2): *De thematibus*, *De administrando imperio*, *Vita Basilii Macedonis*; Theodosius Diaconus, *De expugnatione Cretae*; and others",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 4,
+    "goodWitnesses": 4,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "114",
+   "pgVolume": 114,
+   "authorsPerRegistry": "Symeon Metaphrastes",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "115",
+   "pgVolume": 115,
+   "authorsPerRegistry": "Symeon Metaphrastes",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 8,
+    "goodWitnesses": 8,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "116",
+   "pgVolume": 116,
+   "authorsPerRegistry": "Symeon Metaphrastes",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.996
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "117",
+   "pgVolume": 117,
+   "authorsPerRegistry": "Leonis Diaconi with Hyppolitus Thebanus; Georgides Monachus; Ignatius Diaconus; Nilus; Christophus Protoasecretis; Michael Hamartolus; Anonymus; Suidas",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "118",
+   "pgVolume": 118,
+   "authorsPerRegistry": "Oecumenius (vol. 1): Commentary on Acts, Commentary on Paul's letters, Commentary on the Catholic letters",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "119",
+   "pgVolume": 119,
+   "authorsPerRegistry": "oecumenius Bishop of Trikka",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "120",
+   "pgVolume": 120,
+   "authorsPerRegistry": "Anonymous; Theodorus Iconii Episcopus; Leo Presbyter; Leo Grammaticus; Joannis Presbyter; Epiphanius Monachus Hierosolymitanus; Alexius Patriarch of Constantinople; Demetrius Syncellus Cyzicenus Metropolita; Nicetas Chartophylax Nicaenus; Michael Cerularius Patriarch of Constantinople; Samonas Gaxensis Episcopus; Leo Achridanus Bulgarorum Archiepiscopus; Nicetas Pectoratus Presbyter et Monasterii Studiensis Monachus; Joannes Euchaitarum MetropolitaJoannis Xiphilini Archbishop of Constantinople; Joannes Deacon of Constantinople; Symeonis Junioris",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "121",
+   "pgVolume": 121,
+   "authorsPerRegistry": "George Cedrenus (vol. 1): *Compendium Historiarum*",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "122",
+   "pgVolume": 122,
+   "authorsPerRegistry": "George Cedrenus (vol. 2): *Compendium Historiarum* (contd); John Scylitzes, *Breviarium historicum*; Michael Psellus, many works",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "123",
+   "pgVolume": 123,
+   "authorsPerRegistry": "Theophylact of Bulgaria (vol. 1): *Ennaratio in Evangelium Matthaei / Marci / Lucae / Joannis*",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 9,
+    "goodWitnesses": 9,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "124",
+   "pgVolume": 124,
+   "authorsPerRegistry": "Theophylact of Bulgaria (vol. 2): *Commentarius in Joannis Evangelium* (contd); Commentary on Paul's letters",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 4,
+    "goodWitnesses": 4,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "125",
+   "pgVolume": 125,
+   "authorsPerRegistry": "Theophylact of Bulgaria (vol. 3): Commentary on Paul's letters (contd); 1 and 2 Peter; alternative versions of commentaries",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 7,
+    "goodWitnesses": 7,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "126",
+   "pgVolume": 126,
+   "authorsPerRegistry": "Theophylact of Bulgaria (vol. 4): More Novum Testamentum commentaries; Orations, Letters, Commentaries on minor prophets",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 2,
+    "goodWitnesses": 2,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "127",
+   "pgVolume": 127,
+   "authorsPerRegistry": "Nicephorus Bryennius",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 4,
+    "goodWitnesses": 4,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "128",
+   "pgVolume": 128,
+   "authorsPerRegistry": "Euthymius Zigabeno",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "129",
+   "pgVolume": 129,
+   "authorsPerRegistry": "Euthymius Zigabeno",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 8,
+    "goodWitnesses": 8,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "130",
+   "pgVolume": 130,
+   "authorsPerRegistry": "Euthymios Zigavēnos; Euthymius (Zigabenus); Euthymius (Zigabenus.)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "131",
+   "pgVolume": 131,
+   "authorsPerRegistry": "Euthymius (Zigabenus); Anna Comnena (daughter of Alexius I, emperor of Constantinople.)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "132",
+   "pgVolume": 132,
+   "authorsPerRegistry": "Theophanes Kerameus; Nilus Doxapatrius; John Bishop of Antioch; Joannes Comnenus; Isaacus Magnae Armeniae Catholicus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "133",
+   "pgVolume": 133,
+   "authorsPerRegistry": "Johannes (Cinnamus)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.99
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "134",
+   "pgVolume": 134,
+   "authorsPerRegistry": "John Zonaras (vol. 1): *Annales*",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "135",
+   "pgVolume": 135,
+   "authorsPerRegistry": "Joannis Zonarae Georgius Xiphilinus; Isaacius Angleus; Neophytus; Joannes Chilas; Nicolaus Methonensis in Peloponneso Metropolita; Eustathius Thessalonicensis Metropolita",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "136",
+   "pgVolume": 136,
+   "authorsPerRegistry": "Eustathius of Thessalonica with Antonius Melissa",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "137",
+   "pgVolume": 137,
+   "authorsPerRegistry": "Theodoros Balsamon (patriarch of Antioch.)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "138",
+   "pgVolume": 138,
+   "authorsPerRegistry": "Theodori Balsamonis",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 9,
+    "goodWitnesses": 9,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "139",
+   "pgVolume": 139,
+   "authorsPerRegistry": "Isidore of Thessalonica, Sermons; Nicetas Maroneae; John of Citrus; Joel Chronographus, *Chronologia compendiaria*; Nicetas Choniates, *Historia Byzantina* (from John Comnenus to 1204), *Thesaurus* (books 1–5)",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "140",
+   "pgVolume": 140,
+   "authorsPerRegistry": "Nicetas Choniata; Anonymi Graeci; Michael Acominatus Choniata Archbishop of Athens; Theodorus Alanicus; Theordous Andidensis Episcopus; Manuel Magnus Rhetor Constantinople; Pantaleo; Manuel Charitopulus; Germanus II; Michael Chumnus; Theodorus Ducas Lascaris; Methodius; Nicephorus II; Constantinus Acropolita; Arsenius Autorianus; Georgius Acropolita; Nicephorus Chumnus; Alexander IV; Sixtus IV",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "141",
+   "pgVolume": 141,
+   "authorsPerRegistry": "Joannes Veccus; Constantinus Meliteniota; Georgius Metochita",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "142",
+   "pgVolume": 142,
+   "authorsPerRegistry": "Nicephorus (Blemmydes); Nicephorus (Blemmyda.)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 4,
+    "goodWitnesses": 4,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "143",
+   "pgVolume": 143,
+   "authorsPerRegistry": "Ephraemius Chronographus; Theoleptus Philadelphiensium Metropolita; Georgius Pachymeres",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "144",
+   "pgVolume": 144,
+   "authorsPerRegistry": "Georgius Pachymeres; Theodorus Metochita Magnus Logtheta; Matthaeus Blastares Hieromonachus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 7,
+    "goodWitnesses": 7,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "145",
+   "pgVolume": 145,
+   "authorsPerRegistry": "Matthaeus Blastares Hieromonachus; Theodulus Monachus; Alias Thomas Magister; Nicephorus Callistus Xanthopulus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "146",
+   "pgVolume": 146,
+   "authorsPerRegistry": "Nicephorus Callistus (vol. 2): *Ecclesiastical History*, books 8–14",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "147",
+   "pgVolume": 147,
+   "authorsPerRegistry": "Nicephorus Callistus Xanthopulus; Callistus et Ignatius Xanthopuli Monachi; Callistus Patriarcha Constantinopuli Monachi; Callistus Telicoudes; Callistus Cataphugiota; Nicepphorus Monachus; Maximus Planudes Cpolitanus Monachus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 4,
+    "goodWitnesses": 4,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "148",
+   "pgVolume": 148,
+   "authorsPerRegistry": "Nicephorus Gregoras (vol. 1): *Historia Byzantina*, books 1–24",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 7,
+    "goodWitnesses": 7,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "149",
+   "pgVolume": 149,
+   "authorsPerRegistry": "Nicephorus (Gregoras)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 8,
+    "goodWitnesses": 8,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "150",
+   "pgVolume": 150,
+   "authorsPerRegistry": "Constantinus Harmenopulus; Macarius Chrysocephalus Philadelphiensis Metropolita; Joannes Caleca Cpolitanus Patriarcha; Theophanes Nicaenus Archiepiscopus; Nicolaus Cabasila Thessalonicensis Metropolita; Gregorius Palamas Thessalonicensis Metropolita",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "151",
+   "pgVolume": 151,
+   "authorsPerRegistry": "Gregory Palamas (vol. 2); Gregory Acindynus, Barlaam",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 4,
+    "goodWitnesses": 4,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "152",
+   "pgVolume": 152,
+   "authorsPerRegistry": "Manuel (Caleca); Manuel Calécas",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "153",
+   "pgVolume": 153,
+   "authorsPerRegistry": "John Cantacuzene (vol. 1): *Historia Byzantina* in 4 books (events from 1320–1354)",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "154",
+   "pgVolume": 154,
+   "authorsPerRegistry": "Joannes Cantacuzenus Imp. CP; Philotheus Cpolitanus Patriarcha; Demetrius Cydonius; Maximus Chrysoberga Monachus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "155",
+   "pgVolume": 155,
+   "authorsPerRegistry": "Simeon of Thessalonica (1430 AD)",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 9,
+    "goodWitnesses": 9,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "156",
+   "pgVolume": 156,
+   "authorsPerRegistry": "Manuel II Palaeologus (Emperor of the East); Imperator Manuel (Imperium Byzantinum, II.)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 1.0
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "157",
+   "pgVolume": 157,
+   "authorsPerRegistry": "George Codinus (1400–1462): works about Constantinople, *De sepulchris imperatorem*; Ducas, *Historia Byzantina* 1341–1462, *Chronicon breve* (contd to 1523)",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "158",
+   "pgVolume": 158,
+   "authorsPerRegistry": "Michael Glyca (1448–1453): *Annals*, Letters; Others",
+   "authorConfidence": "high — sourced from sources/pg/calfa/README.md",
+   "greekSourceTier": "calfa",
+   "greekSource": "calfa (CC BY 4.0); OGL witnesses available as extra voters",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.997
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "159",
+   "pgVolume": 159,
+   "authorsPerRegistry": "Laonicus Chalcocondyla Atheniensis; Leonardus Chiensis Mitlyenaeus Archiepiscopus; Isidorus S.R.E. Cardinalis Ruthenorum Episcopus; Josephus Methonensis Episcopus",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (RelTech PG ",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 6,
+    "goodWitnesses": 6,
+    "bestNonEmptyFrac": 0.999
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "160",
+   "pgVolume": 160,
+   "authorsPerRegistry": "Gennadius II (Patriarch of Constantinople)",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 7,
+    "goodWitnesses": 7,
+    "bestNonEmptyFrac": 0.998
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  },
+  {
+   "tome": "161",
+   "pgVolume": 161,
+   "authorsPerRegistry": "Cardinal Bēssariōn",
+   "authorConfidence": "medium — sourced from data/pg-tome-authors.json (Google Book",
+   "greekSourceTier": "ogl-strong",
+   "greekSource": "ogl-multi-witness (align+vote vs witnesses; no Calfa)",
+   "ogl": {
+    "witnesses": 5,
+    "goodWitnesses": 5,
+    "bestNonEmptyFrac": 0.996
+   },
+   "workLevelBreakdown": "NOT BUILT",
+   "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
+  }
+ ]
+}

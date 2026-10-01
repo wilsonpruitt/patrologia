@@ -1,0 +1,96 @@
+{
+ "volume": "PG107_text.txt",
+ "calfa_tokens": 196360,
+ "common_positions": 130022,
+ "coverage": {
+  "coo.31924054870112": 0.8808413118761459,
+  "hvd.32044073502338": 0.8875738439600733,
+  "mdp.39015028571910": 0.8813709513139132,
+  "nnc1.0046980040": 0.8902424118965166,
+  "pst.000005714179": 0.8247402729680179
+ },
+ "depth_any": 0.9685,
+ "depth_ge3": 0.9201,
+ "depth_hist": {
+  "0": 6179,
+  "1": 4108,
+  "2": 5411,
+  "3": 10534,
+  "4": 40106,
+  "5": 130022
+ },
+ "accented (grave=acute, glyph variants folded)": {
+  "pairwise_disagreement": {
+   "calfa~coo.31924054870112": 0.12599,
+   "calfa~hvd.32044073502338": 0.13674,
+   "calfa~mdp.39015028571910": 0.13598,
+   "calfa~nnc1.0046980040": 0.13785,
+   "calfa~pst.000005714179": 0.1681,
+   "coo.31924054870112~hvd.32044073502338": 0.10737,
+   "coo.31924054870112~mdp.39015028571910": 0.10955,
+   "coo.31924054870112~nnc1.0046980040": 0.10987,
+   "coo.31924054870112~pst.000005714179": 0.14458,
+   "hvd.32044073502338~mdp.39015028571910": 0.11742,
+   "hvd.32044073502338~nnc1.0046980040": 0.11755,
+   "hvd.32044073502338~pst.000005714179": 0.15197,
+   "mdp.39015028571910~nnc1.0046980040": 0.12012,
+   "mdp.39015028571910~pst.000005714179": 0.15196,
+   "nnc1.0046980040~pst.000005714179": 0.1544
+  },
+  "solved_error_rate_all5_common": {
+   "calfa": 0.07669,
+   "coo.31924054870112": 0.04987,
+   "hvd.32044073502338": 0.05829,
+   "mdp.39015028571910": 0.05928,
+   "nnc1.0046980040": 0.06048,
+   "pst.000005714179": 0.09328
+  },
+  "calfa_error_by_triple (bigger position sets)": {
+   "min": 0.0811,
+   "max": 0.0887,
+   "mean": 0.0848
+  },
+  "vote_decided_frac": 0.9835,
+  "vote_vs_calfa_disagreement": 0.09297,
+  "vote_error_est (vote~calfa minus calfa err)": 0.01628,
+  "witnesses_unanimous_frac": 0.7559,
+  "unanimous_but_differs_from_calfa (Calfa likely wrong or shared confusion)": 4926
+ },
+ "letters only (accents/breathings ignored)": {
+  "pairwise_disagreement": {
+   "calfa~coo.31924054870112": 0.04097,
+   "calfa~hvd.32044073502338": 0.04751,
+   "calfa~mdp.39015028571910": 0.04778,
+   "calfa~nnc1.0046980040": 0.04678,
+   "calfa~pst.000005714179": 0.07712,
+   "coo.31924054870112~hvd.32044073502338": 0.03618,
+   "coo.31924054870112~mdp.39015028571910": 0.03789,
+   "coo.31924054870112~nnc1.0046980040": 0.03599,
+   "coo.31924054870112~pst.000005714179": 0.06679,
+   "hvd.32044073502338~mdp.39015028571910": 0.04363,
+   "hvd.32044073502338~nnc1.0046980040": 0.04152,
+   "hvd.32044073502338~pst.000005714179": 0.07164,
+   "mdp.39015028571910~nnc1.0046980040": 0.04301,
+   "mdp.39015028571910~pst.000005714179": 0.0725,
+   "nnc1.0046980040~pst.000005714179": 0.07131
+  },
+  "solved_error_rate_all5_common": {
+   "calfa": 0.02601,
+   "coo.31924054870112": 0.01542,
+   "hvd.32044073502338": 0.02109,
+   "mdp.39015028571910": 0.02217,
+   "nnc1.0046980040": 0.02062,
+   "pst.000005714179": 0.05081
+  },
+  "calfa_error_by_triple (bigger position sets)": {
+   "min": 0.0306,
+   "max": 0.035,
+   "mean": 0.03271
+  },
+  "vote_decided_frac": 0.9965,
+  "vote_vs_calfa_disagreement": 0.02798,
+  "vote_error_est (vote~calfa minus calfa err)": 0.00197,
+  "witnesses_unanimous_frac": 0.8908,
+  "unanimous_but_differs_from_calfa (Calfa likely wrong or shared confusion)": 2265
+ }
+}
