@@ -1,92 +1,141 @@
 {
- "volume": 118,
- "source": "archive.org patrologia-volumes 118_djvu.txt",
- "listSource": "elenchus",
- "elenchusLines": "248-575 (list itself ends ~line 275)",
- "colMap": "cols 1-1330 (pg-colfind --stats); few page numbers survive before col 13",
- "entries": [
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Notitia (Oudin, De Script. eccles., t. II, p. 618)",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 9,
-   "bodyLine": 281,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Not listed in the Elenchus (the cut runs on into it); listed in the Ordo rerum as 'Notitia. 9'. Head at line 281 on page 9|10 (page numbers lost before header '12' at line 357; column inferred from Ordo and sequence)."
-  },
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Donati Veronensis Epistola dedicatoria ad Clementem VII Pontificem Maximum",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 9,
-   "bodyLine": 305,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Section heading 'PROLEGOMENA' precedes."
-  },
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Joannis Hentenii, monachi Hieronymiani, qui Graeca Latina fecit, Praefatio ad D. Georgium ab Austria, Episcopum Leodiensem, Bullonensem ducem, etc.",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 11,
-   "bodyLine": 410,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Head 'PRAEFATIO' at line 410, after running head '12' at line 357 (page 11|12); Ordo OCR '1t' = 11."
-  },
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Ejusdem Praefatio ad Lectorem",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 19,
-   "bodyLine": 662,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Body head 'CANDIDO LECTORI', page 19|20 (header at line 648); Ordo calls it 'Monitum ejusdem lectori. 19'. Followed in the body by Greek/Latin Argumenta of Acts (cols ~23-31) which the Elenchus does not list."
-  },
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Commentaria in Acta apostolorum",
-   "kind": "work",
-   "elenchusCol": "",
-   "bodyCol": 43,
-   "bodyLine": 2263,
-   "colStatus": "body-only",
-   "greek": "yes",
-   "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Head 'EZHGHSIS TON PALAI ATION ANDRON ... ENARRATIO VETERUM SANCTORUM VIRORUM AB ANONYMO ... in Acta apostolorum' on page 43|44 (header line 2262); Ordo 'COMMENTARIA IN ACTA APOSTOLORUM. 43'. Heading 'OECUMENI SCRIPTA' not an entry. Greek and Latin side by side."
-  },
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Commentaria in Epistolas Pauli",
-   "kind": "work",
-   "elenchusCol": "",
-   "bodyCol": 307,
-   "bodyLine": 21925,
-   "colStatus": "body-only",
-   "greek": "yes",
-   "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Body head 'NARRATIO DE DIVO PAULO APOSTOLO' (Greek head at line 21925) on page 307|308, with Euthalii Prologus, Peregrinatio and Martyrium Pauli (cols 307-315) before the Argumentum ad Romanos (col 318); Ordo lists 'COMMENTARIUM IN EPISTOLAS PAULI' above Narratio 307. In this volume the Pauline commentary runs Romans-Galatians (to col ~1330 end; Galatians commentary from col 1021 per Ordo)."
-  },
-  {
-   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
-   "title": "Commentaria in Epistolas Catholicas",
-   "kind": "work",
-   "elenchusCol": "",
-   "bodyCol": null,
-   "bodyLine": null,
-   "colStatus": "unlocated",
-   "greek": "unknown",
-   "note": "Elenchus lists it but prints no column. No head in this volume: searched 'CATHOLIC' (only passing mentions at lines 392, 583, 65845) and the Ordo rerum, which ends at Galatians (col 1021+). Volume stops at col 1330, so this work is evidently in a later tome (check 119/120). Settled by PG 119: its Ordo lists the Catholic Epistles commentary (Jacobi col 451 onward), so the work continues in 119."
-  }
- ],
- "problems": [
-  "Elenchus has no readable column numbers at all (only a stray '19'); every column is from the body, cross-checked with the Ordo rerum, status 'body-only'.",
-  "Page numbers are lost in the front matter before col 13, so cols 9 and 11 for Notitia/Donati/Hentenii are inferred from Ordo plus the surviving running head '12' (line 357).",
-  "Elenchus promises Commentaria in Epistolas Catholicas but the volume (cols 1-1330) holds Acts and Pauline epistles only through at least Galatians; Catholicas not present.",
-  "Pauline commentary one Elenchus entry; the Ordo lists separate Romans, 1 Cor, 2 Cor, Galatians commentaries, not split here since the Elenchus doesn't."
- ]
+  "volume": 118,
+  "source": "archive.org patrologia-volumes 118_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "248-575 (list itself ends ~line 275)",
+  "colMap": "cols 1-1330 (pg-colfind --stats); few page numbers survive before col 13",
+  "entries": [
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Notitia (Oudin, De Script. eccles., t. II, p. 618)",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 281,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Not listed in the Elenchus (the cut runs on into it); listed in the Ordo rerum as 'Notitia. 9'. Head at line 281 on page 9|10 (page numbers lost before header '12' at line 357; column inferred from Ordo and sequence)."
+    },
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Donati Veronensis Epistola dedicatoria ad Clementem VII Pontificem Maximum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 305,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Section heading 'PROLEGOMENA' precedes."
+    },
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Joannis Hentenii, monachi Hieronymiani, qui Graeca Latina fecit, Praefatio ad D. Georgium ab Austria, Episcopum Leodiensem, Bullonensem ducem, etc.",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 11,
+      "bodyLine": 410,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Head 'PRAEFATIO' at line 410, after running head '12' at line 357 (page 11|12); Ordo OCR '1t' = 11."
+    },
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Ejusdem Praefatio ad Lectorem",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 19,
+      "bodyLine": 662,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Body head 'CANDIDO LECTORI', page 19|20 (header at line 648); Ordo calls it 'Monitum ejusdem lectori. 19'. Followed in the body by Greek/Latin Argumenta of Acts (cols ~23-31) which the Elenchus does not list."
+    },
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Commentaria in Acta apostolorum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 43,
+      "bodyLine": 2263,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Head 'EZHGHSIS TON PALAI ATION ANDRON ... ENARRATIO VETERUM SANCTORUM VIRORUM AB ANONYMO ... in Acta apostolorum' on page 43|44 (header line 2262); Ordo 'COMMENTARIA IN ACTA APOSTOLORUM. 43'. Heading 'OECUMENI SCRIPTA' not an entry. Greek and Latin side by side."
+    },
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Commentaria in Epistolas Pauli",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 307,
+      "bodyLine": 21925,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column for this item (OCR shows only a stray '19' at line 275); column from body, matches the volume's closing Ordo rerum. Body head 'NARRATIO DE DIVO PAULO APOSTOLO' (Greek head at line 21925) on page 307|308, with Euthalii Prologus, Peregrinatio and Martyrium Pauli (cols 307-315) before the Argumentum ad Romanos (col 318); Ordo lists 'COMMENTARIUM IN EPISTOLAS PAULI' above Narratio 307. In this volume the Pauline commentary runs Romans-Galatians (to col ~1330 end; Galatians commentary from col 1021 per Ordo)."
+    },
+    {
+      "author": "ANONYMUS",
+      "title": "Narratio de divo Paulo apostolo",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 307,
+      "bodyLine": 21934,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Not in the Elenchus (which has no readable columns at all); listed in the closing Ordo. Sits inside the front matter of the Pauline commentary (entry at line 21925), after chain anchor 308 (line 21895). Ordo 'Narratio de divo Paulo apostolo' 307. Greek head (TOY AGIOY APOSTOLOY PAULOY) at 21931, Latin 'NARRATIO / DE DIVO PAULO APOSTOLO' at 21934. Author not named in the head; printed ahead of Euthalius' Prologus.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "EUTHALIUS DIACONUS",
+      "title": "Prologus (in Epistolas Pauli)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 307,
+      "bodyLine": 21938,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Not in the Elenchus (which has no readable columns at all); listed in the closing Ordo. Sits inside the front matter of the Pauline commentary (entry at line 21925), after chain anchor 308 (line 21895). Ordo 'Prologus Euthalii diaconi' 307 (OCR '307'). Latin head '189 EUTHALII DIACONI PROLOGUS' at 21938 with footnote that it is from Euthalius' recension of the Epistles (Patrologia vol. in footnote at 22001); Greek head 'EYTHALIOY DIAKONOY PROLOGOS' at 21971.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "EUTHALIUS DIACONUS",
+      "title": "Peregrinatio Pauli apostoli",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 313,
+      "bodyLine": 22185,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "note": "Not in the Elenchus (which has no readable columns at all); listed in the closing Ordo. Sits inside the front matter of the Pauline commentary (entry at line 21925), after chain anchor 308 (line 21895). Ordo reads 'Peregrinatio Pauli apostoli' 311; body head 'PEREGRINATIO PAULI APOSTOLI' at 22185 (Greek at 22248) sits after chain anchors 311 (line 22149) and 313 (22155), which are only 6 lines apart, so the anchors there are suspect. Body col 313 is OCR-derived; Ordo 311 not excluded.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "EUTHALIUS DIACONUS",
+      "title": "Martyrium Pauli apostoli",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 315,
+      "bodyLine": 22542,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Not in the Elenchus (which has no readable columns at all); listed in the closing Ordo. Sits inside the front matter of the Pauline commentary (entry at line 21925), after chain anchor 308 (line 21895). Ordo 'Martyrium Pauli apostoli' 315. Body head 'MARTYRIUM PAULI APOSTOLI' at 22542 (Greek at 22557), before chain anchor 318 at line 22643 and after 313 at 22155; no page-number line between, so 315 is the Ordo's reading, consistent with the body bracket (OCR-derived).",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+      "title": "Commentaria in Epistolas Catholicas",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": null,
+      "bodyLine": null,
+      "colStatus": "unlocated",
+      "greek": "unknown",
+      "note": "Elenchus lists it but prints no column. No head in this volume: searched 'CATHOLIC' (only passing mentions at lines 392, 583, 65845) and the Ordo rerum, which ends at Galatians (col 1021+). Volume stops at col 1330, so this work is evidently in a later tome (check 119/120). Settled by PG 119: its Ordo lists the Catholic Epistles commentary (Jacobi col 451 onward), so the work continues in 119."
+    }
+  ],
+  "problems": [
+    "Elenchus has no readable column numbers at all (only a stray '19'); every column is from the body, cross-checked with the Ordo rerum, status 'body-only'.",
+    "Page numbers are lost in the front matter before col 13, so cols 9 and 11 for Notitia/Donati/Hentenii are inferred from Ordo plus the surviving running head '12' (line 357).",
+    "Elenchus promises Commentaria in Epistolas Catholicas but the volume (cols 1-1330) holds Acts and Pauline epistles only through at least Galatians; Catholicas not present.",
+    "Pauline commentary one Elenchus entry; the Ordo lists separate Romans, 1 Cor, 2 Cor, Galatians commentaries, not split here since the Elenchus doesn't.",
+    "Ordo-only apparatus not entered: Argumentum libri Actorum / Argumentum aliud in Acta (Ordo 26, 29), Argumentum Epistolae ad Romanos (Ordo 318), Scholium (333), Argumentum prioris ad Corinthios (635), Argumentum Epistolae ad Galatas (1020), Ordo-listed Monitum ejusdem lectori (19). Ordo lists Euthalius' pieces, entered above; Ordo for commentaries on Romans, 1 Cor, Galatians not split (Elenchus does not)."
+  ]
 }

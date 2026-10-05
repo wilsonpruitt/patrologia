@@ -1,91 +1,104 @@
 {
- "volume": 129,
- "source": "archive.org patrologia-volumes 129_djvu.txt",
- "listSource": "elenchus",
- "elenchusLines": "310-347",
- "colMap": "cols 11-1502 (pg-colfind --stats; Elenchus range ends near col 1400)",
- "entries": [
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Christ. Frid. Matthaei Praefatio, in qua recensentur Richardi Simonii, Joan. Alb. Fabricii, Phil. Labbe, Joan. Aug. Ernesti, Aug. Noesselt, de Euthymio et ejus Commentariis sententia",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 11,
-   "bodyLine": 417,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Elenchus gives no column for any prefatory item. Header '11 PRAEFATIO 12' at line 414, head 'PRAEFATIO / LECTORIBUS DOCTIS ET BENEVOLIS S.' at 417. Preceded by the volume heading 'Commentarius in quatuor Evangelia, ex editione Graeco-Latina Christ. Frider. Matthaei, Lipsiae 1792' (title block at line 350-362; heading with no column, not an entry). Ordo also lists, inside this preface, Simon, Fabricius, Labbe, Ernesti, Noesselt sections with columns, not entered (Elenchus gives one item)."
-  },
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Joannis Hentenii Epistola dedicatoria ad Franciscum a Bovadilla, episcopum Cauriensem, archidiaconum Toletanum, editioni Latinae anni 1544 praemissa",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 34,
-   "bodyLine": 1984,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Page numbers 33 (line 1953) and 34 (line 1969) precede the head; header 35/36 at line 2087, so the Epistola sits on page 33/34, and the OCR column reads 34. Ordo lists it without a legible column."
-  },
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Ejusdem (Hentenii) Praefatio",
-   "kind": "editorial",
-   "elenchusCol": "",
-   "bodyCol": 41,
-   "bodyLine": 2589,
-   "colStatus": "body-only",
-   "greek": "latin-only",
-   "note": "Head 'EJUSDEM PRAEFATIO / Candido Lectori' at line 2589, after header 39/40 (line 2369) and before header 43/44 (line 2658), so page 41/42. Ordo prints '4t' (41)."
-  },
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Euthymii Expositio in Mattheum",
-   "kind": "work",
-   "elenchusCol": "",
-   "bodyCol": 107,
-   "bodyLine": 9026,
-   "colStatus": "body-only",
-   "greek": "yes",
-   "note": "Elenchus gives no column for Matthew (the detached 165/853/1105 block goes to Mark, Luke, John). Greek head TO KATA MATTHAION EUANGELION at line 9026, Latin head 9032, after the pages '107' (line 8970) and '108' (line 8979) and before header '109 COMMENT. IN MATTHAEUM 110' (line 9105). Before it, Ordo-only items: Millii Examen codicis Euthymii Baroccianii (line 4712, col ~63) and Lectiones variantes utriusque codicis Mosquensis (line 5220, col 75). Matthew ends at about col 763."
-  },
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Euthymii Expositio in Marcum",
-   "kind": "work",
-   "elenchusCol": "165",
-   "bodyCol": 765,
-   "bodyLine": 60231,
-   "colStatus": "elenchus-garbled",
-   "greek": "yes",
-   "note": "Elenchus prints a detached block 'col. 165 / 853 / 1105' (three numbers for four Expositiones); mapping inferred from the body. Elenchus 165 falls inside Matthew (cols 107-763), so garbled (7 read as 1); header '765 COMMENT. IN MARCUM 766' (OCR '165 .. 166') at line 60217, Greek head 60231, Latin head 60262. Believe 765."
-  },
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Euthymii Expositio in Lucam",
-   "kind": "work",
-   "elenchusCol": "853",
-   "bodyCol": 853,
-   "bodyLine": 67500,
-   "colStatus": "agree",
-   "greek": "yes",
-   "note": "Header '853 COMMENT. IN LUCAM 854' (OCR '$33 ... 150') at lines 67494-67497; Greek head at line 67500, Latin 67575."
-  },
-  {
-   "author": "EUTHYMIUS ZIGABENUS",
-   "title": "Euthymii Expositio in Joannem",
-   "kind": "work",
-   "elenchusCol": "1105",
-   "bodyCol": 1105,
-   "bodyLine": 88419,
-   "colStatus": "agree",
-   "greek": "yes",
-   "note": "Header '1105 COMMENT. IN JOANNEM 1106' at line 88371; Greek head IO KATA IOANNHN EUANGELION at 88419, Latin 88442. Preceded by Anonymi Interpretatio duarum odarum Evangelii Lucae and Scholia at col ~1101-1105 (Ordo/body extras not in the Elenchus)."
-  }
- ],
- "problems": [
-  "Elenchus gives columns only for Mark, Luke, John (detached block, 3 numbers for 4 Expositiones); Matthew and the three prefatory items are body-only.",
-  "Items printed in the volume and listed in the Ordo but not in the Elenchus: Millii Examen codicis Euthymii Baroccianii (~63), Lectiones variantes utriusque codicis Mosquensis (~75), Anonymi Interpretatio duarum odarum, and a long French index of authors at the end. Not entered.",
-  "Hentenii Epistola col 34 is the OCR reading of page 33/34; the 33 or 34 choice within that page is not settled."
- ]
+  "volume": 129,
+  "source": "archive.org patrologia-volumes 129_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "310-347",
+  "colMap": "cols 11-1502 (pg-colfind --stats; Elenchus range ends near col 1400)",
+  "entries": [
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Christ. Frid. Matthaei Praefatio, in qua recensentur Richardi Simonii, Joan. Alb. Fabricii, Phil. Labbe, Joan. Aug. Ernesti, Aug. Noesselt, de Euthymio et ejus Commentariis sententia",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 11,
+      "bodyLine": 417,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus gives no column for any prefatory item. Header '11 PRAEFATIO 12' at line 414, head 'PRAEFATIO / LECTORIBUS DOCTIS ET BENEVOLIS S.' at 417. Preceded by the volume heading 'Commentarius in quatuor Evangelia, ex editione Graeco-Latina Christ. Frider. Matthaei, Lipsiae 1792' (title block at line 350-362; heading with no column, not an entry). Ordo also lists, inside this preface, Simon, Fabricius, Labbe, Ernesti, Noesselt sections with columns, not entered (Elenchus gives one item)."
+    },
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Joannis Hentenii Epistola dedicatoria ad Franciscum a Bovadilla, episcopum Cauriensem, archidiaconum Toletanum, editioni Latinae anni 1544 praemissa",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 34,
+      "bodyLine": 1984,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Page numbers 33 (line 1953) and 34 (line 1969) precede the head; header 35/36 at line 2087, so the Epistola sits on page 33/34, and the OCR column reads 34. Ordo lists it without a legible column."
+    },
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Ejusdem (Hentenii) Praefatio",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 41,
+      "bodyLine": 2589,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Head 'EJUSDEM PRAEFATIO / Candido Lectori' at line 2589, after header 39/40 (line 2369) and before header 43/44 (line 2658), so page 41/42. Ordo prints '4t' (41)."
+    },
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Euthymii Expositio in Mattheum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 107,
+      "bodyLine": 9026,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus gives no column for Matthew (the detached 165/853/1105 block goes to Mark, Luke, John). Greek head TO KATA MATTHAION EUANGELION at line 9026, Latin head 9032, after the pages '107' (line 8970) and '108' (line 8979) and before header '109 COMMENT. IN MATTHAEUM 110' (line 9105). Before it, Ordo-only items: Millii Examen codicis Euthymii Baroccianii (line 4712, col ~63) and Lectiones variantes utriusque codicis Mosquensis (line 5220, col 75). Matthew ends at about col 763."
+    },
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Euthymii Expositio in Marcum",
+      "kind": "work",
+      "elenchusCol": "165",
+      "bodyCol": 765,
+      "bodyLine": 60231,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus prints a detached block 'col. 165 / 853 / 1105' (three numbers for four Expositiones); mapping inferred from the body. Elenchus 165 falls inside Matthew (cols 107-763), so garbled (7 read as 1); header '765 COMMENT. IN MARCUM 766' (OCR '165 .. 166') at line 60217, Greek head 60231, Latin head 60262. Believe 765."
+    },
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Euthymii Expositio in Lucam",
+      "kind": "work",
+      "elenchusCol": "853",
+      "bodyCol": 853,
+      "bodyLine": 67500,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Header '853 COMMENT. IN LUCAM 854' (OCR '$33 ... 150') at lines 67494-67497; Greek head at line 67500, Latin 67575."
+    },
+    {
+      "author": "ANONYMUS",
+      "title": "Interpretatio duarum odarum Evangelii Lucae (ex codice Bibl. SS. Synodi Mosquensis CCCII IV)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1101,
+      "bodyLine": 88210,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Not in the Elenchus. Head 'ANONYMI / INTERPRETATIO DUARUM ODARUM EVANGELII LUCAE / Ex codice Bibl. SS. Synodi Mosquensis num. CCCII IV' at 88210-88214, then the Greek ode 'ODH THS THEOTOKOY EN TO KATA LOYKAN EYAGGELIO'; between the end of the Luke commentary and the John commentary (entry 88419, col 1105); chain anchor 1101 at line 88080, next 1106, so col ~1101 (OCR-derived; no column read from the head page). CAUTION: the earlier problem note says the Ordo lists this item, but the Ordo OCR here (lines 120706-120730) is too scrambled to confirm it; no Ordo column read. Entered on that note; verify against the plate.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Euthymii Expositio in Joannem",
+      "kind": "work",
+      "elenchusCol": "1105",
+      "bodyCol": 1105,
+      "bodyLine": 88419,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Header '1105 COMMENT. IN JOANNEM 1106' at line 88371; Greek head IO KATA IOANNHN EUANGELION at 88419, Latin 88442. Preceded by Anonymi Interpretatio duarum odarum Evangelii Lucae and Scholia at col ~1101-1105 (Ordo/body extras not in the Elenchus)."
+    }
+  ],
+  "problems": [
+    "Elenchus gives columns only for Mark, Luke, John (detached block, 3 numbers for 4 Expositiones); Matthew and the three prefatory items are body-only.",
+    "Items printed in the volume and listed in the Ordo but not in the Elenchus: Millii Examen codicis Euthymii Baroccianii (~63), Lectiones variantes utriusque codicis Mosquensis (~75), Anonymi Interpretatio duarum odarum, and a long French index of authors at the end. Not entered.",
+    "Hentenii Epistola col 34 is the OCR reading of page 33/34; the 33 or 34 choice within that page is not settled.",
+    "Ordo-only apparatus not entered: Joannis Millii Examen codicis Euthymii Baroccianii (body col ~63, head line 4712), Lectiones variantes utriusque codicis Mosquensis (body col ~75, line 5220), Hentenii Praefatio, Richardi Simonii/Labbe/Ernesti/Noesselt prolegomena items, the French index of authors. The Ordo's right column is badly scrambled, so the comparison for the main Expositiones rests on the Elenchus entries."
+  ]
 }

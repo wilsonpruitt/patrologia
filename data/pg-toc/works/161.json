@@ -1,0 +1,815 @@
+{
+ "volume": 161,
+ "source": "archive.org patrologia-volumes 161_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "277-465 (cut ends in the Theodorus Gaza section; the remainder read from lines 465-480; closing ORDO RERUM at lines 102180-102600)",
+ "colMap": "cols 0-1151 (pg-colfind --stats: 453 anchors, 155 jumps >2 cols); the Prolegomena are numbered in roman numerals, outside the map",
+ "entries": [
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "De vita et rebus gestis Bessarionis Aloysii Bandinii Commentarius",
+   "kind": "work",
+   "elenchusCol": "1",
+   "bodyCol": null,
+   "bodyLine": 488,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Title page 'DE BESSARIONIS CARDINALIS NICAENI VITA, REBUS GESTIS, SCRIPTIS COMMENTARIUS' at lines 488-492. Prolegomena columns are numbered in roman numerals (running heads 'ALOYSII BANDINII COMMENTARIUS' with v, x ...); Elenchus '1' is i. pg-colfind's arabic column map does not cover them, so bodyCol is null and bodyColRoman is given.",
+   "bodyColRoman": "i"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Appendix monumentorum anecdotorum, partim ex archivo basilicae SS. XII Apostolorum, partim ex Vaticana bibliotheca descriptorum",
+   "kind": "work",
+   "elenchusCol": "txi",
+   "bodyCol": null,
+   "bodyLine": 6332,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'APPENDIX MONUMENTORUM' line 6332, 44 lines below the header OCR'd 'Lxi' / 'Lxil' (lines 6242, 6288). Elenchus 'txi' = lxi.",
+   "bodyColRoman": "lxi"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Index rerum praecipuarum quae in Dissertatione continentur",
+   "kind": "editorial",
+   "elenchusCol": "xcvi",
+   "bodyCol": null,
+   "bodyLine": 9002,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'INDEX RERUM PRAECIPUARUM' line 9002, 48 lines below the header whose halves are OCR'd 'tcv' (line 8906) and 'acvni' (line 8954, running head 'COMMENTARIUS - INDEX'); read as xcv|xcvi.",
+   "bodyColRoman": "xcvi"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Baptistae Platinae Panegyricus in laudem Bessarionis, eo vivente in publico coetu dictus",
+   "kind": "work",
+   "elenchusCol": "ci",
+   "bodyCol": null,
+   "bodyLine": 9539,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'PANEGYRICUS IN LAUDEM AMPLISSIMI PATRIS' line 9539, 12 lines below header OCR'd 'CiU' (ci|cii); next header 'cv' at 9634.",
+   "bodyColRoman": "ci"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Acta selecta quae ad Bessarionis legationem Bononiensem pertinent",
+   "kind": "work",
+   "elenchusCol": "cxvii",
+   "bodyCol": null,
+   "bodyLine": 10415,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ACTA SELECTA' line 10415, 13 lines below header OCR'd 'cxvi' (line 10402; read cxvii|cxviii since 'CXV' stands at 10308); next header 'CXIX' at 10518.",
+   "bodyColRoman": "cxvii"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Michaelis Apostolii laudatio funebris Bessarionis",
+   "kind": "work",
+   "elenchusCol": "cxxvii",
+   "bodyCol": null,
+   "bodyLine": 11170,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek and Latin title block with 'APOSTOLII' at line 11170, after header OCR'd 'i EXXVIR' (cxxvii, line 11139).",
+   "bodyColRoman": "cxxvii"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Joannis Alberti Fabricii Notitia historica et bibliographica",
+   "kind": "editorial",
+   "elenchusCol": "cxxxix",
+   "bodyCol": null,
+   "bodyLine": 12015,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'JOANN. ALB. FABRICII ... NOTITIA HISTORICA ET BIBLIOGRAPHICA' line 12015-12059 after header 'CXXXIX' (11969). The title block is repeated at 12213-12255 (OCR page duplication); first occurrence cited.",
+   "bodyColRoman": "cxxxix"
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Refutatio capitum syllogisticorum Marci Ephesii contra Latinos, nunc primum edita curante J. Hergenroether",
+   "kind": "work",
+   "elenchusCol": "11",
+   "bodyCol": 11,
+   "bodyLine": 13822,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Title block 'GEORGII SCHOLARII / TOY EYGENIKOY / MARCI EPHESINI METROPOLITAE EUGENICI CAPITA SYLLOGISTICA ADVERSUS LATINOS ET RESPONSIO SAPIENTISSIMI DOMINI GEORGII SCHOLARII' lines 13822-13874. No arabic header survives before '15 ... 16' at line 14097; Monitum (not an Elenchus item, line 13279) fills cols 1-10 and the text begins at 11. Ordo also reads 11."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Apologia Inscriptionum Vecci contra Gregorium Palamam, Petro Arcudio interprete",
+   "kind": "work",
+   "elenchusCol": "215",
+   "bodyCol": 245,
+   "bodyLine": 31534,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Head 'BESSARIONIS S. R. E. CARDINALIS / CONTRA PALAMAM / APOLOGIA INSCRIPTIONUM VECCI' lines 31493-31543 under header 245 (OCR '245', '214', lines 31487-31500). Elenchus 215 = 245 (4 as 1); Ordo '21' truncated."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Defensiones recti catholicique dogmatis Latinorum, videlicet de processione Spiritus sancti contra haereticum illud impugnantem, Graece Latineque editae",
+   "kind": "work",
+   "elenchusCol": "287",
+   "bodyCol": 287,
+   "bodyLine": 34781,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'DEFENSIONES RECTI CATHOLICIQUE DOGMATIS LATINORUM ... GRAECE LATINEQUE PER EUM EDITAE' lines 34778-34786 under header '287 BESSARIONIS 288' (34743); Monitum at 34762. Ordo 281. The parenthesis 'Vide Monitum praefixum' points to the Monitum at line 13279."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "De processione Spiritus sancti, ad Alexium Lascarin Philanthropinum, ex interpretatione Petri Arcudii (praemittitur Bessarionis ad Paulum II Epistola nuncupatoria)",
+   "kind": "work",
+   "elenchusCol": "$91",
+   "bodyCol": 321,
+   "bodyLine": 37593,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Title 'SAPIENTISSIMI CARDINALIS BESSARIONIS AD ALEXIUM LASCARIN PHILANTHROPINUM DE PROCESSIONE SPIRITUS SANCTI' lines 37593-37600, 107 lines below header '320' (37486) and ~100 lines above the next header (OCR '11', line 37700). The Argumentum (37489) and Proemium/Epistola nuncupatoria (37522) precede on page 319|320. Ordo reads $21 = 321; Elenchus '$91' garbled."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Idem liber, Latine, ex interpretatione Bessarionis (De successu synodi Florentinae et de processione Spiritus sancti, primum Graece editus liber, deinde ab eodem Latinis litteris donatus)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 403,
+   "bodyLine": 44716,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Neither the Elenchus nor the Ordo prints a column. Title block 'BESSARIONIS ... DE SUCCESSU SYNODI FLORENTINAE, ET DE PROCESSIONE SPIRITUS SANCTI, PRIMUM GRAECE EDITUS LIBER, DEINDE AB EODEM LATINIS LITTERIS DONATUS' lines 44716-44722, 110 lines above header '403' (44826); a header OCR'd 'A01' (=401) stands at 44712."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Epistola encyclica ad Graecos. Exhortatur ad obedientiam Romanae Ecclesiae et susceptionem synodi Florentinae; et de electione sua in patriarcham Cpolitanum. Petro Arcudio interprete. Praemittitur Epistolae argumentum",
+   "kind": "work",
+   "elenchusCol": "17",
+   "bodyCol": 441,
+   "bodyLine": 47659,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Title 'EJUSDEM CARD. BESSARIONIS AD GRAECOS EPISTOLA EXHORTANTIS EOS AD OBEDIENTIAM ...' lines 47659-47670, with the next header OCR'd '419 ENCYCLICA AD GRAECOS 450' at 47708 (=441|442). Elenchus '17' and Ordo '41' are both truncated 441."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Eadem Epistola ex interpretatione Bessarionis",
+   "kind": "work",
+   "elenchusCol": "181",
+   "bodyCol": 481,
+   "bodyLine": 51654,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Title 'SUPERIOREM EPISTOLAM IPSEMET BESSARION E GRAECA LATINAM FECIT, QUAM NOS POSTEA REPERTAM IMPRIMENDAM CURAVIMUS' lines 51654-51655 under header 481 (51645). Elenchus 181 = 481; Ordo 481."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Graecorum confessio de verbis consecrationis et transsubstantiatione, a Bessarione exposita in concilio Florentino. Ex Mabillonii Museo Italico",
+   "kind": "work",
+   "elenchusCol": "489",
+   "bodyCol": 489,
+   "bodyLine": 52342,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'GRAECORUM CONFESSIO DE VERBIS CONSECRATIONIS ET TRANSSUBSTANTIATIONE, A BESSARIONE EXPOSITA IN CONCILIO FLORENTINO' lines 52342-52349, 31 lines above header OCR'd '4907' (=489|490, line 52373)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "De sacramento Eucharistiae et quibus verbis Christi corpus conficiatur. Ex Claudii de Sainctes Liturgiis",
+   "kind": "work",
+   "elenchusCol": "495",
+   "bodyCol": 495,
+   "bodyLine": 52584,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'DE SACRAMENTO EUCHARISTIAE ET QUIBUS VERBIS CHRISTI CORPUS CONFICIATUR' lines 52580-52587 between headers OCR'd '493' (52547) and '495' (52553, 52678)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Compendium asceticorum S. Basilii Magni ad usum monachorum Basilianorum in Italia et Sicilia degentium concinnatum. Ex Joan. Yriarte cod. Or. Matrit., addita interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "629",
+   "bodyCol": 525,
+   "bodyLine": 55256,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Head 'ASCETICARUM S. BASILII CONSTITUTIONUM COMPENDIUM' lines 55256-55260, ~200 lines below header 523|524 (lines 55050-55056) and 100 lines above header 527|528 (55357), i.e. page 525. Ordo '$25'. Elenchus 629 lies inside the Iambi/In illud pieces."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Concio gratulatoria ad synodum Ferrariam coactam",
+   "kind": "work",
+   "elenchusCol": "551",
+   "bodyCol": 531,
+   "bodyLine": 55658,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Head 'SAPIENTISSIMI ARCHIEPISCOPI NICAENI CONCIO IN QUA SYNODUM LAUDIBUS ORNAT' lines 55655-55662 after header OCR'd '831 BESSARIONIS 532' (=531|532, line 55631). Elenchus 551 = 531 (3 as 5); Ordo '85'."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Oratio dogmatica ad eamdem synodum de unione Ecclesiarum, ipso Bessarione interprete",
+   "kind": "work",
+   "elenchusCol": "545",
+   "bodyCol": 543,
+   "bodyLine": 56457,
+   "colStatus": "disagree",
+   "greek": "yes",
+   "note": "Head 'SAPIENTISSIMI ARCHIEPISCOPI NICAENI AD SYNODUM ORIENTALEM ORATIO DOGMATICA DE UNIONE' lines 56451-56463, 24 lines below header 543 (56433); next header OCR'd '515' (=545) at 56543. Elenchus 545, Ordo '$45': both name the next page. The title block sits at the top of 543|544."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Declaratio aliquorum quae in dicta oratione continentur, quae Graecis notissima, Latinis ignota sunt",
+   "kind": "work",
+   "elenchusCol": "611",
+   "bodyCol": 611,
+   "bodyLine": 62223,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'Declaratio aliquorum, quae in dicta oratione dogmatica continentur, quae Graecis notissima' line 62223, under header 611 (62089-62095)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Monodia in obitu Manuelis Palaeologi, anno 1419 defuncti. Ap. Dzovium Contin. Annal. Baron. ad an. 1472",
+   "kind": "work",
+   "elenchusCol": "615",
+   "bodyCol": 615,
+   "bodyLine": 62381,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'MONODIA IN OBITU MANUELIS PALAEOLOGI IMP.' lines 62381-62382 after header 615|616 (62366-62372)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Iambi in obitu Theodorae Augustae, Constantini imp. uxoris. Ex Allatio De consensu",
+   "kind": "work",
+   "elenchusCol": "621",
+   "bodyCol": 621,
+   "bodyLine": 62809,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'IAMBI IN OBITU THEODORAE AUGUSTAE' lines 62809-62810, 147 lines below header 619|620 (62656-62662) and 100 lines above header 625|626 (OCR '623 ... 62$', 62909); headers 621-624 lost. The Elenchus text for this item is garbled; column 621 is read from 'Ex Allatio De consensu, 621' and the Ordo."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "In illud Evangelii secundum Joannem: Sic volo eum manere donec veniam, quid ad te? Contra Georgium Trapezuntinum, quem vide infra col. 867, Bessarioni contradicentem. Ex edit. Havanoensi anni 1552",
+   "kind": "work",
+   "elenchusCol": "625",
+   "bodyCol": 625,
+   "bodyLine": 62916,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'DE EA PARTE EVANGELII JOANNIS UBI SCRIBITUR ... ERUDITA ET VALDE UTILIS DISCEPTATIO ... IN ILLUD, SI EUM VOLO MANERE' lines 62916-62985 right after header OCR'd '623 BESSARIONIS 62$' (=625|626, line 62909)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Orationes ad principes Italiae de Christianorum clade in Chalcide Euboeae, de periculis Italiae imminentibus expugnato Hydrunto, de sedandis discordiis et decernendo bello adversus Turcas, quibus subjicitur persuasio ex Demosthenis Olynthiaca. Praemittuntur Bessarionis epistola ad Fichetum, epistola Ficheti ad Sabaudiae principes, Bessarionis epistola ad homonymum suum Bessarionem abbatem Basilianum. Ex edit. Rom. anni 1551",
+   "kind": "work",
+   "elenchusCol": "641",
+   "bodyCol": 641,
+   "bodyLine": 64168,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ORATIONES CONTRA TURCAS AD PRINCIPES ITALIAE ...' lines 64162-64172 under header OCR'd '64l' (=641, line 64162)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Bessarionis Epistolae (XIII)",
+   "kind": "work",
+   "elenchusCol": "675",
+   "bodyCol": 675,
+   "bodyLine": 66942,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'EPISTOLAE' line 66942 after header 675|676 (66873-66879). The thirteen letters have their own columns in the Elenchus (listed as parts, not body-confirmed individually).",
+   "parts": [
+    {
+     "title": "I. Ad Paulum Pontificem Maximum de errore Paschatis",
+     "elenchusCol": "675",
+     "ordoCol": "",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "II. Ad eumdem in librum de Spiritu sancto Prooemium",
+     "elenchusCol": "678",
+     "ordoCol": "",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "III. Ad Graecos. Exhortatur eos ad obedientiam sacrosanctae Romanae Ecclesiae et susceptionem synodi Florentinae, et de electione sua in patriarcham Cpolitanum",
+     "elenchusCol": "618",
+     "ordoCol": "618",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "IV. Ad capitulum, canonicos et capellanos ecclesiae Duodecim Apostolorum de Urbe. Eis statuta et constitutiones mittit",
+     "elenchusCol": "678",
+     "ordoCol": "61s",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "V. Ad Guillelmum Fichetum, doctorem Sorbonicum. Orationes mittit a se ad principes Italiae directas",
+     "elenchusCol": "678",
+     "ordoCol": "",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "VI. Ad paedagogum liberorum Thomae Despotae",
+     "elenchusCol": "678",
+     "ordoCol": "6:8",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "VII. Ad Theodorum Gazam",
+     "elenchusCol": "686",
+     "ordoCol": "686",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "VIII. Ad Michaelem Apostolium",
+     "elenchusCol": "687",
+     "ordoCol": "657",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "IX. Ad Andronicum Callistum",
+     "elenchusCol": "691",
+     "ordoCol": "691",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "X. Ad filios Plethonis, Consolatoria",
+     "elenchusCol": "695",
+     "ordoCol": "695",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "XI. Ad Nicolaum Secundinum",
+     "elenchusCol": "697",
+     "ordoCol": "697",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "XII. Ad Ludovicum XI regem",
+     "elenchusCol": "699",
+     "ordoCol": "699",
+     "colStatus": "listed-only"
+    },
+    {
+     "title": "XIII. Ad principem senatumque Venetiarum",
+     "elenchusCol": "700",
+     "ordoCol": "100",
+     "colStatus": "listed-only"
+    }
+   ]
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Tabula librorum quos serenissimo Venetiarum dominio dono dedit Bessarion",
+   "kind": "work",
+   "elenchusCol": "701",
+   "bodyCol": 701,
+   "bodyLine": 68965,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'BIBLIOTHECAE CATALOGUS' line 68965 immediately after header OCR'd '70l' (=701, line 68962). Ordo '101'."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Bessarionis Interrogationes ad Plethonem cum Plethonis ad Bessarionis quaesita responsionibus",
+   "kind": "work",
+   "elenchusCol": "713",
+   "bodyCol": 713,
+   "bodyLine": 70188,
+   "colStatus": "agree",
+   "greek": "greek-only",
+   "note": "Editorial note 'Sequentem epistolam cum duabus Gemisti Plethonis ad Bessarionis quaesita responsionibus edidit Franc. Dionysius Camusatus ...' at line 70184, then Greek 'A'. Bessarion cardinalis to Pletho' line 70188; 21 lines before the header OCR'd '115 BESSARIONIS' (=713|714, line 70209)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Georgii Amirutzae ad Bessarionem. De Trapezunte a Turcis anno 1461 expugnata",
+   "kind": "work",
+   "elenchusCol": "723",
+   "bodyCol": 723,
+   "bodyLine": 70857,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'GEORGIOS O AMIROUTZES (a) BESSARIONI' line 70857 under header 723|724 (OCR '123','191', lines 70793-70799)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Gregorii monachi Epistola ad Bessarionem laudatoria",
+   "kind": "work",
+   "elenchusCol": "727",
+   "bodyCol": 727,
+   "bodyLine": 71199,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'GREGORIOU EPISTOLE EIS BESSARIONA TON KARDINALEN' line 71199, between headers 727|728 (OCR '728' at 71105) and 729 (71258)."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Ejusdem in eumdem oratio encomiastica",
+   "kind": "work",
+   "elenchusCol": "731",
+   "bodyCol": 731,
+   "bodyLine": 71515,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'GREGORIOU LOGOS ENKOMIASTIKOS EIS TON AGIOTATON PATRIARCHEN KONSTANTINOUPOLEOS' line 71515 between headers 731 (71422, OCR '793') and 733 (71588, OCR '533')."
+  },
+  {
+   "author": "BESSARION. S. R. E. CARDINALIS",
+   "title": "Bessarionis ex oratione in patriam suam Trapezuntem",
+   "kind": "work",
+   "elenchusCol": "744",
+   "bodyCol": 744,
+   "bodyLine": 72570,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Editorial description (not the text): 'In cod. Graec. Matrit. LXVIII legitur ... Oratio, seu laudatio, ... Bessarionis in patriam suam Trapezuntem. Incipit ... Desinit ...' at line 72570, on page 743|744 (header OCR'd '1:44' at 72500), immediately before the header '745 GEORGIUS TRAPEZUNTIUS' at 72576."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "Notitia ex Allatii Diatriba de Georgiis",
+   "kind": "editorial",
+   "elenchusCol": "745",
+   "bodyCol": 745,
+   "bodyLine": 72590,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Header '745 GEORGIUS TRAPEZUNTIUS - NOTITIA 746' line 72576; head 'GEORGIUS TRAPEZUNTIUS / NOTITIA' line 72590-72593."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "Notitia altera ex Chr. Frid. Boerneri De doctis viris Graecis litterarum Graecarum in Italia instauratoribus",
+   "kind": "editorial",
+   "elenchusCol": "165",
+   "bodyCol": 765,
+   "bodyLine": 73720,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Head 'NOTITIA ALTERA' line 73720, 21 lines below header OCR'd '165 NOTITIA 76x' (=765, line 73699). Elenchus 165 = 765 (7 as 1); Ordo OCR 'TO'."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "De processione Spiritus sancti, ad Joannem Cuboclesium",
+   "kind": "work",
+   "elenchusCol": "769",
+   "bodyCol": 769,
+   "bodyLine": 73840,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek 'TRAPEZOUNTIOU' / 'GEORGII TRAPEZUNTII AD JOANNEM CUBOCLESIUM DE PROCESSIONE SPIRITUS SANCTI' lines 73840-73862, 125 lines above the next header OCR'd '171' (=769|770, line 73965) and 141 lines below header 765 (73699); Ordo '169'."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "Item de processione Spiritus sancti et de una sancta catholica Ecclesia, ad Cretenses",
+   "kind": "work",
+   "elenchusCol": "829",
+   "bodyCol": 829,
+   "bodyLine": 78179,
+   "colStatus": "agree",
+   "greek": "greek-only",
+   "note": "Greek 'TOY AYTOY' / 'EJUSDEM DE PROCESSIONE SPIRITUS S. ET DE UNA, SANCTA, CATHOLICA ECCLESIA' lines 78179-78195, 3 lines above header OCR'd '839' (=829|830, line 78182) and 130 lines below header 827|828 (78049-78052)."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "In illud Evangelii secundum Joannem: Sic volo eum manere donec veniam, quid ad te? et quod Joannes evangelista nondum sit mortuus. Ad Sixtum IV Pontificem Maximum",
+   "kind": "work",
+   "elenchusCol": "867",
+   "bodyCol": 867,
+   "bodyLine": 81113,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'IN EXPOSITIONEM ILLIUS TEXTUS EVANGELII SIC VOLO EUM MANERE, ETC. AD SIXTUM IV PONTIFICEM MAXIMUM' lines 81113-81118, 24 lines above header 869 (81137) and below header OCR'd '908' (=867|868, line 81007)."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "Martyrium S. Andreae de Chio qui Cpoli obiit anno primo Pauli II Pontificis summi, a Georgio Latine scriptum",
+   "kind": "work",
+   "elenchusCol": "885",
+   "bodyCol": 883,
+   "bodyLine": 82706,
+   "colStatus": "disagree",
+   "greek": "latin-only",
+   "note": "Head 'MARTYRIUM BEATISSIMI MARTYRIS ANDREAE DE CHIO ...' lines 82706-82715, 9 lines below header 883 (82697); next header 885 at 82831. Elenchus and Ordo both read 885."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "Epistola ad Eugenium IV Summum Pontificem, de unione Ecclesiarum, ex Mittarelli Bibliotheca codd. mss. monasterii S. Michaelis Venet. prope Murianum",
+   "kind": "work",
+   "elenchusCol": "889",
+   "bodyCol": 889,
+   "bodyLine": 83230,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'GEORGII TRAPEZUNTII EPISTOLA AD EUGENIUM IV PONTIFICEM MAXIMUM DE UNIONE ECCLESIARUM' lines 83230-83239 after header 889|890 (83123-83129)."
+  },
+  {
+   "author": "GEORGIUS TRAPEZUNTINUS",
+   "title": "Epistola ad Joannem Palaeologum imp. Ut in Italiam ad synodum proficiscatur. Ad calcem Phrantzae ed. Pontanus",
+   "kind": "work",
+   "elenchusCol": "895",
+   "bodyCol": 895,
+   "bodyLine": 83525,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'AD JOANNEM PALAEOLOGUM IMP. UT IN ITALIAM AD SYNODUM PROFICISCATUR' lines 83525-83528, 119 lines below header OCR'd '$91/t93' (=893|894, lines 83406-83412) and 71 lines above header 897 (83596); the 895 header is lost."
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Notitia ex Christ. Frid. Boerneri de doctis hominibus Graecis litterarum Graecarum in Italia instauratoribus",
+   "kind": "editorial",
+   "elenchusCol": "901",
+   "bodyCol": 905,
+   "bodyLine": 84350,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Head 'CONSTANTINUS LASCARIS / NOTITIA' lines 84322-84353, 170 lines below header 905|906 (84172-84178; the Epistola ad Joannem Palaeologum still runs there) and ~100 lines above the next header (OCR '959 5 NOTITIA 916', line 84445). Elenchus 901 and Ordo '99' are not consistent with the body; 901 is inside the Trapezuntius pieces."
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Constantini Lascaris Epistola ad Joannem Gattum, Catanae episcopum, libro de Scriptoribus Graecis patria Siculis praemissa. Ex Yriarte Catal. cod. Gr. Matrit., cum interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "915",
+   "bodyCol": 913,
+   "bodyLine": 84781,
+   "colStatus": "disagree",
+   "greek": "yes",
+   "note": "Head 'CONSTANTINI LASCARIS AD JOANNEM GATUM, CATANAE EPISCOPUM' line 84781-84783 after header '913 DE SCRIPTORIBUS SICULIS 914' (84729). Ordo reads 913; Elenchus reads 915 (and gives 913 to the next item): the two columns look transposed in the Elenchus."
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "De scriptoribus Graecis patria Siculis",
+   "kind": "work",
+   "elenchusCol": "913",
+   "bodyCol": 915,
+   "bodyLine": 84957,
+   "colStatus": "disagree",
+   "greek": "latin-only",
+   "note": "Head 'BYZANTINI / DE SCRIPTORIBUS GRAECIS, PATRIA SICULIS' lines 84957-84963, 101 lines below header 915|916 (84856) and 37 above the next header (OCR '918', 84994). Ordo reads '95' (915); Elenchus 913 (transposed with the Epistola ad Gattum)."
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "De scriptoribus Graecis patria Calabris (Catannis)",
+   "kind": "work",
+   "elenchusCol": "923",
+   "bodyCol": 923,
+   "bodyLine": 85527,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'BYZANTINI ... PATRIA CALABRIS' lines 85524-85533 under header 923 (85477)."
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Gesta SS. Apostolorum Petri et Pauli, Constantino Lascari interprete",
+   "kind": "work",
+   "elenchusCol": "929",
+   "bodyCol": 929,
+   "bodyLine": 85906,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'INTERPRETATIO ACTORUM SS. PETRI ET PAULI / GESTA SS. APOSTOLORUM PETRI ET PAULI CONSTANTINO LASCARI INTERPRETE' lines 85906-85919 under header 929|930 (OCR '930', 85909)."
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Prooemium ad libros suos de grammatica qui in excusis desunt",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 931,
+   "bodyLine": 86051,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Not in the Elenchus. Ordo reads '93' (lost digit). Head 'CONSTANTINI LASCARIS PROOEMIUM AD LIBROS SUOS DE GRAMMATICA, INDEX LIBRI' lines 86051-86062, 142 lines below header 929|930 (85909) and 100 above header 933|934 (OCR '934', 86153); page 931|932 header lost.",
+   "listedIn": "ordo-only"
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Epilogus ejusdem libri",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": null,
+   "colStatus": "unlocated",
+   "greek": "unknown",
+   "note": "Ordo-only item ('Epilogus ejusdem libri. 937'). Page header 937 stands at line 86441, followed by the running head 'EPISTOLAE ET FRAGMENTA' (86444); no separate title for the Epilogus is legible. A mention of the Epilogus occurs in the Latin text at line 86508. Searched 'epilogus' in lines 85000-90000.",
+   "listedIn": "ordo-only"
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Epistola ad Jacobum Ximenium Morellium, proregis insulae Siciliae a secretis. De Herodiani grammatici vita et scriptis, et de Theodosio ejus epitomatore. Ex Yriarte",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 939,
+   "bodyLine": 86633,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Ordo-only item (Ordo '939'). Head 'AD JACOBUM XIMENIUM MURIELLIUM PROREGIS INSULAE SICILIAE A SECRETIS' lines 86633-86636, after header 939 (86587).",
+   "listedIn": "ordo-only"
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "De Quinto poeta. Argumenta ejus libris a Constantino Lascari praefixa",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 945,
+   "bodyLine": 87091,
+   "colStatus": "body-only",
+   "greek": "greek-only",
+   "note": "Ordo-only item (Ordo '942'). Head 'ARGUMENTA LIBRIS QUINTI A CONSTANTINO LASCARI PRAEFIXA' line 87091, 72 lines below header 945|946 (87013-87019). Ordo's 942 does not match the header sequence (5 read as 2?).",
+   "listedIn": "ordo-only"
+  },
+  {
+   "author": "CONSTANTINUS LASCARIS",
+   "title": "Fragmenta varia ex Yriarte catalogo laudato",
+   "kind": "work",
+   "elenchusCol": "951",
+   "bodyCol": 951,
+   "bodyLine": 87470,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "'LIBER DE POETA' line 87470 stands between headers OCR'd '659' (=949, 87466) and '951' (87592). The Elenchus gives only this collection head; the Ordo lists its pieces with columns (parts below, not body-confirmed). The running head 'EPISTOLAE ET FRAGMENTA' begins at 937.",
+   "parts": [
+    {
+     "title": "De Poeta, in quo breviter poeseos natura atque origo indagantur (apud Pasini codd. Gr. Taurin.)",
+     "ordoCol": "51",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola ad discipulos suos libello de Tropis et figuris praemissa. Ex Yriarte",
+     "ordoCol": "953",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola ad Georgium Placentinum de significatu dictionum offikion et offikialios quas Graeci a Latinis mutuati sunt. Ex eodem",
+     "ordoCol": "955",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistolae quatuordecim familiares",
+     "ordoCol": "957",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "De Demetrii ac Thomae, Peloponnesi despotarum, Constantini imp. fratrum, post captam urbem casibus eorumque sobolis serie",
+     "ordoCol": ".961",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Notitia imp. Cpolitanorum a Theodoro Lascari ad Constantinum III et urbem captam",
+     "ordoCol": "965",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Series successorum Basilii imp. usque ad captam urbem",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epitaphium Theodori Gazae; Phrantzes Gerachi; carmen funebre in Joannem Catholicorum regum filium unigenam, in Ferdinandum Cunium Siciliae rectorem, in Georgium Rhalem",
+     "ordoCol": "969",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "Notitia ex Allatio de Theodoris",
+   "kind": "editorial",
+   "elenchusCol": "971",
+   "bodyCol": 971,
+   "bodyLine": 88858,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'THEODORUS GAZA' line 88858, ~150 lines above the header OCR'd '79 THEODORUS GAZA 976' (975|976, line 89010); headers 971-974 lost. Ordo 971."
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "Notitia altera ex Boerneri libro citato",
+   "kind": "editorial",
+   "elenchusCol": "911",
+   "bodyCol": 977,
+   "bodyLine": 89130,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Head 'NOTITIA ALTERA' line 89130, 54 lines below header OCR'd '971 NOTITIA 978' (=977|978, line 89076). Elenchus 911 is garbled; Ordo reads 971, which would fit only if the header digits are 971."
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "Laudatio canis, ap. Maii B. PP.",
+   "kind": "work",
+   "elenchusCol": "986",
+   "bodyCol": 986,
+   "bodyLine": 89552,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek 'KYNOS ENKOMION' / 'THEODORI GAZAE LAUDATIO CANIS' lines 89552-89558 after header 985|986 (OCR '995 LAUDATIO CANIS 986', line 89507)."
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "De origine Turcarum ad Fr. Philelphum, ex Allatii Symmictis",
+   "kind": "work",
+   "elenchusCol": "997",
+   "bodyCol": 997,
+   "bodyLine": 90423,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'THEODORI GAZAE DE ORIGINE TURCARUM' lines 90423-90424 after header 997|998 (OCR '997','993', lines 90366-90372). Ordo reads 991."
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "Theod. Gazae Liber de mensibus (exstat in appendice ad Eusebii Chronicon, hujusce Patrologiae tom. XIX, col. 1167)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": null,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Parenthetical in the Elenchus and Ordo (Ordo OCR 'tom. IIX', Elenchus 'col. 01167'). No column in this volume; not looked for in the body.",
+   "crossRefVolume": 19,
+   "crossRefCol": "1167"
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "Epistola ad Demetrium Chalcocondylem",
+   "kind": "work",
+   "elenchusCol": "1005",
+   "bodyCol": 1005,
+   "bodyLine": 90969,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'EPISTOLA' line 90969 under header 1005 (90966). Ordo '10055'."
+  },
+  {
+   "author": "THEODORUS GAZA",
+   "title": "Ad eumdem [Epistola]",
+   "kind": "work",
+   "elenchusCol": "1008",
+   "bodyCol": 1008,
+   "bodyLine": 91398,
+   "colStatus": "agree",
+   "greek": "greek-only",
+   "note": "Head 'EPISTOLA' line 91398; chain anchor 1008. Ordo 1008."
+  },
+  {
+   "author": "ANDRONICUS CALLISTUS",
+   "title": "Notitia ex Boerneri libro citato",
+   "kind": "editorial",
+   "elenchusCol": "1015",
+   "bodyCol": 1015,
+   "bodyLine": 91693,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ANDRONICUS CALLISTUS / NOTITIA' lines 91693-91699, 94 lines above header '1015 ANDRONICI CALLISTI 1016' (91787), below header 1013|1014 (91638-91644).  Title block sits near the foot of the page before the next page header; the lists cite the page that header names."
+  },
+  {
+   "author": "ANDRONICUS CALLISTUS",
+   "title": "Epistola ad Georgium Palaeologum Lisypatum",
+   "kind": "work",
+   "elenchusCol": "1017",
+   "bodyCol": 1017,
+   "bodyLine": 91934,
+   "colStatus": "agree",
+   "greek": "greek-only",
+   "note": "Head 'EPISTOLA AD GEORGIUM PALAEOLOG.' line 91934, just above header 1018 (91940) and below header 1011 (OCR '1011', 91931; read 1017). Ordo OCR 'I7'."
+  },
+  {
+   "author": "ANDRONICUS CALLISTUS",
+   "title": "Monodia de Cpoli capta, ex cod. Reg. Paris. 1774 nunc primum edita",
+   "kind": "work",
+   "elenchusCol": "1154",
+   "bodyCol": 1151,
+   "bodyLine": 101429,
+   "colStatus": "elenchus-garbled",
+   "greek": "greek-only",
+   "note": "Head 'ADDENDA. - ANDRONICI CALLISTI MONODIA DE CPOLI CAPTA' lines 101429-101560 under headers OCR'd '1131'/'1132' (lines 101426-101432). The header sequence 1131, 1132, 1135, 1136, 1151, 1139 up to the closing 'FINIS' matches 1151, 1152, 1155, 1156, 1157, 1159 with 5 read as 3 and 7 as 1; Ordo reads 1151, Elenchus 1154."
+  },
+  {
+   "author": "CPOLITANORUM IMPERATORES",
+   "title": "Novellae constitutiones inde ab anno 1220 usque ad captam urbem",
+   "kind": "work",
+   "elenchusCol": "1019",
+   "bodyCol": 1019,
+   "bodyLine": 92126,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'CPOLITANORUM IMPP. / CONSTANTINOPOLITANORUM IMPERATORUM NOVELLAE CONSTITUTIONES' lines 92102-92130 under header 1019 (92081). The Elenchus adds a note that novellae of emperors up to 1230 were published earlier (see the alphabetical index under CPOLITANI)."
+  }
+ ],
+ "problems": [
+  "Prolegomena items (Bandini Commentarius, Appendix, Index, Platina, Acta, Apostolius, Fabricius) are in roman-numeral columns; pg-colfind cannot map them, so bodyCol is null and bodyColRoman is given from OCR roman page headers read by eye (OCR digits like 'tcv', 'acvni', 'CiU', 'i EXXVIR').",
+  "OCR digit misreads in this volume: 3 as 5 and 5 as 3, 7 as 1, 4 as 1, 9 as 8/3 in both the Elenchus and the page headers; the 1131-1139 headers of the Monodia are read as 1151-1159 from the end-of-volume sequence.",
+  "The Elenchus text for the Iambi in obitu Theodorae Augustae item is garbled (OCR lines run into noise); its column 621 is read from the 'Ex Allatio De consensu, 621' fragment and the Ordo. Neither list prints a column for the Latin 'Idem liber' (Bessarion's own Latin version of De processione).",
+  "Elenchus and Ordo for Lascaris show transposed columns (Epistola ad Gattum 915/913, De scriptoribus Siculis 913/95).",
+  "Ordo-only Lascaris pieces entered with listedIn ordo-only: Prooemium ad libros de grammatica (Ordo '93', body 931), Epilogus ejusdem libri (937, unlocated), Epistola ad Jacobum Ximenium (939), De Quinto poeta argumenta (Ordo 942, body 945). The remaining Ordo pieces from De Poeta to the Epitaphium are listed as parts of the Elenchus's 'Fragmenta varia' (951) and are not body-confirmed.",
+  "Apparatus not entered (not in the Elenchus): the Monitum before Bessarion's Refutatio capitum (line 13279, the Elenchus' 'Vide Monitum praefixum') and the Monitum before the Defensiones (line 34762).",
+  "OCR page duplication: Fabricius title block repeated at lines 12213-12255; the Latin Idem liber and others appear once; first occurrences cited.",
+  "Greek flag is an automatic OCR count over 70 lines from the head; recheck at the plate before queue decisions. Pieces whose heading carries Greek on one half-page and Latin on the other show 'yes'.",
+  "The 'Theodori Gazae Liber de mensibus' parenthetical is entered as a crossref to PG 19 col. 1167 without a body check."
+ ]
+}

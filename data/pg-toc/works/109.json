@@ -72,6 +72,18 @@
       "note": "First head is Combefis' MONITUM at 519/520 (line 37340); the Demetrius miracula excerpt (Greek 'EK TON TOY AGLOFOPOY AHMHTPIOY ... THAUMATOURGION' + Latin) begins ~520 (line 37490); Joannes Cameniata Narratio proper begins ~523 (line 37584, Ordo: Miracula Demetrii 523 [OCR '023'], Notitia 519). One Elenchus title, several heads."
     },
     {
+      "author": "DEMETRIUS CYDONIUS",
+      "title": "Monodia in Thessalonicenses occisos (cum Combefisii Praefatione)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 639,
+      "bodyLine": 46366,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only",
+      "note": "Listed in the closing Ordo ('Monodia Demetrii Cydonii occisorum Thessalonicae', Ordo reads 639) but omitted by the Elenchus. Combefis' 'In sequentem Demetrii Cydonii Monodiam ... Praefatio' begins at line 46320 (col 638|639), the Greek head 'DEMETRIOU KYDONIOU MONODIA EPI TOIS EN THESSALONIKE PESOUSI' at line 46366 under running head '639 DEMETRII CYDONII 640' (line 46328); the page-number chain gives 639. Greek and Latin."
+    },
+    {
       "author": "GREGORIUS MONACHUS",
       "title": "Ex Vita Basilii Junioris",
       "kind": "work",
@@ -118,6 +130,7 @@
   ],
   "problems": [
     "Notitia (cols 11-14 of the Combefis preface to the whole volume) and Prooemium (17+) are not Elenchus items and have no entries.",
-    "Ordo RERUM text for several lines is badly garbled (Leo '$10', Genesius). Item 3's bodyCol is derived from adjacent page numbers (368, 372) because the head page's own number is lost; two-page ambiguity 369/370."
+    "Ordo RERUM text for several lines is badly garbled (Leo '$10', Genesius). Item 3's bodyCol is derived from adjacent page numbers (368, 372) because the head page's own number is lost; two-page ambiguity 369/370.",
+    "Ordo-only apparatus not entered: Notitia and Praefatio Combefisii to the volume (Ordo 9), Prooemium, Combefisii Praefatio ad Annales Symeonis (Ordo 663), Praefatio ad excerpta Vitae Basilii Junioris, Monitum ad Cameniatae narrationem (519), Index historicus in Scriptores post Theophanem and Index historicus in Genesium (Ordo 1155). Ordo-only work added: Demetrius Cydonius, Monodia (col 639)."
   ]
 }

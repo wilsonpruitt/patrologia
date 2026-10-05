@@ -1,0 +1,1080 @@
+{
+ "volume": 111,
+ "source": "archive.org bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1863_111 djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "174-283 (numbers printed as a detached block, last six lines before the imprint); closing ORDO RERUM at lines 100331-100780 read together",
+ "colMap": "cols 1-1236 (pg-colfind --stats: 500 anchors, 165 jumps >2 cols)",
+ "entries": [
+  {
+   "author": "NICOLAUS CP. PATRIARCHA",
+   "title": "Praefatio (Angeli Mai Notitia de Nicolao et Monitum)",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 299,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column. Title block 'NICOLAUS CONSTANTINOPOLITANUS PATRIARCHA NOTITIA' lines 299-305 (title page, col 3-9); the pages 11-26 carry the running head 'PRAEFATIO' (header '11 PRAEFATIO 12' at line 406) and 'ANGELO MAI MONITUM' appears at line 641 (col 13). Ordo reads 'Ang. Mai Monitum 9, Notitia 21'; the two appear transposed against the body. bodyCol 9 is the page before the first surviving header (11)."
+  },
+  {
+   "author": "NICOLAUS CP. PATRIARCHA",
+   "title": "Homilia de capta Thessalonica (fragmentum)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 25,
+   "bodyLine": 1077,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column. Not a separate piece: section XII of the Praefatio quotes the opening and a passage of the homily ('Nicolai patriarchae homilia de capta Thessalonica, dicta in pulpito Magnae Ecclesiae', lines 1063-1090), on page 25|26 (header '25 PRAEFATIO 26' at 1029; header 27 at 1096)."
+  },
+  {
+   "author": "NICOLAUS CP. PATRIARCHA",
+   "title": "Nicolai Epistolae CLXIII, Graece ex editione card. Ang. Maii, Latine ex interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 27,
+   "bodyLine": 1106,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column. Greek/Latin title 'NIKOLAOU ARCHIEPISKOPOU KONSTANTINOUPOLEOS EPISTOLAI / NICOLAI ARCHIEPISCOPI CONSTANTINOPOLITANI EPISTOLAE' lines 1106-1119, 10 lines under header '27 NICOLAI CP. PATRIARCHAE 28' (1096). Ordo reads 'EPISTOLAE 29' and its first letter at 29 (next header at line 1235, OCR '2) EPISTOLEE 50'). Parts are the Ordo's 163 letters, ordoCol as read (several are damaged), not body-confirmed.",
+   "parts": [
+    {
+     "title": "Epistola 1. Ad Ameram Cretae",
+     "ordoCol": "29",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 2. Ad eumdem",
+     "ordoCol": "55",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 3. Ad Simeonem Bulgariae principem",
+     "ordoCol": "39",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 4. Ad archiepiscopum Bulgariae",
+     "ordoCol": "43",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 5. Ad Simeonem Bulgariae principem",
+     "ordoCol": "46",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 6. Ad eumdem",
+     "ordoCol": "53",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 7. Ad eumdem",
+     "ordoCol": "59",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 8. Ad eumdem",
+     "ordoCol": "62",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 9. Ad eumdem",
+     "ordoCol": "67",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 10. Ad eumdem",
+     "ordoCol": "79",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 11. Ad eumdem",
+     "ordoCol": "83",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 12. Ad archiepiscopum Bulgariae",
+     "ordoCol": "90",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 13. Ad primum Simeonis hominem",
+     "ordoCol": "95",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 14. Ad Simeonem Bulgarum",
+     "ordoCol": "98",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 15. Ad eumdem",
+     "ordoCol": "106",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 16. Ad eumdem",
+     "ordoCol": "107",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 17. Ad eumdem",
+     "ordoCol": "114",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 18. Ad eumdem",
+     "ordoCol": "122",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 19. Ad eumdem",
+     "ordoCol": "126",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 20. Ad eumdem",
+     "ordoCol": "127",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 21. Ad eumdem",
+     "ordoCol": "1358",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 22. Ad eumdem",
+     "ordoCol": "147",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 23. Ad eumdem",
+     "ordoCol": "150",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 24. Ad eumdem",
+     "ordoCol": "195",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 25. Ad eumdem",
+     "ordoCol": "162",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 26. Ad eumdem",
+     "ordoCol": "167",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 27. Ad eumdem",
+     "ordoCol": "171",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 28. Ad eumdem",
+     "ordoCol": "175",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 29. Ad eumdem",
+     "ordoCol": "182",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 30. Ad eumdem",
+     "ordoCol": "186",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 31. Ad eumdem",
+     "ordoCol": "187",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 32. SS. Papae antiquae Romae, de quartis nuptiis perperam acceptis apud Romanos",
+     "ordoCol": "195",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 33. Tryphoni monacho",
+     "ordoCol": "219",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 34. Duci Graeciae",
+     "ordoCol": "219",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 35. Duci Strymonis",
+     "ordoCol": "222",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 36. Curatoris Strongylizontis",
+     "ordoCol": "225",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 37. Styliano monacho",
+     "ordoCol": "226",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 38. Phileto monacho",
+     "ordoCol": "226",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 39. Gregorio Ephesi metropolitae",
+     "ordoCol": "227",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 40. Malacino patricio",
+     "ordoCol": "227",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 41. Gregorio Ephesi metropolitae",
+     "ordoCol": "230",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 42. Eidem",
+     "ordoCol": "250",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 43. Andreae Patrarum metropolitae",
+     "ordoCol": "231",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 44. Ad ducem",
+     "ordoCol": "254",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 45. Arsenio monacho",
+     "ordoCol": "254",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 46. Illustri Abasgiae regionis principi",
+     "ordoCol": "235",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 47. Constantino vicino consolatoriae litterae de sorore defuncta",
+     "ordoCol": "255",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 48. Gregorio Ephesi metropolitae",
+     "ordoCol": "23239",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 49. Episcopis extra communionem [..]",
+     "ordoCol": "25",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 50. Ignatio Cyzici metropolitae",
+     "ordoCol": "242",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 51. Illustri Abasgiae principi",
+     "ordoCol": "242",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 52. Petro Alaniae archiepiscopo",
+     "ordoCol": "245",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 53. Joanni SS. antiquae Romae Papae",
+     "ordoCol": "241",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 54. Incerto",
+     "ordoCol": "25ʃ",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 55. Incerto",
+     "ordoCol": "25",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 56. SS. Papae antiquae Romae",
+     "ordoCol": "259",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 57. Episcopo Synadensi",
+     "ordoCol": "258",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 58. Iconii episcopo",
+     "ordoCol": "258",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 59. Incerto",
+     "ordoCol": "259",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 60. Oeconomo Magnae ecclesiae",
+     "ordoCol": "259",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 61. Incerto",
+     "ordoCol": "239",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 62. Petro solitario",
+     "ordoCol": "262",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 63. Epiphanio solitario",
+     "ordoCol": "262",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 64. Tryphoni monacho",
+     "ordoCol": "263",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 65. Joanni episcopo Amisi",
+     "ordoCol": "263",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 66. Incerto",
+     "ordoCol": "263",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 67. Incerto",
+     "ordoCol": "267",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 68. Incerto",
+     "ordoCol": "267",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 69. Davidi Camuliano protospathario",
+     "ordoCol": "270",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 70. Eidem",
+     "ordoCol": "270",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 71. Alexandro Nicaeno",
+     "ordoCol": "271",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 72. Incerto",
+     "ordoCol": "271",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 73. Incerto",
+     "ordoCol": "214",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 74. Incerto",
+     "ordoCol": "274",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 75. Incerto",
+     "ordoCol": "274",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 76. Incerto",
+     "ordoCol": "278",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 77. Incerto",
+     "ordoCol": "9",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 78. Monachis",
+     "ordoCol": "282",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 79. Incertis",
+     "ordoCol": "282",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 80. Incerto",
+     "ordoCol": "283",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 81. Incerto",
+     "ordoCol": "23",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 82. [title lost]",
+     "ordoCol": "286",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 83. Idrontis episcopo",
+     "ordoCol": "287",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 84. Godoni imperatoris protospathario",
+     "ordoCol": "290",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 85. Antistitibus et sacerdotibus et magistratibus et ceterae Longobardorum plebi",
+     "ordoCol": "290",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 86. Imperatori pro Ecclesiae oeconomo",
+     "ordoCol": "291",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 87. Incerto",
+     "ordoCol": "291",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 88. [illegible]",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 89. Gregorio Ephesi episcopo",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 90. [title lost]",
+     "ordoCol": "295",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 91. Illustri Coropo",
+     "ordoCol": "295",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 92. Incerto",
+     "ordoCol": "298",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 93. Theoctisto Claudiopoleos episcopo",
+     "ordoCol": "299",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 94. Gregorio Ephesi episcopo",
+     "ordoCol": "299",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 95. [illegible]",
+     "ordoCol": "305",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 96. Ignatio Nicomediae episcopo",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 97. Eidem",
+     "ordoCol": "305",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 98. SS. fratri et collegae",
+     "ordoCol": "306",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 99. Incerto",
+     "ordoCol": "506",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 100. Ad metropolitam Nicaeae",
+     "ordoCol": "307",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 101. Incerto",
+     "ordoCol": "307",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 102. Duci Saracenorum",
+     "ordoCol": "310",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 103. Godino imperatoris protospathario et duci",
+     "ordoCol": "319",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 104. Constantino metropolitae Laodiceae",
+     "ordoCol": "519",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 105. Incerto",
+     "ordoCol": "522",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 106. Chersonis episcopo",
+     "ordoCol": "522",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 107. In Cyzici episcopum",
+     "ordoCol": "323",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 108. Ad Pissenuntium episcopum",
+     "ordoCol": "523",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 109. Incerto",
+     "ordoCol": "526",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 110. Ad Pissenuntium episcopum",
+     "ordoCol": "327",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 111. Incerto",
+     "ordoCol": "327",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 112. Theoctisto Claudiopoleos episcopo",
+     "ordoCol": "327",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 113. Nicetae Atheniensi",
+     "ordoCol": "330",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 114. Basilio Chaldiae metropolitae",
+     "ordoCol": "330",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 115. Euthymio Antiochiae metropolitae",
+     "ordoCol": "331",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 116. Philippo Larissensi episcopo",
+     "ordoCol": "331",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 117. Leoni Syleae episcopo",
+     "ordoCol": "334",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 118. Petro Alaniae archiepiscopo",
+     "ordoCol": "355",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 119. Andreae Patrensi episcopo",
+     "ordoCol": "338",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 120. Tryphoni monacho",
+     "ordoCol": "338",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 121. Leoni patricio et Anatolico duci",
+     "ordoCol": "339",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 122. Ambrosio episcopo",
+     "ordoCol": "339",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 123. Andreae Patrensi episcopo",
+     "ordoCol": "339",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 124. Gregorio Ephesi episcopo",
+     "ordoCol": "342",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 125. Incerto",
+     "ordoCol": "343",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 126. Ignatio magistro in Magno Agro vitam monasticam degenti",
+     "ordoCol": "345",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 127. Leoni spathario et Paphlagoniae judici",
+     "ordoCol": "346",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 128. Basilio Chaldiensi",
+     "ordoCol": "346",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 129. Leoni Syleae episcopo",
+     "ordoCol": "347",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 130. Cyzici [..]",
+     "ordoCol": "350",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 131. Tryphoni monacho",
+     "ordoCol": "350",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 132. Gregorio Ephesi episcopo et Photio Heracleoti",
+     "ordoCol": "550",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 133. Petro Alanorum archiepiscopo",
+     "ordoCol": "331",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 134. Eidem",
+     "ordoCol": "554",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 135. Eidem",
+     "ordoCol": "355",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 136. Stephano, Michaeli et Constantino fratribus",
+     "ordoCol": "339",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 137. Ignatio Cyzicenorum metropolitae",
+     "ordoCol": "362",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 138. Eidem",
+     "ordoCol": "362",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 139. Principi principum",
+     "ordoCol": "362",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 140. Michaeli patricio et Thessalonicae duci",
+     "ordoCol": "306",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 141. Solis [..] praeposito",
+     "ordoCol": "367",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 142. Antonio Sardium metropolitae",
+     "ordoCol": "370",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 143. Ignatio magistro in Magno Agro monasticam vitam obeunti",
+     "ordoCol": "370",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 144. Nicolao Longobardiae duci",
+     "ordoCol": "371",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 145. Principi Amalphiae",
+     "ordoCol": "371",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 146. Constantino protoasecretis",
+     "ordoCol": "371",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 147. Incerto",
+     "ordoCol": "374",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 148. Euthymio monacho",
+     "ordoCol": "375",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 149. Thracionum duci",
+     "ordoCol": "375",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 150. Philotheo [..]",
+     "ordoCol": "375",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 151. Gregorio Ephesi episcopo",
+     "ordoCol": "878",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 152. Incerto",
+     "ordoCol": "379",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 153. Theodosio monacho et cubiculario",
+     "ordoCol": "379",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 154. Gregorio Ephesi episcopo",
+     "ordoCol": "382",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 155. [illegible]",
+     "ordoCol": "582",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 156. Romano imperatori",
+     "ordoCol": "383",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 157. Demetrio Cyziceno",
+     "ordoCol": "386",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 158. Constantino Laodicensi metropolitae",
+     "ordoCol": "386",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 159. Eidem",
+     "ordoCol": "387",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 160. Gregorio Ephesi episcopo",
+     "ordoCol": "387",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 161. Duci Peloponnesi",
+     "ordoCol": "590",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 162. Abasgiae despotae",
+     "ordoCol": "390",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistola 163. Antiocho monacho",
+     "ordoCol": "391",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "NICOLAUS CP. PATRIARCHA",
+   "title": "Liber ad praepositum Sacri Montis, ut typus in ordine vitae, Graece tantum ap. Maium",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 391,
+   "bodyLine": 29732,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo reads 391. Greek/Latin head 'NIKOLAOU ... POIEMA / NICOLAI SANCTISSIMI PATRIARCHAE CONSTANTINOPOLITANI AD PRAEPOSITUM SACRI MONTIS, UT TYPUM IN ORDINE VITAE' lines 29732-29749 under header '391 NICOLAI CP. PATRIARCHAE' (29664)."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Monitum (Angeli Mai, to the fragmentum historicum)",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 406,
+   "bodyLine": 30846,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo 'Ang. Mai Monitum 406'. Head 'ANONYMUS ... ANNO DOMINI CMXXIX ... MONITUM' lines 30755-30846 on page 405|406 (header '406' at 30762)."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Fragmentum historicum (De Papis, ex Chronico)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 407,
+   "bodyLine": 30876,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo reads 407. Greek 'ANONYMOU PERI TON PAPON APO TOU CHRONIKOU' / 'ANONYMI DE PAPIS EX CHRONICO' lines 30876-30888; next header 409 at 31004."
+  },
+  {
+   "author": "BASILIUS NEOPATRENSIS METROPOLITA",
+   "title": "Prologus interpretationis duodecim prophetarum minorum",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 411,
+   "bodyLine": 31273,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo column illegible. Greek/Latin title 'TOY MAKARIOTATOY BASILEIOU METROPOLITOU NEON PATRON PROLOGOS ... BEATISSIMI BASILII METROPOLITAE NEOPATRENSIS PROLOGUS INTERPRETATIONIS SANCTORUM XII PROPHETARUM' lines 31252-31273 after a header OCR'd '412' (31211; read 411|412); next header '413 IN PROPHETAS MINORES 414' at 31333."
+  },
+  {
+   "author": "BASILIUS CAESAREAE CAPPADOCIAE EPISCOPUS, COGNOMENTO MINIMUS",
+   "title": "Basilii Minimi Commentaria ad S. Gregorii Nazianzeni orationes (memorantur tantum, utpote jam edita tom. XXXVI)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 415,
+   "bodyLine": 31686,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Elenchus: 'memorantur tantum'. Body title block 'BASILIUS CAESAREA CAPPADOCIA EPISCOPUS ... BASILII MINIMI COMMENTARIA AD S. GREGORII NAZIANZENI ORATIONES STELITEUTICAS ...' lines 31676-31700 with the note 'vide tomum nostrum XXXVI, col. 1073'; page 415|416 (header '415 BASILII NEOPATR. EP. IN PROPHETAS MIN. 416' at 31514).",
+   "crossRefVolume": 36,
+   "crossRefCol": "1073"
+  },
+  {
+   "author": "GREGORIUS CAESAREAE CAPPADOCIAE PRESBYTER",
+   "title": "Vita S. Gregorii Nazianzeni (vide tom. XXXV)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 415,
+   "bodyLine": 31709,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Elenchus: 'vide tom. XXXV'. Title 'GREGORIUS PRESBYTER CAESARIENSIS, SANCTI GREGORII EPISCOPI NAZIANZENI' lines 31709-31742, page 415|416. Column in tom. XXXV not given.",
+   "crossRefVolume": 35,
+   "crossRefCol": ""
+  },
+  {
+   "author": "GREGORIUS CAESAREAE CAPPADOCIAE PRESBYTER",
+   "title": "In synodum Nicaenam (Oratio in sanctos trecentos decem et octo Deiferos Patres et in Constantinum piissimum imperatorem)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 419,
+   "bodyLine": 31764,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo reads 419. Greek 'GREGORIOU PRESBYTEROU KAISAREIAS KAPPADOKIAS LOGOS EIS TOUS ... PATERAS KAI EIS KONSTANTINON TON EUSEBESTATON BASILEA' / 'ORATIO IN SANCTOS TRECENTOS DECEM ET OCTO DEIFEROS PATRES, ET IN CONSTANTINUM PIISSIMUM IMPERATOREM' lines 31764-31779, 250 lines below header 415|416 (31514) and ~100 lines above header OCR'd '121 DE CONCILIO NICAENO 422' (421|422, line 31877); headers 417-420 lost."
+  },
+  {
+   "author": "JOSEPHUS GENESIUS",
+   "title": "Chronographia Byzantina (vide inter Scriptores post Theophanem, tom. CIX)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 439,
+   "bodyLine": 33500,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Elenchus: 'vide inter Scriptores post Theophanem, tom. CIX'; the body note reads 'Exstat inter Scriptores Byzantinos qui [post Theophanem] scripserunt. Vide tomum CIX, col. [damaged]'. Title block 'JOSEPHI GENESII CHRONOGRAPHIA' lines 33497-33513, 132 lines below header 439|440 (33359-33365), page 439|440 (the page already carries the running head 'JOSEPHI GENESII CHRONOGRAPHIA'). Ordo reads 439.",
+   "crossRefVolume": 109,
+   "crossRefCol": ""
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Vita S. Lucae Junioris (cum Monitum; excerpta vitae S.P.N. ac miraculorum patratoris Lucae Junioris in Hellade sepulti)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 441,
+   "bodyLine": 33520,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo reads 441 for both the Monitum and the Vita. Head '[441] ANONYMI VITA S. LUCAE JUNIORIS' (header OCR'd '$4] ... 1 42?', line 33513), title lines 33520-33567."
+  },
+  {
+   "author": "LEO GRAMMATICUS",
+   "title": "Annales Byzantini (vide tom. CIX, col. 989, inter scriptores post Theophanem)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 479,
+   "bodyLine": 36913,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Body: 'LEONIS GRAMMATICI ANNALES. (Vide tomum CIX, col. 989, inter scriptores post Theophanem.)' lines 36913-36918, on page 479|480 (header '479 MOSIS BAR-CEPHA 480' at 36869). Ordo reads 479.",
+   "crossRefVolume": 109,
+   "crossRefCol": "989"
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Vita S. Clementis Bulgarorum episcopi (exstat tom. CXXVI, in appendice ad Theophylactum, cui a nonnullis tribuitur)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 479,
+   "bodyLine": 36932,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Body: 'ANONYMI VITA S. CLEMENTIS BULGARORUM EPISCOPI. Exstat in Appendice ad Theophylactum, tom. CXXVI.' line 36932. Ordo reads 479.",
+   "crossRefVolume": 126,
+   "crossRefCol": "appendix to Theophylactus"
+  },
+  {
+   "author": "MOSES BAR-CEPHA, SYRUS",
+   "title": "Commentaria de Paradiso ex sermone Syriaco in Latinum translata ab Andrea Masio",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 481,
+   "bodyLine": 37041,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Elenchus prints no column; Ordo column illegible. Head 'MOSIS BAR-CEPHA EPISCOPI SYRI COMMENTARIA DE PARADISO AD IGNATIUM FRATREM PROCEMIUM' lines 37041-37059, 57 lines above header OCR'd '433' (481|482, line 37098). Notitia (479) and 'Lectori Andreas Masius' (481) are in the Ordo only and not entered as separate items."
+  },
+  {
+   "author": "THEODORUS DAPHNOPATA",
+   "title": "Notitia",
+   "kind": "editorial",
+   "elenchusCol": "607",
+   "bodyCol": 607,
+   "bodyLine": 47119,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ANNO DOMINI CMLVI / THEODORUS DAPHNOPATA / NOTITIA' lines 47113-47119 under header '607 THEOD. DAPHNOPATA 608' (47040). Elenchus prints its numbers as a detached block (607, 611, 611, 621, 907, 1155) with fewer numbers than titles; assignment is inferred from the body and the Ordo."
+  },
+  {
+   "author": "THEODORUS DAPHNOPATA",
+   "title": "Encomium Joannis Baptistae (Exstat inter opera Theodoreti, tom. LXXXIV)",
+   "kind": "crossref",
+   "elenchusCol": "611",
+   "bodyCol": 611,
+   "bodyLine": 47292,
+   "colStatus": "crossref",
+   "greek": "unknown",
+   "note": "Body: 'THEODORI DAPHNOPATAE ENCOMIUM SANCTI JOANNIS BAPTISTAE. Exstat inter opera Theodoreti. Vide tom. LXXXIV, col. 33.' lines 47289-47295 under header '611 THEOD. DAPHNOPATAE 612' (47258). Elenchus prints its numbers as a detached block (607, 611, 611, 621, 907, 1155) with fewer numbers than titles; assignment is inferred from the body and the Ordo.",
+   "crossRefVolume": 84,
+   "crossRefCol": "33"
+  },
+  {
+   "author": "THEODORUS DAPHNOPATA",
+   "title": "Oratio in translationem manus S. Joannis Baptistae Antiochia Constantinopolim",
+   "kind": "work",
+   "elenchusCol": "611",
+   "bodyCol": 611,
+   "bodyLine": 47300,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'THEODORI DAPHNOPATAE ORATIO IN TRANSLATIONEM MANUS S. PRAECURSORIS ANTIOCHIA CONSTANTINOPOLIM (Apud Surium ad diem 29 Augusti.)' lines 47299-47303, same page 611|612. Elenchus prints its numbers as a detached block (607, 611, 611, 621, 907, 1155) with fewer numbers than titles; assignment is inferred from the body and the Ordo."
+  },
+  {
+   "author": "NICEPHORUS PRESBYTER CP.",
+   "title": "Vita S. Andreae Salae seu Stulti, ex Actis SS. Bolland. (praemittitur Conradi Janningh commentarius)",
+   "kind": "work",
+   "elenchusCol": "621",
+   "bodyCol": 621,
+   "bodyLine": 47908,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ANNO DOMINI CML / NICEPHORI PRESBYTERI CP. VITA S. ANDREAE SALI / COMMENTARIUS PRAEVIUS CONR. JANNINGHI' lines 47905-47914, 92-127 lines below header 619|620 (47787-47813) and 112 lines above header OCR'd '23' (48026, =621|622 or 623). Ordo gives the Commentarius at 621 and the Vita itself ('VITA S. ANDREAE SALI. PROLOGUS') at 627 (title at line 48458-48466; its header is lost; pages 621-626 are the Commentarius). Elenchus prints its numbers as a detached block (607, 611, 611, 621, 907, 1155) with fewer numbers than titles; assignment is inferred from the body and the Ordo."
+  },
+  {
+   "author": "EUTYCHIUS ALEXANDRINUS PATRIARCHA",
+   "title": "Annales, seu liber historicus a tempore Adami ad annos usque Hejirae Islamiticae, ex Arabico in Latinum sermonem translati",
+   "kind": "work",
+   "elenchusCol": "907",
+   "bodyCol": 907,
+   "bodyLine": 69683,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'EUTYCHII ALEXANDRINI PATR. ANNALES ... LIBER HISTORIAE ... A TEMPORE ADAMI USQUE AD ANNOS HEIRAE ISLAMITICAE' lines 69668-69706, 18 lines below the header at line 69665 (OCR '29', read 907|908; '98' at 69557 = 905|906, '$09' at 69797 = 909). Ordo reads 907. Selden's Praefatio (Ordo 889, body line 68857) and Echellensis' Praefatio (Ordo 895, body line 69022) precede it and are in the Ordo only. Elenchus prints its numbers as a detached block (607, 611, 611, 621, 907, 1155) with fewer numbers than titles; assignment is inferred from the body and the Ordo."
+  },
+  {
+   "author": "GEORGIUS MONACHUS",
+   "title": "Historia Byzantina (vide tom. CIX, in Scriptoribus post Theophanem)",
+   "kind": "crossref",
+   "elenchusCol": "1155",
+   "bodyCol": 1157,
+   "bodyLine": 89419,
+   "colStatus": "disagree",
+   "greek": "unknown",
+   "note": "Body: 'GEORGII MONACHI HISTORIA BYZANTINA. Vide Patrologiae Graecae tom. CIX, inter scriptores post Theophanem.' lines 89419-89423, 26 lines below a column number '1157' (line 89393), after the end of the Annales ('Soli Deo Gloria'). Headers '1155 CHRONOLOGIAE EUTYCHIANAE 1156' stand at 89373-89379. Elenchus and Ordo read 1155. Elenchus prints its numbers as a detached block (607, 611, 611, 621, 907, 1155) with fewer numbers than titles; assignment is inferred from the body and the Ordo.",
+   "crossRefVolume": 109,
+   "crossRefCol": ""
+  }
+ ],
+ "problems": [
+  "Elenchus prints only six column numbers (607, 611, 611, 621, 907, 1155) in a detached block for 21 titles; columns for the rest come from the Ordo and the body (colStatus body-only). The six assignments are inferred.",
+  "The 163 letters of Nicolaus are listed in the Ordo with columns, many damaged by OCR; they are given as parts with ordoCol exactly as read (e.g. '1358' for letter XXI, '23239' for XLVIII, '25' for XLIX). Letters 88, 89, 90, 95 and 96 have lost titles or columns in the OCR. Parts were not body-confirmed.",
+  "Ordo-only editorial items not entered: Moses bar-Cepha's Notitia (479) and 'Lectori Andreas Masius' (481); Seldeni Praefatio (889) and Echellensis Praefatio (895) to Eutychius; the Indices to Eutychius (Chronologiae Eutychianae Synopsis, Index rerum et verborum 1171, Topographicus 1181, Fluviorum et Montium 1193, Personarum 1193); the Index of authorities at the end of the Nicolaus section.",
+  "Page numbers in this OCR are often split across lines or lost; where a header gave only the right-hand (even) number the odd left column is recorded (Basilius Neopatrensis 411|412). Several title blocks sit at the foot of a page and the lists cite the next page (Josephus Genesius, Moses bar-Cepha, Nicephorus); recorded as the lists give them when the next header supports it.",
+  "The Georgius Monachus crossref sits after the end of Eutychius's Annales on page 1157, not 1155 as both lists read.",
+  "Greek flag is an automatic OCR count over 70 lines from the head; recheck at the plate before queue decisions.",
+  "The 'Praefatio' entry is Angelo Mai's Notitia and Monitum; the body shows no piece titled Praefatio (the word is the running head of cols 11-26)."
+ ]
+}

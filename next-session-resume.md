@@ -1,13 +1,14 @@
 # Next session — resume note
 
-## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-05) — PG BYZANTINE WORK-LEVEL TOC (PG 100–161) · 56 OF 62 TOMES DONE · PAUSED AT THE TOKEN CAP
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-05) — PG BYZANTINE WORK-LEVEL TOC (PG 100–161) · ✅ ALL 62 TOMES DONE · AWAITING WILSON'S REVIEW
 
-**What:** each volume's front ELENCHUS → `data/pg-toc/works/NNN.json`, every item with its start column confirmed in the body. Brief `data/briefs/PG-TOC-BRIEF.md` (incl. pilot lessons + two rules added mid-run: Collections → `parts` from the Ordo; Ordo-only WORKS entered with `listedIn`). Tools: `scripts/pg-elenchus-extract.py`, `scripts/pg-colfind.py` (regex/--col/--near/--heads/--ordo/--stats); merge `scripts/pg-toc-merge.py` → `workLevelBreakdown` in `data/pg-byzantine-queue.json` + review table `data/pg-toc/works.tsv`.
-**Source:** archive.org `patrologia-volumes` NNN_djvu.txt → `raw/pg-djvu/` (gitignored). ⚠ PG 106 from `patrologiaecurs67migngoog` (+ `106-alt.txt`); ⚠ PG 154 from `patrologiaecurs147migngoog` (main item's 154 OCR empty); ⚠ **PG 111 from `bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1863_111`** (main item's 111 OCR is partial, kept as `111-partial.txt`). PG 115 and 139 have no front Elenchus → Ordo.
-**Spent:** ≈4.42M Sonnet (subagent_tokens) against the 4.3M Wilson approved (batch 18 ran over); ~230K per 3-volume agent.
-**OWED (needs Wilson's OK for ≈0.6–0.75M more):** (1) batches 19 (157,158,159) + 20 (160,161); (2) **PG 111 redo** on the 1863 OCR (first attempt, on the partial OCR, set aside); (3) **PG 114**: Metaphrastes' Vitae Sanctorum entered as one collection (306) — add `parts` from the Ordo; (4) **Ordo-only WORKS check** for vols done before that rule: 100–110, 112–123, 127–129 (known: 127 Nicetas Serronius Anthologium/Sententiae/Expositiones col 1177ff; 122 Addenda ad Cedrenum).
-**Totals so far (56 tomes):** 761 works · 179 editorial · 54 crossrefs · 18 unlocated; Greek printed for 679 works, Latin-only 59, Greek-only 13, unknown 10.
-**Then:** merge script → endCol = next start − 1; fill `workLevelBreakdown` in `data/pg-byzantine-queue.json`; report + stop for Wilson's review. No deploy, no push needed.
+**What:** each volume's front ELENCHUS (or closing ORDO RERUM where none: PG 115, 139) → `data/pg-toc/works/NNN.json`, every item with its start column confirmed in archive.org OCR. Merged by `scripts/pg-toc-merge.py` into `workLevelBreakdown` in `data/pg-byzantine-queue.json`; review table `data/pg-toc/works.tsv` (1,220 rows). Brief `data/briefs/PG-TOC-BRIEF.md`. Tools `scripts/pg-elenchus-extract.py`, `scripts/pg-colfind.py`.
+**Totals:** 941 works · 211 editorial · 68 crossrefs · 20 unlocated · 35 entered from the Ordo only (`listedIn`). Greek printed for 781 works, Latin-only 104, Greek-only 41, unknown 15. ⚠ Columns are OCR evidence, NOT plate reads; `endCol` = next start − 1, last item runs to end of volume (null). ⚠ PG 160/161/111 `greek` flags were set by an automatic OCR count — recheck before queue decisions. ⚠ `parts` (Ordo-only, not body-confirmed) on collections, e.g. 114 Metaphrastes (Jan–Feb only: the Ordo OCR stops there), 111 Nicolaus Mysticus' 163 letters, 152 Diplomata (167, machine-split, pointers only).
+**Sources:** archive.org `patrologia-volumes` NNN_djvu.txt → `raw/pg-djvu/` (gitignored). PG 106 = `patrologiaecurs67migngoog` (+ `106-alt.txt`); PG 154 = `patrologiaecurs147migngoog`; PG 111 = `bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1863_111` (main item's OCR partial → `111-partial.txt`).
+**Spent:** ≈5.42M Sonnet (subagent_tokens): 4.42M first pass against 4.3M approved, then ≈1.0M finishing against 0.75M approved (batch 20 alone 472K). Two small overruns, both reported.
+**Corrections found:** PG 127's *Anthologium gnomicum* and *Sententiae gnosticae* are ELIAS ECDICUS, not Nicetas Serronius (Nicetas = Expositio in Orationes Gregorii, col 1177).
+**Next (Wilson):** review `works.tsv`; then choose Byzantine pilot works from it. Nothing deployed; nothing pushed.
+
 
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-26) — WOLBERO, PL 195 (11512) · ✅ LIVE ON migne.app (deployed 2026-09-26, `migne-mp4ytnt9w`, smoke-tested on the alias) · PUSHED
 

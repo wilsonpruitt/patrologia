@@ -70,7 +70,8 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 106	NICEPHORUS PHILOSOPHUS CHRISTIANUS	Vita S. Antonii Cauleae, patriarchae Constantinopolitani, ex Actis Sanctorum Bollandianis	work	178	206	agree	latin-only			
 106	S. ANDREAS CAESAREAE CAPPADOCIAE ARCHIEPISCOPUS	Commentarius in Apocalypsin	work	207	486	agree	yes			
 106	ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR	Commentarius in Apocalypsin	work	487	786	agree	yes			
-106	ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR	Oratio de SS. Samona, Guria et Abibo	work	787	810	elenchus-garbled	latin-only			
+106	ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR	Oratio de SS. Samona, Guria et Abibo	work	787	790	elenchus-garbled	latin-only			
+106	ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR	Oratio de translatione S. Euthymii archiepiscopi CP.	work	791	810	body-only	latin-only		ordo-only	
 106	JOANNES GEOMETRA	Sermo in SS. Deiparae Annuntiationem	work	811	846	agree	yes			
 106	JOANNES GEOMETRA	Oratio de malo	work	847	852	elenchus-garbled	yes			
 106	JOANNES GEOMETRA	Hymni quinque in S. Deiparam	work	853	866	agree	yes			
@@ -93,7 +94,8 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Preces liturgicae, ex antiqua Collectione liturgica Venetiis edita 1594	work	299	308	body-only	yes			
 107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Canticum compunctionis ex meditatione aeterni judicii, in Anecdotis P. Matrangae, cum interpretatione nostra	work	309	314	body-only	yes			
 107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Epistola ad Omarum Saracenorum regem de fidei Christianae veritate et Mahumetanorum erroribus, ex Biblioth. Patrum Lugdun. edit	work	315	324	body-only	latin-only			
-107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Orientalium Episcopatuum Notitiae a Leone Sapiente ad Andronicum Palaeologum, ex edit. Jacobi Goari	work	325	418	body-only	yes			
+107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Orientalium Episcopatuum Notitiae a Leone Sapiente ad Andronicum Palaeologum, ex edit. Jacobi Goari	work	325	403	body-only	yes			
+107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Formula epistolarum Constantinopolitani patriarchae ad papam, archiepiscopos, et ad cunctos in dignitatibus secularibus constitutos (Expositio nova quomodo CP. patriarcha ad papam ... nunc scribat)	work	404	418	body-only	yes		ordo-only	
 107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Novellae Constitutiones sive correctoriae legum repurgationes, ex Corpore juris civilis	work	419	658	body-only	yes			
 107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Apologia Leonis in qua Constantini discipuli sui calumnias a se repellit	work	659	662	body-only	yes			
 107	LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS	Epigrammata	work	663	664	body-only	yes			
@@ -114,13 +116,35 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 109	ANONYMI	Libri duo De vita Leonis Philosophi, Alexandri et Romani junioris, impp.	work	369	498	elenchus-garbled	yes			
 109	ANONYMUS	Dissertatio steliteutica contra Iconomachos, scripta circa an. 745	work	499	517	agree	yes			
 109	JOANNES HIEROSOLYMITANUS	Narratio de origine motuum Iconoclastarum	work	518	518	elenchus-garbled	yes			
-109	JOANNES CAMENIATA	Narratio de excidio Thessalonicae; praemittitur excerptum ex miraculis S. Demetrii martyris	work	519	652	agree	yes			
+109	JOANNES CAMENIATA	Narratio de excidio Thessalonicae; praemittitur excerptum ex miraculis S. Demetrii martyris	work	519	638	agree	yes			
+109	DEMETRIUS CYDONIUS	Monodia in Thessalonicenses occisos (cum Combefisii Praefatione)	work	639	652	body-only	yes		ordo-only	
 109	GREGORIUS MONACHUS	Ex Vita Basilii Junioris	work	653	662	agree	yes			
 109	SYMEON MAGISTER ET LOGOTHETA	Annales a Leone Armeno ad Nicephorum Phocam	work	663	822	agree	yes			
 109	GEORGIUS MONACHUS	Vitae recentiorum imperatorum	work	823	984	agree	yes			
 109	JOSEPHUS GENESIUS	Historia de rebus Constantinopolitanis	work	985	end	agree	yes			
 110	GEORGIUS MONACHUS, COGNOMENTO HAMARTOLUS	Prolegomena (1. De Georgio monacho et de continuatoribus ejus et exscriptoribus; 2. de codicibus)	editorial	9	40	agree	latin-only			
 110	GEORGIUS MONACHUS, COGNOMENTO HAMARTOLUS	Chronicon breve, ab orbe condito ad annum post Christum natum 840 et a diversis scriptoribus ad annum usque 1143 continuatum (ex ed. Muralto)	work	41	end	agree	yes			
+111	NICOLAUS CP. PATRIARCHA	Praefatio (Angeli Mai Notitia de Nicolao et Monitum)	editorial	9	24	body-only	latin-only			
+111	NICOLAUS CP. PATRIARCHA	Homilia de capta Thessalonica (fragmentum)	work	25	26	body-only	latin-only			
+111	NICOLAUS CP. PATRIARCHA	Nicolai Epistolae CLXIII, Graece ex editione card. Ang. Maii, Latine ex interpretatione nostra	work	27	390	body-only	latin-only	163		
+111	NICOLAUS CP. PATRIARCHA	Liber ad praepositum Sacri Montis, ut typus in ordine vitae, Graece tantum ap. Maium	work	391	405	body-only	latin-only			
+111	ANONYMUS	Monitum (Angeli Mai, to the fragmentum historicum)	editorial	406	406	body-only	latin-only			
+111	ANONYMUS	Fragmentum historicum (De Papis, ex Chronico)	work	407	410	body-only	latin-only			
+111	BASILIUS NEOPATRENSIS METROPOLITA	Prologus interpretationis duodecim prophetarum minorum	work	411	418	body-only	latin-only			
+111	BASILIUS CAESAREAE CAPPADOCIAE EPISCOPUS, COGNOMENTO MINIMUS	Basilii Minimi Commentaria ad S. Gregorii Nazianzeni orationes (memorantur tantum, utpote jam edita tom. XXXVI)	crossref	415		crossref	unknown			36 1073
+111	GREGORIUS CAESAREAE CAPPADOCIAE PRESBYTER	Vita S. Gregorii Nazianzeni (vide tom. XXXV)	crossref	415		crossref	unknown			35
+111	GREGORIUS CAESAREAE CAPPADOCIAE PRESBYTER	In synodum Nicaenam (Oratio in sanctos trecentos decem et octo Deiferos Patres et in Constantinum piissimum imperatorem)	work	419	440	body-only	latin-only			
+111	JOSEPHUS GENESIUS	Chronographia Byzantina (vide inter Scriptores post Theophanem, tom. CIX)	crossref	439		crossref	unknown			109
+111	ANONYMUS	Vita S. Lucae Junioris (cum Monitum; excerpta vitae S.P.N. ac miraculorum patratoris Lucae Junioris in Hellade sepulti)	work	441	480	body-only	latin-only			
+111	LEO GRAMMATICUS	Annales Byzantini (vide tom. CIX, col. 989, inter scriptores post Theophanem)	crossref	479		crossref	unknown			109 989
+111	ANONYMUS	Vita S. Clementis Bulgarorum episcopi (exstat tom. CXXVI, in appendice ad Theophylactum, cui a nonnullis tribuitur)	crossref	479		crossref	unknown			126 appendix to Theophylactus
+111	MOSES BAR-CEPHA, SYRUS	Commentaria de Paradiso ex sermone Syriaco in Latinum translata ab Andrea Masio	work	481	606	body-only	unknown			
+111	THEODORUS DAPHNOPATA	Notitia	editorial	607	610	agree	latin-only			
+111	THEODORUS DAPHNOPATA	Encomium Joannis Baptistae (Exstat inter opera Theodoreti, tom. LXXXIV)	crossref	611		crossref	unknown			84 33
+111	THEODORUS DAPHNOPATA	Oratio in translationem manus S. Joannis Baptistae Antiochia Constantinopolim	work	611	620	agree	latin-only			
+111	NICEPHORUS PRESBYTER CP.	Vita S. Andreae Salae seu Stulti, ex Actis SS. Bolland. (praemittitur Conradi Janningh commentarius)	work	621	906	agree	latin-only			
+111	EUTYCHIUS ALEXANDRINUS PATRIARCHA	Annales, seu liber historicus a tempore Adami ad annos usque Hejirae Islamiticae, ex Arabico in Latinum sermonem translati	work	907	end	agree	latin-only			
+111	GEORGIUS MONACHUS	Historia Byzantina (vide tom. CIX, in Scriptoribus post Theophanem)	crossref	1157		disagree	unknown			109
 112	CONSTANTINUS PORPHYROGENITUS	Editorum Patrologiae Praefatio	editorial	9	10	agree	latin-only			
 112	CONSTANTINUS PORPHYROGENITUS	J. A. Fabricii Notitia Scriptorum Constantini Porphyrogeniti	editorial	11	32	agree	latin-only			
 112	CONSTANTINUS PORPHYROGENITUS	De Cerimoniis Aulae Byzantinae libri duo, e recensione Joan. Jac. Reiskii, cum ejusdem Commentariis (collective title page)	work	33	34	agree	yes			
@@ -164,7 +188,7 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 114	SYMEON METAPHRASTES	Monitum Editorum (Pars Tertia: Vitae Sanctorum)	editorial	294	299	body-only	latin-only			
 114	SYMEON METAPHRASTES	Martini Hanckii Catalogus Vitarum quas Symeon Metaphrastes composuit	editorial	294	299	body-only	latin-only			
 114	SYMEON METAPHRASTES	Danielis de Nessel Catalogus earumdem Vitarum	editorial	300	305	body-only	latin-only			
-114	SYMEON METAPHRASTES	Vitae Sanctorum, ordine mensium (Mensis Januarius ff.)	work	306	end	body-only	unknown			
+114	SYMEON METAPHRASTES	Vitae Sanctorum, ordine mensium (Mensis Januarius ff.)	work	306	end	body-only	unknown	32		
 115	SYMEON METAPHRASTES	Vita sancti Theophanis	work			unlocated	yes			
 115	SYMEON METAPHRASTES	Vita sancti Longini centurionis	work	31	42	body-only	yes			
 115	SYMEON METAPHRASTES	Vita sancti Abramii et neptis ejus	work	43	76	body-only	yes			
@@ -265,7 +289,11 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 118	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Joannis Hentenii, monachi Hieronymiani, qui Graeca Latina fecit, Praefatio ad D. Georgium ab Austria, Episcopum Leodiensem, Bullonensem ducem, etc.	editorial	11	18	body-only	latin-only			
 118	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Ejusdem Praefatio ad Lectorem	editorial	19	42	body-only	latin-only			
 118	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Commentaria in Acta apostolorum	work	43	306	body-only	yes			
-118	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Commentaria in Epistolas Pauli	work	307	end	body-only	yes			
+118	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Commentaria in Epistolas Pauli	work	307	312	body-only	yes			
+118	ANONYMUS	Narratio de divo Paulo apostolo	work	307	312	body-only	yes		ordo-only	
+118	EUTHALIUS DIACONUS	Prologus (in Epistolas Pauli)	work	307	312	body-only	yes		ordo-only	
+118	EUTHALIUS DIACONUS	Peregrinatio Pauli apostoli	work	313	314	disagree	yes		ordo-only	
+118	EUTHALIUS DIACONUS	Martyrium Pauli apostoli	work	315	end	body-only	yes		ordo-only	
 118	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Commentaria in Epistolas Catholicas	work			unlocated	unknown			
 119	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Commentaria in Novum Testamentum (Continuatio)	work	9	721	agree	yes			
 119	OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS	Synopsis Anonymi ex Oecumenio in Apocalypsin, ex qua discimus locum sedis episcopalis Oecumenii	work	722	725	elenchus-garbled	yes			
@@ -302,14 +330,16 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 120	LEO ACHRIDANUS BULGARORUM ARCHIEPISCOPUS	Epistola ad Joannem episcopum Tranensem, nunc primum ex cod. Monac. Graece edita a D. J. Hergenroether	work	835	850	body-only	yes			
 120	NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS	Practicorum, physicorum et gnosticorum capitum centuriae tres, Graece in Philocalia, Latine ex interpretatione nostra	work	851	1008	disagree	yes			
 120	NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS	De salutatione manuali, fragmentum	work	1009	1010	agree	yes			
-120	NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS	Libellus contra Latinos	work	1011	1038	elenchus-garbled	latin-only			
+120	NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS	Libellus contra Latinos	work	1011	1020	elenchus-garbled	latin-only			
+120	HUMBERTUS SILVAE CANDIDAE EPISCOPUS (CARDINALIS)	Responsio sive Contradictio in libellum Nicetae Pectorati contra Latinos	work	1021	1038	body-only	latin-only		ordo-only	
 120	NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS	Alia ex vita Symeonis Junioris (edentur in notis Fr. Combefisii ad Manuelis Calecae opus de essentia et operatione divina). Vide tom. CLII	crossref			crossref	unknown			152
 120	NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS	Carmen iambicum in Symeonem Juniorem	crossref			unlocated	unknown			120 307
 120	JOANNES EUCHAITARUM METROPOLITA	Notitia auctore Conr. Janningo in Junii Bolland. tomo I	editorial	1039	1050	agree	latin-only			
 120	JOANNES EUCHAITARUM METROPOLITA	Vita S. Dorothei Junioris, sive in Chiliocomo, auctore monacho coaevo, facto deinde metropolita Euchaitarum	work	1051	1074	agree	yes			
 120	JOANNES EUCHAITARUM METROPOLITA	Sermo in S. Mariae Dormitionem, ex R. P. Ant. Ballerinii, S. J., Sylloge monumentorum de immaculata conceptione Deiparae virginis	work	1075	1112	agree	yes			
 120	JOANNES EUCHAITARUM METROPOLITA	Fragmentum ex Vita S. Eusebiae	work	1297	end	elenchus-garbled	yes			
-120	JOANNES EUCHAITARUM METROPOLITA	Versus iambici in principalium festorum pictas in tabulis historias atque alia varia, ex rarissima editione Matthaei Busti, Etonensis, cum interpretatione nostra	work	1113	1200	disagree	yes			
+120	JOANNES EUCHAITARUM METROPOLITA	Versus iambici in principalium festorum pictas in tabulis historias atque alia varia, ex rarissima editione Matthaei Busti, Etonensis, cum interpretatione nostra	work	1113	1198	disagree	yes			
+120	JOANNES EUCHAITARUM METROPOLITA	Epigrammata quinque (ab Antonio Ballerinio ex codice Vaticano edita)	work	1199	1200	body-only	yes		ordo-only	
 120	JOANNES XIPHILINUS CP. PATRIARCHA	Orationes quinque, ex editione Graeca Christ. Frid. Matthaei, cui interpretationem Latinam addidimus	work	1201	1258	body-only	yes			
 120	JOANNES XIPHILINUS CP. PATRIARCHA	Oratio in crucis adorationem, ex Jac. Gretsero	work	1259	1288	elenchus-garbled	yes			
 120	JOANNES XIPHILINUS CP. PATRIARCHA	Oratio dicta Dominica Omnium Sanctorum, ex codice Naniano CXXII, cum interpretatione nostra	work	1289	1292	agree	yes			
@@ -341,7 +371,8 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 122	MICHAEL PSELLUS	Compendium legum versibus politicis ad Mich. Ducam imp.	work	925	1006	body-only	yes			
 122	MICHAEL PSELLUS	Ad discipulos de actionum nominibus	work	1007	1022	body-only	yes			
 122	MICHAEL PSELLUS	De recentiorum legum et legalium definitionum Latinis nominibus	work	1023	1029	body-only	yes			
-122	MICHAEL PSELLUS	De anima celebres opiniones	work	1030	1076	body-only	yes			
+122	MICHAEL PSELLUS	De anima celebres opiniones	work	1030	1074	body-only	yes			
+122	MICHAEL PSELLUS	Quod animae motus coelestibus motibus similes sint (versus)	work	1075	1076	body-only	yes		ordo-only	
 122	MICHAEL PSELLUS	In Psychogoniam Platonicam, ex edit. Car. Linder	work	1077	1114	body-only	yes			
 122	MICHAEL PSELLUS	Expositio in Oracula magica quae a Zoroastre prodiere	work	1115	1115	body-only	yes			
 122	MICHAEL PSELLUS	Expositio in Oracula Chaldaica	work	1116	1149	body-only	yes			
@@ -353,7 +384,8 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 122	MICHAEL PSELLUS	Fragmentum ex oratione ad Constantinum Monomachum imp.	work	1185	1336	body-only	yes			
 122	MICHAEL PSELLUS	Fragmenta alia	work	1185	1336	body-only	latin-only			
 122	APPENDIX AD OPERA MICH. PSELLI	Anonymi De antiquitatibus C. P. ex Banduri Imperio Orientali	work	1185	1336	body-only	unknown			
-122	APPENDIX AD OPERA MICH. PSELLI	Testamentum Salomonis, cujus saepe meminit Psellus in libro De operationibus daemonum, addita interpretatione nostra	work	1337	1360	body-only	yes			
+122	APPENDIX AD OPERA MICH. PSELLI	Testamentum Salomonis, cujus saepe meminit Psellus in libro De operationibus daemonum, addita interpretatione nostra	work	1337	1357	body-only	yes			
+122	JOANNES SCYLITZES	Addenda ad Cedrenum (Scylitzae Synopsis historiarum, praefatio e codice Coisliniano 136, ad tom. I operum Cedreni)	work	1358	1360	elenchus-garbled	yes		ordo-only	
 122	APPENDIX AD OPERA MICH. PSELLI	Fabroti Glossarium, sive interpretatio obscurorum verborum Cedreni	editorial	1361	1404	body-only	yes			
 122	APPENDIX AD OPERA MICH. PSELLI	Index in Cedrenum	editorial	1405	1442	body-only	latin-only			
 122	APPENDIX AD OPERA MICH. PSELLI	Index in Michaelem Psellum et in Appendicem	editorial	1443	end	body-only	latin-only			
@@ -451,7 +483,10 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 127	JOB MONACHUS	Vita S. Theodorae reginae, Graece in Codice Naniano LXXI, cum interpretatione nostra	work	903	910	agree	yes			
 127	PETRUS CHRYSOLANUS MEDIOLANENSIS ARCHIEPISCOPUS	Epistola ad Alexium imp. de Spiritus sancti processione (Oratio de Spiritu Sancto ad imperatorem Alexium Comnenum)	work	911	924	body-only	yes			
 127	ALEXIUS COMNENUS IMP.	Novellae Constitutiones	work	925	984	agree	yes			
-127	IRENE AUGUSTA	Typicum sive Regula pro monasterio SS. Deiparae Gratia-Plenae, ex editione Domni Bern. de Montfaucon	work	985	1480	elenchus-garbled	yes			
+127	IRENE AUGUSTA	Typicum sive Regula pro monasterio SS. Deiparae Gratia-Plenae, ex editione Domni Bern. de Montfaucon	work	985	1129	elenchus-garbled	yes			
+127	ELIAS ECDICUS	Anthologium gnomicum piorum philosophorum (Latine ap. Jac. Pontanum; Graece ex Philocalia)	work	1130	1147	body-only	yes		ordo-only	
+127	ELIAS ECDICUS	Sententiae gnosticae	work	1148	1176	body-only	yes		ordo-only	
+127	NICETAS SERRONIUS (HERACLEENSIS METROPOLITA)	Expositio in Orationes S. Gregorii Nazianzeni (Orr. XXXVIII, XXXIX, XL, XLI, XLII, XLIII, XLIV; Latine interprete Jacobo Billio)	work	1177	1480	agree	unknown		ordo-only	
 127	NICEPHORUS BOTANIATA IMP.	Aurea Bulla confirmans decreta synodalia Joannis Xiphilini de incestis nuptiis et sponsalibus	work	1481	1484	agree	yes			
 127	NICETAS SEIDUS	De Paschate	work	1485	end	agree	yes			
 128	EUTHYMIUS ZIGABENUS	Editorum Patrologiae Monitum	editorial	9	20	agree	latin-only			
@@ -465,7 +500,8 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 129	EUTHYMIUS ZIGABENUS	Ejusdem (Hentenii) Praefatio	editorial	41	106	body-only	latin-only			
 129	EUTHYMIUS ZIGABENUS	Euthymii Expositio in Mattheum	work	107	764	body-only	yes			
 129	EUTHYMIUS ZIGABENUS	Euthymii Expositio in Marcum	work	765	852	elenchus-garbled	yes			
-129	EUTHYMIUS ZIGABENUS	Euthymii Expositio in Lucam	work	853	1104	agree	yes			
+129	EUTHYMIUS ZIGABENUS	Euthymii Expositio in Lucam	work	853	1100	agree	yes			
+129	ANONYMUS	Interpretatio duarum odarum Evangelii Lucae (ex codice Bibl. SS. Synodi Mosquensis CCCII IV)	work	1101	1104	body-only	yes		ordo-only	
 129	EUTHYMIUS ZIGABENUS	Euthymii Expositio in Joannem	work	1105	end	agree	yes			
 130	EUTHYMIUS ZIGABENUS	Panoplia dogmatica ad Alexium Comnenum, Graece ex editione Tergobystensi anni 1610, cum supplementis Chr. Frid. Matthaei et Frid. Sylburgii; Latine ex interpretatione Francisci Zini, a nobis, ubi opus fuit, suppleta	work	9	end	agree	yes			
 131	EUTHYMIUS ZIGABENUS	Expositio Symboli, ex Christ. Frid. Matthaei Lectionibus Mosquensibus	work	9	18	body-only	yes			
@@ -993,3 +1029,193 @@ vol	author	title	kind	startCol	endCol	colStatus	greek	parts	listedIn	crossRef
 156	GEORGIUS PHRANTZA	De Vita et Scriptis Georgii Phrantzae, ex Joan. Alb. Fabricii Bibliotheca Graeca	editorial	633	636	body-only	latin-only			
 156	GEORGIUS PHRANTZA	Chronicon majus, ex editione Jacobi Pontani et Francisci Caroli Alteri	work	637	1024	body-only	yes	5		
 156	GEORGIUS PHRANTZA	Chronicon minus seu abbreviatum, ex edit. card. Angeli Maii	work	1025	end	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	Georgii Codini Vita, res gestae, scripta	editorial	9	16	body-only	latin-only			
+157	GEORGIUS CODINUS CUROPALATA	De officiis et officialibus Magnae Ecclesiae et aulae Cpolitanae, ex edit. P. Jacobi Goari et Jacobi Gretseri	work	17	120	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	Jacobi Gretseri, S. J. in librum Codini de officiis et officialibus Magnae Ecclesiae et aulae Cpolitanae Commentariorum libri tres; quibus insertae sunt J. Goari notae et observationes	editorial	121	438	body-only	latin-only			
+157	GEORGIUS CODINUS CUROPALATA	Georgii Codini Excerpta de originibus Cpolitanis, ex editione Petri Lambecii	work	439	468	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	De forma et ambitu urbis Cpolitanae	work	469	474	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	De signis, statuis et aliis spectatu dignis in urbe Cpoli	work	475	544	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	De aedificiis Cpolitanis	work	545	614	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	De structura templi S. Sophiae	work	615	634	body-only	yes			
+157	GEORGIUS CODINUS CUROPALATA	De annis ab orbe condito usque ad imp. Constantini Magni et de iis qui in Cpoli regnarunt usque dum ab Agarenis capta est	work	635	650	body-only	yes			
+157	ANONYMUS	Anonymi breves Enarrationes chronographicae, editore et interprete Ans. Bandurio in Imperio Orientali	work	651	724	body-only	yes			
+157	ANONYMUS	De sepulcris imperatorum quae sunt in templo SS. Apostolorum, ex ejusdem editione ibid.	work	725	738	body-only	yes			
+157	DUCAS	Ducae Vita, res gestae, scripta, ex Hankio De rer. Byzant. Script. Graec.	editorial	739	742	body-only	latin-only			
+157	DUCAS	Historia Byzantina, res in imperio Graecorum gestas complectens a Joanne Palaeologo, anno Christi 1341, ad annum 1462; ex edit. Ismaelis Bullialdi	work	743	1166	body-only	yes			
+157	DUCAS	Anonymi Chronicon breve, quo Graecorum, Venetorum et Turcorum aliquot gesta continentur usque ad annum 1523	work	1167	end	body-only	yes			
+158	MICHAEL GLYCAS	Notitia ex Bibliotheca Joan. Alb. Fabricii	editorial			body-only	latin-only			
+158	MICHAEL GLYCAS	Joannis Lamii De Michaele Glyca ejusque scriptis Dissertatio prior, ex Deliciis Eruditorum, tom. I	editorial			agree	latin-only			
+158	MICHAEL GLYCAS	Dissertatio posterior, ex ejusdem operis tom. VI	editorial			agree	latin-only			
+158	MICHAEL GLYCAS	Casim. Oudini Dissertatio de aetate et scriptis Michaelis Glycae	editorial			elenchus-garbled	latin-only			
+158	MICHAEL GLYCAS	Michaelis Glycae Epistolarum recensio, ex cod. 493 bibl. Reg. Taurin., ap. Pasini Codd. mss. Taurin.	editorial			agree	yes			
+158	MICHAEL GLYCAS	Phil. Labbei Epistola nuncupatoria ad card. Mazarinum	editorial	1	2	body-only	latin-only			
+158	MICHAEL GLYCAS	Ejusdem ad Lectorem Praefatio	editorial	3	4	body-only	latin-only			
+158	MICHAEL GLYCAS	Joan. Leunclavii Praefatio	editorial	5	8	body-only	latin-only			
+158	MICHAEL GLYCAS	Michaelis Glycae Tabulae, ex cod. ms. Fontebraldensi, a celsissima principe Joanna Baptistide Borbonia liberalissime communicato	work	9	26	agree	yes			
+158	MICHAEL GLYCAS	Michaelis Glycae Annalium pars I, totius universitatis rerum a Deo conditarum historiam continens	work	27	230	body-only	yes			
+158	MICHAEL GLYCAS	Annalium pars II, ab Adamo usque ad Caesaris imperium	work	231	384	elenchus-garbled	yes			
+158	MICHAEL GLYCAS	Annalium pars III, ab imperio Caesaris usque ad Constantinum Magnum	work	385	464	body-only	yes			
+158	MICHAEL GLYCAS	Annalium pars IV. De Cpolitanis impp. qui deinceps regnarunt	work	465	622	body-only	yes			
+158	MICHAEL GLYCAS	Glycanorum Annalium continuatio, a Joanne Comneno usque ad imperii Byzantini eversionem, auctore Joanne Leunclavio	work	623	646	body-only	latin-only			
+158	MICHAEL GLYCAS	Michaelis Glycae Epistolae, ex editione Joannis Lami, Franc. Fontani, C. Fr. Mathaei, Angeli Maii, Leonis Allatii	work	647	960	elenchus-garbled	yes			
+158	JOANNES DIACONUS ADRIANOPOLITANUS	Carmen in laudem Joannis Palaeologi, ex edit. Ang. Mar. Bandinii. Praecedit operis Argumentum, in quo de auctore inquiritur	work	961	970	agree	yes			
+158	ESAIAS CYPRIUS	Epistola ad Nicolaum Sclengam de processione Spiritus sancti	work	971	976	body-only	yes			
+158	HILARIO MONACHUS	Dissertatio dialectica de pane Graecorum mystico et azymo Latinorum, contra Graecos	work	977	982	elenchus-garbled	yes			
+158	JOANNES ARGYROPULUS	Notitia ex Boerneri De doctis hominibus Graecis, Graecarum litterarum in Italia instauratoribus	editorial	983	988	body-only	latin-only			
+158	JOANNES ARGYROPULUS	Joan. Argyropuli libellus de processione Spiritus sancti, in quo habetur explanatio Decreti facti in synodo Florentina	work	989	1006	body-only	yes			
+158	JOANNES ARGYROPULUS	Epistola ad Dominicum Roboreum, cardinalem, ex cod. ms. Taurin. 433	work	1007	1010	agree	yes			
+158	THEODORUS AGALLIANUS	Theodori Agalliani diceophylacis Refutatio libri Joannis Argyropuli, ex Dosithei TOMO AGAPHS	work	1011	1050	agree	yes			
+158	JOSEPHUS CPOLITANUS PATRIARCHA	Confessio fidei dicta in conc. Florent. sess. 25, cum in extremis esset	work	1051	1052	agree	yes			
+158	JOSEPHUS CPOLITANUS PATRIARCHA	Ejus Epitaphium	work	1053	1054	body-only	latin-only			
+158	JOB MONACHUS	Proœmium commentarii in Psalmos, ex cod. Taurin.	work	1053	1054	agree	yes			
+158	BARTHOLOMAEUS DE JANO, ORD. MINORUM	Epistola contra Turcas, ad Albertum de Sarthiano, ex cod. ms. 1130 biblioth. S. Michaelis Venetae	work	1055	1066	agree	latin-only			
+158	NICOLAUS BARBARUS, PATRICIUS VENETUS	Ephemerides de Cpoli anno 1453 obsessa atque expugnata, ea quae inde a 5 Aprilis usque ad 29 Maii evenerunt complectentes	work	1067	1076	agree	latin-only			
+158	ANONYMUS	Narratio de vita Mohammedis, ex D. W. Gass, Appendix ad Gennadius und Pletho	work	1077	end	agree	yes			
+159	LAONICUS CHALCOCONDYLA, ATHENIENSIS	Historiarum de origine ac rebus gestis Turcarum libri decem, ex editione Luparea anni 1650	work	9	554	agree	yes			
+159	LAONICUS CHALCOCONDYLA, ATHENIENSIS	Marquardi Freheri in Laonici Chalcocondylae descriptionem Germaniae commentarius	work	555	571	agree	latin-only			
+159	LAONICUS CHALCOCONDYLA, ATHENIENSIS	Annales sultanorum Othmanidarum a Turcis sua lingua scripti et ab Joanne Leunclavio Latine redditi	work	572	648	agree	latin-only			
+159	LAONICUS CHALCOCONDYLA, ATHENIENSIS	Supplementum Annalium, quo res Turcicae continuantur ad annum Mahumetanum 996, qui Christianus est 1588, ex Joannis Leunclavii adversariis	work	649	710	agree	latin-only			
+159	LAONICUS CHALCOCONDYLA, ATHENIENSIS	Ejusdem Joannis Leunclavii Pandectae historiae Turcicae ad illustrandos Annales	work	711	922	agree	latin-only			
+159	LEONARDUS CHIENSIS, MITYLENAEUS ARCHIEPISCOPUS	Epistola de Cpolitana urbe a Mahumete II capta, ad Nicolaum V Rom. Pont. die 15 Augusti anni 1453 directa	work	923	952	agree	latin-only			
+159	ISIDORUS S. R. E. CARDINALIS, RUTHENORUM EPISCOPUS	Ad universos Christifideles de expugnatione Cpolis	work	953	958	agree	latin-only			
+159	JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)	De differentiis inter Graecos et Latinos (Joannis Archipresbyteri Plusiadeni Disceptatio inter Pium quemdam, Publicanum, ...)	work	959	1022	agree	yes			
+159	JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)	Responsio ad libellum Marci Eugenici, Ephesi metropolitae	work	1023	1094	agree	yes			
+159	JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)	Canon per acrostichidem in synodum Florentinam, ex Pasini Cod. Taurin.	work	1095	1100	agree	yes			
+159	JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)	Synaxarium synodi Florentinae, sive brevis narratio eorum quae in ea gesta sunt	work	1101	1106	agree	yes			
+159	JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)	Expositio pro sancta et oecumenica synodo Florentina, quod legitime congregata est, et Defensio quinque capitum quae in decreto ejus continentur (Gennadii Scholarii nomine olim edita)	work	1107	end	body-only	yes		ordo-only	
+160	GREGORIUS MAMMA CPOLITANUS PATRIARCHA	De Gregorii Mammae vita, rebus gestis et scriptis notitia ab Editore Wirceburgensi adornata	editorial	9	14	agree	latin-only			
+160	GREGORIUS MAMMA CPOLITANUS PATRIARCHA	Apologia contra Ephesii confessionem nunc primum edita curante D. Hergenroether	work	15	110	agree	yes			
+160	GREGORIUS MAMMA CPOLITANUS PATRIARCHA	Responsio ad epistolam encyclicam ejusdem Ephesii (ex tom. XIII Concil. ed. Labbei)	work	111	204	agree	yes			
+160	GREGORIUS MAMMA CPOLITANUS PATRIARCHA	Ad imperatorem Trapezuntium de additione facta in Symbolo (ex Leonis Allatii Graecia orthodoxa)	work	205	248	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De Gennadii vita et scriptis Eusebii Renaudotii Dissertatio	editorial	249	310	elenchus-garbled	latin-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Excerptum ex patriarchica Cpoleos historia	work	311	318	body-only	yes		ordo-only	
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Confessio fidei I, sive sermocinatio de nonnullis capitibus fidei Christianae de quibus disputavit cum amera Machumetis, quae etiam inscribitur de via salutis humanae	work	319	333	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Confessio fidei II. De Christianorum recta et vera fide homilia ad sapientes Agarenos, hortatu magni Sultani et ipso praesente dicta	work	334	350	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Homilia de sacramentali corpore Domini nostri Jesu Christi	work	351	374	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Alia ejusdem argumenti brevis homilia, relata a Meletio Syrigo in Refutatione confessionis Cyrilli Lucaris, Cpolitani patriarchae	work	375	380	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Gennadii Scholarii refutatio libri Marci Ephesini contra Latinos (huc usque inedita; vide tomum sequentem, ipso initio)	crossref	381		crossref	unknown			161 ipso initio
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Georgii Scholarii Orationes in synodo Florentina habitae	work	381	384	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Joan. Mathaei Caryophylli interpretis Admonitio ad Lectorem	editorial	381	384	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De pace deque ferendo patriae auxilio Adhortatio ad synodum orientalem Florentiae coactam	work	385	404	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Oratio ad synodum oecumenicam, Quod facienda sit unio dogmatica	work	405	438	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Oratio II, in qua pacis impedimenta tolluntur	work	439	472	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Oratio III, in qua exponuntur ea per quae pax confici possit	work	473	524	disagree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Precatio ad Dominum nostrum Jesum Christum, editore et interprete Aldo Manutio Romae 1501, cum Prudentii et aliorum carminibus	work	525	528	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Eusebii Renaudotii Monitum in subsequentia fragmenta	editorial	529	532	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Verba Marci Ephesii morientis ad Georgium Scholarium	work	529	532	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Responsio Scholarii	work	533	534	disagree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Extrema Marci Ephesini verba	work	535	536	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Ex epistola Gennadii ad Maximum monachum, Sophianum in saeculo appellatum, et omnes ascetas montis Sina	work	537	538	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Epistola de praedestinatione ad Josephum Exarchum (ed. Graece Hoeschelius 1606; Latine Fed. Morellus 1618)	work	539	566	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De Deo in Trinitate uno, adversus atheos et polytheistas	work	567	596	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Epistola ad Plethonem in ejus librum de Spiritus sancti processione seu potius ejus novitates dogmaticas	work	597	630	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Epistola ad Josephum Exarchum. Nuntiat se librum Plethonis polytheismi suspectum igni multis testibus tradidisse, servatis quibusdam tantum partibus	work	631	648	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	In sequentia opuscula editoris Patrologiae Monitum (opuscula ex Dosithei Tomo agapes edita)	editorial	649	664	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Responsio ad amicam de sententia quadam B. Theodori Grapti qua abutebantur Acindyniastae, et de iis quae circa processionem Spiritus sancti docent	work	649	664	elenchus-garbled	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De processione Spiritus sancti, ad Joannem Comnenum imperatorem Trapezuntinum	work	665	712	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De additione ad Symbolum a Latinis facta	work	713	730	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De haeresi Simoniaca	work	731	736	elenchus-garbled	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De jejunio Sabbatino Latinorum, quod non oportet per Quadragesimam quotidie sacrificium fieri, et de conjugio sacerdotum	work	737	744	elenchus-garbled	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Epistola ad Marcum Ephesi metropolitam. Librum suum transmittit quem pro Aristotelis defensione scripserat (1)	work	745	746	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Fragmenta libri ejusdem	work	745	746	elenchus-garbled	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Fragmenta ex Apologia ad Constantinum imp.; fragmenta epistolae ad Marcum Lipomanum et ad Ambrosium Camaldulensem; fragmentum querimoniae contra Latinismum; fragmentum monodiae qua urbis excidium deplorat; fragmentum epistolae ad omnes fideles; fragmentum epistolae ad cives suos; ex epistola ad Sylvestrum (parenthetical list; printed within the Vita)	crossref			crossref	unknown			160 255-315 (within the Dissertatio, cols 249 ff.)
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Gennadii et Lucae Notarae Epistolae amoebaeae (inseritur Joannis Moschi Narratio de Luca Notara et filiorum ejus caede)	work	747	760	elenchus-garbled	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Expositio litterarum quae in sepulcro Constantini Magni inscriptae erant, ex Bandurii Imperio Orientali	work	761	772	agree	unknown			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Monitum in Gennadii libros de divina providentia et praedestinatione, partim jam editos, partim nunc primum ex codd. Paris., Gennadii autographis, exscriptos	editorial	1105	1124	agree	yes			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De divina providentia et praedestinatione liber primus	work	1105	1124	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De praedestinatione ad Josephum Exarchum epistola, seu totius operis liber secundus (Exstat col. 539)	crossref	1125		crossref	unknown			160 539
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De divina providentia liber tertius, ex cod. Reg. Paris. 1289	work	1125	1136	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De divina providentia liber quartus, ex eodem codice	work	1137	1148	agree	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De divina providentia liber quintus, ex eodem codice	work	1149	1156	elenchus-garbled	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	De Christi humanatione, ex cod. Graec. Paris. 1232	work	1157	1162	elenchus-garbled	greek-only			
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Apologia pro quinque capitibus concilii Florentini (Gennadii nomine edita, Josepho Methonensi restituta; in tomo superiori)	crossref			crossref	unknown			159
+160	GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA	Recensio codicis Graeci Matritensis qui continet Logicam Petri Juliani Ulyssiponensis (Joannis Papae XXII) et S. Thomae De Sophismatibus librum a Georgio Scholario in Graecum sermonem translatos	work	1211	end	elenchus-garbled	yes			
+160	GEORGIUS GEMISTUS PLETHO	Notitia ex Allatio de Georgiis	editorial	773	794	elenchus-garbled	yes			
+160	GEORGIUS GEMISTUS PLETHO	Notitia altera, excerpta ex Praefatione D. Alexandri ad Plethonem de legibus, passim	editorial	795	804	agree	latin-only			
+160	GEORGIUS GEMISTUS PLETHO	Hieronymi Charitonymi Laudatio funebris Plethonis	work	805	812	agree	greek-only			
+160	GEORGIUS GEMISTUS PLETHO	Gregorii monachi Monodia ejusdem argumenti	work	813	820	disagree	greek-only			
+160	GEORGIUS GEMISTUS PLETHO	De rebus Peloponnesiacis ad Manuelem imperatorem oratio I	work	821	840	agree	greek-only			
+160	GEORGIUS GEMISTUS PLETHO	De rebus Peloponnesiacis ad Theodorum despotam oratio II	work	841	864	agree	yes			
+160	GEORGIUS GEMISTUS PLETHO	Argumentum orationis qua Manuel Palaeologus Theodorum despotam fratrem defunctum laudavit	work	865	880	disagree	yes			
+160	GEORGIUS GEMISTUS PLETHO	Quatuor virtutum justa explicatio, ex ed. Basil. 1552	work	865	880	agree	greek-only			
+160	GEORGIUS GEMISTUS PLETHO	Platonicae et Aristotelicae philosophiae comparatio (praecedit Georgii Chariandri Praefatio), ex ed. Basil. 1574	work	881	938	disagree	latin-only			
+160	GEORGIUS GEMISTUS PLETHO	Laudatio funebris Cleopae Augustae, ex editione Georgii Gustavi Fuelleborn, Lipsiae 1795, cum Michaelis Apostolii laudatione funebri Bessarionis	work	939	950	elenchus-garbled	yes			
+160	GEORGIUS GEMISTUS PLETHO	Laudatio funebris Helenae Palaeologinae imperatricis, quae post susceptum sacrum habitum Hypomone monacha dicta est, ex cod. gr. Paris. n. 1760, cum interpretatione nostra	work	951	956	agree	yes			
+160	GEORGIUS GEMISTUS PLETHO	Fragmenta ex libro De legibus	work	957	972	disagree	yes	6		
+160	GEORGIUS GEMISTUS PLETHO	Compendium dogmatum Zoroastris et Platonis	work	973	978	agree	greek-only			
+160	GEORGIUS GEMISTUS PLETHO	Contra dogma Latinorum de processione Spiritus sancti, ex Dosithei Tomo agapes	work			unlocated	unknown			
+160	GEORGIUS GEMISTUS PLETHO	Contra Scholarii defensionem Aristotelis	work	979	1020	agree	greek-only			
+160	MATTHÆUS CAMARIOTA	Synopsis rhetoricae, ex Joan. Schefferi Miscellaneis, Upsaliae 1697	work	1021	1058	disagree	yes			
+160	MATTHÆUS CAMARIOTA	Narratio lamentabilis de Cpoli capta, ex Martini Crusii Turco-Graecia	work	1059	1070	agree	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Notitia historica et litteraria	editorial	1071	1078	agree	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Quod non solum a voce Dominicorum verborum sanctificantur divina dona, verum a consequente oratione et benedictione sacerdotis, virtute S. Spiritus. Ex Liturgiis SS. Patrum	work	1079	1090	elenchus-garbled	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Confessio fidei (exstat cum refutatione Gregorii Mammae, quae nunc primum editur, initio hujusce voluminis)	crossref	1091		crossref	unknown			160 initio voluminis (see Gregorii Mammae Apologia, col. 15 ff.)
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Epistola ad omnes orthodoxos (Vide supra col. 111)	crossref	1091		crossref	unknown			160 111
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Epistola Marci Ephesini ad Georgium Scholarium (Sequentia ex mss. descripta, nobis suppeditavit D. Hergenroether)	work	1091	1096	agree	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Ejusdem epistola ad Theophanem monachum	work	1097	1098	agree	greek-only			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Marci metropolitae Ephesii Apologia ab eo dicta instante morte	work	1099	1102	agree	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Marci Ephesii Dialogus qui inscribitur Latinus, sive de additamento in Symbolo	work	1099	1102	agree	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Ex ejusdem epistola ad Joannem Palaeologum imp.	work	1103	1104	disagree	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Expositio Officii ecclesiastici, edita ad calcem Operum Symeonis Thessalonicensis, in Iasio Moldaviae	work	1163	1192	elenchus-garbled	yes			
+160	MARCUS EUGENICUS, EPHESIUS METROPOLITA	Epistola ad Isidorum hieromonachum de vitae termino inquirentem	work	1193	1200	agree	greek-only			
+160	NICOLAUS V ROMANUS PONTIFEX	Epistola ad Constantinum, Romaeorum imperatorem ultimum, de unione Ecclesiarum, cum interpretatione Graeca Theodori Gazae	work	1201	1210	agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	De vita et rebus gestis Bessarionis Aloysii Bandinii Commentarius	work			agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Appendix monumentorum anecdotorum, partim ex archivo basilicae SS. XII Apostolorum, partim ex Vaticana bibliotheca descriptorum	work			agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Index rerum praecipuarum quae in Dissertatione continentur	editorial			agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Baptistae Platinae Panegyricus in laudem Bessarionis, eo vivente in publico coetu dictus	work			agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Acta selecta quae ad Bessarionis legationem Bononiensem pertinent	work			agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Michaelis Apostolii laudatio funebris Bessarionis	work			agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Joannis Alberti Fabricii Notitia historica et bibliographica	editorial			agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Refutatio capitum syllogisticorum Marci Ephesii contra Latinos, nunc primum edita curante J. Hergenroether	work	11	244	agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Apologia Inscriptionum Vecci contra Gregorium Palamam, Petro Arcudio interprete	work	245	286	elenchus-garbled	yes			
+161	BESSARION. S. R. E. CARDINALIS	Defensiones recti catholicique dogmatis Latinorum, videlicet de processione Spiritus sancti contra haereticum illud impugnantem, Graece Latineque editae	work	287	320	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	De processione Spiritus sancti, ad Alexium Lascarin Philanthropinum, ex interpretatione Petri Arcudii (praemittitur Bessarionis ad Paulum II Epistola nuncupatoria)	work	321	402	elenchus-garbled	yes			
+161	BESSARION. S. R. E. CARDINALIS	Idem liber, Latine, ex interpretatione Bessarionis (De successu synodi Florentinae et de processione Spiritus sancti, primum Graece editus liber, deinde ab eodem Latinis litteris donatus)	work	403	440	body-only	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Epistola encyclica ad Graecos. Exhortatur ad obedientiam Romanae Ecclesiae et susceptionem synodi Florentinae; et de electione sua in patriarcham Cpolitanum. Petro Arcudio interprete. Praemittitur Epistolae argumentum	work	441	480	elenchus-garbled	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Eadem Epistola ex interpretatione Bessarionis	work	481	488	elenchus-garbled	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Graecorum confessio de verbis consecrationis et transsubstantiatione, a Bessarione exposita in concilio Florentino. Ex Mabillonii Museo Italico	work	489	494	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	De sacramento Eucharistiae et quibus verbis Christi corpus conficiatur. Ex Claudii de Sainctes Liturgiis	work	495	524	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Compendium asceticorum S. Basilii Magni ad usum monachorum Basilianorum in Italia et Sicilia degentium concinnatum. Ex Joan. Yriarte cod. Or. Matrit., addita interpretatione nostra	work	525	530	elenchus-garbled	yes			
+161	BESSARION. S. R. E. CARDINALIS	Concio gratulatoria ad synodum Ferrariam coactam	work	531	542	elenchus-garbled	yes			
+161	BESSARION. S. R. E. CARDINALIS	Oratio dogmatica ad eamdem synodum de unione Ecclesiarum, ipso Bessarione interprete	work	543	610	disagree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Declaratio aliquorum quae in dicta oratione continentur, quae Graecis notissima, Latinis ignota sunt	work	611	614	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Monodia in obitu Manuelis Palaeologi, anno 1419 defuncti. Ap. Dzovium Contin. Annal. Baron. ad an. 1472	work	615	620	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Iambi in obitu Theodorae Augustae, Constantini imp. uxoris. Ex Allatio De consensu	work	621	624	agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	In illud Evangelii secundum Joannem: Sic volo eum manere donec veniam, quid ad te? Contra Georgium Trapezuntinum, quem vide infra col. 867, Bessarioni contradicentem. Ex edit. Havanoensi anni 1552	work	625	640	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Orationes ad principes Italiae de Christianorum clade in Chalcide Euboeae, de periculis Italiae imminentibus expugnato Hydrunto, de sedandis discordiis et decernendo bello adversus Turcas, quibus subjicitur persuasio ex Demosthenis Olynthiaca. Praemittuntur Bessarionis epistola ad Fichetum, epistola Ficheti ad Sabaudiae principes, Bessarionis epistola ad homonymum suum Bessarionem abbatem Basilianum. Ex edit. Rom. anni 1551	work	641	674	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Bessarionis Epistolae (XIII)	work	675	700	agree	latin-only	13		
+161	BESSARION. S. R. E. CARDINALIS	Tabula librorum quos serenissimo Venetiarum dominio dono dedit Bessarion	work	701	712	agree	latin-only			
+161	BESSARION. S. R. E. CARDINALIS	Bessarionis Interrogationes ad Plethonem cum Plethonis ad Bessarionis quaesita responsionibus	work	713	722	agree	greek-only			
+161	BESSARION. S. R. E. CARDINALIS	Georgii Amirutzae ad Bessarionem. De Trapezunte a Turcis anno 1461 expugnata	work	723	726	agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Gregorii monachi Epistola ad Bessarionem laudatoria	work	727	730	agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Ejusdem in eumdem oratio encomiastica	work	731	743	agree	yes			
+161	BESSARION. S. R. E. CARDINALIS	Bessarionis ex oratione in patriam suam Trapezuntem	work	744	744	agree	yes			
+161	GEORGIUS TRAPEZUNTINUS	Notitia ex Allatii Diatriba de Georgiis	editorial	745	764	agree	latin-only			
+161	GEORGIUS TRAPEZUNTINUS	Notitia altera ex Chr. Frid. Boerneri De doctis viris Graecis litterarum Graecarum in Italia instauratoribus	editorial	765	768	elenchus-garbled	latin-only			
+161	GEORGIUS TRAPEZUNTINUS	De processione Spiritus sancti, ad Joannem Cuboclesium	work	769	828	agree	yes			
+161	GEORGIUS TRAPEZUNTINUS	Item de processione Spiritus sancti et de una sancta catholica Ecclesia, ad Cretenses	work	829	866	agree	greek-only			
+161	GEORGIUS TRAPEZUNTINUS	In illud Evangelii secundum Joannem: Sic volo eum manere donec veniam, quid ad te? et quod Joannes evangelista nondum sit mortuus. Ad Sixtum IV Pontificem Maximum	work	867	882	agree	latin-only			
+161	GEORGIUS TRAPEZUNTINUS	Martyrium S. Andreae de Chio qui Cpoli obiit anno primo Pauli II Pontificis summi, a Georgio Latine scriptum	work	883	888	disagree	latin-only			
+161	GEORGIUS TRAPEZUNTINUS	Epistola ad Eugenium IV Summum Pontificem, de unione Ecclesiarum, ex Mittarelli Bibliotheca codd. mss. monasterii S. Michaelis Venet. prope Murianum	work	889	894	agree	latin-only			
+161	GEORGIUS TRAPEZUNTINUS	Epistola ad Joannem Palaeologum imp. Ut in Italiam ad synodum proficiscatur. Ad calcem Phrantzae ed. Pontanus	work	895	904	agree	yes			
+161	CONSTANTINUS LASCARIS	Notitia ex Christ. Frid. Boerneri de doctis hominibus Graecis litterarum Graecarum in Italia instauratoribus	editorial	905	912	elenchus-garbled	latin-only			
+161	CONSTANTINUS LASCARIS	Constantini Lascaris Epistola ad Joannem Gattum, Catanae episcopum, libro de Scriptoribus Graecis patria Siculis praemissa. Ex Yriarte Catal. cod. Gr. Matrit., cum interpretatione nostra	work	913	914	disagree	yes			
+161	CONSTANTINUS LASCARIS	De scriptoribus Graecis patria Siculis	work	915	922	disagree	latin-only			
+161	CONSTANTINUS LASCARIS	De scriptoribus Graecis patria Calabris (Catannis)	work	923	928	agree	latin-only			
+161	CONSTANTINUS LASCARIS	Gesta SS. Apostolorum Petri et Pauli, Constantino Lascari interprete	work	929	930	agree	yes			
+161	CONSTANTINUS LASCARIS	Prooemium ad libros suos de grammatica qui in excusis desunt	work	931	938	body-only	yes		ordo-only	
+161	CONSTANTINUS LASCARIS	Epilogus ejusdem libri	work			unlocated	unknown		ordo-only	
+161	CONSTANTINUS LASCARIS	Epistola ad Jacobum Ximenium Morellium, proregis insulae Siciliae a secretis. De Herodiani grammatici vita et scriptis, et de Theodosio ejus epitomatore. Ex Yriarte	work	939	944	body-only	yes		ordo-only	
+161	CONSTANTINUS LASCARIS	De Quinto poeta. Argumenta ejus libris a Constantino Lascari praefixa	work	945	950	body-only	greek-only		ordo-only	
+161	CONSTANTINUS LASCARIS	Fragmenta varia ex Yriarte catalogo laudato	work	951	970	agree	yes	8		
+161	THEODORUS GAZA	Notitia ex Allatio de Theodoris	editorial	971	976	agree	yes			
+161	THEODORUS GAZA	Notitia altera ex Boerneri libro citato	editorial	977	985	elenchus-garbled	latin-only			
+161	THEODORUS GAZA	Laudatio canis, ap. Maii B. PP.	work	986	996	agree	yes			
+161	THEODORUS GAZA	De origine Turcarum ad Fr. Philelphum, ex Allatii Symmictis	work	997	1004	agree	yes			
+161	THEODORUS GAZA	Theod. Gazae Liber de mensibus (exstat in appendice ad Eusebii Chronicon, hujusce Patrologiae tom. XIX, col. 1167)	crossref			crossref	unknown			19 1167
+161	THEODORUS GAZA	Epistola ad Demetrium Chalcocondylem	work	1005	1007	agree	yes			
+161	THEODORUS GAZA	Ad eumdem [Epistola]	work	1008	1014	agree	greek-only			
+161	ANDRONICUS CALLISTUS	Notitia ex Boerneri libro citato	editorial	1015	1016	agree	latin-only			
+161	ANDRONICUS CALLISTUS	Epistola ad Georgium Palaeologum Lisypatum	work	1017	1018	agree	greek-only			
+161	ANDRONICUS CALLISTUS	Monodia de Cpoli capta, ex cod. Reg. Paris. 1774 nunc primum edita	work	1151	end	elenchus-garbled	greek-only			
+161	CPOLITANORUM IMPERATORES	Novellae constitutiones inde ab anno 1220 usque ad captam urbem	work	1019	1150	agree	latin-only			

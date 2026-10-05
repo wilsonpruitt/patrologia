@@ -788,7 +788,7 @@
     "source": "data/pg-toc/works/106.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 18,
+     "work": 19,
      "editorial": 0,
      "crossref": 0
     },
@@ -835,9 +835,19 @@
       "title": "Oratio de SS. Samona, Guria et Abibo",
       "kind": "work",
       "startCol": 787,
-      "endCol": 810,
+      "endCol": 790,
       "colStatus": "elenchus-garbled",
       "greek": "latin-only"
+     },
+     {
+      "author": "ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR",
+      "title": "Oratio de translatione S. Euthymii archiepiscopi CP.",
+      "kind": "work",
+      "startCol": 791,
+      "endCol": 810,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "listedIn": "ordo-only"
      },
      {
       "author": "JOANNES GEOMETRA",
@@ -976,7 +986,7 @@
     "source": "data/pg-toc/works/107.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 17,
+     "work": 18,
      "editorial": 2,
      "crossref": 0
     },
@@ -1068,9 +1078,19 @@
       "title": "Orientalium Episcopatuum Notitiae a Leone Sapiente ad Andronicum Palaeologum, ex edit. Jacobi Goari",
       "kind": "work",
       "startCol": 325,
-      "endCol": 418,
+      "endCol": 403,
       "colStatus": "body-only",
       "greek": "yes"
+     },
+     {
+      "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+      "title": "Formula epistolarum Constantinopolitani patriarchae ad papam, archiepiscopos, et ad cunctos in dignitatibus secularibus constitutos (Expositio nova quomodo CP. patriarcha ad papam ... nunc scribat)",
+      "kind": "work",
+      "startCol": 404,
+      "endCol": 418,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
@@ -1253,7 +1273,7 @@
     "source": "data/pg-toc/works/109.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 10,
+     "work": 11,
      "editorial": 0,
      "crossref": 0
     },
@@ -1309,9 +1329,19 @@
       "title": "Narratio de excidio Thessalonicae; praemittitur excerptum ex miraculis S. Demetrii martyris",
       "kind": "work",
       "startCol": 519,
-      "endCol": 652,
+      "endCol": 638,
       "colStatus": "agree",
       "greek": "yes"
+     },
+     {
+      "author": "DEMETRIUS CYDONIUS",
+      "title": "Monodia in Thessalonicenses occisos (cum Combefisii Praefatione)",
+      "kind": "work",
+      "startCol": 639,
+      "endCol": 652,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "GREGORIUS MONACHUS",
@@ -1409,7 +1439,222 @@
     "goodWitnesses": 6,
     "bestNonEmptyFrac": 0.998
    },
-   "workLevelBreakdown": "NOT BUILT",
+   "workLevelBreakdown": {
+    "source": "data/pg-toc/works/111.json",
+    "listSource": "elenchus",
+    "counts": {
+     "work": 11,
+     "editorial": 3,
+     "crossref": 7
+    },
+    "unlocated": 0,
+    "entries": [
+     {
+      "author": "NICOLAUS CP. PATRIARCHA",
+      "title": "Praefatio (Angeli Mai Notitia de Nicolao et Monitum)",
+      "kind": "editorial",
+      "startCol": 9,
+      "endCol": 24,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "NICOLAUS CP. PATRIARCHA",
+      "title": "Homilia de capta Thessalonica (fragmentum)",
+      "kind": "work",
+      "startCol": 25,
+      "endCol": 26,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "NICOLAUS CP. PATRIARCHA",
+      "title": "Nicolai Epistolae CLXIII, Graece ex editione card. Ang. Maii, Latine ex interpretatione nostra",
+      "kind": "work",
+      "startCol": 27,
+      "endCol": 390,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "parts": 163
+     },
+     {
+      "author": "NICOLAUS CP. PATRIARCHA",
+      "title": "Liber ad praepositum Sacri Montis, ut typus in ordine vitae, Graece tantum ap. Maium",
+      "kind": "work",
+      "startCol": 391,
+      "endCol": 405,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Monitum (Angeli Mai, to the fragmentum historicum)",
+      "kind": "editorial",
+      "startCol": 406,
+      "endCol": 406,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Fragmentum historicum (De Papis, ex Chronico)",
+      "kind": "work",
+      "startCol": 407,
+      "endCol": 410,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BASILIUS NEOPATRENSIS METROPOLITA",
+      "title": "Prologus interpretationis duodecim prophetarum minorum",
+      "kind": "work",
+      "startCol": 411,
+      "endCol": 418,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BASILIUS CAESAREAE CAPPADOCIAE EPISCOPUS, COGNOMENTO MINIMUS",
+      "title": "Basilii Minimi Commentaria ad S. Gregorii Nazianzeni orationes (memorantur tantum, utpote jam edita tom. XXXVI)",
+      "kind": "crossref",
+      "startCol": 415,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 36,
+      "crossRefCol": "1073"
+     },
+     {
+      "author": "GREGORIUS CAESAREAE CAPPADOCIAE PRESBYTER",
+      "title": "Vita S. Gregorii Nazianzeni (vide tom. XXXV)",
+      "kind": "crossref",
+      "startCol": 415,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 35,
+      "crossRefCol": ""
+     },
+     {
+      "author": "GREGORIUS CAESAREAE CAPPADOCIAE PRESBYTER",
+      "title": "In synodum Nicaenam (Oratio in sanctos trecentos decem et octo Deiferos Patres et in Constantinum piissimum imperatorem)",
+      "kind": "work",
+      "startCol": 419,
+      "endCol": 440,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "JOSEPHUS GENESIUS",
+      "title": "Chronographia Byzantina (vide inter Scriptores post Theophanem, tom. CIX)",
+      "kind": "crossref",
+      "startCol": 439,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 109,
+      "crossRefCol": ""
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Vita S. Lucae Junioris (cum Monitum; excerpta vitae S.P.N. ac miraculorum patratoris Lucae Junioris in Hellade sepulti)",
+      "kind": "work",
+      "startCol": 441,
+      "endCol": 480,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "LEO GRAMMATICUS",
+      "title": "Annales Byzantini (vide tom. CIX, col. 989, inter scriptores post Theophanem)",
+      "kind": "crossref",
+      "startCol": 479,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 109,
+      "crossRefCol": "989"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Vita S. Clementis Bulgarorum episcopi (exstat tom. CXXVI, in appendice ad Theophylactum, cui a nonnullis tribuitur)",
+      "kind": "crossref",
+      "startCol": 479,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 126,
+      "crossRefCol": "appendix to Theophylactus"
+     },
+     {
+      "author": "MOSES BAR-CEPHA, SYRUS",
+      "title": "Commentaria de Paradiso ex sermone Syriaco in Latinum translata ab Andrea Masio",
+      "kind": "work",
+      "startCol": 481,
+      "endCol": 606,
+      "colStatus": "body-only",
+      "greek": "unknown"
+     },
+     {
+      "author": "THEODORUS DAPHNOPATA",
+      "title": "Notitia",
+      "kind": "editorial",
+      "startCol": 607,
+      "endCol": 610,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "THEODORUS DAPHNOPATA",
+      "title": "Encomium Joannis Baptistae (Exstat inter opera Theodoreti, tom. LXXXIV)",
+      "kind": "crossref",
+      "startCol": 611,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 84,
+      "crossRefCol": "33"
+     },
+     {
+      "author": "THEODORUS DAPHNOPATA",
+      "title": "Oratio in translationem manus S. Joannis Baptistae Antiochia Constantinopolim",
+      "kind": "work",
+      "startCol": 611,
+      "endCol": 620,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "NICEPHORUS PRESBYTER CP.",
+      "title": "Vita S. Andreae Salae seu Stulti, ex Actis SS. Bolland. (praemittitur Conradi Janningh commentarius)",
+      "kind": "work",
+      "startCol": 621,
+      "endCol": 906,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "EUTYCHIUS ALEXANDRINUS PATRIARCHA",
+      "title": "Annales, seu liber historicus a tempore Adami ad annos usque Hejirae Islamiticae, ex Arabico in Latinum sermonem translati",
+      "kind": "work",
+      "startCol": 907,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS MONACHUS",
+      "title": "Historia Byzantina (vide tom. CIX, in Scriptoribus post Theophanem)",
+      "kind": "crossref",
+      "startCol": 1157,
+      "endCol": null,
+      "colStatus": "disagree",
+      "greek": "unknown",
+      "crossRefVolume": 109,
+      "crossRefCol": ""
+     }
+    ]
+   },
    "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
   },
   {
@@ -1892,7 +2137,8 @@
       "startCol": 306,
       "endCol": null,
       "colStatus": "body-only",
-      "greek": "unknown"
+      "greek": "unknown",
+      "parts": 32
      }
     ]
    },
@@ -2861,7 +3107,7 @@
     "source": "data/pg-toc/works/118.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 3,
+     "work": 7,
      "editorial": 4,
      "crossref": 0
     },
@@ -2917,9 +3163,49 @@
       "title": "Commentaria in Epistolas Pauli",
       "kind": "work",
       "startCol": 307,
-      "endCol": null,
+      "endCol": 312,
       "colStatus": "body-only",
       "greek": "yes"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Narratio de divo Paulo apostolo",
+      "kind": "work",
+      "startCol": 307,
+      "endCol": 312,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "EUTHALIUS DIACONUS",
+      "title": "Prologus (in Epistolas Pauli)",
+      "kind": "work",
+      "startCol": 307,
+      "endCol": 312,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "EUTHALIUS DIACONUS",
+      "title": "Peregrinatio Pauli apostoli",
+      "kind": "work",
+      "startCol": 313,
+      "endCol": 314,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "EUTHALIUS DIACONUS",
+      "title": "Martyrium Pauli apostoli",
+      "kind": "work",
+      "startCol": 315,
+      "endCol": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
@@ -3012,7 +3298,7 @@
     "source": "data/pg-toc/works/120.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 34,
+     "work": 36,
      "editorial": 3,
      "crossref": 7
     },
@@ -3310,9 +3596,19 @@
       "title": "Libellus contra Latinos",
       "kind": "work",
       "startCol": 1011,
-      "endCol": 1038,
+      "endCol": 1020,
       "colStatus": "elenchus-garbled",
       "greek": "latin-only"
+     },
+     {
+      "author": "HUMBERTUS SILVAE CANDIDAE EPISCOPUS (CARDINALIS)",
+      "title": "Responsio sive Contradictio in libellum Nicetae Pectorati contra Latinos",
+      "kind": "work",
+      "startCol": 1021,
+      "endCol": 1038,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "listedIn": "ordo-only"
      },
      {
       "author": "NICETAS PECTORATUS PRESBYTER ET MONASTERII STUDIENSIS MONACHUS",
@@ -3377,9 +3673,19 @@
       "title": "Versus iambici in principalium festorum pictas in tabulis historias atque alia varia, ex rarissima editione Matthaei Busti, Etonensis, cum interpretatione nostra",
       "kind": "work",
       "startCol": 1113,
-      "endCol": 1200,
+      "endCol": 1198,
       "colStatus": "disagree",
       "greek": "yes"
+     },
+     {
+      "author": "JOANNES EUCHAITARUM METROPOLITA",
+      "title": "Epigrammata quinque (ab Antonio Ballerinio ex codice Vaticano edita)",
+      "kind": "work",
+      "startCol": 1199,
+      "endCol": 1200,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "JOANNES XIPHILINUS CP. PATRIARCHA",
@@ -3528,7 +3834,7 @@
     "source": "data/pg-toc/works/122.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 31,
+     "work": 33,
      "editorial": 4,
      "crossref": 1
     },
@@ -3721,9 +4027,19 @@
       "title": "De anima celebres opiniones",
       "kind": "work",
       "startCol": 1030,
-      "endCol": 1076,
+      "endCol": 1074,
       "colStatus": "body-only",
       "greek": "yes"
+     },
+     {
+      "author": "MICHAEL PSELLUS",
+      "title": "Quod animae motus coelestibus motibus similes sint (versus)",
+      "kind": "work",
+      "startCol": 1075,
+      "endCol": 1076,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "MICHAEL PSELLUS",
@@ -3829,9 +4145,19 @@
       "title": "Testamentum Salomonis, cujus saepe meminit Psellus in libro De operationibus daemonum, addita interpretatione nostra",
       "kind": "work",
       "startCol": 1337,
-      "endCol": 1360,
+      "endCol": 1357,
       "colStatus": "body-only",
       "greek": "yes"
+     },
+     {
+      "author": "JOANNES SCYLITZES",
+      "title": "Addenda ad Cedrenum (Scylitzae Synopsis historiarum, praefatio e codice Coisliniano 136, ad tom. I operum Cedreni)",
+      "kind": "work",
+      "startCol": 1358,
+      "endCol": 1360,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "APPENDIX AD OPERA MICH. PSELLI",
@@ -4574,7 +4900,7 @@
     "source": "data/pg-toc/works/127.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 17,
+     "work": 20,
      "editorial": 9,
      "crossref": 6
     },
@@ -4859,9 +5185,39 @@
       "title": "Typicum sive Regula pro monasterio SS. Deiparae Gratia-Plenae, ex editione Domni Bern. de Montfaucon",
       "kind": "work",
       "startCol": 985,
-      "endCol": 1480,
+      "endCol": 1129,
       "colStatus": "elenchus-garbled",
       "greek": "yes"
+     },
+     {
+      "author": "ELIAS ECDICUS",
+      "title": "Anthologium gnomicum piorum philosophorum (Latine ap. Jac. Pontanum; Graece ex Philocalia)",
+      "kind": "work",
+      "startCol": 1130,
+      "endCol": 1147,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "ELIAS ECDICUS",
+      "title": "Sententiae gnosticae",
+      "kind": "work",
+      "startCol": 1148,
+      "endCol": 1176,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "NICETAS SERRONIUS (HERACLEENSIS METROPOLITA)",
+      "title": "Expositio in Orationes S. Gregorii Nazianzeni (Orr. XXXVIII, XXXIX, XL, XLI, XLII, XLIII, XLIV; Latine interprete Jacobo Billio)",
+      "kind": "work",
+      "startCol": 1177,
+      "endCol": 1480,
+      "colStatus": "agree",
+      "greek": "unknown",
+      "listedIn": "ordo-only"
      },
      {
       "author": "NICEPHORUS BOTANIATA IMP.",
@@ -4981,7 +5337,7 @@
     "source": "data/pg-toc/works/129.json",
     "listSource": "elenchus",
     "counts": {
-     "work": 4,
+     "work": 5,
      "editorial": 3,
      "crossref": 0
     },
@@ -5037,9 +5393,19 @@
       "title": "Euthymii Expositio in Lucam",
       "kind": "work",
       "startCol": 853,
-      "endCol": 1104,
+      "endCol": 1100,
       "colStatus": "agree",
       "greek": "yes"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Interpretatio duarum odarum Evangelii Lucae (ex codice Bibl. SS. Synodi Mosquensis CCCII IV)",
+      "kind": "work",
+      "startCol": 1101,
+      "endCol": 1104,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
      },
      {
       "author": "EUTHYMIUS ZIGABENUS",
@@ -10619,7 +10985,144 @@
     "goodWitnesses": 5,
     "bestNonEmptyFrac": 0.997
    },
-   "workLevelBreakdown": "NOT BUILT",
+   "workLevelBreakdown": {
+    "source": "data/pg-toc/works/157.json",
+    "listSource": "elenchus",
+    "counts": {
+     "work": 11,
+     "editorial": 3,
+     "crossref": 0
+    },
+    "unlocated": 0,
+    "entries": [
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "Georgii Codini Vita, res gestae, scripta",
+      "kind": "editorial",
+      "startCol": 9,
+      "endCol": 16,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "De officiis et officialibus Magnae Ecclesiae et aulae Cpolitanae, ex edit. P. Jacobi Goari et Jacobi Gretseri",
+      "kind": "work",
+      "startCol": 17,
+      "endCol": 120,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "Jacobi Gretseri, S. J. in librum Codini de officiis et officialibus Magnae Ecclesiae et aulae Cpolitanae Commentariorum libri tres; quibus insertae sunt J. Goari notae et observationes",
+      "kind": "editorial",
+      "startCol": 121,
+      "endCol": 438,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "Georgii Codini Excerpta de originibus Cpolitanis, ex editione Petri Lambecii",
+      "kind": "work",
+      "startCol": 439,
+      "endCol": 468,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "De forma et ambitu urbis Cpolitanae",
+      "kind": "work",
+      "startCol": 469,
+      "endCol": 474,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "De signis, statuis et aliis spectatu dignis in urbe Cpoli",
+      "kind": "work",
+      "startCol": 475,
+      "endCol": 544,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "De aedificiis Cpolitanis",
+      "kind": "work",
+      "startCol": 545,
+      "endCol": 614,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "De structura templi S. Sophiae",
+      "kind": "work",
+      "startCol": 615,
+      "endCol": 634,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS CODINUS CUROPALATA",
+      "title": "De annis ab orbe condito usque ad imp. Constantini Magni et de iis qui in Cpoli regnarunt usque dum ab Agarenis capta est",
+      "kind": "work",
+      "startCol": 635,
+      "endCol": 650,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Anonymi breves Enarrationes chronographicae, editore et interprete Ans. Bandurio in Imperio Orientali",
+      "kind": "work",
+      "startCol": 651,
+      "endCol": 724,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "De sepulcris imperatorum quae sunt in templo SS. Apostolorum, ex ejusdem editione ibid.",
+      "kind": "work",
+      "startCol": 725,
+      "endCol": 738,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "DUCAS",
+      "title": "Ducae Vita, res gestae, scripta, ex Hankio De rer. Byzant. Script. Graec.",
+      "kind": "editorial",
+      "startCol": 739,
+      "endCol": 742,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "DUCAS",
+      "title": "Historia Byzantina, res in imperio Graecorum gestas complectens a Joanne Palaeologo, anno Christi 1341, ad annum 1462; ex edit. Ismaelis Bullialdi",
+      "kind": "work",
+      "startCol": 743,
+      "endCol": 1166,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "DUCAS",
+      "title": "Anonymi Chronicon breve, quo Graecorum, Venetorum et Turcorum aliquot gesta continentur usque ad annum 1523",
+      "kind": "work",
+      "startCol": 1167,
+      "endCol": null,
+      "colStatus": "body-only",
+      "greek": "yes"
+     }
+    ]
+   },
    "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
   },
   {
@@ -10634,7 +11137,270 @@
     "goodWitnesses": 5,
     "bestNonEmptyFrac": 0.997
    },
-   "workLevelBreakdown": "NOT BUILT",
+   "workLevelBreakdown": {
+    "source": "data/pg-toc/works/158.json",
+    "listSource": "elenchus",
+    "counts": {
+     "work": 19,
+     "editorial": 9,
+     "crossref": 0
+    },
+    "unlocated": 0,
+    "entries": [
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Notitia ex Bibliotheca Joan. Alb. Fabricii",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Joannis Lamii De Michaele Glyca ejusque scriptis Dissertatio prior, ex Deliciis Eruditorum, tom. I",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Dissertatio posterior, ex ejusdem operis tom. VI",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Casim. Oudini Dissertatio de aetate et scriptis Michaelis Glycae",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Michaelis Glycae Epistolarum recensio, ex cod. 493 bibl. Reg. Taurin., ap. Pasini Codd. mss. Taurin.",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Phil. Labbei Epistola nuncupatoria ad card. Mazarinum",
+      "kind": "editorial",
+      "startCol": 1,
+      "endCol": 2,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Ejusdem ad Lectorem Praefatio",
+      "kind": "editorial",
+      "startCol": 3,
+      "endCol": 4,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Joan. Leunclavii Praefatio",
+      "kind": "editorial",
+      "startCol": 5,
+      "endCol": 8,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Michaelis Glycae Tabulae, ex cod. ms. Fontebraldensi, a celsissima principe Joanna Baptistide Borbonia liberalissime communicato",
+      "kind": "work",
+      "startCol": 9,
+      "endCol": 26,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Michaelis Glycae Annalium pars I, totius universitatis rerum a Deo conditarum historiam continens",
+      "kind": "work",
+      "startCol": 27,
+      "endCol": 230,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Annalium pars II, ab Adamo usque ad Caesaris imperium",
+      "kind": "work",
+      "startCol": 231,
+      "endCol": 384,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Annalium pars III, ab imperio Caesaris usque ad Constantinum Magnum",
+      "kind": "work",
+      "startCol": 385,
+      "endCol": 464,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Annalium pars IV. De Cpolitanis impp. qui deinceps regnarunt",
+      "kind": "work",
+      "startCol": 465,
+      "endCol": 622,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Glycanorum Annalium continuatio, a Joanne Comneno usque ad imperii Byzantini eversionem, auctore Joanne Leunclavio",
+      "kind": "work",
+      "startCol": 623,
+      "endCol": 646,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "MICHAEL GLYCAS",
+      "title": "Michaelis Glycae Epistolae, ex editione Joannis Lami, Franc. Fontani, C. Fr. Mathaei, Angeli Maii, Leonis Allatii",
+      "kind": "work",
+      "startCol": 647,
+      "endCol": 960,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "JOANNES DIACONUS ADRIANOPOLITANUS",
+      "title": "Carmen in laudem Joannis Palaeologi, ex edit. Ang. Mar. Bandinii. Praecedit operis Argumentum, in quo de auctore inquiritur",
+      "kind": "work",
+      "startCol": 961,
+      "endCol": 970,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "ESAIAS CYPRIUS",
+      "title": "Epistola ad Nicolaum Sclengam de processione Spiritus sancti",
+      "kind": "work",
+      "startCol": 971,
+      "endCol": 976,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "HILARIO MONACHUS",
+      "title": "Dissertatio dialectica de pane Graecorum mystico et azymo Latinorum, contra Graecos",
+      "kind": "work",
+      "startCol": 977,
+      "endCol": 982,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "JOANNES ARGYROPULUS",
+      "title": "Notitia ex Boerneri De doctis hominibus Graecis, Graecarum litterarum in Italia instauratoribus",
+      "kind": "editorial",
+      "startCol": 983,
+      "endCol": 988,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "JOANNES ARGYROPULUS",
+      "title": "Joan. Argyropuli libellus de processione Spiritus sancti, in quo habetur explanatio Decreti facti in synodo Florentina",
+      "kind": "work",
+      "startCol": 989,
+      "endCol": 1006,
+      "colStatus": "body-only",
+      "greek": "yes"
+     },
+     {
+      "author": "JOANNES ARGYROPULUS",
+      "title": "Epistola ad Dominicum Roboreum, cardinalem, ex cod. ms. Taurin. 433",
+      "kind": "work",
+      "startCol": 1007,
+      "endCol": 1010,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "THEODORUS AGALLIANUS",
+      "title": "Theodori Agalliani diceophylacis Refutatio libri Joannis Argyropuli, ex Dosithei TOMO AGAPHS",
+      "kind": "work",
+      "startCol": 1011,
+      "endCol": 1050,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "JOSEPHUS CPOLITANUS PATRIARCHA",
+      "title": "Confessio fidei dicta in conc. Florent. sess. 25, cum in extremis esset",
+      "kind": "work",
+      "startCol": 1051,
+      "endCol": 1052,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "JOSEPHUS CPOLITANUS PATRIARCHA",
+      "title": "Ejus Epitaphium",
+      "kind": "work",
+      "startCol": 1053,
+      "endCol": 1054,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "JOB MONACHUS",
+      "title": "Proœmium commentarii in Psalmos, ex cod. Taurin.",
+      "kind": "work",
+      "startCol": 1053,
+      "endCol": 1054,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BARTHOLOMAEUS DE JANO, ORD. MINORUM",
+      "title": "Epistola contra Turcas, ad Albertum de Sarthiano, ex cod. ms. 1130 biblioth. S. Michaelis Venetae",
+      "kind": "work",
+      "startCol": 1055,
+      "endCol": 1066,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "NICOLAUS BARBARUS, PATRICIUS VENETUS",
+      "title": "Ephemerides de Cpoli anno 1453 obsessa atque expugnata, ea quae inde a 5 Aprilis usque ad 29 Maii evenerunt complectentes",
+      "kind": "work",
+      "startCol": 1067,
+      "endCol": 1076,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "ANONYMUS",
+      "title": "Narratio de vita Mohammedis, ex D. W. Gass, Appendix ad Gennadius und Pletho",
+      "kind": "work",
+      "startCol": 1077,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "yes"
+     }
+    ]
+   },
    "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
   },
   {
@@ -10649,7 +11415,127 @@
     "goodWitnesses": 6,
     "bestNonEmptyFrac": 0.999
    },
-   "workLevelBreakdown": "NOT BUILT",
+   "workLevelBreakdown": {
+    "source": "data/pg-toc/works/159.json",
+    "listSource": "elenchus",
+    "counts": {
+     "work": 12,
+     "editorial": 0,
+     "crossref": 0
+    },
+    "unlocated": 0,
+    "entries": [
+     {
+      "author": "LAONICUS CHALCOCONDYLA, ATHENIENSIS",
+      "title": "Historiarum de origine ac rebus gestis Turcarum libri decem, ex editione Luparea anni 1650",
+      "kind": "work",
+      "startCol": 9,
+      "endCol": 554,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "LAONICUS CHALCOCONDYLA, ATHENIENSIS",
+      "title": "Marquardi Freheri in Laonici Chalcocondylae descriptionem Germaniae commentarius",
+      "kind": "work",
+      "startCol": 555,
+      "endCol": 571,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "LAONICUS CHALCOCONDYLA, ATHENIENSIS",
+      "title": "Annales sultanorum Othmanidarum a Turcis sua lingua scripti et ab Joanne Leunclavio Latine redditi",
+      "kind": "work",
+      "startCol": 572,
+      "endCol": 648,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "LAONICUS CHALCOCONDYLA, ATHENIENSIS",
+      "title": "Supplementum Annalium, quo res Turcicae continuantur ad annum Mahumetanum 996, qui Christianus est 1588, ex Joannis Leunclavii adversariis",
+      "kind": "work",
+      "startCol": 649,
+      "endCol": 710,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "LAONICUS CHALCOCONDYLA, ATHENIENSIS",
+      "title": "Ejusdem Joannis Leunclavii Pandectae historiae Turcicae ad illustrandos Annales",
+      "kind": "work",
+      "startCol": 711,
+      "endCol": 922,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "LEONARDUS CHIENSIS, MITYLENAEUS ARCHIEPISCOPUS",
+      "title": "Epistola de Cpolitana urbe a Mahumete II capta, ad Nicolaum V Rom. Pont. die 15 Augusti anni 1453 directa",
+      "kind": "work",
+      "startCol": 923,
+      "endCol": 952,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "ISIDORUS S. R. E. CARDINALIS, RUTHENORUM EPISCOPUS",
+      "title": "Ad universos Christifideles de expugnatione Cpolis",
+      "kind": "work",
+      "startCol": 953,
+      "endCol": 958,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)",
+      "title": "De differentiis inter Graecos et Latinos (Joannis Archipresbyteri Plusiadeni Disceptatio inter Pium quemdam, Publicanum, ...)",
+      "kind": "work",
+      "startCol": 959,
+      "endCol": 1022,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)",
+      "title": "Responsio ad libellum Marci Eugenici, Ephesi metropolitae",
+      "kind": "work",
+      "startCol": 1023,
+      "endCol": 1094,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)",
+      "title": "Canon per acrostichidem in synodum Florentinam, ex Pasini Cod. Taurin.",
+      "kind": "work",
+      "startCol": 1095,
+      "endCol": 1100,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)",
+      "title": "Synaxarium synodi Florentinae, sive brevis narratio eorum quae in ea gesta sunt",
+      "kind": "work",
+      "startCol": 1101,
+      "endCol": 1106,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "JOSEPHUS, METHONENSIS EPISCOPUS (JOANNES PLUSIADENUS)",
+      "title": "Expositio pro sancta et oecumenica synodo Florentina, quod legitime congregata est, et Defensio quinque capitum quae in decreto ejus continentur (Gennadii Scholarii nomine olim edita)",
+      "kind": "work",
+      "startCol": 1107,
+      "endCol": null,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     }
+    ]
+   },
    "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
   },
   {
@@ -10664,7 +11550,716 @@
     "goodWitnesses": 7,
     "bestNonEmptyFrac": 0.998
    },
-   "workLevelBreakdown": "NOT BUILT",
+   "workLevelBreakdown": {
+    "source": "data/pg-toc/works/160.json",
+    "listSource": "elenchus",
+    "counts": {
+     "work": 61,
+     "editorial": 9,
+     "crossref": 6
+    },
+    "unlocated": 1,
+    "entries": [
+     {
+      "author": "GREGORIUS MAMMA CPOLITANUS PATRIARCHA",
+      "title": "De Gregorii Mammae vita, rebus gestis et scriptis notitia ab Editore Wirceburgensi adornata",
+      "kind": "editorial",
+      "startCol": 9,
+      "endCol": 14,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GREGORIUS MAMMA CPOLITANUS PATRIARCHA",
+      "title": "Apologia contra Ephesii confessionem nunc primum edita curante D. Hergenroether",
+      "kind": "work",
+      "startCol": 15,
+      "endCol": 110,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GREGORIUS MAMMA CPOLITANUS PATRIARCHA",
+      "title": "Responsio ad epistolam encyclicam ejusdem Ephesii (ex tom. XIII Concil. ed. Labbei)",
+      "kind": "work",
+      "startCol": 111,
+      "endCol": 204,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GREGORIUS MAMMA CPOLITANUS PATRIARCHA",
+      "title": "Ad imperatorem Trapezuntium de additione facta in Symbolo (ex Leonis Allatii Graecia orthodoxa)",
+      "kind": "work",
+      "startCol": 205,
+      "endCol": 248,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De Gennadii vita et scriptis Eusebii Renaudotii Dissertatio",
+      "kind": "editorial",
+      "startCol": 249,
+      "endCol": 310,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Excerptum ex patriarchica Cpoleos historia",
+      "kind": "work",
+      "startCol": 311,
+      "endCol": 318,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Confessio fidei I, sive sermocinatio de nonnullis capitibus fidei Christianae de quibus disputavit cum amera Machumetis, quae etiam inscribitur de via salutis humanae",
+      "kind": "work",
+      "startCol": 319,
+      "endCol": 333,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Confessio fidei II. De Christianorum recta et vera fide homilia ad sapientes Agarenos, hortatu magni Sultani et ipso praesente dicta",
+      "kind": "work",
+      "startCol": 334,
+      "endCol": 350,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Homilia de sacramentali corpore Domini nostri Jesu Christi",
+      "kind": "work",
+      "startCol": 351,
+      "endCol": 374,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Alia ejusdem argumenti brevis homilia, relata a Meletio Syrigo in Refutatione confessionis Cyrilli Lucaris, Cpolitani patriarchae",
+      "kind": "work",
+      "startCol": 375,
+      "endCol": 380,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Gennadii Scholarii refutatio libri Marci Ephesini contra Latinos (huc usque inedita; vide tomum sequentem, ipso initio)",
+      "kind": "crossref",
+      "startCol": 381,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 161,
+      "crossRefCol": "ipso initio"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Georgii Scholarii Orationes in synodo Florentina habitae",
+      "kind": "work",
+      "startCol": 381,
+      "endCol": 384,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Joan. Mathaei Caryophylli interpretis Admonitio ad Lectorem",
+      "kind": "editorial",
+      "startCol": 381,
+      "endCol": 384,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De pace deque ferendo patriae auxilio Adhortatio ad synodum orientalem Florentiae coactam",
+      "kind": "work",
+      "startCol": 385,
+      "endCol": 404,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Oratio ad synodum oecumenicam, Quod facienda sit unio dogmatica",
+      "kind": "work",
+      "startCol": 405,
+      "endCol": 438,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Oratio II, in qua pacis impedimenta tolluntur",
+      "kind": "work",
+      "startCol": 439,
+      "endCol": 472,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Oratio III, in qua exponuntur ea per quae pax confici possit",
+      "kind": "work",
+      "startCol": 473,
+      "endCol": 524,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Precatio ad Dominum nostrum Jesum Christum, editore et interprete Aldo Manutio Romae 1501, cum Prudentii et aliorum carminibus",
+      "kind": "work",
+      "startCol": 525,
+      "endCol": 528,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Eusebii Renaudotii Monitum in subsequentia fragmenta",
+      "kind": "editorial",
+      "startCol": 529,
+      "endCol": 532,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Verba Marci Ephesii morientis ad Georgium Scholarium",
+      "kind": "work",
+      "startCol": 529,
+      "endCol": 532,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Responsio Scholarii",
+      "kind": "work",
+      "startCol": 533,
+      "endCol": 534,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Extrema Marci Ephesini verba",
+      "kind": "work",
+      "startCol": 535,
+      "endCol": 536,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Ex epistola Gennadii ad Maximum monachum, Sophianum in saeculo appellatum, et omnes ascetas montis Sina",
+      "kind": "work",
+      "startCol": 537,
+      "endCol": 538,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola de praedestinatione ad Josephum Exarchum (ed. Graece Hoeschelius 1606; Latine Fed. Morellus 1618)",
+      "kind": "work",
+      "startCol": 539,
+      "endCol": 566,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De Deo in Trinitate uno, adversus atheos et polytheistas",
+      "kind": "work",
+      "startCol": 567,
+      "endCol": 596,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola ad Plethonem in ejus librum de Spiritus sancti processione seu potius ejus novitates dogmaticas",
+      "kind": "work",
+      "startCol": 597,
+      "endCol": 630,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola ad Josephum Exarchum. Nuntiat se librum Plethonis polytheismi suspectum igni multis testibus tradidisse, servatis quibusdam tantum partibus",
+      "kind": "work",
+      "startCol": 631,
+      "endCol": 648,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "In sequentia opuscula editoris Patrologiae Monitum (opuscula ex Dosithei Tomo agapes edita)",
+      "kind": "editorial",
+      "startCol": 649,
+      "endCol": 664,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Responsio ad amicam de sententia quadam B. Theodori Grapti qua abutebantur Acindyniastae, et de iis quae circa processionem Spiritus sancti docent",
+      "kind": "work",
+      "startCol": 649,
+      "endCol": 664,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De processione Spiritus sancti, ad Joannem Comnenum imperatorem Trapezuntinum",
+      "kind": "work",
+      "startCol": 665,
+      "endCol": 712,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De additione ad Symbolum a Latinis facta",
+      "kind": "work",
+      "startCol": 713,
+      "endCol": 730,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De haeresi Simoniaca",
+      "kind": "work",
+      "startCol": 731,
+      "endCol": 736,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De jejunio Sabbatino Latinorum, quod non oportet per Quadragesimam quotidie sacrificium fieri, et de conjugio sacerdotum",
+      "kind": "work",
+      "startCol": 737,
+      "endCol": 744,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola ad Marcum Ephesi metropolitam. Librum suum transmittit quem pro Aristotelis defensione scripserat (1)",
+      "kind": "work",
+      "startCol": 745,
+      "endCol": 746,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Fragmenta libri ejusdem",
+      "kind": "work",
+      "startCol": 745,
+      "endCol": 746,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Fragmenta ex Apologia ad Constantinum imp.; fragmenta epistolae ad Marcum Lipomanum et ad Ambrosium Camaldulensem; fragmentum querimoniae contra Latinismum; fragmentum monodiae qua urbis excidium deplorat; fragmentum epistolae ad omnes fideles; fragmentum epistolae ad cives suos; ex epistola ad Sylvestrum (parenthetical list; printed within the Vita)",
+      "kind": "crossref",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 160,
+      "crossRefCol": "255-315 (within the Dissertatio, cols 249 ff.)"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Gennadii et Lucae Notarae Epistolae amoebaeae (inseritur Joannis Moschi Narratio de Luca Notara et filiorum ejus caede)",
+      "kind": "work",
+      "startCol": 747,
+      "endCol": 760,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Expositio litterarum quae in sepulcro Constantini Magni inscriptae erant, ex Bandurii Imperio Orientali",
+      "kind": "work",
+      "startCol": 761,
+      "endCol": 772,
+      "colStatus": "agree",
+      "greek": "unknown"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Monitum in Gennadii libros de divina providentia et praedestinatione, partim jam editos, partim nunc primum ex codd. Paris., Gennadii autographis, exscriptos",
+      "kind": "editorial",
+      "startCol": 1105,
+      "endCol": 1124,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De divina providentia et praedestinatione liber primus",
+      "kind": "work",
+      "startCol": 1105,
+      "endCol": 1124,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De praedestinatione ad Josephum Exarchum epistola, seu totius operis liber secundus (Exstat col. 539)",
+      "kind": "crossref",
+      "startCol": 1125,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 160,
+      "crossRefCol": "539"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De divina providentia liber tertius, ex cod. Reg. Paris. 1289",
+      "kind": "work",
+      "startCol": 1125,
+      "endCol": 1136,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De divina providentia liber quartus, ex eodem codice",
+      "kind": "work",
+      "startCol": 1137,
+      "endCol": 1148,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De divina providentia liber quintus, ex eodem codice",
+      "kind": "work",
+      "startCol": 1149,
+      "endCol": 1156,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "De Christi humanatione, ex cod. Graec. Paris. 1232",
+      "kind": "work",
+      "startCol": 1157,
+      "endCol": 1162,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Apologia pro quinque capitibus concilii Florentini (Gennadii nomine edita, Josepho Methonensi restituta; in tomo superiori)",
+      "kind": "crossref",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 159,
+      "crossRefCol": ""
+     },
+     {
+      "author": "GENNADIUS SEU GEORGIUS SCHOLARIUS CPOLITANUS PATRIARCHA",
+      "title": "Recensio codicis Graeci Matritensis qui continet Logicam Petri Juliani Ulyssiponensis (Joannis Papae XXII) et S. Thomae De Sophismatibus librum a Georgio Scholario in Graecum sermonem translatos",
+      "kind": "work",
+      "startCol": 1211,
+      "endCol": null,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Notitia ex Allatio de Georgiis",
+      "kind": "editorial",
+      "startCol": 773,
+      "endCol": 794,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Notitia altera, excerpta ex Praefatione D. Alexandri ad Plethonem de legibus, passim",
+      "kind": "editorial",
+      "startCol": 795,
+      "endCol": 804,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Hieronymi Charitonymi Laudatio funebris Plethonis",
+      "kind": "work",
+      "startCol": 805,
+      "endCol": 812,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Gregorii monachi Monodia ejusdem argumenti",
+      "kind": "work",
+      "startCol": 813,
+      "endCol": 820,
+      "colStatus": "disagree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "De rebus Peloponnesiacis ad Manuelem imperatorem oratio I",
+      "kind": "work",
+      "startCol": 821,
+      "endCol": 840,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "De rebus Peloponnesiacis ad Theodorum despotam oratio II",
+      "kind": "work",
+      "startCol": 841,
+      "endCol": 864,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Argumentum orationis qua Manuel Palaeologus Theodorum despotam fratrem defunctum laudavit",
+      "kind": "work",
+      "startCol": 865,
+      "endCol": 880,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Quatuor virtutum justa explicatio, ex ed. Basil. 1552",
+      "kind": "work",
+      "startCol": 865,
+      "endCol": 880,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Platonicae et Aristotelicae philosophiae comparatio (praecedit Georgii Chariandri Praefatio), ex ed. Basil. 1574",
+      "kind": "work",
+      "startCol": 881,
+      "endCol": 938,
+      "colStatus": "disagree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Laudatio funebris Cleopae Augustae, ex editione Georgii Gustavi Fuelleborn, Lipsiae 1795, cum Michaelis Apostolii laudatione funebri Bessarionis",
+      "kind": "work",
+      "startCol": 939,
+      "endCol": 950,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Laudatio funebris Helenae Palaeologinae imperatricis, quae post susceptum sacrum habitum Hypomone monacha dicta est, ex cod. gr. Paris. n. 1760, cum interpretatione nostra",
+      "kind": "work",
+      "startCol": 951,
+      "endCol": 956,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Fragmenta ex libro De legibus",
+      "kind": "work",
+      "startCol": 957,
+      "endCol": 972,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "parts": 6
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Compendium dogmatum Zoroastris et Platonis",
+      "kind": "work",
+      "startCol": 973,
+      "endCol": 978,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Contra dogma Latinorum de processione Spiritus sancti, ex Dosithei Tomo agapes",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "unlocated",
+      "greek": "unknown"
+     },
+     {
+      "author": "GEORGIUS GEMISTUS PLETHO",
+      "title": "Contra Scholarii defensionem Aristotelis",
+      "kind": "work",
+      "startCol": 979,
+      "endCol": 1020,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "MATTHÆUS CAMARIOTA",
+      "title": "Synopsis rhetoricae, ex Joan. Schefferi Miscellaneis, Upsaliae 1697",
+      "kind": "work",
+      "startCol": 1021,
+      "endCol": 1058,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "MATTHÆUS CAMARIOTA",
+      "title": "Narratio lamentabilis de Cpoli capta, ex Martini Crusii Turco-Graecia",
+      "kind": "work",
+      "startCol": 1059,
+      "endCol": 1070,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Notitia historica et litteraria",
+      "kind": "editorial",
+      "startCol": 1071,
+      "endCol": 1078,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Quod non solum a voce Dominicorum verborum sanctificantur divina dona, verum a consequente oratione et benedictione sacerdotis, virtute S. Spiritus. Ex Liturgiis SS. Patrum",
+      "kind": "work",
+      "startCol": 1079,
+      "endCol": 1090,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Confessio fidei (exstat cum refutatione Gregorii Mammae, quae nunc primum editur, initio hujusce voluminis)",
+      "kind": "crossref",
+      "startCol": 1091,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 160,
+      "crossRefCol": "initio voluminis (see Gregorii Mammae Apologia, col. 15 ff.)"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Epistola ad omnes orthodoxos (Vide supra col. 111)",
+      "kind": "crossref",
+      "startCol": 1091,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 160,
+      "crossRefCol": "111"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Epistola Marci Ephesini ad Georgium Scholarium (Sequentia ex mss. descripta, nobis suppeditavit D. Hergenroether)",
+      "kind": "work",
+      "startCol": 1091,
+      "endCol": 1096,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Ejusdem epistola ad Theophanem monachum",
+      "kind": "work",
+      "startCol": 1097,
+      "endCol": 1098,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Marci metropolitae Ephesii Apologia ab eo dicta instante morte",
+      "kind": "work",
+      "startCol": 1099,
+      "endCol": 1102,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Marci Ephesii Dialogus qui inscribitur Latinus, sive de additamento in Symbolo",
+      "kind": "work",
+      "startCol": 1099,
+      "endCol": 1102,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Ex ejusdem epistola ad Joannem Palaeologum imp.",
+      "kind": "work",
+      "startCol": 1103,
+      "endCol": 1104,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Expositio Officii ecclesiastici, edita ad calcem Operum Symeonis Thessalonicensis, in Iasio Moldaviae",
+      "kind": "work",
+      "startCol": 1163,
+      "endCol": 1192,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "MARCUS EUGENICUS, EPHESIUS METROPOLITA",
+      "title": "Epistola ad Isidorum hieromonachum de vitae termino inquirentem",
+      "kind": "work",
+      "startCol": 1193,
+      "endCol": 1200,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "NICOLAUS V ROMANUS PONTIFEX",
+      "title": "Epistola ad Constantinum, Romaeorum imperatorem ultimum, de unione Ecclesiarum, cum interpretatione Graeca Theodori Gazae",
+      "kind": "work",
+      "startCol": 1201,
+      "endCol": 1210,
+      "colStatus": "agree",
+      "greek": "yes"
+     }
+    ]
+   },
    "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
   },
   {
@@ -10679,7 +12274,566 @@
     "goodWitnesses": 5,
     "bestNonEmptyFrac": 0.996
    },
-   "workLevelBreakdown": "NOT BUILT",
+   "workLevelBreakdown": {
+    "source": "data/pg-toc/works/161.json",
+    "listSource": "elenchus",
+    "counts": {
+     "work": 51,
+     "editorial": 8,
+     "crossref": 1
+    },
+    "unlocated": 1,
+    "entries": [
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "De vita et rebus gestis Bessarionis Aloysii Bandinii Commentarius",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Appendix monumentorum anecdotorum, partim ex archivo basilicae SS. XII Apostolorum, partim ex Vaticana bibliotheca descriptorum",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Index rerum praecipuarum quae in Dissertatione continentur",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Baptistae Platinae Panegyricus in laudem Bessarionis, eo vivente in publico coetu dictus",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Acta selecta quae ad Bessarionis legationem Bononiensem pertinent",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Michaelis Apostolii laudatio funebris Bessarionis",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Joannis Alberti Fabricii Notitia historica et bibliographica",
+      "kind": "editorial",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Refutatio capitum syllogisticorum Marci Ephesii contra Latinos, nunc primum edita curante J. Hergenroether",
+      "kind": "work",
+      "startCol": 11,
+      "endCol": 244,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Apologia Inscriptionum Vecci contra Gregorium Palamam, Petro Arcudio interprete",
+      "kind": "work",
+      "startCol": 245,
+      "endCol": 286,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Defensiones recti catholicique dogmatis Latinorum, videlicet de processione Spiritus sancti contra haereticum illud impugnantem, Graece Latineque editae",
+      "kind": "work",
+      "startCol": 287,
+      "endCol": 320,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "De processione Spiritus sancti, ad Alexium Lascarin Philanthropinum, ex interpretatione Petri Arcudii (praemittitur Bessarionis ad Paulum II Epistola nuncupatoria)",
+      "kind": "work",
+      "startCol": 321,
+      "endCol": 402,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Idem liber, Latine, ex interpretatione Bessarionis (De successu synodi Florentinae et de processione Spiritus sancti, primum Graece editus liber, deinde ab eodem Latinis litteris donatus)",
+      "kind": "work",
+      "startCol": 403,
+      "endCol": 440,
+      "colStatus": "body-only",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Epistola encyclica ad Graecos. Exhortatur ad obedientiam Romanae Ecclesiae et susceptionem synodi Florentinae; et de electione sua in patriarcham Cpolitanum. Petro Arcudio interprete. Praemittitur Epistolae argumentum",
+      "kind": "work",
+      "startCol": 441,
+      "endCol": 480,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Eadem Epistola ex interpretatione Bessarionis",
+      "kind": "work",
+      "startCol": 481,
+      "endCol": 488,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Graecorum confessio de verbis consecrationis et transsubstantiatione, a Bessarione exposita in concilio Florentino. Ex Mabillonii Museo Italico",
+      "kind": "work",
+      "startCol": 489,
+      "endCol": 494,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "De sacramento Eucharistiae et quibus verbis Christi corpus conficiatur. Ex Claudii de Sainctes Liturgiis",
+      "kind": "work",
+      "startCol": 495,
+      "endCol": 524,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Compendium asceticorum S. Basilii Magni ad usum monachorum Basilianorum in Italia et Sicilia degentium concinnatum. Ex Joan. Yriarte cod. Or. Matrit., addita interpretatione nostra",
+      "kind": "work",
+      "startCol": 525,
+      "endCol": 530,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Concio gratulatoria ad synodum Ferrariam coactam",
+      "kind": "work",
+      "startCol": 531,
+      "endCol": 542,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Oratio dogmatica ad eamdem synodum de unione Ecclesiarum, ipso Bessarione interprete",
+      "kind": "work",
+      "startCol": 543,
+      "endCol": 610,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Declaratio aliquorum quae in dicta oratione continentur, quae Graecis notissima, Latinis ignota sunt",
+      "kind": "work",
+      "startCol": 611,
+      "endCol": 614,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Monodia in obitu Manuelis Palaeologi, anno 1419 defuncti. Ap. Dzovium Contin. Annal. Baron. ad an. 1472",
+      "kind": "work",
+      "startCol": 615,
+      "endCol": 620,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Iambi in obitu Theodorae Augustae, Constantini imp. uxoris. Ex Allatio De consensu",
+      "kind": "work",
+      "startCol": 621,
+      "endCol": 624,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "In illud Evangelii secundum Joannem: Sic volo eum manere donec veniam, quid ad te? Contra Georgium Trapezuntinum, quem vide infra col. 867, Bessarioni contradicentem. Ex edit. Havanoensi anni 1552",
+      "kind": "work",
+      "startCol": 625,
+      "endCol": 640,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Orationes ad principes Italiae de Christianorum clade in Chalcide Euboeae, de periculis Italiae imminentibus expugnato Hydrunto, de sedandis discordiis et decernendo bello adversus Turcas, quibus subjicitur persuasio ex Demosthenis Olynthiaca. Praemittuntur Bessarionis epistola ad Fichetum, epistola Ficheti ad Sabaudiae principes, Bessarionis epistola ad homonymum suum Bessarionem abbatem Basilianum. Ex edit. Rom. anni 1551",
+      "kind": "work",
+      "startCol": 641,
+      "endCol": 674,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Bessarionis Epistolae (XIII)",
+      "kind": "work",
+      "startCol": 675,
+      "endCol": 700,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "parts": 13
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Tabula librorum quos serenissimo Venetiarum dominio dono dedit Bessarion",
+      "kind": "work",
+      "startCol": 701,
+      "endCol": 712,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Bessarionis Interrogationes ad Plethonem cum Plethonis ad Bessarionis quaesita responsionibus",
+      "kind": "work",
+      "startCol": 713,
+      "endCol": 722,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Georgii Amirutzae ad Bessarionem. De Trapezunte a Turcis anno 1461 expugnata",
+      "kind": "work",
+      "startCol": 723,
+      "endCol": 726,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Gregorii monachi Epistola ad Bessarionem laudatoria",
+      "kind": "work",
+      "startCol": 727,
+      "endCol": 730,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Ejusdem in eumdem oratio encomiastica",
+      "kind": "work",
+      "startCol": 731,
+      "endCol": 743,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "BESSARION. S. R. E. CARDINALIS",
+      "title": "Bessarionis ex oratione in patriam suam Trapezuntem",
+      "kind": "work",
+      "startCol": 744,
+      "endCol": 744,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "Notitia ex Allatii Diatriba de Georgiis",
+      "kind": "editorial",
+      "startCol": 745,
+      "endCol": 764,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "Notitia altera ex Chr. Frid. Boerneri De doctis viris Graecis litterarum Graecarum in Italia instauratoribus",
+      "kind": "editorial",
+      "startCol": 765,
+      "endCol": 768,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "De processione Spiritus sancti, ad Joannem Cuboclesium",
+      "kind": "work",
+      "startCol": 769,
+      "endCol": 828,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "Item de processione Spiritus sancti et de una sancta catholica Ecclesia, ad Cretenses",
+      "kind": "work",
+      "startCol": 829,
+      "endCol": 866,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "In illud Evangelii secundum Joannem: Sic volo eum manere donec veniam, quid ad te? et quod Joannes evangelista nondum sit mortuus. Ad Sixtum IV Pontificem Maximum",
+      "kind": "work",
+      "startCol": 867,
+      "endCol": 882,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "Martyrium S. Andreae de Chio qui Cpoli obiit anno primo Pauli II Pontificis summi, a Georgio Latine scriptum",
+      "kind": "work",
+      "startCol": 883,
+      "endCol": 888,
+      "colStatus": "disagree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "Epistola ad Eugenium IV Summum Pontificem, de unione Ecclesiarum, ex Mittarelli Bibliotheca codd. mss. monasterii S. Michaelis Venet. prope Murianum",
+      "kind": "work",
+      "startCol": 889,
+      "endCol": 894,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "GEORGIUS TRAPEZUNTINUS",
+      "title": "Epistola ad Joannem Palaeologum imp. Ut in Italiam ad synodum proficiscatur. Ad calcem Phrantzae ed. Pontanus",
+      "kind": "work",
+      "startCol": 895,
+      "endCol": 904,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Notitia ex Christ. Frid. Boerneri de doctis hominibus Graecis litterarum Graecarum in Italia instauratoribus",
+      "kind": "editorial",
+      "startCol": 905,
+      "endCol": 912,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Constantini Lascaris Epistola ad Joannem Gattum, Catanae episcopum, libro de Scriptoribus Graecis patria Siculis praemissa. Ex Yriarte Catal. cod. Gr. Matrit., cum interpretatione nostra",
+      "kind": "work",
+      "startCol": 913,
+      "endCol": 914,
+      "colStatus": "disagree",
+      "greek": "yes"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "De scriptoribus Graecis patria Siculis",
+      "kind": "work",
+      "startCol": 915,
+      "endCol": 922,
+      "colStatus": "disagree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "De scriptoribus Graecis patria Calabris (Catannis)",
+      "kind": "work",
+      "startCol": 923,
+      "endCol": 928,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Gesta SS. Apostolorum Petri et Pauli, Constantino Lascari interprete",
+      "kind": "work",
+      "startCol": 929,
+      "endCol": 930,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Prooemium ad libros suos de grammatica qui in excusis desunt",
+      "kind": "work",
+      "startCol": 931,
+      "endCol": 938,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Epilogus ejusdem libri",
+      "kind": "work",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "unlocated",
+      "greek": "unknown",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Epistola ad Jacobum Ximenium Morellium, proregis insulae Siciliae a secretis. De Herodiani grammatici vita et scriptis, et de Theodosio ejus epitomatore. Ex Yriarte",
+      "kind": "work",
+      "startCol": 939,
+      "endCol": 944,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "De Quinto poeta. Argumenta ejus libris a Constantino Lascari praefixa",
+      "kind": "work",
+      "startCol": 945,
+      "endCol": 950,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "listedIn": "ordo-only"
+     },
+     {
+      "author": "CONSTANTINUS LASCARIS",
+      "title": "Fragmenta varia ex Yriarte catalogo laudato",
+      "kind": "work",
+      "startCol": 951,
+      "endCol": 970,
+      "colStatus": "agree",
+      "greek": "yes",
+      "parts": 8
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "Notitia ex Allatio de Theodoris",
+      "kind": "editorial",
+      "startCol": 971,
+      "endCol": 976,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "Notitia altera ex Boerneri libro citato",
+      "kind": "editorial",
+      "startCol": 977,
+      "endCol": 985,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only"
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "Laudatio canis, ap. Maii B. PP.",
+      "kind": "work",
+      "startCol": 986,
+      "endCol": 996,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "De origine Turcarum ad Fr. Philelphum, ex Allatii Symmictis",
+      "kind": "work",
+      "startCol": 997,
+      "endCol": 1004,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "Theod. Gazae Liber de mensibus (exstat in appendice ad Eusebii Chronicon, hujusce Patrologiae tom. XIX, col. 1167)",
+      "kind": "crossref",
+      "startCol": null,
+      "endCol": null,
+      "colStatus": "crossref",
+      "greek": "unknown",
+      "crossRefVolume": 19,
+      "crossRefCol": "1167"
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "Epistola ad Demetrium Chalcocondylem",
+      "kind": "work",
+      "startCol": 1005,
+      "endCol": 1007,
+      "colStatus": "agree",
+      "greek": "yes"
+     },
+     {
+      "author": "THEODORUS GAZA",
+      "title": "Ad eumdem [Epistola]",
+      "kind": "work",
+      "startCol": 1008,
+      "endCol": 1014,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "ANDRONICUS CALLISTUS",
+      "title": "Notitia ex Boerneri libro citato",
+      "kind": "editorial",
+      "startCol": 1015,
+      "endCol": 1016,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     },
+     {
+      "author": "ANDRONICUS CALLISTUS",
+      "title": "Epistola ad Georgium Palaeologum Lisypatum",
+      "kind": "work",
+      "startCol": 1017,
+      "endCol": 1018,
+      "colStatus": "agree",
+      "greek": "greek-only"
+     },
+     {
+      "author": "ANDRONICUS CALLISTUS",
+      "title": "Monodia de Cpoli capta, ex cod. Reg. Paris. 1774 nunc primum edita",
+      "kind": "work",
+      "startCol": 1151,
+      "endCol": null,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only"
+     },
+     {
+      "author": "CPOLITANORUM IMPERATORES",
+      "title": "Novellae constitutiones inde ab anno 1220 usque ad captam urbem",
+      "kind": "work",
+      "startCol": 1019,
+      "endCol": 1150,
+      "colStatus": "agree",
+      "greek": "latin-only"
+     }
+    ]
+   },
    "translationStatus": "unverified (badge defaults to \"New English translation\" — rule 8)"
   }
  ],
