@@ -1,0 +1,24 @@
+{
+  "volume": 130,
+  "source": "archive.org patrologia-volumes 130_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "375-459",
+  "colMap": "cols 11–1371 (pg-colfind --stats)",
+  "entries": [
+    {
+      "author": "EUTHYMIUS ZIGABENUS",
+      "title": "Panoplia dogmatica ad Alexium Comnenum, Graece ex editione Tergobystensi anni 1610, cum supplementis Chr. Frid. Matthaei et Frid. Sylburgii; Latine ex interpretatione Francisci Zini, a nobis, ubi opus fuit, suppleta",
+      "kind": "work",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 459,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "The only item the Elenchus lists. OCR shows Matthaei's 'Recensio codicum Mosquensium' (Prolegomena; closing Ordo prints col. 9) at lines 459-488 before the first running head 'EUTHYMII ZIGABENI' (col 11, line 489), where the Greek text of the Panoplia opens. Ordo lists Prologus ad Alexium, Index libri (col 51 as read), then Tituli I-XXVIII (Tit. I at col ~31-35 in the body index; body Tit. I head line 2105 col ~31, II line 2974 col ~43, III 8878 col ~124, IV 11501 col ~155, V 14230 col ~185, VI 14824 col ~197, VII 15655 col ~207, VIII 19877 col ~257, IX 23685 col ~305, X 25437 col ~326, XI 25688 col ~329, XII 53710 col ~686), plus an Appendix (Photii epistola, versus). Ordo columns for most tituli are too garbled to take as parts (e.g. 'Titulus XXIV 1189', 'XXVI 1275', 'XXVII 1289'), so no parts array was built; the work is one entry. Body col is 'col ≈' (last good page number), may lag a page or two."
+    }
+  ],
+  "problems": [
+    "Elenchus lists a single item (the whole Panoplia); the Ordo's Tituli I-XXVIII columns are largely garbled in the OCR, so no parts array was made.",
+    "Panoplia head is Greek garble; bodyLine 459 is the Prolegomena start (Ordo col 9), the Greek text proper begins col 11 (line 489)."
+  ]
+}

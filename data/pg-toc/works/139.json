@@ -1,0 +1,460 @@
+{
+  "volume": 139,
+  "source": "archive.org patrologia-volumes 139_djvu.txt",
+  "listSource": "ordo-rerum",
+  "elenchusLines": "110380-111316 (full closing Ordo Rerum, OCR lines; elenchus/139.txt holds only 111256-111316)",
+  "colMap": "cols 15-1452 (pg-colfind --stats); 718 anchors",
+  "entries": [
+    {
+      "author": "ISIDORUS THESSALONICENSIS EPISCOPUS",
+      "title": "Notitia",
+      "kind": "editorial",
+      "elenchusCol": "9",
+      "bodyCol": null,
+      "bodyLine": null,
+      "colStatus": "unlocated",
+      "greek": "unknown",
+      "note": "OCR body begins at col 15 mid-sentence (running head ISIDORI THESSALONICENSIS); cols 9-14 are not in the OCR text. Searched lines 1-230 and NOTITIA hits."
+    },
+    {
+      "author": "ISIDORUS THESSALONICENSIS EPISCOPUS",
+      "title": "Sermones (In Nativitatem, In Praesentationem, In Annuntiationem, In Dormitionem B. Virginis Mariae)",
+      "kind": "work",
+      "elenchusCol": "14",
+      "bodyCol": null,
+      "bodyLine": null,
+      "colStatus": "unlocated",
+      "greek": "yes",
+      "note": "Collection head at col 14 is not in the OCR (body starts col 15 inside Sermo I). Parts are from the Ordo; bodyColObserved is a bonus look at the body head, not a full confirmation. Editorial 'In sequentem sermonem editoris Patrologiae monitum' at line 7995 (col 117/118) is not in the Ordo.",
+      "parts": [
+        {
+          "title": "Sermo I. In Nativitatem B. Mariae Virginis",
+          "ordoCol": "(none printed in OCR; Ordo line 110391 has no number)",
+          "colStatus": "ordo-only",
+          "bodyColObserved": null,
+          "note": "head not in OCR (cols 9-14 missing); running head 'SERMO IN NATIVITATEM B. V. MARIAE' from col 15"
+        },
+        {
+          "title": "Sermo II. In Praesentationem B. V. Mariae",
+          "ordoCol": "39",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 39,
+          "bodyLine": 2034
+        },
+        {
+          "title": "Sermo III. In Annuntiationem ejusdem B. Mariae",
+          "ordoCol": "(none readable)",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 73,
+          "bodyLine": 4152
+        },
+        {
+          "title": "Sermo IV. In Dormitionem B. Mariae Virginis",
+          "ordoCol": "118",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 118,
+          "bodyLine": 8014
+        }
+      ]
+    },
+    {
+      "author": "NICETAS MARONIENSIS",
+      "title": "Hergenroetheri Monitum (De Niceta ejusque dialogis)",
+      "kind": "editorial",
+      "elenchusCol": "166",
+      "bodyCol": 166,
+      "bodyLine": 11660,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Page 165|166; head 'DE NICETA EJUSQUE DIALOGIS' under 'NICETAS MARONEAE THESSALONICENSIS METROPOLITA'."
+    },
+    {
+      "author": "NICETAS MARONIENSIS",
+      "title": "Dialogi de processione Spiritus Sancti",
+      "kind": "work",
+      "elenchusCol": "(Ordo number lost: 'an' / '1')",
+      "bodyCol": 169,
+      "bodyLine": 11748,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Title block at col 169/170 (line 11748, Greek head then Latin 'SERMONES VARII IN DIALOGI FORMA CONSCRIPTI'). Parts from Ordo; ordoCol as read, body locations observed in note: Proemium 169/170 (l.11788), I 173/174 (l.12032), II 202 (l.14116), III 211/212 (l.14762), IV 211/212 (l.14854), V 215/216 (l.15060), VI 215/216 (l.15145).",
+      "parts": [
+        {
+          "title": "Procemium",
+          "ordoCol": "1170",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dialogus primus",
+          "ordoCol": "114",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dialogus secundus",
+          "ordoCol": "202",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dialogus tertius",
+          "ordoCol": "211",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dialogus quartus",
+          "ordoCol": "211",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dialogus quintus",
+          "ordoCol": "215",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dialogus sextus",
+          "ordoCol": "215",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "JOANNES CITRI",
+      "title": "Responsa canonica (memorantur tantum)",
+      "kind": "crossref",
+      "elenchusCol": "222",
+      "bodyCol": 222,
+      "bodyLine": 15588,
+      "colStatus": "agree",
+      "greek": "unknown",
+      "note": "'Vide Patrologiae hujusce Graecae tom. CXIX, col. 959.' Printed in another volume.",
+      "crossRefVolume": 119,
+      "crossRefCol": 959
+    },
+    {
+      "author": "MARCUS PATRIARCHA ALEXANDRINUS",
+      "title": "Quaestiones et responsa (memorantur)",
+      "kind": "crossref",
+      "elenchusCol": "9:2 (garbled)",
+      "bodyCol": 222,
+      "bodyLine": 15600,
+      "colStatus": "elenchus-garbled",
+      "greek": "unknown",
+      "note": "Ordo digit garbled; body head is at page 221|222. 'Vide ibid., col. 1031' (ibid. = tom. CXIX).",
+      "crossRefVolume": 119,
+      "crossRefCol": 1031
+    },
+    {
+      "author": "JOEL CHRONOGRAPHUS",
+      "title": "Notitia",
+      "kind": "editorial",
+      "elenchusCol": "£ (garbled)",
+      "bodyCol": 223,
+      "bodyLine": 15616,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Oudin's notice; head after running head 'JOELIS 224' (page 223|224)."
+    },
+    {
+      "author": "JOEL CHRONOGRAPHUS",
+      "title": "Chronographia compendiaria",
+      "kind": "work",
+      "elenchusCol": "235",
+      "bodyCol": 223,
+      "bodyLine": 15646,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Head (Greek 'IWHAOY XPONOGRAPHIA', then 'JOELIS CHRONOGRAPHIA COMPENDIARIA') is on page 223|224. Ordo reads 235, which falls inside the work itself (OCR page '235' at line 16457), so a misreading of 223/225 is likely; body decides."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Notitia (ex Leonis Allatii Diatriba de Nicetis)",
+      "kind": "editorial",
+      "elenchusCol": "(title lost; 287)",
+      "bodyCol": 287,
+      "bodyLine": 20480,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Ordo line reads 'rari 287' with the title garbled; body NOTITIA follows page '287' (OCR '387')."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Epistola nuncupatoria (ad Julium Mazarinum)",
+      "kind": "editorial",
+      "elenchusCol": "4 (garbled)",
+      "bodyCol": 301,
+      "bodyLine": 20969,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Ordo reads 'pistolae nuncupatoria. 4'; body head at page 301|302 (Greek+Latin title block of the Historia precedes the dedication). Hieronymi Wolfii Praefatio (cols 303-308) is not in the Ordo."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Fabroti Breviarium",
+      "kind": "editorial",
+      "elenchusCol": "310",
+      "bodyCol": 309,
+      "bodyLine": 21335,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Page 309|310. Fabrot's Latin breviary; the Greek lines at 21341-21352 are the Historia's title."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Historia (Nicetae Choniatae Historia)",
+      "kind": "work",
+      "elenchusCol": "319",
+      "bodyCol": 319,
+      "bodyLine": 21832,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head then 'NICETAE CHONIATAE HISTORIA'. Ordo prints no separate entry for the Joannes Comnenus section."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "De rebus gestis Manuelis Comneni libri septem",
+      "kind": "work",
+      "elenchusCol": "3:8",
+      "bodyCol": 377,
+      "bodyLine": 28195,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 377|378 (OCR '3TI ... 318'); Ordo 378 for both the work and Liber I. Parts from the Ordo. OCR page duplication around Liber II (see problems).",
+      "parts": [
+        {
+          "title": "Liber primus",
+          "ordoCol": "378",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber II",
+          "ordoCol": "406",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber III",
+          "ordoCol": "£33",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber IV",
+          "ordoCol": "Hi]",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber V",
+          "ordoCol": "494",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber VI",
+          "ordoCol": "519",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber VII",
+          "ordoCol": "34T",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Imperium Alexii Comneni Porphyrogeniti, Manuelis imperatoris filii",
+      "kind": "work",
+      "elenchusCol": "EYE (garbled)",
+      "bodyCol": 573,
+      "bodyLine": 45218,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Head follows page header '$13 DE MANUELE COMNENO LIB. VII. 574' (573|574). Page numbers are lost in cols ~564-579 so this is inferred from that header."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Imperium Andronici Comneni (Liber I, Liber II)",
+      "kind": "work",
+      "elenchusCol": "an (garbled; Liber I)",
+      "bodyCol": 629,
+      "bodyLine": 48800,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Page 629|630 (OCR '621' at line 48728, 9->1; next pages 631, 633). Parts from the Ordo.",
+      "parts": [
+        {
+          "title": "Liber I",
+          "ordoCol": "an",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber II",
+          "ordoCol": "6:4",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 674,
+          "bodyLine": 51968
+        }
+      ]
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Imperium Isaacii Angeli (Liber I-III)",
+      "kind": "work",
+      "elenchusCol": "(Ordo line mostly lost)",
+      "bodyCol": 717,
+      "bodyLine": 55393,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo shows only 'Imperii Isaaci Angeli Liber III' with no number (lines 110448-110450). Page 717|718 inferred from the run of page numbers 699, 701, 703/704, 705, 707/708, 709/710, 715/716 before it (OCR garbles). Liber II at line 58379, Liber III at 60078 (heads only).",
+      "parts": [
+        {
+          "title": "Liber III",
+          "ordoCol": "(none readable)",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Imperium Alexii Comneni fratris Isaacii Angeli (Liber I-III)",
+      "kind": "work",
+      "elenchusCol": "(not read in Ordo)",
+      "bodyCol": 823,
+      "bodyLine": 62691,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Not legible in the Ordo. Page 823|824 (OCR '823'). Liber II at line 64958, Liber III at 66861."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Isaacii Angeli una cum Alexio filio iteratum imperium",
+      "kind": "work",
+      "elenchusCol": "930",
+      "bodyCol": 929,
+      "bodyLine": 71487,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 929|930; Greek head 'BAZIAEIA DEUTERA' at 71487, Latin at 71493."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Imperium Alexii Ducae cognomento Murzufli",
+      "kind": "work",
+      "elenchusCol": "9iT",
+      "bodyCol": 947,
+      "bodyLine": 72598,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 947|948; Ordo '9iT' = 947."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Liber de rebus gestis post urbem captam",
+      "kind": "work",
+      "elenchusCol": "957",
+      "bodyCol": 967,
+      "bodyLine": 73966,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Body head on page 967|968. Ordo 957 falls inside the preceding work (Alexius Ducas, cols 947-966), so it is garbled."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Narratio de statuis quas Franci Constantinopoli destruxerunt post captam urbem",
+      "kind": "work",
+      "elenchusCol": "1o? (last digit garbled)",
+      "bodyCol": 1053,
+      "bodyLine": 78316,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Page 1053|1054; Ordo '1o?' is consistent with 105x."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Chronologia Nicetae",
+      "kind": "editorial",
+      "elenchusCol": "105i",
+      "bodyCol": 1057,
+      "bodyLine": 78703,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Ordo '105i' (last digit unreadable) is consistent with 1057 (7->i). OCR page duplication here (second copy at line 80151); first occurrence given. Fabrot's apparatus (chronological table, quae annorum ab eo descriptorum)."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Glossarium Fabroti",
+      "kind": "editorial",
+      "elenchusCol": "1903",
+      "bodyCol": 1063,
+      "bodyLine": 80570,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '1903' is consistent with 1063. The Glossarium title block (with 'IN QUO VOCABULA GRAECO-BARBARA EXPLICANTUR') first occurs at line 80570, after a duplicated block; an earlier run of Glossarium pages at 79084 begins mid-text (page 1065|1066) without the title, and duplicates the Chronologia (second copy at 80151). See problems."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Thesaurus orthodoxae fidei",
+      "kind": "work",
+      "elenchusCol": "10% (garbled)",
+      "bodyCol": 1087,
+      "bodyLine": 82543,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Title block 'NICETAE CHONIATAE ... THESAURUS ORTHODOXAE FIDEI' on page 1087|1088. Parts from the Ordo (only books whose lines survive; Libri II and IV lost in the OCR; chapter lists not parts).",
+      "parts": [
+        {
+          "title": "Liber primus. De philosophorum ethnicorum et judaeorum erroribus (Procemium)",
+          "ordoCol": "qt / 1 (garbled)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber III. De Verbi incarnatione",
+          "ordoCol": "41199",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber V. Adversus Arianos, Eunomianos, etc.",
+          "ordoCol": "1361",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Epistola nuncupatoria (P. Morellii ad Joannem a S. Andrea)",
+      "kind": "editorial",
+      "elenchusCol": "4087",
+      "bodyCol": 1087,
+      "bodyLine": 82556,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Ordo '4087' (1->4). Morelli's letter, page 1087|1088."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Monitum card. Angelo Mai",
+      "kind": "editorial",
+      "elenchusCol": "1091",
+      "bodyCol": 1091,
+      "bodyLine": 82697,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Page 1091|1092."
+    },
+    {
+      "author": "NICETAS CHONIATES",
+      "title": "Index librorum quibus constat thesaurus orthodoxae fidei",
+      "kind": "editorial",
+      "elenchusCol": "403i (garbled)",
+      "bodyCol": 1093,
+      "bodyLine": 82736,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only",
+      "note": "Page 1093|1094; Ordo '403i' consistent with 1093. Greek index with Latin heading."
+    }
+  ],
+  "problems": [
+    "No front Elenchus; list is the closing Ordo Rerum (heavily garbled by OCR).",
+    "OCR body begins at col 15 mid-Sermo I: Isidorus' Notitia (col 9) and Sermo I/ 'Sermones' head (col 14) are not in the OCR text.",
+    "Ordo omits or lost (not entered): Hier. Wolfii Praefatio (cols 303-308), editorial 'In sequentem sermonem' Monitum at col 117/118, Isaac Angelus Liber I-II lines, Alexius III line, Thesaurus Libri II & IV lines.",
+    "OCR page duplication: block at lines 30168-30200 repeats at 31630-31660 (Manuel Liber II, col 405/406); Chronologia and Glossarium duplicated (78703 vs 80151; 79084 vs 80570). First occurrences given, except Glossarium (title block only at 80570).",
+    "pg-colfind 'col ≈N' lags badly in cols ~564-720 and ~1060-1065 (page numbers lost); reigns at 573, 629, 717 were inferred from neighbouring page-number lines and headers, not directly read.",
+    "Ordo columns for Manuelis Liber III/IV/VII and Thesaurus books are garbled; parts carry ordoCol as read and are not body-confirmed."
+  ]
+}

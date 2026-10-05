@@ -1,0 +1,324 @@
+{
+  "volume": 141,
+  "source": "archive.org patrologia-volumes 141_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "260-334 (front Elenchus, which prints NO columns) plus closing Ordo Rerum 108525-108610 (cross-check list; it supplies the ordoCol values)",
+  "colMap": "cols 11-1424 (pg-colfind --stats)",
+  "entries": [
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Notitia ex Bibliotheca Fabricii (ed. Harles)",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "ordoCol": "",
+      "bodyCol": 11,
+      "bodyLine": 337,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints 'col.' with no number; the Ordo gives no column. First text page of the volume (OCR anchor 11 at line 435; head 'NOTITIA IN JOANNEM VECCUM' at line 337 before it)."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "De unione Ecclesiarum veteris et novae Romae (ex Leonis Allatii Graecia orthodoxa)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "13",
+      "bodyCol": 13,
+      "bodyLine": 609,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 13|14 (header 'NOTITIA 14' at line 522). Greek head at line 596-602, Latin 605-609."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "De processione Spiritus sancti",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "157",
+      "bodyCol": 157,
+      "bodyLine": 10867,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 157|158 (headers 155|156 above; Greek head at 10858-10861)."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Epistola ad Agallianum Magnae Ecclesiae diaconum",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "275",
+      "bodyCol": 275,
+      "bodyLine": 19163,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 275|276."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Sententia synodalis",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "284",
+      "bodyCol": 281,
+      "bodyLine": 19562,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '284'. Body head (Greek 19562, Latin 19568) lies after the 275|276 header and before the 283|284 header (line 19656), on about page 281|282 (OCR '232' at line 19540). Ordo 4<-1 misread likely; body decides, but the page is inferred from the neighbours, not read."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Ad Theodorum Sugdeae episcopum libri tres",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "289",
+      "bodyCol": 289,
+      "bodyLine": 20130,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Libri II and III heads at lines 21510 and 22572. Page 289|290."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Ad Constantinum libri quatuor",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "337",
+      "bodyCol": 337,
+      "bodyLine": 23631,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 337|338. Libri II-IV heads at 24897, 26031-26062, 26971."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Adversus Andronicum Camaterum (Refutationes in Camateri animadversiones, with the patristic dicta)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "595",
+      "bodyCol": 395,
+      "bodyLine": 27821,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo reads '595' (In Camaterii animadversiones). Body head (Greek TOY AYTOY at 27821, Latin 'REFUTATIONES ADVERSUS ANDRONICI CAMATERI ANIMADVERSIONES' at 27839) is on page 395|396 (OCR '855','496' at lines 27779-27785, 3->8, 3->5); 595 falls inside the same work's patristic extracts. The extracts run on to col ~613."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Epigraphae sive praescriptiones in dicta ac sententias sanctorum Patrum de processione Spiritus sancti",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "613",
+      "bodyCol": 613,
+      "bodyLine": 44944,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 613|614 (header 'EPIGRAPHAE 614' at line 44937). The Elenchus gives no column; Ordo '613'."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Refutatio libri Photii de processione Spiritus sancti (ed. J. Hergenroether, ex ms. Laurentiano)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "125",
+      "bodyCol": 725,
+      "bodyLine": 55035,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '125' (7->1). Head follows OCR anchor 726 (line 55025); page 725|726."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Refutatio libri Georgii Cyprii",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "865",
+      "bodyCol": 865,
+      "bodyLine": 65503,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 865|866 (anchor 866 at line 65539; Greek head 65503-65507)."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "De pace ecclesiastica fragmentum",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "925",
+      "bodyCol": 925,
+      "bodyLine": 71143,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 925|926 (anchor 926 at line 71123)."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Epistola ad Joannem Papam cum professione fidei et recognitione primatus",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "913",
+      "bodyCol": 943,
+      "bodyLine": 72206,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '913' (4->1; the piece precedes De depositione, ordo 940). Body page 943|944 (OCR '943' at line 72194)."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "De depositione sua orationes (Oratio I, Oratio II)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "940",
+      "bodyCol": 949,
+      "bodyLine": 72665,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '940' for Oratio I (9->0); body page 949|950 (OCR '91)' at line 72630, '951' at 72755). Oratio II head (Greek 74196, Latin 74203) is at col 969 (ordo 969).",
+      "parts": [
+        {
+          "title": "Oratio I",
+          "ordoCol": "940",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 949,
+          "bodyLine": 72665
+        },
+        {
+          "title": "Oratio II",
+          "ordoCol": "969",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 969,
+          "bodyLine": 74196
+        }
+      ]
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Apologia",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "1009",
+      "bodyCol": 1009,
+      "bodyLine": 77395,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 1009|1010 (anchor 1009 at line 77297)."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "De libris suis (De omnibus suis libris et scriptionum suarum consensione animadversio)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "1019",
+      "bodyCol": 1019,
+      "bodyLine": 78054,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo reads 'Tn suis, 1019'. Page 1019|1020."
+    },
+    {
+      "author": "JOANNES VECCUS CP. PATRIARCHA",
+      "title": "Testamentum",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "1027",
+      "bodyCol": 1027,
+      "bodyLine": 78645,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 1027|1028."
+    },
+    {
+      "author": "CONSTANTINUS MELITENIOTA, MAGNAE ECCLESIAE CHARTOPHYLAX",
+      "title": "De ecclesiastica unione Latinorum et Graecorum et de processione Spiritus sancti per Filium orationes duae",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "105f (garbled)",
+      "bodyCol": 1031,
+      "bodyLine": 78871,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo reads '105f' for Oratio I (3->5, 1->f) = 1031: pages 1029 (OCR '1229'), 1030, then header '1231 CONSTANTINI MELITENIOTAE 1039' = 1031|1032 at line 78808, title block at 78865-78894. Oratio II: Ordo '1159'; Greek head at line 86429, page ~1139 (OCR '1135' at 86145; the map puts anchor 1157 much later at line 87664), so Ordo '1159' is 1139 with 3->5.",
+      "parts": [
+        {
+          "title": "Oratio I",
+          "ordoCol": "105f",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 1031,
+          "bodyLine": 78871
+        },
+        {
+          "title": "Oratio II",
+          "ordoCol": "1159",
+          "colStatus": "ordo-only",
+          "bodyColObserved": 1139,
+          "bodyLine": 86429
+        }
+      ]
+    },
+    {
+      "author": "GEORGIUS METOCHITA, MAGNAE ECCLESIAE DIACONUS",
+      "title": "Contra Maximum Planudem (Refutatio trium capitum a Maximo Planude monacho editorum)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "17:3 (garbled)",
+      "bodyCol": 1275,
+      "bodyLine": 96587,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '17:3' (=1273 or 1275). Page 1275|1276 (headers 1273|1274 at 96450-96456, next 1277 at 96612), shared with the Notitia (line 96544, Ordo '12753'), which the Elenchus omits."
+    },
+    {
+      "author": "GEORGIUS METOCHITA, MAGNAE ECCLESIAE DIACONUS",
+      "title": "Contra Manuelem Cretensem",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "1301",
+      "bodyCol": 1307,
+      "bodyLine": 98818,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '1301' (7->1). Page 1307|1308 (OCR '1301','1308' at lines 98803-98809; Greek head 98818)."
+    },
+    {
+      "author": "GEORGIUS METOCHITA, MAGNAE ECCLESIAE DIACONUS",
+      "title": "Fragmentum ex libris de processione Spiritus sancti (ex libro IV; ex libro V; ex eodem libro)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "",
+      "bodyCol": 1405,
+      "bodyLine": 107240,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Neither list gives a column. Greek head at 107240 (libro IV), 107777 (libro V, page ~1413-1414), 108125 ('Fragmentum alterum ex eodem libro', page ~1419). Page 1405|1406 inferred from the header at line 107170."
+    },
+    {
+      "author": "GEORGIUS METOCHITA, MAGNAE ECCLESIAE DIACONUS",
+      "title": "De unione Ecclesiarum (fragmentum)",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "",
+      "bodyCol": 1419,
+      "bodyLine": 108211,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Neither list gives a column. Page 1419|1420 (OCR '1419','1420' at lines 108181-108187)."
+    },
+    {
+      "author": "GEORGIUS METOCHITA, MAGNAE ECCLESIAE DIACONUS",
+      "title": "De dissidio Ecclesiarum fragmenta duo historica",
+      "kind": "work",
+      "elenchusCol": "",
+      "ordoCol": "1421",
+      "bodyCol": 1421,
+      "bodyLine": 108348,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 1421|1422."
+    }
+  ],
+  "problems": [
+    "The Elenchus of PG 141 prints no column numbers; ordoCol is read from the closing Ordo Rerum (OCR garbled), and colStatus compares the body column with the Ordo. elenchusCol is left empty throughout.",
+    "Not entered (apparatus the Elenchus omits): Georgius Metochita's Notitia (Ordo '12753', line 96544, page 1275); Hieronymus/Allatius notes inside Veccus; the 'EPIGRAPHE... ' sub-lists.",
+    "Several body pages carry no readable number (cols ~277-283, ~397-613, ~1405-1419): columns there are inferred from neighbouring OCR headers and the pg-colfind map, which lags (col ≈N is often a page or more behind).",
+    "Sententia synodalis (281 vs Ordo 284) and the Oratio II of Constantinus (1139 vs Ordo 1159) rest on inference from page headers, not on a read number.",
+    "Ordo digit misreads here: 7->1 (125 for 725, 1301 for 1307, 913 for 943 = 4->1), 3->5 (595 for 395, 1159 for 1139, 105f for 1031), 9->0 (940 for 949)."
+  ]
+}

@@ -1,0 +1,283 @@
+{
+ "volume": 145,
+ "source": "archive.org patrologia-volumes 145_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "219-266",
+ "colMap": "cols 4-1393 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "MATTHAEUS BLASTARES HIEROMONACHUS",
+   "title": "Syntagma Canonum (Continuatio)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 273,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Title block 'MATTHAI BLASTARIS SYNTAGMA CANONUM ... CONTINUATUR' at OCR line 273, on the opening page of text; OCR carries no page numbers before anchor 4, so bodyCol not stated. Ordo reads 'INITIUM LITTERA M. 9' (possibly 3 misread; unsettled). Continuation runs through letters M-Q (alphabetical running head 'SYNTAGMA ALPHABETICUM'), ending near col 212. Greek and Latin side by side."
+  },
+  {
+   "author": "MATTHAEUS BLASTARES HIEROMONACHUS",
+   "title": "Carmina de officiis Ecclesiae et aulae Cpolitanae",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 211,
+   "bodyLine": 15620,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Body prints only a title block 'MATTHAI BLASTARIS CARMINA DUO DE OFFICIIS ECCLESIAE ET AULAE C P.' (line 15741) with 'Exstant in notis Goari ad Codinum. Vide tom. CLVII, col. 129' - printed in another volume. Running head 'MATTHAEI BLASTARIS CARMINA DUO' at line 15620 on page 211|212; title block at 15741 precedes Theodulus' title page (213). Ordo column illegible ('P.').",
+   "crossRefVolume": 157,
+   "crossRefCol": 129
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Notitia historica et litteraria, ex Cave De script. eccles.",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 213,
+   "bodyLine": 15765,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Ordo reads 213, agrees. Page numbers 213/214 are lost in the OCR (next anchor 215)."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Laudatio S. Gregorii Theologi, ex ed. Laur. Noemanni, Upsal. 1003 [year as OCR reads]",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 215,
+   "bodyLine": 15805,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Running head 'THEODULI MONACHI' line 15805, Greek head line 15811. Ordo reads 215, agrees."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Oratio pro Chandreno, ex cod. Reg. 2699, cum interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 353,
+   "bodyLine": 25431,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Page header 353|354; Greek head line 25437. Ordo reads 353, agrees."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Oratio gratulatoria ad Angelum Stratopedarcham, ed. Laur. Nini [OCR; name uncertain]",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 373,
+   "bodyLine": 26910,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Page header 373|374 (OCR '313' at line 26907); Greek head line 26933. Ordo reads 373, agrees."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Oratio gratulatoria ad magnum logothetam Metochitam, ex ejusdem editione",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 381,
+   "bodyLine": 27349,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Head and Greek title at lines 27349-27376, page 381|382 (anchor 381 at line 27346). Ordo reads 384; body places the head three columns earlier, and the next oration (Niphon) is at 389, which fits 381 (8 columns); Ordo digit judged garbled (1 read as 4, a misread seen elsewhere in this Ordo)."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Oratio gratulatoria ad Niphonem patriarcham, ex eadem",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 389,
+   "bodyLine": 27866,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Page header 389|390. Ordo reads 389, agrees."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Laudatio regis Cypri, ex eodem",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 397,
+   "bodyLine": 28293,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Running head 'LAUDATIO REGIS CYPRI' line 28293 (page 397|398); Greek head line 28300. Ordo reads 397, agrees."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Epistolae",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 403,
+   "bodyLine": 28684,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Page header 403|404 line 28684, head 'EPISTOLAE' line 28730. Nine letters; parts from the Ordo only, not body-confirmed.",
+   "parts": [
+    {
+     "title": "I. Magno Logothetae, Metochitae",
+     "ordoCol": "403",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "II. Eidem",
+     "ordoCol": "411",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "III. Tricanae, erarii minoris quaestori",
+     "ordoCol": "411",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IV. Eidem",
+     "ordoCol": "415",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "V. Magno Logothetae",
+     "ordoCol": "419",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VI. Eidem",
+     "ordoCol": "423",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VII. Sapientissimi viri Nicephori Gregorae epistola ad Magistrum",
+     "ordoCol": "426",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VIII. Magistri epistola responsoria",
+     "ordoCol": "430",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IX. Angelis aequali Patri et philosopho Josepho (de Catalanorum et Turcorum per Macedoniam et Thessaliam incursione)",
+     "ordoCol": "431",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Oratio de regis officiis, ad Andronicum II Palaeologum, ex edit. Rom., cum interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 447,
+   "bodyLine": 31540,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Greek head line 31540 and Latin title 31559-31565 on page 447|448 (anchors 447, 448 at lines 31531, 31537). Ordo reads 'A41' (garbled; 441 or 447). A running head 'ORATIO DE REGIS OFFICIIS' already appears at line 31395 on page 445|446, apparently on the tail of Epistola IX; the title block itself is at 447. Treated as 447 on the strength of the title block."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Oratio de subditorum officiis",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 495,
+   "bodyLine": 34718,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Greek head 'HEPI POLITEIAS' line 34719, Latin head line 34727, page 495|496. Ordo reads 495, agrees."
+  },
+  {
+   "author": "THEODULUS MONACHUS, ALIAS THOMAS MAGISTER",
+   "title": "Tituli orationum Theoduli",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 547,
+   "bodyLine": 37970,
+   "colStatus": "body-only",
+   "greek": "greek-only",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Head 'EJUSDEM THEODULI ... TITULI ORATIONUM ALIO TEMPORE EDENDARUM' at line 37970, a list of Greek titles after the end of De subditorum officiis (running head at line 37930), on page 547|548 (page headers OCR'd 347/348). Not listed in the Ordo. Has a short Latin footnote."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Notitia historico-litteraria ex Bibliotheca Fabricii",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 549,
+   "bodyLine": 38018,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Head 'NOTITIA EX FABRICIO' line 38018; Ordo reads 549, agrees; page 549|550 (551|552 header at line 38094)."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Ecclesiasticae Historiae libri I-VII (Elenchus; the work is libri XVIII, Tomus prior)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 557,
+   "bodyLine": 38483,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. General title page ('NICEPHORI CALLISTI XANTHOPULI ECCLESIASTICA HISTORIAE LIBRI XVIII', Greek and Latin) at line 38483, page 557|558. Followed by the Cramoisy dedication to Richelieu (editorial, Ordo 557, not entered). Text of Liber I begins page 603|604 (Greek 'TOMOS PROTOS' line 41487, 'CAPUT I' line 41500). Ordo prints 'Historiae ecclesiasticae libri XVIII. 549' (the same column as the Notitia; not matched in the body). Parts taken from the Ordo, not body-confirmed; Ordo-read 'Liber III 890' and 'Liber IV 978' fit the OCR (Liber III preface text at line 61891, page 891|892 follows; Liber IV begins at the foot of 977|978 after the end-of-Liber-III remark at line 67663).",
+   "parts": [
+    {
+     "title": "Liber I",
+     "ordoCol": "603",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber II",
+     "ordoCol": "751",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber III",
+     "ordoCol": "890",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber IV",
+     "ordoCol": "978",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber V",
+     "ordoCol": "4070 (read as printed in Ordo; =1070)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber VI",
+     "ordoCol": "1134",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber VII",
+     "ordoCol": "1206",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Allocutio encomiastica ad Andronicum Palaeologum (Prooemium, 'super libro Historiae ecclesiasticae')",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 559,
+   "bodyLine": 38563,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus (this volume) prints no columns at all; column taken from body, cross-read against the closing Ordo Rerum. Work listed by the Ordo ('Nicephori Allocutio encomiastica ad Andronicum Paleologum. 559') but omitted by the Elenchus. Greek head 'PROCHRONEMA' lines 38563-38570, Latin head line 38573, page 559|560 (header at line 38527).",
+   "listedIn": "ordo-only"
+  }
+ ],
+ "problems": [
+  "Elenchus of PG 145 prints NO columns; every column is body-derived with the closing Ordo Rerum as cross-check, so no entry is 'agree'. ",
+  "Syntagma (Continuatio): bodyCol 9 is inferred from Ordo (INITIUM LITTERAE M. 9) and adjacency to header 11|12, not read from a page number.",
+  "Carmina duo: only a title block with cross-reference to tom. CLVII col. 129 (Goar's notes to Codinus); entered as crossref; its own column (211 vs 213) not settled.",
+  "Metochitam: Ordo 384 vs body 381; body belief stated in the entry note.",
+  "Oratio de regis officiis: Ordo 'A41' garbled; body title block at 447, but a stray running head at 445 precedes it.",
+  "Ordo prints a Cramoisy dedicatory epistle to Richelieu (557); editorial, omitted by the Elenchus, so not entered.",
+  "The Elenchus says Historiae libri I-VII; the Ordo and body print the full title as libri XVIII (Tomus prior holds books I-VII). Books II-VII heads not individually body-confirmed (parts are Ordo-only per the brief); Liber III and IV title blocks are missing/garbled in the OCR.",
+  "Ordo for Syntagma lists only chapter-level matter by letter, no top-level pieces, so no parts built.",
+  "Elenchus editor names/years ('Laur. Noemanni, Upsal. 1003', 'Laur. Nini') kept as the OCR reads them; not verified."
+ ]
+}

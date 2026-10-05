@@ -1,0 +1,230 @@
+{
+ "volume": 107,
+ "source": "archive.org patrologia-volumes 107_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "240-316 (list ends ~line 299)",
+ "colMap": "cols 4-1172 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Patrologiae Editorum Praefatio de vita et scriptis Leonis imp.",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 320,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Printed 'IN OPERA LEONIS SAPIENTIS / EDITORUM PRAEFATIO' (line 320), signed 'J.-B. M.', Roman-numeral columns before the main sequence. OCR running heads read 'v EDITORUM PRAEFATIO vi' (line 499) and a garbled vii|viii (line 645); the first page is therefore iii|iv by sequence (inferred, not read). bodyCol is null because no Arabic column applies.",
+   "bodyColRoman": "iii (inferred)"
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Vita Leonis imp. auctore Hipp. Maracci, Leonis Mariali prefixa",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 744,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Printed 'PROLEGOMENA / VITA LEONIS IMPERATORIS COGNOMENTO PHILOSOPHI / ex probatis auctoribus collecta cura et studio Hippolyti Maraccii' (line 744). Roman columns: running heads read xiii|xiv at line 1019, xix|xx at 1476, xxi|xxii at 1587, so the head (120 lines before a page marked ~xi at line 855) is on ix|x by sequence (inferred, not read). The Ordo prints the Prolegomena/Vita without a legible column.",
+   "bodyColRoman": "ix (inferred)"
+  },
+  {
+   "author": "BASILIUS I IMPERATOR (printed in the Leo volume)",
+   "title": "Basilii imp., Leonis patris, capita hortatoria ad filium, ex edit. Bandurii, Imp. Orient. tom. I",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 1588,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Greek head ('BASILEIOU TOU ROMAION BASILEOS KEPHALAIA PARAINETIKA PROS TON EAUTOU YION LEONTA') at line 1588, then Latin 'BASILII IMPERATORIS ROMANORUM EXHORTATIONUM CAPITA SEXAGINTA SEX AD LEONEM FILIUM' (line 1605); running head 'XXII' at 1587 (page xxi|xxii). The Ordo prints 'XXI'. Author of the text is Basil I, printed under Leo's volume (Elenchus order). Roman columns.",
+   "bodyColRoman": "xxi"
+  },
+  {
+   "author": "BASILIUS I IMPERATOR (printed in the Leo volume)",
+   "title": "Ejusdem capita altera ad eumdem, ex edit. card. Ang. Mai",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 4499,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Preceded by 'Maii monitum in Paraenesim sequentem' (Monitum, line 4471, Ang. Mai Script. vet. nov. coll. t. II). Head 'ALTERA EXHORTATIO AD FILIUM SUUM LEONEM IMPERATOREM', Greek and Latin side by side (line 4499). Running heads: lv|lvi at line 4389, lix|lx at line 4589, so this page is lvii|lviii by sequence (inferred, not read). Roman columns.",
+   "bodyColRoman": "lvii (inferred)"
+  },
+  {
+   "author": "CONSTANTINUS, Leonis discipulus",
+   "title": "Constantini, Leonis discipuli, versus in magistrum cum interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 4699,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Greek head ('STICHOI EROIKOI KAI ELEGEIAKOI EIS LEONTA PHILOSOPHON KONSTANTINOU MATHETOU AUTOU') at line 4699, Latin 'VERSUS HEROICI ET ELEGIACI IN LEONEM PHILOSOPHUM CONSTANTINI EJUS DISCIPULI'. Running head 'LXI VERSUS IN LEONEM IMP. LXII' at line 4689; the Ordo prints 'LX' (+-1). Greek and Latin in parallel. Roman columns. Followed (line 4781) by more Prolegomena.",
+   "bodyColRoman": "lxi"
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Homiliae et panegyrici XIX, ex edit. Hipp. Maracci, Franc. Combefisii, Jac. Gretseri, Scipionis Maffei, Petri Possini, Henr. Savilii, Baronii",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1,
+   "bodyLine": 4833,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Preceded by the section heading 'OPERUM PARS PRIMA. SCRIPTA THEOLOGICA' (not an entry). Head 'LEONIS PHILOSOPHI OPERUM PARS PRIMA / OPERA THEOLOGICA / HOMILIAE ET PANEGYRICI' (line 4833), then Greek 'LOGOS A' and 'ORATIO I' (Cousgr. Auctar.). The Ordo prints 'HOMILIAE ET PANEGYRICI. 1'. The page header '3 LEONIS PHILOSOPHI 4' falls at line 4960, 127 lines later, so the head is on page 1|2. One entry for all nineteen orations; the Elenchus gives them no columns (Ordo gives Or. I col 3, XIX col 293)."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Preces liturgicae, ex antiqua Collectione liturgica Venetiis edita 1594",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 299,
+   "bodyLine": 27284,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS IMPERATORIS AUGUSTI COGNOMENTO SAPIENTIS / PRECES LITURGICAE' at line 27284, under a page marker '300' (line 27272); page 299|300. The Ordo prints 299. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Canticum compunctionis ex meditatione aeterni judicii, in Anecdotis P. Matrangae, cum interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 309,
+   "bodyLine": 28061,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Greek head ('PSALMION KATANYKTIKON POIEMA KYRIOU LEONTOS PHILOSOPHOU KAI BASILEOS') at line 28061, Latin 'CANTICUM COMPUNCTIONIS DOMINI LEONIS PHILOSOPHI ET IMPERATORIS' at 28070, just after a running head 'CANTICUM COMPUNCTIONIS' and page marker '310' (lines 28052-28055): page 309|310. The Ordo prints no legible column for this item. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Epistola ad Omarum Saracenorum regem de fidei Christianae veritate et Mahumetanorum erroribus, ex Biblioth. Patrum Lugdun. edit",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 315,
+   "bodyLine": 28551,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS IMPERATORIS AUGUSTI COGNOMENTO PHILOSOPHI / AD OMARUM SARACENORUM REGEM De fidei Christianae veritate ...' at line 28551, under page marker 316 (line 28542); page 315|316. The Ordo prints '$15' (=315). Latin only (Bibliotheca Patrum Lugdunensis version, no Greek in the OCR)."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Orientalium Episcopatuum Notitiae a Leone Sapiente ad Andronicum Palaeologum, ex edit. Jacobi Goari",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 325,
+   "bodyLine": 29194,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Preceded by the section heading 'OPERUM PARS SECUNDA. SCRIPTA JURIDICA ET CANONICA' (not an entry). Head 'RECENTIORES ORIENTALIUM EPISCOPATUUM NOTITIAE a Francisco Junio primum editae ...' with Gretser's Prooemium at line 29194, on a page with no number in the OCR: page marker 323 at line 29141 (end of the Epistola) and header 327|328 at line 29250, so 325|326 by sequence (inferred, not read). The Ordo prints '329' (probably a misreading of 325; 329|330 is where 'Notitiae Graecorum Episcopatuum a Leone Sapiente' proper begins, line 29337). Goar's 'Lectori' is at 327. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Novellae Constitutiones sive correctoriae legum repurgationes, ex Corpore juris civilis",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 419,
+   "bodyLine": 38061,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS PHILOSOPHI / LEONIS SAPIENTIS NOVELLAE CONSTITUTIONES' with Greek 'AUTOKRATOROS LEONTOS AUGOUSTOU NEARAI DIATAXEIS' (line 38067) and 'PROOEMIUM' (38090) at the foot of the page before page marker 421 (line 38158); page 419|420 by sequence (417|418 header at line 37907; marker 419/420 lost; inferred, not read). Ordo's number for the Novellae is illegible. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Apologia Leonis in qua Constantini discipuli sui calumnias a se repellit",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 659,
+   "bodyLine": 58452,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Elenchus has 'Carmina.' as a sub-heading under 'OPERUM PARS TERTIA' (not an entry). Part title 'LEONIS IMPERATORIS COGNOMENTO SAPIENTIS OPERUM PARS TERTIA CONTINENS CARMINA, SCRIPTA AD REM MILITAREM SPECTANTIA, ORACULA' at 58439-58449 and Greek head 'APOLOGIA LEONTOS PHILOSOPHOU' at line 58452, page 659|660 (header at 58428). Ordo's number lost. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Epigrammata",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 663,
+   "bodyLine": 58735,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS PHILOSOPHI EPIGRAMMATA' at line 58735; page 663|664 (page marker 663 at line 58684). The Ordo prints '$08', which reads as neither 663 nor 668. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "KAPKINOI",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 665,
+   "bodyLine": 58955,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Printed 'LEONTOS TOU PHILOSOPHOU KAPKINOI' at line 58955-58956 with Leo Allatius citation. Page numbers 665|666 are lost in the OCR: marker 663 at line 58684, then a marker OCR'd '661' (read as 667) at line 59058; the head sits on the page between, so 665|666 by sequence (inferred, not read). Ordo lists it without a column. Greek and Latin. Preceded by 'FRAGMENTA' (line 58901) belonging to the Epigrammata."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "De martyrio S. Clementis Ancyrani fragmenta metrica",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 665,
+   "bodyLine": 59006,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS IMP. POEMA IAMBICUM DE MARTYRIO S. CLEMENTIS (Episcopi Ancyrani. 25 Januar.)' at line 59006, 52 lines before the page marker OCR'd '661' (read 667, line 59058), so on page 665|666 by sequence (inferred, not read). The Ordo prints 667; the page after 59058 holds the next item, so the Ordo may count the continuation or a Migne misprint. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Fragmenta homiliarum in S. Tryphonem",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 667,
+   "bodyLine": 59094,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS HOMILIAE IN S. TRYPHONEM FRAGMENTA' at line 59094, after the page marker OCR'd '661' (read 667) at line 59058; page 667|668. Followed by 'Fragmenta homiliarum in S. Demetrium' (line 59164), not listed in the Elenchus. Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Tactica, sive de re militari Liber, ex editione Joannis Lamii in recensione operum Meursii Florentiae 1545 edita",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 671,
+   "bodyLine": 59365,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'LEONIS IMPERATORIS TACTICA / PROOEMIUM' with Greek 'TACTICORUM INDEX' (line 59331) at line 59365 under header '671 LEONIS PHILOSOPHI 672' (line 59315). Preceded by Meursius's dedication and 'Lector benigne' (cols 669-670, lines 59255-59303). Greek and Latin. Constitutio I begins at col 679 (Ordo)."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Appendix ad Tactica. Capitula quaedam ad rem militarem spectantia, ex Mauricii, Constantini et Leonis Tacticis, edita in Programmate academico Turicensi anni 1854",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1095,
+   "bodyLine": 93535,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'AD LEONIS AUGUSTI TACTICA APPENDIX' at line 93535 under header '1095 LEONIS PHILOSOPHI 1096' (line 93531). The Ordo prints 'Ordinationes peditum apud Graecos 1086' (a misreading of 1096, within +-1 of the page). Greek and Latin."
+  },
+  {
+   "author": "LEO IMPERATOR, COGNOMINE PHILOSOPHUS, VEL SAPIENS",
+   "title": "Oracula cum figuris et antiqua Paraphrasi, ex editione Petri Lambecii",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1121,
+   "bodyLine": 95483,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column for any item (only empty 'pag.' / 'col.' headers). Head 'ORACULA CUM FIGURIS ET ANTIQUA GRAECA PARAPHRASI. LECTORI PETRUS LAMBECIUS' at line 95483, under header '1121 ORACULA. VETERUM TESTIMONIA 1122' (line 95474). Greek paraphrase and Latin; the figures themselves appear at cols 1123-1172."
+  }
+ ],
+ "problems": [
+  "Elenchus prints no column for any item; every column is body-only, cross-checked against the closing Ordo Rerum, whose digits are often garbled.",
+  "Items 1-5 sit in the preliminary Roman-numeral columns; the OCR's roman page numbers are badly broken, so bodyCol is null and bodyColRoman is inferred from sequence (iii, ix, xxi, lvii, lxi), not read.",
+  "Pars secunda Notitiae (325), Novellae (419), Kapkinoi and S. Clementis (665) rest on sequence, because the page numbers in those spans are missing from the OCR.",
+  "Elenchus sub-heading 'Carmina.' under Pars tertia is treated as a section heading (no column), not an entry; the Elenchus does not list it with a column and lists the carmina individually.",
+  "Ordo prints 667 for Clementis, but its head is 52 lines before the page marker OCR'd '661' (667); unresolved whether the Ordo counts the continuation column."
+ ]
+}

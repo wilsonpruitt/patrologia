@@ -1,0 +1,546 @@
+{
+  "volume": 151,
+  "source": "archive.org patrologia-volumes 151_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "235-413",
+  "colMap": "cols 1-1371 (pg-colfind --stats; sparse, 517 anchors)",
+  "entries": [
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Homiliae quadraginta tres, ex editione Hierosolymitana anni 1837",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1,
+      "bodyLine": 437,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column; Ordo reads Hom. I as '9' (OCR). Body: title block (line ~446 'HOMILIAE QUADRAGINTA UNA', Greek head line ~437 OMIAIA A') precedes the OCR's first page-number line (col 1); Hom. II head at col ~15, so Hom. I cannot reach 9 and Ordo '9' is read as garble for 1 (inferred). Title page says quadraginta UNA, Elenchus and Ordo say XLIII. Parts are Ordo-only; ordoCol as read ('' = Ordo prints none, many are garbled).",
+      "parts": [
+        {
+          "title": "Homilia I. De pace ad invicem servanda, dicta post tertiam diem Adventus apud Thessalonicam",
+          "ordoCol": "9",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia II. In parabolam de Publicano et Pharisaeo",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia III. In parabolam Domini de salute filii prodigi",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia IV. In Evangelium secundi adventus Christi et de misericordia et beneficentia",
+          "ordoCol": "41",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia V. In praesentationem Domini; de castimonia vitioque ei contrario",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia VI. Ejusdem homilia exhortatoria ad jejunium, dicta feria quarta primae hebdomadis",
+          "ordoCol": "73",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia VII. Altera de jejunio",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia VIII. De fide pisque fidei confessione",
+          "ordoCol": "93",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia IX. In tempore jejunii et orationis",
+          "ordoCol": "108",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia X. Secunda sanctae Quadragesimae Dominica habita (Paralyticus; contra eos qui indecenter in ecclesia confabulantur)",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XI. In gloriosam ac vivificam crucem Domini nostri Jesu Christi",
+          "ordoCol": "133",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XII. In Evangelium quartae Quadragesimae Dominicae, et in necessitatem suis invigilandi cogitationibus",
+          "ordoCol": "145",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XIII. In quinta jejuniorum Dominica, in qua etiam tractat de eleemosyna",
+          "ordoCol": "51",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XIV. In Annuntiationem immaculatae Dominae nostrae Deiparae semperque virginis Mariae",
+          "ordoCol": "165",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XV. Dicta in Dominica Palmarum",
+          "ordoCol": "477",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XVI. De dispensatione incarnationis Domini nostri Jesu Christi (Sabbato habita fuit)",
+          "ordoCol": "89",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XVII. In qua ostenditur Sabbati et Dominicae mysterium; in Evangelium primae post Pascha Dominicae",
+          "ordoCol": "219",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XVIII. In Dominicam Myrophororum; et quod prima Dominum ex mortuis redivivum vidit Deipara",
+          "ordoCol": "253",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XIX. In evangelium de Samaritide, et quod oporteat praesentia contemnere",
+          "ordoCol": "i7",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XX. In matutinum octavum evangelium secundum Joannem; de magnis charismatibus",
+          "ordoCol": "29$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXI. In Ascensionem Domini et Salvatoris nostri Jesu Christi",
+          "ordoCol": "27$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXII. In eamdem festivitatem; etiam de vitiis et virtutibus",
+          "ordoCol": "25",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXIII. In decimam matutinum evangelium; de bello sensibili et spirituali adversus adversarium nostrum",
+          "ordoCol": "1291",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXIV. In manifestationem et dispensationem divini Spiritus in Pentecoste peractam; agitur etiam de poenitentia",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXV. Dicta in Dominica Omnium sanctorum",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXVI. Dicta messis tempore; de messe",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXVII. Dicta etiam tempore messis; de futura nobis messe spirituali",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXVIII. In festo sanctorum et coryphaeorum apostolorum Petri et Pauli",
+          "ordoCol": "35$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXIX. Super sanationem paralytici in Capharnaum secundum Matthaeum; et de tristitia secundum Deum",
+          "ordoCol": "5365",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXX. Super caecos qui secundum Matthaeum visum receperunt; et quod non vera est fides quae est absque poenitentiae operibus",
+          "ordoCol": "575",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXI. Dicta in publica supplicatione",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXII. Ejusdem homilia in Evangelium undecimae Dominicae secundum Matthaeum",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXIII. De virtutibus et eis oppositis passionibus; dicta in supplicatione publica",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXIV. In venerabilem Domini transformationem; ubi probatur quod in ea est lumen increatum esse",
+          "ordoCol": "413",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXV. In eamdem venerandam transformationem",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXVI. In evangelium undecimae Dominicae Matthaei (parabola regis rationem ponentis)",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXVII. In sanctissimam dormitionem Dominae nostrae Deiparae semperque virginis",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXVIII. In primum Matutinum. Quod non sufficit divinum baptisma ad salvandum hominem",
+          "ordoCol": "41$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXIX. Dicta in supplicatione publica propter insolitam mortis plagam",
+          "ordoCol": "¿89",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XL. In venerandum Christi praecursorem et Baptistam Joannem",
+          "ordoCol": "493",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLI. In Evangelium secundum Matthaeum quartae decimae Dominicae; in parabolam invitantem ad nuptias filii",
+          "ordoCol": "518",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLII. In Evangelium secundum Lucam tertia Dominica recitatum (viduae filius suscitatus)",
+          "ordoCol": "5",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLIII. In magnum inter sanctos martyrem et thaumaturgum et myroblytam Demetrium",
+          "ordoCol": "533",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Monumenta quae ad Gregorii Palamae vitam et placita spectant, quibus praemittitur editoris Patrologiae Monitum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 551,
+      "bodyLine": 39628,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Head is MONITUM EDITORIS PATROLOGIAE (line 39628), after page header 551. Ordo gives no column for this item."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Philothei Cpolitani patriarchae Encomium Palamae, edit. Homiliarum Hierosol. praemissum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 551,
+      "bodyLine": 39646,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Greek head line 39646 (page 551/552), Latin running head ENCOMIUM AUCT. PHILOTHEO CP. from line 39681. Ordo reads 'ssi' = 551."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Nili item Cpolitani patriarchae panegyricus seu Encomium Palamae, ex eadem edit. Hierosol.",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 655,
+      "bodyLine": 46957,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column; Ordo reads '658' (OCR), body head (Greek, line 46957) sits between page numbers 655 and 657, so 655 (Ordo 658 read as garble, inferred)."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Tomi Synodici tres in causa Palamitarum, ex libro cui titulus Tomus Agapes ... (Antiochus Constantinopolitanus, 1698 Giessen edition)",
+      "kind": "work",
+      "elenchusCol": "679",
+      "bodyCol": 679,
+      "bodyLine": 48621,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus gives the collection no printed column; first of the detached numbers (679) is read as this item. Ordo reads '655' (garbled; 655 is Nili). Three tomi given as parts, each body-confirmed. Greek head 'ZYNOAIKOS TOMOS' at line 48644. The long Greek colophon ('In fine legitur...') is part of the Elenchus entry.",
+      "parts": [
+        {
+          "title": "Tomus I. Contra Barlaam et Acindynum",
+          "elenchusCol": "619 (garbled; inferred 679)",
+          "bodyCol": 679,
+          "bodyLine": 48621,
+          "colStatus": "elenchus-garbled",
+          "note": "Greek head at 679/680 on the same page as the collection head; Latin running head CONTRA BARLAAM ET ACINDYNUM first at line 48723 (page 681). Elenchus detached number block '679 619 693 1717' read as: Tomi tres 679, Tomus I '619' (garbled), II 693, III 717 (inferred)."
+        },
+        {
+          "title": "Tomus II. Contra Prochorum Cydonium",
+          "elenchusCol": "693",
+          "bodyCol": 693,
+          "bodyLine": 49929,
+          "colStatus": "agree",
+          "note": "Greek head line 49935 on page 693/694 (page '695' follows at line 50056). Ordo reads 698 (3 read as 8, inferred)."
+        },
+        {
+          "title": "Tomus III. Contra Barlaamitas et Acindynianos",
+          "elenchusCol": "717",
+          "bodyCol": 717,
+          "bodyLine": 51661,
+          "colStatus": "agree",
+          "note": "Ordo 717 agrees."
+        }
+      ]
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Gregorii Palamae confessio fidei",
+      "kind": "work",
+      "elenchusCol": "163",
+      "bodyCol": 764,
+      "bodyLine": 57052,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus detached block read as '163' = 763 (7 misread as 1, inferred); Ordo 765. Greek head OMOLOGIA at line 57052 sits at the foot of page 763/764 (page 765 header follows at line 57110), so 764. OCR block reordering: pages 761-766 appear AFTER the Relatio/Antirrhetici pages in the OCR (see problems)."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Relatio pontificum ad Annam Palaeologinam",
+      "kind": "work",
+      "elenchusCol": "161",
+      "bodyCol": 767,
+      "bodyLine": 55871,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus '161' read as 761 or 767 (garbled); Ordo 767 (read '167'); body head ANAPHORA at line 55871 is on the page before header 769. Inferred mapping of detached numbers."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS",
+      "title": "Joannis Cantacuzeni rescriptum confirmans synodalem sententiam contra Joanem Calecam latam",
+      "kind": "work",
+      "elenchusCol": "109",
+      "bodyCol": 769,
+      "bodyLine": 56023,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus '109' read as 769; Ordo 769 (read '169'). Greek head PROSTAGMA line 56023, page 769/770."
+    },
+    {
+      "author": "PHILOTHEUS CPOLITANUS",
+      "title": "Philothei Cpolitani patriarchae contra Gregoram antirrhetici libri XII",
+      "kind": "work",
+      "elenchusCol": "113",
+      "bodyCol": 773,
+      "bodyLine": 56281,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus '113' read as 773; Ordo 173 (read), body title block lines 56278-56299, page 773/774 (page numbers 1713/155 around it = 773/775 garbled)."
+    },
+    {
+      "author": "GREGORIUS PALAMAS (APPENDIX)",
+      "title": "Sermones duo quibus orthodoxos impugnant ii qui Acindyni partes sequuntur (de dicto S. Basilii; de lumine Thaborio)",
+      "kind": "work",
+      "elenchusCol": "1139",
+      "bodyCol": 1139,
+      "bodyLine": 85166,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Body head APPENDIX / LOGOI DYO, line 85166. Ordo reads L138."
+    },
+    {
+      "author": "GREGORIUS PALAMAS (APPENDIX)",
+      "title": "Epilogus",
+      "kind": "editorial",
+      "elenchusCol": "1169",
+      "bodyCol": 1169,
+      "bodyLine": 87431,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Body head EPILOGUS, line 87431; Greek EPILOGOS line 87471. Ordo reads 1M9."
+    },
+    {
+      "author": "GREGORIUS ACINDYNUS MONACHUS ET THEOLOGUS",
+      "title": "De essentia et operatione Dei libri duo, cum interpretatione nostra. Praecedit Jacobi Gretseri editoris Praefatio",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1189,
+      "bodyLine": 88805,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Title block line 88805 (page 1189/1190); Gretseri praefatio at 88820 (Ordo 1189); Liber primus Greek at 1191 (line 88879). Ordo also lists, with no Elenchus counterpart, 'Notitia historica' at 1187 (see problems)."
+    },
+    {
+      "author": "GREGORIUS ACINDYNUS MONACHUS ET THEOLOGUS",
+      "title": "De haeresibus Gregorii Palamae",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": null,
+      "bodyLine": 92883,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Printed here as a cross-reference only: 'Vide tom. CL, col 1813' (OCR; exact col digits uncertain). Placeholder at col 1243/1244 (line 92883). Ordo reads 1245.",
+      "crossRefVolume": 150,
+      "crossRefCol": "1813 (as read)"
+    },
+    {
+      "author": "GREGORIUS ACINDYNUS MONACHUS ET THEOLOGUS",
+      "title": "Epistolae et iambi adhortatorii ad Nicephorum Gregoram",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": null,
+      "bodyLine": 92896,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Printed here as a cross-reference only: 'Vide tom. CXLVIII in Gregorae Vita et Eloaiis' (OCR), no column given. Placeholder at col 1243/1244 (line 92896).",
+      "crossRefVolume": 148,
+      "crossRefCol": ""
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Notitia ex Ang. Zavarroni Bibliotheca Calabra",
+      "kind": "editorial",
+      "elenchusCol": "1243",
+      "bodyCol": 1243,
+      "bodyLine": 92906,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head NOTITIA at line 92906, page 1243/1244 (BARLAAMUS DE SEMINARIA running head)."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Notitia altera ex Fabricii Bibliotheca Graeca",
+      "kind": "editorial",
+      "elenchusCol": "1247",
+      "bodyCol": 1247,
+      "bodyLine": 93106,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Elenchus detached numbers '1943' and '1247' after this item; '1247' read as this item's column ('1943' unassigned, probably 1243 stray). Body: head NOTITIA ALTERA at line 93106, page 1247/1248; Ordo reads 121]."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Cf. in tomo nostro CXLIX, col. 643, Nicephori Gregorae Dialogum cui titulum fecit Florentius",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": null,
+      "bodyLine": null,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Cross-reference note appended to Notitia altera in the Elenchus; not searched in the body.",
+      "crossRefVolume": 149,
+      "crossRefCol": "643"
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Epistolae Barlaami de unione Romanae Ecclesiae et processione Spiritus sancti, pro Latinis (subjectis iis quae in libro De primatu Papae contra eosdem scripserat)",
+      "kind": "work",
+      "elenchusCol": "1955",
+      "bodyCol": 1255,
+      "bodyLine": 93873,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus '1955' (5 to 9 misread of 1255). Body head EPISTOLAE DOMINI BARLAAM at line 93873, page 1255/1256. Parts from the Ordo that the Elenchus does not list separately.",
+      "parts": [
+        {
+          "title": "Epistola D. Barlaami episcopi ad amicos suos in Graecia constitutos de unione sacrosanctae Romanae Ecclesiae",
+          "ordoCol": "1255",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Ejusdem domini Barlaami ad eosdem amicos Graecos, et de primatu Ecclesiae Romanae, et de processione Spiritus sancti",
+          "ordoCol": "1271",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola Alexii Calocheti ad dominum Barlaamum, petens translationem librorum Latinorum",
+          "ordoCol": "1281",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Epistola Demetrii Cydonii ad Barlaamum",
+      "kind": "work",
+      "elenchusCol": "1283",
+      "bodyCol": 1283,
+      "bodyLine": 95931,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head line 95931, page 1283/1284 (the Ordo lists it with no column)."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Barlaam ad Cydonii petita responsio",
+      "kind": "work",
+      "elenchusCol": "1301",
+      "bodyCol": 1301,
+      "bodyLine": 97322,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head line 97322, page 1301/1302. Ordo reads 1801."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Barlaami epistola ad Alexium Calochetum: Graecos esse non solum schismaticos, sed haereticos",
+      "kind": "work",
+      "elenchusCol": "1309",
+      "bodyCol": 1309,
+      "bodyLine": 98006,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head line 98006, foot of page 1309/1310."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Probatio per sacram Scripturam quod Spiritus sanctus et ex Filio est quemadmodum ex Patre",
+      "kind": "work",
+      "elenchusCol": "1313",
+      "bodyCol": 1313,
+      "bodyLine": 98296,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head line 98296 on page 1313/1314 (page 1315 follows at line 98342); Ordo 1315 (within +-2, head at foot of page)."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Barlaami Oratio pro unione Ecclesiarum, Avenione habita coram Benedicto XII Pontifice Maximo",
+      "kind": "work",
+      "elenchusCol": "1334",
+      "bodyCol": 1333,
+      "bodyLine": 99228,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head line 99228 right after page numbers 1331/1333. Ordo reads 158t."
+    },
+    {
+      "author": "BARLAAMUS DE SEMINARIA GYRACENSIS EPISCOPUS",
+      "title": "Ethica secundum Stoicos",
+      "kind": "work",
+      "elenchusCol": "1344",
+      "bodyCol": 1341,
+      "bodyLine": 100010,
+      "colStatus": "disagree",
+      "greek": "latin-only",
+      "note": "Elenchus '1344' vs body 1341: head (line 100010, running head also line 99945) lies on page 1341/1342; the 1343/1344 header follows at line 100080. Believe the body: Ordo reads '131t' (= 1341) and the Elenchus 1344 is probably the OCR's misread. Pars prima begins line 100022."
+    }
+  ],
+  "problems": [
+    "OCR block reordering/duplication around cols 761-775: the Relatio, Prostagma and Antirrhetici pages occur at lines 55871-56281, then the Confessio pages (761-766) and a second copy of Relatio/Prostagma/Antirrhetici at 57385-57789. First bodyLines given; Confessio only appears (line 57052) after the first copy.",
+    "Elenchus numbers are missing for the Homiliae, Monumenta/Monitum, Encomium Philothei, Nili panegyricus and all three Acindynus items; the detached blocks '679 619 693 1717 163 161 109 113' were mapped to the Tomi/Confessio/Relatio/Rescriptum/Antirrhetici in order (inferred).",
+    "Ordo-only editorial: 'Notitia historica' (Gregorius Acindynus, Ordo 1187; head near line 88752, col ~1186/1187) is not in the Elenchus; not entered. Ordo also lists 'Jacobi Gretseri praefatio' 1189 and Liber I/II chapter lists (not entered).",
+    "Homily collection: Ordo columns for many homilies are garbled or missing (e.g. XIII '51', XV '477', XXIII '1291', XXIX '5365'); parts carry ordoCol as read. Hom. I body col inferred as 1 (Ordo reads 9).",
+    "Greek flag for Homiliae/Tomi/Barlaam items assigned from heads seen; Barlaam letters show only Latin pages (PRO LATINIS running heads)."
+  ]
+}

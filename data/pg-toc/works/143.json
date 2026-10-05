@@ -1,0 +1,268 @@
+{
+  "volume": 143,
+  "source": "archive.org patrologia-volumes 143_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "250-312",
+  "colMap": "cols 13–1368 (pg-colfind --stats; 377 anchors, 174 jumps); body begins col 9",
+  "entries": [
+    {
+      "author": "EPHRAEMIUS CHRONOGRAPHUS",
+      "title": "Editoris Romani (Ang. Mai) Praefatio",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 321,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints 'col.' with no number. Title page and preface precede the first anchor (col 13; page 11|12 header at line 387). Col 9 is the Ordo's reading ('T 9')."
+    },
+    {
+      "author": "EPHRAEMIUS CHRONOGRAPHUS",
+      "title": "Ephraemii Caesares, ab Julio Caesare ad Michaelem Palaeologum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 11,
+      "bodyLine": 416,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column; Ordo prints none. Greek head ΕΥΦΡΑΙΜΙΟΥ ΧΡΟΝΙΚΟΝ ΚΑΙΣΑΡΕΣ (OCR 'EOPAIMIOY XPONIKOY KAIXAPE', line 416-424) on page 11|12 (header line 387); Greek verse and Latin version side by side. Runs to col ≈379."
+    },
+    {
+      "author": "EPHRAEMIUS CHRONOGRAPHUS",
+      "title": "Patriarcharum CP. Catalogus",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 349,
+      "bodyLine": 30254,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. The catalogue is the closing section of Ephraemius's verse chronicle ('Patriarcharum accipe nunc catalogum novellae Romae Constantinopoleos', no capital head). Page 349|350 (header C.ESARES at line 30207, chain 351 at 30296). Ordo reads '5:9' (349, 3 read as 5). A separate editors' 'Elenchus Patriarcharum' at line 105863 (col ≈1354) is not this item."
+    },
+    {
+      "author": "THEOLEPTUS PHILADELPHIENSIUM METROPOLITA",
+      "title": "Notitia",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 379,
+      "bodyLine": 32802,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Title block (ANNO DOMINI MCCCXX / THEOLEPTUS / NOTITIA) follows the end of Ephraemius's verses on the page whose header is 380 (line 32755) and precedes the header '381' of the tract (line 32825); Ordo reads '$19' (379). Latin with Greek quotations."
+    },
+    {
+      "author": "THEOLEPTUS PHILADELPHIENSIUM METROPOLITA",
+      "title": "De abscondita operatione in Christo et profectu in vita monastica, ex Φιλοκαλίας τῶν ἱερῶν νηπτικῶν",
+      "kind": "work",
+      "elenchusCol": "381",
+      "bodyCol": 381,
+      "bodyLine": 32828,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus prints '381' after the Greek Philocalia title (the number block is detached in the OCR). Header '381' at line 32825, Greek head ΘΕΟΛΗΠΤΟΥ ... (32882) and Latin TRACTATUS DE ABSCONDITA OPERATIONE (32904)."
+    },
+    {
+      "author": "THEOLEPTUS PHILADELPHIENSIUM METROPOLITA",
+      "title": "Canticum compunctionis ex meditatione aeterni judicii",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 403,
+      "bodyLine": 34910,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column; Ordo prints none. The Latin title block sits at the foot of page 403|404 (header line 34805); the Ode I text runs onto 405 (chain 405 at line 34931). Greek and Latin side by side. The Elenchus rows for the Theoleptus block are scrambled (see problems)."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Notitia ex Leone Allatio De Georgiis. Insunt argumenta declamationum quas, sophistarum more, exercendi ingenii gratia composuit Pachymeres",
+      "kind": "editorial",
+      "elenchusCol": "&07",
+      "bodyCol": 407,
+      "bodyLine": 35171,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus prints '&07' (OCR for 407); Ordo reads '401'. Title block follows the page header 407|408 (OCR '401 ... 403', line 35118). Latin with Greek quotations."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Notitia altera ex Fabric. Harles. tom. VII",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 421,
+      "bodyLine": 35901,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column (its row is displaced in the OCR of the list). Ordo 421; head on page 421|422, next header 423|424 at line 35933."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Petri Possini, Soc. Jesu, Dedicatio ad Urbanum VIII summum Pontificem, in persona Georgii Pachymerae",
+      "kind": "editorial",
+      "elenchusCol": "435",
+      "bodyCol": 435,
+      "bodyLine": 36775,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Elenchus prints 435 (in the detached number block; confirmed here). Header '435 PETRI POSSINI DEDICATIO' at line 36720. Ordo reads '458' (garbled)."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Petrus Possinus Lectori",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 437,
+      "bodyLine": 36833,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column (row displaced). Ordo reads '4S1' (437). Page 437|438 header lost in the OCR; next header 439|440 at line 36865 (PETRI POSSINI PRAEFATIO)."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Georgii Pachymerae Michael Palaeologus, sive Historia rerum a Michaele Palaeologo ante imperium et in imperio gestarum",
+      "kind": "work",
+      "elenchusCol": "443",
+      "bodyCol": 443,
+      "bodyLine": 37019,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus prints 443; title block (GEORGII PACHYMERAE ... INTERPRETE PETRO POSSINO S. J., lines 37019-37037) opens page 443|444 (header numbers lost; next header 445|446 at line 37135, OCR '416'). Ordo reads 'i5'. Greek ΓΕΩΡΓΙΟΥ ΤΟΥ ΠΑΧΥΜΕΡΗ and Latin side by side. Runs to col ≈995."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Petri Possini ad Historiam rerum Michaelis Palaeologi Observationes",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 995,
+      "bodyLine": 79051,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Title block (PETRI POSSINI S. J. OBSERVATIONUM PACHYMERIANARUM ... LIBER PRIMUS. GLOSSARIUM) stands low on page 995|996 below the last lines of the Historia (header chain 995 at line 78988). Ordo reads '993' for the Observationes and 995 for Liber primus; I take 995 from the body. Latin with Greek words and citations inline.",
+      "parts": [
+        {
+          "title": "Liber primus. Glossarium",
+          "ordoCol": "995",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber secundus. Notae",
+          "ordoCol": "1085",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber tertius. Chronologicus",
+          "ordoCol": "1149",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Appendix ad Petri Possini observationes. Specimen Sapientiae Indorum veterum",
+      "kind": "work",
+      "elenchusCol": "1217",
+      "bodyCol": 1217,
+      "bodyLine": 95594,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Elenchus prints 1217; header '1217 APPENDIX. — SPECIMEN SAP. IND. VET. 1218' at line 95586 and title block at 95594. Ordo lists the first prolegomenon at 1219. The body is Possinus's Latin translation (from Symeon Seth's Greek); no Greek text printed in the sample pages read. Parts below are Ordo-only, not body-confirmed.",
+      "parts": [
+        {
+          "title": "Prolegomenon I. Historia deportationis ex India in Persidem libri cui titulus est Specimen Sapientiae Indorum veterum",
+          "ordoCol": "1219",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Prolegomenon II. Praefatio Simeonis Seth Graeci interpretis",
+          "ordoCol": "1227",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Prolegomenon III. Praefatio Perzois medici",
+          "ordoCol": "12355 (1235?)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica I",
+          "ordoCol": "12455 (1245?)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica II",
+          "ordoCol": "1281",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica III",
+          "ordoCol": "1255",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica IV",
+          "ordoCol": "1501",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica V",
+          "ordoCol": "no column read",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica VI",
+          "ordoCol": "1519",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica VII",
+          "ordoCol": "1521",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica VIII",
+          "ordoCol": "no column read",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica IX",
+          "ordoCol": "1533",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica X",
+          "ordoCol": "no column read",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica XI",
+          "ordoCol": "1515",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica XII",
+          "ordoCol": "1547",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica XIII",
+          "ordoCol": "1581",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica XIV",
+          "ordoCol": "1255",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio parabolica XV",
+          "ordoCol": "1555",
+          "colStatus": "ordo-only"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    "The Elenchus list is a two-column OCR with a detached number block: the rows 'Notitia altera ex Fabric. Harles' and 'Petrus Possinus Lectori' appear under Theoleptus in the OCR but the Ordo and body place them under Pachymeres (cols 421, 437), so I entered them under Pachymeres; the Elenchus order of the Pachymeres block is thereby the Ordo's order. The Elenchus prints a column only for 381, 407 (as '&07'), 435, 443 and 1217.",
+    "Page numbers for many pages were counted from the last explicit header because the OCR lost them (Praefatio 9, Notitia of Theoleptus 379, Possinus Lectori 437, Historia 443, Observationes 995).",
+    "Ordo digits are heavily garbled; where Ordo and body differ I trust the body header chain (Allatio notitia 401 vs 407; Dedicatio 458 vs 435; Observationes 993 vs 995).",
+    "Omitted editorial matter not in the Elenchus: the editors' Elenchus Caesarum and Elenchus Patriarcharum (lines 105610-105863, col ≈1340-1360), and the Index in Ephraemium (line 106019 on). Ordo-only works: none.",
+    "Parts for Observationes and the Appendix are Ordo-only readings, not body-confirmed."
+  ]
+}

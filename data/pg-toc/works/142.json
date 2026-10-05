@@ -1,0 +1,453 @@
+{
+  "volume": 142,
+  "source": "archive.org patrologia-volumes 142_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "223-292",
+  "colMap": "cols 11–1641 (pg-colfind --stats; 623 anchors, 216 jumps)",
+  "entries": [
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Notitia ex Leone Allatio De Georgiis",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 334,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Body head sits before the first anchor (col 11) on the title page; col 9 is the Ordo's reading (9). Latin with inline Greek quotations."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Georgii Cyprii Vita, ab ipso scripta, et ex cod. Leydensi a Bernardo de Rubeis edita et notis illustrata; accedunt Dissertationes duae historico-dogmaticae",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 17,
+      "bodyLine": 601,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Title block at col 17 (running head VITA); Greek text proper opens col 19 (line 696, Gregorii Cyprii particularis historiae sermo). Ordo prints a garbled 'VT' for the title. Includes Notae (col 31), Dissertatio prima (body 47), Dissertatio secunda (body ≈143-144), Georgii epistola ad amicum (body 125) and Moschamperis epistola (body 129); parts below are Ordo-only, not body-confirmed.",
+      "parts": [
+        {
+          "title": "Ad lectorem",
+          "ordoCol": "17",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Gregorii Cyprii particularis historiae sermo res suas continens",
+          "ordoCol": "19",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Notae historicae, chronologicae et criticae in superiorem Georgii seu Gregorii Cyprii Vitam",
+          "ordoCol": "31 (OCR 'δι')",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio prima historica et dogmatica, de praecipuis Georgii seu Gregorii Cyprii gestis; deque Processione Spiritus sancti a Patre et Filio, seu per Filium",
+          "ordoCol": "41 (body shows 47)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Georgii Cyprii epistola ad amicum",
+          "ordoCol": "135 (body shows 125; Elenchus cross-ref also 125)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Moschamperis epistola",
+          "ordoCol": "129",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Dissertatio secunda, historica et dogmatica, de additione vocis Filioque ad Symbolum",
+          "ordoCol": "1.5 (garbled)",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Index nominum et rerum praecipuarum quae in Georgii Cyprii Vita, in notis et in Dissertationibus continentur",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 219,
+      "bodyLine": 15548,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Ordo reads '2 1' (garbled). Body: head INDEX NOMINUM opens page 219|220 (header line 15545)."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Anselmi Bandurii in Georgii Cyprii scripta apologetica Monitum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 227,
+      "bodyLine": 16480,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Ordo reads 227; head sits on page 227|228 (page numbers around it from the chain; header at 16555 is 231)."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Georgii Cyprii Expositio fidei, contra Veccum. Accedit Joannis Chilae, Ephesi metropolitae, Epistola ad imperatorem",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 233,
+      "bodyLine": 16640,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus prints no column. Head (Greek ΕΚΘΕΣΙΣ ΤΟΥ ΤΟΜΟΥ ΤΗΣ ΠΙΣΤΕΩΣ ΚΑΤΑ ΤΟΥ ΒΕΚΚΟΥ) sits on the page headed '233' (OCR '223'); the Monitum runs on to col 233. Ordo reads '255' (garbled, probably 233). Chila's epistle (Greek head ΙΩΑΝΝΟΥ ΤΟΥ ΧΕΙΛΑ ... ΠΡΟΣ ΤΟΝ ΑΥΤΟΚΡΑΤΟΡΑ) at line 17528, col 245. Body shows Greek only, no Latin."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Contra Marcum, ex Judaeo Christianum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 247,
+      "bodyLine": 17603,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus prints no column. Body head is the Greek ΟΜΟΛΟΓΙΑ ... ΕΠΙΣΥΣΤΑΣΙΣ ... ΔΙΑ ΤΟ ΓΡΑΜΜΑ ΤΟΥ ΕΞ ΕΒΡΑΙΩΝ ... ΜΑΡΚΟΥ, opening page 247|248 (header line 17594). Ordo reads '241' (7 read as 1)."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Apologia pro tomo suo, pravae doctrinae suspecto",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 251,
+      "bodyLine": 17962,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus prints no column. Ordo 251; body head (ΑΠΟΛΟΓΙΑ ΠΡΟΣ ΤΗΝ ΚΑΤΑ ΤΟΥ ΤΟΜΟΥ ΜΕΜΨΙΝ ΙΣΧΥΡΟΤΑΤΗ) opens page 251|252 (header 17876)."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola ad Andronicum imp.",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 267,
+      "bodyLine": 19051,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus prints no column. Body head is the Greek Πιττάκιον ... πρὸς τὸν ... βασιλέα κυρὸν Ἀνδρόνικον, on page 267|268 (header 19013). Ordo reads '261' and the later cross-ref says 'Vide col. 267'. A running head SCRIPTA APOLOGETICA continues from the Apologia. The Elenchus parenthesis '(Huc usque Georgii scripta ab Anselmo Bandurio edita)' is not an item."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "De processione Spiritus sancti, ex Dosithei Τόμῳ ἀγάπης",
+      "kind": "work",
+      "elenchusCol": "6",
+      "bodyCol": 269,
+      "bodyLine": 19183,
+      "colStatus": "elenchus-garbled",
+      "greek": "greek-only",
+      "note": "Elenchus column printed as a lone '6' (garbled); Ordo 269 and body header 269|270 agree."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Laudatio S. Georgii martyris, ex cod. Vatic. in Aprili Bollandiano",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 299,
+      "bodyLine": 21395,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo 299 (Prologus 299). Greek head and Latin title (LAUDATIO SANCTI MAGNI MARTYRIS ET TRIUMPHATORIS GEORGII) both present."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Encomium Michaelis Palaeologi, « novi Constantini », ex Boissonadii Anecdotis, cum interpretatione nostra",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 345,
+      "bodyLine": 24757,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo 345 (OCR '945'); header 345|346 at line 24715. Greek ΕΓΚΩΜΙΟΝ ΕΙΣ ΤΟΝ ΑΥΤΟΚΡΑΤΟΡΑ ΚΥΡΟΝ ΜΙΧΑΗΛ and Latin ORATIO LAUDATORIA."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Encomium Andronici Palaeologi, ex eodem ibidem",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 387,
+      "bodyLine": 27767,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Body head on page 387|388 (chain 387 at line 27755). Ordo reads '347' (probably 387, garbled)."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Chria, id est oratoriae amplificationis specimen",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 417,
+      "bodyLine": 30033,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo 417; body head Greek ΧΡΕΙΑ and Latin CHRIA on page 417|418 (chain 417 at 29967)."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Georgii Cyprii Epistolarum Index",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 421,
+      "bodyLine": 30265,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Ordo 421; head opens page 421|422 (chain 422 at 30268). Index of letters, Latin with Greek incipits."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola ad amicum (exstat col. 125)",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": 433,
+      "bodyLine": 30736,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Cross-reference inside THIS volume (printed at col 125; Elenchus '125' confirmed: Greek head 'Τῶν Φίλων τινί' at line 8500, page 125|126, Ordo 'Vide col. 195'). Body prints 'Vide supra col. 485' (OCR). The cross-ref stub sits on page 433|434 (running head ENCOMIUM MARIS at line 30727).",
+      "crossRefVolume": 142,
+      "crossRefCol": "125"
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "— ad Andronicum imp. (col. 207)",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": 433,
+      "bodyLine": 30743,
+      "colStatus": "elenchus-garbled",
+      "greek": "unknown",
+      "note": "Cross-reference inside THIS volume. Elenchus prints col. 207; the target (Πιττάκιον to Andronicus) is at col 267 in the body and the Ordo says 'Vide col. 267', so 207 is garbled. Body stub reads 'Vide supra col. 357' (OCR). Stub on page 433|434.",
+      "crossRefVolume": 142,
+      "crossRefCol": "207"
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Encomium maris, sive de universa aquae natura, ex ed. Fed. Morelli",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 433,
+      "bodyLine": 30751,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Greek ΕΓΚΩΜΙΟΝ ΕΙΣ ΤΗΝ ΘΑΛΑΣΣΑΝ at line 30751; Latin ENCOMIUM MARIS at 30761. Page 433|434 (OCR numbers lost; counted from 421|422 header chain and 435 header at line 30825). Ordo reads '435'."
+    },
+    {
+      "author": "GEORGIUS CYPRIUS CPOLITANUS PATRIARCHA",
+      "title": "Proverbiorum collectio, ad calcem Apostolii",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 445,
+      "bodyLine": 31586,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Chain 445 at line 31583, head at 31586. Ordo reads '45' (=445). Greek ΣΥΛΛΕΞΙΣ ... ΚΑΤΑ ΑΛΦΑΒΗΤΟΝ and Latin PROVERBIA."
+    },
+    {
+      "author": "ATHANASIUS CPOLITANUS PATRIARCHA",
+      "title": "Notitia ex Anselmi Bandurii Imperio orientali",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 471,
+      "bodyLine": 34058,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Ordo reads '4714' (471). Title page (ANNO DOMINI MCCLXXXIX / ATHANASIUS CPOLITANUS PATRIARCHA) follows the last Proverbiorum page 469|470 (header 33940) and precedes header 473|474 at line 34129. Page numbers of the title page itself are not in the OCR."
+    },
+    {
+      "author": "ATHANASIUS CPOLITANUS PATRIARCHA",
+      "title": "Ordo Epistolarum Athanasii ex codice Regio",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 471,
+      "bodyLine": 34093,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. No separate head in body: the list of 84 letters starts at 'Sic igitur se habet' (line 34093) inside the Notitia, Greek and Latin side by side, and runs to col 480. Ordo reads 'A1' (garbled). bodyCol 471 inferred from the title-page position."
+    },
+    {
+      "author": "ATHANASIUS CPOLITANUS PATRIARCHA",
+      "title": "Epistola",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 479,
+      "bodyLine": 34672,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus gives only the word 'Epistola' and no column; it stands for the letters/abdications Migne prints in full after the list. First text head 'Abdicatio prioris patriarchatus' (Greek and Latin) at line 34672, page 479|480 (header 34617). Parts below are the Ordo's list of printed texts, not body-confirmed.",
+      "parts": [
+        {
+          "title": "Abdicatio prioris patriarchatus",
+          "ordoCol": "479",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Rescriptum patriarchae, quo infamia notatur Joannes quidam Drimys",
+          "ordoCol": "49? (OCR '4»')",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Abdicatio secundi patriarchatus",
+          "ordoCol": "491",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola, quomodo et quare prima et secunda patriarchatus abdicatio facta sit",
+          "ordoCol": "495",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola ad imperatorem contra turpis lucri cupidos, et de privilegiis Ecclesiae",
+          "ordoCol": "505",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola ad imperatorem de domino Niphone Cyziceno, quoad accusationes",
+          "ordoCol": "S03 (garbled)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola ad magistrum libellorum supplicum de electione qua patriarcha creatus fuerat episcopus Cyzici",
+          "ordoCol": "506",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola ad imperatorem de deicidis Judaeis, ut ex urbe discedant",
+          "ordoCol": "ITO (garbled)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola ad imperatorem ut instituat liberos et subditos omnes secundum Dei placita",
+          "ordoCol": "$11 (garbled)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola de congregandis in Chorae monasterio presbyteris",
+          "ordoCol": "no column read",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "ATHANASIUS CPOLITANUS PATRIARCHA",
+      "title": "De necessaria episcoporum residentia epistolae octo (Latine edidit Turrianus)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 513,
+      "bodyLine": 36973,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Not in the Elenchus; listed in the closing Ordo, which prints no column for the group heading (its letters: II 516, V 524 as read, VI 525, VII 526, VIII 527). Body head (DE NECESSARIA EPISCOPORUM RESIDENTIA / EPISTOLAE OCTO) on page 513|514 (chain 513 at line 36892). Latin only.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Notitia ex Bibliotheca Fabricii ed. Harles",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 527,
+      "bodyLine": 37920,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Ordo reads '521' (527). Head after chain 527 at line 37883. The Elenchus note '(Cf. not. Editoris Patrologiae de Nicephori scriptorum quorumdam editione quam Harlesius ignoravit)' is a parenthesis, not an item."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "De processione Spiritus sancti orationes duae, ex Leonis Allatii Graec. orthod.",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 533,
+      "bodyLine": 38266,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Oratio I head at col 533 (Ordo '5353'; chain 535 at 38385 starts the next page); Oratio II head at col 565 (line 40672, Greek ΛΟΓΟΣ ΔΕΥΤΕΡΟΣ; Ordo reads '969', garbled). Greek and Latin side by side."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Sermo ad monachos monasterii ab ipso exstructi, ex Dosithei Τόμῳ ἀγάπης",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 585,
+      "bodyLine": 42037,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Running head 'SERMO AD MONACHOS SUOS' and Latin MONITUM (line 42027, Migne's editors' note not listed in the Elenchus) open page 585|586; Greek head at 42037. Ordo '085' for the Sermo and '$89' for the editors' Monitum (both ≈585)."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Epistola encyclica de Marchesina, imp. Joan. Ducae pellice, quam templo ejecerat Blemmida",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 607,
+      "bodyLine": 43481,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Greek head ΕΠΙΣΤΟΛΗ ΚΑΘΟΛΙΚΩΤΕΡΑ ΚΑΙ ΠΡΟΣ ΠΟΛΛΟΥΣ and Latin title on page 607|608 (chain 608 at line 43456). Ordo reads '628' (garbled)."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Oratio de regis officiis. Praemittitur editoris Romani Monitum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 609,
+      "bodyLine": 43816,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. First head is the Roman editor's Monitum (De Nicephori Blemmida oratione politica) at col 609; the oration itself (Greek ΛΟΓΟΣ ΟΠΟΙΟΝ ΔΕΙ ΕΙΝΑΙ ΤΟΝ ΒΑΣΙΛΕΑ / ORATIO QUALEM OPORTEAT ESSE REGEM) opens col 611 (line 43894; Ordo 609 and 611)."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Ejusdem orationis textus alter",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 657,
+      "bodyLine": 47403,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus prints no column. Running head DE REGIS OFFICIIS. — TEXTUS GENUINUS begins at line 47302 (page 657|658); Greek head ΛΟΓΟΣ ΩΣ ΕΠΕΣΤΑΛΗ ΤΩ ΒΑΣΙΛΕΙ at 47403, body shows two Greek columns. Ordo reads '637' (garbled)."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Epitome logica, Graece an. 1605 Augustae Vindel., Latine 1607 ibid., a Joanne Wegelino edita",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 675,
+      "bodyLine": 48542,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo 675. First head is the Greek ΕΙΣΑΓΩΓΙΚΗΣ ΕΠΙΤΟΜΗΣ (Liber primus) with Wegelinus's epistola nuncupatoria (line 48560, col 675); Lectori benevolo col 679 (line 48682); Epitomes logicae capitula col 685; Procemium col 687 (line 49100, Ordo 687); chapters follow to col ≈1003. Ordo-only chapter list not entered."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Epitome physica, ex ejusdem editione",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1005,
+      "bodyLine": 72452,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Greek ΕΙΣΑΓΩΓΙΚΗΣ ΕΠΙΤΟΜΗΣ ΒΙΒΛΙΟΝ Β' / Epitomes Isagogicae Liber II with Wegelinus's Praefatio opens page 1005|1006 (header line 72444; Ordo reads '1003'); the Epitome physica text proper (De acroasi physica) opens col 1023 (line 73231, Ordo 1023)."
+    },
+    {
+      "author": "NICEPHORUS BLEMMIDA",
+      "title": "Expositio in Psalmos, ex tribus codd. Gr. Paris. 150, 810 et Coislin. 102 nunc primum edita",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1321,
+      "bodyLine": 95298,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus title starts with garbled 'η in Psalmos'; no column printed. Running head EXPOSITIO IN PSALMOS and Greek ΕΞΗΓΗΣΙΣ ΤΟΥ ΨΑΛΤΗΡΙΟΥ at line 95298-95308, page after 1319|1320 (chain 1319 at 95204). Ordo reads '1331' (garbled, probably 1321). Body shows Greek only."
+    }
+  ],
+  "problems": [
+    "The Elenchus prints NO column numbers (only the cross-ref cols 125, 207 and a stray '6' after De processione); every column is body-confirmed with the Ordo as cross-check, so colStatus is body-only except where noted.",
+    "Ordo digits are heavily garbled; where Ordo and body differ I trust the body (header chain). Differences: Expositio fidei Ordo 255 vs 233; Contra Marcum 241 vs 247; Epistola ad Andronicum 261 vs 267; Dissertatio prima 41 vs 47; Encomium Andronici 347 vs 387; Encomium maris 435 vs 433; Epistola encyclica 628 vs 607; Oratio II 969 vs 565; textus alter 637 vs 657; Epitomes Liber II 1003 vs 1005; Expositio in Psalmos 1331 vs 1321.",
+    "Page numbers for several pages were counted from the last explicit header (OCR lost them): Monitum 227, Expositio 233, Encomium maris 433, Athanasius title page 471 (inferred; no numbers on the title page itself), Expositio in Psalmos 1321.",
+    "Georgius Cyprius Apologetica (Expositio fidei, Contra Marcum, Apologia, Epistola ad Andronicum, De processione) print two Greek columns with no Latin version in the OCR (greek-only); Chila's epistle likewise.",
+    "Elenchus parentheticals '(Huc usque Georgii scripta ab Anselmo Bandurio edita)' and '(Cf. not. Editoris Patrologiae ...)' are not items. Elenchus 'Epistola ad amicum' and 'ad Andronicum' are cross-refs within this same volume, entered as crossref with crossRefVolume 142.",
+    "Omitted editorial matter not in the Elenchus: Editorum Patrologiae Monitum (before the Sermo, col 585), Wegelinus's prefaces to the logic and physics, Index in logicam (line 120453) and Index in physicam (lines 121199, 121501), plus the Ordo's own chapter lists. Ordo-only work entered: Athanasius's eight residence letters.",
+    "Georgius Vita parts (Notae, Dissertationes, the two letters) and Athanasius Epistola parts come from the Ordo only; not body-confirmed."
+  ]
+}

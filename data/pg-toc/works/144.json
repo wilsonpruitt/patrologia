@@ -1,0 +1,179 @@
+{
+  "volume": 144,
+  "source": "archive.org patrologia-volumes 144_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "202-281",
+  "colMap": "cols 15–1591 (pg-colfind --stats; 484 anchors, 194 jumps); body begins col 9",
+  "entries": [
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Petri Possini S. J. Praefatio in tomum II",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 284,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Body head is 'PETRUS POSSINUS LECTORI' (line 284), with running head PETRI POSSINI PRAEFATIO on pages 11|12 (line 339) and 13|14 (line 398); the title page precedes the first header, so col 9 (the Ordo prints no column for it). Renamed in the body (Elenchus 'Praefatio in tomum II', body 'Lectori')."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Georgii Pachymerae Andronicus Palaeologus, sive Historia rerum ab Andronico Palaeologo seniore in imperio gestarum usque ad annum ejus aetatis undequinquagesimum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 15,
+      "bodyLine": 461,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Greek ΓΕΩΡΓΙΟΥ ΤΟΥ ΠΑΧΥΜΕΡΗ ΑΝΔΡΟΝΙΚΟΣ ΠΑΛΑΙΟΛΟΓΟΣ at line 461-462, Latin title at 465-475, directly after header '15 GEORGII PACHYMERAE 16' (line 458). Ordo reads 'i$' (15) for the Historia and Liber primus. Greek and Latin side by side; runs to col ≈712."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Petri Possini Observationum Pachymerianarum ad Historiam rerum ab Andronico Palaeologo seniore in imperio gestarum libri tres",
+      "kind": "work",
+      "elenchusCol": "715",
+      "bodyCol": 715,
+      "bodyLine": 52444,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Elenchus gives its numbers 715, 'Ibid.', 833, 917, 923 in a detached block with fewer numbers than titles; I assigned them by the body, so the mapping is inferred. The title page of the Observationes is NOT in the OCR: the first Glossarium text (line 52444, mid-sentence) sits on page 715|716 by header count (711 at line 52121, 713 at 52293); Ordo reads '115' (715). Latin with Greek citations inline. Parts: the three books.",
+      "parts": [
+        {
+          "title": "Liber primus. Glossarium",
+          "elenchusCol": "Ibid.",
+          "bodyCol": 715,
+          "bodyLine": 52444,
+          "colStatus": "agree",
+          "note": "Head not in the OCR (see parent); Ordo '115' (715)."
+        },
+        {
+          "title": "Liber secundus. Notae",
+          "elenchusCol": "",
+          "bodyCol": 785,
+          "bodyLine": 57114,
+          "colStatus": "body-only",
+          "note": "Head OBSERVATIONUM PACHYMERIANARUM / LIBER SECUNDUS at line 57114 after header 785|786 (OCR '189', line 57105); Ordo reads '\"85' (785)."
+        },
+        {
+          "title": "Liber tertius. Chronologicus",
+          "elenchusCol": "833",
+          "bodyCol": 833,
+          "bodyLine": 60652,
+          "colStatus": "agree",
+          "note": "Header chain 833 at line 60570, head at 60652; Ordo reads '835'."
+        }
+      ]
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Georgii Pachymerae Scholia in Opera S. Dionysii Areopagitae (jam edita cum Dionysii operibus; vide tom. III)",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": 915,
+      "bodyLine": 66664,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Parenthetical in the Elenchus; the Ordo repeats it. Body prints only a stub 'GEORGII PACHYMERAE SCHOLIA IN OPERA DIONYSII AREOPAGITAE. Vide hujusce Patrologiae Graecae tom. III' at the foot of page 915|916 (header line 66556), before the Descriptio at 917.",
+      "crossRefVolume": 3,
+      "crossRefCol": ""
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Georgii Pachymerae Descriptio Augusteonis sive atrii ecclesiae S. Sophiae",
+      "kind": "work",
+      "elenchusCol": "917",
+      "bodyCol": 917,
+      "bodyLine": 66675,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus prints 917 in its detached number block (assigned by body); chain 917 at line 66672, Greek ΕΚΦΡΑΣΙΣ ΤΟΥ ΑΥΓΟΥΣΤΕΩΝΟΣ and Latin DESCRIPTIO AUGUSTEONIS. Ordo 917."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Adversus eos qui dicunt ideo dici Spiritum sanctum, Spiritum Filii, quod habeat eamdem ac ille naturam, vel quod dignis ab eo suppeditatur; ex Leonis Allatii Graecia orthodoxa",
+      "kind": "work",
+      "elenchusCol": "923",
+      "bodyCol": 923,
+      "bodyLine": 67105,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus prints 923 (detached number block, assigned by body); header '923 GEORGII PACHYMERAE 924' at line 67070. Ordo reads '935' (garbled). Greek and Latin side by side."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Argumenta declamationum quas, sophistarum more, exercendi ingenii gratia composuit Pachymeres (vide tomum superiorem, col. 413)",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": 929,
+      "bodyLine": 67432,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Cross-reference to PG 143: Elenchus prints col. 413, Ordo prints 417; body prints only a note in Possinus's text 'vide Allatium tomi superioris col. 413' (line 67432, page 929|930). In PG 143 the argumenta are announced in the Allatius notitia (start col 407), so the target column was not checked here.",
+      "crossRefVolume": 143,
+      "crossRefCol": "413"
+    },
+    {
+      "author": "THEODORUS METOCHITA MAGNUS LOGOTHETA",
+      "title": "Notitia ex Bibliotheca Fabricii. Inest series capitulorum philosophicorum Metochitae",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 929,
+      "bodyLine": 67437,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Title block (ANNO DOMINI MCCCXXXII / THEODORUS METOCHITA / NOTITIA) at line 67437 on page 929|930 (running head 'THEODORUS METOCHITA — NOTITIA 930' at line 67421); Ordo reads '999' (929). The Index Miscellaneorum Theodori Metochitae (Ordo '935') is part of this item, not separate in the Elenchus."
+    },
+    {
+      "author": "THEODORUS METOCHITA MAGNUS LOGOTHETA",
+      "title": "De lingua Graeca Aegypti",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 947,
+      "bodyLine": 68852,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Head at line 68852, 81 lines after header 947|948 (line 68771); chain 951 at 68998. Ordo reads '917' under title 'Quod omnes qui in Aegypto instituti fuerunt asperiore orationis genere uti soleant' (947 with 4 read as 1). Page 949|950 header not found, so 947 vs 949 rests on line counts. Greek and Latin side by side."
+    },
+    {
+      "author": "MATTHAEUS BLASTARES HIEROMONACHUS",
+      "title": "Notitia ex Bibliotheca Fabricii",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 953,
+      "bodyLine": 69170,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Header '953 MATTHAEUS BLASTARES — NOTITIA 954' at line 69154; Ordo 953."
+    },
+    {
+      "author": "MATTHAEUS BLASTARES HIEROMONACHUS",
+      "title": "Syntagma alphabeticum rerum omnium quae in sacris Canonibus comprehenduntur, juxta novissimam editionem Atheniensem",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 959,
+      "bodyLine": 69452,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Title block (SYNTAGMA ALPHABETICUM / RERUM OMNIUM ... PER MINIMUM EX HIEROMONACHIS MATTHAEUM BLASTAREM) and Praefatio at page 959|960 (chain 959 at line 69425; Ordo prints 953 against the title and 959 against the Praefatio). The letter-by-letter Syntagma (A-Ω) runs to col ≈1396 with Greek and Latin side by side; the Ordo's chapter lists are not entered."
+    },
+    {
+      "author": "GEORGIUS PACHYMERES",
+      "title": "Index in Georgium Pachymerem",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 1401,
+      "bodyLine": 104811,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column. Head INDEX at line 104811 on page 1401|1402 (chain 1399 at 104678, 1403 at 104983); Ordo 'Index analyticus in Georgium Pachymeram 1401'. Runs to the end of the volume (col ≈1591)."
+    }
+  ],
+  "problems": [
+    "The Elenchus prints numbers only in a detached block (715, Ibid., 833, 917, 923) with fewer numbers than titles; mapping to Observationes/Libri/Descriptio/Adversus eos is inferred from the body and the Ordo.",
+    "The title page of the Observationes (cols 713-716) is missing from the OCR; the first Glossarium text is at line 52444 (page 715|716 by header count), so Observationes and Liber primus have no head line, only a page-count position. The pg-colfind map jumps 710 to 723 there.",
+    "Ordo digits are garbled; where Ordo and body differ I trust the body header chain (Liber tertius 835 vs 833; Adversus eos 935 vs 923; Metochita Notitia 999 vs 929; De lingua 917 vs 947).",
+    "The Elenchus has no column for the first, second, Metochita, Blastares and Index items; all are body-only (Ordo cross-checked).",
+    "Entered as crossrefs: Pachymeres Scholia in Dionysium (PG 3) and the Argumenta declamationum (PG 143, Elenchus col. 413 vs Ordo 417; target not verified in PG 143).",
+    "Omitted editorial matter not in the Elenchus: Index Miscellaneorum Theodori Metochitae; Possinus's Observationes chapter lists; the Syntagma's Praefatio, Prologus, Index capitum and chapter lists. Ordo-only works: none."
+  ]
+}

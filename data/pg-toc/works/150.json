@@ -1,0 +1,486 @@
+{
+  "volume": 150,
+  "source": "archive.org patrologia-volumes 150_djvu.txt",
+  "elenchusLines": "242-340",
+  "colMap": "cols 13–1379 (pg-colfind --stats)",
+  "listSource": "elenchus",
+  "entries": [
+    {
+      "author": "CONSTANTINUS HARMENOPULUS",
+      "title": "De Const. Harmenopuli ætate, vita et scriptis editis et ineditis (Notitia ex Fabric. Harl. Biblioth. Gr. t. XI)",
+      "kind": "editorial",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 355,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Section heading PROLEGOMENA absent; head 'CONSTANTINUS HARMENOPULUS / NOTITIA'. Ordo 9."
+    },
+    {
+      "author": "CONSTANTINUS HARMENOPULUS",
+      "title": "Constantini Harmenopuli libellus de opinionibus hæreticorum qui singulis temporibus exstiterunt",
+      "kind": "work",
+      "elenchusCol": "19",
+      "bodyCol": 19,
+      "bodyLine": 849,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head at 849, Latin at 864."
+    },
+    {
+      "author": "CONSTANTINUS HARMENOPULUS",
+      "title": "De fide orthodoxa",
+      "kind": "work",
+      "elenchusCol": "99",
+      "bodyCol": 29,
+      "bodyLine": 1535,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '99'; Ordo 29; body header '29|30' at line 1516, Greek head 1535."
+    },
+    {
+      "author": "CONSTANTINUS HARMENOPULUS",
+      "title": "Narratiuncula de tribus tomis synodicis sub imperatoribus Constantino Porphyrogenito, Manuele Comneno, et Michaele Palæologo promulgatis, in quibus omnes adversus imperatoriam majestatem turbarum aut rebellionis duces, eorumque adjutores et conscii anathemate percutiuntur",
+      "kind": "work",
+      "elenchusCol": "m",
+      "bodyCol": 41,
+      "bodyLine": 2524,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus number not readable (OCR 'm'); Ordo 41 (ex Yriarte, cod. Gr. Matrit.); body head at line 2524 (Monitum at 2508), page 41|42."
+    },
+    {
+      "author": "CONSTANTINUS HARMENOPULUS",
+      "title": "Tomus contra Gregorium Palamam",
+      "kind": "work",
+      "elenchusCol": "3",
+      "bodyCol": 43,
+      "bodyLine": 2628,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '3'; Ordo 43; head at 2628 on page 43|44."
+    },
+    {
+      "author": "CONSTANTINUS HARMENOPULUS",
+      "title": "Epitome divinorum sacrorumque canonum a venerabili sebasto et nomophylace judiceque Thessalonicensi, D. Constantino Harmenopulo confecta",
+      "kind": "work",
+      "elenchusCol": "A3",
+      "bodyCol": 45,
+      "bodyLine": 2647,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR 'A3'; Ordo 45; Greek head at 2647 (running head 'EPITOME CANONUM' 45 at 2641). Ordo lists sections I-VI with titles and columns, not entered."
+    },
+    {
+      "author": "MACARIUS CHRYSOCEPHALUS PHILADELPHIENSIS METROPOLITA",
+      "title": "Macarii Chrysocephali Philadelphiensis metropolitæ oratio in exaltationem venerandæ et vivificæ Crucis",
+      "kind": "work",
+      "elenchusCol": "173",
+      "bodyCol": 173,
+      "bodyLine": 13989,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head 13989, Latin 14004; page 173|174. Ordo reads '115'. Notitia (Ordo 161, line 13717) and 'Notæ et variæ lectiones' (Ordo 231, line 18306) are not Elenchus items and were not entered."
+    },
+    {
+      "author": "MACARIUS CHRYSOCEPHALUS PHILADELPHIENSIS METROPOLITA",
+      "title": "Oratio Macarii Philadelphiensis episcopi in Barbarorum incursus",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 233,
+      "bodyLine": 18864,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Listed in the Ordo only (Ordo reads '251'); body: head at 18864, page header 233 follows at 18867, so 233. Ordo figure looks misread.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "MACARIUS CHRYSOCEPHALUS PHILADELPHIENSIS METROPOLITA",
+      "title": "Proemia ad Commentarios in Novum Testamentum",
+      "kind": "work",
+      "elenchusCol": "929",
+      "bodyCol": 239,
+      "bodyLine": 19106,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '929' (239); Ordo lists Prooemium in Matthæum '259' and in Lucam '24L' (241, line 19235). One Elenchus item, Matthew proem is the first head."
+    },
+    {
+      "author": "MACARIUS CHRYSOCEPHALUS PHILADELPHIENSIS METROPOLITA",
+      "title": "De universali Orthodoxiæ solemnitate, ob restitutum sacrarum imaginum honorem",
+      "kind": "work",
+      "elenchusCol": "241",
+      "bodyCol": null,
+      "bodyLine": null,
+      "colStatus": "unlocated",
+      "greek": "unknown",
+      "note": "Elenchus 241, Ordo '211'. Searched ὀρθοδοξίας, solemnitate, restitutum, imaginum: the only hit is an editor's footnote (line 19367, page 243|244) saying the oration exists unedited in Vatican codices; the OCR shows no head or text for it here."
+    },
+    {
+      "author": "MACARIUS CHRYSOCEPHALUS PHILADELPHIENSIS METROPOLITA",
+      "title": "Rhodonia sive Florilegium (Excerpta)",
+      "kind": "work",
+      "elenchusCol": "245",
+      "bodyCol": 245,
+      "bodyLine": 19376,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus OCR 'Pobovtov'; head is the Monitum at 19376, running head 'EX FLORILEGIO' 245|246 at 19390; Ordo 'Fragmenta ex Florilegio 213' (243)."
+    },
+    {
+      "author": "JOANNES CALECA CPOLITANUS PATRIARCHA",
+      "title": "Joannis Calecæ homiliarum ineditarum Index ex Montefalconii Bibl. Coislin.",
+      "kind": "work",
+      "elenchusCol": "949",
+      "bodyCol": 249,
+      "bodyLine": 19717,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '949'; Ordo 249. Author head JOANNES CALECA/Notitia at 19651 (Ordo 249, not an Elenchus item). Page headers 247-251 lost in OCR; col from the page ladder (247 at 19522, 253 at 19879)."
+    },
+    {
+      "author": "JOANNES CALECA CPOLITANUS PATRIARCHA",
+      "title": "Homilia in Dominicam ante Exaltationem",
+      "kind": "work",
+      "elenchusCol": "955",
+      "bodyCol": 253,
+      "bodyLine": 19885,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '955'; Ordo 253; body header 253|254 at 19879, Greek head 19885."
+    },
+    {
+      "author": "JOANNES CALECA CPOLITANUS PATRIARCHA",
+      "title": "Homilia in tertiam Jejuniorum Dominicam",
+      "kind": "work",
+      "elenchusCol": "265",
+      "bodyCol": 263,
+      "bodyLine": 20621,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "note": "Elenchus reads 265; Ordo 263; body head at 20621/20634 between page 263 (20615) and 265 (20733). Believe 263 (body and Ordo agree; 3/5 is a known misread)."
+    },
+    {
+      "author": "THEOPHANES NICAENUS ARCHIEPISCOPUS",
+      "title": "Monitum Editorum, in quo vera Theophanis ætas ostenditur",
+      "kind": "editorial",
+      "elenchusCol": "aas",
+      "bodyCol": 279,
+      "bodyLine": 21837,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus number unreadable ('aas'); Ordo 279; body 'THEOPHANES NICAENUS / MONITUM EDITORUM' 21831-21837."
+    },
+    {
+      "author": "THEOPHANES NICAENUS ARCHIEPISCOPUS",
+      "title": "Theophanis Epistolæ",
+      "kind": "work",
+      "elenchusCol": "gs]",
+      "bodyCol": 281,
+      "bodyLine": 21892,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR 'gs]'; Ordo 281 (title page of Zannettus 1590 edition at 21892, Epistola dedicatoria 281). Epistola I starts about col 289 (line 22141). Ordo gives parts.",
+      "parts": [
+        {
+          "title": "Epistola I. Ad Nicænos",
+          "ordoCol": "389",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola II. Doctrinalis, de patientia et longanimitate",
+          "ordoCol": "299",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Epistola III. Doctrinalis, ad sacerdotes",
+          "ordoCol": "$19",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "THEOPHANES NICAENUS ARCHIEPISCOPUS",
+      "title": "Oratio qua Domino nostro Jesu Christo gratiæ aguntur pro liberatione pestis ac mortis",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 351,
+      "bodyLine": 27037,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Listed in the Ordo only ('$51'); body: Greek head 'ΕΥΧΗ ΕΥΧΑΡΙΣΤΗΡΙΟΣ' at 27037 just after header 351. Latin title 'Oratio eucharistica' at 27044.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "NICOLAUS CABASILA THESSALONICENSIS METROPOLITA",
+      "title": "Ejus vita, res gestæ, scripta (Notitia ex Fabric. Harl. Bibl. Græca, t. X)",
+      "kind": "editorial",
+      "elenchusCol": "555",
+      "bodyCol": 355,
+      "bodyLine": 27336,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus OCR '555'; Ordo '$55'; body header 355 at 27333."
+    },
+    {
+      "author": "NICOLAUS CABASILA THESSALONICENSIS METROPOLITA",
+      "title": "De divino altaris Sacrificio (præmittitur Gentiani Herveti interpretis ad lectorem admonitio)",
+      "kind": "work",
+      "elenchusCol": "xn p.",
+      "bodyCol": 363,
+      "bodyLine": 27663,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus number not in OCR; Ordo 363; body header '363 NICOLAUS CABASILAS' at 27654, Latin title 27663 (Hervet's admonitio on 365, line 27720)."
+    },
+    {
+      "author": "NICOLAUS CABASILA THESSALONICENSIS METROPOLITA",
+      "title": "De vita in Christo libri septem (Latine interpr. Jacobi Pontani; Græce ...)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 491,
+      "bodyLine": 36853,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus number not in OCR (nearby lines garbled: 'Die Mystik des Nikolaus...' note); Ordo 491; body header '491|492' at 36832, Greek title 36840, Latin 36853. Ordo lists the seven books with columns (493 to 637), one work, not parts."
+    },
+    {
+      "author": "NICOLAUS CABASILA THESSALONICENSIS METROPOLITA",
+      "title": "Sermo contra feneratores (ex Davidis Hoeschelii editione, cujus lacunas supplevimus ope codd. Paris. 970 et 1215)",
+      "kind": "work",
+      "elenchusCol": "727",
+      "bodyCol": 727,
+      "bodyLine": 53830,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head ΛΟΓΟΣ ΚΑΤΑ ΤΟΚΙΖΟΝΤΩΝ just above 53830; header 727 at 53810."
+    },
+    {
+      "author": "NICOLAUS CABASILA THESSALONICENSIS METROPOLITA",
+      "title": "Laudatio sanctæ in Thessalonica Theodoræ, sanctimonialis Thessalonicensis, cum prævio Danielis Papebrochii commentario",
+      "kind": "work",
+      "elenchusCol": "119",
+      "bodyCol": 749,
+      "bodyLine": 55489,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '119'; Ordo: Papebroch commentary 749, Laudatio proper 793 (=753). Body: Papebroch head 55489 (749|750); Laudatio Greek head at 55564, Latin 55577, col 753."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Notitia ex Bibliotheca Fabricii ed. Harlesii (Gregorius Palamas)",
+      "kind": "editorial",
+      "elenchusCol": "111",
+      "bodyCol": 771,
+      "bodyLine": 56792,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus OCR '111'; Ordo '171'; body header '771 GREGORIUS PALAMAS 772' at 56759."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Operum Gregorii Palamæ argumenta ex codd. Coislin.",
+      "kind": "editorial",
+      "elenchusCol": "1299",
+      "bodyCol": 799,
+      "bodyLine": 58082,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus OCR '1299' (799?); Ordo 799; body header 801 follows at 58134."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "De Gregorio Palama, archiepiscopo Thessalonicensi, a nonnullis Græcorum in numerum sanctorum ascito, Græcorum Sententiæ",
+      "kind": "work",
+      "elenchusCol": "843",
+      "bodyCol": 843,
+      "bodyLine": 61343,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "One Elenchus item that lists its contents (Gregorii Acindyni iambi, Andreæ Colossensis Dialogus, Joannis Cpolitani tomus, Anonymi de hæresibus Palamæ, tomus condemnationis, sermo patriarchalis, Simeonis Xerocerci ex libello de sobrietate, patriarchæ tomus contra Synodum Palamitarum, Davidis monachi relatio de dissidio Barlaami et Palamæ). Ordo reads '845' and puts the Acindyni iambi at '815' (=845, line 61371). Body header ladder: 843 at 61289, 845 at 61411."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Gregorii Palamæ Opera: Theophanes, sive de divinitatis et rerum divinarum communicabilitate et incommunicabilitate",
+      "kind": "work",
+      "elenchusCol": "909",
+      "bodyCol": 909,
+      "bodyLine": 66097,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Section heading 'GREGORII PALAMÆ OPERA' has no column. Header 909|910 at 66079-66085."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Prosopopeia, id est Dialogus Corporis et Animæ coram judicibus causam dicentium",
+      "kind": "work",
+      "elenchusCol": "959",
+      "bodyCol": 959,
+      "bodyLine": 69924,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Latin at col 959 (line 69924, headers 961 at 69947); the Elenchus says 'Latine col. 959, Græce col. 1547': Greek head at line 97629, col 1347 (header 1347|1348 at 97620). Ordo '(Græce col. 1317)'. Ordo lists Prothesis 959, Declaratio 961, Altera 975, Judicum sententia 987 (parts of one work)."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Vita S. Petri Athonitæ (præmittitur Joannis Janningi Commentarius)",
+      "kind": "work",
+      "elenchusCol": "939",
+      "bodyCol": 989,
+      "bodyLine": 71948,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '939'; Ordo 989; header 989 at 71924, Janning commentary 71948; the vita (Gregorius Thessalonicensis' oration) begins col 995 (line ~72224)."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Antonii Bortoli Monitum in Palamæ scripta ascetica. Ex Φιλοκαλίᾳ τῶν ἱερῶν Νηπτικῶν, Venetiis 1782 edita",
+      "kind": "editorial",
+      "elenchusCol": "1041",
+      "bodyCol": 1041,
+      "bodyLine": 75688,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Title 'GREGORII THESSALONICENSIS ET GREGORII SINAITÆ ASCETICA' after header 1041|1042 (OCR '1642'); Ordo 'Editoris Veneti Monitum 1041'."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "De passionibus, virtutibus, et mentalis quietudinis fructibus, ad Xenam sanctimonialem",
+      "kind": "work",
+      "elenchusCol": "1045",
+      "bodyCol": 1045,
+      "bodyLine": 75824,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek title at line 75803; title and introduction fall on 1043|1044, main text begins 1045 (header at 75901)."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Decalogus Christianæ legis",
+      "kind": "work",
+      "elenchusCol": "1089",
+      "bodyCol": 1089,
+      "bodyLine": 79046,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Header 1089 at 79040."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "De Hesychastis",
+      "kind": "work",
+      "elenchusCol": "1101",
+      "bodyCol": 1101,
+      "bodyLine": 79934,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Header '1101 DE HESYCHASTIS 1102' at 79934; title block follows (ΤΩΝ ΙΕΡΩΣ ΗΣΥΧΑΖΟΝΤΩΝ, 'Ex ejusdem sermonibus qui sacræ indulgent quietudini'), about 79944."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "De oratione et puritate cordis",
+      "kind": "work",
+      "elenchusCol": "u11",
+      "bodyCol": 1117,
+      "bodyLine": 80877,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR 'u11'; Ordo 1117; header '1117 DE ORATIONE ET PURITATE CORDIS' at 80877."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Capita CL physica, theologica, moralia et practica",
+      "kind": "work",
+      "elenchusCol": "1121",
+      "bodyCol": 1121,
+      "bodyLine": 81121,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Header 1121|1122 at 81076."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Hagioriticus tomus pro Hesychastis (cui inter alios subscribit « monachorum minimus Joasaph, quondam Joannes Cantacuzenus Cpolitanus »)",
+      "kind": "work",
+      "elenchusCol": "1225",
+      "bodyCol": 1225,
+      "bodyLine": 88944,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Header 1225 at 88836."
+    },
+    {
+      "author": "GREGORIUS PALAMAS THESSALONICENSIS METROPOLITA",
+      "title": "Notitia in Gregorii Sinaitæ opuscula ascetica",
+      "kind": "editorial",
+      "elenchusCol": "1237",
+      "bodyCol": 1237,
+      "bodyLine": 89747,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Ordo reads 1231; body page ladder: 1237|1238 just before header 1239 at 89848. Note appended: Migne put Gregorius Sinaita's opuscula under Palamas 'propter materiæ cognationem'."
+    },
+    {
+      "author": "GREGORIUS SINAITA (printed under Palamas)",
+      "title": "Gregorii Sinaitæ capita de ascesi per acrostichidem ('capita valde utilia')",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1239,
+      "bodyLine": 89851,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus number lost in the garbled column; Ordo '125' (cut); header 1239|1240 at 89848."
+    },
+    {
+      "author": "GREGORIUS SINAITA (printed under Palamas)",
+      "title": "Ejusdem capita alia",
+      "kind": "work",
+      "elenchusCol": "1299",
+      "bodyCol": 1299,
+      "bodyLine": 94327,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head 'ΤΟΥ ΑΥΤΟΥ ΕΤΕΡΑ ΚΕΦΑΛΑΙΑ' at 94327; Ordo 'Ejusdem capita ἃ i2. 1299'; header 1301 follows."
+    },
+    {
+      "author": "GREGORIUS SINAITA (printed under Palamas)",
+      "title": "Ejusdem accurata dissertatio de quiete et oratione; item de signis gratiæ et erroris; et quæ sit differentia fervoris et orationis; et quod sine duce facile superveniat error",
+      "kind": "work",
+      "elenchusCol": "1503",
+      "bodyCol": 1303,
+      "bodyLine": 94641,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '1503'; Ordo '1503'; body page ladder 1303|1304 (header 1303 at 94528, 1305 at 94667). Capita decem."
+    },
+    {
+      "author": "GREGORIUS SINAITA (printed under Palamas)",
+      "title": "Ejusdem de quietudine et duobus orationis modis capita quindecim",
+      "kind": "work",
+      "elenchusCol": "1513",
+      "bodyCol": 1313,
+      "bodyLine": 95234,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus and Ordo OCR '1513'; body headers 1311|1312 (95128/95183), 1314 (95243), so 1313."
+    },
+    {
+      "author": "GREGORIUS SINAITA (printed under Palamas)",
+      "title": "Quomodo oporteat sedere Hesychastam ad orationem nec cito assurgere",
+      "kind": "work",
+      "elenchusCol": "13529",
+      "bodyCol": 1329,
+      "bodyLine": 96460,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus OCR '13529'; Ordo '1339'; body header '1339.' at 96419 is 1329 by the page ladder (1313 at 95243, about 16 cols later)."
+    }
+  ],
+  "problems": [
+    "The Elenchus is a two-column list that the OCR interleaves; items were paired with their numbers using the Ordo and the body.",
+    "Elenchus entry 'De universali Orthodoxiæ solemnitate' (Macarius) is unlocated: the body only has an editor's footnote saying the oration is unedited (line 19367, cols 243|244).",
+    "Not entered (Elenchus omits, editorial/apparatus): Macarius Notitia (Ordo 161, line 13717), 'Notæ et variæ lectiones in orationem Macarii' (Ordo 231, line 18306), Joannes Caleca Notitia (Ordo 249, line 19651); Ordo-only works entered with listedIn: Macarius in Barbarorum incursus, Theophanes Oratio gratiarum actionis.",
+    "OCR page numbers frequently garbled (e.g. 813 for 843, 1939 for 1239, 1339 for 1329); several columns (Caleca 249-253, Gregorius Sinaita 1237-1329, Epistolae of Theophanes) rest on the page ladder.",
+    "Gregorius Sinaita's opuscula appear under the Palamas head in the Elenchus; author set to 'GREGORIUS SINAITA (printed under Palamas)' for those entries."
+  ]
+}

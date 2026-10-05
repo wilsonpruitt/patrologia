@@ -1,0 +1,685 @@
+{
+ "volume": 133,
+ "source": "archive.org patrologia-volumes 133_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "363-407 (cut) continued to ~430",
+ "colMap": "cols 12-1597 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "ARSENIUS MONACHUS IN MONTE ATHO",
+   "title": "Divinorum canonum synopsis (Epitome canonum)",
+   "kind": "work",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 456,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head (Greek then 'ARSENII ... DIVINORUM CANONUM SYNOPSIS') on first text page; col 9 is before the first mapped anchor (12), so the column rests on Elenchus+Ordo agreement and the page sequence 9|10, 11|12, 13|14 (header at line 765)."
+  },
+  {
+   "author": "LUCAS CHRYSOBERGES CP. PATRIARCHA",
+   "title": "Decreta synodalia XIII",
+   "kind": "work",
+   "elenchusCol": "61",
+   "bodyCol": 61,
+   "bodyLine": 5712,
+   "colStatus": "agree",
+   "greek": "unknown",
+   "note": "Head 'LUCAE CHRYSOBERGIS DECRETA SYNODALIA XIII' at line 5712, on page 61|62 (running head 'ALEXIUS ARISTENUS NOTITIA 62' at 5693 precedes it). Start page shows only Latin summary; Greek not confirmed."
+  },
+  {
+   "author": "ALEXIUS ARISTENUS NOMOPHYLAX",
+   "title": "Synopsis canonum",
+   "kind": "work",
+   "elenchusCol": "63",
+   "bodyCol": 63,
+   "bodyLine": 5746,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head (YPO ARISTENOU SYNOPSIS) and 'SYNOPSIS CANONUM OMNIUM AB ARISTENO CONSCRIPTA' at lines 5749-5759, just after page header '63 ARISTENI MONACHI 64'. Preceded on page 61|62 by Aristenus's Notitia (line 5732, editorial, Ordo only)."
+  },
+  {
+   "author": "THEORIANUS PHILOSOPHUS CHRISTIANUS",
+   "title": "Ang. Mai Praefatio",
+   "kind": "editorial",
+   "elenchusCol": "413",
+   "bodyCol": 113,
+   "bodyLine": 10351,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR reads '413'; col 413 is inside Cinnamus. Body head 'THEORIANUS PRAEFATIO' on 113|114 (running head 10262, title block 10351). Ordo prints no col for it."
+  },
+  {
+   "author": "THEORIANUS PHILOSOPHUS CHRISTIANUS",
+   "title": "Disputationes cum Armeniis (Disputatio prima et secunda)",
+   "kind": "work",
+   "elenchusCol": "119",
+   "bodyCol": 119,
+   "bodyLine": 10560,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'THEORIANOU ORTHODOXOU DIALEXIS PROS TON KATHOLIKON TON ARMENION' / 'THEORIANI ORTHODOXI ... CUM ARMENIORUM CATHOLICO' at 10560, on the page after Mai's footnotes (117|118 header at 10465; 121|122 at 10694); page header for 119 lost. Disputatio secunda head (line 19166) confirmed on 211|212, matching Ordo 211.",
+   "parts": [
+    {
+     "title": "Disputatio prima",
+     "ordoCol": "(no col printed)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Disputatio secunda",
+     "ordoCol": "211",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "THEORIANUS PHILOSOPHUS CHRISTIANUS",
+   "title": "Epistola de jejunio Sabbati",
+   "kind": "crossref",
+   "elenchusCol": "997",
+   "bodyCol": 297,
+   "bodyLine": 29119,
+   "colStatus": "agree",
+   "greek": "unknown",
+   "note": "Elenchus OCR '997', Ordo '297'. Body (29119-29125) prints title then 'Vide Patrologiae tom. XCIV, col. 405, in P. Michaelis Lequien Dissertatione Damascenica.' Page numbers lost here and the OCR repeats this stretch (lines 29925ff); col 297 inferred from sequence (Disp. II runs to 295|296; Dufresne at 299). Not body-confirmed by a printed page number.",
+   "crossRefVolume": 94,
+   "crossRefCol": "405"
+  },
+  {
+   "author": "S. NERSES CLAIENSIS",
+   "title": "(Vide Patrologiam Orientalem)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 299,
+   "bodyLine": 29141,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Elenchus gives no column. Body: 'S. Nersetis Opera, Armenico et Latine Venetiis a Patribus Mechitaristis edita... Patrologia Orientalis'. Sits on page with Dufresne's Epistola (299 by sequence). Crossref to another series, not a PG volume."
+  },
+  {
+   "author": "JOANNES CINNAMUS",
+   "title": "Caroli Du Fresnii Du Cangii Prolegomena (Epistola, Praefatio)",
+   "kind": "editorial",
+   "elenchusCol": "299",
+   "bodyCol": 299,
+   "bodyLine": 29154,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'JOANNIS CINNAMI EPITOME ... CAROLI DUFRESNE EPISTOLA'. Page numbers around here are lost and the OCR duplicates the stretch (second copy at 29963); col 299 inferred from sequence (Praefatio header '301|302' follows). First occurrence given."
+  },
+  {
+   "author": "JOANNES CINNAMUS",
+   "title": "Historiarum libri septem, cum Du Cangii notis",
+   "kind": "work",
+   "elenchusCol": "309",
+   "bodyCol": 309,
+   "bodyLine": 30351,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek and Latin head 'EPITOME ... JOANNIS CINNAMI HISTORIARUM LIBRI SEPTEM' after page header '309|310' at 30331. Preceded by Du Cange's Notitia de Cinnamo (line 30173) and Tollius's Praefatio (30312), editorial, not entered."
+  },
+  {
+   "author": "JOANNES CINNAMUS",
+   "title": "Appendix: Stemmata genealogica ad historiae Comnenicae pleniorem notitiam",
+   "kind": "editorial",
+   "elenchusCol": "679",
+   "bodyCol": 679,
+   "bodyLine": 65817,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "'APPENDIX AD JOANNEM CINNAMUM' begins on page 679|680 (line 65817); genealogical tables OCR as garble, printed sideways. Parts taken from Ordo, whose columns are largely garbled; not body-confirmed.",
+   "parts": [
+    {
+     "title": "Indices genealogici ad historiam Comnenicam pleniorem notitiam",
+     "ordoCol": "1",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemma Ducarum",
+     "ordoCol": "679",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemma Comnenicum I",
+     "ordoCol": "65l",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemma Comnenicum II",
+     "ordoCol": "is",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Familiae Bryennianae genealogia",
+     "ordoCol": "b»",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemma ducum Apuliae et regum Siciliae ex Chronico Normannico",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemmatis Siculi pars altera",
+     "ordoCol": "649",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemma Turcicorum imperatorum",
+     "ordoCol": "M",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Stemma sultanorum Iconiensium",
+     "ordoCol": "115",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "JOANNES CINNAMUS",
+   "title": "Christophori de Bondelmontibus Descriptio urbis Constantinopoleos, cum Du Cangii notis",
+   "kind": "work",
+   "elenchusCol": "(99",
+   "bodyCol": 695,
+   "bodyLine": 66517,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus reads '(99'. Body head 'DESCRIPTIO URBIS CONSTANTINOPOLEOS' at 66517 directly after page header '695 | APPENDIX AD JOANNEM CINNAMUM'; '697 DESCRIPTIO URBIS' at 66593; col 699 is mid-work. Elenchus probably 695."
+  },
+  {
+   "author": "MANUEL COMNENUS IMP. CP.",
+   "title": "Novellae constitutiones",
+   "kind": "work",
+   "elenchusCol": "707",
+   "bodyCol": 707,
+   "bodyLine": 67695,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Heads 'MANUELIS COMNENI NOVELLAE CONSTITUTIONES' (67692); first piece Aurea bulla de immunitate clericorum at 67702, page 707. Ordo reads piece I as '701' (7 misread as 1). Ordo parts below as read; not body-confirmed.",
+   "parts": [
+    {
+     "title": "I. Aurea bulla de immunitate clericorum",
+     "ordoCol": "701",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "II. De instrumentis monasteriorum",
+     "ordoCol": "709",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "III. Aurea bulla Venetis concessa",
+     "ordoCol": "709",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IV. De juramento Judaeorum",
+     "ordoCol": "715",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "V. De instrumentis ecclesiarum",
+     "ordoCol": "711",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VI. De locis a Venetis possidendis",
+     "ordoCol": "125",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VII. De possessionibus Magnae Ecclesiae",
+     "ordoCol": "123",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VII*. Aurea bulla Pisanis concessa",
+     "ordoCol": "727",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VIII. Aurea bulla pro firmanda conventione cum Genuensibus facta",
+     "ordoCol": "121",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IX. De possessionibus monasteriorum",
+     "ordoCol": "121",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "X. De immobilibus monasteriorum",
+     "ordoCol": "735",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XI. Ne morientium episcoporum bona ...",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XII. Novella de judicibus et advocatis, etc.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XIII. De diebus feriatis",
+     "ordoCol": "749",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XIV. De homicidis",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XV. De matrimonio septimo cognationis gradu contracto",
+     "ordoCol": "1",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XVI. De controversia quatenus Pater major a...",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XVII. Aurea bulla confirmans conventionem cum Genuensibus",
+     "ordoCol": "785",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XVIII. De episcopis Cpoli versantibus",
+     "ordoCol": "181",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XIX. De tomo Sisinnii patriarchae",
+     "ordoCol": "187",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XX. Novella de possessionibus monasteriorum",
+     "ordoCol": "789",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "ALEXIUS COMNENUS IMP. CP.",
+   "title": "Novella constitutio, ne monasteriorum immobilia describantur",
+   "kind": "work",
+   "elenchusCol": "159",
+   "bodyCol": 789,
+   "bodyLine": 74274,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '159' (Ordo '159' too; second Elenchus print '189'); the head 'ALEXII COMNENI IMPERATORIS NOVELLA CONSTITUTIO' follows a bare '190' page mark, so page 789|790. Probably 789."
+  },
+  {
+   "author": "ANDRONICUS COMNENUS IMP. CP.",
+   "title": "Notitia",
+   "kind": "editorial",
+   "elenchusCol": "791",
+   "bodyCol": 791,
+   "bodyLine": 74458,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ANDRONICUS COMNENUS. NOTITIA' at 74458, after page header 791|792 (74340); by line order it sits near the foot of that page, running head at 74476 already reads 'DIALOGUS CONTRA JUDAEOS 794'. Elenchus OCR '191'."
+  },
+  {
+   "author": "ANDRONICUS COMNENUS IMP. CP.",
+   "title": "Dialogus contra Judaeos",
+   "kind": "work",
+   "elenchusCol": "797",
+   "bodyCol": 797,
+   "bodyLine": 74706,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Two heads: title page with 'CAPITA DISPUTATIONIS' at 74562 on 795|796 (page header 795 at 74549), and the dialogue proper 'ANDRONICI COMNENI DIALOGUS CONTRA JUDAEOS ... CHRISTIANI ET JUDAEI' at 74706 after '797' at 74697. Elenchus and Ordo both 797, so the second head is taken. Elenchus first print gives '791' by OCR."
+  },
+  {
+   "author": "JOANNES PHOCAS",
+   "title": "Compendiaria descriptio castrorum et urbium ab urbe Antiochia usque Hierosolymam, necnon Syriae ac Phoeniciae et in Palaestina sacrorum locorum",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 923,
+   "bodyLine": 85463,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus number for this item not recovered (number block reads 963, 973, 1015, 1091, 1099, 1101, 4201). Ordo reads '937' (on a detached line), but body head (Greek at 85463, Latin 85479) sits on page 923; 937 is mid-text. Under the collection head 'SAECULI DUODECIMI DE TERRA SANCTA. SCRIPTORES QUINQUE' (85375); Leonis Allatii Praefatio (85381, Ordo 923) is editorial and not entered."
+  },
+  {
+   "author": "EPIPHANIUS MONACHUS HAGIOPOLITA",
+   "title": "Syria et urbs sancta",
+   "kind": "crossref",
+   "elenchusCol": "963",
+   "bodyCol": 963,
+   "bodyLine": 89430,
+   "colStatus": "agree",
+   "greek": "unknown",
+   "note": "Body prints only the title and 'Exstat cum aliis Epiphanii ... Patrologia tom. CXX.' (OCR 'hactenus' garbled; reads 'tenus'). Elenchus col as read in the number block; Ordo 963. Sits on same page as Perdicas.",
+   "crossRefVolume": 120,
+   "crossRefCol": ""
+  },
+  {
+   "author": "PERDICAS PROTONOTARIUS EPHESINUS",
+   "title": "Expositio thematum Dominicorum et memorabilium quae Hierosolymis sunt",
+   "kind": "work",
+   "elenchusCol": "963",
+   "bodyCol": 963,
+   "bodyLine": 89440,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek 'PERDIKKOU PROTONOTARIOU TES EPHESOU EKPHRASIS' at 89440, Latin head at 89450. Elenchus spells 'Pernicae/Penviccae' (garbled); body 'PERDICAE'."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "De locis Hierosolymitanis",
+   "kind": "work",
+   "elenchusCol": "973",
+   "bodyCol": 973,
+   "bodyLine": 90307,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'ANONYMOU APODEIXIS PERI TON HIEROSOLYMON' at 90307, anchors 970 (90025) and 976 (90477) bracket it; page numbers lost, 973 by Elenchus and Ordo agreement and position."
+  },
+  {
+   "author": "EUGESIPPUS",
+   "title": "Tractatus de distantiis locorum Terrae Sanctae",
+   "kind": "work",
+   "elenchusCol": "991",
+   "bodyCol": 991,
+   "bodyLine": 91704,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'INCIPIT TRACTATUS DE DISTANTIIS LOCORUM TERRAE SANCTAE ... EUGESIPPUS' after page header 991 (91686). Latin only."
+  },
+  {
+   "author": "THEODORUS PRODROMUS",
+   "title": "Operum Theodori Prodromi recensio juxta codicem Vaticanum CCCV a F. J. G. La Porte du Theil vernaculo sermone edita",
+   "kind": "editorial",
+   "elenchusCol": "1015",
+   "bodyCol": 1015,
+   "bodyLine": 93260,
+   "colStatus": "agree",
+   "greek": "unknown",
+   "note": "Head at 93260 after page header '1015 THEODORI PRODROMI 1016'. Text is French (Du Theil), with Greek index. Ordo 'Notitia ex Allatio de Theodoris' (1005, line 92804) is editorial and not entered."
+  },
+  {
+   "author": "THEODORUS PRODROMUS",
+   "title": "Petri Lazeri S.J. Praefatio in Epistolas Theodori Prodromi ab eo editas",
+   "kind": "editorial",
+   "elenchusCol": "1091",
+   "bodyCol": 1091,
+   "bodyLine": 99908,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Page header '1091 PETRI LAZERI S.J.' at 99902, title at 99908."
+  },
+  {
+   "author": "THEODORUS PRODROMUS",
+   "title": "Ang. Maii Monitum Theodori poematibus ab eo editis praefixum",
+   "kind": "editorial",
+   "elenchusCol": "1099",
+   "bodyCol": 1099,
+   "bodyLine": 100250,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "'CARD. ANGELO MAI MONITUM' at 100250 after page header 1099 (100237)."
+  },
+  {
+   "author": "THEODORUS PRODROMUS",
+   "title": "Epigrammata in Vetus et Novum Testamentum (ex editione Basileensi)",
+   "kind": "work",
+   "elenchusCol": "101",
+   "bodyCol": 1101,
+   "bodyLine": 100306,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR reads '101' (lost leading 1); Greek head 'THEODOROU TOU PRODROMOU EPIGRAMMATA' at 100306, page 1101|1102."
+  },
+  {
+   "author": "THEODORUS PRODROMUS",
+   "title": "Scripta miscellanea (ex cod. Vatic. CCCV, Ang. Maii)",
+   "kind": "work",
+   "elenchusCol": "4201",
+   "bodyCol": 1221,
+   "bodyLine": 111606,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus number block ends '4201' (read as 1221 with leading digits garbled; col 1201 is inside the Epigrammata). Head 'THEODORI PRODROMI CARMINA IN SS. TRINITATEM...' at 111606 on page 1221|1222. The Ordo lists the pieces; parts as read, not body-confirmed. Ordo '1231' for the first piece reads 1221 by the body.",
+   "parts": [
+    {
+     "title": "In sanctam Trinitatem",
+     "ordoCol": "1231",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In crucifixionem",
+     "ordoCol": "1222",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In eamdem",
+     "ordoCol": "1223",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In duodecim dies festos D. N. Jesu Christo sacros",
+     "ordoCol": "1225",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Abrahamum SS. Trinitatem hospitio excipientem",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Laudatio SS. Gregorii Theologi, Basilii et Chrysostomi",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Laudatio S. Gregorii Nysseni et S. Nicolai",
+     "ordoCol": "1227",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Expositio canonum SS. Cosmae et Joannis Damasceni in festa Dominicalia",
+     "ordoCol": "1239",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Expositio in canonem Sabbati sancti",
+     "ordoCol": "1255",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epistolae",
+     "ordoCol": "1250",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In eos qui ob paupertatem Providentiae conviciantur",
+     "ordoCol": "1291",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In illud: Ipse praecedet coram eo in spiritu et virtute Eliae",
+     "ordoCol": "150!",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Invectiva in illud: Prosperies sophiam nacta est",
+     "ordoCol": "1515",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Amicitia exsulans",
+     "ordoCol": "459",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Versus indignabundi in Providentiam",
+     "ordoCol": "1535",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In coronationem Alexii Comneni",
+     "ordoCol": "1539",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In honorem Joannis imp. post Persas superatos",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In nuptias regias",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In alteras nuptias",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Carmen ad Joannem Comnenum victorem",
+     "ordoCol": "1354",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Ad imperatorem cum adversus Persas moveret",
+     "ordoCol": "1557",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Carmen nuptiale in virginem Alamannam domino Manueli Porphyrogenito desponsatam",
+     "ordoCol": "1360",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Carmen in dominum Joannem Comnenum",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Theodorum Stypiotam grammaticum",
+     "ordoCol": "1370",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In processionem triumphalem domini Joannis Comneni post captam Castamonem",
+     "ordoCol": "1573",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Ad imperatorem currum conscendentem a civitate oblatum",
+     "ordoCol": "1385",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Hymnus in Christi Natalibus",
+     "ordoCol": "1581",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In eodem festo",
+     "ordoCol": "1588",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In eodem festo",
+     "ordoCol": "Ibid.",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Byzantii laudes",
+     "ordoCol": "1389",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Hymnus Joanni Comneno in baptismali ritu",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In eamdem solemnitatem",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epitaphium Joannis Comneni",
+     "ordoCol": "1592",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Inscriptio sepulcralis ad memoriam imperatricis Irenae defunctae",
+     "ordoCol": "1395",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epithalamium imperatoris filiis dictum",
+     "ordoCol": "1597",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In sepulcrum Joannis Comneni imp.",
+     "ordoCol": "1405",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Bareum qui ipsi haereticam notam inurebat",
+     "ordoCol": "1403",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Pausaniam quemdam ... lapideus factus",
+     "ordoCol": "1415",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In cadaver ambabus manibus truncum in littore mortuum",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Ad Joannicium monachum",
+     "ordoCol": "1417",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Aenigma in nobem",
+     "ordoCol": "1418",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In vitam sub imagine allegorica repraesentatam",
+     "ordoCol": "1419",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Lamentatio super verbo contempto",
+     "ordoCol": "1419",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Contra invidos. Exhortatio ad pietatem",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    }
+   ]
+  }
+ ],
+ "problems": [
+  "Elenchus cut stops mid-list (at Epiphanius); read on to line ~430. The Elenchus in the OCR is a two-column jumble with detached number blocks; mapping inferred from the Ordo and body.",
+  "Ordo-only editorial items not entered: Alexius Aristenus Notitia (line 5732, Ordo 61); Du Cange's Notitia de Cinnamo (30173, Ordo '505'); C. Tollius Praefatio (30312); Leonis Allatii Praefatio (85381, Ordo 923); Notitia ex Allatio de Theodoris (92804, Ordo 1005).",
+  "Not entered: indices (INDEX IN JOAN. CINNAMUM etc., from ~line 129195) listed by neither list.",
+  "OCR duplicates the stretch lines ~29100-30100 (Theoriani Epistola/Nerses/Dufresne/Praefatio copies at 29119-29250 and 29925-30100); first occurrence given.",
+  "Page numbers are missing for pp. 9-13, 297-299; Epistola de jejunio (297) and Dufresne (299) rest on sequence plus agreement of Elenchus/Ordo.",
+  "Joannes Phocas: Elenchus number unrecovered; Ordo '937' contradicted by the body (923).",
+  "Stemmata column numbers in the Ordo parts are largely garbled and unconfirmed; Manuel Novellae and Scripta miscellanea parts likewise unconfirmed (several Ordo numbers lost a leading digit: 125, 123, 121, 181, 187, 459, 1250 etc.)."
+ ]
+}

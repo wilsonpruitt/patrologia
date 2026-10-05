@@ -1,0 +1,433 @@
+{
+ "volume": 156,
+ "source": "archive.org patrologia-volumes 156_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "276-452",
+ "colMap": "cols 4-1163 (pg-colfind --stats; 500 anchors, 149 jumps)",
+ "entries": [
+  {
+   "author": "MANUEL CHRYSOLORAS",
+   "title": "Vita et Scripta, ex Fabricio in Bibliotheca Graeca, et Hankio De Script. rerum Byzant. Insunt Chrysolorae Elogia varia et inscriptiones funereae",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 455,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Title page 'MANUEL CHRYSOLORAS NOTITIA (Fabric., Bibliotheca Graeca)' at lines 452-458, page 9|10; next header 11|12 at line 555. Hankius' 'MANUELIS CHRYSOLORAE VITA' head at line 696 (page 13|14); Ordo lists Notitia ex Fabricio 9 and Vita ex Hankio 15 (OCR). Epitaph material sits inside the Vita."
+  },
+  {
+   "author": "MANUEL CHRYSOLORAS",
+   "title": "Manuelis Chrysolorae Epistolae",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 23,
+   "bodyLine": 1016,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Head 'MANUELIS CHRYSOLORAE EPISTOLAE' at lines 1016-1017, page 23|24 (chain 23 at 1007, 24 at 1013). First letter ('EPISTOLA AD JOANNEM IMP.') at line 1141, page 25|26. Greek and Latin side by side.",
+   "parts": [
+    {
+     "title": "I. Ad Joannem Palaeologum imp., qua veteris et novae Romae comparatio continetur",
+     "ordoCol": "25",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "II. Ad Joannem Chrysoloram",
+     "ordoCol": "55",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "III. Ad Demetrium Chrysoloram",
+     "ordoCol": "87",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "JOANNES CANANUS",
+   "title": "Historia obsidionis urbis Cpolitanae ab Amurate II, anno 1422, die 10 Junii inchoatae, die 24 Augusti solutae",
+   "kind": "work",
+   "elenchusCol": "61",
+   "bodyCol": 61,
+   "bodyLine": 4257,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Body: header '61 NARRATIO DE CPOLI OPPUGNATA 62' at line 4254, Greek head 4257-4271, Latin 4277-4280 ('De bello Constantinopolitano anni ab orbe condito 6930'). A Notitia ex H. Warton on Cananus (line 4235, col 59) precedes and is not an Elenchus item."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Notitia biographica ex Henrici Warton Supplem. ad Cave de script. eccles.",
+   "kind": "editorial",
+   "elenchusCol": "81",
+   "bodyCol": 81,
+   "bodyLine": 5688,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Head 'NOTITIA HISTORICA (Henr. Warton)' at line 5688 on page 81|82 (header line 5641); Ordo 81."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Notitia bibliographica ex Joan. Alb. Fabricii Bibliotheca Graeca",
+   "kind": "editorial",
+   "elenchusCol": "85",
+   "bodyCol": 83,
+   "bodyLine": 5731,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Block reads 85; Ordo OCR '8$' (read 83, $ for 3). Head 'NOTITIA ALTERA (Fabric., Bibliotheca Graeca)' at line 5731 under a page header OCR '82 ... si' (line 5728), which by count from 81|82 (line 5641) is 83|84; the 85|86 header comes later at line 5861. Believe 83. Lines 5731-6095 appear twice in the OCR (second copy from line 5949)."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Dialogus cum matre sua, sive de nuptiis (titulus et principium, cum epistola Demetrio Cydonio inscripta quae Dialogo praemittitur)",
+   "kind": "work",
+   "elenchusCol": "85",
+   "bodyCol": 83,
+   "bodyLine": 5828,
+   "colStatus": "elenchus-garbled",
+   "greek": "greek-only",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Printed only as footnote (2) inside the Notitia altera, which gives the title and opening and the preface epistle to Demetrius Cydonius in Greek (line 5828, with the first mention at line 5790). Same page as the Notitia altera, 83|84 (header line 5728); block value 85 read as 83. Footnote text is on the page before the 85|86 header (line 5861)."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Epistola ad Andream Asanem περὶ ἀνείρων, de insomniis",
+   "kind": "work",
+   "elenchusCol": "87",
+   "bodyCol": 87,
+   "bodyLine": 6236,
+   "colStatus": "agree",
+   "greek": "greek-only",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Printed in full in Greek as footnote (3) to the Notitia altera (line 6236), page 87|88 (header line 6183); no Latin beside it in the OCR."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Oratio Panegyrica περὶ τῆς τοῦ βασιλέως ὑγείας",
+   "kind": "work",
+   "elenchusCol": "91",
+   "bodyCol": 91,
+   "bodyLine": 6500,
+   "colStatus": "agree",
+   "greek": "unknown",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Only a footnote on page 91|92 (line 6500, 'Manuelis orationem panegyricam Peri tes tou basileos hygeias edidit Boissonadius in Anecdotis novis, cum ejusdem ad Demetrium Cydonium epistola'); no text of the oration found in this volume. Elenchus lists it, so recorded here at the footnote."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Oratio in SS. Virginis Deiparae dormitionem",
+   "kind": "work",
+   "elenchusCol": "91",
+   "bodyCol": 91,
+   "bodyLine": 6525,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Header OCR 'MANUELIS PALAEOLOGI 9?' at line 6473; Greek-Latin title 'ORATIO IN SUMME VENERANDAM ... DORMITIONEM' lines 6522-6529 (interprete Caryophyllo); Ordo 91."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Canon deprecatorius in SS. Dominam Deiparam pro praesentibus periculis",
+   "kind": "work",
+   "elenchusCol": "107",
+   "bodyCol": 107,
+   "bodyLine": 8014,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Header '107 MANUELIS PALAEOLOGI 108' (OCR '197 ... 108') lines 7938-7944; head line 8014; Ordo 107."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Dialogi quos cum Persa aliquo habuit, Muterizae munere fungente in Galatiae oppido Ancyra. Praemittuntur C. B. Hasii editoris Prolegomena vernaculo sermone scripta",
+   "kind": "work",
+   "elenchusCol": "195",
+   "bodyCol": 125,
+   "bodyLine": 9254,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Block OCR '195' (read 125). Greek-Latin title block 'DIALOGOS ON EPOIESATO META TINOS PERSOU ... EN ANKYRA' lines 9254-9275 under header '125 DIALOGI CUM MOHAMETANO 126' (line 9171). Hasii's Prolegomena ('NOTICE D'UN OUVRAGE DE L'EMPEREUR MANUEL PALEOLOGUE', in French) begin earlier at line 8288, cols ~111-125; Ordo lists the Prolegomena without a column."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Praefatio ad Theodorum fratrem",
+   "kind": "work",
+   "elenchusCol": "195",
+   "bodyCol": 125,
+   "bodyLine": 9276,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Block OCR '195' (read 125); Ordo 'MANUELIS PROLOGUS ad Theodorum Palaeologum fratrem 25' (read 125). Text ('Theodore frater charissime') begins at line 9276 on the Dialogi title page 125|126. A separate 'PROOIMION / PRAEFATIO' head at lines 9474-9509 (page 129) belongs to the dialogue proper."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Dialogus primus. De angelis et animabus",
+   "kind": "work",
+   "elenchusCol": "155",
+   "bodyCol": 133,
+   "bodyLine": 9790,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Block OCR '155' (read 135 or 133); Ordo 133. Header '133 DIALOGUS CUM MOHAMETANO 134' at line 9752, head 'DIALOGUS PRIMUS' line 9790. Believe 133."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Dialogus II. De caelo et terra; item de Adami lapsu Christique judicio et Moamethis paradiso",
+   "kind": "work",
+   "elenchusCol": "149",
+   "bodyCol": 149,
+   "bodyLine": 11027,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints no column beside this title; a detached block of 12 numbers (OCR lines 346-373: 61, 81, 85, 85, 87, 91, 91, 107, 195, 195, 155, 149) sits after the Dialogus II title, one number for each of the 12 titles from Cananus to Dialogus II, so the mapping is inferred. Header '149/150' line 10996, head line 11027; Ordo 149."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Laudatio funebris fratris sui Theodori Palaeologi Despotae. Praemittuntur Franc. Combefisii Praefatio et Georgii Plethonis Protheoria",
+   "kind": "work",
+   "elenchusCol": "181",
+   "bodyCol": 181,
+   "bodyLine": 14204,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Lone number '181' at OCR line 446, after the Phrantza titles, fits this title (Ordo also OCR 'i81'). Header OCR '131' (read 181) at line 14195; Greek title 14204-14217, Latin 14223-14231. Combefis' MONITUM begins at line 13178 (col ~173; running head 'THEODORI DESPOTAE LAUDATIO FUNEBRIS' appears from 13126) and Plethon's 'PROTHEORIA' at line 13905 (col ~177). Ordo also lists 'Scitae sententiae ex hac oratione excerptae 307' (line 28558), an excerpt not entered separately."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Praecepta educationis regiae ad Joannem filium, ex editione Joannis Leunclavii Basileensi 1578, quae Francisco Medico, Magno Tusciae Duci inscribitur",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 309,
+   "bodyLine": 28670,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Header '309 PRAECEPTA EDUCATIONIS REGIAE 310' at line 28662; Latin title 'PRAECEPTA EDUCATIONIS REGIA AD JOANNEM FILIUM' lines 28670-28690, Greek title 28793-28803. Ordo prints no column. Greek and Latin."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Orationes septem ethico-politicae, ad Joannem filium, ex eadem editione",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 385,
+   "bodyLine": 37263,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Title 'MANUELIS PALAEOLOGI AD JOANNEM FILIUM ORATIONES VII ETHICO-POLITICAE' at lines 37256-37263, page 385|386 (between chain 383 at 37131 and 387 at 37399); Ordo prints 385 above Oratio I. Greek and Latin.",
+   "parts": [
+    {
+     "title": "I. Oratio hortatoria ad eloquentiae studium, deque virtute ac bono principe",
+     "ordoCol": "385",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "II. Quod bonum est ab omnibus naturaliter diligi ...",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "III. De electione, deque voluntario, tum quod malus non natura nec extrinsecus, sed sua ipse culpa sit malus",
+     "ordoCol": "419",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IV. De voluptate; quod eam praestaret ab hac vita prorsus abesse",
+     "ordoCol": "441",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "V. De voluptate (continuation)",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VI. Peccatum esse quiddam longe pessimum ...",
+     "ordoCol": "483",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VII. De humilitate atque etiam ex parte, de dilectione",
+     "ordoCol": "482",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Epilogus epistolaris",
+     "ordoCol": "557",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Oratio propitii principis ad benevolos subditos qui aetatis in flore sunt",
+   "kind": "work",
+   "elenchusCol": "(not in Elenchus; Ordo 561)",
+   "bodyCol": 561,
+   "bodyLine": 52698,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Ordo prints 561. Head 'ORATIO AD SUBDITOS' line 52655, Greek 52692-52695, Latin 'ORATIO PROPITII PRINCIPIS AD BENEVOLOS SUBDITOS QUI AETATIS IN FLORE SUNT' lines 52698-52707, between page anchors 558 (line 52371) and the 561 repeat; a second copy sits at lines 53968-54007 (see problems). Omitted by the Elenchus.",
+   "listedIn": "ordo-only"
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Preces matutinae",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 563,
+   "bodyLine": 52825,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek head 'EYXH TOY AYTOY BASILEOS' at line 52825, Latin 'IMPERATORIS EJUSDEM PRECES MATUTINAE' 52832, after header 563|564 (lines 52792-52798) and before 565|566 (52924). Ordo's column for it is unreadable. 'Alia preces matutinae' (line 53733) belongs to the same entry. OCR repeats pages 559-574 (see problems)."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Capita compunctionis metrica",
+   "kind": "work",
+   "elenchusCol": "575",
+   "bodyCol": 575,
+   "bodyLine": 55134,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column. Greek 'KEPHALAIA KATANYKTIKA DI' STICHON' at 55069, Latin 'CAPITA COMPUNCTIONIS VERSIBUS EXPOSITA' 55134, just after chain 576 (line 55059), i.e. page 575|576; Ordo 575."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Anacreonticon in quemdam ignorantem et loquacem",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 575,
+   "bodyLine": 55200,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Printed as footnote (1) on page 575|576 ('In Anecdotis P. Matrangae t. II legitur Manuelis Palaeologi Anacreonticon in quemdam ignorantem et loquacem, quod hic repraesentamus'), line 55200, with the Greek poem under it. Ordo may list it ('ALLE, 575'), reading uncertain."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Imago veris in aulaeo textili operis phrygii",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 577,
+   "bodyLine": 55239,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek 'EARos EIKON' line 55242, Latin 'IMAGO VERIS IN AULAEO TEXTILI, OPERIS PHRYGII' 55248; between chain 576 (55059) and 579 (55371); Ordo OCR '517' (read 577)."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "In persona Tamerlanis, ad Bajazetem in praelio victum allocutio",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 579,
+   "bodyLine": 55431,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Head at line 55431 just after chain 579 (line 55371); Ordo 579. An 'EPISTOLA' (header, line 55516, page 581|582) is the continuation of the allocutio."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "De fulmine Agareno (Bajazete) in forma psalmi",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 581,
+   "bodyLine": 55601,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek 'EN EIDEI PSALMOU' line 55547, Latin 'IN FORMA PSALMI. De fulmine Agareno' 55601; page 581|582 (header OCR '281 EPISTOLA 589' at lines 55513-55519); Ordo 581."
+  },
+  {
+   "author": "MANUEL II PALAEOLOGUS",
+   "title": "Epistola ad Manuelem Chrysoloram, ab imperatore scripta cum in aula regis Anglorum Henrici IV versaretur, auxilium emendicans",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 581,
+   "bodyLine": 55639,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "'Fragmentum epistolae Manuelis Palaeologi ad Manuelem Chrysoloram' at line 55639, directly after the Psalm, on page 581|582. Ordo OCR '931' (read 581). Greek and Latin."
+  },
+  {
+   "author": "JOANNES ANAGNOSTA",
+   "title": "Joannis Anagnostae Vita et Scripta, ex Hankio De Script. rer. Byzant.",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 585,
+   "bodyLine": 55680,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Title page 'ANNO DOMINI MCDXXX. JOANNES ANAGNOSTA. NOTITIA' at lines 55677-55686; header '585 JOANNES ANAGNOSTA - NOTITIA 586' at line 55745, 65 lines after the title, so the title may sit on 583|584 (header lost) rather than 585. Ordo prints 585, which is used here. Unsettled at +-2."
+  },
+  {
+   "author": "JOANNES ANAGNOSTA",
+   "title": "Narratio de extremo excidio Thessalonicae, anno 1430 ab Amurate II expugnatae",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 587,
+   "bodyLine": 55819,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek title 'IOANNOU ANAGNOSTOU DIEGESIS PERI TES TELEUTAIAS ALOSEOS THESSALONIKES' at 55819, Latin 'JOANNIS ANAGNOSTAE NARRATIO DE EXTREMO THESSALONICENSI EXCIDIO' at 55832, 74 lines after the 585|586 header; Ordo OCR '787' (read 587). No page header for 587 survives in the OCR."
+  },
+  {
+   "author": "GEORGIUS PHRANTZA",
+   "title": "De Vita et Scriptis Georgii Phrantzae, ex Joan. Alb. Fabricii Bibliotheca Graeca",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 633,
+   "bodyLine": 64773,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Title 'SECULO XV GEORGIUS PHRANTZES NOTITIA' at lines 64770-64776, header '633 NOTITIA 634' at line 64805; Ordo's column is unreadable."
+  },
+  {
+   "author": "GEORGIUS PHRANTZA",
+   "title": "Chronicon majus, ex editione Jacobi Pontani et Francisci Caroli Alteri",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 637,
+   "bodyLine": 65011,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Header '637 CHRONICON MAJUS - PROOEMIUM 638' at line 64966; Greek title 'XRONIKON GEORGIOU TOU PHRANTZE' 65011, Latin 'ANNALES GEORGII PHRANTZAE PROTOVESTIARII' 65016, Prooemium 65025-65030. Ordo OCR '551' for the Proemium (read 637); Liber I Greek head 'BIBLION A' at line 65168 (col 641|642). Greek and Latin.",
+   "parts": [
+    {
+     "title": "Prooemium",
+     "ordoCol": "551",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber primus, a Michaele Palaeologo usque ad Manuelem",
+     "ordoCol": "611",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber II, incipiens post mortem imp. Manuelis Palaeologi et ab initio imperii Joannis, filii ejus",
+     "ordoCol": "757",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber III. De imperio Constantini Palaeologi, expugnatione Cpolis et rebus quibusdam aliis",
+     "ordoCol": "807",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber IV, qui a capta regina urbium incipit ...",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "GEORGIUS PHRANTZA",
+   "title": "Chronicon minus seu abbreviatum, ex edit. card. Angeli Maii",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1025,
+   "bodyLine": 105592,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Title 'GEORGII PHRANTZAE CHRONICON MINUS' at line 105592, with 'EDITORIS ROMANI MONITUM' (line 105598; Ordo prints 1025) and Greek 'XRONIKON MIKRON' 105652; header OCR '1073 GEORGII PHRANTZAE' at 105585 (read 1025|1026). Greek and Latin."
+  }
+ ],
+ "problems": [
+  "The Elenchus prints no column beside any title; a detached block of 12 numbers (OCR lines 346-373) plus a lone '181' (line 446) are the only numbers. The 12-for-12 mapping (Cananus to Dialogus II) is inferred and cross-checked against the Ordo and the body; every bodyCol here rests on the body.",
+  "OCR duplication: pages 559-574 recur (lines 52371-53666 then 53795-54224), and pages 575-594 recur twice more (about lines 57157-60453); the Ordo header spells these ranges twice. First bodyLine given for every head; the 'ORATIO AD SUBDITOS' and 'PRECES MATUTINAE' heads each appear a second time (lines 53968, 54113). Also lines 5731-6095 (Notitia altera) and 102667-104986 (Phrantza cols 1011-1016) are repeated.",
+  "Items printed only inside the Fabricius Notitia altera (Dialogus cum matre, Epistola ad Andream Asan, Oratio Panegyrica) are footnotes there; the Panegyrica has no text in this volume at all.",
+  "Anagnosta's Vita (585) and Narratio (587) columns rest on the Ordo; the OCR page headers are missing between 585 and 589, so each is uncertain by up to 2 columns.",
+  "Elenchus lines 276-452 end with Phrantza's titles; the Elenchus omits Cananus' Notitia ex Warton (line 4235, col 59), Scitae sententiae (Ordo 307, line 28558), the Notitia/Vita pairs inside Chrysoloras (Ordo lists Vita ex Hankio 15 separately), Combefis' Monitum and Plethon's Protheoria (printed inside the Laudatio entry), Hasii Prolegomena, Romani editoris monitum and the 'Indices in Georgium Phrantzam' (Ordo ~1079). None entered."
+ ]
+}

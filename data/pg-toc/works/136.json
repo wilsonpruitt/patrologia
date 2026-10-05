@@ -1,0 +1,1034 @@
+{
+ "volume": 136,
+ "source": "archive.org patrologia-volumes 136_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "255-290",
+ "colMap": "cols 13-1399 (pg-colfind --stats); title block of col 9 sits before the map",
+ "entries": [
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "De Thessalonica urbe a Latinis capta",
+   "kind": "work",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 303,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Title block at line 303; the OCR column map starts at col 13 (line 586), and ~283 lines (two pages) lie between, so col 9 is inferred from page spacing. Bilingual (Greek, Latin side by side). Elenchus note: Eustathius's pieces are Latin ex interpretatione Migne."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Laudatio S. Philothei Opsiciani",
+   "kind": "work",
+   "elenchusCol": "141",
+   "bodyCol": 141,
+   "bodyLine": 9815,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 141/142 head; Greek head then Latin 'Ejusdem sermo memorialis vitae sancti Philothei Opsiciani'."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "S. Demetrii martyris Invocationes",
+   "kind": "work",
+   "elenchusCol": "161",
+   "bodyCol": 161,
+   "bodyLine": 11326,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Title block at 11326 (running head 'INVOCATIONES S. DEMETRII' at 11230, page 161/162). Greek canon with Latin 'Ejusdem Canon ad sanctum magnum martyrem Demetrium'."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Panegyricus sermo de eodem",
+   "kind": "work",
+   "elenchusCol": "169",
+   "bodyCol": 169,
+   "bodyLine": 11840,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Body running title 'LAUDATIO S. DEMETRII' (page 169 at line 11836); Greek with Latin 'Ejusdem de magno martyre sancto Demetrio panegyricus'."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Ad Stylitam quemdam Thessalonicensem",
+   "kind": "work",
+   "elenchusCol": "217",
+   "bodyCol": 217,
+   "bodyLine": 16773,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page number 217 garbled in OCR ('2:1') at line 16770, between running heads 215/216 and the head; page spacing fixes it."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "De SS. Alpheo et sociis martyribus",
+   "kind": "work",
+   "elenchusCol": "263",
+   "bodyCol": 263,
+   "bodyLine": 20255,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'ORATIO DE S. ALPHEO ET SOCIIS MARTYRIBUS'; the page numbers just above (lines 20180/20186, '268'/'204') are garbled for 263/264."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "De SS. martyribus Anania, Azaria et Misaele in fornacem conjectis",
+   "kind": "work",
+   "elenchusCol": "289",
+   "bodyCol": 289,
+   "bodyLine": 22184,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'ORATIO / DE SS. MARTYRIBUS ANANIA, AZARIA ET MISAELE IN FORNACEM CONJECTIS' on page 289/290."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "De obedientia magistratui Christiano debita",
+   "kind": "work",
+   "elenchusCol": "301",
+   "bodyCol": 301,
+   "bodyLine": 22976,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head at 22976 area, Latin 'Ejusdem de obedientia magistratui Christiano debita' at 23101-23104."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Prologus ad Pindarica",
+   "kind": "work",
+   "elenchusCol": "359",
+   "bodyCol": 359,
+   "bodyLine": 27275,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'TOU AUTOU ... TON PINDARIKON PAREKBOLON' at 27275-27281 (page 359/360); Latin 'PROLOGUS IN PINDARICA' running head follows."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "De simulatione",
+   "kind": "work",
+   "elenchusCol": "313",
+   "bodyCol": 373,
+   "bodyLine": 28283,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus '313' falls inside Obedientia/Pindarica (cols 301-372), so garbled for 373 (7 read as 1). Running heads count 369/370 (27930), 371/372 (28103), 373/374 (28283), 375/376 (28350), 377 (28507)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Contra injuriarum memoriam",
+   "kind": "work",
+   "elenchusCol": "407",
+   "bodyCol": 407,
+   "bodyLine": 30838,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Title block 'Adversus implacabilitatis accusationem' (Latin: Eustathii ... adversus exprobrantes ei injuriarum memoriam) at 30838-30841 on page 407/408, straight after the end of De simulatione; the running head 'CONTRA INJURIARUM MEMORIAM' first appears on page 409 (line 30911)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Expositio hymni pentecostalis Damasceni, ex editione Romana",
+   "kind": "work",
+   "elenchusCol": "501",
+   "bodyCol": 501,
+   "bodyLine": 37571,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Body title 'INTERPRETATIO HYMNI PENTECOSTALIS DAMASCENI' (Ordo: 'Interpretatio hymni pentecostalis Damasceni'); begins with a MONITUM at 37584 on the same page; Greek (Cyrus Euthymius's Prooimion etc.) with Latin."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Epistolae",
+   "kind": "work",
+   "elenchusCol": "1245",
+   "bodyCol": 1245,
+   "bodyLine": 101618,
+   "colStatus": "agree",
+   "greek": "greek-only",
+   "note": "Preceded by 'ADDENDA' and a MONITUM EDITORUM (line 101582-101588) saying the epistles are added Greek only, not translated. Page numbers near line 101446 ('1913'/'1214') are 1243/1244 garbled, so the head sits on page 1245/1246."
+  },
+  {
+   "author": "ANTONIUS MELISSA",
+   "title": "Sententiae sive loci communes ex sacris et profanis auctoribus collecti",
+   "kind": "work",
+   "elenchusCol": "165",
+   "bodyCol": 765,
+   "bodyLine": 56661,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus '165' garbled for 765 (7 read as 1). Antonius Melissa heading at 56604 with Notitia (Ex Bibliotheca Graeca Fabricii) at 56607, page 765; Pars I Sermo I (Greek 'AOTOS A'' + Latin 'SERMO I [al. CLX]') at 56661. Parts below taken from the Ordo; see problems.",
+   "parts": [
+    {
+     "title": "Pars I Sermo I [al. CLX]: De fide et pietate in Deum, et quod omnibus bonis antecellant, quando maxime per bona opera resplendent",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo II [al. CLXI]: De illis qui pietatem ac fidem praevaricantur, et in Deum sunt impii",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo III [al. CLXIII]: De dilectione et timore Dei",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo IV: De illis qui Deum nec ti- ment nec diligunt.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo Y: De spe io Deum, et quod spe: in Deum noa in bumana præsidia collocari debeat.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo VI: De tis qui divitiis et bomi- \"T nibus dunt, nec in Deo spem et fidpelam omnem sitam cn `",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo VI: De virtute.",
+     "ordoCol": "191",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo VIII: De sapientis, et intellectu, 927 et prudentia. : 799 perito eL stulto. Sermo ]X fal. XXVIIT]. — De imprudente, sto!ido, im-",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo X: De consflie et quod omnia consulto ^onsiderateque agenda sint.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XI: De temerario et tardo consi- lio, et quod noxium sit inconsideralo agere.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XII: De fortitedine et robore.",
+     "ordoCol": "805",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XIN: De justa.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XIV: De virginitate, et castitate, et temperantia, et nuptíis honestis. eruo XV [ul.LXV].—De scortatione et adulterio.",
+     "ordoCol": "815",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XVI: De injustitia et peccato et cogdessione. 165 fessione.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XVII: De pænitentia et con-",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XVII: De illis qui chto mulan- tur in deteriorem statum eL de penitentia.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XIX: De illis qul ad poniten- tiam non convertuntur, l",
+     "ordoCol": "855",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XX: De futuro iudicio",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XYI: De veritate ot testimonio fideli,",
+     "ordoCol": "811",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXI: De mendacio et calum- nia, et falso testimonio.",
+     "ordoCol": "813",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXIII: De fratribus, et amore ac odio in fratres,",
+     "ordoCol": "815",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXIV: De amicis et amore fra- terno.",
+     "ordoCol": "811",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXV: De amicis improbis.",
+     "ordoCol": "851",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXVI: De charitate, seu dilectione, pace, coacordia et pacificis.",
+     "ordoCol": "855",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXVII: De eleemosyna et benef- centía in pauperes,",
+     "ordoCol": "861",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXVIII: De parcis et illiberalibus, et eleemosynam non facientibus.",
+     "ordoCol": "813",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXIX: De beneficentia et gratia et ingratitudine.",
+     "ordoCol": "875",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXX: De inopia et paucorum Terum indigentia.",
+     "ordoCol": "879",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXI: De divitiis et divítibus, qui bene ac decenter vivunt.",
+     "ordoCol": "881",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXII: De divitibus qui male vivunt, et de malis eos sequentibus.",
+     "ordoCol": "885",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXIII: De egenis et pauperi- bus.",
+     "ordoCol": "889",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXIV: De avaritia.",
+     "ordoCol": "893",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXV: De avaritia, et qualibet ín re. plus habere volentibus et injustis.",
+     "ordoCol": "895",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXVI: De virtote qu: animum suis et presentibus rebus contentum reddit.",
+     "ordoCol": "901",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXVII: Quod major pars non semper melior sit.",
+     "ordoCol": "905",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXVIII: De jejunio et conti- nentia,",
+     "ordoCol": "903",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XXXIX: De gula et incontinen- tía circa mensam,",
+     "ordoCol": "901",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XL: De prodigalitate et luxuria.",
+     "ordoCol": "915",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLI: De ebrietate,",
+     "ordoCol": "915",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLII: De somno.",
+     "ordoCol": "919",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLIII: De insomniis.",
+     "ordoCol": "921",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLIV: De fide.",
+     "ordoCol": "921",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLV: De Providentia.",
+     "ordoCol": "9325",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLYI: De oratione.",
+     "ordoCol": "925",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLVII: De actione.",
+     "ordoCol": "927",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLVII: De doctrina que tum sermone tum conversatione fit,",
+     "ordoCol": "921",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo XLIX: De admonitione,",
+     "ordoCol": "929",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo L: De disciplina e? philoso- phia.",
+     "ordoCol": "951",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LI: De lande.",
+     "ordoCol": "937",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo L: De adulatione.",
+     "ordoCol": "959",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LIII: De vituperio et",
+     "ordoCol": "calumnia.945",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LIV: De memoria.",
+     "ordoCol": "917",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LV: De anima.",
+     "ordoCol": "949",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LVI: De medicis.",
+     "ordoCol": "951",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LVII: De ægrotantibus.",
+     "ordoCol": "983",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LVIII: De morte.",
+     "ordoCol": "955",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LIX: De cognoscendo seipsum.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LX: De pulchritudine.",
+     "ordoCol": "959",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LX!: De gloria.",
+     "ordoCol": "961",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXII: De invidia.",
+     "ordoCol": "961",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXJII: De risu.",
+     "ordoCol": "969",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXIV: De rationali, el ratione seu cogitatione.",
+     "ordoCol": ":971",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXV: De voluntario et involunta- rio. ri",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXVI: De timore .Domisi, et de timore in genere.",
+     "ordoCol": "913",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXVII: De lege.",
+     "ordoCol": "975",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXVIII: Virtutem bonorandam, et vitium puniendum esse.",
+     "ordoCol": "$77",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXIX: Malitiam esse faeilem et vir- tutem aequisitu difficilem.",
+     "ordoCol": "979",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXX: De fortuna boaa et mala.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LIXI: De vitæ inzqualitate.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXXII: De tristitia et mcrore.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo L: De silentio et arcanis.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXXIV: De multiloquis et festi- nate loquentibus, et arcana efferentibus.",
+     "ordoCol": "993",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars I Sermo LXXV: De illis qui linguam suam et os custodiunt, e£ de sermone non duro neque eontu- mace.",
+     "ordoCol": "995",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo I: De rege commodo et æquo : el de magistratu ac potestate.",
+     "ordoCol": "995",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo lI: De rege non multum admirando (vel de rege malo). 1009 Sznuo il [al. CLXXIII]. — De episcopis ssoderatis et Dei mandata obsrrvantibus ; gravem et talem qus reprehendi non possit vitam eorum documentum esse iis quibus prsesint.",
+     "ordoCol": "10i1",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo IV: De episcopis improbis, nec Dei precepta observanlibus.",
+     "ordoCol": "1021",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo V: De principibus moderstis.",
+     "ordoCol": "1029",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo VI: De principibus improbis.",
+     "ordoCol": "1051",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo VII: De judicibus incorroptis et puras habentibus manus, quique justitiam exercent. Et acceptum esse Deo recte vereque jndicia exercere.",
+     "ordoCol": "1053",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo VII: De .judicibus nommariis et munera sceipreptibus, et contra jus et fas condemnana- tibus.",
+     "ordoCol": "1057",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo IX: De parentibus bonis, et quod oporteat liberos diligenter ac decenter institoi.",
+     "ordoCol": "1041",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo X: De parentibus liberorum educationem neglectim curantibus.",
+     "ordoCol": "1043",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XI: De liberis parentes hono- rantibus, et quz? bona consequantur qui illis obtempe- rarint,",
+     "ordoCol": "1045",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XII: De patricidis et matrici- dis, el qux eos secutura sint mala.",
+     "ordoCol": "1049",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo X: De fiiio sapiente.",
+     "ordoCol": "1019",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XIV: De filio insipiente, impro- bo et inerudito.",
+     "ordoCol": "1051",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XY: De filia honesta et modesta.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XVI: De filia minime honesta et immodesta.",
+     "ordoCol": "1053",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XVII: De senibus virtute et pru- dentia ornatis,",
+     "ordoCol": "1058",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XVII: De senibus iphonestis et imprudenti- bus.",
+     "ordoCol": "1055",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XIX: De juvenibus eruditione et prudentia ornatis.",
+     "ordoCol": "1057",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XX: De juvenibus in impruden- tia et ignoratione vitam degentibus.",
+     "ordoCol": "1059",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXI: De bonis et benignis domi- nis.",
+     "ordoCol": "1061",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXII: De improbis dominis,",
+     "ordoCol": "1065",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXIII: De frogi servis. —",
+     "ordoCol": "1065",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXIV: De servis improbis.",
+     "ordoCol": "1065",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XIV: De probis creditoribus.",
+     "ordoCol": "1067",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXVI: De avaris et improbis cre- ditoribus.",
+     "ordoCol": "1069",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXVII: De iis qui mutuantnr et quod equum est creditoribus gratos esse.",
+     "ordoCol": "1071",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXVIII: De ingratis cum mutuum SUYO pserio t. `",
+     "ordoCol": "1071",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXIX: De mercede conducenti- bus, seu operariorum dominis probis.",
+     "ordoCol": "1073",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXX: De mercede conducenti- bus, seu operariorum dornims improbis.",
+     "ordoCol": "1073",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXI: De viris bonis et probis.",
+     "ordoCol": "1075",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXII: De malis et improbis viris.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXIII: De moliere forti, et temperanti, et sagace.",
+     "ordoCol": "1085",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXIV: De improbis mulieribus et adulteris omnique vitio plenis.",
+     "ordoCol": "1087",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXIY: De congregatione bonorum virorum; et prsstantissimis adbsrendum esse, non item improbis, 1091 .",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXVI: De congregatione malorum virorum; et quod oportet sodalitates improborum exitio- sas evitare,",
+     "ordoCol": "1095",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXVII: De illis qui optimos et sanctos viros honorant.",
+     "ordoCol": "1095",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXVIII: De iis qui sanetos et prostantes viros ignominia afficiunt.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XXXIX: De improbitatis odio, ac de lis qui quæ absuróa sunt declinant.",
+     "ordoCol": "1101",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XL: De iis qui malis delectantur, probautque improbitatem.",
+     "ordoCol": "1103",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLI: De bonis civibus.",
+     "ordoCol": "1105",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLII: De civibus improbis,",
+     "ordoCol": "1105",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLIII: De monachis probis et bo- nis præfectis, $107 ,",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLIV: De monachis inconstanti- bus et ad vitia revertentibus.",
+     "ordoCol": "1115",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLV: De iis qui opus libenter faclunt et studiose. Item laborandum esse, quod labor utilitatem habeat.",
+     "ordoCol": "1119",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLVI: De osoribus laborum et ope- Tum, ac pigris, nibil curantibus et incuriis.",
+     "ordoCol": "1123",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLVII: De przstanti sensu et in telleciu praeditis.",
+     "ordoCol": "1127",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLVI: De nullo sensu aut in- dellectu praeditis. 1129 4 c v =",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XLIX: De escmise boae el pr» tiam habente.",
+     "ordoCol": "1:39",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo L: De momipe maio ei pra :zm non,babente.",
+     "ordoCol": "1:39",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LI: De ponderibes, stzers et mensuris.",
+     "ordoCol": "1139",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LII: De ponderibus et stateris et saemsmris iniquis.",
+     "ordoCol": "1131",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LIII: De excandesceniia et ira,",
+     "ordoCol": "1151",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LIV: De simplicitate et injuriaruss memoria, |",
+     "ordoCol": "1155",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LY: De proximo; quod proximi onera ferenda sint, eique succurrendum, et quod amice reprehendere deceat, si quid indecenter egerit, non autem inimieitias cum illo gerere.",
+     "ordoCol": "1139",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LVI: De iísqui non remittunt, at injurias meminerunt.",
+     "ordoCol": "1115",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LVII: De gratis et beneficia agnos- centibus.",
+     "ordoCol": "1147",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LVIII: De ingratis et beneficia non agnoscentibus.",
+     "ordoCol": "1149",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo L1X: De consultore et illis qui consilium et reprehensionem admittunt, et quod intelligere oporteat quis sit consultor, (Desideratur.)",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LX: De iis qui consilium et repre- hensionem non sdmittunt,",
+     "ordoCol": "1191",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LII: De pudore honesto.",
+     "ordoCol": "1155",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXII: De verecundia improbanda.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LNII: De iis qui jurejurando frequenter uluntur: item non licere frustra usurpare jusjurandum, aut omniho jurare.",
+     "ordoCol": "1155",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXIV: De multum jurantibus et jusjurandum exigentibus.",
+     "ordoCol": "1157",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXV: De zelo bono et imitatione bona.",
+     "ordoCol": "1157",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXVI: De zelo et imitatione prava.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXVII: De charitate, pace, concordia et pa- cificis.",
+     "ordoCol": "1161",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXVIII: De odio et inimicitiis, et pugnas serentibus.",
+     "ordoCol": "1161",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXIX: De oblecutoribus, et contu- melia.",
+     "ordoCol": "1165",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXX: De loqoacitate et temeritate in dicendo. `",
+     "ordoCol": "1167",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXX!: De contradictione, et au- dacia, et contentione.",
+     "ordoCol": "1169",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXII: De temerario et impu- dente, et iracundo, et efervescente irs, et extrema bi- lis homine.",
+     "ordoCol": "1171",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXIII: De modestis et spiritu pauperibus.",
+     "ordoCol": "17",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXIV: De superbis et proter- yis et atrogantibus, et inanis glorie cupidis.",
+     "ordoCol": "1179",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXV: De amore sui.",
+     "ordoCol": "1189",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXVI: De curiositate et se- curitate et quiele, ac quietum esse Dei cognitionem conciliare.",
+     "ordoCol": "1187",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXYXYI!I: De negotiorum sollici- tudine et distractione.",
+     "ordoCol": "1194",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXVIII: De libertate reprehen- deudi.",
+     "ordoCol": "1195",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXIX: De generis nobilitato et ignobilitate.",
+     "ordoCol": "1190",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXX: De consuetudine et more.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXI: De conscientia.",
+     "ordoCol": "1199",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXII: De conscientia.",
+     "ordoCol": "1!99",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXIII: De benignitate.",
+     "ordoCol": "1199",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXIV: De clementia et ve- recundia.",
+     "ordoCol": "1201",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXV: De viro simplici et inno- cente.",
+     "ordoCol": "1305",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXVI: De versuto, et doloso, et perversis moribus prsedito.",
+     "ordoCol": "1205",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXVII: De puro corde et cogitationibus, et de iis qui puram babent conscientiam.",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXVIII: De corde versuto, deque mala conscientía.",
+     "ordoCol": "1209",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo LXXXIX: De patientia et lenilate, vel longanimitate,",
+     "ordoCol": "1215",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XC: De non patientibus et ani- mo parvo preditis.",
+     "ordoCol": "1319",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo X: De repabliea bonesta, et qe € dientia, 122 Bzaxso XCII [al. C]. — De republica vituperanda, e inobedientibus ac rebellibus, deque iis qui moribus im- probandis predití sunt.",
+     "ordoCol": "1225",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XCII: De remuneralione eorum qui bene et ex virtute vixerunt, in beatitudine sempi- terna.",
+     "ordoCol": "1225",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XCIV: De remuneratione eorum qui jn vitio et illicite vixerint : perpeteumque i!lís et interminatum propositum esse supplicium.",
+     "ordoCol": "12217",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XCY: Quomodo subjici quis de- beat, et valedicere mundo et postea exercere. ti",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XCVI: De prefecto. 1255 Seano XCVII (al. CLXXVII]. -- De iis qui ob cibos offenduntur, et de mensarum differentia.",
+     "ordoCol": "1255",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XCVIII: De non offemdendo nec judicando quoquam.",
+     "ordoCol": "1251",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo XCIX: De megligentibus et inertibus : et quod, si vigilemas, nihi] nos diabolus pos- sit lædere.",
+     "ordoCol": "1259",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars II Sermo C: De participatione divino- rum Christi mysteriorum,",
+     "ordoCol": "124",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "ANTONIUS MELISSA",
+   "title": "Index ad Antonii Melissae Locos communes",
+   "kind": "editorial",
+   "elenchusCol": "1333",
+   "bodyCol": 1333,
+   "bodyLine": 108077,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Running head at 108077, title block 'INDEX AD ANTONII MELISSAE LOCOS COMMUNES' at 108109 on the same page 1333/1334; index of Latin headwords with sermon numbers."
+  }
+ ],
+ "problems": [
+  "The Elenchus is headed 'Operum continuatio' (Eustathius's works continued from PG 135); the Ordo lists the Eustathius works WITHOUT columns except the first, so the Ordo could not cross-check them; every column confirmed from running heads and page numbers in the body.",
+  "Elenchus 'Sententiae ... 165' for Antonius Melissa read as 765 (body); De simulatione '313' read as 373 (body).",
+  "Parts for Melissa's Sententiae come from the Ordo, which the OCR scrambles badly: Pars I (Sermones I-LXXV) and Pars II (I-C) are interleaved with detached column numbers, so many ordoCol are empty and some read wrong (e.g. Sermo VII '191', several '8xx' values where Pars I runs ~765-1000). 167 of the expected 175 sermon heads were recovered (OCR roman numerals kept as read, some wrong, e.g. 'LIXI', 'XIV' for XXV); Pars I Sermones I-III supplied by hand without columns. Parts are unconfirmed in the body, as the brief directs.",
+  "Not entered (editorial, omitted by Elenchus): Notitia on Antonius Melissa (line 56607, col 765), 'Addenda Eustathii Epistolae' (line 107914, col 1331-1332), Monitum before the Epistolae (listed in note). Also not in Elenchus or Ordo: Euthymius Neopatrensis, Notitia and 'Laudatio funebris Eustathii' (lines 56052-56460, cols ~757-763), a work by another author inside the Eustathius/Melissa run.",
+  "Epistolae pages 1245-1332 body: Greek only by Migne's own Monitum.",
+  "Page 1245 for Epistolae rests on inference from 1243/1244 garbled numbers ('1913'/'1214') at line 101446 plus page spacing; OCR shows these numbers, not a plate read."
+ ]
+}

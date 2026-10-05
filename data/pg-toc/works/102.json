@@ -1,0 +1,81 @@
+{
+  "volume": 102,
+  "source": "archive.org patrologia-volumes 102_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "193-231 (Elenchus and Lectori note; the cut then runs into Wolfius's Praefatio)",
+  "colMap": "cols 12-1045 (pg-colfind --stats; 591 anchors, 92 jumps >2 cols)",
+  "entries": [
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "Contra Manichaeos libri quatuor, ex editione J. Christophori Wolfi",
+      "kind": "work",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 233,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Section heading 'Operum pars II. Dogmatica' (OCR 'lf') has no column. Entry starts at Wolfius's Praefatio (head line 233, col 9 by Ordo and by running heads '11/12' at line 285); the Greek title block of Libri IV is at line 424, col ~15 (Ordo 15); Liber IV running head col 260 (line 20638)."
+    },
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "De Spiritus sancti mystagogia liber, quem primus edidit et notis illustravit J. Hergenroether, in universitate Wirceburgensi theologiae doctor",
+      "kind": "work",
+      "elenchusCol": "203",
+      "bodyCol": 263,
+      "bodyLine": 20828,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus reads 203; col 203 falls inside Contra Manichaeos (a different work), and Ordo reads 263. Body: page header 263/264 at line 20784, Greek title block line 20828, Hergenroether Praefatio line 20855 (Ordo: Praefatio 263, Doctrina seu Mystagogia 279, Pars altera 395, Mystagogia 399, not individually checked)."
+    },
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "Homiliae, ex editione Franc. Combefisii",
+      "kind": "work",
+      "elenchusCol": "547",
+      "bodyCol": 547,
+      "bodyLine": 43989,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "'HOMILIAE' heading on page 547/48 (anchor misread '541' at line 43983); Ordo reads 547. Section heading 'Operum pars tertia. Parenetica' and Prolegomenon/Catalogus homiliarum at col 543 (line 43493; Ordo 542); Homilia I proper at col 549 (line 44122); Homilia III Encomium S. Athanasii col 575 (Ordo)."
+    },
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "Carmina, ex Junio Bollandiano et Ang. Maio",
+      "kind": "work",
+      "elenchusCol": "$15",
+      "bodyCol": 575,
+      "bodyLine": 46095,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus reads '$15'; Ordo reads 575 and the body's garbled page numbers '515/916' (lines 46006-46012) are the 575/576 page. Heads: CARMINA line 46095, Sticheron in S. Methodium line 46098, Monitum in odas line 46138 (Ordo 575, 577)."
+    },
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "Epistolarum libri tres, ordine novo dispositi, ex Baronio, Montacutio, Combefisio, Franc. Scorso, Cotelerio, Ang. Maio, Jagero",
+      "kind": "work",
+      "elenchusCol": "SRI",
+      "bodyCol": 586,
+      "bodyLine": 46606,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus reads 'SRI' (letters; plausibly 586); Ordo reads 586. Body: title block 'OPERUM PARS QUARTA / OPERA HISTORICA / EPISTOLARUM LIBRI TRES' at line 46606 on the page before anchor 587, i.e. page 585/586. Section heading 'Pars IV. Opera historica' has no column. Liber III (Ep. LXIV-LXVII) runs to col ~989; Ang. Mai Animadversiones col 989 and Indices cols 989-1013 are not Elenchus items."
+    },
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "Lectori (note on the Epistola ad Ecclesiam Antiochenam from TOMOS XAPAS, to be added at the end of the tome)",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": null,
+      "bodyLine": 213,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Printed on the Elenchus page itself (line 213), so it carries no column. The note promises Photius's Epistola ad Ecclesiam Antiochenam 'ad calcem hujus tomi' with Latin interpretation; searches for ANTIOCHEN, XAPA, Sgouta, 'archiepiscopal' found no such text in cols 989-1013 (index) of the OCR."
+    }
+  ],
+  "problems": [
+    "Elenchus lists only the five main works (plus the Lectori note); sub-items are in the Ordo, not entered.",
+    "Elenchus columns for Mystagogia, Carmina, Epistolae are OCR-garbled (203, $15, SRI); body and Ordo settle them.",
+    "The Epistola ad Ecclesiam Antiochenam promised by the Lectori note was not found in the OCR.",
+    "Page-number lines near cols 575 and 547 are garbled (515/916, 541), placed by neighbouring anchors and the Ordo."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+ "volume": 134,
+ "source": "archive.org patrologia-volumes 134_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "203-276",
+ "colMap": "cols 3-1415 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Caroli Ducangii Praefatio, in qua de Joannis Zonarae scriptis et rebus gestis",
+   "kind": "editorial",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 256,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'DUCANGII PRAEFATIO' at line 256; Ordo 9. Col 9 precedes the first mapped anchor (13, header '13 PRAEFATIO 14' at 395), so it rests on Elenchus+Ordo agreement and position."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Hieronymi Wolfii Praefatio",
+   "kind": "editorial",
+   "elenchusCol": "21",
+   "bodyCol": 27,
+   "bodyLine": 959,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR '21'; Ordo '27'. Head 'HIERONYMI WOLFII ... JOANNIS ZONARAE ANNALES PRAEFATIO' at 959 on page 27|28 (header at 912; 29|30 header at 977). 21 would fall inside Du Cange's preface. Body-confirmed 27."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Annales",
+   "kind": "work",
+   "elenchusCol": "9",
+   "bodyCol": 39,
+   "bodyLine": 1349,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '9', Ordo '$9' (leading 3 lost). Greek 'IOANNOU TOU ZONARA CHRONIKON' (1347) and 'JOANNIS ZONARAE ANNALES. PRAEFATIO' (1349-1352) follow a bare '99' (= 39) at line 1321, after Wolfii's Preface ends (1335). Includes the author's Praefatio (Ordo 'Praefatio auctoris 59') on 39ff; Liber primus head at line 2069 on 51|52 (Ordo '8I'). Parts from the Ordo as read, not body-confirmed; Ordo digits are unreliable here (3 for 5/8 etc).",
+   "parts": [
+    {
+     "title": "Praefatio auctoris",
+     "ordoCol": "59",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber primus",
+     "ordoCol": "8I",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber secundus",
+     "ordoCol": "146",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber tertius",
+     "ordoCol": "2223",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber quartus",
+     "ordoCol": "511",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber quintus",
+     "ordoCol": "$81",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber sextus",
+     "ordoCol": "459",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber septimus",
+     "ordoCol": "»iS",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber octavus",
+     "ordoCol": "630",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber nonus",
+     "ordoCol": "-",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber decimus",
+     "ordoCol": "802",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber undecimus",
+     "ordoCol": "921",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber duodecimus",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber decimus tertius",
+     "ordoCol": "1097",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber decimus quartus",
+     "ordoCol": "12092",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber decimus quintus",
+     "ordoCol": "1313",
+     "colStatus": "ordo-only"
+    }
+   ]
+  }
+ ],
+ "problems": [
+  "Ordo-only editorial item not entered: 'Monitum ejusdem lectori' (Ordo 26; body head 'LECTORI' line 899, page 25|26).",
+  "Ordo column digits are heavily garbled (2223, 12092, $81, 8I, »iS); parts not body-confirmed. Whether the later books run past Liber XV into the volume's end is not checked."
+ ]
+}

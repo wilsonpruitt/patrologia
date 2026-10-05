@@ -1,0 +1,214 @@
+{
+ "volume": 106,
+ "source": "archive.org patrologiaecurs67migngoog djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "268-320 (106.txt cut runs to 342; second OCR 106-alt.txt lines 262-312)",
+ "colMap": "cols 11-1419 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "JOSEPPUS CHRISTIANUS",
+   "title": "Libellus memorialis in Vetus et Novum Testamentum",
+   "kind": "work",
+   "elenchusCol": "15",
+   "bodyCol": 15,
+   "bodyLine": 581,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Running head '15 JOSEPPI 16' at line 575; Greek title ('YPOMNESTIKON BIBLION') at 581, Latin 'JOSEPPI MEMORIALIS LIBELLUS' at 585. Greek and Latin side by side."
+  },
+  {
+   "author": "NICEPHORUS PHILOSOPHUS CHRISTIANUS",
+   "title": "Vita S. Antonii Cauleae, patriarchae Constantinopolitani, ex Actis Sanctorum Bollandianis",
+   "kind": "work",
+   "elenchusCol": "178",
+   "bodyCol": 178,
+   "bodyLine": 14108,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'NICEPHORI PHILOSOPHI / VITA S. ANTONII COGNOMENTO CAULEAE PATRIARCHAE CP. (Acta SS. Bolland. ...)' at line 14108, after Notitia (col 176), on page 177|178 (next header 179|180 at 14126). Opens with 'Commentarius praevius' (Bollandist, Latin). Text is Latin (Bollandist version; Greek only in notes); the Oratio in S. Antonium Cauleam proper begins ~col 181 (line 14337). 106-alt.txt reads the Elenchus as 118 (7 misread as 1); this OCR reads 178."
+  },
+  {
+   "author": "S. ANDREAS CAESAREAE CAPPADOCIAE ARCHIEPISCOPUS",
+   "title": "Commentarius in Apocalypsin",
+   "kind": "work",
+   "elenchusCol": "207",
+   "bodyCol": 207,
+   "bodyLine": 15948,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus 106.txt OCR reads '201' (7 misread as 1); 106-alt.txt reads 207, and the body settles it: Greek title ('TOU EN AGIOIS PATROS HEMON ANDREOU ARCHIEPISKOPOU KAISAREIAS KAPPADOKIAS HERMENEIA EIS TEN APOKALYPSIN') at line 15948 on page 207|208 (running head 207 ANDREAE CAESARIENSIS 208 at 15911), then Latin title and Dedication. Notitia at cols 199-206 precedes (lines 15632-15840), and the Ordo prints 'Proemia 207'. Elenchus asterisk note on Andreas's placement is Migne's own."
+  },
+  {
+   "author": "ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR",
+   "title": "Commentarius in Apocalypsin",
+   "kind": "work",
+   "elenchusCol": "486",
+   "bodyCol": 487,
+   "bodyLine": 40374,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus 106.txt reads 486, 106-alt.txt reads 488; body Greek head ('SYLLOGE EXEGESEON EK DIAPHORON AGION ANDRON EIS TEN APOKALYPSIN', line 40374) sits under running head '487 JOAN. HENTENII PRAEFATIO' (OCR '431'), page 487|488; both readings are within +-1 of the page. Author block 'ARETHAS ... NOTITIA' at line 40324 on page 485|486. Greek and Latin."
+  },
+  {
+   "author": "ARETHAS S. ANDREAE DISCIPULUS ET SUCCESSOR",
+   "title": "Oratio de SS. Samona, Guria et Abibo",
+   "kind": "work",
+   "elenchusCol": "81",
+   "bodyCol": 787,
+   "bodyLine": 65017,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus 106.txt reads '81', 106-alt.txt reads '181'; the Ordo prints 787 and the body page precedes 789. Head 'ARETHAE ARCHIEPISCOPI CAESAREENSIS ORATIO DE SS. MARTYRIBUS SAMONA, GURIA ET ABIBO (Surius, Acta SS.)' at line 65017. Page numbers for this page are lost in the OCR (junk '151' '198' at lines 65008-65011); col 787 inferred from Ordo and sequence (786 at line 64879, Apocalypsin commentary ends before). 181 for 787 is the usual 7-for-1 misread. OCR shows Latin only."
+  },
+  {
+   "author": "JOANNES GEOMETRA",
+   "title": "Sermo in SS. Deiparae Annuntiationem",
+   "kind": "work",
+   "elenchusCol": "811",
+   "bodyCol": 811,
+   "bodyLine": 66608,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Preceded by 'Notitia' (col 806), 'Notitia altera' (807) and a note on Joannes's lost commentaries (line 66596), not Elenchus items. Greek title ('TOU MAKARIOU IOANNOU LOGOS PROSPHONETIKOS ...') at 66608, then Latin 'BEATI JOANNIS GEOMETRAE IN SANCTISSIMAE DEIPARAE ANNUNTIATIONEM SERMO' at 66617; header '811 JOANNIS GEOMETRAE 812' at lines 66586-66592. Greek and Latin side by side."
+  },
+  {
+   "author": "JOANNES GEOMETRA",
+   "title": "Oratio de malo",
+   "kind": "work",
+   "elenchusCol": "87",
+   "bodyCol": 847,
+   "bodyLine": 69276,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus 106.txt reads '87' (a digit is lost), 106-alt.txt reads '841'; the Ordo prints '817'. Body Greek head ('IOANNOU PROTOTHRONOU TOU GEOMETROU PERI TOU MALOU', line 69276) and Latin 'JOANNIS GEOMETRAE PROTOTHRONI DE MALO' on page 847|848 (header '847 JOANNIS GEOMETRAE 848' lines 69249-69255). The Sermo in Annuntiationem runs to the page before (running heads at cols 835-845), so every OCR reading (87, 841, 817) is a misread of 847. Settled by the body, not guessed."
+  },
+  {
+   "author": "JOANNES GEOMETRA",
+   "title": "Hymni quinque in S. Deiparam",
+   "kind": "work",
+   "elenchusCol": "854",
+   "bodyCol": 853,
+   "bodyLine": 69770,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'IOANNOU GEOMETROU YMNOI PENTE EIS TEN YPERAGIAN THEOTOKON' at line 69770, then Latin 'HYMNI QUINQUE IN SANCTISSIMAM DEIPARAM' and 'ADMONITIO'; page 853|854 (header '855 JOANNIS GEOMETRAE 856' follows at line 69795). Elenchus 854 is the page's other column (+-1)."
+  },
+  {
+   "author": "JOANNES GEOMETRA",
+   "title": "Paradisus",
+   "kind": "work",
+   "elenchusCol": "861",
+   "bodyCol": 867,
+   "bodyLine": 70876,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Both OCRs read Elenchus 861, which falls inside the Hymni (cols 853-866), so it is garbled (7 read as 1); the Ordo prints 867. Greek head ('IOANNOU GEOMETROU EPIGRAMMATA TETRASTICHA ... PARADEISOS', line 70876) and Latin 'EPIGRAMMATA TETRASTICHA QUIBUS TITULUM FECIT PARADISUS' on page 867|868 (header '867 JOANNIS GEOMETRAE 868' at line 70803; next header 869 at line 70897). Greek and Latin."
+  },
+  {
+   "author": "JOANNES GEOMETRA",
+   "title": "Elogium S. Panteleemonis martyris",
+   "kind": "work",
+   "elenchusCol": "890",
+   "bodyCol": 890,
+   "bodyLine": 72552,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head ('IOANNOU GEOMETROU ENKOMION EIS TON AGION MEGALOMARTYRA PANTELEEMONA') at line 72552, Latin 'ELOGIUM SANCTISSIMI MARTYRIS PANTELEEMONIS' at 72564, page 889|890 (anchor 889 at line 72474; a running head 'S. PANTELEEMONIS ELOGIUM' at 72511)."
+  },
+  {
+   "author": "JOANNES GEOMETRA",
+   "title": "Carmina varia argumenti sacri vel historici, ex Anecdotis Parisiensibus J.-A. Crameri, addita interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "901",
+   "bodyCol": 901,
+   "bodyLine": 73482,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'JOANNIS GEOMETRAE ... CARMINA VARIA ARGUMENTI SACRI VEL HISTORICI' at line 73482, page 901|902 (header '901 CARMINA VARIA. 902' at line 73435). Greek verse with Migne's Latin interpretatio."
+  },
+  {
+   "author": "COSMAS VESTITOR",
+   "title": "Sermo in SS. Joachim et Annam",
+   "kind": "work",
+   "elenchusCol": "1006",
+   "bodyCol": 1006,
+   "bodyLine": 81921,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head ('TOU MAKARIOU KOSMA TOU VESTETOROS EIS TOUS AGIOUS IOAKEIM KAI ANNAN ...') at line 81921, Latin 'BEATI COSMAE VESTITORIS ... IN SANCTOS JOACHIMUM ET ANNAM ...' at 81933; page 1005|1006 (anchor 1006 at line 81915)."
+  },
+  {
+   "author": "COSMAS VESTITOR",
+   "title": "Appendix ad Cosmam. Canon acrostichus in festivitatem Conceptionis SS. Deiparae",
+   "kind": "work",
+   "elenchusCol": "1014",
+   "bodyCol": 1014,
+   "bodyLine": 82482,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'APPENDIX AD COSMAM VESTITOREM' then Greek 'KANON EIS TEN EORTEN TES SYLLEPSEOS TES YPERAGIAS THEOTOKOU' at line 82482, followed by Latin 'CANON IN FESTIVITATEM CONCEPTIONIS ...'. The OCR's page numbers jump 1009 to 1015 (anchor 1015 at line 82607, 125 lines after the head), so the head sits on page 1013|1014, col 1014 inferred from sequence; Elenchus (both OCRs) and Ordo concur. A running head 'CANON ACROSTICHUS' recurs at 82610."
+  },
+  {
+   "author": "LEO PATRICIUS",
+   "title": "Epitome ex ejus interpretatione in Genesin e variis Patribus",
+   "kind": "work",
+   "elenchusCol": "1019",
+   "bodyCol": 1019,
+   "bodyLine": 82921,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Author head 'LEO PATRICIUS NOTITIA' at line 82891 (page 1017|1018), Greek head 'LEONTOS PATRIKIOU EPITOME HERMENEIAS EIS TEN GENESIN APO DIAPHORON PATERON' at 82921, Latin 'LEONIS PATRICII EPITOME INTERPRETATIONIS IN GENESIN EX VARIIS PATRIBUS' at 82930; page 1019|1020 (header OCR'd '1319' at line 82912). The 106.txt Elenchus author line is garbled ('ALIPPLSGOIRGPA-111* Pho PATRICIUS'); 106-alt.txt reads 'LEO PATRICIUS'."
+  },
+  {
+   "author": "ATHANASIUS CORINTHIORUM ARCHIEPISCOPUS",
+   "title": "Fragmentum ex quatuor libris Jacobi Jacobiti",
+   "kind": "work",
+   "elenchusCol": "1025",
+   "bodyCol": 1023,
+   "bodyLine": 83189,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "106.txt Elenchus reads 1025; 106-alt.txt reads 1023 and the body agrees: Greek head ('ATHANASIOU KORINTHOU ARCHIEPISKOPOU TETRABIBLOU ZOTOU IAKOBITOU') at line 83189 under the page marker 1023 (line 83174), page 1023|1024. Notitia on cols 1021-1022 (running head '1021 ATHANASIUS CORINTH. EPISC. 1022'). Greek and Latin."
+  },
+  {
+   "author": "OPUSCULA GRAECA INCERTAE AETATIS",
+   "title": "Opuscula scripturistica",
+   "kind": "work",
+   "elenchusCol": "4095",
+   "bodyCol": 1023,
+   "bodyLine": 83302,
+   "colStatus": "disagree",
+   "greek": "yes",
+   "note": "106.txt Elenchus reads '4095', 106-alt.txt reads '1095'; no head appears at col 1095 in the body. The group head 'OPUSCULA GRAECA INCERTAE AETATIS / MONITUM' (line 83289) and 'OPUSCULA SCRIPTURISTICA. OCTATEUCHI DIVISIO IN CAPITA' (line 83305) sit on page 1023|1024, immediately after the Fragmentum (the next page marker, OCR'd '1621', is at line 83377 = 1025), and running heads 'OPUSCULA SCRIPTURISTICA INCERTAE AETATIS' run from col 1029 to ~1290. Believe the body: 1023-1024. Elenchus 1095 is unexplained (possibly a Migne misprint for 1025; two different digits read the same in both OCRs, so not a simple OCR garble). Greek and Latin."
+  },
+  {
+   "author": "OPUSCULA GRAECA INCERTAE AETATIS",
+   "title": "Opuscula liturgica",
+   "kind": "work",
+   "elenchusCol": "1991",
+   "bodyCol": 1291,
+   "bodyLine": 104646,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "106.txt Elenchus reads '1991', 106-alt.txt reads '1291'; body page header OCR'd '1991' at line 104640 and head 'OPUSCULA LITURGICA INCERTAE AETATIS / SANCTI BASILII LITURGIA' at 104646-104652, page 1291|1292 (next anchor 1293 at line 104786). 106-alt's 1291 agrees with the body."
+  },
+  {
+   "author": "OPUSCULA GRAECA INCERTAE AETATIS",
+   "title": "Opuscula moralia",
+   "kind": "work",
+   "elenchusCol": "1335",
+   "bodyCol": 1335,
+   "bodyLine": 108424,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "106.txt Elenchus reads 1335, 106-alt.txt reads 1333. Body running head 'OPUSCULA MORALIA INCERTAE AETATIS' at line 108369 follows page marker OCR'd '1735' (=1335) at 108366; 'OPUSCULA MORALIA' head and Greek 'DIEGESIS OPHELIMOS' at 108424-108427, page 1335|1336 (the Formula abjurationis Athinganorum ends on 1333|1334, anchor 1334 at line 108245). Body settles 1335."
+  }
+ ],
+ "problems": [
+  "Opuscula scripturistica: Elenchus 1095 (both OCRs) vs body 1023-1024; no head found at col 1095; recorded as disagree, body believed.",
+  "Elenchus digits garbled in 106.txt were cross-read against 106-alt.txt (Andreas 207, Arethas 488, Samona 181, Geometra malo 841, Paradisus 861, Cosmas Appendix 1014, Athanasius 1023, scripturistica 1095, liturgica 1291, moralia 1333) and settled by the body.",
+  "Page numbers 1010-1014 are lost in the OCR; the Appendix ad Cosmam col 1014 is inferred from sequence.",
+  "Samona oratio col 787 rests on the Ordo plus sequence; the page's own numbers are lost.",
+  "The Elenchus lists only top-level works; Notitiae, Monitum and Hentenius/Sylburg apparatus within the volume are mentioned in notes only."
+ ]
+}

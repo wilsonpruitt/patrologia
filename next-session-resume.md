@@ -1,5 +1,14 @@
 # Next session — resume note
 
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-05) — PG BYZANTINE WORK-LEVEL TOC (PG 100–161) · 56 OF 62 TOMES DONE · PAUSED AT THE TOKEN CAP
+
+**What:** each volume's front ELENCHUS → , every item with its start column confirmed in the body. Brief  (incl. pilot lessons + two rules added mid-run: Collections→ from the Ordo; Ordo-only WORKS entered with ). Tools: ,  (regex/--col/--near/--heads/--ordo/--stats), merge  →  in  + review table .
+**Source:** archive.org  NNN_djvu.txt →  (gitignored). ⚠ PG 106 from  (+ ); ⚠ PG 154 from  (main item's 154 OCR empty); ⚠ **PG 111 from ** (main item's 111 OCR is partial, kept as ). PG 115 and 139 have no front Elenchus → Ordo.
+**Spent:** ≈4.42M Sonnet (subagent_tokens) of the 4.3M Wilson approved; ~227K per 3-volume agent.
+**OWED (needs Wilson's OK to raise the cap, ≈0.6–0.75M):** (1) batches 19 (157,158,159) + 20 (160,161); (2) **PG 111 redo** on the 1863 OCR (first attempt, on the partial OCR, set aside); (3) **PG 114**: Metaphrastes' Vitae Sanctorum entered as one collection (306) — add  from the Ordo; (4) **Ordo-only WORKS check** for vols done before that rule: 100–110, 112–123, 127–129 (known: 127 Nicetas Serronius Anthologium/Sententiae/Expositiones col 1177ff; 122 Addenda ad Cedrenum).
+**Totals so far (56 tomes):** 761 works · 179 editorial · 54 crossrefs · 18 unlocated; Greek printed for 679 works, Latin-only 59, Greek-only 13, unknown 10.
+**Then:** merge script → endCol = next start − 1; fill `workLevelBreakdown` in `data/pg-byzantine-queue.json`; report + stop for Wilson's review. No deploy, no push needed.
+
 ## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-09-26) — WOLBERO, PL 195 (11512) · ✅ LIVE ON migne.app (deployed 2026-09-26, `migne-mp4ytnt9w`, smoke-tested on the alias) · PUSHED
 
 **Ready to ship.** `build-site.mjs 11512` ran, `preflight` exits 0 (7 checks), badge **First English translation** (workStatus `none`, englishState `ours`). Page `site/pl/195/commentaria-in-canticum-canticorum/`. RECENT has it at the top.

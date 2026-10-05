@@ -1,0 +1,259 @@
+{
+ "volume": 138,
+ "source": "archive.org patrologia-volumes 138_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "351-386",
+ "colMap": "cols 1-1423 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Theodori Balsamonis, Zonarae, Aristeni Commentaria in Canones SS. Apostolorum, conciliorum, et in Epistolas canonicas SS. Patrum (Continuatio)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 391,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Continuation heading only; the body has no separate title block, the Elenchus line stands for the run that continues PG 137. The volume resumes with the Carthage canons on page 9 (Greek head at 391-395). Elenchus prints no columns at all in this volume."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Carthaginensis",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 391,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek 'KANONES TON EN KARTHADONI SYNELTHONTON ... MAKARION PATERON', Latin 'CANONES CCXVII BEATORUM PATRUM QUI CARTHAGINE CONVENERUNT' (Ordo reads CCXVI and col 9). Page 9/10; the OCR column map reaches col 1 only as a page-1 run, so 9 is read from running heads at 345 (page 9/10, '1865' garbled), 511 (11/12)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Commentaria in Epistolas canonicas SS. Patrum",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 453,
+   "bodyLine": 39576,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Starts after 'EXPLICIT EDITIONIS BEVEREGII TOMUS PRIOR' (line 39573) with the Greek head of Dionysius of Alexandria's letter to Basilides; page 453/454 (header 39500-39506). Ordo reads 455 for the first item (about two columns off; body settles 453). Parts from the Ordo, columns often garbled.",
+   "parts": [
+    {
+     "title": "In B. Dionysii archiepiscopi Alexandrini Epistolam ad Basilidem episcopum",
+     "ordoCol": "f 455",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Petri episcopi Alexandrini et martyris Epistolam canonicam",
+     "ordoCol": "7",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Epistolam canonicam S. Gregorii archiepiscopi Neocaesariensis",
+     "ordoCol": "517",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Athanasii archiepiscopi Alexandrini Epistolam ad Amunem monachum",
+     "ordoCol": "515",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Epistolam ad Rufinianum",
+     "ordoCol": "565",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Basilii archiepiscopi Caesareae Cappadociae ad Amphilochium Epistolam canonicam primam",
+     "ordoCol": "571",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem canonicam Epistolam II",
+     "ordoCol": "6 18",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Epistolam canonicam III",
+     "ordoCol": "191",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Epistolam ad eumdem Amphilochium, de Choreorum differentia (title garbled in OCR: 'Ciioruin diferentia')",
+     "ordoCol": "801",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem ad Diodorum Tarsensem episcopum Epistolam, de eo qui duas sorores in matrimonium duxit",
+     "ordoCol": "809",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Epistolam ad Gregorium presbyterum, ut separetur a muliercula cum qua habitabat",
+     "ordoCol": "821",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem chorepiscopis Epistolam, ne sine ipso fiant ministri praeter canones",
+     "ordoCol": "821",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Epistolam ejusdem ad episcopos sibi subjectos, ne propter pecunias ordinent",
+     "ordoCol": "Bt",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Epistolam ad Amphilochium, de Spiritu Sancto",
+     "ordoCol": "859",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Gregorii Nysseni Epistolam canonicam ad S. Letoium Melitenes episcopum",
+     "ordoCol": "j",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Responsa canonica Timothei episc. Alexandrini",
+     "ordoCol": "889",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Edictum Theophili archiepiscopi Alexandrini cum sancta Theophania in die Dominico instarent",
+     "ordoCol": "90",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Commonitorium quod ad Ammon presbyterum (OCR: 'pwr Lyco')",
+     "ordoCol": "90",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In ejusdem Narrationem de iis qui dicuntur Cathari, necnon alia Agathoni et Menae episcopis",
+     "ordoCol": "vil",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Cyrilli archiepiscopi Alexandrini Epistolam canonicam in hymnis",
+     "ordoCol": "913",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Epistolam ejusdem episcopis qui sunt in Libya et Pentapoli",
+     "ordoCol": "921",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Gregorii Theologi locum ex Poematibus: Quinam libri sint legendi Veteris Testamenti et Novi",
+     "ordoCol": "9",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Amphilochii Iambos ad Seleucum de eodem argumento",
+     "ordoCol": "925",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Epistolam encyclicam Gennadii patriarchae CP. et sanctae cum eo congregatae Synodi ad omnes metropolitanos et ad papam urbis Romae",
+     "ordoCol": "923",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In Epistolam Magni Basilii ad Nicopolitanos",
+     "ordoCol": "24",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In S. Tarasii patriarchae CP. Epistolam ad Adrianum papam, de non faciendis pecunia ordinationibus",
+     "ordoCol": "888",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "In interrogationes monachorum et Responsiones quae ad eos factae sunt a sancta Synodo CP. tempore S. Nicolai patriarchae",
+     "ordoCol": "931",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Responsa ad interrogationes Marci patriarchae Alexandrini",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 951,
+   "bodyLine": 78870,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek 'EROTHSEIS KANONIKAI TOU AGIOTATOU PATRIARCHOU ALEXANDREIAS KYRIOU MARKOU' at 78870; Latin 'INTERROGATIONES CANONICAE ... ET RESPONSA' at 78885; page 951/952; Ordo reads 951."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Meditata",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1013,
+   "bodyLine": 84141,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Latin head 'MEDITATA' at 84141 on page 1013/1014, Greek 'MELETAI HTOI APOKRISEIS' at 84153; Ordo reads 1013."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Ecclesiasticarum constitutionum collectio",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1077,
+   "bodyLine": 89025,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek head 'THEODOROU DIAKONOU ... BALSAMON TON EKKLHSIASTIKON DIATAXEON SYLLOGH' at 89025-89033, Latin title 89045; page 1077/1078 (running head at 89019). Ordo reads 1077; parts below from the Ordo.",
+   "parts": [
+    {
+     "title": "Liber I. Collectio expositorum in Codice, et Digestis, et Novellis constitutionibus, de Episcopis et Clericis, et Monachis, et Rebus sacris atque etiam de Judaeis et Haereticis",
+     "ordoCol": "1077",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber II. Collectio sparsim expositorum in Digestis, et Sanctionibus principum; et introductoriis Legibus, sive Institutis, de Rebus deque Locis sacris ... et de senum ac infirmorum alimentis",
+     "ordoCol": "231",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber III. Ex Editis post Codicem Novellis",
+     "ordoCol": "1251",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Epistola de jejuniis per annum",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1333,
+   "bodyLine": 112895,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek 'EPISTOLH ... CHARIN TON OFEILONTON TELEISTHAI NHSTEION' at 112901-112907, Latin 'EPISTOLA DE JEJUNIIS QUAE PERAGI DEBENT PER SINGULOS ANNOS, missa ad Antiochenos (ex Cotelerii Monumentis)' at 112919; page 1333/1334. Ordo reads '1533' (garbled). The same title block recurs at line 113187-113214 (see problems)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Epistola de Rasophoris seu raso indutis",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1359,
+   "bodyLine": 114975,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Greek 'EPISTOLH ... PROS TON OSIOTATON KATHGHTHN ... PATIKION MONASTHRION' at 114975-114987, Latin 'EPISTOLA DE RASOPHORIS SEU RASO INDUTIS' at 115004-115005; page 1359/1360. Ordo reads '1539' (garbled/transposed)."
+  }
+ ],
+ "problems": [
+  "The Elenchus prints NO columns in this volume (all entries body-only); columns come from the body, with the Ordo (which prints them, though badly garbled) as a cross-check.",
+  "The Ordo reads Dionysius's letter at 455 (body 453), Epistola de jejuniis 1533 (body 1333), Rasophoris 1539 (body 1359).",
+  "Epistola de jejuniis: the Greek/Latin title block appears twice in the OCR (lines 112895-112920 and 113187-113214, page numbers 1333/1334 then 1335/1336), and 'EPIST. DE JEJUNIIS' running heads recur at 114820 (col ~1357): either a second printing of the title or OCR page duplication. The first occurrence is recorded.",
+  "Not entered (omitted by the Elenchus, not a work): Index analyticus (line 116835, col 1381; the Ordo lists it).",
+  "Parts for the Epistolae canonicae and the Ecclesiasticae constitutiones are from the Ordo as read; several columns are garbled ('Bt', 'j', 'vil', '24', '9', '90') and unconfirmed in the body, as the brief directs. 'Interrogationes monachorum ... 931' is listed in the Ordo among the epistle commentaries; the Marci Interrogationes at 951 and Meditata at 1013 are separate Elenchus items.",
+  "Liber II of the Ecclesiasticae constitutiones reads '231' in the Ordo (likely 1231 with the leading digit lost)."
+ ]
+}

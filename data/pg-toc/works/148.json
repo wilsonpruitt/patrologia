@@ -1,0 +1,91 @@
+{
+  "volume": 148,
+  "source": "archive.org patrologia-volumes 148_djvu.txt",
+  "elenchusLines": "211-248",
+  "colMap": "cols 3–1527 (pg-colfind --stats)",
+  "listSource": "elenchus",
+  "entries": [
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Joannis Boivini Dedicatio ad Ludovicum XIV",
+      "kind": "editorial",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 254,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Section heading PROLEGOMENA has no column. Page carries cols 9|10."
+    },
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Ejusdem Præfatio",
+      "kind": "editorial",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 300,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head 'JOANNIS BOIVINI PRÆFATIO' follows the dedication on the same page; page 11 begins at line 310."
+    },
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Nicephori Gregoræ Vita, Scripta, Elogia",
+      "kind": "editorial",
+      "elenchusCol": "19",
+      "bodyCol": 19,
+      "bodyLine": 876,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head page 19|20 carries sub-heads VITA, OPERA, ELOGIA; Boivin's letter to Tellerius follows."
+    },
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Hieronymi Wolfii Præfatio",
+      "kind": "editorial",
+      "elenchusCol": "97",
+      "bodyCol": 95,
+      "bodyLine": 6935,
+      "colStatus": "disagree",
+      "greek": "latin-only",
+      "note": "Elenchus prints 97, Ordo reads 95, body: running head 'HIERON. WOLFFI PRÆFATIO' at page 95|96 (line 6878) and the dedicatory address to Fuggerus at line 6935. Body and Ordo agree, so body col 95 believed; 97 is a second page of the preface."
+    },
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Notitia ex Bibliotheca Græca Fabricii",
+      "kind": "editorial",
+      "elenchusCol": "99",
+      "bodyCol": 99,
+      "bodyLine": 7162,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head 'NOTITIA EX FABRICIO' on page 99|100."
+    },
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Immanuelis Bekkeri Præfatio ad Nicephori Gregoræ libros postremos qui, ex codd. Vatic. et Paris. descripti, anno 1855 tandem lucem viderunt in Byzantina Bonnensi",
+      "kind": "editorial",
+      "elenchusCol": "115",
+      "bodyCol": 115,
+      "bodyLine": 8802,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Elenchus year/title garbled in OCR (anno 1 ). Running head 'IMMANUELIS BEKKERI' page 115|116; Ordo reads 113 (garbled)."
+    },
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Nicephori Gregoræ Byzantinæ Historiæ libri XXXVII, cum variorum notis, Wolfi scilicet, Du Cangii, Boivini et Caperonii",
+      "kind": "work",
+      "elenchusCol": "119",
+      "bodyCol": 119,
+      "bodyLine": 8896,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Title page at line 8896 (col 119|120), Greek head and Latin LIBRI XXXVII at 8902-8913, Lib. I at 8916. Volume holds libri I-XXIII plus parts of XXIV (to col 1527). Ordo lists book-by-book chapters, not entered as parts."
+    }
+  ],
+  "problems": [
+    "Elenchus cut has OCR damage in the Bekker title (year lost); title mended from sense.",
+    "Hieronymi Wolfii Praefatio: Elenchus 97 vs Ordo/body 95.",
+    "Ordo bekker line reads garbled '113'; body 115."
+  ]
+}

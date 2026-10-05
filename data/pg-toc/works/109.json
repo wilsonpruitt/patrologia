@@ -1,0 +1,123 @@
+{
+  "volume": 109,
+  "source": "archive.org patrologia-volumes 109_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "165-568 (items on lines ~178-193; Notitia follows, not an Elenchus item)",
+  "colMap": "cols 16–1183 (pg-colfind --stats; 141 jumps >2 cols)",
+  "entries": [
+    {
+      "author": "ANONYMUS (Continuator Theophanis)",
+      "title": "Chronographia, Theophani continuanda, Constantini Porphyrogeniti imp. jussu scripta, libris IV",
+      "kind": "work",
+      "elenchusCol": "15",
+      "bodyCol": 15,
+      "bodyLine": 398,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus heading 'Scriptores post Theophanem ex edit. Fr. Combefisii' (no column). Head at OCR line 398 sits on page 15/16; Notitia and Prooemium follow at cols 17+."
+    },
+    {
+      "author": "CONSTANTINUS PORPHYROGENITUS",
+      "title": "De vita et rebus gestis avi sui Basilii Macedonis",
+      "kind": "work",
+      "elenchusCol": "225",
+      "bodyCol": 225,
+      "bodyLine": 15496,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head 'HISTORIA DE VITA ET REBUS GESTIS BASILII' (Lib. V). Ordo lists Basilius Macedo with garbled number."
+    },
+    {
+      "author": "ANONYMI",
+      "title": "Libri duo De vita Leonis Philosophi, Alexandri et Romani junioris, impp.",
+      "kind": "work",
+      "elenchusCol": "309",
+      "bodyCol": 369,
+      "bodyLine": 26337,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus 309 falls inside Lib. V (Basilius Macedo, cols ~301-315), so garbled. OCR shows 'LIBER VI. IMPERIUM LEONIS IMPERATORIS' on page 369/370 (page 368 numbered at line 26144, 372 at line 26486); Ordo prints '$10' read as 370. Contains Leo, Alexander (head ~393), Constantinus Porphyrogenitus and Romanus junior under Lib. VI, running to col ~498. bodyCol is inferred from neighbouring page numbers, the head's own page number being lost."
+    },
+    {
+      "author": "ANONYMUS",
+      "title": "Dissertatio steliteutica contra Iconomachos, scripta circa an. 745",
+      "kind": "work",
+      "elenchusCol": "499",
+      "bodyCol": 499,
+      "bodyLine": 36076,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "OCR shows heading 'AD SEQUENTEM INVECTIVAM PROLUSIO' at 499/500, then Greek/Latin 'Dissertatio ac invectiva orthodoxorum (contra haereticos)' at 500 (Ordo: Prolusio 499, Invectiva 502)."
+    },
+    {
+      "author": "JOANNES HIEROSOLYMITANUS",
+      "title": "Narratio de origine motuum Iconoclastarum",
+      "kind": "work",
+      "elenchusCol": "317",
+      "bodyCol": 518,
+      "bodyLine": 37207,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus '317' falls inside Theophanes Continuatus Lib. VI; Ordo prints '$18' (518). Title block (Greek 'IQANNOY ... IEPOSOAYMITOY MONAXOY AIHTHZIS' then Latin) at lines 37220-37236 on page 517/518; an earlier 'NARRATIO.' running head at line 37207. Notitia text says p. 519,515 (printed pagination of Combefis, not columns)."
+    },
+    {
+      "author": "JOANNES CAMENIATA",
+      "title": "Narratio de excidio Thessalonicae; praemittitur excerptum ex miraculis S. Demetrii martyris",
+      "kind": "work",
+      "elenchusCol": "519",
+      "bodyCol": 519,
+      "bodyLine": 37340,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "First head is Combefis' MONITUM at 519/520 (line 37340); the Demetrius miracula excerpt (Greek 'EK TON TOY AGLOFOPOY AHMHTPIOY ... THAUMATOURGION' + Latin) begins ~520 (line 37490); Joannes Cameniata Narratio proper begins ~523 (line 37584, Ordo: Miracula Demetrii 523 [OCR '023'], Notitia 519). One Elenchus title, several heads."
+    },
+    {
+      "author": "GREGORIUS MONACHUS",
+      "title": "Ex Vita Basilii Junioris",
+      "kind": "work",
+      "elenchusCol": "653",
+      "bodyCol": 653,
+      "bodyLine": 47283,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head block at line 47283-47363: Combefis' Praefatio, then Greek 'EK TOY BIOY BAZIAEIOY TOY NEOY' and Latin 'EX BASILII JUNIORIS VITA auctore Gregorio ejus discipulo'; running head 654 at line 47283."
+    },
+    {
+      "author": "SYMEON MAGISTER ET LOGOTHETA",
+      "title": "Annales a Leone Armeno ad Nicephorum Phocam",
+      "kind": "work",
+      "elenchusCol": "663",
+      "bodyCol": 663,
+      "bodyLine": 47945,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 663/664 opens with Combefis' praefatio; Greek 'ZYMEON MAGISTROU KAI LOGOTHETOU CHRONOGRAPHIA' and Latin 'ANNALES a Leone Armenio ad Nicephorum Phocam' follow at line 47987-47998. Ordo gives sub-books (Leo Armenius 663 etc.) not entered here."
+    },
+    {
+      "author": "GEORGIUS MONACHUS",
+      "title": "Vitae recentiorum imperatorum",
+      "kind": "work",
+      "elenchusCol": "823",
+      "bodyCol": 823,
+      "bodyLine": 59876,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head 'GEORGII MONACHI BIOI TON NEON BASILEON / Vitae recentiorum imperatorum' at page 823/824 (running head 824 at line 59870). Ordo prints 825 (page after)."
+    },
+    {
+      "author": "JOSEPHUS GENESIUS",
+      "title": "Historia de rebus Constantinopolitanis",
+      "kind": "work",
+      "elenchusCol": "985",
+      "bodyCol": 985,
+      "bodyLine": 72346,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Title page 'JOSEPHUS GENESIUS' + Notitia at 985 (line 72346, after col 983 page); Lachmann's Praefatio at ~989/990 (line 72509); text head 'HISTORIA DE REBUS CONSTANTINOPOLITANIS ... REGUM LIBER I' at ~989/990 (line 72588, col map reads 990). Ordo's number for this item is garbled; Ordo Lib. II 1026, III 1054, IV 1090, Index 1155."
+    }
+  ],
+  "problems": [
+    "Notitia (cols 11-14 of the Combefis preface to the whole volume) and Prooemium (17+) are not Elenchus items and have no entries.",
+    "Ordo RERUM text for several lines is badly garbled (Leo '$10', Genesius). Item 3's bodyCol is derived from adjacent page numbers (368, 372) because the head page's own number is lost; two-page ambiguity 369/370."
+  ]
+}

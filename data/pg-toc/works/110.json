@@ -1,0 +1,35 @@
+{
+  "volume": 110,
+  "source": "archive.org patrologia-volumes 110_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "419-453",
+  "colMap": "cols 2–1324 (pg-colfind --stats; 171 jumps >2 cols)",
+  "entries": [
+    {
+      "author": "GEORGIUS MONACHUS, COGNOMENTO HAMARTOLUS",
+      "title": "Prolegomena (1. De Georgio monacho et de continuatoribus ejus et exscriptoribus; 2. de codicibus)",
+      "kind": "editorial",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 454,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "OCR shows head 'PROLEGOMENA. CAPUT PRIMUM.' at line 454, after the Elenchus/title leaves and before running head '11 PROLEGOMENA 13'; page number 9 is inferred (no page number in OCR between title leaf and col 11), consistent with Elenchus 'col. 9'. Prolegomena run to col ~40. Latin with some Greek quotations in the body."
+    },
+    {
+      "author": "GEORGIUS MONACHUS, COGNOMENTO HAMARTOLUS",
+      "title": "Chronicon breve, ab orbe condito ad annum post Christum natum 840 et a diversis scriptoribus ad annum usque 1143 continuatum (ex ed. Muralto)",
+      "kind": "work",
+      "elenchusCol": "A1",
+      "bodyCol": 41,
+      "bodyLine": 2246,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus digit garbled ('A1', read as 41); body settles it: running head '39 PROLEGOMENA 40' at line 2048, then Greek title 'XPONIKON SYNTOMON' / Latin 'CHRONICON BREVE ... GEORGIUS MONACHUS COGNOMENTO HAMARTOLUS' at line 2246-2271 (col map reads 48, lagging), Prooemium follows at line 2274 on page 41/42; Liber primus 'BIBLOS A' line 2735 (col ~45, Chronicon running head 40-ish garbled). Greek and Latin side by side. The Ordo at the volume end lists chapter-level contents (not entered)."
+    }
+  ],
+  "problems": [
+    "Elenchus column for the Chronicon breve prints 'A1' (OCR); read as 41 and confirmed by body page sequence, but the title page's own number is not in the OCR (col map lags there: 48).",
+    "Prolegomena start col 9 is inferred from page order, not a printed number."
+  ]
+}

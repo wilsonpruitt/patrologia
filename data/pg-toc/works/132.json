@@ -1,0 +1,482 @@
+{
+  "volume": 132,
+  "source": "archive.org patrologia-volumes 132_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "231-282",
+  "colMap": "cols 19–1292 (pg-colfind --stats); front matter cols 1-18 not in the map",
+  "entries": [
+    {
+      "author": "THEOPHANES CERAMEUS, ARCHIEPISCOPUS TAUROMENITANUS",
+      "title": "Prolegomena: Monitum Editorum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 297,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column (item sits under the 'PROLEGOMENA' heading, which has no column of its own). Head 'MONITUM EDITORUM' at line 297, before the first page header (line 361, 11/12). Ordo prints 9. OCR page numbers before col 19 are partly lost; the front matter (lines ~297-940) is partly duplicated in the OCR (e.g. Notitia text at lines 361-457 and 563-663), first occurrence recorded."
+    },
+    {
+      "author": "THEOPHANES CERAMEUS, ARCHIEPISCOPUS TAUROMENITANUS",
+      "title": "Notitia ex Fabricio",
+      "kind": "editorial",
+      "elenchusCol": "11",
+      "bodyCol": 11,
+      "bodyLine": 380,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head 'NOTITIA IN THEOPHANEM CERAMEUM' at line 380 after page header 11/12 (line 361); Ordo 12. Running heads 'NOTITIA EX FABRICIO' continue to col 19/20 (line 942) inside the OCR's duplicated front matter."
+    },
+    {
+      "author": "THEOPHANES CERAMEUS, ARCHIEPISCOPUS TAUROMENITANUS",
+      "title": "Joannis Yriarte recensio Codicis Graeci Matrit. XVI notati, ex quo multa homiliarum loca emendantur vel restituuntur",
+      "kind": "editorial",
+      "elenchusCol": "21",
+      "bodyCol": 21,
+      "bodyLine": 1068,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head 'RECENSIO CODICIS MATRITENSIS CUM NOTIS CRITICIS JOANNIS IRIARTE' at lines 1068-1071, after page header 21/22 (line 1017); Ordo 22."
+    },
+    {
+      "author": "THEOPHANES CERAMEUS, ARCHIEPISCOPUS TAUROMENITANUS",
+      "title": "Francisci Scorsi Proaemia. 1. De Tauromenitana Ecclesia; 2. De Theophanis Ceramei vita conjectanea; 3. De iis quae ad scriptionem auctoris et interpretis spectant",
+      "kind": "editorial",
+      "elenchusCol": "99",
+      "bodyCol": 49,
+      "bodyLine": 3051,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Elenchus '99' falls inside Theophanes's own text (Scorsi's apparatus runs cols 49-135), so garbled for 49; Ordo prints 'Praefatio Francisci Scorsi 50'. Body: header '49 FRANCISCI SCORSI PRAEFATIO 50' at line 3051; dedication 'HOMILIAE IN EVANGELIA ... PRIMORIBUS ET POPULO TAUROMENITANO' at 3093. Proaemium I (De Tauromenitana Ecclesia) head at line 3550 (Ordo 59); the Ordo lists Proaemium II (vita conjectanea, 71 as read) and III (111 as read) with subsections, and 'Testimonia veterum de Theophane' (body col 131, line 11432; Ordo 131), not separately in the Elenchus."
+    },
+    {
+      "author": "THEOPHANES CERAMEUS, ARCHIEPISCOPUS TAUROMENITANUS",
+      "title": "Theophanis Homiliae in Evangelia dominicalia et festa totius anni",
+      "kind": "work",
+      "elenchusCol": "135",
+      "bodyCol": 135,
+      "bodyLine": 11754,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus 135. Head 'THEOPHANIS CERAMEI' line 11754, Greek head 'OMILIAI EIS EUANGELIA KYRIAKA KAI EORTAS TOU OLOU ENIAUTOU' at 11780, Latin 'HOMILIAE IN EVANGELIA DOMINICALIA, ET FESTA TOTIUS ANNI' at 11796, first homily at 11799 (col ≈136). Ordo prints 'Festa totius anni 155' and 'Homilia I 155', a garble of 135 (the same body page). Collection: parts below are from the Ordo with columns as read, not body-confirmed; many Ordo digits are visibly garbled (e.g. '335', '$43', '119', '165', '18$').",
+      "parts": [
+        {
+          "title": "Homilia I. Homilia in indictionem, sive anni principium (De indictione, sive anni principio)",
+          "ordoCol": "155",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia II. De parabola decem millium talentorum",
+          "ordoCol": "162",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia III. Dominica die ante festum Exaltationis pretiosae et vivificae crucis",
+          "ordoCol": "174",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia IV. In Exaltationem pretiosae et vivificae crucis",
+          "ordoCol": "185",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia V. Ex Evangelio secundum Lucam, Dominica prima: Stans Jesus secundum stagnum Genesareth vidit duas naves",
+          "ordoCol": "203",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia VI. De filio viduae",
+          "ordoCol": "218",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia VII. De parabola sementis",
+          "ordoCol": "335",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia VIII. De divite et Lazaro",
+          "ordoCol": "250",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia IX. Cum venisset Jesus in regionem Gadarenorum, occurrit illi vir quidam de civitate",
+          "ordoCol": "Ti",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia X. De archisynagogi filia et haemorrhoissa",
+          "ordoCol": "282",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XI. De legisperito interrogante Dominum, et de eo qui incidit in latrones",
+          "ordoCol": "291",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XII. De muliere, quae habebat spiritum infirmitatis",
+          "ordoCol": "503",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XIII. De parabola coenae",
+          "ordoCol": "539",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XIV. Dominica ante Christi Nativitatem: Liber generationis Jesu Christi filii David",
+          "ordoCol": "334",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XV. De Zacchaeo principe publicanorum",
+          "ordoCol": "$43",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XVI. De Publicano et Pharisaeo",
+          "ordoCol": "$55",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XVII. De filio prodigo",
+          "ordoCol": "$11",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XVIII. Cum venerit Filius hominis in gloria sua",
+          "ordoCol": "$95",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XIX. Si dimiseritis hominibus peccata eorum",
+          "ordoCol": "411",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XX. Dominica Orthodoxiae, de sanctis imaginibus",
+          "ordoCol": "426",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXI. De paralytico sanato in Capharnaum",
+          "ordoCol": "443",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXII. Si quis vult venire post me, abneget semetipsum (Dominica Adorationis S. Crucis)",
+          "ordoCol": "458",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXI [printed; sequence = XXIII]. Accessit ad eum homo genibus provolutus, dicens: Domine, miserere filii, quia lunaticus est",
+          "ordoCol": "4A",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXIV. Ecce ascendimus Hierosolymam, et Filius hominis tradetur",
+          "ordoCol": "482",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXV. De justi Lazari resurrectione",
+          "ordoCol": "SiL",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXVI. In solemnitatem Palmarum (dicta coram rege Rogerio)",
+          "ordoCol": "042",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXVII. In pretiosam Jesu Christi Passionem",
+          "ordoCol": "550",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXVIII. Interpretatio in undecim Evangelia matutina: in primum matutinum",
+          "ordoCol": "606",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXIX. In secundum matutinum",
+          "ordoCol": "618",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXX. In tertium matutinum",
+          "ordoCol": "630",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXI. In quartum matutinum",
+          "ordoCol": "642",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXII. In quintum matutinum",
+          "ordoCol": "e4T",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXIII. In septimum matutinum (insextum eadem est ac XXXIX)",
+          "ordoCol": "659",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXIV. In octavum matutinum",
+          "ordoCol": "671",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXV. In nonum matutinum",
+          "ordoCol": "682",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXVI. In decimum matutinum",
+          "ordoCol": "691",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXVII. In undecimum matutinum",
+          "ordoCol": "705",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXVIII. De Samaritana",
+          "ordoCol": "119",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XXXIX. In salutarem Ascensionem",
+          "ordoCol": "745",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XL. In adventum sancti Spiritus",
+          "ordoCol": "165",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLI. Dominica Omnium sanctorum",
+          "ordoCol": "18$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLII. Lucerna corporis est oculus",
+          "ordoCol": "805",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLIII. In reliqua ejus dicti: Lucerna corporis est oculus",
+          "ordoCol": "8i",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLIV. De centurione",
+          "ordoCol": "826",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLV. De divite interrogante Dominum",
+          "ordoCol": "853",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLVI. De objurgatione aquarum (festo S. Demetrii martyris)",
+          "ordoCol": "850",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLVII. De missione duodecim discipulorum",
+          "ordoCol": "838",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLVIII. De missione septuaginta discipulorum (festo S. Michaelis)",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia XLIX. Voluit Jesus exire in Galilaeam (festo S. Philippi)",
+          "ordoCol": "885",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia L. Stabat Joannes, et ex discipulis ejus duo (festo S. Andreae)",
+          "ordoCol": "895",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LI. In beatitudines (memoria S. Nicolai)",
+          "ordoCol": "906",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LII. In sanctos Innocentes",
+          "ordoCol": "918",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LIII. In Annuntiationem sanctissimae Dei Genitricis",
+          "ordoCol": "927",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LIV. Omnia mihi tradita sunt a Patre meo (festo S. Onuphrii)",
+          "ordoCol": "912",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LV. Venit Jesus in partes Caesareae Philippi (festo SS. Petri et Pauli)",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LVI. Haec mando vobis (festo S. Procopii)",
+          "ordoCol": "970",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LVII. Ego sum ostium (festo S. Pancratii)",
+          "ordoCol": "990",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LVIII. Ecce ego mitto vos sicut oves in medio luporum (festo S. Panteleemonis)",
+          "ordoCol": "1005",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LIX. In Transfigurationem Domini nostri Jesu Christi",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LX. Intravit Jesus in quoddam castellum (festo Dormitionis B. Virginis Deiparae)",
+          "ordoCol": "1017",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LXI. In decollationem venerabilis Praecursoris",
+          "ordoCol": "1059",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Homilia LXII. De siccitate qua eo tempore contigit",
+          "ordoCol": "1070",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "NILUS DOXAPATRIUS, ECCLESIAE CPOLITANAE SYNCELLUS",
+      "title": "Notitia Thronorum patriarchalium, ad Rogerium Siciliae regem, ex Stephani Le Moine Variis Sacris",
+      "kind": "work",
+      "elenchusCol": "1083",
+      "bodyCol": 1083,
+      "bodyLine": 90178,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head 'NILI DOXAPATRII TAXEIS TON PATRIARCHIKON THRONON / NOTITIA THRONORUM PATRIARCHALIUM' lines 90178-90206 on page 1083 (anchors 1083 at line 90175). Editors' 'NILUS DOXAPATRIUS ... NOTITIA' (line 89951, col ≈1076-1079; Ordo 'Notitia 1079') precedes it; the Elenchus gives it no line."
+    },
+    {
+      "author": "JOANNES ANTIOCHENUS EPISCOPUS",
+      "title": "Notitia",
+      "kind": "editorial",
+      "elenchusCol": "1115",
+      "bodyCol": 1115,
+      "bodyLine": 92552,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head 'JOANNES ANTIOCHENUS / NOTITIA' at lines 92552-92555, after 'ANNO DOMINI MCXLIII' (92549); anchors 1113 (line 92477) and 1117 (92652) bracket it, 1115 inferred (the odd column of the page that holds it; page number lost). Ordo prints 1115."
+    },
+    {
+      "author": "JOANNES ANTIOCHENUS EPISCOPUS",
+      "title": "De disciplina monastica et de monasteriis laicis non tradendis",
+      "kind": "work",
+      "elenchusCol": "1117",
+      "bodyCol": 1117,
+      "bodyLine": 92665,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head 'ORATIO DE DISCIPLINA MONASTICA ET DE MONASTERIIS LAICIS NON TRADENDIS' line 92665 on page 1117 (header at 92652). Ordo 1118."
+    },
+    {
+      "author": "JOANNES COMNENUS IMP.",
+      "title": "Novellae constitutiones",
+      "kind": "work",
+      "elenchusCol": "1159",
+      "bodyCol": 1149,
+      "bodyLine": 95783,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Elenchus '1159' falls inside Isaacus's Oratio invectiva (cols 1155-1217), so garbled for 1149. Body: running head 'JOANNIS COMNENI NOVELLAE CONSTITUTIONES' at line 95783 on page 1149, formal head 'ANNO DOMINI MCXLIII ... NOVELLAE CONSTITUTIONES / AUREA BULLA PRO VENETIS' at 95872-95882 (col 1150). Ordo prints 1150 for the first constitution (Bulla aurea pro Venetis); the Ordo lists three constitutions (I Bulla aurea pro Venetis; II Bulla aurea ... ne quid ab Ecclesia ...; III ...) with columns read as 1150."
+    },
+    {
+      "author": "ISAACUS MAGNAE ARMENIAE CATHOLICUS",
+      "title": "Notitia ex Gallandio",
+      "kind": "editorial",
+      "elenchusCol": "1153",
+      "bodyCol": 1153,
+      "bodyLine": 96049,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head 'NOTITIA IN ISAACUM CATHOLICUM' line 96049 col ≈1153; Ordo 1154."
+    },
+    {
+      "author": "ISAACUS MAGNAE ARMENIAE CATHOLICUS",
+      "title": "Oratio invectiva adversus Armenios haereticos",
+      "kind": "work",
+      "elenchusCol": "1155",
+      "bodyCol": 1155,
+      "bodyLine": 96156,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head at line 96159-96172 and 'SANCTI PATRIS NOSTRI ISAACI' at 96175 on page 1155 (header 96156); preceded by 'ISAACUS MAGNAE ARMENIAE CATHOLICUS. NOTITIA' (line 96097-96106, col 1154). Ordo prints 1155 for Caput I, with chapters II-VII etc. at 1166-1210 (not built as parts: the Elenchus gives the Oratio one entry and the Ordo's chapter list is a chapter list, not top-level pieces)."
+    },
+    {
+      "author": "ISAACUS MAGNAE ARMENIAE CATHOLICUS",
+      "title": "Ejusdem adversus eosdem oratio altera",
+      "kind": "work",
+      "elenchusCol": "1217",
+      "bodyCol": 1217,
+      "bodyLine": 100829,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Running head 'ORATIO II CONTRA ARMENIOS' at line 100781 (page header read '1211', = 1217); Greek head 'LOGOS STELITEUTIKOS TOU ISAAK' at 100829 and 'SANCTI ISAACI ORATIO INVECTIVA ADVERSUS MALE SENTIENTES AC HAERETICOS ARMENIOS' at 100838, col ≈1218 (anchor 1218 at line 100784). Ordo 1218."
+    },
+    {
+      "author": "ISAACUS MAGNAE ARMENIAE CATHOLICUS",
+      "title": "De rebus Armeniae",
+      "kind": "work",
+      "elenchusCol": "1237",
+      "bodyCol": 1237,
+      "bodyLine": 102338,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Head 'DE REBUS ARMENIAE' line 102338 / 'NARRATIO DE REBUS ARMENIAE' line 102369, col ≈1237. Ordo prints 1258 (garbled)."
+    },
+    {
+      "author": "ISAACUS MAGNAE ARMENIAE CATHOLICUS",
+      "title": "Quomodo recipiendi sunt Armenii haeretici, ex Joan. Bapt. Cotelerii notis ad Constit. Apost., lib. v, cap. 14",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1257,
+      "bodyLine": 103976,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column (the line ends at the Constit. Apost. reference). Head 'QUOMODO RECIPIENDI SUNT ARMENII HAERETICI. (Apud Coteler. not. ad Constit. Apost. lib. v, cap. 14)' at line 103976, col ≈1257 (anchor 1259 follows at 104033); Greek 'ANATAXIS TON HAIRETIKON ARMENION' and Latin side by side. Ordo prints no column."
+    }
+  ],
+  "problems": [
+    "OCR front matter (lines ~297-940) is partly duplicated and its page numbers before col 19 are lost; Monitum (9) and Notitia (11) rest on page headers and the Ordo.",
+    "Elenchus '99' (Scorsi Proaemia) and '1159' (Novellae) fall inside other works and were read as 49 and 1149.",
+    "Ordo columns for the 62 homilies are visibly garbled in many places; the parts array records them as read (ordo-only) and none was body-confirmed.",
+    "Ordo prints 'Festa totius anni 155' where the Elenchus and body give 135.",
+    "Editorial pieces present in body/Ordo without an Elenchus line (Testimonia veterum de Theophane col 131; Notitia in Nilum col 1079; Isaac Oratio chapter list) are noted in the neighbouring entries, not made entries."
+  ]
+}

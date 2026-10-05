@@ -1,0 +1,58 @@
+{
+ "volume": 119,
+ "source": "archive.org patrologia-volumes 119_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "213-250",
+ "colMap": "cols 11-1320 (pg-colfind --stats); cols 9-10 precede first surviving anchor",
+ "entries": [
+  {
+   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+   "title": "Commentaria in Novum Testamentum (Continuatio)",
+   "kind": "work",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 240,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Continuation of PG 118. Body head 'OECUMENII COMMENTARIORUM IN NOVUM TESTAMENTUM CONTINUATIO / Argumentum Epistolae ad Colossenses' (lines ~233-240) sits before the first page header '11' (line 333), so page 9|10; the OCR keeps no '9' itself. Ordo: Epistola ad Colossenses Proemium at 14. Greek and Latin side by side. The work runs on through Colossians, Thess., Tim., Titus, Philemon, Hebrews, then the Catholic Epistles (Jacobi 451ff, Petri 511/579, Joannis 622ff, Judae 706ff per Ordo) - these are the 'Commentaria in Epistolas Catholicas' that PG 118's Elenchus promised."
+  },
+  {
+   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+   "title": "Synopsis Anonymi ex Oecumenio in Apocalypsin, ex qua discimus locum sedis episcopalis Oecumenii",
+   "kind": "work",
+   "elenchusCol": "122",
+   "bodyCol": 722,
+   "bodyLine": 50222,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '122'; the hundreds digit has dropped, as page numbers here print '121'/'122' for 721|722 (lines 50219, 50225), and the Ordo reads 722. Head 'ANONYMI EX OECUMENIO IN APOCALYPSIN' on page 721|722. Followed by Monitum (line 50296) and a Greek/Latin Synopsis."
+  },
+  {
+   "author": "PATRIARCHAE CPOLITANI",
+   "title": "Sententiae synodales et sanctiones pontificiae archiepiscoporum et patriarcharum Constantinopolis",
+   "kind": "work",
+   "elenchusCol": "126",
+   "bodyCol": 726,
+   "bodyLine": 50461,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '126' (hundreds digit dropped, as above); body page header '125'/'126' at lines 50458/50464 and 'JUS CANONICUM GRAECO-ROMANUM' head at line 50461; Greek title 'APOPHASEIS SYNODIKAI KAI DIATAXEIS ARCHIERATIKAI' at 50534, Latin 'SENTENTIAE SYNODALES ET SANCTIONES PONTIFICIAE' at 50541. Ordo: Jus canonicum Graeco-Romanum 726. Elenchus author head 'PATRIARCHAE CPOLITANI'. One Elenchus item; the body continues with Joannes Chrysostomus, Gennadius, Tarasius, Nicephorus, Sisinnius, Alexius etc. (many sub-heads, not given columns in the Elenchus; see Ordo cols 726-1320)."
+  },
+  {
+   "author": "OECUMENIUS TRICCAE IN THESSALIA EPISCOPUS",
+   "title": "Index rerum et sententiarum in Oecumenii Opera",
+   "kind": "editorial",
+   "elenchusCol": "1301",
+   "bodyCol": 1301,
+   "bodyLine": 92076,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'INDEX RERUM ET SENTENTIARUM QUAE IN COMMENTARIIS OECUMENII MEMORATU DIGNAE VISAE SUNT' at line 92076; page headers '1299'/'1300' at lines 91929/91935 and '1303' at 92268, 1301|1302 header lost, so 1301 inferred by position. Ordo lists it as 'Index rerum et sententiarum in Commentariis (Ecu-' (line 94113)."
+  }
+ ],
+ "problems": [
+  "Elenchus columns for the Synopsis and Sententiae synodales lost their hundreds digit in the OCR (122, 126); settled by body page headers and the Ordo (722, 726).",
+  "Page numbers for cols 9-10 and 1301-1302 are absent in the OCR; both placed by position between surviving page headers.",
+  "The Sententiae synodales item is a large Jus canonicum Graeco-Romanum section (cols 726-1300) with many sub-works not itemized in the Elenchus; kept as one entry per the brief."
+ ]
+}

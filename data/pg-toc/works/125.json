@@ -1,0 +1,277 @@
+{
+  "volume": 125,
+  "source": "archive.org patrologia-volumes 125_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "210-251",
+  "colMap": "cols 11-1288 (pg-colfind --stats)",
+  "entries": [
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam I ad Timotheum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 273,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '9'. Title block 'EPISTOLAE PRIMAE DIVI PAULI AD TIMOTHEUM EXPOSITIO' on leaf 9|10; commentary proper from 11."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam II ad Timotheum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 89,
+      "bodyLine": 7324,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '90'. Title block 'EPISTOLAE SECUNDAE ... AD TIMOTHEUM EXPOSITIO'; leaf 89|90 inferred (page numbers lost; running head 91 follows ~150 lines on)."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam ad Titum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 141,
+      "bodyLine": 11455,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '142'. Title block before running head 143|144, so leaf 141|142."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam ad Philemonem (NOT in Elenchus or Ordo)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 172,
+      "bodyLine": 13687,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Present in the body but listed in neither Elenchus nor Ordo (the Elenchus cut shows only Timothy I-II, Titus, Hebrews). Head 'EPISTOLA DIVI PAULI AD PHILEMONEM' at line 13687, mid-leaf after the end of Titus (running head 171|172), so in col 172."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam ad Hebraeos",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 185,
+      "bodyLine": 14623,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '185'. Title block before running head 187|188, so leaf 185|186."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Praefatio Bonifacii Finetti in tomum tertium Theophylacti editionis Venetae",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 405,
+      "bodyLine": 34927,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no columns. Ordo reads '106' (title garbled; =405/406). Title block follows running head 405|406 (OCR '403' and '{06'). Ordo lists 12 Sectiones, kept as parts (ordo-only, not body-confirmed; several ordo numbers are garbled, and OCR colmap lags, so don't trust them as columns).",
+      "parts": [
+        {
+          "title": "Sectio I. De Commentario in Acta apostolorum edito a Sifano",
+          "ordoCol": "w7",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio II. De Commentario in Acta apostolorum eruto ex bibliotheca Vaticana",
+          "ordoCol": "410",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio III. De Commentario in Epistolas",
+          "ordoCol": "(unreadable)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio IV. De Oratione in adorationem S. Crucis",
+          "ordoCol": "428",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio V. De Oratione in Praesepiationem D. Mariae Virginis in templo",
+          "ordoCol": "425",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio VI. De martyrio quindecim martyrum Tiberiopoli, imperante Juliano Apostata",
+          "ordoCol": "426",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio VII. De Allocutione ad Familiarem circa ea quorum incusantur Latini",
+          "ordoCol": "412",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio VIII. De Institutione regia, ad Constantinum",
+          "ordoCol": "466",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio IX. De Encomio in imperatorem Alexium Comnenum",
+          "ordoCol": "461",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio X. De Epistolis viginti ex bibliotheca Vaticana",
+          "ordoCol": "4,0",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio XI. De postrema parte homiliae undecimae, In resurrectionem",
+          "ordoCol": "Ail",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sectio XII. De Commentario in Acta apostolorum ex bibliotheca Florentino-Medicea",
+          "ordoCol": "413",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Nuncupatio Sifani",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 477,
+      "bodyLine": 37803,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no columns. Ordo reads (no column printed for this item; the nearby 'w7' belongs to Sectio I). Dedication 'Nobilibus ... Fuggeris ... Laurentius SIFANUS S.P.D.' follows the end of Finetti's Praefatio; OCR running head 'LAURENTII SIFANI PRAEFATIO' at line 37775 = leaf 477|478."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Nuncupatio altera ejusdem",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 481,
+      "bodyLine": 37948,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no columns. Ordo reads '482'. Second dedication to Joannes Sambucus, leaf 481|482."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Argumentum libri Actorum una cum capitulis eorum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 483,
+      "bodyLine": 38017,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '487»' (garbled). Head 'ΥΠΟΘΕΣΙΣ ΤΗΣ ΒΙΒΛΟΥ ΤΩΝ ΠΡΑΞΕΩΝ ... ARGUMENTUM LIBRI ACTORUM UNA CUM CAPITULIS EORUM' after running head 483; leaf 483|484 inferred. Preceded at 38005 by 'Laurentii Sifani admonitiuncula ad lectorem'."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Acta apostolorum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 495,
+      "bodyLine": 38868,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '495'. Title block 'ΕΞΗΓΗΣΕΙΣ ΕΙΣ ΤΑΣ ΠΡΑΞΕΙΣ ... EXPOSITIONES IN ACTA APOSTOLORUM CONCISE' on leaf 495|496 (after the capitum list that runs from 485 to ~493)."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositionis ejusdem textus alter ex codice Vaticano",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 849,
+      "bodyLine": 71631,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads 'S50' (=850). Head 'ΕΡΜΗΝΕΙΑ ΕΙΣ ΤΑΣ ΠΡΑΞΕΙΣ ... EX CODICE VATICANO' follows running head 'EXPOSITIONIS IN ACTA TEXTUS ALTER. 850'; leaf 849|850."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositionis ejusdem textus tertius ex codice Florentino, sed mere Graecus",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1061,
+      "bodyLine": 87708,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Elenchus prints no columns. Ordo reads '1662' (=1062). Greek head 'ΕΙΣ ΤΑΣ ΠΡΑΞΕΙΣ ΤΩΝ ΑΠΟΣΤΟΛΩΝ' after running head 'EXPOSITIONIS IN ACTA TEXTUS TERTIUS' 1061|1062. Elenchus says 'sed mere Graecus'."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Argumentum Epistolae catholicae S. Jacobi, cum indice capitum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1131,
+      "bodyLine": 92964,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '11351' (stray digit; =1131). Title block of the whole 'Exegesis accurata epistolarum catholicarum' (Greek head line 92926) and 'ARGUMENTUM EPISTOLAE CATHOLICAE JACOBI' on leaf 1131|1132; 'Index capitum' at 1133-1134 (line 93099)."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam catholicam S. Jacobi",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1131,
+      "bodyLine": 92926,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '1151' (probably 1131). First head = general title block 'THEOPHYLACTI ACCURATA EXPOSITIO EPISTOLARUM CATHOLICARUM' on leaf 1131|1132; the Epistle text proper ('EPISTOLA CATHOLICA SANCTI JACOBI', cap. I) is at line 93150/93165 on leaf 1133|1134; Ordo '1151' is ambiguous between the two."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Argumentum Epistolae I S. Petri, cum capitulis ejusdem",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1191,
+      "bodyLine": 99562,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads (garbled 'HEU'). Head 'ARGUMENTUM EPISTOLAE PRIMAE S. PETRI' (line 99562) with 'Capita ejusdem epistolae' (99626), on the same leaf as the title block 'EXPOSITIO IN EPISTOLAM PRIMAM S. PETRI' (99559). Leaf 1191|1192 inferred from the Ordo for Expositio and the following running head 1192; page numbers on the leaf lost."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam I S. Petri",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1191,
+      "bodyLine": 99543,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '1191'. Title block at line 99543 (Greek) / 99559 (Latin); epistle text 'EPISTOLA PRIMA SANCTI PETRI' cap. I at 99717-99733 on the same or next leaf (1191|1192)."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Argumentum Epistolae II S. Petri cum capitum indice",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1255,
+      "bodyLine": 104241,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads (garbled 'capitum o'). 'ARGUMENTUM SECUNDAE EPISTOLAE' on the title leaf; leaf 1255|1256 (body shows '1955' = 1255, then 1256)."
+    },
+    {
+      "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+      "title": "Expositio in Epistolam II S. Petri",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1255,
+      "bodyLine": 104191,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns. Ordo reads '1259' (body shows 1255). Title block 'EXPOSITIO IN EPISTOLAM II S. PETRI' (line 104194); epistle text cap. I at 104344-104352 (col 1256). Ordo digit 9 vs body 5; body settles at 1255."
+    }
+  ],
+  "problems": [
+    "Elenchus cut has no column numbers (body-only throughout); closing Ordo gives a second reading, noted per entry; several Ordo digits garbled.",
+    "Epistle ad Philemonem is printed in the body (line 13687, col 172) but is in neither Elenchus nor Ordo; added as an extra entry between Titus and Hebraeos.",
+    "Leaf/page numbers are lost in many stretches; bodyCol for 2 Tim, Argumentum Actorum, 1 Pet argumentum/expositio and Philemon rest on running heads and inference.",
+    "The 12 Sectiones of Finetti's Praefatio appear in the Ordo with garbled columns (Sectio III unreadable); kept as ordo-only parts, not body-confirmed.",
+    "Jacobi: Ordo '1151' read as 1131 (title block) rather than 1133 (epistle text); ambiguity noted in the entry.",
+    "Greek flag set from heads seen, not checked page by page."
+  ]
+}

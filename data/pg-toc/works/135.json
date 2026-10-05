@@ -1,0 +1,416 @@
+{
+ "volume": 135,
+ "source": "archive.org patrologia-volumes 135_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "209-290",
+ "colMap": "cols 2-1143 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Annales (Continuatio): Libri XVI-XVIII",
+   "kind": "work",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 285,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'JOANNIS ZONARAE ANNALIUM LIBER DECIMUS SEXTUS' with Greek text at line 285. Parts from the Ordo as read; body shows XVII head on 133|134 (line 9317; Ordo '193' is a misread 133) and XVIII on 233|234 (line 16104), not formally body-confirmed.",
+   "parts": [
+    {
+     "title": "Liber XVI",
+     "ordoCol": "9",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XVII",
+     "ordoCol": "193",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XVIII",
+     "ordoCol": "233",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Epitome annorum ab Adam usque ad annum 6589, hoc est ad initium Alexii Comneni",
+   "kind": "work",
+   "elenchusCol": "391",
+   "bodyCol": 326,
+   "bodyLine": 24279,
+   "colStatus": "elenchus-garbled",
+   "greek": "unknown",
+   "note": "Elenchus OCR '391' (Elenchus text also reads 6889 for 6589); Ordo gives '3'. Body head at 24279 follows page header 325|326 (24156). Col 391 falls inside Du Cange's Hebdomo, so it is garbled; 326 by position (possibly 325)."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Argumenta rerum quae in Joannis Zonarae Annalibus continentur",
+   "kind": "editorial",
+   "elenchusCol": "333",
+   "bodyCol": 333,
+   "bodyLine": 24806,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "'ANNALIUM ARGUMENTA' at 24806, 'SYNOPSEIS seu ARGUMENTA' at 24816, page header 333|334 (CHAIN 334 at 24809). Ordo column line is cut off."
+  },
+  {
+   "author": "CAROLUS DU FRESNE DU CANGE",
+   "title": "De Hebdomo Cpolitano Disquisitio topographica",
+   "kind": "editorial",
+   "elenchusCol": "381",
+   "bodyCol": 387,
+   "bodyLine": 29525,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR '381'; Ordo '381'/'Pb) q pograpnica, 381' (both read 1 for 7). Body head 'DE HEBDOMO CP. DISQUISITIO TOPOGRAPHICA' at 29525 after page header 387 (29403). 381 falls inside the Argumenta."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Canon in SS. Deiparam",
+   "kind": "work",
+   "elenchusCol": "413",
+   "bodyCol": 413,
+   "bodyLine": 31431,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek and Latin head at 31431-31450 after page header 413 (31269)."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Expositio Canonum Anastasimorum Damasceni, ex editione Romana, cum interpretatione nostra",
+   "kind": "work",
+   "elenchusCol": "491",
+   "bodyCol": 421,
+   "bodyLine": 32078,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '491', Ordo '421'. Greek head at 32078 (Latin 32097) on page 421|422 (page header at 31993-31999). The OCR repeats this page (second Greek head at 32375, header '421 EXPOSITIO ... 493' at 32301); first occurrence given."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Quod non debeant duo sobrini eamdem in matrimonium accipere (De matrimonio sobrinorum)",
+   "kind": "work",
+   "elenchusCol": "429",
+   "bodyCol": 429,
+   "bodyLine": 32865,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek (32871) and Latin head at 32865 just before page header 430 (32868), so page 429|430. Ordo 429."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "De seminifluis (Oratio ad eos qui naturalem seminis fluxum immunditiem existimabant)",
+   "kind": "crossref",
+   "elenchusCol": "431",
+   "bodyCol": 437,
+   "bodyLine": 33491,
+   "colStatus": "elenchus-garbled",
+   "greek": "unknown",
+   "note": "Body prints only the title and 'Vide tomum CXIX, col. 1011.' Elenchus and Ordo read '431'; the item sits on page 437|438 (page header 437 at 33437, 'GEORGIUS XYPHILINUS'), so 431 is a misread 437. Page numbers here are rough.",
+   "crossRefVolume": 119,
+   "crossRefCol": "1011"
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Epistola",
+   "kind": "crossref",
+   "elenchusCol": "Ibid.",
+   "bodyCol": 437,
+   "bodyLine": 33498,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Elenchus gives 'lbid.'; Ordo 'Epistolae 437'. Body: 'Earum fragmenta edidit Bonav. Vulcanius ... Vide tomum LXXVI, ...' (rest of the line not readable).",
+   "crossRefVolume": 76,
+   "crossRefCol": ""
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Commentarii in Canones conciliorum et in Epistolas canonicas SS. Patrum, cum Commentariis Theod. Balsamonis",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 437,
+   "bodyLine": 33485,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Printed in the Elenchus as a parenthetical (infra edimus tom. CXXXVII); Ordo '437'. Body note (33482): 'infra edemus ad annum 1905'. Not printed here.",
+   "crossRefVolume": 137,
+   "crossRefCol": ""
+  },
+  {
+   "author": "GEORGIUS XIPHILINUS CPOLITANUS PATRIARCHA",
+   "title": "Decretum de juribus territoriorum",
+   "kind": "crossref",
+   "elenchusCol": "Ibid.",
+   "bodyCol": 437,
+   "bodyLine": 33517,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Elenchus 'lbid.'; Ordo '431'. Body: 'Vide tomum CXIX, col. 807.' on page 437|438.",
+   "crossRefVolume": 119,
+   "crossRefCol": "807"
+  },
+  {
+   "author": "ISAACIUS ANGELUS CPOLITANUS IMP.",
+   "title": "Novellae constitutiones",
+   "kind": "work",
+   "elenchusCol": "439",
+   "bodyCol": 438,
+   "bodyLine": 33521,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Title block 'ISAACI ANGELI CP. IMPERATORIS NOVELLAE CONSTITUTIONES' at 33521-33530 follows the same page header (437|438, line 33437) as Xiphilinus's crossref, so by line order it sits on 437|438 although both lists say 439; 439|440 header not seen. Treat as ±1. Parts from Ordo as read.",
+   "parts": [
+    {
+     "title": "I. De electionibus pontificum",
+     "ordoCol": "439",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "II. Ut tondeantur electorum pontificum uxores",
+     "ordoCol": "449",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "III. Aurea bulla Venetis concessa",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IV. Aurea bulla de locis a Venetis Cpoli possidendis",
+     "ordoCol": "5",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "V. Pactio cum Venetis",
+     "ordoCol": "463",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VI. Pactum cum iisdem de damnis resarciendis",
+     "ordoCol": "469",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VII. De metropoli Argeos",
+     "ordoCol": "&71",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "VIII. Aurea bulla Pisanis concessa",
+     "ordoCol": "474",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IX. De ecclesiis ad altiorem locum promotis",
+     "ordoCol": "483",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "X. De metropoli Hypaeorum",
+     "ordoCol": "483",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "XI. Aurea bulla Venetis concessa",
+     "ordoCol": "483",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "NEOPHYTUS PRESBYTER",
+   "title": "De calamitatibus insulae Cypri imperantibus Latinis",
+   "kind": "work",
+   "elenchusCol": "495",
+   "bodyCol": 495,
+   "bodyLine": 37445,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'NEOPHYTI PRESBYTERI ... DE CALAMITATIBUS CYPRI' at 37445/37534, between page headers 494 (37307) and 495|496 (37448). Notitia (Ordo 495, line 37499) is editorial, Ordo-only, not entered."
+  },
+  {
+   "author": "JOANNES CHILAS EPHESI METROPOLITA",
+   "title": "Notitia, cui insunt fragmenta dogmatica",
+   "kind": "editorial",
+   "elenchusCol": "9041",
+   "bodyCol": 501,
+   "bodyLine": 37949,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR '9041', Ordo '501'. 'JOANNES CHILAS' at 37949 after page headers 501 (37869), 502 (37875)."
+  },
+  {
+   "author": "JOANNES CHILAS EPHESI METROPOLITA",
+   "title": "De processione Spiritus sancti ad imp. Andronicum seniorem",
+   "kind": "work",
+   "elenchusCol": "906",
+   "bodyCol": 506,
+   "bodyLine": 38093,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head at 38093 (Greek 38153) after page header 505 (38090); Elenchus and Ordo 506 (the page's right column)."
+  },
+  {
+   "author": "NICOLAUS METHONENSIS IN PELOPONNESO METROPOLITA",
+   "title": "De corpore et sanguine Christi",
+   "kind": "work",
+   "elenchusCol": "909",
+   "bodyCol": 509,
+   "bodyLine": 38309,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Running/head '509 DE CORPORE ET SANGUINE CHRISTI 510' at 38309; Elenchus OCR '909', Ordo '509'. Methonensis's Notitia (Ordo 507, line 38216) is Ordo-only editorial, not entered."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Notitia",
+   "kind": "editorial",
+   "elenchusCol": "$11",
+   "bodyCol": 517,
+   "bodyLine": 38891,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR '$11'; Ordo '517'. Head 'EUSTATHIUS NOTITIA' at 38891-38897, page 517|518 (page header lost; 519|520 header at 38976)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Oratio in Psalmum XLVIII",
+   "kind": "work",
+   "elenchusCol": "$19",
+   "bodyCol": 519,
+   "bodyLine": 39033,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '$19'; Ordo '519'. Head at 39033 after page header 519 (38976)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Oratio anno auspicando habita",
+   "kind": "work",
+   "elenchusCol": "539",
+   "bodyCol": 539,
+   "bodyLine": 40475,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head at 40475 after page headers 539 (40402), 540 (40408)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Orationes quatuor in S. Quadragesimam",
+   "kind": "work",
+   "elenchusCol": "561",
+   "bodyCol": 569,
+   "bodyLine": 42277,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '561'; Ordo prints no readable column for the first oration. Body 'IN S. QUADRAGESIMAM ORATIO I' at 42277 after page header 569 (42274); 561 is an Oratio anno auspicando page. Probably 569 (9 misread as 1). Ordo parts as read; oratio II line lost in the Ordo.",
+   "parts": [
+    {
+     "title": "Oratio I",
+     "ordoCol": "e",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Oratio II",
+     "ordoCol": "",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Oratio III",
+     "ordoCol": "633",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Oratio IV",
+     "ordoCol": "611",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "De emendanda vita monachica",
+   "kind": "work",
+   "elenchusCol": "129",
+   "bodyCol": 729,
+   "bodyLine": 54056,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR '129', Ordo '729'. Head at 54056 between page numbers 728 (54017) and 730 (54059). Greek text appears in the columns."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Dialogus Theophilus et Hierocles inscriptus",
+   "kind": "work",
+   "elenchusCol": "909",
+   "bodyCol": 909,
+   "bodyLine": 67111,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "'DIALOGUS THEOPHILUS ET HIEROCLES' at 67111 (Greek intro after), page 909|910. The OCR also shows it at 67475 (running head)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Supplicatio Manueli Comneno imp., nomine civitatis Constantinopoleos oblata, cum siccitate laboraret",
+   "kind": "work",
+   "elenchusCol": "925",
+   "bodyCol": 925,
+   "bodyLine": 68361,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head at 68361-68370 within the OCR span anchored 924-930; page numbers here lost (bare '921','923' at 68435-68441 read as 925, 927?). Ordo 925. Not independently page-numbered."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Allocutio ad imp. Manuelem Comnenum, cum esset Myrorum metropolita electus",
+   "kind": "work",
+   "elenchusCol": "933",
+   "bodyCol": 933,
+   "bodyLine": 68836,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head at 68836 on page 933|934 (page header 934 at 68839, 931 at 68722)."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Laudatio funebris Manuelis Comneni",
+   "kind": "work",
+   "elenchusCol": "973",
+   "bodyCol": 973,
+   "bodyLine": 71656,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "'MANUELIS COMNENI LAUDATIO FUNEBRIS' at 71656, col 973 by anchor."
+  },
+  {
+   "author": "EUSTATHIUS THESSALONICENSIS METROPOLITA",
+   "title": "Epistola ad Thessalonicenses",
+   "kind": "work",
+   "elenchusCol": "1081",
+   "bodyCol": 1031,
+   "bodyLine": 76112,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '1081'; Ordo '1031'. Head 'EJUSDEM EPISTOLA AD THESSALONICENSES' at 76112 after page header 1031 (75997); col 1081 would be inside the Index. Note 'Reliqua in tomo sequenti continuantur'."
+  },
+  {
+   "author": "JOANNES ZONARAS",
+   "title": "Index analyticus in Joannis Zonarae Annales",
+   "kind": "editorial",
+   "elenchusCol": "1061",
+   "bodyCol": 1061,
+   "bodyLine": 78141,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "'INDEX IN ZONARAE ANNALES' at 78141, 'RERUM MEMORABILIUM' at 78148; Ordo 'Index in Joannem Zonaram. 1061'."
+  }
+ ],
+ "problems": [
+  "Ordo-only editorial items not entered: Neophytus's Notitia (Ordo 495, line 37499) and Nicolaus of Methone's Notitia (Ordo 507, line 38216).",
+  "Page numbers are patchy in cols 925-933, 437-439 and around 9-13; several columns rest on position between readable headers, noted per entry.",
+  "Elenchus text shows Eustathius's pieces and Isaac's novellae from OCR with many digit misreads; the Elenchus first-column header '$11/$19' etc. were corrected only where the Ordo and body agree.",
+  "Isaac Angelus Novellae: both lists read 439 but the title block sits on page 437|438 by line order. Unresolved, recorded as agree (+/-1) with bodyCol 438."
+ ]
+}

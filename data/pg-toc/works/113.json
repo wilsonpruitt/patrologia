@@ -1,0 +1,198 @@
+{
+ "volume": 113,
+ "source": "archive.org patrologia-volumes 113_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "236-299",
+ "colMap": "cols 1-1240 (pg-colfind --stats; 551 anchors, 145 jumps >2 cols)",
+ "entries": [
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "De thematibus Orientis et Occidentis, ex editione Anselmi Bandurii, Benedictini Monachi",
+   "kind": "work",
+   "elenchusCol": "63",
+   "bodyCol": 63,
+   "bodyLine": 3814,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'PERI THEMATON' at line 3814, Latin 'DE THEMATIBUS' 3825, on the spread whose header OCRs '63 CONSTANTINI PORPHYROGENITI 64' (line 3766). The OCR carries front matter before it (title page, dedications of Vulcanius/Morellus, Meursius preface, Monitum, then 'VARIORUM PRAEFATIONES' running heads from col 17 to 62); the Elenchus does not itemise these. The Ordo's Thematibus entry reads '1' (garbled) and lists the front matter as 'Praefationes variorum' with no column. Libri I (Orientis) and II (Occidentis, Greek head at col ~137) are not separate Elenchus items."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Frid. Tafel, Dissertatio (praefatio to Liber de Thematibus, ed. 1841/1847), premitted to De thematibus",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 531,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus gives only a parenthetical ('Premittitur ... Tafel ... dissertatio'), no column. Body: Migne's MONITUM at line 520, then Tafel's Praefatio ('Constantini thematum ... libellus duas habet partes') from line ~531, in the unnumbered front pages. The OCR has no page numbers between the title page and col 17 (running head 'VARIORUM PRAEFATIONES' at line 652 is col 17), so the column is not confirmed; it lies before 17. Ordo lists 'Theod. Luc. Frid. Tafel Dissertatio' without a column. Greek words appear inside the text but it is Tafel's Latin essay."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Hieroclis Grammatici Synecdemus",
+   "kind": "work",
+   "elenchusCol": "140",
+   "bodyCol": 141,
+   "bodyLine": 10185,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'HIEROKLEOUS GRAMMATIKOU SYNEKDEMOS' at line 10185, Latin 'HIEROCLIS GRAMMATICI SYNECDEMUS' at 10194, directly after bare page numbers 141 / 142 (lines 10179, 10182); i.e. spread 141|142. Elenchus 140 within +-1; Ordo OCR reads '112' (garbled)."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Liber de administrando imperio, ex editione Ans. Bandurii",
+   "kind": "work",
+   "elenchusCol": "157",
+   "bodyCol": 157,
+   "bodyLine": 11572,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'KONSTANTINOU ... PROS TON IDION YION ROMANON' at 11585, Latin title block from line 11572, after the '155 HIEROCLIS SYNECDEMUS 156' header (line 11429) and before the '159' header (11672), so spread 157|158 (page numbers lost). Ordo reads 158."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Vita Basilii Macedonis (memoratur tantum: exstat in tomo CIX Patrologiae, col. 226)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 421,
+   "bodyLine": 32914,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Cross-reference only; the same sentence is printed in the body in Banduri's note at line 32914 on the page before the Narratio de imagine Edessena (col 421). Not an item of this volume.",
+   "crossRefVolume": 109,
+   "crossRefCol": 226
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Preces liturgicae (Vide inter Opera Leonis Philosophi, tomo CVII, col. 299)",
+   "kind": "crossref",
+   "elenchusCol": "",
+   "bodyCol": 421,
+   "bodyLine": 32914,
+   "colStatus": "body-only",
+   "greek": "unknown",
+   "note": "Cross-reference only; printed in the body in the same note at line 32914-32916 ('ejusdem preces liturgicae, inter opera Leonis, tom. CVII, col. 299'). Elenchus OCR reads 'CVH'.",
+   "crossRefVolume": 107,
+   "crossRefCol": 299
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Narratio de translatione Constantinopolim imaginis Edessenae, ex editione Andreae Gallandii",
+   "kind": "work",
+   "elenchusCol": "421",
+   "bodyCol": 421,
+   "bodyLine": 32921,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 421|422 (bare '421' at line 32862, running head 'NARRATIO DE IMAGINE EDESSENA' 422) carries Banduri's note and Gallandi's MONITUM (head at 32921-32927) which opens the item; the Greek text itself starts on 423|424 (header line 32961, Greek head 32976). Ordo reads 423. Elenchus 421 taken as the start of the item including the Monitum."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Delectus legum compendiarius",
+   "kind": "work",
+   "elenchusCol": "453",
+   "bodyCol": 453,
+   "bodyLine": 35491,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'DELECTUS LEGUM / LEONIS ET CONSTANTINI ROMANORUM IMPP. / DELECTUS LEGUM COMPENDIARIUS' with Monitum Editorum at line 35520 and Greek head at 35533, on the spread starting at the '453' anchor (line 35475). Ordo reads 453."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Novellae Constitutiones",
+   "kind": "work",
+   "elenchusCol": "549",
+   "bodyCol": 549,
+   "bodyLine": 44576,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'CONSTANTINI IMP. PORPHYROGENITI NOVELLAE CONSTITUTIONES' at line 44576 after the page anchor 550 (line 44564), spread 549|550 (Elenchus 549; Ordo OCR '550'). Monitum Editorum precedes the Greek text. In the middle of the work (col ~557) the OCR prints an 'Imp. Romani Senioris aurea bulla pro monasterio Xeropotami' index line, not a separate head."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Excerpta de Legationibus, ex Dexippo Atheniensi, Eunapio Sardiano, Petro Patricio et magistro, Prisco sophista, Marco Philadelphiensi, Menandro Protectore, Theophylacto Simocatta, Constantini Porphyrogeniti jussu collecta",
+   "kind": "work",
+   "elenchusCol": "605",
+   "bodyCol": 605,
+   "bodyLine": 49104,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek 'EKLOGAI PERI PRESBEON' at line 49101, Latin 'EXCERPTA DE LEGATIONIBUS' 49104, Praefatio Editorum Bonnensium 49118. Follows the '603' header (line 48941, Novellae running head), so spread 605|606; the next running head '697(=607) EXCERPTA DE LEGATIONIBUS 603(=608)' is at 49167. Ordo OCR '616', 'Praefationes variorum 606'."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Constantini Proemium, quomodo oportet legatos admittere aut legatos mittere",
+   "kind": "work",
+   "elenchusCol": "635",
+   "bodyCol": 635,
+   "bodyLine": 50995,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "'Quomodo oportet legatos admittere aut legatos mittere' prints at line 50995 on the spread whose header anchors are 635 (line 50892) / 636 (50937). The Greek section head 'PERI PRESBEON ROMAION PROS ETHNIKOUS' with Greek IIPOOIMION (line 50794) and the Latin PROOEMIUM (50846) sit earlier, on pages 631-634 whose page numbers are not in the OCR (anchors jump 629 to 635), so their column is not confirmed. Ordo OCR reads '655' for the Proemium and '61(?)' for 'De legatis Romanorum ad gentes'."
+  },
+  {
+   "author": "CONSTANTINUS IMPERATOR PORPHYROGENITUS",
+   "title": "Argumentum libri primi Constantini Porphyrogeniti de virtutibus et vitiis, ex Collectaneis ab Henr. Valesio editis",
+   "kind": "work",
+   "elenchusCol": "951",
+   "bodyCol": 951,
+   "bodyLine": 77681,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'HYPOTHESIS TOU PERI TES ARETES KAI KAKIAS BIBLIOU' at line 77681, Latin 'ARGUMENTUM LIBRI PRIMI DE VIRTUTIBUS ET VITIIS' 77688, after the '949|950' header numerals (lines 77416/77422) and the next spread header (line 77586, page numerals lost) = 951|952. Anchor 955 at line 77858."
+  },
+  {
+   "author": "S. NICON IN CRETA",
+   "title": "Acta S. Niconis ab abbate monasterii S. Niconis anno 1150 scripta",
+   "kind": "work",
+   "elenchusCol": "975",
+   "bodyCol": 975,
+   "bodyLine": 79768,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ANNO DOMINI CMLX. / SANCTUS NICON IN CRETA' at line 79768-79774, Editorum Patrologiae Monitum 79780, 'VITA SANCTI NICONIS ARMENI MONACHI' 79797, on the spread with anchors 975 (79729) / 976 (79735). Latin translation by Sirmond from the Greek, body shows Latin only. Under the author head 'S. NICON IN CRETA'."
+  },
+  {
+   "author": "THEODOSIUS DIACONUS",
+   "title": "De expugnatione Cretae acroases quinque, ad Nicephorum Phocam imp., ex editione Nic. Mariae Foggini in Historiae Byzantinae Appendice nova Romae 1777 edita",
+   "kind": "work",
+   "elenchusCol": "982",
+   "bodyCol": 987,
+   "bodyLine": 82322,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR reads '982' (garbled, the line is badly mangled); col 982 falls inside the Nicon / Valesii material. Body: 'ANNO DOMINI CMLXIII. THEODOSIUS MONACHUS / NIC. MARIAE FOGGINI MONITUM DE THEODOSIO ET EJUS ACROASIBUS' at line 82322-82332 after anchor 987 (line 82228), so spread 987|988. Ordo reads 987 for the Monitum; Greek head 'ALOSIS KRETES' at 82464 (col 993), Proemium 82497, Acroasis prima 82632 (Ordo 995)."
+  },
+  {
+   "author": "ADDENDA",
+   "title": "Addenda: Romani Junioris imp. aurea bulla pro monasterio Xeropotami in monte Atho (cum interpretatione nostra)",
+   "kind": "work",
+   "elenchusCol": "1069",
+   "bodyCol": 1059,
+   "bodyLine": 88161,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '1069' and the Ordo's '10:9' / 'ADDENDA 1059' both point at the first Addenda head, which the body prints at line 88161-88165 on spread 1059|1060 (header line 88140 '1059 ADDENDA. - ROMANI SENIORIS AUREA BULLA 1060'). Caution: the body head and running heads on 1059-1064 say ROMANI SENIORIS; a running head 'IMP. ROMANI JUNIORIS AUREA BULLA' appears at line 88666 (spread ~1067|1068). The Elenchus and title page say Junioris, so there are two bullae in the body (Senioris first, Junioris after ~1065) and only one is named in the Elenchus; the column of the Junioris bulla's own head is not confirmed."
+  },
+  {
+   "author": "ADDENDA",
+   "title": "Petri Wesselingii ad Hieroclis Synecdemum (Elenchus title OCR-garbled: 'Nova ... ad Hieroclis Synecdemum')",
+   "kind": "editorial",
+   "elenchusCol": "1073",
+   "bodyCol": 1069,
+   "bodyLine": 88773,
+   "colStatus": "disagree",
+   "greek": "latin-only",
+   "note": "Elenchus title unreadable but ends 'ad Hieroclis Synecdemum', col 1073. Body: 'PETRI WESSELINGII IN HIEROCLIS SYNECDEMUM PROLEGOMENA' at line 88773-88780 (spread 1069|1070; header '1071 ADDENDA. - P. WESSELINGII' at 88898), then 'HIEROCLIS SYNECDEMUM COMMENTARIUS' at line 89231 on spread 1075|1076 (anchors 1073 at 89043, 1074 at 89116, 1075 at 89188). Elenchus 1073 matches neither start; believed the item starts at 1069 (Prolegomena), commentary 1075. The Ordo's matching line ('Wesselingii Commentarius ad Hieroclis Synecdemum') has no column."
+  }
+ ],
+ "problems": [
+  "Elenchus lines for the Addenda are badly garbled ('Ropa 3irüqde...'); title for the last item reconstructed from the Ordo and body, column 1073 matches neither Prolegomena (1069) nor Commentarius (1075).",
+  "Constantini Proemium: the Greek/Latin Proemium head (lines 50794/50846) lies on pages 631-634 whose numbers are missing from the OCR; the entry is anchored at the 'Quomodo oportet legatos' text on 635.",
+  "Tafel Dissertatio column unconfirmed (front pages before col 17 have no page numbers in the OCR).",
+  "Bulla naming: body head on 1059 reads ROMANI SENIORIS, Elenchus/Ordo/title page say Junioris; both bullae are present (Senioris 1059-~1064, Junioris running head from ~1067). Junioris head not separately located.",
+  "OCR duplication: the Nicon head and Valesii notes block appears twice (lines ~79732 and ~81405, anchors 975-981 repeated); first bodyLine given.",
+  "Tomus-internal sub-items (Libri I/II of De thematibus, Cap. I-LIII of Admin., Tituli of Delectus, individual excerpta, five Acroases, Vocabula Theodosio propria 1058) are in the Ordo but not Elenchus items; not entered.",
+  "Variorum Praefationes (front matter, cols ~3-62) are not Elenchus items; not entered."
+ ]
+}

@@ -1,0 +1,252 @@
+{
+ "volume": 117,
+ "source": "archive.org patrologia-volumes 117_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "223-626",
+ "colMap": "cols 13-1494 (pg-colfind --stats; only 368 anchors, 243 jumps >2 cols)",
+ "entries": [
+  {
+   "author": "BASILIUS PORPHYROGENITUS IMP.",
+   "title": "Menologium Basilianum, ex editione cardinalis Albani",
+   "kind": "work",
+   "elenchusCol": "el. 9",
+   "bodyCol": 9,
+   "bodyLine": 292,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus OCR reads 'el. 9'. Body: nuncupatio to Benedict XIII at line 292, two pages before the page 11|12 header (line 373), so page 9|10; no page-number lines survive for cols 9-10. Pars I head at line 765 (page 19). Parts from the Ordo; Ordo OCR lost the columns for three of them.",
+   "parts": [
+    {
+     "title": "Benedicto XIII Pontifici maximo nuncupatio",
+     "ordoCol": "9",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Typographus candido lectori",
+     "ordoCol": "(no column read in Ordo OCR)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Testimonia virorum illustrium de Menologio Basilii imperatoris",
+     "ordoCol": "(garbled in Ordo OCR: 'E')",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars prima. A mense Septembri ad Novembrem",
+     "ordoCol": "19",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars secunda. A mense Decembri ad Februarium",
+     "ordoCol": "(no column read in Ordo OCR)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Pars tertia. A mense Martio ad Augustum",
+     "ordoCol": "331",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "BASILIUS PORPHYROGENITUS IMP.",
+   "title": "Basilii imp. novellae Constitutiones",
+   "kind": "work",
+   "elenchusCol": "643",
+   "bodyCol": 613,
+   "bodyLine": 46384,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR 643; Ordo reads 614. Body: running head '613 ... NOVELLAE CONSTITUTIONES 614' at line 46336 and head 47 lines later, page 613|614, so Elenchus probably 613 (1 misread 4). Parts from the Ordo.",
+   "parts": [
+    {
+     "title": "I. De struendis ecclesiis, et religiosis domibus",
+     "ordoCol": "614",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "II. Bulla aurea Venetorum mercatoribus libertates concedens",
+     "ordoCol": "(garbled in Ordo OCR: '1')",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "III. Ut monasteria sint, quae ultra octo vel decem monachos habeant, siquidem sufficientem iis terram possideant",
+     "ordoCol": "618",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "IV. De praescriptione XL annorum",
+     "ordoCol": "618",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "V. De archiepiscopatu Bulgariae",
+     "ordoCol": "631",
+     "colStatus": "ordo-only"
+    }
+   ]
+  },
+  {
+   "author": "LEO DIACONUS CALOENSIS",
+   "title": "Praefatio D. Caroli Benedicti Hasii ... ad Leonem Diaconum",
+   "kind": "editorial",
+   "elenchusCol": "036",
+   "bodyCol": 635,
+   "bodyLine": 47756,
+   "colStatus": "elenchus-garbled",
+   "greek": "latin-only",
+   "note": "Elenchus OCR 036; Ordo reads 635. Body: Leo title page and Hasii dedicatio on page 633|634 (header OCR 034 at 47640), C. B. HASII PRAEFATIO head at 47756 immediately before the page 635|636 running head (line 47772). Taken as 635 on the Ordo's reading; the head sits at the page break so 633|634 is possible."
+  },
+  {
+   "author": "LEO DIACONUS CALOENSIS",
+   "title": "Leonis Diaconi Historiae libri decem",
+   "kind": "work",
+   "elenchusCol": "055",
+   "bodyCol": 655,
+   "bodyLine": 48358,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR 055; Ordo 655. Greek head LEONTOS DIAKONOU ISTORIA at 48358 (header OCR 658 at 48352), Latin LEONIS DIACONI HISTORIA at 48369."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "De velitatione bellica Nicephori Augusti, ex editione D. Caroli Benedicti Hasii post Leonem Diaconum",
+   "kind": "work",
+   "elenchusCol": "025",
+   "bodyCol": 925,
+   "bodyLine": 68623,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR 025; Ordo 926. Body: running head '925 NICEPHORI PHOCAE VELITATIO BELLICA 926' at 68578, head 45 lines later."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Excerpta ex historiis Arabum de expeditionibus Syriacis Nicephori Phocae et Joannis Tzimiscis, ex editione Christiani Lassenii",
+   "kind": "work",
+   "elenchusCol": "1007",
+   "bodyCol": 1007,
+   "bodyLine": 73800,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head at 73800, header 1007 two lines before. Text is Latin (translation from the Arabic)."
+  },
+  {
+   "author": "HYPPOLYTUS THEBANUS",
+   "title": "Fragmenta ab Andrea Gallandio collecta",
+   "kind": "work",
+   "elenchusCol": "1025",
+   "bodyCol": 1025,
+   "bodyLine": 75020,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'HIPPOLYTUS THEBANUS. - NOTITIA.' at 75020, next header 1026 four lines later; Notitia first, fragments from ~75084."
+  },
+  {
+   "author": "GEORGIDES MONACHUS",
+   "title": "Gnomologium",
+   "kind": "work",
+   "elenchusCol": "4057",
+   "bodyCol": 1057,
+   "bodyLine": 77234,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR 4057 (stray leading digit). Body: head GEORGIDES MONACHUS / GNOMOLOGIUM at 77234-77248, next header 1058 at 77252; page 1057|1058 (left number lost). A running head GEORGIDIS MONACHI appears from 77162 on 1055|1056 (Edit... notice)."
+  },
+  {
+   "author": "IGNATIUS DIACONUS",
+   "title": "Drama de primi parentis lapsu",
+   "kind": "work",
+   "elenchusCol": "4463",
+   "bodyCol": 1163,
+   "bodyLine": 87656,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR 4463. Body page numbers in cols ~1157-1169 are mostly lost. Head block ANNO INCERTO / IGNATII DIACONI DRAMA DE PRIMI PARENTIS LAPSU at 87653-87662 sits just before the running head of page 1165|1166 (line 87684; 1166 at 87760), i.e. at the foot of page 1163|1164. 1163 is therefore inferred from the page structure and the Elenchus, not read from a number."
+  },
+  {
+   "author": "IGNATIUS DIACONUS",
+   "title": "Versus ad Paulum discipulum suum",
+   "kind": "work",
+   "elenchusCol": "4173",
+   "bodyCol": 1173,
+   "bodyLine": 88430,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head IGNATIOU DIAKONOU GRAMMATIKOU EIS PAULON at 88430, header 1174 at 88402; Elenchus OCR 4173 (digit misread)."
+  },
+  {
+   "author": "IGNATIUS DIACONUS",
+   "title": "Iambi alphabetici",
+   "kind": "work",
+   "elenchusCol": "4175",
+   "bodyCol": 1175,
+   "bodyLine": 88735,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head IAMBOI KATA STOIXEION / IAMBI SECUNDUM ALPHABETUM at 88735-88741, foot of page 1175|1176 (header 1175 at 88549; the next page's running head NILI EPARCHI VERSUS at 88770). Elenchus OCR 4175."
+  },
+  {
+   "author": "NILUS",
+   "title": "Versus alphabetici",
+   "kind": "work",
+   "elenchusCol": "4177",
+   "bodyCol": 1177,
+   "bodyLine": 88894,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head NILI EPARCHI VERSUS ALPHABETICI at 88894-88902 on the page whose running head is at 88770 (page 1177|1178). Elenchus OCR 4177."
+  },
+  {
+   "author": "CHRISTOPHORUS PROTOASECRETIS",
+   "title": "Exhortatio duplex ad Israelitas",
+   "kind": "work",
+   "elenchusCol": "1179",
+   "bodyCol": 1179,
+   "bodyLine": 88984,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '1179 CHRISTOPHORI A SECRETIS' at 88936; Greek head XRISTOFOROU at 88987; Exhortatio altera at 89222 (page 1183)."
+  },
+  {
+   "author": "MICHAEL HAMARTOLUS",
+   "title": "Epistola ad Tyri presulem",
+   "kind": "work",
+   "elenchusCol": "4185",
+   "bodyCol": null,
+   "bodyLine": null,
+   "colStatus": "unlocated",
+   "greek": "unknown",
+   "note": "Not found. OCR between header 1182 (line 89124) and header 1191 (line 89360) holds only ~236 lines for 9 columns, so pages are missing or clipped; lines 89304-89357 show clipped Greek/Latin that may be this Epistola but no head is legible. Searched MICHAEL, HAMARTOL, EPISTOLA, 'ad Tyri'."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Versus politici catanuctici juxta alphabetum ex parte animae dolentis ad Salvatorem",
+   "kind": "work",
+   "elenchusCol": "1186",
+   "bodyCol": null,
+   "bodyLine": null,
+   "colStatus": "unlocated",
+   "greek": "yes",
+   "note": "First page not found. Only a running head ANONYMI VERSUS EX PARTE ANIMAE DOLENTIS at line 89370, immediately after header 1191, so the poem runs through col 1191 at least; consistent with, but not confirming, the Elenchus 1186. Same missing-pages gap as Michael Hamartolus."
+  },
+  {
+   "author": "SUIDAS",
+   "title": "Indices tres Lexicon Suidae compendiose repraesentantes",
+   "kind": "work",
+   "elenchusCol": "1193",
+   "bodyCol": 1193,
+   "bodyLine": 89512,
+   "colStatus": "agree",
+   "greek": "unknown",
+   "note": "Head SUIDAS. - NOTITIA at 89512, header 1194 three lines after. Notitia is Latin with Greek citations; Greek content of the Indices themselves not checked. The title is as the Elenchus gives it; body heads are Notitia and Indices."
+  }
+ ],
+ "problems": [
+  "Chain map is poor in this volume (368 anchors for ~1480 cols); bodyCol comes from nearby page-number lines and running heads, not the chain.",
+  "Michael Hamartolus (Elenchus 1185) and the start of the Versus politici (Elenchus 1186) are not in the OCR: lines 89124-89360 span cols 1182-1191 in about 236 lines, so several pages are missing or clipped.",
+  "The Ordo's column numbers are partly lost: it was used for Menologium and Novellae parts and as a cross-check for Leo Diaconus and the Velitatio. Ordo lines for Hasii and Velitatio read 635 and 926.",
+  "Ignatius Drama 1163 is inferred from the page structure (see note); no page number is legible there.",
+  "Not entered (not in the Elenchus): Hippolytus Notitia, Georgides Edit..., Suidas index sub-items, and the closing INDICES VOLUMINIS listed in the Ordo.",
+  "Leo Diaconus Historiae: the Ordo lists books I-X with columns, but books are subdivisions of one work, so no parts were built."
+ ]
+}

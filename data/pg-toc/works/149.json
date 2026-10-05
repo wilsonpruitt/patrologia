@@ -1,0 +1,240 @@
+{
+  "volume": 149,
+  "source": "archive.org patrologia-volumes 149_djvu.txt",
+  "elenchusLines": "427-498",
+  "colMap": "cols 9–1076 (pg-colfind --stats)",
+  "listSource": "elenchus",
+  "entries": [
+    {
+      "author": "NICEPHORUS GREGORAS",
+      "title": "Byzantinæ Historiæ libri XXV-XXXVII",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 510,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no columns at all. Greek head at line 510 (col 9); Ordo lists the books one by one (XXV 9, XXVI 55, XXVII 101, XXVIII 151, XXIX 193, XXX 255, ... XXXVII 467); not entered as parts."
+    },
+    {
+      "author": "NICEPHORI GREGORÆ SCRIPTA ALIA VARII ARGUMENTI",
+      "title": "Martyrium S. Codrati et Sociorum Corinthi in Peloponneso",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 503,
+      "bodyLine": 36621,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo reads '$05' (5 or 3); body: head page follows page 501|502 and precedes 505|506, so 503. Greek head then Latin."
+    },
+    {
+      "author": "NICEPHORI GREGORÆ SCRIPTA ALIA VARII ARGUMENTI",
+      "title": "Scholia in librum Synesii De insomniis",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 521,
+      "bodyLine": 37920,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo 521; body: running head 'SCHOLIA IN SYNESIUM' opens page 521|522 (page number lost in OCR; pg-colfind lags at 519)."
+    },
+    {
+      "author": "NICEPHORI GREGORÆ SCRIPTA ALIA VARII ARGUMENTI",
+      "title": "Fragmenta ex Nicephori Dialogo cui titulus: Florentius",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 643,
+      "bodyLine": 48729,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo reads 642; body page 643|644 (OCR '613'); agree within 1. OCR page-number run 641 repeats in this range, so some body numbers there are inferred from the page ladder."
+    },
+    {
+      "author": "NICEPHORI GREGORÆ SCRIPTA ALIA VARII ARGUMENTI",
+      "title": "Nicephori Gregoræ Epistolæ XVI",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 647,
+      "bodyLine": 49018,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo reads '611' for Ep. I (probably 647, 7 misread as 1); body: head on page 647|648 (page ladder 643, 645, 647). Epistola XVI at line 51775 is Ep. to Theodulus, which the Ordo notes is printed in tom. CXLV col. 425 as well."
+    },
+    {
+      "author": "NICEPHORI GREGORÆ SCRIPTA ALIA VARII ARGUMENTI",
+      "title": "Prologus encomiasticus in Odysseam breviter perstringens poematis indolem",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 663,
+      "bodyLine": 51797,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Preceded by 'Monitum in sequentia opuscula' (line 51782, not in the Elenchus). Ordo column cut off in OCR ('6'). Head sits at the foot of page 663|664 with its footnotes before the 665 header, so 663; page-number ambiguity of one page. Section heading OPUSCULA VARIA has no column."
+    },
+    {
+      "author": "NICEPHORI GREGORÆ SCRIPTA ALIA VARII ARGUMENTI",
+      "title": "Moralis enarratio peregrinationum Ulyssis",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 667,
+      "bodyLine": 52004,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo column not readable. Greek head (ΣΗΜΕΙΩΣΑΙ ΤΗΝ ΑΠΑΣΑΝ ΔΙΗΓΗΣΙΝ ΤΟΥ ΟΔΥΣΣΕΩΣ) on page 667|668 (headers 667 at 51982, 669 at 52124); no Latin title seen, so the head is identified by sense."
+    },
+    {
+      "author": "NILUS CABASILAS THESSALONICENSIS METROPOLITA",
+      "title": "Notitia ex Leonis Allatii Diatriba de Nilis",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 673,
+      "bodyLine": 52313,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Page header 673 at line 52277; author head NILUS CABASILAS at 52307. Notitia runs to about col 682."
+    },
+    {
+      "author": "NILUS CABASILAS THESSALONICENSIS METROPOLITA",
+      "title": "De causis dissensionum in Ecclesia et de primatu Papæ",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 683,
+      "bodyLine": 52823,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo reads '6835' (683). Title block 'Libri duo ... De causis dissensionum in Ecclesia et de Papæ primatu' at line 52823; Liber I at 52832 (Greek ΒΙΒΛΙΟΝ ΠΡΩΤΟΝ 52881); Liber II 'De primatu Papæ' at line 54120, col 699|700 (Ordo '693' for that part). Not split into entries because the Elenchus gives one item."
+    },
+    {
+      "author": "NILUS CABASILAS THESSALONICENSIS METROPOLITA",
+      "title": "Joannis Matthei Caryophylli, archiepiscopi Iconiensis, Confutatio Nili, ad Urbanum VIII Pontificem Maximum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 729,
+      "bodyLine": 56439,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo 729; body: page 729|730 header at 56436, 'REFUTATIO NILI' at 56439, dedication to Urban VIII at 56536. Greek and Latin."
+    },
+    {
+      "author": "NILUS CABASILAS THESSALONICENSIS METROPOLITA",
+      "title": "Encomium Gregorii Palamæ",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": 877,
+      "bodyLine": 69625,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Body line: 'Nili Thessalonicensis Encomium Gregorii Palamæ vide in tomo CLI.' (end of the Notitia on Theodorus, page 877|878); Ordo also lists it at 877. Column in tom. CLI not given.",
+      "crossRefVolume": 151,
+      "crossRefCol": null
+    },
+    {
+      "author": "THEODORUS MELITENIOTA, MAGNÆ ECCLESIÆ SACELLARIUS",
+      "title": "Notitia ex Leone Allatio de Theodoris",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 877,
+      "bodyLine": 69563,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Ordo reads '811' (877). Pages 871-875 sit at lines 69094-69401; body header '871' at 69560 is an OCR misread of 877 (col map 876-883 covers lines 69410-69785)."
+    },
+    {
+      "author": "THEODORUS MELITENIOTA, MAGNÆ ECCLESIÆ SACELLARIUS",
+      "title": "Editoris Romani Monitum in Ethica sequentia",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 881,
+      "bodyLine": 69715,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Head 'MONITUM' (Angelo Maii) at page 881|882; Ordo 'Angelo Maii Monitum 881'."
+    },
+    {
+      "author": "THEODORUS MELITENIOTA, MAGNÆ ECCLESIÆ SACELLARIUS",
+      "title": "Ethica sermonum in Evangelia",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 883,
+      "bodyLine": 69819,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo reads 'SERMONES. 885' but its first sermon is at 883 (OCR 'N83'); body: Greek head at 69819 on page 883|884. Ordo lists the individual sermons with columns (not entered; collection is one Elenchus item)."
+    },
+    {
+      "author": "THEODORUS MELITENIOTA, MAGNÆ ECCLESIÆ SACELLARIUS",
+      "title": "Ex libro de astronomia",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 987,
+      "bodyLine": 77731,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo reads '95]'; body: header '935' at 77700 is probably 987 (7→5 style misread; neighbouring headers 985 and 989 at 77508 and 77794), head at 77731, Prooemium in astronomiam follows. Note: OCR digits near here are poor, so 987 is inferred from the page ladder."
+    },
+    {
+      "author": "GEORGIUS LAPITHA",
+      "title": "Notitia ex Leone Allatio de Græcis",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 1001,
+      "bodyLine": 78679,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Head 'GEORGIUS LAPITHA. — NOTITIA' at page 1001|1002."
+    },
+    {
+      "author": "GEORGIUS LAPITHA",
+      "title": "Carmen morale",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1009,
+      "bodyLine": 79226,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Listed in the Ordo only ('CARMEN MORALE. 1009'); the Elenchus has no entry for it under Lapitha. Body: 'CARMEN MORALE' at 79226, page 1009|1010. Greek and Latin.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "CATALOGUS LIBRORUM MONASTERII INSULÆ PATMI SÆCULO XIV",
+      "title": "Catalogus librorum monasterii insulæ Patmi sæculo XIV",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1047,
+      "bodyLine": 82670,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Listed in the Ordo only ('141' read, i.e. probably 1041/1047). Body: head 'CATALOGUS ... LIBRORUM MONASTERI INSULÆ PATMI' at 82670 on page 1047|1048 (headers 1045 at 82508, 1047 at 82577 garbled '1016', 1049 at 82739); Latin Monitum at 82681; list is Greek.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "INDEX",
+      "title": "Index Græcitatis ad Nicephori Gregoræ Historiam Byzantinam",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 1051,
+      "bodyLine": 82968,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Ordo reads '1 οἱ' (garbled). Body: 'INDEX GRÆCITATIS ad Nicephori Gregoræ Historiam Byzantinam' at 83017, first head-like line 82968; page 1051|1052."
+    },
+    {
+      "author": "ADDENDA",
+      "title": "Nicephori Gregoræ Allocutio ad Andronicum Palæologum, cum victor rediisset",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1067,
+      "bodyLine": 85739,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Ordo: 'Appendix — Allocutio ad imp. Andronicum Palæologum III 1067'. Greek head ΛΟΓΟΣ ΠΡΟΣΦΩΝΗΜΑΤΙΚΟΣ at 85739, Latin 85779; header 1067 (OCR '1007'). The Elenchus's last line 'Ex Programmate Academico Lipsiensi ad annum 1865 proposito' is a source note on this item (footnote at 85806), not a separate work."
+    }
+  ],
+  "problems": [
+    "The Elenchus prints NO columns, so every colStatus is body-only; columns come from the body and the Ordo.",
+    "Elenchus cut (211..) was longer than the stated 427-478: continued to line ~498 (Ethica, Lapitha, Index, Addenda).",
+    "Not entered (Elenchus omits): 'Monitum in sequentia opuscula' (line 51782, col 663, editorial) and 'Index ad Nicephori Gregoræ Historiæ Byzantinæ libros postremos' (Ordo 1065).",
+    "OCR page numbers lag/repeat widely (e.g. 641 repeats; 'N83', '95]'), so Fragmenta (643), Epistolae (647), Prologus (663), Moralis enarratio (667), Ex libro de astronomia (987), Catalogus (1047) rest on the page ladder and are less certain than the rest.",
+    "Encomium Gregorii Palamae is a cross-reference to tom. CLI; no column given."
+  ]
+}

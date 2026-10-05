@@ -1,0 +1,79 @@
+{
+ "volume": 128,
+ "source": "archive.org patrologia-volumes 128_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "242-327",
+ "colMap": "cols 4-1399 (pg-colfind --stats; the top anchors 1395/1399 are OCR misreads of 1325/1326)",
+ "entries": [
+  {
+   "author": "EUTHYMIUS ZIGABENUS",
+   "title": "Editorum Patrologiae Monitum",
+   "kind": "editorial",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 265,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "OCR page numbers before 11 are lost (first running head, '11/12 PROLEGOMENA', at line 362; 13/14 at 449), so 9 is by sequence: Monitum and Fabricius notitia fill the page 9/10 before that header. Ordo lists Monitum without a column. 'Editorum Patrologiae Monitum' also signed J.-B. M."
+  },
+  {
+   "author": "EUTHYMIUS ZIGABENUS",
+   "title": "Notitia ex Bibliotheca Graeca Joan. Alb. Fabricii",
+   "kind": "editorial",
+   "elenchusCol": "ibid.",
+   "bodyCol": 9,
+   "bodyLine": 285,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'DE EUTHYMIO ZIGABENO / Ex Bibliotheca Graeca Joannis Alberti Fabricii' at line 285, same page run as the Monitum (9/10 into 11/12; Ordo lists it under Prolegomena)."
+  },
+  {
+   "author": "EUTHYMIUS ZIGABENUS",
+   "title": "Nicolai Fogginii Proemium",
+   "kind": "editorial",
+   "elenchusCol": "21",
+   "bodyCol": 21,
+   "bodyLine": 993,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Header '21 PROLEGOMENA 22' at line 897; head 'JOANNI CHRISTOPIORO AMADUTIO NICOLAUS FOGGINIUS S. D.' at line 993 before the 23/24 header (line 1014). Elenchus calls it Proemium; Ordo calls it 'Notitia alia ex Nicol. Fogginio'."
+  },
+  {
+   "author": "EUTHYMIUS ZIGABENUS",
+   "title": "Antonii Bongiovanni Praefatio ad Euthymii Commentaria in Psalmos, editioni principi Graeco-Latinae praemissa, Venetiis 1758-63, cum Theophylacti Operibus",
+   "kind": "editorial",
+   "elenchusCol": "35",
+   "bodyCol": 35,
+   "bodyLine": 1876,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Header '35 PROLEGOMENA 36' at line 1847 (OCR '45 ... 36'); head 'ANT. BONGIOVANNI PRAEFATIO' at line 1876. (Elenchus prints the date as 1158-63, an OCR misread of 1758-63; not bodied.)"
+  },
+  {
+   "author": "EUTHYMIUS ZIGABENUS",
+   "title": "Paulini Turchii Epistola nuncupatoria ad Clementem VII P. M., editioni Latinae Commentariorum in Psalmos Veronensi anni 1530 praemissae",
+   "kind": "editorial",
+   "elenchusCol": "39",
+   "bodyCol": 39,
+   "bodyLine": 1987,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Header '39 PROLEGOMENA 40' at line 1984 (OCR '20 l ... AQ'); head at line 1987."
+  },
+  {
+   "author": "EUTHYMIUS ZIGABENUS",
+   "title": "Euthymii Commentarius in Psalmos Davidis",
+   "kind": "work",
+   "elenchusCol": "41-1326",
+   "bodyCol": 41,
+   "bodyLine": 2040,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus gives the range 41-1326. Greek head 'EUTHYMIOU MONACHOU TOU ZIGABENOU EXEGESIS EIS TO PSALTERION' at line 2040, Latin head 2050-2059 (interprete Philippo Saulo), Prooemium 2065. No page number prints at the head (first page of a work carries no running head; the signature mark at 2153 and '43' at 2163 bound it), so 41 is by sequence. End: Psalmus CL at line 105912 and header '1325/1326 COMMENT. IN PSALMOS' (OCR '1395 ... 1326') at line 106000, then the Ordo."
+  }
+ ],
+ "problems": [
+  "Whole volume is one author; Elenchus lists 6 items and the body matches. Numbers for the first 8 pages (Monitum/Fabricius) and the commentary head are by page sequence because the OCR dropped those page numbers.",
+  "Elenchus prints Bongiovanni's date as 1158-63 (OCR); Ordo carries no columns for this volume."
+ ]
+}

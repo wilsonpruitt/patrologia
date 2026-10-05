@@ -1,0 +1,62 @@
+{
+ "volume": 146,
+ "source": "archive.org patrologia-volumes 146_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "209-259",
+ "colMap": "cols 4-1286 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Ecclesiasticae Historiae libri VIII-XIV",
+   "kind": "work",
+   "elenchusCol": "co].",
+   "bodyCol": 9,
+   "bodyLine": 260,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus prints the title then an unreadable column ('co].'). Body: Greek title block (NIKHPHOROY KALLISTOY XANTHOPOULOU EKKLESIASTIKES ISTORIAS TOMOS H) and Latin 'TOMUS VIII' with Cap. I at OCR lines ~191-300, on the first text page, before the first numbered page header (11|12 at line 364); the OCR carries no page numbers for the first pages, so bodyCol 9 is inferred, not read. Ordo prints Cap. I of Liber VIII with no column and Cap. II at 11, consistent with a first text page at 9|10 but not proof. The volume holds books VIII-XIV (Greek and Latin side by side), each with its own title block (Tomus IX line 15735, X 30930, XI 41729, XII 53961, XIII 66727, XIV 76689); the part columns come from the Ordo only.",
+   "parts": [
+    {
+     "title": "Liber VIII",
+     "ordoCol": "not printed (Cap. II = 11)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber IX",
+     "ordoCol": "223",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber X",
+     "ordoCol": "491 (as read; Cap. I; body head at line 30930, col approx 430)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XI",
+     "ordoCol": "586",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XII",
+     "ordoCol": "141 (as read, garbled; body head at line 53961, col approx 746)",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XIII",
+     "ordoCol": "922",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XIV",
+     "ordoCol": "1053",
+     "colStatus": "ordo-only"
+    }
+   ]
+  }
+ ],
+ "problems": [
+  "Elenchus lists a single item and its column is unreadable; bodyCol 9 is inferred (first text page, Ordo Cap. II = 11, header 11|12 follows the head page), not read from a page number.",
+  "Ordo columns for Liber X (491) and XII (141) are digit-garbled; read as printed, not corrected.",
+  "Ordo shows 'LIBER UNDECIMUS. 089' beside a first-chapter column of 586; the book entry column read as 586."
+ ]
+}

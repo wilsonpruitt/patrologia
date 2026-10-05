@@ -1,0 +1,24 @@
+{
+  "volume": 103,
+  "source": "archive.org patrologia-volumes 103_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "245-256 (single-item Elenchus; the cut then runs into the Hoeschelius and Schottus prefaces)",
+  "colMap": "cols 5-1596 (pg-colfind --stats; 860 anchors, 177 jumps >2 cols)",
+  "entries": [
+    {
+      "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+      "title": "Myriobiblon sive Bibliotheca (codd. 1-249)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 41,
+      "bodyLine": 2413,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints 'col.' with no number (the whole Elenchus is this one item). Body: the Bibliotheca proper opens with its Greek/Latin title block at line 2413, page 41/42 (header '4i BIBLIOTHECA 42' line 2379); Ordo reads 42 for 'Bibliotheca sive Myriobiblon' and for the Epistola Photii ad Tarasium. An earlier general title page (same Greek/Latin title, line 262-266) precedes Hoeschelius's nuncupatory epistle at col 9 (Ordo 9) and Schottus's at col 14; Prolegomena at cols 17-39 (Ordo 19), with Index auctorum at col 29 (Ordo 31) and Index codicum MSS at col 39 (Ordo 42). Codex I (Theodorus presbyter) follows at col 42; Codex CCXLIX at col ~1579 (line 121326), volume ends col 1596. Greek and Latin side by side; codices are not given separate Elenchus columns, so the single entry stands."
+    }
+  ],
+  "problems": [
+    "Elenchus lists a single item with no column number; no agree/disagree test possible, the body and Ordo give col 41/42.",
+    "Codices I-CCXLIX are not itemised (not Elenchus items); Ordo columns for them are noisy and were not used."
+  ]
+}

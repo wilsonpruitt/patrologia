@@ -1,0 +1,57 @@
+{
+  "volume": 153,
+  "source": "archive.org patrologia-volumes 153_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "993-1238",
+  "colMap": "cols 1-1320 (pg-colfind --stats; front columns noisy)",
+  "entries": [
+    {
+      "author": "JOANNES CANTACUZENUS IMP. CP.",
+      "title": "Historiae Byzantinae libri IV (de rebus sua aetate gestis, inde a morte Michaelis Palaeologi anno 1320 exstincti usque ad annum circiter 1354). Praemittuntur binae epistolae sub fictis Nili et Christoduli nominibus",
+      "kind": "work",
+      "elenchusCol": "17",
+      "bodyCol": 17,
+      "bodyLine": 1481,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Body head HISTORIARUM LIBRI IV at line 1481, after page header '17 PROLEGOMENA 18'. The volume carries Libri I-III only: Ordo lists Liber I, II (407), III (703) and ends in Liber III (Cap. C near col 1283); no Liber IV head found in the OCR (Elenchus says IV). Parts are from the Ordo, columns as read: Liber primus '4' (garbled; body head LIBER PRIMUS at line 5880, col ~55, Nilus-Christodulus letters at line 3206, col ~31), Nilus Christodulo 'ål' (garbled).",
+      "parts": [
+        {
+          "title": "Prolegomena",
+          "ordoCol": "ibid.",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber primus",
+          "ordoCol": "4",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Nilus Christodulo (epistola)",
+          "ordoCol": "ål",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber secundus",
+          "ordoCol": "407",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Argumentum libri tertii",
+          "ordoCol": "695",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber tertius",
+          "ordoCol": "703",
+          "colStatus": "ordo-only"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    "Elenchus lists a single item; the cut (lines 993-1238) runs on into the Notitia, which the Elenchus does not list. Not entered: Notitia (Ordo 9, Fabricius), Prolegomena (Ordo; body 'PROLEGOMENA' from col 13, Pontanus et al.), Argumenta librorum.",
+    "Elenchus says libri IV; the OCR/Ordo show only Libri I-III in this volume (cols 17-1320), Liber IV apparently in the next tome; not resolved.",
+    "The OCR has junk/gibberish page text near the end (lines ~98263-98557) and in the front (lines 245-600), so front columns 1-12 are unmapped."
+  ]
+}

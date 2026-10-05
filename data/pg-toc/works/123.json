@@ -1,0 +1,71 @@
+{
+ "volume": 123,
+ "source": "archive.org patrologia-volumes 123_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "181-215 (list proper; the cut to 584 runs on into the Rubeis Dissertatio)",
+ "colMap": "cols 11-1353 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "Fr. J. F. Bern. Mariae de Rubeis",
+   "title": "Dissertatio de Theophylacti aetate, gestis, scriptis ac doctrina",
+   "kind": "editorial",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 230,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Elenchus prints 'col. 9'. Body head DISSERTATIO (line 230) precedes the running head 11|12 at line 282, so page 9|10. Listed under the heading THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS; the Elenchus cut also runs on into the Dissertation text itself."
+  },
+  {
+   "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+   "title": "Enarratio in Evangelium S. Matthaei",
+   "kind": "work",
+   "elenchusCol": "143",
+   "bodyCol": 143,
+   "bodyLine": 5187,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head EPMHNEIA EIS TO KATA MATOAION EYATTEAION then 'ENARRATIO IN EVANGELIUM MATTHAEI', Praefatio and Prooimion; head follows OCR number 143 at line 5105. Elenchus heading 'Theophylacti Opera' (no column) and Migne's note on the Venice edition (Bertella, 1754-58) precede the list; Ordo's opening lines are chapter listings and give no column for the Enarratio itself."
+  },
+  {
+   "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+   "title": "Enarratio in Evangelium S. Marci",
+   "kind": "work",
+   "elenchusCol": "487",
+   "bodyCol": 481,
+   "bodyLine": 31837,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR reads 487; body head (Greek THEOPHYLACTI ARCHIEPISCOPI BULGARIAE, EPMHNEIA EIS TO KATA MAPKON, then 'ENARRATIO IN EVANGELIUM MARCI' and Vita B. Marci) follows OCR number 481 at line 31813 and the end of Matthew ('Mathei finis'), page 481|482. Ordo reads 481 for both the Enarratio and the Vita. Believe 481; the Elenchus 7 is probably a misread 1."
+  },
+  {
+   "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+   "title": "Enarratio in Evangelium S. Lucae",
+   "kind": "work",
+   "elenchusCol": "683",
+   "bodyCol": 683,
+   "bodyLine": 46811,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head EPMHNEIA EIS TO KATA AOYKAN EYATTEAION at line 46811, after OCR number 682 (line 46727) and before 685 (46937), so page 683|684 (page number lines lost). Ordo reads 685 for the Enarratio and 685 for the Vita S. Lucae, which sits on the next page; the Elenchus 683 matches the head."
+  },
+  {
+   "author": "THEOPHYLACTUS BULGARIAE ARCHIEPISCOPUS",
+   "title": "Enarratio in Evangelium S. Joannis",
+   "kind": "work",
+   "elenchusCol": "1127",
+   "bodyCol": 1127,
+   "bodyLine": 82085,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head EPMHNEIA EIS TO KATA IOANNHN EYATTEAION, then 'ENARRATIO IN EVANGELIUM JOANNIS' and Vita Joannis; OCR number 1126 at line 81950, next anchor 1129 at 82195, so page 1127|1128. Ordo reads 1127."
+  }
+ ],
+ "problems": [
+  "Elenchus cut (lines 181-584) runs into the Dissertatio text; the list itself ends with the Joannis entry at about line 205.",
+  "Mark: Elenchus 487 vs body/Ordo 481, resolved for 481 (see entry).",
+  "Luke: Ordo 685 vs Elenchus/body 683; the head page's number lines are lost in the OCR, so 683 is read from the position between OCR 682 and 685.",
+  "Ordo sub-items (Vitae of the evangelists, Argumentum, Praefatio auctoris, chapter lists) not entered; Elenchus lists only the four Enarrationes and the Dissertatio.",
+  "No Greek-only or Latin-only distinction beyond head evidence; each Enarratio prints Greek and Latin (Migne's note says the Venice edition is Greek and Latin)."
+ ]
+}

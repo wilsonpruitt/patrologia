@@ -1,0 +1,224 @@
+{
+ "volume": 137,
+ "source": "archive.org patrologia-volumes 137_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "188-230",
+ "colMap": "cols 17-1497 (pg-colfind --stats); the Notitia (cols 9-16) sits before the map",
+ "entries": [
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Notitia ex Bibliotheca Graeca Joan. Alb. Fabricii",
+   "kind": "editorial",
+   "elenchusCol": "9 (OCR garbled: '1/7 0 2 (^ 7 e. 9')",
+   "bodyCol": 9,
+   "bodyLine": 233,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Elenchus digits garbled but end in 9; Ordo reads 'Notitia. 9'. OCR column map starts at 17; running heads at lines 364, 435, 504, 584 count 11/12, 13/14, 15/16, 17/18 back to col 9."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Guillelmi Beveregii Praefatio (body: 'Ex Praefatione Guilielmi Beveregii')",
+   "kind": "editorial",
+   "elenchusCol": "19",
+   "bodyCol": 19,
+   "bodyLine": 663,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Renamed in the body 'EX PRAEFATIONE GUILIELMI BEVEREGII'; running heads at 663 start col 19."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Theodori Balsamonis, Zonarae, Aristeni Commentaria in canones SS. Apostolorum, conciliorum et in Epistolas canonicas SS. Patrum",
+   "kind": "work",
+   "elenchusCol": "35",
+   "bodyCol": 35,
+   "bodyLine": 1230,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "General title block for the commentary (page 35, after Beveregius's preface ends at col 34). Elenchus title is OCR-garbled but ends '... in Epistolas canonicas SS. Patrum 35'. Elenchus note: text collated with the Athens edition of 1855."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones SS. Apostolorum",
+   "kind": "work",
+   "elenchusCol": "Ibid.",
+   "bodyCol": 35,
+   "bodyLine": 1253,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints 'Ibid.' (same column as the preceding title, 35); Greek 'KANONEZ TON AGION APOSTOLON' at 1249-1250, then Latin 'CANONES'."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones oecumenicae Nicaenae synodi I",
+   "kind": "work",
+   "elenchusCol": "917",
+   "bodyCol": 217,
+   "bodyLine": 17103,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus '917' falls inside the Notes/other works (col 917 is Nicaea II material), and Ordo also reads '911'; the body head 'THS EN NIKAIA PROTHS AGIAS KAI OIKOUMENIKHS ZYNODOU' sits on page 217/218 (running head at 17069 counts 218). Read 217 (2 read as 9)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Constantinopolitanae II oecumenicae (Elenchus: 'synodi Constantinopolitanee II')",
+   "kind": "work",
+   "elenchusCol": "309",
+   "bodyCol": 309,
+   "bodyLine": 24603,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'KANONEZ ... THS EN KONSTANTINOUPOLEI DEUTERAS OIKOUMENIKHS ZYNODOU' on page 309/310; Ordo reads '509' (garbled)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Ephesinae III",
+   "kind": "work",
+   "elenchusCol": "347",
+   "bodyCol": 347,
+   "bodyLine": 27486,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 347/348 (header at 27365-27368); Greek head 'KANONEZ ... TRITHS ZYNODOU' at 27486."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Chalcedonensis, quartae oecumenicae",
+   "kind": "work",
+   "elenchusCol": "381",
+   "bodyCol": 381,
+   "bodyLine": 30100,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 30100-30103, Latin 'CANONES XXX SANCTAE ET OECUMENICAE QUARTAE SYNODI CHALCEDONENSIS' at 30109."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Synodi Quinisextae (body head: 'De quinta synodo')",
+   "kind": "work",
+   "elenchusCol": "497",
+   "bodyCol": 497,
+   "bodyLine": 39304,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Body head 'PERI THS PEMPTHS ZYNODOU. DE QUINTA SYNODO' on page 497/498 (running head 'IN CONC. V.' at 39266). The Elenchus's 'Quinisexte' is its own rendering; 'De sexta synodo' follows at 39359 and the Trullan canons at col 501 (next entry)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Synodi in Trullo",
+   "kind": "work",
+   "elenchusCol": "501",
+   "bodyCol": 501,
+   "bodyLine": 39513,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Running head 'IN CONC. IN TRULLO' at 39512 (col 501); Greek head 'PERI THS LEGOMENHS EKTHS ZYNODOU. DE SYNODO QUAE SEXTA DICITUR' at 39513; KANONEZ at 39540. Preceding 'De sexta synodo' at 39359 on col 497-499."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi VII oecumenicae (Elenchus: 'synodi V cecumenicae')",
+   "kind": "work",
+   "elenchusCol": "875",
+   "bodyCol": 875,
+   "bodyLine": 75911,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus title is OCR 'synodi V cecumenic&'; body head reads 'THS AGIAS KAI OIKOUMENIKHS EBDOMHS ZYNODOU' (seventh), as does the Ordo ('Concilii VII oecumenici'). Page 875/876."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Constantinopolitanae primae et secundae",
+   "kind": "work",
+   "elenchusCol": "1003",
+   "bodyCol": 1003,
+   "bodyLine": 85962,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'KONSTANTINOUPOLEI PROTHS KAI DEUTERAS ZYNODOU' at 85966, KANONEZ at 85962, page 1003/1004. A further synod's canons ('sanctae synodi quae in celebri templo ... schismaticam et haereticam plan', head at line 92613, col 1083) lie inside this block, with no Elenchus or Ordo entry; see problems."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Carthaginensis",
+   "kind": "work",
+   "elenchusCol": "1095",
+   "bodyCol": 1095,
+   "bodyLine": 93534,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'H EN KARCHEDONI GENOMENH ZYNODOS' at 93534; Latin 'CARTHAGINENSIS SYNODUS cui praefuit magnus Cyprianus' at 93543; page 1095/1096."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Ancyranae",
+   "kind": "work",
+   "elenchusCol": "1121",
+   "bodyCol": 1121,
+   "bodyLine": 95610,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 1121/1122; Ordo reads '1131' (garbled)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Neocaesariensis",
+   "kind": "work",
+   "elenchusCol": "1195",
+   "bodyCol": 1195,
+   "bodyLine": 101485,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Latin head 'CANONES SYNODI NEOCAESARIENSIS' on page 1195/1196 (header at 101452)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Gangrensis",
+   "kind": "work",
+   "elenchusCol": "1233",
+   "bodyCol": 1233,
+   "bodyLine": 104465,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 1233/1234; Ordo reads '1255' (garbled)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Antiochenae",
+   "kind": "work",
+   "elenchusCol": "1214",
+   "bodyCol": 1273,
+   "bodyLine": 107680,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus '1214' lies inside the Gangra material (1233-1272); Ordo reads '1273'; the head 'THS EN ANTIOCHEIA THS SYRIAS ZYNODOU' at 107680-107685 follows the page number at 107646 (1273) and precedes chain 1275 at 107770. Read 1273."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Laodicenae",
+   "kind": "work",
+   "elenchusCol": "1342",
+   "bodyCol": 1342,
+   "bodyLine": 113111,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'KANONES THS EN LAODIKEIA ...' at page 1341/1342; recorded as 1342 (Migne's own Elenchus column, one of the page's two columns)."
+  },
+  {
+   "author": "THEODORUS BALSAMON",
+   "title": "Canones synodi Sardicensis",
+   "kind": "work",
+   "elenchusCol": "1422",
+   "bodyCol": 1422,
+   "bodyLine": 120171,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'KANONEZ THS EN SARDIKH' on page 1421/1422; recorded as 1422 (Elenchus column)."
+  }
+ ],
+ "problems": [
+  "Elenchus is badly OCR-garbled (digits, titles), cross-checked against the Ordo: Ordo agrees on Notitia 9, Beveregius 19, Apostolorum 35, Cpol II (reads 509), Ephesus 347, 1003, 1095, 1195, 1273; Ordo garbles Ancyra (1131), Gangra (1255), Laodicea and Sardica numbers; every column confirmed from page numbers in the body.",
+  "Title of the sixth item reads 'synodi Quinisexte' in the Elenchus but the body head is 'De quinta synodo' (col 497), with 'De sexta synodo' at ~col 499 and the Trullan canons at 501; the Elenchus's two items (497, 501) map to these.",
+  "Not entered (neither in Elenchus nor Ordo): a synod's canons headed 'THS AGIAS SYNODOU (65), THS EN TO ... NAO' ('sanctae synodi quae in celebri templo ...') at line 92613, col 1083, inside the Cpol I and II block; and Balsamon's commentary on the canonical epistles of the Fathers (the Elenchus title says 'et in Epistolas canonicas SS. Patrum'), whose heads are not separately listed in the Elenchus or Ordo (volume runs to col 1497 after Sardica 1422).",
+  "Elenchus counts Nicaea I as '917'; its body head is at col 217 (2 misread as 9, and Ordo repeats '911'); considered garbled, not a disagreement."
+ ]
+}

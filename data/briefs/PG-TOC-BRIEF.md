@@ -149,3 +149,21 @@ appears twice, give the FIRST `bodyLine` and note the duplication in `problems`.
 
 **Ordo-only lists** (`# FALLBACK` files) are already the cross-check list; confirm every column in
 the body as usual.
+
+## Collections the Elenchus lists as one item (added 2026-10-05 after PG 114)
+
+When an Elenchus item is a COLLECTION whose pieces the closing ORDO RERUM lists one by one with
+their own columns (Metaphrastes' *Vitae Sanctorum*, PG 114–116; menologia, homily collections,
+letter books), keep the collection as one entry (body-confirmed as usual) and give it a `parts`
+array taken from the Ordo: `{"title": …, "ordoCol": "…as read…", "colStatus": "ordo-only"}`, one
+per top-level piece in the Ordo (a saint's life or a homily, not its chapters). Don't
+body-confirm the parts. That is a later pass, done when a part enters the queue. Do this ONLY when
+the Ordo lists the pieces with columns. Don't build parts from the body.
+
+## Works the Ordo lists but the Elenchus omits (added 2026-10-05 after PG 127/129)
+
+If the closing ORDO RERUM lists a WORK (a text by an author, e.g. Nicetas Serronius' *Anthologium*
+in PG 127) that the Elenchus omits, ENTER IT as a normal entry, body-confirmed as usual, with
+`"listedIn": "ordo-only"`, in its column position among the other entries. Indices, addenda of
+corrigenda, lectiones variantes and editors' apparatus that the Elenchus omits are NOT entered;
+mention them in `problems`. (Items in both lists need no `listedIn` field.)

@@ -1,0 +1,1136 @@
+{
+  "volume": 152,
+  "source": "archive.org patrologia-volumes 152_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "208-274",
+  "colMap": "cols 11-1470 (pg-colfind --stats; first page, col 9, is below the map)",
+  "entries": [
+    {
+      "author": "MANUEL CALECAS, ORDINIS FRATRUM MINORUM MONACHUS, CPOLITANUS PATRIARCHA",
+      "title": "Notitia de scriptis et rebus gestis Manuelis Calecae",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 9,
+      "bodyLine": 289,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column (blank 'col.'); Ordo reads 9. Body: head NOTITIA at line 289, the first page of the volume (below the pg-colfind map, which starts at col 11); col 9 inferred from Ordo and from page 11/12 header at line ~382."
+    },
+    {
+      "author": "MANUEL CALECAS, ORDINIS FRATRUM MINORUM MONACHUS, CPOLITANUS PATRIARCHA",
+      "title": "Manuelis Calecae contra errores Graecorum libri quatuor, interprete Ambrosio Camaldulensi (praemittitur epistola nuncupatoria ad Martinum V Pontificem Maximum)",
+      "kind": "work",
+      "elenchusCol": "11",
+      "bodyCol": 11,
+      "bodyLine": 430,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Elenchus detached block '11 283 429 661' mapped in order to this item, De essentia, De fide, Cyparissiota Notitia. Body: title block lines 430-432 (page 11/12), Praefatio line 443, Prologus line 503 (col 13). Ordo parts below.",
+      "parts": [
+        {
+          "title": "Epistola nuncupatoria / Praefatio (Ordo 'rio.')",
+          "ordoCol": "1",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Incipit Auctoris Prologus",
+          "ordoCol": "13",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber I",
+          "ordoCol": "17",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber II",
+          "ordoCol": "δι",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber III",
+          "ordoCol": "121",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Liber IV",
+          "ordoCol": "187",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "MANUEL CALECAS, ORDINIS FRATRUM MINORUM MONACHUS, CPOLITANUS PATRIARCHA",
+      "title": "De essentia et operatione, editore et interprete Francisco Combefisio",
+      "kind": "work",
+      "elenchusCol": "283",
+      "bodyCol": 283,
+      "bodyLine": 21382,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Treatise title block (Greek PERI OUSIAS KAI ENERGEIAS, line ~21382) sits on page 283/284 (page-number line '293' at 21333 read as 283). Combefisii Praefatio, a long preface, begins earlier at col 257 (line 19514; Ordo 'P 2517' = 257); it is part of this Elenchus item and not a separate entry."
+    },
+    {
+      "author": "MANUEL CALECAS, ORDINIS FRATRUM MINORUM MONACHUS, CPOLITANUS PATRIARCHA",
+      "title": "De fide deque principiis fidei catholicae, ex ejusdem editione",
+      "kind": "work",
+      "elenchusCol": "429",
+      "bodyCol": 429,
+      "bodyLine": 33299,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head PERI PISTEOS line 33299, Latin title line 33327, page 429/430 (header 431/432 follows at line 33437). Ordo parts below (Cap. V has no readable Ordo column).",
+      "parts": [
+        {
+          "title": "Cap. I. Ad eum qui quaesierat",
+          "ordoCol": "429",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. II. De Deo uno",
+          "ordoCol": "405",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. III. De Deo uno qui est Trinitas",
+          "ordoCol": "415",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. IV. Quae tandem simulacra ac imagines de sancta Trinitate sancti tradant",
+          "ordoCol": "529",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. V. De Dei Verbi incarnatione juxta Scripturas",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. VI. De septem sacramentis",
+          "ordoCol": "597",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. VII. Adhuc de incarnatione",
+          "ordoCol": "609",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. VIII. De futura mortuorum resurrectione",
+          "ordoCol": "627",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Cap. IX. De futura in integrum restitutione",
+          "ordoCol": "641",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Peroratio",
+          "ordoCol": "651",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "JOANNES CYPARISSIOTA",
+      "title": "Notitia historica et litteraria",
+      "kind": "editorial",
+      "elenchusCol": "661",
+      "bodyCol": 661,
+      "bodyLine": 53206,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Head NOTITIA line 53206 (page 661/662); Ordo 661."
+    },
+    {
+      "author": "JOANNES CYPARISSIOTA",
+      "title": "Palamiticarum Transgressionum liber primus, editore et interprete Fr. Combefisio (Vide col. 737 quae de operis in libros distinctione Combefisius scribit)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 661,
+      "bodyLine": 53263,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Head (Greek LOGOS A, Latin SERMO I) at line 53263 on the same page as the Notitia's close, page 661/662. Ordo gives chapter columns (Cap. III 679, IV 683, V 681, VI 695) but none for the Sermo itself."
+    },
+    {
+      "author": "JOANNES CYPARISSIOTA",
+      "title": "Palamiticarum Transgressionum Sermo IV (Praeter omnem Christianitatis ritum ac ordinem conflatam esse Palamiticarum Ecclesiam)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 697,
+      "bodyLine": 55850,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Listed in the Ordo (699) but not in the Elenchus, which names only 'liber primus'; entered per brief. Body: Greek LOGOS TETARTOS line 55850, Latin SERMO IV line 55861, page 697/698 (Ordo 699 is +-2 of the page; head at foot of page, +-1 of 698 counts as agree).",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "JOANNES CYPARISSIOTA",
+      "title": "Expositio eorum quae de Deo a theologis dicuntur, in decem decades partita, Franc. Turriano S. J. interprete",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 741,
+      "bodyLine": 61430,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column; Ordo reads '791' (OCR) for the Expositio and '181' for the Praemeditatio (= 741). Body: Turriani Praefatio first at line 61305 (page 739/740; Ordo '39'), then Cyparissiotae Praemeditatio / Expositio title at line 61430 on page 741. Parts are the Ordo's top-level decades with columns as read (many garbled, e.g. Tertia '117', Quarta '191', Sexta '539', Octava '851').",
+      "parts": [
+        {
+          "title": "Praefatio Francisci Turriani Societatis Jesu ad Ant. Augustinum archiepiscopum Tarraconensem",
+          "ordoCol": "39",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Praemeditatio expositionis",
+          "ordoCol": "181",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Prima Decas. De theologia symbolica",
+          "ordoCol": "743",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Secunda Decas. De theologia demonstrativa",
+          "ordoCol": "759",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Tertia Decas. De divinis emanationibus",
+          "ordoCol": "117",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Quarta Decas. De informatione divini nominis",
+          "ordoCol": "191",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Quinta Decas. De proprietatibus divinorum nominum",
+          "ordoCol": "805",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Sexta Decas. De apparitionibus divini luminis",
+          "ordoCol": "539",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Septima Decas. De divina participatione",
+          "ordoCol": "863",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Octava Decas. De infinitate Dei in creaturis",
+          "ordoCol": "851",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Nona Decas. De infinitate in Deo",
+          "ordoCol": "923",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Decima Decas. De divina simplicitate",
+          "ordoCol": "959",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "JOANNES CYPARISSIOTA",
+      "title": "Index scriptorum in Decadibus Cyparissiotae citatorum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 991,
+      "bodyLine": 83657,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column; Ordo prints none for the Index. Body: head INDEX SCRIPTORUM line 83657, page 991/992; runs on to col ~996."
+    },
+    {
+      "author": "MATTHAEUS CANTACUZENUS IMP. CP.",
+      "title": "Commentarius in Canticum Canticorum, interprete et editore Vincentio Ricardo, Clerico regulari",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 995,
+      "bodyLine": 83980,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column; Ordo reads 991 (OCR; 5 misread as 1 is the likeliest garble, inferred). Body: Notitia historica et litteraria (Matthaeus Cantacuzenus) line 83959, Canticum title block line 83980-83986 on page 995/996 (header '055' at 83890 read as 995). Ordo lists the Notitia separately (editorial, not entered)."
+    },
+    {
+      "author": "MATTHAEUS CANTACUZENUS IMP. CP.",
+      "title": "Commentarius in Sophiam Salomonis",
+      "kind": "crossref",
+      "elenchusCol": "",
+      "bodyCol": null,
+      "bodyLine": 92926,
+      "colStatus": "body-only",
+      "greek": "unknown",
+      "note": "Body prints only a note at line ~92913: Matthaei Cantacuzeni fragmenta in Sophiam Salomonis, Graece et Latine ed. Ang. Maius in notis ad Nicephori Antirrhetici ... 'Vide tomum nostrum C, coll. 395(?), 411, 418, 447/5&7(?), 499/589(?)' (digits garbled in OCR; Elenchus-adjacent copy reads 595, 411, 418, 447, 499). Printed in col 1083/1084.",
+      "crossRefVolume": 100,
+      "crossRefCol": "395/595, 411, 418, 447, 499 (as read, garbled)"
+    },
+    {
+      "author": "JOAN. GLYCIS, ESAIAS, JOAN. CALECA, ISIDORUS, CALLISTUS, PHILOTHEUS, CPOLITANI PATRIARCHAE",
+      "title": "Diplomata, Synodicae Constitutiones, Epistolae, ab anno 1310 ad annum 1319 [sic; body head reads AB ANNO MCCCX AD ANNUM 1372]",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1085,
+      "bodyLine": 92940,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Body head DIPLOMATA, SYNODICAE CONSTITUTIONES, EPISTOLAE at line 92940, after the Cantacuzenus Sophiam note, with Greek KODIKION ... (Joannes Glycis) following; page header 1085/1086 is lost between the 1083/1084 and 1087 headers, so 1085 is inferred and agrees with Ordo item I. Parts are machine-split Ordo blocks (167, garbled titles, columns as read, one per document; patriarch group heads not separated).",
+      "parts": [
+        {
+          "title": "3 Joannes (ι.τοι6, l. Αι! solium patriarchale evectus, patriarcham Magn: Antiochiæ Constantinopolim vocat",
+          "ordoCol": "1085",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "JI. Patriarche Hierosolymorum nuntiat se solium paUri rehale ascendisse",
+          "ordoCol": "1081",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ill. Jura et privilegia monasterii Mesopotami confirmat. (Initium deest.)",
+          "ordoCol": "1087",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IV. Synodus patriarchae confert reditus quatuor sedium meiropolitanaruim",
+          "ordoCol": "1089",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V. Monachos monasteriorum Butopedii et Esphigmeui in Mome Sancto monet, ut lites componant",
+          "ordoCol": "1091",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Vl. Synodus absolvit monachum Ignatium monasterii S.mcte Anne, «",
+          "ordoCol": "1093",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VM. Synodus dirimit controversiam μμ» VIN. Episcopum Chii a clericis suis aceusatam in jus voal",
+          "ordoCol": "1099",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IX. Clericos insul» Chii iu synodum vocat, ut accusationem contra episcopum comparalam probent",
+          "ordoCol": "1099",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "X. Synodus metropolitæ Philipporum mandat, ut simul cum archiepiscopo Drame causam quamdam μας XI. Synodus metropolitee Antiquarum Patrarum confert metropolim Lacedienioniorum per adjuuctiouem",
+          "ordoCol": "110t",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Ml. Gregorius, patriarcha. Alexandrim, proületur ortliodoxam tidem",
+          "ordoCol": "{104",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIII. Patriarcha Joannes respondet ad professionem fidei Gregorii, patriarche Alexaudris, invitans eum ut Cpolim veniat",
+          "ordoCol": "1108",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIV. Synodus quosdam ecclesiasticos condemuat",
+          "ordoCol": "1105",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XV. Monachus quidam Joannpicius promittit se amplius $2cra non esse celebraturum",
+          "ordoCol": "1107",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVI. Synodus tres controversias dirimit",
+          "ordoCol": "1107",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVII. Synodus episcopum Sinopes a sede sua expulsum przpouit e:clesiis Side, Sylæi et Leuntopoleos, quie propter incursiones intidelium autistitibus carent, ilit XVIH. Syuodus episcopum Zeli præponit metropo i Amasis, qui ob dominationem Persarum diu carebat əntistite. tiit XIX. Joannes notum facit fidelibus metropolis MyroTUm presbyterum Michaelem Archontem aliosque rite ordiualos esse. *",
+          "ordoCol": "1113",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XX. Synodus dirimit controversiam",
+          "ordoCol": "1115",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXI. Synodus resocat decretum per quod cura animarum in Ecclesia Leontopoieos demandabatur episcopo Snopes; præponitque eidem Ecclesia metropolitan Pisidiæ. XXII. Syeodus condemnat duos clericos",
+          "ordoCol": "1119",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXIII. Joanues nietropolitam ''hessalonices jubet dixsentieutibus clericis poenas ecclesiasticas imponere",
+          "ordoCol": "{111",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXIV. Syuodus dirimit consroversiam de η XXV. Syaodus metropolitse Chalcedonis confert archieyiscopsLuim Marone: per adjuuctionera",
+          "ordoCol": "1119",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXVI. Synodus concedit ut duo lectores promoveantur ail diaconorum gradum",
+          "ordoCol": "1119",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "AXVII. Synodus metropolita Dyrrhachii confert metropolin Selymbria per adjunctionem",
+          "ordoCol": "1131",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "AXVII. Joannes metropolitam Melenici iu jus vocat. i",
+          "ordoCol": "1123",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXIX. Synodus archiepiscopo Nymphæí a sede sua polso dat episeopatuii Derci",
+          "ordoCol": "1125",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXX. Syvodus dirimit quasdam coutroversías",
+          "ordoCol": "1125",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXI. Joannes metropolitam Attalig vetat in alienis diesesibus jura episcopalia exercere",
+          "ordoCol": "1129",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXI. Synodus electionem episcopi Macræ et Libysii irrita facit",
+          "ordoCol": "1129",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXIII. Joannes metropolits Melenici in jus vocato concedit dilationem termini. 3) XXXIV. Synodus absolvit presbyteram Gaftianum Bogomilorum heereseos accusatum",
+          "ordoCol": "1129",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXV. Synodus dirimit quasdam controversias",
+          "ordoCol": "1154",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXVI. Synodas dirimit quasdam controversias",
+          "ordoCol": "1133",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXVII. Synodus metropolitæ Christopoleos confert metropolim Drame per adjunctionem",
+          "ordoCol": "1137",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXVIIL. Synodus Callisto, electo metropolitsz A masias, dat episcopatum Limnuiorum",
+          "ordoCol": "1157",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ΧΧΛΙΧ. Sypodus archiepiscopo Messenes confert metropoliin Areadiopoleos per adjuuctionem",
+          "ordoCol": "1139",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "AL. Synodus metropolitæ Herac!ee Pontice co;fert episcopatum Amyclii per adjunctionem., XLI. Synodus jubet examinari causas ecclesiasticas in metropoli Sugdxie",
+          "ordoCol": "1145",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLII. Synodus respondet τὰ petitionem metropolits Atlaliæ de pravis moribus qui in ejus diocesi invaluerunt",
+          "ordoCol": "1143",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLI. Synodus metropo!itze Larissensi, qui ob beilum suam diœcesin ingredi non potest, permitut ut jura episcopalia eserceat in episcopatu Cliarm:nes",
+          "ordoCol": "1145",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLIV. Synodus metropolit:e Prusæ mandat ut inspiciat metropolim Apameæ et monasterium patriarchale Agaurorum",
+          "ordoCol": "1147",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLV. Synodus Theodosio, metropoliue Melitenes, confert metropolim Keltzenes per adjunctionem",
+          "ordoCol": "1141",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLVI. Synodus Theodosio, metropoliue Melitenes, committit inspeetionem jurium patriarchalium in quibusdam ecclesiis",
+          "ordoCol": "1119",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLVII. Synodus conürmat exemptionem monssterit patriarchalis Marmarisnorum a potestate episcopi Larissensis",
+          "ordoCol": "1149",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLVIIT. Andronicus II Palæologus πιείτορο 115» ANO. rum confert locum Euch:ztorum",
+          "ordoCol": "155",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLIX. Synodus confirmat gratiam imperialem concessam meiropolitz: Aprorum",
+          "ordoCol": "1i",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "L. Synodus confert metropolites Smyrnensi tp . tum Chii per adjunctionem. 1.1. Synodus confirmat imperatoris mandatum, quo episcopatus Joanniuorum in metropolim erigitur",
+          "ordoCol": "1137",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Lil. Elenchus possessionum patriarchalium in insula Lemno et apud Varnam",
+          "ordoCol": "1137",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Esas. | l. Esaias Gregorio patriarche Alexandris notum facit se solium patriarcbale ascendisse",
+          "ordoCol": "1159",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "II. Imperator archiepiscopatom Bryseos erigit in ELA polna. ΠΠ, E-aias confirmat privilegium, per quod imperator archiepiscopatum Bryseos in metropolim erexit",
+          "ordoCol": "1161",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IV. Synodus dirimit duas controversias",
+          "ordoCol": "1161",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V. Esaias dirimit controversiam",
+          "ordoCol": "1165",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VI. Synodus dirimit quasdam controversias",
+          "ordoCol": "1165",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Vit. Synodus dirimit coptroversiam",
+          "ordoCol": "1174",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VIH. UEssias confirmat decisionem praecedentem n nodi",
+          "ordoCol": "11175",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "bus patriarcli:e petidenda esse annua tributa. ; X. Imperator ehrysobullo confirmat erectionem arehiepiscopatus Bryseos in metropolim. - XI. Synodus dirimit sex controversias. XII. Synodus dirimit controversiam. XIII. Syaodus committit. metropoli Cesareensi cu-- ram variarum eectesiarum Orieutis per ο με” XIV. Synodus dirimit controversiam",
+          "ordoCol": "1199",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XV. Synodus confürmat msudatum imperatoris, quo Inetropoulitae Serrarum subjicitur episcopatus disci 1 XVI. Imperator coufiermst precedentem actionem synodalem",
+          "ordoCol": "1199",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVII. Synodus dirimit controversiam",
+          "ordoCol": "1199",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ΥΠ: Synodus dirimit tres controversias",
+          "ordoCol": "1201",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIX. Esaias scribit catholico Ecclesie Armeniacz, se eum cum toia Ecciesia Armeniaca recipere in sinum Écclesks orthodoxe",
+          "ordoCol": "1201",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XX. Esaias scribit regi Armeüt;e, se eum cum tola Ecclesia Armeniaca recipere 1n sinum Ecclesi: orthu4lox:e",
+          "ordoCol": "1209",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "AXI. Synodus dirimit controversiam",
+          "ordoCol": "1211",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Joannes CaLECAS. . l. Joannes 0316049 coneedit Ignatio Calutheto monasterium Sostheuii. : | 2 42:5 li. Synodus excommunicat metropolitam μα 1{|. Synodus belles bpiri. IV. Syuodus absolvit quosdam ecclesiasticos",
+          "ordoCol": "1219",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V. Synodus dirimit controversiam",
+          "ordoCol": "1225",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V]. Tribunal ecuici afücit poena ecclcsiastica Tzrereuίζ6η, Georgium",
+          "ordoCol": "1225",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VII. Joaunes iterum adtsonet Tzerentzem Georgon IX. Synodus sancit a metropolibus et μις à ponis ecclesiasticis afficit quonam, ye VIIL Cyrillus, metropolita Sidæ, pollicetur se in Ecclesia sua esse mansurum",
+          "ordoCol": "1225",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IX. Joannes promittit Nicæensibus reversvris in sipun Ecclesi remissionem",
+          "ordoCol": "1221",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "X. Jeremias, metropolita Chersonis, pollicetur se in Ecclesia sua esse mansurum",
+          "ordoCol": "1271",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Xl. Macarius, metropolita Bitzynes, pollicetur se in Ecclesia sua esse mansurum",
+          "ordoCol": "1221",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ΧΙΙ. Joannes scribit ad clerum Constantinopoleos de Incantationibus",
+          "ordoCol": "1221",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIII. Joannes mándat quibusdam magistratibus ul ecclesiasticos in persequendis incantatoribus adjuvent, XIV. Synodus constituit, excommuvicato metropolitas Philipporum hyperpyra centum annua esse peudendi a ' duobus episcopatibus Ecclesise Phili l tistitibus cre SEL οι, aei rm XV. Joannes respondet metropoliue Russi» interroganti de metropolita mertuo miracula patraute",
+          "ordoCol": "1235",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVI. Synodus ἀῑγίιηίι controversiam ortam inler metropolitam Thesalonices et monasterium Acapnii",
+          "ordoCol": "1255",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVII. Synodus dirimit coutroversíam",
+          "ordoCol": "1255",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVIII. Synodus concedit cuidam clerico facultatem promotionis",
+          "ordoCol": "1354",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIX. Joannes monet Nicænos ut perseverent ín (ide Christiana",
+          "ordoCol": "1201",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XX. Synodus statuit οἱ monasterium patriarcba!e Hode gite io regione Didymotichi iterum sit deis $ ! XXI. Joannes monet metropolitam et clerum Trapeτν ne amplius imperatoris Comneni adulterio grum XXI. Joannes | i ologica damna monachi ον a Sgen dienen d ru XXIII. Synodus condemnat dogmata monachi Barlaam, XXIV. Synodus dirimit controversiam ortam inter metropolitas Lacedæmouiæ et Antiquarum l'atrarum de episcopatu Amyclií. 1^ jue vs Synodi decretum de quodam monasterio Eo XXVI. Synodus decernit, Michaelem Cabasilam non esse reum munerum acceptationis",
+          "ordoCol": "1259",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXVII. Joannes scribit metropoli l'hiladelpbiz, ut provideat in causa Joannis Januensis",
+          "ordoCol": "1261",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXVIII. Synodus affirmat ecclesiam Pyrgii esse in numero melropolium",
+          "ordoCol": "1261",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "a Joannes dirimit controversiam",
+          "ordoCol": "1263",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXX. Joannes declarat moaasteriuimn Salvatoris in oppido Sebriæ esse patriarchale",
+          "ordoCol": "1265",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Enn Imperator conürmat qua de asylis stabilita",
+          "ordoCol": "1265",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXII. Synodus metropolitam Coi transfert ia metropolim Corinthi",
+          "ordoCol": "136$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXIII. Synodus absolvit melropolilam Pyrgii accusatum a metropolita Ephesi",
+          "ordoCol": "1267",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXIV. Joannes notum facit monachis Montis Sancti decisionem synodi in causa Balaam et Palamæ",
+          "ordoCol": "1269",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXV. Syuodus episcopum Sozopoleos nominat metropolitam Pisidia",
+          "ordoCol": "1275",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXVI. Libellus syuudalia confirmans copdetfinationem monachorum Barlaam οἱ Aciudybi, lavonus. l. Isidorus metropolitæ Philadelphiæ committit jara patriarchaifa curanda ip diæœcesi Smyruensi",
+          "ordoCol": "28$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IL. Isidorus coufirmat mandatum imperatoris quibusdam ecclesiasticis conferentis jus ornari crucibus",
+          "ordoCol": "1385",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "lll. Imperator Joannes Cantacuzeuus metropolitæ Kioγι notum facit, constitutiones priuris patriarchis speclantes ecclesiam Russia esse rescissas",
+          "ordoCol": "1285",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IV. Imperator Joaunes Cantacuzenus decernit ut tota Russia iterum subjiciatur metropoli Kiovias",
+          "ordoCol": "1285",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V. Imperator Joannes Cantacuzenus notum facit Demetrio Ljubart, principi Vladimiri , episcopum Galilza iterum subjectum esse melropolitæ Kioviæ",
+          "ordoCol": "1287",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VI. Synodus contirmat chrysobullum imperatoris, quo iterum tola Russia uni subjicitur metropoiite Kioviz. VII. Isidorus metropolitam Ĝalitzæ in jus vocat",
+          "ordoCol": "1291",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VIII. Metropolita. Monembasis Jacobi Kukuuari epistola ad patriarcham scripta",
+          "ordoCol": "1295",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IX. Synodus metropolitam Antiquarum Patrarum transfert in metropolim Monembasis",
+          "ordoCol": "1295",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "X. Isidorus monet metropolitam Bizyes ut se suspicione liberet",
+          "ordoCol": "1395",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Xl. Isidorus Georgium Perdicam mittit ad metropolilam Bizyes",
+          "ordoCol": "1295",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ΧΙΙ. Isidorus tollit excommunicationes pronuntiatas ab Joanne Caleca",
+          "ordoCol": "1295",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XII. Eusebius, electus metropolitz Sugdzec, fidem protitetur",
+          "ordoCol": "1291",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIV, Isidori testamentum",
+          "ordoCol": "1297",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "CaLLISTUs T l'RiLOTBEUS. 1. Patriarchæ exhoriatio ad populum, cum Amarantina Qu:edam, quie magicas exercuerat artes, vilam auplecteFelur monasticam",
+          "ordoCol": "1505",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "΄ IJ. Maximus Calopherus promittit se oblemperaturum esse patriarcha",
+          "ordoCol": "907",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "HI. Synodus absolvit hieromschum Niphbonem",
+          "ordoCol": "1501",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IV, Patriarcha nominat visitatores eisque clerum in disciplinam tradit",
+          "ordoCol": "151{",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V. Callistus confirmat jura monasterii Moguliorum",
+          "ordoCol": "1315",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VI. Callistus coufirmat prebendam Amarantinz datam ab imperatore",
+          "ordoCol": "13519",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VII. Callistus monet visitatorem  Conslantinopoleos Scutariotam ut clerum moderetur",
+          "ordoCol": "1531",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VIIL Callistus monet meiropolitam Kiovism ut pacem ficial cum duce Tverensi Michaele. 152! IX. Imperator monet patriarcham, ut dijudicet causan: metropolitae Casares",
+          "ordoCol": "1323",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "X. Patriarcha in jus vocat monachum Joennicium",
+          "ordoCol": "13525",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XI. Synodus metropolita Trajauupoleos confert ecclesiam Peritheorii per adjunctionem",
+          "ordoCol": "1327",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XII. latriarcha concedit meiropolitæ Antiquarum Pa~ trarum ut sedeat in monasterio dieto Mega Spelaion",
+          "ordoCol": "1327",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIII. Patriarcha. committit metropolits Monembasio jura pururchalis curamia ip tola Peloponneso",
+          "ordoCol": "1329",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIV. Macarius, metropolita Antiquarum  l'atrarum, cou(irmat monasterium dicium Mega Spelaiou non esse metropoleos",
+          "ordoCol": "1323",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XV. Synodus metropoli Pegarum confert metropolim Sozopoleos",
+          "ordoCol": "1229",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVI. Callistus populum Peritheorii monet ut episcopo Obediat, | 1534. XVII. Callistos jubet metropolitam Philadelphis monasterium David inspicere",
+          "ordoCol": "1555",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XVII. Callistus metropolitas Philadelphia committit jura ecclesiastica curanda in antiqua Phocsa",
+          "ordoCol": "1533",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XIX. Patriarcba inspectionem monasterii Hodegon committit metropolitaa Macrae",
+          "ordoCol": "1555",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XX. Synodus Alexium, episcopum Vladimiri:e, nominat metropolitan Kioviæ et totius Russis",
+          "ordoCol": "1555",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXI. Synodus judicium fert de duobus magis",
+          "ordoCol": "1337",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXII. Patriarcha monet episcopum Novogradii ut obΚΠ meiropolius Kiovix. l",
+          "ordoCol": "1359",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXII. Patriarcha monet episcopum — Novogradii] ut quemdam Theodoritum excommunicatum habea",
+          "ordoCol": "1311",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXIV. Synodus statuit ut Viadimiri:e sit sedes metropo ius Kioviæ el tetius Russiz",
+          "ordoCol": "1345",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXV. Episeopi, qui patriarcham sequi non potueraut, confirmant decisiones ejus",
+          "ordoCol": "1345",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXVI. Patriarcha jubet acta iterum codici mandari, XXVII. Patriarcha metropolitæ Βίσγῶ per adjunctioDein confert archiepiscopatum Όθγουν",
+          "ordoCol": "1515",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXVIII. Synodus excommunicat metropo:i:am AE. ο», XXIX. Patriarcha nominat metropolitam Rbodi οἱ Cycladüm. {5ου XXX. Professio fidei Georgii Vacca",
+          "ordoCol": "1553",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXI. Callistus dirimit controversiam ortam inter manachos monasterii lberorum in Atho",
+          "ordoCol": "1555",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXII. Patriarch: Constantinopolitsni epistola ad n triarcham Antiochie de monasterio Hodegou. — ^",
+          "ordoCol": "1851",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXIII. Synodus transfert metropoiitam Bitzines in metropolim totius Ungrovlachis, constituens ut. Ecclesia Ungrovlachiz subjecta sit Ecclesie μα΄ XXXIV. Patriarchae exhortatio de matrimoniis impie. fum. . XXXV. Philotheus patriarcha litteris datis ad patrlarcham Antiochi: conqueritur de episcopo Tyri et Germanipoleos",
+          "ordoCol": "1560",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXVI. Synodus episcopum Cephallenis transfert it» metropolim Naupacti",
+          "ordoCol": "1565",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ΧΧΧΥΙΙ. Syuo4dus mores pravos in matrimoniis a XXXVIII. Synodus statuit de mittendis in Russiam legalis, qui dijudicent dissensionem ortam inter metropollas Kiovi»a et Lithvaniæ",
+          "ordoCol": "1575",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXIX. Patrisrchse litteras ad imperatorem, consilium ei dantis iu rebus Jauuensium et Venetorum",
+          "ordoCol": "1377",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XL. Actio synodalis de matrimonio contrabendo inter * Ándroniceum, filium imperatoris: Joaunis Palæviogi, et Kyrauam, Π|ίᾳυι Joannis Alexaudri, Bulgarorum ree XI.I. Patriarcha. metropolita Lithuaniz scribit, se in Russiam mittere duos legatos, qui componant controversiam exortam inter dictutn metropolitam et metropolitan, Kiovue",
+          "ordoCol": "1379",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ALII. Exhoriatio Callisti patriarche ad clerum in Triuovo de patriarcha Trinovi et de ritu baptizandi",
+          "ordoCol": "1584",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "l'üito18gUS HERUM. 1471 ORDO RERUM QUÆ IN XLIIT. Matihxus Contacozenus jurat so imperatori exse obtemperaturum. j",
+          "ordoCol": "1387",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "AL!V. Actio synodalis de patriarcha Callisto",
+          "ordoCol": "1389",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLV. Patriarcha Rulgariæ regem monet ut maneat in pa: to rum imperatore facto",
+          "ordoCol": "1391",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XLVI. Monacha Martha fit patrona. monosterli deor 3 ype. XLVII. Actio synodalis de sacrilegia Γον j ` XLVIII. Synodus Antiochi confirmat Pachomium rite electum esse patrizrehiam",
+          "ordoCol": "1535",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XL:X. Metropolita Trajanupoleos transfertur in metropo im Lacedzmonis. - | 9",
+          "ordoCol": "1397",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "L. Joanninorum Ecclesia in metropolim erecta, confertne Sebastiano",
+          "ordoCol": "1599",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LI. Archiepiscopatus f.eucadis per sdjunctionem confertur meiropolitæ Josnnlnorum",
+          "ordoCol": "1405",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LI. Literæ patriarcbales de stauropegio in Minis LHI Patriarcha monacho Luce committit patronatum monasteriorum patriarchalium in Pteleo",
+          "ordoCol": "1103",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LIV. Metropolita Alaniw et Soteropoleos confirmatur in Ecclesiis οἱ coilatis",
+          "ordoCol": "140$",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LV. Jura moussterii Brontochii in Peloponneso confirmanlur. l",
+          "ordoCol": "1403",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "I.Vi. Hieromonacho Neophyto committuntur metropo16: Athenarum et Euripi",
+          "ordoCol": "109",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LVII. Monasterio S. Petri apud Cafa, Ecclesise Sugdime» con(irmantur jura monasterii patriarchalis",
+          "ordoCol": "1409",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LV. Nicephorus Gregoras excommunicatur a Philotheo, metropelita Selybris",
+          "ordoCol": "1409",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LIX. Patriarcha episcopum Jnstinianme prims et totius Builgarix voeat ad synodum oxcumenicam, deiiberaturam de unione Ecclesi» Orientalis eum Occidentali",
+          "ordoCol": "1109",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "Ι.Χ. Archiepiscopus l.eucadis transfertur in metropo!im Naupacti",
+          "ordoCol": "1411",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "I. XI. Christianupoleo« præsul in jus vocatur",
+          "ordoCol": "4415",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXI Metropolite Gotthis committitur Ecclesia Cbersonis",
+          "ordoCol": "1413",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXII. Synodus decernit, fundos ecclesiasticos uon posse cedi imperatori",
+          "ordoCol": "111",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "e Ecclesia Sardium subjicitur metropoli RR phiæ. I XV. Patriarcha Philotheus litteris ad patriarcham Antiochie datis conqueritor de quodam Marco",
+          "ordoCol": "1417",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "I.XVI. Synodi decretum de non alienandis bonis ἘΠ ὶ t si:e. LXVII. Synodi decretum de bonis metropoleos Methymnæ alienatis",
+          "ordoCol": "{419",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXVIII. P'atriarchse littere exhortatorie datæ ad De- \"^ melrium, magnum ducem Russis",
+          "ordoCol": "1419",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXIX. Potriarebse litterie exbortatorie data ad metropolitam Kiovise et totius Russis",
+          "ordoCol": "1421",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "pes Russie. LA XI. Patriarchi episcopum Novogradii monet ut cruces phelonii deponat εἰ pareat metropolitae Kiovim et magno duci Russix Demetrio",
+          "ordoCol": "1425",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXII. Patrizrclha excommupicat principes Russicos, LXX. Patriarche litter? exhorlatoria datz ad peme qui contra Lithuanorum principem bellum facere ο runt. LXXIII Patriarcha. excommunicat Smolenisci principem Svetisthlavum",
+          "ordoCol": "1421",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXIV. Patriarcha statuit, episcopatum Lithuaniæ snbjectum esse metropoli Kiovis",
+          "ordoCol": "1421",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXV. Relatio legatorum de patriarcha Alexandrim.^ vlachise. LXXVII. Patriarcha metropolite Cæsareæ Cappadoci confert jura episcopalia in ecclesiis Tyanorum et Mocisi sede vacante curanda",
+          "ordoCol": "1651",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXVIII. Synodi decretum de incaptatiouibus",
+          "ordoCol": "1451",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXIX. Patriarcha Callisto cuidam concedit jus escipiendi confessiones monachornm ipsi subditorum",
+          "ordoCol": "1439",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXX. Ecclesi» partium subjectarum Joanni Unglesæ (Ugljesæ) reconciliantur cum ecclesia μμ tana. f",
+          "ordoCol": "439",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXXT. Patriarcha episcopi Hierissi et Montis Sancti jura epíscopalia in Montem Sanctum tuetur. uh LXXXII. Metropolite Dramæ confertur metropolis Philipporum, coi etiam committuntur jura patriairchalia curanda in partibus subjectis Serbis despote Ungan. LXXXIIT. Despota’ Serbiæ, Joannes Ungleses, partium LXXVI. Anthimus nominatur metropolita partis Un a . Sibi subditarum ecclesias subjicit Ecclesiz μις litana. LXXXIV. Littere potriarchales ad clerum Thessalonicensem de commentsratione patriarchae",
+          "ordoCol": "115",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXXV. Patriarcha decernit monasterium a monacho Callisto Apgelicudss apod Melenicum conditum esse pe trisrchale",
+          "ordoCol": "1457",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXXVI. Patriarcha confert metropolitæ Sugdææ lalitam et jura patriarchalia curanda in ecclesia Gotthir. (τὴν ᾿]αλίταν καὶ τὰ περὶ αὐτὴν πάντα xal ὅσα ἐν τῇ ἐνοpiq τῆς Γοτθίας πατριχρχιχἁ δίκαια)",
+          "ordoCol": "1419",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XXXVII. Litteræ Casimiri regis Lachiz ad pstriarcham de metropolita Galitzæ",
+          "ordoCol": "149",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "LXXXVIII. Synodus episcopo Antonio confert meiroolim Galitzz et per adjunctionem episcopatus Cholmen, Turobum, Peresmosthlin et Volodimirum. ᾿",
+          "ordoCol": "1419",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "L XXXIX. Algerdus, rex Lituanorum, litteris ad patriarcham datis refellit 3ccusationes imetropolitze pier XC. Patriarchs littere ad metropolitam Kiovim εἰ totius Russiæ de metropolita (111219",
+          "ordoCol": "{454",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XCI. Patriarcha metropolitam Ktoviz in jus vocat",
+          "ordoCol": "1455",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "ΧΙΙ. Patriarcha monet regem Tverii Michael ut mitlat legatos",
+          "ordoCol": "4165",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XCIII. Patriarcha confirmat jura metropolitæ Lanrisss, committens eidem jura patriarchalia curanda",
+          "ordoCol": "453",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XCIV. Patriarcha. tollit sententiam episcopi Hierissi non rite latam",
+          "ordoCol": "1457",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XCV. Patriarcha regem Tverii hortatur ut in gravam redeat cum metropolita Kiovis. l",
+          "ordoCol": "1457",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "XCVI.: Hieromonachus quidam et populus Phari, qui Christianos profugas Turcis tradiderant, μμ",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        }
+      ]
+    }
+  ],
+  "problems": [
+    "Elenchus numbers are a detached block '11 283 429 661' after the list; mapped in order to Contra errores, De essentia, De fide, Cyparissiota Notitia (confirmed by body). All other items have no Elenchus column.",
+    "Ordo-only editorial items not entered as separate entries: Combefisii Praefatio (257, folded into De essentia), Turriani Praefatio (739, folded into Expositio), Notitia historica of Matthaeus Cantacuzenus (Ordo 991, body 995).",
+    "Ordo-only work entered: Palamiticarum Transgressionum Sermo IV (the Elenchus names only liber primus).",
+    "Elenchus date range 'ab anno 1310 ad annum 1319' for the Diplomata disagrees with the body head 'ab anno MCCCX ad annum 1372'; likely an Elenchus misprint or OCR error, not resolved.",
+    "The Diplomata parts list is raw machine-split Ordo text (167 blocks) with OCR garble; use only as a pointer, many columns are misread (e.g. '110t', '{104', '4165').",
+    "Cantacuzenus Canticum: Ordo '991' vs body 995; inferred misread, not settled.",
+    "Notitia (col 9): the pg-colfind column map starts at col 11, so the Notitia column is inferred from the Ordo."
+  ]
+}

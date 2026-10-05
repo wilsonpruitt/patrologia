@@ -1,0 +1,259 @@
+{
+ "volume": 155,
+ "source": "archive.org patrologia-volumes 155_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "470-525",
+ "colMap": "cols 1-1023 (pg-colfind --stats; 340 anchors, 150 jumps)",
+ "entries": [
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Notitia de Symeonis aetate, rebus gestis, scriptis, ex Leonis Allatii Diatriba de Symeonibus. Insunt: Symeonis Encomium auctore Eugenio Nomophylace, et Joannis Anagnostae narratio de Thessalonica anno 1430 ab Amurate capta",
+   "kind": "editorial",
+   "elenchusCol": "col. 9",
+   "bodyCol": 9,
+   "bodyLine": 533,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'NOTITIA (Ex Leone Allatio in Diatriba De Symeonibus)' at line 533, page 9|10 (running 'Patrol. Gr. CLV' page 11 at line 590). Encomium and Anagnostes narratio are quoted within this Notitia (cols ~12-13), not separate heads. Some Greek quotations inside."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Notitia altera ex Fabricii Bibl. Gr.",
+   "kind": "editorial",
+   "elenchusCol": "17",
+   "bodyCol": 17,
+   "bodyLine": 1023,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Header '17 NOTITIA ALTERA. 18' at line 1023."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Symeonis Opera. Ex editione Iassensi anni 1683, cujus titulus verbatim et lineatim recuditur",
+   "kind": "work",
+   "elenchusCol": "25",
+   "bodyCol": 23,
+   "bodyLine": 1338,
+   "colStatus": "disagree",
+   "greek": "yes",
+   "note": "Greek and Latin title block of the Iassy 1683 edition at lines 1338-1443, on the page whose header (line 1303) reads '23 SYMEON THESSALONICENSIS ARCHIEP. - NOTITIA 24'; the next header (line 1440, OCR '21 ... 23') opens the Dosithei dedication. Elenchus 25 may be 3 misread as 5, or counts from the next page; believe body 23 but the page-number OCR here is weak. Needs a plate look if exact."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Dosithei, Hierosolymitani patriarchae, Iassensis editionis curatoris, Praefatio duplex",
+   "kind": "work",
+   "elenchusCol": "29",
+   "bodyCol": 25,
+   "bodyLine": 1444,
+   "colStatus": "disagree",
+   "greek": "yes",
+   "note": "'DOSITHEI NUNCUPATORIA AD JOANNEM DUCAM' (Greek) begins at line 1444 right after the page header at line 1440 (OCR '21 ... 23', page 25|26 by count from 23 at line 1303). The second preface 'DOSITHEI PRAEFATIO AD LECTOREM' is at line 1527, under a header at line 1508 (OCR 'ic DOSITHEI PRAEFATIO $90', read 29|30); Elenchus 29 fits that second head. Entry placed at the first head. Page-number OCR in this stretch is poor."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Symeonis Dialogus contra omnes haereses",
+   "kind": "work",
+   "elenchusCol": "33",
+   "bodyCol": 33,
+   "bodyLine": 1610,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '33 DIALOGUS CONTRA HAERESES 34' at line 1607; Greek title 1610-1618, Latin 1631-1646."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacramentis",
+   "kind": "work",
+   "elenchusCol": "17$",
+   "bodyCol": 175,
+   "bodyLine": 12629,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '17$' ($ for 5; read 175); Ordo OCR 'i15'. Header chain 175 at line 12516; Greek 'ΠΕΡΙ ΤΩΝ ΙΕΡΩΝ ΤΕΛΕΤΩΝ' at 12629, Latin 'DE SACRAMENTIS' after it. Entry is the Epitome Dialogus's sacramental section (cap. XXXIII on)."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacro ritu sancti unguenti",
+   "kind": "work",
+   "elenchusCol": "231",
+   "bodyCol": 231,
+   "bodyLine": 17721,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Chain 231 at line 17650; Greek head 17721, Latin 'DE SACRO RITU SANCTI UNGUENTI' 17725."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacra liturgia",
+   "kind": "work",
+   "elenchusCol": "258",
+   "bodyCol": 253,
+   "bodyLine": 18813,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '258'; Ordo OCR '255'. Page header chain 253|254 at lines 18803-18810, Greek head 18813 'ΠΕΡΙ ΤΗΣ ΙΕΡΑΣ ΛΕΙΤΟΥΡΓΙΑΣ'. The next page header (line 18927) is 255, so 258 cannot be the head. Believe 253."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacro templo et ejus consecratione",
+   "kind": "work",
+   "elenchusCol": "305",
+   "bodyCol": 305,
+   "bodyLine": 22765,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header 'DE SACRO TEMPLO. 05.' at line 22762 (305|306); Greek head 22765-22768, Latin 22774."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacris ordinationibus",
+   "kind": "work",
+   "elenchusCol": "361",
+   "bodyCol": 361,
+   "bodyLine": 27304,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "No separate title block: the dialogue runs on and the OCR shows only the running head 'DE SACRIS ORDINATIONIBUS' (OCR '.6l ... 302', read 361|362) at line 27304; the preceding page ends the Templo section. Believed to be the first page of the work."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De poenitentia",
+   "kind": "work",
+   "elenchusCol": "469",
+   "bodyCol": 469,
+   "bodyLine": 36002,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '469 DE POENITENTIA 470' at line 35983; Greek head 'ΠΕΡΙ ΜΕΤΑΝΟΙΑΣ' 36002."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De honesto et legitimo conjugio",
+   "kind": "work",
+   "elenchusCol": "$03",
+   "bodyCol": 503,
+   "bodyLine": 38859,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus OCR '$03' read 503; Ordo 505. Page header '503 ... 504' at line 38761, Greek head 38859, Latin 38865; chain 505 follows at 38898."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacro ritu sancti olei",
+   "kind": "work",
+   "elenchusCol": "91$",
+   "bodyCol": 515,
+   "bodyLine": 39737,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '91$' read 515 ($ for 5); Ordo 515. Head at line 39737 beside chain 516 (line 39695), i.e. page 515|516."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacra precatione",
+   "kind": "work",
+   "elenchusCol": "535",
+   "bodyCol": 535,
+   "bodyLine": 41354,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Chain 535 at line 41278; Greek head 'ΠΕΡΙ ΤΗΣ ΘΕΙΑΣ ΠΡΟΣΕΥΧΗΣ' 41354, Latin 41357."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De ordine sepulturae",
+   "kind": "work",
+   "elenchusCol": "609",
+   "bodyCol": 669,
+   "bodyLine": 52292,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '609'; Ordo OCR '6.9'. De sacra precatione still runs through cols ~657-665 and header 'DE ORDINE SEPULTURAE' reads '659 ... 670' (line 52241); Greek head 52279-52283, Latin 'DE SACRO ORDINE SEPULTURE' 52292. Believe 669."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Expositio de divino templo et de sacerdotibus ac diaconis episcopisque, ac de sacris stolis quibus horum quilibet induitur; necnon de divina missa, ubi singulorum quae in illa divino ritu peraguntur ratio redditur. Transmissa viris piis Cretensibus",
+   "kind": "work",
+   "elenchusCol": "097",
+   "bodyCol": 697,
+   "bodyLine": 54352,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '097' read 697. Header 'EXPOSITIO DE DIVINO TEMPLO' at line 54352 (page 697|698), Greek head 54355-54366, Latin 54373-54381; chain 699 follows at 54451."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Expositio sacri Symboli",
+   "kind": "work",
+   "elenchusCol": "751",
+   "bodyCol": 751,
+   "bodyLine": 60222,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page header OCR 'T4 SYMEONIS ... 1:2' just before line 60222 (page 751|752); Greek head 60222-60229, Latin 'EXPOSITIO DIVINI ET SACRI SYMBOLI RECTAE AC SINCERAE FIDEI NOSTRAE' 60241. Ordo prints its own title ('Succincta expositio divini et sacri symboli, rectae ac sincerae fidei' with OCR col 73 / garbled)."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Expositio de sacri Symboli vocibus et dictis, ex quibus Scripturae locis collecta et adversus quos composita fuerint",
+   "kind": "work",
+   "elenchusCol": "803",
+   "bodyCol": 803,
+   "bodyLine": 64073,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '803 ... 804' (OCR '503') at line 64058; Greek head 64073-64079, Latin 64085-64091."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Articuli fidei Christianae",
+   "kind": "work",
+   "elenchusCol": "819",
+   "bodyCol": 819,
+   "bodyLine": 65447,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Chain 819 at line 65438; Greek head 'ΠΕΡΙ ΕΚΤΙΚΑ?...' 65447-65459, Latin 'ARTICULI DUODECIM' 65471."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Responsiones ad Gabrielem Pentapolitanum",
+   "kind": "work",
+   "elenchusCol": "829",
+   "bodyCol": 829,
+   "bodyLine": 66254,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Running head 'RESPONSA AD GABRIELEM PENTAPOLITANUM' at line 66181 begins the 829|830 page; Greek head 66254-66263, Latin 66266-66270, Prooemium 66273-66294."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "De sacerdotio ad pium monachum quemdam",
+   "kind": "work",
+   "elenchusCol": "953",
+   "bodyCol": 953,
+   "bodyLine": 76205,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header 'DE SACERDOTIO. 954' at lines 76196-76199 (left page number lost); Greek head 76205-76212, Latin 76215-76223."
+  },
+  {
+   "author": "SYMEON THESSALONICENSIS ARCHIEPISCOPUS",
+   "title": "Marci Eugenici, metropolitae Ephesi, Expositio ordinis liturgiae ecclesiasticae",
+   "kind": "crossref",
+   "elenchusCol": "tom. CLI",
+   "bodyCol": null,
+   "bodyLine": null,
+   "colStatus": "unlocated",
+   "greek": "unknown",
+   "note": "Elenchus parenthetical: 'Sequebatur in editione Iassensi Marci Eugenici ... Expositio ordinis liturgiae ecclesiasticae, quam invenies inter Ephesii scripta a nobis edita in tomo CLI.' No column given.",
+   "crossRefVolume": 151,
+   "crossRefCol": null
+  }
+ ],
+ "problems": [
+  "Page-number OCR is weak in cols 23-33 (headers read '21 ... 23', '$90'); the Opera/title and the two Dosithei prefaces (Elenchus 25 and 29) could not be pinned exactly. Body 23 (title) and 25 (first preface) are best readings, not settled.",
+  "De sacris ordinationibus has no title block in the OCR (dialogue continues across the work boundary); bodyCol 361 rests on the running head and the Elenchus.",
+  "The Dialogus contra omnes haereses (cols 33-~830 in Ordo: Prologus, cap. I-CCCLXXX) is Symeon's single Dialogue; the Elenchus splits it into De sacramentis ... De ordine sepulturae. The Ordo lists chapters, not top-level pieces, so no 'parts' were built.",
+  "The Ordo has no top-level work absent from the Elenchus; all its heads fall inside listed entries. Dosithei's Nuncupatoria and Praefatio ad lectorem are both under the one Elenchus entry. Not entered: running Notitia/Monitum matter inside entries."
+ ]
+}

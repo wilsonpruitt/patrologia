@@ -1,0 +1,81 @@
+{
+ "volume": 121,
+ "source": "archive.org patrologia-volumes 121_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "218-252",
+ "colMap": "cols 11-1194 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "GEORGIUS CEDRENUS",
+   "title": "Monitum Editorum Patrologiae",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 253,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo reads 9 (listed as 'Monitum editorum. 9'). Body head MONITUM EDITORUM sits before the first OCR anchor (11); col 9 inferred from the page run (title leaves, then 9|10), not read as a number."
+  },
+  {
+   "author": "GEORGIUS CEDRENUS",
+   "title": "Notitia in Cedrenum, ex Leonis Allatii Diatriba de Georgiis",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 271,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Body head NOTITIA SCRIPTORUM GEORGII CEDRENI, on the same page as the Monitum; Ordo reads 9. Elenchus prints no column."
+  },
+  {
+   "author": "GEORGIUS CEDRENUS",
+   "title": "Caroli Annibalis Fabrotti Epistola nuncupatoria ad cardinalem Julium Mazarinum",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 13,
+   "bodyLine": 432,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Body head FABROTI DEDICATIO (page 13|14). Ordo prints 'Dedicatio Fabroti. 44', garbled; body settles 13."
+  },
+  {
+   "author": "GEORGIUS CEDRENUS",
+   "title": "Ejusdem Praefatio ad Lectorem",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 15,
+   "bodyLine": 527,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Body head LECTORI after running head FABROTI PRAEFATIO (15|16); Ordo reads 'Lectori monitum. 15' (agrees)."
+  },
+  {
+   "author": "GEORGIUS CEDRENUS",
+   "title": "Guillelmi Xylandri Praefatio",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 17,
+   "bodyLine": 576,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Head 'GUILIELMI XYLANDRI AUGUSTANI IN GEORGII CEDRENI ANNALES PRAEFATIO' follows running head XYLANDRI PRAEFATIO 17|18 (OCR shows 18). Ordo reads 28, a digit misread for 18; col 17 is the page's odd column."
+  },
+  {
+   "author": "GEORGIUS CEDRENUS",
+   "title": "Georgii Cedreni Compendium historiarum a mundo condito usque ad annum 1007, cui subjiciuntur Excerpta ex Breviario historico Joannis Scylitzae Curopalatae",
+   "kind": "work",
+   "elenchusCol": "23",
+   "bodyCol": 23,
+   "bodyLine": 801,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints 23 (the only column it carries); Ordo reads 29, a misread. Greek head (SYNOPSIS ISTORION ... KEDRENOY) at line 801, Latin 'COMPENDIUM HISTORIARUM' at 815, col 23|24. Title page proper at lines 160-180 precedes col 9. Scylitzes Excerpta are named in the body title-page (line 180) but the Elenchus lists them inside this one item; no separate Elenchus column."
+  }
+ ],
+ "problems": [
+  "Elenchus cut lists no columns except 23 for the Compendium; the five editorial items are body-only, with Ordo as cross-check (Ordo digits garbled for Dedicatio 44 and Xylander 28).",
+  "Monitum and Notitia columns (9) are inferred from OCR anchors (first anchor in OCR is 11), not read as printed numbers.",
+  "Scylitzes Excerpta not separately listed in Elenchus; no body column checked for where the Excerpta begin (left inside the Compendium entry).",
+  "Elenchus date 'annum 1007' kept as the OCR reads it (title may read 1057 in print)."
+ ]
+}

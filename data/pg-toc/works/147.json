@@ -1,0 +1,415 @@
+{
+ "volume": 147,
+ "source": "archive.org patrologia-volumes 147_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "520-616",
+ "colMap": "cols 1-1275 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Ecclesiasticae Historiae libri XV-XVIII (Continuatio et finis)",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 9,
+   "bodyLine": 636,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus gives this only as the author's heading 'Ecclesiastica Historia (Continuatio et finis)', with no column; the heading 'Scripta varii argumenti ... col. 449' (OCR 'D col. 549') that follows introduces the pieces after it, not an entry. bodyCol 9 inferred: first text page (Tomus XV title block line 636 before the header 11|12; Ordo prints Cap. I of Liber XV at 9). Books XVI, XVII, XVIII have title blocks at lines 8358, 16021, 24153 (cols about 115-117, 219, 327). Greek and Latin side by side. Parts are Ordo-only.",
+   "parts": [
+    {
+     "title": "Liber XV",
+     "ordoCol": "9",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XVI",
+     "ordoCol": "115",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XVII",
+     "ordoCol": "illegible in Ordo OCR",
+     "colStatus": "ordo-only"
+    },
+    {
+     "title": "Liber XVIII",
+     "ordoCol": "illegible in Ordo OCR",
+     "colStatus": "ordo-only"
+    }
+   ],
+   "listedIn": "ordo-only"
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Enarratio de episcopis Byzantii et de patriarchis omnibus Cpolitanis",
+   "kind": "work",
+   "elenchusCol": "k49",
+   "bodyCol": 449,
+   "bodyLine": 33159,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus prints 'k49' (and 'col. 549' on the heading line above); Ordo reads '419'. Greek head line 33159, Latin 33171, header '449 ENARRATIO ... 450' line 33116. Preceded on the same page by Bandurii's Monitum (Ordo 449, editorial, not entered)."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Anselmi Bandurii ad Nicephori Callisti Catalogum observationes et notae",
+   "kind": "editorial",
+   "elenchusCol": "469",
+   "bodyCol": 469,
+   "bodyLine": 34749,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'ANSELMI BANDURII ... OBSERVATIONES ET NOTAE' line 34743-34750; header 469|470."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Sermo in sanctam et apostolis aequalem unguentiferam Mariam Magdalenam, ex Bandinii Catalogo",
+   "kind": "work",
+   "elenchusCol": "539",
+   "bodyCol": 539,
+   "bodyLine": 41251,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head line 41251, Latin 41280, on page 539|540 (header OCR '510', line 41212). Ordo reads 559 (garbled)."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Precatio in calamitate populi",
+   "kind": "work",
+   "elenchusCol": "575",
+   "bodyCol": 575,
+   "bodyLine": 43947,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 575|576, header at line 43882; heading 'PRECATIONES'."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Aliae orationes in populi afflictione",
+   "kind": "work",
+   "elenchusCol": "511",
+   "bodyCol": 577,
+   "bodyLine": 44128,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 511; Ordo gives 577 for the first. Three pieces under the one Elenchus line ('Alia ... in populi afflictione' line 44128, 'Alia similis' 44166, 'Altera ... similis' 44203; pages 577-579). Page location by header spacing (headers at lines 44012, 44160); individual head page numbers not printed in OCR."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Oratio pro Christiano populo",
+   "kind": "work",
+   "elenchusCol": "581",
+   "bodyCol": 581,
+   "bodyLine": 44371,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head line 44371, page 581|582 (header 44303-44306)."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Oratio in imperatorem et in ejus exercitum",
+   "kind": "work",
+   "elenchusCol": "583",
+   "bodyCol": 583,
+   "bodyLine": 44458,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head line 44458, page 583|584 (header 44449)."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Oratio in pretiosae et vivificae crucis elevationem",
+   "kind": "work",
+   "elenchusCol": "585",
+   "bodyCol": 585,
+   "bodyLine": 44716,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head line 44716; pages by header spacing (583|584 header 44449, 589|590 header 44935); no printed page number at the head."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Oratio in sacri templi dedicatione",
+   "kind": "work",
+   "elenchusCol": "587",
+   "bodyCol": 587,
+   "bodyLine": 44878,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head line 44878; page located by header spacing, not by a printed number."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Oratio altera in templi dedicatione",
+   "kind": "work",
+   "elenchusCol": "589",
+   "bodyCol": 589,
+   "bodyLine": 45019,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head line 45019; page 589|590 (header at 44935); next work (Precatio confessoria) is on 591|592."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Precatio confessoria ad creatorem ac plasmatorem nostrum",
+   "kind": "work",
+   "elenchusCol": "591",
+   "bodyCol": 591,
+   "bodyLine": 45122,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head line 45104, Latin 45122, page 591|592 (header line 45079). Elenchus adds 'ubi confer adnotationem nostram'."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "De excidio Hierosolymitano carmen iambicum trimetrum",
+   "kind": "work",
+   "elenchusCol": "601",
+   "bodyCol": 601,
+   "bodyLine": 45807,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '601 DE EXCIDIO HIEROSOLYMITANO 602' line 45798; head lines 45807-45817."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "Divinae Scripturae synopsis",
+   "kind": "work",
+   "elenchusCol": "605",
+   "bodyCol": 605,
+   "bodyLine": 46188,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head line 46188 (the page header at 46111 reads 'SYNOPSIS S. SCRIPTURAE'); page number read off Elenchus and Ordo (both 605), not off the OCR header."
+  },
+  {
+   "author": "NICEPHORUS CALLISTUS XANTHOPULUS",
+   "title": "De sequentibus asceticis opusculis monitum, ex Philocalia sacrorum vigilantium, Venet. 1782 fol.",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 633,
+   "bodyLine": 48414,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus prints no column; Ordo reads '053'. Head 'MONITUM' line 48414 on page 633|634 (header line 48404). Opens the 'Opuscula ascetica' section."
+  },
+  {
+   "author": "CALLISTUS ET IGNATIUS XANTHOPULI MONACHI",
+   "title": "Methodus et Regula accuratissima de his qui elegerunt pacifice vivere et monastice; de directione et vita et regimine eorum",
+   "kind": "work",
+   "elenchusCol": "635",
+   "bodyCol": 635,
+   "bodyLine": 48510,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'METHODUS ET REGULA CUM DEO ACCURATISSIMA' line 48510, page 635|636 (header 48473)."
+  },
+  {
+   "author": "CALLISTUS PATRIARCHA CPOLITANUS",
+   "title": "Capitula de precatione",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 813,
+   "bodyLine": 61890,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column; Ordo reads 813. Greek head line 61881, Latin line 61890, page 813|814 (header OCR '81', line 61757)."
+  },
+  {
+   "author": "CALLISTUS TELICOUDES",
+   "title": "Capitula de quieta conversatione",
+   "kind": "work",
+   "elenchusCol": "817",
+   "bodyCol": 817,
+   "bodyLine": 62193,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head line 62193 (header OCR '813'), page 817|818."
+  },
+  {
+   "author": "CALLISTUS TELICOUDES",
+   "title": "Selecta e sanctis Patribus de Oratione et Attentione",
+   "kind": "work",
+   "elenchusCol": "821",
+   "bodyCol": 827,
+   "bodyLine": 62875,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 821; the page header 'R27' (827) sits at line 62717 and the head follows the next header at line 62859 (Greek head 62865, Latin 62875); Ordo reads 527. Elenchus digit judged misread (7 as 1); body places it on 827|828. Listed in the Elenchus under Callistus Telicoudes."
+  },
+  {
+   "author": "CALLISTUS CATAPHUGIOTA",
+   "title": "Notitia ex Philocalia",
+   "kind": "editorial",
+   "elenchusCol": "833",
+   "bodyCol": 833,
+   "bodyLine": 63209,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head line 63209, page 833|834 (headers 831 at line 63108 and 835 at 63321). Ordo reads 855 (garbled)."
+  },
+  {
+   "author": "CALLISTUS CATAPHUGIOTA",
+   "title": "De unione cum Deo et vita contemplativa (ex syllogisticis et altipetis capitulis quae supersunt)",
+   "kind": "work",
+   "elenchusCol": "835",
+   "bodyCol": 835,
+   "bodyLine": 63324,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '835' line 63321; Greek head line 63330, Latin 63351."
+  },
+  {
+   "author": "NICEPHORUS MONACHUS",
+   "title": "Notitia ex Philocalia",
+   "kind": "editorial",
+   "elenchusCol": "943",
+   "bodyCol": 943,
+   "bodyLine": 71111,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Elenchus has the number '943' on a line by itself after the Notitia title; read as its column. Head line 71111; Ordo reads 913 (misread 4 as 1). Page located by header spacing (header 939 at line 70855)."
+  },
+  {
+   "author": "NICEPHORUS MONACHUS",
+   "title": "Tractatus de sobrietate et cordis custodia",
+   "kind": "work",
+   "elenchusCol": "955",
+   "bodyCol": 945,
+   "bodyLine": 71214,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 955; the head sits immediately after the running head 'NICEPHORI DE CORDIS CUSTODIA' (line 71196, header OCR '910') and Ordo reads 915, so 945 is judged right and 955 a misread. Greek head line 71202, Latin 71214."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Notitia ex Fabricii Bibliotheca Graeca ed. Harles.",
+   "kind": "editorial",
+   "elenchusCol": "967",
+   "bodyCol": 967,
+   "bodyLine": 72824,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head line 72824 on the page following header 965|966 (line 72691)."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Oratio in corporis Domini Dei nostri Jesu Christi sepulturam et in sanctissimae Deiparae ac Dominae nostrae lamentationem",
+   "kind": "work",
+   "elenchusCol": "985",
+   "bodyCol": 985,
+   "bodyLine": 74032,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '985 ORATIO IN SEPULTURAM ... 986' at line 73995; Latin head line 74032."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Encomium in sanctos et omni laude prosequendos apostolorum coryphaeos Petrum et Paulum (integrum ex codice Coisliniano 1187, cum interpretatione nostra usque ad locum unde incipit editio Gretseri)",
+   "kind": "work",
+   "elenchusCol": "1017",
+   "bodyCol": 1017,
+   "bodyLine": 76343,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Running head 'ENCOMIUM SS. PETRI ET PAULI' line 76343 at anchor 1017 (line 76340)."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Interpretatio nonnullorum capitum S. Augustini ex decimo quinto De Trinitate quae Spiritum sanctum etiam ex Filio procedere ostendunt",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1111,
+   "bodyLine": 83248,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Elenchus prints no column (the line ends 'procedere.'); Ordo ends 'IH' (garbled). Head lines 83248-83255, on page 1111|1112 (header '1113 TRANSLAT. S. AUGUSTINI DE TRINIT. 1114' follows at line 83278, so 1111 is the page before; page numbers around 83240 not otherwise printed; ±1 uncertainty)."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Syllogismi de processione Spiritus sancti contra Latinos (Vide tom. CLXI, col. 309, ubi cum Bessarionis et Demetrii Cydonii refutationibus eduntur)",
+   "kind": "work",
+   "elenchusCol": "1199",
+   "bodyCol": 1129,
+   "bodyLine": 84530,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 1199; header '1130' line 84481 and the Greek head 'MAXIMOU TOU PLANOUDE ... SYLLOGISMOI' line 84530, Latin 84540-84542, so page 1129|1130. The Elenchus note points to tom. CLXI col. 309 for the refutations; the Syllogismi themselves are printed here, so entered as a work and not as a crossref (volume 161, col 309 noted only)."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Appendix. Incerti ex Augustino in Joannem De processione Spiritus sancti",
+   "kind": "work",
+   "elenchusCol": "1131",
+   "bodyCol": 1131,
+   "bodyLine": 84570,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Running head 'INCERTI EX AUGUSTINO IN JOANNEM' at line 84576 between headers 1131 (line 84570) and 1132; no capitals title block found in the OCR."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Fragmentum libri S. Augustino ascripti de cognitione verae vitae, Graece conversum",
+   "kind": "work",
+   "elenchusCol": "1157",
+   "bodyCol": 1157,
+   "bodyLine": 86531,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Starts with a Latin introductory note at line 86531 on page 1157|1158 (header line 86498-86501); no capitals head in the OCR; Greek follows at line ~86560."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Epistola ad Manuelem Philen. Subnectitur Catalogus Epistolarum Planudae ex codice Vaticano",
+   "kind": "work",
+   "elenchusCol": "1165",
+   "bodyCol": 1165,
+   "bodyLine": 87189,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'MAXIMI PLANUDAE EPISTOLA AD MANUELEM PHILEN.' line 87189; running head at 87137 on page 1165|1166 (header '116^' at 87134)."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Comparatio Hiemis et Veris, ex cod. Graeco Parisiensi n. 1187 notato, nunc primum edita",
+   "kind": "work",
+   "elenchusCol": "1169",
+   "bodyCol": 1169,
+   "bodyLine": 87386,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '1169' line 87380; head line 87386, Greek 87392."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Versus iambici in SS. Marcianum et Martyrium et in S. Andream eaedem",
+   "kind": "work",
+   "elenchusCol": "1175",
+   "bodyCol": 1175,
+   "bodyLine": 87824,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Header '1r 5 ... VERSUS IAMBICI ... 1176' line 87810; head 87821-87824."
+  },
+  {
+   "author": "MAXIMUS PLANUDES CPOLITANUS MONACHUS",
+   "title": "Indices ad Nicephori Callisti Historiam Ecclesiasticam",
+   "kind": "editorial",
+   "elenchusCol": "1177",
+   "bodyCol": 1177,
+   "bodyLine": 87914,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Header '1177' line 87889; head lines 87914-87958 (Index prior, then Index posterior at line 93367)."
+  }
+ ],
+ "problems": [
+  "The Elenchus lists the Ecclesiastical History only as an author heading; entered with listedIn ordo-only for the books XV-XVIII, whose bodyCol 9 is inferred (first text page), not read.",
+  "Selecta (821 vs 827), Tractatus de sobrietate (955 vs 945), Syllogismi (1199 vs 1129), Aliae orationes (511 vs 577), Enarratio (k49 vs 449) are Elenchus digit misreads settled by the body; Ordo digits are also noisy (e.g. 855 for 833/835, 527 for 827).",
+  "Pages for the Precationes pieces (577-589) and Notitia Nicephori monachi (943) are located by header spacing, because their page numbers are not printed in the OCR.",
+  "Interpretatio capitum S. Augustini (1111): head precedes the header 1113|1114, so 1111 is inferred; +-1 uncertainty.",
+  "Omitted as editorial and not in the Elenchus: Bandurii's Monitum to the Catalogus (Ordo 449), 'Alia similis'/'Altera similis' are folded into the Elenchus 'Aliae orationes' entry.",
+  "Ordo columns for Libri XVII and XVIII are illegible; Libri XV and XVI read 9 and 115.",
+  "Elenchus Syllogismi note 'Vide tom. CLXI, col. 309' is a see-also; the work itself is printed in this volume."
+ ]
+}

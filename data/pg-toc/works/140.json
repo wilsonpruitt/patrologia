@@ -1,0 +1,751 @@
+{
+  "volume": 140,
+  "source": "archive.org patrologia-volumes 140_djvu.txt",
+  "listSource": "elenchus",
+  "elenchusLines": "1410-1695 (front Elenchus; elenchus/140.txt stops at line 1567, rest read on from the OCR) and closing Ordo Rerum 130345-130683",
+  "colMap": "cols 6-1620 (pg-colfind --stats)",
+  "entries": [
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro VI. De Macedonio",
+      "kind": "work",
+      "elenchusCol": "9",
+      "bodyCol": 9,
+      "bodyLine": 1637,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "First text page of the volume after the Elenchus; Greek (Maii Spicil. Rom. IV) with Latin."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro VIII. De Nestorio",
+      "kind": "work",
+      "elenchusCol": "33",
+      "bodyCol": 33,
+      "bodyLine": 3369,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Text under the head is Latin."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro IX. De Eutychete",
+      "kind": "work",
+      "elenchusCol": "37",
+      "bodyCol": 37,
+      "bodyLine": 3678,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": ""
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro X. De quinta synodo",
+      "kind": "work",
+      "elenchusCol": "67 67",
+      "bodyCol": 67,
+      "bodyLine": 5906,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Page 67|68; text under the head is Latin. Elenchus prints '67 67' (number doubled)."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XII. De Aphtartodocetarum haeresi",
+      "kind": "work",
+      "elenchusCol": "18 (garbled)",
+      "bodyCol": 75,
+      "bodyLine": 6470,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Page 75|76 (OCR '75','76' above the head). Elenchus '18' is probably 76 (7->1, 6->8) or 75; Ordo reads '5'."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XV. De sexta synodo",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 81,
+      "bodyLine": 7005,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo reads '8l' (=81). Page 81|82 inferred: next header '83' at line 7053."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XVII. De haeresibus Armeniorum",
+      "kind": "work",
+      "elenchusCol": "89",
+      "bodyCol": 89,
+      "bodyLine": 7561,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 89|90."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XX. De superstitione Agarenorum",
+      "kind": "work",
+      "elenchusCol": "105",
+      "bodyCol": 105,
+      "bodyLine": 8833,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 105|106."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "De receptione eorum qui ab Agarenis ad rectam fidem accedunt (Ordo qui observatur super iis qui a Saracenis ... se convertunt)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 123,
+      "bodyLine": 10147,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo reads '1233' (stray digit; 123). Page 123|124 (header '123 NICETAE CHONIATAE 124' at line 10134)."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Formula altera in Sylburgii notis",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": "",
+      "bodyLine": null,
+      "colStatus": "unlocated",
+      "greek": "unknown",
+      "note": "Elenchus prints no column and no head was found; the formula text 'Ego ille qui a Saracenis hodie ad Christianorum fidem accedo' is at line 10343 (col 126) and 'Est autem anathematizatio Saracenorum, talis' near line 10257 (col 125), but neither is headed as a separate piece. Searched: Formula, altera, Sylburg in cols 123-127."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XXII. De erroribus Eustratii, Niceni metropolitae",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 135,
+      "bodyLine": 11092,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. The body head and the Ordo call it 'Ex libro XXIII'. Page 135|136."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XXIV. Synodus Graecae Ecclesiae de dogmate circa illa verba 'Tu es qui offers et qui offereris et qui recipis' ... contra Soterichum Antiochenum electum (cum Soterichi dialogo cum Philone)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 137,
+      "bodyLine": 11155,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo '137'. Page 137|138."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro XXV. Synodus habita propter illud dictum 'Pater meus major me est' (Praemittitur Editoris Romani Monitum)",
+      "kind": "work",
+      "elenchusCol": "201",
+      "bodyCol": 201,
+      "bodyLine": 16080,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Latin Monitum first, then Greek and Latin."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Ex libro incerto. De Lizicinorum haeresi",
+      "kind": "work",
+      "elenchusCol": "281",
+      "bodyCol": 281,
+      "bodyLine": 22063,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Ordo reads 282. Page 281|282."
+    },
+    {
+      "author": "NICETAS CHONIATA (Operum continuatio: ex libris Thesauri orthodoxae fidei)",
+      "title": "Recensio codicis Medicei XXIV, Thesaurum Nicetae continentis in libros XXVII digestum",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 283,
+      "bodyLine": 22117,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo '283'. Greek index of the Thesaurus books with Latin heading."
+    },
+    {
+      "author": "CPOLITANI (ANONYMI GRAECI) AD INNOCENTIUM III",
+      "title": "Graecorum ad Innocentium III Pontificem Romanum Epistola, scripta post captam a Latinis Cpolin, regnante Henrico imperatore",
+      "kind": "work",
+      "elenchusCol": "293",
+      "bodyCol": 293,
+      "bodyLine": 22561,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 293|294."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Michaelis Acominati vita, res gestae, scripta (ex Ellissen)",
+      "kind": "editorial",
+      "elenchusCol": "",
+      "bodyCol": 299,
+      "bodyLine": 22908,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Elenchus prints no column; the sections are listed with columns in the Ordo only. Head 'NOTITIA' under 'ANNO DOMINI MCCXX'. Page 299|300 (inferred from page 297 above and 301 below). Parts from the Ordo.",
+      "parts": [
+        {
+          "title": "§ I. Varia Athenarum medio aevo fortuna usque ad finem saeculi XI",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "§ II. Michaelis ejusque fratris pueritia Chonis et Choli acta",
+          "ordoCol": "301",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "§ III. Rerum status; legum per Graeciam abolitio",
+          "ordoCol": "303",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "§ IV. Michael cum Leone Sguro certamen",
+          "ordoCol": "(garbled)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "§ V. Quae Athenis post Michaelis tempora acciderunt",
+          "ordoCol": "309",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "§ VI. Michaelis senectus et obitus",
+          "ordoCol": "909",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "§ VII. Scriptorum Michaelis catalogus et recensio",
+          "ordoCol": "311",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Oratio habita in die festo Palmarum",
+      "kind": "work",
+      "elenchusCol": "323",
+      "bodyCol": 323,
+      "bodyLine": 23975,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Page 323|324. Text under the head is Latin only."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Epistolae ad Eustathium Thessalonicensem archiepiscopum",
+      "kind": "work",
+      "elenchusCol": "329",
+      "bodyCol": 329,
+      "bodyLine": 24325,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 329|330 (OCR '930')."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Monodia in Eustathium defunctum",
+      "kind": "work",
+      "elenchusCol": "337",
+      "bodyCol": 337,
+      "bodyLine": 24854,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head then Latin; page 337|338."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Monodia in funere fratris habita",
+      "kind": "work",
+      "elenchusCol": "881 (garbled)",
+      "bodyCol": 361,
+      "bodyLine": 26622,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Page 361|362 (header '361 MONODIA IN FRATREM SUUM. 362'). Elenchus '881' = 361. Latin only here; Greek text is in the Addenda (see the Monodia entry below). The Ordo lists 'Laudatio funebris Nicetae Choniatae' with no column."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Hypomnesticon ad imp. Alexium Comnenum de fisci exactionibus (Oratio ad Alexium Comnenum pro Atheniensibus)",
+      "kind": "work",
+      "elenchusCol": "371",
+      "bodyCol": 377,
+      "bodyLine": 27610,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Page 377|378. Elenchus '371' (7->1); the Ordo reads '311' for the same piece."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Iambi de pristina urbis Athenarum dignitate",
+      "kind": "work",
+      "elenchusCol": "383",
+      "bodyCol": 383,
+      "bodyLine": 27820,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Greek head at line 27759; Latin head line 27820; page 383|384."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Appendix. Laudatio SS. archangelorum Michaelis et Gabrielis",
+      "kind": "work",
+      "elenchusCol": "1221",
+      "bodyCol": 1221,
+      "bodyLine": 93043,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Under ADDENDA (head at line 93018, Monitum 93021). Page 1221|1222. The same section is printed again twice later in the OCR (lines 94328 and 95879); first occurrence given. Ordo: 'Inediti auctoris, fortasse Nicetae Choniatae'."
+    },
+    {
+      "author": "MICHAEL ACOMINATUS CHONIATA, ATHENIENSIS ARCHIEPISCOPUS, NICETAE FRATER",
+      "title": "Nicetae Acominati ... Monodia in Nicetam Choniatem fratrem suum (Textus Graecus; Latine supra col. 361)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1247,
+      "bodyLine": 97638,
+      "colStatus": "body-only",
+      "greek": "greek-only",
+      "note": "Listed by the Ordo only (under ADDENDA, '1247') and omitted by the Elenchus. Page 1247|1248.",
+      "listedIn": "ordo-only"
+    },
+    {
+      "author": "THEODORUS ALANIAE EPISCOPUS",
+      "title": "Alanicus, sive Sermo epistolaris ad episcopos Cpolitanos de suo per Alaniam itinere",
+      "kind": "work",
+      "elenchusCol": "385",
+      "bodyCol": 387,
+      "bodyLine": 27970,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "note": "Elenchus 385; Ordo prints 385 for the Notitia and 387 for the Alanicus. Body head (Greek 27957, Latin 27970) is on page 387|388, so the Ordo and the body agree and I believe 387. The Notitia (line 27875, page 385|386) is not entered (omitted by the Elenchus)."
+    },
+    {
+      "author": "THEODORUS ALANIAE EPISCOPUS",
+      "title": "Ejusdem ex inedito opusculo ad fratrem natu minorem",
+      "kind": "work",
+      "elenchusCol": "413",
+      "bodyCol": 413,
+      "bodyLine": 29579,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "No separate head found. The only appearance is the quotation from the unedited opusculum 'ad fratrem natu minorem' in the note at the foot of page 413|414 (Greek lines with Latin, from line 29575); the running head on that page is already THEODORUS ANDIDENSIS. Treat as shaky."
+    },
+    {
+      "author": "THEODORUS ANDIDENSIS EPISCOPUS",
+      "title": "De divinae Liturgiae symbolis ac mysteriis",
+      "kind": "work",
+      "elenchusCol": "417",
+      "bodyCol": 417,
+      "bodyLine": 29728,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 417|418. The Notitia (line 29596, col 413) is omitted by the Elenchus and not entered."
+    },
+    {
+      "author": "MANUEL MAGNUS RHETOR CPOLITANUS",
+      "title": "De processione Spiritus Sancti. Disputatio cum fratre Francisco, ordinis Praedicatorum (Apologia et refutatio)",
+      "kind": "work",
+      "elenchusCol": "461 (garbled)",
+      "bodyCol": 467,
+      "bodyLine": 33680,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Page 467|468 (OCR '466','467' above the head). Elenchus '461' (7->1); Ordo prints no column."
+    },
+    {
+      "author": "PANTALEO DIACONUS CP.",
+      "title": "Tractatus contra errores Graecorum",
+      "kind": "work",
+      "elenchusCol": "483",
+      "bodyCol": 485,
+      "bodyLine": 35734,
+      "colStatus": "disagree",
+      "greek": "latin-only",
+      "note": "Elenchus and Ordo both read 483. The Notitia (line 35618), Stevartius' Lectori and Basnage's Observatio occupy 483-485; the Tractatus head is at line 35733 under the running head '485 PANTALEONIS DIACONI CONTRA GRAECOS 486'. I believe 485 for the Tractatus itself."
+    },
+    {
+      "author": "PANTALEO DIACONUS CP.",
+      "title": "Narratio miraculorum Michaelis archangeli",
+      "kind": "work",
+      "elenchusCol": "873 (garbled)",
+      "bodyCol": 573,
+      "bodyLine": 42187,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Page 573|574 (header '573 CONTRA GRAECOS 574'). Ordo '3573'."
+    },
+    {
+      "author": "MANUEL CHARITOPULUS CP. PATRIARCHA",
+      "title": "Solutiones quarumdam quaestionum de jure patronatus et de translatione episcoporum",
+      "kind": "crossref",
+      "elenchusCol": "591",
+      "bodyCol": 591,
+      "bodyLine": 43498,
+      "colStatus": "agree",
+      "greek": "unknown",
+      "note": "Body prints only the title and 'Vide tom. CXIX, col. 807-816'. Printed in another volume.",
+      "crossRefVolume": 119,
+      "crossRefCol": 807
+    },
+    {
+      "author": "GERMANUS II, CPOLITANUS PATRIARCHA",
+      "title": "Notitia duplex (1. Ex Oriente Christiano; 2. Ex Bibliotheca Fabricii)",
+      "kind": "editorial",
+      "elenchusCol": "593",
+      "bodyCol": 593,
+      "bodyLine": 43519,
+      "colStatus": "agree",
+      "greek": "latin-only",
+      "note": "Page 593|594 inferred (page numbers lost; next header 595 at line 43574)."
+    },
+    {
+      "author": "GERMANUS II, CPOLITANUS PATRIARCHA",
+      "title": "Epistola ad Gregorium IX papam et ad cardinales de unione Ecclesiarum, cum Gregorii responso duplici; Definitio apocrisiariorum; Acta concilii Nymphaei",
+      "kind": "crossref",
+      "elenchusCol": "604",
+      "bodyCol": 601,
+      "bodyLine": 43872,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Body prints only a note: 'haec omnia post Regesta exstant Gregorii IX, quem vide in Patrologia Latina ad an. 1241' (page 601|602). Elenchus '604' (1->4). Printed in the Patrologia Latina, not in this volume; PL volume not stated in the body, so crossRefVolume is left empty.",
+      "crossRefVolume": null,
+      "crossRefCol": null
+    },
+    {
+      "author": "GERMANUS II, CPOLITANUS PATRIARCHA",
+      "title": "Epistola prima ad Cyprios",
+      "kind": "work",
+      "elenchusCol": "601",
+      "bodyCol": 601,
+      "bodyLine": 43879,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 601|602."
+    },
+    {
+      "author": "GERMANUS II, CPOLITANUS PATRIARCHA",
+      "title": "Epistola II ad Cyprios",
+      "kind": "work",
+      "elenchusCol": "613",
+      "bodyCol": 613,
+      "bodyLine": 44729,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 613|614."
+    },
+    {
+      "author": "GERMANUS II, CPOLITANUS PATRIARCHA",
+      "title": "Homiliae",
+      "kind": "work",
+      "elenchusCol": "631",
+      "bodyCol": 623,
+      "bodyLine": 45447,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "note": "Head 'GERMANI II CONSTANTINOPOLITANI PATRIARCHAE HOMILIAE' follows page header 623; Elenchus 631 falls inside Homilia I (OCR page 631 at line 45997). I believe 623. Parts from the Ordo.",
+      "parts": [
+        {
+          "title": "I. In Exaltationem venerandae crucis et contra Bogomilos",
+          "ordoCol": "",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "II. In vivificam crucem, dominica tertia jejuniorum",
+          "ordoCol": "(garbled)",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "III. Ejusdem argumenti, tempore medii jejunii",
+          "ordoCol": "659",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "IV. In restitutionem imaginum",
+          "ordoCol": "059",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "V. In D. N. Jesu Christi sepulturam, in die magni Sabbati",
+          "ordoCol": "675",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VI. In SS. Deiparae Annuntiationem",
+          "ordoCol": "671",
+          "colStatus": "ordo-only"
+        },
+        {
+          "title": "VII. In SS. Innocentes",
+          "ordoCol": "135",
+          "colStatus": "ordo-only"
+        }
+      ]
+    },
+    {
+      "author": "GERMANUS II, CPOLITANUS PATRIARCHA",
+      "title": "Decreta synodalia",
+      "kind": "crossref",
+      "elenchusCol": "191 (garbled)",
+      "bodyCol": 757,
+      "bodyLine": 55936,
+      "colStatus": "elenchus-garbled",
+      "greek": "unknown",
+      "note": "Body: 'Germani decreta quaedam synodalia vide in tomo CXIX, col. 195 sqq.' on page 757|758. Elenchus '191', Ordo '157' (both = 757). Note: a block 'MANUEL II CP. PATRIARCHA' (Le Quien attribution, line 55942) follows and is in neither list.",
+      "crossRefVolume": 119,
+      "crossRefCol": 195
+    },
+    {
+      "author": "MICHAEL CHUMNUS, THESSALONICENSIS METROPOLITA",
+      "title": "De gradibus cognationum",
+      "kind": "crossref",
+      "elenchusCol": "159 (garbled)",
+      "bodyCol": 759,
+      "bodyLine": 55964,
+      "colStatus": "elenchus-garbled",
+      "greek": "unknown",
+      "note": "Body: 'Vide tom. CXIX, col. 1298.' Page 759|760 (Elenchus '159' = 759; Ordo '759').",
+      "crossRefVolume": 119,
+      "crossRefCol": 1298
+    },
+    {
+      "author": "THEODORUS DUCAS LASCARIS, IMP.",
+      "title": "De nominibus divinis (Premittitur Editoris Romani Monitum)",
+      "kind": "work",
+      "elenchusCol": "761",
+      "bodyCol": 761,
+      "bodyLine": 56074,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 761|762 (header 'DE DIVINIS NOMINIBUS -- MONITUM' at line 56017; Monitum at 56074; Greek head 'Sermo quartus' about line 56106). The Notitia (line 55976, page 759) is not entered."
+    },
+    {
+      "author": "THEODORUS DUCAS LASCARIS, IMP.",
+      "title": "Canon exhortatorius ad SS. Deiparam",
+      "kind": "work",
+      "elenchusCol": "T (garbled)",
+      "bodyCol": 771,
+      "bodyLine": 56476,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Greek head KANON PARAKLHTIKOS at line 56476. Page 771|772 inferred from neighbouring page numbers (OCR 'T10' at 56328 and '173' at 56594); Ordo has a stray '759'. Inference, not a read."
+    },
+    {
+      "author": "THEODORUS DUCAS LASCARIS, IMP.",
+      "title": "De communicatione naturali libri sex (Latine ex editione Basileensi, Graece ex cod. Paris.)",
+      "kind": "work",
+      "elenchusCol": "4259 (garbled)",
+      "bodyCol": 1259,
+      "bodyLine": 99040,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Printed in the ADDENDA (Ordo: 'Vide in Addendis', '1299'). The OCR contains this run twice (page 1257-1263 area repeated around lines 98420 and 99040); the title block only survives in the second copy (line 99040, OCR '4250'). Elenchus '4259' = 1259; Ordo '1299'."
+    },
+    {
+      "author": "METHODIUS MONACHUS",
+      "title": "De schismate vitando (Premittitur Editoris Romani Monitum)",
+      "kind": "work",
+      "elenchusCol": "779",
+      "bodyCol": 779,
+      "bodyLine": 57596,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 779|780 (OCR '119 ... 790'). Notitia at line 57546 on the same page."
+    },
+    {
+      "author": "NICEPHORUS CPOLITANUS PATRIARCHA (II)",
+      "title": "Contra eos qui dicunt mortuos sacro oleo ungendos esse",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 805,
+      "bodyLine": 59613,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo reads 805. Page 805|806."
+    },
+    {
+      "author": "CONSTANTINUS ACROPOLITA",
+      "title": "Sermo in S. Joannem Damascenum",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 811,
+      "bodyLine": 59832,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo reads 814; body page 811|812 (OCR '811','812' above the Greek head). The Notitia (line 59752, page 807) is not entered."
+    },
+    {
+      "author": "CONSTANTINUS ACROPOLITA",
+      "title": "Sermo in sanctam Theodosiam (De sancta Theodosia martyre CP.; Commentarius praevius)",
+      "kind": "work",
+      "elenchusCol": "881 (garbled)",
+      "bodyCol": 887,
+      "bodyLine": 65389,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Section opens with Henschenius' Commentarius praevius at page 887|888 (Ordo '887'); the Sermo proper (Greek head line 65877) is on about page 895|896."
+    },
+    {
+      "author": "ARSENIUS AUTORIANUS CPOLITANUS PATRIARCHA",
+      "title": "Anacreonticon in Dominicam Resurrectionis",
+      "kind": "work",
+      "elenchusCol": "933 (garbled)",
+      "bodyCol": 935,
+      "bodyLine": 68645,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Ordo '935'; page 935|936 (header at lines 68576-68605). Head carries a Monitum."
+    },
+    {
+      "author": "ARSENIUS AUTORIANUS CPOLITANUS PATRIARCHA",
+      "title": "Privilegium pro monasterio SS. Deiparae Macrinitissae",
+      "kind": "work",
+      "elenchusCol": "939",
+      "bodyCol": 943,
+      "bodyLine": 69175,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "note": "Elenchus and Ordo both read 939. The nearest readable header above the head is '943 ... 944' (OCR '913','944', line 69036), 139 lines earlier; page numbers after it are damaged (a stray '950' at 69195), so the true page may be 945. I believe the body (943 or just after), not 939."
+    },
+    {
+      "author": "ARSENIUS AUTORIANUS CPOLITANUS PATRIARCHA",
+      "title": "Testamentum",
+      "kind": "work",
+      "elenchusCol": "941",
+      "bodyCol": 949,
+      "bodyLine": 69386,
+      "colStatus": "disagree",
+      "greek": "yes",
+      "note": "Elenchus and Ordo both read 941. Last readable header above is OCR '049' (=949) at line 69348; the head is at 69386; OCR '950' follows at 69389. Georgius' title at 70053 is page ~957, which leaves too few lines for 941. I believe 949."
+    },
+    {
+      "author": "GEORGIUS ACROPOLITA",
+      "title": "Annales (a capta anno 1204 a Latinis Cpoli usque ad eamdem anno 1261 a Michaele Palaeologo recuperatam)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 967,
+      "bodyLine": 70655,
+      "colStatus": "body-only",
+      "greek": "yes",
+      "note": "Elenchus prints no column. Ordo reads '9069' (969?). Page 967|968 (header at line 70592; Greek head 70655, Latin head 70667). The Notitia (line 70056) and the Index personarum (ordo, col 963) are not entered."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "Notitia ex Bibliotheca Fabricii ed. Harles",
+      "kind": "editorial",
+      "elenchusCol": "1391 (garbled)",
+      "bodyCol": 1397,
+      "bodyLine": 110792,
+      "colStatus": "elenchus-garbled",
+      "greek": "latin-only",
+      "note": "Ordo reads 1397. Title block follows the last page of the Addenda (page 1395|1396), so it opens page 1397|1398. Elenchus '1391' (7->1)."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "Antitheticus adversus Plotinum de anima (ex Creuzeri editione)",
+      "kind": "work",
+      "elenchusCol": "1399",
+      "bodyCol": 1399,
+      "bodyLine": 110925,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 1399|1400."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "Sermo consolatorius ad filiam suam imperatricem ob viduitatis ejus maerorem",
+      "kind": "work",
+      "elenchusCol": "1131 (garbled)",
+      "bodyCol": 1431,
+      "bodyLine": 113374,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Page 1431|1432 (header at line 113333)."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "De miraculo in Cana facto",
+      "kind": "work",
+      "elenchusCol": "1454",
+      "bodyCol": 1451,
+      "bodyLine": 114261,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Page 1451|1452 (OCR '46','1452' at lines 114243-114252; next header 1453|1454 at lines 114377-114383). Elenchus '1454' (1->4)."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "De petitione Elisaei ad Eliam",
+      "kind": "work",
+      "elenchusCol": "1455",
+      "bodyCol": 1455,
+      "bodyLine": 114663,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 1455|1456. Latin head 'EJUSDEM AD EUMDEM'."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "Testamentum",
+      "kind": "work",
+      "elenchusCol": "1165 (garbled)",
+      "bodyCol": 1465,
+      "bodyLine": 115371,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Page 1465|1466 (header at lines 115309-115315)."
+    },
+    {
+      "author": "NICEPHORUS CHUMNUS, CANICLEO PRAEFECTUS (NATHANAEL MONACHUS)",
+      "title": "De festo Dormitionis S. Mariae",
+      "kind": "work",
+      "elenchusCol": "1498",
+      "bodyCol": 1497,
+      "bodyLine": 117767,
+      "colStatus": "agree",
+      "greek": "yes",
+      "note": "Page 1497|1498 (OCR '1497','1498' at 117682-117688). Ordo '1491'. Greek head OEZIIIZMA at 117767."
+    },
+    {
+      "author": "ALEXANDER PAPA IV",
+      "title": "Constitutio Cypria",
+      "kind": "work",
+      "elenchusCol": "104 (garbled)",
+      "bodyCol": 1527,
+      "bodyLine": 120309,
+      "colStatus": "elenchus-garbled",
+      "greek": "yes",
+      "note": "Title block after the end of the Dormitionis text (OCR page '1526' above), before header '1529' at line 120364. A second title block (Greek AIATAXIE KYPRIA) recurs at line 120461 (page 1533|1534); first occurrence given. The Elenchus line reads 'illustratur. 104'."
+    },
+    {
+      "author": "SIXTUS IV PAPA",
+      "title": "Bulla ad episcopos Graecos, Armenos, Nestorianos et Jacobitas in insula Cypro constitutos (Constitutio Cypria, appendix)",
+      "kind": "work",
+      "elenchusCol": "",
+      "bodyCol": 1561,
+      "bodyLine": 122507,
+      "colStatus": "body-only",
+      "greek": "latin-only",
+      "note": "Listed by the Ordo only ('SIXTUS IV PAPA ...') and omitted by the Elenchus. The head recurs identically at line 123934 with the note 'priori subjicimus propter materiei cognationem' (OCR page numbers '1501','1508'). Page 1561|1562 for the first occurrence is read from page numbers around it, but the first copy sits in the middle of Alexander's text, so the true location is probably the later copy near col ~1607; unresolved.",
+      "listedIn": "ordo-only"
+    }
+  ],
+  "problems": [
+    "Elenchus cut ended at line 1567 (Theodori scripta); the remainder (Methodius to Alexander IV) was read on from the OCR to line ~1634.",
+    "Not entered (apparatus the Elenchus omits): Notitiae of Theodorus Alaniae (col 385), Theodorus Andidensis (413), Constantinus Acropolita (801/807), Arsenius (934), Georgius Acropolita (Notitia, and Index personarum in Acropolitae historia memoratorum, ordo col 963), Methodius, Theodorus Ducas (759); Hier./Basnage/Stevartius notes in Pantaleo (483-485); the block 'MANUEL II CP. PATRIARCHA' (Le Quien note, col 757); Riccardus' Historia Constitutionis Cypriae (cols 1529-1532).",
+    "OCR page duplication: Laudatio SS. Michaelis et Gabrielis (93043, again 94328, 95879); De communicatione naturali libri sex (runs near 98420 and again from 99040, title block only in second copy); Constitutio Cypria (title blocks at 120309 and 120461); Sixtus IV Bulla (122507 and 123934). First occurrence given except where noted.",
+    "Page numbers are badly damaged in cols ~940-960 (Arsenius' Privilegium and Testamentum), ~560-620 and ~1060: columns recorded there are inferred from neighbouring headers; the Ordo and Elenchus agree with each other (939/941) but not with the body for Arsenius' two pieces.",
+    "Elenchus 'Formula altera in Sylburgii notis' has no column and no distinct head; left unlocated.",
+    "The Ordo has some oddly-labelled lines for Michael's Laudatio funebris pieces (Laudatio funebris eiusdem, Laudatio funebris Nicetae Choniatae, Oratio ad Alexium, Deploratio de amissa urbis Athenarum), which correspond to Monodia in Eustathium, Monodia in fratrem, Hypomnesticon, Iambi in the Elenchus.",
+    "Elenchus 'Ex libro XXII' (Eustratius) is 'Ex libro XXIII' in the body and the Ordo."
+  ]
+}

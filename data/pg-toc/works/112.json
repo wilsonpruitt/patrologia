@@ -1,0 +1,115 @@
+{
+ "volume": 112,
+ "source": "archive.org patrologia-volumes 112_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "212-246",
+ "colMap": "cols 14-1464 (pg-colfind --stats; 855 anchors, 114 jumps >2 cols)",
+ "entries": [
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "Editorum Patrologiae Praefatio",
+   "kind": "editorial",
+   "elenchusCol": "9",
+   "bodyCol": 9,
+   "bodyLine": 237,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'EDITORUM PATROLOGLAE PRAEFATIO' at line 237 on the opening page after the title matter; Ordo reads 9 too. Signed J.-B. M.; text runs onto the top of the next spread (line ~307)."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "J. A. Fabricii Notitia Scriptorum Constantini Porphyrogeniti",
+   "kind": "editorial",
+   "elenchusCol": "11",
+   "bodyCol": 11,
+   "bodyLine": 330,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head at line 330, on the spread whose running head OCRs '14 JOAN. ALB. FABRIOII 19' (line 307; digits garbled, it is 11|12 since the page opens with the tail of the Editors' Praefatio). Ordo OCR reads '44' (garbled). pg-colfind's 'col ~14' lags because the page numbers are lost."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "De Cerimoniis Aulae Byzantinae libri duo, e recensione Joan. Jac. Reiskii, cum ejusdem Commentariis (collective title page)",
+   "kind": "work",
+   "elenchusCol": "33",
+   "bodyCol": 33,
+   "bodyLine": 1155,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Elenchus prints this as a group head with col. 33, with Reiskii's Praefatio and Leichii listed beneath. Body: title page 'CONSTANTINI PORPHIROGENITI IMPERATORIS DE CEREMONIIS AULAE BYZANTINAE LIBRI DUO GRAECE ET LATINE...' at line 1155, page 33|34 (follows running head '31 ... 32' at line 1084). The two books themselves are entered separately below."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "B. G. Niebuhrii Praefatio (Ed. Bonn. 1829)",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 33,
+   "bodyLine": 1164,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "NOT in the Elenchus; listed in the closing Ordo (col. 34, within +-1 of body page 33|34). Head at line 1164 directly under the collective title page. Mapping inferred from the Ordo."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "Joan. Jac. Reiskii Praefatio (Praefationes ad tomum primum)",
+   "kind": "editorial",
+   "elenchusCol": "33",
+   "bodyCol": 35,
+   "bodyLine": 1224,
+   "colStatus": "disagree",
+   "greek": "latin-only",
+   "note": "Elenchus OCR reads 33 (same as the title page above, likely a ditto or misprint); Ordo reads 35; body head 'JOAN. JAC. REISKII PRAEFATIONES / AD TOMUM PRIMUM' at lines 1224-1227, after the stray page number '36' at line 1221, so page 35|36. Believed 35 (body and Ordo agree)."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "Joan. Henrici Leichii Commentatio de Vita et Rebus gestis Constantini Porphyrogeniti",
+   "kind": "editorial",
+   "elenchusCol": "45",
+   "bodyCol": null,
+   "bodyLine": null,
+   "colStatus": "unlocated",
+   "greek": "unknown",
+   "note": "Head not found. OCR text skips from col 41|42 (running head '4i PRAEFATIONES', line 1621; Reiskii's Praefationes text ends mid-sentence at line ~1757) straight to page 49|50 (line 1759), where Leichii's preface is already running ('litteras meritis uberiorem materiam...', ends 'Vale, Lector', then CONSPECTUS at line 1780). pg-colfind shows the map jumping 39 to 49; pages 43-48 appear to be missing from the OCR. Ordo OCR reads '41' (garbled or wrong). Searched: COMMENTATIO|LEICH|LECHII|DE VITA ET REBUS, --heads 41-49, --col 45/47. Elenchus 45 is plausible but not confirmed in the body."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "Ex Adversariis Leichianis, de scriptis Constantini Porphyrogeniti (Excerptum)",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 71,
+   "bodyLine": 2874,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "NOT in the Elenchus; listed in the closing Ordo (OCR '7A', i.e. 71). Head 'EX ADVERSARIIS LEICHIANIS / DE SCRIPTIS CONSTANTINI PORPHYROGENNETI' at line 2874 on the spread whose running head OCRs '74 EX ADVERSARIIS LEICHIANIS 19' (line 2861), page 71|72 by sequence (69|70 at line 2691, 73|74 at line 2982). A second head 'EX ISDEM ADVERSARIIS DE VITA CONSTANTINI...COLLECTANEA QUAEDAM' follows at line 2934; the title page of Liber I follows at line 2982."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "De Cerimoniis Aulae Byzantinae liber primus",
+   "kind": "work",
+   "elenchusCol": "1A",
+   "bodyCol": 73,
+   "bodyLine": 2985,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '1A' unreadable; Ordo reads 74. Greek head '[EKOEXIS THX BAXIAEIOY TAZEOQX']' KONXTANTINOY...' at line 2985, then Latin '[DE CERIMONIIS AULAE BYZANTINAE] CONSTANTINI... SYNTAGMA' at line 3002, on the spread whose running head OCRs '73 DE CEREMONIIS AULAE BYZANTINAE LIB. I. 14' (line 2982), i.e. page 73|74; next spread header '75|76' at line 3110. Within +-1 of Ordo. Includes Appendix ad primum etc. (Ordo only, not Elenchus items)."
+  },
+  {
+   "author": "CONSTANTINUS PORPHYROGENITUS",
+   "title": "De iisdem Cerimoniis liber secundus",
+   "kind": "work",
+   "elenchusCol": "065",
+   "bodyCol": 973,
+   "bodyLine": 77544,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR '065' unreadable (965 would fall inside Liber I's closing sections). Ordo reads 974. Head 'CONSTANTINI IMP. PORPHYROGENITI DE CERIMONIIS AULAE BYZANTINAE LIBER SECUNDUS' with Greek proemium (IIPOOIMION) at lines 77544-77597, on the spread before the '975 CONSTANTINI PORPHYROGENITI 976' header (line 77660), so page 973|974. Within +-1 of Ordo."
+  }
+ ],
+ "problems": [
+  "Leichii Commentatio head unlocated: OCR pages 43-48 appear missing (map jumps 39 to 49); Elenchus 45 unconfirmed, Ordo OCR '41' unreliable.",
+  "Elenchus omits B. G. Niebuhrii Praefatio and Ex Adversariis Leichianis, both listed in the closing Ordo; entered as body-only.",
+  "Elenchus gives Reiskii Praefatio col. 33; body and Ordo give 35 (recorded as disagree).",
+  "Elenchus columns for Liber I ('1A') and Liber II ('065') unreadable; Ordo (74, 974) and body settle them.",
+  "Only top-level Elenchus items entered; the Ordo's chapter list (Cap. I-XCVII of Liber I, chapter list of Liber II, Appendix ad primum, Index rerum 1447) is not itemised."
+ ]
+}
