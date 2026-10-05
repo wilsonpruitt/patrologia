@@ -1,0 +1,82 @@
+{
+ "volume": 108,
+ "source": "archive.org patrologia-volumes 108_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "307-340",
+ "colMap": "cols 3-1489 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "S. THEOPHANES ABBAS ET CONFESSOR",
+   "title": "Vita et Officium S. Theophanis",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 17,
+   "bodyLine": 860,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Head 'S. P. N. THEOPHANIS, QUI ET ISAACUS, VITA ATQUE LAUDATIO' on page 17|18 (header '17 THEOPHANIS VITA 18' at line 818). Closing 'Ordo rerum' gives Vita et laudatio 18 (+-1, agree). The Officium is a second head in the same entry: 'THEOPHANIS OFFICIUM' at line 2949, page header garbled ('is | b'), Ordo col 45. Greek beside Latin."
+  },
+  {
+   "author": "S. THEOPHANES ABBAS ET CONFESSOR",
+   "title": "S. Theophanis Chronographia",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 55,
+   "bodyLine": 3857,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Title block 'S. P. N. THEOPHANIS ABBATIS AGRI ATQUE CONFESSORIS CHRONOGRAPHIA' (lines ~3855-3870) with 'PROOEMIUM CHRONOGRAPHIAE' (3872) on page 55|56 (header OCR 't5 THEOPHANIS 56' at 3831). Ordo rerum: Proemium 55 (agree). Runs to col ~1008. Greek beside Latin."
+  },
+  {
+   "author": "AUCTOR INCERTUS",
+   "title": "Vita Leonis Armeni",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1009,
+   "bodyLine": 100300,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Head 'SYGGRAPHE CHRONOGRAPHIOU TA KATA LEONTOS YIOU BARDA TOU ARMENIOU ... CHRONOGRAPHICA NARRATIO COMPLECTENS EA QUAE TEMPORE LEONIS FILI BARDAE ARMENI CONTIGERUNT' at lines ~100290-100304, on page 1009|1010 (header 1009 at 100204; running head 'INCERTI AUCTORIS VITA LEONIS ARMENI'). Closing Ordo rerum prints 1010 (OCR '10t0'): agree within 1. The page sits twice in the OCR: second copy of the same head at line 102180 (see problems). Ends 'Cetera desunt' at col 1037. Greek beside Latin."
+  },
+  {
+   "author": "LEO GRAMMATICUS",
+   "title": "Chronographia",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1037,
+   "bodyLine": 104322,
+   "colStatus": "body-only",
+   "greek": "yes",
+   "note": "Head 'LEONTOS GRAMMATIKOU CHRONOGRAPHIA ... LEONIS GRAMMATICI CHRONOGRAPHIA COMPLECTENS RES A RECENTIORIBUS IMPERATORIBUS GESTAS' at lines ~104322-104335, lower on page 1037|1038 (header at 104289-104295), straight after the end of the Vita Leonis ('Cetera desunt'). Ordo rerum prints 1038 (agree within 1). Greek beside Latin."
+  },
+  {
+   "author": "GODEFRIDI HENSCHENII",
+   "title": "Dissertatio de chronographia S. Theophanis",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 1163,
+   "bodyLine": 114906,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Head 'GODEFRIDI HENSCHENII DE CHRONOGRAPHIA S. THEOPHANIS DISSERTATIO' (Acta SS. Martii t. III) on page 1163|1164 (header '1163 LEONIS GRAMMATICI CHRONOGRAPHIA 1164' at 114742-114748). Ordo rerum prints 1163 (agree). Author line is printed under its own head in the Elenchus (no author head of its own)."
+  },
+  {
+   "author": "ANASTASIUS BIBLIOTHECARIUS",
+   "title": "Historia ecclesiastica ex Theophane",
+   "kind": "work",
+   "elenchusCol": "",
+   "bodyCol": 1187,
+   "bodyLine": 116641,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Head 'ANASTASII BIBLIOTHECARII. HISTORIA ECCLESIASTICA EX NICEPHORO PATRIARCHA, GEORGIO SYNCELLO ET THEOPHANE CONTRACTA' at 116641, just before the page header '1187 ANASTASII BIBLIOTHECARII' (OCR reading order); Fabrotti's Monitum and Anastasius's Praefatio follow. Ordo rerum: Monitum 1187, Praefatio 1190, 'Historia ecclesiastica ex Syncello' 1190 (running head from line 116942), 'Historia ecclesiastica ex Theophane' 1206 (OCR running head EX THEOPHANE first at line 117933, col 1205|1206). The Elenchus lists one item, so entered once at its start; the ex-Theophane section proper begins about line 117933 / col 1205. Latin (Anastasius's version)."
+  }
+ ],
+ "problems": [
+  "The Elenchus prints no column numbers at all. The closing 'Ordo rerum' (OCR lines ~145665-145720) prints them and was used only as a cross-check; every bodyCol was found in the body.",
+  "OCR DUPLICATION: the file holds some columns twice. Cols 1007-1022 occur at lines 100122-101290; then cols 999-1008 recur at 101291-102083, and cols 1009-1022 recur at 102083-~103070 before the run continues to 1037+ (104289). So the Vita Leonis head is at both line 100300 and line 102180. bodyLine given is the first. pg-colfind's chain follows the first copy and drops the repeated numbers as jumps, so a column from a repeated stretch can look misplaced.",
+  "The Vita head title page (Greek and Latin) lies at the foot of page 1009|1010; the running head 'INCERTI AUCTORIS VITA LEONIS ARMENI' starts a few lines earlier on that page, so a search for the running head alone would give the wrong spot.",
+  "Elenchus item 'Vita et Officium' is entered once at the Vita; the Officium is a separate head at line 2949 (col ~45 by Ordo rerum). Not split since the Elenchus gives one item.",
+  "Notitia (col 9) and Praefatio Combefisii (col 15) and Migne's Monitum are in the Ordo rerum but not the Elenchus; not entered."
+ ]
+}

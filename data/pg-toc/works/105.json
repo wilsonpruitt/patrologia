@@ -1,0 +1,168 @@
+{
+ "volume": 105,
+ "source": "archive.org patrologia-volumes 105_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "230-277",
+ "colMap": "cols 14-1431 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "NICETAS DAVID PAPHLAGO",
+   "title": "Orationes laudatoriae aliaeque nonnullae festivae",
+   "kind": "work",
+   "elenchusCol": "15",
+   "bodyCol": 15,
+   "bodyLine": 535,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'SUMMORUM APOSTOLORUM ORATIONES LAUDATORIAE ALIAEQUE QUAEDAM FESTIVAE' on page 15|16 (header at line 496). Greek and Latin side by side."
+  },
+  {
+   "author": "NICETAS DAVID PAPHLAGO",
+   "title": "Vita S. Ignatii archiepiscopi Constantinopolitani",
+   "kind": "work",
+   "elenchusCol": "481",
+   "bodyCol": 487,
+   "bodyLine": 37109,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus OCR reads 481, impossible: cols 480-486 are Oratio XX (Gregory). Head 'S. P. N. IGNATII ... VITA SIVE CERTAMEN' sits on page 487|488 (page header OCR'd '451' at line 37044; 489|490 follows). Probably 487 with 7 misread as 1."
+  },
+  {
+   "author": "NICETAS DAVID PAPHLAGO",
+   "title": "Fragmenta Expositionis in Lucae Evangelium",
+   "kind": "work",
+   "elenchusCol": "515",
+   "bodyCol": 575,
+   "bodyLine": 43525,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 515, impossible (cols 513-518 are the Vita Ignatii). Body page header OCR'd '515 NICETAE PAPHLAGONIS b76' at line 43522, between anchors 574 and 578, so page 575|576. Elenchus probably 575."
+  },
+  {
+   "author": "NICETAS DAVID PAPHLAGO",
+   "title": "Exegesis carminum arcanorum S. Gregorii Theologi",
+   "kind": "work",
+   "elenchusCol": "578",
+   "bodyCol": 577,
+   "bodyLine": 43705,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head on the page whose header OCR gives lone '578' (line 43655); page 577|578, head ~50 lines in. Within +-1 of Elenchus."
+  },
+  {
+   "author": "NICETAS BYZANTINUS",
+   "title": "Editorum Patrologiae Dissertatio de aetate et scriptis Nicetae Byzantini, in qua etiam de Niceta Davide",
+   "kind": "editorial",
+   "elenchusCol": "583",
+   "bodyCol": 583,
+   "bodyLine": 44071,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Printed as 'MONITUM EDITORUM' (line 44071), then 'NOTITIA / DE SCRIPTIS NICETAE BYZANTINI' (header line 44163). Page header for 583|584 lost in OCR (page 581|582 header at 43936-43942, 587 at 44249); col 583 inferred from sequence."
+  },
+  {
+   "author": "NICETAS BYZANTINUS",
+   "title": "Nicetae Refutatio epistolae regis Armeniae",
+   "kind": "work",
+   "elenchusCol": "587",
+   "bodyCol": 587,
+   "bodyLine": 44277,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'NICETAE BYZANTINI REFUTATIO ET EVERSIO EPISTOLAE AB ARMENIAE PRINCIPE MISSAE'; page header OCR'd '537' (line 44249) = 587|588."
+  },
+  {
+   "author": "NICETAS BYZANTINUS",
+   "title": "Confutatio dogmatum Mahomedis",
+   "kind": "work",
+   "elenchusCol": "670",
+   "bodyCol": 669,
+   "bodyLine": 50117,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'NICETAE BYZANTINI PHILOSOPHI CONFUTATIO FALSI LIBRI QUEM SCRIPSIT MOHAMEDES ARABS' ~36 lines into page 669|670 (header 'C69 REFUTATIO MOHAMEDIS. 610' at line 50081). Elenchus 670 is the right-hand column of the same page."
+  },
+  {
+   "author": "THEOGNOSTUS MONACHUS",
+   "title": "Encomium in omnes sanctos",
+   "kind": "work",
+   "elenchusCol": "850",
+   "bodyCol": 849,
+   "bodyLine": 63418,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page header '819 ENCOMIUM IN OMNES SANCTOS 850' (lines 63415-63421) = 849|850; head directly beneath."
+  },
+  {
+   "author": "THEOGNOSTUS MONACHUS",
+   "title": "Libellus ad Nicolaum Papam in causa Ignatii archiepiscopi Constantinopolitani",
+   "kind": "work",
+   "elenchusCol": "855",
+   "bodyCol": 855,
+   "bodyLine": 63890,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head 'THEOGNOSTI LIBELLUS AD NICOLAUM I PAPAM IN CAUSA IGNATII CP.' on page 855|856 (header lines 63821-63830), mid-page after end of the Encomium."
+  },
+  {
+   "author": "ANONYMUS",
+   "title": "Vita S. Nicolai Studitae",
+   "kind": "work",
+   "elenchusCol": "863",
+   "bodyCol": 863,
+   "bodyLine": 64451,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Head after 'ANNO DOMINI DCCCXC'. Page 861|862 header at 64293-64302, 865|866 at 64512; the 863|864 header is lost in OCR, so col 863 inferred from position."
+  },
+  {
+   "author": "S. JOSEPHUS HYMNOGRAPHUS",
+   "title": "Vita S. Josephi auctore Joanne diacono CP., ex Actis sanctorum Bollandianis",
+   "kind": "work",
+   "elenchusCol": "931",
+   "bodyCol": 931,
+   "bodyLine": 69463,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page header 931 (line 69450) with 'S. JOSEPHI HYMNOGRAPHI VITA AUCTORE JOANNE DIACONO CP.' beneath; Henschen's commentary praevius follows, with Greek set beside the Latin."
+  },
+  {
+   "author": "S. JOSEPHUS HYMNOGRAPHUS",
+   "title": "Mariale S. Josephi",
+   "kind": "work",
+   "elenchusCol": "978",
+   "bodyCol": 977,
+   "bodyLine": 72759,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page header OCR '871 MARIALE. 978' (line 72749): left number garbled, = 977|978. Head 'SANCTI JOSEPHI HYMNOGRAPHI ... MARIALE' at the top of that page, followed by Marraccius's dedication."
+  },
+  {
+   "author": "S. JOSEPHUS HYMNOGRAPHUS",
+   "title": "Canon in terrae motus periculo",
+   "kind": "work",
+   "elenchusCol": "1415",
+   "bodyCol": 1415,
+   "bodyLine": 110721,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 1415|1416 (header lines 110703-110706). Greek head 'KANON EIS PHOBON SEISMOU' then Latin head. Greek set opposite the Latin."
+  },
+  {
+   "author": "S. JOSEPHUS HYMNOGRAPHUS",
+   "title": "Laudatio in S. Bartholomaeum apostolum",
+   "kind": "work",
+   "elenchusCol": "1422",
+   "bodyCol": 1421,
+   "bodyLine": 111247,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Greek head 'LAUDATIO S. BARTHOLOMEI APOSTOLI' at 111247; Latin head 'JOSEPHI HUMILIS ET MINIMI LAUDATIO IN SANCTUM APOSTOLUM BARTHOLOMAEUM' at 111282. Page header for 1421|1422 lost or garbled (lone '1423' at 111251); between anchors 1419|1420 (111045) and 1423|1424 (111355). Col 1421 inferred from position; within +-1 of Elenchus."
+  }
+ ],
+ "problems": [
+  "bodyCol convention: the LEFT (odd) column of the OCR page on which the head sits; the right-hand column is on the same page, so Elenchus values one higher count as agree (+-1).",
+  "Several page headers are lost in OCR (583|584, 863|864, 1421|1422); those bodyCols are inferred from position between recognised headers.",
+  "Elenchus 'Orationes Laudatoria alieque nonnulla festive' prints 'col. 15'; the body also holds a Notitia/preface on cols 13-15 before the head (not itemised in the Elenchus)."
+ ]
+}

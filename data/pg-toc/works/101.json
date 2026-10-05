@@ -1,0 +1,93 @@
+{
+ "volume": 101,
+ "source": "archive.org patrologia-volumes 101_djvu.txt",
+ "listSource": "elenchus",
+ "elenchusLines": "408-460",
+ "colMap": "cols 4-1296 (pg-colfind --stats)",
+ "entries": [
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Patrologiae Editorum Praefatio",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": null,
+   "bodyLine": 472,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Head 'EDITORUM PATROLOGIAE GRAECAE PRAEFATIO' at line 472; roman-numbered pages (running head 'PRAEFATIO IN PHOTII OPERA. v, vii'), before the column numbering begins, so no column exists. The Elenchus's detached number block (1, 45, 1171, 1181, 1211) has no number for this item."
+  },
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Josephi Hergenroether Dissertatio de Photii quaestionibus Amphilochianis",
+   "kind": "editorial",
+   "elenchusCol": "1",
+   "bodyCol": 1,
+   "bodyLine": 1332,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Elenchus 'col. 1' read as belonging to this item (the first numbered item; block assignment inferred, see problems). Head 'OPERUM PARS PRIMA. EXEGETICA. IN AMPHILOCHIA PHOTII PROLEGOMENA. I. JOSEPHI HERGENROETHER ... DISSERTATIO' at line 1332; stray '1' at 1435, page 3|4 header at 1438. Latin text with Greek quotations."
+  },
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Praefationes",
+   "kind": "editorial",
+   "elenchusCol": "",
+   "bodyCol": 21,
+   "bodyLine": 3002,
+   "colStatus": "body-only",
+   "greek": "latin-only",
+   "note": "Elenchus gives no readable column. First of the prefaces is 'PROLEGOMENA II. JOS. CHRISTOPHORI WOLFII PRAEFATIO' on page 21|22 (header OCR '.41' at line 2992); then III Scotto 'LECTORI BENEVOLO' (line 3348), IV and V Cardinal Mai's two prefaces (lines 3699, 4310), to col 44. Treated as one entry because the Elenchus lists one."
+  },
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Photii Amphilochia, sive in sacras litteras et quaestiones diatribe",
+   "kind": "work",
+   "elenchusCol": "45",
+   "bodyCol": 45,
+   "bodyLine": 4873,
+   "colStatus": "agree",
+   "greek": "yes",
+   "note": "Page 45|46 header 'AD AMPHILOCHIUM PRAEFATIO' (line 4843); head 'AMPHILOCHIA, IN SACRAS LITTERAS ET QUAESTIONES DIATRIBAE' at 4873; Quaestio I at 5006. Greek and Latin in parallel."
+  },
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Indices septem in Quaestiones Amphilochianas",
+   "kind": "editorial",
+   "elenchusCol": "1171",
+   "bodyCol": 1171,
+   "bodyLine": 90081,
+   "colStatus": "agree",
+   "greek": "latin-only",
+   "note": "Head 'INDICES IN QUAESTIONES AMPHILOCHIANAS' on page 1171|1172 (header OCR '1111 ... 112' at 90033). The seven indices are listed in the closing 'Ordo rerum' (lines ~98710-98730) with cols 1171, 1173, 1175, 1175, 1177, 1178 and VII; the seventh runs on to 'Index analyticus' (cols 1254-1270)."
+  },
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Commentariorum in Novum Testamentum quae supersunt",
+   "kind": "work",
+   "elenchusCol": "1181",
+   "bodyCol": 1189,
+   "bodyLine": 91226,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 1181 (3rd digit probably 9 misread as 1: chain anchors 1187 at line 91050, 1189 at 91198, 1190 at 91212). Head 'PHOTII PATRIARCHAE CP. COMMENTARIORUM IN NOVUM TESTAMENTUM QUAE SUPERSUNT. FRAGMENTA IN MATTHAEUM' on page 1189|1190. Col 1181 lies in the Indices. Greek and Latin in parallel."
+  },
+  {
+   "author": "PHOTIUS CONSTANTINOPOLITANUS PATRIARCHA",
+   "title": "Supplementum ad quaestiones Amphilochianas",
+   "kind": "work",
+   "elenchusCol": "1211",
+   "bodyCol": 1275,
+   "bodyLine": 98763,
+   "colStatus": "elenchus-garbled",
+   "greek": "yes",
+   "note": "Elenchus reads 1211, impossible (cols ~1190-1253 are the Fragmenta in NT). Head 'SUPPLEMENTUM AD QUAESTIONES AMPHILOCHIANAS' at 98763, after 'FINIS TOMI CENTESIMI PRIMI' (98748) and Migne's Monitum, on the page whose header OCR is '1215 ORDO RERUM' (98710) = 1275|1276 by sequence (anchors 1273|1274 at 98492/98608, 1279 at 98887). pg-colfind reports 1274 (last anchor). Elenchus 1211 may be 1271/1275. Greek and Latin in parallel; Quaestio CXLVIII follows."
+  }
+ ],
+ "problems": [
+  "The Elenchus prints 7 items but its column numbers come out as a detached block of only 5 (col. 1, 45, 1171, 1181, 1211). Assignment used: Hergenroether=1, Amphilochia=45, Indices=1171, Commentarii=1181, Supplementum=1211; Profatio and Praefationes get no number. The assignment is inferred from body positions (1, 45, 1171 match exactly), not read from the page.",
+  "The Elenchus heading line 'Photii operum pars I. - Exegetica' is a section title and carries no column; not entered as an item.",
+  "The Elenchus footnote on Quaestiones 148, 18?, 228, 229, 230, 251, 319-321 (found after the volume was set; placed at the end) is explanatory, not an item.",
+  "bodyCol convention: left (odd) column of the OCR page bearing the head; +-1 counts as agree.",
+  "pg-colfind's col for text before col 8 is a placeholder (5): front matter and the Praefatio are roman-paged."
+ ]
+}
