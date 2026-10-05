@@ -121,7 +121,7 @@ J = {
  701:("U","check"),
  722:("P","Miller dissertation (1975), partial"), 723:("P","as above"),
  736:("E","Greek of Riccoldo"),
- 744:("E","title page"), 745:("E","Dositheus' preface"),
+ 743:("E","title page"), 744:("E","Dositheus' preface"),
  748:("Y","Hawkes-Teeples (2011)"), 756:("Y","Hawkes-Teeples (2011)"),
  754:("Y","Simmons, Treatise on Prayer (1984)"),
  764:("Y","Angelou (1991)"),
