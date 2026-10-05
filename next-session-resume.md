@@ -7,6 +7,7 @@
 **Sources:** archive.org `patrologia-volumes` NNN_djvu.txt → `raw/pg-djvu/` (gitignored). PG 106 = `patrologiaecurs67migngoog` (+ `106-alt.txt`); PG 154 = `patrologiaecurs147migngoog`; PG 111 = `bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1863_111` (main item's OCR partial → `111-partial.txt`).
 **Spent:** ≈5.42M Sonnet (subagent_tokens): 4.42M first pass against 4.3M approved, then ≈1.0M finishing against 0.75M approved (batch 20 alone 472K). Two small overruns, both reported.
 **Corrections found:** PG 127's *Anthologium gnomicum* and *Sententiae gnosticae* are ELIAS ECDICUS, not Nicetas Serronius (Nicetas = Expositio in Orationes Gregorii, col 1177).
+**English-status pass (2026-10-05, model memory, no agents, unverified):** `scripts/pg-english-prior.py` → `data/pg-toc/english-prior.tsv` (Y 109 · P 23 · U 56 · E 25 · N 728) and `untranslated-queue.tsv` (N+U, 784 works). Confirm per work before a pilot.
 **Next (Wilson):** review `works.tsv`; then choose Byzantine pilot works from it. Nothing deployed. Pushed 2026-10-05 (`693502f5`).
 
 
