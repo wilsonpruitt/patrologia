@@ -19,11 +19,19 @@ The source files follow verbatim below; **this header is the authority where the
   · ἀποταγή renunciation / συνταγή joining · προσκυνεῖν = do obeisance · θυσιαστήριον = altar ·
   ἱερουργία / ἱερουργεῖν = celebration / celebrate · ἐνανθρώπησις = becoming man · σχῆμα = habit
   · πολιτεία = conduct of life · Θεάδελφος = the Brother of God.
-- ⚑ **OPEN for Wilson:** ἐξομολόγησις and ἐξαγόρευσις are both "confession" in stint A's range.
-  One-word-per-term would make ἐξαγόρευσις "declaration". Left as is pending a ruling.
+- ✅ **RULED (Wilson, 2026-10-06): ἐξομολόγησις = "confession", ἐξαγόρευσις = "declaration"**
+  (ἐξαγορεῦσαι = "declare"). Two sites changed: 0000 ch.39 "the declaring of one's faults", 0003
+  col 193 "concerning repentance and declaration". (ἀνθομολογεῖσθαι / ἀνομολογεῖν "confess" unchanged.)
+- ✅ **Also confirmed by Wilson 2026-10-06:** rubrical τρίτον = "three times" (standing rule);
+  μύρον = "myron" distinct from chrism; col 213 *crucifixum* stays unmarked (compression).
 - Chapter heads CHAPTER n. arabic, read off the plate (Calfa garbles the letter-numerals:
   ΝΑʹ→ΝΔʹ, ΜΔʹ→ΜΛʹ, ΜΘʹ→ΑΙΘʹ). No speaker tag is supplied after a head where the plate has none.
 - Iassy bold page numbers **62–86** placed throughout; Calfa lost or garbled every one.
+
+## Badge
+
+**FIRST English translation — verified by Wilson's own research, 2026-10-06**
+(`translationStatus: none`, `translationStatusVerified: 2026-10-06` in `data/pg-works.json`).
 
 ## Merge-level findings
 

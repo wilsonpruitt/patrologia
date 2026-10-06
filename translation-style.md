@@ -222,6 +222,9 @@ read it with these rules). The Dialogue rules above apply where the form is dial
   holy oil. One word each, never varied (the dialogue rule's logic: the exposition IS these
   terms). μετάνοια is "repentance," not "penance" — *poenitentia* is the Latin column again.
 - **Two sanctifying verbs, two English words:** ἁγιάζειν = sanctify · καθαγιάζειν = hallow.
+  ἐξομολόγησις = confession · ἐξαγόρευσις / ἐξαγορεύειν = declaration / declare (Wilson,
+  2026-10-06). Rubrical τρίτον = "three times"; "a third time" only for the third of a counted
+  series (Wilson, 2026-10-06). μύρον = myron, distinct from χρίσμα chrism (confirmed same day).
   σφραγίς = seal · χάρισμα = gift · ἱερωσύνη = priesthood · κατ᾽ εἰκόνα = "according to the
   image" · διπλοῦς = twofold · ἀναγεννᾶν = regenerate.
 - **Speaker tags, italic, one paragraph per turn:** Ἀρχιερεύς. → ***Bishop.*** · Κληρικός. →
