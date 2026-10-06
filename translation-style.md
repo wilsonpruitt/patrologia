@@ -224,11 +224,13 @@ read it with these rules). The Dialogue rules above apply where the form is dial
 - **Two sanctifying verbs, two English words:** ἁγιάζειν = sanctify · καθαγιάζειν = hallow.
   σφραγίς = seal · χάρισμα = gift · ἱερωσύνη = priesthood · κατ᾽ εἰκόνα = "according to the
   image" · διπλοῦς = twofold · ἀναγεννᾶν = regenerate.
-- **Speaker tags are the printed words, italic:** Ἀρχιερεύς. → *High Priest.* · Κληρικός. →
-  *Cleric.* — one paragraph per turn. (ἀρχιερεύς = "high priest" follows Wilson's 2026-09-24
-  ruling on 7091; the speaker in Symeon is the bishop, and the choice is flagged for him in
-  the anchor's cruces — whichever word he rules, it is ONE word, work-wide.) Δεσπότης of Christ
-  = "Master"; δέσποτα addressed to the bishop = "master" (lower case).
+- **Speaker tags, italic, one paragraph per turn:** Ἀρχιερεύς. → ***Bishop.*** · Κληρικός. →
+  *Cleric.* **Ruled by Wilson 2026-10-05:** the speaker is the archbishop of Thessalonica, so
+  Symeon's ἀρχιερεύς is "bishop" — this OVERRIDES, for this work and genre, the 2026-09-24
+  "high priest" ruling on 7091 (where ἀρχιερεύς named Christ/the Levitical office). Where
+  ἀρχιερεύς in running text means the officiating bishop, "bishop" too; where it means
+  Christ or the Aaronic priest, "high priest." Δεσπότης of Christ = "Master"; δέσποτα
+  addressed to the bishop = "master" (lower case).
 - **Chapter heads inline, arabic:** ΚΕΦΑΛ. ΛΓʹ. → **CHAPTER 33.** (Oecumenius precedent); an
   Ὅτι-subtitle renders "That …", a Περὶ-subtitle "On …". A subtitle the plate prints and
   Calfa drops is restored as `[ed:]` quoting the Greek, never silently supplied — Calfa

@@ -76,8 +76,8 @@ the closing Trinity/Word paragraph.
 title says τελεταί) · τελετή = **rite** · the fixed seven: βάπτισμα baptism · χρίσμα chrism ·
 κοινωνία communion · χειροτονία ordination · γάμος marriage · μετάνοια repentance · ἔλαιον ἅγιον
 holy oil · σφραγίς = seal · χάρισμα = gift · ἱερωσύνη = priesthood · Δεσπότης (of Christ) =
-Master; δέσποτα (to the bishop) = master · Ἀρχιερεύς. / Κληρικός. speaker tags → *High Priest.*
-/ *Cleric.* in italics as printed (ἀρχιερεύς = "high priest" per Wilson's 2026-09-24 ruling on
+Master; δέσποτα (to the bishop) = master · Ἀρχιερεύς. / Κληρικός. speaker tags → *Bishop.*
+/ *Cleric.* (**RULED by Wilson 2026-10-05: Bishop**; originally drafted *High Priest.*) in italics as printed (ἀρχιερεύς = "high priest" per Wilson's 2026-09-24 ruling on
 7091; ⚑ **flag for Wilson**: in Symeon the speaker is the bishop, and "Hierarch"/"Bishop" are
 the scholarly alternatives — one word, work-wide, decide before chunk 0001) · ΚΕΦΑΛ. xʹ →
 **CHAPTER n.** arabic (Oecumenius precedent), Ὅτι-subtitles "That …", Περὶ-subtitles "On …" ·
