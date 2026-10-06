@@ -2,6 +2,8 @@
 """Theological subset of untranslated-queue.tsv, tagged by genre (model judgment,
 2026-10-05). Exegesis, homilies, lives, histories, canon law left out on purpose.
 Writes data/pg-toc/theological-queue.tsv.
+NB 486 (Nicetas of Maroneia, Dialogi) is already shipped (src/greek/nicetas-maroneia-dialogi) and is NOT queued.
+NB 746 (De sacramentis) is the Byzantine pilot (symeon-thessalonica-de-sacramentis, set up 2026-10-05).
 NB 899 and 901 are Bessarion's own Latin versions of 898 and 900."""
 import csv, pathlib
 G = {
@@ -10,7 +12,7 @@ G = {
               531,533,663,664,683,684,745,757,758,759,760,847,848,860,861,862,863,864,835,836],
  "palamite": [704,705,706,715,716,717,718,719,726,731],
  "sacraments-liturgy": [535,746,747,749,750,751,752,753,755,761,881,887,902,903,436,807],
- "filioque-union": [2,263,267,269,272,273,383,435,486,525,526,528,529,534]+list(range(550,566))+
+ "filioque-union": [2,263,267,269,272,273,383,435,525,526,528,529,534]+list(range(550,566))+
               [566,567,568,569,570,571,573,574,575,576,577,586,604,642,657,707,708,709,710,711,712,714,
                732,733,739,806,808,810,824,825,826,827,828,829,830,831,838,839,840,841,849,851,852,853,854,855,
                877,882,885,895,896,897,898,899,900,901,906,919,920,923,924],

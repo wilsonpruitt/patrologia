@@ -137,7 +137,15 @@ for (let p = work.pages[0]; p <= work.pages[1]; p++) {
     continue;
   }
   const words = leafWords[rec.leaf];
-  const { side, split } = greekSideAndSplit(words);
+  let { side, split } = greekSideAndSplit(words);
+  // PG 155 (2026-10-05): the scan's Greek OCR is Latin-letter junk, so token-based side
+  // detection finds nothing. The column map may carry the side explicitly (`greekSide`,
+  // classified from per-half junk-character rate and checked against rendered plates);
+  // split = the leaf's mid-line.
+  if (side === null && rec.greekSide) {
+    const wm = objects[rec.leaf].match(/width="(\d+)"/);
+    if (wm) { side = rec.greekSide; split = Number(wm[1]) / 2; }
+  }
   if (side === null) {
     latinByPage.set(p, { text: '', leaf: rec.leaf, latinCol, gap: true });
     greekPlateAbsentPages.push(p);
@@ -180,6 +188,12 @@ for (const cf of chunkFiles) {
   const anchors = [...new Set([...body.matchAll(/\[(\d{4})\]/g)].map(m => m[1]))];
   const pages = anchors.map(a => pageByGreekCol.get(a)).filter(p => p !== undefined);
   pages.sort((a, b) => a - b);
+  // A chunk that opens mid-page has no anchor for that page (its anchor sits in the previous
+  // chunk), so the agent translating it would have no Latin for its first lines. Prepend the
+  // colContext page's Latin, flagged in the manifest (added 2026-10-05, PG 155 pilot).
+  const ctxPage = meta.colContext ? pageByGreekCol.get(meta.colContext) : undefined;
+  const contextPages = (ctxPage !== undefined && !pages.includes(ctxPage)) ? [ctxPage] : [];
+  if (contextPages.length) pages.unshift(ctxPage);
 
   const parts = [];
   let leaves = [];
@@ -220,7 +234,7 @@ for (const cf of chunkFiles) {
   manifestOut.push({
     chunk: meta.chunk, greekWords: meta.words, latinWords: wc,
     ratio: meta.words ? +(wc / meta.words).toFixed(3) : null,
-    pages, gapPages, leaves, altPages: altPages.map(a => a.page),
+    pages, contextPages, gapPages, leaves, altPages: altPages.map(a => a.page),
   });
 }
 

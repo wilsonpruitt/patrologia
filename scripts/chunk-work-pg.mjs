@@ -89,6 +89,36 @@ for (const l of calfa) {
 }
 const span = pages.filter(p => p.page >= work.pages[0] && p.page <= work.pages[1]);
 if (!span.length) { console.error('no pages in span'); process.exit(1); }
+// Whole-line junk (e.g. the Latin column's marginal "CAPUT <n>" words, which Calfa OCR'd as
+// Greek capitals) is dropped by EXACT line match from the work's `dropCalfaLines` registry
+// list [[page, "line"], ...]. Each entry must match exactly one line on its page or we abort;
+// the dropped lines are written to src/greek/<key>/dropped-lines.json so the drop is auditable.
+const droppedLog = [];
+if (work.dropCalfaLines) {
+  for (const [pg, text] of work.dropCalfaLines) {
+    const sp = span.find(x => x.page === pg);
+    const idxs = sp ? sp.lines.map((l, i) => (l.trim() === text ? i : -1)).filter(i => i >= 0) : [];
+    if (idxs.length < 1) { console.error(`dropCalfaLines: “${text}” not found on page ${pg}`); process.exit(1); }
+    sp.lines.splice(idxs[0], 1);
+    droppedLog.push({ page: pg, line: text });
+  }
+  console.log(`dropped ${droppedLog.length} junk lines (dropCalfaLines)`);
+}
+// A work that begins MID-PAGE (the previous work ends on the same column) names the
+// last words of the PREVIOUS work's text; everything up to and including them on the first
+// page is dropped (naming the tail, not our opening word, because an OCR-garbled first word
+// such as ΙΙαρακαλοῦμεν must still be KEPT).
+// Must match exactly once, or we abort rather than guess.
+if (work.firstPageStartsAfter) {
+  const flat = span[0].lines.filter(Boolean).join(' ').replace(/\s+/g, ' ').normalize('NFC');
+  const probe = work.firstPageStartsAfter.normalize('NFC');
+  const n = flat.split(probe).length - 1;
+  if (n !== 1) { console.error(`firstPageStartsAfter matched ${n} times on page ${span[0].page}, need exactly 1`); process.exit(1); }
+  const cut = flat.indexOf(probe) + probe.length;
+  const dropped = flat.slice(0, cut);
+  span[0].lines = [flat.slice(cut).trim()];
+  console.log(`first page trimmed: dropped ${dropped.split(/\s+/).filter(Boolean).length} words, through “${probe}”`);
+}
 // page continuity within the work
 for (let i = 1; i < span.length; i++)
   if (span[i].page !== span[i - 1].page + 1) { console.error(`page gap inside work: ${span[i - 1].page} -> ${span[i].page}`); process.exit(1); }
@@ -126,6 +156,10 @@ const isAnchor = t => /^\[\d{4}\]$/.test(t);
 const sentenceEnd = (i) => {
   const t = tokens[i];
   if (!t || !/[.·;:]$/.test(t)) return false;
+  // never cut between a chapter-heading word ("ΚΕΦΑΛ.") and its numeral ("ΞΔʹ.")
+  if (/^Κ{1,2}Ε.{0,4}\.$/.test(t) && t.length <= 8) return false;
+  // …nor between the numeral and the chapter's first sentence (the numeral token ends in ʹ.)
+  if (/^[Α-Ω]{1,5}ʹ\.$/.test(t)) return false;
   const next = tokens[i + 1];
   if (!next) return true;
   const probe = isAnchor(next) ? tokens[i + 2] : next;
@@ -156,6 +190,7 @@ if (start < tokens.length) {
 // ---- emit ----
 const outDir = path.join(ROOT, 'src/greek', work.key);
 fs.mkdirSync(outDir, { recursive: true });
+if (droppedLog.length) fs.writeFileSync(path.join(outDir, 'dropped-lines.json'), JSON.stringify(droppedLog, null, 1));
 for (const f of fs.readdirSync(outDir)) if (/^\d{4}\.md$/.test(f)) fs.unlinkSync(path.join(outDir, f));
 
 const colRe = /\[(\d{4})\]/g;
