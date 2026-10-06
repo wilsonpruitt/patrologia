@@ -931,3 +931,30 @@ chunk's `words`, which includes Calfa junk): 0009 1275/1001 = **1.27** · 0010 1
 **1.34** · 0011 1344/1005 = **1.33** · 0012 1106/824 = **1.34**. Slightly under the anchor's
 1.39: this range is narrative rubric (the rite told step by step) more than doctrinal
 dialogue, with no speaker turns at all.
+
+
+## BLIND READ — adjudicated 2026-10-05 (Opus)
+
+Three fenced readers (`data/briefs/SYMEON-BLIND-READ-R{1,2,3}.md`), cruces withheld, every
+negative in the work checked against the English (≈250 sites): **0 polarity defects.** Six
+findings, all ACCEPTED and applied; one consistency extension:
+
+| # | chunk / col | class | change |
+|---|---|---|---|
+| R1-F1 | 0000 / 181A | term | ἁγιάσῃ "hallow" → **"sanctify"** (anchor slip; καθαγιάζειν keeps "hallow") |
+| R2-F1 | 0007 / 213A–B | grammar | ellipsis of κατάκριτος made explicit: "and **so is** he who receives the infants of the impious, unless…" — the bare version read as the reverse rule; Latin *Maledictus … necnon qui … suscipit* concurs |
+| R2-F2 | 0008 / 220C | who | στρέφεται … καὶ εὐλογεῖ … ὁ ἀρχιερεύς: "**the bishop** turns toward the east and blesses God" (the candidate's acts are genitive absolutes; he was already turned east by the bishop, στρέφει) |
+| R3-F1 | 0010 / 225A | count | rubric τρίτον = **"three times"** (water breathed on): "a third time" implied two earlier breathings that are not described; Latin *ter* |
+| R3-F2 | 0010 / 225 full-width | count | same: oil sealed **"three times"** |
+| R3-F3 | 0010 / 225C ch.63 | grammar | «Ἔρχεται ὁ Θεός…» is the second object of σημαίνει (the meaning of Alleluia), not a second chant: "…signifies a sojourning of God, **and** «God comes, and praise ye him,» **having been set down and being sung** prophetically…" |
+| ext. | 0003 | count | Peter τὸν ἀρνησάμενον τρίτον: "denied **three times**" (same τρίτον ruling) |
+
+**Ruling recorded:** rubrical τρίτον = "three times"; "a third time" only where the text counts
+the third of a series (0010 "having plunged him a third time" — the third immersion — stays).
+
+**Markers re-checked at the plate by the readers, all stand:** `[lat:]` col 208, 212, 217, 220,
+229 ×2; `[sic:]` 189D χειρονοτονηθείς; `[d:]` 184C. Stint C's two `[sic:]`-free restorations and
+stints A/B's dropped lines confirmed at the plate.
+
+**Tool fix:** `scripts/pg-plate-crop.py` now writes PID-unique filenames (parallel readers had
+overwritten each other's crops — R3).

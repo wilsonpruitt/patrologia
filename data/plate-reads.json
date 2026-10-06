@@ -15846,6 +15846,450 @@
      "stint_file": "11512-PLATE-READS-0075.json"
     }
    ]
+  },
+  "symeon-thessalonica-de-sacramentis": {
+   "series": "pg",
+   "volume": 155,
+   "scan": "raw/scans/pg155/155.pdf (archive.org patrologia-volumes/155.pdf); rendered 200 dpi to raw/pg155-plates/",
+   "page_map": "Calfa page p -> cols 2p-11 | 2p-10; PDF page = p+3 (p<=100), p+5 (p>=101: the scan repeats cols 187-190). Calibrated against printed header numbers for every PDF page 96-130 (header-strip renders, 2026-10-05).",
+   "second_witness": "none: this scan's Greek OCR is unusable and no other PG 155 scan is on disk; the plate is the only witness beside Calfa.",
+   "note": "Every page of the work read whole by the translating stints (anchor 93-96 Fable; A 96-106; B 106-115; C 115-123) and the three blind readers re-opened the marker sites. Markers on these columns: [sic:] 0189 χειρονοτονηθείς, [sic:] 0212 ερωτάτου, [d:] 0184 doubled line — all zoom-confirmed.",
+   "reads": [
+    {
+     "page": 96,
+     "calfaPage": 93,
+     "cols": [
+      "0175",
+      "0176"
+     ],
+     "from": "0175",
+     "to": "0176",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "heading ΠΕΡΙ ΤΩΝ ΙΕΡΩΝ ΤΕΛΕΤΩΝ (Calfa omits); no notes"
+    },
+    {
+     "page": 97,
+     "calfaPage": 94,
+     "cols": [
+      "0177",
+      "0178"
+     ],
+     "from": "0177",
+     "to": "0178",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "subtitle Περὶ βαπτίσματος + bold 62 (Calfa omits); no notes"
+    },
+    {
+     "page": 98,
+     "calfaPage": 95,
+     "cols": [
+      "0179",
+      "0180"
+     ],
+     "from": "0179",
+     "to": "0180",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "subtitle Περὶ μετανοίας + bold 63; no notes"
+    },
+    {
+     "page": 99,
+     "calfaPage": 96,
+     "cols": [
+      "0181",
+      "0182"
+     ],
+     "from": "0181",
+     "to": "0182",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 181: top = end of chunk 0000 (A,B as anchor). Chunk 0001 opens mid-speech, no paragraph break, at \"Κατὰ χάριν δὲ\" (last line of a-half). Band C at line \"ἦν ἂν ὡς δι᾽ ὀργάνου\"; band D at line \"πιστεύον-|τας\". Bold Iassy **64** between ὄντα and Λόγον (Calfa lost it). ὅλω, φύσεως: final letter of ὅλω(ς) worn/comma-like. No notes/apparatus."
+    },
+    {
+     "page": 100,
+     "calfaPage": 97,
+     "cols": [
+      "0183",
+      "0184"
+     ],
+     "from": "0183",
+     "to": "0184",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 184 opens \"καὶ αἷμα\" (band A). Heading ΚΕΦΑΛ. ΜΒʹ + italic subtitle Διατί … ἀλλὰ τῶν ἀνθρώπων. (Calfa garbled ΜΠʹ / Δατί). Plate prints parentheses (τῇ τῶν ἀγγέλων φημὶ) and (οἶμαι) [Calfa ἣν(ομαι]. Band B at \"ἑνωθῆναι τοῖς αὐτοῦ κτίσμασιν\"; band C at \"λους ἐκ μὴ ὄντων πεποίηκε\"; band D at \"θείας αὐτοῦ σαρκός\". PLATE DITTOGRAPHY: two consecutive lines both \"νοητή τε καὶ αἰσθητή, ἕνωσις δὲ τῶν δύο ἄνθρωπος\" (Calfa carries both) -> [d:]. Bold **65** between διαβαίνει and τὴν κτίσιν (Calfa ΟΞ). Κατανοεῖ/κατανόει accent ambiguous. ἀναμαρτήτω + gap (final ς worn?). θελητικῆς (η broken). Last li"
+    },
+    {
+     "page": 101,
+     "calfaPage": 98,
+     "cols": [
+      "0185",
+      "0186"
+     ],
+     "from": "0185",
+     "to": "0186",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 185 opens \"καὶ ταπεινοφρονοῦσι\" (band A). \"τὰς ἀπαρχὰς ἔσχε τῆς ἀθανασίας, καὶ ἔχει.\" (Calfa ἕνει Καὶ). Band B at \"ἀλλοιωθήσονται\". FULL-WIDTH GREEK LINE (8a.G.2) \"Κυρίῳ ἐσόμεθα. Κατενόησας τὸ μυστήριον, ἄνθρωπε, ὡς ἐνεχώρει εἰπεῖν ἡμᾶς τῆς τοῦ Σωτῆρος\" runs into the Latin column; next line \"ἐνανθρωπήσεως ;\" — plate prints a QUESTION MARK (Calfa lost it; Latin twin col 186 swallowed this Greek line as junk). Κληρικός. (Calfa ΚλΓκίς). ΚΕΦΑΛ. ΜΓʹ + italic subtitle \"Ὅτι ὁ Χριστὸς τὰ μυστήρια καὶ εἰς ἑαυτὸν ἐδέξατο.\" Band C at \"Ἰορδάνῃ ὑπὸ τοῦ Ἰωάννου\"; band D at \"Ὅτι καὶ Κύριον καὶ Χριστὸν\" ("
+    },
+    {
+     "page": 102,
+     "calfaPage": 99,
+     "cols": [
+      "0187",
+      "0188"
+     ],
+     "from": "0187",
+     "to": "0188",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 188 opens \"λαμβάνωμεν\" (band A). Band B at \"Καὶ τότε μὲν ἐπίθεσις\" (plate τότε; Calfa πότε); band C at \"μενοι πιστοὶ τούτῳ ὀφείλουσι\"; band D at \"τινος ἄλλου τῶν ἁγίων\". CALFA DROPPED A WHOLE LINE at 188C/D: plate \"οἷον τὸ ἐκ τοῦ | σώματος τοῦ θείου καὶ μυροβλύτου Δημητρίου, ἢ | τινος ἄλλου\" — Calfa reads \"οἷον τὸ ἐκ τοῦ τινος ἄλλου\"; restored silently (13a clause 1) and logged. Plate parentheses (ὡς τὰ τῶν Λατίνων, ἢ τινῶν ἄλλων βρέφη). «Σφραγὶς δωρεᾶς Πνεύματος ἁγίου. Ἀμήν» in guillemets. Σιττὴν ἁγίας as Calfa. Πέμπτην (Calfa Πόμπτην). Last line \"Καὶ ὥσπερ οὐκ ἔσται σῶμα καὶ αἷμα Χριστοῦ"
+    },
+    {
+     "page": 103,
+     "calfaPage": 100,
+     "cols": [
+      "0189",
+      "0190"
+     ],
+     "from": "0189",
+     "to": "0190",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 189 opens \"ἱερουργηθεὶς ἄρτος\" (band A). Ps 44:8 in « »; \"Τουτέστι, Σὲ μὲν … ἐπλήρωσε (τὸ γὰρ πλήρωμα τῆς Θεότητος ἔλαβες)· οἱ μέτοχοι δὲ σοῦ\" — plate parentheses. Bold **67** between ὑπεδέξατο and ὁ Σωτήρ (Calfa lost it). Band B at \"μύρῳ ἠλείψατο εἰς τὸν ἐνταφιασμόν\". ΚΕΦΑΛ. ΜΔʹ (Calfa ΜΛʹ) + italic subtitle \"Ὅτι τὴν ἱερουργίαν αὐτὸς ἐτέλεσεν ὁ Σωτήρ.\" — NO speaker tag after it on the plate (bishop continues). «Τοῦτο γάρ, φησί, ποιεῖτε…» in « »; Ps 109 Melchizedek clause NOT in « », parenthesis (ἐν ἄρτῳ δηλονότι καὶ οἴνῳ). Band C at \"ἑκουσίως διὰ σταυροῦ\". ΚΕΦΑΛ. ΜΕʹ + italic subtitle, ag"
+    },
+    {
+     "page": 106,
+     "calfaPage": 101,
+     "cols": [
+      "0191",
+      "0192"
+     ],
+     "from": "0191",
+     "to": "0192",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 192 opens \"ἐξαιρέτως δὲ χειροτονούμενος\" (band A). Chunk 0002 ends \"ὃ σὺν αὐτῷ μὲν ἦν ἀεί,\" — plate prints a COMMA (worn, descends; zoomed) before capital Καὶ ἐκ (Calfa full stop). «Οὗτός ἐστιν…» / «Οὗτος γάρ ἐστι πάλιν, φησίν…» / «Αὐτοῦ ἀκούετε·» / «Ὁ ἀκούων ὑμῶν ἐμοῦ ἀκούει.» in « ». Band B at \"αὐτὸς ὁ Χριστὸς τοῖς μαθηταῖς\". Question \"…ἐν ἁγίῳ Πνεύματι ;\". ΚΕΦΑΛ. Μϛʹ + italic subtitle (Calfa ΚΕΒΛΛ.); no speaker tag after. Bold **68** between γὰρ and αὐτόν (Calfa ΘΒ). ΚΕΦΑΛ. ΜΖʹ (Calfa ΛΖʹ) + subtitle, band C at the subtitle line. 2 Cor 11:2 opens «Ἡρμοσάμην, λέγων … with NO closing guil"
+    },
+    {
+     "page": 107,
+     "calfaPage": 102,
+     "cols": [
+      "0193",
+      "0194"
+     ],
+     "from": "0193",
+     "to": "0194",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 193 opens \"ὀπτάνεται\" (band A). \"εἰ δ᾽ οὖν, εὐλογεῖ τὸν γάμον … καὶ τὴν παιδοποιίαν OὐK ἀποστρέφεται\" (Calfa αὐν ἀποστοέσεται — the negative is on the plate). 1 Tim 2:15 pair in « » (Σωθήσονται). \"καὶ παρὰ παίδων ᾐνεῖτο\" (zoomed; Calfa περὰ … ᾖνεῖτο). Band B at \"ἐξαγορεύσεως ἔπραξέ τι εἰς ἑαυτόν\". Cleric speech: ἅγιε δέσποτα; ends \"ἀποροῦμεν.\" ΚΕΦΑΛ. ΜΘʹ (Calfa ΑΙΘʹ) + italic subtitle; band C at the subtitle. Bold **69** between \"μετενόει ;\" and \"μᾶλλον δὲ μόνος\" (Calfa lost it). \"οὐ παρῃτεῖτο\" (Calfa αλ — negative on the plate). Band D at \"γὰρ ἅπτονται τούτου τῶν ποδῶν\" (plate Καὶ γὰρ; Ca"
+    },
+    {
+     "page": 108,
+     "calfaPage": 103,
+     "cols": [
+      "0195",
+      "0196"
+     ],
+     "from": "0195",
+     "to": "0196",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 196 opens \"τῶν λοιπῶν\" (band A). ΚΕΦΑΛ. Νʹ + italic subtitle; no speaker tag. \"Νενήστευκε γάρ, καὶ προσηύχετο\". Band B at \"λογίας, καὶ πεζοπορῶν\"; plate parentheses (ὡς ἔφη). \"εὐλογίαν παράσχῃ. Καὶ τέλος\" (plate full stop; Calfa comma). Band C at \"ἀνάστασιν καὶ ἀνάπλασιν … ἐβρά-\". \"συντριβῆς, ἐλέους\" (plate comma; Calfa stop). Chapter head ΚΕΦΑΛ. NAʹ (= 51; Calfa ΝΔʹ) + italic subtitle \"Ὅτι διὰ τὴν μετάνοιαν ἡ χάρις τοῦ λύειν καὶ δεσμεῖν τοῖς ἀρχιερεῦσι, καὶ αὕτη ἀπὸ Χριστοῦ.\" — band D at the subtitle; chunk 0003 ends on this subtitle. For chunk 0004: John 20:22-23 in « » (opens «Ἐνεφύσησε"
+    },
+    {
+     "page": 109,
+     "calfaPage": 104,
+     "cols": [
+      "0197",
+      "0198"
+     ],
+     "from": "0197",
+     "to": "0198",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 197 opens with ΚΕΦΑΛ. ΝΒʹ (band A beside the head) + three-sentence italic subtitle (Ὅτι … περιλαμβάνεται. Καὶ διὰ τί … καλεῖται. Καὶ τίς ἡ δύναμις τούτου.); no speaker tag. \"οὐκ ἀνεπίμικτον μόνον, ἀλλὰ καί\" on plate. Band B at \"Ὑπερκοσμίου γὰρ ζωῆς\"; \"ἐπείγεται Διό\" with no stop on the plate. ἀναλῦσαι (Calfa ἐναλῶσαι). Band C at \"Χριστοῦ, ἵνα ἐν αὐτῷ Χριστὸς σὺν Πατρὶ οἰκήσῃ\". ὅλον ἐκμιμεῖται; ὑποτάσσεται; ἐμμένειν. Plate parenthesis \"(τίς δὲ ὁ μηδόλως περιπεσών ;)\" — band D at that line. Mt 3:8 + 3:2 in « » («Ποιήσατε, λέγων … τῶν οὐρανῶν· »). Below the Greek, two FULL-WIDTH LATIN lines "
+    },
+    {
+     "page": 110,
+     "calfaPage": 105,
+     "cols": [
+      "0199",
+      "0200"
+     ],
+     "from": "0199",
+     "to": "0200",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 200 opens \"μετανοίας μέγα δῶρον\" (band A). παρέδειξέ τε. Mt 16:24 in « ». Bold **71** between \"πίστεως\" and \"ἵστασθαι\" (Calfa \"Τ ἵσ ασθαι\"). Band B at \"Χριστὸν βίος\". «Ἰδοὺ ἡμεῖς ἀφήκαμεν … ἠκολουθήσαμέν σοι.» — plate CLOSES this guillemet (Calfa lost the »). Mt 19:28-29 in « ». Band C at \"τῶν μοναχῶν. Καὶ ἐνεργεῖται\". «Πλὴν μὴ τὸ θέλημά μου, λέγων,» τὸ τῆς σαρκὸς δηλονότι, «ἀλλὰ τὸ σὸν γενέσθω,» ἤτοι τὸ τοῦ Πατρὸς θεῖον ἓν θέλημα καὶ αὐτοῦ· καὶ ἀλλαχοῦ. Band D at \"ἄξιος. » Καὶ « Ὃς οὐκ ἀποτάσσεται\". Mt 19:21 «Εἰ θέλεις … ἀκολούθει μοι· »; «Τίμα τὸν πατέρα σου καὶ τὴν μητέρα σου ;» (questi"
+    },
+    {
+     "page": 111,
+     "calfaPage": 106,
+     "cols": [
+      "0201",
+      "0202"
+     ],
+     "from": "0201",
+     "to": "0202",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 201 opens \"νοητὴς ὢν ἐκεῖνος\" (band A). \"παρ᾽ οἷς οὐδὲν προσπαθές\" (Calfa Κοὐδέν: band letter junk). ΚΕΦΑΛ. ΝΔʹ + italic subtitle \"Τί τὸ «Ἄφες τοὺς νεκροὺς θάψαι τοὺς ἑαυτῶν νεκρούς.»\" (Calfa lost Τί). CALFA DROPPED WORDS: plate \"Ἀνήγαγε γὰρ αὐτὸν εἰς τὴν ἀφθαρσίαν, καὶ τοῖς ἀθανάτοις συνῆψεν ἀγγέλοις\" — Calfa \"Ἀνήγαγε γὰρ καὶ τοῖς ἀθανάτοις\"; restored silently (13a cl.1). Chunk 0004 ends \"διὰ τὸ ἄσχετον.\" For stint B (chunk 0005): next sentence \"Οὐ νεκρός, φησίν, εἶ· διὸ καὶ περὶ νεκρῶν τῶν λυομένων πατέρων μὴ μερίμνα.\"; ΚΕΦΑΛ. ΝΕʹ (band B beside it) subtitle Τί τὸ «Οὐδεὶς βαλὼν τὴν χεῖρα"
+    },
+    {
+     "page": 112,
+     "calfaPage": 107,
+     "cols": [
+      "0203",
+      "0204"
+     ],
+     "from": "0203",
+     "to": "0204",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 204 whole in 0005; bands A (top, ψαλμῳδιῶν) B (at ΚΕΦΑΛ. Νϛʹ) C (πευον. Ἰδοὺ line) D (τοῖς ἀποστολικοῖς … φρονοῦντες); ch.56 subtitle present (Ὅτι καὶ τὸ τοῦ ἁγίου ἐλαίου ἤτοι εὐχελαίου μυστήριον …); bold 73 before ἐγερεῖ (Calfa ἦᾳ); readings ἔπειτα, ἐξέβαλλον. (period), Θεάδελφος, πρεσβυτέρους, πεποιηκώς, ἀφεθήσεται, Οὗτοι γάρ, βοῶντος, ἐγειρομένοις, ἠλείψατο καὶ ἔλαιον (acc.), ἐνταφιασμὸν ἦν αὐτοῦ (ἦν slightly blurred, construes), μύρον; no apparatus"
+    },
+    {
+     "page": 113,
+     "calfaPage": 108,
+     "cols": [
+      "0205",
+      "0206"
+     ],
+     "from": "0205",
+     "to": "0206",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 205 split: 0005 to φῶτα προσφέρομεν., then 0006 from Ἐπεὶ δὲ; bands A (top, οἰκίᾳ Σίμωνος) B (Ὅτι ᾧ / τὸ πλεῖον line) C (τὸ θεῖον / καὶ ἱλαρὸν line) D (δι᾽ οὗ καὶ τοῦ κατακλυσμοῦ line, ch.57); ΚΕΦΑΛ. ΝΖʹ (Calfa Να·) subtitle Διατί καὶ ἔλαιον ἐν τῷ ἁγίῳ καὶ μεγάλῳ μύρῳ, καὶ ἔλαιον ἐν τῷ εὐχελαίῳ.; bold 74 after στόματι (Calfa Ἅ); readings ἐξέματτεν, ἣ καὶ τοῖς δάκρυσιν, εἴληφεν, Εἰσῆλθόν σου, ἔδωκας, αὕτη, Οὗ χάριν, Ὧ δὲ ὀλίγον, Βλέπεις, ἱλαρότητος, χρίσασα, σωτηρίους, κἀκεῖθεν, ὃ τὴν σφραγῖδα, κἀκεῖ, ζωοποιοῦντος, ἐδήλου, τοῦτο … προσαγόμενον ἁγιάζεται, ἱερῶν; col ends at χρείαν; no appara"
+    },
+    {
+     "page": 114,
+     "calfaPage": 109,
+     "cols": [
+      "0207",
+      "0208"
+     ],
+     "from": "0207",
+     "to": "0208",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 208 whole in 0006; opens directly Κληρικός. — no heading on the Greek column (Calfa ζΑΡΟΤ Γviii. at [0208] is Latin-column CAPUT junk); bands A (Κληρικός line) B (μεν λαβεῖν λόγον line) C (εὐσεβέσιν εὐθὺς line) D (μετέχειν, ἢ ἐνδοιάζειν line); ch.58 ΝΗʹ and ch.59 ΝΘʹ subtitles present; no bold Iassy numeral on this page; readings ἔχομεν (χ faint), ἕκαστον, εὐλαβείας, δυνατὸν ἄρα, ἡμεῖς, πιστεύομεν, Χριστοῦ, ἑκάστου, βαπτίσματος (lower-case), μυστηρίων., πρὸ, τοῦ Πνεύματος, εὐσεβέσιν, ἡμῶν, βρέφους, παρὰ τοῦ ἱερέως, δοξολογεῖ, ῥύπου, βαπτίσματος, διὰ τὸν λόγον; no apparatus; Latin column ch"
+    },
+    {
+     "page": 115,
+     "calfaPage": 110,
+     "cols": [
+      "0209",
+      "0210"
+     ],
+     "from": "0209",
+     "to": "0210",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 209 split: 0006 to ἐπανέρχεται τῇ μητρί., 0007 from Τῇ τεσσαρακοστῇ (last 4 lines); bold 75 after ἀπολύσας, before ἀπέρχεται (Calfa Ξ); bands A (σωτήριον βάπτισμα line) B (σει, τὸ θεῖον βάπτισμα line) C (καθὰ διδασκόμεθα. Ἐν ταύτῃ line) D (ἡμῖν διὰ τοῦ βαπτίσματος line); ΚΕΦΑΛ. Ξʹ (Calfa Σʹ) subtitle Ὅτι καὶ ἐν τῇ ὀγδόῃ ἡμέρᾳ ὁ Κύριος τὸ ὄνομα εἴληφεν, Ἰησοῦς κληθείς.; readings πρὸ τῶν πυλῶν, δίδωσιν, βαπτίζεται., ἐρρύσατο (no comma before it on plate), Ὃ σημεῖον (Calfa lost Ὃ), Ἰουδαῖοι, ὀγδόῃ, εἶναι, καὶ ἔτι οὐκ ἀπαθὲς (Calfa παι), ὄνομα λαμβάνει, σημειωθὲν, καρδίαν, πρὸ τῶν θυρῶν στὰς; "
+    },
+    {
+     "page": 116,
+     "calfaPage": 111,
+     "cols": [
+      "0211",
+      "0212"
+     ],
+     "from": "0211",
+     "to": "0212",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 212 whole in 0007 (Calfa ΟἈΡΓΤ ΙΚ. before [0212] = Latin CAPUT junk); last 3 Greek lines of ch.60 run FULL WIDTH across both columns (ρίῳ ποιήσας … ταῦτα μὲν οὕτως.) — read on a full-width strip, Calfa agrees; bands A (εἰσελθεῖν) line) B (βρέφος βεβαπτισμένον line) C (βρέφος. Ἀλλ᾽ εἰ φόβος line) D (ἀφορκισμοὺς εἶπον line); bold 76 after Ἰσραήλ, before γεγεννημένον (Calfa ἧξ); ΚΕΦΑΛ. ΞΑʹ subtitle Θεωρία περὶ τῶν τελουμένων ἐν τῷ θείῳ βαπτίσματι. (Calfa truncated βαπτί + ΟΗΤίι junk); ⚑ PLATE DEFECT: Τὰ τοῦ ερωτάτου — zoomed, the ι with its breathing is absent from the type, gap visible → [si"
+    },
+    {
+     "page": 117,
+     "calfaPage": 112,
+     "cols": [
+      "0213",
+      "0214"
+     ],
+     "from": "0213",
+     "to": "0214",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 213 whole in 0007; bands A (κίαν ἔχει line) B (σιν, ἀλλὰ σκοτίζουσι line) C (σὺν τῷ ἀναδόχῳ … ἑκου- line) D (Τριάδος ἕνα Χριστόν line); bold 77 between καθαρτικὸν, and καὶ ἀναγεννῶν (Calfa ἢ); ΚΕΦΑΛ. ΞΒʹ subtitle present (ὀρθόδοξον εἶναι καὶ εὐσεβῆ); readings ἑκουσίως, εἰς Χριστόν, ἀναδεχόμενος, διώκτας, αἱρετικούς, εἰς ἀναδοχὴν (οἴμοι!) τῶν τέκνων αὐτῶν τινες διά τι προσκαλοῦνται ἀνθρώπινον (Calfa garbled the parenthesis), σκότος; (qm), πιστῷ, γέγραπται; (qm), ἀσεβῶν, πρότερον καθομολογήσωσιν, ἀναγεννῶν, Χριστῷ, (εἰ γὰρ τοῦτο … ὑποκρύπτεται) in parentheses, βρέφος, μήποτε, σὺν, ἑκουσίως, "
+    },
+    {
+     "page": 118,
+     "calfaPage": 113,
+     "cols": [
+      "0215",
+      "0216"
+     ],
+     "from": "0215",
+     "to": "0216",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 216 split: 0007 to τὴν δουλείαν ὑποδεικνὺς τῷ Θεῷ., 0008 from Διὰ τοῦτο τοίνυν; bands A (θησι τὴν χεῖρα line, 0007) B (καὶ τὴν θεοΰφαντον line, 0008) C (παραπεσόντα Ἀδάμ line) D (οὗ ἐκπέπτωκε line); bold 78 between τὴν πρὶν and ἀπολέσας (Calfa ἦ); readings ἐπιλέγει. (period), γυμνὸν παρίστησι, (ἐκεῖθεν (open paren), τῶν παθῶν, διὰ τὸ γυμνόν, θεοΰφαντον, Ἵνα, κεφαλαιωδῶς, καὶ αὖθις, παραπεσόντα, ἑκούσιον, τῶν δεσμῶν, Χριστῷ, ἀνατολάς, εἷς, Χριστός, Θαιμάν, ἀρχιερέως, φυγαδευθείσης. (period; Calfa comma), ἁγιασθῇ, (comma, slightly uncertain), ἀνομολογῇ, καρδίαν, ὁρᾷ; no apparatus; Latin colu"
+    },
+    {
+     "page": 119,
+     "calfaPage": 114,
+     "cols": [
+      "0217",
+      "0218"
+     ],
+     "from": "0217",
+     "to": "0218",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 217 whole in 0008; bands A (μένῃ. Μετὰ τοῦτο line) B (Καὶ φεύγειν / ῥεάζειν lines) C (καὶ ὅτι νοῦς καὶ λόγος line) D (κεκρυμμένον ἐν ἑαυτῷ line); bold 79 between βεβαιοῖ τε and καὶ τελειοῖ (Calfa lost it); ⚑ LAST LINE OF THE COLUMN DROPPED BY CALFA: φα|νερὰν γὰρ καὶ βεβαίαν εἶνα(ι) δεῖ τοῦ κακοῦ τὴν ἀποτα|γήν (continues col 220; Calfa φα [0220] ἵήν) — zoomed, vowel of -νερ?ν and final ι of εἶναι unclear, sense certain; readings κρύπτῃ, αὐτῷ, μένῃ, Τριάδος. (period), Αὐτῇ γὰρ, ἁγιάζεται, τελειωθῆναι, Κοινωνίᾳ, ἡ τρίτη ἀφορκισμὸς οὖσα, ἐκδιώκει, Θεόν ἐστιν, τὸ βεβαιότερον ἔργον, κατ᾽ εἰκόνα "
+    },
+    {
+     "page": 120,
+     "calfaPage": 115,
+     "cols": [
+      "0219",
+      "0220"
+     ],
+     "from": "0219",
+     "to": "0220",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "col 220 split: 0008 to τῇ τῶν ἀνθρώπων σωτηρίᾳ., stint C from Καὶ οὕτω κρατήσας; opens with ἀποτα|γήν, ὁ ἀρχιερεύς, «Ἐμφύσησον αὐτῷ,» φησί (Calfa ἵήν); bands A (γήν, ὁ ἀρχιερεύς line) B (ἅμα δὲ καὶ εἰς τιμήν line) C (καὶ προσκυνήσαντος τρίς line) — D (σαρκωμένον line) falls in stint C; no bold numeral in 0008 portion of this page; readings ἀπόρριψον, ἀθέτησον (stop after it faint), Εἶτα, Εἰπέ, Καὶ συντάσσομαι τῷ Χριστῷ, τρισήλιον, εἰρήκαμεν, σωθήσεται, παρρησίᾳ, ὄντως ὄντα, σάρκωσιν., «Συνετάξω τῷ Χριστῷ;», «Συνεταξάμην αὐτῷ,», ὃ τὴν τοῦ Χριστοῦ, ὁ ἀρχιερεύς τὸν πάντας; no apparatus; Latin col"
+    },
+    {
+     "page": 121,
+     "calfaPage": 116,
+     "cols": [
+      "0221",
+      "0222"
+     ],
+     "from": "0221",
+     "to": "0222",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 221 opens with [b: A] at ἐστὶν ὁ μέλλων (gutter on right). Bold Iassy **80** before Θεῷ, ἔπειτα (Calfa βΟ). [b: B] at βαπτιζομένου ἐν Πνεύματι θεογενεσίᾳ; [b: C] at ἔργον τοῦ θειοτάτου βαπτίσματος (line ending πρότε-); [b: D] at καὶ τῆς ἀναστάσεως τὴν ἀθανασίαν. Plate: ἐστίν; μέλλων; ὥσπερ; προσφέρει τοῦτον; ἐξαιρέτως; παρατυχοῦσι; τελουμένων; τοῦτον; τοῦ βαπτιζομένου; γνωρίμοις; θείου; δαιμόνια; ἐχθροῦ; πίστει καὶ ἔργοις; διασώσει; ἔργον; Ἐκκλησία; τῇ θείᾳ; Σαββάτῳ; προφητῶν; ἐστι; υἱοθεσία; θάνατον; ὁ καιρός; ὑπὲρ ἡμῶν ἀποθανών; ἐστὶ τὸ κέντρον; Ἡσαΐας; Αὐτός; Χριστός; καταργήσας; δι᾽ ἑα"
+    },
+    {
+     "page": 122,
+     "calfaPage": 117,
+     "cols": [
+      "0223",
+      "0224"
+     ],
+     "from": "0223",
+     "to": "0224",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 224 opens with [b: A] at ἡμεῖς αὐτόν. [b: B] at προσερχόμενον. Καὶ ἵσταται; bold Iassy **81** before Ἅγιον γὰρ τὸ Πνεῦμα (Calfa ΑΠ Δγιον); [b: C] at προσευχῶν καὶ αἰτήσεων (Calfa Κπροσευχῶν = band C glued); [b: D] at Θεοῦ καὶ ἀφθάρτου. Ὢ τῆς μεγάλης χάριτος (0009). Chunk 0010 opens in band D at Εἶτα πρὸς τὸν σαρκωθέντα — no letter falls in 0010 on this page. Plate: ἡμεῖς; ἐκδεχόμεθα; ἀφθαρσίαν; βαπτίσματος; Ὁ γὰρ μὴ βαπτισθεὶς οὐ σωθήσεται; λαμπρότητος; χρή; ἀνάπλασιν; ἱερᾷ κολυμβήθρᾳ; Χριστόν; ἀρχιερεύς; τὸν ἄρτι; ζητῶν; ἄλλους; ἁμαρτίαις; ἐξαιτεῖται; Χριστοῦ; ἀφθάρτου; Ὢ … ὢ … ὢ (three e"
+    },
+    {
+     "page": 123,
+     "calfaPage": 118,
+     "cols": [
+      "0225",
+      "0226"
+     ],
+     "from": "0225",
+     "to": "0226",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 225: [b: A] at τοῦ Πατρὸς καὶ τοῦ Πνεύματος (first line); [b: B] at τούτῳ δυνάμενον, καὶ φωτὸς τέκνα. From γενέσθωσαν ἡμῖν (end of the prayer) the Greek runs FULL-WIDTH across both columns down to τὸ Ἀλληλούϊα; then two columns resume with ΚΕΦΑΛ. ΞΓʹ / CAPUT LXIII, [b: C] in the gutter beside the chapter head. No D on this page. CALFA DROPPED TWO FULL-WIDTH RUNS: (1) γενέσθωσαν ἡμῖν εἰς ὑγίειαν ψυχῆς τε καὶ σώματος.» Καὶ ἀναστάς, δεικνὺς ὅτι πεσόντας ἡμᾶς (before Χριστὸς ἀνήγειρεν) — closes the «Σὺ …» prayer, which Calfa leaves unclosed; (2) καθα-|ροῦ τῷ ἀρχιερεῖ, ἢ τῷ ἱερεῖ, εἰ μὴ πάρεστι"
+    },
+    {
+     "page": 124,
+     "calfaPage": 119,
+     "cols": [
+      "0227",
+      "0228"
+     ],
+     "from": "0227",
+     "to": "0228",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 228: [b: A] at λέγει· νῦν δέ (first line); [b: B] at ἔλαιον ἀγαλλιάσεως; [b: C] at καὶ γυμνὸς ὤν, οὐκ ᾐσχύνετο; [b: D] at -λειῶν, καὶ τὰς τρεῖς ὑποστάσεις. Bold Iassy **83** before τε καὶ τὸ ἔνδυμα (Calfa ἀπολαμβάνειβ). The last three lines before ΚΕΦΑΛ. ΞΔʹ run FULL-WIDTH: Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, ὅπερ ἡ ὁμολογία ἐστὶ τῶν τριῶν θείων ἀδιαιρέτων καὶ ἀσυγχύτων προσώπων, ἅμα δὲ διὰ … ἀνά-|στασιν — Calfa garbled the first line to ξῆγςαγῆοης,.ποπςποςολλα; restored from the plate. ΚΕΦΑΛ. ΞΔʹ (64) with subtitle Ὅτι τὸ, «Βαπτίζεται ὁ δοῦλος τοῦ Θεοῦ,» τοῦ, «Βαπτίζω ἐγὼ τὸν δοῦλον τοῦ Θεοῦ,» "
+    },
+    {
+     "page": 125,
+     "calfaPage": 120,
+     "cols": [
+      "0229",
+      "0230"
+     ],
+     "from": "0229",
+     "to": "0230",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 229: [b: A] at ἀφ᾽ ἑαυτοῦ τὸν βαπτίζοντα μόνον (first line); [b: B] at Σωτῆρος βαπτίσματι καὶ Πνεύματος κάθοδος; [b: C] in the gutter between τῶν χαρισμάτων τοῦ Πνεύ-|ματος; [b: D] beside τος ἁγίου. Ἀμήν. The John 1:16 line runs full-width (Calfa has it whole). ΚΕΦΑΛ. ΞΕʹ (65), subtitle Τί παρέχει τῷ βαπτιζομένῳ τὸ χρίσμα, ἤτοι τὸ μύρον. (Calfa πσαγ έχει … ἢοι » χιύρον). ΚΕΦΑΛ. Ξϛʹ (66), subtitle Ὅτι δυνάμει πᾶς βαπτισθεὶς … κατὰ καιρὸν ἀποκαλυπτόμενα, πλὴν τῆς ἱερωσύνης. Bold Iassy **84** after ὡς, before τοῦ Θεοῦ Πατρὸς Λόγος (Calfa ἦό). Calfa DROPPED ἁγίου Πνεύματος. at the end of ch. 6"
+    },
+    {
+     "page": 126,
+     "calfaPage": 121,
+     "cols": [
+      "0231",
+      "0232"
+     ],
+     "from": "0231",
+     "to": "0232",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 232: [b: A] at χειροτονίᾳ χαρίζεται (first line); [b: B] at χιτῶνα, ὃς εὐλογεῖται; [b: C] beside the subtitle of ΚΕΦΑΛ. ΞΖʹ (67) Διατί ἡ κουρὰ ἐν τοῖς βαπτιζομένοις τελεῖται, καὶ τὸ ἔνδυμα τοῦ κουκουλίου καὶ τοῦ ἀναβόλου.; [b: D] at οὐχ ὡς ἔτυχε ῥίπτει. Bold Iassy **85** before καθαρότητος (Calfa Αῆκαθαρότητος). Calfa DROPPED -λείας. (βασι-|λείας.) at the end of ch. 66 — restored. Plate: ἀῤῥεμβάστως; ἀποκαλύψεων ἱερῶν; Ἅγιος γὰρ ἀναδείκνυται; τοῦτον; τέκνον ἔτι σώματος εἶναι (σώματος as printed); Διατί; ἀπερικαλύπτως; Παῦλος; σφραγῖδα; ἀποῤῥίπτῃ; ὀφείλει; λευκόν; τοῦ θείου; ἵσταται. Εἰ μέν"
+    },
+    {
+     "page": 127,
+     "calfaPage": 122,
+     "cols": [
+      "0233",
+      "0234"
+     ],
+     "from": "0233",
+     "to": "0234",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 233: [b: A] at τοῦ, οἱ μὲν τῆς ἐκκλησίας ὑμνῳδοί (first line, completing χάριν αὐ-|τοῦ from col 232); [b: B] at ἑξῆς τοῦ Ψαλμοῦ τῶν ὑμνῳδῶν λεγόντων, αὐτὸς τόν; [b: C] at the line-turn ὡς ὁ | ἠγαπημένος φησί; [b: D] at σθέντι τῆς κοινωνίας (2nd line of Ὁ μὲν οὖν ἀρχιερεύς). Chunk 0011 ends ἐπὶ τῷ γεγεννημένῳ Πνεύματι θείῳ ἐξ αὐτῆς. (Calfa νεύματι); 0012 opens Καὶ τό, «Ὅσοι …» in band A. Two FULL-WIDTH runs: βαπτισθέντα προπορευόμενος, τοῦ θυσιαστηρίου ἔμπροσθεν φέρει, κἀκεῖ τῆς κοινωνίας αὐτῷ τῆς φρικτῆς μεταδίδωσι. and κός τε καὶ αἵματος … Ὅτι οὗτός ἐστιν ὁ ἀληθινὸς Θεὸς καὶ ἡ ζωὴ ἡ αἰώνι"
+    },
+    {
+     "page": 128,
+     "calfaPage": 123,
+     "cols": [
+      "0235",
+      "0236"
+     ],
+     "from": "0235",
+     "to": "0236",
+     "depth": "full",
+     "date": "2026-10-05",
+     "corners_checked": true,
+     "found": "Col 236: [b: A] at ἡμέρας ἐνδεδῦσθαι (first line); bold Iassy **86** before δι᾽ αὐτοῦ ἀπολούσασθαι (Calfa lost it); [b: B] at τοῖς ναοῖς, καὶ καθαρεύειν; [b: C] at Καὶ μὴ κατά τινας ἀμελεῖν (first line of ch. 69 text); [b: D] at the line-turn αὕτη ἐστὶν ἡ ζωὴ ἡ αἰώνιος. Καὶ ὥσπερ «ὁ μὴ ἀνα-|γεννηθείς. The two lines ἡμέραις, ἰδιαζόντως … τὸ βρέφος. / Οὕτω γὰρ … ὑπὸ τοῦ Χριστοῦ. run FULL-WIDTH (Calfa has them; drops the stop after βρέφος). ΚΕΦΑΛ. ΞΘʹ (69), subtitle Κατὰ Λατίνων, ὅτι οὐ δεῖ ἀφιστᾷν τὰ βρέφη τῆς κοινωνίας. (Calfa mangled + Latin-column junk οοκνα αιοι …). The work ends at πῶν ἐροῦ"
+    }
+   ]
   }
  }
 }
