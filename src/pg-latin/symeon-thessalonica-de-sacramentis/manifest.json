@@ -6,17 +6,21 @@
   "greekPlateAbsentPages": [],
   "gate": {
     "aEveryChunkNonEmpty": true,
-    "bWorkAggregateRatio": 1.262,
-    "bPerChunkOutOfBand": [],
+    "bWorkAggregateRatio": 1.325,
+    "bPerChunkOutOfBand": [
+      4,
+      7,
+      11
+    ],
     "bNote": "Band is 0.85–1.6x by genre (amended from 0.9–1.3x, pg-paired-pilot.md §8a Q1: healthy homily twins run ~1.48 aggregate, outside the old band). Sub-0.5x is presumptive wrong column. Per-chunk ratio swings are expected where chunks cut mid-page (pages are the atomic Latin-crop unit, chunk boundaries are not page boundaries) or where a page has no scan leaf (gapPages). Work-level aggregate ratio is the reliable stat for gate (b); per-chunk flags are diagnostic, not independent failures, UNLESS a chunk reads near 0x (wrong column/map drift signal per spec). The band is a wrong-column detector, not a quality gate — it cannot see line-interleave (§8a Q1: the per-work eye spot-check must read for CONTINUOUS PROSE, not mere word-count presence).",
     "cSpotChecks": "see final harvest report — not auto-logged by this script"
   },
   "chunks": [
     {
       "chunk": 0,
-      "greekWords": 1000,
-      "latinWords": 1017,
-      "ratio": 1.017,
+      "greekWords": 1018,
+      "latinWords": 1178,
+      "ratio": 1.157,
       "pages": [
         93,
         94,
@@ -35,9 +39,9 @@
     },
     {
       "chunk": 1,
-      "greekWords": 1009,
-      "latinWords": 1118,
-      "ratio": 1.108,
+      "greekWords": 1029,
+      "latinWords": 1256,
+      "ratio": 1.221,
       "pages": [
         96,
         97,
@@ -56,13 +60,14 @@
     },
     {
       "chunk": 2,
-      "greekWords": 1010,
-      "latinWords": 1215,
-      "ratio": 1.203,
+      "greekWords": 1041,
+      "latinWords": 1653,
+      "ratio": 1.588,
       "pages": [
         98,
         99,
-        100
+        100,
+        101
       ],
       "contextPages": [
         98
@@ -71,27 +76,26 @@
       "leaves": [
         100,
         101,
-        102
+        102,
+        105
       ],
       "altPages": []
     },
     {
       "chunk": 3,
-      "greekWords": 1045,
-      "latinWords": 1665,
-      "ratio": 1.593,
+      "greekWords": 1004,
+      "latinWords": 1248,
+      "ratio": 1.243,
       "pages": [
-        100,
         101,
         102,
         103
       ],
       "contextPages": [
-        100
+        101
       ],
       "gapPages": [],
       "leaves": [
-        102,
         105,
         106,
         107
@@ -100,9 +104,9 @@
     },
     {
       "chunk": 4,
-      "greekWords": 1015,
-      "latinWords": 1623,
-      "ratio": 1.599,
+      "greekWords": 1032,
+      "latinWords": 1684,
+      "ratio": 1.632,
       "pages": [
         103,
         104,
@@ -123,9 +127,9 @@
     },
     {
       "chunk": 5,
-      "greekWords": 1004,
-      "latinWords": 1158,
-      "ratio": 1.153,
+      "greekWords": 1001,
+      "latinWords": 1045,
+      "ratio": 1.044,
       "pages": [
         106,
         107,
@@ -144,9 +148,9 @@
     },
     {
       "chunk": 6,
-      "greekWords": 1002,
-      "latinWords": 1085,
-      "ratio": 1.083,
+      "greekWords": 1033,
+      "latinWords": 1148,
+      "ratio": 1.111,
       "pages": [
         108,
         109,
@@ -165,9 +169,9 @@
     },
     {
       "chunk": 7,
-      "greekWords": 1052,
-      "latinWords": 1594,
-      "ratio": 1.515,
+      "greekWords": 1028,
+      "latinWords": 1768,
+      "ratio": 1.72,
       "pages": [
         110,
         111,
@@ -188,9 +192,9 @@
     },
     {
       "chunk": 8,
-      "greekWords": 1103,
-      "latinWords": 1254,
-      "ratio": 1.137,
+      "greekWords": 1054,
+      "latinWords": 1345,
+      "ratio": 1.276,
       "pages": [
         113,
         114,
@@ -210,8 +214,8 @@
     {
       "chunk": 9,
       "greekWords": 1001,
-      "latinWords": 1219,
-      "ratio": 1.218,
+      "latinWords": 1310,
+      "ratio": 1.309,
       "pages": [
         115,
         116,
@@ -231,8 +235,8 @@
     {
       "chunk": 10,
       "greekWords": 1038,
-      "latinWords": 1269,
-      "ratio": 1.223,
+      "latinWords": 1283,
+      "ratio": 1.236,
       "pages": [
         117,
         118,
@@ -252,8 +256,8 @@
     {
       "chunk": 11,
       "greekWords": 1005,
-      "latinWords": 1544,
-      "ratio": 1.536,
+      "latinWords": 1649,
+      "ratio": 1.641,
       "pages": [
         119,
         120,
@@ -275,8 +279,8 @@
     {
       "chunk": 12,
       "greekWords": 824,
-      "latinWords": 777,
-      "ratio": 0.943,
+      "latinWords": 806,
+      "ratio": 0.978,
       "pages": [
         122,
         123

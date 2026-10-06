@@ -160,6 +160,8 @@ const sentenceEnd = (i) => {
   if (/^Κ{1,2}Ε.{0,4}\.$/.test(t) && t.length <= 8) return false;
   // …nor between the numeral and the chapter's first sentence (the numeral token ends in ʹ.)
   if (/^[Α-Ω]{1,5}ʹ\.$/.test(t)) return false;
+  // …nor right after a dialogue speaker tag (Ἀρχιερεύς. / Κληρικός., OCR variants included)
+  if (/(ρε[υύὺ]ς|ρικ[οό]ς)\.$/.test(t)) return false;
   const next = tokens[i + 1];
   if (!next) return true;
   const probe = isAnchor(next) ? tokens[i + 2] : next;

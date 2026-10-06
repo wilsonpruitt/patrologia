@@ -144,7 +144,17 @@ for (let p = work.pages[0]; p <= work.pages[1]; p++) {
   // split = the leaf's mid-line.
   if (side === null && rec.greekSide) {
     const wm = objects[rec.leaf].match(/width="(\d+)"/);
-    if (wm) { side = rec.greekSide; split = Number(wm[1]) / 2; }
+    if (wm) {
+      side = rec.greekSide;
+      // split at the widest empty gap in word left-edges within the middle third of the leaf —
+      // a plain mid-line clipped the Latin column's gutter-side words (PG 155 col 178 lost
+      // *Communio* from the list of seven; caught at the plate 2026-10-05).
+      const W = Number(wm[1]);
+      const xs = words.map(w => w.x).filter(x => x > W * 0.33 && x < W * 0.67).sort((a, b) => a - b);
+      let best = W / 2, bestGap = 0;
+      for (let i = 1; i < xs.length; i++) { const g = xs[i] - xs[i - 1]; if (g > bestGap) { bestGap = g; best = (xs[i] + xs[i - 1]) / 2; } }
+      split = xs.length > 10 ? best : W / 2;
+    }
   }
   if (side === null) {
     latinByPage.set(p, { text: '', leaf: rec.leaf, latinCol, gap: true });

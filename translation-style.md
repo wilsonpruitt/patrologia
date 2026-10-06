@@ -206,6 +206,45 @@ genre of the eventual PG queue (Theophylact, Oecumenius, Cyril).
 - **Ratio:** the anchor ran 1.35× (chronicle 1.25 · lemma-gloss 1.35 ·
   dialogue 1.37 · homily 1.49).
 
+### Catechetical-liturgical exposition (from the Symeon of Thessalonica anchor, 2026-10-05 — Fable)
+
+Extends the Greek register for the genre of Symeon's *Περὶ τῶν ἱερῶν τελετῶν* (PG 155): a
+bishop teaching clergy, in short numbered chapters inside a running dialogue — doctrine and
+rite in one voice. Calibrated on `symeon-thessalonica-de-sacramentis` 0000 (the anchor pair;
+read it with these rules). The Dialogue rules above apply where the form is dialogue.
+
+- **μυστήριον = "mystery," never "sacrament."** "Sacrament" is the LATIN column's word
+  (*sacramentum*) and importing it is Allatius leaking into the English. The work's own
+  title calls them τελεταί — **τελετή = "rite."** So the English title is *On the Sacred
+  Rites*; the Latin *De sacramentis* is cited beside it, not translated as the title.
+- **The seven, fixed for the whole work:** βάπτισμα baptism · χρίσμα chrism · κοινωνία
+  communion · χειροτονία ordination · γάμος marriage · μετάνοια repentance · ἔλαιον ἅγιον
+  holy oil. One word each, never varied (the dialogue rule's logic: the exposition IS these
+  terms). μετάνοια is "repentance," not "penance" — *poenitentia* is the Latin column again.
+- **Two sanctifying verbs, two English words:** ἁγιάζειν = sanctify · καθαγιάζειν = hallow.
+  σφραγίς = seal · χάρισμα = gift · ἱερωσύνη = priesthood · κατ᾽ εἰκόνα = "according to the
+  image" · διπλοῦς = twofold · ἀναγεννᾶν = regenerate.
+- **Speaker tags are the printed words, italic:** Ἀρχιερεύς. → *High Priest.* · Κληρικός. →
+  *Cleric.* — one paragraph per turn. (ἀρχιερεύς = "high priest" follows Wilson's 2026-09-24
+  ruling on 7091; the speaker in Symeon is the bishop, and the choice is flagged for him in
+  the anchor's cruces — whichever word he rules, it is ONE word, work-wide.) Δεσπότης of Christ
+  = "Master"; δέσποτα addressed to the bishop = "master" (lower case).
+- **Chapter heads inline, arabic:** ΚΕΦΑΛ. ΛΓʹ. → **CHAPTER 33.** (Oecumenius precedent); an
+  Ὅτι-subtitle renders "That …", a Περὶ-subtitle "On …". A subtitle the plate prints and
+  Calfa drops is restored as `[ed:]` quoting the Greek, never silently supplied — Calfa
+  dropped two of nine in the anchor chunk alone.
+- **Migne's bold Iassy-edition page numbers** (`62`, `63` … in the Greek column) are kept
+  verbatim in bold at the plate position (Wolbero/Gravius precedent). Calfa loses or garbles
+  them (`ΚΘ` for 63): read them off the plate.
+- **The Latin column's marginal CAPUT numbers are NOT text.** Calfa OCRs them into the Greek
+  stream as capital junk (ΟΛΡΟΤ ΧΙΧ. = CAPUT XIX); they are dropped at chunking by exact-line
+  list (`dropCalfaLines`) and any residue inside a line is dropped silently and logged.
+- **Pattern 17 inside one speech:** the bishop shifts between ὑμεῖς (the clergy) and σύ (the
+  one asking) in consecutive sentences — carry both as printed (you / thou); never level.
+- **Scripture as printed in « »**, LXX forms kept (ἐκίσσησεν = "conceive," Ps 50:7 as Symeon
+  quotes it). No `[n:]` layer: these PG pages print no apparatus at all.
+- **EN/Greek ≈ 1.39** (anchor actual) — budget by that, not by the chronicle's 1.25.
+
 ## The Song of Songs — each commentary stands on its own (locked, Wilson 2026-07-30)
 
 Sixteen PL commentaries expound the same book, quoting the same lemmata. When two
