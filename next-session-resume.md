@@ -1,6 +1,6 @@
 # Next session — resume note
 
-## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-05, latest) — SYMEON OF THESSALONICA, *ON THE SACRED RITES* (PG 155, 175–236) · ✅ TRANSLATED, BLIND-READ, BUILT, PREFLIGHT OK · ⛔ DEPLOY + PUSH NEED WILSON'S OK
+## ▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶▶ START HERE (2026-10-05, latest) — SYMEON OF THESSALONICA, *ON THE SACRED RITES* (PG 155, 175–236) · ✅ LIVE ON migne.app (deployed 2026-10-06, `dpl_2kimL7nyZZcHqQ8gozuXZ2BQ7arH`, smoke-tested on the alias, badge FIRST) · PUSHED (`24256bc6`)
 
 **Built and staged:** `site/pg/155/de-sacramentis/` + `site/cruces/pg/155/de-sacramentis/`, RECENT top entry in `build-landing.mjs`, `build-site.mjs` (all indexes) run, `scan-raw-markers` clean, **`preflight` OK (7 checks)**. Badge **FIRST** — Wilson's own research verified no prior English (2026-10-06; `translationStatus: none` + `translationStatusVerified`). Bio `data/author-bios.json` "Symeon of Thessalonica"; about `data/work-about.json` "pg:symeon-thessalonica-de-sacramentis"; `englishState: ours`; polarity record written; plate reads for all 31 pages in `data/plate-reads.json`.
 **Blind read (3 Opus readers, ≈0.49M):** 0 polarity defects across ≈250 negatives; 6 findings all applied (+1 consistency extension) — see the BLIND READ table at the foot of `src/english/symeon-thessalonica-de-sacramentis/cruces.md`. **Ruling recorded: rubrical τρίτον = "three times."**
