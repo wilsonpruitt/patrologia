@@ -63,3 +63,27 @@ No token/dollar accounting was captured per call in this run (would need to be p
 - Per-call token/cost figures, if wanted for the deliverable table.
 - Greek arm on Opus, if the ~8.59%-mean verdict is contested (unlikely to change the Calfa-pipeline recommendation given Sonnet≈Opus on Latin).
 - A true multi-volume Latin sample (the original ~25-column, cross-volume brief) if Wilson wants confirmation the PL139-only result generalizes — current result is a single-volume, single-typography-batch sample.
+
+## 2026-10-14 — Junk-OCR witness scan as a verifier for vision OCR: NEGATIVE
+
+**Question:** can archive.org's Latin-letter "junk" Greek OCR (`NNN_djvu.xml`) serve as an
+independent witness that flags a Claude vision transcription's errors, so that only the flagged
+spots are read at the plate (a cheap Greek pipeline for the volumes outside Calfa)?
+**Method:** `scripts/greek-witness-scan.py` (look-alike letter map + Smith-Waterman alignment; flags
+plate-only runs, transcription-only runs and mismatch clusters) scored by
+`benchmark/witness-eval.py` on the 8 Greek benchmark pages. True errors are the Levenshtein diff of
+the model output against Calfa's ground truth; an error is caught if a flag lands within 12 characters.
+
+| detector | Sonnet letter errors caught | of those ≥3 letters | flags not near a real error | text still to read |
+|---|---|---|---|---|
+| gaps only (omission/insertion) | 14/58 | 6/20 | 143/170 | 24% |
+| gaps + mismatch clusters | 27/58 | 14/20 | 302/350 | 46% |
+| Haiku, gaps + clusters | 582/950 | 222/323 | 87/433 | 54% |
+
+**Ruling: not a verifier for vision OCR.** It misses about half of Sonnet's errors, and most of its
+flags are noise from the junk OCR, so a reader still covers a quarter to half the page. Sonnet's
+errors are mostly letter swaps and accents, which the look-alike map cannot see. Its large errors
+are rare (20 across 8 pages).
+**Where it DID work:** finding omissions in a *keyed* transcription against PG 91's OCR (Maximus,
+`pg-paired-pilot.md` 0e), where the candidate is clean, so every flag is signal. PG 91's OCR may
+also be cleaner than some of these volumes; PG 145 flagged 91% of its text.
